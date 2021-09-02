@@ -6,7 +6,7 @@ Release Note
 
 Here is the release note of exakat. 
 
-Version 2.2.2 (Si, coming up)
+Version 2.3.0 (Wei, coming up)
 
 + Architecture
     + 
@@ -19,6 +19,37 @@ Version 2.2.2 (Si, coming up)
 
 + Tokenizer
     + 
+
+Version 2.2.3 (Wu, coming up)
+
++ Architecture
+    + 
+
++ Report
+    + 
+
++ Analysis
+    + 
+
++ Tokenizer
+    + 
+
+Version 2.2.2 (Si, coming up)
+
++ Architecture
+    + Refactored documentation 
+
++ Report
+    + Added support for PHP 8.1 compatiblity
+
++ Analysis
+    + New analysis : Restrict $GLOBALS usage
+    + Updated analysis : Typehints/* got new Unit Tests
+    + Updated analysis : Explode optimisation 
+
++ Tokenizer
+    + Reduced the number of DEFAULT creation for properties
+    + Added support for new PHP 8.1 syntax
 
 **Version 2.2.1 (Chen, 2020-11-20)**
 

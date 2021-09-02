@@ -1569,14 +1569,14 @@ This report builds a configuration file for php-cs-fixer.
 
 
 + :ref:`use-===-null`  : **is_null**
-+ Structures/ElseIfElseif : **elseif**
++ :ref:`else-if-versus-elseif`  : **elseif**
 + :ref:`multiple-unset()`  : **combine_consecutive_unsets**
 + Classes/DontUnsetProperties: **no_unset_on_property**
-+ Structures/UseConstant : **function_to_constant**
++ :ref:`use-constant`  : **function_to_constant**
 + :ref:`php7-dirname`  : **combine_nested_dirname**
-+ Structures/CouldUseDir : **dir_constant**
++ :ref:`could-use-\_\_dir\_\_`  : **dir_constant**
 + :ref:`isset-multiple-arguments`  : **combine_consecutive_issets**
-+ Php/LogicalInLetters : **logical_operators**
++ :ref:`logical-should-use-symbolic-operators`  : **logical_operators**
 + :ref:`not-not`  : **no_short_bool_cast**
 
 

@@ -94,7 +94,7 @@ Analyze
 
 This ruleset centralizes a large number of classic trap and pitfalls when writing PHP.
 
-Total : 419 analysis
+Total : 420 analysis
 
 * :ref:`adding-zero`
 * :ref:`ambiguous-array-index`
@@ -515,6 +515,7 @@ Total : 419 analysis
 * :ref:`modify-immutable`
 * :ref:`only-container-for-reference`
 * :ref:`cannot-use-static-for-closure`
+* :ref:`No anchor for Classes/InheritedPropertyMustMatch <no-anchor-for-classes-inheritedpropertymustmatch>`
 
 .. _attributes:
 
@@ -536,20 +537,23 @@ CE
 
 This ruleset is the Community Edition list. It holds all the analysis that are in the community edition version of Exakat.
 
-Total : 458 analysis
+Total : 653 analysis
 
 * :ref:`adding-zero`
 * :ref:`array-index`
 * :ref:`multidimensional-arrays`
+* :ref:`multiple-index-definition`
 * :ref:`php-arrays-index`
 * :ref:`classes-names`
 * :ref:`constant-definition`
 * :ref:`magic-methods`
 * :ref:`forgotten-visibility`
+* :ref:`non-static-methods-called-in-a-static`
 * :ref:`old-style-constructor`
 * :ref:`static-methods`
 * :ref:`static-methods-called-from-object`
 * :ref:`static-properties`
+* :ref:`constants-with-strange-names`
 * :ref:`constants-usage`
 * :ref:`constants-names`
 * :ref:`magic-constant-usage`
@@ -640,10 +644,14 @@ Total : 458 analysis
 * :ref:`eval()-usage`
 * :ref:`exit()-usage`
 * :ref:`forgotten-whitespace`
+* :ref:`multiply-by-one`
 * :ref:`@-operator`
 * :ref:`not-not`
 * :ref:`include\_once()-usage`
 * :ref:`using-short-tags`
+* :ref:`strpos()-like-comparison`
+* :ref:`throws-an-assignement`
+* :ref:`var\_dump()...-usage`
 * :ref:`binary-glossary`
 * :ref:`email-addresses`
 * :ref:`heredoc-delimiter-glossary`
@@ -673,21 +681,43 @@ Total : 458 analysis
 * :ref:`ext-math`
 * :ref:`$http\_raw\_post\_data-usage`
 * :ref:`ext-yis`
+* :ref:`useless-instructions`
+* :ref:`multiple-constant-definition`
 * :ref:`wrong-optional-parameter`
+* :ref:`use-===-null`
 * :ref:`assertions`
+* :ref:`one-variable-string`
 * :ref:`cast-usage`
 * :ref:`function-subscripting`
 * :ref:`nested-loops`
 * :ref:`I?=-usage`
+* :ref:`static-methods-can't-contain-$this`
+* :ref:`while(list()-=-each())`
+* :ref:`multiples-identical-case`
+* :ref:`switch-without-default`
+* :ref:`nested-ternary`
+* :ref:`undefined-constants`
+* :ref:`custom-constant-usage`
 * :ref:`ext-pcntl`
 * :ref:`ext-ming`
 * :ref:`ext-redis`
 * :ref:`is-an-extension-function`
 * :ref:`is-an-extension-interface`
 * :ref:`is-an-extension-constant`
+* :ref:`htmlentities-calls`
+* :ref:`defined-class-constants`
+* :ref:`undefined-class-constants`
+* :ref:`used-once-variables-(in-scope)`
+* :ref:`undefined-functions`
+* :ref:`deprecated-php-functions`
+* :ref:`dangling-array-references`
 * :ref:`ext-cyrus`
 * :ref:`ext-sqlsrv`
+* :ref:`aliases-usage`
+* :ref:`uses-default-values`
+* :ref:`wrong-number-of-arguments`
 * :ref:`ellipsis-usage`
+* :ref:`use-const`
 * :ref:`ext-0mq`
 * :ref:`ext-memcache`
 * :ref:`ext-memcached`
@@ -701,9 +731,15 @@ Total : 458 analysis
 * :ref:`is-generator`
 * :ref:`try-with-finally`
 * :ref:`dereferencing-string-and-arrays`
+* :ref:`list()-may-omit-variables`
+* :ref:`or-die`
 * :ref:`constant-scalar-expressions`
+* :ref:`exit-like-methods`
+* :ref:`must-return-methods`
 * :ref:`ext-imagick`
 * :ref:`ext-oci8`
+* :ref:`overwritten-exceptions`
+* :ref:`foreach-reference-is-not-modified`
 * :ref:`ext-imap`
 * :ref:`overwritten-class-const`
 * :ref:`dynamic-class-constant`
@@ -719,16 +755,28 @@ Total : 458 analysis
 * :ref:`ext-pspell`
 * :ref:`no-direct-access`
 * :ref:`ext-opcache`
+* :ref:`is-php-constant`
 * :ref:`ext-expect`
+* :ref:`defined-properties`
+* :ref:`undefined-properties`
+* :ref:`has-magic-property`
 * :ref:`ext-recode`
 * :ref:`ext-parsekit`
 * :ref:`ext-runkit`
 * :ref:`ext-gettext`
+* :ref:`strict-comparison-with-booleans`
+* :ref:`lone-blocks`
 * :ref:`super-global-usage`
 * :ref:`global-usage`
+* :ref:`logical-should-use-symbolic-operators`
 * :ref:`namespaces`
 * :ref:`deep-definitions`
+* :ref:`constant-class`
 * :ref:`not-definitions-only`
+* :ref:`repeated-print()`
+* :ref:`avoid-parenthesis`
+* :ref:`objects-don't-need-references`
+* :ref:`no-real-comparison`
 * :ref:`usage-of-class\_alias()`
 * :ref:`ext-apache`
 * :ref:`ext-eaccelerator`
@@ -736,25 +784,47 @@ Total : 458 analysis
 * :ref:`ext-iis`
 * :ref:`ext-xcache`
 * :ref:`ext-wincache`
+* :ref:`no-direct-call-to-magic-method`
+* :ref:`useless-final`
+* :ref:`use-constant`
 * :ref:`resources-usage`
+* :ref:`useless-unset`
+* :ref:`no-array\_merge()-in-loops`
+* :ref:`useless-parenthesis`
 * :ref:`shell-usage`
 * :ref:`file-usage`
 * :ref:`mail-usage`
 * :ref:`dynamic-calls`
+* :ref:`use-php-object-api`
+* :ref:`altering-foreach-without-reference`
 * :ref:`test-class`
 * :ref:`mark-callable`
+* :ref:`use-pathinfo`
 * :ref:`ext-dio`
+* :ref:`no-parenthesis-for-language-construct`
 * :ref:`ext-phalcon`
+* :ref:`use-constant-as-arguments`
+* :ref:`implied-if`
 * :ref:`composer-usage`
 * :ref:`composer's-autoload`
 * :ref:`composer-namespace`
+* :ref:`should-chain-exception`
+* :ref:`undefined-interfaces`
 * :ref:`ext-apcu`
+* :ref:`should-use-prepared-statement`
+* :ref:`print-and-die`
+* :ref:`unchecked-resources`
 * :ref:`ext-trader`
 * :ref:`ext-mailparse`
 * :ref:`ext-mail`
+* :ref:`else-if-versus-elseif`
+* :ref:`multiple-class-declarations`
+* :ref:`empty-namespace`
+* :ref:`could-use-short-assignation`
 * :ref:`scalar-typehint-usage`
 * :ref:`return-typehint-usage`
 * :ref:`ext-ob`
+* :ref:`pre-increment`
 * :ref:`ext-geoip`
 * :ref:`ext-event`
 * :ref:`ext-amqp`
@@ -771,35 +841,83 @@ Total : 458 analysis
 * :ref:`ext-php-ast`
 * :ref:`ext-xml`
 * :ref:`ext-xhprof`
+* :ref:`indices-are-int-or-string`
+* :ref:`should-typecast`
 * :ref:`else-usage`
+* :ref:`is-composer-class`
+* :ref:`is-composer-interface`
+* :ref:`avoid-substr()-one`
 * :ref:`anonymous-classes`
 * :ref:`coalesce`
 * :ref:`directives-usage`
+* :ref:`useless-brackets`
+* :ref:`preg\_replace-with-option-e`
+* :ref:`eval()-without-try`
+* :ref:`is-not-class-family`
 * :ref:`global-in-global`
 * :ref:`ext-fann`
 * :ref:`use-web`
 * :ref:`use-cli`
+* :ref:`avoid-get\_class()`
+* :ref:`silently-cast-integer`
 * :ref:`error-messages`
+* :ref:`timestamp-difference`
 * :ref:`php7-relaxed-keyword`
 * :ref:`ext-pecl\_http`
 * :ref:`uses-environment`
+* :ref:`wrong-parameter-type`
 * :ref:`redefined-methods`
+* :ref:`redefined-class-constants`
+* :ref:`redefined-default`
+* :ref:`wrong-fopen()-mode`
 * :ref:`is-cli-script`
 * :ref:`php-bugfixes`
+* :ref:`negative-power`
+* :ref:`use-random\_int()`
+* :ref:`ternary-in-concat`
 * :ref:`ext-tokyotyrant`
 * :ref:`ext-v8js`
 * :ref:`yield-usage`
 * :ref:`yield-from-usage`
 * :ref:`pear-usage`
+* :ref:`undefined-trait`
+* :ref:`identical-conditions`
+* :ref:`unkown-regex-options`
+* :ref:`no-choice`
+* :ref:`logical-mistakes`
 * :ref:`ext-lua`
+* :ref:`same-conditions-in-condition`
+* :ref:`return-true-false`
+* :ref:`could-use-\_\_dir\_\_`
+* :ref:`should-use-coalesce`
 * :ref:`list-with-keys`
+* :ref:`if-with-same-conditions`
 * :ref:`ext-suhosin`
+* :ref:`throw-functioncall`
 * :ref:`can't-disable-function`
 * :ref:`functions-using-reference`
+* :ref:`use-instanceof`
 * :ref:`list-short-syntax`
+* :ref:`results-may-be-missing`
 * :ref:`use-nullable-type`
+* :ref:`always-positive-comparison`
 * :ref:`multiple-exceptions-catch()`
+* :ref:`empty-blocks`
+* :ref:`throw-in-destruct`
+* :ref:`use-system-tmp`
+* :ref:`hidden-use-expression`
+* :ref:`should-make-alias`
+* :ref:`multiple-identical-trait-or-interface`
+* :ref:`multiple-alias-definitions`
+* :ref:`failed-substr-comparison`
+* :ref:`should-make-ternary`
+* :ref:`drop-else-after-return`
+* :ref:`use-class-operator`
 * :ref:`ext-rar`
+* :ref:`don't-echo-error`
+* :ref:`useless-type-casting`
+* :ref:`no-isset()-with-empty()`
+* :ref:`useless-check`
 * :ref:`ext-nsapi`
 * :ref:`ext-newt`
 * :ref:`ext-ncurses`
@@ -811,14 +929,22 @@ Total : 458 analysis
 * :ref:`error\_log()-usage`
 * :ref:`sql-queries`
 * :ref:`ext-libsodium`
+* :ref:`multiple-alias-definitions-per-file`
+* :ref:`\_\_dir\_\_-then-slash`
 * :ref:`ext-ds`
 * :ref:`use-cookies`
 * :ref:`group-use-declaration`
+* :ref:`repeated-regex`
+* :ref:`no-class-in-global`
+* :ref:`could-use-str\_repeat()`
+* :ref:`strings-with-strange-space`
+* :ref:`no-empty-regex`
 * :ref:`ext-sphinx`
 * :ref:`try-with-multiple-catch`
 * :ref:`ext-grpc`
 * :ref:`use-browscap`
 * :ref:`use-debug`
+* :ref:`no-reference-on-left-side`
 * :ref:`psr-16-usage`
 * :ref:`psr-7-usage`
 * :ref:`psr-6-usage`
@@ -848,12 +974,19 @@ Total : 458 analysis
 * :ref:`encoding-usage`
 * :ref:`ticks-usage`
 * :ref:`ext-lapack`
+* :ref:`assign-with-and-precedence`
+* :ref:`no-magic-method-with-array`
 * :ref:`ext-xattr`
 * :ref:`ext-rdkafka`
 * :ref:`ext-fam`
 * :ref:`ext-parle`
 * :ref:`regex-inventory`
+* :ref:`is-actually-zero`
+* :ref:`unconditional-break-in-loop`
 * :ref:`too-complex-expression`
+* :ref:`is-a-php-magic-property`
+* :ref:`next-month-trap`
+* :ref:`printf-number-of-arguments`
 * :ref:`drupal-usage`
 * :ref:`phalcon-usage`
 * :ref:`fuelphp-usage`
@@ -864,8 +997,14 @@ Total : 458 analysis
 * :ref:`ext-vips`
 * :ref:`dl()-usage`
 * :ref:`environment-variables`
+* :ref:`invalid-regex`
+* :ref:`same-variable-foreach`
 * :ref:`ext-igbinary`
+* :ref:`identical-on-both-sides`
+* :ref:`no-reference-for-ternary`
+* :ref:`unused-inherited-variable-in-closure`
 * :ref:`fallback-function`
+* :ref:`useless-catch`
 * :ref:`ext-hrtime`
 * :ref:`ext-xxtea`
 * :ref:`ext-uopz`
@@ -873,28 +1012,44 @@ Total : 458 analysis
 * :ref:`ext-opencensus`
 * :ref:`ext-leveldb`
 * :ref:`ext-db2`
+* :ref:`don't-unset-properties`
+* :ref:`strtr-arguments`
+* :ref:`missing-parenthesis`
+* :ref:`callback-function-needs-return`
 * :ref:`ext-zookeeper`
 * :ref:`ext-cmark`
+* :ref:`strpos()-too-much`
+* :ref:`typehinted-references`
+* :ref:`check-json`
 * :ref:`ext-eio`
 * :ref:`ext-csprng`
+* :ref:`undefined-class`
 * :ref:`ext-lzf`
 * :ref:`ext-msgpack`
 * :ref:`case-insensitive-constants`
 * :ref:`handle-arrays-with-callback`
 * :ref:`detect-current-class`
 * :ref:`trailing-comma-in-calls`
+* :ref:`undefined-variable`
+* :ref:`undefined-insteadof`
 * :ref:`can't-disable-class`
 * :ref:`ext-seaslog`
+* :ref:`wrong-access-style-to-property`
+* :ref:`invalid-pack-format`
 * :ref:`don't-read-and-write-in-one-expression`
 * :ref:`pack-format-inventory`
 * :ref:`printf-format-inventory`
 * :ref:`idn\_to\_ascii()-new-default`
 * :ref:`ext-decimal`
 * :ref:`ext-psr`
+* :ref:`should-yield-with-key`
+* :ref:`useless-alias`
 * :ref:`ext-sdl`
 * :ref:`ext-async`
 * :ref:`ext-wasm`
 * :ref:`path-lists`
+* :ref:`possible-missing-subpattern`
+* :ref:`assign-and-compare`
 * :ref:`typed-property-usage`
 * :ref:`ext-weakref`
 * :ref:`ext-pcov`
@@ -902,51 +1057,79 @@ Total : 458 analysis
 * :ref:`php-8.0-removed-functions`
 * :ref:`php-8.0-removed-constants`
 * :ref:`an-oop-factory`
+* :ref:`typehint-must-be-returned`
+* :ref:`self-transforming-variables`
+* :ref:`check-on-\_\_call-usage`
 * :ref:`php-overridden-function`
 * :ref:`ext-svm`
 * :ref:`ext-ffi`
 * :ref:`ext-password`
 * :ref:`ext-zend\_monitor`
 * :ref:`ext-uuid`
+* :ref:`casting-ternary`
 * :ref:`concat-and-addition`
 * :ref:`new-functions-in-php-7.4`
 * :ref:`curl\_version()-has-no-argument`
 * :ref:`php-7.4-new-class`
 * :ref:`new-constants-in-php-7.4`
+* :ref:`wrong-type-returned`
+* :ref:`cant-use-function`
 * :ref:`php-7.4-removed-functions`
 * :ref:`mb\_strrpos()-third-argument`
 * :ref:`array\_key\_exists()-works-on-arrays`
 * :ref:`reflection-export()-is-deprecated`
 * :ref:`unbinding-closures`
 * :ref:`numeric-literal-separator`
+* :ref:`class-without-parent`
 * :ref:`scalar-are-not-arrays`
+* :ref:`create-compact-variables`
 * :ref:`php-7.4-reserved-keyword`
 * :ref:`no-more-curly-arrays`
 * :ref:`overwritten-properties`
+* :ref:`overwritten-constant`
+* :ref:`create-magic-property`
 * :ref:`set-parent-definition`
+* :ref:`make-class-constant-definition`
+* :ref:`follow-closure-definition`
 * :ref:`php-7.4-constant-deprecation`
+* :ref:`implode()-arguments-order`
 * :ref:`php-7.4-removed-directives`
 * :ref:`hash-algorithms-incompatible-with-php-7.4-`
 * :ref:`openssl\_random\_pseudo\_byte()-second-argument`
+* :ref:`strip\_tags-skips-closed-tag`
 * :ref:`use-covariance`
 * :ref:`use-contravariance`
+* :ref:`seta-rray-class-definition`
+* :ref:`set-string-method-definition`
 * :ref:`use-arrow-functions`
 * :ref:`environment-variable-usage`
 * :ref:`indentation-levels`
 * :ref:`spread-operator-for-array`
 * :ref:`nested-ternary-without-parenthesis`
 * :ref:`cyclomatic-complexity`
+* :ref:`should-use-explode-args`
+* :ref:`use-array\_slice()`
+* :ref:`coalesce-and-concat`
+* :ref:`interfaces-is-not-implemented`
+* :ref:`no-literal-for-reference`
 * :ref:`collect-literals`
 * :ref:`collect-parameter-counts`
 * :ref:`collect-local-variable-counts`
 * :ref:`dump-dereferencinglevels`
+* :ref:`make-functioncall-with-reference`
 * :ref:`foreach()-favorite`
+* :ref:`cant-implement-traversable`
+* :ref:`is\_a()-with-string`
+* :ref:`mbstring-unknown-encoding`
 * :ref:`collect-mbstring-encodings`
 * :ref:`filter-to-add\_slashes()`
+* :ref:`mbstring-third-arg`
 * :ref:`typehinting-stats`
 * :ref:`typo-3-usage`
 * :ref:`concrete-usage`
 * :ref:`immutable-signature`
+* :ref:`merge-if-then`
+* :ref:`wrong-type-with-call`
 * :ref:`shell-commands`
 * :ref:`dump-inclusions`
 * :ref:`typehint-order`
@@ -955,31 +1138,44 @@ Total : 458 analysis
 * :ref:`collect-class-interface-counts`
 * :ref:`collect-class-depth`
 * :ref:`collect-class-children-count`
+* :ref:`not-equal-is-not-!==`
 * :ref:`constant-order`
 * :ref:`php-8.0-variable-syntax-tweaks`
 * :ref:`new-functions-in-php-8.0`
 * :ref:`php-8.0-only-typehints`
 * :ref:`union-typehint`
+* :ref:`wrong-typed-property-default`
 * :ref:`signature-trailing-comma`
 * :ref:`throw-was-an-expression`
 * :ref:`collect-property-counts`
 * :ref:`collect-method-counts`
 * :ref:`collect-class-constant-counts`
+* :ref:`could-be-string`
+* :ref:`could-be-boolean`
+* :ref:`could-be-array-typehint`
+* :ref:`could-be-cit`
 * :ref:`protocol-lists`
+* :ref:`could-be-integer`
 * :ref:`call-order`
+* :ref:`could-be-null`
 * :ref:`uses-php-8-match()`
+* :ref:`could-be-float`
 * :ref:`collect-parameter-names`
+* :ref:`wrong-type-for-native-php-function`
 * :ref:`dump-fossilizedmethods`
 * :ref:`dump-collectclasschanges`
 * :ref:`use-php-attributes`
 * :ref:`use-nullsafe-operator`
 * :ref:`use-closure-trailing-comma`
+* :ref:`unknown-parameter-name`
+* :ref:`missing-some-returntype`
 * :ref:`collect-variables`
 * :ref:`dump-collectglobalvariables`
 * :ref:`collect-readability`
 * :ref:`dump-collectdefinitionsstats`
 * :ref:`collect-class-traits-counts`
 * :ref:`collect-native-calls-per-expressions`
+* :ref:`function-with-dynamic-code`
 * :ref:`cast-unset-usage`
 * :ref:`$php\_errormsg-usage`
 * :ref:`mismatch-parameter-name`
@@ -1190,7 +1386,7 @@ ClassReview
 
 This ruleset focuses on classes construction issues, and their related structures : traits, interfaces, methods, properties, constants.
 
-Total : 55 analysis
+Total : 56 analysis
 
 * :ref:`final-class-usage`
 * :ref:`final-methods-usage`
@@ -1247,6 +1443,7 @@ Total : 55 analysis
 * :ref:`final-private-methods`
 * :ref:`missing-\_\_isset()-method`
 * :ref:`no-static-variable-in-a-method`
+* :ref:`No anchor for Classes/InheritedPropertyMustMatch <no-anchor-for-classes-inheritedpropertymustmatch>`
 
 .. _coding-conventions:
 
@@ -1824,9 +2021,9 @@ CompatibilityPHP81
 
 This ruleset centralizes all analysis for the migration from PHP 8.0 to 8.1.
 
-Total : 0 analysis
+Total : 1 analysis
 
-* 
+* :ref:`No anchor for Php/RestrictGlobalUsage <no-anchor-for-php-restrictglobalusage>`
 
 .. _dead-code:
 
@@ -1871,7 +2068,7 @@ LintButWontExec
 
 This ruleset focuses on PHP code that lint (php -l), but that will not run. As such, this ruleset tries to go further than PHP, by connecting files, just like during execution.
 
-Total : 30 analysis
+Total : 31 analysis
 
 * :ref:`final-class-usage`
 * :ref:`final-methods-usage`
@@ -1903,6 +2100,7 @@ Total : 30 analysis
 * :ref:`mismatch-properties-typehints`
 * :ref:`could-be-stringable`
 * :ref:`only-container-for-reference`
+* :ref:`No anchor for Classes/InheritedPropertyMustMatch <no-anchor-for-classes-inheritedpropertymustmatch>`
 
 .. _performances:
 
@@ -2205,7 +2403,7 @@ Typechecks
 
 This ruleset focuses on typehinting. Missing typehint, or inconsistent typehint, are reported. 
 
-Total : 23 analysis
+Total : 24 analysis
 
 * :ref:`argument-should-be-typehinted`
 * :ref:`useless-interfaces`
@@ -2230,6 +2428,7 @@ Total : 23 analysis
 * :ref:`could-be-float`
 * :ref:`could-be-self`
 * :ref:`could-be-parent`
+* :ref:`could-be-generator`
 
 .. _php-cs-fixable:
 

@@ -97,27 +97,27 @@ You can use the `install` command this way :
 Installation on OSX
 -------------------
 
-Paste the following commands in a terminal prompt. It downloads Exakat, and installs tinkerpop version 3.4.8. 
-PHP 7.0 or more recent, curl, homebrew are required.
+Paste the following commands in a terminal prompt. It downloads Exakat, and installs tinkerpop version 3.4.11. 
+PHP 7.4 or more recent, curl, homebrew are required.
 
-OSX installation with tinkergraph 3.4.8
-***************************************
+OSX installation with tinkergraph 3.4.11
+****************************************
 
-This is the installation script for Exakat and tinkergraph 3.4.8. 
+This is the installation script for Exakat and tinkergraph 3.4.11. 
 
 ::
 
     mkdir exakat
     cd exakat
     curl -o exakat.phar 'https://www.exakat.io/versions/index.php?file=latest'
-    curl -o apache-tinkerpop-gremlin-server-3.4.8-bin.zip 'https://www.exakat.io/versions/apache-tinkerpop-gremlin-server-3.4.8-bin.zip'
-    unzip apache-tinkerpop-gremlin-server-3.4.8-bin.zip 
-    mv apache-tinkerpop-gremlin-server-3.4.8 tinkergraph
-    rm -rf apache-tinkerpop-gremlin-server-3.4.8-bin.zip 
+    curl -o apache-tinkerpop-gremlin-server-3.4.11-bin.zip 'https://www.exakat.io/versions/apache-tinkerpop-gremlin-server-3.4.11-bin.zip'
+    unzip apache-tinkerpop-gremlin-server-3.4.11-bin.zip 
+    mv apache-tinkerpop-gremlin-server-3.4.11 tinkergraph
+    rm -rf apache-tinkerpop-gremlin-server-3.4.11-bin.zip 
     
     # Optional : install neo4j engine.
     cd tinkergraph
-    ./bin/gremlin-server.sh install org.apache.tinkerpop neo4j-gremlin 3.4.8
+    ./bin/gremlin-server.sh install org.apache.tinkerpop neo4j-gremlin 3.4.11
     cd ..
     
     php exakat.phar doctor
@@ -140,10 +140,10 @@ They remove some files for grapes, that it will rebuild later. Then, try again t
 Installation on Debian/Ubuntu
 -----------------------------
 
-Debian/Ubuntu installation with Tinkergraph 3.4.8
-*************************************************
+Debian/Ubuntu installation with Tinkergraph 3.4.11
+**************************************************
 
-Paste the following commands in a terminal prompt. It installs Exakat most recent version with Tinkergraph 3.4.8. 
+Paste the following commands in a terminal prompt. It installs Exakat most recent version with Tinkergraph 3.4.11. 
 PHP 7.3 (7.0 or more recent), wget and unzip are expected.
 
 ::
@@ -151,14 +151,14 @@ PHP 7.3 (7.0 or more recent), wget and unzip are expected.
     mkdir exakat
     cd exakat
     wget -O exakat.phar https://www.exakat.io/versions/index.php?file=latest
-    wget -O apache-tinkerpop-gremlin-server-3.4.8-bin.zip 'https://www.exakat.io/versions/apache-tinkerpop-gremlin-server-3.4.8-bin.zip'
-    unzip apache-tinkerpop-gremlin-server-3.4.8-bin.zip 
-    mv apache-tinkerpop-gremlin-server-3.4.8 tinkergraph
-    rm -rf apache-tinkerpop-gremlin-server-3.4.8-bin.zip 
+    wget -O apache-tinkerpop-gremlin-server-3.4.11-bin.zip 'https://www.exakat.io/versions/apache-tinkerpop-gremlin-server-3.4.11-bin.zip'
+    unzip apache-tinkerpop-gremlin-server-3.4.11-bin.zip 
+    mv apache-tinkerpop-gremlin-server-3.4.11 tinkergraph
+    rm -rf apache-tinkerpop-gremlin-server-3.4.11-bin.zip 
     
     # Optional : install neo4j engine.
     cd tinkergraph
-    ./bin/gremlin-server.sh install org.apache.tinkerpop neo4j-gremlin 3.4.8
+    ./bin/gremlin-server.sh install org.apache.tinkerpop neo4j-gremlin 3.4.11
     cd ..
 
     php exakat.phar doctor
