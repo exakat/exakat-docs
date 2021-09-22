@@ -453,6 +453,7 @@ Analyze
 |   analyzer[] = "Structures/NoIssetWithEmpty";
 |   analyzer[] = "Structures/NoNeedForElse";
 |   analyzer[] = "Structures/NoNeedForTriple";
+|   analyzer[] = "Structures/NoObjectAsIndex";
 |   analyzer[] = "Structures/NoParenthesisForLanguageConstruct";
 |   analyzer[] = "Structures/NoReferenceOnLeft";
 |   analyzer[] = "Structures/NoSubstrOne";
@@ -463,6 +464,7 @@ Analyze
 |   analyzer[] = "Structures/ObjectReferences";
 |   analyzer[] = "Structures/OnceUsage";
 |   analyzer[] = "Structures/OneLineTwoInstructions";
+|   analyzer[] = "Structures/OnlyFirstByte";
 |   analyzer[] = "Structures/OnlyVariableReturnedByReference";
 |   analyzer[] = "Structures/OrDie";
 |   analyzer[] = "Structures/PossibleInfiniteLoop";
@@ -1514,6 +1516,7 @@ CompatibilityPHP53
 |   analyzer[] = "Php/DefineWithArray";
 |   analyzer[] = "Php/DirectCallToClone";
 |   analyzer[] = "Php/EllipsisUsage";
+|   analyzer[] = "Php/EnumUsage";
 |   analyzer[] = "Php/ExponentUsage";
 |   analyzer[] = "Php/FlexibleHeredoc";
 |   analyzer[] = "Php/GroupUseDeclaration";
@@ -1599,6 +1602,7 @@ CompatibilityPHP54
 |   analyzer[] = "Php/DefineWithArray";
 |   analyzer[] = "Php/DirectCallToClone";
 |   analyzer[] = "Php/EllipsisUsage";
+|   analyzer[] = "Php/EnumUsage";
 |   analyzer[] = "Php/ExponentUsage";
 |   analyzer[] = "Php/FlexibleHeredoc";
 |   analyzer[] = "Php/GroupUseDeclaration";
@@ -1682,6 +1686,7 @@ CompatibilityPHP55
 |   analyzer[] = "Php/DefineWithArray";
 |   analyzer[] = "Php/DirectCallToClone";
 |   analyzer[] = "Php/EllipsisUsage";
+|   analyzer[] = "Php/EnumUsage";
 |   analyzer[] = "Php/ExponentUsage";
 |   analyzer[] = "Php/FlexibleHeredoc";
 |   analyzer[] = "Php/GroupUseDeclaration";
@@ -1753,6 +1758,7 @@ CompatibilityPHP56
 |   analyzer[] = "Php/ConcatAndAddition";
 |   analyzer[] = "Php/DefineWithArray";
 |   analyzer[] = "Php/DirectCallToClone";
+|   analyzer[] = "Php/EnumUsage";
 |   analyzer[] = "Php/FlexibleHeredoc";
 |   analyzer[] = "Php/GroupUseDeclaration";
 |   analyzer[] = "Php/GroupUseTrailingComma";
@@ -1817,6 +1823,7 @@ CompatibilityPHP70
 |   analyzer[] = "Php/CoalesceEqual";
 |   analyzer[] = "Php/ConcatAndAddition";
 |   analyzer[] = "Php/EmptyList";
+|   analyzer[] = "Php/EnumUsage";
 |   analyzer[] = "Php/FlexibleHeredoc";
 |   analyzer[] = "Php/ForeachDontChangePointer";
 |   analyzer[] = "Php/GlobalWithoutSimpleVariable";
@@ -1874,6 +1881,7 @@ CompatibilityPHP71
 |   analyzer[] = "Php/BetterRand";
 |   analyzer[] = "Php/CoalesceEqual";
 |   analyzer[] = "Php/ConcatAndAddition";
+|   analyzer[] = "Php/EnumUsage";
 |   analyzer[] = "Php/FlexibleHeredoc";
 |   analyzer[] = "Php/GroupUseTrailingComma";
 |   analyzer[] = "Php/HashAlgos53";
@@ -1915,6 +1923,7 @@ CompatibilityPHP72
 |   analyzer[] = "Php/AvoidSetErrorHandlerContextArg";
 |   analyzer[] = "Php/CoalesceEqual";
 |   analyzer[] = "Php/ConcatAndAddition";
+|   analyzer[] = "Php/EnumUsage";
 |   analyzer[] = "Php/FlexibleHeredoc";
 |   analyzer[] = "Php/HashAlgos53";
 |   analyzer[] = "Php/HashAlgos54";
@@ -1955,6 +1964,7 @@ CompatibilityPHP73
 |   analyzer[] = "Php/CoalesceEqual";
 |   analyzer[] = "Php/CompactInexistant";
 |   analyzer[] = "Php/ConcatAndAddition";
+|   analyzer[] = "Php/EnumUsage";
 |   analyzer[] = "Php/IntegerSeparatorUsage";
 |   analyzer[] = "Php/Php73NewFunctions";
 |   analyzer[] = "Php/Php73RemovedFunctions";
@@ -1983,6 +1993,7 @@ CompatibilityPHP74
 |   analyzer[] = "Php/AvoidGetobjectVars";
 |   analyzer[] = "Php/ConcatAndAddition";
 |   analyzer[] = "Php/DetectCurrentClass";
+|   analyzer[] = "Php/EnumUsage";
 |   analyzer[] = "Php/FilterToAddSlashes";
 |   analyzer[] = "Php/HashAlgos74";
 |   analyzer[] = "Php/IdnUts46";
@@ -2027,6 +2038,7 @@ CompatibilityPHP80
 |   analyzer[] = "Php/AvoidGetobjectVars";
 |   analyzer[] = "Php/CastUnsetUsage";
 |   analyzer[] = "Php/ConcatAndAddition";
+|   analyzer[] = "Php/EnumUsage";
 |   analyzer[] = "Php/Php80NamedParameterVariadic";
 |   analyzer[] = "Php/Php80RemovedConstant";
 |   analyzer[] = "Php/Php80RemovedDirective";
@@ -2047,6 +2059,7 @@ CompatibilityPHP81
 
 | [CompatibilityPHP81]
 |   analyzer[] = "Php/RestrictGlobalUsage";
+|   analyzer[] = "Variables/InheritedStaticVariable";
 
 
 

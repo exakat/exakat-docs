@@ -29069,7 +29069,7 @@ Specs
 Missing Typehint
 ++++++++++++++++
 
- No typehint was found for this parameter, or as a return type for the function.
+ No typehint was found for a parameter, a return type for a method or a property.
 
 void is considered a specified typehint, and is not reported here.
 
@@ -29077,10 +29077,13 @@ void is considered a specified typehint, and is not reported here.
 
    <?php
    
-   function foo($no_typehint) : void {}
+   class x {
+       private $no_property;
+       
+       function foo($no_typehint) : void {}
    
-   function no_return_type() {}
-   
+       function no_return_type() {}
+   }
    ?>
 
 
@@ -29090,7 +29093,7 @@ See also `Type Declaration <https://www.php.net/manual/en/functions.arguments.ph
 Suggestions
 ^^^^^^^^^^^
 
-*
+* Add a type to the argument, property or method
 
 Specs
 ^^^^^
@@ -66899,7 +66902,7 @@ Duplicate Literal
 
 Repeated literals should be considered a prime candidate for constants.
 
-Integer, reals and strings are considered here. Boolean, Null and Arrays are omitted. 0, 1, 2, 10 and the empty string are all omitted, as too common.
+Integer, reals and strings are considered here. Boolean, Null and Arrays are omitted. 0, 1, 2, 10 and the empty string are all omitted, as too common. This list of omitted constants may be configured with the ignoreList parameter : a comma separated list of values.
 
 .. code-block:: php
 
@@ -66925,11 +66928,13 @@ Suggestions
 * Create a constant and use it in place of the literal
 * Create a class constant and use it in place of the literal
 
-+--------------+---------+---------+---------------------------------------------------------------+
-| Name         | Default | Type    | Description                                                   |
-+--------------+---------+---------+---------------------------------------------------------------+
-| minDuplicate | 15      | integer | Minimal number of duplication before the literal is reported. |
-+--------------+---------+---------+---------------------------------------------------------------+
++--------------+----------+---------+---------------------------------------------------------------+
+| Name         | Default  | Type    | Description                                                   |
++--------------+----------+---------+---------------------------------------------------------------+
+| minDuplicate | 15       | integer | Minimal number of duplication before the literal is reported. |
++--------------+----------+---------+---------------------------------------------------------------+
+| ignoreList   | 0,1,2,10 | array   | Common values that have to be ignored. Comma separated list.  |
++--------------+----------+---------+---------------------------------------------------------------+
 
 
 

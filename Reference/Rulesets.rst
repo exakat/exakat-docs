@@ -94,7 +94,7 @@ Analyze
 
 This ruleset centralizes a large number of classic trap and pitfalls when writing PHP.
 
-Total : 420 analysis
+Total : 422 analysis
 
 * :ref:`adding-zero`
 * :ref:`ambiguous-array-index`
@@ -515,7 +515,9 @@ Total : 420 analysis
 * :ref:`modify-immutable`
 * :ref:`only-container-for-reference`
 * :ref:`cannot-use-static-for-closure`
+* :ref:`No anchor for Structures/OnlyFirstByte <no-anchor-for-structures-onlyfirstbyte>`
 * :ref:`No anchor for Classes/InheritedPropertyMustMatch <no-anchor-for-classes-inheritedpropertymustmatch>`
+* :ref:`No anchor for Structures/NoObjectAsIndex <no-anchor-for-structures-noobjectasindex>`
 
 .. _attributes:
 
@@ -1463,7 +1465,7 @@ CompatibilityPHP53
 
 This ruleset centralizes all analysis for the migration from PHP 5.2 to 5.3.
 
-Total : 79 analysis
+Total : 80 analysis
 
 * :ref:`non-static-methods-called-in-a-static`
 * :ref:`ext-dba`
@@ -1544,6 +1546,7 @@ Total : 79 analysis
 * :ref:`unpacking-inside-arrays`
 * :ref:`generator-cannot-return`
 * :ref:`coalesce-equal`
+* :ref:`No anchor for Php/EnumUsage <no-anchor-for-php-enumusage>`
 
 .. _compatibilityphp54:
 
@@ -1552,7 +1555,7 @@ CompatibilityPHP54
 
 This ruleset centralizes all analysis for the migration from PHP 5.3 to 5.4.
 
-Total : 75 analysis
+Total : 76 analysis
 
 * :ref:`non-static-methods-called-in-a-static`
 * :ref:`use-lower-case-for-parent,-static-and-self`
@@ -1629,6 +1632,7 @@ Total : 75 analysis
 * :ref:`unpacking-inside-arrays`
 * :ref:`generator-cannot-return`
 * :ref:`coalesce-equal`
+* :ref:`No anchor for Php/EnumUsage <no-anchor-for-php-enumusage>`
 
 .. _compatibilityphp55:
 
@@ -1637,7 +1641,7 @@ CompatibilityPHP55
 
 This ruleset centralizes all analysis for the migration from PHP 5.4 to 5.5.
 
-Total : 67 analysis
+Total : 68 analysis
 
 * :ref:`non-static-methods-called-in-a-static`
 * :ref:`ext-apc`
@@ -1706,6 +1710,7 @@ Total : 67 analysis
 * :ref:`unpacking-inside-arrays`
 * :ref:`generator-cannot-return`
 * :ref:`coalesce-equal`
+* :ref:`No anchor for Php/EnumUsage <no-anchor-for-php-enumusage>`
 
 .. _compatibilityphp56:
 
@@ -1714,7 +1719,7 @@ CompatibilityPHP56
 
 This ruleset centralizes all analysis for the migration from PHP 5.5 to 5.6.
 
-Total : 57 analysis
+Total : 58 analysis
 
 * :ref:`non-static-methods-called-in-a-static`
 * :ref:`malformed-octal`
@@ -1773,6 +1778,7 @@ Total : 57 analysis
 * :ref:`generator-cannot-return`
 * :ref:`coalesce-equal`
 * :ref:`php-8.0-only-typehints`
+* :ref:`No anchor for Php/EnumUsage <no-anchor-for-php-enumusage>`
 
 .. _compatibilityphp70:
 
@@ -1781,7 +1787,7 @@ CompatibilityPHP70
 
 This ruleset centralizes all analysis for the migration from PHP 5.6 to 7.0.
 
-Total : 49 analysis
+Total : 50 analysis
 
 * :ref:`ext-ereg`
 * :ref:`mcrypt\_create\_iv()-with-default-values`
@@ -1832,6 +1838,7 @@ Total : 49 analysis
 * :ref:`coalesce-equal`
 * :ref:`php-8.0-only-typehints`
 * :ref:`union-typehint`
+* :ref:`No anchor for Php/EnumUsage <no-anchor-for-php-enumusage>`
 
 .. _compatibilityphp71:
 
@@ -1840,7 +1847,7 @@ CompatibilityPHP71
 
 This ruleset centralizes all analysis for the migration from PHP 7.0 to 7.1.
 
-Total : 36 analysis
+Total : 37 analysis
 
 * :ref:`ext-mcrypt`
 * :ref:`hash-algorithms-incompatible-with-php-5.3`
@@ -1878,6 +1885,7 @@ Total : 36 analysis
 * :ref:`php-8.0-only-typehints`
 * :ref:`union-typehint`
 * :ref:`signature-trailing-comma`
+* :ref:`No anchor for Php/EnumUsage <no-anchor-for-php-enumusage>`
 
 .. _compatibilityphp72:
 
@@ -1886,7 +1894,7 @@ CompatibilityPHP72
 
 This ruleset centralizes all analysis for the migration from PHP 7.1 to 7.2.
 
-Total : 29 analysis
+Total : 30 analysis
 
 * :ref:`undefined-constants`
 * :ref:`hash-algorithms-incompatible-with-php-5.3`
@@ -1917,6 +1925,7 @@ Total : 29 analysis
 * :ref:`union-typehint`
 * :ref:`signature-trailing-comma`
 * :ref:`throw-was-an-expression`
+* :ref:`No anchor for Php/EnumUsage <no-anchor-for-php-enumusage>`
 
 .. _compatibilityphp73:
 
@@ -1925,7 +1934,7 @@ CompatibilityPHP73
 
 This ruleset centralizes all analysis for the migration from PHP 7.2 to 7.3.
 
-Total : 18 analysis
+Total : 19 analysis
 
 * :ref:`new-functions-in-php-7.3`
 * :ref:`unknown-pcre2-option`
@@ -1945,6 +1954,7 @@ Total : 18 analysis
 * :ref:`union-typehint`
 * :ref:`signature-trailing-comma`
 * :ref:`throw-was-an-expression`
+* :ref:`No anchor for Php/EnumUsage <no-anchor-for-php-enumusage>`
 
 .. _compatibilityphp74:
 
@@ -1953,7 +1963,7 @@ CompatibilityPHP74
 
 This ruleset centralizes all analysis for the migration from PHP 7.3 to 7.4.
 
-Total : 30 analysis
+Total : 31 analysis
 
 * :ref:`detect-current-class`
 * :ref:`don't-read-and-write-in-one-expression`
@@ -1985,6 +1995,7 @@ Total : 30 analysis
 * :ref:`throw-was-an-expression`
 * :ref:`uses-php-8-match()`
 * :ref:`avoid-get\_object\_vars()`
+* :ref:`No anchor for Php/EnumUsage <no-anchor-for-php-enumusage>`
 
 .. _compatibilityphp80:
 
@@ -1993,7 +2004,7 @@ CompatibilityPHP80
 
 This ruleset centralizes all analysis for the migration from PHP 7.4 to 8.0.
 
-Total : 18 analysis
+Total : 19 analysis
 
 * :ref:`old-style-constructor`
 * :ref:`wrong-optional-parameter`
@@ -2013,6 +2024,7 @@ Total : 18 analysis
 * :ref:`array\_map()-passes-by-value`
 * :ref:`reserved-match-keyword`
 * :ref:`avoid-get\_object\_vars()`
+* :ref:`No anchor for Php/EnumUsage <no-anchor-for-php-enumusage>`
 
 .. _compatibilityphp81:
 
@@ -2021,9 +2033,10 @@ CompatibilityPHP81
 
 This ruleset centralizes all analysis for the migration from PHP 8.0 to 8.1.
 
-Total : 1 analysis
+Total : 2 analysis
 
 * :ref:`No anchor for Php/RestrictGlobalUsage <no-anchor-for-php-restrictglobalusage>`
+* :ref:`No anchor for Variables/InheritedStaticVariable <no-anchor-for-variables-inheritedstaticvariable>`
 
 .. _dead-code:
 

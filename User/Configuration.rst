@@ -391,6 +391,9 @@ prefixedType['uuid'] = '\Uuid';
   + minDuplicate : 15
 
     + Minimal number of duplication before the literal is reported.
+  + ignoreList : 0,1,2,10
+
+    + Common values that have to be ignored. Comma separated list.
 :ref:`Selector <selector>`
   + selector : 
 

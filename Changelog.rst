@@ -44,12 +44,15 @@ Version 2.2.2 (Si, coming up)
 
 + Analysis
     + New analysis : Restrict $GLOBALS usage
+    + New analysis : No object as array's index
+    + New analysis : Overreaching classes (PHP feature)
+    + New analysis : Report Enum usage
     + Updated analysis : Typehints/* got new Unit Tests
     + Updated analysis : Explode optimisation 
 
 + Tokenizer
     + Reduced the number of DEFAULT creation for properties
-    + Added support for new PHP 8.1 syntax
+    + Added support for new PHP 8.1 syntax (Enum )
 
 **Version 2.2.1 (Chen, 2020-11-20)**
 
