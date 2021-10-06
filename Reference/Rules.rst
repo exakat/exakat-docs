@@ -43706,21 +43706,21 @@ Suggestions
 
 Specs
 ^^^^^
-+-------------+--------------------------------------+
-| Short name  | Php/Php74RemovedDirective            |
-+-------------+--------------------------------------+
-| Rulesets    | :ref:`CE`, :ref:`CompatibilityPHP74` |
-+-------------+--------------------------------------+
-| Exakt since | 1.9.3                                |
-+-------------+--------------------------------------+
-| Php Version | 7.4+                                 |
-+-------------+--------------------------------------+
-| Severity    | Minor                                |
-+-------------+--------------------------------------+
-| Time To Fix | Quick (30 mins)                      |
-+-------------+--------------------------------------+
-| Precision   | High                                 |
-+-------------+--------------------------------------+
++-------------+--------------------------------------------------------------------------------------------+
+| Short name  | Php/Php74RemovedDirective                                                                  |
++-------------+--------------------------------------------------------------------------------------------+
+| Rulesets    | :ref:`CE`, :ref:`CompatibilityPHP74`, :ref:`CompatibilityPHP80`, :ref:`CompatibilityPHP81` |
++-------------+--------------------------------------------------------------------------------------------+
+| Exakt since | 1.9.3                                                                                      |
++-------------+--------------------------------------------------------------------------------------------+
+| Php Version | 7.4+                                                                                       |
++-------------+--------------------------------------------------------------------------------------------+
+| Severity    | Minor                                                                                      |
++-------------+--------------------------------------------------------------------------------------------+
+| Time To Fix | Quick (30 mins)                                                                            |
++-------------+--------------------------------------------------------------------------------------------+
+| Precision   | High                                                                                       |
++-------------+--------------------------------------------------------------------------------------------+
 
 
 .. _php-7.4-removed-functions:
@@ -44024,13 +44024,16 @@ PHP 8.0 Removed Constants
  The following PHP native constants were removed in PHP 8.0.
 
 * `INTL_IDNA_VARIANT_2003 <https://www.php.net/INTL_IDNA_VARIANT_2003>`_ (See `Deprecate and remove `INTL_IDNA_VARIANT_2003 <https://www.php.net/INTL_IDNA_VARIANT_2003>`_ <https://wiki.php.net/rfc/deprecate-and-remove-intl_idna_variant_2003>`_)
+* `MB_OVERLOAD_MAIL <https://www.php.net/MB_OVERLOAD_MAIL>`_
+* `MB_OVERLOAD_STRING <https://www.php.net/MB_OVERLOAD_STRING>`_
+* `MB_OVERLOAD_REGEX <https://www.php.net/MB_OVERLOAD_REGEX>`_
 
 
 
 Suggestions
 ^^^^^^^^^^^
 
-* Remove usage of INTL_IDNA_VARIANT_2003 and use
+* Remove usage of those constants
 
 Specs
 ^^^^^
@@ -44041,7 +44044,7 @@ Specs
 +-------------+--------------------------------------+
 | Exakt since | 1.6.8                                |
 +-------------+--------------------------------------+
-| Php Version | All                                  |
+| Php Version | 8.0-                                 |
 +-------------+--------------------------------------+
 | Severity    | Critical                             |
 +-------------+--------------------------------------+
@@ -44062,6 +44065,8 @@ In PHP 8.0, `track_errors` was removed.
 
 You can detect valid directives with `ini_get() <https://www.php.net/ini_get>`_. This native function will return false, when the directive doesn't exist, while actual directive values will be returned as a string. 
 
+See `Deprecation `track_errors <https://www.php.net/manual/en/errorfunc.configuration.php#ini.track-errors>`_ <https://www.php.net/manual/en/migration80.incompatible.php`_.
+
 
 
 Suggestions
@@ -44071,21 +44076,21 @@ Suggestions
 
 Specs
 ^^^^^
-+-------------+--------------------------------------+
-| Short name  | Php/Php80RemovedDirective            |
-+-------------+--------------------------------------+
-| Rulesets    | :ref:`CE`, :ref:`CompatibilityPHP80` |
-+-------------+--------------------------------------+
-| Exakt since | 2.1.9                                |
-+-------------+--------------------------------------+
-| Php Version | All                                  |
-+-------------+--------------------------------------+
-| Severity    | Minor                                |
-+-------------+--------------------------------------+
-| Time To Fix | Quick (30 mins)                      |
-+-------------+--------------------------------------+
-| Precision   | High                                 |
-+-------------+--------------------------------------+
++-------------+-----------------------------------------------------------------+
+| Short name  | Php/Php80RemovedDirective                                       |
++-------------+-----------------------------------------------------------------+
+| Rulesets    | :ref:`CE`, :ref:`CompatibilityPHP80`, :ref:`CompatibilityPHP81` |
++-------------+-----------------------------------------------------------------+
+| Exakt since | 2.1.9                                                           |
++-------------+-----------------------------------------------------------------+
+| Php Version | All                                                             |
++-------------+-----------------------------------------------------------------+
+| Severity    | Minor                                                           |
++-------------+-----------------------------------------------------------------+
+| Time To Fix | Quick (30 mins)                                                 |
++-------------+-----------------------------------------------------------------+
+| Precision   | High                                                            |
++-------------+-----------------------------------------------------------------+
 
 
 .. _php-8.0-removed-functions:
@@ -76029,6 +76034,18 @@ Directory by PHP Function
 
       + :ref:`Reserved Match Keyword <reserved-match-keyword>`
 
+    + `MB_OVERLOAD_MAIL`
+
+      + :ref:`PHP 8.0 Removed Constants <php-8.0-removed-constants>`
+
+    + `MB_OVERLOAD_REGEX`
+
+      + :ref:`PHP 8.0 Removed Constants <php-8.0-removed-constants>`
+
+    + `MB_OVERLOAD_STRING`
+
+      + :ref:`PHP 8.0 Removed Constants <php-8.0-removed-constants>`
+
     + `MCRYPT_CAST_256`
 
       + :ref:`mcrypt_create_iv() With Default Values <mcrypt\_create\_iv()-with-default-values>`
@@ -77775,6 +77792,10 @@ Directory by PHP Function
     + `token_get_all()`
 
       + :ref:`@ Operator <@-operator>`
+
+    + `track_errors`
+
+      + :ref:`PHP 8.0 Removed Directives <php-8.0-removed-directives>`
 
     + `traversable`
 

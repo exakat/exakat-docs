@@ -244,6 +244,7 @@ Analyze
 |   analyzer[] = "Functions/CouldCentralize";
 |   analyzer[] = "Functions/DeepDefinitions";
 |   analyzer[] = "Functions/DontUseVoid";
+|   analyzer[] = "Functions/DuplicateNamedParameter";
 |   analyzer[] = "Functions/EmptyFunction";
 |   analyzer[] = "Functions/FnArgumentVariableConfusion";
 |   analyzer[] = "Functions/HardcodedPasswords";
@@ -279,6 +280,7 @@ Analyze
 |   analyzer[] = "Functions/UsesDefaultArguments";
 |   analyzer[] = "Functions/UsingDeprecated";
 |   analyzer[] = "Functions/WithoutReturn";
+|   analyzer[] = "Functions/WrongArgumentNameWithPhpFunction";
 |   analyzer[] = "Functions/WrongArgumentType";
 |   analyzer[] = "Functions/WrongNumberOfArguments";
 |   analyzer[] = "Functions/WrongOptionalParameter";
@@ -405,6 +407,7 @@ Analyze
 |   analyzer[] = "Structures/ForgottenWhiteSpace";
 |   analyzer[] = "Structures/GlobalUsage";
 |   analyzer[] = "Structures/Htmlentitiescall";
+|   analyzer[] = "Structures/HtmlentitiescallDefaultFlag";
 |   analyzer[] = "Structures/IdenticalConditions";
 |   analyzer[] = "Structures/IdenticalConsecutive";
 |   analyzer[] = "Structures/IdenticalOnBothSides";
@@ -996,6 +999,7 @@ CE
 |   analyzer[] = "Php/Php80RemovesResources";
 |   analyzer[] = "Php/Php80UnionTypehint";
 |   analyzer[] = "Php/Php80VariableSyntax";
+|   analyzer[] = "Php/Php81RemovedDirective";
 |   analyzer[] = "Php/PhpErrorMsgUsage";
 |   analyzer[] = "Php/RawPostDataUsage";
 |   analyzer[] = "Php/ReflectionExportIsDeprecated";
@@ -1081,6 +1085,7 @@ CE
 |   analyzer[] = "Structures/GlobalInGlobal";
 |   analyzer[] = "Structures/GlobalUsage";
 |   analyzer[] = "Structures/Htmlentitiescall";
+|   analyzer[] = "Structures/HtmlentitiescallDefaultFlag";
 |   analyzer[] = "Structures/IdenticalConditions";
 |   analyzer[] = "Structures/IdenticalOnBothSides";
 |   analyzer[] = "Structures/IfWithSameConditions";
@@ -1270,6 +1275,7 @@ CI-checks
 |   analyzer[] = "Functions/UnusedInheritedVariable";
 |   analyzer[] = "Functions/UseConstantAsArguments";
 |   analyzer[] = "Functions/UsesDefaultArguments";
+|   analyzer[] = "Functions/WrongArgumentNameWithPhpFunction";
 |   analyzer[] = "Functions/WrongNumberOfArguments";
 |   analyzer[] = "Functions/WrongOptionalParameter";
 |   analyzer[] = "Functions/WrongReturnedType";
@@ -1329,6 +1335,7 @@ CI-checks
 |   analyzer[] = "Structures/ForeachReferenceIsNotModified";
 |   analyzer[] = "Structures/ForgottenWhiteSpace";
 |   analyzer[] = "Structures/Htmlentitiescall";
+|   analyzer[] = "Structures/HtmlentitiescallDefaultFlag";
 |   analyzer[] = "Structures/IdenticalConditions";
 |   analyzer[] = "Structures/IdenticalOnBothSides";
 |   analyzer[] = "Structures/IfWithSameConditions";
@@ -2039,6 +2046,7 @@ CompatibilityPHP80
 |   analyzer[] = "Php/CastUnsetUsage";
 |   analyzer[] = "Php/ConcatAndAddition";
 |   analyzer[] = "Php/EnumUsage";
+|   analyzer[] = "Php/Php74RemovedDirective";
 |   analyzer[] = "Php/Php80NamedParameterVariadic";
 |   analyzer[] = "Php/Php80RemovedConstant";
 |   analyzer[] = "Php/Php80RemovedDirective";
@@ -2058,6 +2066,11 @@ CompatibilityPHP81
 
 
 | [CompatibilityPHP81]
+|   analyzer[] = "Php/OpensslEncryptAlgoChange";
+|   analyzer[] = "Php/Php74RemovedDirective";
+|   analyzer[] = "Php/Php80RemovedDirective";
+|   analyzer[] = "Php/Php81RemovedConstant";
+|   analyzer[] = "Php/Php81RemovedDirective";
 |   analyzer[] = "Php/RestrictGlobalUsage";
 |   analyzer[] = "Variables/InheritedStaticVariable";
 
@@ -2123,6 +2136,7 @@ LintButWontExec
 |   analyzer[] = "Classes/UsingThisOutsideAClass";
 |   analyzer[] = "Classes/WrongTypedPropertyInit";
 |   analyzer[] = "Exceptions/CantThrow";
+|   analyzer[] = "Functions/DuplicateNamedParameter";
 |   analyzer[] = "Functions/MismatchTypeAndDefault";
 |   analyzer[] = "Functions/MustReturn";
 |   analyzer[] = "Functions/OnlyVariableForReference";

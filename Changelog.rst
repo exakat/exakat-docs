@@ -6,7 +6,8 @@ Release Note
 
 Here is the release note of exakat. 
 
-Version 2.3.0 (Wei, coming up)
+**Version 2.3.0 (Wei, 2021-11-18)**
+
 
 + Architecture
     + 
@@ -20,21 +21,37 @@ Version 2.3.0 (Wei, coming up)
 + Tokenizer
     + 
 
-Version 2.2.3 (Wu, coming up)
+**Version 2.2.5 (??, 2021-11-03)**
+
+**Version 2.2.4 (??, 2021-10-21)**
+
+
+**Version 2.2.3 (Wu, 2021-10-06)**
+
 
 + Architecture
-    + 
+    + Updated INI files for PHP 8.1
+
++ Data
+    + Extended PHP directives lists
 
 + Report
-    + 
+    + New report Migration 8.1
 
 + Analysis
-    + 
+    + New analysis : PHP 8.1 removed directives
+    + New analysis : PHP 8.1 removed constants
+    + New analysis : Wrong named parameter for PHP native function
+    + New analysis : Report duplicate named arguments
+    + New analysis : htmlentities (and co) default 2nd argument
+    + Updated analysis : Scalars are not arrays. Extemded with type support.
 
 + Tokenizer
-    + 
+    + Support for callable strlen(...)
+    + Test for new syntax for octal 0o123
 
-Version 2.2.2 (Si, coming up)
+**Version 2.2.2 (Si, 2021-09-22)**
+
 
 + Architecture
     + Refactored documentation 

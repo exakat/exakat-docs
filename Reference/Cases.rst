@@ -2763,7 +2763,7 @@ The ConstructHiddenValues function builds the ConstructHiddenSubValues function.
                 }
             } else // Exit recurse
             {
-                $Result = "<input type=\"hidden\" name=\"" . htmlspecialchars($Name) . "\" value=\"" . htmlspecialchars($Value) . "\" />\n";
+                $Result = "<input type="hidden" name=\"" . htmlspecialchars($Name) . "\" value=\"" . htmlspecialchars($Value) . "\" />\n";
             }
     
             return $Result;

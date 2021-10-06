@@ -94,7 +94,7 @@ Analyze
 
 This ruleset centralizes a large number of classic trap and pitfalls when writing PHP.
 
-Total : 422 analysis
+Total : 425 analysis
 
 * :ref:`adding-zero`
 * :ref:`ambiguous-array-index`
@@ -518,6 +518,9 @@ Total : 422 analysis
 * :ref:`No anchor for Structures/OnlyFirstByte <no-anchor-for-structures-onlyfirstbyte>`
 * :ref:`No anchor for Classes/InheritedPropertyMustMatch <no-anchor-for-classes-inheritedpropertymustmatch>`
 * :ref:`No anchor for Structures/NoObjectAsIndex <no-anchor-for-structures-noobjectasindex>`
+* :ref:`No anchor for Structures/HtmlentitiescallDefaultFlag <no-anchor-for-structures-htmlentitiescalldefaultflag>`
+* :ref:`No anchor for Functions/WrongArgumentNameWithPhpFunction <no-anchor-for-functions-wrongargumentnamewithphpfunction>`
+* :ref:`No anchor for Functions/DuplicateNamedParameter <no-anchor-for-functions-duplicatenamedparameter>`
 
 .. _attributes:
 
@@ -539,7 +542,7 @@ CE
 
 This ruleset is the Community Edition list. It holds all the analysis that are in the community edition version of Exakat.
 
-Total : 653 analysis
+Total : 655 analysis
 
 * :ref:`adding-zero`
 * :ref:`array-index`
@@ -1194,6 +1197,8 @@ Total : 653 analysis
 * :ref:`php-80-named-parameter-variadic`
 * :ref:`final-private-methods`
 * :ref:`array\_map()-passes-by-value`
+* :ref:`No anchor for Php/Php81RemovedDirective <no-anchor-for-php-php81removeddirective>`
+* :ref:`No anchor for Structures/HtmlentitiescallDefaultFlag <no-anchor-for-structures-htmlentitiescalldefaultflag>`
 
 .. _ci-checks:
 
@@ -1202,7 +1207,7 @@ CI-checks
 
 This ruleset is a collection of important rules to run in a CI pipeline.
 
-Total : 176 analysis
+Total : 178 analysis
 
 * :ref:`adding-zero`
 * :ref:`multiple-index-definition`
@@ -1380,6 +1385,8 @@ Total : 176 analysis
 * :ref:`wrong-type-for-native-php-function`
 * :ref:`unknown-parameter-name`
 * :ref:`missing-some-returntype`
+* :ref:`No anchor for Structures/HtmlentitiescallDefaultFlag <no-anchor-for-structures-htmlentitiescalldefaultflag>`
+* :ref:`No anchor for Functions/WrongArgumentNameWithPhpFunction <no-anchor-for-functions-wrongargumentnamewithphpfunction>`
 
 .. _classreview:
 
@@ -2004,13 +2011,14 @@ CompatibilityPHP80
 
 This ruleset centralizes all analysis for the migration from PHP 7.4 to 8.0.
 
-Total : 19 analysis
+Total : 20 analysis
 
 * :ref:`old-style-constructor`
 * :ref:`wrong-optional-parameter`
 * :ref:`php-8.0-removed-functions`
 * :ref:`php-8.0-removed-constants`
 * :ref:`concat-and-addition`
+* :ref:`php-7.4-removed-directives`
 * :ref:`cast-unset-usage`
 * :ref:`$php\_errormsg-usage`
 * :ref:`mismatch-parameter-name`
@@ -2033,10 +2041,15 @@ CompatibilityPHP81
 
 This ruleset centralizes all analysis for the migration from PHP 8.0 to 8.1.
 
-Total : 2 analysis
+Total : 7 analysis
 
+* :ref:`php-7.4-removed-directives`
+* :ref:`php-8.0-removed-directives`
 * :ref:`No anchor for Php/RestrictGlobalUsage <no-anchor-for-php-restrictglobalusage>`
 * :ref:`No anchor for Variables/InheritedStaticVariable <no-anchor-for-variables-inheritedstaticvariable>`
+* :ref:`No anchor for Php/Php81RemovedDirective <no-anchor-for-php-php81removeddirective>`
+* :ref:`No anchor for Php/OpensslEncryptAlgoChange <no-anchor-for-php-opensslencryptalgochange>`
+* :ref:`No anchor for Php/Php81RemovedConstant <no-anchor-for-php-php81removedconstant>`
 
 .. _dead-code:
 
@@ -2081,7 +2094,7 @@ LintButWontExec
 
 This ruleset focuses on PHP code that lint (php -l), but that will not run. As such, this ruleset tries to go further than PHP, by connecting files, just like during execution.
 
-Total : 31 analysis
+Total : 32 analysis
 
 * :ref:`final-class-usage`
 * :ref:`final-methods-usage`
@@ -2114,6 +2127,7 @@ Total : 31 analysis
 * :ref:`could-be-stringable`
 * :ref:`only-container-for-reference`
 * :ref:`No anchor for Classes/InheritedPropertyMustMatch <no-anchor-for-classes-inheritedpropertymustmatch>`
+* :ref:`No anchor for Functions/DuplicateNamedParameter <no-anchor-for-functions-duplicatenamedparameter>`
 
 .. _performances:
 
