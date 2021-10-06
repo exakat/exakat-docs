@@ -296,6 +296,7 @@ List of external links mentionned in this documentation.
 * `Generator Syntax <https://www.php.net/manual/en/language.generators.syntax.php>`_
 * `Generators overview <https://www.php.net/manual/en/language.generators.overview.php>`_
 * `GeoIP <https://www.php.net/manual/en/book.geoip.php>`_
+* `George Peter Banyard <https://twitter.com/Girgias>`_
 * `get_class <https://www.php.net/get_class>`_
 * `get_object_vars script on 3V4L <https://3v4l.org/ELVGY>`_
 * `Gettext <https://www.gnu.org/software/gettext/manual/gettext.html>`_
@@ -603,6 +604,7 @@ List of external links mentionned in this documentation.
 * `str_contains <https://www.php.net/str_contains>`_
 * `Strict typing <https://www.php.net/manual/en/functions.arguments.php#functions.arguments.type-declaration.strict>`_
 * `Stricter type checks for arithmetic/bitwise operators <https://wiki.php.net/rfc/arithmetic_operator_type_checks>`_
+* `String access and modification by character <https://www.php.net/manual/en/language.types.string.php#language.types.string.substr>`_
 * `String functions <https://www.php.net/manual/en/ref.strings.php>`_
 * `Strings <https://www.php.net/manual/en/language.types.string.php>`_
 * `strip_tags <https://www.php.net/manual/en/function.strip-tags.php>`_

@@ -6,7 +6,7 @@ Rulesets
 Introduction
 ------------------------
 
-Exakat provides unique 1377 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
+Exakat provides unique 1383 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
 
 For more smoothly usage, the ruleset concept allow you to run a set of rules based on a decidated focus. Beawre that a Ruleset run all the associated rules and any needed dependencies.
 
@@ -515,12 +515,12 @@ Total : 425 analysis
 * :ref:`modify-immutable`
 * :ref:`only-container-for-reference`
 * :ref:`cannot-use-static-for-closure`
-* :ref:`No anchor for Structures/OnlyFirstByte <no-anchor-for-structures-onlyfirstbyte>`
-* :ref:`No anchor for Classes/InheritedPropertyMustMatch <no-anchor-for-classes-inheritedpropertymustmatch>`
-* :ref:`No anchor for Structures/NoObjectAsIndex <no-anchor-for-structures-noobjectasindex>`
-* :ref:`No anchor for Structures/HtmlentitiescallDefaultFlag <no-anchor-for-structures-htmlentitiescalldefaultflag>`
-* :ref:`No anchor for Functions/WrongArgumentNameWithPhpFunction <no-anchor-for-functions-wrongargumentnamewithphpfunction>`
-* :ref:`No anchor for Functions/DuplicateNamedParameter <no-anchor-for-functions-duplicatenamedparameter>`
+* :ref:`only-first-byte-`
+* :ref:`inherited-property-type-must-match`
+* :ref:`no-object-as-index`
+* :ref:`htmlentities-using-default-flag`
+* :ref:`wrong-argument-name-with-php-function`
+* :ref:`duplicate-named-parameter`
 
 .. _attributes:
 
@@ -1198,7 +1198,7 @@ Total : 655 analysis
 * :ref:`final-private-methods`
 * :ref:`array\_map()-passes-by-value`
 * :ref:`php-8.1-removed-directives`
-* :ref:`No anchor for Structures/HtmlentitiescallDefaultFlag <no-anchor-for-structures-htmlentitiescalldefaultflag>`
+* :ref:`htmlentities-using-default-flag`
 
 .. _ci-checks:
 
@@ -1385,8 +1385,8 @@ Total : 178 analysis
 * :ref:`wrong-type-for-native-php-function`
 * :ref:`unknown-parameter-name`
 * :ref:`missing-some-returntype`
-* :ref:`No anchor for Structures/HtmlentitiescallDefaultFlag <no-anchor-for-structures-htmlentitiescalldefaultflag>`
-* :ref:`No anchor for Functions/WrongArgumentNameWithPhpFunction <no-anchor-for-functions-wrongargumentnamewithphpfunction>`
+* :ref:`htmlentities-using-default-flag`
+* :ref:`wrong-argument-name-with-php-function`
 
 .. _classreview:
 
@@ -1452,7 +1452,7 @@ Total : 56 analysis
 * :ref:`final-private-methods`
 * :ref:`missing-\_\_isset()-method`
 * :ref:`no-static-variable-in-a-method`
-* :ref:`No anchor for Classes/InheritedPropertyMustMatch <no-anchor-for-classes-inheritedpropertymustmatch>`
+* :ref:`inherited-property-type-must-match`
 
 .. _coding-conventions:
 
@@ -2126,8 +2126,8 @@ Total : 32 analysis
 * :ref:`mismatch-properties-typehints`
 * :ref:`could-be-stringable`
 * :ref:`only-container-for-reference`
-* :ref:`No anchor for Classes/InheritedPropertyMustMatch <no-anchor-for-classes-inheritedpropertymustmatch>`
-* :ref:`No anchor for Functions/DuplicateNamedParameter <no-anchor-for-functions-duplicatenamedparameter>`
+* :ref:`inherited-property-type-must-match`
+* :ref:`duplicate-named-parameter`
 
 .. _performances:
 

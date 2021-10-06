@@ -6,7 +6,7 @@ Rules
 Introduction
 ------------------------
 
-Exakat provides unique 1377 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
+Exakat provides unique 1383 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
 
 Each rule is documented with code example to allow you to remediate your code. If you want to automate remediation, ours cobblers can are there to fix the issues in your code for your.  
 
@@ -71969,6 +71969,312 @@ Specs
 +-------------+------------------------------+
 
 
+.. _inherited-property-type-must-match:
+
+Inherited Property Type Must Match
+++++++++++++++++++++++++++++++++++
+
+ Properties that are inherited between classes must match. 
+
+This affect public and protected properties. Private properties are immune to this rule, as they actually are distinct properties.
+
+.. code-block:: php
+
+   <?php
+   
+   class A {
+       private A $a;
+       protected array $b;
+       public $c;
+   }
+   
+   class B extends A {
+       private A $a;       // OK, as it is private
+       protected int $b;   // type must match with the previous definition
+       public $c;          // no type behaves just like a type : it must match too.
+   }
+   
+   ?>
+
+
+See also ~`Properties <https://www.php.net/manual/en/language.oop5.properties.php>`_.
+
+
+Suggestions
+^^^^^^^^^^^
+
+* Remove the definition in the child class
+* Synch the definition of the property in the child class
+
+Specs
+^^^^^
++-------------+------------------------------------------------------------+
+| Short name  | Classes/InheritedPropertyMustMatch                         |
++-------------+------------------------------------------------------------+
+| Rulesets    | :ref:`Analyze`, :ref:`ClassReview`, :ref:`LintButWontExec` |
++-------------+------------------------------------------------------------+
+| Exakt since | 2.2.2                                                      |
++-------------+------------------------------------------------------------+
+| Php Version | 7.4-                                                       |
++-------------+------------------------------------------------------------+
+| Severity    | Minor                                                      |
++-------------+------------------------------------------------------------+
+| Time To Fix | Quick (30 mins)                                            |
++-------------+------------------------------------------------------------+
+| Precision   | High                                                       |
++-------------+------------------------------------------------------------+
+
+
+.. _duplicate-named-parameter:
+
+Duplicate Named Parameter
++++++++++++++++++++++++++
+
+ Two parameters have the same name in a method call. This will yield a Fatal error.
+
+.. code-block:: php
+
+   <?php
+   
+   // parameters are all distinct
+   foo(a:1, b:2);
+   
+   // parameter a is double
+   foo(a:1, a:1);
+   
+   ?>
+
+
+
+
+Suggestions
+^^^^^^^^^^^
+
+* Review the parameters names and remove the duplicates
+* Review the parameters names and makes the names unique
+
+Specs
+^^^^^
++-------------+----------------------------------------+
+| Short name  | Functions/DuplicateNamedParameter      |
++-------------+----------------------------------------+
+| Rulesets    | :ref:`Analyze`, :ref:`LintButWontExec` |
++-------------+----------------------------------------+
+| Exakt since | 2.2.3                                  |
++-------------+----------------------------------------+
+| Php Version | 8.0+                                   |
++-------------+----------------------------------------+
+| Severity    | Minor                                  |
++-------------+----------------------------------------+
+| Time To Fix | Quick (30 mins)                        |
++-------------+----------------------------------------+
+| Precision   | Unknown                                |
++-------------+----------------------------------------+
+
+
+.. _only-first-byte-:
+
+Only First Byte 
+++++++++++++++++
+
+ When assigning a char to a string with an array notation, only the first byte is used. 
+
+.. code-block:: php
+
+   <?php
+       $str = 'xy';  
+   
+       // first letter is now a
+       $str[0] = 'a';
+   
+       // second letter is now b, c is ignored
+       $str[1] = 'bc';
+   ?>
+
+
+See also `String access and modification by character <https://www.php.net/manual/en/language.types.string.php#language.types.string.substr>`_.
+
+
+Suggestions
+^^^^^^^^^^^
+
+* Remove extra bytes when assigning to a string
+* Use concatenation
+* Use strpos() and substr() functions
+* Use explode(), implode() functions and array manipulations
+
+Specs
+^^^^^
++-------------+--------------------------+
+| Short name  | Structures/OnlyFirstByte |
++-------------+--------------------------+
+| Rulesets    | :ref:`Analyze`           |
++-------------+--------------------------+
+| Exakt since | 2.2.2                    |
++-------------+--------------------------+
+| Php Version | All                      |
++-------------+--------------------------+
+| Severity    | Minor                    |
++-------------+--------------------------+
+| Time To Fix | Quick (30 mins)          |
++-------------+--------------------------+
+| Precision   | Medium                   |
++-------------+--------------------------+
+
+
+.. _no-object-as-index:
+
+No Object As Index
+++++++++++++++++++
+
+ PHP accepts objects as index, though it will report various error messages when this happens.
+
+.. code-block:: php
+
+   <?php
+   
+   $s = 'Hello';
+   $o = new stdClass();
+   
+   try {
+       $s[$o] = 'A';
+   } catch (\Throwable $e) {
+       echo $e->getMessage(), \n;
+       //Cannot access offset of type stdClass on string
+   }
+   
+   ?>
+
+
+Thanks to `George Peter Banyard <https://twitter.com/Girgias>`_ for the inspiration.
+
+See also ` https://twitter.com/Girgias/status/1405519800575553540`_
+
+
+Suggestions
+^^^^^^^^^^^
+
+* Filter values being used as index
+* Filter values being used as array
+
+Specs
+^^^^^
++-------------+----------------------------+
+| Short name  | Structures/NoObjectAsIndex |
++-------------+----------------------------+
+| Rulesets    | :ref:`Analyze`             |
++-------------+----------------------------+
+| Exakt since | 2.2.2                      |
++-------------+----------------------------+
+| Php Version | 7.4-                       |
++-------------+----------------------------+
+| Severity    | Minor                      |
++-------------+----------------------------+
+| Time To Fix | Quick (30 mins)            |
++-------------+----------------------------+
+| Precision   | Medium                     |
++-------------+----------------------------+
+
+
+.. _htmlentities-using-default-flag:
+
+Htmlentities Using Default Flag
++++++++++++++++++++++++++++++++
+
+ `htmlspecialchars() <https://www.php.net/htmlspecialchars>`_, `htmlentities() <https://www.php.net/htmlentities>`_, `htmlspecialchars_decode() <https://www.php.net/htmlspecialchars_decode>`_, `html_entity_decode() <https://www.php.net/html_entity_decode>`_ and `get_html_translation_table() <https://www.php.net/get_html_translation_table>`_, are used to prevent injecting special characters in HTML code. As a bare minimum, they take a string and encode it for HTML.
+
+The second argument of the functions is the type of protection. The protection may apply to quotes or not, to HTML 4 or 5, etc. It is highly recommended to set it explicitly.
+
+In PHP 8.1, the default value of this parameter has changed. It used to be `ENT_COMPAT <https://www.php.net/ENT_COMPAT>`_ and is now `ENT_QUOTES <https://www.php.net/ENT_QUOTES>`_ | ENT_SUBSTITUTE. The main difference between the different configuration is that the single quote, which was left intact so far, is now protected HTML style.
+
+.. code-block:: php
+
+   <?php
+   $str = 'A quote in <b>bold</b> : \' and ';
+   
+   // PHP 8.0 outputs, without depending on the php.ini: A quote in &lt;b&gt;bold&lt;/b&gt; : ' and &quot;
+   echo htmlentities($str);
+   
+   // PHP 8.1 outputs, while depending on the php.ini: A quote in &lt;b&gt;bold&lt;/b&gt; : &#039; and &quot;
+   echo htmlentities($str);
+   
+   ?>
+
+
+See also `htmlentities <https://www.php.net/htmlentities>`_ and `htmlspecialchars <https://www.php.net/htmlspecialchars>`_.
+
+
+Suggestions
+^^^^^^^^^^^
+
+* Always use the second argument to explicitely set the desired protection
+
+Specs
+^^^^^
++-------------+---------------------------------------------+
+| Short name  | Structures/HtmlentitiescallDefaultFlag      |
++-------------+---------------------------------------------+
+| Rulesets    | :ref:`Analyze`, :ref:`CE`, :ref:`CI-checks` |
++-------------+---------------------------------------------+
+| Exakt since | 2.2.3                                       |
++-------------+---------------------------------------------+
+| Php Version | All                                         |
++-------------+---------------------------------------------+
+| Severity    | Minor                                       |
++-------------+---------------------------------------------+
+| Time To Fix | Quick (30 mins)                             |
++-------------+---------------------------------------------+
+| Precision   | High                                        |
++-------------+---------------------------------------------+
+
+
+.. _wrong-argument-name-with-php-function:
+
+Wrong Argument Name With PHP Function
++++++++++++++++++++++++++++++++++++++
+
+ The name of the argument provided is not a valid parameter name for that PHP function. Named arguments also works with PHP native function. 
+
+.. code-block:: php
+
+   <?php
+   
+   // those are the valid names
+   strcmp(string1: 'a', string2: 'b');
+   
+   // those are not the valid names
+   strcmp(string: 'a', stringToo: 'b');
+   
+   ?>
+
+
+
+Suggestions
+^^^^^^^^^^^
+
+* Use the correct parameter name
+* Remove all the parameter names from the call
+* Create a relay function with the correct parameter names
+
+Specs
+^^^^^
++-------------+--------------------------------------------+
+| Short name  | Functions/WrongArgumentNameWithPhpFunction |
++-------------+--------------------------------------------+
+| Rulesets    | :ref:`Analyze`, :ref:`CI-checks`           |
++-------------+--------------------------------------------+
+| Exakt since | 2.2.3                                      |
++-------------+--------------------------------------------+
+| Php Version | 7.4-                                       |
++-------------+--------------------------------------------+
+| Severity    | Major                                      |
++-------------+--------------------------------------------+
+| Time To Fix | Instant (5 mins)                           |
++-------------+--------------------------------------------+
+| Precision   | High                                       |
++-------------+--------------------------------------------+
+
+
 
 
 
@@ -71980,8 +72286,11 @@ List of analyzers, by version of introduction, newest to oldest. In parenthesis,
 
 * 2.2.3
 
+  * :ref:`Duplicate Named Parameter <duplicate-named-parameter>`
+  * :ref:`Htmlentities Using Default Flag <htmlentities-using-default-flag>`
   * :ref:`PHP 8.1 Removed Directives <php-8.1-removed-directives>`
   * :ref:`Php/OpensslEncryptAlgoChange <php-opensslencryptalgochange>`
+  * :ref:`Wrong Argument Name With PHP Function <wrong-argument-name-with-php-function>`
 
 * 2.2.2
 
@@ -71989,8 +72298,11 @@ List of analyzers, by version of introduction, newest to oldest. In parenthesis,
   * :ref:`Could Be Generator <could-be-generator>`
   * :ref:`Could Use Match <could-use-match>`
   * :ref:`Enum Usage <enum-usage>`
+  * :ref:`Inherited Property Type Must Match <inherited-property-type-must-match>`
   * :ref:`Inherited Static Variable <inherited-static-variable>`
   * :ref:`Multiple Property Declaration On One Line <multiple-property-declaration-on-one-line>`
+  * :ref:`No Object As Index <no-object-as-index>`
+  * :ref:`Only First Byte  <only-first-byte->`
   * :ref:`Restrict Global Usage <restrict-global-usage>`
   * :ref:`Selector <selector>`
 
@@ -74796,6 +75108,7 @@ Directory by PHP Function
       + :ref:`Symfony usage <symfony-usage>`
       + :ref:`Wordpress usage <wordpress-usage>`
       + :ref:`Yii usage <yii-usage>`
+      + :ref:`No Object As Index <no-object-as-index>`
       + :ref:`php-cs-fixable <php-cs-fixable>`
       + :ref:`report-php-cs-fixable <report-php-cs-fixable>`
       + :ref:`report-php-cs-fixable <report-php-cs-fixable>`
@@ -75131,6 +75444,10 @@ Directory by PHP Function
 
 
 + `E`
+    + `ENT_COMPAT`
+
+      + :ref:`Htmlentities Using Default Flag <htmlentities-using-default-flag>`
+
     + `ENT_IGNORE`
 
       + :ref:`No ENT_IGNORE <no-ent\_ignore>`
@@ -75140,6 +75457,7 @@ Directory by PHP Function
       + :ref:`ext/oci8 <ext-oci8>`
       + :ref:`No ENT_IGNORE <no-ent\_ignore>`
       + :ref:`Htmlentities Calls <htmlentities-calls>`
+      + :ref:`Htmlentities Using Default Flag <htmlentities-using-default-flag>`
 
     + `EV_PERSIST`
 
@@ -75686,6 +76004,7 @@ Directory by PHP Function
     + `get_html_translation_table()`
 
       + :ref:`Use Constant As Arguments <use-constant-as-arguments>`
+      + :ref:`Htmlentities Using Default Flag <htmlentities-using-default-flag>`
 
     + `get_magic_quotes_gpc()`
 
@@ -75808,22 +76127,26 @@ Directory by PHP Function
     + `html_entity_decode()`
 
       + :ref:`Use Constant As Arguments <use-constant-as-arguments>`
+      + :ref:`Htmlentities Using Default Flag <htmlentities-using-default-flag>`
 
     + `htmlentities()`
 
       + :ref:`Use Constant As Arguments <use-constant-as-arguments>`
       + :ref:`Uses Default Values <uses-default-values>`
       + :ref:`Htmlentities Calls <htmlentities-calls>`
+      + :ref:`Htmlentities Using Default Flag <htmlentities-using-default-flag>`
 
     + `htmlspecialchars()`
 
       + :ref:`Use Constant As Arguments <use-constant-as-arguments>`
       + :ref:`No ENT_IGNORE <no-ent\_ignore>`
       + :ref:`Htmlentities Calls <htmlentities-calls>`
+      + :ref:`Htmlentities Using Default Flag <htmlentities-using-default-flag>`
 
     + `htmlspecialchars_decode()`
 
       + :ref:`Use Constant As Arguments <use-constant-as-arguments>`
+      + :ref:`Htmlentities Using Default Flag <htmlentities-using-default-flag>`
 
     + `http_build_query()`
 
@@ -76652,6 +76975,7 @@ Directory by PHP Function
       + :ref:`Indices Are Int Or String <indices-are-int-or-string>`
       + :ref:`Duplicate Literal <duplicate-literal>`
       + :ref:`Set Typehints <set-typehints>`
+      + :ref:`Set Null Type <set-null-type>`
 
     + `NumberFormatter`
 
@@ -76747,6 +77071,7 @@ Directory by PHP Function
       + :ref:`Could Be Null <could-be-null>`
       + :ref:`Missing Some Returntype <missing-some-returntype>`
       + :ref:`Constant Typo Looks Like A Variable <constant-typo-looks-like-a-variable>`
+      + :ref:`Set Null Type <set-null-type>`
 
 
 + `O`
@@ -77874,6 +78199,7 @@ Directory by PHP Function
       + :ref:`Return Typehint Usage <return-typehint-usage>`
       + :ref:`Avoid Using stdClass <avoid-using-stdclass>`
       + :ref:`Objects Don't Need References <objects-don't-need-references>`
+      + :ref:`No Object As Index <no-object-as-index>`
 
     + `str_ireplace()`
 
@@ -78035,6 +78361,7 @@ Directory by PHP Function
       + :ref:`set_exception_handler() Warning <set\_exception\_handler()-warning>`
       + :ref:`Empty Try Catch <empty-try-catch>`
       + :ref:`Try With Finally <try-with-finally>`
+      + :ref:`No Object As Index <no-object-as-index>`
 
     + `Tidy`
 
@@ -78550,7 +78877,7 @@ Directory by PHP Error message
 
 Exakat helps reduce the amount of error and warning that code is producing by reporting pattern that are likely to emit errors.
 
-135 PHP error message detailled : 
+143 PHP error message detailled : 
 
 * :ref:`"continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? <continue-is-for-loop>`
 * :ref:`$GLOBALS can only be modified using the $GLOBALS[$name] = $value syntax <restrict-global-usage>`
@@ -78576,6 +78903,7 @@ Exakat helps reduce the amount of error and warning that code is producing by re
 * :ref:`Call to undefined method theParent\:\:bar() <undefined-parent>`
 * :ref:`Call to undefined method x\:\:y() <undefined-static-or-self>`
 * :ref:`Can't inherit abstract function A\:\:bar() <cant-inherit-abstract-method>`
+* :ref:`Cannot access offset of type stdClass on string <no-object-as-index>`
 * :ref:`Cannot access parent\:\: when current class scope has no parent <avoid-self-in-interface>`
 * :ref:`Cannot access parent\:\: when current class scope has no parent <class-without-parent>`
 * :ref:`Cannot access parent\:\: when current class scope has no parent <undefined-parent>`
@@ -78626,13 +78954,18 @@ Exakat helps reduce the amount of error and warning that code is producing by re
 * :ref:`Generators cannot return values using "return"  <generator-cannot-return>`
 * :ref:`Generators cannot return values using "return" <no-return-for-generator>`
 * :ref:`Headers already sent <forgotten-whitespace>`
+* :ref:`Illegal offset type <no-object-as-index>`
+* :ref:`Illegal offset type in isset or empty <no-object-as-index>`
+* :ref:`Index invalid or out of range <no-object-as-index>`
 * :ref:`Indirect modification of overloaded property c\:\:$b has no effect <no-magic-method-with-array>`
 * :ref:`Invalid numeric literal <malformed-octal>`
 * :ref:`Method name must be a string <useless-typehint>`
 * :ref:`Methods with the same name as their class will not be constructors in a future version of PHP; %s has a deprecated constructor <old-style-constructor>`
+* :ref:`Named parameter $a overwrites previous argument <duplicate-named-parameter>`
 * :ref:`Non-static method A\:\:B() should not be called statically <non-static-methods-called-in-a-static>`
 * :ref:`Octal escape sequence overflow \500 is greater than \377 <invalid-octal-in-string>`
 * :ref:`Old style constructors are DEPRECATED in PHP 7.0, and will be removed in a future version. You should always use __construct() in new code. <old-style-constructor>`
+* :ref:`Only the first byte will be assigned to the string offset <only-first-byte->`
 * :ref:`Only variable references should be returned by reference <no-literal-for-reference>`
 * :ref:`Only variable references should be returned by reference <no-reference-for-ternary>`
 * :ref:`Only variables can be passed by reference <only-container-for-reference>`
@@ -78660,6 +78993,8 @@ Exakat helps reduce the amount of error and warning that code is producing by re
 * :ref:`Trying to access array offset on value of type int <null-or-boolean-arrays>`
 * :ref:`Trying to access array offset on value of type null <null-or-boolean-arrays>`
 * :ref:`Trying to access array offset on value of type null <scalar-are-not-arrays>`
+* :ref:`Type of b\:\:$a must be array (as in class a) <inherited-property-type-must-match>`
+* :ref:`Type of b\:\:$a must not be defined (as in class a) <inherited-property-type-must-match>`
 * :ref:`Uncaught ArgumentCountError: Too few arguments to function, 0 passed <wrong-number-of-arguments>`
 * :ref:`Undefined class constant <avoid-self-in-interface>`
 * :ref:`Undefined constant 'A' <undefined-constants>`
