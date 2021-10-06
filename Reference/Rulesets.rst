@@ -6,7 +6,7 @@ Rulesets
 Introduction
 ------------------------
 
-Exakat provides unique 1371 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
+Exakat provides unique 1377 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
 
 For more smoothly usage, the ruleset concept allow you to run a set of rules based on a decidated focus. Beawre that a Ruleset run all the associated rules and any needed dependencies.
 
@@ -1197,7 +1197,7 @@ Total : 655 analysis
 * :ref:`php-80-named-parameter-variadic`
 * :ref:`final-private-methods`
 * :ref:`array\_map()-passes-by-value`
-* :ref:`No anchor for Php/Php81RemovedDirective <no-anchor-for-php-php81removeddirective>`
+* :ref:`php-8.1-removed-directives`
 * :ref:`No anchor for Structures/HtmlentitiescallDefaultFlag <no-anchor-for-structures-htmlentitiescalldefaultflag>`
 
 .. _ci-checks:
@@ -1553,7 +1553,7 @@ Total : 80 analysis
 * :ref:`unpacking-inside-arrays`
 * :ref:`generator-cannot-return`
 * :ref:`coalesce-equal`
-* :ref:`No anchor for Php/EnumUsage <no-anchor-for-php-enumusage>`
+* :ref:`enum-usage`
 
 .. _compatibilityphp54:
 
@@ -1639,7 +1639,7 @@ Total : 76 analysis
 * :ref:`unpacking-inside-arrays`
 * :ref:`generator-cannot-return`
 * :ref:`coalesce-equal`
-* :ref:`No anchor for Php/EnumUsage <no-anchor-for-php-enumusage>`
+* :ref:`enum-usage`
 
 .. _compatibilityphp55:
 
@@ -1717,7 +1717,7 @@ Total : 68 analysis
 * :ref:`unpacking-inside-arrays`
 * :ref:`generator-cannot-return`
 * :ref:`coalesce-equal`
-* :ref:`No anchor for Php/EnumUsage <no-anchor-for-php-enumusage>`
+* :ref:`enum-usage`
 
 .. _compatibilityphp56:
 
@@ -1785,7 +1785,7 @@ Total : 58 analysis
 * :ref:`generator-cannot-return`
 * :ref:`coalesce-equal`
 * :ref:`php-8.0-only-typehints`
-* :ref:`No anchor for Php/EnumUsage <no-anchor-for-php-enumusage>`
+* :ref:`enum-usage`
 
 .. _compatibilityphp70:
 
@@ -1845,7 +1845,7 @@ Total : 50 analysis
 * :ref:`coalesce-equal`
 * :ref:`php-8.0-only-typehints`
 * :ref:`union-typehint`
-* :ref:`No anchor for Php/EnumUsage <no-anchor-for-php-enumusage>`
+* :ref:`enum-usage`
 
 .. _compatibilityphp71:
 
@@ -1892,7 +1892,7 @@ Total : 37 analysis
 * :ref:`php-8.0-only-typehints`
 * :ref:`union-typehint`
 * :ref:`signature-trailing-comma`
-* :ref:`No anchor for Php/EnumUsage <no-anchor-for-php-enumusage>`
+* :ref:`enum-usage`
 
 .. _compatibilityphp72:
 
@@ -1932,7 +1932,7 @@ Total : 30 analysis
 * :ref:`union-typehint`
 * :ref:`signature-trailing-comma`
 * :ref:`throw-was-an-expression`
-* :ref:`No anchor for Php/EnumUsage <no-anchor-for-php-enumusage>`
+* :ref:`enum-usage`
 
 .. _compatibilityphp73:
 
@@ -1961,7 +1961,7 @@ Total : 19 analysis
 * :ref:`union-typehint`
 * :ref:`signature-trailing-comma`
 * :ref:`throw-was-an-expression`
-* :ref:`No anchor for Php/EnumUsage <no-anchor-for-php-enumusage>`
+* :ref:`enum-usage`
 
 .. _compatibilityphp74:
 
@@ -2002,7 +2002,7 @@ Total : 31 analysis
 * :ref:`throw-was-an-expression`
 * :ref:`uses-php-8-match()`
 * :ref:`avoid-get\_object\_vars()`
-* :ref:`No anchor for Php/EnumUsage <no-anchor-for-php-enumusage>`
+* :ref:`enum-usage`
 
 .. _compatibilityphp80:
 
@@ -2032,7 +2032,7 @@ Total : 20 analysis
 * :ref:`array\_map()-passes-by-value`
 * :ref:`reserved-match-keyword`
 * :ref:`avoid-get\_object\_vars()`
-* :ref:`No anchor for Php/EnumUsage <no-anchor-for-php-enumusage>`
+* :ref:`enum-usage`
 
 .. _compatibilityphp81:
 
@@ -2045,11 +2045,11 @@ Total : 7 analysis
 
 * :ref:`php-7.4-removed-directives`
 * :ref:`php-8.0-removed-directives`
-* :ref:`No anchor for Php/RestrictGlobalUsage <no-anchor-for-php-restrictglobalusage>`
-* :ref:`No anchor for Variables/InheritedStaticVariable <no-anchor-for-variables-inheritedstaticvariable>`
-* :ref:`No anchor for Php/Php81RemovedDirective <no-anchor-for-php-php81removeddirective>`
-* :ref:`No anchor for Php/OpensslEncryptAlgoChange <no-anchor-for-php-opensslencryptalgochange>`
-* :ref:`No anchor for Php/Php81RemovedConstant <no-anchor-for-php-php81removedconstant>`
+* :ref:`restrict-global-usage`
+* :ref:`inherited-static-variable`
+* :ref:`php-8.1-removed-directives`
+* :ref:`php-opensslencryptalgochange`
+* :ref:`php-8.1-removed-constants`
 
 .. _dead-code:
 

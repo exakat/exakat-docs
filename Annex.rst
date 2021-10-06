@@ -194,6 +194,7 @@ List of external links mentionned in this documentation.
 * `Deprecated features in PHP 5.5.x <https://www.php.net/manual/en/migration55.deprecated.php>`_
 * `Deprecated features in PHP 7.2.x <https://www.php.net/manual/en/migration72.deprecated.php>`_
 * `Deprecation allow_url_include <https://wiki.php.net/rfc/deprecations_php_7_4#allow_url_include>`_
+* `Deprecation mysqlnd.fetch_data_copy <https://wiki.php.net/rfc/deprecations_php_8_1#mysqlnd.fetch_data_copy>`_
 * `Deprecations for PHP 7.2 <https://wiki.php.net/rfc/deprecations_php_7_2>`_
 * `Deprecations for PHP 7.4 <https://wiki.php.net/rfc/deprecations_php_7_4>`_
 * `Destructor <https://www.php.net/manual/en/language.oop5.decon.php#language.oop5.decon.destructor>`_
@@ -513,6 +514,7 @@ List of external links mentionned in this documentation.
 * `PHP RFC: Numeric Literal Separator <https://wiki.php.net/rfc/numeric_literal_separator>`_
 * `PHP RFC: Scalar Type Hints <https://wiki.php.net/rfc/scalar_type_hints>`_
 * `PHP RFC: Shorter Attribute Syntax <https://wiki.php.net/rfc/shorter_attribute_syntax>`_
+* `PHP RFC: Static variables in inherited methods <https://wiki.php.net/rfc/static_variable_inheritance>`_
 * `PHP RFC: str_contains <https://wiki.php.net/rfc/str_contains>`_
 * `PHP RFC: Syntax for variadic functions <https://wiki.php.net/rfc/variadics>`_
 * `PHP RFC: Unicode Codepoint Escape Syntax <https://wiki.php.net/rfc/unicode_escape>`_
@@ -558,6 +560,7 @@ List of external links mentionned in this documentation.
 * `Reflection export() methods <https://wiki.php.net/rfc/deprecations_php_7_4#reflection_export_methods>`_
 * `Regular Expressions (Perl-Compatible) <https://www.php.net/manual/en/book.pcre.php>`_
 * `resources <https://www.php.net/manual/en/language.types.resource.php>`_
+* `Restrict $GLOBALS usage <https://wiki.php.net/rfc/restrict_globals_usage>`_
 * `return <https://www.php.net/manual/en/function.return.php>`_
 * `Return Inside Finally Block <https://www.owasp.org/index.php/Return_Inside_Finally_Block>`_
 * `Return Type Declaration <https://www.php.net/manual/en/functions.returning-values.php#functions.returning-values.type-declaration>`_

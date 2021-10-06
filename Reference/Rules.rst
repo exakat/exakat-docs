@@ -6,7 +6,7 @@ Rules
 Introduction
 ------------------------
 
-Exakat provides unique 1371 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
+Exakat provides unique 1377 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
 
 Each rule is documented with code example to allow you to remediate your code. If you want to automate remediation, ours cobblers can are there to fix the issues in your code for your.  
 
@@ -71708,6 +71708,267 @@ Specs
 +-------------+---------------+
 
 
+.. _php-8.1-removed-constants:
+
+PHP 8.1 Removed Constants
++++++++++++++++++++++++++
+
+ The following PHP native constants were disabled in PHP 8.1. They are not removed, but they have no more effect. 
+
+* `MYSQLI_STMT_ATTR_UPDATE_MAX_LENGTH <https://www.php.net/MYSQLI_STMT_ATTR_UPDATE_MAX_LENGTH>`_
+* `MYSQLI_STORE_RESULT_COPY_DATA <https://www.php.net/MYSQLI_STORE_RESULT_COPY_DATA>`_
+
+
+
+Suggestions
+^^^^^^^^^^^
+
+* Remove usage of those constants
+
+Specs
+^^^^^
++-------------+---------------------------+
+| Short name  | Php/Php81RemovedConstant  |
++-------------+---------------------------+
+| Rulesets    | :ref:`CompatibilityPHP81` |
++-------------+---------------------------+
+| Exakt since | 1.6.8                     |
++-------------+---------------------------+
+| Php Version | 8.1-                      |
++-------------+---------------------------+
+| Severity    | Critical                  |
++-------------+---------------------------+
+| Time To Fix | Quick (30 mins)           |
++-------------+---------------------------+
+| Precision   | High                      |
++-------------+---------------------------+
+
+
+.. _enum-usage:
+
+Enum Usage
+++++++++++
+
+ PHP's enumeration. Introduced in PHP 8.1.
+
+.. code-block:: php
+
+   <?php
+   
+   enum X {
+       case A;
+       case B;
+   }
+   
+   ?>
+
+
+
+
+
+Suggestions
+^^^^^^^^^^^
+
+*
+
+Specs
+^^^^^
++-------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Short name  | Php/EnumUsage                                                                                                                                                                                                                                                                |
++-------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Rulesets    | :ref:`CompatibilityPHP53`, :ref:`CompatibilityPHP54`, :ref:`CompatibilityPHP55`, :ref:`CompatibilityPHP56`, :ref:`CompatibilityPHP70`, :ref:`CompatibilityPHP71`, :ref:`CompatibilityPHP72`, :ref:`CompatibilityPHP73`, :ref:`CompatibilityPHP74`, :ref:`CompatibilityPHP80` |
++-------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Exakt since | 2.2.2                                                                                                                                                                                                                                                                        |
++-------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Php Version | 8.1+                                                                                                                                                                                                                                                                         |
++-------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Severity    | Minor                                                                                                                                                                                                                                                                        |
++-------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Time To Fix | Quick (30 mins)                                                                                                                                                                                                                                                              |
++-------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Precision   | Very high                                                                                                                                                                                                                                                                    |
++-------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
+.. _restrict-global-usage:
+
+Restrict Global Usage
++++++++++++++++++++++
+
+ $GLOBALS access, as whole, is forbidden. In PHP 8.1, it is not possible to this as a variable, but only access its individual values.
+
+.. code-block:: php
+
+   <?php
+   // Example extracted from the RFC (see link below)
+   // Continues to work:
+   foreach ($GLOBALS as $var => $value) {
+       echo $var . ' => ' . $value . PHP_EOL;
+   }
+   
+   // Generates compile-time error:
+   $GLOBALS = [];
+   $GLOBALS += [];
+   $GLOBALS =& $x;
+   $x =& $GLOBALS;
+   unset($GLOBALS);
+   
+   ?>
+
+
+
+See also `Restrict $GLOBALS usage <https://wiki.php.net/rfc/restrict_globals_usage>`_.
+
+Suggestions
+^^^^^^^^^^^
+
+* Copy values individually from $GLOBALS
+
+Specs
+^^^^^
++-------------+---------------------------+
+| Short name  | Php/RestrictGlobalUsage   |
++-------------+---------------------------+
+| Rulesets    | :ref:`CompatibilityPHP81` |
++-------------+---------------------------+
+| Exakt since | 2.2.2                     |
++-------------+---------------------------+
+| Php Version | All                       |
++-------------+---------------------------+
+| Severity    | Major                     |
++-------------+---------------------------+
+| Time To Fix | Slow (1 hour)             |
++-------------+---------------------------+
+| Precision   | High                      |
++-------------+---------------------------+
+
+
+.. _inherited-static-variable:
+
+Inherited Static Variable
++++++++++++++++++++++++++
+
+ `Static <https://www.php.net/manual/en/language.oop5.static.php>`_ variables are distinct when used in an inherited `static <https://www.php.net/manual/en/language.oop5.static.php>`_ method. In PHP 8.1, the `static <https://www.php.net/manual/en/language.oop5.static.php>`_ variable will also be inherited, and shared between the two methods, like a `static <https://www.php.net/manual/en/language.oop5.static.php>`_ property.
+
+.. code-block:: php
+
+   <?php
+   
+   // Code extracted from the RFC
+   class A {
+       public static function counter() {
+           static $i = 0;
+           return ++$i;
+       }
+   }
+   class B extends A {}
+    
+   var_dump(A::counter()); // int(1)
+   var_dump(A::counter()); // int(2)
+   var_dump(B::counter()); // int(1)
+   var_dump(B::counter()); // int(2)
+   
+   ?>
+
+
+See also `PHP RFC: `Static <https://www.php.net/manual/en/language.oop5.static.php>`_ variables in inherited methods <https://wiki.php.net/rfc/static_variable_inheritance>`_.
+
+
+Suggestions
+^^^^^^^^^^^
+
+* Define the method in the child class to enforce the distinct behavior
+* Replace the static variable by a static property to make this PHP 8.1 ready
+
+Specs
+^^^^^
++-------------+-----------------------------------+
+| Short name  | Variables/InheritedStaticVariable |
++-------------+-----------------------------------+
+| Rulesets    | :ref:`CompatibilityPHP81`         |
++-------------+-----------------------------------+
+| Exakt since | 2.2.2                             |
++-------------+-----------------------------------+
+| Php Version | 8.1-                              |
++-------------+-----------------------------------+
+| Severity    | Minor                             |
++-------------+-----------------------------------+
+| Time To Fix | Quick (30 mins)                   |
++-------------+-----------------------------------+
+| Precision   | Medium                            |
++-------------+-----------------------------------+
+
+
+.. _php-8.1-removed-directives:
+
+PHP 8.1 Removed Directives
+++++++++++++++++++++++++++
+
+ List of directives that are removed in PHP 8.1.
+
+In PHP 8.1, `mysqlnd.fetch_data_copy` was removed. 
+
+You can detect valid directives with `ini_get() <https://www.php.net/ini_get>`_. This native function will return false, when the directive doesn't exist, while actual directive values will be returned as a string. 
+
+See `Deprecation mysqlnd.fetch_data_copy <https://wiki.php.net/rfc/deprecations_php_8_1#mysqlnd.fetch_data_copy>`_.
+
+
+
+Suggestions
+^^^^^^^^^^^
+
+* Remove usage of `mysqlnd.fetch_data_copy`.
+
+Specs
+^^^^^
++-------------+--------------------------------------+
+| Short name  | Php/Php81RemovedDirective            |
++-------------+--------------------------------------+
+| Rulesets    | :ref:`CE`, :ref:`CompatibilityPHP81` |
++-------------+--------------------------------------+
+| Exakt since | 2.2.3                                |
++-------------+--------------------------------------+
+| Php Version | All                                  |
++-------------+--------------------------------------+
+| Severity    | Minor                                |
++-------------+--------------------------------------+
+| Time To Fix | Quick (30 mins)                      |
++-------------+--------------------------------------+
+| Precision   | High                                 |
++-------------+--------------------------------------+
+
+
+.. _php-opensslencryptalgochange:
+
+Php/OpensslEncryptAlgoChange
+++++++++++++++++++++++++++++
+
+ 
+
+Suggestions
+^^^^^^^^^^^
+
+*
+
+Specs
+^^^^^
++-------------+------------------------------+
+| Short name  | Php/OpensslEncryptAlgoChange |
++-------------+------------------------------+
+| Rulesets    | :ref:`CompatibilityPHP81`    |
++-------------+------------------------------+
+| Exakt since | 2.2.3                        |
++-------------+------------------------------+
+| Php Version | All                          |
++-------------+------------------------------+
+| Severity    | Minor                        |
++-------------+------------------------------+
+| Time To Fix | Quick (30 mins)              |
++-------------+------------------------------+
+| Precision   | Unknown                      |
++-------------+------------------------------+
+
+
 
 
 
@@ -71717,12 +71978,20 @@ Directory by Exakat version
 List of analyzers, by version of introduction, newest to oldest. In parenthesis, the first element is the analyzer name, used with 'analyze -P' command, and the seconds, if any, are the ruleset, used with the -T option. Rulesets are separated by commas, as the same analysis may be used in several rulesets.
 
 
+* 2.2.3
+
+  * :ref:`PHP 8.1 Removed Directives <php-8.1-removed-directives>`
+  * :ref:`Php/OpensslEncryptAlgoChange <php-opensslencryptalgochange>`
+
 * 2.2.2
 
   * :ref:`Cannot Use Static For Closure <cannot-use-static-for-closure>`
   * :ref:`Could Be Generator <could-be-generator>`
   * :ref:`Could Use Match <could-use-match>`
+  * :ref:`Enum Usage <enum-usage>`
+  * :ref:`Inherited Static Variable <inherited-static-variable>`
   * :ref:`Multiple Property Declaration On One Line <multiple-property-declaration-on-one-line>`
+  * :ref:`Restrict Global Usage <restrict-global-usage>`
   * :ref:`Selector <selector>`
 
 * 2.2.1
@@ -72167,6 +72436,7 @@ List of analyzers, by version of introduction, newest to oldest. In parenthesis,
 
   * :ref:`PHP 8.0 Removed Constants <php-8.0-removed-constants>`
   * :ref:`PHP 8.0 Removed Functions <php-8.0-removed-functions>`
+  * :ref:`PHP 8.1 Removed Constants <php-8.1-removed-constants>`
 
 * 1.6.7
 
@@ -75703,6 +75973,7 @@ Directory by PHP Function
     + `ini_get()`
 
       + :ref:`PHP 8.0 Removed Directives <php-8.0-removed-directives>`
+      + :ref:`PHP 8.1 Removed Directives <php-8.1-removed-directives>`
 
     + `ini_set()`
 
@@ -76077,6 +76348,14 @@ Directory by PHP Function
     + `MYSQLI`
 
       + :ref:`Should Use Prepared Statement <should-use-prepared-statement>`
+
+    + `MYSQLI_STMT_ATTR_UPDATE_MAX_LENGTH`
+
+      + :ref:`PHP 8.1 Removed Constants <php-8.1-removed-constants>`
+
+    + `MYSQLI_STORE_RESULT_COPY_DATA`
+
+      + :ref:`PHP 8.1 Removed Constants <php-8.1-removed-constants>`
 
     + `M_PI`
 
@@ -77229,6 +77508,7 @@ Directory by PHP Function
       + :ref:`Variable May Be Non-Global <variable-may-be-non-global>`
       + :ref:`Should Be Single Quote <should-be-single-quote>`
       + :ref:`Real Variables <real-variables>`
+      + :ref:`Inherited Static Variable <inherited-static-variable>`
 
     + `StdClass`
 
@@ -77582,6 +77862,7 @@ Directory by PHP Function
       + :ref:`Undefined Variable <undefined-variable>`
       + :ref:`Used Once Variables <used-once-variables>`
       + :ref:`FuelPHP Usage <fuelphp-usage>`
+      + :ref:`Inherited Static Variable <inherited-static-variable>`
       + :ref:`Coding conventions <coding-conventions>`
 
     + `stdClass`
@@ -78269,9 +78550,10 @@ Directory by PHP Error message
 
 Exakat helps reduce the amount of error and warning that code is producing by reporting pattern that are likely to emit errors.
 
-134 PHP error message detailled : 
+135 PHP error message detailled : 
 
 * :ref:`"continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? <continue-is-for-loop>`
+* :ref:`$GLOBALS can only be modified using the $GLOBALS[$name] = $value syntax <restrict-global-usage>`
 * :ref:`A function with return type must return a value (did you mean "return null;" instead of "return;"?) <typehint-must-be-returned>`
 * :ref:`Access level to Bar\:\:$publicProperty must be public (as in class Foo) <raised-access-level>`
 * :ref:`Access level to c\:\:iPrivate() must be public (as in class i)  <concrete-visibility>`
