@@ -113,20 +113,6 @@ The title of the analysis is listed on the left, and the analysis short name is 
 
 This analysis uses Analysis as default rule. It may otherwise parametered with the -T option.
 
-::
-
-Compare Hash                                                           :ref:`compare-hash`                     
-Configure Extract                                                      :ref:`configure-extract`                
-Dynamic Library Loading                                                :ref:`dynamic-library-loading`                       
-Encoded Simple Letters                                                 :ref:`encoded-simple-letters`                  
-Indirect Injection                                                     :ref:`indirect-injection`               
-Integer Conversion                                                     :ref:`integer-conversion`               
-Minus One On Error                                                     :ref:`minus-one-on-error`                 
-Mkdir Default                                                          :ref:`mkdir-default`                    
-No ENT_IGNORE                                                          :ref:`no-ent\_ignore`                     
-No Hardcoded Hash                                                      :ref:`no-hardcoded-hash`               
-No Hardcoded Ip                                                        :ref:`no-hardcoded-ip`                 
-No Hardcoded Port                                                      :ref:`no-hardcoded-port`               
 
 
 
@@ -1680,8 +1666,17 @@ Check [RectorPHP](https://getrector.org/) website, its [rector github](https://g
 
 
 
-.. image:: ../images/report.rector.png
-    :alt: Example of a Rector report (0)
+
+::
+
+    # Add this to your rector.yaml file
+    # At the root of the source to be analyzed
+    # Generated on 2021-10-14 04:15:14, by Exakat (2.2.3- build 1255)
+    
+    services:
+        Rector\CodeQuality\Rector\If_\ShortenElseIfR
+        Rector\CodeQuality\Rector\Concat\JoinStringConcatRector
+    
 
 Rector is a Text report format.
 

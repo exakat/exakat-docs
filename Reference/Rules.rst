@@ -120,7 +120,7 @@ Specs
 +-------------+--------------------------------+
 | Short name  | Arrays/ArrayBracketConsistence |
 +-------------+--------------------------------+
-| Rulesets    | none                           |
+| Rulesets    | :ref:`Preferences`             |
 +-------------+--------------------------------+
 | Exakt since | 0.8.9                          |
 +-------------+--------------------------------+
@@ -252,21 +252,21 @@ See also `Array <https://www.php.net/manual/en/language.types.array.php>`_, `Zen
 
 Specs
 ^^^^^
-+-------------+-------------------+
-| Short name  | Arrays/EmptyFinal |
-+-------------+-------------------+
-| Rulesets    | none              |
-+-------------+-------------------+
-| Exakt since | 0.11.0            |
-+-------------+-------------------+
-| Php Version | All               |
-+-------------+-------------------+
-| Severity    | Minor             |
-+-------------+-------------------+
-| Time To Fix | Slow (1 hour)     |
-+-------------+-------------------+
-| Precision   | High              |
-+-------------+-------------------+
++-------------+--------------------+
+| Short name  | Arrays/EmptyFinal  |
++-------------+--------------------+
+| Rulesets    | :ref:`Preferences` |
++-------------+--------------------+
+| Exakt since | 0.11.0             |
++-------------+--------------------+
+| Php Version | All                |
++-------------+--------------------+
+| Severity    | Minor              |
++-------------+--------------------+
+| Time To Fix | Slow (1 hour)      |
++-------------+--------------------+
+| Precision   | High               |
++-------------+--------------------+
 
 
 .. _empty-slots-in-arrays:
@@ -6657,7 +6657,7 @@ Specs
 +-------------+---------------------------------------+
 | Short name  | Classes/NewOnFunctioncallOrIdentifier |
 +-------------+---------------------------------------+
-| Rulesets    | none                                  |
+| Rulesets    | :ref:`Preferences`                    |
 +-------------+---------------------------------------+
 | Exakt since | 0.9.8                                 |
 +-------------+---------------------------------------+
@@ -7705,7 +7705,7 @@ Specs
 +-------------+-----------------------------+
 | Short name  | Classes/PPPDeclarationStyle |
 +-------------+-----------------------------+
-| Rulesets    | none                        |
+| Rulesets    | :ref:`Preferences`          |
 +-------------+-----------------------------+
 | Exakt since | 1.2.1                       |
 +-------------+-----------------------------+
@@ -7929,7 +7929,7 @@ It may also be used in the current class, or its children, though this is not re
    ?>
 
 
-See also `Classes/PropertyUsedBelow`_.
+See also :ref:`property-used-below`. 
 
 
 Suggestions
@@ -13926,7 +13926,7 @@ Specs
 +-------------+---------------------------------+
 | Short name  | Constants/ConstDefinePreference |
 +-------------+---------------------------------+
-| Rulesets    | none                            |
+| Rulesets    | :ref:`Preferences`              |
 +-------------+---------------------------------+
 | Exakt since | 1.3.9                           |
 +-------------+---------------------------------+
@@ -14197,7 +14197,7 @@ Specs
 +-------------+---------------------------------------+
 | Short name  | Constants/DefineInsensitivePreference |
 +-------------+---------------------------------------+
-| Rulesets    | none                                  |
+| Rulesets    | :ref:`Preferences`                    |
 +-------------+---------------------------------------+
 | Exakt since | 1.3.8                                 |
 +-------------+---------------------------------------+
@@ -14288,7 +14288,7 @@ Specs
 +-------------+----------------------------+
 | Short name  | Constants/InconsistantCase |
 +-------------+----------------------------+
-| Rulesets    | none                       |
+| Rulesets    | :ref:`Preferences`         |
 +-------------+----------------------------+
 | Exakt since | 0.8.4                      |
 +-------------+----------------------------+
@@ -16346,21 +16346,21 @@ Suggestions
 
 Specs
 ^^^^^
-+-------------+-------------------+
-| Short name  | Exceptions/CatchE |
-+-------------+-------------------+
-| Rulesets    | none              |
-+-------------+-------------------+
-| Exakt since | 1.7.6             |
-+-------------+-------------------+
-| Php Version | All               |
-+-------------+-------------------+
-| Severity    | Minor             |
-+-------------+-------------------+
-| Time To Fix | Slow (1 hour)     |
-+-------------+-------------------+
-| Precision   | High              |
-+-------------+-------------------+
++-------------+--------------------+
+| Short name  | Exceptions/CatchE  |
++-------------+--------------------+
+| Rulesets    | :ref:`Preferences` |
++-------------+--------------------+
+| Exakt since | 1.7.6              |
++-------------+--------------------+
+| Php Version | All                |
++-------------+--------------------+
+| Severity    | Minor              |
++-------------+--------------------+
+| Time To Fix | Slow (1 hour)      |
++-------------+--------------------+
+| Precision   | High               |
++-------------+--------------------+
 
 
 .. _catch-undefined-variable:
@@ -19167,7 +19167,7 @@ ext/ffi
 
  Extension ``FFI`` : Foreign Function Interface .
 
-This extension allows the loading of shared libraries (.DLL or .so), calling of C functions and accessing of C data structures in pure PHP, without having to have deep knowledge of the Zend extension API, and without having to learn a third “intermediate” language. The public API is implemented as a single class `FFI <https://www.php.net/ffi>`_ with several `static <https://www.php.net/manual/en/language.oop5.static.php>`_ methods (some of them may be called dynamically), and overloaded object methods, which perform the actual interaction with C data.
+This extension allows the loading of shared libraries (.DLL or .so), calling of C functions and accessing of C data structures in pure PHP, without having to have deep knowledge of the Zend extension API, and without having to learn a third “intermediate” language. The public API is implemented as a single class FFI with several `static <https://www.php.net/manual/en/language.oop5.static.php>`_ methods (some of them may be called dynamically), and overloaded object methods, which perform the actual interaction with C data.
 
 .. code-block:: php
 
@@ -19182,9 +19182,7 @@ This extension allows the loading of shared libraries (.DLL or .so), calling of 
    ?>
 
 
-See also `Foreign Function Interface <https://www.php.net/manual/en/book.`ffi <https://www.php.net/ffi>`_.php>`_, and 
-        `ext/`ffi <https://www.php.net/ffi>`_ <https://github.com/dstogov/php-`ffi <https://www.php.net/ffi>`_>`_ and 
-        `A PHP Compiler, aka The `FFI <https://www.php.net/ffi>`_ Rabbit Hole <https://blog.ircmaxell.com/2019/04/compilers-`ffi <https://www.php.net/ffi>`_.html>`_.
+See also `Foreign Function Interface <https://www.php.net/manual/en/book.ffi.php>`_, and `ext/ffi <https://github.com/dstogov/php-ffi>`_ and `A PHP Compiler, aka The FFI Rabbit Hole <https://blog.ircmaxell.com/2019/04/compilers-ffi.html>`_.
 
 Suggestions
 ^^^^^^^^^^^
@@ -19801,7 +19799,7 @@ ext/gmagick
 
  Extension gmagick.
 
-`Gmagick <https://www.php.net/Gmagick>`_ is a php extension to create, modify and obtain meta information of images using the GraphicsMagick API.
+Gmagick is a php extension to create, modify and obtain meta information of images using the GraphicsMagick API.
 
 .. code-block:: php
 
@@ -20301,9 +20299,9 @@ Specs
 ext/imagick
 +++++++++++
 
- Extension `Imagick <https://www.php.net/Imagick>`_ for PHP.
+ Extension Imagick for PHP.
 
-`Imagick <https://www.php.net/Imagick>`_ is a native php extension to create and modify images using the ImageMagick API.
+Imagick is a native php extension to create and modify images using the ImageMagick API.
 
 .. code-block:: php
 
@@ -20721,7 +20719,7 @@ Specs
 ext/lapack
 ++++++++++
 
- Extension `Lapack <https://www.php.net/lapack>`_. `LAPACK <https://www.php.net/lapack>`_ provides routines for solving systems of simultaneous linear equations, least-squares solutions of linear systems of equations, eigenvalue problems, and singular value problems. 
+ Extension Lapack. LAPACK provides routines for solving systems of simultaneous linear equations, least-squares solutions of linear systems of equations, eigenvalue problems, and singular value problems. 
 
 .. code-block:: php
 
@@ -20749,7 +20747,7 @@ ext/lapack
    ?>
 
  
-See also `Lapack <https://www.php.net/manual/en/book.`lapack <https://www.php.net/lapack>`_.php>`_ and `php-`lapack <https://www.php.net/lapack>`_ <https://github.com/ianbarber/php-`lapack <https://www.php.net/lapack>`_>`_.
+See also `Lapack <https://www.php.net/manual/en/book.lapack.php>`_ and `php-lapack <https://github.com/ianbarber/php-lapack>`_.
 
 Specs
 ^^^^^
@@ -20848,9 +20846,9 @@ Specs
 ext/leveldb
 +++++++++++
 
- PHP Binding for `LevelDB <https://www.php.net/LevelDB>`_.
+ PHP Binding for LevelDB.
 
-`LevelDB <https://www.php.net/LevelDB>`_ is a fast key-value storage library written at Google that provides an ordered mapping from string keys to string values.
+LevelDB is a fast key-value storage library written at Google that provides an ordered mapping from string keys to string values.
 
 .. code-block:: php
 
@@ -21105,9 +21103,9 @@ Specs
 ext/lua
 +++++++
 
- Extension `Lua <https://www.php.net/Lua>`_.
+ Extension Lua.
 
-'`Lua <https://www.php.net/Lua>`_ is a powerful, fast, light-weight, embeddable scripting language.' This extension embeds the lua interpreter and offers an OO-API to lua variables and functions.
+'Lua is a powerful, fast, light-weight, embeddable scripting language.' This extension embeds the lua interpreter and offers an OO-API to lua variables and functions.
 
 .. code-block:: php
 
@@ -22751,9 +22749,9 @@ Specs
 ext/pdo
 +++++++
 
- Generic extension `PDO <https://www.php.net/PDO>`_.
+ Generic extension PDO.
 
-The PHP Data Objects (`PDO) <https://www.php.net/PDO>`_ extension defines a lightweight, consistent interface for accessing databases in PHP. 
+The PHP Data Objects (PDO) extension defines a lightweight, consistent interface for accessing databases in PHP. 
 
 .. code-block:: php
 
@@ -23293,7 +23291,7 @@ ext/redis
 
  Extension ext/redis.
 
-The phpredis extension provides an API for communicating with the `Redis <https://www.php.net/Redis>`_ key-value store. 
+The phpredis extension provides an API for communicating with the Redis key-value store. 
 
 .. code-block:: php
 
@@ -23319,7 +23317,7 @@ The phpredis extension provides an API for communicating with the `Redis <https:
    ?>
 
 
-See also `A PHP extension for `Redis <https://www.php.net/Redis>`_ <https://github.com/phpredis/phpredis/>`_ and `Redis <https://redis.io/>`_.
+See also `A PHP extension for Redis <https://github.com/phpredis/phpredis/>`_ and `Redis <https://redis.io/>`_.
 
 Specs
 ^^^^^
@@ -23345,7 +23343,7 @@ Specs
 ext/reflection
 ++++++++++++++
 
- Extension `Reflection <https://www.php.net/Reflection>`_.
+ Extension Reflection.
 
 PHP comes with a complete reflection API that adds the ability to reverse-engineer classes, interfaces, functions, methods and extensions. Additionally, the reflection API offers ways to retrieve doc comments for functions, classes and methods.
 
@@ -23983,9 +23981,9 @@ Specs
 ext/sphinx
 ++++++++++
 
- Extension for the `Sphinx <https://www.php.net/Sphinx>`_ search server.
+ Extension for the Sphinx search server.
 
-This extension provides bindings for `Sphinx <https://www.php.net/Sphinx>`_ search client library. 
+This extension provides bindings for Sphinx search client library. 
 
 .. code-block:: php
 
@@ -24471,7 +24469,7 @@ ext/svm
    ?>
 
 
-See also `SVM <http://www.php.net/`svm <https://www.php.net/svm>`_>`_, `LIBSVM -- A Library for Support Vector Machines <https://www.csie.ntu.edu.tw/~cjlin/libsvm/>`_, `ext/`svm <https://www.php.net/svm>`_ <https://pecl.php.net/package/`svm <https://www.php.net/svm>`_>`_ and `ianbarber/php-`svm <https://www.php.net/svm>`_ <https://github.com/ianbarber/php-`svm <https://www.php.net/svm>`_>`_.
+See also `SVM <http://www.php.net/svm>`_, `LIBSVM -- A Library for Support Vector Machines <https://www.csie.ntu.edu.tw/~cjlin/libsvm/>`_, `ext/svm <https://pecl.php.net/package/svm>`_ and `ianbarber/php-svm <https://github.com/ianbarber/php-svm>`_.
 
 Specs
 ^^^^^
@@ -24880,7 +24878,7 @@ Specs
 ext/v8js
 ++++++++
 
- Extension `v8js <https://www.php.net/v8js>`_.
+ Extension v8js.
 
 This extension embeds the `V8 Javascript Engine <https://bugs.chromium.org/p/v8/issues/list>`_ into PHP.
 
@@ -24905,9 +24903,7 @@ This extension embeds the `V8 Javascript Engine <https://bugs.chromium.org/p/v8/
    ?>
 
 
-See also `V8 Javascript Engine Integration <https://www.php.net/manual/en/book.`v8js <https://www.php.net/v8js>`_.php>`_, 
-         `V8 Javascript Engine for PHP <https://github.com/phpv8/`v8js <https://www.php.net/v8js>`_>`_ and 
-         `pecl `v8js <https://www.php.net/v8js>`_ <https://pecl.php.net/package/`v8js <https://www.php.net/v8js>`_>`_.
+See also `V8 Javascript Engine Integration <https://www.php.net/manual/en/book.v8js.php>`_, `V8 Javascript Engine for PHP <https://github.com/phpv8/v8js>`_ and `pecl v8js <https://pecl.php.net/package/v8js>`_.
 
 Specs
 ^^^^^
@@ -25141,8 +25137,7 @@ Weak references provide a non-intrusive gateway to ephemeral objects. Unlike nor
    ?>
 
 
-See also `Weak references <https://www.php.net/manual/en/book.`weakref <https://www.php.net/weakref>`_.php>`_ and 
-         `PECL extension that implements weak references and weak maps in PHP <https://github.com/colder/php-`weakref <https://www.php.net/weakref>`_>`_.
+See also `Weak references <https://www.php.net/manual/en/book.weakref.php>`_ and `PECL extension that implements weak references and weak maps in PHP <https://github.com/colder/php-weakref>`_.
 
 Specs
 ^^^^^
@@ -29150,7 +29145,7 @@ Modified Typed Parameter
 
 This problem doesn't apply to scalar types : by default, PHP pass scalar parameters by value, not by reference. Class types are always passed by reference.
 
-This problem is similar to `Classes/DontUnsetProperties`_ : the `static <https://www.php.net/manual/en/language.oop5.static.php>`_ specification of the property may be unset, leading to confusing 'undefined property', while the class hold the property definition.
+This problem is similar to :ref:`don't-unset-properties`  : the `static <https://www.php.net/manual/en/language.oop5.static.php>`_ specification of the property may be unset, leading to confusing 'undefined property', while the class hold the property definition.
 
 
 
@@ -35455,7 +35450,7 @@ Specs
 Fetch One Row Format
 ++++++++++++++++++++
 
- When reading results with ext/Sqlite3, it is recommended to explicitly request `SQLITE3_NUM <https://www.php.net/SQLITE3_NUM>`_ or `SQLITE3_ASSOC <https://www.php.net/SQLITE3_ASSOC>`_, while avoiding the default value and `SQLITE3_BOTH <https://www.php.net/SQLITE3_BOTH>`_.
+ When reading results with ext/Sqlite3, it is recommended to explicitly request SQLITE3_NUM or SQLITE3_ASSOC, while avoiding the default value and SQLITE3_BOTH.
 
 .. code-block:: php
 
@@ -37939,7 +37934,7 @@ Specs
 +-------------+--------------------------+
 | Short name  | Php/CloseTagsConsistency |
 +-------------+--------------------------+
-| Rulesets    | none                     |
+| Rulesets    | :ref:`Preferences`       |
 +-------------+--------------------------+
 | Exakt since | 0.9.3                    |
 +-------------+--------------------------+
@@ -38411,9 +38406,9 @@ Specs
 Crc32() Might Be Negative
 +++++++++++++++++++++++++
 
- crc32`() <https://www.php.net/>`_ may return a negative number, on 32 bits platforms.
+ `crc32() <https://www.php.net/crc32>`_ may return a negative number, on 32 bits platforms.
 
-According to the manual : Because PHP\'s integer type is signed many ``CRC32`` checksums will result in negative integers on 32 bits platforms. On 64 bits installations, all crc32`() <https://www.php.net/>`_ results will be positive integers though.
+According to the manual : Because PHP\'s integer type is signed many ``CRC32`` checksums will result in negative integers on 32 bits platforms. On 64 bits installations, all `crc32() <https://www.php.net/crc32>`_ results will be positive integers though.
 
 .. code-block:: php
 
@@ -38431,7 +38426,7 @@ According to the manual : Because PHP\'s integer type is signed many ``CRC32`` c
    ?>
 
 
-See also `crc32`() <https://www.php.net/>`_ <https://www.php.net/crc32>`_.
+See also `crc32() <https://www.php.net/crc32>`_.
 
 Specs
 ^^^^^
@@ -38626,21 +38621,21 @@ See also `declare <https://www.php.net/manual/en/control-structures.declare.php>
 
 Specs
 ^^^^^
-+-------------+---------------------+
-| Short name  | Php/DeclareEncoding |
-+-------------+---------------------+
-| Rulesets    | :ref:`CE`           |
-+-------------+---------------------+
-| Exakt since | 0.12.1              |
-+-------------+---------------------+
-| Php Version | All                 |
-+-------------+---------------------+
-| Severity    | Minor               |
-+-------------+---------------------+
-| Time To Fix | Slow (1 hour)       |
-+-------------+---------------------+
-| Precision   | High                |
-+-------------+---------------------+
++-------------+-------------------------------+
+| Short name  | Php/DeclareEncoding           |
++-------------+-------------------------------+
+| Rulesets    | :ref:`Preferences`, :ref:`CE` |
++-------------+-------------------------------+
+| Exakt since | 0.12.1                        |
++-------------+-------------------------------+
+| Php Version | All                           |
++-------------+-------------------------------+
+| Severity    | Minor                         |
++-------------+-------------------------------+
+| Time To Fix | Slow (1 hour)                 |
++-------------+-------------------------------+
+| Precision   | High                          |
++-------------+-------------------------------+
 
 
 .. _strict\_types-preference:
@@ -38668,21 +38663,21 @@ See also `Strict typing <https://www.php.net/manual/en/functions.arguments.php#f
 
 Specs
 ^^^^^
-+-------------+-------------------+
-| Short name  | Php/DeclareStrict |
-+-------------+-------------------+
-| Rulesets    | :ref:`CE`         |
-+-------------+-------------------+
-| Exakt since | 0.12.2            |
-+-------------+-------------------+
-| Php Version | 7.0+              |
-+-------------+-------------------+
-| Severity    | Minor             |
-+-------------+-------------------+
-| Time To Fix | Slow (1 hour)     |
-+-------------+-------------------+
-| Precision   | High              |
-+-------------+-------------------+
++-------------+-------------------------------+
+| Short name  | Php/DeclareStrict             |
++-------------+-------------------------------+
+| Rulesets    | :ref:`Preferences`, :ref:`CE` |
++-------------+-------------------------------+
+| Exakt since | 0.12.2                        |
++-------------+-------------------------------+
+| Php Version | 7.0+                          |
++-------------+-------------------------------+
+| Severity    | Minor                         |
++-------------+-------------------------------+
+| Time To Fix | Slow (1 hour)                 |
++-------------+-------------------------------+
+| Precision   | High                          |
++-------------+-------------------------------+
 
 
 .. _declare-strict\_types-usage:
@@ -38718,21 +38713,21 @@ See also `declare <https://www.php.net/manual/en/control-structures.declare.php>
 
 Specs
 ^^^^^
-+-------------+-----------------------+
-| Short name  | Php/DeclareStrictType |
-+-------------+-----------------------+
-| Rulesets    | :ref:`CE`             |
-+-------------+-----------------------+
-| Exakt since | 0.12.1                |
-+-------------+-----------------------+
-| Php Version | 7.0+                  |
-+-------------+-----------------------+
-| Severity    | Minor                 |
-+-------------+-----------------------+
-| Time To Fix | Slow (1 hour)         |
-+-------------+-----------------------+
-| Precision   | High                  |
-+-------------+-----------------------+
++-------------+-------------------------------+
+| Short name  | Php/DeclareStrictType         |
++-------------+-------------------------------+
+| Rulesets    | :ref:`Preferences`, :ref:`CE` |
++-------------+-------------------------------+
+| Exakt since | 0.12.1                        |
++-------------+-------------------------------+
+| Php Version | 7.0+                          |
++-------------+-------------------------------+
+| Severity    | Minor                         |
++-------------+-------------------------------+
+| Time To Fix | Slow (1 hour)                 |
++-------------+-------------------------------+
+| Precision   | High                          |
++-------------+-------------------------------+
 
 
 .. _ticks-usage:
@@ -38756,21 +38751,21 @@ See also `declare <https://www.php.net/manual/en/control-structures.declare.php>
 
 Specs
 ^^^^^
-+-------------+------------------+
-| Short name  | Php/DeclareTicks |
-+-------------+------------------+
-| Rulesets    | :ref:`CE`        |
-+-------------+------------------+
-| Exakt since | 0.12.1           |
-+-------------+------------------+
-| Php Version | All              |
-+-------------+------------------+
-| Severity    | Minor            |
-+-------------+------------------+
-| Time To Fix | Slow (1 hour)    |
-+-------------+------------------+
-| Precision   | Very high        |
-+-------------+------------------+
++-------------+-------------------------------+
+| Short name  | Php/DeclareTicks              |
++-------------+-------------------------------+
+| Rulesets    | :ref:`Preferences`, :ref:`CE` |
++-------------+-------------------------------+
+| Exakt since | 0.12.1                        |
++-------------+-------------------------------+
+| Php Version | All                           |
++-------------+-------------------------------+
+| Severity    | Minor                         |
++-------------+-------------------------------+
+| Time To Fix | Slow (1 hour)                 |
++-------------+-------------------------------+
+| Precision   | Very high                     |
++-------------+-------------------------------+
 
 
 .. _define-with-array:
@@ -39644,7 +39639,7 @@ Specs
 +-------------+---------------------+
 | Short name  | Php/GlobalsVsGlobal |
 +-------------+---------------------+
-| Rulesets    | none                |
+| Rulesets    | :ref:`Preferences`  |
 +-------------+---------------------+
 | Exakt since | 0.9.2               |
 +-------------+---------------------+
@@ -40163,7 +40158,7 @@ Specs
 idn_to_ascii() New Default
 ++++++++++++++++++++++++++
 
- The default parameter value of `idn_to_ascii() <https://www.php.net/idn_to_ascii>`_ and idn_to_utf8`() <https://www.php.net/>`_ is now `INTL_IDNA_VARIANT_UTS46 <https://www.php.net/INTL_IDNA_VARIANT_UTS46>`_ instead of the deprecated `INTL_IDNA_VARIANT_2003 <https://www.php.net/INTL_IDNA_VARIANT_2003>`_.
+ The default parameter value of `idn_to_ascii() <https://www.php.net/idn_to_ascii>`_ and `idn_to_utf8() <https://www.php.net/idn_to_utf8>`_ is now `INTL_IDNA_VARIANT_UTS46 <https://www.php.net/INTL_IDNA_VARIANT_UTS46>`_ instead of the deprecated `INTL_IDNA_VARIANT_2003 <https://www.php.net/INTL_IDNA_VARIANT_2003>`_.
 
 .. code-block:: php
 
@@ -40808,21 +40803,21 @@ Suggestions
 
 Specs
 ^^^^^
-+-------------+--------------------------------+
-| Short name  | Php/LetterCharsLogicalFavorite |
-+-------------+--------------------------------+
-| Rulesets    | :ref:`Top10`                   |
-+-------------+--------------------------------+
-| Exakt since | 0.12.4                         |
-+-------------+--------------------------------+
-| Php Version | All                            |
-+-------------+--------------------------------+
-| Severity    | Minor                          |
-+-------------+--------------------------------+
-| Time To Fix | Slow (1 hour)                  |
-+-------------+--------------------------------+
-| Precision   | High                           |
-+-------------+--------------------------------+
++-------------+----------------------------------+
+| Short name  | Php/LetterCharsLogicalFavorite   |
++-------------+----------------------------------+
+| Rulesets    | :ref:`Preferences`, :ref:`Top10` |
++-------------+----------------------------------+
+| Exakt since | 0.12.4                           |
++-------------+----------------------------------+
+| Php Version | All                              |
++-------------+----------------------------------+
+| Severity    | Minor                            |
++-------------+----------------------------------+
+| Time To Fix | Slow (1 hour)                    |
++-------------+----------------------------------+
+| Precision   | High                             |
++-------------+----------------------------------+
 
 
 .. _list-short-syntax:
@@ -44519,9 +44514,9 @@ Specs
 Reflection Export() Is Deprecated
 +++++++++++++++++++++++++++++++++
 
- export() method in `Reflection <https://www.php.net/Reflection>`_ classes is now deprecated. It is obsolete since PHP 7.4 and will disappear in PHP 8.0.
+ export() method in Reflection classes is now deprecated. It is obsolete since PHP 7.4 and will disappear in PHP 8.0.
 
-The `Reflector <https://www.php.net/Reflector>`_ interface, which is implemented by all reflection classes, specifies two methods: `__toString() <https://www.php.net/manual/en/language.oop5.magic.php>`_ and export(). 
+The Reflector interface, which is implemented by all reflection classes, specifies two methods: `__toString() <https://www.php.net/manual/en/language.oop5.magic.php>`_ and export(). 
 
 .. code-block:: php
 
@@ -45227,21 +45222,21 @@ See also `Execution Operators <https://www.php.net/manual/en/language.operators.
 
 Specs
 ^^^^^
-+-------------+-------------------+
-| Short name  | Php/ShellFavorite |
-+-------------+-------------------+
-| Rulesets    | none              |
-+-------------+-------------------+
-| Exakt since | 0.12.9            |
-+-------------+-------------------+
-| Php Version | All               |
-+-------------+-------------------+
-| Severity    | Minor             |
-+-------------+-------------------+
-| Time To Fix | Slow (1 hour)     |
-+-------------+-------------------+
-| Precision   | High              |
-+-------------+-------------------+
++-------------+--------------------+
+| Short name  | Php/ShellFavorite  |
++-------------+--------------------+
+| Rulesets    | :ref:`Preferences` |
++-------------+--------------------+
+| Exakt since | 0.12.9             |
++-------------+--------------------+
+| Php Version | All                |
++-------------+--------------------+
+| Severity    | Minor              |
++-------------+--------------------+
+| Time To Fix | Slow (1 hour)      |
++-------------+--------------------+
+| Precision   | High               |
++-------------+--------------------+
 
 
 .. _short-open-tags:
@@ -46423,21 +46418,21 @@ It happens that `unset() <https://www.php.net/unset>`_ or (unset) are used depen
 
 Specs
 ^^^^^
-+-------------+-----------------+
-| Short name  | Php/UnsetOrCast |
-+-------------+-----------------+
-| Rulesets    | none            |
-+-------------+-----------------+
-| Exakt since | 0.9.3           |
-+-------------+-----------------+
-| Php Version | All             |
-+-------------+-----------------+
-| Severity    | Minor           |
-+-------------+-----------------+
-| Time To Fix | Slow (1 hour)   |
-+-------------+-----------------+
-| Precision   | High            |
-+-------------+-----------------+
++-------------+--------------------+
+| Short name  | Php/UnsetOrCast    |
++-------------+--------------------+
+| Rulesets    | :ref:`Preferences` |
++-------------+--------------------+
+| Exakt since | 0.9.3              |
++-------------+--------------------+
+| Php Version | All                |
++-------------+--------------------+
+| Severity    | Minor              |
++-------------+--------------------+
+| Time To Fix | Slow (1 hour)      |
++-------------+--------------------+
+| Precision   | High               |
++-------------+--------------------+
 
 
 .. _unusual-case-for-php-functions:
@@ -48461,7 +48456,7 @@ Specs
 Can't Disable Class
 +++++++++++++++++++
 
- This is the list of potentially dangerous PHP class being used in the code, such as \`Phar <https://www.php.net/Phar>`_. 
+ This is the list of potentially dangerous PHP class being used in the code, such as \Phar. 
 
 .. code-block:: php
 
@@ -52073,7 +52068,7 @@ Specs
 +-------------+-------------------------------+
 | Short name  | Structures/ComparisonFavorite |
 +-------------+-------------------------------+
-| Rulesets    | none                          |
+| Rulesets    | :ref:`Preferences`            |
 +-------------+-------------------------------+
 | Exakt since | 1.3.2                         |
 +-------------+-------------------------------+
@@ -52263,7 +52258,7 @@ Specs
 +-------------+-----------------------------------------------+
 | Short name  | Structures/ConcatenationInterpolationFavorite |
 +-------------+-----------------------------------------------+
-| Rulesets    | none                                          |
+| Rulesets    | :ref:`Preferences`                            |
 +-------------+-----------------------------------------------+
 | Exakt since | 0.11.6                                        |
 +-------------+-----------------------------------------------+
@@ -52360,7 +52355,7 @@ Specs
 +-------------+------------------------------------------+
 | Short name  | Structures/ConstantComparisonConsistance |
 +-------------+------------------------------------------+
-| Rulesets    | none                                     |
+| Rulesets    | :ref:`Preferences`                       |
 +-------------+------------------------------------------+
 | Exakt since | 0.8.4                                    |
 +-------------+------------------------------------------+
@@ -53451,7 +53446,7 @@ Specs
 +-------------+-------------------------------+
 | Short name  | Structures/DieExitConsistance |
 +-------------+-------------------------------+
-| Rulesets    | none                          |
+| Rulesets    | :ref:`Preferences`            |
 +-------------+-------------------------------+
 | Exakt since | 0.8.9                         |
 +-------------+-------------------------------+
@@ -53500,7 +53495,7 @@ Specs
 +-------------+---------------------------------+
 | Short name  | Structures/DifferencePreference |
 +-------------+---------------------------------+
-| Rulesets    | none                            |
+| Rulesets    | :ref:`Preferences`              |
 +-------------+---------------------------------+
 | Exakt since | 0.11.1                          |
 +-------------+---------------------------------+
@@ -53521,11 +53516,11 @@ Directly Use File
 
  Some PHP functions have a close cousin that work directly on files : use them. This is faster and less code to write.
 
-* md5`() <https://www.php.net/>`_ => `md5_file() <https://www.php.net/md5_file>`_
+* `md5() <https://www.php.net/md5>`_ => `md5_file() <https://www.php.net/md5_file>`_
 * `highlight_string() <https://www.php.net/highlight_string>`_ => `highlight_file() <https://www.php.net/highlight_file>`_, `show_source() <https://www.php.net/show_source>`_
 * `parsekit_compile_string() <https://www.php.net/parsekit_compile_string>`_ => `parsekit_compile_file() <https://www.php.net/parsekit_compile_file>`_
 * `parse_ini_string() <https://www.php.net/parse_ini_string>`_ => `parse_ini_file() <https://www.php.net/parse_ini_file>`_
-* sha1`() <https://www.php.net/>`_ => `sha1_file() <https://www.php.net/sha1_file>`_
+* `sha1() <https://www.php.net/sha1>`_ => `sha1_file() <https://www.php.net/sha1_file>`_
 * `simplexml_load_string() <https://www.php.net/simplexml_load_string>`_ => `simplexml_load_file() <https://www.php.net/simplexml_load_file>`_
 * `yaml_parse() <https://www.php.net/yaml_parse>`_ => `yaml_parse_file() <https://www.php.net/yaml_parse_file>`_
 * `hash() <https://www.php.net/hash>`_ => `hash_file() <https://www.php.net/hash_file>`_
@@ -54342,7 +54337,7 @@ Specs
 +-------------+---------------------------------+
 | Short name  | Structures/EchoPrintConsistance |
 +-------------+---------------------------------+
-| Rulesets    | none                            |
+| Rulesets    | :ref:`Preferences`              |
 +-------------+---------------------------------+
 | Exakt since | 0.8.4                           |
 +-------------+---------------------------------+
@@ -55918,7 +55913,7 @@ Specs
 +-------------+---------------------------+
 | Short name  | Structures/GtOrLtFavorite |
 +-------------+---------------------------+
-| Rulesets    | none                      |
+| Rulesets    | :ref:`Preferences`        |
 +-------------+---------------------------+
 | Exakt since | 1.3.2                     |
 +-------------+---------------------------+
@@ -58789,7 +58784,7 @@ Specs
 +-------------+-------------------------+
 | Short name  | Structures/NewLineStyle |
 +-------------+-------------------------+
-| Rulesets    | none                    |
+| Rulesets    | :ref:`Preferences`      |
 +-------------+-------------------------+
 | Exakt since | 0.9.8                   |
 +-------------+-------------------------+
@@ -60325,7 +60320,7 @@ Specs
 +-------------+---------------------+
 | Short name  | Structures/NotOrNot |
 +-------------+---------------------+
-| Rulesets    | none                |
+| Rulesets    | :ref:`Preferences`  |
 +-------------+---------------------+
 | Exakt since | 1.8.9               |
 +-------------+---------------------+
@@ -60619,7 +60614,7 @@ Specs
 +-------------+---------------------------------------------+
 | Short name  | Structures/OneExpressionBracketsConsistency |
 +-------------+---------------------------------------------+
-| Rulesets    | none                                        |
+| Rulesets    | :ref:`Preferences`                          |
 +-------------+---------------------------------------------+
 | Exakt since | 0.9.5                                       |
 +-------------+---------------------------------------------+
@@ -61652,7 +61647,7 @@ Specs
 +-------------+---------------------------+
 | Short name  | Structures/RegexDelimiter |
 +-------------+---------------------------+
-| Rulesets    | none                      |
+| Rulesets    | :ref:`Preferences`        |
 +-------------+---------------------------+
 | Exakt since | 0.10.5                    |
 +-------------+---------------------------+
@@ -70129,8 +70124,8 @@ See `Backward incompatible changes PHP 7.0 <https://www.php.net/manual/en/migrat
 +-----------------------+-------------------------+-------------------------+
 |$$foo['bar']['baz']    |${$foo['bar']['baz']}    |($$foo)['bar']['baz']    |
 |$foo->$bar['baz']      |$foo->{$bar['baz']}      |($foo->$bar)['baz']      |
-|$foo->$bar['baz']`() <https://www.php.net/>`_    |$foo->{$bar['baz']}`() <https://www.php.net/>`_    |($foo->$bar)['baz']`() <https://www.php.net/>`_    |
-|Foo\:\:$bar['baz']`() <https://www.php.net/>`_   |Foo\:\:{$bar['baz']}`() <https://www.php.net/>`_   |(Foo\:\:$bar)['baz']`() <https://www.php.net/>`_   |
+|$foo->$bar['baz']()    |$foo->{$bar['baz']}()    |($foo->$bar)['baz']()    |
+|Foo\:\:$bar['baz']()   |Foo\:\:{$bar['baz']}()   |(Foo\:\:$bar)['baz']()   |
 +-----------------------+-------------------------+-------------------------+
 
 
@@ -74329,59 +74324,6 @@ Directory by PHP Function
       + :ref:`Used Once Variables <used-once-variables>`
 
 
-+ `(`
-    + `()`
-
-      + :ref:`Could Be Parent Method <could-be-parent-method>`
-      + :ref:`Property Could Be Private Property <property-could-be-private-property>`
-      + :ref:`Method Could Be Private Method <method-could-be-private-method>`
-      + :ref:`Defined Parent MP <defined-parent-mp>`
-      + :ref:`Law of Demeter <law-of-demeter>`
-      + :ref:`Class Should Be Final By Ocramius <class-should-be-final-by-ocramius>`
-      + :ref:`Fossilized Method <fossilized-method>`
-      + :ref:`Insufficient Property Typehint <insufficient-property-typehint>`
-      + :ref:`Is Interface Method <is-interface-method>`
-      + :ref:`Non Static Methods Called In A Static <non-static-methods-called-in-a-static>`
-      + :ref:`Order Of Declaration <order-of-declaration>`
-      + :ref:`Never Used Properties <never-used-properties>`
-      + :ref:`Property Used In One Method Only <property-used-in-one-method-only>`
-      + :ref:`Unused Protected Methods <unused-protected-methods>`
-      + :ref:`Useless Typehint <useless-typehint>`
-      + :ref:`Follow Closure Definition <follow-closure-definition>`
-      + :ref:`Solve Trait Methods <solve-trait-methods>`
-      + :ref:`ext/async <ext-async>`
-      + :ref:`ext/ev <ext-ev>`
-      + :ref:`ext/newt <ext-newt>`
-      + :ref:`ext/reflection <ext-reflection>`
-      + :ref:`Callback Function Needs Return <callback-function-needs-return>`
-      + :ref:`Cannot Use Static For Closure <cannot-use-static-for-closure>`
-      + :ref:`Exceeding Typehint <exceeding-typehint>`
-      + :ref:`Fallback Function <fallback-function>`
-      + :ref:`Is Generator <is-generator>`
-      + :ref:`No Literal For Reference <no-literal-for-reference>`
-      + :ref:`No Return Used <no-return-used>`
-      + :ref:`Real Functions <real-functions>`
-      + :ref:`Should Yield With Key <should-yield-with-key>`
-      + :ref:`Too Many Local Variables <too-many-local-variables>`
-      + :ref:`Too Much Indented <too-much-indented>`
-      + :ref:`Unbinding Closures <unbinding-closures>`
-      + :ref:`Wrong Function Name Case <wrong-function-name-case>`
-      + :ref:`Interfaces Don't Ensure Properties <interfaces-don't-ensure-properties>`
-      + :ref:`Possible Interfaces <possible-interfaces>`
-      + :ref:`Memoize MagicCall <memoize-magiccall>`
-      + :ref:`Crc32() Might Be Negative <crc32()-might-be-negative>`
-      + :ref:`idn_to_ascii() New Default <idn\_to\_ascii()-new-default>`
-      + :ref:`PHP 7.1 Scalar Typehints <php-7.1-scalar-typehints>`
-      + :ref:`Wrong Attribute Configuration <wrong-attribute-configuration>`
-      + :ref:`Directly Use File <directly-use-file>`
-      + :ref:`Don't Loop On Yield <don't-loop-on-yield>`
-      + :ref:`Max Level Of Nesting <max-level-of-nesting>`
-      + :ref:`Could Use Trait <could-use-trait>`
-      + :ref:`Undefined Insteadof <undefined-insteadof>`
-      + :ref:`PHP5 Indirect Variable Expression <php5-indirect-variable-expression>`
-      + :ref:`Non Ascii Variables <non-ascii-variables>`
-
-
 + `*`
     + `**`
 
@@ -74458,14 +74400,6 @@ Directory by PHP Function
     + `AF_INET`
 
       + :ref:`ext/sockets <ext-sockets>`
-
-    + `AMQPChannel`
-
-      + :ref:`ext/amqp <ext-amqp>`
-
-    + `AMQPConnection`
-
-      + :ref:`ext/amqp <ext-amqp>`
 
     + `ArrayAccess`
 
@@ -75206,6 +75140,10 @@ Directory by PHP Function
       + :ref:`Use is_countable <use-is\_countable>`
       + :ref:`Can't Count Non-Countable <can't-count-non-countable>`
 
+    + `crc32()`
+
+      + :ref:`Crc32() Might Be Negative <crc32()-might-be-negative>`
+
     + `create_function()`
 
       + :ref:`PHP 7.2 Deprecations <php-7.2-deprecations>`
@@ -75530,34 +75468,6 @@ Directory by PHP Function
 
       + :ref:`While(List() = Each()) <while(list()-=-each())>`
 
-    + `Ev`
-
-      + :ref:`ext/ev <ext-ev>`
-
-    + `EvTimer`
-
-      + :ref:`ext/ev <ext-ev>`
-
-    + `Event`
-
-      + :ref:`ext/event <ext-event>`
-
-    + `EventBase`
-
-      + :ref:`ext/event <ext-event>`
-
-    + `EventBufferEvent`
-
-      + :ref:`ext/event <ext-event>`
-
-    + `EventDnsBase`
-
-      + :ref:`ext/event <ext-event>`
-
-    + `EventUtil`
-
-      + :ref:`ext/event <ext-event>`
-
     + `Exit`
 
       + :ref:`Multiple Returns <multiple-returns>`
@@ -75634,27 +75544,12 @@ Directory by PHP Function
       + :ref:`Use Constant As Arguments <use-constant-as-arguments>`
       + :ref:`PHP Handlers Usage <php-handlers-usage>`
 
-    + `ev`
-
-      + :ref:`ext/ev <ext-ev>`
-      + :ref:`Encoded Simple Letters <encoded-simple-letters>`
-
     + `eval()`
 
       + :ref:`Function With Dynamic Code <function-with-dynamic-code>`
       + :ref:`Can't Disable Function <can't-disable-function>`
       + :ref:`Eval() Usage <eval()-usage>`
       + :ref:`preg_replace With Option e <preg\_replace-with-option-e>`
-
-    + `event`
-
-      + :ref:`ext/ev <ext-ev>`
-      + :ref:`ext/event <ext-event>`
-      + :ref:`ext/inotify <ext-inotify>`
-      + :ref:`ext/libevent <ext-libevent>`
-      + :ref:`ext/swoole <ext-swoole>`
-      + :ref:`Minus One On Error <minus-one-on-error>`
-      + :ref:`Empty Try Catch <empty-try-catch>`
 
     + `event_base_new()`
 
@@ -75723,10 +75618,6 @@ Directory by PHP Function
 
       + :ref:`ext/fann <ext-fann>`
 
-    + `FFI`
-
-      + :ref:`ext/ffi <ext-ffi>`
-
     + `FILEINFO_MIME_TYPE`
 
       + :ref:`ext/fileinfo <ext-fileinfo>`
@@ -75781,14 +75672,6 @@ Directory by PHP Function
     + `feof()`
 
       + :ref:`Possible Infinite Loop <possible-infinite-loop>`
-
-    + `ffi`
-
-      + :ref:`ext/ffi <ext-ffi>`
-
-    + `ffmpeg_movie`
-
-      + :ref:`ext/ffmpeg <ext-ffmpeg>`
 
     + `fgetc()`
 
@@ -75925,22 +75808,6 @@ Directory by PHP Function
 
 
 + `G`
-    + `GEARMAN_SUCCESS`
-
-      + :ref:`ext/gearman <ext-gearman>`
-
-    + `GEARMAN_WORK_DATA`
-
-      + :ref:`ext/gearman <ext-gearman>`
-
-    + `GEARMAN_WORK_FAIL`
-
-      + :ref:`ext/gearman <ext-gearman>`
-
-    + `GEARMAN_WORK_STATUS`
-
-      + :ref:`ext/gearman <ext-gearman>`
-
     + `GLOB_BRACE`
 
       + :ref:`GLOB_BRACE Usage <glob\_brace-usage>`
@@ -75953,17 +75820,9 @@ Directory by PHP Function
 
       + :ref:`ext/gnupgp <ext-gnupgp>`
 
-    + `GearmanClient`
-
-      + :ref:`ext/gearman <ext-gearman>`
-
     + `Generator`
 
       + :ref:`Should Yield With Key <should-yield-with-key>`
-
-    + `Gmagick`
-
-      + :ref:`ext/gmagick <ext-gmagick>`
 
     + `GnuPG`
 
@@ -76036,10 +75895,6 @@ Directory by PHP Function
       + :ref:`Avoid glob() Usage <avoid-glob()-usage>`
       + :ref:`No Direct Usage <no-direct-usage>`
       + :ref:`No Hardcoded Path <no-hardcoded-path>`
-
-    + `gmagick`
-
-      + :ref:`ext/gmagick <ext-gmagick>`
 
     + `gmp_div_q()`
 
@@ -76192,10 +76047,6 @@ Directory by PHP Function
 
       + :ref:`ext/inotify <ext-inotify>`
 
-    + `Imagick`
-
-      + :ref:`ext/imagick <ext-imagick>`
-
     + `Isset`
 
       + :ref:`Isset() On The Whole Array <isset()-on-the-whole-array>`
@@ -76218,6 +76069,10 @@ Directory by PHP Function
       + :ref:`Strpos()-like Comparison <strpos()-like-comparison>`
 
     + `idn_to_ascii()`
+
+      + :ref:`idn_to_ascii() New Default <idn\_to\_ascii()-new-default>`
+
+    + `idn_to_utf8()`
 
       + :ref:`idn_to_ascii() New Default <idn\_to\_ascii()-new-default>`
 
@@ -76261,10 +76116,6 @@ Directory by PHP Function
     + `imagepstext()`
 
       + :ref:`PHP 7.0 Removed Functions <php-7.0-removed-functions>`
-
-    + `imagick`
-
-      + :ref:`ext/imagick <ext-imagick>`
 
     + `imap_last_error()`
 
@@ -76492,10 +76343,6 @@ Directory by PHP Function
 
 
 + `L`
-    + `LAPACK`
-
-      + :ref:`ext/lapack <ext-lapack>`
-
     + `LC_ALL`
 
       + :ref:`ext/gettext <ext-gettext>`
@@ -76530,18 +76377,6 @@ Directory by PHP Function
 
       + :ref:`ext/rdkafka <ext-rdkafka>`
 
-    + `Lapack`
-
-      + :ref:`ext/lapack <ext-lapack>`
-
-    + `LevelDB`
-
-      + :ref:`ext/leveldb <ext-leveldb>`
-
-    + `LevelDBWriteBatch`
-
-      + :ref:`ext/leveldb <ext-leveldb>`
-
     + `List()`
 
       + :ref:`List With Appends <list-with-appends>`
@@ -76554,21 +76389,9 @@ Directory by PHP Function
 
       + :ref:`PHP Exception <php-exception>`
 
-    + `Lua`
-
-      + :ref:`ext/lua <ext-lua>`
-
-    + `lapack`
-
-      + :ref:`ext/lapack <ext-lapack>`
-
     + `ldap_sort()`
 
       + :ref:`PHP 8.0 Removed Functions <php-8.0-removed-functions>`
-
-    + `leveldb`
-
-      + :ref:`ext/leveldb <ext-leveldb>`
 
     + `libxml_clear_errors()`
 
@@ -76613,10 +76436,6 @@ Directory by PHP Function
     + `ltrim()`
 
       + :ref:`Substr To Trim <substr-to-trim>`
-
-    + `lua`
-
-      + :ref:`ext/lua <ext-lua>`
 
 
 + `M`
@@ -76691,10 +76510,6 @@ Directory by PHP Function
     + `Memcache`
 
       + :ref:`ext/memcache <ext-memcache>`
-
-    + `Memcached`
-
-      + :ref:`ext/memcached <ext-memcached>`
 
     + `MessageFormatter`
 
@@ -76856,6 +76671,10 @@ Directory by PHP Function
       + :ref:`Functions Removed In PHP 5.5 <functions-removed-in-php-5.5>`
       + :ref:`PHP 7.0 Removed Functions <php-7.0-removed-functions>`
 
+    + `md5()`
+
+      + :ref:`Directly Use File <directly-use-file>`
+
     + `md5_file()`
 
       + :ref:`Directly Use File <directly-use-file>`
@@ -76863,11 +76682,6 @@ Directory by PHP Function
     + `memcache`
 
       + :ref:`ext/memcache <ext-memcache>`
-
-    + `memcached`
-
-      + :ref:`ext/memcache <ext-memcache>`
-      + :ref:`ext/memcached <ext-memcached>`
 
     + `microtime()`
 
@@ -77212,11 +77026,6 @@ Directory by PHP Function
 
       + :ref:`Use pathinfo() Arguments <use-pathinfo()-arguments>`
 
-    + `PDO`
-
-      + :ref:`ext/pdo <ext-pdo>`
-      + :ref:`Should Use Prepared Statement <should-use-prepared-statement>`
-
     + `PHP_INT_MAX`
 
       + :ref:`Manipulates INF <manipulates-inf>`
@@ -77242,15 +77051,6 @@ Directory by PHP Function
     + `ParseError`
 
       + :ref:`eval() Without Try <eval()-without-try>`
-
-    + `Pdo`
-
-      + :ref:`Set Aside Code <set-aside-code>`
-
-    + `Phar`
-
-      + :ref:`ext/phar <ext-phar>`
-      + :ref:`Can't Disable Class <can't-disable-class>`
 
     + `pack()`
 
@@ -77371,11 +77171,6 @@ Directory by PHP Function
 
       + :ref:`Strpos()-like Comparison <strpos()-like-comparison>`
 
-    + `pdo`
-
-      + :ref:`ext/pdo <ext-pdo>`
-      + :ref:`Or Die <or-die>`
-
     + `pg_result_status()`
 
       + :ref:`Use Constant As Arguments <use-constant-as-arguments>`
@@ -77383,16 +77178,6 @@ Directory by PHP Function
     + `pg_select()`
 
       + :ref:`Use Constant As Arguments <use-constant-as-arguments>`
-
-    + `phar`
-
-      + :ref:`ext/phar <ext-phar>`
-      + :ref:`Can't Disable Class <can't-disable-class>`
-      + :ref:`Use Basename Suffix <use-basename-suffix>`
-
-    + `pharexception`
-
-      + :ref:`Could Use Try <could-use-try>`
 
     + `php_egg_logo_guid()`
 
@@ -77544,25 +77329,6 @@ Directory by PHP Function
 
       + :ref:`ext/rdkafka <ext-rdkafka>`
 
-    + `Redis`
-
-      + :ref:`ext/redis <ext-redis>`
-      + :ref:`ext/swoole <ext-swoole>`
-
-    + `Reflection`
-
-      + :ref:`ext/reflection <ext-reflection>`
-      + :ref:`Reflection Export() Is Deprecated <reflection-export()-is-deprecated>`
-
-    + `ReflectionFunction`
-
-      + :ref:`ext/reflection <ext-reflection>`
-      + :ref:`Reflection Export() Is Deprecated <reflection-export()-is-deprecated>`
-
-    + `Reflector`
-
-      + :ref:`Reflection Export() Is Deprecated <reflection-export()-is-deprecated>`
-
     + `RuntimeException`
 
       + :ref:`Defined Exceptions <defined-exceptions>`
@@ -77620,16 +77386,6 @@ Directory by PHP Function
     + `recode_string()`
 
       + :ref:`Directly Use File <directly-use-file>`
-
-    + `redis`
-
-      + :ref:`ext/redis <ext-redis>`
-      + :ref:`ext/swoole <ext-swoole>`
-
-    + `reflection`
-
-      + :ref:`ext/reflection <ext-reflection>`
-      + :ref:`Reflection Export() Is Deprecated <reflection-export()-is-deprecated>`
 
     + `register_shutdown_function()`
 
@@ -77727,31 +77483,6 @@ Directory by PHP Function
 
       + :ref:`Use Constant As Arguments <use-constant-as-arguments>`
 
-    + `SPH_MATCH_ANY`
-
-      + :ref:`ext/sphinx <ext-sphinx>`
-
-    + `SQLITE3_ASSOC`
-
-      + :ref:`Fetch One Row Format <fetch-one-row-format>`
-
-    + `SQLITE3_BOTH`
-
-      + :ref:`Fetch One Row Format <fetch-one-row-format>`
-
-    + `SQLITE3_NUM`
-
-      + :ref:`Fetch One Row Format <fetch-one-row-format>`
-
-    + `SQLite3`
-
-      + :ref:`ext/sqlite3 <ext-sqlite3>`
-      + :ref:`Queries In Loops <queries-in-loops>`
-
-    + `SVM`
-
-      + :ref:`ext/svm <ext-svm>`
-
     + `SWFAction`
 
       + :ref:`ext/ming <ext-ming>`
@@ -77788,10 +77519,6 @@ Directory by PHP Function
 
       + :ref:`ext/soap <ext-soap>`
 
-    + `Sphinx`
-
-      + :ref:`ext/sphinx <ext-sphinx>`
-
     + `SplFileObject`
 
       + :ref:`Must Call Parent Constructor <must-call-parent-constructor>`
@@ -77803,12 +77530,6 @@ Directory by PHP Function
     + `SplTempFileObject`
 
       + :ref:`Must Call Parent Constructor <must-call-parent-constructor>`
-
-    + `Sqlite3`
-
-      + :ref:`ext/sqlite3 <ext-sqlite3>`
-      + :ref:`Fetch One Row Format <fetch-one-row-format>`
-      + :ref:`Set Aside Code <set-aside-code>`
 
     + `Static`
 
@@ -77958,6 +77679,10 @@ Directory by PHP Function
 
       + :ref:`Should Typecast <should-typecast>`
 
+    + `sha1()`
+
+      + :ref:`Directly Use File <directly-use-file>`
+
     + `sha1_file()`
 
       + :ref:`Directly Use File <directly-use-file>`
@@ -77967,6 +77692,7 @@ Directory by PHP Function
       + :ref:`Shell Favorite <shell-favorite>`
       + :ref:`Shell commands <shell-commands>`
       + :ref:`Missing Some Returntype <missing-some-returntype>`
+      + :ref:`Preferences <preferences>`
 
     + `shm_attach()`
 
@@ -78045,10 +77771,6 @@ Directory by PHP Function
 
       + :ref:`Use Constant As Arguments <use-constant-as-arguments>`
 
-    + `sphinx`
-
-      + :ref:`ext/sphinx <ext-sphinx>`
-
     + `spl_autoload_register()`
 
       + :ref:`Definitions Only <definitions-only>`
@@ -78069,12 +77791,6 @@ Directory by PHP Function
     + `sql_regcase()`
 
       + :ref:`PHP 7.0 Removed Functions <php-7.0-removed-functions>`
-
-    + `sqlite3`
-
-      + :ref:`ext/sqlite3 <ext-sqlite3>`
-      + :ref:`Sqlite3 Requires Single Quotes <sqlite3-requires-single-quotes>`
-      + :ref:`Set Aside Code <set-aside-code>`
 
     + `sqlsrv_errors()`
 
@@ -78318,10 +78034,6 @@ Directory by PHP Function
 
       + :ref:`Make One Call With Array <make-one-call-with-array>`
 
-    + `svm`
-
-      + :ref:`ext/svm <ext-svm>`
-
     + `switch()`
 
       + :ref:`Strict Comparison With Booleans <strict-comparison-with-booleans>`
@@ -78366,10 +78078,6 @@ Directory by PHP Function
     + `Tidy`
 
       + :ref:`ext/tidy <ext-tidy>`
-
-    + `TokyoTyrant`
-
-      + :ref:`ext/tokyotyrant <ext-tokyotyrant>`
 
     + `Traversable`
 
@@ -78478,38 +78186,6 @@ Directory by PHP Function
 
 
 + `V`
-    + `V8Js`
-
-      + :ref:`ext/v8js <ext-v8js>`
-
-    + `V8JsException`
-
-      + :ref:`ext/v8js <ext-v8js>`
-
-    + `VARNISH_CONFIG_HOST`
-
-      + :ref:`ext/varnish <ext-varnish>`
-
-    + `VARNISH_CONFIG_PORT`
-
-      + :ref:`ext/varnish <ext-varnish>`
-
-    + `VARNISH_CONFIG_SECRET`
-
-      + :ref:`ext/varnish <ext-varnish>`
-
-    + `VARNISH_CONFIG_TIMEOUT`
-
-      + :ref:`ext/varnish <ext-varnish>`
-
-    + `VarnishAdmin`
-
-      + :ref:`ext/varnish <ext-varnish>`
-
-    + `v8js`
-
-      + :ref:`ext/v8js <ext-v8js>`
-
     + `var_dump()`
 
       + :ref:`Use Debug <use-debug>`
@@ -78526,17 +78202,9 @@ Directory by PHP Function
 
 
 + `W`
-    + `WeakRef`
-
-      + :ref:`ext/weakref <ext-weakref>`
-
     + `WeakReference`
 
       + :ref:`Php 7.4 New Class <php-7.4-new-class>`
-
-    + `weakref`
-
-      + :ref:`ext/weakref <ext-weakref>`
 
     + `while()`
 
@@ -78604,22 +78272,6 @@ Directory by PHP Function
 
 
 + `Z`
-    + `ZBarCodeImage`
-
-      + :ref:`ext/zbarcode <ext-zbarcode>`
-
-    + `ZBarCodeScanner`
-
-      + :ref:`ext/zbarcode <ext-zbarcode>`
-
-    + `ZMQ`
-
-      + :ref:`ext/0mq <ext-0mq>`
-
-    + `ZMQDevice`
-
-      + :ref:`ext/0mq <ext-0mq>`
-
     + `ZipArchive`
 
       + :ref:`ext/zip <ext-zip>`
@@ -78640,10 +78292,6 @@ Directory by PHP Function
     + `zend_logo_guid()`
 
       + :ref:`Functions Removed In PHP 5.5 <functions-removed-in-php-5.5>`
-
-    + `zmq`
-
-      + :ref:`ext/0mq <ext-0mq>`
 
     + `zookeeper`
 

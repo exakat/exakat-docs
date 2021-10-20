@@ -23,8 +23,24 @@ Here is the release note of exakat.
 
 **Version 2.2.5 (??, 2021-11-03)**
 
+
 **Version 2.2.4 (??, 2021-10-21)**
 
+
++ Dataset
+    + Updated PHP native dataset with missing classes and typehint.
+
++ Analysis
+    + New analysis : Report incompatible typehint with native PHP methods in PHP 8.1
+    + New analysis : Report Missing Attribute Attribute
+    + New analysis : Report full_path index in $_FILES usage
+    + Updated analysis : Type detection also include return type from methods
+
++ Cobblers
+    + Updated cobbler : Set typehint handles typehint from arguments
+
++ Tokenizer
+    + Added more cases for Constant types
 
 **Version 2.2.3 (Wu, 2021-10-06)**
 

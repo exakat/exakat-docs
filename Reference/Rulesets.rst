@@ -27,6 +27,8 @@ Here is the list of the current rulesets supported by Exakat Engine.
 +-----------------------------------------------+------------------------------------------------------------------------------------------------------+
 |Name                                           | Description                                                                                          |
 +-----------------------------------------------+------------------------------------------------------------------------------------------------------+
+| :ref:`preferences`                            |Identify preferences in the code.                                                                     |
++-----------------------------------------------+------------------------------------------------------------------------------------------------------+
 | :ref:`analyze`                                |Check for common best practices.                                                                      |
 +-----------------------------------------------+------------------------------------------------------------------------------------------------------+
 | :ref:`attributes`                             |This ruleset gathers all rules that rely on PHP 8.0 attributes.                                       |
@@ -87,6 +89,44 @@ Note : in command line, don't forget to add quotes to rulesets' names that inclu
 List of rulesets
 ------------------------
 
+.. _preferences:
+
+Preferences
++++++++++++
+
+This ruleset identify code with multiple forms, and report when one is more frequent than the others. Echo vs print, shell_exec() vs ``, etc.
+
+Total : 28 analysis
+
+* :ref:`true-false-inconsistant-case`
+* :ref:`echo-or-print`
+* :ref:`constant-comparison`
+* :ref:`die-exit-consistence`
+* :ref:`array()---[--]-consistence`
+* :ref:`$globals-or-global`
+* :ref:`unset()-or-(unset)`
+* :ref:`close-tags-consistency`
+* :ref:`one-expression-brackets-consistency`
+* :ref:`new-on-functioncall-or-identifier`
+* :ref:`new-line-style`
+* :ref:`regex-delimiter`
+* :ref:`empty-final-element`
+* :ref:`difference-consistence`
+* :ref:`concatenation-interpolation-consistence`
+* :ref:`strict\_types-preference`
+* :ref:`declare-strict\_types-usage`
+* :ref:`encoding-usage`
+* :ref:`ticks-usage`
+* :ref:`logical-operators-favorite`
+* :ref:`shell-favorite`
+* :ref:`properties-declaration-consistence`
+* :ref:`strict-or-relaxed-comparison`
+* :ref:`comparisons-orientation`
+* :ref:`const-or-define-preference`
+* :ref:`constant-case-preference`
+* :ref:`caught-variable`
+* :ref:`not-or-tilde`
+
 .. _analyze:
 
 Analyze
@@ -94,7 +134,7 @@ Analyze
 
 This ruleset centralizes a large number of classic trap and pitfalls when writing PHP.
 
-Total : 425 analysis
+Total : 427 analysis
 
 * :ref:`adding-zero`
 * :ref:`ambiguous-array-index`
@@ -521,6 +561,8 @@ Total : 425 analysis
 * :ref:`htmlentities-using-default-flag`
 * :ref:`wrong-argument-name-with-php-function`
 * :ref:`duplicate-named-parameter`
+* :ref:`No anchor for Php/NativeClassTypeCompatibility <no-anchor-for-php-nativeclasstypecompatibility>`
+* :ref:`No anchor for Attributes/MissingAttributeAttribute <no-anchor-for-attributes-missingattributeattribute>`
 
 .. _attributes:
 
@@ -529,11 +571,12 @@ Attributes
 
 This ruleset gathers all rules that rely on PHP 8.0 attributes.
 
-Total : 3 analysis
+Total : 4 analysis
 
 * :ref:`exit-like-methods`
 * :ref:`using-deprecated-method`
 * :ref:`modify-immutable`
+* :ref:`No anchor for Attributes/MissingAttributeAttribute <no-anchor-for-attributes-missingattributeattribute>`
 
 .. _ce:
 
@@ -1472,7 +1515,7 @@ CompatibilityPHP53
 
 This ruleset centralizes all analysis for the migration from PHP 5.2 to 5.3.
 
-Total : 80 analysis
+Total : 81 analysis
 
 * :ref:`non-static-methods-called-in-a-static`
 * :ref:`ext-dba`
@@ -1554,6 +1597,7 @@ Total : 80 analysis
 * :ref:`generator-cannot-return`
 * :ref:`coalesce-equal`
 * :ref:`enum-usage`
+* :ref:`No anchor for Php/FilesFullPath <no-anchor-for-php-filesfullpath>`
 
 .. _compatibilityphp54:
 
@@ -1562,7 +1606,7 @@ CompatibilityPHP54
 
 This ruleset centralizes all analysis for the migration from PHP 5.3 to 5.4.
 
-Total : 76 analysis
+Total : 77 analysis
 
 * :ref:`non-static-methods-called-in-a-static`
 * :ref:`use-lower-case-for-parent,-static-and-self`
@@ -1640,6 +1684,7 @@ Total : 76 analysis
 * :ref:`generator-cannot-return`
 * :ref:`coalesce-equal`
 * :ref:`enum-usage`
+* :ref:`No anchor for Php/FilesFullPath <no-anchor-for-php-filesfullpath>`
 
 .. _compatibilityphp55:
 
@@ -1648,7 +1693,7 @@ CompatibilityPHP55
 
 This ruleset centralizes all analysis for the migration from PHP 5.4 to 5.5.
 
-Total : 68 analysis
+Total : 69 analysis
 
 * :ref:`non-static-methods-called-in-a-static`
 * :ref:`ext-apc`
@@ -1718,6 +1763,7 @@ Total : 68 analysis
 * :ref:`generator-cannot-return`
 * :ref:`coalesce-equal`
 * :ref:`enum-usage`
+* :ref:`No anchor for Php/FilesFullPath <no-anchor-for-php-filesfullpath>`
 
 .. _compatibilityphp56:
 
@@ -1726,7 +1772,7 @@ CompatibilityPHP56
 
 This ruleset centralizes all analysis for the migration from PHP 5.5 to 5.6.
 
-Total : 58 analysis
+Total : 59 analysis
 
 * :ref:`non-static-methods-called-in-a-static`
 * :ref:`malformed-octal`
@@ -1786,6 +1832,7 @@ Total : 58 analysis
 * :ref:`coalesce-equal`
 * :ref:`php-8.0-only-typehints`
 * :ref:`enum-usage`
+* :ref:`No anchor for Php/FilesFullPath <no-anchor-for-php-filesfullpath>`
 
 .. _compatibilityphp70:
 
@@ -1794,7 +1841,7 @@ CompatibilityPHP70
 
 This ruleset centralizes all analysis for the migration from PHP 5.6 to 7.0.
 
-Total : 50 analysis
+Total : 51 analysis
 
 * :ref:`ext-ereg`
 * :ref:`mcrypt\_create\_iv()-with-default-values`
@@ -1846,6 +1893,7 @@ Total : 50 analysis
 * :ref:`php-8.0-only-typehints`
 * :ref:`union-typehint`
 * :ref:`enum-usage`
+* :ref:`No anchor for Php/FilesFullPath <no-anchor-for-php-filesfullpath>`
 
 .. _compatibilityphp71:
 
@@ -1854,7 +1902,7 @@ CompatibilityPHP71
 
 This ruleset centralizes all analysis for the migration from PHP 7.0 to 7.1.
 
-Total : 37 analysis
+Total : 38 analysis
 
 * :ref:`ext-mcrypt`
 * :ref:`hash-algorithms-incompatible-with-php-5.3`
@@ -1893,6 +1941,7 @@ Total : 37 analysis
 * :ref:`union-typehint`
 * :ref:`signature-trailing-comma`
 * :ref:`enum-usage`
+* :ref:`No anchor for Php/FilesFullPath <no-anchor-for-php-filesfullpath>`
 
 .. _compatibilityphp72:
 
@@ -1901,7 +1950,7 @@ CompatibilityPHP72
 
 This ruleset centralizes all analysis for the migration from PHP 7.1 to 7.2.
 
-Total : 30 analysis
+Total : 31 analysis
 
 * :ref:`undefined-constants`
 * :ref:`hash-algorithms-incompatible-with-php-5.3`
@@ -1933,6 +1982,7 @@ Total : 30 analysis
 * :ref:`signature-trailing-comma`
 * :ref:`throw-was-an-expression`
 * :ref:`enum-usage`
+* :ref:`No anchor for Php/FilesFullPath <no-anchor-for-php-filesfullpath>`
 
 .. _compatibilityphp73:
 
@@ -1941,7 +1991,7 @@ CompatibilityPHP73
 
 This ruleset centralizes all analysis for the migration from PHP 7.2 to 7.3.
 
-Total : 19 analysis
+Total : 20 analysis
 
 * :ref:`new-functions-in-php-7.3`
 * :ref:`unknown-pcre2-option`
@@ -1962,6 +2012,7 @@ Total : 19 analysis
 * :ref:`signature-trailing-comma`
 * :ref:`throw-was-an-expression`
 * :ref:`enum-usage`
+* :ref:`No anchor for Php/FilesFullPath <no-anchor-for-php-filesfullpath>`
 
 .. _compatibilityphp74:
 
@@ -1970,7 +2021,7 @@ CompatibilityPHP74
 
 This ruleset centralizes all analysis for the migration from PHP 7.3 to 7.4.
 
-Total : 31 analysis
+Total : 32 analysis
 
 * :ref:`detect-current-class`
 * :ref:`don't-read-and-write-in-one-expression`
@@ -2003,6 +2054,7 @@ Total : 31 analysis
 * :ref:`uses-php-8-match()`
 * :ref:`avoid-get\_object\_vars()`
 * :ref:`enum-usage`
+* :ref:`No anchor for Php/FilesFullPath <no-anchor-for-php-filesfullpath>`
 
 .. _compatibilityphp80:
 
@@ -2041,7 +2093,7 @@ CompatibilityPHP81
 
 This ruleset centralizes all analysis for the migration from PHP 8.0 to 8.1.
 
-Total : 7 analysis
+Total : 8 analysis
 
 * :ref:`php-7.4-removed-directives`
 * :ref:`php-8.0-removed-directives`
@@ -2050,6 +2102,7 @@ Total : 7 analysis
 * :ref:`php-8.1-removed-directives`
 * :ref:`php-opensslencryptalgochange`
 * :ref:`php-8.1-removed-constants`
+* :ref:`No anchor for Php/NativeClassTypeCompatibility <no-anchor-for-php-nativeclasstypecompatibility>`
 
 .. _dead-code:
 

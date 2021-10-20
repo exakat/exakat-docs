@@ -110,7 +110,45 @@ Predefined config files
 
 INI configuration for built-in rulesets. Copy them in config/themes.ini, and make your owns.
 
-27 rulesets detailled here : 
+28 rulesets detailled here : 
+
+.. _annex-preferences:
+
+Preferences
+###########
+
+
+| [Preferences]
+|   analyzer[] = "Arrays/ArrayBracketConsistence";
+|   analyzer[] = "Arrays/EmptyFinal";
+|   analyzer[] = "Classes/NewOnFunctioncallOrIdentifier";
+|   analyzer[] = "Classes/PPPDeclarationStyle";
+|   analyzer[] = "Constants/ConstDefinePreference";
+|   analyzer[] = "Constants/DefineInsensitivePreference";
+|   analyzer[] = "Constants/InconsistantCase";
+|   analyzer[] = "Exceptions/CatchE";
+|   analyzer[] = "Php/CloseTagsConsistency";
+|   analyzer[] = "Php/DeclareEncoding";
+|   analyzer[] = "Php/DeclareStrict";
+|   analyzer[] = "Php/DeclareStrictType";
+|   analyzer[] = "Php/DeclareTicks";
+|   analyzer[] = "Php/GlobalsVsGlobal";
+|   analyzer[] = "Php/LetterCharsLogicalFavorite";
+|   analyzer[] = "Php/ShellFavorite";
+|   analyzer[] = "Php/UnsetOrCast";
+|   analyzer[] = "Structures/ComparisonFavorite";
+|   analyzer[] = "Structures/ConcatenationInterpolationFavorite";
+|   analyzer[] = "Structures/ConstantComparisonConsistance";
+|   analyzer[] = "Structures/DieExitConsistance";
+|   analyzer[] = "Structures/DifferencePreference";
+|   analyzer[] = "Structures/EchoPrintConsistance";
+|   analyzer[] = "Structures/GtOrLtFavorite";
+|   analyzer[] = "Structures/NewLineStyle";
+|   analyzer[] = "Structures/NotOrNot";
+|   analyzer[] = "Structures/OneExpressionBracketsConsistency";
+|   analyzer[] = "Structures/RegexDelimiter";
+
+
 
 .. _annex-analyze:
 
@@ -126,6 +164,7 @@ Analyze
 |   analyzer[] = "Arrays/NullBoolean";
 |   analyzer[] = "Arrays/RandomlySortedLiterals";
 |   analyzer[] = "Arrays/TooManyDimensions";
+|   analyzer[] = "Attributes/MissingAttributeAttribute";
 |   analyzer[] = "Attributes/ModifyImmutable";
 |   analyzer[] = "Classes/AbstractOrImplements";
 |   analyzer[] = "Classes/AbstractStatic";
@@ -334,6 +373,7 @@ Analyze
 |   analyzer[] = "Php/MissingSubpattern";
 |   analyzer[] = "Php/MultipleDeclareStrict";
 |   analyzer[] = "Php/MustCallParentConstructor";
+|   analyzer[] = "Php/NativeClassTypeCompatibility";
 |   analyzer[] = "Php/NoClassInGlobal";
 |   analyzer[] = "Php/NoReferenceForTernary";
 |   analyzer[] = "Php/OnlyVariableForReference";
@@ -554,6 +594,7 @@ Attributes
 
 
 | [Attributes]
+|   analyzer[] = "Attributes/MissingAttributeAttribute";
 |   analyzer[] = "Attributes/ModifyImmutable";
 |   analyzer[] = "Functions/KillsApp";
 |   analyzer[] = "Functions/UsingDeprecated";
@@ -1525,6 +1566,7 @@ CompatibilityPHP53
 |   analyzer[] = "Php/EllipsisUsage";
 |   analyzer[] = "Php/EnumUsage";
 |   analyzer[] = "Php/ExponentUsage";
+|   analyzer[] = "Php/FilesFullPath";
 |   analyzer[] = "Php/FlexibleHeredoc";
 |   analyzer[] = "Php/GroupUseDeclaration";
 |   analyzer[] = "Php/GroupUseTrailingComma";
@@ -1611,6 +1653,7 @@ CompatibilityPHP54
 |   analyzer[] = "Php/EllipsisUsage";
 |   analyzer[] = "Php/EnumUsage";
 |   analyzer[] = "Php/ExponentUsage";
+|   analyzer[] = "Php/FilesFullPath";
 |   analyzer[] = "Php/FlexibleHeredoc";
 |   analyzer[] = "Php/GroupUseDeclaration";
 |   analyzer[] = "Php/GroupUseTrailingComma";
@@ -1695,6 +1738,7 @@ CompatibilityPHP55
 |   analyzer[] = "Php/EllipsisUsage";
 |   analyzer[] = "Php/EnumUsage";
 |   analyzer[] = "Php/ExponentUsage";
+|   analyzer[] = "Php/FilesFullPath";
 |   analyzer[] = "Php/FlexibleHeredoc";
 |   analyzer[] = "Php/GroupUseDeclaration";
 |   analyzer[] = "Php/GroupUseTrailingComma";
@@ -1766,6 +1810,7 @@ CompatibilityPHP56
 |   analyzer[] = "Php/DefineWithArray";
 |   analyzer[] = "Php/DirectCallToClone";
 |   analyzer[] = "Php/EnumUsage";
+|   analyzer[] = "Php/FilesFullPath";
 |   analyzer[] = "Php/FlexibleHeredoc";
 |   analyzer[] = "Php/GroupUseDeclaration";
 |   analyzer[] = "Php/GroupUseTrailingComma";
@@ -1831,6 +1876,7 @@ CompatibilityPHP70
 |   analyzer[] = "Php/ConcatAndAddition";
 |   analyzer[] = "Php/EmptyList";
 |   analyzer[] = "Php/EnumUsage";
+|   analyzer[] = "Php/FilesFullPath";
 |   analyzer[] = "Php/FlexibleHeredoc";
 |   analyzer[] = "Php/ForeachDontChangePointer";
 |   analyzer[] = "Php/GlobalWithoutSimpleVariable";
@@ -1889,6 +1935,7 @@ CompatibilityPHP71
 |   analyzer[] = "Php/CoalesceEqual";
 |   analyzer[] = "Php/ConcatAndAddition";
 |   analyzer[] = "Php/EnumUsage";
+|   analyzer[] = "Php/FilesFullPath";
 |   analyzer[] = "Php/FlexibleHeredoc";
 |   analyzer[] = "Php/GroupUseTrailingComma";
 |   analyzer[] = "Php/HashAlgos53";
@@ -1931,6 +1978,7 @@ CompatibilityPHP72
 |   analyzer[] = "Php/CoalesceEqual";
 |   analyzer[] = "Php/ConcatAndAddition";
 |   analyzer[] = "Php/EnumUsage";
+|   analyzer[] = "Php/FilesFullPath";
 |   analyzer[] = "Php/FlexibleHeredoc";
 |   analyzer[] = "Php/HashAlgos53";
 |   analyzer[] = "Php/HashAlgos54";
@@ -1972,6 +2020,7 @@ CompatibilityPHP73
 |   analyzer[] = "Php/CompactInexistant";
 |   analyzer[] = "Php/ConcatAndAddition";
 |   analyzer[] = "Php/EnumUsage";
+|   analyzer[] = "Php/FilesFullPath";
 |   analyzer[] = "Php/IntegerSeparatorUsage";
 |   analyzer[] = "Php/Php73NewFunctions";
 |   analyzer[] = "Php/Php73RemovedFunctions";
@@ -2001,6 +2050,7 @@ CompatibilityPHP74
 |   analyzer[] = "Php/ConcatAndAddition";
 |   analyzer[] = "Php/DetectCurrentClass";
 |   analyzer[] = "Php/EnumUsage";
+|   analyzer[] = "Php/FilesFullPath";
 |   analyzer[] = "Php/FilterToAddSlashes";
 |   analyzer[] = "Php/HashAlgos74";
 |   analyzer[] = "Php/IdnUts46";
@@ -2066,6 +2116,7 @@ CompatibilityPHP81
 
 
 | [CompatibilityPHP81]
+|   analyzer[] = "Php/NativeClassTypeCompatibility";
 |   analyzer[] = "Php/OpensslEncryptAlgoChange";
 |   analyzer[] = "Php/Php74RemovedDirective";
 |   analyzer[] = "Php/Php80RemovedDirective";
