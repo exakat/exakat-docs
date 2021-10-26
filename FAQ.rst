@@ -281,6 +281,6 @@ Get the process ID with the following command, and then, kill it.
 
 :: 
 
-    pkill gsneo4jv3.3.4   
-    pkill gremlin
+    ps aux | grep gsneo4jv3.3.4   
+    ps aux | grep gremlin
 
