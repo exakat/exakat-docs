@@ -21,10 +21,22 @@ Here is the release note of exakat.
 + Tokenizer
     + 
 
-**Version 2.2.5 (??, 2021-11-03)**
+**Version 2.2.5 (Wood star, 2021-11-03)**
 
 
-**Version 2.2.4 (??, 2021-10-21)**
++ Dataset
+    + 
+
++ Analysis
+    + 
+
++ Cobblers
+    + 
+
++ Tokenizer
+    + 
+
+**Version 2.2.4 (Gold star, 2021-10-21)**
 
 
 + Dataset
