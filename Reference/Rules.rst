@@ -14,8 +14,6 @@ List of Rules
 -------------------------
 
 
-.. _arrays-ambiguouskeys:
-
 .. _ambiguous-array-index:
 
 Ambiguous Array Index
@@ -74,8 +72,6 @@ Specs
 +--------------+--------------------------------------------------------------------------------------+
 
 
-.. _arrays-arraybracketconsistence:
-
 .. _array()---[--]-consistence:
 
 Array() / [  ] Consistence
@@ -130,8 +126,6 @@ Specs
 +--------------+--------------------------------+
 
 
-.. _arrays-arrayindex:
-
 .. _array-index:
 
 Array Index
@@ -170,8 +164,6 @@ Specs
 | Precision    | Very high         |
 +--------------+-------------------+
 
-
-.. _arrays-arraynsusage:
 
 .. _short-syntax-for-arrays:
 
@@ -215,8 +207,6 @@ Specs
 | Precision    | High                                 |
 +--------------+--------------------------------------+
 
-
-.. _arrays-emptyfinal:
 
 .. _empty-final-element:
 
@@ -271,8 +261,6 @@ Specs
 +--------------+--------------------+
 
 
-.. _arrays-emptyslots:
-
 .. _empty-slots-in-arrays:
 
 Empty Slots In Arrays
@@ -305,8 +293,6 @@ Specs
 | Precision    | High              |
 +--------------+-------------------+
 
-
-.. _arrays-gettinglastelement:
 
 .. _getting-last-element:
 
@@ -379,8 +365,6 @@ Specs
 +--------------+----------------------------------------------+
 
 
-.. _arrays-masscreation:
-
 .. _mass-creation-of-arrays:
 
 Mass Creation Of Arrays
@@ -416,8 +400,6 @@ Specs
 | Precision    | High                |
 +--------------+---------------------+
 
-
-.. _arrays-mistakenconcatenation:
 
 .. _mistaken-concatenation:
 
@@ -458,8 +440,6 @@ Specs
 | Precision    | High                         |
 +--------------+------------------------------+
 
-
-.. _arrays-mixedkeys:
 
 .. _mixed-keys-arrays:
 
@@ -509,8 +489,6 @@ Specs
 +--------------+------------------------------------------------------+
 
 
-.. _arrays-multidimensional:
-
 .. _multidimensional-arrays:
 
 Multidimensional Arrays
@@ -546,8 +524,6 @@ Specs
 | Precision    | High                    |
 +--------------+-------------------------+
 
-
-.. _arrays-multipleidenticalkeys:
 
 .. _multiple-index-definition:
 
@@ -605,8 +581,6 @@ Specs
 | Examples     | :ref:`case-magento-arrays-multipleidenticalkeys`, :ref:`case-mediawiki-arrays-multipleidenticalkeys` |
 +--------------+------------------------------------------------------------------------------------------------------+
 
-
-.. _arrays-negativestart:
 
 .. _negative-start-index-in-array:
 
@@ -676,8 +650,6 @@ Specs
 +--------------+--------------------------------------+
 
 
-.. _arrays-nonconstantarray:
-
 .. _non-constant-index-in-array:
 
 Non-constant Index In Array
@@ -746,8 +718,6 @@ Specs
 +--------------+-------------------------------------------------------------------------------------------+
 
 
-.. _arrays-nospreadforhash:
-
 .. _no-spread-for-hash:
 
 No Spread For Hash
@@ -795,8 +765,6 @@ Specs
 | Precision    | High                   |
 +--------------+------------------------+
 
-
-.. _arrays-nullboolean:
 
 .. _null-or-boolean-arrays:
 
@@ -849,8 +817,6 @@ Specs
 +--------------+--------------------+
 
 
-.. _arrays-phparrayindex:
-
 .. _php-arrays-index:
 
 PHP Arrays Index
@@ -887,8 +853,6 @@ Specs
 | Precision    | High                 |
 +--------------+----------------------+
 
-
-.. _arrays-randomlysortedliterals:
 
 .. _randomly-sorted-arrays:
 
@@ -949,8 +913,6 @@ Specs
 | Examples     | :ref:`case-contao-arrays-randomlysortedliterals`, :ref:`case-vanilla-arrays-randomlysortedliterals` |
 +--------------+-----------------------------------------------------------------------------------------------------+
 
-
-.. _arrays-shouldpreprocess:
 
 .. _preprocess-arrays:
 
@@ -1040,8 +1002,6 @@ Specs
 +--------------+-------------------------+
 
 
-.. _arrays-slicefirst:
-
 .. _slice-arrays-first:
 
 Slice Arrays First
@@ -1090,8 +1050,6 @@ Specs
 | Examples     | :ref:`case-wordpress-arrays-slicefirst` |
 +--------------+-----------------------------------------+
 
-
-.. _arrays-stringinitialization:
 
 .. _string-initialization:
 
@@ -1148,8 +1106,6 @@ Specs
 +--------------+-----------------------------+
 
 
-.. _arrays-toomanydimensions:
-
 .. _too-many-array-dimensions:
 
 Too Many Array Dimensions
@@ -1196,8 +1152,6 @@ Specs
 | Precision    | High                     |
 +--------------+--------------------------+
 
-
-.. _arrays-weirdindex:
 
 .. _weird-array-index:
 
@@ -1257,8 +1211,6 @@ Specs
 +--------------+-------------------+
 
 
-.. _arrays-withcallback:
-
 .. _handle-arrays-with-callback:
 
 Handle Arrays With Callback
@@ -1301,8 +1253,6 @@ Specs
 | Precision    | High                |
 +--------------+---------------------+
 
-
-.. _attributes-modifyimmutable:
 
 .. _modify-immutable:
 
@@ -1360,8 +1310,6 @@ Specs
 +--------------+-----------------------------------+
 
 
-.. _classes-abstractclass:
-
 .. _abstract-class-usage:
 
 Abstract Class Usage
@@ -1411,8 +1359,6 @@ Specs
 | Precision    | High                  |
 +--------------+-----------------------+
 
-
-.. _classes-abstractmethods:
 
 .. _abstract-methods-usage:
 
@@ -1465,8 +1411,6 @@ Specs
 | Precision    | High                    |
 +--------------+-------------------------+
 
-
-.. _classes-abstractorimplements:
 
 .. _abstract-or-implements:
 
@@ -1525,8 +1469,6 @@ Specs
 +--------------+------------------------------------------------+
 
 
-.. _classes-abstractstatic:
-
 .. _abstract-static-methods:
 
 Abstract Static Methods
@@ -1579,8 +1521,6 @@ Specs
 +--------------+------------------------+
 
 
-.. _classes-accessprivate:
-
 .. _accessing-private:
 
 Accessing Private
@@ -1622,8 +1562,6 @@ Specs
 | Precision    | High                  |
 +--------------+-----------------------+
 
-
-.. _classes-accessprotected:
 
 .. _access-protected-structures:
 
@@ -1676,8 +1614,6 @@ Specs
 +--------------+-------------------------+
 
 
-.. _classes-ambiguousstatic:
-
 .. _ambiguous-static:
 
 Ambiguous Static
@@ -1725,8 +1661,6 @@ Specs
 | Precision    | High                    |
 +--------------+-------------------------+
 
-
-.. _classes-ambiguousvisibilities:
 
 .. _ambiguous-visibilities:
 
@@ -1790,8 +1724,6 @@ Specs
 +--------------+-------------------------------------------------+
 
 
-.. _classes-anonymous:
-
 .. _anonymous-classes:
 
 Anonymous Classes
@@ -1826,8 +1758,6 @@ Specs
 | Precision    | High                                                                                                                  |
 +--------------+-----------------------------------------------------------------------------------------------------------------------+
 
-
-.. _classes-avoidoptionalproperties:
 
 .. _avoid-optional-properties:
 
@@ -1893,8 +1823,6 @@ Specs
 +--------------+-------------------------------------------------------------------------------------------------------------+
 
 
-.. _classes-avoidoptionarrays:
-
 .. _avoid-option-arrays-in-constructors:
 
 Avoid option arrays in constructors
@@ -1958,8 +1886,6 @@ Specs
 +--------------+------------------------------------+
 
 
-.. _classes-avoidusing:
-
 .. _custom-class-usage:
 
 Custom Class Usage
@@ -1985,8 +1911,6 @@ Specs
 | Precision    | High               |
 +--------------+--------------------+
 
-
-.. _classes-cancelcommonmethod:
 
 .. _cancel-common-method:
 
@@ -2049,8 +1973,6 @@ Specs
 +--------------+----------------------------------------+
 
 
-.. _classes-cantextendfinal:
-
 .. _can't-extend-final:
 
 Can't Extend Final
@@ -2112,8 +2034,6 @@ Specs
 +--------------+----------------------------------------------+
 
 
-.. _classes-cantinheritabstractmethod:
-
 .. _cant-inherit-abstract-method:
 
 Cant Inherit Abstract Method
@@ -2158,8 +2078,6 @@ Specs
 | Precision    | High                                                                                                                                                             |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-
-.. _classes-cantinstantiateclass:
 
 .. _cant-instantiate-class:
 
@@ -2214,8 +2132,6 @@ Specs
 | Examples     | :ref:`case-wordpress-classes-cantinstantiateclass` |
 +--------------+----------------------------------------------------+
 
-
-.. _classes-checkoncallusage:
 
 .. _check-on-\_\_call-usage:
 
@@ -2278,8 +2194,6 @@ Specs
 +--------------+---------------------------------------------+
 
 
-.. _classes-childremovetypehint:
-
 .. _child-class-removes-typehint:
 
 Child Class Removes Typehint
@@ -2319,8 +2233,6 @@ Specs
 | Precision    | High                                                                                                                                                                                |
 +--------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-
-.. _classes-citsamename:
 
 .. _class,-interface-or-trait-with-identical-names:
 
@@ -2372,8 +2284,6 @@ Specs
 | Examples     | :ref:`case-shopware-classes-citsamename`, :ref:`case-nextcloud-classes-citsamename` |
 +--------------+-------------------------------------------------------------------------------------+
 
-
-.. _classes-classaliasusage:
 
 .. _usage-of-class\_alias():
 
@@ -2428,8 +2338,6 @@ Specs
 +--------------+-------------------------+
 
 
-.. _classes-classnames:
-
 .. _classes-names:
 
 Classes Names
@@ -2467,8 +2375,6 @@ Specs
 | Precision    | High               |
 +--------------+--------------------+
 
-
-.. _classes-classusage:
 
 .. _class-usage:
 
@@ -2535,8 +2441,6 @@ Specs
 +--------------+--------------------+
 
 
-.. _classes-clonewithnonobject:
-
 .. _clone-with-non-object:
 
 Clone With Non-Object
@@ -2593,8 +2497,6 @@ Specs
 +--------------+----------------------------------------+
 
 
-.. _classes-cloningusage:
-
 .. _clone-usage:
 
 Clone Usage
@@ -2630,8 +2532,6 @@ Specs
 | Precision    | High                 |
 +--------------+----------------------+
 
-
-.. _classes-constantclass:
 
 .. _constant-class:
 
@@ -2684,8 +2584,6 @@ Specs
 +--------------+-------------------------------+
 
 
-.. _classes-constantdefinition:
-
 .. _constant-definition:
 
 Constant Definition
@@ -2731,8 +2629,6 @@ Specs
 | Precision    | High                       |
 +--------------+----------------------------+
 
-
-.. _classes-constantusedbelow:
 
 .. _constant-used-below:
 
@@ -2789,8 +2685,6 @@ Specs
 +--------------+---------------------------+
 
 
-.. _classes-constructor:
-
 .. _constructors:
 
 Constructors
@@ -2843,8 +2737,6 @@ Specs
 | Precision    | High                |
 +--------------+---------------------+
 
-
-.. _classes-constvisibilityusage:
 
 .. _const-visibility-usage:
 
@@ -2902,8 +2794,6 @@ Specs
 | Precision    | High                                                                                                                                  |
 +--------------+---------------------------------------------------------------------------------------------------------------------------------------+
 
-
-.. _classes-couldbeabstractclass:
 
 .. _could-be-abstract-class:
 
@@ -2967,8 +2857,6 @@ Specs
 +--------------+-----------------------------------------------------------------------------------------------------+
 
 
-.. _classes-couldbeclassconstant:
-
 .. _could-be-class-constant:
 
 Could Be Class Constant
@@ -3018,8 +2906,6 @@ Specs
 | Precision    | High                         |
 +--------------+------------------------------+
 
-
-.. _classes-couldbefinal:
 
 .. _class-could-be-final:
 
@@ -3072,8 +2958,6 @@ Specs
 | Precision    | High                               |
 +--------------+------------------------------------+
 
-
-.. _classes-couldbeparentmethod:
 
 .. _could-be-parent-method:
 
@@ -3134,8 +3018,6 @@ Specs
 | Precision    | High                        |
 +--------------+-----------------------------+
 
-
-.. _classes-couldbeprivate:
 
 .. _property-could-be-private-property:
 
@@ -3202,8 +3084,6 @@ Specs
 +--------------+------------------------+
 
 
-.. _classes-couldbeprivateconstante:
-
 .. _could-be-private-class-constant:
 
 Could Be Private Class Constant
@@ -3268,8 +3148,6 @@ Specs
 +--------------+---------------------------------------------------+
 
 
-.. _classes-couldbeprivatemethod:
-
 .. _method-could-be-private-method:
 
 Method Could Be Private Method
@@ -3327,8 +3205,6 @@ Specs
 | Precision    | High                         |
 +--------------+------------------------------+
 
-
-.. _classes-couldbeprotectedconstant:
 
 .. _could-be-protected-class-constant:
 
@@ -3394,8 +3270,6 @@ Specs
 +--------------+----------------------------------+
 
 
-.. _classes-couldbeprotectedmethod:
-
 .. _could-be-protected-method:
 
 Could Be Protected Method
@@ -3446,8 +3320,6 @@ Specs
 +--------------+--------------------------------+
 
 
-.. _classes-couldbeprotectedproperty:
-
 .. _could-be-protected-property:
 
 Could Be Protected Property
@@ -3496,8 +3368,6 @@ Specs
 | Precision    | High                             |
 +--------------+----------------------------------+
 
-
-.. _classes-couldbestatic:
 
 .. _method-could-be-static:
 
@@ -3564,8 +3434,6 @@ Specs
 +--------------+-----------------------------------------------------------------------------------------------+
 
 
-.. _classes-couldbestringable:
-
 .. _could-be-stringable:
 
 Could Be Stringable
@@ -3617,8 +3485,6 @@ Specs
 | Precision    | High                                   |
 +--------------+----------------------------------------+
 
-
-.. _classes-cyclicreferences:
 
 .. _cyclic-references:
 
@@ -3683,8 +3549,6 @@ Specs
 +--------------+------------------------------------+
 
 
-.. _classes-definedconstants:
-
 .. _defined-class-constants:
 
 Defined Class Constants
@@ -3728,8 +3592,6 @@ Specs
 | Precision    | High                     |
 +--------------+--------------------------+
 
-
-.. _classes-definedparentmp:
 
 .. _defined-parent-mp:
 
@@ -3788,8 +3650,6 @@ Specs
 +--------------+-------------------------+
 
 
-.. _classes-definedproperty:
-
 .. _defined-properties:
 
 Defined Properties
@@ -3829,8 +3689,6 @@ Specs
 | Precision    | High                    |
 +--------------+-------------------------+
 
-
-.. _classes-definedstaticmp:
 
 .. _defined-static-or-self:
 
@@ -3876,8 +3734,6 @@ Specs
 | Precision    | High                    |
 +--------------+-------------------------+
 
-
-.. _classes-demeterlaw:
 
 .. _law-of-demeter:
 
@@ -3933,8 +3789,6 @@ Specs
 | Precision    | High               |
 +--------------+--------------------+
 
-
-.. _classes-dependantabstractclass:
 
 .. _dependant-abstract-classes:
 
@@ -4003,8 +3857,6 @@ Specs
 +--------------+------------------------------------+
 
 
-.. _classes-differentargumentcounts:
-
 .. _different-argument-counts:
 
 Different Argument Counts
@@ -4059,8 +3911,6 @@ Specs
 | Precision    | High                               |
 +--------------+------------------------------------+
 
-
-.. _classes-directcalltomagicmethod:
 
 .. _no-direct-call-to-magic-method:
 
@@ -4117,8 +3967,6 @@ Specs
 | Precision    | High                                        |
 +--------------+---------------------------------------------+
 
-
-.. _classes-disconnectedclasses:
 
 .. _disconnected-classes:
 
@@ -4192,8 +4040,6 @@ Specs
 | Examples     | :ref:`case-wordpress-classes-disconnectedclasses` |
 +--------------+---------------------------------------------------+
 
-
-.. _classes-dontsendthisinconstructor:
 
 .. _don't-send-$this-in-constructor:
 
@@ -4283,8 +4129,6 @@ Specs
 +--------------+-----------------------------------------------------------------------------------------------------------------+
 
 
-.. _classes-dontunsetproperties:
-
 .. _don't-unset-properties:
 
 Don't Unset Properties
@@ -4355,8 +4199,6 @@ Specs
 +--------------+------------------------------------------------------------------------------------------------+
 
 
-.. _classes-dynamicclass:
-
 .. _dynamic-classes:
 
 Dynamic Classes
@@ -4395,8 +4237,6 @@ Specs
 | Precision    | High                 |
 +--------------+----------------------+
 
-
-.. _classes-dynamicconstantcall:
 
 .. _dynamic-class-constant:
 
@@ -4440,8 +4280,6 @@ Specs
 | Precision    | High                        |
 +--------------+-----------------------------+
 
-
-.. _classes-dynamicmethodcall:
 
 .. _dynamic-methodcall:
 
@@ -4489,8 +4327,6 @@ Specs
 +--------------+---------------------------+
 
 
-.. _classes-dynamicnew:
-
 .. _dynamic-new:
 
 Dynamic New
@@ -4524,8 +4360,6 @@ Specs
 | Precision    | High               |
 +--------------+--------------------+
 
-
-.. _classes-dynamicpropertycall:
 
 .. _dynamic-property:
 
@@ -4573,8 +4407,6 @@ Specs
 +--------------+-----------------------------+
 
 
-.. _classes-dynamicselfcalls:
-
 .. _dynamic-self-calls:
 
 Dynamic Self Calls
@@ -4621,8 +4453,6 @@ Specs
 | Precision    | High                     |
 +--------------+--------------------------+
 
-
-.. _classes-emptyclass:
 
 .. _empty-classes:
 
@@ -4679,8 +4509,6 @@ Specs
 +--------------+------------------------------------------+
 
 
-.. _classes-finalbyocramius:
-
 .. _class-should-be-final-by-ocramius:
 
 Class Should Be Final By Ocramius
@@ -4730,8 +4558,6 @@ Specs
 | Precision    | High                    |
 +--------------+-------------------------+
 
-
-.. _classes-finalclass:
 
 .. _final-class-usage:
 
@@ -4785,8 +4611,6 @@ Specs
 +--------------+--------------------------------------------+
 
 
-.. _classes-finalmethod:
-
 .. _final-methods-usage:
 
 Final Methods Usage
@@ -4838,8 +4662,6 @@ Specs
 | Precision    | High                                       |
 +--------------+--------------------------------------------+
 
-
-.. _classes-finalprivate:
 
 .. _final-private-methods:
 
@@ -4894,8 +4716,6 @@ Specs
 +--------------+----------------------------------------------------------+
 
 
-.. _classes-fossilizedmethod:
-
 .. _fossilized-method:
 
 Fossilized Method
@@ -4945,8 +4765,6 @@ Specs
 | Precision    | High                                  |
 +--------------+---------------------------------------+
 
-
-.. _classes-hasfluentinterface:
 
 .. _class-has-fluent-interface:
 
@@ -5009,8 +4827,6 @@ Specs
 +--------------+----------------------------+
 
 
-.. _classes-hasmagicproperty:
-
 .. _has-magic-property:
 
 Has Magic Property
@@ -5057,8 +4873,6 @@ Specs
 | Precision    | High                     |
 +--------------+--------------------------+
 
-
-.. _classes-hiddennullable:
 
 .. _hidden-nullable:
 
@@ -5119,8 +4933,6 @@ Specs
 +--------------+------------------------------------+
 
 
-.. _classes-identicalmethods:
-
 .. _identical-methods:
 
 Identical Methods
@@ -5179,8 +4991,6 @@ Specs
 | Precision    | Medium                   |
 +--------------+--------------------------+
 
-
-.. _classes-immutablesignature:
 
 .. _immutable-signature:
 
@@ -5243,8 +5053,6 @@ Specs
 +--------------+----------------------------+
 
 
-.. _classes-implementedmethodsarepublic:
-
 .. _implemented-methods-are-public:
 
 Implemented Methods Are Public
@@ -5301,8 +5109,6 @@ Specs
 +--------------+-------------------------------------+
 
 
-.. _classes-implementisforinterface:
-
 .. _implement-is-for-interface:
 
 Implement Is For Interface
@@ -5357,8 +5163,6 @@ Specs
 | Precision    | High                            |
 +--------------+---------------------------------+
 
-
-.. _classes-incompatiblesignature:
 
 .. _incompatible-signature-methods:
 
@@ -5420,8 +5224,6 @@ Specs
 | Examples     | :ref:`case-suitecrm-classes-incompatiblesignature` |
 +--------------+----------------------------------------------------+
 
-
-.. _classes-incompatiblesignature74:
 
 .. _incompatible-signature-methods-with-covariance:
 
@@ -5487,8 +5289,6 @@ Specs
 +--------------+------------------------------------------------------+
 
 
-.. _classes-instantiatingabstractclass:
-
 .. _instantiating-abstract-class:
 
 Instantiating Abstract Class
@@ -5540,8 +5340,6 @@ Specs
 | Precision    | High                               |
 +--------------+------------------------------------+
 
-
-.. _classes-insufficientpropertytypehint:
 
 .. _insufficient-property-typehint:
 
@@ -5619,8 +5417,6 @@ Specs
 +--------------+--------------------------------------+
 
 
-.. _classes-integerasproperty:
-
 .. _integer-as-property:
 
 Integer As Property
@@ -5667,8 +5463,6 @@ Specs
 | Precision    | High                                                                                                                                                             |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-
-.. _classes-isamagicproperty:
 
 .. _is-a-php-magic-property:
 
@@ -5718,8 +5512,6 @@ Specs
 +--------------+--------------------------+
 
 
-.. _classes-isextclass:
-
 .. _is-an-extension-class:
 
 Is An Extension Class
@@ -5757,8 +5549,6 @@ Specs
 | Precision    | High               |
 +--------------+--------------------+
 
-
-.. _classes-isinterfacemethod:
 
 .. _is-interface-method:
 
@@ -5804,8 +5594,6 @@ Specs
 +--------------+---------------------------+
 
 
-.. _classes-isnotfamily:
-
 .. _is-not-class-family:
 
 Is Not Class Family
@@ -5848,8 +5636,6 @@ Specs
 +--------------+---------------------+
 
 
-.. _classes-isupperfamily:
-
 .. _is-upper-family:
 
 Is Upper Family
@@ -5889,8 +5675,6 @@ Specs
 | Precision    | High                  |
 +--------------+-----------------------+
 
-
-.. _classes-locallyunusedproperty:
 
 .. _locally-unused-property:
 
@@ -5949,8 +5733,6 @@ Specs
 +--------------+-------------------------------+
 
 
-.. _classes-locallyusedproperty:
-
 .. _locally-used-property:
 
 Locally Used Property
@@ -5992,8 +5774,6 @@ Specs
 | Precision    | High                        |
 +--------------+-----------------------------+
 
-
-.. _classes-magicmethod:
 
 .. _magic-methods:
 
@@ -6038,8 +5818,6 @@ Specs
 +--------------+---------------------+
 
 
-.. _classes-magicproperties:
-
 .. _magic-properties:
 
 Magic Properties
@@ -6070,8 +5848,6 @@ Specs
 | Precision    | High                    |
 +--------------+-------------------------+
 
-
-.. _classes-makedefault:
 
 .. _assign-default-to-properties:
 
@@ -6137,8 +5913,6 @@ Specs
 | Examples     | :ref:`case-livezilla-classes-makedefault`, :ref:`case-phpmyadmin-classes-makedefault`                                     |
 +--------------+---------------------------------------------------------------------------------------------------------------------------+
 
-
-.. _classes-makeglobalaproperty:
 
 .. _make-global-a-property:
 
@@ -6208,8 +5982,6 @@ Specs
 +--------------+-----------------------------+
 
 
-.. _classes-makemagicconcrete:
-
 .. _make-magic-concrete:
 
 Make Magic Concrete
@@ -6269,8 +6041,6 @@ Specs
 +--------------+---------------------------+
 
 
-.. _classes-methodisoverwritten:
-
 .. _method-is-overwritten:
 
 Method Is Overwritten
@@ -6312,8 +6082,6 @@ Specs
 | Precision    | High                        |
 +--------------+-----------------------------+
 
-
-.. _classes-methodsignaturemustbecompatible:
 
 .. _method-signature-must-be-compatible:
 
@@ -6365,8 +6133,6 @@ Specs
 | Precision    | High                                    |
 +--------------+-----------------------------------------+
 
-
-.. _classes-methodusedbelow:
 
 .. _method-used-below:
 
@@ -6422,8 +6188,6 @@ Specs
 | Precision    | High                    |
 +--------------+-------------------------+
 
-
-.. _classes-mismatchproperties:
 
 .. _mismatch-properties-typehints:
 
@@ -6482,8 +6246,6 @@ Specs
 | Precision    | High                                                       |
 +--------------+------------------------------------------------------------+
 
-
-.. _classes-missingabstractmethod:
 
 .. _missing-abstract-method:
 
@@ -6546,8 +6308,6 @@ Specs
 +--------------+------------------------------------+
 
 
-.. _classes-multipleclassesinfile:
-
 .. _multiple-classes-in-one-file:
 
 Multiple Classes In One File
@@ -6598,8 +6358,6 @@ Specs
 | Precision    | High                          |
 +--------------+-------------------------------+
 
-
-.. _classes-multipledeclarations:
 
 .. _multiple-class-declarations:
 
@@ -6655,8 +6413,6 @@ Specs
 | Precision    | High                                        |
 +--------------+---------------------------------------------+
 
-
-.. _classes-multiplepropertydeclarationononeline:
 
 .. _multiple-property-declaration-on-one-line:
 
@@ -6718,8 +6474,6 @@ Specs
 +--------------+----------------------------------------------+
 
 
-.. _classes-multipletraitorinterface:
-
 .. _multiple-identical-trait-or-interface:
 
 Multiple Identical Trait Or Interface
@@ -6769,8 +6523,6 @@ Specs
 +--------------+---------------------------------------------+
 
 
-.. _classes-mutualextension:
-
 .. _classes-mutually-extending-each-other:
 
 Classes Mutually Extending Each Other
@@ -6811,8 +6563,6 @@ Specs
 | Precision    | High                                       |
 +--------------+--------------------------------------------+
 
-
-.. _classes-newonfunctioncalloridentifier:
 
 .. _new-on-functioncall-or-identifier:
 
@@ -6856,8 +6606,6 @@ Specs
 | Precision    | High                                  |
 +--------------+---------------------------------------+
 
-
-.. _classes-nomagicwitharray:
 
 .. _no-magic-method-with-array:
 
@@ -6933,8 +6681,6 @@ Specs
 +--------------+---------------------------------------------------------------------+
 
 
-.. _classes-nonnullablesetters:
-
 .. _non-nullable-getters:
 
 Non Nullable Getters
@@ -7009,8 +6755,6 @@ Specs
 +--------------+------------------------------------+
 
 
-.. _classes-nonppp:
-
 .. _forgotten-visibility:
 
 Forgotten Visibility
@@ -7082,8 +6826,6 @@ Specs
 | Examples     | :ref:`case-fuelcms-classes-nonppp`, :ref:`case-livezilla-classes-nonppp`                                    |
 +--------------+-------------------------------------------------------------------------------------------------------------+
 
-
-.. _classes-nonstaticmethodscalledstatic:
 
 .. _non-static-methods-called-in-a-static:
 
@@ -7168,8 +6910,6 @@ Specs
 +--------------+---------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
-.. _classes-noparent:
-
 .. _class-without-parent:
 
 Class Without Parent
@@ -7220,8 +6960,6 @@ Specs
 | Precision      | Very high                                                       |
 +----------------+-----------------------------------------------------------------+
 
-
-.. _classes-nopssoutsideclass:
 
 .. _self,-parent,-static-outside-class:
 
@@ -7284,8 +7022,6 @@ Specs
 +--------------+----------------------------------------+
 
 
-.. _classes-nopublicaccess:
-
 .. _no-public-access:
 
 No Public Access
@@ -7331,8 +7067,6 @@ Specs
 +--------------+------------------------+
 
 
-.. _classes-normalmethods:
-
 .. _normal-methods:
 
 Normal Methods
@@ -7372,8 +7106,6 @@ Specs
 | Precision    | High                  |
 +--------------+-----------------------+
 
-
-.. _classes-noselfreferencingconstant:
 
 .. _no-self-referencing-constant:
 
@@ -7436,8 +7168,6 @@ Specs
 +--------------+------------------------------------------------------------+
 
 
-.. _classes-nullonnew:
-
 .. _null-on-new:
 
 Null On New
@@ -7488,8 +7218,6 @@ Specs
 | Precision    | High                                                                                                       |
 +--------------+------------------------------------------------------------------------------------------------------------+
 
-
-.. _classes-oldstyleconstructor:
 
 .. _old-style-constructor:
 
@@ -7565,8 +7293,6 @@ Specs
 +--------------+---------------------------------------------------------------------------------------------------------+
 
 
-.. _classes-oldstylevar:
-
 .. _var-keyword:
 
 Var Keyword
@@ -7620,8 +7346,6 @@ Specs
 +--------------+---------------------------------------------------------------------------------------------------------+
 
 
-.. _classes-oneobjectoperatorperline:
-
 .. _one-object-operator-per-line:
 
 One Object Operator Per Line
@@ -7665,8 +7389,6 @@ Specs
 +--------------+----------------------------------+
 
 
-.. _classes-onlystaticmethods:
-
 .. _only-static-methods:
 
 Only Static Methods
@@ -7692,8 +7414,6 @@ Specs
 | Precision    | High                      |
 +--------------+---------------------------+
 
-
-.. _classes-orderofdeclaration:
 
 .. _order-of-declaration:
 
@@ -7755,8 +7475,6 @@ Specs
 +--------------+----------------------------+
 
 
-.. _classes-overwrittenconst:
-
 .. _overwritten-class-const:
 
 Overwritten Class Const
@@ -7801,8 +7519,6 @@ Specs
 | Precision    | High                     |
 +--------------+--------------------------+
 
-
-.. _classes-parentfirst:
 
 .. _parent-first:
 
@@ -7873,8 +7589,6 @@ Specs
 +--------------+--------------------------------------------------------------------------------------+
 
 
-.. _classes-pppdeclarationstyle:
-
 .. _properties-declaration-consistence:
 
 Properties Declaration Consistence
@@ -7943,8 +7657,6 @@ Specs
 +--------------+-----------------------------+
 
 
-.. _classes-propertycouldbelocal:
-
 .. _property-could-be-local:
 
 Property Could Be Local
@@ -8011,8 +7723,6 @@ Specs
 +--------------+-------------------------------------------------------------------------------------------------+
 
 
-.. _classes-propertydefinition:
-
 .. _property-names:
 
 Property Names
@@ -8058,8 +7768,6 @@ Specs
 | Precision    | High                       |
 +--------------+----------------------------+
 
-
-.. _classes-propertyneverused:
 
 .. _never-used-properties:
 
@@ -8132,8 +7840,6 @@ Specs
 +--------------+-------------------------------------------------+
 
 
-.. _classes-propertyusedabove:
-
 .. _property-used-above:
 
 Property Used Above
@@ -8189,8 +7895,6 @@ Specs
 +--------------+---------------------------+
 
 
-.. _classes-propertyusedbelow:
-
 .. _property-used-below:
 
 Property Used Below
@@ -8245,8 +7949,6 @@ Specs
 | Precision    | Medium                    |
 +--------------+---------------------------+
 
-
-.. _classes-propertyusedinonemethodonly:
 
 .. _property-used-in-one-method-only:
 
@@ -8327,8 +8029,6 @@ Specs
 +--------------+--------------------------------------------------------+
 
 
-.. _classes-propertyusedinternally:
-
 .. _internally-used-properties:
 
 Internally Used Properties
@@ -8380,8 +8080,6 @@ Specs
 +--------------+--------------------------------+
 
 
-.. _classes-psswithoutclass:
-
 .. _parent,-static-or-self-outside-class:
 
 Parent, Static Or Self Outside Class
@@ -8431,8 +8129,6 @@ Specs
 | Precision    | High                    |
 +--------------+-------------------------+
 
-
-.. _classes-raisedaccesslevel:
 
 .. _raised-access-level:
 
@@ -8499,8 +8195,6 @@ Specs
 +--------------+--------------------------------------------+
 
 
-.. _classes-redefinedconstants:
-
 .. _redefined-class-constants:
 
 Redefined Class Constants
@@ -8550,8 +8244,6 @@ Specs
 | Precision    | High                                        |
 +--------------+---------------------------------------------+
 
-
-.. _classes-redefineddefault:
 
 .. _redefined-default:
 
@@ -8603,8 +8295,6 @@ Specs
 +--------------+---------------------------------------------+
 
 
-.. _classes-redefinedmethods:
-
 .. _redefined-methods:
 
 Redefined Methods
@@ -8653,8 +8343,6 @@ Specs
 +--------------+--------------------------+
 
 
-.. _classes-redefinedprivateproperty:
-
 .. _redefined-private-property:
 
 Redefined Private Property
@@ -8698,8 +8386,6 @@ Specs
 | Examples     | :ref:`case-zurmo-classes-redefinedprivateproperty` |
 +--------------+----------------------------------------------------+
 
-
-.. _classes-redefinedproperty:
 
 .. _redefined-property:
 
@@ -8751,8 +8437,6 @@ Specs
 +--------------+---------------------------+
 
 
-.. _classes-samenameasfile:
-
 .. _not-same-name-as-file:
 
 Not Same Name As File
@@ -8803,8 +8487,6 @@ Specs
 | Precision    | High                   |
 +--------------+------------------------+
 
-
-.. _classes-scalarorobjectproperty:
 
 .. _scalar-or-object-property:
 
@@ -8896,8 +8578,6 @@ Specs
 +--------------+-----------------------------------------------------+
 
 
-.. _classes-shoulddeepclone:
-
 .. _should-deep-clone:
 
 Should Deep Clone
@@ -8970,8 +8650,6 @@ Specs
 | Precision    | High                    |
 +--------------+-------------------------+
 
-
-.. _classes-shouldhavedestructor:
 
 .. _should-have-destructor:
 
@@ -9051,8 +8729,6 @@ Specs
 +--------------+------------------------------+
 
 
-.. _classes-shoulduseself:
-
 .. _could-use-self:
 
 Could Use self
@@ -9106,8 +8782,6 @@ Specs
 | Examples     | :ref:`case-wordpress-classes-shoulduseself`, :ref:`case-livezilla-classes-shoulduseself` |
 +--------------+------------------------------------------------------------------------------------------+
 
-
-.. _classes-shouldusethis:
 
 .. _should-use-local-class:
 
@@ -9182,8 +8856,6 @@ Specs
 +--------------+-----------------------------------------------------------------------------------------+
 
 
-.. _classes-staticcontainsthis:
-
 .. _static-methods-can't-contain-$this:
 
 Static Methods Can't Contain $this
@@ -9245,8 +8917,6 @@ Specs
 +--------------+--------------------------------------------------------------------------------------------------+
 
 
-.. _classes-staticmethods:
-
 .. _static-methods:
 
 Static Methods
@@ -9293,8 +8963,6 @@ Specs
 | Precision    | High                  |
 +--------------+-----------------------+
 
-
-.. _classes-staticmethodscalledfromobject:
 
 .. _static-methods-called-from-object:
 
@@ -9348,8 +9016,6 @@ Specs
 +--------------+---------------------------------------------+
 
 
-.. _classes-staticproperties:
-
 .. _static-properties:
 
 Static Properties
@@ -9397,8 +9063,6 @@ Specs
 | Precision    | High                     |
 +--------------+--------------------------+
 
-
-.. _classes-strangename:
 
 .. _strange-names-for-methods:
 
@@ -9459,8 +9123,6 @@ Specs
 +--------------+---------------------+
 
 
-.. _classes-swappedarguments:
-
 .. _swapped-arguments:
 
 Swapped Arguments
@@ -9519,8 +9181,6 @@ Specs
 +--------------+--------------------------+
 
 
-.. _classes-testclass:
-
 .. _test-class:
 
 Test Class
@@ -9546,8 +9206,6 @@ Specs
 | Precision    | High              |
 +--------------+-------------------+
 
-
-.. _classes-thisisforclasses:
 
 .. _$this-belongs-to-classes-or-traits:
 
@@ -9637,8 +9295,6 @@ Specs
 +--------------+----------------------------------------------+
 
 
-.. _classes-thisisnotanarray:
-
 .. _$this-is-not-an-array:
 
 $this Is Not An Array
@@ -9697,8 +9353,6 @@ Specs
 | Precision    | High                     |
 +--------------+--------------------------+
 
-
-.. _classes-thisisnotforstatic:
 
 .. _$this-is-not-for-static-methods:
 
@@ -9763,8 +9417,6 @@ Specs
 +--------------+---------------------------------------------------------------------------------------------+
 
 
-.. _classes-throwindestruct:
-
 .. _throw-in-destruct:
 
 Throw In Destruct
@@ -9827,8 +9479,6 @@ Specs
 | Precision    | High                                        |
 +--------------+---------------------------------------------+
 
-
-.. _classes-toomanychildren:
 
 .. _too-many-children:
 
@@ -9901,8 +9551,6 @@ Specs
 +--------------+--------------------------------------------------------------------------------------------+
 
 
-.. _classes-toomanydereferencing:
-
 .. _too-many-dereferencing:
 
 Too Many Dereferencing
@@ -9952,8 +9600,6 @@ Specs
 +--------------+------------------------------+
 
 
-.. _classes-toomanyfinds:
-
 .. _too-many-finds:
 
 Too Many Finds
@@ -10001,8 +9647,6 @@ Specs
 | Precision    | High                 |
 +--------------+----------------------+
 
-
-.. _classes-toomanyinjections:
 
 .. _too-many-injections:
 
@@ -10065,8 +9709,6 @@ Specs
 +--------------+-----------------------------------------------------------------------------------------------+
 
 
-.. _classes-tostringpss:
-
 .. _magic-visibility:
 
 Magic Visibility
@@ -10115,8 +9757,6 @@ Specs
 | Precision    | High                      |
 +--------------+---------------------------+
 
-
-.. _classes-typehintcyclicdependencies:
 
 .. _di-cyclic-dependencies:
 
@@ -10170,8 +9810,6 @@ Specs
 | Precision    | High                               |
 +--------------+------------------------------------+
 
-
-.. _classes-undeclaredstaticproperty:
 
 .. _wrong-access-style-to-property:
 
@@ -10239,8 +9877,6 @@ Specs
 +--------------+-----------------------------------------------------------------+
 
 
-.. _classes-undefinedclasses:
-
 .. _undefined-classes:
 
 Undefined Classes
@@ -10302,8 +9938,6 @@ Specs
 +--------------+--------------------------+
 
 
-.. _classes-undefinedconstants:
-
 .. _undefined-class-constants:
 
 Undefined Class Constants
@@ -10352,8 +9986,6 @@ Specs
 | Precision    | High                                        |
 +--------------+---------------------------------------------+
 
-
-.. _classes-undefinedparentmp:
 
 .. _undefined-parent:
 
@@ -10420,8 +10052,6 @@ Specs
 | Precision    | High                      |
 +--------------+---------------------------+
 
-
-.. _classes-undefinedproperty:
 
 .. _undefined-properties:
 
@@ -10498,8 +10128,6 @@ Specs
 +--------------+---------------------------------------------------------------------------------------------------------------+
 
 
-.. _classes-undefinedstaticclass:
-
 .. _undefined-class:
 
 Undefined \:\:class
@@ -10544,8 +10172,6 @@ Specs
 | Precision    | High                                        |
 +--------------+---------------------------------------------+
 
-
-.. _classes-undefinedstaticmp:
 
 .. _undefined-static-or-self:
 
@@ -10606,8 +10232,6 @@ Specs
 +--------------+------------------------------------------------------------------------------------------------+
 
 
-.. _classes-uninitedproperty:
-
 .. _uninitialized-property:
 
 Uninitialized Property
@@ -10662,8 +10286,6 @@ Specs
 | Precision    | Medium                   |
 +--------------+--------------------------+
 
-
-.. _classes-unitializedproperties:
 
 .. _unitialized-properties:
 
@@ -10722,8 +10344,6 @@ Specs
 +--------------+------------------------------------------------+
 
 
-.. _classes-unreachableconstant:
-
 .. _unreachable-class-constant:
 
 Unreachable Class Constant
@@ -10779,8 +10399,6 @@ Specs
 | Precision    | High                        |
 +--------------+-----------------------------+
 
-
-.. _classes-unresolvedcatch:
 
 .. _unresolved-catch:
 
@@ -10838,8 +10456,6 @@ Specs
 +--------------+-------------------------------------------------------------------------------------------------------+
 
 
-.. _classes-unresolvedclasses:
-
 .. _unresolved-classes:
 
 Unresolved Classes
@@ -10886,8 +10502,6 @@ Specs
 | Precision    | High                      |
 +--------------+---------------------------+
 
-
-.. _classes-unresolvedinstanceof:
 
 .. _unresolved-instanceof:
 
@@ -10956,8 +10570,6 @@ Specs
 +--------------+-----------------------------------------------------------------------------------------------------------------+
 
 
-.. _classes-unusedclass:
-
 .. _unused-classes:
 
 Unused Classes
@@ -11007,8 +10619,6 @@ Specs
 | Precision    | High                                         |
 +--------------+----------------------------------------------+
 
-
-.. _classes-unusedconstant:
 
 .. _unused-class-constant:
 
@@ -11060,8 +10670,6 @@ Specs
 | Precision    | High                               |
 +--------------+------------------------------------+
 
-
-.. _classes-unusedmethods:
 
 .. _unused-methods:
 
@@ -11131,8 +10739,6 @@ Specs
 +--------------+------------------------------+
 
 
-.. _classes-unusedprivatemethod:
-
 .. _unused-private-methods:
 
 Unused Private Methods
@@ -11197,8 +10803,6 @@ Specs
 +--------------+------------------------------+
 
 
-.. _classes-unusedprivateproperty:
-
 .. _unused-private-properties:
 
 Unused Private Properties
@@ -11261,8 +10865,6 @@ Specs
 | Examples     | :ref:`case-openemr-classes-unusedprivateproperty`, :ref:`case-phpadsnew-classes-unusedprivateproperty` |
 +--------------+--------------------------------------------------------------------------------------------------------+
 
-
-.. _classes-unusedprotectedmethods:
 
 .. _unused-protected-methods:
 
@@ -11337,8 +10939,6 @@ Specs
 +--------------+--------------------------------+
 
 
-.. _classes-useclassoperator:
-
 .. _use-class-operator:
 
 Use \:\:Class Operator
@@ -11406,8 +11006,6 @@ Specs
 +--------------+------------------------------------------------------------------+
 
 
-.. _classes-usedclass:
-
 .. _used-classes:
 
 Used Classes
@@ -11446,8 +11044,6 @@ Specs
 | Precision    | High              |
 +--------------+-------------------+
 
-
-.. _classes-usedmethods:
 
 .. _used-methods:
 
@@ -11500,8 +11096,6 @@ Specs
 | Precision    | High                |
 +--------------+---------------------+
 
-
-.. _classes-usedonceproperty:
 
 .. _used-once-property:
 
@@ -11568,8 +11162,6 @@ Specs
 +--------------+--------------------------+
 
 
-.. _classes-usedprivatemethod:
-
 .. _used-private-methods:
 
 Used Private Methods
@@ -11619,8 +11211,6 @@ Specs
 +--------------+---------------------------+
 
 
-.. _classes-usedprivateproperty:
-
 .. _used-static-properties:
 
 Used Static Properties
@@ -11665,8 +11255,6 @@ Specs
 | Precision    | High                        |
 +--------------+-----------------------------+
 
-
-.. _classes-usedprotectedmethod:
 
 .. _used-protected-method:
 
@@ -11719,8 +11307,6 @@ Specs
 | Precision    | High                        |
 +--------------+-----------------------------+
 
-
-.. _classes-useinstanceof:
 
 .. _use-instanceof:
 
@@ -11801,8 +11387,6 @@ Specs
 +--------------+---------------------------------------------------------------------------------------+
 
 
-.. _classes-uselessabstract:
-
 .. _useless-abstract-class:
 
 Useless Abstract Class
@@ -11861,8 +11445,6 @@ Specs
 +--------------+-------------------------+
 
 
-.. _classes-uselessconstructor:
-
 .. _useless-constructor:
 
 Useless Constructor
@@ -11907,8 +11489,6 @@ Specs
 | Precision    | High                       |
 +--------------+----------------------------+
 
-
-.. _classes-uselessfinal:
 
 .. _useless-final:
 
@@ -11958,8 +11538,6 @@ Specs
 | ClearPHP     | `no-useless-final <https://github.com/dseguy/clearPHP/tree/master/rules/no-useless-final.md>`__ |
 +--------------+-------------------------------------------------------------------------------------------------+
 
-
-.. _classes-uselesstypehint:
 
 .. _useless-typehint:
 
@@ -12032,8 +11610,6 @@ Specs
 +--------------+----------------------------------------+
 
 
-.. _classes-usethis:
-
 .. _use-this:
 
 Use This
@@ -12092,8 +11668,6 @@ Specs
 +--------------+-----------------+
 
 
-.. _classes-usingthisoutsideaclass:
-
 .. _using-$this-outside-a-class:
 
 Using $this Outside A Class
@@ -12144,8 +11718,6 @@ Specs
 +--------------+-------------------------------------------------------------------+
 
 
-.. _classes-variableclasses:
-
 .. _dynamically-called-classes:
 
 Dynamically Called Classes
@@ -12188,8 +11760,6 @@ Specs
 | Precision    | High                    |
 +--------------+-------------------------+
 
-
-.. _classes-weaktype:
 
 .. _weak-typing:
 
@@ -12239,8 +11809,6 @@ Specs
 | Examples     | :ref:`case-teampass-classes-weaktype` |
 +--------------+---------------------------------------+
 
-
-.. _classes-wrongcase:
 
 .. _wrong-class-name-case:
 
@@ -12297,8 +11865,6 @@ Specs
 +--------------+-----------------------------------------+
 
 
-.. _classes-wrongname:
-
 .. _illegal-name-for-method:
 
 Illegal Name For Method
@@ -12353,8 +11919,6 @@ Specs
 | Examples     | :ref:`case-prestashop-classes-wrongname`, :ref:`case-magento-classes-wrongname` |
 +--------------+---------------------------------------------------------------------------------+
 
-
-.. _classes-wrongtypedpropertyinit:
 
 .. _wrong-typed-property-default:
 
@@ -12416,8 +11980,6 @@ Specs
 +--------------+-----------------------------------------------------------------------------------------+
 
 
-.. _complete-createcompactvariables:
-
 .. _create-compact-variables:
 
 Create Compact Variables
@@ -12463,8 +12025,6 @@ Specs
 | Precision    | High                            |
 +--------------+---------------------------------+
 
-
-.. _complete-createdefaultvalues:
 
 .. _create-default-values:
 
@@ -12525,8 +12085,6 @@ Specs
 
 .. _complete-createforeachdefault:
 
-.. _complete-createforeachdefault:
-
 Complete/CreateForeachDefault
 +++++++++++++++++++++++++++++
 
@@ -12555,8 +12113,6 @@ Specs
 | Precision    | High                          |
 +--------------+-------------------------------+
 
-
-.. _complete-createmagicproperty:
 
 .. _create-magic-property:
 
@@ -12611,8 +12167,6 @@ Specs
 +--------------+------------------------------+
 
 
-.. _complete-extendedtypehints:
-
 .. _extended-typehints:
 
 Extended Typehints
@@ -12665,8 +12219,6 @@ Specs
 | Precision    | High                       |
 +--------------+----------------------------+
 
-
-.. _complete-followclosuredefinition:
 
 .. _follow-closure-definition:
 
@@ -12722,8 +12274,6 @@ Specs
 +--------------+----------------------------------+
 
 
-.. _complete-makeclassconstantdefinition:
-
 .. _make-class-constant-definition:
 
 Make Class Constant Definition
@@ -12772,8 +12322,6 @@ Specs
 | Precision    | High                                 |
 +--------------+--------------------------------------+
 
-
-.. _complete-makeclassmethoddefinition:
 
 .. _make-class-method-definition:
 
@@ -12824,8 +12372,6 @@ Specs
 +--------------+------------------------------------+
 
 
-.. _complete-makefunctioncallwithreference:
-
 .. _make-functioncall-with-reference:
 
 Make Functioncall With Reference
@@ -12862,8 +12408,6 @@ Specs
 | Precision    | High                                   |
 +--------------+----------------------------------------+
 
-
-.. _complete-overwrittenconstants:
 
 .. _overwritten-constant:
 
@@ -12908,8 +12452,6 @@ Specs
 +--------------+-------------------------------+
 
 
-.. _complete-overwrittenmethods:
-
 .. _overwritten-methods:
 
 Overwritten Methods
@@ -12952,8 +12494,6 @@ Specs
 | Precision    | High                        |
 +--------------+-----------------------------+
 
-
-.. _complete-overwrittenproperties:
 
 .. _overwritten-properties:
 
@@ -13000,8 +12540,6 @@ Specs
 
 .. _complete-phpextstubpropertymethod:
 
-.. _complete-phpextstubpropertymethod:
-
 Complete/PhpExtStubPropertyMethod
 +++++++++++++++++++++++++++++++++
 
@@ -13025,8 +12563,6 @@ Specs
 | Precision    | High                              |
 +--------------+-----------------------------------+
 
-
-.. _complete-phpnativereference:
 
 .. _complete-phpnativereference:
 
@@ -13059,8 +12595,6 @@ Specs
 +--------------+-----------------------------+
 
 
-.. _complete-propagatecalls:
-
 .. _propagate-calls:
 
 Propagate Calls
@@ -13088,8 +12622,6 @@ Specs
 | Precision    | High                    |
 +--------------+-------------------------+
 
-
-.. _complete-propagateconstants:
 
 .. _propagate-constants:
 
@@ -13130,8 +12662,6 @@ Specs
 | Precision    | High                        |
 +--------------+-----------------------------+
 
-
-.. _complete-setarrayclassdefinition:
 
 .. _seta-rray-class-definition:
 
@@ -13183,8 +12713,6 @@ Specs
 | Precision    | High                             |
 +--------------+----------------------------------+
 
-
-.. _complete-setclassaliasdefinition:
 
 .. _set-class\_alias-definition:
 
@@ -13238,8 +12766,6 @@ Specs
 +--------------+----------------------------------+
 
 
-.. _complete-setclassmethodremotedefinition:
-
 .. _set-class-method-remote-definition:
 
 Set Class Method Remote Definition
@@ -13291,8 +12817,6 @@ Specs
 +--------------+-----------------------------------------+
 
 
-.. _complete-setclasspropertydefinitionwithtypehint:
-
 .. _set-class-property-definition-with-typehint:
 
 Set Class Property Definition With Typehint
@@ -13343,8 +12867,6 @@ Specs
 | Precision    | High                                            |
 +--------------+-------------------------------------------------+
 
-
-.. _complete-setclassremotedefinitionwithglobal:
 
 .. _set-class-remote-definition-with-global:
 
@@ -13400,8 +12922,6 @@ Specs
 
 .. _complete-setclassremotedefinitionwithinjection:
 
-.. _complete-setclassremotedefinitionwithinjection:
-
 Complete/SetClassRemoteDefinitionWithInjection
 ++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -13430,8 +12950,6 @@ Specs
 | Precision    | High                                           |
 +--------------+------------------------------------------------+
 
-
-.. _complete-setclassremotedefinitionwithlocalnew:
 
 .. _set-class-remote-definition-with-local-new:
 
@@ -13484,8 +13002,6 @@ Specs
 
 .. _complete-setclassremotedefinitionwithparenthesis:
 
-.. _complete-setclassremotedefinitionwithparenthesis:
-
 Complete/SetClassRemoteDefinitionWithParenthesis
 ++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -13530,8 +13046,6 @@ Specs
 | Precision    | High                                             |
 +--------------+--------------------------------------------------+
 
-
-.. _complete-setclassremotedefinitionwithreturntypehint:
 
 .. _set-class-remote-definition-with-return-typehint:
 
@@ -13587,8 +13101,6 @@ Specs
 
 .. _complete-setclassremotedefinitionwithtypehint:
 
-.. _complete-setclassremotedefinitionwithtypehint:
-
 Complete/SetClassRemoteDefinitionWithTypehint
 +++++++++++++++++++++++++++++++++++++++++++++
 
@@ -13633,8 +13145,6 @@ Specs
 | Precision    | High                                          |
 +--------------+-----------------------------------------------+
 
-
-.. _complete-setclonelink:
 
 .. _set-clone-link:
 
@@ -13688,8 +13198,6 @@ Specs
 +--------------+-----------------------+
 
 
-.. _complete-setparentdefinition:
-
 .. _set-parent-definition:
 
 Set Parent Definition
@@ -13732,8 +13240,6 @@ Specs
 | Precision    | High                         |
 +--------------+------------------------------+
 
-
-.. _complete-setstringmethoddefinition:
 
 .. _set-string-method-definition:
 
@@ -13778,8 +13284,6 @@ Specs
 | Precision    | High                               |
 +--------------+------------------------------------+
 
-
-.. _complete-solvetraitmethods:
 
 .. _solve-trait-methods:
 
@@ -13837,8 +13341,6 @@ Specs
 +--------------+----------------------------+
 
 
-.. _composer-autoload:
-
 .. _composer's-autoload:
 
 Composer's autoload
@@ -13864,8 +13366,6 @@ Specs
 | Precision    | High              |
 +--------------+-------------------+
 
-
-.. _composer-iscomposerclass:
 
 .. _is-composer-class:
 
@@ -13893,8 +13393,6 @@ Specs
 +--------------+--------------------------+
 
 
-.. _composer-iscomposerinterface:
-
 .. _is-composer-interface:
 
 Is Composer Interface
@@ -13920,8 +13418,6 @@ Specs
 | Precision    | High                         |
 +--------------+------------------------------+
 
-
-.. _composer-iscomposernsname:
 
 .. _composer-namespace:
 
@@ -13969,8 +13465,6 @@ Specs
 +--------------+---------------------------+
 
 
-.. _composer-usecomposer:
-
 .. _composer-usage:
 
 Composer Usage
@@ -13997,8 +13491,6 @@ Specs
 +--------------+----------------------+
 
 
-.. _composer-usecomposerlock:
-
 .. _use-composer-lock:
 
 Use Composer Lock
@@ -14024,8 +13516,6 @@ Specs
 | Precision    | High                     |
 +--------------+--------------------------+
 
-
-.. _constants-badconstantnames:
 
 .. _bad-constants-names:
 
@@ -14080,8 +13570,6 @@ Specs
 +--------------+---------------------------------------------------------------------------------------------------+
 
 
-.. _constants-caseinsensitiveconstants:
-
 .. _case-insensitive-constants:
 
 Case Insensitive Constants
@@ -14135,8 +13623,6 @@ Specs
 +----------------+--------------------------------------+
 
 
-.. _constants-conditionedconstants:
-
 .. _conditioned-constants:
 
 Conditioned Constants
@@ -14175,8 +13661,6 @@ Specs
 +--------------+--------------------------------+
 
 
-.. _constants-constantnames:
-
 .. _constants-names:
 
 Constants Names
@@ -14214,8 +13698,6 @@ Specs
 | Precision    | High                    |
 +--------------+-------------------------+
 
-
-.. _constants-constantstrangenames:
 
 .. _constants-with-strange-names:
 
@@ -14270,8 +13752,6 @@ Specs
 +--------------+---------------------------------------------+
 
 
-.. _constants-constantusage:
-
 .. _constants-usage:
 
 Constants Usage
@@ -14309,8 +13789,6 @@ Specs
 | Precision    | High                    |
 +--------------+-------------------------+
 
-
-.. _constants-constdefinepreference:
 
 .. _const-or-define-preference:
 
@@ -14365,8 +13843,6 @@ Specs
 | Precision    | High                            |
 +--------------+---------------------------------+
 
-
-.. _constants-constrecommended:
 
 .. _use-const:
 
@@ -14432,8 +13908,6 @@ Specs
 +--------------+--------------------------------------------------------------------------------------------------+
 
 
-.. _constants-couldbeconstant:
-
 .. _could-be-constant:
 
 Could Be Constant
@@ -14498,8 +13972,6 @@ Specs
 +--------------+---------------------------+
 
 
-.. _constants-createdoutsideitsnamespace:
-
 .. _constants-created-outside-its-namespace:
 
 Constants Created Outside Its Namespace
@@ -14547,8 +14019,6 @@ Specs
 +--------------+--------------------------------------+
 
 
-.. _constants-customconstantusage:
-
 .. _custom-constant-usage:
 
 Custom Constant Usage
@@ -14592,8 +14062,6 @@ Specs
 | Precision    | High                          |
 +--------------+-------------------------------+
 
-
-.. _constants-defineinsensitivepreference:
 
 .. _constant-case-preference:
 
@@ -14647,8 +14115,6 @@ Specs
 +--------------+---------------------------------------+
 
 
-.. _constants-dynamiccreation:
-
 .. _constant-dynamic-creation:
 
 Constant Dynamic Creation
@@ -14690,8 +14156,6 @@ Specs
 | Precision    | High                      |
 +--------------+---------------------------+
 
-
-.. _constants-inconsistantcase:
 
 .. _true-false-inconsistant-case:
 
@@ -14741,8 +14205,6 @@ Specs
 | Precision    | High                       |
 +--------------+----------------------------+
 
-
-.. _constants-invalidname:
 
 .. _invalid-constant-name:
 
@@ -14797,8 +14259,6 @@ Specs
 +--------------+-------------------------------------------+
 
 
-.. _constants-isextconstant:
-
 .. _is-an-extension-constant:
 
 Is An Extension Constant
@@ -14839,8 +14299,6 @@ Specs
 | Precision    | High                    |
 +--------------+-------------------------+
 
-
-.. _constants-isglobalconstant:
 
 .. _is-global-constant:
 
@@ -14896,8 +14354,6 @@ Specs
 +--------------+----------------------------+
 
 
-.. _constants-isphpconstant:
-
 .. _is-php-constant:
 
 Is PHP Constant
@@ -14935,8 +14391,6 @@ Specs
 | Precision    | High                    |
 +--------------+-------------------------+
 
-
-.. _constants-magicconstantusage:
 
 .. _magic-constant-usage:
 
@@ -14984,8 +14438,6 @@ Specs
 | Precision    | High                         |
 +--------------+------------------------------+
 
-
-.. _constants-multipleconstantdefinition:
 
 .. _multiple-constant-definition:
 
@@ -15040,8 +14492,6 @@ Specs
 +--------------+----------------------------------------------------------------------------------------------------------------------+
 
 
-.. _constants-phpconstantusage:
-
 .. _php-constant-usage:
 
 PHP Constant Usage
@@ -15082,8 +14532,6 @@ Specs
 | Precision    | High                       |
 +--------------+----------------------------+
 
-
-.. _constants-strangename:
 
 .. _strange-name-for-constants:
 
@@ -15131,8 +14579,6 @@ Specs
 | Precision    | High                  |
 +--------------+-----------------------+
 
-
-.. _constants-undefinedconstants:
 
 .. _undefined-constants:
 
@@ -15189,8 +14635,6 @@ Specs
 +--------------+------------------------------------------------------------------------+
 
 
-.. _constants-unusedconstants:
-
 .. _unused-constants:
 
 Unused Constants
@@ -15239,8 +14683,6 @@ Specs
 +--------------+------------------------------+
 
 
-.. _constants-variableconstant:
-
 .. _variable-constants:
 
 Variable Constants
@@ -15281,8 +14723,6 @@ Specs
 | Precision    | High                       |
 +--------------+----------------------------+
 
-
-.. _dump-callorder:
 
 .. _call-order:
 
@@ -15341,8 +14781,6 @@ Specs
 +--------------+-----------------+
 
 
-.. _dump-collectatomcounts:
-
 .. _collect-atom-counts:
 
 Collect Atom Counts
@@ -15366,8 +14804,6 @@ Specs
 | Precision    | High                   |
 +--------------+------------------------+
 
-
-.. _dump-collectblocksize:
 
 .. _collect-block-size:
 
@@ -15402,8 +14838,6 @@ Specs
 
 .. _dump-collectclasschanges:
 
-.. _dump-collectclasschanges:
-
 Dump/CollectClassChanges
 ++++++++++++++++++++++++
 
@@ -15432,8 +14866,6 @@ Specs
 | Precision    | High                     |
 +--------------+--------------------------+
 
-
-.. _dump-collectclasschildren:
 
 .. _collect-class-children-count:
 
@@ -15477,8 +14909,6 @@ Specs
 | Precision    | High                      |
 +--------------+---------------------------+
 
-
-.. _dump-collectclassconstantcounts:
 
 .. _collect-class-constant-counts:
 
@@ -15532,8 +14962,6 @@ Specs
 +--------------+---------------------------------+
 
 
-.. _dump-collectclassdepth:
-
 .. _collect-class-depth:
 
 Collect Class Depth
@@ -15573,8 +15001,6 @@ Specs
 +--------------+------------------------+
 
 
-.. _dump-collectclassesdependencies:
-
 .. _collect-classes-dependencies:
 
 Collect Classes Dependencies
@@ -15600,8 +15026,6 @@ Specs
 | Precision    | High                            |
 +--------------+---------------------------------+
 
-
-.. _dump-collectclassinterfacecounts:
 
 .. _collect-class-interface-counts:
 
@@ -15647,8 +15071,6 @@ Specs
 | Precision    | High                             |
 +--------------+----------------------------------+
 
-
-.. _dump-collectclasstraitscounts:
 
 .. _collect-class-traits-counts:
 
@@ -15700,8 +15122,6 @@ Specs
 
 .. _dump-collectdefinitionsstats:
 
-.. _dump-collectdefinitionsstats:
-
 Dump/CollectDefinitionsStats
 ++++++++++++++++++++++++++++
 
@@ -15731,8 +15151,6 @@ Specs
 +--------------+------------------------------+
 
 
-.. _dump-collectfilesdependencies:
-
 .. _collect-files-dependencies:
 
 Collect Files Dependencies
@@ -15761,8 +15179,6 @@ Specs
 +--------------+-------------------------------+
 
 
-.. _dump-collectforeachfavorite:
-
 .. _foreach()-favorite:
 
 Foreach() Favorite
@@ -15788,8 +15204,6 @@ Specs
 | Precision    | High                        |
 +--------------+-----------------------------+
 
-
-.. _dump-collectglobalvariables:
 
 .. _dump-collectglobalvariables:
 
@@ -15822,8 +15236,6 @@ Specs
 +--------------+-----------------------------+
 
 
-.. _dump-collectliterals:
-
 .. _collect-literals:
 
 Collect Literals
@@ -15849,8 +15261,6 @@ Specs
 | Precision    | High                 |
 +--------------+----------------------+
 
-
-.. _dump-collectlocalvariablecounts:
 
 .. _collect-local-variable-counts:
 
@@ -15905,8 +15315,6 @@ Specs
 +--------------+---------------------------------+
 
 
-.. _dump-collectmbstringencodings:
-
 .. _collect-mbstring-encodings:
 
 Collect Mbstring Encodings
@@ -15950,8 +15358,6 @@ Specs
 | Precision    | High                          |
 +--------------+-------------------------------+
 
-
-.. _dump-collectmethodcounts:
 
 .. _collect-method-counts:
 
@@ -16013,8 +15419,6 @@ Specs
 +--------------+--------------------------+
 
 
-.. _dump-collectnativecallsperexpressions:
-
 .. _collect-native-calls-per-expressions:
 
 Collect Native Calls Per Expressions
@@ -16045,8 +15449,6 @@ Specs
 | Precision    | High                                  |
 +--------------+---------------------------------------+
 
-
-.. _dump-collectparametercounts:
 
 .. _collect-parameter-counts:
 
@@ -16100,8 +15502,6 @@ Specs
 +--------------+-----------------------------+
 
 
-.. _dump-collectparameternames:
-
 .. _collect-parameter-names:
 
 Collect Parameter Names
@@ -16147,8 +15547,6 @@ Specs
 +--------------+----------------------------+
 
 
-.. _dump-collectphpstructures:
-
 .. _collect-php-structures:
 
 Collect Php Structures
@@ -16174,8 +15572,6 @@ Specs
 | Precision    | High                      |
 +--------------+---------------------------+
 
-
-.. _dump-collectpropertycounts:
 
 .. _collect-property-counts:
 
@@ -16232,8 +15628,6 @@ Specs
 +--------------+----------------------------+
 
 
-.. _dump-collectreadability:
-
 .. _collect-readability:
 
 Collect Readability
@@ -16259,8 +15653,6 @@ Specs
 | Precision    | High                    |
 +--------------+-------------------------+
 
-
-.. _dump-collectusecounts:
 
 .. _collect-use-counts:
 
@@ -16297,8 +15689,6 @@ Specs
 +--------------+-----------------------+
 
 
-.. _dump-collectvariables:
-
 .. _collect-variables:
 
 Collect Variables
@@ -16329,8 +15719,6 @@ Specs
 | Precision    | High                  |
 +--------------+-----------------------+
 
-
-.. _dump-constantorder:
 
 .. _constant-order:
 
@@ -16383,8 +15771,6 @@ Specs
 +--------------+--------------------+
 
 
-.. _dump-cyclomaticcomplexity:
-
 .. _cyclomatic-complexity:
 
 Cyclomatic Complexity
@@ -16418,8 +15804,6 @@ Specs
 
 .. _dump-dereferencinglevels:
 
-.. _dump-dereferencinglevels:
-
 Dump/DereferencingLevels
 ++++++++++++++++++++++++
 
@@ -16448,8 +15832,6 @@ Specs
 | Precision    | High                     |
 +--------------+--------------------------+
 
-
-.. _dump-environnementvariables:
 
 .. _environment-variable-usage:
 
@@ -16495,8 +15877,6 @@ Specs
 
 .. _dump-fossilizedmethods:
 
-.. _dump-fossilizedmethods:
-
 Dump/FossilizedMethods
 ++++++++++++++++++++++
 
@@ -16525,8 +15905,6 @@ Specs
 | Precision    | High                   |
 +--------------+------------------------+
 
-
-.. _dump-inclusions:
 
 .. _dump-inclusions:
 
@@ -16559,8 +15937,6 @@ Specs
 +--------------+-----------------+
 
 
-.. _dump-indentationlevels:
-
 .. _indentation-levels:
 
 Indentation Levels
@@ -16591,8 +15967,6 @@ Specs
 | Precision    | High                   |
 +--------------+------------------------+
 
-
-.. _dump-neworder:
 
 .. _new-order:
 
@@ -16635,8 +16009,6 @@ Specs
 | Precision    | High            |
 +--------------+-----------------+
 
-
-.. _dump-parameterargumentslinks:
 
 .. _links-between-parameter-and-argument:
 
@@ -16692,8 +16064,6 @@ Specs
 +--------------+------------------------------+
 
 
-.. _dump-typehintingstats:
-
 .. _typehinting-stats:
 
 Typehinting Stats
@@ -16724,8 +16094,6 @@ Specs
 | Precision    | High                  |
 +--------------+-----------------------+
 
-
-.. _dump-typehintorder:
 
 .. _typehint-order:
 
@@ -16764,8 +16132,6 @@ Specs
 | Precision    | High               |
 +--------------+--------------------+
 
-
-.. _exceptions-alreadycaught:
 
 .. _exception-order:
 
@@ -16820,8 +16186,6 @@ Specs
 +--------------+--------------------------------------------------+
 
 
-.. _exceptions-cantthrow:
-
 .. _can't-throw-throwable:
 
 Can't Throw Throwable
@@ -16872,8 +16236,6 @@ Specs
 +--------------+----------------------------------------+
 
 
-.. _exceptions-catche:
-
 .. _caught-variable:
 
 Caught Variable
@@ -16904,8 +16266,6 @@ Specs
 | Precision    | High               |
 +--------------+--------------------+
 
-
-.. _exceptions-catchundefinedvariable:
 
 .. _catch-undefined-variable:
 
@@ -16956,8 +16316,6 @@ Specs
 | Precision    | High                              |
 +--------------+-----------------------------------+
 
-
-.. _exceptions-caughtbutnotthrown:
 
 .. _undefined-caught-exceptions:
 
@@ -17018,8 +16376,6 @@ Specs
 +--------------+-------------------------------+
 
 
-.. _exceptions-caughtexceptions:
-
 .. _caught-exceptions:
 
 Caught Exceptions
@@ -17062,8 +16418,6 @@ Specs
 | Precision    | High                        |
 +--------------+-----------------------------+
 
-
-.. _exceptions-couldusetry:
 
 .. _could-use-try:
 
@@ -17110,8 +16464,6 @@ Specs
 +--------------+-------------------------------------------+
 
 
-.. _exceptions-definedexceptions:
-
 .. _defined-exceptions:
 
 Defined Exceptions
@@ -17154,8 +16506,6 @@ Specs
 | Precision    | High                         |
 +--------------+------------------------------+
 
-
-.. _exceptions-forgottenthrown:
 
 .. _forgotten-thrown:
 
@@ -17204,8 +16554,6 @@ Specs
 +--------------+----------------------------+
 
 
-.. _exceptions-isphpexception:
-
 .. _php-exception:
 
 PHP Exception
@@ -17247,8 +16595,6 @@ Specs
 | Precision    | High                      |
 +--------------+---------------------------+
 
-
-.. _exceptions-largetryblock:
 
 .. _large-try-block:
 
@@ -17313,8 +16659,6 @@ Specs
 | Precision    | High                     |
 +--------------+--------------------------+
 
-
-.. _exceptions-longpreparation:
 
 .. _long-preparation-for-throw:
 
@@ -17384,8 +16728,6 @@ Specs
 +--------------+----------------------------+
 
 
-.. _exceptions-multiplecatch:
-
 .. _multiple-exceptions-catch():
 
 Multiple Exceptions Catch()
@@ -17447,8 +16789,6 @@ Specs
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
-.. _exceptions-overwriteexception:
-
 .. _overwritten-exceptions:
 
 Overwritten Exceptions
@@ -17500,8 +16840,6 @@ Specs
 | Precision    | High                                                            |
 +--------------+-----------------------------------------------------------------+
 
-
-.. _exceptions-rethrown:
 
 .. _rethrown-exceptions:
 
@@ -17558,8 +16896,6 @@ Specs
 | Examples     | :ref:`case-prestashop-exceptions-rethrown` |
 +--------------+--------------------------------------------+
 
-
-.. _exceptions-throwfunctioncall:
 
 .. _throw-functioncall:
 
@@ -17618,8 +16954,6 @@ Specs
 +--------------+---------------------------------------------------------------------------------------------------+
 
 
-.. _exceptions-thrownexceptions:
-
 .. _thrown-exceptions:
 
 Thrown Exceptions
@@ -17656,8 +16990,6 @@ Specs
 | Precision    | High                        |
 +--------------+-----------------------------+
 
-
-.. _exceptions-uncaughtexceptions:
 
 .. _uncaught-exceptions:
 
@@ -17716,8 +17048,6 @@ Specs
 +--------------+-------------------------------+
 
 
-.. _exceptions-unthrown:
-
 .. _unthrown-exception:
 
 Unthrown Exception
@@ -17762,8 +17092,6 @@ Specs
 | ClearPHP     | `no-unthrown-exceptions <https://github.com/dseguy/clearPHP/tree/master/rules/no-unthrown-exceptions.md>`__ |
 +--------------+-------------------------------------------------------------------------------------------------------------+
 
-
-.. _exceptions-unusedexceptionvariable:
 
 .. _unused-exception-variable:
 
@@ -17819,8 +17147,6 @@ Specs
 | Precision    | High                               |
 +--------------+------------------------------------+
 
-
-.. _exceptions-uselesscatch:
 
 .. _useless-catch:
 
@@ -17883,8 +17209,6 @@ Specs
 +--------------+-------------------------------------------------------------------------------------------+
 
 
-.. _extensions-extamqp:
-
 .. _ext-amqp:
 
 ext/amqp
@@ -17931,8 +17255,6 @@ Specs
 +--------------+--------------------+
 
 
-.. _extensions-extapache:
-
 .. _ext-apache:
 
 ext/apache
@@ -17970,8 +17292,6 @@ Specs
 | Precision    | High                 |
 +--------------+----------------------+
 
-
-.. _extensions-extapc:
 
 .. _ext-apc:
 
@@ -18020,8 +17340,6 @@ Specs
 +--------------+--------------------------------------+
 
 
-.. _extensions-extapcu:
-
 .. _ext-apcu:
 
 ext/apcu
@@ -18065,8 +17383,6 @@ Specs
 | Precision    | High               |
 +--------------+--------------------+
 
-
-.. _extensions-extarray:
 
 .. _ext-array:
 
@@ -18125,8 +17441,6 @@ Specs
 +--------------+---------------------+
 
 
-.. _extensions-extast:
-
 .. _ext-php-ast:
 
 ext/php-ast
@@ -18168,8 +17482,6 @@ Specs
 | Precision    | High              |
 +--------------+-------------------+
 
-
-.. _extensions-extasync:
 
 .. _ext-async:
 
@@ -18259,8 +17571,6 @@ Specs
 +--------------+---------------------+
 
 
-.. _extensions-extbcmath:
-
 .. _ext-bcmath:
 
 ext/bcmath
@@ -18303,8 +17613,6 @@ Specs
 +--------------+----------------------+
 
 
-.. _extensions-extbzip2:
-
 .. _ext-bzip2:
 
 ext/bzip2
@@ -18346,8 +17654,6 @@ Specs
 | Precision    | High                |
 +--------------+---------------------+
 
-
-.. _extensions-extcairo:
 
 .. _ext-cairo:
 
@@ -18409,8 +17715,6 @@ Specs
 +--------------+---------------------+
 
 
-.. _extensions-extcalendar:
-
 .. _ext-calendar:
 
 ext/calendar
@@ -18448,8 +17752,6 @@ Specs
 | Precision    | High                   |
 +--------------+------------------------+
 
-
-.. _extensions-extcmark:
 
 .. _ext-cmark:
 
@@ -18494,8 +17796,6 @@ Specs
 +--------------+---------------------+
 
 
-.. _extensions-extcom:
-
 .. _ext-com:
 
 ext/com
@@ -18535,8 +17835,6 @@ Specs
 | Precision    | High              |
 +--------------+-------------------+
 
-
-.. _extensions-extcrypto:
 
 .. _ext-crypto:
 
@@ -18628,8 +17926,6 @@ Specs
 +--------------+----------------------+
 
 
-.. _extensions-extcsprng:
-
 .. _ext-csprng:
 
 ext/csprng
@@ -18669,8 +17965,6 @@ Specs
 | Precision    | High                 |
 +--------------+----------------------+
 
-
-.. _extensions-extctype:
 
 .. _ext-ctype:
 
@@ -18715,8 +18009,6 @@ Specs
 | Precision    | High                |
 +--------------+---------------------+
 
-
-.. _extensions-extcurl:
 
 .. _ext-curl:
 
@@ -18764,8 +18056,6 @@ Specs
 +--------------+--------------------+
 
 
-.. _extensions-extcyrus:
-
 .. _ext-cyrus:
 
 ext/cyrus
@@ -18804,8 +18094,6 @@ Specs
 | Precision    | High                |
 +--------------+---------------------+
 
-
-.. _extensions-extdate:
 
 .. _ext-date:
 
@@ -18846,8 +18134,6 @@ Specs
 | Precision    | High               |
 +--------------+--------------------+
 
-
-.. _extensions-extdb2:
 
 .. _ext-db2:
 
@@ -18910,8 +18196,6 @@ Specs
 +--------------+-------------------+
 
 
-.. _extensions-extdba:
-
 .. _ext-dba:
 
 ext/dba
@@ -18963,8 +18247,6 @@ Specs
 | Precision    | High                                 |
 +--------------+--------------------------------------+
 
-
-.. _extensions-extdecimal:
 
 .. _ext-decimal:
 
@@ -19026,8 +18308,6 @@ Specs
 +--------------+-----------------------+
 
 
-.. _extensions-extdio:
-
 .. _ext-dio:
 
 ext/dio
@@ -19067,8 +18347,6 @@ Specs
 | Precision    | High              |
 +--------------+-------------------+
 
-
-.. _extensions-extdom:
 
 .. _ext-dom:
 
@@ -19115,8 +18393,6 @@ Specs
 +--------------+-------------------+
 
 
-.. _extensions-extds:
-
 .. _ext-ds:
 
 ext/ds
@@ -19160,8 +18436,6 @@ Specs
 +--------------+------------------+
 
 
-.. _extensions-exteaccelerator:
-
 .. _ext-eaccelerator:
 
 ext/eaccelerator
@@ -19191,8 +18465,6 @@ Specs
 | Precision    | High                       |
 +--------------+----------------------------+
 
-
-.. _extensions-exteio:
 
 .. _ext-eio:
 
@@ -19246,8 +18518,6 @@ Specs
 | Precision    | High              |
 +--------------+-------------------+
 
-
-.. _extensions-extenchant:
 
 .. _ext-enchant:
 
@@ -19308,8 +18578,6 @@ Specs
 +--------------+-----------------------+
 
 
-.. _extensions-extereg:
-
 .. _ext-ereg:
 
 ext/ereg
@@ -19348,8 +18616,6 @@ Specs
 | Precision    | High                                 |
 +--------------+--------------------------------------+
 
-
-.. _extensions-extev:
 
 .. _ext-ev:
 
@@ -19427,8 +18693,6 @@ Specs
 | Precision    | High             |
 +--------------+------------------+
 
-
-.. _extensions-extevent:
 
 .. _ext-event:
 
@@ -19535,8 +18799,6 @@ Specs
 +--------------+---------------------+
 
 
-.. _extensions-extexif:
-
 .. _ext-exif:
 
 ext/exif
@@ -19583,8 +18845,6 @@ Specs
 | Precision    | High               |
 +--------------+--------------------+
 
-
-.. _extensions-extexpect:
 
 .. _ext-expect:
 
@@ -19643,8 +18903,6 @@ Specs
 +--------------+----------------------+
 
 
-.. _extensions-extfam:
-
 .. _ext-fam:
 
 ext/fam
@@ -19687,8 +18945,6 @@ Specs
 | Precision    | High              |
 +--------------+-------------------+
 
-
-.. _extensions-extfann:
 
 .. _ext-fann:
 
@@ -19746,8 +19002,6 @@ Specs
 +--------------+--------------------+
 
 
-.. _extensions-extfdf:
-
 .. _ext-fdf:
 
 ext/fdf
@@ -19793,8 +19047,6 @@ Specs
 | Precision    | High                                 |
 +--------------+--------------------------------------+
 
-
-.. _extensions-extffi:
 
 .. _ext-ffi:
 
@@ -19844,8 +19096,6 @@ Specs
 +--------------+-------------------+
 
 
-.. _extensions-extffmpeg:
-
 .. _ext-ffmpeg:
 
 ext/ffmpeg
@@ -19885,8 +19135,6 @@ Specs
 | Precision    | High                 |
 +--------------+----------------------+
 
-
-.. _extensions-extfile:
 
 .. _ext-file:
 
@@ -19936,8 +19184,6 @@ Specs
 +--------------+--------------------+
 
 
-.. _extensions-extfileinfo:
-
 .. _ext-fileinfo:
 
 ext/fileinfo
@@ -19979,8 +19225,6 @@ Specs
 | Precision    | High                   |
 +--------------+------------------------+
 
-
-.. _extensions-extfilter:
 
 .. _ext-filter:
 
@@ -20029,8 +19273,6 @@ Specs
 +--------------+----------------------+
 
 
-.. _extensions-extfpm:
-
 .. _ext-fpm:
 
 ext/fpm
@@ -20067,8 +19309,6 @@ Specs
 | Precision    | High              |
 +--------------+-------------------+
 
-
-.. _extensions-extftp:
 
 .. _ext-ftp:
 
@@ -20133,8 +19373,6 @@ Specs
 +--------------+-------------------+
 
 
-.. _extensions-extgd:
-
 .. _ext-gd:
 
 ext/gd
@@ -20180,8 +19418,6 @@ Specs
 | Precision    | High             |
 +--------------+------------------+
 
-
-.. _extensions-extgearman:
 
 .. _ext-gearman:
 
@@ -20255,8 +19491,6 @@ Specs
 | Precision    | High                  |
 +--------------+-----------------------+
 
-
-.. _extensions-extgender:
 
 .. _ext-gender:
 
@@ -20353,8 +19587,6 @@ Specs
 +--------------+----------------------+
 
 
-.. _extensions-extgeoip:
-
 .. _ext-geoip:
 
 ext/geoip
@@ -20394,8 +19626,6 @@ Specs
 | Precision    | High                |
 +--------------+---------------------+
 
-
-.. _extensions-extgettext:
 
 .. _ext-gettext:
 
@@ -20450,8 +19680,6 @@ Specs
 +--------------+-----------------------+
 
 
-.. _extensions-extgmagick:
-
 .. _ext-gmagick:
 
 ext/gmagick
@@ -20500,8 +19728,6 @@ Specs
 +--------------+-----------------------+
 
 
-.. _extensions-extgmp:
-
 .. _ext-gmp:
 
 ext/gmp
@@ -20543,8 +19769,6 @@ Specs
 | Precision    | High              |
 +--------------+-------------------+
 
-
-.. _extensions-extgnupg:
 
 .. _ext-gnupgp:
 
@@ -20591,8 +19815,6 @@ Specs
 | Precision    | High                |
 +--------------+---------------------+
 
-
-.. _extensions-extgrpc:
 
 .. _ext-grpc:
 
@@ -20650,8 +19872,6 @@ Specs
 +--------------+--------------------+
 
 
-.. _extensions-exthash:
-
 .. _ext-hash:
 
 ext/hash
@@ -20691,8 +19911,6 @@ Specs
 | Precision    | High               |
 +--------------+--------------------+
 
-
-.. _extensions-exthrtime:
 
 .. _ext-hrtime:
 
@@ -20750,8 +19968,6 @@ Specs
 +--------------+----------------------+
 
 
-.. _extensions-exthttp:
-
 .. _ext-pecl\_http:
 
 ext/pecl_http
@@ -20802,8 +20018,6 @@ Specs
 +--------------+--------------------+
 
 
-.. _extensions-extibase:
-
 .. _ext-ibase:
 
 ext/ibase
@@ -20848,8 +20062,6 @@ Specs
 +--------------+---------------------+
 
 
-.. _extensions-exticonv:
-
 .. _ext-iconv:
 
 ext/iconv
@@ -20893,8 +20105,6 @@ Specs
 +--------------+---------------------+
 
 
-.. _extensions-extigbinary:
-
 .. _ext-igbinary:
 
 ext/igbinary
@@ -20932,8 +20142,6 @@ Specs
 | Precision    | High                   |
 +--------------+------------------------+
 
-
-.. _extensions-extiis:
 
 .. _ext-iis:
 
@@ -20973,8 +20181,6 @@ Specs
 | Precision    | High              |
 +--------------+-------------------+
 
-
-.. _extensions-extimagick:
 
 .. _ext-imagick:
 
@@ -21022,8 +20228,6 @@ Specs
 | Precision    | High                  |
 +--------------+-----------------------+
 
-
-.. _extensions-extimap:
 
 .. _ext-imap:
 
@@ -21073,8 +20277,6 @@ Specs
 | Precision    | High               |
 +--------------+--------------------+
 
-
-.. _extensions-extinfo:
 
 .. _ext-info:
 
@@ -21141,8 +20343,6 @@ Specs
 | Precision    | High               |
 +--------------+--------------------+
 
-
-.. _extensions-extinotify:
 
 .. _ext-inotify:
 
@@ -21215,8 +20415,6 @@ Specs
 +--------------+-----------------------+
 
 
-.. _extensions-extintl:
-
 .. _ext-intl:
 
 ext/intl
@@ -21259,8 +20457,6 @@ Specs
 +--------------+--------------------+
 
 
-.. _extensions-extjson:
-
 .. _ext-json:
 
 ext/json
@@ -21299,8 +20495,6 @@ Specs
 | Precision    | High               |
 +--------------+--------------------+
 
-
-.. _extensions-extjudy:
 
 .. _ext-judy:
 
@@ -21345,8 +20539,6 @@ Specs
 | Precision    | High               |
 +--------------+--------------------+
 
-
-.. _extensions-extkdm5:
 
 .. _ext-kdm5:
 
@@ -21410,8 +20602,6 @@ Specs
 +--------------+--------------------+
 
 
-.. _extensions-extlapack:
-
 .. _ext-lapack:
 
 ext/lapack
@@ -21465,8 +20655,6 @@ Specs
 | Precision    | High                 |
 +--------------+----------------------+
 
-
-.. _extensions-extldap:
 
 .. _ext-ldap:
 
@@ -21541,8 +20729,6 @@ Specs
 +--------------+--------------------+
 
 
-.. _extensions-extleveldb:
-
 .. _ext-leveldb:
 
 ext/leveldb
@@ -21592,8 +20778,6 @@ Specs
 | Precision    | High                  |
 +--------------+-----------------------+
 
-
-.. _extensions-extlibevent:
 
 .. _ext-libevent:
 
@@ -21663,8 +20847,6 @@ Specs
 +--------------+------------------------+
 
 
-.. _extensions-extlibsodium:
-
 .. _ext-libsodium:
 
 ext/libsodium
@@ -21722,8 +20904,6 @@ Specs
 | Precision    | High                    |
 +--------------+-------------------------+
 
-
-.. _extensions-extlibxml:
 
 .. _ext-libxml:
 
@@ -21806,8 +20986,6 @@ Specs
 +--------------+----------------------+
 
 
-.. _extensions-extlua:
-
 .. _ext-lua:
 
 ext/lua
@@ -21850,8 +21028,6 @@ Specs
 +--------------+-------------------+
 
 
-.. _extensions-extlzf:
-
 .. _ext-lzf:
 
 ext/lzf
@@ -21890,8 +21066,6 @@ Specs
 | Precision    | High              |
 +--------------+-------------------+
 
-
-.. _extensions-extmail:
 
 .. _ext-mail:
 
@@ -21936,8 +21110,6 @@ Specs
 | Precision    | High               |
 +--------------+--------------------+
 
-
-.. _extensions-extmailparse:
 
 .. _ext-mailparse:
 
@@ -21985,8 +21157,6 @@ Specs
 +--------------+-------------------------+
 
 
-.. _extensions-extmath:
-
 .. _ext-math:
 
 ext/math
@@ -22024,8 +21194,6 @@ Specs
 | Precision    | High               |
 +--------------+--------------------+
 
-
-.. _extensions-extmbstring:
 
 .. _ext-mbstring:
 
@@ -22073,8 +21241,6 @@ Specs
 | Precision    | High                   |
 +--------------+------------------------+
 
-
-.. _extensions-extmcrypt:
 
 .. _ext-mcrypt:
 
@@ -22167,8 +21333,6 @@ Specs
 +--------------+--------------------------------------+
 
 
-.. _extensions-extmemcache:
-
 .. _ext-memcache:
 
 ext/memcache
@@ -22224,8 +21388,6 @@ Specs
 +--------------+------------------------+
 
 
-.. _extensions-extmemcached:
-
 .. _ext-memcached:
 
 ext/memcached
@@ -22273,8 +21435,6 @@ Specs
 +--------------+-------------------------+
 
 
-.. _extensions-extmhash:
-
 .. _ext-mhash:
 
 ext/mhash
@@ -22315,8 +21475,6 @@ Specs
 | Precision    | High                                 |
 +--------------+--------------------------------------+
 
-
-.. _extensions-extming:
 
 .. _ext-ming:
 
@@ -22390,8 +21548,6 @@ Specs
 +--------------+--------------------------------------+
 
 
-.. _extensions-extmongo:
-
 .. _ext-mongo:
 
 ext/mongo
@@ -22454,8 +21610,6 @@ Specs
 +--------------+---------------------+
 
 
-.. _extensions-extmongodb:
-
 .. _ext-mongodb:
 
 ext/mongodb
@@ -22502,8 +21656,6 @@ Specs
 +--------------+-----------------------+
 
 
-.. _extensions-extmsgpack:
-
 .. _ext-msgpack:
 
 ext/msgpack
@@ -22543,8 +21695,6 @@ Specs
 | Precision    | High                  |
 +--------------+-----------------------+
 
-
-.. _extensions-extmssql:
 
 .. _ext-mssql:
 
@@ -22598,8 +21748,6 @@ Specs
 +--------------+---------------------+
 
 
-.. _extensions-extmysql:
-
 .. _ext-mysql:
 
 ext/mysql
@@ -22627,8 +21775,6 @@ Specs
 | Precision    | High                                 |
 +--------------+--------------------------------------+
 
-
-.. _extensions-extmysqli:
 
 .. _ext-mysqli:
 
@@ -22699,8 +21845,6 @@ Specs
 +--------------+----------------------+
 
 
-.. _extensions-extncurses:
-
 .. _ext-ncurses:
 
 ext/ncurses
@@ -22749,8 +21893,6 @@ Specs
 | Precision    | High                  |
 +--------------+-----------------------+
 
-
-.. _extensions-extnewt:
 
 .. _ext-newt:
 
@@ -22826,8 +21968,6 @@ Specs
 +--------------+--------------------+
 
 
-.. _extensions-extnsapi:
-
 .. _ext-nsapi:
 
 ext/nsapi
@@ -22869,8 +22009,6 @@ Specs
 | Precision    | High                |
 +--------------+---------------------+
 
-
-.. _extensions-extob:
 
 .. _ext-ob:
 
@@ -22916,8 +22054,6 @@ Specs
 | Precision    | High             |
 +--------------+------------------+
 
-
-.. _extensions-extoci8:
 
 .. _ext-oci8:
 
@@ -22990,8 +22126,6 @@ Specs
 +--------------+--------------------+
 
 
-.. _extensions-extodbc:
-
 .. _ext-odbc:
 
 ext/odbc
@@ -23033,8 +22167,6 @@ Specs
 +--------------+--------------------+
 
 
-.. _extensions-extopcache:
-
 .. _ext-opcache:
 
 ext/opcache
@@ -23075,8 +22207,6 @@ Specs
 | Precision    | High                  |
 +--------------+-----------------------+
 
-
-.. _extensions-extopencensus:
 
 .. _ext-opencensus:
 
@@ -23127,8 +22257,6 @@ Specs
 | Precision    | High                     |
 +--------------+--------------------------+
 
-
-.. _extensions-extopenssl:
 
 .. _ext-openssl:
 
@@ -23181,8 +22309,6 @@ Specs
 | Precision    | High                  |
 +--------------+-----------------------+
 
-
-.. _extensions-extparle:
 
 .. _ext-parle:
 
@@ -23254,8 +22380,6 @@ Specs
 +--------------+---------------------+
 
 
-.. _extensions-extparsekit:
-
 .. _ext-parsekit:
 
 ext/parsekit
@@ -23292,8 +22416,6 @@ Specs
 | Precision    | High                   |
 +--------------+------------------------+
 
-
-.. _extensions-extpassword:
 
 .. _ext-password:
 
@@ -23338,8 +22460,6 @@ Specs
 | Precision    | High                   |
 +--------------+------------------------+
 
-
-.. _extensions-extpcntl:
 
 .. _ext-pcntl:
 
@@ -23421,8 +22541,6 @@ Specs
 +--------------+---------------------+
 
 
-.. _extensions-extpcov:
-
 .. _ext-pcov:
 
 ext/pcov
@@ -23465,8 +22583,6 @@ Specs
 | Precision    | High               |
 +--------------+--------------------+
 
-
-.. _extensions-extpcre:
 
 .. _ext-pcre:
 
@@ -23516,8 +22632,6 @@ Specs
 +--------------+--------------------+
 
 
-.. _extensions-extpdo:
-
 .. _ext-pdo:
 
 ext/pdo
@@ -23562,8 +22676,6 @@ Specs
 | Precision    | High              |
 +--------------+-------------------+
 
-
-.. _extensions-extpgsql:
 
 .. _ext-pgsql:
 
@@ -23613,8 +22725,6 @@ Specs
 | Precision    | High                |
 +--------------+---------------------+
 
-
-.. _extensions-extphalcon:
 
 .. _ext-phalcon:
 
@@ -23668,8 +22778,6 @@ Specs
 +--------------+-----------------------+
 
 
-.. _extensions-extphar:
-
 .. _ext-phar:
 
 ext/phar
@@ -23716,8 +22824,6 @@ Specs
 +--------------+--------------------+
 
 
-.. _extensions-extposix:
-
 .. _ext-posix:
 
 ext/posix
@@ -23756,8 +22862,6 @@ Specs
 +--------------+---------------------+
 
 
-.. _extensions-extproctitle:
-
 .. _ext-proctitle:
 
 ext/proctitle
@@ -23794,8 +22898,6 @@ Specs
 | Precision    | High                    |
 +--------------+-------------------------+
 
-
-.. _extensions-extpspell:
 
 .. _ext-pspell:
 
@@ -23839,8 +22941,6 @@ Specs
 | Precision    | High                 |
 +--------------+----------------------+
 
-
-.. _extensions-extpsr:
 
 .. _ext-psr:
 
@@ -23899,8 +22999,6 @@ Specs
 +--------------+-------------------+
 
 
-.. _extensions-extrar:
-
 .. _ext-rar:
 
 ext/rar
@@ -23947,8 +23045,6 @@ Specs
 +--------------+-------------------+
 
 
-.. _extensions-extrdkafka:
-
 .. _ext-rdkafka:
 
 ext/rdkafka
@@ -23989,8 +23085,6 @@ Specs
 | Precision    | High                  |
 +--------------+-----------------------+
 
-
-.. _extensions-extreadline:
 
 .. _ext-readline:
 
@@ -24039,8 +23133,6 @@ Specs
 +--------------+------------------------+
 
 
-.. _extensions-extrecode:
-
 .. _ext-recode:
 
 ext/recode
@@ -24079,8 +23171,6 @@ Specs
 | Precision    | High                 |
 +--------------+----------------------+
 
-
-.. _extensions-extredis:
 
 .. _ext-redis:
 
@@ -24135,8 +23225,6 @@ Specs
 | Precision    | High                |
 +--------------+---------------------+
 
-
-.. _extensions-extreflection:
 
 .. _ext-reflection:
 
@@ -24224,8 +23312,6 @@ Specs
 +--------------+--------------------------+
 
 
-.. _extensions-extrunkit:
-
 .. _ext-runkit:
 
 ext/runkit
@@ -24281,8 +23367,6 @@ Specs
 | Precision    | High                 |
 +--------------+----------------------+
 
-
-.. _extensions-extsdl:
 
 .. _ext-sdl:
 
@@ -24351,8 +23435,6 @@ Specs
 +--------------+-------------------+
 
 
-.. _extensions-extseaslog:
-
 .. _ext-seaslog:
 
 ext/seaslog
@@ -24411,8 +23493,6 @@ Specs
 +--------------+-----------------------+
 
 
-.. _extensions-extsem:
-
 .. _ext-sem:
 
 ext/sem
@@ -24456,8 +23536,6 @@ Specs
 +--------------+-------------------+
 
 
-.. _extensions-extsession:
-
 .. _ext-session:
 
 ext/session
@@ -24499,8 +23577,6 @@ Specs
 | Precision    | High                  |
 +--------------+-----------------------+
 
-
-.. _extensions-extshmop:
 
 .. _ext-shmop:
 
@@ -24554,8 +23630,6 @@ Specs
 | Precision    | High                |
 +--------------+---------------------+
 
-
-.. _extensions-extsimplexml:
 
 .. _ext-simplexml:
 
@@ -24626,8 +23700,6 @@ Specs
 +--------------+-------------------------+
 
 
-.. _extensions-extsnmp:
-
 .. _ext-snmp:
 
 ext/snmp
@@ -24664,8 +23736,6 @@ Specs
 | Precision    | High               |
 +--------------+--------------------+
 
-
-.. _extensions-extsoap:
 
 .. _ext-soap:
 
@@ -24710,8 +23780,6 @@ Specs
 | Precision    | High               |
 +--------------+--------------------+
 
-
-.. _extensions-extsockets:
 
 .. _ext-sockets:
 
@@ -24796,8 +23864,6 @@ Specs
 +--------------+-----------------------+
 
 
-.. _extensions-extsphinx:
-
 .. _ext-sphinx:
 
 ext/sphinx
@@ -24844,8 +23910,6 @@ Specs
 +--------------+----------------------+
 
 
-.. _extensions-extspl:
-
 .. _ext-spl:
 
 ext/spl
@@ -24888,8 +23952,6 @@ Specs
 | Precision    | High              |
 +--------------+-------------------+
 
-
-.. _extensions-extsqlite:
 
 .. _ext-sqlite:
 
@@ -24937,8 +23999,6 @@ Specs
 +--------------+----------------------+
 
 
-.. _extensions-extsqlite3:
-
 .. _ext-sqlite3:
 
 ext/sqlite3
@@ -24980,8 +24040,6 @@ Specs
 | Precision    | High                  |
 +--------------+-----------------------+
 
-
-.. _extensions-extsqlsrv:
 
 .. _ext-sqlsrv:
 
@@ -25032,8 +24090,6 @@ Specs
 | Precision    | High                 |
 +--------------+----------------------+
 
-
-.. _extensions-extssh2:
 
 .. _ext-ssh2:
 
@@ -25087,8 +24143,6 @@ Specs
 | Precision    | High               |
 +--------------+--------------------+
 
-
-.. _extensions-extstandard:
 
 .. _ext-standard:
 
@@ -25156,8 +24210,6 @@ Specs
 +--------------+------------------------+
 
 
-.. _extensions-extstats:
-
 .. _ext-stats:
 
 ext/stats
@@ -25200,8 +24252,6 @@ Specs
 +--------------+---------------------+
 
 
-.. _extensions-extstring:
-
 .. _string:
 
 String
@@ -25239,8 +24289,6 @@ Specs
 | Precision    | High                 |
 +--------------+----------------------+
 
-
-.. _extensions-extsuhosin:
 
 .. _ext-suhosin:
 
@@ -25281,8 +24329,6 @@ Specs
 | Precision    | High                  |
 +--------------+-----------------------+
 
-
-.. _extensions-extsvm:
 
 .. _ext-svm:
 
@@ -25331,8 +24377,6 @@ Specs
 | Precision    | High              |
 +--------------+-------------------+
 
-
-.. _extensions-extswoole:
 
 .. _ext-swoole:
 
@@ -25386,8 +24430,6 @@ Specs
 | Precision    | High                 |
 +--------------+----------------------+
 
-
-.. _extensions-exttidy:
 
 .. _ext-tidy:
 
@@ -25447,8 +24489,6 @@ Specs
 | Precision    | High               |
 +--------------+--------------------+
 
-
-.. _extensions-exttokenizer:
 
 .. _ext-tokenizer:
 
@@ -25525,8 +24565,6 @@ Specs
 +--------------+-------------------------+
 
 
-.. _extensions-exttokyotyrant:
-
 .. _ext-tokyotyrant:
 
 ext/tokyotyrant
@@ -25565,8 +24603,6 @@ Specs
 | Precision    | High                      |
 +--------------+---------------------------+
 
-
-.. _extensions-exttrader:
 
 .. _ext-trader:
 
@@ -25612,8 +24648,6 @@ Specs
 | Precision    | High                 |
 +--------------+----------------------+
 
-
-.. _extensions-extuopz:
 
 .. _ext-uopz:
 
@@ -25680,8 +24714,6 @@ Specs
 +--------------+--------------------+
 
 
-.. _extensions-extuuid:
-
 .. _ext-uuid:
 
 ext/uuid
@@ -25728,8 +24760,6 @@ Specs
 | Precision    | High               |
 +--------------+--------------------+
 
-
-.. _extensions-extv8js:
 
 .. _ext-v8js:
 
@@ -25782,8 +24812,6 @@ Specs
 +--------------+--------------------+
 
 
-.. _extensions-extvarnish:
-
 .. _ext-varnish:
 
 ext/varnish
@@ -25827,8 +24855,6 @@ Specs
 +--------------+-----------------------+
 
 
-.. _extensions-extvips:
-
 .. _ext-vips:
 
 ext/vips
@@ -25867,8 +24893,6 @@ Specs
 | Precision    | High               |
 +--------------+--------------------+
 
-
-.. _extensions-extwasm:
 
 .. _ext-wasm:
 
@@ -25924,8 +24948,6 @@ Specs
 +--------------+--------------------+
 
 
-.. _extensions-extwddx:
-
 .. _ext-wddx:
 
 ext/wddx
@@ -25962,8 +24984,6 @@ Specs
 | Precision    | High               |
 +--------------+--------------------+
 
-
-.. _extensions-extweakref:
 
 .. _ext-weakref:
 
@@ -26026,8 +25046,6 @@ Specs
 +--------------+-----------------------+
 
 
-.. _extensions-extwikidiff2:
-
 .. _ext-wikidiff2:
 
 ext/wikidiff2
@@ -26079,8 +25097,6 @@ Specs
 +--------------+-------------------------+
 
 
-.. _extensions-extwincache:
-
 .. _ext-wincache:
 
 ext/wincache
@@ -26126,8 +25142,6 @@ Specs
 +--------------+------------------------+
 
 
-.. _extensions-extxattr:
-
 .. _ext-xattr:
 
 ext/xattr
@@ -26171,8 +25185,6 @@ Specs
 | Precision    | High                |
 +--------------+---------------------+
 
-
-.. _extensions-extxcache:
 
 .. _ext-xcache:
 
@@ -26226,8 +25238,6 @@ Specs
 +--------------+----------------------+
 
 
-.. _extensions-extxdebug:
-
 .. _ext-xdebug:
 
 ext/xdebug
@@ -26280,8 +25290,6 @@ Specs
 +--------------+----------------------+
 
 
-.. _extensions-extxdiff:
-
 .. _ext-xdiff:
 
 ext/xdiff
@@ -26326,8 +25334,6 @@ Specs
 | Precision    | High                |
 +--------------+---------------------+
 
-
-.. _extensions-extxhprof:
 
 .. _ext-xhprof:
 
@@ -26381,8 +25387,6 @@ Specs
 | Precision    | High                 |
 +--------------+----------------------+
 
-
-.. _extensions-extxml:
 
 .. _ext-xml:
 
@@ -26458,8 +25462,6 @@ Specs
 +--------------+-------------------+
 
 
-.. _extensions-extxmlreader:
-
 .. _ext-xmlreader:
 
 ext/xmlreader
@@ -26502,8 +25504,6 @@ Specs
 | Precision    | High                    |
 +--------------+-------------------------+
 
-
-.. _extensions-extxmlrpc:
 
 .. _ext-xmlrpc:
 
@@ -26553,8 +25553,6 @@ Specs
 | Precision    | High                 |
 +--------------+----------------------+
 
-
-.. _extensions-extxmlwriter:
 
 .. _ext-xmlwriter:
 
@@ -26607,8 +25605,6 @@ Specs
 | Precision    | High                    |
 +--------------+-------------------------+
 
-
-.. _extensions-extxsl:
 
 .. _ext-xsl:
 
@@ -26669,8 +25665,6 @@ Specs
 +--------------+-------------------+
 
 
-.. _extensions-extxxtea:
-
 .. _ext-xxtea:
 
 ext/xxtea
@@ -26720,8 +25714,6 @@ Specs
 | Precision    | High                |
 +--------------+---------------------+
 
-
-.. _extensions-extyaml:
 
 .. _ext-yaml:
 
@@ -26804,8 +25796,6 @@ Specs
 +--------------+--------------------+
 
 
-.. _extensions-extyis:
-
 .. _ext-yis:
 
 ext/yis
@@ -26847,8 +25837,6 @@ Specs
 | Precision    | High              |
 +--------------+-------------------+
 
-
-.. _extensions-extzbarcode:
 
 .. _ext-zbarcode:
 
@@ -26901,8 +25889,6 @@ Specs
 +--------------+------------------------+
 
 
-.. _extensions-extzendmonitor:
-
 .. _ext-zend\_monitor:
 
 ext/zend_monitor
@@ -26930,8 +25916,6 @@ Specs
 | Precision    | High                      |
 +--------------+---------------------------+
 
-
-.. _extensions-extzip:
 
 .. _ext-zip:
 
@@ -26983,8 +25967,6 @@ Specs
 +--------------+-------------------+
 
 
-.. _extensions-extzlib:
-
 .. _ext-zlib:
 
 ext/zlib
@@ -27032,8 +26014,6 @@ Specs
 | Precision    | High               |
 +--------------+--------------------+
 
-
-.. _extensions-extzmq:
 
 .. _ext-0mq:
 
@@ -27088,8 +26068,6 @@ Specs
 +--------------+-------------------+
 
 
-.. _extensions-extzookeeper:
-
 .. _ext-zookeeper:
 
 ext/zookeeper
@@ -27137,8 +26115,6 @@ Specs
 | Precision    | High                    |
 +--------------+-------------------------+
 
-
-.. _files-definitionsonly:
 
 .. _definitions-only:
 
@@ -27206,8 +26182,6 @@ Specs
 +--------------+-----------------------+
 
 
-.. _files-globalcodeonly:
-
 .. _global-code-only:
 
 Global Code Only
@@ -27233,8 +26207,6 @@ Specs
 | Precision    | High                 |
 +--------------+----------------------+
 
-
-.. _files-inclusionwrongcase:
 
 .. _inclusion-wrong-case:
 
@@ -27288,8 +26260,6 @@ Specs
 +--------------+--------------------------+
 
 
-.. _files-iscliscript:
-
 .. _is-cli-script:
 
 Is CLI Script
@@ -27315,8 +26285,6 @@ Specs
 | Precision    | High              |
 +--------------+-------------------+
 
-
-.. _files-iscomponent:
 
 .. _file-is-component:
 
@@ -27345,8 +26313,6 @@ Specs
 | Precision    | High              |
 +--------------+-------------------+
 
-
-.. _files-missinginclude:
 
 .. _missing-include:
 
@@ -27391,8 +26357,6 @@ Specs
 | Precision    | High                 |
 +--------------+----------------------+
 
-
-.. _files-notdefinitionsonly:
 
 .. _not-definitions-only:
 
@@ -27441,8 +26405,6 @@ Specs
 +--------------+--------------------------+
 
 
-.. _files-services:
-
 .. _external-config-files:
 
 External Config Files
@@ -27470,8 +26432,6 @@ Specs
 | Precision    | High           |
 +--------------+----------------+
 
-
-.. _functions-adddefaultvalue:
 
 .. _add-default-value:
 
@@ -27521,8 +26481,6 @@ Specs
 | Examples     | :ref:`case-zurmo-functions-adddefaultvalue`, :ref:`case-typo3-functions-adddefaultvalue` |
 +--------------+------------------------------------------------------------------------------------------+
 
-
-.. _functions-aliasesusage:
 
 .. _aliases-usage:
 
@@ -27581,8 +26539,6 @@ Specs
 +--------------+-----------------------------------------------------------------------------------------------+
 
 
-.. _functions-avoidbooleanargument:
-
 .. _use-named-boolean-in-argument-definition:
 
 Use Named Boolean In Argument Definition
@@ -27638,8 +26594,6 @@ Specs
 +--------------+---------------------------------------------------------------------------------------------------------------+
 
 
-.. _functions-badtypehintrelay:
-
 .. _bad-typehint-relay:
 
 Bad Typehint Relay
@@ -27693,8 +26647,6 @@ Specs
 | Precision    | High                       |
 +--------------+----------------------------+
 
-
-.. _functions-callbackneedsreturn:
 
 .. _callback-function-needs-return:
 
@@ -27764,8 +26716,6 @@ Specs
 +--------------+-----------------------------------------------------------------------------------------------------------+
 
 
-.. _functions-cancelledparameter:
-
 .. _cancelled-parameter:
 
 Cancelled Parameter
@@ -27826,8 +26776,6 @@ Specs
 | Precision    | High                         |
 +--------------+------------------------------+
 
-
-.. _functions-cannotusestaticforclosure:
 
 .. _cannot-use-static-for-closure:
 
@@ -27900,8 +26848,6 @@ Specs
 +--------------+-------------------------------------+
 
 
-.. _functions-cantuse:
-
 .. _cant-use-function:
 
 Cant Use Function
@@ -27944,8 +26890,6 @@ Specs
 | Precision    | High              |
 +--------------+-------------------+
 
-
-.. _functions-closure2string:
 
 .. _closure-could-be-a-callback:
 
@@ -28015,8 +26959,6 @@ Specs
 +--------------+---------------------------------------------------------------------------------------------+
 
 
-.. _functions-closures:
-
 .. _closures-glossary:
 
 Closures Glossary
@@ -28055,8 +26997,6 @@ Specs
 +--------------+--------------------+
 
 
-.. _functions-conditionedfunctions:
-
 .. _conditioned-function:
 
 Conditioned Function
@@ -28093,8 +27033,6 @@ Specs
 | Precision    | High                           |
 +--------------+--------------------------------+
 
-
-.. _functions-couldbecallable:
 
 .. _could-be-typehinted-callable:
 
@@ -28156,8 +27094,6 @@ Specs
 | Examples     | :ref:`case-magento-functions-couldbecallable`, :ref:`case-prestashop-functions-couldbecallable` |
 +--------------+-------------------------------------------------------------------------------------------------+
 
-
-.. _functions-couldbestaticclosure:
 
 .. _could-be-static-closure:
 
@@ -28228,8 +27164,6 @@ Specs
 +--------------+---------------------------------------------------+
 
 
-.. _functions-couldcentralize:
-
 .. _could-make-a-function:
 
 Could Make A Function
@@ -28298,8 +27232,6 @@ Specs
 +--------------+------------------------------------+
 
 
-.. _functions-couldtypehint:
-
 .. _could-typehint:
 
 Could Typehint
@@ -28355,8 +27287,6 @@ Specs
 +--------------+-------------------------+
 
 
-.. _functions-couldtypewitharray:
-
 .. _could-type-with-array:
 
 Could Type With Array
@@ -28402,8 +27332,6 @@ Specs
 | Precision    | High                         |
 +--------------+------------------------------+
 
-
-.. _functions-couldtypewithbool:
 
 .. _could-type-with-boolean:
 
@@ -28451,8 +27379,6 @@ Specs
 +--------------+-----------------------------+
 
 
-.. _functions-couldtypewithint:
-
 .. _could-type-with-int:
 
 Could Type With Int
@@ -28498,8 +27424,6 @@ Specs
 | Precision    | High                       |
 +--------------+----------------------------+
 
-
-.. _functions-couldtypewithiterable:
 
 .. _could-type-with-iterable:
 
@@ -28554,8 +27478,6 @@ Specs
 +--------------+---------------------------------+
 
 
-.. _functions-couldtypewithstring:
-
 .. _could-type-with-string:
 
 Could Type With String
@@ -28601,8 +27523,6 @@ Specs
 | Precision    | High                          |
 +--------------+-------------------------------+
 
-
-.. _functions-deepdefinitions:
 
 .. _deep-definitions:
 
@@ -28666,8 +27586,6 @@ Specs
 +--------------+-----------------------------------------------+
 
 
-.. _functions-dontusevoid:
-
 .. _dont-collect-void:
 
 Dont Collect Void
@@ -28719,8 +27637,6 @@ Specs
 +--------------+-----------------------+
 
 
-.. _functions-dynamiccall:
-
 .. _dynamic-function-call:
 
 Dynamic Function Call
@@ -28763,8 +27679,6 @@ Specs
 | Precision    | High                  |
 +--------------+-----------------------+
 
-
-.. _functions-dynamiccode:
 
 .. _function-with-dynamic-code:
 
@@ -28813,8 +27727,6 @@ Specs
 | Precision    | High                  |
 +--------------+-----------------------+
 
-
-.. _functions-emptyfunction:
 
 .. _empty-function:
 
@@ -28881,8 +27793,6 @@ Specs
 +--------------+--------------------------------------------+
 
 
-.. _functions-exceedingtypehint:
-
 .. _exceeding-typehint:
 
 Exceeding Typehint
@@ -28945,8 +27855,6 @@ Specs
 +--------------+-----------------------------+
 
 
-.. _functions-fallbackfunction:
-
 .. _fallback-function:
 
 Fallback Function
@@ -28994,8 +27902,6 @@ Specs
 | Precision    | High                       |
 +--------------+----------------------------+
 
-
-.. _functions-fnargumentvariableconfusion:
 
 .. _fn-argument-variable-confusion:
 
@@ -29053,8 +27959,6 @@ Specs
 +--------------+---------------------------------------+
 
 
-.. _functions-funcgetargmodified:
-
 .. _func\_get\_arg()-modified:
 
 func_get_arg() Modified
@@ -29095,8 +27999,6 @@ Specs
 | Precision    | High                                      |
 +--------------+-------------------------------------------+
 
-
-.. _functions-functioncalledwithothercase:
 
 .. _function-called-with-other-case-than-defined:
 
@@ -29147,8 +28049,6 @@ Specs
 +--------------+---------------------------------------+
 
 
-.. _functions-functionnames:
-
 .. _functions-glossary:
 
 Functions Glossary
@@ -29192,8 +28092,6 @@ Specs
 +--------------+-------------------------+
 
 
-.. _functions-functionsusingreference:
-
 .. _functions-using-reference:
 
 Functions Using Reference
@@ -29230,8 +28128,6 @@ Specs
 | Precision    | High                              |
 +--------------+-----------------------------------+
 
-
-.. _functions-generatorcannotreturn:
 
 .. _generator-cannot-return:
 
@@ -29276,8 +28172,6 @@ Specs
 | Precision    | High                                                                                                       |
 +--------------+------------------------------------------------------------------------------------------------------------+
 
-
-.. _functions-hardcodedpasswords:
 
 .. _hardcoded-passwords:
 
@@ -29329,8 +28223,6 @@ Specs
 | ClearPHP     | `no-hardcoded-credential <https://github.com/dseguy/clearPHP/tree/master/rules/no-hardcoded-credential.md>`__ |
 +--------------+---------------------------------------------------------------------------------------------------------------+
 
-
-.. _functions-hasfluentinterface:
 
 .. _method-has-fluent-interface:
 
@@ -29390,8 +28282,6 @@ Specs
 +--------------+------------------------------+
 
 
-.. _functions-hasnotfluentinterface:
-
 .. _method-has-no-fluent-interface:
 
 Method Has No Fluent Interface
@@ -29417,8 +28307,6 @@ Specs
 | Precision    | High                            |
 +--------------+---------------------------------+
 
-
-.. _functions-insufficienttypehint:
 
 .. _insufficient-typehint:
 
@@ -29479,8 +28367,6 @@ Specs
 +--------------+-----------------------------------+
 
 
-.. _functions-isextfunction:
-
 .. _is-an-extension-function:
 
 Is An Extension Function
@@ -29521,8 +28407,6 @@ Specs
 | Precision    | High                    |
 +--------------+-------------------------+
 
-
-.. _functions-isgenerator:
 
 .. _is-generator:
 
@@ -29567,8 +28451,6 @@ Specs
 +--------------+-----------------------+
 
 
-.. _functions-isglobal:
-
 .. _functioncall-is-global:
 
 Functioncall Is Global
@@ -29594,8 +28476,6 @@ Specs
 | Precision    | High               |
 +--------------+--------------------+
 
-
-.. _functions-killsapp:
 
 .. _exit-like-methods:
 
@@ -29643,8 +28523,6 @@ Specs
 | Precision    | Medium                       |
 +--------------+------------------------------+
 
-
-.. _functions-loopcalling:
 
 .. _functions-in-loop-calls:
 
@@ -29706,8 +28584,6 @@ Specs
 +--------------+-----------------------+
 
 
-.. _functions-markcallable:
-
 .. _mark-callable:
 
 Mark Callable
@@ -29733,8 +28609,6 @@ Specs
 | Precision    | High                   |
 +--------------+------------------------+
 
-
-.. _functions-mismatcheddefaultarguments:
 
 .. _mismatched-default-arguments:
 
@@ -29791,8 +28665,6 @@ Specs
 | Examples     | :ref:`case-spip-functions-mismatcheddefaultarguments` |
 +--------------+-------------------------------------------------------+
 
-
-.. _functions-mismatchedtypehint:
 
 .. _mismatched-typehint:
 
@@ -29851,8 +28723,6 @@ Specs
 +--------------+----------------------------------------------------+
 
 
-.. _functions-mismatchparameterandtype:
-
 .. _mismatch-parameter-and-type:
 
 Mismatch Parameter And Type
@@ -29900,8 +28770,6 @@ Specs
 | Precision    | High                               |
 +--------------+------------------------------------+
 
-
-.. _functions-mismatchparametername:
 
 .. _mismatch-parameter-name:
 
@@ -29984,8 +28852,6 @@ Specs
 +--------------+------------------------------------------------------+
 
 
-.. _functions-mismatchtypeanddefault:
-
 .. _mismatch-type-and-default:
 
 Mismatch Type And Default
@@ -30057,8 +28923,6 @@ Specs
 +--------------+-----------------------------------------------------------+
 
 
-.. _functions-missingtypehint:
-
 .. _missing-typehint:
 
 Missing Typehint
@@ -30108,8 +28972,6 @@ Specs
 | Precision    | High                      |
 +--------------+---------------------------+
 
-
-.. _functions-modifytypedparameter:
 
 .. _modified-typed-parameter:
 
@@ -30176,8 +29038,6 @@ Specs
 +--------------+------------------------------------+
 
 
-.. _functions-multipledeclarations:
-
 .. _multiple-functions-declarations:
 
 Multiple Functions Declarations
@@ -30226,8 +29086,6 @@ Specs
 | Precision    | High                           |
 +--------------+--------------------------------+
 
-
-.. _functions-multipleidenticalclosure:
 
 .. _multiple-identical-closure:
 
@@ -30280,8 +29138,6 @@ Specs
 | Precision    | Medium                             |
 +--------------+------------------------------------+
 
-
-.. _functions-multiplereturn:
 
 .. _multiple-returns:
 
@@ -30337,8 +29193,6 @@ Specs
 +--------------+--------------------------+
 
 
-.. _functions-multiplesamearguments:
-
 .. _multiple-definition-of-the-same-argument:
 
 Multiple Definition Of The Same Argument
@@ -30391,8 +29245,6 @@ Specs
 | ClearPHP     | `all-unique-arguments <https://github.com/dseguy/clearPHP/tree/master/rules/all-unique-arguments.md>`__    |
 +--------------+------------------------------------------------------------------------------------------------------------+
 
-
-.. _functions-mustreturn:
 
 .. _must-return-methods:
 
@@ -30457,8 +29309,6 @@ Specs
 +--------------+---------------------------------------------------------------------+
 
 
-.. _functions-neverusedparameter:
-
 .. _never-used-parameter:
 
 Never Used Parameter
@@ -30517,8 +29367,6 @@ Specs
 | Examples     | :ref:`case-piwigo-functions-neverusedparameter` |
 +--------------+-------------------------------------------------+
 
-
-.. _functions-nobooleanasdefault:
 
 .. _no-boolean-as-default:
 
@@ -30582,8 +29430,6 @@ Specs
 | Examples     | :ref:`case-openconf-functions-nobooleanasdefault` |
 +--------------+---------------------------------------------------+
 
-
-.. _functions-noclassastypehint:
 
 .. _no-class-as-typehint:
 
@@ -30656,8 +29502,6 @@ Specs
 +--------------+-----------------------------------------------------------------------------------------------------+
 
 
-.. _functions-noliteralforreference:
-
 .. _no-literal-for-reference:
 
 No Literal For Reference
@@ -30721,8 +29565,6 @@ Specs
 | Precision    | High                                        |
 +--------------+---------------------------------------------+
 
-
-.. _functions-noreturnused:
 
 .. _no-return-used:
 
@@ -30788,8 +29630,6 @@ Specs
 +--------------+---------------------------------------------------------------------------------------+
 
 
-.. _functions-nullablewithconstant:
-
 .. _nullable-with-constant:
 
 Nullable With Constant
@@ -30837,8 +29677,6 @@ Specs
 | Precision    | High                                 |
 +--------------+--------------------------------------+
 
-
-.. _functions-nullablewithoutcheck:
 
 .. _nullable-without-check:
 
@@ -30894,8 +29732,6 @@ Specs
 +--------------+--------------------------------+
 
 
-.. _functions-oneletterfunctions:
-
 .. _one-letter-functions:
 
 One Letter Functions
@@ -30948,8 +29784,6 @@ Specs
 | Examples     | :ref:`case-thinkphp-functions-oneletterfunctions`, :ref:`case-cleverstyle-functions-oneletterfunctions` |
 +--------------+---------------------------------------------------------------------------------------------------------+
 
-
-.. _functions-onlyvariableforreference:
 
 .. _only-variable-for-reference:
 
@@ -31004,8 +29838,6 @@ Specs
 | Precision    | Medium                                 |
 +--------------+----------------------------------------+
 
-
-.. _functions-onlyvariablepassedbyreference:
 
 .. _only-variable-passed-by-reference:
 
@@ -31062,8 +29894,6 @@ Specs
 +--------------+--------------------------------------------------------------------------------------------------------------------------+
 
 
-.. _functions-optionalparameter:
-
 .. _optional-parameter:
 
 Optional Parameter
@@ -31111,8 +29941,6 @@ Specs
 | Precision    | High                        |
 +--------------+-----------------------------+
 
-
-.. _functions-parameterhiding:
 
 .. _parameter-hiding:
 
@@ -31164,8 +29992,6 @@ Specs
 | Precision    | High                      |
 +--------------+---------------------------+
 
-
-.. _functions-prefixtotype:
 
 .. _prefix-and-suffixes-with-typehint:
 
@@ -31246,8 +30072,6 @@ Specs
 +--------------+------------------------+
 
 
-.. _functions-realfunctions:
-
 .. _real-functions:
 
 Real Functions
@@ -31299,8 +30123,6 @@ Specs
 +--------------+-------------------------+
 
 
-.. _functions-recursive:
-
 .. _recursive-functions:
 
 Recursive Functions
@@ -31341,8 +30163,6 @@ Specs
 | Precision    | High                |
 +--------------+---------------------+
 
-
-.. _functions-redeclaredphpfunction:
 
 .. _redeclared-php-functions:
 
@@ -31392,8 +30212,6 @@ Specs
 | Precision    | High                                        |
 +--------------+---------------------------------------------+
 
-
-.. _functions-relayfunction:
 
 .. _relay-function:
 
@@ -31446,8 +30264,6 @@ Specs
 +--------------+----------------------------------------------------------------------------------------+
 
 
-.. _functions-semantictyping:
-
 .. _semantic-typing:
 
 Semantic Typing
@@ -31499,8 +30315,6 @@ Specs
 | Precision    | High                     |
 +--------------+--------------------------+
 
-
-.. _functions-shouldbetypehinted:
 
 .. _argument-should-be-typehinted:
 
@@ -31556,8 +30370,6 @@ Specs
 +--------------+---------------------------------------------------------------------------------------------------+
 
 
-.. _functions-shoulduseconstants:
-
 .. _should-use-constants:
 
 Should Use Constants
@@ -31606,8 +30418,6 @@ Specs
 | Examples     | :ref:`case-tine20-functions-shoulduseconstants` |
 +--------------+-------------------------------------------------+
 
-
-.. _functions-shouldyieldwithkey:
 
 .. _should-yield-with-key:
 
@@ -31704,8 +30514,6 @@ Specs
 | Precision    | High                                                      |
 +--------------+-----------------------------------------------------------+
 
-
-.. _functions-toomanylocalvariables:
 
 .. _too-many-local-variables:
 
@@ -31809,8 +30617,6 @@ Specs
 +--------------+------------------------------------------------------+
 
 
-.. _functions-toomanyparameters:
-
 .. _too-many-parameters:
 
 Too Many Parameters
@@ -31863,8 +30669,6 @@ Specs
 | Examples     | :ref:`case-wordpress-functions-toomanyparameters`, :ref:`case-churchcrm-functions-toomanyparameters` |
 +--------------+------------------------------------------------------------------------------------------------------+
 
-
-.. _functions-toomuchindented:
 
 .. _too-much-indented:
 
@@ -31950,8 +30754,6 @@ Specs
 +--------------+---------------------------+
 
 
-.. _functions-typehintedreferences:
-
 .. _typehinted-references:
 
 Typehinted References
@@ -32014,8 +30816,6 @@ Specs
 +--------------+---------------------------------------------+
 
 
-.. _functions-typehintmustbereturned:
-
 .. _typehint-must-be-returned:
 
 Typehint Must Be Returned
@@ -32070,8 +30870,6 @@ Specs
 +--------------+---------------------------------------------------------------------+
 
 
-.. _functions-typehints:
-
 .. _typehints:
 
 Typehints
@@ -32111,8 +30909,6 @@ Specs
 | Precision    | High                |
 +--------------+---------------------+
 
-
-.. _functions-unbindingclosures:
 
 .. _unbinding-closures:
 
@@ -32176,8 +30972,6 @@ Specs
 +--------------+--------------------------------------+
 
 
-.. _functions-undefinedfunctions:
-
 .. _undefined-functions:
 
 Undefined Functions
@@ -32232,8 +31026,6 @@ Specs
 +--------------+---------------------------------------------+
 
 
-.. _functions-unknownparametername:
-
 .. _unknown-parameter-name:
 
 Unknown Parameter Name
@@ -32286,8 +31078,6 @@ Specs
 +--------------+---------------------------------------------+
 
 
-.. _functions-unsetonarguments:
-
 .. _unset-arguments:
 
 Unset Arguments
@@ -32325,8 +31115,6 @@ Specs
 | Precision    | High                       |
 +--------------+----------------------------+
 
-
-.. _functions-unusedarguments:
 
 .. _unused-arguments:
 
@@ -32379,8 +31167,6 @@ Specs
 +--------------+--------------------------------------------------------------------------------------------------+
 
 
-.. _functions-unusedfunctions:
-
 .. _unused-functions:
 
 Unused Functions
@@ -32432,8 +31218,6 @@ Specs
 | Examples     | :ref:`case-woocommerce-functions-unusedfunctions`, :ref:`case-piwigo-functions-unusedfunctions` |
 +--------------+-------------------------------------------------------------------------------------------------+
 
-
-.. _functions-unusedinheritedvariable:
 
 .. _unused-inherited-variable-in-closure:
 
@@ -32488,8 +31272,6 @@ Specs
 | Examples     | :ref:`case-shopware-functions-unusedinheritedvariable`, :ref:`case-mautic-functions-unusedinheritedvariable` |
 +--------------+--------------------------------------------------------------------------------------------------------------+
 
-
-.. _functions-unusedreturnedvalue:
 
 .. _unused-returned-value:
 
@@ -32548,8 +31330,6 @@ Specs
 +--------------+----------------------------------------------+
 
 
-.. _functions-usearrowfunctions:
-
 .. _use-arrow-functions:
 
 Use Arrow Functions
@@ -32591,8 +31371,6 @@ Specs
 | Precision    | Very high                   |
 +--------------+-----------------------------+
 
-
-.. _functions-useconstantasarguments:
 
 .. _use-constant-as-arguments:
 
@@ -32711,8 +31489,6 @@ Specs
 +--------------+--------------------------------------------------------------------------------------------------------------+
 
 
-.. _functions-usedfunctions:
-
 .. _used-functions:
 
 Used Functions
@@ -32756,8 +31532,6 @@ Specs
 | Precision    | High                    |
 +--------------+-------------------------+
 
-
-.. _functions-uselessargument:
 
 .. _useless-argument:
 
@@ -32819,8 +31593,6 @@ Specs
 +--------------+---------------------------+
 
 
-.. _functions-uselessdefault:
-
 .. _useless-default-argument:
 
 Useless Default Argument
@@ -32878,8 +31650,6 @@ Specs
 | Precision    | High                     |
 +--------------+--------------------------+
 
-
-.. _functions-uselessreferenceargument:
 
 .. _useless-referenced-argument:
 
@@ -32939,8 +31709,6 @@ Specs
 +--------------+--------------------------------------------------------------------------------------------------------------------+
 
 
-.. _functions-uselessreturn:
-
 .. _useless-return:
 
 Useless Return
@@ -32996,8 +31764,6 @@ Specs
 | Examples     | :ref:`case-thinkphp-functions-uselessreturn`, :ref:`case-vanilla-functions-uselessreturn` |
 +--------------+-------------------------------------------------------------------------------------------+
 
-
-.. _functions-uselesstypecheck:
 
 .. _useless-type-check:
 
@@ -33063,8 +31829,6 @@ Specs
 +--------------+------------------------------+
 
 
-.. _functions-usesdefaultarguments:
-
 .. _uses-default-values:
 
 Uses Default Values
@@ -33116,8 +31880,6 @@ Specs
 | Precision    | High                                        |
 +--------------+---------------------------------------------+
 
-
-.. _functions-usingdeprecated:
 
 .. _using-deprecated-method:
 
@@ -33185,8 +31947,6 @@ Specs
 +--------------+-----------------------------------+
 
 
-.. _functions-variablearguments:
-
 .. _has-variable-arguments:
 
 Has Variable Arguments
@@ -33231,8 +31991,6 @@ Specs
 | Precision    | Very high                   |
 +--------------+-----------------------------+
 
-
-.. _functions-withoutreturn:
 
 .. _methods-without-return:
 
@@ -33293,8 +32051,6 @@ Specs
 +--------------+-------------------------+
 
 
-.. _functions-wrongargumenttype:
-
 .. _wrong-argument-type:
 
 Wrong Argument Type
@@ -33344,8 +32100,6 @@ Specs
 | Precision    | High                              |
 +--------------+-----------------------------------+
 
-
-.. _functions-wrongcase:
 
 .. _wrong-function-name-case:
 
@@ -33399,8 +32153,6 @@ Specs
 | Precision    | High                |
 +--------------+---------------------+
 
-
-.. _functions-wrongnumberofarguments:
 
 .. _wrong-number-of-arguments:
 
@@ -33464,8 +32216,6 @@ Specs
 +--------------+-------------------------------------------------------------------------------------------------------------+
 
 
-.. _functions-wrongnumberofargumentsmethods:
-
 .. _wrong-number-of-arguments-in-methods:
 
 Wrong Number Of Arguments In Methods
@@ -33526,8 +32276,6 @@ Specs
 | Precision    | High                                    |
 +--------------+-----------------------------------------+
 
-
-.. _functions-wrongoptionalparameter:
 
 .. _wrong-optional-parameter:
 
@@ -33595,8 +32343,6 @@ Specs
 +--------------+------------------------------------------------------------------------------------------------------------+
 
 
-.. _functions-wrongreturnedtype:
-
 .. _wrong-type-returned:
 
 Wrong Type Returned
@@ -33661,8 +32407,6 @@ Specs
 +--------------+-----------------------------------------------------------------+
 
 
-.. _functions-wrongtypehintedname:
-
 .. _wrong-typehinted-name:
 
 Wrong Typehinted Name
@@ -33718,8 +32462,6 @@ Specs
 +--------------+-------------------------------+
 
 
-.. _functions-wrongtypewithcall:
-
 .. _wrong-type-with-call:
 
 Wrong Type With Call
@@ -33771,8 +32513,6 @@ Specs
 | Precision    | Very high                                                      |
 +--------------+----------------------------------------------------------------+
 
-
-.. _interfaces-alreadyparentsinterface:
 
 .. _already-parents-interface:
 
@@ -33849,8 +32589,6 @@ Specs
 +--------------+-----------------------------------------------------------------------------------------------------------------+
 
 
-.. _interfaces-avoidselfininterface:
-
 .. _avoid-self-in-interface:
 
 Avoid Self In Interface
@@ -33910,8 +32648,6 @@ Specs
 +--------------+---------------------------------+
 
 
-.. _interfaces-cantimplementtraversable:
-
 .. _cant-implement-traversable:
 
 Cant Implement Traversable
@@ -33964,8 +32700,6 @@ Specs
 | Precision    | High                                                                |
 +--------------+---------------------------------------------------------------------+
 
-
-.. _interfaces-concretevisibility:
 
 .. _concrete-visibility:
 
@@ -34023,8 +32757,6 @@ Specs
 | Precision    | High                                   |
 +--------------+----------------------------------------+
 
-
-.. _interfaces-coulduseinterface:
 
 .. _forgotten-interface:
 
@@ -34084,8 +32816,6 @@ Specs
 +--------------+------------------------------+
 
 
-.. _interfaces-emptyinterface:
-
 .. _empty-interfaces:
 
 Empty Interfaces
@@ -34142,8 +32872,6 @@ Specs
 +--------------+---------------------------+
 
 
-.. _interfaces-interfacemethod:
-
 .. _interface-methods:
 
 Interface Methods
@@ -34181,8 +32909,6 @@ Specs
 +--------------+----------------------------+
 
 
-.. _interfaces-interfacenames:
-
 .. _interfaces-glossary:
 
 Interfaces Glossary
@@ -34218,8 +32944,6 @@ Specs
 | Precision    | High                      |
 +--------------+---------------------------+
 
-
-.. _interfaces-interfaceusage:
 
 .. _interfaces-usage:
 
@@ -34276,8 +33000,6 @@ Specs
 +--------------+---------------------------+
 
 
-.. _interfaces-isextinterface:
-
 .. _is-an-extension-interface:
 
 Is An Extension Interface
@@ -34317,8 +33039,6 @@ Specs
 | Precision    | High                      |
 +--------------+---------------------------+
 
-
-.. _interfaces-isnotimplemented:
 
 .. _interfaces-is-not-implemented:
 
@@ -34380,8 +33100,6 @@ Specs
 | Precision    | High                                                                                    |
 +--------------+-----------------------------------------------------------------------------------------+
 
-
-.. _interfaces-nogaranteeforpropertyconstant:
 
 .. _interfaces-don't-ensure-properties:
 
@@ -34446,8 +33164,6 @@ Specs
 +--------------+------------------------------------------+
 
 
-.. _interfaces-php:
-
 .. _php-interfaces:
 
 PHP Interfaces
@@ -34484,8 +33200,6 @@ Specs
 | Precision    | High           |
 +--------------+----------------+
 
-
-.. _interfaces-possibleinterfaces:
 
 .. _possible-interfaces:
 
@@ -34550,8 +33264,6 @@ Specs
 +--------------+-------------------------------+
 
 
-.. _interfaces-repeatedinterface:
-
 .. _repeated-interface:
 
 Repeated Interface
@@ -34606,8 +33318,6 @@ Specs
 | Precision    | High                                   |
 +--------------+----------------------------------------+
 
-
-.. _interfaces-undefinedinterfaces:
 
 .. _undefined-interfaces:
 
@@ -34665,8 +33375,6 @@ Specs
 | Examples     | :ref:`case-xataface-interfaces-undefinedinterfaces` |
 +--------------+-----------------------------------------------------+
 
-
-.. _interfaces-unusedinterfaces:
 
 .. _unused-interfaces:
 
@@ -34730,8 +33438,6 @@ Specs
 +--------------+--------------------------------------------------+
 
 
-.. _interfaces-usedinterfaces:
-
 .. _used-interfaces:
 
 Used Interfaces
@@ -34779,8 +33485,6 @@ Specs
 | Precision    | High                      |
 +--------------+---------------------------+
 
-
-.. _interfaces-uselessinterfaces:
 
 .. _useless-interfaces:
 
@@ -34853,8 +33557,6 @@ Specs
 
 .. _modules-incomingdata:
 
-.. _modules-incomingdata:
-
 Modules/IncomingData
 ++++++++++++++++++++
 
@@ -34886,8 +33588,6 @@ Specs
 
 .. _modules-nativereplacement:
 
-.. _modules-nativereplacement:
-
 Modules/NativeReplacement
 +++++++++++++++++++++++++
 
@@ -34916,8 +33616,6 @@ Specs
 | Precision    | High                      |
 +--------------+---------------------------+
 
-
-.. _namespaces-alias:
 
 .. _aliases:
 
@@ -34964,8 +33662,6 @@ Specs
 | Precision    | High             |
 +--------------+------------------+
 
-
-.. _namespaces-aliasconfusion:
 
 .. _possible-alias-confusion:
 
@@ -35026,8 +33722,6 @@ Specs
 +--------------+---------------------------+
 
 
-.. _namespaces-constantfullyqualified:
-
 .. _fully-qualified-constants:
 
 Fully Qualified Constants
@@ -35073,8 +33767,6 @@ Specs
 | Precision    | High                              |
 +--------------+-----------------------------------+
 
-
-.. _namespaces-couldusealias:
 
 .. _could-use-alias:
 
@@ -35144,8 +33836,6 @@ Specs
 | Precision    | High                     |
 +--------------+--------------------------+
 
-
-.. _namespaces-emptynamespace:
 
 .. _empty-namespace:
 
@@ -35219,8 +33909,6 @@ Specs
 +--------------+-----------------------------------------------------------------------------------------------------+
 
 
-.. _namespaces-globalimport:
-
 .. _global-import:
 
 Global Import
@@ -35256,8 +33944,6 @@ Specs
 | Precision    | High                    |
 +--------------+-------------------------+
 
-
-.. _namespaces-hiddenuse:
 
 .. _hidden-use-expression:
 
@@ -35320,8 +34006,6 @@ Specs
 +--------------+-------------------------------------------------------------------------------------+
 
 
-.. _namespaces-multiplealiasdefinitionperfile:
-
 .. _multiple-alias-definitions-per-file:
 
 Multiple Alias Definitions Per File
@@ -35364,8 +34048,6 @@ Specs
 | Precision    | High                                        |
 +--------------+---------------------------------------------+
 
-
-.. _namespaces-multiplealiasdefinitions:
 
 .. _multiple-alias-definitions:
 
@@ -35421,8 +34103,6 @@ Specs
 +--------------+------------------------------------------------------------------------------------------------------------------+
 
 
-.. _namespaces-namespacesnames:
-
 .. _namespaces-glossary:
 
 Namespaces Glossary
@@ -35464,8 +34144,6 @@ Specs
 +--------------+----------------------------+
 
 
-.. _namespaces-namespaceusage:
-
 .. _namespaces:
 
 Namespaces
@@ -35491,8 +34169,6 @@ Specs
 | Precision    | High                      |
 +--------------+---------------------------+
 
-
-.. _namespaces-shouldmakealias:
 
 .. _should-make-alias:
 
@@ -35546,8 +34222,6 @@ Specs
 | Precision    | High                                        |
 +--------------+---------------------------------------------+
 
-
-.. _namespaces-unresolveduse:
 
 .. _unresolved-use:
 
@@ -35613,8 +34287,6 @@ Specs
 +--------------+---------------------------------------------------------------------------------------------------+
 
 
-.. _namespaces-unuseduse:
-
 .. _unused-use:
 
 Unused Use
@@ -35662,8 +34334,6 @@ Specs
 +--------------+---------------------------------------------------------------------------------------------+
 
 
-.. _namespaces-useduse:
-
 .. _used-use:
 
 Used Use
@@ -35708,8 +34378,6 @@ Specs
 | Precision    | High               |
 +--------------+--------------------+
 
-
-.. _namespaces-usefunctionsconstants:
 
 .. _use-const-and-functions:
 
@@ -35757,8 +34425,6 @@ Specs
 | Precision    | Very high                                                                       |
 +--------------+---------------------------------------------------------------------------------+
 
-
-.. _namespaces-usewithfullyqualifiedns:
 
 .. _use-with-fully-qualified-name:
 
@@ -35808,8 +34474,6 @@ Specs
 +--------------+------------------------------------+
 
 
-.. _namespaces-wrongcase:
-
 .. _wrong-case-namespaces:
 
 Wrong Case Namespaces
@@ -35855,8 +34519,6 @@ Specs
 | Precision    | High                 |
 +--------------+----------------------+
 
-
-.. _patterns-abstractaway:
 
 .. _abstract-away:
 
@@ -35924,8 +34586,6 @@ Specs
 +--------------+-----------------------+
 
 
-.. _patterns-courrierantipattern:
-
 .. _courier-anti-pattern:
 
 Courier Anti-Pattern
@@ -35986,8 +34646,6 @@ Specs
 +--------------+------------------------------+
 
 
-.. _patterns-dependencyinjection:
-
 .. _dependency-injection:
 
 Dependency Injection
@@ -36045,8 +34703,6 @@ Specs
 +--------------+------------------------------+
 
 
-.. _patterns-factory:
-
 .. _an-oop-factory:
 
 An OOP Factory
@@ -36098,8 +34754,6 @@ Specs
 | Precision    | High             |
 +--------------+------------------+
 
-
-.. _performances-arraykeyexistsspeedup:
 
 .. _array\_key\_exists()-speedup:
 
@@ -36157,8 +34811,6 @@ Specs
 | Precision    | High                                    |
 +--------------+-----------------------------------------+
 
-
-.. _performances-arraymergeinloops:
 
 .. _no-array\_merge()-in-loops:
 
@@ -36237,8 +34889,6 @@ Specs
 +--------------+-------------------------------------------------------------------------------------------------------------+
 
 
-.. _performances-autoappend:
-
 .. _autoappend:
 
 Autoappend
@@ -36288,8 +34938,6 @@ Specs
 | Precision    | High                    |
 +--------------+-------------------------+
 
-
-.. _performances-avoidarraypush:
 
 .. _avoid-array\_push():
 
@@ -36356,8 +35004,6 @@ Specs
 +--------------+-----------------------------+
 
 
-.. _performances-cachevariableoutsideloop:
-
 .. _cache-variable-outside-loop:
 
 Cache Variable Outside Loop
@@ -36418,8 +35064,6 @@ Specs
 | Precision    | High                                  |
 +--------------+---------------------------------------+
 
-
-.. _performances-csvinloops:
 
 .. _fputcsv()-in-loops:
 
@@ -36484,8 +35128,6 @@ Specs
 +--------------+-----------------------------------+
 
 
-.. _performances-doinbase:
-
 .. _do-in-base:
 
 Do In Base
@@ -36540,8 +35182,6 @@ Specs
 | Precision    | High                  |
 +--------------+-----------------------+
 
-
-.. _performances-doublearrayflip:
 
 .. _double-array\_flip():
 
@@ -36606,8 +35246,6 @@ Specs
 +--------------+----------------------------------------------------+
 
 
-.. _performances-fetchonerowformat:
-
 .. _fetch-one-row-format:
 
 Fetch One Row Format
@@ -36662,8 +35300,6 @@ Specs
 | Precision    | High                           |
 +--------------+--------------------------------+
 
-
-.. _performances-issetwholearray:
 
 .. _isset()-on-the-whole-array:
 
@@ -36722,8 +35358,6 @@ Specs
 | Examples     | :ref:`case-tine20-performances-issetwholearray`, :ref:`case-expressionengine-performances-issetwholearray` |
 +--------------+------------------------------------------------------------------------------------------------------------+
 
-
-.. _performances-joinfile:
 
 .. _joining-file():
 
@@ -36789,8 +35423,6 @@ Specs
 | Examples     | :ref:`case-wordpress-performances-joinfile`, :ref:`case-spip-performances-joinfile` |
 +--------------+-------------------------------------------------------------------------------------+
 
-
-.. _performances-logicaltoinarray:
 
 .. _logical-to-in\_array:
 
@@ -36858,8 +35490,6 @@ Specs
 | Examples     | :ref:`case-zencart-performances-logicaltoinarray` |
 +--------------+---------------------------------------------------+
 
-
-.. _performances-makeonecall:
 
 .. _make-one-call-with-array:
 
@@ -36974,8 +35604,6 @@ Specs
 +--------------+---------------------------------------------------------------------------------------------+
 
 
-.. _performances-mbstringinloop:
-
 .. _no-mb\_substr-in-loop:
 
 No mb_substr In Loop
@@ -37034,8 +35662,6 @@ Specs
 | Precision    | High                        |
 +--------------+-----------------------------+
 
-
-.. _performances-memoizemagiccall:
 
 .. _memoize-magiccall:
 
@@ -37111,8 +35737,6 @@ Specs
 +--------------+------------------------------------+
 
 
-.. _performances-noconcatinloop:
-
 .. _avoid-concat-in-loop:
 
 Avoid Concat In Loop
@@ -37171,8 +35795,6 @@ Specs
 | Examples     | :ref:`case-suitecrm-performances-noconcatinloop`, :ref:`case-thinkphp-performances-noconcatinloop` |
 +--------------+----------------------------------------------------------------------------------------------------+
 
-
-.. _performances-noglob:
 
 .. _avoid-glob()-usage:
 
@@ -37239,8 +35861,6 @@ Specs
 | Examples     | :ref:`case-phinx-performances-noglob`, :ref:`case-nextcloud-performances-noglob` |
 +--------------+----------------------------------------------------------------------------------+
 
-
-.. _performances-notcountnull:
 
 .. _no-count-with-0:
 
@@ -37329,8 +35949,6 @@ Specs
 +--------------+-----------------------------------------------------------------------------------------------+
 
 
-.. _performances-optimizeexplode:
-
 .. _optimize-explode():
 
 Optimize Explode()
@@ -37393,8 +36011,6 @@ Specs
 +--------------+------------------------------+
 
 
-.. _performances-php74arraykeyexists:
-
 .. _always-use-function-with-array\_key\_exists():
 
 Always Use Function With array_key_exists()
@@ -37452,8 +36068,6 @@ Specs
 +--------------+----------------------------------+
 
 
-.. _performances-php7encapsedstrings:
-
 .. _use-php7-encapsed-strings:
 
 Use PHP7 Encapsed Strings
@@ -37504,8 +36118,6 @@ Specs
 | Precision    | High                             |
 +--------------+----------------------------------+
 
-
-.. _performances-prepostincrement:
 
 .. _pre-increment:
 
@@ -37560,8 +36172,6 @@ Specs
 | Examples     | :ref:`case-expressionengine-performances-prepostincrement`, :ref:`case-traq-performances-prepostincrement` |
 +--------------+------------------------------------------------------------------------------------------------------------+
 
-
-.. _performances-regexonarrays:
 
 .. _regex-on-arrays:
 
@@ -37632,8 +36242,6 @@ Specs
 +--------------+----------------------------+
 
 
-.. _performances-regexoncollector:
-
 .. _processing-collector:
 
 Processing Collector
@@ -37691,8 +36299,6 @@ Specs
 | Precision    | High                          |
 +--------------+-------------------------------+
 
-
-.. _performances-simpleswitch:
 
 .. _simple-switch:
 
@@ -37766,8 +36372,6 @@ Specs
 | Precision    | High                      |
 +--------------+---------------------------+
 
-
-.. _performances-slowfunctions:
 
 .. _slow-functions:
 
@@ -37847,8 +36451,6 @@ Specs
 +--------------+---------------------------------------------------------------------------------------------------------------------+
 
 
-.. _performances-strpostoomuch:
-
 .. _strpos()-too-much:
 
 strpos() Too Much
@@ -37919,8 +36521,6 @@ Specs
 +--------------+--------------------------------------------------+
 
 
-.. _performances-substrfirst:
-
 .. _substring-first:
 
 Substring First
@@ -37972,8 +36572,6 @@ Specs
 +--------------+--------------------------------------------------------------------------------------------+
 
 
-.. _performances-timevsstrtotime:
-
 .. _time()-vs-strtotime():
 
 time() Vs strtotime()
@@ -38023,8 +36621,6 @@ Specs
 | Examples     | :ref:`case-woocommerce-performances-timevsstrtotime` |
 +--------------+------------------------------------------------------+
 
-
-.. _performances-usearrayslice:
 
 .. _use-array\_slice():
 
@@ -38086,8 +36682,6 @@ Specs
 +--------------+---------------------------------------------+
 
 
-.. _performances-useblindvar:
-
 .. _use-the-blind-var:
 
 Use The Blind Var
@@ -38144,8 +36738,6 @@ Specs
 +--------------+--------------------------+
 
 
-.. _php-alternativesyntax:
-
 .. _php-alternative-syntax:
 
 PHP Alternative Syntax
@@ -38191,8 +36783,6 @@ Specs
 +--------------+-----------------------+
 
 
-.. _php-argon2usage:
-
 .. _argon2-usage:
 
 Argon2 Usage
@@ -38236,8 +36826,6 @@ Specs
 | Precision    | High            |
 +--------------+-----------------+
 
-
-.. _php-arraykeyexistswithobjects:
 
 .. _array\_key\_exists()-works-on-arrays:
 
@@ -38291,8 +36879,6 @@ Specs
 | Precision      | High                                                 |
 +----------------+------------------------------------------------------+
 
-
-.. _php-assertfunctionisreserved:
 
 .. _assert-function-is-reserved:
 
@@ -38356,8 +36942,6 @@ Specs
 +----------------+-------------------------------------------+
 
 
-.. _php-assertionusage:
-
 .. _assertions:
 
 Assertions
@@ -38400,8 +36984,6 @@ Specs
 | Precision    | High               |
 +--------------+--------------------+
 
-
-.. _php-assignand:
 
 .. _assign-with-and-precedence:
 
@@ -38459,8 +37041,6 @@ Specs
 | Examples     | :ref:`case-xataface-php-assignand`          |
 +--------------+---------------------------------------------+
 
-
-.. _php-assumptions:
 
 .. _assumptions:
 
@@ -38520,8 +37100,6 @@ Specs
 +--------------+-----------------+
 
 
-.. _php-autoloadusage:
-
 .. _autoloading:
 
 Autoloading
@@ -38563,8 +37141,6 @@ Specs
 | Precision    | High              |
 +--------------+-------------------+
 
-
-.. _php-avoidgetobjectvars:
 
 .. _avoid-get\_object\_vars():
 
@@ -38612,8 +37188,6 @@ Specs
 +--------------+------------------------------------------------------+
 
 
-.. _php-avoidmbdectectencoding:
-
 .. _avoid-mb\_dectect\_encoding():
 
 Avoid mb_dectect_encoding()
@@ -38658,8 +37232,6 @@ Specs
 | Precision    | High                       |
 +--------------+----------------------------+
 
-
-.. _php-avoidreal:
 
 .. _avoid-real:
 
@@ -38716,8 +37288,6 @@ Specs
 +--------------+----------------------------------+
 
 
-.. _php-avoidseterrorhandlercontextarg:
-
 .. _avoid-set\_error\_handler-$context-argument:
 
 Avoid set_error_handler $context Argument
@@ -38766,8 +37336,6 @@ Specs
 | Examples     | :ref:`case-shopware-php-avoidseterrorhandlercontextarg`, :ref:`case-vanilla-php-avoidseterrorhandlercontextarg` |
 +--------------+-----------------------------------------------------------------------------------------------------------------+
 
-
-.. _php-betterrand:
 
 .. _use-random\_int():
 
@@ -38839,8 +37407,6 @@ Specs
 +--------------+-----------------------------------------------------------------------------------------+
 
 
-.. _php-cantusereturnvalueinwritecontext:
-
 .. _cant-use-return-value-in-write-context:
 
 Cant Use Return Value In Write Context
@@ -38884,8 +37450,6 @@ Specs
 | Precision    | High                                                 |
 +--------------+------------------------------------------------------+
 
-
-.. _php-caseforpss:
 
 .. _use-lower-case-for-parent,-static-and-self:
 
@@ -38942,8 +37506,6 @@ Specs
 +--------------+------------------------------------------------------+
 
 
-.. _php-castingusage:
-
 .. _cast-usage:
 
 Cast Usage
@@ -38988,8 +37550,6 @@ Specs
 | Precision    | High             |
 +--------------+------------------+
 
-
-.. _php-castunsetusage:
 
 .. _cast-unset-usage:
 
@@ -39039,8 +37599,6 @@ Specs
 +--------------+--------------------------------------+
 
 
-.. _php-classconstwitharray:
-
 .. _class-const-with-array:
 
 Class Const With Array
@@ -39066,8 +37624,6 @@ Specs
 | Precision    | High                                                                            |
 +--------------+---------------------------------------------------------------------------------+
 
-
-.. _php-classfunctionconfusion:
 
 .. _class-function-confusion:
 
@@ -39121,8 +37677,6 @@ Specs
 +--------------+----------------------------+
 
 
-.. _php-closetags:
-
 .. _close-tags:
 
 Close Tags
@@ -39150,8 +37704,6 @@ Specs
 | ClearPHP     | `leave-last-closing-out <https://github.com/dseguy/clearPHP/tree/master/rules/leave-last-closing-out.md>`__ |
 +--------------+-------------------------------------------------------------------------------------------------------------+
 
-
-.. _php-closetagsconsistency:
 
 .. _close-tags-consistency:
 
@@ -39191,8 +37743,6 @@ Specs
 | Precision    | High                     |
 +--------------+--------------------------+
 
-
-.. _php-closurethissupport:
 
 .. _closure-may-use-$this:
 
@@ -39248,8 +37798,6 @@ Specs
 +--------------+---------------------------+
 
 
-.. _php-coalesce:
-
 .. _coalesce:
 
 Coalesce
@@ -39291,8 +37839,6 @@ Specs
 | Precision    | High          |
 +--------------+---------------+
 
-
-.. _php-coalesceequal:
 
 .. _coalesce-equal:
 
@@ -39340,8 +37886,6 @@ Specs
 | Precision    | Very high                                                                                                                                                                                                              |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-
-.. _php-compactinexistant:
 
 .. _compact-inexistant-variable:
 
@@ -39393,8 +37937,6 @@ Specs
 | Precision    | High                                          |
 +--------------+-----------------------------------------------+
 
-
-.. _php-concatandaddition:
 
 .. _concat-and-addition:
 
@@ -39454,8 +37996,6 @@ Specs
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
-.. _php-constwitharray:
-
 .. _const-with-array:
 
 Const With Array
@@ -39501,8 +38041,6 @@ Specs
 +--------------+---------------------------------------------------------------------------------+
 
 
-.. _php-cookiesvariables:
-
 .. _cookies-variables:
 
 Cookies Variables
@@ -39545,8 +38083,6 @@ Specs
 | Precision    | High                 |
 +--------------+----------------------+
 
-
-.. _php-coulduseiscountable:
 
 .. _use-is\_countable:
 
@@ -39609,8 +38145,6 @@ Specs
 +--------------+-------------------------+
 
 
-.. _php-couldusepromotedproperties:
-
 .. _could-use-promoted-properties:
 
 Could Use Promoted Properties
@@ -39663,8 +38197,6 @@ Specs
 +--------------+--------------------------------+
 
 
-.. _php-crc32mightbenegative:
-
 .. _crc32()-might-be-negative:
 
 Crc32() Might Be Negative
@@ -39711,8 +38243,6 @@ Specs
 +--------------+--------------------------+
 
 
-.. _php-cryptousage:
-
 .. _crypto-usage:
 
 Crypto Usage
@@ -39756,8 +38286,6 @@ Specs
 | Precision    | High            |
 +--------------+-----------------+
 
-
-.. _php-dateformats:
 
 .. _date-formats:
 
@@ -39805,8 +38333,6 @@ Specs
 | Precision    | High            |
 +--------------+-----------------+
 
-
-.. _php-debuginfousage:
 
 .. _\_\_debuginfo()-usage:
 
@@ -39870,8 +38396,6 @@ Specs
 +--------------+---------------------------------------------------------------------------------+
 
 
-.. _php-declareencoding:
-
 .. _encoding-usage:
 
 Encoding Usage
@@ -39909,8 +38433,6 @@ Specs
 | Precision    | High                          |
 +--------------+-------------------------------+
 
-
-.. _php-declarestrict:
 
 .. _strict\_types-preference:
 
@@ -39953,8 +38475,6 @@ Specs
 | Precision    | High                          |
 +--------------+-------------------------------+
 
-
-.. _php-declarestricttype:
 
 .. _declare-strict\_types-usage:
 
@@ -40006,8 +38526,6 @@ Specs
 +--------------+-------------------------------+
 
 
-.. _php-declareticks:
-
 .. _ticks-usage:
 
 Ticks Usage
@@ -40046,8 +38564,6 @@ Specs
 +--------------+-------------------------------+
 
 
-.. _php-definewitharray:
-
 .. _define-with-array:
 
 Define With Array
@@ -40082,8 +38598,6 @@ Specs
 | Precision    | High                                                                                                       |
 +--------------+------------------------------------------------------------------------------------------------------------+
 
-
-.. _php-deprecated:
 
 .. _deprecated-php-functions:
 
@@ -40137,8 +38651,6 @@ Specs
 | Examples     | :ref:`case-dolphin-php-deprecated`                                                        |
 +--------------+-------------------------------------------------------------------------------------------+
 
-
-.. _php-detectcurrentclass:
 
 .. _detect-current-class:
 
@@ -40202,8 +38714,6 @@ Specs
 +--------------+----------------------------------------------------------+
 
 
-.. _php-directcalltoclone:
-
 .. _direct-call-to-\_\_clone():
 
 Direct Call To __clone()
@@ -40253,8 +38763,6 @@ Specs
 +--------------+------------------------------------------------------------------------------------------------------------+
 
 
-.. _php-directivename:
-
 .. _unknown-directive-name:
 
 Unknown Directive Name
@@ -40302,8 +38810,6 @@ Specs
 +--------------+-------------------+
 
 
-.. _php-directivesusage:
-
 .. _directives-usage:
 
 Directives Usage
@@ -40342,8 +38848,6 @@ Specs
 +--------------+---------------------+
 
 
-.. _php-dlusage:
-
 .. _dl()-usage:
 
 Dl() Usage
@@ -40381,8 +38885,6 @@ Specs
 | Precision    | High          |
 +--------------+---------------+
 
-
-.. _php-dontpolluteglobalspace:
 
 .. _don't-pollute-global-space:
 
@@ -40424,8 +38926,6 @@ Specs
 +--------------+----------------------------+
 
 
-.. _php-echotagusage:
-
 .. _I?=-usage:
 
 <?= Usage
@@ -40454,8 +38954,6 @@ Specs
 | Precision    | High             |
 +--------------+------------------+
 
-
-.. _php-ellipsisusage:
 
 .. _ellipsis-usage:
 
@@ -40503,8 +39001,6 @@ Specs
 +--------------+--------------------------------------------------------------------------------------------+
 
 
-.. _php-emptylist:
-
 .. _empty-list:
 
 Empty List
@@ -40551,8 +39047,6 @@ Specs
 +--------------+-------------------------------------------+
 
 
-.. _php-errorlogusage:
-
 .. _error\_log()-usage:
 
 Error_Log() Usage
@@ -40586,8 +39080,6 @@ Specs
 | Precision    | High              |
 +--------------+-------------------+
 
-
-.. _php-exponentusage:
 
 .. _exponent-usage:
 
@@ -40638,8 +39130,6 @@ Specs
 
 .. _php-failinganalysis:
 
-.. _php-failinganalysis:
-
 Php/FailingAnalysis
 +++++++++++++++++++
 
@@ -40661,8 +39151,6 @@ Specs
 | Precision    | High                |
 +--------------+---------------------+
 
-
-.. _php-filtertoaddslashes:
 
 .. _filter-to-add\_slashes():
 
@@ -40714,8 +39202,6 @@ Specs
 | Precision    | High                                 |
 +--------------+--------------------------------------+
 
-
-.. _php-flexibleheredoc:
 
 .. _flexible-heredoc:
 
@@ -40774,8 +39260,6 @@ Specs
 +--------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
-.. _php-fopenmode:
-
 .. _wrong-fopen()-mode:
 
 Wrong fopen() Mode
@@ -40830,8 +39314,6 @@ Specs
 +--------------+------------------------------------------------------------------------+
 
 
-.. _php-foreachdontchangepointer:
-
 .. _foreach-don't-change-pointer:
 
 Foreach Don't Change Pointer
@@ -40884,8 +39366,6 @@ Specs
 +--------------+------------------------------+
 
 
-.. _php-foreachobject:
-
 .. _foreach-on-object:
 
 Foreach On Object
@@ -40930,8 +39410,6 @@ Specs
 +--------------+-------------------+
 
 
-.. _php-globalsvsglobal:
-
 .. _$globals-or-global:
 
 $GLOBALS Or global
@@ -40970,8 +39448,6 @@ Specs
 | Precision    | High                |
 +--------------+---------------------+
 
-
-.. _php-globalwithoutsimplevariable:
 
 .. _simple-global-variable:
 
@@ -41022,8 +39498,6 @@ Specs
 +--------------+---------------------------------+
 
 
-.. _php-gotonames:
-
 .. _goto-names:
 
 Goto Names
@@ -41064,8 +39538,6 @@ Specs
 | ClearPHP     | `no-goto <https://github.com/dseguy/clearPHP/tree/master/rules/no-goto.md>`__ |
 +--------------+-------------------------------------------------------------------------------+
 
-
-.. _php-groupusedeclaration:
 
 .. _group-use-declaration:
 
@@ -41121,8 +39593,6 @@ Specs
 +--------------+-----------------------------------------------------------------------------------------------------------------------+
 
 
-.. _php-groupusetrailingcomma:
-
 .. _group-use-trailing-comma:
 
 Group Use Trailing Comma
@@ -41169,8 +39639,6 @@ Specs
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
-.. _php-haltcompiler:
-
 .. _\_\_halt\_compiler:
 
 __halt_compiler
@@ -41214,8 +39682,6 @@ Specs
 | Precision    | High             |
 +--------------+------------------+
 
-
-.. _php-hashalgos:
 
 .. _hash-algorithms:
 
@@ -41266,8 +39732,6 @@ Specs
 +--------------+----------------+
 
 
-.. _php-hashalgos53:
-
 .. _hash-algorithms-incompatible-with-php-5.3:
 
 Hash Algorithms Incompatible With PHP 5.3
@@ -41309,8 +39773,6 @@ Specs
 +--------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
-.. _php-hashalgos54:
-
 .. _hash-algorithms-incompatible-with-php-5.4-5.5:
 
 Hash Algorithms Incompatible With PHP 5.4/5.5
@@ -41351,8 +39813,6 @@ Specs
 | Precision    | High                                                                                                                                                             |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-
-.. _php-hashalgos71:
 
 .. _hash-algorithms-incompatible-with-php-7.1-:
 
@@ -41397,8 +39857,6 @@ Specs
 +--------------+---------------------------------------------------------------------------------------------------------------------------------------+
 
 
-.. _php-hashalgos74:
-
 .. _hash-algorithms-incompatible-with-php-7.4-:
 
 Hash Algorithms Incompatible With PHP 7.4-
@@ -41441,8 +39899,6 @@ Specs
 | Precision    | High                                 |
 +--------------+--------------------------------------+
 
-
-.. _php-hashusesobjects:
 
 .. _hash-will-use-objects:
 
@@ -41493,8 +39949,6 @@ Specs
 +--------------+---------------------------+
 
 
-.. _php-idnuts46:
-
 .. _idn\_to\_ascii()-new-default:
 
 idn_to_ascii() New Default
@@ -41537,8 +39991,6 @@ Specs
 | Precision    | High                                 |
 +--------------+--------------------------------------+
 
-
-.. _php-implodeonearg:
 
 .. _implode-one-arg:
 
@@ -41592,8 +40044,6 @@ Specs
 +--------------+-------------------------------------------+
 
 
-.. _php-incomingvalues:
-
 .. _incoming-values:
 
 Incoming Values
@@ -41627,8 +40077,6 @@ Specs
 | Precision    | High               |
 +--------------+--------------------+
 
-
-.. _php-incomingvariables:
 
 .. _incoming-variables:
 
@@ -41680,8 +40128,6 @@ Specs
 | Precision    | High                  |
 +--------------+-----------------------+
 
-
-.. _php-incompilable:
 
 .. _incompilable-files:
 
@@ -41737,8 +40183,6 @@ Specs
 +--------------+-----------------------------------------------------------------------------------------------+
 
 
-.. _php-integerseparatorusage:
-
 .. _numeric-literal-separator:
 
 Numeric Literal Separator
@@ -41786,8 +40230,6 @@ Specs
 +--------------+--------------------------------------+
 
 
-.. _php-internalparametertype:
-
 .. _wrong-parameter-type:
 
 Wrong Parameter Type
@@ -41832,8 +40274,6 @@ Specs
 | Examples     | :ref:`case-zencart-php-internalparametertype` |
 +--------------+-----------------------------------------------+
 
-
-.. _php-isawithstring:
 
 .. _is\_a()-with-string:
 
@@ -41881,8 +40321,6 @@ Specs
 | Precision    | High                                                       |
 +--------------+------------------------------------------------------------+
 
-
-.. _php-isinf:
 
 .. _manipulates-inf:
 
@@ -41933,8 +40371,6 @@ Specs
 +--------------+-----------------+
 
 
-.. _php-isnan:
-
 .. _manipulates-nan:
 
 Manipulates NaN
@@ -41974,8 +40410,6 @@ Specs
 | Precision    | High            |
 +--------------+-----------------+
 
-
-.. _php-isnullvsequalnull:
 
 .. _use-===-null:
 
@@ -42030,8 +40464,6 @@ Specs
 +--------------+---------------------------------------------------------------------------------------------------------------------+
 
 
-.. _php-issetmultipleargs:
-
 .. _isset-multiple-arguments:
 
 Isset Multiple Arguments
@@ -42085,8 +40517,6 @@ Specs
 +--------------+-----------------------------------------------------------------------------------------+
 
 
-.. _php-labelnames:
-
 .. _labels:
 
 Labels
@@ -42126,8 +40556,6 @@ Specs
 | Precision    | High           |
 +--------------+----------------+
 
-
-.. _php-lettercharslogicalfavorite:
 
 .. _logical-operators-favorite:
 
@@ -42188,8 +40616,6 @@ Specs
 +--------------+----------------------------------+
 
 
-.. _php-listshortsyntax:
-
 .. _list-short-syntax:
 
 List Short Syntax
@@ -42228,8 +40654,6 @@ Specs
 | Precision    | High                                                                                                                                             |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------------------+
 
-
-.. _php-listwithappends:
 
 .. _list-with-appends:
 
@@ -42300,8 +40724,6 @@ Specs
 +--------------+---------------------------+
 
 
-.. _php-listwithkeys:
-
 .. _list-with-keys:
 
 List With Keys
@@ -42336,8 +40758,6 @@ Specs
 | Precision    | High                                                                                                                                             |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------------------+
 
-
-.. _php-listwithreference:
 
 .. _list-with-reference:
 
@@ -42396,8 +40816,6 @@ Specs
 | Precision    | High                                                                                                                                                                                        |
 +--------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-
-.. _php-logicalinletters:
 
 .. _logical-should-use-symbolic-operators:
 
@@ -42458,8 +40876,6 @@ Specs
 +--------------+------------------------------------------------------------------------------------------------------+
 
 
-.. _php-methodcallonnew:
-
 .. _methodcall-on-new:
 
 Methodcall On New
@@ -42508,8 +40924,6 @@ Specs
 +--------------+---------------------------+
 
 
-.. _php-middleversion:
-
 .. _php-bugfixes:
 
 PHP Bugfixes
@@ -42535,8 +40949,6 @@ Specs
 | Precision    | High              |
 +--------------+-------------------+
 
-
-.. _php-missingmagicisset:
 
 .. _missing-\_\_isset()-method:
 
@@ -42589,8 +41001,6 @@ Specs
 | Precision    | Medium                             |
 +--------------+------------------------------------+
 
-
-.. _php-missingsubpattern:
 
 .. _possible-missing-subpattern:
 
@@ -42671,8 +41081,6 @@ Specs
 +--------------+--------------------------------------------------------------------------------------+
 
 
-.. _php-multipledeclarestrict:
-
 .. _multiple-declaration-of-strict\_types:
 
 Multiple Declaration Of Strict_types
@@ -42719,8 +41127,6 @@ Specs
 | Precision    | Very high                 |
 +--------------+---------------------------+
 
-
-.. _php-mustcallparentconstructor:
 
 .. _must-call-parent-constructor:
 
@@ -42776,8 +41182,6 @@ Specs
 +--------------+-------------------------------+
 
 
-.. _php-nestedternarywithoutparenthesis:
-
 .. _nested-ternary-without-parenthesis:
 
 Nested Ternary Without Parenthesis
@@ -42832,8 +41236,6 @@ Specs
 | Precision      | High                                 |
 +----------------+--------------------------------------+
 
-
-.. _php-newexponent:
 
 .. _**-for-exponent:
 
@@ -42898,8 +41300,6 @@ Specs
 +--------------+------------------------------------------------------------------------+
 
 
-.. _php-noclassinglobal:
-
 .. _no-class-in-global:
 
 No Class In Global
@@ -42951,8 +41351,6 @@ Specs
 | Examples     | :ref:`case-dolphin-php-noclassinglobal`     |
 +--------------+---------------------------------------------+
 
-
-.. _php-nolistwithstring:
 
 .. _no-list-with-string:
 
@@ -43006,8 +41404,6 @@ Specs
 +--------------+------------------------------------------------------------------------------------------------------------+
 
 
-.. _php-nomorecurlyarrays:
-
 .. _no-more-curly-arrays:
 
 No More Curly Arrays
@@ -43059,8 +41455,6 @@ Specs
 +----------------+--------------------------------------+
 
 
-.. _php-noreferenceforstaticproperty:
-
 .. _no-reference-for-static-property:
 
 No Reference For Static Property
@@ -43109,8 +41503,6 @@ Specs
 | Precision    | High                                                                                                                                                                                        |
 +--------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-
-.. _php-noreferenceforternary:
 
 .. _no-reference-for-ternary:
 
@@ -43175,8 +41567,6 @@ Specs
 +--------------+-------------------------------------------------+
 
 
-.. _php-noreturnforgenerator:
-
 .. _no-return-for-generator:
 
 No Return For Generator
@@ -43216,8 +41606,6 @@ Specs
 | Precision    | High                                                                                                       |
 +--------------+------------------------------------------------------------------------------------------------------------+
 
-
-.. _php-nostringwithappend:
 
 .. _no-string-with-append:
 
@@ -43267,8 +41655,6 @@ Specs
 +--------------+------------------------------------------------------------------------------------------------------------+
 
 
-.. _php-nosubstrminusone:
-
 .. _no-substr-minus-one:
 
 No Substr Minus One
@@ -43314,8 +41700,6 @@ Specs
 | Precision    | High                                                                                                                                  |
 +--------------+---------------------------------------------------------------------------------------------------------------------------------------+
 
-
-.. _php-notscalartype:
 
 .. _not-a-scalar-type:
 
@@ -43369,8 +41753,6 @@ Specs
 | Precision    | Very high         |
 +--------------+-------------------+
 
-
-.. _php-oldautoloadusage:
 
 .. _old-style-\_\_autoload():
 
@@ -43434,8 +41816,6 @@ Specs
 +--------------+-----------------------------------------------------------------------------------------------------+
 
 
-.. _php-onlyvariableforreference:
-
 .. _only-container-for-reference:
 
 Only Container For Reference
@@ -43485,8 +41865,6 @@ Specs
 | Precision    | Medium                                 |
 +--------------+----------------------------------------+
 
-
-.. _php-overiddenfunction:
 
 .. _php-overridden-function:
 
@@ -43545,8 +41923,6 @@ Specs
 +--------------+-----------------------+
 
 
-.. _php-parenthesisasparameter:
-
 .. _parenthesis-as-parameter:
 
 Parenthesis As Parameter
@@ -43591,8 +41967,6 @@ Specs
 | Precision    | High                                                                                                       |
 +--------------+------------------------------------------------------------------------------------------------------------+
 
-
-.. _php-password55:
 
 .. _use-password\_hash():
 
@@ -43647,8 +42021,6 @@ Specs
 | Precision    | High                      |
 +--------------+---------------------------+
 
-
-.. _php-pathinforeturns:
 
 .. _pathinfo()-returns-may-vary:
 
@@ -43712,8 +42084,6 @@ Specs
 +--------------+-------------------------------------------+
 
 
-.. _php-pearusage:
-
 .. _pear-usage:
 
 Pear Usage
@@ -43752,8 +42122,6 @@ Specs
 +--------------+---------------+
 
 
-.. _php-php54newfunctions:
-
 .. _new-functions-in-php-5.4:
 
 New Functions In PHP 5.4
@@ -43779,8 +42147,6 @@ Specs
 | Precision    | High                      |
 +--------------+---------------------------+
 
-
-.. _php-php54removedfunctions:
 
 .. _functions-removed-in-php-5.4:
 
@@ -43825,8 +42191,6 @@ Specs
 +--------------+---------------------------+
 
 
-.. _php-php55newfunctions:
-
 .. _new-functions-in-php-5.5:
 
 New Functions In PHP 5.5
@@ -43852,8 +42216,6 @@ Specs
 | Precision    | High                                                 |
 +--------------+------------------------------------------------------+
 
-
-.. _php-php55removedfunctions:
 
 .. _functions-removed-in-php-5.5:
 
@@ -43909,8 +42271,6 @@ Specs
 +--------------+---------------------------+
 
 
-.. _php-php56newfunctions:
-
 .. _new-functions-in-php-5.6:
 
 New Functions In PHP 5.6
@@ -43936,8 +42296,6 @@ Specs
 | Precision    | High                                                                            |
 +--------------+---------------------------------------------------------------------------------+
 
-
-.. _php-php70newclasses:
 
 .. _php-7.0-new-classes:
 
@@ -44000,8 +42358,6 @@ Specs
 +--------------+------------------------------------------------------------------------------------------------------------+
 
 
-.. _php-php70newfunctions:
-
 .. _new-functions-in-php-7.0:
 
 New Functions In PHP 7.0
@@ -44037,8 +42393,6 @@ Specs
 +--------------+------------------------------------------------------------------------------------------------------------+
 
 
-.. _php-php70newinterfaces:
-
 .. _php-7.0-new-interfaces:
 
 PHP 7.0 New Interfaces
@@ -44065,8 +42419,6 @@ Specs
 +--------------+------------------------------------------------------------------------------------------------------------+
 
 
-.. _php-php70removeddirective:
-
 .. _php-7.0-removed-directives:
 
 PHP 7.0 Removed Directives
@@ -44092,8 +42444,6 @@ Specs
 | Precision    | High                                                 |
 +--------------+------------------------------------------------------+
 
-
-.. _php-php70removedfunctions:
 
 .. _php-7.0-removed-functions:
 
@@ -44159,8 +42509,6 @@ Specs
 +--------------+------------------------------------------------------+
 
 
-.. _php-php70scalartypehints:
-
 .. _php-7.0-scalar-typehints:
 
 PHP 7.0 Scalar Typehints
@@ -44207,8 +42555,6 @@ Specs
 | Precision    | High                                                                                                       |
 +--------------+------------------------------------------------------------------------------------------------------------+
 
-
-.. _php-php71microseconds:
 
 .. _php-7.1-microseconds:
 
@@ -44268,8 +42614,6 @@ Specs
 +--------------+---------------------------+
 
 
-.. _php-php71newclasses:
-
 .. _php-7.1-new-class:
 
 Php 7.1 New Class
@@ -44309,8 +42653,6 @@ Specs
 +--------------+---------------------------------------------------------------------------------------------------------------------------------------+
 
 
-.. _php-php71newfunctions:
-
 .. _new-functions-in-php-7.1:
 
 New Functions In PHP 7.1
@@ -44345,8 +42687,6 @@ Specs
 +--------------+---------------------------+
 
 
-.. _php-php71removeddirective:
-
 .. _php-7.1-removed-directives:
 
 PHP 7.1 Removed Directives
@@ -44372,8 +42712,6 @@ Specs
 | Precision    | High                      |
 +--------------+---------------------------+
 
-
-.. _php-php71scalartypehints:
 
 .. _php-7.1-scalar-typehints:
 
@@ -44427,8 +42765,6 @@ Specs
 +--------------+---------------------------------------------------------------------------------------------------------------------------------------+
 
 
-.. _php-php72deprecation:
-
 .. _php-7.2-deprecations:
 
 PHP 7.2 Deprecations
@@ -44473,8 +42809,6 @@ Specs
 | Precision    | High                      |
 +--------------+---------------------------+
 
-
-.. _php-php72newclasses:
 
 .. _php-7.2-new-class:
 
@@ -44524,8 +42858,6 @@ Specs
 +--------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
-.. _php-php72newconstants:
-
 .. _new-constants-in-php-7.2:
 
 New Constants In PHP 7.2
@@ -44573,8 +42905,6 @@ Specs
 +--------------+---------------------------+
 
 
-.. _php-php72newfunctions:
-
 .. _new-functions-in-php-7.2:
 
 New Functions In PHP 7.2
@@ -44615,8 +42945,6 @@ Specs
 | Precision    | High                      |
 +--------------+---------------------------+
 
-
-.. _php-php72objectkeyword:
 
 .. _php-7.2-object-keyword:
 
@@ -44660,8 +42988,6 @@ Specs
 +--------------+---------------------------+
 
 
-.. _php-php72removedfunctions:
-
 .. _php-7.2-removed-functions:
 
 PHP 7.2 Removed Functions
@@ -44697,8 +43023,6 @@ Specs
 | Precision    | High                      |
 +--------------+---------------------------+
 
-
-.. _php-php72scalartypehints:
 
 .. _php-7.2-scalar-typehints:
 
@@ -44743,8 +43067,6 @@ Specs
 | Precision    | High                                                                                                                                                             |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-
-.. _php-php73lastemptyargument:
 
 .. _php-7.3-last-empty-argument:
 
@@ -44797,8 +43119,6 @@ Specs
 +--------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
-.. _php-php73newfunctions:
-
 .. _new-functions-in-php-7.3:
 
 New Functions In PHP 7.3
@@ -44838,8 +43158,6 @@ Specs
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
-.. _php-php73removedfunctions:
-
 .. _php-7.3-removed-functions:
 
 PHP 7.3 Removed Functions
@@ -44871,8 +43189,6 @@ Specs
 | Precision    | High                      |
 +--------------+---------------------------+
 
-
-.. _php-php74deprecation:
 
 .. _php-7.4-constant-deprecation:
 
@@ -44910,8 +43226,6 @@ Specs
 | Precision    | High                                 |
 +--------------+--------------------------------------+
 
-
-.. _php-php74mbstrrpos3rdarg:
 
 .. _mb\_strrpos()-third-argument:
 
@@ -44958,8 +43272,6 @@ Specs
 | Precision    | High                                 |
 +--------------+--------------------------------------+
 
-
-.. _php-php74newclasses:
 
 .. _php-7.4-new-class:
 
@@ -45019,8 +43331,6 @@ Specs
 | Precision    | High                                 |
 +--------------+--------------------------------------+
 
-
-.. _php-php74newconstants:
 
 .. _new-constants-in-php-7.4:
 
@@ -45101,8 +43411,6 @@ Specs
 +--------------+--------------------------------------+
 
 
-.. _php-php74newdirective:
-
 .. _php-74-new-directives:
 
 PHP 74 New Directives
@@ -45141,8 +43449,6 @@ Specs
 +--------------+---------------------------+
 
 
-.. _php-php74newfunctions:
-
 .. _new-functions-in-php-7.4:
 
 New Functions In PHP 7.4
@@ -45175,8 +43481,6 @@ Specs
 | Precision    | High                                 |
 +--------------+--------------------------------------+
 
-
-.. _php-php74removeddirective:
 
 .. _php-7.4-removed-directives:
 
@@ -45215,8 +43519,6 @@ Specs
 | Precision      | High                                                                                       |
 +----------------+--------------------------------------------------------------------------------------------+
 
-
-.. _php-php74removedfunctions:
 
 .. _php-7.4-removed-functions:
 
@@ -45262,8 +43564,6 @@ Specs
 | Precision    | Very high                            |
 +--------------+--------------------------------------+
 
-
-.. _php-php74reservedkeyword:
 
 .. _php-7.4-reserved-keyword:
 
@@ -45326,8 +43626,6 @@ Specs
 +--------------+--------------------------------------+
 
 
-.. _php-php7relaxedkeyword:
-
 .. _php7-relaxed-keyword:
 
 Php7 Relaxed Keyword
@@ -45372,8 +43670,6 @@ Specs
 | Precision    | High                                                                                                                  |
 +--------------+-----------------------------------------------------------------------------------------------------------------------+
 
-
-.. _php-php80namedparametervariadic:
 
 .. _php-80-named-parameter-variadic:
 
@@ -45428,8 +43724,6 @@ Specs
 +--------------+--------------------------------------+
 
 
-.. _php-php80newfunctions:
-
 .. _new-functions-in-php-8.0:
 
 New Functions In PHP 8.0
@@ -45463,8 +43757,6 @@ Specs
 | Precision    | High                                 |
 +--------------+--------------------------------------+
 
-
-.. _php-php80onlytypehints:
 
 .. _php-8.0-only-typehints:
 
@@ -45521,8 +43813,6 @@ Specs
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
-.. _php-php80removedconstant:
-
 .. _php-8.0-removed-constants:
 
 PHP 8.0 Removed Constants
@@ -45560,8 +43850,6 @@ Specs
 | Precision    | High                                 |
 +--------------+--------------------------------------+
 
-
-.. _php-php80removeddirective:
 
 .. _php-8.0-removed-directives:
 
@@ -45601,8 +43889,6 @@ Specs
 | Precision    | High                                                            |
 +--------------+-----------------------------------------------------------------+
 
-
-.. _php-php80removedfunctions:
 
 .. _php-8.0-removed-functions:
 
@@ -45647,8 +43933,6 @@ Specs
 | Precision    | High                                 |
 +--------------+--------------------------------------+
 
-
-.. _php-php80removesresources:
 
 .. _php-resources-turned-into-objects:
 
@@ -45713,8 +43997,6 @@ Specs
 +--------------+--------------------------------------+
 
 
-.. _php-php80uniontypehint:
-
 .. _union-typehint:
 
 Union Typehint
@@ -45771,8 +44053,6 @@ Specs
 | Precision    | High                                                                                                                                             |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------------------+
 
-
-.. _php-php80variablesyntax:
 
 .. _php-8.0-variable-syntax-tweaks:
 
@@ -45831,8 +44111,6 @@ Specs
 +--------------+--------------------------------------+
 
 
-.. _php-phperrormsgusage:
-
 .. _$php\_errormsg-usage:
 
 $php_errormsg Usage
@@ -45879,8 +44157,6 @@ Specs
 | Precision    | High                                 |
 +--------------+--------------------------------------+
 
-
-.. _php-pregmatchallflag:
 
 .. _preg\_match\_all()-flag:
 
@@ -45942,8 +44218,6 @@ Specs
 +--------------+------------------------------------------+
 
 
-.. _php-prints:
-
 .. _displays-text:
 
 Displays Text
@@ -45984,8 +44258,6 @@ Specs
 | Precision    | High          |
 +--------------+---------------+
 
-
-.. _php-rawpostdatausage:
 
 .. _$http\_raw\_post\_data-usage:
 
@@ -46038,8 +44310,6 @@ Specs
 | Precision    | High                                 |
 +--------------+--------------------------------------+
 
-
-.. _php-reflectionexportisdeprecated:
 
 .. _reflection-export()-is-deprecated:
 
@@ -46094,8 +44364,6 @@ Specs
 +--------------+--------------------------------------+
 
 
-.. _php-reservedkeywords7:
-
 .. _reserved-keywords-in-php-7:
 
 Reserved Keywords In PHP 7
@@ -46141,8 +44409,6 @@ Specs
 | Precision    | High                      |
 +--------------+---------------------------+
 
-
-.. _php-reservedmatchkeyword:
 
 .. _reserved-match-keyword:
 
@@ -46204,8 +44470,6 @@ Specs
 +--------------+---------------------------+
 
 
-.. _php-reservednames:
-
 .. _php-keywords-as-names:
 
 PHP Keywords As Names
@@ -46263,8 +44527,6 @@ Specs
 +--------------+---------------------------------------------------------------------------------+
 
 
-.. _php-returntypehintusage:
-
 .. _return-typehint-usage:
 
 Return Typehint Usage
@@ -46305,8 +44567,6 @@ Specs
 | Precision    | High                    |
 +--------------+-------------------------+
 
-
-.. _php-returnwithparenthesis:
 
 .. _return-with-parenthesis:
 
@@ -46364,8 +44624,6 @@ Specs
 +--------------+---------------------------+
 
 
-.. _php-safephpvars:
-
 .. _safe-phpvariables:
 
 Safe Phpvariables
@@ -46415,8 +44673,6 @@ Specs
 | Precision    | High            |
 +--------------+-----------------+
 
-
-.. _php-scalararenotarrays:
 
 .. _scalar-are-not-arrays:
 
@@ -46468,8 +44724,6 @@ Specs
 +--------------+------------------------------------------------------------------------+
 
 
-.. _php-scalartypehintusage:
-
 .. _scalar-typehint-usage:
 
 Scalar Typehint Usage
@@ -46512,8 +44766,6 @@ Specs
 | Precision    | High                    |
 +--------------+-------------------------+
 
-
-.. _php-serializemagic:
 
 .. _serialize-magic-method:
 
@@ -46564,8 +44816,6 @@ Specs
 +--------------+--------------------+
 
 
-.. _php-sessionvariables:
-
 .. _session-variables:
 
 Session Variables
@@ -46607,8 +44857,6 @@ Specs
 | Precision    | High                 |
 +--------------+----------------------+
 
-
-.. _php-setexceptionhandlerphp7:
 
 .. _set\_exception\_handler()-warning:
 
@@ -46654,8 +44902,6 @@ Specs
 | Precision    | High                        |
 +--------------+-----------------------------+
 
-
-.. _php-sethandlers:
 
 .. _php-handlers-usage:
 
@@ -46732,8 +44978,6 @@ Specs
 +--------------+-----------------+
 
 
-.. _php-shellfavorite:
-
 .. _shell-favorite:
 
 Shell Favorite
@@ -46787,8 +45031,6 @@ Specs
 +--------------+--------------------+
 
 
-.. _php-shortopentagrequired:
-
 .. _short-open-tags:
 
 Short Open Tags
@@ -46814,8 +45056,6 @@ Specs
 | Precision    | High                     |
 +--------------+--------------------------+
 
-
-.. _php-shouldpreprocess:
 
 .. _should-preprocess-chr():
 
@@ -46874,8 +45114,6 @@ Specs
 | Examples     | :ref:`case-phpadsnew-php-shouldpreprocess` |
 +--------------+--------------------------------------------+
 
-
-.. _php-shouldusearraycolumn:
 
 .. _should-use-array\_column():
 
@@ -46936,8 +45174,6 @@ Specs
 | Precision    | High                                    |
 +--------------+-----------------------------------------+
 
-
-.. _php-shouldusearrayfilter:
 
 .. _should-use-array\_filter():
 
@@ -47005,8 +45241,6 @@ Specs
 +--------------+----------------------------------------------------------------------------------------------+
 
 
-.. _php-shouldusecoalesce:
-
 .. _should-use-coalesce:
 
 Should Use Coalesce
@@ -47059,8 +45293,6 @@ Specs
 | Examples     | :ref:`case-churchcrm-php-shouldusecoalesce`, :ref:`case-cleverstyle-php-shouldusecoalesce` |
 +--------------+--------------------------------------------------------------------------------------------+
 
-
-.. _php-shouldusefunction:
 
 .. _should-use-function:
 
@@ -47126,8 +45358,6 @@ Specs
 +--------------+-----------------------+
 
 
-.. _php-signaturetrailingcomma:
-
 .. _signature-trailing-comma:
 
 Signature Trailing Comma
@@ -47186,8 +45416,6 @@ Specs
 +--------------+-----------------------------------------------------------------------------------------------------------------------+
 
 
-.. _php-spreadoperatorforarray:
-
 .. _spread-operator-for-array:
 
 Spread Operator For Array
@@ -47236,8 +45464,6 @@ Specs
 | Precision    | High                       |
 +--------------+----------------------------+
 
-
-.. _php-staticclassusage:
 
 .. _class:
 
@@ -47300,8 +45526,6 @@ Specs
 +--------------+------------------------------------------------------+
 
 
-.. _php-strtrarguments:
-
 .. _strtr-arguments:
 
 Strtr Arguments
@@ -47360,8 +45584,6 @@ Specs
 +--------------+---------------------------------------------+
 
 
-.. _php-superglobalusage:
-
 .. _super-global-usage:
 
 Super Global Usage
@@ -47398,8 +45620,6 @@ Specs
 | Precision    | High                 |
 +--------------+----------------------+
 
-
-.. _php-throwusage:
 
 .. _throw:
 
@@ -47443,8 +45663,6 @@ Specs
 | Precision    | High           |
 +--------------+----------------+
 
-
-.. _php-throwwasanexpression:
 
 .. _throw-was-an-expression:
 
@@ -47491,8 +45709,6 @@ Specs
 | Precision    | High                                                                                       |
 +--------------+--------------------------------------------------------------------------------------------+
 
-
-.. _php-toomanynativecalls:
 
 .. _too-many-native-calls:
 
@@ -47547,8 +45763,6 @@ Specs
 +--------------+-----------------------------------------+
 
 
-.. _php-trailingcomma:
-
 .. _trailing-comma-in-calls:
 
 Trailing Comma In Calls
@@ -47600,8 +45814,6 @@ Specs
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
-.. _php-triggererrorusage:
-
 .. _trigger-errors:
 
 Trigger Errors
@@ -47640,8 +45852,6 @@ Specs
 | Precision    | High                  |
 +--------------+-----------------------+
 
-
-.. _php-trycatchusage:
 
 .. _caught-expressions:
 
@@ -47683,8 +45893,6 @@ Specs
 | Precision    | High              |
 +--------------+-------------------+
 
-
-.. _php-trymultiplecatch:
 
 .. _try-with-multiple-catch:
 
@@ -47733,8 +45941,6 @@ Specs
 +--------------+----------------------+
 
 
-.. _php-typedpropertyusage:
-
 .. _typed-property-usage:
 
 Typed Property Usage
@@ -47778,8 +45984,6 @@ Specs
 | Precision    | High                                                                                                                                                                                                                              |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-
-.. _php-unicodeescapepartial:
 
 .. _unicode-escape-partial:
 
@@ -47827,8 +46031,6 @@ Specs
 +--------------+------------------------------------------------------------------------------------------------------------+
 
 
-.. _php-unicodeescapesyntax:
-
 .. _unicode-escape-syntax:
 
 Unicode Escape Syntax
@@ -47869,8 +46071,6 @@ Specs
 | Precision    | High                                                                                                       |
 +--------------+------------------------------------------------------------------------------------------------------------+
 
-
-.. _php-unknownpcre2option:
 
 .. _unknown-pcre2-option:
 
@@ -47914,8 +46114,6 @@ Specs
 | Precision    | High                                      |
 +--------------+-------------------------------------------+
 
-
-.. _php-unpackinginsidearrays:
 
 .. _unpacking-inside-arrays:
 
@@ -47970,8 +46168,6 @@ Specs
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
-.. _php-unsetorcast:
-
 .. _unset()-or-(unset):
 
 Unset() Or (unset)
@@ -48023,8 +46219,6 @@ Specs
 +--------------+--------------------+
 
 
-.. _php-uppercasefunction:
-
 .. _unusual-case-for-php-functions:
 
 Unusual Case For PHP Functions
@@ -48059,8 +46253,6 @@ Specs
 | Precision    | High                  |
 +--------------+-----------------------+
 
-
-.. _php-uppercasekeyword:
 
 .. _non-lowercase-keywords:
 
@@ -48115,8 +46307,6 @@ Specs
 +--------------+----------------------+
 
 
-.. _php-useattributes:
-
 .. _use-php-attributes:
 
 Use PHP Attributes
@@ -48158,8 +46348,6 @@ Specs
 +--------------+-------------------+
 
 
-.. _php-usebrowscap:
-
 .. _use-browscap:
 
 Use Browscap
@@ -48200,8 +46388,6 @@ Specs
 +--------------+-----------------+
 
 
-.. _php-usecli:
-
 .. _use-cli:
 
 Use Cli
@@ -48236,8 +46422,6 @@ Specs
 | Precision    | High          |
 +--------------+---------------+
 
-
-.. _php-usecontravariance:
 
 .. _use-contravariance:
 
@@ -48295,8 +46479,6 @@ Specs
 +--------------+-----------------------+
 
 
-.. _php-usecookies:
-
 .. _use-cookies:
 
 Use Cookies
@@ -48338,8 +46520,6 @@ Specs
 | Precision    | High           |
 +--------------+----------------+
 
-
-.. _php-usecovariance:
 
 .. _use-covariance:
 
@@ -48397,8 +46577,6 @@ Specs
 +--------------+-------------------+
 
 
-.. _php-usedatetimeimmutable:
-
 .. _use-datetimeimmutable-class:
 
 Use DateTimeImmutable Class
@@ -48451,8 +46629,6 @@ Specs
 +--------------+--------------------------+
 
 
-.. _php-usegetdebugtype:
-
 .. _use-get\_debug\_type():
 
 Use get_debug_type()
@@ -48499,8 +46675,6 @@ Specs
 +--------------+---------------------+
 
 
-.. _php-usematch:
-
 .. _uses-php-8-match():
 
 Uses PHP 8 Match()
@@ -48542,8 +46716,6 @@ Specs
 | Precision    | Very high                            |
 +--------------+--------------------------------------+
 
-
-.. _php-usenullabletype:
 
 .. _use-nullable-type:
 
@@ -48588,8 +46760,6 @@ Specs
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
-.. _php-usenullsafeoperator:
-
 .. _use-nullsafe-operator:
 
 Use NullSafe Operator
@@ -48632,8 +46802,6 @@ Specs
 | Precision    | High                    |
 +--------------+-------------------------+
 
-
-.. _php-useobjectapi:
 
 .. _use-php-object-api:
 
@@ -48725,8 +46893,6 @@ Specs
 +--------------+---------------------------------------------------------------------------------------------+
 
 
-.. _php-usepathinfo:
-
 .. _use-pathinfo:
 
 Use Pathinfo
@@ -48780,8 +46946,6 @@ Specs
 | Examples     | :ref:`case-suitecrm-php-usepathinfo`        |
 +--------------+---------------------------------------------+
 
-
-.. _php-usepathinfoargs:
 
 .. _use-pathinfo()-arguments:
 
@@ -48850,8 +47014,6 @@ Specs
 +--------------+---------------------------------------------------------------------------------------+
 
 
-.. _php-usesenv:
-
 .. _uses-environment:
 
 Uses Environment
@@ -48886,8 +47048,6 @@ Specs
 | Precision    | High          |
 +--------------+---------------+
 
-
-.. _php-usesessionstartoptions:
 
 .. _use-session\_start()-options:
 
@@ -48946,8 +47106,6 @@ Specs
 +--------------+--------------------------------------------------+
 
 
-.. _php-usesetcookie:
-
 .. _should-use-setcookie():
 
 Should Use SetCookie()
@@ -48999,8 +47157,6 @@ Specs
 | Precision    | High             |
 +--------------+------------------+
 
-
-.. _php-usestdclass:
 
 .. _avoid-using-stdclass:
 
@@ -49064,8 +47220,6 @@ Specs
 +--------------+-----------------+
 
 
-.. _php-usestrcontains:
-
 .. _use-str\_contains():
 
 Use str_contains()
@@ -49122,8 +47276,6 @@ Specs
 +--------------+--------------------+
 
 
-.. _php-usetrailingusecomma:
-
 .. _use-closure-trailing-comma:
 
 Use Closure Trailing Comma
@@ -49165,8 +47317,6 @@ Specs
 +--------------+-------------------------+
 
 
-.. _php-useweb:
-
 .. _use-web:
 
 Use Web
@@ -49203,8 +47353,6 @@ Specs
 | Precision    | High          |
 +--------------+---------------+
 
-
-.. _php-usortsorting:
 
 .. _usort-sorting-in-php-7.0:
 
@@ -49281,8 +47429,6 @@ Specs
 +--------------+---------------------------+
 
 
-.. _php-wrongattributeconfiguration:
-
 .. _wrong-attribute-configuration:
 
 Wrong Attribute Configuration
@@ -49332,8 +47478,6 @@ Specs
 | Precision    | High                            |
 +--------------+---------------------------------+
 
-
-.. _php-wrongtypefornativefunction:
 
 .. _wrong-type-for-native-php-function:
 
@@ -49386,8 +47530,6 @@ Specs
 +--------------+---------------------------------------------+
 
 
-.. _php-yieldfromusage:
-
 .. _yield-from-usage:
 
 Yield From Usage
@@ -49436,8 +47578,6 @@ Specs
 +--------------+--------------------+
 
 
-.. _php-yieldusage:
-
 .. _yield-usage:
 
 Yield Usage
@@ -49481,8 +47621,6 @@ Specs
 | Precision    | High           |
 +--------------+----------------+
 
-
-.. _portability-fopenmode:
 
 .. _fopen-binary-mode:
 
@@ -49528,8 +47666,6 @@ Specs
 | Precision    | High                  |
 +--------------+-----------------------+
 
-
-.. _portability-globbraceusage:
 
 .. _glob\_brace-usage:
 
@@ -49583,8 +47719,6 @@ Specs
 +--------------+----------------------------+
 
 
-.. _portability-iconvtranslit:
-
 .. _iconv-with-translit:
 
 Iconv With Translit
@@ -49629,8 +47763,6 @@ Specs
 +--------------+---------------------------+
 
 
-.. _portability-linuxonlyfiles:
-
 .. _linux-only-files:
 
 Linux Only Files
@@ -49666,8 +47798,6 @@ Specs
 | Precision    | High                       |
 +--------------+----------------------------+
 
-
-.. _psr-psr11usage:
 
 .. _psr-11-usage:
 
@@ -49714,8 +47844,6 @@ Specs
 | Precision    | High           |
 +--------------+----------------+
 
-
-.. _psr-psr13usage:
 
 .. _psr-13-usage:
 
@@ -49764,8 +47892,6 @@ Specs
 | Precision    | High           |
 +--------------+----------------+
 
-
-.. _psr-psr16usage:
 
 .. _psr-16-usage:
 
@@ -49816,8 +47942,6 @@ Specs
 | Precision    | High           |
 +--------------+----------------+
 
-
-.. _psr-psr3usage:
 
 .. _psr-3-usage:
 
@@ -49874,8 +47998,6 @@ Specs
 +--------------+---------------+
 
 
-.. _psr-psr6usage:
-
 .. _psr-6-usage:
 
 PSR-6 Usage
@@ -49927,8 +48049,6 @@ Specs
 | Precision    | High          |
 +--------------+---------------+
 
-
-.. _psr-psr7usage:
 
 .. _psr-7-usage:
 
@@ -49986,8 +48106,6 @@ Specs
 | Precision    | High          |
 +--------------+---------------+
 
-
-.. _security-anchorregex:
 
 .. _always-anchor-regex:
 
@@ -50060,8 +48178,6 @@ Specs
 +--------------+----------------------+
 
 
-.. _security-avoidthosecrypto:
-
 .. _avoid-those-hash-functions:
 
 Avoid Those Hash Functions
@@ -50119,8 +48235,6 @@ Specs
 +--------------+---------------------------+
 
 
-.. _security-cantdisableclass:
-
 .. _can't-disable-class:
 
 Can't Disable Class
@@ -50158,8 +48272,6 @@ Specs
 | Precision    | High                      |
 +--------------+---------------------------+
 
-
-.. _security-cantdisablefunction:
 
 .. _can't-disable-function:
 
@@ -50202,8 +48314,6 @@ Specs
 | Precision    | High                         |
 +--------------+------------------------------+
 
-
-.. _security-comparehash:
 
 .. _compare-hash:
 
@@ -50278,8 +48388,6 @@ Specs
 +--------------+-----------------------------------------------------------------------------------------------------+
 
 
-.. _security-configureextract:
-
 .. _configure-extract:
 
 Configure Extract
@@ -50342,8 +48450,6 @@ Specs
 | Examples     | :ref:`case-zurmo-security-configureextract`, :ref:`case-dolibarr-security-configureextract` |
 +--------------+---------------------------------------------------------------------------------------------+
 
-
-.. _security-cryptokeylength:
 
 .. _check-crypto-key-length:
 
@@ -50409,8 +48515,6 @@ Specs
 +--------------+--------------------------+
 
 
-.. _security-curloptions:
-
 .. _safe-curl-options:
 
 Safe Curl Options
@@ -50464,8 +48568,6 @@ Specs
 +--------------+-------------------------------------------+
 
 
-.. _security-directinjection:
-
 .. _direct-injection:
 
 Direct Injection
@@ -50517,8 +48619,6 @@ Specs
 | Precision    | High                     |
 +--------------+--------------------------+
 
-
-.. _security-dontechoerror:
 
 .. _don't-echo-error:
 
@@ -50584,8 +48684,6 @@ Specs
 +--------------+------------------------------------------------------------------------------------------------+
 
 
-.. _security-dynamicdl:
-
 .. _dynamic-library-loading:
 
 Dynamic Library Loading
@@ -50638,8 +48736,6 @@ Specs
 | Precision    | High               |
 +--------------+--------------------+
 
-
-.. _security-encodedletters:
 
 .. _encoded-simple-letters:
 
@@ -50699,8 +48795,6 @@ Specs
 +--------------+-------------------------------------------+
 
 
-.. _security-filterinputsource:
-
 .. _filter\_input()-as-a-source:
 
 filter_input() As A Source
@@ -50758,8 +48852,6 @@ Specs
 +--------------+----------------------------+
 
 
-.. _security-gpraliases:
-
 .. _gprc-aliases:
 
 GPRC Aliases
@@ -50785,8 +48877,6 @@ Specs
 | Precision    | High                |
 +--------------+---------------------+
 
-
-.. _security-indirectinjection:
 
 .. _indirect-injection:
 
@@ -50836,8 +48926,6 @@ Specs
 | Precision    | High                       |
 +--------------+----------------------------+
 
-
-.. _security-integerconversion:
 
 .. _integer-conversion:
 
@@ -50905,8 +48993,6 @@ Specs
 +--------------+----------------------------+
 
 
-.. _security-keepfilesrestricted:
-
 .. _keep-files-access-restricted:
 
 Keep Files Access Restricted
@@ -50959,8 +49045,6 @@ Specs
 | Precision    | High                         |
 +--------------+------------------------------+
 
-
-.. _security-minusoneonerror:
 
 .. _minus-one-on-error:
 
@@ -51016,8 +49100,6 @@ Specs
 +--------------+--------------------------+
 
 
-.. _security-mkdirdefault:
-
 .. _mkdir-default:
 
 Mkdir Default
@@ -51071,8 +49153,6 @@ Specs
 +--------------+-------------------------------------------------------------------------------------+
 
 
-.. _security-moveuploadedfile:
-
 .. _move\_uploaded\_file-instead-of-copy:
 
 move_uploaded_file Instead Of copy
@@ -51122,8 +49202,6 @@ Specs
 | Precision    | High                      |
 +--------------+---------------------------+
 
-
-.. _security-noentignore:
 
 .. _no-ent\_ignore:
 
@@ -51177,8 +49255,6 @@ Specs
 | Precision    | High                 |
 +--------------+----------------------+
 
-
-.. _security-nonetforxmlload:
 
 .. _no-net-for-xml-load:
 
@@ -51252,8 +49328,6 @@ Specs
 +--------------+--------------------------+
 
 
-.. _security-nosleep:
-
 .. _avoid-sleep()-usleep():
 
 Avoid sleep()/usleep()
@@ -51311,8 +49385,6 @@ Specs
 +--------------+------------------+
 
 
-.. _security-noweaksslcrypto:
-
 .. _no-weak-ssl-crypto:
 
 No Weak SSL Crypto
@@ -51363,8 +49435,6 @@ Specs
 | Precision    | High                     |
 +--------------+--------------------------+
 
-
-.. _security-parseurlwithoutparameters:
 
 .. _parse\_str()-warning:
 
@@ -51417,8 +49487,6 @@ Specs
 | ClearPHP     | `know-your-variables <https://github.com/dseguy/clearPHP/tree/master/rules/know-your-variables.md>`__ |
 +--------------+-------------------------------------------------------------------------------------------------------+
 
-
-.. _security-registerglobals:
 
 .. _register-globals:
 
@@ -51477,8 +49545,6 @@ Specs
 +--------------+-------------------------------------------------------------------------------------------+
 
 
-.. _security-safehttpheaders:
-
 .. _safe-http-headers:
 
 Safe HTTP Headers
@@ -51528,8 +49594,6 @@ Specs
 +--------------+--------------------------+
 
 
-.. _security-sensitiveargument:
-
 .. _sensitive-argument:
 
 Sensitive Argument
@@ -51564,8 +49628,6 @@ Specs
 | Precision    | High                       |
 +--------------+----------------------------+
 
-
-.. _security-sessionlazywrite:
 
 .. _session-lazy-write:
 
@@ -51620,8 +49682,6 @@ Specs
 | Precision    | High                      |
 +--------------+---------------------------+
 
-
-.. _security-setcookieargs:
 
 .. _set-cookie-safe-arguments:
 
@@ -51687,8 +49747,6 @@ Specs
 | Precision    | High                   |
 +--------------+------------------------+
 
-
-.. _security-shouldusepreparedstatement:
 
 .. _should-use-prepared-statement:
 
@@ -51759,8 +49817,6 @@ Specs
 +--------------+--------------------------------------------------------------+
 
 
-.. _security-shouldusesessionregenerateid:
-
 .. _should-use-session\_regenerateid():
 
 Should Use session_regenerateid()
@@ -51819,8 +49875,6 @@ Specs
 +--------------+---------------------------------------+
 
 
-.. _security-sqlite3requiressinglequotes:
-
 .. _sqlite3-requires-single-quotes:
 
 Sqlite3 Requires Single Quotes
@@ -51873,8 +49927,6 @@ Specs
 +--------------+--------------------------------------+
 
 
-.. _security-superglobalcontagion:
-
 .. _super-globals-contagion:
 
 Super Globals Contagion
@@ -51900,8 +49952,6 @@ Specs
 | Precision    | High                          |
 +--------------+-------------------------------+
 
-
-.. _security-unserializesecondarg:
 
 .. _unserialize-second-arg:
 
@@ -51964,8 +50014,6 @@ Specs
 | Examples     | :ref:`case-piwigo-security-unserializesecondarg`, :ref:`case-livezilla-security-unserializesecondarg` |
 +--------------+-------------------------------------------------------------------------------------------------------+
 
-
-.. _security-uploadfilenameinjection:
 
 .. _upload-filename-injection:
 
@@ -52037,8 +50085,6 @@ Specs
 +--------------+----------------------------------+
 
 
-.. _structures-addzero:
-
 .. _adding-zero:
 
 Adding Zero
@@ -52104,8 +50150,6 @@ Specs
 +--------------+-----------------------------------------------------------------------------------------------+
 
 
-.. _structures-alteringforeachwithoutreference:
-
 .. _altering-foreach-without-reference:
 
 Altering Foreach Without Reference
@@ -52169,8 +50213,6 @@ Specs
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------+
 
 
-.. _structures-alternativeconsistencebyfile:
-
 .. _alternative-syntax-consistence:
 
 Alternative Syntax Consistence
@@ -52215,8 +50257,6 @@ Specs
 | Precision    | High                                    |
 +--------------+-----------------------------------------+
 
-
-.. _structures-alwaysfalse:
 
 .. _comparison-is-always-true:
 
@@ -52275,8 +50315,6 @@ Specs
 +--------------+------------------------+
 
 
-.. _structures-arrayfillwithobjects:
-
 .. _array\_fill()-with-objects:
 
 Array_Fill() With Objects
@@ -52328,8 +50366,6 @@ Specs
 | Precision    | High                            |
 +--------------+---------------------------------+
 
-
-.. _structures-arraymappassesbyvalue:
 
 .. _array\_map()-passes-by-value:
 
@@ -52389,8 +50425,6 @@ Specs
 +--------------+------------------------------------------------------+
 
 
-.. _structures-arraymergeandvariadic:
-
 .. _array\_merge()-and-variadic:
 
 array_merge() And Variadic
@@ -52438,8 +50472,6 @@ Specs
 | Precision    | High                             |
 +--------------+----------------------------------+
 
-
-.. _structures-arraymergearrayarray:
 
 .. _array\_merge-needs-array-of-arrays:
 
@@ -52497,8 +50529,6 @@ Specs
 +--------------+---------------------------------+
 
 
-.. _structures-arraysearchmultiplekeys:
-
 .. _searching-for-multiple-keys:
 
 Searching For Multiple Keys
@@ -52549,8 +50579,6 @@ Specs
 | Precision    | Unknown                            |
 +--------------+------------------------------------+
 
-
-.. _structures-assigneandcompare:
 
 .. _assign-and-compare:
 
@@ -52613,8 +50641,6 @@ Specs
 +--------------+---------------------------------------------+
 
 
-.. _structures-assignedinonebranch:
-
 .. _assigned-in-one-branch:
 
 Assigned In One Branch
@@ -52655,8 +50681,6 @@ Specs
 | Precision    | High                           |
 +--------------+--------------------------------+
 
-
-.. _structures-autounsetforeach:
 
 .. _same-variable-foreach:
 
@@ -52709,8 +50733,6 @@ Specs
 | Precision    | High                                        |
 +--------------+---------------------------------------------+
 
-
-.. _structures-bailoutearly:
 
 .. _bail-out-early:
 
@@ -52813,8 +50835,6 @@ Specs
 +--------------+------------------------------------------------------------------------------------------+
 
 
-.. _structures-basenamesuffix:
-
 .. _use-basename-suffix:
 
 Use Basename Suffix
@@ -52867,8 +50887,6 @@ Specs
 | Examples     | :ref:`case-nextcloud-structures-basenamesuffix`, :ref:`case-dolibarr-structures-basenamesuffix` |
 +--------------+-------------------------------------------------------------------------------------------------+
 
-
-.. _structures-booleanstrictcomparison:
 
 .. _strict-comparison-with-booleans:
 
@@ -52942,8 +50960,6 @@ Specs
 +--------------+------------------------------------------------------------------------------------------------------------+
 
 
-.. _structures-bracketless:
-
 .. _bracketless-blocks:
 
 Bracketless Blocks
@@ -52988,8 +51004,6 @@ Specs
 | Precision    | High                   |
 +--------------+------------------------+
 
-
-.. _structures-break0:
 
 .. _break-with-0:
 
@@ -53041,8 +51055,6 @@ Specs
 +--------------+---------------------------+
 
 
-.. _structures-breaknoninteger:
-
 .. _break-with-non-integer:
 
 Break With Non Integer
@@ -53088,8 +51100,6 @@ Specs
 | Precision    | High                       |
 +--------------+----------------------------+
 
-
-.. _structures-breakoutsideloop:
 
 .. _break-outside-loop:
 
@@ -53138,8 +51148,6 @@ Specs
 | Precision    | High                                      |
 +--------------+-------------------------------------------+
 
-
-.. _structures-buriedassignation:
 
 .. _buried-assignation:
 
@@ -53196,8 +51204,6 @@ Specs
 +--------------+-------------------------------------------------------------------------------------------------+
 
 
-.. _structures-calltimepassbyreference:
-
 .. _calltime-pass-by-reference:
 
 Calltime Pass By Reference
@@ -53249,8 +51255,6 @@ Specs
 | Precision    | High                               |
 +--------------+------------------------------------+
 
-
-.. _structures-cancountnoncountable:
 
 .. _can't-count-non-countable:
 
@@ -53304,8 +51308,6 @@ Specs
 +--------------+---------------------------------+
 
 
-.. _structures-castingternary:
-
 .. _casting-ternary:
 
 Casting Ternary
@@ -53354,8 +51356,6 @@ Specs
 | Precision    | High                                        |
 +--------------+---------------------------------------------+
 
-
-.. _structures-casttoboolean:
 
 .. _cast-to-boolean:
 
@@ -53415,8 +51415,6 @@ Specs
 | Examples     | :ref:`case-mediawiki-structures-casttoboolean`, :ref:`case-dolibarr-structures-casttoboolean` |
 +--------------+-----------------------------------------------------------------------------------------------+
 
-
-.. _structures-catchshadowsvariable:
 
 .. _catch-overwrite-variable:
 
@@ -53478,8 +51476,6 @@ Specs
 | Examples     | :ref:`case-phpipam-structures-catchshadowsvariable`, :ref:`case-suitecrm-structures-catchshadowsvariable` |
 +--------------+-----------------------------------------------------------------------------------------------------------+
 
-
-.. _structures-checkalltypes:
 
 .. _check-all-types:
 
@@ -53553,8 +51549,6 @@ Specs
 +--------------+------------------------------------------------------------------------------------------------+
 
 
-.. _structures-checkjson:
-
 .. _check-json:
 
 Check JSON
@@ -53614,8 +51608,6 @@ Specs
 +--------------+----------------------------------------------+
 
 
-.. _structures-coalesceandconcat:
-
 .. _coalesce-and-concat:
 
 Coalesce And Concat
@@ -53665,8 +51657,6 @@ Specs
 | Precision    | High                                        |
 +--------------+---------------------------------------------+
 
-
-.. _structures-commonalternatives:
 
 .. _common-alternatives:
 
@@ -53733,8 +51723,6 @@ Specs
 +--------------+---------------------------------------------------------------------------------------------------------+
 
 
-.. _structures-comparedbutnotassignedstrings:
-
 .. _compared-but-not-assigned-strings:
 
 Compared But Not Assigned Strings
@@ -53773,8 +51761,6 @@ Specs
 | Precision    | High                                     |
 +--------------+------------------------------------------+
 
-
-.. _structures-comparedcomparison:
 
 .. _compared-comparison:
 
@@ -53816,8 +51802,6 @@ Specs
 | Precision    | High                          |
 +--------------+-------------------------------+
 
-
-.. _structures-comparisonfavorite:
 
 .. _strict-or-relaxed-comparison:
 
@@ -53865,8 +51849,6 @@ Specs
 | Precision    | High                          |
 +--------------+-------------------------------+
 
-
-.. _structures-complexexpression:
 
 .. _too-complex-expression:
 
@@ -53940,8 +51922,6 @@ Specs
 +--------------+------------------------------+
 
 
-.. _structures-concatempty:
-
 .. _concat-empty-string:
 
 Concat Empty String
@@ -54000,8 +51980,6 @@ Specs
 +--------------+------------------------+
 
 
-.. _structures-concatenationinterpolationfavorite:
-
 .. _concatenation-interpolation-consistence:
 
 Concatenation Interpolation Consistence
@@ -54054,8 +52032,6 @@ Specs
 +--------------+-----------------------------------------------+
 
 
-.. _structures-conditionalstructures:
-
 .. _conditional-structures:
 
 Conditional Structures
@@ -54099,8 +52075,6 @@ Specs
 | Precision    | High                             |
 +--------------+----------------------------------+
 
-
-.. _structures-constantcomparisonconsistance:
 
 .. _constant-comparison:
 
@@ -54154,8 +52128,6 @@ Specs
 | Precision    | High                                     |
 +--------------+------------------------------------------+
 
-
-.. _structures-constantconditions:
 
 .. _constant-conditions:
 
@@ -54227,8 +52199,6 @@ Specs
 +--------------+-------------------------------+
 
 
-.. _structures-constantscalarexpression:
-
 .. _constant-scalar-expressions:
 
 Constant Scalar Expressions
@@ -54276,8 +52246,6 @@ Specs
 | Precision    | High                                                                                       |
 +--------------+--------------------------------------------------------------------------------------------+
 
-
-.. _structures-constdefinefavorite:
 
 .. _const-or-define:
 
@@ -54333,8 +52301,6 @@ Specs
 +--------------+--------------------------------+
 
 
-.. _structures-continueisforloop:
-
 .. _continue-is-for-loop:
 
 Continue Is For Loop
@@ -54388,8 +52354,6 @@ Specs
 | Examples     | :ref:`case-xoops-structures-continueisforloop`                                                                                                                                                                                         |
 +--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-
-.. _structures-couldbeelse:
 
 .. _could-be-else:
 
@@ -54452,8 +52416,6 @@ Specs
 +--------------+-----------------------------------------------------------------------------------------+
 
 
-.. _structures-couldbestatic:
-
 .. _could-be-static:
 
 Could Be Static
@@ -54490,8 +52452,6 @@ Specs
 | Examples     | :ref:`case-dolphin-structures-couldbestatic`, :ref:`case-contao-structures-couldbestatic` |
 +--------------+-------------------------------------------------------------------------------------------+
 
-
-.. _structures-couldusearrayfillkeys:
 
 .. _could-use-array\_fill\_keys:
 
@@ -54557,8 +52517,6 @@ Specs
 +--------------+--------------------------------------------------------------------------------------------------------------+
 
 
-.. _structures-couldusearrayunique:
-
 .. _could-use-array\_unique:
 
 Could Use array_unique
@@ -54611,8 +52569,6 @@ Specs
 | Examples     | :ref:`case-dolibarr-structures-couldusearrayunique`, :ref:`case-openemr-structures-couldusearrayunique` |
 +--------------+---------------------------------------------------------------------------------------------------------+
 
-
-.. _structures-couldusecompact:
 
 .. _could-use-compact:
 
@@ -54671,8 +52627,6 @@ Specs
 +--------------+--------------------------------------------------+
 
 
-.. _structures-couldusedir:
-
 .. _could-use-\_\_dir\_\_:
 
 Could Use __DIR__
@@ -54729,8 +52683,6 @@ Specs
 | Examples     | :ref:`case-woocommerce-structures-couldusedir`, :ref:`case-piwigo-structures-couldusedir` |
 +--------------+-------------------------------------------------------------------------------------------+
 
-
-.. _structures-couldusematch:
 
 .. _could-use-match:
 
@@ -54794,8 +52746,6 @@ Specs
 | Precision    | Unknown                  |
 +--------------+--------------------------+
 
-
-.. _structures-coulduseshortassignation:
 
 .. _could-use-short-assignation:
 
@@ -54885,8 +52835,6 @@ Specs
 +--------------+-------------------------------------------------------------------------------------------------------------------+
 
 
-.. _structures-couldusestrrepeat:
-
 .. _could-use-str\_repeat():
 
 Could Use str_repeat()
@@ -54944,8 +52892,6 @@ Specs
 +--------------+-----------------------------------------------------------+
 
 
-.. _structures-cryptwithoutsalt:
-
 .. _crypt()-without-salt:
 
 crypt() Without Salt
@@ -54998,8 +52944,6 @@ Specs
 +--------------+-----------------------------+
 
 
-.. _structures-curlversionnow:
-
 .. _curl\_version()-has-no-argument:
 
 curl_version() Has No Argument
@@ -55045,8 +52989,6 @@ Specs
 | Precision    | High                                 |
 +--------------+--------------------------------------+
 
-
-.. _structures-danglingarrayreferences:
 
 .. _dangling-array-references:
 
@@ -55118,8 +53060,6 @@ Specs
 +--------------+---------------------------------------------------------------------------------------------------------------+
 
 
-.. _structures-declarestaticonce:
-
 .. _declare-static-once:
 
 Declare Static Once
@@ -55176,8 +53116,6 @@ Specs
 +--------------+------------------------------+
 
 
-.. _structures-dereferencingas:
-
 .. _dereferencing-string-and-arrays:
 
 Dereferencing String And Arrays
@@ -55216,8 +53154,6 @@ Specs
 | Precision    | High                                                            |
 +--------------+-----------------------------------------------------------------+
 
-
-.. _structures-dieexitconsistance:
 
 .. _die-exit-consistence:
 
@@ -55284,8 +53220,6 @@ Specs
 +--------------+-------------------------------+
 
 
-.. _structures-differencepreference:
-
 .. _difference-consistence:
 
 Difference Consistence
@@ -55334,8 +53268,6 @@ Specs
 | Precision    | High                            |
 +--------------+---------------------------------+
 
-
-.. _structures-directlyusefile:
 
 .. _directly-use-file:
 
@@ -55398,8 +53330,6 @@ Specs
 +--------------+----------------------------+
 
 
-.. _structures-dirthenslash:
-
 .. _\_\_dir\_\_-then-slash:
 
 __DIR__ Then Slash
@@ -55457,8 +53387,6 @@ Specs
 +--------------+---------------------------------------------+
 
 
-.. _structures-dontbetoomanual:
-
 .. _don't-be-too-manual:
 
 Don't Be Too Manual
@@ -55504,8 +53432,6 @@ Specs
 | Precision    | High                       |
 +--------------+----------------------------+
 
-
-.. _structures-dontchangeblindkey:
 
 .. _dont-change-the-blind-var:
 
@@ -55569,8 +53495,6 @@ Specs
 +--------------+-------------------------------+
 
 
-.. _structures-dontcomparetypedboolean:
-
 .. _dont-compare-typed-boolean:
 
 Dont Compare Typed Boolean
@@ -55624,8 +53548,6 @@ Specs
 | Precision    | High                               |
 +--------------+------------------------------------+
 
-
-.. _structures-dontlooponyield:
 
 .. _don't-loop-on-yield:
 
@@ -55691,8 +53613,6 @@ Specs
 +--------------+--------------------------------------------------------------------------------------------------+
 
 
-.. _structures-dontmixplusplus:
-
 .. _dont-mix-++:
 
 Dont Mix ++
@@ -55748,8 +53668,6 @@ Specs
 +--------------+---------------------------------------------------------------------------------------------+
 
 
-.. _structures-dontreadandwriteinoneexpression:
-
 .. _don't-read-and-write-in-one-expression:
 
 Don't Read And Write In One Expression
@@ -55799,8 +53717,6 @@ Specs
 +--------------+---------------------------------------------------------------------------------+
 
 
-.. _structures-doubleassignation:
-
 .. _double-assignation:
 
 Double Assignation
@@ -55839,8 +53755,6 @@ Specs
 | Precision    | High                         |
 +--------------+------------------------------+
 
-
-.. _structures-doubleinstruction:
 
 .. _double-instructions:
 
@@ -55890,8 +53804,6 @@ Specs
 +--------------+------------------------------+
 
 
-.. _structures-doubleobjectassignation:
-
 .. _double-object-assignation:
 
 Double Object Assignation
@@ -55939,8 +53851,6 @@ Specs
 | Precision    | High                               |
 +--------------+------------------------------------+
 
-
-.. _structures-dropelseafterreturn:
 
 .. _drop-else-after-return:
 
@@ -56006,8 +53916,6 @@ Specs
 +--------------+-----------------------------------------------------------------+
 
 
-.. _structures-duplicatecalls:
-
 .. _duplicate-calls:
 
 Duplicate Calls
@@ -56052,8 +53960,6 @@ Specs
 | ClearPHP     | `no-duplicated-code <https://github.com/dseguy/clearPHP/tree/master/rules/no-duplicated-code.md>`__ |
 +--------------+-----------------------------------------------------------------------------------------------------+
 
-
-.. _structures-dynamiccalls:
 
 .. _dynamic-calls:
 
@@ -56108,8 +54014,6 @@ Specs
 +--------------+-------------------------+
 
 
-.. _structures-dynamiccode:
-
 .. _dynamic-code:
 
 Dynamic Code
@@ -56153,8 +54057,6 @@ Specs
 | Precision    | High                   |
 +--------------+------------------------+
 
-
-.. _structures-echoprintconsistance:
 
 .. _echo-or-print:
 
@@ -56208,8 +54110,6 @@ Specs
 | Precision    | High                            |
 +--------------+---------------------------------+
 
-
-.. _structures-echowithconcat:
 
 .. _echo-with-concat:
 
@@ -56266,8 +54166,6 @@ Specs
 | Examples     | :ref:`case-phpdocumentor-structures-echowithconcat`, :ref:`case-teampass-structures-echowithconcat`                                   |
 +--------------+---------------------------------------------------------------------------------------------------------------------------------------+
 
-
-.. _structures-elseifelseif:
 
 .. _else-if-versus-elseif:
 
@@ -56331,8 +54229,6 @@ Specs
 +--------------+-------------------------------------------------------------------------------------------------+
 
 
-.. _structures-elseusage:
-
 .. _else-usage:
 
 Else Usage
@@ -56393,8 +54289,6 @@ Specs
 | Precision    | High                 |
 +--------------+----------------------+
 
-
-.. _structures-emptyblocks:
 
 .. _empty-blocks:
 
@@ -56460,8 +54354,6 @@ Specs
 +--------------+--------------------------------------------------------------------------------------------+
 
 
-.. _structures-emptylines:
-
 .. _empty-instructions:
 
 Empty Instructions
@@ -56509,8 +54401,6 @@ Specs
 | Examples     | :ref:`case-zurmo-structures-emptylines`, :ref:`case-thinkphp-structures-emptylines` |
 +--------------+-------------------------------------------------------------------------------------+
 
-
-.. _structures-emptytrycatch:
 
 .. _empty-try-catch:
 
@@ -56567,8 +54457,6 @@ Specs
 +--------------+---------------------------------------------------------------------------------------------+
 
 
-.. _structures-emptywithexpression:
-
 .. _empty-with-expression:
 
 Empty With Expression
@@ -56623,8 +54511,6 @@ Specs
 +--------------+-----------------------------------------------------+
 
 
-.. _structures-errormessages:
-
 .. _error-messages:
 
 Error Messages
@@ -56666,8 +54552,6 @@ Specs
 | Precision    | High                     |
 +--------------+--------------------------+
 
-
-.. _structures-errorreportingwithinteger:
 
 .. _error\_reporting()-with-integers:
 
@@ -56721,8 +54605,6 @@ Specs
 | Examples     | :ref:`case-sugarcrm-structures-errorreportingwithinteger` |
 +--------------+-----------------------------------------------------------+
 
-
-.. _structures-evalusage:
 
 .. _eval()-usage:
 
@@ -56790,8 +54672,6 @@ Specs
 +--------------+---------------------------------------------------------------------------------+
 
 
-.. _structures-evalwithouttry:
-
 .. _eval()-without-try:
 
 eval() Without Try
@@ -56847,8 +54727,6 @@ Specs
 | Examples     | :ref:`case-fuelcms-structures-evalwithouttry`, :ref:`case-expressionengine-structures-evalwithouttry` |
 +--------------+-------------------------------------------------------------------------------------------------------+
 
-
-.. _structures-exitusage:
 
 .. _exit()-usage:
 
@@ -56908,8 +54786,6 @@ Specs
 +--------------+----------------------------------------------------------------------------------+
 
 
-.. _structures-failingsubstrcomparison:
-
 .. _failed-substr-comparison:
 
 Failed Substr Comparison
@@ -56965,8 +54841,6 @@ Specs
 | Examples     | :ref:`case-zurmo-structures-failingsubstrcomparison`, :ref:`case-mediawiki-structures-failingsubstrcomparison` |
 +--------------+----------------------------------------------------------------------------------------------------------------+
 
-
-.. _structures-fallthrough:
 
 .. _switch-fallthrough:
 
@@ -57028,8 +54902,6 @@ Specs
 +--------------+------------------------+
 
 
-.. _structures-fileuploadusage:
-
 .. _file-uploads:
 
 File Uploads
@@ -57081,8 +54953,6 @@ Specs
 +--------------+----------------------------+
 
 
-.. _structures-fileusage:
-
 .. _file-usage:
 
 File Usage
@@ -57120,8 +54990,6 @@ Specs
 | Precision    | High                 |
 +--------------+----------------------+
 
-
-.. _structures-foreachneedreferencedsource:
 
 .. _foreach-needs-reference-array:
 
@@ -57171,8 +55039,6 @@ Specs
 | Precision    | High                                   |
 +--------------+----------------------------------------+
 
-
-.. _structures-foreachreferenceisnotmodified:
 
 .. _foreach-reference-is-not-modified:
 
@@ -57230,8 +55096,6 @@ Specs
 | Examples     | :ref:`case-dolibarr-structures-foreachreferenceisnotmodified`, :ref:`case-vanilla-structures-foreachreferenceisnotmodified` |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------+
 
-
-.. _structures-foreachsourcevalue:
 
 .. _overwritten-source-and-value:
 
@@ -57303,8 +55167,6 @@ Specs
 +--------------+-----------------------------------------------------------------------------------------------------------------+
 
 
-.. _structures-foreachwithlist:
-
 .. _foreach-with-list():
 
 Foreach With list()
@@ -57363,8 +55225,6 @@ Specs
 +--------------+------------------------------------------------------+
 
 
-.. _structures-forgottenwhitespace:
-
 .. _forgotten-whitespace:
 
 Forgotten Whitespace
@@ -57413,8 +55273,6 @@ Specs
 | Precision    | High                                        |
 +--------------+---------------------------------------------+
 
-
-.. _structures-forwithfunctioncall:
 
 .. _for-using-functioncall:
 
@@ -57482,8 +55340,6 @@ Specs
 +--------------+---------------------------------------------------------------------------------------------------------------+
 
 
-.. _structures-functionpresubscripting:
-
 .. _function-subscripting,-old-style:
 
 Function Subscripting, Old Style
@@ -57540,8 +55396,6 @@ Specs
 +--------------+---------------------------------------------------------+
 
 
-.. _structures-functionsubscripting:
-
 .. _function-subscripting:
 
 Function Subscripting
@@ -57595,8 +55449,6 @@ Specs
 +--------------+--------------------------------------+
 
 
-.. _structures-globalinglobal:
-
 .. _global-in-global:
 
 Global In Global
@@ -57637,8 +55489,6 @@ Specs
 | Precision    | High                      |
 +--------------+---------------------------+
 
-
-.. _structures-globaloutsideloop:
 
 .. _global-inside-loop:
 
@@ -57691,8 +55541,6 @@ Specs
 +--------------+------------------------------+
 
 
-.. _structures-globalusage:
-
 .. _global-usage:
 
 Global Usage
@@ -57739,8 +55587,6 @@ Specs
 +--------------+-----------------------------------------------------------------------------------+
 
 
-.. _structures-gotokeydirectly:
-
 .. _find-key-directly:
 
 Find Key Directly
@@ -57785,8 +55631,6 @@ Specs
 | Precision    | High                       |
 +--------------+----------------------------+
 
-
-.. _structures-gtorltfavorite:
 
 .. _comparisons-orientation:
 
@@ -57842,8 +55686,6 @@ Specs
 | Precision    | High                      |
 +--------------+---------------------------+
 
-
-.. _structures-heredocdelimiterfavorite:
 
 .. _heredoc-delimiter:
 
@@ -57929,8 +55771,6 @@ Specs
 +--------------+-------------------------------------+
 
 
-.. _structures-htmlentitiescall:
-
 .. _htmlentities-calls:
 
 Htmlentities Calls
@@ -57985,8 +55825,6 @@ Specs
 +--------------+---------------------------------------------+
 
 
-.. _structures-identicalconditions:
-
 .. _identical-conditions:
 
 Identical Conditions
@@ -58040,8 +55878,6 @@ Specs
 +--------------+-----------------------------------------------------------------------------------------------------------+
 
 
-.. _structures-identicalconsecutive:
-
 .. _identical-consecutive-expression:
 
 Identical Consecutive Expression
@@ -58088,8 +55924,6 @@ Specs
 | Precision    | High                            |
 +--------------+---------------------------------+
 
-
-.. _structures-identicalonbothsides:
 
 .. _identical-on-both-sides:
 
@@ -58157,8 +55991,6 @@ Specs
 +--------------+--------------------------------------------------------------------------------------------------------------+
 
 
-.. _structures-iffectation:
-
 .. _iffectations:
 
 Iffectations
@@ -58212,8 +56044,6 @@ Specs
 | Precision    | Very high              |
 +--------------+------------------------+
 
-
-.. _structures-ifwithsameconditions:
 
 .. _if-with-same-conditions:
 
@@ -58292,8 +56122,6 @@ Specs
 +--------------+-------------------------------------------------------------------------------------------------------------------+
 
 
-.. _structures-implicitglobal:
-
 .. _implicit-global:
 
 Implicit Global
@@ -58343,8 +56171,6 @@ Specs
 | Precision    | High                      |
 +--------------+---------------------------+
 
-
-.. _structures-impliedif:
 
 .. _implied-if:
 
@@ -58398,8 +56224,6 @@ Specs
 | ClearPHP     | `no-implied-if <https://github.com/dseguy/clearPHP/tree/master/rules/no-implied-if.md>`__ |
 +--------------+-------------------------------------------------------------------------------------------+
 
-
-.. _structures-implodeargsorder:
 
 .. _implode()-arguments-order:
 
@@ -58455,8 +56279,6 @@ Specs
 +--------------+---------------------------------------------+
 
 
-.. _structures-includeusage:
-
 .. _inclusions:
 
 Inclusions
@@ -58493,8 +56315,6 @@ Specs
 | Precision    | High                    |
 +--------------+-------------------------+
 
-
-.. _structures-inconsistentconcatenation:
 
 .. _inconsistent-concatenation:
 
@@ -58551,8 +56371,6 @@ Specs
 | Examples     | :ref:`case-fuelcms-structures-inconsistentconcatenation` |
 +--------------+----------------------------------------------------------+
 
-
-.. _structures-inconsistentelseif:
 
 .. _inconsistent-elseif:
 
@@ -58616,8 +56434,6 @@ Specs
 | Precision    | High                          |
 +--------------+-------------------------------+
 
-
-.. _structures-indicesareintorstring:
 
 .. _indices-are-int-or-string:
 
@@ -58732,8 +56548,6 @@ Specs
 +--------------+-----------------------------------------------------------------------------------------------------------+
 
 
-.. _structures-infiniterecursion:
-
 .. _infinite-recursion:
 
 Infinite Recursion
@@ -58791,8 +56605,6 @@ Specs
 +--------------+------------------------------+
 
 
-.. _structures-invalidpackformat:
-
 .. _invalid-pack-format:
 
 Invalid Pack Format
@@ -58844,8 +56656,6 @@ Specs
 | Precision    | High                                        |
 +--------------+---------------------------------------------+
 
-
-.. _structures-invalidregex:
 
 .. _invalid-regex:
 
@@ -58901,8 +56711,6 @@ Specs
 +--------------+----------------------------------------------+
 
 
-.. _structures-issetwithconstant:
-
 .. _isset()-with-constant:
 
 isset() With Constant
@@ -58939,8 +56747,6 @@ Specs
 | Precision    | High                                                                                                       |
 +--------------+------------------------------------------------------------------------------------------------------------+
 
-
-.. _structures-iszero:
 
 .. _is-actually-zero:
 
@@ -59000,8 +56806,6 @@ Specs
 +--------------+--------------------------------------------------------------------------------+
 
 
-.. _structures-jsonwithoption:
-
 .. _use-json\_decode()-options:
 
 Use json_decode() Options
@@ -59060,8 +56864,6 @@ Specs
 +--------------+---------------------------+
 
 
-.. _structures-listomissions:
-
 .. _list()-may-omit-variables:
 
 list() May Omit Variables
@@ -59115,8 +56917,6 @@ Specs
 | Examples     | :ref:`case-openconf-structures-listomissions`, :ref:`case-fuelcms-structures-listomissions` |
 +--------------+---------------------------------------------------------------------------------------------+
 
-
-.. _structures-logicalmistakes:
 
 .. _logical-mistakes:
 
@@ -59176,8 +56976,6 @@ Specs
 +--------------+-----------------------------------------------------------------------------------------------------+
 
 
-.. _structures-loneblock:
-
 .. _lone-blocks:
 
 Lone Blocks
@@ -59228,8 +57026,6 @@ Specs
 | Examples     | :ref:`case-thinkphp-structures-loneblock`, :ref:`case-tine20-structures-loneblock` |
 +--------------+------------------------------------------------------------------------------------+
 
-
-.. _structures-longarguments:
 
 .. _long-arguments:
 
@@ -59292,8 +57088,6 @@ Specs
 +--------------+-----------------------------------------------------------------------------------------------+
 
 
-.. _structures-longblock:
-
 .. _too-long-a-block:
 
 Too Long A Block
@@ -59347,8 +57141,6 @@ Specs
 +--------------+----------------------+
 
 
-.. _structures-mailusage:
-
 .. _mail-usage:
 
 Mail Usage
@@ -59392,8 +57184,6 @@ Specs
 | Precision    | High                 |
 +--------------+----------------------+
 
-
-.. _structures-maxlevelofidentation:
 
 .. _max-level-of-nesting:
 
@@ -59495,8 +57285,6 @@ Specs
 +--------------+---------------------------------+
 
 
-.. _structures-mbstringthirdarg:
-
 .. _mbstring-third-arg:
 
 Mbstring Third Arg
@@ -59560,8 +57348,6 @@ Specs
 +--------------+---------------------------------------------+
 
 
-.. _structures-mbstringunknownencoding:
-
 .. _mbstring-unknown-encoding:
 
 Mbstring Unknown Encoding
@@ -59613,8 +57399,6 @@ Specs
 +--------------+---------------------------------------------+
 
 
-.. _structures-mcryptcreateivwithoutoption:
-
 .. _mcrypt\_create\_iv()-with-default-values:
 
 mcrypt_create_iv() With Default Values
@@ -59659,8 +57443,6 @@ Specs
 | Precision    | High                                   |
 +--------------+----------------------------------------+
 
-
-.. _structures-mergeifthen:
 
 .. _merge-if-then:
 
@@ -59714,8 +57496,6 @@ Specs
 | Precision    | High                                        |
 +--------------+---------------------------------------------+
 
-
-.. _structures-mismatchedternary:
 
 .. _mismatched-ternary-alternatives:
 
@@ -59772,8 +57552,6 @@ Specs
 | Examples     | :ref:`case-phpadsnew-structures-mismatchedternary`, :ref:`case-openemr-structures-mismatchedternary` |
 +--------------+------------------------------------------------------------------------------------------------------+
 
-
-.. _structures-missingcases:
 
 .. _missing-cases-in-switch:
 
@@ -59842,8 +57620,6 @@ Specs
 +--------------+----------------------------------------------+
 
 
-.. _structures-missingnew:
-
 .. _maybe-missing-new:
 
 Maybe Missing New
@@ -59906,8 +57682,6 @@ Specs
 +--------------+-----------------------+
 
 
-.. _structures-missingparenthesis:
-
 .. _missing-parenthesis:
 
 Missing Parenthesis
@@ -59955,8 +57729,6 @@ Specs
 | Precision    | High                                        |
 +--------------+---------------------------------------------+
 
-
-.. _structures-mixedconcatinterpolation:
 
 .. _mixed-concat-and-interpolation:
 
@@ -60018,8 +57790,6 @@ Specs
 | Examples     | :ref:`case-suitecrm-structures-mixedconcatinterpolation`, :ref:`case-edusoho-structures-mixedconcatinterpolation` |
 +--------------+-------------------------------------------------------------------------------------------------------------------+
 
-
-.. _structures-modernempty:
 
 .. _modernize-empty-with-expression:
 
@@ -60083,8 +57853,6 @@ Specs
 +--------------+------------------------+
 
 
-.. _structures-multiplecatch:
-
 .. _multiple-catch:
 
 Multiple Catch
@@ -60125,8 +57893,6 @@ Specs
 | Precision    | High                     |
 +--------------+--------------------------+
 
-
-.. _structures-multipledefinedcase:
 
 .. _multiples-identical-case:
 
@@ -60191,8 +57957,6 @@ Specs
 | Examples     | :ref:`case-sugarcrm-structures-multipledefinedcase`, :ref:`case-expressionengine-structures-multipledefinedcase` |
 +--------------+------------------------------------------------------------------------------------------------------------------+
 
-
-.. _structures-multipletypevariable:
 
 .. _multiple-type-variable:
 
@@ -60259,8 +58023,6 @@ Specs
 +--------------+--------------------------------------------------------------------------------------------------------+
 
 
-.. _structures-multipleunset:
-
 .. _multiple-unset():
 
 Multiple Unset()
@@ -60310,8 +58072,6 @@ Specs
 | Precision    | High                                      |
 +--------------+-------------------------------------------+
 
-
-.. _structures-multiplybyone:
 
 .. _multiply-by-one:
 
@@ -60370,8 +58130,6 @@ Specs
 | Examples     | :ref:`case-sugarcrm-structures-multiplybyone`, :ref:`case-edusoho-structures-multiplybyone`   |
 +--------------+-----------------------------------------------------------------------------------------------+
 
-
-.. _structures-namedregex:
 
 .. _named-regex:
 
@@ -60432,8 +58190,6 @@ Specs
 +--------------+-------------------------------------------------------------------------------------+
 
 
-.. _structures-negativepow:
-
 .. _negative-power:
 
 Negative Power
@@ -60482,8 +58238,6 @@ Specs
 | Precision    | High                                        |
 +--------------+---------------------------------------------+
 
-
-.. _structures-nestedifthen:
 
 .. _nested-ifthen:
 
@@ -60540,8 +58294,6 @@ Specs
 +--------------+----------------------------------------------------------------------------------------------+
 
 
-.. _structures-nestedloops:
-
 .. _nested-loops:
 
 Nested Loops
@@ -60586,8 +58338,6 @@ Specs
 | Precision    | High                   |
 +--------------+------------------------+
 
-
-.. _structures-nestedternary:
 
 .. _nested-ternary:
 
@@ -60684,8 +58434,6 @@ Specs
 +--------------+---------------------------------------------------------------------------------------------------+
 
 
-.. _structures-nevernegative:
-
 .. _always-positive-comparison:
 
 Always Positive Comparison
@@ -60735,8 +58483,6 @@ Specs
 +--------------+----------------------------------------------+
 
 
-.. _structures-newlinestyle:
-
 .. _new-line-style:
 
 New Line Style
@@ -60779,8 +58525,6 @@ Specs
 | Precision    | High                    |
 +--------------+-------------------------+
 
-
-.. _structures-nextmonthtrap:
 
 .. _next-month-trap:
 
@@ -60840,8 +58584,6 @@ Specs
 | Examples     | :ref:`case-contao-structures-nextmonthtrap`, :ref:`case-edusoho-structures-nextmonthtrap` |
 +--------------+-------------------------------------------------------------------------------------------+
 
-
-.. _structures-noappendonsource:
 
 .. _no-append-on-source:
 
@@ -60910,8 +58652,6 @@ Specs
 +--------------+-----------------------------+
 
 
-.. _structures-noarrayunique:
-
 .. _avoid-array\_unique():
 
 Avoid array_unique()
@@ -60969,8 +58709,6 @@ Specs
 | Precision    | High                     |
 +--------------+--------------------------+
 
-
-.. _structures-noassignationinfunction:
 
 .. _avoid-large-array-assignation:
 
@@ -61070,8 +58808,6 @@ Specs
 +--------------+------------------------------------+
 
 
-.. _structures-nochangeincomingvariables:
-
 .. _don't-change-incomings:
 
 Don't Change Incomings
@@ -61112,8 +58848,6 @@ Specs
 | Precision    | High                                 |
 +--------------+--------------------------------------+
 
-
-.. _structures-nochoice:
 
 .. _no-choice:
 
@@ -61170,8 +58904,6 @@ Specs
 +--------------+------------------------------------------------------------------------------------+
 
 
-.. _structures-nodirectaccess:
-
 .. _no-direct-access:
 
 No Direct Access
@@ -61208,8 +58940,6 @@ Specs
 | Precision    | High                      |
 +--------------+---------------------------+
 
-
-.. _structures-nodirectusage:
 
 .. _no-direct-usage:
 
@@ -61260,8 +58990,6 @@ Specs
 | Examples     | :ref:`case-edusoho-structures-nodirectusage`, :ref:`case-xoops-structures-nodirectusage` |
 +--------------+------------------------------------------------------------------------------------------+
 
-
-.. _structures-noemptyregex:
 
 .. _no-empty-regex:
 
@@ -61317,8 +59045,6 @@ Specs
 +--------------+----------------------------------------------+
 
 
-.. _structures-nogetclassnull:
-
 .. _no-get\_class()-with-null:
 
 No get_class() With Null
@@ -61363,8 +59089,6 @@ Specs
 | Precision    | High                                                                                                                                                                                                        |
 +--------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-
-.. _structures-nohardcodedhash:
 
 .. _no-hardcoded-hash:
 
@@ -61418,8 +59142,6 @@ Specs
 | Examples     | :ref:`case-shopware-structures-nohardcodedhash`, :ref:`case-sugarcrm-structures-nohardcodedhash` |
 +--------------+--------------------------------------------------------------------------------------------------+
 
-
-.. _structures-nohardcodedip:
 
 .. _no-hardcoded-ip:
 
@@ -61480,8 +59202,6 @@ Specs
 | Examples     | :ref:`case-openemr-structures-nohardcodedip`, :ref:`case-nextcloud-structures-nohardcodedip` |
 +--------------+----------------------------------------------------------------------------------------------+
 
-
-.. _structures-nohardcodedpath:
 
 .. _no-hardcoded-path:
 
@@ -61549,8 +59269,6 @@ Specs
 +--------------+---------------------------------------------------------------------------------------------------+
 
 
-.. _structures-nohardcodedport:
-
 .. _no-hardcoded-port:
 
 No Hardcoded Port
@@ -61599,8 +59317,6 @@ Specs
 | Examples     | :ref:`case-wordpress-structures-nohardcodedport` |
 +--------------+--------------------------------------------------+
 
-
-.. _structures-noissetwithempty:
 
 .. _no-isset()-with-empty():
 
@@ -61660,8 +59376,6 @@ Specs
 +--------------+-----------------------------------------------+
 
 
-.. _structures-nonbreakablespaceinnames:
-
 .. _non-breakable-space-in-names:
 
 Non Breakable Space In Names
@@ -61702,8 +59416,6 @@ Specs
 | Precision    | High                                |
 +--------------+-------------------------------------+
 
-
-.. _structures-noneedforelse:
 
 .. _no-need-for-else:
 
@@ -61781,8 +59493,6 @@ Specs
 +--------------+--------------------------------------------------------------------------------------------+
 
 
-.. _structures-noneedfortriple:
-
 .. _no-need-for-triple-equal:
 
 No Need For Triple Equal
@@ -61833,8 +59543,6 @@ Specs
 +--------------+----------------------------+
 
 
-.. _structures-noneedgetclass:
-
 .. _no-need-for-get\_class():
 
 No Need For get_class()
@@ -61883,8 +59591,6 @@ Specs
 | Precision    | High                      |
 +--------------+---------------------------+
 
-
-.. _structures-noparenthesisforlanguageconstruct:
 
 .. _no-parenthesis-for-language-construct:
 
@@ -61938,8 +59644,6 @@ Specs
 +--------------+---------------------------------------------------------------------------------------------------------------------------------------------+
 
 
-.. _structures-noreferenceonleft:
-
 .. _no-reference-on-left-side:
 
 No Reference On Left Side
@@ -61984,8 +59688,6 @@ Specs
 | Precision    | High                                        |
 +--------------+---------------------------------------------+
 
-
-.. _structures-noreturninfinally:
 
 .. _no-return-or-throw-in-finally:
 
@@ -62064,8 +59766,6 @@ Specs
 +--------------+------------------------------+
 
 
-.. _structures-noscream:
-
 .. _@-operator:
 
 @ Operator
@@ -62121,8 +59821,6 @@ Specs
 | Examples     | :ref:`case-phinx-structures-noscream`, :ref:`case-phpipam-structures-noscream`        |
 +--------------+---------------------------------------------------------------------------------------+
 
-
-.. _structures-nosubstrone:
 
 .. _avoid-substr()-one:
 
@@ -62185,8 +59883,6 @@ Specs
 +--------------+-------------------------------------------------------------------------------------------------------------------------------+
 
 
-.. _structures-notequal:
-
 .. _not-equal-is-not-!==:
 
 Not Equal Is Not !==
@@ -62246,8 +59942,6 @@ Specs
 +--------------+---------------------------------------------+
 
 
-.. _structures-notnot:
-
 .. _not-not:
 
 Not Not
@@ -62301,8 +59995,6 @@ Specs
 | Examples     | :ref:`case-cleverstyle-structures-notnot`, :ref:`case-tine20-structures-notnot`               |
 +--------------+-----------------------------------------------------------------------------------------------+
 
-
-.. _structures-notornot:
 
 .. _not-or-tilde:
 
@@ -62362,8 +60054,6 @@ Specs
 +--------------+---------------------+
 
 
-.. _structures-novariableisacondition:
-
 .. _variable-is-not-a-condition:
 
 Variable Is Not A Condition
@@ -62417,8 +60107,6 @@ Specs
 | Precision    | High                              |
 +--------------+-----------------------------------+
 
-
-.. _structures-objectreferences:
 
 .. _objects-don't-need-references:
 
@@ -62490,8 +60178,6 @@ Specs
 +--------------+-----------------------------------------------------------------------------------------------------------------+
 
 
-.. _structures-onceusage:
-
 .. _include\_once()-usage:
 
 include_once() Usage
@@ -62541,8 +60227,6 @@ Specs
 | Examples     | :ref:`case-xoops-structures-onceusage`, :ref:`case-tikiwiki-structures-onceusage` |
 +--------------+-----------------------------------------------------------------------------------+
 
-
-.. _structures-onedotorobjectoperatorperline:
 
 .. _one-dot-or-object-operator-per-line:
 
@@ -62619,8 +60303,6 @@ Specs
 +--------------+------------------------------------------+
 
 
-.. _structures-oneexpressionbracketsconsistency:
-
 .. _one-expression-brackets-consistency:
 
 One Expression Brackets Consistency
@@ -62665,8 +60347,6 @@ Specs
 | Precision    | High                                        |
 +--------------+---------------------------------------------+
 
-
-.. _structures-oneifissufficient:
 
 .. _one-if-is-sufficient:
 
@@ -62733,8 +60413,6 @@ Specs
 +--------------+---------------------------------------------------+
 
 
-.. _structures-onelevelofindentation:
-
 .. _more-than-one-level-of-indentation:
 
 More Than One Level Of Indentation
@@ -62787,8 +60465,6 @@ Specs
 | Precision    | High                             |
 +--------------+----------------------------------+
 
-
-.. _structures-onelinetwoinstructions:
 
 .. _several-instructions-on-the-same-line:
 
@@ -62850,8 +60526,6 @@ Specs
 +--------------+------------------------------------------------------------------------------------------------------------+
 
 
-.. _structures-onlyvariablereturnedbyreference:
-
 .. _only-variable-returned-by-reference:
 
 Only Variable Returned By Reference
@@ -62898,8 +60572,6 @@ Specs
 | Precision    | High                                       |
 +--------------+--------------------------------------------+
 
-
-.. _structures-opensslrandompseudobytesecondarg:
 
 .. _openssl\_random\_pseudo\_byte()-second-argument:
 
@@ -62955,8 +60627,6 @@ Specs
 +--------------+---------------------------------------------+
 
 
-.. _structures-ordie:
-
 .. _or-die:
 
 Or Die
@@ -63009,8 +60679,6 @@ Specs
 +--------------+-------------------------------------------------------------------------------------------+
 
 
-.. _structures-php7dirname:
-
 .. _php7-dirname:
 
 PHP7 Dirname
@@ -63060,8 +60728,6 @@ Specs
 | Examples     | :ref:`case-openconf-structures-php7dirname`, :ref:`case-mediawiki-structures-php7dirname`                                                             |
 +--------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-
-.. _structures-phpinfousage:
 
 .. _phpinfo:
 
@@ -63117,8 +60783,6 @@ Specs
 +--------------+---------------------------------------------+
 
 
-.. _structures-plusegalone:
-
 .. _no-plus-one:
 
 No Plus One
@@ -63170,8 +60834,6 @@ Specs
 | Precision    | High                   |
 +--------------+------------------------+
 
-
-.. _structures-possibleincrement:
 
 .. _possible-increment:
 
@@ -63225,8 +60887,6 @@ Specs
 +--------------+----------------------------------------------------------------------------------------------------+
 
 
-.. _structures-possibleinfiniteloop:
-
 .. _possible-infinite-loop:
 
 Possible Infinite Loop
@@ -63272,8 +60932,6 @@ Specs
 | Precision    | High                            |
 +--------------+---------------------------------+
 
-
-.. _structures-pregoptione:
 
 .. _preg\_replace-with-option-e:
 
@@ -63332,8 +60990,6 @@ Specs
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
 
 
-.. _structures-printanddie:
-
 .. _print-and-die:
 
 Print And Die
@@ -63379,8 +61035,6 @@ Specs
 | Precision    | High                                        |
 +--------------+---------------------------------------------+
 
-
-.. _structures-printfarguments:
 
 .. _printf-number-of-arguments:
 
@@ -63443,8 +61097,6 @@ Specs
 +--------------+------------------------------------------------+
 
 
-.. _structures-printwithoutparenthesis:
-
 .. _avoid-parenthesis:
 
 Avoid Parenthesis
@@ -63489,8 +61141,6 @@ Specs
 | Precision    | High                                        |
 +--------------+---------------------------------------------+
 
-
-.. _structures-propertyvariableconfusion:
 
 .. _property-variable-confusion:
 
@@ -63543,8 +61193,6 @@ Specs
 | Examples     | :ref:`case-phpipam-structures-propertyvariableconfusion` |
 +--------------+----------------------------------------------------------+
 
-
-.. _structures-queriesinloop:
 
 .. _queries-in-loops:
 
@@ -63621,8 +61269,6 @@ Specs
 +--------------+---------------------------------------------------------------------------------------------+
 
 
-.. _structures-randomwithouttry:
-
 .. _random-without-try:
 
 Random Without Try
@@ -63676,8 +61322,6 @@ Specs
 | Precision    | High                        |
 +--------------+-----------------------------+
 
-
-.. _structures-regexdelimiter:
 
 .. _regex-delimiter:
 
@@ -63737,8 +61381,6 @@ Specs
 +--------------+---------------------------+
 
 
-.. _structures-repeatedprint:
-
 .. _repeated-print():
 
 Repeated print()
@@ -63793,8 +61435,6 @@ Specs
 | Examples     | :ref:`case-edusoho-structures-repeatedprint`, :ref:`case-humo-gen-structures-repeatedprint`       |
 +--------------+---------------------------------------------------------------------------------------------------+
 
-
-.. _structures-repeatedregex:
 
 .. _repeated-regex:
 
@@ -63855,8 +61495,6 @@ Specs
 +--------------+---------------------------------------------------------------------------------------------+
 
 
-.. _structures-resourcesusage:
-
 .. _resources-usage:
 
 Resources Usage
@@ -63894,8 +61532,6 @@ Specs
 +--------------+---------------------------+
 
 
-.. _structures-resultmaybemissing:
-
 .. _results-may-be-missing:
 
 Results May Be Missing
@@ -63929,8 +61565,6 @@ Specs
 | Precision    | High                                        |
 +--------------+---------------------------------------------+
 
-
-.. _structures-returntruefalse:
 
 .. _return-true-false:
 
@@ -64009,8 +61643,6 @@ Specs
 +--------------+-----------------------------------------------------------------------------------------------+
 
 
-.. _structures-returnvoid:
-
 .. _return-void-:
 
 Return void 
@@ -64057,8 +61689,6 @@ Specs
 | Precision    | High                  |
 +--------------+-----------------------+
 
-
-.. _structures-reusevariable:
 
 .. _reuse-variable:
 
@@ -64110,8 +61740,6 @@ Specs
 | Precision    | Medium                   |
 +--------------+--------------------------+
 
-
-.. _structures-sameconditions:
 
 .. _same-conditions-in-condition:
 
@@ -64186,8 +61814,6 @@ Specs
 +--------------+---------------------------------------------------------------------------------------------+
 
 
-.. _structures-sequenceinfor:
-
 .. _sequences-in-for:
 
 Sequences In For
@@ -64227,8 +61853,6 @@ Specs
 | Precision    | High                     |
 +--------------+--------------------------+
 
-
-.. _structures-setaside:
 
 .. _set-aside-code:
 
@@ -64312,8 +61936,6 @@ Specs
 +--------------+---------------------+
 
 
-.. _structures-setlocaleneedsconstants:
-
 .. _setlocale()-uses-constants:
 
 Setlocale() Uses Constants
@@ -64367,8 +61989,6 @@ Specs
 +--------------+------------------------------------+
 
 
-.. _structures-sgvariablesconfusion:
-
 .. _static-global-variables-confusion:
 
 Static Global Variables Confusion
@@ -64421,8 +62041,6 @@ Specs
 +--------------+---------------------------------+
 
 
-.. _structures-shellusage:
-
 .. _shell-usage:
 
 Shell Usage
@@ -64464,8 +62082,6 @@ Specs
 +--------------+-----------------------+
 
 
-.. _structures-shorttags:
-
 .. _using-short-tags:
 
 Using Short Tags
@@ -64497,8 +62113,6 @@ Specs
 | ClearPHP     | `no-short-tags <https://github.com/dseguy/clearPHP/tree/master/rules/no-short-tags.md>`__ |
 +--------------+-------------------------------------------------------------------------------------------+
 
-
-.. _structures-shouldchainexception:
 
 .. _should-chain-exception:
 
@@ -64552,8 +62166,6 @@ Specs
 | Examples     | :ref:`case-magento-structures-shouldchainexception`, :ref:`case-tine20-structures-shouldchainexception` |
 +--------------+---------------------------------------------------------------------------------------------------------+
 
-
-.. _structures-shouldmaketernary:
 
 .. _should-make-ternary:
 
@@ -64614,8 +62226,6 @@ Specs
 +--------------+----------------------------------------------------+
 
 
-.. _structures-shouldpreprocess:
-
 .. _preprocessable:
 
 Preprocessable
@@ -64669,8 +62279,6 @@ Specs
 | Examples     | :ref:`case-phpadsnew-structures-shouldpreprocess` |
 +--------------+---------------------------------------------------+
 
-
-.. _structures-shoulduseexplodeargs:
 
 .. _should-use-explode-args:
 
@@ -64727,8 +62335,6 @@ Specs
 | Precision    | High                                        |
 +--------------+---------------------------------------------+
 
-
-.. _structures-shoulduseforeach:
 
 .. _should-use-foreach:
 
@@ -64795,8 +62401,6 @@ Specs
 | Examples     | :ref:`case-expressionengine-structures-shoulduseforeach`, :ref:`case-woocommerce-structures-shoulduseforeach` |
 +--------------+---------------------------------------------------------------------------------------------------------------+
 
-
-.. _structures-shouldusemath:
 
 .. _should-use-math:
 
@@ -64866,8 +62470,6 @@ Specs
 +--------------+----------------------------------------------+
 
 
-.. _structures-shoulduseoperator:
-
 .. _should-use-operator:
 
 Should Use Operator
@@ -64922,8 +62524,6 @@ Specs
 +--------------+-----------------------------------------------------------------------------------------------------+
 
 
-.. _structures-simplepreg:
-
 .. _simplify-regex:
 
 Simplify Regex
@@ -64974,8 +62574,6 @@ Specs
 | Examples     | :ref:`case-zurmo-structures-simplepreg`, :ref:`case-openconf-structures-simplepreg` |
 +--------------+-------------------------------------------------------------------------------------+
 
-
-.. _structures-staticloop:
 
 .. _static-loop:
 
@@ -65042,8 +62640,6 @@ Specs
 +--------------+-----------------------+
 
 
-.. _structures-striptagsskipsclosedtag:
-
 .. _strip\_tags-skips-closed-tag:
 
 strip_tags Skips Closed Tag
@@ -65091,8 +62687,6 @@ Specs
 | Precision    | High                                        |
 +--------------+---------------------------------------------+
 
-
-.. _structures-strposcompare:
 
 .. _strpos()-like-comparison:
 
@@ -65196,8 +62790,6 @@ Specs
 +--------------+-----------------------------------------------------------------------------------------------------+
 
 
-.. _structures-substrlastarg:
-
 .. _drop-substr-last-arg:
 
 Drop Substr Last Arg
@@ -65249,8 +62841,6 @@ Specs
 | Examples     | :ref:`case-suitecrm-structures-substrlastarg`, :ref:`case-tine20-structures-substrlastarg` |
 +--------------+--------------------------------------------------------------------------------------------+
 
-
-.. _structures-substrtotrim:
 
 .. _substr-to-trim:
 
@@ -65311,8 +62901,6 @@ Specs
 +--------------+-------------------------+
 
 
-.. _structures-suspiciouscomparison:
-
 .. _suspicious-comparison:
 
 Suspicious Comparison
@@ -65370,8 +62958,6 @@ Specs
 | Examples     | :ref:`case-phpipam-structures-suspiciouscomparison`, :ref:`case-expressionengine-structures-suspiciouscomparison` |
 +--------------+-------------------------------------------------------------------------------------------------------------------+
 
-
-.. _structures-switchtoswitch:
 
 .. _switch-to-switch:
 
@@ -65458,8 +63044,6 @@ Specs
 +--------------+-------------------------------------------------------------------------------------------+
 
 
-.. _structures-switchwithmultipledefault:
-
 .. _switch-with-too-many-default:
 
 Switch With Too Many Default
@@ -65514,8 +63098,6 @@ Specs
 | Precision    | High                                                                                                       |
 +--------------+------------------------------------------------------------------------------------------------------------+
 
-
-.. _structures-switchwithoutdefault:
 
 .. _switch-without-default:
 
@@ -65598,8 +63180,6 @@ Specs
 +--------------+-------------------------------------------------------------------------------------------------------------------+
 
 
-.. _structures-ternaryinconcat:
-
 .. _ternary-in-concat:
 
 Ternary In Concat
@@ -65654,8 +63234,6 @@ Specs
 | Examples     | :ref:`case-teampass-structures-ternaryinconcat` |
 +--------------+-------------------------------------------------+
 
-
-.. _structures-testthencast:
 
 .. _test-then-cast:
 
@@ -65713,8 +63291,6 @@ Specs
 +--------------+-------------------------------------------------------------------------------------------+
 
 
-.. _structures-throwsandassign:
-
 .. _throws-an-assignement:
 
 Throws An Assignement
@@ -65763,8 +63339,6 @@ Specs
 | Precision    | High                                        |
 +--------------+---------------------------------------------+
 
-
-.. _structures-timestampdifference:
 
 .. _timestamp-difference:
 
@@ -65823,8 +63397,6 @@ Specs
 | Examples     | :ref:`case-zurmo-structures-timestampdifference`, :ref:`case-shopware-structures-timestampdifference` |
 +--------------+-------------------------------------------------------------------------------------------------------+
 
-
-.. _structures-tostringthrowsexception:
 
 .. _\_\_tostring()-throws-exception:
 
@@ -65892,8 +63464,6 @@ Specs
 +--------------+------------------------------------+
 
 
-.. _structures-tryfinally:
-
 .. _try-with-finally:
 
 Try With Finally
@@ -65937,8 +63507,6 @@ Specs
 | Precision    | Very high             |
 +--------------+-----------------------+
 
-
-.. _structures-uncheckedresources:
 
 .. _unchecked-resources:
 
@@ -66007,8 +63575,6 @@ Specs
 +--------------+-------------------------------------------------------------------------------------------------------------+
 
 
-.. _structures-unconditionloopbreak:
-
 .. _unconditional-break-in-loop:
 
 Unconditional Break In Loop
@@ -66075,8 +63641,6 @@ Specs
 +--------------+--------------------------------------------------------------------------------------------------------------+
 
 
-.. _structures-unknownpregoption:
-
 .. _unkown-regex-options:
 
 Unkown Regex Options
@@ -66127,8 +63691,6 @@ Specs
 | Precision    | High                         |
 +--------------+------------------------------+
 
-
-.. _structures-unpreprocessed:
 
 .. _unpreprocessed-values:
 
@@ -66199,8 +63761,6 @@ Specs
 | Examples     | :ref:`case-zurmo-structures-unpreprocessed`, :ref:`case-piwigo-structures-unpreprocessed`         |
 +--------------+---------------------------------------------------------------------------------------------------+
 
-
-.. _structures-unreachablecode:
 
 .. _unreachable-code:
 
@@ -66279,8 +63839,6 @@ Specs
 +--------------+-----------------------------------------------------------------------------------------+
 
 
-.. _structures-unsetinforeach:
-
 .. _unset-in-foreach:
 
 Unset In Foreach
@@ -66344,8 +63902,6 @@ Specs
 +--------------+----------------------------------------------+
 
 
-.. _structures-unsupportedtypeswithoperators:
-
 .. _unsupported-types-with-operators:
 
 Unsupported Types With Operators
@@ -66403,8 +63959,6 @@ Specs
 +--------------+------------------------------------------------------+
 
 
-.. _structures-unusedglobal:
-
 .. _unused-global:
 
 Unused Global
@@ -66451,8 +64005,6 @@ Specs
 | Examples     | :ref:`case-dolphin-structures-unusedglobal` |
 +--------------+---------------------------------------------+
 
-
-.. _structures-unusedlabel:
 
 .. _unused-label:
 
@@ -66510,8 +64062,6 @@ Specs
 | Precision    | High                         |
 +--------------+------------------------------+
 
-
-.. _structures-usearrayfunctions:
 
 .. _use-array-functions:
 
@@ -66573,8 +64123,6 @@ Specs
 +--------------+------------------------------+
 
 
-.. _structures-usecasevalue:
-
 .. _use-case-value:
 
 Use Case Value
@@ -66629,8 +64177,6 @@ Specs
 +--------------+-------------------------+
 
 
-.. _structures-useconstant:
-
 .. _use-constant:
 
 Use Constant
@@ -66683,8 +64229,6 @@ Specs
 | Precision    | High                                                               |
 +--------------+--------------------------------------------------------------------+
 
-
-.. _structures-usecountrecursive:
 
 .. _use-count-recursive:
 
@@ -66741,8 +64285,6 @@ Specs
 +--------------+---------------------------------------------------------------------------------------------------------+
 
 
-.. _structures-usedebug:
-
 .. _use-debug:
 
 Use Debug
@@ -66791,8 +64333,6 @@ Specs
 | Precision    | High                |
 +--------------+---------------------+
 
-
-.. _structures-useinstanceof:
 
 .. _avoid-get\_class():
 
@@ -66845,8 +64385,6 @@ Specs
 | Precision    | High                                        |
 +--------------+---------------------------------------------+
 
-
-.. _structures-uselessbrackets:
 
 .. _useless-brackets:
 
@@ -66904,8 +64442,6 @@ Specs
 +--------------+-------------------------------------------------------------------------------------------------+
 
 
-.. _structures-uselesscasting:
-
 .. _useless-type-casting:
 
 Useless Type Casting
@@ -66957,8 +64493,6 @@ Specs
 | Examples     | :ref:`case-fuelcms-structures-uselesscasting`, :ref:`case-thinkphp-structures-uselesscasting` |
 +--------------+-----------------------------------------------------------------------------------------------+
 
-
-.. _structures-uselesscheck:
 
 .. _useless-check:
 
@@ -67021,8 +64555,6 @@ Specs
 +--------------+----------------------------------------------------------------------------------------+
 
 
-.. _structures-uselessglobal:
-
 .. _useless-global:
 
 Useless Global
@@ -67076,8 +64608,6 @@ Specs
 | Examples     | :ref:`case-zencart-structures-uselessglobal`, :ref:`case-humo-gen-structures-uselessglobal` |
 +--------------+---------------------------------------------------------------------------------------------+
 
-
-.. _structures-uselessinstruction:
 
 .. _useless-instructions:
 
@@ -67166,8 +64696,6 @@ Specs
 +--------------+-------------------------------------------------------------------------------------------------------------+
 
 
-.. _structures-uselessparenthesis:
-
 .. _useless-parenthesis:
 
 Useless Parenthesis
@@ -67232,8 +64760,6 @@ Specs
 +--------------+---------------------------------------------------------------------------------------------------------+
 
 
-.. _structures-uselessswitch:
-
 .. _useless-switch:
 
 Useless Switch
@@ -67287,8 +64813,6 @@ Specs
 | Examples     | :ref:`case-phpdocumentor-structures-uselessswitch`, :ref:`case-dolphin-structures-uselessswitch` |
 +--------------+--------------------------------------------------------------------------------------------------+
 
-
-.. _structures-uselessunset:
 
 .. _useless-unset:
 
@@ -67361,8 +64885,6 @@ Specs
 +--------------+-------------------------------------------------------------------------------------------------+
 
 
-.. _structures-uselistwithforeach:
-
 .. _use-list-with-foreach:
 
 Use List With Foreach
@@ -67425,8 +64947,6 @@ Specs
 | Examples     | :ref:`case-mediawiki-structures-uselistwithforeach` |
 +--------------+-----------------------------------------------------+
 
-
-.. _structures-usepositivecondition:
 
 .. _use-positive-condition:
 
@@ -67498,8 +65018,6 @@ Specs
 +--------------+----------------------------------------------------------------------------------------------------------------+
 
 
-.. _structures-usesystemtmp:
-
 .. _use-system-tmp:
 
 Use System Tmp
@@ -67551,8 +65069,6 @@ Specs
 | Precision    | High                                        |
 +--------------+---------------------------------------------+
 
-
-.. _structures-useurlqueryfunctions:
 
 .. _use-url-query-functions:
 
@@ -67615,8 +65131,6 @@ Specs
 +--------------+---------------------------------+
 
 
-.. _structures-vardumpusage:
-
 .. _var\_dump()...-usage:
 
 var_dump()... Usage
@@ -67672,8 +65186,6 @@ Specs
 +--------------+-------------------------------------------------------------------------------------------+
 
 
-.. _structures-variableglobal:
-
 .. _variable-global:
 
 Variable Global
@@ -67714,8 +65226,6 @@ Specs
 | Precision    | High                                                                                                       |
 +--------------+------------------------------------------------------------------------------------------------------------+
 
-
-.. _structures-variablemaybenonglobal:
 
 .. _variable-may-be-non-global:
 
@@ -67779,8 +65289,6 @@ Specs
 +--------------+-----------------------------------+
 
 
-.. _structures-whilelisteach:
-
 .. _while(list()-=-each()):
 
 While(List() = Each())
@@ -67834,8 +65342,6 @@ Specs
 +--------------+--------------------------------------------------------------------------------------------+
 
 
-.. _structures-wrongrange:
-
 .. _wrong-range-check:
 
 Wrong Range Check
@@ -67883,8 +65389,6 @@ Specs
 | Examples     | :ref:`case-dolibarr-structures-wrongrange`, :ref:`case-wordpress-structures-wrongrange` |
 +--------------+-----------------------------------------------------------------------------------------+
 
-
-.. _structures-yodacomparison:
 
 .. _yoda-comparison:
 
@@ -67934,8 +65438,6 @@ Specs
 | Precision    | High                      |
 +--------------+---------------------------+
 
-
-.. _traits-alreadyparentstrait:
 
 .. _already-parents-trait:
 
@@ -67995,8 +65497,6 @@ Specs
 | Precision    | High                       |
 +--------------+----------------------------+
 
-
-.. _traits-couldusetrait:
 
 .. _could-use-trait:
 
@@ -68062,8 +65562,6 @@ Specs
 | Precision    | High                 |
 +--------------+----------------------+
 
-
-.. _traits-dependanttrait:
 
 .. _dependant-trait:
 
@@ -68135,8 +65633,6 @@ Specs
 +--------------+-------------------------------------------+
 
 
-.. _traits-emptytrait:
-
 .. _empty-traits:
 
 Empty Traits
@@ -68188,8 +65684,6 @@ Specs
 +--------------+-------------------+
 
 
-.. _traits-isexttrait:
-
 .. _is-extension-trait:
 
 Is Extension Trait
@@ -68215,8 +65709,6 @@ Specs
 | Precision    | High              |
 +--------------+-------------------+
 
-
-.. _traits-locallyusedproperty:
 
 .. _locally-used-property-in-trait:
 
@@ -68263,8 +65755,6 @@ Specs
 | Precision    | High                       |
 +--------------+----------------------------+
 
-
-.. _traits-methodcollisiontraits:
 
 .. _method-collision-traits:
 
@@ -68325,8 +65815,6 @@ Specs
 +--------------+----------------------------------------+
 
 
-.. _traits-multipleusage:
-
 .. _multiple-usage-of-same-trait:
 
 Multiple Usage Of Same Trait
@@ -68377,8 +65865,6 @@ Specs
 +--------------+--------------------------------------------+
 
 
-.. _traits-php:
-
 .. _redefined-php-traits:
 
 Redefined PHP Traits
@@ -68404,8 +65890,6 @@ Specs
 | Precision    | High          |
 +--------------+---------------+
 
-
-.. _traits-selfusingtrait:
 
 .. _self-using-trait:
 
@@ -68463,8 +65947,6 @@ Specs
 +--------------+--------------------------------------------------+
 
 
-.. _traits-traitmethod:
-
 .. _trait-methods:
 
 Trait Methods
@@ -68507,8 +65989,6 @@ Specs
 +--------------+--------------------+
 
 
-.. _traits-traitnames:
-
 .. _trait-names:
 
 Trait Names
@@ -68546,8 +66026,6 @@ Specs
 | Precision    | High              |
 +--------------+-------------------+
 
-
-.. _traits-traitnotfound:
 
 .. _trait-not-found:
 
@@ -68602,8 +66080,6 @@ Specs
 +--------------+----------------------------------------+
 
 
-.. _traits-traitusage:
-
 .. _traits-usage:
 
 Traits Usage
@@ -68651,8 +66127,6 @@ Specs
 | Precision    | High              |
 +--------------+-------------------+
 
-
-.. _traits-undefinedinsteadof:
 
 .. _undefined-insteadof:
 
@@ -68716,8 +66190,6 @@ Specs
 +--------------+---------------------------------------------------------------------+
 
 
-.. _traits-undefinedtrait:
-
 .. _undefined-trait:
 
 Undefined Trait
@@ -68777,8 +66249,6 @@ Specs
 | Precision    | High                                                                |
 +--------------+---------------------------------------------------------------------+
 
-
-.. _traits-unusedclasstrait:
 
 .. _unused-trait-in-class:
 
@@ -68849,8 +66319,6 @@ Specs
 +--------------+-------------------------+
 
 
-.. _traits-unusedtrait:
-
 .. _unused-traits:
 
 Unused Traits
@@ -68897,8 +66365,6 @@ Specs
 +--------------+--------------------+
 
 
-.. _traits-usedtrait:
-
 .. _used-trait:
 
 Used Trait
@@ -68940,8 +66406,6 @@ Specs
 | Precision    | High             |
 +--------------+------------------+
 
-
-.. _traits-uselessalias:
 
 .. _useless-alias:
 
@@ -69009,8 +66473,6 @@ Specs
 +--------------+---------------------------------------------------------------------+
 
 
-.. _type-arrayindex:
-
 .. _type-array-index:
 
 Type Array Index
@@ -69052,8 +66514,6 @@ Specs
 +--------------+-----------------+
 
 
-.. _type-binary:
-
 .. _binary-glossary:
 
 Binary Glossary
@@ -69088,8 +66548,6 @@ Specs
 | Precision    | High                                 |
 +--------------+--------------------------------------+
 
-
-.. _type-charstring:
 
 .. _all-strings:
 
@@ -69129,8 +66587,6 @@ Specs
 +--------------+-----------------+
 
 
-.. _type-continents:
-
 .. _continents:
 
 Continents
@@ -69156,8 +66612,6 @@ Specs
 | Precision    | High            |
 +--------------+-----------------+
 
-
-.. _type-duplicateliteral:
 
 .. _duplicate-literal:
 
@@ -69213,8 +66667,6 @@ Specs
 +--------------+-----------------------+
 
 
-.. _type-email:
-
 .. _email-addresses:
 
 Email Addresses
@@ -69250,8 +66702,6 @@ Specs
 | Precision    | High          |
 +--------------+---------------+
 
-
-.. _type-gpcindex:
 
 .. _incoming-variable-index-inventory:
 
@@ -69294,8 +66744,6 @@ Specs
 +--------------+---------------+
 
 
-.. _type-heredoc:
-
 .. _heredoc-delimiter-glossary:
 
 Heredoc Delimiter Glossary
@@ -69337,8 +66785,6 @@ Specs
 +--------------+---------------+
 
 
-.. _type-hexadecimal:
-
 .. _hexadecimal-glossary:
 
 Hexadecimal Glossary
@@ -69377,8 +66823,6 @@ Specs
 | Precision    | High             |
 +--------------+------------------+
 
-
-.. _type-hexadecimalstring:
 
 .. _hexadecimal-in-string:
 
@@ -69428,8 +66872,6 @@ Specs
 +--------------+------------------------------------------------------+
 
 
-.. _type-httpheader:
-
 .. _http-headers:
 
 Http Headers
@@ -69476,8 +66918,6 @@ Specs
 +--------------+-----------------+
 
 
-.. _type-httpstatus:
-
 .. _http-status-code:
 
 HTTP Status Code
@@ -69516,8 +66956,6 @@ Specs
 | Precision    | High            |
 +--------------+-----------------+
 
-
-.. _type-malformedoctal:
 
 .. _malformed-octal:
 
@@ -69561,8 +66999,6 @@ Specs
 +--------------+------------------------------------------------------------------------------------------------------------+
 
 
-.. _type-md5string:
-
 .. _md5-strings:
 
 Md5 Strings
@@ -69601,8 +67037,6 @@ Specs
 | Precision    | High           |
 +--------------+----------------+
 
-
-.. _type-mimetype:
 
 .. _mime-types:
 
@@ -69644,8 +67078,6 @@ Specs
 | Precision    | High          |
 +--------------+---------------+
 
-
-.. _type-norealcomparison:
 
 .. _no-real-comparison:
 
@@ -69716,8 +67148,6 @@ Specs
 +--------------+-----------------------------------------------------------------------------------------------------+
 
 
-.. _type-nowdoc:
-
 .. _nowdoc-delimiter-glossary:
 
 Nowdoc Delimiter Glossary
@@ -69755,8 +67185,6 @@ Specs
 | Precision    | High          |
 +--------------+---------------+
 
-
-.. _type-octal:
 
 .. _octal-glossary:
 
@@ -69800,8 +67228,6 @@ Specs
 | Precision    | High          |
 +--------------+---------------+
 
-
-.. _type-octalinstring:
 
 .. _invalid-octal-in-string:
 
@@ -69856,8 +67282,6 @@ Specs
 | Precision    | High                      |
 +--------------+---------------------------+
 
-
-.. _type-onevariablestrings:
 
 .. _one-variable-string:
 
@@ -69920,8 +67344,6 @@ Specs
 +--------------+---------------------------------------------------------------------------------------------+
 
 
-.. _type-opensslcipher:
-
 .. _openssl-ciphers-used:
 
 OpenSSL Ciphers Used
@@ -69981,8 +67403,6 @@ Specs
 +--------------+--------------------+
 
 
-.. _type-pack:
-
 .. _pack-format-inventory:
 
 Pack Format Inventory
@@ -70018,8 +67438,6 @@ Specs
 | Precision    | High          |
 +--------------+---------------+
 
-
-.. _type-path:
 
 .. _path-lists:
 
@@ -70066,8 +67484,6 @@ Specs
 +--------------+-----------------+
 
 
-.. _type-pcre:
-
 .. _perl-regex:
 
 Perl Regex
@@ -70106,8 +67522,6 @@ Specs
 | Precision    | High          |
 +--------------+---------------+
 
-
-.. _type-ports:
 
 .. _internet-ports:
 
@@ -70149,8 +67563,6 @@ Specs
 +--------------+---------------+
 
 
-.. _type-printf:
-
 .. _printf-format-inventory:
 
 Printf Format Inventory
@@ -70185,8 +67597,6 @@ Specs
 | Precision    | High          |
 +--------------+---------------+
 
-
-.. _type-protocols:
 
 .. _protocol-lists:
 
@@ -70232,8 +67642,6 @@ Specs
 +--------------+-----------------+
 
 
-.. _type-regex:
-
 .. _regex-inventory:
 
 Regex Inventory
@@ -70277,8 +67685,6 @@ Specs
 +--------------+---------------+
 
 
-.. _type-sapi:
-
 .. _php-sapi:
 
 PHP Sapi
@@ -70314,8 +67720,6 @@ Specs
 | Precision    | High          |
 +--------------+---------------+
 
-
-.. _type-shellcommands:
 
 .. _shell-commands:
 
@@ -70356,8 +67760,6 @@ Specs
 | Precision    | High               |
 +--------------+--------------------+
 
-
-.. _type-shouldbesinglequote:
 
 .. _should-be-single-quote:
 
@@ -70405,8 +67807,6 @@ Specs
 | ClearPHP     | `no-double-quote <https://github.com/dseguy/clearPHP/tree/master/rules/no-double-quote.md>`__ |
 +--------------+-----------------------------------------------------------------------------------------------+
 
-
-.. _type-shouldtypecast:
 
 .. _should-typecast:
 
@@ -70464,8 +67864,6 @@ Specs
 | Examples     | :ref:`case-xataface-type-shouldtypecast`, :ref:`case-openconf-type-shouldtypecast` |
 +--------------+------------------------------------------------------------------------------------+
 
-
-.. _type-silentlycastinteger:
 
 .. _silently-cast-integer:
 
@@ -70534,8 +67932,6 @@ Specs
 +--------------+------------------------------------------------+
 
 
-.. _type-similarintegers:
-
 .. _similar-integers:
 
 Similar Integers
@@ -70592,8 +67988,6 @@ Specs
 +--------------+----------------------+
 
 
-.. _type-specialintegers:
-
 .. _special-integers:
 
 Special Integers
@@ -70634,8 +68028,6 @@ Specs
 | Precision    | High                 |
 +--------------+----------------------+
 
-
-.. _type-sql:
 
 .. _sql-queries:
 
@@ -70681,8 +68073,6 @@ Specs
 | Precision    | High          |
 +--------------+---------------+
 
-
-.. _type-stringholdavariable:
 
 .. _string-may-hold-a-variable:
 
@@ -70740,8 +68130,6 @@ Specs
 +--------------+--------------------------+
 
 
-.. _type-stringinterpolation:
-
 .. _interpolation:
 
 Interpolation
@@ -70791,8 +68179,6 @@ Specs
 | Precision    | High                     |
 +--------------+--------------------------+
 
-
-.. _type-stringwithstrangespace:
 
 .. _strings-with-strange-space:
 
@@ -70851,8 +68237,6 @@ Specs
 +--------------+-------------------------------------------------------------------------------------------------+
 
 
-.. _type-udpdomains:
-
 .. _internet-domains:
 
 Internet Domains
@@ -70883,8 +68267,6 @@ Specs
 | Precision    | High            |
 +--------------+-----------------+
 
-
-.. _type-unicodeblock:
 
 .. _unicode-blocks:
 
@@ -70933,8 +68315,6 @@ Specs
 +--------------+-------------------+
 
 
-.. _type-url:
-
 .. _url-list:
 
 URL List
@@ -70981,8 +68361,6 @@ Specs
 | Precision    | High          |
 +--------------+---------------+
 
-
-.. _typehints-couldbearray:
 
 .. _could-be-array-typehint:
 
@@ -71033,8 +68411,6 @@ Specs
 +--------------+------------------------+
 
 
-.. _typehints-couldbeboolean:
-
 .. _could-be-boolean:
 
 Could Be Boolean
@@ -71079,8 +68455,6 @@ Specs
 | Precision    | High                     |
 +--------------+--------------------------+
 
-
-.. _typehints-couldbecallable:
 
 .. _could-be-callable:
 
@@ -71134,8 +68508,6 @@ Specs
 +--------------+---------------------------+
 
 
-.. _typehints-couldbecit:
-
 .. _could-be-cit:
 
 Could Be CIT
@@ -71181,8 +68553,6 @@ Specs
 +--------------+----------------------+
 
 
-.. _typehints-couldbefloat:
-
 .. _could-be-float:
 
 Could Be Float
@@ -71227,8 +68597,6 @@ Specs
 | Precision    | High                         |
 +--------------+------------------------------+
 
-
-.. _typehints-couldbegenerator:
 
 .. _could-be-generator:
 
@@ -71276,8 +68644,6 @@ Specs
 +--------------+----------------------------+
 
 
-.. _typehints-couldbeint:
-
 .. _could-be-integer:
 
 Could Be Integer
@@ -71322,8 +68688,6 @@ Specs
 | Precision    | High                         |
 +--------------+------------------------------+
 
-
-.. _typehints-couldbeiterable:
 
 .. _could-be-iterable:
 
@@ -71374,8 +68738,6 @@ Specs
 +--------------+---------------------------+
 
 
-.. _typehints-couldbenull:
-
 .. _could-be-null:
 
 Could Be Null
@@ -71423,8 +68785,6 @@ Specs
 | Precision    | High                         |
 +--------------+------------------------------+
 
-
-.. _typehints-couldbeparent:
 
 .. _could-be-parent:
 
@@ -71476,8 +68836,6 @@ Specs
 +--------------+-------------------------+
 
 
-.. _typehints-couldbeself:
-
 .. _could-be-self:
 
 Could Be Self
@@ -71528,8 +68886,6 @@ Specs
 +--------------+-----------------------+
 
 
-.. _typehints-couldbestring:
-
 .. _could-be-string:
 
 Could Be String
@@ -71574,8 +68930,6 @@ Specs
 | Precision    | High                         |
 +--------------+------------------------------+
 
-
-.. _typehints-couldbevoid:
 
 .. _could-be-void:
 
@@ -71622,8 +68976,6 @@ Specs
 | Precision    | High                  |
 +--------------+-----------------------+
 
-
-.. _typehints-couldnottype:
 
 .. _could-not-type:
 
@@ -71676,8 +69028,6 @@ Specs
 | Precision    | Medium                 |
 +--------------+------------------------+
 
-
-.. _typehints-missingreturntype:
 
 .. _missing-some-returntype:
 
@@ -71740,8 +69090,6 @@ Specs
 +--------------+---------------------------------------------+
 
 
-.. _utils-selector:
-
 .. _selector:
 
 Selector
@@ -71767,8 +69115,6 @@ Specs
 | Precision    | Unknown         |
 +--------------+-----------------+
 
-
-.. _variables-assignedtwiceormore:
 
 .. _assigned-twice:
 
@@ -71822,8 +69168,6 @@ Specs
 +--------------+-------------------------------+
 
 
-.. _variables-blind:
-
 .. _blind-variables:
 
 Blind Variables
@@ -71858,8 +69202,6 @@ Specs
 | Precision    | High            |
 +--------------+-----------------+
 
-
-.. _variables-closenaming:
 
 .. _confusing-names:
 
@@ -71935,8 +69277,6 @@ Specs
 +--------------+-----------------------+
 
 
-.. _variables-complexdynamicnames:
-
 .. _complex-dynamic-names:
 
 Complex Dynamic Names
@@ -71997,8 +69337,6 @@ Specs
 +--------------+-------------------------------+
 
 
-.. _variables-constanttypo:
-
 .. _constant-typo-looks-like-a-variable:
 
 Constant Typo Looks Like A Variable
@@ -72053,8 +69391,6 @@ Specs
 +--------------+------------------------+
 
 
-.. _variables-globals:
-
 .. _globals:
 
 Globals
@@ -72092,8 +69428,6 @@ Specs
 | Precision    | High              |
 +--------------+-------------------+
 
-
-.. _variables-inconsistentusage:
 
 .. _inconsistent-variable-usage:
 
@@ -72145,8 +69479,6 @@ Specs
 +--------------+---------------------------------------------------+
 
 
-.. _variables-interfacearguments:
-
 .. _interface-arguments:
 
 Interface Arguments
@@ -72187,8 +69519,6 @@ Specs
 | Precision    | High                         |
 +--------------+------------------------------+
 
-
-.. _variables-localglobals:
 
 .. _local-globals:
 
@@ -72243,8 +69573,6 @@ Specs
 | Precision    | High                   |
 +--------------+------------------------+
 
-
-.. _variables-lostreferences:
 
 .. _lost-references:
 
@@ -72306,8 +69634,6 @@ Specs
 | Examples     | :ref:`case-wordpress-variables-lostreferences` |
 +--------------+------------------------------------------------+
 
-
-.. _variables-nostaticvarinmethod:
 
 .. _no-static-variable-in-a-method:
 
@@ -72374,8 +69700,6 @@ Specs
 +--------------+----------------------------------------+
 
 
-.. _variables-overwriting:
-
 .. _overwriting-variable:
 
 Overwriting Variable
@@ -72418,8 +69742,6 @@ Specs
 | Precision    | High                  |
 +--------------+-----------------------+
 
-
-.. _variables-overwrittenliterals:
 
 .. _overwritten-literals:
 
@@ -72468,8 +69790,6 @@ Specs
 | Precision    | High                          |
 +--------------+-------------------------------+
 
-
-.. _variables-php5indirectexpression:
 
 .. _php5-indirect-variable-expression:
 
@@ -72537,8 +69857,6 @@ Specs
 +--------------+------------------------------------------------------------------------------------------------------------+
 
 
-.. _variables-php7indirectexpression:
-
 .. _php-7-indirect-expression:
 
 Php 7 Indirect Expression
@@ -72601,8 +69919,6 @@ Specs
 +--------------+---------------------------------------------------------------------------------------------------------------------------------------+
 
 
-.. _variables-realvariables:
-
 .. _real-variables:
 
 Real Variables
@@ -72650,8 +69966,6 @@ Specs
 +--------------+-------------------------+
 
 
-.. _variables-references:
-
 .. _variable-references:
 
 Variable References
@@ -72689,8 +70003,6 @@ Specs
 | Precision    | High                 |
 +--------------+----------------------+
 
-
-.. _variables-selftransform:
 
 .. _self-transforming-variables:
 
@@ -72739,8 +70051,6 @@ Specs
 +--------------+-------------------------+
 
 
-.. _variables-staticvariables:
-
 .. _static-variables:
 
 Static Variables
@@ -72785,8 +70095,6 @@ Specs
 | Precision    | High                      |
 +--------------+---------------------------+
 
-
-.. _variables-strangename:
 
 .. _strange-name-for-variables:
 
@@ -72853,8 +70161,6 @@ Specs
 +--------------+--------------------------------------------------------------------------------------+
 
 
-.. _variables-uncommonenvvar:
-
 .. _environment-variables:
 
 Environment Variables
@@ -72902,8 +70208,6 @@ Specs
 | Precision    | Medium                   |
 +--------------+--------------------------+
 
-
-.. _variables-undefinedconstantname:
 
 .. _undefined-constant-name:
 
@@ -72962,8 +70266,6 @@ Specs
 +--------------+---------------------------------+
 
 
-.. _variables-undefinedvariable:
-
 .. _undefined-variable:
 
 Undefined Variable
@@ -73020,8 +70322,6 @@ Specs
 +--------------+---------------------------------------------+
 
 
-.. _variables-uniqueusage:
-
 .. _single-use-variables:
 
 Single Use Variables
@@ -73076,8 +70376,6 @@ Specs
 +--------------+-----------------------+
 
 
-.. _variables-variablelong:
-
 .. _variables-with-long-names:
 
 Variables With Long Names
@@ -73117,8 +70415,6 @@ Specs
 | Precision    | High                   |
 +--------------+------------------------+
 
-
-.. _variables-variablenonascii:
 
 .. _non-ascii-variables:
 
@@ -73174,8 +70470,6 @@ Specs
 +--------------+------------------------------------------------+
 
 
-.. _variables-variableoneletter:
-
 .. _variables-with-one-letter-names:
 
 Variables With One Letter Names
@@ -73228,8 +70522,6 @@ Specs
 +--------------+-----------------------------+
 
 
-.. _variables-variablephp:
-
 .. _php-variables:
 
 PHP Variables
@@ -73267,8 +70559,6 @@ Specs
 | Precision    | High                  |
 +--------------+-----------------------+
 
-
-.. _variables-variableuppercase:
 
 .. _all-uppercase-variables:
 
@@ -73312,8 +70602,6 @@ Specs
 | Precision    | High                        |
 +--------------+-----------------------------+
 
-
-.. _variables-variableusedonce:
 
 .. _used-once-variables:
 
@@ -73374,8 +70662,6 @@ Specs
 +--------------+-------------------------------------------------------------------------------------------------+
 
 
-.. _variables-variableusedoncebycontext:
-
 .. _used-once-variables-(in-scope):
 
 Used Once Variables (In Scope)
@@ -73433,8 +70719,6 @@ Specs
 +--------------+----------------------------------------------------------+
 
 
-.. _variables-variablevariables:
-
 .. _variable-variables:
 
 Variable Variables
@@ -73483,8 +70767,6 @@ Specs
 | Precision    | High                        |
 +--------------+-----------------------------+
 
-
-.. _variables-writtenonlyvariable:
 
 .. _written-only-variables:
 
@@ -73539,8 +70821,6 @@ Specs
 +--------------+--------------------------------------------------------------------------------------------------------+
 
 
-.. _vendors-codeigniter:
-
 .. _codeigniter-usage:
 
 Codeigniter usage
@@ -73584,8 +70864,6 @@ Specs
 | Precision    | High                |
 +--------------+---------------------+
 
-
-.. _vendors-concrete5:
 
 .. _concrete-usage:
 
@@ -73631,8 +70909,6 @@ Specs
 | Precision    | High              |
 +--------------+-------------------+
 
-
-.. _vendors-drupal:
 
 .. _drupal-usage:
 
@@ -73691,8 +70967,6 @@ Specs
 +--------------+----------------+
 
 
-.. _vendors-ez:
-
 .. _ez-cms-usage:
 
 Ez cms usage
@@ -73738,8 +71012,6 @@ Specs
 +--------------+---------------+
 
 
-.. _vendors-fuel:
-
 .. _fuelphp-usage:
 
 FuelPHP Usage
@@ -73779,8 +71051,6 @@ Specs
 | Precision    | High          |
 +--------------+---------------+
 
-
-.. _vendors-joomla:
 
 .. _joomla-usage:
 
@@ -73828,8 +71098,6 @@ Specs
 | Precision    | High           |
 +--------------+----------------+
 
-
-.. _vendors-laravel:
 
 .. _laravel-usage:
 
@@ -73885,8 +71153,6 @@ Specs
 +--------------+-----------------+
 
 
-.. _vendors-phalcon:
-
 .. _phalcon-usage:
 
 Phalcon Usage
@@ -73938,8 +71204,6 @@ Specs
 | Precision    | High            |
 +--------------+-----------------+
 
-
-.. _vendors-symfony:
 
 .. _symfony-usage:
 
@@ -73997,8 +71261,6 @@ Specs
 +--------------+-----------------+
 
 
-.. _vendors-typo3:
-
 .. _typo-3-usage:
 
 Typo 3 usage
@@ -74041,8 +71303,6 @@ Specs
 | Precision    | High          |
 +--------------+---------------+
 
-
-.. _vendors-wordpress:
 
 .. _wordpress-usage:
 
@@ -74087,8 +71347,6 @@ Specs
 | Precision    | High              |
 +--------------+-------------------+
 
-
-.. _vendors-yii:
 
 .. _yii-usage:
 
@@ -74139,8 +71397,6 @@ Specs
 +--------------+---------------+
 
 
-.. _php-php81removedconstant:
-
 .. _php-8.1-removed-constants:
 
 PHP 8.1 Removed Constants
@@ -74176,8 +71432,6 @@ Specs
 | Precision    | High                      |
 +--------------+---------------------------+
 
-
-.. _php-enumusage:
 
 .. _enum-usage:
 
@@ -74224,8 +71478,6 @@ Specs
 | Precision    | Very high                                                                                                                                                                                                                                                                    |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-
-.. _php-restrictglobalusage:
 
 .. _restrict-global-usage:
 
@@ -74279,8 +71531,6 @@ Specs
 | Precision    | High                      |
 +--------------+---------------------------+
 
-
-.. _variables-inheritedstaticvariable:
 
 .. _inherited-static-variable:
 
@@ -74338,8 +71588,6 @@ Specs
 +--------------+-----------------------------------+
 
 
-.. _php-php81removeddirective:
-
 .. _php-8.1-removed-directives:
 
 PHP 8.1 Removed Directives
@@ -74381,8 +71629,6 @@ Specs
 
 .. _php-opensslencryptalgochange:
 
-.. _php-opensslencryptalgochange:
-
 Php/OpensslEncryptAlgoChange
 ++++++++++++++++++++++++++++
 
@@ -74411,8 +71657,6 @@ Specs
 | Precision    | Unknown                      |
 +--------------+------------------------------+
 
-
-.. _classes-inheritedpropertymustmatch:
 
 .. _inherited-property-type-must-match:
 
@@ -74470,8 +71714,6 @@ Specs
 +--------------+------------------------------------------------------------+
 
 
-.. _functions-duplicatenamedparameter:
-
 .. _duplicate-named-parameter:
 
 Duplicate Named Parameter
@@ -74518,8 +71760,6 @@ Specs
 | Precision    | Unknown                                |
 +--------------+----------------------------------------+
 
-
-.. _structures-onlyfirstbyte:
 
 .. _only-first-byte-:
 
@@ -74570,8 +71810,6 @@ Specs
 | Precision    | Medium                   |
 +--------------+--------------------------+
 
-
-.. _structures-noobjectasindex:
 
 .. _no-object-as-index:
 
@@ -74627,8 +71865,6 @@ Specs
 +--------------+----------------------------+
 
 
-.. _structures-htmlentitiescalldefaultflag:
-
 .. _htmlentities-using-default-flag:
 
 Htmlentities Using Default Flag
@@ -74680,8 +71916,6 @@ Specs
 | Precision    | High                                        |
 +--------------+---------------------------------------------+
 
-
-.. _functions-wrongargumentnamewithphpfunction:
 
 .. _wrong-argument-name-with-php-function:
 
