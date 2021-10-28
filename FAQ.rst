@@ -83,6 +83,7 @@ Check in the projects/<name>/config.ini file : if values were provided, you'll f
 In case the code was not found during init, then do the following : 
 
 ::
+
     cd projects/<name>/
     git clone ssh://project/URL code
     cd -
@@ -190,6 +191,7 @@ You may also include files, by using the include_dir[] line. Including files is 
 You can use ignore_dirs to exclude everything in the source tree, then use include_dirs to include specific folders.
 
 ::
+
     # exclude everything
     ignore_dirs[] = '/';
 
@@ -259,7 +261,8 @@ See also `cat: write error: Broken pipe <https://askubuntu.com/questions/421663/
 
 Running an audit (project command) leads to an error message such as this one : 
 
-:: 
+::
+
     2/2 [========================================================================>] 100.00% 00:00:00   
     
     Error : The request message was parseable, but the arguments supplied in the message were in conflict or incomplete. Check the message format and retry the request. : A message with an [eval] op code requires a [gremlin] argument.
@@ -277,6 +280,7 @@ This happens when exakat couldn't stop the gremlin database. You should take it 
 Get the process ID with the following command, and then, kill it.
 
 :: 
-    ps aux | grep gsneo4jv3.3.4 
+
+    ps aux | grep gsneo4jv3.3.4   
     ps aux | grep gremlin
 
