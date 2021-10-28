@@ -12,10 +12,12 @@ Cobblers are a complement to code analysis : the analysis spot code to be fixed,
 List of Cobblers
 --------------------------
 
+.. _functions-settypehints:
+
 .. _set-typehints:
 
 Set Typehints
-#############
++++++++++++++
 Automagically add scalar typehints to methods and properties. Arguments and return values are both supported. 
 
 When multiple possible types are identified, no typehint is added. If a typehint is already set, no typehint is added.
@@ -110,10 +112,12 @@ Specs
 +----------------+------------------------+
 
 
+.. _structures-plusonetopre:
+
 .. _plus-one-to-pre-plusplus:
 
 Plus One To Pre Plusplus
-########################
+++++++++++++++++++++++++
 Transforms a `+ 1` or `- 1` operation into a plus-plus (or minus-minus).
 
 .. _plus-one-to-pre-plusplus-before:
@@ -150,10 +154,12 @@ Specs
 +----------------+-------------------------+
 
 
+.. _structures-posttopre:
+
 .. _post-to-pre-plusplus:
 
 Post to Pre Plusplus
-####################
+++++++++++++++++++++
 Transforms a post plus-plus (or minus-minus) operator, into a pre plus-plus (or minus-minus) operator.
 
 
@@ -192,10 +198,12 @@ Specs
 +----------------+----------------------+
 
 
+.. _structures-removenoscream:
+
 .. _remove-noscream-@:
 
 Remove Noscream @
-#################
++++++++++++++++++
 Removes the @ operator.
 
 .. _remove-noscream-@-before:
@@ -246,10 +254,12 @@ Specs
 +----------------+---------------------------+
 
 
+.. _classes-vartopublic:
+
 .. _var-to-public:
 
 Var To Public
-#############
++++++++++++++
 Replace the var syntax with public keyword. 
 
 It is also possible to replace it with protected or private, with the parameter. 
@@ -313,10 +323,12 @@ Specs
 +----------------+---------------------+
 
 
+.. _classes-splitpropertydefinitions:
+
 .. _split-property-definitions:
 
 Split Property Definitions
-##########################
+++++++++++++++++++++++++++
 Split multiple properties definition into independent definitions. 
 
 This applies to classes and traits. 
@@ -369,10 +381,12 @@ Specs
 +----------------+----------------------------------+
 
 
+.. _functions-setnulltype:
+
 .. _set-null-type:
 
 Set Null Type
-#############
++++++++++++++
 Adds a Null type to typehints when necessary. 
 
 This cobbler only adds a null type when there is already another type. It doesn't add a null type when no type is set. 
@@ -432,10 +446,12 @@ Specs
 +----------------+-----------------------+
 
 
+.. _functions-settypevoid:
+
 .. _set-type-void:
 
 Set Type Void
-#############
++++++++++++++
 Adds the void typehint to functions and methods, when possible
 
 .. _set-type-void-before:

@@ -219,9 +219,11 @@ The Code Flower represents hierarchies in a code source.
 Codeflower is a javascript visualization of the code. It is based on Francois Zaninotto's [CodeFlower Source code visualization](http://www.redotheweb.com/CodeFlower/).
 
 It represents : 
+
 + Class hierarchy
 + Namespace hierarchy
 + Inclusion
+
 
 
 .. image:: ../images/report.codeflower.png
