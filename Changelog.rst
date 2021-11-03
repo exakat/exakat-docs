@@ -24,17 +24,17 @@ Here is the release note of exakat.
 **Version 2.2.5 (Wood star, 2021-11-03)**
 
 
-+ Dataset
-    + 
-
 + Analysis
-    + 
+    + New analysis : Calling Trait Static Method directly is deprecated in PHP 8.1
+    + New analysis : No reference for returned void
+    + New analysis : No Null for PHP native methods
+    + Updated analysis : Wrong type for argument now covers classes, union type and intersection types. 
+    + Updated analysis : Wrong type for argument now covers classes, union type and intersection types. 
+    + Updated analysis : Unused Private Methods are also detected with array($this, 'xx') syntax
+    + Checked unit tests : 3821 / 3805 test pass (99% pass)
 
 + Cobblers
-    + 
-
-+ Tokenizer
-    + 
+    + New cobbler : remove typehints from arguments, returns and properties
 
 **Version 2.2.4 (Gold star, 2021-10-21)**
 

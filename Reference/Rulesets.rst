@@ -134,7 +134,7 @@ Analyze
 
 This ruleset centralizes a large number of classic trap and pitfalls when writing PHP.
 
-Total : 427 analysis
+Total : 429 analysis
 
 * :ref:`adding-zero`
 * :ref:`ambiguous-array-index`
@@ -563,6 +563,8 @@ Total : 427 analysis
 * :ref:`duplicate-named-parameter`
 * :ref:`No anchor for Php/NativeClassTypeCompatibility <no-anchor-for-php-nativeclasstypecompatibility>`
 * :ref:`No anchor for Attributes/MissingAttributeAttribute <no-anchor-for-attributes-missingattributeattribute>`
+* :ref:`No anchor for Php/NoNullForNative <no-anchor-for-php-nonullfornative>`
+* :ref:`No anchor for Functions/NoReferencedVoid <no-anchor-for-functions-noreferencedvoid>`
 
 .. _attributes:
 
@@ -2093,7 +2095,7 @@ CompatibilityPHP81
 
 This ruleset centralizes all analysis for the migration from PHP 8.0 to 8.1.
 
-Total : 8 analysis
+Total : 11 analysis
 
 * :ref:`php-7.4-removed-directives`
 * :ref:`php-8.0-removed-directives`
@@ -2103,6 +2105,9 @@ Total : 8 analysis
 * :ref:`php-opensslencryptalgochange`
 * :ref:`php-8.1-removed-constants`
 * :ref:`No anchor for Php/NativeClassTypeCompatibility <no-anchor-for-php-nativeclasstypecompatibility>`
+* :ref:`No anchor for Php/NoNullForNative <no-anchor-for-php-nonullfornative>`
+* :ref:`No anchor for Php/CallingStaticTraitMethod <no-anchor-for-php-callingstatictraitmethod>`
+* :ref:`No anchor for Functions/NoReferencedVoid <no-anchor-for-functions-noreferencedvoid>`
 
 .. _dead-code:
 

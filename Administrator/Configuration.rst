@@ -125,6 +125,16 @@ Here are the currently available options in Exakat's configuration file : config
 | php                  | Link to the PHP binary. This binary is the one that runs Exakat. It is recommended to use |
 |                      | PHP 7.3, or 7.4. The same binary may be used with the following options.                  |
 +----------------------+-------------------------------------------------------------------------------------------+
+| php82                | Path to the PHP 8.2.x binary. This binary is needed to test the compilation with the 8.2  |
+|                      | series or if the analyze should be run with this version (see project's config.ini).      |
+|                      | Comment it out if you don't want this version tested. It is not recommended to use this   |
+|                      | version for the analyze                                                                   |
++----------------------+-------------------------------------------------------------------------------------------+
+| php81                | Path to the PHP 8.1.x binary. This binary is needed to test the compilation with the 8.1  |
+|                      | series or if the analyze should be run with this version (see project's config.ini).      |
+|                      | Comment it out if you don't want this version tested. It is not recommended to use this   |
+|                      | version for the analyze                                                                   |
++----------------------+-------------------------------------------------------------------------------------------+
 | php80                | Path to the PHP 8.0.x binary. This binary is needed to test the compilation with the 8.0  |
 |                      | series or if the analyze should be run with this version (see project's config.ini).      |
 |                      | Comment it out if you don't want this version tested. It is not recommended to use this   |
@@ -190,9 +200,9 @@ Note : php** configuration may be either a valid PHP binary path, or a valid Doc
 Custom rulesets
 ###############
 
-Create custom rulesets by creating a 'config/themes.ini' directive files. 
+Create custom rulesets by creating a 'config/rulesets.ini' directive files. 
 
-This file is a .INI file, build with several sections. Each section is the name of a ruleset : for example, 'mine' is the name for the ruleset below. 
+This file is a .INI file, build with multiple sections. Each section is the name of a ruleset : for example, 'mine' is the name for the ruleset below. 
 
 There may be several sections, as long as the names are distinct. 
 

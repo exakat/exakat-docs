@@ -27,10 +27,10 @@ More configuration options appear with the evolution of the engine.
 Precedence
 ##########
 
-The exakat engine read directives from three places :
+The exakat engine read directives from five places, with the following precedence :
 
 1. The command line options
-2. The .exakat.ini file at the root of the code
+2. The .exakat.ini or .exakat.yaml file at the root of the code
 3. The config.ini file in the project directory
 4. The exakat.ini file in the config directory
 5. The default values in the code
@@ -38,7 +38,7 @@ The exakat engine read directives from three places :
 
 The precedence of the directives is the same as the list above : command line options always have highest priority, config.ini files are in second, when command line are not available, and finally, the default values are read in the code.
 
-Some of the directives are only available in the config.ini files.
+Some of the directives are only available in the config.ini files, or at the engine level.
 
 Common Options
 ###############
@@ -62,45 +62,64 @@ Available Options
 
 Here are the currently available options in Exakat's project configuration file : projects/&lt;project name&gt;/config.ini
 
-+-----------------------+-------------------------------------------------------------------------------------------+
-| Option                | Description                                                                               |
-+=======================+===========================================================================================+
-| phpversion            | Version with which to run the analyze.                                                    |
-|                       | It may be one of : 7.3, 7.2, 7.1, 7.0, 5.6, 5.5, 5.4, 5.3, 5.2.                           |
-|                       | Default is 7.2 or the CLI version used to init the project.                               |
-|                       | 5.* versions are available, but are less tested.                                          |
-|                       | 7.3 is actually the current dev version.                                                  |
-+-----------------------+-------------------------------------------------------------------------------------------+
-| include_dirs[]        | This is the list of files and dir to include in the project's directory. It is chrooted   |
-|                       | in the project's folder. Values provided with a starting / are used as a path prefix.     |
-|                       | Values without / are used as a substring, anywhere in the path.                           |
-|                       | include_dirs are added AFTER ignore_dirs, so as to partially ignore a folder, such as     |
-|                       | the vendor folder from composer.                                                          |
-+-----------------------+-------------------------------------------------------------------------------------------+
-| ignore_dirs[]         | This is the list of files and dir to ignore in the project's directory. It is chrooted in |
-|                       | the project's folder. Values provided with a starting / are used as a path prefix. Values |
-|                       | without / are used as a substring, anywhere in the path.                                  |
-+-----------------------+-------------------------------------------------------------------------------------------+
-| ignore_dirs[]         | This is the list of files and dir to ignore in the project's directory. It is chrooted in |
-|                       | the project's folder. Values provided with a starting / are used as a path prefix. Values |
-|                       | without / are used as a substring, anywhere in the path.                                  |
-+-----------------------+-------------------------------------------------------------------------------------------+
-| file_extensions       | This is the list of file extensions that is considered as PHP scripts. All others are     |
-|                       | ignored. All files bearing those extensions are subject to check, though they are         |
-|                       | scanned first for PHP tags before being analyzed. The extensions are comma separated,     |
-|                       | without dot.                                                                              |
-|                       | The default are : php, php3, inc, tpl, phtml, tmpl, phps, ctp                             |
-+-----------------------+-------------------------------------------------------------------------------------------+
-| project_name          | This is the project name, as it appears at the top left in the Ambassador report.         |
-+-----------------------+-------------------------------------------------------------------------------------------+
-| project_url           | This is the repository URL for the project. It is used to get the source for the project. |
-+-----------------------+-------------------------------------------------------------------------------------------+
-| project_vcs           | This is the VCS used to fetch the project source.                                         |
-+-----------------------+-------------------------------------------------------------------------------------------+
-| project_description   | This is the description of the project.                                                   |
-+-----------------------+-------------------------------------------------------------------------------------------+
-| project_packagist     | This is the packagist name for the code, when the code is fetched with composer.          |
-+-----------------------+-------------------------------------------------------------------------------------------+
+phpversion
+++++++++++
+
+PHP Version with which to run the code analysis. 
+
+It may be one of : 8.2, 8.1, 8.0, 7.4, 7.3, 7.2, 7.1, 7.0, 5.6, 5.5, 5.4, 5.3, 5.2.                          
+Default is 8.0 or the CLI version used to init the project.                              
+8.2 is currently the development version. 5.* versions are available, but are less tested.      
+phpversion it is a string.                                   
+
+include_dirs
+++++++++++++
+
+This is the list of files and dir to include in the project's directory. It is chrooted in the project's folder. Values provided with a starting / are used as a path prefix.  
+
+Values without / are used as a substring, anywhere in the path.
+include_dirs are added AFTER ignore_dirs, so as to partially ignore a folder, such as the vendor folder from composer.
+include_dirs is an array of string.                                                       
+
+ignore_dirs
+++++++++++++
+
+This is the list of files and dir to ignore in the project's directory. It is chrooted in the project's folder. Values provided with a starting / are used as a path prefix. Values without / are used as a substring, anywhere in the path.
+
+ignore_dirs is an array of string.                                                       
+
+file_extensions
+++++++++++++++++++++++++
+
+This is the list of file extensions that is considered as PHP scripts. All others are ignored. All files bearing those extensions are subject to check, though they are scanned first for PHP tags before being analyzed. The extensions are comma separated, without dot.                                                                             
+
+The default are : php, php3, inc, tpl, phtml, tmpl, phps, ctp                            
+file_extensions may be a comma-separated list of values as a string, or an array.
+
+project_name
+++++++++++++++++++++++++
+
+This is the project name, as it appears at the top left in the Ambassador report.
+
+project_url
+++++++++++++++++++++++++
+
+This is the repository URL for the project. It is used to get the source for the project.
+
+project_vcs
+++++++++++++++++++++++++
+
+This is the VCS used to fetch the project source.
+
+project_description
+++++++++++++++++++++++++
+
+This is the description of the project.
+
+project_packagist
+++++++++++++++++++++++++
+
+This is the packagist name for the code, when the code is fetched with composer. 
 
 
 In-code Configuration
@@ -162,6 +181,8 @@ Copy-paste this YAML code into a file called `.exakat.yaml`, located at the root
       - /
     ignore_rules:
       - 
+    exclude_rules:
+      - 
     ignore_dirs: 
       - /tests
       - /vendor
@@ -192,6 +213,9 @@ Here are the currently available options in Exakat's project configuration file 
 |                       | a ruleset, without ignoring the whole ruleset.                                            |
 |                       | The rules in this list are Exakat's short name : ignore_rules[] = "Structures/AddZero"    |
 +-----------------------+-------------------------------------------------------------------------------------------+
+| include_rules[]       | There is no include_rules directive. Create a custom Ruleset, and include it with         |
+|                       | project_rulesets (see below)                                                              |
++-----------------------+-------------------------------------------------------------------------------------------+
 | file_extensions       | This is the list of file extensions that is considered as PHP scripts. All others are     |
 |                       | ignored. All files bearing those extensions are subject to check, though they are         |
 |                       | scanned first for PHP tags before being analyzed. The extensions are comma separated,     |
@@ -205,11 +229,20 @@ Here are the currently available options in Exakat's project configuration file 
 | project_vcs           | This is the VCS used to fetch the project source.                                         |
 +-----------------------+-------------------------------------------------------------------------------------------+
 | project_description   | This is the description of the project.                                                   |
+|                       | This is free text, used in reports. The default is : '' (empty string)                    |
 +-----------------------+-------------------------------------------------------------------------------------------+
 | project_packagist     | This is the packagist name for the code, when the code is fetched with composer.          |
 +-----------------------+-------------------------------------------------------------------------------------------+
-
-
+| project_rulesets      | This is the list of default rules to run for this project.                                |
+|                       | The default are : CompatibilityPHP70, CompatibilityPHP71, CompatibilityPHP72,             |
+|                       | CompatibilityPHP73, CompatibilityPHP74, CompatibilityPHP80, Suggestions, Dead code,       | 
+|                       | Security, Analyze, Top10, Preferences, Appinfo, Appcontent, Suggestions                   |
+|                       | This an array of strings, which are all ruleset names                                     |
++-----------------------+-------------------------------------------------------------------------------------------+
+| project_reports       | This is the list of default reports to run for this project.                              |
+|                       | The default are : Diplomat                                                                |
+|                       | This an array of strings, which are all reports names                                     |
++-----------------------+-------------------------------------------------------------------------------------------+
 
 Commandline Configuration
 -------------------------

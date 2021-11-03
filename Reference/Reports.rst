@@ -27,7 +27,6 @@ Summary
   * :ref:`File dependendies <report-file-dependendies>`
   * :ref:`File dependendies HTML <report-file-dependendies-html>`
   * :ref:`History <report-history>`
-  * :ref:`Inventories <report-inventories>`
   * :ref:`Json <report-json>`
   * :ref:`Marmelab <report-marmelab>`
   * :ref:`Meters <report-meters>`
@@ -95,7 +94,7 @@ Ambassador includes the report from 3 other reports : PhpCompilation, PhpConfigu
 
 Ambassador is a HTML report format.
 
-Ambassador depends on the following 20 themes : :ref:`CompatibilityPHP53`, :ref:`CompatibilityPHP54`, :ref:`CompatibilityPHP55`, :ref:`CompatibilityPHP56`, :ref:`CompatibilityPHP70`, :ref:`CompatibilityPHP71`, :ref:`CompatibilityPHP72`, :ref:`CompatibilityPHP73`, :ref:`CompatibilityPHP74`, :ref:`CompatibilityPHP80`, :ref:`Analyze`, :ref:`Preferences`, :ref:`Inventory`, :ref:`Performances`, :ref:`Appinfo`, :ref:`Appcontent`, :ref:`Dead code`, :ref:`Security`, :ref:`Suggestions`, :ref:`Custom`.
+Ambassador depends on the following 20 rulesets : :ref:`CompatibilityPHP53`, :ref:`CompatibilityPHP54`, :ref:`CompatibilityPHP55`, :ref:`CompatibilityPHP56`, :ref:`CompatibilityPHP70`, :ref:`CompatibilityPHP71`, :ref:`CompatibilityPHP72`, :ref:`CompatibilityPHP73`, :ref:`CompatibilityPHP74`, :ref:`CompatibilityPHP80`, :ref:`Analyze`, :ref:`Preferences`, :ref:`Inventory`, :ref:`Performances`, :ref:`Appinfo`, :ref:`Appcontent`, :ref:`Dead code`, :ref:`Security`, :ref:`Suggestions`, :ref:`Custom`.
 
 .. _report-beautycanon:
 
@@ -156,7 +155,7 @@ It checks the internal structure of classes, and suggest visibility, typehint up
 
 ClassReview is a HTML report format.
 
-ClassReview depends on the following theme : ClassReview.
+ClassReview depends on the following rule : ClassReview.
 
 .. _report-classes-dependendies-html:
 
@@ -183,7 +182,7 @@ Warning : large applications (> 1000 classes) will require a lot of resources to
 
 Classes dependendies HTML is a HTML report format.
 
-Classes dependendies HTML doesn't depend on themes.
+Classes dependendies HTML doesn't depend on rulesets.
 
 .. _report-clustergrammer:
 
@@ -204,7 +203,7 @@ See a live report here : [Clustergrammer](http://amp.pharm.mssm.edu/clustergramm
 
 Clustergrammer is a TEXT report format.
 
-Clustergrammer doesn't depend on themes.
+Clustergrammer doesn't depend on rulesets.
 
 .. _report-code-flower:
 
@@ -231,7 +230,7 @@ It represents :
 
 Code Flower is a HTML report format.
 
-Code Flower doesn't depend on themes.
+Code Flower doesn't depend on rulesets.
 
 .. _report-code-sniffer:
 
@@ -306,7 +305,7 @@ It is recommended to review manually the results of the suggested composer.json 
 
 Composer is a JSON report format.
 
-Composer depends on the following theme : Appinfo.
+Composer depends on the following rule : Appinfo.
 
 .. _report-dependency-wheel:
 
@@ -327,7 +326,7 @@ It is based on Francois Zaninotto's `DependencyWheel <http://fzaninotto.github.c
 
 Dependency Wheel is a HTML report format.
 
-Dependency Wheel doesn't depend on themes.
+Dependency Wheel doesn't depend on rulesets.
 
 .. _report-diplomat:
 
@@ -346,7 +345,7 @@ The Diplomat report is the default report since Exakat 1.7.0. It is a light vers
 
 Diplomat is a HTML report format.
 
-Diplomat depends on the following 15 themes : :ref:`CompatibilityPHP53`, :ref:`CompatibilityPHP54`, :ref:`CompatibilityPHP55`, :ref:`CompatibilityPHP56`, :ref:`CompatibilityPHP70`, :ref:`CompatibilityPHP71`, :ref:`CompatibilityPHP72`, :ref:`CompatibilityPHP73`, :ref:`CompatibilityPHP74`, :ref:`CompatibilityPHP80`, :ref:`Top10`, :ref:`Preferences`, :ref:`Appinfo`, :ref:`Appcontent`, :ref:`Suggestions`.
+Diplomat depends on the following 15 rulesets : :ref:`CompatibilityPHP53`, :ref:`CompatibilityPHP54`, :ref:`CompatibilityPHP55`, :ref:`CompatibilityPHP56`, :ref:`CompatibilityPHP70`, :ref:`CompatibilityPHP71`, :ref:`CompatibilityPHP72`, :ref:`CompatibilityPHP73`, :ref:`CompatibilityPHP74`, :ref:`CompatibilityPHP80`, :ref:`Top10`, :ref:`Preferences`, :ref:`Appinfo`, :ref:`Appcontent`, :ref:`Suggestions`.
 
 .. _report-exakatyaml:
 
@@ -915,7 +914,7 @@ On the other hand, other analysis that currently yield issues needs to be fully 
 
 Exakatyaml is a Yaml report format.
 
-Exakatyaml doesn't depend on themes.
+Exakatyaml doesn't depend on rulesets.
 
 .. _report-file-dependendies:
 
@@ -942,7 +941,7 @@ Another version of the same diagram is called Filedependencieshtml
 
 File dependendies is a DOT report format.
 
-File dependendies doesn't depend on themes.
+File dependendies doesn't depend on rulesets.
 
 .. _report-file-dependendies-html:
 
@@ -973,7 +972,7 @@ Another version of the same diagram is called Filedependencies, and produces a D
 
 File dependendies HTML is a HTML report format.
 
-File dependendies HTML doesn't depend on themes.
+File dependendies HTML doesn't depend on rulesets.
 
 .. _report-history:
 
@@ -1000,72 +999,7 @@ This report provides a 'history.sqlite' database. The following tables are inven
 
 History is a Sqlite report format.
 
-History doesn't depend on themes.
-
-.. _report-inventories:
-
-Inventories
-###########
-
-Inventories
-___________
-
-The Inventories report collects literals and names from the code.
-
-This report provides the value, the file and line where a type of value is present. 
-
-The following values and names are inventoried : 
-
-+ Variables
-+ Incoming Variables
-+ Session Variables
-+ Global Variables
-+ Date formats
-+ Constants
-+ Functions
-+ Classes
-+ Interface names
-+ Trait names
-+ Namespaces
-+ Exceptions
-+ Regex
-+ SQL queries
-+ URL
-+ Unicode blocks
-+ Integers
-+ Reals numbers
-+ Literal Arrays
-+ Strings
-
-Every type of values is exported to a file. If no value of such type was found during the audit, the file only contains the headers. It is always produced.
-
-
-
-::
-
-    Name,File,Line
-    0,/features/bootstrap/FeatureContext.php,61
-    10000,/features/bootstrap/FeatureContext.php,61
-    777,/features/bootstrap/FeatureContext.php,63
-    20,/features/bootstrap/FeatureContext.php,73
-    0,/features/bootstrap/FeatureContext.php,334
-    0,/features/bootstrap/FeatureContext.php,339
-    0,/features/bootstrap/FeatureContext.php,344
-    0,/features/bootstrap/FeatureContext.php,362
-    0,/features/bootstrap/FeatureContext.php,366
-    0,/features/bootstrap/FeatureContext.php,368
-    0,/features/bootstrap/FeatureContext.php,372
-    777,/features/bootstrap/FeatureContext.php,423
-    777,/features/bootstrap/FeatureContext.php,431
-    0,/src/Behat/Behat/Context/ContextClass/SimpleClassGenerator.php,68
-    1,/src/Behat/Behat/Context/ContextClass/SimpleClassGenerator.php,69
-    0,/src/Behat/Behat/Context/Environment/InitializedContextEnvironment.php,84
-    0,/src/Behat/Behat/Context/Environment/InitializedContextEnvironment.php,150
-    
-
-Inventories is a CSV report format.
-
-Inventories depends on the following theme : Inventories.
+History doesn't depend on rulesets.
 
 .. _report-json:
 
@@ -1153,7 +1087,7 @@ You may also learn more about GraphQL at [Introducing Json GraphQL Server](https
 
 Marmelab is a JSON report format.
 
-Marmelab depends on the following theme : Analyze.
+Marmelab depends on the following rule : Analyze.
 
 .. _report-meters:
 
@@ -1180,7 +1114,7 @@ Exakat measures a large number of code dimensions, such as number of files, line
 
 Meters is a JSON report format.
 
-Meters depends on the following theme : None.
+Meters depends on the following rule : None.
 
 .. _report-migration74:
 
@@ -1219,7 +1153,7 @@ The Migration74 report runs the backward incompatibilities tests for PHP 7.4, fr
 
 Migration74 is a HTML report format.
 
-Migration74 depends on the following 2 themes : :ref:`CompatibilityPHP73`, :ref:`Suggestions`.
+Migration74 depends on the following 2 rulesets : :ref:`CompatibilityPHP73`, :ref:`Suggestions`.
 
 .. _report-migration80:
 
@@ -1258,7 +1192,7 @@ The Migration 80 report runs the backward incompatibilities tests for PHP 8.0, f
 
 Migration80 is a HTML report format.
 
-Migration80 depends on the following 2 themes : :ref:`CompatibilityPHP80`, :ref:`Suggestions`.
+Migration80 depends on the following 2 rulesets : :ref:`CompatibilityPHP80`, :ref:`Suggestions`.
 
 .. _report-none:
 
@@ -1274,7 +1208,7 @@ None is a utility report, aimed to test exakat's installation.
 
 None is a None report format.
 
-None depends on the following theme : Any.
+None depends on the following rule : Any.
 
 .. _report-owasp:
 
@@ -1293,7 +1227,7 @@ The OWASP report focuses on the [OWASP top 10](https://www.owasp.org/index.php/C
 
 Owasp is a HTML report format.
 
-Owasp depends on the following theme : Security.
+Owasp depends on the following rule : Security.
 
 .. _report-perfile:
 
@@ -1429,7 +1363,7 @@ PhpCompilation bases its selection on the code and its usage of features. PhpCom
 
 PhpCompilation is a Text report format.
 
-PhpCompilation depends on the following theme : Appinfo.
+PhpCompilation depends on the following rule : Appinfo.
 
 .. _report-phpconfiguration:
 
@@ -1512,7 +1446,7 @@ PhpConfiguration bases its selection on the code, and classic recommendations. F
 
 PhpConfiguration is a Text report format.
 
-PhpConfiguration depends on the following theme : Appinfo.
+PhpConfiguration depends on the following rule : Appinfo.
 
 .. _report-phpcity:
 
@@ -1541,7 +1475,7 @@ Or, you can install the [PHPcity](https://github.com/adrianhuna/PHPCity) applica
 
 Phpcity is a JSON report format.
 
-Phpcity doesn't depend on themes.
+Phpcity doesn't depend on rulesets.
 
 .. _report-phpcsfixer:
 
@@ -1591,7 +1525,7 @@ Exakat may find different issues than php-cs-fixer : using this report reduces t
 
 Phpcsfixer is a JSON report format.
 
-Phpcsfixer depends on the following theme : php-cs-fixable.
+Phpcsfixer depends on the following rule : php-cs-fixable.
 
 .. _report-plantuml:
 
@@ -1613,7 +1547,7 @@ PlantUML is an Open Source component that dislays class diagrams.
 
 PlantUml is a puml report format.
 
-PlantUml doesn't depend on themes.
+PlantUml doesn't depend on rulesets.
 
 .. _report-radwellcode:
 
@@ -1642,7 +1576,7 @@ Note that all rules are not implemented, especially the 'coding conventions' one
 
 RadwellCode is a Text report format.
 
-RadwellCode depends on the following theme : RadwellCodes.
+RadwellCode depends on the following rule : RadwellCodes.
 
 .. _report-rector:
 
@@ -1682,7 +1616,7 @@ Check [RectorPHP](https://getrector.org/) website, its [rector github](https://g
 
 Rector is a Text report format.
 
-Rector depends on the following theme : Rector.
+Rector depends on the following rule : Rector.
 
 .. _report-sarb:
 
@@ -1775,7 +1709,7 @@ Simpletable is suitable for any list of results provided by exakat. It is inspir
 
 SimpleTable is a HTML report format.
 
-SimpleTable doesn't depend on themes.
+SimpleTable doesn't depend on rulesets.
 
 .. _report-stats:
 
@@ -1843,7 +1777,7 @@ Stats reports PHP structures definition, like class, interfaces, variables, and 
 
 Stats is a JSON report format.
 
-Stats depends on the following theme : Stats.
+Stats depends on the following rule : Stats.
 
 .. _report-stubs:
 
@@ -1868,7 +1802,7 @@ The resulting report is in one file, called `stubs.php`.
 
 Stubs is a PHP report format.
 
-Stubs doesn't depend on themes.
+Stubs doesn't depend on rulesets.
 
 .. _report-stubsjson:
 
@@ -1903,7 +1837,7 @@ The StubsJson report includes :
 
 StubsJson is a JSON report format.
 
-StubsJson doesn't depend on themes.
+StubsJson doesn't depend on rulesets.
 
 .. _report-text:
 
@@ -1958,7 +1892,7 @@ The Top 10 report is based on the 'Top 10 classic PHP traps' presentation. You c
 
 Top10 is a HTML report format.
 
-Top10 depends on the following theme : Top10.
+Top10 depends on the following rule : Top10.
 
 .. _report-topology-order:
 
@@ -1987,7 +1921,7 @@ There are currently two topology available:
 
 Topology Order is a DOT report format.
 
-Topology Order doesn't depend on themes.
+Topology Order doesn't depend on rulesets.
 
 .. _report-typechecks:
 
@@ -2009,7 +1943,7 @@ It checks the presence of typehint, suggests possible type hinting, and check th
 
 TypeChecks is a HTML report format.
 
-TypeChecks depends on the following theme : TypeChecks.
+TypeChecks depends on the following rule : TypeChecks.
 
 .. _report-typesuggestion:
 
@@ -2041,7 +1975,7 @@ This report is ready for PHP 8.0 : the suggestions may be combined together, and
 
 TypeSuggestion is a HTML report format.
 
-TypeSuggestion depends on the following theme : TypeChecks.
+TypeSuggestion depends on the following rule : TypeChecks.
 
 .. _report-uml:
 
@@ -2067,7 +2001,7 @@ Classes, interfaces and traits are represented, along with their constants, meth
 
 Uml is a dot report format.
 
-Uml doesn't depend on themes.
+Uml doesn't depend on rulesets.
 
 .. _report-xml:
 

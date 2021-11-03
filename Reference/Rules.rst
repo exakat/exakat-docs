@@ -33925,6 +33925,8 @@ Wrong Type With Call
 
 Currently, this analysis doesn't take into account ``strict_types = 1``. 
 
+This analysis is compatible with Union types and with Intersection types.
+
 .. code-block:: php
 
    <?php
@@ -33947,7 +33949,7 @@ Currently, this analysis doesn't take into account ``strict_types = 1``.
 Suggestions
 ^^^^^^^^^^^
 
-* Use the right type with all literals
+* Use the right type with all arguments
 
 Specs
 ^^^^^
@@ -77826,50 +77828,49 @@ Directory by PHP Function
       + :ref:`Yii usage <yii-usage>`
       + :ref:`No Object As Index <no-object-as-index>`
       + :ref:`php-cs-fixable <php-cs-fixable>`
-      + :ref:`report-php-cs-fixable <report-php-cs-fixable>`
-      + :ref:`report-php-cs-fixable <report-php-cs-fixable>`
-      + :ref:`report-php-cs-fixable <report-php-cs-fixable>`
-      + :ref:`report-php-cs-fixable <report-php-cs-fixable>`
-      + :ref:`report-php-cs-fixable <report-php-cs-fixable>`
-      + :ref:`report-php-cs-fixable <report-php-cs-fixable>`
-      + :ref:`report-php-cs-fixable <report-php-cs-fixable>`
-      + :ref:`report-php-cs-fixable <report-php-cs-fixable>`
-      + :ref:`report-php-cs-fixable <report-php-cs-fixable>`
-      + :ref:`report-php-cs-fixable <report-php-cs-fixable>`
-      + :ref:`report-php-cs-fixable <report-php-cs-fixable>`
-      + :ref:`report-php-cs-fixable <report-php-cs-fixable>`
-      + :ref:`report-php-cs-fixable <report-php-cs-fixable>`
-      + :ref:`report-php-cs-fixable <report-php-cs-fixable>`
-      + :ref:`report-php-cs-fixable <report-php-cs-fixable>`
-      + :ref:`report-php-cs-fixable <report-php-cs-fixable>`
-      + :ref:`report-php-cs-fixable <report-php-cs-fixable>`
-      + :ref:`report-php-cs-fixable <report-php-cs-fixable>`
-      + :ref:`report-php-cs-fixable <report-php-cs-fixable>`
-      + :ref:`report-php-cs-fixable <report-php-cs-fixable>`
-      + :ref:`report-php-cs-fixable <report-php-cs-fixable>`
-      + :ref:`report-php-cs-fixable <report-php-cs-fixable>`
-      + :ref:`report-php-cs-fixable <report-php-cs-fixable>`
-      + :ref:`report-php-cs-fixable <report-php-cs-fixable>`
-      + :ref:`report-php-cs-fixable <report-php-cs-fixable>`
-      + :ref:`report-php-cs-fixable <report-php-cs-fixable>`
-      + :ref:`report-php-cs-fixable <report-php-cs-fixable>`
-      + :ref:`report-php-cs-fixable <report-php-cs-fixable>`
-      + :ref:`report-php-cs-fixable <report-php-cs-fixable>`
-      + :ref:`report-php-cs-fixable <report-php-cs-fixable>`
-      + :ref:`report-php-cs-fixable <report-php-cs-fixable>`
-      + :ref:`report-php-cs-fixable <report-php-cs-fixable>`
-      + :ref:`report-php-cs-fixable <report-php-cs-fixable>`
-      + :ref:`report-php-cs-fixable <report-php-cs-fixable>`
-      + :ref:`report-php-cs-fixable <report-php-cs-fixable>`
-      + :ref:`report-php-cs-fixable <report-php-cs-fixable>`
-      + :ref:`report-php-cs-fixable <report-php-cs-fixable>`
-      + :ref:`report-php-cs-fixable <report-php-cs-fixable>`
-      + :ref:`report-php-cs-fixable <report-php-cs-fixable>`
-      + :ref:`report-php-cs-fixable <report-php-cs-fixable>`
-      + :ref:`report-php-cs-fixable <report-php-cs-fixable>`
-      + :ref:`report-php-cs-fixable <report-php-cs-fixable>`
-      + :ref:`report-php-cs-fixable <report-php-cs-fixable>`
-      + :ref:`report-php-cs-fixable <report-php-cs-fixable>`
+      + :ref:`report-Ambassador <report-ambassador>`
+      + :ref:`report-BeautyCanon <report-beautycanon>`
+      + :ref:`report-ClassReview <report-classreview>`
+      + :ref:`report-Classes dependendies HTML <report-classes-dependendies-html>`
+      + :ref:`report-Clustergrammer <report-clustergrammer>`
+      + :ref:`report-Code Flower <report-code-flower>`
+      + :ref:`report-Code Sniffer <report-code-sniffer>`
+      + :ref:`report-Composer <report-composer>`
+      + :ref:`report-Dependency Wheel <report-dependency-wheel>`
+      + :ref:`report-Diplomat <report-diplomat>`
+      + :ref:`report-Exakatyaml <report-exakatyaml>`
+      + :ref:`report-File dependendies <report-file-dependendies>`
+      + :ref:`report-File dependendies HTML <report-file-dependendies-html>`
+      + :ref:`report-History <report-history>`
+      + :ref:`report-Json <report-json>`
+      + :ref:`report-Marmelab <report-marmelab>`
+      + :ref:`report-Meters <report-meters>`
+      + :ref:`report-Migration74 <report-migration74>`
+      + :ref:`report-Migration80 <report-migration80>`
+      + :ref:`report-None <report-none>`
+      + :ref:`report-Owasp <report-owasp>`
+      + :ref:`report-Perfile <report-perfile>`
+      + :ref:`report-PhpCompilation <report-phpcompilation>`
+      + :ref:`report-PhpConfiguration <report-phpconfiguration>`
+      + :ref:`report-Phpcity <report-phpcity>`
+      + :ref:`report-Phpcsfixer <report-phpcsfixer>`
+      + :ref:`report-PlantUml <report-plantuml>`
+      + :ref:`report-RadwellCode <report-radwellcode>`
+      + :ref:`report-Rector <report-rector>`
+      + :ref:`report-Sarb <report-sarb>`
+      + :ref:`report-Sarif <report-sarif>`
+      + :ref:`report-SimpleTable <report-simpletable>`
+      + :ref:`report-Stats <report-stats>`
+      + :ref:`report-Stubs <report-stubs>`
+      + :ref:`report-StubsJson <report-stubsjson>`
+      + :ref:`report-Text <report-text>`
+      + :ref:`report-Top10 <report-top10>`
+      + :ref:`report-Topology Order <report-topology-order>`
+      + :ref:`report-TypeChecks <report-typechecks>`
+      + :ref:`report-TypeSuggestion <report-typesuggestion>`
+      + :ref:`report-Uml <report-uml>`
+      + :ref:`report-Xml <report-xml>`
+      + :ref:`report-Yaml <report-yaml>`
 
     + `compact()`
 
@@ -81307,9 +81308,8 @@ Directory by PHP Error message
 
 Exakat helps reduce the amount of error and warning that code is producing by reporting pattern that are likely to emit errors.
 
-145 PHP error message detailled : 
+146 PHP error message detailled : 
 
-* :ref:` Argument #1 ($num) must be of type float, string given <wrong-type-for-native-php-function>`
 * :ref:`"continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? <continue-is-for-loop>`
 * :ref:`$GLOBALS can only be modified using the $GLOBALS[$name] = $value syntax <restrict-global-usage>`
 * :ref:`A function with return type must return a value (did you mean "return null;" instead of "return;"?) <typehint-must-be-returned>`
@@ -81322,6 +81322,8 @@ Exakat helps reduce the amount of error and warning that code is producing by re
 * :ref:`Accessing static property aa\:\:$a as non static <wrong-access-style-to-property>`
 * :ref:`An alias (%s) was defined for method %s(), but this method does not exist <undefined-insteadof>`
 * :ref:`Argument #1 ($line) must be passed by reference <array\_map()-passes-by-value>`
+* :ref:`Argument #1 ($s) must be of type X, int given <wrong-type-with-call>`
+* :ref:`Argument #1 must be of type float, string given <wrong-type-for-native-php-function>`
 * :ref:`Argument 1 passed to foo() must be of the type integer, string given <mismatch-type-and-default>`
 * :ref:`Argument cannot be passed by reference <only-container-for-reference>`
 * :ref:`Argument cannot be passed by reference <only-variable-for-reference>`
