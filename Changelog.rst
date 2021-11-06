@@ -16,7 +16,8 @@ Here is the release note of exakat.
     + 
 
 + Analysis
-    + 
+    + New analysis : report the missing mixed returntype for jsonserialize
+    + New analysis : report final with constants
 
 + Tokenizer
     + 

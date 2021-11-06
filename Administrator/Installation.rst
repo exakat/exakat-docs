@@ -24,7 +24,7 @@ Exakat relies on external components : mandatroy or optional.
 Basic requirements : 
 
 * exakat.phar, the main code.
-* `Gremlin server <http://tinkerpop.apache.org/>`_ : exakat uses this graph database and the Gremlin 3 traversal language. Currently, only Gremlin Server is supported, with the tinkergraph and neo4j storage engine. Version 3.4.x is the recommended version, while version 3.3.x are still supported. Gremlin version 3.2.* and 3.5.* are unsupported. 
+* `Gremlin server <http://tinkerpop.apache.org/>`_ : exakat uses this graph database and the Gremlin 3 traversal language. Currently, only Gremlin Server is supported, with the tinkergraph and neo4j storage engine. Version 3.4.x is the recommended version, while version 3.3.x are still supported. Gremlin version 3.2.# and 3.5.# are unsupported. 
 * Java 8.x. Java 9.x/10.x will be supported later. Java 7.x was used, but is not actively supported.
 * `PHP <https://www.php.net/>`_ 8.0 to run. PHP 8.0 is recommended, PHP 7.2 or later are possible. This version requires the PHP extensions curl, hash, phar, sqlite3, tokenizer, mbstring and json. 
 
@@ -35,7 +35,10 @@ Optional requirements :
 * Archives, such as zip, tgz, tbz2 may also be opened with optional helpers (See `Installation guide for optional tools`_).
 
 OS requirements : 
-Exakat has beed tested on OSX, Debian and Ubuntu (up to 20.04). Exakat should work on Linux distributions, may be with little work. Exakat hasn't been tested on Windows at all. 
+
+* Exakat has beed tested on OSX, Debian and Ubuntu (up to 20.04). 
+* Exakat should work on Linux distributions, may be with little work. 
+* Exakat hasn't been tested on Windows at all. 
 
 For installation, curl or wget, and zip are needed.
 
@@ -101,7 +104,7 @@ Paste the following commands in a terminal prompt. It downloads Exakat, and inst
 PHP 7.4 or more recent, curl, homebrew are required.
 
 OSX installation with tinkergraph 3.4.11
-****************************************
+########################################
 
 This is the installation script for Exakat and tinkergraph 3.4.11. 
 
@@ -123,7 +126,7 @@ This is the installation script for Exakat and tinkergraph 3.4.11.
     php exakat.phar doctor
 
 OSX installation troubleshooting
-********************************
+################################
 
 It has be reported that installation fails on OSX 10.11 and 10.12, with error similar to 'Error grabbing Grapes'. To fix this, use the following in command line : 
 
@@ -141,7 +144,7 @@ Installation on Debian/Ubuntu
 -----------------------------
 
 Debian/Ubuntu installation with Tinkergraph 3.4.11
-**************************************************
+##################################################
 
 Paste the following commands in a terminal prompt. It installs Exakat most recent version with Tinkergraph 3.4.11. 
 PHP 7.3 (7.0 or more recent), wget and unzip are expected.
@@ -166,7 +169,7 @@ PHP 7.3 (7.0 or more recent), wget and unzip are expected.
     
 
 Prerequisites : Full installation with Debian/Ubuntu
-****************************************************
+####################################################
 
 The following commands are an optional pre-requisite to the installation guide, that just follows. If something is missing in the next section, check with this section that all has beed installed correctly.
 
@@ -201,7 +204,7 @@ Installation guide with Composer
 --------------------------------
 
 Composer installation first run
-*******************************
+###############################
 
 To install Exakat with composer, you can use the following commands: 
 
@@ -235,7 +238,7 @@ There are multiple ways to use exakat with docker. There is an image with a full
 image:: images/exakat-and-docker.png
 
 Docker image for Exakat with projects folder
-********************************************
+############################################
 
 Installation with Docker is easy, and convenient. It hides the dependency of the graph database, and keeps all files in the 'projects' folder, created in the working directory. 
 
@@ -249,14 +252,14 @@ Currently, Docker installation only ships with one PHP version (7.3), and with s
 
     docker pull exakat/exakat
 
-* Check-run exakat : 
+# Check-run exakat : 
 
 ::
 
     docker run -it -v $(pwd)/projects:/usr/src/exakat/projects --rm --name my-exakat exakat/exakat exakat version
     docker run -it -v $(pwd)/projects:/usr/src/exakat/projects --rm --name my-exakat exakat/exakat exakat doctor
 
-* Init a project : 
+# Init a project : 
 
 ::
 
@@ -269,13 +272,13 @@ If you need SSH credentials to clone a project, you may import your SSH keys in 
     docker run -it -v /home/my-user/.ssh:/home/exakat/ssh -v $(pwd)/projects:/usr/src/exakat/projects --rm --name my-exakat exakat/exakat exakat init -p <project name> -R <vcs_url>
 
 
-* Run exakat : 
+# Run exakat : 
 
 ::
 
     docker run -it -v $(pwd)/projects:/usr/src/exakat/projects --rm --name my-exakat exakat/exakat exakat project -p <project name>
 
-* Run exakat directly in the code base. For that, the code needs to have the .exakat.yml or .exakat.ini file available at the root. Then, you may call exakat with the 'project' command, without other options. 
+# Run exakat directly in the code base. For that, the code needs to have the .exakat.yml or .exakat.ini file available at the root. Then, you may call exakat with the 'project' command, without other options. 
 
 ::
 
@@ -305,7 +308,7 @@ You may also create a handy shortcut, by creating an exakat.sh script and put it
     ./exakat.sh version
 
 Docker image for Exakat with projects folder
-********************************************
+############################################
 
 To run exakat inside the audited code, you must configure the `.exakat.ini` or `.exakat.yaml` file. See `Add Exakat To Your CI Pipeline <https://www.exakat.io/add-exakat-to-your-ci-pipeline/>`_.
 
@@ -317,7 +320,7 @@ Then, you can run the following command, with docker :
 
 
 Docker PHP image with Exakat
-****************************
+############################
 
 Exakat recognizes docker images configured as PHP binaries. Instead of configuring exakat with local binaries, such as `/usr/bin/php`, you may configure a specific PHP version with a docker image. 
 
@@ -335,7 +338,7 @@ Open the `config/exakat.ini` file, at the root of the exakat installation, and u
 The image may be any docker image that provides a PHP binary. We suggest using `tetraweb/php <https://hub.docker.com/r/tetraweb/php/>`_, which supports PHP 5.5 to 7.1. There are other images available, and you may also roll out your own.
 
 Docker Gremlin image with Exakat
-********************************
+################################
 
 Exakat is able to use only the central database, Gremlin, as a docker image. This is convenient, as the database is only a temporary database, and those data are not necessary for producing the final reports. 
 
@@ -346,13 +349,13 @@ Installation guide as Github Action
 -----------------------------------
 
 Github Action
-*************
+#############
 
 `Github Action <https://docs.github.com/en/actions>`_ is a way to "Automate, customize, and execute your software development workflows right in your repository". Exakat may be run on Github platform.
  
  
 Github Action for Exakat
-************************
+########################
 
 To add Exakat to your repository on Github, create a file `.github/workflows/test.yml`, at the root of your repository (`.github/workflows` might already exists).
 
@@ -373,11 +376,66 @@ In the file, use the following YAML code. It will create an automatic action, on
 
 Note : it is recommended to edit this file directly on github.com, as it cannot be pushed from a remote repository. 
 
-Then, you can use the `Action` button, next to 'Pull requests'. 
+Then, you can use the `Action` button, next to 'Pull requests'. This will run Exakat on the repository, with the 'CI-checks' ruleset, and in the 'Perfile' format. 
+
+Github Action Configuration directives
+######################################
+
+It is possible to provide custom directives to the Exakat Github action, by using the 'with' keyword in the configuration. Here is an example : 
+
+:: 
+
+    on: [push, pull_request]
+    name: Test
+    jobs:
+      exakat:
+        name: Exakat
+        runs-on: ubuntu-latest
+        steps:
+        - uses: actions/checkout@v2
+        - name: Exakat
+          uses: docker://exakat/exakat-ga
+        - with:
+          ignore_rules: 'Classes/StaticMethodsCalledFromObject,Php/ShouldUseCoalesce,Functions/UsesDefaultArguments'
+          ignore_dirs: '/path/to/repos#1,/path/to/repos#2,/path/to/repos#3'
+
+The supported directives are the following: 
+
+
+* **exit_on_issues** : default to true. The github action returns with exit code 1 if any issue is found during the review. Set this to empty string, to have the action return 0. You may also configure the step with `continue-on-error <https://docs.github.com/en/actions/learn-github-actions/workflow-syntax-for-github-actions#jobsjob_idstepscontinue-on-error>`_.
+* **ignore_rules** : default to empty. A comma-separated list of Exakat rule short names, that will be excluded from the review. For example : ignore_rules: Structures/AddOne,Structures/PlusEgalOne. 
+* **ignore_dirs** : default to empty. A comma-separated list folders that will be omitted. They are relative to the root of the repository.
+* **include_dirs** : default to empty. A comma-separated list folders that must be added. They are relative to the root of the repository, and will be added after the ignore_dirs directive.
+* **file_extensions** : default to exakat's default value. A comma-separated list of file extensions to filter the processed files. Default list is php,php3,inc,tpl,phtml,tmpl,phps,ctp,module. This configuration replaces the default one. 
+* **project_reports** : default to Perfile. A comma-separated list of Exakat reports to be processed. For example : Perfile,Sarif,Diplomat. Reports such as 'Diplomat' must be uploaded elsewhere (with `upload artifact <https://github.com/actions/upload-artifact>`_), as the produced file will be written in the Github Action, which is later removed.
+
+Upload reports as artefact
+++++++++++++++++++++++++++
+
+When producing a report with Github action, the result is either send to STDOUT, aka the log in the Github interface. Or, it is written in the Github action. When this is done, the report must be uploaded out of the Github action to be preserved. 
+
+Github upload, aka actions/upload-artifact@v2, may be used for that purpose. Add the following configuration in the action file : 
+
+::
+
+    - uses: actions/upload-artifact@v2
+      with:
+        name: my-exakat-report
+        path: /github/workspace/path/to/report
+
+
+The path to report is stored in the ``/github/workspace`` folder, with different names depending on the requested exakat report. For example, the `Yaml` report is exported to 'exakat.yaml', while the `Diplomat` report is stored in a folder called 'diplomat'. Thus, the configuration shall be : 
+
+::
+
+    - uses: actions/upload-artifact@v2
+      with:
+        name: my-exakat-report
+        path: /github/workspace/diplomat
 
 
 Exakat Docker image for Github Action
-*************************************
+#####################################
 
 A Docker image is released with Exakat's version automatically, to be used with Github Action. It is available at `https://hub.docker.com/r/exakat/exakat-ga <https://hub.docker.com/r/exakat/exakat-ga>`_.
 
@@ -408,16 +466,16 @@ Installation guide for optional tools
 
 Exakat is able to use a variety of tools to access PHP code to audit. Some external tools are necessary. You can check which tools are recognized locally with the `exakat doctor -v` command. 
 
-+ `bazaar <https://bazaar.canonical.com/en/>`_ : the `bzr` command must be available.
-+ `composer <https://getcomposer.org/>`_ : the `composer` command must be available.
-+ `CVS <https://www.nongnu.org/cvs/>`_ : the `cvs` command must be available
-+ `Git <https://git-scm.com/>`_ : the `git` command must be available.
-+ `mercurial <https://www.mercurial-scm.org/>`_ : the `hg` must be available
-+ `Svn <https://subversion.apache.org/>`_ : the `svn` command must be available.
-+ tgz : the `tar` and `gunzip` commands must be available
-+ tbz : the `tar` and `bunzip2` commands must be available.
-+ `rar <https://en.wikipedia.org/wiki/RAR_(file_format)>`_ : the `rar` commands must be available.
-+ `zip <https://en.wikipedia.org/wiki/Zip_(file_format)>`_ : the `unzip` command must be available.
-+ `7z <https://www.7-zip.org/7z.html>`_ : the `7z` command must be available
+* `bazaar <https://bazaar.canonical.com/en/>`_ : the `bzr` command must be available.
+* `composer <https://getcomposer.org/>`_ : the `composer` command must be available.
+* `CVS <https://www.nongnu.org/cvs/>`_ : the `cvs` command must be available
+* `Git <https://git-scm.com/>`_ : the `git` command must be available.
+* `mercurial <https://www.mercurial-scm.org/>`_ : the `hg` must be available
+* `Svn <https://subversion.apache.org/>`_ : the `svn` command must be available.
+* tgz : the `tar` and `gunzip` commands must be available
+* tbz : the `tar` and `bunzip2` commands must be available.
+* `rar <https://en.wikipedia.org/wiki/RAR_(file_format)>`_ : the `rar` commands must be available.
+* `zip <https://en.wikipedia.org/wiki/Zip_(file_format)>`_ : the `unzip` command must be available.
+* `7z <https://www.7-zip.org/7z.html>`_ : the `7z` command must be available
 
 The binaries above are used with the `init` and `update` commands, to get the source code. They are optional.

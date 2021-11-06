@@ -159,6 +159,7 @@ List of external links mentionned in this documentation.
 * `constant() <https://www.php.net/constant>`_
 * `Constants <https://www.php.net/manual/en/language.constants.php>`_
 * `Constructors and Destructors <https://www.php.net/manual/en/language.oop5.decon.php>`_
+* `continue-on-error <https://docs.github.com/en/actions/learn-github-actions/workflow-syntax-for-github-actions#jobsjob_idstepscontinue-on-error>`_
 * `Cookies <https://www.php.net/manual/en/features.cookies.php>`_
 * `count <https://www.php.net/count>`_
 * `Courier Anti-pattern <https://r.je/oop-courier-anti-pattern.html>`_
@@ -670,6 +671,7 @@ List of external links mentionned in this documentation.
 * `Unset casting <https://www.php.net/manual/en/language.types.null.php#language.types.null.casting>`_
 * `UPGRADING 7.3 <https://github.com/php/php-src/blob/PHP-7.3/UPGRADING#L83-L95>`_
 * `UPGRADING PHP 8.0 <https://github.com/php/php-src/blob/master/UPGRADING>`_
+* `upload artifact <https://github.com/actions/upload-artifact>`_
 * `Use of Hardcoded IPv4 Addresses <https://docs.microsoft.com/en-us/windows/desktop/winsock/use-of-hardcoded-ipv4-addresses-2>`_
 * `Using namespaces: Aliasing/Importing <https://www.php.net/manual/en/language.namespaces.importing.php>`_
 * `Using namespaces: fallback to global function/constant <https://www.php.net/manual/en/language.namespaces.fallback.php>`_
@@ -735,13 +737,13 @@ List of rulesets configuration, to be used as base for configuring new rulesets.
 .. _annex-preferences:
 
 Preferences
-###########
++++++++++++
 
 
 .. _annex-ini-preferences:
 
 Preferences for INI
-+++++++++++++++++++
+___________________
 
 
 INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and edit them to your owns.
@@ -779,7 +781,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
 .. _annex-yaml-preferences:
 
 Preferences for .exakat.yaml
-++++++++++++++++++++++++++++
+____________________________
 
 
 YAML configuration for built-in rulesets. Copy them in your code, with the name .exakat.yaml, and edit them to your owns.
@@ -821,13 +823,13 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
 .. _annex-analyze:
 
 Analyze
-#######
++++++++
 
 
 .. _annex-ini-analyze:
 
 Analyze for INI
-+++++++++++++++
+_______________
 
 
 INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and edit them to your owns.
@@ -1046,6 +1048,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Php/InternalParameterType";
    analyzer[] = "Php/IsAWithString";
    analyzer[] = "Php/IsnullVsEqualNull";
+   analyzer[] = "Php/JsonSerializeReturnType";
    analyzer[] = "Php/LogicalInLetters";
    analyzer[] = "Php/MissingMagicIsset";
    analyzer[] = "Php/MissingSubpattern";
@@ -1266,7 +1269,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
 .. _annex-yaml-analyze:
 
 Analyze for .exakat.yaml
-++++++++++++++++++++++++
+________________________
 
 
 YAML configuration for built-in rulesets. Copy them in your code, with the name .exakat.yaml, and edit them to your owns.
@@ -1486,6 +1489,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Php/InternalParameterType'
      - 'Php/IsAWithString'
      - 'Php/IsnullVsEqualNull'
+     - 'Php/JsonSerializeReturnType'
      - 'Php/LogicalInLetters'
      - 'Php/MissingMagicIsset'
      - 'Php/MissingSubpattern'
@@ -1709,13 +1713,13 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
 .. _annex-attributes:
 
 Attributes
-##########
+++++++++++
 
 
 .. _annex-ini-attributes:
 
 Attributes for INI
-++++++++++++++++++
+__________________
 
 
 INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and edit them to your owns.
@@ -1729,7 +1733,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
 .. _annex-yaml-attributes:
 
 Attributes for .exakat.yaml
-+++++++++++++++++++++++++++
+___________________________
 
 
 YAML configuration for built-in rulesets. Copy them in your code, with the name .exakat.yaml, and edit them to your owns.
@@ -1747,13 +1751,13 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
 .. _annex-ce:
 
 CE
-##
+++
 
 
 .. _annex-ini-ce:
 
 CE for INI
-++++++++++
+__________
 
 
 INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and edit them to your owns.
@@ -2418,7 +2422,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
 .. _annex-yaml-ce:
 
 CE for .exakat.yaml
-+++++++++++++++++++
+___________________
 
 
 YAML configuration for built-in rulesets. Copy them in your code, with the name .exakat.yaml, and edit them to your owns.
@@ -3087,13 +3091,13 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
 .. _annex-ci-checks:
 
 CI-checks
-#########
++++++++++
 
 
 .. _annex-ini-ci-checks:
 
 CI-checks for INI
-+++++++++++++++++
+_________________
 
 
 INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and edit them to your owns.
@@ -3281,7 +3285,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
 .. _annex-yaml-ci-checks:
 
 CI-checks for .exakat.yaml
-++++++++++++++++++++++++++
+__________________________
 
 
 YAML configuration for built-in rulesets. Copy them in your code, with the name .exakat.yaml, and edit them to your owns.
@@ -3473,13 +3477,13 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
 .. _annex-classreview:
 
 ClassReview
-###########
++++++++++++
 
 
 .. _annex-ini-classreview:
 
 ClassReview for INI
-+++++++++++++++++++
+___________________
 
 
 INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and edit them to your owns.
@@ -3545,7 +3549,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
 .. _annex-yaml-classreview:
 
 ClassReview for .exakat.yaml
-++++++++++++++++++++++++++++
+____________________________
 
 
 YAML configuration for built-in rulesets. Copy them in your code, with the name .exakat.yaml, and edit them to your owns.
@@ -3615,13 +3619,13 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
 .. _annex-coding-conventions:
 
 Coding conventions
-##################
+++++++++++++++++++
 
 
 .. _annex-ini-coding-conventions:
 
 Coding conventions for INI
-++++++++++++++++++++++++++
+__________________________
 
 
 INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and edit them to your owns.
@@ -3632,7 +3636,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
 .. _annex-yaml-coding-conventions:
 
 Coding conventions for .exakat.yaml
-+++++++++++++++++++++++++++++++++++
+___________________________________
 
 
 YAML configuration for built-in rulesets. Copy them in your code, with the name .exakat.yaml, and edit them to your owns.
@@ -3647,13 +3651,13 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
 .. _annex-compatibilityphp53:
 
 CompatibilityPHP53
-##################
+++++++++++++++++++
 
 
 .. _annex-ini-compatibilityphp53:
 
 CompatibilityPHP53 for INI
-++++++++++++++++++++++++++
+__________________________
 
 
 INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and edit them to your owns.
@@ -3744,7 +3748,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
 .. _annex-yaml-compatibilityphp53:
 
 CompatibilityPHP53 for .exakat.yaml
-+++++++++++++++++++++++++++++++++++
+___________________________________
 
 
 YAML configuration for built-in rulesets. Copy them in your code, with the name .exakat.yaml, and edit them to your owns.
@@ -3839,13 +3843,13 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
 .. _annex-compatibilityphp54:
 
 CompatibilityPHP54
-##################
+++++++++++++++++++
 
 
 .. _annex-ini-compatibilityphp54:
 
 CompatibilityPHP54 for INI
-++++++++++++++++++++++++++
+__________________________
 
 
 INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and edit them to your owns.
@@ -3932,7 +3936,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
 .. _annex-yaml-compatibilityphp54:
 
 CompatibilityPHP54 for .exakat.yaml
-+++++++++++++++++++++++++++++++++++
+___________________________________
 
 
 YAML configuration for built-in rulesets. Copy them in your code, with the name .exakat.yaml, and edit them to your owns.
@@ -4023,13 +4027,13 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
 .. _annex-compatibilityphp55:
 
 CompatibilityPHP55
-##################
+++++++++++++++++++
 
 
 .. _annex-ini-compatibilityphp55:
 
 CompatibilityPHP55 for INI
-++++++++++++++++++++++++++
+__________________________
 
 
 INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and edit them to your owns.
@@ -4108,7 +4112,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
 .. _annex-yaml-compatibilityphp55:
 
 CompatibilityPHP55 for .exakat.yaml
-+++++++++++++++++++++++++++++++++++
+___________________________________
 
 
 YAML configuration for built-in rulesets. Copy them in your code, with the name .exakat.yaml, and edit them to your owns.
@@ -4191,13 +4195,13 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
 .. _annex-compatibilityphp56:
 
 CompatibilityPHP56
-##################
+++++++++++++++++++
 
 
 .. _annex-ini-compatibilityphp56:
 
 CompatibilityPHP56 for INI
-++++++++++++++++++++++++++
+__________________________
 
 
 INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and edit them to your owns.
@@ -4266,7 +4270,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
 .. _annex-yaml-compatibilityphp56:
 
 CompatibilityPHP56 for .exakat.yaml
-+++++++++++++++++++++++++++++++++++
+___________________________________
 
 
 YAML configuration for built-in rulesets. Copy them in your code, with the name .exakat.yaml, and edit them to your owns.
@@ -4339,13 +4343,13 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
 .. _annex-compatibilityphp70:
 
 CompatibilityPHP70
-##################
+++++++++++++++++++
 
 
 .. _annex-ini-compatibilityphp70:
 
 CompatibilityPHP70 for INI
-++++++++++++++++++++++++++
+__________________________
 
 
 INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and edit them to your owns.
@@ -4365,6 +4369,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Php/EmptyList";
    analyzer[] = "Php/EnumUsage";
    analyzer[] = "Php/FilesFullPath";
+   analyzer[] = "Php/FinalConstant";
    analyzer[] = "Php/FlexibleHeredoc";
    analyzer[] = "Php/ForeachDontChangePointer";
    analyzer[] = "Php/GlobalWithoutSimpleVariable";
@@ -4406,7 +4411,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
 .. _annex-yaml-compatibilityphp70:
 
 CompatibilityPHP70 for .exakat.yaml
-+++++++++++++++++++++++++++++++++++
+___________________________________
 
 
 YAML configuration for built-in rulesets. Copy them in your code, with the name .exakat.yaml, and edit them to your owns.
@@ -4427,6 +4432,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Php/EmptyList'
      - 'Php/EnumUsage'
      - 'Php/FilesFullPath'
+     - 'Php/FinalConstant'
      - 'Php/FlexibleHeredoc'
      - 'Php/ForeachDontChangePointer'
      - 'Php/GlobalWithoutSimpleVariable'
@@ -4471,13 +4477,13 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
 .. _annex-compatibilityphp71:
 
 CompatibilityPHP71
-##################
+++++++++++++++++++
 
 
 .. _annex-ini-compatibilityphp71:
 
 CompatibilityPHP71 for INI
-++++++++++++++++++++++++++
+__________________________
 
 
 INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and edit them to your owns.
@@ -4495,6 +4501,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Php/ConcatAndAddition";
    analyzer[] = "Php/EnumUsage";
    analyzer[] = "Php/FilesFullPath";
+   analyzer[] = "Php/FinalConstant";
    analyzer[] = "Php/FlexibleHeredoc";
    analyzer[] = "Php/GroupUseTrailingComma";
    analyzer[] = "Php/HashAlgos53";
@@ -4525,7 +4532,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
 .. _annex-yaml-compatibilityphp71:
 
 CompatibilityPHP71 for .exakat.yaml
-+++++++++++++++++++++++++++++++++++
+___________________________________
 
 
 YAML configuration for built-in rulesets. Copy them in your code, with the name .exakat.yaml, and edit them to your owns.
@@ -4544,6 +4551,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Php/ConcatAndAddition'
      - 'Php/EnumUsage'
      - 'Php/FilesFullPath'
+     - 'Php/FinalConstant'
      - 'Php/FlexibleHeredoc'
      - 'Php/GroupUseTrailingComma'
      - 'Php/HashAlgos53'
@@ -4577,13 +4585,13 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
 .. _annex-compatibilityphp72:
 
 CompatibilityPHP72
-##################
+++++++++++++++++++
 
 
 .. _annex-ini-compatibilityphp72:
 
 CompatibilityPHP72 for INI
-++++++++++++++++++++++++++
+__________________________
 
 
 INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and edit them to your owns.
@@ -4596,6 +4604,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Php/ConcatAndAddition";
    analyzer[] = "Php/EnumUsage";
    analyzer[] = "Php/FilesFullPath";
+   analyzer[] = "Php/FinalConstant";
    analyzer[] = "Php/FlexibleHeredoc";
    analyzer[] = "Php/HashAlgos53";
    analyzer[] = "Php/HashAlgos54";
@@ -4624,7 +4633,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
 .. _annex-yaml-compatibilityphp72:
 
 CompatibilityPHP72 for .exakat.yaml
-+++++++++++++++++++++++++++++++++++
+___________________________________
 
 
 YAML configuration for built-in rulesets. Copy them in your code, with the name .exakat.yaml, and edit them to your owns.
@@ -4638,6 +4647,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Php/ConcatAndAddition'
      - 'Php/EnumUsage'
      - 'Php/FilesFullPath'
+     - 'Php/FinalConstant'
      - 'Php/FlexibleHeredoc'
      - 'Php/HashAlgos53'
      - 'Php/HashAlgos54'
@@ -4669,13 +4679,13 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
 .. _annex-compatibilityphp73:
 
 CompatibilityPHP73
-##################
+++++++++++++++++++
 
 
 .. _annex-ini-compatibilityphp73:
 
 CompatibilityPHP73 for INI
-++++++++++++++++++++++++++
+__________________________
 
 
 INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and edit them to your owns.
@@ -4689,6 +4699,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Php/ConcatAndAddition";
    analyzer[] = "Php/EnumUsage";
    analyzer[] = "Php/FilesFullPath";
+   analyzer[] = "Php/FinalConstant";
    analyzer[] = "Php/IntegerSeparatorUsage";
    analyzer[] = "Php/Php73NewFunctions";
    analyzer[] = "Php/Php73RemovedFunctions";
@@ -4705,7 +4716,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
 .. _annex-yaml-compatibilityphp73:
 
 CompatibilityPHP73 for .exakat.yaml
-+++++++++++++++++++++++++++++++++++
+___________________________________
 
 
 YAML configuration for built-in rulesets. Copy them in your code, with the name .exakat.yaml, and edit them to your owns.
@@ -4720,6 +4731,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Php/ConcatAndAddition'
      - 'Php/EnumUsage'
      - 'Php/FilesFullPath'
+     - 'Php/FinalConstant'
      - 'Php/IntegerSeparatorUsage'
      - 'Php/Php73NewFunctions'
      - 'Php/Php73RemovedFunctions'
@@ -4739,13 +4751,13 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
 .. _annex-compatibilityphp74:
 
 CompatibilityPHP74
-##################
+++++++++++++++++++
 
 
 .. _annex-ini-compatibilityphp74:
 
 CompatibilityPHP74 for INI
-++++++++++++++++++++++++++
+__________________________
 
 
 INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and edit them to your owns.
@@ -4760,6 +4772,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Php/EnumUsage";
    analyzer[] = "Php/FilesFullPath";
    analyzer[] = "Php/FilterToAddSlashes";
+   analyzer[] = "Php/FinalConstant";
    analyzer[] = "Php/HashAlgos74";
    analyzer[] = "Php/IdnUts46";
    analyzer[] = "Php/NestedTernaryWithoutParenthesis";
@@ -4787,7 +4800,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
 .. _annex-yaml-compatibilityphp74:
 
 CompatibilityPHP74 for .exakat.yaml
-+++++++++++++++++++++++++++++++++++
+___________________________________
 
 
 YAML configuration for built-in rulesets. Copy them in your code, with the name .exakat.yaml, and edit them to your owns.
@@ -4803,6 +4816,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Php/EnumUsage'
      - 'Php/FilesFullPath'
      - 'Php/FilterToAddSlashes'
+     - 'Php/FinalConstant'
      - 'Php/HashAlgos74'
      - 'Php/IdnUts46'
      - 'Php/NestedTernaryWithoutParenthesis'
@@ -4833,13 +4847,13 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
 .. _annex-compatibilityphp80:
 
 CompatibilityPHP80
-##################
+++++++++++++++++++
 
 
 .. _annex-ini-compatibilityphp80:
 
 CompatibilityPHP80 for INI
-++++++++++++++++++++++++++
+__________________________
 
 
 INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and edit them to your owns.
@@ -4856,6 +4870,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Php/CastUnsetUsage";
    analyzer[] = "Php/ConcatAndAddition";
    analyzer[] = "Php/EnumUsage";
+   analyzer[] = "Php/FinalConstant";
    analyzer[] = "Php/Php74RemovedDirective";
    analyzer[] = "Php/Php80NamedParameterVariadic";
    analyzer[] = "Php/Php80RemovedConstant";
@@ -4869,7 +4884,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
 .. _annex-yaml-compatibilityphp80:
 
 CompatibilityPHP80 for .exakat.yaml
-+++++++++++++++++++++++++++++++++++
+___________________________________
 
 
 YAML configuration for built-in rulesets. Copy them in your code, with the name .exakat.yaml, and edit them to your owns.
@@ -4887,6 +4902,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Php/CastUnsetUsage'
      - 'Php/ConcatAndAddition'
      - 'Php/EnumUsage'
+     - 'Php/FinalConstant'
      - 'Php/Php74RemovedDirective'
      - 'Php/Php80NamedParameterVariadic'
      - 'Php/Php80RemovedConstant'
@@ -4903,13 +4919,13 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
 .. _annex-compatibilityphp81:
 
 CompatibilityPHP81
-##################
+++++++++++++++++++
 
 
 .. _annex-ini-compatibilityphp81:
 
 CompatibilityPHP81 for INI
-++++++++++++++++++++++++++
+__________________________
 
 
 INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and edit them to your owns.
@@ -4918,6 +4934,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
  [CompatibilityPHP81]
    analyzer[] = "Functions/NoReferencedVoid";
    analyzer[] = "Php/CallingStaticTraitMethod";
+   analyzer[] = "Php/JsonSerializeReturnType";
    analyzer[] = "Php/NativeClassTypeCompatibility";
    analyzer[] = "Php/NoNullForNative";
    analyzer[] = "Php/OpensslEncryptAlgoChange";
@@ -4930,7 +4947,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
 .. _annex-yaml-compatibilityphp81:
 
 CompatibilityPHP81 for .exakat.yaml
-+++++++++++++++++++++++++++++++++++
+___________________________________
 
 
 YAML configuration for built-in rulesets. Copy them in your code, with the name .exakat.yaml, and edit them to your owns.
@@ -4940,6 +4957,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
     'CompatibilityPHP81':
      - 'Functions/NoReferencedVoid'
      - 'Php/CallingStaticTraitMethod'
+     - 'Php/JsonSerializeReturnType'
      - 'Php/NativeClassTypeCompatibility'
      - 'Php/NoNullForNative'
      - 'Php/OpensslEncryptAlgoChange'
@@ -4955,13 +4973,13 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
 .. _annex-dead-code:
 
 Dead code
-#########
++++++++++
 
 
 .. _annex-ini-dead-code:
 
 Dead code for INI
-+++++++++++++++++
+_________________
 
 
 INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and edit them to your owns.
@@ -4997,7 +5015,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
 .. _annex-yaml-dead-code:
 
 Dead code for .exakat.yaml
-++++++++++++++++++++++++++
+__________________________
 
 
 YAML configuration for built-in rulesets. Copy them in your code, with the name .exakat.yaml, and edit them to your owns.
@@ -5037,13 +5055,13 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
 .. _annex-lintbutwontexec:
 
 LintButWontExec
-###############
++++++++++++++++
 
 
 .. _annex-ini-lintbutwontexec:
 
 LintButWontExec for INI
-+++++++++++++++++++++++
+_______________________
 
 
 INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and edit them to your owns.
@@ -5076,6 +5094,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Interfaces/ConcreteVisibility";
    analyzer[] = "Interfaces/IsNotImplemented";
    analyzer[] = "Interfaces/RepeatedInterface";
+   analyzer[] = "Php/JsonSerializeReturnType";
    analyzer[] = "Php/OnlyVariableForReference";
    analyzer[] = "Traits/MethodCollisionTraits";
    analyzer[] = "Traits/TraitNotFound";
@@ -5085,7 +5104,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
 .. _annex-yaml-lintbutwontexec:
 
 LintButWontExec for .exakat.yaml
-++++++++++++++++++++++++++++++++
+________________________________
 
 
 YAML configuration for built-in rulesets. Copy them in your code, with the name .exakat.yaml, and edit them to your owns.
@@ -5119,6 +5138,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Interfaces/ConcreteVisibility'
      - 'Interfaces/IsNotImplemented'
      - 'Interfaces/RepeatedInterface'
+     - 'Php/JsonSerializeReturnType'
      - 'Php/OnlyVariableForReference'
      - 'Traits/MethodCollisionTraits'
      - 'Traits/TraitNotFound'
@@ -5131,13 +5151,13 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
 .. _annex-performances:
 
 Performances
-############
+++++++++++++
 
 
 .. _annex-ini-performances:
 
 Performances for INI
-++++++++++++++++++++
+____________________
 
 
 INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and edit them to your owns.
@@ -5193,7 +5213,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
 .. _annex-yaml-performances:
 
 Performances for .exakat.yaml
-+++++++++++++++++++++++++++++
+_____________________________
 
 
 YAML configuration for built-in rulesets. Copy them in your code, with the name .exakat.yaml, and edit them to your owns.
@@ -5253,13 +5273,13 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
 .. _annex-rector:
 
 Rector
-######
+++++++
 
 
 .. _annex-ini-rector:
 
 Rector for INI
-++++++++++++++
+______________
 
 
 INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and edit them to your owns.
@@ -5272,7 +5292,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
 .. _annex-yaml-rector:
 
 Rector for .exakat.yaml
-+++++++++++++++++++++++
+_______________________
 
 
 YAML configuration for built-in rulesets. Copy them in your code, with the name .exakat.yaml, and edit them to your owns.
@@ -5289,13 +5309,13 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
 .. _annex-security:
 
 Security
-########
+++++++++
 
 
 .. _annex-ini-security:
 
 Security for INI
-++++++++++++++++
+________________
 
 
 INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and edit them to your owns.
@@ -5349,7 +5369,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
 .. _annex-yaml-security:
 
 Security for .exakat.yaml
-+++++++++++++++++++++++++
+_________________________
 
 
 YAML configuration for built-in rulesets. Copy them in your code, with the name .exakat.yaml, and edit them to your owns.
@@ -5407,13 +5427,13 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
 .. _annex-semantics:
 
 Semantics
-#########
++++++++++
 
 
 .. _annex-ini-semantics:
 
 Semantics for INI
-+++++++++++++++++
+_________________
 
 
 INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and edit them to your owns.
@@ -5436,7 +5456,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
 .. _annex-yaml-semantics:
 
 Semantics for .exakat.yaml
-++++++++++++++++++++++++++
+__________________________
 
 
 YAML configuration for built-in rulesets. Copy them in your code, with the name .exakat.yaml, and edit them to your owns.
@@ -5463,13 +5483,13 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
 .. _annex-suggestions:
 
 Suggestions
-###########
++++++++++++
 
 
 .. _annex-ini-suggestions:
 
 Suggestions for INI
-+++++++++++++++++++
+___________________
 
 
 INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and edit them to your owns.
@@ -5579,7 +5599,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
 .. _annex-yaml-suggestions:
 
 Suggestions for .exakat.yaml
-++++++++++++++++++++++++++++
+____________________________
 
 
 YAML configuration for built-in rulesets. Copy them in your code, with the name .exakat.yaml, and edit them to your owns.
@@ -5693,13 +5713,13 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
 .. _annex-top10:
 
 Top10
-#####
++++++
 
 
 .. _annex-ini-top10:
 
 Top10 for INI
-+++++++++++++
+_____________
 
 
 INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and edit them to your owns.
@@ -5737,7 +5757,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
 .. _annex-yaml-top10:
 
 Top10 for .exakat.yaml
-++++++++++++++++++++++
+______________________
 
 
 YAML configuration for built-in rulesets. Copy them in your code, with the name .exakat.yaml, and edit them to your owns.
@@ -5779,13 +5799,13 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
 .. _annex-typechecks:
 
 Typechecks
-##########
+++++++++++
 
 
 .. _annex-ini-typechecks:
 
 Typechecks for INI
-++++++++++++++++++
+__________________
 
 
 INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and edit them to your owns.
@@ -5819,7 +5839,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
 .. _annex-yaml-typechecks:
 
 Typechecks for .exakat.yaml
-+++++++++++++++++++++++++++
+___________________________
 
 
 YAML configuration for built-in rulesets. Copy them in your code, with the name .exakat.yaml, and edit them to your owns.
@@ -5857,13 +5877,13 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
 .. _annex-php-cs-fixable:
 
 php-cs-fixable
-##############
+++++++++++++++
 
 
 .. _annex-ini-php-cs-fixable:
 
 php-cs-fixable for INI
-++++++++++++++++++++++
+______________________
 
 
 INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and edit them to your owns.
@@ -5884,7 +5904,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
 .. _annex-yaml-php-cs-fixable:
 
 php-cs-fixable for .exakat.yaml
-+++++++++++++++++++++++++++++++
+_______________________________
 
 
 YAML configuration for built-in rulesets. Copy them in your code, with the name .exakat.yaml, and edit them to your owns.

@@ -89,7 +89,7 @@ Note : in command line, don't forget to add quotes to rulesets' names that inclu
 List of rulesets
 ------------------------
 
-.. _preferences:
+.. _ruleset-preferences:
 
 Preferences
 +++++++++++
@@ -127,14 +127,14 @@ Total : 28 analysis
 * :ref:`caught-variable`
 * :ref:`not-or-tilde`
 
-.. _analyze:
+.. _ruleset-analyze:
 
 Analyze
 +++++++
 
 This ruleset centralizes a large number of classic trap and pitfalls when writing PHP.
 
-Total : 429 analysis
+Total : 430 analysis
 
 * :ref:`adding-zero`
 * :ref:`ambiguous-array-index`
@@ -565,8 +565,9 @@ Total : 429 analysis
 * :ref:`No anchor for Attributes/MissingAttributeAttribute <no-anchor-for-attributes-missingattributeattribute>`
 * :ref:`No anchor for Php/NoNullForNative <no-anchor-for-php-nonullfornative>`
 * :ref:`No anchor for Functions/NoReferencedVoid <no-anchor-for-functions-noreferencedvoid>`
+* :ref:`No anchor for Php/JsonSerializeReturnType <no-anchor-for-php-jsonserializereturntype>`
 
-.. _attributes:
+.. _ruleset-attributes:
 
 Attributes
 ++++++++++
@@ -580,7 +581,7 @@ Total : 4 analysis
 * :ref:`modify-immutable`
 * :ref:`No anchor for Attributes/MissingAttributeAttribute <no-anchor-for-attributes-missingattributeattribute>`
 
-.. _ce:
+.. _ruleset-ce:
 
 CE
 ++
@@ -1245,7 +1246,7 @@ Total : 655 analysis
 * :ref:`php-8.1-removed-directives`
 * :ref:`htmlentities-using-default-flag`
 
-.. _ci-checks:
+.. _ruleset-ci-checks:
 
 CI-checks
 +++++++++
@@ -1433,7 +1434,7 @@ Total : 178 analysis
 * :ref:`htmlentities-using-default-flag`
 * :ref:`wrong-argument-name-with-php-function`
 
-.. _classreview:
+.. _ruleset-classreview:
 
 ClassReview
 +++++++++++
@@ -1499,7 +1500,7 @@ Total : 56 analysis
 * :ref:`no-static-variable-in-a-method`
 * :ref:`inherited-property-type-must-match`
 
-.. _coding-conventions:
+.. _ruleset-coding-conventions:
 
 Coding conventions
 ++++++++++++++++++
@@ -1510,7 +1511,7 @@ Total : 0 analysis
 
 * 
 
-.. _compatibilityphp53:
+.. _ruleset-compatibilityphp53:
 
 CompatibilityPHP53
 ++++++++++++++++++
@@ -1601,7 +1602,7 @@ Total : 81 analysis
 * :ref:`enum-usage`
 * :ref:`No anchor for Php/FilesFullPath <no-anchor-for-php-filesfullpath>`
 
-.. _compatibilityphp54:
+.. _ruleset-compatibilityphp54:
 
 CompatibilityPHP54
 ++++++++++++++++++
@@ -1688,7 +1689,7 @@ Total : 77 analysis
 * :ref:`enum-usage`
 * :ref:`No anchor for Php/FilesFullPath <no-anchor-for-php-filesfullpath>`
 
-.. _compatibilityphp55:
+.. _ruleset-compatibilityphp55:
 
 CompatibilityPHP55
 ++++++++++++++++++
@@ -1767,7 +1768,7 @@ Total : 69 analysis
 * :ref:`enum-usage`
 * :ref:`No anchor for Php/FilesFullPath <no-anchor-for-php-filesfullpath>`
 
-.. _compatibilityphp56:
+.. _ruleset-compatibilityphp56:
 
 CompatibilityPHP56
 ++++++++++++++++++
@@ -1836,14 +1837,14 @@ Total : 59 analysis
 * :ref:`enum-usage`
 * :ref:`No anchor for Php/FilesFullPath <no-anchor-for-php-filesfullpath>`
 
-.. _compatibilityphp70:
+.. _ruleset-compatibilityphp70:
 
 CompatibilityPHP70
 ++++++++++++++++++
 
 This ruleset centralizes all analysis for the migration from PHP 5.6 to 7.0.
 
-Total : 51 analysis
+Total : 52 analysis
 
 * :ref:`ext-ereg`
 * :ref:`mcrypt\_create\_iv()-with-default-values`
@@ -1896,15 +1897,16 @@ Total : 51 analysis
 * :ref:`union-typehint`
 * :ref:`enum-usage`
 * :ref:`No anchor for Php/FilesFullPath <no-anchor-for-php-filesfullpath>`
+* :ref:`No anchor for Php/FinalConstant <no-anchor-for-php-finalconstant>`
 
-.. _compatibilityphp71:
+.. _ruleset-compatibilityphp71:
 
 CompatibilityPHP71
 ++++++++++++++++++
 
 This ruleset centralizes all analysis for the migration from PHP 7.0 to 7.1.
 
-Total : 38 analysis
+Total : 39 analysis
 
 * :ref:`ext-mcrypt`
 * :ref:`hash-algorithms-incompatible-with-php-5.3`
@@ -1944,15 +1946,16 @@ Total : 38 analysis
 * :ref:`signature-trailing-comma`
 * :ref:`enum-usage`
 * :ref:`No anchor for Php/FilesFullPath <no-anchor-for-php-filesfullpath>`
+* :ref:`No anchor for Php/FinalConstant <no-anchor-for-php-finalconstant>`
 
-.. _compatibilityphp72:
+.. _ruleset-compatibilityphp72:
 
 CompatibilityPHP72
 ++++++++++++++++++
 
 This ruleset centralizes all analysis for the migration from PHP 7.1 to 7.2.
 
-Total : 31 analysis
+Total : 32 analysis
 
 * :ref:`undefined-constants`
 * :ref:`hash-algorithms-incompatible-with-php-5.3`
@@ -1985,15 +1988,16 @@ Total : 31 analysis
 * :ref:`throw-was-an-expression`
 * :ref:`enum-usage`
 * :ref:`No anchor for Php/FilesFullPath <no-anchor-for-php-filesfullpath>`
+* :ref:`No anchor for Php/FinalConstant <no-anchor-for-php-finalconstant>`
 
-.. _compatibilityphp73:
+.. _ruleset-compatibilityphp73:
 
 CompatibilityPHP73
 ++++++++++++++++++
 
 This ruleset centralizes all analysis for the migration from PHP 7.2 to 7.3.
 
-Total : 20 analysis
+Total : 21 analysis
 
 * :ref:`new-functions-in-php-7.3`
 * :ref:`unknown-pcre2-option`
@@ -2015,15 +2019,16 @@ Total : 20 analysis
 * :ref:`throw-was-an-expression`
 * :ref:`enum-usage`
 * :ref:`No anchor for Php/FilesFullPath <no-anchor-for-php-filesfullpath>`
+* :ref:`No anchor for Php/FinalConstant <no-anchor-for-php-finalconstant>`
 
-.. _compatibilityphp74:
+.. _ruleset-compatibilityphp74:
 
 CompatibilityPHP74
 ++++++++++++++++++
 
 This ruleset centralizes all analysis for the migration from PHP 7.3 to 7.4.
 
-Total : 32 analysis
+Total : 33 analysis
 
 * :ref:`detect-current-class`
 * :ref:`don't-read-and-write-in-one-expression`
@@ -2057,15 +2062,16 @@ Total : 32 analysis
 * :ref:`avoid-get\_object\_vars()`
 * :ref:`enum-usage`
 * :ref:`No anchor for Php/FilesFullPath <no-anchor-for-php-filesfullpath>`
+* :ref:`No anchor for Php/FinalConstant <no-anchor-for-php-finalconstant>`
 
-.. _compatibilityphp80:
+.. _ruleset-compatibilityphp80:
 
 CompatibilityPHP80
 ++++++++++++++++++
 
 This ruleset centralizes all analysis for the migration from PHP 7.4 to 8.0.
 
-Total : 20 analysis
+Total : 21 analysis
 
 * :ref:`old-style-constructor`
 * :ref:`wrong-optional-parameter`
@@ -2087,15 +2093,16 @@ Total : 20 analysis
 * :ref:`reserved-match-keyword`
 * :ref:`avoid-get\_object\_vars()`
 * :ref:`enum-usage`
+* :ref:`No anchor for Php/FinalConstant <no-anchor-for-php-finalconstant>`
 
-.. _compatibilityphp81:
+.. _ruleset-compatibilityphp81:
 
 CompatibilityPHP81
 ++++++++++++++++++
 
 This ruleset centralizes all analysis for the migration from PHP 8.0 to 8.1.
 
-Total : 11 analysis
+Total : 12 analysis
 
 * :ref:`php-7.4-removed-directives`
 * :ref:`php-8.0-removed-directives`
@@ -2108,8 +2115,9 @@ Total : 11 analysis
 * :ref:`No anchor for Php/NoNullForNative <no-anchor-for-php-nonullfornative>`
 * :ref:`No anchor for Php/CallingStaticTraitMethod <no-anchor-for-php-callingstatictraitmethod>`
 * :ref:`No anchor for Functions/NoReferencedVoid <no-anchor-for-functions-noreferencedvoid>`
+* :ref:`No anchor for Php/JsonSerializeReturnType <no-anchor-for-php-jsonserializereturntype>`
 
-.. _dead-code:
+.. _ruleset-dead-code:
 
 Dead code
 +++++++++
@@ -2145,14 +2153,14 @@ Total : 26 analysis
 * :ref:`self-using-trait`
 * :ref:`useless-type-check`
 
-.. _lintbutwontexec:
+.. _ruleset-lintbutwontexec:
 
 LintButWontExec
 +++++++++++++++
 
 This ruleset focuses on PHP code that lint (php -l), but that will not run. As such, this ruleset tries to go further than PHP, by connecting files, just like during execution.
 
-Total : 32 analysis
+Total : 33 analysis
 
 * :ref:`final-class-usage`
 * :ref:`final-methods-usage`
@@ -2186,8 +2194,9 @@ Total : 32 analysis
 * :ref:`only-container-for-reference`
 * :ref:`inherited-property-type-must-match`
 * :ref:`duplicate-named-parameter`
+* :ref:`No anchor for Php/JsonSerializeReturnType <no-anchor-for-php-jsonserializereturntype>`
 
-.. _performances:
+.. _ruleset-performances:
 
 Performances
 ++++++++++++
@@ -2243,7 +2252,7 @@ Total : 46 analysis
 * :ref:`no-mb\_substr-in-loop`
 * :ref:`optimize-explode()`
 
-.. _rector:
+.. _ruleset-rector:
 
 Rector
 ++++++
@@ -2256,7 +2265,7 @@ Total : 3 analysis
 * :ref:`else-if-versus-elseif`
 * :ref:`is\_a()-with-string`
 
-.. _security:
+.. _ruleset-security:
 
 Security
 ++++++++
@@ -2310,7 +2319,7 @@ Total : 44 analysis
 * :ref:`keep-files-access-restricted`
 * :ref:`check-crypto-key-length`
 
-.. _semantics:
+.. _ruleset-semantics:
 
 Semantics
 +++++++++
@@ -2333,7 +2342,7 @@ Total : 13 analysis
 * :ref:`prefix-and-suffixes-with-typehint`
 * :ref:`mismatch-parameter-and-type`
 
-.. _suggestions:
+.. _ruleset-suggestions:
 
 Suggestions
 +++++++++++
@@ -2443,7 +2452,7 @@ Total : 100 analysis
 * :ref:`declare-static-once`
 * :ref:`could-use-match`
 
-.. _top10:
+.. _ruleset-top10:
 
 Top10
 +++++
@@ -2481,7 +2490,7 @@ Total : 28 analysis
 * :ref:`possible-missing-subpattern`
 * :ref:`concat-and-addition`
 
-.. _typechecks:
+.. _ruleset-typechecks:
 
 Typechecks
 ++++++++++
@@ -2515,7 +2524,7 @@ Total : 24 analysis
 * :ref:`could-be-parent`
 * :ref:`could-be-generator`
 
-.. _php-cs-fixable:
+.. _ruleset-php-cs-fixable:
 
 php-cs-fixable
 ++++++++++++++

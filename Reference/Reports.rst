@@ -94,6 +94,8 @@ Ambassador includes the report from 3 other reports : PhpCompilation, PhpConfigu
 
 Ambassador is a HTML report format.
 
+This report is written in 'report'.
+
 Ambassador depends on the following 20 rulesets : :ref:`CompatibilityPHP53`, :ref:`CompatibilityPHP54`, :ref:`CompatibilityPHP55`, :ref:`CompatibilityPHP56`, :ref:`CompatibilityPHP70`, :ref:`CompatibilityPHP71`, :ref:`CompatibilityPHP72`, :ref:`CompatibilityPHP73`, :ref:`CompatibilityPHP74`, :ref:`CompatibilityPHP80`, :ref:`Analyze`, :ref:`Preferences`, :ref:`Inventory`, :ref:`Performances`, :ref:`Appinfo`, :ref:`Appcontent`, :ref:`Dead code`, :ref:`Security`, :ref:`Suggestions`, :ref:`Custom`.
 
 .. _report-beautycanon:
@@ -133,6 +135,8 @@ This analysis uses Analysis as default rule. It may otherwise parametered with t
 
 BeautyCanon is a Text report format.
 
+This report is written to the standard output.
+
 BeautyCanon accepts any arbitrary list of results.
 
 .. _report-classreview:
@@ -154,6 +158,8 @@ It checks the internal structure of classes, and suggest visibility, typehint up
     :alt: Example of a ClassReview report (0)
 
 ClassReview is a HTML report format.
+
+This report is written in 'classreview'.
 
 ClassReview depends on the following rule : ClassReview.
 
@@ -182,6 +188,8 @@ Warning : large applications (> 1000 classes) will require a lot of resources to
 
 Classes dependendies HTML is a HTML report format.
 
+This report is written in 'class_dependencies'.
+
 Classes dependendies HTML doesn't depend on rulesets.
 
 .. _report-clustergrammer:
@@ -202,6 +210,8 @@ See a live report here : [Clustergrammer](http://amp.pharm.mssm.edu/clustergramm
     :alt: Example of a Clustergrammer report (0)
 
 Clustergrammer is a TEXT report format.
+
+This report is written in 'clustergrammer.txt'.
 
 Clustergrammer doesn't depend on rulesets.
 
@@ -229,6 +239,8 @@ It represents :
     :alt: Example of a Code Flower report (0)
 
 Code Flower is a HTML report format.
+
+This report is written in 'codeflower'.
 
 Code Flower doesn't depend on rulesets.
 
@@ -260,6 +272,8 @@ See also [Code Sniffer Report](https://github.com/squizlabs/PHP_CodeSniffer/wiki
     
 
 Code Sniffer is a TEXT report format.
+
+This report is written in 'exakat.txt'.
 
 Code Sniffer accepts any arbitrary list of results.
 
@@ -305,6 +319,8 @@ It is recommended to review manually the results of the suggested composer.json 
 
 Composer is a JSON report format.
 
+This report is written in 'composer.json'.
+
 Composer depends on the following rule : Appinfo.
 
 .. _report-dependency-wheel:
@@ -326,6 +342,8 @@ It is based on Francois Zaninotto's `DependencyWheel <http://fzaninotto.github.c
 
 Dependency Wheel is a HTML report format.
 
+This report is written in 'wheel'.
+
 Dependency Wheel doesn't depend on rulesets.
 
 .. _report-diplomat:
@@ -344,6 +362,8 @@ The Diplomat report is the default report since Exakat 1.7.0. It is a light vers
     :alt: Example of a Diplomat report (0)
 
 Diplomat is a HTML report format.
+
+This report is written in 'diplomat'.
 
 Diplomat depends on the following 15 rulesets : :ref:`CompatibilityPHP53`, :ref:`CompatibilityPHP54`, :ref:`CompatibilityPHP55`, :ref:`CompatibilityPHP56`, :ref:`CompatibilityPHP70`, :ref:`CompatibilityPHP71`, :ref:`CompatibilityPHP72`, :ref:`CompatibilityPHP73`, :ref:`CompatibilityPHP74`, :ref:`CompatibilityPHP80`, :ref:`Top10`, :ref:`Preferences`, :ref:`Appinfo`, :ref:`Appcontent`, :ref:`Suggestions`.
 
@@ -914,6 +934,8 @@ On the other hand, other analysis that currently yield issues needs to be fully 
 
 Exakatyaml is a Yaml report format.
 
+This report is written in '.exakat.yaml'.
+
 Exakatyaml doesn't depend on rulesets.
 
 .. _report-file-dependendies:
@@ -940,6 +962,8 @@ Another version of the same diagram is called Filedependencieshtml
     :alt: Example of a File dependendies report (0)
 
 File dependendies is a DOT report format.
+
+This report is written in 'dependencies.dot'.
 
 File dependendies doesn't depend on rulesets.
 
@@ -972,6 +996,8 @@ Another version of the same diagram is called Filedependencies, and produces a D
 
 File dependendies HTML is a HTML report format.
 
+This report is written in 'dependencies'.
+
 File dependendies HTML doesn't depend on rulesets.
 
 .. _report-history:
@@ -998,6 +1024,8 @@ This report provides a 'history.sqlite' database. The following tables are inven
 
 
 History is a Sqlite report format.
+
+This report is written in 'history.sqlite'.
 
 History doesn't depend on rulesets.
 
@@ -1060,6 +1088,8 @@ Simple Json format. It is a structured array with all results, described as obje
 
 Json is a Json report format.
 
+This report is written in 'exakat.json'.
+
 Json accepts any arbitrary list of results.
 
 .. _report-marmelab:
@@ -1087,6 +1117,8 @@ You may also learn more about GraphQL at [Introducing Json GraphQL Server](https
 
 Marmelab is a JSON report format.
 
+This report is written in 'exakat.json'.
+
 Marmelab depends on the following rule : Analyze.
 
 .. _report-meters:
@@ -1113,6 +1145,8 @@ Exakat measures a large number of code dimensions, such as number of files, line
 
 
 Meters is a JSON report format.
+
+This report is written in 'exakat.meters.json'.
 
 Meters depends on the following rule : None.
 
@@ -1153,6 +1187,8 @@ The Migration74 report runs the backward incompatibilities tests for PHP 7.4, fr
 
 Migration74 is a HTML report format.
 
+This report is written in 'migration74'.
+
 Migration74 depends on the following 2 rulesets : :ref:`CompatibilityPHP73`, :ref:`Suggestions`.
 
 .. _report-migration80:
@@ -1192,6 +1228,8 @@ The Migration 80 report runs the backward incompatibilities tests for PHP 8.0, f
 
 Migration80 is a HTML report format.
 
+This report is written in 'migration80'.
+
 Migration80 depends on the following 2 rulesets : :ref:`CompatibilityPHP80`, :ref:`Suggestions`.
 
 .. _report-none:
@@ -1207,6 +1245,8 @@ None is the empty report. It runs the report generating stack, but doesn't produ
 None is a utility report, aimed to test exakat's installation.
 
 None is a None report format.
+
+This report is written in 'none'.
 
 None depends on the following rule : Any.
 
@@ -1226,6 +1266,8 @@ The OWASP report focuses on the [OWASP top 10](https://www.owasp.org/index.php/C
     :alt: Example of a Owasp report (0)
 
 Owasp is a HTML report format.
+
+This report is written in 'owasp'.
 
 Owasp depends on the following rule : Security.
 
@@ -1279,6 +1321,8 @@ This format is fast, and fitted for human review.
     
 
 Perfile is a Text report format.
+
+This report is written in 'stdout'.
 
 Perfile accepts any arbitrary list of results.
 
@@ -1363,6 +1407,8 @@ PhpCompilation bases its selection on the code and its usage of features. PhpCom
 
 PhpCompilation is a Text report format.
 
+This report is written in 'compilePHP.txt'.
+
 PhpCompilation depends on the following rule : Appinfo.
 
 .. _report-phpconfiguration:
@@ -1446,6 +1492,8 @@ PhpConfiguration bases its selection on the code, and classic recommendations. F
 
 PhpConfiguration is a Text report format.
 
+This report is written in 'php.suggested.ini-dist'.
+
 PhpConfiguration depends on the following rule : Appinfo.
 
 .. _report-phpcity:
@@ -1474,6 +1522,8 @@ Or, you can install the [PHPcity](https://github.com/adrianhuna/PHPCity) applica
     :alt: Example of a Phpcity report (0)
 
 Phpcity is a JSON report format.
+
+This report is written in 'exakat.phpcity.json'.
 
 Phpcity doesn't depend on rulesets.
 
@@ -1525,6 +1575,8 @@ Exakat may find different issues than php-cs-fixer : using this report reduces t
 
 Phpcsfixer is a JSON report format.
 
+This report is written in 'phpcsfixer.exakat.php'.
+
 Phpcsfixer depends on the following rule : php-cs-fixable.
 
 .. _report-plantuml:
@@ -1546,6 +1598,8 @@ PlantUML is an Open Source component that dislays class diagrams.
     :alt: Example of a PlantUml report (0)
 
 PlantUml is a puml report format.
+
+This report is written in 'exakat.puml'.
 
 PlantUml doesn't depend on rulesets.
 
@@ -1575,6 +1629,8 @@ Note that all rules are not implemented, especially the 'coding conventions' one
     
 
 RadwellCode is a Text report format.
+
+This report is written in 'radwell.txt'.
 
 RadwellCode depends on the following rule : RadwellCodes.
 
@@ -1615,6 +1671,8 @@ Check [RectorPHP](https://getrector.org/) website, its [rector github](https://g
     
 
 Rector is a Text report format.
+
+This report is written in 'rector.exakat.yaml'.
 
 Rector depends on the following rule : Rector.
 
@@ -1665,6 +1723,8 @@ The Sarb report is a compatibility report with SARB
 
 Sarb is a Json report format.
 
+This report is written in 'exakat.sarb.json'.
+
 Sarb accepts any arbitrary list of results.
 
 .. _report-sarif:
@@ -1690,6 +1750,8 @@ More details are available at `sarifweb <https://sarifweb.azurewebsites.net/>`_ 
 
 Sarif is a Json report format.
 
+This report is written in 'exakat.json'.
+
 Sarif accepts any arbitrary list of results.
 
 .. _report-simpletable:
@@ -1708,6 +1770,8 @@ Simpletable is suitable for any list of results provided by exakat. It is inspir
     :alt: Example of a SimpleTable report (0)
 
 SimpleTable is a HTML report format.
+
+This report is written in 'table'.
 
 SimpleTable doesn't depend on rulesets.
 
@@ -1777,6 +1841,8 @@ Stats reports PHP structures definition, like class, interfaces, variables, and 
 
 Stats is a JSON report format.
 
+This report is written in 'exakat.stat.json'.
+
 Stats depends on the following rule : Stats.
 
 .. _report-stubs:
@@ -1801,6 +1867,8 @@ The resulting report is in one file, called `stubs.php`.
     :alt: Example of a Stubs report (0)
 
 Stubs is a PHP report format.
+
+This report is written in 'stubs.php'.
 
 Stubs doesn't depend on rulesets.
 
@@ -1837,6 +1905,8 @@ The StubsJson report includes :
 
 StubsJson is a JSON report format.
 
+This report is written in 'stubs.ini'.
+
 StubsJson doesn't depend on rulesets.
 
 .. _report-text:
@@ -1870,6 +1940,8 @@ This format is fast, and fitted for machine communications.
 
 Text is a Text report format.
 
+This report is written to the standard output.
+
 Text accepts any arbitrary list of results.
 
 .. _report-top10:
@@ -1891,6 +1963,8 @@ The Top 10 report is based on the 'Top 10 classic PHP traps' presentation. You c
     :alt: Example of a Top10 report (1)
 
 Top10 is a HTML report format.
+
+This report is written in 'top10'.
 
 Top10 depends on the following rule : Top10.
 
@@ -1921,6 +1995,8 @@ There are currently two topology available:
 
 Topology Order is a DOT report format.
 
+This report is written in 'exakat.topology.dot'.
+
 Topology Order doesn't depend on rulesets.
 
 .. _report-typechecks:
@@ -1942,6 +2018,8 @@ It checks the presence of typehint, suggests possible type hinting, and check th
     :alt: Example of a TypeChecks report (0)
 
 TypeChecks is a HTML report format.
+
+This report is written in 'typechecks'.
 
 TypeChecks depends on the following rule : TypeChecks.
 
@@ -1975,6 +2053,8 @@ This report is ready for PHP 8.0 : the suggestions may be combined together, and
 
 TypeSuggestion is a HTML report format.
 
+This report is written in 'typehint.suggestion.html'.
+
 TypeSuggestion depends on the following rule : TypeChecks.
 
 .. _report-uml:
@@ -2001,6 +2081,8 @@ Classes, interfaces and traits are represented, along with their constants, meth
 
 Uml is a dot report format.
 
+This report is written in 'exakat.uml.dot'.
+
 Uml doesn't depend on rulesets.
 
 .. _report-xml:
@@ -2025,6 +2107,8 @@ XML version of the reports. It uses the same format than PHP Code Sniffer to out
     
 
 Xml is a XML report format.
+
+This report is written in 'exakat.xml'.
 
 Xml accepts any arbitrary list of results.
 
@@ -2072,6 +2156,8 @@ Simple Yaml format. It is a structured array with all results, described as obje
     
 
 Yaml is a Yaml report format.
+
+This report is written in 'exakat.yaml'.
 
 Yaml accepts any arbitrary list of results.
 
