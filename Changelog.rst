@@ -18,6 +18,9 @@ Here is the release note of exakat.
 + Analysis
     + New analysis : report the missing mixed returntype for jsonserialize
     + New analysis : report final with constants
+    + New analysis : report never usage (typehint)
+    + New analysis : report PHP 8.1 typehint incompatibilities
+    + New analysis : report PHP 8.0 typehint incompatibilities
 
 + Tokenizer
     + 

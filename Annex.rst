@@ -3702,6 +3702,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Php/ListWithKeys";
    analyzer[] = "Php/ListWithReference";
    analyzer[] = "Php/MethodCallOnNew";
+   analyzer[] = "Php/NeverTypehintUsage";
    analyzer[] = "Php/NoListWithString";
    analyzer[] = "Php/NoReferenceForStaticProperty";
    analyzer[] = "Php/NoReturnForGenerator";
@@ -3711,6 +3712,8 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Php/PHP71scalartypehints";
    analyzer[] = "Php/PHP72scalartypehints";
    analyzer[] = "Php/PHP73LastEmptyArgument";
+   analyzer[] = "Php/PHP80scalartypehints";
+   analyzer[] = "Php/PHP81scalartypehints";
    analyzer[] = "Php/ParenthesisAsParameter";
    analyzer[] = "Php/Php54NewFunctions";
    analyzer[] = "Php/Php55NewFunctions";
@@ -3794,6 +3797,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Php/ListWithKeys'
      - 'Php/ListWithReference'
      - 'Php/MethodCallOnNew'
+     - 'Php/NeverTypehintUsage'
      - 'Php/NoListWithString'
      - 'Php/NoReferenceForStaticProperty'
      - 'Php/NoReturnForGenerator'
@@ -3803,6 +3807,8 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Php/PHP71scalartypehints'
      - 'Php/PHP72scalartypehints'
      - 'Php/PHP73LastEmptyArgument'
+     - 'Php/PHP80scalartypehints'
+     - 'Php/PHP81scalartypehints'
      - 'Php/ParenthesisAsParameter'
      - 'Php/Php54NewFunctions'
      - 'Php/Php55NewFunctions'
@@ -3890,6 +3896,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Php/ListShortSyntax";
    analyzer[] = "Php/ListWithKeys";
    analyzer[] = "Php/ListWithReference";
+   analyzer[] = "Php/NeverTypehintUsage";
    analyzer[] = "Php/NoListWithString";
    analyzer[] = "Php/NoReferenceForStaticProperty";
    analyzer[] = "Php/NoReturnForGenerator";
@@ -3899,6 +3906,8 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Php/PHP71scalartypehints";
    analyzer[] = "Php/PHP72scalartypehints";
    analyzer[] = "Php/PHP73LastEmptyArgument";
+   analyzer[] = "Php/PHP80scalartypehints";
+   analyzer[] = "Php/PHP81scalartypehints";
    analyzer[] = "Php/ParenthesisAsParameter";
    analyzer[] = "Php/Php54RemovedFunctions";
    analyzer[] = "Php/Php55NewFunctions";
@@ -3978,6 +3987,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Php/ListShortSyntax'
      - 'Php/ListWithKeys'
      - 'Php/ListWithReference'
+     - 'Php/NeverTypehintUsage'
      - 'Php/NoListWithString'
      - 'Php/NoReferenceForStaticProperty'
      - 'Php/NoReturnForGenerator'
@@ -3987,6 +3997,8 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Php/PHP71scalartypehints'
      - 'Php/PHP72scalartypehints'
      - 'Php/PHP73LastEmptyArgument'
+     - 'Php/PHP80scalartypehints'
+     - 'Php/PHP81scalartypehints'
      - 'Php/ParenthesisAsParameter'
      - 'Php/Php54RemovedFunctions'
      - 'Php/Php55NewFunctions'
@@ -4072,6 +4084,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Php/ListShortSyntax";
    analyzer[] = "Php/ListWithKeys";
    analyzer[] = "Php/ListWithReference";
+   analyzer[] = "Php/NeverTypehintUsage";
    analyzer[] = "Php/NoListWithString";
    analyzer[] = "Php/NoReferenceForStaticProperty";
    analyzer[] = "Php/NoReturnForGenerator";
@@ -4081,6 +4094,8 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Php/PHP71scalartypehints";
    analyzer[] = "Php/PHP72scalartypehints";
    analyzer[] = "Php/PHP73LastEmptyArgument";
+   analyzer[] = "Php/PHP80scalartypehints";
+   analyzer[] = "Php/PHP81scalartypehints";
    analyzer[] = "Php/ParenthesisAsParameter";
    analyzer[] = "Php/Password55";
    analyzer[] = "Php/Php55RemovedFunctions";
@@ -4152,6 +4167,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Php/ListShortSyntax'
      - 'Php/ListWithKeys'
      - 'Php/ListWithReference'
+     - 'Php/NeverTypehintUsage'
      - 'Php/NoListWithString'
      - 'Php/NoReferenceForStaticProperty'
      - 'Php/NoReturnForGenerator'
@@ -4161,6 +4177,8 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Php/PHP71scalartypehints'
      - 'Php/PHP72scalartypehints'
      - 'Php/PHP73LastEmptyArgument'
+     - 'Php/PHP80scalartypehints'
+     - 'Php/PHP81scalartypehints'
      - 'Php/ParenthesisAsParameter'
      - 'Php/Password55'
      - 'Php/Php55RemovedFunctions'
@@ -4233,6 +4251,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Php/ListShortSyntax";
    analyzer[] = "Php/ListWithKeys";
    analyzer[] = "Php/ListWithReference";
+   analyzer[] = "Php/NeverTypehintUsage";
    analyzer[] = "Php/NoListWithString";
    analyzer[] = "Php/NoReferenceForStaticProperty";
    analyzer[] = "Php/NoReturnForGenerator";
@@ -4242,6 +4261,8 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Php/PHP71scalartypehints";
    analyzer[] = "Php/PHP72scalartypehints";
    analyzer[] = "Php/PHP73LastEmptyArgument";
+   analyzer[] = "Php/PHP80scalartypehints";
+   analyzer[] = "Php/PHP81scalartypehints";
    analyzer[] = "Php/ParenthesisAsParameter";
    analyzer[] = "Php/Php70NewClasses";
    analyzer[] = "Php/Php70NewFunctions";
@@ -4303,6 +4324,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Php/ListShortSyntax'
      - 'Php/ListWithKeys'
      - 'Php/ListWithReference'
+     - 'Php/NeverTypehintUsage'
      - 'Php/NoListWithString'
      - 'Php/NoReferenceForStaticProperty'
      - 'Php/NoReturnForGenerator'
@@ -4312,6 +4334,8 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Php/PHP71scalartypehints'
      - 'Php/PHP72scalartypehints'
      - 'Php/PHP73LastEmptyArgument'
+     - 'Php/PHP80scalartypehints'
+     - 'Php/PHP81scalartypehints'
      - 'Php/ParenthesisAsParameter'
      - 'Php/Php70NewClasses'
      - 'Php/Php70NewFunctions'
@@ -4381,11 +4405,14 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Php/ListWithAppends";
    analyzer[] = "Php/ListWithKeys";
    analyzer[] = "Php/ListWithReference";
+   analyzer[] = "Php/NeverTypehintUsage";
    analyzer[] = "Php/NoReferenceForStaticProperty";
    analyzer[] = "Php/NoSubstrMinusOne";
    analyzer[] = "Php/PHP71scalartypehints";
    analyzer[] = "Php/PHP72scalartypehints";
    analyzer[] = "Php/PHP73LastEmptyArgument";
+   analyzer[] = "Php/PHP80scalartypehints";
+   analyzer[] = "Php/PHP81scalartypehints";
    analyzer[] = "Php/Php70RemovedDirective";
    analyzer[] = "Php/Php70RemovedFunctions";
    analyzer[] = "Php/Php71NewClasses";
@@ -4444,11 +4471,14 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Php/ListWithAppends'
      - 'Php/ListWithKeys'
      - 'Php/ListWithReference'
+     - 'Php/NeverTypehintUsage'
      - 'Php/NoReferenceForStaticProperty'
      - 'Php/NoSubstrMinusOne'
      - 'Php/PHP71scalartypehints'
      - 'Php/PHP72scalartypehints'
      - 'Php/PHP73LastEmptyArgument'
+     - 'Php/PHP80scalartypehints'
+     - 'Php/PHP81scalartypehints'
      - 'Php/Php70RemovedDirective'
      - 'Php/Php70RemovedFunctions'
      - 'Php/Php71NewClasses'
@@ -4507,9 +4537,12 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Php/HashAlgos53";
    analyzer[] = "Php/HashAlgos54";
    analyzer[] = "Php/ListWithReference";
+   analyzer[] = "Php/NeverTypehintUsage";
    analyzer[] = "Php/NoReferenceForStaticProperty";
    analyzer[] = "Php/PHP72scalartypehints";
    analyzer[] = "Php/PHP73LastEmptyArgument";
+   analyzer[] = "Php/PHP80scalartypehints";
+   analyzer[] = "Php/PHP81scalartypehints";
    analyzer[] = "Php/Php70RemovedDirective";
    analyzer[] = "Php/Php70RemovedFunctions";
    analyzer[] = "Php/Php71NewFunctions";
@@ -4557,9 +4590,12 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Php/HashAlgos53'
      - 'Php/HashAlgos54'
      - 'Php/ListWithReference'
+     - 'Php/NeverTypehintUsage'
      - 'Php/NoReferenceForStaticProperty'
      - 'Php/PHP72scalartypehints'
      - 'Php/PHP73LastEmptyArgument'
+     - 'Php/PHP80scalartypehints'
+     - 'Php/PHP81scalartypehints'
      - 'Php/Php70RemovedDirective'
      - 'Php/Php70RemovedFunctions'
      - 'Php/Php71NewFunctions'
@@ -4610,8 +4646,11 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Php/HashAlgos54";
    analyzer[] = "Php/HashUsesObjects";
    analyzer[] = "Php/ListWithReference";
+   analyzer[] = "Php/NeverTypehintUsage";
    analyzer[] = "Php/NoReferenceForStaticProperty";
    analyzer[] = "Php/PHP73LastEmptyArgument";
+   analyzer[] = "Php/PHP80scalartypehints";
+   analyzer[] = "Php/PHP81scalartypehints";
    analyzer[] = "Php/Php72Deprecation";
    analyzer[] = "Php/Php72NewClasses";
    analyzer[] = "Php/Php72NewConstants";
@@ -4653,8 +4692,11 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Php/HashAlgos54'
      - 'Php/HashUsesObjects'
      - 'Php/ListWithReference'
+     - 'Php/NeverTypehintUsage'
      - 'Php/NoReferenceForStaticProperty'
      - 'Php/PHP73LastEmptyArgument'
+     - 'Php/PHP80scalartypehints'
+     - 'Php/PHP81scalartypehints'
      - 'Php/Php72Deprecation'
      - 'Php/Php72NewClasses'
      - 'Php/Php72NewConstants'
@@ -4701,6 +4743,9 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Php/FilesFullPath";
    analyzer[] = "Php/FinalConstant";
    analyzer[] = "Php/IntegerSeparatorUsage";
+   analyzer[] = "Php/NeverTypehintUsage";
+   analyzer[] = "Php/PHP80scalartypehints";
+   analyzer[] = "Php/PHP81scalartypehints";
    analyzer[] = "Php/Php73NewFunctions";
    analyzer[] = "Php/Php73RemovedFunctions";
    analyzer[] = "Php/Php74NewDirective";
@@ -4733,6 +4778,9 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Php/FilesFullPath'
      - 'Php/FinalConstant'
      - 'Php/IntegerSeparatorUsage'
+     - 'Php/NeverTypehintUsage'
+     - 'Php/PHP80scalartypehints'
+     - 'Php/PHP81scalartypehints'
      - 'Php/Php73NewFunctions'
      - 'Php/Php73RemovedFunctions'
      - 'Php/Php74NewDirective'
@@ -4776,7 +4824,10 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Php/HashAlgos74";
    analyzer[] = "Php/IdnUts46";
    analyzer[] = "Php/NestedTernaryWithoutParenthesis";
+   analyzer[] = "Php/NeverTypehintUsage";
    analyzer[] = "Php/NoMoreCurlyArrays";
+   analyzer[] = "Php/PHP80scalartypehints";
+   analyzer[] = "Php/PHP81scalartypehints";
    analyzer[] = "Php/Php74Deprecation";
    analyzer[] = "Php/Php74NewClasses";
    analyzer[] = "Php/Php74NewConstants";
@@ -4820,7 +4871,10 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Php/HashAlgos74'
      - 'Php/IdnUts46'
      - 'Php/NestedTernaryWithoutParenthesis'
+     - 'Php/NeverTypehintUsage'
      - 'Php/NoMoreCurlyArrays'
+     - 'Php/PHP80scalartypehints'
+     - 'Php/PHP81scalartypehints'
      - 'Php/Php74Deprecation'
      - 'Php/Php74NewClasses'
      - 'Php/Php74NewConstants'
@@ -4871,6 +4925,8 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Php/ConcatAndAddition";
    analyzer[] = "Php/EnumUsage";
    analyzer[] = "Php/FinalConstant";
+   analyzer[] = "Php/NeverTypehintUsage";
+   analyzer[] = "Php/PHP81scalartypehints";
    analyzer[] = "Php/Php74RemovedDirective";
    analyzer[] = "Php/Php80NamedParameterVariadic";
    analyzer[] = "Php/Php80RemovedConstant";
@@ -4903,6 +4959,8 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Php/ConcatAndAddition'
      - 'Php/EnumUsage'
      - 'Php/FinalConstant'
+     - 'Php/NeverTypehintUsage'
+     - 'Php/PHP81scalartypehints'
      - 'Php/Php74RemovedDirective'
      - 'Php/Php80NamedParameterVariadic'
      - 'Php/Php80RemovedConstant'
@@ -5929,3 +5987,52 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
 
 
 
+Training Database
+-----------------
+
+A number of applications are regularly scanned in order to find real life examples of patterns. They are listed here : 
+
+
+* `ChurchCRM <http://churchcrm.io/>`_
+* `Cleverstyle <https://cleverstyle.org/en>`_
+* `Contao <https://contao.org/en/>`_
+* `Dolibarr <https://www.dolibarr.org/>`_
+* `Dolphin <https://www.boonex.com/>`_
+* `Edusoho <https://www.edusoho.com/en>`_
+* `ExpressionEngine <https://expressionengine.com/>`_
+* `FuelCMS <https://www.getfuelcms.com/>`_
+* `HuMo-Gen <http://humogen.com/>`_
+* `LiveZilla <https://www.livezilla.net/home/en/>`_
+* `Magento <https://magento.com/>`_
+* `Mautic <https://www.mautic.org/>`_
+* `MediaWiki <https://www.mediawiki.org/>`_
+* `NextCloud <https://nextcloud.com/>`_
+* `OpenConf <https://www.openconf.com/>`_
+* `OpenEMR <https://www.open-emr.org/>`_
+* `Phinx <https://phinx.org/>`_
+* `PhpIPAM <https://phpipam.net/download/>`_
+* `Phpdocumentor <https://www.phpdoc.org/>`_
+* `Piwigo <https://www.piwigo.org/>`_
+* `PrestaShop <https://prestashop.com/>`_
+* `SPIP <https://www.spip.net/>`_
+* `SugarCrm <https://www.sugarcrm.com/>`_
+* `SuiteCrm <https://suitecrm.com/>`_
+* `TeamPass <https://teampass.net/>`_
+* `Thelia <https://thelia.net/>`_
+* `ThinkPHP <http://www.thinkphp.cn/>`_
+* `Tikiwiki <https://tiki.org/>`_
+* `Tine20 <https://www.tine20.com/>`_
+* `Traq <https://traq.io/>`_
+* `Typo3 <https://typo3.org/>`_
+* `Vanilla <https://open.vanillaforums.com/>`_
+* `Woocommerce <https://woocommerce.com/>`_
+* `WordPress <https://www.wordpress.org/>`_
+* `XOOPS <https://xoops.org/>`_
+* `Zencart <https://www.zen-cart.com/>`_
+* `Zend-Config <https://docs.zendframework.com/zend-config/>`_
+* `Zurmo <http://zurmo.org/>`_
+* `opencfp <https://github.com/opencfp/opencfp>`_
+* `phpMyAdmin <https://www.phpmyadmin.net/>`_
+* `phpadsnew <http://freshmeat.sourceforge.net/projects/phpadsnew>`_
+* `shopware <https://www.shopware.com/>`_
+* `xataface <http://xataface.com/>`_

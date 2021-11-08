@@ -1518,7 +1518,7 @@ CompatibilityPHP53
 
 This ruleset centralizes all analysis for the migration from PHP 5.2 to 5.3.
 
-Total : 81 analysis
+Total : 84 analysis
 
 * :ref:`non-static-methods-called-in-a-static`
 * :ref:`ext-dba`
@@ -1601,6 +1601,9 @@ Total : 81 analysis
 * :ref:`coalesce-equal`
 * :ref:`enum-usage`
 * :ref:`No anchor for Php/FilesFullPath <no-anchor-for-php-filesfullpath>`
+* :ref:`No anchor for Php/NeverTypehintUsage <no-anchor-for-php-nevertypehintusage>`
+* :ref:`No anchor for Php/PHP81scalartypehints <no-anchor-for-php-php81scalartypehints>`
+* :ref:`No anchor for Php/PHP80scalartypehints <no-anchor-for-php-php80scalartypehints>`
 
 .. _ruleset-compatibilityphp54:
 
@@ -1609,7 +1612,7 @@ CompatibilityPHP54
 
 This ruleset centralizes all analysis for the migration from PHP 5.3 to 5.4.
 
-Total : 77 analysis
+Total : 80 analysis
 
 * :ref:`non-static-methods-called-in-a-static`
 * :ref:`use-lower-case-for-parent,-static-and-self`
@@ -1688,6 +1691,9 @@ Total : 77 analysis
 * :ref:`coalesce-equal`
 * :ref:`enum-usage`
 * :ref:`No anchor for Php/FilesFullPath <no-anchor-for-php-filesfullpath>`
+* :ref:`No anchor for Php/NeverTypehintUsage <no-anchor-for-php-nevertypehintusage>`
+* :ref:`No anchor for Php/PHP81scalartypehints <no-anchor-for-php-php81scalartypehints>`
+* :ref:`No anchor for Php/PHP80scalartypehints <no-anchor-for-php-php80scalartypehints>`
 
 .. _ruleset-compatibilityphp55:
 
@@ -1696,7 +1702,7 @@ CompatibilityPHP55
 
 This ruleset centralizes all analysis for the migration from PHP 5.4 to 5.5.
 
-Total : 69 analysis
+Total : 72 analysis
 
 * :ref:`non-static-methods-called-in-a-static`
 * :ref:`ext-apc`
@@ -1767,6 +1773,9 @@ Total : 69 analysis
 * :ref:`coalesce-equal`
 * :ref:`enum-usage`
 * :ref:`No anchor for Php/FilesFullPath <no-anchor-for-php-filesfullpath>`
+* :ref:`No anchor for Php/NeverTypehintUsage <no-anchor-for-php-nevertypehintusage>`
+* :ref:`No anchor for Php/PHP81scalartypehints <no-anchor-for-php-php81scalartypehints>`
+* :ref:`No anchor for Php/PHP80scalartypehints <no-anchor-for-php-php80scalartypehints>`
 
 .. _ruleset-compatibilityphp56:
 
@@ -1775,7 +1784,7 @@ CompatibilityPHP56
 
 This ruleset centralizes all analysis for the migration from PHP 5.5 to 5.6.
 
-Total : 59 analysis
+Total : 62 analysis
 
 * :ref:`non-static-methods-called-in-a-static`
 * :ref:`malformed-octal`
@@ -1836,6 +1845,9 @@ Total : 59 analysis
 * :ref:`php-8.0-only-typehints`
 * :ref:`enum-usage`
 * :ref:`No anchor for Php/FilesFullPath <no-anchor-for-php-filesfullpath>`
+* :ref:`No anchor for Php/NeverTypehintUsage <no-anchor-for-php-nevertypehintusage>`
+* :ref:`No anchor for Php/PHP81scalartypehints <no-anchor-for-php-php81scalartypehints>`
+* :ref:`No anchor for Php/PHP80scalartypehints <no-anchor-for-php-php80scalartypehints>`
 
 .. _ruleset-compatibilityphp70:
 
@@ -1844,7 +1856,7 @@ CompatibilityPHP70
 
 This ruleset centralizes all analysis for the migration from PHP 5.6 to 7.0.
 
-Total : 52 analysis
+Total : 55 analysis
 
 * :ref:`ext-ereg`
 * :ref:`mcrypt\_create\_iv()-with-default-values`
@@ -1898,6 +1910,9 @@ Total : 52 analysis
 * :ref:`enum-usage`
 * :ref:`No anchor for Php/FilesFullPath <no-anchor-for-php-filesfullpath>`
 * :ref:`No anchor for Php/FinalConstant <no-anchor-for-php-finalconstant>`
+* :ref:`No anchor for Php/NeverTypehintUsage <no-anchor-for-php-nevertypehintusage>`
+* :ref:`No anchor for Php/PHP81scalartypehints <no-anchor-for-php-php81scalartypehints>`
+* :ref:`No anchor for Php/PHP80scalartypehints <no-anchor-for-php-php80scalartypehints>`
 
 .. _ruleset-compatibilityphp71:
 
@@ -1906,7 +1921,7 @@ CompatibilityPHP71
 
 This ruleset centralizes all analysis for the migration from PHP 7.0 to 7.1.
 
-Total : 39 analysis
+Total : 42 analysis
 
 * :ref:`ext-mcrypt`
 * :ref:`hash-algorithms-incompatible-with-php-5.3`
@@ -1947,6 +1962,9 @@ Total : 39 analysis
 * :ref:`enum-usage`
 * :ref:`No anchor for Php/FilesFullPath <no-anchor-for-php-filesfullpath>`
 * :ref:`No anchor for Php/FinalConstant <no-anchor-for-php-finalconstant>`
+* :ref:`No anchor for Php/NeverTypehintUsage <no-anchor-for-php-nevertypehintusage>`
+* :ref:`No anchor for Php/PHP81scalartypehints <no-anchor-for-php-php81scalartypehints>`
+* :ref:`No anchor for Php/PHP80scalartypehints <no-anchor-for-php-php80scalartypehints>`
 
 .. _ruleset-compatibilityphp72:
 
@@ -1955,7 +1973,7 @@ CompatibilityPHP72
 
 This ruleset centralizes all analysis for the migration from PHP 7.1 to 7.2.
 
-Total : 32 analysis
+Total : 35 analysis
 
 * :ref:`undefined-constants`
 * :ref:`hash-algorithms-incompatible-with-php-5.3`
@@ -1989,6 +2007,9 @@ Total : 32 analysis
 * :ref:`enum-usage`
 * :ref:`No anchor for Php/FilesFullPath <no-anchor-for-php-filesfullpath>`
 * :ref:`No anchor for Php/FinalConstant <no-anchor-for-php-finalconstant>`
+* :ref:`No anchor for Php/NeverTypehintUsage <no-anchor-for-php-nevertypehintusage>`
+* :ref:`No anchor for Php/PHP81scalartypehints <no-anchor-for-php-php81scalartypehints>`
+* :ref:`No anchor for Php/PHP80scalartypehints <no-anchor-for-php-php80scalartypehints>`
 
 .. _ruleset-compatibilityphp73:
 
@@ -1997,7 +2018,7 @@ CompatibilityPHP73
 
 This ruleset centralizes all analysis for the migration from PHP 7.2 to 7.3.
 
-Total : 21 analysis
+Total : 24 analysis
 
 * :ref:`new-functions-in-php-7.3`
 * :ref:`unknown-pcre2-option`
@@ -2020,6 +2041,9 @@ Total : 21 analysis
 * :ref:`enum-usage`
 * :ref:`No anchor for Php/FilesFullPath <no-anchor-for-php-filesfullpath>`
 * :ref:`No anchor for Php/FinalConstant <no-anchor-for-php-finalconstant>`
+* :ref:`No anchor for Php/NeverTypehintUsage <no-anchor-for-php-nevertypehintusage>`
+* :ref:`No anchor for Php/PHP81scalartypehints <no-anchor-for-php-php81scalartypehints>`
+* :ref:`No anchor for Php/PHP80scalartypehints <no-anchor-for-php-php80scalartypehints>`
 
 .. _ruleset-compatibilityphp74:
 
@@ -2028,7 +2052,7 @@ CompatibilityPHP74
 
 This ruleset centralizes all analysis for the migration from PHP 7.3 to 7.4.
 
-Total : 33 analysis
+Total : 36 analysis
 
 * :ref:`detect-current-class`
 * :ref:`don't-read-and-write-in-one-expression`
@@ -2063,6 +2087,9 @@ Total : 33 analysis
 * :ref:`enum-usage`
 * :ref:`No anchor for Php/FilesFullPath <no-anchor-for-php-filesfullpath>`
 * :ref:`No anchor for Php/FinalConstant <no-anchor-for-php-finalconstant>`
+* :ref:`No anchor for Php/NeverTypehintUsage <no-anchor-for-php-nevertypehintusage>`
+* :ref:`No anchor for Php/PHP81scalartypehints <no-anchor-for-php-php81scalartypehints>`
+* :ref:`No anchor for Php/PHP80scalartypehints <no-anchor-for-php-php80scalartypehints>`
 
 .. _ruleset-compatibilityphp80:
 
@@ -2071,7 +2098,7 @@ CompatibilityPHP80
 
 This ruleset centralizes all analysis for the migration from PHP 7.4 to 8.0.
 
-Total : 21 analysis
+Total : 23 analysis
 
 * :ref:`old-style-constructor`
 * :ref:`wrong-optional-parameter`
@@ -2094,6 +2121,8 @@ Total : 21 analysis
 * :ref:`avoid-get\_object\_vars()`
 * :ref:`enum-usage`
 * :ref:`No anchor for Php/FinalConstant <no-anchor-for-php-finalconstant>`
+* :ref:`No anchor for Php/NeverTypehintUsage <no-anchor-for-php-nevertypehintusage>`
+* :ref:`No anchor for Php/PHP81scalartypehints <no-anchor-for-php-php81scalartypehints>`
 
 .. _ruleset-compatibilityphp81:
 

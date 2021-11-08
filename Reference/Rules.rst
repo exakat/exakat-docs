@@ -81303,6 +81303,36 @@ Directory by PHP Function
 
 
 
+Directory by PHP Features
+-------------------------
+
+  + Array With Curly Braces
+
+    * :ref:`No More Curly Arrays <no-more-curly-arrays>`
+
+  + Class Constants Visibility
+
+    * :ref:`Const Visibility Usage <const-visibility-usage>`
+
+  + Intersection Type
+
+    * :ref:`Wrong Type With Call <wrong-type-with-call>`
+
+  + Named Parameters
+
+    * :ref:`Wrong Argument Name With PHP Function <wrong-argument-name-with-php-function>`
+
+  + Property Type Declaration
+
+    * :ref:`Typed Property Usage <typed-property-usage>`
+
+  + Union type
+
+    * :ref:`Wrong Type With Call <wrong-type-with-call>`
+
+
+
+
 Directory by PHP Error message
 ------------------------------
 

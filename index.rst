@@ -46,7 +46,6 @@ Contents:
    Reference/Reports
    Reference/Cobblers
    Reference/Cases
-   Reference/Training
 
 
 .. toctree::
