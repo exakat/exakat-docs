@@ -21,6 +21,10 @@ Here is the release note of exakat.
     + New analysis : report never usage (typehint)
     + New analysis : report PHP 8.1 typehint incompatibilities
     + New analysis : report PHP 8.0 typehint incompatibilities
+    + New analysis : report PHP 8.0 named parameters
+    + New analysis : report First Class Callable Syntax
+    + New analysis : New Functions in PHP 8.1
+    + Upgraded analysis : Wrong Number of arguments also works with new first class callable syntax
 
 + Tokenizer
     + 

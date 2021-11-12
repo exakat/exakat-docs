@@ -92,11 +92,22 @@ The Ambassador report includes :
 
 Ambassador includes the report from 3 other reports : PhpCompilation, PhpConfiguration, Stats.
 
-Ambassador is a HTML report format.
 
-This report is written in 'report'.
 
-Ambassador depends on the following 20 rulesets : :ref:`CompatibilityPHP53`, :ref:`CompatibilityPHP54`, :ref:`CompatibilityPHP55`, :ref:`CompatibilityPHP56`, :ref:`CompatibilityPHP70`, :ref:`CompatibilityPHP71`, :ref:`CompatibilityPHP72`, :ref:`CompatibilityPHP73`, :ref:`CompatibilityPHP74`, :ref:`CompatibilityPHP80`, :ref:`Analyze`, :ref:`Preferences`, :ref:`Inventory`, :ref:`Performances`, :ref:`Appinfo`, :ref:`Appcontent`, :ref:`Dead code`, :ref:`Security`, :ref:`Suggestions`, :ref:`Custom`.
+Specs
+^^^^^
++--------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Short name   | Ambassador                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
++--------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Rulesets     | :ref:`ruleset-compatibilityphp53`, :ref:`ruleset-compatibilityphp54`, :ref:`ruleset-compatibilityphp55`, :ref:`ruleset-compatibilityphp56`, :ref:`ruleset-compatibilityphp70`, :ref:`ruleset-compatibilityphp71`, :ref:`ruleset-compatibilityphp72`, :ref:`ruleset-compatibilityphp73`, :ref:`ruleset-compatibilityphp74`, :ref:`ruleset-compatibilityphp80`, :ref:`ruleset-analyze`, :ref:`ruleset-preferences`, :ref:`ruleset-performances`, :ref:`ruleset-dead-code`, :ref:`ruleset-security`, :ref:`ruleset-suggestions`. |
++--------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Type         | HTML                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
++--------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Target       | This report is written in 'report'.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
++--------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Available in |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
++--------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
 
 .. _report-beautycanon:
 
@@ -133,11 +144,24 @@ This analysis uses Analysis as default rule. It may otherwise parametered with t
     No Hardcoded Port                                                      Structures/NoHardcodedPort              
     
 
-BeautyCanon is a Text report format.
 
-This report is written to the standard output.
 
-BeautyCanon accepts any arbitrary list of results.
+Specs
+^^^^^
++--------------+-------------------------------------------------------+
+| Short name   | BeautyCanon                                           |
++--------------+-------------------------------------------------------+
+| Rulesets     | This reports works with an arbitrary list of results. |
+|              |                                                       |
+|              |                                                       |
++--------------+-------------------------------------------------------+
+| Type         | Text                                                  |
++--------------+-------------------------------------------------------+
+| Target       | This report is written to the standard output.        |
++--------------+-------------------------------------------------------+
+| Available in |                                                       |
++--------------+-------------------------------------------------------+
+
 
 .. _report-classreview:
 
@@ -157,11 +181,22 @@ It checks the internal structure of classes, and suggest visibility, typehint up
 .. image:: ../images/report.classreview.png
     :alt: Example of a ClassReview report (0)
 
-ClassReview is a HTML report format.
 
-This report is written in 'classreview'.
 
-ClassReview depends on the following rule : ClassReview.
+Specs
+^^^^^
++--------------+------------------------------------------+
+| Short name   | ClassReview                              |
++--------------+------------------------------------------+
+| Rulesets     | ClassReview.                             |
++--------------+------------------------------------------+
+| Type         | HTML                                     |
++--------------+------------------------------------------+
+| Target       | This report is written in 'classreview'. |
++--------------+------------------------------------------+
+| Available in |                                          |
++--------------+------------------------------------------+
+
 
 .. _report-classes-dependendies-html:
 
@@ -186,11 +221,24 @@ Warning : large applications (> 1000 classes) will require a lot of resources to
 .. image:: ../images/report.classdependencies.png
     :alt: Example of a Classes dependendies HTML report (0)
 
-Classes dependendies HTML is a HTML report format.
 
-This report is written in 'class_dependencies'.
 
-Classes dependendies HTML doesn't depend on rulesets.
+Specs
+^^^^^
++--------------+-------------------------------------------------------+
+| Short name   | Classes dependendies HTML                             |
++--------------+-------------------------------------------------------+
+| Rulesets     | Classes dependendies HTML doesn't depend on rulesets. |
+|              |                                                       |
+|              |                                                       |
++--------------+-------------------------------------------------------+
+| Type         | HTML                                                  |
++--------------+-------------------------------------------------------+
+| Target       | This report is written in 'class_dependencies'.       |
++--------------+-------------------------------------------------------+
+| Available in |                                                       |
++--------------+-------------------------------------------------------+
+
 
 .. _report-clustergrammer:
 
@@ -209,11 +257,24 @@ See a live report here : [Clustergrammer](http://amp.pharm.mssm.edu/clustergramm
 .. image:: ../images/report.clustergrammer.png
     :alt: Example of a Clustergrammer report (0)
 
-Clustergrammer is a TEXT report format.
 
-This report is written in 'clustergrammer.txt'.
 
-Clustergrammer doesn't depend on rulesets.
+Specs
+^^^^^
++--------------+-------------------------------------------------+
+| Short name   | Clustergrammer                                  |
++--------------+-------------------------------------------------+
+| Rulesets     | Clustergrammer doesn't depend on rulesets.      |
+|              |                                                 |
+|              |                                                 |
++--------------+-------------------------------------------------+
+| Type         | TEXT                                            |
++--------------+-------------------------------------------------+
+| Target       | This report is written in 'clustergrammer.txt'. |
++--------------+-------------------------------------------------+
+| Available in |                                                 |
++--------------+-------------------------------------------------+
+
 
 .. _report-code-flower:
 
@@ -238,11 +299,24 @@ It represents :
 .. image:: ../images/report.codeflower.png
     :alt: Example of a Code Flower report (0)
 
-Code Flower is a HTML report format.
 
-This report is written in 'codeflower'.
 
-Code Flower doesn't depend on rulesets.
+Specs
+^^^^^
++--------------+-----------------------------------------+
+| Short name   | Code Flower                             |
++--------------+-----------------------------------------+
+| Rulesets     | Code Flower doesn't depend on rulesets. |
+|              |                                         |
+|              |                                         |
++--------------+-----------------------------------------+
+| Type         | HTML                                    |
++--------------+-----------------------------------------+
+| Target       | This report is written in 'codeflower'. |
++--------------+-----------------------------------------+
+| Available in |                                         |
++--------------+-----------------------------------------+
+
 
 .. _report-code-sniffer:
 
@@ -271,11 +345,24 @@ See also [Code Sniffer Report](https://github.com/squizlabs/PHP_CodeSniffer/wiki
     --------------------------------------------------------------------------------
     
 
-Code Sniffer is a TEXT report format.
 
-This report is written in 'exakat.txt'.
 
-Code Sniffer accepts any arbitrary list of results.
+Specs
+^^^^^
++--------------+-------------------------------------------------------+
+| Short name   | Code Sniffer                                          |
++--------------+-------------------------------------------------------+
+| Rulesets     | This reports works with an arbitrary list of results. |
+|              |                                                       |
+|              |                                                       |
++--------------+-------------------------------------------------------+
+| Type         | TEXT                                                  |
++--------------+-------------------------------------------------------+
+| Target       | This report is written in 'exakat.txt'.               |
++--------------+-------------------------------------------------------+
+| Available in |                                                       |
++--------------+-------------------------------------------------------+
+
 
 .. _report-composer:
 
@@ -317,11 +404,22 @@ It is recommended to review manually the results of the suggested composer.json 
     0,/src/Behat/Behat/Context/Environment/InitializedContextEnvironment.php,150
     
 
-Composer is a JSON report format.
 
-This report is written in 'composer.json'.
 
-Composer depends on the following rule : Appinfo.
+Specs
+^^^^^
++--------------+----------------------------------------------------------------------------------------------------------------------------------+
+| Short name   | Composer                                                                                                                         |
++--------------+----------------------------------------------------------------------------------------------------------------------------------+
+| Rulesets     | Appinfo.                                                                                                                         |
++--------------+----------------------------------------------------------------------------------------------------------------------------------+
+| Type         | JSON                                                                                                                             |
++--------------+----------------------------------------------------------------------------------------------------------------------------------+
+| Target       | This report is written in 'composer.json'.                                                                                       |
++--------------+----------------------------------------------------------------------------------------------------------------------------------+
+| Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Community Edition <https://www.exakat.io/community-edition>`_ |
++--------------+----------------------------------------------------------------------------------------------------------------------------------+
+
 
 .. _report-dependency-wheel:
 
@@ -340,11 +438,24 @@ It is based on Francois Zaninotto's `DependencyWheel <http://fzaninotto.github.c
 .. image:: ../images/report.dependencywheel.png
     :alt: Example of a Dependency Wheel report (0)
 
-Dependency Wheel is a HTML report format.
 
-This report is written in 'wheel'.
 
-Dependency Wheel doesn't depend on rulesets.
+Specs
+^^^^^
++--------------+------------------------------------------------------------------+
+| Short name   | Dependency Wheel                                                 |
++--------------+------------------------------------------------------------------+
+| Rulesets     | Dependency Wheel doesn't depend on rulesets.                     |
+|              |                                                                  |
+|              |                                                                  |
++--------------+------------------------------------------------------------------+
+| Type         | HTML                                                             |
++--------------+------------------------------------------------------------------+
+| Target       | This report is written in 'wheel'.                               |
++--------------+------------------------------------------------------------------+
+| Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_ |
++--------------+------------------------------------------------------------------+
+
 
 .. _report-diplomat:
 
@@ -361,11 +472,22 @@ The Diplomat report is the default report since Exakat 1.7.0. It is a light vers
 .. image:: ../images/report.diplomat.png
     :alt: Example of a Diplomat report (0)
 
-Diplomat is a HTML report format.
 
-This report is written in 'diplomat'.
 
-Diplomat depends on the following 15 rulesets : :ref:`CompatibilityPHP53`, :ref:`CompatibilityPHP54`, :ref:`CompatibilityPHP55`, :ref:`CompatibilityPHP56`, :ref:`CompatibilityPHP70`, :ref:`CompatibilityPHP71`, :ref:`CompatibilityPHP72`, :ref:`CompatibilityPHP73`, :ref:`CompatibilityPHP74`, :ref:`CompatibilityPHP80`, :ref:`Top10`, :ref:`Preferences`, :ref:`Appinfo`, :ref:`Appcontent`, :ref:`Suggestions`.
+Specs
+^^^^^
++--------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Short name   | Diplomat                                                                                                                                                                                                                                                                                                                                                                                                                                    |
++--------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Rulesets     | :ref:`ruleset-compatibilityphp53`, :ref:`ruleset-compatibilityphp54`, :ref:`ruleset-compatibilityphp55`, :ref:`ruleset-compatibilityphp56`, :ref:`ruleset-compatibilityphp70`, :ref:`ruleset-compatibilityphp71`, :ref:`ruleset-compatibilityphp72`, :ref:`ruleset-compatibilityphp73`, :ref:`ruleset-compatibilityphp74`, :ref:`ruleset-compatibilityphp80`, :ref:`ruleset-top10`, :ref:`ruleset-preferences`, :ref:`ruleset-suggestions`. |
++--------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Type         | HTML                                                                                                                                                                                                                                                                                                                                                                                                                                        |
++--------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Target       | This report is written in 'diplomat'.                                                                                                                                                                                                                                                                                                                                                                                                       |
++--------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_                                                                                                                                                                                                                                                                                                                                                                            |
++--------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
 
 .. _report-exakatyaml:
 
@@ -932,11 +1054,24 @@ On the other hand, other analysis that currently yield issues needs to be fully 
              "Undefined Classes":                                 Classes/UndefinedClasses
     
 
-Exakatyaml is a Yaml report format.
 
-This report is written in '.exakat.yaml'.
 
-Exakatyaml doesn't depend on rulesets.
+Specs
+^^^^^
++--------------+------------------------------------------------------------------+
+| Short name   | Exakatyaml                                                       |
++--------------+------------------------------------------------------------------+
+| Rulesets     | Exakatyaml doesn't depend on rulesets.                           |
+|              |                                                                  |
+|              |                                                                  |
++--------------+------------------------------------------------------------------+
+| Type         | Yaml                                                             |
++--------------+------------------------------------------------------------------+
+| Target       | This report is written in '.exakat.yaml'.                        |
++--------------+------------------------------------------------------------------+
+| Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_ |
++--------------+------------------------------------------------------------------+
+
 
 .. _report-file-dependendies:
 
@@ -961,11 +1096,24 @@ Another version of the same diagram is called Filedependencieshtml
 .. image:: ../images/report.filedependencies.png
     :alt: Example of a File dependendies report (0)
 
-File dependendies is a DOT report format.
 
-This report is written in 'dependencies.dot'.
 
-File dependendies doesn't depend on rulesets.
+Specs
+^^^^^
++--------------+------------------------------------------------------------------+
+| Short name   | File dependendies                                                |
++--------------+------------------------------------------------------------------+
+| Rulesets     | File dependendies doesn't depend on rulesets.                    |
+|              |                                                                  |
+|              |                                                                  |
++--------------+------------------------------------------------------------------+
+| Type         | DOT                                                              |
++--------------+------------------------------------------------------------------+
+| Target       | This report is written in 'dependencies.dot'.                    |
++--------------+------------------------------------------------------------------+
+| Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_ |
++--------------+------------------------------------------------------------------+
+
 
 .. _report-file-dependendies-html:
 
@@ -994,11 +1142,24 @@ Another version of the same diagram is called Filedependencies, and produces a D
 .. image:: ../images/report.filedependencieshtml.png
     :alt: Example of a File dependendies HTML report (0)
 
-File dependendies HTML is a HTML report format.
 
-This report is written in 'dependencies'.
 
-File dependendies HTML doesn't depend on rulesets.
+Specs
+^^^^^
++--------------+----------------------------------------------------+
+| Short name   | File dependendies HTML                             |
++--------------+----------------------------------------------------+
+| Rulesets     | File dependendies HTML doesn't depend on rulesets. |
+|              |                                                    |
+|              |                                                    |
++--------------+----------------------------------------------------+
+| Type         | HTML                                               |
++--------------+----------------------------------------------------+
+| Target       | This report is written in 'dependencies'.          |
++--------------+----------------------------------------------------+
+| Available in |                                                    |
++--------------+----------------------------------------------------+
+
 
 .. _report-history:
 
@@ -1023,11 +1184,24 @@ This report provides a 'history.sqlite' database. The following tables are inven
 + resultsCounts
 
 
-History is a Sqlite report format.
 
-This report is written in 'history.sqlite'.
 
-History doesn't depend on rulesets.
+Specs
+^^^^^
++--------------+---------------------------------------------+
+| Short name   | History                                     |
++--------------+---------------------------------------------+
+| Rulesets     | History doesn't depend on rulesets.         |
+|              |                                             |
+|              |                                             |
++--------------+---------------------------------------------+
+| Type         | Sqlite                                      |
++--------------+---------------------------------------------+
+| Target       | This report is written in 'history.sqlite'. |
++--------------+---------------------------------------------+
+| Available in |                                             |
++--------------+---------------------------------------------+
+
 
 .. _report-json:
 
@@ -1086,11 +1260,24 @@ Simple Json format. It is a structured array with all results, described as obje
         }
     }
 
-Json is a Json report format.
 
-This report is written in 'exakat.json'.
 
-Json accepts any arbitrary list of results.
+Specs
+^^^^^
++--------------+-------------------------------------------------------+
+| Short name   | Json                                                  |
++--------------+-------------------------------------------------------+
+| Rulesets     | This reports works with an arbitrary list of results. |
+|              |                                                       |
+|              |                                                       |
++--------------+-------------------------------------------------------+
+| Type         | Json                                                  |
++--------------+-------------------------------------------------------+
+| Target       | This report is written in 'exakat.json'.              |
++--------------+-------------------------------------------------------+
+| Available in |                                                       |
++--------------+-------------------------------------------------------+
+
 
 .. _report-marmelab:
 
@@ -1115,11 +1302,22 @@ You may also learn more about GraphQL at [Introducing Json GraphQL Server](https
 
 
 
-Marmelab is a JSON report format.
 
-This report is written in 'exakat.json'.
 
-Marmelab depends on the following rule : Analyze.
+Specs
+^^^^^
++--------------+------------------------------------------+
+| Short name   | Marmelab                                 |
++--------------+------------------------------------------+
+| Rulesets     | Analyze.                                 |
++--------------+------------------------------------------+
+| Type         | JSON                                     |
++--------------+------------------------------------------+
+| Target       | This report is written in 'exakat.json'. |
++--------------+------------------------------------------+
+| Available in |                                          |
++--------------+------------------------------------------+
+
 
 .. _report-meters:
 
@@ -1144,11 +1342,22 @@ Exakat measures a large number of code dimensions, such as number of files, line
 
 
 
-Meters is a JSON report format.
 
-This report is written in 'exakat.meters.json'.
 
-Meters depends on the following rule : None.
+Specs
+^^^^^
++--------------+-------------------------------------------------+
+| Short name   | Meters                                          |
++--------------+-------------------------------------------------+
+| Rulesets     | None.                                           |
++--------------+-------------------------------------------------+
+| Type         | JSON                                            |
++--------------+-------------------------------------------------+
+| Target       | This report is written in 'exakat.meters.json'. |
++--------------+-------------------------------------------------+
+| Available in |                                                 |
++--------------+-------------------------------------------------+
+
 
 .. _report-migration74:
 
@@ -1185,11 +1394,22 @@ The Migration74 report runs the backward incompatibilities tests for PHP 7.4, fr
     0,/src/Behat/Behat/Context/Environment/InitializedContextEnvironment.php,150
     
 
-Migration74 is a HTML report format.
 
-This report is written in 'migration74'.
 
-Migration74 depends on the following 2 rulesets : :ref:`CompatibilityPHP73`, :ref:`Suggestions`.
+Specs
+^^^^^
++--------------+----------------------------------------------------------------+
+| Short name   | Migration74                                                    |
++--------------+----------------------------------------------------------------+
+| Rulesets     | :ref:`ruleset-compatibilityphp73`, :ref:`ruleset-suggestions`. |
++--------------+----------------------------------------------------------------+
+| Type         | HTML                                                           |
++--------------+----------------------------------------------------------------+
+| Target       | This report is written in 'migration74'.                       |
++--------------+----------------------------------------------------------------+
+| Available in |                                                                |
++--------------+----------------------------------------------------------------+
+
 
 .. _report-migration80:
 
@@ -1226,11 +1446,22 @@ The Migration 80 report runs the backward incompatibilities tests for PHP 8.0, f
     0,/src/Behat/Behat/Context/Environment/InitializedContextEnvironment.php,150
     
 
-Migration80 is a HTML report format.
 
-This report is written in 'migration80'.
 
-Migration80 depends on the following 2 rulesets : :ref:`CompatibilityPHP80`, :ref:`Suggestions`.
+Specs
+^^^^^
++--------------+----------------------------------------------------------------+
+| Short name   | Migration80                                                    |
++--------------+----------------------------------------------------------------+
+| Rulesets     | :ref:`ruleset-compatibilityphp80`, :ref:`ruleset-suggestions`. |
++--------------+----------------------------------------------------------------+
+| Type         | HTML                                                           |
++--------------+----------------------------------------------------------------+
+| Target       | This report is written in 'migration80'.                       |
++--------------+----------------------------------------------------------------+
+| Available in |                                                                |
++--------------+----------------------------------------------------------------+
+
 
 .. _report-none:
 
@@ -1244,11 +1475,22 @@ None is the empty report. It runs the report generating stack, but doesn't produ
 
 None is a utility report, aimed to test exakat's installation.
 
-None is a None report format.
 
-This report is written in 'none'.
 
-None depends on the following rule : Any.
+Specs
+^^^^^
++--------------+-----------------------------------+
+| Short name   | None                              |
++--------------+-----------------------------------+
+| Rulesets     | Any.                              |
++--------------+-----------------------------------+
+| Type         | None                              |
++--------------+-----------------------------------+
+| Target       | This report is written in 'none'. |
++--------------+-----------------------------------+
+| Available in |                                   |
++--------------+-----------------------------------+
+
 
 .. _report-owasp:
 
@@ -1265,11 +1507,22 @@ The OWASP report focuses on the [OWASP top 10](https://www.owasp.org/index.php/C
 .. image:: ../images/report.owasp.png
     :alt: Example of a Owasp report (0)
 
-Owasp is a HTML report format.
 
-This report is written in 'owasp'.
 
-Owasp depends on the following rule : Security.
+Specs
+^^^^^
++--------------+------------------------------------+
+| Short name   | Owasp                              |
++--------------+------------------------------------+
+| Rulesets     | Security.                          |
++--------------+------------------------------------+
+| Type         | HTML                               |
++--------------+------------------------------------+
+| Target       | This report is written in 'owasp'. |
++--------------+------------------------------------+
+| Available in |                                    |
++--------------+------------------------------------+
+
 
 .. _report-perfile:
 
@@ -1320,11 +1573,24 @@ This format is fast, and fitted for human review.
     ---------------------------------------------------------
     
 
-Perfile is a Text report format.
 
-This report is written in 'stdout'.
 
-Perfile accepts any arbitrary list of results.
+Specs
+^^^^^
++--------------+-------------------------------------------------------+
+| Short name   | Perfile                                               |
++--------------+-------------------------------------------------------+
+| Rulesets     | This reports works with an arbitrary list of results. |
+|              |                                                       |
+|              |                                                       |
++--------------+-------------------------------------------------------+
+| Type         | Text                                                  |
++--------------+-------------------------------------------------------+
+| Target       | This report is written in 'stdout'.                   |
++--------------+-------------------------------------------------------+
+| Available in |                                                       |
++--------------+-------------------------------------------------------+
+
 
 .. _report-phpcompilation:
 
@@ -1405,11 +1671,22 @@ PhpCompilation bases its selection on the code and its usage of features. PhpCom
     disable_classes = mysqli
     
 
-PhpCompilation is a Text report format.
 
-This report is written in 'compilePHP.txt'.
 
-PhpCompilation depends on the following rule : Appinfo.
+Specs
+^^^^^
++--------------+---------------------------------------------+
+| Short name   | PhpCompilation                              |
++--------------+---------------------------------------------+
+| Rulesets     | Appinfo.                                    |
++--------------+---------------------------------------------+
+| Type         | Text                                        |
++--------------+---------------------------------------------+
+| Target       | This report is written in 'compilePHP.txt'. |
++--------------+---------------------------------------------+
+| Available in |                                             |
++--------------+---------------------------------------------+
+
 
 .. _report-phpconfiguration:
 
@@ -1490,11 +1767,22 @@ PhpConfiguration bases its selection on the code, and classic recommendations. F
     disable_classes = mysqli
     
 
-PhpConfiguration is a Text report format.
 
-This report is written in 'php.suggested.ini-dist'.
 
-PhpConfiguration depends on the following rule : Appinfo.
+Specs
+^^^^^
++--------------+-----------------------------------------------------+
+| Short name   | PhpConfiguration                                    |
++--------------+-----------------------------------------------------+
+| Rulesets     | Appinfo.                                            |
++--------------+-----------------------------------------------------+
+| Type         | Text                                                |
++--------------+-----------------------------------------------------+
+| Target       | This report is written in 'php.suggested.ini-dist'. |
++--------------+-----------------------------------------------------+
+| Available in |                                                     |
++--------------+-----------------------------------------------------+
+
 
 .. _report-phpcity:
 
@@ -1521,11 +1809,24 @@ Or, you can install the [PHPcity](https://github.com/adrianhuna/PHPCity) applica
 .. image:: ../images/report.phpcity.png
     :alt: Example of a Phpcity report (0)
 
-Phpcity is a JSON report format.
 
-This report is written in 'exakat.phpcity.json'.
 
-Phpcity doesn't depend on rulesets.
+Specs
+^^^^^
++--------------+--------------------------------------------------+
+| Short name   | Phpcity                                          |
++--------------+--------------------------------------------------+
+| Rulesets     | Phpcity doesn't depend on rulesets.              |
+|              |                                                  |
+|              |                                                  |
++--------------+--------------------------------------------------+
+| Type         | JSON                                             |
++--------------+--------------------------------------------------+
+| Target       | This report is written in 'exakat.phpcity.json'. |
++--------------+--------------------------------------------------+
+| Available in |                                                  |
++--------------+--------------------------------------------------+
+
 
 .. _report-phpcsfixer:
 
@@ -1573,11 +1874,22 @@ Php-cs-fixer runs fixes for coding standards : this reports focuses on potential
 Exakat may find different issues than php-cs-fixer : using this report reduces the number of reported issues, but may leave some issues unsolved. In that case, manual fixing is recommended.
 
 
-Phpcsfixer is a JSON report format.
 
-This report is written in 'phpcsfixer.exakat.php'.
 
-Phpcsfixer depends on the following rule : php-cs-fixable.
+Specs
+^^^^^
++--------------+----------------------------------------------------+
+| Short name   | Phpcsfixer                                         |
++--------------+----------------------------------------------------+
+| Rulesets     | php-cs-fixable.                                    |
++--------------+----------------------------------------------------+
+| Type         | JSON                                               |
++--------------+----------------------------------------------------+
+| Target       | This report is written in 'phpcsfixer.exakat.php'. |
++--------------+----------------------------------------------------+
+| Available in |                                                    |
++--------------+----------------------------------------------------+
+
 
 .. _report-plantuml:
 
@@ -1597,11 +1909,24 @@ PlantUML is an Open Source component that dislays class diagrams.
 .. image:: ../images/report.plantuml.png
     :alt: Example of a PlantUml report (0)
 
-PlantUml is a puml report format.
 
-This report is written in 'exakat.puml'.
 
-PlantUml doesn't depend on rulesets.
+Specs
+^^^^^
++--------------+------------------------------------------+
+| Short name   | PlantUml                                 |
++--------------+------------------------------------------+
+| Rulesets     | PlantUml doesn't depend on rulesets.     |
+|              |                                          |
+|              |                                          |
++--------------+------------------------------------------+
+| Type         | puml                                     |
++--------------+------------------------------------------+
+| Target       | This report is written in 'exakat.puml'. |
++--------------+------------------------------------------+
+| Available in |                                          |
++--------------+------------------------------------------+
+
 
 .. _report-radwellcode:
 
@@ -1628,11 +1953,22 @@ Note that all rules are not implemented, especially the 'coding conventions' one
         /Phrozn/Runner/CommandLine/Callback/Init.php:82 Extra brackets and braces and quotes
     
 
-RadwellCode is a Text report format.
 
-This report is written in 'radwell.txt'.
 
-RadwellCode depends on the following rule : RadwellCodes.
+Specs
+^^^^^
++--------------+------------------------------------------+
+| Short name   | RadwellCode                              |
++--------------+------------------------------------------+
+| Rulesets     | RadwellCodes.                            |
++--------------+------------------------------------------+
+| Type         | Text                                     |
++--------------+------------------------------------------+
+| Target       | This report is written in 'radwell.txt'. |
++--------------+------------------------------------------+
+| Available in |                                          |
++--------------+------------------------------------------+
+
 
 .. _report-rector:
 
@@ -1670,11 +2006,22 @@ Check [RectorPHP](https://getrector.org/) website, its [rector github](https://g
         Rector\CodeQuality\Rector\Concat\JoinStringConcatRector
     
 
-Rector is a Text report format.
 
-This report is written in 'rector.exakat.yaml'.
 
-Rector depends on the following rule : Rector.
+Specs
+^^^^^
++--------------+-------------------------------------------------+
+| Short name   | Rector                                          |
++--------------+-------------------------------------------------+
+| Rulesets     | Rector.                                         |
++--------------+-------------------------------------------------+
+| Type         | Text                                            |
++--------------+-------------------------------------------------+
+| Target       | This report is written in 'rector.exakat.yaml'. |
++--------------+-------------------------------------------------+
+| Available in |                                                 |
++--------------+-------------------------------------------------+
+
 
 .. _report-sarb:
 
@@ -1721,11 +2068,24 @@ The Sarb report is a compatibility report with SARB
         }
     ]
 
-Sarb is a Json report format.
 
-This report is written in 'exakat.sarb.json'.
 
-Sarb accepts any arbitrary list of results.
+Specs
+^^^^^
++--------------+-------------------------------------------------------+
+| Short name   | Sarb                                                  |
++--------------+-------------------------------------------------------+
+| Rulesets     | This reports works with an arbitrary list of results. |
+|              |                                                       |
+|              |                                                       |
++--------------+-------------------------------------------------------+
+| Type         | Json                                                  |
++--------------+-------------------------------------------------------+
+| Target       | This report is written in 'exakat.sarb.json'.         |
++--------------+-------------------------------------------------------+
+| Available in |                                                       |
++--------------+-------------------------------------------------------+
+
 
 .. _report-sarif:
 
@@ -1748,11 +2108,24 @@ More details are available at `sarifweb <https://sarifweb.azurewebsites.net/>`_ 
 .. image:: ../images/report.sarif.png
     :alt: Example of a Sarif report (0)
 
-Sarif is a Json report format.
 
-This report is written in 'exakat.json'.
 
-Sarif accepts any arbitrary list of results.
+Specs
+^^^^^
++--------------+-------------------------------------------------------+
+| Short name   | Sarif                                                 |
++--------------+-------------------------------------------------------+
+| Rulesets     | This reports works with an arbitrary list of results. |
+|              |                                                       |
+|              |                                                       |
++--------------+-------------------------------------------------------+
+| Type         | Json                                                  |
++--------------+-------------------------------------------------------+
+| Target       | This report is written in 'exakat.json'.              |
++--------------+-------------------------------------------------------+
+| Available in |                                                       |
++--------------+-------------------------------------------------------+
+
 
 .. _report-simpletable:
 
@@ -1769,11 +2142,24 @@ Simpletable is suitable for any list of results provided by exakat. It is inspir
 .. image:: ../images/report.simpletable.png
     :alt: Example of a SimpleTable report (0)
 
-SimpleTable is a HTML report format.
 
-This report is written in 'table'.
 
-SimpleTable doesn't depend on rulesets.
+Specs
+^^^^^
++--------------+-----------------------------------------+
+| Short name   | SimpleTable                             |
++--------------+-----------------------------------------+
+| Rulesets     | SimpleTable doesn't depend on rulesets. |
+|              |                                         |
+|              |                                         |
++--------------+-----------------------------------------+
+| Type         | HTML                                    |
++--------------+-----------------------------------------+
+| Target       | This report is written in 'table'.      |
++--------------+-----------------------------------------+
+| Available in |                                         |
++--------------+-----------------------------------------+
+
 
 .. _report-stats:
 
@@ -1839,11 +2225,22 @@ Stats reports PHP structures definition, like class, interfaces, variables, and 
         }
     }
 
-Stats is a JSON report format.
 
-This report is written in 'exakat.stat.json'.
 
-Stats depends on the following rule : Stats.
+Specs
+^^^^^
++--------------+-----------------------------------------------+
+| Short name   | Stats                                         |
++--------------+-----------------------------------------------+
+| Rulesets     | Stats.                                        |
++--------------+-----------------------------------------------+
+| Type         | JSON                                          |
++--------------+-----------------------------------------------+
+| Target       | This report is written in 'exakat.stat.json'. |
++--------------+-----------------------------------------------+
+| Available in |                                               |
++--------------+-----------------------------------------------+
+
 
 .. _report-stubs:
 
@@ -1866,11 +2263,24 @@ The resulting report is in one file, called `stubs.php`.
 .. image:: ../images/report.stubs.png
     :alt: Example of a Stubs report (0)
 
-Stubs is a PHP report format.
 
-This report is written in 'stubs.php'.
 
-Stubs doesn't depend on rulesets.
+Specs
+^^^^^
++--------------+----------------------------------------+
+| Short name   | Stubs                                  |
++--------------+----------------------------------------+
+| Rulesets     | Stubs doesn't depend on rulesets.      |
+|              |                                        |
+|              |                                        |
++--------------+----------------------------------------+
+| Type         | PHP                                    |
++--------------+----------------------------------------+
+| Target       | This report is written in 'stubs.php'. |
++--------------+----------------------------------------+
+| Available in |                                        |
++--------------+----------------------------------------+
+
 
 .. _report-stubsjson:
 
@@ -1903,11 +2313,24 @@ The StubsJson report includes :
 .. image:: ../images/report.stubs.json.png
     :alt: Example of a StubsJson report (0)
 
-StubsJson is a JSON report format.
 
-This report is written in 'stubs.ini'.
 
-StubsJson doesn't depend on rulesets.
+Specs
+^^^^^
++--------------+----------------------------------------+
+| Short name   | StubsJson                              |
++--------------+----------------------------------------+
+| Rulesets     | StubsJson doesn't depend on rulesets.  |
+|              |                                        |
+|              |                                        |
++--------------+----------------------------------------+
+| Type         | JSON                                   |
++--------------+----------------------------------------+
+| Target       | This report is written in 'stubs.ini'. |
++--------------+----------------------------------------+
+| Available in |                                        |
++--------------+----------------------------------------+
+
 
 .. _report-text:
 
@@ -1938,11 +2361,24 @@ This format is fast, and fitted for machine communications.
     /classes/test.php:1005	Performances/SlowFunctions	Slow Functions	array_unique(array_merge($classTags, $this->testMethods[$testMethodName]['tags']))
     
 
-Text is a Text report format.
 
-This report is written to the standard output.
 
-Text accepts any arbitrary list of results.
+Specs
+^^^^^
++--------------+-------------------------------------------------------+
+| Short name   | Text                                                  |
++--------------+-------------------------------------------------------+
+| Rulesets     | This reports works with an arbitrary list of results. |
+|              |                                                       |
+|              |                                                       |
++--------------+-------------------------------------------------------+
+| Type         | Text                                                  |
++--------------+-------------------------------------------------------+
+| Target       | This report is written to the standard output.        |
++--------------+-------------------------------------------------------+
+| Available in |                                                       |
++--------------+-------------------------------------------------------+
+
 
 .. _report-top10:
 
@@ -1962,11 +2398,22 @@ The Top 10 report is based on the 'Top 10 classic PHP traps' presentation. You c
 .. image:: ../images/report.top10.png
     :alt: Example of a Top10 report (1)
 
-Top10 is a HTML report format.
 
-This report is written in 'top10'.
 
-Top10 depends on the following rule : Top10.
+Specs
+^^^^^
++--------------+------------------------------------+
+| Short name   | Top10                              |
++--------------+------------------------------------+
+| Rulesets     | Top10.                             |
++--------------+------------------------------------+
+| Type         | HTML                               |
++--------------+------------------------------------+
+| Target       | This report is written in 'top10'. |
++--------------+------------------------------------+
+| Available in |                                    |
++--------------+------------------------------------+
+
 
 .. _report-topology-order:
 
@@ -1993,11 +2440,24 @@ There are currently two topology available:
 .. image:: ../images/report.topology.typehints.png
     :alt: Example of a Topology Order report (1)
 
-Topology Order is a DOT report format.
 
-This report is written in 'exakat.topology.dot'.
 
-Topology Order doesn't depend on rulesets.
+Specs
+^^^^^
++--------------+--------------------------------------------------+
+| Short name   | Topology Order                                   |
++--------------+--------------------------------------------------+
+| Rulesets     | Topology Order doesn't depend on rulesets.       |
+|              |                                                  |
+|              |                                                  |
++--------------+--------------------------------------------------+
+| Type         | DOT                                              |
++--------------+--------------------------------------------------+
+| Target       | This report is written in 'exakat.topology.dot'. |
++--------------+--------------------------------------------------+
+| Available in |                                                  |
++--------------+--------------------------------------------------+
+
 
 .. _report-typechecks:
 
@@ -2017,11 +2477,22 @@ It checks the presence of typehint, suggests possible type hinting, and check th
 .. image:: ../images/report.typehint.png
     :alt: Example of a TypeChecks report (0)
 
-TypeChecks is a HTML report format.
 
-This report is written in 'typechecks'.
 
-TypeChecks depends on the following rule : TypeChecks.
+Specs
+^^^^^
++--------------+-----------------------------------------+
+| Short name   | TypeChecks                              |
++--------------+-----------------------------------------+
+| Rulesets     | TypeChecks.                             |
++--------------+-----------------------------------------+
+| Type         | HTML                                    |
++--------------+-----------------------------------------+
+| Target       | This report is written in 'typechecks'. |
++--------------+-----------------------------------------+
+| Available in |                                         |
++--------------+-----------------------------------------+
+
 
 .. _report-typesuggestion:
 
@@ -2051,11 +2522,22 @@ This report is ready for PHP 8.0 : the suggestions may be combined together, and
 .. image:: ../images/report.typesuggestion.png
     :alt: Example of a TypeSuggestion report (0)
 
-TypeSuggestion is a HTML report format.
 
-This report is written in 'typehint.suggestion.html'.
 
-TypeSuggestion depends on the following rule : TypeChecks.
+Specs
+^^^^^
++--------------+-------------------------------------------------------+
+| Short name   | TypeSuggestion                                        |
++--------------+-------------------------------------------------------+
+| Rulesets     | TypeChecks.                                           |
++--------------+-------------------------------------------------------+
+| Type         | HTML                                                  |
++--------------+-------------------------------------------------------+
+| Target       | This report is written in 'typehint.suggestion.html'. |
++--------------+-------------------------------------------------------+
+| Available in |                                                       |
++--------------+-------------------------------------------------------+
+
 
 .. _report-uml:
 
@@ -2079,11 +2561,24 @@ Classes, interfaces and traits are represented, along with their constants, meth
 .. image:: ../images/report.uml.detail.png
     :alt: Example of a Uml report (1)
 
-Uml is a dot report format.
 
-This report is written in 'exakat.uml.dot'.
 
-Uml doesn't depend on rulesets.
+Specs
+^^^^^
++--------------+---------------------------------------------+
+| Short name   | Uml                                         |
++--------------+---------------------------------------------+
+| Rulesets     | Uml doesn't depend on rulesets.             |
+|              |                                             |
+|              |                                             |
++--------------+---------------------------------------------+
+| Type         | dot                                         |
++--------------+---------------------------------------------+
+| Target       | This report is written in 'exakat.uml.dot'. |
++--------------+---------------------------------------------+
+| Available in |                                             |
++--------------+---------------------------------------------+
+
 
 .. _report-xml:
 
@@ -2106,11 +2601,24 @@ XML version of the reports. It uses the same format than PHP Code Sniffer to out
      <warning line="55" column="0" source="Php/EllipsisUsage" severity="Major" fixable="0">... Usage</warning>
     
 
-Xml is a XML report format.
 
-This report is written in 'exakat.xml'.
 
-Xml accepts any arbitrary list of results.
+Specs
+^^^^^
++--------------+-------------------------------------------------------+
+| Short name   | Xml                                                   |
++--------------+-------------------------------------------------------+
+| Rulesets     | This reports works with an arbitrary list of results. |
+|              |                                                       |
+|              |                                                       |
++--------------+-------------------------------------------------------+
+| Type         | XML                                                   |
++--------------+-------------------------------------------------------+
+| Target       | This report is written in 'exakat.xml'.               |
++--------------+-------------------------------------------------------+
+| Available in |                                                       |
++--------------+-------------------------------------------------------+
+
 
 .. _report-yaml:
 
@@ -2155,11 +2663,24 @@ Simple Yaml format. It is a structured array with all results, described as obje
         messages: { 77: [[{ type: warning, source: Structures/Iffectation, severity: Minor, fixable: fixable, message: Iffectations, fullcode: '$args = $this->getArguments( )' }]], 67: [[{ type: warning, source: Structures/Iffectation, severity: Minor, fixable: fixable, message: Iffectations, fullcode: '$args = $this->input->getArgument(''args'')' }, { type: warning, source: Structures/BuriedAssignation, severity: Minor, fixable: fixable, message: 'Buried Assignation', fullcode: '$args = $this->input->getArgument(''args'')' }]], 114: [[{ type: warning, source: Variables/WrittenOnlyVariable, severity: Minor, fixable: fixable, message: 'Written Only Variables', fullcode: $input }, { type: warning, source: Variables/VariableUsedOnceByContext, severity: Minor, fixable: fixable, message: 'Used Once Variables (In Scope)', fullcode: $input }, { type: warning, source: Classes/UndefinedClasses, severity: Major, fixable: fixable, message: 'Undefined Classes', fullcode: 'new ArrayInput($arguments)' }]], 13: [[{ type: warning, source: Structures/PropertyVariableConfusion, severity: Minor, fixable: fixable, message: 'Property Variable Confusion', fullcode: $input }]], 74: [[{ type: warning, source: Php/ReservedNames, severity: Major, fixable: fixable, message: 'PHP Keywords As Names', fullcode: $default }]], 61: [[{ type: warning, source: Php/ReservedNames, severity: Major, fixable: fixable, message: 'PHP Keywords As Names', fullcode: $string }]], 59: [[{ type: warning, source: Php/ReservedNames, severity: Major, fixable: fixable, message: 'PHP Keywords As Names', fullcode: $string }, { type: warning, source: Functions/RelayFunction, severity: Major, fixable: fixable, message: 'Relay Function', fullcode: 'public function write($string) { /**/ } ' }]], 56: [[{ type: warning, source: Php/ReservedNames, severity: Major, fixable: fixable, message: 'PHP Keywords As Names', fullcode: $string }]], 54: [[{ type: warning, source: Php/ReservedNames, severity: Major, fixable: fixable, message: 'PHP Keywords As Names', fullcode: $string }, { type: warning, source: Functions/RelayFunction, severity: Major, fixable: fixable, message: 'Relay Function', fullcode: 'public function writeln($string) { /**/ } ' }]], 81: [[{ type: warning, source: Php/ReservedNames, severity: Major, fixable: fixable, message: 'PHP Keywords As Names', fullcode: $default }]], 84: [[{ type: warning, source: Php/ReservedNames, severity: Major, fixable: fixable, message: 'PHP Keywords As Names', fullcode: $default }]], 44: [[{ type: warning, source: Functions/RelayFunction, severity: Major, fixable: fixable, message: 'Relay Function', fullcode: 'public function getConfig( ) { /**/ } ' }]], 78: [[{ type: warning, source: Structures/ShouldMakeTernary, severity: Minor, fixable: fixable, message: 'Should Make Ternary', fullcode: 'if(isset($args[$index])) { /**/ } else { /**/ } ' }]], 108: [[{ type: warning, source: Structures/NoVariableIsACondition, severity: Minor, fixable: fixable, message: 'Variable Is Not A Condition', fullcode: '!$command' }]], 109: [[{ type: warning, source: Exceptions/UncaughtExceptions, severity: Minor, fixable: fixable, message: 'Uncaught Exceptions', fullcode: 'throw new \RuntimeException("Not found a before task command ''$taskName''.")' }]], 95: [[{ type: warning, source: Classes/UnusedMethods, severity: Minor, fixable: fixable, message: 'Unused Methods', fullcode: 'public function call($taskName, $arguments = array( )) { /**/ } ' }]], 10: [[{ type: warning, source: Classes/CouldBeFinal, severity: Minor, fixable: fixable, message: 'Class Could Be Final', fullcode: 'class RuntimeTask { /**/ } ' }]] }
     
 
-Yaml is a Yaml report format.
 
-This report is written in 'exakat.yaml'.
 
-Yaml accepts any arbitrary list of results.
+Specs
+^^^^^
++--------------+-------------------------------------------------------+
+| Short name   | Yaml                                                  |
++--------------+-------------------------------------------------------+
+| Rulesets     | This reports works with an arbitrary list of results. |
+|              |                                                       |
+|              |                                                       |
++--------------+-------------------------------------------------------+
+| Type         | Yaml                                                  |
++--------------+-------------------------------------------------------+
+| Target       | This report is written in 'exakat.yaml'.              |
++--------------+-------------------------------------------------------+
+| Available in |                                                       |
++--------------+-------------------------------------------------------+
+
 
 
 

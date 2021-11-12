@@ -6,7 +6,7 @@ Rulesets
 Introduction
 ------------------------
 
-Exakat provides unique 1383 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
+Exakat provides unique 1384 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
 
 For more smoothly usage, the ruleset concept allow you to run a set of rules based on a decidated focus. Beawre that a Ruleset run all the associated rules and any needed dependencies.
 
@@ -27,61 +27,61 @@ Here is the list of the current rulesets supported by Exakat Engine.
 +-----------------------------------------------+------------------------------------------------------------------------------------------------------+
 |Name                                           | Description                                                                                          |
 +-----------------------------------------------+------------------------------------------------------------------------------------------------------+
-| :ref:`preferences`                            |Identify preferences in the code.                                                                     |
+| :ref:`ruleset-preferences`                    |Identify preferences in the code.                                                                     |
 +-----------------------------------------------+------------------------------------------------------------------------------------------------------+
-| :ref:`analyze`                                |Check for common best practices.                                                                      |
+| :ref:`ruleset-analyze`                        |Check for common best practices.                                                                      |
 +-----------------------------------------------+------------------------------------------------------------------------------------------------------+
-| :ref:`attributes`                             |This ruleset gathers all rules that rely on PHP 8.0 attributes.                                       |
+| :ref:`ruleset-attributes`                     |This ruleset gathers all rules that rely on PHP 8.0 attributes.                                       |
 +-----------------------------------------------+------------------------------------------------------------------------------------------------------+
-| :ref:`ce`                                     |List of rules that are part of the Community Edition                                                  |
+| :ref:`ruleset-ce`                             |List of rules that are part of the Community Edition                                                  |
 +-----------------------------------------------+------------------------------------------------------------------------------------------------------+
-| :ref:`ci-checks`                              |Quick check for common best practices.                                                                |
+| :ref:`ruleset-ci-checks`                      |Quick check for common best practices.                                                                |
 +-----------------------------------------------+------------------------------------------------------------------------------------------------------+
-| :ref:`classreview`                            |A set of rules dedicate to class hygiene                                                              |
+| :ref:`ruleset-classreview`                    |A set of rules dedicate to class hygiene                                                              |
 +-----------------------------------------------+------------------------------------------------------------------------------------------------------+
-| :ref:`coding-conventions`                     |List coding conventions violations.                                                                   |
+| :ref:`ruleset-coding-conventions`             |List coding conventions violations.                                                                   |
 +-----------------------------------------------+------------------------------------------------------------------------------------------------------+
-| :ref:`compatibilityphp53`                     |List features that are incompatible with PHP 5.3.                                                     |
+| :ref:`ruleset-compatibilityphp53`             |List features that are incompatible with PHP 5.3.                                                     |
 +-----------------------------------------------+------------------------------------------------------------------------------------------------------+
-| :ref:`compatibilityphp54`                     |List features that are incompatible with PHP 5.4.                                                     |
+| :ref:`ruleset-compatibilityphp54`             |List features that are incompatible with PHP 5.4.                                                     |
 +-----------------------------------------------+------------------------------------------------------------------------------------------------------+
-| :ref:`compatibilityphp55`                     |List features that are incompatible with PHP 5.5.                                                     |
+| :ref:`ruleset-compatibilityphp55`             |List features that are incompatible with PHP 5.5.                                                     |
 +-----------------------------------------------+------------------------------------------------------------------------------------------------------+
-| :ref:`compatibilityphp56`                     |List features that are incompatible with PHP 5.6.                                                     |
+| :ref:`ruleset-compatibilityphp56`             |List features that are incompatible with PHP 5.6.                                                     |
 +-----------------------------------------------+------------------------------------------------------------------------------------------------------+
-| :ref:`compatibilityphp70`                     |List features that are incompatible with PHP 7.0.                                                     |
+| :ref:`ruleset-compatibilityphp70`             |List features that are incompatible with PHP 7.0.                                                     |
 +-----------------------------------------------+------------------------------------------------------------------------------------------------------+
-| :ref:`compatibilityphp71`                     |List features that are incompatible with PHP 7.1.                                                     |
+| :ref:`ruleset-compatibilityphp71`             |List features that are incompatible with PHP 7.1.                                                     |
 +-----------------------------------------------+------------------------------------------------------------------------------------------------------+
-| :ref:`compatibilityphp72`                     |List features that are incompatible with PHP 7.2.                                                     |
+| :ref:`ruleset-compatibilityphp72`             |List features that are incompatible with PHP 7.2.                                                     |
 +-----------------------------------------------+------------------------------------------------------------------------------------------------------+
-| :ref:`compatibilityphp73`                     |List features that are incompatible with PHP 7.3.                                                     |
+| :ref:`ruleset-compatibilityphp73`             |List features that are incompatible with PHP 7.3.                                                     |
 +-----------------------------------------------+------------------------------------------------------------------------------------------------------+
-| :ref:`compatibilityphp74`                     |List features that are incompatible with PHP 7.4.                                                     |
+| :ref:`ruleset-compatibilityphp74`             |List features that are incompatible with PHP 7.4.                                                     |
 +-----------------------------------------------+------------------------------------------------------------------------------------------------------+
-| :ref:`compatibilityphp80`                     |List features that are incompatible with PHP 8.0.                                                     |
+| :ref:`ruleset-compatibilityphp80`             |List features that are incompatible with PHP 8.0.                                                     |
 +-----------------------------------------------+------------------------------------------------------------------------------------------------------+
-| :ref:`compatibilityphp81`                     |List features that are incompatible with PHP 8.1.                                                     |
+| :ref:`ruleset-compatibilityphp81`             |List features that are incompatible with PHP 8.1.                                                     |
 +-----------------------------------------------+------------------------------------------------------------------------------------------------------+
-| :ref:`dead-code`                              |Check the unused code or unreachable code.                                                            |
+| :ref:`ruleset-dead-code`                      |Check the unused code or unreachable code.                                                            |
 +-----------------------------------------------+------------------------------------------------------------------------------------------------------+
-| :ref:`lintbutwontexec`                        |Check the code for common errors that will lead to a Fatal error on production, but lint fine.        |
+| :ref:`ruleset-lintbutwontexec`                |Check the code for common errors that will lead to a Fatal error on production, but lint fine.        |
 +-----------------------------------------------+------------------------------------------------------------------------------------------------------+
-| :ref:`performances`                           |Check the code for slow code.                                                                         |
+| :ref:`ruleset-performances`                   |Check the code for slow code.                                                                         |
 +-----------------------------------------------+------------------------------------------------------------------------------------------------------+
-| :ref:`rector`                                 |Suggests configuration to apply changes with Rector                                                   |
+| :ref:`ruleset-rector`                         |Suggests configuration to apply changes with Rector                                                   |
 +-----------------------------------------------+------------------------------------------------------------------------------------------------------+
-| :ref:`security`                               |Check the code for common security bad practices, especially in the Web environnement.                |
+| :ref:`ruleset-security`                       |Check the code for common security bad practices, especially in the Web environnement.                |
 +-----------------------------------------------+------------------------------------------------------------------------------------------------------+
-| :ref:`semantics`                              |Checks the meanings found the names of the code.                                                      |
+| :ref:`ruleset-semantics`                      |Checks the meanings found the names of the code.                                                      |
 +-----------------------------------------------+------------------------------------------------------------------------------------------------------+
-| :ref:`suggestions`                            |List of possible modernisation of the PHP code.                                                       |
+| :ref:`ruleset-suggestions`                    |List of possible modernisation of the PHP code.                                                       |
 +-----------------------------------------------+------------------------------------------------------------------------------------------------------+
-| :ref:`top10`                                  |The most common issues found in the code                                                              |
+| :ref:`ruleset-top10`                          |The most common issues found in the code                                                              |
 +-----------------------------------------------+------------------------------------------------------------------------------------------------------+
-| :ref:`typechecks`                             |Checks related to types.                                                                              |
+| :ref:`ruleset-typechecks`                     |Checks related to types.                                                                              |
 +-----------------------------------------------+------------------------------------------------------------------------------------------------------+
-| :ref:`php-cs-fixable`                         |Suggests configuration to apply changes with PHP-CS-FIXER                                             |
+| :ref:`ruleset-php-cs-fixable`                 |Suggests configuration to apply changes with PHP-CS-FIXER                                             |
 +-----------------------------------------------+------------------------------------------------------------------------------------------------------+
 
 Note : in command line, don't forget to add quotes to rulesets' names that include white space.
@@ -127,6 +127,17 @@ Total : 28 analysis
 * :ref:`caught-variable`
 * :ref:`not-or-tilde`
 
+
+
+Specs
+^^^^^
++--------------+-------------+
+| Short name   | Preferences |
++--------------+-------------+
+| Available in |             |
++--------------+-------------+
+
+
 .. _ruleset-analyze:
 
 Analyze
@@ -134,7 +145,7 @@ Analyze
 
 This ruleset centralizes a large number of classic trap and pitfalls when writing PHP.
 
-Total : 430 analysis
+Total : 425 analysis
 
 * :ref:`adding-zero`
 * :ref:`ambiguous-array-index`
@@ -561,11 +572,17 @@ Total : 430 analysis
 * :ref:`htmlentities-using-default-flag`
 * :ref:`wrong-argument-name-with-php-function`
 * :ref:`duplicate-named-parameter`
-* :ref:`No anchor for Php/NativeClassTypeCompatibility <no-anchor-for-php-nativeclasstypecompatibility>`
-* :ref:`No anchor for Attributes/MissingAttributeAttribute <no-anchor-for-attributes-missingattributeattribute>`
-* :ref:`No anchor for Php/NoNullForNative <no-anchor-for-php-nonullfornative>`
-* :ref:`No anchor for Functions/NoReferencedVoid <no-anchor-for-functions-noreferencedvoid>`
-* :ref:`No anchor for Php/JsonSerializeReturnType <no-anchor-for-php-jsonserializereturntype>`
+
+
+
+Specs
+^^^^^
++--------------+----------------------------------------------------------------+
+| Short name   | Analyze                                                        |
++--------------+----------------------------------------------------------------+
+| Available in | `Community Edition <https://www.exakat.io/community-edition>`_ |
++--------------+----------------------------------------------------------------+
+
 
 .. _ruleset-attributes:
 
@@ -574,12 +591,22 @@ Attributes
 
 This ruleset gathers all rules that rely on PHP 8.0 attributes.
 
-Total : 4 analysis
+Total : 3 analysis
 
 * :ref:`exit-like-methods`
 * :ref:`using-deprecated-method`
 * :ref:`modify-immutable`
-* :ref:`No anchor for Attributes/MissingAttributeAttribute <no-anchor-for-attributes-missingattributeattribute>`
+
+
+
+Specs
+^^^^^
++--------------+------------+
+| Short name   | Attributes |
++--------------+------------+
+| Available in |            |
++--------------+------------+
+
 
 .. _ruleset-ce:
 
@@ -588,7 +615,7 @@ CE
 
 This ruleset is the Community Edition list. It holds all the analysis that are in the community edition version of Exakat.
 
-Total : 655 analysis
+Total : 656 analysis
 
 * :ref:`adding-zero`
 * :ref:`array-index`
@@ -1164,6 +1191,7 @@ Total : 655 analysis
 * :ref:`interfaces-is-not-implemented`
 * :ref:`no-literal-for-reference`
 * :ref:`collect-literals`
+* :ref:`no-weak-ssl-crypto`
 * :ref:`collect-parameter-counts`
 * :ref:`collect-local-variable-counts`
 * :ref:`dump-dereferencinglevels`
@@ -1245,6 +1273,17 @@ Total : 655 analysis
 * :ref:`array\_map()-passes-by-value`
 * :ref:`php-8.1-removed-directives`
 * :ref:`htmlentities-using-default-flag`
+
+
+
+Specs
+^^^^^
++--------------+----+
+| Short name   | CE |
++--------------+----+
+| Available in |    |
++--------------+----+
+
 
 .. _ruleset-ci-checks:
 
@@ -1434,6 +1473,17 @@ Total : 178 analysis
 * :ref:`htmlentities-using-default-flag`
 * :ref:`wrong-argument-name-with-php-function`
 
+
+
+Specs
+^^^^^
++--------------+-----------+
+| Short name   | CI-checks |
++--------------+-----------+
+| Available in |           |
++--------------+-----------+
+
+
 .. _ruleset-classreview:
 
 ClassReview
@@ -1500,6 +1550,17 @@ Total : 56 analysis
 * :ref:`no-static-variable-in-a-method`
 * :ref:`inherited-property-type-must-match`
 
+
+
+Specs
+^^^^^
++--------------+-------------+
+| Short name   | ClassReview |
++--------------+-------------+
+| Available in |             |
++--------------+-------------+
+
+
 .. _ruleset-coding-conventions:
 
 Coding conventions
@@ -1511,6 +1572,17 @@ Total : 0 analysis
 
 * 
 
+
+
+Specs
+^^^^^
++--------------+--------------------+
+| Short name   | Coding conventions |
++--------------+--------------------+
+| Available in |                    |
++--------------+--------------------+
+
+
 .. _ruleset-compatibilityphp53:
 
 CompatibilityPHP53
@@ -1518,7 +1590,7 @@ CompatibilityPHP53
 
 This ruleset centralizes all analysis for the migration from PHP 5.2 to 5.3.
 
-Total : 84 analysis
+Total : 80 analysis
 
 * :ref:`non-static-methods-called-in-a-static`
 * :ref:`ext-dba`
@@ -1600,10 +1672,17 @@ Total : 84 analysis
 * :ref:`generator-cannot-return`
 * :ref:`coalesce-equal`
 * :ref:`enum-usage`
-* :ref:`No anchor for Php/FilesFullPath <no-anchor-for-php-filesfullpath>`
-* :ref:`No anchor for Php/NeverTypehintUsage <no-anchor-for-php-nevertypehintusage>`
-* :ref:`No anchor for Php/PHP81scalartypehints <no-anchor-for-php-php81scalartypehints>`
-* :ref:`No anchor for Php/PHP80scalartypehints <no-anchor-for-php-php80scalartypehints>`
+
+
+
+Specs
+^^^^^
++--------------+--------------------+
+| Short name   | CompatibilityPHP53 |
++--------------+--------------------+
+| Available in |                    |
++--------------+--------------------+
+
 
 .. _ruleset-compatibilityphp54:
 
@@ -1612,7 +1691,7 @@ CompatibilityPHP54
 
 This ruleset centralizes all analysis for the migration from PHP 5.3 to 5.4.
 
-Total : 80 analysis
+Total : 76 analysis
 
 * :ref:`non-static-methods-called-in-a-static`
 * :ref:`use-lower-case-for-parent,-static-and-self`
@@ -1690,10 +1769,17 @@ Total : 80 analysis
 * :ref:`generator-cannot-return`
 * :ref:`coalesce-equal`
 * :ref:`enum-usage`
-* :ref:`No anchor for Php/FilesFullPath <no-anchor-for-php-filesfullpath>`
-* :ref:`No anchor for Php/NeverTypehintUsage <no-anchor-for-php-nevertypehintusage>`
-* :ref:`No anchor for Php/PHP81scalartypehints <no-anchor-for-php-php81scalartypehints>`
-* :ref:`No anchor for Php/PHP80scalartypehints <no-anchor-for-php-php80scalartypehints>`
+
+
+
+Specs
+^^^^^
++--------------+--------------------+
+| Short name   | CompatibilityPHP54 |
++--------------+--------------------+
+| Available in |                    |
++--------------+--------------------+
+
 
 .. _ruleset-compatibilityphp55:
 
@@ -1702,7 +1788,7 @@ CompatibilityPHP55
 
 This ruleset centralizes all analysis for the migration from PHP 5.4 to 5.5.
 
-Total : 72 analysis
+Total : 68 analysis
 
 * :ref:`non-static-methods-called-in-a-static`
 * :ref:`ext-apc`
@@ -1772,10 +1858,17 @@ Total : 72 analysis
 * :ref:`generator-cannot-return`
 * :ref:`coalesce-equal`
 * :ref:`enum-usage`
-* :ref:`No anchor for Php/FilesFullPath <no-anchor-for-php-filesfullpath>`
-* :ref:`No anchor for Php/NeverTypehintUsage <no-anchor-for-php-nevertypehintusage>`
-* :ref:`No anchor for Php/PHP81scalartypehints <no-anchor-for-php-php81scalartypehints>`
-* :ref:`No anchor for Php/PHP80scalartypehints <no-anchor-for-php-php80scalartypehints>`
+
+
+
+Specs
+^^^^^
++--------------+--------------------+
+| Short name   | CompatibilityPHP55 |
++--------------+--------------------+
+| Available in |                    |
++--------------+--------------------+
+
 
 .. _ruleset-compatibilityphp56:
 
@@ -1784,7 +1877,7 @@ CompatibilityPHP56
 
 This ruleset centralizes all analysis for the migration from PHP 5.5 to 5.6.
 
-Total : 62 analysis
+Total : 58 analysis
 
 * :ref:`non-static-methods-called-in-a-static`
 * :ref:`malformed-octal`
@@ -1844,10 +1937,17 @@ Total : 62 analysis
 * :ref:`coalesce-equal`
 * :ref:`php-8.0-only-typehints`
 * :ref:`enum-usage`
-* :ref:`No anchor for Php/FilesFullPath <no-anchor-for-php-filesfullpath>`
-* :ref:`No anchor for Php/NeverTypehintUsage <no-anchor-for-php-nevertypehintusage>`
-* :ref:`No anchor for Php/PHP81scalartypehints <no-anchor-for-php-php81scalartypehints>`
-* :ref:`No anchor for Php/PHP80scalartypehints <no-anchor-for-php-php80scalartypehints>`
+
+
+
+Specs
+^^^^^
++--------------+--------------------+
+| Short name   | CompatibilityPHP56 |
++--------------+--------------------+
+| Available in |                    |
++--------------+--------------------+
+
 
 .. _ruleset-compatibilityphp70:
 
@@ -1856,7 +1956,7 @@ CompatibilityPHP70
 
 This ruleset centralizes all analysis for the migration from PHP 5.6 to 7.0.
 
-Total : 55 analysis
+Total : 50 analysis
 
 * :ref:`ext-ereg`
 * :ref:`mcrypt\_create\_iv()-with-default-values`
@@ -1908,11 +2008,17 @@ Total : 55 analysis
 * :ref:`php-8.0-only-typehints`
 * :ref:`union-typehint`
 * :ref:`enum-usage`
-* :ref:`No anchor for Php/FilesFullPath <no-anchor-for-php-filesfullpath>`
-* :ref:`No anchor for Php/FinalConstant <no-anchor-for-php-finalconstant>`
-* :ref:`No anchor for Php/NeverTypehintUsage <no-anchor-for-php-nevertypehintusage>`
-* :ref:`No anchor for Php/PHP81scalartypehints <no-anchor-for-php-php81scalartypehints>`
-* :ref:`No anchor for Php/PHP80scalartypehints <no-anchor-for-php-php80scalartypehints>`
+
+
+
+Specs
+^^^^^
++--------------+--------------------+
+| Short name   | CompatibilityPHP70 |
++--------------+--------------------+
+| Available in |                    |
++--------------+--------------------+
+
 
 .. _ruleset-compatibilityphp71:
 
@@ -1921,7 +2027,7 @@ CompatibilityPHP71
 
 This ruleset centralizes all analysis for the migration from PHP 7.0 to 7.1.
 
-Total : 42 analysis
+Total : 37 analysis
 
 * :ref:`ext-mcrypt`
 * :ref:`hash-algorithms-incompatible-with-php-5.3`
@@ -1960,11 +2066,17 @@ Total : 42 analysis
 * :ref:`union-typehint`
 * :ref:`signature-trailing-comma`
 * :ref:`enum-usage`
-* :ref:`No anchor for Php/FilesFullPath <no-anchor-for-php-filesfullpath>`
-* :ref:`No anchor for Php/FinalConstant <no-anchor-for-php-finalconstant>`
-* :ref:`No anchor for Php/NeverTypehintUsage <no-anchor-for-php-nevertypehintusage>`
-* :ref:`No anchor for Php/PHP81scalartypehints <no-anchor-for-php-php81scalartypehints>`
-* :ref:`No anchor for Php/PHP80scalartypehints <no-anchor-for-php-php80scalartypehints>`
+
+
+
+Specs
+^^^^^
++--------------+--------------------+
+| Short name   | CompatibilityPHP71 |
++--------------+--------------------+
+| Available in |                    |
++--------------+--------------------+
+
 
 .. _ruleset-compatibilityphp72:
 
@@ -1973,7 +2085,7 @@ CompatibilityPHP72
 
 This ruleset centralizes all analysis for the migration from PHP 7.1 to 7.2.
 
-Total : 35 analysis
+Total : 30 analysis
 
 * :ref:`undefined-constants`
 * :ref:`hash-algorithms-incompatible-with-php-5.3`
@@ -2005,11 +2117,17 @@ Total : 35 analysis
 * :ref:`signature-trailing-comma`
 * :ref:`throw-was-an-expression`
 * :ref:`enum-usage`
-* :ref:`No anchor for Php/FilesFullPath <no-anchor-for-php-filesfullpath>`
-* :ref:`No anchor for Php/FinalConstant <no-anchor-for-php-finalconstant>`
-* :ref:`No anchor for Php/NeverTypehintUsage <no-anchor-for-php-nevertypehintusage>`
-* :ref:`No anchor for Php/PHP81scalartypehints <no-anchor-for-php-php81scalartypehints>`
-* :ref:`No anchor for Php/PHP80scalartypehints <no-anchor-for-php-php80scalartypehints>`
+
+
+
+Specs
+^^^^^
++--------------+--------------------+
+| Short name   | CompatibilityPHP72 |
++--------------+--------------------+
+| Available in |                    |
++--------------+--------------------+
+
 
 .. _ruleset-compatibilityphp73:
 
@@ -2018,7 +2136,7 @@ CompatibilityPHP73
 
 This ruleset centralizes all analysis for the migration from PHP 7.2 to 7.3.
 
-Total : 24 analysis
+Total : 19 analysis
 
 * :ref:`new-functions-in-php-7.3`
 * :ref:`unknown-pcre2-option`
@@ -2039,11 +2157,17 @@ Total : 24 analysis
 * :ref:`signature-trailing-comma`
 * :ref:`throw-was-an-expression`
 * :ref:`enum-usage`
-* :ref:`No anchor for Php/FilesFullPath <no-anchor-for-php-filesfullpath>`
-* :ref:`No anchor for Php/FinalConstant <no-anchor-for-php-finalconstant>`
-* :ref:`No anchor for Php/NeverTypehintUsage <no-anchor-for-php-nevertypehintusage>`
-* :ref:`No anchor for Php/PHP81scalartypehints <no-anchor-for-php-php81scalartypehints>`
-* :ref:`No anchor for Php/PHP80scalartypehints <no-anchor-for-php-php80scalartypehints>`
+
+
+
+Specs
+^^^^^
++--------------+--------------------+
+| Short name   | CompatibilityPHP73 |
++--------------+--------------------+
+| Available in |                    |
++--------------+--------------------+
+
 
 .. _ruleset-compatibilityphp74:
 
@@ -2052,7 +2176,7 @@ CompatibilityPHP74
 
 This ruleset centralizes all analysis for the migration from PHP 7.3 to 7.4.
 
-Total : 36 analysis
+Total : 31 analysis
 
 * :ref:`detect-current-class`
 * :ref:`don't-read-and-write-in-one-expression`
@@ -2085,11 +2209,17 @@ Total : 36 analysis
 * :ref:`uses-php-8-match()`
 * :ref:`avoid-get\_object\_vars()`
 * :ref:`enum-usage`
-* :ref:`No anchor for Php/FilesFullPath <no-anchor-for-php-filesfullpath>`
-* :ref:`No anchor for Php/FinalConstant <no-anchor-for-php-finalconstant>`
-* :ref:`No anchor for Php/NeverTypehintUsage <no-anchor-for-php-nevertypehintusage>`
-* :ref:`No anchor for Php/PHP81scalartypehints <no-anchor-for-php-php81scalartypehints>`
-* :ref:`No anchor for Php/PHP80scalartypehints <no-anchor-for-php-php80scalartypehints>`
+
+
+
+Specs
+^^^^^
++--------------+----------------------------------------------------------------+
+| Short name   | CompatibilityPHP74                                             |
++--------------+----------------------------------------------------------------+
+| Available in | `Community Edition <https://www.exakat.io/community-edition>`_ |
++--------------+----------------------------------------------------------------+
+
 
 .. _ruleset-compatibilityphp80:
 
@@ -2098,7 +2228,7 @@ CompatibilityPHP80
 
 This ruleset centralizes all analysis for the migration from PHP 7.4 to 8.0.
 
-Total : 23 analysis
+Total : 20 analysis
 
 * :ref:`old-style-constructor`
 * :ref:`wrong-optional-parameter`
@@ -2120,9 +2250,17 @@ Total : 23 analysis
 * :ref:`reserved-match-keyword`
 * :ref:`avoid-get\_object\_vars()`
 * :ref:`enum-usage`
-* :ref:`No anchor for Php/FinalConstant <no-anchor-for-php-finalconstant>`
-* :ref:`No anchor for Php/NeverTypehintUsage <no-anchor-for-php-nevertypehintusage>`
-* :ref:`No anchor for Php/PHP81scalartypehints <no-anchor-for-php-php81scalartypehints>`
+
+
+
+Specs
+^^^^^
++--------------+----------------------------------------------------------------+
+| Short name   | CompatibilityPHP80                                             |
++--------------+----------------------------------------------------------------+
+| Available in | `Community Edition <https://www.exakat.io/community-edition>`_ |
++--------------+----------------------------------------------------------------+
+
 
 .. _ruleset-compatibilityphp81:
 
@@ -2131,7 +2269,7 @@ CompatibilityPHP81
 
 This ruleset centralizes all analysis for the migration from PHP 8.0 to 8.1.
 
-Total : 12 analysis
+Total : 7 analysis
 
 * :ref:`php-7.4-removed-directives`
 * :ref:`php-8.0-removed-directives`
@@ -2140,11 +2278,17 @@ Total : 12 analysis
 * :ref:`php-8.1-removed-directives`
 * :ref:`php-opensslencryptalgochange`
 * :ref:`php-8.1-removed-constants`
-* :ref:`No anchor for Php/NativeClassTypeCompatibility <no-anchor-for-php-nativeclasstypecompatibility>`
-* :ref:`No anchor for Php/NoNullForNative <no-anchor-for-php-nonullfornative>`
-* :ref:`No anchor for Php/CallingStaticTraitMethod <no-anchor-for-php-callingstatictraitmethod>`
-* :ref:`No anchor for Functions/NoReferencedVoid <no-anchor-for-functions-noreferencedvoid>`
-* :ref:`No anchor for Php/JsonSerializeReturnType <no-anchor-for-php-jsonserializereturntype>`
+
+
+
+Specs
+^^^^^
++--------------+----------------------------------------------------------------+
+| Short name   | CompatibilityPHP81                                             |
++--------------+----------------------------------------------------------------+
+| Available in | `Community Edition <https://www.exakat.io/community-edition>`_ |
++--------------+----------------------------------------------------------------+
+
 
 .. _ruleset-dead-code:
 
@@ -2182,6 +2326,17 @@ Total : 26 analysis
 * :ref:`self-using-trait`
 * :ref:`useless-type-check`
 
+
+
+Specs
+^^^^^
++--------------+-----------+
+| Short name   | Dead code |
++--------------+-----------+
+| Available in |           |
++--------------+-----------+
+
+
 .. _ruleset-lintbutwontexec:
 
 LintButWontExec
@@ -2189,7 +2344,7 @@ LintButWontExec
 
 This ruleset focuses on PHP code that lint (php -l), but that will not run. As such, this ruleset tries to go further than PHP, by connecting files, just like during execution.
 
-Total : 33 analysis
+Total : 32 analysis
 
 * :ref:`final-class-usage`
 * :ref:`final-methods-usage`
@@ -2223,7 +2378,17 @@ Total : 33 analysis
 * :ref:`only-container-for-reference`
 * :ref:`inherited-property-type-must-match`
 * :ref:`duplicate-named-parameter`
-* :ref:`No anchor for Php/JsonSerializeReturnType <no-anchor-for-php-jsonserializereturntype>`
+
+
+
+Specs
+^^^^^
++--------------+-----------------+
+| Short name   | LintButWontExec |
++--------------+-----------------+
+| Available in |                 |
++--------------+-----------------+
+
 
 .. _ruleset-performances:
 
@@ -2281,6 +2446,17 @@ Total : 46 analysis
 * :ref:`no-mb\_substr-in-loop`
 * :ref:`optimize-explode()`
 
+
+
+Specs
+^^^^^
++--------------+--------------+
+| Short name   | Performances |
++--------------+--------------+
+| Available in |              |
++--------------+--------------+
+
+
 .. _ruleset-rector:
 
 Rector
@@ -2293,6 +2469,17 @@ Total : 3 analysis
 * :ref:`preprocessable`
 * :ref:`else-if-versus-elseif`
 * :ref:`is\_a()-with-string`
+
+
+
+Specs
+^^^^^
++--------------+--------+
+| Short name   | Rector |
++--------------+--------+
+| Available in |        |
++--------------+--------+
+
 
 .. _ruleset-security:
 
@@ -2348,6 +2535,17 @@ Total : 44 analysis
 * :ref:`keep-files-access-restricted`
 * :ref:`check-crypto-key-length`
 
+
+
+Specs
+^^^^^
++--------------+----------+
+| Short name   | Security |
++--------------+----------+
+| Available in |          |
++--------------+----------+
+
+
 .. _ruleset-semantics:
 
 Semantics
@@ -2370,6 +2568,17 @@ Total : 13 analysis
 * :ref:`fn-argument-variable-confusion`
 * :ref:`prefix-and-suffixes-with-typehint`
 * :ref:`mismatch-parameter-and-type`
+
+
+
+Specs
+^^^^^
++--------------+-----------+
+| Short name   | Semantics |
++--------------+-----------+
+| Available in |           |
++--------------+-----------+
+
 
 .. _ruleset-suggestions:
 
@@ -2481,6 +2690,17 @@ Total : 100 analysis
 * :ref:`declare-static-once`
 * :ref:`could-use-match`
 
+
+
+Specs
+^^^^^
++--------------+-------------+
+| Short name   | Suggestions |
++--------------+-------------+
+| Available in |             |
++--------------+-------------+
+
+
 .. _ruleset-top10:
 
 Top10
@@ -2519,6 +2739,17 @@ Total : 28 analysis
 * :ref:`possible-missing-subpattern`
 * :ref:`concat-and-addition`
 
+
+
+Specs
+^^^^^
++--------------+-------+
+| Short name   | Top10 |
++--------------+-------+
+| Available in |       |
++--------------+-------+
+
+
 .. _ruleset-typechecks:
 
 Typechecks
@@ -2553,6 +2784,17 @@ Total : 24 analysis
 * :ref:`could-be-parent`
 * :ref:`could-be-generator`
 
+
+
+Specs
+^^^^^
++--------------+------------+
+| Short name   | Typechecks |
++--------------+------------+
+| Available in |            |
++--------------+------------+
+
+
 .. _ruleset-php-cs-fixable:
 
 php-cs-fixable
@@ -2573,5 +2815,16 @@ Total : 11 analysis
 * :ref:`don't-unset-properties`
 * :ref:`multiple-unset()`
 * :ref:`implode-one-arg`
+
+
+
+Specs
+^^^^^
++--------------+----------------+
+| Short name   | php-cs-fixable |
++--------------+----------------+
+| Available in |                |
++--------------+----------------+
+
 
 
