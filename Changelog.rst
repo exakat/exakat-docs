@@ -10,10 +10,15 @@ Here is the release note of exakat.
 
 
 + Architecture
-    + 
+    + Catchup tokens from PHP 5.6 till 7.2
+    + Report unknown Rulesets during reports command
+    + Extended 'catalog' command to list rules too
+    + Extended 'catalog' command to return YAML format
 
 + Report
-    + 
+    + Added several new analysis to the Rector report
+    + Added mixed and never to Appinfo report
+    + Ugraded Sarif report with bartlett/sarif-php-sdk
 
 + Analysis
     + New analysis : report the missing mixed returntype for jsonserialize
@@ -24,10 +29,13 @@ Here is the release note of exakat.
     + New analysis : report PHP 8.0 named parameters
     + New analysis : report First Class Callable Syntax
     + New analysis : New Functions in PHP 8.1
+    + New analysis : Removed functions in PHP 8.1
+    + New analysis : Prepare 'never' for PHP 8.1
+    + New analysis : Prepare 'mixed' for PHP 8.0
+    + New analysis : detect mixed and never usage as typehints
     + Upgraded analysis : Wrong Number of arguments also works with new first class callable syntax
-
-+ Tokenizer
-    + 
+    + Upgraded analysis : Typehint stats now includes union and intersection types
+    + Upgraded analysis : Removed functions in PHP 8.0
 
 **Version 2.2.5 (Wood star, 2021-11-03)**
 

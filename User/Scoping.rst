@@ -154,6 +154,8 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/NotOrNot";
    analyzer[] = "Structures/OneExpressionBracketsConsistency";
    analyzer[] = "Structures/RegexDelimiter";
+
+
 .. _annex-yaml-preferences:
 
 Preferences for .exakat.yaml
@@ -193,6 +195,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/NotOrNot'
      - 'Structures/OneExpressionBracketsConsistency'
      - 'Structures/RegexDelimiter'
+
 
 
 
@@ -431,6 +434,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Php/MultipleDeclareStrict";
    analyzer[] = "Php/MustCallParentConstructor";
    analyzer[] = "Php/NativeClassTypeCompatibility";
+   analyzer[] = "Php/NeverKeyword";
    analyzer[] = "Php/NoClassInGlobal";
    analyzer[] = "Php/NoNullForNative";
    analyzer[] = "Php/NoReferenceForTernary";
@@ -643,6 +647,8 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Variables/VariableUsedOnce";
    analyzer[] = "Variables/VariableUsedOnceByContext";
    analyzer[] = "Variables/WrittenOnlyVariable";
+
+
 .. _annex-yaml-analyze:
 
 Analyze for .exakat.yaml
@@ -873,6 +879,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Php/MultipleDeclareStrict'
      - 'Php/MustCallParentConstructor'
      - 'Php/NativeClassTypeCompatibility'
+     - 'Php/NeverKeyword'
      - 'Php/NoClassInGlobal'
      - 'Php/NoNullForNative'
      - 'Php/NoReferenceForTernary'
@@ -1088,6 +1095,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
 
 
 
+
 .. _annex-attributes:
 
 Attributes
@@ -1108,6 +1116,8 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Attributes/ModifyImmutable";
    analyzer[] = "Functions/KillsApp";
    analyzer[] = "Functions/UsingDeprecated";
+
+
 .. _annex-yaml-attributes:
 
 Attributes for .exakat.yaml
@@ -1123,6 +1133,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Attributes/ModifyImmutable'
      - 'Functions/KillsApp'
      - 'Functions/UsingDeprecated'
+
 
 
 
@@ -1798,6 +1809,8 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Vendors/Typo3";
    analyzer[] = "Vendors/Wordpress";
    analyzer[] = "Vendors/Yii";
+
+
 .. _annex-yaml-ce:
 
 CE for .exakat.yaml
@@ -2468,6 +2481,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
 
 
 
+
 .. _annex-ci-checks:
 
 CI-checks
@@ -2662,6 +2676,8 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Type/StringWithStrangeSpace";
    analyzer[] = "Typehints/MissingReturntype";
    analyzer[] = "Variables/UndefinedVariable";
+
+
 .. _annex-yaml-ci-checks:
 
 CI-checks for .exakat.yaml
@@ -2854,6 +2870,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
 
 
 
+
 .. _annex-classreview:
 
 ClassReview
@@ -2926,6 +2943,8 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Traits/SelfUsingTrait";
    analyzer[] = "Traits/UnusedClassTrait";
    analyzer[] = "Variables/NoStaticVarInMethod";
+
+
 .. _annex-yaml-classreview:
 
 ClassReview for .exakat.yaml
@@ -2996,6 +3015,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
 
 
 
+
 .. _annex-coding-conventions:
 
 Coding conventions
@@ -3013,6 +3033,8 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
 
  [Coding conventions]
    analyzer[] = "";
+
+
 .. _annex-yaml-coding-conventions:
 
 Coding conventions for .exakat.yaml
@@ -3025,6 +3047,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
   rulesets:
     'Coding conventions':
      - ''
+
 
 
 
@@ -3129,6 +3152,8 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Type/MalformedOctal";
    analyzer[] = "Variables/Php5IndirectExpression";
    analyzer[] = "Variables/Php7IndirectExpression";
+
+
 .. _annex-yaml-compatibilityphp53:
 
 CompatibilityPHP53 for .exakat.yaml
@@ -3225,6 +3250,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Type/MalformedOctal'
      - 'Variables/Php5IndirectExpression'
      - 'Variables/Php7IndirectExpression'
+
 
 
 
@@ -3325,6 +3351,8 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Type/MalformedOctal";
    analyzer[] = "Variables/Php5IndirectExpression";
    analyzer[] = "Variables/Php7IndirectExpression";
+
+
 .. _annex-yaml-compatibilityphp54:
 
 CompatibilityPHP54 for .exakat.yaml
@@ -3420,6 +3448,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
 
 
 
+
 .. _annex-compatibilityphp55:
 
 CompatibilityPHP55
@@ -3509,6 +3538,8 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Type/MalformedOctal";
    analyzer[] = "Variables/Php5IndirectExpression";
    analyzer[] = "Variables/Php7IndirectExpression";
+
+
 .. _annex-yaml-compatibilityphp55:
 
 CompatibilityPHP55 for .exakat.yaml
@@ -3596,6 +3627,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
 
 
 
+
 .. _annex-compatibilityphp56:
 
 CompatibilityPHP56
@@ -3675,6 +3707,8 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Type/MalformedOctal";
    analyzer[] = "Variables/Php5IndirectExpression";
    analyzer[] = "Variables/Php7IndirectExpression";
+
+
 .. _annex-yaml-compatibilityphp56:
 
 CompatibilityPHP56 for .exakat.yaml
@@ -3752,6 +3786,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
 
 
 
+
 .. _annex-compatibilityphp70:
 
 CompatibilityPHP70
@@ -3824,6 +3859,8 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/pregOptionE";
    analyzer[] = "Type/HexadecimalString";
    analyzer[] = "Variables/Php7IndirectExpression";
+
+
 .. _annex-yaml-compatibilityphp70:
 
 CompatibilityPHP70 for .exakat.yaml
@@ -3894,6 +3931,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
 
 
 
+
 .. _annex-compatibilityphp71:
 
 CompatibilityPHP71
@@ -3953,6 +3991,8 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/pregOptionE";
    analyzer[] = "Type/HexadecimalString";
    analyzer[] = "Type/OctalInString";
+
+
 .. _annex-yaml-compatibilityphp71:
 
 CompatibilityPHP71 for .exakat.yaml
@@ -4010,6 +4050,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
 
 
 
+
 .. _annex-compatibilityphp72:
 
 CompatibilityPHP72
@@ -4062,6 +4103,8 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/ContinueIsForLoop";
    analyzer[] = "Structures/NoGetClassNull";
    analyzer[] = "Structures/pregOptionE";
+
+
 .. _annex-yaml-compatibilityphp72:
 
 CompatibilityPHP72 for .exakat.yaml
@@ -4112,6 +4155,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
 
 
 
+
 .. _annex-compatibilityphp73:
 
 CompatibilityPHP73
@@ -4153,6 +4197,8 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Php/UnpackingInsideArrays";
    analyzer[] = "Structures/ContinueIsForLoop";
    analyzer[] = "Structures/DontReadAndWriteInOneExpression";
+
+
 .. _annex-yaml-compatibilityphp73:
 
 CompatibilityPHP73 for .exakat.yaml
@@ -4189,6 +4235,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Php/UnpackingInsideArrays'
      - 'Structures/ContinueIsForLoop'
      - 'Structures/DontReadAndWriteInOneExpression'
+
 
 
 
@@ -4245,6 +4292,8 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/CurlVersionNow";
    analyzer[] = "Structures/DontReadAndWriteInOneExpression";
    analyzer[] = "Structures/OpensslRandomPseudoByteSecondArg";
+
+
 .. _annex-yaml-compatibilityphp74:
 
 CompatibilityPHP74 for .exakat.yaml
@@ -4296,6 +4345,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
 
 
 
+
 .. _annex-compatibilityphp80:
 
 CompatibilityPHP80
@@ -4318,6 +4368,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Functions/MismatchParameterName";
    analyzer[] = "Functions/NullableWithConstant";
    analyzer[] = "Functions/WrongOptionalParameter";
+   analyzer[] = "PHp/MixedKeyword";
    analyzer[] = "Php/AvoidGetobjectVars";
    analyzer[] = "Php/CastUnsetUsage";
    analyzer[] = "Php/ConcatAndAddition";
@@ -4335,6 +4386,8 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Php/ReservedMatchKeyword";
    analyzer[] = "Structures/ArrayMapPassesByValue";
    analyzer[] = "Structures/UnsupportedTypesWithOperators";
+
+
 .. _annex-yaml-compatibilityphp80:
 
 CompatibilityPHP80 for .exakat.yaml
@@ -4352,6 +4405,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Functions/MismatchParameterName'
      - 'Functions/NullableWithConstant'
      - 'Functions/WrongOptionalParameter'
+     - 'PHp/MixedKeyword'
      - 'Php/AvoidGetobjectVars'
      - 'Php/CastUnsetUsage'
      - 'Php/ConcatAndAddition'
@@ -4372,6 +4426,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
 
 
 
+
 .. _annex-compatibilityphp81:
 
 CompatibilityPHP81
@@ -4389,9 +4444,11 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
 
  [CompatibilityPHP81]
    analyzer[] = "Functions/NoReferencedVoid";
+   analyzer[] = "PHp/MixedKeyword";
    analyzer[] = "Php/CallingStaticTraitMethod";
    analyzer[] = "Php/JsonSerializeReturnType";
    analyzer[] = "Php/NativeClassTypeCompatibility";
+   analyzer[] = "Php/NeverKeyword";
    analyzer[] = "Php/NoNullForNative";
    analyzer[] = "Php/OpensslEncryptAlgoChange";
    analyzer[] = "Php/Php74RemovedDirective";
@@ -4399,8 +4456,11 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Php/Php81NewFunctions";
    analyzer[] = "Php/Php81RemovedConstant";
    analyzer[] = "Php/Php81RemovedDirective";
+   analyzer[] = "Php/Php81RemovedFunctions";
    analyzer[] = "Php/RestrictGlobalUsage";
    analyzer[] = "Variables/InheritedStaticVariable";
+
+
 .. _annex-yaml-compatibilityphp81:
 
 CompatibilityPHP81 for .exakat.yaml
@@ -4413,9 +4473,11 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
   rulesets:
     'CompatibilityPHP81':
      - 'Functions/NoReferencedVoid'
+     - 'PHp/MixedKeyword'
      - 'Php/CallingStaticTraitMethod'
      - 'Php/JsonSerializeReturnType'
      - 'Php/NativeClassTypeCompatibility'
+     - 'Php/NeverKeyword'
      - 'Php/NoNullForNative'
      - 'Php/OpensslEncryptAlgoChange'
      - 'Php/Php74RemovedDirective'
@@ -4423,8 +4485,10 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Php/Php81NewFunctions'
      - 'Php/Php81RemovedConstant'
      - 'Php/Php81RemovedDirective'
+     - 'Php/Php81RemovedFunctions'
      - 'Php/RestrictGlobalUsage'
      - 'Variables/InheritedStaticVariable'
+
 
 
 
@@ -4470,6 +4534,8 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/UnsetInForeach";
    analyzer[] = "Structures/UnusedLabel";
    analyzer[] = "Traits/SelfUsingTrait";
+
+
 .. _annex-yaml-dead-code:
 
 Dead code for .exakat.yaml
@@ -4507,6 +4573,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/UnsetInForeach'
      - 'Structures/UnusedLabel'
      - 'Traits/SelfUsingTrait'
+
 
 
 
@@ -4559,6 +4626,8 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Traits/UndefinedInsteadof";
    analyzer[] = "Traits/UndefinedTrait";
    analyzer[] = "Traits/UselessAlias";
+
+
 .. _annex-yaml-lintbutwontexec:
 
 LintButWontExec for .exakat.yaml
@@ -4603,6 +4672,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Traits/UndefinedInsteadof'
      - 'Traits/UndefinedTrait'
      - 'Traits/UselessAlias'
+
 
 
 
@@ -4668,6 +4738,8 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/Noscream";
    analyzer[] = "Structures/SimplePreg";
    analyzer[] = "Structures/WhileListEach";
+
+
 .. _annex-yaml-performances:
 
 Performances for .exakat.yaml
@@ -4728,6 +4800,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
 
 
 
+
 .. _annex-rector:
 
 Rector
@@ -4746,7 +4819,12 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
  [Rector]
    analyzer[] = "Php/IsAWithString";
    analyzer[] = "Structures/ElseIfElseif";
+   analyzer[] = "Structures/ForWithFunctioncall";
+   analyzer[] = "Structures/ImpliedIf";
    analyzer[] = "Structures/ShouldPreprocess";
+   analyzer[] = "Type/ShouldTypecast";
+
+
 .. _annex-yaml-rector:
 
 Rector for .exakat.yaml
@@ -4760,7 +4838,11 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
     'Rector':
      - 'Php/IsAWithString'
      - 'Structures/ElseIfElseif'
+     - 'Structures/ForWithFunctioncall'
+     - 'Structures/ImpliedIf'
      - 'Structures/ShouldPreprocess'
+     - 'Type/ShouldTypecast'
+
 
 
 
@@ -4824,6 +4906,8 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/RandomWithoutTry";
    analyzer[] = "Structures/VardumpUsage";
    analyzer[] = "Structures/pregOptionE";
+
+
 .. _annex-yaml-security:
 
 Security for .exakat.yaml
@@ -4882,6 +4966,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
 
 
 
+
 .. _annex-semantics:
 
 Semantics
@@ -4911,6 +4996,8 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Type/DuplicateLiteral";
    analyzer[] = "Type/SimilarIntegers";
    analyzer[] = "Variables/VariableOneLetter";
+
+
 .. _annex-yaml-semantics:
 
 Semantics for .exakat.yaml
@@ -4935,6 +5022,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Type/DuplicateLiteral'
      - 'Type/SimilarIntegers'
      - 'Variables/VariableOneLetter'
+
 
 
 
@@ -5054,6 +5142,8 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Traits/MultipleUsage";
    analyzer[] = "Variables/ComplexDynamicNames";
    analyzer[] = "Variables/NoStaticVarInMethod";
+
+
 .. _annex-yaml-suggestions:
 
 Suggestions for .exakat.yaml
@@ -5168,6 +5258,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
 
 
 
+
 .. _annex-top10:
 
 Top10
@@ -5212,6 +5303,8 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/UseListWithForeach";
    analyzer[] = "Type/NoRealComparison";
    analyzer[] = "Variables/VariableUsedOnce";
+
+
 .. _annex-yaml-top10:
 
 Top10 for .exakat.yaml
@@ -5251,6 +5344,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/UseListWithForeach'
      - 'Type/NoRealComparison'
      - 'Variables/VariableUsedOnce'
+
 
 
 
@@ -5294,6 +5388,8 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Typehints/CouldBeSelf";
    analyzer[] = "Typehints/CouldBeString";
    analyzer[] = "Typehints/CouldBeVoid";
+
+
 .. _annex-yaml-typechecks:
 
 Typechecks for .exakat.yaml
@@ -5332,6 +5428,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
 
 
 
+
 .. _annex-php-cs-fixable:
 
 php-cs-fixable
@@ -5359,6 +5456,8 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/MultipleUnset";
    analyzer[] = "Structures/PHP7Dirname";
    analyzer[] = "Structures/UseConstant";
+
+
 .. _annex-yaml-php-cs-fixable:
 
 php-cs-fixable for .exakat.yaml
@@ -5381,6 +5480,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/MultipleUnset'
      - 'Structures/PHP7Dirname'
      - 'Structures/UseConstant'
+
 
 
 

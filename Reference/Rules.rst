@@ -630,7 +630,7 @@ Specs
 +--------------+------------------------------------------------------------------------------------------------------+
 | Time To Fix  | Instant (5 mins)                                                                                     |
 +--------------+------------------------------------------------------------------------------------------------------+
-| Precision    | High                                                                                                 |
+| Precision    | Very high                                                                                            |
 +--------------+------------------------------------------------------------------------------------------------------+
 | Examples     | :ref:`case-magento-arrays-multipleidenticalkeys`, :ref:`case-mediawiki-arrays-multipleidenticalkeys` |
 +--------------+------------------------------------------------------------------------------------------------------+
@@ -1459,6 +1459,12 @@ Abstract Class Usage
 
 See also `Classes abstraction <https://www.php.net/abstract>`_.
 
+
+Suggestions
+^^^^^^^^^^^
+
+*
+
 Specs
 ^^^^^
 +--------------+----------------------------------------------------------------+
@@ -1474,7 +1480,7 @@ Specs
 +--------------+----------------------------------------------------------------+
 | Time To Fix  | Slow (1 hour)                                                  |
 +--------------+----------------------------------------------------------------+
-| Precision    | High                                                           |
+| Precision    | Very high                                                      |
 +--------------+----------------------------------------------------------------+
 | Available in | `Community Edition <https://www.exakat.io/community-edition>`_ |
 +--------------+----------------------------------------------------------------+
@@ -1530,7 +1536,7 @@ Specs
 +--------------+----------------------------------------------------------------+
 | Time To Fix  | Slow (1 hour)                                                  |
 +--------------+----------------------------------------------------------------+
-| Precision    | High                                                           |
+| Precision    | Very high                                                      |
 +--------------+----------------------------------------------------------------+
 | Available in | `Community Edition <https://www.exakat.io/community-edition>`_ |
 +--------------+----------------------------------------------------------------+
@@ -9108,7 +9114,12 @@ When this is the case, it is difficult to understand which class will actually h
 
 In the case of a private property, the different instances will stay distinct. In the case of protected or public properties, they will all share the same value. 
 
-It is recommended to avoid redefining the same property in a hierarchy.
+It is recommended to avoid redefining the same property in a hierarchy. 
+
+Suggestions
+^^^^^^^^^^^
+
+* Remove of the definition
 
 Specs
 ^^^^^
@@ -9125,7 +9136,7 @@ Specs
 +--------------+------------------------------------------+
 | Time To Fix  | Quick (30 mins)                          |
 +--------------+------------------------------------------+
-| Precision    | High                                     |
+| Precision    | Very high                                |
 +--------------+------------------------------------------+
 | Available in |                                          |
 +--------------+------------------------------------------+
@@ -16069,12 +16080,34 @@ Specs
 
 .. _dump-collectclasschanges:
 
-.. _dump-collectclasschanges:
+.. _collect-static-class-changes:
 
-Dump/CollectClassChanges
-++++++++++++++++++++++++
+Collect Static Class Changes
+++++++++++++++++++++++++++++
 
- 
+ Collects changes to constants, methods and properties, within a class hierarchy. 
+
+.. code-block:: php
+
+   <?php
+   
+   class x {
+       protected $property = 1;
+       
+       protected function method() {}
+   }
+   
+   class y extends x {
+       // $property is changed
+       protected $property = 2;
+       
+       // method is not changed
+       protected function method() {}
+   }
+   
+   ?>
+
+
 
 Suggestions
 ^^^^^^^^^^^
@@ -16381,12 +16414,12 @@ Specs
 
 .. _dump-collectdefinitionsstats:
 
-.. _dump-collectdefinitionsstats:
+.. _collect-definitions-statistics:
 
-Dump/CollectDefinitionsStats
-++++++++++++++++++++++++++++
+Collect Definitions Statistics
+++++++++++++++++++++++++++++++
 
- 
+ Collect counts of various structures, such a `static <https://www.php.net/manual/en/language.oop5.static.php>`_ constants, `static <https://www.php.net/manual/en/language.oop5.static.php>`_ method calls, `static <https://www.php.net/manual/en/language.oop5.static.php>`_ properties, method calls and properties.
 
 Suggestions
 ^^^^^^^^^^^
@@ -16478,12 +16511,12 @@ Specs
 
 .. _dump-collectglobalvariables:
 
-.. _dump-collectglobalvariables:
+.. _collect-global-variables:
 
-Dump/CollectGlobalVariables
-+++++++++++++++++++++++++++
+Collect Global Variables
+++++++++++++++++++++++++
 
- 
+ Collect global variables names.
 
 Suggestions
 ^^^^^^^^^^^
@@ -17251,12 +17284,25 @@ Specs
 
 .. _dump-inclusions:
 
-.. _dump-inclusions:
+.. _inclusions:
 
-Dump/Inclusions
-+++++++++++++++
+Inclusions
+++++++++++
 
- 
+ Collect inclusions of files. This is based on include(), require(), include_once() and require_once() keywords.
+
+.. code-block:: php
+
+   <?php
+   // This is file 'A.php';
+   
+   include 'B.php';
+   
+   // Here, B.php includes A.php
+   
+   ?>
+
+
 
 Suggestions
 ^^^^^^^^^^^
@@ -17672,6 +17718,8 @@ Catch Undefined Variable
    ?>
 
 
+See also `catch <https://www.php.net/manual/en/language.exceptions.php#language.exceptions.catch>`_ and `Non-capturing exception catches in PHP 8 <https://www.amitmerchant.com/non-capturing-exception-catches-php8/>`_.
+
 
 
 Suggestions
@@ -17694,7 +17742,7 @@ Specs
 +--------------+-----------------------------------+
 | Time To Fix  | Quick (30 mins)                   |
 +--------------+-----------------------------------+
-| Precision    | High                              |
+| Precision    | Very high                         |
 +--------------+-----------------------------------+
 | Available in |                                   |
 +--------------+-----------------------------------+
@@ -47535,7 +47583,7 @@ Specs
 PHP 8.0 Removed Functions
 +++++++++++++++++++++++++
 
- The following PHP native functions were removed in PHP 8.0.
+ The following PHP native functions were deprecated in PHP 8.0, and will be removed in PHP 9.0
 
 * `image2wbmp() <https://www.php.net/image2wbmp>`_
 * `png2wbmp() <https://www.php.net/png2wbmp>`_
@@ -47554,6 +47602,27 @@ PHP 8.0 Removed Functions
 * `fgetss() <https://www.php.net/fgetss>`_
 * `restore_include_path() <https://www.php.net/restore_include_path>`_
 * `gzgetss() <https://www.php.net/gzgetss>`_
+* `mbregex_encoding() <https://www.php.net/mbregex_encoding>`_
+* `mbereg() <https://www.php.net/mbereg>`_
+* `mberegi() <https://www.php.net/mberegi>`_
+* `mbereg_replace() <https://www.php.net/mbereg_replace>`_
+* `mberegi_replace() <https://www.php.net/mberegi_replace>`_
+* `mbsplit() <https://www.php.net/mbsplit>`_
+* `mbereg_match() <https://www.php.net/mbereg_match>`_
+* `mbereg_search() <https://www.php.net/mbereg_search>`_
+* `mbereg_search_pos() <https://www.php.net/mbereg_search_pos>`_
+* `mbereg_search_regs() <https://www.php.net/mbereg_search_regs>`_
+* `mbereg_search_init() <https://www.php.net/mbereg_search_init>`_
+* `mbereg_search_getregs() <https://www.php.net/mbereg_search_getregs>`_
+* `mbereg_search_getpos() <https://www.php.net/mbereg_search_getpos>`_
+* `mbereg_search_setpos() <https://www.php.net/mbereg_search_setpos>`_
+
+ 
+
+Suggestions
+^^^^^^^^^^^
+
+* Remove usage of any of those functions.
 
 Specs
 ^^^^^
@@ -54429,7 +54498,7 @@ Specs
 Comparison Is Always True
 +++++++++++++++++++++++++
 
- Based on the incoming types of arguments, the comparison never change.
+ Based on the incoming type of arguments, the comparison always yield the same value. 
 
 .. code-block:: php
 
@@ -59154,7 +59223,7 @@ Specs
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------+
 | Time To Fix  | Quick (30 mins)                                                                                                                          |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------+
-| Precision    | High                                                                                                                                     |
+| Precision    | Very high                                                                                                                                |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------+
 | ClearPHP     | `no-eval <https://github.com/dseguy/clearPHP/tree/master/rules/no-eval.md>`__                                                            |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------+
@@ -59850,19 +59919,24 @@ For Using Functioncall
 
 This is true with any kind of functioncall that returns the same value throughout the loop. 
 
+Make sure that the functioncall doesn't change with the loop : 
+
+See also `PHP for loops and counting arrays <https://electrictoolbox.com/php-for-loop-counting-array/>`_.
+
 
 
 Suggestions
 ^^^^^^^^^^^
 
 * Call the function once, before the loop
+* Replace by a foreach structure
 
 Specs
 ^^^^^
 +--------------+---------------------------------------------------------------------------------------------------------------+
 | Short name   | Structures/ForWithFunctioncall                                                                                |
 +--------------+---------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`Performances <ruleset-Performances>`, :ref:`Top10 <ruleset-Top10>`                                      |
+| Rulesets     | :ref:`Performances <ruleset-Performances>`, :ref:`Rector <ruleset-Rector>`, :ref:`Top10 <ruleset-Top10>`      |
 +--------------+---------------------------------------------------------------------------------------------------------------+
 | Exakat since | 0.8.4                                                                                                         |
 +--------------+---------------------------------------------------------------------------------------------------------------+
@@ -60806,27 +60880,33 @@ However, such structures are confusing. It is easy to misread them as conditions
 
 It is recommended to use a real 'if then' structures, to make the condition readable.
 
+
+Suggestions
+^^^^^^^^^^^
+
+* Replace this expression by an explicit if-then structure
+
 Specs
 ^^^^^
-+--------------+------------------------------------------------------------------------------------------------+
-| Short name   | Structures/ImpliedIf                                                                           |
-+--------------+------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`Analyze <ruleset-Analyze>`, :ref:`CE <ruleset-CE>`, :ref:`CI-checks <ruleset-CI-checks>` |
-+--------------+------------------------------------------------------------------------------------------------+
-| Exakat since | 0.8.4                                                                                          |
-+--------------+------------------------------------------------------------------------------------------------+
-| PHP Version  | All                                                                                            |
-+--------------+------------------------------------------------------------------------------------------------+
-| Severity     | Major                                                                                          |
-+--------------+------------------------------------------------------------------------------------------------+
-| Time To Fix  | Instant (5 mins)                                                                               |
-+--------------+------------------------------------------------------------------------------------------------+
-| Precision    | High                                                                                           |
-+--------------+------------------------------------------------------------------------------------------------+
-| ClearPHP     | `no-implied-if <https://github.com/dseguy/clearPHP/tree/master/rules/no-implied-if.md>`__      |
-+--------------+------------------------------------------------------------------------------------------------+
-| Available in | `Community Edition <https://www.exakat.io/community-edition>`_                                 |
-+--------------+------------------------------------------------------------------------------------------------+
++--------------+--------------------------------------------------------------------------------------------------------------------------------+
+| Short name   | Structures/ImpliedIf                                                                                                           |
++--------------+--------------------------------------------------------------------------------------------------------------------------------+
+| Rulesets     | :ref:`Analyze <ruleset-Analyze>`, :ref:`CE <ruleset-CE>`, :ref:`CI-checks <ruleset-CI-checks>`, :ref:`Rector <ruleset-Rector>` |
++--------------+--------------------------------------------------------------------------------------------------------------------------------+
+| Exakat since | 0.8.4                                                                                                                          |
++--------------+--------------------------------------------------------------------------------------------------------------------------------+
+| PHP Version  | All                                                                                                                            |
++--------------+--------------------------------------------------------------------------------------------------------------------------------+
+| Severity     | Major                                                                                                                          |
++--------------+--------------------------------------------------------------------------------------------------------------------------------+
+| Time To Fix  | Instant (5 mins)                                                                                                               |
++--------------+--------------------------------------------------------------------------------------------------------------------------------+
+| Precision    | High                                                                                                                           |
++--------------+--------------------------------------------------------------------------------------------------------------------------------+
+| ClearPHP     | `no-implied-if <https://github.com/dseguy/clearPHP/tree/master/rules/no-implied-if.md>`__                                      |
++--------------+--------------------------------------------------------------------------------------------------------------------------------+
+| Available in | `Community Edition <https://www.exakat.io/community-edition>`_                                                                 |
++--------------+--------------------------------------------------------------------------------------------------------------------------------+
 
 
 .. _structures-implodeargsorder:
@@ -60907,6 +60987,9 @@ Inclusions
    
    ?>
 
+
+See also `Include <https://www.php.net/manual/en/function.include.php>`_ and `Require <https://www.php.net/manual/en/function.require.php>`_.
+
 Specs
 ^^^^^
 +--------------+----------------------------------------------------------------+
@@ -60922,7 +61005,7 @@ Specs
 +--------------+----------------------------------------------------------------+
 | Time To Fix  | Slow (1 hour)                                                  |
 +--------------+----------------------------------------------------------------+
-| Precision    | High                                                           |
+| Precision    | Very high                                                      |
 +--------------+----------------------------------------------------------------+
 | Available in | `Community Edition <https://www.exakat.io/community-edition>`_ |
 +--------------+----------------------------------------------------------------+
@@ -70767,7 +70850,8 @@ See also `Traits <https://www.php.net/manual/en/language.oop5.traits.php>`_.
 Suggestions
 ^^^^^^^^^^^
 
-* Eliminate one of the trait request
+* Eliminate the trait in the parent class
+* Eliminate the trait in the child class
 
 Specs
 ^^^^^
@@ -71062,7 +71146,7 @@ Specs
 +--------------+----------------------------+
 | Time To Fix  | Slow (1 hour)              |
 +--------------+----------------------------+
-| Precision    | High                       |
+| Precision    | Very high                  |
 +--------------+----------------------------+
 | Available in |                            |
 +--------------+----------------------------+
@@ -71466,7 +71550,7 @@ Specs
 +--------------+----------------------------------------------------------------+
 | Time To Fix  | Slow (1 hour)                                                  |
 +--------------+----------------------------------------------------------------+
-| Precision    | High                                                           |
+| Precision    | Very high                                                      |
 +--------------+----------------------------------------------------------------+
 | Available in | `Community Edition <https://www.exakat.io/community-edition>`_ |
 +--------------+----------------------------------------------------------------+
@@ -73338,9 +73422,9 @@ Functions such as `intval() <https://www.php.net/intval>`_ or `settype() <https:
    ?>
 
 
-This is a micro-optimisation, although such conversion may be use multiple time, leading to a larger performance increase.  
+This is a micro-optimisation, although such conversion may be use multiple times, leading to a larger performance increase.  
 
-Note that `intval() <https://www.php.net/intval>`_ may also be used to convert an integer to another base.
+Note that `intval() <https://www.php.net/intval>`_ may also be used to convert an integer to another base. `Intval() <https://www.php.net/intval>`_ called with 2 arguments are skipped by this rule.
 
 
 Suggestions
@@ -73350,25 +73434,25 @@ Suggestions
 
 Specs
 ^^^^^
-+--------------+------------------------------------------------------------------------------------------------+
-| Short name   | Type/ShouldTypecast                                                                            |
-+--------------+------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`Analyze <ruleset-Analyze>`, :ref:`CE <ruleset-CE>`, :ref:`CI-checks <ruleset-CI-checks>` |
-+--------------+------------------------------------------------------------------------------------------------+
-| Exakat since | 0.8.4                                                                                          |
-+--------------+------------------------------------------------------------------------------------------------+
-| PHP Version  | All                                                                                            |
-+--------------+------------------------------------------------------------------------------------------------+
-| Severity     | Minor                                                                                          |
-+--------------+------------------------------------------------------------------------------------------------+
-| Time To Fix  | Quick (30 mins)                                                                                |
-+--------------+------------------------------------------------------------------------------------------------+
-| Precision    | High                                                                                           |
-+--------------+------------------------------------------------------------------------------------------------+
-| Examples     | :ref:`case-xataface-type-shouldtypecast`, :ref:`case-openconf-type-shouldtypecast`             |
-+--------------+------------------------------------------------------------------------------------------------+
-| Available in | `Community Edition <https://www.exakat.io/community-edition>`_                                 |
-+--------------+------------------------------------------------------------------------------------------------+
++--------------+--------------------------------------------------------------------------------------------------------------------------------+
+| Short name   | Type/ShouldTypecast                                                                                                            |
++--------------+--------------------------------------------------------------------------------------------------------------------------------+
+| Rulesets     | :ref:`Analyze <ruleset-Analyze>`, :ref:`CE <ruleset-CE>`, :ref:`CI-checks <ruleset-CI-checks>`, :ref:`Rector <ruleset-Rector>` |
++--------------+--------------------------------------------------------------------------------------------------------------------------------+
+| Exakat since | 0.8.4                                                                                                                          |
++--------------+--------------------------------------------------------------------------------------------------------------------------------+
+| PHP Version  | All                                                                                                                            |
++--------------+--------------------------------------------------------------------------------------------------------------------------------+
+| Severity     | Minor                                                                                                                          |
++--------------+--------------------------------------------------------------------------------------------------------------------------------+
+| Time To Fix  | Quick (30 mins)                                                                                                                |
++--------------+--------------------------------------------------------------------------------------------------------------------------------+
+| Precision    | High                                                                                                                           |
++--------------+--------------------------------------------------------------------------------------------------------------------------------+
+| Examples     | :ref:`case-xataface-type-shouldtypecast`, :ref:`case-openconf-type-shouldtypecast`                                             |
++--------------+--------------------------------------------------------------------------------------------------------------------------------+
+| Available in | `Community Edition <https://www.exakat.io/community-edition>`_                                                                 |
++--------------+--------------------------------------------------------------------------------------------------------------------------------+
 
 
 .. _type-silentlycastinteger:
@@ -75247,9 +75331,9 @@ When assigning a referenced variable with another reference, the initial referen
    {
        $c = 'c';
    
-       // $lostReference was a reference, but now, it is another
+       // $lostReference was a reference to $bar, but now, it is a reference to $c
        $lostReference =& $c;
-       // $keptReference was a reference : now it contains the actual value
+       // $keptReference was a reference to $bar : it is still now, though it contains the actual value of $c now
        $keptReference = $c;
    }
    
@@ -77214,7 +77298,11 @@ PHP 8.1 Removed Constants
 
 * `MYSQLI_STMT_ATTR_UPDATE_MAX_LENGTH <https://www.php.net/MYSQLI_STMT_ATTR_UPDATE_MAX_LENGTH>`_
 * `MYSQLI_STORE_RESULT_COPY_DATA <https://www.php.net/MYSQLI_STORE_RESULT_COPY_DATA>`_
+* `FILE_BINARY <https://www.php.net/FILE_BINARY>`_
+* `FILE_TEXT <https://www.php.net/FILE_TEXT>`_
+* `FILTER_SANITIZE_STRING <https://www.php.net/FILTER_SANITIZE_STRING>`_
 
+See `PHP RFC: Deprecations for PHP 8.1 <https://wiki.php.net/rfc/deprecations_php_8_1>`_.
 
 
 Suggestions
@@ -77419,18 +77507,24 @@ PHP 8.1 Removed Directives
 
  List of directives that are removed in PHP 8.1.
 
-In PHP 8.1, `mysqlnd.fetch_data_copy` was removed. 
+In PHP 8.1, the following directives were removed : 
+
+* `mysqlnd.fetch_data_copy`
+* `filter.default`
+* `filter.default_options`
+* `auto_detect_line_endings`
+* `oci8.old_oci_close_semantics`
 
 You can detect valid directives with `ini_get() <https://www.php.net/ini_get>`_. This native function will return false, when the directive doesn't exist, while actual directive values will be returned as a string. 
 
-See `Deprecation mysqlnd.fetch_data_copy <https://wiki.php.net/rfc/deprecations_php_8_1#mysqlnd.fetch_data_copy>`_.
+See `PHP RFC: Deprecations for PHP 8.1 <https://wiki.php.net/rfc/deprecations_php_8_1>`_.
 
 
 
 Suggestions
 ^^^^^^^^^^^
 
-* Remove usage of `mysqlnd.fetch_data_copy`.
+* Remove usage of the directives.
 
 Specs
 ^^^^^
@@ -77455,17 +77549,37 @@ Specs
 
 .. _php-opensslencryptalgochange:
 
-.. _php-opensslencryptalgochange:
+.. _openssl-encrypt-default-algorithm-change:
 
-Php/OpensslEncryptAlgoChange
-++++++++++++++++++++++++++++
+Openssl Encrypt Default Algorithm Change
+++++++++++++++++++++++++++++++++++++++++
 
- 
+ `openssl_pkcs7_encrypt() <https://www.php.net/openssl_pkcs7_encrypt>`_ and openssl_cms_encrypt() will now default to using AES-128-CBC rather than RC2-40. The RC2-40 cipher is considered insecure and not enabled by default in OpenSSL 3.
+
+This means that the default argument of `OPENSSL_CIPHER_RC2_40 <https://www.php.net/OPENSSL_CIPHER_RC2_40>`_ is replaced by `OPENSSL_CIPHER_AES_128_CBC <https://www.php.net/OPENSSL_CIPHER_AES_128_CBC>`_. 
+
+.. code-block:: php
+
+   <?php
+   // extracted from the PHP documentation
+   // encrypt it
+   if (openssl_pkcs7_encrypt(msg.txt, enc.txt, $key,
+       array(To => nighthawk@example.com, // keyed syntax
+             From: HQ <hq@example.com>, // indexed syntax
+             Subject => Eyes only))) {
+       // message encrypted - send it!
+       exec(ini_get(sendmail_path) . < enc.txt);
+   }
+   ?>
+
+
+
 
 Suggestions
 ^^^^^^^^^^^
 
-*
+* Explicitely set the 5th and 6th argument of the functioncalls to avoid a disruption.
+* Update the target service to handle the new cipher algorithm.
 
 Specs
 ^^^^^
@@ -77887,8 +78001,8 @@ List of analyzers, by version of introduction, newest to oldest. In parenthesis,
 
   * :ref:`Duplicate Named Parameter <duplicate-named-parameter>`
   * :ref:`Htmlentities Using Default Flag <htmlentities-using-default-flag>`
+  * :ref:`Openssl Encrypt Default Algorithm Change <openssl-encrypt-default-algorithm-change>`
   * :ref:`PHP 8.1 Removed Directives <php-8.1-removed-directives>`
-  * :ref:`Php/OpensslEncryptAlgoChange <php-opensslencryptalgochange>`
   * :ref:`Wrong Argument Name With PHP Function <wrong-argument-name-with-php-function>`
 
 * 2.2.2
@@ -77964,13 +78078,13 @@ List of analyzers, by version of introduction, newest to oldest. In parenthesis,
 * 2.1.7
 
   * :ref:`Collect Class Traits Counts <collect-class-traits-counts>`
+  * :ref:`Collect Definitions Statistics <collect-definitions-statistics>`
+  * :ref:`Collect Global Variables <collect-global-variables>`
   * :ref:`Collect Native Calls Per Expressions <collect-native-calls-per-expressions>`
   * :ref:`Collect Readability <collect-readability>`
   * :ref:`Collect Variables <collect-variables>`
   * :ref:`Could Be Parent Method <could-be-parent-method>`
   * :ref:`Don't Pollute Global Space <don't-pollute-global-space>`
-  * :ref:`Dump/CollectDefinitionsStats <dump-collectdefinitionsstats>`
-  * :ref:`Dump/CollectGlobalVariables <dump-collectglobalvariables>`
   * :ref:`Missing Some Returntype <missing-some-returntype>`
 
 * 2.1.6
@@ -77988,8 +78102,8 @@ List of analyzers, by version of introduction, newest to oldest. In parenthesis,
   * :ref:`Abstract Away <abstract-away>`
   * :ref:`Catch Undefined Variable <catch-undefined-variable>`
   * :ref:`Collect Parameter Names <collect-parameter-names>`
+  * :ref:`Collect Static Class Changes <collect-static-class-changes>`
   * :ref:`Dont Compare Typed Boolean <dont-compare-typed-boolean>`
-  * :ref:`Dump/CollectClassChanges <dump-collectclasschanges>`
   * :ref:`Dump/FossilizedMethods <dump-fossilizedmethods>`
   * :ref:`Large Try Block <large-try-block>`
   * :ref:`Swapped Arguments <swapped-arguments>`
@@ -78097,7 +78211,7 @@ List of analyzers, by version of introduction, newest to oldest. In parenthesis,
 
 * 2.0.2
 
-  * :ref:`Dump/Inclusions <dump-inclusions>`
+  * :ref:`Inclusions <inclusions>`
   * :ref:`Insufficient Property Typehint <insufficient-property-typehint>`
   * :ref:`New Order <new-order>`
   * :ref:`Nullable Without Check <nullable-without-check>`
@@ -80483,6 +80597,7 @@ Directory by PHP Function
       + :ref:`Unused Methods <unused-methods>`
       + :ref:`Weak Typing <weak-typing>`
       + :ref:`Wrong Class Name Case <wrong-class-name-case>`
+      + :ref:`Catch Undefined Variable <catch-undefined-variable>`
       + :ref:`Long Preparation For Throw <long-preparation-for-throw>`
       + :ref:`Rethrown Exceptions <rethrown-exceptions>`
       + :ref:`Uncaught Exceptions <uncaught-exceptions>`
@@ -80619,6 +80734,7 @@ Directory by PHP Function
       + :ref:`Empty Try Catch <empty-try-catch>`
       + :ref:`Foreach With list() <foreach-with-list()>`
       + :ref:`Forgotten Whitespace <forgotten-whitespace>`
+      + :ref:`For Using Functioncall <for-using-functioncall>`
       + :ref:`Logical Mistakes <logical-mistakes>`
       + :ref:`Mail Usage <mail-usage>`
       + :ref:`Nested Ternary <nested-ternary>`
@@ -80646,6 +80762,7 @@ Directory by PHP Function
       + :ref:`Symfony usage <symfony-usage>`
       + :ref:`Wordpress usage <wordpress-usage>`
       + :ref:`Yii usage <yii-usage>`
+      + :ref:`Openssl Encrypt Default Algorithm Change <openssl-encrypt-default-algorithm-change>`
       + :ref:`No Object As Index <no-object-as-index>`
       + :ref:`php-cs-fixable <php-cs-fixable>`
       + :ref:`report-Ambassador <report-ambassador>`
@@ -81225,9 +81342,17 @@ Directory by PHP Function
 
       + :ref:`ext/fileinfo <ext-fileinfo>`
 
+    + `FILE_BINARY`
+
+      + :ref:`PHP 8.1 Removed Constants <php-8.1-removed-constants>`
+
     + `FILE_IGNORE_NEW_LINES`
 
       + :ref:`Should Use Constants <should-use-constants>`
+
+    + `FILE_TEXT`
+
+      + :ref:`PHP 8.1 Removed Constants <php-8.1-removed-constants>`
 
     + `FILTER_SANITIZE_EMAIL`
 
@@ -81240,6 +81365,10 @@ Directory by PHP Function
     + `FILTER_SANITIZE_SPECIAL_CHARS`
 
       + :ref:`Use Constant As Arguments <use-constant-as-arguments>`
+
+    + `FILTER_SANITIZE_STRING`
+
+      + :ref:`PHP 8.1 Removed Constants <php-8.1-removed-constants>`
 
     + `FILTER_UNSAFE_RAW`
 
@@ -81649,6 +81778,10 @@ Directory by PHP Function
     + `IN_ATTRIB`
 
       + :ref:`ext/inotify <ext-inotify>`
+
+    + `Intval()`
+
+      + :ref:`Should Typecast <should-typecast>`
 
     + `Isset`
 
@@ -82242,6 +82375,62 @@ Directory by PHP Function
       + :ref:`Avoid Substr() One <avoid-substr()-one>`
       + :ref:`Substr To Trim <substr-to-trim>`
 
+    + `mbereg()`
+
+      + :ref:`PHP 8.0 Removed Functions <php-8.0-removed-functions>`
+
+    + `mbereg_match()`
+
+      + :ref:`PHP 8.0 Removed Functions <php-8.0-removed-functions>`
+
+    + `mbereg_replace()`
+
+      + :ref:`PHP 8.0 Removed Functions <php-8.0-removed-functions>`
+
+    + `mbereg_search()`
+
+      + :ref:`PHP 8.0 Removed Functions <php-8.0-removed-functions>`
+
+    + `mbereg_search_getpos()`
+
+      + :ref:`PHP 8.0 Removed Functions <php-8.0-removed-functions>`
+
+    + `mbereg_search_getregs()`
+
+      + :ref:`PHP 8.0 Removed Functions <php-8.0-removed-functions>`
+
+    + `mbereg_search_init()`
+
+      + :ref:`PHP 8.0 Removed Functions <php-8.0-removed-functions>`
+
+    + `mbereg_search_pos()`
+
+      + :ref:`PHP 8.0 Removed Functions <php-8.0-removed-functions>`
+
+    + `mbereg_search_regs()`
+
+      + :ref:`PHP 8.0 Removed Functions <php-8.0-removed-functions>`
+
+    + `mbereg_search_setpos()`
+
+      + :ref:`PHP 8.0 Removed Functions <php-8.0-removed-functions>`
+
+    + `mberegi()`
+
+      + :ref:`PHP 8.0 Removed Functions <php-8.0-removed-functions>`
+
+    + `mberegi_replace()`
+
+      + :ref:`PHP 8.0 Removed Functions <php-8.0-removed-functions>`
+
+    + `mbregex_encoding()`
+
+      + :ref:`PHP 8.0 Removed Functions <php-8.0-removed-functions>`
+
+    + `mbsplit()`
+
+      + :ref:`PHP 8.0 Removed Functions <php-8.0-removed-functions>`
+
     + `mcrypt_cbc()`
 
       + :ref:`Functions Removed In PHP 5.5 <functions-removed-in-php-5.5>`
@@ -82500,6 +82689,14 @@ Directory by PHP Function
 
       + :ref:`ext/oci8 <ext-oci8>`
 
+    + `OPENSSL_CIPHER_AES_128_CBC`
+
+      + :ref:`Openssl Encrypt Default Algorithm Change <openssl-encrypt-default-algorithm-change>`
+
+    + `OPENSSL_CIPHER_RC2_40`
+
+      + :ref:`Openssl Encrypt Default Algorithm Change <openssl-encrypt-default-algorithm-change>`
+
     + `OPENSSL_KEYTYPE_DH`
 
       + :ref:`Check Crypto Key Length <check-crypto-key-length>`
@@ -82580,6 +82777,10 @@ Directory by PHP Function
     + `openssl_get_cipher_methods()`
 
       + :ref:`OpenSSL Ciphers Used <openssl-ciphers-used>`
+
+    + `openssl_pkcs7_encrypt()`
+
+      + :ref:`Openssl Encrypt Default Algorithm Change <openssl-encrypt-default-algorithm-change>`
 
     + `openssl_pkey_new()`
 
@@ -83455,6 +83656,7 @@ Directory by PHP Function
       + :ref:`SetA rray Class Definition <seta-rray-class-definition>`
       + :ref:`Set String Method Definition <set-string-method-definition>`
       + :ref:`Constant Dynamic Creation <constant-dynamic-creation>`
+      + :ref:`Collect Definitions Statistics <collect-definitions-statistics>`
       + :ref:`Constant Order <constant-order>`
       + :ref:`ext/ffi <ext-ffi>`
       + :ref:`ext/libevent <ext-libevent>`
@@ -84130,13 +84332,30 @@ Directory by PHP Features
 
     * :ref:`No More Curly Arrays <no-more-curly-arrays>`
 
+  + Arrays
+
+    * :ref:`Multiple Index Definition <multiple-index-definition>`
+
   + Class Constants Visibility
 
     * :ref:`Const Visibility Usage <const-visibility-usage>`
 
+  + Classes
+
+    * :ref:`Abstract Class Usage <abstract-class-usage>`
+
   + Functions
 
     * :ref:`Wrong Number Of Arguments <wrong-number-of-arguments>`
+
+  + Inclusions
+
+    * :ref:`Inclusions <inclusions>`
+    + :ref:`Inclusions <inclusions>`
+
+  + Interfaces
+
+    * :ref:`Interfaces Is Not Implemented <interfaces-is-not-implemented>`
 
   + Intersection Type
 
@@ -84149,9 +84368,19 @@ Directory by PHP Features
     + :ref:`Duplicate Named Parameter <duplicate-named-parameter>`
     + :ref:`Wrong Argument Name With PHP Function <wrong-argument-name-with-php-function>`
 
+  + Properties
+
+    * :ref:`Locally Used Property In Trait <locally-used-property-in-trait>`
+
   + Property Type Declaration
 
     * :ref:`Typed Property Usage <typed-property-usage>`
+
+  + Traits
+
+    * :ref:`Already Parents Trait <already-parents-trait>`
+    + :ref:`Locally Used Property In Trait <locally-used-property-in-trait>`
+    + :ref:`Traits Usage <traits-usage>`
 
   + Union type
 

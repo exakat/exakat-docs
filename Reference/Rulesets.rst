@@ -1210,7 +1210,7 @@ Total : 656 analysis
 * :ref:`merge-if-then`
 * :ref:`wrong-type-with-call`
 * :ref:`shell-commands`
-* :ref:`dump-inclusions`
+* :ref:`inclusions`
 * :ref:`typehint-order`
 * :ref:`new-order`
 * :ref:`links-between-parameter-and-argument`
@@ -1242,16 +1242,16 @@ Total : 656 analysis
 * :ref:`collect-parameter-names`
 * :ref:`wrong-type-for-native-php-function`
 * :ref:`dump-fossilizedmethods`
-* :ref:`dump-collectclasschanges`
+* :ref:`collect-static-class-changes`
 * :ref:`use-php-attributes`
 * :ref:`use-nullsafe-operator`
 * :ref:`use-closure-trailing-comma`
 * :ref:`unknown-parameter-name`
 * :ref:`missing-some-returntype`
 * :ref:`collect-variables`
-* :ref:`dump-collectglobalvariables`
+* :ref:`collect-global-variables`
 * :ref:`collect-readability`
-* :ref:`dump-collectdefinitionsstats`
+* :ref:`collect-definitions-statistics`
 * :ref:`collect-class-traits-counts`
 * :ref:`collect-native-calls-per-expressions`
 * :ref:`function-with-dynamic-code`
@@ -2276,7 +2276,7 @@ Total : 7 analysis
 * :ref:`restrict-global-usage`
 * :ref:`inherited-static-variable`
 * :ref:`php-8.1-removed-directives`
-* :ref:`php-opensslencryptalgochange`
+* :ref:`openssl-encrypt-default-algorithm-change`
 * :ref:`php-8.1-removed-constants`
 
 
@@ -2464,10 +2464,13 @@ Rector
 
 `RectorPHP <https://getrector.org/>`_ is a reconstructor tool. It applies modifications in the PHP code automatically. Exakat finds results which may be automatically updated with rector. 
 
-Total : 3 analysis
+Total : 6 analysis
 
+* :ref:`for-using-functioncall`
 * :ref:`preprocessable`
+* :ref:`implied-if`
 * :ref:`else-if-versus-elseif`
+* :ref:`should-typecast`
 * :ref:`is\_a()-with-string`
 
 

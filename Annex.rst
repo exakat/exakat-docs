@@ -136,6 +136,7 @@ List of external links mentionned in this documentation.
 * `Carbon <https://carbon.nesbot.com/docs/>`_
 * `Carnage <https://twitter.com/giveupalready>`_
 * `cat: write error: Broken pipe <https://askubuntu.com/questions/421663/cat-write-error-broken-pipe>`_
+* `catch <https://www.php.net/manual/en/language.exceptions.php#language.exceptions.catch>`_
 * `Change the precedence of the concatenation operator <https://wiki.php.net/rfc/concatenation_precedence>`_
 * `Changes to variable handling <https://www.php.net/manual/en/migration70.incompatible.php>`_
 * `Class Abstraction <https://www.php.net/abstract>`_
@@ -196,7 +197,6 @@ List of external links mentionned in this documentation.
 * `Deprecated features in PHP 5.5.x <https://www.php.net/manual/en/migration55.deprecated.php>`_
 * `Deprecated features in PHP 7.2.x <https://www.php.net/manual/en/migration72.deprecated.php>`_
 * `Deprecation allow_url_include <https://wiki.php.net/rfc/deprecations_php_7_4#allow_url_include>`_
-* `Deprecation mysqlnd.fetch_data_copy <https://wiki.php.net/rfc/deprecations_php_8_1#mysqlnd.fetch_data_copy>`_
 * `Deprecations for PHP 7.2 <https://wiki.php.net/rfc/deprecations_php_7_2>`_
 * `Deprecations for PHP 7.4 <https://wiki.php.net/rfc/deprecations_php_7_4>`_
 * `Destructor <https://www.php.net/manual/en/language.oop5.decon.php#language.oop5.decon.destructor>`_
@@ -347,6 +347,7 @@ List of external links mentionned in this documentation.
 * `implode <https://www.php.net/implode>`_
 * `In a PHP5 class, when does a private constructor get called? <https://stackoverflow.com/questions/26079/in-a-php5-class-when-does-a-private-constructor-get-called>`_
 * `in_array() <https://www.php.net/in_array>`_
+* `Include <https://www.php.net/manual/en/function.include.php>`_
 * `include <https://www.php.net/manual/en/function.include.php>`_
 * `include_once <https://www.php.net/manual/en/function.include-once.php>`_
 * `Incrementing/Decrementing Operators <https://www.php.net/manual/en/language.operators.increment.php>`_
@@ -498,6 +499,7 @@ List of external links mentionned in this documentation.
 * `PHP Data Object <https://www.php.net/manual/en/book.pdo.php>`_
 * `PHP Decimal <http://php-decimal.io>`_
 * `PHP extension for libsodium <https://github.com/jedisct1/libsodium-php>`_
+* `PHP for loops and counting arrays <https://electrictoolbox.com/php-for-loop-counting-array/>`_
 * `PHP gmagick <http://www.php.net/manual/en/book.gmagick.php>`_
 * `PHP Options And Information <https://www.php.net/manual/en/book.info.php>`_
 * `PHP Options/Info Functions <https://www.php.net/manual/en/ref.info.php>`_
@@ -513,6 +515,7 @@ List of external links mentionned in this documentation.
 * `PHP RFC: Deprecate left-associative ternary operator <https://wiki.php.net/rfc/ternary_associativity>`_
 * `PHP RFC: Deprecations for PHP 7.2 : Each() <https://wiki.php.net/rfc/deprecations_php_7_2#each>`_
 * `PHP RFC: Deprecations for PHP 7.4 <https://wiki.php.net/rfc/deprecations_php_7_4>`_
+* `PHP RFC: Deprecations for PHP 8.1 <https://wiki.php.net/rfc/deprecations_php_8_1>`_
 * `PHP RFC: get_debug_type <https://wiki.php.net/rfc/get_debug_type>`_
 * `PHP RFC: is_countable <https://wiki.php.net/rfc/is-countable>`_
 * `PHP RFC: Nullsafe operator <https://wiki.php.net/rfc/nullsafe_operator>`_

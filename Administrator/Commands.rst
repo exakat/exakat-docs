@@ -63,7 +63,6 @@ Tips
 
 * `-R` is not compulsory : you may omit it, then, provide PHP files in the `projects/<name>/code` folder by the mean you want.
 
-:: _baseline:
 
 baseline
 --------
@@ -88,12 +87,11 @@ Commands
 |           | name.                                                                       |
 +-----------+-----------------------------------------------------------------------------+
 
-:: _catalog:
 
 catalog
 -------
 
-Catalog list all available rulesets and reports with the current exakat.
+Catalog list available rules, rulesets, and reports with the current exakat.
 
 This is a help command, to help find the available values for various options.
 
@@ -105,8 +103,9 @@ Options
 +-----------+-----+-----------------------------------------------------------------------------+
 | -json     | No  | Returns the catalog as JSON, for further processing.                        |
 +-----------+-----+-----------------------------------------------------------------------------+
+| -yaml     | No  | Returns the catalog as YAML, for further processing.                        |
++-----------+-----+-----------------------------------------------------------------------------+
 
-:: _clean:
 
 clean
 -----
@@ -126,7 +125,6 @@ Options
 | -v        | No  | Verbose mode                                                                |
 +-----------+-----+-----------------------------------------------------------------------------+
 
-:: _cleandb:
 
 cleandb
 -------
@@ -156,7 +154,6 @@ Options
 | -v        | No  | Verbose mode                                                                |
 +-----------+-----+-----------------------------------------------------------------------------+
 
-:: _doctor:
 
 doctor
 ------
@@ -317,7 +314,6 @@ Options
 +-----------+-----+-----------------------------------------------------------------------------+
 
 
-:: _help:
 
 help
 ----
@@ -339,7 +335,6 @@ This displays :
                 php exakat.phar doctor
                 php exakat.phar version
 
-:: _init:
 
 init
 ----
@@ -419,7 +414,6 @@ Examples
     php exakat.phar init -p symlinkProject -symlink -R /var/www/public_html
 
 
-:: _project:
 
 project
 -------
@@ -445,7 +439,6 @@ Options
 | -v        | No  | Verbose mode                                                                |
 +-----------+-----+-----------------------------------------------------------------------------+
 
-:: _remove:
 
 remove
 ------
@@ -469,7 +462,6 @@ Options
 | -v        | No  | Verbose mode                                                                |
 +-----------+-----+-----------------------------------------------------------------------------+
 
-:: _remove:
 
 show
 ----
@@ -492,7 +484,6 @@ Options
 +-----------+-----+-----------------------------------------------------------------------------+
 
 
-:: _report:
 
 report
 ------
@@ -568,7 +559,6 @@ All reports are detailed in the ref:`Reports <reports>` section.
 | All         | All availble format, using default naming                                   |
 +-------------+-----------------------------------------------------------------------------+
 
-:: _update:
 
 update
 ------
@@ -591,8 +581,6 @@ Options
 +-----------+-----+-----------------------------------------------------------------------------+
 | -v        | No  | Verbose mode                                                                |
 +-----------+-----+-----------------------------------------------------------------------------+
-
-:: _upgrade:
 
 
 upgrade
