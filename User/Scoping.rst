@@ -420,6 +420,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Php/Deprecated";
    analyzer[] = "Php/DontPolluteGlobalSpace";
    analyzer[] = "Php/EmptyList";
+   analyzer[] = "Php/FalseToArray";
    analyzer[] = "Php/FopenMode";
    analyzer[] = "Php/ForeachObject";
    analyzer[] = "Php/HashAlgos";
@@ -865,6 +866,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Php/Deprecated'
      - 'Php/DontPolluteGlobalSpace'
      - 'Php/EmptyList'
+     - 'Php/FalseToArray'
      - 'Php/FopenMode'
      - 'Php/ForeachObject'
      - 'Php/HashAlgos'
@@ -4446,6 +4448,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Functions/NoReferencedVoid";
    analyzer[] = "PHp/MixedKeyword";
    analyzer[] = "Php/CallingStaticTraitMethod";
+   analyzer[] = "Php/FalseToArray";
    analyzer[] = "Php/JsonSerializeReturnType";
    analyzer[] = "Php/NativeClassTypeCompatibility";
    analyzer[] = "Php/NeverKeyword";
@@ -4475,6 +4478,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Functions/NoReferencedVoid'
      - 'PHp/MixedKeyword'
      - 'Php/CallingStaticTraitMethod'
+     - 'Php/FalseToArray'
      - 'Php/JsonSerializeReturnType'
      - 'Php/NativeClassTypeCompatibility'
      - 'Php/NeverKeyword'
@@ -4619,6 +4623,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Interfaces/ConcreteVisibility";
    analyzer[] = "Interfaces/IsNotImplemented";
    analyzer[] = "Interfaces/RepeatedInterface";
+   analyzer[] = "Php/FalseToArray";
    analyzer[] = "Php/JsonSerializeReturnType";
    analyzer[] = "Php/OnlyVariableForReference";
    analyzer[] = "Traits/MethodCollisionTraits";
@@ -4665,6 +4670,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Interfaces/ConcreteVisibility'
      - 'Interfaces/IsNotImplemented'
      - 'Interfaces/RepeatedInterface'
+     - 'Php/FalseToArray'
      - 'Php/JsonSerializeReturnType'
      - 'Php/OnlyVariableForReference'
      - 'Traits/MethodCollisionTraits'

@@ -6,6 +6,24 @@ Release Note
 
 Here is the release note of exakat. 
 
+**Version 2.3.1 (??&?, 2021-11-18)**
+
+
++ Architecture
+    + 
+
++ Cobbler
+    + Fixed bug with Settypehint when multiple types are available
+
++ Report
+    + 
+
++ Analysis
+    + New analysis : report auto vivification of false (PHP 8.1)
+
++ Tokenizer
+    + Fixed bug with __METHOD__ when it is called outside a method
+
 **Version 2.3.0 (Wei, 2021-11-18)**
 
 

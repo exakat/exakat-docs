@@ -545,6 +545,7 @@ List of external links mentionned in this documentation.
 * `Predefined Variables <https://www.php.net/manual/en/reserved.variables.php>`_
 * `preg_filter <https://php.net/preg_filter>`_
 * `Prepare for PHP 7 error messages (part 3) <https://www.exakat.io/prepare-for-php-7-error-messages-part-3/>`_
+* `Prepare for PHP migration with Exakat <https://www.exakat.io/prepare-for-php-migration-with-exakat/>`_
 * `Prepared Statements <https://www.php.net/manual/en/mysqli.quickstart.prepared-statements.php>`_
 * `printf <https://www.php.net/printf>`_
 * `Process Control <https://www.php.net/manual/en/book.pcntl.php>`_

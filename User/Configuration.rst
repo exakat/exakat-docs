@@ -27,10 +27,11 @@ More configuration options appear with the evolution of the engine.
 Precedence
 ##########
 
-The exakat engine read directives from five places, with the following precedence :
+The exakat engine read directives from six places, with the following precedence :
 
 1. The command line options
 2. The .exakat.ini or .exakat.yaml file at the root of the code
+3. The environment variables
 3. The config.ini file in the project directory
 4. The exakat.ini file in the config directory
 5. The default values in the code
@@ -48,6 +49,74 @@ All options are the same, whatever the command provided to exakat. -f always mea
 Any option that a command doesn't understand is ignored. 
 
 Any option that is not recognized is ignored and reported (with visibility).
+
+Option placements 
+###################
+
+This table show in which file the directive may be placed to be used. 'exakat' is the config/exakat.ini file, 'project' is the projects/--name--/config.ini file, and 'in-code' is the .exakat.yaml/ini file, directly in the code.
+
+
++---------------------+--------+---------+---------+
+| name                | exakat | project | in-code |
++---------------------+--------+---------+---------+
+| phpversion          | X      | X       | X       |
++---------------------+--------+---------+---------+
+| ignore_dirs         | X      | X       | X       |
++---------------------+--------+---------+---------+
+| include_dirs        | X      | X       | X       |
++---------------------+--------+---------+---------+
+| ignore_rules        | X      | X       | X       |
++---------------------+--------+---------+---------+
+| file_extensions     | X      | X       | X       |
++---------------------+--------+---------+---------+
+| project_name        | X      | X       | X       |
++---------------------+--------+---------+---------+
+| project_description | X      | X       | X       |
++---------------------+--------+---------+---------+
+| project_url         |        | X       |         |
++---------------------+--------+---------+---------+
+| project_vcs         |        | X       |         |
++---------------------+--------+---------+---------+
+| project_reports     |        | X       | X       |
++---------------------+--------+---------+---------+
+| project_rulesets    |        | X       | X       |
++---------------------+--------+---------+---------+
+| project_vcs         |        | X       |         |
++---------------------+--------+---------+---------+
+| project_packagist   |        | X       |         |
++---------------------+--------+---------+---------+
+| project_cobblers    | X      | X       | X       |
++---------------------+--------+---------+---------+
+| rulesets            |        |         | X       |
++---------------------+--------+---------+---------+
+
+
+Option availablity
+###################
+
+This table show which operation (audit, cobbler) is parametered by which directive.
+
++---------------------+--------+---------+
+| name                | audit  | cobbler |
++---------------------+--------+---------+
+| phpversion          | X      | X       |
++---------------------+--------+---------+
+| ignore_dirs         | X      | X       |
++---------------------+--------+---------+
+| include_dirs        | X      | X       |
++---------------------+--------+---------+
+| ignore_rules        | X      | X       |
++---------------------+--------+---------+
+| file_extensions     | X      | X       |
++---------------------+--------+---------+
+| project_reports     | X      |         |
++---------------------+--------+---------+
+| project_rulesets    | X      |         |
++---------------------+--------+---------+
+| project_vcs         |        | X       |
++---------------------+--------+---------+
+| project_cobblers    |        | X       |
++---------------------+--------+---------+
 
 
 Project Configuration
@@ -89,7 +158,7 @@ This is the list of files and dir to ignore in the project's directory. It is ch
 ignore_dirs is an array of string.                                                       
 
 file_extensions
-++++++++++++++++++++++++
++++++++++++++++++
 
 This is the list of file extensions that is considered as PHP scripts. All others are ignored. All files bearing those extensions are subject to check, though they are scanned first for PHP tags before being analyzed. The extensions are comma separated, without dot.                                                                             
 
@@ -97,12 +166,12 @@ The default are : php, php3, inc, tpl, phtml, tmpl, phps, ctp
 file_extensions may be a comma-separated list of values as a string, or an array.
 
 project_name
-++++++++++++++++++++++++
+++++++++++++
 
 This is the project name, as it appears at the top left in the Ambassador report.
 
 project_url
-++++++++++++++++++++++++
++++++++++++
 
 This is the repository URL for the project. It is used to get the source for the project.
 
@@ -127,14 +196,15 @@ In-code Configuration
 
 In-code configuration is a configuration file that sits at the root of the code. When exakat finds it, it uses it for in-code auditing.
 
-The file is `.exakat.yaml`, and is a valid YAML file. `.exakat.yml` is also valid, but not recommended.
++ The file is `.exakat.ini`, and is a valid INI file. It has priority over the YAML version.
++ The file is `.exakat.yaml`, and is a valid YAML file. `.exakat.yml` is also valid, but not recommended.
 
-In case the file is found but not valid, Exakat reverts to default values. 
+In case those files are not found, or valid, Exakat reverts to default values. 
 
 Unrecognized values are ignored. 
 
-Exakat in-code example
-######################
+Exakat in-code YAML example
+############################
 :: 
 
     project: exakat
@@ -143,7 +213,7 @@ Exakat in-code example
     - my_ruleset
     - Security
     project_report: 
-    - Ambassador
+    - Diplomat
     file_extensions: php,php3,phtml
     include_dirs: 
       - /
@@ -158,6 +228,23 @@ Exakat in-code example
       my_ruleset: 
           - Structures/AddZero
           - Structures/MultiplyByOne
+
+Exakat in-code INI example
+############################
+:: 
+
+    project= exakat
+    project_name= exakat
+    project_rulesets[] = my_ruleset
+    project_rulesets[] = Security
+    project_report[] = Diplomat
+    file_extensions= php,php3,phtml
+    include_dirs[] = /
+    ignore_dirs[] = /tests
+    ignore_dirs[] = /vendor
+    ignore_dirs[] = /docs
+    ignore_dirs[] = /media
+    ignore_rules[] = Structures/AddZero
 
 
 Exakat in-code skeleton
@@ -193,56 +280,102 @@ Copy-paste this YAML code into a file called `.exakat.yaml`, located at the root
 Available Options
 #################
 
-Here are the currently available options in Exakat's project configuration file : projects/&lt;project name&gt;/config.ini
+Here are the currently available options in Exakat's project configuration file : projects/--project name--/config.ini.
 
-+-----------------------+-------------------------------------------------------------------------------------------+
-| Option                | Description                                                                               |
-+=======================+===========================================================================================+
-| include_dirs[]        | This is the list of files and dir to include in the project's directory. It is chrooted   |
-|                       | in the project's folder. Values provided with a starting / are used as a path prefix.     |
-|                       | Values without / are used as a substring, anywhere in the path.                           |
-|                       | include_dirs are added AFTER ignore_dirs, so as to partially ignore a folder, such as     |
-|                       | the vendor folder from composer.                                                          |
-+-----------------------+-------------------------------------------------------------------------------------------+
-| ignore_dirs[]         | This is the list of files and dir to ignore in the project's directory. It is chrooted in |
-|                       | the project's folder. Values provided with a starting / are used as a path prefix. Values |
-|                       | without / are used as a substring, anywhere in the path.                                  |
-+-----------------------+-------------------------------------------------------------------------------------------+
-| ignore_rules[]        | The rules mentioned in this list are ignored when running the audit. Rules are ignored    |
-|                       | after loading the rulesets configuration : as such, it is possible to ignore rules inside |
-|                       | a ruleset, without ignoring the whole ruleset.                                            |
-|                       | The rules in this list are Exakat's short name : ignore_rules[] = "Structures/AddZero"    |
-+-----------------------+-------------------------------------------------------------------------------------------+
-| include_rules[]       | There is no include_rules directive. Create a custom Ruleset, and include it with         |
-|                       | project_rulesets (see below)                                                              |
-+-----------------------+-------------------------------------------------------------------------------------------+
-| file_extensions       | This is the list of file extensions that is considered as PHP scripts. All others are     |
-|                       | ignored. All files bearing those extensions are subject to check, though they are         |
-|                       | scanned first for PHP tags before being analyzed. The extensions are comma separated,     |
-|                       | without dot.                                                                              |
-|                       | The default are : php, php3, inc, tpl, phtml, tmpl, phps, ctp                             |
-+-----------------------+-------------------------------------------------------------------------------------------+
-| project_name          | This is the project name, as it appears at the top left in the Ambassador report.         |
-+-----------------------+-------------------------------------------------------------------------------------------+
-| project_url           | This is the repository URL for the project. It is used to get the source for the project. |
-+-----------------------+-------------------------------------------------------------------------------------------+
-| project_vcs           | This is the VCS used to fetch the project source.                                         |
-+-----------------------+-------------------------------------------------------------------------------------------+
-| project_description   | This is the description of the project.                                                   |
-|                       | This is free text, used in reports. The default is : '' (empty string)                    |
-+-----------------------+-------------------------------------------------------------------------------------------+
-| project_packagist     | This is the packagist name for the code, when the code is fetched with composer.          |
-+-----------------------+-------------------------------------------------------------------------------------------+
-| project_rulesets      | This is the list of default rules to run for this project.                                |
-|                       | The default are : CompatibilityPHP70, CompatibilityPHP71, CompatibilityPHP72,             |
-|                       | CompatibilityPHP73, CompatibilityPHP74, CompatibilityPHP80, Suggestions, Dead code,       | 
-|                       | Security, Analyze, Top10, Preferences, Appinfo, Appcontent, Suggestions                   |
-|                       | This an array of strings, which are all ruleset names                                     |
-+-----------------------+-------------------------------------------------------------------------------------------+
-| project_reports       | This is the list of default reports to run for this project.                              |
-|                       | The default are : Diplomat                                                                |
-|                       | This an array of strings, which are all reports names                                     |
-+-----------------------+-------------------------------------------------------------------------------------------+
+When a value is ignored, it will be filled with the default value of the project, or the server. When defined, they replace those default values.
+
+
+include_dirs
+++++++++++++
+This is the list of files and dir to include in the project's directory. It is chrooted  in the project's folder. Values provided with a starting / are used as a path prefix.
+
+Values without / are used as a substring, anywhere in the path. include_dirs are added AFTER ignore_dirs, so as to partially ignore a folder, such as the vendor folder from composer.                                                         
+
+This an array of strings, which are dirnames or filenames.
+
+ignore_dirs
++++++++++++
+This is the list of files and dir to ignore in the project's directory. It is chrooted in the project's folder. Values provided with a starting / are used as a path prefix. Values without / are used as a substring, anywhere in the path.                                  
+
+This an array of strings, which are dirnames or filenames.
+
+ignore_rules
+++++++++++++++
+The rules mentioned in this list are ignored when running the audit. Rules are ignored   
+after loading the rulesets configuration : as such, it is possible to ignore rules inside
+a ruleset, without ignoring the whole ruleset.                                           
+
+The rules in this list are Exakat's short name : ignore_rules[] = "Structures/AddZero"   
+
+This an array of strings, which are all rules names                                    
+
+include_rules
+++++++++++++++
+There is no include_rules directive. Create a custom Ruleset, and include it with project_rulesets (see below).
+
+This an array of strings, which are all rules names.
+
+file_extensions
+++++++++++++++++
+
+This is the list of file extensions that is considered as PHP scripts. All others are ignored. All files bearing those extensions are subject to check, though they are scanned first for PHP tags before being analyzed. The extensions are comma separated, without dot.                                                                          
+
+This an array of strings, which are all extension names, without the '.' dot.
+
+project_name
+++++++++++++++
+This is the project name, as it appears at the top left in the Ambassador report.    
+
+This is a string.
+
+project_url
+++++++++++++
+This is the repository URL for the project. It is used to get the source for the project.
+
+project_vcs
+++++++++++++
+This is the VCS used to fetch the project source.
+
+This is a string.
+
+project_description
+++++++++++++++++++++++++
+This is the description of the project.                                                  
+
+This is free text, used in reports. 
+
+project_description
+++++++++++++++++++++++++
+This is the description of the project.                                                  
+
+This is free text, used in reports. 
+
+project_packagist
+++++++++++++++++++++++++
+This is the packagist name for the code, when the code is fetched with composer.  
+
+This is a single string.
+
+project_rulesets
+++++++++++++++++++++++++
+This is the list of default rules to run for this project.                               
+
+This an array of strings, which are ruleset names.
+
+project_reports
++++++++++++++++
+This is the list of default reports to run for this project.                             
+
+This an array of strings, which are all reports names                                    
+
+rulesets
+++++++++
+This is a list of custom ruleset, along with the ruleset names. 
+
+This directive is only available with YAML format. 
+
+This an array of hashes. The keys of the hashes are the custom rulsets, and their value is an array of rule short names.
+
 
 Commandline Configuration
 -------------------------
