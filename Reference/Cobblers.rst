@@ -17,7 +17,7 @@ List of Cobblers
 .. _create-phpdoc:
 
 Create Phpdoc
-_____________
+^^^^^^^^^^^^^
 Create PHPdoc comments for classes, interfaces, traits, methods and functions.
 
 Parameters and return types are collected, along with the name of the structure.
@@ -26,7 +26,7 @@ Parameters and return types are collected, along with the name of the structure.
 .. _create-phpdoc-before:
 
 Before
-______
+^^^^^^
 .. code-block:: php
 
    '<?php
@@ -41,7 +41,7 @@ ______
 .. _create-phpdoc-after:
 
 After
-_____
+^^^^^
 .. code-block:: php
 
    <?php
@@ -69,7 +69,7 @@ _____
 .. _create-phpdoc-specs:
 
 Specs
-_____
+^^^^^
 
 +----------------+------------------------------------------------------------------+
 | Short Name     | Attributes/CreatePhpdoc                                          |
@@ -85,7 +85,7 @@ _____
 .. _split-property-definitions:
 
 Split Property Definitions
-__________________________
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 Split multiple properties definition into independent definitions. 
 
 This applies to classes and traits. 
@@ -93,7 +93,7 @@ This applies to classes and traits.
 .. _split-property-definitions-before:
 
 Before
-______
+^^^^^^
 .. code-block:: php
 
    <?php
@@ -106,7 +106,7 @@ ______
 .. _split-property-definitions-after:
 
 After
-_____
+^^^^^
 .. code-block:: php
 
    <?php
@@ -120,7 +120,7 @@ _____
 .. _split-property-definitions-suggested-analysis:
 
 Suggested Analysis
-__________________
+^^^^^^^^^^^^^^^^^^
 
 * :ref:`multiple-property-declaration-on-one-line`
 
@@ -129,7 +129,7 @@ __________________
 .. _split-property-definitions-specs:
 
 Specs
-_____
+^^^^^
 
 +----------------+------------------------------------------------------------------+
 | Short Name     | Classes/SplitPropertyDefinitions                                 |
@@ -145,7 +145,7 @@ _____
 .. _var-to-public:
 
 Var To Public
-_____________
+^^^^^^^^^^^^^
 Replace the var syntax with public keyword. 
 
 It is also possible to replace it with protected or private, with the parameter. 
@@ -153,7 +153,7 @@ It is also possible to replace it with protected or private, with the parameter.
 .. _var-to-public-before:
 
 Before
-______
+^^^^^^
 .. code-block:: php
 
    <?php
@@ -166,7 +166,7 @@ ______
 .. _var-to-public-after:
 
 After
-_____
+^^^^^
 .. code-block:: php
 
    <?php
@@ -180,7 +180,7 @@ _____
 .. _var-to-public-var\_to\_visibility:
 
 Parameters
-__________
+^^^^^^^^^^
 
 +-------------------+---------+--------+--------------------------------------------------------------------------------------+
 | Name              | Default | Type   | Description                                                                          |
@@ -191,7 +191,7 @@ __________
 .. _var-to-public-related-cobbler:
 
 Related Cobblers
-________________
+^^^^^^^^^^^^^^^^
 
 * :ref:`set-typehints`
 
@@ -200,7 +200,7 @@ ________________
 .. _var-to-public-specs:
 
 Specs
-_____
+^^^^^
 
 +----------------+------------------------------------------------------------------+
 | Short Name     | Classes/VarToPublic                                              |
@@ -216,7 +216,7 @@ _____
 .. _make-static-closures-and-arrow-functions:
 
 Make Static Closures And Arrow Functions
-________________________________________
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Add the static option to closures and arrow functions. This prevents the defining environment to be included in the closure.
 
 
@@ -224,7 +224,7 @@ Add the static option to closures and arrow functions. This prevents the definin
 .. _make-static-closures-and-arrow-functions-before:
 
 Before
-______
+^^^^^^
 .. code-block:: php
 
    <?php
@@ -236,7 +236,7 @@ ______
 .. _make-static-closures-and-arrow-functions-after:
 
 After
-_____
+^^^^^
 .. code-block:: php
 
    <?php
@@ -247,7 +247,7 @@ _____
 .. _make-static-closures-and-arrow-functions-suggested-analysis:
 
 Suggested Analysis
-__________________
+^^^^^^^^^^^^^^^^^^
 
 * :ref:`could-be-static-closure`
 
@@ -256,7 +256,7 @@ __________________
 .. _make-static-closures-and-arrow-functions-specs:
 
 Specs
-_____
+^^^^^
 
 +----------------+------------------------------------------------------------------+
 | Short Name     | Functions/MakeStaticFunction                                     |
@@ -272,7 +272,7 @@ _____
 .. _remove-static-from-closures-and-arrow-functions:
 
 Remove Static From Closures And Arrow Functions
-_______________________________________________
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Removes the static option from closures and arrow functions.
 
 
@@ -280,7 +280,7 @@ Removes the static option from closures and arrow functions.
 .. _remove-static-from-closures-and-arrow-functions-before:
 
 Before
-______
+^^^^^^
 .. code-block:: php
 
    <?php
@@ -292,7 +292,7 @@ ______
 .. _remove-static-from-closures-and-arrow-functions-after:
 
 After
-_____
+^^^^^
 .. code-block:: php
 
    <?php
@@ -303,7 +303,7 @@ _____
 .. _remove-static-from-closures-and-arrow-functions-suggested-analysis:
 
 Suggested Analysis
-__________________
+^^^^^^^^^^^^^^^^^^
 
 * :ref:`cannot-use-static-for-closure`
 
@@ -312,7 +312,7 @@ __________________
 .. _remove-static-from-closures-and-arrow-functions-specs:
 
 Specs
-_____
+^^^^^
 
 +----------------+------------------------------------------------------------------+
 | Short Name     | Functions/RemoveStaticFromClosure                                |
@@ -328,7 +328,7 @@ _____
 .. _remove-typehint:
 
 Remove Typehint
-_______________
+^^^^^^^^^^^^^^^
 This cobbler remove the typehint mentions in the code. This might yield some speed when executing, since those tests will be not conveyed at runtime. 
 
 Typehints from arguments, method returns and properties are all removed. 
@@ -337,7 +337,7 @@ Typehints from arguments, method returns and properties are all removed.
 .. _remove-typehint-before:
 
 Before
-______
+^^^^^^
 .. code-block:: php
 
    <?php
@@ -355,7 +355,7 @@ ______
 .. _remove-typehint-after:
 
 After
-_____
+^^^^^
 .. code-block:: php
 
    <?php
@@ -374,7 +374,7 @@ _____
 .. _remove-typehint-type\_to\_remove:
 
 Parameters
-__________
+^^^^^^^^^^
 
 +----------------+---------+------+----------------------------------------------------------------------------------------------------------+
 | Name           | Default | Type | Description                                                                                              |
@@ -385,7 +385,7 @@ __________
 .. _remove-typehint-suggested-analysis:
 
 Suggested Analysis
-__________________
+^^^^^^^^^^^^^^^^^^
 
 * :ref:`php-8.1-typehints`
 
@@ -394,7 +394,7 @@ __________________
 .. _remove-typehint-specs:
 
 Specs
-_____
+^^^^^
 
 +----------------+------------------------------------------------------------------+
 | Short Name     | Functions/RemoveTypes                                            |
@@ -410,7 +410,7 @@ _____
 .. _rename-parameter:
 
 Rename Parameter
-________________
+^^^^^^^^^^^^^^^^
 Change the name of a parameter to a new name.
 
 The destination parameter name is a constant. 
@@ -423,7 +423,7 @@ Limits : this cobbler doesn't check that another parameter is already using that
 .. _rename-parameter-before:
 
 Before
-______
+^^^^^^
 .. code-block:: php
 
    <?php
@@ -439,7 +439,7 @@ ______
 .. _rename-parameter-after:
 
 After
-_____
+^^^^^
 .. code-block:: php
 
    <?php
@@ -456,7 +456,7 @@ _____
 .. _rename-parameter-method:
 
 Parameters
-__________
+^^^^^^^^^^
 
 +---------+---------+--------+------------------------------------------------------------------------------------------------------------------+
 | Name    | Default | Type   | Description                                                                                                      |
@@ -473,7 +473,7 @@ __________
 .. _rename-parameter-specs:
 
 Specs
-_____
+^^^^^
 
 +----------------+------------------------------------------------------------------+
 | Short Name     | Functions/RenameParameter                                        |
@@ -489,7 +489,7 @@ _____
 .. _set-null-type:
 
 Set Null Type
-_____________
+^^^^^^^^^^^^^
 Adds a Null type to typehints when necessary. 
 
 This cobbler only adds a null type when there is already another type. It doesn't add a null type when no type is set. 
@@ -502,7 +502,7 @@ The null type is added as a question mark `?` when the type is unique, and as nu
 .. _set-null-type-before:
 
 Before
-______
+^^^^^^
 .. code-block:: php
 
    <?php
@@ -520,7 +520,7 @@ ______
 .. _set-null-type-after:
 
 After
-_____
+^^^^^
 .. code-block:: php
 
    <?php
@@ -540,7 +540,7 @@ _____
 .. _set-null-type-specs:
 
 Specs
-_____
+^^^^^
 
 +----------------+------------------------------------------------------------------+
 | Short Name     | Functions/SetNullType                                            |
@@ -556,13 +556,13 @@ _____
 .. _set-type-void:
 
 Set Type Void
-_____________
+^^^^^^^^^^^^^
 Adds the void typehint to functions and methods, when possible
 
 .. _set-type-void-before:
 
 Before
-______
+^^^^^^
 .. code-block:: php
 
    <?php
@@ -576,7 +576,7 @@ ______
 .. _set-type-void-after:
 
 After
-_____
+^^^^^
 .. code-block:: php
 
    <?php
@@ -590,7 +590,7 @@ _____
 .. _set-type-void-related-cobbler:
 
 Related Cobblers
-________________
+^^^^^^^^^^^^^^^^
 
 * :ref:`set-typehints`
 * :ref:`set-null-type`
@@ -600,7 +600,7 @@ ________________
 .. _set-type-void-specs:
 
 Specs
-_____
+^^^^^
 
 +----------------+------------------------------------------------------------------+
 | Short Name     | Functions/SetTypeVoid                                            |
@@ -616,7 +616,7 @@ _____
 .. _set-typehints:
 
 Set Typehints
-_____________
+^^^^^^^^^^^^^
 Automagically add scalar typehints to methods and properties. Arguments and return values are both supported. 
 
 When multiple possible types are identified, no typehint is added. If a typehint is already set, no typehint is added.
@@ -634,7 +634,7 @@ By default, and in case of conflict, array is chosen over iterable and int is ch
 .. _set-typehints-before:
 
 Before
-______
+^^^^^^
 .. code-block:: php
 
    <?php
@@ -651,7 +651,7 @@ ______
 .. _set-typehints-after:
 
 After
-_____
+^^^^^
 .. code-block:: php
 
    <?php
@@ -670,7 +670,7 @@ _____
 .. _set-typehints-int\_or\_float:
 
 Parameters
-__________
+^^^^^^^^^^
 
 +-------------------+---------+--------+-------------------------------------------------------------------------------------------------------------------+
 | Name              | Default | Type   | Description                                                                                                       |
@@ -683,14 +683,14 @@ __________
 .. _set-typehints-suggested-analysis:
 
 Suggested Analysis
-__________________
+^^^^^^^^^^^^^^^^^^
 
 * :ref:`could-be-void`
 
 .. _set-typehints-related-cobbler:
 
 Related Cobblers
-________________
+^^^^^^^^^^^^^^^^
 
 * :ref:`var-to-public`
 * :ref:`split-property-definitions`
@@ -702,7 +702,7 @@ ________________
 .. _set-typehints-specs:
 
 Specs
-_____
+^^^^^
 
 +----------------+------------------------------------------------------------------------------------------------------------------------+
 | Short Name     | Functions/SetTypehints                                                                                                 |
@@ -718,13 +718,13 @@ _____
 .. _gather-use-expression:
 
 Gather Use Expression
-_____________________
+^^^^^^^^^^^^^^^^^^^^^
 Move lone use expression to the beginning of the file
 
 .. _gather-use-expression-before:
 
 Before
-______
+^^^^^^
 .. code-block:: php
 
    <?php
@@ -737,7 +737,7 @@ ______
 .. _gather-use-expression-after:
 
 After
-_____
+^^^^^
 .. code-block:: php
 
    <?php
@@ -749,7 +749,7 @@ _____
 .. _gather-use-expression-suggested-analysis:
 
 Suggested Analysis
-__________________
+^^^^^^^^^^^^^^^^^^
 
 * :ref:`hidden-use-expression`
 
@@ -758,7 +758,7 @@ __________________
 .. _gather-use-expression-specs:
 
 Specs
-_____
+^^^^^
 
 +----------------+------------------------------------------------------------------+
 | Short Name     | Namespaces/GatherUse                                             |
@@ -774,13 +774,13 @@ _____
 .. _use-available-alias:
 
 Use Available Alias
-___________________
+^^^^^^^^^^^^^^^^^^^
 Apply systematically the use expression in the code.
 
 .. _use-available-alias-before:
 
 Before
-______
+^^^^^^
 .. code-block:: php
 
    <?php
@@ -792,7 +792,7 @@ ______
 .. _use-available-alias-after:
 
 After
-_____
+^^^^^
 .. code-block:: php
 
    <?php
@@ -803,7 +803,7 @@ _____
 .. _use-available-alias-suggested-analysis:
 
 Suggested Analysis
-__________________
+^^^^^^^^^^^^^^^^^^
 
 * :ref:`could-use-alias`
 
@@ -812,7 +812,7 @@ __________________
 .. _use-available-alias-specs:
 
 Specs
-_____
+^^^^^
 
 +----------------+------------------------------------------------------------------+
 | Short Name     | Namespaces/UseAlias                                              |
@@ -828,13 +828,13 @@ _____
 .. _add-no-scream-@:
 
 Add No Scream @
-_______________
+^^^^^^^^^^^^^^^
 Adds the no scream operator `@` to an expression. 
 
 .. _add-no-scream-@-before:
 
 Before
-______
+^^^^^^
 .. code-block:: php
 
    <?php
@@ -844,7 +844,7 @@ ______
 .. _add-no-scream-@-after:
 
 After
-_____
+^^^^^
 .. code-block:: php
 
    <?php
@@ -854,14 +854,14 @@ _____
 .. _add-no-scream-@-suggested-analysis:
 
 Suggested Analysis
-__________________
+^^^^^^^^^^^^^^^^^^
 
 * :ref:`No anchor for Utils/Selector <no-anchor-for-utils-selector>`
 
 .. _add-no-scream-@-reverse-cobbler:
 
 Reverse Cobbler
-_______________
+^^^^^^^^^^^^^^^
 
 * :ref:`remove-noscream-@`
 
@@ -870,7 +870,7 @@ _______________
 .. _add-no-scream-@-specs:
 
 Specs
-_____
+^^^^^
 
 +----------------+------------------------------------------------------------------+
 | Short Name     | Structures/AddNoScream                                           |
@@ -886,14 +886,14 @@ _____
 .. _array-to-bracket:
 
 Array To Bracket
-________________
+^^^^^^^^^^^^^^^^
 This cobbler updates the array() syntax, and changes it to the bracket syntax.
 
 
 .. _array-to-bracket-before:
 
 Before
-______
+^^^^^^
 .. code-block:: php
 
    <?php
@@ -903,7 +903,7 @@ ______
 .. _array-to-bracket-after:
 
 After
-_____
+^^^^^
 .. code-block:: php
 
    <?php
@@ -915,7 +915,7 @@ _____
 .. _array-to-bracket-specs:
 
 Specs
-_____
+^^^^^
 
 +----------------+------------------------------------------------------------------+
 | Short Name     | Structures/ArrayToBracket                                        |
@@ -931,13 +931,13 @@ _____
 .. _plus-one-to-pre-plusplus:
 
 Plus One To Pre Plusplus
-________________________
+^^^^^^^^^^^^^^^^^^^^^^^^
 Transforms a `+ 1` or `- 1` operation into a plus-plus (or minus-minus).
 
 .. _plus-one-to-pre-plusplus-before:
 
 Before
-______
+^^^^^^
 .. code-block:: php
 
    <?php
@@ -947,7 +947,7 @@ ______
 .. _plus-one-to-pre-plusplus-after:
 
 After
-_____
+^^^^^
 .. code-block:: php
 
    <?php
@@ -959,7 +959,7 @@ _____
 .. _plus-one-to-pre-plusplus-specs:
 
 Specs
-_____
+^^^^^
 
 +----------------+------------------------------------------------------------------------------------------------------------------------+
 | Short Name     | Structures/PlusOneToPre                                                                                                |
@@ -975,7 +975,7 @@ _____
 .. _post-to-pre-plusplus:
 
 Post to Pre Plusplus
-____________________
+^^^^^^^^^^^^^^^^^^^^
 Transforms a post plus-plus (or minus-minus) operator, into a pre plus-plus (or minus-minus) operator.
 
 
@@ -983,7 +983,7 @@ Transforms a post plus-plus (or minus-minus) operator, into a pre plus-plus (or 
 .. _post-to-pre-plusplus-before:
 
 Before
-______
+^^^^^^
 .. code-block:: php
 
    <?php 
@@ -993,7 +993,7 @@ ______
 .. _post-to-pre-plusplus-after:
 
 After
-_____
+^^^^^
 .. code-block:: php
 
    <?php
@@ -1005,7 +1005,7 @@ _____
 .. _post-to-pre-plusplus-specs:
 
 Specs
-_____
+^^^^^
 
 +----------------+------------------------------------------------------------------------------------------------------------------------+
 | Short Name     | Structures/PostToPre                                                                                                   |
@@ -1021,7 +1021,7 @@ _____
 .. _remove-instructions:
 
 Remove Instructions
-___________________
+^^^^^^^^^^^^^^^^^^^
 Removes atomic instructions from the code. The whole expression is removed, and the slot is closed. 
 
 This cobbler works with element of a block, and not with part of larger expression (like remove a condition in a if/then, or remove the block expression of a while). 
@@ -1029,7 +1029,7 @@ This cobbler works with element of a block, and not with part of larger expressi
 .. _remove-instructions-before:
 
 Before
-______
+^^^^^^
 .. code-block:: php
 
    <?php
@@ -1045,7 +1045,7 @@ ______
 .. _remove-instructions-after:
 
 After
-_____
+^^^^^
 .. code-block:: php
 
    <?php
@@ -1055,7 +1055,7 @@ _____
 .. _remove-instructions-suggested-analysis:
 
 Suggested Analysis
-__________________
+^^^^^^^^^^^^^^^^^^
 
 * :ref:`useless-instructions`
 
@@ -1064,7 +1064,7 @@ __________________
 .. _remove-instructions-specs:
 
 Specs
-_____
+^^^^^
 
 +----------------+------------------------------------------------------------------+
 | Short Name     | Structures/RemoveCode                                            |
@@ -1080,13 +1080,13 @@ _____
 .. _remove-noscream-@:
 
 Remove Noscream @
-_________________
+^^^^^^^^^^^^^^^^^
 Removes the @ operator.
 
 .. _remove-noscream-@-before:
 
 Before
-______
+^^^^^^
 .. code-block:: php
 
    <?php
@@ -1096,7 +1096,7 @@ ______
 .. _remove-noscream-@-after:
 
 After
-_____
+^^^^^
 .. code-block:: php
 
    <?php
@@ -1106,14 +1106,14 @@ _____
 .. _remove-noscream-@-suggested-analysis:
 
 Suggested Analysis
-__________________
+^^^^^^^^^^^^^^^^^^
 
 * :ref:`@-operator`
 
 .. _remove-noscream-@-reverse-cobbler:
 
 Reverse Cobbler
-_______________
+^^^^^^^^^^^^^^^
 
 * This cobbler is its own reverse. 
 
@@ -1122,7 +1122,7 @@ _______________
 .. _remove-noscream-@-specs:
 
 Specs
-_____
+^^^^^
 
 +----------------+------------------------------------------------------------------------------------------------------------------------+
 | Short Name     | Structures/RemoveNoScream                                                                                              |
@@ -1138,13 +1138,13 @@ _____
 .. _remove-parenthesis:
 
 Remove Parenthesis
-__________________
+^^^^^^^^^^^^^^^^^^
 Remove useless parenthesis from return expression.
 
 .. _remove-parenthesis-before:
 
 Before
-______
+^^^^^^
 .. code-block:: php
 
    <?php
@@ -1156,7 +1156,7 @@ ______
 .. _remove-parenthesis-after:
 
 After
-_____
+^^^^^
 .. code-block:: php
 
    <?php
@@ -1168,7 +1168,7 @@ _____
 .. _remove-parenthesis-suggested-analysis:
 
 Suggested Analysis
-__________________
+^^^^^^^^^^^^^^^^^^
 
 * :ref:`no-parenthesis-for-language-construct`
 
@@ -1177,7 +1177,7 @@ __________________
 .. _remove-parenthesis-specs:
 
 Specs
-_____
+^^^^^
 
 +----------------+------------------------------------------------------------------+
 | Short Name     | Structures/RemoveParenthesis                                     |
@@ -1193,7 +1193,7 @@ _____
 .. _rename-a-function:
 
 Rename A Function
-_________________
+^^^^^^^^^^^^^^^^^
 Renames a function with a new name. 
 
 This cobbler doesn't update the name of the functioncall. It may be used with functions, and methods.
@@ -1201,7 +1201,7 @@ This cobbler doesn't update the name of the functioncall. It may be used with fu
 .. _rename-a-function-before:
 
 Before
-______
+^^^^^^
 .. code-block:: php
 
    <?php
@@ -1213,7 +1213,7 @@ ______
 .. _rename-a-function-after:
 
 After
-_____
+^^^^^
 .. code-block:: php
 
    <?php
@@ -1226,7 +1226,7 @@ _____
 .. _rename-a-function-name:
 
 Parameters
-__________
+^^^^^^^^^^
 
 +------+---------+--------+-------------------------------+
 | Name | Default | Type   | Description                   |
@@ -1237,14 +1237,14 @@ __________
 .. _rename-a-function-suggested-analysis:
 
 Suggested Analysis
-__________________
+^^^^^^^^^^^^^^^^^^
 
 * :ref:`No anchor for Utils/Selector <no-anchor-for-utils-selector>`
 
 .. _rename-a-function-related-cobbler:
 
 Related Cobblers
-________________
+^^^^^^^^^^^^^^^^
 
 * :ref:`rename-functioncalls`
 
@@ -1253,7 +1253,7 @@ ________________
 .. _rename-a-function-specs:
 
 Specs
-_____
+^^^^^
 
 +----------------+------------------------------------------------------------------+
 | Short Name     | Structures/RenameFunction                                        |
@@ -1269,13 +1269,13 @@ _____
 .. _rename-functioncalls:
 
 Rename FunctionCalls
-____________________
+^^^^^^^^^^^^^^^^^^^^
 Rename a function call to another function.
 
 .. _rename-functioncalls-before:
 
 Before
-______
+^^^^^^
 .. code-block:: php
 
    <?php
@@ -1285,7 +1285,7 @@ ______
 .. _rename-functioncalls-after:
 
 After
-_____
+^^^^^
 .. code-block:: php
 
    <?php
@@ -1296,7 +1296,7 @@ _____
 .. _rename-functioncalls-destination:
 
 Parameters
-__________
+^^^^^^^^^^
 
 +-------------+---------------+--------+-----------------------------------------------------------------------------------------+
 | Name        | Default       | Type   | Description                                                                             |
@@ -1309,14 +1309,14 @@ __________
 .. _rename-functioncalls-suggested-analysis:
 
 Suggested Analysis
-__________________
+^^^^^^^^^^^^^^^^^^
 
 * :ref:`No anchor for Utils/Selector <no-anchor-for-utils-selector>`
 
 .. _rename-functioncalls-related-cobbler:
 
 Related Cobblers
-________________
+^^^^^^^^^^^^^^^^
 
 * :ref:`rename-a-function`
 * :ref:`rename-methodcall`
@@ -1326,7 +1326,7 @@ ________________
 .. _rename-functioncalls-specs:
 
 Specs
-_____
+^^^^^
 
 +----------------+------------------------------------------------------------------+
 | Short Name     | Structures/RenameFunctionCall                                    |
@@ -1342,7 +1342,7 @@ _____
 .. _rename-methodcall:
 
 Rename Methodcall
-_________________
+^^^^^^^^^^^^^^^^^
 Rename a method, in a methodcall, with a new name. 
 
 This cobbler doesn't update the definition of the method. It works both on static and non-static methods. 
@@ -1352,7 +1352,7 @@ This cobbler doesn't update the definition of the method. It works both on stati
 .. _rename-methodcall-before:
 
 Before
-______
+^^^^^^
 .. code-block:: php
 
    <?php
@@ -1362,7 +1362,7 @@ ______
 .. _rename-methodcall-after:
 
 After
-_____
+^^^^^
 .. code-block:: php
 
    <?php
@@ -1373,7 +1373,7 @@ _____
 .. _rename-methodcall-destination:
 
 Parameters
-__________
+^^^^^^^^^^
 
 +-------------+---------------+--------+-----------------------------------------------------------------------------------------+
 | Name        | Default       | Type   | Description                                                                             |
@@ -1386,14 +1386,14 @@ __________
 .. _rename-methodcall-suggested-analysis:
 
 Suggested Analysis
-__________________
+^^^^^^^^^^^^^^^^^^
 
 * :ref:`No anchor for Utils/Selector <no-anchor-for-utils-selector>`
 
 .. _rename-methodcall-related-cobbler:
 
 Related Cobblers
-________________
+^^^^^^^^^^^^^^^^
 
 * :ref:`rename-functioncalls`
 * :ref:`rename-a-function`
@@ -1403,7 +1403,7 @@ ________________
 .. _rename-methodcall-specs:
 
 Specs
-_____
+^^^^^
 
 +----------------+------------------------------------------------------------------+
 | Short Name     | Structures/RenameMethodcall                                      |
@@ -1419,7 +1419,7 @@ _____
 .. _switch-to-match:
 
 Switch To Match
-_______________
+^^^^^^^^^^^^^^^
 Transforms a switch() into a match() expression.
 
 The switch() syntax must have each of the cases assigning the same variable (or similar). There should not be any other operation, besides break;
@@ -1429,7 +1429,7 @@ The switch() syntax must have each of the cases assigning the same variable (or 
 .. _switch-to-match-before:
 
 Before
-______
+^^^^^^
 .. code-block:: php
 
    <?php
@@ -1450,7 +1450,7 @@ ______
 .. _switch-to-match-after:
 
 After
-_____
+^^^^^
 .. code-block:: php
 
    <?php
@@ -1465,21 +1465,21 @@ _____
 .. _switch-to-match-suggested-analysis:
 
 Suggested Analysis
-__________________
+^^^^^^^^^^^^^^^^^^
 
 * :ref:`could-use-match`
 
 .. _switch-to-match-related-cobbler:
 
 Related Cobblers
-________________
+^^^^^^^^^^^^^^^^
 
 * :ref:`post-to-pre-plusplus`
 
 .. _switch-to-match-reverse-cobbler:
 
 Reverse Cobbler
-_______________
+^^^^^^^^^^^^^^^
 
 * :ref:`remove-instructions`
 
@@ -1488,7 +1488,7 @@ _______________
 .. _switch-to-match-specs:
 
 Specs
-_____
+^^^^^
 
 +----------------+------------------------------------------------------------------+
 | Short Name     | Structures/SwitchToMatch                                         |
@@ -1510,7 +1510,7 @@ _____
 .. _-before:
 
 Before
-______
+^^^^^^
 .. code-block:: php
 
    
@@ -1518,7 +1518,7 @@ ______
 .. _-after:
 
 After
-_____
+^^^^^
 .. code-block:: php
 
    
@@ -1527,7 +1527,7 @@ _____
 .. _-configfile:
 
 Parameters
-__________
+^^^^^^^^^^
 
 +------------+---------+--------+---------------------------------------+
 | Name       | Default | Type   | Description                           |
@@ -1540,7 +1540,7 @@ __________
 .. _-specs:
 
 Specs
-_____
+^^^^^
 
 +----------------+------------------------------------------------------------------+
 | Short Name     | Utils/Multi                                                      |
