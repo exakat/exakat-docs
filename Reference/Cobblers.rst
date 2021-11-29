@@ -17,7 +17,7 @@ List of Cobblers
 .. _create-phpdoc:
 
 Create Phpdoc
-^^^^^^^^^^^^^
+_____________
 Create PHPdoc comments for classes, interfaces, traits, methods and functions.
 
 Parameters and return types are collected, along with the name of the structure.
@@ -85,7 +85,7 @@ Specs
 .. _split-property-definitions:
 
 Split Property Definitions
-^^^^^^^^^^^^^^^^^^^^^^^^^^
+__________________________
 Split multiple properties definition into independent definitions. 
 
 This applies to classes and traits. 
@@ -145,7 +145,7 @@ Specs
 .. _var-to-public:
 
 Var To Public
-^^^^^^^^^^^^^
+_____________
 Replace the var syntax with public keyword. 
 
 It is also possible to replace it with protected or private, with the parameter. 
@@ -216,7 +216,7 @@ Specs
 .. _make-static-closures-and-arrow-functions:
 
 Make Static Closures And Arrow Functions
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+________________________________________
 Add the static option to closures and arrow functions. This prevents the defining environment to be included in the closure.
 
 
@@ -272,7 +272,7 @@ Specs
 .. _remove-static-from-closures-and-arrow-functions:
 
 Remove Static From Closures And Arrow Functions
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_______________________________________________
 Removes the static option from closures and arrow functions.
 
 
@@ -328,7 +328,7 @@ Specs
 .. _remove-typehint:
 
 Remove Typehint
-^^^^^^^^^^^^^^^
+_______________
 This cobbler remove the typehint mentions in the code. This might yield some speed when executing, since those tests will be not conveyed at runtime. 
 
 Typehints from arguments, method returns and properties are all removed. 
@@ -410,7 +410,7 @@ Specs
 .. _rename-parameter:
 
 Rename Parameter
-^^^^^^^^^^^^^^^^
+________________
 Change the name of a parameter to a new name.
 
 The destination parameter name is a constant. 
@@ -489,7 +489,7 @@ Specs
 .. _set-null-type:
 
 Set Null Type
-^^^^^^^^^^^^^
+_____________
 Adds a Null type to typehints when necessary. 
 
 This cobbler only adds a null type when there is already another type. It doesn't add a null type when no type is set. 
@@ -556,7 +556,7 @@ Specs
 .. _set-type-void:
 
 Set Type Void
-^^^^^^^^^^^^^
+_____________
 Adds the void typehint to functions and methods, when possible
 
 .. _set-type-void-before:
@@ -616,7 +616,7 @@ Specs
 .. _set-typehints:
 
 Set Typehints
-^^^^^^^^^^^^^
+_____________
 Automagically add scalar typehints to methods and properties. Arguments and return values are both supported. 
 
 When multiple possible types are identified, no typehint is added. If a typehint is already set, no typehint is added.
@@ -718,7 +718,7 @@ Specs
 .. _gather-use-expression:
 
 Gather Use Expression
-^^^^^^^^^^^^^^^^^^^^^
+_____________________
 Move lone use expression to the beginning of the file
 
 .. _gather-use-expression-before:
@@ -774,7 +774,7 @@ Specs
 .. _use-available-alias:
 
 Use Available Alias
-^^^^^^^^^^^^^^^^^^^
+___________________
 Apply systematically the use expression in the code.
 
 .. _use-available-alias-before:
@@ -828,7 +828,7 @@ Specs
 .. _add-no-scream-@:
 
 Add No Scream @
-^^^^^^^^^^^^^^^
+_______________
 Adds the no scream operator `@` to an expression. 
 
 .. _add-no-scream-@-before:
@@ -886,7 +886,7 @@ Specs
 .. _array-to-bracket:
 
 Array To Bracket
-^^^^^^^^^^^^^^^^
+________________
 This cobbler updates the array() syntax, and changes it to the bracket syntax.
 
 
@@ -931,7 +931,7 @@ Specs
 .. _plus-one-to-pre-plusplus:
 
 Plus One To Pre Plusplus
-^^^^^^^^^^^^^^^^^^^^^^^^
+________________________
 Transforms a `+ 1` or `- 1` operation into a plus-plus (or minus-minus).
 
 .. _plus-one-to-pre-plusplus-before:
@@ -975,7 +975,7 @@ Specs
 .. _post-to-pre-plusplus:
 
 Post to Pre Plusplus
-^^^^^^^^^^^^^^^^^^^^
+____________________
 Transforms a post plus-plus (or minus-minus) operator, into a pre plus-plus (or minus-minus) operator.
 
 
@@ -1021,7 +1021,7 @@ Specs
 .. _remove-instructions:
 
 Remove Instructions
-^^^^^^^^^^^^^^^^^^^
+___________________
 Removes atomic instructions from the code. The whole expression is removed, and the slot is closed. 
 
 This cobbler works with element of a block, and not with part of larger expression (like remove a condition in a if/then, or remove the block expression of a while). 
@@ -1080,7 +1080,7 @@ Specs
 .. _remove-noscream-@:
 
 Remove Noscream @
-^^^^^^^^^^^^^^^^^
+_________________
 Removes the @ operator.
 
 .. _remove-noscream-@-before:
@@ -1138,7 +1138,7 @@ Specs
 .. _remove-parenthesis:
 
 Remove Parenthesis
-^^^^^^^^^^^^^^^^^^
+__________________
 Remove useless parenthesis from return expression.
 
 .. _remove-parenthesis-before:
@@ -1193,7 +1193,7 @@ Specs
 .. _rename-a-function:
 
 Rename A Function
-^^^^^^^^^^^^^^^^^
+_________________
 Renames a function with a new name. 
 
 This cobbler doesn't update the name of the functioncall. It may be used with functions, and methods.
@@ -1269,7 +1269,7 @@ Specs
 .. _rename-functioncalls:
 
 Rename FunctionCalls
-^^^^^^^^^^^^^^^^^^^^
+____________________
 Rename a function call to another function.
 
 .. _rename-functioncalls-before:
@@ -1342,7 +1342,7 @@ Specs
 .. _rename-methodcall:
 
 Rename Methodcall
-^^^^^^^^^^^^^^^^^
+_________________
 Rename a method, in a methodcall, with a new name. 
 
 This cobbler doesn't update the definition of the method. It works both on static and non-static methods. 
@@ -1419,7 +1419,7 @@ Specs
 .. _switch-to-match:
 
 Switch To Match
-^^^^^^^^^^^^^^^
+_______________
 Transforms a switch() into a match() expression.
 
 The switch() syntax must have each of the cases assigning the same variable (or similar). There should not be any other operation, besides break;
