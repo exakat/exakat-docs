@@ -53,6 +53,8 @@ External links
 
 List of external links mentionned in this documentation.
 
+* ` <https://php.watch/versions/8.1/$_FILES-full-path>`_
+* ` <https://www.php.net/manual/en/language.attributes.classes.php>`_
 * `#QuandLeDevALaFleme <https://twitter.com/bsmt_nevers/status/949238391769653249>`_
 * `$_ENV <https://www.php.net/reserved.variables.environment.php>`_
 * `$docs[extension_page] <$docs[extension_page]>`_
@@ -96,6 +98,7 @@ List of external links mentionned in this documentation.
 * `Array Functions <https://www.php.net/manual/en/ref.array.php>`_
 * `array_fill_keys <https://www.php.net/array_fill_keys>`_
 * `array_filter <https://php.net/array_filter>`_
+* `array_is_list <https://www.php.net/array_is_list>`_
 * `array_key_exists() with objects <https://wiki.php.net/rfc/deprecations_php_7_4#array_key_exists_with_objects>`_
 * `array_map <https://www.php.net/array_map>`_
 * `array_merge <https://www.php.net/array_merge>`_
@@ -131,6 +134,7 @@ List of external links mentionned in this documentation.
 * `Calendar Functions <http://www.php.net/manual/en/ref.calendar.php>`_
 * `Callback / callable <https://www.php.net/manual/en/language.types.callable.php>`_
 * `Callbacks / callables <https://www.php.net/manual/en/language.types.callable.php>`_
+* `Calling a static element on a trait  <https://www.php.net/manual/en/migration81.deprecated.php#migration81.deprecated.core.static-trait>`_
 * `Can you spot the vulnerability? (openssl_verify) <https://twitter.com/ripstech/status/1124325237967994880>`_
 * `Cant Use Return Value In Write Context <https://stackoverflow.com/questions/1075534/cant-use-method-return-value-in-write-context>`_
 * `Carbon <https://carbon.nesbot.com/docs/>`_
@@ -306,6 +310,7 @@ List of external links mentionned in this documentation.
 * `Gettext <https://www.gnu.org/software/gettext/manual/gettext.html>`_
 * `Git <https://git-scm.com/>`_
 * `Github Action <https://docs.github.com/en/actions>`_
+* `Github upload <https://github.com/actions/upload-artifact>`_
 * `Github.com/exakat/exakat <https://github.com/exakat/exakat>`_
 * `global namespace <https://www.php.net/manual/en/language.namespaces.global.php>`_
 * `GMP <https://www.php.net/manual/en/book.gmp.php>`_
@@ -344,6 +349,7 @@ List of external links mentionned in this documentation.
 * `Imagick for PHP <https://www.php.net/manual/en/book.imagick.php>`_
 * `IMAP <http://www.php.net/imap>`_
 * `Implement ZEND_ARRAY_KEY_EXISTS opcode to speed up array_key_exists() <https://github.com/php/php-src/pull/3360>`_
+* `Implicit incompatible float to int conversions <https://www.php.net/manual/en/migration81.deprecated.php#migration81.deprecated.core.implicit-float-conversion>`_
 * `implode <https://www.php.net/implode>`_
 * `In a PHP5 class, when does a private constructor get called? <https://stackoverflow.com/questions/26079/in-a-php5-class-when-does-a-private-constructor-get-called>`_
 * `in_array() <https://www.php.net/in_array>`_
@@ -351,6 +357,7 @@ List of external links mentionned in this documentation.
 * `include <https://www.php.net/manual/en/function.include.php>`_
 * `include_once <https://www.php.net/manual/en/function.include-once.php>`_
 * `Incrementing/Decrementing Operators <https://www.php.net/manual/en/language.operators.increment.php>`_
+* `Info Predefined Constants <https://www.php.net/manual/en/info.constants.php>`_
 * `Insecure Transportation Security Protocol Supported (TLS 1.0) <https://www.netsparker.com/web-vulnerability-scanner/vulnerabilities/insecure-transportation-security-protocol-supported-tls-10/>`_
 * `Instanceof <https://www.php.net/manual/en/language.operators.type.php>`_
 * `Integer overflow <https://www.php.net/manual/en/language.types.integer.php#language.types.integer.overflow>`_
@@ -418,6 +425,7 @@ List of external links mentionned in this documentation.
 * `Microsoft SQL Server Driver <https://www.php.net/sqlsrv>`_
 * `Migration80 <https://exakat.readthedocs.io/en/latest/Reports.html#migration80>`_
 * `Ming (flash) <http://www.libming.org/>`_
+* `mixed <hhttps://www.php.net/manual/en/language.types.declarations.php#language.types.declarations.mixed>`_
 * `MongoDB driver <https://www.php.net/mongo>`_
 * `move_uploaded_file <https://www.php.net/move_uploaded_file>`_
 * `msgpack for PHP <https://github.com/msgpack/msgpack-php>`_
@@ -431,6 +439,7 @@ List of external links mentionned in this documentation.
 * `net_get_interfaces <https://www.php.net/net_get_interfaces>`_
 * `New Classes and Interfaces <https://www.php.net/manual/en/migration70.classes.php>`_
 * `New custom object serialization mechanism <https://wiki.php.net/rfc/custom_object_serialization>`_
+* `New features <https://www.php.net/manual/en/migration56.new-features.php>`_
 * `New global constants in 7.2 <https://www.php.net/manual/en/migration72.constants.php>`_
 * `New global constants in 7.4 <https://www.php.net/manual/en/migration74.constants.php>`_
 * `New object type <https://www.php.net/manual/en/migration72.new-features.php#migration72.new-features.iterable-pseudo-type>`_
@@ -466,6 +475,7 @@ List of external links mentionned in this documentation.
 * `pack <https://www.php.net/pack>`_
 * `Packagist <https://packagist.org/>`_
 * `parent <https://www.php.net/manual/en/keyword.parent.php>`_
+* `Parentheses around function arguments no longer affect behaviour <https://www.php.net/manual/en/migration70.incompatible.php#migration70.incompatible.variable-handling.parentheses>`_
 * `Parsekit <http://www.php.net/manual/en/book.parsekit.php>`_
 * `Parsing and Lexing <https://www.php.net/manual/en/book.parle.php>`_
 * `Passing arguments by reference <https://www.php.net/manual/en/functions.arguments.php#functions.arguments.by-reference>`_
@@ -481,6 +491,7 @@ List of external links mentionned in this documentation.
 * `pg_last_error <https://www.php.net/manual/en/function.pg-last-error.php>`_
 * `Phalcon <https://phalconphp.com/>`_
 * `phar <http://www.php.net/manual/en/book.phar.php>`_
+* `PHP - Fatal error: Unsupported operand types [duplicate] <https://stackoverflow.com/questions/2108875/php-fatal-error-unsupported-operand-types>`_
 * `PHP 7 performance improvements (3/5): Encapsed strings optimization <https://blog.blackfire.io/php-7-performance-improvements-encapsed-strings-optimization.html>`_
 * `PHP 7.0 Backward incompatible changes <https://www.php.net/manual/en/migration70.incompatible.php>`_
 * `PHP 7.0 Removed Functions <https://www.php.net/manual/en/migration70.incompatible.php#migration70.incompatible.removed-functions>`_
@@ -516,8 +527,11 @@ List of external links mentionned in this documentation.
 * `PHP RFC: Deprecations for PHP 7.2 : Each() <https://wiki.php.net/rfc/deprecations_php_7_2#each>`_
 * `PHP RFC: Deprecations for PHP 7.4 <https://wiki.php.net/rfc/deprecations_php_7_4>`_
 * `PHP RFC: Deprecations for PHP 8.1 <https://wiki.php.net/rfc/deprecations_php_8_1>`_
+* `PHP RFC: First-class callable syntax <https://wiki.php.net/rfc/first_class_callable_syntax>`_
 * `PHP RFC: get_debug_type <https://wiki.php.net/rfc/get_debug_type>`_
 * `PHP RFC: is_countable <https://wiki.php.net/rfc/is-countable>`_
+* `PHP RFC: New in initializers <https://wiki.php.net/rfc/new_in_initializers>`_
+* `PHP RFC: noreturn type <https://wiki.php.net/rfc/noreturn_type>`_
 * `PHP RFC: Nullsafe operator <https://wiki.php.net/rfc/nullsafe_operator>`_
 * `PHP RFC: Numeric Literal Separator <https://wiki.php.net/rfc/numeric_literal_separator>`_
 * `PHP RFC: Scalar Type Hints <https://wiki.php.net/rfc/scalar_type_hints>`_
@@ -568,6 +582,7 @@ List of external links mentionned in this documentation.
 * `Reflection <https://www.php.net/manual/en/book.reflection.php>`_
 * `Reflection export() methods <https://wiki.php.net/rfc/deprecations_php_7_4#reflection_export_methods>`_
 * `Regular Expressions (Perl-Compatible) <https://www.php.net/manual/en/book.pcre.php>`_
+* `Resource to object migration <https://www.php.net/manual/en/migration80.incompatible.php#migration81.incompatible.resource2object>`_
 * `resources <https://www.php.net/manual/en/language.types.resource.php>`_
 * `Restrict $GLOBALS usage <https://wiki.php.net/rfc/restrict_globals_usage>`_
 * `return <https://www.php.net/manual/en/function.return.php>`_
@@ -642,6 +657,7 @@ List of external links mentionned in this documentation.
 * `The Linux NIS(YP)/NYS/NIS+ HOWTO <http://www.tldp.org/HOWTO/NIS-HOWTO/index.html>`_
 * `The list function & practical uses of array destructuring in PHP <https://sebastiandedeyne.com/the-list-function-and-practical-uses-of-array-destructuring-in-php>`_
 * `The main PPA for PHP (8.0, 7.4, 7.3, 7.2, 7.1, 7.0, 5.6)  <https://launchpad.net/~ondrej/+archive/ubuntu/php>`_
+* `The “never” Return Type for PHP <https://betterprogramming.pub/the-never-return-type-for-php-802fbe2fa303>`_
 * `Throw Expression <https://wiki.php.net/rfc/throw_expression>`_
 * `Throwable <https://www.php.net/manual/en/class.throwable.php>`_
 * `Tidy <https://www.php.net/manual/en/book.tidy.php>`_
@@ -661,6 +677,7 @@ List of external links mentionned in this documentation.
 * `Type declarations  <https://www.php.net/manual/en/functions.arguments.php#functions.arguments.type-declaration>`_
 * `Type declarations <https://www.php.net/manual/en/functions.arguments.php#functions.arguments.type-declaration>`_
 * `Type Declarations <https://www.php.net/manual/en/functions.arguments.php#functions.arguments.type-declaration>`_
+* `Type declarations <https://www.php.net/manual/en/language.types.declarations.php>`_
 * `Type hinting for interfaces <http://phpenthusiast.com/object-oriented-php-tutorials/type-hinting-for-interfaces>`_
 * `Type Juggling <https://www.php.net/manual/en/language.types.type-juggling.php>`_
 * `Type juggling <https://www.php.net/manual/en/language.types.type-juggling.php>`_
@@ -677,10 +694,11 @@ List of external links mentionned in this documentation.
 * `unset <https://www.php.net/unset>`_
 * `Unset casting <https://www.php.net/manual/en/language.types.null.php#language.types.null.casting>`_
 * `UPGRADING 7.3 <https://github.com/php/php-src/blob/PHP-7.3/UPGRADING#L83-L95>`_
-* `UPGRADING PHP 8.0 <https://github.com/php/php-src/blob/master/UPGRADING>`_
+* `UPGRADING PHP 8.1 <https://www.php.net/manual/en/migration81.incompatible.php#migration81.incompatible.resource2object>`_
 * `upload artifact <https://github.com/actions/upload-artifact>`_
 * `Use of Hardcoded IPv4 Addresses <https://docs.microsoft.com/en-us/windows/desktop/winsock/use-of-hardcoded-ipv4-addresses-2>`_
 * `Using namespaces: Aliasing/Importing <https://www.php.net/manual/en/language.namespaces.importing.php>`_
+* `Using namespaces: Aliasing/Importing ¶ <https://www.php.net/manual/en/language.namespaces.importing.php>`_
 * `Using namespaces: fallback to global function/constant <https://www.php.net/manual/en/language.namespaces.fallback.php>`_
 * `Using non-breakable spaces in test method names <http://mnapoli.fr/using-non-breakable-spaces-in-test-method-names/>`_
 * `Using single characters for variable names in loops/exceptions <https://softwareengineering.stackexchange.com/questions/71710/using-single-characters-for-variable-names-in-loops-exceptions?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa/>`_
@@ -695,6 +713,7 @@ List of external links mentionned in this documentation.
 * `Variable-length argument lists <https://www.php.net/manual/en/functions.arguments.php#functions.variable-arg-list>`_
 * `Variables <https://www.php.net/manual/en/language.variables.basics.php>`_
 * `Visibility <https://www.php.net/manual/en/language.oop5.visibility.php>`_
+* `Visibility from other objects <https://www.php.net/manual/en/language.oop5.visibility.php#language.oop5.visibility-other-objects>`_
 * `Vladimir Reznichenko <https://twitter.com/kalessil>`_
 * `Void functions <https://www.php.net/manual/en/migration71.new-features.php#migration71.new-features.void-functions>`_
 * `Warn when counting non-countable types <https://www.php.net/manual/en/migration72.incompatible.php#migration72.incompatible.warn-on-non-countable-types>`_
@@ -711,6 +730,7 @@ List of external links mentionned in this documentation.
 * `wikidiff2 <https://www.mediawiki.org/wiki/Extension:Wikidiff2>`_
 * `Wincache extension for PHP <http://www.php.net/wincache>`_
 * `Wordpress <https://www.wordpress.org/>`_
+* `workflow_dispatch <https://docs.github.com/en/actions/managing-workflow-runs/manually-running-a-workflow>`_
 * `www.exakat.io <https://www.exakat.io/versions/>`_
 * `xattr <https://www.php.net/manual/en/book.xattr.php>`_
 * `xcache <https://xcache.lighttpd.net/>`_

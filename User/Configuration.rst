@@ -50,6 +50,8 @@ Any option that a command doesn't understand is ignored.
 
 Any option that is not recognized is ignored and reported (with visibility).
 
+.. _user-option-placements:
+
 Option placements 
 ###################
 
@@ -90,33 +92,34 @@ This table show in which file the directive may be placed to be used. 'exakat' i
 | rulesets            |        |         | X       |
 +---------------------+--------+---------+---------+
 
+.. _user-option-availability:
 
-Option availablity
+Option availability
 ###################
 
 This table show which operation (audit, cobbler) is parametered by which directive.
 
-+---------------------+--------+---------+
-| name                | audit  | cobbler |
-+---------------------+--------+---------+
-| phpversion          | X      | X       |
-+---------------------+--------+---------+
-| ignore_dirs         | X      | X       |
-+---------------------+--------+---------+
-| include_dirs        | X      | X       |
-+---------------------+--------+---------+
-| ignore_rules        | X      | X       |
-+---------------------+--------+---------+
-| file_extensions     | X      | X       |
-+---------------------+--------+---------+
-| project_reports     | X      |         |
-+---------------------+--------+---------+
-| project_rulesets    | X      |         |
-+---------------------+--------+---------+
-| project_vcs         |        | X       |
-+---------------------+--------+---------+
-| project_cobblers    |        | X       |
-+---------------------+--------+---------+
++---------------------+--------------------+---------+
+| name                | project / analyze  | cobble  |
++---------------------+--------------------+---------+
+| phpversion          | X                  | X       |
++---------------------+--------------------+---------+
+| ignore_dirs         | X                  | X       |
++---------------------+--------------------+---------+
+| include_dirs        | X                  | X       |
++---------------------+--------------------+---------+
+| ignore_rules        | X                  | X       |
++---------------------+--------------------+---------+
+| file_extensions     | X                  | X       |
++---------------------+--------------------+---------+
+| project_reports     | X                  |         |
++---------------------+--------------------+---------+
+| project_rulesets    | X                  |         |
++---------------------+--------------------+---------+
+| project_vcs         |                    | X       |
++---------------------+--------------------+---------+
+| project_cobblers    |                    | X       |
++---------------------+--------------------+---------+
 
 
 Project Configuration
@@ -190,6 +193,7 @@ project_packagist
 
 This is the packagist name for the code, when the code is fetched with composer. 
 
+.. _user-in-code-configuration:
 
 In-code Configuration
 ---------------------
@@ -560,10 +564,6 @@ prefixedType['uuid'] = '\Uuid';
   + ignoreList : 0,1,2,10
 
     + Common values that have to be ignored. Comma separated list.
-:ref:`Selector <selector>`
-  + selector : 
-
-    + A selector expression to identify atoms in the code.
 :ref:`Variables With Long Names <variables-with-long-names>`
   + variableLength : 20
 

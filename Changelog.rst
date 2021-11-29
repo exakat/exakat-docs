@@ -19,7 +19,12 @@ Here is the release note of exakat.
     + 
 
 + Analysis
+    + New analysis : report deprecated PHP 8.2 callable
+    + New analysis : report new in initializers
+    + New analysis : report nested attributes
+    + New analysis : report direct calls to Trait methods and properties
     + New analysis : report auto vivification of false (PHP 8.1)
+    + New analysis : report implicit float to integer conversion for arrays
 
 + Tokenizer
     + Fixed bug with __METHOD__ when it is called outside a method

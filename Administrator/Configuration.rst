@@ -18,19 +18,18 @@ More configuration options appear with the evolution of the engine.
 Reminder of precedences
 #######################
 
+The exakat engine read directives from six places, with the following precedence :
 
-The exakat engine read directives from three places :
+#. The command line options
+#. The .exakat.ini or .exakat.yaml file at the root of the code
+#. The environment variables
+#. The config.ini file in the project directory
+#. The exakat.ini file in the config directory
+#. The default values in the code
 
-1. The command line options
-2. The .exakat.ini file at the root of the code
-3. The config.ini file in the project directory
-4. The exakat.ini file in the config directory
-5. The default values in the code
+The precedence of the directives is the same as the list above.
 
-
-The precedence of the directives is the same as the list above : command line options always have highest priority, config.ini files are in second, when command line are not available, and finally, the default values are read in the code.
-
-Some of the directives are only available in the config.ini files.
+Some of the directives are only available in some specific configuration locations : they may not have usefulness in every places. See :ref:`user-option-availability`.
 
 Common Options
 ###############

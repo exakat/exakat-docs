@@ -4572,30 +4572,6 @@ Security tokens should be build with a CSPRNG source. uniqid() is based on time,
     $this->installer->change_config('config', '$config[\'encryption_key\'] = \'\';', '$config[\'encryption_key\'] = \''.md5(uniqid()).'\';');
 
 
-.. _case-\_\_debuginfo()-usage:
-
-__debugInfo() Usage
-###################
-
-.. _case-dolibarr-php-debuginfousage:
-
-Dolibarr
-++++++++
-
-
-:ref:`\_\_debuginfo()-usage`, in htdocs/includes/stripe/lib/StripeObject.php:108. 
-
-_values is a private property from the Stripe Class. The class contains other objects, but only _values are displayed with var_dump.
-
-.. code-block:: php
-
-    // Magic method for var_dump output. Only works with PHP >= 5.6
-        public function __debugInfo()
-        {
-            return $this->_values;
-        }
-
-
 .. _case-deprecated-php-functions:
 
 Deprecated PHP Functions
@@ -4893,42 +4869,6 @@ The reference should be removed from the function definition. Either this method
                 return $this->parentSection != null ? $this->parentSection->getParentOrSelf($type) : null;
             }
     	}
-
-
-.. _case-old-style-\_\_autoload():
-
-Old Style __autoload()
-######################
-
-.. _case-piwigo-php-oldautoloadusage:
-
-Piwigo
-++++++
-
-
-:ref:`old-style-\_\_autoload()`, in include/phpmailer/PHPMailerAutoload.php:45. 
-
-This code handles situations for PHP after 5.1.0 and older. Rare are the applications that are still using those versions in 2019.
-
-.. code-block:: php
-
-    if (version_compare(PHP_VERSION, '5.1.2', '>=')) {
-        //SPL autoloading was introduced in PHP 5.1.2
-        if (version_compare(PHP_VERSION, '5.3.0', '>=')) {
-            spl_autoload_register('PHPMailerAutoload', true, true);
-        } else {
-            spl_autoload_register('PHPMailerAutoload');
-        }
-    } else {
-        /**
-         * Fall back to traditional autoload for old PHP versions
-         * @param string $classname The name of the class to load
-         */
-        function __autoload($classname)
-        {
-            PHPMailerAutoload($classname);
-        }
-    }
 
 
 .. _case-pathinfo()-returns-may-vary:
@@ -5396,6 +5336,66 @@ This code actually loads the file, join it, then split it again. file() would be
 .. code-block:: php
 
     $markerdata = explode( "\n", implode( '', file( $filename ) ) );
+
+
+.. _case-\_\_debuginfo()-usage:
+
+__debugInfo() Usage
+###################
+
+.. _case-dolibarr-php-debuginfousage:
+
+Dolibarr
+++++++++
+
+
+:ref:`\_\_debuginfo()-usage`, in htdocs/includes/stripe/lib/StripeObject.php:108. 
+
+_values is a private property from the Stripe Class. The class contains other objects, but only _values are displayed with var_dump.
+
+.. code-block:: php
+
+    // Magic method for var_dump output. Only works with PHP >= 5.6
+        public function __debugInfo()
+        {
+            return $this->_values;
+        }
+
+
+.. _case-old-style-\_\_autoload():
+
+Old Style __autoload()
+######################
+
+.. _case-piwigo-php-oldautoloadusage:
+
+Piwigo
+++++++
+
+
+:ref:`old-style-\_\_autoload()`, in include/phpmailer/PHPMailerAutoload.php:45. 
+
+This code handles situations for PHP after 5.1.0 and older. Rare are the applications that are still using those versions in 2019.
+
+.. code-block:: php
+
+    if (version_compare(PHP_VERSION, '5.1.2', '>=')) {
+        //SPL autoloading was introduced in PHP 5.1.2
+        if (version_compare(PHP_VERSION, '5.3.0', '>=')) {
+            spl_autoload_register('PHPMailerAutoload', true, true);
+        } else {
+            spl_autoload_register('PHPMailerAutoload');
+        }
+    } else {
+        /**
+         * Fall back to traditional autoload for old PHP versions
+         * @param string $classname The name of the class to load
+         */
+        function __autoload($classname)
+        {
+            PHPMailerAutoload($classname);
+        }
+    }
 
 
 .. _case-compare-hash:
@@ -9039,45 +9039,6 @@ Not only echo() doesn't use any parenthesis, but this syntax gives the illusion 
     echo (($row['Null'] == 'NO') ? __('No') : __('Yes'))
 
 
-.. _case-@-operator:
-
-@ Operator
-##########
-
-.. _case-phinx-structures-noscream:
-
-Phinx
-+++++
-
-
-:ref:`@-operator`, in src/Phinx/Util/Util.php:239. 
-
-fopen() may be tested for existence, readability before using it. Although, it actually emits some errors on Windows, with network volumes.
-
-.. code-block:: php
-
-    $isReadable = @\fopen($filePath, 'r') !== false;
-    
-            if (!$filePath || !$isReadable) {
-                throw new \Exception(sprintf(Cannot open file %s \n, $filename));
-            }
-
-
-.. _case-phpipam-structures-noscream:
-
-PhpIPAM
-+++++++
-
-
-:ref:`@-operator`, in functions/classes/class.Log.php:322. 
-
-Variable and index existence should always be tested with isset() : it is faster than using ``@``.
-
-.. code-block:: php
-
-    $_SESSION['ipamusername']
-
-
 .. _case-avoid-substr()-one:
 
 Avoid Substr() One
@@ -9124,6 +9085,45 @@ No need to call substr() to get only one char.
             }
             $rgb = array($r, $g, $b);
             return $rgb;
+
+
+.. _case-@-operator:
+
+@ Operator
+##########
+
+.. _case-phinx-structures-noscream:
+
+Phinx
++++++
+
+
+:ref:`@-operator`, in src/Phinx/Util/Util.php:239. 
+
+fopen() may be tested for existence, readability before using it. Although, it actually emits some errors on Windows, with network volumes.
+
+.. code-block:: php
+
+    $isReadable = @\fopen($filePath, 'r') !== false;
+    
+            if (!$filePath || !$isReadable) {
+                throw new \Exception(sprintf(Cannot open file %s \n, $filename));
+            }
+
+
+.. _case-phpipam-structures-noscream:
+
+PhpIPAM
++++++++
+
+
+:ref:`@-operator`, in functions/classes/class.Log.php:322. 
+
+Variable and index existence should always be tested with isset() : it is faster than using ``@``.
+
+.. code-block:: php
+
+    $_SESSION['ipamusername']
 
 
 .. _case-not-not:
@@ -9501,26 +9501,6 @@ That is a useless assignation, except for the transtyping to integer that PHP do
 .. code-block:: php
 
     $decoded[$field] = +$decoded[$field]
-
-
-.. _case-preg\_replace-with-option-e:
-
-preg_replace With Option e
-##########################
-
-.. _case-edusoho-structures-pregoptione:
-
-Edusoho
-+++++++
-
-
-:ref:`preg\_replace-with-option-e`, in vendor_user/uc_client/lib/uccode.class.php:32. 
-
-This call extract text between [code] tags, then process it with $this->codedisp() and nest it again in the original string. preg_replace_callback() is a drop-in replacement for this piece of code. 
-
-.. code-block:: php
-
-    $message = preg_replace("/\s*\[code\](.+?)\[\/code\]\s*/ies", "$this->codedisp('\1')", $message);
 
 
 .. _case-printf-number-of-arguments:
@@ -10707,6 +10687,119 @@ This could be improved with count() recursive and a array_filter call, to remove
                 }
 
 
+.. _case-use-list-with-foreach:
+
+Use List With Foreach
+#####################
+
+.. _case-mediawiki-structures-uselistwithforeach:
+
+MediaWiki
++++++++++
+
+
+:ref:`use-list-with-foreach`, in includes/parser/LinkHolderArray.php:372. 
+
+This foreach reads each element from $entries into entry. $entry, in turn, is written into $pdbk, $title and $displayText for easier reuse. 5 elements are read from $entry, and they could be set in their respective variable in the foreach() with a list call. The only on that can't be set is 'query' which has to be tested.
+
+.. code-block:: php
+
+    foreach ( $entries as $index => $entry ) {
+    				$pdbk = $entry['pdbk'];
+    				$title = $entry['title'];
+    				$query = isset( $entry['query'] ) ? $entry['query'] : [];
+    				$key = "$ns:$index";
+    				$searchkey = "<!--LINK'\" $key-->";
+    				$displayText = $entry['text'];
+    				if ( isset( $entry['selflink'] ) ) {
+    					$replacePairs[$searchkey] = Linker::makeSelfLinkObj( $title, $displayText, $query );
+    					continue;
+    				}
+    				if ( $displayText === '' ) {
+    					$displayText = null;
+    				} else {
+    					$displayText = new HtmlArmor( $displayText );
+    				}
+    				if ( !isset( $colours[$pdbk] ) ) {
+    					$colours[$pdbk] = 'new';
+    				}
+    				$attribs = [];
+    				if ( $colours[$pdbk] == 'new' ) {
+    					$linkCache->addBadLinkObj( $title );
+    					$output->addLink( $title, 0 );
+    					$link = $linkRenderer->makeBrokenLink(
+    						$title, $displayText, $attribs, $query
+    					);
+    				} else {
+    					$link = $linkRenderer->makePreloadedLink(
+    						$title, $displayText, $colours[$pdbk], $attribs, $query
+    					);
+    				}
+    
+    				$replacePairs[$searchkey] = $link;
+    			}
+
+
+.. _case-use-positive-condition:
+
+Use Positive Condition
+######################
+
+.. _case-spip-structures-usepositivecondition:
+
+SPIP
+++++
+
+
+:ref:`use-positive-condition`, in ecrire/inc/utils.php:925. 
+
+if (isset($time[$t])) { } else { } would put the important case in first place, and be more readable.
+
+.. code-block:: php
+
+    if (!isset($time[$t])) {
+    		$time[$t] = $a + $b;
+    	} else {
+    		$p = ($a + $b - $time[$t]) * 1000;
+    		unset($time[$t]);
+    #			echo "'$p'";exit;
+    		if ($raw) {
+    			return $p;
+    		}
+    		if ($p < 1000) {
+    			$s = '';
+    		} else {
+    			$s = sprintf("%d ", $x = floor($p / 1000));
+    			$p -= ($x * 1000);
+    		}
+    
+    		return $s . sprintf($s ? "%07.3f ms" : "%.3f ms", $p);
+    	}
+
+
+.. _case-expressionengine-structures-usepositivecondition:
+
+ExpressionEngine
+++++++++++++++++
+
+
+:ref:`use-positive-condition`, in system/ee/EllisLab/Addons/forum/mod.forum_core.php:9138. 
+
+Let's be positive, and start processing the presence of $topic first. And let's call it empty(),  not == ''.
+
+.. code-block:: php
+
+    if ($topic != '')
+    						{
+    							$sql .= '('.substr($topic, 0, -3).') OR ';
+    							$sql .= '('.substr($tbody, 0, -3).') ';
+    						}
+    						else
+    						{
+    							$sql = substr($sql, 0, -3);
+    						}
+
+
 .. _case-useless-brackets:
 
 Useless Brackets
@@ -11079,119 +11172,6 @@ $row is unset under certain conditions : here, we can read it in the comments. E
         }
 
 
-.. _case-use-list-with-foreach:
-
-Use List With Foreach
-#####################
-
-.. _case-mediawiki-structures-uselistwithforeach:
-
-MediaWiki
-+++++++++
-
-
-:ref:`use-list-with-foreach`, in includes/parser/LinkHolderArray.php:372. 
-
-This foreach reads each element from $entries into entry. $entry, in turn, is written into $pdbk, $title and $displayText for easier reuse. 5 elements are read from $entry, and they could be set in their respective variable in the foreach() with a list call. The only on that can't be set is 'query' which has to be tested.
-
-.. code-block:: php
-
-    foreach ( $entries as $index => $entry ) {
-    				$pdbk = $entry['pdbk'];
-    				$title = $entry['title'];
-    				$query = isset( $entry['query'] ) ? $entry['query'] : [];
-    				$key = "$ns:$index";
-    				$searchkey = "<!--LINK'\" $key-->";
-    				$displayText = $entry['text'];
-    				if ( isset( $entry['selflink'] ) ) {
-    					$replacePairs[$searchkey] = Linker::makeSelfLinkObj( $title, $displayText, $query );
-    					continue;
-    				}
-    				if ( $displayText === '' ) {
-    					$displayText = null;
-    				} else {
-    					$displayText = new HtmlArmor( $displayText );
-    				}
-    				if ( !isset( $colours[$pdbk] ) ) {
-    					$colours[$pdbk] = 'new';
-    				}
-    				$attribs = [];
-    				if ( $colours[$pdbk] == 'new' ) {
-    					$linkCache->addBadLinkObj( $title );
-    					$output->addLink( $title, 0 );
-    					$link = $linkRenderer->makeBrokenLink(
-    						$title, $displayText, $attribs, $query
-    					);
-    				} else {
-    					$link = $linkRenderer->makePreloadedLink(
-    						$title, $displayText, $colours[$pdbk], $attribs, $query
-    					);
-    				}
-    
-    				$replacePairs[$searchkey] = $link;
-    			}
-
-
-.. _case-use-positive-condition:
-
-Use Positive Condition
-######################
-
-.. _case-spip-structures-usepositivecondition:
-
-SPIP
-++++
-
-
-:ref:`use-positive-condition`, in ecrire/inc/utils.php:925. 
-
-if (isset($time[$t])) { } else { } would put the important case in first place, and be more readable.
-
-.. code-block:: php
-
-    if (!isset($time[$t])) {
-    		$time[$t] = $a + $b;
-    	} else {
-    		$p = ($a + $b - $time[$t]) * 1000;
-    		unset($time[$t]);
-    #			echo "'$p'";exit;
-    		if ($raw) {
-    			return $p;
-    		}
-    		if ($p < 1000) {
-    			$s = '';
-    		} else {
-    			$s = sprintf("%d ", $x = floor($p / 1000));
-    			$p -= ($x * 1000);
-    		}
-    
-    		return $s . sprintf($s ? "%07.3f ms" : "%.3f ms", $p);
-    	}
-
-
-.. _case-expressionengine-structures-usepositivecondition:
-
-ExpressionEngine
-++++++++++++++++
-
-
-:ref:`use-positive-condition`, in system/ee/EllisLab/Addons/forum/mod.forum_core.php:9138. 
-
-Let's be positive, and start processing the presence of $topic first. And let's call it empty(),  not == ''.
-
-.. code-block:: php
-
-    if ($topic != '')
-    						{
-    							$sql .= '('.substr($topic, 0, -3).') OR ';
-    							$sql .= '('.substr($tbody, 0, -3).') ';
-    						}
-    						else
-    						{
-    							$sql = substr($sql, 0, -3);
-    						}
-
-
 .. _case-var\_dump()...-usage:
 
 var_dump()... Usage
@@ -11354,6 +11334,26 @@ This condition may be easier to read as `$diff >= WEEK_IN_SECONDS && $diff < MON
     		$since = sprintf( _n( '%s week', '%s weeks', $weeks ), $weeks );
 
 
+.. _case-preg\_replace-with-option-e:
+
+preg_replace With Option e
+##########################
+
+.. _case-edusoho-structures-pregoptione:
+
+Edusoho
++++++++
+
+
+:ref:`preg\_replace-with-option-e`, in vendor_user/uc_client/lib/uccode.class.php:32. 
+
+This call extract text between [code] tags, then process it with $this->codedisp() and nest it again in the original string. preg_replace_callback() is a drop-in replacement for this piece of code. 
+
+.. code-block:: php
+
+    $message = preg_replace("/\s*\[code\](.+?)\[\/code\]\s*/ies", "$this->codedisp('\1')", $message);
+
+
 .. _case-dependant-trait:
 
 Dependant Trait
@@ -11484,7 +11484,7 @@ NextCloud
 
 :ref:`one-variable-string`, in build/integration/features/bootstrap/BasicStructure.php:349. 
 
-Both concatenations could be merged, independantly. If readability is important, why not put them inside curly brackets?
+Both concatenations could be merged, independently. If readability is important, why not put them inside curly brackets?
 
 .. code-block:: php
 
