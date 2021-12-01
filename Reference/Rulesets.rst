@@ -6,7 +6,7 @@ Rulesets
 Introduction
 ------------------------
 
-Exakat provides unique 1417 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
+Exakat provides unique 1418 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
 
 For more smoothly usage, the ruleset concept allow you to run a set of rules based on a decidated focus. Beawre that a Ruleset run all the associated rules and any needed dependencies.
 
@@ -537,7 +537,7 @@ Total : 435 analysis
 * :ref:`duplicate-named-parameter`
 * :ref:`php-native-class-type-compatibility`
 * :ref:`missing-attribute-attribute`
-* :ref:`php-nonullfornative`
+* :ref:`no-null-for-native-php-functions`
 * :ref:`no-referenced-void`
 * :ref:`jsonserialize()-mixed-return-type`
 * :ref:`new-functions-in-php-8.1`
@@ -944,9 +944,9 @@ Total : 381 analysis
 * :ref:`named-parameter-usage`
 * :ref:`first-class-callable`
 * :ref:`never-keyword`
-* :ref:`never-typehint-usage`
 * :ref:`nested-attributes`
 * :ref:`new-initializers`
+* :ref:`promoted-properties`
 
 
 
@@ -2714,7 +2714,7 @@ Total : 18 analysis
 * :ref:`openssl-encrypt-default-algorithm-change`
 * :ref:`php-8.1-removed-constants`
 * :ref:`php-native-class-type-compatibility`
-* :ref:`php-nonullfornative`
+* :ref:`no-null-for-native-php-functions`
 * :ref:`calling-static-trait-method`
 * :ref:`no-referenced-void`
 * :ref:`jsonserialize()-mixed-return-type`
@@ -2805,7 +2805,7 @@ Total : 7 analysis
 * :ref:`case-insensitive-constants`
 * :ref:`assert-function-is-reserved`
 * :ref:`nested-ternary-without-parenthesis`
-* :ref:`php-nonullfornative`
+* :ref:`no-null-for-native-php-functions`
 * :ref:`calling-static-trait-method`
 * :ref:`no-referenced-void`
 * :ref:`jsonserialize()-mixed-return-type`
@@ -2946,7 +2946,7 @@ For example :
 
 
 
-Total : 30 analysis
+Total : 31 analysis
 
 * :ref:`constants-names`
 * :ref:`binary-glossary`
@@ -2978,6 +2978,7 @@ Total : 30 analysis
 * :ref:`magic-properties`
 * :ref:`internet-domains`
 * :ref:`openssl-ciphers-used`
+* :ref:`promoted-properties`
 
 
 
@@ -3542,7 +3543,7 @@ All
 
 All is a dummy ruleset, which includes all the rules. It is mostly used internally.
 
-Total : 1405 analysis
+Total : 1406 analysis
 
 * :ref:`adding-zero`
 * :ref:`ambiguous-array-index`
@@ -4575,7 +4576,7 @@ Total : 1405 analysis
 * :ref:`ext-psr`
 * :ref:`should-yield-with-key`
 * :ref:`don't-loop-on-yield`
-* :ref:`variable-may-be-non-global`
+* :ref:`declare-global-early`
 * :ref:`unreachable-class-constant`
 * :ref:`avoid-self-in-interface`
 * :ref:`should-have-destructor`
@@ -4928,7 +4929,7 @@ Total : 1405 analysis
 * :ref:`php-native-class-type-compatibility`
 * :ref:`missing-attribute-attribute`
 * :ref:`$files-full\_path`
-* :ref:`php-nonullfornative`
+* :ref:`no-null-for-native-php-functions`
 * :ref:`calling-static-trait-method`
 * :ref:`no-referenced-void`
 * :ref:`jsonserialize()-mixed-return-type`
@@ -4941,14 +4942,15 @@ Total : 1405 analysis
 * :ref:`new-functions-in-php-8.1`
 * :ref:`php-8.1-removed-functions`
 * :ref:`never-keyword`
-* :ref:`never-typehint-usage`
-* :ref:`never-typehint-usage`
+* :ref:`mixed-typehint-usage`
 * :ref:`false-to-array-conversion`
 * :ref:`float-conversion-as-index`
 * :ref:`cannot-call-trait-method-directly`
 * :ref:`nested-attributes`
 * :ref:`new-initializers`
 * :ref:`functions-deprecatedcallable`
+* :ref:`attributes-attributesusage`
+* :ref:`promoted-properties`
 
 
 

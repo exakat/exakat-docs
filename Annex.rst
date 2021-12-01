@@ -164,6 +164,7 @@ List of external links mentionned in this documentation.
 * `Constant Scalar Expressions <https://wiki.php.net/rfc/const_scalar_exprs>`_
 * `constant() <https://www.php.net/constant>`_
 * `Constants <https://www.php.net/manual/en/language.constants.php>`_
+* `Constructor Promotion <https://www.php.net/manual/en/language.oop5.decon.php#language.oop5.decon.constructor.promotion>`_
 * `Constructors and Destructors <https://www.php.net/manual/en/language.oop5.decon.php>`_
 * `continue-on-error <https://docs.github.com/en/actions/learn-github-actions/workflow-syntax-for-github-actions#jobsjob_idstepscontinue-on-error>`_
 * `Cookies <https://www.php.net/manual/en/features.cookies.php>`_
@@ -359,6 +360,7 @@ List of external links mentionned in this documentation.
 * `Incrementing/Decrementing Operators <https://www.php.net/manual/en/language.operators.increment.php>`_
 * `Info Predefined Constants <https://www.php.net/manual/en/info.constants.php>`_
 * `Insecure Transportation Security Protocol Supported (TLS 1.0) <https://www.netsparker.com/web-vulnerability-scanner/vulnerabilities/insecure-transportation-security-protocol-supported-tls-10/>`_
+* `Installing Exakat to monitor several projects <https://www.exakat.io/installing-exakat-to-monitor-several-projects/>`_
 * `Instanceof <https://www.php.net/manual/en/language.operators.type.php>`_
 * `Integer overflow <https://www.php.net/manual/en/language.types.integer.php#language.types.integer.overflow>`_
 * `Integer Syntax <https://www.php.net/manual/en/language.types.integer.php#language.types.integer.syntax>`_
@@ -524,6 +526,7 @@ List of external links mentionned in this documentation.
 * `PHP RFC: Convert numeric keys in object/array casts <https://wiki.php.net/rfc/convert_numeric_keys_in_object_array_casts>`_
 * `PHP RFC: Deprecate and Remove Bareword (Unquoted) Strings <https://wiki.php.net/rfc/deprecate-bareword-strings>`_
 * `PHP RFC: Deprecate left-associative ternary operator <https://wiki.php.net/rfc/ternary_associativity>`_
+* `PHP RFC: Deprecate passing null to non-nullable arguments of internal functions <https://wiki.php.net/rfc/deprecate_null_to_scalar_internal_arg>`_
 * `PHP RFC: Deprecations for PHP 7.2 : Each() <https://wiki.php.net/rfc/deprecations_php_7_2#each>`_
 * `PHP RFC: Deprecations for PHP 7.4 <https://wiki.php.net/rfc/deprecations_php_7_4>`_
 * `PHP RFC: Deprecations for PHP 8.1 <https://wiki.php.net/rfc/deprecations_php_8_1>`_

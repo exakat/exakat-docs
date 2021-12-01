@@ -9,22 +9,23 @@ Here is the release note of exakat.
 **Version 2.3.1 (??&?, 2021-11-18)**
 
 
-+ Architecture
-    + 
-
 + Cobbler
     + Fixed bug with Settypehint when multiple types are available
 
 + Report
-    + 
+    + New Pdff report : PHP Document File Format
 
 + Analysis
+    + New analysis : report promoted properties
     + New analysis : report deprecated PHP 8.2 callable
     + New analysis : report new in initializers
     + New analysis : report nested attributes
     + New analysis : report direct calls to Trait methods and properties
     + New analysis : report auto vivification of false (PHP 8.1)
     + New analysis : report implicit float to integer conversion for arrays
+    + Updated analysis : Declare Static and Global early.
+    + Updated analysis : No Null For Native now uses typehints
+    + Updated analysis : refined No Static variable in method
 
 + Tokenizer
     + Fixed bug with __METHOD__ when it is called outside a method

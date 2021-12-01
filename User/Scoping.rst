@@ -1054,6 +1054,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Classes/MultipleClassesInFile";
    analyzer[] = "Classes/OldStyleConstructor";
    analyzer[] = "Classes/OverwrittenConst";
+   analyzer[] = "Classes/PromotedProperties";
    analyzer[] = "Classes/RedefinedMethods";
    analyzer[] = "Classes/StaticMethods";
    analyzer[] = "Classes/StaticProperties";
@@ -1305,7 +1306,6 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Php/NestedTernaryWithoutParenthesis";
    analyzer[] = "Php/NeverKeyword";
    analyzer[] = "Php/NeverTypehintUsage";
-   analyzer[] = "Php/NeverUsage";
    analyzer[] = "Php/NewInitializers";
    analyzer[] = "Php/OveriddenFunction";
    analyzer[] = "Php/PearUsage";
@@ -1448,6 +1448,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Classes/MultipleClassesInFile'
      - 'Classes/OldStyleConstructor'
      - 'Classes/OverwrittenConst'
+     - 'Classes/PromotedProperties'
      - 'Classes/RedefinedMethods'
      - 'Classes/StaticMethods'
      - 'Classes/StaticProperties'
@@ -1699,7 +1700,6 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Php/NestedTernaryWithoutParenthesis'
      - 'Php/NeverKeyword'
      - 'Php/NeverTypehintUsage'
-     - 'Php/NeverUsage'
      - 'Php/NewInitializers'
      - 'Php/OveriddenFunction'
      - 'Php/PearUsage'
@@ -5519,6 +5519,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
 
  [Inventory]
    analyzer[] = "Classes/MagicProperties";
+   analyzer[] = "Classes/PromotedProperties";
    analyzer[] = "Constants/Constantnames";
    analyzer[] = "Php/CookiesVariables";
    analyzer[] = "Php/DateFormats";
@@ -5562,6 +5563,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
   rulesets:
     'Inventory':
      - 'Classes/MagicProperties'
+     - 'Classes/PromotedProperties'
      - 'Constants/Constantnames'
      - 'Php/CookiesVariables'
      - 'Php/DateFormats'
@@ -6636,6 +6638,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Arrays/TooManyDimensions";
    analyzer[] = "Arrays/WeirdIndex";
    analyzer[] = "Arrays/WithCallback";
+   analyzer[] = "Attributes/AttributesUsage";
    analyzer[] = "Attributes/MissingAttributeAttribute";
    analyzer[] = "Attributes/ModifyImmutable";
    analyzer[] = "Attributes/NestedAttributes";
@@ -6759,6 +6762,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Classes/OverwrittenConst";
    analyzer[] = "Classes/PPPDeclarationStyle";
    analyzer[] = "Classes/ParentFirst";
+   analyzer[] = "Classes/PromotedProperties";
    analyzer[] = "Classes/PropertyCouldBeLocal";
    analyzer[] = "Classes/PropertyDefinition";
    analyzer[] = "Classes/PropertyNeverUsed";
@@ -7433,7 +7437,6 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Php/NestedTernaryWithoutParenthesis";
    analyzer[] = "Php/NeverKeyword";
    analyzer[] = "Php/NeverTypehintUsage";
-   analyzer[] = "Php/NeverUsage";
    analyzer[] = "Php/NewExponent";
    analyzer[] = "Php/NewInitializers";
    analyzer[] = "Php/NoClassInGlobal";
@@ -8062,6 +8065,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Arrays/TooManyDimensions'
      - 'Arrays/WeirdIndex'
      - 'Arrays/WithCallback'
+     - 'Attributes/AttributesUsage'
      - 'Attributes/MissingAttributeAttribute'
      - 'Attributes/ModifyImmutable'
      - 'Attributes/NestedAttributes'
@@ -8185,6 +8189,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Classes/OverwrittenConst'
      - 'Classes/PPPDeclarationStyle'
      - 'Classes/ParentFirst'
+     - 'Classes/PromotedProperties'
      - 'Classes/PropertyCouldBeLocal'
      - 'Classes/PropertyDefinition'
      - 'Classes/PropertyNeverUsed'
@@ -8859,7 +8864,6 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Php/NestedTernaryWithoutParenthesis'
      - 'Php/NeverKeyword'
      - 'Php/NeverTypehintUsage'
-     - 'Php/NeverUsage'
      - 'Php/NewExponent'
      - 'Php/NewInitializers'
      - 'Php/NoClassInGlobal'

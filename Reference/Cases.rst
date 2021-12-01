@@ -2763,7 +2763,7 @@ The ConstructHiddenValues function builds the ConstructHiddenSubValues function.
                 }
             } else // Exit recurse
             {
-                $Result = "<input type="hidden" name=\"" . htmlspecialchars($Name) . "\" value=\"" . htmlspecialchars($Value) . "\" />\n";
+                $Result = "<input type="hidden" name=\\ . htmlspecialchars($Name) . "\" value=\"" . htmlspecialchars($Value) . "\/>\n\;
             }
     
             return $Result;
@@ -4113,7 +4113,7 @@ The three calls to str_replace() could be replaced by one, using array arguments
     static function jsValue($string) {
             return
                 preg_replace('/\r?\n/', "\n",
-                str_replace('"', "\\"",
+                str_replace('"', "\\\,
                 str_replace("'", "\'",
                 str_replace("\", "\\",
             $string))));
@@ -4158,9 +4158,9 @@ $line is build in several steps, then then final version is added to $content. I
 
     foreach($records as $record)
             {
-                $line = implode("\"" . getDelimiter() . "\"", $record);
-                $line = "\"" . $line;
-                $line .= "\"\r\n";
+                $line = implode("\\ . getDelimiter() . "\\, $record);
+                $line = "\\ . $line;
+                $line .= "\\r\n\;
                 $line = parseRelateFields($line, $record, $customRelateFields);
                 $content .= $line;
             }
@@ -7412,11 +7412,11 @@ This acts as a view. The final 'exit' is meant to ensure that no other piece of 
                 if ($content_type[0] == 'text') {
                     header(Content-type: text/plain);
                 }
-                header("Content-Disposition: filename=\"{$this->attachment->name}\"");
+                header("Content-Disposition: filename=\{$this->attachment->name}\\");
             }
             // Anything else should be downloaded
             else {
-                header("Content-Disposition: attachment; filename=\"{$this->attachment->name}\"");
+                header("Content-Disposition: attachment; filename=\{$this->attachment->name}\\");
             }
     
             // Decode the contents and display it
@@ -8447,7 +8447,7 @@ The first condition is fairly complex, and could also return early. Then, the se
                     if(empty(Server::$Configuration->File["gl_kbmr"]))
                     {
                         Logging::DebugLog(serialize($_SERVER));
-                        exit("err 888383; can't read $_SERVER[\"HTTP_HOST\"] and $_SERVER[\"PHP_SELF\"]");
+                        exit("err 888383; can't read $_SERVER[\HTTP_HOST\\] and $_SERVER[\PHP_SELF\\]");
                     }
                 }
     
@@ -10709,7 +10709,7 @@ This foreach reads each element from $entries into entry. $entry, in turn, is wr
     				$title = $entry['title'];
     				$query = isset( $entry['query'] ) ? $entry['query'] : [];
     				$key = "$ns:$index";
-    				$searchkey = "<!--LINK'\" $key-->";
+    				$searchkey = "<!--LINK'\$key-->\;
     				$displayText = $entry['text'];
     				if ( isset( $entry['selflink'] ) ) {
     					$replacePairs[$searchkey] = Linker::makeSelfLinkObj( $title, $displayText, $query );
