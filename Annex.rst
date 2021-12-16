@@ -54,7 +54,6 @@ External links
 List of external links mentionned in this documentation.
 
 * ` <https://php.watch/versions/8.1/$_FILES-full-path>`_
-* ` <https://www.php.net/manual/en/language.attributes.classes.php>`_
 * `#QuandLeDevALaFleme <https://twitter.com/bsmt_nevers/status/949238391769653249>`_
 * `$_ENV <https://www.php.net/reserved.variables.environment.php>`_
 * `$docs[extension_page] <$docs[extension_page]>`_
@@ -93,12 +92,10 @@ List of external links mentionned in this documentation.
 * `Argon2 Password Hash <https://wiki.php.net/rfc/argon2_password_hash>`_
 * `Arithmetic Operators <https://www.php.net/manual/en/language.operators.arithmetic.php>`_
 * `Aronduby Dump <https://github.com/aronduby/dump>`_
-* `array <https://www.php.net/manual/en/language.types.array.php>`_
 * `Array <https://www.php.net/manual/en/language.types.array.php>`_
 * `Array Functions <https://www.php.net/manual/en/ref.array.php>`_
 * `array_fill_keys <https://www.php.net/array_fill_keys>`_
 * `array_filter <https://php.net/array_filter>`_
-* `array_is_list <https://www.php.net/array_is_list>`_
 * `array_key_exists() with objects <https://wiki.php.net/rfc/deprecations_php_7_4#array_key_exists_with_objects>`_
 * `array_map <https://www.php.net/array_map>`_
 * `array_merge <https://www.php.net/array_merge>`_
@@ -167,7 +164,6 @@ List of external links mentionned in this documentation.
 * `Constructor Promotion <https://www.php.net/manual/en/language.oop5.decon.php#language.oop5.decon.constructor.promotion>`_
 * `Constructors and Destructors <https://www.php.net/manual/en/language.oop5.decon.php>`_
 * `continue-on-error <https://docs.github.com/en/actions/learn-github-actions/workflow-syntax-for-github-actions#jobsjob_idstepscontinue-on-error>`_
-* `Cookies <https://www.php.net/manual/en/features.cookies.php>`_
 * `count <https://www.php.net/count>`_
 * `Courier Anti-pattern <https://r.je/oop-courier-anti-pattern.html>`_
 * `Covariant Returns and Contravariant Parameters <https://wiki.php.net/rfc/covariant-returns-and-contravariant-parameters>`_
@@ -363,6 +359,7 @@ List of external links mentionned in this documentation.
 * `Installing Exakat to monitor several projects <https://www.exakat.io/installing-exakat-to-monitor-several-projects/>`_
 * `Instanceof <https://www.php.net/manual/en/language.operators.type.php>`_
 * `Integer overflow <https://www.php.net/manual/en/language.types.integer.php#language.types.integer.overflow>`_
+* `Integer syntax <https://www.php.net/manual/en/language.types.integer.php#language.types.integer.syntax>`_
 * `Integer Syntax <https://www.php.net/manual/en/language.types.integer.php#language.types.integer.syntax>`_
 * `Integers <https://www.php.net/manual/en/language.types.integer.php>`_
 * `Interfaces <https://www.php.net/manual/en/language.oop5.interfaces.php>`_
@@ -414,7 +411,6 @@ List of external links mentionned in this documentation.
 * `Math predefined constants <https://www.php.net/manual/en/math.constants.php>`_
 * `Mathematical Functions <https://www.php.net/manual/en/book.math.php>`_
 * `mb_encoding_detect <https://php.net/mb-encoding-detect>`_
-* `mb_str_split <https://www.php.net/mb_str_split>`_
 * `Mbstring <http://www.php.net/manual/en/book.mbstring.php>`_
 * `mcrypt_create_iv() <https://www.php.net/manual/en/function.mcrypt-create-iv.php>`_
 * `MD5 <https://www.php.net/md5>`_
@@ -438,7 +434,6 @@ List of external links mentionned in this documentation.
 * `Negative architecture, and assumptions about code <https://matthiasnoback.nl/2018/08/negative-architecture-and-assumptions-about-code/>`_
 * `Nested Ternaries are Great <https://medium.com/javascript-scene/nested-ternaries-are-great-361bddd0f340>`_
 * `Net SNMP <http://www.net-snmp.org/>`_
-* `net_get_interfaces <https://www.php.net/net_get_interfaces>`_
 * `New Classes and Interfaces <https://www.php.net/manual/en/migration70.classes.php>`_
 * `New custom object serialization mechanism <https://wiki.php.net/rfc/custom_object_serialization>`_
 * `New features <https://www.php.net/manual/en/migration56.new-features.php>`_
@@ -519,9 +514,7 @@ List of external links mentionned in this documentation.
 * `PHP return(value); vs return value; <https://stackoverflow.com/questions/2921843/php-returnvalue-vs-return-value>`_
 * `PHP RFC: Add Stringable interface <https://wiki.php.net/rfc/stringable>`_
 * `PHP RFC: Allow a trailing comma in function calls <https://wiki.php.net/rfc/trailing-comma-function-calls>`_
-* `PHP RFC: Allow abstract function override <https://wiki.php.net/rfc/allow-abstract-function-override>`_
 * `PHP RFC: Allow trailing comma in parameter list <https://wiki.php.net/rfc/trailing_comma_in_parameter_list>`_
-* `PHP RFC: Arrays starting with a negative index <https://wiki.php.net/rfc/negative_array_index>`_
 * `PHP RFC: Arrow Functions <https://wiki.php.net/rfc/arrow_functions>`_
 * `PHP RFC: Convert numeric keys in object/array casts <https://wiki.php.net/rfc/convert_numeric_keys_in_object_array_casts>`_
 * `PHP RFC: Deprecate and Remove Bareword (Unquoted) Strings <https://wiki.php.net/rfc/deprecate-bareword-strings>`_
@@ -536,7 +529,6 @@ List of external links mentionned in this documentation.
 * `PHP RFC: New in initializers <https://wiki.php.net/rfc/new_in_initializers>`_
 * `PHP RFC: noreturn type <https://wiki.php.net/rfc/noreturn_type>`_
 * `PHP RFC: Nullsafe operator <https://wiki.php.net/rfc/nullsafe_operator>`_
-* `PHP RFC: Numeric Literal Separator <https://wiki.php.net/rfc/numeric_literal_separator>`_
 * `PHP RFC: Scalar Type Hints <https://wiki.php.net/rfc/scalar_type_hints>`_
 * `PHP RFC: Shorter Attribute Syntax <https://wiki.php.net/rfc/shorter_attribute_syntax>`_
 * `PHP RFC: Static variables in inherited methods <https://wiki.php.net/rfc/static_variable_inheritance>`_
@@ -627,7 +619,6 @@ List of external links mentionned in this documentation.
 * `Standard PHP Library (SPL) <http://www.php.net/manual/en/book.spl.php>`_
 * `Static anonymous functions <https://www.php.net/manual/en/functions.anonymous.php#functions.anonymous-functions.static>`_
 * `Static Keyword <https://www.php.net/manual/en/language.oop5.static.php>`_
-* `str_contains <https://www.php.net/str_contains>`_
 * `Strict typing <https://www.php.net/manual/en/functions.arguments.php#functions.arguments.type-declaration.strict>`_
 * `Stricter type checks for arithmetic/bitwise operators <https://wiki.php.net/rfc/arithmetic_operator_type_checks>`_
 * `String access and modification by character <https://www.php.net/manual/en/language.types.string.php#language.types.string.substr>`_
@@ -677,7 +668,6 @@ List of external links mentionned in this documentation.
 * `Type array <https://www.php.net/manual/en/language.types.array.php>`_
 * `Type Casting <https://php.net/manual/en/language.types.type-juggling.php#language.types.typecasting>`_
 * `Type Declaration <https://www.php.net/manual/en/functions.arguments.php#functions.arguments.type-declaration>`_
-* `Type declarations  <https://www.php.net/manual/en/functions.arguments.php#functions.arguments.type-declaration>`_
 * `Type declarations <https://www.php.net/manual/en/functions.arguments.php#functions.arguments.type-declaration>`_
 * `Type Declarations <https://www.php.net/manual/en/functions.arguments.php#functions.arguments.type-declaration>`_
 * `Type declarations <https://www.php.net/manual/en/language.types.declarations.php>`_
@@ -708,12 +698,10 @@ List of external links mentionned in this documentation.
 * `Using static variables <https://www.php.net/manual/en/language.variables.scope.php#language.variables.scope.static>`_
 * `V8 Javascript Engine <https://bugs.chromium.org/p/v8/issues/list>`_
 * `Vagrant file <https://github.com/exakat/exakat-vagrant>`_
-* `Variable basics <https://www.php.net/manual/en/language.variables.basics.php>`_
 * `Variable functions <https://www.php.net/manual/en/functions.variable-functions.php>`_
 * `Variable scope <https://www.php.net/manual/en/language.variables.scope.php>`_
 * `Variable Scope <https://www.php.net/manual/en/language.variables.scope.php>`_
 * `Variable variables <https://www.php.net/manual/en/language.variables.variable.php>`_
-* `Variable-length argument lists <https://www.php.net/manual/en/functions.arguments.php#functions.variable-arg-list>`_
 * `Variables <https://www.php.net/manual/en/language.variables.basics.php>`_
 * `Visibility <https://www.php.net/manual/en/language.oop5.visibility.php>`_
 * `Visibility from other objects <https://www.php.net/manual/en/language.oop5.visibility.php#language.oop5.visibility-other-objects>`_

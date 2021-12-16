@@ -6,7 +6,7 @@ Rulesets
 Introduction
 ------------------------
 
-Exakat provides unique 1418 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
+Exakat provides unique 1421 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
 
 For more smoothly usage, the ruleset concept allow you to run a set of rules based on a decidated focus. Beawre that a Ruleset run all the associated rules and any needed dependencies.
 
@@ -95,6 +95,10 @@ Here is the list of the current rulesets supported by Exakat Engine.
 +-----------------------------------------------+------------------------------------------------------------------------------------------------------+
 | :ref:`ruleset-all`                            |All is a dummy ruleset, which includes all the rules.                                                 |
 +-----------------------------------------------+------------------------------------------------------------------------------------------------------+
+| :ref:`ruleset-compatibilityphp82`             |List features that are incompatible with PHP 8.2.                                                     |
++-----------------------------------------------+------------------------------------------------------------------------------------------------------+
+| :ref:`ruleset-classdependencies`              |A set of rules dedicated to show classes dependences                                                  |
++-----------------------------------------------+------------------------------------------------------------------------------------------------------+
 
 Note : in command line, don't forget to add quotes to rulesets' names that include white space.
 
@@ -108,7 +112,7 @@ Analyze
 
 This ruleset centralizes a large number of classic trap and pitfalls when writing PHP.
 
-Total : 435 analysis
+Total : 437 analysis
 
 * :ref:`adding-zero`
 * :ref:`ambiguous-array-index`
@@ -545,6 +549,8 @@ Total : 435 analysis
 * :ref:`false-to-array-conversion`
 * :ref:`float-conversion-as-index`
 * :ref:`cannot-call-trait-method-directly`
+* :ref:`overwritten-foreach-var`
+* :ref:`illegal-offset-in-array`
 
 
 
@@ -554,6 +560,8 @@ Specs
 | Short name   | Analyze                                                                                                                                                                                |
 +--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Community Edition <https://www.exakat.io/community-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud>`_ |
++--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Reports      | :ref:`report-ambassador`, :ref:`report-diplomat`                                                                                                                                       |
 +--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
@@ -2165,6 +2173,8 @@ Specs
 +--------------+------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud>`_ |
 +--------------+------------------------------------------------------------------------------------------------------------------------+
+| Reports      | :ref:`report-ambassador`                                                                                               |
++--------------+------------------------------------------------------------------------------------------------------------------------+
 
 
 .. _ruleset-compatibilityphp55:
@@ -2259,6 +2269,8 @@ Specs
 +--------------+------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud>`_ |
 +--------------+------------------------------------------------------------------------------------------------------------------------+
+| Reports      | :ref:`report-ambassador`                                                                                               |
++--------------+------------------------------------------------------------------------------------------------------------------------+
 
 
 .. _ruleset-compatibilityphp56:
@@ -2343,6 +2355,8 @@ Specs
 +--------------+------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud>`_ |
 +--------------+------------------------------------------------------------------------------------------------------------------------+
+| Reports      | :ref:`report-ambassador`                                                                                               |
++--------------+------------------------------------------------------------------------------------------------------------------------+
 
 
 .. _ruleset-compatibilityphp70:
@@ -2420,6 +2434,8 @@ Specs
 +--------------+------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud>`_ |
 +--------------+------------------------------------------------------------------------------------------------------------------------+
+| Reports      | :ref:`report-ambassador`                                                                                               |
++--------------+------------------------------------------------------------------------------------------------------------------------+
 
 
 .. _ruleset-compatibilityphp71:
@@ -2484,6 +2500,8 @@ Specs
 +--------------+------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud>`_ |
 +--------------+------------------------------------------------------------------------------------------------------------------------+
+| Reports      | :ref:`report-ambassador`                                                                                               |
++--------------+------------------------------------------------------------------------------------------------------------------------+
 
 
 .. _ruleset-compatibilityphp72:
@@ -2541,6 +2559,8 @@ Specs
 +--------------+------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud>`_ |
 +--------------+------------------------------------------------------------------------------------------------------------------------+
+| Reports      | :ref:`report-ambassador`                                                                                               |
++--------------+------------------------------------------------------------------------------------------------------------------------+
 
 
 .. _ruleset-compatibilityphp73:
@@ -2588,6 +2608,8 @@ Specs
 | Short name   | CompatibilityPHP73                                                                                                     |
 +--------------+------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud>`_ |
++--------------+------------------------------------------------------------------------------------------------------------------------+
+| Reports      | :ref:`report-ambassador`                                                                                               |
 +--------------+------------------------------------------------------------------------------------------------------------------------+
 
 
@@ -2649,6 +2671,8 @@ Specs
 +--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Community Edition <https://www.exakat.io/community-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud>`_ |
 +--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Reports      | :ref:`report-diplomat`, :ref:`report-ambassador`                                                                                                                                       |
++--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
 .. _ruleset-compatibilityphp80:
@@ -2695,6 +2719,8 @@ Specs
 +--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Community Edition <https://www.exakat.io/community-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud>`_ |
 +--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Reports      | :ref:`report-diplomat`, :ref:`report-ambassador`                                                                                                                                       |
++--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
 .. _ruleset-compatibilityphp81:
@@ -2733,6 +2759,8 @@ Specs
 | Short name   | CompatibilityPHP81                                                                                                                                                                     |
 +--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Community Edition <https://www.exakat.io/community-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud>`_ |
++--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Reports      | :ref:`report-diplomat`, :ref:`report-ambassador`                                                                                                                                       |
 +--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
@@ -2780,6 +2808,8 @@ Specs
 | Short name   | Dead code                                                                                                              |
 +--------------+------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud>`_ |
++--------------+------------------------------------------------------------------------------------------------------------------------+
+| Reports      | :ref:`report-ambassador`, :ref:`report-rector`                                                                         |
 +--------------+------------------------------------------------------------------------------------------------------------------------+
 
 
@@ -2998,7 +3028,7 @@ LintButWontExec
 
 This ruleset focuses on PHP code that lint (php -l), but that will not run. As such, this ruleset tries to go further than PHP, by connecting files, just like during execution.
 
-Total : 35 analysis
+Total : 36 analysis
 
 * :ref:`final-class-usage`
 * :ref:`final-methods-usage`
@@ -3035,6 +3065,7 @@ Total : 35 analysis
 * :ref:`jsonserialize()-mixed-return-type`
 * :ref:`false-to-array-conversion`
 * :ref:`functions-deprecatedcallable`
+* :ref:`illegal-offset-in-array`
 
 
 
@@ -3153,7 +3184,7 @@ Preferences
 
 This ruleset identify code with multiple forms, and report when one is more frequent than the others. Echo vs print, shell_exec() vs ``, etc.
 
-Total : 28 analysis
+Total : 29 analysis
 
 * :ref:`true-false-inconsistant-case`
 * :ref:`echo-or-print`
@@ -3183,6 +3214,7 @@ Total : 28 analysis
 * :ref:`constant-case-preference`
 * :ref:`caught-variable`
 * :ref:`not-or-tilde`
+* :ref:`null-type-favorite`
 
 
 
@@ -3193,6 +3225,8 @@ Specs
 +--------------+------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud>`_ |
 +--------------+------------------------------------------------------------------------------------------------------------------------+
+| Reports      | :ref:`report-ambassador`, :ref:`report-diplomat`                                                                       |
++--------------+------------------------------------------------------------------------------------------------------------------------+
 
 
 .. _ruleset-rector:
@@ -3202,13 +3236,21 @@ Rector
 
 `RectorPHP <https://getrector.org/>`_ is a reconstructor tool. It applies modifications in the PHP code automatically. Exakat finds results which may be automatically updated with rector. 
 
-Total : 6 analysis
+Total : 14 analysis
 
+* :ref:`adding-zero`
+* :ref:`multiple-index-definition`
 * :ref:`for-using-functioncall`
+* :ref:`multiply-by-one`
+* :ref:`multiples-identical-case`
 * :ref:`preprocessable`
 * :ref:`implied-if`
 * :ref:`else-if-versus-elseif`
+* :ref:`could-use-short-assignation`
 * :ref:`should-typecast`
+* :ref:`no-choice`
+* :ref:`never-used-parameter`
+* :ref:`closure-could-be-a-callback`
 * :ref:`is\_a()-with-string`
 
 
@@ -3219,6 +3261,8 @@ Specs
 | Short name   | Rector                                                                                                                 |
 +--------------+------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud>`_ |
++--------------+------------------------------------------------------------------------------------------------------------------------+
+| Reports      | :ref:`report-ambassador`, :ref:`report-rector`                                                                         |
 +--------------+------------------------------------------------------------------------------------------------------------------------+
 
 
@@ -3284,6 +3328,8 @@ Specs
 | Short name   | Security                                                                                                               |
 +--------------+------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud>`_ |
++--------------+------------------------------------------------------------------------------------------------------------------------+
+| Reports      | :ref:`report-ambassador`, :ref:`report-owasp`                                                                          |
 +--------------+------------------------------------------------------------------------------------------------------------------------+
 
 
@@ -3543,7 +3589,7 @@ All
 
 All is a dummy ruleset, which includes all the rules. It is mostly used internally.
 
-Total : 1406 analysis
+Total : 1409 analysis
 
 * :ref:`adding-zero`
 * :ref:`ambiguous-array-index`
@@ -4951,6 +4997,9 @@ Total : 1406 analysis
 * :ref:`functions-deprecatedcallable`
 * :ref:`attributes-attributesusage`
 * :ref:`promoted-properties`
+* :ref:`overwritten-foreach-var`
+* :ref:`null-type-favorite`
+* :ref:`illegal-offset-in-array`
 
 
 
@@ -4960,6 +5009,57 @@ Specs
 | Short name   | All                                                                                                                    |
 +--------------+------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud>`_ |
++--------------+------------------------------------------------------------------------------------------------------------------------+
+
+
+.. _ruleset-compatibilityphp82:
+
+CompatibilityPHP82
+++++++++++++++++++
+
+This ruleset centralizes all analysis for the migration from PHP 8.1 to 8.2.
+
+Total : 4 analysis
+
+* :ref:`false-to-array-conversion`
+* :ref:`float-conversion-as-index`
+* :ref:`cannot-call-trait-method-directly`
+* :ref:`functions-deprecatedcallable`
+
+
+
+Specs
+^^^^^
++--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Short name   | CompatibilityPHP82                                                                                                                                                                     |
++--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Community Edition <https://www.exakat.io/community-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud>`_ |
++--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Reports      | :ref:`report-diplomat`, :ref:`report-ambassador`                                                                                                                                       |
++--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
+.. _ruleset-classdependencies:
+
+Classdependencies
++++++++++++++++++
+
+This ruleset list all dependencies between classes : heritage and type.
+
+Total : 1 analysis
+
+* :ref:`collect-classes-dependencies`
+
+
+
+Specs
+^^^^^
++--------------+------------------------------------------------------------------------------------------------------------------------+
+| Short name   | Classdependencies                                                                                                      |
++--------------+------------------------------------------------------------------------------------------------------------------------+
+| Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud>`_ |
++--------------+------------------------------------------------------------------------------------------------------------------------+
+| Reports      | :ref:`report-classdependencies`                                                                                        |
 +--------------+------------------------------------------------------------------------------------------------------------------------+
 
 

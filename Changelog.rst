@@ -6,7 +6,36 @@ Release Note
 
 Here is the release note of exakat. 
 
-**Version 2.3.1 (??&?, 2021-11-18)**
+**Version 2.3.3 (???, 2021-12-30)**
+
+
++ Report
+    + 
+
++ Analysis
+    + 
+
++ Tokenizer
+    + 
+
+**Version 2.3.2 (Wei Zheng, 2021-12-16)**
+
+
++ Report
+    + Upgrade Pdff report
+
++ Analysis
+    + New analysis : Null Type favorite (?A or B|Null)
+    + New analysis : Overwritten foreach blind variables
+    + New analysis : Report Illegal offsets in array index
+    + Upgraded analysis : reporting PHP structure usages. 
+    + Checked unit tests : 3878 / 3886 test pass (99% pass)
+
++ Tokenizer
+    + Fixed attributes for Properties
+    + Fixed detection of Arrow functions inside arrays
+
+**Version 2.3.1 (Li Shimin, 2021-12-01)**
 
 
 + Cobbler

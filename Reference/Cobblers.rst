@@ -64,6 +64,13 @@ After
        }
    ?>
 
+.. _create-phpdoc-reverse-cobbler:
+
+Reverse Cobbler
+^^^^^^^^^^^^^^^
+
+* :ref:`No anchor for Attributes/RemovePhpdoc <no-anchor-for-attributes-removephpdoc>`
+
 
 
 .. _create-phpdoc-specs:
@@ -251,6 +258,13 @@ Suggested Analysis
 
 * :ref:`could-be-static-closure`
 
+.. _make-static-closures-and-arrow-functions-reverse-cobbler:
+
+Reverse Cobbler
+^^^^^^^^^^^^^^^
+
+* :ref:`No anchor for Functions/RemoveStaticFromFunction <no-anchor-for-functions-removestaticfromfunction>`
+
 
 
 .. _make-static-closures-and-arrow-functions-specs:
@@ -306,6 +320,13 @@ Suggested Analysis
 ^^^^^^^^^^^^^^^^^^
 
 * :ref:`cannot-use-static-for-closure`
+
+.. _remove-static-from-closures-and-arrow-functions-reverse-cobbler:
+
+Reverse Cobbler
+^^^^^^^^^^^^^^^
+
+* :ref:`make-static-closures-and-arrow-functions`
 
 
 
@@ -388,6 +409,13 @@ Suggested Analysis
 ^^^^^^^^^^^^^^^^^^
 
 * :ref:`php-8.1-typehints`
+
+.. _remove-typehint-reverse-cobbler:
+
+Reverse Cobbler
+^^^^^^^^^^^^^^^
+
+* :ref:`set-typehints`
 
 
 
@@ -535,6 +563,13 @@ After
    
    ?>
 
+.. _set-null-type-reverse-cobbler:
+
+Reverse Cobbler
+^^^^^^^^^^^^^^^
+
+* :ref:`remove-typehint`
+
 
 
 .. _set-null-type-specs:
@@ -587,6 +622,13 @@ After
    
    ?>
 
+.. _set-type-void-suggested-analysis:
+
+Suggested Analysis
+^^^^^^^^^^^^^^^^^^
+
+* :ref:`could-be-void`
+
 .. _set-type-void-related-cobbler:
 
 Related Cobblers
@@ -594,6 +636,13 @@ Related Cobblers
 
 * :ref:`set-typehints`
 * :ref:`set-null-type`
+
+.. _set-type-void-reverse-cobbler:
+
+Reverse Cobbler
+^^^^^^^^^^^^^^^
+
+* :ref:`remove-typehint`
 
 
 
@@ -1194,9 +1243,13 @@ Specs
 
 Rename A Function
 _________________
-Renames a function with a new name. 
+Give a function with a new name. 
 
-This cobbler doesn't update the name of the functioncall. It may be used with functions, and methods.
+This cobbler doesn't update the name of the functioncalls. 
+
+This cobbler may be used with functions, and methods. Functions may be identified with their fully qualified name (i.e. \path\foo) and methods with the extended fully qualified name (i.e. : \path\aClass::methodName). 
+
+
 
 .. _rename-a-function-before:
 
@@ -1247,6 +1300,13 @@ Related Cobblers
 ^^^^^^^^^^^^^^^^
 
 * :ref:`rename-functioncalls`
+
+.. _rename-a-function-reverse-cobbler:
+
+Reverse Cobbler
+^^^^^^^^^^^^^^^
+
+* This cobbler is its own reverse. 
 
 
 
@@ -1320,6 +1380,13 @@ Related Cobblers
 
 * :ref:`rename-a-function`
 * :ref:`rename-methodcall`
+
+.. _rename-functioncalls-reverse-cobbler:
+
+Reverse Cobbler
+^^^^^^^^^^^^^^^
+
+* This cobbler is its own reverse. 
 
 
 
@@ -1397,6 +1464,13 @@ Related Cobblers
 
 * :ref:`rename-functioncalls`
 * :ref:`rename-a-function`
+
+.. _rename-methodcall-reverse-cobbler:
+
+Reverse Cobbler
+^^^^^^^^^^^^^^^
+
+* :ref:`No anchor for Structures/RemoveMethodCall <no-anchor-for-structures-removemethodcall>`
 
 
 
@@ -1549,6 +1623,46 @@ Specs
 +----------------+------------------------------------------------------------------+
 | Available in   | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_ |
 +----------------+------------------------------------------------------------------+
+
+
+.. _classes-removemethod:
+
+.. _name:
+
+name
+____
+Fully qualified name of the method to remove. Only one allowed.
+
+.. _name-before:
+
+Before
+^^^^^^
+.. code-block:: php
+
+   
+
+.. _name-after:
+
+After
+^^^^^
+.. code-block:: php
+
+   
+
+
+
+.. _name-specs:
+
+Specs
+^^^^^
+
++----------------+----------------------+
+| Short Name     | Classes/RemoveMethod |
++----------------+----------------------+
+| Exakat version | 2.3.0                |
++----------------+----------------------+
+| Available in   |                      |
++----------------+----------------------+
 
 
 

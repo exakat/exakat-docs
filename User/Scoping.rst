@@ -108,7 +108,7 @@ With that configuration, the Drillinstructor and the Owasp report are created au
 Predefined config files
 ------------------------
 
-34 rulesets detailled here : 
+36 rulesets detailled here : 
 
 .. _annex-analyze:
 
@@ -128,6 +128,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
  [Analyze]
    analyzer[] = "Arrays/AmbiguousKeys";
    analyzer[] = "Arrays/FloatConversionAsIndex";
+   analyzer[] = "Arrays/IllegalOffset";
    analyzer[] = "Arrays/MultipleIdenticalKeys";
    analyzer[] = "Arrays/NoSpreadForHash";
    analyzer[] = "Arrays/NonConstantArray";
@@ -486,6 +487,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/OnlyFirstByte";
    analyzer[] = "Structures/OnlyVariableReturnedByReference";
    analyzer[] = "Structures/OrDie";
+   analyzer[] = "Structures/OverwrittenForeachVar";
    analyzer[] = "Structures/PossibleInfiniteLoop";
    analyzer[] = "Structures/PrintAndDie";
    analyzer[] = "Structures/PrintWithoutParenthesis";
@@ -576,6 +578,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
     'Analyze':
      - 'Arrays/AmbiguousKeys'
      - 'Arrays/FloatConversionAsIndex'
+     - 'Arrays/IllegalOffset'
      - 'Arrays/MultipleIdenticalKeys'
      - 'Arrays/NoSpreadForHash'
      - 'Arrays/NonConstantArray'
@@ -934,6 +937,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/OnlyFirstByte'
      - 'Structures/OnlyVariableReturnedByReference'
      - 'Structures/OrDie'
+     - 'Structures/OverwrittenForeachVar'
      - 'Structures/PossibleInfiniteLoop'
      - 'Structures/PrintAndDie'
      - 'Structures/PrintWithoutParenthesis'
@@ -5613,6 +5617,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
 ::
 
  [LintButWontExec]
+   analyzer[] = "Arrays/IllegalOffset";
    analyzer[] = "Classes/AbstractOrImplements";
    analyzer[] = "Classes/CloneWithNonObject";
    analyzer[] = "Classes/CouldBeStringable";
@@ -5661,6 +5666,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
 
   rulesets:
     'LintButWontExec':
+     - 'Arrays/IllegalOffset'
      - 'Classes/AbstractOrImplements'
      - 'Classes/CloneWithNonObject'
      - 'Classes/CouldBeStringable'
@@ -5904,6 +5910,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Constants/DefineInsensitivePreference";
    analyzer[] = "Constants/InconsistantCase";
    analyzer[] = "Exceptions/CatchE";
+   analyzer[] = "Functions/NullTypeFavorite";
    analyzer[] = "Php/CloseTagsConsistency";
    analyzer[] = "Php/DeclareEncoding";
    analyzer[] = "Php/DeclareStrict";
@@ -5945,6 +5952,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Constants/DefineInsensitivePreference'
      - 'Constants/InconsistantCase'
      - 'Exceptions/CatchE'
+     - 'Functions/NullTypeFavorite'
      - 'Php/CloseTagsConsistency'
      - 'Php/DeclareEncoding'
      - 'Php/DeclareStrict'
@@ -5985,10 +5993,18 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
 ::
 
  [Rector]
+   analyzer[] = "Arrays/MultipleIdenticalKeys";
+   analyzer[] = "Functions/Closure2String";
+   analyzer[] = "Functions/NeverUsedParameter";
    analyzer[] = "Php/IsAWithString";
+   analyzer[] = "Structures/AddZero";
+   analyzer[] = "Structures/CouldUseShortAssignation";
    analyzer[] = "Structures/ElseIfElseif";
    analyzer[] = "Structures/ForWithFunctioncall";
    analyzer[] = "Structures/ImpliedIf";
+   analyzer[] = "Structures/MultipleDefinedCase";
+   analyzer[] = "Structures/MultiplyByOne";
+   analyzer[] = "Structures/NoChoice";
    analyzer[] = "Structures/ShouldPreprocess";
    analyzer[] = "Type/ShouldTypecast";
 
@@ -6004,10 +6020,18 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
 
   rulesets:
     'Rector':
+     - 'Arrays/MultipleIdenticalKeys'
+     - 'Functions/Closure2String'
+     - 'Functions/NeverUsedParameter'
      - 'Php/IsAWithString'
+     - 'Structures/AddZero'
+     - 'Structures/CouldUseShortAssignation'
      - 'Structures/ElseIfElseif'
      - 'Structures/ForWithFunctioncall'
      - 'Structures/ImpliedIf'
+     - 'Structures/MultipleDefinedCase'
+     - 'Structures/MultiplyByOne'
+     - 'Structures/NoChoice'
      - 'Structures/ShouldPreprocess'
      - 'Type/ShouldTypecast'
 
@@ -6621,6 +6645,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Arrays/EmptySlots";
    analyzer[] = "Arrays/FloatConversionAsIndex";
    analyzer[] = "Arrays/GettingLastElement";
+   analyzer[] = "Arrays/IllegalOffset";
    analyzer[] = "Arrays/MassCreation";
    analyzer[] = "Arrays/MistakenConcatenation";
    analyzer[] = "Arrays/MixedKeys";
@@ -7204,6 +7229,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Functions/NoLiteralForReference";
    analyzer[] = "Functions/NoReferencedVoid";
    analyzer[] = "Functions/NoReturnUsed";
+   analyzer[] = "Functions/NullTypeFavorite";
    analyzer[] = "Functions/NullableWithConstant";
    analyzer[] = "Functions/NullableWithoutCheck";
    analyzer[] = "Functions/OneLetterFunctions";
@@ -7818,6 +7844,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/OnlyVariableReturnedByReference";
    analyzer[] = "Structures/OpensslRandomPseudoByteSecondArg";
    analyzer[] = "Structures/OrDie";
+   analyzer[] = "Structures/OverwrittenForeachVar";
    analyzer[] = "Structures/PHP7Dirname";
    analyzer[] = "Structures/PhpinfoUsage";
    analyzer[] = "Structures/PlusEgalOne";
@@ -8048,6 +8075,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Arrays/EmptySlots'
      - 'Arrays/FloatConversionAsIndex'
      - 'Arrays/GettingLastElement'
+     - 'Arrays/IllegalOffset'
      - 'Arrays/MassCreation'
      - 'Arrays/MistakenConcatenation'
      - 'Arrays/MixedKeys'
@@ -8631,6 +8659,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Functions/NoLiteralForReference'
      - 'Functions/NoReferencedVoid'
      - 'Functions/NoReturnUsed'
+     - 'Functions/NullTypeFavorite'
      - 'Functions/NullableWithConstant'
      - 'Functions/NullableWithoutCheck'
      - 'Functions/OneLetterFunctions'
@@ -9245,6 +9274,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/OnlyVariableReturnedByReference'
      - 'Structures/OpensslRandomPseudoByteSecondArg'
      - 'Structures/OrDie'
+     - 'Structures/OverwrittenForeachVar'
      - 'Structures/PHP7Dirname'
      - 'Structures/PhpinfoUsage'
      - 'Structures/PlusEgalOne'
@@ -9454,6 +9484,82 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Vendors/Typo3'
      - 'Vendors/Wordpress'
      - 'Vendors/Yii'
+
+
+
+
+.. _annex-compatibilityphp82:
+
+CompatibilityPHP82
+##################
+
+
+.. _annex-ini-compatibilityphp82:
+
+CompatibilityPHP82 for INI
+++++++++++++++++++++++++++
+
+
+INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and edit them to your owns.
+::
+
+ [CompatibilityPHP82]
+   analyzer[] = "Arrays/FloatConversionAsIndex";
+   analyzer[] = "Functions/DeprecatedCallable";
+   analyzer[] = "Php/FalseToArray";
+   analyzer[] = "Traits/CannotCallTraitMethod";
+
+
+.. _annex-yaml-compatibilityphp82:
+
+CompatibilityPHP82 for .exakat.yaml
++++++++++++++++++++++++++++++++++++
+
+
+YAML configuration for built-in rulesets. Copy them in your code, with the name .exakat.yaml, and edit them to your owns.
+::
+
+  rulesets:
+    'CompatibilityPHP82':
+     - 'Arrays/FloatConversionAsIndex'
+     - 'Functions/DeprecatedCallable'
+     - 'Php/FalseToArray'
+     - 'Traits/CannotCallTraitMethod'
+
+
+
+
+.. _annex-classdependencies:
+
+Classdependencies
+#################
+
+
+.. _annex-ini-classdependencies:
+
+Classdependencies for INI
++++++++++++++++++++++++++
+
+
+INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and edit them to your owns.
+::
+
+ [Classdependencies]
+   analyzer[] = "Dump/CollectClassesDependencies";
+
+
+.. _annex-yaml-classdependencies:
+
+Classdependencies for .exakat.yaml
+++++++++++++++++++++++++++++++++++
+
+
+YAML configuration for built-in rulesets. Copy them in your code, with the name .exakat.yaml, and edit them to your owns.
+::
+
+  rulesets:
+    'Classdependencies':
+     - 'Dump/CollectClassesDependencies'
 
 
 

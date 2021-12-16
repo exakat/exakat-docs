@@ -60,6 +60,7 @@ Summary
   * :ref:`Xml <report-xml>`
   * :ref:`Yaml <report-yaml>`
   * :ref:`Emissary <report-emissary>`
+  * :ref:`Migration82 <report-migration82>`
 
 
 
@@ -1522,28 +1523,8 @@ The Migration74 is the report dedicated to migrating PHP code to version 7.4.
 
 The Migration74 report runs the backward incompatibilities tests for PHP 7.4, from a PHP 7.3 compatible code.
 
-
-::
-
-    Name,File,Line
-    0,/features/bootstrap/FeatureContext.php,61
-    10000,/features/bootstrap/FeatureContext.php,61
-    777,/features/bootstrap/FeatureContext.php,63
-    20,/features/bootstrap/FeatureContext.php,73
-    0,/features/bootstrap/FeatureContext.php,334
-    0,/features/bootstrap/FeatureContext.php,339
-    0,/features/bootstrap/FeatureContext.php,344
-    0,/features/bootstrap/FeatureContext.php,362
-    0,/features/bootstrap/FeatureContext.php,366
-    0,/features/bootstrap/FeatureContext.php,368
-    0,/features/bootstrap/FeatureContext.php,372
-    777,/features/bootstrap/FeatureContext.php,423
-    777,/features/bootstrap/FeatureContext.php,431
-    0,/src/Behat/Behat/Context/ContextClass/SimpleClassGenerator.php,68
-    1,/src/Behat/Behat/Context/ContextClass/SimpleClassGenerator.php,69
-    0,/src/Behat/Behat/Context/Environment/InitializedContextEnvironment.php,84
-    0,/src/Behat/Behat/Context/Environment/InitializedContextEnvironment.php,150
-    
+.. image:: ../images/report.migration74.png
+    :alt: Example of a Migration74 report (0)
 
 
 
@@ -1574,28 +1555,8 @@ The Migration80 is the report dedicated to migrating PHP code to version 8.0.
 
 The Migration 80 report runs the backward incompatibilities tests for PHP 8.0, from a PHP 7.4 compatible code.
 
-
-::
-
-    Name,File,Line
-    0,/features/bootstrap/FeatureContext.php,61
-    10000,/features/bootstrap/FeatureContext.php,61
-    777,/features/bootstrap/FeatureContext.php,63
-    20,/features/bootstrap/FeatureContext.php,73
-    0,/features/bootstrap/FeatureContext.php,334
-    0,/features/bootstrap/FeatureContext.php,339
-    0,/features/bootstrap/FeatureContext.php,344
-    0,/features/bootstrap/FeatureContext.php,362
-    0,/features/bootstrap/FeatureContext.php,366
-    0,/features/bootstrap/FeatureContext.php,368
-    0,/features/bootstrap/FeatureContext.php,372
-    777,/features/bootstrap/FeatureContext.php,423
-    777,/features/bootstrap/FeatureContext.php,431
-    0,/src/Behat/Behat/Context/ContextClass/SimpleClassGenerator.php,68
-    1,/src/Behat/Behat/Context/ContextClass/SimpleClassGenerator.php,69
-    0,/src/Behat/Behat/Context/Environment/InitializedContextEnvironment.php,84
-    0,/src/Behat/Behat/Context/Environment/InitializedContextEnvironment.php,150
-    
+.. image:: ../images/report.migration80.png
+    :alt: Example of a Migration80 report (0)
 
 
 
@@ -1626,28 +1587,8 @@ The Migration81 is the report dedicated to migrating PHP code to version 8.1.
 
 The Migration 81 report runs the backward incompatibilities tests for PHP 8.1, from a PHP 8.0 compatible code.
 
-
-::
-
-    Name,File,Line
-    0,/features/bootstrap/FeatureContext.php,61
-    10000,/features/bootstrap/FeatureContext.php,61
-    777,/features/bootstrap/FeatureContext.php,63
-    20,/features/bootstrap/FeatureContext.php,73
-    0,/features/bootstrap/FeatureContext.php,334
-    0,/features/bootstrap/FeatureContext.php,339
-    0,/features/bootstrap/FeatureContext.php,344
-    0,/features/bootstrap/FeatureContext.php,362
-    0,/features/bootstrap/FeatureContext.php,366
-    0,/features/bootstrap/FeatureContext.php,368
-    0,/features/bootstrap/FeatureContext.php,372
-    777,/features/bootstrap/FeatureContext.php,423
-    777,/features/bootstrap/FeatureContext.php,431
-    0,/src/Behat/Behat/Context/ContextClass/SimpleClassGenerator.php,68
-    1,/src/Behat/Behat/Context/ContextClass/SimpleClassGenerator.php,69
-    0,/src/Behat/Behat/Context/Environment/InitializedContextEnvironment.php,84
-    0,/src/Behat/Behat/Context/Environment/InitializedContextEnvironment.php,150
-    
+.. image:: ../images/report.migration81.png
+    :alt: Example of a Migration81 report (0)
 
 
 
@@ -2352,7 +2293,7 @@ Specs
 +--------------+------------------------------------------------------------------+
 | Short name   | SimpleTable                                                      |
 +--------------+------------------------------------------------------------------+
-| Rulesets     | SimpleTable doesn't depend on rulesets.                          |
+| Rulesets     | This reports works with an arbitrary list of results.            |
 |              |                                                                  |
 |              |                                                                  |
 +--------------+------------------------------------------------------------------+
@@ -2916,6 +2857,38 @@ Specs
 +--------------+--------------------------------------+
 | Available in |                                      |
 +--------------+--------------------------------------+
+
+
+.. _report-migration82:
+
+Migration82
+###########
+
+Migration82
+___________
+
+The Migration82 is the report dedicated to migrating PHP code to version 8.2.
+
+The Migration 82 report runs the backward incompatibilities tests for PHP 8.2, from a PHP 8.1 compatible code.
+
+.. image:: ../images/report.migration82.png
+    :alt: Example of a Migration82 report (0)
+
+
+
+Specs
+^^^^^
++--------------+----------------------------------------------------------------+
+| Short name   | Migration82                                                    |
++--------------+----------------------------------------------------------------+
+| Rulesets     | :ref:`ruleset-compatibilityphp82`, :ref:`ruleset-suggestions`. |
++--------------+----------------------------------------------------------------+
+| Type         | HTML                                                           |
++--------------+----------------------------------------------------------------+
+| Target       | This report is written in 'migration82'.                       |
++--------------+----------------------------------------------------------------+
+| Available in |                                                                |
++--------------+----------------------------------------------------------------+
 
 
 
