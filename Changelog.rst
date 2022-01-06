@@ -6,34 +6,51 @@ Release Note
 
 Here is the release note of exakat. 
 
-**Version 2.3.3 (???, 2021-12-30)**
+**Version 2.3.3 (Wei Zheng, 2021-12-16)**
 
+
++ Cobbler
+    + New Cobbler : removes attributes
 
 + Report
     + 
 
 + Analysis
-    + 
+    + New analysis : suggest using ?-> when Null is a possiblity
+    + New analysis : Report backward incompatibility with overloaded interface constants
+    + New analysis : Mark variables as local constants when only assigned once
+    + New analysis : suggest using iterable, based on array|traversable usage
+    + New analysis : Report usage of PHP 8.1 intersection typehints
+    + Refactored analysis : Hidden Nullable rule now handles intersection types
+    + Refactored analysis : 'Use Nullable' covers properties too
+    + Refactored analysis : 'Could Be stringable' is extended to trait usage
+    + Refactored analysis : skip static and globals when counting variable usage in methods
+    + Refactored analysis : PHP 8.0 Union type detection includes properties
+    + Added tests to Complete/Overloaded* (CPM)
 
 + Tokenizer
-    + 
+    + Fixed a bug with Ternary and constants
 
 **Version 2.3.2 (Wei Zheng, 2021-12-16)**
 
 
++ Cobbler
+    + New cobbler : removes a method
+
 + Report
-    + Upgrade Pdff report
+    + 
 
 + Analysis
-    + New analysis : Null Type favorite (?A or B|Null)
-    + New analysis : Overwritten foreach blind variables
-    + New analysis : Report Illegal offsets in array index
-    + Upgraded analysis : reporting PHP structure usages. 
-    + Checked unit tests : 3878 / 3886 test pass (99% pass)
+    + New analysis : suggest ::class instead of get_class()
+    + New analysis : report when a class extends stdclass (for dynamic properties review)
+    + New analysis : Reports when checks are made on the existence of properties
+    + Upgraded analysis : Useless Typechecks is upgraded with union and intersectional type checks
+    + Upgraded analysis : Reporting invalid access to protected CPM
+    + Upgraded analysis : Removed Used Properties with classes with dynamic properties
+    + Fixed bug in PropagateConstants 
 
 + Tokenizer
-    + Fixed attributes for Properties
-    + Fixed detection of Arrow functions inside arrays
+    + Added detection of typehints for variables
 
 **Version 2.3.1 (Li Shimin, 2021-12-01)**
 

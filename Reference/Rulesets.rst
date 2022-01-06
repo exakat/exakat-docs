@@ -6,7 +6,7 @@ Rulesets
 Introduction
 ------------------------
 
-Exakat provides unique 1421 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
+Exakat provides unique 1428 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
 
 For more smoothly usage, the ruleset concept allow you to run a set of rules based on a decidated focus. Beawre that a Ruleset run all the associated rules and any needed dependencies.
 
@@ -31,7 +31,7 @@ Here is the list of the current rulesets supported by Exakat Engine.
 +-----------------------------------------------+------------------------------------------------------------------------------------------------------+
 | :ref:`ruleset-appinfo`                        |Appinfo is the equivalent of phpinfo() for your code.                                                 |
 +-----------------------------------------------+------------------------------------------------------------------------------------------------------+
-| :ref:`ruleset-attributes`                     |This ruleset gathers all rules that rely on PHP 8.0 attributes.                                       |
+| :ref:`ruleset-attributes`                     |This ruleset gathers all rules that rely on PHP 8.+ attributes.                                       |
 +-----------------------------------------------+------------------------------------------------------------------------------------------------------+
 | :ref:`ruleset-ce`                             |List of rules that are part of the Community Edition                                                  |
 +-----------------------------------------------+------------------------------------------------------------------------------------------------------+
@@ -499,7 +499,7 @@ Total : 437 analysis
 * :ref:`not-equal-is-not-!==`
 * :ref:`dont-collect-void`
 * :ref:`wrong-typed-property-default`
-* :ref:`hidden-nullable`
+* :ref:`hidden-nullable-typehint`
 * :ref:`fn-argument-variable-confusion`
 * :ref:`missing-abstract-method`
 * :ref:`undefined-constant-name`
@@ -550,7 +550,7 @@ Total : 437 analysis
 * :ref:`float-conversion-as-index`
 * :ref:`cannot-call-trait-method-directly`
 * :ref:`overwritten-foreach-var`
-* :ref:`illegal-offset-in-array`
+* :ref:`variable-is-a-local-constant`
 
 
 
@@ -572,7 +572,7 @@ Appinfo
 
 A set of rules that describes with PHP features is used in the code.
 
-Total : 381 analysis
+Total : 383 analysis
 
 * :ref:`array-index`
 * :ref:`multidimensional-arrays`
@@ -952,9 +952,11 @@ Total : 381 analysis
 * :ref:`named-parameter-usage`
 * :ref:`first-class-callable`
 * :ref:`never-keyword`
+* :ref:`mixed-typehint-usage`
 * :ref:`nested-attributes`
 * :ref:`new-initializers`
 * :ref:`promoted-properties`
+* :ref:`intersection-typehint`
 
 
 
@@ -965,6 +967,8 @@ Specs
 +--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Community Edition <https://www.exakat.io/community-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud>`_ |
 +--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Reports      | :ref:`report-diplomat`, :ref:`report-ambassador`                                                                                                                                       |
++--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
 .. _ruleset-attributes:
@@ -972,7 +976,7 @@ Specs
 Attributes
 ++++++++++
 
-This ruleset gathers all rules that rely on PHP 8.0 attributes.
+This ruleset gathers all rules that rely on PHP 8.+ attributes.
 
 Total : 4 analysis
 
@@ -1221,7 +1225,7 @@ Total : 656 analysis
 * :ref:`ext-expect`
 * :ref:`defined-properties`
 * :ref:`undefined-properties`
-* :ref:`has-magic-property`
+* :ref:`has-magic-method`
 * :ref:`ext-recode`
 * :ref:`ext-parsekit`
 * :ref:`ext-runkit`
@@ -1578,7 +1582,7 @@ Total : 656 analysis
 * :ref:`no-weak-ssl-crypto`
 * :ref:`collect-parameter-counts`
 * :ref:`collect-local-variable-counts`
-* :ref:`dump-dereferencinglevels`
+* :ref:`dereferencing-levels`
 * :ref:`make-functioncall-with-reference`
 * :ref:`foreach()-favorite`
 * :ref:`cant-implement-traversable`
@@ -1918,7 +1922,7 @@ Total : 56 analysis
 * :ref:`fossilized-method`
 * :ref:`uninitialized-property`
 * :ref:`wrong-typed-property-default`
-* :ref:`hidden-nullable`
+* :ref:`hidden-nullable-typehint`
 * :ref:`missing-abstract-method`
 * :ref:`unused-trait-in-class`
 * :ref:`cyclic-references`
@@ -1974,7 +1978,7 @@ CompatibilityPHP53
 
 This ruleset centralizes all analysis for the migration from PHP 5.2 to 5.3.
 
-Total : 85 analysis
+Total : 86 analysis
 
 * :ref:`non-static-methods-called-in-a-static`
 * :ref:`ext-dba`
@@ -2061,6 +2065,7 @@ Total : 85 analysis
 * :ref:`php-8.1-typehints`
 * :ref:`php-8.0-typehints`
 * :ref:`named-parameter-usage`
+* :ref:`cant-overload-constants`
 
 
 
@@ -2080,7 +2085,7 @@ CompatibilityPHP54
 
 This ruleset centralizes all analysis for the migration from PHP 5.3 to 5.4.
 
-Total : 81 analysis
+Total : 82 analysis
 
 * :ref:`non-static-methods-called-in-a-static`
 * :ref:`use-lower-case-for-parent,-static-and-self`
@@ -2163,6 +2168,7 @@ Total : 81 analysis
 * :ref:`php-8.1-typehints`
 * :ref:`php-8.0-typehints`
 * :ref:`named-parameter-usage`
+* :ref:`cant-overload-constants`
 
 
 
@@ -2184,7 +2190,7 @@ CompatibilityPHP55
 
 This ruleset centralizes all analysis for the migration from PHP 5.4 to 5.5.
 
-Total : 73 analysis
+Total : 74 analysis
 
 * :ref:`non-static-methods-called-in-a-static`
 * :ref:`ext-apc`
@@ -2259,6 +2265,7 @@ Total : 73 analysis
 * :ref:`php-8.1-typehints`
 * :ref:`php-8.0-typehints`
 * :ref:`named-parameter-usage`
+* :ref:`cant-overload-constants`
 
 
 
@@ -2280,7 +2287,7 @@ CompatibilityPHP56
 
 This ruleset centralizes all analysis for the migration from PHP 5.5 to 5.6.
 
-Total : 63 analysis
+Total : 64 analysis
 
 * :ref:`non-static-methods-called-in-a-static`
 * :ref:`malformed-octal`
@@ -2345,6 +2352,7 @@ Total : 63 analysis
 * :ref:`php-8.1-typehints`
 * :ref:`php-8.0-typehints`
 * :ref:`named-parameter-usage`
+* :ref:`cant-overload-constants`
 
 
 
@@ -2366,7 +2374,7 @@ CompatibilityPHP70
 
 This ruleset centralizes all analysis for the migration from PHP 5.6 to 7.0.
 
-Total : 56 analysis
+Total : 57 analysis
 
 * :ref:`ext-ereg`
 * :ref:`mcrypt\_create\_iv()-with-default-values`
@@ -2424,6 +2432,7 @@ Total : 56 analysis
 * :ref:`php-8.1-typehints`
 * :ref:`php-8.0-typehints`
 * :ref:`named-parameter-usage`
+* :ref:`cant-overload-constants`
 
 
 
@@ -2445,7 +2454,7 @@ CompatibilityPHP71
 
 This ruleset centralizes all analysis for the migration from PHP 7.0 to 7.1.
 
-Total : 43 analysis
+Total : 44 analysis
 
 * :ref:`ext-mcrypt`
 * :ref:`hash-algorithms-incompatible-with-php-5.3`
@@ -2490,6 +2499,7 @@ Total : 43 analysis
 * :ref:`php-8.1-typehints`
 * :ref:`php-8.0-typehints`
 * :ref:`named-parameter-usage`
+* :ref:`cant-overload-constants`
 
 
 
@@ -2511,7 +2521,7 @@ CompatibilityPHP72
 
 This ruleset centralizes all analysis for the migration from PHP 7.1 to 7.2.
 
-Total : 36 analysis
+Total : 37 analysis
 
 * :ref:`undefined-constants`
 * :ref:`hash-algorithms-incompatible-with-php-5.3`
@@ -2549,6 +2559,7 @@ Total : 36 analysis
 * :ref:`php-8.1-typehints`
 * :ref:`php-8.0-typehints`
 * :ref:`named-parameter-usage`
+* :ref:`cant-overload-constants`
 
 
 
@@ -2570,7 +2581,7 @@ CompatibilityPHP73
 
 This ruleset centralizes all analysis for the migration from PHP 7.2 to 7.3.
 
-Total : 27 analysis
+Total : 28 analysis
 
 * :ref:`new-functions-in-php-7.3`
 * :ref:`unknown-pcre2-option`
@@ -2599,6 +2610,7 @@ Total : 27 analysis
 * :ref:`named-parameter-usage`
 * :ref:`nested-attributes`
 * :ref:`new-initializers`
+* :ref:`cant-overload-constants`
 
 
 
@@ -2620,7 +2632,7 @@ CompatibilityPHP74
 
 This ruleset centralizes all analysis for the migration from PHP 7.3 to 7.4.
 
-Total : 39 analysis
+Total : 40 analysis
 
 * :ref:`detect-current-class`
 * :ref:`don't-read-and-write-in-one-expression`
@@ -2661,6 +2673,7 @@ Total : 39 analysis
 * :ref:`named-parameter-usage`
 * :ref:`nested-attributes`
 * :ref:`new-initializers`
+* :ref:`cant-overload-constants`
 
 
 
@@ -2682,7 +2695,7 @@ CompatibilityPHP80
 
 This ruleset centralizes all analysis for the migration from PHP 7.4 to 8.0.
 
-Total : 25 analysis
+Total : 26 analysis
 
 * :ref:`old-style-constructor`
 * :ref:`wrong-optional-parameter`
@@ -2709,6 +2722,7 @@ Total : 25 analysis
 * :ref:`php-8.1-typehints`
 * :ref:`nested-attributes`
 * :ref:`new-initializers`
+* :ref:`cant-overload-constants`
 
 
 
@@ -2866,7 +2880,7 @@ Total : 36 analysis
 * :ref:`collect-literals`
 * :ref:`collect-parameter-counts`
 * :ref:`collect-local-variable-counts`
-* :ref:`dump-dereferencinglevels`
+* :ref:`dereferencing-levels`
 * :ref:`foreach()-favorite`
 * :ref:`collect-mbstring-encodings`
 * :ref:`typehinting-stats`
@@ -2906,6 +2920,8 @@ Specs
 +--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Community Edition <https://www.exakat.io/community-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud>`_ |
 +--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Reports      |                                                                                                                                                                                        |
++--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
 .. _ruleset-first:
@@ -2915,13 +2931,15 @@ First
 
 A set of rules that are always run at the beginning of a project, because they are frenquently used. It is mostly used internally.
 
-Total : 5 analysis
+Total : 7 analysis
 
 * :ref:`is-an-extension-function`
 * :ref:`is-an-extension-interface`
 * :ref:`is-an-extension-constant`
 * :ref:`is-extension-trait`
 * :ref:`mark-callable`
+* :ref:`variable-typehint`
+* :ref:`variable-is-a-local-constant`
 
 
 
@@ -2976,7 +2994,7 @@ For example :
 
 
 
-Total : 31 analysis
+Total : 33 analysis
 
 * :ref:`constants-names`
 * :ref:`binary-glossary`
@@ -3009,6 +3027,8 @@ Total : 31 analysis
 * :ref:`internet-domains`
 * :ref:`openssl-ciphers-used`
 * :ref:`promoted-properties`
+* :ref:`extends-stdclass`
+* :ref:`intersection-typehint`
 
 
 
@@ -3064,8 +3084,8 @@ Total : 36 analysis
 * :ref:`duplicate-named-parameter`
 * :ref:`jsonserialize()-mixed-return-type`
 * :ref:`false-to-array-conversion`
-* :ref:`functions-deprecatedcallable`
-* :ref:`illegal-offset-in-array`
+* :ref:`deprecated-callable`
+* :ref:`cant-overload-constants`
 
 
 
@@ -3085,7 +3105,7 @@ Performances
 
 This ruleset focuses on performances issues : anything that slows the code's execution.
 
-Total : 46 analysis
+Total : 47 analysis
 
 * :ref:`eval()-usage`
 * :ref:`for-using-functioncall`
@@ -3133,6 +3153,7 @@ Total : 46 analysis
 * :ref:`always-use-function-with-array\_key\_exists()`
 * :ref:`no-mb\_substr-in-loop`
 * :ref:`optimize-explode()`
+* :ref:`scope-resolution-operator`
 
 
 
@@ -3142,6 +3163,8 @@ Specs
 | Short name   | Performances                                                                                                           |
 +--------------+------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud>`_ |
++--------------+------------------------------------------------------------------------------------------------------------------------+
+| Reports      |                                                                                                                        |
 +--------------+------------------------------------------------------------------------------------------------------------------------+
 
 
@@ -3174,6 +3197,8 @@ Specs
 | Short name   | php-cs-fixable                                                                                                         |
 +--------------+------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud>`_ |
++--------------+------------------------------------------------------------------------------------------------------------------------+
+| Reports      | :ref:`report-phpcsfixer`                                                                                               |
 +--------------+------------------------------------------------------------------------------------------------------------------------+
 
 
@@ -3313,7 +3338,7 @@ Total : 44 analysis
 * :ref:`move\_uploaded\_file-instead-of-copy`
 * :ref:`filter\_input()-as-a-source`
 * :ref:`safe-http-headers`
-* :ref:`integer-conversion`
+* :ref:`insecure-integer-validation`
 * :ref:`minus-one-on-error`
 * :ref:`no-ent\_ignore`
 * :ref:`no-weak-ssl-crypto`
@@ -3374,7 +3399,7 @@ Suggestions
 
 This ruleset focuses on possibly better syntax than the one currently used. Those may be code modernization, alternatives, more efficient solutions, or simply left over from older versions. 
 
-Total : 100 analysis
+Total : 102 analysis
 
 * :ref:`while(list()-=-each())`
 * :ref:`function-subscripting,-old-style`
@@ -3476,6 +3501,8 @@ Total : 100 analysis
 * :ref:`no-static-variable-in-a-method`
 * :ref:`declare-static-once`
 * :ref:`could-use-match`
+* :ref:`could-use-nullable-object-operator`
+* :ref:`classes-couldbeiterable`
 
 
 
@@ -3485,6 +3512,8 @@ Specs
 | Short name   | Suggestions                                                                                                            |
 +--------------+------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud>`_ |
++--------------+------------------------------------------------------------------------------------------------------------------------+
+| Reports      | :ref:`report-diplomat`, :ref:`report-ambassador`                                                                       |
 +--------------+------------------------------------------------------------------------------------------------------------------------+
 
 
@@ -3544,7 +3573,7 @@ Typechecks
 
 This ruleset focuses on typehinting. Missing typehint, or inconsistent typehint, are reported. 
 
-Total : 24 analysis
+Total : 25 analysis
 
 * :ref:`argument-should-be-typehinted`
 * :ref:`useless-interfaces`
@@ -3570,6 +3599,7 @@ Total : 24 analysis
 * :ref:`could-be-self`
 * :ref:`could-be-parent`
 * :ref:`could-be-generator`
+* :ref:`classes-couldbeiterable`
 
 
 
@@ -3589,7 +3619,7 @@ All
 
 All is a dummy ruleset, which includes all the rules. It is mostly used internally.
 
-Total : 1409 analysis
+Total : 1416 analysis
 
 * :ref:`adding-zero`
 * :ref:`ambiguous-array-index`
@@ -3953,7 +3983,7 @@ Total : 1409 analysis
 * :ref:`ext-expect`
 * :ref:`defined-properties`
 * :ref:`undefined-properties`
-* :ref:`has-magic-property`
+* :ref:`has-magic-method`
 * :ref:`ext-recode`
 * :ref:`ext-parsekit`
 * :ref:`ext-runkit`
@@ -4665,7 +4695,7 @@ Total : 1409 analysis
 * :ref:`caught-variable`
 * :ref:`multiple-unset()`
 * :ref:`implode-one-arg`
-* :ref:`integer-conversion`
+* :ref:`insecure-integer-validation`
 * :ref:`incoming-values`
 * :ref:`ext-svm`
 * :ref:`useless-default-argument`
@@ -4788,7 +4818,7 @@ Total : 1409 analysis
 * :ref:`collect-local-variable-counts`
 * :ref:`non-nullable-getters`
 * :ref:`use-case-value`
-* :ref:`dump-dereferencinglevels`
+* :ref:`dereferencing-levels`
 * :ref:`too-many-dereferencing`
 * :ref:`use-url-query-functions`
 * :ref:`make-functioncall-with-reference`
@@ -4843,7 +4873,7 @@ Total : 1409 analysis
 * :ref:`uninitialized-property`
 * :ref:`wrong-typed-property-default`
 * :ref:`signature-trailing-comma`
-* :ref:`hidden-nullable`
+* :ref:`hidden-nullable-typehint`
 * :ref:`fn-argument-variable-confusion`
 * :ref:`missing-abstract-method`
 * :ref:`throw-was-an-expression`
@@ -4994,12 +5024,19 @@ Total : 1409 analysis
 * :ref:`cannot-call-trait-method-directly`
 * :ref:`nested-attributes`
 * :ref:`new-initializers`
-* :ref:`functions-deprecatedcallable`
-* :ref:`attributes-attributesusage`
+* :ref:`deprecated-callable`
 * :ref:`promoted-properties`
 * :ref:`overwritten-foreach-var`
 * :ref:`null-type-favorite`
-* :ref:`illegal-offset-in-array`
+* :ref:`checks-property-existence`
+* :ref:`variable-typehint`
+* :ref:`extends-stdclass`
+* :ref:`scope-resolution-operator`
+* :ref:`could-use-nullable-object-operator`
+* :ref:`cant-overload-constants`
+* :ref:`variable-is-a-local-constant`
+* :ref:`classes-couldbeiterable`
+* :ref:`intersection-typehint`
 
 
 
@@ -5019,12 +5056,14 @@ CompatibilityPHP82
 
 This ruleset centralizes all analysis for the migration from PHP 8.1 to 8.2.
 
-Total : 4 analysis
+Total : 6 analysis
 
 * :ref:`false-to-array-conversion`
 * :ref:`float-conversion-as-index`
 * :ref:`cannot-call-trait-method-directly`
-* :ref:`functions-deprecatedcallable`
+* :ref:`deprecated-callable`
+* :ref:`checks-property-existence`
+* :ref:`extends-stdclass`
 
 
 

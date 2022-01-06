@@ -1639,7 +1639,15 @@ Before
 ^^^^^^
 .. code-block:: php
 
+   <?php
    
+   // removing method \x::method1 
+   class x {
+       function method1() {}
+       function method2() {}
+   }
+   
+   ?>
 
 .. _name-after:
 
@@ -1647,7 +1655,14 @@ After
 ^^^^^
 .. code-block:: php
 
+   <?php
    
+   // removed method \x::method1 
+   class x {
+       function method2() {}
+   }
+   
+   ?>
 
 
 
@@ -1663,6 +1678,61 @@ Specs
 +----------------+----------------------+
 | Available in   |                      |
 +----------------+----------------------+
+
+
+.. _attributes-removeattribute:
+
+.. _remove-the-attribute:
+
+Remove The Attribute
+____________________
+Remove attributes from all supporting structures.
+
+Attributes are located on functions, classes, class constants, properties, methods and arguments.
+
+
+.. _remove-the-attribute-before:
+
+Before
+^^^^^^
+.. code-block:: php
+
+   <?php
+   
+   #[Attribute] 
+   function foo(#[AttributeArgument] $arg) {
+   
+   }
+   ?>
+
+.. _remove-the-attribute-after:
+
+After
+^^^^^
+.. code-block:: php
+
+   <?php
+   
+   
+   function foo($arg) {
+   
+   }
+   ?>
+
+
+
+.. _remove-the-attribute-specs:
+
+Specs
+^^^^^
+
++----------------+----------------------------+
+| Short Name     | Attributes/RemoveAttribute |
++----------------+----------------------------+
+| Exakat version | 2.3.0                      |
++----------------+----------------------------+
+| Available in   |                            |
++----------------+----------------------------+
 
 
 

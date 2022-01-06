@@ -161,7 +161,6 @@ List of external links mentionned in this documentation.
 * `Constant Scalar Expressions <https://wiki.php.net/rfc/const_scalar_exprs>`_
 * `constant() <https://www.php.net/constant>`_
 * `Constants <https://www.php.net/manual/en/language.constants.php>`_
-* `Constructor Promotion <https://www.php.net/manual/en/language.oop5.decon.php#language.oop5.decon.constructor.promotion>`_
 * `Constructors and Destructors <https://www.php.net/manual/en/language.oop5.decon.php>`_
 * `continue-on-error <https://docs.github.com/en/actions/learn-github-actions/workflow-syntax-for-github-actions#jobsjob_idstepscontinue-on-error>`_
 * `count <https://www.php.net/count>`_
@@ -178,7 +177,6 @@ List of external links mentionned in this documentation.
 * `curl_version <https://www.php.net/manual/en/function.curl-version.php>`_
 * `CVS <https://www.nongnu.org/cvs/>`_
 * `CWE-484: Omitted Break Statement in Switch <https://cwe.mitre.org/data/definitions/484.html>`_
-* `CWE-625: Permissive Regular Expression <https://cwe.mitre.org/data/definitions/625.html>`_
 * `Cyrus <https://www.php.net/manual/en/book.cyrus.php>`_
 * `Data filtering <https://www.php.net/manual/en/book.filter.php>`_
 * `Data structures <http://docs.php.net/manual/en/book.ds.php>`_
@@ -205,7 +203,6 @@ List of external links mentionned in this documentation.
 * `Dir predefined constants <https://www.php.net/manual/en/dir.constants.php>`_
 * `directive error_reporting <https://www.php.net/manual/en/errorfunc.configuration.php#ini.error-reporting>`_
 * `Directly calling __clone is allowed <https://wiki.php.net/rfc/abstract_syntax_tree#directly_calling_clone_is_allowed>`_
-* `dirname <https://www.php.net/dirname>`_
 * `dl <http://www.php.net/dl>`_
 * `Do your objects talk to strangers? <https://www.brandonsavage.net/do-your-objects-talk-to-strangers/>`_
 * `Docker <http://www.docker.com/>`_
@@ -244,7 +241,6 @@ List of external links mentionned in this documentation.
 * `Exceptions <https://www.php.net/manual/en/language.exceptions.php>`_
 * `Exchangeable image information <https://www.php.net/manual/en/book.exif.php>`_
 * `Execution Operators <https://www.php.net/manual/en/language.operators.execution.php>`_
-* `EXP30-C. Do not depend on the order of evaluation for side effects <https://wiki.sei.cmu.edu/confluence/display/c/EXP30-C.+Do+not+depend+on+the+order+of+evaluation+for+side+effects>`_
 * `expect <https://www.php.net/manual/en/book.expect.php>`_
 * `explode <https://www.php.net/manual/en/function.explode.php>`_
 * `ext-async repository <https://github.com/concurrent-php/ext-async>`_
@@ -350,7 +346,6 @@ List of external links mentionned in this documentation.
 * `implode <https://www.php.net/implode>`_
 * `In a PHP5 class, when does a private constructor get called? <https://stackoverflow.com/questions/26079/in-a-php5-class-when-does-a-private-constructor-get-called>`_
 * `in_array() <https://www.php.net/in_array>`_
-* `Include <https://www.php.net/manual/en/function.include.php>`_
 * `include <https://www.php.net/manual/en/function.include.php>`_
 * `include_once <https://www.php.net/manual/en/function.include-once.php>`_
 * `Incrementing/Decrementing Operators <https://www.php.net/manual/en/language.operators.increment.php>`_
@@ -414,7 +409,6 @@ List of external links mentionned in this documentation.
 * `Mbstring <http://www.php.net/manual/en/book.mbstring.php>`_
 * `mcrypt_create_iv() <https://www.php.net/manual/en/function.mcrypt-create-iv.php>`_
 * `MD5 <https://www.php.net/md5>`_
-* `Media Type <https://en.wikipedia.org/wiki/Media_type>`_
 * `Memcache on PHP <http://www.php.net/manual/en/book.memcache.php>`_
 * `mercurial <https://www.mercurial-scm.org/>`_
 * `Method overloading <https://www.php.net/manual/en/language.oop5.overloading.php#object.call>`_
@@ -436,9 +430,6 @@ List of external links mentionned in this documentation.
 * `Net SNMP <http://www.net-snmp.org/>`_
 * `New Classes and Interfaces <https://www.php.net/manual/en/migration70.classes.php>`_
 * `New custom object serialization mechanism <https://wiki.php.net/rfc/custom_object_serialization>`_
-* `New features <https://www.php.net/manual/en/migration56.new-features.php>`_
-* `New global constants in 7.2 <https://www.php.net/manual/en/migration72.constants.php>`_
-* `New global constants in 7.4 <https://www.php.net/manual/en/migration74.constants.php>`_
 * `New object type <https://www.php.net/manual/en/migration72.new-features.php#migration72.new-features.iterable-pseudo-type>`_
 * `Newt <http://people.redhat.com/rjones/ocaml-newt/html/Newt.html>`_
 * `No Dangling Reference <https://github.com/dseguy/clearPHP/blob/master/rules/no-dangling-reference.md>`_
@@ -446,7 +437,6 @@ List of external links mentionned in this documentation.
 * `Null and True <https://twitter.com/Chemaclass/status/1144588647464951808>`_
 * `Null Coalescing Operator <https://www.php.net/manual/en/language.operators.comparison.php#language.operators.comparison.coalesce>`_
 * `Null Object Pattern <https://en.wikipedia.org/wiki/Null_Object_pattern#PHP>`_
-* `Nullable types <https://wiki.php.net/rfc/nullable_types>`_
 * `Object Calisthenics, rule # 2 <http://williamdurand.fr/2013/06/03/object-calisthenics/>`_
 * `Object Calisthenics, rule # 5 <http://williamdurand.fr/2013/06/03/object-calisthenics/#one-dot-per-line>`_
 * `Object cloning <https://www.php.net/manual/en/language.oop5.cloning.php>`_
@@ -498,7 +488,6 @@ List of external links mentionned in this documentation.
 * `PHP 7.3 Removed Functions <https://www.php.net/manual/en/migration73.incompatible.php#migration70.incompatible.removed-functions>`_
 * `PHP 7.3 UPGRADE NOTES <https://github.com/php/php-src/blob/3b6e1ee4ee05678b5d717cd926a35ffdc1335929/UPGRADING#L66-L81>`_
 * `PHP 7.4 Removed Functions <https://www.php.net/manual/en/migration74.incompatible.php#migration70.incompatible.removed-functions>`_
-* `PHP 8: Constructor property promotion <https://stitcher.io/blog/constructor-promotion-in-php-8>`_
 * `PHP <https://www.php.net/>`_
 * `PHP class name constant case sensitivity and PSR-11 <https://gist.github.com/bcremer/9e8d6903ae38a25784fb1985967c6056>`_
 * `PHP Classes containing only constants <https://stackoverflow.com/questions/16838266/php-classes-containing-only-constants>`_
@@ -512,25 +501,21 @@ List of external links mentionned in this documentation.
 * `PHP Options And Information <https://www.php.net/manual/en/book.info.php>`_
 * `PHP Options/Info Functions <https://www.php.net/manual/en/ref.info.php>`_
 * `PHP return(value); vs return value; <https://stackoverflow.com/questions/2921843/php-returnvalue-vs-return-value>`_
-* `PHP RFC: Add Stringable interface <https://wiki.php.net/rfc/stringable>`_
 * `PHP RFC: Allow a trailing comma in function calls <https://wiki.php.net/rfc/trailing-comma-function-calls>`_
 * `PHP RFC: Allow trailing comma in parameter list <https://wiki.php.net/rfc/trailing_comma_in_parameter_list>`_
 * `PHP RFC: Arrow Functions <https://wiki.php.net/rfc/arrow_functions>`_
 * `PHP RFC: Convert numeric keys in object/array casts <https://wiki.php.net/rfc/convert_numeric_keys_in_object_array_casts>`_
 * `PHP RFC: Deprecate and Remove Bareword (Unquoted) Strings <https://wiki.php.net/rfc/deprecate-bareword-strings>`_
 * `PHP RFC: Deprecate left-associative ternary operator <https://wiki.php.net/rfc/ternary_associativity>`_
-* `PHP RFC: Deprecate passing null to non-nullable arguments of internal functions <https://wiki.php.net/rfc/deprecate_null_to_scalar_internal_arg>`_
 * `PHP RFC: Deprecations for PHP 7.2 : Each() <https://wiki.php.net/rfc/deprecations_php_7_2#each>`_
 * `PHP RFC: Deprecations for PHP 7.4 <https://wiki.php.net/rfc/deprecations_php_7_4>`_
 * `PHP RFC: Deprecations for PHP 8.1 <https://wiki.php.net/rfc/deprecations_php_8_1>`_
 * `PHP RFC: First-class callable syntax <https://wiki.php.net/rfc/first_class_callable_syntax>`_
 * `PHP RFC: get_debug_type <https://wiki.php.net/rfc/get_debug_type>`_
 * `PHP RFC: is_countable <https://wiki.php.net/rfc/is-countable>`_
-* `PHP RFC: New in initializers <https://wiki.php.net/rfc/new_in_initializers>`_
 * `PHP RFC: noreturn type <https://wiki.php.net/rfc/noreturn_type>`_
 * `PHP RFC: Nullsafe operator <https://wiki.php.net/rfc/nullsafe_operator>`_
 * `PHP RFC: Scalar Type Hints <https://wiki.php.net/rfc/scalar_type_hints>`_
-* `PHP RFC: Shorter Attribute Syntax <https://wiki.php.net/rfc/shorter_attribute_syntax>`_
 * `PHP RFC: Static variables in inherited methods <https://wiki.php.net/rfc/static_variable_inheritance>`_
 * `PHP RFC: str_contains <https://wiki.php.net/rfc/str_contains>`_
 * `PHP RFC: Syntax for variadic functions <https://wiki.php.net/rfc/variadics>`_
@@ -560,7 +545,6 @@ List of external links mentionned in this documentation.
 * `Process Control <https://www.php.net/manual/en/book.pcntl.php>`_
 * `proctitle <https://www.php.net/manual/en/book.proctitle.php>`_
 * `Properties <https://www.php.net/manual/en/language.oop5.properties.php>`_
-* `Property overloading <https://www.php.net/manual/en/language.oop5.overloading.php#language.oop5.overloading.members>`_
 * `Pspell <https://www.php.net/manual/en/book.pspell.php>`_
 * `PSR-11 : Dependency injection container <https://github.com/container-interop/fig-standards/blob/master/proposed/container.md>`_
 * `PSR-13 : Link definition interface <http://www.php-fig.org/psr/psr-13/>`_
@@ -595,7 +579,6 @@ List of external links mentionned in this documentation.
 * `Salted Password Hashing - Doing it Right <https://crackstation.net/hashing-security.htm>`_
 * `Scalar type declarations <https://www.php.net/manual/en/migration70.new-features.php#migration70.new-features.scalar-type-declarations>`_
 * `Scope Resolution Operator (::) <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_
-* `Secure Hash Algorithms <https://en.wikipedia.org/wiki/Secure_Hash_Algorithms>`_
 * `Semaphore, Shared Memory and IPC <https://www.php.net/manual/en/book.sem.php>`_
 * `Session <https://www.php.net/manual/en/book.session.php>`_
 * `session_regenerateid() <https://www.php.net/session_regenerate_id>`_
@@ -620,10 +603,8 @@ List of external links mentionned in this documentation.
 * `Static anonymous functions <https://www.php.net/manual/en/functions.anonymous.php#functions.anonymous-functions.static>`_
 * `Static Keyword <https://www.php.net/manual/en/language.oop5.static.php>`_
 * `Strict typing <https://www.php.net/manual/en/functions.arguments.php#functions.arguments.type-declaration.strict>`_
-* `Stricter type checks for arithmetic/bitwise operators <https://wiki.php.net/rfc/arithmetic_operator_type_checks>`_
 * `String access and modification by character <https://www.php.net/manual/en/language.types.string.php#language.types.string.substr>`_
 * `String functions <https://www.php.net/manual/en/ref.strings.php>`_
-* `Strings <https://www.php.net/manual/en/language.types.string.php>`_
 * `strip_tags <https://www.php.net/manual/en/function.strip-tags.php>`_
 * `strpos not working correctly <https://bugs.php.net/bug.php?id=52198>`_
 * `strtr <http://www.php.net/strtr>`_
@@ -649,7 +630,6 @@ List of external links mentionned in this documentation.
 * `The Closure Class <https://www.php.net/manual/en/class.closure.php>`_
 * `The Definitive 2019 Guide to Cryptographic Key Sizes and Algorithm Recommendations <https://paragonie.com/blog/2019/03/definitive-2019-guide-cryptographic-key-sizes-and-algorithm-recommendations>`_
 * `The Linux NIS(YP)/NYS/NIS+ HOWTO <http://www.tldp.org/HOWTO/NIS-HOWTO/index.html>`_
-* `The list function & practical uses of array destructuring in PHP <https://sebastiandedeyne.com/the-list-function-and-practical-uses-of-array-destructuring-in-php>`_
 * `The main PPA for PHP (8.0, 7.4, 7.3, 7.2, 7.1, 7.0, 5.6)  <https://launchpad.net/~ondrej/+archive/ubuntu/php>`_
 * `The “never” Return Type for PHP <https://betterprogramming.pub/the-never-return-type-for-php-802fbe2fa303>`_
 * `Throw Expression <https://wiki.php.net/rfc/throw_expression>`_
@@ -669,14 +649,11 @@ List of external links mentionned in this documentation.
 * `Type Casting <https://php.net/manual/en/language.types.type-juggling.php#language.types.typecasting>`_
 * `Type Declaration <https://www.php.net/manual/en/functions.arguments.php#functions.arguments.type-declaration>`_
 * `Type declarations <https://www.php.net/manual/en/functions.arguments.php#functions.arguments.type-declaration>`_
-* `Type Declarations <https://www.php.net/manual/en/functions.arguments.php#functions.arguments.type-declaration>`_
 * `Type declarations <https://www.php.net/manual/en/language.types.declarations.php>`_
 * `Type hinting for interfaces <http://phpenthusiast.com/object-oriented-php-tutorials/type-hinting-for-interfaces>`_
 * `Type Juggling <https://www.php.net/manual/en/language.types.type-juggling.php>`_
 * `Type juggling <https://www.php.net/manual/en/language.types.type-juggling.php>`_
-* `Type Juggling Authentication Bypass Vulnerability in CMS Made Simple <https://www.netsparker.com/blog/web-security/type-juggling-authentication-bypass-cms-made-simple/>`_
 * `Type Operators <https://www.php.net/manual/en/language.operators.type.php#language.operators.type>`_
-* `Typed Properties 2.0 <https://wiki.php.net/rfc/typed_properties_v2>`_
 * `Typo3 <https://typo3.org/>`_
 * `Unbinding $this from non-static closures <https://wiki.php.net/rfc/deprecations_php_7_4#unbinding_this_from_non-static_closures>`_
 * `Understanding Dependency Injection <http://php-di.org/doc/understanding-di.html>`_
