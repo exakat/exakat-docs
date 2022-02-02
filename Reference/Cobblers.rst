@@ -1795,4 +1795,164 @@ Specs
 +----------------+----------------------+
 
 
+.. _classes-removereadonly:
+
+.. _remove-readonly-option:
+
+Remove Readonly Option
+______________________
+Readonly is a property option. This cobbler removes it. 
+
+The readonly keyword is removed from property definitions, and from promoted properties.
+
+
+.. _remove-readonly-option-before:
+
+Before
+^^^^^^
+.. code-block:: php
+
+   <?php
+   
+   class x {
+       private readonly string $x;
+   }
+   
+   ?>
+
+.. _remove-readonly-option-after:
+
+After
+^^^^^
+.. code-block:: php
+
+   <?php
+   
+   class x {
+       private string $x;
+   }
+   
+   ?>
+
+.. _remove-readonly-option-suggested-analysis:
+
+Suggested Analysis
+^^^^^^^^^^^^^^^^^^
+
+* :ref:`readonly-usage`
+
+
+
+.. _remove-readonly-option-specs:
+
+Specs
+^^^^^
+
++----------------+------------------------+
+| Short Name     | Classes/RemoveReadonly |
++----------------+------------------------+
+| Exakat version | 2.3.0                  |
++----------------+------------------------+
+| Available in   |                        |
++----------------+------------------------+
+
+
+.. _classes-removevisibility:
+
+.. _remove-visibility:
+
+Remove Visibility
+_________________
+Removes the visibility on constants, properties and methods. 
+
+For properties, the visibility is reset to public. 
+
+.. _remove-visibility-before:
+
+Before
+^^^^^^
+.. code-block:: php
+
+   <?php
+   
+   class x {
+       private const x = 1;
+       private $p = 2;
+       private function foo() {}
+       private function __construct() {}
+   }
+   ?>
+
+.. _remove-visibility-after:
+
+After
+^^^^^
+.. code-block:: php
+
+   <?php
+   
+   class x {
+       const x = 1;
+       public $p = 2;
+       function foo() {}
+       function __construct() {}
+   }
+   ?>
+
+
+
+.. _remove-visibility-specs:
+
+Specs
+^^^^^
+
++----------------+--------------------------+
+| Short Name     | Classes/RemoveVisibility |
++----------------+--------------------------+
+| Exakat version | 2.3.0                    |
++----------------+--------------------------+
+| Available in   |                          |
++----------------+--------------------------+
+
+
+.. _structures-removevariable:
+
+.. _structures-removevariable:
+
+Structures/RemoveVariable
+_________________________
+
+
+.. _structures-removevariable-before:
+
+Before
+^^^^^^
+.. code-block:: php
+
+   
+
+.. _structures-removevariable-after:
+
+After
+^^^^^
+.. code-block:: php
+
+   
+
+
+
+.. _structures-removevariable-specs:
+
+Specs
+^^^^^
+
++----------------+---------------------------+
+| Short Name     | Structures/RemoveVariable |
++----------------+---------------------------+
+| Exakat version | 2.3.0                     |
++----------------+---------------------------+
+| Available in   |                           |
++----------------+---------------------------+
+
+
 

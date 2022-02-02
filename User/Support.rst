@@ -224,7 +224,7 @@ PHP extensions are described with the list of structures they define : functions
 * `ext/gmagick <http://www.php.net/manual/en/book.gmagick.php>`_
 * `ext/gmp <https://www.php.net/manual/en/book.gmp.php>`_
 * `ext/gnupgp <http://www.php.net/manual/en/book.gnupg.php>`_
-* `ext/grpc <http://www.grpc.io/>`_
+* ext/grpc
 * `ext/hash <http://www.php.net/manual/en/book.hash.php>`_
 * `ext/hrtime <https://www.php.net/manual/en/intro.hrtime.php>`_
 * `ext/pecl_http <https://github.com/m6w6/ext-http>`_

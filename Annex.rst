@@ -83,7 +83,6 @@ List of external links mentionned in this documentation.
 * `Add array_key_exists to the list of specialy compiled functions <https://bugs.php.net/bug.php?id=76148>`_
 * `Add Exakat To Your CI Pipeline <https://www.exakat.io/add-exakat-to-your-ci-pipeline/>`_
 * `Allow a trailing comma in function calls <https://wiki.php.net/rfc/trailing-comma-function-calls>`_
-* `Alpine Linux <https://alpinelinux.org/>`_
 * `Alternative PHP Cache <https://www.php.net/apc>`_
 * `Alternative syntax <https://www.php.net/manual/en/control-structures.alternative-syntax.php>`_
 * `Ambassador <https://exakat.readthedocs.io/en/latest/Reports.html#ambassador>`_
@@ -131,7 +130,6 @@ List of external links mentionned in this documentation.
 * `Calendar Functions <http://www.php.net/manual/en/ref.calendar.php>`_
 * `Callback / callable <https://www.php.net/manual/en/language.types.callable.php>`_
 * `Callbacks / callables <https://www.php.net/manual/en/language.types.callable.php>`_
-* `Calling a static element on a trait  <https://www.php.net/manual/en/migration81.deprecated.php#migration81.deprecated.core.static-trait>`_
 * `Can you spot the vulnerability? (openssl_verify) <https://twitter.com/ripstech/status/1124325237967994880>`_
 * `Cant Use Return Value In Write Context <https://stackoverflow.com/questions/1075534/cant-use-method-return-value-in-write-context>`_
 * `Carbon <https://carbon.nesbot.com/docs/>`_
@@ -208,7 +206,6 @@ List of external links mentionned in this documentation.
 * `Document Object Model <https://www.php.net/manual/en/book.dom.php>`_
 * `Don't pass this out of a constructor <http://www.javapractices.com/topic/TopicAction.do?Id=252>`_
 * `Don't repeat yourself (DRY) <https://en.wikipedia.org/wiki/Don%27t_repeat_yourself>`_
-* `Don’t turn off CURLOPT_SSL_VERIFYPEER, fix your PHP configuration <https://www.saotn.org/dont-turn-off-curlopt_ssl_verifypeer-fix-php-configuration/>`_
 * `dotdeb instruction <https://www.dotdeb.org/instructions/>`_
 * `Double quoted <https://www.php.net/manual/en/language.types.string.php#language.types.string.syntax.double>`_
 * `download <https://www.exakat.io/download-exakat/>`_
@@ -219,7 +216,6 @@ List of external links mentionned in this documentation.
 * `elseif/else if <https://www.php.net/manual/en/control-structures.elseif.php>`_
 * `empty <http://www.php.net/empty>`_
 * `Empty Catch Clause <http://wiki.c2.com/?EmptyCatchClause>`_
-* `Empty interfaces are bad practice <https://r.je/empty-interfaces-bad-practice.html>`_
 * `empty() <https://www.php.net/empty>`_
 * `Enchant spelling library <https://www.php.net/manual/en/book.enchant.php>`_
 * `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_
@@ -276,7 +272,6 @@ List of external links mentionned in this documentation.
 * `Final Keyword <https://www.php.net/manual/en/language.oop5.final.php>`_
 * `Firebase / Interbase <https://www.php.net/manual/en/book.ibase.php>`_
 * `Flag Argument <https://martinfowler.com/bliki/FlagArgument.html>`_
-* `FlagArgument <https://www.martinfowler.com/bliki/FlagArgument.html>`_
 * `Floating point numbers <https://www.php.net/manual/en/language.types.float.php#language.types.float>`_
 * `Floats <https://www.php.net/manual/en/language.types.float.php>`_
 * `Fluent Interfaces in PHP <http://mikenaberezny.com/2005/12/20/fluent-interfaces-in-php/>`_
@@ -291,7 +286,6 @@ List of external links mentionned in this documentation.
 * `Gearman on PHP <https://www.php.net/manual/en/book.gearman.php>`_
 * `Generalize support of negative string offsets <https://wiki.php.net/rfc/negative-string-offsets>`_
 * `Generator delegation via yield from <https://www.php.net/manual/en/language.generators.syntax.php#control-structures.yield.from>`_
-* `Generator Syntax <https://www.php.net/manual/en/language.generators.syntax.php>`_
 * `Generators overview <https://www.php.net/manual/en/language.generators.overview.php>`_
 * `GeoIP <https://www.php.net/manual/en/book.geoip.php>`_
 * `George Peter Banyard <https://twitter.com/Girgias>`_
@@ -309,7 +303,6 @@ List of external links mentionned in this documentation.
 * `graphviz <http://www.graphviz.org/>`_
 * `Gremlin server <http://tinkerpop.apache.org/>`_
 * `Group Use Declaration RFC <https://wiki.php.net/rfc/group_use_declarations>`_
-* `GRPC <http://www.grpc.io/>`_
 * `Handling file uploads <https://www.php.net/manual/en/features.file-upload.php>`_
 * `Hardening Your HTTP Security Headers <https://www.keycdn.com/blog/http-security-headers>`_
 * `hash <http://www.php.net/hash>`_
@@ -384,7 +377,6 @@ List of external links mentionned in this documentation.
 * `List of other reserved words <https://www.php.net/manual/en/reserved.other-reserved-words.php>`_
 * `List of TCP and UDP port numbers <https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers>`_
 * `list() Reference Assignment <https://wiki.php.net/rfc/list_reference_assignment>`_
-* `Logical Expressions in C/C++. Mistakes Made by Professionals <http://www.viva64.com/en/b/0390/>`_
 * `Logical Operators <https://www.php.net/manual/en/language.operators.logical.php>`_
 * `Loosening Reserved Word Restrictions <https://www.php.net/manual/en/migration70.other-changes.php#migration70.other-changes.loosening-reserved-words>`_
 * `lzf <https://www.php.net/lzf>`_
@@ -397,8 +389,6 @@ List of external links mentionned in this documentation.
 * `Mail related functions <http://www.php.net/manual/en/book.mail.php>`_
 * `Marco Pivetta tweet <https://twitter.com/Ocramius/status/811504929357660160>`_
 * `match <https://www.php.net/manual/en/control-structures.match.php>`_
-* `Match expression V2 <https://wiki.php.net/rfc/match_expression_v2>`_
-* `Match() <https://www.php.net/manual/en/control-structures.match.php>`_
 * `Math predefined constants <https://www.php.net/manual/en/math.constants.php>`_
 * `Mathematical Functions <https://www.php.net/manual/en/book.math.php>`_
 * `mb_encoding_detect <https://php.net/mb-encoding-detect>`_
@@ -496,7 +486,6 @@ List of external links mentionned in this documentation.
 * `PHP return(value); vs return value; <https://stackoverflow.com/questions/2921843/php-returnvalue-vs-return-value>`_
 * `PHP RFC: Allow a trailing comma in function calls <https://wiki.php.net/rfc/trailing-comma-function-calls>`_
 * `PHP RFC: Allow trailing comma in parameter list <https://wiki.php.net/rfc/trailing_comma_in_parameter_list>`_
-* `PHP RFC: Arrow Functions <https://wiki.php.net/rfc/arrow_functions>`_
 * `PHP RFC: Convert numeric keys in object/array casts <https://wiki.php.net/rfc/convert_numeric_keys_in_object_array_casts>`_
 * `PHP RFC: Deprecate and Remove Bareword (Unquoted) Strings <https://wiki.php.net/rfc/deprecate-bareword-strings>`_
 * `PHP RFC: Deprecate left-associative ternary operator <https://wiki.php.net/rfc/ternary_associativity>`_
@@ -512,7 +501,6 @@ List of external links mentionned in this documentation.
 * `PHP RFC: str_contains <https://wiki.php.net/rfc/str_contains>`_
 * `PHP RFC: Syntax for variadic functions <https://wiki.php.net/rfc/variadics>`_
 * `PHP RFC: Unicode Codepoint Escape Syntax <https://wiki.php.net/rfc/unicode_escape>`_
-* `PHP RFC: Union Types 2.0 <https://wiki.php.net/rfc/union_types_v2>`_
 * `PHP RFC: Variable Syntax Tweaks <https://wiki.php.net/rfc/variable_syntax_tweaks>`_
 * `PHP Tags <https://www.php.net/manual/en/language.basic-syntax.phptags.php>`_
 * `PHP why pi() and M_PI <https://stackoverflow.com/questions/42021176/php-why-pi-and-m-pi>`_
@@ -527,7 +515,6 @@ List of external links mentionned in this documentation.
 * `PMB <https://www.sigb.net/>`_
 * `PostgreSQL <https://www.php.net/manual/en/book.pgsql.php>`_
 * `Predefined Constants <https://www.php.net/manual/en/reserved.constants.php>`_
-* `Predefined Exceptions <https://www.php.net/manual/en/reserved.exceptions.php>`_
 * `Predefined Variables <https://www.php.net/manual/en/reserved.variables.php>`_
 * `preg_filter <https://php.net/preg_filter>`_
 * `Prepare for PHP 7 error messages (part 3) <https://www.exakat.io/prepare-for-php-7-error-messages-part-3/>`_
@@ -564,7 +551,6 @@ List of external links mentionned in this documentation.
 * `RFC 7230 <https://tools.ietf.org/html/rfc7230>`_
 * `RFC 822 (MIME) <http://www.faqs.org/rfcs/rfc822.html>`_
 * `RFC 959 <http://www.faqs.org/rfcs/rfc959>`_
-* `RFC : Arrow functions <https://wiki.php.net/rfc/arrow_functions>`_
 * `RFC Preload <https://wiki.php.net/rfc/preload>`_
 * `RFC: Return Type Declarations <https://wiki.php.net/rfc/return_types>`_
 * `runkit <https://www.php.net/manual/en/book.runkit.php>`_
@@ -587,12 +573,10 @@ List of external links mentionned in this documentation.
 * `Specification pattern <https://en.wikipedia.org/wiki/Specification_pattern>`_
 * `Sphinx Client <https://www.php.net/manual/en/book.sphinx.php>`_
 * `Spread Operator in Array Expression  <https://wiki.php.net/rfc/spread_operator_for_array>`_
-* `Spread Operator in Array Expression <https://wiki.php.net/rfc/spread_operator_for_array>`_
 * `sqlite3 <http://www.php.net/sqlite3>`_
 * `SQLite3::escapeString <https://www.php.net/manual/en/sqlite3.escapestring.php>`_
 * `SSH2 functions <https://www.php.net/manual/en/book.ssh2.php>`_
 * `Standard PHP Library (SPL) <http://www.php.net/manual/en/book.spl.php>`_
-* `Static anonymous functions <https://www.php.net/manual/en/functions.anonymous.php#functions.anonymous-functions.static>`_
 * `Static Keyword <https://www.php.net/manual/en/language.oop5.static.php>`_
 * `Strict typing <https://www.php.net/manual/en/functions.arguments.php#functions.arguments.type-declaration.strict>`_
 * `String access and modification by character <https://www.php.net/manual/en/language.types.string.php#language.types.string.substr>`_
@@ -600,7 +584,6 @@ List of external links mentionned in this documentation.
 * `strip_tags <https://www.php.net/manual/en/function.strip-tags.php>`_
 * `strpos not working correctly <https://bugs.php.net/bug.php?id=52198>`_
 * `strtr <http://www.php.net/strtr>`_
-* `Structuring PHP Exceptions <https://www.alainschlesser.com/structuring-php-exceptions/>`_
 * `Subpatterns <https://www.php.net/manual/en/regexp.reference.subpatterns.php>`_
 * `substr <http://www.php.net/substr>`_
 * `Suhosin.org <https://suhosin.org/>`_
@@ -619,7 +602,6 @@ List of external links mentionned in this documentation.
 * `The Basics <https://www.php.net/manual/en/language.oop5.basic.php>`_
 * `The basics of Fluent interfaces in PHP <https://tournasdimitrios1.wordpress.com/2011/04/11/the-basics-of-fluent-interfaces-in-php/>`_
 * `The Closure Class <https://www.php.net/manual/en/class.closure.php>`_
-* `The Definitive 2019 Guide to Cryptographic Key Sizes and Algorithm Recommendations <https://paragonie.com/blog/2019/03/definitive-2019-guide-cryptographic-key-sizes-and-algorithm-recommendations>`_
 * `The Linux NIS(YP)/NYS/NIS+ HOWTO <http://www.tldp.org/HOWTO/NIS-HOWTO/index.html>`_
 * `The main PPA for PHP (8.0, 7.4, 7.3, 7.2, 7.1, 7.0, 5.6)  <https://launchpad.net/~ondrej/+archive/ubuntu/php>`_
 * `The “never” Return Type for PHP <https://betterprogramming.pub/the-never-return-type-for-php-802fbe2fa303>`_
@@ -629,7 +611,6 @@ List of external links mentionned in this documentation.
 * `tokenizer <http://www.php.net/tokenizer>`_
 * `tokyo_tyrant <https://www.php.net/manual/en/book.tokyo-tyrant.php>`_
 * `trader (PECL) <https://pecl.php.net/package/trader>`_
-* `Trailing Comma In Closure Use List <https://wiki.php.net/rfc/trailing_comma_in_closure_use_list>`_
 * `Trailing Commas In List Syntax <https://wiki.php.net/rfc/list-syntax-trailing-commas>`_
 * `Traits <https://www.php.net/manual/en/language.oop5.traits.php>`_
 * `Traversable <https://www.php.net/manual/en/class.traversable.php>`_
@@ -672,7 +653,6 @@ List of external links mentionned in this documentation.
 * `Variable variables <https://www.php.net/manual/en/language.variables.variable.php>`_
 * `Variables <https://www.php.net/manual/en/language.variables.basics.php>`_
 * `Visibility <https://www.php.net/manual/en/language.oop5.visibility.php>`_
-* `Visibility from other objects <https://www.php.net/manual/en/language.oop5.visibility.php#language.oop5.visibility-other-objects>`_
 * `Vladimir Reznichenko <https://twitter.com/kalessil>`_
 * `Void functions <https://www.php.net/manual/en/migration71.new-features.php#migration71.new-features.void-functions>`_
 * `Warn when counting non-countable types <https://www.php.net/manual/en/migration72.incompatible.php#migration72.incompatible.warn-on-non-countable-types>`_

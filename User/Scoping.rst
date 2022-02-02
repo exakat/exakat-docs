@@ -401,6 +401,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/DontChangeBlindKey";
    analyzer[] = "Structures/DontMixPlusPlus";
    analyzer[] = "Structures/DontReadAndWriteInOneExpression";
+   analyzer[] = "Structures/DontReuseForeachSource";
    analyzer[] = "Structures/DoubleAssignation";
    analyzer[] = "Structures/DoubleInstruction";
    analyzer[] = "Structures/DoubleObjectAssignation";
@@ -847,6 +848,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/DontChangeBlindKey'
      - 'Structures/DontMixPlusPlus'
      - 'Structures/DontReadAndWriteInOneExpression'
+     - 'Structures/DontReuseForeachSource'
      - 'Structures/DoubleAssignation'
      - 'Structures/DoubleInstruction'
      - 'Structures/DoubleObjectAssignation'
@@ -1051,6 +1053,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Classes/OldStyleConstructor";
    analyzer[] = "Classes/OverwrittenConst";
    analyzer[] = "Classes/PromotedProperties";
+   analyzer[] = "Classes/ReadonlyUsage";
    analyzer[] = "Classes/RedefinedMethods";
    analyzer[] = "Classes/StaticMethods";
    analyzer[] = "Classes/StaticProperties";
@@ -1447,6 +1450,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Classes/OldStyleConstructor'
      - 'Classes/OverwrittenConst'
      - 'Classes/PromotedProperties'
+     - 'Classes/ReadonlyUsage'
      - 'Classes/RedefinedMethods'
      - 'Classes/StaticMethods'
      - 'Classes/StaticProperties'
@@ -1867,6 +1871,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
  [CE]
    analyzer[] = "Arrays/ArrayNSUsage";
    analyzer[] = "Arrays/Arrayindex";
+   analyzer[] = "Arrays/FloatConversionAsIndex";
    analyzer[] = "Arrays/Multidimensional";
    analyzer[] = "Arrays/MultipleIdenticalKeys";
    analyzer[] = "Arrays/NegativeStart";
@@ -1876,6 +1881,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Classes/Abstractmethods";
    analyzer[] = "Classes/Anonymous";
    analyzer[] = "Classes/CheckOnCallUsage";
+   analyzer[] = "Classes/ChecksPropertyExistence";
    analyzer[] = "Classes/ClassAliasUsage";
    analyzer[] = "Classes/Classnames";
    analyzer[] = "Classes/CloningUsage";
@@ -1890,6 +1896,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Classes/DynamicMethodCall";
    analyzer[] = "Classes/DynamicNew";
    analyzer[] = "Classes/DynamicPropertyCall";
+   analyzer[] = "Classes/ExtendsStdclass";
    analyzer[] = "Classes/FinalPrivate";
    analyzer[] = "Classes/HasMagicProperty";
    analyzer[] = "Classes/ImmutableSignature";
@@ -2178,6 +2185,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Functions/Closures";
    analyzer[] = "Functions/ConditionedFunctions";
    analyzer[] = "Functions/DeepDefinitions";
+   analyzer[] = "Functions/DeprecatedCallable";
    analyzer[] = "Functions/DynamicCode";
    analyzer[] = "Functions/Dynamiccall";
    analyzer[] = "Functions/FallbackFunction";
@@ -2253,6 +2261,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Php/EchoTagUsage";
    analyzer[] = "Php/EllipsisUsage";
    analyzer[] = "Php/ErrorLogUsage";
+   analyzer[] = "Php/FalseToArray";
    analyzer[] = "Php/FilterToAddSlashes";
    analyzer[] = "Php/FopenMode";
    analyzer[] = "Php/Gotonames";
@@ -2464,6 +2473,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/VardumpUsage";
    analyzer[] = "Structures/WhileListEach";
    analyzer[] = "Structures/pregOptionE";
+   analyzer[] = "Traits/CannotCallTraitMethod";
    analyzer[] = "Traits/IsExtTrait";
    analyzer[] = "Traits/Php";
    analyzer[] = "Traits/TraitUsage";
@@ -2536,6 +2546,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
     'CE':
      - 'Arrays/ArrayNSUsage'
      - 'Arrays/Arrayindex'
+     - 'Arrays/FloatConversionAsIndex'
      - 'Arrays/Multidimensional'
      - 'Arrays/MultipleIdenticalKeys'
      - 'Arrays/NegativeStart'
@@ -2545,6 +2556,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Classes/Abstractmethods'
      - 'Classes/Anonymous'
      - 'Classes/CheckOnCallUsage'
+     - 'Classes/ChecksPropertyExistence'
      - 'Classes/ClassAliasUsage'
      - 'Classes/Classnames'
      - 'Classes/CloningUsage'
@@ -2559,6 +2571,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Classes/DynamicMethodCall'
      - 'Classes/DynamicNew'
      - 'Classes/DynamicPropertyCall'
+     - 'Classes/ExtendsStdclass'
      - 'Classes/FinalPrivate'
      - 'Classes/HasMagicProperty'
      - 'Classes/ImmutableSignature'
@@ -2847,6 +2860,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Functions/Closures'
      - 'Functions/ConditionedFunctions'
      - 'Functions/DeepDefinitions'
+     - 'Functions/DeprecatedCallable'
      - 'Functions/DynamicCode'
      - 'Functions/Dynamiccall'
      - 'Functions/FallbackFunction'
@@ -2922,6 +2936,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Php/EchoTagUsage'
      - 'Php/EllipsisUsage'
      - 'Php/ErrorLogUsage'
+     - 'Php/FalseToArray'
      - 'Php/FilterToAddSlashes'
      - 'Php/FopenMode'
      - 'Php/Gotonames'
@@ -3133,6 +3148,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/VardumpUsage'
      - 'Structures/WhileListEach'
      - 'Structures/pregOptionE'
+     - 'Traits/CannotCallTraitMethod'
      - 'Traits/IsExtTrait'
      - 'Traits/Php'
      - 'Traits/TraitUsage'
@@ -3629,6 +3645,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Classes/InsufficientPropertyTypehint";
    analyzer[] = "Classes/MismatchProperties";
    analyzer[] = "Classes/MissingAbstractMethod";
+   analyzer[] = "Classes/MissingVisibility";
    analyzer[] = "Classes/MutualExtension";
    analyzer[] = "Classes/NoParent";
    analyzer[] = "Classes/NoSelfReferencingConstant";
@@ -3701,6 +3718,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Classes/InsufficientPropertyTypehint'
      - 'Classes/MismatchProperties'
      - 'Classes/MissingAbstractMethod'
+     - 'Classes/MissingVisibility'
      - 'Classes/MutualExtension'
      - 'Classes/NoParent'
      - 'Classes/NoSelfReferencingConstant'
@@ -5407,6 +5425,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Dump/CollectClassTraitsCounts";
    analyzer[] = "Dump/CollectClassesDependencies";
    analyzer[] = "Dump/CollectDefinitionsStats";
+   analyzer[] = "Dump/CollectDependencyExtension";
    analyzer[] = "Dump/CollectFilesDependencies";
    analyzer[] = "Dump/CollectForeachFavorite";
    analyzer[] = "Dump/CollectGlobalVariables";
@@ -5456,6 +5475,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Dump/CollectClassTraitsCounts'
      - 'Dump/CollectClassesDependencies'
      - 'Dump/CollectDefinitionsStats'
+     - 'Dump/CollectDependencyExtension'
      - 'Dump/CollectFilesDependencies'
      - 'Dump/CollectForeachFavorite'
      - 'Dump/CollectGlobalVariables'
@@ -5555,7 +5575,6 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Php/CookiesVariables";
    analyzer[] = "Php/DateFormats";
    analyzer[] = "Php/IncomingVariables";
-   analyzer[] = "Php/Php81IntersectionTypehint";
    analyzer[] = "Php/SessionVariables";
    analyzer[] = "Structures/Fallthrough";
    analyzer[] = "Type/ArrayIndex";
@@ -5601,7 +5620,6 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Php/CookiesVariables'
      - 'Php/DateFormats'
      - 'Php/IncomingVariables'
-     - 'Php/Php81IntersectionTypehint'
      - 'Php/SessionVariables'
      - 'Structures/Fallthrough'
      - 'Type/ArrayIndex'
@@ -5797,6 +5815,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/EvalUsage";
    analyzer[] = "Structures/ForWithFunctioncall";
    analyzer[] = "Structures/GlobalOutsideLoop";
+   analyzer[] = "Structures/NestedLoops";
    analyzer[] = "Structures/NoArrayUnique";
    analyzer[] = "Structures/NoAssignationInFunction";
    analyzer[] = "Structures/NoSubstrOne";
@@ -5857,6 +5876,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/EvalUsage'
      - 'Structures/ForWithFunctioncall'
      - 'Structures/GlobalOutsideLoop'
+     - 'Structures/NestedLoops'
      - 'Structures/NoArrayUnique'
      - 'Structures/NoAssignationInFunction'
      - 'Structures/NoSubstrOne'
@@ -6213,6 +6233,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
  [Semantics]
    analyzer[] = "Arrays/WeirdIndex";
    analyzer[] = "Constants/ConstantStrangeNames";
+   analyzer[] = "Constants/CouldBeConstant";
    analyzer[] = "Functions/FnArgumentVariableConfusion";
    analyzer[] = "Functions/MismatchParameterAndType";
    analyzer[] = "Functions/OneLetterFunctions";
@@ -6242,6 +6263,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
     'Semantics':
      - 'Arrays/WeirdIndex'
      - 'Constants/ConstantStrangeNames'
+     - 'Constants/CouldBeConstant'
      - 'Functions/FnArgumentVariableConfusion'
      - 'Functions/MismatchParameterAndType'
      - 'Functions/OneLetterFunctions'
@@ -6288,7 +6310,6 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Classes/TooManyChildren";
    analyzer[] = "Classes/UnitializedProperties";
    analyzer[] = "Classes/UselessTypehint";
-   analyzer[] = "Constants/CouldBeConstant";
    analyzer[] = "Exceptions/CouldUseTry";
    analyzer[] = "Exceptions/LargeTryBlock";
    analyzer[] = "Exceptions/LongPreparation";
@@ -6333,6 +6354,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/ArraySearchMultipleKeys";
    analyzer[] = "Structures/BasenameSuffix";
    analyzer[] = "Structures/BooleanStrictComparison";
+   analyzer[] = "Structures/CouldBeTernary";
    analyzer[] = "Structures/CouldUseArrayFillKeys";
    analyzer[] = "Structures/CouldUseArrayUnique";
    analyzer[] = "Structures/CouldUseCompact";
@@ -6351,6 +6373,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/ListOmissions";
    analyzer[] = "Structures/LongBlock";
    analyzer[] = "Structures/MismatchedTernary";
+   analyzer[] = "Structures/MultipleSimilarCalls";
    analyzer[] = "Structures/MultipleUnset";
    analyzer[] = "Structures/NamedRegex";
    analyzer[] = "Structures/NoNeedGetClass";
@@ -6372,6 +6395,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/UseArrayFunctions";
    analyzer[] = "Structures/UseCaseValue";
    analyzer[] = "Structures/UseCountRecursive";
+   analyzer[] = "Structures/UseFileAppend";
    analyzer[] = "Structures/UseListWithForeach";
    analyzer[] = "Structures/UseUrlQueryFunctions";
    analyzer[] = "Structures/WhileListEach";
@@ -6403,7 +6427,6 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Classes/TooManyChildren'
      - 'Classes/UnitializedProperties'
      - 'Classes/UselessTypehint'
-     - 'Constants/CouldBeConstant'
      - 'Exceptions/CouldUseTry'
      - 'Exceptions/LargeTryBlock'
      - 'Exceptions/LongPreparation'
@@ -6448,6 +6471,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/ArraySearchMultipleKeys'
      - 'Structures/BasenameSuffix'
      - 'Structures/BooleanStrictComparison'
+     - 'Structures/CouldBeTernary'
      - 'Structures/CouldUseArrayFillKeys'
      - 'Structures/CouldUseArrayUnique'
      - 'Structures/CouldUseCompact'
@@ -6466,6 +6490,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/ListOmissions'
      - 'Structures/LongBlock'
      - 'Structures/MismatchedTernary'
+     - 'Structures/MultipleSimilarCalls'
      - 'Structures/MultipleUnset'
      - 'Structures/NamedRegex'
      - 'Structures/NoNeedGetClass'
@@ -6487,6 +6512,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/UseArrayFunctions'
      - 'Structures/UseCaseValue'
      - 'Structures/UseCountRecursive'
+     - 'Structures/UseFileAppend'
      - 'Structures/UseListWithForeach'
      - 'Structures/UseUrlQueryFunctions'
      - 'Structures/WhileListEach'
@@ -6813,6 +6839,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Classes/MethodUsedBelow";
    analyzer[] = "Classes/MismatchProperties";
    analyzer[] = "Classes/MissingAbstractMethod";
+   analyzer[] = "Classes/MissingVisibility";
    analyzer[] = "Classes/MultipleClassesInFile";
    analyzer[] = "Classes/MultipleDeclarations";
    analyzer[] = "Classes/MultiplePropertyDeclarationOnOneLine";
@@ -6847,6 +6874,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Classes/PropertyUsedInternally";
    analyzer[] = "Classes/PssWithoutClass";
    analyzer[] = "Classes/RaisedAccessLevel";
+   analyzer[] = "Classes/ReadonlyUsage";
    analyzer[] = "Classes/RedefinedConstants";
    analyzer[] = "Classes/RedefinedDefault";
    analyzer[] = "Classes/RedefinedMethods";
@@ -6960,6 +6988,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Constants/ConstantUsage";
    analyzer[] = "Constants/Constantnames";
    analyzer[] = "Constants/CouldBeConstant";
+   analyzer[] = "Constants/CouldUseConstant";
    analyzer[] = "Constants/CreatedOutsideItsNamespace";
    analyzer[] = "Constants/CustomConstantUsage";
    analyzer[] = "Constants/DefineInsensitivePreference";
@@ -6988,6 +7017,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Dump/CollectClassTraitsCounts";
    analyzer[] = "Dump/CollectClassesDependencies";
    analyzer[] = "Dump/CollectDefinitionsStats";
+   analyzer[] = "Dump/CollectDependencyExtension";
    analyzer[] = "Dump/CollectFilesDependencies";
    analyzer[] = "Dump/CollectForeachFavorite";
    analyzer[] = "Dump/CollectGlobalVariables";
@@ -7751,6 +7781,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/ContinueIsForLoop";
    analyzer[] = "Structures/CouldBeElse";
    analyzer[] = "Structures/CouldBeStatic";
+   analyzer[] = "Structures/CouldBeTernary";
    analyzer[] = "Structures/CouldUseArrayFillKeys";
    analyzer[] = "Structures/CouldUseArrayUnique";
    analyzer[] = "Structures/CouldUseCompact";
@@ -7774,6 +7805,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/DontLoopOnYield";
    analyzer[] = "Structures/DontMixPlusPlus";
    analyzer[] = "Structures/DontReadAndWriteInOneExpression";
+   analyzer[] = "Structures/DontReuseForeachSource";
    analyzer[] = "Structures/DoubleAssignation";
    analyzer[] = "Structures/DoubleInstruction";
    analyzer[] = "Structures/DoubleObjectAssignation";
@@ -7851,6 +7883,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/ModernEmpty";
    analyzer[] = "Structures/MultipleCatch";
    analyzer[] = "Structures/MultipleDefinedCase";
+   analyzer[] = "Structures/MultipleSimilarCalls";
    analyzer[] = "Structures/MultipleTypeVariable";
    analyzer[] = "Structures/MultipleUnset";
    analyzer[] = "Structures/MultiplyByOne";
@@ -7964,6 +7997,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/UseConstant";
    analyzer[] = "Structures/UseCountRecursive";
    analyzer[] = "Structures/UseDebug";
+   analyzer[] = "Structures/UseFileAppend";
    analyzer[] = "Structures/UseInstanceof";
    analyzer[] = "Structures/UseListWithForeach";
    analyzer[] = "Structures/UsePositiveCondition";
@@ -8254,6 +8288,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Classes/MethodUsedBelow'
      - 'Classes/MismatchProperties'
      - 'Classes/MissingAbstractMethod'
+     - 'Classes/MissingVisibility'
      - 'Classes/MultipleClassesInFile'
      - 'Classes/MultipleDeclarations'
      - 'Classes/MultiplePropertyDeclarationOnOneLine'
@@ -8288,6 +8323,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Classes/PropertyUsedInternally'
      - 'Classes/PssWithoutClass'
      - 'Classes/RaisedAccessLevel'
+     - 'Classes/ReadonlyUsage'
      - 'Classes/RedefinedConstants'
      - 'Classes/RedefinedDefault'
      - 'Classes/RedefinedMethods'
@@ -8401,6 +8437,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Constants/ConstantUsage'
      - 'Constants/Constantnames'
      - 'Constants/CouldBeConstant'
+     - 'Constants/CouldUseConstant'
      - 'Constants/CreatedOutsideItsNamespace'
      - 'Constants/CustomConstantUsage'
      - 'Constants/DefineInsensitivePreference'
@@ -8429,6 +8466,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Dump/CollectClassTraitsCounts'
      - 'Dump/CollectClassesDependencies'
      - 'Dump/CollectDefinitionsStats'
+     - 'Dump/CollectDependencyExtension'
      - 'Dump/CollectFilesDependencies'
      - 'Dump/CollectForeachFavorite'
      - 'Dump/CollectGlobalVariables'
@@ -9192,6 +9230,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/ContinueIsForLoop'
      - 'Structures/CouldBeElse'
      - 'Structures/CouldBeStatic'
+     - 'Structures/CouldBeTernary'
      - 'Structures/CouldUseArrayFillKeys'
      - 'Structures/CouldUseArrayUnique'
      - 'Structures/CouldUseCompact'
@@ -9215,6 +9254,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/DontLoopOnYield'
      - 'Structures/DontMixPlusPlus'
      - 'Structures/DontReadAndWriteInOneExpression'
+     - 'Structures/DontReuseForeachSource'
      - 'Structures/DoubleAssignation'
      - 'Structures/DoubleInstruction'
      - 'Structures/DoubleObjectAssignation'
@@ -9292,6 +9332,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/ModernEmpty'
      - 'Structures/MultipleCatch'
      - 'Structures/MultipleDefinedCase'
+     - 'Structures/MultipleSimilarCalls'
      - 'Structures/MultipleTypeVariable'
      - 'Structures/MultipleUnset'
      - 'Structures/MultiplyByOne'
@@ -9405,6 +9446,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/UseConstant'
      - 'Structures/UseCountRecursive'
      - 'Structures/UseDebug'
+     - 'Structures/UseFileAppend'
      - 'Structures/UseInstanceof'
      - 'Structures/UseListWithForeach'
      - 'Structures/UsePositiveCondition'

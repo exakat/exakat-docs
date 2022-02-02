@@ -619,6 +619,10 @@ prefixedType['uuid'] = '\Uuid';
   + minimum : 2
 
     + Minimal number of constant found in children to report this as a potential abstract class.
+:ref:`Could Use Existing Constant <could-use-existing-constant>`
+  + omittedValues : 
+
+    + Comma-separated list of values that have to be ignored with this analysis. They replace the default values of 0 and 1.
 
 
     

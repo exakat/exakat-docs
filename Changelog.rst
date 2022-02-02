@@ -6,6 +6,72 @@ Release Note
 
 Here is the release note of exakat. 
 
+**Version 2.3.6 (Yuchi Gong, 2022-02-16)**
+
+
++ Cobbler
+    + 
+
++ Report
+    + 
+
++ Analysis
+    + 
+
++ Tokenizer
+    + 
+
+**Version 2.3.5 (Yuchi Gong, 2022-02-02)**
+
+
++ Architecture
+    + 'Complete' ruleset will run the configured rulesets that are not already run
+
++ Cobbler
+    + New cobbler : removes readonly option on properties
+    + New cobbler : removes useless variables
+
++ Report
+    + Ambassador : added counts with the actual sizes of the classes (constants, properties, methods)
+    + Ambassador : Fixed display of compatibility features
+    + Uml : Report number of classes exported
+
++ Analysis
+    + New analysis : List all external dependencies extensions
+    + New analysis : report recycling of foreach() sources
+    + New analysis : report usage of readonly
+    + New analysis : Suggest updating if-then to ternary operator
+    + New analysis : Report multiple similar calls in a row
+    + New analysis : Suggest using FILE_APPEND with file_put_contents()
+    + New analysis : Report missing visibilities
+    + New analysis : Identify literal that may actually be existing constants.
+    + Fixed analysis : Cancelled parameter shall take ??= into consideration
+    + Refactored analysis : 'Cannot use static with closure' analysis is extended to properties
+    + Refactored analysis : Upgraded detection of variable modified by a reference in a PHP or custom function/methodcall.
+    + Refactored analysis : Fixed bug with 'This is for class' where typehint where not correctly seen inside a class.
+    + Refactored analysis : 'Insufficient typehint' was upgraded with class constants checks
+    + Refactored analysis : 'Undefined class' skips ? as a class
+    + Refactored analysis : 'Static loops' now takes into account modifications in the conditions
+    + Refactored analysis : 'Complex expressions' omits match
+    + Refactored analysis : 'Cache variable outside loop' fixed bug with function names and new expressions
+    + Refactored analysis : 'Logical mistakes' now checks for constants on the rest of the comparison
+    + Refactored analysis : 'Cant instantiate class' now takes into account self/static
+    + Refactored analysis : 'Should use self' also reports self opportunities in new expression.
+    + Refactored analysis : 'Written only' fixed a bug with propperties
+    + Refactored analysis : 'No choice' also spots ?: null and ?? null 
+    + Refactored analysis : Written Only Variable now takes into account references in parameters
+    + Refactored analysis : Classes's strange names covers methods, properties and classes.
+    + Refactored analysis : Caught but never thrown exceptions have an updated list of exception
+    + Refactored analysis : Unresolved Catch uses updated PHP exception/error list
+    + Refactored analysis : PHP 8.0 new types now covers mixed and also properties.
+    + Refactored analysis : PHP 8.0 union type differentiate between ?A and null|A
+    + Refactored analysis : CIT same names was extended to Enumeration
+
++ Tokenizer
+    + Fixed boolval for multiplications
+    + Fixed spaceship for string and boolean values
+    + Added processing to isPhp/isExt/isStub to implemented names
+
 **Version 2.3.4 (Yuchi Gong, 2022-01-19)**
 
 

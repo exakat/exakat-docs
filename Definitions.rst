@@ -25,6 +25,12 @@ Here is a list of words, commonly used when using Exakat, with their definitions
         The phase of execution, which prepare the results from the graph database to the data storage for reports.
 
 + `I`
+    `Initialisation`
+        Set up of a data space by giving it a preset value.
+
+    `Inventory`
+        The collections of all the different values of a specific type of data, observed or measured. For example, variable names, functioncall frequency, or methods's length.
+        
     `Issue`
         The result of an analysis, when an analysis is applied to a code. 
 

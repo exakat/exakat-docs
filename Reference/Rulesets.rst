@@ -6,7 +6,7 @@ Rulesets
 Introduction
 ------------------------
 
-Exakat provides unique 1432 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
+Exakat provides unique 1441 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
 
 For more smoothly usage, the ruleset concept allow you to run a set of rules based on a decidated focus. Beawre that a Ruleset run all the associated rules and any needed dependencies.
 
@@ -112,7 +112,7 @@ Analyze
 
 This ruleset centralizes a large number of classic trap and pitfalls when writing PHP.
 
-Total : 433 analysis
+Total : 434 analysis
 
 * :ref:`adding-zero`
 * :ref:`ambiguous-array-index`
@@ -163,7 +163,7 @@ Total : 433 analysis
 * :ref:`non-constant-index-in-array`
 * :ref:`undefined-constants`
 * :ref:`instantiating-abstract-class`
-* :ref:`class,-interface-or-trait-with-identical-names`
+* :ref:`class,-interface,-enum-or-trait-with-identical-names`
 * :ref:`empty-try-catch`
 * :ref:`undefined-classes`
 * :ref:`htmlentities-calls`
@@ -547,6 +547,7 @@ Total : 433 analysis
 * :ref:`overwritten-foreach-var`
 * :ref:`recycled-variables`
 * :ref:`check-division-by-zero`
+* :ref:`dont-reuse-foreach-source`
 
 
 
@@ -568,7 +569,7 @@ Appinfo
 
 A set of rules that describes with PHP features is used in the code.
 
-Total : 383 analysis
+Total : 384 analysis
 
 * :ref:`array-index`
 * :ref:`multidimensional-arrays`
@@ -953,6 +954,7 @@ Total : 383 analysis
 * :ref:`new-initializers`
 * :ref:`promoted-properties`
 * :ref:`intersection-typehint`
+* :ref:`readonly-usage`
 
 
 
@@ -999,7 +1001,7 @@ CE
 
 This ruleset is the Community Edition list. It holds all the analysis that are in the community edition version of Exakat.
 
-Total : 656 analysis
+Total : 662 analysis
 
 * :ref:`adding-zero`
 * :ref:`array-index`
@@ -1625,7 +1627,7 @@ Total : 656 analysis
 * :ref:`could-be-float`
 * :ref:`collect-parameter-names`
 * :ref:`wrong-type-for-native-php-function`
-* :ref:`dump-fossilizedmethods`
+* :ref:`fossilized-methods-list`
 * :ref:`collect-static-class-changes`
 * :ref:`use-php-attributes`
 * :ref:`use-nullsafe-operator`
@@ -1657,6 +1659,12 @@ Total : 656 analysis
 * :ref:`array\_map()-passes-by-value`
 * :ref:`php-8.1-removed-directives`
 * :ref:`htmlentities-using-default-flag`
+* :ref:`false-to-array-conversion`
+* :ref:`float-conversion-as-index`
+* :ref:`cannot-call-trait-method-directly`
+* :ref:`deprecated-callable`
+* :ref:`checks-property-existence`
+* :ref:`extends-stdclass`
 
 
 
@@ -1875,7 +1883,7 @@ ClassReview
 
 This ruleset focuses on classes construction issues, and their related structures : traits, interfaces, methods, properties, constants.
 
-Total : 59 analysis
+Total : 60 analysis
 
 * :ref:`final-class-usage`
 * :ref:`final-methods-usage`
@@ -1936,6 +1944,7 @@ Total : 59 analysis
 * :ref:`no-static-variable-in-a-method`
 * :ref:`inherited-property-type-must-match`
 * :ref:`abstract-class-constants`
+* :ref:`missing-visibility`
 
 
 
@@ -2869,9 +2878,9 @@ Specs
 Dump
 ++++
 
-This ruleset collect various names given to different structures in the code ; variables, classes, methods, constants, etc. It is mostly used internally.
+This ruleset collects various names given to different structures in the code : for example, variables, classes, methods, constants, etc. It also collects networks of data, like file inclusion or externa dependencies.
 
-Total : 36 analysis
+Total : 37 analysis
 
 * :ref:`environment-variable-usage`
 * :ref:`indentation-levels`
@@ -2895,7 +2904,7 @@ Total : 36 analysis
 * :ref:`collect-class-constant-counts`
 * :ref:`call-order`
 * :ref:`collect-parameter-names`
-* :ref:`dump-fossilizedmethods`
+* :ref:`fossilized-methods-list`
 * :ref:`collect-static-class-changes`
 * :ref:`collect-variables`
 * :ref:`collect-global-variables`
@@ -2909,6 +2918,7 @@ Total : 36 analysis
 * :ref:`collect-php-structures`
 * :ref:`collect-use-counts`
 * :ref:`collect-block-size`
+* :ref:`collect-dependency-extension`
 
 
 
@@ -2993,7 +3003,7 @@ For example :
 
 
 
-Total : 33 analysis
+Total : 32 analysis
 
 * :ref:`constants-names`
 * :ref:`binary-glossary`
@@ -3027,7 +3037,6 @@ Total : 33 analysis
 * :ref:`openssl-ciphers-used`
 * :ref:`promoted-properties`
 * :ref:`extends-stdclass`
-* :ref:`intersection-typehint`
 
 
 
@@ -3106,11 +3115,12 @@ Performances
 
 This ruleset focuses on performances issues : anything that slows the code's execution.
 
-Total : 47 analysis
+Total : 48 analysis
 
 * :ref:`eval()-usage`
 * :ref:`for-using-functioncall`
 * :ref:`@-operator`
+* :ref:`nested-loops`
 * :ref:`while(list()-=-each())`
 * :ref:`avoid-array\_unique()`
 * :ref:`echo-with-concat`
@@ -3366,7 +3376,7 @@ Semantics
 
 This ruleset focuses on human interpretation of the code. It reviews special values of literals, and named structures.
 
-Total : 16 analysis
+Total : 17 analysis
 
 * :ref:`constants-with-strange-names`
 * :ref:`variables-with-one-letter-names`
@@ -3375,6 +3385,7 @@ Total : 16 analysis
 * :ref:`php-keywords-as-names`
 * :ref:`class-function-confusion`
 * :ref:`strange-name-for-variables`
+* :ref:`could-be-constant`
 * :ref:`similar-integers`
 * :ref:`duplicate-literal`
 * :ref:`parameter-hiding`
@@ -3403,7 +3414,7 @@ Suggestions
 
 This ruleset focuses on possibly better syntax than the one currently used. Those may be code modernization, alternatives, more efficient solutions, or simply left over from older versions. 
 
-Total : 102 analysis
+Total : 104 analysis
 
 * :ref:`while(list()-=-each())`
 * :ref:`function-subscripting,-old-style`
@@ -3481,11 +3492,10 @@ Total : 102 analysis
 * :ref:`no-need-for-get\_class()`
 * :ref:`substr-to-trim`
 * :ref:`complex-dynamic-names`
-* :ref:`could-be-constant`
 * :ref:`use-datetimeimmutable-class`
 * :ref:`set-aside-code`
 * :ref:`use-array-functions`
-* :ref:`use-case-value`
+* :ref:`use-the-case-value`
 * :ref:`use-url-query-functions`
 * :ref:`too-long-a-block`
 * :ref:`static-global-variables-confusion`
@@ -3506,7 +3516,10 @@ Total : 102 analysis
 * :ref:`declare-static-once`
 * :ref:`could-use-match`
 * :ref:`could-use-nullable-object-operator`
-* :ref:`classes-couldbeiterable`
+* :ref:`argument-could-be-iterable`
+* :ref:`multiple-similar-calls`
+* :ref:`could-be-ternary`
+* :ref:`use-file-append`
 
 
 
@@ -3598,12 +3611,12 @@ Total : 25 analysis
 * :ref:`wrong-argument-type`
 * :ref:`could-be-integer`
 * :ref:`could-be-null`
-* :ref:`could-be-iterable`
+* :ref:`typehint-could-be-iterable`
 * :ref:`could-be-float`
 * :ref:`could-be-self`
 * :ref:`could-be-parent`
 * :ref:`could-be-generator`
-* :ref:`classes-couldbeiterable`
+* :ref:`argument-could-be-iterable`
 
 
 
@@ -3623,7 +3636,7 @@ All
 
 All is a dummy ruleset, which includes all the rules. It is mostly used internally.
 
-Total : 1420 analysis
+Total : 1428 analysis
 
 * :ref:`adding-zero`
 * :ref:`ambiguous-array-index`
@@ -3856,7 +3869,7 @@ Total : 1420 analysis
 * :ref:`custom-constant-usage`
 * :ref:`instantiating-abstract-class`
 * :ref:`classes-mutually-extending-each-other`
-* :ref:`class,-interface-or-trait-with-identical-names`
+* :ref:`class,-interface,-enum-or-trait-with-identical-names`
 * :ref:`empty-try-catch`
 * :ref:`ext-pcntl`
 * :ref:`undefined-classes`
@@ -4350,7 +4363,7 @@ Total : 1420 analysis
 * :ref:`raised-access-level`
 * :ref:`no-boolean-as-default`
 * :ref:`sql-queries`
-* :ref:`strange-names-for-methods`
+* :ref:`strange-names-in-classes`
 * :ref:`ext-libsodium`
 * :ref:`class-function-confusion`
 * :ref:`forgotten-thrown`
@@ -4821,7 +4834,7 @@ Total : 1420 analysis
 * :ref:`collect-parameter-counts`
 * :ref:`collect-local-variable-counts`
 * :ref:`non-nullable-getters`
-* :ref:`use-case-value`
+* :ref:`use-the-case-value`
 * :ref:`dereferencing-levels`
 * :ref:`too-many-dereferencing`
 * :ref:`use-url-query-functions`
@@ -4912,7 +4925,7 @@ Total : 1420 analysis
 * :ref:`could-be-integer`
 * :ref:`call-order`
 * :ref:`could-be-null`
-* :ref:`could-be-iterable`
+* :ref:`typehint-could-be-iterable`
 * :ref:`uses-php-8-match()`
 * :ref:`could-be-float`
 * :ref:`mismatch-properties-typehints`
@@ -4927,7 +4940,7 @@ Total : 1420 analysis
 * :ref:`large-try-block`
 * :ref:`catch-undefined-variable`
 * :ref:`swapped-arguments`
-* :ref:`dump-fossilizedmethods`
+* :ref:`fossilized-methods-list`
 * :ref:`glob\_brace-usage`
 * :ref:`iconv-with-translit`
 * :ref:`collect-static-class-changes`
@@ -5039,12 +5052,20 @@ Total : 1420 analysis
 * :ref:`could-use-nullable-object-operator`
 * :ref:`cant-overload-constants`
 * :ref:`variable-is-a-local-constant`
-* :ref:`classes-couldbeiterable`
+* :ref:`argument-could-be-iterable`
 * :ref:`intersection-typehint`
 * :ref:`abstract-class-constants`
 * :ref:`recycled-variables`
 * :ref:`check-division-by-zero`
 * :ref:`getter-and-setter`
+* :ref:`multiple-similar-calls`
+* :ref:`could-be-ternary`
+* :ref:`use-file-append`
+* :ref:`readonly-usage`
+* :ref:`missing-visibility`
+* :ref:`could-use-existing-constant`
+* :ref:`dont-reuse-foreach-source`
+* :ref:`collect-dependency-extension`
 
 
 
