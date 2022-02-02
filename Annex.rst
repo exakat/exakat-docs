@@ -77,7 +77,6 @@ List of external links mentionned in this documentation.
 * `]*?>`_
 * `__autoload <https://www.php.net/autoload>`_
 * `__get performance questions with PHP <https://stackoverflow.com/questions/3330852/get-set-call-performance-questions-with-php>`_
-* `__set <https://www.php.net/manual/en/language.oop5.overloading.php#object.set>`_
 * `A PHP extension for Redis <https://github.com/phpredis/phpredis/>`_
 * `About circular references in PHP <https://johann.pardanaud.com/blog/about-circular-references-in-php>`_
 * `Add array_key_exists to the list of specialy compiled functions <https://bugs.php.net/bug.php?id=76148>`_
@@ -279,7 +278,6 @@ List of external links mentionned in this documentation.
 * `foreach <https://www.php.net/manual/en/control-structures.foreach.php>`_
 * `Foreign Function Interface <https://www.php.net/manual/en/book.ffi.php>`_
 * `Frederic Bouchery <https://twitter.com/FredBouchery/>`_
-* `From assumptions to assertions <https://rskuipers.com/entry/from-assumptions-to-assertions>`_
 * `FuelPHP <https://fuelphp.com>`_
 * `Function arguments <https://www.php.net/manual/en/functions.arguments.php>`_
 * `Functions <https://www.php.net/manual/en/language.functions.php>`_

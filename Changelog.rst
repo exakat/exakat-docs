@@ -6,8 +6,11 @@ Release Note
 
 Here is the release note of exakat. 
 
-**Version 2.3.6 (Yuchi Gong, 2022-02-16)**
+**Version 2.3.7 (Xiao Yu, 2022-03-02)**
 
+
++ Architecture
+    + 
 
 + Cobbler
     + 
@@ -17,6 +20,24 @@ Here is the release note of exakat.
 
 + Analysis
     + 
+
++ Tokenizer
+    + 
+
+**Version 2.3.6 (Qin Qiong, 2022-02-16)**
+
+
++ Architecture
+    + 
+
++ Cobbler
+    + 
+
++ Report
+    + 
+
++ Analysis
+    + Refactored analysis : 'Weak Type' Extended analysis to typed containers
 
 + Tokenizer
     + 
