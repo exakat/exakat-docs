@@ -3,7 +3,7 @@
 Introduction
 ============
 
-This is the documentation of the Exakat engine, version 2.3.6 (Build 1282), on Wed, 02 Feb 2022 20:08:21 +0000.
+This is the documentation of the Exakat engine, version 2.3.6 (Build 1284), on Thu, 10 Feb 2022 11:15:37 +0000.
 
 What is Exakat ? 
 ----------------

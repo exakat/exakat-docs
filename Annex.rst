@@ -119,7 +119,6 @@ List of external links mentionned in this documentation.
 * `bazaar <https://bazaar.canonical.com/en/>`_
 * `BC Math Functions <http://www.php.net/bcmath>`_
 * `Benoit Burnichon <https://twitter.com/BenoitBurnichon>`_
-* `Bitmask Constant Arguments in PHP <https://medium.com/@liamhammett/bitmask-constant-arguments-in-php-cf32bf35c73>`_
 * `Bitwise Operators <https://www.php.net/manual/en/language.operators.bitwise.php>`_
 * `Brandon Savage <https://twitter.com/BrandonSavage>`_
 * `browscap <http://browscap.org/>`_
@@ -163,7 +162,6 @@ List of external links mentionned in this documentation.
 * `Courier Anti-pattern <https://r.je/oop-courier-anti-pattern.html>`_
 * `Covariant Returns and Contravariant Parameters <https://wiki.php.net/rfc/covariant-returns-and-contravariant-parameters>`_
 * `crc32() <https://www.php.net/crc32>`_
-* `Cross-Site Scripting (XSS) <https://phpsecurity.readthedocs.io/en/latest/Cross-Site-Scripting-(XSS).html>`_
 * `Cryptography Extensions <https://www.php.net/manual/en/refs.crypto.php>`_
 * `CSPRNG <https://www.php.net/manual/en/book.csprng.php>`_
 * `Ctype funtions <https://www.php.net/manual/en/ref.ctype.php>`_
@@ -186,7 +184,6 @@ List of external links mentionned in this documentation.
 * `Dependency Injection Smells <http://seregazhuk.github.io/2017/05/04/di-smells/>`_
 * `Deprecate and remove continue targeting switch <https://wiki.php.net/rfc/continue_on_switch_deprecation>`_
 * `Deprecate and remove INTL_IDNA_VARIANT_2003 <https://wiki.php.net/rfc/deprecate-and-remove-intl_idna_variant_2003>`_
-* `Deprecate curly brace syntax <https://derickrethans.nl/phpinternalsnews-19.html>`_
 * `Deprecated features in PHP 5.4.x <https://www.php.net/manual/en/migration54.deprecated.php>`_
 * `Deprecated features in PHP 5.5.x <https://www.php.net/manual/en/migration55.deprecated.php>`_
 * `Deprecated features in PHP 7.2.x <https://www.php.net/manual/en/migration72.deprecated.php>`_
@@ -197,7 +194,6 @@ List of external links mentionned in this documentation.
 * `DIO <https://www.php.net/manual/en/refs.fileprocess.file.php>`_
 * `Dir predefined constants <https://www.php.net/manual/en/dir.constants.php>`_
 * `directive error_reporting <https://www.php.net/manual/en/errorfunc.configuration.php#ini.error-reporting>`_
-* `Directly calling __clone is allowed <https://wiki.php.net/rfc/abstract_syntax_tree#directly_calling_clone_is_allowed>`_
 * `dl <http://www.php.net/dl>`_
 * `Do your objects talk to strangers? <https://www.brandonsavage.net/do-your-objects-talk-to-strangers/>`_
 * `Docker <http://www.docker.com/>`_
@@ -209,7 +205,6 @@ List of external links mentionned in this documentation.
 * `Double quoted <https://www.php.net/manual/en/language.types.string.php#language.types.string.syntax.double>`_
 * `download <https://www.exakat.io/download-exakat/>`_
 * `Drupal <http://www.drupal.org/>`_
-* `Dynamically Access PHP Object Properties with $this <https://drupalize.me/blog/201508/dynamically-access-php-object-properties>`_
 * `E_WARNING for invalid container read array-access <https://wiki.php.net/rfc/notice-for-non-valid-array-container>`_
 * `Eaccelerator <http://eaccelerator.net/>`_
 * `elseif/else if <https://www.php.net/manual/en/control-structures.elseif.php>`_
@@ -220,7 +215,6 @@ List of external links mentionned in this documentation.
 * `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_
 * `Ereg <https://www.php.net/manual/en/function.ereg.php>`_
 * `Error Control Operators <https://www.php.net/manual/en/language.operators.errorcontrol.php>`_
-* `Error reporting <https://php.earth/docs/security/intro#error-reporting>`_
 * `Escape sequences <https://www.php.net/manual/en/regexp.reference.escape.php>`_
 * `Ev <https://www.php.net/manual/en/book.ev.php>`_
 * `eval <http://www.php.net/eval>`_
@@ -244,7 +238,6 @@ List of external links mentionned in this documentation.
 * `ext/hrtime manual <https://www.php.net/manual/en/intro.hrtime.php>`_
 * `ext/inotify manual <https://www.php.net/manual/en/book.inotify.php>`_
 * `ext/leveldb on Github <https://github.com/reeze/php-leveldb>`_
-* `ext/lua manual <https://www.php.net/manual/en/book.lua.php>`_
 * `ext/mbstring <http://www.php.net/manual/en/book.mbstring.php>`_
 * `ext/memcached manual <https://www.php.net/manual/en/book.memcached.php>`_
 * `ext/OpenSSL <https://www.php.net/manual/en/book.openssl.php>`_
@@ -258,7 +251,6 @@ List of external links mentionned in this documentation.
 * `ext/zookeeper <https://www.php.net/zookeeper>`_
 * `Extension Apache <https://www.php.net/manual/en/book.apache.php>`_
 * `extension mcrypt <http://www.php.net/manual/en/book.mcrypt.php>`_
-* `extract <https://www.php.net/extract>`_
 * `Ez <https://ez.no/>`_
 * `Factory (object-oriented programming) <https://en.wikipedia.org/wiki/Factory_(object-oriented_programming)>`_
 * `FAM <http://oss.sgi.com/projects/fam/>`_
@@ -280,7 +272,6 @@ List of external links mentionned in this documentation.
 * `Frederic Bouchery <https://twitter.com/FredBouchery/>`_
 * `FuelPHP <https://fuelphp.com>`_
 * `Function arguments <https://www.php.net/manual/en/functions.arguments.php>`_
-* `Functions <https://www.php.net/manual/en/language.functions.php>`_
 * `Gearman on PHP <https://www.php.net/manual/en/book.gearman.php>`_
 * `Generalize support of negative string offsets <https://wiki.php.net/rfc/negative-string-offsets>`_
 * `Generator delegation via yield from <https://www.php.net/manual/en/language.generators.syntax.php#control-structures.yield.from>`_
@@ -288,7 +279,6 @@ List of external links mentionned in this documentation.
 * `GeoIP <https://www.php.net/manual/en/book.geoip.php>`_
 * `George Peter Banyard <https://twitter.com/Girgias>`_
 * `get_class <https://www.php.net/get_class>`_
-* `get_object_vars script on 3V4L <https://3v4l.org/ELVGY>`_
 * `Gettext <https://www.gnu.org/software/gettext/manual/gettext.html>`_
 * `Git <https://git-scm.com/>`_
 * `Github Action <https://docs.github.com/en/actions>`_
@@ -331,7 +321,6 @@ List of external links mentionned in this documentation.
 * `IMAP <http://www.php.net/imap>`_
 * `Implement ZEND_ARRAY_KEY_EXISTS opcode to speed up array_key_exists() <https://github.com/php/php-src/pull/3360>`_
 * `Implicit incompatible float to int conversions <https://www.php.net/manual/en/migration81.deprecated.php#migration81.deprecated.core.implicit-float-conversion>`_
-* `implode <https://www.php.net/implode>`_
 * `In a PHP5 class, when does a private constructor get called? <https://stackoverflow.com/questions/26079/in-a-php5-class-when-does-a-private-constructor-get-called>`_
 * `in_array() <https://www.php.net/in_array>`_
 * `include <https://www.php.net/manual/en/function.include.php>`_
@@ -356,7 +345,6 @@ List of external links mentionned in this documentation.
 * `json_decode <https://www.php.net/json_decode>`_
 * `Judy C library <http://judy.sourceforge.net/>`_
 * `Kafka client for PHP <https://github.com/arnaud-lb/php-rdkafka>`_
-* `Kerberos V <https://www.php.net/manual/en/book.kadm5.php>`_
 * `Lapack <https://www.php.net/manual/en/book.lapack.php>`_
 * `Laravel <http://www.lavarel.com/>`_
 * `Late Static Bindings <https://www.php.net/manual/en/language.oop5.late-static-bindings.php>`_
@@ -379,14 +367,12 @@ List of external links mentionned in this documentation.
 * `Loosening Reserved Word Restrictions <https://www.php.net/manual/en/migration70.other-changes.php#migration70.other-changes.loosening-reserved-words>`_
 * `lzf <https://www.php.net/lzf>`_
 * `Magic Constants <https://www.php.net/manual/en/language.constants.predefined.php>`_
-* `Magic Hashes <https://blog.whitehatsec.com/magic-hashes/>`_
 * `Magic Method <https://www.php.net/manual/en/language.oop5.magic.php>`_
 * `Magic Methods <https://www.php.net/manual/en/language.oop5.magic.php>`_
 * `Magic methods <https://www.php.net/manual/en/language.oop5.magic.php>`_
 * `mail <https://www.php.net/mail>`_
 * `Mail related functions <http://www.php.net/manual/en/book.mail.php>`_
 * `Marco Pivetta tweet <https://twitter.com/Ocramius/status/811504929357660160>`_
-* `match <https://www.php.net/manual/en/control-structures.match.php>`_
 * `Math predefined constants <https://www.php.net/manual/en/math.constants.php>`_
 * `Mathematical Functions <https://www.php.net/manual/en/book.math.php>`_
 * `mb_encoding_detect <https://php.net/mb-encoding-detect>`_
@@ -420,11 +406,9 @@ List of external links mentionned in this documentation.
 * `Null and True <https://twitter.com/Chemaclass/status/1144588647464951808>`_
 * `Null Coalescing Operator <https://www.php.net/manual/en/language.operators.comparison.php#language.operators.comparison.coalesce>`_
 * `Null Object Pattern <https://en.wikipedia.org/wiki/Null_Object_pattern#PHP>`_
-* `Object Calisthenics, rule # 2 <http://williamdurand.fr/2013/06/03/object-calisthenics/>`_
 * `Object Calisthenics, rule # 5 <http://williamdurand.fr/2013/06/03/object-calisthenics/#one-dot-per-line>`_
 * `Object cloning <https://www.php.net/manual/en/language.oop5.cloning.php>`_
 * `Object Inheritance <https://www.php.net/manual/en/language.oop5.inheritance.php>`_
-* `Object Interfaces <https://www.php.net/manual/en/language.oop5.interfaces.php>`_
 * `Objects and references <https://www.php.net/manual/en/language.oop5.references.php>`_
 * `ODBC (Unified) <http://www.php.net/manual/en/book.uodbc.php>`_
 * `OPcache functions <http://www.php.net/manual/en/book.opcache.php>`_
@@ -465,7 +449,6 @@ List of external links mentionned in this documentation.
 * `PHP 7.0 Backward incompatible changes <https://www.php.net/manual/en/migration70.incompatible.php>`_
 * `PHP 7.0 Removed Functions <https://www.php.net/manual/en/migration70.incompatible.php#migration70.incompatible.removed-functions>`_
 * `PHP 7.1 no longer converts string to arrays the first time a value is assigned with square bracket notation <https://www.drupal.org/project/adaptivetheme/issues/2832900>`_
-* `PHP 7.2's switch optimisations <https://derickrethans.nl/php7.2-switch.html>`_
 * `PHP 7.3 Removed Functions <https://www.php.net/manual/en/migration73.incompatible.php#migration70.incompatible.removed-functions>`_
 * `PHP 7.3 UPGRADE NOTES <https://github.com/php/php-src/blob/3b6e1ee4ee05678b5d717cd926a35ffdc1335929/UPGRADING#L66-L81>`_
 * `PHP 7.4 Removed Functions <https://www.php.net/manual/en/migration74.incompatible.php#migration70.incompatible.removed-functions>`_
@@ -486,17 +469,12 @@ List of external links mentionned in this documentation.
 * `PHP RFC: Allow trailing comma in parameter list <https://wiki.php.net/rfc/trailing_comma_in_parameter_list>`_
 * `PHP RFC: Convert numeric keys in object/array casts <https://wiki.php.net/rfc/convert_numeric_keys_in_object_array_casts>`_
 * `PHP RFC: Deprecate and Remove Bareword (Unquoted) Strings <https://wiki.php.net/rfc/deprecate-bareword-strings>`_
-* `PHP RFC: Deprecate left-associative ternary operator <https://wiki.php.net/rfc/ternary_associativity>`_
 * `PHP RFC: Deprecations for PHP 7.2 : Each() <https://wiki.php.net/rfc/deprecations_php_7_2#each>`_
 * `PHP RFC: Deprecations for PHP 7.4 <https://wiki.php.net/rfc/deprecations_php_7_4>`_
 * `PHP RFC: Deprecations for PHP 8.1 <https://wiki.php.net/rfc/deprecations_php_8_1>`_
 * `PHP RFC: First-class callable syntax <https://wiki.php.net/rfc/first_class_callable_syntax>`_
-* `PHP RFC: get_debug_type <https://wiki.php.net/rfc/get_debug_type>`_
 * `PHP RFC: noreturn type <https://wiki.php.net/rfc/noreturn_type>`_
-* `PHP RFC: Nullsafe operator <https://wiki.php.net/rfc/nullsafe_operator>`_
-* `PHP RFC: Scalar Type Hints <https://wiki.php.net/rfc/scalar_type_hints>`_
 * `PHP RFC: Static variables in inherited methods <https://wiki.php.net/rfc/static_variable_inheritance>`_
-* `PHP RFC: str_contains <https://wiki.php.net/rfc/str_contains>`_
 * `PHP RFC: Syntax for variadic functions <https://wiki.php.net/rfc/variadics>`_
 * `PHP RFC: Unicode Codepoint Escape Syntax <https://wiki.php.net/rfc/unicode_escape>`_
 * `PHP RFC: Variable Syntax Tweaks <https://wiki.php.net/rfc/variable_syntax_tweaks>`_
@@ -529,7 +507,6 @@ List of external links mentionned in this documentation.
 * `PSR-3 : Logger Interface <http://www.php-fig.org/psr/psr-3/>`_
 * `PSR-3 <https://www.php-fig.org/psr/psr-3>`_
 * `PSR-6 : Caching <http://www.php-fig.org/psr/psr-6/>`_
-* `Putting glob to the test <https://www.phparch.com/2010/04/putting-glob-to-the-test/>`_
 * `RabbitMQ AMQP client library <https://github.com/alanxz/rabbitmq-c>`_
 * `rar <https://en.wikipedia.org/wiki/RAR_(file_format)>`_
 * `Rar archiving <https://www.php.net/manual/en/book.rar.php>`_
@@ -598,7 +575,6 @@ List of external links mentionned in this documentation.
 * `tetraweb/php <https://hub.docker.com/r/tetraweb/php/>`_
 * `Text <https://exakat.readthedocs.io/en/latest/Reports.html#text>`_
 * `The Basics <https://www.php.net/manual/en/language.oop5.basic.php>`_
-* `The basics of Fluent interfaces in PHP <https://tournasdimitrios1.wordpress.com/2011/04/11/the-basics-of-fluent-interfaces-in-php/>`_
 * `The Closure Class <https://www.php.net/manual/en/class.closure.php>`_
 * `The Linux NIS(YP)/NYS/NIS+ HOWTO <http://www.tldp.org/HOWTO/NIS-HOWTO/index.html>`_
 * `The main PPA for PHP (8.0, 7.4, 7.3, 7.2, 7.1, 7.0, 5.6)  <https://launchpad.net/~ondrej/+archive/ubuntu/php>`_
@@ -609,7 +585,6 @@ List of external links mentionned in this documentation.
 * `tokenizer <http://www.php.net/tokenizer>`_
 * `tokyo_tyrant <https://www.php.net/manual/en/book.tokyo-tyrant.php>`_
 * `trader (PECL) <https://pecl.php.net/package/trader>`_
-* `Trailing Commas In List Syntax <https://wiki.php.net/rfc/list-syntax-trailing-commas>`_
 * `Traits <https://www.php.net/manual/en/language.oop5.traits.php>`_
 * `Traversable <https://www.php.net/manual/en/class.traversable.php>`_
 * `trigger_error <https://www.php.net/trigger_error>`_
@@ -620,7 +595,6 @@ List of external links mentionned in this documentation.
 * `Type Declaration <https://www.php.net/manual/en/functions.arguments.php#functions.arguments.type-declaration>`_
 * `Type declarations <https://www.php.net/manual/en/functions.arguments.php#functions.arguments.type-declaration>`_
 * `Type declarations <https://www.php.net/manual/en/language.types.declarations.php>`_
-* `Type hinting for interfaces <http://phpenthusiast.com/object-oriented-php-tutorials/type-hinting-for-interfaces>`_
 * `Type Juggling <https://www.php.net/manual/en/language.types.type-juggling.php>`_
 * `Type juggling <https://www.php.net/manual/en/language.types.type-juggling.php>`_
 * `Type Operators <https://www.php.net/manual/en/language.operators.type.php#language.operators.type>`_
@@ -632,7 +606,6 @@ List of external links mentionned in this documentation.
 * `Uniform Resource Identifier <https://en.wikipedia.org/wiki/Uniform_Resource_Identifier>`_
 * `unserialize() <https://www.php.net/unserialize>`_
 * `unset <https://www.php.net/unset>`_
-* `Unset casting <https://www.php.net/manual/en/language.types.null.php#language.types.null.casting>`_
 * `UPGRADING 7.3 <https://github.com/php/php-src/blob/PHP-7.3/UPGRADING#L83-L95>`_
 * `UPGRADING PHP 8.1 <https://www.php.net/manual/en/migration81.incompatible.php#migration81.incompatible.resource2object>`_
 * `upload artifact <https://github.com/actions/upload-artifact>`_

@@ -239,14 +239,14 @@ PHP extensions are described with the list of structures they define : functions
 * `ext/intl <http://site.icu-project.org/>`_
 * `ext/json <http://www.faqs.org/rfcs/rfc7159>`_
 * `ext/judy <http://judy.sourceforge.net/>`_
-* `ext/kdm5 <https://www.php.net/manual/en/book.kadm5.php>`_
+* ext/kdm5
 * `ext/lapack <https://www.php.net/manual/en/book.lapack.php>`_
 * `ext/ldap <https://www.php.net/manual/en/book.ldap.php>`_
 * `ext/leveldb <https://github.com/reeze/php-leveldb>`_
 * `ext/libevent <http://libevent.org/>`_
 * `ext/libsodium <https://github.com/jedisct1/libsodium-php>`_
 * `ext/libxml <http://www.php.net/manual/en/book.libxml.php>`_
-* `ext/lua <https://www.php.net/manual/en/book.lua.php>`_
+* ext/lua
 * `ext/lzf <https://www.php.net/lzf>`_
 * `ext/mail <http://www.php.net/manual/en/book.mail.php>`_
 * `ext/mailparse <http://www.faqs.org/rfcs/rfc822.html>`_

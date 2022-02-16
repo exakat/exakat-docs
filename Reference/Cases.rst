@@ -3157,10 +3157,10 @@ This piece of code inside a 275 lines method. Besides, there are 11 classes that
                 });
 
 
-.. _case-should-use-constants:
+.. _case-should-use-existing-constants:
 
-Should Use Constants
-####################
+Should Use Existing Constants
+#############################
 
 .. _case-tine20-functions-shoulduseconstants:
 
@@ -3168,7 +3168,7 @@ Tine20
 ++++++
 
 
-:ref:`should-use-constants`, in tine20/Sales/Controller/Invoice.php:560. 
+:ref:`should-use-existing-constants`, in tine20/Sales/Controller/Invoice.php:560. 
 
 True should be replaced by COUNT_RECURSIVE. The default one is COUNT_NORMAL.
 
@@ -3272,9 +3272,9 @@ ChurchCRM
     {
 
 
-.. _case-unused-arguments:
+.. _case-unused-parameter:
 
-Unused Arguments
+Unused Parameter
 ################
 
 .. _case-thinkphp-functions-unusedarguments:
@@ -3283,7 +3283,7 @@ ThinkPHP
 ++++++++
 
 
-:ref:`unused-arguments`, in ThinkPHP/Library/Behavior/AgentCheckBehavior.class.php:18. 
+:ref:`unused-parameter`, in ThinkPHP/Library/Behavior/AgentCheckBehavior.class.php:18. 
 
 $params are requested, but never used. The method is not overloading another one, as the class doesn't extends anything. $params is unused. 
 
@@ -3309,7 +3309,7 @@ phpMyAdmin
 ++++++++++
 
 
-:ref:`unused-arguments`, in libraries/classes/Display/Results.php:1985. 
+:ref:`unused-parameter`, in libraries/classes/Display/Results.php:1985. 
 
 Although $column_index is documented, it is not found in the rest of the (long) body of the function. It might have been refactored into $sorted_column_index.
 

@@ -48,7 +48,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'Exakat'
-copyright = u'2015-2020, Damien Seguy'
+copyright = u'2015-2022, Damien Seguy – Exakat SAS <contact(at)exakat.io>'
 author = u'Damien Seguy'
 
 # The version info for the project you're documenting, acts as replacement for

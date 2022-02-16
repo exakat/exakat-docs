@@ -160,10 +160,10 @@ token_limit
 
 Maximum size of the analyzed project, in number of PHP tokens (excluding whitespace). Use this to avoid running a really long analyze without knowing it.
 
-Default is 1 million.                                                                   
+Default is 1 million (1000000).                                                                   
 
 php
-++++++++++++++++++++
++++
 
 Link to the PHP binary. This binary is the one that runs Exakat. It is recommended to use PHP 8.0, or 8.1. The same binary may be used with the following options.                 
 
@@ -263,7 +263,33 @@ php_extensions
 
 List of PHP extensions to use when spotting functions, methods, constants, classes, etc. 
 
-Default to 'all', which are all in the source code. Can be set to 'none' to skip the detection                                               
+Default to 'all', which are all the extensions in the exakat installation. Can be set to 'none' to skip any the detection. Use this directive for pecl or external installation. 
+
+Write them as an array, to specify more than one value. `php_extensions[] = "ast"; php_extensions[] = "xdebug"; php_extensions[] = "apc";`
+
+When an extension is not recognized, it is ignored.
+
+php_core
+++++++++
+
+List of PHP standard extensions to use when spotting functions, methods, constants, classes, etc. 
+
+Default to 'all', which are all the extensions in the exakat installation. That list is related to the extensions available in PHP's default installation. 
+
+Write them as an array, to specify more than one value. `php_core[] = "mysqli"; php_core[] = "pcre"; php_core[] = "bcmath";`
+
+When an extension is not recognized, it is ignored.
+  
+stubs
++++++
+
+List of components, to use when spotting functions, methods, constants, classes, etc. 
+
+Default to '' (empty), which are all the none. The current list of 
+
+Write them as an array, to specify more than one value. `stubs[] = "monolog/monolog"; php_core[] = "bolt"; php_core[] = "composer/composer";`
+
+When an extension is not recognized, it is searched on exakat.io, and eventually, ignored.
 
 
 Note : php** configuration may be either a valid PHP binary path, or a valid Docker image. The path on the system may be `/usr/bin/php`, `/usr/sbin/php80`, or `/usr/local/Cellar/php71/7.1.30/bin/php`. The Docker configuration must have the form `abc/def:tag`. The image's name may be any value, as long as Exakat manage to run it, and get the valid PHP signature, with `php -v`. When using Docker, the docker server must be running. 

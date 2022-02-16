@@ -31,16 +31,48 @@ Here is the release note of exakat.
     + 
 
 + Cobbler
-    + 
+    + Refactored cobbler : 'SetTypehint' checks more before adding a class typehint
 
 + Report
-    + 
+    + Ambassador : added the list of extended dependencies as an audit report
+    + Diplomat : removed 4 rules from Analyze (Classes/Redefined*)
 
 + Analysis
+    + New analysis : Too Many Stringed If-then-elsif
+    + New analysis : Undefined Enumeration case
+    + New analysis : Unfinished objects
+    + New analysis : Class Alias usage
+    + New analysis : Undefined Methods
+    + New analysis : Suggest array_sum(), from the code
+    + New analysis : Missing type on any structure (method, parameter, property)
+    + New analysis : Spot unreachable methods
+    + New analysis : Public Reach lists the paths from public methods to private ones. 
+    + New analysis : Avoid Static calls on objects when possible
+    + Deprecated analysis : Is Php Function
+    + Refactored analysis : Removed usage of IsExtFunction analysis
+    + Refactored analysis : 'Could Be array' relies on ... too
+    + Refactored analysis : 'No need for else' now skips elseif
+    + Refactored analysis : 'Undefined constants, functions, traits, interfaces, classes{const, static P/M}' now leverages the stubs
+    + Refactored analysis : 'Insufficient typehint' checks for union types
+    + Refactored analysis : 'Used Once Properties' now omits classes that have dynamic properties 
+    + Refactored analysis : 'Unused class constants' 
+    + Refactored analysis : 'Reuse variable' has a narrower focus, and takes scope into account.
     + Refactored analysis : 'Weak Type' Extended analysis to typed containers
+    + Refactored analysis : Definitions stats now break down to isPHP/isStub/isExt
+    + Refactored analysis : Isset() calls with more complex expressions
+    + Bug: fixed PHp/MixedKeyword in analyzer database
+    + Checked unit tests : 4123 / 4132 test pass (99% pass)
 
 + Tokenizer
-    + 
+    + Refactored Foreach variable detection
+    + Fixed constant detection in deep namespaces
+    + Restored Stubs from configuration and commandline
+    + Added fullnspath to static properties
+    + Added Complete/Is*Structure, to finish marking atoms with isPhp, isStub
+    + Deprecating Composer/IsComposerNsname
+    + Fixed bug with class_alias
+    + Added Not to guess list
+    + Fixed bug in engine with comments at the end of scripts.
 
 **Version 2.3.5 (Yuchi Gong, 2022-02-02)**
 

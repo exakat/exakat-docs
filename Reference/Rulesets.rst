@@ -6,7 +6,7 @@ Rulesets
 Introduction
 ------------------------
 
-Exakat provides unique 1441 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
+Exakat provides unique 1454 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
 
 For more smoothly usage, the ruleset concept allow you to run a set of rules based on a decidated focus. Beawre that a Ruleset run all the associated rules and any needed dependencies.
 
@@ -237,7 +237,7 @@ Total : 434 analysis
 * :ref:`old-style-\_\_autoload()`
 * :ref:`altering-foreach-without-reference`
 * :ref:`use-pathinfo`
-* :ref:`should-use-constants`
+* :ref:`should-use-existing-constants`
 * :ref:`hash-algorithms`
 * :ref:`no-parenthesis-for-language-construct`
 * :ref:`no-hardcoded-path`
@@ -282,11 +282,9 @@ Total : 434 analysis
 * :ref:`avoid-get\_class()`
 * :ref:`silently-cast-integer`
 * :ref:`timestamp-difference`
-* :ref:`unused-arguments`
+* :ref:`unused-parameter`
 * :ref:`switch-to-switch`
 * :ref:`wrong-parameter-type`
-* :ref:`redefined-class-constants`
-* :ref:`redefined-default`
 * :ref:`wrong-fopen()-mode`
 * :ref:`negative-power`
 * :ref:`already-parents-interface`
@@ -409,7 +407,6 @@ Total : 434 analysis
 * :ref:`foreach-on-object`
 * :ref:`property-could-be-local`
 * :ref:`too-many-native-calls`
-* :ref:`redefined-private-property`
 * :ref:`don't-unset-properties`
 * :ref:`strtr-arguments`
 * :ref:`missing-parenthesis`
@@ -548,6 +545,9 @@ Total : 434 analysis
 * :ref:`recycled-variables`
 * :ref:`check-division-by-zero`
 * :ref:`dont-reuse-foreach-source`
+* :ref:`unreachable-method`
+* :ref:`unfinished-object`
+* :ref:`undefined-enumcase`
 
 
 
@@ -768,7 +768,6 @@ Total : 384 analysis
 * :ref:`ext-phalcon`
 * :ref:`composer-usage`
 * :ref:`composer's-autoload`
-* :ref:`composer-namespace`
 * :ref:`ext-apcu`
 * :ref:`ext-trader`
 * :ref:`ext-mailparse`
@@ -955,6 +954,7 @@ Total : 384 analysis
 * :ref:`promoted-properties`
 * :ref:`intersection-typehint`
 * :ref:`readonly-usage`
+* :ref:`use-class\_alias()`
 
 
 
@@ -1001,7 +1001,7 @@ CE
 
 This ruleset is the Community Edition list. It holds all the analysis that are in the community edition version of Exakat.
 
-Total : 662 analysis
+Total : 660 analysis
 
 * :ref:`adding-zero`
 * :ref:`array-index`
@@ -1165,7 +1165,6 @@ Total : 662 analysis
 * :ref:`ext-pcntl`
 * :ref:`ext-ming`
 * :ref:`ext-redis`
-* :ref:`is-an-extension-function`
 * :ref:`is-an-extension-interface`
 * :ref:`is-an-extension-constant`
 * :ref:`htmlentities-calls`
@@ -1271,7 +1270,6 @@ Total : 662 analysis
 * :ref:`implied-if`
 * :ref:`composer-usage`
 * :ref:`composer's-autoload`
-* :ref:`composer-namespace`
 * :ref:`should-chain-exception`
 * :ref:`undefined-interfaces`
 * :ref:`ext-apcu`
@@ -1883,7 +1881,7 @@ ClassReview
 
 This ruleset focuses on classes construction issues, and their related structures : traits, interfaces, methods, properties, constants.
 
-Total : 60 analysis
+Total : 64 analysis
 
 * :ref:`final-class-usage`
 * :ref:`final-methods-usage`
@@ -1945,6 +1943,10 @@ Total : 60 analysis
 * :ref:`inherited-property-type-must-match`
 * :ref:`abstract-class-constants`
 * :ref:`missing-visibility`
+* :ref:`unreachable-method`
+* :ref:`undefined-methods`
+* :ref:`unfinished-object`
+* :ref:`undefined-enumcase`
 
 
 
@@ -2593,7 +2595,7 @@ Total : 28 analysis
 
 * :ref:`new-functions-in-php-7.3`
 * :ref:`unknown-pcre2-option`
-* :ref:`compact-inexistant-variable`
+* :ref:`inexistant-variable-in-compact()`
 * :ref:`case-insensitive-constants`
 * :ref:`assert-function-is-reserved`
 * :ref:`continue-is-for-loop`
@@ -2703,7 +2705,7 @@ CompatibilityPHP80
 
 This ruleset centralizes all analysis for the migration from PHP 7.4 to 8.0.
 
-Total : 26 analysis
+Total : 27 analysis
 
 * :ref:`old-style-constructor`
 * :ref:`wrong-optional-parameter`
@@ -2728,6 +2730,7 @@ Total : 26 analysis
 * :ref:`final-constant`
 * :ref:`never-typehint-usage`
 * :ref:`php-8.1-typehints`
+* :ref:`mixed-keyword`
 * :ref:`nested-attributes`
 * :ref:`new-initializers`
 * :ref:`cant-overload-constants`
@@ -2752,7 +2755,7 @@ CompatibilityPHP81
 
 This ruleset centralizes all analysis for the migration from PHP 8.0 to 8.1.
 
-Total : 18 analysis
+Total : 19 analysis
 
 * :ref:`php-7.4-removed-directives`
 * :ref:`php-8.0-removed-directives`
@@ -2769,6 +2772,7 @@ Total : 18 analysis
 * :ref:`new-functions-in-php-8.1`
 * :ref:`php-8.1-removed-functions`
 * :ref:`never-keyword`
+* :ref:`mixed-keyword`
 * :ref:`false-to-array-conversion`
 * :ref:`float-conversion-as-index`
 * :ref:`cannot-call-trait-method-directly`
@@ -2793,7 +2797,7 @@ Dead code
 
 This ruleset focuses on dead code : expressions or even structures that are written, valid but never used.
 
-Total : 26 analysis
+Total : 27 analysis
 
 * :ref:`unused-use`
 * :ref:`unused-private-properties`
@@ -2821,6 +2825,7 @@ Total : 26 analysis
 * :ref:`unused-inherited-variable-in-closure`
 * :ref:`self-using-trait`
 * :ref:`useless-type-check`
+* :ref:`unreachable-method`
 
 
 
@@ -2852,8 +2857,10 @@ For example :
 
 
 
-Total : 7 analysis
+Total : 9 analysis
 
+* :ref:`is-an-extension-function`
+* :ref:`composer-namespace`
 * :ref:`case-insensitive-constants`
 * :ref:`assert-function-is-reserved`
 * :ref:`nested-ternary-without-parenthesis`
@@ -2880,7 +2887,7 @@ Dump
 
 This ruleset collects various names given to different structures in the code : for example, variables, classes, methods, constants, etc. It also collects networks of data, like file inclusion or externa dependencies.
 
-Total : 37 analysis
+Total : 38 analysis
 
 * :ref:`environment-variable-usage`
 * :ref:`indentation-levels`
@@ -2919,6 +2926,7 @@ Total : 37 analysis
 * :ref:`collect-use-counts`
 * :ref:`collect-block-size`
 * :ref:`collect-dependency-extension`
+* :ref:`public-reach-to-private-methods`
 
 
 
@@ -2940,9 +2948,8 @@ First
 
 A set of rules that are always run at the beginning of a project, because they are frenquently used. It is mostly used internally.
 
-Total : 7 analysis
+Total : 6 analysis
 
-* :ref:`is-an-extension-function`
 * :ref:`is-an-extension-interface`
 * :ref:`is-an-extension-constant`
 * :ref:`is-extension-trait`
@@ -3115,7 +3122,7 @@ Performances
 
 This ruleset focuses on performances issues : anything that slows the code's execution.
 
-Total : 48 analysis
+Total : 49 analysis
 
 * :ref:`eval()-usage`
 * :ref:`for-using-functioncall`
@@ -3165,6 +3172,7 @@ Total : 48 analysis
 * :ref:`no-mb\_substr-in-loop`
 * :ref:`optimize-explode()`
 * :ref:`scope-resolution-operator`
+* :ref:`static-call-may-be-truly-static`
 
 
 
@@ -3414,7 +3422,7 @@ Suggestions
 
 This ruleset focuses on possibly better syntax than the one currently used. Those may be code modernization, alternatives, more efficient solutions, or simply left over from older versions. 
 
-Total : 104 analysis
+Total : 107 analysis
 
 * :ref:`while(list()-=-each())`
 * :ref:`function-subscripting,-old-style`
@@ -3456,7 +3464,7 @@ Total : 104 analysis
 * :ref:`parent-first`
 * :ref:`never-called-parameter`
 * :ref:`should-use-array\_filter()`
-* :ref:`reuse-variable`
+* :ref:`reuse-existing-variable`
 * :ref:`should-use-math`
 * :ref:`could-use-compact`
 * :ref:`could-use-array\_fill\_keys`
@@ -3467,7 +3475,7 @@ Total : 104 analysis
 * :ref:`drop-substr-last-arg`
 * :ref:`one-if-is-sufficient`
 * :ref:`could-use-array\_unique`
-* :ref:`compact-inexistant-variable`
+* :ref:`inexistant-variable-in-compact()`
 * :ref:`should-use-operator`
 * :ref:`could-be-static-closure`
 * :ref:`use-is\_countable`
@@ -3520,6 +3528,9 @@ Total : 104 analysis
 * :ref:`multiple-similar-calls`
 * :ref:`could-be-ternary`
 * :ref:`use-file-append`
+* :ref:`could-use-existing-constant`
+* :ref:`could-use-array\_sum()`
+* :ref:`too-many-stringed-elseif`
 
 
 
@@ -3636,7 +3647,7 @@ All
 
 All is a dummy ruleset, which includes all the rules. It is mostly used internally.
 
-Total : 1428 analysis
+Total : 1442 analysis
 
 * :ref:`adding-zero`
 * :ref:`ambiguous-array-index`
@@ -4080,7 +4091,7 @@ Total : 1428 analysis
 * :ref:`mark-callable`
 * :ref:`magic-visibility`
 * :ref:`use-pathinfo`
-* :ref:`should-use-constants`
+* :ref:`should-use-existing-constants`
 * :ref:`hash-algorithms`
 * :ref:`avoid-those-hash-functions`
 * :ref:`ext-dio`
@@ -4218,7 +4229,7 @@ Total : 1428 analysis
 * :ref:`real-variables`
 * :ref:`real-functions`
 * :ref:`normal-methods`
-* :ref:`unused-arguments`
+* :ref:`unused-parameter`
 * :ref:`uses-environment`
 * :ref:`switch-to-switch`
 * :ref:`wrong-parameter-type`
@@ -4549,7 +4560,7 @@ Total : 1428 analysis
 * :ref:`local-globals`
 * :ref:`useless-referenced-argument`
 * :ref:`fallback-function`
-* :ref:`reuse-variable`
+* :ref:`reuse-existing-variable`
 * :ref:`double-array\_flip()`
 * :ref:`useless-catch`
 * :ref:`find-key-directly`
@@ -4598,7 +4609,7 @@ Total : 1428 analysis
 * :ref:`cache-variable-outside-loop`
 * :ref:`use-the-blind-var`
 * :ref:`configure-extract`
-* :ref:`compact-inexistant-variable`
+* :ref:`inexistant-variable-in-compact()`
 * :ref:`method-signature-must-be-compatible`
 * :ref:`mismatch-type-and-default`
 * :ref:`flexible-heredoc`
@@ -5035,6 +5046,7 @@ Total : 1428 analysis
 * :ref:`new-functions-in-php-8.1`
 * :ref:`php-8.1-removed-functions`
 * :ref:`never-keyword`
+* :ref:`mixed-keyword`
 * :ref:`mixed-typehint-usage`
 * :ref:`false-to-array-conversion`
 * :ref:`float-conversion-as-index`
@@ -5066,6 +5078,19 @@ Total : 1428 analysis
 * :ref:`could-use-existing-constant`
 * :ref:`dont-reuse-foreach-source`
 * :ref:`collect-dependency-extension`
+* :ref:`public-reach-to-private-methods`
+* :ref:`unreachable-method`
+* :ref:`static-call-may-be-truly-static`
+* :ref:`could-use-array\_sum()`
+* :ref:`undefined-methods`
+* :ref:`is-stub-structure`
+* :ref:`is-php-structure`
+* :ref:`is-extension-structure`
+* :ref:`unfinished-object`
+* :ref:`use-class\_alias()`
+* :ref:`undefined-enumcase`
+* :ref:`too-many-stringed-elseif`
+* :ref:`missing-typehints`
 
 
 

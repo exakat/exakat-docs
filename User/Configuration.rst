@@ -623,6 +623,10 @@ prefixedType['uuid'] = '\Uuid';
   + omittedValues : 
 
     + Comma-separated list of values that have to be ignored with this analysis. They replace the default values of 0 and 1.
+:ref:`Too Many Stringed Elseif <too-many-stringed-elseif>`
+  + maxIf : 5
+
+    + Maximum number of allowed stringed if-then-elseif structure.
 
 
     
