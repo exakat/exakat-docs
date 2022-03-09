@@ -6,7 +6,7 @@ Rulesets
 Introduction
 ------------------------
 
-Exakat provides unique 1454 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
+Exakat provides unique 1457 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
 
 For more smoothly usage, the ruleset concept allow you to run a set of rules based on a decidated focus. Beawre that a Ruleset run all the associated rules and any needed dependencies.
 
@@ -69,7 +69,7 @@ Here is the list of the current rulesets supported by Exakat Engine.
 +-----------------------------------------------+------------------------------------------------------------------------------------------------------+
 | :ref:`ruleset-dump`                           |Dump is a collector set of rules.                                                                     |
 +-----------------------------------------------+------------------------------------------------------------------------------------------------------+
-| :ref:`ruleset-first`                          |A set of rules that are always run at the beginning of a project, because they are frenquently used.  |
+| :ref:`ruleset-first`                          |A set of rules that are always run at the beginning of a project, because they are frequently used.   |
 +-----------------------------------------------+------------------------------------------------------------------------------------------------------+
 | :ref:`ruleset-inventory`                      |A set of rules that collect various definitions from the code                                         |
 +-----------------------------------------------+------------------------------------------------------------------------------------------------------+
@@ -98,6 +98,8 @@ Here is the list of the current rulesets supported by Exakat Engine.
 | :ref:`ruleset-compatibilityphp82`             |List features that are incompatible with PHP 8.2.                                                     |
 +-----------------------------------------------+------------------------------------------------------------------------------------------------------+
 | :ref:`ruleset-classdependencies`              |A set of rules dedicated to show classes dependences                                                  |
++-----------------------------------------------+------------------------------------------------------------------------------------------------------+
+| :ref:`ruleset-php-recommendations`            |Report recommendations from the PHP manual.                                                           |
 +-----------------------------------------------+------------------------------------------------------------------------------------------------------+
 
 Note : in command line, don't forget to add quotes to rulesets' names that include white space.
@@ -2086,6 +2088,8 @@ Specs
 +--------------+------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud>`_ |
 +--------------+------------------------------------------------------------------------------------------------------------------------+
+| Reports      | :ref:`report-ambassador`                                                                                               |
++--------------+------------------------------------------------------------------------------------------------------------------------+
 
 
 .. _ruleset-compatibilityphp54:
@@ -2595,7 +2599,7 @@ Total : 28 analysis
 
 * :ref:`new-functions-in-php-7.3`
 * :ref:`unknown-pcre2-option`
-* :ref:`inexistant-variable-in-compact()`
+* :ref:`nonexistent-variable-in-compact()`
 * :ref:`case-insensitive-constants`
 * :ref:`assert-function-is-reserved`
 * :ref:`continue-is-for-loop`
@@ -2797,7 +2801,7 @@ Dead code
 
 This ruleset focuses on dead code : expressions or even structures that are written, valid but never used.
 
-Total : 27 analysis
+Total : 29 analysis
 
 * :ref:`unused-use`
 * :ref:`unused-private-properties`
@@ -2826,6 +2830,8 @@ Total : 27 analysis
 * :ref:`self-using-trait`
 * :ref:`useless-type-check`
 * :ref:`unreachable-method`
+* :ref:`identical-elseif`
+* :ref:`use-variable-created-inside-loop`
 
 
 
@@ -2946,7 +2952,7 @@ Specs
 First
 +++++
 
-A set of rules that are always run at the beginning of a project, because they are frenquently used. It is mostly used internally.
+A set of rules that are always run at the beginning of a project, because they are frequently used. It is mostly used internally.
 
 Total : 6 analysis
 
@@ -3009,7 +3015,6 @@ For example :
 
 
 
-
 Total : 32 analysis
 
 * :ref:`constants-names`
@@ -3053,6 +3058,8 @@ Specs
 | Short name   | Inventory                                                                                                              |
 +--------------+------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud>`_ |
++--------------+------------------------------------------------------------------------------------------------------------------------+
+| Reports      |                                                                                                                        |
 +--------------+------------------------------------------------------------------------------------------------------------------------+
 
 
@@ -3122,7 +3129,7 @@ Performances
 
 This ruleset focuses on performances issues : anything that slows the code's execution.
 
-Total : 49 analysis
+Total : 50 analysis
 
 * :ref:`eval()-usage`
 * :ref:`for-using-functioncall`
@@ -3173,6 +3180,7 @@ Total : 49 analysis
 * :ref:`optimize-explode()`
 * :ref:`scope-resolution-operator`
 * :ref:`static-call-may-be-truly-static`
+* :ref:`simplify-foreach`
 
 
 
@@ -3192,7 +3200,7 @@ Specs
 php-cs-fixable
 ++++++++++++++
 
-[PHP-CS-FIXER](https://github.com/FriendsOfPHP/PHP-CS-Fixer) is a tool to automatically fix PHP Coding Standards issues. It applies modifications in the PHP code automatically. Exakat finds results which may be automatically updated with PHP-CS-FIXER. 
+`php-cs-fixer <https://github.com/FriendsOfPHP/PHP-CS-Fixer>`_ is a tool to automatically fix PHP Coding Standards issues. It applies modifications in the PHP code automatically. Exakat finds results which may be automatically updated with PHP-CS-FIXER. 
 
 Total : 11 analysis
 
@@ -3475,7 +3483,7 @@ Total : 107 analysis
 * :ref:`drop-substr-last-arg`
 * :ref:`one-if-is-sufficient`
 * :ref:`could-use-array\_unique`
-* :ref:`inexistant-variable-in-compact()`
+* :ref:`nonexistent-variable-in-compact()`
 * :ref:`should-use-operator`
 * :ref:`could-be-static-closure`
 * :ref:`use-is\_countable`
@@ -3592,6 +3600,8 @@ Specs
 +--------------+------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud>`_ |
 +--------------+------------------------------------------------------------------------------------------------------------------------+
+| Reports      | :ref:`report-top10`                                                                                                    |
++--------------+------------------------------------------------------------------------------------------------------------------------+
 
 
 .. _ruleset-typechecks:
@@ -3647,7 +3657,7 @@ All
 
 All is a dummy ruleset, which includes all the rules. It is mostly used internally.
 
-Total : 1442 analysis
+Total : 1445 analysis
 
 * :ref:`adding-zero`
 * :ref:`ambiguous-array-index`
@@ -4609,7 +4619,7 @@ Total : 1442 analysis
 * :ref:`cache-variable-outside-loop`
 * :ref:`use-the-blind-var`
 * :ref:`configure-extract`
-* :ref:`inexistant-variable-in-compact()`
+* :ref:`nonexistent-variable-in-compact()`
 * :ref:`method-signature-must-be-compatible`
 * :ref:`mismatch-type-and-default`
 * :ref:`flexible-heredoc`
@@ -5091,6 +5101,9 @@ Total : 1442 analysis
 * :ref:`undefined-enumcase`
 * :ref:`too-many-stringed-elseif`
 * :ref:`missing-typehints`
+* :ref:`identical-elseif`
+* :ref:`simplify-foreach`
+* :ref:`use-variable-created-inside-loop`
 
 
 
@@ -5154,6 +5167,41 @@ Specs
 +--------------+------------------------------------------------------------------------------------------------------------------------+
 | Reports      | :ref:`report-classdependencies`                                                                                        |
 +--------------+------------------------------------------------------------------------------------------------------------------------+
+
+
+.. _ruleset-php-recommendations:
+
+PHP recommendations
++++++++++++++++++++
+
+This ruleset is collected from the warnings and notes that are available in the PHP manual. For example, `return <https://www.php.net/manual/en/function.return.php>` do not require parenthesis.
+
+Total : 14 analysis
+
+* :ref:`strpos()-like-comparison`
+* :ref:`bad-constants-names`
+* :ref:`use-with-fully-qualified-name`
+* :ref:`dangling-array-references`
+* :ref:`return-with-parenthesis`
+* :ref:`no-real-comparison`
+* :ref:`use-constant`
+* :ref:`useless-type-casting`
+* :ref:`no-isset()-with-empty()`
+* :ref:`avoid-array\_push()`
+* :ref:`crc32()-might-be-negative`
+* :ref:`implode-one-arg`
+* :ref:`could-be-stringable`
+* :ref:`missing-attribute-attribute`
+
+
+
+Specs
+^^^^^
++--------------+---------------------+
+| Short name   | PHP recommendations |
++--------------+---------------------+
+| Available in |                     |
++--------------+---------------------+
 
 
 

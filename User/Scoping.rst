@@ -108,7 +108,7 @@ With that configuration, the Drillinstructor and the Owasp report are created au
 Predefined config files
 ------------------------
 
-36 rulesets detailled here : 
+37 rulesets detailled here : 
 
 .. _annex-analyze:
 
@@ -5309,9 +5309,11 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Namespaces/EmptyNamespace";
    analyzer[] = "Namespaces/UnusedUse";
    analyzer[] = "Structures/EmptyLines";
+   analyzer[] = "Structures/IdenticalElseif";
    analyzer[] = "Structures/UnreachableCode";
    analyzer[] = "Structures/UnsetInForeach";
    analyzer[] = "Structures/UnusedLabel";
+   analyzer[] = "Structures/UseVariableInsideLoop";
    analyzer[] = "Traits/SelfUsingTrait";
 
 
@@ -5349,9 +5351,11 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Namespaces/EmptyNamespace'
      - 'Namespaces/UnusedUse'
      - 'Structures/EmptyLines'
+     - 'Structures/IdenticalElseif'
      - 'Structures/UnreachableCode'
      - 'Structures/UnsetInForeach'
      - 'Structures/UnusedLabel'
+     - 'Structures/UseVariableInsideLoop'
      - 'Traits/SelfUsingTrait'
 
 
@@ -5813,6 +5817,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Performances/RegexOnArrays";
    analyzer[] = "Performances/RegexOnCollector";
    analyzer[] = "Performances/SimpleSwitch";
+   analyzer[] = "Performances/SimplifyForeach";
    analyzer[] = "Performances/SlowFunctions";
    analyzer[] = "Performances/StaticCallDontNeedObjects";
    analyzer[] = "Performances/SubstrFirst";
@@ -5875,6 +5880,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Performances/RegexOnArrays'
      - 'Performances/RegexOnCollector'
      - 'Performances/SimpleSwitch'
+     - 'Performances/SimplifyForeach'
      - 'Performances/SlowFunctions'
      - 'Performances/StaticCallDontNeedObjects'
      - 'Performances/SubstrFirst'
@@ -7460,6 +7466,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Performances/RegexOnArrays";
    analyzer[] = "Performances/RegexOnCollector";
    analyzer[] = "Performances/SimpleSwitch";
+   analyzer[] = "Performances/SimplifyForeach";
    analyzer[] = "Performances/SlowFunctions";
    analyzer[] = "Performances/StaticCallDontNeedObjects";
    analyzer[] = "Performances/StrposTooMuch";
@@ -7877,6 +7884,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/HtmlentitiescallDefaultFlag";
    analyzer[] = "Structures/IdenticalConditions";
    analyzer[] = "Structures/IdenticalConsecutive";
+   analyzer[] = "Structures/IdenticalElseif";
    analyzer[] = "Structures/IdenticalOnBothSides";
    analyzer[] = "Structures/IfWithSameConditions";
    analyzer[] = "Structures/Iffectation";
@@ -8033,6 +8041,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/UsePositiveCondition";
    analyzer[] = "Structures/UseSystemTmp";
    analyzer[] = "Structures/UseUrlQueryFunctions";
+   analyzer[] = "Structures/UseVariableInsideLoop";
    analyzer[] = "Structures/UselessBrackets";
    analyzer[] = "Structures/UselessCasting";
    analyzer[] = "Structures/UselessCheck";
@@ -8922,6 +8931,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Performances/RegexOnArrays'
      - 'Performances/RegexOnCollector'
      - 'Performances/SimpleSwitch'
+     - 'Performances/SimplifyForeach'
      - 'Performances/SlowFunctions'
      - 'Performances/StaticCallDontNeedObjects'
      - 'Performances/StrposTooMuch'
@@ -9339,6 +9349,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/HtmlentitiescallDefaultFlag'
      - 'Structures/IdenticalConditions'
      - 'Structures/IdenticalConsecutive'
+     - 'Structures/IdenticalElseif'
      - 'Structures/IdenticalOnBothSides'
      - 'Structures/IfWithSameConditions'
      - 'Structures/Iffectation'
@@ -9495,6 +9506,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/UsePositiveCondition'
      - 'Structures/UseSystemTmp'
      - 'Structures/UseUrlQueryFunctions'
+     - 'Structures/UseVariableInsideLoop'
      - 'Structures/UselessBrackets'
      - 'Structures/UselessCasting'
      - 'Structures/UselessCheck'
@@ -9720,6 +9732,67 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
   rulesets:
     'Classdependencies':
      - 'Dump/CollectClassesDependencies'
+
+
+
+
+.. _annex-php-recommendations:
+
+PHP recommendations
+###################
+
+
+.. _annex-ini-php-recommendations:
+
+PHP recommendations for INI
++++++++++++++++++++++++++++
+
+
+INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and edit them to your owns.
+::
+
+ [PHP recommendations]
+   analyzer[] = "Attributes/MissingAttributeAttribute";
+   analyzer[] = "Classes/CouldBeStringable";
+   analyzer[] = "Constants/BadConstantnames";
+   analyzer[] = "Namespaces/UseWithFullyQualifiedNS";
+   analyzer[] = "Performances/AvoidArrayPush";
+   analyzer[] = "Php/Crc32MightBeNegative";
+   analyzer[] = "Php/ImplodeOneArg";
+   analyzer[] = "Php/ReturnWithParenthesis";
+   analyzer[] = "Structures/DanglingArrayReferences";
+   analyzer[] = "Structures/NoIssetWithEmpty";
+   analyzer[] = "Structures/StrposCompare";
+   analyzer[] = "Structures/UseConstant";
+   analyzer[] = "Structures/UselessCasting";
+   analyzer[] = "Type/NoRealComparison";
+
+
+.. _annex-yaml-php-recommendations:
+
+PHP recommendations for .exakat.yaml
+++++++++++++++++++++++++++++++++++++
+
+
+YAML configuration for built-in rulesets. Copy them in your code, with the name .exakat.yaml, and edit them to your owns.
+::
+
+  rulesets:
+    'PHP recommendations':
+     - 'Attributes/MissingAttributeAttribute'
+     - 'Classes/CouldBeStringable'
+     - 'Constants/BadConstantnames'
+     - 'Namespaces/UseWithFullyQualifiedNS'
+     - 'Performances/AvoidArrayPush'
+     - 'Php/Crc32MightBeNegative'
+     - 'Php/ImplodeOneArg'
+     - 'Php/ReturnWithParenthesis'
+     - 'Structures/DanglingArrayReferences'
+     - 'Structures/NoIssetWithEmpty'
+     - 'Structures/StrposCompare'
+     - 'Structures/UseConstant'
+     - 'Structures/UselessCasting'
+     - 'Type/NoRealComparison'
 
 
 

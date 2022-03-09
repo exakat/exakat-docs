@@ -6,7 +6,7 @@ Release Note
 
 Here is the release note of exakat. 
 
-**Version 2.3.7 (Xiao Yu, 2022-03-02)**
+**Version 2.3.8 (Xiao Yu, 2022-03-16)**
 
 
 + Architecture
@@ -23,6 +23,37 @@ Here is the release note of exakat.
 
 + Tokenizer
     + 
+
+**Version 2.3.7 (Xiao Yu, 2022-03-02)**
+
+
++ Architecture
+    + Fixed all internal step's case
+
++ Report
+    + New report : PerRule (same as PerFile, but grouped by rules)
+    + New report : CompatibilityPHP56 (based on Perfile, dedicated to Compatibility PHP 5.6)
+    + Updated report : Ambassador now lists @keywords in phpdocs (inventories)
+    + Updated report : Manual includes sections for namespaces, and global constants
+
++ Analysis
+    + New analysis : Use variables when they are created inside a loop
+    + New analysis : Simplify Foreach()
+    + New analysis : Identical Conditions on If-elseif
+    + Refactored analysis : Undefined Instanceof now relies on isPhp/isExt/IsStub
+    + Refactored analysis : First byte only, now uses variable typehints
+    + Refactored analysis : Dont loop on yield
+    + Refactored analysis : Interfaces suggestion now accepts php/ext/stubs configuration
+    + Refactored analysis : Static calls to traits exclude self, parent, static
+    + Refactored analysis : Don't read and write at the same time : Extended to all containers, removed edge cases
+    + Refactored analysis : Undefined interfaces takes Variable Typehint into account
+    + Refactored analysis : Incompatible Method signature
+    + Refactored analysis : Unfinished objects now checks called internal methods
+    + Refactored analysis : Better coverage for Class Constants 
+    + Refactored analysis : Insufficient typehint skips properties without a type
+
++ Tokenizer
+    + Extended support for Variable typehints
 
 **Version 2.3.6 (Qin Qiong, 2022-02-16)**
 

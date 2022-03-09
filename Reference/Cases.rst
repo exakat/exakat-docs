@@ -30,7 +30,7 @@ PrestaShop
 Null, as a key, is actually the empty string. 
 
 .. code-block:: php
-
+   
     $list = array(
                 'products' => _PS_PROD_IMG_DIR_,
                 'categories' => _PS_CAT_IMG_DIR_,
@@ -52,7 +52,7 @@ Mautic
 True is turned into 1 (integer), and false is turned into 0 (integer). 
 
 .. code-block:: php
-
+   
     foreach ($metadata->getAssociationMappings() as $field => $association) {
                         if (in_array($association['type'], [ClassMetadataInfo::ONE_TO_ONE, ClassMetadataInfo::MANY_TO_ONE])) {
                             $baseCols[true][$entityClass][]  = $association['joinColumns'][0]['name'];
@@ -77,7 +77,7 @@ Thelia
 This code extract the last element with array_slice (position -1) as an array, then get the element in the array with current().
 
 .. code-block:: php
-
+   
     current(\array_slice(self::$accessPows, -1, 1, true))
 
 
@@ -97,7 +97,7 @@ Magento
 'type' is defined twice. The first one, 'options' is overwritten.
 
 .. code-block:: php
-
+   
     $this->addColumn('store_id', array(
                 'header'    => Mage::helper('adminhtml')->__('Store'),
                 'type'      => 'options',
@@ -119,7 +119,7 @@ MediaWiki
 'target' is repeated, though with the same values. This is just dead code.
 
 .. code-block:: php
-
+   
     // inside a big array
     	'jquery.getAttrs' => [
     		'targets' => [ 'desktop', 'mobile' ],
@@ -145,7 +145,7 @@ Dolibarr
 The `state` constant in the `$result` array is coming from the SQL query. There is no need to make this a constant : making it a string will remove some warnings in the logs.
 
 .. code-block:: php
-
+   
     public function hasAuthorizationState($service)
         {
             // get state from db
@@ -174,7 +174,7 @@ Zencart
 The `fields` constant in the `$tableEntry` which holds a list of tables. It seems to be a SQL result, but it is conveniently abstracted with `$this->listener->getTableList()`, so we can't be sure.
 
 .. code-block:: php
-
+   
     public function updateLanguageTables($insertId)
         {
             $tableList = $this->listener->getTableList();
@@ -208,7 +208,7 @@ Contao
 The array array('maxlength', 'decodeEntities', 'tl_class') is configured multiple times in this file. Most of them is in the second form, but some are in the first form. (Multiple occurrences in this file). 
 
 .. code-block:: php
-
+   
     array('maxlength' => 255, 'decodeEntities' => true, 'tl_class' => 'w50') // Line 246
     array('decodeEntities' => true, 'maxlength' => 255, 'tl_class' => 'w50'); // ligne 378
 
@@ -224,7 +224,7 @@ Vanilla
 'Photo' moved from last to second. This array is used with a 'Join' key, and is the base for a SQL table JOIN. As such, order is important. If this is the case, it seems unusual that the order is not the same for a join using the same tables. If it is not the case, arrays may be reordered. 
 
 .. code-block:: php
-
+   
     /* L 305 */        Gdn::userModel()->joinUsers(
                 $result->resultArray(),
                 ['ActivityUserID', 'RegardingUserID'],
@@ -251,7 +251,7 @@ WordPress
 Instead of reading ALL the keys, and then, keeping only the first fifty, why not read the 50 first items from the array, and then extract the keys?
 
 .. code-block:: php
-
+   
     $results = array_slice(array_keys($diff), 0 ,50);
 
 
@@ -271,7 +271,7 @@ Zurmo
 The class MassEditProgressView extends ProgressView, which is an abstract class. That class defines one abstract method : abstract protected function headerLabelPrefixContent(). Yet, the class MassEditProgressView doesn't implements this method. This means that the class can't be instatiated, and indeed, it isn't. The class MassEditProgressView is subclassed, by the class MarketingListMembersMassSubscribeProgressView, which implements the method headerLabelPrefixContent(). As such, MassEditProgressView should be marked abstract, so as to prevent any instantiation attempt. 
 
 .. code-block:: php
-
+   
     class MassEditProgressView extends ProgressView { 
         /**/ 
     }
@@ -293,7 +293,7 @@ Typo3
 $allowedNewTables is declared once  protected and once public. $allowedNewTables is rare : 2 occurences. This may lead to confusion about access to this property.
 
 .. code-block:: php
-
+   
     class NewRecordController
     {
     /.. many lines../
@@ -330,7 +330,7 @@ ChurchCRM
 Backuptype is initialized with null, and yet, it isn't checked for any invalid valid values, in particular in switch() structures.
 
 .. code-block:: php
-
+   
     // BackupType is initialized with null
       class JobBase
       {
@@ -382,7 +382,7 @@ Dolibarr
 $this->fk_product is tested for value 11 times while being used in this class. All detected situations were checking the presence of the property before usage.
 
 .. code-block:: php
-
+   
     class Productlot extends CommonObject
     {
     // more code
@@ -412,7 +412,7 @@ WordPress
 This code actually loads the file, join it, then split it again. file() would be sufficient. 
 
 .. code-block:: php
-
+   
     $markerdata = explode( "\n", implode( '', file( $filename ) ) );
 
 
@@ -432,7 +432,7 @@ shopware
 Most Element classes extends ModelEntity, which is an abstract class. There is also an interface, called Element, for forms. And, last, one of the class Element extends JsonSerializable, which is a PHP native interface. Namespaces are definitely crucial to understand which Element is which. 
 
 .. code-block:: php
-
+   
     interface Element { /**/ } // in engine/Shopware/Components/Form/Interfaces/Element.php:30
     
     class Element implements \JsonSerializable { /**/ } 	// in engine/Shopware/Bundle/EmotionBundle/Struct/Element.php:29
@@ -451,7 +451,7 @@ NextCloud
 Interface Storage extends another Storage class. Here, the fully qualified name is used, so we can understand which storage is which at read time : a 'use' alias would make this line more confusing.
 
 .. code-block:: php
-
+   
     interface Storage extends \OCP\Files\Storage { /**/ }
 
 
@@ -471,7 +471,7 @@ Edusoho
 BaseStrategy is extended by NormalStrategy, DefaultStrategy (Not shown here), but it is not instantiated itself.
 
 .. code-block:: php
-
+   
     class BaseStrategy { 
         // Class code
     }
@@ -488,7 +488,7 @@ shopware
 A 'Generic' class sounds like a class that could be 'abstract'. 
 
 .. code-block:: php
-
+   
     class GenericPaymentMethod extends BasePaymentMethod { 
         // More class code
     }
@@ -510,7 +510,7 @@ Phinx
 The code includes a fair number of class constants. The one listed here are only used to define TEXT columns in MySQL, with their maximal size. Since they are only intented to be used by the MySQL driver, they may be private.
 
 .. code-block:: php
-
+   
     class MysqlAdapter extends PdoAdapter implements AdapterInterface
     {
     
@@ -537,7 +537,7 @@ FuelCMS
 This method makes no usage of $this : it only works on the incoming argument, $file. This may even be a function.
 
 .. code-block:: php
-
+   
     public function get_file($file)
     	{
     		// if no extension is provided, then we determine that it needs to be decoded
@@ -560,7 +560,7 @@ ExpressionEngine
 This method returns the list of mime type, by using a hidden global value : ee() is a functioncall that give access to the external storage of values.
 
 .. code-block:: php
-
+   
     /**
     	 * List of Mime Types
     	 *
@@ -593,7 +593,7 @@ WordPress
 This code actually loads the file, join it, then split it again. file() would be sufficient. 
 
 .. code-block:: php
-
+   
     $markerdata = explode( "\n", implode( '', file( $filename ) ) );
 
 
@@ -613,7 +613,7 @@ Woocommerce
 WC_Cart_Session and WC_Cart_Fees receives $this, the current object, at a moment where it is not consistent : for example, tax_display_cart hasn't been set yet. Although it may be unexpected to have an object called WC_Cart being called by the session or the fees, this is still a temporary inconsistence. 
 
 .. code-block:: php
-
+   
     /**
     	 * Constructor for the cart class. Loads options and hooks in the init method.
     	 */
@@ -637,7 +637,7 @@ Contao
 $this is send to $objRegistry. $objRegistry is obtained with a factory, \Model\Registry::getInstance(). It is probably fully prepared at that point. Yet, $objRegistry is called and used to fill $this properties with full values. At some point, $objRegistry return values without having a handle on a fully designed object. 
 
 .. code-block:: php
-
+   
     /**
     	 * Load the relations and optionally process a result set
     	 *
@@ -673,7 +673,7 @@ Vanilla
 The _NotificationQueue property, in this class, is defined as an array. Here, it is destroyed, then recreated. The unset() is too much, as the assignation is sufficient to reset the array 
 
 .. code-block:: php
-
+   
     /**
          * Clear notification queue.
          *
@@ -697,7 +697,7 @@ Typo3
 The property errorParams is emptied by unsetting it. The property is actually defined in the above class, as an array. Until the next error is added to this list, any access to the error list has to be checked with isset(), or yield an 'Undefined' warning. 
 
 .. code-block:: php
-
+   
     public function checkLink($url, $softRefEntry, $reference)
         {
             $anchor = '';
@@ -732,7 +732,7 @@ WordPress
 Empty class, but documented as backward compatibility. 
 
 .. code-block:: php
-
+   
     /**
      * SimplePie class.
      *
@@ -764,7 +764,7 @@ SuiteCrm
 The class in the RSSDashlet.php file has an 'array' typehint which is not in the parent Dashlet class. While both files compile separately, they yield a PHP warning when running : typehinting mismatch only yields a warning. 
 
 .. code-block:: php
-
+   
     // File /modules/Home/Dashlets/RSSDashlet/RSSDashlet.php
         public function saveOptions(
             array $req
@@ -791,7 +791,7 @@ SuiteCrm
 The class in the RSSDashlet.php file has an 'array' typehint which is not in the parent Dashlet class. While both files compile separately, they yield a PHP warning when running : typehinting mismatch only yields a warning. 
 
 .. code-block:: php
-
+   
     // File /modules/Home/Dashlets/RSSDashlet/RSSDashlet.php
         public function saveOptions(
             array $req
@@ -818,7 +818,7 @@ LiveZilla
 Flags may default to array() in the class definition. Filled array(), with keys and values, are also possible. 
 
 .. code-block:: php
-
+   
     class OverlayChat
     {
         public $Botmode;
@@ -868,7 +868,7 @@ phpMyAdmin
 _isEnabled may default to true. It could also default to a class constant.
 
 .. code-block:: php
-
+   
     class Console
     {
         /**
@@ -904,7 +904,7 @@ FuelCMS
 Missing visibility for the index() method,and all the methods in the Module class.
 
 .. code-block:: php
-
+   
     class Module extends Fuel_base_controller {
     	
     	// --------------------------------------------------------------------
@@ -932,7 +932,7 @@ LiveZilla
 Static method that could be public.
 
 .. code-block:: php
-
+   
     class Visitor extends BaseUser 
     {
     // Lots of code
@@ -959,7 +959,7 @@ Dolphin
 getIdByNickname() is indeed defined in the class 'BxDolXMLRPCUtil' and it calls the database. The class relies on functions (not methods) to query the database with the correct connexion. 
 
 .. code-block:: php
-
+   
     class BxDolXMLRPCFriends
     {
         function getFriends($sUser, $sPwd, $sNick, $sLang)
@@ -978,7 +978,7 @@ Magento
 Mage_Payment_Model_Method_Abstract is an abstract class : this way, it is not possible to instantiate it and then, access its methods. The class is extended, so it could be called from one of the objects. Although, the troubling part is that isAvailable() uses $this, so it can't be static. 
 
 .. code-block:: php
-
+   
     Mage_Payment_Model_Method_Abstract::isAvailable($quote)
 
 
@@ -998,7 +998,7 @@ xataface
 With the usage of var and a first method bearing the name of the class, this is PHP 4 code that is still in use. 
 
 .. code-block:: php
-
+   
     class SQL_Parser_wrapper {
     	
     	var $_data;
@@ -1024,7 +1024,7 @@ shopware
 Here, the parent is called last. Givent that $title is defined in the same class, it seems that $name may be defined in the BaseContainer class. In fact, it is not, and BasecContainer and FieldSet are fairly independant classes. Thus, the parent::__construct call could be first here, though more as a coding convention.
 
 .. code-block:: php
-
+   
     /**
      * Class FieldSet
      */
@@ -1058,7 +1058,7 @@ PrestaShop
 A good number of properties are set in the current object even before the parent AdminController(Core) is called. 'table' and 'lang' acts as default values for the parent class, as it (the parent class) would set them to another default value. Many properties are used, but not defined in the current class, nor its parent. This approach prevents the constructor from requesting too many arguments. Yet, as such, it is difficult to follow which of the initial values are transmitted via protected/public properties rather than using the __construct() call.
 
 .. code-block:: php
-
+   
     class AdminPatternsControllerCore extends AdminController
     {
         public $name = 'patterns';
@@ -1089,7 +1089,7 @@ Mautic
 $translator is a private property, provided at construction time. It is private, and only used in the processBadEmails() method. $translator may be turned into a parameter for processBadEmails(), and make the class slimmer.
 
 .. code-block:: php
-
+   
     class SendEmailToContact
     {
         /**
@@ -1149,7 +1149,7 @@ Typo3
 $urltypes is a private property, with a list of protocols for communicationss. It acts as a constant, being only read in the executeUpdate() method : constants may hold arrays. If this property has to evolve in the future, an accessor to update it will be necessary. Until then, this list may be hardcoded in the method. 
 
 .. code-block:: php
-
+   
     /**
      * Merge URLs divided in pages.urltype and pages.url into pages.url
      * @internal This class is only meant to be used within EXT:install and is not part of the TYPO3 Core API.
@@ -1218,7 +1218,7 @@ WordPress
 This code actually loads the file, join it, then split it again. file() would be sufficient. 
 
 .. code-block:: php
-
+   
     $markerdata = explode( "\n", implode( '', file( $filename ) ) );
 
 
@@ -1238,7 +1238,7 @@ Contao
 Date is protected property. It is used only in the compile() method, and it is not used by the parent class. As such, it may be turned into a local variable.
 
 .. code-block:: php
-
+   
     class ModuleEventlist extends Events
     {
     
@@ -1267,7 +1267,7 @@ Piwigo
 default_themes is defined as an empty array, then filled with new values. Same for default_plugins. Both may be defined as declaration time, and not during the constructor.
 
 .. code-block:: php
-
+   
     class updates
     {
       var $types = array();
@@ -1312,7 +1312,7 @@ CustomField extends BaseCustomField, BaseCustomField extends RedBeanModel, RedBe
 Since $canHaveBean is distinct in BeanModel and in OwnedCustomField, the public method getCanHaveBean() also had to be overloaded. 
 
 .. code-block:: php
-
+   
     class OwnedCustomField extends CustomField
         {
             /**
@@ -1353,7 +1353,7 @@ SugarCrm
 The _relationship property starts its life as a string, and becomes an object later. 
 
 .. code-block:: php
-
+   
     class Link {
     
     	/* Private variables.*/
@@ -1384,7 +1384,7 @@ WordPress
 Securimage could be called self.
 
 .. code-block:: php
-
+   
     class Securimage 
     {
     // Lots of code
@@ -1403,7 +1403,7 @@ LiveZilla
 Using self makes it obvious that Operator::GetSystemId() is a local call, while Communication::GetParameter() is external.
 
 .. code-block:: php
-
+   
     class Operator extends BaseUser 
     {
         static function ReadParams()
@@ -1433,7 +1433,7 @@ xataface
 $this is hidden in the arguments of the static call to the method.
 
 .. code-block:: php
-
+   
     public static function loadRealm($name){
     		return self::getInstance($this->app->_conf['default_language'])->loadRealm($name);
     	}
@@ -1450,7 +1450,7 @@ SugarCrm
 Notice how $this is tested for existence before using it. It seems strange, at first, but we have to remember that if $this is never set when calling a static method, a static method may be called with $this. Confusingly, this static method may be called in two ways. 
 
 .. code-block:: php
-
+   
     static function hasAccess($is_owner=false, $access = 0){
     
             if($access != 0 && $access == ACL_ALLOW_ALL || ($is_owner && $access == ACL_ALLOW_OWNER))return true;
@@ -1479,7 +1479,7 @@ OpenEMR
 $this is used to call the document_upload_download_log() method, although this piece of code is not part of a class, nor is included in a class.
 
 .. code-block:: php
-
+   
     <?php 
     require_once(dirname(__FILE__) . "/../interface/globals.php");
     
@@ -1524,7 +1524,7 @@ Typo3
 More than 15 children for this class : 15 is the default configuration.
 
 .. code-block:: php
-
+   
     abstract class AbstractNode implements NodeInterface, LoggerAwareInterface {
 
 
@@ -1539,7 +1539,7 @@ Woocommerce
 This class is extended 22 times, more than the default configuration of 15.
 
 .. code-block:: php
-
+   
     class WC_REST_Controller extends WP_REST_Controller {
 
 
@@ -1559,7 +1559,7 @@ NextCloud
 Well documented Manager class. Quite a lot of injections though, it must take a long time to prepare it.
 
 .. code-block:: php
-
+   
     /**
     	 * Manager constructor.
     	 *
@@ -1627,7 +1627,7 @@ Thelia
 Classic address class, with every details. May be even shorter than expected.
 
 .. code-block:: php
-
+   
     //class DeliveryPostageEvent extends ActionEvent
         public function __construct(
             DeliveryModuleInterface $module,
@@ -1660,7 +1660,7 @@ HuMo-Gen
 lame_binary_path is a static property, but it is accessed as a normal property in the exception call, while it is checked with a valid syntax.
 
 .. code-block:: php
-
+   
     protected function wavToMp3($data)
         {
             if (!file_exists(self::$lame_binary_path) || !is_executable(self::$lame_binary_path)) {
@@ -1684,7 +1684,7 @@ WordPress
 Properties are not defined, but they are thoroughly initialized when the XML document is parsed. All those definition should be in a property definition, for clear documentation.
 
 .. code-block:: php
-
+   
     $this->DeliveryLine1 = '';
             $this->DeliveryLine2 = '';
             $this->City = '';
@@ -1703,7 +1703,7 @@ MediaWiki
 parsedParametersDeleteLog is an undefined property. Defining the property with a null default value is important here, to keep the code running. 
 
 .. code-block:: php
-
+   
     protected function getMessageParameters() {
     		if ( isset( $this->parsedParametersDeleteLog ) ) {
     			return $this->parsedParametersDeleteLog;
@@ -1726,7 +1726,7 @@ xataface
 This is probably a typo, since the property called 	public static $EX_NO_USERS_WITH_EMAIL = 501; is defined in that class. 
 
 .. code-block:: php
-
+   
     if ( !$user ) throw new Exception(df_translate('actions.forgot_password.null_user',"Cannot send email for null user"), self::$EX_NO_USERS_FOUND_WITH_EMAIL);
 
 
@@ -1741,7 +1741,7 @@ SugarCrm
 self::$sugar_strptime_long_mon refers to the current class, which extends DateTime. No static property was defined at either of them, with the name '$sugar_strptime_long_mon'. This has been a Fatal error at execution time since PHP 5.3, at least. 
 
 .. code-block:: php
-
+   
     if ( isset($regexp['positions']['F']) && !empty($dateparts[$regexp['positions']['F']])) {
                    // FIXME: locale?
         $mon = $dateparts[$regexp['positions']['F']];
@@ -1769,7 +1769,7 @@ SPIP
 The class Critere (Criteria) has no method at all. When using a class as an array, to capture values, one of the advantage of the class is in the default values for the properties. In particular, the last property here, called $not, should be initialized with a false. 
 
 .. code-block:: php
-
+   
     /**
      * Description d'un critère de boucle
      *
@@ -1816,7 +1816,7 @@ WordPress
 This code actually loads the file, join it, then split it again. file() would be sufficient. 
 
 .. code-block:: php
-
+   
     private function resolveTag($match)
         {
             $tagReflector = $this->createLinkOrSeeTagFromRegexMatch($match);
@@ -1841,7 +1841,7 @@ OpenEMR
 This class has a long list of private properties. It also has an equally long (minus one) list of accessors, and a __toString() method which exposes all of them. $oNotes is the only one never mentionned anywhere. 
 
 .. code-block:: php
-
+   
     class User
     {
         /**
@@ -1867,7 +1867,7 @@ phpadsnew
 $dispatcher is never used anywhere. 
 
 .. code-block:: php
-
+   
     class OA_Admin_UI_Component_Form
         extends HTML_QuickForm
     {
@@ -1890,7 +1890,7 @@ Typo3
 ``TYPO3\CMS\Core\Package\PackageManager`` could be ``TYPO3\CMS\Core\Package\PackageManager::class``. 
 
 .. code-block:: php
-
+   
     return [
         'TYPO3\CMS\Core\Package\PackageManager' => [
             'required' => [
@@ -1914,7 +1914,7 @@ TeamPass
 In this code, ``is_object()`` and ``instanceof`` have the same basic : they both check that $ts is an object. In fact, ``instanceof`` is more precise, and give more information about the variable. 
 
 .. code-block:: php
-
+   
     protected function parseTS($ts) {
         if (is_string($ts)) return date('Y-m-d H:i:s', strtotime($ts));
         else if (is_object($ts) && ($ts instanceof DateTime)) return $ts->format('Y-m-d H:i:s');
@@ -1932,7 +1932,7 @@ Zencart
 In this code, ``is_object()`` is used to check the status of the order. Possibly, $order is false or null in case of incompatible status. Yet, when $object is an object, and in particular being a global that may be assigned anywhere else in the code, it seems that the method 'update_status' is magically always available. Here, using instance of to make sure that $order is an 'paypal' class, or a 'storepickup' or any of the payment class.  
 
 .. code-block:: php
-
+   
     function __construct() {
         global $order;
     
@@ -1959,7 +1959,7 @@ TeamPass
 The is_null() test detects a special situation, that requires usage of default values. The 'else' handles every other situations, including when the $node is an object, or anything else. $this->getNode() will gain from having typehints : it may be NULL, or the results of mysqli_fetch_object() : a stdClass object. The expected properties of nleft and nright are not certain to be available.
 
 .. code-block:: php
-
+   
     public function getDescendants($id = 0, $includeSelf = false, $childrenOnly = false, $unique_id_list = false)
         {
             global $link;
@@ -1995,7 +1995,7 @@ WordPress
 This code actually loads the file, join it, then split it again. file() would be sufficient. 
 
 .. code-block:: php
-
+   
     $markerdata = explode( "\n", implode( '', file( $filename ) ) );
 
 
@@ -2015,7 +2015,7 @@ PrestaShop
 __getBaseUrl and __setBaseUrl shouldn't be named like that. 
 
 .. code-block:: php
-
+   
     /**
     	 * get base url for pagination links aftr excluded those key
     	 * identified on excluded query strings
@@ -2044,7 +2044,7 @@ Magento
 public method, called '__'. Example : $this->__();
 
 .. code-block:: php
-
+   
     public function __()
         {
             $args = func_get_args();
@@ -2070,7 +2070,7 @@ PrestaShop
 INSTALL_PATH is a valid name for a constant. __PS_BASE_URI__ is not a valid name.
 
 .. code-block:: php
-
+   
     require_once(INSTALL_PATH . 'install_version.php');
                 // needed for upgrade before 1.5
                 if (!defined('__PS_BASE_URI__')) {
@@ -2089,7 +2089,7 @@ Zencart
 A case where PHP needs help : if the PHP version is older than 5.3, then it is valid to compensate. Though, this __DIR__ has a fixed value, wherever it is used, while the official __DIR__ change from dir to dir. 
 
 .. code-block:: php
-
+   
     if (!defined('__DIR__')) define('__DIR__', dirname(__FILE__));
 
 
@@ -2109,7 +2109,7 @@ phpMyAdmin
 This may be turned into a `const` call, with a static expression. 
 
 .. code-block:: php
-
+   
     define('ROOT_PATH', __DIR__ . DIRECTORY_SEPARATOR)
 
 
@@ -2124,7 +2124,7 @@ Piwigo
 Const works efficiently with literal
 
 .. code-block:: php
-
+   
     define('EVENT_HANDLER_PRIORITY_NEUTRAL', 50)
 
 
@@ -2144,7 +2144,7 @@ OpenEMR
 Either a copy/paste, or a generated definition file : the file contains 25 constants definition. The constant is not found in the rest of the code. 
 
 .. code-block:: php
-
+   
     define("INS_TYPE_OTHER_NON-FEDERAL_PROGRAMS", 10);
 
 
@@ -2164,7 +2164,7 @@ Dolibarr
 All is documented here : 'Constants used to defined number of lines in textarea'. Constants are not changing during an execution, and this allows the script to set values early in the process, and have them used later, in the templates. Yet, building constants dynamically may lead to confusion, when developpers are not aware of the change. 
 
 .. code-block:: php
-
+   
     // Constants used to defined number of lines in textarea
     if (empty($conf->browser->firefox))
     {
@@ -2203,7 +2203,7 @@ OpenConf
 The constant is build according to the situation, in the part of the script (file request.php). This hides the actual origin of the value, but keeps the rest of the code simple. Just keep in mind that this constant may have different values.
 
 .. code-block:: php
-
+   
     if (isset($_GET['ocparams']) && !empty($_GET['ocparams'])) {
     		$params = '';
     		if (preg_match_all("/(\w+)--(\w+)_-/", $_GET['ocparams'], $matches)) {
@@ -2245,7 +2245,7 @@ In another file, /includes/api/class-wc-rest-exception.php, we find that WC_REST
 This code actually loads the file, join it, then split it again. file() would be sufficient. 
 
 .. code-block:: php
-
+   
     try {
     			$product_id = $this->save_product( $request );
     			$post       = get_post( $product_id );
@@ -2287,7 +2287,7 @@ Mautic
 $limit is read as a session variable or a default value. There are no check here that $limit is not null, before using it in a division. It is easy to imagine this is done elsewhere, yet a try/catch could help intercept unwanted situations.
 
 .. code-block:: php
-
+   
     //set limits
             $limit = $this->get('session')->get(
                 'mautic.stage.limit',
@@ -2315,7 +2315,7 @@ PrestaShop
 The setSpecificField method catches a WebserviceException, representing an issue with the call to the webservice. However, that piece of information is lost, and the exception is rethrown immediately, without any action.
 
 .. code-block:: php
-
+   
     public function setSpecificField($object, $method, $field_name, $entity_name)
     	{
     		try {
@@ -2345,7 +2345,7 @@ SugarCrm
 SugarCRM uses exceptions to fill work in progress. Here, we recognize a forgotten 'new' that makes throw call a function named 'Exception'. This fails with a Fatal Error, and doesn't issue the right messsage. The same error had propgated in the code by copy and paste : it is available 17 times in that same file.
 
 .. code-block:: php
-
+   
     function getContentChanges()
         {
             throw Exception("Not Implemented");
@@ -2363,7 +2363,7 @@ Zurmo
 Other part of the code actually instantiate the exception before throwing it.
 
 .. code-block:: php
-
+   
     abstract class GameCollectionRules
         {
             /**
@@ -2392,7 +2392,7 @@ Zurmo
 Catch the exception, then return. At least, the comment is honest.
 
 .. code-block:: php
-
+   
     try
                     {
                         $group = Group::getById((int)$this->type);
@@ -2416,7 +2416,7 @@ PrestaShop
 Here, the catch clause will intercept a IO problem while writing element on the disk, and will return false. Since this is a constructor, the returned value will be ignored and the object will be left in a wrong state, since it was not totally inited.
 
 .. code-block:: php
-
+   
     private function __construct()
         {
         // More code......
@@ -2445,7 +2445,7 @@ Zurmo
 Default values may be a literal (1, 'abc', ...), or a constant : global or class. Here, MissionsListConfigurationForm::LIST_TYPE_AVAILABLE may be used directly in the signature of the method
 
 .. code-block:: php
-
+   
     public function getMetadataFilteredByOption($option)
             {
                 if ($option == null)
@@ -2465,7 +2465,7 @@ Typo3
 $extension could get a default value to handle default situations : for example, a file is htm format by default, unless better known. Also, the if/then structure could get a 'else' clause, to handle unknown situations : those are situations where the extension is provided but not known, in particular when the icon is missing in the storage folder.
 
 .. code-block:: php
-
+   
     public function getIcon($extension)
         {
             if ($extension === 'htm') {
@@ -2493,7 +2493,7 @@ Cleverstyle
 is_writeable() should be written is_writable(). No extra 'e'. 
 
 .. code-block:: php
-
+   
     is_writeable($chunk_temp_dir)
 
 
@@ -2508,7 +2508,7 @@ phpMyAdmin
 join() should be written implode()
 
 .. code-block:: php
-
+   
     join('`, `', $tmp_privs2['Update'])
 
 
@@ -2528,7 +2528,7 @@ phpMyAdmin
 $request is an option to `checkParameters`, although it is not visibile with is its actual role.
 
 .. code-block:: php
-
+   
     public static function checkParameters($params, $request = false) { 
         /**/ 
     }
@@ -2545,7 +2545,7 @@ Cleverstyle
 $httponly is an option to `cookie`, and true/false makes it readable. There may be other situations, like fallback, or forcedd usage, so the boolean may be misleading. Note also the `$expire = 0`, which may be a date, or a special value. We need to read the documentation to understand this.
 
 .. code-block:: php
-
+   
     public function cookie($name, $value, $expire = 0, $httponly = false) { /**/ } 	 { 
         /**/ 
     }
@@ -2567,7 +2567,7 @@ Contao
 The empty closure returns `null`. The array_flip() array has now all its values set to null, and reset, as intended. A better alternative is to use the array_fill_keys() function, which set a default value to every element of an array, once provided with the expected keys.
 
 .. code-block:: php
-
+   
     $arrPages = array_map(function () {}, array_flip($tmp));
 
 
@@ -2582,7 +2582,7 @@ Phpdocumentor
 The array_walk() function is called on the plugin's list. Each element is registered with the application, but is not used directly : this is for later. The error mechanism is to throw an exception : this is the only expected feedback. As such, no return is expected. May be a 'foreach' loop would be more appropriate here, but this is syntactic sugar.
 
 .. code-block:: php
-
+   
     array_walk(
                 $plugins,
                 function ($plugin) use ($app) {
@@ -2619,7 +2619,7 @@ Tine20
 is_scalar() is sufficient here.
 
 .. code-block:: php
-
+   
     $value = array_filter($value, function ($val) { return is_scalar($val); });
 
 
@@ -2634,7 +2634,7 @@ NextCloud
 $qb is the object for the methodcall, passed via use. The closure may have been replaced with array($qb, 'createNamedParameter').
 
 .. code-block:: php
-
+   
     $parents = array_map(function($parent) use ($qb) {
     				return $qb->createNamedParameter($parent);
     			}, $parents);
@@ -2656,7 +2656,7 @@ Magento
 $objMethod argument is used to call a function, a method or a localmethod. The typehint would save the middle condition, and make a better job than 'is_array' to check if $objMethod is callable. Yet, the final 'else' means that $objMethod is also the name of a method, and PHP won't validate this, unless there is a function with the same name. Here, callable is not an option. 
 
 .. code-block:: php
-
+   
     public function each($objMethod, $args = [])
         {
             if ($objMethod instanceof \Closure) {
@@ -2686,7 +2686,7 @@ PrestaShop
 $funcname is tested with is_callable() before being used as a method. Typehint callable would reduce the size of the code. 
 
 .. code-block:: php
-
+   
     public static function arrayWalk(&$array, $funcname, &$user_data = false)
     	{
     		if (!is_callable($funcname)) return false;
@@ -2714,7 +2714,7 @@ Piwigo
 The closure function($m) makes no usage of the current object : using static prevents $this to be forwarded with the closure.
 
 .. code-block:: php
-
+   
     /**
        * WS reflection method implementation: lists all available methods
        */
@@ -2742,7 +2742,7 @@ Dolphin
 The ConstructHiddenValues function builds the ConstructHiddenSubValues function. Thus, ConstructHiddenValues can only be called once. 
 
 .. code-block:: php
-
+   
     function ConstructHiddenValues($Values)
     {
         /**
@@ -2798,7 +2798,7 @@ Contao
 The closure used with array_map() is empty : this means that the keys are all set to the returned value of the empty closure, which is null. The actual effect is to reset the values to NULL. A better solution, without using the empty closure, is to rely on array_fill_keys() to create an array with default values.  
 
 .. code-block:: php
-
+   
     if (!empty($tmp) && \is_array($tmp))
     			{
     				$arrPages = array_map(function () {}, array_flip($tmp));
@@ -2821,7 +2821,7 @@ SPIP
 generer_url_entite() takes $connect in, with a default value of empty string. Later, generer_url_entite() receives that value, but uses null as a default value. This forces the ternary test on $connect, to turn it into a null before shipping it to the next function, and having it processed accordingly.
 
 .. code-block:: php
-
+   
     // http://code.spip.net/@traiter_lien_implicite
     function traiter_lien_implicite($ref, $texte = '', $pour = 'url', $connect = '') {
     
@@ -2849,7 +2849,7 @@ WordPress
 This code actually loads the file, join it, then split it again. file() would be sufficient. 
 
 .. code-block:: php
-
+   
     $markerdata = explode( "\n", implode( '', file( $filename ) ) );
 
 
@@ -2869,7 +2869,7 @@ Piwigo
 $alternate_url is never explicitely passed to bad_request() : this doesn't show in this extract. It could be dropped from this code.
 
 .. code-block:: php
-
+   
     function bad_request($msg, $alternate_url=null)
     {
       set_status_header(400);
@@ -2899,7 +2899,7 @@ OpenConf
 Why do we need a `chair` when printing a cell's file ? 
 
 .. code-block:: php
-
+   
     function oc_printFileCells(&$sub, $chair = false) { /**/ }
 
 
@@ -2919,7 +2919,7 @@ Vanilla
 All three typehints are based on classes. When Parser or Renderer are changed, for testing, versioning or moduling reasons, they must subclass the original class. 
 
 .. code-block:: php
-
+   
     public function __construct(Quill\Parser $parser, Quill\Renderer $renderer, Quill\Filterer $filterer) {
             $this->parser = $parser;
             $this->renderer = $renderer;
@@ -2938,7 +2938,7 @@ phpMyAdmin
 Although the class is named 'DatabaseInterface', it is a class.
 
 .. code-block:: php
-
+   
     public function __construct(DatabaseInterface $dbi)
         {
             $this->dbi = $dbi;
@@ -2961,7 +2961,7 @@ SPIP
 job_queue_remove() is called as an administration order, and the result is not checked. It is considered as a fire-and-forget command. 
 
 .. code-block:: php
-
+   
     function job_queue_remove($id_job) {
     	include_spip('inc/queue');
     
@@ -2980,7 +2980,7 @@ LiveZilla
 The loadFile method tries to load a file, aka as include. If the inclusion fails, a PHP error is emitted (an exception would do the same), and there is not error management. Hence, the 'return true;', which is not tested later. It may be dropped.
 
 .. code-block:: php
-
+   
     public static function loadFile($filename, $dirs = null, $once = false)
         {
     // A lot of code to check and include files
@@ -3005,7 +3005,7 @@ ThinkPHP
 There are also the functions C, E, G... The applications is written in a foreign language, which may be a base for non-significant function names.
 
 .. code-block:: php
-
+   
     function F($name, $value = '', $path = DATA_PATH)
 
 
@@ -3020,7 +3020,7 @@ Cleverstyle
 There is also function f(). Those are actually overwritten methods. From the documentation, q() is for query, and f() is for fetch. Those are short names for frequently used functions.
 
 .. code-block:: php
-
+   
     public function q ($query, ...$params) {
 
 
@@ -3040,7 +3040,7 @@ Dolphin
 This is not possible, as array_slice() returns a new array, and not a reference. Minimally, the intermediate result must be saved in a variable, then popped. Actually, this code extracts the element at key 1 in the $aData array, although this also works with hash (non-numeric keys).
 
 .. code-block:: php
-
+   
     array_pop(array_slice($aData, 0, 1))
 
 
@@ -3055,7 +3055,7 @@ PhpIPAM
 This is sneaky bug : the assignation $status = 0 returns a value, and not a variable. This leads PHP to mistake the initialized 0 with the variable $status and fails. It is not possible to initialize variable AND use them as argument.
 
 .. code-block:: php
-
+   
     pcntl_waitpid($this->pid, $status = 0)
 
 
@@ -3075,7 +3075,7 @@ TeamPass
 This example puts actually a name on the events : this method 'delegate' and it does it in the smallest amount of possible work, being given all the arguments. 
 
 .. code-block:: php
-
+   
     /**
          * delegate to observer
          *
@@ -3099,7 +3099,7 @@ SPIP
 var2js() acts as an alternative for json_encode(). Yet, it used to be directly called by the framework's code and difficult to change. With the advent of json_encode, the native function has been used, and even, a compatibility tool was set up. Thus, the relay function. 
 
 .. code-block:: php
-
+   
     if (!function_exists('json_encode')) {
     	function json_encode($v) {
     		return var2js($v);
@@ -3123,7 +3123,7 @@ Dolphin
 This closures make immediate use of the $constraint argument, and calls its method aspectRatio. No check is made on this argument, and it may easily be mistaken with another class, or a null. Adding a typehint here will ensure a more verbose development error and help detect misuse of the closure. 
 
 .. code-block:: php
-
+   
     $this->arguments[2] = function ($constraint) use ($additionalConstraints) {
                 $constraint->aspectRatio();
                 if(is_callable($additionalConstraints)) 
@@ -3142,7 +3142,7 @@ Mautic
 This piece of code inside a 275 lines method. Besides, there are 11 classes that offer a 'getPriority' method, although $returnServices could help to semantically reduce the number of possible classes. Here, typehints on $a and $b help using the wrong kind of object. 
 
 .. code-block:: php
-
+   
     if (empty($alphabetical)) {
                 // Sort by priority
                 uasort($returnServices, function ($a, $b) {
@@ -3173,7 +3173,7 @@ Tine20
 True should be replaced by COUNT_RECURSIVE. The default one is COUNT_NORMAL.
 
 .. code-block:: php
-
+   
     count($billables, true)
 
 
@@ -3193,7 +3193,7 @@ HuMo-Gen
 15 local variables pieces of code are hard to find in a compact form. This function shows one classic trait of such issue : a large ifthen is at the core of the function, and each time, it collects some values and build a larger string. This should probably be split between different methods in a class. 
 
 .. code-block:: php
-
+   
     function calculate_nephews($generX) { // handed generations x is removed from common ancestor
     global $db_functions, $reltext, $sexe, $sexe2, $language, $spantext, $selected_language, $foundX_nr, $rel_arrayX, $rel_arrayspouseX, $spouse;
     global $reltext_nor, $reltext_nor2; // for Norwegian and Danish
@@ -3232,7 +3232,7 @@ WordPress
 11 parameters is a lot for a function. Note that it is more than the default configuration, and reported there. This may be configured.
 
 .. code-block:: php
-
+   
     /**
      * [identifyUserRights description]
      * @param  string $groupesVisiblesUser  [description]
@@ -3267,7 +3267,7 @@ ChurchCRM
 10 parameters is a lot for a function. Here, we may also identify a family (ID, Name), and a full address (Address1, Address2, State, Zip, Country), which may be turned into an object. 
 
 .. code-block:: php
-
+   
     public function StartNewPage($fam_ID, $fam_Name, $fam_Address1, $fam_Address2, $fam_City, $fam_State, $fam_Zip, $fam_Country, $fundOnlyString, $iFYID) 
     {
 
@@ -3288,7 +3288,7 @@ ThinkPHP
 $params are requested, but never used. The method is not overloading another one, as the class doesn't extends anything. $params is unused. 
 
 .. code-block:: php
-
+   
     class AgentCheckBehavior
     {
         public function run(&$params)
@@ -3314,7 +3314,7 @@ phpMyAdmin
 Although $column_index is documented, it is not found in the rest of the (long) body of the function. It might have been refactored into $sorted_column_index.
 
 .. code-block:: php
-
+   
     /**
          * Prepare parameters and html for sorted table header fields
          *
@@ -3367,7 +3367,7 @@ Woocommerce
 wc_is_external_resource() is unused. This is not obvious immediately, since there is a call from wc_get_relative_url(). Yet since wc_get_relative_url() itself is never used, then it is a dead function. As such, since wc_is_external_resource() is only called by this first function, it also dies, even though it is called in the code.
 
 .. code-block:: php
-
+   
     /**
      * Make a URL relative, if possible.
      *
@@ -3404,7 +3404,7 @@ Piwigo
 get_user_access_level_html_options() is unused and can't be find in the code.
 
 .. code-block:: php
-
+   
     /**
      * Returns access levels as array used on template with html_options functions.
      *
@@ -3439,7 +3439,7 @@ shopware
 In the first closuree, $containere is used as the root for the method calls, but $app is not used. It may be dropped. In fact, some of the following calls to $app->map() only request one inherited, $container.
 
 .. code-block:: php
-
+   
     $app->map('/applyMigrations', function () use ($app, $container) {
         $container->get('controller.batch')->applyMigrations();
     })->via('GET', 'POST')->name('applyMigrations');
@@ -3460,7 +3460,7 @@ Mautic
 $max is relayed to getLeadsToCreate(), while $restart is omitted. It may be dropped, along with its reference.
 
 .. code-block:: php
-
+   
     function () use (&$restart, $max) {
                         $args = func_get_args();
     
@@ -3495,7 +3495,7 @@ Tikiwiki
 E_WARNING is a valid value, but PHP documentation for trigger_error() explains that E_USER constants should be used. 
 
 .. code-block:: php
-
+   
     trigger_error("Octal or hexadecimal string '" . $match[1] . "' not supported", E_WARNING)
 
 
@@ -3510,7 +3510,7 @@ shopware
 One example where code review reports errors where unit tests don't : array_multisort actually requires sort order first (SORT_ASC or SORT_DESC), then sort flags (such as SORT_NUMERIC). Here, with SORT_DESC = 3 and SORT_NUMERIC = 1, PHP understands it as the coders expects it. The same error is repeated six times in the code. 
 
 .. code-block:: php
-
+   
     array_multisort($order, SORT_NUMERIC, SORT_DESC, $this->results)
 
 
@@ -3530,7 +3530,7 @@ Woocommerce
 $product is defined with a reference in the method signature, but it is also used as an object with a dynamical property. As such, the reference in the argument definition is too much.
 
 .. code-block:: php
-
+   
     public function update_post_meta( &$product, $force = false ) {
     		$meta_key_to_props = array(
     			'_variation_description' => 'description',
@@ -3560,7 +3560,7 @@ Magento
 $value is defined with a reference. In the following code, it is only read and never written : for index search, or by itself. In fact, $preferences is also only read, and never written. As such, both could be removed.
 
 .. code-block:: php
-
+   
     private function resolvePreferenceRecursive(&$value, &$preferences)
         {
             return isset($preferences[$value])
@@ -3585,7 +3585,7 @@ ThinkPHP
 __set() doesn't need a return, unlike __get().
 
 .. code-block:: php
-
+   
     public function __set($name, $value)
         {
             return $this->param[$name] = $value;
@@ -3603,7 +3603,7 @@ Vanilla
 The final 'return' is useless : return void (here, return without argument), is the same as returning null, unless the 'void' return type is used. The other return, is in the two conditions, is important to skip the end of the functioncall.
 
 .. code-block:: php
-
+   
     function writeAttachment($attachment) {
     
             $customMethod = AttachmentModel::getWriteAttachmentMethodName($attachment['Type']);
@@ -3637,7 +3637,7 @@ xataface
 df_display() actually requires only 2 arguments, while three are provided. The last argument is completely ignored. df_display() is called in a total of 9 places : this now looks like an API change that left many calls untouched.
 
 .. code-block:: php
-
+   
     df_display($context, $template, true);
     
     // in public-api.php :
@@ -3665,7 +3665,7 @@ FuelCMS
 The $regex parameter should really be first, as it is compulsory. Though, if this is a legacy function, it may be better to give regex a default value, such as empty string or null, and test it before using it.
 
 .. code-block:: php
-
+   
     if (!function_exists('regex'))
     {
     	function regex($var = null, $regex)
@@ -3686,7 +3686,7 @@ Vanilla
 Note the second parameter, $dropdown, which has no default value. It is relayed to the addDropdown method, which as no default value too. Since both methods are documented, we can see that they should be an addDropdown : null is probably a good idea, coupled with an explicit check on the actual value.
 
 .. code-block:: php
-
+   
     /**
          * Add a dropdown to the items array if it satisfies the $isAllowed condition.
          *
@@ -3723,7 +3723,7 @@ WordPress
 SqlServerAdapter extends PdoAdapter, PdoAdapter extends AbstractAdapter. The first and the last both implements AdapterInterface. Only one is needed.
 
 .. code-block:: php
-
+   
     /**
      * Base Abstract Database Adapter.
      */
@@ -3750,7 +3750,7 @@ Thelia
 PropelSearchLoopInterface is implemented by both BaseSpecificModule and Payment
 
 .. code-block:: php
-
+   
     abstract class BaseSpecificModule extends BaseI18nLoop implements PropelSearchLoopInterface
     
     /* in file  core/lib/Thelia/Core/Template/Loop/Payment.php, line 28 */
@@ -3774,7 +3774,7 @@ xataface
 Exception seems to be a typo, and leads to an always-true expression.
 
 .. code-block:: php
-
+   
     public static function isError($obj){
     		if ( !PEAR::isError($obj) and !($obj instanceof Exception_) ) return false;
     		return ($obj->getCode() >= DATAFACE_E_ERROR);
@@ -3797,7 +3797,7 @@ Tine20
 Tinebase_User_LdapPlugin_Interface is mentioned as a type for a property, in a php doc document. Typehinted properties are available since PHP 7.4
 
 .. code-block:: php
-
+   
     interface Tinebase_User_LdapPlugin_Interface {
     
     //----------
@@ -3821,7 +3821,7 @@ Woocommerce
 WC_Order_Item_Data_Store_Interface is used to structure the class WC_Order_Item_Data_Store. It is not used anywhere else.
 
 .. code-block:: php
-
+   
     interface WC_Order_Item_Data_Store_Interface {
     
     
@@ -3847,7 +3847,7 @@ Tikiwiki
 Sneaky error_reporting, hidden among the use calls. 
 
 .. code-block:: php
-
+   
     namespace Tiki\Command;
     
     use Symfony\Component\Console\Command\Command;
@@ -3871,7 +3871,7 @@ OpenEMR
 Use expression is only reached when the csrf token is checked. This probably save some CPU when no csrf is available, but it breaks the readability of the file.
 
 .. code-block:: php
-
+   
     <?php
     /**
      * Patient selector for insurance gui
@@ -3913,7 +3913,7 @@ ChurchCRM
 It is actually surprising to find FamilyQuery defined as ChurchCRM\Base\FamilyQuery only once, while all other reference are for ChurchCRM\FamilyQuery. That lone use is actually useful in the code, so it is not a forgotten refactorisation. 
 
 .. code-block:: php
-
+   
     use ChurchCRM\Base\FamilyQuery	// in /src/MapUsingGoogle.php:7
     
     use ChurchCRM\FamilyQuery	// in /src/ChurchCRM/Dashboard/EventsDashboardItem.php:8
@@ -3931,7 +3931,7 @@ Phinx
 One 'Command' is refering to a local Command class, while the other is refering to an imported class. They are all in a similar name space Console\Command. 
 
 .. code-block:: php
-
+   
     use Phinx\Console\Command	                    //in file /src/Phinx/Console/PhinxApplication.php:34
     use Symfony\Component\Console\Command\Command	//in file /src/Phinx/Console/Command/Init.php:31
     use Symfony\Component\Console\Command\Command	//in file /src/Phinx/Console/Command/AbstractCommand.php:32
@@ -3954,7 +3954,7 @@ Classic example of array_merge() in loop : here, the attributures should be coll
 Note that the order of merge will be the same when merging than when collecting the arrays.
 
 .. code-block:: php
-
+   
     $attributes = array_values($this->_rowNameMapping);
             foreach ($this->_ldapPlugins as $plugin) {
                 $attributes = array_merge($attributes, $plugin->getSupportedAttributes());
@@ -3979,7 +3979,7 @@ NextCloud
 The array $allowedScriptDomains is flipped, to unset 'self', then, unflipped (or flipped again), to restore its initial state. Using array_keys() or array_search() would yield the needed keys for unsetting, at a lower cost.
 
 .. code-block:: php
-
+   
     if(is_string($this->useJsNonce)) {
     				$policy .= '\'nonce-'.base64_encode($this->useJsNonce).'\'';
     				$allowedScriptDomains = array_flip($this->allowedScriptDomains);
@@ -4007,7 +4007,7 @@ Tine20
 Only the second call is necessary : it also includes the first one.
 
 .. code-block:: php
-
+   
     isset($relation['related_record']) && isset($relation['related_record']['n_fileas'])
 
 
@@ -4022,7 +4022,7 @@ ExpressionEngine
 This is equivalent to `isset($this->_field_data[$field], $this->_field_data[$field]['postdata'])`, and the second call may be skipped.
 
 .. code-block:: php
-
+   
     !isset($this->_field_data[$field]) OR !isset($this->_field_data[$field]['postdata'])
 
 
@@ -4042,7 +4042,7 @@ WordPress
 This code actually loads the file, join it, then split it again. file() would be sufficient. 
 
 .. code-block:: php
-
+   
     $markerdata = explode( "\n", implode( '', file( $filename ) ) );
 
 
@@ -4057,7 +4057,7 @@ SPIP
 When the file is not accessible, file() returns null, and can't be processed by join(). 
 
 .. code-block:: php
-
+   
     $s = @join('', file($file));
 
 
@@ -4077,7 +4077,7 @@ Zencart
 Long list of == are harder to read. Using an in_array() call gathers all the strings together, in an array. In turn, this helps readability and possibility, reusability by making that list an constant. 
 
 .. code-block:: php
-
+   
     // if needed, check that a valid user id has been passed
     if (($action == 'update' || $action == 'reset') && isset($_POST['user']))
     {
@@ -4109,7 +4109,7 @@ HuMo-Gen
 The three calls to str_replace() could be replaced by one, using array arguments. Nesting the calls doesn't reduce the number of calls.
 
 .. code-block:: php
-
+   
     static function jsValue($string) {
             return
                 preg_replace('/\r?\n/', "\n",
@@ -4131,7 +4131,7 @@ Edusoho
 Since str_replace is already using an array, the second argument must also be an array, with repeated empty strings. That syntax allows adding the '&nbsp;' and ' ' to those arrays. Note also that trim() should be be called early, but since some of the replacing may generate terminal spaces, it should be kept as is.
 
 .. code-block:: php
-
+   
     $text = strip_tags($text);
     
             $text = str_replace(array(\n, \r, \t), '', $text);
@@ -4155,7 +4155,7 @@ SuiteCrm
 $line is build in several steps, then then final version is added to $content. It would be much faster to make $content an array, and implode it once after the loop. 
 
 .. code-block:: php
-
+   
     foreach($records as $record)
             {
                 $line = implode("\\ . getDelimiter() . "\\, $record);
@@ -4177,7 +4177,7 @@ ThinkPHP
 The foreach loop appends the $name and builds a fully qualified name. 
 
 .. code-block:: php
-
+   
     if (!C('APP_USE_NAMESPACE')) {
             $class = parse_name($name, 1);
             import($module . '/' . $layer . '/' . $class . $layer);
@@ -4211,7 +4211,7 @@ Phinx
 glob() searches for a list of files in the migration folder. Those files are not known, but they have a format, as checked later with the regex : a combinaison of ``FilesystemIterator`` and ``RegexIterator`` would do the trick too.
 
 .. code-block:: php
-
+   
     $phpFiles = glob($config->getMigrationPath() . DIRECTORY_SEPARATOR . '*.php');
     
                 // filter the files to only get the ones that match our naming scheme
@@ -4234,7 +4234,7 @@ NextCloud
 Recursive copy of folders, based on scandir(). ``DirectoryIterator`` and ``FilesystemIterator`` would do the same without the recursion.
 
 .. code-block:: php
-
+   
     static function copyr($src, $dest) {
     		if (is_dir($src)) {
     			if (!is_dir($dest)) {
@@ -4268,7 +4268,7 @@ Contao
 If $elist contains at least one element, then it is not empty().
 
 .. code-block:: php
-
+   
     $ext->found = count($elist)>0;
 
 
@@ -4283,7 +4283,7 @@ WordPress
 $build or $signature are empty at that point, no need to calculate their respective length. 
 
 .. code-block:: php
-
+   
     // Check for zero length, although unlikely here
         if (strlen($built) == 0 || strlen($signature) == 0) {
           return false;
@@ -4306,7 +4306,7 @@ ExpressionEngine
 Using preincrement in for() loops is safe and straightforward. 
 
 .. code-block:: php
-
+   
     for ($x = 0; $x < $number_to_send; $x++)
     		{
     			$email_address = array_shift($recipient_array);
@@ -4334,7 +4334,7 @@ Traq
 $this->currentProject->next_ticket_id value is ignored by the code. It may be turned into a preincrement.
 
 .. code-block:: php
-
+   
     TimelineModel::newTicketEvent($this->currentUser, $ticket)->save();
     
                 $this->currentProject->next_ticket_id++;
@@ -4357,7 +4357,7 @@ ChurchCRM
 You may replace this with a isset() : $_POST can't contain a NULL value, unless it was set by the script itself.
 
 .. code-block:: php
-
+   
     array_key_exists("report_type", $_POST);
 
 
@@ -4372,7 +4372,7 @@ SuiteCrm
 This is a equivalent for nl2br()
 
 .. code-block:: php
-
+   
     preg_replace("/\r\n/", "<BR>", $focus->$field)
 
 
@@ -4392,7 +4392,7 @@ WordPress
 Instead of searching for ``HTTP_``, it is faster to compare the first 5 chars to the literal ``HTTP_``. In case of absence, this solution returns faster.
 
 .. code-block:: php
-
+   
     if (strpos($header, 'HTTP_') === 0) {
     				$header = substr($header, 5);
     			} elseif (strpos($header, 'CONTENT_') !== 0) {
@@ -4416,7 +4416,7 @@ SPIP
 The code first makes everything uppercase, including the leading and trailing spaces, and then, removes them : it would be best to swap those operations. Note that spip_substr() is not considered in this analysis, but with SPIP knowledge, it could be moved inside the calls. 
 
 .. code-block:: php
-
+   
     function filtre_initiale($nom) {
     	return spip_substr(trim(strtoupper(extraire_multi($nom))), 0, 1);
     }
@@ -4433,7 +4433,7 @@ PrestaShop
 dirname() reduces the string (or at least, keeps it the same size), so it more efficient to have it first.
 
 .. code-block:: php
-
+   
     dirname(str_replace(' ', '~', $str))
 
 
@@ -4453,7 +4453,7 @@ Woocommerce
 time() would be faster here, as an entropy generator. Yet, it would still be better to use an actual secure entropy generator, like random_byte or random_int. In case of older version, microtime() would yield better entropy. 
 
 .. code-block:: php
-
+   
     public function get_new_delivery_id() {
     		// Since we no longer use comments to store delivery logs, we generate a unique hash instead based on current time and webhook ID.
     		return wp_hash( $this->get_id() . strtotime( 'now' ) );
@@ -4476,7 +4476,7 @@ xataface
 The usage of 'and' here is a workaround for PHP version that have no support for the coalesce. $autosubmit receives the value of $params['autosubmit'] only if the latter is set. Yet, with = having higher precedence over 'and', $autosubmit is mistaken with the existence of $params['autosubmit'] : its value is actually omitted.
 
 .. code-block:: php
-
+   
     $autosubmit = isset($params['autosubmit']) and $params['autosubmit'];
 
 
@@ -4496,7 +4496,7 @@ shopware
 The registered handler is a local method, called ``errorHandler``, which has 6 arguments, and relays those 6 arguments to set_error_handler(). 
 
 .. code-block:: php
-
+   
     public function registerErrorHandler($errorLevel = E_ALL)
         {
             // Only register once.  Avoids loop issues if it gets registered twice.
@@ -4524,7 +4524,7 @@ Vanilla
 Gdn_ErrorHandler is a function that requires 6 arguments. 
 
 .. code-block:: php
-
+   
     set_error_handler('Gdn_ErrorHandler', E_ALL & ~E_STRICT)
 
 
@@ -4544,7 +4544,7 @@ Thelia
 The whole function may be replaced by random_int(), as it generates random tokens. This needs an extra layer of hashing, to get a long and string results. 
 
 .. code-block:: php
-
+   
     /**
          * @return string
          */
@@ -4568,7 +4568,7 @@ FuelCMS
 Security tokens should be build with a CSPRNG source. uniqid() is based on time, and though it changes anytime (sic), it is easy to guess. Those days, it looks like '5b1262e74dbb9'; 
 
 .. code-block:: php
-
+   
     $this->installer->change_config('config', '$config[\'encryption_key\'] = \'\';', '$config[\'encryption_key\'] = \''.md5(uniqid()).'\';');
 
 
@@ -4588,7 +4588,7 @@ Dolphin
 Split() was abandonned in PHP 7.0
 
 .. code-block:: php
-
+   
     split(',', $aItem['extra']);
 
 
@@ -4608,7 +4608,7 @@ Tikiwiki
 This fopen() mode doesn't exists. Use 'w' instead.
 
 .. code-block:: php
-
+   
     fopen('php://temp', 'rw');
 
 
@@ -4623,7 +4623,7 @@ HuMo-Gen
 This fopen() mode doesn't exists. Use 'w' instead.
 
 .. code-block:: php
-
+   
     fopen($this->_filename, 'wr', false)
 
 
@@ -4643,7 +4643,7 @@ xataface
 Compilation error with PHP 7.2 version.
 
 .. code-block:: php
-
+   
     syntax error, unexpected 'new' (T_NEW)
 
 
@@ -4663,7 +4663,7 @@ Zencart
 setlocale() may be called with null or '' (empty string), and will set values from the environment. When called with "0" (the string), it only reports the current setting. Using an integer is probably undocumented behavior, and falls back to the zero string. 
 
 .. code-block:: php
-
+   
     $loc = setlocale(LC_TIME, 0);
             if ($loc !== FALSE) echo ' - ' . $loc; //what is the locale in use?
 
@@ -4684,7 +4684,7 @@ ThinkPHP
 This may be shortened with isset($sub), $array[$name][$sub])
 
 .. code-block:: php
-
+   
     isset($sub) && isset($array[$name][$sub])
 
 
@@ -4699,7 +4699,7 @@ LiveZilla
 This is the equivalent of !(isset($Data["Series"][$SerieA]["Data"]) && isset($Data["Series"][$SerieB]["Data"])), and then, !(isset($Data["Series"][$SerieA]["Data"], $Data["Series"][$SerieB]["Data"]))
 
 .. code-block:: php
-
+   
     !isset($Data["Series"][$SerieA]["Data"]) || !isset($Data["Series"][$SerieB]["Data"])
 
 
@@ -4719,7 +4719,7 @@ Cleverstyle
 $extension is assigned with the results of pathinfo($reference_name, PATHINFO_EXTENSION) and ignores static::hasExtension($extension). The same expression, placed in a condition (like an if), would assign a value to $extension and use another for the condition itself. Here, this code is only an expression in the flow.
 
 .. code-block:: php
-
+   
     $extension = pathinfo($reference_name, PATHINFO_EXTENSION) and static::hasExtension($extension);
 
 
@@ -4734,7 +4734,7 @@ OpenConf
 In this context, the priority of execution is used on purpose; $coreFile only collect the temporary name of the export file, and when this name is empty, then the second operand of OR is executed, though never collected. Since this second argument is a 'die', its return value is lost, but the initial assignation is never used anyway. 
 
 .. code-block:: php
-
+   
     $coreFile = tempnam('/tmp/', 'ocexport') or die('could not generate Excel file (6)')
 
 
@@ -4754,7 +4754,7 @@ phpMyAdmin
 The last capturing subpattern is ``( \[(.*)\])?`` and it is optional. Indeed, when the pattern succeed, the captured values are stored in ``$match``. Yet, the code checks for the existence of ``$match[3]`` before using it.
 
 .. code-block:: php
-
+   
     if (preg_match("/rule\s'(.*)'( \[(.*)\])?$/", $line, $match)) {
                         $ruleLine = 1;
                         $ruleNo++;
@@ -4777,7 +4777,7 @@ SPIP
 This code avoid the PHP notice by padding the resulting array (see comment in French : eviter === avoid)
 
 .. code-block:: php
-
+   
     if (preg_match("#^([12][0-9]{3}[-/][01]?[0-9])([-/]00)?( [-0-9:]+)?$#", $date, $regs)) {
     				$regs = array_pad($regs, 4, null); // eviter notice php
     				$date = preg_replace("@/@", "-", $regs[1]) . "-00" . $regs[3];
@@ -4802,7 +4802,7 @@ Traq
 pow(1024, 2) could be (1023 ** 2), to convert bytes into Mb. 
 
 .. code-block:: php
-
+   
     <?=round((microtime(true) - START_TIME), 2); ?>s, <?php echo round((memory_get_peak_usage() - START_MEM) / pow(1024, 2), 3)?>mb
 
 
@@ -4817,7 +4817,7 @@ TeamPass
 pow(2, 62) could also be hard coded with 0x4000000000000000. 
 
 .. code-block:: php
-
+   
     pow(2, 62)
 
 
@@ -4837,7 +4837,7 @@ Dolphin
 This class should be put away in a 'dolphin' or 'boonex' namespace.
 
 .. code-block:: php
-
+   
     class BxDolXml { 
         /* class BxDolXML code */ 
     }
@@ -4859,7 +4859,7 @@ phpadsnew
 The reference should be removed from the function definition. Either this method returns null, which is never a reference, or it returns $this, which is always a reference, or the results of a methodcall. The latter may or may not be a reference, but the Ternary operator will drop it and return by value. 
 
 .. code-block:: php
-
+   
     function &getParentOrSelf($type)
     	{
             if ($this->type == $type) {
@@ -4887,7 +4887,7 @@ NextCloud
 $absPath is build with the toTmpFile() method, which may return a boolean (false) in case of error. Error situations include the inability to create the temporary file.
 
 .. code-block:: php
-
+   
     $absPath = $fileview->toTmpFile($path);
     
     // More code
@@ -4912,7 +4912,7 @@ FuelCMS
 Using PREG_SET_ORDER will remove the usage of the ``$key``variable.
 
 .. code-block:: php
-
+   
     function parse_string_to_array($str)
     	{
     		preg_match_all('#(\w+)=([\'"])(.*)\2#U', $str, $matches);
@@ -4944,7 +4944,7 @@ ChurchCRM
 $false may be true or false (or else...). In fact, the variable is not even defined in this file, and the file do a lot of inclusion. 
 
 .. code-block:: php
-
+   
     if (!isset($_COOKIE['kioskCookie'])) {
         if ($windowOpen) {
             $guid = uniqid();
@@ -4971,7 +4971,7 @@ xataface
 This one is documented, and in the end, makes a lot of sense.
 
 .. code-block:: php
-
+   
     function &getRelatedRecord($relationshipName, $index=0, $where=0, $sort=0){
     		if ( isset($this->cache[__FUNCTION__][$relationshipName][$index][$where][$sort]) ){
     			return $this->cache[__FUNCTION__][$relationshipName][$index][$where][$sort];
@@ -5004,7 +5004,7 @@ phpadsnew
 Each call to chr() may be done before. First, chr() may be replace with the hexadecimal sequence "0x3B"; Secondly, 0x3b is a rather long replacement for a simple semi-colon. The whole pragraph could be stored in a separate file, for easier modifications. 
 
 .. code-block:: php
-
+   
     echo chr(0x47).chr(0x49).chr(0x46).chr(0x38).chr(0x39).chr(0x61).chr(0x01).chr(0x00).
     		     chr(0x01).chr(0x00).chr(0x80).chr(0x00).chr(0x00).chr(0x04).chr(0x02).chr(0x04).
     		 	 chr(0x00).chr(0x00).chr(0x00).chr(0x21).chr(0xF9).chr(0x04).chr(0x01).chr(0x00).
@@ -5029,7 +5029,7 @@ xataface
 This selection process has three tests : the two first are exclusive, and the third is inclusive. They could fit in one or several closures.
 
 .. code-block:: php
-
+   
     $indexable = array();
     		foreach ( $tables as $key=>$table ){
     			if ( preg_match('/^dataface__/', $table) ){
@@ -5058,7 +5058,7 @@ shopware
 Closure would be the best here, since $covers has to be injected in the array_filter callback. 
 
 .. code-block:: php
-
+   
     $covers = $this->variantMediaGateway->getCovers(
                 $products,
                 $context
@@ -5088,7 +5088,7 @@ ChurchCRM
 ChurchCRM features 5 old style ternary operators, which are all in this SQL query. ChurchCRM requires PHP 7.0, so a simple code review could remove them all.
 
 .. code-block:: php
-
+   
     $sSQL = "INSERT INTO pledge_plg
                         (plg_famID,
                         plg_FYID, 
@@ -5138,7 +5138,7 @@ Cleverstyle
 Cleverstyle nests ternary operators when selecting default values. Here, moving some of them to ?? will reduce the code complexity and make it more readable. Cleverstyle requires PHP 7.0 or more recent.
 
 .. code-block:: php
-
+   
     $Page->content(
     	h::{'cs-form form'}(
     		h::{'section.cs-feedback-form article'}(
@@ -5187,7 +5187,7 @@ SuiteCrm
 This code prepares incoming '$values' for extraction. The keys are cleaned then split with explode(). The '=' sign would stay, as strtr() can't remove it. This means that such keys won't be recognized later in the code, and gets omitted.
 
 .. code-block:: php
-
+   
     $values = explode(';', $value);
                         $key = strtoupper($keyvalue[0]);
                         $key = strtr($key, '=', '');
@@ -5211,7 +5211,7 @@ SPIP
 This expression counts 4 usages of count(), which is more than the default level of 3 PHP calls in one expression. 
 
 .. code-block:: php
-
+   
     spip_log("Analyser DTD $avail $grammaire (" . spip_timer('dtd') . ") " . count($dtc->macros) . ' macros, ' . count($dtc->elements) . ' elements, ' . count($dtc->attributs) . " listes d'attributs, " . count($dtc->entites) . " entites")
 
 
@@ -5231,7 +5231,7 @@ WordPress
 Finfo has also a class, with the same name.
 
 .. code-block:: php
-
+   
     finfo_open(FILEINFO_MIME_TYPE)
 
 
@@ -5246,7 +5246,7 @@ PrestaShop
 transliterator_transliterate() has also a class named Transliterator
 
 .. code-block:: php
-
+   
     transliterator_transliterate('Accents-Any', $str)
 
 
@@ -5266,7 +5266,7 @@ SuiteCrm
 Looking for the extension ? Use pathinfo() and PATHINFO_EXTENSION 
 
 .. code-block:: php
-
+   
     $exp = explode('.', $filename);
 
 
@@ -5286,7 +5286,7 @@ Zend-Config
 The `$filepath` is broken into pieces, and then, only the 'extension' part is used. With the PATHINFO_EXTENSION constant used as a second argument, only this value could be returned. 
 
 .. code-block:: php
-
+   
     $pathinfo = pathinfo($filepath);
     
             if (! isset($pathinfo['extension'])) {
@@ -5311,7 +5311,7 @@ ThinkPHP
 Without any other check, pathinfo() could be used with PATHINFO_EXTENSION.
 
 .. code-block:: php
-
+   
     private function getExt($filename) {
             $pathinfo = pathinfo($filename);
             return $pathinfo['extension'];
@@ -5334,7 +5334,7 @@ WordPress
 This code actually loads the file, join it, then split it again. file() would be sufficient. 
 
 .. code-block:: php
-
+   
     $markerdata = explode( "\n", implode( '', file( $filename ) ) );
 
 
@@ -5354,7 +5354,7 @@ Dolibarr
 _values is a private property from the Stripe Class. The class contains other objects, but only _values are displayed with var_dump.
 
 .. code-block:: php
-
+   
     // Magic method for var_dump output. Only works with PHP >= 5.6
         public function __debugInfo()
         {
@@ -5378,7 +5378,7 @@ Piwigo
 This code handles situations for PHP after 5.1.0 and older. Rare are the applications that are still using those versions in 2019.
 
 .. code-block:: php
-
+   
     if (version_compare(PHP_VERSION, '5.1.2', '>=')) {
         //SPL autoloading was introduced in PHP 5.1.2
         if (version_compare(PHP_VERSION, '5.3.0', '>=')) {
@@ -5414,7 +5414,7 @@ Traq
 This code should also avoid using SHA1. 
 
 .. code-block:: php
-
+   
     sha1($password) == $this->password
 
 
@@ -5429,7 +5429,7 @@ LiveZilla
 This code is using the stronger SHA256 but compares it to another string. $_token may be non-empty, and still be comparable to 0. 
 
 .. code-block:: php
-
+   
     function IsValidToken($_token)
     {
         if(!empty($_token))
@@ -5455,7 +5455,7 @@ Zurmo
 This code intent to overwrite `$hash` and `$preview` : it is even literally in the code. The overwrite is intended too, and could even skip the initialisation of the variables. Although the compact()/extract() combinaison is safe as now, it could be safer to only relay the array index, instead of extracting the variables here. 
 
 .. code-block:: php
-
+   
     public static function resolveManageSubscriptionsUrlByArray(array $queryStringArray, $preview = false)
             {
                 $hash = $preview = null;
@@ -5483,7 +5483,7 @@ Dolibarr
 The extract() has been cleverly set in a closure, with a limited scope. The potential overwrite may impact existing variables, such as `$_`, `$nav`, `$form`, and `$data` itself. This may impact the following including. Using EXTR_SKIP would give existing variables priority, and avoid interference. 
 
 .. code-block:: php
-
+   
     $template = function ($view) use ($data, $path) {
                 $form = function () {
                     return call_user_func_array(
@@ -5560,7 +5560,7 @@ OpenConf
 The function that holds that code is only used to call openconf.com, over http, while openconf.com is hosted on https, nowadays. This may be a sign of hard to access certificates.
 
 .. code-block:: php
-
+   
     $ch = curl_init();
     			curl_setopt($ch, CURLOPT_URL, $f);
     			curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
@@ -5590,7 +5590,7 @@ ChurchCRM
 This is classic debugging code that should never reach production. mysqli_error() and mysqli_errno() provide valuable information is case of an error, and may be exploited by intruders.
 
 .. code-block:: php
-
+   
     if (mysqli_error($cnInfoCentral) != '') {
             echo gettext('An error occured: ').mysqli_errno($cnInfoCentral).'--'.mysqli_error($cnInfoCentral);
         } else {
@@ -5607,7 +5607,7 @@ Phpdocumentor
 Default development behavior : display the caught exception. Production behavior should not display that message, but log it for later review. Also, the return in the catch should be moved to the main code sequence.
 
 .. code-block:: php
-
+   
     public function processClass(ProjectDescriptor $project, Transformation $transformation)
         {
             try {
@@ -5640,7 +5640,7 @@ This actually decodes into a copyright notice.
 
 
 .. code-block:: php
-
+   
     eval(\x66\x75\x6e\x63\x74\x69\x6f\x6e\x20\x63\x6c\x65\x61\x6e\x41\x6e\x64\x53\x61\x6e\x69\x74\x69\x7a\x65\x53\x63\x72 .
          \x69\x70\x74\x48\x65\x61\x64\x65\x72\x28\x26\x20\x24\x6f\x75\x74\x70\x75\x74\x29\x0d\x0a\x20\x20\x20\x20\x20\x20 .
          \x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x7b\x0d\x0a\x20\x20\x20\x20\x20\x20\x20 .
@@ -5664,7 +5664,7 @@ Mautic
 This code is creating some directories for Javascript or CSS (from the directories names) : those require universal reading access, but probably no execution nor writing access. 0711 would be sufficient in this case.
 
 .. code-block:: php
-
+   
     //combine the files into their corresponding name and put in the root media folder
                     if ($env == 'prod') {
                         $checkPaths = [
@@ -5690,7 +5690,7 @@ OpenEMR
 If $BACKUP_EVENTLOG_DIR is a backup for an event log, this should be stored out of the web server reach, with low rights, beside the current user. This is part of a CLI PHP script. 
 
 .. code-block:: php
-
+   
     mkdir($BACKUP_EVENTLOG_DIR)
 
 
@@ -5710,7 +5710,7 @@ TeamPass
 The API starts with security features, such as the whitelist(). The whitelist applies to IP addresses, so the query string is not sanitized. Then, the QUERY_STRING is parsed, and creates a lot of new global variables.
 
 .. code-block:: php
-
+   
     teampass_whitelist();
     
     parse_str($_SERVER['QUERY_STRING']);
@@ -5729,7 +5729,7 @@ XOOPS
 This code only exports the POST variables as globals. And it does clean incoming variables, but not all of them. 
 
 .. code-block:: php
-
+   
     // Check users rights
     if (!is_object($xoopsUser) || !is_object($xoopsModule) || !$xoopsUser->isAdmin($xoopsModule->mid())) {
         exit(_NOPERM);
@@ -5766,7 +5766,7 @@ Dolibarr
 This code is well escaped, as the integer type cast will prevent any special chars to be used. Here, a prepared statement would apply a modern approach to securing this query.
 
 .. code-block:: php
-
+   
     $db->query("DELETE FROM " . MAIN_DB_PREFIX . "product_pricerules WHERE level = " . (int) $i)
 
 
@@ -5786,7 +5786,7 @@ Piwigo
 unserialize() extracts information from the $conf variable : this variable is read from a configuration file. It is later tested to be an array, whose index may not be all set (@$disabled[$type];). It would be safer to make $disabled an object, add the class to unserialize, and set default values to the needed properties/index. 
 
 .. code-block:: php
-
+   
     $disabled = @unserialize(@$conf['disabled_derivatives']);
 
 
@@ -5801,7 +5801,7 @@ LiveZilla
 unserialize() only extract a non-empty value here. But its content is not checked. It is later used as an array, with multiple index. 
 
 .. code-block:: php
-
+   
     $this->Customs = (!empty($_row["customs"])) ? @unserialize($_row["customs"]) : array();
 
 
@@ -5821,7 +5821,7 @@ Thelia
 This return statement is doing quite a lot, including a buried '0 + $offset'. This call is probably an echo to '1 + $offset', which is a little later in the expression.
 
 .. code-block:: php
-
+   
     return serialize(array((string) $row[TableMap::TYPE_NUM == $indexType ? 0 + $offset : static::translateFieldName('ProfileId', TableMap::TYPE_PHPNAME, $indexType)], (string) $row[TableMap::TYPE_NUM == $indexType ? 1 + $offset : static::translateFieldName('ResourceId', TableMap::TYPE_PHPNAME, $indexType)]));
 
 
@@ -5836,7 +5836,7 @@ OpenEMR
 $main_provid is filtered as an integer. $main_supid is then filtered twice : one with the sufficent (int) and then, added with 0.
 
 .. code-block:: php
-
+   
     if (!$alertmsg && ($_POST['bn_save'] || $_POST['bn_save_close'] || $_POST['bn_save_stay'])) {
         $main_provid = 0 + $_POST['ProviderID'];
         $main_supid  = 0 + (int)$_POST['SupervisorID'];
@@ -5859,7 +5859,7 @@ Contao
 $tmp[$kk] is &$vv.
 
 .. code-block:: php
-
+   
     foreach ($tmp as $kk=>$vv)
     								{
     									// Do not use the FilesModel here – tables are locked!
@@ -5882,7 +5882,7 @@ WordPress
 $ids[$index] is &$rrid. 
 
 .. code-block:: php
-
+   
     foreach($ids as $index => $rrid)
                     {
                         if($rrid == $this->Id)
@@ -5910,7 +5910,7 @@ OpenEMR
 This is a typical example of a function mostly controlled by one condition. It could be rewrite as 'if($validResult != 'existingpatient')' then return. The 'else' clause is not used anymore, and the whole block of code is now the main sequence of the method. 
 
 .. code-block:: php
-
+   
     public function ccdaFetching($parameterArray = array())
         {
             $validResult = $this->getEncounterccdadispatchTable()->valid($parameterArray[0]);
@@ -5940,7 +5940,7 @@ opencfp
 This long example illustrates two aspects : first, the shortcut to the end of the method may be the 'then' clause, not necessarily the 'else'. '!in_array($pid.'-'.$rid, $conflictAR)' leads to return, and the 'else' should be removed, while keeping its content. Secondly, we can see 3 conditions that all lead to a premature end to the method. After refactoring all of them, the method would end up with 1 level of indentation, instead of 3.
 
 .. code-block:: php
-
+   
     function oc_inConflict(&$conflictAR, $pid, $rid=null) {
     	if ($rid == null) {
     		$rid = $_SESSION[OCC_SESSION_VAR_NAME]['acreviewerid'];
@@ -5984,7 +5984,7 @@ NextCloud
 This code removes the 4 last letters from the images. It may be 'png', 'jpg' or 'txt'. 
 
 .. code-block:: php
-
+   
     substr(basename($image), 0, -4)
 
 
@@ -5999,7 +5999,7 @@ Dolibarr
 The extension '.tpl.php' is dropped from the file name, unless it appears somewhere else in the $websitepagefile variable.
 
 .. code-block:: php
-
+   
     str_replace(array('.tpl.php', 'page'), array('', ''), basename($websitepagefile))
 
 
@@ -6019,7 +6019,7 @@ Phinx
 `ìsNull( )`` always returns a boolean : it may be only be ``true`` or ``false``. Until typehinted properties or return typehint are used, isNull() may return anything else. 
 
 .. code-block:: php
-
+   
     $column->isNull( ) == false
 
 
@@ -6034,7 +6034,7 @@ Typo3
 When ``dry-run`` is not defined, the getOption() method actually returns a ``null`` value. So, comparing the result of getOption() to false is actually wrong : using a constant to prevent values to be inconsistent is recommended here.
 
 .. code-block:: php
-
+   
     $input->getOption('dry-run') != false
 
 
@@ -6054,7 +6054,7 @@ XOOPS
 Classic iffectation : the condition also collects the needed value to process the drawing. This is very common in PHP, and the Yoda condition, with its constant on the left, shows that extra steps were taken to strengthen that piece of code.  
 
 .. code-block:: php
-
+   
     if (0 < ($radius = $radii[2] * $q)) { // left bottom
             imagearc($workingImage, $radius - 1, $workingHeight - $radius, $radius * 2, $radius * 2, 90, 180, $alphaColor);
             imagefilltoborder($workingImage, 0, $workingHeight - 1, $alphaColor, $alphaColor);
@@ -6072,7 +6072,7 @@ Mautic
 The setting of the variable $cancelled is fairly hidden here, with its extra operator !. The operator is here for the condition, as $cancelled needs the 'cancellation' state, while the condition needs the contrary. Note also that isset() could be moved out of this condition, and made the result easier to read.
 
 .. code-block:: php
-
+   
     $form        = $this->get('form.factory')->create('theme_upload', [], ['action' => $action]);
     
             if ($this->request->getMethod() == 'POST') {
@@ -6097,7 +6097,7 @@ MediaWiki
 $options['changed'] and $options['created'] are documented and used as boolean. Yet, SiteStatsUpdate may require integers, for correct storage in the database, hence the type casting. ``(int) (bool)`` may be an alternative here.
 
 .. code-block:: php
-
+   
     $edits = $options['changed'] ? 1 : 0;
     		$pages = $options['created'] ? 1 : 0;
     		
@@ -6118,7 +6118,7 @@ Dolibarr
 Several cases are built on the same pattern there. Each of the expression may be replaced by a cast to ``(bool)``.
 
 .. code-block:: php
-
+   
     case 3:
     				$ret=(!$conf->global->SOCIETE_IDPROF3_UNIQUE?false:true);
     				break;
@@ -6140,7 +6140,7 @@ PhpIPAM
 $e is used both as 'local' variable : it is local to the catch clause, and it is a blind variable in a foreach(). There is little overlap between the two occurrences, but one reader may wonder why the caught exception is shown later on. 
 
 .. code-block:: php
-
+   
     try {
             $res = $Snmp->get_query(get_routing_table);
             // remove those not in subnet
@@ -6179,7 +6179,7 @@ SuiteCrm
 $e starts as an Email(), in the 'getMultipleMessagesFromSugar' case, while a few lines later, in 'refreshSugarFolders', $e is now an exception. Breaks are in place, so both occurrences are separated, yet, one may wonder why an email is a warning, or a mail is a warning. 
 
 .. code-block:: php
-
+   
     // On line 900, $e is a Email
             case getMultipleMessagesFromSugar:
                 $GLOBALS['log']->debug(********** EMAIL 2.0 - Asynchronous - at: getMultipleMessagesFromSugar);
@@ -6243,7 +6243,7 @@ Zend-Config
 $value must be an array or a string here. 
 
 .. code-block:: php
-
+   
     foreach ($config as $key => $value) {
                 $group = array_merge($parents, [$key]);
     
@@ -6269,7 +6269,7 @@ Vanilla
 When $this->_FormValues is not null, then it is an array or an object, as it may be used immediately with foreach(). A check with is_array() would be a stronger option here.
 
 .. code-block:: php
-
+   
     public function formDataSet() {
             if (is_null($this->_FormValues)) {
                 $this->formValues();
@@ -6295,7 +6295,7 @@ Woocommerce
 In case the body is an empty string, this will be correctly decoded, but will yield an object with an empty-named property.
 
 .. code-block:: php
-
+   
     $results = json_decode( wp_remote_retrieve_body( $request ), true );
     		if ( ! empty( $results ) ) {
     			$response = (object) $results;
@@ -6320,7 +6320,7 @@ Dolibarr
 The opening an closing tag couldd be moved outside the if condition : they are compulsory in both cases.
 
 .. code-block:: php
-
+   
     // Active
     	                            if (in_array($name, $def))
     	                            {
@@ -6349,7 +6349,7 @@ NextCloud
 `$shareKey = $this->getShareKey($path, $uid);` is common to all three alternatives. In fact, `$uid = $this->getPublicShareKeyId();` is not common, and that shoul de reviewed, as `$uid` will be undefined. 
 
 .. code-block:: php
-
+   
     if ($this->util->isMasterKeyEnabled()) {
     			$uid = $this->getMasterKeyId();
     			$shareKey = $this->getShareKey($path, $uid);
@@ -6388,7 +6388,7 @@ XOOPS
 break is used here for cases, unless the case includes a if/then structures, in which it becomes a continue. It really should be a break.
 
 .. code-block:: php
-
+   
     foreach ($this->vars as $k => $v) {
                 $cleanv = $v['value'];
                 if (!$v['changed']) {
@@ -6431,7 +6431,7 @@ SugarCrm
 The first condition makes different checks if 'query' is in $_REQUEST or not. The second only applies to $_REQUEST['query'], as there is no else. There is also no visible sign that the first condition may change $_REQUEST or not
 
 .. code-block:: php
-
+   
     if(!isset($_REQUEST['query'])){
     	//_pp('loading: '.$currentModule.'Group');
     	//_pp($current_user->user_preferences[$currentModule.'GroupQ']);
@@ -6463,7 +6463,7 @@ OpenEMR
 Those two if structure may definitely merged into one single instruction.
 
 .. code-block:: php
-
+   
     $success = 1;
         $checksum = ;
         if ($outcome === false) {
@@ -6499,7 +6499,7 @@ Dolphin
 Dolphin pro relies on HTMLPurifier to handle cleaning of values : it is used to prevent xss threat. In this method, oHtmlPurifier is first checked, and if needed, created. Since creation is long and costly, it is only created once. Once the object is created, it is stored as a global to be accessible at the next call of the method. In fact, oHtmlPurifier is never used outside this method, so it could be turned into a 'static' variable, and prevent other methods to modify it. This is a typical example of variable that could be static instead of global. 
 
 .. code-block:: php
-
+   
     function clear_xss($val)
     {
         // HTML Purifier plugin
@@ -6536,7 +6536,7 @@ Contao
 $arrScanCache is a typical cache variables. It is set as global for persistence between calls. If it contains an already stored answer, it is returned immediately. If it is not set yet, it is then filled with a value, and later reused. This global could be turned into static, and avoid pollution of global space. 
 
 .. code-block:: php
-
+   
     function scan($strFolder, $blnUncached=false)
     {
     	global $arrScanCache;
@@ -6591,7 +6591,7 @@ ChurchCRM
 There are two initialisations at the same time here : that should make two call to array_fill_keys().
 
 .. code-block:: php
-
+   
     foreach ($familyArray as $fam_ID => $fam_Data) {
             $envelopesByFamID[$fam_ID] = 0;
             $envelopesToWrite[$fam_ID] = 0;
@@ -6609,7 +6609,7 @@ PhpIPAM
 Even when the initialization is mixed with other operations, it is a good idea to extract it from the loop and give it to array_fill_keys(). 
 
 .. code-block:: php
-
+   
     $arr_new = array();
     				foreach ($arr as $type=>$objects) {
     					$arr_new[$type] = array();
@@ -6637,7 +6637,7 @@ Dolibarr
 This loop has two distinct operations : the first collect keys and keep them unique. A combinaison of array_keys() and array_unique() would do that job, while saving the in_array() lookup, and the configuration check with 'static::$importSettingsFromXml'. The second operation is distinct, and could be done with array_map().
 
 .. code-block:: php
-
+   
     $attributes = $xml->attributes();
                 foreach ($attributes as $key => $value) {
                     if (static::$importSettingsFromXml
@@ -6660,7 +6660,7 @@ OpenEMR
 This loop is quite complex : it collects $aro_value in $acl_array['aro'][$aro_section_value], but also creates the array in $acl_array['aro'][$aro_section_value], and report errors in the debug log. array_unique() could replace the collection, while the debug would have to be done somewhere else.
 
 .. code-block:: php
-
+   
     foreach ($aro_value_array as $aro_value) {
     					if ( count($acl_array['aro'][$aro_section_value]) != 0 ) {
     						if (!in_array($aro_value, $acl_array['aro'][$aro_section_value])) {
@@ -6693,7 +6693,7 @@ WordPress
 This code actually loads the file, join it, then split it again. file() would be sufficient. 
 
 .. code-block:: php
-
+   
     $markerdata = explode( "\n", implode( '', file( $filename ) ) );
 
 
@@ -6713,7 +6713,7 @@ Woocommerce
 All the 120 occurrences use `dirname( __FILE__ )`, and could be upgraded to __DIR__ if backward compatibility to PHP 5.2 is not critical. 
 
 .. code-block:: php
-
+   
     private function rest_api_includes() {
     		// Exception handler.
     		include_once dirname( __FILE__ ) . '/api/class-wc-rest-exception.php';
@@ -6733,7 +6733,7 @@ Piwigo
 `dirname( __FILE__ )` is cached into $RandomCompatDIR, then reused three times. Using __DIR__ would save that detour.
 
 .. code-block:: php
-
+   
     $RandomCompatDIR = dirname(__FILE__);
     
         require_once $RandomCompatDIR.'/byte_safe_strings.php';
@@ -6757,7 +6757,7 @@ ChurchCRM
 Sometimes, the variable is on the other side of the operator.
 
 .. code-block:: php
-
+   
     $distance = 0.6213712 * $distance;
 
 
@@ -6772,7 +6772,7 @@ Thelia
 /= is rare, but it definitely could be used here.
 
 .. code-block:: php
-
+   
     $size = $size / 1024;
 
 
@@ -6792,7 +6792,7 @@ Zencart
 That's a 45 repeat of &nbsp;
 
 .. code-block:: php
-
+   
     if ( (!zen_browser_detect('MSIE')) && (zen_browser_detect('Mozilla/4')) ) {
           for ($i=0; $i<45; $i++) $pre .= '&nbsp;';
         }
@@ -6814,7 +6814,7 @@ Typo3
 foreach() reads $lines into $r, and augment those lines. By the end, the $r variable is not unset. Yet, several lines later, in the same method but with different conditions, another loop reuse the variable $r. If is_array($this->dat['header']['pagetree'] and is_array($this->remainHeader['records']) are arrays at the same moment, then both loops are called, and they share the same reference. Values of the latter array will end up in the formar. 
 
 .. code-block:: php
-
+   
     if (is_array($this->dat['header']['pagetree'])) {
         reset($this->dat['header']['pagetree']);
         $lines = [];
@@ -6863,7 +6863,7 @@ SugarCrm
 There are two nested foreach here : they both have referenced blind variables. The second one uses $data, but never changes it. Yet, it is reused the next round in the first loop, leading to pollution from the first rows of $this->_parser->data into the lasts. This may happen even if $data is not modified explicitely : in fact, it will be modified the next call to foreach($row as ...), for each element in $row. 
 
 .. code-block:: php
-
+   
     foreach ($this->_parser->data as &$row) {
         foreach ($row as &$data) {
             $len = strlen($data);
@@ -6900,7 +6900,7 @@ Traq
 When executed in a path '/a/b/c', this code will require '/a../../vendor/autoload.php.
 
 .. code-block:: php
-
+   
     static::$loader = require __DIR__.'../../vendor/autoload.php';
 
 
@@ -6920,7 +6920,7 @@ Dolibarr
 Yield from is a straight replacement here.
 
 .. code-block:: php
-
+   
     if (($newDepth === self::DEPTH_INFINITY || $newDepth >= 1) && $childNode instanceof ICollection) {
         foreach ($this->generatePathNodes($subPropFind) as $subItem) {
             yield $subItem;
@@ -6939,7 +6939,7 @@ Tikiwiki
 The replacement with ``yield from``is not straigthforward here. Yield is only called when $user hasn't been ``$done`` : this is a unicity check. So, the double loop may produce a fully merged array, that may be reduced further by array_unique(). The final array, then, can be used with yield from. 
 
 .. code-block:: php
-
+   
     $done = [];
     
     foreach ($goal['eligible'] as $groupName) {
@@ -6968,7 +6968,7 @@ Contao
 Incrementing and multiplying at the same time.
 
 .. code-block:: php
-
+   
     $this->Database->prepare("UPDATE " . $this->strTable . " SET sorting=? WHERE id=?")
     		   ->execute(($count++ * 128), $objNewSorting->id);
 
@@ -6984,7 +6984,7 @@ Typo3
 The post-increment is not readable at first glance.
 
 .. code-block:: php
-
+   
     foreach ($row['rootline'] as &$record) {
                     $record['margin'] = $i++ * 20;
                 }
@@ -7006,7 +7006,7 @@ Phpdocumentor
 Simply replace the dot by a comma.
 
 .. code-block:: php
-
+   
     echo 'PROFILING ENABLED' . PHP_EOL
 
 
@@ -7021,7 +7021,7 @@ TeamPass
 This is less obvious, but turning print to echo, and the double-quoted string to single quoted string will yield the same optimisation.
 
 .. code-block:: php
-
+   
     print "PEAR constructor called, class=$classname\n";
 
 
@@ -7041,7 +7041,7 @@ TeamPass
 This code could be turned into a switch() structure.
 
 .. code-block:: php
-
+   
     if ($field[3] === 'text') {
                     echo '
                             <input type=text id=edit_field_.$field[0]._.$elem[0]. class=edit_item_field input_text text ui-widget-content ui-corner-all size=40 data-field-type=.$field[3]. data-field-masked=.$field[4]. data-field-is-mandatory=.$field[5]. data-template-id=.$templateID.>';
@@ -7062,7 +7062,7 @@ Phpdocumentor
 The first then block is long and complex. The else block, on the other hand, only contains a single if/then/else. Both conditions are distinct at first sight, so a if / elseif / then structure would be the best.
 
 .. code-block:: php
-
+   
     if ($transformation->getQuery() !== '') {
     /** Long then block **/
             } else {
@@ -7095,7 +7095,7 @@ Cleverstyle
 Else is empty, but commented. 
 
 .. code-block:: php
-
+   
     public static function posts_get ($Request) {
     		$id = $Request->route_ids(0);
     		if ($id) {
@@ -7121,7 +7121,7 @@ PhpIPAM
 The ``then`` block is empty and commented : yet, it may have been clearer to make the condition != and omitted the whole empty block.
 
 .. code-block:: php
-
+   
     /* checks */
     if($_POST['action'] == delete) {
     	# no cecks
@@ -7150,7 +7150,7 @@ Zurmo
 There is no need for a semi-colon after a if/then structure.
 
 .. code-block:: php
-
+   
     public function run()
             {
                 $id = $this->getId();
@@ -7176,7 +7176,7 @@ ThinkPHP
 There is no need for a semi-colon after a class structure, unless it is an anonymous class.
 
 .. code-block:: php
-
+   
     class TPC_yyStackEntry
     {
         public $stateno;       /* The state-number */
@@ -7203,7 +7203,7 @@ LiveZilla
 This is an aptly commented empty try/catch : the emited exception is extra check for a Zend Mail Protocol Exception. Hopefully, the Zend_Mail_Protocol_Exception only covers a already-closed situation. Anyhow, this should be logged for later diagnostic. 
 
 .. code-block:: php
-
+   
     public function logout()
         {
             if (!$this->_socket) {
@@ -7232,7 +7232,7 @@ Mautic
 Removing a file : if the file is not 'deleted' by the method call, but raises an error, it is hidden. When file destruction is impossible because the file is already destroyed (or missing), this is well. If the file couldn't be destroyed because of missing writing privileges, hiding this error will have serious consequences. 
 
 .. code-block:: php
-
+   
     /**
          * @param string $fileName
          */
@@ -7262,7 +7262,7 @@ HuMo-Gen
 The test on $pid may be directly done on $treeid[$sosa][0]. The distance between the assignation and the empty() makes it hard to spot. 
 
 .. code-block:: php
-
+   
     $pid=$treeid[$sosa][0];
     			$birthyr=$treeid[$sosa][1];
     			$deathyr=$treeid[$sosa][4];
@@ -7288,7 +7288,7 @@ SugarCrm
 This only displays E_ERROR, the highest level of error reporting. It should be checked, as it happens in the 'silentUpgrade' script. 
 
 .. code-block:: php
-
+   
     ini_set('error_reporting', 1);
 
 
@@ -7308,7 +7308,7 @@ XOOPS
 eval() execute code that was arbitrarily stored in $this, in one of the properties. Then, it is sent to output, but collected before reaching the browser, and put again in $content. May be the echo/ob_get_contents() could have been skipped.
 
 .. code-block:: php
-
+   
     ob_start();
                         echo eval($this->getVar('content', 'n'));
                         $content = ob_get_contents();
@@ -7326,7 +7326,7 @@ Mautic
 create_function() is actually an eval() in disguise : replace it with a closure for code modernization
 
 .. code-block:: php
-
+   
     create_function('$cfgValue', 'return $cfgValue > 100;')
 
 
@@ -7346,7 +7346,7 @@ FuelCMS
 The @ will prevent any error, while the try/catch allows the processing of certain types of error, namely the Fatal ones. 
 
 .. code-block:: php
-
+   
     @eval($_name_var_eval)
 
 
@@ -7361,7 +7361,7 @@ ExpressionEngine
 $cond is build from values extracted from the $fields array. Although it is probably reasonably safe, a try/catch here will collect any unexpected situation cleaningly.
 
 .. code-block:: php
-
+   
     elseif (isset($fields[$val['3']]))
     					{
     						if (array_key_exists('m_field_id_'.$fields[$val['3']], $row))
@@ -7391,7 +7391,7 @@ Traq
 This acts as a view. The final 'exit' is meant to ensure that no other piece of data is emitted, potentially polluting the view. This also prevent any code cleaning to happen.
 
 .. code-block:: php
-
+   
     /**
          * View attachment page
          *
@@ -7436,7 +7436,7 @@ ThinkPHP
 Here, exit is used as a rudimentary error management. When the version is not correctly provided via EaseTemplateVer, the application stop totally.
 
 .. code-block:: php
-
+   
     $this->version		= (trim($_GET['EaseTemplateVer']))?die('Ease Templae E3!'):'';
 
 
@@ -7456,7 +7456,7 @@ Zurmo
 filterAuditEvent compares a six char string with 'AUDIT\_EVENT\_' which contains 10 chars. This method returns only FALSE. Although it is used only once, the whole block that calls this method is now dead code. 
 
 .. code-block:: php
-
+   
     private static function filterAuditEvent($s)
             {
                 return substr($s, 0, 6) == 'AUDIT_EVENT_';
@@ -7474,7 +7474,7 @@ MediaWiki
 $metadata contains data that may be in different formats. When it is a pure XML file, it is 'Old style'. The comment helps understanding that this is not the modern way to go : the Old Style is actually never called, due to a failing condition.
 
 .. code-block:: php
-
+   
     private function getUnserializedMetadata( File $file ) {
     		$metadata = $file->getMetadata();
     		if ( substr( $metadata, 0, 3 ) === '<?xml' ) {
@@ -7499,7 +7499,7 @@ Dolibarr
 $wh is an array, and is read for its index 'id', but it is not modified. The reference sign is too much.
 
 .. code-block:: php
-
+   
     if($nb_warehouse>1) {
         foreach($warehouses_list as &$wh) {
     
@@ -7521,7 +7521,7 @@ Vanilla
 $discussion is also an object : it doesn't need any reference to be modified. And, it is not modified, but only read.
 
 .. code-block:: php
-
+   
     foreach ($result as $key => &$discussion) {
         if (isset($this->_AnnouncementIDs)) {
             if (in_array($discussion->DiscussionID, $this->_AnnouncementIDs)) {
@@ -7552,7 +7552,7 @@ ChurchCRM
 $str is actually processed as an array (string of characters), and it is also modified along the way.
 
 .. code-block:: php
-
+   
     foreach ($str as $str) {
                     if ($i < $m) {
                         $str .= \n;
@@ -7575,7 +7575,7 @@ ExpressionEngine
 Looping over $filename. 
 
 .. code-block:: php
-
+   
     foreach (directory_map($to_dir) as $directory => $filename)
     			{
     				if (is_string($directory))
@@ -7610,7 +7610,7 @@ OpenConf
 Here, $advocateid may be directly read from ocsql_fetch_assoc(), although, checking for the existence of 'advocateid' before accessing it would make the code more robust
 
 .. code-block:: php
-
+   
     $advocateid = false;
     	if (isset($GLOBALS['OC_configAR']['OC_paperAdvocates']) && $GLOBALS['OC_configAR']['OC_paperAdvocates']) {
     		$ar = ocsql_query(SELECT `advocateid` FROM ` . OCC_TABLE_PAPERADVOCATE . ` WHERE `paperid`=' . safeSQLstr($pid) . ') or err('Unable to retrieve advocate');
@@ -7637,7 +7637,7 @@ WordPress
 The condition checks first if $has_templates or $theme->parent(), and one of the two is sufficient to be valid. Then, it checks again that $theme->parent() is activated with &&. This condition may be reduced by calling $theme->parent(), as $has_template is unused here.
 
 .. code-block:: php
-
+   
     <?php if ( ( $has_templates || $theme->parent() ) && $theme->parent() ) : ?>
 
 
@@ -7652,7 +7652,7 @@ Dolibarr
 Better check twice that $modulepart is really 'apercusupplier_invoice'.
 
 .. code-block:: php
-
+   
     $modulepart == 'apercusupplier_invoice' || $modulepart == 'apercusupplier_invoice'
 
 
@@ -7672,7 +7672,7 @@ phpMyAdmin
 This code looks like ``($options & DatabaseInterface::QUERY_STORE) == DatabaseInterface::QUERY_STORE``, which would make sense. But PHP precedence is actually executing ``$options & (DatabaseInterface::QUERY_STORE == DatabaseInterface::QUERY_STORE)``, which then doesn't depends on QUERY_STORE but only on $options.
 
 .. code-block:: php
-
+   
     if ($options & DatabaseInterface::QUERY_STORE == DatabaseInterface::QUERY_STORE) {
         $tmp = $this->_extension->realQuery('
             SHOW COUNT(*) WARNINGS', $this->_links[$link], DatabaseInterface::QUERY_STORE
@@ -7694,7 +7694,7 @@ HuMo-Gen
 In that long logical expression, $personDb->pers_cal_date is tested twice
 
 .. code-block:: php
-
+   
     // *** Filter person's WITHOUT any date's ***
     			if ($user[group_filter_date]=='j'){
     				if ($personDb->pers_birth_date=='' AND $personDb->pers_bapt_date==''
@@ -7722,7 +7722,7 @@ phpMyAdmin
 The first test on $this->_isSuccess settles the situation with _JSON. Then, a second check is made. Both could be merged, also the second one is fairly long (not shown). 
 
 .. code-block:: php
-
+   
     if ($this->_isSuccess) {
                 $this->_JSON['success'] = true;
             } else {
@@ -7745,7 +7745,7 @@ Phpdocumentor
 $templates is extracted from $input. If it is empty, a second source is polled. Finally, if nothing has worked, a default value is used ('clean'). In this case, each attempt is an alternative solution to the previous failing call. The second test could be reported on $templatesFromConfig, and not $templates.
 
 .. code-block:: php
-
+   
     $templates = $input->getOption('template');
             if (!$templates) {
                 /** @var Template[] $templatesFromConfig */
@@ -7776,7 +7776,7 @@ FuelCMS
 This code actually loads the file, join it, then split it again. file() would be sufficient. 
 
 .. code-block:: php
-
+   
     $markerdata = explode( "\n", implode( '', file( $filename ) ) );
 
 
@@ -7796,7 +7796,7 @@ Zencart
 All those strings ends up as integers.
 
 .. code-block:: php
-
+   
     // Build Currency format table
         $curFormat = Array();
         $curFormat[036]=2;
@@ -7827,7 +7827,7 @@ Mautic
 $baseCols has 1 and 0 (respectively) for index.
 
 .. code-block:: php
-
+   
     foreach ($metadata->getAssociationMappings() as $field => $association) {
                         if (in_array($association['type'], [ClassMetadataInfo::ONE_TO_ONE, ClassMetadataInfo::MANY_TO_ONE])) {
                             $baseCols[true][$entityClass][]  = $association['joinColumns'][0]['name'];
@@ -7852,7 +7852,7 @@ SugarCrm
 This yields an error at execution time : ``Compilation failed: invalid range in character class at offset 4 ``.
 
 .. code-block:: php
-
+   
     preg_replace('/[^\w-._]+/i', '', $name)
 
 
@@ -7872,7 +7872,7 @@ Dolibarr
 Here, the $amountToBreakDown is either $currentRemain or $result. 
 
 .. code-block:: php
-
+   
     $amountToBreakdown = ($result - $currentRemain >= 0 ?
     										$currentRemain : 								// Remain can be fully paid
     										$currentRemain + ($result - $currentRemain));	// Remain can only partially be paid
@@ -7889,7 +7889,7 @@ SuiteCrm
 $Xa may only amount to $iX2, though the expression looks weird.
 
 .. code-block:: php
-
+   
     if ( $X > $iX2 ) { $Xa = $X-($X-$iX2); $Ya = $iY1+($X-$iX2); } else { $Xa = $X; $Ya = $iY1; }
 
 
@@ -7909,7 +7909,7 @@ OpenConf
 The first variable in the list(), $none, isn't reused anywhere in the script. In fact, its name convey the meaning that is it useless, but is in the array nonetheless. 
 
 .. code-block:: php
-
+   
     list($none, $OC_privacy_policy) = oc_getTemplate('privacy_policy');
 
 
@@ -7924,7 +7924,7 @@ FuelCMS
 $a is never reused again. $b, on the other hand is. Not assigning any value to $a saves some memory, and avoid polluting the local variable space. 
 
 .. code-block:: php
-
+   
     list($b, $a) = array(reset($params->me), key($params->me));
 
 
@@ -7944,7 +7944,7 @@ Dolibarr
 This expression is always true. When `$nbtabsql` is `$nbtablib`, the left part is true; When `$nbtabsql` is `$nbtabsqlsort`, the right part is true; When any other value is provided, both operands are true. 
 
 .. code-block:: php
-
+   
     $nbtablib != $nbtabsql || $nbtabsql != $nbtabsqlsort
 
 
@@ -7959,7 +7959,7 @@ Cleverstyle
 This expression is always false. When `$data->account->email_verified` is `true`, the right part is false; When `$data->account->email_verified` is `$data->account->email`, the right part is false; The only viable solution is to have ` $data->account->email`true : this is may be the intend it, though it is not easy to understand. 
 
 .. code-block:: php
-
+   
     TRUE == $data->account->email_verified and $data->account->email == $data->account->email_verified
 
 
@@ -7979,7 +7979,7 @@ ThinkPHP
 There is no need for block in a case/default clause. PHP executes all command in order, until a break or the end of the switch. There is another occurrence of that situation in this code : it seems to be a coding convention, while only applied to a few switch statements.
 
 .. code-block:: php
-
+   
     for ($i = 0; $i < $len; ++$i) {
                 switch (ord($this->stream->getc()) >> 4) {
                     case 0:
@@ -8014,7 +8014,7 @@ Tine20
 A case of empty case, with empty blocks. This is useless code. Event the curly brackets with the final case are useless.
 
 .. code-block:: php
-
+   
     switch ( $property['TYPE'] ) {
                             case 'JPG' : {}
                             case 'jpg' : {}
@@ -8047,7 +8047,7 @@ Cleverstyle
 This query is not complex, but its length tend to push the end out of the view in the IDE. It could be rewritten as a variable, on the previous line, with some formatting. The same formatting would help without the variable too, yet, mixing the SQL syntax with the PHP methodcall adds a layer of confusion. 
 
 .. code-block:: php
-
+   
     $this->instance->query("SET SESSION sql_mode='ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION'")
 
 
@@ -8062,7 +8062,7 @@ Contao
 This one-liner includes 9 members and 6 variables : some are formatted by sprintf, some are directly concatenated in the string. Breaking this into two lines improves readbility and code review.
 
 .. code-block:: php
-
+   
     sprintf('<span><input type="checkbox" name="%s" id="opt_%s" class="tl_checkbox" value="%s"%s%s onfocus="Backend.getScrollOffset()"> %s<label for="opt_%s">%s</label></span>', $this->strName . ($this->multiple ? '[]' : ''), $this->strId . '_' . $i, ($this->multiple ? \StringUtil::specialchars($arrOption['value']) : 1), (((\is_array($this->varValue) && \in_array($arrOption['value'], $this->varValue)) || $this->varValue == $arrOption['value']) ? ' checked="checked"' : ''), $this->getAttributes( ), $strButtons, $this->strId . '_' . $i, $arrOption['label'])
 
 
@@ -8082,7 +8082,7 @@ phpadsnew
 This is an unusual way to apply a condition. $bgcolor is '#FFFFFF' by default, and if $i % 2, then $bcolor is '#F6F6F6';. A more readable ternary option would be '$bgcolor =  = 	$i % 2 ? "#FFFFFF" : "#F6F6F6";', and make a matched alternative branches.
 
 .. code-block:: php
-
+   
     $bgcolor = #FFFFFF;
     	$i % 2 ? 0 : $bgcolor = #F6F6F6;
 
@@ -8098,7 +8098,7 @@ OpenEMR
 IS_DASHBOARD is defined as a boolean or a string. Later, it is tested as a boolean, and displayed as a integer, which will be cast to string by echo. Lots of transtyping are happening here.
 
 .. code-block:: php
-
+   
     // In two distinct if/then branch
     l:29) define('IS_DASHBOARD', false);
     l:41) define('IS_DASHBOARD', $_SESSION['authUser']);
@@ -8123,7 +8123,7 @@ Tikiwiki
 This switch handles 3 cases, plus the default for all others. There are other switch structures which also handle the '' case. There may be a missing case here. In particular, projects/tikiwiki/code//article_image.php host another switch with the same case, plus another 'topic' case.
 
 .. code-block:: php
-
+   
     switch ($image_type) {
     			case 'article':
     				$image_cache_prefix = 'article';
@@ -8155,7 +8155,7 @@ SuiteCrm
 How long did it take to spot the hidden $checked variable in this long concatenation ? Using a consistent method of interpolation would help readability here.
 
 .. code-block:: php
-
+   
     "<input type='checkbox' id='aow_actions_param[" . $line . "][individual_email]' name='aow_actions_param[" . $line . "][individual_email]' value='1' $checked></td>"
 
 
@@ -8170,7 +8170,7 @@ Edusoho
 Calling a method from a property of an object is possible inside a string, though it is rare. Setting the method outside the string make it more readable.
 
 .. code-block:: php
-
+   
     "{$this->container->getParameter('topxia.upload.public_url_path')}/" . $parsed['path']
 
 
@@ -8190,7 +8190,7 @@ SugarCrm
 It takes a while to find the double 'required' case, but the executed code is actually the same, so this is dead code at worst. 
 
 .. code-block:: php
-
+   
     switch ($col) {
         case 'custom_module':
         	$installdefs['custom_fields'][$name]['module'] = $res;
@@ -8232,7 +8232,7 @@ ExpressionEngine
 'deft_status' is doubled, with a fallthrough. This looks like some forgotten copy/paste. 
 
 .. code-block:: php
-
+   
     switch ($key){
     								case 'cat_group':
     								    //PHP code
@@ -8279,7 +8279,7 @@ Typo3
 $fullElement is an array most of the time, but finally ends up being a string. Since the array is not the final state, it may be interesting to make it a class, which collects the various variables, and export the final string. Such class would be usefull in several places in this repository.
 
 .. code-block:: php
-
+   
     $fullElement = [];
                 $fullElement[] = '<div class=checkbox t3js-form-field-eval-null-placeholder-checkbox>';
                 $fullElement[] =     '<label for= . $nullControlNameEscaped . >';
@@ -8310,7 +8310,7 @@ Vanilla
 Here, $value may be of different type. The if() structures merges all the incoming format into one standard type (int). This is actually the contrary of this analysis, and is a false positive.
 
 .. code-block:: php
-
+   
     if (is_array($value)) {
                             $value = count($value);
                         } elseif (stringEndsWith($field, 'UserID', true)) {
@@ -8334,7 +8334,7 @@ SugarCrm
 Here, '$count % 1' is always true, after the first loop of the foreach. There is no need for % usage.
 
 .. code-block:: php
-
+   
     $count = 0;
             foreach($this->fields as $def)
             {
@@ -8362,7 +8362,7 @@ Edusoho
 1 is useless here, since 24 * 3600 is already an integer. And, of course, a day is not 24 * 3600... at least every day.
 
 .. code-block:: php
-
+   
     'yesterdayStart' => date('Y-m-d', strtotime(date('Y-m-d', time())) - 1 * 24 * 3600),
 
 
@@ -8382,7 +8382,7 @@ Phinx
 $matches[1] could be renamed by $matches['filename'], if the capturing subpattern was named 'filename'. 
 
 .. code-block:: php
-
+   
     const MIGRATION_FILE_NAME_PATTERN = '/^\d+_([\w_]+).php$/i';
     //.... More code with class definition
         public static function mapFileNameToClassName($fileName)
@@ -8407,7 +8407,7 @@ shopware
 $_match[3] is actually extracted two preg_match() before : by the time we read its usage, the first regex has been forgotten. A named subpattern would be useful here to remember what was captured.
 
 .. code-block:: php
-
+   
     if (!preg_match("!(.?)(name=)(.*?)(?=(\s|$))!", $_block_args, $_match) && empty($_block_default)) {
                     throw new SmartyException('"' . $_block_tag . '" missing name attribute');
                 }
@@ -8432,7 +8432,7 @@ LiveZilla
 The first condition is fairly complex, and could also return early. Then, the second nested if could be merged into one : this would reduce the number of nesting, but make the condition higher. 
 
 .. code-block:: php
-
+   
     if(isset(Server::$Configuration->File["gl_url_detect"]) && !Server::$Configuration->File["gl_url_detect"] && isset(Server::$Configuration->File["gl_url"]) && !empty(Server::$Configuration->File["gl_url"]))
             {
                 $url = Server::$Configuration->File["gl_url"];
@@ -8467,7 +8467,7 @@ MediaWiki
 There are 5 level of nesting here, from the beginning of the method, down to the last condition. All work on local variables, as it is a static method. May be breaking this into smaller functions would help readability.
 
 .. code-block:: php
-
+   
     public static function normalizeSubpageLink( $contextTitle, $target, &$text ) {
     		$ret = $target; # default return value is no change
     
@@ -8552,7 +8552,7 @@ SPIP
 Interesting usage of both if/then, for the flow control, and ternary, for data process. Even on multiple lines, nested ternaries are quite hard to read. 
 
 .. code-block:: php
-
+   
     // le script de l'espace prive
     	// Mettre a "index.php" si DirectoryIndex ne le fait pas ou pb connexes:
     	// les anciens IIS n'acceptent pas les POST sur ecrire/ (#419)
@@ -8575,7 +8575,7 @@ Zencart
 No more than one level of nesting for this ternary call, yet it feels a lot more, thanks to the usage of arrayed properties, constants, and functioncalls. 
 
 .. code-block:: php
-
+   
     $lc_text .= '<br />' . (zen_get_show_product_switch($listing->fields['products_id'], 'ALWAYS_FREE_SHIPPING_IMAGE_SWITCH') ? (zen_get_product_is_always_free_shipping($listing->fields['products_id']) ? TEXT_PRODUCT_FREE_SHIPPING_ICON . '<br />' : '') : '');
 
 
@@ -8595,7 +8595,7 @@ Magento
 strlen(($actiosXML) will never be negative, and hence, is always false. This exception is never thrown. 
 
 .. code-block:: php
-
+   
     if (strlen($actionsXML) < 0 &&
             @simplexml_load_string('<data>' . $actionsXML . '</data>', null, LIBXML_NOERROR) === false) {
                 Mage::throwException(Mage::helper('dataflow')->__("Actions XML is not valid."));
@@ -8618,7 +8618,7 @@ Contao
 This code is wrong on August 29,th 30th and 31rst : 6 months before is caculated here as February 31rst, so march 2. Of course, this depends on the leap years.
 
 .. code-block:: php
-
+   
     case 'past_180':
     				return array(strtotime('-6 months'), time(), $GLOBALS['TL_LANG']['MSC']['cal_empty']);
 
@@ -8634,7 +8634,7 @@ Edusoho
 The last month is wrong 8 times a year : on 31rst, and by the end of March. 
 
 .. code-block:: php
-
+   
     'lastMonthStart' => date('Y-m-d', strtotime(date('Y-m', strtotime('-1 month')))),
                 'lastMonthEnd' => date('Y-m-d', strtotime(date('Y-m', time())) - 24 * 3600),
                 'lastThreeMonthsStart' => date('Y-m-d', strtotime(date('Y-m', strtotime('-2 month')))),
@@ -8656,7 +8656,7 @@ NextCloud
 Token is checked, but processed in the same way each time. This actual check is done twice, in the same class, in the method droppingFileWith(). 
 
 .. code-block:: php
-
+   
     public function creatingFolderInDrop($folder) {
     		$client = new Client();
     		$options = [];
@@ -8682,7 +8682,7 @@ Zencart
 At least, it always choose the most secure way : use SSL.
 
 .. code-block:: php
-
+   
     if ($usessl) {
             $form .= zen_href_link($action, $parameters, 'NONSSL');
           } else {
@@ -8706,7 +8706,7 @@ Edusoho
 Glob() returns false, in case of error. It returns an empty array in case everything is fine, but nothing was found. In case of error, array_map() will stop the script.
 
 .. code-block:: php
-
+   
     array_map('unlink', glob($dir.'/MP_verify_*.txt'));
 
 
@@ -8721,7 +8721,7 @@ XOOPS
 Although the file is readable, file() may return false in case of failure. On the other hand, implode doesn't accept boolean values.
 
 .. code-block:: php
-
+   
     $file = XOOPS_ROOT_PATH . /modules/{$module_dir}/docs/changelog.txt;
                 if ( is_readable( $file ) ) {
                     $ret .= implode( '<br>', file( $file ) ) . \n;
@@ -8744,7 +8744,7 @@ Tikiwiki
 The initial 's' seems to be too much. May be a typo ? 
 
 .. code-block:: php
-
+   
     // Strip URL type
             $url = preg_replace('s[^internal:]', '', $url);
 
@@ -8765,7 +8765,7 @@ shopware
 This is actually a hashed hardcoded password. As the file explains, this is a demo order, for populating the database when in demo mode, so this is fine. We also learn that the password are securily sorted here. It may also be advised to avoid hardcoding this password, as any demo shop has the same user credential : it is the first to be tried when a demo installation is found. 
 
 .. code-block:: php
-
+   
     '_userID' => '3',
         '_user' => new ArrayObject([
                 'id' => '3',
@@ -8786,7 +8786,7 @@ SugarCrm
 The MD5('Smarty') is hardcoded in the properties. This property is not used in the class, but in parts of the code, when a unique delimiter is needed. 
 
 .. code-block:: php
-
+   
     /**
          * md5 checksum of the string 'Smarty'
          *
@@ -8811,7 +8811,7 @@ OpenEMR
 Although they are commented just above, the values provided here are suspicious.
 
 .. code-block:: php
-
+   
     // FTP parameters that you must customize.  If you are not sending
      // then set $FTP_SERVER to an empty string.
      //
@@ -8832,7 +8832,7 @@ NextCloud
 Although they are documented as empty array, 3 values are provided as examples. They do not responds, at the time of writing, but they may.
 
 .. code-block:: php
-
+   
     /**
      * List of trusted proxy servers
      *
@@ -8874,7 +8874,7 @@ Tine20
 When this script is not run on a Linux system, the file save will fail.
 
 .. code-block:: php
-
+   
     file_put_contents('/var/run/tine20/DummyController.txt', 'success ' . $n)
 
 
@@ -8889,7 +8889,7 @@ Thelia
 The `iptc.jpg` file is written. It looks like the file may be written next to the php_image_magician.php file, but this is deep in the source code and is unlikely. This means that the working directory has been set to some other place, though we don't read it immediately. 
 
 .. code-block:: php
-
+   
     private function writeIPTC($dat, $value)
     	{
     
@@ -8917,7 +8917,7 @@ WordPress
 This code actually loads the file, join it, then split it again. file() would be sufficient. 
 
 .. code-block:: php
-
+   
     $markerdata = explode( "\n", implode( '', file( $filename ) ) );
 
 
@@ -8937,7 +8937,7 @@ XOOPS
 Too much vlaidation
 
 .. code-block:: php
-
+   
     isset($this->tree[$key]['child']) && !empty($this->tree[$key]['child']);
 
 
@@ -8957,7 +8957,7 @@ Thelia
 After checking that $currentCustomer is null, the method returns. The block with Else may be removed and its code may be moved one level up.
 
 .. code-block:: php
-
+   
     if ($customer === 'current') {
                 $currentCustomer = $this->securityContext->getCustomerUser();
                 if ($currentCustomer === null) {
@@ -8981,7 +8981,7 @@ ThinkPHP
 This code has both good and bad example. Good : no use of else, after $_SESSION[$accessGuid] check. Issue : else usage after usage of !isset($accessList[strtoupper($appName)][strtoupper(CONTROLLER_NAME)][strtoupper(ACTION_NAME)])
 
 .. code-block:: php
-
+   
     if (empty($_SESSION[C('ADMIN_AUTH_KEY')])) {
                     if (C('USER_AUTH_TYPE') == 2) {
                         //加强验证和即时验证模式 更加安全 后台权限修改可以即时生效
@@ -9020,7 +9020,7 @@ Phpdocumentor
 No need for parenthesis with require(). instanceof has a higher precedence than return anyway. 
 
 .. code-block:: php
-
+   
     $this[] = new Rule(function ($node) { return ($node instanceof NamespaceDescriptor); }, $namespaceGenerator);
 
 
@@ -9035,7 +9035,7 @@ phpMyAdmin
 Not only echo() doesn't use any parenthesis, but this syntax gives the illusion that echo() only accepts one argument, while it actually accepts an arbitrary number of argument.
 
 .. code-block:: php
-
+   
     echo (($row['Null'] == 'NO') ? __('No') : __('Yes'))
 
 
@@ -9055,7 +9055,7 @@ ChurchCRM
 No need to call substr() to get only one char. 
 
 .. code-block:: php
-
+   
     if (substr($LocationFromGet, 0, 1) == "/") {
         $LocationFromGet = substr($LocationFromGet, 1);
     }
@@ -9072,7 +9072,7 @@ LiveZilla
 No need to call substr() to get only one char. 
 
 .. code-block:: php
-
+   
     $_hex = str_replace("#", "", $_hex);
                 if(strlen($_hex) == 3) {
                 $r = hexdec(substr($_hex,0,1).substr($_hex,0,1));
@@ -9103,7 +9103,7 @@ Phinx
 fopen() may be tested for existence, readability before using it. Although, it actually emits some errors on Windows, with network volumes.
 
 .. code-block:: php
-
+   
     $isReadable = @\fopen($filePath, 'r') !== false;
     
             if (!$filePath || !$isReadable) {
@@ -9122,7 +9122,7 @@ PhpIPAM
 Variable and index existence should always be tested with isset() : it is faster than using ``@``.
 
 .. code-block:: php
-
+   
     $_SESSION['ipamusername']
 
 
@@ -9142,7 +9142,7 @@ Cleverstyle
 This double-call returns ``$results`` as a boolean, preventing a spill of data to the calling method. The ``(bool)`` operator would be clearer here.
 
 .. code-block:: php
-
+   
     $result = $this->db_prime()->q(
     			[
     				DELETE FROM `[prefix]oauth2_clients`
@@ -9169,7 +9169,7 @@ Tine20
 It seems that !! is almost superfluous, as a property called 'is_deleted' should already be a boolean.
 
 .. code-block:: php
-
+   
     foreach ($exceptions as $exception) {
                     $exception->assertAttendee($this->getCalendarUser());
                     $this->_prepareException($savedEvent, $exception);
@@ -9194,7 +9194,7 @@ Zencart
 No need for & operator when $class is only used for a method call.
 
 .. code-block:: php
-
+   
     /**
          * @param $class
          * @param $eventID
@@ -9217,7 +9217,7 @@ XOOPS
 Here, $template is modified, when its properties are modified. When only the properties are modified, or read, then & is not necessary.
 
 .. code-block:: php
-
+   
     public function buildBlock($xobject, &$template)
         {
             // The lame type workaround will change
@@ -9259,7 +9259,7 @@ XOOPS
 Loading() classes should be down with autoload(). autload() may be build in several distinct functions, using spl_autoload_register().
 
 .. code-block:: php
-
+   
     require_once dirname(__DIR__) . 'class/gtickets.php'
 
 
@@ -9274,7 +9274,7 @@ Tikiwiki
 Turn the code from tiki-mytiki_shared.php into a function or a method, and call it when needed. 
 
 .. code-block:: php
-
+   
     include_once('tiki-mytiki_shared.php');
 
 
@@ -9294,7 +9294,7 @@ Tikiwiki
 empty($params['inputtitle']) should have priority over $params['wanted'] == 'n'.
 
 .. code-block:: php
-
+   
     if ($params['wanted'] == 'n') {
     		if (empty($params['inputtitle'])) {
     			$params['inputtitle'] = 'Payment of %0 %1 from user %2 to %3';
@@ -9322,7 +9322,7 @@ Piwigo
 There are two instructions on the line with the if(). Note that the condition is not followed by a bracketed block. When reviewing, it really seems that echo '<br>' and $f=0; are on the same block, but the second is indeed an unconditional expression. This is very difficult to spot. 
 
 .. code-block:: php
-
+   
     foreach ($trigger['files'] as $file)
           {
             if (!$f) echo '<br>'; $f=0;
@@ -9341,7 +9341,7 @@ Tine20
 Here, $_event->attendee is saved in a local variable, then the property is destroyed. Same for $_event->notes; Strangely, a few lines above, the properties are unset on their own line. Unsetting properties leads to surprise bugs, and hidding the unset after ; makes it harder to spot.
 
 .. code-block:: php
-
+   
     $futurePersistentExceptionEvents->setRecurId($_event->getId());
                     unset($_event->recurid);
                     unset($_event->base_event_id);
@@ -9373,7 +9373,7 @@ Tine20
 Typical error handling, which also displays the MySQL error message, and leaks informations about the system. One may also note that mysql_connect is not supported anymore, and was replaced with mysqli and pdo : this may be a backward compatibile file.
 
 .. code-block:: php
-
+   
     $link = mysql_connect($host, $user, $pass) or die("No connection: " . mysql_error( ))
 
 
@@ -9388,7 +9388,7 @@ OpenConf
 or die() is also applied to many situations, where a blocking situation arise. Here, with the creation of a temporary file.
 
 .. code-block:: php
-
+   
     $coreFile = tempnam('/tmp/', 'ocexport') or die('could not generate Excel file (6)')
 
 
@@ -9408,7 +9408,7 @@ OpenConf
 Since PHP 7.0, dirname( , 2); does the job.
 
 .. code-block:: php
-
+   
     $OC_basepath = dirname(dirname($_SERVER['PHP_SELF']));
 
 
@@ -9423,7 +9423,7 @@ MediaWiki
 Since PHP 7.0, dirname( , 2); does the job.
 
 .. code-block:: php
-
+   
     protected function envPrepPath() {
     		global $IP;
     		$IP = dirname( dirname( __DIR__ ) );
@@ -9447,7 +9447,7 @@ Dolphin
 An actual phpinfo(), available during installation. Note that the phpinfo() is actually triggered by a hidden POST variable. 
 
 .. code-block:: php
-
+   
     <?php
     
         if (!empty($_POST['phpinfo']))
@@ -9484,7 +9484,7 @@ Zurmo
 There are suspicious extra spaces around the +, that give the hint that there used to be something else, like a constant, there. From the name of the methods, it seems that this code was refactored from an addition to a simple method call. 
 
 .. code-block:: php
-
+   
     $timeStamp =  + $workflow->getTimeTrigger()->resolveNewTimeStampForDuration(time());
 
 
@@ -9499,7 +9499,7 @@ MediaWiki
 That is a useless assignation, except for the transtyping to integer that PHP does silently. May be that should be a +=, or completely dropped.
 
 .. code-block:: php
-
+   
     $decoded[$field] = +$decoded[$field]
 
 
@@ -9519,7 +9519,7 @@ PhpIPAM
 16 will not be displayed.
 
 .. code-block:: php
-
+   
     sprintf('%032s', gmp_strval(gmp_init($ipv6long, 10), 16);
 
 
@@ -9539,7 +9539,7 @@ PhpIPAM
 There is a property called '$users'. It is easy to mistake $this->users and $users. Also, it seems that $this->users may be used as a cache system, yet it is not employed here. 
 
 .. code-block:: php
-
+   
     /**
     	 * (array of objects) to store users, user id is array index
     	 *
@@ -9596,7 +9596,7 @@ TeamPass
 The value is SELECTed first in the database, and it is INSERTed if not. This may be done in one call in most databases.
 
 .. code-block:: php
-
+   
     foreach ($aMiscVal as $elem) {
         //Check if exists before inserting
         $tmp = mysqli_num_rows(
@@ -9632,7 +9632,7 @@ OpenEMR
 The value is SELECTed first in the database, and it is INSERTed if not. This may be done in one call in most databases.
 
 .. code-block:: php
-
+   
     $query = select * from facility;
     $result = mysqli_query($con, $query);
     while ($row = mysqli_fetch_array($result)) {
@@ -9664,7 +9664,7 @@ Edusoho
 All echo may be merged into one : do this by turning the ; and . into ',', and removing the superfluous echo. Also, echo_style may be turned into a non-display function, returning the build style, rather than echoing it to the output.
 
 .. code-block:: php
-
+   
     echo PHP_EOL;
     echo_style('title', 'Note');
     echo '  The command console could use a different php.ini file'.PHP_EOL;
@@ -9688,7 +9688,7 @@ HuMo-Gen
 Simply calling print once is better than three times. Here too, echo usage would reduce the amount of memory allocation due to concatenation prior display.
 
 .. code-block:: php
-
+   
     print '<input type=text name=quicksearch value=.$quicksearch. size=10 '.$pattern.' title=.__(Minimum:).$min_chars.__(characters).>';
     			print ' <input type=submit value=.__(Search).>';
     		print </form>;
@@ -9710,7 +9710,7 @@ Vanilla
 This regex is actually repeated 4 times across the Vanilla database, including this variation : '#^(https?:)?//#i'.
 
 .. code-block:: php
-
+   
     '`^https?://`'
 
 
@@ -9725,7 +9725,7 @@ Tikiwiki
 This regex is use twice, identically, in the same file, with a few line of distance. It may be federated at the file level.
 
 .. code-block:: php
-
+   
     preg_match('/(tiki-register|tiki-login_validate|tiki-login_scr)\.php/', $url)
 
 
@@ -9745,7 +9745,7 @@ Mautic
 $isNew could be a typecast.
 
 .. code-block:: php
-
+   
     $isNew = ($entity->getId()) ? false : true;
 
 
@@ -9760,7 +9760,7 @@ FuelCMS
 If/then is a lot of code to produce a boolean.
 
 .. code-block:: php
-
+   
     function length_min($str, $limit = 1)
     	{
     		if (strlen(strval($str)) < $limit)
@@ -9790,7 +9790,7 @@ TeamPass
 `$result == 1` is use once in the main if/then, then again the second if/then/elseif structure. Both are incompatible, since, in the else, `$result` will be different from 1. 
 
 .. code-block:: php
-
+   
     if ($result == 1) {
                     $return = "";
                     $logError = "";
@@ -9835,7 +9835,7 @@ Typo3
 `$table == 'pages` is caught initially, and if it fails, it is tested again in the final else. This won't happen.
 
 .. code-block:: php
-
+   
     } elseif ($table === 'pages') {
                                     $parameters = ['id' => $this->id, 'pagesOnly' => 1, 'returnUrl' => GeneralUtility::getIndpEnv('REQUEST_URI')];
                                     $href = (string)$uriBuilder->buildUriFromRoute('db_new', $parameters);
@@ -9867,7 +9867,7 @@ Magento
 Instead of using the exception message as an argument, chaining the exception would send the whole exception, including the message, and other interesting information like file and line.
 
 .. code-block:: php
-
+   
     protected function _initFtpClient()
         {
             try {
@@ -9890,7 +9890,7 @@ Tine20
 Here, the new exception gets an hardcoded message. More details about the reasons are already available in the $e exception, but they are not logged, not chained for later processing.
 
 .. code-block:: php
-
+   
     try {
                 $dirIterator = new DirectoryIterator($this->_baseDir);
             } catch (Exception $e) {
@@ -9915,7 +9915,7 @@ ChurchCRM
 $sState could be the receiving part of a ternary operator. 
 
 .. code-block:: php
-
+   
     if ($sCountry == 'United States' || $sCountry == 'Canada') {
                 $sState = InputUtils::LegacyFilterInput($_POST['State']);
             } else {
@@ -9939,7 +9939,7 @@ phpadsnew
 Each call to chr() may be done before. First, chr() may be replace with the hexadecimal sequence "0x3B"; Secondly, 0x3b is a rather long replacement for a simple semi-colon. The whole pragraph could be stored in a separate file, for easier modifications. 
 
 .. code-block:: php
-
+   
     echo chr(0x47).chr(0x49).chr(0x46).chr(0x38).chr(0x39).chr(0x61).chr(0x01).chr(0x00).
     		     chr(0x01).chr(0x00).chr(0x80).chr(0x00).chr(0x00).chr(0x04).chr(0x02).chr(0x04).
     		 	 chr(0x00).chr(0x00).chr(0x00).chr(0x21).chr(0xF9).chr(0x04).chr(0x01).chr(0x00).
@@ -9964,7 +9964,7 @@ ExpressionEngine
 This code could turn the string into an array, with the explode() function, and use foreach(), instead of calculating the length() initially, and then building the loop.
 
 .. code-block:: php
-
+   
     $length = strlen($str);
     		$words = array();
     
@@ -10012,7 +10012,7 @@ Woocommerce
 This loops reviews the 'stack' and updates its elements. The same loop may leverage foreach and references for more efficient code.
 
 .. code-block:: php
-
+   
     $stack_size = count( $stack );
     				for ( $i = 0; $i < $stack_size; $i++ ) { // freeze the state of the non-argument variables
     					$token = $stack[ $i ];
@@ -10042,7 +10042,7 @@ OpenEMR
 $pdf->ez['leftMargin'] is now 0.
 
 .. code-block:: php
-
+   
     function multiprint_body(& $pdf, $p)
         {
             $pdf->ez['leftMargin'] += $pdf->ez['leftMargin'];
@@ -10072,7 +10072,7 @@ Zencart
 Here, $options is merged with $values if it is an array. If it is not an array, it is probably a null value, and may be ignored. Adding a 'array' typehint will strengthen the code an catch situations where TransactionSearch() is called with a string, leading to clearer code.
 
 .. code-block:: php
-
+   
     function TransactionSearch($startdate, $txnID = '', $email = '', $options) {
         // several lines of code, no mention of $options
           if (is_array($options)) $values = array_merge($values, $options);
@@ -10092,7 +10092,7 @@ SugarCrm
 $override should an an array : if not, it is actually set by default to empty array. Here, a typehint with a default value of 'array()' would offset the parameter validation to the calling method.
 
 .. code-block:: php
-
+   
     function sugar_config_union( $default, $override ){
     	// a little different then array_merge and array_merge_recursive.  we want
     	// the second array to override the first array if the same value exists,
@@ -10129,7 +10129,7 @@ Zurmo
 Here, strpos() or stripos() is a valid replacement.
 
 .. code-block:: php
-
+   
     preg_match('/opera/', $userAgent)
 
 
@@ -10144,7 +10144,7 @@ OpenConf
 `\%e` is not a special char for PCRE regex, although it look like it. It is a special char for date() or printf(). This preg_replace() may be upgraded to str_replace()
 
 .. code-block:: php
-
+   
     $conv = iconv($cp, 'utf-8', strftime(preg_replace("/\%e/", '%#d', $format), $time));
 
 
@@ -10164,7 +10164,7 @@ Piwigo
 preg_match may return 0 if not found, and null if the $pattern is erroneous. While hardcoded regex may be checked at compile time, dynamically built regex may fail at execution time. This is particularly important here, since the function may be called with incoming data for maintenance : 'clear_derivative_cache($_GET['type']);' is in the /admin/maintenance.php.
 
 .. code-block:: php
-
+   
     function clear_derivative_cache_rec($path, $pattern)
     {
       $rmdir = true;
@@ -10196,7 +10196,7 @@ Thelia
 preg_match is used here to identify files with a forbidden extension. The actual list of extension is provided to the method via the parameter $extBlackList, which is an array. In case of mis-configuration by the user of this array, preg_match may fail : for example, when regex special characters are provided. At that point, the whole filter becomes invalid, and can't distinguish good files (returning false) and other files (returning NULL). It is safe to use === false in this situation.
 
 .. code-block:: php
-
+   
     if (!empty($extBlackList)) {
                 $regex = "#^(.+)\.(".implode("|", $extBlackList).")$#i";
     
@@ -10228,7 +10228,7 @@ SuiteCrm
 substr() is even trying to go beyond the end of the string. 
 
 .. code-block:: php
-
+   
     substr($relativeFile, 1, strlen($relativeFile))
 
 
@@ -10243,7 +10243,7 @@ Tine20
 Omitting the last character would yield the same result.
 
 .. code-block:: php
-
+   
     substr($opt, 18, strlen($opt))
 
 
@@ -10263,7 +10263,7 @@ PhpIPAM
 if $subnet['description'] is a string, the comparison with 0 turn it into a boolean. false's length is 0, and true length is 1. PHP saves the day.
 
 .. code-block:: php
-
+   
     $subnet['description'] = strlen($subnet['description']==0) ? "/" : $subnet['description'];
 
 
@@ -10278,7 +10278,7 @@ ExpressionEngine
 If trim($attribs['']['mode']) === 'base64', then it is set to lowercase (although it is already), and added to the && logical test. If it is 'BASE64', this fails.
 
 .. code-block:: php
-
+   
     if (isset($attribs['']['mode']) && strtolower(trim($attribs['']['mode']) === 'base64'))
 
 
@@ -10298,7 +10298,7 @@ Thelia
 The two first comparison may be turned into a case, and the last one could be default, or default with a check on empty(). 
 
 .. code-block:: php
-
+   
     if($modulePart == 'core') { /**/ } elseif($modulePart == 'admin-includes') { /**/ } elseif(!empty($modulePart)) { /**/ }
 
 
@@ -10313,7 +10313,7 @@ XOOPS
 Here, converting this structure to switch requires to drop the === usage. Also, no default usage here. 
 
 .. code-block:: php
-
+   
     if($action === 'results') { /**/ } elseif($action === 'showall') { /**/ } elseif($action === 'showallbyuser') { /**/ }
 
 
@@ -10333,7 +10333,7 @@ Zencart
 The 'action' is collected from $_GET and then, compared with various strings to handle the different actions to be taken. The default behavior is implicit here : if no 'action', display the initial form for taxes to be changed. This has to be understood as a general philosophy of ZenCart project, or by reading the rest of the HTML code. Adding a 'default' case here would help understand what happens in case 'action' is absent or unrecognized. 
 
 .. code-block:: php
-
+   
     $action = (isset($_GET['action']) ? $_GET['action'] : '');
     
       if (zen_not_null($action)) {
@@ -10363,7 +10363,7 @@ Traq
 The default case is actually processed after the switch, by the next if/then structure. The structure deals with the customFields, while the else deals with any unknown situations. This if/then could be wrapped in the 'default' case of switch, for consistent processing. The if/then condition would be hard to use as a 'case' (possible, though). 
 
 .. code-block:: php
-
+   
     public static function dataFor($column, $ticket)
         {
             switch ($column) {
@@ -10413,7 +10413,7 @@ TeamPass
 The concatenations in the initial comparison are disguised casting. When $str2 is empty too, the ternary operator yields a 0, leading to a systematic failure. 
 
 .. code-block:: php
-
+   
     $str1 . '' === $str2 . '' ? 0 : strnatcmp(self::strtonatfold($str1), self::strtonatfold($str2))
 
 
@@ -10433,7 +10433,7 @@ Dolphin
 $aLimits['per_page'] is tested for existence and not false. Later, it is cast from string to int : yet, a '0.1' string value would pass the test, and end up filling $aLimits['per_page'] with 0. 
 
 .. code-block:: php
-
+   
     if (isset($aLimits['per_page']) && $aLimits['per_page'] !== false)
                 $this->aCurrent['paginate']['perPage'] = (int)$aLimits['per_page'];
 
@@ -10449,7 +10449,7 @@ SuiteCrm
 $marker['lat'] is compared to the string '0', which actually transtype it to integer, then it is cast to string for map_marker_data_points() needs and finally, it is cast to float, in case of a correction. It would be safer to test it in its string type, since floats are not used as array indices. 
 
 .. code-block:: php
-
+   
     if ($marker['lat'] != '0' && $marker['lng'] != '0') {
     
                 // Check to see if marker point already exists and apply offset if needed
@@ -10479,7 +10479,7 @@ Zurmo
 This is wrong twice a year, in countries that has day-ligth saving time. One of the weeks will be too short, and the other will be too long. 
 
 .. code-block:: php
-
+   
     /**
              * Get all imports where the modifiedDateTime was more than 1 week ago.  Then
              * delete the imports.
@@ -10502,7 +10502,7 @@ shopware
 When daylight saving strike, the email may suddenly be locked for 1 hour minus 30 seconds ago. The lock will be set for the rest of the hour, until the server catch up. 
 
 .. code-block:: php
-
+   
     // Check lock time. Add a buffer of 30 seconds to the lock time (default request time)
                 if (!empty($mailing['locked']) && strtotime($mailing['locked']) > time() - 30) {
                     echo "Current mail: '" . $subjectCurrentMailing . "'\n";
@@ -10527,7 +10527,7 @@ LiveZilla
 Only one row is read from the DBManager, and the rest is ignored. The result has no more than one result, basedd on the `LIMIT 1` clause in the SQL. The while loop may be removed.
 
 .. code-block:: php
-
+   
     $result = DBManager::Execute(true, "SELECT * FROM `" . DB_PREFIX . DATABASE_STATS_AGGS . "` WHERE `month`>0 AND ((`year`='" . DBManager::RealEscape(date("Y")) . "' AND `month`<'" . DBManager::RealEscape(date("n")) . "') OR (`year`<'" . DBManager::RealEscape(date("Y")) . "')) AND (`aggregated`=0 OR `aggregated`>" . (time() - 300) . ") AND `day`=0 ORDER BY `year` ASC,`month` ASC LIMIT 1;");
             if ($result)
                 while ($row = DBManager::FetchArray($result)) {
@@ -10550,7 +10550,7 @@ MediaWiki
 The final break is useless : the execution has already reached the end of the loop.
 
 .. code-block:: php
-
+   
     for ( $i = count( $thisKeys ) - 1; $i >= 0; $i-- ) {
     			$keys = array_merge( array_slice( $thisKeys, 0, $i ), $nameKeys );
     			$data = $alldata;
@@ -10581,7 +10581,7 @@ Zurmo
 It seems that a simple concatenation could be used here. There is another call to this expression in the code, and a third that uses 'PATCH_VERSION' on top of the two others.
 
 .. code-block:: php
-
+   
     join('.', array(MAJOR_VERSION, MINOR_VERSION))
 
 
@@ -10596,7 +10596,7 @@ Piwigo
 PHP_VERSION is actually build with PHP_MAJOR_VERSION, PHP_MINOR_VERSION and PHP_RELEASE_VERSION. There is also a compact version : PHP_VERSION_ID
 
 .. code-block:: php
-
+   
     explode('.', PHP_VERSION);
 
 
@@ -10616,7 +10616,7 @@ Dolphin
 $gConf is not used in this method, and may be safely avoided.
 
 .. code-block:: php
-
+   
     function getUserPostsList ($user, $sort, $limit = 10)
         {
             global $gConf;
@@ -10663,7 +10663,7 @@ WordPress
 This code actually loads the file, join it, then split it again. file() would be sufficient. 
 
 .. code-block:: php
-
+   
     $markerdata = explode( "\n", implode( '', file( $filename ) ) );
 
 
@@ -10678,7 +10678,7 @@ PrestaShop
 This could be improved with count() recursive and a array_filter call, to remove empty $list.
 
 .. code-block:: php
-
+   
     $nb_results = 0;
                 foreach ($this->_list as $list) {
                     if ($list != false) {
@@ -10703,7 +10703,7 @@ MediaWiki
 This foreach reads each element from $entries into entry. $entry, in turn, is written into $pdbk, $title and $displayText for easier reuse. 5 elements are read from $entry, and they could be set in their respective variable in the foreach() with a list call. The only on that can't be set is 'query' which has to be tested.
 
 .. code-block:: php
-
+   
     foreach ( $entries as $index => $entry ) {
     				$pdbk = $entry['pdbk'];
     				$title = $entry['title'];
@@ -10756,7 +10756,7 @@ SPIP
 if (isset($time[$t])) { } else { } would put the important case in first place, and be more readable.
 
 .. code-block:: php
-
+   
     if (!isset($time[$t])) {
     		$time[$t] = $a + $b;
     	} else {
@@ -10788,7 +10788,7 @@ ExpressionEngine
 Let's be positive, and start processing the presence of $topic first. And let's call it empty(),  not == ''.
 
 .. code-block:: php
-
+   
     if ($topic != '')
     						{
     							$sql .= '('.substr($topic, 0, -3).') OR ';
@@ -10816,7 +10816,7 @@ ChurchCRM
 Difficut to guess what was before the block here. It doesn't have any usage for control flow.
 
 .. code-block:: php
-
+   
     $new_row = false;
             $count_people = 0;
     
@@ -10843,7 +10843,7 @@ Piwigo
 There is no need for block braces with case. In fact, it does give a false sense of break, while the case will still fall over to the next one. 
 
 .. code-block:: php
-
+   
     case 'rate' :
         {
           include_once(PHPWG_ROOT_PATH.'include/functions_rate.inc.php');
@@ -10868,7 +10868,7 @@ FuelCMS
 substr() always returns a string, so there is no need to enforce this.
 
 .. code-block:: php
-
+   
     if (isset($_SERVER['SCRIPT_NAME'][0]))
     		{
     			if (strpos($uri, $_SERVER['SCRIPT_NAME']) === 0)
@@ -10893,7 +10893,7 @@ ThinkPHP
 A comparison always returns a boolean, except for the spaceship operator.
 
 .. code-block:: php
-
+   
     foreach ($result as $key => $val) {
                     $info[$val['column_name']] = array(
                         'name'    => $val['column_name'],
@@ -10922,7 +10922,7 @@ Magento
 This code assumes that $delete is an array, then checks if it empty. Foreach will take care of the empty check.
 
 .. code-block:: php
-
+   
     if (!empty($delete)) {
                 foreach ($delete as $categoryId) {
                     $where = array(
@@ -10946,7 +10946,7 @@ Phinx
 If $dependencies is not empty, foreach() skips the loops.
 
 .. code-block:: php
-
+   
     private function getSeedDependenciesInstances(AbstractSeed $seed)
         {
             $dependenciesInstances = [];
@@ -10981,7 +10981,7 @@ Zencart
 $_GET is always a global variable. There is no need to declare it global in any scope.
 
 .. code-block:: php
-
+   
     function choose_audience() {
             global $_GET;
 
@@ -10997,7 +10997,7 @@ HuMo-Gen
 It is hard to spot that $generY is useless, but this is the only occurrence where $generY is refered to as a global. It is not accessed anywhere else as a global (there are occurrences of $generY being an argument), and it is not even assigned within that function. 
 
 .. code-block:: php
-
+   
     function calculate_ancestor($pers) {
         global $db_functions, $reltext, $sexe, $sexe2, $spouse, $special_spouseY, $language, $ancestortext, $dutchtext, $selected_language, $spantext, $generY, $foundY_nr, $rel_arrayY;
 
@@ -11018,7 +11018,7 @@ Mautic
 Parenthesis are useless around $progress[1], and around the division too. 
 
 .. code-block:: php
-
+   
     $dataArray['percent'] = ($progress[1]) ? ceil(($progress[0] / $progress[1]) * 100) : 100;
 
 
@@ -11033,7 +11033,7 @@ Woocommerce
 Parenthesis are useless for calculating $discount_percent, as it is a divisition. Moreover, it is not needed with $discount, (float) applies to the next element, but it does make the expression more readable. 
 
 .. code-block:: php
-
+   
     if ( wc_prices_include_tax() ) {
     	$discount_percent = ( wc_get_price_including_tax( $cart_item['data'] ) * $cart_item_qty ) / WC()->cart->subtotal;
     } else {
@@ -11058,7 +11058,7 @@ Phpdocumentor
 This method parses comments. In fact, comments are represented by other tokens, which may be added or removed at time while coding.
 
 .. code-block:: php
-
+   
     public function parse_comments($code)
     	{
     		$comments = array();
@@ -11089,7 +11089,7 @@ Dolphin
 $aParams is an argument : this code looks like the switch is reserved for future use.
 
 .. code-block:: php
-
+   
     function getModulesBy($aParams = array())
     	{
     		$sMethod = 'getAll';
@@ -11121,7 +11121,7 @@ Tine20
 $_rawContent is unset after being sent to the stream. The variable is a parameter, and will be freed at the end of the call of the method. No need to do it explicitly.
 
 .. code-block:: php
-
+   
     protected function _createMimePart($_rawContent, $_partStructure)
         {
             if (Tinebase_Core::isLogLevel(Zend_Log::TRACE)) Tinebase_Core::getLogger()->trace(__METHOD__ . '::' . __LINE__ . ' Content: ' . $_rawContent);
@@ -11146,7 +11146,7 @@ Typo3
 $row is unset under certain conditions : here, we can read it in the comments. Eventually, the $row will be returned, and turned into a NULL, by default. This will also create a notice in the logs. Here, the best would be to set a null value, instead of unsetting the variable.
 
 .. code-block:: php
-
+   
     public function getRecordOverlay($table, $row, $sys_language_content, $OLmode = '')
         {
     //....  a lot more code, with usage of $row, and several unset($row)
@@ -11188,7 +11188,7 @@ Tine20
 Two usage of var_dump(). They are protected by configuration, since the debug property must be set to 'true'. Yet, it is safer to avoid them altogether, and log the information to an external file.
 
 .. code-block:: php
-
+   
     if($this->debug === true) {
                 var_dump($this->getLastRequest());
                 var_dump($response);
@@ -11206,7 +11206,7 @@ Piwigo
 This is a hidden debug system : when the response format is not available, the whole object is dumped in the output.
 
 .. code-block:: php
-
+   
     function run()
       {
         if ( is_null($this->_responseEncoder) )
@@ -11236,7 +11236,7 @@ OpenEMR
 The first while() is needed, to read the arbitrary long list returned by the SQL query. The second list may be upgraded with a foreach, to read both the key and the value. This is certainly faster to execute and to read.
 
 .. code-block:: php
-
+   
     function getInsuranceReport($pid, $type = primary)
     {
         $sql = select * from insurance_data where pid=? and type=? order by date ASC;
@@ -11265,7 +11265,7 @@ Dolphin
 This clever use of while() and list() is actually a foreach($a as $r) (the keys are ignored)
 
 .. code-block:: php
-
+   
     function getRssUpdatedTopics ()
         {
             global $gConf;
@@ -11302,7 +11302,7 @@ Dolibarr
 When $tabRatio is 1001, then the condition is valid, and the ratio accepted. The right part of the condition is not executed.
 
 .. code-block:: php
-
+   
     public function setTabRatio($tabRatio)
         {
             if ($tabRatio >= 0 || $tabRatio <= 1000) {
@@ -11324,7 +11324,7 @@ WordPress
 This condition may be easier to read as `$diff >= WEEK_IN_SECONDS && $diff < MONTH_IN_SECONDS`. When testing for outside this interval, using not is also more readable : `!($diff >= WEEK_IN_SECONDS && $diff < MONTH_IN_SECONDS)`.
 
 .. code-block:: php
-
+   
     } elseif ( $diff < MONTH_IN_SECONDS && $diff >= WEEK_IN_SECONDS ) {
     		$weeks = round( $diff / WEEK_IN_SECONDS );
     		if ( $weeks <= 1 ) {
@@ -11350,7 +11350,7 @@ Edusoho
 This call extract text between [code] tags, then process it with $this->codedisp() and nest it again in the original string. preg_replace_callback() is a drop-in replacement for this piece of code. 
 
 .. code-block:: php
-
+   
     $message = preg_replace("/\s*\[code\](.+?)\[\/code\]\s*/ies", "$this->codedisp('\1')", $message);
 
 
@@ -11370,7 +11370,7 @@ Zencart
 Note that addressEntries is used, and is also expected to be an array or an object with ArrayAccess. $addressEntries is only defined in a class called 'Guest' which is also the only one using that trait. Any other class using the AccountFormValidator trait must define addressEntries.
 
 .. code-block:: php
-
+   
     trait AccountFormValidator
     {
     
@@ -11408,7 +11408,7 @@ NextCloud
 WebDav uses Sharing, and Sharing uses Webdav. Once using the other is sufficient. 
 
 .. code-block:: php
-
+   
     trait WebDav { 
         use Sharing;
         
@@ -11432,7 +11432,7 @@ Magento
 Compare prices and physical quantities with a difference, so as to avoid rounding errors.
 
 .. code-block:: php
-
+   
     if ((float)$option['price'] != 0.00) {
                             $valueNode->addAttribute('price', $option['price']);
                             $valueNode->addAttribute('formated_price', $option['formated_price']);
@@ -11450,7 +11450,7 @@ SPIP
 Here, the current version number is stored as a real number. With a string, though a longer value, it may be compared using the version_compare() function.
 
 .. code-block:: php
-
+   
     $version_installee == 1.701
 
 
@@ -11470,7 +11470,7 @@ Tikiwiki
 Double-quotes are not needed here. If casting to string is important, the (string) would be more explicit.
 
 .. code-block:: php
-
+   
     foreach ($plugininfo['params'] as $key => $param) {
     		$default["$key"] = $param['default'];
     	}
@@ -11487,7 +11487,7 @@ NextCloud
 Both concatenations could be merged, independently. If readability is important, why not put them inside curly brackets?
 
 .. code-block:: php
-
+   
     public static function removeFile($path, $filename) {
     		if (file_exists("$path" . "$filename")) {
     			unlink("$path" . "$filename");
@@ -11511,7 +11511,7 @@ xataface
 This is an exact example. A little further, the same applies to intval($max)) 
 
 .. code-block:: php
-
+   
     intval($min);
 
 
@@ -11526,7 +11526,7 @@ OpenConf
 This is another exact example. 
 
 .. code-block:: php
-
+   
     intval($_POST['pid']);
 
 
@@ -11546,7 +11546,7 @@ MediaWiki
 Too many ff in the masks. 
 
 .. code-block:: php
-
+   
     private function encodeLong( $id ) {
     		$high   = ( $id & 0xffffffff00000000 ) >> 32;
     		$low    = $id & 0x00000000ffffffff;
@@ -11570,7 +11570,7 @@ OpenEMR
 The name of the contry contains both an unsecable space (the first, after Tonga), and a normal space (between Tonga and Islands). Translations are stored in a database, which preserves the unbreakable spaces. This also means that fixing the translation must be applied to every piece of data at the same time. The xl() function, which handles the translations, is also a good place to clean the spaces before searching for the right translation.
 
 .. code-block:: php
-
+   
     'to' => xl('Tonga (Tonga Islands)'),
 
 
@@ -11585,7 +11585,7 @@ Thelia
 This is another example with a translation sentence. Here, the unbreakable space is before the question mark : this is a typography rule, that is common to many language. This would be a false positive, unless typography is handled by another part of the software.
 
 .. code-block:: php
-
+   
     'Mot de passe oublié ?'
 
 
@@ -11605,7 +11605,7 @@ WordPress
 $request is used successively as an object (IXR_Request), then as a string (The POST). Separatring both usage with different names will help readability.
 
 .. code-block:: php
-
+   
     $request = new IXR_Request($method, $args);
             $length = $request->getLength();
             $xml = $request->getXml();
@@ -11629,7 +11629,7 @@ WordPress
 This code actually loads the file, join it, then split it again. file() would be sufficient. 
 
 .. code-block:: php
-
+   
     $markerdata = explode( "\n", implode( '', file( $filename ) ) );
 
 
@@ -11649,7 +11649,7 @@ FuelCMS
 Three _ is quite a lot for variables. Would they not be parameters but global variables, that would still be quite a lot.
 
 .. code-block:: php
-
+   
     public function _render($___viewFn, $___data_for_view, $___play_safe = true, $loadHelpers = true) {
         /**/
     }
@@ -11666,7 +11666,7 @@ PhpIPAM
 $sss is the end-result of a progression, from $subsections (3s) to $ss to $sss. Although it is understandable from the code, a fuller name, like $subsection_subnet or $one_subsection_subnet would make this more readable.
 
 .. code-block:: php
-
+   
     //fetch subsection subnets
     		foreach($subsections as $ss) {
     			$subsection_subnets = $Subnets->fetch_section_subnets($ss->id);	//fetch all subnets in subsection
@@ -11697,7 +11697,7 @@ Magento
 The initial C is actually a russian C.
 
 .. code-block:: php
-
+   
     $сheckoutMultishippingSuccess
 
 
@@ -11717,7 +11717,7 @@ shopware
 In the updateEmailTemplate method, $generatedQueries collects all the generated SQL queries. $generatedQueries is not initialized, and never used after initialization. 
 
 .. code-block:: php
-
+   
     private function updateEmailTemplate($name, $content, $contentHtml = null)
         {
             $sql = <<<SQL
@@ -11747,7 +11747,7 @@ Vanilla
 In this code, $cachedConfigData is collected after storing date in the cache. Gdn::cache()->store() does actual work, so its calling is necessary. The result, collected after execution, is not reused in the rest of the method (long method, not all is shown here). Removing such variable is a needed clean up after development and debug, but also prevents pollution of the variable namespace.
 
 .. code-block:: php
-
+   
     // Save to cache if we're into that sort of thing
                     $fileKey = sprintf(Gdn_Configuration::CONFIG_FILE_CACHE_KEY, $this->Source);
                     if ($this->Configuration && $this->Configuration->caching() && Gdn::cache()->type() == Gdn_Cache::CACHE_TYPE_MEMORY && Gdn::cache()->activeEnabled()) {
@@ -11774,7 +11774,7 @@ shopware
 In the updateEmailTemplate method, $generatedQueries collects all the generated SQL queries. $generatedQueries is not initialized, and never used after initialization. 
 
 .. code-block:: php
-
+   
     private function updateEmailTemplate($name, $content, $contentHtml = null)
         {
             $sql = <<<SQL
@@ -11809,7 +11809,7 @@ Dolibarr
 $val is only written, as only the keys are used. $val may be skipped by applying the foreach to array_keys($this->cats), instead of the whole array.
 
 .. code-block:: php
-
+   
     // We add properties fullxxx to all elements
     		foreach($this->cats as $key => $val)
     		{
@@ -11829,7 +11829,7 @@ SuiteCrm
 $email_health is used later in the method; while $email_components is only set, and never used.
 
 .. code-block:: php
-
+   
     //run query for mail boxes of type 'bounce'
             $email_health = 0;
             $email_components = 2;

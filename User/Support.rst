@@ -179,7 +179,7 @@ PHP extensions are described with the list of structures they define : functions
 * `ext/apcu <http://www.php.net/manual/en/book.apcu.php>`_
 * `ext/array <https://www.php.net/manual/en/book.array.php>`_
 * `ext/php-ast <https://pecl.php.net/package/ast>`_
-* `ext/async <https://github.com/concurrent-php/ext-async>`_
+* ext/async
 * `ext/bcmath <http://www.php.net/bcmath>`_
 * `ext/bzip2 <https://www.php.net/bzip2>`_
 * `ext/cairo <https://cairographics.org/>`_
@@ -188,13 +188,13 @@ PHP extensions are described with the list of structures they define : functions
 * `ext/com <https://www.php.net/manual/en/book.com.php>`_
 * `ext/crypto <https://pecl.php.net/package/crypto>`_
 * `ext/csprng <https://www.php.net/manual/en/book.csprng.php>`_
-* `ext/ctype <https://www.php.net/manual/en/ref.ctype.php>`_
+* ext/ctype
 * `ext/curl <https://www.php.net/manual/en/book.curl.php>`_
 * `ext/cyrus <https://www.php.net/manual/en/book.cyrus.php>`_
 * `ext/date <https://www.php.net/manual/en/book.datetime.php>`_
 * `ext/db2 <https://www.php.net/manual/en/book.ibm-db2.php>`_
 * `ext/dba <https://www.php.net/manual/en/book.dba.php>`_
-* `ext/decimal <http://php-decimal.io>`_
+* ext/decimal
 * `ext/dio <https://www.php.net/manual/en/refs.fileprocess.file.php>`_
 * `ext/dom <https://www.php.net/manual/en/book.dom.php>`_
 * `ext/ds <http://docs.php.net/manual/en/book.ds.php>`_
