@@ -2866,7 +2866,7 @@ Piwigo
 
 :ref:`never-called-parameter`, in include/functions_html.inc.php:329. 
 
-$alternate_url is never explicitely passed to bad_request() : this doesn't show in this extract. It could be dropped from this code.
+$alternate_url is never explicitly passed to bad_request() : this doesn't show in this extract. It could be dropped from this code.
 
 .. code-block:: php
    
@@ -6860,7 +6860,7 @@ SugarCrm
 
 :ref:`dangling-array-references`, in SugarCE-Full-6.5.26/modules/Import/CsvAutoDetect.php:165. 
 
-There are two nested foreach here : they both have referenced blind variables. The second one uses $data, but never changes it. Yet, it is reused the next round in the first loop, leading to pollution from the first rows of $this->_parser->data into the lasts. This may happen even if $data is not modified explicitely : in fact, it will be modified the next call to foreach($row as ...), for each element in $row. 
+There are two nested foreach here : they both have referenced blind variables. The second one uses $data, but never changes it. Yet, it is reused the next round in the first loop, leading to pollution from the first rows of $this->_parser->data into the lasts. This may happen even if $data is not modified explicitly : in fact, it will be modified the next call to foreach($row as ...), for each element in $row. 
 
 .. code-block:: php
    

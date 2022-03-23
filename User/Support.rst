@@ -180,8 +180,8 @@ PHP extensions are described with the list of structures they define : functions
 * `ext/array <https://www.php.net/manual/en/book.array.php>`_
 * `ext/php-ast <https://pecl.php.net/package/ast>`_
 * ext/async
-* `ext/bcmath <http://www.php.net/bcmath>`_
-* `ext/bzip2 <https://www.php.net/bzip2>`_
+* ext/bcmath
+* ext/bzip2
 * `ext/cairo <https://cairographics.org/>`_
 * `ext/calendar <http://www.php.net/manual/en/ref.calendar.php>`_
 * `ext/cmark <https://github.com/commonmark/cmark>`_
@@ -189,14 +189,14 @@ PHP extensions are described with the list of structures they define : functions
 * `ext/crypto <https://pecl.php.net/package/crypto>`_
 * `ext/csprng <https://www.php.net/manual/en/book.csprng.php>`_
 * ext/ctype
-* `ext/curl <https://www.php.net/manual/en/book.curl.php>`_
+* ext/curl
 * `ext/cyrus <https://www.php.net/manual/en/book.cyrus.php>`_
 * `ext/date <https://www.php.net/manual/en/book.datetime.php>`_
 * `ext/db2 <https://www.php.net/manual/en/book.ibm-db2.php>`_
 * `ext/dba <https://www.php.net/manual/en/book.dba.php>`_
 * ext/decimal
 * `ext/dio <https://www.php.net/manual/en/refs.fileprocess.file.php>`_
-* `ext/dom <https://www.php.net/manual/en/book.dom.php>`_
+* ext/dom
 * `ext/ds <http://docs.php.net/manual/en/book.ds.php>`_
 * `ext/eaccelerator <http://eaccelerator.net/>`_
 * `ext/eio <http://software.schmorp.de/pkg/libeio.html>`_
@@ -216,16 +216,16 @@ PHP extensions are described with the list of structures they define : functions
 * `ext/filter <https://www.php.net/manual/en/book.filter.php>`_
 * `ext/fpm <https://www.php.net/fpm>`_
 * `ext/ftp <http://www.faqs.org/rfcs/rfc959>`_
-* `ext/gd <https://www.php.net/manual/en/book.image.php>`_
+* ext/gd
 * `ext/gearman <https://www.php.net/manual/en/book.gearman.php>`_
-* `ext/gender <https://www.php.net/manual/en/book.gender.php>`_
+* ext/gender
 * `ext/geoip <https://www.php.net/manual/en/book.geoip.php>`_
 * `ext/gettext <https://www.gnu.org/software/gettext/manual/gettext.html>`_
 * `ext/gmagick <http://www.php.net/manual/en/book.gmagick.php>`_
 * `ext/gmp <https://www.php.net/manual/en/book.gmp.php>`_
 * `ext/gnupgp <http://www.php.net/manual/en/book.gnupg.php>`_
 * ext/grpc
-* `ext/hash <http://www.php.net/manual/en/book.hash.php>`_
+* ext/hash
 * `ext/hrtime <https://www.php.net/manual/en/intro.hrtime.php>`_
 * `ext/pecl_http <https://github.com/m6w6/ext-http>`_
 * `ext/ibase <https://www.php.net/manual/en/book.ibase.php>`_
@@ -235,7 +235,7 @@ PHP extensions are described with the list of structures they define : functions
 * `ext/imagick <https://www.php.net/manual/en/book.imagick.php>`_
 * `ext/imap <http://www.php.net/imap>`_
 * `ext/info <https://www.php.net/manual/en/book.info.php>`_
-* `ext/inotify <https://www.php.net/manual/en/book.inotify.php>`_
+* ext/inotify
 * `ext/intl <http://site.icu-project.org/>`_
 * `ext/json <http://www.faqs.org/rfcs/rfc7159>`_
 * `ext/judy <http://judy.sourceforge.net/>`_
@@ -265,7 +265,7 @@ PHP extensions are described with the list of structures they define : functions
 * `ext/mysqli <https://www.php.net/manual/en/book.mysqli.php>`_
 * `ext/ncurses <https://www.php.net/manual/en/book.ncurses.php>`_
 * `ext/newt <http://people.redhat.com/rjones/ocaml-newt/html/Newt.html>`_
-* `ext/nsapi <https://www.php.net/manual/en/install.unix.sun.php>`_
+* ext/nsapi
 * `ext/ob <https://www.php.net/manual/en/book.outcontrol.php>`_
 * `ext/oci8 <https://www.php.net/manual/en/book.oci8.php>`_
 * `ext/odbc <http://www.php.net/manual/en/book.uodbc.php>`_
@@ -334,16 +334,15 @@ PHP extensions are described with the list of structures they define : functions
 * `ext/xdiff <https://www.php.net/manual/en/book.xdiff.php>`_
 * `ext/xhprof <http://web.archive.org/web/20110514095512/http://mirror.facebook.net/facebook/xhprof/doc.html>`_
 * `ext/xml <http://www.php.net/manual/en/book.xml.php>`_
-* `ext/xmlreader <http://www.php.net/manual/en/book.xmlreader.php>`_
+* ext/xmlreader
 * `ext/xmlrpc <http://www.php.net/manual/en/book.xmlrpc.php>`_
-* `ext/xmlwriter <https://www.php.net/manual/en/book.xmlwriter.php>`_
+* ext/xmlwriter
 * `ext/xsl <https://www.php.net/manual/en/intro.xsl.php>`_
-* `ext/xxtea <https://pecl.php.net/package/xxtea>`_
+* ext/xxtea
 * `ext/yaml <http://www.yaml.org/>`_
 * `ext/yis <http://www.tldp.org/HOWTO/NIS-HOWTO/index.html>`_
-* `ext/zbarcode <https://github.com/mkoppanen/php-zbarcode>`_
 * `ext/zend_monitor <http://files.zend.com/help/Zend-Server/content/zendserverapi/zend_monitor-php_api.htm>`_
-* `ext/zip <https://www.php.net/manual/en/book.zip.php>`_
+* ext/zip
 * `ext/zlib <https://www.php.net/manual/en/book.zlib.php>`_
 * `ext/0mq <http://zeromq.org/>`_
 * `ext/zookeeper <https://www.php.net/zookeeper>`_

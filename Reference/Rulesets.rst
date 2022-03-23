@@ -6,7 +6,7 @@ Rulesets
 Introduction
 ------------------------
 
-Exakat provides unique 1457 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
+Exakat provides unique 1458 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
 
 For more smoothly usage, the ruleset concept allow you to run a set of rules based on a decidated focus. Beawre that a Ruleset run all the associated rules and any needed dependencies.
 
@@ -571,7 +571,7 @@ Appinfo
 
 A set of rules that describes with PHP features is used in the code.
 
-Total : 384 analysis
+Total : 383 analysis
 
 * :ref:`array-index`
 * :ref:`multidimensional-arrays`
@@ -828,7 +828,6 @@ Total : 384 analysis
 * :ref:`use-composer-lock`
 * :ref:`string`
 * :ref:`ext-mhash`
-* :ref:`ext-zbarcode`
 * :ref:`ext-mongodb`
 * :ref:`error\_log()-usage`
 * :ref:`sql-queries`
@@ -1003,7 +1002,7 @@ CE
 
 This ruleset is the Community Edition list. It holds all the analysis that are in the community edition version of Exakat.
 
-Total : 660 analysis
+Total : 659 analysis
 
 * :ref:`adding-zero`
 * :ref:`array-index`
@@ -1388,7 +1387,6 @@ Total : 660 analysis
 * :ref:`use-composer-lock`
 * :ref:`string`
 * :ref:`ext-mhash`
-* :ref:`ext-zbarcode`
 * :ref:`ext-mongodb`
 * :ref:`error\_log()-usage`
 * :ref:`sql-queries`
@@ -3236,7 +3234,7 @@ Preferences
 
 This ruleset identify code with multiple forms, and report when one is more frequent than the others. Echo vs print, shell_exec() vs ``, etc.
 
-Total : 29 analysis
+Total : 30 analysis
 
 * :ref:`true-false-inconsistant-case`
 * :ref:`echo-or-print`
@@ -3267,6 +3265,7 @@ Total : 29 analysis
 * :ref:`caught-variable`
 * :ref:`not-or-tilde`
 * :ref:`null-type-favorite`
+* :ref:`string-interpolation-favorite`
 
 
 
@@ -3611,7 +3610,7 @@ Typechecks
 
 This ruleset focuses on typehinting. Missing typehint, or inconsistent typehint, are reported. 
 
-Total : 25 analysis
+Total : 26 analysis
 
 * :ref:`argument-should-be-typehinted`
 * :ref:`useless-interfaces`
@@ -3638,6 +3637,7 @@ Total : 25 analysis
 * :ref:`could-be-parent`
 * :ref:`could-be-generator`
 * :ref:`argument-could-be-iterable`
+* :ref:`typehints-couldbenever`
 
 
 
@@ -3657,7 +3657,7 @@ All
 
 All is a dummy ruleset, which includes all the rules. It is mostly used internally.
 
-Total : 1445 analysis
+Total : 1446 analysis
 
 * :ref:`adding-zero`
 * :ref:`ambiguous-array-index`
@@ -4365,7 +4365,6 @@ Total : 1445 analysis
 * :ref:`string`
 * :ref:`class-should-be-final-by-ocramius`
 * :ref:`ext-mhash`
-* :ref:`ext-zbarcode`
 * :ref:`ext-mongodb`
 * :ref:`should-use-function`
 * :ref:`one-expression-brackets-consistency`
@@ -5104,6 +5103,8 @@ Total : 1445 analysis
 * :ref:`identical-elseif`
 * :ref:`simplify-foreach`
 * :ref:`use-variable-created-inside-loop`
+* :ref:`string-interpolation-favorite`
+* :ref:`typehints-couldbenever`
 
 
 

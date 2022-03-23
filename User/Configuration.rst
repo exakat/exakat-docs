@@ -58,39 +58,39 @@ Option placements
 This table show in which file the directive may be placed to be used. 'exakat' is the config/exakat.ini file, 'project' is the projects/--name--/config.ini file, and 'in-code' is the .exakat.yaml/ini file, directly in the code.
 
 
-+---------------------+--------+---------+---------+
-| name                | exakat | project | in-code |
-+---------------------+--------+---------+---------+
-| phpversion          | X      | X       | X       |
-+---------------------+--------+---------+---------+
-| ignore_dirs         | X      | X       | X       |
-+---------------------+--------+---------+---------+
-| include_dirs        | X      | X       | X       |
-+---------------------+--------+---------+---------+
-| ignore_rules        | X      | X       | X       |
-+---------------------+--------+---------+---------+
-| file_extensions     | X      | X       | X       |
-+---------------------+--------+---------+---------+
-| project_name        | X      | X       | X       |
-+---------------------+--------+---------+---------+
-| project_description | X      | X       | X       |
-+---------------------+--------+---------+---------+
-| project_url         |        | X       |         |
-+---------------------+--------+---------+---------+
-| project_vcs         |        | X       |         |
-+---------------------+--------+---------+---------+
-| project_reports     |        | X       | X       |
-+---------------------+--------+---------+---------+
-| project_rulesets    |        | X       | X       |
-+---------------------+--------+---------+---------+
-| project_vcs         |        | X       |         |
-+---------------------+--------+---------+---------+
-| project_packagist   |        | X       |         |
-+---------------------+--------+---------+---------+
-| project_cobblers    | X      | X       | X       |
-+---------------------+--------+---------+---------+
-| rulesets            |        |         | X       |
-+---------------------+--------+---------+---------+
++---------------------+--------+---------+---------+----------+
+| name                | exakat | project | in-code | rule     |
++---------------------+--------+---------+---------+----------+
+| phpversion          | X      | X       | X       |          |
++---------------------+--------+---------+---------+----------+
+| ignore_dirs         | X      | X       | X       | X        |
++---------------------+--------+---------+---------+----------+
+| include_dirs        | X      | X       | X       | X        |
++---------------------+--------+---------+---------+----------+
+| ignore_rules        | X      | X       | X       |          |
++---------------------+--------+---------+---------+----------+
+| file_extensions     | X      | X       | X       | X        |
++---------------------+--------+---------+---------+----------+
+| project_name        | X      | X       | X       |          |
++---------------------+--------+---------+---------+----------+
+| project_description | X      | X       | X       |          |
++---------------------+--------+---------+---------+----------+
+| project_url         |        | X       |         |          |
++---------------------+--------+---------+---------+----------+
+| project_vcs         |        | X       |         |          |
++---------------------+--------+---------+---------+----------+
+| project_reports     |        | X       | X       |          |
++---------------------+--------+---------+---------+----------+
+| project_rulesets    |        | X       | X       |          |
++---------------------+--------+---------+---------+----------+
+| project_vcs         |        | X       |         |          |
++---------------------+--------+---------+---------+----------+
+| project_packagist   |        | X       |         |          |
++---------------------+--------+---------+---------+----------+
+| project_cobblers    | X      | X       | X       |          |
++---------------------+--------+---------+---------+----------+
+| rulesets            |        |         | X       |          |
++---------------------+--------+---------+---------+----------+
 
 .. _user-option-availability:
 
@@ -258,28 +258,46 @@ Copy-paste this YAML code into a file called `.exakat.yaml`, located at the root
 
 :: 
 
+    project: <project identifier>
+    project_name: "<project_name>"
+    project_rulesets:
+      - Analyze
     file_extensions: php,php3,phtml
-    project: <project short name>
-    project_name: <project name, as displayed in reports>
-    project_rulesets: 
-    - <list of rulesets to apply>
-    - Analysis
-    file_extensions: php,php3,phtml
-    project_report: 
-    - <list of reports to build>
-    - Ambassador
-    include_dirs: 
+    project_report:
+      - <list of reports to build>
+      - Ambassador
+    include_dirs:
       - /
     ignore_rules:
-      - 
+      -
     exclude_rules:
-      - 
-    ignore_dirs: 
+      -
+    ignore_dirs:
       - /tests
       - /vendor
       - /docs
       - /media
+    Structures/AddZero:
+      php_extensions: 
+        - php
+        - php3        
+      namespaces: 
+        - \\ns
 
+Exakat in project's config.ini file
+####################################
+
+Copy-paste this YAML code into a file called `.exakat.yaml`, located at the root of your repository. 
+
+This configuration is for the `Structures/AddZero`_ rule. It ignores directories at the root, starting with a `c`; it applies the rule only to files with tpl, php, php3 extensions and the namespaces `\\ns` and `\\ns2`.
+
+:: 
+
+    [Structures/AddZero]
+    ignore_dirs = "/c";
+    file_extensions = "tpl,php,php3";
+    namespaces[] = "\\ns,"
+    namespaces[] = "\\ns2,"
 
 Available Options
 #################
@@ -427,6 +445,36 @@ By default, all the configured extensions are used.
 
 Note that this filter is applied after the file_extensions configuration is used to select the audited files in the repository. So, this directive shall, at worse, only use extensions that are already applied. 
  
+Configuraiton in .yaml file
+############################
+
+Copy-paste this YAML code into a file called `.exakat.yaml`, located at the root of your repository.
+
+:: 
+
+    file_extensions: php,php3,phtml
+    project: <project short name>
+    project_name: <project name, as displayed in reports>
+    project_rulesets: 
+    - <list of rulesets to apply>
+    - Analysis
+    file_extensions: php,php3,phtml
+    project_report: 
+    - <list of reports to build>
+    - Ambassador
+    include_dirs: 
+      - /
+    ignore_rules:
+      - 
+    exclude_rules:
+      - 
+    ignore_dirs: 
+      - /tests
+      - /vendor
+      - /docs
+      - /media
+
+
 
 Commandline Configuration
 -------------------------

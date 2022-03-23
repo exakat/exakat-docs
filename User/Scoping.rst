@@ -1241,7 +1241,6 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Extensions/Extxxtea";
    analyzer[] = "Extensions/Extyaml";
    analyzer[] = "Extensions/Extyis";
-   analyzer[] = "Extensions/Extzbarcode";
    analyzer[] = "Extensions/Extzendmonitor";
    analyzer[] = "Extensions/Extzip";
    analyzer[] = "Extensions/Extzlib";
@@ -1638,7 +1637,6 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Extensions/Extxxtea'
      - 'Extensions/Extyaml'
      - 'Extensions/Extyis'
-     - 'Extensions/Extzbarcode'
      - 'Extensions/Extzendmonitor'
      - 'Extensions/Extzip'
      - 'Extensions/Extzlib'
@@ -2170,7 +2168,6 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Extensions/Extxxtea";
    analyzer[] = "Extensions/Extyaml";
    analyzer[] = "Extensions/Extyis";
-   analyzer[] = "Extensions/Extzbarcode";
    analyzer[] = "Extensions/Extzendmonitor";
    analyzer[] = "Extensions/Extzip";
    analyzer[] = "Extensions/Extzlib";
@@ -2843,7 +2840,6 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Extensions/Extxxtea'
      - 'Extensions/Extyaml'
      - 'Extensions/Extyis'
-     - 'Extensions/Extzbarcode'
      - 'Extensions/Extzendmonitor'
      - 'Extensions/Extzip'
      - 'Extensions/Extzlib'
@@ -6005,6 +6001,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/NotOrNot";
    analyzer[] = "Structures/OneExpressionBracketsConsistency";
    analyzer[] = "Structures/RegexDelimiter";
+   analyzer[] = "Structures/StringInterpolationFavorite";
 
 
 .. _annex-yaml-preferences:
@@ -6047,6 +6044,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/NotOrNot'
      - 'Structures/OneExpressionBracketsConsistency'
      - 'Structures/RegexDelimiter'
+     - 'Structures/StringInterpolationFavorite'
 
 
 
@@ -6672,6 +6670,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Typehints/CouldBeGenerator";
    analyzer[] = "Typehints/CouldBeInt";
    analyzer[] = "Typehints/CouldBeIterable";
+   analyzer[] = "Typehints/CouldBeNever";
    analyzer[] = "Typehints/CouldBeNull";
    analyzer[] = "Typehints/CouldBeParent";
    analyzer[] = "Typehints/CouldBeSelf";
@@ -6710,6 +6709,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Typehints/CouldBeGenerator'
      - 'Typehints/CouldBeInt'
      - 'Typehints/CouldBeIterable'
+     - 'Typehints/CouldBeNever'
      - 'Typehints/CouldBeNull'
      - 'Typehints/CouldBeParent'
      - 'Typehints/CouldBeSelf'
@@ -7266,7 +7266,6 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Extensions/Extxxtea";
    analyzer[] = "Extensions/Extyaml";
    analyzer[] = "Extensions/Extyis";
-   analyzer[] = "Extensions/Extzbarcode";
    analyzer[] = "Extensions/Extzendmonitor";
    analyzer[] = "Extensions/Extzip";
    analyzer[] = "Extensions/Extzlib";
@@ -7415,7 +7414,6 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Interfaces/UnusedInterfaces";
    analyzer[] = "Interfaces/UsedInterfaces";
    analyzer[] = "Interfaces/UselessInterfaces";
-   analyzer[] = "Modules/IncomingData";
    analyzer[] = "Modules/NativeReplacement";
    analyzer[] = "Namespaces/Alias";
    analyzer[] = "Namespaces/AliasConfusion";
@@ -8007,6 +8005,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/ShouldUseOperator";
    analyzer[] = "Structures/SimplePreg";
    analyzer[] = "Structures/StaticLoop";
+   analyzer[] = "Structures/StringInterpolationFavorite";
    analyzer[] = "Structures/StripTagsSkipsClosedTag";
    analyzer[] = "Structures/StrposCompare";
    analyzer[] = "Structures/SubstrLastArg";
@@ -8130,6 +8129,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Typehints/CouldBeGenerator";
    analyzer[] = "Typehints/CouldBeInt";
    analyzer[] = "Typehints/CouldBeIterable";
+   analyzer[] = "Typehints/CouldBeNever";
    analyzer[] = "Typehints/CouldBeNull";
    analyzer[] = "Typehints/CouldBeParent";
    analyzer[] = "Typehints/CouldBeSelf";
@@ -8731,7 +8731,6 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Extensions/Extxxtea'
      - 'Extensions/Extyaml'
      - 'Extensions/Extyis'
-     - 'Extensions/Extzbarcode'
      - 'Extensions/Extzendmonitor'
      - 'Extensions/Extzip'
      - 'Extensions/Extzlib'
@@ -8880,7 +8879,6 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Interfaces/UnusedInterfaces'
      - 'Interfaces/UsedInterfaces'
      - 'Interfaces/UselessInterfaces'
-     - 'Modules/IncomingData'
      - 'Modules/NativeReplacement'
      - 'Namespaces/Alias'
      - 'Namespaces/AliasConfusion'
@@ -9472,6 +9470,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/ShouldUseOperator'
      - 'Structures/SimplePreg'
      - 'Structures/StaticLoop'
+     - 'Structures/StringInterpolationFavorite'
      - 'Structures/StripTagsSkipsClosedTag'
      - 'Structures/StrposCompare'
      - 'Structures/SubstrLastArg'
@@ -9595,6 +9594,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Typehints/CouldBeGenerator'
      - 'Typehints/CouldBeInt'
      - 'Typehints/CouldBeIterable'
+     - 'Typehints/CouldBeNever'
      - 'Typehints/CouldBeNull'
      - 'Typehints/CouldBeParent'
      - 'Typehints/CouldBeSelf'

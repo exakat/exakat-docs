@@ -6,7 +6,7 @@ Release Note
 
 Here is the release note of exakat. 
 
-**Version 2.3.8 (Xiao Yu, 2022-03-16)**
+**Version 2.4.0 (****, 2022-04-20)**
 
 
 + Architecture
@@ -24,7 +24,49 @@ Here is the release note of exakat.
 + Tokenizer
     + 
 
-**Version 2.3.7 (Xiao Yu, 2022-03-02)**
+**Version 2.3.9 (Fu Yi, 2022-04-06)**
+
+
++ Architecture
+    + 
+
++ Cobbler
+    + 
+
++ Report
+    + 
+
++ Analysis
+    + 
+
++ Tokenizer
+    + 
+
+**Version 2.3.8 (Xiao Yu, 2022-03-23)**
+
+
++ Architecture
+    + Speed up gremlin queries
+
++ Report
+    + Pdff : added support for hasDefault in properties and parameters
+
++ Analysis
+    + New analysis : Report type of string introspection used in the code, as a favorite
+    + New analysis : Report functions to be of type 'never'.
+    + Refactored analysis : Variables used once by context, now omits Blind variables
+    + Refactored analysis : Redeclared PHP functions works with PHP 8.1's functions
+    + Refactored analysis : Modern Empty
+    + Refactored analysis : Deprecated Functions
+    + Refactored analysis : Removed usage of IsExtInterface in UndefinedClasses
+    + Refactored analysis : Suggesting static class names over objects takes into account the nature of the typehint available.
+    + Refactored analysis : Using PDFF with ext/gender, ext/decimal, ext/xxtea, ext/mailparse, ext/uuid.
+    + Refactored analysis : Using PDFF with ext/xmlreader, ext/writer, ext/mongodb, ext/gd, ext/dom
+    + Refactored analysis : Class Usage rule now skips Interfaces in Implements
+    + Removed analysis : Modules/*
+    + Removed analysis : Extensions/Extzbarcode
+
+**Version 2.3.7 (Xiao Yu, 2022-03-09)**
 
 
 + Architecture
