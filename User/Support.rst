@@ -209,7 +209,7 @@ PHP extensions are described with the list of structures they define : functions
 * `ext/fam <http://oss.sgi.com/projects/fam/>`_
 * ext/fann
 * `ext/fdf <http://www.adobe.com/devnet/acrobat/fdftoolkit.html>`_
-* `ext/ffi <https://www.php.net/manual/en/book.ffi.php>`_
+* ext/ffi
 * `ext/ffmpeg <http://ffmpeg-php.sourceforge.net/>`_
 * `ext/file <http://www.php.net/manual/en/book.filesystem.php>`_
 * `ext/fileinfo <https://www.php.net/manual/en/book.fileinfo.php>`_
@@ -251,7 +251,7 @@ PHP extensions are described with the list of structures they define : functions
 * `ext/mail <http://www.php.net/manual/en/book.mail.php>`_
 * `ext/mailparse <http://www.faqs.org/rfcs/rfc822.html>`_
 * `ext/math <https://www.php.net/manual/en/book.math.php>`_
-* `ext/mbstring <http://www.php.net/manual/en/book.mbstring.php>`_
+* ext/mbstring
 * `ext/mcrypt <http://www.php.net/manual/en/book.mcrypt.php>`_
 * `ext/memcache <http://www.php.net/manual/en/book.memcache.php>`_
 * `ext/memcached <https://www.php.net/manual/en/book.memcached.php>`_
@@ -277,7 +277,7 @@ PHP extensions are described with the list of structures they define : functions
 * `ext/password <https://www.php.net/manual/en/book.password.php>`_
 * `ext/pcntl <https://www.php.net/manual/en/book.pcntl.php>`_
 * `ext/pcov <https://github.com/krakjoe/pcov>`_
-* `ext/pcre <https://www.php.net/manual/en/book.pcre.php>`_
+* ext/pcre
 * `ext/pdo <https://www.php.net/manual/en/book.pdo.php>`_
 * `ext/pgsql <https://www.php.net/manual/en/book.pgsql.php>`_
 * `ext/phalcon <https://docs.phalconphp.com/en/latest/reference/tutorial.html>`_
@@ -296,7 +296,7 @@ PHP extensions are described with the list of structures they define : functions
 * `ext/sdl <https://github.com/Ponup/phpsdl>`_
 * `ext/seaslog <https://github.com/SeasX/SeasLog>`_
 * `ext/sem <https://www.php.net/manual/en/book.sem.php>`_
-* `ext/session <https://www.php.net/manual/en/book.session.php>`_
+* ext/session
 * `ext/shmop <https://www.php.net/manual/en/book.sem.php>`_
 * `ext/simplexml <https://www.php.net/manual/en/book.simplexml.php>`_
 * `ext/snmp <http://www.net-snmp.org/>`_
@@ -305,7 +305,7 @@ PHP extensions are described with the list of structures they define : functions
 * `ext/sphinx <https://www.php.net/manual/en/book.sphinx.php>`_
 * `ext/spl <http://www.php.net/manual/en/book.spl.php>`_
 * `ext/sqlite <https://www.php.net/manual/en/book.sqlite.php>`_
-* `ext/sqlite3 <https://www.php.net/manual/en/book.sqlite3.php>`_
+* ext/sqlite3
 * `ext/sqlsrv <https://www.php.net/sqlsrv>`_
 * `ext/ssh2 <https://www.php.net/manual/en/book.ssh2.php>`_
 * `ext/standard <https://www.php.net/manual/en/ref.info.php>`_
@@ -314,8 +314,8 @@ PHP extensions are described with the list of structures they define : functions
 * `ext/suhosin <https://suhosin.org/>`_
 * `ext/svm <http://www.php.net/svm>`_
 * `ext/swoole <https://www.swoole.com/>`_
-* `ext/tidy <https://www.php.net/manual/en/book.tidy.php>`_
-* `ext/tokenizer <http://www.php.net/tokenizer>`_
+* ext/tidy
+* ext/tokenizer
 * `ext/tokyotyrant <https://www.php.net/manual/en/book.tokyo-tyrant.php>`_
 * `ext/trader <https://pecl.php.net/package/trader>`_
 * `ext/uopz <https://pecl.php.net/package/uopz>`_
@@ -324,7 +324,7 @@ PHP extensions are described with the list of structures they define : functions
 * `ext/varnish <https://www.php.net/manual/en/book.varnish.php>`_
 * `ext/vips <https://github.com/jcupitt/php-vips-ext>`_
 * `ext/wasm <https://github.com/Hywan/php-ext-wasm>`_
-* `ext/wddx <https://www.php.net/manual/en/intro.wddx.php>`_
+* ext/wddx
 * `ext/weakref <https://www.php.net/manual/en/book.weakref.php>`_
 * `ext/wikidiff2 <https://www.mediawiki.org/wiki/Extension:Wikidiff2>`_
 * `ext/wincache <http://www.php.net/wincache>`_
@@ -335,7 +335,7 @@ PHP extensions are described with the list of structures they define : functions
 * `ext/xhprof <http://web.archive.org/web/20110514095512/http://mirror.facebook.net/facebook/xhprof/doc.html>`_
 * `ext/xml <http://www.php.net/manual/en/book.xml.php>`_
 * ext/xmlreader
-* `ext/xmlrpc <http://www.php.net/manual/en/book.xmlrpc.php>`_
+* ext/xmlrpc
 * ext/xmlwriter
 * `ext/xsl <https://www.php.net/manual/en/intro.xsl.php>`_
 * ext/xxtea
@@ -343,6 +343,6 @@ PHP extensions are described with the list of structures they define : functions
 * `ext/yis <http://www.tldp.org/HOWTO/NIS-HOWTO/index.html>`_
 * `ext/zend_monitor <http://files.zend.com/help/Zend-Server/content/zendserverapi/zend_monitor-php_api.htm>`_
 * ext/zip
-* `ext/zlib <https://www.php.net/manual/en/book.zlib.php>`_
+* ext/zlib
 * `ext/0mq <http://zeromq.org/>`_
 * `ext/zookeeper <https://www.php.net/zookeeper>`_

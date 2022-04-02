@@ -2477,10 +2477,10 @@ $extension could get a default value to handle default situations : for example,
         }
 
 
-.. _case-aliases-usage:
+.. _case-native-alias-functions-usage:
 
-Aliases Usage
-#############
+Native Alias Functions Usage
+############################
 
 .. _case-cleverstyle-functions-aliasesusage:
 
@@ -2488,7 +2488,7 @@ Cleverstyle
 +++++++++++
 
 
-:ref:`aliases-usage`, in modules/HybridAuth/Hybrid/thirdparty/Vimeo/Vimeo.php:422. 
+:ref:`native-alias-functions-usage`, in modules/HybridAuth/Hybrid/thirdparty/Vimeo/Vimeo.php:422. 
 
 is_writeable() should be written is_writable(). No extra 'e'. 
 
@@ -2503,7 +2503,7 @@ phpMyAdmin
 ++++++++++
 
 
-:ref:`aliases-usage`, in libraries/classes/Server/Privileges.php:5064. 
+:ref:`native-alias-functions-usage`, in libraries/classes/Server/Privileges.php:5064. 
 
 join() should be written implode()
 

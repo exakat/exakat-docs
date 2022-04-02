@@ -28,7 +28,7 @@ Here is the release note of exakat.
 
 
 + Architecture
-    + 
+    + Changed Loading system to handle globals directly with gremlin, and without ids
 
 + Cobbler
     + 
@@ -37,7 +37,22 @@ Here is the release note of exakat.
     + 
 
 + Analysis
-    + 
+    + Refactored analysis : Fixed bug with 'each' and namespaces in Php/Deprecated
+    + Refactored analysis : Next Month Trap was updated with support for datetime (Immutable)
+    + Refactored analysis : TimeStamp Differences now covers any seconds additions. Datetime::format('U') was also added to sources.
+    + New analysis : Avoid using 86400 to handle days when calculating dates.
+    + New analysis : Do not reuse the source name in a foreach($a as $a)
+    + New analysis : Use constants when the function returns them
+    + Updated analysis : New constants for 'Use Constants As Arguments'
+    + Refactored analysis : many Extensions/Ext* are moving to pdff support
+    + Refactored analysis : speedup Should Preprocess analysis
+    + Refactored analysis : Modernized Overwritten class constants
+    + New analysis : Report overwritten final constants from PDFF
+    + Refactored analysis : Moving Extensions/Ext* to PDFF
+    + Refactored analysis : Repeated Regex
+    + New analysis : Report string / integer comparison for PHP 8.0 migration
+    + Refactored analysis : Defined Class Constants differentiate from Enumeration cases
+    + New analysis : Complete functions with obvious typehints
 
 + Tokenizer
     + 

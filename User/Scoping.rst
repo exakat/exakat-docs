@@ -146,6 +146,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Classes/AvoidOptionalProperties";
    analyzer[] = "Classes/CantExtendFinal";
    analyzer[] = "Classes/CantInstantiateClass";
+   analyzer[] = "Classes/CantOverwriteFinalConstant";
    analyzer[] = "Classes/CheckOnCallUsage";
    analyzer[] = "Classes/CitSameName";
    analyzer[] = "Classes/CloneWithNonObject";
@@ -282,6 +283,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Functions/UnusedInheritedVariable";
    analyzer[] = "Functions/UnusedReturnedValue";
    analyzer[] = "Functions/UseConstantAsArguments";
+   analyzer[] = "Functions/UseConstantsAsReturns";
    analyzer[] = "Functions/UselessReferenceArgument";
    analyzer[] = "Functions/UselessReturn";
    analyzer[] = "Functions/UsesDefaultArguments";
@@ -398,6 +400,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/CouldUseStrrepeat";
    analyzer[] = "Structures/DanglingArrayReferences";
    analyzer[] = "Structures/DirThenSlash";
+   analyzer[] = "Structures/DontAddSeconds";
    analyzer[] = "Structures/DontChangeBlindKey";
    analyzer[] = "Structures/DontMixPlusPlus";
    analyzer[] = "Structures/DontReadAndWriteInOneExpression";
@@ -425,6 +428,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/IdenticalConditions";
    analyzer[] = "Structures/IdenticalConsecutive";
    analyzer[] = "Structures/IdenticalOnBothSides";
+   analyzer[] = "Structures/IdenticalVariablesInForeach";
    analyzer[] = "Structures/IfWithSameConditions";
    analyzer[] = "Structures/Iffectation";
    analyzer[] = "Structures/ImpliedIf";
@@ -593,6 +597,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Classes/AvoidOptionalProperties'
      - 'Classes/CantExtendFinal'
      - 'Classes/CantInstantiateClass'
+     - 'Classes/CantOverwriteFinalConstant'
      - 'Classes/CheckOnCallUsage'
      - 'Classes/CitSameName'
      - 'Classes/CloneWithNonObject'
@@ -729,6 +734,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Functions/UnusedInheritedVariable'
      - 'Functions/UnusedReturnedValue'
      - 'Functions/UseConstantAsArguments'
+     - 'Functions/UseConstantsAsReturns'
      - 'Functions/UselessReferenceArgument'
      - 'Functions/UselessReturn'
      - 'Functions/UsesDefaultArguments'
@@ -845,6 +851,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/CouldUseStrrepeat'
      - 'Structures/DanglingArrayReferences'
      - 'Structures/DirThenSlash'
+     - 'Structures/DontAddSeconds'
      - 'Structures/DontChangeBlindKey'
      - 'Structures/DontMixPlusPlus'
      - 'Structures/DontReadAndWriteInOneExpression'
@@ -872,6 +879,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/IdenticalConditions'
      - 'Structures/IdenticalConsecutive'
      - 'Structures/IdenticalOnBothSides'
+     - 'Structures/IdenticalVariablesInForeach'
      - 'Structures/IfWithSameConditions'
      - 'Structures/Iffectation'
      - 'Structures/ImpliedIf'
@@ -3610,6 +3618,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Classes/AbstractConstants";
    analyzer[] = "Classes/AvoidOptionArrays";
    analyzer[] = "Classes/CancelCommonMethod";
+   analyzer[] = "Classes/CantOverwriteFinalConstant";
    analyzer[] = "Classes/ConstantClass";
    analyzer[] = "Classes/CouldBeAbstractClass";
    analyzer[] = "Classes/CouldBeClassConstant";
@@ -3687,6 +3696,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Classes/AbstractConstants'
      - 'Classes/AvoidOptionArrays'
      - 'Classes/CancelCommonMethod'
+     - 'Classes/CantOverwriteFinalConstant'
      - 'Classes/ConstantClass'
      - 'Classes/CouldBeAbstractClass'
      - 'Classes/CouldBeClassConstant'
@@ -5149,6 +5159,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Php/Php80RemovesResources";
    analyzer[] = "Php/PhpErrorMsgUsage";
    analyzer[] = "Php/ReservedMatchKeyword";
+   analyzer[] = "Php/StringIntComparison";
    analyzer[] = "Structures/ArrayMapPassesByValue";
    analyzer[] = "Structures/UnsupportedTypesWithOperators";
 
@@ -5189,6 +5200,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Php/Php80RemovesResources'
      - 'Php/PhpErrorMsgUsage'
      - 'Php/ReservedMatchKeyword'
+     - 'Php/StringIntComparison'
      - 'Structures/ArrayMapPassesByValue'
      - 'Structures/UnsupportedTypesWithOperators'
 
@@ -5676,6 +5688,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
 
  [LintButWontExec]
    analyzer[] = "Classes/AbstractOrImplements";
+   analyzer[] = "Classes/CantOverwriteFinalConstant";
    analyzer[] = "Classes/CloneWithNonObject";
    analyzer[] = "Classes/CouldBeStringable";
    analyzer[] = "Classes/Finalclass";
@@ -5727,6 +5740,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
   rulesets:
     'LintButWontExec':
      - 'Classes/AbstractOrImplements'
+     - 'Classes/CantOverwriteFinalConstant'
      - 'Classes/CloneWithNonObject'
      - 'Classes/CouldBeStringable'
      - 'Classes/Finalclass'
@@ -6780,6 +6794,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Classes/CantExtendFinal";
    analyzer[] = "Classes/CantInheritAbstractMethod";
    analyzer[] = "Classes/CantInstantiateClass";
+   analyzer[] = "Classes/CantOverwriteFinalConstant";
    analyzer[] = "Classes/CheckOnCallUsage";
    analyzer[] = "Classes/ChecksPropertyExistence";
    analyzer[] = "Classes/ChildRemoveTypehint";
@@ -6988,6 +7003,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Complete/PhpNativeReference";
    analyzer[] = "Complete/PropagateCalls";
    analyzer[] = "Complete/PropagateConstants";
+   analyzer[] = "Complete/ReturnTypehint";
    analyzer[] = "Complete/SetArrayClassDefinition";
    analyzer[] = "Complete/SetClassAliasDefinition";
    analyzer[] = "Complete/SetClassMethodRemoteDefinition";
@@ -7374,6 +7390,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Functions/UnusedReturnedValue";
    analyzer[] = "Functions/UseArrowFunctions";
    analyzer[] = "Functions/UseConstantAsArguments";
+   analyzer[] = "Functions/UseConstantsAsReturns";
    analyzer[] = "Functions/UsedFunctions";
    analyzer[] = "Functions/UselessArgument";
    analyzer[] = "Functions/UselessDefault";
@@ -7678,6 +7695,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Php/SignatureTrailingComma";
    analyzer[] = "Php/SpreadOperatorForArray";
    analyzer[] = "Php/StaticclassUsage";
+   analyzer[] = "Php/StringIntComparison";
    analyzer[] = "Php/StrtrArguments";
    analyzer[] = "Php/SuperGlobalUsage";
    analyzer[] = "Php/ThrowUsage";
@@ -7833,6 +7851,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/DifferencePreference";
    analyzer[] = "Structures/DirThenSlash";
    analyzer[] = "Structures/DirectlyUseFile";
+   analyzer[] = "Structures/DontAddSeconds";
    analyzer[] = "Structures/DontBeTooManual";
    analyzer[] = "Structures/DontChangeBlindKey";
    analyzer[] = "Structures/DontCompareTypedBoolean";
@@ -7884,6 +7903,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/IdenticalConsecutive";
    analyzer[] = "Structures/IdenticalElseif";
    analyzer[] = "Structures/IdenticalOnBothSides";
+   analyzer[] = "Structures/IdenticalVariablesInForeach";
    analyzer[] = "Structures/IfWithSameConditions";
    analyzer[] = "Structures/Iffectation";
    analyzer[] = "Structures/ImplicitGlobal";
@@ -8245,6 +8265,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Classes/CantExtendFinal'
      - 'Classes/CantInheritAbstractMethod'
      - 'Classes/CantInstantiateClass'
+     - 'Classes/CantOverwriteFinalConstant'
      - 'Classes/CheckOnCallUsage'
      - 'Classes/ChecksPropertyExistence'
      - 'Classes/ChildRemoveTypehint'
@@ -8453,6 +8474,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Complete/PhpNativeReference'
      - 'Complete/PropagateCalls'
      - 'Complete/PropagateConstants'
+     - 'Complete/ReturnTypehint'
      - 'Complete/SetArrayClassDefinition'
      - 'Complete/SetClassAliasDefinition'
      - 'Complete/SetClassMethodRemoteDefinition'
@@ -8839,6 +8861,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Functions/UnusedReturnedValue'
      - 'Functions/UseArrowFunctions'
      - 'Functions/UseConstantAsArguments'
+     - 'Functions/UseConstantsAsReturns'
      - 'Functions/UsedFunctions'
      - 'Functions/UselessArgument'
      - 'Functions/UselessDefault'
@@ -9143,6 +9166,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Php/SignatureTrailingComma'
      - 'Php/SpreadOperatorForArray'
      - 'Php/StaticclassUsage'
+     - 'Php/StringIntComparison'
      - 'Php/StrtrArguments'
      - 'Php/SuperGlobalUsage'
      - 'Php/ThrowUsage'
@@ -9298,6 +9322,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/DifferencePreference'
      - 'Structures/DirThenSlash'
      - 'Structures/DirectlyUseFile'
+     - 'Structures/DontAddSeconds'
      - 'Structures/DontBeTooManual'
      - 'Structures/DontChangeBlindKey'
      - 'Structures/DontCompareTypedBoolean'
@@ -9349,6 +9374,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/IdenticalConsecutive'
      - 'Structures/IdenticalElseif'
      - 'Structures/IdenticalOnBothSides'
+     - 'Structures/IdenticalVariablesInForeach'
      - 'Structures/IfWithSameConditions'
      - 'Structures/Iffectation'
      - 'Structures/ImplicitGlobal'

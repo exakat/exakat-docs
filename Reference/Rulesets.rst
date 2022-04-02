@@ -6,7 +6,7 @@ Rulesets
 Introduction
 ------------------------
 
-Exakat provides unique 1458 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
+Exakat provides unique 1464 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
 
 For more smoothly usage, the ruleset concept allow you to run a set of rules based on a decidated focus. Beawre that a Ruleset run all the associated rules and any needed dependencies.
 
@@ -114,7 +114,7 @@ Analyze
 
 This ruleset centralizes a large number of classic trap and pitfalls when writing PHP.
 
-Total : 434 analysis
+Total : 438 analysis
 
 * :ref:`adding-zero`
 * :ref:`ambiguous-array-index`
@@ -176,7 +176,7 @@ Total : 434 analysis
 * :ref:`dangling-array-references`
 * :ref:`queries-in-loops`
 * :ref:`var-keyword`
-* :ref:`aliases-usage`
+* :ref:`native-alias-functions-usage`
 * :ref:`uses-default-values`
 * :ref:`wrong-number-of-arguments`
 * :ref:`hardcoded-passwords`
@@ -550,6 +550,10 @@ Total : 434 analysis
 * :ref:`unreachable-method`
 * :ref:`unfinished-object`
 * :ref:`undefined-enumcase`
+* :ref:`dont-add-seconds`
+* :ref:`use-constants-as-returns`
+* :ref:`identical-variables-in-foreach`
+* :ref:`cant-overwrite-final-constant`
 
 
 
@@ -728,7 +732,7 @@ Total : 383 analysis
 * :ref:`ext-imagick`
 * :ref:`ext-oci8`
 * :ref:`ext-imap`
-* :ref:`overwritten-class-const`
+* :ref:`overwritten-class-constants`
 * :ref:`dynamic-class-constant`
 * :ref:`dynamic-methodcall`
 * :ref:`dynamic-new`
@@ -1177,7 +1181,7 @@ Total : 659 analysis
 * :ref:`dangling-array-references`
 * :ref:`ext-cyrus`
 * :ref:`ext-sqlsrv`
-* :ref:`aliases-usage`
+* :ref:`native-alias-functions-usage`
 * :ref:`uses-default-values`
 * :ref:`wrong-number-of-arguments`
 * :ref:`ellipsis-usage`
@@ -1205,7 +1209,7 @@ Total : 659 analysis
 * :ref:`overwritten-exceptions`
 * :ref:`foreach-reference-is-not-modified`
 * :ref:`ext-imap`
-* :ref:`overwritten-class-const`
+* :ref:`overwritten-class-constants`
 * :ref:`dynamic-class-constant`
 * :ref:`dynamic-methodcall`
 * :ref:`dynamic-new`
@@ -1618,7 +1622,7 @@ Total : 659 analysis
 * :ref:`could-be-array-typehint`
 * :ref:`could-be-cit`
 * :ref:`protocol-lists`
-* :ref:`could-be-integer`
+* :ref:`type-could-be-integer`
 * :ref:`call-order`
 * :ref:`could-be-null`
 * :ref:`uses-php-8-match()`
@@ -1716,7 +1720,7 @@ Total : 178 analysis
 * :ref:`undefined-functions`
 * :ref:`deprecated-php-functions`
 * :ref:`dangling-array-references`
-* :ref:`aliases-usage`
+* :ref:`native-alias-functions-usage`
 * :ref:`uses-default-values`
 * :ref:`wrong-number-of-arguments`
 * :ref:`use-const`
@@ -1881,7 +1885,7 @@ ClassReview
 
 This ruleset focuses on classes construction issues, and their related structures : traits, interfaces, methods, properties, constants.
 
-Total : 64 analysis
+Total : 65 analysis
 
 * :ref:`final-class-usage`
 * :ref:`final-methods-usage`
@@ -1947,6 +1951,7 @@ Total : 64 analysis
 * :ref:`undefined-methods`
 * :ref:`unfinished-object`
 * :ref:`undefined-enumcase`
+* :ref:`cant-overwrite-final-constant`
 
 
 
@@ -2707,7 +2712,7 @@ CompatibilityPHP80
 
 This ruleset centralizes all analysis for the migration from PHP 7.4 to 8.0.
 
-Total : 27 analysis
+Total : 28 analysis
 
 * :ref:`old-style-constructor`
 * :ref:`wrong-optional-parameter`
@@ -2736,6 +2741,7 @@ Total : 27 analysis
 * :ref:`nested-attributes`
 * :ref:`new-initializers`
 * :ref:`cant-overload-constants`
+* :ref:`string-int-comparison`
 
 
 
@@ -3068,7 +3074,7 @@ LintButWontExec
 
 This ruleset focuses on PHP code that lint (php -l), but that will not run. As such, this ruleset tries to go further than PHP, by connecting files, just like during execution.
 
-Total : 38 analysis
+Total : 39 analysis
 
 * :ref:`final-class-usage`
 * :ref:`final-methods-usage`
@@ -3108,6 +3114,7 @@ Total : 38 analysis
 * :ref:`false-to-array-conversion`
 * :ref:`deprecated-callable`
 * :ref:`cant-overload-constants`
+* :ref:`cant-overwrite-final-constant`
 
 
 
@@ -3629,7 +3636,7 @@ Total : 26 analysis
 * :ref:`could-be-void`
 * :ref:`could-be-callable`
 * :ref:`wrong-argument-type`
-* :ref:`could-be-integer`
+* :ref:`type-could-be-integer`
 * :ref:`could-be-null`
 * :ref:`typehint-could-be-iterable`
 * :ref:`could-be-float`
@@ -3637,7 +3644,7 @@ Total : 26 analysis
 * :ref:`could-be-parent`
 * :ref:`could-be-generator`
 * :ref:`argument-could-be-iterable`
-* :ref:`typehints-couldbenever`
+* :ref:`type-could-be-never`
 
 
 
@@ -3657,7 +3664,7 @@ All
 
 All is a dummy ruleset, which includes all the rules. It is mostly used internally.
 
-Total : 1446 analysis
+Total : 1452 analysis
 
 * :ref:`adding-zero`
 * :ref:`ambiguous-array-index`
@@ -3921,7 +3928,7 @@ Total : 1446 analysis
 * :ref:`ext-sqlsrv`
 * :ref:`queries-in-loops`
 * :ref:`var-keyword`
-* :ref:`aliases-usage`
+* :ref:`native-alias-functions-usage`
 * :ref:`uses-default-values`
 * :ref:`wrong-number-of-arguments`
 * :ref:`hardcoded-passwords`
@@ -3991,7 +3998,7 @@ Total : 1446 analysis
 * :ref:`foreach-needs-reference-array`
 * :ref:`foreach-reference-is-not-modified`
 * :ref:`ext-imap`
-* :ref:`overwritten-class-const`
+* :ref:`overwritten-class-constants`
 * :ref:`direct-injection`
 * :ref:`dynamic-class-constant`
 * :ref:`dynamic-methodcall`
@@ -4942,7 +4949,7 @@ Total : 1446 analysis
 * :ref:`could-not-type`
 * :ref:`could-be-callable`
 * :ref:`wrong-argument-type`
-* :ref:`could-be-integer`
+* :ref:`type-could-be-integer`
 * :ref:`call-order`
 * :ref:`could-be-null`
 * :ref:`typehint-could-be-iterable`
@@ -5104,7 +5111,13 @@ Total : 1446 analysis
 * :ref:`simplify-foreach`
 * :ref:`use-variable-created-inside-loop`
 * :ref:`string-interpolation-favorite`
-* :ref:`typehints-couldbenever`
+* :ref:`type-could-be-never`
+* :ref:`dont-add-seconds`
+* :ref:`use-constants-as-returns`
+* :ref:`identical-variables-in-foreach`
+* :ref:`cant-overwrite-final-constant`
+* :ref:`string-int-comparison`
+* :ref:`add-return-typehint`
 
 
 
