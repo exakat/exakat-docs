@@ -31,7 +31,7 @@ Here is the release note of exakat.
     + Changed Loading system to handle globals directly with gremlin, and without ids
 
 + Cobbler
-    + 
+    + New cobbler : adds 'function array_key_exists' to the list of use statements to speed up array_key_exists.
 
 + Report
     + 
@@ -53,6 +53,10 @@ Here is the release note of exakat.
     + New analysis : Report string / integer comparison for PHP 8.0 migration
     + Refactored analysis : Defined Class Constants differentiate from Enumeration cases
     + New analysis : Complete functions with obvious typehints
+    + New analysis : Extension protobuf
+    + Refactored analysis : Upgraded Property analysis to use PDFF
+    + Refactored analysis : 'Multiple identical keys' now has an array size limit (15000)
+    + New analysis : Constant favorite : use or not?
 
 + Tokenizer
     + 

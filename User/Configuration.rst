@@ -445,7 +445,7 @@ By default, all the configured extensions are used.
 
 Note that this filter is applied after the file_extensions configuration is used to select the audited files in the repository. So, this directive shall, at worse, only use extensions that are already applied. 
  
-Configuraiton in .yaml file
+Configuration in .yaml file
 ############################
 
 Copy-paste this YAML code into a file called `.exakat.yaml`, located at the root of your repository.
@@ -493,6 +493,10 @@ Analyzers may be configured in the `project/*/config.ini`; they may also be conf
   + array_ratio : 10
 
     + Percentage of arrays in one of the syntaxes, to trigger the other syntax as a violation. 
+:ref:`Multiple Index Definition <multiple-index-definition>`
+  + arrayMaxSize : 15000
+
+    + Maximal size of arrays to be analyzed. This will speed up analysis, and leave the largest arrays untouched.
 :ref:`Too Many Array Dimensions <too-many-array-dimensions>`
   + maxDimensions : 3
 

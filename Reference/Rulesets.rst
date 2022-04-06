@@ -6,7 +6,7 @@ Rulesets
 Introduction
 ------------------------
 
-Exakat provides unique 1464 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
+Exakat provides unique 1465 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
 
 For more smoothly usage, the ruleset concept allow you to run a set of rules based on a decidated focus. Beawre that a Ruleset run all the associated rules and any needed dependencies.
 
@@ -442,7 +442,7 @@ Total : 438 analysis
 * :ref:`repeated-interface`
 * :ref:`don't-read-and-write-in-one-expression`
 * :ref:`should-yield-with-key`
-* :ref:`useless-alias`
+* :ref:`useless-method-alias`
 * :ref:`method-could-be-static`
 * :ref:`possible-missing-subpattern`
 * :ref:`assign-and-compare`
@@ -902,7 +902,6 @@ Total : 383 analysis
 * :ref:`ext-cmark`
 * :ref:`const-visibility-usage`
 * :ref:`ext-eio`
-* :ref:`ext-csprng`
 * :ref:`ext-lzf`
 * :ref:`ext-msgpack`
 * :ref:`case-insensitive-constants`
@@ -960,6 +959,7 @@ Total : 383 analysis
 * :ref:`intersection-typehint`
 * :ref:`readonly-usage`
 * :ref:`use-class\_alias()`
+* :ref:`ext-protobuf`
 
 
 
@@ -1488,7 +1488,6 @@ Total : 659 analysis
 * :ref:`typehinted-references`
 * :ref:`check-json`
 * :ref:`ext-eio`
-* :ref:`ext-csprng`
 * :ref:`undefined-class`
 * :ref:`ext-lzf`
 * :ref:`ext-msgpack`
@@ -1509,7 +1508,7 @@ Total : 659 analysis
 * :ref:`ext-decimal`
 * :ref:`ext-psr`
 * :ref:`should-yield-with-key`
-* :ref:`useless-alias`
+* :ref:`useless-method-alias`
 * :ref:`ext-sdl`
 * :ref:`ext-async`
 * :ref:`ext-wasm`
@@ -1667,6 +1666,7 @@ Total : 659 analysis
 * :ref:`deprecated-callable`
 * :ref:`checks-property-existence`
 * :ref:`extends-stdclass`
+* :ref:`ext-protobuf`
 
 
 
@@ -1836,7 +1836,7 @@ Total : 178 analysis
 * :ref:`wrong-access-style-to-property`
 * :ref:`invalid-pack-format`
 * :ref:`should-yield-with-key`
-* :ref:`useless-alias`
+* :ref:`useless-method-alias`
 * :ref:`possible-missing-subpattern`
 * :ref:`assign-and-compare`
 * :ref:`typehint-must-be-returned`
@@ -2805,8 +2805,9 @@ Dead code
 
 This ruleset focuses on dead code : expressions or even structures that are written, valid but never used.
 
-Total : 29 analysis
+Total : 30 analysis
 
+* :ref:`empty-traits`
 * :ref:`unused-use`
 * :ref:`unused-private-properties`
 * :ref:`unused-private-methods`
@@ -3098,7 +3099,7 @@ Total : 39 analysis
 * :ref:`method-collision-traits`
 * :ref:`only-variable-for-reference`
 * :ref:`repeated-interface`
-* :ref:`useless-alias`
+* :ref:`useless-method-alias`
 * :ref:`typehint-must-be-returned`
 * :ref:`clone-with-non-object`
 * :ref:`trait-not-found`
@@ -3241,7 +3242,7 @@ Preferences
 
 This ruleset identify code with multiple forms, and report when one is more frequent than the others. Echo vs print, shell_exec() vs ``, etc.
 
-Total : 30 analysis
+Total : 31 analysis
 
 * :ref:`true-false-inconsistant-case`
 * :ref:`echo-or-print`
@@ -3273,6 +3274,7 @@ Total : 30 analysis
 * :ref:`not-or-tilde`
 * :ref:`null-type-favorite`
 * :ref:`string-interpolation-favorite`
+* :ref:`constant--with-or-without-use`
 
 
 
@@ -3664,7 +3666,7 @@ All
 
 All is a dummy ruleset, which includes all the rules. It is mostly used internally.
 
-Total : 1452 analysis
+Total : 1453 analysis
 
 * :ref:`adding-zero`
 * :ref:`ambiguous-array-index`
@@ -4644,7 +4646,6 @@ Total : 1452 analysis
 * :ref:`ext-eio`
 * :ref:`incompatible-signature-methods`
 * :ref:`ambiguous-visibilities`
-* :ref:`ext-csprng`
 * :ref:`hash-algorithms-incompatible-with-php-7.1-`
 * :ref:`undefined-class`
 * :ref:`php-7.0-scalar-typehints`
@@ -4703,7 +4704,7 @@ Total : 1452 analysis
 * :ref:`safe-http-headers`
 * :ref:`fputcsv()-in-loops`
 * :ref:`directly-use-file`
-* :ref:`useless-alias`
+* :ref:`useless-method-alias`
 * :ref:`ext-sdl`
 * :ref:`isset()-on-the-whole-array`
 * :ref:`ext-async`
@@ -5118,6 +5119,8 @@ Total : 1452 analysis
 * :ref:`cant-overwrite-final-constant`
 * :ref:`string-int-comparison`
 * :ref:`add-return-typehint`
+* :ref:`ext-protobuf`
+* :ref:`constant--with-or-without-use`
 
 
 

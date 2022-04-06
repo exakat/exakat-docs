@@ -1095,7 +1095,6 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Extensions/Extcmark";
    analyzer[] = "Extensions/Extcom";
    analyzer[] = "Extensions/Extcrypto";
-   analyzer[] = "Extensions/Extcsprng";
    analyzer[] = "Extensions/Extctype";
    analyzer[] = "Extensions/Extcurl";
    analyzer[] = "Extensions/Extcyrus";
@@ -1192,6 +1191,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Extensions/Extphar";
    analyzer[] = "Extensions/Extposix";
    analyzer[] = "Extensions/Extproctitle";
+   analyzer[] = "Extensions/Extprotobuf";
    analyzer[] = "Extensions/Extpspell";
    analyzer[] = "Extensions/Extpsr";
    analyzer[] = "Extensions/Extrar";
@@ -1491,7 +1491,6 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Extensions/Extcmark'
      - 'Extensions/Extcom'
      - 'Extensions/Extcrypto'
-     - 'Extensions/Extcsprng'
      - 'Extensions/Extctype'
      - 'Extensions/Extcurl'
      - 'Extensions/Extcyrus'
@@ -1588,6 +1587,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Extensions/Extphar'
      - 'Extensions/Extposix'
      - 'Extensions/Extproctitle'
+     - 'Extensions/Extprotobuf'
      - 'Extensions/Extpspell'
      - 'Extensions/Extpsr'
      - 'Extensions/Extrar'
@@ -2022,7 +2022,6 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Extensions/Extcmark";
    analyzer[] = "Extensions/Extcom";
    analyzer[] = "Extensions/Extcrypto";
-   analyzer[] = "Extensions/Extcsprng";
    analyzer[] = "Extensions/Extctype";
    analyzer[] = "Extensions/Extcurl";
    analyzer[] = "Extensions/Extcyrus";
@@ -2119,6 +2118,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Extensions/Extphar";
    analyzer[] = "Extensions/Extposix";
    analyzer[] = "Extensions/Extproctitle";
+   analyzer[] = "Extensions/Extprotobuf";
    analyzer[] = "Extensions/Extpspell";
    analyzer[] = "Extensions/Extpsr";
    analyzer[] = "Extensions/Extrar";
@@ -2694,7 +2694,6 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Extensions/Extcmark'
      - 'Extensions/Extcom'
      - 'Extensions/Extcrypto'
-     - 'Extensions/Extcsprng'
      - 'Extensions/Extctype'
      - 'Extensions/Extcurl'
      - 'Extensions/Extcyrus'
@@ -2791,6 +2790,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Extensions/Extphar'
      - 'Extensions/Extposix'
      - 'Extensions/Extproctitle'
+     - 'Extensions/Extprotobuf'
      - 'Extensions/Extpspell'
      - 'Extensions/Extpsr'
      - 'Extensions/Extrar'
@@ -5322,6 +5322,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/UnsetInForeach";
    analyzer[] = "Structures/UnusedLabel";
    analyzer[] = "Structures/UseVariableInsideLoop";
+   analyzer[] = "Traits/EmptyTrait";
    analyzer[] = "Traits/SelfUsingTrait";
 
 
@@ -5364,6 +5365,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/UnsetInForeach'
      - 'Structures/UnusedLabel'
      - 'Structures/UseVariableInsideLoop'
+     - 'Traits/EmptyTrait'
      - 'Traits/SelfUsingTrait'
 
 
@@ -5995,6 +5997,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Constants/InconsistantCase";
    analyzer[] = "Exceptions/CatchE";
    analyzer[] = "Functions/NullTypeFavorite";
+   analyzer[] = "Namespaces/ConstantWithUseFavorite";
    analyzer[] = "Php/CloseTagsConsistency";
    analyzer[] = "Php/DeclareEncoding";
    analyzer[] = "Php/DeclareStrict";
@@ -6038,6 +6041,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Constants/InconsistantCase'
      - 'Exceptions/CatchE'
      - 'Functions/NullTypeFavorite'
+     - 'Namespaces/ConstantWithUseFavorite'
      - 'Php/CloseTagsConsistency'
      - 'Php/DeclareEncoding'
      - 'Php/DeclareStrict'
@@ -7128,7 +7132,6 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Extensions/Extcmark";
    analyzer[] = "Extensions/Extcom";
    analyzer[] = "Extensions/Extcrypto";
-   analyzer[] = "Extensions/Extcsprng";
    analyzer[] = "Extensions/Extctype";
    analyzer[] = "Extensions/Extcurl";
    analyzer[] = "Extensions/Extcyrus";
@@ -7225,6 +7228,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Extensions/Extphar";
    analyzer[] = "Extensions/Extposix";
    analyzer[] = "Extensions/Extproctitle";
+   analyzer[] = "Extensions/Extprotobuf";
    analyzer[] = "Extensions/Extpspell";
    analyzer[] = "Extensions/Extpsr";
    analyzer[] = "Extensions/Extrar";
@@ -7435,6 +7439,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Namespaces/Alias";
    analyzer[] = "Namespaces/AliasConfusion";
    analyzer[] = "Namespaces/ConstantFullyQualified";
+   analyzer[] = "Namespaces/ConstantWithUseFavorite";
    analyzer[] = "Namespaces/CouldUseAlias";
    analyzer[] = "Namespaces/EmptyNamespace";
    analyzer[] = "Namespaces/GlobalImport";
@@ -8599,7 +8604,6 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Extensions/Extcmark'
      - 'Extensions/Extcom'
      - 'Extensions/Extcrypto'
-     - 'Extensions/Extcsprng'
      - 'Extensions/Extctype'
      - 'Extensions/Extcurl'
      - 'Extensions/Extcyrus'
@@ -8696,6 +8700,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Extensions/Extphar'
      - 'Extensions/Extposix'
      - 'Extensions/Extproctitle'
+     - 'Extensions/Extprotobuf'
      - 'Extensions/Extpspell'
      - 'Extensions/Extpsr'
      - 'Extensions/Extrar'
@@ -8906,6 +8911,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Namespaces/Alias'
      - 'Namespaces/AliasConfusion'
      - 'Namespaces/ConstantFullyQualified'
+     - 'Namespaces/ConstantWithUseFavorite'
      - 'Namespaces/CouldUseAlias'
      - 'Namespaces/EmptyNamespace'
      - 'Namespaces/GlobalImport'
