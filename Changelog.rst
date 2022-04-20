@@ -6,7 +6,7 @@ Release Note
 
 Here is the release note of exakat. 
 
-**Version 2.4.0 (****, 2022-04-20)**
+**Version 2.4.1 (****, 2022-05-04)**
 
 
 + Architecture
@@ -24,6 +24,33 @@ Here is the release note of exakat.
 + Tokenizer
     + 
 
+**Version 2.4.0 (Yin Kaishan, 2022-04-20)**
+
+
++ Architecture
+    + 
+
++ Cobbler
+    + 
+
++ Report
+    + Ambassador : suggest literals to be turned into a constant, based on assignation and comparison
+
++ Analysis
+    + Refactored analysis : 'Classes/WrongCase' reported too many arguments
+    + New analysis : No constructor in interfaces
+    + Refactored analysis : Bail Out Early also report if/then when in last position of an sequence
+    + Refactored analysis : Useless Casting also checks for double application of typehint/cast
+    + New analysis : Could Be A constant (in Dump)
+    + New analysis : Could Be Spaceship
+    + Refactored analysis : Vendors/Concrete5 is updated to Concrete5 v9.0
+    + New analysis : Vendors Sylius
+    + Refactored analysis : Vendors/Joomla is updated to Joomla 4.2.0
+    + Refactored analysis : Wrong Number Of Arguments supports Constructors and methods (static and normal)
+
++ Tokenizer
+    + 
+
 **Version 2.3.9 (Fu Yi, 2022-04-06)**
 
 
@@ -32,9 +59,6 @@ Here is the release note of exakat.
 
 + Cobbler
     + New cobbler : adds 'function array_key_exists' to the list of use statements to speed up array_key_exists.
-
-+ Report
-    + 
 
 + Analysis
     + Refactored analysis : Fixed bug with 'each' and namespaces in Php/Deprecated
@@ -57,9 +81,10 @@ Here is the release note of exakat.
     + Refactored analysis : Upgraded Property analysis to use PDFF
     + Refactored analysis : 'Multiple identical keys' now has an array size limit (15000)
     + New analysis : Constant favorite : use or not?
+    + Refactored analysis : Upgraded 'Unresolved classes' with Pdff support
 
 + Tokenizer
-    + 
+    + Fixed isPhp/isExt/isStub detection for catch classes
 
 **Version 2.3.8 (Xiao Yu, 2022-03-23)**
 

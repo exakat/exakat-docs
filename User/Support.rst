@@ -176,23 +176,23 @@ PHP extensions are described with the list of structures they define : functions
 * `ext/amqp <https://github.com/alanxz/rabbitmq-c>`_
 * `ext/apache <https://www.php.net/manual/en/book.apache.php>`_
 * `ext/apc <https://www.php.net/apc>`_
-* `ext/apcu <http://www.php.net/manual/en/book.apcu.php>`_
+* ext/apcu
 * `ext/array <https://www.php.net/manual/en/book.array.php>`_
-* `ext/php-ast <https://pecl.php.net/package/ast>`_
+* ext/php-ast
 * ext/async
 * ext/bcmath
 * ext/bzip2
 * `ext/cairo <https://cairographics.org/>`_
-* `ext/calendar <http://www.php.net/manual/en/ref.calendar.php>`_
+* ext/calendar
 * `ext/cmark <https://github.com/commonmark/cmark>`_
 * `ext/com <https://www.php.net/manual/en/book.com.php>`_
 * `ext/crypto <https://pecl.php.net/package/crypto>`_
 * ext/ctype
 * ext/curl
 * `ext/cyrus <https://www.php.net/manual/en/book.cyrus.php>`_
-* `ext/date <https://www.php.net/manual/en/book.datetime.php>`_
+* ext/date
 * `ext/db2 <https://www.php.net/manual/en/book.ibm-db2.php>`_
-* `ext/dba <https://www.php.net/manual/en/book.dba.php>`_
+* ext/dba
 * ext/decimal
 * `ext/dio <https://www.php.net/manual/en/refs.fileprocess.file.php>`_
 * ext/dom
@@ -219,9 +219,9 @@ PHP extensions are described with the list of structures they define : functions
 * ext/gearman
 * ext/gender
 * `ext/geoip <https://www.php.net/manual/en/book.geoip.php>`_
-* `ext/gettext <https://www.gnu.org/software/gettext/manual/gettext.html>`_
+* ext/gettext
 * `ext/gmagick <http://www.php.net/manual/en/book.gmagick.php>`_
-* `ext/gmp <https://www.php.net/manual/en/book.gmp.php>`_
+* ext/gmp
 * `ext/gnupgp <http://www.php.net/manual/en/book.gnupg.php>`_
 * ext/grpc
 * ext/hash
@@ -229,9 +229,9 @@ PHP extensions are described with the list of structures they define : functions
 * `ext/pecl_http <https://github.com/m6w6/ext-http>`_
 * `ext/ibase <https://www.php.net/manual/en/book.ibase.php>`_
 * ext/iconv
-* `ext/igbinary <https://github.com/igbinary/igbinary/>`_
+* ext/igbinary
 * `ext/iis <http://www.php.net/manual/en/book.iisfunc.php>`_
-* `ext/imagick <https://www.php.net/manual/en/book.imagick.php>`_
+* ext/imagick
 * `ext/imap <http://www.php.net/imap>`_
 * `ext/info <https://www.php.net/manual/en/book.info.php>`_
 * ext/inotify
@@ -243,15 +243,15 @@ PHP extensions are described with the list of structures they define : functions
 * ext/ldap
 * `ext/leveldb <https://github.com/reeze/php-leveldb>`_
 * `ext/libevent <http://libevent.org/>`_
-* `ext/libsodium <https://github.com/jedisct1/libsodium-php>`_
-* `ext/libxml <http://www.php.net/manual/en/book.libxml.php>`_
+* ext/libsodium
+* ext/libxml
 * ext/lua
 * `ext/lzf <https://www.php.net/lzf>`_
 * `ext/mail <http://www.php.net/manual/en/book.mail.php>`_
 * `ext/mailparse <http://www.faqs.org/rfcs/rfc822.html>`_
 * `ext/math <https://www.php.net/manual/en/book.math.php>`_
 * ext/mbstring
-* `ext/mcrypt <http://www.php.net/manual/en/book.mcrypt.php>`_
+* ext/mcrypt
 * `ext/memcache <http://www.php.net/manual/en/book.memcache.php>`_
 * `ext/memcached <https://www.php.net/manual/en/book.memcached.php>`_
 * `ext/mhash <http://mhash.sourceforge.net/>`_
@@ -261,13 +261,13 @@ PHP extensions are described with the list of structures they define : functions
 * `ext/msgpack <https://github.com/msgpack/msgpack-php>`_
 * `ext/mssql <http://www.php.net/manual/en/book.mssql.php>`_
 * `ext/mysql <http://www.php.net/manual/en/book.mysql.php>`_
-* `ext/mysqli <https://www.php.net/manual/en/book.mysqli.php>`_
+* ext/mysqli
 * `ext/ncurses <https://www.php.net/manual/en/book.ncurses.php>`_
 * `ext/newt <http://people.redhat.com/rjones/ocaml-newt/html/Newt.html>`_
 * ext/nsapi
 * `ext/ob <https://www.php.net/manual/en/book.outcontrol.php>`_
 * `ext/oci8 <https://www.php.net/manual/en/book.oci8.php>`_
-* `ext/odbc <http://www.php.net/manual/en/book.uodbc.php>`_
+* ext/odbc
 * `ext/opcache <http://www.php.net/manual/en/book.opcache.php>`_
 * `ext/opencensus <https://github.com/census-instrumentation/opencensus-php>`_
 * ext/openssl
@@ -277,11 +277,11 @@ PHP extensions are described with the list of structures they define : functions
 * ext/pcntl
 * `ext/pcov <https://github.com/krakjoe/pcov>`_
 * ext/pcre
-* `ext/pdo <https://www.php.net/manual/en/book.pdo.php>`_
-* `ext/pgsql <https://www.php.net/manual/en/book.pgsql.php>`_
+* ext/pdo
+* ext/pgsql
 * `ext/phalcon <https://docs.phalconphp.com/en/latest/reference/tutorial.html>`_
 * ext/phar
-* `ext/posix <https://standards.ieee.org/findstds/standard/1003.1-2008.html>`_
+* ext/posix
 * `ext/proctitle <https://www.php.net/manual/en/book.proctitle.php>`_
 * ext/protobuf
 * ext/pspell
@@ -290,7 +290,7 @@ PHP extensions are described with the list of structures they define : functions
 * `ext/rdkafka <https://github.com/arnaud-lb/php-rdkafka>`_
 * ext/readline
 * `ext/recode <http://www.php.net/manual/en/book.recode.php>`_
-* `ext/redis <https://github.com/phpredis/phpredis/>`_
+* ext/redis
 * ext/reflection
 * `ext/runkit <https://www.php.net/manual/en/book.runkit.php>`_
 * `ext/sdl <https://github.com/Ponup/phpsdl>`_
@@ -308,7 +308,7 @@ PHP extensions are described with the list of structures they define : functions
 * ext/sqlite3
 * `ext/sqlsrv <https://www.php.net/sqlsrv>`_
 * `ext/ssh2 <https://www.php.net/manual/en/book.ssh2.php>`_
-* `ext/standard <https://www.php.net/manual/en/ref.info.php>`_
+* ext/standard
 * `ext/stats <https://people.sc.fsu.edu/~jburkardt/c_src/cdflib/cdflib.html>`_
 * `String <https://www.php.net/manual/en/ref.strings.php>`_
 * `ext/suhosin <https://suhosin.org/>`_

@@ -32,9 +32,9 @@ The exakat engine read directives from six places, with the following precedence
 1. The command line options
 2. The .exakat.ini or .exakat.yaml file at the root of the code
 3. The environment variables
-3. The config.ini file in the project directory
-4. The exakat.ini file in the config directory
-5. The default values in the code
+4. The config.ini file in the project directory
+5. The exakat.ini file in the config directory
+6. The default values in the code
 
 
 The precedence of the directives is the same as the list above : command line options always have highest priority, config.ini files are in second, when command line are not available, and finally, the default values are read in the code.
@@ -289,7 +289,7 @@ Exakat in project's config.ini file
 
 Copy-paste this YAML code into a file called `.exakat.yaml`, located at the root of your repository. 
 
-This configuration is for the `Structures/AddZero`_ rule. It ignores directories at the root, starting with a `c`; it applies the rule only to files with tpl, php, php3 extensions and the namespaces `\\ns` and `\\ns2`.
+This configuration is for the Structures/AddZero rule. It ignores directories at the root, starting with a `c`; it applies the rule only to files with tpl, php, php3 extensions and the namespaces `\\ns` and `\\ns2`.
 
 :: 
 
@@ -497,6 +497,10 @@ Analyzers may be configured in the `project/*/config.ini`; they may also be conf
   + arrayMaxSize : 15000
 
     + Maximal size of arrays to be analyzed. This will speed up analysis, and leave the largest arrays untouched.
+:ref:`Randomly Sorted Arrays <randomly-sorted-arrays>`
+  + maxSize : 5
+
+    + Maximal size of arrays to survey.
 :ref:`Too Many Array Dimensions <too-many-array-dimensions>`
   + maxDimensions : 3
 
@@ -627,7 +631,7 @@ prefixedType['uuid'] = '\Uuid';
 :ref:`Keep Files Access Restricted <keep-files-access-restricted>`
   + filePrivileges : 0777
 
-    + List of forbidden file modes (comma separated).
+    + List of forbidden file modes (comma separated). This should be a decimal value : 511 instead of 777. The values will not be converted from octal to decimal.
 :ref:`Should Use Prepared Statement <should-use-prepared-statement>`
   + queryMethod : query_methods.json
 
@@ -679,6 +683,16 @@ prefixedType['uuid'] = '\Uuid';
   + maxIf : 5
 
     + Maximum number of allowed stringed if-then-elseif structure.
+:ref:`Could Be A Constant <could-be-a-constant>`
+  + minOccurences : 1
+
+    + Minimal number of occurrences of the literal.
+  + skipString : ,.php
+
+    + List of omitted string values. For example, the empty string.
+  + skipInteger : 1,-0,-1
+
+    + List of omitted integer values. By default, 0, 1 and -1.
 
 
     
