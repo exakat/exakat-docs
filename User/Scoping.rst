@@ -233,11 +233,13 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Constants/StrangeName";
    analyzer[] = "Constants/UndefinedConstants";
    analyzer[] = "Enums/UndefinedEnumcase";
+   analyzer[] = "Enums/UnusedEnumCase";
    analyzer[] = "Exceptions/CantThrow";
    analyzer[] = "Exceptions/CatchUndefinedVariable";
    analyzer[] = "Exceptions/ForgottenThrown";
    analyzer[] = "Exceptions/OverwriteException";
    analyzer[] = "Exceptions/ThrowFunctioncall";
+   analyzer[] = "Exceptions/ThrowRawExceptions";
    analyzer[] = "Exceptions/UncaughtExceptions";
    analyzer[] = "Exceptions/Unthrown";
    analyzer[] = "Exceptions/UselessCatch";
@@ -532,6 +534,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/UselessCheck";
    analyzer[] = "Structures/UselessGlobal";
    analyzer[] = "Structures/UselessInstruction";
+   analyzer[] = "Structures/UselessNullCoalesce";
    analyzer[] = "Structures/UselessParenthesis";
    analyzer[] = "Structures/UselessSwitch";
    analyzer[] = "Structures/UselessUnset";
@@ -687,11 +690,13 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Constants/StrangeName'
      - 'Constants/UndefinedConstants'
      - 'Enums/UndefinedEnumcase'
+     - 'Enums/UnusedEnumCase'
      - 'Exceptions/CantThrow'
      - 'Exceptions/CatchUndefinedVariable'
      - 'Exceptions/ForgottenThrown'
      - 'Exceptions/OverwriteException'
      - 'Exceptions/ThrowFunctioncall'
+     - 'Exceptions/ThrowRawExceptions'
      - 'Exceptions/UncaughtExceptions'
      - 'Exceptions/Unthrown'
      - 'Exceptions/UselessCatch'
@@ -986,6 +991,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/UselessCheck'
      - 'Structures/UselessGlobal'
      - 'Structures/UselessInstruction'
+     - 'Structures/UselessNullCoalesce'
      - 'Structures/UselessParenthesis'
      - 'Structures/UselessSwitch'
      - 'Structures/UselessUnset'
@@ -1254,6 +1260,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Extensions/Extxsl";
    analyzer[] = "Extensions/Extxxtea";
    analyzer[] = "Extensions/Extyaml";
+   analyzer[] = "Extensions/Extyar";
    analyzer[] = "Extensions/Extyis";
    analyzer[] = "Extensions/Extzendmonitor";
    analyzer[] = "Extensions/Extzip";
@@ -1652,6 +1659,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Extensions/Extxsl'
      - 'Extensions/Extxxtea'
      - 'Extensions/Extyaml'
+     - 'Extensions/Extyar'
      - 'Extensions/Extyis'
      - 'Extensions/Extzendmonitor'
      - 'Extensions/Extzip'
@@ -1989,6 +1997,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Dump/CollectPhpStructures";
    analyzer[] = "Dump/CollectPropertyCounts";
    analyzer[] = "Dump/CollectReadability";
+   analyzer[] = "Dump/CollectStubStructures";
    analyzer[] = "Dump/CollectUseCounts";
    analyzer[] = "Dump/CollectVariables";
    analyzer[] = "Dump/ConstantOrder";
@@ -2175,6 +2184,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Extensions/Extxsl";
    analyzer[] = "Extensions/Extxxtea";
    analyzer[] = "Extensions/Extyaml";
+   analyzer[] = "Extensions/Extyar";
    analyzer[] = "Extensions/Extyis";
    analyzer[] = "Extensions/Extzendmonitor";
    analyzer[] = "Extensions/Extzip";
@@ -2477,7 +2487,6 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/WhileListEach";
    analyzer[] = "Structures/pregOptionE";
    analyzer[] = "Traits/CannotCallTraitMethod";
-   analyzer[] = "Traits/IsExtTrait";
    analyzer[] = "Traits/Php";
    analyzer[] = "Traits/TraitUsage";
    analyzer[] = "Traits/Traitnames";
@@ -2652,6 +2661,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Dump/CollectPhpStructures'
      - 'Dump/CollectPropertyCounts'
      - 'Dump/CollectReadability'
+     - 'Dump/CollectStubStructures'
      - 'Dump/CollectUseCounts'
      - 'Dump/CollectVariables'
      - 'Dump/ConstantOrder'
@@ -2838,6 +2848,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Extensions/Extxsl'
      - 'Extensions/Extxxtea'
      - 'Extensions/Extyaml'
+     - 'Extensions/Extyar'
      - 'Extensions/Extyis'
      - 'Extensions/Extzendmonitor'
      - 'Extensions/Extzip'
@@ -3140,7 +3151,6 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/WhileListEach'
      - 'Structures/pregOptionE'
      - 'Traits/CannotCallTraitMethod'
-     - 'Traits/IsExtTrait'
      - 'Traits/Php'
      - 'Traits/TraitUsage'
      - 'Traits/Traitnames'
@@ -5317,6 +5327,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Classes/UnusedPrivateProperty";
    analyzer[] = "Classes/UnusedProtectedMethods";
    analyzer[] = "Constants/UnusedConstants";
+   analyzer[] = "Enums/UnusedEnumCase";
    analyzer[] = "Exceptions/AlreadyCaught";
    analyzer[] = "Exceptions/CaughtButNotThrown";
    analyzer[] = "Exceptions/Rethrown";
@@ -5360,6 +5371,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Classes/UnusedPrivateProperty'
      - 'Classes/UnusedProtectedMethods'
      - 'Constants/UnusedConstants'
+     - 'Enums/UnusedEnumCase'
      - 'Exceptions/AlreadyCaught'
      - 'Exceptions/CaughtButNotThrown'
      - 'Exceptions/Rethrown'
@@ -5475,6 +5487,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Dump/CollectPhpStructures";
    analyzer[] = "Dump/CollectPropertyCounts";
    analyzer[] = "Dump/CollectReadability";
+   analyzer[] = "Dump/CollectStubStructures";
    analyzer[] = "Dump/CollectUseCounts";
    analyzer[] = "Dump/CollectVariables";
    analyzer[] = "Dump/ConstantOrder";
@@ -5527,6 +5540,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Dump/CollectPhpStructures'
      - 'Dump/CollectPropertyCounts'
      - 'Dump/CollectReadability'
+     - 'Dump/CollectStubStructures'
      - 'Dump/CollectUseCounts'
      - 'Dump/CollectVariables'
      - 'Dump/ConstantOrder'
@@ -5566,7 +5580,6 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Constants/IsExtConstant";
    analyzer[] = "Functions/MarkCallable";
    analyzer[] = "Interfaces/IsExtInterface";
-   analyzer[] = "Traits/IsExtTrait";
    analyzer[] = "Variables/IsLocalConstant";
 
 
@@ -5586,7 +5599,6 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Constants/IsExtConstant'
      - 'Functions/MarkCallable'
      - 'Interfaces/IsExtInterface'
-     - 'Traits/IsExtTrait'
      - 'Variables/IsLocalConstant'
 
 
@@ -6367,6 +6379,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Exceptions/LargeTryBlock";
    analyzer[] = "Exceptions/LongPreparation";
    analyzer[] = "Exceptions/OverwriteException";
+   analyzer[] = "Exceptions/ThrowRawExceptions";
    analyzer[] = "Exceptions/UnusedExceptionVariable";
    analyzer[] = "Functions/AddDefaultValue";
    analyzer[] = "Functions/Closure2String";
@@ -6487,6 +6500,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Exceptions/LargeTryBlock'
      - 'Exceptions/LongPreparation'
      - 'Exceptions/OverwriteException'
+     - 'Exceptions/ThrowRawExceptions'
      - 'Exceptions/UnusedExceptionVariable'
      - 'Functions/AddDefaultValue'
      - 'Functions/Closure2String'
@@ -7100,6 +7114,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Dump/CollectPhpStructures";
    analyzer[] = "Dump/CollectPropertyCounts";
    analyzer[] = "Dump/CollectReadability";
+   analyzer[] = "Dump/CollectStubStructures";
    analyzer[] = "Dump/CollectUseCounts";
    analyzer[] = "Dump/CollectVariables";
    analyzer[] = "Dump/ConstantOrder";
@@ -7116,6 +7131,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Dump/TypehintingStats";
    analyzer[] = "Dump/Typehintorder";
    analyzer[] = "Enums/UndefinedEnumcase";
+   analyzer[] = "Enums/UnusedEnumCase";
    analyzer[] = "Exceptions/AlreadyCaught";
    analyzer[] = "Exceptions/CantThrow";
    analyzer[] = "Exceptions/CatchE";
@@ -7132,6 +7148,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Exceptions/OverwriteException";
    analyzer[] = "Exceptions/Rethrown";
    analyzer[] = "Exceptions/ThrowFunctioncall";
+   analyzer[] = "Exceptions/ThrowRawExceptions";
    analyzer[] = "Exceptions/ThrownExceptions";
    analyzer[] = "Exceptions/UncaughtExceptions";
    analyzer[] = "Exceptions/Unthrown";
@@ -7304,6 +7321,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Extensions/Extxsl";
    analyzer[] = "Extensions/Extxxtea";
    analyzer[] = "Extensions/Extyaml";
+   analyzer[] = "Extensions/Extyar";
    analyzer[] = "Extensions/Extyis";
    analyzer[] = "Extensions/Extzendmonitor";
    analyzer[] = "Extensions/Extzip";
@@ -7553,6 +7571,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Php/DeclareStrictType";
    analyzer[] = "Php/DeclareTicks";
    analyzer[] = "Php/DefineWithArray";
+   analyzer[] = "Php/DeprecateDollarCurly";
    analyzer[] = "Php/Deprecated";
    analyzer[] = "Php/DetectCurrentClass";
    analyzer[] = "Php/DirectCallToClone";
@@ -8099,6 +8118,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/UselessCheck";
    analyzer[] = "Structures/UselessGlobal";
    analyzer[] = "Structures/UselessInstruction";
+   analyzer[] = "Structures/UselessNullCoalesce";
    analyzer[] = "Structures/UselessParenthesis";
    analyzer[] = "Structures/UselessSwitch";
    analyzer[] = "Structures/UselessUnset";
@@ -8582,6 +8602,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Dump/CollectPhpStructures'
      - 'Dump/CollectPropertyCounts'
      - 'Dump/CollectReadability'
+     - 'Dump/CollectStubStructures'
      - 'Dump/CollectUseCounts'
      - 'Dump/CollectVariables'
      - 'Dump/ConstantOrder'
@@ -8598,6 +8619,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Dump/TypehintingStats'
      - 'Dump/Typehintorder'
      - 'Enums/UndefinedEnumcase'
+     - 'Enums/UnusedEnumCase'
      - 'Exceptions/AlreadyCaught'
      - 'Exceptions/CantThrow'
      - 'Exceptions/CatchE'
@@ -8614,6 +8636,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Exceptions/OverwriteException'
      - 'Exceptions/Rethrown'
      - 'Exceptions/ThrowFunctioncall'
+     - 'Exceptions/ThrowRawExceptions'
      - 'Exceptions/ThrownExceptions'
      - 'Exceptions/UncaughtExceptions'
      - 'Exceptions/Unthrown'
@@ -8786,6 +8809,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Extensions/Extxsl'
      - 'Extensions/Extxxtea'
      - 'Extensions/Extyaml'
+     - 'Extensions/Extyar'
      - 'Extensions/Extyis'
      - 'Extensions/Extzendmonitor'
      - 'Extensions/Extzip'
@@ -9035,6 +9059,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Php/DeclareStrictType'
      - 'Php/DeclareTicks'
      - 'Php/DefineWithArray'
+     - 'Php/DeprecateDollarCurly'
      - 'Php/Deprecated'
      - 'Php/DetectCurrentClass'
      - 'Php/DirectCallToClone'
@@ -9581,6 +9606,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/UselessCheck'
      - 'Structures/UselessGlobal'
      - 'Structures/UselessInstruction'
+     - 'Structures/UselessNullCoalesce'
      - 'Structures/UselessParenthesis'
      - 'Structures/UselessSwitch'
      - 'Structures/UselessUnset'
@@ -9746,6 +9772,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Classes/ChecksPropertyExistence";
    analyzer[] = "Classes/ExtendsStdclass";
    analyzer[] = "Functions/DeprecatedCallable";
+   analyzer[] = "Php/DeprecateDollarCurly";
    analyzer[] = "Php/FalseToArray";
    analyzer[] = "Php/VersionCompareOperator";
    analyzer[] = "Traits/CannotCallTraitMethod";
@@ -9766,6 +9793,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Classes/ChecksPropertyExistence'
      - 'Classes/ExtendsStdclass'
      - 'Functions/DeprecatedCallable'
+     - 'Php/DeprecateDollarCurly'
      - 'Php/FalseToArray'
      - 'Php/VersionCompareOperator'
      - 'Traits/CannotCallTraitMethod'

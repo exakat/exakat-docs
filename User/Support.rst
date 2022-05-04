@@ -253,12 +253,12 @@ PHP extensions are described with the list of structures they define : functions
 * ext/mbstring
 * ext/mcrypt
 * `ext/memcache <http://www.php.net/manual/en/book.memcache.php>`_
-* `ext/memcached <https://www.php.net/manual/en/book.memcached.php>`_
+* ext/memcached
 * `ext/mhash <http://mhash.sourceforge.net/>`_
 * `ext/ming <http://www.libming.org/>`_
 * `ext/mongo <https://www.php.net/mongo>`_
 * `ext/mongodb <https://github.com/mongodb/mongo-c-driver>`_
-* `ext/msgpack <https://github.com/msgpack/msgpack-php>`_
+* ext/msgpack
 * `ext/mssql <http://www.php.net/manual/en/book.mssql.php>`_
 * `ext/mysql <http://www.php.net/manual/en/book.mysql.php>`_
 * ext/mysqli
@@ -328,7 +328,7 @@ PHP extensions are described with the list of structures they define : functions
 * `ext/weakref <https://www.php.net/manual/en/book.weakref.php>`_
 * `ext/wikidiff2 <https://www.mediawiki.org/wiki/Extension:Wikidiff2>`_
 * `ext/wincache <http://www.php.net/wincache>`_
-* `ext/xattr <https://www.php.net/manual/en/book.xattr.php>`_
+* ext/xattr
 * `ext/xcache <https://xcache.lighttpd.net/>`_
 * ext/xdebug
 * `ext/xdiff <https://www.php.net/manual/en/book.xdiff.php>`_
@@ -340,6 +340,7 @@ PHP extensions are described with the list of structures they define : functions
 * ext/xsl
 * ext/xxtea
 * `ext/yaml <http://www.yaml.org/>`_
+* Extensions yar
 * `ext/yis <http://www.tldp.org/HOWTO/NIS-HOWTO/index.html>`_
 * `ext/zend_monitor <http://files.zend.com/help/Zend-Server/content/zendserverapi/zend_monitor-php_api.htm>`_
 * ext/zip

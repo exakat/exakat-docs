@@ -6,7 +6,7 @@ Release Note
 
 Here is the release note of exakat. 
 
-**Version 2.4.1 (****, 2022-05-04)**
+**Version 2.4.2 (Li Chunfeng, 2022-05-04)**
 
 
 + Architecture
@@ -24,14 +24,40 @@ Here is the release note of exakat.
 + Tokenizer
     + 
 
-**Version 2.4.0 (Yin Kaishan, 2022-04-20)**
+**Version 2.4.1 (Yuan Tiangang, 2022-05-04)**
 
 
 + Architecture
-    + 
+    + New Dump : collect all stub's structures
 
 + Cobbler
     + 
+
++ Report
+    + Sarif : Fixed URI (no initial /) and Exakat version
+    + Unused : report unused stuff in the code
+    + Ambassador : upgrade presentation of the Exception Treephp
+
++ Analysis
+    + New analysis : Deprecated String interpolation in PHP 8.2
+    + Refactored analysis : Spaceship features is used for isRead property
+    + Refactored analysis : Skip analysis of returntypes for methods with throw/assert/trigger_error()
+    + New analysis : Report unused Enumeration Cases
+    + Refactored analysis : Can't instantiate class now takes local class into account
+    + Refactored analysis : Many new examples extracted from the docs
+    + Refactored analysis : fixed bug with 'Wrong Type With Call' 
+    + Refactored analysis : Conditional structures now includes Enums too.
+    + New analysis : Don't throw raw exceptions
+    + New analysis : Useless Coalesce operator (when there is a type available)
+    + New analysis : ext/yar
+    + Refactored analysis : 'Wrong number of argument' now includes methods defined in a trait in a PDFF
+    + Refactored analysis : moved ext/amqp to PDFF
+
++ Tokenizer
+    + 
+
+**Version 2.4.0 (Yin Kaishan, 2022-04-20)**
+
 
 + Report
     + Ambassador : suggest literals to be turned into a constant, based on assignation and comparison
@@ -47,9 +73,6 @@ Here is the release note of exakat.
     + New analysis : Vendors Sylius
     + Refactored analysis : Vendors/Joomla is updated to Joomla 4.2.0
     + Refactored analysis : Wrong Number Of Arguments supports Constructors and methods (static and normal)
-
-+ Tokenizer
-    + 
 
 **Version 2.3.9 (Fu Yi, 2022-04-06)**
 

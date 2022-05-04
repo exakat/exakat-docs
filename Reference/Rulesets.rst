@@ -6,7 +6,7 @@ Rulesets
 Introduction
 ------------------------
 
-Exakat provides unique 1469 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
+Exakat provides unique 1475 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
 
 For more smoothly usage, the ruleset concept allow you to run a set of rules based on a decidated focus. Beawre that a Ruleset run all the associated rules and any needed dependencies.
 
@@ -114,7 +114,7 @@ Analyze
 
 This ruleset centralizes a large number of classic trap and pitfalls when writing PHP.
 
-Total : 441 analysis
+Total : 444 analysis
 
 * :ref:`adding-zero`
 * :ref:`ambiguous-array-index`
@@ -414,7 +414,7 @@ Total : 441 analysis
 * :ref:`missing-parenthesis`
 * :ref:`callback-function-needs-return`
 * :ref:`wrong-range-check`
-* :ref:`cant-instantiate-class`
+* :ref:`can't-instantiate-class`
 * :ref:`strpos()-too-much`
 * :ref:`typehinted-references`
 * :ref:`weak-typing`
@@ -557,6 +557,9 @@ Total : 441 analysis
 * :ref:`unsupported-operand-types`
 * :ref:`version\_compare-operator`
 * :ref:`do-not-cast-to-int`
+* :ref:`unused-enumeration-case`
+* :ref:`useless-null-coalesce`
+* :ref:`throw-raw-exceptions`
 
 
 
@@ -578,7 +581,7 @@ Appinfo
 
 A set of rules that describes with PHP features is used in the code.
 
-Total : 385 analysis
+Total : 386 analysis
 
 * :ref:`array-index`
 * :ref:`multidimensional-arrays`
@@ -965,6 +968,7 @@ Total : 385 analysis
 * :ref:`ext-protobuf`
 * :ref:`constant-scalar-expression`
 * :ref:`sylius-usage`
+* :ref:`extensions-yar`
 
 
 
@@ -1011,7 +1015,7 @@ CE
 
 This ruleset is the Community Edition list. It holds all the analysis that are in the community edition version of Exakat.
 
-Total : 650 analysis
+Total : 651 analysis
 
 * :ref:`adding-zero`
 * :ref:`array-index`
@@ -1194,7 +1198,6 @@ Total : 650 analysis
 * :ref:`ext-0mq`
 * :ref:`ext-memcache`
 * :ref:`ext-memcached`
-* :ref:`is-extension-trait`
 * :ref:`dynamic-function-call`
 * :ref:`has-variable-arguments`
 * :ref:`multiple-catch`
@@ -1663,6 +1666,8 @@ Total : 650 analysis
 * :ref:`extends-stdclass`
 * :ref:`ext-protobuf`
 * :ref:`sylius-usage`
+* :ref:`extensions-yar`
+* :ref:`collect-stub-structures`
 
 
 
@@ -2811,7 +2816,7 @@ Dead code
 
 This ruleset focuses on dead code : expressions or even structures that are written, valid but never used.
 
-Total : 30 analysis
+Total : 31 analysis
 
 * :ref:`empty-traits`
 * :ref:`unused-use`
@@ -2843,6 +2848,7 @@ Total : 30 analysis
 * :ref:`unreachable-method`
 * :ref:`identical-elseif`
 * :ref:`use-variable-created-inside-loop`
+* :ref:`unused-enumeration-case`
 
 
 
@@ -2904,7 +2910,7 @@ Dump
 
 This ruleset collects various names given to different structures in the code : for example, variables, classes, methods, constants, etc. It also collects networks of data, like file inclusion or externa dependencies.
 
-Total : 39 analysis
+Total : 40 analysis
 
 * :ref:`environment-variable-usage`
 * :ref:`indentation-levels`
@@ -2945,6 +2951,7 @@ Total : 39 analysis
 * :ref:`collect-dependency-extension`
 * :ref:`public-reach-to-private-methods`
 * :ref:`could-be-a-constant`
+* :ref:`collect-stub-structures`
 
 
 
@@ -2966,11 +2973,10 @@ First
 
 A set of rules that are always run at the beginning of a project, because they are frequently used. It is mostly used internally.
 
-Total : 7 analysis
+Total : 6 analysis
 
 * :ref:`is-an-extension-interface`
 * :ref:`is-an-extension-constant`
-* :ref:`is-extension-trait`
 * :ref:`mark-callable`
 * :ref:`variable-typehint`
 * :ref:`variable-is-a-local-constant`
@@ -3447,7 +3453,7 @@ Suggestions
 
 This ruleset focuses on possibly better syntax than the one currently used. Those may be code modernization, alternatives, more efficient solutions, or simply left over from older versions. 
 
-Total : 107 analysis
+Total : 108 analysis
 
 * :ref:`while(list()-=-each())`
 * :ref:`function-subscripting,-old-style`
@@ -3556,6 +3562,7 @@ Total : 107 analysis
 * :ref:`could-use-existing-constant`
 * :ref:`could-use-array\_sum()`
 * :ref:`too-many-stringed-elseif`
+* :ref:`throw-raw-exceptions`
 
 
 
@@ -3675,7 +3682,7 @@ All
 
 All is a dummy ruleset, which includes all the rules. It is mostly used internally.
 
-Total : 1467 analysis
+Total : 1473 analysis
 
 * :ref:`adding-zero`
 * :ref:`ambiguous-array-index`
@@ -4628,7 +4635,7 @@ Total : 1467 analysis
 * :ref:`ext-zookeeper`
 * :ref:`ext-cmark`
 * :ref:`failing-analysis`
-* :ref:`cant-instantiate-class`
+* :ref:`can't-instantiate-class`
 * :ref:`strpos()-too-much`
 * :ref:`typehinted-references`
 * :ref:`do-in-base`
@@ -5144,6 +5151,12 @@ Total : 1467 analysis
 * :ref:`windows-only-constants`
 * :ref:`could-be-spaceship`
 * :ref:`sylius-usage`
+* :ref:`dollar-curly-interpolation-is-deprecated`
+* :ref:`unused-enumeration-case`
+* :ref:`useless-null-coalesce`
+* :ref:`throw-raw-exceptions`
+* :ref:`extensions-yar`
+* :ref:`collect-stub-structures`
 
 
 
@@ -5163,7 +5176,7 @@ CompatibilityPHP82
 
 This ruleset centralizes all analysis for the migration from PHP 8.1 to 8.2.
 
-Total : 7 analysis
+Total : 8 analysis
 
 * :ref:`false-to-array-conversion`
 * :ref:`float-conversion-as-index`
@@ -5172,6 +5185,7 @@ Total : 7 analysis
 * :ref:`checks-property-existence`
 * :ref:`extends-stdclass`
 * :ref:`version\_compare-operator`
+* :ref:`dollar-curly-interpolation-is-deprecated`
 
 
 

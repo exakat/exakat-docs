@@ -68,6 +68,7 @@ Summary
   * :ref:`CompatibilityPHP74 <report-compatibilityphp74>`
   * :ref:`CompatibilityPHP80 <report-compatibilityphp80>`
   * :ref:`CompatibilityPHP81 <report-compatibilityphp81>`
+  * :ref:`Unused <report-unused>`
 
 
 
@@ -548,8 +549,8 @@ This Report may be configured with the [Exakatjson] section, to provide the uuid
 
 ::
 
-[Exakatjson]
-uuid=1234567abcd;
+    [Exakatjson]
+    uuid=1234567abcd;
 
 
 
@@ -1495,12 +1496,12 @@ Exakat measures a large number of code dimensions, such as number of files, line
 
 ::
 
-{
-	loc: 95950,
-	locTotal: 140260,
-	files: 1824,
-	tokens: 677213
-}
+    {
+    	loc: 95950,
+    	locTotal: 140260,
+    	files: 1824,
+    	tokens: 677213
+    }
 
 
 
@@ -3675,6 +3676,50 @@ Specs
 | Type         | Text                                |
 +--------------+-------------------------------------+
 | Target       | This report is written in 'stdout'. |
++--------------+-------------------------------------+
+| Available in |                                     |
++--------------+-------------------------------------+
+
+
+.. _report-unused:
+
+Unused
+######
+
+Unused
+______
+
+Unused lists unused pieces of code in the source.
+
+The Unused report reports structures that are defined in the code, but never used. 
+
++ Constants
++ Functions, methods, properties
++ Classes, Enumration, traits and interfaces
++ Return values and parameters
++ Default values
++ Never used
++ Written only variables and properties
++ Unreachable methods and constants
++ Unreachable code
+
+
+
+.. image:: ../images/report.unused.png
+    :alt: Example of a Unused report (0)
+
+
+
+Specs
+^^^^^
++--------------+-------------------------------------+
+| Short name   | Unused                              |
++--------------+-------------------------------------+
+| Rulesets     | Unused.                             |
++--------------+-------------------------------------+
+| Type         | HTML                                |
++--------------+-------------------------------------+
+| Target       | This report is written in 'report'. |
 +--------------+-------------------------------------+
 | Available in |                                     |
 +--------------+-------------------------------------+

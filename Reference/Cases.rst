@@ -396,10 +396,10 @@ $this->fk_product is tested for value 11 times while being used in this class. A
     		$sql .= ' fk_product = '.(isset($this->fk_product) ? $this->fk_product : "null").',';
 
 
-.. _case-cant-instantiate-class:
+.. _case-can't-instantiate-class:
 
-Cant Instantiate Class
-######################
+Can't Instantiate Class
+#######################
 
 .. _case-wordpress-classes-cantinstantiateclass:
 
@@ -407,7 +407,7 @@ WordPress
 +++++++++
 
 
-:ref:`cant-instantiate-class`, in wp-admin/includes/misc.php:74. 
+:ref:`can't-instantiate-class`, in wp-admin/includes/misc.php:74. 
 
 This code actually loads the file, join it, then split it again. file() would be sufficient. 
 
