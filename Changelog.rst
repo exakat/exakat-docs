@@ -6,7 +6,7 @@ Release Note
 
 Here is the release note of exakat. 
 
-**Version 2.4.2 (Li Chunfeng, 2022-05-04)**
+**Version 2.4.3 (???, 2022-06-02)**
 
 
 + Architecture
@@ -19,19 +19,46 @@ Here is the release note of exakat.
     + 
 
 + Analysis
-    + 
+    + Refactored analysis : 'Raised access Level' now supports PDFF files
+    + Refactored analysis : 'Cant Extends Final' also Works with anonymous classes
+    + New analysis : Report 'Lowered access levels'
 
 + Tokenizer
     + 
+
+**Version 2.4.2 (Li Chunfeng, 2022-05-18)**
+
+
++ Architecture
+    + 
+
++ Cobbler
+    + 
+
++ Report
+    + 
+
++ Analysis
+    + Refactored analysis : 'Raised access Level' now supports PDFF files
+    + Refactored analysis : 'Cant Extends Final' also Works with anonymous classes
+    + New analysis : Report 'Lowered access levels'
+    + Refactored analysis : 'Final methods' extended to traits
+    + Refactored analysis : 'Overwritten Methods' fixed bug with Traits
+    + New analysis : 'Cant extends Final Methods' 
+    + Refactored analysis : 'Cant extends Final Constants' with PDFF support
+    + New analysis : 'Extension Excimer' 
+    + New analysis : 'Report implicit float to int conversions' 
+    + Refactored analysis : 'Is always false' is extended to typed properties
+    + New analysis : 'Report inegalities with different types' 
+
++ Tokenizer
+    + Fixed but with float and power
 
 **Version 2.4.1 (Yuan Tiangang, 2022-05-04)**
 
 
 + Architecture
     + New Dump : collect all stub's structures
-
-+ Cobbler
-    + 
 
 + Report
     + Sarif : Fixed URI (no initial /) and Exakat version
@@ -52,9 +79,6 @@ Here is the release note of exakat.
     + New analysis : ext/yar
     + Refactored analysis : 'Wrong number of argument' now includes methods defined in a trait in a PDFF
     + Refactored analysis : moved ext/amqp to PDFF
-
-+ Tokenizer
-    + 
 
 **Version 2.4.0 (Yin Kaishan, 2022-04-20)**
 

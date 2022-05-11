@@ -203,6 +203,7 @@ PHP extensions are described with the list of structures they define : functions
 * `ext/ereg <https://www.php.net/manual/en/function.ereg.php>`_
 * `ext/ev <https://www.php.net/manual/en/book.ev.php>`_
 * `ext/event <https://www.php.net/event>`_
+* Excimer
 * ext/exif
 * `ext/expect <https://www.php.net/manual/en/book.expect.php>`_
 * `ext/fam <http://oss.sgi.com/projects/fam/>`_
@@ -246,7 +247,7 @@ PHP extensions are described with the list of structures they define : functions
 * ext/libsodium
 * ext/libxml
 * ext/lua
-* `ext/lzf <https://www.php.net/lzf>`_
+* ext/lzf
 * `ext/mail <http://www.php.net/manual/en/book.mail.php>`_
 * `ext/mailparse <http://www.faqs.org/rfcs/rfc822.html>`_
 * `ext/math <https://www.php.net/manual/en/book.math.php>`_
@@ -312,7 +313,7 @@ PHP extensions are described with the list of structures they define : functions
 * `ext/stats <https://people.sc.fsu.edu/~jburkardt/c_src/cdflib/cdflib.html>`_
 * `String <https://www.php.net/manual/en/ref.strings.php>`_
 * `ext/suhosin <https://suhosin.org/>`_
-* `ext/svm <http://www.php.net/svm>`_
+* ext/svm
 * `ext/swoole <https://www.swoole.com/>`_
 * ext/tidy
 * ext/tokenizer
@@ -321,7 +322,7 @@ PHP extensions are described with the list of structures they define : functions
 * `ext/uopz <https://pecl.php.net/package/uopz>`_
 * `ext/uuid <https://linux.die.net/man/3/libuuid>`_
 * `ext/v8js <https://bugs.chromium.org/p/v8/issues/list>`_
-* `ext/varnish <https://www.php.net/manual/en/book.varnish.php>`_
+* ext/varnish
 * `ext/vips <https://github.com/jcupitt/php-vips-ext>`_
 * `ext/wasm <https://github.com/Hywan/php-ext-wasm>`_
 * ext/wddx

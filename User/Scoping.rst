@@ -435,6 +435,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/IdenticalVariablesInForeach";
    analyzer[] = "Structures/IfWithSameConditions";
    analyzer[] = "Structures/Iffectation";
+   analyzer[] = "Structures/ImplicitConversionToInt";
    analyzer[] = "Structures/ImpliedIf";
    analyzer[] = "Structures/ImplodeArgsOrder";
    analyzer[] = "Structures/InconsistentElseif";
@@ -528,6 +529,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/UseConstant";
    analyzer[] = "Structures/UseInstanceof";
    analyzer[] = "Structures/UsePositiveCondition";
+   analyzer[] = "Structures/UseSameTypesForComparisons";
    analyzer[] = "Structures/UseSystemTmp";
    analyzer[] = "Structures/UselessBrackets";
    analyzer[] = "Structures/UselessCasting";
@@ -892,6 +894,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/IdenticalVariablesInForeach'
      - 'Structures/IfWithSameConditions'
      - 'Structures/Iffectation'
+     - 'Structures/ImplicitConversionToInt'
      - 'Structures/ImpliedIf'
      - 'Structures/ImplodeArgsOrder'
      - 'Structures/InconsistentElseif'
@@ -985,6 +988,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/UseConstant'
      - 'Structures/UseInstanceof'
      - 'Structures/UsePositiveCondition'
+     - 'Structures/UseSameTypesForComparisons'
      - 'Structures/UseSystemTmp'
      - 'Structures/UselessBrackets'
      - 'Structures/UselessCasting'
@@ -1123,6 +1127,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Extensions/Extereg";
    analyzer[] = "Extensions/Extev";
    analyzer[] = "Extensions/Extevent";
+   analyzer[] = "Extensions/Extexcimer";
    analyzer[] = "Extensions/Extexif";
    analyzer[] = "Extensions/Extexpect";
    analyzer[] = "Extensions/Extfam";
@@ -1522,6 +1527,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Extensions/Extereg'
      - 'Extensions/Extev'
      - 'Extensions/Extevent'
+     - 'Extensions/Extexcimer'
      - 'Extensions/Extexif'
      - 'Extensions/Extexpect'
      - 'Extensions/Extfam'
@@ -2047,6 +2053,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Extensions/Extereg";
    analyzer[] = "Extensions/Extev";
    analyzer[] = "Extensions/Extevent";
+   analyzer[] = "Extensions/Extexcimer";
    analyzer[] = "Extensions/Extexif";
    analyzer[] = "Extensions/Extexpect";
    analyzer[] = "Extensions/Extfam";
@@ -2711,6 +2718,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Extensions/Extereg'
      - 'Extensions/Extev'
      - 'Extensions/Extevent'
+     - 'Extensions/Extexcimer'
      - 'Extensions/Extexif'
      - 'Extensions/Extexpect'
      - 'Extensions/Extfam'
@@ -3646,6 +3654,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Classes/HiddenNullable";
    analyzer[] = "Classes/InheritedPropertyMustMatch";
    analyzer[] = "Classes/InsufficientPropertyTypehint";
+   analyzer[] = "Classes/LoweredAccessLevel";
    analyzer[] = "Classes/MismatchProperties";
    analyzer[] = "Classes/MissingAbstractMethod";
    analyzer[] = "Classes/MissingVisibility";
@@ -3725,6 +3734,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Classes/HiddenNullable'
      - 'Classes/InheritedPropertyMustMatch'
      - 'Classes/InsufficientPropertyTypehint'
+     - 'Classes/LoweredAccessLevel'
      - 'Classes/MismatchProperties'
      - 'Classes/MissingAbstractMethod'
      - 'Classes/MissingVisibility'
@@ -5753,6 +5763,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Php/FalseToArray";
    analyzer[] = "Php/JsonSerializeReturnType";
    analyzer[] = "Php/OnlyVariableForReference";
+   analyzer[] = "Structures/ImplicitConversionToInt";
    analyzer[] = "Traits/MethodCollisionTraits";
    analyzer[] = "Traits/TraitNotFound";
    analyzer[] = "Traits/UndefinedInsteadof";
@@ -5805,6 +5816,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Php/FalseToArray'
      - 'Php/JsonSerializeReturnType'
      - 'Php/OnlyVariableForReference'
+     - 'Structures/ImplicitConversionToInt'
      - 'Traits/MethodCollisionTraits'
      - 'Traits/TraitNotFound'
      - 'Traits/UndefinedInsteadof'
@@ -6367,6 +6379,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Arrays/SliceFirst";
    analyzer[] = "Classes/CancelCommonMethod";
    analyzer[] = "Classes/CouldBeIterable";
+   analyzer[] = "Classes/LoweredAccessLevel";
    analyzer[] = "Classes/ParentFirst";
    analyzer[] = "Classes/ShouldDeepClone";
    analyzer[] = "Classes/ShouldHaveDestructor";
@@ -6488,6 +6501,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Arrays/SliceFirst'
      - 'Classes/CancelCommonMethod'
      - 'Classes/CouldBeIterable'
+     - 'Classes/LoweredAccessLevel'
      - 'Classes/ParentFirst'
      - 'Classes/ShouldDeepClone'
      - 'Classes/ShouldHaveDestructor'
@@ -6831,6 +6845,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Classes/CantInheritAbstractMethod";
    analyzer[] = "Classes/CantInstantiateClass";
    analyzer[] = "Classes/CantOverwriteFinalConstant";
+   analyzer[] = "Classes/CantOverwriteFinalMethod";
    analyzer[] = "Classes/CheckOnCallUsage";
    analyzer[] = "Classes/ChecksPropertyExistence";
    analyzer[] = "Classes/ChildRemoveTypehint";
@@ -6904,6 +6919,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Classes/IsaMagicProperty";
    analyzer[] = "Classes/LocallyUnusedProperty";
    analyzer[] = "Classes/LocallyUsedProperty";
+   analyzer[] = "Classes/LoweredAccessLevel";
    analyzer[] = "Classes/MagicMethod";
    analyzer[] = "Classes/MagicProperties";
    analyzer[] = "Classes/MakeDefault";
@@ -7184,6 +7200,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Extensions/Extereg";
    analyzer[] = "Extensions/Extev";
    analyzer[] = "Extensions/Extevent";
+   analyzer[] = "Extensions/Extexcimer";
    analyzer[] = "Extensions/Extexif";
    analyzer[] = "Extensions/Extexpect";
    analyzer[] = "Extensions/Extfam";
@@ -7957,6 +7974,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/IdenticalVariablesInForeach";
    analyzer[] = "Structures/IfWithSameConditions";
    analyzer[] = "Structures/Iffectation";
+   analyzer[] = "Structures/ImplicitConversionToInt";
    analyzer[] = "Structures/ImplicitGlobal";
    analyzer[] = "Structures/ImpliedIf";
    analyzer[] = "Structures/ImplodeArgsOrder";
@@ -8110,6 +8128,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/UseInstanceof";
    analyzer[] = "Structures/UseListWithForeach";
    analyzer[] = "Structures/UsePositiveCondition";
+   analyzer[] = "Structures/UseSameTypesForComparisons";
    analyzer[] = "Structures/UseSystemTmp";
    analyzer[] = "Structures/UseUrlQueryFunctions";
    analyzer[] = "Structures/UseVariableInsideLoop";
@@ -8319,6 +8338,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Classes/CantInheritAbstractMethod'
      - 'Classes/CantInstantiateClass'
      - 'Classes/CantOverwriteFinalConstant'
+     - 'Classes/CantOverwriteFinalMethod'
      - 'Classes/CheckOnCallUsage'
      - 'Classes/ChecksPropertyExistence'
      - 'Classes/ChildRemoveTypehint'
@@ -8392,6 +8412,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Classes/IsaMagicProperty'
      - 'Classes/LocallyUnusedProperty'
      - 'Classes/LocallyUsedProperty'
+     - 'Classes/LoweredAccessLevel'
      - 'Classes/MagicMethod'
      - 'Classes/MagicProperties'
      - 'Classes/MakeDefault'
@@ -8672,6 +8693,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Extensions/Extereg'
      - 'Extensions/Extev'
      - 'Extensions/Extevent'
+     - 'Extensions/Extexcimer'
      - 'Extensions/Extexif'
      - 'Extensions/Extexpect'
      - 'Extensions/Extfam'
@@ -9445,6 +9467,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/IdenticalVariablesInForeach'
      - 'Structures/IfWithSameConditions'
      - 'Structures/Iffectation'
+     - 'Structures/ImplicitConversionToInt'
      - 'Structures/ImplicitGlobal'
      - 'Structures/ImpliedIf'
      - 'Structures/ImplodeArgsOrder'
@@ -9598,6 +9621,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/UseInstanceof'
      - 'Structures/UseListWithForeach'
      - 'Structures/UsePositiveCondition'
+     - 'Structures/UseSameTypesForComparisons'
      - 'Structures/UseSystemTmp'
      - 'Structures/UseUrlQueryFunctions'
      - 'Structures/UseVariableInsideLoop'

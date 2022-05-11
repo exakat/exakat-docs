@@ -6,7 +6,7 @@ Rulesets
 Introduction
 ------------------------
 
-Exakat provides unique 1475 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
+Exakat provides unique 1480 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
 
 For more smoothly usage, the ruleset concept allow you to run a set of rules based on a decidated focus. Beawre that a Ruleset run all the associated rules and any needed dependencies.
 
@@ -114,7 +114,7 @@ Analyze
 
 This ruleset centralizes a large number of classic trap and pitfalls when writing PHP.
 
-Total : 444 analysis
+Total : 446 analysis
 
 * :ref:`adding-zero`
 * :ref:`ambiguous-array-index`
@@ -560,6 +560,8 @@ Total : 444 analysis
 * :ref:`unused-enumeration-case`
 * :ref:`useless-null-coalesce`
 * :ref:`throw-raw-exceptions`
+* :ref:`implicit-conversion-to-int`
+* :ref:`use-same-types-for-comparisons`
 
 
 
@@ -581,7 +583,7 @@ Appinfo
 
 A set of rules that describes with PHP features is used in the code.
 
-Total : 386 analysis
+Total : 387 analysis
 
 * :ref:`array-index`
 * :ref:`multidimensional-arrays`
@@ -666,7 +668,7 @@ Total : 386 analysis
 * :ref:`recursive-functions`
 * :ref:`redeclared-php-functions`
 * :ref:`typehints`
-* :ref:`interfaces-glossary`
+* :ref:`interfaces-names`
 * :ref:`aliases`
 * :ref:`namespaces-glossary`
 * :ref:`autoloading`
@@ -969,6 +971,7 @@ Total : 386 analysis
 * :ref:`constant-scalar-expression`
 * :ref:`sylius-usage`
 * :ref:`extensions-yar`
+* :ref:`excimer`
 
 
 
@@ -1015,7 +1018,7 @@ CE
 
 This ruleset is the Community Edition list. It holds all the analysis that are in the community edition version of Exakat.
 
-Total : 651 analysis
+Total : 652 analysis
 
 * :ref:`adding-zero`
 * :ref:`array-index`
@@ -1107,7 +1110,7 @@ Total : 651 analysis
 * :ref:`recursive-functions`
 * :ref:`redeclared-php-functions`
 * :ref:`typehints`
-* :ref:`interfaces-glossary`
+* :ref:`interfaces-names`
 * :ref:`aliases`
 * :ref:`namespaces-glossary`
 * :ref:`autoloading`
@@ -1668,6 +1671,7 @@ Total : 651 analysis
 * :ref:`sylius-usage`
 * :ref:`extensions-yar`
 * :ref:`collect-stub-structures`
+* :ref:`excimer`
 
 
 
@@ -1886,7 +1890,7 @@ ClassReview
 
 This ruleset focuses on classes construction issues, and their related structures : traits, interfaces, methods, properties, constants.
 
-Total : 66 analysis
+Total : 67 analysis
 
 * :ref:`final-class-usage`
 * :ref:`final-methods-usage`
@@ -1898,7 +1902,7 @@ Total : 66 analysis
 * :ref:`could-be-class-constant`
 * :ref:`could-be-static`
 * :ref:`no-self-referencing-constant`
-* :ref:`property-could-be-private-property`
+* :ref:`property-could-be-private`
 * :ref:`class-should-be-final-by-ocramius`
 * :ref:`could-be-protected-property`
 * :ref:`raised-access-level`
@@ -1954,6 +1958,7 @@ Total : 66 analysis
 * :ref:`undefined-enumcase`
 * :ref:`cant-overwrite-final-constant`
 * :ref:`no-constructor-in-interface`
+* :ref:`lowered-access-level`
 
 
 
@@ -3090,7 +3095,7 @@ LintButWontExec
 
 This ruleset focuses on PHP code that lint (php -l), but that will not run. As such, this ruleset tries to go further than PHP, by connecting files, just like during execution.
 
-Total : 39 analysis
+Total : 40 analysis
 
 * :ref:`final-class-usage`
 * :ref:`final-methods-usage`
@@ -3131,6 +3136,7 @@ Total : 39 analysis
 * :ref:`deprecated-callable`
 * :ref:`cant-overload-constants`
 * :ref:`cant-overwrite-final-constant`
+* :ref:`implicit-conversion-to-int`
 
 
 
@@ -3453,7 +3459,7 @@ Suggestions
 
 This ruleset focuses on possibly better syntax than the one currently used. Those may be code modernization, alternatives, more efficient solutions, or simply left over from older versions. 
 
-Total : 108 analysis
+Total : 109 analysis
 
 * :ref:`while(list()-=-each())`
 * :ref:`function-subscripting,-old-style`
@@ -3563,6 +3569,7 @@ Total : 108 analysis
 * :ref:`could-use-array\_sum()`
 * :ref:`too-many-stringed-elseif`
 * :ref:`throw-raw-exceptions`
+* :ref:`lowered-access-level`
 
 
 
@@ -3682,7 +3689,7 @@ All
 
 All is a dummy ruleset, which includes all the rules. It is mostly used internally.
 
-Total : 1473 analysis
+Total : 1478 analysis
 
 * :ref:`adding-zero`
 * :ref:`ambiguous-array-index`
@@ -3786,7 +3793,7 @@ Total : 1473 analysis
 * :ref:`methods-without-return`
 * :ref:`empty-interfaces`
 * :ref:`interfaces-usage`
-* :ref:`interfaces-glossary`
+* :ref:`interfaces-names`
 * :ref:`php-interfaces`
 * :ref:`aliases`
 * :ref:`namespaces-glossary`
@@ -4268,7 +4275,7 @@ Total : 1473 analysis
 * :ref:`uses-environment`
 * :ref:`switch-to-switch`
 * :ref:`wrong-parameter-type`
-* :ref:`property-could-be-private-property`
+* :ref:`property-could-be-private`
 * :ref:`redefined-methods`
 * :ref:`redefined-class-constants`
 * :ref:`file-is-component`
@@ -5157,6 +5164,11 @@ Total : 1473 analysis
 * :ref:`throw-raw-exceptions`
 * :ref:`extensions-yar`
 * :ref:`collect-stub-structures`
+* :ref:`lowered-access-level`
+* :ref:`cant-overwrite-final-method`
+* :ref:`implicit-conversion-to-int`
+* :ref:`excimer`
+* :ref:`use-same-types-for-comparisons`
 
 
 

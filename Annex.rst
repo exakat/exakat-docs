@@ -62,7 +62,6 @@ List of external links mentioned in this documentation.
 * `@deprecated <https://docs.phpdoc.org/latest/references/phpdoc/tags/deprecated.html>`_
 * `[blog] array_column() <https://benramsey.com/projects/array-column/>`_
 * `[HttpFoundation] Make sessions secure and lazy #24523 <https://github.com/symfony/symfony/pull/24523>`_
-* `__autoload <https://www.php.net/autoload>`_
 * `__get performance questions with PHP <https://stackoverflow.com/questions/3330852/get-set-call-performance-questions-with-php>`_
 * `About circular references in PHP <https://johann.pardanaud.com/blog/about-circular-references-in-php>`_
 * `Add Exakat To Your CI Pipeline <https://www.exakat.io/add-exakat-to-your-ci-pipeline/>`_
@@ -83,7 +82,6 @@ List of external links mentioned in this documentation.
 * `ArrayAccess <https://www.php.net/manual/en/class.arrayaccess.php>`_
 * `Arrays <https://www.php.net/manual/en/book.array.php>`_
 * `Arrays syntax <https://www.php.net/manual/en/language.types.array.php>`_
-* `assert <https://www.php.net/assert>`_
 * `Assignation Operators <https://www.php.net/manual/en/language.operators.assignment.php>`_
 * `Atif Shahab Qureshi <https://twitter.com/Atif__Shahab>`_
 * `Autoloading Classe <https://www.php.net/manual/en/language.oop5.autoload.php>`_
@@ -94,7 +92,6 @@ List of external links mentioned in this documentation.
 * `Backward incompatible changes <https://www.php.net/manual/en/migration71.incompatible.php>`_
 * `Backward incompatible changes PHP 7.0 <https://www.php.net/manual/en/migration70.incompatible.php>`_
 * `basename <http://www.php.net/basename>`_
-* `Basics <https://www.php.net/manual/en/language.variables.basics.php>`_
 * `bazaar <https://bazaar.canonical.com/en/>`_
 * `Benoit Burnichon <https://twitter.com/BenoitBurnichon>`_
 * `Bitwise Operators <https://www.php.net/manual/en/language.operators.bitwise.php>`_
@@ -195,7 +192,6 @@ List of external links mentioned in this documentation.
 * `ext/SeasLog on Github <https://github.com/SeasX/SeasLog>`_
 * `ext/sqlite <https://www.php.net/manual/en/book.sqlite.php>`_
 * `ext/uopz <https://pecl.php.net/package/uopz>`_
-* `ext/varnish <https://www.php.net/manual/en/book.varnish.php>`_
 * `ext/zookeeper <https://www.php.net/zookeeper>`_
 * `Extension Apache <https://www.php.net/manual/en/book.apache.php>`_
 * `Factory (object-oriented programming) <https://en.wikipedia.org/wiki/Factory_(object-oriented_programming)>`_
@@ -203,7 +199,6 @@ List of external links mentioned in this documentation.
 * `FastCGI Process Manager <https://www.php.net/fpm>`_
 * `FDF <http://www.adobe.com/devnet/acrobat/fdftoolkit.html>`_
 * `ffmpeg-php <http://ffmpeg-php.sourceforge.net/>`_
-* `file_get_contents <https://www.php.net/file_get_contents>`_
 * `filesystem <http://www.php.net/manual/en/book.filesystem.php>`_
 * `Final Keyword <https://www.php.net/manual/en/language.oop5.final.php>`_
 * `Firebase / Interbase <https://www.php.net/manual/en/book.ibase.php>`_
@@ -244,8 +239,6 @@ List of external links mentioned in this documentation.
 * `IIS Administration <http://www.php.net/manual/en/book.iisfunc.php>`_
 * `IMAP <http://www.php.net/imap>`_
 * `Implicit incompatible float to int conversions <https://www.php.net/manual/en/migration81.deprecated.php#migration81.deprecated.core.implicit-float-conversion>`_
-* `in_array() <https://www.php.net/in_array>`_
-* `include <https://www.php.net/manual/en/function.include.php>`_
 * `include_once <https://www.php.net/manual/en/function.include-once.php>`_
 * `Installing Exakat to monitor several projects <https://www.exakat.io/installing-exakat-to-monitor-several-projects/>`_
 * `Integer overflow <https://www.php.net/manual/en/language.types.integer.php#language.types.integer.overflow>`_
@@ -257,6 +250,7 @@ List of external links mentioned in this documentation.
 * `Isset Ternary <https://wiki.php.net/rfc/isset_ternary>`_
 * `iterable pseudo-type <https://www.php.net/manual/en/migration71.new-features.php#migration71.new-features.iterable-pseudo-type>`_
 * `Iterables <https://www.php.net/manual/en/language.types.iterable.php>`_
+* `Jordi Boggiano <https://twitter.com/seldaek>`_
 * `Judy C library <http://judy.sourceforge.net/>`_
 * `Kafka client for PHP <https://github.com/arnaud-lb/php-rdkafka>`_
 * `Lapack <https://www.php.net/manual/en/book.lapack.php>`_
@@ -274,7 +268,6 @@ List of external links mentioned in this documentation.
 * `list() Reference Assignment <https://wiki.php.net/rfc/list_reference_assignment>`_
 * `Logical Operators <https://www.php.net/manual/en/language.operators.logical.php>`_
 * `Loosening Reserved Word Restrictions <https://www.php.net/manual/en/migration70.other-changes.php#migration70.other-changes.loosening-reserved-words>`_
-* `lzf <https://www.php.net/lzf>`_
 * `Magic Constants <https://www.php.net/manual/en/language.constants.predefined.php>`_
 * `Magic Method <https://www.php.net/manual/en/language.oop5.magic.php>`_
 * `Magic Methods <https://www.php.net/manual/en/language.oop5.magic.php>`_
@@ -284,7 +277,6 @@ List of external links mentioned in this documentation.
 * `Marco Pivetta tweet <https://twitter.com/Ocramius/status/811504929357660160>`_
 * `Math predefined constants <https://www.php.net/manual/en/math.constants.php>`_
 * `Mathematical Functions <https://www.php.net/manual/en/book.math.php>`_
-* `mb_encoding_detect <https://php.net/mb-encoding-detect>`_
 * `mcrypt_create_iv() <https://www.php.net/manual/en/function.mcrypt-create-iv.php>`_
 * `MD5 <https://www.php.net/md5>`_
 * `Memcache on PHP <http://www.php.net/manual/en/book.memcache.php>`_
@@ -318,7 +310,6 @@ List of external links mentioned in this documentation.
 * `openssl_random_pseudo_byte <https://www.php.net/openssl_random_pseudo_bytes>`_
 * `Operator Precedence <https://www.php.net/manual/en/language.operators.precedence.php>`_
 * `Operators Precedence <https://www.php.net/manual/en/language.operators.precedence.php>`_
-* `Optimization: How I made my PHP code run 100 times faster <https://mike42.me/blog/2018-06-how-i-made-my-php-code-run-100-times-faster>`_
 * `Optimize array_unique() <https://github.com/php/php-src/commit/6c2c7a023da4223e41fea0225c51a417fc8eb10d>`_
 * `Option to make json_encode and json_decode throw exceptions on errors <https://ayesh.me/Upgrade-PHP-7.3#json-exceptions>`_
 * `Oracle OCI8 <https://www.php.net/manual/en/book.oci8.php>`_
@@ -326,7 +317,6 @@ List of external links mentioned in this documentation.
 * `Original MySQL API <http://www.php.net/manual/en/book.mysql.php>`_
 * `Output Buffering Control <https://www.php.net/manual/en/book.outcontrol.php>`_
 * `Overload <https://www.php.net/manual/en/language.oop5.overloading.php#object.get>`_
-* `pack <https://www.php.net/pack>`_
 * `Packagist <https://packagist.org/>`_
 * `parent <https://www.php.net/manual/en/keyword.parent.php>`_
 * `Parentheses around function arguments no longer affect behaviour <https://www.php.net/manual/en/migration70.incompatible.php#migration70.incompatible.variable-handling.parentheses>`_
@@ -429,7 +419,6 @@ List of external links mentioned in this documentation.
 * `substr <http://www.php.net/substr>`_
 * `Suhosin.org <https://suhosin.org/>`_
 * `Supported Protocols and Wrappers <https://www.php.net/manual/en/wrappers.php>`_
-* `SVM <http://www.php.net/svm>`_
 * `Svn <https://subversion.apache.org/>`_
 * `Swoole <https://www.swoole.com/>`_
 * `Syntax <https://www.php.net/manual/en/language.constants.syntax.php>`_
@@ -459,11 +448,8 @@ List of external links mentioned in this documentation.
 * `UPGRADING PHP 8.1 <https://www.php.net/manual/en/migration81.incompatible.php#migration81.incompatible.resource2object>`_
 * `upload artifact <https://github.com/actions/upload-artifact>`_
 * `Use of Hardcoded IPv4 Addresses <https://docs.microsoft.com/en-us/windows/desktop/winsock/use-of-hardcoded-ipv4-addresses-2>`_
-* `Using namespaces: Aliasing/Importing <https://www.php.net/manual/en/language.namespaces.importing.php>`_
-* `Using namespaces: Aliasing/Importing ¶ <https://www.php.net/manual/en/language.namespaces.importing.php>`_
 * `Using namespaces: fallback to global function/constant <https://www.php.net/manual/en/language.namespaces.fallback.php>`_
 * `Using non-breakable spaces in test method names <http://mnapoli.fr/using-non-breakable-spaces-in-test-method-names/>`_
-* `Using single characters for variable names in loops/exceptions <https://softwareengineering.stackexchange.com/questions/71710/using-single-characters-for-variable-names-in-loops-exceptions?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa/>`_
 * `Using static variables <https://www.php.net/manual/en/language.variables.scope.php#language.variables.scope.static>`_
 * `V8 Javascript Engine <https://bugs.chromium.org/p/v8/issues/list>`_
 * `Vagrant file <https://github.com/exakat/exakat-vagrant>`_
@@ -471,7 +457,6 @@ List of external links mentioned in this documentation.
 * `Variable scope <https://www.php.net/manual/en/language.variables.scope.php>`_
 * `Variable Scope <https://www.php.net/manual/en/language.variables.scope.php>`_
 * `Variable variables <https://www.php.net/manual/en/language.variables.variable.php>`_
-* `Variables <https://www.php.net/manual/en/language.variables.basics.php>`_
 * `Visibility <https://www.php.net/manual/en/language.oop5.visibility.php>`_
 * `Vladimir Reznichenko <https://twitter.com/kalessil>`_
 * `Void functions <https://www.php.net/manual/en/migration71.new-features.php#migration71.new-features.void-functions>`_
