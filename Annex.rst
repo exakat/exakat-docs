@@ -66,7 +66,6 @@ List of external links mentioned in this documentation.
 * `About circular references in PHP <https://johann.pardanaud.com/blog/about-circular-references-in-php>`_
 * `Add Exakat To Your CI Pipeline <https://www.exakat.io/add-exakat-to-your-ci-pipeline/>`_
 * `Allow a trailing comma in function calls <https://wiki.php.net/rfc/trailing-comma-function-calls>`_
-* `Alternative PHP Cache <https://www.php.net/apc>`_
 * `Ambassador <https://exakat.readthedocs.io/en/latest/Reports.html#ambassador>`_
 * `Anonymous functions <https://www.php.net/manual/en/functions.anonymous.php>`_
 * `Arithmetic Operators <https://www.php.net/manual/en/language.operators.arithmetic.php>`_
@@ -75,7 +74,6 @@ List of external links mentioned in this documentation.
 * `array_fill_keys <https://www.php.net/array_fill_keys>`_
 * `array_filter <https://php.net/array_filter>`_
 * `array_map <https://www.php.net/array_map>`_
-* `array_merge <https://www.php.net/array_merge>`_
 * `array_search <https://www.php.net/array_search>`_
 * `array_slice <http://www.php.net/array_slice>`_
 * `array_unique <https://www.php.net/array_unique>`_
@@ -91,17 +89,14 @@ List of external links mentioned in this documentation.
 * `Avoid optional services as much as possible <http://bestpractices.thecodingmachine.com/php/design_beautiful_classes_and_methods.html#avoid-optional-services-as-much-as-possible>`_
 * `Backward incompatible changes <https://www.php.net/manual/en/migration71.incompatible.php>`_
 * `Backward incompatible changes PHP 7.0 <https://www.php.net/manual/en/migration70.incompatible.php>`_
-* `basename <http://www.php.net/basename>`_
 * `bazaar <https://bazaar.canonical.com/en/>`_
 * `Benoit Burnichon <https://twitter.com/BenoitBurnichon>`_
 * `Bitwise Operators <https://www.php.net/manual/en/language.operators.bitwise.php>`_
 * `Brandon Savage <https://twitter.com/BrandonSavage>`_
-* `browscap <http://browscap.org/>`_
 * `Bug #50887 preg_match , last optional sub-patterns ignored when empty <https://bugs.php.net/bug.php?id=50887>`_
 * `Cairo Graphics Library <https://cairographics.org/>`_
 * `Callback / callable <https://www.php.net/manual/en/language.types.callable.php>`_
 * `Callbacks / callables <https://www.php.net/manual/en/language.types.callable.php>`_
-* `Cant Use Return Value In Write Context <https://stackoverflow.com/questions/1075534/cant-use-method-return-value-in-write-context>`_
 * `Carbon <https://carbon.nesbot.com/docs/>`_
 * `Carnage <https://twitter.com/giveupalready>`_
 * `cat: write error: Broken pipe <https://askubuntu.com/questions/421663/cat-write-error-broken-pipe>`_
@@ -119,9 +114,7 @@ List of external links mentioned in this documentation.
 * `compact <http://www.php.net/compact>`_
 * `Comparison Operators <https://www.php.net/manual/en/language.operators.comparison.php>`_
 * `composer <https://getcomposer.org/>`_
-* `Constant definition <https://www.php.net/const>`_
 * `Constant Scalar Expressions <https://wiki.php.net/rfc/const_scalar_exprs>`_
-* `constant() <https://www.php.net/constant>`_
 * `Constants <https://www.php.net/manual/en/language.constants.php>`_
 * `Constructors and Destructors <https://www.php.net/manual/en/language.oop5.decon.php>`_
 * `continue-on-error <https://docs.github.com/en/actions/learn-github-actions/workflow-syntax-for-github-actions#jobsjob_idstepscontinue-on-error>`_
@@ -129,7 +122,6 @@ List of external links mentioned in this documentation.
 * `Courier Anti-pattern <https://r.je/oop-courier-anti-pattern.html>`_
 * `crc32() <https://www.php.net/crc32>`_
 * `Cryptography Extensions <https://www.php.net/manual/en/refs.crypto.php>`_
-* `CSPRNG <https://www.php.net/manual/en/book.csprng.php>`_
 * `curl <http://www.php.net/curl>`_
 * `curl_version <https://www.php.net/manual/en/function.curl-version.php>`_
 * `CVS <https://www.nongnu.org/cvs/>`_
@@ -141,7 +133,6 @@ List of external links mentioned in this documentation.
 * `Dead Code: Unused Method <https://vulncat.fortify.com/en/detail?id=desc.structural.java.dead_code_unused_method>`_
 * `declare <https://www.php.net/manual/en/control-structures.declare.php>`_
 * `Declare <https://www.php.net/manual/en/control-structures.declare.php>`_
-* `define <https://www.php.net/define>`_
 * `define <https://www.php.net/manual/en/function.define.php>`_
 * `Dependency Injection Smells <http://seregazhuk.github.io/2017/05/04/di-smells/>`_
 * `Deprecate and remove INTL_IDNA_VARIANT_2003 <https://wiki.php.net/rfc/deprecate-and-remove-intl_idna_variant_2003>`_
@@ -155,7 +146,6 @@ List of external links mentioned in this documentation.
 * `Dir predefined constants <https://www.php.net/manual/en/dir.constants.php>`_
 * `directive error_reporting <https://www.php.net/manual/en/errorfunc.configuration.php#ini.error-reporting>`_
 * `dl <http://www.php.net/dl>`_
-* `Do your objects talk to strangers? <https://www.brandonsavage.net/do-your-objects-talk-to-strangers/>`_
 * `Docker <http://www.docker.com/>`_
 * `Docker image <https://hub.docker.com/r/exakat/exakat/>`_
 * `Don't pass this out of a constructor <http://www.javapractices.com/topic/TopicAction.do?Id=252>`_
@@ -298,7 +288,6 @@ List of external links mentioned in this documentation.
 * `Newt <http://people.redhat.com/rjones/ocaml-newt/html/Newt.html>`_
 * `No Dangling Reference <https://github.com/dseguy/clearPHP/blob/master/rules/no-dangling-reference.md>`_
 * `Nowdoc <https://www.php.net/manual/en/language.types.string.php#language.types.string.syntax.nowdoc>`_
-* `Null and True <https://twitter.com/Chemaclass/status/1144588647464951808>`_
 * `Null Coalescing Operator <https://www.php.net/manual/en/language.operators.comparison.php#language.operators.comparison.coalesce>`_
 * `Null Object Pattern <https://en.wikipedia.org/wiki/Null_Object_pattern#PHP>`_
 * `Object Calisthenics, rule # 5 <http://williamdurand.fr/2013/06/03/object-calisthenics/#one-dot-per-line>`_
@@ -327,7 +316,6 @@ List of external links mentioned in this documentation.
 * `Password Hashing <https://www.php.net/manual/en/book.password.php>`_
 * `Password hashing <https://www.php.net/manual/en/book.password.php>`_
 * `Pattern Modifiers <https://www.php.net/manual/en/reference.pcre.pattern.modifiers.php>`_
-* `PCOV <https://github.com/krakjoe/pcov>`_
 * `PCRE <https://www.php.net/pcre>`_
 * `PEAR <http://pear.php.net/>`_
 * `pecl crypto <https://pecl.php.net/package/crypto>`_
@@ -352,7 +340,6 @@ List of external links mentioned in this documentation.
 * `PHP RFC: First-class callable syntax <https://wiki.php.net/rfc/first_class_callable_syntax>`_
 * `PHP RFC: noreturn type <https://wiki.php.net/rfc/noreturn_type>`_
 * `PHP RFC: Syntax for variadic functions <https://wiki.php.net/rfc/variadics>`_
-* `PHP RFC: Unicode Codepoint Escape Syntax <https://wiki.php.net/rfc/unicode_escape>`_
 * `PHP Tags <https://www.php.net/manual/en/language.basic-syntax.phptags.php>`_
 * `PHP why pi() and M_PI <https://stackoverflow.com/questions/42021176/php-why-pi-and-m-pi>`_
 * `php-ext-wasm <https://github.com/Hywan/php-ext-wasm>`_
@@ -363,7 +350,6 @@ List of external links mentioned in this documentation.
 * `phpstorm-stubs/meta/attributes/Immutable.php <https://github.com/JetBrains/phpstorm-stubs/blob/master/meta/attributes/Immutable.php>`_
 * `plantuml <http://plantuml.com/>`_
 * `PMB <https://www.sigb.net/>`_
-* `Predefined Constants <https://www.php.net/manual/en/reserved.constants.php>`_
 * `Predefined Variables <https://www.php.net/manual/en/reserved.variables.php>`_
 * `preg_filter <https://php.net/preg_filter>`_
 * `Prepare for PHP 7 error messages (part 3) <https://www.exakat.io/prepare-for-php-7-error-messages-part-3/>`_
@@ -421,7 +407,6 @@ List of external links mentioned in this documentation.
 * `Supported Protocols and Wrappers <https://www.php.net/manual/en/wrappers.php>`_
 * `Svn <https://subversion.apache.org/>`_
 * `Swoole <https://www.swoole.com/>`_
-* `Syntax <https://www.php.net/manual/en/language.constants.syntax.php>`_
 * `Ternary Operator <https://www.php.net/manual/en/language.operators.comparison.php#language.operators.comparison.ternary>`_
 * `tetraweb/php <https://hub.docker.com/r/tetraweb/php/>`_
 * `Text <https://exakat.readthedocs.io/en/latest/Reports.html#text>`_

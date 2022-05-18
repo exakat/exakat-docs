@@ -50,9 +50,23 @@ Here is the release note of exakat.
     + New analysis : 'Report implicit float to int conversions' 
     + Refactored analysis : 'Is always false' is extended to typed properties
     + New analysis : 'Report inegalities with different types' 
+    + New analysis : Report traits used once
+    + Refactored analysis : 'Is Not Implements' now supports PDFF; support for trait added.
+    + Refactored analysis : 'Wrong name with paramter' : added support for PDFF
+    + Fixed analysis : 'Overwritten Methods' skipped some interfaces
+    + Refactored analysis : 'Fossilized methods' was counting methods that are defined with Virtualmethod
+    + Refactored analysis : 'Fix bug' when missing fqn in New for Classes/WrongTypedPropertyInit
+    + New analysis : Report unknown locales. 
+    + New analysis : ext/pkcs11
+    + New analysis : ext/spx
+    + Checked unit tests : 4314 / 4317 test pass (99% pass)
+    + Refactored analysis : 'Basename suffix' detection extended
 
 + Tokenizer
-    + Fixed but with float and power
+    + Fixed bug with float and power
+    + Fixed bug in global variable creation
+    + Create all possible links to static keyword
+    + Speed up creation of links to $GLOBALS
 
 **Version 2.4.1 (Yuan Tiangang, 2022-05-04)**
 

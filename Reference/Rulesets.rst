@@ -6,7 +6,7 @@ Rulesets
 Introduction
 ------------------------
 
-Exakat provides unique 1480 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
+Exakat provides unique 1485 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
 
 For more smoothly usage, the ruleset concept allow you to run a set of rules based on a decidated focus. Beawre that a Ruleset run all the associated rules and any needed dependencies.
 
@@ -101,6 +101,14 @@ Here is the list of the current rulesets supported by Exakat Engine.
 +-----------------------------------------------+------------------------------------------------------------------------------------------------------+
 | :ref:`ruleset-php-recommendations`            |Report recommendations from the PHP manual.                                                           |
 +-----------------------------------------------+------------------------------------------------------------------------------------------------------+
+| :ref:`ruleset-isext`                          |Ruleset with analysis which rely on PHP's optional extensions                                         |
++-----------------------------------------------+------------------------------------------------------------------------------------------------------+
+| :ref:`ruleset-isphp`                          |Ruleset with analysis which rely on PHP's core extensions                                             |
++-----------------------------------------------+------------------------------------------------------------------------------------------------------+
+| :ref:`ruleset-isstub`                         |Ruleset with analysis which rely on custom stubs                                                      |
++-----------------------------------------------+------------------------------------------------------------------------------------------------------+
+| :ref:`ruleset-nodoc`                          |Ruleset with analysis which are not published in the docs.                                            |
++-----------------------------------------------+------------------------------------------------------------------------------------------------------+
 
 Note : in command line, don't forget to add quotes to rulesets' names that include white space.
 
@@ -114,7 +122,7 @@ Analyze
 
 This ruleset centralizes a large number of classic trap and pitfalls when writing PHP.
 
-Total : 446 analysis
+Total : 447 analysis
 
 * :ref:`adding-zero`
 * :ref:`ambiguous-array-index`
@@ -562,6 +570,7 @@ Total : 446 analysis
 * :ref:`throw-raw-exceptions`
 * :ref:`implicit-conversion-to-int`
 * :ref:`use-same-types-for-comparisons`
+* :ref:`wrong-locale`
 
 
 
@@ -583,7 +592,7 @@ Appinfo
 
 A set of rules that describes with PHP features is used in the code.
 
-Total : 387 analysis
+Total : 389 analysis
 
 * :ref:`array-index`
 * :ref:`multidimensional-arrays`
@@ -972,6 +981,8 @@ Total : 387 analysis
 * :ref:`sylius-usage`
 * :ref:`extensions-yar`
 * :ref:`excimer`
+* :ref:`ext-pkcs11`
+* :ref:`ext-spx`
 
 
 
@@ -1018,7 +1029,7 @@ CE
 
 This ruleset is the Community Edition list. It holds all the analysis that are in the community edition version of Exakat.
 
-Total : 652 analysis
+Total : 654 analysis
 
 * :ref:`adding-zero`
 * :ref:`array-index`
@@ -1672,6 +1683,8 @@ Total : 652 analysis
 * :ref:`extensions-yar`
 * :ref:`collect-stub-structures`
 * :ref:`excimer`
+* :ref:`ext-pkcs11`
+* :ref:`ext-spx`
 
 
 
@@ -1890,7 +1903,7 @@ ClassReview
 
 This ruleset focuses on classes construction issues, and their related structures : traits, interfaces, methods, properties, constants.
 
-Total : 67 analysis
+Total : 68 analysis
 
 * :ref:`final-class-usage`
 * :ref:`final-methods-usage`
@@ -1959,6 +1972,7 @@ Total : 67 analysis
 * :ref:`cant-overwrite-final-constant`
 * :ref:`no-constructor-in-interface`
 * :ref:`lowered-access-level`
+* :ref:`used-once-trait`
 
 
 
@@ -3421,7 +3435,7 @@ Semantics
 
 This ruleset focuses on human interpretation of the code. It reviews special values of literals, and named structures.
 
-Total : 17 analysis
+Total : 18 analysis
 
 * :ref:`constants-with-strange-names`
 * :ref:`variables-with-one-letter-names`
@@ -3440,6 +3454,7 @@ Total : 17 analysis
 * :ref:`fn-argument-variable-confusion`
 * :ref:`prefix-and-suffixes-with-typehint`
 * :ref:`mismatch-parameter-and-type`
+* :ref:`wrong-locale`
 
 
 
@@ -3640,7 +3655,7 @@ Specs
 Typechecks
 ++++++++++
 
-This ruleset focuses on typehinting. Missing typehint, or inconsistent typehint, are reported. 
+This ruleset focuses on typehinting. Missing typehints, or inconsistent typehint, are reported. 
 
 Total : 26 analysis
 
@@ -3689,7 +3704,7 @@ All
 
 All is a dummy ruleset, which includes all the rules. It is mostly used internally.
 
-Total : 1478 analysis
+Total : 1483 analysis
 
 * :ref:`adding-zero`
 * :ref:`ambiguous-array-index`
@@ -5169,6 +5184,11 @@ Total : 1478 analysis
 * :ref:`implicit-conversion-to-int`
 * :ref:`excimer`
 * :ref:`use-same-types-for-comparisons`
+* :ref:`used-once-trait`
+* :ref:`make-all-statics`
+* :ref:`wrong-locale`
+* :ref:`ext-pkcs11`
+* :ref:`ext-spx`
 
 
 
@@ -5273,6 +5293,174 @@ Specs
 +--------------+---------------------+
 | Available in |                     |
 +--------------+---------------------+
+
+
+.. _ruleset-isext:
+
+IsExt
++++++
+
+This is automatically filled, based on the documentation's isExt attribute.
+
+Total : 16 analysis
+
+* :ref:`undefined-constants`
+* :ref:`defined-class-constants`
+* :ref:`undefined-class-constants`
+* :ref:`wrong-number-of-arguments`
+* :ref:`unusual-case-for-php-functions`
+* :ref:`is-interface-method`
+* :ref:`already-parents-interface`
+* :ref:`can't-extend-final`
+* :ref:`raised-access-level`
+* :ref:`interfaces-is-not-implemented`
+* :ref:`make-functioncall-with-reference`
+* :ref:`wrong-argument-name-with-php-function`
+* :ref:`undefined-enumcase`
+* :ref:`cant-overwrite-final-constant`
+* :ref:`lowered-access-level`
+* :ref:`cant-overwrite-final-method`
+
+
+
+Specs
+^^^^^
++--------------+-------+
+| Short name   | IsExt |
++--------------+-------+
+| Available in |       |
++--------------+-------+
+
+
+.. _ruleset-isphp:
+
+IsPHP
++++++
+
+This is automatically filled, based on the documentation's isPHP attribute.
+
+Total : 16 analysis
+
+* :ref:`undefined-constants`
+* :ref:`defined-class-constants`
+* :ref:`undefined-class-constants`
+* :ref:`wrong-number-of-arguments`
+* :ref:`unusual-case-for-php-functions`
+* :ref:`is-interface-method`
+* :ref:`already-parents-interface`
+* :ref:`can't-extend-final`
+* :ref:`raised-access-level`
+* :ref:`interfaces-is-not-implemented`
+* :ref:`make-functioncall-with-reference`
+* :ref:`wrong-argument-name-with-php-function`
+* :ref:`undefined-enumcase`
+* :ref:`cant-overwrite-final-constant`
+* :ref:`lowered-access-level`
+* :ref:`cant-overwrite-final-method`
+
+
+
+Specs
+^^^^^
++--------------+-------+
+| Short name   | IsPHP |
++--------------+-------+
+| Available in |       |
++--------------+-------+
+
+
+.. _ruleset-isstub:
+
+IsStub
+++++++
+
+This is automatically filled, based on the documentation's isStub attribute.
+
+Total : 15 analysis
+
+* :ref:`undefined-constants`
+* :ref:`defined-class-constants`
+* :ref:`undefined-class-constants`
+* :ref:`wrong-number-of-arguments`
+* :ref:`is-interface-method`
+* :ref:`already-parents-interface`
+* :ref:`can't-extend-final`
+* :ref:`raised-access-level`
+* :ref:`interfaces-is-not-implemented`
+* :ref:`make-functioncall-with-reference`
+* :ref:`wrong-argument-name-with-php-function`
+* :ref:`undefined-enumcase`
+* :ref:`cant-overwrite-final-constant`
+* :ref:`lowered-access-level`
+* :ref:`cant-overwrite-final-method`
+
+
+
+Specs
+^^^^^
++--------------+--------+
+| Short name   | IsStub |
++--------------+--------+
+| Available in |        |
++--------------+--------+
+
+
+.. _ruleset-nodoc:
+
+NoDoc
++++++
+
+Ruleset with analysis which are not published in the docs.
+
+Total : 37 analysis
+
+* :ref:`php-native-reference-variable`
+* :ref:`create-compact-variables`
+* :ref:`propagate-constants`
+* :ref:`overwritten-properties`
+* :ref:`overwritten-methods`
+* :ref:`overwritten-constant`
+* :ref:`set-clone-link`
+* :ref:`create-magic-property`
+* :ref:`set-parent-definition`
+* :ref:`make-class-method-definition`
+* :ref:`create-default-values`
+* :ref:`set-class\_alias-definition`
+* :ref:`make-class-constant-definition`
+* :ref:`set-class-remote-definition-with-injection`
+* :ref:`solve-trait-methods`
+* :ref:`follow-closure-definition`
+* :ref:`set-class-remote-definition-with-return-typehint`
+* :ref:`set-class-remote-definition-with-local-new`
+* :ref:`set-class-remote-definition-with-typehint`
+* :ref:`set-class-remote-definition-with-global`
+* :ref:`set-class-remote-definition-with-parenthesis`
+* :ref:`set-class-property-definition-with-typehint`
+* :ref:`seta-rray-class-definition`
+* :ref:`set-string-method-definition`
+* :ref:`set-class-method-remote-definition`
+* :ref:`make-functioncall-with-reference`
+* :ref:`propagate-calls`
+* :ref:`create-foreach-default`
+* :ref:`extended-typehints`
+* :ref:`php-ext-stub-property-and-method`
+* :ref:`variable-typehint`
+* :ref:`is-stub-structure`
+* :ref:`is-php-structure`
+* :ref:`is-extension-structure`
+* :ref:`add-return-typehint`
+* :ref:`create-magic-method`
+* :ref:`make-all-statics`
+
+
+
+Specs
+^^^^^
++--------------+-------+
+| Short name   | NoDoc |
++--------------+-------+
+| Available in |       |
++--------------+-------+
 
 
 

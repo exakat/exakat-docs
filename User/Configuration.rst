@@ -693,6 +693,17 @@ prefixedType['uuid'] = '\Uuid';
   + skipInteger : 1,-0,-1
 
     + List of omitted integer values. By default, 0, 1 and -1.
+:ref:`Used Once Trait <used-once-trait>`
+  + timeUsed : 2
+
+    + Maximal number of trait usage, before the trait is considered enough used.
+:ref:`Wrong Locale <wrong-locale>`
+  + otherLocales : 
+
+    + Other accepted locales, comma separated
+  + maxPositions : 3
+
+    + Number of argument in setLocale() to be tried.
 
 
     

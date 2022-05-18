@@ -108,7 +108,7 @@ With that configuration, the Drillinstructor and the Owasp report are created au
 Predefined config files
 ------------------------
 
-37 rulesets detailled here : 
+41 rulesets detailled here : 
 
 .. _annex-analyze:
 
@@ -542,6 +542,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/UselessUnset";
    analyzer[] = "Structures/VardumpUsage";
    analyzer[] = "Structures/WhileListEach";
+   analyzer[] = "Structures/WrongLocale";
    analyzer[] = "Structures/WrongRange";
    analyzer[] = "Structures/pregOptionE";
    analyzer[] = "Structures/toStringThrowsException";
@@ -1001,6 +1002,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/UselessUnset'
      - 'Structures/VardumpUsage'
      - 'Structures/WhileListEach'
+     - 'Structures/WrongLocale'
      - 'Structures/WrongRange'
      - 'Structures/pregOptionE'
      - 'Structures/toStringThrowsException'
@@ -1206,6 +1208,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Extensions/Extpgsql";
    analyzer[] = "Extensions/Extphalcon";
    analyzer[] = "Extensions/Extphar";
+   analyzer[] = "Extensions/Extpkcs11";
    analyzer[] = "Extensions/Extposix";
    analyzer[] = "Extensions/Extproctitle";
    analyzer[] = "Extensions/Extprotobuf";
@@ -1229,6 +1232,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Extensions/Extsockets";
    analyzer[] = "Extensions/Extsphinx";
    analyzer[] = "Extensions/Extspl";
+   analyzer[] = "Extensions/Extspx";
    analyzer[] = "Extensions/Extsqlite";
    analyzer[] = "Extensions/Extsqlite3";
    analyzer[] = "Extensions/Extsqlsrv";
@@ -1606,6 +1610,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Extensions/Extpgsql'
      - 'Extensions/Extphalcon'
      - 'Extensions/Extphar'
+     - 'Extensions/Extpkcs11'
      - 'Extensions/Extposix'
      - 'Extensions/Extproctitle'
      - 'Extensions/Extprotobuf'
@@ -1629,6 +1634,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Extensions/Extsockets'
      - 'Extensions/Extsphinx'
      - 'Extensions/Extspl'
+     - 'Extensions/Extspx'
      - 'Extensions/Extsqlite'
      - 'Extensions/Extsqlite3'
      - 'Extensions/Extsqlsrv'
@@ -2132,6 +2138,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Extensions/Extpgsql";
    analyzer[] = "Extensions/Extphalcon";
    analyzer[] = "Extensions/Extphar";
+   analyzer[] = "Extensions/Extpkcs11";
    analyzer[] = "Extensions/Extposix";
    analyzer[] = "Extensions/Extproctitle";
    analyzer[] = "Extensions/Extprotobuf";
@@ -2155,6 +2162,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Extensions/Extsockets";
    analyzer[] = "Extensions/Extsphinx";
    analyzer[] = "Extensions/Extspl";
+   analyzer[] = "Extensions/Extspx";
    analyzer[] = "Extensions/Extsqlite";
    analyzer[] = "Extensions/Extsqlite3";
    analyzer[] = "Extensions/Extsqlsrv";
@@ -2797,6 +2805,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Extensions/Extpgsql'
      - 'Extensions/Extphalcon'
      - 'Extensions/Extphar'
+     - 'Extensions/Extpkcs11'
      - 'Extensions/Extposix'
      - 'Extensions/Extproctitle'
      - 'Extensions/Extprotobuf'
@@ -2820,6 +2829,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Extensions/Extsockets'
      - 'Extensions/Extsphinx'
      - 'Extensions/Extspl'
+     - 'Extensions/Extspx'
      - 'Extensions/Extsqlite'
      - 'Extensions/Extsqlite3'
      - 'Extensions/Extsqlsrv'
@@ -3691,6 +3701,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/DoubleObjectAssignation";
    analyzer[] = "Traits/SelfUsingTrait";
    analyzer[] = "Traits/UnusedClassTrait";
+   analyzer[] = "Traits/UsedOnceTrait";
    analyzer[] = "Variables/NoStaticVarInMethod";
 
 
@@ -3771,6 +3782,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/DoubleObjectAssignation'
      - 'Traits/SelfUsingTrait'
      - 'Traits/UnusedClassTrait'
+     - 'Traits/UsedOnceTrait'
      - 'Variables/NoStaticVarInMethod'
 
 
@@ -6320,6 +6332,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Php/ClassFunctionConfusion";
    analyzer[] = "Php/ReservedNames";
    analyzer[] = "Structures/PropertyVariableConfusion";
+   analyzer[] = "Structures/WrongLocale";
    analyzer[] = "Type/DuplicateLiteral";
    analyzer[] = "Type/SimilarIntegers";
    analyzer[] = "Variables/StrangeName";
@@ -6350,6 +6363,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Php/ClassFunctionConfusion'
      - 'Php/ReservedNames'
      - 'Structures/PropertyVariableConfusion'
+     - 'Structures/WrongLocale'
      - 'Type/DuplicateLiteral'
      - 'Type/SimilarIntegers'
      - 'Variables/StrangeName'
@@ -7046,6 +7060,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Complete/IsExtStructure";
    analyzer[] = "Complete/IsPhpStructure";
    analyzer[] = "Complete/IsStubStructure";
+   analyzer[] = "Complete/MakeAllStatics";
    analyzer[] = "Complete/MakeClassConstantDefinition";
    analyzer[] = "Complete/MakeClassMethodDefinition";
    analyzer[] = "Complete/MakeFunctioncallWithReference";
@@ -7279,6 +7294,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Extensions/Extpgsql";
    analyzer[] = "Extensions/Extphalcon";
    analyzer[] = "Extensions/Extphar";
+   analyzer[] = "Extensions/Extpkcs11";
    analyzer[] = "Extensions/Extposix";
    analyzer[] = "Extensions/Extproctitle";
    analyzer[] = "Extensions/Extprotobuf";
@@ -7302,6 +7318,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Extensions/Extsockets";
    analyzer[] = "Extensions/Extsphinx";
    analyzer[] = "Extensions/Extspl";
+   analyzer[] = "Extensions/Extspx";
    analyzer[] = "Extensions/Extsqlite";
    analyzer[] = "Extensions/Extsqlite3";
    analyzer[] = "Extensions/Extsqlsrv";
@@ -8145,6 +8162,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/VariableGlobal";
    analyzer[] = "Structures/VariableMayBeNonGlobal";
    analyzer[] = "Structures/WhileListEach";
+   analyzer[] = "Structures/WrongLocale";
    analyzer[] = "Structures/WrongRange";
    analyzer[] = "Structures/YodaComparison";
    analyzer[] = "Structures/pregOptionE";
@@ -8168,6 +8186,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Traits/UndefinedTrait";
    analyzer[] = "Traits/UnusedClassTrait";
    analyzer[] = "Traits/UnusedTrait";
+   analyzer[] = "Traits/UsedOnceTrait";
    analyzer[] = "Traits/UsedTrait";
    analyzer[] = "Traits/UselessAlias";
    analyzer[] = "Type/ArrayIndex";
@@ -8539,6 +8558,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Complete/IsExtStructure'
      - 'Complete/IsPhpStructure'
      - 'Complete/IsStubStructure'
+     - 'Complete/MakeAllStatics'
      - 'Complete/MakeClassConstantDefinition'
      - 'Complete/MakeClassMethodDefinition'
      - 'Complete/MakeFunctioncallWithReference'
@@ -8772,6 +8792,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Extensions/Extpgsql'
      - 'Extensions/Extphalcon'
      - 'Extensions/Extphar'
+     - 'Extensions/Extpkcs11'
      - 'Extensions/Extposix'
      - 'Extensions/Extproctitle'
      - 'Extensions/Extprotobuf'
@@ -8795,6 +8816,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Extensions/Extsockets'
      - 'Extensions/Extsphinx'
      - 'Extensions/Extspl'
+     - 'Extensions/Extspx'
      - 'Extensions/Extsqlite'
      - 'Extensions/Extsqlite3'
      - 'Extensions/Extsqlsrv'
@@ -9638,6 +9660,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/VariableGlobal'
      - 'Structures/VariableMayBeNonGlobal'
      - 'Structures/WhileListEach'
+     - 'Structures/WrongLocale'
      - 'Structures/WrongRange'
      - 'Structures/YodaComparison'
      - 'Structures/pregOptionE'
@@ -9661,6 +9684,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Traits/UndefinedTrait'
      - 'Traits/UnusedClassTrait'
      - 'Traits/UnusedTrait'
+     - 'Traits/UsedOnceTrait'
      - 'Traits/UsedTrait'
      - 'Traits/UselessAlias'
      - 'Type/ArrayIndex'
@@ -9925,6 +9949,306 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/UseConstant'
      - 'Structures/UselessCasting'
      - 'Type/NoRealComparison'
+
+
+
+
+.. _annex-isext:
+
+IsExt
+#####
+
+
+.. _annex-ini-isext:
+
+IsExt for INI
++++++++++++++
+
+
+INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and edit them to your owns.
+::
+
+ [IsExt]
+   analyzer[] = "Classes/CantExtendFinal";
+   analyzer[] = "Classes/CantOverwriteFinalConstant";
+   analyzer[] = "Classes/CantOverwriteFinalMethod";
+   analyzer[] = "Classes/DefinedConstants";
+   analyzer[] = "Classes/IsInterfaceMethod";
+   analyzer[] = "Classes/LoweredAccessLevel";
+   analyzer[] = "Classes/RaisedAccessLevel";
+   analyzer[] = "Classes/UndefinedConstants";
+   analyzer[] = "Complete/MakeFunctioncallWithReference";
+   analyzer[] = "Constants/UndefinedConstants";
+   analyzer[] = "Enums/UndefinedEnumcase";
+   analyzer[] = "Functions/WrongArgumentNameWithPhpFunction";
+   analyzer[] = "Functions/WrongNumberOfArguments";
+   analyzer[] = "Interfaces/AlreadyParentsInterface";
+   analyzer[] = "Interfaces/IsNotImplemented";
+   analyzer[] = "Php/UpperCaseFunction";
+
+
+.. _annex-yaml-isext:
+
+IsExt for .exakat.yaml
+++++++++++++++++++++++
+
+
+YAML configuration for built-in rulesets. Copy them in your code, with the name .exakat.yaml, and edit them to your owns.
+::
+
+  rulesets:
+    'IsExt':
+     - 'Classes/CantExtendFinal'
+     - 'Classes/CantOverwriteFinalConstant'
+     - 'Classes/CantOverwriteFinalMethod'
+     - 'Classes/DefinedConstants'
+     - 'Classes/IsInterfaceMethod'
+     - 'Classes/LoweredAccessLevel'
+     - 'Classes/RaisedAccessLevel'
+     - 'Classes/UndefinedConstants'
+     - 'Complete/MakeFunctioncallWithReference'
+     - 'Constants/UndefinedConstants'
+     - 'Enums/UndefinedEnumcase'
+     - 'Functions/WrongArgumentNameWithPhpFunction'
+     - 'Functions/WrongNumberOfArguments'
+     - 'Interfaces/AlreadyParentsInterface'
+     - 'Interfaces/IsNotImplemented'
+     - 'Php/UpperCaseFunction'
+
+
+
+
+.. _annex-isphp:
+
+IsPHP
+#####
+
+
+.. _annex-ini-isphp:
+
+IsPHP for INI
++++++++++++++
+
+
+INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and edit them to your owns.
+::
+
+ [IsPHP]
+   analyzer[] = "Classes/CantExtendFinal";
+   analyzer[] = "Classes/CantOverwriteFinalConstant";
+   analyzer[] = "Classes/CantOverwriteFinalMethod";
+   analyzer[] = "Classes/DefinedConstants";
+   analyzer[] = "Classes/IsInterfaceMethod";
+   analyzer[] = "Classes/LoweredAccessLevel";
+   analyzer[] = "Classes/RaisedAccessLevel";
+   analyzer[] = "Classes/UndefinedConstants";
+   analyzer[] = "Complete/MakeFunctioncallWithReference";
+   analyzer[] = "Constants/UndefinedConstants";
+   analyzer[] = "Enums/UndefinedEnumcase";
+   analyzer[] = "Functions/WrongArgumentNameWithPhpFunction";
+   analyzer[] = "Functions/WrongNumberOfArguments";
+   analyzer[] = "Interfaces/AlreadyParentsInterface";
+   analyzer[] = "Interfaces/IsNotImplemented";
+   analyzer[] = "Php/UpperCaseFunction";
+
+
+.. _annex-yaml-isphp:
+
+IsPHP for .exakat.yaml
+++++++++++++++++++++++
+
+
+YAML configuration for built-in rulesets. Copy them in your code, with the name .exakat.yaml, and edit them to your owns.
+::
+
+  rulesets:
+    'IsPHP':
+     - 'Classes/CantExtendFinal'
+     - 'Classes/CantOverwriteFinalConstant'
+     - 'Classes/CantOverwriteFinalMethod'
+     - 'Classes/DefinedConstants'
+     - 'Classes/IsInterfaceMethod'
+     - 'Classes/LoweredAccessLevel'
+     - 'Classes/RaisedAccessLevel'
+     - 'Classes/UndefinedConstants'
+     - 'Complete/MakeFunctioncallWithReference'
+     - 'Constants/UndefinedConstants'
+     - 'Enums/UndefinedEnumcase'
+     - 'Functions/WrongArgumentNameWithPhpFunction'
+     - 'Functions/WrongNumberOfArguments'
+     - 'Interfaces/AlreadyParentsInterface'
+     - 'Interfaces/IsNotImplemented'
+     - 'Php/UpperCaseFunction'
+
+
+
+
+.. _annex-isstub:
+
+IsStub
+######
+
+
+.. _annex-ini-isstub:
+
+IsStub for INI
+++++++++++++++
+
+
+INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and edit them to your owns.
+::
+
+ [IsStub]
+   analyzer[] = "Classes/CantExtendFinal";
+   analyzer[] = "Classes/CantOverwriteFinalConstant";
+   analyzer[] = "Classes/CantOverwriteFinalMethod";
+   analyzer[] = "Classes/DefinedConstants";
+   analyzer[] = "Classes/IsInterfaceMethod";
+   analyzer[] = "Classes/LoweredAccessLevel";
+   analyzer[] = "Classes/RaisedAccessLevel";
+   analyzer[] = "Classes/UndefinedConstants";
+   analyzer[] = "Complete/MakeFunctioncallWithReference";
+   analyzer[] = "Constants/UndefinedConstants";
+   analyzer[] = "Enums/UndefinedEnumcase";
+   analyzer[] = "Functions/WrongArgumentNameWithPhpFunction";
+   analyzer[] = "Functions/WrongNumberOfArguments";
+   analyzer[] = "Interfaces/AlreadyParentsInterface";
+   analyzer[] = "Interfaces/IsNotImplemented";
+
+
+.. _annex-yaml-isstub:
+
+IsStub for .exakat.yaml
++++++++++++++++++++++++
+
+
+YAML configuration for built-in rulesets. Copy them in your code, with the name .exakat.yaml, and edit them to your owns.
+::
+
+  rulesets:
+    'IsStub':
+     - 'Classes/CantExtendFinal'
+     - 'Classes/CantOverwriteFinalConstant'
+     - 'Classes/CantOverwriteFinalMethod'
+     - 'Classes/DefinedConstants'
+     - 'Classes/IsInterfaceMethod'
+     - 'Classes/LoweredAccessLevel'
+     - 'Classes/RaisedAccessLevel'
+     - 'Classes/UndefinedConstants'
+     - 'Complete/MakeFunctioncallWithReference'
+     - 'Constants/UndefinedConstants'
+     - 'Enums/UndefinedEnumcase'
+     - 'Functions/WrongArgumentNameWithPhpFunction'
+     - 'Functions/WrongNumberOfArguments'
+     - 'Interfaces/AlreadyParentsInterface'
+     - 'Interfaces/IsNotImplemented'
+
+
+
+
+.. _annex-nodoc:
+
+NoDoc
+#####
+
+
+.. _annex-ini-nodoc:
+
+NoDoc for INI
++++++++++++++
+
+
+INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and edit them to your owns.
+::
+
+ [NoDoc]
+   analyzer[] = "Complete/CreateCompactVariables";
+   analyzer[] = "Complete/CreateDefaultValues";
+   analyzer[] = "Complete/CreateForeachDefault";
+   analyzer[] = "Complete/CreateMagicMethod";
+   analyzer[] = "Complete/CreateMagicProperty";
+   analyzer[] = "Complete/ExtendedTypehints";
+   analyzer[] = "Complete/FollowClosureDefinition";
+   analyzer[] = "Complete/IsExtStructure";
+   analyzer[] = "Complete/IsPhpStructure";
+   analyzer[] = "Complete/IsStubStructure";
+   analyzer[] = "Complete/MakeAllStatics";
+   analyzer[] = "Complete/MakeClassConstantDefinition";
+   analyzer[] = "Complete/MakeClassMethodDefinition";
+   analyzer[] = "Complete/MakeFunctioncallWithReference";
+   analyzer[] = "Complete/OverwrittenConstants";
+   analyzer[] = "Complete/OverwrittenMethods";
+   analyzer[] = "Complete/OverwrittenProperties";
+   analyzer[] = "Complete/PhpExtStubPropertyMethod";
+   analyzer[] = "Complete/PhpNativeReference";
+   analyzer[] = "Complete/PropagateCalls";
+   analyzer[] = "Complete/PropagateConstants";
+   analyzer[] = "Complete/ReturnTypehint";
+   analyzer[] = "Complete/SetArrayClassDefinition";
+   analyzer[] = "Complete/SetClassAliasDefinition";
+   analyzer[] = "Complete/SetClassMethodRemoteDefinition";
+   analyzer[] = "Complete/SetClassPropertyDefinitionWithTypehint";
+   analyzer[] = "Complete/SetClassRemoteDefinitionWithGlobal";
+   analyzer[] = "Complete/SetClassRemoteDefinitionWithInjection";
+   analyzer[] = "Complete/SetClassRemoteDefinitionWithLocalNew";
+   analyzer[] = "Complete/SetClassRemoteDefinitionWithParenthesis";
+   analyzer[] = "Complete/SetClassRemoteDefinitionWithReturnTypehint";
+   analyzer[] = "Complete/SetClassRemoteDefinitionWithTypehint";
+   analyzer[] = "Complete/SetCloneLink";
+   analyzer[] = "Complete/SetParentDefinition";
+   analyzer[] = "Complete/SetStringMethodDefinition";
+   analyzer[] = "Complete/SolveTraitMethods";
+   analyzer[] = "Complete/VariableTypehint";
+
+
+.. _annex-yaml-nodoc:
+
+NoDoc for .exakat.yaml
+++++++++++++++++++++++
+
+
+YAML configuration for built-in rulesets. Copy them in your code, with the name .exakat.yaml, and edit them to your owns.
+::
+
+  rulesets:
+    'NoDoc':
+     - 'Complete/CreateCompactVariables'
+     - 'Complete/CreateDefaultValues'
+     - 'Complete/CreateForeachDefault'
+     - 'Complete/CreateMagicMethod'
+     - 'Complete/CreateMagicProperty'
+     - 'Complete/ExtendedTypehints'
+     - 'Complete/FollowClosureDefinition'
+     - 'Complete/IsExtStructure'
+     - 'Complete/IsPhpStructure'
+     - 'Complete/IsStubStructure'
+     - 'Complete/MakeAllStatics'
+     - 'Complete/MakeClassConstantDefinition'
+     - 'Complete/MakeClassMethodDefinition'
+     - 'Complete/MakeFunctioncallWithReference'
+     - 'Complete/OverwrittenConstants'
+     - 'Complete/OverwrittenMethods'
+     - 'Complete/OverwrittenProperties'
+     - 'Complete/PhpExtStubPropertyMethod'
+     - 'Complete/PhpNativeReference'
+     - 'Complete/PropagateCalls'
+     - 'Complete/PropagateConstants'
+     - 'Complete/ReturnTypehint'
+     - 'Complete/SetArrayClassDefinition'
+     - 'Complete/SetClassAliasDefinition'
+     - 'Complete/SetClassMethodRemoteDefinition'
+     - 'Complete/SetClassPropertyDefinitionWithTypehint'
+     - 'Complete/SetClassRemoteDefinitionWithGlobal'
+     - 'Complete/SetClassRemoteDefinitionWithInjection'
+     - 'Complete/SetClassRemoteDefinitionWithLocalNew'
+     - 'Complete/SetClassRemoteDefinitionWithParenthesis'
+     - 'Complete/SetClassRemoteDefinitionWithReturnTypehint'
+     - 'Complete/SetClassRemoteDefinitionWithTypehint'
+     - 'Complete/SetCloneLink'
+     - 'Complete/SetParentDefinition'
+     - 'Complete/SetStringMethodDefinition'
+     - 'Complete/SolveTraitMethods'
+     - 'Complete/VariableTypehint'
 
 
 

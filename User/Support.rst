@@ -175,7 +175,7 @@ PHP extensions are described with the list of structures they define : functions
 
 * `ext/amqp <https://github.com/alanxz/rabbitmq-c>`_
 * `ext/apache <https://www.php.net/manual/en/book.apache.php>`_
-* `ext/apc <https://www.php.net/apc>`_
+* ext/apc
 * ext/apcu
 * `ext/array <https://www.php.net/manual/en/book.array.php>`_
 * ext/php-ast
@@ -276,12 +276,13 @@ PHP extensions are described with the list of structures they define : functions
 * `ext/parsekit <http://www.php.net/manual/en/book.parsekit.php>`_
 * `ext/password <https://www.php.net/manual/en/book.password.php>`_
 * ext/pcntl
-* `ext/pcov <https://github.com/krakjoe/pcov>`_
+* ext/pcov
 * ext/pcre
 * ext/pdo
 * ext/pgsql
 * `ext/phalcon <https://docs.phalconphp.com/en/latest/reference/tutorial.html>`_
 * ext/phar
+* ext/pkcs11
 * ext/posix
 * `ext/proctitle <https://www.php.net/manual/en/book.proctitle.php>`_
 * ext/protobuf
@@ -305,6 +306,7 @@ PHP extensions are described with the list of structures they define : functions
 * ext/sockets
 * `ext/sphinx <https://www.php.net/manual/en/book.sphinx.php>`_
 * ext/spl
+* ext/spx
 * `ext/sqlite <https://www.php.net/manual/en/book.sqlite.php>`_
 * ext/sqlite3
 * `ext/sqlsrv <https://www.php.net/sqlsrv>`_
