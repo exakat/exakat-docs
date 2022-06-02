@@ -110,6 +110,3023 @@ Predefined config files
 
 41 rulesets detailled here : 
 
+.. _annex-all:
+
+All
+###
+
+
+.. _annex-ini-all:
+
+All for INI
++++++++++++
+
+
+INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and edit them to your owns.
+::
+
+ [All]
+   analyzer[] = "Arrays/AmbiguousKeys";
+   analyzer[] = "Arrays/ArrayBracketConsistence";
+   analyzer[] = "Arrays/ArrayNSUsage";
+   analyzer[] = "Arrays/Arrayindex";
+   analyzer[] = "Arrays/EmptyFinal";
+   analyzer[] = "Arrays/EmptySlots";
+   analyzer[] = "Arrays/FloatConversionAsIndex";
+   analyzer[] = "Arrays/GettingLastElement";
+   analyzer[] = "Arrays/MassCreation";
+   analyzer[] = "Arrays/MistakenConcatenation";
+   analyzer[] = "Arrays/MixedKeys";
+   analyzer[] = "Arrays/Multidimensional";
+   analyzer[] = "Arrays/MultipleIdenticalKeys";
+   analyzer[] = "Arrays/NegativeStart";
+   analyzer[] = "Arrays/NoSpreadForHash";
+   analyzer[] = "Arrays/NonConstantArray";
+   analyzer[] = "Arrays/NullBoolean";
+   analyzer[] = "Arrays/Phparrayindex";
+   analyzer[] = "Arrays/RandomlySortedLiterals";
+   analyzer[] = "Arrays/ShouldPreprocess";
+   analyzer[] = "Arrays/SliceFirst";
+   analyzer[] = "Arrays/StringInitialization";
+   analyzer[] = "Arrays/TooManyDimensions";
+   analyzer[] = "Arrays/WeirdIndex";
+   analyzer[] = "Arrays/WithCallback";
+   analyzer[] = "Attributes/MissingAttributeAttribute";
+   analyzer[] = "Attributes/ModifyImmutable";
+   analyzer[] = "Attributes/NestedAttributes";
+   analyzer[] = "Classes/AbstractConstants";
+   analyzer[] = "Classes/AbstractOrImplements";
+   analyzer[] = "Classes/AbstractStatic";
+   analyzer[] = "Classes/Abstractclass";
+   analyzer[] = "Classes/Abstractmethods";
+   analyzer[] = "Classes/AccessPrivate";
+   analyzer[] = "Classes/AccessProtected";
+   analyzer[] = "Classes/AmbiguousStatic";
+   analyzer[] = "Classes/AmbiguousVisibilities";
+   analyzer[] = "Classes/Anonymous";
+   analyzer[] = "Classes/AvoidOptionArrays";
+   analyzer[] = "Classes/AvoidOptionalProperties";
+   analyzer[] = "Classes/AvoidUsing";
+   analyzer[] = "Classes/CancelCommonMethod";
+   analyzer[] = "Classes/CantExtendFinal";
+   analyzer[] = "Classes/CantInheritAbstractMethod";
+   analyzer[] = "Classes/CantInstantiateClass";
+   analyzer[] = "Classes/CantOverwriteFinalConstant";
+   analyzer[] = "Classes/CantOverwriteFinalMethod";
+   analyzer[] = "Classes/CheckOnCallUsage";
+   analyzer[] = "Classes/ChecksPropertyExistence";
+   analyzer[] = "Classes/ChildRemoveTypehint";
+   analyzer[] = "Classes/CitSameName";
+   analyzer[] = "Classes/ClassAliasUsage";
+   analyzer[] = "Classes/ClassOverreach";
+   analyzer[] = "Classes/ClassUsage";
+   analyzer[] = "Classes/Classnames";
+   analyzer[] = "Classes/CloneWithNonObject";
+   analyzer[] = "Classes/CloningUsage";
+   analyzer[] = "Classes/ConstVisibilityUsage";
+   analyzer[] = "Classes/ConstantClass";
+   analyzer[] = "Classes/ConstantDefinition";
+   analyzer[] = "Classes/ConstantUsedBelow";
+   analyzer[] = "Classes/Constructor";
+   analyzer[] = "Classes/CouldBeAbstractClass";
+   analyzer[] = "Classes/CouldBeClassConstant";
+   analyzer[] = "Classes/CouldBeFinal";
+   analyzer[] = "Classes/CouldBeIterable";
+   analyzer[] = "Classes/CouldBeParentMethod";
+   analyzer[] = "Classes/CouldBePrivate";
+   analyzer[] = "Classes/CouldBePrivateConstante";
+   analyzer[] = "Classes/CouldBePrivateMethod";
+   analyzer[] = "Classes/CouldBeProtectedConstant";
+   analyzer[] = "Classes/CouldBeProtectedMethod";
+   analyzer[] = "Classes/CouldBeProtectedProperty";
+   analyzer[] = "Classes/CouldBeStatic";
+   analyzer[] = "Classes/CouldBeStringable";
+   analyzer[] = "Classes/CouldSetPropertyDefault";
+   analyzer[] = "Classes/CyclicReferences";
+   analyzer[] = "Classes/DefinedConstants";
+   analyzer[] = "Classes/DefinedParentMP";
+   analyzer[] = "Classes/DefinedProperty";
+   analyzer[] = "Classes/DefinedStaticMP";
+   analyzer[] = "Classes/DemeterLaw";
+   analyzer[] = "Classes/DependantAbstractClass";
+   analyzer[] = "Classes/DifferentArgumentCounts";
+   analyzer[] = "Classes/DirectCallToMagicMethod";
+   analyzer[] = "Classes/DisconnectedClasses";
+   analyzer[] = "Classes/DontSendThisInConstructor";
+   analyzer[] = "Classes/DontUnsetProperties";
+   analyzer[] = "Classes/DynamicClass";
+   analyzer[] = "Classes/DynamicConstantCall";
+   analyzer[] = "Classes/DynamicMethodCall";
+   analyzer[] = "Classes/DynamicNew";
+   analyzer[] = "Classes/DynamicPropertyCall";
+   analyzer[] = "Classes/DynamicSelfCalls";
+   analyzer[] = "Classes/EmptyClass";
+   analyzer[] = "Classes/ExtendsStdclass";
+   analyzer[] = "Classes/FinalByOcramius";
+   analyzer[] = "Classes/FinalPrivate";
+   analyzer[] = "Classes/Finalclass";
+   analyzer[] = "Classes/Finalmethod";
+   analyzer[] = "Classes/FossilizedMethod";
+   analyzer[] = "Classes/HasFluentInterface";
+   analyzer[] = "Classes/HasMagicProperty";
+   analyzer[] = "Classes/HiddenNullable";
+   analyzer[] = "Classes/IdenticalMethods";
+   analyzer[] = "Classes/ImmutableSignature";
+   analyzer[] = "Classes/ImplementIsForInterface";
+   analyzer[] = "Classes/ImplementedMethodsArePublic";
+   analyzer[] = "Classes/IncompatibleSignature";
+   analyzer[] = "Classes/IncompatibleSignature74";
+   analyzer[] = "Classes/InheritedPropertyMustMatch";
+   analyzer[] = "Classes/InstantiatingAbstractClass";
+   analyzer[] = "Classes/InsufficientPropertyTypehint";
+   analyzer[] = "Classes/IntegerAsProperty";
+   analyzer[] = "Classes/IsExtClass";
+   analyzer[] = "Classes/IsInterfaceMethod";
+   analyzer[] = "Classes/IsNotFamily";
+   analyzer[] = "Classes/IsUpperFamily";
+   analyzer[] = "Classes/IsaMagicProperty";
+   analyzer[] = "Classes/LocallyUnusedProperty";
+   analyzer[] = "Classes/LocallyUsedProperty";
+   analyzer[] = "Classes/LoweredAccessLevel";
+   analyzer[] = "Classes/MagicMethod";
+   analyzer[] = "Classes/MagicProperties";
+   analyzer[] = "Classes/MakeDefault";
+   analyzer[] = "Classes/MakeGlobalAProperty";
+   analyzer[] = "Classes/MakeMagicConcrete";
+   analyzer[] = "Classes/MethodIsOverwritten";
+   analyzer[] = "Classes/MethodSignatureMustBeCompatible";
+   analyzer[] = "Classes/MethodUsedBelow";
+   analyzer[] = "Classes/MismatchProperties";
+   analyzer[] = "Classes/MissingAbstractMethod";
+   analyzer[] = "Classes/MissingVisibility";
+   analyzer[] = "Classes/ModifyingReadonly";
+   analyzer[] = "Classes/MultipleClassesInFile";
+   analyzer[] = "Classes/MultipleDeclarations";
+   analyzer[] = "Classes/MultiplePropertyDeclarationOnOneLine";
+   analyzer[] = "Classes/MultipleTraitOrInterface";
+   analyzer[] = "Classes/MutualExtension";
+   analyzer[] = "Classes/NewOnFunctioncallOrIdentifier";
+   analyzer[] = "Classes/NoMagicWithArray";
+   analyzer[] = "Classes/NoPSSOutsideClass";
+   analyzer[] = "Classes/NoParent";
+   analyzer[] = "Classes/NoPublicAccess";
+   analyzer[] = "Classes/NoReadonlyAssignationInGlobal";
+   analyzer[] = "Classes/NoSelfReferencingConstant";
+   analyzer[] = "Classes/NonNullableSetters";
+   analyzer[] = "Classes/NonPpp";
+   analyzer[] = "Classes/NonStaticMethodsCalledStatic";
+   analyzer[] = "Classes/NormalMethods";
+   analyzer[] = "Classes/NullOnNew";
+   analyzer[] = "Classes/OldStyleConstructor";
+   analyzer[] = "Classes/OldStyleVar";
+   analyzer[] = "Classes/OneObjectOperatorPerLine";
+   analyzer[] = "Classes/OnlyStaticMethods";
+   analyzer[] = "Classes/OrderOfDeclaration";
+   analyzer[] = "Classes/OverwrittenConst";
+   analyzer[] = "Classes/PPPDeclarationStyle";
+   analyzer[] = "Classes/ParentFirst";
+   analyzer[] = "Classes/ParentIsNotStatic";
+   analyzer[] = "Classes/PromotedProperties";
+   analyzer[] = "Classes/PropertyCouldBeLocal";
+   analyzer[] = "Classes/PropertyDefinition";
+   analyzer[] = "Classes/PropertyNeverUsed";
+   analyzer[] = "Classes/PropertyUsedAbove";
+   analyzer[] = "Classes/PropertyUsedBelow";
+   analyzer[] = "Classes/PropertyUsedInOneMethodOnly";
+   analyzer[] = "Classes/PropertyUsedInternally";
+   analyzer[] = "Classes/PssWithoutClass";
+   analyzer[] = "Classes/RaisedAccessLevel";
+   analyzer[] = "Classes/ReadonlyUsage";
+   analyzer[] = "Classes/RedefinedConstants";
+   analyzer[] = "Classes/RedefinedDefault";
+   analyzer[] = "Classes/RedefinedMethods";
+   analyzer[] = "Classes/RedefinedPrivateProperty";
+   analyzer[] = "Classes/RedefinedProperty";
+   analyzer[] = "Classes/SameNameAsFile";
+   analyzer[] = "Classes/ScalarOrObjectProperty";
+   analyzer[] = "Classes/ShouldDeepClone";
+   analyzer[] = "Classes/ShouldHaveDestructor";
+   analyzer[] = "Classes/ShouldUseSelf";
+   analyzer[] = "Classes/ShouldUseThis";
+   analyzer[] = "Classes/StaticContainsThis";
+   analyzer[] = "Classes/StaticMethods";
+   analyzer[] = "Classes/StaticMethodsCalledFromObject";
+   analyzer[] = "Classes/StaticProperties";
+   analyzer[] = "Classes/StrangeName";
+   analyzer[] = "Classes/SwappedArguments";
+   analyzer[] = "Classes/TestClass";
+   analyzer[] = "Classes/ThisIsForClasses";
+   analyzer[] = "Classes/ThisIsNotAnArray";
+   analyzer[] = "Classes/ThisIsNotForStatic";
+   analyzer[] = "Classes/ThrowInDestruct";
+   analyzer[] = "Classes/TooManyChildren";
+   analyzer[] = "Classes/TooManyDereferencing";
+   analyzer[] = "Classes/TooManyFinds";
+   analyzer[] = "Classes/TooManyInjections";
+   analyzer[] = "Classes/TypehintCyclicDependencies";
+   analyzer[] = "Classes/UndeclaredStaticProperty";
+   analyzer[] = "Classes/UndefinedClasses";
+   analyzer[] = "Classes/UndefinedConstants";
+   analyzer[] = "Classes/UndefinedMethod";
+   analyzer[] = "Classes/UndefinedParentMP";
+   analyzer[] = "Classes/UndefinedProperty";
+   analyzer[] = "Classes/UndefinedStaticMP";
+   analyzer[] = "Classes/UndefinedStaticclass";
+   analyzer[] = "Classes/UnfinishedObject";
+   analyzer[] = "Classes/UninitedProperty";
+   analyzer[] = "Classes/UnitializedProperties";
+   analyzer[] = "Classes/UnreachableConstant";
+   analyzer[] = "Classes/UnreachableMethod";
+   analyzer[] = "Classes/UnresolvedCatch";
+   analyzer[] = "Classes/UnresolvedClasses";
+   analyzer[] = "Classes/UnresolvedInstanceof";
+   analyzer[] = "Classes/UnusedClass";
+   analyzer[] = "Classes/UnusedConstant";
+   analyzer[] = "Classes/UnusedMethods";
+   analyzer[] = "Classes/UnusedPrivateMethod";
+   analyzer[] = "Classes/UnusedPrivateProperty";
+   analyzer[] = "Classes/UnusedProtectedMethods";
+   analyzer[] = "Classes/UseClassOperator";
+   analyzer[] = "Classes/UseInstanceof";
+   analyzer[] = "Classes/UseThis";
+   analyzer[] = "Classes/UsedClass";
+   analyzer[] = "Classes/UsedMethods";
+   analyzer[] = "Classes/UsedOnceProperty";
+   analyzer[] = "Classes/UsedPrivateMethod";
+   analyzer[] = "Classes/UsedPrivateProperty";
+   analyzer[] = "Classes/UsedProtectedMethod";
+   analyzer[] = "Classes/UselessAbstract";
+   analyzer[] = "Classes/UselessConstructor";
+   analyzer[] = "Classes/UselessFinal";
+   analyzer[] = "Classes/UselessTypehint";
+   analyzer[] = "Classes/UsingThisOutsideAClass";
+   analyzer[] = "Classes/VariableClasses";
+   analyzer[] = "Classes/WeakType";
+   analyzer[] = "Classes/WrongCase";
+   analyzer[] = "Classes/WrongName";
+   analyzer[] = "Classes/WrongTypedPropertyInit";
+   analyzer[] = "Classes/toStringPss";
+   analyzer[] = "Common/InterfaceUsage";
+   analyzer[] = "Complete/CreateCompactVariables";
+   analyzer[] = "Complete/CreateDefaultValues";
+   analyzer[] = "Complete/CreateForeachDefault";
+   analyzer[] = "Complete/CreateMagicMethod";
+   analyzer[] = "Complete/CreateMagicProperty";
+   analyzer[] = "Complete/ExtendedTypehints";
+   analyzer[] = "Complete/FollowClosureDefinition";
+   analyzer[] = "Complete/IsExtStructure";
+   analyzer[] = "Complete/IsPhpStructure";
+   analyzer[] = "Complete/IsStubStructure";
+   analyzer[] = "Complete/MakeAllStatics";
+   analyzer[] = "Complete/MakeClassConstantDefinition";
+   analyzer[] = "Complete/MakeClassMethodDefinition";
+   analyzer[] = "Complete/MakeFunctioncallWithReference";
+   analyzer[] = "Complete/OverwrittenConstants";
+   analyzer[] = "Complete/OverwrittenMethods";
+   analyzer[] = "Complete/OverwrittenProperties";
+   analyzer[] = "Complete/PhpExtStubPropertyMethod";
+   analyzer[] = "Complete/PhpNativeReference";
+   analyzer[] = "Complete/PropagateCalls";
+   analyzer[] = "Complete/PropagateConstants";
+   analyzer[] = "Complete/ReturnTypehint";
+   analyzer[] = "Complete/SetArrayClassDefinition";
+   analyzer[] = "Complete/SetClassAliasDefinition";
+   analyzer[] = "Complete/SetClassMethodRemoteDefinition";
+   analyzer[] = "Complete/SetClassPropertyDefinitionWithTypehint";
+   analyzer[] = "Complete/SetClassRemoteDefinitionWithGlobal";
+   analyzer[] = "Complete/SetClassRemoteDefinitionWithInjection";
+   analyzer[] = "Complete/SetClassRemoteDefinitionWithLocalNew";
+   analyzer[] = "Complete/SetClassRemoteDefinitionWithParenthesis";
+   analyzer[] = "Complete/SetClassRemoteDefinitionWithReturnTypehint";
+   analyzer[] = "Complete/SetClassRemoteDefinitionWithTypehint";
+   analyzer[] = "Complete/SetCloneLink";
+   analyzer[] = "Complete/SetParentDefinition";
+   analyzer[] = "Complete/SetStringMethodDefinition";
+   analyzer[] = "Complete/SolveTraitMethods";
+   analyzer[] = "Complete/VariableTypehint";
+   analyzer[] = "Composer/Autoload";
+   analyzer[] = "Composer/IsComposerClass";
+   analyzer[] = "Composer/IsComposerInterface";
+   analyzer[] = "Composer/IsComposerNsname";
+   analyzer[] = "Composer/PackagesNames";
+   analyzer[] = "Composer/UseComposer";
+   analyzer[] = "Composer/UseComposerLock";
+   analyzer[] = "Constants/BadConstantnames";
+   analyzer[] = "Constants/CaseInsensitiveConstants";
+   analyzer[] = "Constants/ConditionedConstants";
+   analyzer[] = "Constants/ConstDefinePreference";
+   analyzer[] = "Constants/ConstRecommended";
+   analyzer[] = "Constants/ConstantStrangeNames";
+   analyzer[] = "Constants/ConstantUsage";
+   analyzer[] = "Constants/Constantnames";
+   analyzer[] = "Constants/CouldBeConstant";
+   analyzer[] = "Constants/CouldUseConstant";
+   analyzer[] = "Constants/CreatedOutsideItsNamespace";
+   analyzer[] = "Constants/CustomConstantUsage";
+   analyzer[] = "Constants/DefineInsensitivePreference";
+   analyzer[] = "Constants/DynamicCreation";
+   analyzer[] = "Constants/InconsistantCase";
+   analyzer[] = "Constants/InvalidName";
+   analyzer[] = "Constants/IsExtConstant";
+   analyzer[] = "Constants/IsGlobalConstant";
+   analyzer[] = "Constants/IsPhpConstant";
+   analyzer[] = "Constants/MagicConstantUsage";
+   analyzer[] = "Constants/MultipleConstantDefinition";
+   analyzer[] = "Constants/PhpConstantUsage";
+   analyzer[] = "Constants/StrangeName";
+   analyzer[] = "Constants/UndefinedConstants";
+   analyzer[] = "Constants/UnusedConstants";
+   analyzer[] = "Constants/VariableConstant";
+   analyzer[] = "Dump/CallOrder";
+   analyzer[] = "Dump/CollectAtomCounts";
+   analyzer[] = "Dump/CollectBlockSize";
+   analyzer[] = "Dump/CollectClassChanges";
+   analyzer[] = "Dump/CollectClassChildren";
+   analyzer[] = "Dump/CollectClassConstantCounts";
+   analyzer[] = "Dump/CollectClassDepth";
+   analyzer[] = "Dump/CollectClassInterfaceCounts";
+   analyzer[] = "Dump/CollectClassTraitsCounts";
+   analyzer[] = "Dump/CollectClassesDependencies";
+   analyzer[] = "Dump/CollectDefinitionsStats";
+   analyzer[] = "Dump/CollectDependencyExtension";
+   analyzer[] = "Dump/CollectFilesDependencies";
+   analyzer[] = "Dump/CollectForeachFavorite";
+   analyzer[] = "Dump/CollectGlobalVariables";
+   analyzer[] = "Dump/CollectLiterals";
+   analyzer[] = "Dump/CollectLocalVariableCounts";
+   analyzer[] = "Dump/CollectMbstringEncodings";
+   analyzer[] = "Dump/CollectMethodCounts";
+   analyzer[] = "Dump/CollectNativeCallsPerExpressions";
+   analyzer[] = "Dump/CollectParameterCounts";
+   analyzer[] = "Dump/CollectParameterNames";
+   analyzer[] = "Dump/CollectPhpStructures";
+   analyzer[] = "Dump/CollectPropertyCounts";
+   analyzer[] = "Dump/CollectReadability";
+   analyzer[] = "Dump/CollectStubStructures";
+   analyzer[] = "Dump/CollectUseCounts";
+   analyzer[] = "Dump/CollectVariables";
+   analyzer[] = "Dump/ConstantOrder";
+   analyzer[] = "Dump/CouldBeAConstant";
+   analyzer[] = "Dump/CyclomaticComplexity";
+   analyzer[] = "Dump/DereferencingLevels";
+   analyzer[] = "Dump/EnvironnementVariables";
+   analyzer[] = "Dump/FossilizedMethods";
+   analyzer[] = "Dump/Inclusions";
+   analyzer[] = "Dump/IndentationLevels";
+   analyzer[] = "Dump/NewOrder";
+   analyzer[] = "Dump/ParameterArgumentsLinks";
+   analyzer[] = "Dump/PublicReach";
+   analyzer[] = "Dump/TypehintingStats";
+   analyzer[] = "Dump/Typehintorder";
+   analyzer[] = "Enums/NoMagicMethod";
+   analyzer[] = "Enums/UndefinedEnumcase";
+   analyzer[] = "Enums/UnusedEnumCase";
+   analyzer[] = "Exceptions/AlreadyCaught";
+   analyzer[] = "Exceptions/CantThrow";
+   analyzer[] = "Exceptions/CatchE";
+   analyzer[] = "Exceptions/CatchUndefinedVariable";
+   analyzer[] = "Exceptions/CaughtButNotThrown";
+   analyzer[] = "Exceptions/CaughtExceptions";
+   analyzer[] = "Exceptions/CouldUseTry";
+   analyzer[] = "Exceptions/DefinedExceptions";
+   analyzer[] = "Exceptions/ForgottenThrown";
+   analyzer[] = "Exceptions/IsPhpException";
+   analyzer[] = "Exceptions/LargeTryBlock";
+   analyzer[] = "Exceptions/LongPreparation";
+   analyzer[] = "Exceptions/MultipleCatch";
+   analyzer[] = "Exceptions/OverwriteException";
+   analyzer[] = "Exceptions/Rethrown";
+   analyzer[] = "Exceptions/ThrowFunctioncall";
+   analyzer[] = "Exceptions/ThrowRawExceptions";
+   analyzer[] = "Exceptions/ThrownExceptions";
+   analyzer[] = "Exceptions/UncaughtExceptions";
+   analyzer[] = "Exceptions/Unthrown";
+   analyzer[] = "Exceptions/UnusedExceptionVariable";
+   analyzer[] = "Exceptions/UselessCatch";
+   analyzer[] = "Extensions/Extamqp";
+   analyzer[] = "Extensions/Extapache";
+   analyzer[] = "Extensions/Extapc";
+   analyzer[] = "Extensions/Extapcu";
+   analyzer[] = "Extensions/Extarray";
+   analyzer[] = "Extensions/Extast";
+   analyzer[] = "Extensions/Extasync";
+   analyzer[] = "Extensions/Extbcmath";
+   analyzer[] = "Extensions/Extbzip2";
+   analyzer[] = "Extensions/Extcairo";
+   analyzer[] = "Extensions/Extcalendar";
+   analyzer[] = "Extensions/Extcmark";
+   analyzer[] = "Extensions/Extcom";
+   analyzer[] = "Extensions/Extcrypto";
+   analyzer[] = "Extensions/Extcsv";
+   analyzer[] = "Extensions/Extctype";
+   analyzer[] = "Extensions/Extcurl";
+   analyzer[] = "Extensions/Extcyrus";
+   analyzer[] = "Extensions/Extdate";
+   analyzer[] = "Extensions/Extdb2";
+   analyzer[] = "Extensions/Extdba";
+   analyzer[] = "Extensions/Extdecimal";
+   analyzer[] = "Extensions/Extdio";
+   analyzer[] = "Extensions/Extdom";
+   analyzer[] = "Extensions/Extds";
+   analyzer[] = "Extensions/Exteaccelerator";
+   analyzer[] = "Extensions/Exteio";
+   analyzer[] = "Extensions/Extenchant";
+   analyzer[] = "Extensions/Extereg";
+   analyzer[] = "Extensions/Extev";
+   analyzer[] = "Extensions/Extevent";
+   analyzer[] = "Extensions/Extexcimer";
+   analyzer[] = "Extensions/Extexif";
+   analyzer[] = "Extensions/Extexpect";
+   analyzer[] = "Extensions/Extfam";
+   analyzer[] = "Extensions/Extfann";
+   analyzer[] = "Extensions/Extfdf";
+   analyzer[] = "Extensions/Extffi";
+   analyzer[] = "Extensions/Extffmpeg";
+   analyzer[] = "Extensions/Extfile";
+   analyzer[] = "Extensions/Extfileinfo";
+   analyzer[] = "Extensions/Extfilter";
+   analyzer[] = "Extensions/Extfpm";
+   analyzer[] = "Extensions/Extftp";
+   analyzer[] = "Extensions/Extgd";
+   analyzer[] = "Extensions/Extgearman";
+   analyzer[] = "Extensions/Extgender";
+   analyzer[] = "Extensions/Extgeoip";
+   analyzer[] = "Extensions/Extgettext";
+   analyzer[] = "Extensions/Extgmagick";
+   analyzer[] = "Extensions/Extgmp";
+   analyzer[] = "Extensions/Extgnupg";
+   analyzer[] = "Extensions/Extgrpc";
+   analyzer[] = "Extensions/Exthash";
+   analyzer[] = "Extensions/Exthrtime";
+   analyzer[] = "Extensions/Exthttp";
+   analyzer[] = "Extensions/Extibase";
+   analyzer[] = "Extensions/Exticonv";
+   analyzer[] = "Extensions/Extigbinary";
+   analyzer[] = "Extensions/Extiis";
+   analyzer[] = "Extensions/Extimagick";
+   analyzer[] = "Extensions/Extimap";
+   analyzer[] = "Extensions/Extinfo";
+   analyzer[] = "Extensions/Extinotify";
+   analyzer[] = "Extensions/Extintl";
+   analyzer[] = "Extensions/Extjson";
+   analyzer[] = "Extensions/Extjudy";
+   analyzer[] = "Extensions/Extkdm5";
+   analyzer[] = "Extensions/Extlapack";
+   analyzer[] = "Extensions/Extldap";
+   analyzer[] = "Extensions/Extleveldb";
+   analyzer[] = "Extensions/Extlibevent";
+   analyzer[] = "Extensions/Extlibsodium";
+   analyzer[] = "Extensions/Extlibxml";
+   analyzer[] = "Extensions/Extlua";
+   analyzer[] = "Extensions/Extlzf";
+   analyzer[] = "Extensions/Extmail";
+   analyzer[] = "Extensions/Extmailparse";
+   analyzer[] = "Extensions/Extmath";
+   analyzer[] = "Extensions/Extmbstring";
+   analyzer[] = "Extensions/Extmcrypt";
+   analyzer[] = "Extensions/Extmemcache";
+   analyzer[] = "Extensions/Extmemcached";
+   analyzer[] = "Extensions/Extmhash";
+   analyzer[] = "Extensions/Extming";
+   analyzer[] = "Extensions/Extmongo";
+   analyzer[] = "Extensions/Extmongodb";
+   analyzer[] = "Extensions/Extmsgpack";
+   analyzer[] = "Extensions/Extmssql";
+   analyzer[] = "Extensions/Extmysql";
+   analyzer[] = "Extensions/Extmysqli";
+   analyzer[] = "Extensions/Extncurses";
+   analyzer[] = "Extensions/Extnewt";
+   analyzer[] = "Extensions/Extnsapi";
+   analyzer[] = "Extensions/Extob";
+   analyzer[] = "Extensions/Extoci8";
+   analyzer[] = "Extensions/Extodbc";
+   analyzer[] = "Extensions/Extopcache";
+   analyzer[] = "Extensions/Extopencensus";
+   analyzer[] = "Extensions/Extopenssl";
+   analyzer[] = "Extensions/Extparle";
+   analyzer[] = "Extensions/Extparsekit";
+   analyzer[] = "Extensions/Extpassword";
+   analyzer[] = "Extensions/Extpcntl";
+   analyzer[] = "Extensions/Extpcov";
+   analyzer[] = "Extensions/Extpcre";
+   analyzer[] = "Extensions/Extpdo";
+   analyzer[] = "Extensions/Extpgsql";
+   analyzer[] = "Extensions/Extphalcon";
+   analyzer[] = "Extensions/Extphar";
+   analyzer[] = "Extensions/Extpkcs11";
+   analyzer[] = "Extensions/Extposix";
+   analyzer[] = "Extensions/Extproctitle";
+   analyzer[] = "Extensions/Extprotobuf";
+   analyzer[] = "Extensions/Extpspell";
+   analyzer[] = "Extensions/Extpsr";
+   analyzer[] = "Extensions/Extrar";
+   analyzer[] = "Extensions/Extrdkafka";
+   analyzer[] = "Extensions/Extreadline";
+   analyzer[] = "Extensions/Extrecode";
+   analyzer[] = "Extensions/Extredis";
+   analyzer[] = "Extensions/Extreflection";
+   analyzer[] = "Extensions/Extrunkit";
+   analyzer[] = "Extensions/Extsdl";
+   analyzer[] = "Extensions/Extseaslog";
+   analyzer[] = "Extensions/Extsem";
+   analyzer[] = "Extensions/Extsession";
+   analyzer[] = "Extensions/Extshmop";
+   analyzer[] = "Extensions/Extsimplexml";
+   analyzer[] = "Extensions/Extsnmp";
+   analyzer[] = "Extensions/Extsoap";
+   analyzer[] = "Extensions/Extsockets";
+   analyzer[] = "Extensions/Extsphinx";
+   analyzer[] = "Extensions/Extspl";
+   analyzer[] = "Extensions/Extspx";
+   analyzer[] = "Extensions/Extsqlite";
+   analyzer[] = "Extensions/Extsqlite3";
+   analyzer[] = "Extensions/Extsqlsrv";
+   analyzer[] = "Extensions/Extssh2";
+   analyzer[] = "Extensions/Extstandard";
+   analyzer[] = "Extensions/Extstats";
+   analyzer[] = "Extensions/Extstomp";
+   analyzer[] = "Extensions/Extstring";
+   analyzer[] = "Extensions/Extsuhosin";
+   analyzer[] = "Extensions/Extsvm";
+   analyzer[] = "Extensions/Extswoole";
+   analyzer[] = "Extensions/Exttidy";
+   analyzer[] = "Extensions/Exttokenizer";
+   analyzer[] = "Extensions/Exttokyotyrant";
+   analyzer[] = "Extensions/Exttrader";
+   analyzer[] = "Extensions/Extuopz";
+   analyzer[] = "Extensions/Extuuid";
+   analyzer[] = "Extensions/Extv8js";
+   analyzer[] = "Extensions/Extvarnish";
+   analyzer[] = "Extensions/Extvips";
+   analyzer[] = "Extensions/Extwasm";
+   analyzer[] = "Extensions/Extwddx";
+   analyzer[] = "Extensions/Extweakref";
+   analyzer[] = "Extensions/Extwikidiff2";
+   analyzer[] = "Extensions/Extwincache";
+   analyzer[] = "Extensions/Extxattr";
+   analyzer[] = "Extensions/Extxcache";
+   analyzer[] = "Extensions/Extxdebug";
+   analyzer[] = "Extensions/Extxdiff";
+   analyzer[] = "Extensions/Extxhprof";
+   analyzer[] = "Extensions/Extxml";
+   analyzer[] = "Extensions/Extxmlreader";
+   analyzer[] = "Extensions/Extxmlrpc";
+   analyzer[] = "Extensions/Extxmlwriter";
+   analyzer[] = "Extensions/Extxsl";
+   analyzer[] = "Extensions/Extxxtea";
+   analyzer[] = "Extensions/Extyaml";
+   analyzer[] = "Extensions/Extyar";
+   analyzer[] = "Extensions/Extyis";
+   analyzer[] = "Extensions/Extzendmonitor";
+   analyzer[] = "Extensions/Extzip";
+   analyzer[] = "Extensions/Extzlib";
+   analyzer[] = "Extensions/Extzmq";
+   analyzer[] = "Extensions/Extzookeeper";
+   analyzer[] = "Files/DefinitionsOnly";
+   analyzer[] = "Files/GlobalCodeOnly";
+   analyzer[] = "Files/InclusionWrongCase";
+   analyzer[] = "Files/IsCliScript";
+   analyzer[] = "Files/IsComponent";
+   analyzer[] = "Files/MissingInclude";
+   analyzer[] = "Files/NotDefinitionsOnly";
+   analyzer[] = "Files/Services";
+   analyzer[] = "Functions/AddDefaultValue";
+   analyzer[] = "Functions/AliasesUsage";
+   analyzer[] = "Functions/AvoidBooleanArgument";
+   analyzer[] = "Functions/BadTypehintRelay";
+   analyzer[] = "Functions/CallbackNeedsReturn";
+   analyzer[] = "Functions/CancelledParameter";
+   analyzer[] = "Functions/CannotUseStaticForClosure";
+   analyzer[] = "Functions/CantUse";
+   analyzer[] = "Functions/Closure2String";
+   analyzer[] = "Functions/Closures";
+   analyzer[] = "Functions/ConditionedFunctions";
+   analyzer[] = "Functions/CouldBeCallable";
+   analyzer[] = "Functions/CouldBeStaticClosure";
+   analyzer[] = "Functions/CouldCentralize";
+   analyzer[] = "Functions/CouldTypeWithArray";
+   analyzer[] = "Functions/CouldTypeWithBool";
+   analyzer[] = "Functions/CouldTypeWithInt";
+   analyzer[] = "Functions/CouldTypeWithIterable";
+   analyzer[] = "Functions/CouldTypeWithString";
+   analyzer[] = "Functions/CouldTypehint";
+   analyzer[] = "Functions/DeepDefinitions";
+   analyzer[] = "Functions/DeprecatedCallable";
+   analyzer[] = "Functions/DontUseVoid";
+   analyzer[] = "Functions/DuplicateNamedParameter";
+   analyzer[] = "Functions/DynamicCode";
+   analyzer[] = "Functions/Dynamiccall";
+   analyzer[] = "Functions/EmptyFunction";
+   analyzer[] = "Functions/ExceedingTypehint";
+   analyzer[] = "Functions/FallbackFunction";
+   analyzer[] = "Functions/FnArgumentVariableConfusion";
+   analyzer[] = "Functions/FunctionCalledWithOtherCase";
+   analyzer[] = "Functions/Functionnames";
+   analyzer[] = "Functions/FunctionsUsingReference";
+   analyzer[] = "Functions/GeneratorCannotReturn";
+   analyzer[] = "Functions/HardcodedPasswords";
+   analyzer[] = "Functions/HasFluentInterface";
+   analyzer[] = "Functions/HasNotFluentInterface";
+   analyzer[] = "Functions/InsufficientTypehint";
+   analyzer[] = "Functions/IsExtFunction";
+   analyzer[] = "Functions/IsGenerator";
+   analyzer[] = "Functions/IsGlobal";
+   analyzer[] = "Functions/KillsApp";
+   analyzer[] = "Functions/LoopCalling";
+   analyzer[] = "Functions/MarkCallable";
+   analyzer[] = "Functions/MismatchParameterAndType";
+   analyzer[] = "Functions/MismatchParameterName";
+   analyzer[] = "Functions/MismatchTypeAndDefault";
+   analyzer[] = "Functions/MismatchedDefaultArguments";
+   analyzer[] = "Functions/MismatchedTypehint";
+   analyzer[] = "Functions/MissingTypehint";
+   analyzer[] = "Functions/ModifyTypedParameter";
+   analyzer[] = "Functions/MultipleDeclarations";
+   analyzer[] = "Functions/MultipleIdenticalClosure";
+   analyzer[] = "Functions/MultipleReturn";
+   analyzer[] = "Functions/MultipleSameArguments";
+   analyzer[] = "Functions/MustReturn";
+   analyzer[] = "Functions/NeverUsedParameter";
+   analyzer[] = "Functions/NoBooleanAsDefault";
+   analyzer[] = "Functions/NoClassAsTypehint";
+   analyzer[] = "Functions/NoLiteralForReference";
+   analyzer[] = "Functions/NoReferencedVoid";
+   analyzer[] = "Functions/NoReturnUsed";
+   analyzer[] = "Functions/NullTypeFavorite";
+   analyzer[] = "Functions/NullableWithConstant";
+   analyzer[] = "Functions/NullableWithoutCheck";
+   analyzer[] = "Functions/OneLetterFunctions";
+   analyzer[] = "Functions/OnlyVariableForReference";
+   analyzer[] = "Functions/OnlyVariablePassedByReference";
+   analyzer[] = "Functions/OptionalParameter";
+   analyzer[] = "Functions/ParameterHiding";
+   analyzer[] = "Functions/PrefixToType";
+   analyzer[] = "Functions/RealFunctions";
+   analyzer[] = "Functions/Recursive";
+   analyzer[] = "Functions/RedeclaredPhpFunction";
+   analyzer[] = "Functions/RelayFunction";
+   analyzer[] = "Functions/SemanticTyping";
+   analyzer[] = "Functions/ShouldBeTypehinted";
+   analyzer[] = "Functions/ShouldUseConstants";
+   analyzer[] = "Functions/ShouldYieldWithKey";
+   analyzer[] = "Functions/TooManyLocalVariables";
+   analyzer[] = "Functions/TooManyParameters";
+   analyzer[] = "Functions/TooMuchIndented";
+   analyzer[] = "Functions/TypehintMustBeReturned";
+   analyzer[] = "Functions/TypehintedReferences";
+   analyzer[] = "Functions/Typehints";
+   analyzer[] = "Functions/UnbindingClosures";
+   analyzer[] = "Functions/UndefinedFunctions";
+   analyzer[] = "Functions/UnknownParameterName";
+   analyzer[] = "Functions/UnsetOnArguments";
+   analyzer[] = "Functions/UnusedArguments";
+   analyzer[] = "Functions/UnusedFunctions";
+   analyzer[] = "Functions/UnusedInheritedVariable";
+   analyzer[] = "Functions/UnusedReturnedValue";
+   analyzer[] = "Functions/UseArrowFunctions";
+   analyzer[] = "Functions/UseConstantAsArguments";
+   analyzer[] = "Functions/UseConstantsAsReturns";
+   analyzer[] = "Functions/UsedFunctions";
+   analyzer[] = "Functions/UselessArgument";
+   analyzer[] = "Functions/UselessDefault";
+   analyzer[] = "Functions/UselessReferenceArgument";
+   analyzer[] = "Functions/UselessReturn";
+   analyzer[] = "Functions/UselessTypeCheck";
+   analyzer[] = "Functions/UsesDefaultArguments";
+   analyzer[] = "Functions/UsingDeprecated";
+   analyzer[] = "Functions/VariableArguments";
+   analyzer[] = "Functions/WithoutReturn";
+   analyzer[] = "Functions/WrongArgumentNameWithPhpFunction";
+   analyzer[] = "Functions/WrongArgumentType";
+   analyzer[] = "Functions/WrongCase";
+   analyzer[] = "Functions/WrongNumberOfArguments";
+   analyzer[] = "Functions/WrongNumberOfArgumentsMethods";
+   analyzer[] = "Functions/WrongOptionalParameter";
+   analyzer[] = "Functions/WrongReturnedType";
+   analyzer[] = "Functions/WrongTypeWithCall";
+   analyzer[] = "Functions/WrongTypehintedName";
+   analyzer[] = "Functions/funcGetArgModified";
+   analyzer[] = "Interfaces/AlreadyParentsInterface";
+   analyzer[] = "Interfaces/AvoidSelfInInterface";
+   analyzer[] = "Interfaces/CantImplementTraversable";
+   analyzer[] = "Interfaces/CantOverloadConstants";
+   analyzer[] = "Interfaces/ConcreteVisibility";
+   analyzer[] = "Interfaces/CouldUseInterface";
+   analyzer[] = "Interfaces/EmptyInterface";
+   analyzer[] = "Interfaces/InterfaceMethod";
+   analyzer[] = "Interfaces/InterfaceUsage";
+   analyzer[] = "Interfaces/Interfacenames";
+   analyzer[] = "Interfaces/IsExtInterface";
+   analyzer[] = "Interfaces/IsNotImplemented";
+   analyzer[] = "Interfaces/NoConstructorInInterface";
+   analyzer[] = "Interfaces/NoGaranteeForPropertyConstant";
+   analyzer[] = "Interfaces/Php";
+   analyzer[] = "Interfaces/PossibleInterfaces";
+   analyzer[] = "Interfaces/RepeatedInterface";
+   analyzer[] = "Interfaces/UndefinedInterfaces";
+   analyzer[] = "Interfaces/UnusedInterfaces";
+   analyzer[] = "Interfaces/UsedInterfaces";
+   analyzer[] = "Interfaces/UselessInterfaces";
+   analyzer[] = "Namespaces/Alias";
+   analyzer[] = "Namespaces/AliasConfusion";
+   analyzer[] = "Namespaces/ConstantFullyQualified";
+   analyzer[] = "Namespaces/ConstantWithUseFavorite";
+   analyzer[] = "Namespaces/CouldUseAlias";
+   analyzer[] = "Namespaces/EmptyNamespace";
+   analyzer[] = "Namespaces/GlobalImport";
+   analyzer[] = "Namespaces/HiddenUse";
+   analyzer[] = "Namespaces/MultipleAliasDefinitionPerFile";
+   analyzer[] = "Namespaces/MultipleAliasDefinitions";
+   analyzer[] = "Namespaces/NamespaceUsage";
+   analyzer[] = "Namespaces/Namespacesnames";
+   analyzer[] = "Namespaces/ShouldMakeAlias";
+   analyzer[] = "Namespaces/UnresolvedUse";
+   analyzer[] = "Namespaces/UnusedUse";
+   analyzer[] = "Namespaces/UseFunctionsConstants";
+   analyzer[] = "Namespaces/UseWithFullyQualifiedNS";
+   analyzer[] = "Namespaces/UsedUse";
+   analyzer[] = "Namespaces/WrongCase";
+   analyzer[] = "Patterns/AbstractAway";
+   analyzer[] = "Patterns/CourrierAntiPattern";
+   analyzer[] = "Patterns/DependencyInjection";
+   analyzer[] = "Patterns/Factory";
+   analyzer[] = "Patterns/GetterSetter";
+   analyzer[] = "Performances/ArrayKeyExistsSpeedup";
+   analyzer[] = "Performances/ArrayMergeInLoops";
+   analyzer[] = "Performances/Autoappend";
+   analyzer[] = "Performances/AvoidArrayPush";
+   analyzer[] = "Performances/CacheVariableOutsideLoop";
+   analyzer[] = "Performances/ClassOperator";
+   analyzer[] = "Performances/CsvInLoops";
+   analyzer[] = "Performances/DoInBase";
+   analyzer[] = "Performances/DoubleArrayFlip";
+   analyzer[] = "Performances/FetchOneRowFormat";
+   analyzer[] = "Performances/IssetWholeArray";
+   analyzer[] = "Performances/JoinFile";
+   analyzer[] = "Performances/LogicalToInArray";
+   analyzer[] = "Performances/MakeOneCall";
+   analyzer[] = "Performances/MbStringInLoop";
+   analyzer[] = "Performances/MemoizeMagicCall";
+   analyzer[] = "Performances/NoConcatInLoop";
+   analyzer[] = "Performances/NoGlob";
+   analyzer[] = "Performances/NotCountNull";
+   analyzer[] = "Performances/OptimizeExplode";
+   analyzer[] = "Performances/PHP7EncapsedStrings";
+   analyzer[] = "Performances/Php74ArrayKeyExists";
+   analyzer[] = "Performances/PrePostIncrement";
+   analyzer[] = "Performances/RegexOnArrays";
+   analyzer[] = "Performances/RegexOnCollector";
+   analyzer[] = "Performances/SimpleSwitch";
+   analyzer[] = "Performances/SimplifyForeach";
+   analyzer[] = "Performances/SlowFunctions";
+   analyzer[] = "Performances/StaticCallDontNeedObjects";
+   analyzer[] = "Performances/StrposTooMuch";
+   analyzer[] = "Performances/SubstrFirst";
+   analyzer[] = "Performances/UseArraySlice";
+   analyzer[] = "Performances/UseBlindVar";
+   analyzer[] = "Performances/timeVsstrtotime";
+   analyzer[] = "Php/AlternativeSyntax";
+   analyzer[] = "Php/Argon2Usage";
+   analyzer[] = "Php/ArrayKeyExistsWithObjects";
+   analyzer[] = "Php/AssertFunctionIsReserved";
+   analyzer[] = "Php/AssertionUsage";
+   analyzer[] = "Php/AssignAnd";
+   analyzer[] = "Php/Assumptions";
+   analyzer[] = "Php/AutoloadUsage";
+   analyzer[] = "Php/AvoidGetobjectVars";
+   analyzer[] = "Php/AvoidMbDectectEncoding";
+   analyzer[] = "Php/AvoidReal";
+   analyzer[] = "Php/AvoidSetErrorHandlerContextArg";
+   analyzer[] = "Php/BetterRand";
+   analyzer[] = "Php/CallingStaticTraitMethod";
+   analyzer[] = "Php/CantUseReturnValueInWriteContext";
+   analyzer[] = "Php/CaseForPSS";
+   analyzer[] = "Php/CastUnsetUsage";
+   analyzer[] = "Php/CastingUsage";
+   analyzer[] = "Php/ClassConstWithArray";
+   analyzer[] = "Php/ClassFunctionConfusion";
+   analyzer[] = "Php/CloseTags";
+   analyzer[] = "Php/CloseTagsConsistency";
+   analyzer[] = "Php/ClosureThisSupport";
+   analyzer[] = "Php/Coalesce";
+   analyzer[] = "Php/CoalesceEqual";
+   analyzer[] = "Php/CompactInexistant";
+   analyzer[] = "Php/ConcatAndAddition";
+   analyzer[] = "Php/ConstWithArray";
+   analyzer[] = "Php/ConstantScalarExpression";
+   analyzer[] = "Php/CookiesVariables";
+   analyzer[] = "Php/CouldUseIsCountable";
+   analyzer[] = "Php/CouldUsePromotedProperties";
+   analyzer[] = "Php/Crc32MightBeNegative";
+   analyzer[] = "Php/CryptoUsage";
+   analyzer[] = "Php/DateFormats";
+   analyzer[] = "Php/DeclareEncoding";
+   analyzer[] = "Php/DeclareStrict";
+   analyzer[] = "Php/DeclareStrictType";
+   analyzer[] = "Php/DeclareTicks";
+   analyzer[] = "Php/DefineWithArray";
+   analyzer[] = "Php/DeprecateDollarCurly";
+   analyzer[] = "Php/Deprecated";
+   analyzer[] = "Php/DetectCurrentClass";
+   analyzer[] = "Php/DirectCallToClone";
+   analyzer[] = "Php/DirectiveName";
+   analyzer[] = "Php/DirectivesUsage";
+   analyzer[] = "Php/DlUsage";
+   analyzer[] = "Php/DontPolluteGlobalSpace";
+   analyzer[] = "Php/EchoTagUsage";
+   analyzer[] = "Php/EllipsisUsage";
+   analyzer[] = "Php/EmptyList";
+   analyzer[] = "Php/EnumUsage";
+   analyzer[] = "Php/ErrorLogUsage";
+   analyzer[] = "Php/ExponentUsage";
+   analyzer[] = "Php/FailingAnalysis";
+   analyzer[] = "Php/FalseToArray";
+   analyzer[] = "Php/FilesFullPath";
+   analyzer[] = "Php/FilterToAddSlashes";
+   analyzer[] = "Php/FinalConstant";
+   analyzer[] = "Php/FirstClassCallable";
+   analyzer[] = "Php/FlexibleHeredoc";
+   analyzer[] = "Php/FopenMode";
+   analyzer[] = "Php/ForeachDontChangePointer";
+   analyzer[] = "Php/ForeachObject";
+   analyzer[] = "Php/GlobalWithoutSimpleVariable";
+   analyzer[] = "Php/GlobalsVsGlobal";
+   analyzer[] = "Php/Gotonames";
+   analyzer[] = "Php/GroupUseDeclaration";
+   analyzer[] = "Php/GroupUseTrailingComma";
+   analyzer[] = "Php/Haltcompiler";
+   analyzer[] = "Php/HashAlgos";
+   analyzer[] = "Php/HashAlgos53";
+   analyzer[] = "Php/HashAlgos54";
+   analyzer[] = "Php/HashAlgos71";
+   analyzer[] = "Php/HashAlgos74";
+   analyzer[] = "Php/HashUsesObjects";
+   analyzer[] = "Php/IdnUts46";
+   analyzer[] = "Php/ImplodeOneArg";
+   analyzer[] = "Php/IncomingValues";
+   analyzer[] = "Php/IncomingVariables";
+   analyzer[] = "Php/Incompilable";
+   analyzer[] = "Php/IntegerSeparatorUsage";
+   analyzer[] = "Php/InternalParameterType";
+   analyzer[] = "Php/IsAWithString";
+   analyzer[] = "Php/IsINF";
+   analyzer[] = "Php/IsNAN";
+   analyzer[] = "Php/IsnullVsEqualNull";
+   analyzer[] = "Php/IssetMultipleArgs";
+   analyzer[] = "Php/JsonSerializeReturnType";
+   analyzer[] = "Php/Labelnames";
+   analyzer[] = "Php/LetterCharsLogicalFavorite";
+   analyzer[] = "Php/ListShortSyntax";
+   analyzer[] = "Php/ListWithAppends";
+   analyzer[] = "Php/ListWithKeys";
+   analyzer[] = "Php/ListWithReference";
+   analyzer[] = "Php/LogicalInLetters";
+   analyzer[] = "Php/MethodCallOnNew";
+   analyzer[] = "Php/MiddleVersion";
+   analyzer[] = "Php/MissingMagicIsset";
+   analyzer[] = "Php/MissingSubpattern";
+   analyzer[] = "Php/MixedKeyword";
+   analyzer[] = "Php/MixedUsage";
+   analyzer[] = "Php/MultipleDeclareStrict";
+   analyzer[] = "Php/MustCallParentConstructor";
+   analyzer[] = "Php/NamedParameterUsage";
+   analyzer[] = "Php/NativeClassTypeCompatibility";
+   analyzer[] = "Php/NestedTernaryWithoutParenthesis";
+   analyzer[] = "Php/NeverKeyword";
+   analyzer[] = "Php/NeverTypehintUsage";
+   analyzer[] = "Php/NewExponent";
+   analyzer[] = "Php/NewInitializers";
+   analyzer[] = "Php/NoCastToInt";
+   analyzer[] = "Php/NoClassInGlobal";
+   analyzer[] = "Php/NoListWithString";
+   analyzer[] = "Php/NoMoreCurlyArrays";
+   analyzer[] = "Php/NoNullForNative";
+   analyzer[] = "Php/NoReferenceForStaticProperty";
+   analyzer[] = "Php/NoReferenceForTernary";
+   analyzer[] = "Php/NoReturnForGenerator";
+   analyzer[] = "Php/NoStringWithAppend";
+   analyzer[] = "Php/NoSubstrMinusOne";
+   analyzer[] = "Php/NotScalarType";
+   analyzer[] = "Php/OnlyVariableForReference";
+   analyzer[] = "Php/OpensslEncryptAlgoChange";
+   analyzer[] = "Php/OveriddenFunction";
+   analyzer[] = "Php/PHP70scalartypehints";
+   analyzer[] = "Php/PHP71scalartypehints";
+   analyzer[] = "Php/PHP72scalartypehints";
+   analyzer[] = "Php/PHP73LastEmptyArgument";
+   analyzer[] = "Php/PHP80scalartypehints";
+   analyzer[] = "Php/PHP81scalartypehints";
+   analyzer[] = "Php/ParenthesisAsParameter";
+   analyzer[] = "Php/Password55";
+   analyzer[] = "Php/PathinfoReturns";
+   analyzer[] = "Php/PearUsage";
+   analyzer[] = "Php/Php54NewFunctions";
+   analyzer[] = "Php/Php54RemovedFunctions";
+   analyzer[] = "Php/Php55NewFunctions";
+   analyzer[] = "Php/Php55RemovedFunctions";
+   analyzer[] = "Php/Php56NewFunctions";
+   analyzer[] = "Php/Php70NewClasses";
+   analyzer[] = "Php/Php70NewFunctions";
+   analyzer[] = "Php/Php70NewInterfaces";
+   analyzer[] = "Php/Php70RemovedDirective";
+   analyzer[] = "Php/Php70RemovedFunctions";
+   analyzer[] = "Php/Php71NewClasses";
+   analyzer[] = "Php/Php71NewFunctions";
+   analyzer[] = "Php/Php71RemovedDirective";
+   analyzer[] = "Php/Php71microseconds";
+   analyzer[] = "Php/Php72Deprecation";
+   analyzer[] = "Php/Php72NewClasses";
+   analyzer[] = "Php/Php72NewConstants";
+   analyzer[] = "Php/Php72NewFunctions";
+   analyzer[] = "Php/Php72ObjectKeyword";
+   analyzer[] = "Php/Php72RemovedFunctions";
+   analyzer[] = "Php/Php73NewFunctions";
+   analyzer[] = "Php/Php73RemovedFunctions";
+   analyzer[] = "Php/Php74Deprecation";
+   analyzer[] = "Php/Php74NewClasses";
+   analyzer[] = "Php/Php74NewConstants";
+   analyzer[] = "Php/Php74NewDirective";
+   analyzer[] = "Php/Php74NewFunctions";
+   analyzer[] = "Php/Php74RemovedDirective";
+   analyzer[] = "Php/Php74RemovedFunctions";
+   analyzer[] = "Php/Php74ReservedKeyword";
+   analyzer[] = "Php/Php74mbstrrpos3rdArg";
+   analyzer[] = "Php/Php7RelaxedKeyword";
+   analyzer[] = "Php/Php80NamedParameterVariadic";
+   analyzer[] = "Php/Php80NewFunctions";
+   analyzer[] = "Php/Php80OnlyTypeHints";
+   analyzer[] = "Php/Php80RemovedConstant";
+   analyzer[] = "Php/Php80RemovedDirective";
+   analyzer[] = "Php/Php80RemovedFunctions";
+   analyzer[] = "Php/Php80RemovesResources";
+   analyzer[] = "Php/Php80UnionTypehint";
+   analyzer[] = "Php/Php80VariableSyntax";
+   analyzer[] = "Php/Php81IntersectionTypehint";
+   analyzer[] = "Php/Php81NewFunctions";
+   analyzer[] = "Php/Php81RemovedConstant";
+   analyzer[] = "Php/Php81RemovedDirective";
+   analyzer[] = "Php/Php81RemovedFunctions";
+   analyzer[] = "Php/Php81RemovesResources";
+   analyzer[] = "Php/PhpErrorMsgUsage";
+   analyzer[] = "Php/PregMatchAllFlag";
+   analyzer[] = "Php/Prints";
+   analyzer[] = "Php/RawPostDataUsage";
+   analyzer[] = "Php/ReflectionExportIsDeprecated";
+   analyzer[] = "Php/ReservedKeywords7";
+   analyzer[] = "Php/ReservedMatchKeyword";
+   analyzer[] = "Php/ReservedNames";
+   analyzer[] = "Php/RestrictGlobalUsage";
+   analyzer[] = "Php/ReturnTypehintUsage";
+   analyzer[] = "Php/ReturnWithParenthesis";
+   analyzer[] = "Php/SafePhpvars";
+   analyzer[] = "Php/ScalarAreNotArrays";
+   analyzer[] = "Php/ScalarTypehintUsage";
+   analyzer[] = "Php/SerializeMagic";
+   analyzer[] = "Php/SessionVariables";
+   analyzer[] = "Php/SetExceptionHandlerPHP7";
+   analyzer[] = "Php/SetHandlers";
+   analyzer[] = "Php/ShellFavorite";
+   analyzer[] = "Php/ShortOpenTagRequired";
+   analyzer[] = "Php/ShouldPreprocess";
+   analyzer[] = "Php/ShouldUseArrayColumn";
+   analyzer[] = "Php/ShouldUseArrayFilter";
+   analyzer[] = "Php/ShouldUseCoalesce";
+   analyzer[] = "Php/ShouldUseFunction";
+   analyzer[] = "Php/SignatureTrailingComma";
+   analyzer[] = "Php/SpreadOperatorForArray";
+   analyzer[] = "Php/StaticclassUsage";
+   analyzer[] = "Php/StringIntComparison";
+   analyzer[] = "Php/StrtrArguments";
+   analyzer[] = "Php/SuperGlobalUsage";
+   analyzer[] = "Php/ThrowUsage";
+   analyzer[] = "Php/ThrowWasAnExpression";
+   analyzer[] = "Php/TooManyNativeCalls";
+   analyzer[] = "Php/TrailingComma";
+   analyzer[] = "Php/TriggerErrorUsage";
+   analyzer[] = "Php/TryCatchUsage";
+   analyzer[] = "Php/TryMultipleCatch";
+   analyzer[] = "Php/TypedPropertyUsage";
+   analyzer[] = "Php/UnicodeEscapePartial";
+   analyzer[] = "Php/UnicodeEscapeSyntax";
+   analyzer[] = "Php/UnknownPcre2Option";
+   analyzer[] = "Php/UnpackingInsideArrays";
+   analyzer[] = "Php/UnsetOrCast";
+   analyzer[] = "Php/UpperCaseFunction";
+   analyzer[] = "Php/UpperCaseKeyword";
+   analyzer[] = "Php/UseAttributes";
+   analyzer[] = "Php/UseBrowscap";
+   analyzer[] = "Php/UseClassAlias";
+   analyzer[] = "Php/UseCli";
+   analyzer[] = "Php/UseContravariance";
+   analyzer[] = "Php/UseCookies";
+   analyzer[] = "Php/UseCovariance";
+   analyzer[] = "Php/UseDateTimeImmutable";
+   analyzer[] = "Php/UseGetDebugType";
+   analyzer[] = "Php/UseMatch";
+   analyzer[] = "Php/UseNullSafeOperator";
+   analyzer[] = "Php/UseNullableType";
+   analyzer[] = "Php/UseObjectApi";
+   analyzer[] = "Php/UsePathinfo";
+   analyzer[] = "Php/UsePathinfoArgs";
+   analyzer[] = "Php/UseSessionStartOptions";
+   analyzer[] = "Php/UseSetCookie";
+   analyzer[] = "Php/UseStdclass";
+   analyzer[] = "Php/UseStrContains";
+   analyzer[] = "Php/UseTrailingUseComma";
+   analyzer[] = "Php/UseWeb";
+   analyzer[] = "Php/UsesEnv";
+   analyzer[] = "Php/UsortSorting";
+   analyzer[] = "Php/VersionCompareOperator";
+   analyzer[] = "Php/WrongAttributeConfiguration";
+   analyzer[] = "Php/WrongTypeForNativeFunction";
+   analyzer[] = "Php/YieldFromUsage";
+   analyzer[] = "Php/YieldUsage";
+   analyzer[] = "Php/debugInfoUsage";
+   analyzer[] = "Php/oldAutoloadUsage";
+   analyzer[] = "Portability/FopenMode";
+   analyzer[] = "Portability/GlobBraceUsage";
+   analyzer[] = "Portability/IconvTranslit";
+   analyzer[] = "Portability/LinuxOnlyFiles";
+   analyzer[] = "Portability/WindowsOnlyConstants";
+   analyzer[] = "Project/IsLibrary";
+   analyzer[] = "Psr/Psr11Usage";
+   analyzer[] = "Psr/Psr13Usage";
+   analyzer[] = "Psr/Psr16Usage";
+   analyzer[] = "Psr/Psr3Usage";
+   analyzer[] = "Psr/Psr6Usage";
+   analyzer[] = "Psr/Psr7Usage";
+   analyzer[] = "Security/AnchorRegex";
+   analyzer[] = "Security/AvoidThoseCrypto";
+   analyzer[] = "Security/CantDisableClass";
+   analyzer[] = "Security/CantDisableFunction";
+   analyzer[] = "Security/CompareHash";
+   analyzer[] = "Security/ConfigureExtract";
+   analyzer[] = "Security/CryptoKeyLength";
+   analyzer[] = "Security/CurlOptions";
+   analyzer[] = "Security/DirectInjection";
+   analyzer[] = "Security/DontEchoError";
+   analyzer[] = "Security/DynamicDl";
+   analyzer[] = "Security/EncodedLetters";
+   analyzer[] = "Security/FilterInputSource";
+   analyzer[] = "Security/GPRAliases";
+   analyzer[] = "Security/IndirectInjection";
+   analyzer[] = "Security/IntegerConversion";
+   analyzer[] = "Security/KeepFilesRestricted";
+   analyzer[] = "Security/MinusOneOnError";
+   analyzer[] = "Security/MkdirDefault";
+   analyzer[] = "Security/MoveUploadedFile";
+   analyzer[] = "Security/NoEntIgnore";
+   analyzer[] = "Security/NoNetForXmlLoad";
+   analyzer[] = "Security/NoSleep";
+   analyzer[] = "Security/NoWeakSSLCrypto";
+   analyzer[] = "Security/RegisterGlobals";
+   analyzer[] = "Security/SafeHttpHeaders";
+   analyzer[] = "Security/SensitiveArgument";
+   analyzer[] = "Security/SessionLazyWrite";
+   analyzer[] = "Security/SetCookieArgs";
+   analyzer[] = "Security/ShouldUsePreparedStatement";
+   analyzer[] = "Security/ShouldUseSessionRegenerateId";
+   analyzer[] = "Security/Sqlite3RequiresSingleQuotes";
+   analyzer[] = "Security/SuperGlobalContagion";
+   analyzer[] = "Security/UnserializeSecondArg";
+   analyzer[] = "Security/UploadFilenameInjection";
+   analyzer[] = "Security/parseUrlWithoutParameters";
+   analyzer[] = "Structures/AddZero";
+   analyzer[] = "Structures/AlteringForeachWithoutReference";
+   analyzer[] = "Structures/AlternativeConsistenceByFile";
+   analyzer[] = "Structures/AlwaysFalse";
+   analyzer[] = "Structures/ArrayFillWithObjects";
+   analyzer[] = "Structures/ArrayMapPassesByValue";
+   analyzer[] = "Structures/ArrayMergeAndVariadic";
+   analyzer[] = "Structures/ArrayMergeArrayArray";
+   analyzer[] = "Structures/ArrayMergeWithEllipsis";
+   analyzer[] = "Structures/ArraySearchMultipleKeys";
+   analyzer[] = "Structures/AssigneAndCompare";
+   analyzer[] = "Structures/AssignedInOneBranch";
+   analyzer[] = "Structures/AutoUnsetForeach";
+   analyzer[] = "Structures/BailOutEarly";
+   analyzer[] = "Structures/BasenameSuffix";
+   analyzer[] = "Structures/BooleanStrictComparison";
+   analyzer[] = "Structures/Bracketless";
+   analyzer[] = "Structures/Break0";
+   analyzer[] = "Structures/BreakNonInteger";
+   analyzer[] = "Structures/BreakOutsideLoop";
+   analyzer[] = "Structures/BuriedAssignation";
+   analyzer[] = "Structures/CalltimePassByReference";
+   analyzer[] = "Structures/CanCountNonCountable";
+   analyzer[] = "Structures/CastToBoolean";
+   analyzer[] = "Structures/CastingTernary";
+   analyzer[] = "Structures/CatchShadowsVariable";
+   analyzer[] = "Structures/CheckAllTypes";
+   analyzer[] = "Structures/CheckDivision";
+   analyzer[] = "Structures/CheckJson";
+   analyzer[] = "Structures/CoalesceAndConcat";
+   analyzer[] = "Structures/CommonAlternatives";
+   analyzer[] = "Structures/ComparedButNotAssignedStrings";
+   analyzer[] = "Structures/ComparedComparison";
+   analyzer[] = "Structures/ComparisonFavorite";
+   analyzer[] = "Structures/ComplexExpression";
+   analyzer[] = "Structures/ConcatEmpty";
+   analyzer[] = "Structures/ConcatenationInterpolationFavorite";
+   analyzer[] = "Structures/ConditionalStructures";
+   analyzer[] = "Structures/ConstDefineFavorite";
+   analyzer[] = "Structures/ConstantComparisonConsistance";
+   analyzer[] = "Structures/ConstantConditions";
+   analyzer[] = "Structures/ConstantScalarExpression";
+   analyzer[] = "Structures/ContinueIsForLoop";
+   analyzer[] = "Structures/CouldBeElse";
+   analyzer[] = "Structures/CouldBeSpaceship";
+   analyzer[] = "Structures/CouldBeStatic";
+   analyzer[] = "Structures/CouldBeTernary";
+   analyzer[] = "Structures/CouldUseArrayFillKeys";
+   analyzer[] = "Structures/CouldUseArraySum";
+   analyzer[] = "Structures/CouldUseArrayUnique";
+   analyzer[] = "Structures/CouldUseCompact";
+   analyzer[] = "Structures/CouldUseDir";
+   analyzer[] = "Structures/CouldUseMatch";
+   analyzer[] = "Structures/CouldUseNullableOperator";
+   analyzer[] = "Structures/CouldUseShortAssignation";
+   analyzer[] = "Structures/CouldUseStrrepeat";
+   analyzer[] = "Structures/CryptWithoutSalt";
+   analyzer[] = "Structures/CurlVersionNow";
+   analyzer[] = "Structures/DanglingArrayReferences";
+   analyzer[] = "Structures/DeclareStaticOnce";
+   analyzer[] = "Structures/DereferencingAS";
+   analyzer[] = "Structures/DieExitConsistance";
+   analyzer[] = "Structures/DifferencePreference";
+   analyzer[] = "Structures/DirThenSlash";
+   analyzer[] = "Structures/DirectlyUseFile";
+   analyzer[] = "Structures/DontAddSeconds";
+   analyzer[] = "Structures/DontBeTooManual";
+   analyzer[] = "Structures/DontChangeBlindKey";
+   analyzer[] = "Structures/DontCompareTypedBoolean";
+   analyzer[] = "Structures/DontLoopOnYield";
+   analyzer[] = "Structures/DontMixPlusPlus";
+   analyzer[] = "Structures/DontReadAndWriteInOneExpression";
+   analyzer[] = "Structures/DontReuseForeachSource";
+   analyzer[] = "Structures/DoubleAssignation";
+   analyzer[] = "Structures/DoubleInstruction";
+   analyzer[] = "Structures/DoubleObjectAssignation";
+   analyzer[] = "Structures/DropElseAfterReturn";
+   analyzer[] = "Structures/DuplicateCalls";
+   analyzer[] = "Structures/DynamicCalls";
+   analyzer[] = "Structures/DynamicCode";
+   analyzer[] = "Structures/EchoPrintConsistance";
+   analyzer[] = "Structures/EchoWithConcat";
+   analyzer[] = "Structures/ElseIfElseif";
+   analyzer[] = "Structures/ElseUsage";
+   analyzer[] = "Structures/EmptyBlocks";
+   analyzer[] = "Structures/EmptyLines";
+   analyzer[] = "Structures/EmptyTryCatch";
+   analyzer[] = "Structures/EmptyWithExpression";
+   analyzer[] = "Structures/ErrorMessages";
+   analyzer[] = "Structures/ErrorReportingWithInteger";
+   analyzer[] = "Structures/EvalUsage";
+   analyzer[] = "Structures/EvalWithoutTry";
+   analyzer[] = "Structures/ExitUsage";
+   analyzer[] = "Structures/FailingSubstrComparison";
+   analyzer[] = "Structures/Fallthrough";
+   analyzer[] = "Structures/FileUploadUsage";
+   analyzer[] = "Structures/FileUsage";
+   analyzer[] = "Structures/ForWithFunctioncall";
+   analyzer[] = "Structures/ForeachNeedReferencedSource";
+   analyzer[] = "Structures/ForeachReferenceIsNotModified";
+   analyzer[] = "Structures/ForeachSourceValue";
+   analyzer[] = "Structures/ForeachWithList";
+   analyzer[] = "Structures/ForgottenWhiteSpace";
+   analyzer[] = "Structures/FunctionPreSubscripting";
+   analyzer[] = "Structures/FunctionSubscripting";
+   analyzer[] = "Structures/GlobalInGlobal";
+   analyzer[] = "Structures/GlobalOutsideLoop";
+   analyzer[] = "Structures/GlobalUsage";
+   analyzer[] = "Structures/GoToKeyDirectly";
+   analyzer[] = "Structures/GtOrLtFavorite";
+   analyzer[] = "Structures/HeredocDelimiterFavorite";
+   analyzer[] = "Structures/Htmlentitiescall";
+   analyzer[] = "Structures/HtmlentitiescallDefaultFlag";
+   analyzer[] = "Structures/IdenticalConditions";
+   analyzer[] = "Structures/IdenticalConsecutive";
+   analyzer[] = "Structures/IdenticalElseif";
+   analyzer[] = "Structures/IdenticalOnBothSides";
+   analyzer[] = "Structures/IdenticalVariablesInForeach";
+   analyzer[] = "Structures/IfWithSameConditions";
+   analyzer[] = "Structures/Iffectation";
+   analyzer[] = "Structures/ImplicitConversionToInt";
+   analyzer[] = "Structures/ImplicitGlobal";
+   analyzer[] = "Structures/ImpliedIf";
+   analyzer[] = "Structures/ImplodeArgsOrder";
+   analyzer[] = "Structures/IncludeUsage";
+   analyzer[] = "Structures/InconsistentConcatenation";
+   analyzer[] = "Structures/InconsistentElseif";
+   analyzer[] = "Structures/IndicesAreIntOrString";
+   analyzer[] = "Structures/InfiniteRecursion";
+   analyzer[] = "Structures/InvalidPackFormat";
+   analyzer[] = "Structures/InvalidRegex";
+   analyzer[] = "Structures/IsZero";
+   analyzer[] = "Structures/IssetWithConstant";
+   analyzer[] = "Structures/JsonWithOption";
+   analyzer[] = "Structures/ListOmissions";
+   analyzer[] = "Structures/LogicalMistakes";
+   analyzer[] = "Structures/LoneBlock";
+   analyzer[] = "Structures/LongArguments";
+   analyzer[] = "Structures/LongBlock";
+   analyzer[] = "Structures/MailUsage";
+   analyzer[] = "Structures/MaxLevelOfIdentation";
+   analyzer[] = "Structures/MbstringThirdArg";
+   analyzer[] = "Structures/MbstringUnknownEncoding";
+   analyzer[] = "Structures/McryptcreateivWithoutOption";
+   analyzer[] = "Structures/MergeIfThen";
+   analyzer[] = "Structures/MismatchedTernary";
+   analyzer[] = "Structures/MissingCases";
+   analyzer[] = "Structures/MissingNew";
+   analyzer[] = "Structures/MissingParenthesis";
+   analyzer[] = "Structures/MixedConcatInterpolation";
+   analyzer[] = "Structures/ModernEmpty";
+   analyzer[] = "Structures/MultipleCatch";
+   analyzer[] = "Structures/MultipleDefinedCase";
+   analyzer[] = "Structures/MultipleSimilarCalls";
+   analyzer[] = "Structures/MultipleTypeVariable";
+   analyzer[] = "Structures/MultipleUnset";
+   analyzer[] = "Structures/MultiplyByOne";
+   analyzer[] = "Structures/NamedRegex";
+   analyzer[] = "Structures/NegativePow";
+   analyzer[] = "Structures/NestedIfthen";
+   analyzer[] = "Structures/NestedLoops";
+   analyzer[] = "Structures/NestedTernary";
+   analyzer[] = "Structures/NeverNegative";
+   analyzer[] = "Structures/NewLineStyle";
+   analyzer[] = "Structures/NextMonthTrap";
+   analyzer[] = "Structures/NoAppendOnSource";
+   analyzer[] = "Structures/NoArrayUnique";
+   analyzer[] = "Structures/NoAssignationInFunction";
+   analyzer[] = "Structures/NoChangeIncomingVariables";
+   analyzer[] = "Structures/NoChoice";
+   analyzer[] = "Structures/NoDirectAccess";
+   analyzer[] = "Structures/NoDirectUsage";
+   analyzer[] = "Structures/NoEmptyRegex";
+   analyzer[] = "Structures/NoGetClassNull";
+   analyzer[] = "Structures/NoHardcodedHash";
+   analyzer[] = "Structures/NoHardcodedIp";
+   analyzer[] = "Structures/NoHardcodedPath";
+   analyzer[] = "Structures/NoHardcodedPort";
+   analyzer[] = "Structures/NoIssetWithEmpty";
+   analyzer[] = "Structures/NoNeedForElse";
+   analyzer[] = "Structures/NoNeedForTriple";
+   analyzer[] = "Structures/NoNeedGetClass";
+   analyzer[] = "Structures/NoObjectAsIndex";
+   analyzer[] = "Structures/NoParenthesisForLanguageConstruct";
+   analyzer[] = "Structures/NoReferenceOnLeft";
+   analyzer[] = "Structures/NoReturnInFinally";
+   analyzer[] = "Structures/NoSubstrOne";
+   analyzer[] = "Structures/NoVariableIsACondition";
+   analyzer[] = "Structures/NonBreakableSpaceInNames";
+   analyzer[] = "Structures/Noscream";
+   analyzer[] = "Structures/NotEqual";
+   analyzer[] = "Structures/NotNot";
+   analyzer[] = "Structures/NotOrNot";
+   analyzer[] = "Structures/ObjectReferences";
+   analyzer[] = "Structures/OnceUsage";
+   analyzer[] = "Structures/OneDotOrObjectOperatorPerLine";
+   analyzer[] = "Structures/OneExpressionBracketsConsistency";
+   analyzer[] = "Structures/OneIfIsSufficient";
+   analyzer[] = "Structures/OneLevelOfIndentation";
+   analyzer[] = "Structures/OneLineTwoInstructions";
+   analyzer[] = "Structures/OnlyFirstByte";
+   analyzer[] = "Structures/OnlyVariableReturnedByReference";
+   analyzer[] = "Structures/OpensslRandomPseudoByteSecondArg";
+   analyzer[] = "Structures/OrDie";
+   analyzer[] = "Structures/OverwrittenForeachVar";
+   analyzer[] = "Structures/PHP7Dirname";
+   analyzer[] = "Structures/PhpinfoUsage";
+   analyzer[] = "Structures/PlusEgalOne";
+   analyzer[] = "Structures/PossibleIncrement";
+   analyzer[] = "Structures/PossibleInfiniteLoop";
+   analyzer[] = "Structures/PrintAndDie";
+   analyzer[] = "Structures/PrintWithoutParenthesis";
+   analyzer[] = "Structures/PrintfArguments";
+   analyzer[] = "Structures/PropertyVariableConfusion";
+   analyzer[] = "Structures/QueriesInLoop";
+   analyzer[] = "Structures/RandomWithoutTry";
+   analyzer[] = "Structures/RegexDelimiter";
+   analyzer[] = "Structures/RepeatedPrint";
+   analyzer[] = "Structures/RepeatedRegex";
+   analyzer[] = "Structures/ResourcesUsage";
+   analyzer[] = "Structures/ResultMayBeMissing";
+   analyzer[] = "Structures/ReturnTrueFalse";
+   analyzer[] = "Structures/ReturnVoid";
+   analyzer[] = "Structures/ReuseVariable";
+   analyzer[] = "Structures/SGVariablesConfusion";
+   analyzer[] = "Structures/SameConditions";
+   analyzer[] = "Structures/SequenceInFor";
+   analyzer[] = "Structures/SetAside";
+   analyzer[] = "Structures/SetlocaleNeedsConstants";
+   analyzer[] = "Structures/ShellUsage";
+   analyzer[] = "Structures/ShortTags";
+   analyzer[] = "Structures/ShouldChainException";
+   analyzer[] = "Structures/ShouldMakeTernary";
+   analyzer[] = "Structures/ShouldPreprocess";
+   analyzer[] = "Structures/ShouldUseExplodeArgs";
+   analyzer[] = "Structures/ShouldUseForeach";
+   analyzer[] = "Structures/ShouldUseMath";
+   analyzer[] = "Structures/ShouldUseOperator";
+   analyzer[] = "Structures/SimplePreg";
+   analyzer[] = "Structures/StaticLoop";
+   analyzer[] = "Structures/StringInterpolationFavorite";
+   analyzer[] = "Structures/StripTagsSkipsClosedTag";
+   analyzer[] = "Structures/StrposCompare";
+   analyzer[] = "Structures/SubstrLastArg";
+   analyzer[] = "Structures/SubstrToTrim";
+   analyzer[] = "Structures/SuspiciousComparison";
+   analyzer[] = "Structures/SwitchToSwitch";
+   analyzer[] = "Structures/SwitchWithMultipleDefault";
+   analyzer[] = "Structures/SwitchWithoutDefault";
+   analyzer[] = "Structures/TernaryInConcat";
+   analyzer[] = "Structures/TestThenCast";
+   analyzer[] = "Structures/ThrowsAndAssign";
+   analyzer[] = "Structures/TimestampDifference";
+   analyzer[] = "Structures/TooManyElseif";
+   analyzer[] = "Structures/TryFinally";
+   analyzer[] = "Structures/UncheckedResources";
+   analyzer[] = "Structures/UnconditionLoopBreak";
+   analyzer[] = "Structures/UnknownPregOption";
+   analyzer[] = "Structures/Unpreprocessed";
+   analyzer[] = "Structures/UnreachableCode";
+   analyzer[] = "Structures/UnsetInForeach";
+   analyzer[] = "Structures/UnsupportedOperandTypes";
+   analyzer[] = "Structures/UnsupportedTypesWithOperators";
+   analyzer[] = "Structures/UnusedGlobal";
+   analyzer[] = "Structures/UnusedLabel";
+   analyzer[] = "Structures/UseArrayFunctions";
+   analyzer[] = "Structures/UseCaseValue";
+   analyzer[] = "Structures/UseConstant";
+   analyzer[] = "Structures/UseCountRecursive";
+   analyzer[] = "Structures/UseDebug";
+   analyzer[] = "Structures/UseFileAppend";
+   analyzer[] = "Structures/UseInstanceof";
+   analyzer[] = "Structures/UseListWithForeach";
+   analyzer[] = "Structures/UsePositiveCondition";
+   analyzer[] = "Structures/UseSameTypesForComparisons";
+   analyzer[] = "Structures/UseSystemTmp";
+   analyzer[] = "Structures/UseUrlQueryFunctions";
+   analyzer[] = "Structures/UseVariableInsideLoop";
+   analyzer[] = "Structures/UselessBrackets";
+   analyzer[] = "Structures/UselessCasting";
+   analyzer[] = "Structures/UselessCheck";
+   analyzer[] = "Structures/UselessGlobal";
+   analyzer[] = "Structures/UselessInstruction";
+   analyzer[] = "Structures/UselessNullCoalesce";
+   analyzer[] = "Structures/UselessParenthesis";
+   analyzer[] = "Structures/UselessSwitch";
+   analyzer[] = "Structures/UselessUnset";
+   analyzer[] = "Structures/VardumpUsage";
+   analyzer[] = "Structures/VariableGlobal";
+   analyzer[] = "Structures/VariableMayBeNonGlobal";
+   analyzer[] = "Structures/WhileListEach";
+   analyzer[] = "Structures/WrongLocale";
+   analyzer[] = "Structures/WrongRange";
+   analyzer[] = "Structures/YodaComparison";
+   analyzer[] = "Structures/pregOptionE";
+   analyzer[] = "Structures/toStringThrowsException";
+   analyzer[] = "Traits/AlreadyParentsTrait";
+   analyzer[] = "Traits/CannotCallTraitMethod";
+   analyzer[] = "Traits/CouldUseTrait";
+   analyzer[] = "Traits/DependantTrait";
+   analyzer[] = "Traits/EmptyTrait";
+   analyzer[] = "Traits/IsExtTrait";
+   analyzer[] = "Traits/LocallyUsedProperty";
+   analyzer[] = "Traits/MethodCollisionTraits";
+   analyzer[] = "Traits/MultipleUsage";
+   analyzer[] = "Traits/Php";
+   analyzer[] = "Traits/SelfUsingTrait";
+   analyzer[] = "Traits/TraitMethod";
+   analyzer[] = "Traits/TraitNotFound";
+   analyzer[] = "Traits/TraitUsage";
+   analyzer[] = "Traits/Traitnames";
+   analyzer[] = "Traits/UndefinedInsteadof";
+   analyzer[] = "Traits/UndefinedTrait";
+   analyzer[] = "Traits/UnusedClassTrait";
+   analyzer[] = "Traits/UnusedTrait";
+   analyzer[] = "Traits/UsedOnceTrait";
+   analyzer[] = "Traits/UsedTrait";
+   analyzer[] = "Traits/UselessAlias";
+   analyzer[] = "Type/ArrayIndex";
+   analyzer[] = "Type/Binary";
+   analyzer[] = "Type/CharString";
+   analyzer[] = "Type/Continents";
+   analyzer[] = "Type/DuplicateLiteral";
+   analyzer[] = "Type/Email";
+   analyzer[] = "Type/GPCIndex";
+   analyzer[] = "Type/Heredoc";
+   analyzer[] = "Type/Hexadecimal";
+   analyzer[] = "Type/HexadecimalString";
+   analyzer[] = "Type/HttpHeader";
+   analyzer[] = "Type/HttpStatus";
+   analyzer[] = "Type/MalformedOctal";
+   analyzer[] = "Type/Md5String";
+   analyzer[] = "Type/MimeType";
+   analyzer[] = "Type/NoRealComparison";
+   analyzer[] = "Type/Nowdoc";
+   analyzer[] = "Type/Octal";
+   analyzer[] = "Type/OctalInString";
+   analyzer[] = "Type/OneVariableStrings";
+   analyzer[] = "Type/OpensslCipher";
+   analyzer[] = "Type/Pack";
+   analyzer[] = "Type/Path";
+   analyzer[] = "Type/Pcre";
+   analyzer[] = "Type/Ports";
+   analyzer[] = "Type/Printf";
+   analyzer[] = "Type/Protocols";
+   analyzer[] = "Type/Regex";
+   analyzer[] = "Type/Sapi";
+   analyzer[] = "Type/Shellcommands";
+   analyzer[] = "Type/ShouldBeSingleQuote";
+   analyzer[] = "Type/ShouldTypecast";
+   analyzer[] = "Type/SilentlyCastInteger";
+   analyzer[] = "Type/SimilarIntegers";
+   analyzer[] = "Type/SpecialIntegers";
+   analyzer[] = "Type/Sql";
+   analyzer[] = "Type/StringHoldAVariable";
+   analyzer[] = "Type/StringInterpolation";
+   analyzer[] = "Type/StringWithStrangeSpace";
+   analyzer[] = "Type/UdpDomains";
+   analyzer[] = "Type/UnicodeBlock";
+   analyzer[] = "Type/Url";
+   analyzer[] = "Typehints/CouldBeArray";
+   analyzer[] = "Typehints/CouldBeBoolean";
+   analyzer[] = "Typehints/CouldBeCIT";
+   analyzer[] = "Typehints/CouldBeCallable";
+   analyzer[] = "Typehints/CouldBeFloat";
+   analyzer[] = "Typehints/CouldBeGenerator";
+   analyzer[] = "Typehints/CouldBeInt";
+   analyzer[] = "Typehints/CouldBeIterable";
+   analyzer[] = "Typehints/CouldBeNever";
+   analyzer[] = "Typehints/CouldBeNull";
+   analyzer[] = "Typehints/CouldBeParent";
+   analyzer[] = "Typehints/CouldBeSelf";
+   analyzer[] = "Typehints/CouldBeString";
+   analyzer[] = "Typehints/CouldBeVoid";
+   analyzer[] = "Typehints/CouldNotType";
+   analyzer[] = "Typehints/MissingReturntype";
+   analyzer[] = "Typehints/MissingTypehints";
+   analyzer[] = "Utils/Selector";
+   analyzer[] = "Variables/AssignedTwiceOrMore";
+   analyzer[] = "Variables/Blind";
+   analyzer[] = "Variables/CloseNaming";
+   analyzer[] = "Variables/ComplexDynamicNames";
+   analyzer[] = "Variables/ConstantTypo";
+   analyzer[] = "Variables/Globals";
+   analyzer[] = "Variables/InconsistentUsage";
+   analyzer[] = "Variables/InheritedStaticVariable";
+   analyzer[] = "Variables/InterfaceArguments";
+   analyzer[] = "Variables/IsLocalConstant";
+   analyzer[] = "Variables/LocalGlobals";
+   analyzer[] = "Variables/LostReferences";
+   analyzer[] = "Variables/NoStaticVarInMethod";
+   analyzer[] = "Variables/Overwriting";
+   analyzer[] = "Variables/OverwrittenLiterals";
+   analyzer[] = "Variables/Php5IndirectExpression";
+   analyzer[] = "Variables/Php7IndirectExpression";
+   analyzer[] = "Variables/RealVariables";
+   analyzer[] = "Variables/RecycledVariables";
+   analyzer[] = "Variables/References";
+   analyzer[] = "Variables/SelfTransform";
+   analyzer[] = "Variables/StaticVariables";
+   analyzer[] = "Variables/StrangeName";
+   analyzer[] = "Variables/UncommonEnvVar";
+   analyzer[] = "Variables/UndefinedConstantName";
+   analyzer[] = "Variables/UndefinedVariable";
+   analyzer[] = "Variables/UniqueUsage";
+   analyzer[] = "Variables/VariableLong";
+   analyzer[] = "Variables/VariableNonascii";
+   analyzer[] = "Variables/VariableOneLetter";
+   analyzer[] = "Variables/VariablePhp";
+   analyzer[] = "Variables/VariableUppercase";
+   analyzer[] = "Variables/VariableUsedOnce";
+   analyzer[] = "Variables/VariableUsedOnceByContext";
+   analyzer[] = "Variables/VariableVariables";
+   analyzer[] = "Variables/WrittenOnlyVariable";
+   analyzer[] = "Vendors/Codeigniter";
+   analyzer[] = "Vendors/Concrete5";
+   analyzer[] = "Vendors/Drupal";
+   analyzer[] = "Vendors/Ez";
+   analyzer[] = "Vendors/Fuel";
+   analyzer[] = "Vendors/Joomla";
+   analyzer[] = "Vendors/Laravel";
+   analyzer[] = "Vendors/Phalcon";
+   analyzer[] = "Vendors/Sylius";
+   analyzer[] = "Vendors/Symfony";
+   analyzer[] = "Vendors/Typo3";
+   analyzer[] = "Vendors/Wordpress";
+   analyzer[] = "Vendors/Yii";
+
+
+.. _annex-yaml-all:
+
+All for .exakat.yaml
+++++++++++++++++++++
+
+
+YAML configuration for built-in rulesets. Copy them in your code, with the name .exakat.yaml, and edit them to your owns.
+::
+
+  rulesets:
+    'All':
+     - 'Arrays/AmbiguousKeys'
+     - 'Arrays/ArrayBracketConsistence'
+     - 'Arrays/ArrayNSUsage'
+     - 'Arrays/Arrayindex'
+     - 'Arrays/EmptyFinal'
+     - 'Arrays/EmptySlots'
+     - 'Arrays/FloatConversionAsIndex'
+     - 'Arrays/GettingLastElement'
+     - 'Arrays/MassCreation'
+     - 'Arrays/MistakenConcatenation'
+     - 'Arrays/MixedKeys'
+     - 'Arrays/Multidimensional'
+     - 'Arrays/MultipleIdenticalKeys'
+     - 'Arrays/NegativeStart'
+     - 'Arrays/NoSpreadForHash'
+     - 'Arrays/NonConstantArray'
+     - 'Arrays/NullBoolean'
+     - 'Arrays/Phparrayindex'
+     - 'Arrays/RandomlySortedLiterals'
+     - 'Arrays/ShouldPreprocess'
+     - 'Arrays/SliceFirst'
+     - 'Arrays/StringInitialization'
+     - 'Arrays/TooManyDimensions'
+     - 'Arrays/WeirdIndex'
+     - 'Arrays/WithCallback'
+     - 'Attributes/MissingAttributeAttribute'
+     - 'Attributes/ModifyImmutable'
+     - 'Attributes/NestedAttributes'
+     - 'Classes/AbstractConstants'
+     - 'Classes/AbstractOrImplements'
+     - 'Classes/AbstractStatic'
+     - 'Classes/Abstractclass'
+     - 'Classes/Abstractmethods'
+     - 'Classes/AccessPrivate'
+     - 'Classes/AccessProtected'
+     - 'Classes/AmbiguousStatic'
+     - 'Classes/AmbiguousVisibilities'
+     - 'Classes/Anonymous'
+     - 'Classes/AvoidOptionArrays'
+     - 'Classes/AvoidOptionalProperties'
+     - 'Classes/AvoidUsing'
+     - 'Classes/CancelCommonMethod'
+     - 'Classes/CantExtendFinal'
+     - 'Classes/CantInheritAbstractMethod'
+     - 'Classes/CantInstantiateClass'
+     - 'Classes/CantOverwriteFinalConstant'
+     - 'Classes/CantOverwriteFinalMethod'
+     - 'Classes/CheckOnCallUsage'
+     - 'Classes/ChecksPropertyExistence'
+     - 'Classes/ChildRemoveTypehint'
+     - 'Classes/CitSameName'
+     - 'Classes/ClassAliasUsage'
+     - 'Classes/ClassOverreach'
+     - 'Classes/ClassUsage'
+     - 'Classes/Classnames'
+     - 'Classes/CloneWithNonObject'
+     - 'Classes/CloningUsage'
+     - 'Classes/ConstVisibilityUsage'
+     - 'Classes/ConstantClass'
+     - 'Classes/ConstantDefinition'
+     - 'Classes/ConstantUsedBelow'
+     - 'Classes/Constructor'
+     - 'Classes/CouldBeAbstractClass'
+     - 'Classes/CouldBeClassConstant'
+     - 'Classes/CouldBeFinal'
+     - 'Classes/CouldBeIterable'
+     - 'Classes/CouldBeParentMethod'
+     - 'Classes/CouldBePrivate'
+     - 'Classes/CouldBePrivateConstante'
+     - 'Classes/CouldBePrivateMethod'
+     - 'Classes/CouldBeProtectedConstant'
+     - 'Classes/CouldBeProtectedMethod'
+     - 'Classes/CouldBeProtectedProperty'
+     - 'Classes/CouldBeStatic'
+     - 'Classes/CouldBeStringable'
+     - 'Classes/CouldSetPropertyDefault'
+     - 'Classes/CyclicReferences'
+     - 'Classes/DefinedConstants'
+     - 'Classes/DefinedParentMP'
+     - 'Classes/DefinedProperty'
+     - 'Classes/DefinedStaticMP'
+     - 'Classes/DemeterLaw'
+     - 'Classes/DependantAbstractClass'
+     - 'Classes/DifferentArgumentCounts'
+     - 'Classes/DirectCallToMagicMethod'
+     - 'Classes/DisconnectedClasses'
+     - 'Classes/DontSendThisInConstructor'
+     - 'Classes/DontUnsetProperties'
+     - 'Classes/DynamicClass'
+     - 'Classes/DynamicConstantCall'
+     - 'Classes/DynamicMethodCall'
+     - 'Classes/DynamicNew'
+     - 'Classes/DynamicPropertyCall'
+     - 'Classes/DynamicSelfCalls'
+     - 'Classes/EmptyClass'
+     - 'Classes/ExtendsStdclass'
+     - 'Classes/FinalByOcramius'
+     - 'Classes/FinalPrivate'
+     - 'Classes/Finalclass'
+     - 'Classes/Finalmethod'
+     - 'Classes/FossilizedMethod'
+     - 'Classes/HasFluentInterface'
+     - 'Classes/HasMagicProperty'
+     - 'Classes/HiddenNullable'
+     - 'Classes/IdenticalMethods'
+     - 'Classes/ImmutableSignature'
+     - 'Classes/ImplementIsForInterface'
+     - 'Classes/ImplementedMethodsArePublic'
+     - 'Classes/IncompatibleSignature'
+     - 'Classes/IncompatibleSignature74'
+     - 'Classes/InheritedPropertyMustMatch'
+     - 'Classes/InstantiatingAbstractClass'
+     - 'Classes/InsufficientPropertyTypehint'
+     - 'Classes/IntegerAsProperty'
+     - 'Classes/IsExtClass'
+     - 'Classes/IsInterfaceMethod'
+     - 'Classes/IsNotFamily'
+     - 'Classes/IsUpperFamily'
+     - 'Classes/IsaMagicProperty'
+     - 'Classes/LocallyUnusedProperty'
+     - 'Classes/LocallyUsedProperty'
+     - 'Classes/LoweredAccessLevel'
+     - 'Classes/MagicMethod'
+     - 'Classes/MagicProperties'
+     - 'Classes/MakeDefault'
+     - 'Classes/MakeGlobalAProperty'
+     - 'Classes/MakeMagicConcrete'
+     - 'Classes/MethodIsOverwritten'
+     - 'Classes/MethodSignatureMustBeCompatible'
+     - 'Classes/MethodUsedBelow'
+     - 'Classes/MismatchProperties'
+     - 'Classes/MissingAbstractMethod'
+     - 'Classes/MissingVisibility'
+     - 'Classes/ModifyingReadonly'
+     - 'Classes/MultipleClassesInFile'
+     - 'Classes/MultipleDeclarations'
+     - 'Classes/MultiplePropertyDeclarationOnOneLine'
+     - 'Classes/MultipleTraitOrInterface'
+     - 'Classes/MutualExtension'
+     - 'Classes/NewOnFunctioncallOrIdentifier'
+     - 'Classes/NoMagicWithArray'
+     - 'Classes/NoPSSOutsideClass'
+     - 'Classes/NoParent'
+     - 'Classes/NoPublicAccess'
+     - 'Classes/NoReadonlyAssignationInGlobal'
+     - 'Classes/NoSelfReferencingConstant'
+     - 'Classes/NonNullableSetters'
+     - 'Classes/NonPpp'
+     - 'Classes/NonStaticMethodsCalledStatic'
+     - 'Classes/NormalMethods'
+     - 'Classes/NullOnNew'
+     - 'Classes/OldStyleConstructor'
+     - 'Classes/OldStyleVar'
+     - 'Classes/OneObjectOperatorPerLine'
+     - 'Classes/OnlyStaticMethods'
+     - 'Classes/OrderOfDeclaration'
+     - 'Classes/OverwrittenConst'
+     - 'Classes/PPPDeclarationStyle'
+     - 'Classes/ParentFirst'
+     - 'Classes/ParentIsNotStatic'
+     - 'Classes/PromotedProperties'
+     - 'Classes/PropertyCouldBeLocal'
+     - 'Classes/PropertyDefinition'
+     - 'Classes/PropertyNeverUsed'
+     - 'Classes/PropertyUsedAbove'
+     - 'Classes/PropertyUsedBelow'
+     - 'Classes/PropertyUsedInOneMethodOnly'
+     - 'Classes/PropertyUsedInternally'
+     - 'Classes/PssWithoutClass'
+     - 'Classes/RaisedAccessLevel'
+     - 'Classes/ReadonlyUsage'
+     - 'Classes/RedefinedConstants'
+     - 'Classes/RedefinedDefault'
+     - 'Classes/RedefinedMethods'
+     - 'Classes/RedefinedPrivateProperty'
+     - 'Classes/RedefinedProperty'
+     - 'Classes/SameNameAsFile'
+     - 'Classes/ScalarOrObjectProperty'
+     - 'Classes/ShouldDeepClone'
+     - 'Classes/ShouldHaveDestructor'
+     - 'Classes/ShouldUseSelf'
+     - 'Classes/ShouldUseThis'
+     - 'Classes/StaticContainsThis'
+     - 'Classes/StaticMethods'
+     - 'Classes/StaticMethodsCalledFromObject'
+     - 'Classes/StaticProperties'
+     - 'Classes/StrangeName'
+     - 'Classes/SwappedArguments'
+     - 'Classes/TestClass'
+     - 'Classes/ThisIsForClasses'
+     - 'Classes/ThisIsNotAnArray'
+     - 'Classes/ThisIsNotForStatic'
+     - 'Classes/ThrowInDestruct'
+     - 'Classes/TooManyChildren'
+     - 'Classes/TooManyDereferencing'
+     - 'Classes/TooManyFinds'
+     - 'Classes/TooManyInjections'
+     - 'Classes/TypehintCyclicDependencies'
+     - 'Classes/UndeclaredStaticProperty'
+     - 'Classes/UndefinedClasses'
+     - 'Classes/UndefinedConstants'
+     - 'Classes/UndefinedMethod'
+     - 'Classes/UndefinedParentMP'
+     - 'Classes/UndefinedProperty'
+     - 'Classes/UndefinedStaticMP'
+     - 'Classes/UndefinedStaticclass'
+     - 'Classes/UnfinishedObject'
+     - 'Classes/UninitedProperty'
+     - 'Classes/UnitializedProperties'
+     - 'Classes/UnreachableConstant'
+     - 'Classes/UnreachableMethod'
+     - 'Classes/UnresolvedCatch'
+     - 'Classes/UnresolvedClasses'
+     - 'Classes/UnresolvedInstanceof'
+     - 'Classes/UnusedClass'
+     - 'Classes/UnusedConstant'
+     - 'Classes/UnusedMethods'
+     - 'Classes/UnusedPrivateMethod'
+     - 'Classes/UnusedPrivateProperty'
+     - 'Classes/UnusedProtectedMethods'
+     - 'Classes/UseClassOperator'
+     - 'Classes/UseInstanceof'
+     - 'Classes/UseThis'
+     - 'Classes/UsedClass'
+     - 'Classes/UsedMethods'
+     - 'Classes/UsedOnceProperty'
+     - 'Classes/UsedPrivateMethod'
+     - 'Classes/UsedPrivateProperty'
+     - 'Classes/UsedProtectedMethod'
+     - 'Classes/UselessAbstract'
+     - 'Classes/UselessConstructor'
+     - 'Classes/UselessFinal'
+     - 'Classes/UselessTypehint'
+     - 'Classes/UsingThisOutsideAClass'
+     - 'Classes/VariableClasses'
+     - 'Classes/WeakType'
+     - 'Classes/WrongCase'
+     - 'Classes/WrongName'
+     - 'Classes/WrongTypedPropertyInit'
+     - 'Classes/toStringPss'
+     - 'Common/InterfaceUsage'
+     - 'Complete/CreateCompactVariables'
+     - 'Complete/CreateDefaultValues'
+     - 'Complete/CreateForeachDefault'
+     - 'Complete/CreateMagicMethod'
+     - 'Complete/CreateMagicProperty'
+     - 'Complete/ExtendedTypehints'
+     - 'Complete/FollowClosureDefinition'
+     - 'Complete/IsExtStructure'
+     - 'Complete/IsPhpStructure'
+     - 'Complete/IsStubStructure'
+     - 'Complete/MakeAllStatics'
+     - 'Complete/MakeClassConstantDefinition'
+     - 'Complete/MakeClassMethodDefinition'
+     - 'Complete/MakeFunctioncallWithReference'
+     - 'Complete/OverwrittenConstants'
+     - 'Complete/OverwrittenMethods'
+     - 'Complete/OverwrittenProperties'
+     - 'Complete/PhpExtStubPropertyMethod'
+     - 'Complete/PhpNativeReference'
+     - 'Complete/PropagateCalls'
+     - 'Complete/PropagateConstants'
+     - 'Complete/ReturnTypehint'
+     - 'Complete/SetArrayClassDefinition'
+     - 'Complete/SetClassAliasDefinition'
+     - 'Complete/SetClassMethodRemoteDefinition'
+     - 'Complete/SetClassPropertyDefinitionWithTypehint'
+     - 'Complete/SetClassRemoteDefinitionWithGlobal'
+     - 'Complete/SetClassRemoteDefinitionWithInjection'
+     - 'Complete/SetClassRemoteDefinitionWithLocalNew'
+     - 'Complete/SetClassRemoteDefinitionWithParenthesis'
+     - 'Complete/SetClassRemoteDefinitionWithReturnTypehint'
+     - 'Complete/SetClassRemoteDefinitionWithTypehint'
+     - 'Complete/SetCloneLink'
+     - 'Complete/SetParentDefinition'
+     - 'Complete/SetStringMethodDefinition'
+     - 'Complete/SolveTraitMethods'
+     - 'Complete/VariableTypehint'
+     - 'Composer/Autoload'
+     - 'Composer/IsComposerClass'
+     - 'Composer/IsComposerInterface'
+     - 'Composer/IsComposerNsname'
+     - 'Composer/PackagesNames'
+     - 'Composer/UseComposer'
+     - 'Composer/UseComposerLock'
+     - 'Constants/BadConstantnames'
+     - 'Constants/CaseInsensitiveConstants'
+     - 'Constants/ConditionedConstants'
+     - 'Constants/ConstDefinePreference'
+     - 'Constants/ConstRecommended'
+     - 'Constants/ConstantStrangeNames'
+     - 'Constants/ConstantUsage'
+     - 'Constants/Constantnames'
+     - 'Constants/CouldBeConstant'
+     - 'Constants/CouldUseConstant'
+     - 'Constants/CreatedOutsideItsNamespace'
+     - 'Constants/CustomConstantUsage'
+     - 'Constants/DefineInsensitivePreference'
+     - 'Constants/DynamicCreation'
+     - 'Constants/InconsistantCase'
+     - 'Constants/InvalidName'
+     - 'Constants/IsExtConstant'
+     - 'Constants/IsGlobalConstant'
+     - 'Constants/IsPhpConstant'
+     - 'Constants/MagicConstantUsage'
+     - 'Constants/MultipleConstantDefinition'
+     - 'Constants/PhpConstantUsage'
+     - 'Constants/StrangeName'
+     - 'Constants/UndefinedConstants'
+     - 'Constants/UnusedConstants'
+     - 'Constants/VariableConstant'
+     - 'Dump/CallOrder'
+     - 'Dump/CollectAtomCounts'
+     - 'Dump/CollectBlockSize'
+     - 'Dump/CollectClassChanges'
+     - 'Dump/CollectClassChildren'
+     - 'Dump/CollectClassConstantCounts'
+     - 'Dump/CollectClassDepth'
+     - 'Dump/CollectClassInterfaceCounts'
+     - 'Dump/CollectClassTraitsCounts'
+     - 'Dump/CollectClassesDependencies'
+     - 'Dump/CollectDefinitionsStats'
+     - 'Dump/CollectDependencyExtension'
+     - 'Dump/CollectFilesDependencies'
+     - 'Dump/CollectForeachFavorite'
+     - 'Dump/CollectGlobalVariables'
+     - 'Dump/CollectLiterals'
+     - 'Dump/CollectLocalVariableCounts'
+     - 'Dump/CollectMbstringEncodings'
+     - 'Dump/CollectMethodCounts'
+     - 'Dump/CollectNativeCallsPerExpressions'
+     - 'Dump/CollectParameterCounts'
+     - 'Dump/CollectParameterNames'
+     - 'Dump/CollectPhpStructures'
+     - 'Dump/CollectPropertyCounts'
+     - 'Dump/CollectReadability'
+     - 'Dump/CollectStubStructures'
+     - 'Dump/CollectUseCounts'
+     - 'Dump/CollectVariables'
+     - 'Dump/ConstantOrder'
+     - 'Dump/CouldBeAConstant'
+     - 'Dump/CyclomaticComplexity'
+     - 'Dump/DereferencingLevels'
+     - 'Dump/EnvironnementVariables'
+     - 'Dump/FossilizedMethods'
+     - 'Dump/Inclusions'
+     - 'Dump/IndentationLevels'
+     - 'Dump/NewOrder'
+     - 'Dump/ParameterArgumentsLinks'
+     - 'Dump/PublicReach'
+     - 'Dump/TypehintingStats'
+     - 'Dump/Typehintorder'
+     - 'Enums/NoMagicMethod'
+     - 'Enums/UndefinedEnumcase'
+     - 'Enums/UnusedEnumCase'
+     - 'Exceptions/AlreadyCaught'
+     - 'Exceptions/CantThrow'
+     - 'Exceptions/CatchE'
+     - 'Exceptions/CatchUndefinedVariable'
+     - 'Exceptions/CaughtButNotThrown'
+     - 'Exceptions/CaughtExceptions'
+     - 'Exceptions/CouldUseTry'
+     - 'Exceptions/DefinedExceptions'
+     - 'Exceptions/ForgottenThrown'
+     - 'Exceptions/IsPhpException'
+     - 'Exceptions/LargeTryBlock'
+     - 'Exceptions/LongPreparation'
+     - 'Exceptions/MultipleCatch'
+     - 'Exceptions/OverwriteException'
+     - 'Exceptions/Rethrown'
+     - 'Exceptions/ThrowFunctioncall'
+     - 'Exceptions/ThrowRawExceptions'
+     - 'Exceptions/ThrownExceptions'
+     - 'Exceptions/UncaughtExceptions'
+     - 'Exceptions/Unthrown'
+     - 'Exceptions/UnusedExceptionVariable'
+     - 'Exceptions/UselessCatch'
+     - 'Extensions/Extamqp'
+     - 'Extensions/Extapache'
+     - 'Extensions/Extapc'
+     - 'Extensions/Extapcu'
+     - 'Extensions/Extarray'
+     - 'Extensions/Extast'
+     - 'Extensions/Extasync'
+     - 'Extensions/Extbcmath'
+     - 'Extensions/Extbzip2'
+     - 'Extensions/Extcairo'
+     - 'Extensions/Extcalendar'
+     - 'Extensions/Extcmark'
+     - 'Extensions/Extcom'
+     - 'Extensions/Extcrypto'
+     - 'Extensions/Extcsv'
+     - 'Extensions/Extctype'
+     - 'Extensions/Extcurl'
+     - 'Extensions/Extcyrus'
+     - 'Extensions/Extdate'
+     - 'Extensions/Extdb2'
+     - 'Extensions/Extdba'
+     - 'Extensions/Extdecimal'
+     - 'Extensions/Extdio'
+     - 'Extensions/Extdom'
+     - 'Extensions/Extds'
+     - 'Extensions/Exteaccelerator'
+     - 'Extensions/Exteio'
+     - 'Extensions/Extenchant'
+     - 'Extensions/Extereg'
+     - 'Extensions/Extev'
+     - 'Extensions/Extevent'
+     - 'Extensions/Extexcimer'
+     - 'Extensions/Extexif'
+     - 'Extensions/Extexpect'
+     - 'Extensions/Extfam'
+     - 'Extensions/Extfann'
+     - 'Extensions/Extfdf'
+     - 'Extensions/Extffi'
+     - 'Extensions/Extffmpeg'
+     - 'Extensions/Extfile'
+     - 'Extensions/Extfileinfo'
+     - 'Extensions/Extfilter'
+     - 'Extensions/Extfpm'
+     - 'Extensions/Extftp'
+     - 'Extensions/Extgd'
+     - 'Extensions/Extgearman'
+     - 'Extensions/Extgender'
+     - 'Extensions/Extgeoip'
+     - 'Extensions/Extgettext'
+     - 'Extensions/Extgmagick'
+     - 'Extensions/Extgmp'
+     - 'Extensions/Extgnupg'
+     - 'Extensions/Extgrpc'
+     - 'Extensions/Exthash'
+     - 'Extensions/Exthrtime'
+     - 'Extensions/Exthttp'
+     - 'Extensions/Extibase'
+     - 'Extensions/Exticonv'
+     - 'Extensions/Extigbinary'
+     - 'Extensions/Extiis'
+     - 'Extensions/Extimagick'
+     - 'Extensions/Extimap'
+     - 'Extensions/Extinfo'
+     - 'Extensions/Extinotify'
+     - 'Extensions/Extintl'
+     - 'Extensions/Extjson'
+     - 'Extensions/Extjudy'
+     - 'Extensions/Extkdm5'
+     - 'Extensions/Extlapack'
+     - 'Extensions/Extldap'
+     - 'Extensions/Extleveldb'
+     - 'Extensions/Extlibevent'
+     - 'Extensions/Extlibsodium'
+     - 'Extensions/Extlibxml'
+     - 'Extensions/Extlua'
+     - 'Extensions/Extlzf'
+     - 'Extensions/Extmail'
+     - 'Extensions/Extmailparse'
+     - 'Extensions/Extmath'
+     - 'Extensions/Extmbstring'
+     - 'Extensions/Extmcrypt'
+     - 'Extensions/Extmemcache'
+     - 'Extensions/Extmemcached'
+     - 'Extensions/Extmhash'
+     - 'Extensions/Extming'
+     - 'Extensions/Extmongo'
+     - 'Extensions/Extmongodb'
+     - 'Extensions/Extmsgpack'
+     - 'Extensions/Extmssql'
+     - 'Extensions/Extmysql'
+     - 'Extensions/Extmysqli'
+     - 'Extensions/Extncurses'
+     - 'Extensions/Extnewt'
+     - 'Extensions/Extnsapi'
+     - 'Extensions/Extob'
+     - 'Extensions/Extoci8'
+     - 'Extensions/Extodbc'
+     - 'Extensions/Extopcache'
+     - 'Extensions/Extopencensus'
+     - 'Extensions/Extopenssl'
+     - 'Extensions/Extparle'
+     - 'Extensions/Extparsekit'
+     - 'Extensions/Extpassword'
+     - 'Extensions/Extpcntl'
+     - 'Extensions/Extpcov'
+     - 'Extensions/Extpcre'
+     - 'Extensions/Extpdo'
+     - 'Extensions/Extpgsql'
+     - 'Extensions/Extphalcon'
+     - 'Extensions/Extphar'
+     - 'Extensions/Extpkcs11'
+     - 'Extensions/Extposix'
+     - 'Extensions/Extproctitle'
+     - 'Extensions/Extprotobuf'
+     - 'Extensions/Extpspell'
+     - 'Extensions/Extpsr'
+     - 'Extensions/Extrar'
+     - 'Extensions/Extrdkafka'
+     - 'Extensions/Extreadline'
+     - 'Extensions/Extrecode'
+     - 'Extensions/Extredis'
+     - 'Extensions/Extreflection'
+     - 'Extensions/Extrunkit'
+     - 'Extensions/Extsdl'
+     - 'Extensions/Extseaslog'
+     - 'Extensions/Extsem'
+     - 'Extensions/Extsession'
+     - 'Extensions/Extshmop'
+     - 'Extensions/Extsimplexml'
+     - 'Extensions/Extsnmp'
+     - 'Extensions/Extsoap'
+     - 'Extensions/Extsockets'
+     - 'Extensions/Extsphinx'
+     - 'Extensions/Extspl'
+     - 'Extensions/Extspx'
+     - 'Extensions/Extsqlite'
+     - 'Extensions/Extsqlite3'
+     - 'Extensions/Extsqlsrv'
+     - 'Extensions/Extssh2'
+     - 'Extensions/Extstandard'
+     - 'Extensions/Extstats'
+     - 'Extensions/Extstomp'
+     - 'Extensions/Extstring'
+     - 'Extensions/Extsuhosin'
+     - 'Extensions/Extsvm'
+     - 'Extensions/Extswoole'
+     - 'Extensions/Exttidy'
+     - 'Extensions/Exttokenizer'
+     - 'Extensions/Exttokyotyrant'
+     - 'Extensions/Exttrader'
+     - 'Extensions/Extuopz'
+     - 'Extensions/Extuuid'
+     - 'Extensions/Extv8js'
+     - 'Extensions/Extvarnish'
+     - 'Extensions/Extvips'
+     - 'Extensions/Extwasm'
+     - 'Extensions/Extwddx'
+     - 'Extensions/Extweakref'
+     - 'Extensions/Extwikidiff2'
+     - 'Extensions/Extwincache'
+     - 'Extensions/Extxattr'
+     - 'Extensions/Extxcache'
+     - 'Extensions/Extxdebug'
+     - 'Extensions/Extxdiff'
+     - 'Extensions/Extxhprof'
+     - 'Extensions/Extxml'
+     - 'Extensions/Extxmlreader'
+     - 'Extensions/Extxmlrpc'
+     - 'Extensions/Extxmlwriter'
+     - 'Extensions/Extxsl'
+     - 'Extensions/Extxxtea'
+     - 'Extensions/Extyaml'
+     - 'Extensions/Extyar'
+     - 'Extensions/Extyis'
+     - 'Extensions/Extzendmonitor'
+     - 'Extensions/Extzip'
+     - 'Extensions/Extzlib'
+     - 'Extensions/Extzmq'
+     - 'Extensions/Extzookeeper'
+     - 'Files/DefinitionsOnly'
+     - 'Files/GlobalCodeOnly'
+     - 'Files/InclusionWrongCase'
+     - 'Files/IsCliScript'
+     - 'Files/IsComponent'
+     - 'Files/MissingInclude'
+     - 'Files/NotDefinitionsOnly'
+     - 'Files/Services'
+     - 'Functions/AddDefaultValue'
+     - 'Functions/AliasesUsage'
+     - 'Functions/AvoidBooleanArgument'
+     - 'Functions/BadTypehintRelay'
+     - 'Functions/CallbackNeedsReturn'
+     - 'Functions/CancelledParameter'
+     - 'Functions/CannotUseStaticForClosure'
+     - 'Functions/CantUse'
+     - 'Functions/Closure2String'
+     - 'Functions/Closures'
+     - 'Functions/ConditionedFunctions'
+     - 'Functions/CouldBeCallable'
+     - 'Functions/CouldBeStaticClosure'
+     - 'Functions/CouldCentralize'
+     - 'Functions/CouldTypeWithArray'
+     - 'Functions/CouldTypeWithBool'
+     - 'Functions/CouldTypeWithInt'
+     - 'Functions/CouldTypeWithIterable'
+     - 'Functions/CouldTypeWithString'
+     - 'Functions/CouldTypehint'
+     - 'Functions/DeepDefinitions'
+     - 'Functions/DeprecatedCallable'
+     - 'Functions/DontUseVoid'
+     - 'Functions/DuplicateNamedParameter'
+     - 'Functions/DynamicCode'
+     - 'Functions/Dynamiccall'
+     - 'Functions/EmptyFunction'
+     - 'Functions/ExceedingTypehint'
+     - 'Functions/FallbackFunction'
+     - 'Functions/FnArgumentVariableConfusion'
+     - 'Functions/FunctionCalledWithOtherCase'
+     - 'Functions/Functionnames'
+     - 'Functions/FunctionsUsingReference'
+     - 'Functions/GeneratorCannotReturn'
+     - 'Functions/HardcodedPasswords'
+     - 'Functions/HasFluentInterface'
+     - 'Functions/HasNotFluentInterface'
+     - 'Functions/InsufficientTypehint'
+     - 'Functions/IsExtFunction'
+     - 'Functions/IsGenerator'
+     - 'Functions/IsGlobal'
+     - 'Functions/KillsApp'
+     - 'Functions/LoopCalling'
+     - 'Functions/MarkCallable'
+     - 'Functions/MismatchParameterAndType'
+     - 'Functions/MismatchParameterName'
+     - 'Functions/MismatchTypeAndDefault'
+     - 'Functions/MismatchedDefaultArguments'
+     - 'Functions/MismatchedTypehint'
+     - 'Functions/MissingTypehint'
+     - 'Functions/ModifyTypedParameter'
+     - 'Functions/MultipleDeclarations'
+     - 'Functions/MultipleIdenticalClosure'
+     - 'Functions/MultipleReturn'
+     - 'Functions/MultipleSameArguments'
+     - 'Functions/MustReturn'
+     - 'Functions/NeverUsedParameter'
+     - 'Functions/NoBooleanAsDefault'
+     - 'Functions/NoClassAsTypehint'
+     - 'Functions/NoLiteralForReference'
+     - 'Functions/NoReferencedVoid'
+     - 'Functions/NoReturnUsed'
+     - 'Functions/NullTypeFavorite'
+     - 'Functions/NullableWithConstant'
+     - 'Functions/NullableWithoutCheck'
+     - 'Functions/OneLetterFunctions'
+     - 'Functions/OnlyVariableForReference'
+     - 'Functions/OnlyVariablePassedByReference'
+     - 'Functions/OptionalParameter'
+     - 'Functions/ParameterHiding'
+     - 'Functions/PrefixToType'
+     - 'Functions/RealFunctions'
+     - 'Functions/Recursive'
+     - 'Functions/RedeclaredPhpFunction'
+     - 'Functions/RelayFunction'
+     - 'Functions/SemanticTyping'
+     - 'Functions/ShouldBeTypehinted'
+     - 'Functions/ShouldUseConstants'
+     - 'Functions/ShouldYieldWithKey'
+     - 'Functions/TooManyLocalVariables'
+     - 'Functions/TooManyParameters'
+     - 'Functions/TooMuchIndented'
+     - 'Functions/TypehintMustBeReturned'
+     - 'Functions/TypehintedReferences'
+     - 'Functions/Typehints'
+     - 'Functions/UnbindingClosures'
+     - 'Functions/UndefinedFunctions'
+     - 'Functions/UnknownParameterName'
+     - 'Functions/UnsetOnArguments'
+     - 'Functions/UnusedArguments'
+     - 'Functions/UnusedFunctions'
+     - 'Functions/UnusedInheritedVariable'
+     - 'Functions/UnusedReturnedValue'
+     - 'Functions/UseArrowFunctions'
+     - 'Functions/UseConstantAsArguments'
+     - 'Functions/UseConstantsAsReturns'
+     - 'Functions/UsedFunctions'
+     - 'Functions/UselessArgument'
+     - 'Functions/UselessDefault'
+     - 'Functions/UselessReferenceArgument'
+     - 'Functions/UselessReturn'
+     - 'Functions/UselessTypeCheck'
+     - 'Functions/UsesDefaultArguments'
+     - 'Functions/UsingDeprecated'
+     - 'Functions/VariableArguments'
+     - 'Functions/WithoutReturn'
+     - 'Functions/WrongArgumentNameWithPhpFunction'
+     - 'Functions/WrongArgumentType'
+     - 'Functions/WrongCase'
+     - 'Functions/WrongNumberOfArguments'
+     - 'Functions/WrongNumberOfArgumentsMethods'
+     - 'Functions/WrongOptionalParameter'
+     - 'Functions/WrongReturnedType'
+     - 'Functions/WrongTypeWithCall'
+     - 'Functions/WrongTypehintedName'
+     - 'Functions/funcGetArgModified'
+     - 'Interfaces/AlreadyParentsInterface'
+     - 'Interfaces/AvoidSelfInInterface'
+     - 'Interfaces/CantImplementTraversable'
+     - 'Interfaces/CantOverloadConstants'
+     - 'Interfaces/ConcreteVisibility'
+     - 'Interfaces/CouldUseInterface'
+     - 'Interfaces/EmptyInterface'
+     - 'Interfaces/InterfaceMethod'
+     - 'Interfaces/InterfaceUsage'
+     - 'Interfaces/Interfacenames'
+     - 'Interfaces/IsExtInterface'
+     - 'Interfaces/IsNotImplemented'
+     - 'Interfaces/NoConstructorInInterface'
+     - 'Interfaces/NoGaranteeForPropertyConstant'
+     - 'Interfaces/Php'
+     - 'Interfaces/PossibleInterfaces'
+     - 'Interfaces/RepeatedInterface'
+     - 'Interfaces/UndefinedInterfaces'
+     - 'Interfaces/UnusedInterfaces'
+     - 'Interfaces/UsedInterfaces'
+     - 'Interfaces/UselessInterfaces'
+     - 'Namespaces/Alias'
+     - 'Namespaces/AliasConfusion'
+     - 'Namespaces/ConstantFullyQualified'
+     - 'Namespaces/ConstantWithUseFavorite'
+     - 'Namespaces/CouldUseAlias'
+     - 'Namespaces/EmptyNamespace'
+     - 'Namespaces/GlobalImport'
+     - 'Namespaces/HiddenUse'
+     - 'Namespaces/MultipleAliasDefinitionPerFile'
+     - 'Namespaces/MultipleAliasDefinitions'
+     - 'Namespaces/NamespaceUsage'
+     - 'Namespaces/Namespacesnames'
+     - 'Namespaces/ShouldMakeAlias'
+     - 'Namespaces/UnresolvedUse'
+     - 'Namespaces/UnusedUse'
+     - 'Namespaces/UseFunctionsConstants'
+     - 'Namespaces/UseWithFullyQualifiedNS'
+     - 'Namespaces/UsedUse'
+     - 'Namespaces/WrongCase'
+     - 'Patterns/AbstractAway'
+     - 'Patterns/CourrierAntiPattern'
+     - 'Patterns/DependencyInjection'
+     - 'Patterns/Factory'
+     - 'Patterns/GetterSetter'
+     - 'Performances/ArrayKeyExistsSpeedup'
+     - 'Performances/ArrayMergeInLoops'
+     - 'Performances/Autoappend'
+     - 'Performances/AvoidArrayPush'
+     - 'Performances/CacheVariableOutsideLoop'
+     - 'Performances/ClassOperator'
+     - 'Performances/CsvInLoops'
+     - 'Performances/DoInBase'
+     - 'Performances/DoubleArrayFlip'
+     - 'Performances/FetchOneRowFormat'
+     - 'Performances/IssetWholeArray'
+     - 'Performances/JoinFile'
+     - 'Performances/LogicalToInArray'
+     - 'Performances/MakeOneCall'
+     - 'Performances/MbStringInLoop'
+     - 'Performances/MemoizeMagicCall'
+     - 'Performances/NoConcatInLoop'
+     - 'Performances/NoGlob'
+     - 'Performances/NotCountNull'
+     - 'Performances/OptimizeExplode'
+     - 'Performances/PHP7EncapsedStrings'
+     - 'Performances/Php74ArrayKeyExists'
+     - 'Performances/PrePostIncrement'
+     - 'Performances/RegexOnArrays'
+     - 'Performances/RegexOnCollector'
+     - 'Performances/SimpleSwitch'
+     - 'Performances/SimplifyForeach'
+     - 'Performances/SlowFunctions'
+     - 'Performances/StaticCallDontNeedObjects'
+     - 'Performances/StrposTooMuch'
+     - 'Performances/SubstrFirst'
+     - 'Performances/UseArraySlice'
+     - 'Performances/UseBlindVar'
+     - 'Performances/timeVsstrtotime'
+     - 'Php/AlternativeSyntax'
+     - 'Php/Argon2Usage'
+     - 'Php/ArrayKeyExistsWithObjects'
+     - 'Php/AssertFunctionIsReserved'
+     - 'Php/AssertionUsage'
+     - 'Php/AssignAnd'
+     - 'Php/Assumptions'
+     - 'Php/AutoloadUsage'
+     - 'Php/AvoidGetobjectVars'
+     - 'Php/AvoidMbDectectEncoding'
+     - 'Php/AvoidReal'
+     - 'Php/AvoidSetErrorHandlerContextArg'
+     - 'Php/BetterRand'
+     - 'Php/CallingStaticTraitMethod'
+     - 'Php/CantUseReturnValueInWriteContext'
+     - 'Php/CaseForPSS'
+     - 'Php/CastUnsetUsage'
+     - 'Php/CastingUsage'
+     - 'Php/ClassConstWithArray'
+     - 'Php/ClassFunctionConfusion'
+     - 'Php/CloseTags'
+     - 'Php/CloseTagsConsistency'
+     - 'Php/ClosureThisSupport'
+     - 'Php/Coalesce'
+     - 'Php/CoalesceEqual'
+     - 'Php/CompactInexistant'
+     - 'Php/ConcatAndAddition'
+     - 'Php/ConstWithArray'
+     - 'Php/ConstantScalarExpression'
+     - 'Php/CookiesVariables'
+     - 'Php/CouldUseIsCountable'
+     - 'Php/CouldUsePromotedProperties'
+     - 'Php/Crc32MightBeNegative'
+     - 'Php/CryptoUsage'
+     - 'Php/DateFormats'
+     - 'Php/DeclareEncoding'
+     - 'Php/DeclareStrict'
+     - 'Php/DeclareStrictType'
+     - 'Php/DeclareTicks'
+     - 'Php/DefineWithArray'
+     - 'Php/DeprecateDollarCurly'
+     - 'Php/Deprecated'
+     - 'Php/DetectCurrentClass'
+     - 'Php/DirectCallToClone'
+     - 'Php/DirectiveName'
+     - 'Php/DirectivesUsage'
+     - 'Php/DlUsage'
+     - 'Php/DontPolluteGlobalSpace'
+     - 'Php/EchoTagUsage'
+     - 'Php/EllipsisUsage'
+     - 'Php/EmptyList'
+     - 'Php/EnumUsage'
+     - 'Php/ErrorLogUsage'
+     - 'Php/ExponentUsage'
+     - 'Php/FailingAnalysis'
+     - 'Php/FalseToArray'
+     - 'Php/FilesFullPath'
+     - 'Php/FilterToAddSlashes'
+     - 'Php/FinalConstant'
+     - 'Php/FirstClassCallable'
+     - 'Php/FlexibleHeredoc'
+     - 'Php/FopenMode'
+     - 'Php/ForeachDontChangePointer'
+     - 'Php/ForeachObject'
+     - 'Php/GlobalWithoutSimpleVariable'
+     - 'Php/GlobalsVsGlobal'
+     - 'Php/Gotonames'
+     - 'Php/GroupUseDeclaration'
+     - 'Php/GroupUseTrailingComma'
+     - 'Php/Haltcompiler'
+     - 'Php/HashAlgos'
+     - 'Php/HashAlgos53'
+     - 'Php/HashAlgos54'
+     - 'Php/HashAlgos71'
+     - 'Php/HashAlgos74'
+     - 'Php/HashUsesObjects'
+     - 'Php/IdnUts46'
+     - 'Php/ImplodeOneArg'
+     - 'Php/IncomingValues'
+     - 'Php/IncomingVariables'
+     - 'Php/Incompilable'
+     - 'Php/IntegerSeparatorUsage'
+     - 'Php/InternalParameterType'
+     - 'Php/IsAWithString'
+     - 'Php/IsINF'
+     - 'Php/IsNAN'
+     - 'Php/IsnullVsEqualNull'
+     - 'Php/IssetMultipleArgs'
+     - 'Php/JsonSerializeReturnType'
+     - 'Php/Labelnames'
+     - 'Php/LetterCharsLogicalFavorite'
+     - 'Php/ListShortSyntax'
+     - 'Php/ListWithAppends'
+     - 'Php/ListWithKeys'
+     - 'Php/ListWithReference'
+     - 'Php/LogicalInLetters'
+     - 'Php/MethodCallOnNew'
+     - 'Php/MiddleVersion'
+     - 'Php/MissingMagicIsset'
+     - 'Php/MissingSubpattern'
+     - 'Php/MixedKeyword'
+     - 'Php/MixedUsage'
+     - 'Php/MultipleDeclareStrict'
+     - 'Php/MustCallParentConstructor'
+     - 'Php/NamedParameterUsage'
+     - 'Php/NativeClassTypeCompatibility'
+     - 'Php/NestedTernaryWithoutParenthesis'
+     - 'Php/NeverKeyword'
+     - 'Php/NeverTypehintUsage'
+     - 'Php/NewExponent'
+     - 'Php/NewInitializers'
+     - 'Php/NoCastToInt'
+     - 'Php/NoClassInGlobal'
+     - 'Php/NoListWithString'
+     - 'Php/NoMoreCurlyArrays'
+     - 'Php/NoNullForNative'
+     - 'Php/NoReferenceForStaticProperty'
+     - 'Php/NoReferenceForTernary'
+     - 'Php/NoReturnForGenerator'
+     - 'Php/NoStringWithAppend'
+     - 'Php/NoSubstrMinusOne'
+     - 'Php/NotScalarType'
+     - 'Php/OnlyVariableForReference'
+     - 'Php/OpensslEncryptAlgoChange'
+     - 'Php/OveriddenFunction'
+     - 'Php/PHP70scalartypehints'
+     - 'Php/PHP71scalartypehints'
+     - 'Php/PHP72scalartypehints'
+     - 'Php/PHP73LastEmptyArgument'
+     - 'Php/PHP80scalartypehints'
+     - 'Php/PHP81scalartypehints'
+     - 'Php/ParenthesisAsParameter'
+     - 'Php/Password55'
+     - 'Php/PathinfoReturns'
+     - 'Php/PearUsage'
+     - 'Php/Php54NewFunctions'
+     - 'Php/Php54RemovedFunctions'
+     - 'Php/Php55NewFunctions'
+     - 'Php/Php55RemovedFunctions'
+     - 'Php/Php56NewFunctions'
+     - 'Php/Php70NewClasses'
+     - 'Php/Php70NewFunctions'
+     - 'Php/Php70NewInterfaces'
+     - 'Php/Php70RemovedDirective'
+     - 'Php/Php70RemovedFunctions'
+     - 'Php/Php71NewClasses'
+     - 'Php/Php71NewFunctions'
+     - 'Php/Php71RemovedDirective'
+     - 'Php/Php71microseconds'
+     - 'Php/Php72Deprecation'
+     - 'Php/Php72NewClasses'
+     - 'Php/Php72NewConstants'
+     - 'Php/Php72NewFunctions'
+     - 'Php/Php72ObjectKeyword'
+     - 'Php/Php72RemovedFunctions'
+     - 'Php/Php73NewFunctions'
+     - 'Php/Php73RemovedFunctions'
+     - 'Php/Php74Deprecation'
+     - 'Php/Php74NewClasses'
+     - 'Php/Php74NewConstants'
+     - 'Php/Php74NewDirective'
+     - 'Php/Php74NewFunctions'
+     - 'Php/Php74RemovedDirective'
+     - 'Php/Php74RemovedFunctions'
+     - 'Php/Php74ReservedKeyword'
+     - 'Php/Php74mbstrrpos3rdArg'
+     - 'Php/Php7RelaxedKeyword'
+     - 'Php/Php80NamedParameterVariadic'
+     - 'Php/Php80NewFunctions'
+     - 'Php/Php80OnlyTypeHints'
+     - 'Php/Php80RemovedConstant'
+     - 'Php/Php80RemovedDirective'
+     - 'Php/Php80RemovedFunctions'
+     - 'Php/Php80RemovesResources'
+     - 'Php/Php80UnionTypehint'
+     - 'Php/Php80VariableSyntax'
+     - 'Php/Php81IntersectionTypehint'
+     - 'Php/Php81NewFunctions'
+     - 'Php/Php81RemovedConstant'
+     - 'Php/Php81RemovedDirective'
+     - 'Php/Php81RemovedFunctions'
+     - 'Php/Php81RemovesResources'
+     - 'Php/PhpErrorMsgUsage'
+     - 'Php/PregMatchAllFlag'
+     - 'Php/Prints'
+     - 'Php/RawPostDataUsage'
+     - 'Php/ReflectionExportIsDeprecated'
+     - 'Php/ReservedKeywords7'
+     - 'Php/ReservedMatchKeyword'
+     - 'Php/ReservedNames'
+     - 'Php/RestrictGlobalUsage'
+     - 'Php/ReturnTypehintUsage'
+     - 'Php/ReturnWithParenthesis'
+     - 'Php/SafePhpvars'
+     - 'Php/ScalarAreNotArrays'
+     - 'Php/ScalarTypehintUsage'
+     - 'Php/SerializeMagic'
+     - 'Php/SessionVariables'
+     - 'Php/SetExceptionHandlerPHP7'
+     - 'Php/SetHandlers'
+     - 'Php/ShellFavorite'
+     - 'Php/ShortOpenTagRequired'
+     - 'Php/ShouldPreprocess'
+     - 'Php/ShouldUseArrayColumn'
+     - 'Php/ShouldUseArrayFilter'
+     - 'Php/ShouldUseCoalesce'
+     - 'Php/ShouldUseFunction'
+     - 'Php/SignatureTrailingComma'
+     - 'Php/SpreadOperatorForArray'
+     - 'Php/StaticclassUsage'
+     - 'Php/StringIntComparison'
+     - 'Php/StrtrArguments'
+     - 'Php/SuperGlobalUsage'
+     - 'Php/ThrowUsage'
+     - 'Php/ThrowWasAnExpression'
+     - 'Php/TooManyNativeCalls'
+     - 'Php/TrailingComma'
+     - 'Php/TriggerErrorUsage'
+     - 'Php/TryCatchUsage'
+     - 'Php/TryMultipleCatch'
+     - 'Php/TypedPropertyUsage'
+     - 'Php/UnicodeEscapePartial'
+     - 'Php/UnicodeEscapeSyntax'
+     - 'Php/UnknownPcre2Option'
+     - 'Php/UnpackingInsideArrays'
+     - 'Php/UnsetOrCast'
+     - 'Php/UpperCaseFunction'
+     - 'Php/UpperCaseKeyword'
+     - 'Php/UseAttributes'
+     - 'Php/UseBrowscap'
+     - 'Php/UseClassAlias'
+     - 'Php/UseCli'
+     - 'Php/UseContravariance'
+     - 'Php/UseCookies'
+     - 'Php/UseCovariance'
+     - 'Php/UseDateTimeImmutable'
+     - 'Php/UseGetDebugType'
+     - 'Php/UseMatch'
+     - 'Php/UseNullSafeOperator'
+     - 'Php/UseNullableType'
+     - 'Php/UseObjectApi'
+     - 'Php/UsePathinfo'
+     - 'Php/UsePathinfoArgs'
+     - 'Php/UseSessionStartOptions'
+     - 'Php/UseSetCookie'
+     - 'Php/UseStdclass'
+     - 'Php/UseStrContains'
+     - 'Php/UseTrailingUseComma'
+     - 'Php/UseWeb'
+     - 'Php/UsesEnv'
+     - 'Php/UsortSorting'
+     - 'Php/VersionCompareOperator'
+     - 'Php/WrongAttributeConfiguration'
+     - 'Php/WrongTypeForNativeFunction'
+     - 'Php/YieldFromUsage'
+     - 'Php/YieldUsage'
+     - 'Php/debugInfoUsage'
+     - 'Php/oldAutoloadUsage'
+     - 'Portability/FopenMode'
+     - 'Portability/GlobBraceUsage'
+     - 'Portability/IconvTranslit'
+     - 'Portability/LinuxOnlyFiles'
+     - 'Portability/WindowsOnlyConstants'
+     - 'Project/IsLibrary'
+     - 'Psr/Psr11Usage'
+     - 'Psr/Psr13Usage'
+     - 'Psr/Psr16Usage'
+     - 'Psr/Psr3Usage'
+     - 'Psr/Psr6Usage'
+     - 'Psr/Psr7Usage'
+     - 'Security/AnchorRegex'
+     - 'Security/AvoidThoseCrypto'
+     - 'Security/CantDisableClass'
+     - 'Security/CantDisableFunction'
+     - 'Security/CompareHash'
+     - 'Security/ConfigureExtract'
+     - 'Security/CryptoKeyLength'
+     - 'Security/CurlOptions'
+     - 'Security/DirectInjection'
+     - 'Security/DontEchoError'
+     - 'Security/DynamicDl'
+     - 'Security/EncodedLetters'
+     - 'Security/FilterInputSource'
+     - 'Security/GPRAliases'
+     - 'Security/IndirectInjection'
+     - 'Security/IntegerConversion'
+     - 'Security/KeepFilesRestricted'
+     - 'Security/MinusOneOnError'
+     - 'Security/MkdirDefault'
+     - 'Security/MoveUploadedFile'
+     - 'Security/NoEntIgnore'
+     - 'Security/NoNetForXmlLoad'
+     - 'Security/NoSleep'
+     - 'Security/NoWeakSSLCrypto'
+     - 'Security/RegisterGlobals'
+     - 'Security/SafeHttpHeaders'
+     - 'Security/SensitiveArgument'
+     - 'Security/SessionLazyWrite'
+     - 'Security/SetCookieArgs'
+     - 'Security/ShouldUsePreparedStatement'
+     - 'Security/ShouldUseSessionRegenerateId'
+     - 'Security/Sqlite3RequiresSingleQuotes'
+     - 'Security/SuperGlobalContagion'
+     - 'Security/UnserializeSecondArg'
+     - 'Security/UploadFilenameInjection'
+     - 'Security/parseUrlWithoutParameters'
+     - 'Structures/AddZero'
+     - 'Structures/AlteringForeachWithoutReference'
+     - 'Structures/AlternativeConsistenceByFile'
+     - 'Structures/AlwaysFalse'
+     - 'Structures/ArrayFillWithObjects'
+     - 'Structures/ArrayMapPassesByValue'
+     - 'Structures/ArrayMergeAndVariadic'
+     - 'Structures/ArrayMergeArrayArray'
+     - 'Structures/ArrayMergeWithEllipsis'
+     - 'Structures/ArraySearchMultipleKeys'
+     - 'Structures/AssigneAndCompare'
+     - 'Structures/AssignedInOneBranch'
+     - 'Structures/AutoUnsetForeach'
+     - 'Structures/BailOutEarly'
+     - 'Structures/BasenameSuffix'
+     - 'Structures/BooleanStrictComparison'
+     - 'Structures/Bracketless'
+     - 'Structures/Break0'
+     - 'Structures/BreakNonInteger'
+     - 'Structures/BreakOutsideLoop'
+     - 'Structures/BuriedAssignation'
+     - 'Structures/CalltimePassByReference'
+     - 'Structures/CanCountNonCountable'
+     - 'Structures/CastToBoolean'
+     - 'Structures/CastingTernary'
+     - 'Structures/CatchShadowsVariable'
+     - 'Structures/CheckAllTypes'
+     - 'Structures/CheckDivision'
+     - 'Structures/CheckJson'
+     - 'Structures/CoalesceAndConcat'
+     - 'Structures/CommonAlternatives'
+     - 'Structures/ComparedButNotAssignedStrings'
+     - 'Structures/ComparedComparison'
+     - 'Structures/ComparisonFavorite'
+     - 'Structures/ComplexExpression'
+     - 'Structures/ConcatEmpty'
+     - 'Structures/ConcatenationInterpolationFavorite'
+     - 'Structures/ConditionalStructures'
+     - 'Structures/ConstDefineFavorite'
+     - 'Structures/ConstantComparisonConsistance'
+     - 'Structures/ConstantConditions'
+     - 'Structures/ConstantScalarExpression'
+     - 'Structures/ContinueIsForLoop'
+     - 'Structures/CouldBeElse'
+     - 'Structures/CouldBeSpaceship'
+     - 'Structures/CouldBeStatic'
+     - 'Structures/CouldBeTernary'
+     - 'Structures/CouldUseArrayFillKeys'
+     - 'Structures/CouldUseArraySum'
+     - 'Structures/CouldUseArrayUnique'
+     - 'Structures/CouldUseCompact'
+     - 'Structures/CouldUseDir'
+     - 'Structures/CouldUseMatch'
+     - 'Structures/CouldUseNullableOperator'
+     - 'Structures/CouldUseShortAssignation'
+     - 'Structures/CouldUseStrrepeat'
+     - 'Structures/CryptWithoutSalt'
+     - 'Structures/CurlVersionNow'
+     - 'Structures/DanglingArrayReferences'
+     - 'Structures/DeclareStaticOnce'
+     - 'Structures/DereferencingAS'
+     - 'Structures/DieExitConsistance'
+     - 'Structures/DifferencePreference'
+     - 'Structures/DirThenSlash'
+     - 'Structures/DirectlyUseFile'
+     - 'Structures/DontAddSeconds'
+     - 'Structures/DontBeTooManual'
+     - 'Structures/DontChangeBlindKey'
+     - 'Structures/DontCompareTypedBoolean'
+     - 'Structures/DontLoopOnYield'
+     - 'Structures/DontMixPlusPlus'
+     - 'Structures/DontReadAndWriteInOneExpression'
+     - 'Structures/DontReuseForeachSource'
+     - 'Structures/DoubleAssignation'
+     - 'Structures/DoubleInstruction'
+     - 'Structures/DoubleObjectAssignation'
+     - 'Structures/DropElseAfterReturn'
+     - 'Structures/DuplicateCalls'
+     - 'Structures/DynamicCalls'
+     - 'Structures/DynamicCode'
+     - 'Structures/EchoPrintConsistance'
+     - 'Structures/EchoWithConcat'
+     - 'Structures/ElseIfElseif'
+     - 'Structures/ElseUsage'
+     - 'Structures/EmptyBlocks'
+     - 'Structures/EmptyLines'
+     - 'Structures/EmptyTryCatch'
+     - 'Structures/EmptyWithExpression'
+     - 'Structures/ErrorMessages'
+     - 'Structures/ErrorReportingWithInteger'
+     - 'Structures/EvalUsage'
+     - 'Structures/EvalWithoutTry'
+     - 'Structures/ExitUsage'
+     - 'Structures/FailingSubstrComparison'
+     - 'Structures/Fallthrough'
+     - 'Structures/FileUploadUsage'
+     - 'Structures/FileUsage'
+     - 'Structures/ForWithFunctioncall'
+     - 'Structures/ForeachNeedReferencedSource'
+     - 'Structures/ForeachReferenceIsNotModified'
+     - 'Structures/ForeachSourceValue'
+     - 'Structures/ForeachWithList'
+     - 'Structures/ForgottenWhiteSpace'
+     - 'Structures/FunctionPreSubscripting'
+     - 'Structures/FunctionSubscripting'
+     - 'Structures/GlobalInGlobal'
+     - 'Structures/GlobalOutsideLoop'
+     - 'Structures/GlobalUsage'
+     - 'Structures/GoToKeyDirectly'
+     - 'Structures/GtOrLtFavorite'
+     - 'Structures/HeredocDelimiterFavorite'
+     - 'Structures/Htmlentitiescall'
+     - 'Structures/HtmlentitiescallDefaultFlag'
+     - 'Structures/IdenticalConditions'
+     - 'Structures/IdenticalConsecutive'
+     - 'Structures/IdenticalElseif'
+     - 'Structures/IdenticalOnBothSides'
+     - 'Structures/IdenticalVariablesInForeach'
+     - 'Structures/IfWithSameConditions'
+     - 'Structures/Iffectation'
+     - 'Structures/ImplicitConversionToInt'
+     - 'Structures/ImplicitGlobal'
+     - 'Structures/ImpliedIf'
+     - 'Structures/ImplodeArgsOrder'
+     - 'Structures/IncludeUsage'
+     - 'Structures/InconsistentConcatenation'
+     - 'Structures/InconsistentElseif'
+     - 'Structures/IndicesAreIntOrString'
+     - 'Structures/InfiniteRecursion'
+     - 'Structures/InvalidPackFormat'
+     - 'Structures/InvalidRegex'
+     - 'Structures/IsZero'
+     - 'Structures/IssetWithConstant'
+     - 'Structures/JsonWithOption'
+     - 'Structures/ListOmissions'
+     - 'Structures/LogicalMistakes'
+     - 'Structures/LoneBlock'
+     - 'Structures/LongArguments'
+     - 'Structures/LongBlock'
+     - 'Structures/MailUsage'
+     - 'Structures/MaxLevelOfIdentation'
+     - 'Structures/MbstringThirdArg'
+     - 'Structures/MbstringUnknownEncoding'
+     - 'Structures/McryptcreateivWithoutOption'
+     - 'Structures/MergeIfThen'
+     - 'Structures/MismatchedTernary'
+     - 'Structures/MissingCases'
+     - 'Structures/MissingNew'
+     - 'Structures/MissingParenthesis'
+     - 'Structures/MixedConcatInterpolation'
+     - 'Structures/ModernEmpty'
+     - 'Structures/MultipleCatch'
+     - 'Structures/MultipleDefinedCase'
+     - 'Structures/MultipleSimilarCalls'
+     - 'Structures/MultipleTypeVariable'
+     - 'Structures/MultipleUnset'
+     - 'Structures/MultiplyByOne'
+     - 'Structures/NamedRegex'
+     - 'Structures/NegativePow'
+     - 'Structures/NestedIfthen'
+     - 'Structures/NestedLoops'
+     - 'Structures/NestedTernary'
+     - 'Structures/NeverNegative'
+     - 'Structures/NewLineStyle'
+     - 'Structures/NextMonthTrap'
+     - 'Structures/NoAppendOnSource'
+     - 'Structures/NoArrayUnique'
+     - 'Structures/NoAssignationInFunction'
+     - 'Structures/NoChangeIncomingVariables'
+     - 'Structures/NoChoice'
+     - 'Structures/NoDirectAccess'
+     - 'Structures/NoDirectUsage'
+     - 'Structures/NoEmptyRegex'
+     - 'Structures/NoGetClassNull'
+     - 'Structures/NoHardcodedHash'
+     - 'Structures/NoHardcodedIp'
+     - 'Structures/NoHardcodedPath'
+     - 'Structures/NoHardcodedPort'
+     - 'Structures/NoIssetWithEmpty'
+     - 'Structures/NoNeedForElse'
+     - 'Structures/NoNeedForTriple'
+     - 'Structures/NoNeedGetClass'
+     - 'Structures/NoObjectAsIndex'
+     - 'Structures/NoParenthesisForLanguageConstruct'
+     - 'Structures/NoReferenceOnLeft'
+     - 'Structures/NoReturnInFinally'
+     - 'Structures/NoSubstrOne'
+     - 'Structures/NoVariableIsACondition'
+     - 'Structures/NonBreakableSpaceInNames'
+     - 'Structures/Noscream'
+     - 'Structures/NotEqual'
+     - 'Structures/NotNot'
+     - 'Structures/NotOrNot'
+     - 'Structures/ObjectReferences'
+     - 'Structures/OnceUsage'
+     - 'Structures/OneDotOrObjectOperatorPerLine'
+     - 'Structures/OneExpressionBracketsConsistency'
+     - 'Structures/OneIfIsSufficient'
+     - 'Structures/OneLevelOfIndentation'
+     - 'Structures/OneLineTwoInstructions'
+     - 'Structures/OnlyFirstByte'
+     - 'Structures/OnlyVariableReturnedByReference'
+     - 'Structures/OpensslRandomPseudoByteSecondArg'
+     - 'Structures/OrDie'
+     - 'Structures/OverwrittenForeachVar'
+     - 'Structures/PHP7Dirname'
+     - 'Structures/PhpinfoUsage'
+     - 'Structures/PlusEgalOne'
+     - 'Structures/PossibleIncrement'
+     - 'Structures/PossibleInfiniteLoop'
+     - 'Structures/PrintAndDie'
+     - 'Structures/PrintWithoutParenthesis'
+     - 'Structures/PrintfArguments'
+     - 'Structures/PropertyVariableConfusion'
+     - 'Structures/QueriesInLoop'
+     - 'Structures/RandomWithoutTry'
+     - 'Structures/RegexDelimiter'
+     - 'Structures/RepeatedPrint'
+     - 'Structures/RepeatedRegex'
+     - 'Structures/ResourcesUsage'
+     - 'Structures/ResultMayBeMissing'
+     - 'Structures/ReturnTrueFalse'
+     - 'Structures/ReturnVoid'
+     - 'Structures/ReuseVariable'
+     - 'Structures/SGVariablesConfusion'
+     - 'Structures/SameConditions'
+     - 'Structures/SequenceInFor'
+     - 'Structures/SetAside'
+     - 'Structures/SetlocaleNeedsConstants'
+     - 'Structures/ShellUsage'
+     - 'Structures/ShortTags'
+     - 'Structures/ShouldChainException'
+     - 'Structures/ShouldMakeTernary'
+     - 'Structures/ShouldPreprocess'
+     - 'Structures/ShouldUseExplodeArgs'
+     - 'Structures/ShouldUseForeach'
+     - 'Structures/ShouldUseMath'
+     - 'Structures/ShouldUseOperator'
+     - 'Structures/SimplePreg'
+     - 'Structures/StaticLoop'
+     - 'Structures/StringInterpolationFavorite'
+     - 'Structures/StripTagsSkipsClosedTag'
+     - 'Structures/StrposCompare'
+     - 'Structures/SubstrLastArg'
+     - 'Structures/SubstrToTrim'
+     - 'Structures/SuspiciousComparison'
+     - 'Structures/SwitchToSwitch'
+     - 'Structures/SwitchWithMultipleDefault'
+     - 'Structures/SwitchWithoutDefault'
+     - 'Structures/TernaryInConcat'
+     - 'Structures/TestThenCast'
+     - 'Structures/ThrowsAndAssign'
+     - 'Structures/TimestampDifference'
+     - 'Structures/TooManyElseif'
+     - 'Structures/TryFinally'
+     - 'Structures/UncheckedResources'
+     - 'Structures/UnconditionLoopBreak'
+     - 'Structures/UnknownPregOption'
+     - 'Structures/Unpreprocessed'
+     - 'Structures/UnreachableCode'
+     - 'Structures/UnsetInForeach'
+     - 'Structures/UnsupportedOperandTypes'
+     - 'Structures/UnsupportedTypesWithOperators'
+     - 'Structures/UnusedGlobal'
+     - 'Structures/UnusedLabel'
+     - 'Structures/UseArrayFunctions'
+     - 'Structures/UseCaseValue'
+     - 'Structures/UseConstant'
+     - 'Structures/UseCountRecursive'
+     - 'Structures/UseDebug'
+     - 'Structures/UseFileAppend'
+     - 'Structures/UseInstanceof'
+     - 'Structures/UseListWithForeach'
+     - 'Structures/UsePositiveCondition'
+     - 'Structures/UseSameTypesForComparisons'
+     - 'Structures/UseSystemTmp'
+     - 'Structures/UseUrlQueryFunctions'
+     - 'Structures/UseVariableInsideLoop'
+     - 'Structures/UselessBrackets'
+     - 'Structures/UselessCasting'
+     - 'Structures/UselessCheck'
+     - 'Structures/UselessGlobal'
+     - 'Structures/UselessInstruction'
+     - 'Structures/UselessNullCoalesce'
+     - 'Structures/UselessParenthesis'
+     - 'Structures/UselessSwitch'
+     - 'Structures/UselessUnset'
+     - 'Structures/VardumpUsage'
+     - 'Structures/VariableGlobal'
+     - 'Structures/VariableMayBeNonGlobal'
+     - 'Structures/WhileListEach'
+     - 'Structures/WrongLocale'
+     - 'Structures/WrongRange'
+     - 'Structures/YodaComparison'
+     - 'Structures/pregOptionE'
+     - 'Structures/toStringThrowsException'
+     - 'Traits/AlreadyParentsTrait'
+     - 'Traits/CannotCallTraitMethod'
+     - 'Traits/CouldUseTrait'
+     - 'Traits/DependantTrait'
+     - 'Traits/EmptyTrait'
+     - 'Traits/IsExtTrait'
+     - 'Traits/LocallyUsedProperty'
+     - 'Traits/MethodCollisionTraits'
+     - 'Traits/MultipleUsage'
+     - 'Traits/Php'
+     - 'Traits/SelfUsingTrait'
+     - 'Traits/TraitMethod'
+     - 'Traits/TraitNotFound'
+     - 'Traits/TraitUsage'
+     - 'Traits/Traitnames'
+     - 'Traits/UndefinedInsteadof'
+     - 'Traits/UndefinedTrait'
+     - 'Traits/UnusedClassTrait'
+     - 'Traits/UnusedTrait'
+     - 'Traits/UsedOnceTrait'
+     - 'Traits/UsedTrait'
+     - 'Traits/UselessAlias'
+     - 'Type/ArrayIndex'
+     - 'Type/Binary'
+     - 'Type/CharString'
+     - 'Type/Continents'
+     - 'Type/DuplicateLiteral'
+     - 'Type/Email'
+     - 'Type/GPCIndex'
+     - 'Type/Heredoc'
+     - 'Type/Hexadecimal'
+     - 'Type/HexadecimalString'
+     - 'Type/HttpHeader'
+     - 'Type/HttpStatus'
+     - 'Type/MalformedOctal'
+     - 'Type/Md5String'
+     - 'Type/MimeType'
+     - 'Type/NoRealComparison'
+     - 'Type/Nowdoc'
+     - 'Type/Octal'
+     - 'Type/OctalInString'
+     - 'Type/OneVariableStrings'
+     - 'Type/OpensslCipher'
+     - 'Type/Pack'
+     - 'Type/Path'
+     - 'Type/Pcre'
+     - 'Type/Ports'
+     - 'Type/Printf'
+     - 'Type/Protocols'
+     - 'Type/Regex'
+     - 'Type/Sapi'
+     - 'Type/Shellcommands'
+     - 'Type/ShouldBeSingleQuote'
+     - 'Type/ShouldTypecast'
+     - 'Type/SilentlyCastInteger'
+     - 'Type/SimilarIntegers'
+     - 'Type/SpecialIntegers'
+     - 'Type/Sql'
+     - 'Type/StringHoldAVariable'
+     - 'Type/StringInterpolation'
+     - 'Type/StringWithStrangeSpace'
+     - 'Type/UdpDomains'
+     - 'Type/UnicodeBlock'
+     - 'Type/Url'
+     - 'Typehints/CouldBeArray'
+     - 'Typehints/CouldBeBoolean'
+     - 'Typehints/CouldBeCIT'
+     - 'Typehints/CouldBeCallable'
+     - 'Typehints/CouldBeFloat'
+     - 'Typehints/CouldBeGenerator'
+     - 'Typehints/CouldBeInt'
+     - 'Typehints/CouldBeIterable'
+     - 'Typehints/CouldBeNever'
+     - 'Typehints/CouldBeNull'
+     - 'Typehints/CouldBeParent'
+     - 'Typehints/CouldBeSelf'
+     - 'Typehints/CouldBeString'
+     - 'Typehints/CouldBeVoid'
+     - 'Typehints/CouldNotType'
+     - 'Typehints/MissingReturntype'
+     - 'Typehints/MissingTypehints'
+     - 'Utils/Selector'
+     - 'Variables/AssignedTwiceOrMore'
+     - 'Variables/Blind'
+     - 'Variables/CloseNaming'
+     - 'Variables/ComplexDynamicNames'
+     - 'Variables/ConstantTypo'
+     - 'Variables/Globals'
+     - 'Variables/InconsistentUsage'
+     - 'Variables/InheritedStaticVariable'
+     - 'Variables/InterfaceArguments'
+     - 'Variables/IsLocalConstant'
+     - 'Variables/LocalGlobals'
+     - 'Variables/LostReferences'
+     - 'Variables/NoStaticVarInMethod'
+     - 'Variables/Overwriting'
+     - 'Variables/OverwrittenLiterals'
+     - 'Variables/Php5IndirectExpression'
+     - 'Variables/Php7IndirectExpression'
+     - 'Variables/RealVariables'
+     - 'Variables/RecycledVariables'
+     - 'Variables/References'
+     - 'Variables/SelfTransform'
+     - 'Variables/StaticVariables'
+     - 'Variables/StrangeName'
+     - 'Variables/UncommonEnvVar'
+     - 'Variables/UndefinedConstantName'
+     - 'Variables/UndefinedVariable'
+     - 'Variables/UniqueUsage'
+     - 'Variables/VariableLong'
+     - 'Variables/VariableNonascii'
+     - 'Variables/VariableOneLetter'
+     - 'Variables/VariablePhp'
+     - 'Variables/VariableUppercase'
+     - 'Variables/VariableUsedOnce'
+     - 'Variables/VariableUsedOnceByContext'
+     - 'Variables/VariableVariables'
+     - 'Variables/WrittenOnlyVariable'
+     - 'Vendors/Codeigniter'
+     - 'Vendors/Concrete5'
+     - 'Vendors/Drupal'
+     - 'Vendors/Ez'
+     - 'Vendors/Fuel'
+     - 'Vendors/Joomla'
+     - 'Vendors/Laravel'
+     - 'Vendors/Phalcon'
+     - 'Vendors/Sylius'
+     - 'Vendors/Symfony'
+     - 'Vendors/Typo3'
+     - 'Vendors/Wordpress'
+     - 'Vendors/Yii'
+
+
+
+
 .. _annex-analyze:
 
 Analyze
@@ -3662,6 +6679,41 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
 
 
 
+.. _annex-classdependencies:
+
+Classdependencies
+#################
+
+
+.. _annex-ini-classdependencies:
+
+Classdependencies for INI
++++++++++++++++++++++++++
+
+
+INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and edit them to your owns.
+::
+
+ [Classdependencies]
+   analyzer[] = "Dump/CollectClassesDependencies";
+
+
+.. _annex-yaml-classdependencies:
+
+Classdependencies for .exakat.yaml
+++++++++++++++++++++++++++++++++++
+
+
+YAML configuration for built-in rulesets. Copy them in your code, with the name .exakat.yaml, and edit them to your owns.
+::
+
+  rulesets:
+    'Classdependencies':
+     - 'Dump/CollectClassesDependencies'
+
+
+
+
 .. _annex-coding-conventions:
 
 Coding conventions
@@ -5196,6 +8248,55 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
 
 
 
+.. _annex-compatibilityphp82:
+
+CompatibilityPHP82
+##################
+
+
+.. _annex-ini-compatibilityphp82:
+
+CompatibilityPHP82 for INI
+++++++++++++++++++++++++++
+
+
+INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and edit them to your owns.
+::
+
+ [CompatibilityPHP82]
+   analyzer[] = "Arrays/FloatConversionAsIndex";
+   analyzer[] = "Classes/ChecksPropertyExistence";
+   analyzer[] = "Classes/ExtendsStdclass";
+   analyzer[] = "Functions/DeprecatedCallable";
+   analyzer[] = "Php/DeprecateDollarCurly";
+   analyzer[] = "Php/FalseToArray";
+   analyzer[] = "Php/VersionCompareOperator";
+   analyzer[] = "Traits/CannotCallTraitMethod";
+
+
+.. _annex-yaml-compatibilityphp82:
+
+CompatibilityPHP82 for .exakat.yaml
++++++++++++++++++++++++++++++++++++
+
+
+YAML configuration for built-in rulesets. Copy them in your code, with the name .exakat.yaml, and edit them to your owns.
+::
+
+  rulesets:
+    'CompatibilityPHP82':
+     - 'Arrays/FloatConversionAsIndex'
+     - 'Classes/ChecksPropertyExistence'
+     - 'Classes/ExtendsStdclass'
+     - 'Functions/DeprecatedCallable'
+     - 'Php/DeprecateDollarCurly'
+     - 'Php/FalseToArray'
+     - 'Php/VersionCompareOperator'
+     - 'Traits/CannotCallTraitMethod'
+
+
+
+
 .. _annex-dead-code:
 
 Dead code
@@ -5599,6 +8700,223 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
 
 
 
+.. _annex-isext:
+
+IsExt
+#####
+
+
+.. _annex-ini-isext:
+
+IsExt for INI
++++++++++++++
+
+
+INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and edit them to your owns.
+::
+
+ [IsExt]
+   analyzer[] = "Classes/CantExtendFinal";
+   analyzer[] = "Classes/CantOverwriteFinalConstant";
+   analyzer[] = "Classes/CantOverwriteFinalMethod";
+   analyzer[] = "Classes/DefinedConstants";
+   analyzer[] = "Classes/IsInterfaceMethod";
+   analyzer[] = "Classes/LoweredAccessLevel";
+   analyzer[] = "Classes/RaisedAccessLevel";
+   analyzer[] = "Classes/UndefinedConstants";
+   analyzer[] = "Complete/MakeFunctioncallWithReference";
+   analyzer[] = "Complete/PhpNativeReference";
+   analyzer[] = "Constants/UndefinedConstants";
+   analyzer[] = "Enums/UndefinedEnumcase";
+   analyzer[] = "Functions/OnlyVariablePassedByReference";
+   analyzer[] = "Functions/WrongArgumentNameWithPhpFunction";
+   analyzer[] = "Functions/WrongNumberOfArguments";
+   analyzer[] = "Interfaces/AlreadyParentsInterface";
+   analyzer[] = "Interfaces/IsNotImplemented";
+   analyzer[] = "Php/OnlyVariableForReference";
+   analyzer[] = "Php/UpperCaseFunction";
+   analyzer[] = "Structures/ArrayMapPassesByValue";
+
+
+.. _annex-yaml-isext:
+
+IsExt for .exakat.yaml
+++++++++++++++++++++++
+
+
+YAML configuration for built-in rulesets. Copy them in your code, with the name .exakat.yaml, and edit them to your owns.
+::
+
+  rulesets:
+    'IsExt':
+     - 'Classes/CantExtendFinal'
+     - 'Classes/CantOverwriteFinalConstant'
+     - 'Classes/CantOverwriteFinalMethod'
+     - 'Classes/DefinedConstants'
+     - 'Classes/IsInterfaceMethod'
+     - 'Classes/LoweredAccessLevel'
+     - 'Classes/RaisedAccessLevel'
+     - 'Classes/UndefinedConstants'
+     - 'Complete/MakeFunctioncallWithReference'
+     - 'Complete/PhpNativeReference'
+     - 'Constants/UndefinedConstants'
+     - 'Enums/UndefinedEnumcase'
+     - 'Functions/OnlyVariablePassedByReference'
+     - 'Functions/WrongArgumentNameWithPhpFunction'
+     - 'Functions/WrongNumberOfArguments'
+     - 'Interfaces/AlreadyParentsInterface'
+     - 'Interfaces/IsNotImplemented'
+     - 'Php/OnlyVariableForReference'
+     - 'Php/UpperCaseFunction'
+     - 'Structures/ArrayMapPassesByValue'
+
+
+
+
+.. _annex-isphp:
+
+IsPHP
+#####
+
+
+.. _annex-ini-isphp:
+
+IsPHP for INI
++++++++++++++
+
+
+INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and edit them to your owns.
+::
+
+ [IsPHP]
+   analyzer[] = "Classes/CantExtendFinal";
+   analyzer[] = "Classes/CantOverwriteFinalConstant";
+   analyzer[] = "Classes/CantOverwriteFinalMethod";
+   analyzer[] = "Classes/DefinedConstants";
+   analyzer[] = "Classes/IsInterfaceMethod";
+   analyzer[] = "Classes/LoweredAccessLevel";
+   analyzer[] = "Classes/RaisedAccessLevel";
+   analyzer[] = "Classes/UndefinedConstants";
+   analyzer[] = "Complete/MakeFunctioncallWithReference";
+   analyzer[] = "Complete/PhpNativeReference";
+   analyzer[] = "Constants/UndefinedConstants";
+   analyzer[] = "Enums/UndefinedEnumcase";
+   analyzer[] = "Functions/OnlyVariablePassedByReference";
+   analyzer[] = "Functions/WrongArgumentNameWithPhpFunction";
+   analyzer[] = "Functions/WrongNumberOfArguments";
+   analyzer[] = "Interfaces/AlreadyParentsInterface";
+   analyzer[] = "Interfaces/IsNotImplemented";
+   analyzer[] = "Php/OnlyVariableForReference";
+   analyzer[] = "Php/UpperCaseFunction";
+   analyzer[] = "Structures/ArrayMapPassesByValue";
+
+
+.. _annex-yaml-isphp:
+
+IsPHP for .exakat.yaml
+++++++++++++++++++++++
+
+
+YAML configuration for built-in rulesets. Copy them in your code, with the name .exakat.yaml, and edit them to your owns.
+::
+
+  rulesets:
+    'IsPHP':
+     - 'Classes/CantExtendFinal'
+     - 'Classes/CantOverwriteFinalConstant'
+     - 'Classes/CantOverwriteFinalMethod'
+     - 'Classes/DefinedConstants'
+     - 'Classes/IsInterfaceMethod'
+     - 'Classes/LoweredAccessLevel'
+     - 'Classes/RaisedAccessLevel'
+     - 'Classes/UndefinedConstants'
+     - 'Complete/MakeFunctioncallWithReference'
+     - 'Complete/PhpNativeReference'
+     - 'Constants/UndefinedConstants'
+     - 'Enums/UndefinedEnumcase'
+     - 'Functions/OnlyVariablePassedByReference'
+     - 'Functions/WrongArgumentNameWithPhpFunction'
+     - 'Functions/WrongNumberOfArguments'
+     - 'Interfaces/AlreadyParentsInterface'
+     - 'Interfaces/IsNotImplemented'
+     - 'Php/OnlyVariableForReference'
+     - 'Php/UpperCaseFunction'
+     - 'Structures/ArrayMapPassesByValue'
+
+
+
+
+.. _annex-isstub:
+
+IsStub
+######
+
+
+.. _annex-ini-isstub:
+
+IsStub for INI
+++++++++++++++
+
+
+INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and edit them to your owns.
+::
+
+ [IsStub]
+   analyzer[] = "Classes/CantExtendFinal";
+   analyzer[] = "Classes/CantOverwriteFinalConstant";
+   analyzer[] = "Classes/CantOverwriteFinalMethod";
+   analyzer[] = "Classes/DefinedConstants";
+   analyzer[] = "Classes/IsInterfaceMethod";
+   analyzer[] = "Classes/LoweredAccessLevel";
+   analyzer[] = "Classes/RaisedAccessLevel";
+   analyzer[] = "Classes/UndefinedConstants";
+   analyzer[] = "Complete/MakeFunctioncallWithReference";
+   analyzer[] = "Complete/PhpNativeReference";
+   analyzer[] = "Constants/UndefinedConstants";
+   analyzer[] = "Enums/UndefinedEnumcase";
+   analyzer[] = "Functions/OnlyVariablePassedByReference";
+   analyzer[] = "Functions/WrongArgumentNameWithPhpFunction";
+   analyzer[] = "Functions/WrongNumberOfArguments";
+   analyzer[] = "Interfaces/AlreadyParentsInterface";
+   analyzer[] = "Interfaces/IsNotImplemented";
+   analyzer[] = "Php/OnlyVariableForReference";
+   analyzer[] = "Structures/ArrayMapPassesByValue";
+
+
+.. _annex-yaml-isstub:
+
+IsStub for .exakat.yaml
++++++++++++++++++++++++
+
+
+YAML configuration for built-in rulesets. Copy them in your code, with the name .exakat.yaml, and edit them to your owns.
+::
+
+  rulesets:
+    'IsStub':
+     - 'Classes/CantExtendFinal'
+     - 'Classes/CantOverwriteFinalConstant'
+     - 'Classes/CantOverwriteFinalMethod'
+     - 'Classes/DefinedConstants'
+     - 'Classes/IsInterfaceMethod'
+     - 'Classes/LoweredAccessLevel'
+     - 'Classes/RaisedAccessLevel'
+     - 'Classes/UndefinedConstants'
+     - 'Complete/MakeFunctioncallWithReference'
+     - 'Complete/PhpNativeReference'
+     - 'Constants/UndefinedConstants'
+     - 'Enums/UndefinedEnumcase'
+     - 'Functions/OnlyVariablePassedByReference'
+     - 'Functions/WrongArgumentNameWithPhpFunction'
+     - 'Functions/WrongNumberOfArguments'
+     - 'Interfaces/AlreadyParentsInterface'
+     - 'Interfaces/IsNotImplemented'
+     - 'Php/OnlyVariableForReference'
+     - 'Structures/ArrayMapPassesByValue'
+
+
+
+
 .. _annex-lintbutwontexec:
 
 LintButWontExec
@@ -5710,6 +9028,184 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Traits/UndefinedInsteadof'
      - 'Traits/UndefinedTrait'
      - 'Traits/UselessAlias'
+
+
+
+
+.. _annex-nodoc:
+
+NoDoc
+#####
+
+
+.. _annex-ini-nodoc:
+
+NoDoc for INI
++++++++++++++
+
+
+INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and edit them to your owns.
+::
+
+ [NoDoc]
+   analyzer[] = "Complete/CreateCompactVariables";
+   analyzer[] = "Complete/CreateDefaultValues";
+   analyzer[] = "Complete/CreateForeachDefault";
+   analyzer[] = "Complete/CreateMagicMethod";
+   analyzer[] = "Complete/CreateMagicProperty";
+   analyzer[] = "Complete/ExtendedTypehints";
+   analyzer[] = "Complete/FollowClosureDefinition";
+   analyzer[] = "Complete/IsExtStructure";
+   analyzer[] = "Complete/IsPhpStructure";
+   analyzer[] = "Complete/IsStubStructure";
+   analyzer[] = "Complete/MakeAllStatics";
+   analyzer[] = "Complete/MakeClassConstantDefinition";
+   analyzer[] = "Complete/MakeClassMethodDefinition";
+   analyzer[] = "Complete/MakeFunctioncallWithReference";
+   analyzer[] = "Complete/OverwrittenConstants";
+   analyzer[] = "Complete/OverwrittenMethods";
+   analyzer[] = "Complete/OverwrittenProperties";
+   analyzer[] = "Complete/PhpExtStubPropertyMethod";
+   analyzer[] = "Complete/PhpNativeReference";
+   analyzer[] = "Complete/PropagateCalls";
+   analyzer[] = "Complete/PropagateConstants";
+   analyzer[] = "Complete/ReturnTypehint";
+   analyzer[] = "Complete/SetArrayClassDefinition";
+   analyzer[] = "Complete/SetClassAliasDefinition";
+   analyzer[] = "Complete/SetClassMethodRemoteDefinition";
+   analyzer[] = "Complete/SetClassPropertyDefinitionWithTypehint";
+   analyzer[] = "Complete/SetClassRemoteDefinitionWithGlobal";
+   analyzer[] = "Complete/SetClassRemoteDefinitionWithInjection";
+   analyzer[] = "Complete/SetClassRemoteDefinitionWithLocalNew";
+   analyzer[] = "Complete/SetClassRemoteDefinitionWithParenthesis";
+   analyzer[] = "Complete/SetClassRemoteDefinitionWithReturnTypehint";
+   analyzer[] = "Complete/SetClassRemoteDefinitionWithTypehint";
+   analyzer[] = "Complete/SetCloneLink";
+   analyzer[] = "Complete/SetParentDefinition";
+   analyzer[] = "Complete/SetStringMethodDefinition";
+   analyzer[] = "Complete/SolveTraitMethods";
+   analyzer[] = "Complete/VariableTypehint";
+
+
+.. _annex-yaml-nodoc:
+
+NoDoc for .exakat.yaml
+++++++++++++++++++++++
+
+
+YAML configuration for built-in rulesets. Copy them in your code, with the name .exakat.yaml, and edit them to your owns.
+::
+
+  rulesets:
+    'NoDoc':
+     - 'Complete/CreateCompactVariables'
+     - 'Complete/CreateDefaultValues'
+     - 'Complete/CreateForeachDefault'
+     - 'Complete/CreateMagicMethod'
+     - 'Complete/CreateMagicProperty'
+     - 'Complete/ExtendedTypehints'
+     - 'Complete/FollowClosureDefinition'
+     - 'Complete/IsExtStructure'
+     - 'Complete/IsPhpStructure'
+     - 'Complete/IsStubStructure'
+     - 'Complete/MakeAllStatics'
+     - 'Complete/MakeClassConstantDefinition'
+     - 'Complete/MakeClassMethodDefinition'
+     - 'Complete/MakeFunctioncallWithReference'
+     - 'Complete/OverwrittenConstants'
+     - 'Complete/OverwrittenMethods'
+     - 'Complete/OverwrittenProperties'
+     - 'Complete/PhpExtStubPropertyMethod'
+     - 'Complete/PhpNativeReference'
+     - 'Complete/PropagateCalls'
+     - 'Complete/PropagateConstants'
+     - 'Complete/ReturnTypehint'
+     - 'Complete/SetArrayClassDefinition'
+     - 'Complete/SetClassAliasDefinition'
+     - 'Complete/SetClassMethodRemoteDefinition'
+     - 'Complete/SetClassPropertyDefinitionWithTypehint'
+     - 'Complete/SetClassRemoteDefinitionWithGlobal'
+     - 'Complete/SetClassRemoteDefinitionWithInjection'
+     - 'Complete/SetClassRemoteDefinitionWithLocalNew'
+     - 'Complete/SetClassRemoteDefinitionWithParenthesis'
+     - 'Complete/SetClassRemoteDefinitionWithReturnTypehint'
+     - 'Complete/SetClassRemoteDefinitionWithTypehint'
+     - 'Complete/SetCloneLink'
+     - 'Complete/SetParentDefinition'
+     - 'Complete/SetStringMethodDefinition'
+     - 'Complete/SolveTraitMethods'
+     - 'Complete/VariableTypehint'
+
+
+
+
+.. _annex-php-recommendations:
+
+PHP recommendations
+###################
+
+
+.. _annex-ini-php-recommendations:
+
+PHP recommendations for INI
++++++++++++++++++++++++++++
+
+
+INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and edit them to your owns.
+::
+
+ [PHP recommendations]
+   analyzer[] = "Attributes/MissingAttributeAttribute";
+   analyzer[] = "Classes/CouldBeStringable";
+   analyzer[] = "Constants/BadConstantnames";
+   analyzer[] = "Interfaces/NoConstructorInInterface";
+   analyzer[] = "Namespaces/UseWithFullyQualifiedNS";
+   analyzer[] = "Performances/AvoidArrayPush";
+   analyzer[] = "Php/Crc32MightBeNegative";
+   analyzer[] = "Php/ImplodeOneArg";
+   analyzer[] = "Php/NoCastToInt";
+   analyzer[] = "Php/NotScalarType";
+   analyzer[] = "Php/ReturnWithParenthesis";
+   analyzer[] = "Structures/DanglingArrayReferences";
+   analyzer[] = "Structures/NoIssetWithEmpty";
+   analyzer[] = "Structures/ShortTags";
+   analyzer[] = "Structures/StrposCompare";
+   analyzer[] = "Structures/UnsupportedOperandTypes";
+   analyzer[] = "Structures/UseConstant";
+   analyzer[] = "Structures/UselessCasting";
+   analyzer[] = "Type/NoRealComparison";
+
+
+.. _annex-yaml-php-recommendations:
+
+PHP recommendations for .exakat.yaml
+++++++++++++++++++++++++++++++++++++
+
+
+YAML configuration for built-in rulesets. Copy them in your code, with the name .exakat.yaml, and edit them to your owns.
+::
+
+  rulesets:
+    'PHP recommendations':
+     - 'Attributes/MissingAttributeAttribute'
+     - 'Classes/CouldBeStringable'
+     - 'Constants/BadConstantnames'
+     - 'Interfaces/NoConstructorInInterface'
+     - 'Namespaces/UseWithFullyQualifiedNS'
+     - 'Performances/AvoidArrayPush'
+     - 'Php/Crc32MightBeNegative'
+     - 'Php/ImplodeOneArg'
+     - 'Php/NoCastToInt'
+     - 'Php/NotScalarType'
+     - 'Php/ReturnWithParenthesis'
+     - 'Structures/DanglingArrayReferences'
+     - 'Structures/NoIssetWithEmpty'
+     - 'Structures/ShortTags'
+     - 'Structures/StrposCompare'
+     - 'Structures/UnsupportedOperandTypes'
+     - 'Structures/UseConstant'
+     - 'Structures/UselessCasting'
+     - 'Type/NoRealComparison'
 
 
 
@@ -5843,61 +9339,6 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/Noscream'
      - 'Structures/SimplePreg'
      - 'Structures/WhileListEach'
-
-
-
-
-.. _annex-php-cs-fixable:
-
-php-cs-fixable
-##############
-
-
-.. _annex-ini-php-cs-fixable:
-
-php-cs-fixable for INI
-++++++++++++++++++++++
-
-
-INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and edit them to your owns.
-::
-
- [php-cs-fixable]
-   analyzer[] = "Classes/DontUnsetProperties";
-   analyzer[] = "Php/ImplodeOneArg";
-   analyzer[] = "Php/IsnullVsEqualNull";
-   analyzer[] = "Php/IssetMultipleArgs";
-   analyzer[] = "Php/LogicalInLetters";
-   analyzer[] = "Php/NewExponent";
-   analyzer[] = "Structures/CouldUseDir";
-   analyzer[] = "Structures/ElseIfElseif";
-   analyzer[] = "Structures/MultipleUnset";
-   analyzer[] = "Structures/PHP7Dirname";
-   analyzer[] = "Structures/UseConstant";
-
-
-.. _annex-yaml-php-cs-fixable:
-
-php-cs-fixable for .exakat.yaml
-+++++++++++++++++++++++++++++++
-
-
-YAML configuration for built-in rulesets. Copy them in your code, with the name .exakat.yaml, and edit them to your owns.
-::
-
-  rulesets:
-    'php-cs-fixable':
-     - 'Classes/DontUnsetProperties'
-     - 'Php/ImplodeOneArg'
-     - 'Php/IsnullVsEqualNull'
-     - 'Php/IssetMultipleArgs'
-     - 'Php/LogicalInLetters'
-     - 'Php/NewExponent'
-     - 'Structures/CouldUseDir'
-     - 'Structures/ElseIfElseif'
-     - 'Structures/MultipleUnset'
-     - 'Structures/PHP7Dirname'
-     - 'Structures/UseConstant'
 
 
 
@@ -6677,3498 +10118,57 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
 
 
 
-.. _annex-all:
+.. _annex-php-cs-fixable:
 
-All
-###
+php-cs-fixable
+##############
 
 
-.. _annex-ini-all:
+.. _annex-ini-php-cs-fixable:
 
-All for INI
-+++++++++++
+php-cs-fixable for INI
+++++++++++++++++++++++
 
 
 INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and edit them to your owns.
 ::
 
- [All]
-   analyzer[] = "Arrays/AmbiguousKeys";
-   analyzer[] = "Arrays/ArrayBracketConsistence";
-   analyzer[] = "Arrays/ArrayNSUsage";
-   analyzer[] = "Arrays/Arrayindex";
-   analyzer[] = "Arrays/EmptyFinal";
-   analyzer[] = "Arrays/EmptySlots";
-   analyzer[] = "Arrays/FloatConversionAsIndex";
-   analyzer[] = "Arrays/GettingLastElement";
-   analyzer[] = "Arrays/MassCreation";
-   analyzer[] = "Arrays/MistakenConcatenation";
-   analyzer[] = "Arrays/MixedKeys";
-   analyzer[] = "Arrays/Multidimensional";
-   analyzer[] = "Arrays/MultipleIdenticalKeys";
-   analyzer[] = "Arrays/NegativeStart";
-   analyzer[] = "Arrays/NoSpreadForHash";
-   analyzer[] = "Arrays/NonConstantArray";
-   analyzer[] = "Arrays/NullBoolean";
-   analyzer[] = "Arrays/Phparrayindex";
-   analyzer[] = "Arrays/RandomlySortedLiterals";
-   analyzer[] = "Arrays/ShouldPreprocess";
-   analyzer[] = "Arrays/SliceFirst";
-   analyzer[] = "Arrays/StringInitialization";
-   analyzer[] = "Arrays/TooManyDimensions";
-   analyzer[] = "Arrays/WeirdIndex";
-   analyzer[] = "Arrays/WithCallback";
-   analyzer[] = "Attributes/MissingAttributeAttribute";
-   analyzer[] = "Attributes/ModifyImmutable";
-   analyzer[] = "Attributes/NestedAttributes";
-   analyzer[] = "Classes/AbstractConstants";
-   analyzer[] = "Classes/AbstractOrImplements";
-   analyzer[] = "Classes/AbstractStatic";
-   analyzer[] = "Classes/Abstractclass";
-   analyzer[] = "Classes/Abstractmethods";
-   analyzer[] = "Classes/AccessPrivate";
-   analyzer[] = "Classes/AccessProtected";
-   analyzer[] = "Classes/AmbiguousStatic";
-   analyzer[] = "Classes/AmbiguousVisibilities";
-   analyzer[] = "Classes/Anonymous";
-   analyzer[] = "Classes/AvoidOptionArrays";
-   analyzer[] = "Classes/AvoidOptionalProperties";
-   analyzer[] = "Classes/AvoidUsing";
-   analyzer[] = "Classes/CancelCommonMethod";
-   analyzer[] = "Classes/CantExtendFinal";
-   analyzer[] = "Classes/CantInheritAbstractMethod";
-   analyzer[] = "Classes/CantInstantiateClass";
-   analyzer[] = "Classes/CantOverwriteFinalConstant";
-   analyzer[] = "Classes/CantOverwriteFinalMethod";
-   analyzer[] = "Classes/CheckOnCallUsage";
-   analyzer[] = "Classes/ChecksPropertyExistence";
-   analyzer[] = "Classes/ChildRemoveTypehint";
-   analyzer[] = "Classes/CitSameName";
-   analyzer[] = "Classes/ClassAliasUsage";
-   analyzer[] = "Classes/ClassOverreach";
-   analyzer[] = "Classes/ClassUsage";
-   analyzer[] = "Classes/Classnames";
-   analyzer[] = "Classes/CloneWithNonObject";
-   analyzer[] = "Classes/CloningUsage";
-   analyzer[] = "Classes/ConstVisibilityUsage";
-   analyzer[] = "Classes/ConstantClass";
-   analyzer[] = "Classes/ConstantDefinition";
-   analyzer[] = "Classes/ConstantUsedBelow";
-   analyzer[] = "Classes/Constructor";
-   analyzer[] = "Classes/CouldBeAbstractClass";
-   analyzer[] = "Classes/CouldBeClassConstant";
-   analyzer[] = "Classes/CouldBeFinal";
-   analyzer[] = "Classes/CouldBeIterable";
-   analyzer[] = "Classes/CouldBeParentMethod";
-   analyzer[] = "Classes/CouldBePrivate";
-   analyzer[] = "Classes/CouldBePrivateConstante";
-   analyzer[] = "Classes/CouldBePrivateMethod";
-   analyzer[] = "Classes/CouldBeProtectedConstant";
-   analyzer[] = "Classes/CouldBeProtectedMethod";
-   analyzer[] = "Classes/CouldBeProtectedProperty";
-   analyzer[] = "Classes/CouldBeStatic";
-   analyzer[] = "Classes/CouldBeStringable";
-   analyzer[] = "Classes/CouldSetPropertyDefault";
-   analyzer[] = "Classes/CyclicReferences";
-   analyzer[] = "Classes/DefinedConstants";
-   analyzer[] = "Classes/DefinedParentMP";
-   analyzer[] = "Classes/DefinedProperty";
-   analyzer[] = "Classes/DefinedStaticMP";
-   analyzer[] = "Classes/DemeterLaw";
-   analyzer[] = "Classes/DependantAbstractClass";
-   analyzer[] = "Classes/DifferentArgumentCounts";
-   analyzer[] = "Classes/DirectCallToMagicMethod";
-   analyzer[] = "Classes/DisconnectedClasses";
-   analyzer[] = "Classes/DontSendThisInConstructor";
+ [php-cs-fixable]
    analyzer[] = "Classes/DontUnsetProperties";
-   analyzer[] = "Classes/DynamicClass";
-   analyzer[] = "Classes/DynamicConstantCall";
-   analyzer[] = "Classes/DynamicMethodCall";
-   analyzer[] = "Classes/DynamicNew";
-   analyzer[] = "Classes/DynamicPropertyCall";
-   analyzer[] = "Classes/DynamicSelfCalls";
-   analyzer[] = "Classes/EmptyClass";
-   analyzer[] = "Classes/ExtendsStdclass";
-   analyzer[] = "Classes/FinalByOcramius";
-   analyzer[] = "Classes/FinalPrivate";
-   analyzer[] = "Classes/Finalclass";
-   analyzer[] = "Classes/Finalmethod";
-   analyzer[] = "Classes/FossilizedMethod";
-   analyzer[] = "Classes/HasFluentInterface";
-   analyzer[] = "Classes/HasMagicProperty";
-   analyzer[] = "Classes/HiddenNullable";
-   analyzer[] = "Classes/IdenticalMethods";
-   analyzer[] = "Classes/ImmutableSignature";
-   analyzer[] = "Classes/ImplementIsForInterface";
-   analyzer[] = "Classes/ImplementedMethodsArePublic";
-   analyzer[] = "Classes/IncompatibleSignature";
-   analyzer[] = "Classes/IncompatibleSignature74";
-   analyzer[] = "Classes/InheritedPropertyMustMatch";
-   analyzer[] = "Classes/InstantiatingAbstractClass";
-   analyzer[] = "Classes/InsufficientPropertyTypehint";
-   analyzer[] = "Classes/IntegerAsProperty";
-   analyzer[] = "Classes/IsExtClass";
-   analyzer[] = "Classes/IsInterfaceMethod";
-   analyzer[] = "Classes/IsNotFamily";
-   analyzer[] = "Classes/IsUpperFamily";
-   analyzer[] = "Classes/IsaMagicProperty";
-   analyzer[] = "Classes/LocallyUnusedProperty";
-   analyzer[] = "Classes/LocallyUsedProperty";
-   analyzer[] = "Classes/LoweredAccessLevel";
-   analyzer[] = "Classes/MagicMethod";
-   analyzer[] = "Classes/MagicProperties";
-   analyzer[] = "Classes/MakeDefault";
-   analyzer[] = "Classes/MakeGlobalAProperty";
-   analyzer[] = "Classes/MakeMagicConcrete";
-   analyzer[] = "Classes/MethodIsOverwritten";
-   analyzer[] = "Classes/MethodSignatureMustBeCompatible";
-   analyzer[] = "Classes/MethodUsedBelow";
-   analyzer[] = "Classes/MismatchProperties";
-   analyzer[] = "Classes/MissingAbstractMethod";
-   analyzer[] = "Classes/MissingVisibility";
-   analyzer[] = "Classes/ModifyingReadonly";
-   analyzer[] = "Classes/MultipleClassesInFile";
-   analyzer[] = "Classes/MultipleDeclarations";
-   analyzer[] = "Classes/MultiplePropertyDeclarationOnOneLine";
-   analyzer[] = "Classes/MultipleTraitOrInterface";
-   analyzer[] = "Classes/MutualExtension";
-   analyzer[] = "Classes/NewOnFunctioncallOrIdentifier";
-   analyzer[] = "Classes/NoMagicWithArray";
-   analyzer[] = "Classes/NoPSSOutsideClass";
-   analyzer[] = "Classes/NoParent";
-   analyzer[] = "Classes/NoPublicAccess";
-   analyzer[] = "Classes/NoReadonlyAssignationInGlobal";
-   analyzer[] = "Classes/NoSelfReferencingConstant";
-   analyzer[] = "Classes/NonNullableSetters";
-   analyzer[] = "Classes/NonPpp";
-   analyzer[] = "Classes/NonStaticMethodsCalledStatic";
-   analyzer[] = "Classes/NormalMethods";
-   analyzer[] = "Classes/NullOnNew";
-   analyzer[] = "Classes/OldStyleConstructor";
-   analyzer[] = "Classes/OldStyleVar";
-   analyzer[] = "Classes/OneObjectOperatorPerLine";
-   analyzer[] = "Classes/OnlyStaticMethods";
-   analyzer[] = "Classes/OrderOfDeclaration";
-   analyzer[] = "Classes/OverwrittenConst";
-   analyzer[] = "Classes/PPPDeclarationStyle";
-   analyzer[] = "Classes/ParentFirst";
-   analyzer[] = "Classes/ParentIsNotStatic";
-   analyzer[] = "Classes/PromotedProperties";
-   analyzer[] = "Classes/PropertyCouldBeLocal";
-   analyzer[] = "Classes/PropertyDefinition";
-   analyzer[] = "Classes/PropertyNeverUsed";
-   analyzer[] = "Classes/PropertyUsedAbove";
-   analyzer[] = "Classes/PropertyUsedBelow";
-   analyzer[] = "Classes/PropertyUsedInOneMethodOnly";
-   analyzer[] = "Classes/PropertyUsedInternally";
-   analyzer[] = "Classes/PssWithoutClass";
-   analyzer[] = "Classes/RaisedAccessLevel";
-   analyzer[] = "Classes/ReadonlyUsage";
-   analyzer[] = "Classes/RedefinedConstants";
-   analyzer[] = "Classes/RedefinedDefault";
-   analyzer[] = "Classes/RedefinedMethods";
-   analyzer[] = "Classes/RedefinedPrivateProperty";
-   analyzer[] = "Classes/RedefinedProperty";
-   analyzer[] = "Classes/SameNameAsFile";
-   analyzer[] = "Classes/ScalarOrObjectProperty";
-   analyzer[] = "Classes/ShouldDeepClone";
-   analyzer[] = "Classes/ShouldHaveDestructor";
-   analyzer[] = "Classes/ShouldUseSelf";
-   analyzer[] = "Classes/ShouldUseThis";
-   analyzer[] = "Classes/StaticContainsThis";
-   analyzer[] = "Classes/StaticMethods";
-   analyzer[] = "Classes/StaticMethodsCalledFromObject";
-   analyzer[] = "Classes/StaticProperties";
-   analyzer[] = "Classes/StrangeName";
-   analyzer[] = "Classes/SwappedArguments";
-   analyzer[] = "Classes/TestClass";
-   analyzer[] = "Classes/ThisIsForClasses";
-   analyzer[] = "Classes/ThisIsNotAnArray";
-   analyzer[] = "Classes/ThisIsNotForStatic";
-   analyzer[] = "Classes/ThrowInDestruct";
-   analyzer[] = "Classes/TooManyChildren";
-   analyzer[] = "Classes/TooManyDereferencing";
-   analyzer[] = "Classes/TooManyFinds";
-   analyzer[] = "Classes/TooManyInjections";
-   analyzer[] = "Classes/TypehintCyclicDependencies";
-   analyzer[] = "Classes/UndeclaredStaticProperty";
-   analyzer[] = "Classes/UndefinedClasses";
-   analyzer[] = "Classes/UndefinedConstants";
-   analyzer[] = "Classes/UndefinedMethod";
-   analyzer[] = "Classes/UndefinedParentMP";
-   analyzer[] = "Classes/UndefinedProperty";
-   analyzer[] = "Classes/UndefinedStaticMP";
-   analyzer[] = "Classes/UndefinedStaticclass";
-   analyzer[] = "Classes/UnfinishedObject";
-   analyzer[] = "Classes/UninitedProperty";
-   analyzer[] = "Classes/UnitializedProperties";
-   analyzer[] = "Classes/UnreachableConstant";
-   analyzer[] = "Classes/UnreachableMethod";
-   analyzer[] = "Classes/UnresolvedCatch";
-   analyzer[] = "Classes/UnresolvedClasses";
-   analyzer[] = "Classes/UnresolvedInstanceof";
-   analyzer[] = "Classes/UnusedClass";
-   analyzer[] = "Classes/UnusedConstant";
-   analyzer[] = "Classes/UnusedMethods";
-   analyzer[] = "Classes/UnusedPrivateMethod";
-   analyzer[] = "Classes/UnusedPrivateProperty";
-   analyzer[] = "Classes/UnusedProtectedMethods";
-   analyzer[] = "Classes/UseClassOperator";
-   analyzer[] = "Classes/UseInstanceof";
-   analyzer[] = "Classes/UseThis";
-   analyzer[] = "Classes/UsedClass";
-   analyzer[] = "Classes/UsedMethods";
-   analyzer[] = "Classes/UsedOnceProperty";
-   analyzer[] = "Classes/UsedPrivateMethod";
-   analyzer[] = "Classes/UsedPrivateProperty";
-   analyzer[] = "Classes/UsedProtectedMethod";
-   analyzer[] = "Classes/UselessAbstract";
-   analyzer[] = "Classes/UselessConstructor";
-   analyzer[] = "Classes/UselessFinal";
-   analyzer[] = "Classes/UselessTypehint";
-   analyzer[] = "Classes/UsingThisOutsideAClass";
-   analyzer[] = "Classes/VariableClasses";
-   analyzer[] = "Classes/WeakType";
-   analyzer[] = "Classes/WrongCase";
-   analyzer[] = "Classes/WrongName";
-   analyzer[] = "Classes/WrongTypedPropertyInit";
-   analyzer[] = "Classes/toStringPss";
-   analyzer[] = "Common/InterfaceUsage";
-   analyzer[] = "Complete/CreateCompactVariables";
-   analyzer[] = "Complete/CreateDefaultValues";
-   analyzer[] = "Complete/CreateForeachDefault";
-   analyzer[] = "Complete/CreateMagicMethod";
-   analyzer[] = "Complete/CreateMagicProperty";
-   analyzer[] = "Complete/ExtendedTypehints";
-   analyzer[] = "Complete/FollowClosureDefinition";
-   analyzer[] = "Complete/IsExtStructure";
-   analyzer[] = "Complete/IsPhpStructure";
-   analyzer[] = "Complete/IsStubStructure";
-   analyzer[] = "Complete/MakeAllStatics";
-   analyzer[] = "Complete/MakeClassConstantDefinition";
-   analyzer[] = "Complete/MakeClassMethodDefinition";
-   analyzer[] = "Complete/MakeFunctioncallWithReference";
-   analyzer[] = "Complete/OverwrittenConstants";
-   analyzer[] = "Complete/OverwrittenMethods";
-   analyzer[] = "Complete/OverwrittenProperties";
-   analyzer[] = "Complete/PhpExtStubPropertyMethod";
-   analyzer[] = "Complete/PhpNativeReference";
-   analyzer[] = "Complete/PropagateCalls";
-   analyzer[] = "Complete/PropagateConstants";
-   analyzer[] = "Complete/ReturnTypehint";
-   analyzer[] = "Complete/SetArrayClassDefinition";
-   analyzer[] = "Complete/SetClassAliasDefinition";
-   analyzer[] = "Complete/SetClassMethodRemoteDefinition";
-   analyzer[] = "Complete/SetClassPropertyDefinitionWithTypehint";
-   analyzer[] = "Complete/SetClassRemoteDefinitionWithGlobal";
-   analyzer[] = "Complete/SetClassRemoteDefinitionWithInjection";
-   analyzer[] = "Complete/SetClassRemoteDefinitionWithLocalNew";
-   analyzer[] = "Complete/SetClassRemoteDefinitionWithParenthesis";
-   analyzer[] = "Complete/SetClassRemoteDefinitionWithReturnTypehint";
-   analyzer[] = "Complete/SetClassRemoteDefinitionWithTypehint";
-   analyzer[] = "Complete/SetCloneLink";
-   analyzer[] = "Complete/SetParentDefinition";
-   analyzer[] = "Complete/SetStringMethodDefinition";
-   analyzer[] = "Complete/SolveTraitMethods";
-   analyzer[] = "Complete/VariableTypehint";
-   analyzer[] = "Composer/Autoload";
-   analyzer[] = "Composer/IsComposerClass";
-   analyzer[] = "Composer/IsComposerInterface";
-   analyzer[] = "Composer/IsComposerNsname";
-   analyzer[] = "Composer/PackagesNames";
-   analyzer[] = "Composer/UseComposer";
-   analyzer[] = "Composer/UseComposerLock";
-   analyzer[] = "Constants/BadConstantnames";
-   analyzer[] = "Constants/CaseInsensitiveConstants";
-   analyzer[] = "Constants/ConditionedConstants";
-   analyzer[] = "Constants/ConstDefinePreference";
-   analyzer[] = "Constants/ConstRecommended";
-   analyzer[] = "Constants/ConstantStrangeNames";
-   analyzer[] = "Constants/ConstantUsage";
-   analyzer[] = "Constants/Constantnames";
-   analyzer[] = "Constants/CouldBeConstant";
-   analyzer[] = "Constants/CouldUseConstant";
-   analyzer[] = "Constants/CreatedOutsideItsNamespace";
-   analyzer[] = "Constants/CustomConstantUsage";
-   analyzer[] = "Constants/DefineInsensitivePreference";
-   analyzer[] = "Constants/DynamicCreation";
-   analyzer[] = "Constants/InconsistantCase";
-   analyzer[] = "Constants/InvalidName";
-   analyzer[] = "Constants/IsExtConstant";
-   analyzer[] = "Constants/IsGlobalConstant";
-   analyzer[] = "Constants/IsPhpConstant";
-   analyzer[] = "Constants/MagicConstantUsage";
-   analyzer[] = "Constants/MultipleConstantDefinition";
-   analyzer[] = "Constants/PhpConstantUsage";
-   analyzer[] = "Constants/StrangeName";
-   analyzer[] = "Constants/UndefinedConstants";
-   analyzer[] = "Constants/UnusedConstants";
-   analyzer[] = "Constants/VariableConstant";
-   analyzer[] = "Dump/CallOrder";
-   analyzer[] = "Dump/CollectAtomCounts";
-   analyzer[] = "Dump/CollectBlockSize";
-   analyzer[] = "Dump/CollectClassChanges";
-   analyzer[] = "Dump/CollectClassChildren";
-   analyzer[] = "Dump/CollectClassConstantCounts";
-   analyzer[] = "Dump/CollectClassDepth";
-   analyzer[] = "Dump/CollectClassInterfaceCounts";
-   analyzer[] = "Dump/CollectClassTraitsCounts";
-   analyzer[] = "Dump/CollectClassesDependencies";
-   analyzer[] = "Dump/CollectDefinitionsStats";
-   analyzer[] = "Dump/CollectDependencyExtension";
-   analyzer[] = "Dump/CollectFilesDependencies";
-   analyzer[] = "Dump/CollectForeachFavorite";
-   analyzer[] = "Dump/CollectGlobalVariables";
-   analyzer[] = "Dump/CollectLiterals";
-   analyzer[] = "Dump/CollectLocalVariableCounts";
-   analyzer[] = "Dump/CollectMbstringEncodings";
-   analyzer[] = "Dump/CollectMethodCounts";
-   analyzer[] = "Dump/CollectNativeCallsPerExpressions";
-   analyzer[] = "Dump/CollectParameterCounts";
-   analyzer[] = "Dump/CollectParameterNames";
-   analyzer[] = "Dump/CollectPhpStructures";
-   analyzer[] = "Dump/CollectPropertyCounts";
-   analyzer[] = "Dump/CollectReadability";
-   analyzer[] = "Dump/CollectStubStructures";
-   analyzer[] = "Dump/CollectUseCounts";
-   analyzer[] = "Dump/CollectVariables";
-   analyzer[] = "Dump/ConstantOrder";
-   analyzer[] = "Dump/CouldBeAConstant";
-   analyzer[] = "Dump/CyclomaticComplexity";
-   analyzer[] = "Dump/DereferencingLevels";
-   analyzer[] = "Dump/EnvironnementVariables";
-   analyzer[] = "Dump/FossilizedMethods";
-   analyzer[] = "Dump/Inclusions";
-   analyzer[] = "Dump/IndentationLevels";
-   analyzer[] = "Dump/NewOrder";
-   analyzer[] = "Dump/ParameterArgumentsLinks";
-   analyzer[] = "Dump/PublicReach";
-   analyzer[] = "Dump/TypehintingStats";
-   analyzer[] = "Dump/Typehintorder";
-   analyzer[] = "Enums/NoMagicMethod";
-   analyzer[] = "Enums/UndefinedEnumcase";
-   analyzer[] = "Enums/UnusedEnumCase";
-   analyzer[] = "Exceptions/AlreadyCaught";
-   analyzer[] = "Exceptions/CantThrow";
-   analyzer[] = "Exceptions/CatchE";
-   analyzer[] = "Exceptions/CatchUndefinedVariable";
-   analyzer[] = "Exceptions/CaughtButNotThrown";
-   analyzer[] = "Exceptions/CaughtExceptions";
-   analyzer[] = "Exceptions/CouldUseTry";
-   analyzer[] = "Exceptions/DefinedExceptions";
-   analyzer[] = "Exceptions/ForgottenThrown";
-   analyzer[] = "Exceptions/IsPhpException";
-   analyzer[] = "Exceptions/LargeTryBlock";
-   analyzer[] = "Exceptions/LongPreparation";
-   analyzer[] = "Exceptions/MultipleCatch";
-   analyzer[] = "Exceptions/OverwriteException";
-   analyzer[] = "Exceptions/Rethrown";
-   analyzer[] = "Exceptions/ThrowFunctioncall";
-   analyzer[] = "Exceptions/ThrowRawExceptions";
-   analyzer[] = "Exceptions/ThrownExceptions";
-   analyzer[] = "Exceptions/UncaughtExceptions";
-   analyzer[] = "Exceptions/Unthrown";
-   analyzer[] = "Exceptions/UnusedExceptionVariable";
-   analyzer[] = "Exceptions/UselessCatch";
-   analyzer[] = "Extensions/Extamqp";
-   analyzer[] = "Extensions/Extapache";
-   analyzer[] = "Extensions/Extapc";
-   analyzer[] = "Extensions/Extapcu";
-   analyzer[] = "Extensions/Extarray";
-   analyzer[] = "Extensions/Extast";
-   analyzer[] = "Extensions/Extasync";
-   analyzer[] = "Extensions/Extbcmath";
-   analyzer[] = "Extensions/Extbzip2";
-   analyzer[] = "Extensions/Extcairo";
-   analyzer[] = "Extensions/Extcalendar";
-   analyzer[] = "Extensions/Extcmark";
-   analyzer[] = "Extensions/Extcom";
-   analyzer[] = "Extensions/Extcrypto";
-   analyzer[] = "Extensions/Extcsv";
-   analyzer[] = "Extensions/Extctype";
-   analyzer[] = "Extensions/Extcurl";
-   analyzer[] = "Extensions/Extcyrus";
-   analyzer[] = "Extensions/Extdate";
-   analyzer[] = "Extensions/Extdb2";
-   analyzer[] = "Extensions/Extdba";
-   analyzer[] = "Extensions/Extdecimal";
-   analyzer[] = "Extensions/Extdio";
-   analyzer[] = "Extensions/Extdom";
-   analyzer[] = "Extensions/Extds";
-   analyzer[] = "Extensions/Exteaccelerator";
-   analyzer[] = "Extensions/Exteio";
-   analyzer[] = "Extensions/Extenchant";
-   analyzer[] = "Extensions/Extereg";
-   analyzer[] = "Extensions/Extev";
-   analyzer[] = "Extensions/Extevent";
-   analyzer[] = "Extensions/Extexcimer";
-   analyzer[] = "Extensions/Extexif";
-   analyzer[] = "Extensions/Extexpect";
-   analyzer[] = "Extensions/Extfam";
-   analyzer[] = "Extensions/Extfann";
-   analyzer[] = "Extensions/Extfdf";
-   analyzer[] = "Extensions/Extffi";
-   analyzer[] = "Extensions/Extffmpeg";
-   analyzer[] = "Extensions/Extfile";
-   analyzer[] = "Extensions/Extfileinfo";
-   analyzer[] = "Extensions/Extfilter";
-   analyzer[] = "Extensions/Extfpm";
-   analyzer[] = "Extensions/Extftp";
-   analyzer[] = "Extensions/Extgd";
-   analyzer[] = "Extensions/Extgearman";
-   analyzer[] = "Extensions/Extgender";
-   analyzer[] = "Extensions/Extgeoip";
-   analyzer[] = "Extensions/Extgettext";
-   analyzer[] = "Extensions/Extgmagick";
-   analyzer[] = "Extensions/Extgmp";
-   analyzer[] = "Extensions/Extgnupg";
-   analyzer[] = "Extensions/Extgrpc";
-   analyzer[] = "Extensions/Exthash";
-   analyzer[] = "Extensions/Exthrtime";
-   analyzer[] = "Extensions/Exthttp";
-   analyzer[] = "Extensions/Extibase";
-   analyzer[] = "Extensions/Exticonv";
-   analyzer[] = "Extensions/Extigbinary";
-   analyzer[] = "Extensions/Extiis";
-   analyzer[] = "Extensions/Extimagick";
-   analyzer[] = "Extensions/Extimap";
-   analyzer[] = "Extensions/Extinfo";
-   analyzer[] = "Extensions/Extinotify";
-   analyzer[] = "Extensions/Extintl";
-   analyzer[] = "Extensions/Extjson";
-   analyzer[] = "Extensions/Extjudy";
-   analyzer[] = "Extensions/Extkdm5";
-   analyzer[] = "Extensions/Extlapack";
-   analyzer[] = "Extensions/Extldap";
-   analyzer[] = "Extensions/Extleveldb";
-   analyzer[] = "Extensions/Extlibevent";
-   analyzer[] = "Extensions/Extlibsodium";
-   analyzer[] = "Extensions/Extlibxml";
-   analyzer[] = "Extensions/Extlua";
-   analyzer[] = "Extensions/Extlzf";
-   analyzer[] = "Extensions/Extmail";
-   analyzer[] = "Extensions/Extmailparse";
-   analyzer[] = "Extensions/Extmath";
-   analyzer[] = "Extensions/Extmbstring";
-   analyzer[] = "Extensions/Extmcrypt";
-   analyzer[] = "Extensions/Extmemcache";
-   analyzer[] = "Extensions/Extmemcached";
-   analyzer[] = "Extensions/Extmhash";
-   analyzer[] = "Extensions/Extming";
-   analyzer[] = "Extensions/Extmongo";
-   analyzer[] = "Extensions/Extmongodb";
-   analyzer[] = "Extensions/Extmsgpack";
-   analyzer[] = "Extensions/Extmssql";
-   analyzer[] = "Extensions/Extmysql";
-   analyzer[] = "Extensions/Extmysqli";
-   analyzer[] = "Extensions/Extncurses";
-   analyzer[] = "Extensions/Extnewt";
-   analyzer[] = "Extensions/Extnsapi";
-   analyzer[] = "Extensions/Extob";
-   analyzer[] = "Extensions/Extoci8";
-   analyzer[] = "Extensions/Extodbc";
-   analyzer[] = "Extensions/Extopcache";
-   analyzer[] = "Extensions/Extopencensus";
-   analyzer[] = "Extensions/Extopenssl";
-   analyzer[] = "Extensions/Extparle";
-   analyzer[] = "Extensions/Extparsekit";
-   analyzer[] = "Extensions/Extpassword";
-   analyzer[] = "Extensions/Extpcntl";
-   analyzer[] = "Extensions/Extpcov";
-   analyzer[] = "Extensions/Extpcre";
-   analyzer[] = "Extensions/Extpdo";
-   analyzer[] = "Extensions/Extpgsql";
-   analyzer[] = "Extensions/Extphalcon";
-   analyzer[] = "Extensions/Extphar";
-   analyzer[] = "Extensions/Extpkcs11";
-   analyzer[] = "Extensions/Extposix";
-   analyzer[] = "Extensions/Extproctitle";
-   analyzer[] = "Extensions/Extprotobuf";
-   analyzer[] = "Extensions/Extpspell";
-   analyzer[] = "Extensions/Extpsr";
-   analyzer[] = "Extensions/Extrar";
-   analyzer[] = "Extensions/Extrdkafka";
-   analyzer[] = "Extensions/Extreadline";
-   analyzer[] = "Extensions/Extrecode";
-   analyzer[] = "Extensions/Extredis";
-   analyzer[] = "Extensions/Extreflection";
-   analyzer[] = "Extensions/Extrunkit";
-   analyzer[] = "Extensions/Extsdl";
-   analyzer[] = "Extensions/Extseaslog";
-   analyzer[] = "Extensions/Extsem";
-   analyzer[] = "Extensions/Extsession";
-   analyzer[] = "Extensions/Extshmop";
-   analyzer[] = "Extensions/Extsimplexml";
-   analyzer[] = "Extensions/Extsnmp";
-   analyzer[] = "Extensions/Extsoap";
-   analyzer[] = "Extensions/Extsockets";
-   analyzer[] = "Extensions/Extsphinx";
-   analyzer[] = "Extensions/Extspl";
-   analyzer[] = "Extensions/Extspx";
-   analyzer[] = "Extensions/Extsqlite";
-   analyzer[] = "Extensions/Extsqlite3";
-   analyzer[] = "Extensions/Extsqlsrv";
-   analyzer[] = "Extensions/Extssh2";
-   analyzer[] = "Extensions/Extstandard";
-   analyzer[] = "Extensions/Extstats";
-   analyzer[] = "Extensions/Extstomp";
-   analyzer[] = "Extensions/Extstring";
-   analyzer[] = "Extensions/Extsuhosin";
-   analyzer[] = "Extensions/Extsvm";
-   analyzer[] = "Extensions/Extswoole";
-   analyzer[] = "Extensions/Exttidy";
-   analyzer[] = "Extensions/Exttokenizer";
-   analyzer[] = "Extensions/Exttokyotyrant";
-   analyzer[] = "Extensions/Exttrader";
-   analyzer[] = "Extensions/Extuopz";
-   analyzer[] = "Extensions/Extuuid";
-   analyzer[] = "Extensions/Extv8js";
-   analyzer[] = "Extensions/Extvarnish";
-   analyzer[] = "Extensions/Extvips";
-   analyzer[] = "Extensions/Extwasm";
-   analyzer[] = "Extensions/Extwddx";
-   analyzer[] = "Extensions/Extweakref";
-   analyzer[] = "Extensions/Extwikidiff2";
-   analyzer[] = "Extensions/Extwincache";
-   analyzer[] = "Extensions/Extxattr";
-   analyzer[] = "Extensions/Extxcache";
-   analyzer[] = "Extensions/Extxdebug";
-   analyzer[] = "Extensions/Extxdiff";
-   analyzer[] = "Extensions/Extxhprof";
-   analyzer[] = "Extensions/Extxml";
-   analyzer[] = "Extensions/Extxmlreader";
-   analyzer[] = "Extensions/Extxmlrpc";
-   analyzer[] = "Extensions/Extxmlwriter";
-   analyzer[] = "Extensions/Extxsl";
-   analyzer[] = "Extensions/Extxxtea";
-   analyzer[] = "Extensions/Extyaml";
-   analyzer[] = "Extensions/Extyar";
-   analyzer[] = "Extensions/Extyis";
-   analyzer[] = "Extensions/Extzendmonitor";
-   analyzer[] = "Extensions/Extzip";
-   analyzer[] = "Extensions/Extzlib";
-   analyzer[] = "Extensions/Extzmq";
-   analyzer[] = "Extensions/Extzookeeper";
-   analyzer[] = "Files/DefinitionsOnly";
-   analyzer[] = "Files/GlobalCodeOnly";
-   analyzer[] = "Files/InclusionWrongCase";
-   analyzer[] = "Files/IsCliScript";
-   analyzer[] = "Files/IsComponent";
-   analyzer[] = "Files/MissingInclude";
-   analyzer[] = "Files/NotDefinitionsOnly";
-   analyzer[] = "Files/Services";
-   analyzer[] = "Functions/AddDefaultValue";
-   analyzer[] = "Functions/AliasesUsage";
-   analyzer[] = "Functions/AvoidBooleanArgument";
-   analyzer[] = "Functions/BadTypehintRelay";
-   analyzer[] = "Functions/CallbackNeedsReturn";
-   analyzer[] = "Functions/CancelledParameter";
-   analyzer[] = "Functions/CannotUseStaticForClosure";
-   analyzer[] = "Functions/CantUse";
-   analyzer[] = "Functions/Closure2String";
-   analyzer[] = "Functions/Closures";
-   analyzer[] = "Functions/ConditionedFunctions";
-   analyzer[] = "Functions/CouldBeCallable";
-   analyzer[] = "Functions/CouldBeStaticClosure";
-   analyzer[] = "Functions/CouldCentralize";
-   analyzer[] = "Functions/CouldTypeWithArray";
-   analyzer[] = "Functions/CouldTypeWithBool";
-   analyzer[] = "Functions/CouldTypeWithInt";
-   analyzer[] = "Functions/CouldTypeWithIterable";
-   analyzer[] = "Functions/CouldTypeWithString";
-   analyzer[] = "Functions/CouldTypehint";
-   analyzer[] = "Functions/DeepDefinitions";
-   analyzer[] = "Functions/DeprecatedCallable";
-   analyzer[] = "Functions/DontUseVoid";
-   analyzer[] = "Functions/DuplicateNamedParameter";
-   analyzer[] = "Functions/DynamicCode";
-   analyzer[] = "Functions/Dynamiccall";
-   analyzer[] = "Functions/EmptyFunction";
-   analyzer[] = "Functions/ExceedingTypehint";
-   analyzer[] = "Functions/FallbackFunction";
-   analyzer[] = "Functions/FnArgumentVariableConfusion";
-   analyzer[] = "Functions/FunctionCalledWithOtherCase";
-   analyzer[] = "Functions/Functionnames";
-   analyzer[] = "Functions/FunctionsUsingReference";
-   analyzer[] = "Functions/GeneratorCannotReturn";
-   analyzer[] = "Functions/HardcodedPasswords";
-   analyzer[] = "Functions/HasFluentInterface";
-   analyzer[] = "Functions/HasNotFluentInterface";
-   analyzer[] = "Functions/InsufficientTypehint";
-   analyzer[] = "Functions/IsExtFunction";
-   analyzer[] = "Functions/IsGenerator";
-   analyzer[] = "Functions/IsGlobal";
-   analyzer[] = "Functions/KillsApp";
-   analyzer[] = "Functions/LoopCalling";
-   analyzer[] = "Functions/MarkCallable";
-   analyzer[] = "Functions/MismatchParameterAndType";
-   analyzer[] = "Functions/MismatchParameterName";
-   analyzer[] = "Functions/MismatchTypeAndDefault";
-   analyzer[] = "Functions/MismatchedDefaultArguments";
-   analyzer[] = "Functions/MismatchedTypehint";
-   analyzer[] = "Functions/MissingTypehint";
-   analyzer[] = "Functions/ModifyTypedParameter";
-   analyzer[] = "Functions/MultipleDeclarations";
-   analyzer[] = "Functions/MultipleIdenticalClosure";
-   analyzer[] = "Functions/MultipleReturn";
-   analyzer[] = "Functions/MultipleSameArguments";
-   analyzer[] = "Functions/MustReturn";
-   analyzer[] = "Functions/NeverUsedParameter";
-   analyzer[] = "Functions/NoBooleanAsDefault";
-   analyzer[] = "Functions/NoClassAsTypehint";
-   analyzer[] = "Functions/NoLiteralForReference";
-   analyzer[] = "Functions/NoReferencedVoid";
-   analyzer[] = "Functions/NoReturnUsed";
-   analyzer[] = "Functions/NullTypeFavorite";
-   analyzer[] = "Functions/NullableWithConstant";
-   analyzer[] = "Functions/NullableWithoutCheck";
-   analyzer[] = "Functions/OneLetterFunctions";
-   analyzer[] = "Functions/OnlyVariableForReference";
-   analyzer[] = "Functions/OnlyVariablePassedByReference";
-   analyzer[] = "Functions/OptionalParameter";
-   analyzer[] = "Functions/ParameterHiding";
-   analyzer[] = "Functions/PrefixToType";
-   analyzer[] = "Functions/RealFunctions";
-   analyzer[] = "Functions/Recursive";
-   analyzer[] = "Functions/RedeclaredPhpFunction";
-   analyzer[] = "Functions/RelayFunction";
-   analyzer[] = "Functions/SemanticTyping";
-   analyzer[] = "Functions/ShouldBeTypehinted";
-   analyzer[] = "Functions/ShouldUseConstants";
-   analyzer[] = "Functions/ShouldYieldWithKey";
-   analyzer[] = "Functions/TooManyLocalVariables";
-   analyzer[] = "Functions/TooManyParameters";
-   analyzer[] = "Functions/TooMuchIndented";
-   analyzer[] = "Functions/TypehintMustBeReturned";
-   analyzer[] = "Functions/TypehintedReferences";
-   analyzer[] = "Functions/Typehints";
-   analyzer[] = "Functions/UnbindingClosures";
-   analyzer[] = "Functions/UndefinedFunctions";
-   analyzer[] = "Functions/UnknownParameterName";
-   analyzer[] = "Functions/UnsetOnArguments";
-   analyzer[] = "Functions/UnusedArguments";
-   analyzer[] = "Functions/UnusedFunctions";
-   analyzer[] = "Functions/UnusedInheritedVariable";
-   analyzer[] = "Functions/UnusedReturnedValue";
-   analyzer[] = "Functions/UseArrowFunctions";
-   analyzer[] = "Functions/UseConstantAsArguments";
-   analyzer[] = "Functions/UseConstantsAsReturns";
-   analyzer[] = "Functions/UsedFunctions";
-   analyzer[] = "Functions/UselessArgument";
-   analyzer[] = "Functions/UselessDefault";
-   analyzer[] = "Functions/UselessReferenceArgument";
-   analyzer[] = "Functions/UselessReturn";
-   analyzer[] = "Functions/UselessTypeCheck";
-   analyzer[] = "Functions/UsesDefaultArguments";
-   analyzer[] = "Functions/UsingDeprecated";
-   analyzer[] = "Functions/VariableArguments";
-   analyzer[] = "Functions/WithoutReturn";
-   analyzer[] = "Functions/WrongArgumentNameWithPhpFunction";
-   analyzer[] = "Functions/WrongArgumentType";
-   analyzer[] = "Functions/WrongCase";
-   analyzer[] = "Functions/WrongNumberOfArguments";
-   analyzer[] = "Functions/WrongNumberOfArgumentsMethods";
-   analyzer[] = "Functions/WrongOptionalParameter";
-   analyzer[] = "Functions/WrongReturnedType";
-   analyzer[] = "Functions/WrongTypeWithCall";
-   analyzer[] = "Functions/WrongTypehintedName";
-   analyzer[] = "Functions/funcGetArgModified";
-   analyzer[] = "Interfaces/AlreadyParentsInterface";
-   analyzer[] = "Interfaces/AvoidSelfInInterface";
-   analyzer[] = "Interfaces/CantImplementTraversable";
-   analyzer[] = "Interfaces/CantOverloadConstants";
-   analyzer[] = "Interfaces/ConcreteVisibility";
-   analyzer[] = "Interfaces/CouldUseInterface";
-   analyzer[] = "Interfaces/EmptyInterface";
-   analyzer[] = "Interfaces/InterfaceMethod";
-   analyzer[] = "Interfaces/InterfaceUsage";
-   analyzer[] = "Interfaces/Interfacenames";
-   analyzer[] = "Interfaces/IsExtInterface";
-   analyzer[] = "Interfaces/IsNotImplemented";
-   analyzer[] = "Interfaces/NoConstructorInInterface";
-   analyzer[] = "Interfaces/NoGaranteeForPropertyConstant";
-   analyzer[] = "Interfaces/Php";
-   analyzer[] = "Interfaces/PossibleInterfaces";
-   analyzer[] = "Interfaces/RepeatedInterface";
-   analyzer[] = "Interfaces/UndefinedInterfaces";
-   analyzer[] = "Interfaces/UnusedInterfaces";
-   analyzer[] = "Interfaces/UsedInterfaces";
-   analyzer[] = "Interfaces/UselessInterfaces";
-   analyzer[] = "Namespaces/Alias";
-   analyzer[] = "Namespaces/AliasConfusion";
-   analyzer[] = "Namespaces/ConstantFullyQualified";
-   analyzer[] = "Namespaces/ConstantWithUseFavorite";
-   analyzer[] = "Namespaces/CouldUseAlias";
-   analyzer[] = "Namespaces/EmptyNamespace";
-   analyzer[] = "Namespaces/GlobalImport";
-   analyzer[] = "Namespaces/HiddenUse";
-   analyzer[] = "Namespaces/MultipleAliasDefinitionPerFile";
-   analyzer[] = "Namespaces/MultipleAliasDefinitions";
-   analyzer[] = "Namespaces/NamespaceUsage";
-   analyzer[] = "Namespaces/Namespacesnames";
-   analyzer[] = "Namespaces/ShouldMakeAlias";
-   analyzer[] = "Namespaces/UnresolvedUse";
-   analyzer[] = "Namespaces/UnusedUse";
-   analyzer[] = "Namespaces/UseFunctionsConstants";
-   analyzer[] = "Namespaces/UseWithFullyQualifiedNS";
-   analyzer[] = "Namespaces/UsedUse";
-   analyzer[] = "Namespaces/WrongCase";
-   analyzer[] = "Patterns/AbstractAway";
-   analyzer[] = "Patterns/CourrierAntiPattern";
-   analyzer[] = "Patterns/DependencyInjection";
-   analyzer[] = "Patterns/Factory";
-   analyzer[] = "Patterns/GetterSetter";
-   analyzer[] = "Performances/ArrayKeyExistsSpeedup";
-   analyzer[] = "Performances/ArrayMergeInLoops";
-   analyzer[] = "Performances/Autoappend";
-   analyzer[] = "Performances/AvoidArrayPush";
-   analyzer[] = "Performances/CacheVariableOutsideLoop";
-   analyzer[] = "Performances/ClassOperator";
-   analyzer[] = "Performances/CsvInLoops";
-   analyzer[] = "Performances/DoInBase";
-   analyzer[] = "Performances/DoubleArrayFlip";
-   analyzer[] = "Performances/FetchOneRowFormat";
-   analyzer[] = "Performances/IssetWholeArray";
-   analyzer[] = "Performances/JoinFile";
-   analyzer[] = "Performances/LogicalToInArray";
-   analyzer[] = "Performances/MakeOneCall";
-   analyzer[] = "Performances/MbStringInLoop";
-   analyzer[] = "Performances/MemoizeMagicCall";
-   analyzer[] = "Performances/NoConcatInLoop";
-   analyzer[] = "Performances/NoGlob";
-   analyzer[] = "Performances/NotCountNull";
-   analyzer[] = "Performances/OptimizeExplode";
-   analyzer[] = "Performances/PHP7EncapsedStrings";
-   analyzer[] = "Performances/Php74ArrayKeyExists";
-   analyzer[] = "Performances/PrePostIncrement";
-   analyzer[] = "Performances/RegexOnArrays";
-   analyzer[] = "Performances/RegexOnCollector";
-   analyzer[] = "Performances/SimpleSwitch";
-   analyzer[] = "Performances/SimplifyForeach";
-   analyzer[] = "Performances/SlowFunctions";
-   analyzer[] = "Performances/StaticCallDontNeedObjects";
-   analyzer[] = "Performances/StrposTooMuch";
-   analyzer[] = "Performances/SubstrFirst";
-   analyzer[] = "Performances/UseArraySlice";
-   analyzer[] = "Performances/UseBlindVar";
-   analyzer[] = "Performances/timeVsstrtotime";
-   analyzer[] = "Php/AlternativeSyntax";
-   analyzer[] = "Php/Argon2Usage";
-   analyzer[] = "Php/ArrayKeyExistsWithObjects";
-   analyzer[] = "Php/AssertFunctionIsReserved";
-   analyzer[] = "Php/AssertionUsage";
-   analyzer[] = "Php/AssignAnd";
-   analyzer[] = "Php/Assumptions";
-   analyzer[] = "Php/AutoloadUsage";
-   analyzer[] = "Php/AvoidGetobjectVars";
-   analyzer[] = "Php/AvoidMbDectectEncoding";
-   analyzer[] = "Php/AvoidReal";
-   analyzer[] = "Php/AvoidSetErrorHandlerContextArg";
-   analyzer[] = "Php/BetterRand";
-   analyzer[] = "Php/CallingStaticTraitMethod";
-   analyzer[] = "Php/CantUseReturnValueInWriteContext";
-   analyzer[] = "Php/CaseForPSS";
-   analyzer[] = "Php/CastUnsetUsage";
-   analyzer[] = "Php/CastingUsage";
-   analyzer[] = "Php/ClassConstWithArray";
-   analyzer[] = "Php/ClassFunctionConfusion";
-   analyzer[] = "Php/CloseTags";
-   analyzer[] = "Php/CloseTagsConsistency";
-   analyzer[] = "Php/ClosureThisSupport";
-   analyzer[] = "Php/Coalesce";
-   analyzer[] = "Php/CoalesceEqual";
-   analyzer[] = "Php/CompactInexistant";
-   analyzer[] = "Php/ConcatAndAddition";
-   analyzer[] = "Php/ConstWithArray";
-   analyzer[] = "Php/ConstantScalarExpression";
-   analyzer[] = "Php/CookiesVariables";
-   analyzer[] = "Php/CouldUseIsCountable";
-   analyzer[] = "Php/CouldUsePromotedProperties";
-   analyzer[] = "Php/Crc32MightBeNegative";
-   analyzer[] = "Php/CryptoUsage";
-   analyzer[] = "Php/DateFormats";
-   analyzer[] = "Php/DeclareEncoding";
-   analyzer[] = "Php/DeclareStrict";
-   analyzer[] = "Php/DeclareStrictType";
-   analyzer[] = "Php/DeclareTicks";
-   analyzer[] = "Php/DefineWithArray";
-   analyzer[] = "Php/DeprecateDollarCurly";
-   analyzer[] = "Php/Deprecated";
-   analyzer[] = "Php/DetectCurrentClass";
-   analyzer[] = "Php/DirectCallToClone";
-   analyzer[] = "Php/DirectiveName";
-   analyzer[] = "Php/DirectivesUsage";
-   analyzer[] = "Php/DlUsage";
-   analyzer[] = "Php/DontPolluteGlobalSpace";
-   analyzer[] = "Php/EchoTagUsage";
-   analyzer[] = "Php/EllipsisUsage";
-   analyzer[] = "Php/EmptyList";
-   analyzer[] = "Php/EnumUsage";
-   analyzer[] = "Php/ErrorLogUsage";
-   analyzer[] = "Php/ExponentUsage";
-   analyzer[] = "Php/FailingAnalysis";
-   analyzer[] = "Php/FalseToArray";
-   analyzer[] = "Php/FilesFullPath";
-   analyzer[] = "Php/FilterToAddSlashes";
-   analyzer[] = "Php/FinalConstant";
-   analyzer[] = "Php/FirstClassCallable";
-   analyzer[] = "Php/FlexibleHeredoc";
-   analyzer[] = "Php/FopenMode";
-   analyzer[] = "Php/ForeachDontChangePointer";
-   analyzer[] = "Php/ForeachObject";
-   analyzer[] = "Php/GlobalWithoutSimpleVariable";
-   analyzer[] = "Php/GlobalsVsGlobal";
-   analyzer[] = "Php/Gotonames";
-   analyzer[] = "Php/GroupUseDeclaration";
-   analyzer[] = "Php/GroupUseTrailingComma";
-   analyzer[] = "Php/Haltcompiler";
-   analyzer[] = "Php/HashAlgos";
-   analyzer[] = "Php/HashAlgos53";
-   analyzer[] = "Php/HashAlgos54";
-   analyzer[] = "Php/HashAlgos71";
-   analyzer[] = "Php/HashAlgos74";
-   analyzer[] = "Php/HashUsesObjects";
-   analyzer[] = "Php/IdnUts46";
    analyzer[] = "Php/ImplodeOneArg";
-   analyzer[] = "Php/IncomingValues";
-   analyzer[] = "Php/IncomingVariables";
-   analyzer[] = "Php/Incompilable";
-   analyzer[] = "Php/IntegerSeparatorUsage";
-   analyzer[] = "Php/InternalParameterType";
-   analyzer[] = "Php/IsAWithString";
-   analyzer[] = "Php/IsINF";
-   analyzer[] = "Php/IsNAN";
    analyzer[] = "Php/IsnullVsEqualNull";
    analyzer[] = "Php/IssetMultipleArgs";
-   analyzer[] = "Php/JsonSerializeReturnType";
-   analyzer[] = "Php/Labelnames";
-   analyzer[] = "Php/LetterCharsLogicalFavorite";
-   analyzer[] = "Php/ListShortSyntax";
-   analyzer[] = "Php/ListWithAppends";
-   analyzer[] = "Php/ListWithKeys";
-   analyzer[] = "Php/ListWithReference";
    analyzer[] = "Php/LogicalInLetters";
-   analyzer[] = "Php/MethodCallOnNew";
-   analyzer[] = "Php/MiddleVersion";
-   analyzer[] = "Php/MissingMagicIsset";
-   analyzer[] = "Php/MissingSubpattern";
-   analyzer[] = "Php/MixedKeyword";
-   analyzer[] = "Php/MixedUsage";
-   analyzer[] = "Php/MultipleDeclareStrict";
-   analyzer[] = "Php/MustCallParentConstructor";
-   analyzer[] = "Php/NamedParameterUsage";
-   analyzer[] = "Php/NativeClassTypeCompatibility";
-   analyzer[] = "Php/NestedTernaryWithoutParenthesis";
-   analyzer[] = "Php/NeverKeyword";
-   analyzer[] = "Php/NeverTypehintUsage";
    analyzer[] = "Php/NewExponent";
-   analyzer[] = "Php/NewInitializers";
-   analyzer[] = "Php/NoCastToInt";
-   analyzer[] = "Php/NoClassInGlobal";
-   analyzer[] = "Php/NoListWithString";
-   analyzer[] = "Php/NoMoreCurlyArrays";
-   analyzer[] = "Php/NoNullForNative";
-   analyzer[] = "Php/NoReferenceForStaticProperty";
-   analyzer[] = "Php/NoReferenceForTernary";
-   analyzer[] = "Php/NoReturnForGenerator";
-   analyzer[] = "Php/NoStringWithAppend";
-   analyzer[] = "Php/NoSubstrMinusOne";
-   analyzer[] = "Php/NotScalarType";
-   analyzer[] = "Php/OnlyVariableForReference";
-   analyzer[] = "Php/OpensslEncryptAlgoChange";
-   analyzer[] = "Php/OveriddenFunction";
-   analyzer[] = "Php/PHP70scalartypehints";
-   analyzer[] = "Php/PHP71scalartypehints";
-   analyzer[] = "Php/PHP72scalartypehints";
-   analyzer[] = "Php/PHP73LastEmptyArgument";
-   analyzer[] = "Php/PHP80scalartypehints";
-   analyzer[] = "Php/PHP81scalartypehints";
-   analyzer[] = "Php/ParenthesisAsParameter";
-   analyzer[] = "Php/Password55";
-   analyzer[] = "Php/PathinfoReturns";
-   analyzer[] = "Php/PearUsage";
-   analyzer[] = "Php/Php54NewFunctions";
-   analyzer[] = "Php/Php54RemovedFunctions";
-   analyzer[] = "Php/Php55NewFunctions";
-   analyzer[] = "Php/Php55RemovedFunctions";
-   analyzer[] = "Php/Php56NewFunctions";
-   analyzer[] = "Php/Php70NewClasses";
-   analyzer[] = "Php/Php70NewFunctions";
-   analyzer[] = "Php/Php70NewInterfaces";
-   analyzer[] = "Php/Php70RemovedDirective";
-   analyzer[] = "Php/Php70RemovedFunctions";
-   analyzer[] = "Php/Php71NewClasses";
-   analyzer[] = "Php/Php71NewFunctions";
-   analyzer[] = "Php/Php71RemovedDirective";
-   analyzer[] = "Php/Php71microseconds";
-   analyzer[] = "Php/Php72Deprecation";
-   analyzer[] = "Php/Php72NewClasses";
-   analyzer[] = "Php/Php72NewConstants";
-   analyzer[] = "Php/Php72NewFunctions";
-   analyzer[] = "Php/Php72ObjectKeyword";
-   analyzer[] = "Php/Php72RemovedFunctions";
-   analyzer[] = "Php/Php73NewFunctions";
-   analyzer[] = "Php/Php73RemovedFunctions";
-   analyzer[] = "Php/Php74Deprecation";
-   analyzer[] = "Php/Php74NewClasses";
-   analyzer[] = "Php/Php74NewConstants";
-   analyzer[] = "Php/Php74NewDirective";
-   analyzer[] = "Php/Php74NewFunctions";
-   analyzer[] = "Php/Php74RemovedDirective";
-   analyzer[] = "Php/Php74RemovedFunctions";
-   analyzer[] = "Php/Php74ReservedKeyword";
-   analyzer[] = "Php/Php74mbstrrpos3rdArg";
-   analyzer[] = "Php/Php7RelaxedKeyword";
-   analyzer[] = "Php/Php80NamedParameterVariadic";
-   analyzer[] = "Php/Php80NewFunctions";
-   analyzer[] = "Php/Php80OnlyTypeHints";
-   analyzer[] = "Php/Php80RemovedConstant";
-   analyzer[] = "Php/Php80RemovedDirective";
-   analyzer[] = "Php/Php80RemovedFunctions";
-   analyzer[] = "Php/Php80RemovesResources";
-   analyzer[] = "Php/Php80UnionTypehint";
-   analyzer[] = "Php/Php80VariableSyntax";
-   analyzer[] = "Php/Php81IntersectionTypehint";
-   analyzer[] = "Php/Php81NewFunctions";
-   analyzer[] = "Php/Php81RemovedConstant";
-   analyzer[] = "Php/Php81RemovedDirective";
-   analyzer[] = "Php/Php81RemovedFunctions";
-   analyzer[] = "Php/Php81RemovesResources";
-   analyzer[] = "Php/PhpErrorMsgUsage";
-   analyzer[] = "Php/PregMatchAllFlag";
-   analyzer[] = "Php/Prints";
-   analyzer[] = "Php/RawPostDataUsage";
-   analyzer[] = "Php/ReflectionExportIsDeprecated";
-   analyzer[] = "Php/ReservedKeywords7";
-   analyzer[] = "Php/ReservedMatchKeyword";
-   analyzer[] = "Php/ReservedNames";
-   analyzer[] = "Php/RestrictGlobalUsage";
-   analyzer[] = "Php/ReturnTypehintUsage";
-   analyzer[] = "Php/ReturnWithParenthesis";
-   analyzer[] = "Php/SafePhpvars";
-   analyzer[] = "Php/ScalarAreNotArrays";
-   analyzer[] = "Php/ScalarTypehintUsage";
-   analyzer[] = "Php/SerializeMagic";
-   analyzer[] = "Php/SessionVariables";
-   analyzer[] = "Php/SetExceptionHandlerPHP7";
-   analyzer[] = "Php/SetHandlers";
-   analyzer[] = "Php/ShellFavorite";
-   analyzer[] = "Php/ShortOpenTagRequired";
-   analyzer[] = "Php/ShouldPreprocess";
-   analyzer[] = "Php/ShouldUseArrayColumn";
-   analyzer[] = "Php/ShouldUseArrayFilter";
-   analyzer[] = "Php/ShouldUseCoalesce";
-   analyzer[] = "Php/ShouldUseFunction";
-   analyzer[] = "Php/SignatureTrailingComma";
-   analyzer[] = "Php/SpreadOperatorForArray";
-   analyzer[] = "Php/StaticclassUsage";
-   analyzer[] = "Php/StringIntComparison";
-   analyzer[] = "Php/StrtrArguments";
-   analyzer[] = "Php/SuperGlobalUsage";
-   analyzer[] = "Php/ThrowUsage";
-   analyzer[] = "Php/ThrowWasAnExpression";
-   analyzer[] = "Php/TooManyNativeCalls";
-   analyzer[] = "Php/TrailingComma";
-   analyzer[] = "Php/TriggerErrorUsage";
-   analyzer[] = "Php/TryCatchUsage";
-   analyzer[] = "Php/TryMultipleCatch";
-   analyzer[] = "Php/TypedPropertyUsage";
-   analyzer[] = "Php/UnicodeEscapePartial";
-   analyzer[] = "Php/UnicodeEscapeSyntax";
-   analyzer[] = "Php/UnknownPcre2Option";
-   analyzer[] = "Php/UnpackingInsideArrays";
-   analyzer[] = "Php/UnsetOrCast";
-   analyzer[] = "Php/UpperCaseFunction";
-   analyzer[] = "Php/UpperCaseKeyword";
-   analyzer[] = "Php/UseAttributes";
-   analyzer[] = "Php/UseBrowscap";
-   analyzer[] = "Php/UseClassAlias";
-   analyzer[] = "Php/UseCli";
-   analyzer[] = "Php/UseContravariance";
-   analyzer[] = "Php/UseCookies";
-   analyzer[] = "Php/UseCovariance";
-   analyzer[] = "Php/UseDateTimeImmutable";
-   analyzer[] = "Php/UseGetDebugType";
-   analyzer[] = "Php/UseMatch";
-   analyzer[] = "Php/UseNullSafeOperator";
-   analyzer[] = "Php/UseNullableType";
-   analyzer[] = "Php/UseObjectApi";
-   analyzer[] = "Php/UsePathinfo";
-   analyzer[] = "Php/UsePathinfoArgs";
-   analyzer[] = "Php/UseSessionStartOptions";
-   analyzer[] = "Php/UseSetCookie";
-   analyzer[] = "Php/UseStdclass";
-   analyzer[] = "Php/UseStrContains";
-   analyzer[] = "Php/UseTrailingUseComma";
-   analyzer[] = "Php/UseWeb";
-   analyzer[] = "Php/UsesEnv";
-   analyzer[] = "Php/UsortSorting";
-   analyzer[] = "Php/VersionCompareOperator";
-   analyzer[] = "Php/WrongAttributeConfiguration";
-   analyzer[] = "Php/WrongTypeForNativeFunction";
-   analyzer[] = "Php/YieldFromUsage";
-   analyzer[] = "Php/YieldUsage";
-   analyzer[] = "Php/debugInfoUsage";
-   analyzer[] = "Php/oldAutoloadUsage";
-   analyzer[] = "Portability/FopenMode";
-   analyzer[] = "Portability/GlobBraceUsage";
-   analyzer[] = "Portability/IconvTranslit";
-   analyzer[] = "Portability/LinuxOnlyFiles";
-   analyzer[] = "Portability/WindowsOnlyConstants";
-   analyzer[] = "Project/IsLibrary";
-   analyzer[] = "Psr/Psr11Usage";
-   analyzer[] = "Psr/Psr13Usage";
-   analyzer[] = "Psr/Psr16Usage";
-   analyzer[] = "Psr/Psr3Usage";
-   analyzer[] = "Psr/Psr6Usage";
-   analyzer[] = "Psr/Psr7Usage";
-   analyzer[] = "Security/AnchorRegex";
-   analyzer[] = "Security/AvoidThoseCrypto";
-   analyzer[] = "Security/CantDisableClass";
-   analyzer[] = "Security/CantDisableFunction";
-   analyzer[] = "Security/CompareHash";
-   analyzer[] = "Security/ConfigureExtract";
-   analyzer[] = "Security/CryptoKeyLength";
-   analyzer[] = "Security/CurlOptions";
-   analyzer[] = "Security/DirectInjection";
-   analyzer[] = "Security/DontEchoError";
-   analyzer[] = "Security/DynamicDl";
-   analyzer[] = "Security/EncodedLetters";
-   analyzer[] = "Security/FilterInputSource";
-   analyzer[] = "Security/GPRAliases";
-   analyzer[] = "Security/IndirectInjection";
-   analyzer[] = "Security/IntegerConversion";
-   analyzer[] = "Security/KeepFilesRestricted";
-   analyzer[] = "Security/MinusOneOnError";
-   analyzer[] = "Security/MkdirDefault";
-   analyzer[] = "Security/MoveUploadedFile";
-   analyzer[] = "Security/NoEntIgnore";
-   analyzer[] = "Security/NoNetForXmlLoad";
-   analyzer[] = "Security/NoSleep";
-   analyzer[] = "Security/NoWeakSSLCrypto";
-   analyzer[] = "Security/RegisterGlobals";
-   analyzer[] = "Security/SafeHttpHeaders";
-   analyzer[] = "Security/SensitiveArgument";
-   analyzer[] = "Security/SessionLazyWrite";
-   analyzer[] = "Security/SetCookieArgs";
-   analyzer[] = "Security/ShouldUsePreparedStatement";
-   analyzer[] = "Security/ShouldUseSessionRegenerateId";
-   analyzer[] = "Security/Sqlite3RequiresSingleQuotes";
-   analyzer[] = "Security/SuperGlobalContagion";
-   analyzer[] = "Security/UnserializeSecondArg";
-   analyzer[] = "Security/UploadFilenameInjection";
-   analyzer[] = "Security/parseUrlWithoutParameters";
-   analyzer[] = "Structures/AddZero";
-   analyzer[] = "Structures/AlteringForeachWithoutReference";
-   analyzer[] = "Structures/AlternativeConsistenceByFile";
-   analyzer[] = "Structures/AlwaysFalse";
-   analyzer[] = "Structures/ArrayFillWithObjects";
-   analyzer[] = "Structures/ArrayMapPassesByValue";
-   analyzer[] = "Structures/ArrayMergeAndVariadic";
-   analyzer[] = "Structures/ArrayMergeArrayArray";
-   analyzer[] = "Structures/ArrayMergeWithEllipsis";
-   analyzer[] = "Structures/ArraySearchMultipleKeys";
-   analyzer[] = "Structures/AssigneAndCompare";
-   analyzer[] = "Structures/AssignedInOneBranch";
-   analyzer[] = "Structures/AutoUnsetForeach";
-   analyzer[] = "Structures/BailOutEarly";
-   analyzer[] = "Structures/BasenameSuffix";
-   analyzer[] = "Structures/BooleanStrictComparison";
-   analyzer[] = "Structures/Bracketless";
-   analyzer[] = "Structures/Break0";
-   analyzer[] = "Structures/BreakNonInteger";
-   analyzer[] = "Structures/BreakOutsideLoop";
-   analyzer[] = "Structures/BuriedAssignation";
-   analyzer[] = "Structures/CalltimePassByReference";
-   analyzer[] = "Structures/CanCountNonCountable";
-   analyzer[] = "Structures/CastToBoolean";
-   analyzer[] = "Structures/CastingTernary";
-   analyzer[] = "Structures/CatchShadowsVariable";
-   analyzer[] = "Structures/CheckAllTypes";
-   analyzer[] = "Structures/CheckDivision";
-   analyzer[] = "Structures/CheckJson";
-   analyzer[] = "Structures/CoalesceAndConcat";
-   analyzer[] = "Structures/CommonAlternatives";
-   analyzer[] = "Structures/ComparedButNotAssignedStrings";
-   analyzer[] = "Structures/ComparedComparison";
-   analyzer[] = "Structures/ComparisonFavorite";
-   analyzer[] = "Structures/ComplexExpression";
-   analyzer[] = "Structures/ConcatEmpty";
-   analyzer[] = "Structures/ConcatenationInterpolationFavorite";
-   analyzer[] = "Structures/ConditionalStructures";
-   analyzer[] = "Structures/ConstDefineFavorite";
-   analyzer[] = "Structures/ConstantComparisonConsistance";
-   analyzer[] = "Structures/ConstantConditions";
-   analyzer[] = "Structures/ConstantScalarExpression";
-   analyzer[] = "Structures/ContinueIsForLoop";
-   analyzer[] = "Structures/CouldBeElse";
-   analyzer[] = "Structures/CouldBeSpaceship";
-   analyzer[] = "Structures/CouldBeStatic";
-   analyzer[] = "Structures/CouldBeTernary";
-   analyzer[] = "Structures/CouldUseArrayFillKeys";
-   analyzer[] = "Structures/CouldUseArraySum";
-   analyzer[] = "Structures/CouldUseArrayUnique";
-   analyzer[] = "Structures/CouldUseCompact";
    analyzer[] = "Structures/CouldUseDir";
-   analyzer[] = "Structures/CouldUseMatch";
-   analyzer[] = "Structures/CouldUseNullableOperator";
-   analyzer[] = "Structures/CouldUseShortAssignation";
-   analyzer[] = "Structures/CouldUseStrrepeat";
-   analyzer[] = "Structures/CryptWithoutSalt";
-   analyzer[] = "Structures/CurlVersionNow";
-   analyzer[] = "Structures/DanglingArrayReferences";
-   analyzer[] = "Structures/DeclareStaticOnce";
-   analyzer[] = "Structures/DereferencingAS";
-   analyzer[] = "Structures/DieExitConsistance";
-   analyzer[] = "Structures/DifferencePreference";
-   analyzer[] = "Structures/DirThenSlash";
-   analyzer[] = "Structures/DirectlyUseFile";
-   analyzer[] = "Structures/DontAddSeconds";
-   analyzer[] = "Structures/DontBeTooManual";
-   analyzer[] = "Structures/DontChangeBlindKey";
-   analyzer[] = "Structures/DontCompareTypedBoolean";
-   analyzer[] = "Structures/DontLoopOnYield";
-   analyzer[] = "Structures/DontMixPlusPlus";
-   analyzer[] = "Structures/DontReadAndWriteInOneExpression";
-   analyzer[] = "Structures/DontReuseForeachSource";
-   analyzer[] = "Structures/DoubleAssignation";
-   analyzer[] = "Structures/DoubleInstruction";
-   analyzer[] = "Structures/DoubleObjectAssignation";
-   analyzer[] = "Structures/DropElseAfterReturn";
-   analyzer[] = "Structures/DuplicateCalls";
-   analyzer[] = "Structures/DynamicCalls";
-   analyzer[] = "Structures/DynamicCode";
-   analyzer[] = "Structures/EchoPrintConsistance";
-   analyzer[] = "Structures/EchoWithConcat";
    analyzer[] = "Structures/ElseIfElseif";
-   analyzer[] = "Structures/ElseUsage";
-   analyzer[] = "Structures/EmptyBlocks";
-   analyzer[] = "Structures/EmptyLines";
-   analyzer[] = "Structures/EmptyTryCatch";
-   analyzer[] = "Structures/EmptyWithExpression";
-   analyzer[] = "Structures/ErrorMessages";
-   analyzer[] = "Structures/ErrorReportingWithInteger";
-   analyzer[] = "Structures/EvalUsage";
-   analyzer[] = "Structures/EvalWithoutTry";
-   analyzer[] = "Structures/ExitUsage";
-   analyzer[] = "Structures/FailingSubstrComparison";
-   analyzer[] = "Structures/Fallthrough";
-   analyzer[] = "Structures/FileUploadUsage";
-   analyzer[] = "Structures/FileUsage";
-   analyzer[] = "Structures/ForWithFunctioncall";
-   analyzer[] = "Structures/ForeachNeedReferencedSource";
-   analyzer[] = "Structures/ForeachReferenceIsNotModified";
-   analyzer[] = "Structures/ForeachSourceValue";
-   analyzer[] = "Structures/ForeachWithList";
-   analyzer[] = "Structures/ForgottenWhiteSpace";
-   analyzer[] = "Structures/FunctionPreSubscripting";
-   analyzer[] = "Structures/FunctionSubscripting";
-   analyzer[] = "Structures/GlobalInGlobal";
-   analyzer[] = "Structures/GlobalOutsideLoop";
-   analyzer[] = "Structures/GlobalUsage";
-   analyzer[] = "Structures/GoToKeyDirectly";
-   analyzer[] = "Structures/GtOrLtFavorite";
-   analyzer[] = "Structures/HeredocDelimiterFavorite";
-   analyzer[] = "Structures/Htmlentitiescall";
-   analyzer[] = "Structures/HtmlentitiescallDefaultFlag";
-   analyzer[] = "Structures/IdenticalConditions";
-   analyzer[] = "Structures/IdenticalConsecutive";
-   analyzer[] = "Structures/IdenticalElseif";
-   analyzer[] = "Structures/IdenticalOnBothSides";
-   analyzer[] = "Structures/IdenticalVariablesInForeach";
-   analyzer[] = "Structures/IfWithSameConditions";
-   analyzer[] = "Structures/Iffectation";
-   analyzer[] = "Structures/ImplicitConversionToInt";
-   analyzer[] = "Structures/ImplicitGlobal";
-   analyzer[] = "Structures/ImpliedIf";
-   analyzer[] = "Structures/ImplodeArgsOrder";
-   analyzer[] = "Structures/IncludeUsage";
-   analyzer[] = "Structures/InconsistentConcatenation";
-   analyzer[] = "Structures/InconsistentElseif";
-   analyzer[] = "Structures/IndicesAreIntOrString";
-   analyzer[] = "Structures/InfiniteRecursion";
-   analyzer[] = "Structures/InvalidPackFormat";
-   analyzer[] = "Structures/InvalidRegex";
-   analyzer[] = "Structures/IsZero";
-   analyzer[] = "Structures/IssetWithConstant";
-   analyzer[] = "Structures/JsonWithOption";
-   analyzer[] = "Structures/ListOmissions";
-   analyzer[] = "Structures/LogicalMistakes";
-   analyzer[] = "Structures/LoneBlock";
-   analyzer[] = "Structures/LongArguments";
-   analyzer[] = "Structures/LongBlock";
-   analyzer[] = "Structures/MailUsage";
-   analyzer[] = "Structures/MaxLevelOfIdentation";
-   analyzer[] = "Structures/MbstringThirdArg";
-   analyzer[] = "Structures/MbstringUnknownEncoding";
-   analyzer[] = "Structures/McryptcreateivWithoutOption";
-   analyzer[] = "Structures/MergeIfThen";
-   analyzer[] = "Structures/MismatchedTernary";
-   analyzer[] = "Structures/MissingCases";
-   analyzer[] = "Structures/MissingNew";
-   analyzer[] = "Structures/MissingParenthesis";
-   analyzer[] = "Structures/MixedConcatInterpolation";
-   analyzer[] = "Structures/ModernEmpty";
-   analyzer[] = "Structures/MultipleCatch";
-   analyzer[] = "Structures/MultipleDefinedCase";
-   analyzer[] = "Structures/MultipleSimilarCalls";
-   analyzer[] = "Structures/MultipleTypeVariable";
    analyzer[] = "Structures/MultipleUnset";
-   analyzer[] = "Structures/MultiplyByOne";
-   analyzer[] = "Structures/NamedRegex";
-   analyzer[] = "Structures/NegativePow";
-   analyzer[] = "Structures/NestedIfthen";
-   analyzer[] = "Structures/NestedLoops";
-   analyzer[] = "Structures/NestedTernary";
-   analyzer[] = "Structures/NeverNegative";
-   analyzer[] = "Structures/NewLineStyle";
-   analyzer[] = "Structures/NextMonthTrap";
-   analyzer[] = "Structures/NoAppendOnSource";
-   analyzer[] = "Structures/NoArrayUnique";
-   analyzer[] = "Structures/NoAssignationInFunction";
-   analyzer[] = "Structures/NoChangeIncomingVariables";
-   analyzer[] = "Structures/NoChoice";
-   analyzer[] = "Structures/NoDirectAccess";
-   analyzer[] = "Structures/NoDirectUsage";
-   analyzer[] = "Structures/NoEmptyRegex";
-   analyzer[] = "Structures/NoGetClassNull";
-   analyzer[] = "Structures/NoHardcodedHash";
-   analyzer[] = "Structures/NoHardcodedIp";
-   analyzer[] = "Structures/NoHardcodedPath";
-   analyzer[] = "Structures/NoHardcodedPort";
-   analyzer[] = "Structures/NoIssetWithEmpty";
-   analyzer[] = "Structures/NoNeedForElse";
-   analyzer[] = "Structures/NoNeedForTriple";
-   analyzer[] = "Structures/NoNeedGetClass";
-   analyzer[] = "Structures/NoObjectAsIndex";
-   analyzer[] = "Structures/NoParenthesisForLanguageConstruct";
-   analyzer[] = "Structures/NoReferenceOnLeft";
-   analyzer[] = "Structures/NoReturnInFinally";
-   analyzer[] = "Structures/NoSubstrOne";
-   analyzer[] = "Structures/NoVariableIsACondition";
-   analyzer[] = "Structures/NonBreakableSpaceInNames";
-   analyzer[] = "Structures/Noscream";
-   analyzer[] = "Structures/NotEqual";
-   analyzer[] = "Structures/NotNot";
-   analyzer[] = "Structures/NotOrNot";
-   analyzer[] = "Structures/ObjectReferences";
-   analyzer[] = "Structures/OnceUsage";
-   analyzer[] = "Structures/OneDotOrObjectOperatorPerLine";
-   analyzer[] = "Structures/OneExpressionBracketsConsistency";
-   analyzer[] = "Structures/OneIfIsSufficient";
-   analyzer[] = "Structures/OneLevelOfIndentation";
-   analyzer[] = "Structures/OneLineTwoInstructions";
-   analyzer[] = "Structures/OnlyFirstByte";
-   analyzer[] = "Structures/OnlyVariableReturnedByReference";
-   analyzer[] = "Structures/OpensslRandomPseudoByteSecondArg";
-   analyzer[] = "Structures/OrDie";
-   analyzer[] = "Structures/OverwrittenForeachVar";
    analyzer[] = "Structures/PHP7Dirname";
-   analyzer[] = "Structures/PhpinfoUsage";
-   analyzer[] = "Structures/PlusEgalOne";
-   analyzer[] = "Structures/PossibleIncrement";
-   analyzer[] = "Structures/PossibleInfiniteLoop";
-   analyzer[] = "Structures/PrintAndDie";
-   analyzer[] = "Structures/PrintWithoutParenthesis";
-   analyzer[] = "Structures/PrintfArguments";
-   analyzer[] = "Structures/PropertyVariableConfusion";
-   analyzer[] = "Structures/QueriesInLoop";
-   analyzer[] = "Structures/RandomWithoutTry";
-   analyzer[] = "Structures/RegexDelimiter";
-   analyzer[] = "Structures/RepeatedPrint";
-   analyzer[] = "Structures/RepeatedRegex";
-   analyzer[] = "Structures/ResourcesUsage";
-   analyzer[] = "Structures/ResultMayBeMissing";
-   analyzer[] = "Structures/ReturnTrueFalse";
-   analyzer[] = "Structures/ReturnVoid";
-   analyzer[] = "Structures/ReuseVariable";
-   analyzer[] = "Structures/SGVariablesConfusion";
-   analyzer[] = "Structures/SameConditions";
-   analyzer[] = "Structures/SequenceInFor";
-   analyzer[] = "Structures/SetAside";
-   analyzer[] = "Structures/SetlocaleNeedsConstants";
-   analyzer[] = "Structures/ShellUsage";
-   analyzer[] = "Structures/ShortTags";
-   analyzer[] = "Structures/ShouldChainException";
-   analyzer[] = "Structures/ShouldMakeTernary";
-   analyzer[] = "Structures/ShouldPreprocess";
-   analyzer[] = "Structures/ShouldUseExplodeArgs";
-   analyzer[] = "Structures/ShouldUseForeach";
-   analyzer[] = "Structures/ShouldUseMath";
-   analyzer[] = "Structures/ShouldUseOperator";
-   analyzer[] = "Structures/SimplePreg";
-   analyzer[] = "Structures/StaticLoop";
-   analyzer[] = "Structures/StringInterpolationFavorite";
-   analyzer[] = "Structures/StripTagsSkipsClosedTag";
-   analyzer[] = "Structures/StrposCompare";
-   analyzer[] = "Structures/SubstrLastArg";
-   analyzer[] = "Structures/SubstrToTrim";
-   analyzer[] = "Structures/SuspiciousComparison";
-   analyzer[] = "Structures/SwitchToSwitch";
-   analyzer[] = "Structures/SwitchWithMultipleDefault";
-   analyzer[] = "Structures/SwitchWithoutDefault";
-   analyzer[] = "Structures/TernaryInConcat";
-   analyzer[] = "Structures/TestThenCast";
-   analyzer[] = "Structures/ThrowsAndAssign";
-   analyzer[] = "Structures/TimestampDifference";
-   analyzer[] = "Structures/TooManyElseif";
-   analyzer[] = "Structures/TryFinally";
-   analyzer[] = "Structures/UncheckedResources";
-   analyzer[] = "Structures/UnconditionLoopBreak";
-   analyzer[] = "Structures/UnknownPregOption";
-   analyzer[] = "Structures/Unpreprocessed";
-   analyzer[] = "Structures/UnreachableCode";
-   analyzer[] = "Structures/UnsetInForeach";
-   analyzer[] = "Structures/UnsupportedOperandTypes";
-   analyzer[] = "Structures/UnsupportedTypesWithOperators";
-   analyzer[] = "Structures/UnusedGlobal";
-   analyzer[] = "Structures/UnusedLabel";
-   analyzer[] = "Structures/UseArrayFunctions";
-   analyzer[] = "Structures/UseCaseValue";
    analyzer[] = "Structures/UseConstant";
-   analyzer[] = "Structures/UseCountRecursive";
-   analyzer[] = "Structures/UseDebug";
-   analyzer[] = "Structures/UseFileAppend";
-   analyzer[] = "Structures/UseInstanceof";
-   analyzer[] = "Structures/UseListWithForeach";
-   analyzer[] = "Structures/UsePositiveCondition";
-   analyzer[] = "Structures/UseSameTypesForComparisons";
-   analyzer[] = "Structures/UseSystemTmp";
-   analyzer[] = "Structures/UseUrlQueryFunctions";
-   analyzer[] = "Structures/UseVariableInsideLoop";
-   analyzer[] = "Structures/UselessBrackets";
-   analyzer[] = "Structures/UselessCasting";
-   analyzer[] = "Structures/UselessCheck";
-   analyzer[] = "Structures/UselessGlobal";
-   analyzer[] = "Structures/UselessInstruction";
-   analyzer[] = "Structures/UselessNullCoalesce";
-   analyzer[] = "Structures/UselessParenthesis";
-   analyzer[] = "Structures/UselessSwitch";
-   analyzer[] = "Structures/UselessUnset";
-   analyzer[] = "Structures/VardumpUsage";
-   analyzer[] = "Structures/VariableGlobal";
-   analyzer[] = "Structures/VariableMayBeNonGlobal";
-   analyzer[] = "Structures/WhileListEach";
-   analyzer[] = "Structures/WrongLocale";
-   analyzer[] = "Structures/WrongRange";
-   analyzer[] = "Structures/YodaComparison";
-   analyzer[] = "Structures/pregOptionE";
-   analyzer[] = "Structures/toStringThrowsException";
-   analyzer[] = "Traits/AlreadyParentsTrait";
-   analyzer[] = "Traits/CannotCallTraitMethod";
-   analyzer[] = "Traits/CouldUseTrait";
-   analyzer[] = "Traits/DependantTrait";
-   analyzer[] = "Traits/EmptyTrait";
-   analyzer[] = "Traits/IsExtTrait";
-   analyzer[] = "Traits/LocallyUsedProperty";
-   analyzer[] = "Traits/MethodCollisionTraits";
-   analyzer[] = "Traits/MultipleUsage";
-   analyzer[] = "Traits/Php";
-   analyzer[] = "Traits/SelfUsingTrait";
-   analyzer[] = "Traits/TraitMethod";
-   analyzer[] = "Traits/TraitNotFound";
-   analyzer[] = "Traits/TraitUsage";
-   analyzer[] = "Traits/Traitnames";
-   analyzer[] = "Traits/UndefinedInsteadof";
-   analyzer[] = "Traits/UndefinedTrait";
-   analyzer[] = "Traits/UnusedClassTrait";
-   analyzer[] = "Traits/UnusedTrait";
-   analyzer[] = "Traits/UsedOnceTrait";
-   analyzer[] = "Traits/UsedTrait";
-   analyzer[] = "Traits/UselessAlias";
-   analyzer[] = "Type/ArrayIndex";
-   analyzer[] = "Type/Binary";
-   analyzer[] = "Type/CharString";
-   analyzer[] = "Type/Continents";
-   analyzer[] = "Type/DuplicateLiteral";
-   analyzer[] = "Type/Email";
-   analyzer[] = "Type/GPCIndex";
-   analyzer[] = "Type/Heredoc";
-   analyzer[] = "Type/Hexadecimal";
-   analyzer[] = "Type/HexadecimalString";
-   analyzer[] = "Type/HttpHeader";
-   analyzer[] = "Type/HttpStatus";
-   analyzer[] = "Type/MalformedOctal";
-   analyzer[] = "Type/Md5String";
-   analyzer[] = "Type/MimeType";
-   analyzer[] = "Type/NoRealComparison";
-   analyzer[] = "Type/Nowdoc";
-   analyzer[] = "Type/Octal";
-   analyzer[] = "Type/OctalInString";
-   analyzer[] = "Type/OneVariableStrings";
-   analyzer[] = "Type/OpensslCipher";
-   analyzer[] = "Type/Pack";
-   analyzer[] = "Type/Path";
-   analyzer[] = "Type/Pcre";
-   analyzer[] = "Type/Ports";
-   analyzer[] = "Type/Printf";
-   analyzer[] = "Type/Protocols";
-   analyzer[] = "Type/Regex";
-   analyzer[] = "Type/Sapi";
-   analyzer[] = "Type/Shellcommands";
-   analyzer[] = "Type/ShouldBeSingleQuote";
-   analyzer[] = "Type/ShouldTypecast";
-   analyzer[] = "Type/SilentlyCastInteger";
-   analyzer[] = "Type/SimilarIntegers";
-   analyzer[] = "Type/SpecialIntegers";
-   analyzer[] = "Type/Sql";
-   analyzer[] = "Type/StringHoldAVariable";
-   analyzer[] = "Type/StringInterpolation";
-   analyzer[] = "Type/StringWithStrangeSpace";
-   analyzer[] = "Type/UdpDomains";
-   analyzer[] = "Type/UnicodeBlock";
-   analyzer[] = "Type/Url";
-   analyzer[] = "Typehints/CouldBeArray";
-   analyzer[] = "Typehints/CouldBeBoolean";
-   analyzer[] = "Typehints/CouldBeCIT";
-   analyzer[] = "Typehints/CouldBeCallable";
-   analyzer[] = "Typehints/CouldBeFloat";
-   analyzer[] = "Typehints/CouldBeGenerator";
-   analyzer[] = "Typehints/CouldBeInt";
-   analyzer[] = "Typehints/CouldBeIterable";
-   analyzer[] = "Typehints/CouldBeNever";
-   analyzer[] = "Typehints/CouldBeNull";
-   analyzer[] = "Typehints/CouldBeParent";
-   analyzer[] = "Typehints/CouldBeSelf";
-   analyzer[] = "Typehints/CouldBeString";
-   analyzer[] = "Typehints/CouldBeVoid";
-   analyzer[] = "Typehints/CouldNotType";
-   analyzer[] = "Typehints/MissingReturntype";
-   analyzer[] = "Typehints/MissingTypehints";
-   analyzer[] = "Utils/Selector";
-   analyzer[] = "Variables/AssignedTwiceOrMore";
-   analyzer[] = "Variables/Blind";
-   analyzer[] = "Variables/CloseNaming";
-   analyzer[] = "Variables/ComplexDynamicNames";
-   analyzer[] = "Variables/ConstantTypo";
-   analyzer[] = "Variables/Globals";
-   analyzer[] = "Variables/InconsistentUsage";
-   analyzer[] = "Variables/InheritedStaticVariable";
-   analyzer[] = "Variables/InterfaceArguments";
-   analyzer[] = "Variables/IsLocalConstant";
-   analyzer[] = "Variables/LocalGlobals";
-   analyzer[] = "Variables/LostReferences";
-   analyzer[] = "Variables/NoStaticVarInMethod";
-   analyzer[] = "Variables/Overwriting";
-   analyzer[] = "Variables/OverwrittenLiterals";
-   analyzer[] = "Variables/Php5IndirectExpression";
-   analyzer[] = "Variables/Php7IndirectExpression";
-   analyzer[] = "Variables/RealVariables";
-   analyzer[] = "Variables/RecycledVariables";
-   analyzer[] = "Variables/References";
-   analyzer[] = "Variables/SelfTransform";
-   analyzer[] = "Variables/StaticVariables";
-   analyzer[] = "Variables/StrangeName";
-   analyzer[] = "Variables/UncommonEnvVar";
-   analyzer[] = "Variables/UndefinedConstantName";
-   analyzer[] = "Variables/UndefinedVariable";
-   analyzer[] = "Variables/UniqueUsage";
-   analyzer[] = "Variables/VariableLong";
-   analyzer[] = "Variables/VariableNonascii";
-   analyzer[] = "Variables/VariableOneLetter";
-   analyzer[] = "Variables/VariablePhp";
-   analyzer[] = "Variables/VariableUppercase";
-   analyzer[] = "Variables/VariableUsedOnce";
-   analyzer[] = "Variables/VariableUsedOnceByContext";
-   analyzer[] = "Variables/VariableVariables";
-   analyzer[] = "Variables/WrittenOnlyVariable";
-   analyzer[] = "Vendors/Codeigniter";
-   analyzer[] = "Vendors/Concrete5";
-   analyzer[] = "Vendors/Drupal";
-   analyzer[] = "Vendors/Ez";
-   analyzer[] = "Vendors/Fuel";
-   analyzer[] = "Vendors/Joomla";
-   analyzer[] = "Vendors/Laravel";
-   analyzer[] = "Vendors/Phalcon";
-   analyzer[] = "Vendors/Sylius";
-   analyzer[] = "Vendors/Symfony";
-   analyzer[] = "Vendors/Typo3";
-   analyzer[] = "Vendors/Wordpress";
-   analyzer[] = "Vendors/Yii";
 
 
-.. _annex-yaml-all:
+.. _annex-yaml-php-cs-fixable:
 
-All for .exakat.yaml
-++++++++++++++++++++
+php-cs-fixable for .exakat.yaml
++++++++++++++++++++++++++++++++
 
 
 YAML configuration for built-in rulesets. Copy them in your code, with the name .exakat.yaml, and edit them to your owns.
 ::
 
   rulesets:
-    'All':
-     - 'Arrays/AmbiguousKeys'
-     - 'Arrays/ArrayBracketConsistence'
-     - 'Arrays/ArrayNSUsage'
-     - 'Arrays/Arrayindex'
-     - 'Arrays/EmptyFinal'
-     - 'Arrays/EmptySlots'
-     - 'Arrays/FloatConversionAsIndex'
-     - 'Arrays/GettingLastElement'
-     - 'Arrays/MassCreation'
-     - 'Arrays/MistakenConcatenation'
-     - 'Arrays/MixedKeys'
-     - 'Arrays/Multidimensional'
-     - 'Arrays/MultipleIdenticalKeys'
-     - 'Arrays/NegativeStart'
-     - 'Arrays/NoSpreadForHash'
-     - 'Arrays/NonConstantArray'
-     - 'Arrays/NullBoolean'
-     - 'Arrays/Phparrayindex'
-     - 'Arrays/RandomlySortedLiterals'
-     - 'Arrays/ShouldPreprocess'
-     - 'Arrays/SliceFirst'
-     - 'Arrays/StringInitialization'
-     - 'Arrays/TooManyDimensions'
-     - 'Arrays/WeirdIndex'
-     - 'Arrays/WithCallback'
-     - 'Attributes/MissingAttributeAttribute'
-     - 'Attributes/ModifyImmutable'
-     - 'Attributes/NestedAttributes'
-     - 'Classes/AbstractConstants'
-     - 'Classes/AbstractOrImplements'
-     - 'Classes/AbstractStatic'
-     - 'Classes/Abstractclass'
-     - 'Classes/Abstractmethods'
-     - 'Classes/AccessPrivate'
-     - 'Classes/AccessProtected'
-     - 'Classes/AmbiguousStatic'
-     - 'Classes/AmbiguousVisibilities'
-     - 'Classes/Anonymous'
-     - 'Classes/AvoidOptionArrays'
-     - 'Classes/AvoidOptionalProperties'
-     - 'Classes/AvoidUsing'
-     - 'Classes/CancelCommonMethod'
-     - 'Classes/CantExtendFinal'
-     - 'Classes/CantInheritAbstractMethod'
-     - 'Classes/CantInstantiateClass'
-     - 'Classes/CantOverwriteFinalConstant'
-     - 'Classes/CantOverwriteFinalMethod'
-     - 'Classes/CheckOnCallUsage'
-     - 'Classes/ChecksPropertyExistence'
-     - 'Classes/ChildRemoveTypehint'
-     - 'Classes/CitSameName'
-     - 'Classes/ClassAliasUsage'
-     - 'Classes/ClassOverreach'
-     - 'Classes/ClassUsage'
-     - 'Classes/Classnames'
-     - 'Classes/CloneWithNonObject'
-     - 'Classes/CloningUsage'
-     - 'Classes/ConstVisibilityUsage'
-     - 'Classes/ConstantClass'
-     - 'Classes/ConstantDefinition'
-     - 'Classes/ConstantUsedBelow'
-     - 'Classes/Constructor'
-     - 'Classes/CouldBeAbstractClass'
-     - 'Classes/CouldBeClassConstant'
-     - 'Classes/CouldBeFinal'
-     - 'Classes/CouldBeIterable'
-     - 'Classes/CouldBeParentMethod'
-     - 'Classes/CouldBePrivate'
-     - 'Classes/CouldBePrivateConstante'
-     - 'Classes/CouldBePrivateMethod'
-     - 'Classes/CouldBeProtectedConstant'
-     - 'Classes/CouldBeProtectedMethod'
-     - 'Classes/CouldBeProtectedProperty'
-     - 'Classes/CouldBeStatic'
-     - 'Classes/CouldBeStringable'
-     - 'Classes/CouldSetPropertyDefault'
-     - 'Classes/CyclicReferences'
-     - 'Classes/DefinedConstants'
-     - 'Classes/DefinedParentMP'
-     - 'Classes/DefinedProperty'
-     - 'Classes/DefinedStaticMP'
-     - 'Classes/DemeterLaw'
-     - 'Classes/DependantAbstractClass'
-     - 'Classes/DifferentArgumentCounts'
-     - 'Classes/DirectCallToMagicMethod'
-     - 'Classes/DisconnectedClasses'
-     - 'Classes/DontSendThisInConstructor'
+    'php-cs-fixable':
      - 'Classes/DontUnsetProperties'
-     - 'Classes/DynamicClass'
-     - 'Classes/DynamicConstantCall'
-     - 'Classes/DynamicMethodCall'
-     - 'Classes/DynamicNew'
-     - 'Classes/DynamicPropertyCall'
-     - 'Classes/DynamicSelfCalls'
-     - 'Classes/EmptyClass'
-     - 'Classes/ExtendsStdclass'
-     - 'Classes/FinalByOcramius'
-     - 'Classes/FinalPrivate'
-     - 'Classes/Finalclass'
-     - 'Classes/Finalmethod'
-     - 'Classes/FossilizedMethod'
-     - 'Classes/HasFluentInterface'
-     - 'Classes/HasMagicProperty'
-     - 'Classes/HiddenNullable'
-     - 'Classes/IdenticalMethods'
-     - 'Classes/ImmutableSignature'
-     - 'Classes/ImplementIsForInterface'
-     - 'Classes/ImplementedMethodsArePublic'
-     - 'Classes/IncompatibleSignature'
-     - 'Classes/IncompatibleSignature74'
-     - 'Classes/InheritedPropertyMustMatch'
-     - 'Classes/InstantiatingAbstractClass'
-     - 'Classes/InsufficientPropertyTypehint'
-     - 'Classes/IntegerAsProperty'
-     - 'Classes/IsExtClass'
-     - 'Classes/IsInterfaceMethod'
-     - 'Classes/IsNotFamily'
-     - 'Classes/IsUpperFamily'
-     - 'Classes/IsaMagicProperty'
-     - 'Classes/LocallyUnusedProperty'
-     - 'Classes/LocallyUsedProperty'
-     - 'Classes/LoweredAccessLevel'
-     - 'Classes/MagicMethod'
-     - 'Classes/MagicProperties'
-     - 'Classes/MakeDefault'
-     - 'Classes/MakeGlobalAProperty'
-     - 'Classes/MakeMagicConcrete'
-     - 'Classes/MethodIsOverwritten'
-     - 'Classes/MethodSignatureMustBeCompatible'
-     - 'Classes/MethodUsedBelow'
-     - 'Classes/MismatchProperties'
-     - 'Classes/MissingAbstractMethod'
-     - 'Classes/MissingVisibility'
-     - 'Classes/ModifyingReadonly'
-     - 'Classes/MultipleClassesInFile'
-     - 'Classes/MultipleDeclarations'
-     - 'Classes/MultiplePropertyDeclarationOnOneLine'
-     - 'Classes/MultipleTraitOrInterface'
-     - 'Classes/MutualExtension'
-     - 'Classes/NewOnFunctioncallOrIdentifier'
-     - 'Classes/NoMagicWithArray'
-     - 'Classes/NoPSSOutsideClass'
-     - 'Classes/NoParent'
-     - 'Classes/NoPublicAccess'
-     - 'Classes/NoReadonlyAssignationInGlobal'
-     - 'Classes/NoSelfReferencingConstant'
-     - 'Classes/NonNullableSetters'
-     - 'Classes/NonPpp'
-     - 'Classes/NonStaticMethodsCalledStatic'
-     - 'Classes/NormalMethods'
-     - 'Classes/NullOnNew'
-     - 'Classes/OldStyleConstructor'
-     - 'Classes/OldStyleVar'
-     - 'Classes/OneObjectOperatorPerLine'
-     - 'Classes/OnlyStaticMethods'
-     - 'Classes/OrderOfDeclaration'
-     - 'Classes/OverwrittenConst'
-     - 'Classes/PPPDeclarationStyle'
-     - 'Classes/ParentFirst'
-     - 'Classes/ParentIsNotStatic'
-     - 'Classes/PromotedProperties'
-     - 'Classes/PropertyCouldBeLocal'
-     - 'Classes/PropertyDefinition'
-     - 'Classes/PropertyNeverUsed'
-     - 'Classes/PropertyUsedAbove'
-     - 'Classes/PropertyUsedBelow'
-     - 'Classes/PropertyUsedInOneMethodOnly'
-     - 'Classes/PropertyUsedInternally'
-     - 'Classes/PssWithoutClass'
-     - 'Classes/RaisedAccessLevel'
-     - 'Classes/ReadonlyUsage'
-     - 'Classes/RedefinedConstants'
-     - 'Classes/RedefinedDefault'
-     - 'Classes/RedefinedMethods'
-     - 'Classes/RedefinedPrivateProperty'
-     - 'Classes/RedefinedProperty'
-     - 'Classes/SameNameAsFile'
-     - 'Classes/ScalarOrObjectProperty'
-     - 'Classes/ShouldDeepClone'
-     - 'Classes/ShouldHaveDestructor'
-     - 'Classes/ShouldUseSelf'
-     - 'Classes/ShouldUseThis'
-     - 'Classes/StaticContainsThis'
-     - 'Classes/StaticMethods'
-     - 'Classes/StaticMethodsCalledFromObject'
-     - 'Classes/StaticProperties'
-     - 'Classes/StrangeName'
-     - 'Classes/SwappedArguments'
-     - 'Classes/TestClass'
-     - 'Classes/ThisIsForClasses'
-     - 'Classes/ThisIsNotAnArray'
-     - 'Classes/ThisIsNotForStatic'
-     - 'Classes/ThrowInDestruct'
-     - 'Classes/TooManyChildren'
-     - 'Classes/TooManyDereferencing'
-     - 'Classes/TooManyFinds'
-     - 'Classes/TooManyInjections'
-     - 'Classes/TypehintCyclicDependencies'
-     - 'Classes/UndeclaredStaticProperty'
-     - 'Classes/UndefinedClasses'
-     - 'Classes/UndefinedConstants'
-     - 'Classes/UndefinedMethod'
-     - 'Classes/UndefinedParentMP'
-     - 'Classes/UndefinedProperty'
-     - 'Classes/UndefinedStaticMP'
-     - 'Classes/UndefinedStaticclass'
-     - 'Classes/UnfinishedObject'
-     - 'Classes/UninitedProperty'
-     - 'Classes/UnitializedProperties'
-     - 'Classes/UnreachableConstant'
-     - 'Classes/UnreachableMethod'
-     - 'Classes/UnresolvedCatch'
-     - 'Classes/UnresolvedClasses'
-     - 'Classes/UnresolvedInstanceof'
-     - 'Classes/UnusedClass'
-     - 'Classes/UnusedConstant'
-     - 'Classes/UnusedMethods'
-     - 'Classes/UnusedPrivateMethod'
-     - 'Classes/UnusedPrivateProperty'
-     - 'Classes/UnusedProtectedMethods'
-     - 'Classes/UseClassOperator'
-     - 'Classes/UseInstanceof'
-     - 'Classes/UseThis'
-     - 'Classes/UsedClass'
-     - 'Classes/UsedMethods'
-     - 'Classes/UsedOnceProperty'
-     - 'Classes/UsedPrivateMethod'
-     - 'Classes/UsedPrivateProperty'
-     - 'Classes/UsedProtectedMethod'
-     - 'Classes/UselessAbstract'
-     - 'Classes/UselessConstructor'
-     - 'Classes/UselessFinal'
-     - 'Classes/UselessTypehint'
-     - 'Classes/UsingThisOutsideAClass'
-     - 'Classes/VariableClasses'
-     - 'Classes/WeakType'
-     - 'Classes/WrongCase'
-     - 'Classes/WrongName'
-     - 'Classes/WrongTypedPropertyInit'
-     - 'Classes/toStringPss'
-     - 'Common/InterfaceUsage'
-     - 'Complete/CreateCompactVariables'
-     - 'Complete/CreateDefaultValues'
-     - 'Complete/CreateForeachDefault'
-     - 'Complete/CreateMagicMethod'
-     - 'Complete/CreateMagicProperty'
-     - 'Complete/ExtendedTypehints'
-     - 'Complete/FollowClosureDefinition'
-     - 'Complete/IsExtStructure'
-     - 'Complete/IsPhpStructure'
-     - 'Complete/IsStubStructure'
-     - 'Complete/MakeAllStatics'
-     - 'Complete/MakeClassConstantDefinition'
-     - 'Complete/MakeClassMethodDefinition'
-     - 'Complete/MakeFunctioncallWithReference'
-     - 'Complete/OverwrittenConstants'
-     - 'Complete/OverwrittenMethods'
-     - 'Complete/OverwrittenProperties'
-     - 'Complete/PhpExtStubPropertyMethod'
-     - 'Complete/PhpNativeReference'
-     - 'Complete/PropagateCalls'
-     - 'Complete/PropagateConstants'
-     - 'Complete/ReturnTypehint'
-     - 'Complete/SetArrayClassDefinition'
-     - 'Complete/SetClassAliasDefinition'
-     - 'Complete/SetClassMethodRemoteDefinition'
-     - 'Complete/SetClassPropertyDefinitionWithTypehint'
-     - 'Complete/SetClassRemoteDefinitionWithGlobal'
-     - 'Complete/SetClassRemoteDefinitionWithInjection'
-     - 'Complete/SetClassRemoteDefinitionWithLocalNew'
-     - 'Complete/SetClassRemoteDefinitionWithParenthesis'
-     - 'Complete/SetClassRemoteDefinitionWithReturnTypehint'
-     - 'Complete/SetClassRemoteDefinitionWithTypehint'
-     - 'Complete/SetCloneLink'
-     - 'Complete/SetParentDefinition'
-     - 'Complete/SetStringMethodDefinition'
-     - 'Complete/SolveTraitMethods'
-     - 'Complete/VariableTypehint'
-     - 'Composer/Autoload'
-     - 'Composer/IsComposerClass'
-     - 'Composer/IsComposerInterface'
-     - 'Composer/IsComposerNsname'
-     - 'Composer/PackagesNames'
-     - 'Composer/UseComposer'
-     - 'Composer/UseComposerLock'
-     - 'Constants/BadConstantnames'
-     - 'Constants/CaseInsensitiveConstants'
-     - 'Constants/ConditionedConstants'
-     - 'Constants/ConstDefinePreference'
-     - 'Constants/ConstRecommended'
-     - 'Constants/ConstantStrangeNames'
-     - 'Constants/ConstantUsage'
-     - 'Constants/Constantnames'
-     - 'Constants/CouldBeConstant'
-     - 'Constants/CouldUseConstant'
-     - 'Constants/CreatedOutsideItsNamespace'
-     - 'Constants/CustomConstantUsage'
-     - 'Constants/DefineInsensitivePreference'
-     - 'Constants/DynamicCreation'
-     - 'Constants/InconsistantCase'
-     - 'Constants/InvalidName'
-     - 'Constants/IsExtConstant'
-     - 'Constants/IsGlobalConstant'
-     - 'Constants/IsPhpConstant'
-     - 'Constants/MagicConstantUsage'
-     - 'Constants/MultipleConstantDefinition'
-     - 'Constants/PhpConstantUsage'
-     - 'Constants/StrangeName'
-     - 'Constants/UndefinedConstants'
-     - 'Constants/UnusedConstants'
-     - 'Constants/VariableConstant'
-     - 'Dump/CallOrder'
-     - 'Dump/CollectAtomCounts'
-     - 'Dump/CollectBlockSize'
-     - 'Dump/CollectClassChanges'
-     - 'Dump/CollectClassChildren'
-     - 'Dump/CollectClassConstantCounts'
-     - 'Dump/CollectClassDepth'
-     - 'Dump/CollectClassInterfaceCounts'
-     - 'Dump/CollectClassTraitsCounts'
-     - 'Dump/CollectClassesDependencies'
-     - 'Dump/CollectDefinitionsStats'
-     - 'Dump/CollectDependencyExtension'
-     - 'Dump/CollectFilesDependencies'
-     - 'Dump/CollectForeachFavorite'
-     - 'Dump/CollectGlobalVariables'
-     - 'Dump/CollectLiterals'
-     - 'Dump/CollectLocalVariableCounts'
-     - 'Dump/CollectMbstringEncodings'
-     - 'Dump/CollectMethodCounts'
-     - 'Dump/CollectNativeCallsPerExpressions'
-     - 'Dump/CollectParameterCounts'
-     - 'Dump/CollectParameterNames'
-     - 'Dump/CollectPhpStructures'
-     - 'Dump/CollectPropertyCounts'
-     - 'Dump/CollectReadability'
-     - 'Dump/CollectStubStructures'
-     - 'Dump/CollectUseCounts'
-     - 'Dump/CollectVariables'
-     - 'Dump/ConstantOrder'
-     - 'Dump/CouldBeAConstant'
-     - 'Dump/CyclomaticComplexity'
-     - 'Dump/DereferencingLevels'
-     - 'Dump/EnvironnementVariables'
-     - 'Dump/FossilizedMethods'
-     - 'Dump/Inclusions'
-     - 'Dump/IndentationLevels'
-     - 'Dump/NewOrder'
-     - 'Dump/ParameterArgumentsLinks'
-     - 'Dump/PublicReach'
-     - 'Dump/TypehintingStats'
-     - 'Dump/Typehintorder'
-     - 'Enums/NoMagicMethod'
-     - 'Enums/UndefinedEnumcase'
-     - 'Enums/UnusedEnumCase'
-     - 'Exceptions/AlreadyCaught'
-     - 'Exceptions/CantThrow'
-     - 'Exceptions/CatchE'
-     - 'Exceptions/CatchUndefinedVariable'
-     - 'Exceptions/CaughtButNotThrown'
-     - 'Exceptions/CaughtExceptions'
-     - 'Exceptions/CouldUseTry'
-     - 'Exceptions/DefinedExceptions'
-     - 'Exceptions/ForgottenThrown'
-     - 'Exceptions/IsPhpException'
-     - 'Exceptions/LargeTryBlock'
-     - 'Exceptions/LongPreparation'
-     - 'Exceptions/MultipleCatch'
-     - 'Exceptions/OverwriteException'
-     - 'Exceptions/Rethrown'
-     - 'Exceptions/ThrowFunctioncall'
-     - 'Exceptions/ThrowRawExceptions'
-     - 'Exceptions/ThrownExceptions'
-     - 'Exceptions/UncaughtExceptions'
-     - 'Exceptions/Unthrown'
-     - 'Exceptions/UnusedExceptionVariable'
-     - 'Exceptions/UselessCatch'
-     - 'Extensions/Extamqp'
-     - 'Extensions/Extapache'
-     - 'Extensions/Extapc'
-     - 'Extensions/Extapcu'
-     - 'Extensions/Extarray'
-     - 'Extensions/Extast'
-     - 'Extensions/Extasync'
-     - 'Extensions/Extbcmath'
-     - 'Extensions/Extbzip2'
-     - 'Extensions/Extcairo'
-     - 'Extensions/Extcalendar'
-     - 'Extensions/Extcmark'
-     - 'Extensions/Extcom'
-     - 'Extensions/Extcrypto'
-     - 'Extensions/Extcsv'
-     - 'Extensions/Extctype'
-     - 'Extensions/Extcurl'
-     - 'Extensions/Extcyrus'
-     - 'Extensions/Extdate'
-     - 'Extensions/Extdb2'
-     - 'Extensions/Extdba'
-     - 'Extensions/Extdecimal'
-     - 'Extensions/Extdio'
-     - 'Extensions/Extdom'
-     - 'Extensions/Extds'
-     - 'Extensions/Exteaccelerator'
-     - 'Extensions/Exteio'
-     - 'Extensions/Extenchant'
-     - 'Extensions/Extereg'
-     - 'Extensions/Extev'
-     - 'Extensions/Extevent'
-     - 'Extensions/Extexcimer'
-     - 'Extensions/Extexif'
-     - 'Extensions/Extexpect'
-     - 'Extensions/Extfam'
-     - 'Extensions/Extfann'
-     - 'Extensions/Extfdf'
-     - 'Extensions/Extffi'
-     - 'Extensions/Extffmpeg'
-     - 'Extensions/Extfile'
-     - 'Extensions/Extfileinfo'
-     - 'Extensions/Extfilter'
-     - 'Extensions/Extfpm'
-     - 'Extensions/Extftp'
-     - 'Extensions/Extgd'
-     - 'Extensions/Extgearman'
-     - 'Extensions/Extgender'
-     - 'Extensions/Extgeoip'
-     - 'Extensions/Extgettext'
-     - 'Extensions/Extgmagick'
-     - 'Extensions/Extgmp'
-     - 'Extensions/Extgnupg'
-     - 'Extensions/Extgrpc'
-     - 'Extensions/Exthash'
-     - 'Extensions/Exthrtime'
-     - 'Extensions/Exthttp'
-     - 'Extensions/Extibase'
-     - 'Extensions/Exticonv'
-     - 'Extensions/Extigbinary'
-     - 'Extensions/Extiis'
-     - 'Extensions/Extimagick'
-     - 'Extensions/Extimap'
-     - 'Extensions/Extinfo'
-     - 'Extensions/Extinotify'
-     - 'Extensions/Extintl'
-     - 'Extensions/Extjson'
-     - 'Extensions/Extjudy'
-     - 'Extensions/Extkdm5'
-     - 'Extensions/Extlapack'
-     - 'Extensions/Extldap'
-     - 'Extensions/Extleveldb'
-     - 'Extensions/Extlibevent'
-     - 'Extensions/Extlibsodium'
-     - 'Extensions/Extlibxml'
-     - 'Extensions/Extlua'
-     - 'Extensions/Extlzf'
-     - 'Extensions/Extmail'
-     - 'Extensions/Extmailparse'
-     - 'Extensions/Extmath'
-     - 'Extensions/Extmbstring'
-     - 'Extensions/Extmcrypt'
-     - 'Extensions/Extmemcache'
-     - 'Extensions/Extmemcached'
-     - 'Extensions/Extmhash'
-     - 'Extensions/Extming'
-     - 'Extensions/Extmongo'
-     - 'Extensions/Extmongodb'
-     - 'Extensions/Extmsgpack'
-     - 'Extensions/Extmssql'
-     - 'Extensions/Extmysql'
-     - 'Extensions/Extmysqli'
-     - 'Extensions/Extncurses'
-     - 'Extensions/Extnewt'
-     - 'Extensions/Extnsapi'
-     - 'Extensions/Extob'
-     - 'Extensions/Extoci8'
-     - 'Extensions/Extodbc'
-     - 'Extensions/Extopcache'
-     - 'Extensions/Extopencensus'
-     - 'Extensions/Extopenssl'
-     - 'Extensions/Extparle'
-     - 'Extensions/Extparsekit'
-     - 'Extensions/Extpassword'
-     - 'Extensions/Extpcntl'
-     - 'Extensions/Extpcov'
-     - 'Extensions/Extpcre'
-     - 'Extensions/Extpdo'
-     - 'Extensions/Extpgsql'
-     - 'Extensions/Extphalcon'
-     - 'Extensions/Extphar'
-     - 'Extensions/Extpkcs11'
-     - 'Extensions/Extposix'
-     - 'Extensions/Extproctitle'
-     - 'Extensions/Extprotobuf'
-     - 'Extensions/Extpspell'
-     - 'Extensions/Extpsr'
-     - 'Extensions/Extrar'
-     - 'Extensions/Extrdkafka'
-     - 'Extensions/Extreadline'
-     - 'Extensions/Extrecode'
-     - 'Extensions/Extredis'
-     - 'Extensions/Extreflection'
-     - 'Extensions/Extrunkit'
-     - 'Extensions/Extsdl'
-     - 'Extensions/Extseaslog'
-     - 'Extensions/Extsem'
-     - 'Extensions/Extsession'
-     - 'Extensions/Extshmop'
-     - 'Extensions/Extsimplexml'
-     - 'Extensions/Extsnmp'
-     - 'Extensions/Extsoap'
-     - 'Extensions/Extsockets'
-     - 'Extensions/Extsphinx'
-     - 'Extensions/Extspl'
-     - 'Extensions/Extspx'
-     - 'Extensions/Extsqlite'
-     - 'Extensions/Extsqlite3'
-     - 'Extensions/Extsqlsrv'
-     - 'Extensions/Extssh2'
-     - 'Extensions/Extstandard'
-     - 'Extensions/Extstats'
-     - 'Extensions/Extstomp'
-     - 'Extensions/Extstring'
-     - 'Extensions/Extsuhosin'
-     - 'Extensions/Extsvm'
-     - 'Extensions/Extswoole'
-     - 'Extensions/Exttidy'
-     - 'Extensions/Exttokenizer'
-     - 'Extensions/Exttokyotyrant'
-     - 'Extensions/Exttrader'
-     - 'Extensions/Extuopz'
-     - 'Extensions/Extuuid'
-     - 'Extensions/Extv8js'
-     - 'Extensions/Extvarnish'
-     - 'Extensions/Extvips'
-     - 'Extensions/Extwasm'
-     - 'Extensions/Extwddx'
-     - 'Extensions/Extweakref'
-     - 'Extensions/Extwikidiff2'
-     - 'Extensions/Extwincache'
-     - 'Extensions/Extxattr'
-     - 'Extensions/Extxcache'
-     - 'Extensions/Extxdebug'
-     - 'Extensions/Extxdiff'
-     - 'Extensions/Extxhprof'
-     - 'Extensions/Extxml'
-     - 'Extensions/Extxmlreader'
-     - 'Extensions/Extxmlrpc'
-     - 'Extensions/Extxmlwriter'
-     - 'Extensions/Extxsl'
-     - 'Extensions/Extxxtea'
-     - 'Extensions/Extyaml'
-     - 'Extensions/Extyar'
-     - 'Extensions/Extyis'
-     - 'Extensions/Extzendmonitor'
-     - 'Extensions/Extzip'
-     - 'Extensions/Extzlib'
-     - 'Extensions/Extzmq'
-     - 'Extensions/Extzookeeper'
-     - 'Files/DefinitionsOnly'
-     - 'Files/GlobalCodeOnly'
-     - 'Files/InclusionWrongCase'
-     - 'Files/IsCliScript'
-     - 'Files/IsComponent'
-     - 'Files/MissingInclude'
-     - 'Files/NotDefinitionsOnly'
-     - 'Files/Services'
-     - 'Functions/AddDefaultValue'
-     - 'Functions/AliasesUsage'
-     - 'Functions/AvoidBooleanArgument'
-     - 'Functions/BadTypehintRelay'
-     - 'Functions/CallbackNeedsReturn'
-     - 'Functions/CancelledParameter'
-     - 'Functions/CannotUseStaticForClosure'
-     - 'Functions/CantUse'
-     - 'Functions/Closure2String'
-     - 'Functions/Closures'
-     - 'Functions/ConditionedFunctions'
-     - 'Functions/CouldBeCallable'
-     - 'Functions/CouldBeStaticClosure'
-     - 'Functions/CouldCentralize'
-     - 'Functions/CouldTypeWithArray'
-     - 'Functions/CouldTypeWithBool'
-     - 'Functions/CouldTypeWithInt'
-     - 'Functions/CouldTypeWithIterable'
-     - 'Functions/CouldTypeWithString'
-     - 'Functions/CouldTypehint'
-     - 'Functions/DeepDefinitions'
-     - 'Functions/DeprecatedCallable'
-     - 'Functions/DontUseVoid'
-     - 'Functions/DuplicateNamedParameter'
-     - 'Functions/DynamicCode'
-     - 'Functions/Dynamiccall'
-     - 'Functions/EmptyFunction'
-     - 'Functions/ExceedingTypehint'
-     - 'Functions/FallbackFunction'
-     - 'Functions/FnArgumentVariableConfusion'
-     - 'Functions/FunctionCalledWithOtherCase'
-     - 'Functions/Functionnames'
-     - 'Functions/FunctionsUsingReference'
-     - 'Functions/GeneratorCannotReturn'
-     - 'Functions/HardcodedPasswords'
-     - 'Functions/HasFluentInterface'
-     - 'Functions/HasNotFluentInterface'
-     - 'Functions/InsufficientTypehint'
-     - 'Functions/IsExtFunction'
-     - 'Functions/IsGenerator'
-     - 'Functions/IsGlobal'
-     - 'Functions/KillsApp'
-     - 'Functions/LoopCalling'
-     - 'Functions/MarkCallable'
-     - 'Functions/MismatchParameterAndType'
-     - 'Functions/MismatchParameterName'
-     - 'Functions/MismatchTypeAndDefault'
-     - 'Functions/MismatchedDefaultArguments'
-     - 'Functions/MismatchedTypehint'
-     - 'Functions/MissingTypehint'
-     - 'Functions/ModifyTypedParameter'
-     - 'Functions/MultipleDeclarations'
-     - 'Functions/MultipleIdenticalClosure'
-     - 'Functions/MultipleReturn'
-     - 'Functions/MultipleSameArguments'
-     - 'Functions/MustReturn'
-     - 'Functions/NeverUsedParameter'
-     - 'Functions/NoBooleanAsDefault'
-     - 'Functions/NoClassAsTypehint'
-     - 'Functions/NoLiteralForReference'
-     - 'Functions/NoReferencedVoid'
-     - 'Functions/NoReturnUsed'
-     - 'Functions/NullTypeFavorite'
-     - 'Functions/NullableWithConstant'
-     - 'Functions/NullableWithoutCheck'
-     - 'Functions/OneLetterFunctions'
-     - 'Functions/OnlyVariableForReference'
-     - 'Functions/OnlyVariablePassedByReference'
-     - 'Functions/OptionalParameter'
-     - 'Functions/ParameterHiding'
-     - 'Functions/PrefixToType'
-     - 'Functions/RealFunctions'
-     - 'Functions/Recursive'
-     - 'Functions/RedeclaredPhpFunction'
-     - 'Functions/RelayFunction'
-     - 'Functions/SemanticTyping'
-     - 'Functions/ShouldBeTypehinted'
-     - 'Functions/ShouldUseConstants'
-     - 'Functions/ShouldYieldWithKey'
-     - 'Functions/TooManyLocalVariables'
-     - 'Functions/TooManyParameters'
-     - 'Functions/TooMuchIndented'
-     - 'Functions/TypehintMustBeReturned'
-     - 'Functions/TypehintedReferences'
-     - 'Functions/Typehints'
-     - 'Functions/UnbindingClosures'
-     - 'Functions/UndefinedFunctions'
-     - 'Functions/UnknownParameterName'
-     - 'Functions/UnsetOnArguments'
-     - 'Functions/UnusedArguments'
-     - 'Functions/UnusedFunctions'
-     - 'Functions/UnusedInheritedVariable'
-     - 'Functions/UnusedReturnedValue'
-     - 'Functions/UseArrowFunctions'
-     - 'Functions/UseConstantAsArguments'
-     - 'Functions/UseConstantsAsReturns'
-     - 'Functions/UsedFunctions'
-     - 'Functions/UselessArgument'
-     - 'Functions/UselessDefault'
-     - 'Functions/UselessReferenceArgument'
-     - 'Functions/UselessReturn'
-     - 'Functions/UselessTypeCheck'
-     - 'Functions/UsesDefaultArguments'
-     - 'Functions/UsingDeprecated'
-     - 'Functions/VariableArguments'
-     - 'Functions/WithoutReturn'
-     - 'Functions/WrongArgumentNameWithPhpFunction'
-     - 'Functions/WrongArgumentType'
-     - 'Functions/WrongCase'
-     - 'Functions/WrongNumberOfArguments'
-     - 'Functions/WrongNumberOfArgumentsMethods'
-     - 'Functions/WrongOptionalParameter'
-     - 'Functions/WrongReturnedType'
-     - 'Functions/WrongTypeWithCall'
-     - 'Functions/WrongTypehintedName'
-     - 'Functions/funcGetArgModified'
-     - 'Interfaces/AlreadyParentsInterface'
-     - 'Interfaces/AvoidSelfInInterface'
-     - 'Interfaces/CantImplementTraversable'
-     - 'Interfaces/CantOverloadConstants'
-     - 'Interfaces/ConcreteVisibility'
-     - 'Interfaces/CouldUseInterface'
-     - 'Interfaces/EmptyInterface'
-     - 'Interfaces/InterfaceMethod'
-     - 'Interfaces/InterfaceUsage'
-     - 'Interfaces/Interfacenames'
-     - 'Interfaces/IsExtInterface'
-     - 'Interfaces/IsNotImplemented'
-     - 'Interfaces/NoConstructorInInterface'
-     - 'Interfaces/NoGaranteeForPropertyConstant'
-     - 'Interfaces/Php'
-     - 'Interfaces/PossibleInterfaces'
-     - 'Interfaces/RepeatedInterface'
-     - 'Interfaces/UndefinedInterfaces'
-     - 'Interfaces/UnusedInterfaces'
-     - 'Interfaces/UsedInterfaces'
-     - 'Interfaces/UselessInterfaces'
-     - 'Namespaces/Alias'
-     - 'Namespaces/AliasConfusion'
-     - 'Namespaces/ConstantFullyQualified'
-     - 'Namespaces/ConstantWithUseFavorite'
-     - 'Namespaces/CouldUseAlias'
-     - 'Namespaces/EmptyNamespace'
-     - 'Namespaces/GlobalImport'
-     - 'Namespaces/HiddenUse'
-     - 'Namespaces/MultipleAliasDefinitionPerFile'
-     - 'Namespaces/MultipleAliasDefinitions'
-     - 'Namespaces/NamespaceUsage'
-     - 'Namespaces/Namespacesnames'
-     - 'Namespaces/ShouldMakeAlias'
-     - 'Namespaces/UnresolvedUse'
-     - 'Namespaces/UnusedUse'
-     - 'Namespaces/UseFunctionsConstants'
-     - 'Namespaces/UseWithFullyQualifiedNS'
-     - 'Namespaces/UsedUse'
-     - 'Namespaces/WrongCase'
-     - 'Patterns/AbstractAway'
-     - 'Patterns/CourrierAntiPattern'
-     - 'Patterns/DependencyInjection'
-     - 'Patterns/Factory'
-     - 'Patterns/GetterSetter'
-     - 'Performances/ArrayKeyExistsSpeedup'
-     - 'Performances/ArrayMergeInLoops'
-     - 'Performances/Autoappend'
-     - 'Performances/AvoidArrayPush'
-     - 'Performances/CacheVariableOutsideLoop'
-     - 'Performances/ClassOperator'
-     - 'Performances/CsvInLoops'
-     - 'Performances/DoInBase'
-     - 'Performances/DoubleArrayFlip'
-     - 'Performances/FetchOneRowFormat'
-     - 'Performances/IssetWholeArray'
-     - 'Performances/JoinFile'
-     - 'Performances/LogicalToInArray'
-     - 'Performances/MakeOneCall'
-     - 'Performances/MbStringInLoop'
-     - 'Performances/MemoizeMagicCall'
-     - 'Performances/NoConcatInLoop'
-     - 'Performances/NoGlob'
-     - 'Performances/NotCountNull'
-     - 'Performances/OptimizeExplode'
-     - 'Performances/PHP7EncapsedStrings'
-     - 'Performances/Php74ArrayKeyExists'
-     - 'Performances/PrePostIncrement'
-     - 'Performances/RegexOnArrays'
-     - 'Performances/RegexOnCollector'
-     - 'Performances/SimpleSwitch'
-     - 'Performances/SimplifyForeach'
-     - 'Performances/SlowFunctions'
-     - 'Performances/StaticCallDontNeedObjects'
-     - 'Performances/StrposTooMuch'
-     - 'Performances/SubstrFirst'
-     - 'Performances/UseArraySlice'
-     - 'Performances/UseBlindVar'
-     - 'Performances/timeVsstrtotime'
-     - 'Php/AlternativeSyntax'
-     - 'Php/Argon2Usage'
-     - 'Php/ArrayKeyExistsWithObjects'
-     - 'Php/AssertFunctionIsReserved'
-     - 'Php/AssertionUsage'
-     - 'Php/AssignAnd'
-     - 'Php/Assumptions'
-     - 'Php/AutoloadUsage'
-     - 'Php/AvoidGetobjectVars'
-     - 'Php/AvoidMbDectectEncoding'
-     - 'Php/AvoidReal'
-     - 'Php/AvoidSetErrorHandlerContextArg'
-     - 'Php/BetterRand'
-     - 'Php/CallingStaticTraitMethod'
-     - 'Php/CantUseReturnValueInWriteContext'
-     - 'Php/CaseForPSS'
-     - 'Php/CastUnsetUsage'
-     - 'Php/CastingUsage'
-     - 'Php/ClassConstWithArray'
-     - 'Php/ClassFunctionConfusion'
-     - 'Php/CloseTags'
-     - 'Php/CloseTagsConsistency'
-     - 'Php/ClosureThisSupport'
-     - 'Php/Coalesce'
-     - 'Php/CoalesceEqual'
-     - 'Php/CompactInexistant'
-     - 'Php/ConcatAndAddition'
-     - 'Php/ConstWithArray'
-     - 'Php/ConstantScalarExpression'
-     - 'Php/CookiesVariables'
-     - 'Php/CouldUseIsCountable'
-     - 'Php/CouldUsePromotedProperties'
-     - 'Php/Crc32MightBeNegative'
-     - 'Php/CryptoUsage'
-     - 'Php/DateFormats'
-     - 'Php/DeclareEncoding'
-     - 'Php/DeclareStrict'
-     - 'Php/DeclareStrictType'
-     - 'Php/DeclareTicks'
-     - 'Php/DefineWithArray'
-     - 'Php/DeprecateDollarCurly'
-     - 'Php/Deprecated'
-     - 'Php/DetectCurrentClass'
-     - 'Php/DirectCallToClone'
-     - 'Php/DirectiveName'
-     - 'Php/DirectivesUsage'
-     - 'Php/DlUsage'
-     - 'Php/DontPolluteGlobalSpace'
-     - 'Php/EchoTagUsage'
-     - 'Php/EllipsisUsage'
-     - 'Php/EmptyList'
-     - 'Php/EnumUsage'
-     - 'Php/ErrorLogUsage'
-     - 'Php/ExponentUsage'
-     - 'Php/FailingAnalysis'
-     - 'Php/FalseToArray'
-     - 'Php/FilesFullPath'
-     - 'Php/FilterToAddSlashes'
-     - 'Php/FinalConstant'
-     - 'Php/FirstClassCallable'
-     - 'Php/FlexibleHeredoc'
-     - 'Php/FopenMode'
-     - 'Php/ForeachDontChangePointer'
-     - 'Php/ForeachObject'
-     - 'Php/GlobalWithoutSimpleVariable'
-     - 'Php/GlobalsVsGlobal'
-     - 'Php/Gotonames'
-     - 'Php/GroupUseDeclaration'
-     - 'Php/GroupUseTrailingComma'
-     - 'Php/Haltcompiler'
-     - 'Php/HashAlgos'
-     - 'Php/HashAlgos53'
-     - 'Php/HashAlgos54'
-     - 'Php/HashAlgos71'
-     - 'Php/HashAlgos74'
-     - 'Php/HashUsesObjects'
-     - 'Php/IdnUts46'
      - 'Php/ImplodeOneArg'
-     - 'Php/IncomingValues'
-     - 'Php/IncomingVariables'
-     - 'Php/Incompilable'
-     - 'Php/IntegerSeparatorUsage'
-     - 'Php/InternalParameterType'
-     - 'Php/IsAWithString'
-     - 'Php/IsINF'
-     - 'Php/IsNAN'
      - 'Php/IsnullVsEqualNull'
      - 'Php/IssetMultipleArgs'
-     - 'Php/JsonSerializeReturnType'
-     - 'Php/Labelnames'
-     - 'Php/LetterCharsLogicalFavorite'
-     - 'Php/ListShortSyntax'
-     - 'Php/ListWithAppends'
-     - 'Php/ListWithKeys'
-     - 'Php/ListWithReference'
      - 'Php/LogicalInLetters'
-     - 'Php/MethodCallOnNew'
-     - 'Php/MiddleVersion'
-     - 'Php/MissingMagicIsset'
-     - 'Php/MissingSubpattern'
-     - 'Php/MixedKeyword'
-     - 'Php/MixedUsage'
-     - 'Php/MultipleDeclareStrict'
-     - 'Php/MustCallParentConstructor'
-     - 'Php/NamedParameterUsage'
-     - 'Php/NativeClassTypeCompatibility'
-     - 'Php/NestedTernaryWithoutParenthesis'
-     - 'Php/NeverKeyword'
-     - 'Php/NeverTypehintUsage'
      - 'Php/NewExponent'
-     - 'Php/NewInitializers'
-     - 'Php/NoCastToInt'
-     - 'Php/NoClassInGlobal'
-     - 'Php/NoListWithString'
-     - 'Php/NoMoreCurlyArrays'
-     - 'Php/NoNullForNative'
-     - 'Php/NoReferenceForStaticProperty'
-     - 'Php/NoReferenceForTernary'
-     - 'Php/NoReturnForGenerator'
-     - 'Php/NoStringWithAppend'
-     - 'Php/NoSubstrMinusOne'
-     - 'Php/NotScalarType'
-     - 'Php/OnlyVariableForReference'
-     - 'Php/OpensslEncryptAlgoChange'
-     - 'Php/OveriddenFunction'
-     - 'Php/PHP70scalartypehints'
-     - 'Php/PHP71scalartypehints'
-     - 'Php/PHP72scalartypehints'
-     - 'Php/PHP73LastEmptyArgument'
-     - 'Php/PHP80scalartypehints'
-     - 'Php/PHP81scalartypehints'
-     - 'Php/ParenthesisAsParameter'
-     - 'Php/Password55'
-     - 'Php/PathinfoReturns'
-     - 'Php/PearUsage'
-     - 'Php/Php54NewFunctions'
-     - 'Php/Php54RemovedFunctions'
-     - 'Php/Php55NewFunctions'
-     - 'Php/Php55RemovedFunctions'
-     - 'Php/Php56NewFunctions'
-     - 'Php/Php70NewClasses'
-     - 'Php/Php70NewFunctions'
-     - 'Php/Php70NewInterfaces'
-     - 'Php/Php70RemovedDirective'
-     - 'Php/Php70RemovedFunctions'
-     - 'Php/Php71NewClasses'
-     - 'Php/Php71NewFunctions'
-     - 'Php/Php71RemovedDirective'
-     - 'Php/Php71microseconds'
-     - 'Php/Php72Deprecation'
-     - 'Php/Php72NewClasses'
-     - 'Php/Php72NewConstants'
-     - 'Php/Php72NewFunctions'
-     - 'Php/Php72ObjectKeyword'
-     - 'Php/Php72RemovedFunctions'
-     - 'Php/Php73NewFunctions'
-     - 'Php/Php73RemovedFunctions'
-     - 'Php/Php74Deprecation'
-     - 'Php/Php74NewClasses'
-     - 'Php/Php74NewConstants'
-     - 'Php/Php74NewDirective'
-     - 'Php/Php74NewFunctions'
-     - 'Php/Php74RemovedDirective'
-     - 'Php/Php74RemovedFunctions'
-     - 'Php/Php74ReservedKeyword'
-     - 'Php/Php74mbstrrpos3rdArg'
-     - 'Php/Php7RelaxedKeyword'
-     - 'Php/Php80NamedParameterVariadic'
-     - 'Php/Php80NewFunctions'
-     - 'Php/Php80OnlyTypeHints'
-     - 'Php/Php80RemovedConstant'
-     - 'Php/Php80RemovedDirective'
-     - 'Php/Php80RemovedFunctions'
-     - 'Php/Php80RemovesResources'
-     - 'Php/Php80UnionTypehint'
-     - 'Php/Php80VariableSyntax'
-     - 'Php/Php81IntersectionTypehint'
-     - 'Php/Php81NewFunctions'
-     - 'Php/Php81RemovedConstant'
-     - 'Php/Php81RemovedDirective'
-     - 'Php/Php81RemovedFunctions'
-     - 'Php/Php81RemovesResources'
-     - 'Php/PhpErrorMsgUsage'
-     - 'Php/PregMatchAllFlag'
-     - 'Php/Prints'
-     - 'Php/RawPostDataUsage'
-     - 'Php/ReflectionExportIsDeprecated'
-     - 'Php/ReservedKeywords7'
-     - 'Php/ReservedMatchKeyword'
-     - 'Php/ReservedNames'
-     - 'Php/RestrictGlobalUsage'
-     - 'Php/ReturnTypehintUsage'
-     - 'Php/ReturnWithParenthesis'
-     - 'Php/SafePhpvars'
-     - 'Php/ScalarAreNotArrays'
-     - 'Php/ScalarTypehintUsage'
-     - 'Php/SerializeMagic'
-     - 'Php/SessionVariables'
-     - 'Php/SetExceptionHandlerPHP7'
-     - 'Php/SetHandlers'
-     - 'Php/ShellFavorite'
-     - 'Php/ShortOpenTagRequired'
-     - 'Php/ShouldPreprocess'
-     - 'Php/ShouldUseArrayColumn'
-     - 'Php/ShouldUseArrayFilter'
-     - 'Php/ShouldUseCoalesce'
-     - 'Php/ShouldUseFunction'
-     - 'Php/SignatureTrailingComma'
-     - 'Php/SpreadOperatorForArray'
-     - 'Php/StaticclassUsage'
-     - 'Php/StringIntComparison'
-     - 'Php/StrtrArguments'
-     - 'Php/SuperGlobalUsage'
-     - 'Php/ThrowUsage'
-     - 'Php/ThrowWasAnExpression'
-     - 'Php/TooManyNativeCalls'
-     - 'Php/TrailingComma'
-     - 'Php/TriggerErrorUsage'
-     - 'Php/TryCatchUsage'
-     - 'Php/TryMultipleCatch'
-     - 'Php/TypedPropertyUsage'
-     - 'Php/UnicodeEscapePartial'
-     - 'Php/UnicodeEscapeSyntax'
-     - 'Php/UnknownPcre2Option'
-     - 'Php/UnpackingInsideArrays'
-     - 'Php/UnsetOrCast'
-     - 'Php/UpperCaseFunction'
-     - 'Php/UpperCaseKeyword'
-     - 'Php/UseAttributes'
-     - 'Php/UseBrowscap'
-     - 'Php/UseClassAlias'
-     - 'Php/UseCli'
-     - 'Php/UseContravariance'
-     - 'Php/UseCookies'
-     - 'Php/UseCovariance'
-     - 'Php/UseDateTimeImmutable'
-     - 'Php/UseGetDebugType'
-     - 'Php/UseMatch'
-     - 'Php/UseNullSafeOperator'
-     - 'Php/UseNullableType'
-     - 'Php/UseObjectApi'
-     - 'Php/UsePathinfo'
-     - 'Php/UsePathinfoArgs'
-     - 'Php/UseSessionStartOptions'
-     - 'Php/UseSetCookie'
-     - 'Php/UseStdclass'
-     - 'Php/UseStrContains'
-     - 'Php/UseTrailingUseComma'
-     - 'Php/UseWeb'
-     - 'Php/UsesEnv'
-     - 'Php/UsortSorting'
-     - 'Php/VersionCompareOperator'
-     - 'Php/WrongAttributeConfiguration'
-     - 'Php/WrongTypeForNativeFunction'
-     - 'Php/YieldFromUsage'
-     - 'Php/YieldUsage'
-     - 'Php/debugInfoUsage'
-     - 'Php/oldAutoloadUsage'
-     - 'Portability/FopenMode'
-     - 'Portability/GlobBraceUsage'
-     - 'Portability/IconvTranslit'
-     - 'Portability/LinuxOnlyFiles'
-     - 'Portability/WindowsOnlyConstants'
-     - 'Project/IsLibrary'
-     - 'Psr/Psr11Usage'
-     - 'Psr/Psr13Usage'
-     - 'Psr/Psr16Usage'
-     - 'Psr/Psr3Usage'
-     - 'Psr/Psr6Usage'
-     - 'Psr/Psr7Usage'
-     - 'Security/AnchorRegex'
-     - 'Security/AvoidThoseCrypto'
-     - 'Security/CantDisableClass'
-     - 'Security/CantDisableFunction'
-     - 'Security/CompareHash'
-     - 'Security/ConfigureExtract'
-     - 'Security/CryptoKeyLength'
-     - 'Security/CurlOptions'
-     - 'Security/DirectInjection'
-     - 'Security/DontEchoError'
-     - 'Security/DynamicDl'
-     - 'Security/EncodedLetters'
-     - 'Security/FilterInputSource'
-     - 'Security/GPRAliases'
-     - 'Security/IndirectInjection'
-     - 'Security/IntegerConversion'
-     - 'Security/KeepFilesRestricted'
-     - 'Security/MinusOneOnError'
-     - 'Security/MkdirDefault'
-     - 'Security/MoveUploadedFile'
-     - 'Security/NoEntIgnore'
-     - 'Security/NoNetForXmlLoad'
-     - 'Security/NoSleep'
-     - 'Security/NoWeakSSLCrypto'
-     - 'Security/RegisterGlobals'
-     - 'Security/SafeHttpHeaders'
-     - 'Security/SensitiveArgument'
-     - 'Security/SessionLazyWrite'
-     - 'Security/SetCookieArgs'
-     - 'Security/ShouldUsePreparedStatement'
-     - 'Security/ShouldUseSessionRegenerateId'
-     - 'Security/Sqlite3RequiresSingleQuotes'
-     - 'Security/SuperGlobalContagion'
-     - 'Security/UnserializeSecondArg'
-     - 'Security/UploadFilenameInjection'
-     - 'Security/parseUrlWithoutParameters'
-     - 'Structures/AddZero'
-     - 'Structures/AlteringForeachWithoutReference'
-     - 'Structures/AlternativeConsistenceByFile'
-     - 'Structures/AlwaysFalse'
-     - 'Structures/ArrayFillWithObjects'
-     - 'Structures/ArrayMapPassesByValue'
-     - 'Structures/ArrayMergeAndVariadic'
-     - 'Structures/ArrayMergeArrayArray'
-     - 'Structures/ArrayMergeWithEllipsis'
-     - 'Structures/ArraySearchMultipleKeys'
-     - 'Structures/AssigneAndCompare'
-     - 'Structures/AssignedInOneBranch'
-     - 'Structures/AutoUnsetForeach'
-     - 'Structures/BailOutEarly'
-     - 'Structures/BasenameSuffix'
-     - 'Structures/BooleanStrictComparison'
-     - 'Structures/Bracketless'
-     - 'Structures/Break0'
-     - 'Structures/BreakNonInteger'
-     - 'Structures/BreakOutsideLoop'
-     - 'Structures/BuriedAssignation'
-     - 'Structures/CalltimePassByReference'
-     - 'Structures/CanCountNonCountable'
-     - 'Structures/CastToBoolean'
-     - 'Structures/CastingTernary'
-     - 'Structures/CatchShadowsVariable'
-     - 'Structures/CheckAllTypes'
-     - 'Structures/CheckDivision'
-     - 'Structures/CheckJson'
-     - 'Structures/CoalesceAndConcat'
-     - 'Structures/CommonAlternatives'
-     - 'Structures/ComparedButNotAssignedStrings'
-     - 'Structures/ComparedComparison'
-     - 'Structures/ComparisonFavorite'
-     - 'Structures/ComplexExpression'
-     - 'Structures/ConcatEmpty'
-     - 'Structures/ConcatenationInterpolationFavorite'
-     - 'Structures/ConditionalStructures'
-     - 'Structures/ConstDefineFavorite'
-     - 'Structures/ConstantComparisonConsistance'
-     - 'Structures/ConstantConditions'
-     - 'Structures/ConstantScalarExpression'
-     - 'Structures/ContinueIsForLoop'
-     - 'Structures/CouldBeElse'
-     - 'Structures/CouldBeSpaceship'
-     - 'Structures/CouldBeStatic'
-     - 'Structures/CouldBeTernary'
-     - 'Structures/CouldUseArrayFillKeys'
-     - 'Structures/CouldUseArraySum'
-     - 'Structures/CouldUseArrayUnique'
-     - 'Structures/CouldUseCompact'
      - 'Structures/CouldUseDir'
-     - 'Structures/CouldUseMatch'
-     - 'Structures/CouldUseNullableOperator'
-     - 'Structures/CouldUseShortAssignation'
-     - 'Structures/CouldUseStrrepeat'
-     - 'Structures/CryptWithoutSalt'
-     - 'Structures/CurlVersionNow'
-     - 'Structures/DanglingArrayReferences'
-     - 'Structures/DeclareStaticOnce'
-     - 'Structures/DereferencingAS'
-     - 'Structures/DieExitConsistance'
-     - 'Structures/DifferencePreference'
-     - 'Structures/DirThenSlash'
-     - 'Structures/DirectlyUseFile'
-     - 'Structures/DontAddSeconds'
-     - 'Structures/DontBeTooManual'
-     - 'Structures/DontChangeBlindKey'
-     - 'Structures/DontCompareTypedBoolean'
-     - 'Structures/DontLoopOnYield'
-     - 'Structures/DontMixPlusPlus'
-     - 'Structures/DontReadAndWriteInOneExpression'
-     - 'Structures/DontReuseForeachSource'
-     - 'Structures/DoubleAssignation'
-     - 'Structures/DoubleInstruction'
-     - 'Structures/DoubleObjectAssignation'
-     - 'Structures/DropElseAfterReturn'
-     - 'Structures/DuplicateCalls'
-     - 'Structures/DynamicCalls'
-     - 'Structures/DynamicCode'
-     - 'Structures/EchoPrintConsistance'
-     - 'Structures/EchoWithConcat'
      - 'Structures/ElseIfElseif'
-     - 'Structures/ElseUsage'
-     - 'Structures/EmptyBlocks'
-     - 'Structures/EmptyLines'
-     - 'Structures/EmptyTryCatch'
-     - 'Structures/EmptyWithExpression'
-     - 'Structures/ErrorMessages'
-     - 'Structures/ErrorReportingWithInteger'
-     - 'Structures/EvalUsage'
-     - 'Structures/EvalWithoutTry'
-     - 'Structures/ExitUsage'
-     - 'Structures/FailingSubstrComparison'
-     - 'Structures/Fallthrough'
-     - 'Structures/FileUploadUsage'
-     - 'Structures/FileUsage'
-     - 'Structures/ForWithFunctioncall'
-     - 'Structures/ForeachNeedReferencedSource'
-     - 'Structures/ForeachReferenceIsNotModified'
-     - 'Structures/ForeachSourceValue'
-     - 'Structures/ForeachWithList'
-     - 'Structures/ForgottenWhiteSpace'
-     - 'Structures/FunctionPreSubscripting'
-     - 'Structures/FunctionSubscripting'
-     - 'Structures/GlobalInGlobal'
-     - 'Structures/GlobalOutsideLoop'
-     - 'Structures/GlobalUsage'
-     - 'Structures/GoToKeyDirectly'
-     - 'Structures/GtOrLtFavorite'
-     - 'Structures/HeredocDelimiterFavorite'
-     - 'Structures/Htmlentitiescall'
-     - 'Structures/HtmlentitiescallDefaultFlag'
-     - 'Structures/IdenticalConditions'
-     - 'Structures/IdenticalConsecutive'
-     - 'Structures/IdenticalElseif'
-     - 'Structures/IdenticalOnBothSides'
-     - 'Structures/IdenticalVariablesInForeach'
-     - 'Structures/IfWithSameConditions'
-     - 'Structures/Iffectation'
-     - 'Structures/ImplicitConversionToInt'
-     - 'Structures/ImplicitGlobal'
-     - 'Structures/ImpliedIf'
-     - 'Structures/ImplodeArgsOrder'
-     - 'Structures/IncludeUsage'
-     - 'Structures/InconsistentConcatenation'
-     - 'Structures/InconsistentElseif'
-     - 'Structures/IndicesAreIntOrString'
-     - 'Structures/InfiniteRecursion'
-     - 'Structures/InvalidPackFormat'
-     - 'Structures/InvalidRegex'
-     - 'Structures/IsZero'
-     - 'Structures/IssetWithConstant'
-     - 'Structures/JsonWithOption'
-     - 'Structures/ListOmissions'
-     - 'Structures/LogicalMistakes'
-     - 'Structures/LoneBlock'
-     - 'Structures/LongArguments'
-     - 'Structures/LongBlock'
-     - 'Structures/MailUsage'
-     - 'Structures/MaxLevelOfIdentation'
-     - 'Structures/MbstringThirdArg'
-     - 'Structures/MbstringUnknownEncoding'
-     - 'Structures/McryptcreateivWithoutOption'
-     - 'Structures/MergeIfThen'
-     - 'Structures/MismatchedTernary'
-     - 'Structures/MissingCases'
-     - 'Structures/MissingNew'
-     - 'Structures/MissingParenthesis'
-     - 'Structures/MixedConcatInterpolation'
-     - 'Structures/ModernEmpty'
-     - 'Structures/MultipleCatch'
-     - 'Structures/MultipleDefinedCase'
-     - 'Structures/MultipleSimilarCalls'
-     - 'Structures/MultipleTypeVariable'
      - 'Structures/MultipleUnset'
-     - 'Structures/MultiplyByOne'
-     - 'Structures/NamedRegex'
-     - 'Structures/NegativePow'
-     - 'Structures/NestedIfthen'
-     - 'Structures/NestedLoops'
-     - 'Structures/NestedTernary'
-     - 'Structures/NeverNegative'
-     - 'Structures/NewLineStyle'
-     - 'Structures/NextMonthTrap'
-     - 'Structures/NoAppendOnSource'
-     - 'Structures/NoArrayUnique'
-     - 'Structures/NoAssignationInFunction'
-     - 'Structures/NoChangeIncomingVariables'
-     - 'Structures/NoChoice'
-     - 'Structures/NoDirectAccess'
-     - 'Structures/NoDirectUsage'
-     - 'Structures/NoEmptyRegex'
-     - 'Structures/NoGetClassNull'
-     - 'Structures/NoHardcodedHash'
-     - 'Structures/NoHardcodedIp'
-     - 'Structures/NoHardcodedPath'
-     - 'Structures/NoHardcodedPort'
-     - 'Structures/NoIssetWithEmpty'
-     - 'Structures/NoNeedForElse'
-     - 'Structures/NoNeedForTriple'
-     - 'Structures/NoNeedGetClass'
-     - 'Structures/NoObjectAsIndex'
-     - 'Structures/NoParenthesisForLanguageConstruct'
-     - 'Structures/NoReferenceOnLeft'
-     - 'Structures/NoReturnInFinally'
-     - 'Structures/NoSubstrOne'
-     - 'Structures/NoVariableIsACondition'
-     - 'Structures/NonBreakableSpaceInNames'
-     - 'Structures/Noscream'
-     - 'Structures/NotEqual'
-     - 'Structures/NotNot'
-     - 'Structures/NotOrNot'
-     - 'Structures/ObjectReferences'
-     - 'Structures/OnceUsage'
-     - 'Structures/OneDotOrObjectOperatorPerLine'
-     - 'Structures/OneExpressionBracketsConsistency'
-     - 'Structures/OneIfIsSufficient'
-     - 'Structures/OneLevelOfIndentation'
-     - 'Structures/OneLineTwoInstructions'
-     - 'Structures/OnlyFirstByte'
-     - 'Structures/OnlyVariableReturnedByReference'
-     - 'Structures/OpensslRandomPseudoByteSecondArg'
-     - 'Structures/OrDie'
-     - 'Structures/OverwrittenForeachVar'
      - 'Structures/PHP7Dirname'
-     - 'Structures/PhpinfoUsage'
-     - 'Structures/PlusEgalOne'
-     - 'Structures/PossibleIncrement'
-     - 'Structures/PossibleInfiniteLoop'
-     - 'Structures/PrintAndDie'
-     - 'Structures/PrintWithoutParenthesis'
-     - 'Structures/PrintfArguments'
-     - 'Structures/PropertyVariableConfusion'
-     - 'Structures/QueriesInLoop'
-     - 'Structures/RandomWithoutTry'
-     - 'Structures/RegexDelimiter'
-     - 'Structures/RepeatedPrint'
-     - 'Structures/RepeatedRegex'
-     - 'Structures/ResourcesUsage'
-     - 'Structures/ResultMayBeMissing'
-     - 'Structures/ReturnTrueFalse'
-     - 'Structures/ReturnVoid'
-     - 'Structures/ReuseVariable'
-     - 'Structures/SGVariablesConfusion'
-     - 'Structures/SameConditions'
-     - 'Structures/SequenceInFor'
-     - 'Structures/SetAside'
-     - 'Structures/SetlocaleNeedsConstants'
-     - 'Structures/ShellUsage'
-     - 'Structures/ShortTags'
-     - 'Structures/ShouldChainException'
-     - 'Structures/ShouldMakeTernary'
-     - 'Structures/ShouldPreprocess'
-     - 'Structures/ShouldUseExplodeArgs'
-     - 'Structures/ShouldUseForeach'
-     - 'Structures/ShouldUseMath'
-     - 'Structures/ShouldUseOperator'
-     - 'Structures/SimplePreg'
-     - 'Structures/StaticLoop'
-     - 'Structures/StringInterpolationFavorite'
-     - 'Structures/StripTagsSkipsClosedTag'
-     - 'Structures/StrposCompare'
-     - 'Structures/SubstrLastArg'
-     - 'Structures/SubstrToTrim'
-     - 'Structures/SuspiciousComparison'
-     - 'Structures/SwitchToSwitch'
-     - 'Structures/SwitchWithMultipleDefault'
-     - 'Structures/SwitchWithoutDefault'
-     - 'Structures/TernaryInConcat'
-     - 'Structures/TestThenCast'
-     - 'Structures/ThrowsAndAssign'
-     - 'Structures/TimestampDifference'
-     - 'Structures/TooManyElseif'
-     - 'Structures/TryFinally'
-     - 'Structures/UncheckedResources'
-     - 'Structures/UnconditionLoopBreak'
-     - 'Structures/UnknownPregOption'
-     - 'Structures/Unpreprocessed'
-     - 'Structures/UnreachableCode'
-     - 'Structures/UnsetInForeach'
-     - 'Structures/UnsupportedOperandTypes'
-     - 'Structures/UnsupportedTypesWithOperators'
-     - 'Structures/UnusedGlobal'
-     - 'Structures/UnusedLabel'
-     - 'Structures/UseArrayFunctions'
-     - 'Structures/UseCaseValue'
      - 'Structures/UseConstant'
-     - 'Structures/UseCountRecursive'
-     - 'Structures/UseDebug'
-     - 'Structures/UseFileAppend'
-     - 'Structures/UseInstanceof'
-     - 'Structures/UseListWithForeach'
-     - 'Structures/UsePositiveCondition'
-     - 'Structures/UseSameTypesForComparisons'
-     - 'Structures/UseSystemTmp'
-     - 'Structures/UseUrlQueryFunctions'
-     - 'Structures/UseVariableInsideLoop'
-     - 'Structures/UselessBrackets'
-     - 'Structures/UselessCasting'
-     - 'Structures/UselessCheck'
-     - 'Structures/UselessGlobal'
-     - 'Structures/UselessInstruction'
-     - 'Structures/UselessNullCoalesce'
-     - 'Structures/UselessParenthesis'
-     - 'Structures/UselessSwitch'
-     - 'Structures/UselessUnset'
-     - 'Structures/VardumpUsage'
-     - 'Structures/VariableGlobal'
-     - 'Structures/VariableMayBeNonGlobal'
-     - 'Structures/WhileListEach'
-     - 'Structures/WrongLocale'
-     - 'Structures/WrongRange'
-     - 'Structures/YodaComparison'
-     - 'Structures/pregOptionE'
-     - 'Structures/toStringThrowsException'
-     - 'Traits/AlreadyParentsTrait'
-     - 'Traits/CannotCallTraitMethod'
-     - 'Traits/CouldUseTrait'
-     - 'Traits/DependantTrait'
-     - 'Traits/EmptyTrait'
-     - 'Traits/IsExtTrait'
-     - 'Traits/LocallyUsedProperty'
-     - 'Traits/MethodCollisionTraits'
-     - 'Traits/MultipleUsage'
-     - 'Traits/Php'
-     - 'Traits/SelfUsingTrait'
-     - 'Traits/TraitMethod'
-     - 'Traits/TraitNotFound'
-     - 'Traits/TraitUsage'
-     - 'Traits/Traitnames'
-     - 'Traits/UndefinedInsteadof'
-     - 'Traits/UndefinedTrait'
-     - 'Traits/UnusedClassTrait'
-     - 'Traits/UnusedTrait'
-     - 'Traits/UsedOnceTrait'
-     - 'Traits/UsedTrait'
-     - 'Traits/UselessAlias'
-     - 'Type/ArrayIndex'
-     - 'Type/Binary'
-     - 'Type/CharString'
-     - 'Type/Continents'
-     - 'Type/DuplicateLiteral'
-     - 'Type/Email'
-     - 'Type/GPCIndex'
-     - 'Type/Heredoc'
-     - 'Type/Hexadecimal'
-     - 'Type/HexadecimalString'
-     - 'Type/HttpHeader'
-     - 'Type/HttpStatus'
-     - 'Type/MalformedOctal'
-     - 'Type/Md5String'
-     - 'Type/MimeType'
-     - 'Type/NoRealComparison'
-     - 'Type/Nowdoc'
-     - 'Type/Octal'
-     - 'Type/OctalInString'
-     - 'Type/OneVariableStrings'
-     - 'Type/OpensslCipher'
-     - 'Type/Pack'
-     - 'Type/Path'
-     - 'Type/Pcre'
-     - 'Type/Ports'
-     - 'Type/Printf'
-     - 'Type/Protocols'
-     - 'Type/Regex'
-     - 'Type/Sapi'
-     - 'Type/Shellcommands'
-     - 'Type/ShouldBeSingleQuote'
-     - 'Type/ShouldTypecast'
-     - 'Type/SilentlyCastInteger'
-     - 'Type/SimilarIntegers'
-     - 'Type/SpecialIntegers'
-     - 'Type/Sql'
-     - 'Type/StringHoldAVariable'
-     - 'Type/StringInterpolation'
-     - 'Type/StringWithStrangeSpace'
-     - 'Type/UdpDomains'
-     - 'Type/UnicodeBlock'
-     - 'Type/Url'
-     - 'Typehints/CouldBeArray'
-     - 'Typehints/CouldBeBoolean'
-     - 'Typehints/CouldBeCIT'
-     - 'Typehints/CouldBeCallable'
-     - 'Typehints/CouldBeFloat'
-     - 'Typehints/CouldBeGenerator'
-     - 'Typehints/CouldBeInt'
-     - 'Typehints/CouldBeIterable'
-     - 'Typehints/CouldBeNever'
-     - 'Typehints/CouldBeNull'
-     - 'Typehints/CouldBeParent'
-     - 'Typehints/CouldBeSelf'
-     - 'Typehints/CouldBeString'
-     - 'Typehints/CouldBeVoid'
-     - 'Typehints/CouldNotType'
-     - 'Typehints/MissingReturntype'
-     - 'Typehints/MissingTypehints'
-     - 'Utils/Selector'
-     - 'Variables/AssignedTwiceOrMore'
-     - 'Variables/Blind'
-     - 'Variables/CloseNaming'
-     - 'Variables/ComplexDynamicNames'
-     - 'Variables/ConstantTypo'
-     - 'Variables/Globals'
-     - 'Variables/InconsistentUsage'
-     - 'Variables/InheritedStaticVariable'
-     - 'Variables/InterfaceArguments'
-     - 'Variables/IsLocalConstant'
-     - 'Variables/LocalGlobals'
-     - 'Variables/LostReferences'
-     - 'Variables/NoStaticVarInMethod'
-     - 'Variables/Overwriting'
-     - 'Variables/OverwrittenLiterals'
-     - 'Variables/Php5IndirectExpression'
-     - 'Variables/Php7IndirectExpression'
-     - 'Variables/RealVariables'
-     - 'Variables/RecycledVariables'
-     - 'Variables/References'
-     - 'Variables/SelfTransform'
-     - 'Variables/StaticVariables'
-     - 'Variables/StrangeName'
-     - 'Variables/UncommonEnvVar'
-     - 'Variables/UndefinedConstantName'
-     - 'Variables/UndefinedVariable'
-     - 'Variables/UniqueUsage'
-     - 'Variables/VariableLong'
-     - 'Variables/VariableNonascii'
-     - 'Variables/VariableOneLetter'
-     - 'Variables/VariablePhp'
-     - 'Variables/VariableUppercase'
-     - 'Variables/VariableUsedOnce'
-     - 'Variables/VariableUsedOnceByContext'
-     - 'Variables/VariableVariables'
-     - 'Variables/WrittenOnlyVariable'
-     - 'Vendors/Codeigniter'
-     - 'Vendors/Concrete5'
-     - 'Vendors/Drupal'
-     - 'Vendors/Ez'
-     - 'Vendors/Fuel'
-     - 'Vendors/Joomla'
-     - 'Vendors/Laravel'
-     - 'Vendors/Phalcon'
-     - 'Vendors/Sylius'
-     - 'Vendors/Symfony'
-     - 'Vendors/Typo3'
-     - 'Vendors/Wordpress'
-     - 'Vendors/Yii'
-
-
-
-
-.. _annex-compatibilityphp82:
-
-CompatibilityPHP82
-##################
-
-
-.. _annex-ini-compatibilityphp82:
-
-CompatibilityPHP82 for INI
-++++++++++++++++++++++++++
-
-
-INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and edit them to your owns.
-::
-
- [CompatibilityPHP82]
-   analyzer[] = "Arrays/FloatConversionAsIndex";
-   analyzer[] = "Classes/ChecksPropertyExistence";
-   analyzer[] = "Classes/ExtendsStdclass";
-   analyzer[] = "Functions/DeprecatedCallable";
-   analyzer[] = "Php/DeprecateDollarCurly";
-   analyzer[] = "Php/FalseToArray";
-   analyzer[] = "Php/VersionCompareOperator";
-   analyzer[] = "Traits/CannotCallTraitMethod";
-
-
-.. _annex-yaml-compatibilityphp82:
-
-CompatibilityPHP82 for .exakat.yaml
-+++++++++++++++++++++++++++++++++++
-
-
-YAML configuration for built-in rulesets. Copy them in your code, with the name .exakat.yaml, and edit them to your owns.
-::
-
-  rulesets:
-    'CompatibilityPHP82':
-     - 'Arrays/FloatConversionAsIndex'
-     - 'Classes/ChecksPropertyExistence'
-     - 'Classes/ExtendsStdclass'
-     - 'Functions/DeprecatedCallable'
-     - 'Php/DeprecateDollarCurly'
-     - 'Php/FalseToArray'
-     - 'Php/VersionCompareOperator'
-     - 'Traits/CannotCallTraitMethod'
-
-
-
-
-.. _annex-classdependencies:
-
-Classdependencies
-#################
-
-
-.. _annex-ini-classdependencies:
-
-Classdependencies for INI
-+++++++++++++++++++++++++
-
-
-INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and edit them to your owns.
-::
-
- [Classdependencies]
-   analyzer[] = "Dump/CollectClassesDependencies";
-
-
-.. _annex-yaml-classdependencies:
-
-Classdependencies for .exakat.yaml
-++++++++++++++++++++++++++++++++++
-
-
-YAML configuration for built-in rulesets. Copy them in your code, with the name .exakat.yaml, and edit them to your owns.
-::
-
-  rulesets:
-    'Classdependencies':
-     - 'Dump/CollectClassesDependencies'
-
-
-
-
-.. _annex-php-recommendations:
-
-PHP recommendations
-###################
-
-
-.. _annex-ini-php-recommendations:
-
-PHP recommendations for INI
-+++++++++++++++++++++++++++
-
-
-INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and edit them to your owns.
-::
-
- [PHP recommendations]
-   analyzer[] = "Attributes/MissingAttributeAttribute";
-   analyzer[] = "Classes/CouldBeStringable";
-   analyzer[] = "Constants/BadConstantnames";
-   analyzer[] = "Interfaces/NoConstructorInInterface";
-   analyzer[] = "Namespaces/UseWithFullyQualifiedNS";
-   analyzer[] = "Performances/AvoidArrayPush";
-   analyzer[] = "Php/Crc32MightBeNegative";
-   analyzer[] = "Php/ImplodeOneArg";
-   analyzer[] = "Php/NoCastToInt";
-   analyzer[] = "Php/NotScalarType";
-   analyzer[] = "Php/ReturnWithParenthesis";
-   analyzer[] = "Structures/DanglingArrayReferences";
-   analyzer[] = "Structures/NoIssetWithEmpty";
-   analyzer[] = "Structures/ShortTags";
-   analyzer[] = "Structures/StrposCompare";
-   analyzer[] = "Structures/UnsupportedOperandTypes";
-   analyzer[] = "Structures/UseConstant";
-   analyzer[] = "Structures/UselessCasting";
-   analyzer[] = "Type/NoRealComparison";
-
-
-.. _annex-yaml-php-recommendations:
-
-PHP recommendations for .exakat.yaml
-++++++++++++++++++++++++++++++++++++
-
-
-YAML configuration for built-in rulesets. Copy them in your code, with the name .exakat.yaml, and edit them to your owns.
-::
-
-  rulesets:
-    'PHP recommendations':
-     - 'Attributes/MissingAttributeAttribute'
-     - 'Classes/CouldBeStringable'
-     - 'Constants/BadConstantnames'
-     - 'Interfaces/NoConstructorInInterface'
-     - 'Namespaces/UseWithFullyQualifiedNS'
-     - 'Performances/AvoidArrayPush'
-     - 'Php/Crc32MightBeNegative'
-     - 'Php/ImplodeOneArg'
-     - 'Php/NoCastToInt'
-     - 'Php/NotScalarType'
-     - 'Php/ReturnWithParenthesis'
-     - 'Structures/DanglingArrayReferences'
-     - 'Structures/NoIssetWithEmpty'
-     - 'Structures/ShortTags'
-     - 'Structures/StrposCompare'
-     - 'Structures/UnsupportedOperandTypes'
-     - 'Structures/UseConstant'
-     - 'Structures/UselessCasting'
-     - 'Type/NoRealComparison'
-
-
-
-
-.. _annex-isext:
-
-IsExt
-#####
-
-
-.. _annex-ini-isext:
-
-IsExt for INI
-+++++++++++++
-
-
-INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and edit them to your owns.
-::
-
- [IsExt]
-   analyzer[] = "Classes/CantExtendFinal";
-   analyzer[] = "Classes/CantOverwriteFinalConstant";
-   analyzer[] = "Classes/CantOverwriteFinalMethod";
-   analyzer[] = "Classes/DefinedConstants";
-   analyzer[] = "Classes/IsInterfaceMethod";
-   analyzer[] = "Classes/LoweredAccessLevel";
-   analyzer[] = "Classes/RaisedAccessLevel";
-   analyzer[] = "Classes/UndefinedConstants";
-   analyzer[] = "Complete/MakeFunctioncallWithReference";
-   analyzer[] = "Complete/PhpNativeReference";
-   analyzer[] = "Constants/UndefinedConstants";
-   analyzer[] = "Enums/UndefinedEnumcase";
-   analyzer[] = "Functions/OnlyVariablePassedByReference";
-   analyzer[] = "Functions/WrongArgumentNameWithPhpFunction";
-   analyzer[] = "Functions/WrongNumberOfArguments";
-   analyzer[] = "Interfaces/AlreadyParentsInterface";
-   analyzer[] = "Interfaces/IsNotImplemented";
-   analyzer[] = "Php/OnlyVariableForReference";
-   analyzer[] = "Php/UpperCaseFunction";
-   analyzer[] = "Structures/ArrayMapPassesByValue";
-
-
-.. _annex-yaml-isext:
-
-IsExt for .exakat.yaml
-++++++++++++++++++++++
-
-
-YAML configuration for built-in rulesets. Copy them in your code, with the name .exakat.yaml, and edit them to your owns.
-::
-
-  rulesets:
-    'IsExt':
-     - 'Classes/CantExtendFinal'
-     - 'Classes/CantOverwriteFinalConstant'
-     - 'Classes/CantOverwriteFinalMethod'
-     - 'Classes/DefinedConstants'
-     - 'Classes/IsInterfaceMethod'
-     - 'Classes/LoweredAccessLevel'
-     - 'Classes/RaisedAccessLevel'
-     - 'Classes/UndefinedConstants'
-     - 'Complete/MakeFunctioncallWithReference'
-     - 'Complete/PhpNativeReference'
-     - 'Constants/UndefinedConstants'
-     - 'Enums/UndefinedEnumcase'
-     - 'Functions/OnlyVariablePassedByReference'
-     - 'Functions/WrongArgumentNameWithPhpFunction'
-     - 'Functions/WrongNumberOfArguments'
-     - 'Interfaces/AlreadyParentsInterface'
-     - 'Interfaces/IsNotImplemented'
-     - 'Php/OnlyVariableForReference'
-     - 'Php/UpperCaseFunction'
-     - 'Structures/ArrayMapPassesByValue'
-
-
-
-
-.. _annex-isphp:
-
-IsPHP
-#####
-
-
-.. _annex-ini-isphp:
-
-IsPHP for INI
-+++++++++++++
-
-
-INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and edit them to your owns.
-::
-
- [IsPHP]
-   analyzer[] = "Classes/CantExtendFinal";
-   analyzer[] = "Classes/CantOverwriteFinalConstant";
-   analyzer[] = "Classes/CantOverwriteFinalMethod";
-   analyzer[] = "Classes/DefinedConstants";
-   analyzer[] = "Classes/IsInterfaceMethod";
-   analyzer[] = "Classes/LoweredAccessLevel";
-   analyzer[] = "Classes/RaisedAccessLevel";
-   analyzer[] = "Classes/UndefinedConstants";
-   analyzer[] = "Complete/MakeFunctioncallWithReference";
-   analyzer[] = "Complete/PhpNativeReference";
-   analyzer[] = "Constants/UndefinedConstants";
-   analyzer[] = "Enums/UndefinedEnumcase";
-   analyzer[] = "Functions/OnlyVariablePassedByReference";
-   analyzer[] = "Functions/WrongArgumentNameWithPhpFunction";
-   analyzer[] = "Functions/WrongNumberOfArguments";
-   analyzer[] = "Interfaces/AlreadyParentsInterface";
-   analyzer[] = "Interfaces/IsNotImplemented";
-   analyzer[] = "Php/OnlyVariableForReference";
-   analyzer[] = "Php/UpperCaseFunction";
-   analyzer[] = "Structures/ArrayMapPassesByValue";
-
-
-.. _annex-yaml-isphp:
-
-IsPHP for .exakat.yaml
-++++++++++++++++++++++
-
-
-YAML configuration for built-in rulesets. Copy them in your code, with the name .exakat.yaml, and edit them to your owns.
-::
-
-  rulesets:
-    'IsPHP':
-     - 'Classes/CantExtendFinal'
-     - 'Classes/CantOverwriteFinalConstant'
-     - 'Classes/CantOverwriteFinalMethod'
-     - 'Classes/DefinedConstants'
-     - 'Classes/IsInterfaceMethod'
-     - 'Classes/LoweredAccessLevel'
-     - 'Classes/RaisedAccessLevel'
-     - 'Classes/UndefinedConstants'
-     - 'Complete/MakeFunctioncallWithReference'
-     - 'Complete/PhpNativeReference'
-     - 'Constants/UndefinedConstants'
-     - 'Enums/UndefinedEnumcase'
-     - 'Functions/OnlyVariablePassedByReference'
-     - 'Functions/WrongArgumentNameWithPhpFunction'
-     - 'Functions/WrongNumberOfArguments'
-     - 'Interfaces/AlreadyParentsInterface'
-     - 'Interfaces/IsNotImplemented'
-     - 'Php/OnlyVariableForReference'
-     - 'Php/UpperCaseFunction'
-     - 'Structures/ArrayMapPassesByValue'
-
-
-
-
-.. _annex-isstub:
-
-IsStub
-######
-
-
-.. _annex-ini-isstub:
-
-IsStub for INI
-++++++++++++++
-
-
-INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and edit them to your owns.
-::
-
- [IsStub]
-   analyzer[] = "Classes/CantExtendFinal";
-   analyzer[] = "Classes/CantOverwriteFinalConstant";
-   analyzer[] = "Classes/CantOverwriteFinalMethod";
-   analyzer[] = "Classes/DefinedConstants";
-   analyzer[] = "Classes/IsInterfaceMethod";
-   analyzer[] = "Classes/LoweredAccessLevel";
-   analyzer[] = "Classes/RaisedAccessLevel";
-   analyzer[] = "Classes/UndefinedConstants";
-   analyzer[] = "Complete/MakeFunctioncallWithReference";
-   analyzer[] = "Complete/PhpNativeReference";
-   analyzer[] = "Constants/UndefinedConstants";
-   analyzer[] = "Enums/UndefinedEnumcase";
-   analyzer[] = "Functions/OnlyVariablePassedByReference";
-   analyzer[] = "Functions/WrongArgumentNameWithPhpFunction";
-   analyzer[] = "Functions/WrongNumberOfArguments";
-   analyzer[] = "Interfaces/AlreadyParentsInterface";
-   analyzer[] = "Interfaces/IsNotImplemented";
-   analyzer[] = "Php/OnlyVariableForReference";
-   analyzer[] = "Structures/ArrayMapPassesByValue";
-
-
-.. _annex-yaml-isstub:
-
-IsStub for .exakat.yaml
-+++++++++++++++++++++++
-
-
-YAML configuration for built-in rulesets. Copy them in your code, with the name .exakat.yaml, and edit them to your owns.
-::
-
-  rulesets:
-    'IsStub':
-     - 'Classes/CantExtendFinal'
-     - 'Classes/CantOverwriteFinalConstant'
-     - 'Classes/CantOverwriteFinalMethod'
-     - 'Classes/DefinedConstants'
-     - 'Classes/IsInterfaceMethod'
-     - 'Classes/LoweredAccessLevel'
-     - 'Classes/RaisedAccessLevel'
-     - 'Classes/UndefinedConstants'
-     - 'Complete/MakeFunctioncallWithReference'
-     - 'Complete/PhpNativeReference'
-     - 'Constants/UndefinedConstants'
-     - 'Enums/UndefinedEnumcase'
-     - 'Functions/OnlyVariablePassedByReference'
-     - 'Functions/WrongArgumentNameWithPhpFunction'
-     - 'Functions/WrongNumberOfArguments'
-     - 'Interfaces/AlreadyParentsInterface'
-     - 'Interfaces/IsNotImplemented'
-     - 'Php/OnlyVariableForReference'
-     - 'Structures/ArrayMapPassesByValue'
-
-
-
-
-.. _annex-nodoc:
-
-NoDoc
-#####
-
-
-.. _annex-ini-nodoc:
-
-NoDoc for INI
-+++++++++++++
-
-
-INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and edit them to your owns.
-::
-
- [NoDoc]
-   analyzer[] = "Complete/CreateCompactVariables";
-   analyzer[] = "Complete/CreateDefaultValues";
-   analyzer[] = "Complete/CreateForeachDefault";
-   analyzer[] = "Complete/CreateMagicMethod";
-   analyzer[] = "Complete/CreateMagicProperty";
-   analyzer[] = "Complete/ExtendedTypehints";
-   analyzer[] = "Complete/FollowClosureDefinition";
-   analyzer[] = "Complete/IsExtStructure";
-   analyzer[] = "Complete/IsPhpStructure";
-   analyzer[] = "Complete/IsStubStructure";
-   analyzer[] = "Complete/MakeAllStatics";
-   analyzer[] = "Complete/MakeClassConstantDefinition";
-   analyzer[] = "Complete/MakeClassMethodDefinition";
-   analyzer[] = "Complete/MakeFunctioncallWithReference";
-   analyzer[] = "Complete/OverwrittenConstants";
-   analyzer[] = "Complete/OverwrittenMethods";
-   analyzer[] = "Complete/OverwrittenProperties";
-   analyzer[] = "Complete/PhpExtStubPropertyMethod";
-   analyzer[] = "Complete/PhpNativeReference";
-   analyzer[] = "Complete/PropagateCalls";
-   analyzer[] = "Complete/PropagateConstants";
-   analyzer[] = "Complete/ReturnTypehint";
-   analyzer[] = "Complete/SetArrayClassDefinition";
-   analyzer[] = "Complete/SetClassAliasDefinition";
-   analyzer[] = "Complete/SetClassMethodRemoteDefinition";
-   analyzer[] = "Complete/SetClassPropertyDefinitionWithTypehint";
-   analyzer[] = "Complete/SetClassRemoteDefinitionWithGlobal";
-   analyzer[] = "Complete/SetClassRemoteDefinitionWithInjection";
-   analyzer[] = "Complete/SetClassRemoteDefinitionWithLocalNew";
-   analyzer[] = "Complete/SetClassRemoteDefinitionWithParenthesis";
-   analyzer[] = "Complete/SetClassRemoteDefinitionWithReturnTypehint";
-   analyzer[] = "Complete/SetClassRemoteDefinitionWithTypehint";
-   analyzer[] = "Complete/SetCloneLink";
-   analyzer[] = "Complete/SetParentDefinition";
-   analyzer[] = "Complete/SetStringMethodDefinition";
-   analyzer[] = "Complete/SolveTraitMethods";
-   analyzer[] = "Complete/VariableTypehint";
-
-
-.. _annex-yaml-nodoc:
-
-NoDoc for .exakat.yaml
-++++++++++++++++++++++
-
-
-YAML configuration for built-in rulesets. Copy them in your code, with the name .exakat.yaml, and edit them to your owns.
-::
-
-  rulesets:
-    'NoDoc':
-     - 'Complete/CreateCompactVariables'
-     - 'Complete/CreateDefaultValues'
-     - 'Complete/CreateForeachDefault'
-     - 'Complete/CreateMagicMethod'
-     - 'Complete/CreateMagicProperty'
-     - 'Complete/ExtendedTypehints'
-     - 'Complete/FollowClosureDefinition'
-     - 'Complete/IsExtStructure'
-     - 'Complete/IsPhpStructure'
-     - 'Complete/IsStubStructure'
-     - 'Complete/MakeAllStatics'
-     - 'Complete/MakeClassConstantDefinition'
-     - 'Complete/MakeClassMethodDefinition'
-     - 'Complete/MakeFunctioncallWithReference'
-     - 'Complete/OverwrittenConstants'
-     - 'Complete/OverwrittenMethods'
-     - 'Complete/OverwrittenProperties'
-     - 'Complete/PhpExtStubPropertyMethod'
-     - 'Complete/PhpNativeReference'
-     - 'Complete/PropagateCalls'
-     - 'Complete/PropagateConstants'
-     - 'Complete/ReturnTypehint'
-     - 'Complete/SetArrayClassDefinition'
-     - 'Complete/SetClassAliasDefinition'
-     - 'Complete/SetClassMethodRemoteDefinition'
-     - 'Complete/SetClassPropertyDefinitionWithTypehint'
-     - 'Complete/SetClassRemoteDefinitionWithGlobal'
-     - 'Complete/SetClassRemoteDefinitionWithInjection'
-     - 'Complete/SetClassRemoteDefinitionWithLocalNew'
-     - 'Complete/SetClassRemoteDefinitionWithParenthesis'
-     - 'Complete/SetClassRemoteDefinitionWithReturnTypehint'
-     - 'Complete/SetClassRemoteDefinitionWithTypehint'
-     - 'Complete/SetCloneLink'
-     - 'Complete/SetParentDefinition'
-     - 'Complete/SetStringMethodDefinition'
-     - 'Complete/SolveTraitMethods'
-     - 'Complete/VariableTypehint'
 
 
 

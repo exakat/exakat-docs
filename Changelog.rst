@@ -37,7 +37,8 @@ Here is the release note of exakat.
     + New cobbler : add Final to classes
 
 + Report
-    + 
+    + Ambassador, Emissary, Diplomat : removed link to the source code.
+    + Ambassador, Emissary, Diplomat : fixed link to online documentation
 
 + Analysis
     + Fixed analysis : Undefined Classes and Trait where affected by the recent Complete/Returntyping

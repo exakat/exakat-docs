@@ -12,6 +12,218 @@ Cobblers are a complement to code analysis : the analysis spot code to be fixed,
 List of Cobblers
 --------------------------
 
+.. _utils-multi:
+
+.. _:
+
+
+
+
+
+.. _-before:
+
+Before
+^^^^^^
+.. code-block:: php
+
+   
+
+.. _-after:
+
+After
+^^^^^
+.. code-block:: php
+
+   
+
+
+.. _-configfile:
+
+Parameters
+^^^^^^^^^^
+
++------------+---------+--------+---------------------------------------+
+| Name       | Default | Type   | Description                           |
++------------+---------+--------+---------------------------------------+
+| configFile |         | string | The .yaml file in the project folder. |
++------------+---------+--------+---------------------------------------+
+
+
+
+.. _-specs:
+
+Specs
+^^^^^
+
++----------------+------------------------------------------------------------------+
+| Short Name     | Utils/Multi                                                      |
++----------------+------------------------------------------------------------------+
+| Exakat version | 2.3.0                                                            |
++----------------+------------------------------------------------------------------+
+| Available in   | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_ |
++----------------+------------------------------------------------------------------+
+
+
+.. _classes-addfinalclass:
+
+.. _add-final-class:
+
+Add Final Class
+_______________
+Adds ``final`` keyword to classes that can suppport it.
+
+.. _add-final-class-before:
+
+Before
+^^^^^^
+.. code-block:: php
+
+   <?php
+   
+   class x {
+   }
+   
+   ?>
+
+.. _add-final-class-after:
+
+After
+^^^^^
+.. code-block:: php
+
+   <?php
+   
+   final class x {
+   }
+   
+   ?>
+
+.. _add-final-class-related-cobbler:
+
+Related Cobblers
+^^^^^^^^^^^^^^^^
+
+* :ref:`No anchor for Classes/AddFinalConstant <no-anchor-for-classes-addfinalconstant>`
+
+
+
+.. _add-final-class-specs:
+
+Specs
+^^^^^
+
++----------------+-----------------------+
+| Short Name     | Classes/AddFinalClass |
++----------------+-----------------------+
+| Exakat version | 2.3.0                 |
++----------------+-----------------------+
+| Available in   |                       |
++----------------+-----------------------+
+
+
+.. _structures-addnoscream:
+
+.. _add-no-scream-@:
+
+Add No Scream @
+_______________
+Adds the no scream operator `@` to an expression. 
+
+.. _add-no-scream-@-before:
+
+Before
+^^^^^^
+.. code-block:: php
+
+   <?php
+       $a;
+   ?>
+
+.. _add-no-scream-@-after:
+
+After
+^^^^^
+.. code-block:: php
+
+   <?php
+       @$a;
+   ?>
+
+.. _add-no-scream-@-suggested-analysis:
+
+Suggested Analysis
+^^^^^^^^^^^^^^^^^^
+
+* :ref:`No anchor for Utils/Selector <no-anchor-for-utils-selector>`
+
+.. _add-no-scream-@-reverse-cobbler:
+
+Reverse Cobbler
+^^^^^^^^^^^^^^^
+
+* :ref:`remove-noscream-@`
+
+
+
+.. _add-no-scream-@-specs:
+
+Specs
+^^^^^
+
++----------------+------------------------------------------------------------------+
+| Short Name     | Structures/AddNoScream                                           |
++----------------+------------------------------------------------------------------+
+| Exakat version | 2.3.0                                                            |
++----------------+------------------------------------------------------------------+
+| Available in   | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_ |
++----------------+------------------------------------------------------------------+
+
+
+.. _structures-arraytobracket:
+
+.. _array-to-bracket:
+
+Array To Bracket
+________________
+This cobbler updates the array() syntax, and changes it to the bracket syntax.
+
+
+.. _array-to-bracket-before:
+
+Before
+^^^^^^
+.. code-block:: php
+
+   <?php
+   $a = array(1, 2, 3);
+   ?>
+
+.. _array-to-bracket-after:
+
+After
+^^^^^
+.. code-block:: php
+
+   <?php
+   $a = [1, 2, 3];
+   ?>
+
+
+
+.. _array-to-bracket-specs:
+
+Specs
+^^^^^
+
++----------------+------------------------------------------------------------------+
+| Short Name     | Structures/ArrayToBracket                                        |
++----------------+------------------------------------------------------------------+
+| Exakat version | 2.3.0                                                            |
++----------------+------------------------------------------------------------------+
+| Available in   | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_ |
++----------------+------------------------------------------------------------------+
+
+
 .. _attributes-createphpdoc:
 
 .. _create-phpdoc:
@@ -87,130 +299,55 @@ Specs
 +----------------+------------------------------------------------------------------+
 
 
-.. _classes-splitpropertydefinitions:
+.. _namespaces-gatheruse:
 
-.. _split-property-definitions:
+.. _gather-use-expression:
 
-Split Property Definitions
-__________________________
-Split multiple properties definition into independent definitions. 
+Gather Use Expression
+_____________________
+Move lone use expression to the beginning of the file
 
-This applies to classes and traits. 
-
-.. _split-property-definitions-before:
+.. _gather-use-expression-before:
 
 Before
 ^^^^^^
 .. code-block:: php
 
    <?php
-       class x {
-           private $x, $y, $z;
-       }
+       use A;
+       ++$a;
+       use B;
    ?>
    
 
-.. _split-property-definitions-after:
+.. _gather-use-expression-after:
 
 After
 ^^^^^
 .. code-block:: php
 
    <?php
-       class x {
-           private $x;
-           private $y;
-           private $z;
-       }
+       use A;
+       use B;
+       ++$a;
    ?>
 
-.. _split-property-definitions-suggested-analysis:
+.. _gather-use-expression-suggested-analysis:
 
 Suggested Analysis
 ^^^^^^^^^^^^^^^^^^
 
-* :ref:`multiple-property-declaration-on-one-line`
+* :ref:`hidden-use-expression`
 
 
 
-.. _split-property-definitions-specs:
-
-Specs
-^^^^^
-
-+----------------+------------------------------------------------------------------+
-| Short Name     | Classes/SplitPropertyDefinitions                                 |
-+----------------+------------------------------------------------------------------+
-| Exakat version | 2.3.0                                                            |
-+----------------+------------------------------------------------------------------+
-| Available in   | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_ |
-+----------------+------------------------------------------------------------------+
-
-
-.. _classes-vartopublic:
-
-.. _var-to-public:
-
-Var To Public
-_____________
-Replace the var syntax with public keyword. 
-
-It is also possible to replace it with protected or private, with the parameter. 
-
-.. _var-to-public-before:
-
-Before
-^^^^^^
-.. code-block:: php
-
-   <?php
-   
-   class x {
-       var $y = 1;
-   }
-   ?>
-
-.. _var-to-public-after:
-
-After
-^^^^^
-.. code-block:: php
-
-   <?php
-   
-   class x {
-       public $y = 1;
-   }
-   ?>
-
-
-.. _var-to-public-var\_to\_visibility:
-
-Parameters
-^^^^^^^^^^
-
-+-------------------+---------+--------+--------------------------------------------------------------------------------------+
-| Name              | Default | Type   | Description                                                                          |
-+-------------------+---------+--------+--------------------------------------------------------------------------------------+
-| var_to_visibility | public  | string | The destination visibility to be used. May be one of: public, protected or private.  |
-+-------------------+---------+--------+--------------------------------------------------------------------------------------+
-
-.. _var-to-public-related-cobbler:
-
-Related Cobblers
-^^^^^^^^^^^^^^^^
-
-* :ref:`set-typehints`
-
-
-
-.. _var-to-public-specs:
+.. _gather-use-expression-specs:
 
 Specs
 ^^^^^
 
 +----------------+------------------------------------------------------------------+
-| Short Name     | Classes/VarToPublic                                              |
+| Short Name     | Namespaces/GatherUse                                             |
 +----------------+------------------------------------------------------------------+
 | Exakat version | 2.3.0                                                            |
 +----------------+------------------------------------------------------------------+
@@ -281,6 +418,330 @@ Specs
 +----------------+------------------------------------------------------------------+
 
 
+.. _structures-plusonetopre:
+
+.. _plus-one-to-pre-plusplus:
+
+Plus One To Pre Plusplus
+________________________
+Transforms a `+ 1` or `- 1` operation into a plus-plus (or minus-minus).
+
+.. _plus-one-to-pre-plusplus-before:
+
+Before
+^^^^^^
+.. code-block:: php
+
+   <?php
+       $a = $a + 1;
+   ?>
+
+.. _plus-one-to-pre-plusplus-after:
+
+After
+^^^^^
+.. code-block:: php
+
+   <?php
+       ++$a;
+   ?>
+
+
+
+.. _plus-one-to-pre-plusplus-specs:
+
+Specs
+^^^^^
+
++----------------+-------------------------------------------------------------------------------------------------------------------------+
+| Short Name     | Structures/PlusOneToPre                                                                                                 |
++----------------+-------------------------------------------------------------------------------------------------------------------------+
+| Exakat version | 2.3.0                                                                                                                   |
++----------------+-------------------------------------------------------------------------------------------------------------------------+
+| Available in   | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
++----------------+-------------------------------------------------------------------------------------------------------------------------+
+
+
+.. _structures-posttopre:
+
+.. _post-to-pre-plusplus:
+
+Post to Pre Plusplus
+____________________
+Transforms a post plus-plus (or minus-minus) operator, into a pre plus-plus (or minus-minus) operator.
+
+
+
+.. _post-to-pre-plusplus-before:
+
+Before
+^^^^^^
+.. code-block:: php
+
+   <?php 
+       $a++;
+   ?>
+
+.. _post-to-pre-plusplus-after:
+
+After
+^^^^^
+.. code-block:: php
+
+   <?php
+       ++$a;
+   ?>
+
+
+
+.. _post-to-pre-plusplus-specs:
+
+Specs
+^^^^^
+
++----------------+-------------------------------------------------------------------------------------------------------------------------+
+| Short Name     | Structures/PostToPre                                                                                                    |
++----------------+-------------------------------------------------------------------------------------------------------------------------+
+| Exakat version | 2.3.0                                                                                                                   |
++----------------+-------------------------------------------------------------------------------------------------------------------------+
+| Available in   | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
++----------------+-------------------------------------------------------------------------------------------------------------------------+
+
+
+.. _structures-removecode:
+
+.. _remove-instructions:
+
+Remove Instructions
+___________________
+Removes atomic instructions from the code. The whole expression is removed, and the slot is closed. 
+
+This cobbler works with element of a block, and not with part of larger expression (like remove a condition in a if/then, or remove the block expression of a while). 
+
+.. _remove-instructions-before:
+
+Before
+^^^^^^
+.. code-block:: php
+
+   <?php
+       $a = 1; // Code to be removed
+       foo(1); 
+       
+       do          // can remove the while expression
+           ++$a;   // removing the block of the do...wihle will generate an compilation error
+       while ($a < 10);
+       
+   ?>
+
+.. _remove-instructions-after:
+
+After
+^^^^^
+.. code-block:: php
+
+   <?php
+       foo(1); 
+   ?>
+
+.. _remove-instructions-suggested-analysis:
+
+Suggested Analysis
+^^^^^^^^^^^^^^^^^^
+
+* :ref:`useless-instructions`
+
+
+
+.. _remove-instructions-specs:
+
+Specs
+^^^^^
+
++----------------+------------------------------------------------------------------+
+| Short Name     | Structures/RemoveCode                                            |
++----------------+------------------------------------------------------------------+
+| Exakat version | 2.3.0                                                            |
++----------------+------------------------------------------------------------------+
+| Available in   | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_ |
++----------------+------------------------------------------------------------------+
+
+
+.. _structures-removenoscream:
+
+.. _remove-noscream-@:
+
+Remove Noscream @
+_________________
+Removes the @ operator.
+
+.. _remove-noscream-@-before:
+
+Before
+^^^^^^
+.. code-block:: php
+
+   <?php
+       @$a;
+   ?>
+
+.. _remove-noscream-@-after:
+
+After
+^^^^^
+.. code-block:: php
+
+   <?php
+       $a;
+   ?>
+
+.. _remove-noscream-@-suggested-analysis:
+
+Suggested Analysis
+^^^^^^^^^^^^^^^^^^
+
+* :ref:`@-operator`
+
+.. _remove-noscream-@-reverse-cobbler:
+
+Reverse Cobbler
+^^^^^^^^^^^^^^^
+
+* This cobbler is its own reverse. 
+
+
+
+.. _remove-noscream-@-specs:
+
+Specs
+^^^^^
+
++----------------+-------------------------------------------------------------------------------------------------------------------------+
+| Short Name     | Structures/RemoveNoScream                                                                                               |
++----------------+-------------------------------------------------------------------------------------------------------------------------+
+| Exakat version | 2.3.0                                                                                                                   |
++----------------+-------------------------------------------------------------------------------------------------------------------------+
+| Available in   | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
++----------------+-------------------------------------------------------------------------------------------------------------------------+
+
+
+.. _structures-removeparenthesis:
+
+.. _remove-parenthesis:
+
+Remove Parenthesis
+__________________
+Remove useless parenthesis from return expression.
+
+.. _remove-parenthesis-before:
+
+Before
+^^^^^^
+.. code-block:: php
+
+   <?php
+   function foo() {
+       return (1);
+   }
+   ?>
+
+.. _remove-parenthesis-after:
+
+After
+^^^^^
+.. code-block:: php
+
+   <?php
+   function foo() {
+       return 1;
+   }
+   ?>
+
+.. _remove-parenthesis-suggested-analysis:
+
+Suggested Analysis
+^^^^^^^^^^^^^^^^^^
+
+* :ref:`no-parenthesis-for-language-construct`
+
+
+
+.. _remove-parenthesis-specs:
+
+Specs
+^^^^^
+
++----------------+------------------------------------------------------------------+
+| Short Name     | Structures/RemoveParenthesis                                     |
++----------------+------------------------------------------------------------------+
+| Exakat version | 2.3.0                                                            |
++----------------+------------------------------------------------------------------+
+| Available in   | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_ |
++----------------+------------------------------------------------------------------+
+
+
+.. _classes-removereadonly:
+
+.. _remove-readonly-option:
+
+Remove Readonly Option
+______________________
+Readonly is a property option. This cobbler removes it. 
+
+The readonly keyword is removed from property definitions, and from promoted properties.
+
+
+.. _remove-readonly-option-before:
+
+Before
+^^^^^^
+.. code-block:: php
+
+   <?php
+   
+   class x {
+       private readonly string $x;
+   }
+   
+   ?>
+
+.. _remove-readonly-option-after:
+
+After
+^^^^^
+.. code-block:: php
+
+   <?php
+   
+   class x {
+       private string $x;
+   }
+   
+   ?>
+
+.. _remove-readonly-option-suggested-analysis:
+
+Suggested Analysis
+^^^^^^^^^^^^^^^^^^
+
+* :ref:`readonly-usage`
+
+
+
+.. _remove-readonly-option-specs:
+
+Specs
+^^^^^
+
++----------------+------------------------+
+| Short Name     | Classes/RemoveReadonly |
++----------------+------------------------+
+| Exakat version | 2.3.0                  |
++----------------+------------------------+
+| Available in   |                        |
++----------------+------------------------+
+
+
 .. _functions-removestaticfromclosure:
 
 .. _remove-static-from-closures-and-arrow-functions:
@@ -342,6 +803,61 @@ Specs
 +----------------+------------------------------------------------------------------+
 | Available in   | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_ |
 +----------------+------------------------------------------------------------------+
+
+
+.. _attributes-removeattribute:
+
+.. _remove-the-attribute:
+
+Remove The Attribute
+____________________
+Remove attributes from all supporting structures.
+
+Attributes are located on functions, classes, class constants, properties, methods and arguments.
+
+
+.. _remove-the-attribute-before:
+
+Before
+^^^^^^
+.. code-block:: php
+
+   <?php
+   
+   #[Attribute] 
+   function foo(#[AttributeArgument] $arg) {
+   
+   }
+   ?>
+
+.. _remove-the-attribute-after:
+
+After
+^^^^^
+.. code-block:: php
+
+   <?php
+   
+   
+   function foo($arg) {
+   
+   }
+   ?>
+
+
+
+.. _remove-the-attribute-specs:
+
+Specs
+^^^^^
+
++----------------+----------------------------+
+| Short Name     | Attributes/RemoveAttribute |
++----------------+----------------------------+
+| Exakat version | 2.3.0                      |
++----------------+----------------------------+
+| Available in   |                            |
++----------------+----------------------------+
 
 
 .. _functions-removetypes:
@@ -428,6 +944,375 @@ Specs
 | Short Name     | Functions/RemoveTypes                                            |
 +----------------+------------------------------------------------------------------+
 | Exakat version | 2.2.5                                                            |
++----------------+------------------------------------------------------------------+
+| Available in   | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_ |
++----------------+------------------------------------------------------------------+
+
+
+.. _namespaces-removeuse:
+
+.. _remove-unused-use:
+
+Remove Unused Use
+_________________
+Removes the unused use expression from the top of the file. Groupuse are not processed yet.
+
+.. _remove-unused-use-before:
+
+Before
+^^^^^^
+.. code-block:: php
+
+   <?php
+   
+   use a\b;
+   use c\d;
+   
+   new b();
+   
+   ?>
+
+.. _remove-unused-use-after:
+
+After
+^^^^^
+.. code-block:: php
+
+   <?php
+   
+   use a\b;
+   
+   new b();
+   
+   ?>
+
+.. _remove-unused-use-suggested-analysis:
+
+Suggested Analysis
+^^^^^^^^^^^^^^^^^^
+
+* :ref:`unused-use`
+
+
+
+.. _remove-unused-use-specs:
+
+Specs
+^^^^^
+
++----------------+----------------------+
+| Short Name     | Namespaces/RemoveUse |
++----------------+----------------------+
+| Exakat version | 2.3.0                |
++----------------+----------------------+
+| Available in   |                      |
++----------------+----------------------+
+
+
+.. _classes-removevisibility:
+
+.. _remove-visibility:
+
+Remove Visibility
+_________________
+Removes the visibility on constants, properties and methods. 
+
+For properties, the visibility is reset to public. 
+
+.. _remove-visibility-before:
+
+Before
+^^^^^^
+.. code-block:: php
+
+   <?php
+   
+   class x {
+       private const x = 1;
+       private $p = 2;
+       private function foo() {}
+       private function __construct() {}
+   }
+   ?>
+
+.. _remove-visibility-after:
+
+After
+^^^^^
+.. code-block:: php
+
+   <?php
+   
+   class x {
+       const x = 1;
+       public $p = 2;
+       function foo() {}
+       function __construct() {}
+   }
+   ?>
+
+
+
+.. _remove-visibility-specs:
+
+Specs
+^^^^^
+
++----------------+--------------------------+
+| Short Name     | Classes/RemoveVisibility |
++----------------+--------------------------+
+| Exakat version | 2.3.0                    |
++----------------+--------------------------+
+| Available in   |                          |
++----------------+--------------------------+
+
+
+.. _structures-renamefunction:
+
+.. _rename-a-function:
+
+Rename A Function
+_________________
+Give a function with a new name. 
+
+This cobbler doesn't update the name of the functioncalls. 
+
+This cobbler may be used with functions, and methods. Functions may be identified with their fully qualified name (i.e. \path\foo) and methods with the extended fully qualified name (i.e. : \path\aClass::methodName). 
+
+
+
+.. _rename-a-function-before:
+
+Before
+^^^^^^
+.. code-block:: php
+
+   <?php
+       function foo() {
+       
+       }
+   ?>
+
+.. _rename-a-function-after:
+
+After
+^^^^^
+.. code-block:: php
+
+   <?php
+       function bar() {
+       
+       }
+   ?>
+
+
+.. _rename-a-function-name:
+
+Parameters
+^^^^^^^^^^
+
++------+---------+--------+-------------------------------+
+| Name | Default | Type   | Description                   |
++------+---------+--------+-------------------------------+
+| name | foo     | string | The new name of the function. |
++------+---------+--------+-------------------------------+
+
+.. _rename-a-function-suggested-analysis:
+
+Suggested Analysis
+^^^^^^^^^^^^^^^^^^
+
+* :ref:`No anchor for Utils/Selector <no-anchor-for-utils-selector>`
+
+.. _rename-a-function-related-cobbler:
+
+Related Cobblers
+^^^^^^^^^^^^^^^^
+
+* :ref:`rename-functioncalls`
+
+.. _rename-a-function-reverse-cobbler:
+
+Reverse Cobbler
+^^^^^^^^^^^^^^^
+
+* This cobbler is its own reverse. 
+
+
+
+.. _rename-a-function-specs:
+
+Specs
+^^^^^
+
++----------------+------------------------------------------------------------------+
+| Short Name     | Structures/RenameFunction                                        |
++----------------+------------------------------------------------------------------+
+| Exakat version | 2.3.0                                                            |
++----------------+------------------------------------------------------------------+
+| Available in   | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_ |
++----------------+------------------------------------------------------------------+
+
+
+.. _structures-renamefunctioncall:
+
+.. _rename-functioncalls:
+
+Rename FunctionCalls
+____________________
+Rename a function call to another function.
+
+.. _rename-functioncalls-before:
+
+Before
+^^^^^^
+.. code-block:: php
+
+   <?php
+       foo(1, 2);
+   ?>
+
+.. _rename-functioncalls-after:
+
+After
+^^^^^
+.. code-block:: php
+
+   <?php
+       bar(1, 2);
+   ?>
+
+
+.. _rename-functioncalls-destination:
+
+Parameters
+^^^^^^^^^^
+
++-------------+---------------+--------+-----------------------------------------------------------------------------------------+
+| Name        | Default       | Type   | Description                                                                             |
++-------------+---------------+--------+-----------------------------------------------------------------------------------------+
+| origin      | strtolower    | string | The function name to rename. It will be use lower-cased, and as a fully qualified name. |
++-------------+---------------+--------+-----------------------------------------------------------------------------------------+
+| destination | mb_strtolower | string | The function name to rename. It will be use as is. FQN is possible.                     |
++-------------+---------------+--------+-----------------------------------------------------------------------------------------+
+
+.. _rename-functioncalls-suggested-analysis:
+
+Suggested Analysis
+^^^^^^^^^^^^^^^^^^
+
+* :ref:`No anchor for Utils/Selector <no-anchor-for-utils-selector>`
+
+.. _rename-functioncalls-related-cobbler:
+
+Related Cobblers
+^^^^^^^^^^^^^^^^
+
+* :ref:`rename-a-function`
+* :ref:`rename-methodcall`
+
+.. _rename-functioncalls-reverse-cobbler:
+
+Reverse Cobbler
+^^^^^^^^^^^^^^^
+
+* This cobbler is its own reverse. 
+
+
+
+.. _rename-functioncalls-specs:
+
+Specs
+^^^^^
+
++----------------+------------------------------------------------------------------+
+| Short Name     | Structures/RenameFunctionCall                                    |
++----------------+------------------------------------------------------------------+
+| Exakat version | 2.3.0                                                            |
++----------------+------------------------------------------------------------------+
+| Available in   | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_ |
++----------------+------------------------------------------------------------------+
+
+
+.. _structures-renamemethodcall:
+
+.. _rename-methodcall:
+
+Rename Methodcall
+_________________
+Rename a method, in a methodcall, with a new name. 
+
+This cobbler doesn't update the definition of the method. It works both on static and non-static methods. 
+
+
+
+.. _rename-methodcall-before:
+
+Before
+^^^^^^
+.. code-block:: php
+
+   <?php
+       $o->method();
+   ?>
+
+.. _rename-methodcall-after:
+
+After
+^^^^^
+.. code-block:: php
+
+   <?php
+       $o->newName();
+   ?>
+
+
+.. _rename-methodcall-destination:
+
+Parameters
+^^^^^^^^^^
+
++-------------+---------------+--------+-----------------------------------------------------------------------------------------+
+| Name        | Default       | Type   | Description                                                                             |
++-------------+---------------+--------+-----------------------------------------------------------------------------------------+
+| origin      | strtolower    | string | The function name to rename. It will be use lower-cased, and as a fully qualified name. |
++-------------+---------------+--------+-----------------------------------------------------------------------------------------+
+| destination | mb_strtolower | string | The function name to rename. It will be use as is. FQN is possible.                     |
++-------------+---------------+--------+-----------------------------------------------------------------------------------------+
+
+.. _rename-methodcall-suggested-analysis:
+
+Suggested Analysis
+^^^^^^^^^^^^^^^^^^
+
+* :ref:`No anchor for Utils/Selector <no-anchor-for-utils-selector>`
+
+.. _rename-methodcall-related-cobbler:
+
+Related Cobblers
+^^^^^^^^^^^^^^^^
+
+* :ref:`rename-functioncalls`
+* :ref:`rename-a-function`
+
+.. _rename-methodcall-reverse-cobbler:
+
+Reverse Cobbler
+^^^^^^^^^^^^^^^
+
+* :ref:`No anchor for Structures/RemoveMethodCall <no-anchor-for-structures-removemethodcall>`
+
+
+
+.. _rename-methodcall-specs:
+
+Specs
+^^^^^
+
++----------------+------------------------------------------------------------------+
+| Short Name     | Structures/RenameMethodcall                                      |
++----------------+------------------------------------------------------------------+
+| Exakat version | 2.3.0                                                            |
 +----------------+------------------------------------------------------------------+
 | Available in   | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_ |
 +----------------+------------------------------------------------------------------+
@@ -762,55 +1647,59 @@ Specs
 +----------------+-------------------------------------------------------------------------------------------------------------------------+
 
 
-.. _namespaces-gatheruse:
+.. _classes-splitpropertydefinitions:
 
-.. _gather-use-expression:
+.. _split-property-definitions:
 
-Gather Use Expression
-_____________________
-Move lone use expression to the beginning of the file
+Split Property Definitions
+__________________________
+Split multiple properties definition into independent definitions. 
 
-.. _gather-use-expression-before:
+This applies to classes and traits. 
+
+.. _split-property-definitions-before:
 
 Before
 ^^^^^^
 .. code-block:: php
 
    <?php
-       use A;
-       ++$a;
-       use B;
+       class x {
+           private $x, $y, $z;
+       }
    ?>
    
 
-.. _gather-use-expression-after:
+.. _split-property-definitions-after:
 
 After
 ^^^^^
 .. code-block:: php
 
    <?php
-       use A;
-       use B;
-       ++$a;
+       class x {
+           private $x;
+           private $y;
+           private $z;
+       }
    ?>
 
-.. _gather-use-expression-suggested-analysis:
+.. _split-property-definitions-suggested-analysis:
 
 Suggested Analysis
 ^^^^^^^^^^^^^^^^^^
 
-* :ref:`hidden-use-expression`
+* :ref:`multiple-property-declaration-on-one-line`
 
 
 
-.. _gather-use-expression-specs:
+.. _split-property-definitions-specs:
 
 Specs
 ^^^^^
 
 +----------------+------------------------------------------------------------------+
-| Short Name     | Namespaces/GatherUse                                             |
+| Short Name     | Classes/SplitPropertyDefinitions                                 |
 +----------------+------------------------------------------------------------------+
 | Exakat version | 2.3.0                                                            |
 +----------------+------------------------------------------------------------------+
@@ -818,674 +1707,44 @@ Specs
 +----------------+------------------------------------------------------------------+
 
 
-.. _namespaces-usealias:
+.. _structures-removevariable:
 
-.. _use-available-alias:
+.. _structures-removevariable:
 
-Use Available Alias
-___________________
-Apply systematically the use expression in the code.
+Structures/RemoveVariable
+_________________________
 
-.. _use-available-alias-before:
+
+.. _structures-removevariable-before:
 
 Before
 ^^^^^^
 .. code-block:: php
 
-   <?php
-       use A\B\C as D;
-       new A\B\C();
-   ?>
    
 
-.. _use-available-alias-after:
+.. _structures-removevariable-after:
 
 After
 ^^^^^
 .. code-block:: php
 
-   <?php
-       use A\B\C as D;
-       new D();
-   ?>
-
-.. _use-available-alias-suggested-analysis:
-
-Suggested Analysis
-^^^^^^^^^^^^^^^^^^
-
-* :ref:`could-use-alias`
+   
 
 
 
-.. _use-available-alias-specs:
+.. _structures-removevariable-specs:
 
 Specs
 ^^^^^
 
-+----------------+------------------------------------------------------------------+
-| Short Name     | Namespaces/UseAlias                                              |
-+----------------+------------------------------------------------------------------+
-| Exakat version | 2.3.0                                                            |
-+----------------+------------------------------------------------------------------+
-| Available in   | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_ |
-+----------------+------------------------------------------------------------------+
-
-
-.. _structures-addnoscream:
-
-.. _add-no-scream-@:
-
-Add No Scream @
-_______________
-Adds the no scream operator `@` to an expression. 
-
-.. _add-no-scream-@-before:
-
-Before
-^^^^^^
-.. code-block:: php
-
-   <?php
-       $a;
-   ?>
-
-.. _add-no-scream-@-after:
-
-After
-^^^^^
-.. code-block:: php
-
-   <?php
-       @$a;
-   ?>
-
-.. _add-no-scream-@-suggested-analysis:
-
-Suggested Analysis
-^^^^^^^^^^^^^^^^^^
-
-* :ref:`No anchor for Utils/Selector <no-anchor-for-utils-selector>`
-
-.. _add-no-scream-@-reverse-cobbler:
-
-Reverse Cobbler
-^^^^^^^^^^^^^^^
-
-* :ref:`remove-noscream-@`
-
-
-
-.. _add-no-scream-@-specs:
-
-Specs
-^^^^^
-
-+----------------+------------------------------------------------------------------+
-| Short Name     | Structures/AddNoScream                                           |
-+----------------+------------------------------------------------------------------+
-| Exakat version | 2.3.0                                                            |
-+----------------+------------------------------------------------------------------+
-| Available in   | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_ |
-+----------------+------------------------------------------------------------------+
-
-
-.. _structures-arraytobracket:
-
-.. _array-to-bracket:
-
-Array To Bracket
-________________
-This cobbler updates the array() syntax, and changes it to the bracket syntax.
-
-
-.. _array-to-bracket-before:
-
-Before
-^^^^^^
-.. code-block:: php
-
-   <?php
-   $a = array(1, 2, 3);
-   ?>
-
-.. _array-to-bracket-after:
-
-After
-^^^^^
-.. code-block:: php
-
-   <?php
-   $a = [1, 2, 3];
-   ?>
-
-
-
-.. _array-to-bracket-specs:
-
-Specs
-^^^^^
-
-+----------------+------------------------------------------------------------------+
-| Short Name     | Structures/ArrayToBracket                                        |
-+----------------+------------------------------------------------------------------+
-| Exakat version | 2.3.0                                                            |
-+----------------+------------------------------------------------------------------+
-| Available in   | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_ |
-+----------------+------------------------------------------------------------------+
-
-
-.. _structures-plusonetopre:
-
-.. _plus-one-to-pre-plusplus:
-
-Plus One To Pre Plusplus
-________________________
-Transforms a `+ 1` or `- 1` operation into a plus-plus (or minus-minus).
-
-.. _plus-one-to-pre-plusplus-before:
-
-Before
-^^^^^^
-.. code-block:: php
-
-   <?php
-       $a = $a + 1;
-   ?>
-
-.. _plus-one-to-pre-plusplus-after:
-
-After
-^^^^^
-.. code-block:: php
-
-   <?php
-       ++$a;
-   ?>
-
-
-
-.. _plus-one-to-pre-plusplus-specs:
-
-Specs
-^^^^^
-
-+----------------+-------------------------------------------------------------------------------------------------------------------------+
-| Short Name     | Structures/PlusOneToPre                                                                                                 |
-+----------------+-------------------------------------------------------------------------------------------------------------------------+
-| Exakat version | 2.3.0                                                                                                                   |
-+----------------+-------------------------------------------------------------------------------------------------------------------------+
-| Available in   | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
-+----------------+-------------------------------------------------------------------------------------------------------------------------+
-
-
-.. _structures-posttopre:
-
-.. _post-to-pre-plusplus:
-
-Post to Pre Plusplus
-____________________
-Transforms a post plus-plus (or minus-minus) operator, into a pre plus-plus (or minus-minus) operator.
-
-
-
-.. _post-to-pre-plusplus-before:
-
-Before
-^^^^^^
-.. code-block:: php
-
-   <?php 
-       $a++;
-   ?>
-
-.. _post-to-pre-plusplus-after:
-
-After
-^^^^^
-.. code-block:: php
-
-   <?php
-       ++$a;
-   ?>
-
-
-
-.. _post-to-pre-plusplus-specs:
-
-Specs
-^^^^^
-
-+----------------+-------------------------------------------------------------------------------------------------------------------------+
-| Short Name     | Structures/PostToPre                                                                                                    |
-+----------------+-------------------------------------------------------------------------------------------------------------------------+
-| Exakat version | 2.3.0                                                                                                                   |
-+----------------+-------------------------------------------------------------------------------------------------------------------------+
-| Available in   | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
-+----------------+-------------------------------------------------------------------------------------------------------------------------+
-
-
-.. _structures-removecode:
-
-.. _remove-instructions:
-
-Remove Instructions
-___________________
-Removes atomic instructions from the code. The whole expression is removed, and the slot is closed. 
-
-This cobbler works with element of a block, and not with part of larger expression (like remove a condition in a if/then, or remove the block expression of a while). 
-
-.. _remove-instructions-before:
-
-Before
-^^^^^^
-.. code-block:: php
-
-   <?php
-       $a = 1; // Code to be removed
-       foo(1); 
-       
-       do          // can remove the while expression
-           ++$a;   // removing the block of the do...wihle will generate an compilation error
-       while ($a < 10);
-       
-   ?>
-
-.. _remove-instructions-after:
-
-After
-^^^^^
-.. code-block:: php
-
-   <?php
-       foo(1); 
-   ?>
-
-.. _remove-instructions-suggested-analysis:
-
-Suggested Analysis
-^^^^^^^^^^^^^^^^^^
-
-* :ref:`useless-instructions`
-
-
-
-.. _remove-instructions-specs:
-
-Specs
-^^^^^
-
-+----------------+------------------------------------------------------------------+
-| Short Name     | Structures/RemoveCode                                            |
-+----------------+------------------------------------------------------------------+
-| Exakat version | 2.3.0                                                            |
-+----------------+------------------------------------------------------------------+
-| Available in   | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_ |
-+----------------+------------------------------------------------------------------+
-
-
-.. _structures-removenoscream:
-
-.. _remove-noscream-@:
-
-Remove Noscream @
-_________________
-Removes the @ operator.
-
-.. _remove-noscream-@-before:
-
-Before
-^^^^^^
-.. code-block:: php
-
-   <?php
-       @$a;
-   ?>
-
-.. _remove-noscream-@-after:
-
-After
-^^^^^
-.. code-block:: php
-
-   <?php
-       $a;
-   ?>
-
-.. _remove-noscream-@-suggested-analysis:
-
-Suggested Analysis
-^^^^^^^^^^^^^^^^^^
-
-* :ref:`@-operator`
-
-.. _remove-noscream-@-reverse-cobbler:
-
-Reverse Cobbler
-^^^^^^^^^^^^^^^
-
-* This cobbler is its own reverse. 
-
-
-
-.. _remove-noscream-@-specs:
-
-Specs
-^^^^^
-
-+----------------+-------------------------------------------------------------------------------------------------------------------------+
-| Short Name     | Structures/RemoveNoScream                                                                                               |
-+----------------+-------------------------------------------------------------------------------------------------------------------------+
-| Exakat version | 2.3.0                                                                                                                   |
-+----------------+-------------------------------------------------------------------------------------------------------------------------+
-| Available in   | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
-+----------------+-------------------------------------------------------------------------------------------------------------------------+
-
-
-.. _structures-removeparenthesis:
-
-.. _remove-parenthesis:
-
-Remove Parenthesis
-__________________
-Remove useless parenthesis from return expression.
-
-.. _remove-parenthesis-before:
-
-Before
-^^^^^^
-.. code-block:: php
-
-   <?php
-   function foo() {
-       return (1);
-   }
-   ?>
-
-.. _remove-parenthesis-after:
-
-After
-^^^^^
-.. code-block:: php
-
-   <?php
-   function foo() {
-       return 1;
-   }
-   ?>
-
-.. _remove-parenthesis-suggested-analysis:
-
-Suggested Analysis
-^^^^^^^^^^^^^^^^^^
-
-* :ref:`no-parenthesis-for-language-construct`
-
-
-
-.. _remove-parenthesis-specs:
-
-Specs
-^^^^^
-
-+----------------+------------------------------------------------------------------+
-| Short Name     | Structures/RemoveParenthesis                                     |
-+----------------+------------------------------------------------------------------+
-| Exakat version | 2.3.0                                                            |
-+----------------+------------------------------------------------------------------+
-| Available in   | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_ |
-+----------------+------------------------------------------------------------------+
-
-
-.. _structures-renamefunction:
-
-.. _rename-a-function:
-
-Rename A Function
-_________________
-Give a function with a new name. 
-
-This cobbler doesn't update the name of the functioncalls. 
-
-This cobbler may be used with functions, and methods. Functions may be identified with their fully qualified name (i.e. \path\foo) and methods with the extended fully qualified name (i.e. : \path\aClass::methodName). 
-
-
-
-.. _rename-a-function-before:
-
-Before
-^^^^^^
-.. code-block:: php
-
-   <?php
-       function foo() {
-       
-       }
-   ?>
-
-.. _rename-a-function-after:
-
-After
-^^^^^
-.. code-block:: php
-
-   <?php
-       function bar() {
-       
-       }
-   ?>
-
-
-.. _rename-a-function-name:
-
-Parameters
-^^^^^^^^^^
-
-+------+---------+--------+-------------------------------+
-| Name | Default | Type   | Description                   |
-+------+---------+--------+-------------------------------+
-| name | foo     | string | The new name of the function. |
-+------+---------+--------+-------------------------------+
-
-.. _rename-a-function-suggested-analysis:
-
-Suggested Analysis
-^^^^^^^^^^^^^^^^^^
-
-* :ref:`No anchor for Utils/Selector <no-anchor-for-utils-selector>`
-
-.. _rename-a-function-related-cobbler:
-
-Related Cobblers
-^^^^^^^^^^^^^^^^
-
-* :ref:`rename-functioncalls`
-
-.. _rename-a-function-reverse-cobbler:
-
-Reverse Cobbler
-^^^^^^^^^^^^^^^
-
-* This cobbler is its own reverse. 
-
-
-
-.. _rename-a-function-specs:
-
-Specs
-^^^^^
-
-+----------------+------------------------------------------------------------------+
-| Short Name     | Structures/RenameFunction                                        |
-+----------------+------------------------------------------------------------------+
-| Exakat version | 2.3.0                                                            |
-+----------------+------------------------------------------------------------------+
-| Available in   | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_ |
-+----------------+------------------------------------------------------------------+
-
-
-.. _structures-renamefunctioncall:
-
-.. _rename-functioncalls:
-
-Rename FunctionCalls
-____________________
-Rename a function call to another function.
-
-.. _rename-functioncalls-before:
-
-Before
-^^^^^^
-.. code-block:: php
-
-   <?php
-       foo(1, 2);
-   ?>
-
-.. _rename-functioncalls-after:
-
-After
-^^^^^
-.. code-block:: php
-
-   <?php
-       bar(1, 2);
-   ?>
-
-
-.. _rename-functioncalls-destination:
-
-Parameters
-^^^^^^^^^^
-
-+-------------+---------------+--------+-----------------------------------------------------------------------------------------+
-| Name        | Default       | Type   | Description                                                                             |
-+-------------+---------------+--------+-----------------------------------------------------------------------------------------+
-| origin      | strtolower    | string | The function name to rename. It will be use lower-cased, and as a fully qualified name. |
-+-------------+---------------+--------+-----------------------------------------------------------------------------------------+
-| destination | mb_strtolower | string | The function name to rename. It will be use as is. FQN is possible.                     |
-+-------------+---------------+--------+-----------------------------------------------------------------------------------------+
-
-.. _rename-functioncalls-suggested-analysis:
-
-Suggested Analysis
-^^^^^^^^^^^^^^^^^^
-
-* :ref:`No anchor for Utils/Selector <no-anchor-for-utils-selector>`
-
-.. _rename-functioncalls-related-cobbler:
-
-Related Cobblers
-^^^^^^^^^^^^^^^^
-
-* :ref:`rename-a-function`
-* :ref:`rename-methodcall`
-
-.. _rename-functioncalls-reverse-cobbler:
-
-Reverse Cobbler
-^^^^^^^^^^^^^^^
-
-* This cobbler is its own reverse. 
-
-
-
-.. _rename-functioncalls-specs:
-
-Specs
-^^^^^
-
-+----------------+------------------------------------------------------------------+
-| Short Name     | Structures/RenameFunctionCall                                    |
-+----------------+------------------------------------------------------------------+
-| Exakat version | 2.3.0                                                            |
-+----------------+------------------------------------------------------------------+
-| Available in   | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_ |
-+----------------+------------------------------------------------------------------+
-
-
-.. _structures-renamemethodcall:
-
-.. _rename-methodcall:
-
-Rename Methodcall
-_________________
-Rename a method, in a methodcall, with a new name. 
-
-This cobbler doesn't update the definition of the method. It works both on static and non-static methods. 
-
-
-
-.. _rename-methodcall-before:
-
-Before
-^^^^^^
-.. code-block:: php
-
-   <?php
-       $o->method();
-   ?>
-
-.. _rename-methodcall-after:
-
-After
-^^^^^
-.. code-block:: php
-
-   <?php
-       $o->newName();
-   ?>
-
-
-.. _rename-methodcall-destination:
-
-Parameters
-^^^^^^^^^^
-
-+-------------+---------------+--------+-----------------------------------------------------------------------------------------+
-| Name        | Default       | Type   | Description                                                                             |
-+-------------+---------------+--------+-----------------------------------------------------------------------------------------+
-| origin      | strtolower    | string | The function name to rename. It will be use lower-cased, and as a fully qualified name. |
-+-------------+---------------+--------+-----------------------------------------------------------------------------------------+
-| destination | mb_strtolower | string | The function name to rename. It will be use as is. FQN is possible.                     |
-+-------------+---------------+--------+-----------------------------------------------------------------------------------------+
-
-.. _rename-methodcall-suggested-analysis:
-
-Suggested Analysis
-^^^^^^^^^^^^^^^^^^
-
-* :ref:`No anchor for Utils/Selector <no-anchor-for-utils-selector>`
-
-.. _rename-methodcall-related-cobbler:
-
-Related Cobblers
-^^^^^^^^^^^^^^^^
-
-* :ref:`rename-functioncalls`
-* :ref:`rename-a-function`
-
-.. _rename-methodcall-reverse-cobbler:
-
-Reverse Cobbler
-^^^^^^^^^^^^^^^
-
-* :ref:`No anchor for Structures/RemoveMethodCall <no-anchor-for-structures-removemethodcall>`
-
-
-
-.. _rename-methodcall-specs:
-
-Specs
-^^^^^
-
-+----------------+------------------------------------------------------------------+
-| Short Name     | Structures/RenameMethodcall                                      |
-+----------------+------------------------------------------------------------------+
-| Exakat version | 2.3.0                                                            |
-+----------------+------------------------------------------------------------------+
-| Available in   | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_ |
-+----------------+------------------------------------------------------------------+
++----------------+---------------------------+
+| Short Name     | Structures/RemoveVariable |
++----------------+---------------------------+
+| Exakat version | 2.3.0                     |
++----------------+---------------------------+
+| Available in   |                           |
++----------------+---------------------------+
 
 
 .. _structures-switchtomatch:
@@ -1573,51 +1832,53 @@ Specs
 +----------------+------------------------------------------------------------------+
 
 
-.. _utils-multi:
+.. _namespaces-usealias:
 
-.. _:
+.. _use-available-alias:
 
+Use Available Alias
+___________________
+Apply systematically the use expression in the code.
 
-
-
-
-.. _-before:
+.. _use-available-alias-before:
 
 Before
 ^^^^^^
 .. code-block:: php
 
+   <?php
+       use A\B\C as D;
+       new A\B\C();
+   ?>
    
 
-.. _-after:
+.. _use-available-alias-after:
 
 After
 ^^^^^
 .. code-block:: php
 
-   
+   <?php
+       use A\B\C as D;
+       new D();
+   ?>
 
+.. _use-available-alias-suggested-analysis:
 
-.. _-configfile:
+Suggested Analysis
+^^^^^^^^^^^^^^^^^^
 
-Parameters
-^^^^^^^^^^
-
-+------------+---------+--------+---------------------------------------+
-| Name       | Default | Type   | Description                           |
-+------------+---------+--------+---------------------------------------+
-| configFile |         | string | The .yaml file in the project folder. |
-+------------+---------+--------+---------------------------------------+
+* :ref:`could-use-alias`
 
 
 
-.. _-specs:
+.. _use-available-alias-specs:
 
 Specs
 ^^^^^
 
 +----------------+------------------------------------------------------------------+
-| Short Name     | Utils/Multi                                                      |
+| Short Name     | Namespaces/UseAlias                                              |
 +----------------+------------------------------------------------------------------+
 | Exakat version | 2.3.0                                                            |
 +----------------+------------------------------------------------------------------+
@@ -1625,188 +1886,17 @@ Specs
 +----------------+------------------------------------------------------------------+
 
 
-.. _classes-removemethod:
+.. _classes-vartopublic:
 
-.. _name:
+.. _var-to-public:
 
-name
-____
-Fully qualified name of the method to remove. Only one allowed.
+Var To Public
+_____________
+Replace the var syntax with public keyword. 
 
-.. _name-before:
+It is also possible to replace it with protected or private, with the parameter. 
 
-Before
-^^^^^^
-.. code-block:: php
-
-   <?php
-   
-   // removing method \x::method1 
-   class x {
-       function method1() {}
-       function method2() {}
-   }
-   
-   ?>
-
-.. _name-after:
-
-After
-^^^^^
-.. code-block:: php
-
-   <?php
-   
-   // removed method \x::method1 
-   class x {
-       function method2() {}
-   }
-   
-   ?>
-
-
-
-.. _name-specs:
-
-Specs
-^^^^^
-
-+----------------+----------------------+
-| Short Name     | Classes/RemoveMethod |
-+----------------+----------------------+
-| Exakat version | 2.3.0                |
-+----------------+----------------------+
-| Available in   |                      |
-+----------------+----------------------+
-
-
-.. _attributes-removeattribute:
-
-.. _remove-the-attribute:
-
-Remove The Attribute
-____________________
-Remove attributes from all supporting structures.
-
-Attributes are located on functions, classes, class constants, properties, methods and arguments.
-
-
-.. _remove-the-attribute-before:
-
-Before
-^^^^^^
-.. code-block:: php
-
-   <?php
-   
-   #[Attribute] 
-   function foo(#[AttributeArgument] $arg) {
-   
-   }
-   ?>
-
-.. _remove-the-attribute-after:
-
-After
-^^^^^
-.. code-block:: php
-
-   <?php
-   
-   
-   function foo($arg) {
-   
-   }
-   ?>
-
-
-
-.. _remove-the-attribute-specs:
-
-Specs
-^^^^^
-
-+----------------+----------------------------+
-| Short Name     | Attributes/RemoveAttribute |
-+----------------+----------------------------+
-| Exakat version | 2.3.0                      |
-+----------------+----------------------------+
-| Available in   |                            |
-+----------------+----------------------------+
-
-
-.. _namespaces-removeuse:
-
-.. _remove-unused-use:
-
-Remove Unused Use
-_________________
-Removes the unused use expression from the top of the file. Groupuse are not processed yet.
-
-.. _remove-unused-use-before:
-
-Before
-^^^^^^
-.. code-block:: php
-
-   <?php
-   
-   use a\b;
-   use c\d;
-   
-   new b();
-   
-   ?>
-
-.. _remove-unused-use-after:
-
-After
-^^^^^
-.. code-block:: php
-
-   <?php
-   
-   use a\b;
-   
-   new b();
-   
-   ?>
-
-.. _remove-unused-use-suggested-analysis:
-
-Suggested Analysis
-^^^^^^^^^^^^^^^^^^
-
-* :ref:`unused-use`
-
-
-
-.. _remove-unused-use-specs:
-
-Specs
-^^^^^
-
-+----------------+----------------------+
-| Short Name     | Namespaces/RemoveUse |
-+----------------+----------------------+
-| Exakat version | 2.3.0                |
-+----------------+----------------------+
-| Available in   |                      |
-+----------------+----------------------+
-
-
-.. _classes-removereadonly:
-
-.. _remove-readonly-option:
-
-Remove Readonly Option
-______________________
-Readonly is a property option. This cobbler removes it. 
-
-The readonly keyword is removed from property definitions, and from promoted properties.
-
-
-.. _remove-readonly-option-before:
+.. _var-to-public-before:
 
 Before
 ^^^^^^
@@ -1815,12 +1905,11 @@ Before
    <?php
    
    class x {
-       private readonly string $x;
+       var $y = 1;
    }
-   
    ?>
 
-.. _remove-readonly-option-after:
+.. _var-to-public-after:
 
 After
 ^^^^^
@@ -1829,130 +1918,43 @@ After
    <?php
    
    class x {
-       private string $x;
-   }
-   
-   ?>
-
-.. _remove-readonly-option-suggested-analysis:
-
-Suggested Analysis
-^^^^^^^^^^^^^^^^^^
-
-* :ref:`readonly-usage`
-
-
-
-.. _remove-readonly-option-specs:
-
-Specs
-^^^^^
-
-+----------------+------------------------+
-| Short Name     | Classes/RemoveReadonly |
-+----------------+------------------------+
-| Exakat version | 2.3.0                  |
-+----------------+------------------------+
-| Available in   |                        |
-+----------------+------------------------+
-
-
-.. _classes-removevisibility:
-
-.. _remove-visibility:
-
-Remove Visibility
-_________________
-Removes the visibility on constants, properties and methods. 
-
-For properties, the visibility is reset to public. 
-
-.. _remove-visibility-before:
-
-Before
-^^^^^^
-.. code-block:: php
-
-   <?php
-   
-   class x {
-       private const x = 1;
-       private $p = 2;
-       private function foo() {}
-       private function __construct() {}
-   }
-   ?>
-
-.. _remove-visibility-after:
-
-After
-^^^^^
-.. code-block:: php
-
-   <?php
-   
-   class x {
-       const x = 1;
-       public $p = 2;
-       function foo() {}
-       function __construct() {}
+       public $y = 1;
    }
    ?>
 
 
+.. _var-to-public-var\_to\_visibility:
 
-.. _remove-visibility-specs:
+Parameters
+^^^^^^^^^^
 
-Specs
-^^^^^
++-------------------+---------+--------+--------------------------------------------------------------------------------------+
+| Name              | Default | Type   | Description                                                                          |
++-------------------+---------+--------+--------------------------------------------------------------------------------------+
+| var_to_visibility | public  | string | The destination visibility to be used. May be one of: public, protected or private.  |
++-------------------+---------+--------+--------------------------------------------------------------------------------------+
 
-+----------------+--------------------------+
-| Short Name     | Classes/RemoveVisibility |
-+----------------+--------------------------+
-| Exakat version | 2.3.0                    |
-+----------------+--------------------------+
-| Available in   |                          |
-+----------------+--------------------------+
+.. _var-to-public-related-cobbler:
 
+Related Cobblers
+^^^^^^^^^^^^^^^^
 
-.. _structures-removevariable:
-
-.. _structures-removevariable:
-
-Structures/RemoveVariable
-_________________________
-
-
-.. _structures-removevariable-before:
-
-Before
-^^^^^^
-.. code-block:: php
-
-   
-
-.. _structures-removevariable-after:
-
-After
-^^^^^
-.. code-block:: php
-
-   
+* :ref:`set-typehints`
 
 
 
-.. _structures-removevariable-specs:
+.. _var-to-public-specs:
 
 Specs
 ^^^^^
 
-+----------------+---------------------------+
-| Short Name     | Structures/RemoveVariable |
-+----------------+---------------------------+
-| Exakat version | 2.3.0                     |
-+----------------+---------------------------+
-| Available in   |                           |
-+----------------+---------------------------+
++----------------+------------------------------------------------------------------+
+| Short Name     | Classes/VarToPublic                                              |
++----------------+------------------------------------------------------------------+
+| Exakat version | 2.3.0                                                            |
++----------------+------------------------------------------------------------------+
+| Available in   | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_ |
++----------------+------------------------------------------------------------------+
 
 
 .. _structures-arraykeysspeedup:
@@ -2017,15 +2019,15 @@ Specs
 +----------------+-----------------------------+
 
 
-.. _classes-addfinalclass:
+.. _classes-removemethod:
 
-.. _add-final-class:
+.. _name:
 
-Add Final Class
-_______________
-Adds ``final`` keyword to classes that can suppport it.
+name
+____
+Fully qualified name of the method to remove. Only one allowed.
 
-.. _add-final-class-before:
+.. _name-before:
 
 Before
 ^^^^^^
@@ -2033,12 +2035,15 @@ Before
 
    <?php
    
+   // removing method \x::method1 
    class x {
+       function method1() {}
+       function method2() {}
    }
    
    ?>
 
-.. _add-final-class-after:
+.. _name-after:
 
 After
 ^^^^^
@@ -2046,32 +2051,27 @@ After
 
    <?php
    
-   final class x {
+   // removed method \x::method1 
+   class x {
+       function method2() {}
    }
    
    ?>
 
-.. _add-final-class-related-cobbler:
-
-Related Cobblers
-^^^^^^^^^^^^^^^^
-
-* :ref:`No anchor for Classes/AddFinalConstant <no-anchor-for-classes-addfinalconstant>`
 
 
-
-.. _add-final-class-specs:
+.. _name-specs:
 
 Specs
 ^^^^^
 
-+----------------+-----------------------+
-| Short Name     | Classes/AddFinalClass |
-+----------------+-----------------------+
-| Exakat version | 2.3.0                 |
-+----------------+-----------------------+
-| Available in   |                       |
-+----------------+-----------------------+
++----------------+----------------------+
+| Short Name     | Classes/RemoveMethod |
++----------------+----------------------+
+| Exakat version | 2.3.0                |
++----------------+----------------------+
+| Available in   |                      |
++----------------+----------------------+
 
 
 

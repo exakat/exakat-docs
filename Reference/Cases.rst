@@ -14,6 +14,358 @@ List of real code Cases
 ------------------------------
 
 
+.. _case-$this-belongs-to-classes-or-traits:
+
+$this Belongs To Classes Or Traits
+##################################
+
+.. _case-openemr-classes-thisisforclasses:
+
+OpenEMR
++++++++
+
+
+:ref:`$this-belongs-to-classes-or-traits`, in ccr/display.php:24. 
+
+$this is used to call the document_upload_download_log() method, although this piece of code is not part of a class, nor is included in a class.
+
+.. code-block:: php
+   
+    <?php 
+    require_once(dirname(__FILE__) . "/../interface/globals.php");
+    
+    $type = $_GET['type'];
+    $document_id = $_GET['doc_id'];
+    $d = new Document($document_id);
+    $url =  $d->get_url();
+    $storagemethod = $d->get_storagemethod();
+    $couch_docid = $d->get_couch_docid();
+    $couch_revid = $d->get_couch_revid();
+    
+    if ($couch_docid && $couch_revid) {
+        $couch = new CouchDB();
+        $data = array($GLOBALS['couchdb_dbase'],$couch_docid);
+        $resp = $couch->retrieve_doc($data);
+        $xml = base64_decode($resp->data);
+        if ($content=='' && $GLOBALS['couchdb_log']==1) {
+            $log_content = date('Y-m-d H:i:s')." ==> Retrieving document\r\n";
+            $log_content = date('Y-m-d H:i:s')." ==> URL: ".$url."\r\n";
+            $log_content .= date('Y-m-d H:i:s')." ==> CouchDB Document Id: ".$couch_docid."\r\n";
+            $log_content .= date('Y-m-d H:i:s')." ==> CouchDB Revision Id: ".$couch_revid."\r\n";
+            $log_content .= date('Y-m-d H:i:s')." ==> Failed to fetch document content from CouchDB.\r\n";
+            //$log_content .= date('Y-m-d H:i:s')." ==> Will try to download file from HardDisk if exists.\r\n\r\n";
+            $this->document_upload_download_log($d->get_foreign_id(), $log_content);
+            die(xlt("File retrieval from CouchDB failed"));
+        }
+
+
+.. _case-**-for-exponent:
+
+** For Exponent
+###############
+
+.. _case-traq-php-newexponent:
+
+Traq
+++++
+
+
+:ref:`**-for-exponent`, in src/views/layouts/_footer.phtm:5. 
+
+pow(1024, 2) could be (1023 ** 2), to convert bytes into Mb. 
+
+.. code-block:: php
+   
+    <?=round((microtime(true) - START_TIME), 2); ?>s, <?php echo round((memory_get_peak_usage() - START_MEM) / pow(1024, 2), 3)?>mb
+
+
+.. _case-teampass-php-newexponent:
+
+TeamPass
+++++++++
+
+
+:ref:`**-for-exponent`, in includes/libraries/Authentication/phpseclib/Math/BigInteger.php:286. 
+
+pow(2, 62) could also be hard coded with 0x4000000000000000. 
+
+.. code-block:: php
+   
+    pow(2, 62)
+
+
+.. _case-@-operator:
+
+@ Operator
+##########
+
+.. _case-phinx-structures-noscream:
+
+Phinx
++++++
+
+
+:ref:`@-operator`, in src/Phinx/Util/Util.php:239. 
+
+fopen() may be tested for existence, readability before using it. Although, it actually emits some errors on Windows, with network volumes.
+
+.. code-block:: php
+   
+    $isReadable = @\fopen($filePath, 'r') !== false;
+    
+            if (!$filePath || !$isReadable) {
+                throw new \Exception(sprintf(Cannot open file %s \n, $filename));
+            }
+
+
+.. _case-phpipam-structures-noscream:
+
+PhpIPAM
++++++++
+
+
+:ref:`@-operator`, in functions/classes/class.Log.php:322. 
+
+Variable and index existence should always be tested with isset() : it is faster than using ``@``.
+
+.. code-block:: php
+   
+    $_SESSION['ipamusername']
+
+
+.. _case-abstract-or-implements:
+
+Abstract Or Implements
+######################
+
+.. _case-zurmo-classes-abstractorimplements:
+
+Zurmo
++++++
+
+
+:ref:`abstract-or-implements`, in app/protected/extensions/zurmoinc/framework/views/MassEditProgressView.php:30. 
+
+The class MassEditProgressView extends ProgressView, which is an abstract class. That class defines one abstract method : abstract protected function headerLabelPrefixContent(). Yet, the class MassEditProgressView doesn't implements this method. This means that the class can't be instatiated, and indeed, it isn't. The class MassEditProgressView is subclassed, by the class MarketingListMembersMassSubscribeProgressView, which implements the method headerLabelPrefixContent(). As such, MassEditProgressView should be marked abstract, so as to prevent any instantiation attempt. 
+
+.. code-block:: php
+   
+    class MassEditProgressView extends ProgressView { 
+        /**/ 
+    }
+
+
+.. _case-add-default-value:
+
+Add Default Value
+#################
+
+.. _case-zurmo-functions-adddefaultvalue:
+
+Zurmo
++++++
+
+
+:ref:`add-default-value`, in wp-admin/includes/misc.php:74. 
+
+Default values may be a literal (1, 'abc', ...), or a constant : global or class. Here, MissionsListConfigurationForm::LIST_TYPE_AVAILABLE may be used directly in the signature of the method
+
+.. code-block:: php
+   
+    public function getMetadataFilteredByOption($option)
+            {
+                if ($option == null)
+                {
+                    $option = MissionsListConfigurationForm::LIST_TYPE_AVAILABLE;
+                }
+
+
+.. _case-typo3-functions-adddefaultvalue:
+
+Typo3
++++++
+
+
+:ref:`add-default-value`, in typo3/sysext/indexed_search/Classes/FileContentParser.php:821. 
+
+$extension could get a default value to handle default situations : for example, a file is htm format by default, unless better known. Also, the if/then structure could get a 'else' clause, to handle unknown situations : those are situations where the extension is provided but not known, in particular when the icon is missing in the storage folder.
+
+.. code-block:: php
+   
+    public function getIcon($extension)
+        {
+            if ($extension === 'htm') {
+                $extension = 'html';
+            } elseif ($extension === 'jpeg') {
+                $extension = 'jpg';
+            }
+            return 'EXT:indexed_search/Resources/Public/Icons/FileTypes/' . $extension . '.gif';
+        }
+
+
+.. _case-adding-zero:
+
+Adding Zero
+###########
+
+.. _case-thelia-structures-addzero:
+
+Thelia
+++++++
+
+
+:ref:`adding-zero`, in core/lib/Thelia/Model/Map/ProfileResourceTableMap.php:250. 
+
+This return statement is doing quite a lot, including a buried '0 + $offset'. This call is probably an echo to '1 + $offset', which is a little later in the expression.
+
+.. code-block:: php
+   
+    return serialize(array((string) $row[TableMap::TYPE_NUM == $indexType ? 0 + $offset : static::translateFieldName('ProfileId', TableMap::TYPE_PHPNAME, $indexType)], (string) $row[TableMap::TYPE_NUM == $indexType ? 1 + $offset : static::translateFieldName('ResourceId', TableMap::TYPE_PHPNAME, $indexType)]));
+
+
+.. _case-openemr-structures-addzero:
+
+OpenEMR
++++++++
+
+
+:ref:`adding-zero`, in interface/forms/fee_sheet/new.php:466:534. 
+
+$main_provid is filtered as an integer. $main_supid is then filtered twice : one with the sufficent (int) and then, added with 0.
+
+.. code-block:: php
+   
+    if (!$alertmsg && ($_POST['bn_save'] || $_POST['bn_save_close'] || $_POST['bn_save_stay'])) {
+        $main_provid = 0 + $_POST['ProviderID'];
+        $main_supid  = 0 + (int)$_POST['SupervisorID'];
+        //.....
+
+
+.. _case-already-parents-interface:
+
+Already Parents Interface
+#########################
+
+.. _case-wordpress-interfaces-alreadyparentsinterface:
+
+WordPress
++++++++++
+
+
+:ref:`already-parents-interface`, in src/Phinx/Db/Adapter/AbstractAdapter.php:41. 
+
+SqlServerAdapter extends PdoAdapter, PdoAdapter extends AbstractAdapter. The first and the last both implements AdapterInterface. Only one is needed.
+
+.. code-block:: php
+   
+    /**
+     * Base Abstract Database Adapter.
+     */
+    abstract class AbstractAdapter implements AdapterInterface
+    {
+    
+    /// In the src/src/Phinx/Db/Adapter/SqlServerAdapter.php, line 45
+    /**
+     * Phinx SqlServer Adapter.
+     *
+     */
+    class SqlServerAdapter extends PdoAdapter implements AdapterInterface
+    {
+
+
+.. _case-thelia-interfaces-alreadyparentsinterface:
+
+Thelia
+++++++
+
+
+:ref:`already-parents-interface`, in core/lib/Thelia/Core/Template/Loop/BaseSpecificModule.php:35. 
+
+PropelSearchLoopInterface is implemented by both BaseSpecificModule and Payment
+
+.. code-block:: php
+   
+    abstract class BaseSpecificModule extends BaseI18nLoop implements PropelSearchLoopInterface
+    
+    /* in file  core/lib/Thelia/Core/Template/Loop/Payment.php, line 28 */
+    
+    class Payment extends BaseSpecificModule implements PropelSearchLoopInterface
+
+
+.. _case-altering-foreach-without-reference:
+
+Altering Foreach Without Reference
+##################################
+
+.. _case-contao-structures-alteringforeachwithoutreference:
+
+Contao
+++++++
+
+
+:ref:`altering-foreach-without-reference`, in core-bundle/src/Resources/contao/classes/Theme.php:613. 
+
+$tmp[$kk] is &$vv.
+
+.. code-block:: php
+   
+    foreach ($tmp as $kk=>$vv)
+    								{
+    									// Do not use the FilesModel here – tables are locked!
+    									$objFile = $this->Database->prepare(SELECT uuid FROM tl_files WHERE path=?)
+    															  ->limit(1)
+    															  ->execute($this->customizeUploadPath($vv));
+    
+    									$tmp[$kk] = $objFile->uuid;
+    								}
+
+
+.. _case-wordpress-structures-alteringforeachwithoutreference:
+
+WordPress
++++++++++
+
+
+:ref:`altering-foreach-without-reference`, in wp-admin/includes/misc.php:74. 
+
+$ids[$index] is &$rrid. 
+
+.. code-block:: php
+   
+    foreach($ids as $index => $rrid)
+                    {
+                        if($rrid == $this->Id)
+                        {
+                            $ids[$index] = $_id;
+                            $write = true;
+                            break;
+                        }
+                    }
+
+
+.. _case-always-positive-comparison:
+
+Always Positive Comparison
+##########################
+
+.. _case-magento-structures-nevernegative:
+
+Magento
++++++++
+
+
+:ref:`always-positive-comparison`, in app/code/core/Mage/Dataflow/Model/Profile.php:85. 
+
+strlen(($actiosXML) will never be negative, and hence, is always false. This exception is never thrown. 
+
+.. code-block:: php
+   
+    if (strlen($actionsXML) < 0 &&
+            @simplexml_load_string('<data>' . $actionsXML . '</data>', null, LIBXML_NOERROR) === false) {
+                Mage::throwException(Mage::helper('dataflow')->__("Actions XML is not valid."));
+            }
+
+
 .. _case-ambiguous-array-index:
 
 Ambiguous Array Index
@@ -61,222 +413,6 @@ True is turned into 1 (integer), and false is turned into 0 (integer).
                     }
 
 
-.. _case-getting-last-element:
-
-Getting Last Element
-####################
-
-.. _case-thelia-arrays-gettinglastelement:
-
-Thelia
-++++++
-
-
-:ref:`getting-last-element`, in /core/lib/Thelia/Core/Security/AccessManager.php:61. 
-
-This code extract the last element with array_slice (position -1) as an array, then get the element in the array with current().
-
-.. code-block:: php
-   
-    current(\array_slice(self::$accessPows, -1, 1, true))
-
-
-.. _case-multiple-index-definition:
-
-Multiple Index Definition
-#########################
-
-.. _case-magento-arrays-multipleidenticalkeys:
-
-Magento
-+++++++
-
-
-:ref:`multiple-index-definition`, in app/code/core/Mage/Adminhtml/Block/System/Convert/Gui/Grid.php:80. 
-
-'type' is defined twice. The first one, 'options' is overwritten.
-
-.. code-block:: php
-   
-    $this->addColumn('store_id', array(
-                'header'    => Mage::helper('adminhtml')->__('Store'),
-                'type'      => 'options',
-                'align'     => 'center',
-                'index'     => 'store_id',
-                'type'      => 'store',
-                'width'     => '200px',
-            ));
-
-
-.. _case-mediawiki-arrays-multipleidenticalkeys:
-
-MediaWiki
-+++++++++
-
-
-:ref:`multiple-index-definition`, in resources/Resources.php:223. 
-
-'target' is repeated, though with the same values. This is just dead code.
-
-.. code-block:: php
-   
-    // inside a big array
-    	'jquery.getAttrs' => [
-    		'targets' => [ 'desktop', 'mobile' ],
-    		'scripts' => 'resources/src/jquery/jquery.getAttrs.js',
-    		'targets' => [ 'desktop', 'mobile' ],
-    	],
-        // big array continues
-
-
-.. _case-non-constant-index-in-array:
-
-Non-constant Index In Array
-###########################
-
-.. _case-dolibarr-arrays-nonconstantarray:
-
-Dolibarr
-++++++++
-
-
-:ref:`non-constant-index-in-array`, in htdocs/includes/OAuth/Common/Storage/DoliStorage.php:245. 
-
-The `state` constant in the `$result` array is coming from the SQL query. There is no need to make this a constant : making it a string will remove some warnings in the logs.
-
-.. code-block:: php
-   
-    public function hasAuthorizationState($service)
-        {
-            // get state from db
-            dol_syslog("get state from db");
-            $sql = "SELECT state FROM ".MAIN_DB_PREFIX."oauth_state";
-            $sql.= " WHERE service='".$this->db->escape($service)."'";
-            $resql = $this->db->query($sql);
-            $result = $this->db->fetch_array($resql);
-            $states[$service] = $result[state];
-            $this->states[$service] = $states[$service];
-    
-            return is_array($states)
-            && isset($states[$service])
-            && null !== $states[$service];
-        }
-
-
-.. _case-zencart-arrays-nonconstantarray:
-
-Zencart
-+++++++
-
-
-:ref:`non-constant-index-in-array`, in app/library/zencart/Services/src/LeadLanguagesRoutes.php:112. 
-
-The `fields` constant in the `$tableEntry` which holds a list of tables. It seems to be a SQL result, but it is conveniently abstracted with `$this->listener->getTableList()`, so we can't be sure.
-
-.. code-block:: php
-   
-    public function updateLanguageTables($insertId)
-        {
-            $tableList = $this->listener->getTableList();
-            if (count($tableList) == 0) {
-                return;
-            }
-            foreach ($tableList as $tableEntry) {
-                $languageKeyField = issetorArray($tableEntry, 'languageKeyField', 'language_id');
-                $sql = " INSERT IGNORE INTO :table: (";
-                $sql = $this->dbConn->bindVars($sql, ':table:', $tableEntry ['table'], 'noquotestring');
-                $sql .= $languageKeyField. ", ";
-                $fieldNames = "";
-                foreach ($tableEntry[fields] as $fieldName => $fieldType) {
-                    $fieldNames .= $fieldName . ", ";
-                }
-
-
-.. _case-randomly-sorted-arrays:
-
-Randomly Sorted Arrays
-######################
-
-.. _case-contao-arrays-randomlysortedliterals:
-
-Contao
-++++++
-
-
-:ref:`randomly-sorted-arrays`, in system/modules/core/dca/tl_module.php:259. 
-
-The array array('maxlength', 'decodeEntities', 'tl_class') is configured multiple times in this file. Most of them is in the second form, but some are in the first form. (Multiple occurrences in this file). 
-
-.. code-block:: php
-   
-    array('maxlength' => 255, 'decodeEntities' => true, 'tl_class' => 'w50') // Line 246
-    array('decodeEntities' => true, 'maxlength' => 255, 'tl_class' => 'w50'); // ligne 378
-
-
-.. _case-vanilla-arrays-randomlysortedliterals:
-
-Vanilla
-+++++++
-
-
-:ref:`randomly-sorted-arrays`, in applications/dashboard/models/class.activitymodel.php:308. 
-
-'Photo' moved from last to second. This array is used with a 'Join' key, and is the base for a SQL table JOIN. As such, order is important. If this is the case, it seems unusual that the order is not the same for a join using the same tables. If it is not the case, arrays may be reordered. 
-
-.. code-block:: php
-   
-    /* L 305 */        Gdn::userModel()->joinUsers(
-                $result->resultArray(),
-                ['ActivityUserID', 'RegardingUserID'],
-                ['Join' => ['Name', 'Email', 'Gender', 'Photo']]
-            );
-    
-    // L 385
-            Gdn::userModel()->joinUsers($result, ['ActivityUserID', 'RegardingUserID'], ['Join' => ['Name', 'Photo', 'Email', 'Gender']]);
-
-
-.. _case-slice-arrays-first:
-
-Slice Arrays First
-##################
-
-.. _case-wordpress-arrays-slicefirst:
-
-WordPress
-+++++++++
-
-
-:ref:`slice-arrays-first`, in modules/InboundEmail/InboundEmail.php:1080. 
-
-Instead of reading ALL the keys, and then, keeping only the first fifty, why not read the 50 first items from the array, and then extract the keys?
-
-.. code-block:: php
-   
-    $results = array_slice(array_keys($diff), 0 ,50);
-
-
-.. _case-abstract-or-implements:
-
-Abstract Or Implements
-######################
-
-.. _case-zurmo-classes-abstractorimplements:
-
-Zurmo
-+++++
-
-
-:ref:`abstract-or-implements`, in app/protected/extensions/zurmoinc/framework/views/MassEditProgressView.php:30. 
-
-The class MassEditProgressView extends ProgressView, which is an abstract class. That class defines one abstract method : abstract protected function headerLabelPrefixContent(). Yet, the class MassEditProgressView doesn't implements this method. This means that the class can't be instatiated, and indeed, it isn't. The class MassEditProgressView is subclassed, by the class MarketingListMembersMassSubscribeProgressView, which implements the method headerLabelPrefixContent(). As such, MassEditProgressView should be marked abstract, so as to prevent any instantiation attempt. 
-
-.. code-block:: php
-   
-    class MassEditProgressView extends ProgressView { 
-        /**/ 
-    }
-
-
 .. _case-ambiguous-visibilities:
 
 Ambiguous Visibilities
@@ -314,492 +450,54 @@ $allowedNewTables is declared once  protected and once public. $allowedNewTables
         public $allowedNewTables = [];
 
 
-.. _case-avoid-optional-properties:
+.. _case-argument-should-be-typehinted:
 
-Avoid Optional Properties
-#########################
+Argument Should Be Typehinted
+#############################
 
-.. _case-churchcrm-classes-avoidoptionalproperties:
+.. _case-dolphin-functions-shouldbetypehinted:
 
-ChurchCRM
-+++++++++
-
-
-:ref:`avoid-optional-properties`, in src/ChurchCRM/BackupManager.php:401. 
-
-Backuptype is initialized with null, and yet, it isn't checked for any invalid valid values, in particular in switch() structures.
-
-.. code-block:: php
-   
-    // BackupType is initialized with null
-      class JobBase
-      {
-          /**
-            *
-            * @var BackupType
-            */
-          protected $BackupType;
-    
-    // In the child class BackupJob, BackupType may be of any type      
-      class BackupJob extends JobBase
-      {
-          /**
-           *
-           * @param String $BaseName
-           * @param BackupType $BackupType
-           * @param Boolean $IncludeExtraneousFiles
-           */
-          public function __construct($BaseName, $BackupType, $IncludeExtraneousFiles, $EncryptBackup, $BackupPassword)
-          {
-              $this->BackupType = $BackupType;
-    
-    
-    // Later, Backtype is not checked with all values : 
-              try {
-                  $this->DecryptBackup();
-                  switch ($this->BackupType) {
-                  case BackupType::SQL:
-                    $this->RestoreSQLBackup($this->RestoreFile);
-                    break;
-                  case BackupType::GZSQL:
-                    $this->RestoreGZSQL();
-                    break;
-                  case BackupType::FullBackup:
-                    $this->RestoreFullBackup();
-                    break;
-    // Note  : no default case here
-                }
-
-
-.. _case-dolibarr-classes-avoidoptionalproperties:
-
-Dolibarr
-++++++++
-
-
-:ref:`avoid-optional-properties`, in htdocs/product/stock/class/productlot.class.php:149. 
-
-$this->fk_product is tested for value 11 times while being used in this class. All detected situations were checking the presence of the property before usage.
-
-.. code-block:: php
-   
-    class Productlot extends CommonObject
-    {
-    // more code
-    	/**
-         * @var int ID
-         */
-    	public $fk_product;
-    
-    // Checked usage of fk_product
-    // line 341
-    		$sql .= ' fk_product = '.(isset($this->fk_product) ? $this->fk_product : "null").',';
-
-
-.. _case-can't-instantiate-class:
-
-Can't Instantiate Class
-#######################
-
-.. _case-wordpress-classes-cantinstantiateclass:
-
-WordPress
-+++++++++
-
-
-:ref:`can't-instantiate-class`, in wp-admin/includes/misc.php:74. 
-
-This code actually loads the file, join it, then split it again. file() would be sufficient. 
-
-.. code-block:: php
-   
-    $markerdata = explode( "\n", implode( '', file( $filename ) ) );
-
-
-.. _case-class,-interface,-enum-or-trait-with-identical-names:
-
-Class, Interface, Enum Or Trait With Identical Names
-####################################################
-
-.. _case-shopware-classes-citsamename:
-
-shopware
-++++++++
-
-
-:ref:`class,-interface,-enum-or-trait-with-identical-names`, in engine/Shopware/Components/Form/Interfaces/Element.php:30. 
-
-Most Element classes extends ModelEntity, which is an abstract class. There is also an interface, called Element, for forms. And, last, one of the class Element extends JsonSerializable, which is a PHP native interface. Namespaces are definitely crucial to understand which Element is which. 
-
-.. code-block:: php
-   
-    interface Element { /**/ } // in engine/Shopware/Components/Form/Interfaces/Element.php:30
-    
-    class Element implements \JsonSerializable { /**/ } 	// in engine/Shopware/Bundle/EmotionBundle/Struct/Element.php:29
-    
-    class Element extends ModelEntity { /**/ } 	// in /engine/Shopware/Models/Document/Element.php:37
-
-
-.. _case-nextcloud-classes-citsamename:
-
-NextCloud
-+++++++++
-
-
-:ref:`class,-interface,-enum-or-trait-with-identical-names`, in lib/private/Files/Storage/Storage.php:33. 
-
-Interface Storage extends another Storage class. Here, the fully qualified name is used, so we can understand which storage is which at read time : a 'use' alias would make this line more confusing.
-
-.. code-block:: php
-   
-    interface Storage extends \OCP\Files\Storage { /**/ }
-
-
-.. _case-could-be-abstract-class:
-
-Could Be Abstract Class
-#######################
-
-.. _case-edusoho-classes-couldbeabstractclass:
-
-Edusoho
+Dolphin
 +++++++
 
 
-:ref:`could-be-abstract-class`, in src/Biz/Task/Strategy/BaseStrategy.php:14. 
+:ref:`argument-should-be-typehinted`, in Dolphin-v.7.3.5/plugins/intervention-image/Intervention/Image/Gd/Commands/WidenCommand.php:20. 
 
-BaseStrategy is extended by NormalStrategy, DefaultStrategy (Not shown here), but it is not instantiated itself.
-
-.. code-block:: php
-   
-    class BaseStrategy { 
-        // Class code
-    }
-
-
-.. _case-shopware-classes-couldbeabstractclass:
-
-shopware
-++++++++
-
-
-:ref:`could-be-abstract-class`, in engine/Shopware/Plugins/Default/Core/PaymentMethods/Components/GenericPaymentMethod.php:31. 
-
-A 'Generic' class sounds like a class that could be 'abstract'. 
+This closures make immediate use of the $constraint argument, and calls its method aspectRatio. No check is made on this argument, and it may easily be mistaken with another class, or a null. Adding a typehint here will ensure a more verbose development error and help detect misuse of the closure. 
 
 .. code-block:: php
    
-    class GenericPaymentMethod extends BasePaymentMethod { 
-        // More class code
-    }
+    $this->arguments[2] = function ($constraint) use ($additionalConstraints) {
+                $constraint->aspectRatio();
+                if(is_callable($additionalConstraints)) 
+                    $additionalConstraints($constraint);
+            };
 
 
-.. _case-could-be-private-class-constant:
+.. _case-mautic-functions-shouldbetypehinted:
 
-Could Be Private Class Constant
-###############################
-
-.. _case-phinx-classes-couldbeprivateconstante:
-
-Phinx
-+++++
-
-
-:ref:`could-be-private-class-constant`, in src/Phinx/Db/Adapter/MysqlAdapter.php:46. 
-
-The code includes a fair number of class constants. The one listed here are only used to define TEXT columns in MySQL, with their maximal size. Since they are only intented to be used by the MySQL driver, they may be private.
-
-.. code-block:: php
-   
-    class MysqlAdapter extends PdoAdapter implements AdapterInterface
-    {
-    
-    //.....
-        const TEXT_SMALL   = 255;
-        const TEXT_REGULAR = 65535;
-        const TEXT_MEDIUM  = 16777215;
-        const TEXT_LONG    = 4294967295;
-
-
-.. _case-method-could-be-static:
-
-Method Could Be Static
-######################
-
-.. _case-fuelcms-classes-couldbestatic:
-
-FuelCMS
-+++++++
-
-
-:ref:`method-could-be-static`, in fuel/modules/fuel/models/Fuel_assets_model.php:240. 
-
-This method makes no usage of $this : it only works on the incoming argument, $file. This may even be a function.
-
-.. code-block:: php
-   
-    public function get_file($file)
-    	{
-    		// if no extension is provided, then we determine that it needs to be decoded
-    		if (strpos($file, '.') === FALSE)
-    		{
-    			$file = uri_safe_decode($file);
-    		}
-    		return $file;
-    	}
-
-
-.. _case-expressionengine-classes-couldbestatic:
-
-ExpressionEngine
-++++++++++++++++
-
-
-:ref:`method-could-be-static`, in system/ee/legacy/libraries/Upload.ph:859. 
-
-This method returns the list of mime type, by using a hidden global value : ee() is a functioncall that give access to the external storage of values.
-
-.. code-block:: php
-   
-    /**
-    	 * List of Mime Types
-    	 *
-    	 * This is a list of mime types.  We use it to validate
-    	 * the allowed types set by the developer
-    	 *
-    	 * @param	string
-    	 * @return	string
-    	 */
-    	public function mimes_types($mime)
-    	{
-    		ee()->load->library('mime_type');
-    		return ee()->mime_type->isSafeForUpload($mime);
-    	}
-
-
-.. _case-disconnected-classes:
-
-Disconnected Classes
-####################
-
-.. _case-wordpress-classes-disconnectedclasses:
-
-WordPress
-+++++++++
-
-
-:ref:`disconnected-classes`, in wp-admin/includes/misc.php:74. 
-
-This code actually loads the file, join it, then split it again. file() would be sufficient. 
-
-.. code-block:: php
-   
-    $markerdata = explode( "\n", implode( '', file( $filename ) ) );
-
-
-.. _case-don't-send-$this-in-constructor:
-
-Don't Send $this In Constructor
-###############################
-
-.. _case-woocommerce-classes-dontsendthisinconstructor:
-
-Woocommerce
-+++++++++++
-
-
-:ref:`don't-send-$this-in-constructor`, in includes/class-wc-cart.php:107. 
-
-WC_Cart_Session and WC_Cart_Fees receives $this, the current object, at a moment where it is not consistent : for example, tax_display_cart hasn't been set yet. Although it may be unexpected to have an object called WC_Cart being called by the session or the fees, this is still a temporary inconsistence. 
-
-.. code-block:: php
-   
-    /**
-    	 * Constructor for the cart class. Loads options and hooks in the init method.
-    	 */
-    	public function __construct() {
-    		$this->session          = new WC_Cart_Session( $this );
-    		$this->fees_api         = new WC_Cart_Fees( $this );
-    		$this->tax_display_cart = $this->is_tax_displayed();
-    
-    		// Register hooks for the objects.
-    		$this->session->init();
-
-
-.. _case-contao-classes-dontsendthisinconstructor:
-
-Contao
+Mautic
 ++++++
 
 
-:ref:`don't-send-$this-in-constructor`, in system/modules/core/library/Contao/Model.php:110. 
+:ref:`argument-should-be-typehinted`, in app/bundles/PluginBundle/Helper/IntegrationHelper.php:374. 
 
-$this is send to $objRegistry. $objRegistry is obtained with a factory, \Model\Registry::getInstance(). It is probably fully prepared at that point. Yet, $objRegistry is called and used to fill $this properties with full values. At some point, $objRegistry return values without having a handle on a fully designed object. 
+This piece of code inside a 275 lines method. Besides, there are 11 classes that offer a 'getPriority' method, although $returnServices could help to semantically reduce the number of possible classes. Here, typehints on $a and $b help using the wrong kind of object. 
 
 .. code-block:: php
    
-    /**
-    	 * Load the relations and optionally process a result set
-    	 *
-    	 * @param \Database\Result $objResult An optional database result
-    	 */
-    	public function __construct(\Database\Result $objResult=null)
-    	{
-            // Some code was removed 
-    			$objRegistry = \Model\Registry::getInstance();
+    if (empty($alphabetical)) {
+                // Sort by priority
+                uasort($returnServices, function ($a, $b) {
+                    $aP = (int) $a->getPriority();
+                    $bP = (int) $b->getPriority();
     
-    			$this->setRow($arrData); // see #5439
-    			$objRegistry->register($this);
-    			
-            // More code below
-            // $this-> are set
-            // $objRegistry is called 
-        }
-
-
-.. _case-don't-unset-properties:
-
-Don't Unset Properties
-######################
-
-.. _case-vanilla-classes-dontunsetproperties:
-
-Vanilla
-+++++++
-
-
-:ref:`don't-unset-properties`, in applications/dashboard/models/class.activitymodel.php:1073. 
-
-The _NotificationQueue property, in this class, is defined as an array. Here, it is destroyed, then recreated. The unset() is too much, as the assignation is sufficient to reset the array 
-
-.. code-block:: php
-   
-    /**
-         * Clear notification queue.
-         *
-         * @since 2.0.17
-         * @access public
-         */
-        public function clearNotificationQueue() {
-            unset($this->_NotificationQueue);
-            $this->_NotificationQueue = [];
-        }
-
-
-.. _case-typo3-classes-dontunsetproperties:
-
-Typo3
-+++++
-
-
-:ref:`don't-unset-properties`, in typo3/sysext/linkvalidator/Classes/Linktype/InternalLinktype.php:73. 
-
-The property errorParams is emptied by unsetting it. The property is actually defined in the above class, as an array. Until the next error is added to this list, any access to the error list has to be checked with isset(), or yield an 'Undefined' warning. 
-
-.. code-block:: php
-   
-    public function checkLink($url, $softRefEntry, $reference)
-        {
-            $anchor = '';
-            $this->responseContent = true;
-            // Might already contain values - empty it
-            unset($this->errorParams);
-    //....
+                    if ($aP === $bP) {
+                        return 0;
+                    }
     
-    abstract class AbstractLinktype implements LinktypeInterface
-    {
-        /**
-         * Contains parameters needed for the rendering of the error message
-         *
-         * @var array
-         */
-        protected $errorParams = [];
-
-
-.. _case-empty-classes:
-
-Empty Classes
-#############
-
-.. _case-wordpress-classes-emptyclass:
-
-WordPress
-+++++++++
-
-
-:ref:`empty-classes`, in wp-includes/SimplePie/Core.php:54. 
-
-Empty class, but documented as backward compatibility. 
-
-.. code-block:: php
-   
-    /**
-     * SimplePie class.
-     *
-     * Class for backward compatibility.
-     *
-     * @deprecated Use {@see SimplePie} directly
-     * @package SimplePie
-     * @subpackage API
-     */
-    class SimplePie_Core extends SimplePie
-    {
-    
-    }
-
-
-.. _case-incompatible-signature-methods:
-
-Incompatible Signature Methods
-##############################
-
-.. _case-suitecrm-classes-incompatiblesignature:
-
-SuiteCrm
-++++++++
-
-
-:ref:`incompatible-signature-methods`, in modules/Home/Dashlets/RSSDashlet/RSSDashlet.php:138. 
-
-The class in the RSSDashlet.php file has an 'array' typehint which is not in the parent Dashlet class. While both files compile separately, they yield a PHP warning when running : typehinting mismatch only yields a warning. 
-
-.. code-block:: php
-   
-    // File /modules/Home/Dashlets/RSSDashlet/RSSDashlet.php
-        public function saveOptions(
-            array $req
-            )
-        {
-    
-    // File /include/Dashlets/Dashlets.php
-        public function saveOptions( $req ) {
-
-
-.. _case-incompatible-signature-methods-with-covariance:
-
-Incompatible Signature Methods With Covariance
-##############################################
-
-.. _case-suitecrm-classes-incompatiblesignature74:
-
-SuiteCrm
-++++++++
-
-
-:ref:`incompatible-signature-methods-with-covariance`, in modules/Home/Dashlets/RSSDashlet/RSSDashlet.php:138. 
-
-The class in the RSSDashlet.php file has an 'array' typehint which is not in the parent Dashlet class. While both files compile separately, they yield a PHP warning when running : typehinting mismatch only yields a warning. 
-
-.. code-block:: php
-   
-    // File /modules/Home/Dashlets/RSSDashlet/RSSDashlet.php
-        public function saveOptions(
-            array $req
-            )
-        {
-    
-    // File /include/Dashlets/Dashlets.php
-        public function saveOptions( $req ) {
+                    return ($aP < $bP) ? -1 : 1;
+                });
 
 
 .. _case-assign-default-to-properties:
@@ -888,3255 +586,24 @@ _isEnabled may default to true. It could also default to a class constant.
             $this->_isEnabled = true;
 
 
-.. _case-forgotten-visibility:
+.. _case-assign-with-and-precedence:
 
-Forgotten Visibility
-####################
-
-.. _case-fuelcms-classes-nonppp:
-
-FuelCMS
-+++++++
-
-
-:ref:`forgotten-visibility`, in /fuel/modules/fuel/controllers/Module.php:713. 
-
-Missing visibility for the index() method,and all the methods in the Module class.
-
-.. code-block:: php
-   
-    class Module extends Fuel_base_controller {
-    	
-    	// --------------------------------------------------------------------
-    	
-    	/**
-    	 * Displays the list (table) view
-    	 *
-    	 * @access	public
-    	 * @return	void
-    	 */	
-    	function index()
-    	{
-    		$this->items();
-    	}
-
-
-.. _case-livezilla-classes-nonppp:
-
-LiveZilla
-+++++++++
-
-
-:ref:`forgotten-visibility`, in livezilla/_lib/objects.global.users.inc.php:2516. 
-
-Static method that could be public.
-
-.. code-block:: php
-   
-    class Visitor extends BaseUser 
-    {
-    // Lots of code
-    
-        static function CreateSPAMFilter($_userId,$_base64=true)
-        {
-            if(!empty(Server::$Configuration->File[gl_sfa]))
-            {
-
-
-.. _case-non-static-methods-called-in-a-static:
-
-Non Static Methods Called In A Static
-#####################################
-
-.. _case-dolphin-classes-nonstaticmethodscalledstatic:
-
-Dolphin
-+++++++
-
-
-:ref:`non-static-methods-called-in-a-static`, in Dolphin-v.7.3.5/xmlrpc/BxDolXMLRPCFriends.php:11. 
-
-getIdByNickname() is indeed defined in the class 'BxDolXMLRPCUtil' and it calls the database. The class relies on functions (not methods) to query the database with the correct connexion. 
-
-.. code-block:: php
-   
-    class BxDolXMLRPCFriends
-    {
-        function getFriends($sUser, $sPwd, $sNick, $sLang)
-        {
-            $iIdProfile = BxDolXMLRPCUtil::getIdByNickname ($sNick);
-
-
-.. _case-magento-classes-nonstaticmethodscalledstatic:
-
-Magento
-+++++++
-
-
-:ref:`non-static-methods-called-in-a-static`, in app/code/core/Mage/Paypal/Model/Payflowlink.php:143. 
-
-Mage_Payment_Model_Method_Abstract is an abstract class : this way, it is not possible to instantiate it and then, access its methods. The class is extended, so it could be called from one of the objects. Although, the troubling part is that isAvailable() uses $this, so it can't be static. 
-
-.. code-block:: php
-   
-    Mage_Payment_Model_Method_Abstract::isAvailable($quote)
-
-
-.. _case-var-keyword:
-
-Var Keyword
-###########
-
-.. _case-xataface-classes-oldstylevar:
-
-xataface
-++++++++
-
-
-:ref:`var-keyword`, in SQL/Parser/wrapper.php:24. 
-
-With the usage of var and a first method bearing the name of the class, this is PHP 4 code that is still in use. 
-
-.. code-block:: php
-   
-    class SQL_Parser_wrapper {
-    	
-    	var $_data;
-    	var $_tableLookup;
-    	var $_parser;
-    	
-    	function SQL_Parser_wrapper(&$data, $dialect='MySQL'){
-
-
-.. _case-parent-first:
-
-Parent First
-############
-
-.. _case-shopware-classes-parentfirst:
-
-shopware
-++++++++
-
-
-:ref:`parent-first`, in wp-admin/includes/misc.php:74. 
-
-Here, the parent is called last. Givent that $title is defined in the same class, it seems that $name may be defined in the BaseContainer class. In fact, it is not, and BasecContainer and FieldSet are fairly independant classes. Thus, the parent::__construct call could be first here, though more as a coding convention.
-
-.. code-block:: php
-   
-    /**
-     * Class FieldSet
-     */
-    class FieldSet extends BaseContainer
-    {
-        /**
-         * @var string
-         */
-        protected $title;
-    
-        /**
-         * @param string $name
-         * @param string $title
-         */
-        public function __construct($name, $title)
-        {
-            $this->title = $title;
-            $this->name = $name;
-            parent::__construct();
-        }
-
-
-.. _case-prestashop-classes-parentfirst:
-
-PrestaShop
-++++++++++
-
-
-:ref:`parent-first`, in controllers/admin/AdminPatternsController.php:30. 
-
-A good number of properties are set in the current object even before the parent AdminController(Core) is called. 'table' and 'lang' acts as default values for the parent class, as it (the parent class) would set them to another default value. Many properties are used, but not defined in the current class, nor its parent. This approach prevents the constructor from requesting too many arguments. Yet, as such, it is difficult to follow which of the initial values are transmitted via protected/public properties rather than using the __construct() call.
-
-.. code-block:: php
-   
-    class AdminPatternsControllerCore extends AdminController
-    {
-        public $name = 'patterns';
-    
-        public function __construct()
-        {
-            $this->bootstrap = true;
-            $this->show_toolbar = false;
-            $this->context = Context::getContext();
-    
-            parent::__construct();
-        }
-
-
-.. _case-property-could-be-local:
-
-Property Could Be Local
-#######################
-
-.. _case-mautic-classes-propertycouldbelocal:
-
-Mautic
-++++++
-
-
-:ref:`property-could-be-local`, in app/bundles/EmailBundle/Model/SendEmailToContact.php:47. 
-
-$translator is a private property, provided at construction time. It is private, and only used in the processBadEmails() method. $translator may be turned into a parameter for processBadEmails(), and make the class slimmer.
-
-.. code-block:: php
-   
-    class SendEmailToContact
-    {
-        /**
-         * @var TranslatorInterface
-         */
-        private $translator;
-    
-    // Skipped code 
-    
-        /**
-         * SendEmailToContact constructor.
-         *
-         * @param MailHelper          $mailer
-         * @param StatRepository      $statRepository
-         * @param DoNotContact        $dncModel
-         * @param TranslatorInterface $translator
-         */
-        public function __construct(MailHelper $mailer, StatHelper $statHelper, DoNotContact $dncModel, TranslatorInterface $translator)
-        {
-            $this->mailer     = $mailer;
-            $this->statHelper = $statHelper;
-            $this->dncModel   = $dncModel;
-            $this->translator = $translator;
-        }
-    
-    // Skipped code 
-    
-        /**
-         * Add DNC entries for bad emails to get them out of the queue permanently.
-         */
-        protected function processBadEmails()
-        {
-            // Update bad emails as bounces
-            if (count($this->badEmails)) {
-                foreach ($this->badEmails as $contactId => $contactEmail) {
-                    $this->dncModel->addDncForContact(
-                        $contactId,
-                        ['email' => $this->emailEntityId],
-                        DNC::BOUNCED,
-                        $this->translator->trans('mautic.email.bounce.reason.bad_email'),
-                        true,
-                        false
-                    );
-                }
-            }
-        }
-
-
-.. _case-typo3-classes-propertycouldbelocal:
-
-Typo3
-+++++
-
-
-:ref:`property-could-be-local`, in typo3/sysext/install/Classes/Updates/MigrateUrlTypesInPagesUpdate.php:28. 
-
-$urltypes is a private property, with a list of protocols for communicationss. It acts as a constant, being only read in the executeUpdate() method : constants may hold arrays. If this property has to evolve in the future, an accessor to update it will be necessary. Until then, this list may be hardcoded in the method. 
-
-.. code-block:: php
-   
-    /**
-     * Merge URLs divided in pages.urltype and pages.url into pages.url
-     * @internal This class is only meant to be used within EXT:install and is not part of the TYPO3 Core API.
-     */
-    class MigrateUrlTypesInPagesUpdate implements UpgradeWizardInterface
-    {
-        private $urltypes = ['', 'http://', 'ftp://', 'mailto:', 'https://'];
-    
-    // Skipped code
-    
-        /**
-         * Moves data from pages.urltype to pages.url
-         *
-         * @return bool
-         */
-        public function executeUpdate(): bool
-        {
-            foreach ($this->databaseTables as $databaseTable) {
-                $connection = GeneralUtility::makeInstance(ConnectionPool::class)
-                    ->getConnectionForTable($databaseTable);
-    
-                // Process records that have entries in pages.urltype
-                $queryBuilder = $connection->createQueryBuilder();
-                $queryBuilder->getRestrictions()->removeAll();
-                $statement = $queryBuilder->select('uid', 'urltype', 'url')
-                    ->from($databaseTable)
-                    ->where(
-                        $queryBuilder->expr()->neq('urltype', 0),
-                        $queryBuilder->expr()->neq('url', $queryBuilder->createPositionalParameter(''))
-                    )
-                    ->execute();
-    
-                while ($row = $statement->fetch()) {
-                    $url = $this->urltypes[(int)$row['urltype']] . $row['url'];
-                    $updateQueryBuilder = $connection->createQueryBuilder();
-                    $updateQueryBuilder
-                        ->update($databaseTable)
-                        ->where(
-                            $updateQueryBuilder->expr()->eq(
-                                'uid',
-                                $updateQueryBuilder->createNamedParameter($row['uid'], \PDO::PARAM_INT)
-                            )
-                        )
-                        ->set('url', $updateQueryBuilder->createNamedParameter($url), false)
-                        ->set('urltype', 0);
-                    $updateQueryBuilder->execute();
-                }
-            }
-            return true;
-        }
-
-
-.. _case-never-used-properties:
-
-Never Used Properties
-#####################
-
-.. _case-wordpress-classes-propertyneverused:
-
-WordPress
-+++++++++
-
-
-:ref:`never-used-properties`, in wp-admin/includes/misc.php:74. 
-
-This code actually loads the file, join it, then split it again. file() would be sufficient. 
-
-.. code-block:: php
-   
-    $markerdata = explode( "\n", implode( '', file( $filename ) ) );
-
-
-.. _case-property-used-in-one-method-only:
-
-Property Used In One Method Only
-################################
-
-.. _case-contao-classes-propertyusedinonemethodonly:
-
-Contao
-++++++
-
-
-:ref:`property-used-in-one-method-only`, in calendar-bundle/src/Resources/contao/modules/ModuleEventlist.php:38. 
-
-Date is protected property. It is used only in the compile() method, and it is not used by the parent class. As such, it may be turned into a local variable.
-
-.. code-block:: php
-   
-    class ModuleEventlist extends Events
-    {
-    
-    	/**
-    	 * Current date object
-    	 * @var Date
-    	 */
-    	protected $Date;
-    
-    // Date is used in function compile() only
-
-
-.. _case-redefined-default:
-
-Redefined Default
-#################
-
-.. _case-piwigo-classes-redefineddefault:
-
-Piwigo
-++++++
-
-
-:ref:`redefined-default`, in admin/include/updates.class.php:34. 
-
-default_themes is defined as an empty array, then filled with new values. Same for default_plugins. Both may be defined as declaration time, and not during the constructor.
-
-.. code-block:: php
-   
-    class updates
-    {
-      var $types = array();
-      var $plugins;
-      var $themes;
-      var $languages;
-      var $missing = array();
-      var $default_plugins = array();
-      var $default_themes = array();
-      var $default_languages = array();
-      var $merged_extensions = array();
-      var $merged_extension_url = 'http://piwigo.org/download/merged_extensions.txt';
-    
-      function __construct($page='updates')
-      {
-        $this->types = array('plugins', 'themes', 'languages');
-    
-        if (in_array($page, $this->types))
-        {
-          $this->types = array($page);
-        }
-        $this->default_themes = array('clear', 'dark', 'Sylvia', 'elegant', 'smartpocket');
-        $this->default_plugins = array('AdminTools', 'TakeATour', 'language_switch', 'LocalFilesEditor');
-
-
-.. _case-redefined-private-property:
-
-Redefined Private Property
+Assign With And Precedence
 ##########################
 
-.. _case-zurmo-classes-redefinedprivateproperty:
-
-Zurmo
-+++++
-
-
-:ref:`redefined-private-property`, in app/protected/modules/zurmo/models/OwnedCustomField.php:51. 
-
-The class OwnedCustomField is part of a large class tree : OwnedCustomField extends CustomField,
-CustomField extends BaseCustomField, BaseCustomField extends RedBeanModel, RedBeanModel extends BeanModel. 
-
-Since $canHaveBean is distinct in BeanModel and in OwnedCustomField, the public method getCanHaveBean() also had to be overloaded. 
-
-.. code-block:: php
-   
-    class OwnedCustomField extends CustomField
-        {
-            /**
-             * OwnedCustomField does not need to have a bean because it stores no attributes and has no relations
-             * @see RedBeanModel::canHaveBean();
-             * @var boolean
-             */
-            private static $canHaveBean = false;
-    
-    /..../
-    
-            /**
-             * @see RedBeanModel::getHasBean()
-             */
-            public static function getCanHaveBean()
-            {
-                if (get_called_class() == 'OwnedCustomField')
-                {
-                    return self::$canHaveBean;
-                }
-                return parent::getCanHaveBean();
-            }
-
-
-.. _case-scalar-or-object-property:
-
-Scalar Or Object Property
-#########################
-
-.. _case-sugarcrm-classes-scalarorobjectproperty:
-
-SugarCrm
-++++++++
-
-
-:ref:`scalar-or-object-property`, in SugarCE-Full-6.5.26/data/Link.php:54. 
-
-The _relationship property starts its life as a string, and becomes an object later. 
-
-.. code-block:: php
-   
-    class Link {
-    
-    	/* Private variables.*/
-    	var $_log;
-    	var $_relationship_name; //relationship this attribute is tied to.
-    	var $_bean; //stores a copy of the bean.
-    	var $_relationship= '';
-    
-    /// More code..... 
-    
-    // line 92
-    		$this->_relationship=new Relationship();
-
-
-.. _case-could-use-self:
-
-Could Use self
-##############
-
-.. _case-wordpress-classes-shoulduseself:
-
-WordPress
-+++++++++
-
-
-:ref:`could-use-self`, in wp-admin/includes/misc.php:74. 
-
-Securimage could be called self.
-
-.. code-block:: php
-   
-    class Securimage 
-    {
-    // Lots of code
-                Securimage::$_captchaId = $id;
-    }
-
-
-.. _case-livezilla-classes-shoulduseself:
-
-LiveZilla
-+++++++++
-
-
-:ref:`could-use-self`, in livezilla/_lib/objects.global.users.inc.php:1599. 
-
-Using self makes it obvious that Operator::GetSystemId() is a local call, while Communication::GetParameter() is external.
-
-.. code-block:: php
-   
-    class Operator extends BaseUser 
-    {
-        static function ReadParams()
-        {
-            if(!empty($_POST[POST_EXTERN_REQUESTED_INTERNID]))
-                return Communication::GetParameter(POST_EXTERN_REQUESTED_INTERNID,,$c,FILTER_SANITIZE_SPECIAL_CHARS,null,32);
-            else if(!empty($_GET[operator]))
-            {
-                $userid = Communication::GetParameter(operator,,$c,FILTER_SANITIZE_SPECIAL_CHARS,null,32,false,false);
-                $sysid = Operator::GetSystemId($userid);
-    }
-
-
-.. _case-static-methods-can't-contain-$this:
-
-Static Methods Can't Contain $this
-##################################
-
-.. _case-xataface-classes-staticcontainsthis:
+.. _case-xataface-php-assignand:
 
 xataface
 ++++++++
 
 
-:ref:`static-methods-can't-contain-$this`, in Dataface/LanguageTool.php:48. 
+:ref:`assign-with-and-precedence`, in Dataface/LanguageTool.php:265. 
 
-$this is hidden in the arguments of the static call to the method.
+The usage of 'and' here is a workaround for PHP version that have no support for the coalesce. $autosubmit receives the value of $params['autosubmit'] only if the latter is set. Yet, with = having higher precedence over 'and', $autosubmit is mistaken with the existence of $params['autosubmit'] : its value is actually omitted.
 
 .. code-block:: php
    
-    public static function loadRealm($name){
-    		return self::getInstance($this->app->_conf['default_language'])->loadRealm($name);
-    	}
-
-
-.. _case-sugarcrm-classes-staticcontainsthis:
-
-SugarCrm
-++++++++
-
-
-:ref:`static-methods-can't-contain-$this`, in SugarCE-Full-6.5.26/modules/ACLActions/ACLAction.php:332. 
-
-Notice how $this is tested for existence before using it. It seems strange, at first, but we have to remember that if $this is never set when calling a static method, a static method may be called with $this. Confusingly, this static method may be called in two ways. 
-
-.. code-block:: php
-   
-    static function hasAccess($is_owner=false, $access = 0){
-    
-            if($access != 0 && $access == ACL_ALLOW_ALL || ($is_owner && $access == ACL_ALLOW_OWNER))return true;
-           //if this exists, then this function is not static, so check the aclaccess parameter
-            if(isset($this) && isset($this->aclaccess)){
-                if($this->aclaccess == ACL_ALLOW_ALL || ($is_owner && $this->aclaccess == ACL_ALLOW_OWNER))
-                return true;
-            }
-            return false;
-        }
-
-
-.. _case-$this-belongs-to-classes-or-traits:
-
-$this Belongs To Classes Or Traits
-##################################
-
-.. _case-openemr-classes-thisisforclasses:
-
-OpenEMR
-+++++++
-
-
-:ref:`$this-belongs-to-classes-or-traits`, in ccr/display.php:24. 
-
-$this is used to call the document_upload_download_log() method, although this piece of code is not part of a class, nor is included in a class.
-
-.. code-block:: php
-   
-    <?php 
-    require_once(dirname(__FILE__) . "/../interface/globals.php");
-    
-    $type = $_GET['type'];
-    $document_id = $_GET['doc_id'];
-    $d = new Document($document_id);
-    $url =  $d->get_url();
-    $storagemethod = $d->get_storagemethod();
-    $couch_docid = $d->get_couch_docid();
-    $couch_revid = $d->get_couch_revid();
-    
-    if ($couch_docid && $couch_revid) {
-        $couch = new CouchDB();
-        $data = array($GLOBALS['couchdb_dbase'],$couch_docid);
-        $resp = $couch->retrieve_doc($data);
-        $xml = base64_decode($resp->data);
-        if ($content=='' && $GLOBALS['couchdb_log']==1) {
-            $log_content = date('Y-m-d H:i:s')." ==> Retrieving document\r\n";
-            $log_content = date('Y-m-d H:i:s')." ==> URL: ".$url."\r\n";
-            $log_content .= date('Y-m-d H:i:s')." ==> CouchDB Document Id: ".$couch_docid."\r\n";
-            $log_content .= date('Y-m-d H:i:s')." ==> CouchDB Revision Id: ".$couch_revid."\r\n";
-            $log_content .= date('Y-m-d H:i:s')." ==> Failed to fetch document content from CouchDB.\r\n";
-            //$log_content .= date('Y-m-d H:i:s')." ==> Will try to download file from HardDisk if exists.\r\n\r\n";
-            $this->document_upload_download_log($d->get_foreign_id(), $log_content);
-            die(xlt("File retrieval from CouchDB failed"));
-        }
-
-
-.. _case-too-many-children:
-
-Too Many Children
-#################
-
-.. _case-typo3-classes-toomanychildren:
-
-Typo3
-+++++
-
-
-:ref:`too-many-children`, in typo3/sysext/backend/Classes/Form/AbstractNode.php:26. 
-
-More than 15 children for this class : 15 is the default configuration.
-
-.. code-block:: php
-   
-    abstract class AbstractNode implements NodeInterface, LoggerAwareInterface {
-
-
-.. _case-woocommerce-classes-toomanychildren:
-
-Woocommerce
-+++++++++++
-
-
-:ref:`too-many-children`, in includes/abstracts/abstract-wc-rest-controller.php:30. 
-
-This class is extended 22 times, more than the default configuration of 15.
-
-.. code-block:: php
-   
-    class WC_REST_Controller extends WP_REST_Controller {
-
-
-.. _case-too-many-injections:
-
-Too Many Injections
-###################
-
-.. _case-nextcloud-classes-toomanyinjections:
-
-NextCloud
-+++++++++
-
-
-:ref:`too-many-injections`, in lib/private/Share20/Manager.php:130. 
-
-Well documented Manager class. Quite a lot of injections though, it must take a long time to prepare it.
-
-.. code-block:: php
-   
-    /**
-    	 * Manager constructor.
-    	 *
-    	 * @param ILogger $logger
-    	 * @param IConfig $config
-    	 * @param ISecureRandom $secureRandom
-    	 * @param IHasher $hasher
-    	 * @param IMountManager $mountManager
-    	 * @param IGroupManager $groupManager
-    	 * @param IL10N $l
-    	 * @param IFactory $l10nFactory
-    	 * @param IProviderFactory $factory
-    	 * @param IUserManager $userManager
-    	 * @param IRootFolder $rootFolder
-    	 * @param EventDispatcher $eventDispatcher
-    	 * @param IMailer $mailer
-    	 * @param IURLGenerator $urlGenerator
-    	 * @param \OC_Defaults $defaults
-    	 */
-    	public function __construct(
-    			ILogger $logger,
-    			IConfig $config,
-    			ISecureRandom $secureRandom,
-    			IHasher $hasher,
-    			IMountManager $mountManager,
-    			IGroupManager $groupManager,
-    			IL10N $l,
-    			IFactory $l10nFactory,
-    			IProviderFactory $factory,
-    			IUserManager $userManager,
-    			IRootFolder $rootFolder,
-    			EventDispatcher $eventDispatcher,
-    			IMailer $mailer,
-    			IURLGenerator $urlGenerator,
-    			\OC_Defaults $defaults
-    	) {
-    		$this->logger = $logger;
-    		$this->config = $config;
-    		$this->secureRandom = $secureRandom;
-    		$this->hasher = $hasher;
-    		$this->mountManager = $mountManager;
-    		$this->groupManager = $groupManager;
-    		$this->l = $l;
-    		$this->l10nFactory = $l10nFactory;
-    		$this->factory = $factory;
-    		$this->userManager = $userManager;
-    		$this->rootFolder = $rootFolder;
-    		$this->eventDispatcher = $eventDispatcher;
-    		$this->sharingDisabledForUsersCache = new CappedMemoryCache();
-    		$this->legacyHooks = new LegacyHooks($this->eventDispatcher);
-    		$this->mailer = $mailer;
-    		$this->urlGenerator = $urlGenerator;
-    		$this->defaults = $defaults;
-    	}
-
-
-.. _case-thelia-classes-toomanyinjections:
-
-Thelia
-++++++
-
-
-:ref:`too-many-injections`, in core/lib/Thelia/Core/Event/Delivery/DeliveryPostageEvent.php:58. 
-
-Classic address class, with every details. May be even shorter than expected.
-
-.. code-block:: php
-   
-    //class DeliveryPostageEvent extends ActionEvent
-        public function __construct(
-            DeliveryModuleInterface $module,
-            Cart $cart,
-            Address $address = null,
-            Country $country = null,
-            State $state = null
-        ) {
-            $this->module = $module;
-            $this->cart = $cart;
-            $this->address = $address;
-            $this->country = $country;
-            $this->state = $state;
-        }
-
-
-.. _case-wrong-access-style-to-property:
-
-Wrong Access Style to Property
-##############################
-
-.. _case-humo-gen-classes-undeclaredstaticproperty:
-
-HuMo-Gen
-++++++++
-
-
-:ref:`wrong-access-style-to-property`, in wp-admin/includes/misc.php:74. 
-
-lame_binary_path is a static property, but it is accessed as a normal property in the exception call, while it is checked with a valid syntax.
-
-.. code-block:: php
-   
-    protected function wavToMp3($data)
-        {
-            if (!file_exists(self::$lame_binary_path) || !is_executable(self::$lame_binary_path)) {
-                throw new Exception('Lame binary  . $this->lame_binary_path .  does not exist or is not executable');
-            }
-
-
-.. _case-undefined-properties:
-
-Undefined Properties
-####################
-
-.. _case-wordpress-classes-undefinedproperty:
-
-WordPress
-+++++++++
-
-
-:ref:`undefined-properties`, in wp-admin/includes/misc.php:74. 
-
-Properties are not defined, but they are thoroughly initialized when the XML document is parsed. All those definition should be in a property definition, for clear documentation.
-
-.. code-block:: php
-   
-    $this->DeliveryLine1 = '';
-            $this->DeliveryLine2 = '';
-            $this->City = '';
-            $this->State = '';
-            $this->ZipAddon = '';
-
-
-.. _case-mediawiki-classes-undefinedproperty:
-
-MediaWiki
-+++++++++
-
-
-:ref:`undefined-properties`, in includes/logging/LogFormatter.php:561. 
-
-parsedParametersDeleteLog is an undefined property. Defining the property with a null default value is important here, to keep the code running. 
-
-.. code-block:: php
-   
-    protected function getMessageParameters() {
-    		if ( isset( $this->parsedParametersDeleteLog ) ) {
-    			return $this->parsedParametersDeleteLog;
-    		}
-
-
-.. _case-undefined-static-or-self:
-
-Undefined static\:\: Or self\:\:
-################################
-
-.. _case-xataface-classes-undefinedstaticmp:
-
-xataface
-++++++++
-
-
-:ref:`undefined-static-or-self`, in actions/forgot_password.php:194. 
-
-This is probably a typo, since the property called 	public static $EX_NO_USERS_WITH_EMAIL = 501; is defined in that class. 
-
-.. code-block:: php
-   
-    if ( !$user ) throw new Exception(df_translate('actions.forgot_password.null_user',"Cannot send email for null user"), self::$EX_NO_USERS_FOUND_WITH_EMAIL);
-
-
-.. _case-sugarcrm-classes-undefinedstaticmp:
-
-SugarCrm
-++++++++
-
-
-:ref:`undefined-static-or-self`, in code/SugarCE-Full-6.5.26/include/SugarDateTime.php:574. 
-
-self::$sugar_strptime_long_mon refers to the current class, which extends DateTime. No static property was defined at either of them, with the name '$sugar_strptime_long_mon'. This has been a Fatal error at execution time since PHP 5.3, at least. 
-
-.. code-block:: php
-   
-    if ( isset($regexp['positions']['F']) && !empty($dateparts[$regexp['positions']['F']])) {
-                   // FIXME: locale?
-        $mon = $dateparts[$regexp['positions']['F']];
-        if(isset(self::$sugar_strptime_long_mon[$mon])) {
-            $data["tm_mon"] = self::$sugar_strptime_long_mon[$mon];
-        } else {
-            return false;
-        }
-    }
-
-
-.. _case-unitialized-properties:
-
-Unitialized Properties
-######################
-
-.. _case-spip-classes-unitializedproperties:
-
-SPIP
-++++
-
-
-:ref:`unitialized-properties`, in ecrire/public/interfaces.php:584. 
-
-The class Critere (Criteria) has no method at all. When using a class as an array, to capture values, one of the advantage of the class is in the default values for the properties. In particular, the last property here, called $not, should be initialized with a false. 
-
-.. code-block:: php
-   
-    /**
-     * Description d'un critère de boucle
-     *
-     * Sous-noeud de Boucle
-     *
-     * @package SPIP\Core\Compilateur\AST
-     **/
-    class Critere {
-    	/**
-    	 * Type de noeud
-    	 *
-    	 * @var string
-    	 */
-    	public $type = 'critere';
-    
-    	/**
-    	 * Opérateur (>, <, >=, IN, ...)
-    	 *
-    	 * @var null|string
-    	 */
-    	public $op;
-    
-    	/**
-    	 * Présence d'une négation (truc !op valeur)
-    	 *
-    	 * @var null|string
-    	 */
-    	public $not;
-
-
-.. _case-unresolved-instanceof:
-
-Unresolved Instanceof
-#####################
-
-.. _case-wordpress-classes-unresolvedinstanceof:
-
-WordPress
-+++++++++
-
-
-:ref:`unresolved-instanceof`, in wp-admin/includes/misc.php:74. 
-
-This code actually loads the file, join it, then split it again. file() would be sufficient. 
-
-.. code-block:: php
-   
-    private function resolveTag($match)
-        {
-            $tagReflector = $this->createLinkOrSeeTagFromRegexMatch($match);
-            if (!$tagReflector instanceof Tag\SeeTag && !$tagReflector instanceof Tag\LinkTag) {
-                return $match;
-            }
-
-
-.. _case-unused-private-properties:
-
-Unused Private Properties
-#########################
-
-.. _case-openemr-classes-unusedprivateproperty:
-
-OpenEMR
-+++++++
-
-
-:ref:`unused-private-properties`, in entities/User.php:46. 
-
-This class has a long list of private properties. It also has an equally long (minus one) list of accessors, and a __toString() method which exposes all of them. $oNotes is the only one never mentionned anywhere. 
-
-.. code-block:: php
-   
-    class User
-    {
-        /**
-         * @Column(name=id, type=integer)
-         * @GeneratedValue(strategy=AUTO)
-         */
-        private $id;
-    
-        /**
-         * @OneToMany(targetEntity=ONote, mappedBy=user)
-         */
-        private $oNotes;
-
-
-.. _case-phpadsnew-classes-unusedprivateproperty:
-
-phpadsnew
-+++++++++
-
-
-:ref:`unused-private-properties`, in lib/OA/Admin/UI/component/Form.php:23. 
-
-$dispatcher is never used anywhere. 
-
-.. code-block:: php
-   
-    class OA_Admin_UI_Component_Form
-        extends HTML_QuickForm
-    {
-        private $dispatcher;
-
-
-.. _case-use-class-operator:
-
-Use \:\:Class Operator
-######################
-
-.. _case-typo3-classes-useclassoperator:
-
-Typo3
-+++++
-
-
-:ref:`use-class-operator`, in typo3/sysext/install/Configuration/ExtensionScanner/Php/ConstructorArgumentMatcher.php:4. 
-
-``TYPO3\CMS\Core\Package\PackageManager`` could be ``TYPO3\CMS\Core\Package\PackageManager::class``. 
-
-.. code-block:: php
-   
-    return [
-        'TYPO3\CMS\Core\Package\PackageManager' => [
-            'required' => [
-                'numberOfMandatoryArguments' => 1,
-                'maximumNumberOfArguments' => 1,
-
-
-.. _case-use-instanceof:
-
-Use Instanceof
-##############
-
-.. _case-teampass-classes-useinstanceof:
-
-TeamPass
-++++++++
-
-
-:ref:`use-instanceof`, in includes/libraries/Database/Meekrodb/db.class.php:506. 
-
-In this code, ``is_object()`` and ``instanceof`` have the same basic : they both check that $ts is an object. In fact, ``instanceof`` is more precise, and give more information about the variable. 
-
-.. code-block:: php
-   
-    protected function parseTS($ts) {
-        if (is_string($ts)) return date('Y-m-d H:i:s', strtotime($ts));
-        else if (is_object($ts) && ($ts instanceof DateTime)) return $ts->format('Y-m-d H:i:s');
-      }
-
-
-.. _case-zencart-classes-useinstanceof:
-
-Zencart
-+++++++
-
-
-:ref:`use-instanceof`, in includes/modules/payment/firstdata_hco.php:104. 
-
-In this code, ``is_object()`` is used to check the status of the order. Possibly, $order is false or null in case of incompatible status. Yet, when $object is an object, and in particular being a global that may be assigned anywhere else in the code, it seems that the method 'update_status' is magically always available. Here, using instance of to make sure that $order is an 'paypal' class, or a 'storepickup' or any of the payment class.  
-
-.. code-block:: php
-   
-    function __construct() {
-        global $order;
-    
-        // more lines, no mention of $order
-        if (is_object($order)) $this->update_status();
-    
-        // more code
-    }
-
-
-.. _case-weak-typing:
-
-Weak Typing
-###########
-
-.. _case-teampass-classes-weaktype:
-
-TeamPass
-++++++++
-
-
-:ref:`weak-typing`, in includes/libraries/Tree/NestedTree/NestedTree.php:100. 
-
-The is_null() test detects a special situation, that requires usage of default values. The 'else' handles every other situations, including when the $node is an object, or anything else. $this->getNode() will gain from having typehints : it may be NULL, or the results of mysqli_fetch_object() : a stdClass object. The expected properties of nleft and nright are not certain to be available.
-
-.. code-block:: php
-   
-    public function getDescendants($id = 0, $includeSelf = false, $childrenOnly = false, $unique_id_list = false)
-        {
-            global $link;
-            $idField = $this->fields['id'];
-    
-            $node = $this->getNode($id);
-            if (is_null($node)) {
-                $nleft = 0;
-                $nright = 0;
-                $parent_id = 0;
-                $personal_folder = 0;
-            } else {
-                $nleft = $node->nleft;
-                $nright = $node->nright;
-                $parent_id = $node->$idField;
-                $personal_folder = $node->personal_folder;
-            }
-
-
-.. _case-wrong-class-name-case:
-
-Wrong Class Name Case
-#####################
-
-.. _case-wordpress-classes-wrongcase:
-
-WordPress
-+++++++++
-
-
-:ref:`wrong-class-name-case`, in wp-admin/includes/misc.php:74. 
-
-This code actually loads the file, join it, then split it again. file() would be sufficient. 
-
-.. code-block:: php
-   
-    $markerdata = explode( "\n", implode( '', file( $filename ) ) );
-
-
-.. _case-illegal-name-for-method:
-
-Illegal Name For Method
-#######################
-
-.. _case-prestashop-classes-wrongname:
-
-PrestaShop
-++++++++++
-
-
-:ref:`illegal-name-for-method`, in admin-dev/ajaxfilemanager/inc/class.pagination.php:200. 
-
-__getBaseUrl and __setBaseUrl shouldn't be named like that. 
-
-.. code-block:: php
-   
-    /**
-    	 * get base url for pagination links aftr excluded those key
-    	 * identified on excluded query strings
-    	 *
-    	 */
-    	function __getBaseUrl()
-    	{
-    
-    		if(empty($this->baseUrl))
-    		{
-    
-    			$this->__setBaseUrl();
-    		}
-    		return $this->baseUrl;
-    	}
-
-
-.. _case-magento-classes-wrongname:
-
-Magento
-+++++++
-
-
-:ref:`illegal-name-for-method`, in app/code/core/Mage/Core/Block/Abstract.php:1139. 
-
-public method, called '__'. Example : $this->__();
-
-.. code-block:: php
-   
-    public function __()
-        {
-            $args = func_get_args();
-            $expr = new Mage_Core_Model_Translate_Expr(array_shift($args), $this->getModuleName());
-            array_unshift($args, $expr);
-            return $this->_getApp()->getTranslator()->translate($args);
-        }
-
-
-.. _case-bad-constants-names:
-
-Bad Constants Names
-###################
-
-.. _case-prestashop-constants-badconstantnames:
-
-PrestaShop
-++++++++++
-
-
-:ref:`bad-constants-names`, in src/PrestaShopBundle/Install/Upgrade.php:214. 
-
-INSTALL_PATH is a valid name for a constant. __PS_BASE_URI__ is not a valid name.
-
-.. code-block:: php
-   
-    require_once(INSTALL_PATH . 'install_version.php');
-                // needed for upgrade before 1.5
-                if (!defined('__PS_BASE_URI__')) {
-                    define('__PS_BASE_URI__', str_replace('//', '/', '/'.trim(preg_replace('#/(install(-dev)?/upgrade)$#', '/', str_replace('\', '/', dirname($_SERVER['REQUEST_URI']))), '/').'/'));
-                }
-
-
-.. _case-zencart-constants-badconstantnames:
-
-Zencart
-+++++++
-
-
-:ref:`bad-constants-names`, in zc_install/ajaxTestDBConnection.php:10. 
-
-A case where PHP needs help : if the PHP version is older than 5.3, then it is valid to compensate. Though, this __DIR__ has a fixed value, wherever it is used, while the official __DIR__ change from dir to dir. 
-
-.. code-block:: php
-   
-    if (!defined('__DIR__')) define('__DIR__', dirname(__FILE__));
-
-
-.. _case-use-const:
-
-Use const
-#########
-
-.. _case-phpmyadmin-constants-constrecommended:
-
-phpMyAdmin
-++++++++++
-
-
-:ref:`use-const`, in error_report.php:17. 
-
-This may be turned into a `const` call, with a static expression. 
-
-.. code-block:: php
-   
-    define('ROOT_PATH', __DIR__ . DIRECTORY_SEPARATOR)
-
-
-.. _case-piwigo-constants-constrecommended:
-
-Piwigo
-++++++
-
-
-:ref:`use-const`, in include/functions_plugins.inc.php:32. 
-
-Const works efficiently with literal
-
-.. code-block:: php
-   
-    define('EVENT_HANDLER_PRIORITY_NEUTRAL', 50)
-
-
-.. _case-invalid-constant-name:
-
-Invalid Constant Name
-#####################
-
-.. _case-openemr-constants-invalidname:
-
-OpenEMR
-+++++++
-
-
-:ref:`invalid-constant-name`, in library/classes/InsuranceCompany.class.php:20. 
-
-Either a copy/paste, or a generated definition file : the file contains 25 constants definition. The constant is not found in the rest of the code. 
-
-.. code-block:: php
-   
-    define("INS_TYPE_OTHER_NON-FEDERAL_PROGRAMS", 10);
-
-
-.. _case-multiple-constant-definition:
-
-Multiple Constant Definition
-############################
-
-.. _case-dolibarr-constants-multipleconstantdefinition:
-
-Dolibarr
-++++++++
-
-
-:ref:`multiple-constant-definition`, in htdocs/main.inc.php:914. 
-
-All is documented here : 'Constants used to defined number of lines in textarea'. Constants are not changing during an execution, and this allows the script to set values early in the process, and have them used later, in the templates. Yet, building constants dynamically may lead to confusion, when developpers are not aware of the change. 
-
-.. code-block:: php
-   
-    // Constants used to defined number of lines in textarea
-    if (empty($conf->browser->firefox))
-    {
-    	define('ROWS_1',1);
-    	define('ROWS_2',2);
-    	define('ROWS_3',3);
-    	define('ROWS_4',4);
-    	define('ROWS_5',5);
-    	define('ROWS_6',6);
-    	define('ROWS_7',7);
-    	define('ROWS_8',8);
-    	define('ROWS_9',9);
-    }
-    else
-    {
-    	define('ROWS_1',0);
-    	define('ROWS_2',1);
-    	define('ROWS_3',2);
-    	define('ROWS_4',3);
-    	define('ROWS_5',4);
-    	define('ROWS_6',5);
-    	define('ROWS_7',6);
-    	define('ROWS_8',7);
-    	define('ROWS_9',8);
-    }
-
-
-.. _case-openconf-constants-multipleconstantdefinition:
-
-OpenConf
-++++++++
-
-
-:ref:`multiple-constant-definition`, in modules/request.php:71. 
-
-The constant is build according to the situation, in the part of the script (file request.php). This hides the actual origin of the value, but keeps the rest of the code simple. Just keep in mind that this constant may have different values.
-
-.. code-block:: php
-   
-    if (isset($_GET['ocparams']) && !empty($_GET['ocparams'])) {
-    		$params = '';
-    		if (preg_match_all("/(\w+)--(\w+)_-/", $_GET['ocparams'], $matches)) {
-    			foreach ($matches[1] as $idx => $m) {
-    				if (($m != 'module') && ($m != 'action') && preg_match("/^[\w-]+$/", $m)) {
-    					$params .= '&' . $m . '=' . urlencode($matches[2][$idx]);
-    					$_GET[$m] = $matches[2][$idx];
-    				}
-    			}
-    		}
-    		unset($_GET['ocparams']);
-    		define('OCC_SELF', $_SERVER['PHP_SELF'] . '?module=' . $_REQUEST['module'] . '&action=' . $_GET['action'] . $params);
-    	} elseif (isset($_SERVER['REQUEST_URI']) && strstr($_SERVER['REQUEST_URI'], '?')) {
-    		define('OCC_SELF', htmlspecialchars($_SERVER['REQUEST_URI']));
-    	} elseif (isset($_SERVER['QUERY_STRING']) && strstr($_SERVER['QUERY_STRING'], '&')) {
-    		define('OCC_SELF', $_SERVER['PHP_SELF'] . '?' . htmlspecialchars($_SERVER['QUERY_STRING']));
-    	} else {
-    		err('This server does not support REQUEST_URI or QUERY_STRING','Error');
-    	}
-
-
-.. _case-exception-order:
-
-Exception Order
-###############
-
-.. _case-woocommerce-exceptions-alreadycaught:
-
-Woocommerce
-+++++++++++
-
-
-:ref:`exception-order`, in includes/api/v1/class-wc-rest-products-controller.php:787. 
-
-This try/catch expression is able to catch both WC_Data_Exception and WC_REST_Exception. 
-
-In another file, /includes/api/class-wc-rest-exception.php, we find that WC_REST_Exception extends WC_Data_Exception (class WC_REST_Exception extends WC_Data_Exception {}). So WC_Data_Exception is more general, and a WC_REST_Exception exception is caught with WC_Data_Exception Exception. The second catch should be put in first.
-
-This code actually loads the file, join it, then split it again. file() would be sufficient. 
-
-.. code-block:: php
-   
-    try {
-    			$product_id = $this->save_product( $request );
-    			$post       = get_post( $product_id );
-    			$this->update_additional_fields_for_object( $post, $request );
-    			$this->update_post_meta_fields( $post, $request );
-    
-    			/**
-    			 * Fires after a single item is created or updated via the REST API.
-    			 *
-    			 * @param WP_Post         $post      Post data.
-    			 * @param WP_REST_Request $request   Request object.
-    			 * @param boolean         $creating  True when creating item, false when updating.
-    			 */
-    			do_action( 'woocommerce_rest_insert_product', $post, $request, false );
-    			$request->set_param( 'context', 'edit' );
-    			$response = $this->prepare_item_for_response( $post, $request );
-    
-    			return rest_ensure_response( $response );
-    		} catch ( WC_Data_Exception $e ) {
-    			return new WP_Error( $e->getErrorCode(), $e->getMessage(), $e->getErrorData() );
-    		} catch ( WC_REST_Exception $e ) {
-    			return new WP_Error( $e->getErrorCode(), $e->getMessage(), array( 'status' => $e->getCode() ) );
-    		}
-
-
-.. _case-could-use-try:
-
-Could Use Try
-#############
-
-.. _case-mautic-exceptions-couldusetry:
-
-Mautic
-++++++
-
-
-:ref:`could-use-try`, in app/bundles/StageBundle/Controller/StageController.php:78. 
-
-$limit is read as a session variable or a default value. There are no check here that $limit is not null, before using it in a division. It is easy to imagine this is done elsewhere, yet a try/catch could help intercept unwanted situations.
-
-.. code-block:: php
-   
-    //set limits
-            $limit = $this->get('session')->get(
-                'mautic.stage.limit',
-                $this->coreParametersHelper->getParameter('default_pagelimit')
-            );
-    /... Code where $limit is read but not modified /
-            $count = count($stages);
-            if ($count && $count < ($start + 1)) {
-                $lastPage = ($count === 1) ? 1 : (ceil($count / $limit)) ?: 1;
-
-
-.. _case-rethrown-exceptions:
-
-Rethrown Exceptions
-###################
-
-.. _case-prestashop-exceptions-rethrown:
-
-PrestaShop
-++++++++++
-
-
-:ref:`rethrown-exceptions`, in classes/webservice/WebserviceOutputBuilder.php:731. 
-
-The setSpecificField method catches a WebserviceException, representing an issue with the call to the webservice. However, that piece of information is lost, and the exception is rethrown immediately, without any action.
-
-.. code-block:: php
-   
-    public function setSpecificField($object, $method, $field_name, $entity_name)
-    	{
-    		try {
-    			$this->validateObjectAndMethod($object, $method);
-    		} catch (WebserviceException $e) {
-    			throw $e;
-    		}
-    
-    		$this->specificFields[$field_name] = array('entity'=>$entity_name, 'object' => $object, 'method' => $method, 'type' => gettype($object));
-    		return $this;
-    	}
-
-
-.. _case-throw-functioncall:
-
-Throw Functioncall
-##################
-
-.. _case-sugarcrm-exceptions-throwfunctioncall:
-
-SugarCrm
-++++++++
-
-
-:ref:`throw-functioncall`, in include/externalAPI/cmis_repository_wrapper.php:918. 
-
-SugarCRM uses exceptions to fill work in progress. Here, we recognize a forgotten 'new' that makes throw call a function named 'Exception'. This fails with a Fatal Error, and doesn't issue the right messsage. The same error had propgated in the code by copy and paste : it is available 17 times in that same file.
-
-.. code-block:: php
-   
-    function getContentChanges()
-        {
-            throw Exception("Not Implemented");
-        }
-
-
-.. _case-zurmo-exceptions-throwfunctioncall:
-
-Zurmo
-+++++
-
-
-:ref:`throw-functioncall`, in app/protected/modules/gamification/rules/collections/GameCollectionRules.php:66. 
-
-Other part of the code actually instantiate the exception before throwing it.
-
-.. code-block:: php
-   
-    abstract class GameCollectionRules
-        {
-            /**
-             * @return string
-             * @throws NotImplementedException - Implement in children classes
-             */
-            public static function getType()
-            {
-                throw NotImplementedException();
-            }
-
-
-.. _case-useless-catch:
-
-Useless Catch
-#############
-
-.. _case-zurmo-exceptions-uselesscatch:
-
-Zurmo
-+++++
-
-
-:ref:`useless-catch`, in app/protected/modules/workflows/forms/attributes/ExplicitReadWriteModelPermissionsWorkflowActionAttributeForm.php:99. 
-
-Catch the exception, then return. At least, the comment is honest.
-
-.. code-block:: php
-   
-    try
-                    {
-                        $group = Group::getById((int)$this->type);
-                        $explicitReadWriteModelPermissions->addReadWritePermitable($group);
-                    }
-                    catch (NotFoundException $e)
-                    {
-                        //todo: handle exception better
-                        return;
-                    }
-
-
-.. _case-prestashop-exceptions-uselesscatch:
-
-PrestaShop
-++++++++++
-
-
-:ref:`useless-catch`, in src/Core/Addon/Module/ModuleManagerBuilder.php:170. 
-
-Here, the catch clause will intercept a IO problem while writing element on the disk, and will return false. Since this is a constructor, the returned value will be ignored and the object will be left in a wrong state, since it was not totally inited.
-
-.. code-block:: php
-   
-    private function __construct()
-        {
-        // More code......
-                try {
-                    $filesystem = new Filesystem();
-                    $filesystem->dumpFile($phpConfigFile, '<?php return ' . var_export($config, true) . ';' . \n);
-                } catch (IOException $e) {
-                    return false;
-                }
-            }
-
-
-.. _case-add-default-value:
-
-Add Default Value
-#################
-
-.. _case-zurmo-functions-adddefaultvalue:
-
-Zurmo
-+++++
-
-
-:ref:`add-default-value`, in wp-admin/includes/misc.php:74. 
-
-Default values may be a literal (1, 'abc', ...), or a constant : global or class. Here, MissionsListConfigurationForm::LIST_TYPE_AVAILABLE may be used directly in the signature of the method
-
-.. code-block:: php
-   
-    public function getMetadataFilteredByOption($option)
-            {
-                if ($option == null)
-                {
-                    $option = MissionsListConfigurationForm::LIST_TYPE_AVAILABLE;
-                }
-
-
-.. _case-typo3-functions-adddefaultvalue:
-
-Typo3
-+++++
-
-
-:ref:`add-default-value`, in typo3/sysext/indexed_search/Classes/FileContentParser.php:821. 
-
-$extension could get a default value to handle default situations : for example, a file is htm format by default, unless better known. Also, the if/then structure could get a 'else' clause, to handle unknown situations : those are situations where the extension is provided but not known, in particular when the icon is missing in the storage folder.
-
-.. code-block:: php
-   
-    public function getIcon($extension)
-        {
-            if ($extension === 'htm') {
-                $extension = 'html';
-            } elseif ($extension === 'jpeg') {
-                $extension = 'jpg';
-            }
-            return 'EXT:indexed_search/Resources/Public/Icons/FileTypes/' . $extension . '.gif';
-        }
-
-
-.. _case-native-alias-functions-usage:
-
-Native Alias Functions Usage
-############################
-
-.. _case-cleverstyle-functions-aliasesusage:
-
-Cleverstyle
-+++++++++++
-
-
-:ref:`native-alias-functions-usage`, in modules/HybridAuth/Hybrid/thirdparty/Vimeo/Vimeo.php:422. 
-
-is_writeable() should be written is_writable(). No extra 'e'. 
-
-.. code-block:: php
-   
-    is_writeable($chunk_temp_dir)
-
-
-.. _case-phpmyadmin-functions-aliasesusage:
-
-phpMyAdmin
-++++++++++
-
-
-:ref:`native-alias-functions-usage`, in libraries/classes/Server/Privileges.php:5064. 
-
-join() should be written implode()
-
-.. code-block:: php
-   
-    join('`, `', $tmp_privs2['Update'])
-
-
-.. _case-use-named-boolean-in-argument-definition:
-
-Use Named Boolean In Argument Definition
-########################################
-
-.. _case-phpmyadmin-functions-avoidbooleanargument:
-
-phpMyAdmin
-++++++++++
-
-
-:ref:`use-named-boolean-in-argument-definition`, in /libraries/classes/Util.php:1929. 
-
-$request is an option to `checkParameters`, although it is not visibile with is its actual role.
-
-.. code-block:: php
-   
-    public static function checkParameters($params, $request = false) { 
-        /**/ 
-    }
-
-
-.. _case-cleverstyle-functions-avoidbooleanargument:
-
-Cleverstyle
-+++++++++++
-
-
-:ref:`use-named-boolean-in-argument-definition`, in /core/classes/Response.php:129. 
-
-$httponly is an option to `cookie`, and true/false makes it readable. There may be other situations, like fallback, or forcedd usage, so the boolean may be misleading. Note also the `$expire = 0`, which may be a date, or a special value. We need to read the documentation to understand this.
-
-.. code-block:: php
-   
-    public function cookie($name, $value, $expire = 0, $httponly = false) { /**/ } 	 { 
-        /**/ 
-    }
-
-
-.. _case-callback-function-needs-return:
-
-Callback Function Needs Return
-##############################
-
-.. _case-contao-functions-callbackneedsreturn:
-
-Contao
-++++++
-
-
-:ref:`callback-function-needs-return`, in core-bundle/src/Resources/contao/modules/ModuleQuicklink.php:91. 
-
-The empty closure returns `null`. The array_flip() array has now all its values set to null, and reset, as intended. A better alternative is to use the array_fill_keys() function, which set a default value to every element of an array, once provided with the expected keys.
-
-.. code-block:: php
-   
-    $arrPages = array_map(function () {}, array_flip($tmp));
-
-
-.. _case-phpdocumentor-functions-callbackneedsreturn:
-
-Phpdocumentor
-+++++++++++++
-
-
-:ref:`callback-function-needs-return`, in src/phpDocumentor/Plugin/ServiceProvider.php:24. 
-
-The array_walk() function is called on the plugin's list. Each element is registered with the application, but is not used directly : this is for later. The error mechanism is to throw an exception : this is the only expected feedback. As such, no return is expected. May be a 'foreach' loop would be more appropriate here, but this is syntactic sugar.
-
-.. code-block:: php
-   
-    array_walk(
-                $plugins,
-                function ($plugin) use ($app) {
-                    /** @var Plugin $plugin */
-                    $provider = (strpos($plugin->getClassName(), '\') === false)
-                        ? sprintf('phpDocumentor\Plugin\%s\ServiceProvider', $plugin->getClassName())
-                        : $plugin->getClassName();
-                    if (!class_exists($provider)) {
-                        throw new \RuntimeException('Loading Service Provider for ' . $provider . ' failed.');
-                    }
-    
-                    try {
-                        $app->register(new $provider($plugin));
-                    } catch (\InvalidArgumentException $e) {
-                        throw new \RuntimeException($e->getMessage());
-                    }
-                }
-            );
-
-
-.. _case-closure-could-be-a-callback:
-
-Closure Could Be A Callback
-###########################
-
-.. _case-tine20-functions-closure2string:
-
-Tine20
-++++++
-
-
-:ref:`closure-could-be-a-callback`, in tine20/Tinebase/Convert/Json.php:318. 
-
-is_scalar() is sufficient here.
-
-.. code-block:: php
-   
-    $value = array_filter($value, function ($val) { return is_scalar($val); });
-
-
-.. _case-nextcloud-functions-closure2string:
-
-NextCloud
-+++++++++
-
-
-:ref:`closure-could-be-a-callback`, in apps/files_sharing/lib/ShareBackend/Folder.php:114. 
-
-$qb is the object for the methodcall, passed via use. The closure may have been replaced with array($qb, 'createNamedParameter').
-
-.. code-block:: php
-   
-    $parents = array_map(function($parent) use ($qb) {
-    				return $qb->createNamedParameter($parent);
-    			}, $parents);
-
-
-.. _case-could-be-typehinted-callable:
-
-Could Be Typehinted Callable
-############################
-
-.. _case-magento-functions-couldbecallable:
-
-Magento
-+++++++
-
-
-:ref:`could-be-typehinted-callable`, in wp-admin/includes/misc.php:74. 
-
-$objMethod argument is used to call a function, a method or a localmethod. The typehint would save the middle condition, and make a better job than 'is_array' to check if $objMethod is callable. Yet, the final 'else' means that $objMethod is also the name of a method, and PHP won't validate this, unless there is a function with the same name. Here, callable is not an option. 
-
-.. code-block:: php
-   
-    public function each($objMethod, $args = [])
-        {
-            if ($objMethod instanceof \Closure) {
-                foreach ($this->getItems() as $item) {
-                    $objMethod($item, ...$args);
-                }
-            } elseif (is_array($objMethod)) {
-                foreach ($this->getItems() as $item) {
-                    call_user_func($objMethod, $item, ...$args);
-                }
-            } else {
-                foreach ($this->getItems() as $item) {
-                    $item->$objMethod(...$args);
-                }
-            }
-        }
-
-
-.. _case-prestashop-functions-couldbecallable:
-
-PrestaShop
-++++++++++
-
-
-:ref:`could-be-typehinted-callable`, in controllers/admin/AdminImportController.php:1147. 
-
-$funcname is tested with is_callable() before being used as a method. Typehint callable would reduce the size of the code. 
-
-.. code-block:: php
-   
-    public static function arrayWalk(&$array, $funcname, &$user_data = false)
-    	{
-    		if (!is_callable($funcname)) return false;
-    
-    		foreach ($array as $k => $row)
-    			if (!call_user_func_array($funcname, array($row, $k, $user_data)))
-    				return false;
-    		return true;
-    	}
-
-
-.. _case-could-be-static-closure:
-
-Could Be Static Closure
-#######################
-
-.. _case-piwigo-functions-couldbestaticclosure:
-
-Piwigo
-++++++
-
-
-:ref:`could-be-static-closure`, in include/ws_core.inc.php:620. 
-
-The closure function($m) makes no usage of the current object : using static prevents $this to be forwarded with the closure.
-
-.. code-block:: php
-   
-    /**
-       * WS reflection method implementation: lists all available methods
-       */
-      static function ws_getMethodList($params, &$service)
-      {
-        $methods = array_filter($service->_methods,
-          function($m) { return empty($m["options"]["hidden"]) || !$m["options"]["hidden"];} );
-        return array('methods' => new PwgNamedArray( array_keys($methods),'method' ) );
-      }
-
-
-.. _case-deep-definitions:
-
-Deep Definitions
-################
-
-.. _case-dolphin-functions-deepdefinitions:
-
-Dolphin
-+++++++
-
-
-:ref:`deep-definitions`, in wp-admin/includes/misc.php:74. 
-
-The ConstructHiddenValues function builds the ConstructHiddenSubValues function. Thus, ConstructHiddenValues can only be called once. 
-
-.. code-block:: php
-   
-    function ConstructHiddenValues($Values)
-    {
-        /**
-         *    Recursive function, processes multidimensional arrays
-         *
-         * @param string $Name  Full name of array, including all subarrays' names
-         *
-         * @param array  $Value Array of values, can be multidimensional
-         *
-         * @return string    Properly consctructed <input type="hidden"...> tags
-         */
-        function ConstructHiddenSubValues($Name, $Value)
-        {
-            if (is_array($Value)) {
-                $Result = "";
-                foreach ($Value as $KeyName => $SubValue) {
-                    $Result .= ConstructHiddenSubValues("{$Name}[{$KeyName}]", $SubValue);
-                }
-            } else // Exit recurse
-            {
-                $Result = "<input type="hidden" name=\\ . htmlspecialchars($Name) . "\" value=\"" . htmlspecialchars($Value) . "\/>\n\;
-            }
-    
-            return $Result;
-        }
-    
-        /* End of ConstructHiddenSubValues function */
-    
-        $Result = '';
-        if (is_array($Values)) {
-            foreach ($Values as $KeyName => $Value) {
-                $Result .= ConstructHiddenSubValues($KeyName, $Value);
-            }
-        }
-    
-        return $Result;
-    }
-
-
-.. _case-empty-function:
-
-Empty Function
-##############
-
-.. _case-contao-functions-emptyfunction:
-
-Contao
-++++++
-
-
-:ref:`empty-function`, in core-bundle/src/Resources/contao/modules/ModuleQuicklink.php:91. 
-
-The closure used with array_map() is empty : this means that the keys are all set to the returned value of the empty closure, which is null. The actual effect is to reset the values to NULL. A better solution, without using the empty closure, is to rely on array_fill_keys() to create an array with default values.  
-
-.. code-block:: php
-   
-    if (!empty($tmp) && \is_array($tmp))
-    			{
-    				$arrPages = array_map(function () {}, array_flip($tmp));
-    			}
-
-
-.. _case-mismatched-default-arguments:
-
-Mismatched Default Arguments
-############################
-
-.. _case-spip-functions-mismatcheddefaultarguments:
-
-SPIP
-++++
-
-
-:ref:`mismatched-default-arguments`, in ecrire/inc/lien.php:160. 
-
-generer_url_entite() takes $connect in, with a default value of empty string. Later, generer_url_entite() receives that value, but uses null as a default value. This forces the ternary test on $connect, to turn it into a null before shipping it to the next function, and having it processed accordingly.
-
-.. code-block:: php
-   
-    // http://code.spip.net/@traiter_lien_implicite
-    function traiter_lien_implicite($ref, $texte = '', $pour = 'url', $connect = '') {
-    
-        // some code was edited here
-    
-    	if (is_array($url)) {
-    		@list($type, $id) = $url;
-    		$url = generer_url_entite($id, $type, $args, $ancre, $connect ? $connect : null);
-    	}
-
-
-.. _case-mismatched-typehint:
-
-Mismatched Typehint
-###################
-
-.. _case-wordpress-functions-mismatchedtypehint:
-
-WordPress
-+++++++++
-
-
-:ref:`mismatched-typehint`, in wp-admin/includes/misc.php:74. 
-
-This code actually loads the file, join it, then split it again. file() would be sufficient. 
-
-.. code-block:: php
-   
-    $markerdata = explode( "\n", implode( '', file( $filename ) ) );
-
-
-.. _case-never-called-parameter:
-
-Never Called Parameter
-######################
-
-.. _case-piwigo-functions-neverusedparameter:
-
-Piwigo
-++++++
-
-
-:ref:`never-called-parameter`, in include/functions_html.inc.php:329. 
-
-$alternate_url is never explicitly passed to bad_request() : this doesn't show in this extract. It could be dropped from this code.
-
-.. code-block:: php
-   
-    function bad_request($msg, $alternate_url=null)
-    {
-      set_status_header(400);
-      if ($alternate_url==null)
-        $alternate_url = make_index_url();
-      redirect_html( $alternate_url,
-        '<div style="text-align:left; margin-left:5em;margin-bottom:5em;">
-    <h1 style="text-align:left; font-size:36px;">'.l10n('Bad request').'</h1><br>'
-    .$msg.'</div>',
-        5 );
-    }
-
-
-.. _case-no-boolean-as-default:
-
-No Boolean As Default
-#####################
-
-.. _case-openconf-functions-nobooleanasdefault:
-
-OpenConf
-++++++++
-
-
-:ref:`no-boolean-as-default`, in openconf/include.php:1264. 
-
-Why do we need a `chair` when printing a cell's file ? 
-
-.. code-block:: php
-   
-    function oc_printFileCells(&$sub, $chair = false) { /**/ }
-
-
-.. _case-no-class-as-typehint:
-
-No Class As Typehint
-####################
-
-.. _case-vanilla-functions-noclassastypehint:
-
-Vanilla
-+++++++
-
-
-:ref:`no-class-as-typehint`, in library/Vanilla/Formatting/Formats/RichFormat.php:51. 
-
-All three typehints are based on classes. When Parser or Renderer are changed, for testing, versioning or moduling reasons, they must subclass the original class. 
-
-.. code-block:: php
-   
-    public function __construct(Quill\Parser $parser, Quill\Renderer $renderer, Quill\Filterer $filterer) {
-            $this->parser = $parser;
-            $this->renderer = $renderer;
-            $this->filterer = $filterer;
-        }
-
-
-.. _case-phpmyadmin-functions-noclassastypehint:
-
-phpMyAdmin
-++++++++++
-
-
-:ref:`no-class-as-typehint`, in libraries/classes/CreateAddField.php:29. 
-
-Although the class is named 'DatabaseInterface', it is a class.
-
-.. code-block:: php
-   
-    public function __construct(DatabaseInterface $dbi)
-        {
-            $this->dbi = $dbi;
-        }
-
-
-.. _case-no-return-used:
-
-No Return Used
-##############
-
-.. _case-spip-functions-noreturnused:
-
-SPIP
-++++
-
-
-:ref:`no-return-used`, in ecrire/inc/utils.php:1067. 
-
-job_queue_remove() is called as an administration order, and the result is not checked. It is considered as a fire-and-forget command. 
-
-.. code-block:: php
-   
-    function job_queue_remove($id_job) {
-    	include_spip('inc/queue');
-    
-    	return queue_remove_job($id_job);
-    }
-
-
-.. _case-livezilla-functions-noreturnused:
-
-LiveZilla
-+++++++++
-
-
-:ref:`no-return-used`, in livezilla/_lib/trdp/Zend/Loader.php:114. 
-
-The loadFile method tries to load a file, aka as include. If the inclusion fails, a PHP error is emitted (an exception would do the same), and there is not error management. Hence, the 'return true;', which is not tested later. It may be dropped.
-
-.. code-block:: php
-   
-    public static function loadFile($filename, $dirs = null, $once = false)
-        {
-    // A lot of code to check and include files
-    
-            return true;
-        }
-
-
-.. _case-one-letter-functions:
-
-One Letter Functions
-####################
-
-.. _case-thinkphp-functions-oneletterfunctions:
-
-ThinkPHP
-++++++++
-
-
-:ref:`one-letter-functions`, in ThinkPHP/Mode/Api/functions.php:859. 
-
-There are also the functions C, E, G... The applications is written in a foreign language, which may be a base for non-significant function names.
-
-.. code-block:: php
-   
-    function F($name, $value = '', $path = DATA_PATH)
-
-
-.. _case-cleverstyle-functions-oneletterfunctions:
-
-Cleverstyle
-+++++++++++
-
-
-:ref:`one-letter-functions`, in core/drivers/DB/PostgreSQL.php:71. 
-
-There is also function f(). Those are actually overwritten methods. From the documentation, q() is for query, and f() is for fetch. Those are short names for frequently used functions.
-
-.. code-block:: php
-   
-    public function q ($query, ...$params) {
-
-
-.. _case-only-variable-passed-by-reference:
-
-Only Variable Passed By Reference
-#################################
-
-.. _case-dolphin-functions-onlyvariablepassedbyreference:
-
-Dolphin
-+++++++
-
-
-:ref:`only-variable-passed-by-reference`, in administration/charts.json.php:89. 
-
-This is not possible, as array_slice() returns a new array, and not a reference. Minimally, the intermediate result must be saved in a variable, then popped. Actually, this code extracts the element at key 1 in the $aData array, although this also works with hash (non-numeric keys).
-
-.. code-block:: php
-   
-    array_pop(array_slice($aData, 0, 1))
-
-
-.. _case-phpipam-functions-onlyvariablepassedbyreference:
-
-PhpIPAM
-+++++++
-
-
-:ref:`only-variable-passed-by-reference`, in functions/classes/class.Thread.php:243. 
-
-This is sneaky bug : the assignation $status = 0 returns a value, and not a variable. This leads PHP to mistake the initialized 0 with the variable $status and fails. It is not possible to initialize variable AND use them as argument.
-
-.. code-block:: php
-   
-    pcntl_waitpid($this->pid, $status = 0)
-
-
-.. _case-relay-function:
-
-Relay Function
-##############
-
-.. _case-teampass-functions-relayfunction:
-
-TeamPass
-++++++++
-
-
-:ref:`relay-function`, in includes/libraries/Goodby/CSV/Import/Standard/Interpreter.php:88. 
-
-This example puts actually a name on the events : this method 'delegate' and it does it in the smallest amount of possible work, being given all the arguments. 
-
-.. code-block:: php
-   
-    /**
-         * delegate to observer
-         *
-         * @param $observer
-         * @param $line
-         */
-        private function delegate($observer, $line)
-        {
-            call_user_func($observer, $line);
-        }
-
-
-.. _case-spip-functions-relayfunction:
-
-SPIP
-++++
-
-
-:ref:`relay-function`, in ecrire/inc/json.php:73. 
-
-var2js() acts as an alternative for json_encode(). Yet, it used to be directly called by the framework's code and difficult to change. With the advent of json_encode, the native function has been used, and even, a compatibility tool was set up. Thus, the relay function. 
-
-.. code-block:: php
-   
-    if (!function_exists('json_encode')) {
-    	function json_encode($v) {
-    		return var2js($v);
-    	}
-    }
-
-
-.. _case-argument-should-be-typehinted:
-
-Argument Should Be Typehinted
-#############################
-
-.. _case-dolphin-functions-shouldbetypehinted:
-
-Dolphin
-+++++++
-
-
-:ref:`argument-should-be-typehinted`, in Dolphin-v.7.3.5/plugins/intervention-image/Intervention/Image/Gd/Commands/WidenCommand.php:20. 
-
-This closures make immediate use of the $constraint argument, and calls its method aspectRatio. No check is made on this argument, and it may easily be mistaken with another class, or a null. Adding a typehint here will ensure a more verbose development error and help detect misuse of the closure. 
-
-.. code-block:: php
-   
-    $this->arguments[2] = function ($constraint) use ($additionalConstraints) {
-                $constraint->aspectRatio();
-                if(is_callable($additionalConstraints)) 
-                    $additionalConstraints($constraint);
-            };
-
-
-.. _case-mautic-functions-shouldbetypehinted:
-
-Mautic
-++++++
-
-
-:ref:`argument-should-be-typehinted`, in app/bundles/PluginBundle/Helper/IntegrationHelper.php:374. 
-
-This piece of code inside a 275 lines method. Besides, there are 11 classes that offer a 'getPriority' method, although $returnServices could help to semantically reduce the number of possible classes. Here, typehints on $a and $b help using the wrong kind of object. 
-
-.. code-block:: php
-   
-    if (empty($alphabetical)) {
-                // Sort by priority
-                uasort($returnServices, function ($a, $b) {
-                    $aP = (int) $a->getPriority();
-                    $bP = (int) $b->getPriority();
-    
-                    if ($aP === $bP) {
-                        return 0;
-                    }
-    
-                    return ($aP < $bP) ? -1 : 1;
-                });
-
-
-.. _case-should-use-existing-constants:
-
-Should Use Existing Constants
-#############################
-
-.. _case-tine20-functions-shoulduseconstants:
-
-Tine20
-++++++
-
-
-:ref:`should-use-existing-constants`, in tine20/Sales/Controller/Invoice.php:560. 
-
-True should be replaced by COUNT_RECURSIVE. The default one is COUNT_NORMAL.
-
-.. code-block:: php
-   
-    count($billables, true)
-
-
-.. _case-too-many-local-variables:
-
-Too Many Local Variables
-########################
-
-.. _case-humo-gen-functions-toomanylocalvariables:
-
-HuMo-Gen
-++++++++
-
-
-:ref:`too-many-local-variables`, in relations.php:813. 
-
-15 local variables pieces of code are hard to find in a compact form. This function shows one classic trait of such issue : a large ifthen is at the core of the function, and each time, it collects some values and build a larger string. This should probably be split between different methods in a class. 
-
-.. code-block:: php
-   
-    function calculate_nephews($generX) { // handed generations x is removed from common ancestor
-    global $db_functions, $reltext, $sexe, $sexe2, $language, $spantext, $selected_language, $foundX_nr, $rel_arrayX, $rel_arrayspouseX, $spouse;
-    global $reltext_nor, $reltext_nor2; // for Norwegian and Danish
-    
-    	if($selected_language=="es"){
-    		if($sexe=="m") { $neph=__('nephew'); $span_postfix="o "; $grson='nieto'; }
-    		else { $neph=__('niece'); $span_postfix="a "; $grson='nieta'; }
-    		//$gendiff = abs($generX - $generY); // FOUT
-    		$gendiff = abs($generX - $generY) - 1;
-    		$gennr=$gendiff-1;
-    		$degree=$grson." ".$gennr.$span_postfix;
-    		if($gendiff ==1) { $reltext=$neph.__(' of ');}
-    		elseif($gendiff > 1 AND $gendiff < 27) {
-    			spanish_degrees($gendiff,$grson);
-    			$reltext=$neph." ".$spantext.__(' of ');
-    		}
-    		else { $reltext=$neph." ".$degree; }
-    	} elseif ($selected_language==he){
-    		if($sexe=='m') { $nephniece = __('nephew'); }
-    ///............
-
-
-.. _case-too-many-parameters:
-
-Too Many Parameters
-###################
-
-.. _case-wordpress-functions-toomanyparameters:
-
-WordPress
-+++++++++
-
-
-:ref:`too-many-parameters`, in wp-admin/includes/misc.php:74. 
-
-11 parameters is a lot for a function. Note that it is more than the default configuration, and reported there. This may be configured.
-
-.. code-block:: php
-   
-    /**
-     * [identifyUserRights description]
-     * @param  string $groupesVisiblesUser  [description]
-     * @param  string $groupesInterditsUser [description]
-     * @param  string $isAdmin              [description]
-     * @param  string $idFonctions          [description]
-     * @return string                       [description]
-     */
-    function identifyUserRights(
-        $groupesVisiblesUser,
-        $groupesInterditsUser,
-        $isAdmin,
-        $idFonctions,
-        $server,
-        $user,
-        $pass,
-        $database,
-        $port,
-        $encoding,
-        $SETTINGS
-    ) {
-
-
-.. _case-churchcrm-functions-toomanyparameters:
-
-ChurchCRM
-+++++++++
-
-
-:ref:`too-many-parameters`, in src/Reports/ReminderReport.php:192. 
-
-10 parameters is a lot for a function. Here, we may also identify a family (ID, Name), and a full address (Address1, Address2, State, Zip, Country), which may be turned into an object. 
-
-.. code-block:: php
-   
-    public function StartNewPage($fam_ID, $fam_Name, $fam_Address1, $fam_Address2, $fam_City, $fam_State, $fam_Zip, $fam_Country, $fundOnlyString, $iFYID) 
-    {
-
-
-.. _case-unused-parameter:
-
-Unused Parameter
-################
-
-.. _case-thinkphp-functions-unusedarguments:
-
-ThinkPHP
-++++++++
-
-
-:ref:`unused-parameter`, in ThinkPHP/Library/Behavior/AgentCheckBehavior.class.php:18. 
-
-$params are requested, but never used. The method is not overloading another one, as the class doesn't extends anything. $params is unused. 
-
-.. code-block:: php
-   
-    class AgentCheckBehavior
-    {
-        public function run(&$params)
-        {
-            // 代理访问检测
-            $limitProxyVisit = C('LIMIT_PROXY_VISIT', null, true);
-            if ($limitProxyVisit && ($_SERVER['HTTP_X_FORWARDED_FOR'] || $_SERVER['HTTP_VIA'] || $_SERVER['HTTP_PROXY_CONNECTION'] || $_SERVER['HTTP_USER_AGENT_VIA'])) {
-                // 禁止代理访问
-                exit('Access Denied');
-            }
-        }
-    }
-
-
-.. _case-phpmyadmin-functions-unusedarguments:
-
-phpMyAdmin
-++++++++++
-
-
-:ref:`unused-parameter`, in libraries/classes/Display/Results.php:1985. 
-
-Although $column_index is documented, it is not found in the rest of the (long) body of the function. It might have been refactored into $sorted_column_index.
-
-.. code-block:: php
-   
-    /**
-         * Prepare parameters and html for sorted table header fields
-         *
-         * @param array    $sort_expression             sort expression
-         * @param array    $sort_expression_nodirection sort expression without direction
-         * @param string   $sort_tbl                    The name of the table to which
-         *                                             the current column belongs to
-         * @param string   $name_to_use_in_sort         The current column under
-         *                                             consideration
-         * @param array    $sort_direction              sort direction
-         * @param stdClass $fields_meta                 set of field properties
-         * @param integer  $column_index                The index number to current column
-         *
-         * @return  array   3 element array - $single_sort_order, $sort_order, $order_img
-         *
-         * @access  private
-         *
-         * @see     _getOrderLinkAndSortedHeaderHtml()
-         */
-        private function _getSingleAndMultiSortUrls(
-            array $sort_expression,
-            array $sort_expression_nodirection,
-            $sort_tbl,
-            $name_to_use_in_sort,
-            array $sort_direction,
-            $fields_meta,
-            $column_index
-        ) {
-        /**/
-            // find the sorted column index in row result
-            // (this might be a multi-table query)
-            $sorted_column_index = false;
-        /**/
-        }
-
-
-.. _case-unused-functions:
-
-Unused Functions
-################
-
-.. _case-woocommerce-functions-unusedfunctions:
-
-Woocommerce
-+++++++++++
-
-
-:ref:`unused-functions`, in includes/wc-core-functions.php:2124. 
-
-wc_is_external_resource() is unused. This is not obvious immediately, since there is a call from wc_get_relative_url(). Yet since wc_get_relative_url() itself is never used, then it is a dead function. As such, since wc_is_external_resource() is only called by this first function, it also dies, even though it is called in the code.
-
-.. code-block:: php
-   
-    /**
-     * Make a URL relative, if possible.
-     *
-     * @since 3.2.0
-     * @param string $url URL to make relative.
-     * @return string
-     */
-    function wc_get_relative_url( $url ) {
-    	return wc_is_external_resource( $url ) ? $url : str_replace( array( 'http://', 'https://' ), '//', $url );
-    }
-    
-    /**
-     * See if a resource is remote.
-     *
-     * @since 3.2.0
-     * @param string $url URL to check.
-     * @return bool
-     */
-    function wc_is_external_resource( $url ) {
-    	$wp_base = str_replace( array( 'http://', 'https://' ), '//', get_home_url( null, '/', 'http' ) );
-    
-    	return strstr( $url, '://' ) && ! strstr( $url, $wp_base );
-    }
-
-
-.. _case-piwigo-functions-unusedfunctions:
-
-Piwigo
-++++++
-
-
-:ref:`unused-functions`, in admin/include/functions.php:2167. 
-
-get_user_access_level_html_options() is unused and can't be find in the code.
-
-.. code-block:: php
-   
-    /**
-     * Returns access levels as array used on template with html_options functions.
-     *
-     * @param int $MinLevelAccess
-     * @param int $MaxLevelAccess
-     * @return array
-     */
-    function get_user_access_level_html_options($MinLevelAccess = ACCESS_FREE, $MaxLevelAccess = ACCESS_CLOSED)
-    {
-      $tpl_options = array();
-      for ($level = $MinLevelAccess; $level <= $MaxLevelAccess; $level++)
-      {
-        $tpl_options[$level] = l10n(sprintf('ACCESS_%d', $level));
-      }
-      return $tpl_options;
-    }
-
-
-.. _case-unused-inherited-variable-in-closure:
-
-Unused Inherited Variable In Closure
-####################################
-
-.. _case-shopware-functions-unusedinheritedvariable:
-
-shopware
-++++++++
-
-
-:ref:`unused-inherited-variable-in-closure`, in recovery/update/src/app.php:129. 
-
-In the first closuree, $containere is used as the root for the method calls, but $app is not used. It may be dropped. In fact, some of the following calls to $app->map() only request one inherited, $container.
-
-.. code-block:: php
-   
-    $app->map('/applyMigrations', function () use ($app, $container) {
-        $container->get('controller.batch')->applyMigrations();
-    })->via('GET', 'POST')->name('applyMigrations');
-    
-    $app->map('/importSnippets', function () use ($container) {
-        $container->get('controller.batch')->importSnippets();
-    })->via('GET', 'POST')->name('importSnippets');
-
-
-.. _case-mautic-functions-unusedinheritedvariable:
-
-Mautic
-++++++
-
-
-:ref:`unused-inherited-variable-in-closure`, in MauticCrmBundle/Tests/Integration/SalesforceIntegrationTest.php:1202. 
-
-$max is relayed to getLeadsToCreate(), while $restart is omitted. It may be dropped, along with its reference.
-
-.. code-block:: php
-   
-    function () use (&$restart, $max) {
-                        $args = func_get_args();
-    
-                        if (false === $args[2]) {
-                            return $max;
-                        }
-    
-                        $createLeads = $this->getLeadsToCreate($args[2], $max);
-    
-                        // determine whether to return a count or records
-                        if (false === $args[2]) {
-                            return count($createLeads);
-                        }
-    
-                        return $createLeads;
-                    }
-
-
-.. _case-use-constant-as-arguments:
-
-Use Constant As Arguments
-#########################
-
-.. _case-tikiwiki-functions-useconstantasarguments:
-
-Tikiwiki
-++++++++
-
-
-:ref:`use-constant-as-arguments`, in lib/language/Language.php:112. 
-
-E_WARNING is a valid value, but PHP documentation for trigger_error() explains that E_USER constants should be used. 
-
-.. code-block:: php
-   
-    trigger_error("Octal or hexadecimal string '" . $match[1] . "' not supported", E_WARNING)
-
-
-.. _case-shopware-functions-useconstantasarguments:
-
-shopware
-++++++++
-
-
-:ref:`use-constant-as-arguments`, in engine/Shopware/Plugins/Default/Core/Debug/Components/EventCollector.php:106. 
-
-One example where code review reports errors where unit tests don't : array_multisort actually requires sort order first (SORT_ASC or SORT_DESC), then sort flags (such as SORT_NUMERIC). Here, with SORT_DESC = 3 and SORT_NUMERIC = 1, PHP understands it as the coders expects it. The same error is repeated six times in the code. 
-
-.. code-block:: php
-   
-    array_multisort($order, SORT_NUMERIC, SORT_DESC, $this->results)
-
-
-.. _case-useless-referenced-argument:
-
-Useless Referenced Argument
-###########################
-
-.. _case-woocommerce-functions-uselessreferenceargument:
-
-Woocommerce
-+++++++++++
-
-
-:ref:`useless-referenced-argument`, in includes/data-stores/class-wc-product-variation-data-store-cpt.php:414. 
-
-$product is defined with a reference in the method signature, but it is also used as an object with a dynamical property. As such, the reference in the argument definition is too much.
-
-.. code-block:: php
-   
-    public function update_post_meta( &$product, $force = false ) {
-    		$meta_key_to_props = array(
-    			'_variation_description' => 'description',
-    		);
-    
-    		$props_to_update = $force ? $meta_key_to_props : $this->get_props_to_update( $product, $meta_key_to_props );
-    
-    		foreach ( $props_to_update as $meta_key => $prop ) {
-    					$value   = $product->{get_$prop}( 'edit' );
-    					$updated = update_post_meta( $product->get_id(), $meta_key, $value );
-    			if ( $updated ) {
-    				$this->updated_props[] = $prop;
-    			}
-    		}
-    
-    		parent::update_post_meta( $product, $force );
-
-
-.. _case-magento-functions-uselessreferenceargument:
-
-Magento
-+++++++
-
-
-:ref:`useless-referenced-argument`, in setup/src/Magento/Setup/Module/Di/Compiler/Config/Chain/PreferencesResolving.php:63. 
-
-$value is defined with a reference. In the following code, it is only read and never written : for index search, or by itself. In fact, $preferences is also only read, and never written. As such, both could be removed.
-
-.. code-block:: php
-   
-    private function resolvePreferenceRecursive(&$value, &$preferences)
-        {
-            return isset($preferences[$value])
-                ? $this->resolvePreferenceRecursive($preferences[$value], $preferences)
-                : $value;
-        }
-
-
-.. _case-useless-return:
-
-Useless Return
-##############
-
-.. _case-thinkphp-functions-uselessreturn:
-
-ThinkPHP
-++++++++
-
-
-:ref:`useless-return`, in library/think/Request.php:2121. 
-
-__set() doesn't need a return, unlike __get().
-
-.. code-block:: php
-   
-    public function __set($name, $value)
-        {
-            return $this->param[$name] = $value;
-        }
-
-
-.. _case-vanilla-functions-uselessreturn:
-
-Vanilla
-+++++++
-
-
-:ref:`useless-return`, in applications/dashboard/views/attachments/attachment.php:14. 
-
-The final 'return' is useless : return void (here, return without argument), is the same as returning null, unless the 'void' return type is used. The other return, is in the two conditions, is important to skip the end of the functioncall.
-
-.. code-block:: php
-   
-    function writeAttachment($attachment) {
-    
-            $customMethod = AttachmentModel::getWriteAttachmentMethodName($attachment['Type']);
-            if (function_exists($customMethod)) {
-                if (val('Error', $attachment)) {
-                    writeErrorAttachment($attachment);
-                    return;
-                }
-                $customMethod($attachment);
-            } else {
-                trace($customMethod, 'Write Attachment method not found');
-                trace($attachment, 'Attachment');
-            }
-            return;
-        }
-
-
-.. _case-wrong-number-of-arguments:
-
-Wrong Number Of Arguments
-#########################
-
-.. _case-xataface-functions-wrongnumberofarguments:
-
-xataface
-++++++++
-
-
-:ref:`wrong-number-of-arguments`, in actions/existing_related_record.php:130. 
-
-df_display() actually requires only 2 arguments, while three are provided. The last argument is completely ignored. df_display() is called in a total of 9 places : this now looks like an API change that left many calls untouched.
-
-.. code-block:: php
-   
-    df_display($context, $template, true);
-    
-    // in public-api.php :
-    function df_display($context, $template_name){
-    	import( 'Dataface/SkinTool.php');
-    	$st = Dataface_SkinTool::getInstance();
-    	
-    	return $st->display($context, $template_name);
-    }
-
-
-.. _case-wrong-optional-parameter:
-
-Wrong Optional Parameter
-########################
-
-.. _case-fuelcms-functions-wrongoptionalparameter:
-
-FuelCMS
-+++++++
-
-
-:ref:`wrong-optional-parameter`, in fuel/modules/fuel/helpers/validator_helper.php:78. 
-
-The $regex parameter should really be first, as it is compulsory. Though, if this is a legacy function, it may be better to give regex a default value, such as empty string or null, and test it before using it.
-
-.. code-block:: php
-   
-    if (!function_exists('regex'))
-    {
-    	function regex($var = null, $regex)
-    	{
-    		return preg_match('#'.$regex.'#', $var);
-    	} 
-    }
-
-
-.. _case-vanilla-functions-wrongoptionalparameter:
-
-Vanilla
-+++++++
-
-
-:ref:`wrong-optional-parameter`, in applications/dashboard/modules/class.navmodule.php:99. 
-
-Note the second parameter, $dropdown, which has no default value. It is relayed to the addDropdown method, which as no default value too. Since both methods are documented, we can see that they should be an addDropdown : null is probably a good idea, coupled with an explicit check on the actual value.
-
-.. code-block:: php
-   
-    /**
-         * Add a dropdown to the items array if it satisfies the $isAllowed condition.
-         *
-         * @param bool|string|array $isAllowed Either a boolean to indicate whether to actually add the item
-         * or a permission string or array of permission strings (full match) to check.
-         * @param DropdownModule $dropdown The dropdown menu to add.
-         * @param string $key The item's key (for sorting and CSS targeting).
-         * @param string $cssClass The dropdown wrapper's CSS class.
-         * @param array|int $sort Either a numeric sort position or and array in the style: array('before|after', 'key').
-         * @return NavModule $this The calling object.
-         */
-        public function addDropdownIf($isAllowed = true, $dropdown, $key = '', $cssClass = '', $sort = []) {
-            if (!$this->isAllowed($isAllowed)) {
-                return $this;
-            } else {
-                return $this->addDropdown($dropdown, $key, $cssClass, $sort);
-            }
-        }
-
-
-.. _case-already-parents-interface:
-
-Already Parents Interface
-#########################
-
-.. _case-wordpress-interfaces-alreadyparentsinterface:
-
-WordPress
-+++++++++
-
-
-:ref:`already-parents-interface`, in src/Phinx/Db/Adapter/AbstractAdapter.php:41. 
-
-SqlServerAdapter extends PdoAdapter, PdoAdapter extends AbstractAdapter. The first and the last both implements AdapterInterface. Only one is needed.
-
-.. code-block:: php
-   
-    /**
-     * Base Abstract Database Adapter.
-     */
-    abstract class AbstractAdapter implements AdapterInterface
-    {
-    
-    /// In the src/src/Phinx/Db/Adapter/SqlServerAdapter.php, line 45
-    /**
-     * Phinx SqlServer Adapter.
-     *
-     */
-    class SqlServerAdapter extends PdoAdapter implements AdapterInterface
-    {
-
-
-.. _case-thelia-interfaces-alreadyparentsinterface:
-
-Thelia
-++++++
-
-
-:ref:`already-parents-interface`, in core/lib/Thelia/Core/Template/Loop/BaseSpecificModule.php:35. 
-
-PropelSearchLoopInterface is implemented by both BaseSpecificModule and Payment
-
-.. code-block:: php
-   
-    abstract class BaseSpecificModule extends BaseI18nLoop implements PropelSearchLoopInterface
-    
-    /* in file  core/lib/Thelia/Core/Template/Loop/Payment.php, line 28 */
-    
-    class Payment extends BaseSpecificModule implements PropelSearchLoopInterface
-
-
-.. _case-undefined-interfaces:
-
-Undefined Interfaces
-####################
-
-.. _case-xataface-interfaces-undefinedinterfaces:
-
-xataface
-++++++++
-
-
-:ref:`undefined-interfaces`, in Dataface/Error.php:112. 
-
-Exception seems to be a typo, and leads to an always-true expression.
-
-.. code-block:: php
-   
-    public static function isError($obj){
-    		if ( !PEAR::isError($obj) and !($obj instanceof Exception_) ) return false;
-    		return ($obj->getCode() >= DATAFACE_E_ERROR);
-    	}
-
-
-.. _case-unused-interfaces:
-
-Unused Interfaces
-#################
-
-.. _case-tine20-interfaces-unusedinterfaces:
-
-Tine20
-++++++
-
-
-:ref:`unused-interfaces`, in tine20/Tinebase/User/LdapPlugin/Interface.php:20. 
-
-Tinebase_User_LdapPlugin_Interface is mentioned as a type for a property, in a php doc document. Typehinted properties are available since PHP 7.4
-
-.. code-block:: php
-   
-    interface Tinebase_User_LdapPlugin_Interface {
-    
-    //----------
-    // in tine20/Tinebase/User/ActiveDirectory.php
-    /** @var Tinebase_User_LdapPlugin_Interface $plugin */
-
-
-.. _case-useless-interfaces:
-
-Useless Interfaces
-##################
-
-.. _case-woocommerce-interfaces-uselessinterfaces:
-
-Woocommerce
-+++++++++++
-
-
-:ref:`useless-interfaces`, in includes/interfaces/class-wc-order-item-data-store-interface.php:20. 
-
-WC_Order_Item_Data_Store_Interface is used to structure the class WC_Order_Item_Data_Store. It is not used anywhere else.
-
-.. code-block:: php
-   
-    interface WC_Order_Item_Data_Store_Interface {
-    
-    
-    //////// 
-    //includes/data-stores/class-wc-order-item-data-store.php
-    
-    class WC_Order_Item_Data_Store implements WC_Order_Item_Data_Store_Interface {
-
-
-.. _case-hidden-use-expression:
-
-Hidden Use Expression
-#####################
-
-.. _case-tikiwiki-namespaces-hiddenuse:
-
-Tikiwiki
-++++++++
-
-
-:ref:`hidden-use-expression`, in lib/core/Tiki/Command/DailyReportSendCommand.php:17. 
-
-Sneaky error_reporting, hidden among the use calls. 
-
-.. code-block:: php
-   
-    namespace Tiki\Command;
-    
-    use Symfony\Component\Console\Command\Command;
-    use Symfony\Component\Console\Input\InputArgument;
-    use Symfony\Component\Console\Input\InputInterface;
-    use Symfony\Component\Console\Input\InputOption;
-    use Symfony\Component\Console\Output\OutputInterface;
-    error_reporting(E_ALL);
-    use TikiLib;
-    use Reports_Factory;
-
-
-.. _case-openemr-namespaces-hiddenuse:
-
-OpenEMR
-+++++++
-
-
-:ref:`hidden-use-expression`, in interface/patient_file/summary/browse.php:23. 
-
-Use expression is only reached when the csrf token is checked. This probably save some CPU when no csrf is available, but it breaks the readability of the file.
-
-.. code-block:: php
-   
-    <?php
-    /**
-     * Patient selector for insurance gui
-     *
-     * @package   OpenEMR
-     * @link      http://www.open-emr.org
-     * @author    Brady Miller <brady.g.miller@gmail.com>
-     * @copyright Copyright (c) 2018 Brady Miller <brady.g.miller@gmail.com>
-     * @license   https://github.com/openemr/openemr/blob/master/LICENSE GNU General Public License 3
-     */
-    
-    
-    require_once(../../globals.php);
-    require_once($srcdir/patient.inc);
-    require_once($srcdir/options.inc.php);
-    
-    if (!empty($_POST)) {
-        if (!verifyCsrfToken($_POST[csrf_token_form])) {
-            csrfNotVerified();
-        }
-    }
-    
-    use OpenEMR\Core\Header;
-
-
-.. _case-multiple-alias-definitions:
-
-Multiple Alias Definitions
-##########################
-
-.. _case-churchcrm-namespaces-multiplealiasdefinitions:
-
-ChurchCRM
-+++++++++
-
-
-:ref:`multiple-alias-definitions`, in Various files:--. 
-
-It is actually surprising to find FamilyQuery defined as ChurchCRM\Base\FamilyQuery only once, while all other reference are for ChurchCRM\FamilyQuery. That lone use is actually useful in the code, so it is not a forgotten refactorisation. 
-
-.. code-block:: php
-   
-    use ChurchCRM\Base\FamilyQuery	// in /src/MapUsingGoogle.php:7
-    
-    use ChurchCRM\FamilyQuery	// in /src/ChurchCRM/Dashboard/EventsDashboardItem.php:8
-                                // and 29 other files
-
-
-.. _case-phinx-namespaces-multiplealiasdefinitions:
-
-Phinx
-+++++
-
-
-:ref:`multiple-alias-definitions`, in Various files too:--. 
-
-One 'Command' is refering to a local Command class, while the other is refering to an imported class. They are all in a similar name space Console\Command. 
-
-.. code-block:: php
-   
-    use Phinx\Console\Command	                    //in file /src/Phinx/Console/PhinxApplication.php:34
-    use Symfony\Component\Console\Command\Command	//in file /src/Phinx/Console/Command/Init.php:31
-    use Symfony\Component\Console\Command\Command	//in file /src/Phinx/Console/Command/AbstractCommand.php:32
-
-
-.. _case-no-array\_merge()-in-loops:
-
-No array_merge() In Loops
-#########################
-
-.. _case-tine20-performances-arraymergeinloops:
-
-Tine20
-++++++
-
-
-:ref:`no-array\_merge()-in-loops`, in tine20/Tinebase/User/Ldap.php:670. 
-
-Classic example of array_merge() in loop : here, the attributures should be collected in a local variable, and then merged in one operation, at the end. That includes the attributes provided before the loop, and the array provided after the loop. 
-Note that the order of merge will be the same when merging than when collecting the arrays.
-
-.. code-block:: php
-   
-    $attributes = array_values($this->_rowNameMapping);
-            foreach ($this->_ldapPlugins as $plugin) {
-                $attributes = array_merge($attributes, $plugin->getSupportedAttributes());
-            }
-    
-            $attributes = array_merge($attributes, $this->_additionalLdapAttributesToFetch);
-
-
-.. _case-double-array\_flip():
-
-Double array_flip()
-###################
-
-.. _case-nextcloud-performances-doublearrayflip:
-
-NextCloud
-+++++++++
-
-
-:ref:`double-array\_flip()`, in lib/public/AppFramework/Http/EmptyContentSecurityPolicy.php:372. 
-
-The array $allowedScriptDomains is flipped, to unset 'self', then, unflipped (or flipped again), to restore its initial state. Using array_keys() or array_search() would yield the needed keys for unsetting, at a lower cost.
-
-.. code-block:: php
-   
-    if(is_string($this->useJsNonce)) {
-    				$policy .= '\'nonce-'.base64_encode($this->useJsNonce).'\'';
-    				$allowedScriptDomains = array_flip($this->allowedScriptDomains);
-    				unset($allowedScriptDomains['\'self\'']);
-    				$this->allowedScriptDomains = array_flip($allowedScriptDomains);
-    				if(count($allowedScriptDomains) !== 0) {
-    					$policy .= ' ';
-    				}
-    			}
-
-
-.. _case-isset()-on-the-whole-array:
-
-Isset() On The Whole Array
-##########################
-
-.. _case-tine20-performances-issetwholearray:
-
-Tine20
-++++++
-
-
-:ref:`isset()-on-the-whole-array`, in tine20/Crm/Model/Lead.php:208. 
-
-Only the second call is necessary : it also includes the first one.
-
-.. code-block:: php
-   
-    isset($relation['related_record']) && isset($relation['related_record']['n_fileas'])
-
-
-.. _case-expressionengine-performances-issetwholearray:
-
-ExpressionEngine
-++++++++++++++++
-
-
-:ref:`isset()-on-the-whole-array`, in system/ee/legacy/libraries/Form_validation.php:1487. 
-
-This is equivalent to `isset($this->_field_data[$field], $this->_field_data[$field]['postdata'])`, and the second call may be skipped.
-
-.. code-block:: php
-   
-    !isset($this->_field_data[$field]) OR !isset($this->_field_data[$field]['postdata'])
-
-
-.. _case-joining-file():
-
-Joining file()
-##############
-
-.. _case-wordpress-performances-joinfile:
-
-WordPress
-+++++++++
-
-
-:ref:`joining-file()`, in wp-admin/includes/misc.php:74. 
-
-This code actually loads the file, join it, then split it again. file() would be sufficient. 
-
-.. code-block:: php
-   
-    $markerdata = explode( "\n", implode( '', file( $filename ) ) );
-
-
-.. _case-spip-performances-joinfile:
-
-SPIP
-++++
-
-
-:ref:`joining-file()`, in ecrire/inc/install.php:109. 
-
-When the file is not accessible, file() returns null, and can't be processed by join(). 
-
-.. code-block:: php
-   
-    $s = @join('', file($file));
-
-
-.. _case-logical-to-in\_array:
-
-Logical To in_array
-###################
-
-.. _case-zencart-performances-logicaltoinarray:
-
-Zencart
-+++++++
-
-
-:ref:`logical-to-in\_array`, in admin/users.php:32. 
-
-Long list of == are harder to read. Using an in_array() call gathers all the strings together, in an array. In turn, this helps readability and possibility, reusability by making that list an constant. 
-
-.. code-block:: php
-   
-    // if needed, check that a valid user id has been passed
-    if (($action == 'update' || $action == 'reset') && isset($_POST['user']))
-    {
-      $user = $_POST['user'];
-    }
-    elseif (($action == 'edit' || $action == 'password' || $action == 'delete' || $action == 'delete_confirm') && $_GET['user'])
-    {
-      $user = $_GET['user'];
-    }
-    elseif(($action=='delete' || $action=='delete_confirm') && isset($_POST['user']))
-    {
-      $user = $_POST['user'];
-    }
-
-
-.. _case-make-one-call-with-array:
-
-Make One Call With Array
-########################
-
-.. _case-humo-gen-performances-makeonecall:
-
-HuMo-Gen
-++++++++
-
-
-:ref:`make-one-call-with-array`, in admin/include/kcfinder/lib/helper_text.php:47. 
-
-The three calls to str_replace() could be replaced by one, using array arguments. Nesting the calls doesn't reduce the number of calls.
-
-.. code-block:: php
-   
-    static function jsValue($string) {
-            return
-                preg_replace('/\r?\n/', "\n",
-                str_replace('"', "\\\,
-                str_replace("'", "\'",
-                str_replace("\", "\\",
-            $string))));
-        }
-
-
-.. _case-edusoho-performances-makeonecall:
-
-Edusoho
-+++++++
-
-
-:ref:`make-one-call-with-array`, in src/AppBundle/Common/StringToolkit.php:55. 
-
-Since str_replace is already using an array, the second argument must also be an array, with repeated empty strings. That syntax allows adding the '&nbsp;' and ' ' to those arrays. Note also that trim() should be be called early, but since some of the replacing may generate terminal spaces, it should be kept as is.
-
-.. code-block:: php
-   
-    $text = strip_tags($text);
-    
-            $text = str_replace(array(\n, \r, \t), '', $text);
-            $text = str_replace('&nbsp;', ' ', $text);
-            $text = trim($text);
+    $autosubmit = isset($params['autosubmit']) and $params['autosubmit'];
 
 
 .. _case-avoid-concat-in-loop:
@@ -4193,6 +660,136 @@ The foreach loop appends the $name and builds a fully qualified name.
             }
         }
         return $class . $layer;
+
+
+.. _case-avoid-optional-properties:
+
+Avoid Optional Properties
+#########################
+
+.. _case-churchcrm-classes-avoidoptionalproperties:
+
+ChurchCRM
++++++++++
+
+
+:ref:`avoid-optional-properties`, in src/ChurchCRM/BackupManager.php:401. 
+
+Backuptype is initialized with null, and yet, it isn't checked for any invalid valid values, in particular in switch() structures.
+
+.. code-block:: php
+   
+    // BackupType is initialized with null
+      class JobBase
+      {
+          /**
+            *
+            * @var BackupType
+            */
+          protected $BackupType;
+    
+    // In the child class BackupJob, BackupType may be of any type      
+      class BackupJob extends JobBase
+      {
+          /**
+           *
+           * @param String $BaseName
+           * @param BackupType $BackupType
+           * @param Boolean $IncludeExtraneousFiles
+           */
+          public function __construct($BaseName, $BackupType, $IncludeExtraneousFiles, $EncryptBackup, $BackupPassword)
+          {
+              $this->BackupType = $BackupType;
+    
+    
+    // Later, Backtype is not checked with all values : 
+              try {
+                  $this->DecryptBackup();
+                  switch ($this->BackupType) {
+                  case BackupType::SQL:
+                    $this->RestoreSQLBackup($this->RestoreFile);
+                    break;
+                  case BackupType::GZSQL:
+                    $this->RestoreGZSQL();
+                    break;
+                  case BackupType::FullBackup:
+                    $this->RestoreFullBackup();
+                    break;
+    // Note  : no default case here
+                }
+
+
+.. _case-dolibarr-classes-avoidoptionalproperties:
+
+Dolibarr
+++++++++
+
+
+:ref:`avoid-optional-properties`, in htdocs/product/stock/class/productlot.class.php:149. 
+
+$this->fk_product is tested for value 11 times while being used in this class. All detected situations were checking the presence of the property before usage.
+
+.. code-block:: php
+   
+    class Productlot extends CommonObject
+    {
+    // more code
+    	/**
+         * @var int ID
+         */
+    	public $fk_product;
+    
+    // Checked usage of fk_product
+    // line 341
+    		$sql .= ' fk_product = '.(isset($this->fk_product) ? $this->fk_product : "null").',';
+
+
+.. _case-avoid-substr()-one:
+
+Avoid Substr() One
+##################
+
+.. _case-churchcrm-structures-nosubstrone:
+
+ChurchCRM
++++++++++
+
+
+:ref:`avoid-substr()-one`, in src/Login.php:141. 
+
+No need to call substr() to get only one char. 
+
+.. code-block:: php
+   
+    if (substr($LocationFromGet, 0, 1) == "/") {
+        $LocationFromGet = substr($LocationFromGet, 1);
+    }
+
+
+.. _case-livezilla-structures-nosubstrone:
+
+LiveZilla
++++++++++
+
+
+:ref:`avoid-substr()-one`, in livezilla/_lib/objects.global.inc.php:2243. 
+
+No need to call substr() to get only one char. 
+
+.. code-block:: php
+   
+    $_hex = str_replace("#", "", $_hex);
+                if(strlen($_hex) == 3) {
+                $r = hexdec(substr($_hex,0,1).substr($_hex,0,1));
+                $g = hexdec(substr($_hex,1,1).substr($_hex,1,1));
+                $b = hexdec(substr($_hex,2,1).substr($_hex,2,1));
+            } else {
+                $r = hexdec(substr($_hex,0,2));
+                $g = hexdec(substr($_hex,2,2));
+                $b = hexdec(substr($_hex,4,2));
+            }
+            $rgb = array($r, $g, $b);
+            return $rgb;
 
 
 .. _case-avoid-glob()-usage:
@@ -4252,234 +849,6 @@ Recursive copy of folders, based on scandir(). ``DirectoryIterator`` and ``Files
     	}
 
 
-.. _case-no-count-with-0:
-
-No Count With 0
-###############
-
-.. _case-contao-performances-notcountnull:
-
-Contao
-++++++
-
-
-:ref:`no-count-with-0`, in system/modules/repository/classes/RepositoryManager.php:1148. 
-
-If $elist contains at least one element, then it is not empty().
-
-.. code-block:: php
-   
-    $ext->found = count($elist)>0;
-
-
-.. _case-wordpress-performances-notcountnull:
-
-WordPress
-+++++++++
-
-
-:ref:`no-count-with-0`, in wp-admin/includes/misc.php:74. 
-
-$build or $signature are empty at that point, no need to calculate their respective length. 
-
-.. code-block:: php
-   
-    // Check for zero length, although unlikely here
-        if (strlen($built) == 0 || strlen($signature) == 0) {
-          return false;
-        }
-
-
-.. _case-pre-increment:
-
-Pre-increment
-#############
-
-.. _case-expressionengine-performances-prepostincrement:
-
-ExpressionEngine
-++++++++++++++++
-
-
-:ref:`pre-increment`, in system/ee/EllisLab/ExpressionEngine/Controller/Utilities/Communicate.php:650. 
-
-Using preincrement in for() loops is safe and straightforward. 
-
-.. code-block:: php
-   
-    for ($x = 0; $x < $number_to_send; $x++)
-    		{
-    			$email_address = array_shift($recipient_array);
-    
-    			if ( ! $this->deliverEmail($email, $email_address))
-    			{
-    				$email->delete();
-    
-    				$debug_msg = ee()->email->print_debugger(array());
-    
-    				show_error(lang('error_sending_email').BR.BR.$debug_msg);
-    			}
-    			$email->total_sent++;
-    		}
-
-
-.. _case-traq-performances-prepostincrement:
-
-Traq
-++++
-
-
-:ref:`pre-increment`, in src/Controllers/Tickets.php:84. 
-
-$this->currentProject->next_ticket_id value is ignored by the code. It may be turned into a preincrement.
-
-.. code-block:: php
-   
-    TimelineModel::newTicketEvent($this->currentUser, $ticket)->save();
-    
-                $this->currentProject->next_ticket_id++;
-                $this->currentProject->save();
-
-
-.. _case-slow-functions:
-
-Slow Functions
-##############
-
-.. _case-churchcrm-performances-slowfunctions:
-
-ChurchCRM
-+++++++++
-
-
-:ref:`slow-functions`, in src/Reports/PrintDeposit.php:35. 
-
-You may replace this with a isset() : $_POST can't contain a NULL value, unless it was set by the script itself.
-
-.. code-block:: php
-   
-    array_key_exists("report_type", $_POST);
-
-
-.. _case-suitecrm-performances-slowfunctions:
-
-SuiteCrm
-++++++++
-
-
-:ref:`slow-functions`, in include/json_config.php:242. 
-
-This is a equivalent for nl2br()
-
-.. code-block:: php
-   
-    preg_replace("/\r\n/", "<BR>", $focus->$field)
-
-
-.. _case-strpos()-too-much:
-
-strpos() Too Much
-#################
-
-.. _case-wordpress-performances-strpostoomuch:
-
-WordPress
-+++++++++
-
-
-:ref:`strpos()-too-much`, in core/traits/Request/Server.php:127. 
-
-Instead of searching for ``HTTP_``, it is faster to compare the first 5 chars to the literal ``HTTP_``. In case of absence, this solution returns faster.
-
-.. code-block:: php
-   
-    if (strpos($header, 'HTTP_') === 0) {
-    				$header = substr($header, 5);
-    			} elseif (strpos($header, 'CONTENT_') !== 0) {
-    				continue;
-    			}
-
-
-.. _case-substring-first:
-
-Substring First
-###############
-
-.. _case-spip-performances-substrfirst:
-
-SPIP
-++++
-
-
-:ref:`substring-first`, in ecrire/inc/filtres.php:1694. 
-
-The code first makes everything uppercase, including the leading and trailing spaces, and then, removes them : it would be best to swap those operations. Note that spip_substr() is not considered in this analysis, but with SPIP knowledge, it could be moved inside the calls. 
-
-.. code-block:: php
-   
-    function filtre_initiale($nom) {
-    	return spip_substr(trim(strtoupper(extraire_multi($nom))), 0, 1);
-    }
-
-
-.. _case-prestashop-performances-substrfirst:
-
-PrestaShop
-++++++++++
-
-
-:ref:`substring-first`, in admin-dev/filemanager/include/utils.php:197. 
-
-dirname() reduces the string (or at least, keeps it the same size), so it more efficient to have it first.
-
-.. code-block:: php
-   
-    dirname(str_replace(' ', '~', $str))
-
-
-.. _case-time()-vs-strtotime():
-
-time() Vs strtotime()
-#####################
-
-.. _case-woocommerce-performances-timevsstrtotime:
-
-Woocommerce
-+++++++++++
-
-
-:ref:`time()-vs-strtotime()`, in includes/class-wc-webhook.php:384. 
-
-time() would be faster here, as an entropy generator. Yet, it would still be better to use an actual secure entropy generator, like random_byte or random_int. In case of older version, microtime() would yield better entropy. 
-
-.. code-block:: php
-   
-    public function get_new_delivery_id() {
-    		// Since we no longer use comments to store delivery logs, we generate a unique hash instead based on current time and webhook ID.
-    		return wp_hash( $this->get_id() . strtotime( 'now' ) );
-    	}
-
-
-.. _case-assign-with-and-precedence:
-
-Assign With And Precedence
-##########################
-
-.. _case-xataface-php-assignand:
-
-xataface
-++++++++
-
-
-:ref:`assign-with-and-precedence`, in Dataface/LanguageTool.php:265. 
-
-The usage of 'and' here is a workaround for PHP version that have no support for the coalesce. $autosubmit receives the value of $params['autosubmit'] only if the latter is set. Yet, with = having higher precedence over 'and', $autosubmit is mistaken with the existence of $params['autosubmit'] : its value is actually omitted.
-
-.. code-block:: php
-   
-    $autosubmit = isset($params['autosubmit']) and $params['autosubmit'];
-
-
 .. _case-avoid-set\_error\_handler-$context-argument:
 
 Avoid set_error_handler $context Argument
@@ -4528,1370 +897,43 @@ Gdn_ErrorHandler is a function that requires 6 arguments.
     set_error_handler('Gdn_ErrorHandler', E_ALL & ~E_STRICT)
 
 
-.. _case-use-random\_int():
+.. _case-bad-constants-names:
 
-Use random_int()
-################
-
-.. _case-thelia-php-betterrand:
-
-Thelia
-++++++
-
-
-:ref:`use-random\_int()`, in core/lib/Thelia/Tools/TokenProvider.php:151. 
-
-The whole function may be replaced by random_int(), as it generates random tokens. This needs an extra layer of hashing, to get a long and string results. 
-
-.. code-block:: php
-   
-    /**
-         * @return string
-         */
-        protected static function getComplexRandom()
-        {
-            $firstValue = (float) (mt_rand(1, 0xFFFF) * rand(1, 0x10001));
-            $secondValues = (float) (rand(1, 0xFFFF) * mt_rand(1, 0x10001));
-    
-            return microtime() . ceil($firstValue / $secondValues) . uniqid();
-        }
-
-
-.. _case-fuelcms-php-betterrand:
-
-FuelCMS
-+++++++
-
-
-:ref:`use-random\_int()`, in fuel/modules/fuel/libraries/Fuel.php:235. 
-
-Security tokens should be build with a CSPRNG source. uniqid() is based on time, and though it changes anytime (sic), it is easy to guess. Those days, it looks like '5b1262e74dbb9'; 
-
-.. code-block:: php
-   
-    $this->installer->change_config('config', '$config[\'encryption_key\'] = \'\';', '$config[\'encryption_key\'] = \''.md5(uniqid()).'\';');
-
-
-.. _case-deprecated-php-functions:
-
-Deprecated PHP Functions
-########################
-
-.. _case-dolphin-php-deprecated:
-
-Dolphin
-+++++++
-
-
-:ref:`deprecated-php-functions`, in Dolphin-v.7.3.5/inc/classes/BxDolAdminSettings.php:270. 
-
-Split() was abandonned in PHP 7.0
-
-.. code-block:: php
-   
-    split(',', $aItem['extra']);
-
-
-.. _case-wrong-fopen()-mode:
-
-Wrong fopen() Mode
-##################
-
-.. _case-tikiwiki-php-fopenmode:
-
-Tikiwiki
-++++++++
-
-
-:ref:`wrong-fopen()-mode`, in lib/tikilib.php:6777. 
-
-This fopen() mode doesn't exists. Use 'w' instead.
-
-.. code-block:: php
-   
-    fopen('php://temp', 'rw');
-
-
-.. _case-humo-gen-php-fopenmode:
-
-HuMo-Gen
-++++++++
-
-
-:ref:`wrong-fopen()-mode`, in include/phprtflite/lib/PHPRtfLite/StreamOutput.php:77. 
-
-This fopen() mode doesn't exists. Use 'w' instead.
-
-.. code-block:: php
-   
-    fopen($this->_filename, 'wr', false)
-
-
-.. _case-incompilable-files:
-
-Incompilable Files
-##################
-
-.. _case-xataface-php-incompilable:
-
-xataface
-++++++++
-
-
-:ref:`incompilable-files`, in lib/XML/Tree.php:289. 
-
-Compilation error with PHP 7.2 version.
-
-.. code-block:: php
-   
-    syntax error, unexpected 'new' (T_NEW)
-
-
-.. _case-wrong-parameter-type:
-
-Wrong Parameter Type
-####################
-
-.. _case-zencart-php-internalparametertype:
-
-Zencart
-+++++++
-
-
-:ref:`wrong-parameter-type`, in admin/includes/header.php:180. 
-
-setlocale() may be called with null or '' (empty string), and will set values from the environment. When called with "0" (the string), it only reports the current setting. Using an integer is probably undocumented behavior, and falls back to the zero string. 
-
-.. code-block:: php
-   
-    $loc = setlocale(LC_TIME, 0);
-            if ($loc !== FALSE) echo ' - ' . $loc; //what is the locale in use?
-
-
-.. _case-isset-multiple-arguments:
-
-Isset Multiple Arguments
-########################
-
-.. _case-thinkphp-php-issetmultipleargs:
-
-ThinkPHP
-++++++++
-
-
-:ref:`isset-multiple-arguments`, in library/think/Request.php:1187. 
-
-This may be shortened with isset($sub), $array[$name][$sub])
-
-.. code-block:: php
-   
-    isset($sub) && isset($array[$name][$sub])
-
-
-.. _case-livezilla-php-issetmultipleargs:
-
-LiveZilla
-+++++++++
-
-
-:ref:`isset-multiple-arguments`, in livezilla/_lib/trdp/pchart/class/pDraw.class.php:3852. 
-
-This is the equivalent of !(isset($Data["Series"][$SerieA]["Data"]) && isset($Data["Series"][$SerieB]["Data"])), and then, !(isset($Data["Series"][$SerieA]["Data"], $Data["Series"][$SerieB]["Data"]))
-
-.. code-block:: php
-   
-    !isset($Data["Series"][$SerieA]["Data"]) || !isset($Data["Series"][$SerieB]["Data"])
-
-
-.. _case-logical-should-use-symbolic-operators:
-
-Logical Should Use Symbolic Operators
-#####################################
-
-.. _case-cleverstyle-php-logicalinletters:
-
-Cleverstyle
-+++++++++++
-
-
-:ref:`logical-should-use-symbolic-operators`, in modules/Uploader/Mime/Mime.php:171. 
-
-$extension is assigned with the results of pathinfo($reference_name, PATHINFO_EXTENSION) and ignores static::hasExtension($extension). The same expression, placed in a condition (like an if), would assign a value to $extension and use another for the condition itself. Here, this code is only an expression in the flow.
-
-.. code-block:: php
-   
-    $extension = pathinfo($reference_name, PATHINFO_EXTENSION) and static::hasExtension($extension);
-
-
-.. _case-openconf-php-logicalinletters:
-
-OpenConf
-++++++++
-
-
-:ref:`logical-should-use-symbolic-operators`, in chair/export.inc:143. 
-
-In this context, the priority of execution is used on purpose; $coreFile only collect the temporary name of the export file, and when this name is empty, then the second operand of OR is executed, though never collected. Since this second argument is a 'die', its return value is lost, but the initial assignation is never used anyway. 
-
-.. code-block:: php
-   
-    $coreFile = tempnam('/tmp/', 'ocexport') or die('could not generate Excel file (6)')
-
-
-.. _case-possible-missing-subpattern:
-
-Possible Missing Subpattern
-###########################
-
-.. _case-phpmyadmin-php-missingsubpattern:
-
-phpMyAdmin
-++++++++++
-
-
-:ref:`possible-missing-subpattern`, in libraries/classes/Advisor.php:557. 
-
-The last capturing subpattern is ``( \[(.*)\])?`` and it is optional. Indeed, when the pattern succeed, the captured values are stored in ``$match``. Yet, the code checks for the existence of ``$match[3]`` before using it.
-
-.. code-block:: php
-   
-    if (preg_match("/rule\s'(.*)'( \[(.*)\])?$/", $line, $match)) {
-                        $ruleLine = 1;
-                        $ruleNo++;
-                        $rules[$ruleNo] = ['name' => $match[1]];
-                        $lines[$ruleNo] = ['name' => $i + 1];
-                        if (isset($match[3])) {
-                            $rules[$ruleNo]['precondition'] = $match[3];
-                            $lines[$ruleNo]['precondition'] = $i + 1;
-                        }
-
-
-.. _case-spip-php-missingsubpattern:
-
-SPIP
-++++
-
-
-:ref:`possible-missing-subpattern`, in ecrire/inc/filtres_dates.php:73. 
-
-This code avoid the PHP notice by padding the resulting array (see comment in French : eviter === avoid)
-
-.. code-block:: php
-   
-    if (preg_match("#^([12][0-9]{3}[-/][01]?[0-9])([-/]00)?( [-0-9:]+)?$#", $date, $regs)) {
-    				$regs = array_pad($regs, 4, null); // eviter notice php
-    				$date = preg_replace("@/@", "-", $regs[1]) . "-00" . $regs[3];
-    			} else {
-    				$date = date("Y-m-d H:i:s", strtotime($date));
-    			}
-
-
-.. _case-**-for-exponent:
-
-** For Exponent
-###############
-
-.. _case-traq-php-newexponent:
-
-Traq
-++++
-
-
-:ref:`**-for-exponent`, in src/views/layouts/_footer.phtm:5. 
-
-pow(1024, 2) could be (1023 ** 2), to convert bytes into Mb. 
-
-.. code-block:: php
-   
-    <?=round((microtime(true) - START_TIME), 2); ?>s, <?php echo round((memory_get_peak_usage() - START_MEM) / pow(1024, 2), 3)?>mb
-
-
-.. _case-teampass-php-newexponent:
-
-TeamPass
-++++++++
-
-
-:ref:`**-for-exponent`, in includes/libraries/Authentication/phpseclib/Math/BigInteger.php:286. 
-
-pow(2, 62) could also be hard coded with 0x4000000000000000. 
-
-.. code-block:: php
-   
-    pow(2, 62)
-
-
-.. _case-no-class-in-global:
-
-No Class In Global
-##################
-
-.. _case-dolphin-php-noclassinglobal:
-
-Dolphin
-+++++++
-
-
-:ref:`no-class-in-global`, in Dolphin-v.7.3.5/inc/classes/BxDolXml.php:10. 
-
-This class should be put away in a 'dolphin' or 'boonex' namespace.
-
-.. code-block:: php
-   
-    class BxDolXml { 
-        /* class BxDolXML code */ 
-    }
-
-
-.. _case-no-reference-for-ternary:
-
-No Reference For Ternary
-########################
-
-.. _case-phpadsnew-php-noreferenceforternary:
-
-phpadsnew
-+++++++++
-
-
-:ref:`no-reference-for-ternary`, in lib/OA/Admin/Menu/Section.php334:334. 
-
-The reference should be removed from the function definition. Either this method returns null, which is never a reference, or it returns $this, which is always a reference, or the results of a methodcall. The latter may or may not be a reference, but the Ternary operator will drop it and return by value. 
-
-.. code-block:: php
-   
-    function &getParentOrSelf($type)
-    	{
-            if ($this->type == $type) {
-                return $this;
-            }
-            else {
-                return $this->parentSection != null ? $this->parentSection->getParentOrSelf($type) : null;
-            }
-    	}
-
-
-.. _case-pathinfo()-returns-may-vary:
-
-Pathinfo() Returns May Vary
-###########################
-
-.. _case-nextcloud-php-pathinforeturns:
-
-NextCloud
-+++++++++
-
-
-:ref:`pathinfo()-returns-may-vary`, in lib/private/Preview/Office.php:56. 
-
-$absPath is build with the toTmpFile() method, which may return a boolean (false) in case of error. Error situations include the inability to create the temporary file.
-
-.. code-block:: php
-   
-    $absPath = $fileview->toTmpFile($path);
-    
-    // More code
-    
-    			list($dirname, , , $filename) = array_values(pathinfo($absPath));
-    			$pngPreview = $dirname . '/' . $filename . '.png';
-
-
-.. _case-preg\_match\_all()-flag:
-
-preg_match_all() Flag
-#####################
-
-.. _case-fuelcms-php-pregmatchallflag:
-
-FuelCMS
-+++++++
-
-
-:ref:`preg\_match\_all()-flag`, in fuel/modules/fuel/helpers/MY_array_helper.php:205. 
-
-Using PREG_SET_ORDER will remove the usage of the ``$key``variable.
-
-.. code-block:: php
-   
-    function parse_string_to_array($str)
-    	{
-    		preg_match_all('#(\w+)=([\'"])(.*)\2#U', $str, $matches);
-    		$params = array();
-    		foreach($matches[1] as $key => $val)
-    		{
-    			if (!empty($matches[3]))
-    			{
-    				$params[$val] = $matches[3][$key];
-    			}
-    		}
-    		return $params;
-    	}
-
-
-.. _case-php-keywords-as-names:
-
-PHP Keywords As Names
-#####################
-
-.. _case-churchcrm-php-reservednames:
-
-ChurchCRM
-+++++++++
-
-
-:ref:`php-keywords-as-names`, in src/kiosk/index.php:42. 
-
-$false may be true or false (or else...). In fact, the variable is not even defined in this file, and the file do a lot of inclusion. 
-
-.. code-block:: php
-   
-    if (!isset($_COOKIE['kioskCookie'])) {
-        if ($windowOpen) {
-            $guid = uniqid();
-            setcookie("kioskCookie", $guid, 2147483647);
-            $Kiosk = new \ChurchCRM\KioskDevice();
-            $Kiosk->setGUIDHash(hash('sha256', $guid));
-            $Kiosk->setAccepted($false);
-            $Kiosk->save();
-        } else {
-            header("HTTP/1.1 401 Unauthorized");
-            exit;
-        }
-    }
-
-
-.. _case-xataface-php-reservednames:
-
-xataface
-++++++++
-
-
-:ref:`php-keywords-as-names`, in Dataface/Record.php:1278. 
-
-This one is documented, and in the end, makes a lot of sense.
-
-.. code-block:: php
-   
-    function &getRelatedRecord($relationshipName, $index=0, $where=0, $sort=0){
-    		if ( isset($this->cache[__FUNCTION__][$relationshipName][$index][$where][$sort]) ){
-    			return $this->cache[__FUNCTION__][$relationshipName][$index][$where][$sort];
-    		}
-    		$it = $this->getRelationshipIterator($relationshipName, $index, 1, $where, $sort);
-    		if ( $it->hasNext() ){
-    			$rec =& $it->next();
-    			$this->cache[__FUNCTION__][$relationshipName][$index][$where][$sort] =& $rec;
-    			return $rec;
-    		} else {
-    			$null = null;	// stupid hack because literal 'null' can't be returned by ref.
-    			return $null;
-    		}
-    	}
-
-
-.. _case-should-preprocess-chr():
-
-Should Preprocess Chr()
-#######################
-
-.. _case-phpadsnew-php-shouldpreprocess:
-
-phpadsnew
-+++++++++
-
-
-:ref:`should-preprocess-chr()`, in phpAdsNew-2.0/adview.php:302. 
-
-Each call to chr() may be done before. First, chr() may be replace with the hexadecimal sequence "0x3B"; Secondly, 0x3b is a rather long replacement for a simple semi-colon. The whole pragraph could be stored in a separate file, for easier modifications. 
-
-.. code-block:: php
-   
-    echo chr(0x47).chr(0x49).chr(0x46).chr(0x38).chr(0x39).chr(0x61).chr(0x01).chr(0x00).
-    		     chr(0x01).chr(0x00).chr(0x80).chr(0x00).chr(0x00).chr(0x04).chr(0x02).chr(0x04).
-    		 	 chr(0x00).chr(0x00).chr(0x00).chr(0x21).chr(0xF9).chr(0x04).chr(0x01).chr(0x00).
-    		     chr(0x00).chr(0x00).chr(0x00).chr(0x2C).chr(0x00).chr(0x00).chr(0x00).chr(0x00).
-    		     chr(0x01).chr(0x00).chr(0x01).chr(0x00).chr(0x00).chr(0x02).chr(0x02).chr(0x44).
-    		     chr(0x01).chr(0x00).chr(0x3B);
-
-
-.. _case-should-use-array\_filter():
-
-Should Use array_filter()
-#########################
-
-.. _case-xataface-php-shouldusearrayfilter:
-
-xataface
-++++++++
-
-
-:ref:`should-use-array\_filter()`, in actions/manage_build_index.php:38. 
-
-This selection process has three tests : the two first are exclusive, and the third is inclusive. They could fit in one or several closures.
-
-.. code-block:: php
-   
-    $indexable = array();
-    		foreach ( $tables as $key=>$table ){
-    			if ( preg_match('/^dataface__/', $table) ){
-    				continue;
-    			}
-    			if ( preg_match('/^_/', $table) ){
-    				continue;
-    			}
-    			
-    			if ( $index->isTableIndexable($table) ){
-    				$indexable[] = $table;
-    				//unset($tables[$key]);
-    			}
-    			
-    		}
-
-
-.. _case-shopware-php-shouldusearrayfilter:
-
-shopware
-++++++++
-
-
-:ref:`should-use-array\_filter()`, in engine/Shopware/Bundle/StoreFrontBundle/Service/Core/VariantCoverService.php:71. 
-
-Closure would be the best here, since $covers has to be injected in the array_filter callback. 
-
-.. code-block:: php
-   
-    $covers = $this->variantMediaGateway->getCovers(
-                $products,
-                $context
-            );
-    
-            $fallback = [];
-            foreach ($products as $product) {
-                if (!array_key_exists($product->getNumber(), $covers)) {
-                    $fallback[] = $product;
-                }
-            }
-
-
-.. _case-should-use-coalesce:
-
-Should Use Coalesce
+Bad Constants Names
 ###################
 
-.. _case-churchcrm-php-shouldusecoalesce:
-
-ChurchCRM
-+++++++++
-
-
-:ref:`should-use-coalesce`, in src/ChurchCRM/Service/FinancialService.php:597. 
-
-ChurchCRM features 5 old style ternary operators, which are all in this SQL query. ChurchCRM requires PHP 7.0, so a simple code review could remove them all.
-
-.. code-block:: php
-   
-    $sSQL = "INSERT INTO pledge_plg
-                        (plg_famID,
-                        plg_FYID, 
-                        plg_date, 
-                        plg_amount,
-                        plg_schedule, 
-                        plg_method, 
-                        plg_comment, 
-                        plg_DateLastEdited, 
-                        plg_EditedBy, 
-                        plg_PledgeOrPayment, 
-                        plg_fundID, 
-                        plg_depID, 
-                        plg_CheckNo, 
-                        plg_scanString, 
-                        plg_aut_ID, 
-                        plg_NonDeductible, 
-                        plg_GroupKey)
-                        VALUES ('".
-              $payment->FamilyID."','".
-              $payment->FYID."','".
-              $payment->Date."','".
-              $Fund->Amount."','".
-              (isset($payment->schedule) ? $payment->schedule : 'NULL')."','".
-              $payment->iMethod."','".
-              $Fund->Comment."','".
-              date('YmdHis')."',".
-              $_SESSION['user']->getId().",'".
-              $payment->type."',".
-              $Fund->FundID.','.
-              $payment->DepositID.','.
-              (isset($payment->iCheckNo) ? $payment->iCheckNo : 'NULL').",'".
-              (isset($payment->tScanString) ? $payment->tScanString : 'NULL')."','".
-              (isset($payment->iAutID) ? $payment->iAutID : 'NULL')."','".
-              (isset($Fund->NonDeductible) ? $Fund->NonDeductible : 'NULL')."','".
-              $sGroupKey."')";
-
-
-.. _case-cleverstyle-php-shouldusecoalesce:
-
-Cleverstyle
-+++++++++++
-
-
-:ref:`should-use-coalesce`, in modules/Feedback/index.php:37. 
-
-Cleverstyle nests ternary operators when selecting default values. Here, moving some of them to ?? will reduce the code complexity and make it more readable. Cleverstyle requires PHP 7.0 or more recent.
-
-.. code-block:: php
-   
-    $Page->content(
-    	h::{'cs-form form'}(
-    		h::{'section.cs-feedback-form article'}(
-    			h::{'header h2.cs-text-center'}($L->Feedback).
-    			h::{'table.cs-table[center] tr| td'}(
-    				[
-    					h::{'cs-input-text input[name=name][required]'}(
-    						[
-    							'placeholder' => $L->feedback_name,
-    							'value'       => $User->user() ? $User->username() : (isset($_POST['name']) ? $_POST['name'] : '')
-    						]
-    					),
-    					h::{'cs-input-text input[type=email][name=email][required]'}(
-    						[
-    							'placeholder' => $L->feedback_email,
-    							'value'       => $User->user() ? $User->email : (isset($_POST['email']) ? $_POST['email'] : '')
-    						]
-    					),
-    					h::{'cs-textarea[autosize] textarea[name=text][required]'}(
-    						[
-    							'placeholder' => $L->feedback_text,
-    							'value'       => isset($_POST['text']) ? $_POST['text'] : ''
-    						]
-    					),
-    					h::{'cs-button button[type=submit]'}($L->feedback_send)
-    				]
-    			)
-    		)
-    	)
-    );
-
-
-.. _case-strtr-arguments:
-
-Strtr Arguments
-###############
-
-.. _case-suitecrm-php-strtrarguments:
-
-SuiteCrm
-++++++++
-
-
-:ref:`strtr-arguments`, in includes/vCard.php:221. 
-
-This code prepares incoming '$values' for extraction. The keys are cleaned then split with explode(). The '=' sign would stay, as strtr() can't remove it. This means that such keys won't be recognized later in the code, and gets omitted.
-
-.. code-block:: php
-   
-    $values = explode(';', $value);
-                        $key = strtoupper($keyvalue[0]);
-                        $key = strtr($key, '=', '');
-                        $key = strtr($key, ',', ';');
-                        $keys = explode(';', $key);
-
-
-.. _case-too-many-native-calls:
-
-Too Many Native Calls
-#####################
-
-.. _case-spip-php-toomanynativecalls:
-
-SPIP
-++++
-
-
-:ref:`too-many-native-calls`, in /ecrire/xml/analyser_dtd.php:58. 
-
-This expression counts 4 usages of count(), which is more than the default level of 3 PHP calls in one expression. 
-
-.. code-block:: php
-   
-    spip_log("Analyser DTD $avail $grammaire (" . spip_timer('dtd') . ") " . count($dtc->macros) . ' macros, ' . count($dtc->elements) . ' elements, ' . count($dtc->attributs) . " listes d'attributs, " . count($dtc->entites) . " entites")
-
-
-.. _case-use-php-object-api:
-
-Use PHP Object API
-##################
-
-.. _case-wordpress-php-useobjectapi:
-
-WordPress
-+++++++++
-
-
-:ref:`use-php-object-api`, in wp-includes/functions.php:2558. 
-
-Finfo has also a class, with the same name.
-
-.. code-block:: php
-   
-    finfo_open(FILEINFO_MIME_TYPE)
-
-
-.. _case-prestashop-php-useobjectapi:
+.. _case-prestashop-constants-badconstantnames:
 
 PrestaShop
 ++++++++++
 
 
-:ref:`use-php-object-api`, in admin-dev/filemanager/include/utils.php:174. 
+:ref:`bad-constants-names`, in src/PrestaShopBundle/Install/Upgrade.php:214. 
 
-transliterator_transliterate() has also a class named Transliterator
-
-.. code-block:: php
-   
-    transliterator_transliterate('Accents-Any', $str)
-
-
-.. _case-use-pathinfo:
-
-Use Pathinfo
-############
-
-.. _case-suitecrm-php-usepathinfo:
-
-SuiteCrm
-++++++++
-
-
-:ref:`use-pathinfo`, in include/utils/file_utils.php:441. 
-
-Looking for the extension ? Use pathinfo() and PATHINFO_EXTENSION 
+INSTALL_PATH is a valid name for a constant. __PS_BASE_URI__ is not a valid name.
 
 .. code-block:: php
    
-    $exp = explode('.', $filename);
+    require_once(INSTALL_PATH . 'install_version.php');
+                // needed for upgrade before 1.5
+                if (!defined('__PS_BASE_URI__')) {
+                    define('__PS_BASE_URI__', str_replace('//', '/', '/'.trim(preg_replace('#/(install(-dev)?/upgrade)$#', '/', str_replace('\', '/', dirname($_SERVER['REQUEST_URI']))), '/').'/'));
+                }
 
 
-.. _case-use-pathinfo()-arguments:
+.. _case-zencart-constants-badconstantnames:
 
-Use pathinfo() Arguments
-########################
-
-.. _case-zend-config-php-usepathinfoargs:
-
-Zend-Config
-+++++++++++
-
-
-:ref:`use-pathinfo()-arguments`, in src/Factory.php:74:90. 
-
-The `$filepath` is broken into pieces, and then, only the 'extension' part is used. With the PATHINFO_EXTENSION constant used as a second argument, only this value could be returned. 
-
-.. code-block:: php
-   
-    $pathinfo = pathinfo($filepath);
-    
-            if (! isset($pathinfo['extension'])) {
-                throw new Exception\RuntimeException(sprintf(
-                    'Filename "%s" is missing an extension and cannot be auto-detected',
-                    $filename
-                ));
-            }
-    
-            $extension = strtolower($pathinfo['extension']);
-            // Only $extension is used beyond that point
-
-
-.. _case-thinkphp-php-usepathinfoargs:
-
-ThinkPHP
-++++++++
-
-
-:ref:`use-pathinfo()-arguments`, in ThinkPHP/Extend/Library/ORG/Net/UploadFile.class.php:508. 
-
-Without any other check, pathinfo() could be used with PATHINFO_EXTENSION.
-
-.. code-block:: php
-   
-    private function getExt($filename) {
-            $pathinfo = pathinfo($filename);
-            return $pathinfo['extension'];
-        }
-
-
-.. _case-use-session\_start()-options:
-
-Use session_start() Options
-###########################
-
-.. _case-wordpress-php-usesessionstartoptions:
-
-WordPress
-+++++++++
-
-
-:ref:`use-session\_start()-options`, in wp-admin/includes/misc.php:74. 
-
-This code actually loads the file, join it, then split it again. file() would be sufficient. 
-
-.. code-block:: php
-   
-    $markerdata = explode( "\n", implode( '', file( $filename ) ) );
-
-
-.. _case-\_\_debuginfo()-usage:
-
-__debugInfo() Usage
-###################
-
-.. _case-dolibarr-php-debuginfousage:
-
-Dolibarr
-++++++++
-
-
-:ref:`\_\_debuginfo()-usage`, in htdocs/includes/stripe/lib/StripeObject.php:108. 
-
-_values is a private property from the Stripe Class. The class contains other objects, but only _values are displayed with var_dump.
-
-.. code-block:: php
-   
-    // Magic method for var_dump output. Only works with PHP >= 5.6
-        public function __debugInfo()
-        {
-            return $this->_values;
-        }
-
-
-.. _case-old-style-\_\_autoload():
-
-Old Style __autoload()
-######################
-
-.. _case-piwigo-php-oldautoloadusage:
-
-Piwigo
-++++++
-
-
-:ref:`old-style-\_\_autoload()`, in include/phpmailer/PHPMailerAutoload.php:45. 
-
-This code handles situations for PHP after 5.1.0 and older. Rare are the applications that are still using those versions in 2019.
-
-.. code-block:: php
-   
-    if (version_compare(PHP_VERSION, '5.1.2', '>=')) {
-        //SPL autoloading was introduced in PHP 5.1.2
-        if (version_compare(PHP_VERSION, '5.3.0', '>=')) {
-            spl_autoload_register('PHPMailerAutoload', true, true);
-        } else {
-            spl_autoload_register('PHPMailerAutoload');
-        }
-    } else {
-        /**
-         * Fall back to traditional autoload for old PHP versions
-         * @param string $classname The name of the class to load
-         */
-        function __autoload($classname)
-        {
-            PHPMailerAutoload($classname);
-        }
-    }
-
-
-.. _case-compare-hash:
-
-Compare Hash
-############
-
-.. _case-traq-security-comparehash:
-
-Traq
-++++
-
-
-:ref:`compare-hash`, in src/Models/User.php:105. 
-
-This code should also avoid using SHA1. 
-
-.. code-block:: php
-   
-    sha1($password) == $this->password
-
-
-.. _case-livezilla-security-comparehash:
-
-LiveZilla
-+++++++++
-
-
-:ref:`compare-hash`, in livezilla/_lib/objects.global.users.inc.php:1391. 
-
-This code is using the stronger SHA256 but compares it to another string. $_token may be non-empty, and still be comparable to 0. 
-
-.. code-block:: php
-   
-    function IsValidToken($_token)
-    {
-        if(!empty($_token))
-            if(hash("sha256",$this->Token) == $_token)
-                return true;
-        return false;
-    }
-
-
-.. _case-configure-extract:
-
-Configure Extract
-#################
-
-.. _case-zurmo-security-configureextract:
-
-Zurmo
-+++++
-
-
-:ref:`configure-extract`, in app/protected/modules/marketing/utils/GlobalMarketingFooterUtil.php:127. 
-
-This code intent to overwrite `$hash` and `$preview` : it is even literally in the code. The overwrite is intended too, and could even skip the initialisation of the variables. Although the compact()/extract() combinaison is safe as now, it could be safer to only relay the array index, instead of extracting the variables here. 
-
-.. code-block:: php
-   
-    public static function resolveManageSubscriptionsUrlByArray(array $queryStringArray, $preview = false)
-            {
-                $hash = $preview = null;
-                extract(static::resolvePreviewAndHashFromArray($queryStringArray));
-                return static::resolveManageSubscriptionsUrl($hash, $preview);
-            }
-    
-    // Also with : 
-            protected static function resolvePreviewAndHashFromArray(array $queryStringArray)
-            {
-                $preview    = static::resolvePreviewFromArray($queryStringArray);
-                $hash       = static::resolveHashByArray($queryStringArray);
-                return compact('hash', 'preview');
-            }
-
-
-.. _case-dolibarr-security-configureextract:
-
-Dolibarr
-++++++++
-
-
-:ref:`configure-extract`, in htdocs/includes/restler/framework/Luracast/Restler/Format/HtmlFormat.php:224. 
-
-The extract() has been cleverly set in a closure, with a limited scope. The potential overwrite may impact existing variables, such as `$_`, `$nav`, `$form`, and `$data` itself. This may impact the following including. Using EXTR_SKIP would give existing variables priority, and avoid interference. 
-
-.. code-block:: php
-   
-    $template = function ($view) use ($data, $path) {
-                $form = function () {
-                    return call_user_func_array(
-                        'Luracast\Restler\UI\Forms::get',
-                        func_get_args()
-                    );
-                };
-                if (!isset($data['form']))
-                    $data['form'] = $form;
-                $nav = function () {
-                    return call_user_func_array(
-                        'Luracast\Restler\UI\Nav::get',
-                        func_get_args()
-                    );
-                };
-                if (!isset($data['nav']))
-                    $data['nav'] = $nav;
-    
-                $_ = function () use ($data, $path) {
-                    extract($data);
-                    $args = func_get_args();
-                    $task = array_shift($args);
-                    switch ($task) {
-                        case 'require':
-                        case 'include':
-                            $file = $path . $args[0];
-                            if (is_readable($file)) {
-                                if (
-                                    isset($args[1]) &&
-                                    ($arrays = Util::nestedValue($data, $args[1]))
-                                ) {
-                                    $str = '';
-                                    foreach ($arrays as $arr) {
-                                        extract($arr);
-                                        $str .= include $file;
-                                    }
-                                    return $str;
-                                } else {
-                                    return include $file;
-                                }
-                            }
-                            break;
-                        case 'if':
-                            if (count($args) < 2)
-                                $args[1] = '';
-                            if (count($args) < 3)
-                                $args[2] = '';
-                            return $args[0] ? $args[1] : $args[2];
-                            break;
-                        default:
-                            if (isset($data[$task]) && is_callable($data[$task]))
-                                return call_user_func_array($data[$task], $args);
-                    }
-                    return '';
-                };
-                extract($data);
-                return @include $view;
-            };
-
-
-.. _case-safe-curl-options:
-
-Safe Curl Options
-#################
-
-.. _case-openconf-security-curloptions:
-
-OpenConf
-++++++++
-
-
-:ref:`safe-curl-options`, in openconf/include.php:703. 
-
-The function that holds that code is only used to call openconf.com, over http, while openconf.com is hosted on https, nowadays. This may be a sign of hard to access certificates.
-
-.. code-block:: php
-   
-    $ch = curl_init();
-    			curl_setopt($ch, CURLOPT_URL, $f);
-    			curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-    			curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);       
-    			curl_setopt($ch, CURLOPT_AUTOREFERER, true);       
-    			curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);       
-    			curl_setopt($ch, CURLOPT_MAXREDIRS, 5);       
-    			curl_setopt($ch, CURLOPT_HEADER, false);       
-    			$s = curl_exec($ch);
-    			curl_close($ch);
-    			return($s);
-
-
-.. _case-don't-echo-error:
-
-Don't Echo Error
-################
-
-.. _case-churchcrm-security-dontechoerror:
-
-ChurchCRM
-+++++++++
-
-
-:ref:`don't-echo-error`, in wp-admin/includes/misc.php:74. 
-
-This is classic debugging code that should never reach production. mysqli_error() and mysqli_errno() provide valuable information is case of an error, and may be exploited by intruders.
-
-.. code-block:: php
-   
-    if (mysqli_error($cnInfoCentral) != '') {
-            echo gettext('An error occured: ').mysqli_errno($cnInfoCentral).'--'.mysqli_error($cnInfoCentral);
-        } else {
-
-
-.. _case-phpdocumentor-security-dontechoerror:
-
-Phpdocumentor
-+++++++++++++
-
-
-:ref:`don't-echo-error`, in src/phpDocumentor/Plugin/Graphs/Writer/Graph.php:77. 
-
-Default development behavior : display the caught exception. Production behavior should not display that message, but log it for later review. Also, the return in the catch should be moved to the main code sequence.
-
-.. code-block:: php
-   
-    public function processClass(ProjectDescriptor $project, Transformation $transformation)
-        {
-            try {
-                $this->checkIfGraphVizIsInstalled();
-            } catch (\Exception $e) {
-                echo $e->getMessage();
-    
-                return;
-            }
-
-
-.. _case-encoded-simple-letters:
-
-Encoded Simple Letters
-######################
-
-.. _case-zurmo-security-encodedletters:
-
-Zurmo
-+++++
-
-
-:ref:`encoded-simple-letters`, in yii/framework/web/CClientScript.php:783. 
-
-This actually decodes into a copyright notice. 
-
-'function cleanAndSanitizeScriptHeader(& $output)
-                        {
-                            $requiredOne = <span>Copyright &#169; Zurmo Inc., 2013. All rights reserved.;....'
-
-
-.. code-block:: php
-   
-    eval(\x66\x75\x6e\x63\x74\x69\x6f\x6e\x20\x63\x6c\x65\x61\x6e\x41\x6e\x64\x53\x61\x6e\x69\x74\x69\x7a\x65\x53\x63\x72 .
-         \x69\x70\x74\x48\x65\x61\x64\x65\x72\x28\x26\x20\x24\x6f\x75\x74\x70\x75\x74\x29\x0d\x0a\x20\x20\x20\x20\x20\x20 .
-         \x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x7b\x0d\x0a\x20\x20\x20\x20\x20\x20\x20 .
-         \x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x24\x72\x65\x71\x75\x69\x72 .
-         // several more lines like that
-
-
-.. _case-mkdir-default:
-
-Mkdir Default
-#############
-
-.. _case-mautic-security-mkdirdefault:
-
-Mautic
-++++++
-
-
-:ref:`mkdir-default`, in app/bundles/CoreBundle/Helper/AssetGenerationHelper.php:120. 
-
-This code is creating some directories for Javascript or CSS (from the directories names) : those require universal reading access, but probably no execution nor writing access. 0711 would be sufficient in this case.
-
-.. code-block:: php
-   
-    //combine the files into their corresponding name and put in the root media folder
-                    if ($env == 'prod') {
-                        $checkPaths = [
-                            $assetsFullPath,
-                            $assetsFullPath/css,
-                            $assetsFullPath/js,
-                        ];
-                        array_walk($checkPaths, function ($path) {
-                            if (!file_exists($path)) {
-                                mkdir($path);
-                            }
-                        });
-
-
-.. _case-openemr-security-mkdirdefault:
-
-OpenEMR
+Zencart
 +++++++
 
 
-:ref:`mkdir-default`, in interface/main/backuplog.php:27. 
+:ref:`bad-constants-names`, in zc_install/ajaxTestDBConnection.php:10. 
 
-If $BACKUP_EVENTLOG_DIR is a backup for an event log, this should be stored out of the web server reach, with low rights, beside the current user. This is part of a CLI PHP script. 
-
-.. code-block:: php
-   
-    mkdir($BACKUP_EVENTLOG_DIR)
-
-
-.. _case-register-globals:
-
-Register Globals
-################
-
-.. _case-teampass-security-registerglobals:
-
-TeamPass
-++++++++
-
-
-:ref:`register-globals`, in api/index.php:25. 
-
-The API starts with security features, such as the whitelist(). The whitelist applies to IP addresses, so the query string is not sanitized. Then, the QUERY_STRING is parsed, and creates a lot of new global variables.
+A case where PHP needs help : if the PHP version is older than 5.3, then it is valid to compensate. Though, this __DIR__ has a fixed value, wherever it is used, while the official __DIR__ change from dir to dir. 
 
 .. code-block:: php
    
-    teampass_whitelist();
-    
-    parse_str($_SERVER['QUERY_STRING']);
-    $method = $_SERVER['REQUEST_METHOD'];
-    $request = explode("/", substr(@$_SERVER['PATH_INFO'], 1));
-
-
-.. _case-xoops-security-registerglobals:
-
-XOOPS
-+++++
-
-
-:ref:`register-globals`, in htdocs/modules/system/admin/images/main.php:33:33. 
-
-This code only exports the POST variables as globals. And it does clean incoming variables, but not all of them. 
-
-.. code-block:: php
-   
-    // Check users rights
-    if (!is_object($xoopsUser) || !is_object($xoopsModule) || !$xoopsUser->isAdmin($xoopsModule->mid())) {
-        exit(_NOPERM);
-    }
-    
-    //  Check is active
-    if (!xoops_getModuleOption('active_images', 'system')) {
-        redirect_header('admin.php', 2, _AM_SYSTEM_NOTACTIVE);
-    }
-    
-    if (isset($_POST)) {
-        foreach ($_POST as $k => $v) {
-            ${$k} = $v;
-        }
-    }
-    
-    // Get Action type
-    $op = system_CleanVars($_REQUEST, 'op', 'list', 'string');
-
-
-.. _case-should-use-prepared-statement:
-
-Should Use Prepared Statement
-#############################
-
-.. _case-dolibarr-security-shouldusepreparedstatement:
-
-Dolibarr
-++++++++
-
-
-:ref:`should-use-prepared-statement`, in htdocs/product/admin/price_rules.php:76. 
-
-This code is well escaped, as the integer type cast will prevent any special chars to be used. Here, a prepared statement would apply a modern approach to securing this query.
-
-.. code-block:: php
-   
-    $db->query("DELETE FROM " . MAIN_DB_PREFIX . "product_pricerules WHERE level = " . (int) $i)
-
-
-.. _case-unserialize-second-arg:
-
-Unserialize Second Arg
-######################
-
-.. _case-piwigo-security-unserializesecondarg:
-
-Piwigo
-++++++
-
-
-:ref:`unserialize-second-arg`, in admin/configuration.php:491. 
-
-unserialize() extracts information from the $conf variable : this variable is read from a configuration file. It is later tested to be an array, whose index may not be all set (@$disabled[$type];). It would be safer to make $disabled an object, add the class to unserialize, and set default values to the needed properties/index. 
-
-.. code-block:: php
-   
-    $disabled = @unserialize(@$conf['disabled_derivatives']);
-
-
-.. _case-livezilla-security-unserializesecondarg:
-
-LiveZilla
-+++++++++
-
-
-:ref:`unserialize-second-arg`, in livezilla/_lib/objects.global.inc.php:2600. 
-
-unserialize() only extract a non-empty value here. But its content is not checked. It is later used as an array, with multiple index. 
-
-.. code-block:: php
-   
-    $this->Customs = (!empty($_row["customs"])) ? @unserialize($_row["customs"]) : array();
-
-
-.. _case-adding-zero:
-
-Adding Zero
-###########
-
-.. _case-thelia-structures-addzero:
-
-Thelia
-++++++
-
-
-:ref:`adding-zero`, in core/lib/Thelia/Model/Map/ProfileResourceTableMap.php:250. 
-
-This return statement is doing quite a lot, including a buried '0 + $offset'. This call is probably an echo to '1 + $offset', which is a little later in the expression.
-
-.. code-block:: php
-   
-    return serialize(array((string) $row[TableMap::TYPE_NUM == $indexType ? 0 + $offset : static::translateFieldName('ProfileId', TableMap::TYPE_PHPNAME, $indexType)], (string) $row[TableMap::TYPE_NUM == $indexType ? 1 + $offset : static::translateFieldName('ResourceId', TableMap::TYPE_PHPNAME, $indexType)]));
-
-
-.. _case-openemr-structures-addzero:
-
-OpenEMR
-+++++++
-
-
-:ref:`adding-zero`, in interface/forms/fee_sheet/new.php:466:534. 
-
-$main_provid is filtered as an integer. $main_supid is then filtered twice : one with the sufficent (int) and then, added with 0.
-
-.. code-block:: php
-   
-    if (!$alertmsg && ($_POST['bn_save'] || $_POST['bn_save_close'] || $_POST['bn_save_stay'])) {
-        $main_provid = 0 + $_POST['ProviderID'];
-        $main_supid  = 0 + (int)$_POST['SupervisorID'];
-        //.....
-
-
-.. _case-altering-foreach-without-reference:
-
-Altering Foreach Without Reference
-##################################
-
-.. _case-contao-structures-alteringforeachwithoutreference:
-
-Contao
-++++++
-
-
-:ref:`altering-foreach-without-reference`, in core-bundle/src/Resources/contao/classes/Theme.php:613. 
-
-$tmp[$kk] is &$vv.
-
-.. code-block:: php
-   
-    foreach ($tmp as $kk=>$vv)
-    								{
-    									// Do not use the FilesModel here – tables are locked!
-    									$objFile = $this->Database->prepare(SELECT uuid FROM tl_files WHERE path=?)
-    															  ->limit(1)
-    															  ->execute($this->customizeUploadPath($vv));
-    
-    									$tmp[$kk] = $objFile->uuid;
-    								}
-
-
-.. _case-wordpress-structures-alteringforeachwithoutreference:
-
-WordPress
-+++++++++
-
-
-:ref:`altering-foreach-without-reference`, in wp-admin/includes/misc.php:74. 
-
-$ids[$index] is &$rrid. 
-
-.. code-block:: php
-   
-    foreach($ids as $index => $rrid)
-                    {
-                        if($rrid == $this->Id)
-                        {
-                            $ids[$index] = $_id;
-                            $write = true;
-                            break;
-                        }
-                    }
+    if (!defined('__DIR__')) define('__DIR__', dirname(__FILE__));
 
 
 .. _case-bail-out-early:
@@ -5968,76 +1010,6 @@ This long example illustrates two aspects : first, the shortcut to the end of th
     }
 
 
-.. _case-use-basename-suffix:
-
-Use Basename Suffix
-###################
-
-.. _case-nextcloud-structures-basenamesuffix:
-
-NextCloud
-+++++++++
-
-
-:ref:`use-basename-suffix`, in lib/private/URLGenerator.php:176. 
-
-This code removes the 4 last letters from the images. It may be 'png', 'jpg' or 'txt'. 
-
-.. code-block:: php
-   
-    substr(basename($image), 0, -4)
-
-
-.. _case-dolibarr-structures-basenamesuffix:
-
-Dolibarr
-++++++++
-
-
-:ref:`use-basename-suffix`, in htdocs/core/website.inc.php:42. 
-
-The extension '.tpl.php' is dropped from the file name, unless it appears somewhere else in the $websitepagefile variable.
-
-.. code-block:: php
-   
-    str_replace(array('.tpl.php', 'page'), array('', ''), basename($websitepagefile))
-
-
-.. _case-strict-comparison-with-booleans:
-
-Strict Comparison With Booleans
-###############################
-
-.. _case-phinx-structures-booleanstrictcomparison:
-
-Phinx
-+++++
-
-
-:ref:`strict-comparison-with-booleans`, in src/Phinx/Db/Adapter/MysqlAdapter.php:1131. 
-
-`ìsNull( )`` always returns a boolean : it may be only be ``true`` or ``false``. Until typehinted properties or return typehint are used, isNull() may return anything else. 
-
-.. code-block:: php
-   
-    $column->isNull( ) == false
-
-
-.. _case-typo3-structures-booleanstrictcomparison:
-
-Typo3
-+++++
-
-
-:ref:`strict-comparison-with-booleans`, in typo3/sysext/lowlevel/Classes/Command/FilesWithMultipleReferencesCommand.php:90. 
-
-When ``dry-run`` is not defined, the getOption() method actually returns a ``null`` value. So, comparing the result of getOption() to false is actually wrong : using a constant to prevent values to be inconsistent is recommended here.
-
-.. code-block:: php
-   
-    $input->getOption('dry-run') != false
-
-
 .. _case-buried-assignation:
 
 Buried Assignation
@@ -6079,6 +1051,78 @@ The setting of the variable $cancelled is fairly hidden here, with its extra ope
                 if (isset($form) && !$cancelled = $this->isFormCancelled($form)) {
                     if ($this->isFormValid($form)) {
                         $fileData = $form['file']->getData();
+
+
+.. _case-callback-function-needs-return:
+
+Callback Function Needs Return
+##############################
+
+.. _case-contao-functions-callbackneedsreturn:
+
+Contao
+++++++
+
+
+:ref:`callback-function-needs-return`, in core-bundle/src/Resources/contao/modules/ModuleQuicklink.php:91. 
+
+The empty closure returns `null`. The array_flip() array has now all its values set to null, and reset, as intended. A better alternative is to use the array_fill_keys() function, which set a default value to every element of an array, once provided with the expected keys.
+
+.. code-block:: php
+   
+    $arrPages = array_map(function () {}, array_flip($tmp));
+
+
+.. _case-phpdocumentor-functions-callbackneedsreturn:
+
+Phpdocumentor
++++++++++++++
+
+
+:ref:`callback-function-needs-return`, in src/phpDocumentor/Plugin/ServiceProvider.php:24. 
+
+The array_walk() function is called on the plugin's list. Each element is registered with the application, but is not used directly : this is for later. The error mechanism is to throw an exception : this is the only expected feedback. As such, no return is expected. May be a 'foreach' loop would be more appropriate here, but this is syntactic sugar.
+
+.. code-block:: php
+   
+    array_walk(
+                $plugins,
+                function ($plugin) use ($app) {
+                    /** @var Plugin $plugin */
+                    $provider = (strpos($plugin->getClassName(), '\') === false)
+                        ? sprintf('phpDocumentor\Plugin\%s\ServiceProvider', $plugin->getClassName())
+                        : $plugin->getClassName();
+                    if (!class_exists($provider)) {
+                        throw new \RuntimeException('Loading Service Provider for ' . $provider . ' failed.');
+                    }
+    
+                    try {
+                        $app->register(new $provider($plugin));
+                    } catch (\InvalidArgumentException $e) {
+                        throw new \RuntimeException($e->getMessage());
+                    }
+                }
+            );
+
+
+.. _case-can't-instantiate-class:
+
+Can't Instantiate Class
+#######################
+
+.. _case-wordpress-classes-cantinstantiateclass:
+
+WordPress
++++++++++
+
+
+:ref:`can't-instantiate-class`, in wp-admin/includes/misc.php:74. 
+
+This code actually loads the file, join it, then split it again. file() would be sufficient. 
+
+.. code-block:: php
+   
+    $markerdata = explode( "\n", implode( '', file( $filename ) ) );
 
 
 .. _case-cast-to-boolean:
@@ -6304,6 +1348,82 @@ In case the body is an empty string, this will be correctly decoded, but will yi
     		return $response;
 
 
+.. _case-class,-interface,-enum-or-trait-with-identical-names:
+
+Class, Interface, Enum Or Trait With Identical Names
+####################################################
+
+.. _case-shopware-classes-citsamename:
+
+shopware
+++++++++
+
+
+:ref:`class,-interface,-enum-or-trait-with-identical-names`, in engine/Shopware/Components/Form/Interfaces/Element.php:30. 
+
+Most Element classes extends ModelEntity, which is an abstract class. There is also an interface, called Element, for forms. And, last, one of the class Element extends JsonSerializable, which is a PHP native interface. Namespaces are definitely crucial to understand which Element is which. 
+
+.. code-block:: php
+   
+    interface Element { /**/ } // in engine/Shopware/Components/Form/Interfaces/Element.php:30
+    
+    class Element implements \JsonSerializable { /**/ } 	// in engine/Shopware/Bundle/EmotionBundle/Struct/Element.php:29
+    
+    class Element extends ModelEntity { /**/ } 	// in /engine/Shopware/Models/Document/Element.php:37
+
+
+.. _case-nextcloud-classes-citsamename:
+
+NextCloud
++++++++++
+
+
+:ref:`class,-interface,-enum-or-trait-with-identical-names`, in lib/private/Files/Storage/Storage.php:33. 
+
+Interface Storage extends another Storage class. Here, the fully qualified name is used, so we can understand which storage is which at read time : a 'use' alias would make this line more confusing.
+
+.. code-block:: php
+   
+    interface Storage extends \OCP\Files\Storage { /**/ }
+
+
+.. _case-closure-could-be-a-callback:
+
+Closure Could Be A Callback
+###########################
+
+.. _case-tine20-functions-closure2string:
+
+Tine20
+++++++
+
+
+:ref:`closure-could-be-a-callback`, in tine20/Tinebase/Convert/Json.php:318. 
+
+is_scalar() is sufficient here.
+
+.. code-block:: php
+   
+    $value = array_filter($value, function ($val) { return is_scalar($val); });
+
+
+.. _case-nextcloud-functions-closure2string:
+
+NextCloud
++++++++++
+
+
+:ref:`closure-could-be-a-callback`, in apps/files_sharing/lib/ShareBackend/Folder.php:114. 
+
+$qb is the object for the methodcall, passed via use. The closure may have been replaced with array($qb, 'createNamedParameter').
+
+.. code-block:: php
+   
+    $parents = array_map(function($parent) use ($qb) {
+    				return $qb->createNamedParameter($parent);
+    			}, $parents);
+
+
 .. _case-common-alternatives:
 
 Common Alternatives
@@ -6372,6 +1492,152 @@ NextCloud
     		}
 
 
+.. _case-compare-hash:
+
+Compare Hash
+############
+
+.. _case-traq-security-comparehash:
+
+Traq
+++++
+
+
+:ref:`compare-hash`, in src/Models/User.php:105. 
+
+This code should also avoid using SHA1. 
+
+.. code-block:: php
+   
+    sha1($password) == $this->password
+
+
+.. _case-livezilla-security-comparehash:
+
+LiveZilla
++++++++++
+
+
+:ref:`compare-hash`, in livezilla/_lib/objects.global.users.inc.php:1391. 
+
+This code is using the stronger SHA256 but compares it to another string. $_token may be non-empty, and still be comparable to 0. 
+
+.. code-block:: php
+   
+    function IsValidToken($_token)
+    {
+        if(!empty($_token))
+            if(hash("sha256",$this->Token) == $_token)
+                return true;
+        return false;
+    }
+
+
+.. _case-configure-extract:
+
+Configure Extract
+#################
+
+.. _case-zurmo-security-configureextract:
+
+Zurmo
++++++
+
+
+:ref:`configure-extract`, in app/protected/modules/marketing/utils/GlobalMarketingFooterUtil.php:127. 
+
+This code intent to overwrite `$hash` and `$preview` : it is even literally in the code. The overwrite is intended too, and could even skip the initialisation of the variables. Although the compact()/extract() combinaison is safe as now, it could be safer to only relay the array index, instead of extracting the variables here. 
+
+.. code-block:: php
+   
+    public static function resolveManageSubscriptionsUrlByArray(array $queryStringArray, $preview = false)
+            {
+                $hash = $preview = null;
+                extract(static::resolvePreviewAndHashFromArray($queryStringArray));
+                return static::resolveManageSubscriptionsUrl($hash, $preview);
+            }
+    
+    // Also with : 
+            protected static function resolvePreviewAndHashFromArray(array $queryStringArray)
+            {
+                $preview    = static::resolvePreviewFromArray($queryStringArray);
+                $hash       = static::resolveHashByArray($queryStringArray);
+                return compact('hash', 'preview');
+            }
+
+
+.. _case-dolibarr-security-configureextract:
+
+Dolibarr
+++++++++
+
+
+:ref:`configure-extract`, in htdocs/includes/restler/framework/Luracast/Restler/Format/HtmlFormat.php:224. 
+
+The extract() has been cleverly set in a closure, with a limited scope. The potential overwrite may impact existing variables, such as `$_`, `$nav`, `$form`, and `$data` itself. This may impact the following including. Using EXTR_SKIP would give existing variables priority, and avoid interference. 
+
+.. code-block:: php
+   
+    $template = function ($view) use ($data, $path) {
+                $form = function () {
+                    return call_user_func_array(
+                        'Luracast\Restler\UI\Forms::get',
+                        func_get_args()
+                    );
+                };
+                if (!isset($data['form']))
+                    $data['form'] = $form;
+                $nav = function () {
+                    return call_user_func_array(
+                        'Luracast\Restler\UI\Nav::get',
+                        func_get_args()
+                    );
+                };
+                if (!isset($data['nav']))
+                    $data['nav'] = $nav;
+    
+                $_ = function () use ($data, $path) {
+                    extract($data);
+                    $args = func_get_args();
+                    $task = array_shift($args);
+                    switch ($task) {
+                        case 'require':
+                        case 'include':
+                            $file = $path . $args[0];
+                            if (is_readable($file)) {
+                                if (
+                                    isset($args[1]) &&
+                                    ($arrays = Util::nestedValue($data, $args[1]))
+                                ) {
+                                    $str = '';
+                                    foreach ($arrays as $arr) {
+                                        extract($arr);
+                                        $str .= include $file;
+                                    }
+                                    return $str;
+                                } else {
+                                    return include $file;
+                                }
+                            }
+                            break;
+                        case 'if':
+                            if (count($args) < 2)
+                                $args[1] = '';
+                            if (count($args) < 3)
+                                $args[2] = '';
+                            return $args[0] ? $args[1] : $args[2];
+                            break;
+                        default:
+                            if (isset($data[$task]) && is_callable($data[$task]))
+                                return call_user_func_array($data[$task], $args);
+                    }
+                    return '';
+                };
+                extract($data);
+                return @include $view;
+            };
+
+
 .. _case-continue-is-for-loop:
 
 Continue Is For Loop
@@ -6413,6 +1679,45 @@ break is used here for cases, unless the case includes a if/then structures, in 
                                 $this->setErrors(sprintf(_XOBJ_ERR_SHORTERTHAN, $k, (int)$v['maxlength']));
                                 continue 2;
                             }
+
+
+.. _case-could-be-abstract-class:
+
+Could Be Abstract Class
+#######################
+
+.. _case-edusoho-classes-couldbeabstractclass:
+
+Edusoho
++++++++
+
+
+:ref:`could-be-abstract-class`, in src/Biz/Task/Strategy/BaseStrategy.php:14. 
+
+BaseStrategy is extended by NormalStrategy, DefaultStrategy (Not shown here), but it is not instantiated itself.
+
+.. code-block:: php
+   
+    class BaseStrategy { 
+        // Class code
+    }
+
+
+.. _case-shopware-classes-couldbeabstractclass:
+
+shopware
+++++++++
+
+
+:ref:`could-be-abstract-class`, in engine/Shopware/Plugins/Default/Core/PaymentMethods/Components/GenericPaymentMethod.php:31. 
+
+A 'Generic' class sounds like a class that could be 'abstract'. 
+
+.. code-block:: php
+   
+    class GenericPaymentMethod extends BasePaymentMethod { 
+        // More class code
+    }
 
 
 .. _case-could-be-else:
@@ -6481,6 +1786,33 @@ Those two if structure may definitely merged into one single instruction.
             $checksum = sql_checksum_of_modified_row($statement);
             //error_log(CHECKSUM: .$checksum,0);
         }
+
+
+.. _case-could-be-private-class-constant:
+
+Could Be Private Class Constant
+###############################
+
+.. _case-phinx-classes-couldbeprivateconstante:
+
+Phinx
++++++
+
+
+:ref:`could-be-private-class-constant`, in src/Phinx/Db/Adapter/MysqlAdapter.php:46. 
+
+The code includes a fair number of class constants. The one listed here are only used to define TEXT columns in MySQL, with their maximal size. Since they are only intented to be used by the MySQL driver, they may be private.
+
+.. code-block:: php
+   
+    class MysqlAdapter extends PdoAdapter implements AdapterInterface
+    {
+    
+    //.....
+        const TEXT_SMALL   = 255;
+        const TEXT_REGULAR = 65535;
+        const TEXT_MEDIUM  = 16777215;
+        const TEXT_LONG    = 4294967295;
 
 
 .. _case-could-be-static:
@@ -6573,6 +1905,219 @@ $arrScanCache is a typical cache variables. It is set as global for persistence 
     
     	return $arrReturn;
     }
+
+
+.. _case-could-be-static-closure:
+
+Could Be Static Closure
+#######################
+
+.. _case-piwigo-functions-couldbestaticclosure:
+
+Piwigo
+++++++
+
+
+:ref:`could-be-static-closure`, in include/ws_core.inc.php:620. 
+
+The closure function($m) makes no usage of the current object : using static prevents $this to be forwarded with the closure.
+
+.. code-block:: php
+   
+    /**
+       * WS reflection method implementation: lists all available methods
+       */
+      static function ws_getMethodList($params, &$service)
+      {
+        $methods = array_filter($service->_methods,
+          function($m) { return empty($m["options"]["hidden"]) || !$m["options"]["hidden"];} );
+        return array('methods' => new PwgNamedArray( array_keys($methods),'method' ) );
+      }
+
+
+.. _case-could-be-typehinted-callable:
+
+Could Be Typehinted Callable
+############################
+
+.. _case-magento-functions-couldbecallable:
+
+Magento
++++++++
+
+
+:ref:`could-be-typehinted-callable`, in wp-admin/includes/misc.php:74. 
+
+$objMethod argument is used to call a function, a method or a localmethod. The typehint would save the middle condition, and make a better job than 'is_array' to check if $objMethod is callable. Yet, the final 'else' means that $objMethod is also the name of a method, and PHP won't validate this, unless there is a function with the same name. Here, callable is not an option. 
+
+.. code-block:: php
+   
+    public function each($objMethod, $args = [])
+        {
+            if ($objMethod instanceof \Closure) {
+                foreach ($this->getItems() as $item) {
+                    $objMethod($item, ...$args);
+                }
+            } elseif (is_array($objMethod)) {
+                foreach ($this->getItems() as $item) {
+                    call_user_func($objMethod, $item, ...$args);
+                }
+            } else {
+                foreach ($this->getItems() as $item) {
+                    $item->$objMethod(...$args);
+                }
+            }
+        }
+
+
+.. _case-prestashop-functions-couldbecallable:
+
+PrestaShop
+++++++++++
+
+
+:ref:`could-be-typehinted-callable`, in controllers/admin/AdminImportController.php:1147. 
+
+$funcname is tested with is_callable() before being used as a method. Typehint callable would reduce the size of the code. 
+
+.. code-block:: php
+   
+    public static function arrayWalk(&$array, $funcname, &$user_data = false)
+    	{
+    		if (!is_callable($funcname)) return false;
+    
+    		foreach ($array as $k => $row)
+    			if (!call_user_func_array($funcname, array($row, $k, $user_data)))
+    				return false;
+    		return true;
+    	}
+
+
+.. _case-could-use-compact:
+
+Could Use Compact
+#################
+
+.. _case-wordpress-structures-couldusecompact:
+
+WordPress
++++++++++
+
+
+:ref:`could-use-compact`, in wp-admin/includes/misc.php:74. 
+
+This code actually loads the file, join it, then split it again. file() would be sufficient. 
+
+.. code-block:: php
+   
+    $markerdata = explode( "\n", implode( '', file( $filename ) ) );
+
+
+.. _case-could-use-short-assignation:
+
+Could Use Short Assignation
+###########################
+
+.. _case-churchcrm-structures-coulduseshortassignation:
+
+ChurchCRM
++++++++++
+
+
+:ref:`could-use-short-assignation`, in src/ChurchCRM/utils/GeoUtils.php:74. 
+
+Sometimes, the variable is on the other side of the operator.
+
+.. code-block:: php
+   
+    $distance = 0.6213712 * $distance;
+
+
+.. _case-thelia-structures-coulduseshortassignation:
+
+Thelia
+++++++
+
+
+:ref:`could-use-short-assignation`, in local/modules/Tinymce/Resources/js/tinymce/filemanager/include/utils.php:70. 
+
+/= is rare, but it definitely could be used here.
+
+.. code-block:: php
+   
+    $size = $size / 1024;
+
+
+.. _case-could-use-try:
+
+Could Use Try
+#############
+
+.. _case-mautic-exceptions-couldusetry:
+
+Mautic
+++++++
+
+
+:ref:`could-use-try`, in app/bundles/StageBundle/Controller/StageController.php:78. 
+
+$limit is read as a session variable or a default value. There are no check here that $limit is not null, before using it in a division. It is easy to imagine this is done elsewhere, yet a try/catch could help intercept unwanted situations.
+
+.. code-block:: php
+   
+    //set limits
+            $limit = $this->get('session')->get(
+                'mautic.stage.limit',
+                $this->coreParametersHelper->getParameter('default_pagelimit')
+            );
+    /... Code where $limit is read but not modified /
+            $count = count($stages);
+            if ($count && $count < ($start + 1)) {
+                $lastPage = ($count === 1) ? 1 : (ceil($count / $limit)) ?: 1;
+
+
+.. _case-could-use-\_\_dir\_\_:
+
+Could Use __DIR__
+#################
+
+.. _case-woocommerce-structures-couldusedir:
+
+Woocommerce
++++++++++++
+
+
+:ref:`could-use-\_\_dir\_\_`, in includes/class-wc-api.php:162. 
+
+All the 120 occurrences use `dirname( __FILE__ )`, and could be upgraded to __DIR__ if backward compatibility to PHP 5.2 is not critical. 
+
+.. code-block:: php
+   
+    private function rest_api_includes() {
+    		// Exception handler.
+    		include_once dirname( __FILE__ ) . '/api/class-wc-rest-exception.php';
+    
+    		// Authentication.
+    		include_once dirname( __FILE__ ) . '/api/class-wc-rest-authentication.php';
+
+
+.. _case-piwigo-structures-couldusedir:
+
+Piwigo
+++++++
+
+
+:ref:`could-use-\_\_dir\_\_`, in include/random_compat/random.php:50. 
+
+`dirname( __FILE__ )` is cached into $RandomCompatDIR, then reused three times. Using __DIR__ would save that detour.
+
+.. code-block:: php
+   
+    $RandomCompatDIR = dirname(__FILE__);
+    
+        require_once $RandomCompatDIR.'/byte_safe_strings.php';
+        require_once $RandomCompatDIR.'/cast_to_int.php';
+        require_once $RandomCompatDIR.'/error_polyfill.php';
 
 
 .. _case-could-use-array\_fill\_keys:
@@ -6677,103 +2222,53 @@ This loop is quite complex : it collects $aro_value in $acl_array['aro'][$aro_se
     				}
 
 
-.. _case-could-use-compact:
+.. _case-could-use-self:
 
-Could Use Compact
-#################
+Could Use self
+##############
 
-.. _case-wordpress-structures-couldusecompact:
+.. _case-wordpress-classes-shoulduseself:
 
 WordPress
 +++++++++
 
 
-:ref:`could-use-compact`, in wp-admin/includes/misc.php:74. 
+:ref:`could-use-self`, in wp-admin/includes/misc.php:74. 
 
-This code actually loads the file, join it, then split it again. file() would be sufficient. 
-
-.. code-block:: php
-   
-    $markerdata = explode( "\n", implode( '', file( $filename ) ) );
-
-
-.. _case-could-use-\_\_dir\_\_:
-
-Could Use __DIR__
-#################
-
-.. _case-woocommerce-structures-couldusedir:
-
-Woocommerce
-+++++++++++
-
-
-:ref:`could-use-\_\_dir\_\_`, in includes/class-wc-api.php:162. 
-
-All the 120 occurrences use `dirname( __FILE__ )`, and could be upgraded to __DIR__ if backward compatibility to PHP 5.2 is not critical. 
+Securimage could be called self.
 
 .. code-block:: php
    
-    private function rest_api_includes() {
-    		// Exception handler.
-    		include_once dirname( __FILE__ ) . '/api/class-wc-rest-exception.php';
-    
-    		// Authentication.
-    		include_once dirname( __FILE__ ) . '/api/class-wc-rest-authentication.php';
+    class Securimage 
+    {
+    // Lots of code
+                Securimage::$_captchaId = $id;
+    }
 
 
-.. _case-piwigo-structures-couldusedir:
+.. _case-livezilla-classes-shoulduseself:
 
-Piwigo
-++++++
-
-
-:ref:`could-use-\_\_dir\_\_`, in include/random_compat/random.php:50. 
-
-`dirname( __FILE__ )` is cached into $RandomCompatDIR, then reused three times. Using __DIR__ would save that detour.
-
-.. code-block:: php
-   
-    $RandomCompatDIR = dirname(__FILE__);
-    
-        require_once $RandomCompatDIR.'/byte_safe_strings.php';
-        require_once $RandomCompatDIR.'/cast_to_int.php';
-        require_once $RandomCompatDIR.'/error_polyfill.php';
-
-
-.. _case-could-use-short-assignation:
-
-Could Use Short Assignation
-###########################
-
-.. _case-churchcrm-structures-coulduseshortassignation:
-
-ChurchCRM
+LiveZilla
 +++++++++
 
 
-:ref:`could-use-short-assignation`, in src/ChurchCRM/utils/GeoUtils.php:74. 
+:ref:`could-use-self`, in livezilla/_lib/objects.global.users.inc.php:1599. 
 
-Sometimes, the variable is on the other side of the operator.
-
-.. code-block:: php
-   
-    $distance = 0.6213712 * $distance;
-
-
-.. _case-thelia-structures-coulduseshortassignation:
-
-Thelia
-++++++
-
-
-:ref:`could-use-short-assignation`, in local/modules/Tinymce/Resources/js/tinymce/filemanager/include/utils.php:70. 
-
-/= is rare, but it definitely could be used here.
+Using self makes it obvious that Operator::GetSystemId() is a local call, while Communication::GetParameter() is external.
 
 .. code-block:: php
    
-    $size = $size / 1024;
+    class Operator extends BaseUser 
+    {
+        static function ReadParams()
+        {
+            if(!empty($_POST[POST_EXTERN_REQUESTED_INTERNID]))
+                return Communication::GetParameter(POST_EXTERN_REQUESTED_INTERNID,,$c,FILTER_SANITIZE_SPECIAL_CHARS,null,32);
+            else if(!empty($_GET[operator]))
+            {
+                $userid = Communication::GetParameter(operator,,$c,FILTER_SANITIZE_SPECIAL_CHARS,null,32,false,false);
+                $sysid = Operator::GetSystemId($userid);
+    }
 
 
 .. _case-could-use-str\_repeat():
@@ -6884,24 +2379,183 @@ There are two nested foreach here : they both have referenced blind variables. T
     }
 
 
-.. _case-\_\_dir\_\_-then-slash:
+.. _case-deep-definitions:
 
-__DIR__ Then Slash
-##################
+Deep Definitions
+################
 
-.. _case-traq-structures-dirthenslash:
+.. _case-dolphin-functions-deepdefinitions:
 
-Traq
-++++
+Dolphin
++++++++
 
 
-:ref:`\_\_dir\_\_-then-slash`, in src/Kernel.php:60. 
+:ref:`deep-definitions`, in wp-admin/includes/misc.php:74. 
 
-When executed in a path '/a/b/c', this code will require '/a../../vendor/autoload.php.
+The ConstructHiddenValues function builds the ConstructHiddenSubValues function. Thus, ConstructHiddenValues can only be called once. 
 
 .. code-block:: php
    
-    static::$loader = require __DIR__.'../../vendor/autoload.php';
+    function ConstructHiddenValues($Values)
+    {
+        /**
+         *    Recursive function, processes multidimensional arrays
+         *
+         * @param string $Name  Full name of array, including all subarrays' names
+         *
+         * @param array  $Value Array of values, can be multidimensional
+         *
+         * @return string    Properly consctructed <input type="hidden"...> tags
+         */
+        function ConstructHiddenSubValues($Name, $Value)
+        {
+            if (is_array($Value)) {
+                $Result = "";
+                foreach ($Value as $KeyName => $SubValue) {
+                    $Result .= ConstructHiddenSubValues("{$Name}[{$KeyName}]", $SubValue);
+                }
+            } else // Exit recurse
+            {
+                $Result = "<input type="hidden" name=\\ . htmlspecialchars($Name) . "\" value=\"" . htmlspecialchars($Value) . "\/>\n\;
+            }
+    
+            return $Result;
+        }
+    
+        /* End of ConstructHiddenSubValues function */
+    
+        $Result = '';
+        if (is_array($Values)) {
+            foreach ($Values as $KeyName => $Value) {
+                $Result .= ConstructHiddenSubValues($KeyName, $Value);
+            }
+        }
+    
+        return $Result;
+    }
+
+
+.. _case-dependant-trait:
+
+Dependant Trait
+###############
+
+.. _case-zencart-traits-dependanttrait:
+
+Zencart
++++++++
+
+
+:ref:`dependant-trait`, in app/library/zencart/CheckoutFlow/src/AccountFormValidator.php:14. 
+
+Note that addressEntries is used, and is also expected to be an array or an object with ArrayAccess. $addressEntries is only defined in a class called 'Guest' which is also the only one using that trait. Any other class using the AccountFormValidator trait must define addressEntries.
+
+.. code-block:: php
+   
+    trait AccountFormValidator
+    {
+    
+        abstract protected function getAddressFieldValue($fieldName);
+    
+        /**
+         * @return bool|int
+         */
+        protected function errorProcessing()
+        {
+            $error = false;
+            foreach ($this->addressEntries as $fieldName => $fieldDetails) {
+                $this->addressEntries[$fieldName]['value'] = $this->getAddressFieldValue($fieldName);
+                $fieldError = $this->processFieldValidator($fieldName, $fieldDetails);
+                $this->addressEntries[$fieldName]['error'] = $fieldError;
+                $error = $error | $fieldError;
+            }
+            return $error;
+        }
+
+
+.. _case-deprecated-php-functions:
+
+Deprecated PHP Functions
+########################
+
+.. _case-dolphin-php-deprecated:
+
+Dolphin
++++++++
+
+
+:ref:`deprecated-php-functions`, in Dolphin-v.7.3.5/inc/classes/BxDolAdminSettings.php:270. 
+
+Split() was abandonned in PHP 7.0
+
+.. code-block:: php
+   
+    split(',', $aItem['extra']);
+
+
+.. _case-disconnected-classes:
+
+Disconnected Classes
+####################
+
+.. _case-wordpress-classes-disconnectedclasses:
+
+WordPress
++++++++++
+
+
+:ref:`disconnected-classes`, in wp-admin/includes/misc.php:74. 
+
+This code actually loads the file, join it, then split it again. file() would be sufficient. 
+
+.. code-block:: php
+   
+    $markerdata = explode( "\n", implode( '', file( $filename ) ) );
+
+
+.. _case-don't-echo-error:
+
+Don't Echo Error
+################
+
+.. _case-churchcrm-security-dontechoerror:
+
+ChurchCRM
++++++++++
+
+
+:ref:`don't-echo-error`, in wp-admin/includes/misc.php:74. 
+
+This is classic debugging code that should never reach production. mysqli_error() and mysqli_errno() provide valuable information is case of an error, and may be exploited by intruders.
+
+.. code-block:: php
+   
+    if (mysqli_error($cnInfoCentral) != '') {
+            echo gettext('An error occured: ').mysqli_errno($cnInfoCentral).'--'.mysqli_error($cnInfoCentral);
+        } else {
+
+
+.. _case-phpdocumentor-security-dontechoerror:
+
+Phpdocumentor
++++++++++++++
+
+
+:ref:`don't-echo-error`, in src/phpDocumentor/Plugin/Graphs/Writer/Graph.php:77. 
+
+Default development behavior : display the caught exception. Production behavior should not display that message, but log it for later review. Also, the return in the catch should be moved to the main code sequence.
+
+.. code-block:: php
+   
+    public function processClass(ProjectDescriptor $project, Transformation $transformation)
+        {
+            try {
+                $this->checkIfGraphVizIsInstalled();
+            } catch (\Exception $e) {
+                echo $e->getMessage();
+    
+                return;
+            }
 
 
 .. _case-don't-loop-on-yield:
@@ -6952,6 +2606,125 @@ The replacement with ``yield from``is not straigthforward here. Yield is only ca
     }
 
 
+.. _case-don't-send-$this-in-constructor:
+
+Don't Send $this In Constructor
+###############################
+
+.. _case-woocommerce-classes-dontsendthisinconstructor:
+
+Woocommerce
++++++++++++
+
+
+:ref:`don't-send-$this-in-constructor`, in includes/class-wc-cart.php:107. 
+
+WC_Cart_Session and WC_Cart_Fees receives $this, the current object, at a moment where it is not consistent : for example, tax_display_cart hasn't been set yet. Although it may be unexpected to have an object called WC_Cart being called by the session or the fees, this is still a temporary inconsistence. 
+
+.. code-block:: php
+   
+    /**
+    	 * Constructor for the cart class. Loads options and hooks in the init method.
+    	 */
+    	public function __construct() {
+    		$this->session          = new WC_Cart_Session( $this );
+    		$this->fees_api         = new WC_Cart_Fees( $this );
+    		$this->tax_display_cart = $this->is_tax_displayed();
+    
+    		// Register hooks for the objects.
+    		$this->session->init();
+
+
+.. _case-contao-classes-dontsendthisinconstructor:
+
+Contao
+++++++
+
+
+:ref:`don't-send-$this-in-constructor`, in system/modules/core/library/Contao/Model.php:110. 
+
+$this is send to $objRegistry. $objRegistry is obtained with a factory, \Model\Registry::getInstance(). It is probably fully prepared at that point. Yet, $objRegistry is called and used to fill $this properties with full values. At some point, $objRegistry return values without having a handle on a fully designed object. 
+
+.. code-block:: php
+   
+    /**
+    	 * Load the relations and optionally process a result set
+    	 *
+    	 * @param \Database\Result $objResult An optional database result
+    	 */
+    	public function __construct(\Database\Result $objResult=null)
+    	{
+            // Some code was removed 
+    			$objRegistry = \Model\Registry::getInstance();
+    
+    			$this->setRow($arrData); // see #5439
+    			$objRegistry->register($this);
+    			
+            // More code below
+            // $this-> are set
+            // $objRegistry is called 
+        }
+
+
+.. _case-don't-unset-properties:
+
+Don't Unset Properties
+######################
+
+.. _case-vanilla-classes-dontunsetproperties:
+
+Vanilla
++++++++
+
+
+:ref:`don't-unset-properties`, in applications/dashboard/models/class.activitymodel.php:1073. 
+
+The _NotificationQueue property, in this class, is defined as an array. Here, it is destroyed, then recreated. The unset() is too much, as the assignation is sufficient to reset the array 
+
+.. code-block:: php
+   
+    /**
+         * Clear notification queue.
+         *
+         * @since 2.0.17
+         * @access public
+         */
+        public function clearNotificationQueue() {
+            unset($this->_NotificationQueue);
+            $this->_NotificationQueue = [];
+        }
+
+
+.. _case-typo3-classes-dontunsetproperties:
+
+Typo3
++++++
+
+
+:ref:`don't-unset-properties`, in typo3/sysext/linkvalidator/Classes/Linktype/InternalLinktype.php:73. 
+
+The property errorParams is emptied by unsetting it. The property is actually defined in the above class, as an array. Until the next error is added to this list, any access to the error list has to be checked with isset(), or yield an 'Undefined' warning. 
+
+.. code-block:: php
+   
+    public function checkLink($url, $softRefEntry, $reference)
+        {
+            $anchor = '';
+            $this->responseContent = true;
+            // Might already contain values - empty it
+            unset($this->errorParams);
+    //....
+    
+    abstract class AbstractLinktype implements LinktypeInterface
+    {
+        /**
+         * Contains parameters needed for the rendering of the error message
+         *
+         * @var array
+         */
+        protected $errorParams = [];
+
+
 .. _case-dont-mix-++:
 
 Dont Mix ++
@@ -6988,6 +2761,69 @@ The post-increment is not readable at first glance.
     foreach ($row['rootline'] as &$record) {
                     $record['margin'] = $i++ * 20;
                 }
+
+
+.. _case-double-array\_flip():
+
+Double array_flip()
+###################
+
+.. _case-nextcloud-performances-doublearrayflip:
+
+NextCloud
++++++++++
+
+
+:ref:`double-array\_flip()`, in lib/public/AppFramework/Http/EmptyContentSecurityPolicy.php:372. 
+
+The array $allowedScriptDomains is flipped, to unset 'self', then, unflipped (or flipped again), to restore its initial state. Using array_keys() or array_search() would yield the needed keys for unsetting, at a lower cost.
+
+.. code-block:: php
+   
+    if(is_string($this->useJsNonce)) {
+    				$policy .= '\'nonce-'.base64_encode($this->useJsNonce).'\'';
+    				$allowedScriptDomains = array_flip($this->allowedScriptDomains);
+    				unset($allowedScriptDomains['\'self\'']);
+    				$this->allowedScriptDomains = array_flip($allowedScriptDomains);
+    				if(count($allowedScriptDomains) !== 0) {
+    					$policy .= ' ';
+    				}
+    			}
+
+
+.. _case-drop-substr-last-arg:
+
+Drop Substr Last Arg
+####################
+
+.. _case-suitecrm-structures-substrlastarg:
+
+SuiteCrm
+++++++++
+
+
+:ref:`drop-substr-last-arg`, in modules/UpgradeWizard/uw_utils.php:2422. 
+
+substr() is even trying to go beyond the end of the string. 
+
+.. code-block:: php
+   
+    substr($relativeFile, 1, strlen($relativeFile))
+
+
+.. _case-tine20-structures-substrlastarg:
+
+Tine20
+++++++
+
+
+:ref:`drop-substr-last-arg`, in tine20/Calendar/Frontend/Cli.php:95. 
+
+Omitting the last character would yield the same result.
+
+.. code-block:: php
+   
+    substr($opt, 18, strlen($opt))
 
 
 .. _case-echo-with-concat:
@@ -7134,6 +2970,61 @@ The ``then`` block is empty and commented : yet, it may have been clearer to mak
     	if( (mb_strlen($_POST['name']) < 2) || (mb_strlen($_POST['name']) > 24) ) 	{ $errors[] = _('Name must be between 4 and 24 characters'); }
 
 
+.. _case-empty-classes:
+
+Empty Classes
+#############
+
+.. _case-wordpress-classes-emptyclass:
+
+WordPress
++++++++++
+
+
+:ref:`empty-classes`, in wp-includes/SimplePie/Core.php:54. 
+
+Empty class, but documented as backward compatibility. 
+
+.. code-block:: php
+   
+    /**
+     * SimplePie class.
+     *
+     * Class for backward compatibility.
+     *
+     * @deprecated Use {@see SimplePie} directly
+     * @package SimplePie
+     * @subpackage API
+     */
+    class SimplePie_Core extends SimplePie
+    {
+    
+    }
+
+
+.. _case-empty-function:
+
+Empty Function
+##############
+
+.. _case-contao-functions-emptyfunction:
+
+Contao
+++++++
+
+
+:ref:`empty-function`, in core-bundle/src/Resources/contao/modules/ModuleQuicklink.php:91. 
+
+The closure used with array_map() is empty : this means that the keys are all set to the returned value of the empty closure, which is null. The actual effect is to reset the values to NULL. A better solution, without using the empty closure, is to rely on array_fill_keys() to create an array with default values.  
+
+.. code-block:: php
+   
+    if (!empty($tmp) && \is_array($tmp))
+    			{
+    				$arrPages = array_map(function () {}, array_flip($tmp));
+    			}
+
+
 .. _case-empty-instructions:
 
 Empty Instructions
@@ -7272,24 +3163,33 @@ The test on $pid may be directly done on $treeid[$sosa][0]. The distance between
     			if (!empty($pid)) {
 
 
-.. _case-error\_reporting()-with-integers:
+.. _case-encoded-simple-letters:
 
-error_reporting() With Integers
-###############################
+Encoded Simple Letters
+######################
 
-.. _case-sugarcrm-structures-errorreportingwithinteger:
+.. _case-zurmo-security-encodedletters:
 
-SugarCrm
-++++++++
+Zurmo
++++++
 
 
-:ref:`error\_reporting()-with-integers`, in modules/UpgradeWizard/silentUpgrade_step1.php:436. 
+:ref:`encoded-simple-letters`, in yii/framework/web/CClientScript.php:783. 
 
-This only displays E_ERROR, the highest level of error reporting. It should be checked, as it happens in the 'silentUpgrade' script. 
+This actually decodes into a copyright notice. 
+
+'function cleanAndSanitizeScriptHeader(& $output)
+                        {
+                            $requiredOne = <span>Copyright &#169; Zurmo Inc., 2013. All rights reserved.;....'
+
 
 .. code-block:: php
    
-    ini_set('error_reporting', 1);
+    eval(\x66\x75\x6e\x63\x74\x69\x6f\x6e\x20\x63\x6c\x65\x61\x6e\x41\x6e\x64\x53\x61\x6e\x69\x74\x69\x7a\x65\x53\x63\x72 .
+         \x69\x70\x74\x48\x65\x61\x64\x65\x72\x28\x26\x20\x24\x6f\x75\x74\x70\x75\x74\x29\x0d\x0a\x20\x20\x20\x20\x20\x20 .
+         \x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x7b\x0d\x0a\x20\x20\x20\x20\x20\x20\x20 .
+         \x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x24\x72\x65\x71\x75\x69\x72 .
+         // several more lines like that
 
 
 .. _case-eval()-usage:
@@ -7330,49 +3230,50 @@ create_function() is actually an eval() in disguise : replace it with a closure 
     create_function('$cfgValue', 'return $cfgValue > 100;')
 
 
-.. _case-eval()-without-try:
+.. _case-exception-order:
 
-eval() Without Try
-##################
+Exception Order
+###############
 
-.. _case-fuelcms-structures-evalwithouttry:
+.. _case-woocommerce-exceptions-alreadycaught:
 
-FuelCMS
-+++++++
-
-
-:ref:`eval()-without-try`, in fuel/modules/fuel/controllers/Blocks.php:268. 
-
-The @ will prevent any error, while the try/catch allows the processing of certain types of error, namely the Fatal ones. 
-
-.. code-block:: php
-   
-    @eval($_name_var_eval)
+Woocommerce
++++++++++++
 
 
-.. _case-expressionengine-structures-evalwithouttry:
+:ref:`exception-order`, in includes/api/v1/class-wc-rest-products-controller.php:787. 
 
-ExpressionEngine
-++++++++++++++++
+This try/catch expression is able to catch both WC_Data_Exception and WC_REST_Exception. 
 
+In another file, /includes/api/class-wc-rest-exception.php, we find that WC_REST_Exception extends WC_Data_Exception (class WC_REST_Exception extends WC_Data_Exception {}). So WC_Data_Exception is more general, and a WC_REST_Exception exception is caught with WC_Data_Exception Exception. The second catch should be put in first.
 
-:ref:`eval()-without-try`, in system/ee/EllisLab/Addons/member/mod.member_memberlist.php:637. 
-
-$cond is build from values extracted from the $fields array. Although it is probably reasonably safe, a try/catch here will collect any unexpected situation cleaningly.
+This code actually loads the file, join it, then split it again. file() would be sufficient. 
 
 .. code-block:: php
    
-    elseif (isset($fields[$val['3']]))
-    					{
-    						if (array_key_exists('m_field_id_'.$fields[$val['3']], $row))
-    						{
-    							$v = $row['m_field_id_'.$fields[$val['3']]];
+    try {
+    			$product_id = $this->save_product( $request );
+    			$post       = get_post( $product_id );
+    			$this->update_additional_fields_for_object( $post, $request );
+    			$this->update_post_meta_fields( $post, $request );
     
-    							$lcond = str_replace($val['3'], "$v", $lcond);
-    							$cond = $lcond.' '.$rcond;
-    							$cond = str_replace("\|", "|", $cond);
+    			/**
+    			 * Fires after a single item is created or updated via the REST API.
+    			 *
+    			 * @param WP_Post         $post      Post data.
+    			 * @param WP_REST_Request $request   Request object.
+    			 * @param boolean         $creating  True when creating item, false when updating.
+    			 */
+    			do_action( 'woocommerce_rest_insert_product', $post, $request, false );
+    			$request->set_param( 'context', 'edit' );
+    			$response = $this->prepare_item_for_response( $post, $request );
     
-    							eval("$result = ".$cond.";");
+    			return rest_ensure_response( $response );
+    		} catch ( WC_Data_Exception $e ) {
+    			return new WP_Error( $e->getErrorCode(), $e->getMessage(), $e->getErrorData() );
+    		} catch ( WC_REST_Exception $e ) {
+    			return new WP_Error( $e->getErrorCode(), $e->getMessage(), array( 'status' => $e->getCode() ) );
+    		}
 
 
 .. _case-exit()-usage:
@@ -7536,62 +3437,59 @@ $discussion is also an object : it doesn't need any reference to be modified. An
     }
 
 
-.. _case-overwritten-source-and-value:
+.. _case-forgotten-visibility:
 
-Overwritten Source And Value
-############################
+Forgotten Visibility
+####################
 
-.. _case-churchcrm-structures-foreachsourcevalue:
+.. _case-fuelcms-classes-nonppp:
 
-ChurchCRM
+FuelCMS
++++++++
+
+
+:ref:`forgotten-visibility`, in /fuel/modules/fuel/controllers/Module.php:713. 
+
+Missing visibility for the index() method,and all the methods in the Module class.
+
+.. code-block:: php
+   
+    class Module extends Fuel_base_controller {
+    	
+    	// --------------------------------------------------------------------
+    	
+    	/**
+    	 * Displays the list (table) view
+    	 *
+    	 * @access	public
+    	 * @return	void
+    	 */	
+    	function index()
+    	{
+    		$this->items();
+    	}
+
+
+.. _case-livezilla-classes-nonppp:
+
+LiveZilla
 +++++++++
 
 
-:ref:`overwritten-source-and-value`, in edusoho/vendor/symfony/symfony/src/Symfony/Component/VarDumper/Dumper/CliDumper.php:194. 
+:ref:`forgotten-visibility`, in livezilla/_lib/objects.global.users.inc.php:2516. 
 
-$str is actually processed as an array (string of characters), and it is also modified along the way.
-
-.. code-block:: php
-   
-    foreach ($str as $str) {
-                    if ($i < $m) {
-                        $str .= \n;
-                    }
-                    if (0 < $this->maxStringWidth && $this->maxStringWidth < $len = mb_strlen($str, 'UTF-8')) {
-                        $str = mb_substr($str, 0, $this->maxStringWidth, 'UTF-8');
-                        $lineCut = $len - $this->maxStringWidth;
-                    }
-                    //.... More code
-
-
-.. _case-expressionengine-structures-foreachsourcevalue:
-
-ExpressionEngine
-++++++++++++++++
-
-
-:ref:`overwritten-source-and-value`, in system/ee/EllisLab/ExpressionEngine/Service/Theme/ThemeInstaller.php:595. 
-
-Looping over $filename. 
+Static method that could be public.
 
 .. code-block:: php
    
-    foreach (directory_map($to_dir) as $directory => $filename)
-    			{
-    				if (is_string($directory))
-    				{
-    					foreach ($filename as $filename)
-    					{
-    						unlink($to_dir.$directory.'/'.$filename);
-    					}
+    class Visitor extends BaseUser 
+    {
+    // Lots of code
     
-    					@rmdir($to_dir.$directory);
-    				}
-    				else
-    				{
-    					unlink($to_dir.$filename);
-    				}
-    			}
+        static function CreateSPAMFilter($_userId,$_base64=true)
+        {
+            if(!empty(Server::$Configuration->File[gl_sfa]))
+            {
 
 
 .. _case-function-subscripting,-old-style:
@@ -7619,6 +3517,92 @@ Here, $advocateid may be directly read from ocsql_fetch_assoc(), although, check
     			$advocateid = $al['advocateid'];
     		}
     	}
+
+
+.. _case-getting-last-element:
+
+Getting Last Element
+####################
+
+.. _case-thelia-arrays-gettinglastelement:
+
+Thelia
+++++++
+
+
+:ref:`getting-last-element`, in /core/lib/Thelia/Core/Security/AccessManager.php:61. 
+
+This code extract the last element with array_slice (position -1) as an array, then get the element in the array with current().
+
+.. code-block:: php
+   
+    current(\array_slice(self::$accessPows, -1, 1, true))
+
+
+.. _case-hidden-use-expression:
+
+Hidden Use Expression
+#####################
+
+.. _case-tikiwiki-namespaces-hiddenuse:
+
+Tikiwiki
+++++++++
+
+
+:ref:`hidden-use-expression`, in lib/core/Tiki/Command/DailyReportSendCommand.php:17. 
+
+Sneaky error_reporting, hidden among the use calls. 
+
+.. code-block:: php
+   
+    namespace Tiki\Command;
+    
+    use Symfony\Component\Console\Command\Command;
+    use Symfony\Component\Console\Input\InputArgument;
+    use Symfony\Component\Console\Input\InputInterface;
+    use Symfony\Component\Console\Input\InputOption;
+    use Symfony\Component\Console\Output\OutputInterface;
+    error_reporting(E_ALL);
+    use TikiLib;
+    use Reports_Factory;
+
+
+.. _case-openemr-namespaces-hiddenuse:
+
+OpenEMR
++++++++
+
+
+:ref:`hidden-use-expression`, in interface/patient_file/summary/browse.php:23. 
+
+Use expression is only reached when the csrf token is checked. This probably save some CPU when no csrf is available, but it breaks the readability of the file.
+
+.. code-block:: php
+   
+    <?php
+    /**
+     * Patient selector for insurance gui
+     *
+     * @package   OpenEMR
+     * @link      http://www.open-emr.org
+     * @author    Brady Miller <brady.g.miller@gmail.com>
+     * @copyright Copyright (c) 2018 Brady Miller <brady.g.miller@gmail.com>
+     * @license   https://github.com/openemr/openemr/blob/master/LICENSE GNU General Public License 3
+     */
+    
+    
+    require_once(../../globals.php);
+    require_once($srcdir/patient.inc);
+    require_once($srcdir/options.inc.php);
+    
+    if (!empty($_POST)) {
+        if (!verifyCsrfToken($_POST[csrf_token_form])) {
+            csrfNotVerified();
+        }
+    }
+    
+    use OpenEMR\Core\Header;
 
 
 .. _case-identical-conditions:
@@ -7760,6 +3744,135 @@ $templates is extracted from $input. If it is empty, a second source is polled. 
             }
 
 
+.. _case-illegal-name-for-method:
+
+Illegal Name For Method
+#######################
+
+.. _case-prestashop-classes-wrongname:
+
+PrestaShop
+++++++++++
+
+
+:ref:`illegal-name-for-method`, in admin-dev/ajaxfilemanager/inc/class.pagination.php:200. 
+
+__getBaseUrl and __setBaseUrl shouldn't be named like that. 
+
+.. code-block:: php
+   
+    /**
+    	 * get base url for pagination links aftr excluded those key
+    	 * identified on excluded query strings
+    	 *
+    	 */
+    	function __getBaseUrl()
+    	{
+    
+    		if(empty($this->baseUrl))
+    		{
+    
+    			$this->__setBaseUrl();
+    		}
+    		return $this->baseUrl;
+    	}
+
+
+.. _case-magento-classes-wrongname:
+
+Magento
++++++++
+
+
+:ref:`illegal-name-for-method`, in app/code/core/Mage/Core/Block/Abstract.php:1139. 
+
+public method, called '__'. Example : $this->__();
+
+.. code-block:: php
+   
+    public function __()
+        {
+            $args = func_get_args();
+            $expr = new Mage_Core_Model_Translate_Expr(array_shift($args), $this->getModuleName());
+            array_unshift($args, $expr);
+            return $this->_getApp()->getTranslator()->translate($args);
+        }
+
+
+.. _case-incompatible-signature-methods:
+
+Incompatible Signature Methods
+##############################
+
+.. _case-suitecrm-classes-incompatiblesignature:
+
+SuiteCrm
+++++++++
+
+
+:ref:`incompatible-signature-methods`, in modules/Home/Dashlets/RSSDashlet/RSSDashlet.php:138. 
+
+The class in the RSSDashlet.php file has an 'array' typehint which is not in the parent Dashlet class. While both files compile separately, they yield a PHP warning when running : typehinting mismatch only yields a warning. 
+
+.. code-block:: php
+   
+    // File /modules/Home/Dashlets/RSSDashlet/RSSDashlet.php
+        public function saveOptions(
+            array $req
+            )
+        {
+    
+    // File /include/Dashlets/Dashlets.php
+        public function saveOptions( $req ) {
+
+
+.. _case-incompatible-signature-methods-with-covariance:
+
+Incompatible Signature Methods With Covariance
+##############################################
+
+.. _case-suitecrm-classes-incompatiblesignature74:
+
+SuiteCrm
+++++++++
+
+
+:ref:`incompatible-signature-methods-with-covariance`, in modules/Home/Dashlets/RSSDashlet/RSSDashlet.php:138. 
+
+The class in the RSSDashlet.php file has an 'array' typehint which is not in the parent Dashlet class. While both files compile separately, they yield a PHP warning when running : typehinting mismatch only yields a warning. 
+
+.. code-block:: php
+   
+    // File /modules/Home/Dashlets/RSSDashlet/RSSDashlet.php
+        public function saveOptions(
+            array $req
+            )
+        {
+    
+    // File /include/Dashlets/Dashlets.php
+        public function saveOptions( $req ) {
+
+
+.. _case-incompilable-files:
+
+Incompilable Files
+##################
+
+.. _case-xataface-php-incompilable:
+
+xataface
+++++++++
+
+
+:ref:`incompilable-files`, in lib/XML/Tree.php:289. 
+
+Compilation error with PHP 7.2 version.
+
+.. code-block:: php
+   
+    syntax error, unexpected 'new' (T_NEW)
+
+
 .. _case-inconsistent-concatenation:
 
 Inconsistent Concatenation
@@ -7778,6 +3891,30 @@ This code actually loads the file, join it, then split it again. file() would be
 .. code-block:: php
    
     $markerdata = explode( "\n", implode( '', file( $filename ) ) );
+
+
+.. _case-inconsistent-variable-usage:
+
+Inconsistent Variable Usage
+###########################
+
+.. _case-wordpress-variables-inconsistentusage:
+
+WordPress
++++++++++
+
+
+:ref:`inconsistent-variable-usage`, in wp-includes/IXR/class-IXR-client.php:86. 
+
+$request is used successively as an object (IXR_Request), then as a string (The POST). Separatring both usage with different names will help readability.
+
+.. code-block:: php
+   
+    $request = new IXR_Request($method, $args);
+            $length = $request->getLength();
+            $xml = $request->getXml();
+            $r = "\r\n";
+            $request  = "POST {$this->path} HTTP/1.0$r";
 
 
 .. _case-indices-are-int-or-string:
@@ -7834,6 +3971,26 @@ $baseCols has 1 and 0 (respectively) for index.
                             $baseCols[false][$entityClass][] = $field;
                         }
                     }
+
+
+.. _case-invalid-constant-name:
+
+Invalid Constant Name
+#####################
+
+.. _case-openemr-constants-invalidname:
+
+OpenEMR
++++++++
+
+
+:ref:`invalid-constant-name`, in library/classes/InsuranceCompany.class.php:20. 
+
+Either a copy/paste, or a generated definition file : the file contains 25 constants definition. The constant is not found in the rest of the code. 
+
+.. code-block:: php
+   
+    define("INS_TYPE_OTHER_NON-FEDERAL_PROGRAMS", 10);
 
 
 .. _case-invalid-regex:
@@ -7893,39 +4050,109 @@ $Xa may only amount to $iX2, though the expression looks weird.
     if ( $X > $iX2 ) { $Xa = $X-($X-$iX2); $Ya = $iY1+($X-$iX2); } else { $Xa = $X; $Ya = $iY1; }
 
 
-.. _case-list()-may-omit-variables:
+.. _case-isset-multiple-arguments:
 
-list() May Omit Variables
-#########################
+Isset Multiple Arguments
+########################
 
-.. _case-openconf-structures-listomissions:
+.. _case-thinkphp-php-issetmultipleargs:
 
-OpenConf
+ThinkPHP
 ++++++++
 
 
-:ref:`list()-may-omit-variables`, in openconf/author/privacy.php:29. 
+:ref:`isset-multiple-arguments`, in library/think/Request.php:1187. 
 
-The first variable in the list(), $none, isn't reused anywhere in the script. In fact, its name convey the meaning that is it useless, but is in the array nonetheless. 
-
-.. code-block:: php
-   
-    list($none, $OC_privacy_policy) = oc_getTemplate('privacy_policy');
-
-
-.. _case-fuelcms-structures-listomissions:
-
-FuelCMS
-+++++++
-
-
-:ref:`list()-may-omit-variables`, in wp-admin/includes/misc.php:74. 
-
-$a is never reused again. $b, on the other hand is. Not assigning any value to $a saves some memory, and avoid polluting the local variable space. 
+This may be shortened with isset($sub), $array[$name][$sub])
 
 .. code-block:: php
    
-    list($b, $a) = array(reset($params->me), key($params->me));
+    isset($sub) && isset($array[$name][$sub])
+
+
+.. _case-livezilla-php-issetmultipleargs:
+
+LiveZilla
++++++++++
+
+
+:ref:`isset-multiple-arguments`, in livezilla/_lib/trdp/pchart/class/pDraw.class.php:3852. 
+
+This is the equivalent of !(isset($Data["Series"][$SerieA]["Data"]) && isset($Data["Series"][$SerieB]["Data"])), and then, !(isset($Data["Series"][$SerieA]["Data"], $Data["Series"][$SerieB]["Data"]))
+
+.. code-block:: php
+   
+    !isset($Data["Series"][$SerieA]["Data"]) || !isset($Data["Series"][$SerieB]["Data"])
+
+
+.. _case-isset()-on-the-whole-array:
+
+Isset() On The Whole Array
+##########################
+
+.. _case-tine20-performances-issetwholearray:
+
+Tine20
+++++++
+
+
+:ref:`isset()-on-the-whole-array`, in tine20/Crm/Model/Lead.php:208. 
+
+Only the second call is necessary : it also includes the first one.
+
+.. code-block:: php
+   
+    isset($relation['related_record']) && isset($relation['related_record']['n_fileas'])
+
+
+.. _case-expressionengine-performances-issetwholearray:
+
+ExpressionEngine
+++++++++++++++++
+
+
+:ref:`isset()-on-the-whole-array`, in system/ee/legacy/libraries/Form_validation.php:1487. 
+
+This is equivalent to `isset($this->_field_data[$field], $this->_field_data[$field]['postdata'])`, and the second call may be skipped.
+
+.. code-block:: php
+   
+    !isset($this->_field_data[$field]) OR !isset($this->_field_data[$field]['postdata'])
+
+
+.. _case-joining-file():
+
+Joining file()
+##############
+
+.. _case-wordpress-performances-joinfile:
+
+WordPress
++++++++++
+
+
+:ref:`joining-file()`, in wp-admin/includes/misc.php:74. 
+
+This code actually loads the file, join it, then split it again. file() would be sufficient. 
+
+.. code-block:: php
+   
+    $markerdata = explode( "\n", implode( '', file( $filename ) ) );
+
+
+.. _case-spip-performances-joinfile:
+
+SPIP
+++++
+
+
+:ref:`joining-file()`, in ecrire/inc/install.php:109. 
+
+When the file is not accessible, file() returns null, and can't be processed by join(). 
+
+.. code-block:: php
+   
+    $s = @join('', file($file));
 
 
 .. _case-logical-mistakes:
@@ -7961,6 +4188,73 @@ This expression is always false. When `$data->account->email_verified` is `true`
 .. code-block:: php
    
     TRUE == $data->account->email_verified and $data->account->email == $data->account->email_verified
+
+
+.. _case-logical-should-use-symbolic-operators:
+
+Logical Should Use Symbolic Operators
+#####################################
+
+.. _case-cleverstyle-php-logicalinletters:
+
+Cleverstyle
++++++++++++
+
+
+:ref:`logical-should-use-symbolic-operators`, in modules/Uploader/Mime/Mime.php:171. 
+
+$extension is assigned with the results of pathinfo($reference_name, PATHINFO_EXTENSION) and ignores static::hasExtension($extension). The same expression, placed in a condition (like an if), would assign a value to $extension and use another for the condition itself. Here, this code is only an expression in the flow.
+
+.. code-block:: php
+   
+    $extension = pathinfo($reference_name, PATHINFO_EXTENSION) and static::hasExtension($extension);
+
+
+.. _case-openconf-php-logicalinletters:
+
+OpenConf
+++++++++
+
+
+:ref:`logical-should-use-symbolic-operators`, in chair/export.inc:143. 
+
+In this context, the priority of execution is used on purpose; $coreFile only collect the temporary name of the export file, and when this name is empty, then the second operand of OR is executed, though never collected. Since this second argument is a 'die', its return value is lost, but the initial assignation is never used anyway. 
+
+.. code-block:: php
+   
+    $coreFile = tempnam('/tmp/', 'ocexport') or die('could not generate Excel file (6)')
+
+
+.. _case-logical-to-in\_array:
+
+Logical To in_array
+###################
+
+.. _case-zencart-performances-logicaltoinarray:
+
+Zencart
++++++++
+
+
+:ref:`logical-to-in\_array`, in admin/users.php:32. 
+
+Long list of == are harder to read. Using an in_array() call gathers all the strings together, in an array. In turn, this helps readability and possibility, reusability by making that list an constant. 
+
+.. code-block:: php
+   
+    // if needed, check that a valid user id has been passed
+    if (($action == 'update' || $action == 'reset') && isset($_POST['user']))
+    {
+      $user = $_POST['user'];
+    }
+    elseif (($action == 'edit' || $action == 'password' || $action == 'delete' || $action == 'delete_confirm') && $_GET['user'])
+    {
+      $user = $_GET['user'];
+    }
+    elseif(($action=='delete' || $action=='delete_confirm') && isset($_POST['user']))
+    {
+      $user = $_POST['user'];
+    }
 
 
 .. _case-lone-blocks:
@@ -8066,6 +4360,156 @@ This one-liner includes 9 members and 6 variables : some are formatted by sprint
     sprintf('<span><input type="checkbox" name="%s" id="opt_%s" class="tl_checkbox" value="%s"%s%s onfocus="Backend.getScrollOffset()"> %s<label for="opt_%s">%s</label></span>', $this->strName . ($this->multiple ? '[]' : ''), $this->strId . '_' . $i, ($this->multiple ? \StringUtil::specialchars($arrOption['value']) : 1), (((\is_array($this->varValue) && \in_array($arrOption['value'], $this->varValue)) || $this->varValue == $arrOption['value']) ? ' checked="checked"' : ''), $this->getAttributes( ), $strButtons, $this->strId . '_' . $i, $arrOption['label'])
 
 
+.. _case-lost-references:
+
+Lost References
+###############
+
+.. _case-wordpress-variables-lostreferences:
+
+WordPress
++++++++++
+
+
+:ref:`lost-references`, in wp-admin/includes/misc.php:74. 
+
+This code actually loads the file, join it, then split it again. file() would be sufficient. 
+
+.. code-block:: php
+   
+    $markerdata = explode( "\n", implode( '', file( $filename ) ) );
+
+
+.. _case-make-one-call-with-array:
+
+Make One Call With Array
+########################
+
+.. _case-humo-gen-performances-makeonecall:
+
+HuMo-Gen
+++++++++
+
+
+:ref:`make-one-call-with-array`, in admin/include/kcfinder/lib/helper_text.php:47. 
+
+The three calls to str_replace() could be replaced by one, using array arguments. Nesting the calls doesn't reduce the number of calls.
+
+.. code-block:: php
+   
+    static function jsValue($string) {
+            return
+                preg_replace('/\r?\n/', "\n",
+                str_replace('"', "\\\,
+                str_replace("'", "\'",
+                str_replace("\", "\\",
+            $string))));
+        }
+
+
+.. _case-edusoho-performances-makeonecall:
+
+Edusoho
++++++++
+
+
+:ref:`make-one-call-with-array`, in src/AppBundle/Common/StringToolkit.php:55. 
+
+Since str_replace is already using an array, the second argument must also be an array, with repeated empty strings. That syntax allows adding the '&nbsp;' and ' ' to those arrays. Note also that trim() should be be called early, but since some of the replacing may generate terminal spaces, it should be kept as is.
+
+.. code-block:: php
+   
+    $text = strip_tags($text);
+    
+            $text = str_replace(array(\n, \r, \t), '', $text);
+            $text = str_replace('&nbsp;', ' ', $text);
+            $text = trim($text);
+
+
+.. _case-method-could-be-static:
+
+Method Could Be Static
+######################
+
+.. _case-fuelcms-classes-couldbestatic:
+
+FuelCMS
++++++++
+
+
+:ref:`method-could-be-static`, in fuel/modules/fuel/models/Fuel_assets_model.php:240. 
+
+This method makes no usage of $this : it only works on the incoming argument, $file. This may even be a function.
+
+.. code-block:: php
+   
+    public function get_file($file)
+    	{
+    		// if no extension is provided, then we determine that it needs to be decoded
+    		if (strpos($file, '.') === FALSE)
+    		{
+    			$file = uri_safe_decode($file);
+    		}
+    		return $file;
+    	}
+
+
+.. _case-expressionengine-classes-couldbestatic:
+
+ExpressionEngine
+++++++++++++++++
+
+
+:ref:`method-could-be-static`, in system/ee/legacy/libraries/Upload.ph:859. 
+
+This method returns the list of mime type, by using a hidden global value : ee() is a functioncall that give access to the external storage of values.
+
+.. code-block:: php
+   
+    /**
+    	 * List of Mime Types
+    	 *
+    	 * This is a list of mime types.  We use it to validate
+    	 * the allowed types set by the developer
+    	 *
+    	 * @param	string
+    	 * @return	string
+    	 */
+    	public function mimes_types($mime)
+    	{
+    		ee()->load->library('mime_type');
+    		return ee()->mime_type->isSafeForUpload($mime);
+    	}
+
+
+.. _case-mismatched-default-arguments:
+
+Mismatched Default Arguments
+############################
+
+.. _case-spip-functions-mismatcheddefaultarguments:
+
+SPIP
+++++
+
+
+:ref:`mismatched-default-arguments`, in ecrire/inc/lien.php:160. 
+
+generer_url_entite() takes $connect in, with a default value of empty string. Later, generer_url_entite() receives that value, but uses null as a default value. This forces the ternary test on $connect, to turn it into a null before shipping it to the next function, and having it processed accordingly.
+
+.. code-block:: php
+   
+    // http://code.spip.net/@traiter_lien_implicite
+    function traiter_lien_implicite($ref, $texte = '', $pour = 'url', $connect = '') {
+    
+        // some code was edited here
+    
+    	if (is_array($url)) {
+    		@list($type, $id) = $url;
+    		$url = generer_url_entite($id, $type, $args, $ancre, $connect ? $connect : null);
+    	}
+
+
 .. _case-mismatched-ternary-alternatives:
 
 Mismatched Ternary Alternatives
@@ -8105,6 +4549,26 @@ IS_DASHBOARD is defined as a boolean or a string. Later, it is tested as a boole
     
     l:132) echo IS_DASHBOARD ? IS_DASHBOARD : 0;
     ?>
+
+
+.. _case-mismatched-typehint:
+
+Mismatched Typehint
+###################
+
+.. _case-wordpress-functions-mismatchedtypehint:
+
+WordPress
++++++++++
+
+
+:ref:`mismatched-typehint`, in wp-admin/includes/misc.php:74. 
+
+This code actually loads the file, join it, then split it again. file() would be sufficient. 
+
+.. code-block:: php
+   
+    $markerdata = explode( "\n", implode( '', file( $filename ) ) );
 
 
 .. _case-missing-cases-in-switch:
@@ -8172,6 +4636,296 @@ Calling a method from a property of an object is possible inside a string, thoug
 .. code-block:: php
    
     "{$this->container->getParameter('topxia.upload.public_url_path')}/" . $parsed['path']
+
+
+.. _case-mkdir-default:
+
+Mkdir Default
+#############
+
+.. _case-mautic-security-mkdirdefault:
+
+Mautic
+++++++
+
+
+:ref:`mkdir-default`, in app/bundles/CoreBundle/Helper/AssetGenerationHelper.php:120. 
+
+This code is creating some directories for Javascript or CSS (from the directories names) : those require universal reading access, but probably no execution nor writing access. 0711 would be sufficient in this case.
+
+.. code-block:: php
+   
+    //combine the files into their corresponding name and put in the root media folder
+                    if ($env == 'prod') {
+                        $checkPaths = [
+                            $assetsFullPath,
+                            $assetsFullPath/css,
+                            $assetsFullPath/js,
+                        ];
+                        array_walk($checkPaths, function ($path) {
+                            if (!file_exists($path)) {
+                                mkdir($path);
+                            }
+                        });
+
+
+.. _case-openemr-security-mkdirdefault:
+
+OpenEMR
++++++++
+
+
+:ref:`mkdir-default`, in interface/main/backuplog.php:27. 
+
+If $BACKUP_EVENTLOG_DIR is a backup for an event log, this should be stored out of the web server reach, with low rights, beside the current user. This is part of a CLI PHP script. 
+
+.. code-block:: php
+   
+    mkdir($BACKUP_EVENTLOG_DIR)
+
+
+.. _case-multiple-alias-definitions:
+
+Multiple Alias Definitions
+##########################
+
+.. _case-churchcrm-namespaces-multiplealiasdefinitions:
+
+ChurchCRM
++++++++++
+
+
+:ref:`multiple-alias-definitions`, in Various files:--. 
+
+It is actually surprising to find FamilyQuery defined as ChurchCRM\Base\FamilyQuery only once, while all other reference are for ChurchCRM\FamilyQuery. That lone use is actually useful in the code, so it is not a forgotten refactorisation. 
+
+.. code-block:: php
+   
+    use ChurchCRM\Base\FamilyQuery	// in /src/MapUsingGoogle.php:7
+    
+    use ChurchCRM\FamilyQuery	// in /src/ChurchCRM/Dashboard/EventsDashboardItem.php:8
+                                // and 29 other files
+
+
+.. _case-phinx-namespaces-multiplealiasdefinitions:
+
+Phinx
++++++
+
+
+:ref:`multiple-alias-definitions`, in Various files too:--. 
+
+One 'Command' is refering to a local Command class, while the other is refering to an imported class. They are all in a similar name space Console\Command. 
+
+.. code-block:: php
+   
+    use Phinx\Console\Command	                    //in file /src/Phinx/Console/PhinxApplication.php:34
+    use Symfony\Component\Console\Command\Command	//in file /src/Phinx/Console/Command/Init.php:31
+    use Symfony\Component\Console\Command\Command	//in file /src/Phinx/Console/Command/AbstractCommand.php:32
+
+
+.. _case-multiple-constant-definition:
+
+Multiple Constant Definition
+############################
+
+.. _case-dolibarr-constants-multipleconstantdefinition:
+
+Dolibarr
+++++++++
+
+
+:ref:`multiple-constant-definition`, in htdocs/main.inc.php:914. 
+
+All is documented here : 'Constants used to defined number of lines in textarea'. Constants are not changing during an execution, and this allows the script to set values early in the process, and have them used later, in the templates. Yet, building constants dynamically may lead to confusion, when developpers are not aware of the change. 
+
+.. code-block:: php
+   
+    // Constants used to defined number of lines in textarea
+    if (empty($conf->browser->firefox))
+    {
+    	define('ROWS_1',1);
+    	define('ROWS_2',2);
+    	define('ROWS_3',3);
+    	define('ROWS_4',4);
+    	define('ROWS_5',5);
+    	define('ROWS_6',6);
+    	define('ROWS_7',7);
+    	define('ROWS_8',8);
+    	define('ROWS_9',9);
+    }
+    else
+    {
+    	define('ROWS_1',0);
+    	define('ROWS_2',1);
+    	define('ROWS_3',2);
+    	define('ROWS_4',3);
+    	define('ROWS_5',4);
+    	define('ROWS_6',5);
+    	define('ROWS_7',6);
+    	define('ROWS_8',7);
+    	define('ROWS_9',8);
+    }
+
+
+.. _case-openconf-constants-multipleconstantdefinition:
+
+OpenConf
+++++++++
+
+
+:ref:`multiple-constant-definition`, in modules/request.php:71. 
+
+The constant is build according to the situation, in the part of the script (file request.php). This hides the actual origin of the value, but keeps the rest of the code simple. Just keep in mind that this constant may have different values.
+
+.. code-block:: php
+   
+    if (isset($_GET['ocparams']) && !empty($_GET['ocparams'])) {
+    		$params = '';
+    		if (preg_match_all("/(\w+)--(\w+)_-/", $_GET['ocparams'], $matches)) {
+    			foreach ($matches[1] as $idx => $m) {
+    				if (($m != 'module') && ($m != 'action') && preg_match("/^[\w-]+$/", $m)) {
+    					$params .= '&' . $m . '=' . urlencode($matches[2][$idx]);
+    					$_GET[$m] = $matches[2][$idx];
+    				}
+    			}
+    		}
+    		unset($_GET['ocparams']);
+    		define('OCC_SELF', $_SERVER['PHP_SELF'] . '?module=' . $_REQUEST['module'] . '&action=' . $_GET['action'] . $params);
+    	} elseif (isset($_SERVER['REQUEST_URI']) && strstr($_SERVER['REQUEST_URI'], '?')) {
+    		define('OCC_SELF', htmlspecialchars($_SERVER['REQUEST_URI']));
+    	} elseif (isset($_SERVER['QUERY_STRING']) && strstr($_SERVER['QUERY_STRING'], '&')) {
+    		define('OCC_SELF', $_SERVER['PHP_SELF'] . '?' . htmlspecialchars($_SERVER['QUERY_STRING']));
+    	} else {
+    		err('This server does not support REQUEST_URI or QUERY_STRING','Error');
+    	}
+
+
+.. _case-multiple-index-definition:
+
+Multiple Index Definition
+#########################
+
+.. _case-magento-arrays-multipleidenticalkeys:
+
+Magento
++++++++
+
+
+:ref:`multiple-index-definition`, in app/code/core/Mage/Adminhtml/Block/System/Convert/Gui/Grid.php:80. 
+
+'type' is defined twice. The first one, 'options' is overwritten.
+
+.. code-block:: php
+   
+    $this->addColumn('store_id', array(
+                'header'    => Mage::helper('adminhtml')->__('Store'),
+                'type'      => 'options',
+                'align'     => 'center',
+                'index'     => 'store_id',
+                'type'      => 'store',
+                'width'     => '200px',
+            ));
+
+
+.. _case-mediawiki-arrays-multipleidenticalkeys:
+
+MediaWiki
++++++++++
+
+
+:ref:`multiple-index-definition`, in resources/Resources.php:223. 
+
+'target' is repeated, though with the same values. This is just dead code.
+
+.. code-block:: php
+   
+    // inside a big array
+    	'jquery.getAttrs' => [
+    		'targets' => [ 'desktop', 'mobile' ],
+    		'scripts' => 'resources/src/jquery/jquery.getAttrs.js',
+    		'targets' => [ 'desktop', 'mobile' ],
+    	],
+        // big array continues
+
+
+.. _case-multiple-type-variable:
+
+Multiple Type Variable
+######################
+
+.. _case-typo3-structures-multipletypevariable:
+
+Typo3
++++++
+
+
+:ref:`multiple-type-variable`, in typo3/sysext/backend/Classes/Form/Element/InputDateTimeElement.php:270. 
+
+$fullElement is an array most of the time, but finally ends up being a string. Since the array is not the final state, it may be interesting to make it a class, which collects the various variables, and export the final string. Such class would be usefull in several places in this repository.
+
+.. code-block:: php
+   
+    $fullElement = [];
+                $fullElement[] = '<div class=checkbox t3js-form-field-eval-null-placeholder-checkbox>';
+                $fullElement[] =     '<label for= . $nullControlNameEscaped . >';
+                $fullElement[] =         '<input type=hidden name= . $nullControlNameEscaped .  value= . $fallbackValue .  />';
+                $fullElement[] =         '<input type=checkbox name= . $nullControlNameEscaped .  id= . $nullControlNameEscaped .  value=1' . $checked . $disabled . ' />';
+                $fullElement[] =         $overrideLabel;
+                $fullElement[] =     '</label>';
+                $fullElement[] = '</div>';
+                $fullElement[] = '<div class=t3js-formengine-placeholder-placeholder>';
+                $fullElement[] =    '<div class=form-control-wrap style=max-width: . $width . px>';
+                $fullElement[] =        '<input type=text class=form-control disabled=disabled value= . $shortenedPlaceholder .  />';
+                $fullElement[] =    '</div>';
+                $fullElement[] = '</div>';
+                $fullElement[] = '<div class=t3js-formengine-placeholder-formfield>';
+                $fullElement[] =    $expansionHtml;
+                $fullElement[] = '</div>';
+                $fullElement = implode(LF, $fullElement);
+
+
+.. _case-vanilla-structures-multipletypevariable:
+
+Vanilla
++++++++
+
+
+:ref:`multiple-type-variable`, in library/core/functions.general.php:1427. 
+
+Here, $value may be of different type. The if() structures merges all the incoming format into one standard type (int). This is actually the contrary of this analysis, and is a false positive.
+
+.. code-block:: php
+   
+    if (is_array($value)) {
+                            $value = count($value);
+                        } elseif (stringEndsWith($field, 'UserID', true)) {
+                            $value = 1;
+                        }
+
+
+.. _case-multiple-usage-of-same-trait:
+
+Multiple Usage Of Same Trait
+############################
+
+.. _case-nextcloud-traits-multipleusage:
+
+NextCloud
++++++++++
+
+
+:ref:`multiple-usage-of-same-trait`, in build/integration/features/bootstrap/WebDav.php:41. 
+
+WebDav uses Sharing, and Sharing uses Webdav. Once using the other is sufficient. 
+
+.. code-block:: php
+   
+    trait WebDav { 
+        use Sharing;
+        
+    }
+    //Trait Sharing is in /build/integration/features/bootstrap/Sharing.php:36
 
 
 .. _case-multiples-identical-case:
@@ -8261,61 +5015,6 @@ ExpressionEngine
     								    //PHP code
     									break;
     							}
-
-
-.. _case-multiple-type-variable:
-
-Multiple Type Variable
-######################
-
-.. _case-typo3-structures-multipletypevariable:
-
-Typo3
-+++++
-
-
-:ref:`multiple-type-variable`, in typo3/sysext/backend/Classes/Form/Element/InputDateTimeElement.php:270. 
-
-$fullElement is an array most of the time, but finally ends up being a string. Since the array is not the final state, it may be interesting to make it a class, which collects the various variables, and export the final string. Such class would be usefull in several places in this repository.
-
-.. code-block:: php
-   
-    $fullElement = [];
-                $fullElement[] = '<div class=checkbox t3js-form-field-eval-null-placeholder-checkbox>';
-                $fullElement[] =     '<label for= . $nullControlNameEscaped . >';
-                $fullElement[] =         '<input type=hidden name= . $nullControlNameEscaped .  value= . $fallbackValue .  />';
-                $fullElement[] =         '<input type=checkbox name= . $nullControlNameEscaped .  id= . $nullControlNameEscaped .  value=1' . $checked . $disabled . ' />';
-                $fullElement[] =         $overrideLabel;
-                $fullElement[] =     '</label>';
-                $fullElement[] = '</div>';
-                $fullElement[] = '<div class=t3js-formengine-placeholder-placeholder>';
-                $fullElement[] =    '<div class=form-control-wrap style=max-width: . $width . px>';
-                $fullElement[] =        '<input type=text class=form-control disabled=disabled value= . $shortenedPlaceholder .  />';
-                $fullElement[] =    '</div>';
-                $fullElement[] = '</div>';
-                $fullElement[] = '<div class=t3js-formengine-placeholder-formfield>';
-                $fullElement[] =    $expansionHtml;
-                $fullElement[] = '</div>';
-                $fullElement = implode(LF, $fullElement);
-
-
-.. _case-vanilla-structures-multipletypevariable:
-
-Vanilla
-+++++++
-
-
-:ref:`multiple-type-variable`, in library/core/functions.general.php:1427. 
-
-Here, $value may be of different type. The if() structures merges all the incoming format into one standard type (int). This is actually the contrary of this analysis, and is a false positive.
-
-.. code-block:: php
-   
-    if (is_array($value)) {
-                            $value = count($value);
-                        } elseif (stringEndsWith($field, 'UserID', true)) {
-                            $value = 1;
-                        }
 
 
 .. _case-multiply-by-one:
@@ -8414,6 +5113,41 @@ $_match[3] is actually extracted two preg_match() before : by the time we read i
                 $_block_force = (bool) preg_match('#[\s]force#', $_block_args);
                 $_block_json = (bool) preg_match('#[\s]json=["\']true["\']\W#', $_block_args);
                 $_block_name = !empty($_match[3]) ? trim($_match[3], '\'"') : $_block_default;
+
+
+.. _case-native-alias-functions-usage:
+
+Native Alias Functions Usage
+############################
+
+.. _case-cleverstyle-functions-aliasesusage:
+
+Cleverstyle
++++++++++++
+
+
+:ref:`native-alias-functions-usage`, in modules/HybridAuth/Hybrid/thirdparty/Vimeo/Vimeo.php:422. 
+
+is_writeable() should be written is_writable(). No extra 'e'. 
+
+.. code-block:: php
+   
+    is_writeable($chunk_temp_dir)
+
+
+.. _case-phpmyadmin-functions-aliasesusage:
+
+phpMyAdmin
+++++++++++
+
+
+:ref:`native-alias-functions-usage`, in libraries/classes/Server/Privileges.php:5064. 
+
+join() should be written implode()
+
+.. code-block:: php
+   
+    join('`, `', $tmp_privs2['Update'])
 
 
 .. _case-nested-ifthen:
@@ -8579,27 +5313,54 @@ No more than one level of nesting for this ternary call, yet it feels a lot more
     $lc_text .= '<br />' . (zen_get_show_product_switch($listing->fields['products_id'], 'ALWAYS_FREE_SHIPPING_IMAGE_SWITCH') ? (zen_get_product_is_always_free_shipping($listing->fields['products_id']) ? TEXT_PRODUCT_FREE_SHIPPING_ICON . '<br />' : '') : '');
 
 
-.. _case-always-positive-comparison:
+.. _case-never-called-parameter:
 
-Always Positive Comparison
-##########################
+Never Called Parameter
+######################
 
-.. _case-magento-structures-nevernegative:
+.. _case-piwigo-functions-neverusedparameter:
 
-Magento
-+++++++
+Piwigo
+++++++
 
 
-:ref:`always-positive-comparison`, in app/code/core/Mage/Dataflow/Model/Profile.php:85. 
+:ref:`never-called-parameter`, in include/functions_html.inc.php:329. 
 
-strlen(($actiosXML) will never be negative, and hence, is always false. This exception is never thrown. 
+$alternate_url is never explicitly passed to bad_request() : this doesn't show in this extract. It could be dropped from this code.
 
 .. code-block:: php
    
-    if (strlen($actionsXML) < 0 &&
-            @simplexml_load_string('<data>' . $actionsXML . '</data>', null, LIBXML_NOERROR) === false) {
-                Mage::throwException(Mage::helper('dataflow')->__("Actions XML is not valid."));
-            }
+    function bad_request($msg, $alternate_url=null)
+    {
+      set_status_header(400);
+      if ($alternate_url==null)
+        $alternate_url = make_index_url();
+      redirect_html( $alternate_url,
+        '<div style="text-align:left; margin-left:5em;margin-bottom:5em;">
+    <h1 style="text-align:left; font-size:36px;">'.l10n('Bad request').'</h1><br>'
+    .$msg.'</div>',
+        5 );
+    }
+
+
+.. _case-never-used-properties:
+
+Never Used Properties
+#####################
+
+.. _case-wordpress-classes-propertyneverused:
+
+WordPress
++++++++++
+
+
+:ref:`never-used-properties`, in wp-admin/includes/misc.php:74. 
+
+This code actually loads the file, join it, then split it again. file() would be sufficient. 
+
+.. code-block:: php
+   
+    $markerdata = explode( "\n", implode( '', file( $filename ) ) );
 
 
 .. _case-next-month-trap:
@@ -8638,6 +5399,26 @@ The last month is wrong 8 times a year : on 31rst, and by the end of March.
     'lastMonthStart' => date('Y-m-d', strtotime(date('Y-m', strtotime('-1 month')))),
                 'lastMonthEnd' => date('Y-m-d', strtotime(date('Y-m', time())) - 24 * 3600),
                 'lastThreeMonthsStart' => date('Y-m-d', strtotime(date('Y-m', strtotime('-2 month')))),
+
+
+.. _case-no-boolean-as-default:
+
+No Boolean As Default
+#####################
+
+.. _case-openconf-functions-nobooleanasdefault:
+
+OpenConf
+++++++++
+
+
+:ref:`no-boolean-as-default`, in openconf/include.php:1264. 
+
+Why do we need a `chair` when printing a cell's file ? 
+
+.. code-block:: php
+   
+    function oc_printFileCells(&$sub, $chair = false) { /**/ }
 
 
 .. _case-no-choice:
@@ -8688,6 +5469,108 @@ At least, it always choose the most secure way : use SSL.
           } else {
             $form .= zen_href_link($action, $parameters, 'NONSSL');
           }
+
+
+.. _case-no-class-as-typehint:
+
+No Class As Typehint
+####################
+
+.. _case-vanilla-functions-noclassastypehint:
+
+Vanilla
++++++++
+
+
+:ref:`no-class-as-typehint`, in library/Vanilla/Formatting/Formats/RichFormat.php:51. 
+
+All three typehints are based on classes. When Parser or Renderer are changed, for testing, versioning or moduling reasons, they must subclass the original class. 
+
+.. code-block:: php
+   
+    public function __construct(Quill\Parser $parser, Quill\Renderer $renderer, Quill\Filterer $filterer) {
+            $this->parser = $parser;
+            $this->renderer = $renderer;
+            $this->filterer = $filterer;
+        }
+
+
+.. _case-phpmyadmin-functions-noclassastypehint:
+
+phpMyAdmin
+++++++++++
+
+
+:ref:`no-class-as-typehint`, in libraries/classes/CreateAddField.php:29. 
+
+Although the class is named 'DatabaseInterface', it is a class.
+
+.. code-block:: php
+   
+    public function __construct(DatabaseInterface $dbi)
+        {
+            $this->dbi = $dbi;
+        }
+
+
+.. _case-no-class-in-global:
+
+No Class In Global
+##################
+
+.. _case-dolphin-php-noclassinglobal:
+
+Dolphin
++++++++
+
+
+:ref:`no-class-in-global`, in Dolphin-v.7.3.5/inc/classes/BxDolXml.php:10. 
+
+This class should be put away in a 'dolphin' or 'boonex' namespace.
+
+.. code-block:: php
+   
+    class BxDolXml { 
+        /* class BxDolXML code */ 
+    }
+
+
+.. _case-no-count-with-0:
+
+No Count With 0
+###############
+
+.. _case-contao-performances-notcountnull:
+
+Contao
+++++++
+
+
+:ref:`no-count-with-0`, in system/modules/repository/classes/RepositoryManager.php:1148. 
+
+If $elist contains at least one element, then it is not empty().
+
+.. code-block:: php
+   
+    $ext->found = count($elist)>0;
+
+
+.. _case-wordpress-performances-notcountnull:
+
+WordPress
++++++++++
+
+
+:ref:`no-count-with-0`, in wp-admin/includes/misc.php:74. 
+
+$build or $signature are empty at that point, no need to calculate their respective length. 
+
+.. code-block:: php
+   
+    // Check for zero length, although unlikely here
+        if (strlen($built) == 0 || strlen($signature) == 0) {
+          return false;
+        }
 
 
 .. _case-no-direct-usage:
@@ -8921,26 +5804,6 @@ This code actually loads the file, join it, then split it again. file() would be
     $markerdata = explode( "\n", implode( '', file( $filename ) ) );
 
 
-.. _case-no-isset()-with-empty():
-
-No isset() With empty()
-#######################
-
-.. _case-xoops-structures-noissetwithempty:
-
-XOOPS
-+++++
-
-
-:ref:`no-isset()-with-empty()`, in htdocs/class/tree.php:297. 
-
-Too much vlaidation
-
-.. code-block:: php
-   
-    isset($this->tree[$key]['child']) && !empty($this->tree[$key]['child']);
-
-
 .. _case-no-need-for-else:
 
 No Need For Else
@@ -9039,91 +5902,282 @@ Not only echo() doesn't use any parenthesis, but this syntax gives the illusion 
     echo (($row['Null'] == 'NO') ? __('No') : __('Yes'))
 
 
-.. _case-avoid-substr()-one:
+.. _case-no-real-comparison:
 
-Avoid Substr() One
+No Real Comparison
 ##################
 
-.. _case-churchcrm-structures-nosubstrone:
+.. _case-magento-type-norealcomparison:
 
-ChurchCRM
-+++++++++
+Magento
++++++++
 
 
-:ref:`avoid-substr()-one`, in src/Login.php:141. 
+:ref:`no-real-comparison`, in app/code/core/Mage/XmlConnect/Block/Catalog/Product/Options/Configurable.php:74. 
 
-No need to call substr() to get only one char. 
+Compare prices and physical quantities with a difference, so as to avoid rounding errors.
 
 .. code-block:: php
    
-    if (substr($LocationFromGet, 0, 1) == "/") {
-        $LocationFromGet = substr($LocationFromGet, 1);
+    if ((float)$option['price'] != 0.00) {
+                            $valueNode->addAttribute('price', $option['price']);
+                            $valueNode->addAttribute('formated_price', $option['formated_price']);
+                        }
+
+
+.. _case-spip-type-norealcomparison:
+
+SPIP
+++++
+
+
+:ref:`no-real-comparison`, in ecrire/maj/v017.php:37. 
+
+Here, the current version number is stored as a real number. With a string, though a longer value, it may be compared using the version_compare() function.
+
+.. code-block:: php
+   
+    $version_installee == 1.701
+
+
+.. _case-no-reference-for-ternary:
+
+No Reference For Ternary
+########################
+
+.. _case-phpadsnew-php-noreferenceforternary:
+
+phpadsnew
++++++++++
+
+
+:ref:`no-reference-for-ternary`, in lib/OA/Admin/Menu/Section.php334:334. 
+
+The reference should be removed from the function definition. Either this method returns null, which is never a reference, or it returns $this, which is always a reference, or the results of a methodcall. The latter may or may not be a reference, but the Ternary operator will drop it and return by value. 
+
+.. code-block:: php
+   
+    function &getParentOrSelf($type)
+    	{
+            if ($this->type == $type) {
+                return $this;
+            }
+            else {
+                return $this->parentSection != null ? $this->parentSection->getParentOrSelf($type) : null;
+            }
+    	}
+
+
+.. _case-no-return-used:
+
+No Return Used
+##############
+
+.. _case-spip-functions-noreturnused:
+
+SPIP
+++++
+
+
+:ref:`no-return-used`, in ecrire/inc/utils.php:1067. 
+
+job_queue_remove() is called as an administration order, and the result is not checked. It is considered as a fire-and-forget command. 
+
+.. code-block:: php
+   
+    function job_queue_remove($id_job) {
+    	include_spip('inc/queue');
+    
+    	return queue_remove_job($id_job);
     }
 
 
-.. _case-livezilla-structures-nosubstrone:
+.. _case-livezilla-functions-noreturnused:
 
 LiveZilla
 +++++++++
 
 
-:ref:`avoid-substr()-one`, in livezilla/_lib/objects.global.inc.php:2243. 
+:ref:`no-return-used`, in livezilla/_lib/trdp/Zend/Loader.php:114. 
 
-No need to call substr() to get only one char. 
+The loadFile method tries to load a file, aka as include. If the inclusion fails, a PHP error is emitted (an exception would do the same), and there is not error management. Hence, the 'return true;', which is not tested later. It may be dropped.
 
 .. code-block:: php
    
-    $_hex = str_replace("#", "", $_hex);
-                if(strlen($_hex) == 3) {
-                $r = hexdec(substr($_hex,0,1).substr($_hex,0,1));
-                $g = hexdec(substr($_hex,1,1).substr($_hex,1,1));
-                $b = hexdec(substr($_hex,2,1).substr($_hex,2,1));
-            } else {
-                $r = hexdec(substr($_hex,0,2));
-                $g = hexdec(substr($_hex,2,2));
-                $b = hexdec(substr($_hex,4,2));
+    public static function loadFile($filename, $dirs = null, $once = false)
+        {
+    // A lot of code to check and include files
+    
+            return true;
+        }
+
+
+.. _case-no-array\_merge()-in-loops:
+
+No array_merge() In Loops
+#########################
+
+.. _case-tine20-performances-arraymergeinloops:
+
+Tine20
+++++++
+
+
+:ref:`no-array\_merge()-in-loops`, in tine20/Tinebase/User/Ldap.php:670. 
+
+Classic example of array_merge() in loop : here, the attributures should be collected in a local variable, and then merged in one operation, at the end. That includes the attributes provided before the loop, and the array provided after the loop. 
+Note that the order of merge will be the same when merging than when collecting the arrays.
+
+.. code-block:: php
+   
+    $attributes = array_values($this->_rowNameMapping);
+            foreach ($this->_ldapPlugins as $plugin) {
+                $attributes = array_merge($attributes, $plugin->getSupportedAttributes());
             }
-            $rgb = array($r, $g, $b);
-            return $rgb;
+    
+            $attributes = array_merge($attributes, $this->_additionalLdapAttributesToFetch);
 
 
-.. _case-@-operator:
+.. _case-no-isset()-with-empty():
 
-@ Operator
-##########
+No isset() With empty()
+#######################
 
-.. _case-phinx-structures-noscream:
+.. _case-xoops-structures-noissetwithempty:
 
-Phinx
+XOOPS
 +++++
 
 
-:ref:`@-operator`, in src/Phinx/Util/Util.php:239. 
+:ref:`no-isset()-with-empty()`, in htdocs/class/tree.php:297. 
 
-fopen() may be tested for existence, readability before using it. Although, it actually emits some errors on Windows, with network volumes.
+Too much vlaidation
 
 .. code-block:: php
    
-    $isReadable = @\fopen($filePath, 'r') !== false;
-    
-            if (!$filePath || !$isReadable) {
-                throw new \Exception(sprintf(Cannot open file %s \n, $filename));
-            }
+    isset($this->tree[$key]['child']) && !empty($this->tree[$key]['child']);
 
 
-.. _case-phpipam-structures-noscream:
+.. _case-non-ascii-variables:
 
-PhpIPAM
+Non Ascii Variables
+###################
+
+.. _case-magento-variables-variablenonascii:
+
+Magento
 +++++++
 
 
-:ref:`@-operator`, in functions/classes/class.Log.php:322. 
+:ref:`non-ascii-variables`, in dev/tests/functional/tests/app/Mage/Checkout/Test/Constraint/AssertOrderWithMultishippingSuccessPlacedMessage.php:52. 
 
-Variable and index existence should always be tested with isset() : it is faster than using ``@``.
+The initial C is actually a russian C.
 
 .. code-block:: php
    
-    $_SESSION['ipamusername']
+    $сheckoutMultishippingSuccess
+
+
+.. _case-non-static-methods-called-in-a-static:
+
+Non Static Methods Called In A Static
+#####################################
+
+.. _case-dolphin-classes-nonstaticmethodscalledstatic:
+
+Dolphin
++++++++
+
+
+:ref:`non-static-methods-called-in-a-static`, in Dolphin-v.7.3.5/xmlrpc/BxDolXMLRPCFriends.php:11. 
+
+getIdByNickname() is indeed defined in the class 'BxDolXMLRPCUtil' and it calls the database. The class relies on functions (not methods) to query the database with the correct connexion. 
+
+.. code-block:: php
+   
+    class BxDolXMLRPCFriends
+    {
+        function getFriends($sUser, $sPwd, $sNick, $sLang)
+        {
+            $iIdProfile = BxDolXMLRPCUtil::getIdByNickname ($sNick);
+
+
+.. _case-magento-classes-nonstaticmethodscalledstatic:
+
+Magento
++++++++
+
+
+:ref:`non-static-methods-called-in-a-static`, in app/code/core/Mage/Paypal/Model/Payflowlink.php:143. 
+
+Mage_Payment_Model_Method_Abstract is an abstract class : this way, it is not possible to instantiate it and then, access its methods. The class is extended, so it could be called from one of the objects. Although, the troubling part is that isAvailable() uses $this, so it can't be static. 
+
+.. code-block:: php
+   
+    Mage_Payment_Model_Method_Abstract::isAvailable($quote)
+
+
+.. _case-non-constant-index-in-array:
+
+Non-constant Index In Array
+###########################
+
+.. _case-dolibarr-arrays-nonconstantarray:
+
+Dolibarr
+++++++++
+
+
+:ref:`non-constant-index-in-array`, in htdocs/includes/OAuth/Common/Storage/DoliStorage.php:245. 
+
+The `state` constant in the `$result` array is coming from the SQL query. There is no need to make this a constant : making it a string will remove some warnings in the logs.
+
+.. code-block:: php
+   
+    public function hasAuthorizationState($service)
+        {
+            // get state from db
+            dol_syslog("get state from db");
+            $sql = "SELECT state FROM ".MAIN_DB_PREFIX."oauth_state";
+            $sql.= " WHERE service='".$this->db->escape($service)."'";
+            $resql = $this->db->query($sql);
+            $result = $this->db->fetch_array($resql);
+            $states[$service] = $result[state];
+            $this->states[$service] = $states[$service];
+    
+            return is_array($states)
+            && isset($states[$service])
+            && null !== $states[$service];
+        }
+
+
+.. _case-zencart-arrays-nonconstantarray:
+
+Zencart
++++++++
+
+
+:ref:`non-constant-index-in-array`, in app/library/zencart/Services/src/LeadLanguagesRoutes.php:112. 
+
+The `fields` constant in the `$tableEntry` which holds a list of tables. It seems to be a SQL result, but it is conveniently abstracted with `$this->listener->getTableList()`, so we can't be sure.
+
+.. code-block:: php
+   
+    public function updateLanguageTables($insertId)
+        {
+            $tableList = $this->listener->getTableList();
+            if (count($tableList) == 0) {
+                return;
+            }
+            foreach ($tableList as $tableEntry) {
+                $languageKeyField = issetorArray($tableEntry, 'languageKeyField', 'language_id');
+                $sql = " INSERT IGNORE INTO :table: (";
+                $sql = $this->dbConn->bindVars($sql, ':table:', $tableEntry ['table'], 'noquotestring');
+                $sql .= $languageKeyField. ", ";
+                $fieldNames = "";
+                foreach ($tableEntry[fields] as $fieldName => $fieldType) {
+                    $fieldNames .= $fieldName . ", ";
+                }
 
 
 .. _case-not-not:
@@ -9243,39 +6297,40 @@ Here, $template is modified, when its properties are modified. When only the pro
     // more code to the end of the method
 
 
-.. _case-include\_once()-usage:
+.. _case-old-style-\_\_autoload():
 
-include_once() Usage
-####################
+Old Style __autoload()
+######################
 
-.. _case-xoops-structures-onceusage:
+.. _case-piwigo-php-oldautoloadusage:
 
-XOOPS
-+++++
-
-
-:ref:`include\_once()-usage`, in /htdocs/xoops_lib/modules/protector/admin/center.php:5. 
-
-Loading() classes should be down with autoload(). autload() may be build in several distinct functions, using spl_autoload_register().
-
-.. code-block:: php
-   
-    require_once dirname(__DIR__) . 'class/gtickets.php'
+Piwigo
+++++++
 
 
-.. _case-tikiwiki-structures-onceusage:
+:ref:`old-style-\_\_autoload()`, in include/phpmailer/PHPMailerAutoload.php:45. 
 
-Tikiwiki
-++++++++
-
-
-:ref:`include\_once()-usage`, in tiki-mytiki_shared.php :140. 
-
-Turn the code from tiki-mytiki_shared.php into a function or a method, and call it when needed. 
+This code handles situations for PHP after 5.1.0 and older. Rare are the applications that are still using those versions in 2019.
 
 .. code-block:: php
    
-    include_once('tiki-mytiki_shared.php');
+    if (version_compare(PHP_VERSION, '5.1.2', '>=')) {
+        //SPL autoloading was introduced in PHP 5.1.2
+        if (version_compare(PHP_VERSION, '5.3.0', '>=')) {
+            spl_autoload_register('PHPMailerAutoload', true, true);
+        } else {
+            spl_autoload_register('PHPMailerAutoload');
+        }
+    } else {
+        /**
+         * Fall back to traditional autoload for old PHP versions
+         * @param string $classname The name of the class to load
+         */
+        function __autoload($classname)
+        {
+            PHPMailerAutoload($classname);
+        }
+    }
 
 
 .. _case-one-if-is-sufficient:
@@ -9306,55 +6361,115 @@ empty($params['inputtitle']) should have priority over $params['wanted'] == 'n'.
     	}
 
 
-.. _case-several-instructions-on-the-same-line:
+.. _case-one-letter-functions:
 
-Several Instructions On The Same Line
-#####################################
+One Letter Functions
+####################
 
-.. _case-piwigo-structures-onelinetwoinstructions:
+.. _case-thinkphp-functions-oneletterfunctions:
 
-Piwigo
-++++++
-
-
-:ref:`several-instructions-on-the-same-line`, in tools/triggers_list.php:993. 
-
-There are two instructions on the line with the if(). Note that the condition is not followed by a bracketed block. When reviewing, it really seems that echo '<br>' and $f=0; are on the same block, but the second is indeed an unconditional expression. This is very difficult to spot. 
-
-.. code-block:: php
-   
-    foreach ($trigger['files'] as $file)
-          {
-            if (!$f) echo '<br>'; $f=0;
-            echo preg_replace('#\((.+)\)#', '(<i>$1</i>)', $file);
-          }
+ThinkPHP
+++++++++
 
 
-.. _case-tine20-structures-onelinetwoinstructions:
+:ref:`one-letter-functions`, in ThinkPHP/Mode/Api/functions.php:859. 
 
-Tine20
-++++++
-
-
-:ref:`several-instructions-on-the-same-line`, in tine20/Calendar/Controller/Event.php:1594. 
-
-Here, $_event->attendee is saved in a local variable, then the property is destroyed. Same for $_event->notes; Strangely, a few lines above, the properties are unset on their own line. Unsetting properties leads to surprise bugs, and hidding the unset after ; makes it harder to spot.
+There are also the functions C, E, G... The applications is written in a foreign language, which may be a base for non-significant function names.
 
 .. code-block:: php
    
-    $futurePersistentExceptionEvents->setRecurId($_event->getId());
-                    unset($_event->recurid);
-                    unset($_event->base_event_id);
-                    foreach(array('attendee', 'notes', 'alarms') as $prop) {
-                        if ($_event->{$prop} instanceof Tinebase_Record_RecordSet) {
-                            $_event->{$prop}->setId(NULL);
-                        }
-                    }
-                    $_event->exdate = $futureExdates;
-    
-                    $attendees = $_event->attendee; unset($_event->attendee);
-                    $note = $_event->notes; unset($_event->notes);
-                    $persistentExceptionEvent = $this->create($_event, $_checkBusyConflicts && $dtStartHasDiff);
+    function F($name, $value = '', $path = DATA_PATH)
+
+
+.. _case-cleverstyle-functions-oneletterfunctions:
+
+Cleverstyle
++++++++++++
+
+
+:ref:`one-letter-functions`, in core/drivers/DB/PostgreSQL.php:71. 
+
+There is also function f(). Those are actually overwritten methods. From the documentation, q() is for query, and f() is for fetch. Those are short names for frequently used functions.
+
+.. code-block:: php
+   
+    public function q ($query, ...$params) {
+
+
+.. _case-one-variable-string:
+
+One Variable String
+###################
+
+.. _case-tikiwiki-type-onevariablestrings:
+
+Tikiwiki
+++++++++
+
+
+:ref:`one-variable-string`, in lib/wiki-plugins/wikiplugin_addtocart.php:228. 
+
+Double-quotes are not needed here. If casting to string is important, the (string) would be more explicit.
+
+.. code-block:: php
+   
+    foreach ($plugininfo['params'] as $key => $param) {
+    		$default["$key"] = $param['default'];
+    	}
+
+
+.. _case-nextcloud-type-onevariablestrings:
+
+NextCloud
++++++++++
+
+
+:ref:`one-variable-string`, in build/integration/features/bootstrap/BasicStructure.php:349. 
+
+Both concatenations could be merged, independently. If readability is important, why not put them inside curly brackets?
+
+.. code-block:: php
+   
+    public static function removeFile($path, $filename) {
+    		if (file_exists("$path" . "$filename")) {
+    			unlink("$path" . "$filename");
+    		}
+    	}
+
+
+.. _case-only-variable-passed-by-reference:
+
+Only Variable Passed By Reference
+#################################
+
+.. _case-dolphin-functions-onlyvariablepassedbyreference:
+
+Dolphin
++++++++
+
+
+:ref:`only-variable-passed-by-reference`, in administration/charts.json.php:89. 
+
+This is not possible, as array_slice() returns a new array, and not a reference. Minimally, the intermediate result must be saved in a variable, then popped. Actually, this code extracts the element at key 1 in the $aData array, although this also works with hash (non-numeric keys).
+
+.. code-block:: php
+   
+    array_pop(array_slice($aData, 0, 1))
+
+
+.. _case-phpipam-functions-onlyvariablepassedbyreference:
+
+PhpIPAM
++++++++
+
+
+:ref:`only-variable-passed-by-reference`, in functions/classes/class.Thread.php:243. 
+
+This is sneaky bug : the assignation $status = 0 returns a value, and not a variable. This leads PHP to mistake the initialized 0 with the variable $status and fails. It is not possible to initialize variable AND use them as argument.
+
+.. code-block:: php
+   
+    pcntl_waitpid($this->pid, $status = 0)
 
 
 .. _case-or-die:
@@ -9390,6 +6505,124 @@ or die() is also applied to many situations, where a blocking situation arise. H
 .. code-block:: php
    
     $coreFile = tempnam('/tmp/', 'ocexport') or die('could not generate Excel file (6)')
+
+
+.. _case-overwritten-source-and-value:
+
+Overwritten Source And Value
+############################
+
+.. _case-churchcrm-structures-foreachsourcevalue:
+
+ChurchCRM
++++++++++
+
+
+:ref:`overwritten-source-and-value`, in edusoho/vendor/symfony/symfony/src/Symfony/Component/VarDumper/Dumper/CliDumper.php:194. 
+
+$str is actually processed as an array (string of characters), and it is also modified along the way.
+
+.. code-block:: php
+   
+    foreach ($str as $str) {
+                    if ($i < $m) {
+                        $str .= \n;
+                    }
+                    if (0 < $this->maxStringWidth && $this->maxStringWidth < $len = mb_strlen($str, 'UTF-8')) {
+                        $str = mb_substr($str, 0, $this->maxStringWidth, 'UTF-8');
+                        $lineCut = $len - $this->maxStringWidth;
+                    }
+                    //.... More code
+
+
+.. _case-expressionengine-structures-foreachsourcevalue:
+
+ExpressionEngine
+++++++++++++++++
+
+
+:ref:`overwritten-source-and-value`, in system/ee/EllisLab/ExpressionEngine/Service/Theme/ThemeInstaller.php:595. 
+
+Looping over $filename. 
+
+.. code-block:: php
+   
+    foreach (directory_map($to_dir) as $directory => $filename)
+    			{
+    				if (is_string($directory))
+    				{
+    					foreach ($filename as $filename)
+    					{
+    						unlink($to_dir.$directory.'/'.$filename);
+    					}
+    
+    					@rmdir($to_dir.$directory);
+    				}
+    				else
+    				{
+    					unlink($to_dir.$filename);
+    				}
+    			}
+
+
+.. _case-php-keywords-as-names:
+
+PHP Keywords As Names
+#####################
+
+.. _case-churchcrm-php-reservednames:
+
+ChurchCRM
++++++++++
+
+
+:ref:`php-keywords-as-names`, in src/kiosk/index.php:42. 
+
+$false may be true or false (or else...). In fact, the variable is not even defined in this file, and the file do a lot of inclusion. 
+
+.. code-block:: php
+   
+    if (!isset($_COOKIE['kioskCookie'])) {
+        if ($windowOpen) {
+            $guid = uniqid();
+            setcookie("kioskCookie", $guid, 2147483647);
+            $Kiosk = new \ChurchCRM\KioskDevice();
+            $Kiosk->setGUIDHash(hash('sha256', $guid));
+            $Kiosk->setAccepted($false);
+            $Kiosk->save();
+        } else {
+            header("HTTP/1.1 401 Unauthorized");
+            exit;
+        }
+    }
+
+
+.. _case-xataface-php-reservednames:
+
+xataface
+++++++++
+
+
+:ref:`php-keywords-as-names`, in Dataface/Record.php:1278. 
+
+This one is documented, and in the end, makes a lot of sense.
+
+.. code-block:: php
+   
+    function &getRelatedRecord($relationshipName, $index=0, $where=0, $sort=0){
+    		if ( isset($this->cache[__FUNCTION__][$relationshipName][$index][$where][$sort]) ){
+    			return $this->cache[__FUNCTION__][$relationshipName][$index][$where][$sort];
+    		}
+    		$it = $this->getRelationshipIterator($relationshipName, $index, 1, $where, $sort);
+    		if ( $it->hasNext() ){
+    			$rec =& $it->next();
+    			$this->cache[__FUNCTION__][$relationshipName][$index][$where][$sort] =& $rec;
+    			return $rec;
+    		} else {
+    			$null = null;	// stupid hack because literal 'null' can't be returned by ref.
+    			return $null;
+    		}
+    	}
 
 
 .. _case-php7-dirname:
@@ -9429,6 +6662,96 @@ Since PHP 7.0, dirname( , 2); does the job.
     		$IP = dirname( dirname( __DIR__ ) );
     		$this->setVar( 'IP', $IP );
     	}
+
+
+.. _case-parent-first:
+
+Parent First
+############
+
+.. _case-shopware-classes-parentfirst:
+
+shopware
+++++++++
+
+
+:ref:`parent-first`, in wp-admin/includes/misc.php:74. 
+
+Here, the parent is called last. Givent that $title is defined in the same class, it seems that $name may be defined in the BaseContainer class. In fact, it is not, and BasecContainer and FieldSet are fairly independant classes. Thus, the parent::__construct call could be first here, though more as a coding convention.
+
+.. code-block:: php
+   
+    /**
+     * Class FieldSet
+     */
+    class FieldSet extends BaseContainer
+    {
+        /**
+         * @var string
+         */
+        protected $title;
+    
+        /**
+         * @param string $name
+         * @param string $title
+         */
+        public function __construct($name, $title)
+        {
+            $this->title = $title;
+            $this->name = $name;
+            parent::__construct();
+        }
+
+
+.. _case-prestashop-classes-parentfirst:
+
+PrestaShop
+++++++++++
+
+
+:ref:`parent-first`, in controllers/admin/AdminPatternsController.php:30. 
+
+A good number of properties are set in the current object even before the parent AdminController(Core) is called. 'table' and 'lang' acts as default values for the parent class, as it (the parent class) would set them to another default value. Many properties are used, but not defined in the current class, nor its parent. This approach prevents the constructor from requesting too many arguments. Yet, as such, it is difficult to follow which of the initial values are transmitted via protected/public properties rather than using the __construct() call.
+
+.. code-block:: php
+   
+    class AdminPatternsControllerCore extends AdminController
+    {
+        public $name = 'patterns';
+    
+        public function __construct()
+        {
+            $this->bootstrap = true;
+            $this->show_toolbar = false;
+            $this->context = Context::getContext();
+    
+            parent::__construct();
+        }
+
+
+.. _case-pathinfo()-returns-may-vary:
+
+Pathinfo() Returns May Vary
+###########################
+
+.. _case-nextcloud-php-pathinforeturns:
+
+NextCloud
++++++++++
+
+
+:ref:`pathinfo()-returns-may-vary`, in lib/private/Preview/Office.php:56. 
+
+$absPath is build with the toTmpFile() method, which may return a boolean (false) in case of error. Error situations include the inability to create the temporary file.
+
+.. code-block:: php
+   
+    $absPath = $fileview->toTmpFile($path);
+    
+    // More code
+    
+    			list($dirname, , , $filename) = array_values(pathinfo($absPath));
+    			$pngPreview = $dirname . '/' . $filename . '.png';
 
 
 .. _case-phpinfo:
@@ -9503,6 +6826,130 @@ That is a useless assignation, except for the transtyping to integer that PHP do
     $decoded[$field] = +$decoded[$field]
 
 
+.. _case-possible-missing-subpattern:
+
+Possible Missing Subpattern
+###########################
+
+.. _case-phpmyadmin-php-missingsubpattern:
+
+phpMyAdmin
+++++++++++
+
+
+:ref:`possible-missing-subpattern`, in libraries/classes/Advisor.php:557. 
+
+The last capturing subpattern is ``( \[(.*)\])?`` and it is optional. Indeed, when the pattern succeed, the captured values are stored in ``$match``. Yet, the code checks for the existence of ``$match[3]`` before using it.
+
+.. code-block:: php
+   
+    if (preg_match("/rule\s'(.*)'( \[(.*)\])?$/", $line, $match)) {
+                        $ruleLine = 1;
+                        $ruleNo++;
+                        $rules[$ruleNo] = ['name' => $match[1]];
+                        $lines[$ruleNo] = ['name' => $i + 1];
+                        if (isset($match[3])) {
+                            $rules[$ruleNo]['precondition'] = $match[3];
+                            $lines[$ruleNo]['precondition'] = $i + 1;
+                        }
+
+
+.. _case-spip-php-missingsubpattern:
+
+SPIP
+++++
+
+
+:ref:`possible-missing-subpattern`, in ecrire/inc/filtres_dates.php:73. 
+
+This code avoid the PHP notice by padding the resulting array (see comment in French : eviter === avoid)
+
+.. code-block:: php
+   
+    if (preg_match("#^([12][0-9]{3}[-/][01]?[0-9])([-/]00)?( [-0-9:]+)?$#", $date, $regs)) {
+    				$regs = array_pad($regs, 4, null); // eviter notice php
+    				$date = preg_replace("@/@", "-", $regs[1]) . "-00" . $regs[3];
+    			} else {
+    				$date = date("Y-m-d H:i:s", strtotime($date));
+    			}
+
+
+.. _case-pre-increment:
+
+Pre-increment
+#############
+
+.. _case-expressionengine-performances-prepostincrement:
+
+ExpressionEngine
+++++++++++++++++
+
+
+:ref:`pre-increment`, in system/ee/EllisLab/ExpressionEngine/Controller/Utilities/Communicate.php:650. 
+
+Using preincrement in for() loops is safe and straightforward. 
+
+.. code-block:: php
+   
+    for ($x = 0; $x < $number_to_send; $x++)
+    		{
+    			$email_address = array_shift($recipient_array);
+    
+    			if ( ! $this->deliverEmail($email, $email_address))
+    			{
+    				$email->delete();
+    
+    				$debug_msg = ee()->email->print_debugger(array());
+    
+    				show_error(lang('error_sending_email').BR.BR.$debug_msg);
+    			}
+    			$email->total_sent++;
+    		}
+
+
+.. _case-traq-performances-prepostincrement:
+
+Traq
+++++
+
+
+:ref:`pre-increment`, in src/Controllers/Tickets.php:84. 
+
+$this->currentProject->next_ticket_id value is ignored by the code. It may be turned into a preincrement.
+
+.. code-block:: php
+   
+    TimelineModel::newTicketEvent($this->currentUser, $ticket)->save();
+    
+                $this->currentProject->next_ticket_id++;
+                $this->currentProject->save();
+
+
+.. _case-preprocessable:
+
+Preprocessable
+##############
+
+.. _case-phpadsnew-structures-shouldpreprocess:
+
+phpadsnew
++++++++++
+
+
+:ref:`preprocessable`, in phpAdsNew-2.0/adview.php:302. 
+
+Each call to chr() may be done before. First, chr() may be replace with the hexadecimal sequence "0x3B"; Secondly, 0x3b is a rather long replacement for a simple semi-colon. The whole pragraph could be stored in a separate file, for easier modifications. 
+
+.. code-block:: php
+   
+    echo chr(0x47).chr(0x49).chr(0x46).chr(0x38).chr(0x39).chr(0x61).chr(0x01).chr(0x00).
+    		     chr(0x01).chr(0x00).chr(0x80).chr(0x00).chr(0x00).chr(0x04).chr(0x02).chr(0x04).
+    		 	 chr(0x00).chr(0x00).chr(0x00).chr(0x21).chr(0xF9).chr(0x04).chr(0x01).chr(0x00).
+    		     chr(0x00).chr(0x00).chr(0x00).chr(0x2C).chr(0x00).chr(0x00).chr(0x00).chr(0x00).
+    		     chr(0x01).chr(0x00).chr(0x01).chr(0x00).chr(0x00).chr(0x02).chr(0x02).chr(0x44).
+    		     chr(0x01).chr(0x00).chr(0x3B);
+
+
 .. _case-printf-number-of-arguments:
 
 Printf Number Of Arguments
@@ -9521,6 +6968,164 @@ PhpIPAM
 .. code-block:: php
    
     sprintf('%032s', gmp_strval(gmp_init($ipv6long, 10), 16);
+
+
+.. _case-property-could-be-local:
+
+Property Could Be Local
+#######################
+
+.. _case-mautic-classes-propertycouldbelocal:
+
+Mautic
+++++++
+
+
+:ref:`property-could-be-local`, in app/bundles/EmailBundle/Model/SendEmailToContact.php:47. 
+
+$translator is a private property, provided at construction time. It is private, and only used in the processBadEmails() method. $translator may be turned into a parameter for processBadEmails(), and make the class slimmer.
+
+.. code-block:: php
+   
+    class SendEmailToContact
+    {
+        /**
+         * @var TranslatorInterface
+         */
+        private $translator;
+    
+    // Skipped code 
+    
+        /**
+         * SendEmailToContact constructor.
+         *
+         * @param MailHelper          $mailer
+         * @param StatRepository      $statRepository
+         * @param DoNotContact        $dncModel
+         * @param TranslatorInterface $translator
+         */
+        public function __construct(MailHelper $mailer, StatHelper $statHelper, DoNotContact $dncModel, TranslatorInterface $translator)
+        {
+            $this->mailer     = $mailer;
+            $this->statHelper = $statHelper;
+            $this->dncModel   = $dncModel;
+            $this->translator = $translator;
+        }
+    
+    // Skipped code 
+    
+        /**
+         * Add DNC entries for bad emails to get them out of the queue permanently.
+         */
+        protected function processBadEmails()
+        {
+            // Update bad emails as bounces
+            if (count($this->badEmails)) {
+                foreach ($this->badEmails as $contactId => $contactEmail) {
+                    $this->dncModel->addDncForContact(
+                        $contactId,
+                        ['email' => $this->emailEntityId],
+                        DNC::BOUNCED,
+                        $this->translator->trans('mautic.email.bounce.reason.bad_email'),
+                        true,
+                        false
+                    );
+                }
+            }
+        }
+
+
+.. _case-typo3-classes-propertycouldbelocal:
+
+Typo3
++++++
+
+
+:ref:`property-could-be-local`, in typo3/sysext/install/Classes/Updates/MigrateUrlTypesInPagesUpdate.php:28. 
+
+$urltypes is a private property, with a list of protocols for communicationss. It acts as a constant, being only read in the executeUpdate() method : constants may hold arrays. If this property has to evolve in the future, an accessor to update it will be necessary. Until then, this list may be hardcoded in the method. 
+
+.. code-block:: php
+   
+    /**
+     * Merge URLs divided in pages.urltype and pages.url into pages.url
+     * @internal This class is only meant to be used within EXT:install and is not part of the TYPO3 Core API.
+     */
+    class MigrateUrlTypesInPagesUpdate implements UpgradeWizardInterface
+    {
+        private $urltypes = ['', 'http://', 'ftp://', 'mailto:', 'https://'];
+    
+    // Skipped code
+    
+        /**
+         * Moves data from pages.urltype to pages.url
+         *
+         * @return bool
+         */
+        public function executeUpdate(): bool
+        {
+            foreach ($this->databaseTables as $databaseTable) {
+                $connection = GeneralUtility::makeInstance(ConnectionPool::class)
+                    ->getConnectionForTable($databaseTable);
+    
+                // Process records that have entries in pages.urltype
+                $queryBuilder = $connection->createQueryBuilder();
+                $queryBuilder->getRestrictions()->removeAll();
+                $statement = $queryBuilder->select('uid', 'urltype', 'url')
+                    ->from($databaseTable)
+                    ->where(
+                        $queryBuilder->expr()->neq('urltype', 0),
+                        $queryBuilder->expr()->neq('url', $queryBuilder->createPositionalParameter(''))
+                    )
+                    ->execute();
+    
+                while ($row = $statement->fetch()) {
+                    $url = $this->urltypes[(int)$row['urltype']] . $row['url'];
+                    $updateQueryBuilder = $connection->createQueryBuilder();
+                    $updateQueryBuilder
+                        ->update($databaseTable)
+                        ->where(
+                            $updateQueryBuilder->expr()->eq(
+                                'uid',
+                                $updateQueryBuilder->createNamedParameter($row['uid'], \PDO::PARAM_INT)
+                            )
+                        )
+                        ->set('url', $updateQueryBuilder->createNamedParameter($url), false)
+                        ->set('urltype', 0);
+                    $updateQueryBuilder->execute();
+                }
+            }
+            return true;
+        }
+
+
+.. _case-property-used-in-one-method-only:
+
+Property Used In One Method Only
+################################
+
+.. _case-contao-classes-propertyusedinonemethodonly:
+
+Contao
+++++++
+
+
+:ref:`property-used-in-one-method-only`, in calendar-bundle/src/Resources/contao/modules/ModuleEventlist.php:38. 
+
+Date is protected property. It is used only in the compile() method, and it is not used by the parent class. As such, it may be turned into a local variable.
+
+.. code-block:: php
+   
+    class ModuleEventlist extends Events
+    {
+    
+    	/**
+    	 * Current date object
+    	 * @var Date
+    	 */
+    	protected $Date;
+    
+    // Date is used in function compile() only
 
 
 .. _case-property-variable-confusion:
@@ -9648,6 +7253,274 @@ The value is SELECTed first in the database, and it is INSERTed if not. This may
     }
 
 
+.. _case-randomly-sorted-arrays:
+
+Randomly Sorted Arrays
+######################
+
+.. _case-contao-arrays-randomlysortedliterals:
+
+Contao
+++++++
+
+
+:ref:`randomly-sorted-arrays`, in system/modules/core/dca/tl_module.php:259. 
+
+The array array('maxlength', 'decodeEntities', 'tl_class') is configured multiple times in this file. Most of them is in the second form, but some are in the first form. (Multiple occurrences in this file). 
+
+.. code-block:: php
+   
+    array('maxlength' => 255, 'decodeEntities' => true, 'tl_class' => 'w50') // Line 246
+    array('decodeEntities' => true, 'maxlength' => 255, 'tl_class' => 'w50'); // ligne 378
+
+
+.. _case-vanilla-arrays-randomlysortedliterals:
+
+Vanilla
++++++++
+
+
+:ref:`randomly-sorted-arrays`, in applications/dashboard/models/class.activitymodel.php:308. 
+
+'Photo' moved from last to second. This array is used with a 'Join' key, and is the base for a SQL table JOIN. As such, order is important. If this is the case, it seems unusual that the order is not the same for a join using the same tables. If it is not the case, arrays may be reordered. 
+
+.. code-block:: php
+   
+    /* L 305 */        Gdn::userModel()->joinUsers(
+                $result->resultArray(),
+                ['ActivityUserID', 'RegardingUserID'],
+                ['Join' => ['Name', 'Email', 'Gender', 'Photo']]
+            );
+    
+    // L 385
+            Gdn::userModel()->joinUsers($result, ['ActivityUserID', 'RegardingUserID'], ['Join' => ['Name', 'Photo', 'Email', 'Gender']]);
+
+
+.. _case-redefined-default:
+
+Redefined Default
+#################
+
+.. _case-piwigo-classes-redefineddefault:
+
+Piwigo
+++++++
+
+
+:ref:`redefined-default`, in admin/include/updates.class.php:34. 
+
+default_themes is defined as an empty array, then filled with new values. Same for default_plugins. Both may be defined as declaration time, and not during the constructor.
+
+.. code-block:: php
+   
+    class updates
+    {
+      var $types = array();
+      var $plugins;
+      var $themes;
+      var $languages;
+      var $missing = array();
+      var $default_plugins = array();
+      var $default_themes = array();
+      var $default_languages = array();
+      var $merged_extensions = array();
+      var $merged_extension_url = 'http://piwigo.org/download/merged_extensions.txt';
+    
+      function __construct($page='updates')
+      {
+        $this->types = array('plugins', 'themes', 'languages');
+    
+        if (in_array($page, $this->types))
+        {
+          $this->types = array($page);
+        }
+        $this->default_themes = array('clear', 'dark', 'Sylvia', 'elegant', 'smartpocket');
+        $this->default_plugins = array('AdminTools', 'TakeATour', 'language_switch', 'LocalFilesEditor');
+
+
+.. _case-redefined-private-property:
+
+Redefined Private Property
+##########################
+
+.. _case-zurmo-classes-redefinedprivateproperty:
+
+Zurmo
++++++
+
+
+:ref:`redefined-private-property`, in app/protected/modules/zurmo/models/OwnedCustomField.php:51. 
+
+The class OwnedCustomField is part of a large class tree : OwnedCustomField extends CustomField,
+CustomField extends BaseCustomField, BaseCustomField extends RedBeanModel, RedBeanModel extends BeanModel. 
+
+Since $canHaveBean is distinct in BeanModel and in OwnedCustomField, the public method getCanHaveBean() also had to be overloaded. 
+
+.. code-block:: php
+   
+    class OwnedCustomField extends CustomField
+        {
+            /**
+             * OwnedCustomField does not need to have a bean because it stores no attributes and has no relations
+             * @see RedBeanModel::canHaveBean();
+             * @var boolean
+             */
+            private static $canHaveBean = false;
+    
+    /..../
+    
+            /**
+             * @see RedBeanModel::getHasBean()
+             */
+            public static function getCanHaveBean()
+            {
+                if (get_called_class() == 'OwnedCustomField')
+                {
+                    return self::$canHaveBean;
+                }
+                return parent::getCanHaveBean();
+            }
+
+
+.. _case-register-globals:
+
+Register Globals
+################
+
+.. _case-teampass-security-registerglobals:
+
+TeamPass
+++++++++
+
+
+:ref:`register-globals`, in api/index.php:25. 
+
+The API starts with security features, such as the whitelist(). The whitelist applies to IP addresses, so the query string is not sanitized. Then, the QUERY_STRING is parsed, and creates a lot of new global variables.
+
+.. code-block:: php
+   
+    teampass_whitelist();
+    
+    parse_str($_SERVER['QUERY_STRING']);
+    $method = $_SERVER['REQUEST_METHOD'];
+    $request = explode("/", substr(@$_SERVER['PATH_INFO'], 1));
+
+
+.. _case-xoops-security-registerglobals:
+
+XOOPS
++++++
+
+
+:ref:`register-globals`, in htdocs/modules/system/admin/images/main.php:33:33. 
+
+This code only exports the POST variables as globals. And it does clean incoming variables, but not all of them. 
+
+.. code-block:: php
+   
+    // Check users rights
+    if (!is_object($xoopsUser) || !is_object($xoopsModule) || !$xoopsUser->isAdmin($xoopsModule->mid())) {
+        exit(_NOPERM);
+    }
+    
+    //  Check is active
+    if (!xoops_getModuleOption('active_images', 'system')) {
+        redirect_header('admin.php', 2, _AM_SYSTEM_NOTACTIVE);
+    }
+    
+    if (isset($_POST)) {
+        foreach ($_POST as $k => $v) {
+            ${$k} = $v;
+        }
+    }
+    
+    // Get Action type
+    $op = system_CleanVars($_REQUEST, 'op', 'list', 'string');
+
+
+.. _case-relay-function:
+
+Relay Function
+##############
+
+.. _case-teampass-functions-relayfunction:
+
+TeamPass
+++++++++
+
+
+:ref:`relay-function`, in includes/libraries/Goodby/CSV/Import/Standard/Interpreter.php:88. 
+
+This example puts actually a name on the events : this method 'delegate' and it does it in the smallest amount of possible work, being given all the arguments. 
+
+.. code-block:: php
+   
+    /**
+         * delegate to observer
+         *
+         * @param $observer
+         * @param $line
+         */
+        private function delegate($observer, $line)
+        {
+            call_user_func($observer, $line);
+        }
+
+
+.. _case-spip-functions-relayfunction:
+
+SPIP
+++++
+
+
+:ref:`relay-function`, in ecrire/inc/json.php:73. 
+
+var2js() acts as an alternative for json_encode(). Yet, it used to be directly called by the framework's code and difficult to change. With the advent of json_encode, the native function has been used, and even, a compatibility tool was set up. Thus, the relay function. 
+
+.. code-block:: php
+   
+    if (!function_exists('json_encode')) {
+    	function json_encode($v) {
+    		return var2js($v);
+    	}
+    }
+
+
+.. _case-repeated-regex:
+
+Repeated Regex
+##############
+
+.. _case-vanilla-structures-repeatedregex:
+
+Vanilla
++++++++
+
+
+:ref:`repeated-regex`, in library/core/class.pluginmanager.php:1200. 
+
+This regex is actually repeated 4 times across the Vanilla database, including this variation : '#^(https?:)?//#i'.
+
+.. code-block:: php
+   
+    '`^https?://`'
+
+
+.. _case-tikiwiki-structures-repeatedregex:
+
+Tikiwiki
+++++++++
+
+
+:ref:`repeated-regex`, in tiki-login.php:369. 
+
+This regex is use twice, identically, in the same file, with a few line of distance. It may be federated at the file level.
+
+.. code-block:: php
+   
+    preg_match('/(tiki-register|tiki-login_validate|tiki-login_scr)\.php/', $url)
+
+
 .. _case-repeated-print():
 
 Repeated print()
@@ -9694,39 +7567,34 @@ Simply calling print once is better than three times. Here too, echo usage would
     		print </form>;
 
 
-.. _case-repeated-regex:
+.. _case-rethrown-exceptions:
 
-Repeated Regex
-##############
+Rethrown Exceptions
+###################
 
-.. _case-vanilla-structures-repeatedregex:
+.. _case-prestashop-exceptions-rethrown:
 
-Vanilla
-+++++++
-
-
-:ref:`repeated-regex`, in library/core/class.pluginmanager.php:1200. 
-
-This regex is actually repeated 4 times across the Vanilla database, including this variation : '#^(https?:)?//#i'.
-
-.. code-block:: php
-   
-    '`^https?://`'
+PrestaShop
+++++++++++
 
 
-.. _case-tikiwiki-structures-repeatedregex:
+:ref:`rethrown-exceptions`, in classes/webservice/WebserviceOutputBuilder.php:731. 
 
-Tikiwiki
-++++++++
-
-
-:ref:`repeated-regex`, in tiki-login.php:369. 
-
-This regex is use twice, identically, in the same file, with a few line of distance. It may be federated at the file level.
+The setSpecificField method catches a WebserviceException, representing an issue with the call to the webservice. However, that piece of information is lost, and the exception is rethrown immediately, without any action.
 
 .. code-block:: php
    
-    preg_match('/(tiki-register|tiki-login_validate|tiki-login_scr)\.php/', $url)
+    public function setSpecificField($object, $method, $field_name, $entity_name)
+    	{
+    		try {
+    			$this->validateObjectAndMethod($object, $method);
+    		} catch (WebserviceException $e) {
+    			throw $e;
+    		}
+    
+    		$this->specificFields[$field_name] = array('entity'=>$entity_name, 'object' => $object, 'method' => $method, 'type' => gettype($object));
+    		return $this;
+    	}
 
 
 .. _case-return-true-false:
@@ -9772,6 +7640,36 @@ If/then is a lot of code to produce a boolean.
     			return TRUE;
     		}
     	}
+
+
+.. _case-safe-curl-options:
+
+Safe Curl Options
+#################
+
+.. _case-openconf-security-curloptions:
+
+OpenConf
+++++++++
+
+
+:ref:`safe-curl-options`, in openconf/include.php:703. 
+
+The function that holds that code is only used to call openconf.com, over http, while openconf.com is hosted on https, nowadays. This may be a sign of hard to access certificates.
+
+.. code-block:: php
+   
+    $ch = curl_init();
+    			curl_setopt($ch, CURLOPT_URL, $f);
+    			curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    			curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);       
+    			curl_setopt($ch, CURLOPT_AUTOREFERER, true);       
+    			curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);       
+    			curl_setopt($ch, CURLOPT_MAXREDIRS, 5);       
+    			curl_setopt($ch, CURLOPT_HEADER, false);       
+    			$s = curl_exec($ch);
+    			curl_close($ch);
+    			return($s);
 
 
 .. _case-same-conditions-in-condition:
@@ -9851,6 +7749,88 @@ Typo3
                                 }
 
 
+.. _case-scalar-or-object-property:
+
+Scalar Or Object Property
+#########################
+
+.. _case-sugarcrm-classes-scalarorobjectproperty:
+
+SugarCrm
+++++++++
+
+
+:ref:`scalar-or-object-property`, in SugarCE-Full-6.5.26/data/Link.php:54. 
+
+The _relationship property starts its life as a string, and becomes an object later. 
+
+.. code-block:: php
+   
+    class Link {
+    
+    	/* Private variables.*/
+    	var $_log;
+    	var $_relationship_name; //relationship this attribute is tied to.
+    	var $_bean; //stores a copy of the bean.
+    	var $_relationship= '';
+    
+    /// More code..... 
+    
+    // line 92
+    		$this->_relationship=new Relationship();
+
+
+.. _case-several-instructions-on-the-same-line:
+
+Several Instructions On The Same Line
+#####################################
+
+.. _case-piwigo-structures-onelinetwoinstructions:
+
+Piwigo
+++++++
+
+
+:ref:`several-instructions-on-the-same-line`, in tools/triggers_list.php:993. 
+
+There are two instructions on the line with the if(). Note that the condition is not followed by a bracketed block. When reviewing, it really seems that echo '<br>' and $f=0; are on the same block, but the second is indeed an unconditional expression. This is very difficult to spot. 
+
+.. code-block:: php
+   
+    foreach ($trigger['files'] as $file)
+          {
+            if (!$f) echo '<br>'; $f=0;
+            echo preg_replace('#\((.+)\)#', '(<i>$1</i>)', $file);
+          }
+
+
+.. _case-tine20-structures-onelinetwoinstructions:
+
+Tine20
+++++++
+
+
+:ref:`several-instructions-on-the-same-line`, in tine20/Calendar/Controller/Event.php:1594. 
+
+Here, $_event->attendee is saved in a local variable, then the property is destroyed. Same for $_event->notes; Strangely, a few lines above, the properties are unset on their own line. Unsetting properties leads to surprise bugs, and hidding the unset after ; makes it harder to spot.
+
+.. code-block:: php
+   
+    $futurePersistentExceptionEvents->setRecurId($_event->getId());
+                    unset($_event->recurid);
+                    unset($_event->base_event_id);
+                    foreach(array('attendee', 'notes', 'alarms') as $prop) {
+                        if ($_event->{$prop} instanceof Tinebase_Record_RecordSet) {
+                            $_event->{$prop}->setId(NULL);
+                        }
+                    }
+                    $_event->exdate = $futureExdates;
+    
+                    $attendees = $_event->attendee; unset($_event->attendee);
+                    $note = $_event->notes; unset($_event->notes);
+                    $persistentExceptionEvent = $this->create($_event, $_checkBusyConflicts && $dtStartHasDiff);
+
+
 .. _case-should-chain-exception:
 
 Should Chain Exception
@@ -9923,18 +7903,18 @@ $sState could be the receiving part of a ternary operator.
             }
 
 
-.. _case-preprocessable:
+.. _case-should-preprocess-chr():
 
-Preprocessable
-##############
+Should Preprocess Chr()
+#######################
 
-.. _case-phpadsnew-structures-shouldpreprocess:
+.. _case-phpadsnew-php-shouldpreprocess:
 
 phpadsnew
 +++++++++
 
 
-:ref:`preprocessable`, in phpAdsNew-2.0/adview.php:302. 
+:ref:`should-preprocess-chr()`, in phpAdsNew-2.0/adview.php:302. 
 
 Each call to chr() may be done before. First, chr() may be replace with the hexadecimal sequence "0x3B"; Secondly, 0x3b is a rather long replacement for a simple semi-colon. The whole pragraph could be stored in a separate file, for easier modifications. 
 
@@ -9946,6 +7926,160 @@ Each call to chr() may be done before. First, chr() may be replace with the hexa
     		     chr(0x00).chr(0x00).chr(0x00).chr(0x2C).chr(0x00).chr(0x00).chr(0x00).chr(0x00).
     		     chr(0x01).chr(0x00).chr(0x01).chr(0x00).chr(0x00).chr(0x02).chr(0x02).chr(0x44).
     		     chr(0x01).chr(0x00).chr(0x3B);
+
+
+.. _case-should-typecast:
+
+Should Typecast
+###############
+
+.. _case-xataface-type-shouldtypecast:
+
+xataface
+++++++++
+
+
+:ref:`should-typecast`, in Dataface/Relationship.php:1612. 
+
+This is an exact example. A little further, the same applies to intval($max)) 
+
+.. code-block:: php
+   
+    intval($min);
+
+
+.. _case-openconf-type-shouldtypecast:
+
+OpenConf
+++++++++
+
+
+:ref:`should-typecast`, in author/upload.php:62. 
+
+This is another exact example. 
+
+.. code-block:: php
+   
+    intval($_POST['pid']);
+
+
+.. _case-should-use-coalesce:
+
+Should Use Coalesce
+###################
+
+.. _case-churchcrm-php-shouldusecoalesce:
+
+ChurchCRM
++++++++++
+
+
+:ref:`should-use-coalesce`, in src/ChurchCRM/Service/FinancialService.php:597. 
+
+ChurchCRM features 5 old style ternary operators, which are all in this SQL query. ChurchCRM requires PHP 7.0, so a simple code review could remove them all.
+
+.. code-block:: php
+   
+    $sSQL = "INSERT INTO pledge_plg
+                        (plg_famID,
+                        plg_FYID, 
+                        plg_date, 
+                        plg_amount,
+                        plg_schedule, 
+                        plg_method, 
+                        plg_comment, 
+                        plg_DateLastEdited, 
+                        plg_EditedBy, 
+                        plg_PledgeOrPayment, 
+                        plg_fundID, 
+                        plg_depID, 
+                        plg_CheckNo, 
+                        plg_scanString, 
+                        plg_aut_ID, 
+                        plg_NonDeductible, 
+                        plg_GroupKey)
+                        VALUES ('".
+              $payment->FamilyID."','".
+              $payment->FYID."','".
+              $payment->Date."','".
+              $Fund->Amount."','".
+              (isset($payment->schedule) ? $payment->schedule : 'NULL')."','".
+              $payment->iMethod."','".
+              $Fund->Comment."','".
+              date('YmdHis')."',".
+              $_SESSION['user']->getId().",'".
+              $payment->type."',".
+              $Fund->FundID.','.
+              $payment->DepositID.','.
+              (isset($payment->iCheckNo) ? $payment->iCheckNo : 'NULL').",'".
+              (isset($payment->tScanString) ? $payment->tScanString : 'NULL')."','".
+              (isset($payment->iAutID) ? $payment->iAutID : 'NULL')."','".
+              (isset($Fund->NonDeductible) ? $Fund->NonDeductible : 'NULL')."','".
+              $sGroupKey."')";
+
+
+.. _case-cleverstyle-php-shouldusecoalesce:
+
+Cleverstyle
++++++++++++
+
+
+:ref:`should-use-coalesce`, in modules/Feedback/index.php:37. 
+
+Cleverstyle nests ternary operators when selecting default values. Here, moving some of them to ?? will reduce the code complexity and make it more readable. Cleverstyle requires PHP 7.0 or more recent.
+
+.. code-block:: php
+   
+    $Page->content(
+    	h::{'cs-form form'}(
+    		h::{'section.cs-feedback-form article'}(
+    			h::{'header h2.cs-text-center'}($L->Feedback).
+    			h::{'table.cs-table[center] tr| td'}(
+    				[
+    					h::{'cs-input-text input[name=name][required]'}(
+    						[
+    							'placeholder' => $L->feedback_name,
+    							'value'       => $User->user() ? $User->username() : (isset($_POST['name']) ? $_POST['name'] : '')
+    						]
+    					),
+    					h::{'cs-input-text input[type=email][name=email][required]'}(
+    						[
+    							'placeholder' => $L->feedback_email,
+    							'value'       => $User->user() ? $User->email : (isset($_POST['email']) ? $_POST['email'] : '')
+    						]
+    					),
+    					h::{'cs-textarea[autosize] textarea[name=text][required]'}(
+    						[
+    							'placeholder' => $L->feedback_text,
+    							'value'       => isset($_POST['text']) ? $_POST['text'] : ''
+    						]
+    					),
+    					h::{'cs-button button[type=submit]'}($L->feedback_send)
+    				]
+    			)
+    		)
+    	)
+    );
+
+
+.. _case-should-use-existing-constants:
+
+Should Use Existing Constants
+#############################
+
+.. _case-tine20-functions-shoulduseconstants:
+
+Tine20
+++++++
+
+
+:ref:`should-use-existing-constants`, in tine20/Sales/Controller/Invoice.php:560. 
+
+True should be replaced by COUNT_RECURSIVE. The default one is COUNT_NORMAL.
+
+.. code-block:: php
+   
+    count($billables, true)
 
 
 .. _case-should-use-foreach:
@@ -10113,6 +8247,109 @@ $override should an an array : if not, it is actually set by default to empty ar
     }
 
 
+.. _case-should-use-prepared-statement:
+
+Should Use Prepared Statement
+#############################
+
+.. _case-dolibarr-security-shouldusepreparedstatement:
+
+Dolibarr
+++++++++
+
+
+:ref:`should-use-prepared-statement`, in htdocs/product/admin/price_rules.php:76. 
+
+This code is well escaped, as the integer type cast will prevent any special chars to be used. Here, a prepared statement would apply a modern approach to securing this query.
+
+.. code-block:: php
+   
+    $db->query("DELETE FROM " . MAIN_DB_PREFIX . "product_pricerules WHERE level = " . (int) $i)
+
+
+.. _case-should-use-array\_filter():
+
+Should Use array_filter()
+#########################
+
+.. _case-xataface-php-shouldusearrayfilter:
+
+xataface
+++++++++
+
+
+:ref:`should-use-array\_filter()`, in actions/manage_build_index.php:38. 
+
+This selection process has three tests : the two first are exclusive, and the third is inclusive. They could fit in one or several closures.
+
+.. code-block:: php
+   
+    $indexable = array();
+    		foreach ( $tables as $key=>$table ){
+    			if ( preg_match('/^dataface__/', $table) ){
+    				continue;
+    			}
+    			if ( preg_match('/^_/', $table) ){
+    				continue;
+    			}
+    			
+    			if ( $index->isTableIndexable($table) ){
+    				$indexable[] = $table;
+    				//unset($tables[$key]);
+    			}
+    			
+    		}
+
+
+.. _case-shopware-php-shouldusearrayfilter:
+
+shopware
+++++++++
+
+
+:ref:`should-use-array\_filter()`, in engine/Shopware/Bundle/StoreFrontBundle/Service/Core/VariantCoverService.php:71. 
+
+Closure would be the best here, since $covers has to be injected in the array_filter callback. 
+
+.. code-block:: php
+   
+    $covers = $this->variantMediaGateway->getCovers(
+                $products,
+                $context
+            );
+    
+            $fallback = [];
+            foreach ($products as $product) {
+                if (!array_key_exists($product->getNumber(), $covers)) {
+                    $fallback[] = $product;
+                }
+            }
+
+
+.. _case-silently-cast-integer:
+
+Silently Cast Integer
+#####################
+
+.. _case-mediawiki-type-silentlycastinteger:
+
+MediaWiki
++++++++++
+
+
+:ref:`silently-cast-integer`, in includes/debug/logger/monolog/AvroFormatter.php:167. 
+
+Too many ff in the masks. 
+
+.. code-block:: php
+   
+    private function encodeLong( $id ) {
+    		$high   = ( $id & 0xffffffff00000000 ) >> 32;
+    		$low    = $id & 0x00000000ffffffff;
+    		return pack( 'NN', $high, $low );
+    	}
+
+
 .. _case-simplify-regex:
 
 Simplify Regex
@@ -10146,6 +8383,225 @@ OpenConf
 .. code-block:: php
    
     $conv = iconv($cp, 'utf-8', strftime(preg_replace("/\%e/", '%#d', $format), $time));
+
+
+.. _case-slice-arrays-first:
+
+Slice Arrays First
+##################
+
+.. _case-wordpress-arrays-slicefirst:
+
+WordPress
++++++++++
+
+
+:ref:`slice-arrays-first`, in modules/InboundEmail/InboundEmail.php:1080. 
+
+Instead of reading ALL the keys, and then, keeping only the first fifty, why not read the 50 first items from the array, and then extract the keys?
+
+.. code-block:: php
+   
+    $results = array_slice(array_keys($diff), 0 ,50);
+
+
+.. _case-slow-functions:
+
+Slow Functions
+##############
+
+.. _case-churchcrm-performances-slowfunctions:
+
+ChurchCRM
++++++++++
+
+
+:ref:`slow-functions`, in src/Reports/PrintDeposit.php:35. 
+
+You may replace this with a isset() : $_POST can't contain a NULL value, unless it was set by the script itself.
+
+.. code-block:: php
+   
+    array_key_exists("report_type", $_POST);
+
+
+.. _case-suitecrm-performances-slowfunctions:
+
+SuiteCrm
+++++++++
+
+
+:ref:`slow-functions`, in include/json_config.php:242. 
+
+This is a equivalent for nl2br()
+
+.. code-block:: php
+   
+    preg_replace("/\r\n/", "<BR>", $focus->$field)
+
+
+.. _case-static-methods-can't-contain-$this:
+
+Static Methods Can't Contain $this
+##################################
+
+.. _case-xataface-classes-staticcontainsthis:
+
+xataface
+++++++++
+
+
+:ref:`static-methods-can't-contain-$this`, in Dataface/LanguageTool.php:48. 
+
+$this is hidden in the arguments of the static call to the method.
+
+.. code-block:: php
+   
+    public static function loadRealm($name){
+    		return self::getInstance($this->app->_conf['default_language'])->loadRealm($name);
+    	}
+
+
+.. _case-sugarcrm-classes-staticcontainsthis:
+
+SugarCrm
+++++++++
+
+
+:ref:`static-methods-can't-contain-$this`, in SugarCE-Full-6.5.26/modules/ACLActions/ACLAction.php:332. 
+
+Notice how $this is tested for existence before using it. It seems strange, at first, but we have to remember that if $this is never set when calling a static method, a static method may be called with $this. Confusingly, this static method may be called in two ways. 
+
+.. code-block:: php
+   
+    static function hasAccess($is_owner=false, $access = 0){
+    
+            if($access != 0 && $access == ACL_ALLOW_ALL || ($is_owner && $access == ACL_ALLOW_OWNER))return true;
+           //if this exists, then this function is not static, so check the aclaccess parameter
+            if(isset($this) && isset($this->aclaccess)){
+                if($this->aclaccess == ACL_ALLOW_ALL || ($is_owner && $this->aclaccess == ACL_ALLOW_OWNER))
+                return true;
+            }
+            return false;
+        }
+
+
+.. _case-strange-name-for-variables:
+
+Strange Name For Variables
+##########################
+
+.. _case-fuelcms-variables-strangename:
+
+FuelCMS
++++++++
+
+
+:ref:`strange-name-for-variables`, in fuel/modules/fuel/libraries/parser/dwoo/Dwoo/Adapters/CakePHP/dwoo.php:86. 
+
+Three _ is quite a lot for variables. Would they not be parameters but global variables, that would still be quite a lot.
+
+.. code-block:: php
+   
+    public function _render($___viewFn, $___data_for_view, $___play_safe = true, $loadHelpers = true) {
+        /**/
+    }
+
+
+.. _case-phpipam-variables-strangename:
+
+PhpIPAM
++++++++
+
+
+:ref:`strange-name-for-variables`, in app/admin/sections/edit-result.php:56. 
+
+$sss is the end-result of a progression, from $subsections (3s) to $ss to $sss. Although it is understandable from the code, a fuller name, like $subsection_subnet or $one_subsection_subnet would make this more readable.
+
+.. code-block:: php
+   
+    //fetch subsection subnets
+    		foreach($subsections as $ss) {
+    			$subsection_subnets = $Subnets->fetch_section_subnets($ss->id);	//fetch all subnets in subsection
+    			if(sizeof($subsection_subnets)>0) {
+    				foreach($subsection_subnets as $sss) {
+    					$out[] = $sss;
+    				}
+    			}
+    			$num_subnets = $num_subnets + sizeof($subsection_subnets);
+    			//count all addresses that will be deleted!
+    			$ipcnt = $Addresses->count_addresses_in_multiple_subnets($out);
+    		}
+
+
+.. _case-strict-comparison-with-booleans:
+
+Strict Comparison With Booleans
+###############################
+
+.. _case-phinx-structures-booleanstrictcomparison:
+
+Phinx
++++++
+
+
+:ref:`strict-comparison-with-booleans`, in src/Phinx/Db/Adapter/MysqlAdapter.php:1131. 
+
+`ìsNull( )`` always returns a boolean : it may be only be ``true`` or ``false``. Until typehinted properties or return typehint are used, isNull() may return anything else. 
+
+.. code-block:: php
+   
+    $column->isNull( ) == false
+
+
+.. _case-typo3-structures-booleanstrictcomparison:
+
+Typo3
++++++
+
+
+:ref:`strict-comparison-with-booleans`, in typo3/sysext/lowlevel/Classes/Command/FilesWithMultipleReferencesCommand.php:90. 
+
+When ``dry-run`` is not defined, the getOption() method actually returns a ``null`` value. So, comparing the result of getOption() to false is actually wrong : using a constant to prevent values to be inconsistent is recommended here.
+
+.. code-block:: php
+   
+    $input->getOption('dry-run') != false
+
+
+.. _case-strings-with-strange-space:
+
+Strings With Strange Space
+##########################
+
+.. _case-openemr-type-stringwithstrangespace:
+
+OpenEMR
++++++++
+
+
+:ref:`strings-with-strange-space`, in library/globals.inc.php:3270. 
+
+The name of the contry contains both an unsecable space (the first, after Tonga), and a normal space (between Tonga and Islands). Translations are stored in a database, which preserves the unbreakable spaces. This also means that fixing the translation must be applied to every piece of data at the same time. The xl() function, which handles the translations, is also a good place to clean the spaces before searching for the right translation.
+
+.. code-block:: php
+   
+    'to' => xl('Tonga (Tonga Islands)'),
+
+
+.. _case-thelia-type-stringwithstrangespace:
+
+Thelia
+++++++
+
+
+:ref:`strings-with-strange-space`, in templates/backOffice/default/I18n/fr_FR.php:647. 
+
+This is another example with a translation sentence. Here, the unbreakable space is before the question mark : this is a typography rule, that is common to many language. This would be a false positive, unless typography is handled by another part of the software.
+
+.. code-block:: php
+   
+    'Mot de passe oublié ?'
 
 
 .. _case-strpos()-like-comparison:
@@ -10212,39 +8668,65 @@ preg_match is used here to identify files with a forbidden extension. The actual
             }
 
 
-.. _case-drop-substr-last-arg:
+.. _case-strtr-arguments:
 
-Drop Substr Last Arg
-####################
+Strtr Arguments
+###############
 
-.. _case-suitecrm-structures-substrlastarg:
+.. _case-suitecrm-php-strtrarguments:
 
 SuiteCrm
 ++++++++
 
 
-:ref:`drop-substr-last-arg`, in modules/UpgradeWizard/uw_utils.php:2422. 
+:ref:`strtr-arguments`, in includes/vCard.php:221. 
 
-substr() is even trying to go beyond the end of the string. 
-
-.. code-block:: php
-   
-    substr($relativeFile, 1, strlen($relativeFile))
-
-
-.. _case-tine20-structures-substrlastarg:
-
-Tine20
-++++++
-
-
-:ref:`drop-substr-last-arg`, in tine20/Calendar/Frontend/Cli.php:95. 
-
-Omitting the last character would yield the same result.
+This code prepares incoming '$values' for extraction. The keys are cleaned then split with explode(). The '=' sign would stay, as strtr() can't remove it. This means that such keys won't be recognized later in the code, and gets omitted.
 
 .. code-block:: php
    
-    substr($opt, 18, strlen($opt))
+    $values = explode(';', $value);
+                        $key = strtoupper($keyvalue[0]);
+                        $key = strtr($key, '=', '');
+                        $key = strtr($key, ',', ';');
+                        $keys = explode(';', $key);
+
+
+.. _case-substring-first:
+
+Substring First
+###############
+
+.. _case-spip-performances-substrfirst:
+
+SPIP
+++++
+
+
+:ref:`substring-first`, in ecrire/inc/filtres.php:1694. 
+
+The code first makes everything uppercase, including the leading and trailing spaces, and then, removes them : it would be best to swap those operations. Note that spip_substr() is not considered in this analysis, but with SPIP knowledge, it could be moved inside the calls. 
+
+.. code-block:: php
+   
+    function filtre_initiale($nom) {
+    	return spip_substr(trim(strtoupper(extraire_multi($nom))), 0, 1);
+    }
+
+
+.. _case-prestashop-performances-substrfirst:
+
+PrestaShop
+++++++++++
+
+
+:ref:`substring-first`, in admin-dev/filemanager/include/utils.php:197. 
+
+dirname() reduces the string (or at least, keeps it the same size), so it more efficient to have it first.
+
+.. code-block:: php
+   
+    dirname(str_replace(' ', '~', $str))
 
 
 .. _case-suspicious-comparison:
@@ -10463,6 +8945,53 @@ $marker['lat'] is compared to the string '0', which actually transtype it to int
                 }
 
 
+.. _case-throw-functioncall:
+
+Throw Functioncall
+##################
+
+.. _case-sugarcrm-exceptions-throwfunctioncall:
+
+SugarCrm
+++++++++
+
+
+:ref:`throw-functioncall`, in include/externalAPI/cmis_repository_wrapper.php:918. 
+
+SugarCRM uses exceptions to fill work in progress. Here, we recognize a forgotten 'new' that makes throw call a function named 'Exception'. This fails with a Fatal Error, and doesn't issue the right messsage. The same error had propgated in the code by copy and paste : it is available 17 times in that same file.
+
+.. code-block:: php
+   
+    function getContentChanges()
+        {
+            throw Exception("Not Implemented");
+        }
+
+
+.. _case-zurmo-exceptions-throwfunctioncall:
+
+Zurmo
++++++
+
+
+:ref:`throw-functioncall`, in app/protected/modules/gamification/rules/collections/GameCollectionRules.php:66. 
+
+Other part of the code actually instantiate the exception before throwing it.
+
+.. code-block:: php
+   
+    abstract class GameCollectionRules
+        {
+            /**
+             * @return string
+             * @throws NotImplementedException - Implement in children classes
+             */
+            public static function getType()
+            {
+                throw NotImplementedException();
+            }
+
+
 .. _case-timestamp-difference:
 
 Timestamp Difference
@@ -10509,6 +9038,257 @@ When daylight saving strike, the email may suddenly be locked for 1 hour minus 3
                     echo "Wait " . (strtotime($mailing['locked']) + 30 - time()) . " seconds ...\n";
                     return;
                 }
+
+
+.. _case-too-many-children:
+
+Too Many Children
+#################
+
+.. _case-typo3-classes-toomanychildren:
+
+Typo3
++++++
+
+
+:ref:`too-many-children`, in typo3/sysext/backend/Classes/Form/AbstractNode.php:26. 
+
+More than 15 children for this class : 15 is the default configuration.
+
+.. code-block:: php
+   
+    abstract class AbstractNode implements NodeInterface, LoggerAwareInterface {
+
+
+.. _case-woocommerce-classes-toomanychildren:
+
+Woocommerce
++++++++++++
+
+
+:ref:`too-many-children`, in includes/abstracts/abstract-wc-rest-controller.php:30. 
+
+This class is extended 22 times, more than the default configuration of 15.
+
+.. code-block:: php
+   
+    class WC_REST_Controller extends WP_REST_Controller {
+
+
+.. _case-too-many-injections:
+
+Too Many Injections
+###################
+
+.. _case-nextcloud-classes-toomanyinjections:
+
+NextCloud
++++++++++
+
+
+:ref:`too-many-injections`, in lib/private/Share20/Manager.php:130. 
+
+Well documented Manager class. Quite a lot of injections though, it must take a long time to prepare it.
+
+.. code-block:: php
+   
+    /**
+    	 * Manager constructor.
+    	 *
+    	 * @param ILogger $logger
+    	 * @param IConfig $config
+    	 * @param ISecureRandom $secureRandom
+    	 * @param IHasher $hasher
+    	 * @param IMountManager $mountManager
+    	 * @param IGroupManager $groupManager
+    	 * @param IL10N $l
+    	 * @param IFactory $l10nFactory
+    	 * @param IProviderFactory $factory
+    	 * @param IUserManager $userManager
+    	 * @param IRootFolder $rootFolder
+    	 * @param EventDispatcher $eventDispatcher
+    	 * @param IMailer $mailer
+    	 * @param IURLGenerator $urlGenerator
+    	 * @param \OC_Defaults $defaults
+    	 */
+    	public function __construct(
+    			ILogger $logger,
+    			IConfig $config,
+    			ISecureRandom $secureRandom,
+    			IHasher $hasher,
+    			IMountManager $mountManager,
+    			IGroupManager $groupManager,
+    			IL10N $l,
+    			IFactory $l10nFactory,
+    			IProviderFactory $factory,
+    			IUserManager $userManager,
+    			IRootFolder $rootFolder,
+    			EventDispatcher $eventDispatcher,
+    			IMailer $mailer,
+    			IURLGenerator $urlGenerator,
+    			\OC_Defaults $defaults
+    	) {
+    		$this->logger = $logger;
+    		$this->config = $config;
+    		$this->secureRandom = $secureRandom;
+    		$this->hasher = $hasher;
+    		$this->mountManager = $mountManager;
+    		$this->groupManager = $groupManager;
+    		$this->l = $l;
+    		$this->l10nFactory = $l10nFactory;
+    		$this->factory = $factory;
+    		$this->userManager = $userManager;
+    		$this->rootFolder = $rootFolder;
+    		$this->eventDispatcher = $eventDispatcher;
+    		$this->sharingDisabledForUsersCache = new CappedMemoryCache();
+    		$this->legacyHooks = new LegacyHooks($this->eventDispatcher);
+    		$this->mailer = $mailer;
+    		$this->urlGenerator = $urlGenerator;
+    		$this->defaults = $defaults;
+    	}
+
+
+.. _case-thelia-classes-toomanyinjections:
+
+Thelia
+++++++
+
+
+:ref:`too-many-injections`, in core/lib/Thelia/Core/Event/Delivery/DeliveryPostageEvent.php:58. 
+
+Classic address class, with every details. May be even shorter than expected.
+
+.. code-block:: php
+   
+    //class DeliveryPostageEvent extends ActionEvent
+        public function __construct(
+            DeliveryModuleInterface $module,
+            Cart $cart,
+            Address $address = null,
+            Country $country = null,
+            State $state = null
+        ) {
+            $this->module = $module;
+            $this->cart = $cart;
+            $this->address = $address;
+            $this->country = $country;
+            $this->state = $state;
+        }
+
+
+.. _case-too-many-local-variables:
+
+Too Many Local Variables
+########################
+
+.. _case-humo-gen-functions-toomanylocalvariables:
+
+HuMo-Gen
+++++++++
+
+
+:ref:`too-many-local-variables`, in relations.php:813. 
+
+15 local variables pieces of code are hard to find in a compact form. This function shows one classic trait of such issue : a large ifthen is at the core of the function, and each time, it collects some values and build a larger string. This should probably be split between different methods in a class. 
+
+.. code-block:: php
+   
+    function calculate_nephews($generX) { // handed generations x is removed from common ancestor
+    global $db_functions, $reltext, $sexe, $sexe2, $language, $spantext, $selected_language, $foundX_nr, $rel_arrayX, $rel_arrayspouseX, $spouse;
+    global $reltext_nor, $reltext_nor2; // for Norwegian and Danish
+    
+    	if($selected_language=="es"){
+    		if($sexe=="m") { $neph=__('nephew'); $span_postfix="o "; $grson='nieto'; }
+    		else { $neph=__('niece'); $span_postfix="a "; $grson='nieta'; }
+    		//$gendiff = abs($generX - $generY); // FOUT
+    		$gendiff = abs($generX - $generY) - 1;
+    		$gennr=$gendiff-1;
+    		$degree=$grson." ".$gennr.$span_postfix;
+    		if($gendiff ==1) { $reltext=$neph.__(' of ');}
+    		elseif($gendiff > 1 AND $gendiff < 27) {
+    			spanish_degrees($gendiff,$grson);
+    			$reltext=$neph." ".$spantext.__(' of ');
+    		}
+    		else { $reltext=$neph." ".$degree; }
+    	} elseif ($selected_language==he){
+    		if($sexe=='m') { $nephniece = __('nephew'); }
+    ///............
+
+
+.. _case-too-many-native-calls:
+
+Too Many Native Calls
+#####################
+
+.. _case-spip-php-toomanynativecalls:
+
+SPIP
+++++
+
+
+:ref:`too-many-native-calls`, in /ecrire/xml/analyser_dtd.php:58. 
+
+This expression counts 4 usages of count(), which is more than the default level of 3 PHP calls in one expression. 
+
+.. code-block:: php
+   
+    spip_log("Analyser DTD $avail $grammaire (" . spip_timer('dtd') . ") " . count($dtc->macros) . ' macros, ' . count($dtc->elements) . ' elements, ' . count($dtc->attributs) . " listes d'attributs, " . count($dtc->entites) . " entites")
+
+
+.. _case-too-many-parameters:
+
+Too Many Parameters
+###################
+
+.. _case-wordpress-functions-toomanyparameters:
+
+WordPress
++++++++++
+
+
+:ref:`too-many-parameters`, in wp-admin/includes/misc.php:74. 
+
+11 parameters is a lot for a function. Note that it is more than the default configuration, and reported there. This may be configured.
+
+.. code-block:: php
+   
+    /**
+     * [identifyUserRights description]
+     * @param  string $groupesVisiblesUser  [description]
+     * @param  string $groupesInterditsUser [description]
+     * @param  string $isAdmin              [description]
+     * @param  string $idFonctions          [description]
+     * @return string                       [description]
+     */
+    function identifyUserRights(
+        $groupesVisiblesUser,
+        $groupesInterditsUser,
+        $isAdmin,
+        $idFonctions,
+        $server,
+        $user,
+        $pass,
+        $database,
+        $port,
+        $encoding,
+        $SETTINGS
+    ) {
+
+
+.. _case-churchcrm-functions-toomanyparameters:
+
+ChurchCRM
++++++++++
+
+
+:ref:`too-many-parameters`, in src/Reports/ReminderReport.php:192. 
+
+10 parameters is a lot for a function. Here, we may also identify a family (ID, Name), and a full address (Address1, Address2, State, Zip, Country), which may be turned into an object. 
+
+.. code-block:: php
+   
+    public function StartNewPage($fam_ID, $fam_Name, $fam_Address1, $fam_Address2, $fam_City, $fam_State, $fam_Zip, $fam_Country, $fundOnlyString, $iFYID) 
+    {
 
 
 .. _case-unconditional-break-in-loop:
@@ -10565,6 +9345,161 @@ The final break is useless : the execution has already reached the end of the lo
     		}
 
 
+.. _case-undefined-interfaces:
+
+Undefined Interfaces
+####################
+
+.. _case-xataface-interfaces-undefinedinterfaces:
+
+xataface
+++++++++
+
+
+:ref:`undefined-interfaces`, in Dataface/Error.php:112. 
+
+Exception seems to be a typo, and leads to an always-true expression.
+
+.. code-block:: php
+   
+    public static function isError($obj){
+    		if ( !PEAR::isError($obj) and !($obj instanceof Exception_) ) return false;
+    		return ($obj->getCode() >= DATAFACE_E_ERROR);
+    	}
+
+
+.. _case-undefined-properties:
+
+Undefined Properties
+####################
+
+.. _case-wordpress-classes-undefinedproperty:
+
+WordPress
++++++++++
+
+
+:ref:`undefined-properties`, in wp-admin/includes/misc.php:74. 
+
+Properties are not defined, but they are thoroughly initialized when the XML document is parsed. All those definition should be in a property definition, for clear documentation.
+
+.. code-block:: php
+   
+    $this->DeliveryLine1 = '';
+            $this->DeliveryLine2 = '';
+            $this->City = '';
+            $this->State = '';
+            $this->ZipAddon = '';
+
+
+.. _case-mediawiki-classes-undefinedproperty:
+
+MediaWiki
++++++++++
+
+
+:ref:`undefined-properties`, in includes/logging/LogFormatter.php:561. 
+
+parsedParametersDeleteLog is an undefined property. Defining the property with a null default value is important here, to keep the code running. 
+
+.. code-block:: php
+   
+    protected function getMessageParameters() {
+    		if ( isset( $this->parsedParametersDeleteLog ) ) {
+    			return $this->parsedParametersDeleteLog;
+    		}
+
+
+.. _case-undefined-static-or-self:
+
+Undefined static\:\: Or self\:\:
+################################
+
+.. _case-xataface-classes-undefinedstaticmp:
+
+xataface
+++++++++
+
+
+:ref:`undefined-static-or-self`, in actions/forgot_password.php:194. 
+
+This is probably a typo, since the property called 	public static $EX_NO_USERS_WITH_EMAIL = 501; is defined in that class. 
+
+.. code-block:: php
+   
+    if ( !$user ) throw new Exception(df_translate('actions.forgot_password.null_user',"Cannot send email for null user"), self::$EX_NO_USERS_FOUND_WITH_EMAIL);
+
+
+.. _case-sugarcrm-classes-undefinedstaticmp:
+
+SugarCrm
+++++++++
+
+
+:ref:`undefined-static-or-self`, in code/SugarCE-Full-6.5.26/include/SugarDateTime.php:574. 
+
+self::$sugar_strptime_long_mon refers to the current class, which extends DateTime. No static property was defined at either of them, with the name '$sugar_strptime_long_mon'. This has been a Fatal error at execution time since PHP 5.3, at least. 
+
+.. code-block:: php
+   
+    if ( isset($regexp['positions']['F']) && !empty($dateparts[$regexp['positions']['F']])) {
+                   // FIXME: locale?
+        $mon = $dateparts[$regexp['positions']['F']];
+        if(isset(self::$sugar_strptime_long_mon[$mon])) {
+            $data["tm_mon"] = self::$sugar_strptime_long_mon[$mon];
+        } else {
+            return false;
+        }
+    }
+
+
+.. _case-unitialized-properties:
+
+Unitialized Properties
+######################
+
+.. _case-spip-classes-unitializedproperties:
+
+SPIP
+++++
+
+
+:ref:`unitialized-properties`, in ecrire/public/interfaces.php:584. 
+
+The class Critere (Criteria) has no method at all. When using a class as an array, to capture values, one of the advantage of the class is in the default values for the properties. In particular, the last property here, called $not, should be initialized with a false. 
+
+.. code-block:: php
+   
+    /**
+     * Description d'un critère de boucle
+     *
+     * Sous-noeud de Boucle
+     *
+     * @package SPIP\Core\Compilateur\AST
+     **/
+    class Critere {
+    	/**
+    	 * Type de noeud
+    	 *
+    	 * @var string
+    	 */
+    	public $type = 'critere';
+    
+    	/**
+    	 * Opérateur (>, <, >=, IN, ...)
+    	 *
+    	 * @var null|string
+    	 */
+    	public $op;
+    
+    	/**
+    	 * Présence d'une négation (truc !op valeur)
+    	 *
+    	 * @var null|string
+    	 */
+    	public $not;
+
+
 .. _case-unpreprocessed-values:
 
 Unpreprocessed Values
@@ -10598,6 +9533,138 @@ PHP_VERSION is actually build with PHP_MAJOR_VERSION, PHP_MINOR_VERSION and PHP_
 .. code-block:: php
    
     explode('.', PHP_VERSION);
+
+
+.. _case-unresolved-instanceof:
+
+Unresolved Instanceof
+#####################
+
+.. _case-wordpress-classes-unresolvedinstanceof:
+
+WordPress
++++++++++
+
+
+:ref:`unresolved-instanceof`, in wp-admin/includes/misc.php:74. 
+
+This code actually loads the file, join it, then split it again. file() would be sufficient. 
+
+.. code-block:: php
+   
+    private function resolveTag($match)
+        {
+            $tagReflector = $this->createLinkOrSeeTagFromRegexMatch($match);
+            if (!$tagReflector instanceof Tag\SeeTag && !$tagReflector instanceof Tag\LinkTag) {
+                return $match;
+            }
+
+
+.. _case-unserialize-second-arg:
+
+Unserialize Second Arg
+######################
+
+.. _case-piwigo-security-unserializesecondarg:
+
+Piwigo
+++++++
+
+
+:ref:`unserialize-second-arg`, in admin/configuration.php:491. 
+
+unserialize() extracts information from the $conf variable : this variable is read from a configuration file. It is later tested to be an array, whose index may not be all set (@$disabled[$type];). It would be safer to make $disabled an object, add the class to unserialize, and set default values to the needed properties/index. 
+
+.. code-block:: php
+   
+    $disabled = @unserialize(@$conf['disabled_derivatives']);
+
+
+.. _case-livezilla-security-unserializesecondarg:
+
+LiveZilla
++++++++++
+
+
+:ref:`unserialize-second-arg`, in livezilla/_lib/objects.global.inc.php:2600. 
+
+unserialize() only extract a non-empty value here. But its content is not checked. It is later used as an array, with multiple index. 
+
+.. code-block:: php
+   
+    $this->Customs = (!empty($_row["customs"])) ? @unserialize($_row["customs"]) : array();
+
+
+.. _case-unused-functions:
+
+Unused Functions
+################
+
+.. _case-woocommerce-functions-unusedfunctions:
+
+Woocommerce
++++++++++++
+
+
+:ref:`unused-functions`, in includes/wc-core-functions.php:2124. 
+
+wc_is_external_resource() is unused. This is not obvious immediately, since there is a call from wc_get_relative_url(). Yet since wc_get_relative_url() itself is never used, then it is a dead function. As such, since wc_is_external_resource() is only called by this first function, it also dies, even though it is called in the code.
+
+.. code-block:: php
+   
+    /**
+     * Make a URL relative, if possible.
+     *
+     * @since 3.2.0
+     * @param string $url URL to make relative.
+     * @return string
+     */
+    function wc_get_relative_url( $url ) {
+    	return wc_is_external_resource( $url ) ? $url : str_replace( array( 'http://', 'https://' ), '//', $url );
+    }
+    
+    /**
+     * See if a resource is remote.
+     *
+     * @since 3.2.0
+     * @param string $url URL to check.
+     * @return bool
+     */
+    function wc_is_external_resource( $url ) {
+    	$wp_base = str_replace( array( 'http://', 'https://' ), '//', get_home_url( null, '/', 'http' ) );
+    
+    	return strstr( $url, '://' ) && ! strstr( $url, $wp_base );
+    }
+
+
+.. _case-piwigo-functions-unusedfunctions:
+
+Piwigo
+++++++
+
+
+:ref:`unused-functions`, in admin/include/functions.php:2167. 
+
+get_user_access_level_html_options() is unused and can't be find in the code.
+
+.. code-block:: php
+   
+    /**
+     * Returns access levels as array used on template with html_options functions.
+     *
+     * @param int $MinLevelAccess
+     * @param int $MaxLevelAccess
+     * @return array
+     */
+    function get_user_access_level_html_options($MinLevelAccess = ACCESS_FREE, $MaxLevelAccess = ACCESS_CLOSED)
+    {
+      $tpl_options = array();
+      for ($level = $MinLevelAccess; $level <= $MaxLevelAccess; $level++)
+      {
+        $tpl_options[$level] = l10n(sprintf('ACCESS_%d', $level));
+      }
+      return $tpl_options;
+    }
 
 
 .. _case-unused-global:
@@ -10647,6 +9714,308 @@ $gConf is not used in this method, and may be safely avoided.
         }
 
 
+.. _case-unused-inherited-variable-in-closure:
+
+Unused Inherited Variable In Closure
+####################################
+
+.. _case-shopware-functions-unusedinheritedvariable:
+
+shopware
+++++++++
+
+
+:ref:`unused-inherited-variable-in-closure`, in recovery/update/src/app.php:129. 
+
+In the first closuree, $containere is used as the root for the method calls, but $app is not used. It may be dropped. In fact, some of the following calls to $app->map() only request one inherited, $container.
+
+.. code-block:: php
+   
+    $app->map('/applyMigrations', function () use ($app, $container) {
+        $container->get('controller.batch')->applyMigrations();
+    })->via('GET', 'POST')->name('applyMigrations');
+    
+    $app->map('/importSnippets', function () use ($container) {
+        $container->get('controller.batch')->importSnippets();
+    })->via('GET', 'POST')->name('importSnippets');
+
+
+.. _case-mautic-functions-unusedinheritedvariable:
+
+Mautic
+++++++
+
+
+:ref:`unused-inherited-variable-in-closure`, in MauticCrmBundle/Tests/Integration/SalesforceIntegrationTest.php:1202. 
+
+$max is relayed to getLeadsToCreate(), while $restart is omitted. It may be dropped, along with its reference.
+
+.. code-block:: php
+   
+    function () use (&$restart, $max) {
+                        $args = func_get_args();
+    
+                        if (false === $args[2]) {
+                            return $max;
+                        }
+    
+                        $createLeads = $this->getLeadsToCreate($args[2], $max);
+    
+                        // determine whether to return a count or records
+                        if (false === $args[2]) {
+                            return count($createLeads);
+                        }
+    
+                        return $createLeads;
+                    }
+
+
+.. _case-unused-interfaces:
+
+Unused Interfaces
+#################
+
+.. _case-tine20-interfaces-unusedinterfaces:
+
+Tine20
+++++++
+
+
+:ref:`unused-interfaces`, in tine20/Tinebase/User/LdapPlugin/Interface.php:20. 
+
+Tinebase_User_LdapPlugin_Interface is mentioned as a type for a property, in a php doc document. Typehinted properties are available since PHP 7.4
+
+.. code-block:: php
+   
+    interface Tinebase_User_LdapPlugin_Interface {
+    
+    //----------
+    // in tine20/Tinebase/User/ActiveDirectory.php
+    /** @var Tinebase_User_LdapPlugin_Interface $plugin */
+
+
+.. _case-unused-parameter:
+
+Unused Parameter
+################
+
+.. _case-thinkphp-functions-unusedarguments:
+
+ThinkPHP
+++++++++
+
+
+:ref:`unused-parameter`, in ThinkPHP/Library/Behavior/AgentCheckBehavior.class.php:18. 
+
+$params are requested, but never used. The method is not overloading another one, as the class doesn't extends anything. $params is unused. 
+
+.. code-block:: php
+   
+    class AgentCheckBehavior
+    {
+        public function run(&$params)
+        {
+            // 代理访问检测
+            $limitProxyVisit = C('LIMIT_PROXY_VISIT', null, true);
+            if ($limitProxyVisit && ($_SERVER['HTTP_X_FORWARDED_FOR'] || $_SERVER['HTTP_VIA'] || $_SERVER['HTTP_PROXY_CONNECTION'] || $_SERVER['HTTP_USER_AGENT_VIA'])) {
+                // 禁止代理访问
+                exit('Access Denied');
+            }
+        }
+    }
+
+
+.. _case-phpmyadmin-functions-unusedarguments:
+
+phpMyAdmin
+++++++++++
+
+
+:ref:`unused-parameter`, in libraries/classes/Display/Results.php:1985. 
+
+Although $column_index is documented, it is not found in the rest of the (long) body of the function. It might have been refactored into $sorted_column_index.
+
+.. code-block:: php
+   
+    /**
+         * Prepare parameters and html for sorted table header fields
+         *
+         * @param array    $sort_expression             sort expression
+         * @param array    $sort_expression_nodirection sort expression without direction
+         * @param string   $sort_tbl                    The name of the table to which
+         *                                             the current column belongs to
+         * @param string   $name_to_use_in_sort         The current column under
+         *                                             consideration
+         * @param array    $sort_direction              sort direction
+         * @param stdClass $fields_meta                 set of field properties
+         * @param integer  $column_index                The index number to current column
+         *
+         * @return  array   3 element array - $single_sort_order, $sort_order, $order_img
+         *
+         * @access  private
+         *
+         * @see     _getOrderLinkAndSortedHeaderHtml()
+         */
+        private function _getSingleAndMultiSortUrls(
+            array $sort_expression,
+            array $sort_expression_nodirection,
+            $sort_tbl,
+            $name_to_use_in_sort,
+            array $sort_direction,
+            $fields_meta,
+            $column_index
+        ) {
+        /**/
+            // find the sorted column index in row result
+            // (this might be a multi-table query)
+            $sorted_column_index = false;
+        /**/
+        }
+
+
+.. _case-unused-private-properties:
+
+Unused Private Properties
+#########################
+
+.. _case-openemr-classes-unusedprivateproperty:
+
+OpenEMR
++++++++
+
+
+:ref:`unused-private-properties`, in entities/User.php:46. 
+
+This class has a long list of private properties. It also has an equally long (minus one) list of accessors, and a __toString() method which exposes all of them. $oNotes is the only one never mentionned anywhere. 
+
+.. code-block:: php
+   
+    class User
+    {
+        /**
+         * @Column(name=id, type=integer)
+         * @GeneratedValue(strategy=AUTO)
+         */
+        private $id;
+    
+        /**
+         * @OneToMany(targetEntity=ONote, mappedBy=user)
+         */
+        private $oNotes;
+
+
+.. _case-phpadsnew-classes-unusedprivateproperty:
+
+phpadsnew
++++++++++
+
+
+:ref:`unused-private-properties`, in lib/OA/Admin/UI/component/Form.php:23. 
+
+$dispatcher is never used anywhere. 
+
+.. code-block:: php
+   
+    class OA_Admin_UI_Component_Form
+        extends HTML_QuickForm
+    {
+        private $dispatcher;
+
+
+.. _case-use-class-operator:
+
+Use \:\:Class Operator
+######################
+
+.. _case-typo3-classes-useclassoperator:
+
+Typo3
++++++
+
+
+:ref:`use-class-operator`, in typo3/sysext/install/Configuration/ExtensionScanner/Php/ConstructorArgumentMatcher.php:4. 
+
+``TYPO3\CMS\Core\Package\PackageManager`` could be ``TYPO3\CMS\Core\Package\PackageManager::class``. 
+
+.. code-block:: php
+   
+    return [
+        'TYPO3\CMS\Core\Package\PackageManager' => [
+            'required' => [
+                'numberOfMandatoryArguments' => 1,
+                'maximumNumberOfArguments' => 1,
+
+
+.. _case-use-basename-suffix:
+
+Use Basename Suffix
+###################
+
+.. _case-nextcloud-structures-basenamesuffix:
+
+NextCloud
++++++++++
+
+
+:ref:`use-basename-suffix`, in lib/private/URLGenerator.php:176. 
+
+This code removes the 4 last letters from the images. It may be 'png', 'jpg' or 'txt'. 
+
+.. code-block:: php
+   
+    substr(basename($image), 0, -4)
+
+
+.. _case-dolibarr-structures-basenamesuffix:
+
+Dolibarr
+++++++++
+
+
+:ref:`use-basename-suffix`, in htdocs/core/website.inc.php:42. 
+
+The extension '.tpl.php' is dropped from the file name, unless it appears somewhere else in the $websitepagefile variable.
+
+.. code-block:: php
+   
+    str_replace(array('.tpl.php', 'page'), array('', ''), basename($websitepagefile))
+
+
+.. _case-use-constant-as-arguments:
+
+Use Constant As Arguments
+#########################
+
+.. _case-tikiwiki-functions-useconstantasarguments:
+
+Tikiwiki
+++++++++
+
+
+:ref:`use-constant-as-arguments`, in lib/language/Language.php:112. 
+
+E_WARNING is a valid value, but PHP documentation for trigger_error() explains that E_USER constants should be used. 
+
+.. code-block:: php
+   
+    trigger_error("Octal or hexadecimal string '" . $match[1] . "' not supported", E_WARNING)
+
+
+.. _case-shopware-functions-useconstantasarguments:
+
+shopware
+++++++++
+
+
+:ref:`use-constant-as-arguments`, in engine/Shopware/Plugins/Default/Core/Debug/Components/EventCollector.php:106. 
+
+One example where code review reports errors where unit tests don't : array_multisort actually requires sort order first (SORT_ASC or SORT_DESC), then sort flags (such as SORT_NUMERIC). Here, with SORT_DESC = 3 and SORT_NUMERIC = 1, PHP understands it as the coders expects it. The same error is repeated six times in the code. 
+
+.. code-block:: php
+   
+    array_multisort($order, SORT_NUMERIC, SORT_DESC, $this->results)
+
+
 .. _case-use-count-recursive:
 
 Use Count Recursive
@@ -10685,6 +10054,51 @@ This could be improved with count() recursive and a array_filter call, to remove
                         $nb_results += count($list);
                     }
                 }
+
+
+.. _case-use-instanceof:
+
+Use Instanceof
+##############
+
+.. _case-teampass-classes-useinstanceof:
+
+TeamPass
+++++++++
+
+
+:ref:`use-instanceof`, in includes/libraries/Database/Meekrodb/db.class.php:506. 
+
+In this code, ``is_object()`` and ``instanceof`` have the same basic : they both check that $ts is an object. In fact, ``instanceof`` is more precise, and give more information about the variable. 
+
+.. code-block:: php
+   
+    protected function parseTS($ts) {
+        if (is_string($ts)) return date('Y-m-d H:i:s', strtotime($ts));
+        else if (is_object($ts) && ($ts instanceof DateTime)) return $ts->format('Y-m-d H:i:s');
+      }
+
+
+.. _case-zencart-classes-useinstanceof:
+
+Zencart
++++++++
+
+
+:ref:`use-instanceof`, in includes/modules/payment/firstdata_hco.php:104. 
+
+In this code, ``is_object()`` is used to check the status of the order. Possibly, $order is false or null in case of incompatible status. Yet, when $object is an object, and in particular being a global that may be assigned anywhere else in the code, it seems that the method 'update_status' is magically always available. Here, using instance of to make sure that $order is an 'paypal' class, or a 'storepickup' or any of the payment class.  
+
+.. code-block:: php
+   
+    function __construct() {
+        global $order;
+    
+        // more lines, no mention of $order
+        if (is_object($order)) $this->update_status();
+    
+        // more code
+    }
 
 
 .. _case-use-list-with-foreach:
@@ -10738,6 +10152,100 @@ This foreach reads each element from $entries into entry. $entry, in turn, is wr
     
     				$replacePairs[$searchkey] = $link;
     			}
+
+
+.. _case-use-named-boolean-in-argument-definition:
+
+Use Named Boolean In Argument Definition
+########################################
+
+.. _case-phpmyadmin-functions-avoidbooleanargument:
+
+phpMyAdmin
+++++++++++
+
+
+:ref:`use-named-boolean-in-argument-definition`, in /libraries/classes/Util.php:1929. 
+
+$request is an option to `checkParameters`, although it is not visibile with is its actual role.
+
+.. code-block:: php
+   
+    public static function checkParameters($params, $request = false) { 
+        /**/ 
+    }
+
+
+.. _case-cleverstyle-functions-avoidbooleanargument:
+
+Cleverstyle
++++++++++++
+
+
+:ref:`use-named-boolean-in-argument-definition`, in /core/classes/Response.php:129. 
+
+$httponly is an option to `cookie`, and true/false makes it readable. There may be other situations, like fallback, or forcedd usage, so the boolean may be misleading. Note also the `$expire = 0`, which may be a date, or a special value. We need to read the documentation to understand this.
+
+.. code-block:: php
+   
+    public function cookie($name, $value, $expire = 0, $httponly = false) { /**/ } 	 { 
+        /**/ 
+    }
+
+
+.. _case-use-php-object-api:
+
+Use PHP Object API
+##################
+
+.. _case-wordpress-php-useobjectapi:
+
+WordPress
++++++++++
+
+
+:ref:`use-php-object-api`, in wp-includes/functions.php:2558. 
+
+Finfo has also a class, with the same name.
+
+.. code-block:: php
+   
+    finfo_open(FILEINFO_MIME_TYPE)
+
+
+.. _case-prestashop-php-useobjectapi:
+
+PrestaShop
+++++++++++
+
+
+:ref:`use-php-object-api`, in admin-dev/filemanager/include/utils.php:174. 
+
+transliterator_transliterate() has also a class named Transliterator
+
+.. code-block:: php
+   
+    transliterator_transliterate('Accents-Any', $str)
+
+
+.. _case-use-pathinfo:
+
+Use Pathinfo
+############
+
+.. _case-suitecrm-php-usepathinfo:
+
+SuiteCrm
+++++++++
+
+
+:ref:`use-pathinfo`, in include/utils/file_utils.php:441. 
+
+Looking for the extension ? Use pathinfo() and PATHINFO_EXTENSION 
+
+.. code-block:: php
+   
+    $exp = explode('.', $filename);
 
 
 .. _case-use-positive-condition:
@@ -10800,6 +10308,245 @@ Let's be positive, and start processing the presence of $topic first. And let's 
     						}
 
 
+.. _case-use-const:
+
+Use const
+#########
+
+.. _case-phpmyadmin-constants-constrecommended:
+
+phpMyAdmin
+++++++++++
+
+
+:ref:`use-const`, in error_report.php:17. 
+
+This may be turned into a `const` call, with a static expression. 
+
+.. code-block:: php
+   
+    define('ROOT_PATH', __DIR__ . DIRECTORY_SEPARATOR)
+
+
+.. _case-piwigo-constants-constrecommended:
+
+Piwigo
+++++++
+
+
+:ref:`use-const`, in include/functions_plugins.inc.php:32. 
+
+Const works efficiently with literal
+
+.. code-block:: php
+   
+    define('EVENT_HANDLER_PRIORITY_NEUTRAL', 50)
+
+
+.. _case-use-pathinfo()-arguments:
+
+Use pathinfo() Arguments
+########################
+
+.. _case-zend-config-php-usepathinfoargs:
+
+Zend-Config
++++++++++++
+
+
+:ref:`use-pathinfo()-arguments`, in src/Factory.php:74:90. 
+
+The `$filepath` is broken into pieces, and then, only the 'extension' part is used. With the PATHINFO_EXTENSION constant used as a second argument, only this value could be returned. 
+
+.. code-block:: php
+   
+    $pathinfo = pathinfo($filepath);
+    
+            if (! isset($pathinfo['extension'])) {
+                throw new Exception\RuntimeException(sprintf(
+                    'Filename "%s" is missing an extension and cannot be auto-detected',
+                    $filename
+                ));
+            }
+    
+            $extension = strtolower($pathinfo['extension']);
+            // Only $extension is used beyond that point
+
+
+.. _case-thinkphp-php-usepathinfoargs:
+
+ThinkPHP
+++++++++
+
+
+:ref:`use-pathinfo()-arguments`, in ThinkPHP/Extend/Library/ORG/Net/UploadFile.class.php:508. 
+
+Without any other check, pathinfo() could be used with PATHINFO_EXTENSION.
+
+.. code-block:: php
+   
+    private function getExt($filename) {
+            $pathinfo = pathinfo($filename);
+            return $pathinfo['extension'];
+        }
+
+
+.. _case-use-random\_int():
+
+Use random_int()
+################
+
+.. _case-thelia-php-betterrand:
+
+Thelia
+++++++
+
+
+:ref:`use-random\_int()`, in core/lib/Thelia/Tools/TokenProvider.php:151. 
+
+The whole function may be replaced by random_int(), as it generates random tokens. This needs an extra layer of hashing, to get a long and string results. 
+
+.. code-block:: php
+   
+    /**
+         * @return string
+         */
+        protected static function getComplexRandom()
+        {
+            $firstValue = (float) (mt_rand(1, 0xFFFF) * rand(1, 0x10001));
+            $secondValues = (float) (rand(1, 0xFFFF) * mt_rand(1, 0x10001));
+    
+            return microtime() . ceil($firstValue / $secondValues) . uniqid();
+        }
+
+
+.. _case-fuelcms-php-betterrand:
+
+FuelCMS
++++++++
+
+
+:ref:`use-random\_int()`, in fuel/modules/fuel/libraries/Fuel.php:235. 
+
+Security tokens should be build with a CSPRNG source. uniqid() is based on time, and though it changes anytime (sic), it is easy to guess. Those days, it looks like '5b1262e74dbb9'; 
+
+.. code-block:: php
+   
+    $this->installer->change_config('config', '$config[\'encryption_key\'] = \'\';', '$config[\'encryption_key\'] = \''.md5(uniqid()).'\';');
+
+
+.. _case-use-session\_start()-options:
+
+Use session_start() Options
+###########################
+
+.. _case-wordpress-php-usesessionstartoptions:
+
+WordPress
++++++++++
+
+
+:ref:`use-session\_start()-options`, in wp-admin/includes/misc.php:74. 
+
+This code actually loads the file, join it, then split it again. file() would be sufficient. 
+
+.. code-block:: php
+   
+    $markerdata = explode( "\n", implode( '', file( $filename ) ) );
+
+
+.. _case-used-once-variables:
+
+Used Once Variables
+###################
+
+.. _case-shopware-variables-variableusedonce:
+
+shopware
+++++++++
+
+
+:ref:`used-once-variables`, in _sql/migrations/438-add-email-template-header-footer-fields.php:115. 
+
+In the updateEmailTemplate method, $generatedQueries collects all the generated SQL queries. $generatedQueries is not initialized, and never used after initialization. 
+
+.. code-block:: php
+   
+    private function updateEmailTemplate($name, $content, $contentHtml = null)
+        {
+            $sql = <<<SQL
+    UPDATE `s_core_config_mails` SET `content` = "$content" WHERE `name` = "$name" AND dirty = 0
+    SQL;
+            $this->addSql($sql);
+    
+            if ($contentHtml != null) {
+                $sql = <<<SQL
+    UPDATE `s_core_config_mails` SET `content` = "$content", `contentHTML` = "$contentHtml" WHERE `name` = "$name" AND dirty = 0
+    SQL;
+                $generatedQueries[] = $sql;
+            }
+    
+            $this->addSql($sql);
+        }
+
+
+.. _case-vanilla-variables-variableusedonce:
+
+Vanilla
++++++++
+
+
+:ref:`used-once-variables`, in library/core/class.configuration.php:1461. 
+
+In this code, $cachedConfigData is collected after storing date in the cache. Gdn::cache()->store() does actual work, so its calling is necessary. The result, collected after execution, is not reused in the rest of the method (long method, not all is shown here). Removing such variable is a needed clean up after development and debug, but also prevents pollution of the variable namespace.
+
+.. code-block:: php
+   
+    // Save to cache if we're into that sort of thing
+                    $fileKey = sprintf(Gdn_Configuration::CONFIG_FILE_CACHE_KEY, $this->Source);
+                    if ($this->Configuration && $this->Configuration->caching() && Gdn::cache()->type() == Gdn_Cache::CACHE_TYPE_MEMORY && Gdn::cache()->activeEnabled()) {
+                        $cachedConfigData = Gdn::cache()->store($fileKey, $data, [
+                            Gdn_Cache::FEATURE_NOPREFIX => true,
+                            Gdn_Cache::FEATURE_EXPIRY => 3600
+                        ]);
+                    }
+
+
+.. _case-used-once-variables-(in-scope):
+
+Used Once Variables (In Scope)
+##############################
+
+.. _case-shopware-variables-variableusedoncebycontext:
+
+shopware
+++++++++
+
+
+:ref:`used-once-variables-(in-scope)`, in _sql/migrations/438-add-email-template-header-footer-fields.php:115. 
+
+In the updateEmailTemplate method, $generatedQueries collects all the generated SQL queries. $generatedQueries is not initialized, and never used after initialization. 
+
+.. code-block:: php
+   
+    private function updateEmailTemplate($name, $content, $contentHtml = null)
+        {
+            $sql = <<<SQL
+    UPDATE `s_core_config_mails` SET `content` = "$content" WHERE `name` = "$name" AND dirty = 0
+    SQL;
+            $this->addSql($sql);
+    
+            if ($contentHtml != null) {
+                $sql = <<<SQL
+    UPDATE `s_core_config_mails` SET `content` = "$content", `contentHTML` = "$contentHtml" WHERE `name` = "$name" AND dirty = 0
+    SQL;
+                $generatedQueries[] = $sql;
+            }
+    
+            $this->addSql($sql);
+        }
+
+
 .. _case-useless-brackets:
 
 Useless Brackets
@@ -10852,58 +10599,57 @@ There is no need for block braces with case. In fact, it does give a false sense
         }
 
 
-.. _case-useless-type-casting:
+.. _case-useless-catch:
 
-Useless Type Casting
-####################
+Useless Catch
+#############
 
-.. _case-fuelcms-structures-uselesscasting:
+.. _case-zurmo-exceptions-uselesscatch:
 
-FuelCMS
-+++++++
-
-
-:ref:`useless-type-casting`, in fuel/codeigniter/core/URI.php:214. 
-
-substr() always returns a string, so there is no need to enforce this.
-
-.. code-block:: php
-   
-    if (isset($_SERVER['SCRIPT_NAME'][0]))
-    		{
-    			if (strpos($uri, $_SERVER['SCRIPT_NAME']) === 0)
-    			{
-    				$uri = (string) substr($uri, strlen($_SERVER['SCRIPT_NAME']));
-    			}
-    			elseif (strpos($uri, dirname($_SERVER['SCRIPT_NAME'])) === 0)
-    			{
-    				$uri = (string) substr($uri, strlen(dirname($_SERVER['SCRIPT_NAME'])));
-    			}
-    		}
+Zurmo
++++++
 
 
-.. _case-thinkphp-structures-uselesscasting:
+:ref:`useless-catch`, in app/protected/modules/workflows/forms/attributes/ExplicitReadWriteModelPermissionsWorkflowActionAttributeForm.php:99. 
 
-ThinkPHP
-++++++++
-
-
-:ref:`useless-type-casting`, in ThinkPHP/Library/Think/Db/Driver/Sqlsrv.class.php:67. 
-
-A comparison always returns a boolean, except for the spaceship operator.
+Catch the exception, then return. At least, the comment is honest.
 
 .. code-block:: php
    
-    foreach ($result as $key => $val) {
-                    $info[$val['column_name']] = array(
-                        'name'    => $val['column_name'],
-                        'type'    => $val['data_type'],
-                        'notnull' => (bool) ('' === $val['is_nullable']), // not null is empty, null is yes
-                        'default' => $val['column_default'],
-                        'primary' => false,
-                        'autoinc' => false,
-                    );
+    try
+                    {
+                        $group = Group::getById((int)$this->type);
+                        $explicitReadWriteModelPermissions->addReadWritePermitable($group);
+                    }
+                    catch (NotFoundException $e)
+                    {
+                        //todo: handle exception better
+                        return;
+                    }
+
+
+.. _case-prestashop-exceptions-uselesscatch:
+
+PrestaShop
+++++++++++
+
+
+:ref:`useless-catch`, in src/Core/Addon/Module/ModuleManagerBuilder.php:170. 
+
+Here, the catch clause will intercept a IO problem while writing element on the disk, and will return false. Since this is a constructor, the returned value will be ignored and the object will be left in a wrong state, since it was not totally inited.
+
+.. code-block:: php
+   
+    private function __construct()
+        {
+        // More code......
+                try {
+                    $filesystem = new Filesystem();
+                    $filesystem->dumpFile($phpConfigFile, '<?php return ' . var_export($config, true) . ';' . \n);
+                } catch (IOException $e) {
+                    return false;
                 }
+            }
 
 
 .. _case-useless-check:
@@ -11002,6 +10748,32 @@ It is hard to spot that $generY is useless, but this is the only occurrence wher
         global $db_functions, $reltext, $sexe, $sexe2, $spouse, $special_spouseY, $language, $ancestortext, $dutchtext, $selected_language, $spantext, $generY, $foundY_nr, $rel_arrayY;
 
 
+.. _case-useless-interfaces:
+
+Useless Interfaces
+##################
+
+.. _case-woocommerce-interfaces-uselessinterfaces:
+
+Woocommerce
++++++++++++
+
+
+:ref:`useless-interfaces`, in includes/interfaces/class-wc-order-item-data-store-interface.php:20. 
+
+WC_Order_Item_Data_Store_Interface is used to structure the class WC_Order_Item_Data_Store. It is not used anywhere else.
+
+.. code-block:: php
+   
+    interface WC_Order_Item_Data_Store_Interface {
+    
+    
+    //////// 
+    //includes/data-stores/class-wc-order-item-data-store.php
+    
+    class WC_Order_Item_Data_Store implements WC_Order_Item_Data_Store_Interface {
+
+
 .. _case-useless-parenthesis:
 
 Useless Parenthesis
@@ -11040,6 +10812,113 @@ Parenthesis are useless for calculating $discount_percent, as it is a divisition
     	$discount_percent = ( wc_get_price_excluding_tax( $cart_item['data'] ) * $cart_item_qty ) / WC()->cart->subtotal_ex_tax;
     }
     $discount = ( (float) $this->get_amount() * $discount_percent ) / $cart_item_qty;
+
+
+.. _case-useless-referenced-argument:
+
+Useless Referenced Argument
+###########################
+
+.. _case-woocommerce-functions-uselessreferenceargument:
+
+Woocommerce
++++++++++++
+
+
+:ref:`useless-referenced-argument`, in includes/data-stores/class-wc-product-variation-data-store-cpt.php:414. 
+
+$product is defined with a reference in the method signature, but it is also used as an object with a dynamical property. As such, the reference in the argument definition is too much.
+
+.. code-block:: php
+   
+    public function update_post_meta( &$product, $force = false ) {
+    		$meta_key_to_props = array(
+    			'_variation_description' => 'description',
+    		);
+    
+    		$props_to_update = $force ? $meta_key_to_props : $this->get_props_to_update( $product, $meta_key_to_props );
+    
+    		foreach ( $props_to_update as $meta_key => $prop ) {
+    					$value   = $product->{get_$prop}( 'edit' );
+    					$updated = update_post_meta( $product->get_id(), $meta_key, $value );
+    			if ( $updated ) {
+    				$this->updated_props[] = $prop;
+    			}
+    		}
+    
+    		parent::update_post_meta( $product, $force );
+
+
+.. _case-magento-functions-uselessreferenceargument:
+
+Magento
++++++++
+
+
+:ref:`useless-referenced-argument`, in setup/src/Magento/Setup/Module/Di/Compiler/Config/Chain/PreferencesResolving.php:63. 
+
+$value is defined with a reference. In the following code, it is only read and never written : for index search, or by itself. In fact, $preferences is also only read, and never written. As such, both could be removed.
+
+.. code-block:: php
+   
+    private function resolvePreferenceRecursive(&$value, &$preferences)
+        {
+            return isset($preferences[$value])
+                ? $this->resolvePreferenceRecursive($preferences[$value], $preferences)
+                : $value;
+        }
+
+
+.. _case-useless-return:
+
+Useless Return
+##############
+
+.. _case-thinkphp-functions-uselessreturn:
+
+ThinkPHP
+++++++++
+
+
+:ref:`useless-return`, in library/think/Request.php:2121. 
+
+__set() doesn't need a return, unlike __get().
+
+.. code-block:: php
+   
+    public function __set($name, $value)
+        {
+            return $this->param[$name] = $value;
+        }
+
+
+.. _case-vanilla-functions-uselessreturn:
+
+Vanilla
++++++++
+
+
+:ref:`useless-return`, in applications/dashboard/views/attachments/attachment.php:14. 
+
+The final 'return' is useless : return void (here, return without argument), is the same as returning null, unless the 'void' return type is used. The other return, is in the two conditions, is important to skip the end of the functioncall.
+
+.. code-block:: php
+   
+    function writeAttachment($attachment) {
+    
+            $customMethod = AttachmentModel::getWriteAttachmentMethodName($attachment['Type']);
+            if (function_exists($customMethod)) {
+                if (val('Error', $attachment)) {
+                    writeErrorAttachment($attachment);
+                    return;
+                }
+                $customMethod($attachment);
+            } else {
+                trace($customMethod, 'Write Attachment method not found');
+                trace($attachment, 'Attachment');
+            }
+            return;
+        }
 
 
 .. _case-useless-switch:
@@ -11103,6 +10982,60 @@ $aParams is an argument : this code looks like the switch is reserved for future
                     $sWhereClause .= "AND `path`='" . $aParams['value'] . "'";
                     break;
             }
+
+
+.. _case-useless-type-casting:
+
+Useless Type Casting
+####################
+
+.. _case-fuelcms-structures-uselesscasting:
+
+FuelCMS
++++++++
+
+
+:ref:`useless-type-casting`, in fuel/codeigniter/core/URI.php:214. 
+
+substr() always returns a string, so there is no need to enforce this.
+
+.. code-block:: php
+   
+    if (isset($_SERVER['SCRIPT_NAME'][0]))
+    		{
+    			if (strpos($uri, $_SERVER['SCRIPT_NAME']) === 0)
+    			{
+    				$uri = (string) substr($uri, strlen($_SERVER['SCRIPT_NAME']));
+    			}
+    			elseif (strpos($uri, dirname($_SERVER['SCRIPT_NAME'])) === 0)
+    			{
+    				$uri = (string) substr($uri, strlen(dirname($_SERVER['SCRIPT_NAME'])));
+    			}
+    		}
+
+
+.. _case-thinkphp-structures-uselesscasting:
+
+ThinkPHP
+++++++++
+
+
+:ref:`useless-type-casting`, in ThinkPHP/Library/Think/Db/Driver/Sqlsrv.class.php:67. 
+
+A comparison always returns a boolean, except for the spaceship operator.
+
+.. code-block:: php
+   
+    foreach ($result as $key => $val) {
+                    $info[$val['column_name']] = array(
+                        'name'    => $val['column_name'],
+                        'type'    => $val['data_type'],
+                        'notnull' => (bool) ('' === $val['is_nullable']), // not null is empty, null is yes
+                        'default' => $val['column_default'],
+                        'primary' => false,
+                        'autoinc' => false,
+                    );
+                }
 
 
 .. _case-useless-unset:
@@ -11172,52 +11105,66 @@ $row is unset under certain conditions : here, we can read it in the comments. E
         }
 
 
-.. _case-var\_dump()...-usage:
+.. _case-var-keyword:
 
-var_dump()... Usage
-###################
+Var Keyword
+###########
 
-.. _case-tine20-structures-vardumpusage:
+.. _case-xataface-classes-oldstylevar:
 
-Tine20
-++++++
-
-
-:ref:`var\_dump()...-usage`, in tine20/library/Ajam/Connection.php:122. 
-
-Two usage of var_dump(). They are protected by configuration, since the debug property must be set to 'true'. Yet, it is safer to avoid them altogether, and log the information to an external file.
-
-.. code-block:: php
-   
-    if($this->debug === true) {
-                var_dump($this->getLastRequest());
-                var_dump($response);
-            }
+xataface
+++++++++
 
 
-.. _case-piwigo-structures-vardumpusage:
+:ref:`var-keyword`, in SQL/Parser/wrapper.php:24. 
 
-Piwigo
-++++++
-
-
-:ref:`var\_dump()...-usage`, in include/ws_core.inc.php:273. 
-
-This is a hidden debug system : when the response format is not available, the whole object is dumped in the output.
+With the usage of var and a first method bearing the name of the class, this is PHP 4 code that is still in use. 
 
 .. code-block:: php
    
-    function run()
-      {
-        if ( is_null($this->_responseEncoder) )
+    class SQL_Parser_wrapper {
+    	
+    	var $_data;
+    	var $_tableLookup;
+    	var $_parser;
+    	
+    	function SQL_Parser_wrapper(&$data, $dialect='MySQL'){
+
+
+.. _case-weak-typing:
+
+Weak Typing
+###########
+
+.. _case-teampass-classes-weaktype:
+
+TeamPass
+++++++++
+
+
+:ref:`weak-typing`, in includes/libraries/Tree/NestedTree/NestedTree.php:100. 
+
+The is_null() test detects a special situation, that requires usage of default values. The 'else' handles every other situations, including when the $node is an object, or anything else. $this->getNode() will gain from having typehints : it may be NULL, or the results of mysqli_fetch_object() : a stdClass object. The expected properties of nleft and nright are not certain to be available.
+
+.. code-block:: php
+   
+    public function getDescendants($id = 0, $includeSelf = false, $childrenOnly = false, $unique_id_list = false)
         {
-          set_status_header(400);
-          @header("Content-Type: text/plain");
-          echo ("Cannot process your request. Unknown response format.
-    Request format: ".@$this->_requestFormat." Response format: ".@$this->_responseFormat."\n");
-          var_export($this);
-          die(0);
-        }
+            global $link;
+            $idField = $this->fields['id'];
+    
+            $node = $this->getNode($id);
+            if (is_null($node)) {
+                $nleft = 0;
+                $nright = 0;
+                $parent_id = 0;
+                $personal_folder = 0;
+            } else {
+                $nleft = $node->nleft;
+                $nright = $node->nright;
+                $parent_id = $node->$idField;
+                $personal_folder = $node->personal_folder;
+            }
 
 
 .. _case-while(list()-=-each()):
@@ -11286,6 +11233,206 @@ This clever use of while() and list() is actually a foreach($a as $r) (the keys 
                 $td = orca_mb_replace('/#/', $r['count_posts'], '[L[# posts]]') . ' &#183; ' . orca_mb_replace('/#/', $ui[$r['last_post_user']]['title'], '[L[last reply by #]]') . ' &#183; ' . $r['cat_name'] . ' &#187; ' . $r['forum_title'];
 
 
+.. _case-written-only-variables:
+
+Written Only Variables
+######################
+
+.. _case-dolibarr-variables-writtenonlyvariable:
+
+Dolibarr
+++++++++
+
+
+:ref:`written-only-variables`, in htdocs/ecm/class/ecmdirectory.class.php:692. 
+
+$val is only written, as only the keys are used. $val may be skipped by applying the foreach to array_keys($this->cats), instead of the whole array.
+
+.. code-block:: php
+   
+    // We add properties fullxxx to all elements
+    		foreach($this->cats as $key => $val)
+    		{
+    			if (isset($motherof[$key])) continue;
+    			$this->build_path_from_id_categ($key, 0);
+    		}
+
+
+.. _case-suitecrm-variables-writtenonlyvariable:
+
+SuiteCrm
+++++++++
+
+
+:ref:`written-only-variables`, in modules/Campaigns/utils.php:820. 
+
+$email_health is used later in the method; while $email_components is only set, and never used.
+
+.. code-block:: php
+   
+    //run query for mail boxes of type 'bounce'
+            $email_health = 0;
+            $email_components = 2;
+            $mbox_qry = "select * from inbound_email where deleted ='0' and mailbox_type = 'bounce'";
+            $mbox_res = $focus->db->query($mbox_qry);
+    
+            $mbox = array();
+            while ($mbox_row = $focus->db->fetchByAssoc($mbox_res)) {
+                $mbox[] = $mbox_row;
+            }
+
+
+.. _case-wrong-access-style-to-property:
+
+Wrong Access Style to Property
+##############################
+
+.. _case-humo-gen-classes-undeclaredstaticproperty:
+
+HuMo-Gen
+++++++++
+
+
+:ref:`wrong-access-style-to-property`, in wp-admin/includes/misc.php:74. 
+
+lame_binary_path is a static property, but it is accessed as a normal property in the exception call, while it is checked with a valid syntax.
+
+.. code-block:: php
+   
+    protected function wavToMp3($data)
+        {
+            if (!file_exists(self::$lame_binary_path) || !is_executable(self::$lame_binary_path)) {
+                throw new Exception('Lame binary  . $this->lame_binary_path .  does not exist or is not executable');
+            }
+
+
+.. _case-wrong-class-name-case:
+
+Wrong Class Name Case
+#####################
+
+.. _case-wordpress-classes-wrongcase:
+
+WordPress
++++++++++
+
+
+:ref:`wrong-class-name-case`, in wp-admin/includes/misc.php:74. 
+
+This code actually loads the file, join it, then split it again. file() would be sufficient. 
+
+.. code-block:: php
+   
+    $markerdata = explode( "\n", implode( '', file( $filename ) ) );
+
+
+.. _case-wrong-number-of-arguments:
+
+Wrong Number Of Arguments
+#########################
+
+.. _case-xataface-functions-wrongnumberofarguments:
+
+xataface
+++++++++
+
+
+:ref:`wrong-number-of-arguments`, in actions/existing_related_record.php:130. 
+
+df_display() actually requires only 2 arguments, while three are provided. The last argument is completely ignored. df_display() is called in a total of 9 places : this now looks like an API change that left many calls untouched.
+
+.. code-block:: php
+   
+    df_display($context, $template, true);
+    
+    // in public-api.php :
+    function df_display($context, $template_name){
+    	import( 'Dataface/SkinTool.php');
+    	$st = Dataface_SkinTool::getInstance();
+    	
+    	return $st->display($context, $template_name);
+    }
+
+
+.. _case-wrong-optional-parameter:
+
+Wrong Optional Parameter
+########################
+
+.. _case-fuelcms-functions-wrongoptionalparameter:
+
+FuelCMS
++++++++
+
+
+:ref:`wrong-optional-parameter`, in fuel/modules/fuel/helpers/validator_helper.php:78. 
+
+The $regex parameter should really be first, as it is compulsory. Though, if this is a legacy function, it may be better to give regex a default value, such as empty string or null, and test it before using it.
+
+.. code-block:: php
+   
+    if (!function_exists('regex'))
+    {
+    	function regex($var = null, $regex)
+    	{
+    		return preg_match('#'.$regex.'#', $var);
+    	} 
+    }
+
+
+.. _case-vanilla-functions-wrongoptionalparameter:
+
+Vanilla
++++++++
+
+
+:ref:`wrong-optional-parameter`, in applications/dashboard/modules/class.navmodule.php:99. 
+
+Note the second parameter, $dropdown, which has no default value. It is relayed to the addDropdown method, which as no default value too. Since both methods are documented, we can see that they should be an addDropdown : null is probably a good idea, coupled with an explicit check on the actual value.
+
+.. code-block:: php
+   
+    /**
+         * Add a dropdown to the items array if it satisfies the $isAllowed condition.
+         *
+         * @param bool|string|array $isAllowed Either a boolean to indicate whether to actually add the item
+         * or a permission string or array of permission strings (full match) to check.
+         * @param DropdownModule $dropdown The dropdown menu to add.
+         * @param string $key The item's key (for sorting and CSS targeting).
+         * @param string $cssClass The dropdown wrapper's CSS class.
+         * @param array|int $sort Either a numeric sort position or and array in the style: array('before|after', 'key').
+         * @return NavModule $this The calling object.
+         */
+        public function addDropdownIf($isAllowed = true, $dropdown, $key = '', $cssClass = '', $sort = []) {
+            if (!$this->isAllowed($isAllowed)) {
+                return $this;
+            } else {
+                return $this->addDropdown($dropdown, $key, $cssClass, $sort);
+            }
+        }
+
+
+.. _case-wrong-parameter-type:
+
+Wrong Parameter Type
+####################
+
+.. _case-zencart-php-internalparametertype:
+
+Zencart
++++++++
+
+
+:ref:`wrong-parameter-type`, in admin/includes/header.php:180. 
+
+setlocale() may be called with null or '' (empty string), and will set values from the environment. When called with "0" (the string), it only reports the current setting. Using an integer is probably undocumented behavior, and falls back to the zero string. 
+
+.. code-block:: php
+   
+    $loc = setlocale(LC_TIME, 0);
+            if ($loc !== FALSE) echo ' - ' . $loc; //what is the locale in use?
+
+
 .. _case-wrong-range-check:
 
 Wrong Range Check
@@ -11334,6 +11481,252 @@ This condition may be easier to read as `$diff >= WEEK_IN_SECONDS && $diff < MON
     		$since = sprintf( _n( '%s week', '%s weeks', $weeks ), $weeks );
 
 
+.. _case-wrong-fopen()-mode:
+
+Wrong fopen() Mode
+##################
+
+.. _case-tikiwiki-php-fopenmode:
+
+Tikiwiki
+++++++++
+
+
+:ref:`wrong-fopen()-mode`, in lib/tikilib.php:6777. 
+
+This fopen() mode doesn't exists. Use 'w' instead.
+
+.. code-block:: php
+   
+    fopen('php://temp', 'rw');
+
+
+.. _case-humo-gen-php-fopenmode:
+
+HuMo-Gen
+++++++++
+
+
+:ref:`wrong-fopen()-mode`, in include/phprtflite/lib/PHPRtfLite/StreamOutput.php:77. 
+
+This fopen() mode doesn't exists. Use 'w' instead.
+
+.. code-block:: php
+   
+    fopen($this->_filename, 'wr', false)
+
+
+.. _case-\_\_dir\_\_-then-slash:
+
+__DIR__ Then Slash
+##################
+
+.. _case-traq-structures-dirthenslash:
+
+Traq
+++++
+
+
+:ref:`\_\_dir\_\_-then-slash`, in src/Kernel.php:60. 
+
+When executed in a path '/a/b/c', this code will require '/a../../vendor/autoload.php.
+
+.. code-block:: php
+   
+    static::$loader = require __DIR__.'../../vendor/autoload.php';
+
+
+.. _case-\_\_debuginfo()-usage:
+
+__debugInfo() Usage
+###################
+
+.. _case-dolibarr-php-debuginfousage:
+
+Dolibarr
+++++++++
+
+
+:ref:`\_\_debuginfo()-usage`, in htdocs/includes/stripe/lib/StripeObject.php:108. 
+
+_values is a private property from the Stripe Class. The class contains other objects, but only _values are displayed with var_dump.
+
+.. code-block:: php
+   
+    // Magic method for var_dump output. Only works with PHP >= 5.6
+        public function __debugInfo()
+        {
+            return $this->_values;
+        }
+
+
+.. _case-error\_reporting()-with-integers:
+
+error_reporting() With Integers
+###############################
+
+.. _case-sugarcrm-structures-errorreportingwithinteger:
+
+SugarCrm
+++++++++
+
+
+:ref:`error\_reporting()-with-integers`, in modules/UpgradeWizard/silentUpgrade_step1.php:436. 
+
+This only displays E_ERROR, the highest level of error reporting. It should be checked, as it happens in the 'silentUpgrade' script. 
+
+.. code-block:: php
+   
+    ini_set('error_reporting', 1);
+
+
+.. _case-eval()-without-try:
+
+eval() Without Try
+##################
+
+.. _case-fuelcms-structures-evalwithouttry:
+
+FuelCMS
++++++++
+
+
+:ref:`eval()-without-try`, in fuel/modules/fuel/controllers/Blocks.php:268. 
+
+The @ will prevent any error, while the try/catch allows the processing of certain types of error, namely the Fatal ones. 
+
+.. code-block:: php
+   
+    @eval($_name_var_eval)
+
+
+.. _case-expressionengine-structures-evalwithouttry:
+
+ExpressionEngine
+++++++++++++++++
+
+
+:ref:`eval()-without-try`, in system/ee/EllisLab/Addons/member/mod.member_memberlist.php:637. 
+
+$cond is build from values extracted from the $fields array. Although it is probably reasonably safe, a try/catch here will collect any unexpected situation cleaningly.
+
+.. code-block:: php
+   
+    elseif (isset($fields[$val['3']]))
+    					{
+    						if (array_key_exists('m_field_id_'.$fields[$val['3']], $row))
+    						{
+    							$v = $row['m_field_id_'.$fields[$val['3']]];
+    
+    							$lcond = str_replace($val['3'], "$v", $lcond);
+    							$cond = $lcond.' '.$rcond;
+    							$cond = str_replace("\|", "|", $cond);
+    
+    							eval("$result = ".$cond.";");
+
+
+.. _case-include\_once()-usage:
+
+include_once() Usage
+####################
+
+.. _case-xoops-structures-onceusage:
+
+XOOPS
++++++
+
+
+:ref:`include\_once()-usage`, in /htdocs/xoops_lib/modules/protector/admin/center.php:5. 
+
+Loading() classes should be down with autoload(). autload() may be build in several distinct functions, using spl_autoload_register().
+
+.. code-block:: php
+   
+    require_once dirname(__DIR__) . 'class/gtickets.php'
+
+
+.. _case-tikiwiki-structures-onceusage:
+
+Tikiwiki
+++++++++
+
+
+:ref:`include\_once()-usage`, in tiki-mytiki_shared.php :140. 
+
+Turn the code from tiki-mytiki_shared.php into a function or a method, and call it when needed. 
+
+.. code-block:: php
+   
+    include_once('tiki-mytiki_shared.php');
+
+
+.. _case-list()-may-omit-variables:
+
+list() May Omit Variables
+#########################
+
+.. _case-openconf-structures-listomissions:
+
+OpenConf
+++++++++
+
+
+:ref:`list()-may-omit-variables`, in openconf/author/privacy.php:29. 
+
+The first variable in the list(), $none, isn't reused anywhere in the script. In fact, its name convey the meaning that is it useless, but is in the array nonetheless. 
+
+.. code-block:: php
+   
+    list($none, $OC_privacy_policy) = oc_getTemplate('privacy_policy');
+
+
+.. _case-fuelcms-structures-listomissions:
+
+FuelCMS
++++++++
+
+
+:ref:`list()-may-omit-variables`, in wp-admin/includes/misc.php:74. 
+
+$a is never reused again. $b, on the other hand is. Not assigning any value to $a saves some memory, and avoid polluting the local variable space. 
+
+.. code-block:: php
+   
+    list($b, $a) = array(reset($params->me), key($params->me));
+
+
+.. _case-preg\_match\_all()-flag:
+
+preg_match_all() Flag
+#####################
+
+.. _case-fuelcms-php-pregmatchallflag:
+
+FuelCMS
++++++++
+
+
+:ref:`preg\_match\_all()-flag`, in fuel/modules/fuel/helpers/MY_array_helper.php:205. 
+
+Using PREG_SET_ORDER will remove the usage of the ``$key``variable.
+
+.. code-block:: php
+   
+    function parse_string_to_array($str)
+    	{
+    		preg_match_all('#(\w+)=([\'"])(.*)\2#U', $str, $matches);
+    		$params = array();
+    		foreach($matches[1] as $key => $val)
+    		{
+    			if (!empty($matches[3]))
+    			{
+    				$params[$val] = $matches[3][$key];
+    			}
+    		}
+    		return $params;
+    	}
+
+
 .. _case-preg\_replace-with-option-e:
 
 preg_replace With Option e
@@ -11354,492 +11747,99 @@ This call extract text between [code] tags, then process it with $this->codedisp
     $message = preg_replace("/\s*\[code\](.+?)\[\/code\]\s*/ies", "$this->codedisp('\1')", $message);
 
 
-.. _case-dependant-trait:
+.. _case-strpos()-too-much:
 
-Dependant Trait
-###############
+strpos() Too Much
+#################
 
-.. _case-zencart-traits-dependanttrait:
+.. _case-wordpress-performances-strpostoomuch:
 
-Zencart
-+++++++
-
-
-:ref:`dependant-trait`, in app/library/zencart/CheckoutFlow/src/AccountFormValidator.php:14. 
-
-Note that addressEntries is used, and is also expected to be an array or an object with ArrayAccess. $addressEntries is only defined in a class called 'Guest' which is also the only one using that trait. Any other class using the AccountFormValidator trait must define addressEntries.
-
-.. code-block:: php
-   
-    trait AccountFormValidator
-    {
-    
-        abstract protected function getAddressFieldValue($fieldName);
-    
-        /**
-         * @return bool|int
-         */
-        protected function errorProcessing()
-        {
-            $error = false;
-            foreach ($this->addressEntries as $fieldName => $fieldDetails) {
-                $this->addressEntries[$fieldName]['value'] = $this->getAddressFieldValue($fieldName);
-                $fieldError = $this->processFieldValidator($fieldName, $fieldDetails);
-                $this->addressEntries[$fieldName]['error'] = $fieldError;
-                $error = $error | $fieldError;
-            }
-            return $error;
-        }
-
-
-.. _case-multiple-usage-of-same-trait:
-
-Multiple Usage Of Same Trait
-############################
-
-.. _case-nextcloud-traits-multipleusage:
-
-NextCloud
+WordPress
 +++++++++
 
 
-:ref:`multiple-usage-of-same-trait`, in build/integration/features/bootstrap/WebDav.php:41. 
+:ref:`strpos()-too-much`, in core/traits/Request/Server.php:127. 
 
-WebDav uses Sharing, and Sharing uses Webdav. Once using the other is sufficient. 
-
-.. code-block:: php
-   
-    trait WebDav { 
-        use Sharing;
-        
-    }
-    //Trait Sharing is in /build/integration/features/bootstrap/Sharing.php:36
-
-
-.. _case-no-real-comparison:
-
-No Real Comparison
-##################
-
-.. _case-magento-type-norealcomparison:
-
-Magento
-+++++++
-
-
-:ref:`no-real-comparison`, in app/code/core/Mage/XmlConnect/Block/Catalog/Product/Options/Configurable.php:74. 
-
-Compare prices and physical quantities with a difference, so as to avoid rounding errors.
+Instead of searching for ``HTTP_``, it is faster to compare the first 5 chars to the literal ``HTTP_``. In case of absence, this solution returns faster.
 
 .. code-block:: php
    
-    if ((float)$option['price'] != 0.00) {
-                            $valueNode->addAttribute('price', $option['price']);
-                            $valueNode->addAttribute('formated_price', $option['formated_price']);
-                        }
+    if (strpos($header, 'HTTP_') === 0) {
+    				$header = substr($header, 5);
+    			} elseif (strpos($header, 'CONTENT_') !== 0) {
+    				continue;
+    			}
 
 
-.. _case-spip-type-norealcomparison:
+.. _case-time()-vs-strtotime():
 
-SPIP
-++++
-
-
-:ref:`no-real-comparison`, in ecrire/maj/v017.php:37. 
-
-Here, the current version number is stored as a real number. With a string, though a longer value, it may be compared using the version_compare() function.
-
-.. code-block:: php
-   
-    $version_installee == 1.701
-
-
-.. _case-one-variable-string:
-
-One Variable String
-###################
-
-.. _case-tikiwiki-type-onevariablestrings:
-
-Tikiwiki
-++++++++
-
-
-:ref:`one-variable-string`, in lib/wiki-plugins/wikiplugin_addtocart.php:228. 
-
-Double-quotes are not needed here. If casting to string is important, the (string) would be more explicit.
-
-.. code-block:: php
-   
-    foreach ($plugininfo['params'] as $key => $param) {
-    		$default["$key"] = $param['default'];
-    	}
-
-
-.. _case-nextcloud-type-onevariablestrings:
-
-NextCloud
-+++++++++
-
-
-:ref:`one-variable-string`, in build/integration/features/bootstrap/BasicStructure.php:349. 
-
-Both concatenations could be merged, independently. If readability is important, why not put them inside curly brackets?
-
-.. code-block:: php
-   
-    public static function removeFile($path, $filename) {
-    		if (file_exists("$path" . "$filename")) {
-    			unlink("$path" . "$filename");
-    		}
-    	}
-
-
-.. _case-should-typecast:
-
-Should Typecast
-###############
-
-.. _case-xataface-type-shouldtypecast:
-
-xataface
-++++++++
-
-
-:ref:`should-typecast`, in Dataface/Relationship.php:1612. 
-
-This is an exact example. A little further, the same applies to intval($max)) 
-
-.. code-block:: php
-   
-    intval($min);
-
-
-.. _case-openconf-type-shouldtypecast:
-
-OpenConf
-++++++++
-
-
-:ref:`should-typecast`, in author/upload.php:62. 
-
-This is another exact example. 
-
-.. code-block:: php
-   
-    intval($_POST['pid']);
-
-
-.. _case-silently-cast-integer:
-
-Silently Cast Integer
+time() Vs strtotime()
 #####################
 
-.. _case-mediawiki-type-silentlycastinteger:
+.. _case-woocommerce-performances-timevsstrtotime:
 
-MediaWiki
-+++++++++
+Woocommerce
++++++++++++
 
 
-:ref:`silently-cast-integer`, in includes/debug/logger/monolog/AvroFormatter.php:167. 
+:ref:`time()-vs-strtotime()`, in includes/class-wc-webhook.php:384. 
 
-Too many ff in the masks. 
+time() would be faster here, as an entropy generator. Yet, it would still be better to use an actual secure entropy generator, like random_byte or random_int. In case of older version, microtime() would yield better entropy. 
 
 .. code-block:: php
    
-    private function encodeLong( $id ) {
-    		$high   = ( $id & 0xffffffff00000000 ) >> 32;
-    		$low    = $id & 0x00000000ffffffff;
-    		return pack( 'NN', $high, $low );
+    public function get_new_delivery_id() {
+    		// Since we no longer use comments to store delivery logs, we generate a unique hash instead based on current time and webhook ID.
+    		return wp_hash( $this->get_id() . strtotime( 'now' ) );
     	}
 
 
-.. _case-strings-with-strange-space:
+.. _case-var\_dump()...-usage:
 
-Strings With Strange Space
-##########################
+var_dump()... Usage
+###################
 
-.. _case-openemr-type-stringwithstrangespace:
+.. _case-tine20-structures-vardumpusage:
 
-OpenEMR
-+++++++
-
-
-:ref:`strings-with-strange-space`, in library/globals.inc.php:3270. 
-
-The name of the contry contains both an unsecable space (the first, after Tonga), and a normal space (between Tonga and Islands). Translations are stored in a database, which preserves the unbreakable spaces. This also means that fixing the translation must be applied to every piece of data at the same time. The xl() function, which handles the translations, is also a good place to clean the spaces before searching for the right translation.
-
-.. code-block:: php
-   
-    'to' => xl('Tonga (Tonga Islands)'),
-
-
-.. _case-thelia-type-stringwithstrangespace:
-
-Thelia
+Tine20
 ++++++
 
 
-:ref:`strings-with-strange-space`, in templates/backOffice/default/I18n/fr_FR.php:647. 
+:ref:`var\_dump()...-usage`, in tine20/library/Ajam/Connection.php:122. 
 
-This is another example with a translation sentence. Here, the unbreakable space is before the question mark : this is a typography rule, that is common to many language. This would be a false positive, unless typography is handled by another part of the software.
-
-.. code-block:: php
-   
-    'Mot de passe oublié ?'
-
-
-.. _case-inconsistent-variable-usage:
-
-Inconsistent Variable Usage
-###########################
-
-.. _case-wordpress-variables-inconsistentusage:
-
-WordPress
-+++++++++
-
-
-:ref:`inconsistent-variable-usage`, in wp-includes/IXR/class-IXR-client.php:86. 
-
-$request is used successively as an object (IXR_Request), then as a string (The POST). Separatring both usage with different names will help readability.
+Two usage of var_dump(). They are protected by configuration, since the debug property must be set to 'true'. Yet, it is safer to avoid them altogether, and log the information to an external file.
 
 .. code-block:: php
    
-    $request = new IXR_Request($method, $args);
-            $length = $request->getLength();
-            $xml = $request->getXml();
-            $r = "\r\n";
-            $request  = "POST {$this->path} HTTP/1.0$r";
+    if($this->debug === true) {
+                var_dump($this->getLastRequest());
+                var_dump($response);
+            }
 
 
-.. _case-lost-references:
+.. _case-piwigo-structures-vardumpusage:
 
-Lost References
-###############
-
-.. _case-wordpress-variables-lostreferences:
-
-WordPress
-+++++++++
+Piwigo
+++++++
 
 
-:ref:`lost-references`, in wp-admin/includes/misc.php:74. 
+:ref:`var\_dump()...-usage`, in include/ws_core.inc.php:273. 
 
-This code actually loads the file, join it, then split it again. file() would be sufficient. 
+This is a hidden debug system : when the response format is not available, the whole object is dumped in the output.
 
 .. code-block:: php
    
-    $markerdata = explode( "\n", implode( '', file( $filename ) ) );
-
-
-.. _case-strange-name-for-variables:
-
-Strange Name For Variables
-##########################
-
-.. _case-fuelcms-variables-strangename:
-
-FuelCMS
-+++++++
-
-
-:ref:`strange-name-for-variables`, in fuel/modules/fuel/libraries/parser/dwoo/Dwoo/Adapters/CakePHP/dwoo.php:86. 
-
-Three _ is quite a lot for variables. Would they not be parameters but global variables, that would still be quite a lot.
-
-.. code-block:: php
-   
-    public function _render($___viewFn, $___data_for_view, $___play_safe = true, $loadHelpers = true) {
-        /**/
-    }
-
-
-.. _case-phpipam-variables-strangename:
-
-PhpIPAM
-+++++++
-
-
-:ref:`strange-name-for-variables`, in app/admin/sections/edit-result.php:56. 
-
-$sss is the end-result of a progression, from $subsections (3s) to $ss to $sss. Although it is understandable from the code, a fuller name, like $subsection_subnet or $one_subsection_subnet would make this more readable.
-
-.. code-block:: php
-   
-    //fetch subsection subnets
-    		foreach($subsections as $ss) {
-    			$subsection_subnets = $Subnets->fetch_section_subnets($ss->id);	//fetch all subnets in subsection
-    			if(sizeof($subsection_subnets)>0) {
-    				foreach($subsection_subnets as $sss) {
-    					$out[] = $sss;
-    				}
-    			}
-    			$num_subnets = $num_subnets + sizeof($subsection_subnets);
-    			//count all addresses that will be deleted!
-    			$ipcnt = $Addresses->count_addresses_in_multiple_subnets($out);
-    		}
-
-
-.. _case-non-ascii-variables:
-
-Non Ascii Variables
-###################
-
-.. _case-magento-variables-variablenonascii:
-
-Magento
-+++++++
-
-
-:ref:`non-ascii-variables`, in dev/tests/functional/tests/app/Mage/Checkout/Test/Constraint/AssertOrderWithMultishippingSuccessPlacedMessage.php:52. 
-
-The initial C is actually a russian C.
-
-.. code-block:: php
-   
-    $сheckoutMultishippingSuccess
-
-
-.. _case-used-once-variables:
-
-Used Once Variables
-###################
-
-.. _case-shopware-variables-variableusedonce:
-
-shopware
-++++++++
-
-
-:ref:`used-once-variables`, in _sql/migrations/438-add-email-template-header-footer-fields.php:115. 
-
-In the updateEmailTemplate method, $generatedQueries collects all the generated SQL queries. $generatedQueries is not initialized, and never used after initialization. 
-
-.. code-block:: php
-   
-    private function updateEmailTemplate($name, $content, $contentHtml = null)
+    function run()
+      {
+        if ( is_null($this->_responseEncoder) )
         {
-            $sql = <<<SQL
-    UPDATE `s_core_config_mails` SET `content` = "$content" WHERE `name` = "$name" AND dirty = 0
-    SQL;
-            $this->addSql($sql);
-    
-            if ($contentHtml != null) {
-                $sql = <<<SQL
-    UPDATE `s_core_config_mails` SET `content` = "$content", `contentHTML` = "$contentHtml" WHERE `name` = "$name" AND dirty = 0
-    SQL;
-                $generatedQueries[] = $sql;
-            }
-    
-            $this->addSql($sql);
+          set_status_header(400);
+          @header("Content-Type: text/plain");
+          echo ("Cannot process your request. Unknown response format.
+    Request format: ".@$this->_requestFormat." Response format: ".@$this->_responseFormat."\n");
+          var_export($this);
+          die(0);
         }
-
-
-.. _case-vanilla-variables-variableusedonce:
-
-Vanilla
-+++++++
-
-
-:ref:`used-once-variables`, in library/core/class.configuration.php:1461. 
-
-In this code, $cachedConfigData is collected after storing date in the cache. Gdn::cache()->store() does actual work, so its calling is necessary. The result, collected after execution, is not reused in the rest of the method (long method, not all is shown here). Removing such variable is a needed clean up after development and debug, but also prevents pollution of the variable namespace.
-
-.. code-block:: php
-   
-    // Save to cache if we're into that sort of thing
-                    $fileKey = sprintf(Gdn_Configuration::CONFIG_FILE_CACHE_KEY, $this->Source);
-                    if ($this->Configuration && $this->Configuration->caching() && Gdn::cache()->type() == Gdn_Cache::CACHE_TYPE_MEMORY && Gdn::cache()->activeEnabled()) {
-                        $cachedConfigData = Gdn::cache()->store($fileKey, $data, [
-                            Gdn_Cache::FEATURE_NOPREFIX => true,
-                            Gdn_Cache::FEATURE_EXPIRY => 3600
-                        ]);
-                    }
-
-
-.. _case-used-once-variables-(in-scope):
-
-Used Once Variables (In Scope)
-##############################
-
-.. _case-shopware-variables-variableusedoncebycontext:
-
-shopware
-++++++++
-
-
-:ref:`used-once-variables-(in-scope)`, in _sql/migrations/438-add-email-template-header-footer-fields.php:115. 
-
-In the updateEmailTemplate method, $generatedQueries collects all the generated SQL queries. $generatedQueries is not initialized, and never used after initialization. 
-
-.. code-block:: php
-   
-    private function updateEmailTemplate($name, $content, $contentHtml = null)
-        {
-            $sql = <<<SQL
-    UPDATE `s_core_config_mails` SET `content` = "$content" WHERE `name` = "$name" AND dirty = 0
-    SQL;
-            $this->addSql($sql);
-    
-            if ($contentHtml != null) {
-                $sql = <<<SQL
-    UPDATE `s_core_config_mails` SET `content` = "$content", `contentHTML` = "$contentHtml" WHERE `name` = "$name" AND dirty = 0
-    SQL;
-                $generatedQueries[] = $sql;
-            }
-    
-            $this->addSql($sql);
-        }
-
-
-.. _case-written-only-variables:
-
-Written Only Variables
-######################
-
-.. _case-dolibarr-variables-writtenonlyvariable:
-
-Dolibarr
-++++++++
-
-
-:ref:`written-only-variables`, in htdocs/ecm/class/ecmdirectory.class.php:692. 
-
-$val is only written, as only the keys are used. $val may be skipped by applying the foreach to array_keys($this->cats), instead of the whole array.
-
-.. code-block:: php
-   
-    // We add properties fullxxx to all elements
-    		foreach($this->cats as $key => $val)
-    		{
-    			if (isset($motherof[$key])) continue;
-    			$this->build_path_from_id_categ($key, 0);
-    		}
-
-
-.. _case-suitecrm-variables-writtenonlyvariable:
-
-SuiteCrm
-++++++++
-
-
-:ref:`written-only-variables`, in modules/Campaigns/utils.php:820. 
-
-$email_health is used later in the method; while $email_components is only set, and never used.
-
-.. code-block:: php
-   
-    //run query for mail boxes of type 'bounce'
-            $email_health = 0;
-            $email_components = 2;
-            $mbox_qry = "select * from inbound_email where deleted ='0' and mailbox_type = 'bounce'";
-            $mbox_res = $focus->db->query($mbox_qry);
-    
-            $mbox = array();
-            while ($mbox_row = $focus->db->fetchByAssoc($mbox_res)) {
-                $mbox[] = $mbox_row;
-            }
 
 
 

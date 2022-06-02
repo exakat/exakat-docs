@@ -279,8 +279,8 @@ List of external links mentioned in this documentation.
 * `Parsing and Lexing <https://www.php.net/manual/en/book.parle.php>`_
 * `Passing arguments by reference <https://www.php.net/manual/en/functions.arguments.php#functions.arguments.by-reference>`_
 * `Passing by reference <https://www.php.net/manual/en/language.references.pass.php>`_
-* `Password Hashing <https://www.php.net/manual/en/book.password.php>`_
 * `Password hashing <https://www.php.net/manual/en/book.password.php>`_
+* `Password Hashing <https://www.php.net/manual/en/book.password.php>`_
 * `Pattern Modifiers <https://www.php.net/manual/en/reference.pcre.pattern.modifiers.php>`_
 * `PCRE <https://www.php.net/pcre>`_
 * `PEAR <http://pear.php.net/>`_
