@@ -2017,4 +2017,61 @@ Specs
 +----------------+-----------------------------+
 
 
+.. _classes-addfinalclass:
+
+.. _add-final-class:
+
+Add Final Class
+_______________
+Adds ``final`` keyword to classes that can suppport it.
+
+.. _add-final-class-before:
+
+Before
+^^^^^^
+.. code-block:: php
+
+   <?php
+   
+   class x {
+   }
+   
+   ?>
+
+.. _add-final-class-after:
+
+After
+^^^^^
+.. code-block:: php
+
+   <?php
+   
+   final class x {
+   }
+   
+   ?>
+
+.. _add-final-class-related-cobbler:
+
+Related Cobblers
+^^^^^^^^^^^^^^^^
+
+* :ref:`No anchor for Classes/AddFinalConstant <no-anchor-for-classes-addfinalconstant>`
+
+
+
+.. _add-final-class-specs:
+
+Specs
+^^^^^
+
++----------------+-----------------------+
+| Short Name     | Classes/AddFinalClass |
++----------------+-----------------------+
+| Exakat version | 2.3.0                 |
++----------------+-----------------------+
+| Available in   |                       |
++----------------+-----------------------+
+
+
 

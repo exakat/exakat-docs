@@ -174,10 +174,10 @@ PHP extensions are used to check for structures usage (classes, interfaces, etc.
 PHP extensions are described with the list of structures they define : functions, classes, constants, traits, variables, interfaces, namespaces, and directives. 
 
 * `ext/amqp <https://github.com/alanxz/rabbitmq-c>`_
-* `ext/apache <https://www.php.net/manual/en/book.apache.php>`_
+* ext/apache
 * ext/apc
 * ext/apcu
-* `ext/array <https://www.php.net/manual/en/book.array.php>`_
+* ext/array
 * ext/php-ast
 * ext/async
 * ext/bcmath
@@ -187,6 +187,7 @@ PHP extensions are described with the list of structures they define : functions
 * `ext/cmark <https://github.com/commonmark/cmark>`_
 * `ext/com <https://www.php.net/manual/en/book.com.php>`_
 * `ext/crypto <https://pecl.php.net/package/crypto>`_
+* ext/CSV
 * ext/ctype
 * ext/curl
 * `ext/cyrus <https://www.php.net/manual/en/book.cyrus.php>`_
@@ -202,7 +203,7 @@ PHP extensions are described with the list of structures they define : functions
 * `ext/enchant <https://www.php.net/manual/en/book.enchant.php>`_
 * `ext/ereg <https://www.php.net/manual/en/function.ereg.php>`_
 * `ext/ev <https://www.php.net/manual/en/book.ev.php>`_
-* `ext/event <https://www.php.net/event>`_
+* ext/event
 * Excimer
 * ext/exif
 * `ext/expect <https://www.php.net/manual/en/book.expect.php>`_
@@ -219,11 +220,11 @@ PHP extensions are described with the list of structures they define : functions
 * ext/gd
 * ext/gearman
 * ext/gender
-* `ext/geoip <https://www.php.net/manual/en/book.geoip.php>`_
+* ext/geoip
 * ext/gettext
 * `ext/gmagick <http://www.php.net/manual/en/book.gmagick.php>`_
 * ext/gmp
-* `ext/gnupgp <http://www.php.net/manual/en/book.gnupg.php>`_
+* ext/gnupgp
 * ext/grpc
 * ext/hash
 * `ext/hrtime <https://www.php.net/manual/en/intro.hrtime.php>`_
@@ -294,7 +295,7 @@ PHP extensions are described with the list of structures they define : functions
 * `ext/recode <http://www.php.net/manual/en/book.recode.php>`_
 * ext/redis
 * ext/reflection
-* `ext/runkit <https://www.php.net/manual/en/book.runkit.php>`_
+* runkit7
 * `ext/sdl <https://github.com/Ponup/phpsdl>`_
 * `ext/seaslog <https://github.com/SeasX/SeasLog>`_
 * `ext/sem <https://www.php.net/manual/en/book.sem.php>`_
@@ -313,6 +314,7 @@ PHP extensions are described with the list of structures they define : functions
 * `ext/ssh2 <https://www.php.net/manual/en/book.ssh2.php>`_
 * ext/standard
 * `ext/stats <https://people.sc.fsu.edu/~jburkardt/c_src/cdflib/cdflib.html>`_
+* Stomp
 * `String <https://www.php.net/manual/en/ref.strings.php>`_
 * `ext/suhosin <https://suhosin.org/>`_
 * ext/svm
@@ -321,7 +323,7 @@ PHP extensions are described with the list of structures they define : functions
 * ext/tokenizer
 * `ext/tokyotyrant <https://www.php.net/manual/en/book.tokyo-tyrant.php>`_
 * ext/trader
-* `ext/uopz <https://pecl.php.net/package/uopz>`_
+* ext/uopz
 * `ext/uuid <https://linux.die.net/man/3/libuuid>`_
 * `ext/v8js <https://bugs.chromium.org/p/v8/issues/list>`_
 * ext/varnish
@@ -334,8 +336,8 @@ PHP extensions are described with the list of structures they define : functions
 * ext/xattr
 * `ext/xcache <https://xcache.lighttpd.net/>`_
 * ext/xdebug
-* `ext/xdiff <https://www.php.net/manual/en/book.xdiff.php>`_
-* `ext/xhprof <http://web.archive.org/web/20110514095512/http://mirror.facebook.net/facebook/xhprof/doc.html>`_
+* ext/xdiff
+* ext/xhprof
 * ext/xml
 * ext/xmlreader
 * ext/xmlrpc

@@ -6,7 +6,7 @@ Release Note
 
 Here is the release note of exakat. 
 
-**Version 2.4.3 (???, 2022-06-02)**
+**Version 2.4.3 (Li Jiancheng, 2022-06-16)**
 
 
 + Architecture
@@ -19,24 +19,51 @@ Here is the release note of exakat.
     + 
 
 + Analysis
-    + Refactored analysis : 'Raised access Level' now supports PDFF files
-    + Refactored analysis : 'Cant Extends Final' also Works with anonymous classes
-    + New analysis : Report 'Lowered access levels'
+    + 
 
 + Tokenizer
     + 
 
-**Version 2.4.2 (Li Chunfeng, 2022-05-18)**
+**Version 2.4.3 (Emperor Gaozu of Tang, 2022-06-02)**
 
 
 + Architecture
-    + 
+    + Doctor failed to copy the tinkergraph configuration files
+    + Removed old connector GSneo4j/Tinkergraph
+    + Refactored starting/emptying of gremlin database
 
 + Cobbler
-    + 
+    + Added suggestions when the -P is not found
+    + New cobbler : add Final to classes
 
 + Report
     + 
+
++ Analysis
+    + Fixed analysis : Undefined Classes and Trait where affected by the recent Complete/Returntyping
+    + Refactored analysis : 'Variables Used Once' not omit inherited parameters.
+    + Refactored analysis : 'Functions without return' not skip methods with Never and methods that throw in the main sequence.
+    + New analysis : 'Parent is not Static', but rather self
+    + Refactored analysis : 'Use This'
+    + Refactored analysis : 'Extension/Extxhprof' to PDFF
+    + Refactored analysis : Removing usage of methods, moving to PDFF
+    + New analysis : 'No magic method for Enums'
+    + Refactored analysis : 'Multiple Identical Keys' now also processes automated index
+    + New analysis : 'Modifying Readonly' (WIP)
+    + Refactored analysis : 'Could use short assignation' skips usage of ??
+    + New analysis : 'Readonly Can only be assigned in defining class'
+    + Refactored analysis : 'Runkit7' was upgraded to PDFF
+    + Refactored analysis : 'Gnupg' was upgraded to PDFF
+    + Refactored analysis : 'xdiff' was upgraded to PDFF
+    + Refactored analysis : 'event' was upgraded to PDFF
+    + New analysis : ext/stomp, ext/csv
+    + New analysis : Suggestion making the default assignation in property definition
+
++ Tokenizer
+    + Added support for PHP 8.2 readonly classes
+
+**Version 2.4.2 (Li Chunfeng, 2022-05-18)**
+
 
 + Analysis
     + Refactored analysis : 'Raised access Level' now supports PDFF files

@@ -6,7 +6,7 @@ Rulesets
 Introduction
 ------------------------
 
-Exakat provides unique 1485 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
+Exakat provides unique 1492 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
 
 For more smoothly usage, the ruleset concept allow you to run a set of rules based on a decidated focus. Beawre that a Ruleset run all the associated rules and any needed dependencies.
 
@@ -122,7 +122,7 @@ Analyze
 
 This ruleset centralizes a large number of classic trap and pitfalls when writing PHP.
 
-Total : 447 analysis
+Total : 451 analysis
 
 * :ref:`adding-zero`
 * :ref:`ambiguous-array-index`
@@ -190,7 +190,7 @@ Total : 447 analysis
 * :ref:`hardcoded-passwords`
 * :ref:`unresolved-classes`
 * :ref:`useless-constructor`
-* :ref:`implement-is-for-interface`
+* :ref:`implements-is-for-interface`
 * :ref:`use-const`
 * :ref:`unresolved-use`
 * :ref:`undefined-parent`
@@ -565,12 +565,16 @@ Total : 447 analysis
 * :ref:`unsupported-operand-types`
 * :ref:`version\_compare-operator`
 * :ref:`do-not-cast-to-int`
+* :ref:`could-be-spaceship`
 * :ref:`unused-enumeration-case`
 * :ref:`useless-null-coalesce`
 * :ref:`throw-raw-exceptions`
 * :ref:`implicit-conversion-to-int`
 * :ref:`use-same-types-for-comparisons`
 * :ref:`wrong-locale`
+* :ref:`parent-is-not-static`
+* :ref:`no-magic-method-for-enum`
+* :ref:`classes-noreadonlyassignationinglobal`
 
 
 
@@ -592,7 +596,7 @@ Appinfo
 
 A set of rules that describes with PHP features is used in the code.
 
-Total : 389 analysis
+Total : 391 analysis
 
 * :ref:`array-index`
 * :ref:`multidimensional-arrays`
@@ -766,7 +770,7 @@ Total : 389 analysis
 * :ref:`ext-expect`
 * :ref:`ext-recode`
 * :ref:`ext-parsekit`
-* :ref:`ext-runkit`
+* :ref:`runkit7`
 * :ref:`ext-gettext`
 * :ref:`super-global-usage`
 * :ref:`global-usage`
@@ -983,6 +987,8 @@ Total : 389 analysis
 * :ref:`excimer`
 * :ref:`ext-pkcs11`
 * :ref:`ext-spx`
+* :ref:`stomp`
+* :ref:`ext-csv`
 
 
 
@@ -1029,7 +1035,7 @@ CE
 
 This ruleset is the Community Edition list. It holds all the analysis that are in the community edition version of Exakat.
 
-Total : 654 analysis
+Total : 581 analysis
 
 * :ref:`adding-zero`
 * :ref:`array-index`
@@ -1046,10 +1052,7 @@ Total : 654 analysis
 * :ref:`static-methods-called-from-object`
 * :ref:`static-properties`
 * :ref:`constants-with-strange-names`
-* :ref:`constants-usage`
 * :ref:`constants-names`
-* :ref:`magic-constant-usage`
-* :ref:`php-constant-usage`
 * :ref:`defined-exceptions`
 * :ref:`thrown-exceptions`
 * :ref:`ext-apc`
@@ -1124,26 +1127,18 @@ Total : 654 analysis
 * :ref:`interfaces-names`
 * :ref:`aliases`
 * :ref:`namespaces-glossary`
-* :ref:`autoloading`
 * :ref:`goto-names`
 * :ref:`\_\_halt\_compiler`
 * :ref:`incompilable-files`
 * :ref:`labels`
-* :ref:`throw`
-* :ref:`trigger-errors`
-* :ref:`caught-expressions`
 * :ref:`error\_reporting()-with-integers`
-* :ref:`eval()-usage`
-* :ref:`exit()-usage`
 * :ref:`forgotten-whitespace`
 * :ref:`multiply-by-one`
 * :ref:`@-operator`
 * :ref:`not-not`
-* :ref:`include\_once()-usage`
 * :ref:`using-short-tags`
 * :ref:`strpos()-like-comparison`
 * :ref:`throws-an-assignement`
-* :ref:`var\_dump()...-usage`
 * :ref:`binary-glossary`
 * :ref:`email-addresses`
 * :ref:`heredoc-delimiter-glossary`
@@ -1156,43 +1151,34 @@ Total : 654 analysis
 * :ref:`static-variables`
 * :ref:`variables-with-long-names`
 * :ref:`variable-variables`
-* :ref:`abstract-class-usage`
-* :ref:`abstract-methods-usage`
-* :ref:`clone-usage`
 * :ref:`variable-constants`
 * :ref:`redefined-php-traits`
-* :ref:`traits-usage`
 * :ref:`trait-names`
 * :ref:`php-alternative-syntax`
 * :ref:`short-syntax-for-arrays`
-* :ref:`inclusions`
 * :ref:`ext-file`
 * :ref:`ext-array`
 * :ref:`ext-ffmpeg`
 * :ref:`ext-info`
 * :ref:`ext-math`
-* :ref:`$http\_raw\_post\_data-usage`
 * :ref:`ext-yis`
 * :ref:`useless-instructions`
 * :ref:`multiple-constant-definition`
 * :ref:`wrong-optional-parameter`
 * :ref:`use-===-null`
-* :ref:`assertions`
 * :ref:`one-variable-string`
-* :ref:`cast-usage`
 * :ref:`function-subscripting`
 * :ref:`nested-loops`
-* :ref:`I?=-usage`
 * :ref:`static-methods-can't-contain-$this`
 * :ref:`while(list()-=-each())`
 * :ref:`multiples-identical-case`
 * :ref:`switch-without-default`
 * :ref:`nested-ternary`
 * :ref:`undefined-constants`
-* :ref:`custom-constant-usage`
 * :ref:`ext-pcntl`
 * :ref:`ext-ming`
 * :ref:`ext-redis`
+* :ref:`is-an-extension-function`
 * :ref:`is-an-extension-interface`
 * :ref:`is-an-extension-constant`
 * :ref:`htmlentities-calls`
@@ -1204,14 +1190,13 @@ Total : 654 analysis
 * :ref:`dangling-array-references`
 * :ref:`ext-cyrus`
 * :ref:`ext-sqlsrv`
-* :ref:`native-alias-functions-usage`
 * :ref:`uses-default-values`
 * :ref:`wrong-number-of-arguments`
-* :ref:`ellipsis-usage`
 * :ref:`use-const`
 * :ref:`ext-0mq`
 * :ref:`ext-memcache`
 * :ref:`ext-memcached`
+* :ref:`is-extension-trait`
 * :ref:`dynamic-function-call`
 * :ref:`has-variable-arguments`
 * :ref:`multiple-catch`
@@ -1238,7 +1223,6 @@ Total : 654 analysis
 * :ref:`dynamic-property`
 * :ref:`dynamic-classes`
 * :ref:`multiple-classes-in-one-file`
-* :ref:`file-uploads`
 * :ref:`ext-intl`
 * :ref:`ext-cairo`
 * :ref:`dynamic-code`
@@ -1252,14 +1236,11 @@ Total : 654 analysis
 * :ref:`has-magic-method`
 * :ref:`ext-recode`
 * :ref:`ext-parsekit`
-* :ref:`ext-runkit`
+* :ref:`runkit7`
 * :ref:`ext-gettext`
 * :ref:`strict-comparison-with-booleans`
 * :ref:`lone-blocks`
-* :ref:`super-global-usage`
-* :ref:`global-usage`
 * :ref:`logical-should-use-symbolic-operators`
-* :ref:`namespaces`
 * :ref:`deep-definitions`
 * :ref:`constant-class`
 * :ref:`not-definitions-only`
@@ -1267,7 +1248,6 @@ Total : 654 analysis
 * :ref:`avoid-parenthesis`
 * :ref:`objects-don't-need-references`
 * :ref:`no-real-comparison`
-* :ref:`usage-of-class\_alias()`
 * :ref:`ext-apache`
 * :ref:`ext-eaccelerator`
 * :ref:`ext-fpm`
@@ -1277,13 +1257,9 @@ Total : 654 analysis
 * :ref:`no-direct-call-to-magic-method`
 * :ref:`useless-final`
 * :ref:`use-constant`
-* :ref:`resources-usage`
 * :ref:`useless-unset`
 * :ref:`no-array\_merge()-in-loops`
 * :ref:`useless-parenthesis`
-* :ref:`shell-usage`
-* :ref:`file-usage`
-* :ref:`mail-usage`
 * :ref:`dynamic-calls`
 * :ref:`use-php-object-api`
 * :ref:`altering-foreach-without-reference`
@@ -1295,8 +1271,8 @@ Total : 654 analysis
 * :ref:`ext-phalcon`
 * :ref:`use-constant-as-arguments`
 * :ref:`implied-if`
-* :ref:`composer-usage`
 * :ref:`composer's-autoload`
+* :ref:`composer-namespace`
 * :ref:`should-chain-exception`
 * :ref:`undefined-interfaces`
 * :ref:`ext-apcu`
@@ -1310,8 +1286,6 @@ Total : 654 analysis
 * :ref:`multiple-class-declarations`
 * :ref:`empty-namespace`
 * :ref:`could-use-short-assignation`
-* :ref:`scalar-typehint-usage`
-* :ref:`return-typehint-usage`
 * :ref:`ext-ob`
 * :ref:`pre-increment`
 * :ref:`ext-geoip`
@@ -1332,13 +1306,11 @@ Total : 654 analysis
 * :ref:`ext-xhprof`
 * :ref:`indices-are-int-or-string`
 * :ref:`should-typecast`
-* :ref:`else-usage`
 * :ref:`is-composer-class`
 * :ref:`is-composer-interface`
 * :ref:`avoid-substr()-one`
 * :ref:`anonymous-classes`
 * :ref:`coalesce`
-* :ref:`directives-usage`
 * :ref:`useless-brackets`
 * :ref:`preg\_replace-with-option-e`
 * :ref:`eval()-without-try`
@@ -1366,9 +1338,6 @@ Total : 654 analysis
 * :ref:`ternary-in-concat`
 * :ref:`ext-tokyotyrant`
 * :ref:`ext-v8js`
-* :ref:`yield-usage`
-* :ref:`yield-from-usage`
-* :ref:`pear-usage`
 * :ref:`undefined-trait`
 * :ref:`identical-conditions`
 * :ref:`unkown-regex-options`
@@ -1414,7 +1383,6 @@ Total : 654 analysis
 * :ref:`string`
 * :ref:`ext-mhash`
 * :ref:`ext-mongodb`
-* :ref:`error\_log()-usage`
 * :ref:`sql-queries`
 * :ref:`ext-libsodium`
 * :ref:`multiple-alias-definitions-per-file`
@@ -1433,24 +1401,11 @@ Total : 654 analysis
 * :ref:`use-browscap`
 * :ref:`use-debug`
 * :ref:`no-reference-on-left-side`
-* :ref:`psr-16-usage`
-* :ref:`psr-7-usage`
-* :ref:`psr-6-usage`
-* :ref:`psr-3-usage`
-* :ref:`psr-11-usage`
-* :ref:`psr-13-usage`
 * :ref:`ext-stats`
 * :ref:`dependency-injection`
 * :ref:`courier-anti-pattern`
 * :ref:`ext-gender`
 * :ref:`ext-judy`
-* :ref:`yii-usage`
-* :ref:`codeigniter-usage`
-* :ref:`laravel-usage`
-* :ref:`symfony-usage`
-* :ref:`wordpress-usage`
-* :ref:`ez-cms-usage`
-* :ref:`joomla-usage`
 * :ref:`non-breakable-space-in-names`
 * :ref:`multiple-functions-declarations`
 * :ref:`ext-swoole`
@@ -1458,9 +1413,6 @@ Total : 654 analysis
 * :ref:`manipulates-inf`
 * :ref:`const-or-define`
 * :ref:`strict\_types-preference`
-* :ref:`declare-strict\_types-usage`
-* :ref:`encoding-usage`
-* :ref:`ticks-usage`
 * :ref:`ext-lapack`
 * :ref:`assign-with-and-precedence`
 * :ref:`no-magic-method-with-array`
@@ -1475,15 +1427,9 @@ Total : 654 analysis
 * :ref:`is-a-php-magic-property`
 * :ref:`next-month-trap`
 * :ref:`printf-number-of-arguments`
-* :ref:`drupal-usage`
-* :ref:`phalcon-usage`
-* :ref:`fuel-php-usage`
-* :ref:`argon2-usage`
-* :ref:`crypto-usage`
 * :ref:`type-array-index`
 * :ref:`incoming-variable-index-inventory`
 * :ref:`ext-vips`
-* :ref:`dl()-usage`
 * :ref:`environment-variables`
 * :ref:`invalid-regex`
 * :ref:`same-variable-foreach`
@@ -1537,7 +1483,6 @@ Total : 654 analysis
 * :ref:`path-lists`
 * :ref:`possible-missing-subpattern`
 * :ref:`assign-and-compare`
-* :ref:`typed-property-usage`
 * :ref:`ext-weakref`
 * :ref:`ext-pcov`
 * :ref:`constant-dynamic-creation`
@@ -1545,8 +1490,6 @@ Total : 654 analysis
 * :ref:`php-8.0-removed-constants`
 * :ref:`an-oop-factory`
 * :ref:`typehint-must-be-returned`
-* :ref:`self-transforming-variables`
-* :ref:`check-on-\_\_call-usage`
 * :ref:`php-overridden-function`
 * :ref:`ext-svm`
 * :ref:`ext-ffi`
@@ -1566,11 +1509,17 @@ Total : 654 analysis
 * :ref:`array\_key\_exists()-works-on-arrays`
 * :ref:`reflection-export()-is-deprecated`
 * :ref:`unbinding-closures`
-* :ref:`numeric-literal-separator`
 * :ref:`class-without-parent`
 * :ref:`scalar-are-not-arrays`
+* :ref:`create-compact-variables`
 * :ref:`php-7.4-reserved-keyword`
 * :ref:`no-more-curly-arrays`
+* :ref:`overwritten-properties`
+* :ref:`overwritten-constant`
+* :ref:`create-magic-property`
+* :ref:`set-parent-definition`
+* :ref:`make-class-constant-definition`
+* :ref:`follow-closure-definition`
 * :ref:`php-7.4-constant-deprecation`
 * :ref:`implode()-arguments-order`
 * :ref:`php-7.4-removed-directives`
@@ -1579,8 +1528,9 @@ Total : 654 analysis
 * :ref:`strip\_tags-skips-closed-tag`
 * :ref:`use-covariance`
 * :ref:`use-contravariance`
+* :ref:`seta-rray-class-definition`
+* :ref:`set-string-method-definition`
 * :ref:`use-arrow-functions`
-* :ref:`environment-variable-usage`
 * :ref:`indentation-levels`
 * :ref:`spread-operator-for-array`
 * :ref:`nested-ternary-without-parenthesis`
@@ -1591,10 +1541,10 @@ Total : 654 analysis
 * :ref:`interfaces-is-not-implemented`
 * :ref:`no-literal-for-reference`
 * :ref:`collect-literals`
-* :ref:`no-weak-ssl-crypto`
 * :ref:`collect-parameter-counts`
 * :ref:`collect-local-variable-counts`
 * :ref:`dereferencing-levels`
+* :ref:`make-functioncall-with-reference`
 * :ref:`foreach()-favorite`
 * :ref:`can't-implement-traversable`
 * :ref:`is\_a()-with-string`
@@ -1603,8 +1553,6 @@ Total : 654 analysis
 * :ref:`filter-to-add\_slashes()`
 * :ref:`mbstring-third-arg`
 * :ref:`typehinting-stats`
-* :ref:`typo-3-usage`
-* :ref:`concrete5-usage`
 * :ref:`immutable-signature`
 * :ref:`merge-if-then`
 * :ref:`wrong-type-with-call`
@@ -1654,8 +1602,6 @@ Total : 654 analysis
 * :ref:`collect-class-traits-counts`
 * :ref:`collect-native-calls-per-expressions`
 * :ref:`function-with-dynamic-code`
-* :ref:`cast-unset-usage`
-* :ref:`$php\_errormsg-usage`
 * :ref:`mismatch-parameter-name`
 * :ref:`collect-files-dependencies`
 * :ref:`collect-atom-counts`
@@ -1670,21 +1616,8 @@ Total : 654 analysis
 * :ref:`php-80-named-parameter-variadic`
 * :ref:`final-private-methods`
 * :ref:`array\_map()-passes-by-value`
-* :ref:`php-8.1-removed-directives`
-* :ref:`htmlentities-using-default-flag`
-* :ref:`false-to-array-conversion`
-* :ref:`float-conversion-as-index`
-* :ref:`cannot-call-trait-method-directly`
-* :ref:`deprecated-callable`
-* :ref:`checks-property-existence`
-* :ref:`extends-stdclass`
-* :ref:`ext-protobuf`
-* :ref:`sylius-usage`
-* :ref:`extensions-yar`
-* :ref:`collect-stub-structures`
-* :ref:`excimer`
-* :ref:`ext-pkcs11`
-* :ref:`ext-spx`
+* :ref:`stomp`
+* :ref:`ext-csv`
 
 
 
@@ -1903,7 +1836,7 @@ ClassReview
 
 This ruleset focuses on classes construction issues, and their related structures : traits, interfaces, methods, properties, constants.
 
-Total : 68 analysis
+Total : 72 analysis
 
 * :ref:`final-class-usage`
 * :ref:`final-methods-usage`
@@ -1973,6 +1906,10 @@ Total : 68 analysis
 * :ref:`no-constructor-in-interface`
 * :ref:`lowered-access-level`
 * :ref:`used-once-trait`
+* :ref:`parent-is-not-static`
+* :ref:`no-magic-method-for-enum`
+* :ref:`classes-noreadonlyassignationinglobal`
+* :ref:`could-set-property-default`
 
 
 
@@ -2927,7 +2864,7 @@ Specs
 Dump
 ++++
 
-This ruleset collects various names given to different structures in the code : for example, variables, classes, methods, constants, etc. It also collects networks of data, like file inclusion or externa dependencies.
+This ruleset collects various names given to different structures in the code : for example, variables, classes, methods, constants, etc. It also collects networks of data, like file inclusion or external dependencies.
 
 Total : 40 analysis
 
@@ -3017,7 +2954,7 @@ Specs
 Inventory
 +++++++++
 
-This ruleset collect all free-text names used in the code : variables, global, arguments, etc...
+This ruleset collect all free-text names used in the code : variables, global, arguments, methods, classes, etc...
 
 For example : 
 
@@ -3109,7 +3046,7 @@ LintButWontExec
 
 This ruleset focuses on PHP code that lint (php -l), but that will not run. As such, this ruleset tries to go further than PHP, by connecting files, just like during execution.
 
-Total : 40 analysis
+Total : 41 analysis
 
 * :ref:`final-class-usage`
 * :ref:`final-methods-usage`
@@ -3151,6 +3088,7 @@ Total : 40 analysis
 * :ref:`cant-overload-constants`
 * :ref:`cant-overwrite-final-constant`
 * :ref:`implicit-conversion-to-int`
+* :ref:`no-magic-method-for-enum`
 
 
 
@@ -3200,7 +3138,7 @@ Total : 50 analysis
 * :ref:`should-use-array\_column()`
 * :ref:`avoid-concat-in-loop`
 * :ref:`use-pathinfo()-arguments`
-* :ref:`simple-switch`
+* :ref:`simple-switch-and-match`
 * :ref:`substring-first`
 * :ref:`use-php7-encapsed-strings`
 * :ref:`slice-arrays-first`
@@ -3474,7 +3412,7 @@ Suggestions
 
 This ruleset focuses on possibly better syntax than the one currently used. Those may be code modernization, alternatives, more efficient solutions, or simply left over from older versions. 
 
-Total : 109 analysis
+Total : 111 analysis
 
 * :ref:`while(list()-=-each())`
 * :ref:`function-subscripting,-old-style`
@@ -3583,8 +3521,10 @@ Total : 109 analysis
 * :ref:`could-use-existing-constant`
 * :ref:`could-use-array\_sum()`
 * :ref:`too-many-stringed-elseif`
+* :ref:`could-be-spaceship`
 * :ref:`throw-raw-exceptions`
 * :ref:`lowered-access-level`
+* :ref:`could-set-property-default`
 
 
 
@@ -3704,7 +3644,7 @@ All
 
 All is a dummy ruleset, which includes all the rules. It is mostly used internally.
 
-Total : 1483 analysis
+Total : 1490 analysis
 
 * :ref:`adding-zero`
 * :ref:`ambiguous-array-index`
@@ -3980,7 +3920,7 @@ Total : 1483 analysis
 * :ref:`constructors`
 * :ref:`useless-constructor`
 * :ref:`too-many-children`
-* :ref:`implement-is-for-interface`
+* :ref:`implements-is-for-interface`
 * :ref:`use-const`
 * :ref:`unresolved-use`
 * :ref:`conditional-structures`
@@ -4071,7 +4011,7 @@ Total : 1483 analysis
 * :ref:`has-magic-method`
 * :ref:`ext-recode`
 * :ref:`ext-parsekit`
-* :ref:`ext-runkit`
+* :ref:`runkit7`
 * :ref:`ext-gettext`
 * :ref:`short-open-tags`
 * :ref:`strict-comparison-with-booleans`
@@ -4197,7 +4137,7 @@ Total : 1483 analysis
 * :ref:`empty-namespace`
 * :ref:`could-use-short-assignation`
 * :ref:`useless-abstract-class`
-* :ref:`only-static-methods`
+* :ref:`only-static-methods-class`
 * :ref:`null-on-new`
 * :ref:`scalar-typehint-usage`
 * :ref:`return-typehint-usage`
@@ -4568,7 +4508,7 @@ Total : 1483 analysis
 * :ref:`date-formats`
 * :ref:`is-a-php-magic-property`
 * :ref:`could-be-else`
-* :ref:`simple-switch`
+* :ref:`simple-switch-and-match`
 * :ref:`next-month-trap`
 * :ref:`printf-number-of-arguments`
 * :ref:`substring-first`
@@ -5189,6 +5129,13 @@ Total : 1483 analysis
 * :ref:`wrong-locale`
 * :ref:`ext-pkcs11`
 * :ref:`ext-spx`
+* :ref:`parent-is-not-static`
+* :ref:`no-magic-method-for-enum`
+* :ref:`modifying-readonly`
+* :ref:`classes-noreadonlyassignationinglobal`
+* :ref:`stomp`
+* :ref:`ext-csv`
+* :ref:`could-set-property-default`
 
 
 
@@ -5263,8 +5210,9 @@ PHP recommendations
 
 This ruleset is collected from the warnings and notes that are available in the PHP manual. For example, `return <https://www.php.net/manual/en/function.return.php>` do not require parenthesis.
 
-Total : 18 analysis
+Total : 19 analysis
 
+* :ref:`using-short-tags`
 * :ref:`strpos()-like-comparison`
 * :ref:`bad-constants-names`
 * :ref:`use-with-fully-qualified-name`
@@ -5302,7 +5250,7 @@ IsExt
 
 This is automatically filled, based on the documentation's isExt attribute.
 
-Total : 16 analysis
+Total : 20 analysis
 
 * :ref:`undefined-constants`
 * :ref:`defined-class-constants`
@@ -5313,8 +5261,12 @@ Total : 16 analysis
 * :ref:`already-parents-interface`
 * :ref:`can't-extend-final`
 * :ref:`raised-access-level`
+* :ref:`only-variable-passed-by-reference`
+* :ref:`php-native-reference-variable`
 * :ref:`interfaces-is-not-implemented`
 * :ref:`make-functioncall-with-reference`
+* :ref:`array\_map()-passes-by-value`
+* :ref:`only-container-for-reference`
 * :ref:`wrong-argument-name-with-php-function`
 * :ref:`undefined-enumcase`
 * :ref:`cant-overwrite-final-constant`
@@ -5339,7 +5291,7 @@ IsPHP
 
 This is automatically filled, based on the documentation's isPHP attribute.
 
-Total : 16 analysis
+Total : 20 analysis
 
 * :ref:`undefined-constants`
 * :ref:`defined-class-constants`
@@ -5350,8 +5302,12 @@ Total : 16 analysis
 * :ref:`already-parents-interface`
 * :ref:`can't-extend-final`
 * :ref:`raised-access-level`
+* :ref:`only-variable-passed-by-reference`
+* :ref:`php-native-reference-variable`
 * :ref:`interfaces-is-not-implemented`
 * :ref:`make-functioncall-with-reference`
+* :ref:`array\_map()-passes-by-value`
+* :ref:`only-container-for-reference`
 * :ref:`wrong-argument-name-with-php-function`
 * :ref:`undefined-enumcase`
 * :ref:`cant-overwrite-final-constant`
@@ -5376,7 +5332,7 @@ IsStub
 
 This is automatically filled, based on the documentation's isStub attribute.
 
-Total : 15 analysis
+Total : 19 analysis
 
 * :ref:`undefined-constants`
 * :ref:`defined-class-constants`
@@ -5386,8 +5342,12 @@ Total : 15 analysis
 * :ref:`already-parents-interface`
 * :ref:`can't-extend-final`
 * :ref:`raised-access-level`
+* :ref:`only-variable-passed-by-reference`
+* :ref:`php-native-reference-variable`
 * :ref:`interfaces-is-not-implemented`
 * :ref:`make-functioncall-with-reference`
+* :ref:`array\_map()-passes-by-value`
+* :ref:`only-container-for-reference`
 * :ref:`wrong-argument-name-with-php-function`
 * :ref:`undefined-enumcase`
 * :ref:`cant-overwrite-final-constant`

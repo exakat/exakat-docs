@@ -69,6 +69,7 @@ Summary
   * :ref:`CompatibilityPHP80 <report-compatibilityphp80>`
   * :ref:`CompatibilityPHP81 <report-compatibilityphp81>`
   * :ref:`Unused <report-unused>`
+  * :ref:`Weekly <report-weekly>`
 
 
 
@@ -2145,7 +2146,7 @@ For example, `CombinedAssignRector <https://github.com/rectorphp/rector/blob/mas
 
 Not all exakat rules are covered by Rector, and vice-versa. `CompactToVariablesRector <https://github.com/rectorphp/rector/blob/master/docs/AllRectorsOverview.md#compacttovariablesrector>`_ aims à skipping usage of compact(), while `Structures/CouldUseCompact <https://exakat.readthedocs.io/en/latest/Rules.html#could-use-compact>`_ suggest the contrary. 
 
-Rector and Exakat both use different approaches to code review. It is recommended to review the changes before commiting them.
+Rector and Exakat both use different approaches to code review. It is recommended to review the changes before committing them.
 
 Check `RectorPHP <https://getrector.org/>`_ website, its `rector github <https://github.com/rectorphp/rector>`_ repository, and `Tomas Votruba <https://twitter.com/VotrubaT>`_ account.
 
@@ -3695,7 +3696,7 @@ The Unused report reports structures that are defined in the code, but never use
 
 + Constants
 + Functions, methods, properties
-+ Classes, Enumration, traits and interfaces
++ Classes, enumerations, traits and interfaces
 + Return values and parameters
 + Default values
 + Never used
@@ -3723,6 +3724,43 @@ Specs
 +--------------+-------------------------------------+
 | Available in |                                     |
 +--------------+-------------------------------------+
+
+
+.. _report-weekly:
+
+Weekly
+######
+
+Weekly
+______
+
+Weekly report draw a selection of issues to check in your code, each week. 
+
+The weekly report draws issues from 5 rules, randomly or chosen specially for that week. The rules of a week are stored on exakat.io, and everyone will work on the same errors. You can work on yours, and then, discuss then with your colleagues, cousins and anyone in the community : they are the focus of the week.  
+
+The selections of the previous weeks, and, the next week are offered. Just be aware that next week's selection may change, without warning. 
+
+If your code is already immune to all this week's rules : good job! You can share you experience with others!
+
+
+.. image:: ../images/report.weekly.png
+    :alt: Example of a Weekly report (0)
+
+
+
+Specs
+^^^^^
++--------------+-----------------------------------------------------+
+| Short name   | Weekly                                              |
++--------------+-----------------------------------------------------+
+| Rulesets     | :ref:`ruleset-analyze`, :ref:`ruleset-suggestions`. |
++--------------+-----------------------------------------------------+
+| Type         | HTML                                                |
++--------------+-----------------------------------------------------+
+| Target       | This report is written in 'weekly'.                 |
++--------------+-----------------------------------------------------+
+| Available in |                                                     |
++--------------+-----------------------------------------------------+
 
 
 
