@@ -6,7 +6,7 @@ Release Note
 
 Here is the release note of exakat. 
 
-**Version 2.4.3 (Li Jiancheng, 2022-06-16)**
+**Version 2.4.3 (Li Yuanji, 2022-06-30)**
 
 
 + Architecture
@@ -23,6 +23,42 @@ Here is the release note of exakat.
 
 + Tokenizer
     + 
+
+**Version 2.4.4 (Li Jiancheng, 2022-06-16)**
+
+
++ Architecture
+    + Upgraded to Gremlin 3.6.0 (tinkergraph)
+    + Prepared engine to work with GSneo4j 3.6.0
+
++ Cobbler
+    + New cobbler : turn ${a} into {$a} for PHP 8.2 compatibility
+    + Refactored cobbler : Adds null type to nullable parameters
+
++ Report
+    + 
+
++ Analysis
+    + Refactored analysis : Non nullable setter skip properties set in constructor
+    + Removed analysis : ext/ffmpeg, ext/fdf, ext/xcache, ext/yis, ext/cairo
+    + Refactored analysis : ext/rdkafka, ext/zookeeper now uses PDFF
+    + Refactored analysis : Should Preprocess, now include local constant strings
+    + Refactored analysis : Undefined Interface, now not reporting extra Types
+    + New analysis : retyped reference, when a parameter with a type, eventually get a new type
+    + Refactored analysis : Static methods called from object, modernization
+    + Refactored analysis : New Analyzers, omits local defaults values
+    + Refactored analysis : Access Protected now takes into account PDFF
+    + Refactored analysis : Null type detection includes null defaut value for parameters.
+    + New analysis : Report type error for default values
+    + Refactored analysis : 'ds', 'ssh2' were upgraded to PDFF
+    + Checked unit tests : 4373 / 4349 test pass (99.5% pass)
+    + New analysis : Ice framework
+    + New analysis : taint
+
++ Tokenizer
+    + Fixed 'constant' bug with functioncall on a nsname
+    + Upgraded Typehint detection to handle clone() calls
+    + Upgraded Typehint inference for properties and variables
 
 **Version 2.4.3 (Emperor Gaozu of Tang, 2022-06-02)**
 

@@ -522,6 +522,10 @@ Analyzers may be configured in the `project/*/config.ini`; they may also be conf
   + skipInteger : 1,-0,-1
 
     + List of omitted integer values. By default, 0, 1 and -1.
+:ref:`Could Be Enumeration <could-be-enumeration>`
+  + minElements : 2
+
+    + Minimal number of elements to consider that a property may be an enumeration.
 :ref:`Could Be Parent Method <could-be-parent-method>`
   + minChildren : 4
 

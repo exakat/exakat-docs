@@ -182,7 +182,6 @@ PHP extensions are described with the list of structures they define : functions
 * ext/async
 * ext/bcmath
 * ext/bzip2
-* `ext/cairo <https://cairographics.org/>`_
 * ext/calendar
 * `ext/cmark <https://github.com/commonmark/cmark>`_
 * `ext/com <https://www.php.net/manual/en/book.com.php>`_
@@ -209,9 +208,7 @@ PHP extensions are described with the list of structures they define : functions
 * `ext/expect <https://www.php.net/manual/en/book.expect.php>`_
 * `ext/fam <http://oss.sgi.com/projects/fam/>`_
 * ext/fann
-* `ext/fdf <http://www.adobe.com/devnet/acrobat/fdftoolkit.html>`_
 * ext/ffi
-* `ext/ffmpeg <http://ffmpeg-php.sourceforge.net/>`_
 * `ext/file <http://www.php.net/manual/en/book.filesystem.php>`_
 * ext/fileinfo
 * ext/filter
@@ -230,6 +227,7 @@ PHP extensions are described with the list of structures they define : functions
 * `ext/hrtime <https://www.php.net/manual/en/intro.hrtime.php>`_
 * `ext/pecl_http <https://github.com/m6w6/ext-http>`_
 * `ext/ibase <https://www.php.net/manual/en/book.ibase.php>`_
+* Ice framework
 * ext/iconv
 * ext/igbinary
 * `ext/iis <http://www.php.net/manual/en/book.iisfunc.php>`_
@@ -290,7 +288,7 @@ PHP extensions are described with the list of structures they define : functions
 * ext/pspell
 * `ext/psr <https://www.php-fig.org/psr/psr-3>`_
 * `ext/rar <https://www.php.net/manual/en/book.rar.php>`_
-* `ext/rdkafka <https://github.com/arnaud-lb/php-rdkafka>`_
+* ext/rdkafka
 * ext/readline
 * `ext/recode <http://www.php.net/manual/en/book.recode.php>`_
 * ext/redis
@@ -311,7 +309,7 @@ PHP extensions are described with the list of structures they define : functions
 * `ext/sqlite <https://www.php.net/manual/en/book.sqlite.php>`_
 * ext/sqlite3
 * `ext/sqlsrv <https://www.php.net/sqlsrv>`_
-* `ext/ssh2 <https://www.php.net/manual/en/book.ssh2.php>`_
+* ext/ssh2
 * ext/standard
 * `ext/stats <https://people.sc.fsu.edu/~jburkardt/c_src/cdflib/cdflib.html>`_
 * Stomp
@@ -319,6 +317,7 @@ PHP extensions are described with the list of structures they define : functions
 * `ext/suhosin <https://suhosin.org/>`_
 * ext/svm
 * `ext/swoole <https://www.swoole.com/>`_
+* Extensions/Exttaint
 * ext/tidy
 * ext/tokenizer
 * `ext/tokyotyrant <https://www.php.net/manual/en/book.tokyo-tyrant.php>`_
@@ -334,7 +333,6 @@ PHP extensions are described with the list of structures they define : functions
 * `ext/wikidiff2 <https://www.mediawiki.org/wiki/Extension:Wikidiff2>`_
 * `ext/wincache <http://www.php.net/wincache>`_
 * ext/xattr
-* `ext/xcache <https://xcache.lighttpd.net/>`_
 * ext/xdebug
 * ext/xdiff
 * ext/xhprof
@@ -346,9 +344,8 @@ PHP extensions are described with the list of structures they define : functions
 * ext/xxtea
 * `ext/yaml <http://www.yaml.org/>`_
 * Extensions yar
-* `ext/yis <http://www.tldp.org/HOWTO/NIS-HOWTO/index.html>`_
 * `ext/zend_monitor <http://files.zend.com/help/Zend-Server/content/zendserverapi/zend_monitor-php_api.htm>`_
 * ext/zip
 * ext/zlib
 * `ext/0mq <http://zeromq.org/>`_
-* `ext/zookeeper <https://www.php.net/zookeeper>`_
+* ext/zookeeper

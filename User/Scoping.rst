@@ -108,7 +108,7 @@ With that configuration, the Drillinstructor and the Owasp report are created au
 Predefined config files
 ------------------------
 
-41 rulesets detailled here : 
+43 rulesets detailled here : 
 
 .. _annex-all:
 
@@ -479,6 +479,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Dump/PublicReach";
    analyzer[] = "Dump/TypehintingStats";
    analyzer[] = "Dump/Typehintorder";
+   analyzer[] = "Enums/CouldBeEnum";
    analyzer[] = "Enums/NoMagicMethod";
    analyzer[] = "Enums/UndefinedEnumcase";
    analyzer[] = "Enums/UnusedEnumCase";
@@ -513,7 +514,6 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Extensions/Extasync";
    analyzer[] = "Extensions/Extbcmath";
    analyzer[] = "Extensions/Extbzip2";
-   analyzer[] = "Extensions/Extcairo";
    analyzer[] = "Extensions/Extcalendar";
    analyzer[] = "Extensions/Extcmark";
    analyzer[] = "Extensions/Extcom";
@@ -540,9 +540,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Extensions/Extexpect";
    analyzer[] = "Extensions/Extfam";
    analyzer[] = "Extensions/Extfann";
-   analyzer[] = "Extensions/Extfdf";
    analyzer[] = "Extensions/Extffi";
-   analyzer[] = "Extensions/Extffmpeg";
    analyzer[] = "Extensions/Extfile";
    analyzer[] = "Extensions/Extfileinfo";
    analyzer[] = "Extensions/Extfilter";
@@ -561,6 +559,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Extensions/Exthrtime";
    analyzer[] = "Extensions/Exthttp";
    analyzer[] = "Extensions/Extibase";
+   analyzer[] = "Extensions/Extice";
    analyzer[] = "Extensions/Exticonv";
    analyzer[] = "Extensions/Extigbinary";
    analyzer[] = "Extensions/Extiis";
@@ -650,6 +649,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Extensions/Extsuhosin";
    analyzer[] = "Extensions/Extsvm";
    analyzer[] = "Extensions/Extswoole";
+   analyzer[] = "Extensions/Exttaint";
    analyzer[] = "Extensions/Exttidy";
    analyzer[] = "Extensions/Exttokenizer";
    analyzer[] = "Extensions/Exttokyotyrant";
@@ -665,7 +665,6 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Extensions/Extwikidiff2";
    analyzer[] = "Extensions/Extwincache";
    analyzer[] = "Extensions/Extxattr";
-   analyzer[] = "Extensions/Extxcache";
    analyzer[] = "Extensions/Extxdebug";
    analyzer[] = "Extensions/Extxdiff";
    analyzer[] = "Extensions/Extxhprof";
@@ -677,7 +676,6 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Extensions/Extxxtea";
    analyzer[] = "Extensions/Extyaml";
    analyzer[] = "Extensions/Extyar";
-   analyzer[] = "Extensions/Extyis";
    analyzer[] = "Extensions/Extzendmonitor";
    analyzer[] = "Extensions/Extzip";
    analyzer[] = "Extensions/Extzlib";
@@ -767,6 +765,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Functions/Recursive";
    analyzer[] = "Functions/RedeclaredPhpFunction";
    analyzer[] = "Functions/RelayFunction";
+   analyzer[] = "Functions/RetypedReference";
    analyzer[] = "Functions/SemanticTyping";
    analyzer[] = "Functions/ShouldBeTypehinted";
    analyzer[] = "Functions/ShouldUseConstants";
@@ -1573,6 +1572,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Typehints/CouldNotType";
    analyzer[] = "Typehints/MissingReturntype";
    analyzer[] = "Typehints/MissingTypehints";
+   analyzer[] = "Typehints/WrongTypeWithDefault";
    analyzer[] = "Utils/Selector";
    analyzer[] = "Variables/AssignedTwiceOrMore";
    analyzer[] = "Variables/Blind";
@@ -1989,6 +1989,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Dump/PublicReach'
      - 'Dump/TypehintingStats'
      - 'Dump/Typehintorder'
+     - 'Enums/CouldBeEnum'
      - 'Enums/NoMagicMethod'
      - 'Enums/UndefinedEnumcase'
      - 'Enums/UnusedEnumCase'
@@ -2023,7 +2024,6 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Extensions/Extasync'
      - 'Extensions/Extbcmath'
      - 'Extensions/Extbzip2'
-     - 'Extensions/Extcairo'
      - 'Extensions/Extcalendar'
      - 'Extensions/Extcmark'
      - 'Extensions/Extcom'
@@ -2050,9 +2050,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Extensions/Extexpect'
      - 'Extensions/Extfam'
      - 'Extensions/Extfann'
-     - 'Extensions/Extfdf'
      - 'Extensions/Extffi'
-     - 'Extensions/Extffmpeg'
      - 'Extensions/Extfile'
      - 'Extensions/Extfileinfo'
      - 'Extensions/Extfilter'
@@ -2071,6 +2069,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Extensions/Exthrtime'
      - 'Extensions/Exthttp'
      - 'Extensions/Extibase'
+     - 'Extensions/Extice'
      - 'Extensions/Exticonv'
      - 'Extensions/Extigbinary'
      - 'Extensions/Extiis'
@@ -2160,6 +2159,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Extensions/Extsuhosin'
      - 'Extensions/Extsvm'
      - 'Extensions/Extswoole'
+     - 'Extensions/Exttaint'
      - 'Extensions/Exttidy'
      - 'Extensions/Exttokenizer'
      - 'Extensions/Exttokyotyrant'
@@ -2175,7 +2175,6 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Extensions/Extwikidiff2'
      - 'Extensions/Extwincache'
      - 'Extensions/Extxattr'
-     - 'Extensions/Extxcache'
      - 'Extensions/Extxdebug'
      - 'Extensions/Extxdiff'
      - 'Extensions/Extxhprof'
@@ -2187,7 +2186,6 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Extensions/Extxxtea'
      - 'Extensions/Extyaml'
      - 'Extensions/Extyar'
-     - 'Extensions/Extyis'
      - 'Extensions/Extzendmonitor'
      - 'Extensions/Extzip'
      - 'Extensions/Extzlib'
@@ -2277,6 +2275,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Functions/Recursive'
      - 'Functions/RedeclaredPhpFunction'
      - 'Functions/RelayFunction'
+     - 'Functions/RetypedReference'
      - 'Functions/SemanticTyping'
      - 'Functions/ShouldBeTypehinted'
      - 'Functions/ShouldUseConstants'
@@ -3083,6 +3082,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Typehints/CouldNotType'
      - 'Typehints/MissingReturntype'
      - 'Typehints/MissingTypehints'
+     - 'Typehints/WrongTypeWithDefault'
      - 'Utils/Selector'
      - 'Variables/AssignedTwiceOrMore'
      - 'Variables/Blind'
@@ -3304,6 +3304,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Functions/OnlyVariablePassedByReference";
    analyzer[] = "Functions/RedeclaredPhpFunction";
    analyzer[] = "Functions/RelayFunction";
+   analyzer[] = "Functions/RetypedReference";
    analyzer[] = "Functions/ShouldUseConstants";
    analyzer[] = "Functions/ShouldYieldWithKey";
    analyzer[] = "Functions/TooManyLocalVariables";
@@ -3594,6 +3595,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Type/StringHoldAVariable";
    analyzer[] = "Type/StringWithStrangeSpace";
    analyzer[] = "Typehints/MissingReturntype";
+   analyzer[] = "Typehints/WrongTypeWithDefault";
    analyzer[] = "Variables/AssignedTwiceOrMore";
    analyzer[] = "Variables/ConstantTypo";
    analyzer[] = "Variables/LostReferences";
@@ -3769,6 +3771,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Functions/OnlyVariablePassedByReference'
      - 'Functions/RedeclaredPhpFunction'
      - 'Functions/RelayFunction'
+     - 'Functions/RetypedReference'
      - 'Functions/ShouldUseConstants'
      - 'Functions/ShouldYieldWithKey'
      - 'Functions/TooManyLocalVariables'
@@ -4059,6 +4062,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Type/StringHoldAVariable'
      - 'Type/StringWithStrangeSpace'
      - 'Typehints/MissingReturntype'
+     - 'Typehints/WrongTypeWithDefault'
      - 'Variables/AssignedTwiceOrMore'
      - 'Variables/ConstantTypo'
      - 'Variables/LostReferences'
@@ -4145,7 +4149,6 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Extensions/Extasync";
    analyzer[] = "Extensions/Extbcmath";
    analyzer[] = "Extensions/Extbzip2";
-   analyzer[] = "Extensions/Extcairo";
    analyzer[] = "Extensions/Extcalendar";
    analyzer[] = "Extensions/Extcmark";
    analyzer[] = "Extensions/Extcom";
@@ -4172,9 +4175,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Extensions/Extexpect";
    analyzer[] = "Extensions/Extfam";
    analyzer[] = "Extensions/Extfann";
-   analyzer[] = "Extensions/Extfdf";
    analyzer[] = "Extensions/Extffi";
-   analyzer[] = "Extensions/Extffmpeg";
    analyzer[] = "Extensions/Extfile";
    analyzer[] = "Extensions/Extfileinfo";
    analyzer[] = "Extensions/Extfilter";
@@ -4193,6 +4194,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Extensions/Exthrtime";
    analyzer[] = "Extensions/Exthttp";
    analyzer[] = "Extensions/Extibase";
+   analyzer[] = "Extensions/Extice";
    analyzer[] = "Extensions/Exticonv";
    analyzer[] = "Extensions/Extigbinary";
    analyzer[] = "Extensions/Extiis";
@@ -4282,6 +4284,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Extensions/Extsuhosin";
    analyzer[] = "Extensions/Extsvm";
    analyzer[] = "Extensions/Extswoole";
+   analyzer[] = "Extensions/Exttaint";
    analyzer[] = "Extensions/Exttidy";
    analyzer[] = "Extensions/Exttokenizer";
    analyzer[] = "Extensions/Exttokyotyrant";
@@ -4297,7 +4300,6 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Extensions/Extwikidiff2";
    analyzer[] = "Extensions/Extwincache";
    analyzer[] = "Extensions/Extxattr";
-   analyzer[] = "Extensions/Extxcache";
    analyzer[] = "Extensions/Extxdebug";
    analyzer[] = "Extensions/Extxdiff";
    analyzer[] = "Extensions/Extxhprof";
@@ -4309,7 +4311,6 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Extensions/Extxxtea";
    analyzer[] = "Extensions/Extyaml";
    analyzer[] = "Extensions/Extyar";
-   analyzer[] = "Extensions/Extyis";
    analyzer[] = "Extensions/Extzendmonitor";
    analyzer[] = "Extensions/Extzip";
    analyzer[] = "Extensions/Extzlib";
@@ -4550,7 +4551,6 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Extensions/Extasync'
      - 'Extensions/Extbcmath'
      - 'Extensions/Extbzip2'
-     - 'Extensions/Extcairo'
      - 'Extensions/Extcalendar'
      - 'Extensions/Extcmark'
      - 'Extensions/Extcom'
@@ -4577,9 +4577,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Extensions/Extexpect'
      - 'Extensions/Extfam'
      - 'Extensions/Extfann'
-     - 'Extensions/Extfdf'
      - 'Extensions/Extffi'
-     - 'Extensions/Extffmpeg'
      - 'Extensions/Extfile'
      - 'Extensions/Extfileinfo'
      - 'Extensions/Extfilter'
@@ -4598,6 +4596,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Extensions/Exthrtime'
      - 'Extensions/Exthttp'
      - 'Extensions/Extibase'
+     - 'Extensions/Extice'
      - 'Extensions/Exticonv'
      - 'Extensions/Extigbinary'
      - 'Extensions/Extiis'
@@ -4687,6 +4686,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Extensions/Extsuhosin'
      - 'Extensions/Extsvm'
      - 'Extensions/Extswoole'
+     - 'Extensions/Exttaint'
      - 'Extensions/Exttidy'
      - 'Extensions/Exttokenizer'
      - 'Extensions/Exttokyotyrant'
@@ -4702,7 +4702,6 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Extensions/Extwikidiff2'
      - 'Extensions/Extwincache'
      - 'Extensions/Extxattr'
-     - 'Extensions/Extxcache'
      - 'Extensions/Extxdebug'
      - 'Extensions/Extxdiff'
      - 'Extensions/Extxhprof'
@@ -4714,7 +4713,6 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Extensions/Extxxtea'
      - 'Extensions/Extyaml'
      - 'Extensions/Extyar'
-     - 'Extensions/Extyis'
      - 'Extensions/Extzendmonitor'
      - 'Extensions/Extzip'
      - 'Extensions/Extzlib'
@@ -5088,7 +5086,6 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Extensions/Extasync";
    analyzer[] = "Extensions/Extbcmath";
    analyzer[] = "Extensions/Extbzip2";
-   analyzer[] = "Extensions/Extcairo";
    analyzer[] = "Extensions/Extcalendar";
    analyzer[] = "Extensions/Extcmark";
    analyzer[] = "Extensions/Extcom";
@@ -5113,9 +5110,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Extensions/Extexpect";
    analyzer[] = "Extensions/Extfam";
    analyzer[] = "Extensions/Extfann";
-   analyzer[] = "Extensions/Extfdf";
    analyzer[] = "Extensions/Extffi";
-   analyzer[] = "Extensions/Extffmpeg";
    analyzer[] = "Extensions/Extfile";
    analyzer[] = "Extensions/Extfileinfo";
    analyzer[] = "Extensions/Extfilter";
@@ -5134,6 +5129,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Extensions/Exthrtime";
    analyzer[] = "Extensions/Exthttp";
    analyzer[] = "Extensions/Extibase";
+   analyzer[] = "Extensions/Extice";
    analyzer[] = "Extensions/Exticonv";
    analyzer[] = "Extensions/Extigbinary";
    analyzer[] = "Extensions/Extiis";
@@ -5219,6 +5215,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Extensions/Extsuhosin";
    analyzer[] = "Extensions/Extsvm";
    analyzer[] = "Extensions/Extswoole";
+   analyzer[] = "Extensions/Exttaint";
    analyzer[] = "Extensions/Exttidy";
    analyzer[] = "Extensions/Exttokenizer";
    analyzer[] = "Extensions/Exttokyotyrant";
@@ -5234,7 +5231,6 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Extensions/Extwikidiff2";
    analyzer[] = "Extensions/Extwincache";
    analyzer[] = "Extensions/Extxattr";
-   analyzer[] = "Extensions/Extxcache";
    analyzer[] = "Extensions/Extxdebug";
    analyzer[] = "Extensions/Extxdiff";
    analyzer[] = "Extensions/Extxhprof";
@@ -5245,7 +5241,6 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Extensions/Extxsl";
    analyzer[] = "Extensions/Extxxtea";
    analyzer[] = "Extensions/Extyaml";
-   analyzer[] = "Extensions/Extyis";
    analyzer[] = "Extensions/Extzendmonitor";
    analyzer[] = "Extensions/Extzip";
    analyzer[] = "Extensions/Extzlib";
@@ -5752,7 +5747,6 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Extensions/Extasync'
      - 'Extensions/Extbcmath'
      - 'Extensions/Extbzip2'
-     - 'Extensions/Extcairo'
      - 'Extensions/Extcalendar'
      - 'Extensions/Extcmark'
      - 'Extensions/Extcom'
@@ -5777,9 +5771,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Extensions/Extexpect'
      - 'Extensions/Extfam'
      - 'Extensions/Extfann'
-     - 'Extensions/Extfdf'
      - 'Extensions/Extffi'
-     - 'Extensions/Extffmpeg'
      - 'Extensions/Extfile'
      - 'Extensions/Extfileinfo'
      - 'Extensions/Extfilter'
@@ -5798,6 +5790,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Extensions/Exthrtime'
      - 'Extensions/Exthttp'
      - 'Extensions/Extibase'
+     - 'Extensions/Extice'
      - 'Extensions/Exticonv'
      - 'Extensions/Extigbinary'
      - 'Extensions/Extiis'
@@ -5883,6 +5876,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Extensions/Extsuhosin'
      - 'Extensions/Extsvm'
      - 'Extensions/Extswoole'
+     - 'Extensions/Exttaint'
      - 'Extensions/Exttidy'
      - 'Extensions/Exttokenizer'
      - 'Extensions/Exttokyotyrant'
@@ -5898,7 +5892,6 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Extensions/Extwikidiff2'
      - 'Extensions/Extwincache'
      - 'Extensions/Extxattr'
-     - 'Extensions/Extxcache'
      - 'Extensions/Extxdebug'
      - 'Extensions/Extxdiff'
      - 'Extensions/Extxhprof'
@@ -5909,7 +5902,6 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Extensions/Extxsl'
      - 'Extensions/Extxxtea'
      - 'Extensions/Extyaml'
-     - 'Extensions/Extyis'
      - 'Extensions/Extzendmonitor'
      - 'Extensions/Extzip'
      - 'Extensions/Extzlib'
@@ -6656,6 +6648,41 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
 
 
 
+.. _annex-changed-behavior:
+
+Changed Behavior
+################
+
+
+.. _annex-ini-changed-behavior:
+
+Changed Behavior for INI
+++++++++++++++++++++++++
+
+
+INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and edit them to your owns.
+::
+
+ [Changed Behavior]
+   analyzer[] = "";
+
+
+.. _annex-yaml-changed-behavior:
+
+Changed Behavior for .exakat.yaml
++++++++++++++++++++++++++++++++++
+
+
+YAML configuration for built-in rulesets. Copy them in your code, with the name .exakat.yaml, and edit them to your owns.
+::
+
+  rulesets:
+    'Changed Behavior':
+     - ''
+
+
+
+
 .. _annex-classreview:
 
 ClassReview
@@ -6743,6 +6770,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Traits/SelfUsingTrait";
    analyzer[] = "Traits/UnusedClassTrait";
    analyzer[] = "Traits/UsedOnceTrait";
+   analyzer[] = "Typehints/WrongTypeWithDefault";
    analyzer[] = "Variables/NoStaticVarInMethod";
 
 
@@ -6828,6 +6856,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Traits/SelfUsingTrait'
      - 'Traits/UnusedClassTrait'
      - 'Traits/UsedOnceTrait'
+     - 'Typehints/WrongTypeWithDefault'
      - 'Variables/NoStaticVarInMethod'
 
 
@@ -6930,7 +6959,6 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Classes/NullOnNew";
    analyzer[] = "Exceptions/MultipleCatch";
    analyzer[] = "Extensions/Extdba";
-   analyzer[] = "Extensions/Extfdf";
    analyzer[] = "Extensions/Extming";
    analyzer[] = "Functions/GeneratorCannotReturn";
    analyzer[] = "Functions/MultipleSameArguments";
@@ -7030,7 +7058,6 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Classes/NullOnNew'
      - 'Exceptions/MultipleCatch'
      - 'Extensions/Extdba'
-     - 'Extensions/Extfdf'
      - 'Extensions/Extming'
      - 'Functions/GeneratorCannotReturn'
      - 'Functions/MultipleSameArguments'
@@ -8641,6 +8668,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Dump/CollectStubStructures";
    analyzer[] = "Dump/CollectUseCounts";
    analyzer[] = "Dump/CollectVariables";
+   analyzer[] = "Dump/CollectVendorStructures";
    analyzer[] = "Dump/ConstantOrder";
    analyzer[] = "Dump/CouldBeAConstant";
    analyzer[] = "Dump/CyclomaticComplexity";
@@ -8694,6 +8722,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Dump/CollectStubStructures'
      - 'Dump/CollectUseCounts'
      - 'Dump/CollectVariables'
+     - 'Dump/CollectVendorStructures'
      - 'Dump/ConstantOrder'
      - 'Dump/CouldBeAConstant'
      - 'Dump/CyclomaticComplexity'
@@ -8872,6 +8901,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
 ::
 
  [IsExt]
+   analyzer[] = "Classes/AccessProtected";
    analyzer[] = "Classes/CantExtendFinal";
    analyzer[] = "Classes/CantOverwriteFinalConstant";
    analyzer[] = "Classes/CantOverwriteFinalMethod";
@@ -8880,6 +8910,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Classes/LoweredAccessLevel";
    analyzer[] = "Classes/RaisedAccessLevel";
    analyzer[] = "Classes/RedefinedPrivateProperty";
+   analyzer[] = "Classes/StaticMethodsCalledFromObject";
    analyzer[] = "Classes/UndefinedClasses";
    analyzer[] = "Classes/UndefinedConstants";
    analyzer[] = "Complete/MakeFunctioncallWithReference";
@@ -8895,6 +8926,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Interfaces/UndefinedInterfaces";
    analyzer[] = "Namespaces/OverloadExistingNames";
    analyzer[] = "Php/OnlyVariableForReference";
+   analyzer[] = "Php/TooManyNativeCalls";
    analyzer[] = "Php/UpperCaseFunction";
    analyzer[] = "Structures/ArrayMapPassesByValue";
    analyzer[] = "Traits/UndefinedTrait";
@@ -8911,6 +8943,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
 
   rulesets:
     'IsExt':
+     - 'Classes/AccessProtected'
      - 'Classes/CantExtendFinal'
      - 'Classes/CantOverwriteFinalConstant'
      - 'Classes/CantOverwriteFinalMethod'
@@ -8919,6 +8952,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Classes/LoweredAccessLevel'
      - 'Classes/RaisedAccessLevel'
      - 'Classes/RedefinedPrivateProperty'
+     - 'Classes/StaticMethodsCalledFromObject'
      - 'Classes/UndefinedClasses'
      - 'Classes/UndefinedConstants'
      - 'Complete/MakeFunctioncallWithReference'
@@ -8934,6 +8968,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Interfaces/UndefinedInterfaces'
      - 'Namespaces/OverloadExistingNames'
      - 'Php/OnlyVariableForReference'
+     - 'Php/TooManyNativeCalls'
      - 'Php/UpperCaseFunction'
      - 'Structures/ArrayMapPassesByValue'
      - 'Traits/UndefinedTrait'
@@ -8957,6 +8992,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
 ::
 
  [IsPHP]
+   analyzer[] = "Classes/AccessProtected";
    analyzer[] = "Classes/CantExtendFinal";
    analyzer[] = "Classes/CantOverwriteFinalConstant";
    analyzer[] = "Classes/CantOverwriteFinalMethod";
@@ -8965,20 +9001,26 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Classes/LoweredAccessLevel";
    analyzer[] = "Classes/RaisedAccessLevel";
    analyzer[] = "Classes/RedefinedPrivateProperty";
+   analyzer[] = "Classes/StaticMethodsCalledFromObject";
+   analyzer[] = "Classes/UndefinedClasses";
    analyzer[] = "Classes/UndefinedConstants";
    analyzer[] = "Complete/MakeFunctioncallWithReference";
    analyzer[] = "Complete/PhpNativeReference";
    analyzer[] = "Constants/UndefinedConstants";
    analyzer[] = "Enums/UndefinedEnumcase";
    analyzer[] = "Functions/OnlyVariablePassedByReference";
+   analyzer[] = "Functions/UndefinedFunctions";
    analyzer[] = "Functions/WrongArgumentNameWithPhpFunction";
    analyzer[] = "Functions/WrongNumberOfArguments";
    analyzer[] = "Interfaces/AlreadyParentsInterface";
    analyzer[] = "Interfaces/IsNotImplemented";
+   analyzer[] = "Interfaces/UndefinedInterfaces";
    analyzer[] = "Namespaces/OverloadExistingNames";
    analyzer[] = "Php/OnlyVariableForReference";
+   analyzer[] = "Php/TooManyNativeCalls";
    analyzer[] = "Php/UpperCaseFunction";
    analyzer[] = "Structures/ArrayMapPassesByValue";
+   analyzer[] = "Traits/UndefinedTrait";
 
 
 .. _annex-yaml-isphp:
@@ -8992,6 +9034,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
 
   rulesets:
     'IsPHP':
+     - 'Classes/AccessProtected'
      - 'Classes/CantExtendFinal'
      - 'Classes/CantOverwriteFinalConstant'
      - 'Classes/CantOverwriteFinalMethod'
@@ -9000,20 +9043,26 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Classes/LoweredAccessLevel'
      - 'Classes/RaisedAccessLevel'
      - 'Classes/RedefinedPrivateProperty'
+     - 'Classes/StaticMethodsCalledFromObject'
+     - 'Classes/UndefinedClasses'
      - 'Classes/UndefinedConstants'
      - 'Complete/MakeFunctioncallWithReference'
      - 'Complete/PhpNativeReference'
      - 'Constants/UndefinedConstants'
      - 'Enums/UndefinedEnumcase'
      - 'Functions/OnlyVariablePassedByReference'
+     - 'Functions/UndefinedFunctions'
      - 'Functions/WrongArgumentNameWithPhpFunction'
      - 'Functions/WrongNumberOfArguments'
      - 'Interfaces/AlreadyParentsInterface'
      - 'Interfaces/IsNotImplemented'
+     - 'Interfaces/UndefinedInterfaces'
      - 'Namespaces/OverloadExistingNames'
      - 'Php/OnlyVariableForReference'
+     - 'Php/TooManyNativeCalls'
      - 'Php/UpperCaseFunction'
      - 'Structures/ArrayMapPassesByValue'
+     - 'Traits/UndefinedTrait'
 
 
 
@@ -9042,6 +9091,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Classes/LoweredAccessLevel";
    analyzer[] = "Classes/RaisedAccessLevel";
    analyzer[] = "Classes/RedefinedPrivateProperty";
+   analyzer[] = "Classes/StaticMethodsCalledFromObject";
    analyzer[] = "Classes/UndefinedClasses";
    analyzer[] = "Classes/UndefinedConstants";
    analyzer[] = "Complete/MakeFunctioncallWithReference";
@@ -9080,6 +9130,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Classes/LoweredAccessLevel'
      - 'Classes/RaisedAccessLevel'
      - 'Classes/RedefinedPrivateProperty'
+     - 'Classes/StaticMethodsCalledFromObject'
      - 'Classes/UndefinedClasses'
      - 'Classes/UndefinedConstants'
      - 'Complete/MakeFunctioncallWithReference'
@@ -9144,6 +9195,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Functions/MustReturn";
    analyzer[] = "Functions/OnlyVariableForReference";
    analyzer[] = "Functions/TypehintMustBeReturned";
+   analyzer[] = "Interfaces/AvoidSelfInInterface";
    analyzer[] = "Interfaces/CantImplementTraversable";
    analyzer[] = "Interfaces/CantOverloadConstants";
    analyzer[] = "Interfaces/ConcreteVisibility";
@@ -9159,6 +9211,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Traits/UndefinedInsteadof";
    analyzer[] = "Traits/UndefinedTrait";
    analyzer[] = "Traits/UselessAlias";
+   analyzer[] = "Typehints/WrongTypeWithDefault";
 
 
 .. _annex-yaml-lintbutwontexec:
@@ -9199,6 +9252,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Functions/MustReturn'
      - 'Functions/OnlyVariableForReference'
      - 'Functions/TypehintMustBeReturned'
+     - 'Interfaces/AvoidSelfInInterface'
      - 'Interfaces/CantImplementTraversable'
      - 'Interfaces/CantOverloadConstants'
      - 'Interfaces/ConcreteVisibility'
@@ -9214,6 +9268,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Traits/UndefinedInsteadof'
      - 'Traits/UndefinedTrait'
      - 'Traits/UselessAlias'
+     - 'Typehints/WrongTypeWithDefault'
 
 
 
@@ -9908,6 +9963,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Classes/UnitializedProperties";
    analyzer[] = "Classes/UselessTypehint";
    analyzer[] = "Constants/CouldUseConstant";
+   analyzer[] = "Enums/CouldBeEnum";
    analyzer[] = "Exceptions/CouldUseTry";
    analyzer[] = "Exceptions/LargeTryBlock";
    analyzer[] = "Exceptions/LongPreparation";
@@ -10032,6 +10088,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Classes/UnitializedProperties'
      - 'Classes/UselessTypehint'
      - 'Constants/CouldUseConstant'
+     - 'Enums/CouldBeEnum'
      - 'Exceptions/CouldUseTry'
      - 'Exceptions/LargeTryBlock'
      - 'Exceptions/LongPreparation'
@@ -10128,6 +10185,41 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Traits/MultipleUsage'
      - 'Variables/ComplexDynamicNames'
      - 'Variables/NoStaticVarInMethod'
+
+
+
+
+.. _annex-surprising:
+
+Surprising
+##########
+
+
+.. _annex-ini-surprising:
+
+Surprising for INI
+++++++++++++++++++
+
+
+INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and edit them to your owns.
+::
+
+ [Surprising]
+   analyzer[] = "";
+
+
+.. _annex-yaml-surprising:
+
+Surprising for .exakat.yaml
++++++++++++++++++++++++++++
+
+
+YAML configuration for built-in rulesets. Copy them in your code, with the name .exakat.yaml, and edit them to your owns.
+::
+
+  rulesets:
+    'Surprising':
+     - ''
 
 
 

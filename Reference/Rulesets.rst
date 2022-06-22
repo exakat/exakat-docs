@@ -39,6 +39,8 @@ Here is the list of the current rulesets supported by Exakat Engine.
 +-----------------------------------------------+------------------------------------------------------------------------------------------------------+
 | :ref:`ruleset-ci-checks`                      |Quick check for common best practices.                                                                |
 +-----------------------------------------------+------------------------------------------------------------------------------------------------------+
+| :ref:`ruleset-changed-behavior`               |Ruleset with all rules that identify changed behavior across PHP versions.                            |
++-----------------------------------------------+------------------------------------------------------------------------------------------------------+
 | :ref:`ruleset-classreview`                    |A set of rules dedicate to class hygiene                                                              |
 +-----------------------------------------------+------------------------------------------------------------------------------------------------------+
 | :ref:`ruleset-classdependencies`              |A set of rules dedicated to show classes dependences                                                  |
@@ -103,6 +105,8 @@ Here is the list of the current rulesets supported by Exakat Engine.
 +-----------------------------------------------+------------------------------------------------------------------------------------------------------+
 | :ref:`ruleset-suggestions`                    |List of possible modernisation of the PHP code.                                                       |
 +-----------------------------------------------+------------------------------------------------------------------------------------------------------+
+| :ref:`ruleset-surprising`                     |A ruleset dedicated to surprising pieces of code in PHP.                                              |
++-----------------------------------------------+------------------------------------------------------------------------------------------------------+
 | :ref:`ruleset-top10`                          |The most common issues found in the code                                                              |
 +-----------------------------------------------+------------------------------------------------------------------------------------------------------+
 | :ref:`ruleset-typechecks`                     |Checks related to types.                                                                              |
@@ -164,7 +168,6 @@ Total : 1495 analysis
 * :ref:`ext-enchant`
 * :ref:`ext-ereg`
 * :ref:`ext-exif`
-* :ref:`ext-fdf`
 * :ref:`ext-fileinfo`
 * :ref:`ext-filter`
 * :ref:`ext-ftp`
@@ -309,12 +312,10 @@ Total : 1495 analysis
 * :ref:`use-with-fully-qualified-name`
 * :ref:`used-use`
 * :ref:`ext-array`
-* :ref:`ext-ffmpeg`
 * :ref:`ext-info`
 * :ref:`ext-math`
 * :ref:`$http\_raw\_post\_data-usage`
 * :ref:`non-lowercase-keywords`
-* :ref:`ext-yis`
 * :ref:`new-functions-in-php-5.4`
 * :ref:`new-functions-in-php-5.5`
 * :ref:`useless-instructions`
@@ -474,7 +475,6 @@ Total : 1495 analysis
 * :ref:`unused-classes`
 * :ref:`used-classes`
 * :ref:`ext-intl`
-* :ref:`ext-cairo`
 * :ref:`dynamic-code`
 * :ref:`unpreprocessed-values`
 * :ref:`ext-pspell`
@@ -535,7 +535,6 @@ Total : 1495 analysis
 * :ref:`ext-eaccelerator`
 * :ref:`ext-fpm`
 * :ref:`ext-iis`
-* :ref:`ext-xcache`
 * :ref:`ext-wincache`
 * :ref:`parse\_str()-warning`
 * :ref:`no-direct-call-to-magic-method`
@@ -1531,7 +1530,7 @@ Total : 1495 analysis
 * :ref:`overwritten-foreach-var`
 * :ref:`null-type-favorite`
 * :ref:`checks-property-existence`
-* :ref:`variable-typehint`
+* :ref:`variable-anf-property-typehint`
 * :ref:`extends-stdclass`
 * :ref:`scope-resolution-operator`
 * :ref:`could-use-nullable-object-operator`
@@ -1619,6 +1618,11 @@ Total : 1495 analysis
 * :ref:`incoming-date-formats`
 * :ref:`dump-collectvendorstructures`
 * :ref:`array-addition`
+* :ref:`retyped-reference`
+* :ref:`could-be-enumeration`
+* :ref:`wrong-type-with-default`
+* :ref:`ice-framework`
+* :ref:`extensions-exttaint`
 
 
 
@@ -1638,7 +1642,7 @@ Analyze
 
 This ruleset centralizes a large number of classic trap and pitfalls when writing PHP.
 
-Total : 452 analysis
+Total : 454 analysis
 
 * :ref:`adding-zero`
 * :ref:`ambiguous-array-index`
@@ -2092,6 +2096,8 @@ Total : 452 analysis
 * :ref:`no-magic-method-for-enum`
 * :ref:`no-readonly-assignation-in-global`
 * :ref:`overload-existing-names`
+* :ref:`retyped-reference`
+* :ref:`wrong-type-with-default`
 
 
 
@@ -2113,7 +2119,7 @@ Appinfo
 
 A set of rules that describes with PHP features is used in the code.
 
-Total : 392 analysis
+Total : 389 analysis
 
 * :ref:`array-index`
 * :ref:`multidimensional-arrays`
@@ -2142,7 +2148,6 @@ Total : 392 analysis
 * :ref:`ext-enchant`
 * :ref:`ext-ereg`
 * :ref:`ext-exif`
-* :ref:`ext-fdf`
 * :ref:`ext-fileinfo`
 * :ref:`ext-filter`
 * :ref:`ext-ftp`
@@ -2238,11 +2243,9 @@ Total : 392 analysis
 * :ref:`inclusions`
 * :ref:`ext-file`
 * :ref:`ext-array`
-* :ref:`ext-ffmpeg`
 * :ref:`ext-info`
 * :ref:`ext-math`
 * :ref:`$http\_raw\_post\_data-usage`
-* :ref:`ext-yis`
 * :ref:`assertions`
 * :ref:`cast-usage`
 * :ref:`function-subscripting`
@@ -2279,7 +2282,6 @@ Total : 392 analysis
 * :ref:`multiple-classes-in-one-file`
 * :ref:`file-uploads`
 * :ref:`ext-intl`
-* :ref:`ext-cairo`
 * :ref:`dynamic-code`
 * :ref:`ext-pspell`
 * :ref:`no-direct-access`
@@ -2299,7 +2301,6 @@ Total : 392 analysis
 * :ref:`ext-eaccelerator`
 * :ref:`ext-fpm`
 * :ref:`ext-iis`
-* :ref:`ext-xcache`
 * :ref:`ext-wincache`
 * :ref:`resources-usage`
 * :ref:`shell-usage`
@@ -2507,6 +2508,8 @@ Total : 392 analysis
 * :ref:`stomp`
 * :ref:`ext-csv`
 * :ref:`array-addition`
+* :ref:`ice-framework`
+* :ref:`extensions-exttaint`
 
 
 
@@ -2553,7 +2556,7 @@ CE
 
 This ruleset is the Community Edition list. It holds all the analysis that are in the community edition version of Exakat.
 
-Total : 651 analysis
+Total : 648 analysis
 
 * :ref:`adding-zero`
 * :ref:`array-index`
@@ -2589,7 +2592,6 @@ Total : 651 analysis
 * :ref:`ext-enchant`
 * :ref:`ext-ereg`
 * :ref:`ext-exif`
-* :ref:`ext-fdf`
 * :ref:`ext-fileinfo`
 * :ref:`ext-filter`
 * :ref:`ext-ftp`
@@ -2692,11 +2694,9 @@ Total : 651 analysis
 * :ref:`inclusions`
 * :ref:`ext-file`
 * :ref:`ext-array`
-* :ref:`ext-ffmpeg`
 * :ref:`ext-info`
 * :ref:`ext-math`
 * :ref:`$http\_raw\_post\_data-usage`
-* :ref:`ext-yis`
 * :ref:`useless-instructions`
 * :ref:`multiple-constant-definition`
 * :ref:`wrong-optional-parameter`
@@ -2766,7 +2766,6 @@ Total : 651 analysis
 * :ref:`multiple-classes-in-one-file`
 * :ref:`file-uploads`
 * :ref:`ext-intl`
-* :ref:`ext-cairo`
 * :ref:`dynamic-code`
 * :ref:`ext-pspell`
 * :ref:`no-direct-access`
@@ -2798,7 +2797,6 @@ Total : 651 analysis
 * :ref:`ext-eaccelerator`
 * :ref:`ext-fpm`
 * :ref:`ext-iis`
-* :ref:`ext-xcache`
 * :ref:`ext-wincache`
 * :ref:`no-direct-call-to-magic-method`
 * :ref:`useless-final`
@@ -3206,6 +3204,8 @@ Total : 651 analysis
 * :ref:`php-80-named-parameter-variadic`
 * :ref:`final-private-methods`
 * :ref:`array\_map()-passes-by-value`
+* :ref:`ice-framework`
+* :ref:`extensions-exttaint`
 
 
 
@@ -3417,6 +3417,28 @@ Specs
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 
 
+.. _ruleset-changed-behavior:
+
+Changed Behavior
+++++++++++++++++
+
+This is automatically filled, based on the documentation's changedBehavior attribute.
+
+Total : 0 analysis
+
+* 
+
+
+
+Specs
+^^^^^
++--------------+------------------+
+| Short name   | Changed Behavior |
++--------------+------------------+
+| Available in |                  |
++--------------+------------------+
+
+
 .. _ruleset-classreview:
 
 ClassReview
@@ -3424,7 +3446,7 @@ ClassReview
 
 This ruleset focuses on classes construction issues, and their related structures : traits, interfaces, methods, properties, constants.
 
-Total : 72 analysis
+Total : 73 analysis
 
 * :ref:`final-class-usage`
 * :ref:`final-methods-usage`
@@ -3498,6 +3520,7 @@ Total : 72 analysis
 * :ref:`no-magic-method-for-enum`
 * :ref:`no-readonly-assignation-in-global`
 * :ref:`could-set-property-default`
+* :ref:`wrong-type-with-default`
 
 
 
@@ -3563,11 +3586,10 @@ CompatibilityPHP53
 
 This ruleset centralizes all analysis for the migration from PHP 5.2 to 5.3.
 
-Total : 87 analysis
+Total : 86 analysis
 
 * :ref:`non-static-methods-called-in-a-static`
 * :ref:`ext-dba`
-* :ref:`ext-fdf`
 * :ref:`use-lower-case-for-parent,-static-and-self`
 * :ref:`break-with-0`
 * :ref:`binary-glossary`
@@ -4509,7 +4531,7 @@ Dump
 
 This ruleset collects various names given to different structures in the code : for example, variables, classes, methods, constants, etc. It also collects networks of data, like file inclusion or external dependencies.
 
-Total : 40 analysis
+Total : 41 analysis
 
 * :ref:`environment-variable-usage`
 * :ref:`indentation-levels`
@@ -4551,6 +4573,7 @@ Total : 40 analysis
 * :ref:`public-reach-to-private-methods`
 * :ref:`could-be-a-constant`
 * :ref:`collect-stub-structures`
+* :ref:`dump-collectvendorstructures`
 
 
 
@@ -4577,7 +4600,7 @@ Total : 6 analysis
 * :ref:`is-an-extension-interface`
 * :ref:`is-an-extension-constant`
 * :ref:`mark-callable`
-* :ref:`variable-typehint`
+* :ref:`variable-anf-property-typehint`
 * :ref:`variable-is-a-local-constant`
 * :ref:`add-return-typehint`
 
@@ -4690,14 +4713,16 @@ IsExt
 
 This is automatically filled, based on the documentation's isExt attribute.
 
-Total : 26 analysis
+Total : 29 analysis
 
+* :ref:`static-methods-called-from-object`
 * :ref:`undefined-constants`
 * :ref:`undefined-classes`
 * :ref:`defined-class-constants`
 * :ref:`undefined-class-constants`
 * :ref:`undefined-functions`
 * :ref:`wrong-number-of-arguments`
+* :ref:`access-protected-structures`
 * :ref:`unusual-case-for-php-functions`
 * :ref:`undefined-interfaces`
 * :ref:`is-interface-method`
@@ -4706,6 +4731,7 @@ Total : 26 analysis
 * :ref:`undefined-trait`
 * :ref:`raised-access-level`
 * :ref:`only-variable-passed-by-reference`
+* :ref:`too-many-native-calls`
 * :ref:`redefined-private-property`
 * :ref:`php-native-reference-variable`
 * :ref:`interfaces-is-not-implemented`
@@ -4737,18 +4763,25 @@ IsPHP
 
 This is automatically filled, based on the documentation's isPHP attribute.
 
-Total : 22 analysis
+Total : 29 analysis
 
+* :ref:`static-methods-called-from-object`
 * :ref:`undefined-constants`
+* :ref:`undefined-classes`
 * :ref:`defined-class-constants`
 * :ref:`undefined-class-constants`
+* :ref:`undefined-functions`
 * :ref:`wrong-number-of-arguments`
+* :ref:`access-protected-structures`
 * :ref:`unusual-case-for-php-functions`
+* :ref:`undefined-interfaces`
 * :ref:`is-interface-method`
 * :ref:`already-parents-interface`
 * :ref:`can't-extend-final`
+* :ref:`undefined-trait`
 * :ref:`raised-access-level`
 * :ref:`only-variable-passed-by-reference`
+* :ref:`too-many-native-calls`
 * :ref:`redefined-private-property`
 * :ref:`php-native-reference-variable`
 * :ref:`interfaces-is-not-implemented`
@@ -4780,8 +4813,9 @@ IsStub
 
 This is automatically filled, based on the documentation's isStub attribute.
 
-Total : 25 analysis
+Total : 26 analysis
 
+* :ref:`static-methods-called-from-object`
 * :ref:`undefined-constants`
 * :ref:`undefined-classes`
 * :ref:`defined-class-constants`
@@ -4826,7 +4860,7 @@ LintButWontExec
 
 This ruleset focuses on PHP code that lint (php -l), but that will not run. As such, this ruleset tries to go further than PHP, by connecting files, just like during execution.
 
-Total : 42 analysis
+Total : 44 analysis
 
 * :ref:`final-class-usage`
 * :ref:`final-methods-usage`
@@ -4851,6 +4885,7 @@ Total : 42 analysis
 * :ref:`method-collision-traits`
 * :ref:`only-variable-for-reference`
 * :ref:`repeated-interface`
+* :ref:`avoid-self-in-interface`
 * :ref:`useless-method-alias`
 * :ref:`typehint-must-be-returned`
 * :ref:`clone-with-non-object`
@@ -4870,6 +4905,7 @@ Total : 42 analysis
 * :ref:`cant-overwrite-final-constant`
 * :ref:`implicit-conversion-to-int`
 * :ref:`no-magic-method-for-enum`
+* :ref:`wrong-type-with-default`
 
 
 
@@ -4921,7 +4957,7 @@ Total : 37 analysis
 * :ref:`create-foreach-default`
 * :ref:`extended-typehints`
 * :ref:`php-ext-stub-property-and-method`
-* :ref:`variable-typehint`
+* :ref:`variable-anf-property-typehint`
 * :ref:`is-stub-structure`
 * :ref:`is-php-structure`
 * :ref:`is-extension-structure`
@@ -5258,7 +5294,7 @@ Suggestions
 
 This ruleset focuses on possibly better syntax than the one currently used. Those may be code modernization, alternatives, more efficient solutions, or simply left over from older versions. 
 
-Total : 111 analysis
+Total : 112 analysis
 
 * :ref:`while(list()-=-each())`
 * :ref:`function-subscripting,-old-style`
@@ -5371,6 +5407,7 @@ Total : 111 analysis
 * :ref:`throw-raw-exceptions`
 * :ref:`lowered-access-level`
 * :ref:`could-set-property-default`
+* :ref:`could-be-enumeration`
 
 
 
@@ -5383,6 +5420,30 @@ Specs
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Reports      | :ref:`report-diplomat`, :ref:`report-ambassador`                                                                        |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
+
+
+.. _ruleset-surprising:
+
+Surprising
+++++++++++
+
+PHP is full of exceptional situations where something doesn't work as expected, or as we thought would be expected. Then, exakat gets a rule for that, and it is listed here. Watch out, unusual beasts are hidden in this list : the most interesting is possibly the docs.
+
+Total : 0 analysis
+
+* 
+
+
+
+Specs
+^^^^^
++--------------+--------------------+
+| Short name   | Surprising         |
++--------------+--------------------+
+| Available in |                    |
++--------------+--------------------+
+| Reports      | :ref:`report-text` |
++--------------+--------------------+
 
 
 .. _ruleset-top10:

@@ -516,6 +516,58 @@ Specs
 +----------------+-------------------------------------------------------------------------------------------------------------------------+
 
 
+.. _structures-removedollarcurly:
+
+.. _remove-dollar-curly:
+
+Remove Dollar Curly
+___________________
+This cobbler transforms the ```` structure into ``{$ }``. It is assumed that the content of the curly braces are only a variable name.
+
+This update is important for PHP 8.2, where the syntax is deprecated.
+
+
+
+.. _remove-dollar-curly-before:
+
+Before
+^^^^^^
+.. code-block:: php
+
+   <?php
+   
+   $a = ;
+   
+   ?>
+
+.. _remove-dollar-curly-after:
+
+After
+^^^^^
+.. code-block:: php
+
+   <?php
+   
+   $a = {$b};
+   
+   ?>
+
+
+
+.. _remove-dollar-curly-specs:
+
+Specs
+^^^^^
+
++----------------+------------------------------+
+| Short Name     | Structures/RemoveDollarCurly |
++----------------+------------------------------+
+| Exakat version | 2.3.0                        |
++----------------+------------------------------+
+| Available in   |                              |
++----------------+------------------------------+
+
+
 .. _classes-removefinal:
 
 .. _remove-final:
@@ -558,6 +610,14 @@ After
 
 Related Cobblers
 ^^^^^^^^^^^^^^^^
+
+* :ref:`add-final-class`
+* :ref:`No anchor for Classes/AddFinalMethod <no-anchor-for-classes-addfinalmethod>`
+
+.. _remove-final-reverse-cobbler:
+
+Reverse Cobbler
+^^^^^^^^^^^^^^^
 
 * :ref:`add-final-class`
 * :ref:`No anchor for Classes/AddFinalMethod <no-anchor-for-classes-addfinalmethod>`
@@ -1136,6 +1196,65 @@ Specs
 +----------------+--------------------------+
 | Available in   |                          |
 +----------------+--------------------------+
+
+
+.. _structures-removevariable:
+
+.. _remove-written-only-variable:
+
+Remove Written Only Variable
+____________________________
+This removes variables that are written only. 
+
+.. _remove-written-only-variable-before:
+
+Before
+^^^^^^
+.. code-block:: php
+
+   <?php
+   
+   function foo() {
+       $a = 1;
+       $a += 2; // No usage of $a
+   }
+   
+   ?>
+
+.. _remove-written-only-variable-after:
+
+After
+^^^^^
+.. code-block:: php
+
+   <?php
+   
+   function foo() {
+   }
+   
+   ?>
+
+.. _remove-written-only-variable-suggested-analysis:
+
+Suggested Analysis
+^^^^^^^^^^^^^^^^^^
+
+* :ref:`written-only-variables`
+
+
+
+.. _remove-written-only-variable-specs:
+
+Specs
+^^^^^
+
++----------------+---------------------------+
+| Short Name     | Structures/RemoveVariable |
++----------------+---------------------------+
+| Exakat version | 2.3.0                     |
++----------------+---------------------------+
+| Available in   |                           |
++----------------+---------------------------+
 
 
 .. _structures-renamefunction:
@@ -1776,46 +1895,6 @@ Specs
 +----------------+------------------------------------------------------------------+
 | Available in   | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_ |
 +----------------+------------------------------------------------------------------+
-
-
-.. _structures-removevariable:
-
-.. _structures-removevariable:
-
-Structures/RemoveVariable
-_________________________
-
-
-.. _structures-removevariable-before:
-
-Before
-^^^^^^
-.. code-block:: php
-
-   
-
-.. _structures-removevariable-after:
-
-After
-^^^^^
-.. code-block:: php
-
-   
-
-
-
-.. _structures-removevariable-specs:
-
-Specs
-^^^^^
-
-+----------------+---------------------------+
-| Short Name     | Structures/RemoveVariable |
-+----------------+---------------------------+
-| Exakat version | 2.3.0                     |
-+----------------+---------------------------+
-| Available in   |                           |
-+----------------+---------------------------+
 
 
 .. _structures-switchtomatch:
