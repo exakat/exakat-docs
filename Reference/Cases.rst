@@ -6351,14 +6351,14 @@ empty($params['inputtitle']) should have priority over $params['wanted'] == 'n'.
 .. code-block:: php
    
     if ($params['wanted'] == 'n') {
-    		if (empty($params['inputtitle'])) {
-    			$params['inputtitle'] = 'Payment of %0 %1 from user %2 to %3';
-    		}
-    	} else {
-    		if (empty($params['inputtitle'])) {
-    			$params['inputtitle'] = 'Request payment of %0 %1 to user %2 from %3';
-    		}
-    	}
+            if (empty($params['inputtitle'])) {
+                $params['inputtitle'] = 'Payment of %0 %1 from user %2 to %3';
+            }
+        } else {
+            if (empty($params['inputtitle'])) {
+                $params['inputtitle'] = 'Request payment of %0 %1 to user %2 from %3';
+            }
+        }
 
 
 .. _case-one-letter-functions:

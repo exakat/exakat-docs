@@ -6,7 +6,7 @@ Rulesets
 Introduction
 ------------------------
 
-Exakat provides unique 1497 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
+Exakat provides unique 1501 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
 
 For more smoothly usage, the ruleset concept allow you to run a set of rules based on a decidated focus. Beawre that a Ruleset run all the associated rules and any needed dependencies.
 
@@ -126,7 +126,7 @@ All
 
 All is a dummy ruleset, which includes all the rules. It is mostly used internally.
 
-Total : 1495 analysis
+Total : 1499 analysis
 
 * :ref:`adding-zero`
 * :ref:`ambiguous-array-index`
@@ -1522,7 +1522,7 @@ Total : 1495 analysis
 * :ref:`mixed-typehint-usage`
 * :ref:`false-to-array-conversion`
 * :ref:`float-conversion-as-index`
-* :ref:`cannot-call-trait-method-directly`
+* :ref:`cannot-call-static-trait-method-directly`
 * :ref:`nested-attributes`
 * :ref:`new-initializers`
 * :ref:`deprecated-callable`
@@ -1623,6 +1623,10 @@ Total : 1495 analysis
 * :ref:`wrong-type-with-default`
 * :ref:`ice-framework`
 * :ref:`extensions-exttaint`
+* :ref:`sprintf-format-compilation`
+* :ref:`invalid-date-scanning-format`
+* :ref:`same-name-for-property-and-method`
+* :ref:`no-private-abstract-method-in-trait`
 
 
 
@@ -1642,7 +1646,7 @@ Analyze
 
 This ruleset centralizes a large number of classic trap and pitfalls when writing PHP.
 
-Total : 454 analysis
+Total : 457 analysis
 
 * :ref:`adding-zero`
 * :ref:`ambiguous-array-index`
@@ -2070,7 +2074,7 @@ Total : 454 analysis
 * :ref:`never-keyword`
 * :ref:`false-to-array-conversion`
 * :ref:`float-conversion-as-index`
-* :ref:`cannot-call-trait-method-directly`
+* :ref:`cannot-call-static-trait-method-directly`
 * :ref:`overwritten-foreach-var`
 * :ref:`recycled-variables`
 * :ref:`check-division-by-zero`
@@ -2098,6 +2102,9 @@ Total : 454 analysis
 * :ref:`overload-existing-names`
 * :ref:`retyped-reference`
 * :ref:`wrong-type-with-default`
+* :ref:`sprintf-format-compilation`
+* :ref:`invalid-date-scanning-format`
+* :ref:`same-name-for-property-and-method`
 
 
 
@@ -3432,11 +3439,11 @@ Total : 0 analysis
 
 Specs
 ^^^^^
-+--------------+------------------+
-| Short name   | Changed Behavior |
-+--------------+------------------+
-| Available in |                  |
-+--------------+------------------+
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Short name   | Changed Behavior                                                                                                        |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
 
 
 .. _ruleset-classreview:
@@ -3446,7 +3453,7 @@ ClassReview
 
 This ruleset focuses on classes construction issues, and their related structures : traits, interfaces, methods, properties, constants.
 
-Total : 73 analysis
+Total : 74 analysis
 
 * :ref:`final-class-usage`
 * :ref:`final-methods-usage`
@@ -3521,6 +3528,7 @@ Total : 73 analysis
 * :ref:`no-readonly-assignation-in-global`
 * :ref:`could-set-property-default`
 * :ref:`wrong-type-with-default`
+* :ref:`same-name-for-property-and-method`
 
 
 
@@ -3586,7 +3594,7 @@ CompatibilityPHP53
 
 This ruleset centralizes all analysis for the migration from PHP 5.2 to 5.3.
 
-Total : 86 analysis
+Total : 87 analysis
 
 * :ref:`non-static-methods-called-in-a-static`
 * :ref:`ext-dba`
@@ -3674,6 +3682,7 @@ Total : 86 analysis
 * :ref:`named-parameter-usage`
 * :ref:`cant-overload-constants`
 * :ref:`constant-scalar-expression`
+* :ref:`no-private-abstract-method-in-trait`
 
 
 
@@ -3695,7 +3704,7 @@ CompatibilityPHP54
 
 This ruleset centralizes all analysis for the migration from PHP 5.3 to 5.4.
 
-Total : 83 analysis
+Total : 84 analysis
 
 * :ref:`non-static-methods-called-in-a-static`
 * :ref:`use-lower-case-for-parent,-static-and-self`
@@ -3780,6 +3789,7 @@ Total : 83 analysis
 * :ref:`named-parameter-usage`
 * :ref:`cant-overload-constants`
 * :ref:`constant-scalar-expression`
+* :ref:`no-private-abstract-method-in-trait`
 
 
 
@@ -3801,7 +3811,7 @@ CompatibilityPHP55
 
 This ruleset centralizes all analysis for the migration from PHP 5.4 to 5.5.
 
-Total : 75 analysis
+Total : 76 analysis
 
 * :ref:`non-static-methods-called-in-a-static`
 * :ref:`ext-apc`
@@ -3878,6 +3888,7 @@ Total : 75 analysis
 * :ref:`named-parameter-usage`
 * :ref:`cant-overload-constants`
 * :ref:`constant-scalar-expression`
+* :ref:`no-private-abstract-method-in-trait`
 
 
 
@@ -3899,7 +3910,7 @@ CompatibilityPHP56
 
 This ruleset centralizes all analysis for the migration from PHP 5.5 to 5.6.
 
-Total : 65 analysis
+Total : 66 analysis
 
 * :ref:`non-static-methods-called-in-a-static`
 * :ref:`malformed-octal`
@@ -3966,6 +3977,7 @@ Total : 65 analysis
 * :ref:`named-parameter-usage`
 * :ref:`cant-overload-constants`
 * :ref:`constant-scalar-expression`
+* :ref:`no-private-abstract-method-in-trait`
 
 
 
@@ -3987,7 +3999,7 @@ CompatibilityPHP70
 
 This ruleset centralizes all analysis for the migration from PHP 5.6 to 7.0.
 
-Total : 57 analysis
+Total : 58 analysis
 
 * :ref:`ext-ereg`
 * :ref:`mcrypt\_create\_iv()-with-default-values`
@@ -4046,6 +4058,7 @@ Total : 57 analysis
 * :ref:`php-8.0-typehints`
 * :ref:`named-parameter-usage`
 * :ref:`cant-overload-constants`
+* :ref:`no-private-abstract-method-in-trait`
 
 
 
@@ -4067,7 +4080,7 @@ CompatibilityPHP71
 
 This ruleset centralizes all analysis for the migration from PHP 7.0 to 7.1.
 
-Total : 45 analysis
+Total : 46 analysis
 
 * :ref:`ext-mcrypt`
 * :ref:`hash-algorithms-incompatible-with-php-5.3`
@@ -4114,6 +4127,7 @@ Total : 45 analysis
 * :ref:`named-parameter-usage`
 * :ref:`cant-overload-constants`
 * :ref:`array\_merge-with-ellipsis`
+* :ref:`no-private-abstract-method-in-trait`
 
 
 
@@ -4135,7 +4149,7 @@ CompatibilityPHP72
 
 This ruleset centralizes all analysis for the migration from PHP 7.1 to 7.2.
 
-Total : 38 analysis
+Total : 39 analysis
 
 * :ref:`undefined-constants`
 * :ref:`hash-algorithms-incompatible-with-php-5.3`
@@ -4175,6 +4189,7 @@ Total : 38 analysis
 * :ref:`named-parameter-usage`
 * :ref:`cant-overload-constants`
 * :ref:`array\_merge-with-ellipsis`
+* :ref:`no-private-abstract-method-in-trait`
 
 
 
@@ -4196,7 +4211,7 @@ CompatibilityPHP73
 
 This ruleset centralizes all analysis for the migration from PHP 7.2 to 7.3.
 
-Total : 29 analysis
+Total : 30 analysis
 
 * :ref:`new-functions-in-php-7.3`
 * :ref:`unknown-pcre2-option`
@@ -4227,6 +4242,7 @@ Total : 29 analysis
 * :ref:`new-initializers`
 * :ref:`cant-overload-constants`
 * :ref:`array\_merge-with-ellipsis`
+* :ref:`no-private-abstract-method-in-trait`
 
 
 
@@ -4248,7 +4264,7 @@ CompatibilityPHP74
 
 This ruleset centralizes all analysis for the migration from PHP 7.3 to 7.4.
 
-Total : 40 analysis
+Total : 41 analysis
 
 * :ref:`detect-current-class`
 * :ref:`don't-read-and-write-in-one-expression`
@@ -4290,6 +4306,7 @@ Total : 40 analysis
 * :ref:`nested-attributes`
 * :ref:`new-initializers`
 * :ref:`cant-overload-constants`
+* :ref:`no-private-abstract-method-in-trait`
 
 
 
@@ -4383,7 +4400,7 @@ Total : 20 analysis
 * :ref:`mixed-keyword`
 * :ref:`false-to-array-conversion`
 * :ref:`float-conversion-as-index`
-* :ref:`cannot-call-trait-method-directly`
+* :ref:`cannot-call-static-trait-method-directly`
 * :ref:`version\_compare-operator`
 
 
@@ -4410,7 +4427,7 @@ Total : 8 analysis
 
 * :ref:`false-to-array-conversion`
 * :ref:`float-conversion-as-index`
-* :ref:`cannot-call-trait-method-directly`
+* :ref:`cannot-call-static-trait-method-directly`
 * :ref:`deprecated-callable`
 * :ref:`checks-property-existence`
 * :ref:`extends-stdclass`
@@ -4749,11 +4766,11 @@ Total : 29 analysis
 
 Specs
 ^^^^^
-+--------------+-------+
-| Short name   | IsExt |
-+--------------+-------+
-| Available in |       |
-+--------------+-------+
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Short name   | IsExt                                                                                                                   |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
 
 
 .. _ruleset-isphp:
@@ -4799,11 +4816,11 @@ Total : 29 analysis
 
 Specs
 ^^^^^
-+--------------+-------+
-| Short name   | IsPHP |
-+--------------+-------+
-| Available in |       |
-+--------------+-------+
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Short name   | IsPHP                                                                                                                   |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
 
 
 .. _ruleset-isstub:
@@ -4846,11 +4863,11 @@ Total : 26 analysis
 
 Specs
 ^^^^^
-+--------------+--------+
-| Short name   | IsStub |
-+--------------+--------+
-| Available in |        |
-+--------------+--------+
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Short name   | IsStub                                                                                                                  |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
 
 
 .. _ruleset-lintbutwontexec:
@@ -4969,11 +4986,11 @@ Total : 37 analysis
 
 Specs
 ^^^^^
-+--------------+-------+
-| Short name   | NoDoc |
-+--------------+-------+
-| Available in |       |
-+--------------+-------+
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Short name   | NoDoc                                                                                                                   |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
 
 
 .. _ruleset-php-recommendations:
@@ -4983,7 +5000,7 @@ PHP recommendations
 
 This ruleset is collected from the warnings and notes that are available in the PHP manual. For example, `return <https://www.php.net/manual/en/function.return.php>` do not require parenthesis.
 
-Total : 19 analysis
+Total : 20 analysis
 
 * :ref:`using-short-tags`
 * :ref:`strpos()-like-comparison`
@@ -4993,6 +5010,7 @@ Total : 19 analysis
 * :ref:`return-with-parenthesis`
 * :ref:`no-real-comparison`
 * :ref:`use-constant`
+* :ref:`throw-in-destruct`
 * :ref:`useless-type-casting`
 * :ref:`no-isset()-with-empty()`
 * :ref:`avoid-array\_push()`
@@ -5009,11 +5027,11 @@ Total : 19 analysis
 
 Specs
 ^^^^^
-+--------------+---------------------+
-| Short name   | PHP recommendations |
-+--------------+---------------------+
-| Available in |                     |
-+--------------+---------------------+
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Short name   | PHP recommendations                                                                                                     |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
 
 
 .. _ruleset-performances:
@@ -5254,7 +5272,7 @@ Semantics
 
 This ruleset focuses on human interpretation of the code. It reviews special values of literals, and named structures.
 
-Total : 19 analysis
+Total : 20 analysis
 
 * :ref:`constants-with-strange-names`
 * :ref:`variables-with-one-letter-names`
@@ -5275,6 +5293,7 @@ Total : 19 analysis
 * :ref:`mismatch-parameter-and-type`
 * :ref:`wrong-locale`
 * :ref:`overload-existing-names`
+* :ref:`same-name-for-property-and-method`
 
 
 
@@ -5437,13 +5456,13 @@ Total : 0 analysis
 
 Specs
 ^^^^^
-+--------------+--------------------+
-| Short name   | Surprising         |
-+--------------+--------------------+
-| Available in |                    |
-+--------------+--------------------+
-| Reports      | :ref:`report-text` |
-+--------------+--------------------+
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Short name   | Surprising                                                                                                              |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Reports      | :ref:`report-text`                                                                                                      |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
 
 
 .. _ruleset-top10:

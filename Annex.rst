@@ -61,14 +61,12 @@ List of external links mentioned in this documentation.
 * `[blog] array_column() <https://benramsey.com/projects/array-column/>`_
 * `[HttpFoundation] Make sessions secure and lazy #24523 <https://github.com/symfony/symfony/pull/24523>`_
 * `Add Exakat To Your CI Pipeline <https://www.exakat.io/add-exakat-to-your-ci-pipeline/>`_
-* `Allow a trailing comma in function calls <https://wiki.php.net/rfc/trailing-comma-function-calls>`_
 * `Ambassador <https://exakat.readthedocs.io/en/latest/Reports.html#ambassador>`_
 * `Anonymous functions <https://www.php.net/manual/en/functions.anonymous.php>`_
 * `Aronduby Dump <https://github.com/aronduby/dump>`_
 * `array_fill_keys <https://www.php.net/array_fill_keys>`_
 * `array_filter <https://php.net/array_filter>`_
 * `array_unique <https://www.php.net/array_unique>`_
-* `ArrayAccess <https://www.php.net/manual/en/class.arrayaccess.php>`_
 * `Arrays syntax <https://www.php.net/manual/en/language.types.array.php>`_
 * `Atif Shahab Qureshi <https://twitter.com/Atif__Shahab>`_
 * `Autoloading Classe <https://www.php.net/manual/en/language.oop5.autoload.php>`_
@@ -93,14 +91,12 @@ List of external links mentioned in this documentation.
 * `Comparison Operators <https://www.php.net/manual/en/language.operators.comparison.php>`_
 * `composer <https://getcomposer.org/>`_
 * `Constant Scalar Expressions <https://wiki.php.net/rfc/const_scalar_exprs>`_
-* `Constructors and Destructors <https://www.php.net/manual/en/language.oop5.decon.php>`_
 * `continue-on-error <https://docs.github.com/en/actions/learn-github-actions/workflow-syntax-for-github-actions#jobsjob_idstepscontinue-on-error>`_
 * `count <https://www.php.net/count>`_
 * `Courier Anti-pattern <https://r.je/oop-courier-anti-pattern.html>`_
 * `curl <http://www.php.net/curl>`_
 * `curl_version <https://www.php.net/manual/en/function.curl-version.php>`_
 * `CVS <https://www.nongnu.org/cvs/>`_
-* `CWE-484: Omitted Break Statement in Switch <https://cwe.mitre.org/data/definitions/484.html>`_
 * `Cyrus <https://www.php.net/manual/en/book.cyrus.php>`_
 * `Data structures <http://docs.php.net/manual/en/book.ds.php>`_
 * `DCDFLIB <https://people.sc.fsu.edu/~jburkardt/c_src/cdflib/cdflib.html>`_
@@ -108,7 +104,6 @@ List of external links mentioned in this documentation.
 * `Dependency Injection Smells <http://seregazhuk.github.io/2017/05/04/di-smells/>`_
 * `Deprecate and remove INTL_IDNA_VARIANT_2003 <https://wiki.php.net/rfc/deprecate-and-remove-intl_idna_variant_2003>`_
 * `Deprecated features in PHP 5.4.x <https://www.php.net/manual/en/migration54.deprecated.php>`_
-* `Deprecated features in PHP 5.5.x <https://www.php.net/manual/en/migration55.deprecated.php>`_
 * `Deprecated features in PHP 7.2.x <https://www.php.net/manual/en/migration72.deprecated.php>`_
 * `Deprecations for PHP 7.2 <https://wiki.php.net/rfc/deprecations_php_7_2>`_
 * `DIO <https://www.php.net/manual/en/refs.fileprocess.file.php>`_
@@ -117,7 +112,6 @@ List of external links mentioned in this documentation.
 * `dl <http://www.php.net/dl>`_
 * `Docker <http://www.docker.com/>`_
 * `Docker image <https://hub.docker.com/r/exakat/exakat/>`_
-* `Don't pass this out of a constructor <http://www.javapractices.com/topic/TopicAction.do?Id=252>`_
 * `dotdeb instruction <https://www.dotdeb.org/instructions/>`_
 * `download <https://www.exakat.io/download-exakat/>`_
 * `Eaccelerator <http://eaccelerator.net/>`_
@@ -128,7 +122,6 @@ List of external links mentioned in this documentation.
 * `Ereg <https://www.php.net/manual/en/function.ereg.php>`_
 * `Escape sequences <https://www.php.net/manual/en/regexp.reference.escape.php>`_
 * `Ev <https://www.php.net/manual/en/book.ev.php>`_
-* `eval <http://www.php.net/eval>`_
 * `Exakat <http://www.exakat.io/>`_
 * `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_
 * `Exakat SAS <https://www.exakat.io/get-php-expertise/>`_
@@ -152,7 +145,6 @@ List of external links mentioned in this documentation.
 * `foreach <https://www.php.net/manual/en/control-structures.foreach.php>`_
 * `Frederic Bouchery <https://twitter.com/FredBouchery/>`_
 * `George Peter Banyard <https://twitter.com/Girgias>`_
-* `get_class <https://www.php.net/get_class>`_
 * `Git <https://git-scm.com/>`_
 * `Github Action <https://docs.github.com/en/actions>`_
 * `Github upload <https://github.com/actions/upload-artifact>`_
@@ -160,7 +152,6 @@ List of external links mentioned in this documentation.
 * `global namespace <https://www.php.net/manual/en/language.namespaces.global.php>`_
 * `graphviz <http://www.graphviz.org/>`_
 * `Gremlin server <http://tinkerpop.apache.org/>`_
-* `Handling file uploads <https://www.php.net/manual/en/features.file-upload.php>`_
 * `hash <http://www.php.net/hash>`_
 * `hash_algos <https://www.php.net/hash_algos>`_
 * `hash_file <https://www.php.net/manual/en/function.hash-file.php>`_
@@ -186,14 +177,11 @@ List of external links mentioned in this documentation.
 * `Jordi Boggiano <https://twitter.com/seldaek>`_
 * `Judy C library <http://judy.sourceforge.net/>`_
 * `Lapack <https://www.php.net/manual/en/book.lapack.php>`_
-* `Late Static Bindings <https://www.php.net/manual/en/language.oop5.late-static-bindings.php>`_
 * `libeio <http://software.schmorp.de/pkg/libeio.html>`_
 * `libevent <http://libevent.org/>`_
 * `libmongoc <https://github.com/mongodb/mongo-c-driver>`_
 * `libuuid <https://linux.die.net/man/3/libuuid>`_
 * `list <https://www.php.net/manual/en/function.list.php>`_
-* `List of HTTP header fields <https://en.wikipedia.org/wiki/List_of_HTTP_header_fields>`_
-* `List of HTTP status codes <https://en.wikipedia.org/wiki/List_of_HTTP_status_codes>`_
 * `List of Keywords <https://www.php.net/manual/en/reserved.keywords.php>`_
 * `List of other reserved words <https://www.php.net/manual/en/reserved.other-reserved-words.php>`_
 * `list() Reference Assignment <https://wiki.php.net/rfc/list_reference_assignment>`_
@@ -222,7 +210,6 @@ List of external links mentioned in this documentation.
 * `Nested Ternaries are Great <https://medium.com/javascript-scene/nested-ternaries-are-great-361bddd0f340>`_
 * `Net SNMP <http://www.net-snmp.org/>`_
 * `New custom object serialization mechanism <https://wiki.php.net/rfc/custom_object_serialization>`_
-* `New object type <https://www.php.net/manual/en/migration72.new-features.php#migration72.new-features.iterable-pseudo-type>`_
 * `Newt <http://people.redhat.com/rjones/ocaml-newt/html/Newt.html>`_
 * `No Dangling Reference <https://github.com/dseguy/clearPHP/blob/master/rules/no-dangling-reference.md>`_
 * `Null Object Pattern <https://en.wikipedia.org/wiki/Null_Object_pattern#PHP>`_
@@ -242,7 +229,6 @@ List of external links mentioned in this documentation.
 * `Overload <https://www.php.net/manual/en/language.oop5.overloading.php#object.get>`_
 * `Packagist <https://packagist.org/>`_
 * `parent <https://www.php.net/manual/en/keyword.parent.php>`_
-* `Parentheses around function arguments no longer affect behaviour <https://www.php.net/manual/en/migration70.incompatible.php#migration70.incompatible.variable-handling.parentheses>`_
 * `Parsekit <http://www.php.net/manual/en/book.parsekit.php>`_
 * `Parsing and Lexing <https://www.php.net/manual/en/book.parle.php>`_
 * `Password hashing <https://www.php.net/manual/en/book.password.php>`_
@@ -261,7 +247,6 @@ List of external links mentioned in this documentation.
 * `PHP RFC: Deprecations for PHP 7.2 : Each() <https://wiki.php.net/rfc/deprecations_php_7_2#each>`_
 * `PHP RFC: Deprecations for PHP 8.1 <https://wiki.php.net/rfc/deprecations_php_8_1>`_
 * `PHP Tags <https://www.php.net/manual/en/language.basic-syntax.phptags.php>`_
-* `PHP why pi() and M_PI <https://stackoverflow.com/questions/42021176/php-why-pi-and-m-pi>`_
 * `php-ext-wasm <https://github.com/Hywan/php-ext-wasm>`_
 * `php-vips-ext <https://github.com/jcupitt/php-vips-ext>`_
 * `PHP: When is /tmp not /tmp? <https://www.the-art-of-web.com/php/where-is-tmp/>`_
@@ -293,7 +278,6 @@ List of external links mentioned in this documentation.
 * `Semaphore, Shared Memory and IPC <https://www.php.net/manual/en/book.sem.php>`_
 * `Sessions <https://www.php.net/manual/en/book.session.php>`_
 * `Set-Cookie <https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Set-Cookie>`_
-* `set_error_handler <http://www.php.net/set_error_handler>`_
 * `setlocale <https://www.php.net/setlocale>`_
 * `shell_exec <http://www.php.net/shell_exec>`_
 * `Specification pattern <https://en.wikipedia.org/wiki/Specification_pattern>`_

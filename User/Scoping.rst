@@ -289,6 +289,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Classes/PromotedProperties";
    analyzer[] = "Classes/PropertyCouldBeLocal";
    analyzer[] = "Classes/PropertyDefinition";
+   analyzer[] = "Classes/PropertyMethodSameName";
    analyzer[] = "Classes/PropertyNeverUsed";
    analyzer[] = "Classes/PropertyUsedAbove";
    analyzer[] = "Classes/PropertyUsedBelow";
@@ -1323,6 +1324,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/InconsistentElseif";
    analyzer[] = "Structures/IndicesAreIntOrString";
    analyzer[] = "Structures/InfiniteRecursion";
+   analyzer[] = "Structures/InvalidDateScanningFormat";
    analyzer[] = "Structures/InvalidPackFormat";
    analyzer[] = "Structures/InvalidRegex";
    analyzer[] = "Structures/IsZero";
@@ -1433,6 +1435,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/ShouldUseMath";
    analyzer[] = "Structures/ShouldUseOperator";
    analyzer[] = "Structures/SimplePreg";
+   analyzer[] = "Structures/SprintfFormatCompilation";
    analyzer[] = "Structures/StaticLoop";
    analyzer[] = "Structures/StringInterpolationFavorite";
    analyzer[] = "Structures/StripTagsSkipsClosedTag";
@@ -1499,6 +1502,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Traits/LocallyUsedProperty";
    analyzer[] = "Traits/MethodCollisionTraits";
    analyzer[] = "Traits/MultipleUsage";
+   analyzer[] = "Traits/NoPrivateAbstract";
    analyzer[] = "Traits/Php";
    analyzer[] = "Traits/SelfUsingTrait";
    analyzer[] = "Traits/TraitMethod";
@@ -1799,6 +1803,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Classes/PromotedProperties'
      - 'Classes/PropertyCouldBeLocal'
      - 'Classes/PropertyDefinition'
+     - 'Classes/PropertyMethodSameName'
      - 'Classes/PropertyNeverUsed'
      - 'Classes/PropertyUsedAbove'
      - 'Classes/PropertyUsedBelow'
@@ -2833,6 +2838,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/InconsistentElseif'
      - 'Structures/IndicesAreIntOrString'
      - 'Structures/InfiniteRecursion'
+     - 'Structures/InvalidDateScanningFormat'
      - 'Structures/InvalidPackFormat'
      - 'Structures/InvalidRegex'
      - 'Structures/IsZero'
@@ -2943,6 +2949,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/ShouldUseMath'
      - 'Structures/ShouldUseOperator'
      - 'Structures/SimplePreg'
+     - 'Structures/SprintfFormatCompilation'
      - 'Structures/StaticLoop'
      - 'Structures/StringInterpolationFavorite'
      - 'Structures/StripTagsSkipsClosedTag'
@@ -3009,6 +3016,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Traits/LocallyUsedProperty'
      - 'Traits/MethodCollisionTraits'
      - 'Traits/MultipleUsage'
+     - 'Traits/NoPrivateAbstract'
      - 'Traits/Php'
      - 'Traits/SelfUsingTrait'
      - 'Traits/TraitMethod'
@@ -3215,6 +3223,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Classes/ParentFirst";
    analyzer[] = "Classes/ParentIsNotStatic";
    analyzer[] = "Classes/PropertyCouldBeLocal";
+   analyzer[] = "Classes/PropertyMethodSameName";
    analyzer[] = "Classes/PropertyNeverUsed";
    analyzer[] = "Classes/PropertyUsedInOneMethodOnly";
    analyzer[] = "Classes/PssWithoutClass";
@@ -3474,6 +3483,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/InconsistentElseif";
    analyzer[] = "Structures/IndicesAreIntOrString";
    analyzer[] = "Structures/InfiniteRecursion";
+   analyzer[] = "Structures/InvalidDateScanningFormat";
    analyzer[] = "Structures/InvalidPackFormat";
    analyzer[] = "Structures/InvalidRegex";
    analyzer[] = "Structures/IsZero";
@@ -3541,6 +3551,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/ShouldMakeTernary";
    analyzer[] = "Structures/ShouldPreprocess";
    analyzer[] = "Structures/ShouldUseExplodeArgs";
+   analyzer[] = "Structures/SprintfFormatCompilation";
    analyzer[] = "Structures/StaticLoop";
    analyzer[] = "Structures/StripTagsSkipsClosedTag";
    analyzer[] = "Structures/StrposCompare";
@@ -3682,6 +3693,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Classes/ParentFirst'
      - 'Classes/ParentIsNotStatic'
      - 'Classes/PropertyCouldBeLocal'
+     - 'Classes/PropertyMethodSameName'
      - 'Classes/PropertyNeverUsed'
      - 'Classes/PropertyUsedInOneMethodOnly'
      - 'Classes/PssWithoutClass'
@@ -3941,6 +3953,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/InconsistentElseif'
      - 'Structures/IndicesAreIntOrString'
      - 'Structures/InfiniteRecursion'
+     - 'Structures/InvalidDateScanningFormat'
      - 'Structures/InvalidPackFormat'
      - 'Structures/InvalidRegex'
      - 'Structures/IsZero'
@@ -4008,6 +4021,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/ShouldMakeTernary'
      - 'Structures/ShouldPreprocess'
      - 'Structures/ShouldUseExplodeArgs'
+     - 'Structures/SprintfFormatCompilation'
      - 'Structures/StaticLoop'
      - 'Structures/StripTagsSkipsClosedTag'
      - 'Structures/StrposCompare'
@@ -6740,6 +6754,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Classes/NonNullableSetters";
    analyzer[] = "Classes/ParentIsNotStatic";
    analyzer[] = "Classes/PropertyCouldBeLocal";
+   analyzer[] = "Classes/PropertyMethodSameName";
    analyzer[] = "Classes/RaisedAccessLevel";
    analyzer[] = "Classes/RedefinedProperty";
    analyzer[] = "Classes/ShouldUseSelf";
@@ -6826,6 +6841,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Classes/NonNullableSetters'
      - 'Classes/ParentIsNotStatic'
      - 'Classes/PropertyCouldBeLocal'
+     - 'Classes/PropertyMethodSameName'
      - 'Classes/RaisedAccessLevel'
      - 'Classes/RedefinedProperty'
      - 'Classes/ShouldUseSelf'
@@ -7030,6 +7046,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/PHP7Dirname";
    analyzer[] = "Structures/SwitchWithMultipleDefault";
    analyzer[] = "Structures/VariableGlobal";
+   analyzer[] = "Traits/NoPrivateAbstract";
    analyzer[] = "Type/Binary";
    analyzer[] = "Type/MalformedOctal";
    analyzer[] = "Variables/Php5IndirectExpression";
@@ -7129,6 +7146,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/PHP7Dirname'
      - 'Structures/SwitchWithMultipleDefault'
      - 'Structures/VariableGlobal'
+     - 'Traits/NoPrivateAbstract'
      - 'Type/Binary'
      - 'Type/MalformedOctal'
      - 'Variables/Php5IndirectExpression'
@@ -7233,6 +7251,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/PHP7Dirname";
    analyzer[] = "Structures/SwitchWithMultipleDefault";
    analyzer[] = "Structures/VariableGlobal";
+   analyzer[] = "Traits/NoPrivateAbstract";
    analyzer[] = "Type/MalformedOctal";
    analyzer[] = "Variables/Php5IndirectExpression";
    analyzer[] = "Variables/Php7IndirectExpression";
@@ -7329,6 +7348,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/PHP7Dirname'
      - 'Structures/SwitchWithMultipleDefault'
      - 'Structures/VariableGlobal'
+     - 'Traits/NoPrivateAbstract'
      - 'Type/MalformedOctal'
      - 'Variables/Php5IndirectExpression'
      - 'Variables/Php7IndirectExpression'
@@ -7424,6 +7444,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/PHP7Dirname";
    analyzer[] = "Structures/SwitchWithMultipleDefault";
    analyzer[] = "Structures/VariableGlobal";
+   analyzer[] = "Traits/NoPrivateAbstract";
    analyzer[] = "Type/MalformedOctal";
    analyzer[] = "Variables/Php5IndirectExpression";
    analyzer[] = "Variables/Php7IndirectExpression";
@@ -7512,6 +7533,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/PHP7Dirname'
      - 'Structures/SwitchWithMultipleDefault'
      - 'Structures/VariableGlobal'
+     - 'Traits/NoPrivateAbstract'
      - 'Type/MalformedOctal'
      - 'Variables/Php5IndirectExpression'
      - 'Variables/Php7IndirectExpression'
@@ -7597,6 +7619,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/PHP7Dirname";
    analyzer[] = "Structures/SwitchWithMultipleDefault";
    analyzer[] = "Structures/VariableGlobal";
+   analyzer[] = "Traits/NoPrivateAbstract";
    analyzer[] = "Type/MalformedOctal";
    analyzer[] = "Variables/Php5IndirectExpression";
    analyzer[] = "Variables/Php7IndirectExpression";
@@ -7675,6 +7698,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/PHP7Dirname'
      - 'Structures/SwitchWithMultipleDefault'
      - 'Structures/VariableGlobal'
+     - 'Traits/NoPrivateAbstract'
      - 'Type/MalformedOctal'
      - 'Variables/Php5IndirectExpression'
      - 'Variables/Php7IndirectExpression'
@@ -7753,6 +7777,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/NoGetClassNull";
    analyzer[] = "Structures/SetlocaleNeedsConstants";
    analyzer[] = "Structures/pregOptionE";
+   analyzer[] = "Traits/NoPrivateAbstract";
    analyzer[] = "Type/HexadecimalString";
    analyzer[] = "Variables/Php7IndirectExpression";
 
@@ -7823,6 +7848,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/NoGetClassNull'
      - 'Structures/SetlocaleNeedsConstants'
      - 'Structures/pregOptionE'
+     - 'Traits/NoPrivateAbstract'
      - 'Type/HexadecimalString'
      - 'Variables/Php7IndirectExpression'
 
@@ -7888,6 +7914,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/NoGetClassNull";
    analyzer[] = "Structures/NoSubstrOne";
    analyzer[] = "Structures/pregOptionE";
+   analyzer[] = "Traits/NoPrivateAbstract";
    analyzer[] = "Type/HexadecimalString";
    analyzer[] = "Type/OctalInString";
 
@@ -7946,6 +7973,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/NoGetClassNull'
      - 'Structures/NoSubstrOne'
      - 'Structures/pregOptionE'
+     - 'Traits/NoPrivateAbstract'
      - 'Type/HexadecimalString'
      - 'Type/OctalInString'
 
@@ -8006,6 +8034,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/ContinueIsForLoop";
    analyzer[] = "Structures/NoGetClassNull";
    analyzer[] = "Structures/pregOptionE";
+   analyzer[] = "Traits/NoPrivateAbstract";
 
 
 .. _annex-yaml-compatibilityphp72:
@@ -8057,6 +8086,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/ContinueIsForLoop'
      - 'Structures/NoGetClassNull'
      - 'Structures/pregOptionE'
+     - 'Traits/NoPrivateAbstract'
 
 
 
@@ -8106,6 +8136,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/ArrayMergeWithEllipsis";
    analyzer[] = "Structures/ContinueIsForLoop";
    analyzer[] = "Structures/DontReadAndWriteInOneExpression";
+   analyzer[] = "Traits/NoPrivateAbstract";
 
 
 .. _annex-yaml-compatibilityphp73:
@@ -8148,6 +8179,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/ArrayMergeWithEllipsis'
      - 'Structures/ContinueIsForLoop'
      - 'Structures/DontReadAndWriteInOneExpression'
+     - 'Traits/NoPrivateAbstract'
 
 
 
@@ -8208,6 +8240,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/CurlVersionNow";
    analyzer[] = "Structures/DontReadAndWriteInOneExpression";
    analyzer[] = "Structures/OpensslRandomPseudoByteSecondArg";
+   analyzer[] = "Traits/NoPrivateAbstract";
 
 
 .. _annex-yaml-compatibilityphp74:
@@ -8261,6 +8294,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/CurlVersionNow'
      - 'Structures/DontReadAndWriteInOneExpression'
      - 'Structures/OpensslRandomPseudoByteSecondArg'
+     - 'Traits/NoPrivateAbstract'
 
 
 
@@ -9398,6 +9432,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
  [PHP recommendations]
    analyzer[] = "Attributes/MissingAttributeAttribute";
    analyzer[] = "Classes/CouldBeStringable";
+   analyzer[] = "Classes/ThrowInDestruct";
    analyzer[] = "Constants/BadConstantnames";
    analyzer[] = "Interfaces/NoConstructorInInterface";
    analyzer[] = "Namespaces/UseWithFullyQualifiedNS";
@@ -9430,6 +9465,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
     'PHP recommendations':
      - 'Attributes/MissingAttributeAttribute'
      - 'Classes/CouldBeStringable'
+     - 'Classes/ThrowInDestruct'
      - 'Constants/BadConstantnames'
      - 'Interfaces/NoConstructorInInterface'
      - 'Namespaces/UseWithFullyQualifiedNS'
@@ -9878,6 +9914,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
 
  [Semantics]
    analyzer[] = "Arrays/WeirdIndex";
+   analyzer[] = "Classes/PropertyMethodSameName";
    analyzer[] = "Constants/ConstantStrangeNames";
    analyzer[] = "Constants/CouldBeConstant";
    analyzer[] = "Functions/FnArgumentVariableConfusion";
@@ -9910,6 +9947,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
   rulesets:
     'Semantics':
      - 'Arrays/WeirdIndex'
+     - 'Classes/PropertyMethodSameName'
      - 'Constants/ConstantStrangeNames'
      - 'Constants/CouldBeConstant'
      - 'Functions/FnArgumentVariableConfusion'

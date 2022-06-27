@@ -6,7 +6,7 @@ Release Note
 
 Here is the release note of exakat. 
 
-**Version 2.4.3 (Li Yuanji, 2022-06-30)**
+**Version 2.4.6 (???, 2022-07-21)**
 
 
 + Architecture
@@ -24,7 +24,32 @@ Here is the release note of exakat.
 + Tokenizer
     + 
 
-**Version 2.4.4 (Li Jiancheng, 2022-06-16)**
+**Version 2.4.5 (Li Yuanji, 2022-07-07)**
+
+
++ Architecture
+    + 
+
++ Cobbler
+    + New cobbler : remove abstract option
+
++ Report
+    + 
+
++ Analysis
+    + Refactored analysis : No Pss Outside Class also checks for static closures
+    + New analysis : Report errors in sprintf() formats
+    + New analysis : Report methods and properties with the same name in a class
+    + New analysis : Report invalid chars in date scanning formats
+    + Refactored analysis : Useless Coalesce applied to PHP native methods
+    + New analysis : Report Abstract Private methods in traits (php 8.0-)
+    + Refactored analysis : Dynamic New now also works on parenthesis
+
++ Tokenizer
+    + Fixed namespace's names dectection for older PHP versions
+    + Fixed Functioncall detection inside a new operator.
+
+**Version 2.4.4 (Li Jiancheng, 2022-06-23)**
 
 
 + Architecture
