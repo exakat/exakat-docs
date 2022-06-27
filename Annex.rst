@@ -58,7 +58,6 @@ List of external links mentioned in this documentation.
 * `7z <https://www.7-zip.org/7z.html>`_
 * `::class <https://www.php.net/manual/en/language.oop5.basic.php#language.oop5.basic.class.class>`_
 * `@deprecated <https://docs.phpdoc.org/latest/references/phpdoc/tags/deprecated.html>`_
-* `[blog] array_column() <https://benramsey.com/projects/array-column/>`_
 * `[HttpFoundation] Make sessions secure and lazy #24523 <https://github.com/symfony/symfony/pull/24523>`_
 * `Add Exakat To Your CI Pipeline <https://www.exakat.io/add-exakat-to-your-ci-pipeline/>`_
 * `Ambassador <https://exakat.readthedocs.io/en/latest/Reports.html#ambassador>`_
@@ -126,7 +125,6 @@ List of external links mentioned in this documentation.
 * `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_
 * `Exakat SAS <https://www.exakat.io/get-php-expertise/>`_
 * `exakat/exakat <https://hub.docker.com/r/exakat/exakat/>`_
-* `Exceptions <https://www.php.net/manual/en/language.exceptions.php>`_
 * `expect <https://www.php.net/manual/en/book.expect.php>`_
 * `ext-http <https://github.com/m6w6/ext-http>`_
 * `ext/hash extension <http://www.php.net/manual/en/book.hash.php>`_
@@ -212,7 +210,6 @@ List of external links mentioned in this documentation.
 * `New custom object serialization mechanism <https://wiki.php.net/rfc/custom_object_serialization>`_
 * `Newt <http://people.redhat.com/rjones/ocaml-newt/html/Newt.html>`_
 * `No Dangling Reference <https://github.com/dseguy/clearPHP/blob/master/rules/no-dangling-reference.md>`_
-* `Null Object Pattern <https://en.wikipedia.org/wiki/Null_Object_pattern#PHP>`_
 * `Object Calisthenics, rule # 5 <http://williamdurand.fr/2013/06/03/object-calisthenics/#one-dot-per-line>`_
 * `Object Inheritance <https://www.php.net/manual/en/language.oop5.inheritance.php>`_
 * `Objects and references <https://www.php.net/manual/en/language.oop5.references.php>`_
@@ -243,7 +240,6 @@ List of external links mentioned in this documentation.
 * `PHP <https://www.php.net/>`_
 * `PHP for loops and counting arrays <https://electrictoolbox.com/php-for-loop-counting-array/>`_
 * `PHP gmagick <http://www.php.net/manual/en/book.gmagick.php>`_
-* `PHP RFC: Allow a trailing comma in function calls <https://wiki.php.net/rfc/trailing-comma-function-calls>`_
 * `PHP RFC: Deprecations for PHP 7.2 : Each() <https://wiki.php.net/rfc/deprecations_php_7_2#each>`_
 * `PHP RFC: Deprecations for PHP 8.1 <https://wiki.php.net/rfc/deprecations_php_8_1>`_
 * `PHP Tags <https://www.php.net/manual/en/language.basic-syntax.phptags.php>`_

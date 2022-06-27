@@ -44,6 +44,7 @@ Here is the release note of exakat.
     + Refactored analysis : Useless Coalesce applied to PHP native methods
     + New analysis : Report Abstract Private methods in traits (php 8.0-)
     + Refactored analysis : Dynamic New now also works on parenthesis
+    + New analysis : Report Utf8_encode() and utf8_decode() deprecation
 
 + Tokenizer
     + Fixed namespace's names dectection for older PHP versions

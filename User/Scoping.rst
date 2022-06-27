@@ -1139,6 +1139,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Php/UseWeb";
    analyzer[] = "Php/UsesEnv";
    analyzer[] = "Php/UsortSorting";
+   analyzer[] = "Php/Utf8EncodeDeprecated";
    analyzer[] = "Php/VersionCompareOperator";
    analyzer[] = "Php/WrongAttributeConfiguration";
    analyzer[] = "Php/WrongTypeForNativeFunction";
@@ -2653,6 +2654,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Php/UseWeb'
      - 'Php/UsesEnv'
      - 'Php/UsortSorting'
+     - 'Php/Utf8EncodeDeprecated'
      - 'Php/VersionCompareOperator'
      - 'Php/WrongAttributeConfiguration'
      - 'Php/WrongTypeForNativeFunction'
@@ -8485,6 +8487,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Functions/DeprecatedCallable";
    analyzer[] = "Php/DeprecateDollarCurly";
    analyzer[] = "Php/FalseToArray";
+   analyzer[] = "Php/Utf8EncodeDeprecated";
    analyzer[] = "Php/VersionCompareOperator";
    analyzer[] = "Traits/CannotCallTraitMethod";
 
@@ -8506,6 +8509,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Functions/DeprecatedCallable'
      - 'Php/DeprecateDollarCurly'
      - 'Php/FalseToArray'
+     - 'Php/Utf8EncodeDeprecated'
      - 'Php/VersionCompareOperator'
      - 'Traits/CannotCallTraitMethod'
 
