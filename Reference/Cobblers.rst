@@ -20,6 +20,7 @@ Add Final Class
 +++++++++++++++
 Adds ``final`` keyword to classes that can suppport it.
 
+
 .. _add-final-class-before:
 
 Before
@@ -268,7 +269,7 @@ _____
 
 Gather Use Expression
 +++++++++++++++++++++
-Move lone use expression to the beginning of the file
+Move lone use expression to the beginning of the file.
 
 .. _gather-use-expression-before:
 
@@ -1798,13 +1799,13 @@ _______________
 Specs
 _____
 
-+----------------+------------------------------------------------------------------+
-| Short Name     | Functions/SetNullType                                            |
-+----------------+------------------------------------------------------------------+
-| Exakat version | 2.3.0                                                            |
-+----------------+------------------------------------------------------------------+
-| Available in   | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_ |
-+----------------+------------------------------------------------------------------+
++----------------+-------------------------------------------------------------------------------------------------------------------------+
+| Short Name     | Functions/SetNullType                                                                                                   |
++----------------+-------------------------------------------------------------------------------------------------------------------------+
+| Exakat version | 2.3.0                                                                                                                   |
++----------------+-------------------------------------------------------------------------------------------------------------------------+
+| Available in   | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
++----------------+-------------------------------------------------------------------------------------------------------------------------+
 
 
 .. _functions-settypevoid:
@@ -1813,7 +1814,7 @@ _____
 
 Set Type Void
 +++++++++++++
-Adds the void typehint to functions and methods, when possible
+Adds the void typehint to functions and methods, when possible.
 
 .. _set-type-void-before:
 

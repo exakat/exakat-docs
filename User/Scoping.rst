@@ -249,6 +249,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Classes/LocallyUsedProperty";
    analyzer[] = "Classes/LoweredAccessLevel";
    analyzer[] = "Classes/MagicMethod";
+   analyzer[] = "Classes/MagicMethodReturntypes";
    analyzer[] = "Classes/MagicProperties";
    analyzer[] = "Classes/MakeDefault";
    analyzer[] = "Classes/MakeGlobalAProperty";
@@ -1314,6 +1315,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/IdenticalElseif";
    analyzer[] = "Structures/IdenticalOnBothSides";
    analyzer[] = "Structures/IdenticalVariablesInForeach";
+   analyzer[] = "Structures/IfThenReturnFavorite";
    analyzer[] = "Structures/IfWithSameConditions";
    analyzer[] = "Structures/Iffectation";
    analyzer[] = "Structures/ImplicitConversionToInt";
@@ -1764,6 +1766,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Classes/LocallyUsedProperty'
      - 'Classes/LoweredAccessLevel'
      - 'Classes/MagicMethod'
+     - 'Classes/MagicMethodReturntypes'
      - 'Classes/MagicProperties'
      - 'Classes/MakeDefault'
      - 'Classes/MakeGlobalAProperty'
@@ -2829,6 +2832,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/IdenticalElseif'
      - 'Structures/IdenticalOnBothSides'
      - 'Structures/IdenticalVariablesInForeach'
+     - 'Structures/IfThenReturnFavorite'
      - 'Structures/IfWithSameConditions'
      - 'Structures/Iffectation'
      - 'Structures/ImplicitConversionToInt'
@@ -5145,7 +5149,6 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Extensions/Exthrtime";
    analyzer[] = "Extensions/Exthttp";
    analyzer[] = "Extensions/Extibase";
-   analyzer[] = "Extensions/Extice";
    analyzer[] = "Extensions/Exticonv";
    analyzer[] = "Extensions/Extigbinary";
    analyzer[] = "Extensions/Extiis";
@@ -5231,7 +5234,6 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Extensions/Extsuhosin";
    analyzer[] = "Extensions/Extsvm";
    analyzer[] = "Extensions/Extswoole";
-   analyzer[] = "Extensions/Exttaint";
    analyzer[] = "Extensions/Exttidy";
    analyzer[] = "Extensions/Exttokenizer";
    analyzer[] = "Extensions/Exttokyotyrant";
@@ -5806,7 +5808,6 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Extensions/Exthrtime'
      - 'Extensions/Exthttp'
      - 'Extensions/Extibase'
-     - 'Extensions/Extice'
      - 'Extensions/Exticonv'
      - 'Extensions/Extigbinary'
      - 'Extensions/Extiis'
@@ -5892,7 +5893,6 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Extensions/Extsuhosin'
      - 'Extensions/Extsvm'
      - 'Extensions/Extswoole'
-     - 'Extensions/Exttaint'
      - 'Extensions/Exttidy'
      - 'Extensions/Exttokenizer'
      - 'Extensions/Exttokyotyrant'
@@ -6746,6 +6746,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Classes/InheritedPropertyMustMatch";
    analyzer[] = "Classes/InsufficientPropertyTypehint";
    analyzer[] = "Classes/LoweredAccessLevel";
+   analyzer[] = "Classes/MagicMethodReturntypes";
    analyzer[] = "Classes/MismatchProperties";
    analyzer[] = "Classes/MissingAbstractMethod";
    analyzer[] = "Classes/MissingVisibility";
@@ -6833,6 +6834,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Classes/InheritedPropertyMustMatch'
      - 'Classes/InsufficientPropertyTypehint'
      - 'Classes/LoweredAccessLevel'
+     - 'Classes/MagicMethodReturntypes'
      - 'Classes/MismatchProperties'
      - 'Classes/MissingAbstractMethod'
      - 'Classes/MissingVisibility'
@@ -8944,6 +8946,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Classes/CantOverwriteFinalConstant";
    analyzer[] = "Classes/CantOverwriteFinalMethod";
    analyzer[] = "Classes/DefinedConstants";
+   analyzer[] = "Classes/InstantiatingAbstractClass";
    analyzer[] = "Classes/IsInterfaceMethod";
    analyzer[] = "Classes/LoweredAccessLevel";
    analyzer[] = "Classes/RaisedAccessLevel";
@@ -8986,6 +8989,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Classes/CantOverwriteFinalConstant'
      - 'Classes/CantOverwriteFinalMethod'
      - 'Classes/DefinedConstants'
+     - 'Classes/InstantiatingAbstractClass'
      - 'Classes/IsInterfaceMethod'
      - 'Classes/LoweredAccessLevel'
      - 'Classes/RaisedAccessLevel'
@@ -9035,6 +9039,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Classes/CantOverwriteFinalConstant";
    analyzer[] = "Classes/CantOverwriteFinalMethod";
    analyzer[] = "Classes/DefinedConstants";
+   analyzer[] = "Classes/InstantiatingAbstractClass";
    analyzer[] = "Classes/IsInterfaceMethod";
    analyzer[] = "Classes/LoweredAccessLevel";
    analyzer[] = "Classes/RaisedAccessLevel";
@@ -9077,6 +9082,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Classes/CantOverwriteFinalConstant'
      - 'Classes/CantOverwriteFinalMethod'
      - 'Classes/DefinedConstants'
+     - 'Classes/InstantiatingAbstractClass'
      - 'Classes/IsInterfaceMethod'
      - 'Classes/LoweredAccessLevel'
      - 'Classes/RaisedAccessLevel'
@@ -9121,10 +9127,12 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
 ::
 
  [IsStub]
+   analyzer[] = "Classes/AccessProtected";
    analyzer[] = "Classes/CantExtendFinal";
    analyzer[] = "Classes/CantOverwriteFinalConstant";
    analyzer[] = "Classes/CantOverwriteFinalMethod";
    analyzer[] = "Classes/DefinedConstants";
+   analyzer[] = "Classes/InstantiatingAbstractClass";
    analyzer[] = "Classes/IsInterfaceMethod";
    analyzer[] = "Classes/LoweredAccessLevel";
    analyzer[] = "Classes/RaisedAccessLevel";
@@ -9160,10 +9168,12 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
 
   rulesets:
     'IsStub':
+     - 'Classes/AccessProtected'
      - 'Classes/CantExtendFinal'
      - 'Classes/CantOverwriteFinalConstant'
      - 'Classes/CantOverwriteFinalMethod'
      - 'Classes/DefinedConstants'
+     - 'Classes/InstantiatingAbstractClass'
      - 'Classes/IsInterfaceMethod'
      - 'Classes/LoweredAccessLevel'
      - 'Classes/RaisedAccessLevel'
@@ -9212,6 +9222,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Classes/CouldBeStringable";
    analyzer[] = "Classes/Finalclass";
    analyzer[] = "Classes/Finalmethod";
+   analyzer[] = "Classes/ImplementedMethodsArePublic";
    analyzer[] = "Classes/IncompatibleSignature";
    analyzer[] = "Classes/InheritedPropertyMustMatch";
    analyzer[] = "Classes/MethodSignatureMustBeCompatible";
@@ -9269,6 +9280,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Classes/CouldBeStringable'
      - 'Classes/Finalclass'
      - 'Classes/Finalmethod'
+     - 'Classes/ImplementedMethodsArePublic'
      - 'Classes/IncompatibleSignature'
      - 'Classes/InheritedPropertyMustMatch'
      - 'Classes/MethodSignatureMustBeCompatible'
@@ -9666,6 +9678,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/DifferencePreference";
    analyzer[] = "Structures/EchoPrintConsistance";
    analyzer[] = "Structures/GtOrLtFavorite";
+   analyzer[] = "Structures/IfThenReturnFavorite";
    analyzer[] = "Structures/NewLineStyle";
    analyzer[] = "Structures/NotOrNot";
    analyzer[] = "Structures/OneExpressionBracketsConsistency";
@@ -9710,6 +9723,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/DifferencePreference'
      - 'Structures/EchoPrintConsistance'
      - 'Structures/GtOrLtFavorite'
+     - 'Structures/IfThenReturnFavorite'
      - 'Structures/NewLineStyle'
      - 'Structures/NotOrNot'
      - 'Structures/OneExpressionBracketsConsistency'
@@ -9997,6 +10011,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Classes/CouldBeIterable";
    analyzer[] = "Classes/CouldSetPropertyDefault";
    analyzer[] = "Classes/LoweredAccessLevel";
+   analyzer[] = "Classes/MagicMethodReturntypes";
    analyzer[] = "Classes/ParentFirst";
    analyzer[] = "Classes/ShouldDeepClone";
    analyzer[] = "Classes/ShouldHaveDestructor";
@@ -10122,6 +10137,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Classes/CouldBeIterable'
      - 'Classes/CouldSetPropertyDefault'
      - 'Classes/LoweredAccessLevel'
+     - 'Classes/MagicMethodReturntypes'
      - 'Classes/ParentFirst'
      - 'Classes/ShouldDeepClone'
      - 'Classes/ShouldHaveDestructor'

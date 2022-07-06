@@ -86,7 +86,7 @@ __________
 
 Ambassador is the most complete Exakat report. It used to be the default report, until Exakat 1.7.0
 
-The Ambassador report includes : 
+The Ambassador report many reports. 
 
 + Full configuration for the audit
 + Full documentation of the analysis
@@ -380,7 +380,7 @@ __________________
 
 The CompatibilityPHP56 report list all detected issues with PHP 5.6 compatibility.
 
-The CompatibilityPHP56 report displays one result per line, grouped by rule, and ordered by file and line number : 
+The CompatibilityPHP56 report displays one result per line, grouped by rule, and ordered by file and line number. Here is an example : 
 
 ::
     
@@ -562,7 +562,7 @@ __________________
 
 The CompatibilityPHP74 report list all detected issues with PHP 7.4 compatibility.
 
-The CompatibilityPHP74 report displays one result per line, grouped by rule, and ordered by file and line number : 
+The CompatibilityPHP74 report displays one result per line, grouped by rule, and ordered by file and line number. Here is an example : 
 
 ::
     
@@ -614,7 +614,7 @@ __________________
 
 The CompatibilityPHP80 report list all detected issues with PHP 8.0 compatibility.
 
-The CompatibilityPHP80 report displays one result per line, grouped by rule, and ordered by file and line number : 
+The CompatibilityPHP80 report displays one result per line, grouped by rule, and ordered by file and line number. Here is an example : 
 
 ::
     
@@ -675,7 +675,7 @@ __________________
 
 The CompatibilityPHP56 report list all detected issues with PHP 8.1 compatibility.
 
-The CompatibilityPHP81 report displays one result per line, grouped by rule, and ordered by file and line number : 
+The CompatibilityPHP81 report displays one result per line, grouped by rule, and ordered by file and line number. Here is an example : 
 
 ::
     
@@ -1639,7 +1639,6 @@ _______
 
 The History report collects meta information between audits. It saves the values from the current audit into a separate 'history.sqlite' database.
 
-
 The history tables are the same as the dump.sqlite tables, except for the extra 'serial' table. Each audit comes with 3 identifiers : 
 
 + 'dump_timestamp' : this is a timmestamp taken when the dump was build
@@ -2098,7 +2097,7 @@ _______
 
 The Perfile report lays out the results file per file.
 
-The Perfile report displays one result per line, grouped by file, and ordered by line number : 
+The Perfile report displays one result per line, grouped by file, and ordered by line number. Here is an example : 
 
 ::
     
@@ -2165,7 +2164,7 @@ _______
 
 The Perrule report lays out the results, rule by rue.
 
-The Perrule report displays one result per line, grouped by rule, and ordered by file and line number : 
+The Perrule report displays one result per line, grouped by rule, and ordered by file and line number. Here is an example : 
 
 ::
     
@@ -3066,7 +3065,7 @@ _________
 
 StubsJson produces a complete description of definitions from the code.
 
-The StubsJson report includes : 
+StubsJson produces a complete description of definitions from the code. 
 
 + Global variables
 + Functions

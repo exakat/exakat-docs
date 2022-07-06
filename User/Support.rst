@@ -347,5 +347,5 @@ PHP extensions are described with the list of structures they define : functions
 * `ext/zend_monitor <http://files.zend.com/help/Zend-Server/content/zendserverapi/zend_monitor-php_api.htm>`_
 * ext/zip
 * ext/zlib
-* `ext/0mq <http://zeromq.org/>`_
+* ext/0mq
 * ext/zookeeper

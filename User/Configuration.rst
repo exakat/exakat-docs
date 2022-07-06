@@ -512,6 +512,10 @@ Analyzers may be configured in the `project/*/config.ini`; they may also be conf
   + cancelThreshold : 75
 
     + Minimal number of cancelled methods to suggest the cancellation of the parent.
+:ref:`Collect Vendor Structures <collect-vendor-structures>`
+  + pdffList : []
+
+    + List of vendors, their version and related PDFF. {'vendor':['wordpress.5.9.pdff','wordpress.5.8.pdff']}
 :ref:`Could Be A Constant <could-be-a-constant>`
   + minOccurences : 1
 
@@ -542,10 +546,6 @@ Analyzers may be configured in the `project/*/config.ini`; they may also be conf
   + forbiddenClasses : 
 
     + List of classes to be avoided
-:ref:`Dump/CollectVendorStructures <dump-collectvendorstructures>`
-  + pdffList : []
-
-    + List of vendors, their version and related PDFF. {'vendor':['wordpress.5.9.pdff','wordpress.5.8.pdff']}
 :ref:`Duplicate Literal <duplicate-literal>`
   + minDuplicate : 15
 
@@ -605,6 +605,10 @@ Analyzers may be configured in the `project/*/config.ini`; they may also be conf
   + nestedIfthen : 3
 
     + Maximal number of acceptable nesting of if-then structures
+:ref:`Nested Ternary <nested-ternary>`
+  + minNestedTernary : 2
+
+    + Minimal number of nested ternary to report.
 :ref:`PHP Keywords As Names <php-keywords-as-names>`
   + reservedNames : 
 

@@ -80,7 +80,6 @@ List of external links mentioned in this documentation.
 * `cat: write error: Broken pipe <https://askubuntu.com/questions/421663/cat-write-error-broken-pipe>`_
 * `Change the precedence of the concatenation operator <https://wiki.php.net/rfc/concatenation_precedence>`_
 * `Changes to variable handling <https://www.php.net/manual/en/migration70.incompatible.php>`_
-* `Class Abstraction <https://www.php.net/abstract>`_
 * `Class Constant <https://www.php.net/manual/en/language.oop5.constants.php>`_
 * `Classes Abstraction <https://www.php.net/abstract>`_
 * `Closure class <https://www.php.net/closure>`_
@@ -106,7 +105,6 @@ List of external links mentioned in this documentation.
 * `Deprecated features in PHP 7.2.x <https://www.php.net/manual/en/migration72.deprecated.php>`_
 * `Deprecations for PHP 7.2 <https://wiki.php.net/rfc/deprecations_php_7_2>`_
 * `DIO <https://www.php.net/manual/en/refs.fileprocess.file.php>`_
-* `Dir predefined constants <https://www.php.net/manual/en/dir.constants.php>`_
 * `directive error_reporting <https://www.php.net/manual/en/errorfunc.configuration.php#ini.error-reporting>`_
 * `dl <http://www.php.net/dl>`_
 * `Docker <http://www.docker.com/>`_
@@ -137,7 +135,6 @@ List of external links mentioned in this documentation.
 * `FAM <http://oss.sgi.com/projects/fam/>`_
 * `FastCGI Process Manager <https://www.php.net/fpm>`_
 * `filesystem <http://www.php.net/manual/en/book.filesystem.php>`_
-* `Final Keyword <https://www.php.net/manual/en/language.oop5.final.php>`_
 * `Firebase / Interbase <https://www.php.net/manual/en/book.ibase.php>`_
 * `Floating point numbers <https://www.php.net/manual/en/language.types.float.php#language.types.float>`_
 * `foreach <https://www.php.net/manual/en/control-structures.foreach.php>`_
@@ -167,8 +164,6 @@ List of external links mentioned in this documentation.
 * `IMAP <http://www.php.net/imap>`_
 * `include_once <https://www.php.net/manual/en/function.include-once.php>`_
 * `Installing Exakat to monitor several projects <https://www.exakat.io/installing-exakat-to-monitor-several-projects/>`_
-* `Integers <https://www.php.net/manual/en/language.types.integer.php>`_
-* `Interfaces <https://www.php.net/manual/en/language.oop5.interfaces.php>`_
 * `Internal Constructor Behavior <https://wiki.php.net/rfc/internal_constructor_behaviour>`_
 * `Is it a bad practice to have multiple classes in the same file? <https://stackoverflow.com/questions/360643/is-it-a-bad-practice-to-have-multiple-classes-in-the-same-file>`_
 * `Isset Ternary <https://wiki.php.net/rfc/isset_ternary>`_
@@ -186,7 +181,6 @@ List of external links mentioned in this documentation.
 * `Logical Operators <https://www.php.net/manual/en/language.operators.logical.php>`_
 * `Loosening Reserved Word Restrictions <https://www.php.net/manual/en/migration70.other-changes.php#migration70.other-changes.loosening-reserved-words>`_
 * `Magic Constants <https://www.php.net/manual/en/language.constants.predefined.php>`_
-* `Magic Method <https://www.php.net/manual/en/language.oop5.magic.php>`_
 * `Magic Methods <https://www.php.net/manual/en/language.oop5.magic.php>`_
 * `Magic methods <https://www.php.net/manual/en/language.oop5.magic.php>`_
 * `mail <https://www.php.net/mail>`_
@@ -194,7 +188,6 @@ List of external links mentioned in this documentation.
 * `Marco Pivetta tweet <https://twitter.com/Ocramius/status/811504929357660160>`_
 * `Mathematical Functions <https://www.php.net/manual/en/book.math.php>`_
 * `mcrypt_create_iv() <https://www.php.net/manual/en/function.mcrypt-create-iv.php>`_
-* `MD5 <https://www.php.net/md5>`_
 * `Memcache on PHP <http://www.php.net/manual/en/book.memcache.php>`_
 * `mercurial <https://www.mercurial-scm.org/>`_
 * `mhash <http://mhash.sourceforge.net/>`_
@@ -205,12 +198,9 @@ List of external links mentioned in this documentation.
 * `MongoDB driver <https://www.php.net/mongo>`_
 * `mysqli <https://www.php.net/manual/en/book.mysqli.php>`_
 * `Ncurses Terminal Screen Control <https://www.php.net/manual/en/book.ncurses.php>`_
-* `Nested Ternaries are Great <https://medium.com/javascript-scene/nested-ternaries-are-great-361bddd0f340>`_
 * `Net SNMP <http://www.net-snmp.org/>`_
-* `New custom object serialization mechanism <https://wiki.php.net/rfc/custom_object_serialization>`_
 * `Newt <http://people.redhat.com/rjones/ocaml-newt/html/Newt.html>`_
 * `No Dangling Reference <https://github.com/dseguy/clearPHP/blob/master/rules/no-dangling-reference.md>`_
-* `Object Calisthenics, rule # 5 <http://williamdurand.fr/2013/06/03/object-calisthenics/#one-dot-per-line>`_
 * `Object Inheritance <https://www.php.net/manual/en/language.oop5.inheritance.php>`_
 * `Objects and references <https://www.php.net/manual/en/language.oop5.references.php>`_
 * `OPcache functions <http://www.php.net/manual/en/book.opcache.php>`_
@@ -272,15 +262,14 @@ List of external links mentioned in this documentation.
 * `Salted Password Hashing - Doing it Right <https://crackstation.net/hashing-security.htm>`_
 * `Scope Resolution Operator (::) <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_
 * `Semaphore, Shared Memory and IPC <https://www.php.net/manual/en/book.sem.php>`_
-* `Sessions <https://www.php.net/manual/en/book.session.php>`_
 * `Set-Cookie <https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Set-Cookie>`_
 * `setlocale <https://www.php.net/setlocale>`_
 * `shell_exec <http://www.php.net/shell_exec>`_
+* `Show of hands: which syntax would you prefer in a PHP function - A, B or C?  <https://twitter.com/exakat/status/1542585298562998274>`_
 * `Specification pattern <https://en.wikipedia.org/wiki/Specification_pattern>`_
 * `Sphinx Client <https://www.php.net/manual/en/book.sphinx.php>`_
 * `sqlite3 <http://www.php.net/sqlite3>`_
 * `Static Keyword <https://www.php.net/manual/en/language.oop5.static.php>`_
-* `String access and modification by character <https://www.php.net/manual/en/language.types.string.php#language.types.string.substr>`_
 * `String functions <https://www.php.net/manual/en/ref.strings.php>`_
 * `strip_tags <https://www.php.net/manual/en/function.strip-tags.php>`_
 * `strtr <http://www.php.net/strtr>`_
@@ -294,7 +283,6 @@ List of external links mentioned in this documentation.
 * `The main PPA for PHP (8.0, 7.4, 7.3, 7.2, 7.1, 7.0, 5.6)  <https://launchpad.net/~ondrej/+archive/ubuntu/php>`_
 * `tokenizer <http://www.php.net/tokenizer>`_
 * `tokyo_tyrant <https://www.php.net/manual/en/book.tokyo-tyrant.php>`_
-* `trigger_error <https://www.php.net/trigger_error>`_
 * `Tutorial 1: Let’s learn by example <https://docs.phalconphp.com/en/latest/reference/tutorial.html>`_
 * `Type Casting <https://php.net/manual/en/language.types.type-juggling.php#language.types.typecasting>`_
 * `Type declarations <https://www.php.net/manual/en/functions.arguments.php#functions.arguments.type-declaration>`_
@@ -322,7 +310,6 @@ List of external links mentioned in this documentation.
 * `YAML Ain't Markup Language <http://www.yaml.org/>`_
 * `Yoda Conditions <https://en.wikipedia.org/wiki/Yoda_conditions>`_
 * `Zend Monitor - PHP API <http://files.zend.com/help/Zend-Server/content/zendserverapi/zend_monitor-php_api.htm>`_
-* `ZeroMQ <http://zeromq.org/>`_
 * `zip <https://en.wikipedia.org/wiki/Zip_(file_format)>`_
 
 

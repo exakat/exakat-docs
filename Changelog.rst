@@ -28,7 +28,7 @@ Here is the release note of exakat.
 
 
 + Architecture
-    + 
+    + Docs : fixed presentation for cobblers
 
 + Cobbler
     + New cobbler : remove abstract option
@@ -45,6 +45,20 @@ Here is the release note of exakat.
     + New analysis : Report Abstract Private methods in traits (php 8.0-)
     + Refactored analysis : Dynamic New now also works on parenthesis
     + New analysis : Report Utf8_encode() and utf8_decode() deprecation
+    + Refactored analysis : Create Default Values checks on self-transforming variables
+    + Refactored analysis : Missing Typehint skips constructor and destructor
+    + Refactored analysis : Useless constructor skip one that has other constructor calling it
+    + New analysis : Some Magic methods have compulsory return types
+    + Refactored analysis : Overwritten const is extended to classes without constants (but in their parent or interfaces)
+    + Refactored analysis : Nested ternaries now checks assignations, New parameter to set the min depth
+    + Refactored analysis : Instantiating Abstract now uses PDFF
+    + Refactored analysis : $this may be OK in closures (they can be rebinded later)
+    + Refactored analysis : Adding 'Void' returntype when possible
+    + Refactored analysis : Don't Collect Void was upgraded with methods returning nothing.
+    + Refactored analysis : Identical Expressions, now checks = and omits short assignations
+    + New analysis : If Then Return Favorite
+    + Refactored analysis : Useless Casting checks % distinctly
+    + Refactored analysis : Add Zero skips variables more often
 
 + Tokenizer
     + Fixed namespace's names dectection for older PHP versions

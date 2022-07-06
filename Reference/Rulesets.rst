@@ -6,7 +6,7 @@ Rulesets
 Introduction
 ------------------------
 
-Exakat provides unique 1502 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
+Exakat provides unique 1504 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
 
 For more smoothly usage, the ruleset concept allow you to run a set of rules based on a decidated focus. Beawre that a Ruleset run all the associated rules and any needed dependencies.
 
@@ -126,7 +126,7 @@ All
 
 All is a dummy ruleset, which includes all the rules. It is mostly used internally.
 
-Total : 1500 analysis
+Total : 1502 analysis
 
 * :ref:`adding-zero`
 * :ref:`ambiguous-array-index`
@@ -515,7 +515,7 @@ Total : 1500 analysis
 * :ref:`global-code-only`
 * :ref:`preprocess-arrays`
 * :ref:`repeated-print()`
-* :ref:`avoid-parenthesis`
+* :ref:`avoid-parenthesis-with-language-construct`
 * :ref:`objects-don't-need-references`
 * :ref:`redefined-property`
 * :ref:`locally-unused-property`
@@ -896,7 +896,7 @@ Total : 1500 analysis
 * :ref:`use-debug`
 * :ref:`no-class-as-typehint`
 * :ref:`no-reference-on-left-side`
-* :ref:`implemented-methods-are-public`
+* :ref:`implemented-methods-must-be-public`
 * :ref:`could-typehint`
 * :ref:`psr-16-usage`
 * :ref:`psr-7-usage`
@@ -1616,7 +1616,7 @@ Total : 1500 analysis
 * :ref:`identity`
 * :ref:`overload-existing-names`
 * :ref:`incoming-date-formats`
-* :ref:`dump-collectvendorstructures`
+* :ref:`collect-vendor-structures`
 * :ref:`array-addition`
 * :ref:`retyped-reference`
 * :ref:`could-be-enumeration`
@@ -1628,6 +1628,8 @@ Total : 1500 analysis
 * :ref:`same-name-for-property-and-method`
 * :ref:`no-private-abstract-method-in-trait`
 * :ref:`utf8-encode-and-decode-are-deprecated`
+* :ref:`magic-method-returntype-is-restricted`
+* :ref:`if-then-return-favorite`
 
 Specs
 _____
@@ -1745,7 +1747,7 @@ Total : 457 analysis
 * :ref:`catch-overwrite-variable`
 * :ref:`deep-definitions`
 * :ref:`repeated-print()`
-* :ref:`avoid-parenthesis`
+* :ref:`avoid-parenthesis-with-language-construct`
 * :ref:`objects-don't-need-references`
 * :ref:`lost-references`
 * :ref:`constants-created-outside-its-namespace`
@@ -1898,7 +1900,7 @@ Total : 457 analysis
 * :ref:`only-variable-passed-by-reference`
 * :ref:`no-return-used`
 * :ref:`no-reference-on-left-side`
-* :ref:`implemented-methods-are-public`
+* :ref:`implemented-methods-must-be-public`
 * :ref:`mixed-concat-and-interpolation`
 * :ref:`too-many-injections`
 * :ref:`could-make-a-function`
@@ -2560,7 +2562,7 @@ CE
 
 This ruleset is the Community Edition list. It holds all the analysis that are in the community edition version of Exakat.
 
-Total : 648 analysis
+Total : 646 analysis
 
 * :ref:`adding-zero`
 * :ref:`array-index`
@@ -2793,7 +2795,7 @@ Total : 648 analysis
 * :ref:`constant-class`
 * :ref:`not-definitions-only`
 * :ref:`repeated-print()`
-* :ref:`avoid-parenthesis`
+* :ref:`avoid-parenthesis-with-language-construct`
 * :ref:`objects-don't-need-references`
 * :ref:`no-real-comparison`
 * :ref:`usage-of-class\_alias()`
@@ -3208,8 +3210,6 @@ Total : 648 analysis
 * :ref:`php-80-named-parameter-variadic`
 * :ref:`final-private-methods`
 * :ref:`array\_map()-passes-by-value`
-* :ref:`ice-framework`
-* :ref:`extensions-exttaint`
 
 Specs
 _____
@@ -3276,7 +3276,7 @@ Total : 178 analysis
 * :ref:`lone-blocks`
 * :ref:`logical-should-use-symbolic-operators`
 * :ref:`repeated-print()`
-* :ref:`avoid-parenthesis`
+* :ref:`avoid-parenthesis-with-language-construct`
 * :ref:`objects-don't-need-references`
 * :ref:`no-real-comparison`
 * :ref:`no-direct-call-to-magic-method`
@@ -3447,7 +3447,7 @@ ClassReview
 
 This ruleset focuses on classes construction issues, and their related structures : traits, interfaces, methods, properties, constants.
 
-Total : 74 analysis
+Total : 75 analysis
 
 * :ref:`final-class-usage`
 * :ref:`final-methods-usage`
@@ -3523,6 +3523,7 @@ Total : 74 analysis
 * :ref:`could-set-property-default`
 * :ref:`wrong-type-with-default`
 * :ref:`same-name-for-property-and-method`
+* :ref:`magic-method-returntype-is-restricted`
 
 Specs
 _____
@@ -4568,7 +4569,7 @@ Total : 41 analysis
 * :ref:`public-reach-to-private-methods`
 * :ref:`could-be-a-constant`
 * :ref:`collect-stub-structures`
-* :ref:`dump-collectvendorstructures`
+* :ref:`collect-vendor-structures`
 
 Specs
 _____
@@ -4705,10 +4706,11 @@ IsExt
 
 This is automatically filled, based on the documentation's isExt attribute.
 
-Total : 29 analysis
+Total : 30 analysis
 
 * :ref:`static-methods-called-from-object`
 * :ref:`undefined-constants`
+* :ref:`instantiating-abstract-class`
 * :ref:`undefined-classes`
 * :ref:`defined-class-constants`
 * :ref:`undefined-class-constants`
@@ -4754,10 +4756,11 @@ IsPHP
 
 This is automatically filled, based on the documentation's isPHP attribute.
 
-Total : 29 analysis
+Total : 30 analysis
 
 * :ref:`static-methods-called-from-object`
 * :ref:`undefined-constants`
+* :ref:`instantiating-abstract-class`
 * :ref:`undefined-classes`
 * :ref:`defined-class-constants`
 * :ref:`undefined-class-constants`
@@ -4803,15 +4806,17 @@ IsStub
 
 This is automatically filled, based on the documentation's isStub attribute.
 
-Total : 26 analysis
+Total : 28 analysis
 
 * :ref:`static-methods-called-from-object`
 * :ref:`undefined-constants`
+* :ref:`instantiating-abstract-class`
 * :ref:`undefined-classes`
 * :ref:`defined-class-constants`
 * :ref:`undefined-class-constants`
 * :ref:`undefined-functions`
 * :ref:`wrong-number-of-arguments`
+* :ref:`access-protected-structures`
 * :ref:`undefined-interfaces`
 * :ref:`is-interface-method`
 * :ref:`already-parents-interface`
@@ -4849,7 +4854,7 @@ LintButWontExec
 
 This ruleset focuses on PHP code that lint (php -l), but that will not run. As such, this ruleset tries to go further than PHP, by connecting files, just like during execution.
 
-Total : 44 analysis
+Total : 45 analysis
 
 * :ref:`final-class-usage`
 * :ref:`final-methods-usage`
@@ -4864,6 +4869,7 @@ Total : 44 analysis
 * :ref:`undefined-trait`
 * :ref:`raised-access-level`
 * :ref:`self,-parent,-static-outside-class`
+* :ref:`implemented-methods-must-be-public`
 * :ref:`no-magic-method-with-array`
 * :ref:`method-signature-must-be-compatible`
 * :ref:`mismatch-type-and-default`
@@ -5082,7 +5088,7 @@ Preferences
 
 This ruleset identify code with multiple forms, and report when one is more frequent than the others. Echo vs print, shell_exec() vs ``, etc.
 
-Total : 31 analysis
+Total : 32 analysis
 
 * :ref:`true-false-inconsistant-case`
 * :ref:`echo-or-print`
@@ -5115,6 +5121,7 @@ Total : 31 analysis
 * :ref:`null-type-favorite`
 * :ref:`string-interpolation-favorite`
 * :ref:`constant--with-or-without-use`
+* :ref:`if-then-return-favorite`
 
 Specs
 _____
@@ -5277,7 +5284,7 @@ Suggestions
 
 This ruleset focuses on possibly better syntax than the one currently used. Those may be code modernization, alternatives, more efficient solutions, or simply left over from older versions. 
 
-Total : 112 analysis
+Total : 113 analysis
 
 * :ref:`while(list()-=-each())`
 * :ref:`function-subscripting,-old-style`
@@ -5391,6 +5398,7 @@ Total : 112 analysis
 * :ref:`lowered-access-level`
 * :ref:`could-set-property-default`
 * :ref:`could-be-enumeration`
+* :ref:`magic-method-returntype-is-restricted`
 
 Specs
 _____
