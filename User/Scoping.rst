@@ -924,6 +924,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Php/Crc32MightBeNegative";
    analyzer[] = "Php/CryptoUsage";
    analyzer[] = "Php/DateFormats";
+   analyzer[] = "Php/DateTimeNotImmutable";
    analyzer[] = "Php/DeclareEncoding";
    analyzer[] = "Php/DeclareStrict";
    analyzer[] = "Php/DeclareStrictType";
@@ -1573,6 +1574,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Typehints/CouldBeNever";
    analyzer[] = "Typehints/CouldBeNull";
    analyzer[] = "Typehints/CouldBeParent";
+   analyzer[] = "Typehints/CouldBeResource";
    analyzer[] = "Typehints/CouldBeSelf";
    analyzer[] = "Typehints/CouldBeString";
    analyzer[] = "Typehints/CouldBeVoid";
@@ -2441,6 +2443,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Php/Crc32MightBeNegative'
      - 'Php/CryptoUsage'
      - 'Php/DateFormats'
+     - 'Php/DateTimeNotImmutable'
      - 'Php/DeclareEncoding'
      - 'Php/DeclareStrict'
      - 'Php/DeclareStrictType'
@@ -3090,6 +3093,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Typehints/CouldBeNever'
      - 'Typehints/CouldBeNull'
      - 'Typehints/CouldBeParent'
+     - 'Typehints/CouldBeResource'
      - 'Typehints/CouldBeSelf'
      - 'Typehints/CouldBeString'
      - 'Typehints/CouldBeVoid'
@@ -8958,6 +8962,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Complete/PhpNativeReference";
    analyzer[] = "Constants/UndefinedConstants";
    analyzer[] = "Enums/UndefinedEnumcase";
+   analyzer[] = "Functions/DontUseVoid";
    analyzer[] = "Functions/OnlyVariablePassedByReference";
    analyzer[] = "Functions/UndefinedFunctions";
    analyzer[] = "Functions/WrongArgumentNameWithPhpFunction";
@@ -9001,6 +9006,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Complete/PhpNativeReference'
      - 'Constants/UndefinedConstants'
      - 'Enums/UndefinedEnumcase'
+     - 'Functions/DontUseVoid'
      - 'Functions/OnlyVariablePassedByReference'
      - 'Functions/UndefinedFunctions'
      - 'Functions/WrongArgumentNameWithPhpFunction'
@@ -9051,6 +9057,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Complete/PhpNativeReference";
    analyzer[] = "Constants/UndefinedConstants";
    analyzer[] = "Enums/UndefinedEnumcase";
+   analyzer[] = "Functions/DontUseVoid";
    analyzer[] = "Functions/OnlyVariablePassedByReference";
    analyzer[] = "Functions/UndefinedFunctions";
    analyzer[] = "Functions/WrongArgumentNameWithPhpFunction";
@@ -9094,6 +9101,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Complete/PhpNativeReference'
      - 'Constants/UndefinedConstants'
      - 'Enums/UndefinedEnumcase'
+     - 'Functions/DontUseVoid'
      - 'Functions/OnlyVariablePassedByReference'
      - 'Functions/UndefinedFunctions'
      - 'Functions/WrongArgumentNameWithPhpFunction'
@@ -9144,6 +9152,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Complete/PhpNativeReference";
    analyzer[] = "Constants/UndefinedConstants";
    analyzer[] = "Enums/UndefinedEnumcase";
+   analyzer[] = "Functions/DontUseVoid";
    analyzer[] = "Functions/OnlyVariablePassedByReference";
    analyzer[] = "Functions/UndefinedFunctions";
    analyzer[] = "Functions/WrongArgumentNameWithPhpFunction";
@@ -9185,6 +9194,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Complete/PhpNativeReference'
      - 'Constants/UndefinedConstants'
      - 'Enums/UndefinedEnumcase'
+     - 'Functions/DontUseVoid'
      - 'Functions/OnlyVariablePassedByReference'
      - 'Functions/UndefinedFunctions'
      - 'Functions/WrongArgumentNameWithPhpFunction'
@@ -9244,6 +9254,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Functions/MustReturn";
    analyzer[] = "Functions/OnlyVariableForReference";
    analyzer[] = "Functions/TypehintMustBeReturned";
+   analyzer[] = "Functions/WrongReturnedType";
    analyzer[] = "Interfaces/AvoidSelfInInterface";
    analyzer[] = "Interfaces/CantImplementTraversable";
    analyzer[] = "Interfaces/CantOverloadConstants";
@@ -9302,6 +9313,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Functions/MustReturn'
      - 'Functions/OnlyVariableForReference'
      - 'Functions/TypehintMustBeReturned'
+     - 'Functions/WrongReturnedType'
      - 'Interfaces/AvoidSelfInInterface'
      - 'Interfaces/CantImplementTraversable'
      - 'Interfaces/CantOverloadConstants'
@@ -10410,6 +10422,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Typehints/CouldBeNever";
    analyzer[] = "Typehints/CouldBeNull";
    analyzer[] = "Typehints/CouldBeParent";
+   analyzer[] = "Typehints/CouldBeResource";
    analyzer[] = "Typehints/CouldBeSelf";
    analyzer[] = "Typehints/CouldBeString";
    analyzer[] = "Typehints/CouldBeVoid";
@@ -10449,6 +10462,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Typehints/CouldBeNever'
      - 'Typehints/CouldBeNull'
      - 'Typehints/CouldBeParent'
+     - 'Typehints/CouldBeResource'
      - 'Typehints/CouldBeSelf'
      - 'Typehints/CouldBeString'
      - 'Typehints/CouldBeVoid'

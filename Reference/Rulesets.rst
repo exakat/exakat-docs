@@ -6,7 +6,7 @@ Rulesets
 Introduction
 ------------------------
 
-Exakat provides unique 1504 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
+Exakat provides unique 1506 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
 
 For more smoothly usage, the ruleset concept allow you to run a set of rules based on a decidated focus. Beawre that a Ruleset run all the associated rules and any needed dependencies.
 
@@ -126,7 +126,7 @@ All
 
 All is a dummy ruleset, which includes all the rules. It is mostly used internally.
 
-Total : 1502 analysis
+Total : 1504 analysis
 
 * :ref:`adding-zero`
 * :ref:`ambiguous-array-index`
@@ -1630,6 +1630,8 @@ Total : 1502 analysis
 * :ref:`utf8-encode-and-decode-are-deprecated`
 * :ref:`magic-method-returntype-is-restricted`
 * :ref:`if-then-return-favorite`
+* :ref:`typehints-couldberesource`
+* :ref:`datetimeimmutable-is-not-immutable`
 
 Specs
 _____
@@ -4706,7 +4708,7 @@ IsExt
 
 This is automatically filled, based on the documentation's isExt attribute.
 
-Total : 30 analysis
+Total : 31 analysis
 
 * :ref:`static-methods-called-from-object`
 * :ref:`undefined-constants`
@@ -4730,6 +4732,7 @@ Total : 30 analysis
 * :ref:`php-native-reference-variable`
 * :ref:`interfaces-is-not-implemented`
 * :ref:`make-functioncall-with-reference`
+* :ref:`dont-collect-void`
 * :ref:`array\_map()-passes-by-value`
 * :ref:`only-container-for-reference`
 * :ref:`wrong-argument-name-with-php-function`
@@ -4756,7 +4759,7 @@ IsPHP
 
 This is automatically filled, based on the documentation's isPHP attribute.
 
-Total : 30 analysis
+Total : 31 analysis
 
 * :ref:`static-methods-called-from-object`
 * :ref:`undefined-constants`
@@ -4780,6 +4783,7 @@ Total : 30 analysis
 * :ref:`php-native-reference-variable`
 * :ref:`interfaces-is-not-implemented`
 * :ref:`make-functioncall-with-reference`
+* :ref:`dont-collect-void`
 * :ref:`array\_map()-passes-by-value`
 * :ref:`only-container-for-reference`
 * :ref:`wrong-argument-name-with-php-function`
@@ -4806,7 +4810,7 @@ IsStub
 
 This is automatically filled, based on the documentation's isStub attribute.
 
-Total : 28 analysis
+Total : 29 analysis
 
 * :ref:`static-methods-called-from-object`
 * :ref:`undefined-constants`
@@ -4828,6 +4832,7 @@ Total : 28 analysis
 * :ref:`php-native-reference-variable`
 * :ref:`interfaces-is-not-implemented`
 * :ref:`make-functioncall-with-reference`
+* :ref:`dont-collect-void`
 * :ref:`array\_map()-passes-by-value`
 * :ref:`only-container-for-reference`
 * :ref:`wrong-argument-name-with-php-function`
@@ -4854,7 +4859,7 @@ LintButWontExec
 
 This ruleset focuses on PHP code that lint (php -l), but that will not run. As such, this ruleset tries to go further than PHP, by connecting files, just like during execution.
 
-Total : 45 analysis
+Total : 46 analysis
 
 * :ref:`final-class-usage`
 * :ref:`final-methods-usage`
@@ -4885,6 +4890,7 @@ Total : 45 analysis
 * :ref:`typehint-must-be-returned`
 * :ref:`clone-with-non-object`
 * :ref:`trait-not-found`
+* :ref:`wrong-type-returned`
 * :ref:`interfaces-is-not-implemented`
 * :ref:`can't-implement-traversable`
 * :ref:`wrong-typed-property-default`
@@ -5492,7 +5498,7 @@ Typechecks
 
 This ruleset focuses on typehinting. Missing typehints, or inconsistent typehint, are reported. 
 
-Total : 26 analysis
+Total : 27 analysis
 
 * :ref:`argument-should-be-typehinted`
 * :ref:`useless-interfaces`
@@ -5520,6 +5526,7 @@ Total : 26 analysis
 * :ref:`could-be-generator`
 * :ref:`argument-could-be-iterable`
 * :ref:`type-could-be-never`
+* :ref:`typehints-couldberesource`
 
 Specs
 _____

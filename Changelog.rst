@@ -6,7 +6,7 @@ Release Note
 
 Here is the release note of exakat. 
 
-**Version 2.4.6 (???, 2022-07-21)**
+**Version 2.4.7 (???, 2022-07-21)**
 
 
 + Architecture
@@ -23,6 +23,24 @@ Here is the release note of exakat.
 
 + Tokenizer
     + 
+
+**Version 2.4.6 (???, 2022-07-21)**
+
+
++ Architecture
+    + 
+
++ Cobbler
+    + New cobbler : adds brackets to single-instruction commands
+
++ Report
+    + Ambassador : refactored trait matrix
+
++ Analysis
+    + Refactored analysis : Wrong Type Hint with First Class Callable
+
++ Tokenizer
+    + Typed all internal atoms
 
 **Version 2.4.5 (Li Yuanji, 2022-07-07)**
 
@@ -59,6 +77,8 @@ Here is the release note of exakat.
     + New analysis : If Then Return Favorite
     + Refactored analysis : Useless Casting checks % distinctly
     + Refactored analysis : Add Zero skips variables more often
+    + New analysis : Could Be Resource
+    + New analysis : DateTime Immutable is not immutable
 
 + Tokenizer
     + Fixed namespace's names dectection for older PHP versions
