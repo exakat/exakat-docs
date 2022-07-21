@@ -6,7 +6,7 @@ Release Note
 
 Here is the release note of exakat. 
 
-**Version 2.4.7 (???, 2022-07-21)**
+**Version 2.4.8 (???, 2022-08-27)**
 
 
 + Architecture
@@ -24,11 +24,31 @@ Here is the release note of exakat.
 + Tokenizer
     + 
 
-**Version 2.4.6 (???, 2022-07-21)**
+**Version 2.4.7 (Xu Jingzong, 2022-08-03)**
 
 
 + Architecture
     + 
+
++ Cobbler
+    + New cobbler : remove brackets to single-instruction commands
+
++ Report
+    + 
+
++ Analysis
+    + Refactored analysis : Could Use Array_sum()
+    + Refactored analysis : Wrong Attribute with properties
+
++ Tokenizer
+    + 
+
+**Version 2.4.6 (Li Yuanji, 2022-07-20)**
+
+
++ Architecture
+    + Skip loading of WS property when only doing an audit (speed up loading)
+    + Finished moved to Gremlin 3.6
 
 + Cobbler
     + New cobbler : adds brackets to single-instruction commands
@@ -38,9 +58,12 @@ Here is the release note of exakat.
 
 + Analysis
     + Refactored analysis : Wrong Type Hint with First Class Callable
+    + New analysis : PHP 8.2 new functions
+    + Refactored analysis : Useless Cast takes advantages of const types
 
 + Tokenizer
     + Typed all internal atoms
+    + Added types to internal loading engine
 
 **Version 2.4.5 (Li Yuanji, 2022-07-07)**
 

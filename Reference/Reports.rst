@@ -135,7 +135,7 @@ The Beauty Canon report displays one result per line. This report lists all issu
 
 The title of the analysis is listed on the left, and the analysis short name is listed on the right, for further documentation.
 
-This analysis uses Analysis as default rule. It may otherwise parametered with the -T option.
+This analysis uses Analysis as default rule. It may otherwise configured with the -T option.
 
 
 
@@ -184,7 +184,7 @@ ___________
 
 The ClassReview report focuses on reviewing classes, traits and interfaces.
 
-The ClassReview report focuses on good code hygiene for classes, interfaces and traits. 
+The ` :ref:`report-classreview` `` report focuses on good code hygiene for classes, interfaces, enumerations and traits. 
 
 It checks the internal structure of classes, and suggest visibility, typehint updates.
 
@@ -259,7 +259,7 @@ ______________
 
 The Clustergrammar report format data for a clustergrammer diagram.
 
-Clustergrammer is a visualisation tool that may be found online. After generation of this report, a TEXT file is available in the project directory. Upload it on `http://amp.pharm.mssm.edu/clustergrammer/ <http://amp.pharm.mssm.edu/clustergrammer/>`_ to visualize it. 
+` :ref:`report-clustergrammer` ` is a visualisation tool that may be found online. After generation of this report, a TEXT file is available in the project directory. Upload it on `http://amp.pharm.mssm.edu/clustergrammer/ <http://amp.pharm.mssm.edu/clustergrammer/>`_ to visualize it. 
 
 See a live report here : `Clustergrammer <http://amp.pharm.mssm.edu/clustergrammer/viz_sim_mats/5a8d41bf3a82d32a9dacddd9/clustergrammer.txt>`_.
 
@@ -970,7 +970,7 @@ __________
 
 Builds a list of ruleset, based on the number of issues from the previous audit.
 
-Exakatyaml helpls with the configuration of exakat in a CI. It builds a list of ruleset, based on the number of issues from the previous audit.
+Exakatyaml helps with the configuration of exakat in a CI. It builds a list of ruleset, based on the number of issues from the previous audit.
 
 Continuous Integration require steps that yield no issues. This is good for analysis that yield no results : in a word, all analysis that are currently clean should be in the CI. That way, any return will be monitored.
 
@@ -2765,7 +2765,7 @@ Some issues spotted by Exakat may be fixed automagically by Rector. Rector offer
 
 For example, `CombinedAssignRector <https://github.com/rectorphp/rector/blob/master/docs/AllRectorsOverview.md#combinedassignrector>`_, simplifies ``$value = $value + 5`` into ``+$value += 5;``. On Exakat, the rule `Structures/CouldUseShortAssignation <(https://exakat.readthedocs.io/en/latest/Rules.html#could-use-short-assignation>`_ spot those too.
 
-Not all exakat rules are covered by Rector, and vice-versa. `CompactToVariablesRector <https://github.com/rectorphp/rector/blob/master/docs/AllRectorsOverview.md#compacttovariablesrector>`_ aims à skipping usage of compact(), while `Structures/CouldUseCompact <https://exakat.readthedocs.io/en/latest/Rules.html#could-use-compact>`_ suggest the contrary. 
+Not all exakat rules are covered by Rector, and vice-versa. `CompactToVariablesRector <https://github.com/rectorphp/rector/blob/master/docs/AllRectorsOverview.md#compacttovariablesrector>`_ aims at skipping usage of compact(), while `Structures/CouldUseCompact <https://exakat.readthedocs.io/en/latest/Rules.html#could-use-compact>`_ suggest the contrary. 
 
 Rector and Exakat both use different approaches to code review. It is recommended to review the changes before committing them.
 

@@ -54,6 +54,13 @@ _____
    
    ?>
 
+.. _add-brackets-to-single-instructions-reverse-cobbler:
+
+Reverse Cobbler
+_______________
+
+* :ref:`No anchor for Structures/RemoveBracketsAroundSingleInstruction.ini <no-anchor-for-structures-removebracketsaroundsingleinstruction.ini>`
+
 
 
 .. _add-brackets-to-single-instructions-specs:
@@ -719,6 +726,63 @@ _____
 +----------------+------------------------------------------------------------------+
 | Available in   | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_ |
 +----------------+------------------------------------------------------------------+
+
+
+.. _structures-removebracketsaroundsingleinstruction:
+
+.. _remove-brackets-around-single-instruction:
+
+Remove Brackets Around Single Instruction
++++++++++++++++++++++++++++++++++++++++++
+This cobbler removes brackets when they are not compulsory. This applies to single instruction, on for(), foreach(), while(), do...while() structures.
+
+This also means that any refactoring that grows the instruction again to multiple instructions has to add the brackets again.  
+
+There is no gain in speed or code lenght by removing those brackets.
+
+
+
+.. _remove-brackets-around-single-instruction-before:
+
+Before
+______
+.. code-block:: php
+
+   <?php
+   	foreach($i = 0; $i < 10; ++$i) { $total += 1; }
+   ?>
+
+.. _remove-brackets-around-single-instruction-after:
+
+After
+_____
+.. code-block:: php
+
+   <?php
+   	foreach($i = 0; $i < 10; ++$i)  $total += 1;
+   ?>
+
+.. _remove-brackets-around-single-instruction-reverse-cobbler:
+
+Reverse Cobbler
+_______________
+
+* :ref:`add-brackets-to-single-instructions`
+
+
+
+.. _remove-brackets-around-single-instruction-specs:
+
+Specs
+_____
+
++----------------+--------------------------------------------------+
+| Short Name     | Structures/RemoveBracketsAroundSingleInstruction |
++----------------+--------------------------------------------------+
+| Exakat version | 2.3.0                                            |
++----------------+--------------------------------------------------+
+| Available in   |                                                  |
++----------------+--------------------------------------------------+
 
 
 .. _structures-removedollarcurly:

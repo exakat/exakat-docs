@@ -78,7 +78,6 @@ List of external links mentioned in this documentation.
 * `Carbon <https://carbon.nesbot.com/docs/>`_
 * `Carnage <https://twitter.com/giveupalready>`_
 * `cat: write error: Broken pipe <https://askubuntu.com/questions/421663/cat-write-error-broken-pipe>`_
-* `Change the precedence of the concatenation operator <https://wiki.php.net/rfc/concatenation_precedence>`_
 * `Changes to variable handling <https://www.php.net/manual/en/migration70.incompatible.php>`_
 * `Class Constant <https://www.php.net/manual/en/language.oop5.constants.php>`_
 * `Classes Abstraction <https://www.php.net/abstract>`_
@@ -271,7 +270,6 @@ List of external links mentioned in this documentation.
 * `sqlite3 <http://www.php.net/sqlite3>`_
 * `Static Keyword <https://www.php.net/manual/en/language.oop5.static.php>`_
 * `String functions <https://www.php.net/manual/en/ref.strings.php>`_
-* `strip_tags <https://www.php.net/manual/en/function.strip-tags.php>`_
 * `strtr <http://www.php.net/strtr>`_
 * `Subpatterns <https://www.php.net/manual/en/regexp.reference.subpatterns.php>`_
 * `Suhosin.org <https://suhosin.org/>`_
@@ -298,7 +296,6 @@ List of external links mentioned in this documentation.
 * `Variable functions <https://www.php.net/manual/en/functions.variable-functions.php>`_
 * `Variable scope <https://www.php.net/manual/en/language.variables.scope.php>`_
 * `Variable Scope <https://www.php.net/manual/en/language.variables.scope.php>`_
-* `Visibility <https://www.php.net/manual/en/language.oop5.visibility.php>`_
 * `Vladimir Reznichenko <https://twitter.com/kalessil>`_
 * `Void functions <https://www.php.net/manual/en/migration71.new-features.php#migration71.new-features.void-functions>`_
 * `Weak references <https://www.php.net/manual/en/book.weakref.php>`_

@@ -1072,6 +1072,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Php/Php81RemovedDirective";
    analyzer[] = "Php/Php81RemovedFunctions";
    analyzer[] = "Php/Php81RemovesResources";
+   analyzer[] = "Php/Php82NewFunctions";
    analyzer[] = "Php/PhpErrorMsgUsage";
    analyzer[] = "Php/PregMatchAllFlag";
    analyzer[] = "Php/Prints";
@@ -2591,6 +2592,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Php/Php81RemovedDirective'
      - 'Php/Php81RemovedFunctions'
      - 'Php/Php81RemovesResources'
+     - 'Php/Php82NewFunctions'
      - 'Php/PhpErrorMsgUsage'
      - 'Php/PregMatchAllFlag'
      - 'Php/Prints'
@@ -8493,6 +8495,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Functions/DeprecatedCallable";
    analyzer[] = "Php/DeprecateDollarCurly";
    analyzer[] = "Php/FalseToArray";
+   analyzer[] = "Php/Php82NewFunctions";
    analyzer[] = "Php/Utf8EncodeDeprecated";
    analyzer[] = "Php/VersionCompareOperator";
    analyzer[] = "Traits/CannotCallTraitMethod";
@@ -8515,6 +8518,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Functions/DeprecatedCallable'
      - 'Php/DeprecateDollarCurly'
      - 'Php/FalseToArray'
+     - 'Php/Php82NewFunctions'
      - 'Php/Utf8EncodeDeprecated'
      - 'Php/VersionCompareOperator'
      - 'Traits/CannotCallTraitMethod'

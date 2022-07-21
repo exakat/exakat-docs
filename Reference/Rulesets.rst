@@ -6,7 +6,7 @@ Rulesets
 Introduction
 ------------------------
 
-Exakat provides unique 1506 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
+Exakat provides unique 1507 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
 
 For more smoothly usage, the ruleset concept allow you to run a set of rules based on a decidated focus. Beawre that a Ruleset run all the associated rules and any needed dependencies.
 
@@ -126,7 +126,7 @@ All
 
 All is a dummy ruleset, which includes all the rules. It is mostly used internally.
 
-Total : 1504 analysis
+Total : 1505 analysis
 
 * :ref:`adding-zero`
 * :ref:`ambiguous-array-index`
@@ -1278,7 +1278,7 @@ Total : 1504 analysis
 * :ref:`php-7.4-removed-directives`
 * :ref:`hash-algorithms-incompatible-with-php-7.4-`
 * :ref:`openssl\_random\_pseudo\_byte()-second-argument`
-* :ref:`strip\_tags-skips-closed-tag`
+* :ref:`strip\_tags()-skips-closed-tag`
 * :ref:`no-spread-for-hash`
 * :ref:`use-covariance`
 * :ref:`use-contravariance`
@@ -1320,7 +1320,7 @@ Total : 1504 analysis
 * :ref:`use-the-case-value`
 * :ref:`dereferencing-levels`
 * :ref:`too-many-dereferencing`
-* :ref:`use-url-query-functions`
+* :ref:`should-use-url-query-functions`
 * :ref:`make-functioncall-with-reference`
 * :ref:`foreach()-favorite`
 * :ref:`can't-implement-traversable`
@@ -1632,6 +1632,7 @@ Total : 1504 analysis
 * :ref:`if-then-return-favorite`
 * :ref:`typehints-couldberesource`
 * :ref:`datetimeimmutable-is-not-immutable`
+* :ref:`new-functions-in-php-8.2`
 
 Specs
 _____
@@ -2007,7 +2008,7 @@ Total : 457 analysis
 * :ref:`scalar-are-not-arrays`
 * :ref:`array\_merge()-and-variadic`
 * :ref:`implode()-arguments-order`
-* :ref:`strip\_tags-skips-closed-tag`
+* :ref:`strip\_tags()-skips-closed-tag`
 * :ref:`no-spread-for-hash`
 * :ref:`max-level-of-nesting`
 * :ref:`should-use-explode-args`
@@ -3116,7 +3117,7 @@ Total : 646 analysis
 * :ref:`php-7.4-removed-directives`
 * :ref:`hash-algorithms-incompatible-with-php-7.4-`
 * :ref:`openssl\_random\_pseudo\_byte()-second-argument`
-* :ref:`strip\_tags-skips-closed-tag`
+* :ref:`strip\_tags()-skips-closed-tag`
 * :ref:`use-covariance`
 * :ref:`use-contravariance`
 * :ref:`set-array-class-definition`
@@ -3391,7 +3392,7 @@ Total : 178 analysis
 * :ref:`class-without-parent`
 * :ref:`scalar-are-not-arrays`
 * :ref:`implode()-arguments-order`
-* :ref:`strip\_tags-skips-closed-tag`
+* :ref:`strip\_tags()-skips-closed-tag`
 * :ref:`should-use-explode-args`
 * :ref:`use-array\_slice()`
 * :ref:`coalesce-and-concat`
@@ -3435,11 +3436,11 @@ Total : 0 analysis
 Specs
 _____
 
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Short name   | Changed Behavior                                                                                                        |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
++--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Short name   | Changed Behavior                                                                                                                                                                        |
++--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Community Edition <https://www.exakat.io/community-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
++--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
 .. _ruleset-classreview:
@@ -4406,7 +4407,7 @@ CompatibilityPHP82
 
 This ruleset centralizes all analysis for the migration from PHP 8.1 to 8.2.
 
-Total : 9 analysis
+Total : 10 analysis
 
 * :ref:`false-to-array-conversion`
 * :ref:`float-conversion-as-index`
@@ -4417,6 +4418,7 @@ Total : 9 analysis
 * :ref:`version\_compare-operator`
 * :ref:`dollar-curly-interpolation-is-deprecated`
 * :ref:`utf8-encode-and-decode-are-deprecated`
+* :ref:`new-functions-in-php-8.2`
 
 Specs
 _____
@@ -5372,7 +5374,7 @@ Total : 113 analysis
 * :ref:`set-aside-code`
 * :ref:`use-array-functions`
 * :ref:`use-the-case-value`
-* :ref:`use-url-query-functions`
+* :ref:`should-use-url-query-functions`
 * :ref:`too-long-a-block`
 * :ref:`static-global-variables-confusion`
 * :ref:`possible-alias-confusion`
