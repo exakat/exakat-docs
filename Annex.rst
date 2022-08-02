@@ -53,10 +53,8 @@ External links
 
 List of external links mentioned in this documentation.
 
-* `$GLOBALS <https://www.php.net/manual/en/reserved.variables.globals.php>`_
 * `$HTTP_RAW_POST_DATA variable <https://www.php.net/manual/en/reserved.variables.httprawpostdata.php>`_
 * `7z <https://www.7-zip.org/7z.html>`_
-* `::class <https://www.php.net/manual/en/language.oop5.basic.php#language.oop5.basic.class.class>`_
 * `@deprecated <https://docs.phpdoc.org/latest/references/phpdoc/tags/deprecated.html>`_
 * `[HttpFoundation] Make sessions secure and lazy #24523 <https://github.com/symfony/symfony/pull/24523>`_
 * `Add Exakat To Your CI Pipeline <https://www.exakat.io/add-exakat-to-your-ci-pipeline/>`_
@@ -79,17 +77,13 @@ List of external links mentioned in this documentation.
 * `Carnage <https://twitter.com/giveupalready>`_
 * `cat: write error: Broken pipe <https://askubuntu.com/questions/421663/cat-write-error-broken-pipe>`_
 * `Changes to variable handling <https://www.php.net/manual/en/migration70.incompatible.php>`_
-* `Class Constant <https://www.php.net/manual/en/language.oop5.constants.php>`_
 * `Classes Abstraction <https://www.php.net/abstract>`_
 * `Closure class <https://www.php.net/closure>`_
-* `Cmark <https://github.com/commonmark/cmark>`_
 * `COM and .Net (Windows) <https://www.php.net/manual/en/book.com.php>`_
 * `compact <http://www.php.net/compact>`_
-* `Comparison Operators <https://www.php.net/manual/en/language.operators.comparison.php>`_
 * `composer <https://getcomposer.org/>`_
 * `Constant Scalar Expressions <https://wiki.php.net/rfc/const_scalar_exprs>`_
 * `continue-on-error <https://docs.github.com/en/actions/learn-github-actions/workflow-syntax-for-github-actions#jobsjob_idstepscontinue-on-error>`_
-* `count <https://www.php.net/count>`_
 * `Courier Anti-pattern <https://r.je/oop-courier-anti-pattern.html>`_
 * `curl <http://www.php.net/curl>`_
 * `curl_version <https://www.php.net/manual/en/function.curl-version.php>`_
@@ -97,8 +91,6 @@ List of external links mentioned in this documentation.
 * `Cyrus <https://www.php.net/manual/en/book.cyrus.php>`_
 * `Data structures <http://docs.php.net/manual/en/book.ds.php>`_
 * `DCDFLIB <https://people.sc.fsu.edu/~jburkardt/c_src/cdflib/cdflib.html>`_
-* `define <https://www.php.net/manual/en/function.define.php>`_
-* `Dependency Injection Smells <http://seregazhuk.github.io/2017/05/04/di-smells/>`_
 * `Deprecate and remove INTL_IDNA_VARIANT_2003 <https://wiki.php.net/rfc/deprecate-and-remove-intl_idna_variant_2003>`_
 * `Deprecated features in PHP 5.4.x <https://www.php.net/manual/en/migration54.deprecated.php>`_
 * `Deprecated features in PHP 7.2.x <https://www.php.net/manual/en/migration72.deprecated.php>`_
@@ -129,7 +121,6 @@ List of external links mentioned in this documentation.
 * `ext/leveldb on Github <https://github.com/reeze/php-leveldb>`_
 * `ext/recode <http://www.php.net/manual/en/book.recode.php>`_
 * `ext/SeasLog on Github <https://github.com/SeasX/SeasLog>`_
-* `ext/sqlite <https://www.php.net/manual/en/book.sqlite.php>`_
 * `Factory (object-oriented programming) <https://en.wikipedia.org/wiki/Factory_(object-oriented_programming)>`_
 * `FAM <http://oss.sgi.com/projects/fam/>`_
 * `FastCGI Process Manager <https://www.php.net/fpm>`_
@@ -148,7 +139,6 @@ List of external links mentioned in this documentation.
 * `Gremlin server <http://tinkerpop.apache.org/>`_
 * `hash <http://www.php.net/hash>`_
 * `hash_algos <https://www.php.net/hash_algos>`_
-* `hash_file <https://www.php.net/manual/en/function.hash-file.php>`_
 * `Holger Woltersdorf <https://twitter.com/hollodotme>`_
 * `How to fix Headers already sent error in PHP <http://stackoverflow.com/questions/8028957/how-to-fix-headers-already-sent-error-in-php>`_
 * `htmlentities <https://www.php.net/htmlentities>`_
@@ -172,7 +162,6 @@ List of external links mentioned in this documentation.
 * `libeio <http://software.schmorp.de/pkg/libeio.html>`_
 * `libevent <http://libevent.org/>`_
 * `libmongoc <https://github.com/mongodb/mongo-c-driver>`_
-* `libuuid <https://linux.die.net/man/3/libuuid>`_
 * `list <https://www.php.net/manual/en/function.list.php>`_
 * `List of Keywords <https://www.php.net/manual/en/reserved.keywords.php>`_
 * `List of other reserved words <https://www.php.net/manual/en/reserved.other-reserved-words.php>`_
@@ -200,12 +189,10 @@ List of external links mentioned in this documentation.
 * `Net SNMP <http://www.net-snmp.org/>`_
 * `Newt <http://people.redhat.com/rjones/ocaml-newt/html/Newt.html>`_
 * `No Dangling Reference <https://github.com/dseguy/clearPHP/blob/master/rules/no-dangling-reference.md>`_
-* `Object Inheritance <https://www.php.net/manual/en/language.oop5.inheritance.php>`_
 * `Objects and references <https://www.php.net/manual/en/language.oop5.references.php>`_
 * `OPcache functions <http://www.php.net/manual/en/book.opcache.php>`_
 * `opencensus <https://github.com/census-instrumentation/opencensus-php>`_
 * `openssl_random_pseudo_byte <https://www.php.net/openssl_random_pseudo_bytes>`_
-* `Operators Precedence <https://www.php.net/manual/en/language.operators.precedence.php>`_
 * `Optimize array_unique() <https://github.com/php/php-src/commit/6c2c7a023da4223e41fea0225c51a417fc8eb10d>`_
 * `Option to make json_encode and json_decode throw exceptions on errors <https://ayesh.me/Upgrade-PHP-7.3#json-exceptions>`_
 * `Oracle OCI8 <https://www.php.net/manual/en/book.oci8.php>`_
@@ -229,19 +216,15 @@ List of external links mentioned in this documentation.
 * `PHP <https://www.php.net/>`_
 * `PHP for loops and counting arrays <https://electrictoolbox.com/php-for-loop-counting-array/>`_
 * `PHP gmagick <http://www.php.net/manual/en/book.gmagick.php>`_
-* `PHP RFC: Deprecations for PHP 7.2 : Each() <https://wiki.php.net/rfc/deprecations_php_7_2#each>`_
 * `PHP RFC: Deprecations for PHP 8.1 <https://wiki.php.net/rfc/deprecations_php_8_1>`_
 * `PHP Tags <https://www.php.net/manual/en/language.basic-syntax.phptags.php>`_
 * `php-ext-wasm <https://github.com/Hywan/php-ext-wasm>`_
-* `php-vips-ext <https://github.com/jcupitt/php-vips-ext>`_
-* `PHP: When is /tmp not /tmp? <https://www.the-art-of-web.com/php/where-is-tmp/>`_
 * `phpsdl <https://github.com/Ponup/phpsdl>`_
 * `plantuml <http://plantuml.com/>`_
 * `PMB <https://www.sigb.net/>`_
 * `Prepare for PHP migration with Exakat <https://www.exakat.io/prepare-for-php-migration-with-exakat/>`_
 * `printf <https://www.php.net/printf>`_
 * `proctitle <https://www.php.net/manual/en/book.proctitle.php>`_
-* `Properties <https://www.php.net/manual/en/language.oop5.properties.php>`_
 * `PSR-11 : Dependency injection container <https://github.com/container-interop/fig-standards/blob/master/proposed/container.md>`_
 * `PSR-13 : Link definition interface <http://www.php-fig.org/psr/psr-13/>`_
 * `PSR-16 : Common Interface for Caching Libraries <http://www.php-fig.org/psr/psr-16/>`_
@@ -262,31 +245,23 @@ List of external links mentioned in this documentation.
 * `Scope Resolution Operator (::) <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_
 * `Semaphore, Shared Memory and IPC <https://www.php.net/manual/en/book.sem.php>`_
 * `Set-Cookie <https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Set-Cookie>`_
-* `setlocale <https://www.php.net/setlocale>`_
-* `shell_exec <http://www.php.net/shell_exec>`_
 * `Show of hands: which syntax would you prefer in a PHP function - A, B or C?  <https://twitter.com/exakat/status/1542585298562998274>`_
 * `Specification pattern <https://en.wikipedia.org/wiki/Specification_pattern>`_
-* `Sphinx Client <https://www.php.net/manual/en/book.sphinx.php>`_
 * `sqlite3 <http://www.php.net/sqlite3>`_
 * `Static Keyword <https://www.php.net/manual/en/language.oop5.static.php>`_
-* `String functions <https://www.php.net/manual/en/ref.strings.php>`_
 * `strtr <http://www.php.net/strtr>`_
 * `Subpatterns <https://www.php.net/manual/en/regexp.reference.subpatterns.php>`_
-* `Suhosin.org <https://suhosin.org/>`_
 * `Supported Protocols and Wrappers <https://www.php.net/manual/en/wrappers.php>`_
 * `Svn <https://subversion.apache.org/>`_
-* `Swoole <https://www.swoole.com/>`_
 * `tetraweb/php <https://hub.docker.com/r/tetraweb/php/>`_
 * `Text <https://exakat.readthedocs.io/en/latest/Reports.html#text>`_
 * `The main PPA for PHP (8.0, 7.4, 7.3, 7.2, 7.1, 7.0, 5.6)  <https://launchpad.net/~ondrej/+archive/ubuntu/php>`_
 * `tokenizer <http://www.php.net/tokenizer>`_
-* `tokyo_tyrant <https://www.php.net/manual/en/book.tokyo-tyrant.php>`_
 * `Tutorial 1: Let’s learn by example <https://docs.phalconphp.com/en/latest/reference/tutorial.html>`_
 * `Type Casting <https://php.net/manual/en/language.types.type-juggling.php#language.types.typecasting>`_
 * `Type declarations <https://www.php.net/manual/en/functions.arguments.php#functions.arguments.type-declaration>`_
 * `Type declarations <https://www.php.net/manual/en/language.types.declarations.php>`_
 * `Type Juggling <https://www.php.net/manual/en/language.types.type-juggling.php>`_
-* `Type Operators <https://www.php.net/manual/en/language.operators.type.php#language.operators.type>`_
 * `Understanding Dependency Injection <http://php-di.org/doc/understanding-di.html>`_
 * `unset <https://www.php.net/unset>`_
 * `upload artifact <https://github.com/actions/upload-artifact>`_
@@ -294,10 +269,9 @@ List of external links mentioned in this documentation.
 * `V8 Javascript Engine <https://bugs.chromium.org/p/v8/issues/list>`_
 * `Vagrant file <https://github.com/exakat/exakat-vagrant>`_
 * `Variable functions <https://www.php.net/manual/en/functions.variable-functions.php>`_
-* `Variable scope <https://www.php.net/manual/en/language.variables.scope.php>`_
 * `Variable Scope <https://www.php.net/manual/en/language.variables.scope.php>`_
+* `Variable scope <https://www.php.net/manual/en/language.variables.scope.php>`_
 * `Vladimir Reznichenko <https://twitter.com/kalessil>`_
-* `Void functions <https://www.php.net/manual/en/migration71.new-features.php#migration71.new-features.void-functions>`_
 * `Weak references <https://www.php.net/manual/en/book.weakref.php>`_
 * `Why is subclassing too much bad (and hence why should we use prototypes to do away with it)? <https://softwareengineering.stackexchange.com/questions/137687/why-is-subclassing-too-much-bad-and-hence-why-should-we-use-prototypes-to-do-aw>`_
 * `wikidiff2 <https://www.mediawiki.org/wiki/Extension:Wikidiff2>`_
@@ -305,7 +279,6 @@ List of external links mentioned in this documentation.
 * `workflow_dispatch <https://docs.github.com/en/actions/managing-workflow-runs/manually-running-a-workflow>`_
 * `www.exakat.io <https://www.exakat.io/versions/>`_
 * `YAML Ain't Markup Language <http://www.yaml.org/>`_
-* `Yoda Conditions <https://en.wikipedia.org/wiki/Yoda_conditions>`_
 * `Zend Monitor - PHP API <http://files.zend.com/help/Zend-Server/content/zendserverapi/zend_monitor-php_api.htm>`_
 * `zip <https://en.wikipedia.org/wiki/Zip_(file_format)>`_
 

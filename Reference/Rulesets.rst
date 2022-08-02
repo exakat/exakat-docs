@@ -6,7 +6,7 @@ Rulesets
 Introduction
 ------------------------
 
-Exakat provides unique 1507 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
+Exakat provides unique 1512 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
 
 For more smoothly usage, the ruleset concept allow you to run a set of rules based on a decidated focus. Beawre that a Ruleset run all the associated rules and any needed dependencies.
 
@@ -41,7 +41,7 @@ Here is the list of the current rulesets supported by Exakat Engine.
 +-----------------------------------------------+------------------------------------------------------------------------------------------------------+
 | :ref:`ruleset-changed-behavior`               |Ruleset with all rules that identify changed behavior across PHP versions.                            |
 +-----------------------------------------------+------------------------------------------------------------------------------------------------------+
-| :ref:`ruleset-classreview`                    |A set of rules dedicate to class hygiene                                                              |
+| :ref:`ruleset-class-review`                   |A set of rules dedicated to class hygiene                                                             |
 +-----------------------------------------------+------------------------------------------------------------------------------------------------------+
 | :ref:`ruleset-classdependencies`              |A set of rules dedicated to show classes dependences                                                  |
 +-----------------------------------------------+------------------------------------------------------------------------------------------------------+
@@ -126,7 +126,7 @@ All
 
 All is a dummy ruleset, which includes all the rules. It is mostly used internally.
 
-Total : 1505 analysis
+Total : 1510 analysis
 
 * :ref:`adding-zero`
 * :ref:`ambiguous-array-index`
@@ -1633,6 +1633,11 @@ Total : 1505 analysis
 * :ref:`typehints-couldberesource`
 * :ref:`datetimeimmutable-is-not-immutable`
 * :ref:`new-functions-in-php-8.2`
+* :ref:`empty-array-detection`
+* :ref:`strict-in\_array()-preference`
+* :ref:`no-default-for-referenced-parameter`
+* :ref:`clone-constant`
+* :ref:`enum-case-values`
 
 Specs
 _____
@@ -2051,7 +2056,6 @@ Total : 457 analysis
 * :ref:`don't-pollute-global-space`
 * :ref:`mismatch-parameter-name`
 * :ref:`multiple-declaration-of-strict\_types`
-* :ref:`mismatch-parameter-and-type`
 * :ref:`array\_fill()-with-objects`
 * :ref:`modified-typed-parameter`
 * :ref:`assumptions`
@@ -2110,6 +2114,7 @@ Total : 457 analysis
 * :ref:`sprintf-format-compilation`
 * :ref:`invalid-date-scanning-format`
 * :ref:`same-name-for-property-and-method`
+* :ref:`clone-constant`
 
 Specs
 _____
@@ -2565,7 +2570,7 @@ CE
 
 This ruleset is the Community Edition list. It holds all the analysis that are in the community edition version of Exakat.
 
-Total : 646 analysis
+Total : 647 analysis
 
 * :ref:`adding-zero`
 * :ref:`array-index`
@@ -3213,6 +3218,7 @@ Total : 646 analysis
 * :ref:`php-80-named-parameter-variadic`
 * :ref:`final-private-methods`
 * :ref:`array\_map()-passes-by-value`
+* :ref:`new-functions-in-php-8.2`
 
 Specs
 _____
@@ -3427,26 +3433,43 @@ _____
 Changed Behavior
 ++++++++++++++++
 
-This is automatically filled, based on the documentation's changedBehavior attribute.
+Ruleset with all rules that identify changed behavior across PHP versions. This means that some syntax behave differently, depending on PHP version.
 
-Total : 0 analysis
+Total : 18 analysis
 
-* 
+* :ref:`mime-types`
+* :ref:`wrong-optional-parameter`
+* :ref:`methodcall-on-new`
+* :ref:`list-with-appends`
+* :ref:`simple-global-variable`
+* :ref:`usort-sorting-in-php-7.0`
+* :ref:`list-with-keys`
+* :ref:`no-string-with-append`
+* :ref:`concat-and-addition`
+* :ref:`negative-start-index-in-array`
+* :ref:`restrict-global-usage`
+* :ref:`inherited-static-variable`
+* :ref:`never-keyword`
+* :ref:`cant-overload-constants`
+* :ref:`string-int-comparison`
+* :ref:`php-8.1-resources-turned-into-objects`
+* :ref:`no-private-abstract-method-in-trait`
+* :ref:`clone-constant`
 
 Specs
 _____
 
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Short name   | Changed Behavior                                                                                                                                                                        |
+| Short name   | ChangedBehavior                                                                                                                                                                         |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Community Edition <https://www.exakat.io/community-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
-.. _ruleset-classreview:
+.. _ruleset-class-review:
 
-ClassReview
-+++++++++++
+Class Review
+++++++++++++
 
 This ruleset focuses on classes construction issues, and their related structures : traits, interfaces, methods, properties, constants.
 
@@ -3568,15 +3591,42 @@ Coding conventions
 
 This ruleset centralizes all analysis related to coding conventions. Sometimes, those are easy to extract with static analysis, and so here they are. No all o them are available.
 
-Total : 0 analysis
+Total : 28 analysis
 
-* 
+* :ref:`no-plus-one`
+* :ref:`all-uppercase-variables`
+* :ref:`use-with-fully-qualified-name`
+* :ref:`non-lowercase-keywords`
+* :ref:`echo-or-print`
+* :ref:`constant-comparison`
+* :ref:`close-tags`
+* :ref:`one-letter-functions`
+* :ref:`wrong-class-name-case`
+* :ref:`bracketless-blocks`
+* :ref:`use-const`
+* :ref:`unusual-case-for-php-functions`
+* :ref:`interpolation`
+* :ref:`empty-slots-in-arrays`
+* :ref:`multiple-classes-in-one-file`
+* :ref:`return-with-parenthesis`
+* :ref:`should-be-single-quote`
+* :ref:`yoda-comparison`
+* :ref:`mixed-concat-and-interpolation`
+* :ref:`order-of-declaration`
+* :ref:`heredoc-delimiter`
+* :ref:`mistaken-concatenation`
+* :ref:`don't-be-too-manual`
+* :ref:`similar-integers`
+* :ref:`wrong-function-name-case`
+* :ref:`wrong-case-namespaces`
+* :ref:`wrong-typehinted-name`
+* :ref:`multiple-property-declaration-on-one-line`
 
 Specs
 _____
 
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Short name   | Coding conventions                                                                                                      |
+| Short name   | Coding Conventions                                                                                                      |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
@@ -3589,7 +3639,7 @@ CompatibilityPHP53
 
 This ruleset centralizes all analysis for the migration from PHP 5.2 to 5.3.
 
-Total : 87 analysis
+Total : 88 analysis
 
 * :ref:`non-static-methods-called-in-a-static`
 * :ref:`ext-dba`
@@ -3678,6 +3728,7 @@ Total : 87 analysis
 * :ref:`cant-overload-constants`
 * :ref:`constant-scalar-expression`
 * :ref:`no-private-abstract-method-in-trait`
+* :ref:`clone-constant`
 
 Specs
 _____
@@ -3698,7 +3749,7 @@ CompatibilityPHP54
 
 This ruleset centralizes all analysis for the migration from PHP 5.3 to 5.4.
 
-Total : 84 analysis
+Total : 85 analysis
 
 * :ref:`non-static-methods-called-in-a-static`
 * :ref:`use-lower-case-for-parent,-static-and-self`
@@ -3784,6 +3835,7 @@ Total : 84 analysis
 * :ref:`cant-overload-constants`
 * :ref:`constant-scalar-expression`
 * :ref:`no-private-abstract-method-in-trait`
+* :ref:`clone-constant`
 
 Specs
 _____
@@ -3804,7 +3856,7 @@ CompatibilityPHP55
 
 This ruleset centralizes all analysis for the migration from PHP 5.4 to 5.5.
 
-Total : 76 analysis
+Total : 77 analysis
 
 * :ref:`non-static-methods-called-in-a-static`
 * :ref:`ext-apc`
@@ -3882,6 +3934,7 @@ Total : 76 analysis
 * :ref:`cant-overload-constants`
 * :ref:`constant-scalar-expression`
 * :ref:`no-private-abstract-method-in-trait`
+* :ref:`clone-constant`
 
 Specs
 _____
@@ -3902,7 +3955,7 @@ CompatibilityPHP56
 
 This ruleset centralizes all analysis for the migration from PHP 5.5 to 5.6.
 
-Total : 66 analysis
+Total : 67 analysis
 
 * :ref:`non-static-methods-called-in-a-static`
 * :ref:`malformed-octal`
@@ -3970,6 +4023,7 @@ Total : 66 analysis
 * :ref:`cant-overload-constants`
 * :ref:`constant-scalar-expression`
 * :ref:`no-private-abstract-method-in-trait`
+* :ref:`clone-constant`
 
 Specs
 _____
@@ -3990,7 +4044,7 @@ CompatibilityPHP70
 
 This ruleset centralizes all analysis for the migration from PHP 5.6 to 7.0.
 
-Total : 58 analysis
+Total : 59 analysis
 
 * :ref:`ext-ereg`
 * :ref:`mcrypt\_create\_iv()-with-default-values`
@@ -4050,6 +4104,7 @@ Total : 58 analysis
 * :ref:`named-parameter-usage`
 * :ref:`cant-overload-constants`
 * :ref:`no-private-abstract-method-in-trait`
+* :ref:`clone-constant`
 
 Specs
 _____
@@ -4070,7 +4125,7 @@ CompatibilityPHP71
 
 This ruleset centralizes all analysis for the migration from PHP 7.0 to 7.1.
 
-Total : 46 analysis
+Total : 47 analysis
 
 * :ref:`ext-mcrypt`
 * :ref:`hash-algorithms-incompatible-with-php-5.3`
@@ -4118,6 +4173,7 @@ Total : 46 analysis
 * :ref:`cant-overload-constants`
 * :ref:`array\_merge-with-ellipsis`
 * :ref:`no-private-abstract-method-in-trait`
+* :ref:`clone-constant`
 
 Specs
 _____
@@ -4138,7 +4194,7 @@ CompatibilityPHP72
 
 This ruleset centralizes all analysis for the migration from PHP 7.1 to 7.2.
 
-Total : 39 analysis
+Total : 40 analysis
 
 * :ref:`undefined-constants`
 * :ref:`hash-algorithms-incompatible-with-php-5.3`
@@ -4179,6 +4235,7 @@ Total : 39 analysis
 * :ref:`cant-overload-constants`
 * :ref:`array\_merge-with-ellipsis`
 * :ref:`no-private-abstract-method-in-trait`
+* :ref:`clone-constant`
 
 Specs
 _____
@@ -4199,7 +4256,7 @@ CompatibilityPHP73
 
 This ruleset centralizes all analysis for the migration from PHP 7.2 to 7.3.
 
-Total : 30 analysis
+Total : 31 analysis
 
 * :ref:`new-functions-in-php-7.3`
 * :ref:`unknown-pcre2-option`
@@ -4231,6 +4288,7 @@ Total : 30 analysis
 * :ref:`cant-overload-constants`
 * :ref:`array\_merge-with-ellipsis`
 * :ref:`no-private-abstract-method-in-trait`
+* :ref:`clone-constant`
 
 Specs
 _____
@@ -4251,7 +4309,7 @@ CompatibilityPHP74
 
 This ruleset centralizes all analysis for the migration from PHP 7.3 to 7.4.
 
-Total : 41 analysis
+Total : 42 analysis
 
 * :ref:`detect-current-class`
 * :ref:`don't-read-and-write-in-one-expression`
@@ -4294,6 +4352,7 @@ Total : 41 analysis
 * :ref:`new-initializers`
 * :ref:`cant-overload-constants`
 * :ref:`no-private-abstract-method-in-trait`
+* :ref:`clone-constant`
 
 Specs
 _____
@@ -4314,7 +4373,7 @@ CompatibilityPHP80
 
 This ruleset centralizes all analysis for the migration from PHP 7.4 to 8.0.
 
-Total : 29 analysis
+Total : 30 analysis
 
 * :ref:`old-style-constructor`
 * :ref:`wrong-optional-parameter`
@@ -4345,6 +4404,7 @@ Total : 29 analysis
 * :ref:`cant-overload-constants`
 * :ref:`string-int-comparison`
 * :ref:`php-8.1-resources-turned-into-objects`
+* :ref:`clone-constant`
 
 Specs
 _____
@@ -4861,7 +4921,7 @@ LintButWontExec
 
 This ruleset focuses on PHP code that lint (php -l), but that will not run. As such, this ruleset tries to go further than PHP, by connecting files, just like during execution.
 
-Total : 46 analysis
+Total : 47 analysis
 
 * :ref:`final-class-usage`
 * :ref:`final-methods-usage`
@@ -4909,6 +4969,7 @@ Total : 46 analysis
 * :ref:`implicit-conversion-to-int`
 * :ref:`no-magic-method-for-enum`
 * :ref:`wrong-type-with-default`
+* :ref:`clone-constant`
 
 Specs
 _____
@@ -4984,34 +5045,15 @@ PHP recommendations
 
 This ruleset is collected from the warnings and notes that are available in the PHP manual. For example, `return <https://www.php.net/manual/en/function.return.php>` do not require parenthesis.
 
-Total : 20 analysis
+Total : 0 analysis
 
-* :ref:`using-short-tags`
-* :ref:`strpos()-like-comparison`
-* :ref:`bad-constants-names`
-* :ref:`use-with-fully-qualified-name`
-* :ref:`dangling-array-references`
-* :ref:`return-with-parenthesis`
-* :ref:`no-real-comparison`
-* :ref:`use-constant`
-* :ref:`throw-in-destruct`
-* :ref:`useless-type-casting`
-* :ref:`no-isset()-with-empty()`
-* :ref:`avoid-array\_push()`
-* :ref:`crc32()-might-be-negative`
-* :ref:`not-a-scalar-type`
-* :ref:`implode-one-arg`
-* :ref:`could-be-stringable`
-* :ref:`missing-attribute-attribute`
-* :ref:`no-constructor-in-interface`
-* :ref:`unsupported-operand-types`
-* :ref:`do-not-cast-to-int`
+* 
 
 Specs
 _____
 
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Short name   | PHP recommendations                                                                                                     |
+| Short name   | Php-recommendations                                                                                                     |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
@@ -5096,7 +5138,7 @@ Preferences
 
 This ruleset identify code with multiple forms, and report when one is more frequent than the others. Echo vs print, shell_exec() vs ``, etc.
 
-Total : 32 analysis
+Total : 35 analysis
 
 * :ref:`true-false-inconsistant-case`
 * :ref:`echo-or-print`
@@ -5113,6 +5155,7 @@ Total : 32 analysis
 * :ref:`empty-final-element`
 * :ref:`difference-consistence`
 * :ref:`concatenation-interpolation-consistence`
+* :ref:`heredoc-delimiter`
 * :ref:`strict\_types-preference`
 * :ref:`declare-strict\_types-usage`
 * :ref:`encoding-usage`
@@ -5130,6 +5173,8 @@ Total : 32 analysis
 * :ref:`string-interpolation-favorite`
 * :ref:`constant--with-or-without-use`
 * :ref:`if-then-return-favorite`
+* :ref:`empty-array-detection`
+* :ref:`strict-in\_array()-preference`
 
 Specs
 _____
@@ -5547,25 +5592,15 @@ php-cs-fixable
 
 `php-cs-fixer <https://github.com/FriendsOfPHP/PHP-CS-Fixer>`_ is a tool to automatically fix PHP Coding Standards issues. It applies modifications in the PHP code automatically. Exakat finds results which may be automatically updated with PHP-CS-FIXER. 
 
-Total : 11 analysis
+Total : 0 analysis
 
-* :ref:`use-===-null`
-* :ref:`**-for-exponent`
-* :ref:`logical-should-use-symbolic-operators`
-* :ref:`use-constant`
-* :ref:`else-if-versus-elseif`
-* :ref:`php7-dirname`
-* :ref:`could-use-\_\_dir\_\_`
-* :ref:`isset-multiple-arguments`
-* :ref:`don't-unset-properties`
-* :ref:`multiple-unset()`
-* :ref:`implode-one-arg`
+* 
 
 Specs
 _____
 
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Short name   | php-cs-fixable                                                                                                          |
+| Short name   | php-cs-fixer                                                                                                            |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

@@ -39,9 +39,17 @@ Here is the release note of exakat.
 + Analysis
     + Refactored analysis : Could Use Array_sum()
     + Refactored analysis : Wrong Attribute with properties
+    + Refactored analysis : implode Args order now support types
+    + Refactored analysis : fopen mode does accept rw
+    + Refactored analysis : references on objects (full refactor)
+    + New analysis : finding empty arrays with comparisons
+    + New analysis : using strict with in_array or not
+    + New analysis : no default for referenced parameter
+    + New analysis : No clone constant before PHP 8.1
+    + New analysis : Complete enum cases with definition to value and name
 
 + Tokenizer
-    + 
+    + Added support for -> out of Enum cases (with name and value)
 
 **Version 2.4.6 (Li Yuanji, 2022-07-20)**
 

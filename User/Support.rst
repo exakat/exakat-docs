@@ -183,7 +183,7 @@ PHP extensions are described with the list of structures they define : functions
 * ext/bcmath
 * ext/bzip2
 * ext/calendar
-* `ext/cmark <https://github.com/commonmark/cmark>`_
+* ext/cmark
 * `ext/com <https://www.php.net/manual/en/book.com.php>`_
 * `ext/crypto <https://pecl.php.net/package/crypto>`_
 * ext/CSV
@@ -303,30 +303,30 @@ PHP extensions are described with the list of structures they define : functions
 * `ext/snmp <http://www.net-snmp.org/>`_
 * ext/soap
 * ext/sockets
-* `ext/sphinx <https://www.php.net/manual/en/book.sphinx.php>`_
+* ext/sphinx
 * ext/spl
 * ext/spx
-* `ext/sqlite <https://www.php.net/manual/en/book.sqlite.php>`_
+* ext/sqlite
 * ext/sqlite3
 * `ext/sqlsrv <https://www.php.net/sqlsrv>`_
 * ext/ssh2
 * ext/standard
 * `ext/stats <https://people.sc.fsu.edu/~jburkardt/c_src/cdflib/cdflib.html>`_
 * Stomp
-* `String <https://www.php.net/manual/en/ref.strings.php>`_
-* `ext/suhosin <https://suhosin.org/>`_
+* String
+* ext/suhosin
 * ext/svm
-* `ext/swoole <https://www.swoole.com/>`_
+* ext/swoole
 * Extensions/Exttaint
 * ext/tidy
 * ext/tokenizer
-* `ext/tokyotyrant <https://www.php.net/manual/en/book.tokyo-tyrant.php>`_
+* ext/tokyotyrant
 * ext/trader
 * ext/uopz
-* `ext/uuid <https://linux.die.net/man/3/libuuid>`_
+* ext/uuid
 * `ext/v8js <https://bugs.chromium.org/p/v8/issues/list>`_
 * ext/varnish
-* `ext/vips <https://github.com/jcupitt/php-vips-ext>`_
+* ext/vips
 * `ext/wasm <https://github.com/Hywan/php-ext-wasm>`_
 * ext/wddx
 * `ext/weakref <https://www.php.net/manual/en/book.weakref.php>`_
