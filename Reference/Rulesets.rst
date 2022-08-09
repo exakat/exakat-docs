@@ -6,7 +6,7 @@ Rulesets
 Introduction
 ------------------------
 
-Exakat provides unique 1512 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
+Exakat provides unique 1511 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
 
 For more smoothly usage, the ruleset concept allow you to run a set of rules based on a decidated focus. Beawre that a Ruleset run all the associated rules and any needed dependencies.
 
@@ -126,7 +126,7 @@ All
 
 All is a dummy ruleset, which includes all the rules. It is mostly used internally.
 
-Total : 1510 analysis
+Total : 1509 analysis
 
 * :ref:`adding-zero`
 * :ref:`ambiguous-array-index`
@@ -362,7 +362,6 @@ Total : 1510 analysis
 * :ref:`undefined-classes`
 * :ref:`is-an-extension-class`
 * :ref:`wrong-class-name-case`
-* :ref:`ext-ming`
 * :ref:`ext-redis`
 * :ref:`is-an-extension-function`
 * :ref:`is-an-extension-interface`
@@ -487,9 +486,7 @@ Total : 1510 analysis
 * :ref:`defined-properties`
 * :ref:`undefined-properties`
 * :ref:`has-magic-method`
-* :ref:`ext-recode`
 * :ref:`ext-parsekit`
-* :ref:`runkit7`
 * :ref:`ext-gettext`
 * :ref:`short-open-tags`
 * :ref:`strict-comparison-with-booleans`
@@ -1268,7 +1265,7 @@ Total : 1510 analysis
 * :ref:`make-class-method-definition`
 * :ref:`create-default-values`
 * :ref:`array\_merge()-and-variadic`
-* :ref:`set-class\_alias-definition`
+* :ref:`set-class\_alias()-definition`
 * :ref:`make-class-constant-definition`
 * :ref:`set-class-remote-definition-with-injection`
 * :ref:`solve-trait-methods`
@@ -1508,7 +1505,7 @@ Total : 1510 analysis
 * :ref:`no-null-for-native-php-functions`
 * :ref:`calling-static-trait-method`
 * :ref:`no-referenced-void`
-* :ref:`jsonserialize()-mixed-return-type`
+* :ref:`php-native-interfaces-and-return-type`
 * :ref:`final-constant`
 * :ref:`never-typehint-usage`
 * :ref:`php-8.1-typehints`
@@ -1638,6 +1635,8 @@ Total : 1510 analysis
 * :ref:`no-default-for-referenced-parameter`
 * :ref:`clone-constant`
 * :ref:`enum-case-values`
+* :ref:`random-extension`
+* :ref:`ip`
 
 Specs
 _____
@@ -2078,7 +2077,7 @@ Total : 457 analysis
 * :ref:`missing-attribute-attribute`
 * :ref:`no-null-for-native-php-functions`
 * :ref:`no-referenced-void`
-* :ref:`jsonserialize()-mixed-return-type`
+* :ref:`php-native-interfaces-and-return-type`
 * :ref:`new-functions-in-php-8.1`
 * :ref:`never-keyword`
 * :ref:`false-to-array-conversion`
@@ -2135,7 +2134,7 @@ Appinfo
 
 A set of rules that describes with PHP features is used in the code.
 
-Total : 389 analysis
+Total : 387 analysis
 
 * :ref:`array-index`
 * :ref:`multidimensional-arrays`
@@ -2268,7 +2267,6 @@ Total : 389 analysis
 * :ref:`nested-loops`
 * :ref:`I?=-usage`
 * :ref:`ext-pcntl`
-* :ref:`ext-ming`
 * :ref:`ext-redis`
 * :ref:`ext-cyrus`
 * :ref:`ext-sqlsrv`
@@ -2303,9 +2301,7 @@ Total : 389 analysis
 * :ref:`no-direct-access`
 * :ref:`ext-opcache`
 * :ref:`ext-expect`
-* :ref:`ext-recode`
 * :ref:`ext-parsekit`
-* :ref:`runkit7`
 * :ref:`ext-gettext`
 * :ref:`super-global-usage`
 * :ref:`global-usage`
@@ -2526,6 +2522,7 @@ Total : 389 analysis
 * :ref:`array-addition`
 * :ref:`ice-framework`
 * :ref:`extensions-exttaint`
+* :ref:`ip`
 
 Specs
 _____
@@ -2570,7 +2567,7 @@ CE
 
 This ruleset is the Community Edition list. It holds all the analysis that are in the community edition version of Exakat.
 
-Total : 647 analysis
+Total : 643 analysis
 
 * :ref:`adding-zero`
 * :ref:`array-index`
@@ -2729,7 +2726,6 @@ Total : 647 analysis
 * :ref:`undefined-constants`
 * :ref:`custom-constant-usage`
 * :ref:`ext-pcntl`
-* :ref:`ext-ming`
 * :ref:`ext-redis`
 * :ref:`is-an-extension-function`
 * :ref:`is-an-extension-interface`
@@ -2789,9 +2785,7 @@ Total : 647 analysis
 * :ref:`defined-properties`
 * :ref:`undefined-properties`
 * :ref:`has-magic-method`
-* :ref:`ext-recode`
 * :ref:`ext-parsekit`
-* :ref:`runkit7`
 * :ref:`ext-gettext`
 * :ref:`strict-comparison-with-booleans`
 * :ref:`lone-blocks`
@@ -3218,7 +3212,6 @@ Total : 647 analysis
 * :ref:`php-80-named-parameter-variadic`
 * :ref:`final-private-methods`
 * :ref:`array\_map()-passes-by-value`
-* :ref:`new-functions-in-php-8.2`
 
 Specs
 _____
@@ -3435,26 +3428,30 @@ Changed Behavior
 
 Ruleset with all rules that identify changed behavior across PHP versions. This means that some syntax behave differently, depending on PHP version.
 
-Total : 18 analysis
+Total : 22 analysis
 
-* :ref:`mime-types`
 * :ref:`wrong-optional-parameter`
+* :ref:`parent,-static-or-self-outside-class`
+* :ref:`undefined-properties`
 * :ref:`methodcall-on-new`
 * :ref:`list-with-appends`
 * :ref:`simple-global-variable`
+* :ref:`foreach-don't-change-pointer`
 * :ref:`usort-sorting-in-php-7.0`
 * :ref:`list-with-keys`
 * :ref:`no-string-with-append`
 * :ref:`concat-and-addition`
+* :ref:`implode()-arguments-order`
+* :ref:`throw-was-an-expression`
 * :ref:`negative-start-index-in-array`
 * :ref:`restrict-global-usage`
 * :ref:`inherited-static-variable`
 * :ref:`never-keyword`
+* :ref:`nested-attributes`
 * :ref:`cant-overload-constants`
 * :ref:`string-int-comparison`
 * :ref:`php-8.1-resources-turned-into-objects`
 * :ref:`no-private-abstract-method-in-trait`
-* :ref:`clone-constant`
 
 Specs
 _____
@@ -3639,7 +3636,7 @@ CompatibilityPHP53
 
 This ruleset centralizes all analysis for the migration from PHP 5.2 to 5.3.
 
-Total : 88 analysis
+Total : 87 analysis
 
 * :ref:`non-static-methods-called-in-a-static`
 * :ref:`ext-dba`
@@ -3655,7 +3652,6 @@ Total : 88 analysis
 * :ref:`function-subscripting`
 * :ref:`closure-may-use-$this`
 * :ref:`switch-with-too-many-default`
-* :ref:`ext-ming`
 * :ref:`ellipsis-usage`
 * :ref:`exponent-usage`
 * :ref:`dereferencing-string-and-arrays`
@@ -4438,7 +4434,7 @@ Total : 20 analysis
 * :ref:`no-null-for-native-php-functions`
 * :ref:`calling-static-trait-method`
 * :ref:`no-referenced-void`
-* :ref:`jsonserialize()-mixed-return-type`
+* :ref:`php-native-interfaces-and-return-type`
 * :ref:`new-functions-in-php-8.1`
 * :ref:`php-8.1-removed-functions`
 * :ref:`never-keyword`
@@ -4572,7 +4568,7 @@ Total : 9 analysis
 * :ref:`no-null-for-native-php-functions`
 * :ref:`calling-static-trait-method`
 * :ref:`no-referenced-void`
-* :ref:`jsonserialize()-mixed-return-type`
+* :ref:`php-native-interfaces-and-return-type`
 
 Specs
 _____
@@ -4714,7 +4710,7 @@ For example :
 
 
 
-Total : 34 analysis
+Total : 35 analysis
 
 * :ref:`constants-names`
 * :ref:`binary-glossary`
@@ -4750,6 +4746,7 @@ Total : 34 analysis
 * :ref:`promoted-properties`
 * :ref:`extends-stdclass`
 * :ref:`incoming-date-formats`
+* :ref:`ip`
 
 Specs
 _____
@@ -4770,7 +4767,7 @@ IsExt
 
 This is automatically filled, based on the documentation's isExt attribute.
 
-Total : 31 analysis
+Total : 32 analysis
 
 * :ref:`static-methods-called-from-object`
 * :ref:`undefined-constants`
@@ -4780,6 +4777,7 @@ Total : 31 analysis
 * :ref:`undefined-class-constants`
 * :ref:`undefined-functions`
 * :ref:`wrong-number-of-arguments`
+* :ref:`unresolved-use`
 * :ref:`access-protected-structures`
 * :ref:`unusual-case-for-php-functions`
 * :ref:`undefined-interfaces`
@@ -4821,7 +4819,7 @@ IsPHP
 
 This is automatically filled, based on the documentation's isPHP attribute.
 
-Total : 31 analysis
+Total : 32 analysis
 
 * :ref:`static-methods-called-from-object`
 * :ref:`undefined-constants`
@@ -4831,6 +4829,7 @@ Total : 31 analysis
 * :ref:`undefined-class-constants`
 * :ref:`undefined-functions`
 * :ref:`wrong-number-of-arguments`
+* :ref:`unresolved-use`
 * :ref:`access-protected-structures`
 * :ref:`unusual-case-for-php-functions`
 * :ref:`undefined-interfaces`
@@ -4961,7 +4960,7 @@ Total : 47 analysis
 * :ref:`only-container-for-reference`
 * :ref:`inherited-property-type-must-match`
 * :ref:`duplicate-named-parameter`
-* :ref:`jsonserialize()-mixed-return-type`
+* :ref:`php-native-interfaces-and-return-type`
 * :ref:`false-to-array-conversion`
 * :ref:`deprecated-callable`
 * :ref:`cant-overload-constants`
@@ -5001,7 +5000,7 @@ Total : 37 analysis
 * :ref:`set-parent-definition`
 * :ref:`make-class-method-definition`
 * :ref:`create-default-values`
-* :ref:`set-class\_alias-definition`
+* :ref:`set-class\_alias()-definition`
 * :ref:`make-class-constant-definition`
 * :ref:`set-class-remote-definition-with-injection`
 * :ref:`solve-trait-methods`
@@ -5472,9 +5471,9 @@ Surprising
 
 PHP is full of exceptional situations where something doesn't work as expected, or as we thought would be expected. Then, exakat gets a rule for that, and it is listed here. Watch out, unusual beasts are hidden in this list : the most interesting is possibly the docs.
 
-Total : 0 analysis
+Total : 1 analysis
 
-* 
+* :ref:`sequences-in-for`
 
 Specs
 _____

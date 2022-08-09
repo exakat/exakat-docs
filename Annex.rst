@@ -119,7 +119,6 @@ List of external links mentioned in this documentation.
 * `ext/hash extension <http://www.php.net/manual/en/book.hash.php>`_
 * `ext/hrtime manual <https://www.php.net/manual/en/intro.hrtime.php>`_
 * `ext/leveldb on Github <https://github.com/reeze/php-leveldb>`_
-* `ext/recode <http://www.php.net/manual/en/book.recode.php>`_
 * `ext/SeasLog on Github <https://github.com/SeasX/SeasLog>`_
 * `Factory (object-oriented programming) <https://en.wikipedia.org/wiki/Factory_(object-oriented_programming)>`_
 * `FAM <http://oss.sgi.com/projects/fam/>`_
@@ -182,7 +181,6 @@ List of external links mentioned in this documentation.
 * `Microsoft SQL Server <http://www.php.net/manual/en/book.mssql.php>`_
 * `Microsoft SQL Server Driver <https://www.php.net/sqlsrv>`_
 * `Migration80 <https://exakat.readthedocs.io/en/latest/Reports.html#migration80>`_
-* `Ming (flash) <http://www.libming.org/>`_
 * `MongoDB driver <https://www.php.net/mongo>`_
 * `mysqli <https://www.php.net/manual/en/book.mysqli.php>`_
 * `Ncurses Terminal Screen Control <https://www.php.net/manual/en/book.ncurses.php>`_
@@ -233,7 +231,6 @@ List of external links mentioned in this documentation.
 * `PSR-6 : Caching <http://www.php-fig.org/psr/psr-6/>`_
 * `RabbitMQ AMQP client library <https://github.com/alanxz/rabbitmq-c>`_
 * `rar <https://en.wikipedia.org/wiki/RAR_(file_format)>`_
-* `Rar archiving <https://www.php.net/manual/en/book.rar.php>`_
 * `Refactoring code <https://www.jetbrains.com/help/phpstorm/refactoring-source-code.html>`_
 * `Reflection export() methods <https://wiki.php.net/rfc/deprecations_php_7_4#reflection_export_methods>`_
 * `RFC 7159 <http://www.faqs.org/rfcs/rfc7159>`_
@@ -279,7 +276,6 @@ List of external links mentioned in this documentation.
 * `workflow_dispatch <https://docs.github.com/en/actions/managing-workflow-runs/manually-running-a-workflow>`_
 * `www.exakat.io <https://www.exakat.io/versions/>`_
 * `YAML Ain't Markup Language <http://www.yaml.org/>`_
-* `Zend Monitor - PHP API <http://files.zend.com/help/Zend-Server/content/zendserverapi/zend_monitor-php_api.htm>`_
 * `zip <https://en.wikipedia.org/wiki/Zip_(file_format)>`_
 
 

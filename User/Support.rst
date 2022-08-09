@@ -255,7 +255,6 @@ PHP extensions are described with the list of structures they define : functions
 * `ext/memcache <http://www.php.net/manual/en/book.memcache.php>`_
 * ext/memcached
 * `ext/mhash <http://mhash.sourceforge.net/>`_
-* `ext/ming <http://www.libming.org/>`_
 * `ext/mongo <https://www.php.net/mongo>`_
 * `ext/mongodb <https://github.com/mongodb/mongo-c-driver>`_
 * ext/msgpack
@@ -287,13 +286,12 @@ PHP extensions are described with the list of structures they define : functions
 * ext/protobuf
 * ext/pspell
 * `ext/psr <https://www.php-fig.org/psr/psr-3>`_
-* `ext/rar <https://www.php.net/manual/en/book.rar.php>`_
+* Random extension
+* ext/rar
 * ext/rdkafka
 * ext/readline
-* `ext/recode <http://www.php.net/manual/en/book.recode.php>`_
 * ext/redis
 * ext/reflection
-* runkit7
 * `ext/sdl <https://github.com/Ponup/phpsdl>`_
 * `ext/seaslog <https://github.com/SeasX/SeasLog>`_
 * `ext/sem <https://www.php.net/manual/en/book.sem.php>`_
@@ -344,7 +342,7 @@ PHP extensions are described with the list of structures they define : functions
 * ext/xxtea
 * `ext/yaml <http://www.yaml.org/>`_
 * Extensions yar
-* `ext/zend_monitor <http://files.zend.com/help/Zend-Server/content/zendserverapi/zend_monitor-php_api.htm>`_
+* ext/zend_monitor
 * ext/zip
 * ext/zlib
 * ext/0mq

@@ -590,7 +590,6 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Extensions/Extmemcache";
    analyzer[] = "Extensions/Extmemcached";
    analyzer[] = "Extensions/Extmhash";
-   analyzer[] = "Extensions/Extming";
    analyzer[] = "Extensions/Extmongo";
    analyzer[] = "Extensions/Extmongodb";
    analyzer[] = "Extensions/Extmsgpack";
@@ -622,13 +621,12 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Extensions/Extprotobuf";
    analyzer[] = "Extensions/Extpspell";
    analyzer[] = "Extensions/Extpsr";
+   analyzer[] = "Extensions/Extrandom";
    analyzer[] = "Extensions/Extrar";
    analyzer[] = "Extensions/Extrdkafka";
    analyzer[] = "Extensions/Extreadline";
-   analyzer[] = "Extensions/Extrecode";
    analyzer[] = "Extensions/Extredis";
    analyzer[] = "Extensions/Extreflection";
-   analyzer[] = "Extensions/Extrunkit";
    analyzer[] = "Extensions/Extsdl";
    analyzer[] = "Extensions/Extseaslog";
    analyzer[] = "Extensions/Extsem";
@@ -1539,6 +1537,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Type/HttpHeader";
    analyzer[] = "Type/HttpStatus";
    analyzer[] = "Type/IncomingDateFormat";
+   analyzer[] = "Type/Ip";
    analyzer[] = "Type/MalformedOctal";
    analyzer[] = "Type/Md5String";
    analyzer[] = "Type/MimeType";
@@ -2115,7 +2114,6 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Extensions/Extmemcache'
      - 'Extensions/Extmemcached'
      - 'Extensions/Extmhash'
-     - 'Extensions/Extming'
      - 'Extensions/Extmongo'
      - 'Extensions/Extmongodb'
      - 'Extensions/Extmsgpack'
@@ -2147,13 +2145,12 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Extensions/Extprotobuf'
      - 'Extensions/Extpspell'
      - 'Extensions/Extpsr'
+     - 'Extensions/Extrandom'
      - 'Extensions/Extrar'
      - 'Extensions/Extrdkafka'
      - 'Extensions/Extreadline'
-     - 'Extensions/Extrecode'
      - 'Extensions/Extredis'
      - 'Extensions/Extreflection'
-     - 'Extensions/Extrunkit'
      - 'Extensions/Extsdl'
      - 'Extensions/Extseaslog'
      - 'Extensions/Extsem'
@@ -3064,6 +3061,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Type/HttpHeader'
      - 'Type/HttpStatus'
      - 'Type/IncomingDateFormat'
+     - 'Type/Ip'
      - 'Type/MalformedOctal'
      - 'Type/Md5String'
      - 'Type/MimeType'
@@ -4258,7 +4256,6 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Extensions/Extmemcache";
    analyzer[] = "Extensions/Extmemcached";
    analyzer[] = "Extensions/Extmhash";
-   analyzer[] = "Extensions/Extming";
    analyzer[] = "Extensions/Extmongo";
    analyzer[] = "Extensions/Extmongodb";
    analyzer[] = "Extensions/Extmsgpack";
@@ -4293,10 +4290,8 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Extensions/Extrar";
    analyzer[] = "Extensions/Extrdkafka";
    analyzer[] = "Extensions/Extreadline";
-   analyzer[] = "Extensions/Extrecode";
    analyzer[] = "Extensions/Extredis";
    analyzer[] = "Extensions/Extreflection";
-   analyzer[] = "Extensions/Extrunkit";
    analyzer[] = "Extensions/Extsdl";
    analyzer[] = "Extensions/Extseaslog";
    analyzer[] = "Extensions/Extsem";
@@ -4490,6 +4485,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Type/GPCIndex";
    analyzer[] = "Type/Heredoc";
    analyzer[] = "Type/Hexadecimal";
+   analyzer[] = "Type/Ip";
    analyzer[] = "Type/Md5String";
    analyzer[] = "Type/Nowdoc";
    analyzer[] = "Type/Octal";
@@ -4660,7 +4656,6 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Extensions/Extmemcache'
      - 'Extensions/Extmemcached'
      - 'Extensions/Extmhash'
-     - 'Extensions/Extming'
      - 'Extensions/Extmongo'
      - 'Extensions/Extmongodb'
      - 'Extensions/Extmsgpack'
@@ -4695,10 +4690,8 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Extensions/Extrar'
      - 'Extensions/Extrdkafka'
      - 'Extensions/Extreadline'
-     - 'Extensions/Extrecode'
      - 'Extensions/Extredis'
      - 'Extensions/Extreflection'
-     - 'Extensions/Extrunkit'
      - 'Extensions/Extsdl'
      - 'Extensions/Extseaslog'
      - 'Extensions/Extsem'
@@ -4892,6 +4885,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Type/GPCIndex'
      - 'Type/Heredoc'
      - 'Type/Hexadecimal'
+     - 'Type/Ip'
      - 'Type/Md5String'
      - 'Type/Nowdoc'
      - 'Type/Octal'
@@ -5192,7 +5186,6 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Extensions/Extmemcache";
    analyzer[] = "Extensions/Extmemcached";
    analyzer[] = "Extensions/Extmhash";
-   analyzer[] = "Extensions/Extming";
    analyzer[] = "Extensions/Extmongo";
    analyzer[] = "Extensions/Extmongodb";
    analyzer[] = "Extensions/Extmsgpack";
@@ -5225,10 +5218,8 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Extensions/Extrar";
    analyzer[] = "Extensions/Extrdkafka";
    analyzer[] = "Extensions/Extreadline";
-   analyzer[] = "Extensions/Extrecode";
    analyzer[] = "Extensions/Extredis";
    analyzer[] = "Extensions/Extreflection";
-   analyzer[] = "Extensions/Extrunkit";
    analyzer[] = "Extensions/Extsdl";
    analyzer[] = "Extensions/Extseaslog";
    analyzer[] = "Extensions/Extsem";
@@ -5407,7 +5398,6 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Php/Php80RemovesResources";
    analyzer[] = "Php/Php80UnionTypehint";
    analyzer[] = "Php/Php80VariableSyntax";
-   analyzer[] = "Php/Php82NewFunctions";
    analyzer[] = "Php/PhpErrorMsgUsage";
    analyzer[] = "Php/RawPostDataUsage";
    analyzer[] = "Php/ReflectionExportIsDeprecated";
@@ -5852,7 +5842,6 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Extensions/Extmemcache'
      - 'Extensions/Extmemcached'
      - 'Extensions/Extmhash'
-     - 'Extensions/Extming'
      - 'Extensions/Extmongo'
      - 'Extensions/Extmongodb'
      - 'Extensions/Extmsgpack'
@@ -5885,10 +5874,8 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Extensions/Extrar'
      - 'Extensions/Extrdkafka'
      - 'Extensions/Extreadline'
-     - 'Extensions/Extrecode'
      - 'Extensions/Extredis'
      - 'Extensions/Extreflection'
-     - 'Extensions/Extrunkit'
      - 'Extensions/Extsdl'
      - 'Extensions/Extseaslog'
      - 'Extensions/Extsem'
@@ -6067,7 +6054,6 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Php/Php80RemovesResources'
      - 'Php/Php80UnionTypehint'
      - 'Php/Php80VariableSyntax'
-     - 'Php/Php82NewFunctions'
      - 'Php/PhpErrorMsgUsage'
      - 'Php/RawPostDataUsage'
      - 'Php/ReflectionExportIsDeprecated'
@@ -6699,10 +6685,13 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
 
  [Changed Behavior]
    analyzer[] = "Arrays/NegativeStart";
+   analyzer[] = "Attributes/NestedAttributes";
+   analyzer[] = "Classes/PssWithoutClass";
+   analyzer[] = "Classes/UndefinedProperty";
    analyzer[] = "Functions/WrongOptionalParameter";
    analyzer[] = "Interfaces/CantOverloadConstants";
-   analyzer[] = "Php/CloneConstant";
    analyzer[] = "Php/ConcatAndAddition";
+   analyzer[] = "Php/ForeachDontChangePointer";
    analyzer[] = "Php/GlobalWithoutSimpleVariable";
    analyzer[] = "Php/ListWithAppends";
    analyzer[] = "Php/ListWithKeys";
@@ -6712,9 +6701,10 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Php/Php81RemovesResources";
    analyzer[] = "Php/RestrictGlobalUsage";
    analyzer[] = "Php/StringIntComparison";
+   analyzer[] = "Php/ThrowWasAnExpression";
    analyzer[] = "Php/UsortSorting";
+   analyzer[] = "Structures/ImplodeArgsOrder";
    analyzer[] = "Traits/NoPrivateAbstract";
-   analyzer[] = "Type/MimeType";
    analyzer[] = "Variables/InheritedStaticVariable";
 
 
@@ -6730,10 +6720,13 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
   rulesets:
     'Changed Behavior':
      - 'Arrays/NegativeStart'
+     - 'Attributes/NestedAttributes'
+     - 'Classes/PssWithoutClass'
+     - 'Classes/UndefinedProperty'
      - 'Functions/WrongOptionalParameter'
      - 'Interfaces/CantOverloadConstants'
-     - 'Php/CloneConstant'
      - 'Php/ConcatAndAddition'
+     - 'Php/ForeachDontChangePointer'
      - 'Php/GlobalWithoutSimpleVariable'
      - 'Php/ListWithAppends'
      - 'Php/ListWithKeys'
@@ -6743,9 +6736,10 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Php/Php81RemovesResources'
      - 'Php/RestrictGlobalUsage'
      - 'Php/StringIntComparison'
+     - 'Php/ThrowWasAnExpression'
      - 'Php/UsortSorting'
+     - 'Structures/ImplodeArgsOrder'
      - 'Traits/NoPrivateAbstract'
-     - 'Type/MimeType'
      - 'Variables/InheritedStaticVariable'
 
 
@@ -7085,7 +7079,6 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Classes/NullOnNew";
    analyzer[] = "Exceptions/MultipleCatch";
    analyzer[] = "Extensions/Extdba";
-   analyzer[] = "Extensions/Extming";
    analyzer[] = "Functions/GeneratorCannotReturn";
    analyzer[] = "Functions/MultipleSameArguments";
    analyzer[] = "Interfaces/CantOverloadConstants";
@@ -7186,7 +7179,6 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Classes/NullOnNew'
      - 'Exceptions/MultipleCatch'
      - 'Extensions/Extdba'
-     - 'Extensions/Extming'
      - 'Functions/GeneratorCannotReturn'
      - 'Functions/MultipleSameArguments'
      - 'Interfaces/CantOverloadConstants'
@@ -8988,6 +8980,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Type/HttpHeader";
    analyzer[] = "Type/HttpStatus";
    analyzer[] = "Type/IncomingDateFormat";
+   analyzer[] = "Type/Ip";
    analyzer[] = "Type/Md5String";
    analyzer[] = "Type/MimeType";
    analyzer[] = "Type/OctalInString";
@@ -9035,6 +9028,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Type/HttpHeader'
      - 'Type/HttpStatus'
      - 'Type/IncomingDateFormat'
+     - 'Type/Ip'
      - 'Type/Md5String'
      - 'Type/MimeType'
      - 'Type/OctalInString'
@@ -9095,6 +9089,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Interfaces/IsNotImplemented";
    analyzer[] = "Interfaces/UndefinedInterfaces";
    analyzer[] = "Namespaces/OverloadExistingNames";
+   analyzer[] = "Namespaces/UnresolvedUse";
    analyzer[] = "Php/OnlyVariableForReference";
    analyzer[] = "Php/TooManyNativeCalls";
    analyzer[] = "Php/UpperCaseFunction";
@@ -9139,6 +9134,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Interfaces/IsNotImplemented'
      - 'Interfaces/UndefinedInterfaces'
      - 'Namespaces/OverloadExistingNames'
+     - 'Namespaces/UnresolvedUse'
      - 'Php/OnlyVariableForReference'
      - 'Php/TooManyNativeCalls'
      - 'Php/UpperCaseFunction'
@@ -9190,6 +9186,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Interfaces/IsNotImplemented";
    analyzer[] = "Interfaces/UndefinedInterfaces";
    analyzer[] = "Namespaces/OverloadExistingNames";
+   analyzer[] = "Namespaces/UnresolvedUse";
    analyzer[] = "Php/OnlyVariableForReference";
    analyzer[] = "Php/TooManyNativeCalls";
    analyzer[] = "Php/UpperCaseFunction";
@@ -9234,6 +9231,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Interfaces/IsNotImplemented'
      - 'Interfaces/UndefinedInterfaces'
      - 'Namespaces/OverloadExistingNames'
+     - 'Namespaces/UnresolvedUse'
      - 'Php/OnlyVariableForReference'
      - 'Php/TooManyNativeCalls'
      - 'Php/UpperCaseFunction'
@@ -10369,7 +10367,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
 ::
 
  [Surprising]
-   analyzer[] = "";
+   analyzer[] = "Structures/SequenceInFor";
 
 
 .. _annex-yaml-surprising:
@@ -10383,7 +10381,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
 
   rulesets:
     'Surprising':
-     - ''
+     - 'Structures/SequenceInFor'
 
 
 

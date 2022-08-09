@@ -6,7 +6,7 @@ Release Note
 
 Here is the release note of exakat. 
 
-**Version 2.4.8 (???, 2022-08-27)**
+**Version 2.5.0 (Wang Gui, 2022-09-07)**
 
 
 + Architecture
@@ -24,6 +24,24 @@ Here is the release note of exakat.
 + Tokenizer
     + 
 
+**Version 2.4.9 (Xue Rengui, 2022-08-24)**
+
+
++ Architecture
+    + 
+
++ Cobbler
+    + 
+
++ Report
+    + 
+
++ Analysis
+    + Refactored analysis : strange names now covers types too. 
+
++ Tokenizer
+    + Fixed detection of constant in ternary/coalesce
+
 **Version 2.4.7 (Xu Jingzong, 2022-08-03)**
 
 
@@ -34,7 +52,7 @@ Here is the release note of exakat.
     + New cobbler : remove brackets to single-instruction commands
 
 + Report
-    + 
+    + New inventory : IP
 
 + Analysis
     + Refactored analysis : Could Use Array_sum()
@@ -47,9 +65,21 @@ Here is the release note of exakat.
     + New analysis : no default for referenced parameter
     + New analysis : No clone constant before PHP 8.1
     + New analysis : Complete enum cases with definition to value and name
+    + Refactored analysis : better handling of clone in Variable Typehint
+    + Refactored analysis : cleaned some false positives with Undefined Properties
+    + Refactored analysis : Unresolved use now uses stubs; upgrade in function/const coverage
+    + Removed analysis : ext/recode, ext/runkit, ext/ming
+    + Refactored analysis : Better coverage for 1 + []
+    + Refactored analysis : Difference preference has gremlin upgraded
+    + New analysis : Ext/random (PHP 8.2)
+    + New analysis : IP inventory
+    + Refactored analysis : JsonSerialize and ReturnTypeWIllChange cover new methods
 
 + Tokenizer
     + Added support for -> out of Enum cases (with name and value)
+    + Added new classes from PHP 8.2
+    + Fixed missing fullnspath for attributes with absolute path
+    + Added all attributes to properties
 
 **Version 2.4.6 (Li Yuanji, 2022-07-20)**
 
