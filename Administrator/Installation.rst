@@ -426,17 +426,16 @@ When producing a report with Github action, the result is either send to STDOUT,
 `Github upload <https://github.com/actions/upload-artifact>`_, aka actions/upload-artifact@v2, is a solution to upload the results. Add the following configuration in the action file : 
 
 ::
-
-    - name: Exakat
-      uses: docker://exakat/exakat-ga
-    - with:
-      ///... possible other directives
-      project_reports: Diplomat
-      /// project_reports may include other reports, like Sarif and Perfile
-    - uses: actions/upload-artifact@v2
-      with:
-        name: my-exakat-report
-        path: /github/workspace/diplomat
+        - name: Exakat
+          uses: docker://exakat/exakat-ga
+        - with:
+          ///... possible other directives
+          project_reports: Diplomat
+          /// project_reports may include other reports, like Sarif and Perfile
+        - uses: actions/upload-artifact@v2
+          with:
+            name: my-exakat-report
+            path: /github/workspace/diplomat
 
 The report files are stored in the ``/github/workspace`` folder, with different names depending on the requested exakat report. For example, the `Sarif` report is exported to the file 'exakat.sarif', while the `Diplomat` report is stored in the folder called 'diplomat'. Thus, the configuration shall be : 
 
