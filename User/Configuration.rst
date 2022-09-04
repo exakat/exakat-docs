@@ -32,9 +32,9 @@ The exakat engine read directives from six places, with the following precedence
 1. The command line options
 2. The .exakat.ini or .exakat.yaml file at the root of the code
 3. The environment variables
-3. The config.ini file in the project directory
-4. The exakat.ini file in the config directory
-5. The default values in the code
+4. The config.ini file in the project directory
+5. The exakat.ini file in the config directory
+6. The default values in the code
 
 
 The precedence of the directives is the same as the list above : command line options always have highest priority, config.ini files are in second, when command line are not available, and finally, the default values are read in the code.
@@ -289,7 +289,7 @@ Exakat in project's config.ini file
 
 Copy-paste this YAML code into a file called `.exakat.yaml`, located at the root of your repository. 
 
-This configuration is for the `Structures/AddZero`_ rule. It ignores directories at the root, starting with a `c`; it applies the rule only to files with tpl, php, php3 extensions and the namespaces `\\ns` and `\\ns2`.
+This configuration is for the Structures/AddZero rule. It ignores directories at the root, starting with a `c`; it applies the rule only to files with tpl, php, php3 extensions and the namespaces `\\ns` and `\\ns2`.
 
 :: 
 
@@ -489,42 +489,169 @@ Some analyzer may be configured individually. Those parameters are then specific
 
 Analyzers may be configured in the `project/*/config.ini`; they may also be configured globally in the `config/exakat.ini` file.
 
+:ref:`@ Operator <@-operator>`
+  + authorizedFunctions : noscream_functions.json
+
+    + Functions that are authorized to sports a @.
+:ref:`Abstract Away <abstract-away>`
+  + abstractableCalls : 
+
+    + Functions that shouldn't be called directly, unless in a method.
+  + abstractableClasses : 
+
+    + Classes that shouldn't be instantiated directly, unless in a method.
+:ref:`Abstract Class Constants <abstract-class-constants>`
+  + minimum : 2
+
+    + Minimal number of constant found in children to report this as a potential abstract class.
 :ref:`Array() / [  ] Consistence <array()---[--]-consistence>`
   + array_ratio : 10
 
     + Percentage of arrays in one of the syntaxes, to trigger the other syntax as a violation. 
-:ref:`Multiple Index Definition <multiple-index-definition>`
-  + arrayMaxSize : 15000
-
-    + Maximal size of arrays to be analyzed. This will speed up analysis, and leave the largest arrays untouched.
-:ref:`Too Many Array Dimensions <too-many-array-dimensions>`
-  + maxDimensions : 3
-
-    + Number of valid dimensions in an array.
-:ref:`Custom Class Usage <custom-class-usage>`
-  + forbiddenClasses : 
-
-    + List of classes to be avoided
 :ref:`Cancel Common Method <cancel-common-method>`
   + cancelThreshold : 75
 
     + Minimal number of cancelled methods to suggest the cancellation of the parent.
+:ref:`Collect Vendor Structures <collect-vendor-structures>`
+  + pdffList : []
+
+    + List of vendors, their version and related PDFF. {'vendor':['wordpress.5.9.pdff','wordpress.5.8.pdff']}
+:ref:`Could Be A Constant <could-be-a-constant>`
+  + minOccurences : 1
+
+    + Minimal number of occurrences of the literal.
+  + skipString : ,.php
+
+    + List of omitted string values. For example, the empty string.
+  + skipInteger : 1,-0,-1
+
+    + List of omitted integer values. By default, 0, 1 and -1.
+:ref:`Could Be Enumeration <could-be-enumeration>`
+  + minElements : 2
+
+    + Minimal number of elements to consider that a property may be an enumeration.
 :ref:`Could Be Parent Method <could-be-parent-method>`
   + minChildren : 4
 
     + Minimal number of children using this method.
+:ref:`Could Make A Function <could-make-a-function>`
+  + centralizeThreshold : 8
+
+    + Minimal number of calls of the function with one common argument.
+:ref:`Could Use Existing Constant <could-use-existing-constant>`
+  + omittedValues : 
+
+    + Comma-separated list of values that have to be ignored with this analysis. They replace the default values of 0 and 1.
+:ref:`Custom Class Usage <custom-class-usage>`
+  + forbiddenClasses : 
+
+    + List of classes to be avoided
+:ref:`Duplicate Literal <duplicate-literal>`
+  + minDuplicate : 15
+
+    + Minimal number of duplication before the literal is reported.
+  + ignoreList : 0,1,2,10
+
+    + Common values that have to be ignored. Comma separated list.
 :ref:`Fossilized Method <fossilized-method>`
   + fossilizationThreshold : 6
 
     + Minimal number of overwriting methods to consider a method difficult to update.
+:ref:`Hardcoded Passwords <hardcoded-passwords>`
+  + passwordsKeys : password_keys.json
+
+    + List of array index and property names that shall be checked for potential secret key storages.
 :ref:`Immutable Signature <immutable-signature>`
   + maxOverwrite : 8
 
     + Minimal number of method overwrite to consider that any refactor on the method signature is now hard.
+:ref:`Keep Files Access Restricted <keep-files-access-restricted>`
+  + filePrivileges : 0777
+
+    + List of forbidden file modes (comma separated). This should be a decimal value : 511 instead of 777. The values will not be converted from octal to decimal.
+:ref:`Large Try Block <large-try-block>`
+  + tryBlockMaxSize : 5
+
+    + Maximal number of expressions in the try block.
+:ref:`Long Arguments <long-arguments>`
+  + codeTooLong : 100
+
+    + Minimum size of a functioncall or a methodcall to be considered too long.
+:ref:`Long Preparation For Throw <long-preparation-for-throw>`
+  + preparationLineCount : 8
+
+    + Minimal number of lines before the throw.
 :ref:`Make Magic Concrete <make-magic-concrete>`
   + magicMemberUsage : 1
 
     + Minimal number of magic member usage across the code, to trigger a concrete property.
+:ref:`Max Level Of Nesting <max-level-of-nesting>`
+  + maxLevel : 4
+
+    + Maximum level of nesting for control flow structures in one scope. 
+:ref:`Memoize MagicCall <memoize-magiccall>`
+  + minMagicCallsToGet : 2
+
+    + Minimal number of calls of a magic property to make it worth locally caching.
+:ref:`Missing Include <missing-include>`
+  + constant_or_variable_name : 100
+
+    + Literal value to be used when including files. For example, by configuring 'Files_MissingInclude["HOME_DIR"] = "/tmp/myDir/";', then 'include HOME_DIR . "my_class.php"; will be actually be used as '/tmp/myDir/my_class.php'. Constants must be configured with their correct case. Variable must be configured with their initial '$'. Configure any number of variable and constant names.
+:ref:`Multiple Index Definition <multiple-index-definition>`
+  + arrayMaxSize : 15000
+
+    + Maximal size of arrays to be analyzed. This will speed up analysis, and leave the largest arrays untouched.
+:ref:`Nested Ifthen <nested-ifthen>`
+  + nestedIfthen : 3
+
+    + Maximal number of acceptable nesting of if-then structures
+:ref:`Nested Ternary <nested-ternary>`
+  + minNestedTernary : 2
+
+    + Minimal number of nested ternary to report.
+:ref:`PHP Keywords As Names <php-keywords-as-names>`
+  + reservedNames : 
+
+    + Other reserved names : all in a string, comma separated.
+  + allowedNames : 
+
+    + PHP reserved names that can be used in the code. All in a string, comma separated.
+:ref:`Prefix And Suffixes With Typehint <prefix-and-suffixes-with-typehint>`
+  + prefixedType : prefixedType['is'] = 'bool';
+prefixedType['has'] = 'bool';
+prefixedType['set'] = 'void';
+prefixedType['list'] = 'array';
+
+    + List of prefixes and their expected returntype
+  + suffixedType : prefixedType['list'] = 'bool';
+prefixedType['int'] = 'int';
+prefixedType['string'] = 'string';
+prefixedType['name'] = 'string';
+prefixedType['description'] = 'string';
+prefixedType['id'] = 'int';
+prefixedType['uuid'] = '\Uuid';
+
+    + List of suffixes and their expected returntype
+:ref:`Randomly Sorted Arrays <randomly-sorted-arrays>`
+  + maxSize : 5
+
+    + Maximal size of arrays to survey.
+:ref:`Should Use Prepared Statement <should-use-prepared-statement>`
+  + queryMethod : query_methods.json
+
+    + Methods that call a query.
+:ref:`Too Complex Expression <too-complex-expression>`
+  + complexExpressionThreshold : 30
+
+    + Minimal number of operators in one expression to report.
+:ref:`Too Long A Block <too-long-a-block>`
+  + longBlock : 200
+
+    + Size of a block for it to be too long. A block is commanded by a for, foreach, while, do...while, if/then else structure.
+:ref:`Too Many Array Dimensions <too-many-array-dimensions>`
+  + maxDimensions : 3
+
+    + Number of valid dimensions in an array.
 :ref:`Too Many Children <too-many-children>`
   + childrenClassCount : 15
 
@@ -547,50 +674,22 @@ Analyzers may be configured in the `project/*/config.ini`; they may also be conf
   + injectionsCount : 5
 
     + Threshold for too many injected parameters for one class.
-:ref:`Large Try Block <large-try-block>`
-  + tryBlockMaxSize : 5
-
-    + Maximal number of expressions in the try block.
-:ref:`Long Preparation For Throw <long-preparation-for-throw>`
-  + preparationLineCount : 8
-
-    + Minimal number of lines before the throw.
-:ref:`Missing Include <missing-include>`
-  + constant_or_variable_name : 100
-
-    + Literal value to be used when including files. For example, by configuring 'Files_MissingInclude["HOME_DIR"] = "/tmp/myDir/";', then 'include HOME_DIR . "my_class.php"; will be actually be used as '/tmp/myDir/my_class.php'. Constants must be configured with their correct case. Variable must be configured with their initial '$'. Configure any number of variable and constant names.
-:ref:`Could Make A Function <could-make-a-function>`
-  + centralizeThreshold : 8
-
-    + Minimal number of calls of the function with one common argument.
-:ref:`Hardcoded Passwords <hardcoded-passwords>`
-  + passwordsKeys : password_keys.json
-
-    + List of array index and property names that shall be checked for potential secret key storages.
-:ref:`Prefix And Suffixes With Typehint <prefix-and-suffixes-with-typehint>`
-  + prefixedType : prefixedType['is'] = 'bool';
-prefixedType['has'] = 'bool';
-prefixedType['set'] = 'void';
-prefixedType['list'] = 'array';
-
-    + List of prefixes and their expected returntype
-  + suffixedType : prefixedType['list'] = 'bool';
-prefixedType['int'] = 'int';
-prefixedType['string'] = 'string';
-prefixedType['name'] = 'string';
-prefixedType['description'] = 'string';
-prefixedType['id'] = 'int';
-prefixedType['uuid'] = '\Uuid';
-
-    + List of suffixes and their expected returntype
 :ref:`Too Many Local Variables <too-many-local-variables>`
   + tooManyLocalVariableThreshold : 15
 
     + Minimal number of variables in one function or method to report.
+:ref:`Too Many Native Calls <too-many-native-calls>`
+  + nativeCallCounts : 3
+
+    + Number of native calls found inside another call.
 :ref:`Too Many Parameters <too-many-parameters>`
   + parametersCount : 8
 
     + Minimal number of parameters to report.
+:ref:`Too Many Stringed Elseif <too-many-stringed-elseif>`
+  + maxIf : 5
+
+    + Maximum number of allowed stringed if-then-elseif structure.
 :ref:`Too Much Indented <too-much-indented>`
   + indentationAverage : 1
 
@@ -598,87 +697,25 @@ prefixedType['uuid'] = '\Uuid';
   + minimumSize : 3
 
     + Minimal number of expressions in a method to apply this analysis.
+:ref:`Used Once Trait <used-once-trait>`
+  + timeUsed : 2
+
+    + Maximal number of trait usage, before the trait is considered enough used.
 :ref:`Useless Argument <useless-argument>`
   + maxUsageCount : 30
 
     + Maximum count of function usage. Use this to limit the amount of processed arguments.
-:ref:`Abstract Away <abstract-away>`
-  + abstractableCalls : 
-
-    + Functions that shouldn't be called directly, unless in a method.
-  + abstractableClasses : 
-
-    + Classes that shouldn't be instantiated directly, unless in a method.
-:ref:`Memoize MagicCall <memoize-magiccall>`
-  + minMagicCallsToGet : 2
-
-    + Minimal number of calls of a magic property to make it worth locally caching.
-:ref:`PHP Keywords As Names <php-keywords-as-names>`
-  + reservedNames : 
-
-    + Other reserved names : all in a string, comma separated.
-  + allowedNames : 
-
-    + PHP reserved names that can be used in the code. All in a string, comma separated.
-:ref:`Too Many Native Calls <too-many-native-calls>`
-  + nativeCallCounts : 3
-
-    + Number of native calls found inside another call.
-:ref:`Keep Files Access Restricted <keep-files-access-restricted>`
-  + filePrivileges : 0777
-
-    + List of forbidden file modes (comma separated).
-:ref:`Should Use Prepared Statement <should-use-prepared-statement>`
-  + queryMethod : query_methods.json
-
-    + Methods that call a query.
-:ref:`Too Complex Expression <too-complex-expression>`
-  + complexExpressionThreshold : 30
-
-    + Minimal number of operators in one expression to report.
-:ref:`Long Arguments <long-arguments>`
-  + codeTooLong : 100
-
-    + Minimum size of a functioncall or a methodcall to be considered too long.
-:ref:`Too Long A Block <too-long-a-block>`
-  + longBlock : 200
-
-    + Size of a block for it to be too long. A block is commanded by a for, foreach, while, do...while, if/then else structure.
-:ref:`Max Level Of Nesting <max-level-of-nesting>`
-  + maxLevel : 4
-
-    + Maximum level of nesting for control flow structures in one scope. 
-:ref:`Nested Ifthen <nested-ifthen>`
-  + nestedIfthen : 3
-
-    + Maximal number of acceptable nesting of if-then structures
-:ref:`@ Operator <@-operator>`
-  + authorizedFunctions : noscream_functions.json
-
-    + Functions that are authorized to sports a @.
-:ref:`Duplicate Literal <duplicate-literal>`
-  + minDuplicate : 15
-
-    + Minimal number of duplication before the literal is reported.
-  + ignoreList : 0,1,2,10
-
-    + Common values that have to be ignored. Comma separated list.
 :ref:`Variables With Long Names <variables-with-long-names>`
   + variableLength : 20
 
     + Minimum size of a long variable name, including the initial $.
-:ref:`Abstract Class Constants <abstract-class-constants>`
-  + minimum : 2
+:ref:`Wrong Locale <wrong-locale>`
+  + otherLocales : 
 
-    + Minimal number of constant found in children to report this as a potential abstract class.
-:ref:`Could Use Existing Constant <could-use-existing-constant>`
-  + omittedValues : 
+    + Other accepted locales, comma separated
+  + maxPositions : 3
 
-    + Comma-separated list of values that have to be ignored with this analysis. They replace the default values of 0 and 1.
-:ref:`Too Many Stringed Elseif <too-many-stringed-elseif>`
-  + maxIf : 5
-
-    + Maximum number of allowed stringed if-then-elseif structure.
+    + Number of argument in setLocale() to be tried.
 
 
     
