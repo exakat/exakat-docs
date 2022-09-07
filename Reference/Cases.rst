@@ -7879,30 +7879,6 @@ Here, the new exception gets an hardcoded message. More details about the reason
             }
 
 
-.. _case-should-make-ternary:
-
-Should Make Ternary
-###################
-
-.. _case-churchcrm-structures-shouldmaketernary:
-
-ChurchCRM
-+++++++++
-
-
-:ref:`should-make-ternary`, in src/CartToFamily.php:57. 
-
-$sState could be the receiving part of a ternary operator. 
-
-.. code-block:: php
-   
-    if ($sCountry == 'United States' || $sCountry == 'Canada') {
-                $sState = InputUtils::LegacyFilterInput($_POST['State']);
-            } else {
-                $sState = InputUtils::LegacyFilterInput($_POST['StateTextbox']);
-            }
-
-
 .. _case-should-preprocess-chr():
 
 Should Preprocess Chr()
@@ -8265,6 +8241,30 @@ This code is well escaped, as the integer type cast will prevent any special cha
 .. code-block:: php
    
     $db->query("DELETE FROM " . MAIN_DB_PREFIX . "product_pricerules WHERE level = " . (int) $i)
+
+
+.. _case-should-use-ternary-operator:
+
+Should Use Ternary Operator
+###########################
+
+.. _case-churchcrm-structures-shouldmaketernary:
+
+ChurchCRM
++++++++++
+
+
+:ref:`should-use-ternary-operator`, in src/CartToFamily.php:57. 
+
+$sState could be the receiving part of a ternary operator. 
+
+.. code-block:: php
+   
+    if ($sCountry == 'United States' || $sCountry == 'Canada') {
+                $sState = InputUtils::LegacyFilterInput($_POST['State']);
+            } else {
+                $sState = InputUtils::LegacyFilterInput($_POST['StateTextbox']);
+            }
 
 
 .. _case-should-use-array\_filter():

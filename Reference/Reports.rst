@@ -2588,7 +2588,7 @@ This report builds a configuration file for php-cs-fixer.
 + :ref:`else-if-versus-elseif`  : **elseif**
 + :ref:`multiple-unset()`  : **combine_consecutive_unsets**
 + Classes/DontUnsetProperties: **no_unset_on_property**
-+ :ref:`use-constant`  : **function_to_constant**
++ :ref:`use-constant-instead-of-function`  : **function_to_constant**
 + :ref:`php7-dirname`  : **combine_nested_dirname**
 + :ref:`could-use-\_\_dir\_\_`  : **dir_constant**
 + :ref:`isset-multiple-arguments`  : **combine_consecutive_issets**

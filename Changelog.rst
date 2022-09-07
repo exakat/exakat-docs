@@ -27,15 +27,6 @@ Here is the release note of exakat.
 **Version 2.4.9 (Wang Gui, 2022-09-07)**
 
 
-+ Architecture
-    + 
-
-+ Cobbler
-    + 
-
-+ Report
-    + 
-
 + Analysis
     + Refactored analysis : Uses Default now supports PDFF and functions
     + Refactored analysis : Using PDFF with ext/seaslog and ext/memcache
@@ -52,9 +43,16 @@ Here is the release note of exakat.
     + Refactored analysis : Uses default argument skips Virtualproperties
     + New analysis : Complete/SolveTraitConstants adds support for constants in traits (PHP 8.2)
     + Refactored analysis : Complete/SetParentDefinition was trimmed of 2 useless queries
+    + Refactored analysis : PPP declaration style
+    + Refactored analysis : Is Global Constant (removed usage of .ini)
+    + Refactored analysis : Overwritten* are simplified for speed up and deduplication
+    + Refactored analysis : UndefinedClasses speed up
+    + Refactored analysis : Should Preprocess now adds Heredocs and skips variables inside strings
+    + Refactored analysis : Should use Ternary now skips elsif
+    + Refactored analysis : ext/fann now use pdff
 
 + Tokenizer
-    + 
+    + Added support for PHP keywords in namespace names.
 
 **Version 2.4.8 (Xue Rengui, 2022-08-24)**
 

@@ -832,6 +832,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Namespaces/MultipleAliasDefinitions";
    analyzer[] = "Namespaces/NamespaceUsage";
    analyzer[] = "Namespaces/Namespacesnames";
+   analyzer[] = "Namespaces/NoKeywordInNamespace";
    analyzer[] = "Namespaces/OverloadExistingNames";
    analyzer[] = "Namespaces/ShouldMakeAlias";
    analyzer[] = "Namespaces/UnresolvedUse";
@@ -2348,6 +2349,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Namespaces/MultipleAliasDefinitions'
      - 'Namespaces/NamespaceUsage'
      - 'Namespaces/Namespacesnames'
+     - 'Namespaces/NoKeywordInNamespace'
      - 'Namespaces/OverloadExistingNames'
      - 'Namespaces/ShouldMakeAlias'
      - 'Namespaces/UnresolvedUse'
@@ -3192,6 +3194,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Classes/CouldBeAbstractClass";
    analyzer[] = "Classes/CouldBeFinal";
    analyzer[] = "Classes/CouldBeStatic";
+   analyzer[] = "Classes/CouldInjectParam";
    analyzer[] = "Classes/CyclicReferences";
    analyzer[] = "Classes/DependantAbstractClass";
    analyzer[] = "Classes/DifferentArgumentCounts";
@@ -3310,6 +3313,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Functions/MustReturn";
    analyzer[] = "Functions/NeverUsedParameter";
    analyzer[] = "Functions/NoBooleanAsDefault";
+   analyzer[] = "Functions/NoDefaultForReference";
    analyzer[] = "Functions/NoLiteralForReference";
    analyzer[] = "Functions/NoReferencedVoid";
    analyzer[] = "Functions/NoReturnUsed";
@@ -3663,6 +3667,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Classes/CouldBeAbstractClass'
      - 'Classes/CouldBeFinal'
      - 'Classes/CouldBeStatic'
+     - 'Classes/CouldInjectParam'
      - 'Classes/CyclicReferences'
      - 'Classes/DependantAbstractClass'
      - 'Classes/DifferentArgumentCounts'
@@ -3781,6 +3786,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Functions/MustReturn'
      - 'Functions/NeverUsedParameter'
      - 'Functions/NoBooleanAsDefault'
+     - 'Functions/NoDefaultForReference'
      - 'Functions/NoLiteralForReference'
      - 'Functions/NoReferencedVoid'
      - 'Functions/NoReturnUsed'
@@ -4202,6 +4208,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Extensions/Extgearman";
    analyzer[] = "Extensions/Extgender";
    analyzer[] = "Extensions/Extgeoip";
+   analyzer[] = "Extensions/Extgeospatial";
    analyzer[] = "Extensions/Extgettext";
    analyzer[] = "Extensions/Extgmagick";
    analyzer[] = "Extensions/Extgmp";
@@ -4594,6 +4601,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Extensions/Extgearman'
      - 'Extensions/Extgender'
      - 'Extensions/Extgeoip'
+     - 'Extensions/Extgeospatial'
      - 'Extensions/Extgettext'
      - 'Extensions/Extgmagick'
      - 'Extensions/Extgmp'
@@ -5018,7 +5026,6 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Composer/UseComposer";
    analyzer[] = "Composer/UseComposerLock";
    analyzer[] = "Constants/CaseInsensitiveConstants";
-   analyzer[] = "Constants/ConditionedConstants";
    analyzer[] = "Constants/ConstRecommended";
    analyzer[] = "Constants/ConstantStrangeNames";
    analyzer[] = "Constants/ConstantUsage";
@@ -5566,7 +5573,6 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Vendors/Concrete5";
    analyzer[] = "Vendors/Drupal";
    analyzer[] = "Vendors/Ez";
-   analyzer[] = "Vendors/Feast";
    analyzer[] = "Vendors/Fuel";
    analyzer[] = "Vendors/Joomla";
    analyzer[] = "Vendors/Laravel";
@@ -5660,7 +5666,6 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Composer/UseComposer'
      - 'Composer/UseComposerLock'
      - 'Constants/CaseInsensitiveConstants'
-     - 'Constants/ConditionedConstants'
      - 'Constants/ConstRecommended'
      - 'Constants/ConstantStrangeNames'
      - 'Constants/ConstantUsage'
@@ -6208,7 +6213,6 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Vendors/Concrete5'
      - 'Vendors/Drupal'
      - 'Vendors/Ez'
-     - 'Vendors/Feast'
      - 'Vendors/Fuel'
      - 'Vendors/Joomla'
      - 'Vendors/Laravel'
@@ -6627,12 +6631,16 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
 
  [Changed Behavior]
    analyzer[] = "Arrays/NegativeStart";
+   analyzer[] = "Arrays/NullBoolean";
    analyzer[] = "Attributes/NestedAttributes";
+   analyzer[] = "Classes/NoParent";
    analyzer[] = "Classes/PssWithoutClass";
    analyzer[] = "Classes/UndefinedProperty";
+   analyzer[] = "Classes/UsingThisOutsideAClass";
    analyzer[] = "Functions/WrongOptionalParameter";
    analyzer[] = "Interfaces/CantOverloadConstants";
    analyzer[] = "Php/AssertFunctionIsReserved";
+   analyzer[] = "Php/ClosureThisSupport";
    analyzer[] = "Php/ConcatAndAddition";
    analyzer[] = "Php/ForeachDontChangePointer";
    analyzer[] = "Php/GlobalWithoutSimpleVariable";
@@ -6644,7 +6652,11 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Php/NoStringWithAppend";
    analyzer[] = "Php/PHP73LastEmptyArgument";
    analyzer[] = "Php/Php71microseconds";
+   analyzer[] = "Php/Php74mbstrrpos3rdArg";
+   analyzer[] = "Php/Php7RelaxedKeyword";
    analyzer[] = "Php/Php81RemovesResources";
+   analyzer[] = "Php/PhpErrorMsgUsage";
+   analyzer[] = "Php/RawPostDataUsage";
    analyzer[] = "Php/ReflectionExportIsDeprecated";
    analyzer[] = "Php/ReservedKeywords7";
    analyzer[] = "Php/RestrictGlobalUsage";
@@ -6678,12 +6690,16 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
   rulesets:
     'Changed Behavior':
      - 'Arrays/NegativeStart'
+     - 'Arrays/NullBoolean'
      - 'Attributes/NestedAttributes'
+     - 'Classes/NoParent'
      - 'Classes/PssWithoutClass'
      - 'Classes/UndefinedProperty'
+     - 'Classes/UsingThisOutsideAClass'
      - 'Functions/WrongOptionalParameter'
      - 'Interfaces/CantOverloadConstants'
      - 'Php/AssertFunctionIsReserved'
+     - 'Php/ClosureThisSupport'
      - 'Php/ConcatAndAddition'
      - 'Php/ForeachDontChangePointer'
      - 'Php/GlobalWithoutSimpleVariable'
@@ -6695,7 +6711,11 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Php/NoStringWithAppend'
      - 'Php/PHP73LastEmptyArgument'
      - 'Php/Php71microseconds'
+     - 'Php/Php74mbstrrpos3rdArg'
+     - 'Php/Php7RelaxedKeyword'
      - 'Php/Php81RemovesResources'
+     - 'Php/PhpErrorMsgUsage'
+     - 'Php/RawPostDataUsage'
      - 'Php/ReflectionExportIsDeprecated'
      - 'Php/ReservedKeywords7'
      - 'Php/RestrictGlobalUsage'
@@ -6752,6 +6772,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Classes/CouldBeProtectedProperty";
    analyzer[] = "Classes/CouldBeStatic";
    analyzer[] = "Classes/CouldBeStringable";
+   analyzer[] = "Classes/CouldInjectParam";
    analyzer[] = "Classes/CouldSetPropertyDefault";
    analyzer[] = "Classes/CyclicReferences";
    analyzer[] = "Classes/DependantAbstractClass";
@@ -6840,6 +6861,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Classes/CouldBeProtectedProperty'
      - 'Classes/CouldBeStatic'
      - 'Classes/CouldBeStringable'
+     - 'Classes/CouldInjectParam'
      - 'Classes/CouldSetPropertyDefault'
      - 'Classes/CyclicReferences'
      - 'Classes/DependantAbstractClass'
@@ -7960,6 +7982,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Classes/UsingThisOutsideAClass";
    analyzer[] = "Extensions/Extmcrypt";
    analyzer[] = "Interfaces/CantOverloadConstants";
+   analyzer[] = "Namespaces/NoKeywordInNamespace";
    analyzer[] = "Php/BetterRand";
    analyzer[] = "Php/CloneConstant";
    analyzer[] = "Php/CoalesceEqual";
@@ -8020,6 +8043,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Classes/UsingThisOutsideAClass'
      - 'Extensions/Extmcrypt'
      - 'Interfaces/CantOverloadConstants'
+     - 'Namespaces/NoKeywordInNamespace'
      - 'Php/BetterRand'
      - 'Php/CloneConstant'
      - 'Php/CoalesceEqual'
@@ -8082,6 +8106,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
  [CompatibilityPHP72]
    analyzer[] = "Constants/UndefinedConstants";
    analyzer[] = "Interfaces/CantOverloadConstants";
+   analyzer[] = "Namespaces/NoKeywordInNamespace";
    analyzer[] = "Php/AvoidSetErrorHandlerContextArg";
    analyzer[] = "Php/CloneConstant";
    analyzer[] = "Php/CoalesceEqual";
@@ -8135,6 +8160,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
     'CompatibilityPHP72':
      - 'Constants/UndefinedConstants'
      - 'Interfaces/CantOverloadConstants'
+     - 'Namespaces/NoKeywordInNamespace'
      - 'Php/AvoidSetErrorHandlerContextArg'
      - 'Php/CloneConstant'
      - 'Php/CoalesceEqual'
@@ -8196,6 +8222,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Attributes/NestedAttributes";
    analyzer[] = "Constants/CaseInsensitiveConstants";
    analyzer[] = "Interfaces/CantOverloadConstants";
+   analyzer[] = "Namespaces/NoKeywordInNamespace";
    analyzer[] = "Php/AssertFunctionIsReserved";
    analyzer[] = "Php/CloneConstant";
    analyzer[] = "Php/CoalesceEqual";
@@ -8240,6 +8267,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Attributes/NestedAttributes'
      - 'Constants/CaseInsensitiveConstants'
      - 'Interfaces/CantOverloadConstants'
+     - 'Namespaces/NoKeywordInNamespace'
      - 'Php/AssertFunctionIsReserved'
      - 'Php/CloneConstant'
      - 'Php/CoalesceEqual'
@@ -8291,6 +8319,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Attributes/NestedAttributes";
    analyzer[] = "Functions/UnbindingClosures";
    analyzer[] = "Interfaces/CantOverloadConstants";
+   analyzer[] = "Namespaces/NoKeywordInNamespace";
    analyzer[] = "Php/ArrayKeyExistsWithObjects";
    analyzer[] = "Php/AvoidGetobjectVars";
    analyzer[] = "Php/CloneConstant";
@@ -8346,6 +8375,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Attributes/NestedAttributes'
      - 'Functions/UnbindingClosures'
      - 'Interfaces/CantOverloadConstants'
+     - 'Namespaces/NoKeywordInNamespace'
      - 'Php/ArrayKeyExistsWithObjects'
      - 'Php/AvoidGetobjectVars'
      - 'Php/CloneConstant'
@@ -9051,6 +9081,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Functions/DontUseVoid";
    analyzer[] = "Functions/OnlyVariablePassedByReference";
    analyzer[] = "Functions/UndefinedFunctions";
+   analyzer[] = "Functions/UsesDefaultArguments";
    analyzer[] = "Functions/WrongArgumentNameWithPhpFunction";
    analyzer[] = "Functions/WrongNumberOfArguments";
    analyzer[] = "Interfaces/AlreadyParentsInterface";
@@ -9059,6 +9090,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Namespaces/OverloadExistingNames";
    analyzer[] = "Namespaces/UnresolvedUse";
    analyzer[] = "Php/OnlyVariableForReference";
+   analyzer[] = "Php/OveriddenFunction";
    analyzer[] = "Php/TooManyNativeCalls";
    analyzer[] = "Php/UpperCaseFunction";
    analyzer[] = "Structures/ArrayMapPassesByValue";
@@ -9096,6 +9128,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Functions/DontUseVoid'
      - 'Functions/OnlyVariablePassedByReference'
      - 'Functions/UndefinedFunctions'
+     - 'Functions/UsesDefaultArguments'
      - 'Functions/WrongArgumentNameWithPhpFunction'
      - 'Functions/WrongNumberOfArguments'
      - 'Interfaces/AlreadyParentsInterface'
@@ -9104,6 +9137,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Namespaces/OverloadExistingNames'
      - 'Namespaces/UnresolvedUse'
      - 'Php/OnlyVariableForReference'
+     - 'Php/OveriddenFunction'
      - 'Php/TooManyNativeCalls'
      - 'Php/UpperCaseFunction'
      - 'Structures/ArrayMapPassesByValue'
@@ -9148,6 +9182,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Functions/DontUseVoid";
    analyzer[] = "Functions/OnlyVariablePassedByReference";
    analyzer[] = "Functions/UndefinedFunctions";
+   analyzer[] = "Functions/UsesDefaultArguments";
    analyzer[] = "Functions/WrongArgumentNameWithPhpFunction";
    analyzer[] = "Functions/WrongNumberOfArguments";
    analyzer[] = "Interfaces/AlreadyParentsInterface";
@@ -9156,6 +9191,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Namespaces/OverloadExistingNames";
    analyzer[] = "Namespaces/UnresolvedUse";
    analyzer[] = "Php/OnlyVariableForReference";
+   analyzer[] = "Php/OveriddenFunction";
    analyzer[] = "Php/TooManyNativeCalls";
    analyzer[] = "Php/UpperCaseFunction";
    analyzer[] = "Structures/ArrayMapPassesByValue";
@@ -9193,6 +9229,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Functions/DontUseVoid'
      - 'Functions/OnlyVariablePassedByReference'
      - 'Functions/UndefinedFunctions'
+     - 'Functions/UsesDefaultArguments'
      - 'Functions/WrongArgumentNameWithPhpFunction'
      - 'Functions/WrongNumberOfArguments'
      - 'Interfaces/AlreadyParentsInterface'
@@ -9201,6 +9238,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Namespaces/OverloadExistingNames'
      - 'Namespaces/UnresolvedUse'
      - 'Php/OnlyVariableForReference'
+     - 'Php/OveriddenFunction'
      - 'Php/TooManyNativeCalls'
      - 'Php/UpperCaseFunction'
      - 'Structures/ArrayMapPassesByValue'
@@ -9245,6 +9283,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Functions/DontUseVoid";
    analyzer[] = "Functions/OnlyVariablePassedByReference";
    analyzer[] = "Functions/UndefinedFunctions";
+   analyzer[] = "Functions/UsesDefaultArguments";
    analyzer[] = "Functions/WrongArgumentNameWithPhpFunction";
    analyzer[] = "Functions/WrongNumberOfArguments";
    analyzer[] = "Interfaces/AlreadyParentsInterface";
@@ -9253,6 +9292,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Namespaces/OverloadExistingNames";
    analyzer[] = "Namespaces/UnresolvedUse";
    analyzer[] = "Php/OnlyVariableForReference";
+   analyzer[] = "Php/OveriddenFunction";
    analyzer[] = "Structures/ArrayMapPassesByValue";
    analyzer[] = "Traits/UndefinedTrait";
 
@@ -9288,6 +9328,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Functions/DontUseVoid'
      - 'Functions/OnlyVariablePassedByReference'
      - 'Functions/UndefinedFunctions'
+     - 'Functions/UsesDefaultArguments'
      - 'Functions/WrongArgumentNameWithPhpFunction'
      - 'Functions/WrongNumberOfArguments'
      - 'Interfaces/AlreadyParentsInterface'
@@ -9296,6 +9337,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Namespaces/OverloadExistingNames'
      - 'Namespaces/UnresolvedUse'
      - 'Php/OnlyVariableForReference'
+     - 'Php/OveriddenFunction'
      - 'Structures/ArrayMapPassesByValue'
      - 'Traits/UndefinedTrait'
 

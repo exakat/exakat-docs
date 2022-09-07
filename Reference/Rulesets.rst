@@ -6,7 +6,7 @@ Rulesets
 Introduction
 ------------------------
 
-Exakat provides unique 1503 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
+Exakat provides unique 1504 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
 
 For more smoothly usage, the ruleset concept allow you to run a set of rules based on a decidated focus. Beawre that a Ruleset run all the associated rules and any needed dependencies.
 
@@ -126,7 +126,7 @@ All
 
 All is a dummy ruleset, which includes all the rules. It is mostly used internally.
 
-Total : 1501 analysis
+Total : 1502 analysis
 
 * :ref:`adding-zero`
 * :ref:`ambiguous-array-index`
@@ -536,7 +536,7 @@ Total : 1501 analysis
 * :ref:`preprocessable`
 * :ref:`slow-functions`
 * :ref:`useless-final`
-* :ref:`use-constant`
+* :ref:`use-constant-instead-of-function`
 * :ref:`resources-usage`
 * :ref:`useless-unset`
 * :ref:`buried-assignation`
@@ -776,7 +776,7 @@ Total : 1501 analysis
 * :ref:`nested-ifthen`
 * :ref:`cast-to-boolean`
 * :ref:`failed-substr-comparison`
-* :ref:`should-make-ternary`
+* :ref:`should-use-ternary-operator`
 * :ref:`unused-returned-value`
 * :ref:`modernize-empty-with-expression`
 * :ref:`use-positive-condition`
@@ -1629,6 +1629,7 @@ Total : 1501 analysis
 * :ref:`unused-public-method`
 * :ref:`could-be-abstract-method`
 * :ref:`solve-trait-constants`
+* :ref:`no-keyword-in-namespace`
 
 Specs
 _____
@@ -1647,7 +1648,7 @@ Analyze
 
 This ruleset centralizes a large number of classic trap and pitfalls when writing PHP.
 
-Total : 458 analysis
+Total : 460 analysis
 
 * :ref:`adding-zero`
 * :ref:`ambiguous-array-index`
@@ -1761,7 +1762,7 @@ Total : 458 analysis
 * :ref:`useless-global`
 * :ref:`preprocessable`
 * :ref:`useless-final`
-* :ref:`use-constant`
+* :ref:`use-constant-instead-of-function`
 * :ref:`useless-unset`
 * :ref:`buried-assignation`
 * :ref:`no-array\_merge()-in-loops`
@@ -1856,7 +1857,7 @@ Total : 458 analysis
 * :ref:`nested-ifthen`
 * :ref:`cast-to-boolean`
 * :ref:`failed-substr-comparison`
-* :ref:`should-make-ternary`
+* :ref:`should-use-ternary-operator`
 * :ref:`unused-returned-value`
 * :ref:`modernize-empty-with-expression`
 * :ref:`use-positive-condition`
@@ -2105,7 +2106,9 @@ Total : 458 analysis
 * :ref:`invalid-date-scanning-format`
 * :ref:`same-name-for-property-and-method`
 * :ref:`datetimeimmutable-is-not-immutable`
+* :ref:`no-default-for-referenced-parameter`
 * :ref:`clone-constant`
+* :ref:`could-inject-param`
 * :ref:`unused-public-method`
 
 Specs
@@ -2127,7 +2130,7 @@ Appinfo
 
 A set of rules that describes with PHP features is used in the code.
 
-Total : 379 analysis
+Total : 380 analysis
 
 * :ref:`array-index`
 * :ref:`multidimensional-arrays`
@@ -2506,6 +2509,7 @@ Total : 379 analysis
 * :ref:`ip`
 * :ref:`ext-scrypt`
 * :ref:`ext-teds`
+* :ref:`geospatial`
 * :ref:`feast-usage`
 * :ref:`date()-versus-datetime-preference`
 
@@ -2552,7 +2556,7 @@ CE
 
 This ruleset is the Community Edition list. It holds all the analysis that are in the community edition version of Exakat.
 
-Total : 629 analysis
+Total : 627 analysis
 
 * :ref:`adding-zero`
 * :ref:`array-index`
@@ -2735,7 +2739,6 @@ Total : 629 analysis
 * :ref:`multiple-catch`
 * :ref:`dynamically-called-classes`
 * :ref:`conditioned-function`
-* :ref:`conditioned-constants`
 * :ref:`is-generator`
 * :ref:`try-with-finally`
 * :ref:`dereferencing-string-and-arrays`
@@ -2787,7 +2790,7 @@ Total : 629 analysis
 * :ref:`ext-fpm`
 * :ref:`no-direct-call-to-magic-method`
 * :ref:`useless-final`
-* :ref:`use-constant`
+* :ref:`use-constant-instead-of-function`
 * :ref:`resources-usage`
 * :ref:`useless-unset`
 * :ref:`no-array\_merge()-in-loops`
@@ -2905,7 +2908,7 @@ Total : 629 analysis
 * :ref:`multiple-identical-trait-or-interface`
 * :ref:`multiple-alias-definitions`
 * :ref:`failed-substr-comparison`
-* :ref:`should-make-ternary`
+* :ref:`should-use-ternary-operator`
 * :ref:`drop-else-after-return`
 * :ref:`use-class-operator`
 * :ref:`ext-rar`
@@ -3182,7 +3185,6 @@ Total : 629 analysis
 * :ref:`php-80-named-parameter-variadic`
 * :ref:`final-private-methods`
 * :ref:`array\_map()-passes-by-value`
-* :ref:`feast-usage`
 
 Specs
 _____
@@ -3254,7 +3256,7 @@ Total : 178 analysis
 * :ref:`no-real-comparison`
 * :ref:`no-direct-call-to-magic-method`
 * :ref:`useless-final`
-* :ref:`use-constant`
+* :ref:`use-constant-instead-of-function`
 * :ref:`useless-unset`
 * :ref:`no-array\_merge()-in-loops`
 * :ref:`useless-parenthesis`
@@ -3311,7 +3313,7 @@ Total : 178 analysis
 * :ref:`multiple-identical-trait-or-interface`
 * :ref:`multiple-alias-definitions`
 * :ref:`failed-substr-comparison`
-* :ref:`should-make-ternary`
+* :ref:`should-use-ternary-operator`
 * :ref:`drop-else-after-return`
 * :ref:`use-class-operator`
 * :ref:`don't-echo-error`
@@ -3399,9 +3401,11 @@ Changed Behavior
 
 Ruleset with all rules that identify changed behavior across PHP versions. This means that some syntax behave differently, depending on PHP version.
 
-Total : 38 analysis
+Total : 46 analysis
 
+* :ref:`$http\_raw\_post\_data-usage`
 * :ref:`wrong-optional-parameter`
+* :ref:`closure-may-use-$this`
 * :ref:`crypt()-without-salt`
 * :ref:`parent,-static-or-self-outside-class`
 * :ref:`empty-with-expression`
@@ -3417,6 +3421,8 @@ Total : 38 analysis
 * :ref:`unicode-escape-partial`
 * :ref:`eval()-without-try`
 * :ref:`usort-sorting-in-php-7.0`
+* :ref:`php7-relaxed-keyword`
+* :ref:`using-$this-outside-a-class`
 * :ref:`list-with-keys`
 * :ref:`php-7.1-microseconds`
 * :ref:`no-string-with-append`
@@ -3425,9 +3431,13 @@ Total : 38 analysis
 * :ref:`no-reference-for-static-property`
 * :ref:`concat-and-addition`
 * :ref:`curl\_version()-has-no-argument`
+* :ref:`null-or-boolean-arrays`
+* :ref:`mb\_strrpos()-third-argument`
 * :ref:`reflection-export()-is-deprecated`
+* :ref:`class-without-parent`
 * :ref:`implode()-arguments-order`
 * :ref:`throw-was-an-expression`
+* :ref:`$php\_errormsg-usage`
 * :ref:`negative-start-index-in-array`
 * :ref:`only-first-byte-`
 * :ref:`restrict-global-usage`
@@ -3457,7 +3467,7 @@ Class Review
 
 This ruleset focuses on classes construction issues, and their related structures : traits, interfaces, methods, properties, constants.
 
-Total : 75 analysis
+Total : 76 analysis
 
 * :ref:`final-class-usage`
 * :ref:`final-methods-usage`
@@ -3534,6 +3544,7 @@ Total : 75 analysis
 * :ref:`wrong-type-with-default`
 * :ref:`same-name-for-property-and-method`
 * :ref:`magic-method-returntype-is-restricted`
+* :ref:`could-inject-param`
 
 Specs
 _____
@@ -4106,7 +4117,7 @@ CompatibilityPHP71
 
 This ruleset centralizes all analysis for the migration from PHP 7.0 to 7.1.
 
-Total : 47 analysis
+Total : 48 analysis
 
 * :ref:`ext-mcrypt`
 * :ref:`hash-algorithms-incompatible-with-php-5.3`
@@ -4155,6 +4166,7 @@ Total : 47 analysis
 * :ref:`array\_merge-with-ellipsis`
 * :ref:`no-private-abstract-method-in-trait`
 * :ref:`clone-constant`
+* :ref:`no-keyword-in-namespace`
 
 Specs
 _____
@@ -4175,7 +4187,7 @@ CompatibilityPHP72
 
 This ruleset centralizes all analysis for the migration from PHP 7.1 to 7.2.
 
-Total : 40 analysis
+Total : 41 analysis
 
 * :ref:`undefined-constants`
 * :ref:`hash-algorithms-incompatible-with-php-5.3`
@@ -4217,6 +4229,7 @@ Total : 40 analysis
 * :ref:`array\_merge-with-ellipsis`
 * :ref:`no-private-abstract-method-in-trait`
 * :ref:`clone-constant`
+* :ref:`no-keyword-in-namespace`
 
 Specs
 _____
@@ -4237,7 +4250,7 @@ CompatibilityPHP73
 
 This ruleset centralizes all analysis for the migration from PHP 7.2 to 7.3.
 
-Total : 31 analysis
+Total : 32 analysis
 
 * :ref:`new-functions-in-php-7.3`
 * :ref:`unknown-pcre2-option`
@@ -4270,6 +4283,7 @@ Total : 31 analysis
 * :ref:`array\_merge-with-ellipsis`
 * :ref:`no-private-abstract-method-in-trait`
 * :ref:`clone-constant`
+* :ref:`no-keyword-in-namespace`
 
 Specs
 _____
@@ -4290,7 +4304,7 @@ CompatibilityPHP74
 
 This ruleset centralizes all analysis for the migration from PHP 7.3 to 7.4.
 
-Total : 42 analysis
+Total : 43 analysis
 
 * :ref:`detect-current-class`
 * :ref:`don't-read-and-write-in-one-expression`
@@ -4334,6 +4348,7 @@ Total : 42 analysis
 * :ref:`cant-overload-constants`
 * :ref:`no-private-abstract-method-in-trait`
 * :ref:`clone-constant`
+* :ref:`no-keyword-in-namespace`
 
 Specs
 _____
@@ -4751,7 +4766,7 @@ IsExt
 
 This is automatically filled, based on the documentation's isExt attribute.
 
-Total : 32 analysis
+Total : 34 analysis
 
 * :ref:`static-methods-called-from-object`
 * :ref:`undefined-constants`
@@ -4760,6 +4775,7 @@ Total : 32 analysis
 * :ref:`defined-class-constants`
 * :ref:`undefined-class-constants`
 * :ref:`undefined-functions`
+* :ref:`uses-default-values`
 * :ref:`wrong-number-of-arguments`
 * :ref:`unresolved-use`
 * :ref:`access-protected-structures`
@@ -4773,6 +4789,7 @@ Total : 32 analysis
 * :ref:`only-variable-passed-by-reference`
 * :ref:`too-many-native-calls`
 * :ref:`redefined-private-property`
+* :ref:`php-overridden-function`
 * :ref:`php-native-reference-variable`
 * :ref:`interfaces-is-not-implemented`
 * :ref:`make-functioncall-with-reference`
@@ -4803,7 +4820,7 @@ IsPHP
 
 This is automatically filled, based on the documentation's isPHP attribute.
 
-Total : 32 analysis
+Total : 34 analysis
 
 * :ref:`static-methods-called-from-object`
 * :ref:`undefined-constants`
@@ -4812,6 +4829,7 @@ Total : 32 analysis
 * :ref:`defined-class-constants`
 * :ref:`undefined-class-constants`
 * :ref:`undefined-functions`
+* :ref:`uses-default-values`
 * :ref:`wrong-number-of-arguments`
 * :ref:`unresolved-use`
 * :ref:`access-protected-structures`
@@ -4825,6 +4843,7 @@ Total : 32 analysis
 * :ref:`only-variable-passed-by-reference`
 * :ref:`too-many-native-calls`
 * :ref:`redefined-private-property`
+* :ref:`php-overridden-function`
 * :ref:`php-native-reference-variable`
 * :ref:`interfaces-is-not-implemented`
 * :ref:`make-functioncall-with-reference`
@@ -4855,7 +4874,7 @@ IsStub
 
 This is automatically filled, based on the documentation's isStub attribute.
 
-Total : 30 analysis
+Total : 32 analysis
 
 * :ref:`static-methods-called-from-object`
 * :ref:`undefined-constants`
@@ -4864,6 +4883,7 @@ Total : 30 analysis
 * :ref:`defined-class-constants`
 * :ref:`undefined-class-constants`
 * :ref:`undefined-functions`
+* :ref:`uses-default-values`
 * :ref:`wrong-number-of-arguments`
 * :ref:`unresolved-use`
 * :ref:`access-protected-structures`
@@ -4875,6 +4895,7 @@ Total : 30 analysis
 * :ref:`raised-access-level`
 * :ref:`only-variable-passed-by-reference`
 * :ref:`redefined-private-property`
+* :ref:`php-overridden-function`
 * :ref:`php-native-reference-variable`
 * :ref:`interfaces-is-not-implemented`
 * :ref:`make-functioncall-with-reference`
@@ -5026,7 +5047,7 @@ _____
 PHP recommendations
 +++++++++++++++++++
 
-This ruleset is collected from the warnings and notes that are available in the PHP manual. For example, `return <https://www.php.net/manual/en/function.return.php>` do not require parenthesis.
+This ruleset is collected from the warnings and notes that are available in the PHP manual. For example, return do not require parenthesis.
 
 Total : 0 analysis
 

@@ -146,6 +146,7 @@ List of external links mentioned in this documentation.
 * `PHP Tags <https://www.php.net/manual/en/language.basic-syntax.phptags.php>`_
 * `plantuml <http://plantuml.com/>`_
 * `PMB <https://www.sigb.net/>`_
+* `Povilas Korop <https://twitter.com/PovilasKorop>`_
 * `Prepare for PHP migration with Exakat <https://www.exakat.io/prepare-for-php-migration-with-exakat/>`_
 * `printf <https://www.php.net/printf>`_
 * `PSR-3 <https://www.php-fig.org/psr/psr-3>`_
@@ -157,7 +158,6 @@ List of external links mentioned in this documentation.
 * `RFC 822 (MIME) <http://www.faqs.org/rfcs/rfc822.html>`_
 * `RFC 959 <http://www.faqs.org/rfcs/rfc959>`_
 * `Scope Resolution Operator (::) <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_
-* `Show of hands: which syntax would you prefer in a PHP function - A, B or C?  <https://twitter.com/exakat/status/1542585298562998274>`_
 * `Specification pattern <https://en.wikipedia.org/wiki/Specification_pattern>`_
 * `sqlite3 <http://www.php.net/sqlite3>`_
 * `Static Keyword <https://www.php.net/manual/en/language.oop5.static.php>`_
