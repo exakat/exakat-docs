@@ -6,7 +6,7 @@ Release Note
 
 Here is the release note of exakat. 
 
-**Version 2.5.0 (Wang Gui, 2022-09-07)**
+**Version 2.5.1 (Wang Gui, 2022-10-05)**
 
 
 + Architecture
@@ -24,6 +24,56 @@ Here is the release note of exakat.
 + Tokenizer
     + 
 
+**Version 2.5.0 (Wang Gui, 2022-09-28)**
+
+
++ Architecture
+    + 
+
++ Cobbler
+    + 
+
++ Report
+    + 
+
++ Analysis
+    + Refactored analysis : WrongTypeWithCall skips variables without a type
+    + Refactored analysis : BailoutEarly skips blocks with one element only
+    + Refactored analysis : NonStaticMethodsCalledStatic extended to Stubs
+    + New analysis : ambiguous types for variables
+    + Refactored analysis : Unpreprocessed skips static::class
+    + Refactored analysis : Undefined constant skips class constants with variables
+    + New analysis : report exception that can't be chained
+    + Refactored analysis : ShellExec preferences
+    + Refactored analysis : CreateMagicProperty was extended
+    + New analysis : report possible ::class usage
+    + New analysis : report wrong order of argument with variadic
+    + New analysis : report wrong encoding usage with mbstring
+    + Refactored analysis : Sped up 'could be abstract method'
+    + Refactored analysis : Undefined Interfaces differentiate classes and interfaces
+    + New analysis : Ternary and Coalesce Operators order
+    + Refactored analysis : Set Parent DEFINITION also adds DEFINITION for CPM
+    + Refactored analysis : NativeClassTypeCompatibility upgraded fully to stub support
+    + New analysis : Report useless assignation of promoted properties
+    + Refactored analysis : Parameter name checking works with methods
+    + Refactored analysis : Classes/CouldUseClassOperator is extended to all CITE
+    + Refactored analysis : Classes/UndefinedConstants skips situations where the class is a variable of unknown type
+    + Refactored analysis : Infinite recursion also detects coalesce
+    + New analysis : Report methods / property confusions
+    + New analysis : Suggest using __NAMESPACE__, instead of hardcoded string
+
++ Tokenizer
+    + Fixed bug with related to readonly position
+    + Fixed bug where define was not correctly set with fullnspath
+    + Fixed priorities for print and yield
+    + Added support for DNF in the engine
+    + Added definition with static calls, within a class
+    + Added support for methods and properties with static calls to parent::
+    + Refactored handling of scope with $this and self/static
+    + Created a Precedence class for each version
+    + Refactored calculations for currentMethods in external class
+    + Migrating from Method to readsStubs (WIP)
+    
 **Version 2.4.9 (Wang Gui, 2022-09-07)**
 
 

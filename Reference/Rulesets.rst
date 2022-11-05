@@ -6,7 +6,7 @@ Rulesets
 Introduction
 ------------------------
 
-Exakat provides unique 1504 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
+Exakat provides unique 1513 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
 
 For more smoothly usage, the ruleset concept allow you to run a set of rules based on a decidated focus. Beawre that a Ruleset run all the associated rules and any needed dependencies.
 
@@ -126,7 +126,7 @@ All
 
 All is a dummy ruleset, which includes all the rules. It is mostly used internally.
 
-Total : 1502 analysis
+Total : 1511 analysis
 
 * :ref:`adding-zero`
 * :ref:`ambiguous-array-index`
@@ -1402,7 +1402,7 @@ Total : 1502 analysis
 * :ref:`abstract-away`
 * :ref:`wrong-type-for-native-php-function`
 * :ref:`large-try-block`
-* :ref:`catch-undefined-variable`
+* :ref:`catch-with-undefined-variable`
 * :ref:`swapped-arguments`
 * :ref:`fossilized-methods-list`
 * :ref:`glob\_brace-usage`
@@ -1630,6 +1630,15 @@ Total : 1502 analysis
 * :ref:`could-be-abstract-method`
 * :ref:`solve-trait-constants`
 * :ref:`no-keyword-in-namespace`
+* :ref:`ambiguous-types-with-variables`
+* :ref:`set-chaining-exception`
+* :ref:`could-use-class-operator`
+* :ref:`mbstring-unknown-encodings`
+* :ref:`named-argument-and-variadic`
+* :ref:`coalesce-and-ternary-operators-order`
+* :ref:`useless-assignation-of-promoted-property`
+* :ref:`method-property-confusion`
+* :ref:`could-use-namespace-magic-constant`
 
 Specs
 _____
@@ -1648,7 +1657,7 @@ Analyze
 
 This ruleset centralizes a large number of classic trap and pitfalls when writing PHP.
 
-Total : 460 analysis
+Total : 463 analysis
 
 * :ref:`adding-zero`
 * :ref:`ambiguous-array-index`
@@ -2039,7 +2048,7 @@ Total : 460 analysis
 * :ref:`no-need-for-triple-equal`
 * :ref:`array\_merge-needs-array-of-arrays`
 * :ref:`wrong-type-for-native-php-function`
-* :ref:`catch-undefined-variable`
+* :ref:`catch-with-undefined-variable`
 * :ref:`swapped-arguments`
 * :ref:`different-argument-counts`
 * :ref:`unknown-parameter-name`
@@ -2110,6 +2119,9 @@ Total : 460 analysis
 * :ref:`clone-constant`
 * :ref:`could-inject-param`
 * :ref:`unused-public-method`
+* :ref:`mbstring-unknown-encodings`
+* :ref:`coalesce-and-ternary-operators-order`
+* :ref:`useless-assignation-of-promoted-property`
 
 Specs
 _____
@@ -3467,7 +3479,7 @@ Class Review
 
 This ruleset focuses on classes construction issues, and their related structures : traits, interfaces, methods, properties, constants.
 
-Total : 76 analysis
+Total : 79 analysis
 
 * :ref:`final-class-usage`
 * :ref:`final-methods-usage`
@@ -3480,6 +3492,7 @@ Total : 76 analysis
 * :ref:`could-be-static`
 * :ref:`no-self-referencing-constant`
 * :ref:`property-could-be-private`
+* :ref:`redefined-methods`
 * :ref:`class-should-be-final-by-ocramius`
 * :ref:`could-be-protected-property`
 * :ref:`raised-access-level`
@@ -3545,6 +3558,8 @@ Total : 76 analysis
 * :ref:`same-name-for-property-and-method`
 * :ref:`magic-method-returntype-is-restricted`
 * :ref:`could-inject-param`
+* :ref:`set-chaining-exception`
+* :ref:`useless-assignation-of-promoted-property`
 
 Specs
 _____
@@ -4369,7 +4384,7 @@ CompatibilityPHP80
 
 This ruleset centralizes all analysis for the migration from PHP 7.4 to 8.0.
 
-Total : 30 analysis
+Total : 31 analysis
 
 * :ref:`old-style-constructor`
 * :ref:`wrong-optional-parameter`
@@ -4401,6 +4416,7 @@ Total : 30 analysis
 * :ref:`string-int-comparison`
 * :ref:`php-8.1-resources-turned-into-objects`
 * :ref:`clone-constant`
+* :ref:`named-argument-and-variadic`
 
 Specs
 _____
@@ -4421,7 +4437,7 @@ CompatibilityPHP81
 
 This ruleset centralizes all analysis for the migration from PHP 8.0 to 8.1.
 
-Total : 20 analysis
+Total : 21 analysis
 
 * :ref:`php-7.4-removed-directives`
 * :ref:`php-8.0-removed-directives`
@@ -4443,6 +4459,7 @@ Total : 20 analysis
 * :ref:`float-conversion-as-index`
 * :ref:`cannot-call-static-trait-method-directly`
 * :ref:`version\_compare-operator`
+* :ref:`named-argument-and-variadic`
 
 Specs
 _____
@@ -4649,10 +4666,8 @@ First
 
 A set of rules that are always run at the beginning of a project, because they are frequently used. It is mostly used internally.
 
-Total : 6 analysis
+Total : 4 analysis
 
-* :ref:`is-an-extension-interface`
-* :ref:`is-an-extension-constant`
 * :ref:`mark-callable`
 * :ref:`variable-anf-property-typehint`
 * :ref:`variable-is-a-local-constant`
@@ -4766,8 +4781,9 @@ IsExt
 
 This is automatically filled, based on the documentation's isExt attribute.
 
-Total : 34 analysis
+Total : 36 analysis
 
+* :ref:`non-static-methods-called-in-a-static`
 * :ref:`static-methods-called-from-object`
 * :ref:`undefined-constants`
 * :ref:`instantiating-abstract-class`
@@ -4802,6 +4818,7 @@ Total : 34 analysis
 * :ref:`lowered-access-level`
 * :ref:`cant-overwrite-final-method`
 * :ref:`overload-existing-names`
+* :ref:`method-property-confusion`
 
 Specs
 _____
@@ -4820,8 +4837,9 @@ IsPHP
 
 This is automatically filled, based on the documentation's isPHP attribute.
 
-Total : 34 analysis
+Total : 36 analysis
 
+* :ref:`non-static-methods-called-in-a-static`
 * :ref:`static-methods-called-from-object`
 * :ref:`undefined-constants`
 * :ref:`instantiating-abstract-class`
@@ -4856,6 +4874,7 @@ Total : 34 analysis
 * :ref:`lowered-access-level`
 * :ref:`cant-overwrite-final-method`
 * :ref:`overload-existing-names`
+* :ref:`method-property-confusion`
 
 Specs
 _____
@@ -4874,8 +4893,9 @@ IsStub
 
 This is automatically filled, based on the documentation's isStub attribute.
 
-Total : 32 analysis
+Total : 34 analysis
 
+* :ref:`non-static-methods-called-in-a-static`
 * :ref:`static-methods-called-from-object`
 * :ref:`undefined-constants`
 * :ref:`instantiating-abstract-class`
@@ -4908,6 +4928,7 @@ Total : 32 analysis
 * :ref:`lowered-access-level`
 * :ref:`cant-overwrite-final-method`
 * :ref:`overload-existing-names`
+* :ref:`method-property-confusion`
 
 Specs
 _____
@@ -5070,13 +5091,14 @@ Performances
 
 This ruleset focuses on performances issues : anything that slows the code's execution.
 
-Total : 50 analysis
+Total : 51 analysis
 
 * :ref:`eval()-usage`
 * :ref:`for-using-functioncall`
 * :ref:`@-operator`
 * :ref:`nested-loops`
 * :ref:`while(list()-=-each())`
+* :ref:`unpreprocessed-values`
 * :ref:`avoid-array\_unique()`
 * :ref:`echo-with-concat`
 * :ref:`slow-functions`
@@ -5302,15 +5324,21 @@ Semantics
 
 This ruleset focuses on human interpretation of the code. It reviews special values of literals, and named structures.
 
-Total : 20 analysis
+Total : 30 analysis
 
+* :ref:`ambiguous-array-index`
 * :ref:`constants-with-strange-names`
+* :ref:`function-called-with-other-case-than-defined`
 * :ref:`variables-with-one-letter-names`
 * :ref:`one-letter-functions`
 * :ref:`property-variable-confusion`
 * :ref:`php-keywords-as-names`
+* :ref:`strange-names-in-classes`
 * :ref:`class-function-confusion`
 * :ref:`strange-name-for-variables`
+* :ref:`strange-name-for-constants`
+* :ref:`ambiguous-static`
+* :ref:`ambiguous-visibilities`
 * :ref:`could-be-constant`
 * :ref:`similar-integers`
 * :ref:`duplicate-literal`
@@ -5320,10 +5348,14 @@ Total : 20 analysis
 * :ref:`semantic-typing`
 * :ref:`fn-argument-variable-confusion`
 * :ref:`prefix-and-suffixes-with-typehint`
+* :ref:`static-global-variables-confusion`
+* :ref:`possible-alias-confusion`
 * :ref:`mismatch-parameter-and-type`
 * :ref:`wrong-locale`
 * :ref:`overload-existing-names`
 * :ref:`same-name-for-property-and-method`
+* :ref:`ambiguous-types-with-variables`
+* :ref:`method-property-confusion`
 
 Specs
 _____
@@ -5342,7 +5374,7 @@ Suggestions
 
 This ruleset focuses on possibly better syntax than the one currently used. Those may be code modernization, alternatives, more efficient solutions, or simply left over from older versions. 
 
-Total : 114 analysis
+Total : 116 analysis
 
 * :ref:`while(list()-=-each())`
 * :ref:`function-subscripting,-old-style`
@@ -5458,6 +5490,8 @@ Total : 114 analysis
 * :ref:`could-be-enumeration`
 * :ref:`magic-method-returntype-is-restricted`
 * :ref:`could-be-abstract-method`
+* :ref:`could-use-class-operator`
+* :ref:`could-use-namespace-magic-constant`
 
 Specs
 _____

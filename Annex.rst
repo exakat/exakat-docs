@@ -126,7 +126,6 @@ List of external links mentioned in this documentation.
 * `list <https://www.php.net/manual/en/function.list.php>`_
 * `list() Reference Assignment <https://wiki.php.net/rfc/list_reference_assignment>`_
 * `Logical Operators <https://www.php.net/manual/en/language.operators.logical.php>`_
-* `Magic Methods <https://www.php.net/manual/en/language.oop5.magic.php>`_
 * `Marco Pivetta tweet <https://twitter.com/Ocramius/status/811504929357660160>`_
 * `mcrypt_create_iv() <https://www.php.net/manual/en/function.mcrypt-create-iv.php>`_
 * `mercurial <https://www.mercurial-scm.org/>`_
