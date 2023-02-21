@@ -60,7 +60,6 @@ List of external links mentioned in this documentation.
 * `Add Exakat To Your CI Pipeline <https://www.exakat.io/add-exakat-to-your-ci-pipeline/>`_
 * `Ambassador <https://exakat.readthedocs.io/en/latest/Reports.html#ambassador>`_
 * `Aronduby Dump <https://github.com/aronduby/dump>`_
-* `array_filter <https://php.net/array_filter>`_
 * `Atif Shahab Qureshi <https://twitter.com/Atif__Shahab>`_
 * `Backward incompatible changes PHP 7.0 <https://www.php.net/manual/en/migration70.incompatible.php>`_
 * `bazaar <https://bazaar.canonical.com/en/>`_
@@ -70,7 +69,6 @@ List of external links mentioned in this documentation.
 * `Carbon <https://carbon.nesbot.com/docs/>`_
 * `Carnage <https://twitter.com/giveupalready>`_
 * `cat: write error: Broken pipe <https://askubuntu.com/questions/421663/cat-write-error-broken-pipe>`_
-* `Changes to variable handling <https://www.php.net/manual/en/migration70.incompatible.php>`_
 * `Classes Abstraction <https://www.php.net/abstract>`_
 * `composer <https://getcomposer.org/>`_
 * `continue-on-error <https://docs.github.com/en/actions/learn-github-actions/workflow-syntax-for-github-actions#jobsjob_idstepscontinue-on-error>`_
@@ -81,21 +79,18 @@ List of external links mentioned in this documentation.
 * `Deprecate and remove INTL_IDNA_VARIANT_2003 <https://wiki.php.net/rfc/deprecate-and-remove-intl_idna_variant_2003>`_
 * `Deprecated features in PHP 7.2.x <https://www.php.net/manual/en/migration72.deprecated.php>`_
 * `directive error_reporting <https://www.php.net/manual/en/errorfunc.configuration.php#ini.error-reporting>`_
-* `dl <http://www.php.net/dl>`_
 * `Docker <http://www.docker.com/>`_
 * `Docker image <https://hub.docker.com/r/exakat/exakat/>`_
 * `dotdeb instruction <https://www.dotdeb.org/instructions/>`_
 * `download <https://www.exakat.io/download-exakat/>`_
 * `Empty Catch Clause <http://wiki.c2.com/?EmptyCatchClause>`_
 * `Enchant spelling library <https://www.php.net/manual/en/book.enchant.php>`_
-* `Escape sequences <https://www.php.net/manual/en/regexp.reference.escape.php>`_
 * `Exakat <http://www.exakat.io/>`_
 * `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_
 * `Exakat SAS <https://www.exakat.io/get-php-expertise/>`_
 * `exakat/exakat <https://hub.docker.com/r/exakat/exakat/>`_
 * `ext/hash extension <http://www.php.net/manual/en/book.hash.php>`_
 * `FAM <http://oss.sgi.com/projects/fam/>`_
-* `Floating point numbers <https://www.php.net/manual/en/language.types.float.php#language.types.float>`_
 * `foreach <https://www.php.net/manual/en/control-structures.foreach.php>`_
 * `Frederic Bouchery <https://twitter.com/FredBouchery/>`_
 * `George Peter Banyard <https://twitter.com/Girgias>`_
@@ -132,7 +127,6 @@ List of external links mentioned in this documentation.
 * `Migration80 <https://exakat.readthedocs.io/en/latest/Reports.html#migration80>`_
 * `MongoDB driver <https://www.php.net/mongo>`_
 * `mysqli <https://www.php.net/manual/en/book.mysqli.php>`_
-* `Objects and references <https://www.php.net/manual/en/language.oop5.references.php>`_
 * `Optimize array_unique() <https://github.com/php/php-src/commit/6c2c7a023da4223e41fea0225c51a417fc8eb10d>`_
 * `Option to make json_encode and json_decode throw exceptions on errors <https://ayesh.me/Upgrade-PHP-7.3#json-exceptions>`_
 * `original idea <https://twitter.com/b_viguier/status/940173951908700161>`_
@@ -160,8 +154,6 @@ List of external links mentioned in this documentation.
 * `Specification pattern <https://en.wikipedia.org/wiki/Specification_pattern>`_
 * `sqlite3 <http://www.php.net/sqlite3>`_
 * `Static Keyword <https://www.php.net/manual/en/language.oop5.static.php>`_
-* `strtr <http://www.php.net/strtr>`_
-* `Supported Protocols and Wrappers <https://www.php.net/manual/en/wrappers.php>`_
 * `Svn <https://subversion.apache.org/>`_
 * `tetraweb/php <https://hub.docker.com/r/tetraweb/php/>`_
 * `Text <https://exakat.readthedocs.io/en/latest/Reports.html#text>`_
@@ -176,7 +168,6 @@ List of external links mentioned in this documentation.
 * `V8 Javascript Engine <https://bugs.chromium.org/p/v8/issues/list>`_
 * `Vagrant file <https://github.com/exakat/exakat-vagrant>`_
 * `Vladimir Reznichenko <https://twitter.com/kalessil>`_
-* `Why is subclassing too much bad (and hence why should we use prototypes to do away with it)? <https://softwareengineering.stackexchange.com/questions/137687/why-is-subclassing-too-much-bad-and-hence-why-should-we-use-prototypes-to-do-aw>`_
 * `workflow_dispatch <https://docs.github.com/en/actions/managing-workflow-runs/manually-running-a-workflow>`_
 * `www.exakat.io <https://www.exakat.io/versions/>`_
 * `YAML Ain't Markup Language <http://www.yaml.org/>`_

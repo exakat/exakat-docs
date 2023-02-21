@@ -6,7 +6,7 @@ Release Note
 
 Here is the release note of exakat. 
 
-**Version 2.4.0 (****, 2022-04-20)**
+**Version 2.5.3 (, 2023-02-04)**
 
 
 + Architecture
@@ -23,6 +23,486 @@ Here is the release note of exakat.
 
 + Tokenizer
     + 
+**Version 2.5.2 (Wang Gui, 2023-02-04)**
+
+
++ Architecture
+    + 
+
++ Cobbler
+    + 
+
++ Report
+    + New report : Format for SonarCube
+
++ Analysis
+    + New analysis : report array literal, used by index.
+    + New analysis : Cannot use empty strings with explode()
+    + New analysis : Report max() and min() applied on empty arrays.
+    + Updated analysis : Unused methods now skips internal use
+    + Updated analysis : Date formats are collected only on Datetime and Datetimeimmutable
+    + New analysis : strpos() used to convert integer to their ascii value
+    + New analysis : report double checks in the code 
+    + New analysis : skip empty arrays in array_merge()
+    + New analysis : ellipis is slower than array_merge()
+    + Updated analysis : variable type is detected with cast too.
+    + New analysis : follow unvalidated data in $_SESSION
+    + Updated analysis : updated in_array() to also report short arrays
+    + Updated analysis : closure2string skips when other arguments are necessary
+    + Updated analysis : condition is always true is upgraded with more work on is_a() and class type
+
++ Tokenizer
+    + 
+
+**Version 2.5.1 (Wang Gui, 2023-01-19)**
+
+
++ Architecture
+    + Extracted Called* to external class
+
++ Cobbler
+    + 
+
++ Report
+    + 
+
++ Analysis
+    + New analysis : suggest omitting empty arrays before array_merge()
+    + Updated analysis : more calls are collected
+    + Updated analysis : Strict comparison with boolean covers array_search and array_keys
+    + New analysis : report useless methods
+    + Updated analysis : Add Zero also covers syntax like +$a
+    + New analysis : report weak tests on array, without checks on index
+    + New analysis : report multiple types in switch (PHP 8 compability)
+    + New analysis : could be a readonly class
+    + Updated analysis : Comparison strings to int include in_array() and co
+    + New analysis : report class invasions
+    + New analysis : report property invasions
+    + New analysis : collect all setlocale() calls
+    + Updated analysis : Collected calls includes __construct() 
+    + Updated analysis : Collected calls includes __clone() 
+    + New analysis : report usage of ++ on strings
+
++ Tokenizer
+    + Fixed edge cases with readonly/namespace as method name
+    + Fixed handling of static keyword with rare combinaisons 
+
+**Version 2.5.0 (Wang Gui, 2023-01-05)**
+
+
++ Architecture
+    + 
+
++ Cobbler
+    + 
+
++ Report
+    + 
+
++ Analysis
+    + Refactored analysis : WrongTypeWithCall skips variables without a type
+    + Refactored analysis : BailoutEarly skips blocks with one element only
+    + Refactored analysis : NonStaticMethodsCalledStatic extended to Stubs
+    + New analysis : ambiguous types for variables
+    + Refactored analysis : Unpreprocessed skips static::class
+    + Refactored analysis : Undefined constant skips class constants with variables
+    + New analysis : report exception that can't be chained
+    + Refactored analysis : ShellExec preferences
+    + Refactored analysis : CreateMagicProperty was extended
+    + New analysis : report possible ::class usage
+    + New analysis : report wrong order of argument with variadic
+    + New analysis : report wrong encoding usage with mbstring
+    + Refactored analysis : Sped up 'could be abstract method'
+    + Refactored analysis : Undefined Interfaces differentiate classes and interfaces
+    + New analysis : Ternary and Coalesce Operators order
+    + Refactored analysis : Set Parent DEFINITION also adds DEFINITION for CPM
+    + Refactored analysis : NativeClassTypeCompatibility upgraded fully to stub support
+    + New analysis : Report useless assignation of promoted properties
+    + Refactored analysis : Parameter name checking works with methods
+    + Refactored analysis : Classes/CouldUseClassOperator is extended to all CITE
+    + Refactored analysis : Classes/UndefinedConstants skips situations where the class is a variable of unknown type
+    + Refactored analysis : Infinite recursion also detects coalesce
+    + New analysis : Report methods / property confusions
+    + New analysis : Suggest using __NAMESPACE__, instead of hardcoded string
+    + Refactored analysis : Indirect injection is extended with ?? ?: and ? :
+    + New analysis : Report too many chained calls one in the other
+    + Refactored analysis : 'This is for classes' is extended to traits and enums
+    + Refactored analysis : 'Unsupported types with operator' is now using Stubs files
+    + New analysis : Report wrong typed with incoming values
+    + Refactored analysis : 'Queries in loops' is now using extended to methods and one functioncall down.
+    + Refactored analysis : Identical Variables in Foreach now searches inside the source
+    + New analysis : Empty Loops
+    + New analysis : Report arrays that are too much extracted
+    + New analysis : Report methods where variables are not needed (only unique usage)
+    + New analysis : Report possible emission of TypeError
+    + Refactored analysis : Cant Throw now skips Interfaces
+    + Refactored analysis : fixed false positive with Always False 
+    + Refactored analysis : Constant Invalid names do not confuse the constant and its value
+    + Refactored analysis : Undefined Variable in Catch, now skips variables also created in the catch clause
+    + Refactored analysis : Implicit conversion to int : skip float returned values
+    + Refactored analysis : Closure could be static now checks for internal definitions of enums or anonymous class
+    + Refactored analysis : Dont Collect void is extended to unspecified return types
+    + Refactored analysis : useless coalesce
+    + Refactored analysis : Indirect Injections
+    + Refactored analysis : Useless Reference now checks PHP, ext and stubs
+    + New analysis : Suggest to throw exceptions with json_*code()
+    + Refactored analysis : Scalar are not arrays cleaned
+    + Refactored analysis : No net for xml now enforces class too
+    + Refactored analysis : Static for classes now omits static variables
+    + Refactored analysis : Incompatibility signature now omits __construct
+    + Refactored analysis : Unreachable code
+    + New analysis : collect all calls from methods to methods
+    + New analysis : set fullnspath to method calls
+    + New analysis : report variables with an initial capital S (readability)
+    + New analysis : type dodging in parameter with union type
+
++ Tokenizer
+    + Fixed bug with related to readonly position
+    + Fixed bug where define was not correctly set with fullnspath
+    + Fixed priorities for print and yield
+    + Added support for DNF in the engine
+    + Added definition with static calls, within a class
+    + Added support for methods and properties with static calls to parent::
+    + Refactored handling of scope with $this and self/static
+    + Created a Precedence class for each version
+    + Refactored calculations for currentMethods in external class
+    + Migrating from Method to readsStubs (WIP)
+    + Handled edge cases in Yield (yield yield)
+    + Removed link between bool and int values when loading (edge case of numeric strings)
+    + Cleaned Load of GlobalVars array
+    
+**Version 2.4.9 (Wang Gui, 2022-09-07)**
+
+
++ Analysis
+    + Refactored analysis : Uses Default now supports PDFF and functions
+    + Refactored analysis : Using PDFF with ext/seaslog and ext/memcache
+    + Removed analysis : ext/wikidiff2, ext/wincache, ext/iis, ext/libevent, ext/mhash, ext/parsekit, ext/kdm5
+    + New analysis : date() versus DatetTime preferences.
+    + New analysis : identify unused public methods
+    + Refactored analysis : Detecting wrong visibility with implemented methods was sped up
+    + Removed analysis : Interface/ConcreteVisibility, double with Classes/ImplementedMethodsArePublic
+    + New analysis : identify potential abstract methods
+    + Refactored analysis : Upgraded 'Wrong Type With Call' to use the known variable types
+    + Refactored analysis : No Parent now takes traits into account.
+    + Refactored analysis : Should Have Destructor : removed some false positives, refactored documentation.
+    + Refactored analysis : No Parent now also checks for traits
+    + Refactored analysis : Uses default argument skips Virtualproperties
+    + New analysis : Complete/SolveTraitConstants adds support for constants in traits (PHP 8.2)
+    + Refactored analysis : Complete/SetParentDefinition was trimmed of 2 useless queries
+    + Refactored analysis : PPP declaration style
+    + Refactored analysis : Is Global Constant (removed usage of .ini)
+    + Refactored analysis : Overwritten* are simplified for speed up and deduplication
+    + Refactored analysis : UndefinedClasses speed up
+    + Refactored analysis : Should Preprocess now adds Heredocs and skips variables inside strings
+    + Refactored analysis : Should use Ternary now skips elsif
+    + Refactored analysis : ext/fann now use pdff
+
++ Tokenizer
+    + Added support for PHP keywords in namespace names.
+
+**Version 2.4.8 (Xue Rengui, 2022-08-24)**
+
+
++ Architecture
+    + 
+
++ Cobbler
+    + 
+
++ Report
+    + 
+
++ Analysis
+    + Refactored analysis : strange names now covers types too. 
+    + Removed analysis : ext/proctitle, Composer/IsComposerName, ext/cyrus
+    + Removed analysis : Composer/IsComposerInterface, 
+    + Refactored analysis : VariableTypehint now skips self-transforming variables in default
+    + Refactored analysis : ErrorMessages now also tracks trigger_error()
+    + New analysis : ext/teds, ext/scrypt, ext/geospatial
+    + Refactored analysis with pdff : ext/crypto, ext/ev, ext/enchant
+    + Refactored analysis : refactored 'could use short assignation' 
+    + Removed analysis : ext/ereg, ext/async
+    + Refactored analysis : undefined class constants are also looked in the children classes
+    + Refactored analysis : vendor/symfony and vendor/phalcon
+    + Refactored analysis : Unused Methods now handles foreach() with new()
+    + New analysis : vendor/feast framework
+    + Checked unit tests : 4480 / 4450 test pass (99.3% pass)
+
++ Tokenizer
+    + Fixed detection of constant in ternary/coalesce
+    + Finish adding types
+
+**Version 2.4.7 (Xu Jingzong, 2022-08-03)**
+
+
++ Architecture
+    + 
+
++ Cobbler
+    + New cobbler : remove brackets to single-instruction commands
+
++ Report
+    + New inventory : IP
+
++ Analysis
+    + Refactored analysis : Could Use Array_sum()
+    + Refactored analysis : Wrong Attribute with properties
+    + Refactored analysis : implode Args order now support types
+    + Refactored analysis : fopen mode does accept rw
+    + Refactored analysis : references on objects (full refactor)
+    + New analysis : finding empty arrays with comparisons
+    + New analysis : using strict with in_array or not
+    + New analysis : no default for referenced parameter
+    + New analysis : No clone constant before PHP 8.1
+    + New analysis : Complete enum cases with definition to value and name
+    + Refactored analysis : better handling of clone in Variable Typehint
+    + Refactored analysis : cleaned some false positives with Undefined Properties
+    + Refactored analysis : Unresolved use now uses stubs; upgrade in function/const coverage
+    + Removed analysis : ext/recode, ext/runkit, ext/ming
+    + Refactored analysis : Better coverage for 1 + []
+    + Refactored analysis : Difference preference has gremlin upgraded
+    + New analysis : Ext/random (PHP 8.2)
+    + New analysis : IP inventory
+    + Refactored analysis : JsonSerialize and ReturnTypeWIllChange cover new methods
+
++ Tokenizer
+    + Added support for -> out of Enum cases (with name and value)
+    + Added new classes from PHP 8.2
+    + Fixed missing fullnspath for attributes with absolute path
+    + Added all attributes to properties
+
+**Version 2.4.6 (Li Yuanji, 2022-07-20)**
+
+
++ Architecture
+    + Skip loading of WS property when only doing an audit (speed up loading)
+    + Finished moved to Gremlin 3.6
+
++ Cobbler
+    + New cobbler : adds brackets to single-instruction commands
+
++ Report
+    + Ambassador : refactored trait matrix
+
++ Analysis
+    + Refactored analysis : Wrong Type Hint with First Class Callable
+    + New analysis : PHP 8.2 new functions
+    + Refactored analysis : Useless Cast takes advantages of const types
+
++ Tokenizer
+    + Typed all internal atoms
+    + Added types to internal loading engine
+
+**Version 2.4.5 (Li Yuanji, 2022-07-07)**
+
+
++ Architecture
+    + Docs : fixed presentation for cobblers
+
++ Cobbler
+    + New cobbler : remove abstract option
+
++ Report
+    + 
+
++ Analysis
+    + Refactored analysis : No Pss Outside Class also checks for static closures
+    + New analysis : Report errors in sprintf() formats
+    + New analysis : Report methods and properties with the same name in a class
+    + New analysis : Report invalid chars in date scanning formats
+    + Refactored analysis : Useless Coalesce applied to PHP native methods
+    + New analysis : Report Abstract Private methods in traits (php 8.0-)
+    + Refactored analysis : Dynamic New now also works on parenthesis
+    + New analysis : Report Utf8_encode() and utf8_decode() deprecation
+    + Refactored analysis : Create Default Values checks on self-transforming variables
+    + Refactored analysis : Missing Typehint skips constructor and destructor
+    + Refactored analysis : Useless constructor skip one that has other constructor calling it
+    + New analysis : Some Magic methods have compulsory return types
+    + Refactored analysis : Overwritten const is extended to classes without constants (but in their parent or interfaces)
+    + Refactored analysis : Nested ternaries now checks assignations, New parameter to set the min depth
+    + Refactored analysis : Instantiating Abstract now uses PDFF
+    + Refactored analysis : $this may be OK in closures (they can be rebinded later)
+    + Refactored analysis : Adding 'Void' returntype when possible
+    + Refactored analysis : Don't Collect Void was upgraded with methods returning nothing.
+    + Refactored analysis : Identical Expressions, now checks = and omits short assignations
+    + New analysis : If Then Return Favorite
+    + Refactored analysis : Useless Casting checks % distinctly
+    + Refactored analysis : Add Zero skips variables more often
+    + New analysis : Could Be Resource
+    + New analysis : DateTime Immutable is not immutable
+
++ Tokenizer
+    + Fixed namespace's names dectection for older PHP versions
+    + Fixed Functioncall detection inside a new operator.
+
+**Version 2.4.4 (Li Jiancheng, 2022-06-23)**
+
+
++ Architecture
+    + Upgraded to Gremlin 3.6.0 (tinkergraph)
+    + Prepared engine to work with GSneo4j 3.6.0
+
++ Cobbler
+    + New cobbler : turn ${a} into {$a} for PHP 8.2 compatibility
+    + Refactored cobbler : Adds null type to nullable parameters
+
++ Report
+    + 
+
++ Analysis
+    + Refactored analysis : Non nullable setter skip properties set in constructor
+    + Removed analysis : ext/ffmpeg, ext/fdf, ext/xcache, ext/yis, ext/cairo
+    + Refactored analysis : ext/rdkafka, ext/zookeeper now uses PDFF
+    + Refactored analysis : Should Preprocess, now include local constant strings
+    + Refactored analysis : Undefined Interface, now not reporting extra Types
+    + New analysis : retyped reference, when a parameter with a type, eventually get a new type
+    + Refactored analysis : Static methods called from object, modernization
+    + Refactored analysis : New Analyzers, omits local defaults values
+    + Refactored analysis : Access Protected now takes into account PDFF
+    + Refactored analysis : Null type detection includes null defaut value for parameters.
+    + New analysis : Report type error for default values
+    + Refactored analysis : 'ds', 'ssh2' were upgraded to PDFF
+    + Checked unit tests : 4373 / 4349 test pass (99.5% pass)
+    + New analysis : Ice framework
+    + New analysis : taint
+
++ Tokenizer
+    + Fixed 'constant' bug with functioncall on a nsname
+    + Upgraded Typehint detection to handle clone() calls
+    + Upgraded Typehint inference for properties and variables
+
+**Version 2.4.3 (Emperor Gaozu of Tang, 2022-06-02)**
+
+
++ Architecture
+    + Doctor failed to copy the tinkergraph configuration files
+    + Removed old connector GSneo4j/Tinkergraph
+    + Refactored starting/emptying of gremlin database
+    + Testing on PHP 8.2
+
++ Cobbler
+    + Added suggestions when the -P is not found
+    + New cobbler : add Final to classes
+    + New cobbler : removes Final from classes
+    + Upgraded cobbler : removes Readonly from classes
+
++ Report
+    + Ambassador, Emissary, Diplomat : removed link to the source code.
+    + Ambassador, Emissary, Diplomat : fixed link to online documentation
+
++ Analysis
+    + Fixed analysis : Undefined Classes and Trait where affected by the recent Complete/Returntyping
+    + Refactored analysis : 'Variables Used Once' not omit inherited parameters.
+    + Refactored analysis : 'Functions without return' not skip methods with Never and methods that throw in the main sequence.
+    + New analysis : 'Parent is not Static', but rather self
+    + Refactored analysis : 'Use This'
+    + Refactored analysis : 'Extension/Extxhprof' to PDFF
+    + Refactored analysis : Removing usage of methods, moving to PDFF
+    + New analysis : 'No magic method for Enums'
+    + Refactored analysis : 'Multiple Identical Keys' now also processes automated index
+    + New analysis : 'Modifying Readonly' (WIP)
+    + Refactored analysis : 'Could use short assignation' skips usage of ??
+    + New analysis : 'Readonly Can only be assigned in defining class'
+    + Refactored analysis : 'Runkit7' was upgraded to PDFF
+    + Refactored analysis : 'Gnupg' was upgraded to PDFF
+    + Refactored analysis : 'xdiff' was upgraded to PDFF
+    + Refactored analysis : 'event' was upgraded to PDFF
+    + New analysis : ext/stomp, ext/csv
+    + New analysis : Suggestion making the default assignation in property definition
+    + Refactored analysis : 'Redefined private properties' now covers PDFF too
+    + Refactored analysis : 'Failing Stubstr Comparison' now accepts != <>
+    + Refactored analysis : 'Insufficient typehint' extended with class constants
+    + Refactored analysis : 'Unused constant' takes advantage of hierarchy
+    + Refactored analysis : 'Useless Abstract' extended to include single extended classes
+    + Refactored analysis : 'Mismatched Default Value' now omits parameters without default value
+    + New analysis : method is identity
+    + New analysis : report overloaded existing names in use, from PDFF
+    + New analysis : collect incoming date inventory
+    + New analysis : collect vendor's API usage
+    + New analysis : report Array addition usage
+    + Checked unit tests : 4373 / 4349 test pass (99.5% pass)
+
++ Tokenizer
+    + Added support for PHP 8.2 readonly classes
+    + Fixed bug that made VariableTypehint automatically isPHP
+
+**Version 2.4.2 (Li Chunfeng, 2022-05-18)**
+
+
++ Analysis
+    + Refactored analysis : 'Raised access Level' now supports PDFF files
+    + Refactored analysis : 'Cant Extends Final' also Works with anonymous classes
+    + New analysis : Report 'Lowered access levels'
+    + Refactored analysis : 'Final methods' extended to traits
+    + Refactored analysis : 'Overwritten Methods' fixed bug with Traits
+    + New analysis : 'Cant extends Final Methods' 
+    + Refactored analysis : 'Cant extends Final Constants' with PDFF support
+    + New analysis : 'Extension Excimer' 
+    + New analysis : 'Report implicit float to int conversions' 
+    + Refactored analysis : 'Is always false' is extended to typed properties
+    + New analysis : 'Report inegalities with different types' 
+    + New analysis : Report traits used once
+    + Refactored analysis : 'Is Not Implements' now supports PDFF; support for trait added.
+    + Refactored analysis : 'Wrong name with paramter' : added support for PDFF
+    + Fixed analysis : 'Overwritten Methods' skipped some interfaces
+    + Refactored analysis : 'Fossilized methods' was counting methods that are defined with Virtualmethod
+    + Refactored analysis : 'Fix bug' when missing fqn in New for Classes/WrongTypedPropertyInit
+    + New analysis : Report unknown locales. 
+    + New analysis : ext/pkcs11
+    + New analysis : ext/spx
+    + Checked unit tests : 4314 / 4317 test pass (99% pass)
+    + Refactored analysis : 'Basename suffix' detection extended
+
++ Tokenizer
+    + Fixed bug with float and power
+    + Fixed bug in global variable creation
+    + Create all possible links to static keyword
+    + Speed up creation of links to $GLOBALS
+
+**Version 2.4.1 (Yuan Tiangang, 2022-05-04)**
+
+
++ Architecture
+    + New Dump : collect all stub's structures
+
++ Report
+    + Sarif : Fixed URI (no initial /) and Exakat version
+    + Unused : report unused stuff in the code
+    + Ambassador : upgrade presentation of the Exception Treephp
+
++ Analysis
+    + New analysis : Deprecated String interpolation in PHP 8.2
+    + Refactored analysis : Spaceship features is used for isRead property
+    + Refactored analysis : Skip analysis of returntypes for methods with throw/assert/trigger_error()
+    + New analysis : Report unused Enumeration Cases
+    + Refactored analysis : Can't instantiate class now takes local class into account
+    + Refactored analysis : Many new examples extracted from the docs
+    + Refactored analysis : fixed bug with 'Wrong Type With Call' 
+    + Refactored analysis : Conditional structures now includes Enums too.
+    + New analysis : Don't throw raw exceptions
+    + New analysis : Useless Coalesce operator (when there is a type available)
+    + New analysis : ext/yar
+    + Refactored analysis : 'Wrong number of argument' now includes methods defined in a trait in a PDFF
+    + Refactored analysis : moved ext/amqp to PDFF
+
+**Version 2.4.0 (Yin Kaishan, 2022-04-20)**
+
+
++ Report
+    + Ambassador : suggest literals to be turned into a constant, based on assignation and comparison
+
++ Analysis
+    + Refactored analysis : 'Classes/WrongCase' reported too many arguments
+    + New analysis : No constructor in interfaces
+    + Refactored analysis : Bail Out Early also report if/then when in last position of an sequence
+    + Refactored analysis : Useless Casting also checks for double application of typehint/cast
+    + New analysis : Could Be A constant (in Dump)
+    + New analysis : Could Be Spaceship
+    + Refactored analysis : Vendors/Concrete5 is updated to Concrete5 v9.0
+    + New analysis : Vendors Sylius
+    + Refactored analysis : Vendors/Joomla is updated to Joomla 4.2.0
+    + Refactored analysis : Wrong Number Of Arguments supports Constructors and methods (static and normal)
 
 **Version 2.3.9 (Fu Yi, 2022-04-06)**
 
@@ -32,9 +512,6 @@ Here is the release note of exakat.
 
 + Cobbler
     + New cobbler : adds 'function array_key_exists' to the list of use statements to speed up array_key_exists.
-
-+ Report
-    + 
 
 + Analysis
     + Refactored analysis : Fixed bug with 'each' and namespaces in Php/Deprecated
@@ -57,9 +534,10 @@ Here is the release note of exakat.
     + Refactored analysis : Upgraded Property analysis to use PDFF
     + Refactored analysis : 'Multiple identical keys' now has an array size limit (15000)
     + New analysis : Constant favorite : use or not?
+    + Refactored analysis : Upgraded 'Unresolved classes' with Pdff support
 
 + Tokenizer
-    + 
+    + Fixed isPhp/isExt/isStub detection for catch classes
 
 **Version 2.3.8 (Xiao Yu, 2022-03-23)**
 

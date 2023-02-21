@@ -3,7 +3,7 @@
 Introduction
 ============
 
-This is the documentation of the Exakat engine, version 2.3.9 (Build 1308), on Sat, 26 Mar 2022 06:32:19 +0000.
+This is the documentation of the Exakat engine, version 2.5.2 (Build 1443), on Thu, 16 Feb 2023 09:53:14 +0000.
 
 What is Exakat ? 
 ----------------
@@ -86,7 +86,7 @@ Platforms
 
 `Exakat <http://www.exakat.io/>`_ is an Open Source tool. The code is available on `Github.com/exakat/exakat <https://github.com/exakat/exakat>`_, as `Docker image <https://hub.docker.com/r/exakat/exakat/>`_ and `Vagrant file <https://github.com/exakat/exakat-vagrant>`_. It is also available as a phar `download <https://www.exakat.io/download-exakat/>`_.
 
-`Exakat cloud <https://www.exakat.io/exakat-cloud/>`_ is a SaaS platform, offering exakat audits on code, anytime, at reduced cost. 
+`Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ is a SaaS platform, offering exakat audits on code, anytime, at reduced cost. 
 
 `Exakat SAS <https://www.exakat.io/get-php-expertise/>`_ is a Service company, providing consulting and training services around automated analysis and code quality for PHP. 
 
