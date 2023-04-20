@@ -50,21 +50,46 @@ Here is the release note of exakat.
     + Updated analysis : updated in_array() to also report short arrays
     + Updated analysis : closure2string skips when other arguments are necessary
     + Updated analysis : condition is always true is upgraded with more work on is_a() and class type
+    + Updated analysis : htmlspecialchars() changed behavior in 8.1
+    + Updated analysis : always false does a better job at comparing types
+    + Updated analysis : upgraded analysis with types
+    + New analysis : new functions in PHP 8.3
+    + New analysis : suggestion for str_ends_with()
+    + New analysis : suggestion for str_starts_with()
+    + Updated analysis : dirname with 3rd arg is suggested when using '$path/../' strings
+    + New analysis : collect the number of arguments per PHP native calls
+    + New analysis : report if/then when a variable is assigned in one branch, but not in the other
+    + New analysis : report mono or multi bytes favorite
+    + New analysis : count the number of arguments to PHP native calls
+    + Updated analysis : Null on boolean now takes into account types 
+    + Updated analysis : upgraded Make One Call analysis to spot calls within same expression
+    + Updated analysis : incompatible type with incoming now covers call with superglobals
+    + Updated analysis : fixed bug when calculating DEFINITION for superglobals
+    + New analysis : report different constructors
+    + New analysis : report usage of short ternary operator
+    + New analysis : report when finalizing the call before the closure is better
+    + New analysis : report object cast to int or float
+    + New analysis : report variables initialized before an if condition with reinitialisation
+    + New analysis : report incompatible constructors 
+    + New analysis : Report sidelined methods from a trait
+    + New analysis : Report misused Generators
+    + New analysis : Substr() for partitions in a loop
+    + New analysis : suggest caching local calls to reduce processing
+    + New analysis : report list of PHP 8.3 new classes
 
 + Tokenizer
-    + 
+    + Added support for readonly + final/abstract class
+    + Fixed DEFINITION for static in new
+    + Fixed DEFINITION for global variable definitions
+    + Upgraded support for variable types with PDFF
+    + Adapted support for undefined Identifier between PHP 7 and 8
 
 **Version 2.5.1 (Wang Gui, 2023-01-19)**
 
 
 + Architecture
     + Extracted Called* to external class
-
-+ Cobbler
-    + 
-
-+ Report
-    + 
+    + Introduced parallel loading for nodes and properties (links are WIP)
 
 + Analysis
     + New analysis : suggest omitting empty arrays before array_merge()
@@ -82,6 +107,7 @@ Here is the release note of exakat.
     + Updated analysis : Collected calls includes __construct() 
     + Updated analysis : Collected calls includes __clone() 
     + New analysis : report usage of ++ on strings
+    + New analysis : report usage of deprecated mb_string encodings
 
 + Tokenizer
     + Fixed edge cases with readonly/namespace as method name

@@ -1124,7 +1124,7 @@ Suggested Analysis
 __________________
 
 * :ref:`readonly-usage`
-* :ref:`No anchor for Classes/CouldBeReadonly <no-anchor-for-classes-couldbereadonly>`
+* :ref:`class-could-be-readonly`
 
 
 

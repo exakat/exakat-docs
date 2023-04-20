@@ -108,7 +108,7 @@ With that configuration, the Drillinstructor and the Owasp report are created au
 Predefined config files
 ------------------------
 
-43 rulesets detailled here : 
+44 rulesets detailled here : 
 
 .. _annex-all:
 
@@ -240,6 +240,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Classes/ImmutableSignature";
    analyzer[] = "Classes/ImplementIsForInterface";
    analyzer[] = "Classes/ImplementedMethodsArePublic";
+   analyzer[] = "Classes/IncompatibleConstructor";
    analyzer[] = "Classes/IncompatibleSignature";
    analyzer[] = "Classes/IncompatibleSignature74";
    analyzer[] = "Classes/InheritedPropertyMustMatch";
@@ -387,6 +388,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Complete/EnumCaseValues";
    analyzer[] = "Complete/ExtendedTypehints";
    analyzer[] = "Complete/FollowClosureDefinition";
+   analyzer[] = "Complete/GlobalDefinitions";
    analyzer[] = "Complete/IsExtStructure";
    analyzer[] = "Complete/IsPhpStructure";
    analyzer[] = "Complete/IsStubStructure";
@@ -450,6 +452,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Constants/UnusedConstants";
    analyzer[] = "Constants/VariableConstant";
    analyzer[] = "Custom/MethodUsage";
+   analyzer[] = "Dump/ArgumentCountsPerCalls";
    analyzer[] = "Dump/CallOrder";
    analyzer[] = "Dump/CollectAtomCounts";
    analyzer[] = "Dump/CollectBlockSize";
@@ -885,9 +888,11 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Performances/OptimizeExplode";
    analyzer[] = "Performances/PHP7EncapsedStrings";
    analyzer[] = "Performances/Php74ArrayKeyExists";
+   analyzer[] = "Performances/PreCalculateUse";
    analyzer[] = "Performances/PrePostIncrement";
    analyzer[] = "Performances/RegexOnArrays";
    analyzer[] = "Performances/RegexOnCollector";
+   analyzer[] = "Performances/ShouldCacheLocal";
    analyzer[] = "Performances/SimpleSwitch";
    analyzer[] = "Performances/SimplifyForeach";
    analyzer[] = "Performances/SkipEmptyArray";
@@ -895,6 +900,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Performances/StaticCallDontNeedObjects";
    analyzer[] = "Performances/StrposTooMuch";
    analyzer[] = "Performances/SubstrFirst";
+   analyzer[] = "Performances/SubstrInLoops";
    analyzer[] = "Performances/TooManyExtractions";
    analyzer[] = "Performances/UseArraySlice";
    analyzer[] = "Performances/UseBlindVar";
@@ -1085,6 +1091,8 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Php/Php81RemovedFunctions";
    analyzer[] = "Php/Php81RemovesResources";
    analyzer[] = "Php/Php82NewFunctions";
+   analyzer[] = "Php/Php83NewClasses";
+   analyzer[] = "Php/Php83NewFunctions";
    analyzer[] = "Php/PhpErrorMsgUsage";
    analyzer[] = "Php/PlusPlusOnLetters";
    analyzer[] = "Php/PregMatchAllFlag";
@@ -1106,6 +1114,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Php/SetHandlers";
    analyzer[] = "Php/ShellFavorite";
    analyzer[] = "Php/ShortOpenTagRequired";
+   analyzer[] = "Php/ShortTernary";
    analyzer[] = "Php/ShouldPreprocess";
    analyzer[] = "Php/ShouldUseArrayColumn";
    analyzer[] = "Php/ShouldUseArrayFilter";
@@ -1280,6 +1289,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/DanglingArrayReferences";
    analyzer[] = "Structures/DateTimePreference";
    analyzer[] = "Structures/DeclareStaticOnce";
+   analyzer[] = "Structures/DeprecatedMbEncoding";
    analyzer[] = "Structures/DereferencingAS";
    analyzer[] = "Structures/DieExitConsistance";
    analyzer[] = "Structures/DifferencePreference";
@@ -1352,6 +1362,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/InconsistentElseif";
    analyzer[] = "Structures/IndicesAreIntOrString";
    analyzer[] = "Structures/InfiniteRecursion";
+   analyzer[] = "Structures/InitThenIf";
    analyzer[] = "Structures/InvalidDateScanningFormat";
    analyzer[] = "Structures/InvalidPackFormat";
    analyzer[] = "Structures/InvalidRegex";
@@ -1372,9 +1383,11 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/McryptcreateivWithoutOption";
    analyzer[] = "Structures/MergeIfThen";
    analyzer[] = "Structures/MismatchedTernary";
+   analyzer[] = "Structures/MissingAssignation";
    analyzer[] = "Structures/MissingCases";
    analyzer[] = "Structures/MissingNew";
    analyzer[] = "Structures/MissingParenthesis";
+   analyzer[] = "Structures/MisusedYield";
    analyzer[] = "Structures/MixedConcatInterpolation";
    analyzer[] = "Structures/ModernEmpty";
    analyzer[] = "Structures/MultipleCatch";
@@ -1416,6 +1429,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/NoReferenceOnLeft";
    analyzer[] = "Structures/NoReturnInFinally";
    analyzer[] = "Structures/NoSubstrOne";
+   analyzer[] = "Structures/NoValidCast";
    analyzer[] = "Structures/NoVariableIsACondition";
    analyzer[] = "Structures/NonBreakableSpaceInNames";
    analyzer[] = "Structures/Noscream";
@@ -1507,6 +1521,8 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/UseListWithForeach";
    analyzer[] = "Structures/UsePositiveCondition";
    analyzer[] = "Structures/UseSameTypesForComparisons";
+   analyzer[] = "Structures/UseStrEndsWith";
+   analyzer[] = "Structures/UseStrStartsWith";
    analyzer[] = "Structures/UseSystemTmp";
    analyzer[] = "Structures/UseUrlQueryFunctions";
    analyzer[] = "Structures/UseVariableInsideLoop";
@@ -1527,6 +1543,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/WrongRange";
    analyzer[] = "Structures/YodaComparison";
    analyzer[] = "Structures/pregOptionE";
+   analyzer[] = "Structures/strOrMbFavorite";
    analyzer[] = "Structures/toStringThrowsException";
    analyzer[] = "Traits/AlreadyParentsTrait";
    analyzer[] = "Traits/CannotCallTraitMethod";
@@ -1540,6 +1557,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Traits/NoPrivateAbstract";
    analyzer[] = "Traits/Php";
    analyzer[] = "Traits/SelfUsingTrait";
+   analyzer[] = "Traits/SidelinedMethod";
    analyzer[] = "Traits/TraitMethod";
    analyzer[] = "Traits/TraitNotFound";
    analyzer[] = "Traits/TraitUsage";
@@ -1795,6 +1813,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Classes/ImmutableSignature'
      - 'Classes/ImplementIsForInterface'
      - 'Classes/ImplementedMethodsArePublic'
+     - 'Classes/IncompatibleConstructor'
      - 'Classes/IncompatibleSignature'
      - 'Classes/IncompatibleSignature74'
      - 'Classes/InheritedPropertyMustMatch'
@@ -1942,6 +1961,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Complete/EnumCaseValues'
      - 'Complete/ExtendedTypehints'
      - 'Complete/FollowClosureDefinition'
+     - 'Complete/GlobalDefinitions'
      - 'Complete/IsExtStructure'
      - 'Complete/IsPhpStructure'
      - 'Complete/IsStubStructure'
@@ -2005,6 +2025,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Constants/UnusedConstants'
      - 'Constants/VariableConstant'
      - 'Custom/MethodUsage'
+     - 'Dump/ArgumentCountsPerCalls'
      - 'Dump/CallOrder'
      - 'Dump/CollectAtomCounts'
      - 'Dump/CollectBlockSize'
@@ -2440,9 +2461,11 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Performances/OptimizeExplode'
      - 'Performances/PHP7EncapsedStrings'
      - 'Performances/Php74ArrayKeyExists'
+     - 'Performances/PreCalculateUse'
      - 'Performances/PrePostIncrement'
      - 'Performances/RegexOnArrays'
      - 'Performances/RegexOnCollector'
+     - 'Performances/ShouldCacheLocal'
      - 'Performances/SimpleSwitch'
      - 'Performances/SimplifyForeach'
      - 'Performances/SkipEmptyArray'
@@ -2450,6 +2473,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Performances/StaticCallDontNeedObjects'
      - 'Performances/StrposTooMuch'
      - 'Performances/SubstrFirst'
+     - 'Performances/SubstrInLoops'
      - 'Performances/TooManyExtractions'
      - 'Performances/UseArraySlice'
      - 'Performances/UseBlindVar'
@@ -2640,6 +2664,8 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Php/Php81RemovedFunctions'
      - 'Php/Php81RemovesResources'
      - 'Php/Php82NewFunctions'
+     - 'Php/Php83NewClasses'
+     - 'Php/Php83NewFunctions'
      - 'Php/PhpErrorMsgUsage'
      - 'Php/PlusPlusOnLetters'
      - 'Php/PregMatchAllFlag'
@@ -2661,6 +2687,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Php/SetHandlers'
      - 'Php/ShellFavorite'
      - 'Php/ShortOpenTagRequired'
+     - 'Php/ShortTernary'
      - 'Php/ShouldPreprocess'
      - 'Php/ShouldUseArrayColumn'
      - 'Php/ShouldUseArrayFilter'
@@ -2835,6 +2862,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/DanglingArrayReferences'
      - 'Structures/DateTimePreference'
      - 'Structures/DeclareStaticOnce'
+     - 'Structures/DeprecatedMbEncoding'
      - 'Structures/DereferencingAS'
      - 'Structures/DieExitConsistance'
      - 'Structures/DifferencePreference'
@@ -2907,6 +2935,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/InconsistentElseif'
      - 'Structures/IndicesAreIntOrString'
      - 'Structures/InfiniteRecursion'
+     - 'Structures/InitThenIf'
      - 'Structures/InvalidDateScanningFormat'
      - 'Structures/InvalidPackFormat'
      - 'Structures/InvalidRegex'
@@ -2927,9 +2956,11 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/McryptcreateivWithoutOption'
      - 'Structures/MergeIfThen'
      - 'Structures/MismatchedTernary'
+     - 'Structures/MissingAssignation'
      - 'Structures/MissingCases'
      - 'Structures/MissingNew'
      - 'Structures/MissingParenthesis'
+     - 'Structures/MisusedYield'
      - 'Structures/MixedConcatInterpolation'
      - 'Structures/ModernEmpty'
      - 'Structures/MultipleCatch'
@@ -2971,6 +3002,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/NoReferenceOnLeft'
      - 'Structures/NoReturnInFinally'
      - 'Structures/NoSubstrOne'
+     - 'Structures/NoValidCast'
      - 'Structures/NoVariableIsACondition'
      - 'Structures/NonBreakableSpaceInNames'
      - 'Structures/Noscream'
@@ -3062,6 +3094,8 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/UseListWithForeach'
      - 'Structures/UsePositiveCondition'
      - 'Structures/UseSameTypesForComparisons'
+     - 'Structures/UseStrEndsWith'
+     - 'Structures/UseStrStartsWith'
      - 'Structures/UseSystemTmp'
      - 'Structures/UseUrlQueryFunctions'
      - 'Structures/UseVariableInsideLoop'
@@ -3082,6 +3116,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/WrongRange'
      - 'Structures/YodaComparison'
      - 'Structures/pregOptionE'
+     - 'Structures/strOrMbFavorite'
      - 'Structures/toStringThrowsException'
      - 'Traits/AlreadyParentsTrait'
      - 'Traits/CannotCallTraitMethod'
@@ -3095,6 +3130,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Traits/NoPrivateAbstract'
      - 'Traits/Php'
      - 'Traits/SelfUsingTrait'
+     - 'Traits/SidelinedMethod'
      - 'Traits/TraitMethod'
      - 'Traits/TraitNotFound'
      - 'Traits/TraitUsage'
@@ -3589,9 +3625,11 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/MbstringUnknownEncoding";
    analyzer[] = "Structures/MergeIfThen";
    analyzer[] = "Structures/MismatchedTernary";
+   analyzer[] = "Structures/MissingAssignation";
    analyzer[] = "Structures/MissingCases";
    analyzer[] = "Structures/MissingNew";
    analyzer[] = "Structures/MissingParenthesis";
+   analyzer[] = "Structures/MisusedYield";
    analyzer[] = "Structures/MixedConcatInterpolation";
    analyzer[] = "Structures/ModernEmpty";
    analyzer[] = "Structures/MultipleDefinedCase";
@@ -4071,9 +4109,11 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/MbstringUnknownEncoding'
      - 'Structures/MergeIfThen'
      - 'Structures/MismatchedTernary'
+     - 'Structures/MissingAssignation'
      - 'Structures/MissingCases'
      - 'Structures/MissingNew'
      - 'Structures/MissingParenthesis'
+     - 'Structures/MisusedYield'
      - 'Structures/MixedConcatInterpolation'
      - 'Structures/ModernEmpty'
      - 'Structures/MultipleDefinedCase'
@@ -4434,7 +4474,6 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Functions/Functionnames";
    analyzer[] = "Functions/FunctionsUsingReference";
    analyzer[] = "Functions/IsGenerator";
-   analyzer[] = "Functions/MarkCallable";
    analyzer[] = "Functions/MultipleDeclarations";
    analyzer[] = "Functions/Recursive";
    analyzer[] = "Functions/RedeclaredPhpFunction";
@@ -4495,6 +4534,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Php/RawPostDataUsage";
    analyzer[] = "Php/ReturnTypehintUsage";
    analyzer[] = "Php/ScalarTypehintUsage";
+   analyzer[] = "Php/ShortTernary";
    analyzer[] = "Php/SpreadOperatorForArray";
    analyzer[] = "Php/SuperGlobalUsage";
    analyzer[] = "Php/ThrowUsage";
@@ -4828,7 +4868,6 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Functions/Functionnames'
      - 'Functions/FunctionsUsingReference'
      - 'Functions/IsGenerator'
-     - 'Functions/MarkCallable'
      - 'Functions/MultipleDeclarations'
      - 'Functions/Recursive'
      - 'Functions/RedeclaredPhpFunction'
@@ -4889,6 +4928,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Php/RawPostDataUsage'
      - 'Php/ReturnTypehintUsage'
      - 'Php/ScalarTypehintUsage'
+     - 'Php/ShortTernary'
      - 'Php/SpreadOperatorForArray'
      - 'Php/SuperGlobalUsage'
      - 'Php/ThrowUsage'
@@ -6759,6 +6799,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Php/ReturnTypehintUsage";
    analyzer[] = "Php/ScalarTypehintUsage";
    analyzer[] = "Php/StringIntComparison";
+   analyzer[] = "Php/StrposWithIntegers";
    analyzer[] = "Php/ThrowWasAnExpression";
    analyzer[] = "Php/UnicodeEscapePartial";
    analyzer[] = "Php/UsortSorting";
@@ -6769,6 +6810,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/EvalWithoutTry";
    analyzer[] = "Structures/HtmlentitiescallDefaultFlag";
    analyzer[] = "Structures/ImplodeArgsOrder";
+   analyzer[] = "Structures/NoMaxOnEmptyArray";
    analyzer[] = "Structures/OnlyFirstByte";
    analyzer[] = "Traits/NoPrivateAbstract";
    analyzer[] = "Variables/InheritedStaticVariable";
@@ -6818,6 +6860,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Php/ReturnTypehintUsage'
      - 'Php/ScalarTypehintUsage'
      - 'Php/StringIntComparison'
+     - 'Php/StrposWithIntegers'
      - 'Php/ThrowWasAnExpression'
      - 'Php/UnicodeEscapePartial'
      - 'Php/UsortSorting'
@@ -6828,6 +6871,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/EvalWithoutTry'
      - 'Structures/HtmlentitiescallDefaultFlag'
      - 'Structures/ImplodeArgsOrder'
+     - 'Structures/NoMaxOnEmptyArray'
      - 'Structures/OnlyFirstByte'
      - 'Traits/NoPrivateAbstract'
      - 'Variables/InheritedStaticVariable'
@@ -6882,6 +6926,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Classes/Finalmethod";
    analyzer[] = "Classes/FossilizedMethod";
    analyzer[] = "Classes/HiddenNullable";
+   analyzer[] = "Classes/IncompatibleConstructor";
    analyzer[] = "Classes/InheritedPropertyMustMatch";
    analyzer[] = "Classes/InsufficientPropertyTypehint";
    analyzer[] = "Classes/LoweredAccessLevel";
@@ -6930,6 +6975,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/CouldBeStatic";
    analyzer[] = "Structures/DoubleObjectAssignation";
    analyzer[] = "Traits/SelfUsingTrait";
+   analyzer[] = "Traits/SidelinedMethod";
    analyzer[] = "Traits/UnusedClassTrait";
    analyzer[] = "Traits/UsedOnceTrait";
    analyzer[] = "Typehints/WrongTypeWithDefault";
@@ -6978,6 +7024,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Classes/Finalmethod'
      - 'Classes/FossilizedMethod'
      - 'Classes/HiddenNullable'
+     - 'Classes/IncompatibleConstructor'
      - 'Classes/InheritedPropertyMustMatch'
      - 'Classes/InsufficientPropertyTypehint'
      - 'Classes/LoweredAccessLevel'
@@ -7026,6 +7073,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/CouldBeStatic'
      - 'Structures/DoubleObjectAssignation'
      - 'Traits/SelfUsingTrait'
+     - 'Traits/SidelinedMethod'
      - 'Traits/UnusedClassTrait'
      - 'Traits/UsedOnceTrait'
      - 'Typehints/WrongTypeWithDefault'
@@ -8722,12 +8770,14 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Arrays/FloatConversionAsIndex";
    analyzer[] = "Classes/ChecksPropertyExistence";
    analyzer[] = "Classes/ExtendsStdclass";
+   analyzer[] = "Classes/UndefinedProperty";
    analyzer[] = "Functions/DeprecatedCallable";
    analyzer[] = "Php/DeprecateDollarCurly";
    analyzer[] = "Php/FalseToArray";
    analyzer[] = "Php/Php82NewFunctions";
    analyzer[] = "Php/Utf8EncodeDeprecated";
    analyzer[] = "Php/VersionCompareOperator";
+   analyzer[] = "Structures/DeprecatedMbEncoding";
    analyzer[] = "Traits/CannotCallTraitMethod";
 
 
@@ -8745,12 +8795,14 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Arrays/FloatConversionAsIndex'
      - 'Classes/ChecksPropertyExistence'
      - 'Classes/ExtendsStdclass'
+     - 'Classes/UndefinedProperty'
      - 'Functions/DeprecatedCallable'
      - 'Php/DeprecateDollarCurly'
      - 'Php/FalseToArray'
      - 'Php/Php82NewFunctions'
      - 'Php/Utf8EncodeDeprecated'
      - 'Php/VersionCompareOperator'
+     - 'Structures/DeprecatedMbEncoding'
      - 'Traits/CannotCallTraitMethod'
 
 
@@ -8916,6 +8968,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
 ::
 
  [Dump]
+   analyzer[] = "Dump/ArgumentCountsPerCalls";
    analyzer[] = "Dump/CallOrder";
    analyzer[] = "Dump/CollectAtomCounts";
    analyzer[] = "Dump/CollectBlockSize";
@@ -8972,6 +9025,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
 
   rulesets:
     'Dump':
+     - 'Dump/ArgumentCountsPerCalls'
      - 'Dump/CallOrder'
      - 'Dump/CollectAtomCounts'
      - 'Dump/CollectBlockSize'
@@ -9037,7 +9091,6 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
  [First]
    analyzer[] = "Complete/ReturnTypehint";
    analyzer[] = "Complete/VariableTypehint";
-   analyzer[] = "Functions/MarkCallable";
    analyzer[] = "Variables/IsLocalConstant";
 
 
@@ -9054,7 +9107,6 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
     'First':
      - 'Complete/ReturnTypehint'
      - 'Complete/VariableTypehint'
-     - 'Functions/MarkCallable'
      - 'Variables/IsLocalConstant'
 
 
@@ -9085,6 +9137,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Php/IncomingVariables";
    analyzer[] = "Php/SessionVariables";
    analyzer[] = "Structures/Fallthrough";
+   analyzer[] = "Structures/InitThenIf";
    analyzer[] = "Type/ArrayIndex";
    analyzer[] = "Type/Binary";
    analyzer[] = "Type/CharString";
@@ -9133,6 +9186,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Php/IncomingVariables'
      - 'Php/SessionVariables'
      - 'Structures/Fallthrough'
+     - 'Structures/InitThenIf'
      - 'Type/ArrayIndex'
      - 'Type/Binary'
      - 'Type/CharString'
@@ -9706,6 +9760,49 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
 
 
 
+.. _annex-one-liners:
+
+One Liners
+##########
+
+
+.. _annex-ini-one-liners:
+
+One Liners for INI
+++++++++++++++++++
+
+
+INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and edit them to your owns.
+::
+
+ [One Liners]
+   analyzer[] = "Functions/UseArrowFunctions";
+   analyzer[] = "Php/Coalesce";
+   analyzer[] = "Php/ShortTernary";
+   analyzer[] = "Php/ThrowWasAnExpression";
+   analyzer[] = "Php/UseNullSafeOperator";
+
+
+.. _annex-yaml-one-liners:
+
+One Liners for .exakat.yaml
++++++++++++++++++++++++++++
+
+
+YAML configuration for built-in rulesets. Copy them in your code, with the name .exakat.yaml, and edit them to your owns.
+::
+
+  rulesets:
+    'One Liners':
+     - 'Functions/UseArrowFunctions'
+     - 'Php/Coalesce'
+     - 'Php/ShortTernary'
+     - 'Php/ThrowWasAnExpression'
+     - 'Php/UseNullSafeOperator'
+
+
+
+
 .. _annex-php-recommendations:
 
 PHP recommendations
@@ -9783,15 +9880,18 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Performances/OptimizeExplode";
    analyzer[] = "Performances/PHP7EncapsedStrings";
    analyzer[] = "Performances/Php74ArrayKeyExists";
+   analyzer[] = "Performances/PreCalculateUse";
    analyzer[] = "Performances/PrePostIncrement";
    analyzer[] = "Performances/RegexOnArrays";
    analyzer[] = "Performances/RegexOnCollector";
+   analyzer[] = "Performances/ShouldCacheLocal";
    analyzer[] = "Performances/SimpleSwitch";
    analyzer[] = "Performances/SimplifyForeach";
    analyzer[] = "Performances/SkipEmptyArray";
    analyzer[] = "Performances/SlowFunctions";
    analyzer[] = "Performances/StaticCallDontNeedObjects";
    analyzer[] = "Performances/SubstrFirst";
+   analyzer[] = "Performances/SubstrInLoops";
    analyzer[] = "Performances/TooManyExtractions";
    analyzer[] = "Performances/UseBlindVar";
    analyzer[] = "Performances/timeVsstrtotime";
@@ -9850,15 +9950,18 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Performances/OptimizeExplode'
      - 'Performances/PHP7EncapsedStrings'
      - 'Performances/Php74ArrayKeyExists'
+     - 'Performances/PreCalculateUse'
      - 'Performances/PrePostIncrement'
      - 'Performances/RegexOnArrays'
      - 'Performances/RegexOnCollector'
+     - 'Performances/ShouldCacheLocal'
      - 'Performances/SimpleSwitch'
      - 'Performances/SimplifyForeach'
      - 'Performances/SkipEmptyArray'
      - 'Performances/SlowFunctions'
      - 'Performances/StaticCallDontNeedObjects'
      - 'Performances/SubstrFirst'
+     - 'Performances/SubstrInLoops'
      - 'Performances/TooManyExtractions'
      - 'Performances/UseBlindVar'
      - 'Performances/timeVsstrtotime'
@@ -9934,6 +10037,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/RegexDelimiter";
    analyzer[] = "Structures/StrictInArrayFavorite";
    analyzer[] = "Structures/StringInterpolationFavorite";
+   analyzer[] = "Structures/strOrMbFavorite";
 
 
 .. _annex-yaml-preferences:
@@ -9983,6 +10087,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/RegexDelimiter'
      - 'Structures/StrictInArrayFavorite'
      - 'Structures/StringInterpolationFavorite'
+     - 'Structures/strOrMbFavorite'
 
 
 
@@ -10091,6 +10196,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Security/NoWeakSSLCrypto";
    analyzer[] = "Security/RegisterGlobals";
    analyzer[] = "Security/SafeHttpHeaders";
+   analyzer[] = "Security/SessionCachedData";
    analyzer[] = "Security/SessionLazyWrite";
    analyzer[] = "Security/SetCookieArgs";
    analyzer[] = "Security/ShouldUsePreparedStatement";
@@ -10150,6 +10256,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Security/NoWeakSSLCrypto'
      - 'Security/RegisterGlobals'
      - 'Security/SafeHttpHeaders'
+     - 'Security/SessionCachedData'
      - 'Security/SessionLazyWrite'
      - 'Security/SetCookieArgs'
      - 'Security/ShouldUsePreparedStatement'
@@ -10403,6 +10510,8 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/UseCountRecursive";
    analyzer[] = "Structures/UseFileAppend";
    analyzer[] = "Structures/UseListWithForeach";
+   analyzer[] = "Structures/UseStrEndsWith";
+   analyzer[] = "Structures/UseStrStartsWith";
    analyzer[] = "Structures/UseUrlQueryFunctions";
    analyzer[] = "Structures/WhileListEach";
    analyzer[] = "Traits/MultipleUsage";
@@ -10534,6 +10643,8 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/UseCountRecursive'
      - 'Structures/UseFileAppend'
      - 'Structures/UseListWithForeach'
+     - 'Structures/UseStrEndsWith'
+     - 'Structures/UseStrStartsWith'
      - 'Structures/UseUrlQueryFunctions'
      - 'Structures/WhileListEach'
      - 'Traits/MultipleUsage'
