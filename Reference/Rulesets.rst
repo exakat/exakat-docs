@@ -6,7 +6,7 @@ Rulesets
 Introduction
 ------------------------
 
-Exakat provides unique 1560 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
+Exakat provides unique 1561 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
 
 For more smoothly usage, the ruleset concept allow you to run a set of rules based on a decidated focus. Beawre that a Ruleset run all the associated rules and any needed dependencies.
 
@@ -128,7 +128,7 @@ All
 
 All is a dummy ruleset, which includes all the rules. It is mostly used internally.
 
-Total : 1558 analysis
+Total : 1559 analysis
 
 * :ref:`adding-zero`
 * :ref:`ambiguous-array-index`
@@ -555,7 +555,6 @@ Total : 1558 analysis
 * :ref:`old-style-\_\_autoload()`
 * :ref:`altering-foreach-without-reference`
 * :ref:`test-class`
-* :ref:`mark-callable`
 * :ref:`magic-visibility`
 * :ref:`use-pathinfo`
 * :ref:`should-use-existing-constants`
@@ -1688,6 +1687,8 @@ Total : 1558 analysis
 * :ref:`substr()-in-loops`
 * :ref:`should-cache-local`
 * :ref:`php-8.3-new-classes`
+* :ref:`rewrote-final-class-constant`
+* :ref:`useless-constant-overwrite`
 
 Specs
 _____
@@ -2626,7 +2627,7 @@ CE
 
 This ruleset is the Community Edition list. It holds all the analysis that are in the community edition version of Exakat.
 
-Total : 627 analysis
+Total : 626 analysis
 
 * :ref:`adding-zero`
 * :ref:`array-index`
@@ -2872,7 +2873,6 @@ Total : 627 analysis
 * :ref:`use-php-object-api`
 * :ref:`altering-foreach-without-reference`
 * :ref:`test-class`
-* :ref:`mark-callable`
 * :ref:`use-pathinfo`
 * :ref:`ext-dio`
 * :ref:`no-parenthesis-for-language-construct`
@@ -3539,7 +3539,7 @@ Class Review
 
 This ruleset focuses on classes construction issues, and their related structures : traits, interfaces, methods, properties, constants.
 
-Total : 85 analysis
+Total : 87 analysis
 
 * :ref:`final-class-usage`
 * :ref:`final-methods-usage`
@@ -3626,6 +3626,8 @@ Total : 85 analysis
 * :ref:`property-invasion`
 * :ref:`different-constructors`
 * :ref:`sidelined-method`
+* :ref:`rewrote-final-class-constant`
+* :ref:`useless-constant-overwrite`
 
 Specs
 _____

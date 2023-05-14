@@ -312,6 +312,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Classes/RedefinedMethods";
    analyzer[] = "Classes/RedefinedPrivateProperty";
    analyzer[] = "Classes/RedefinedProperty";
+   analyzer[] = "Classes/RewroteFinalClassConstant";
    analyzer[] = "Classes/SameNameAsFile";
    analyzer[] = "Classes/ScalarOrObjectProperty";
    analyzer[] = "Classes/ShouldDeepClone";
@@ -368,6 +369,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Classes/UsedProtectedMethod";
    analyzer[] = "Classes/UselessAbstract";
    analyzer[] = "Classes/UselessAssignationOfPromotedProperty";
+   analyzer[] = "Classes/UselessConstantOverwrite";
    analyzer[] = "Classes/UselessConstructor";
    analyzer[] = "Classes/UselessFinal";
    analyzer[] = "Classes/UselessMethod";
@@ -742,7 +744,6 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Functions/IsGlobal";
    analyzer[] = "Functions/KillsApp";
    analyzer[] = "Functions/LoopCalling";
-   analyzer[] = "Functions/MarkCallable";
    analyzer[] = "Functions/MismatchParameterAndType";
    analyzer[] = "Functions/MismatchParameterName";
    analyzer[] = "Functions/MismatchTypeAndDefault";
@@ -1885,6 +1886,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Classes/RedefinedMethods'
      - 'Classes/RedefinedPrivateProperty'
      - 'Classes/RedefinedProperty'
+     - 'Classes/RewroteFinalClassConstant'
      - 'Classes/SameNameAsFile'
      - 'Classes/ScalarOrObjectProperty'
      - 'Classes/ShouldDeepClone'
@@ -1941,6 +1943,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Classes/UsedProtectedMethod'
      - 'Classes/UselessAbstract'
      - 'Classes/UselessAssignationOfPromotedProperty'
+     - 'Classes/UselessConstantOverwrite'
      - 'Classes/UselessConstructor'
      - 'Classes/UselessFinal'
      - 'Classes/UselessMethod'
@@ -2315,7 +2318,6 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Functions/IsGlobal'
      - 'Functions/KillsApp'
      - 'Functions/LoopCalling'
-     - 'Functions/MarkCallable'
      - 'Functions/MismatchParameterAndType'
      - 'Functions/MismatchParameterName'
      - 'Functions/MismatchTypeAndDefault'
@@ -5385,7 +5387,6 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Functions/IsExtFunction";
    analyzer[] = "Functions/IsGenerator";
    analyzer[] = "Functions/KillsApp";
-   analyzer[] = "Functions/MarkCallable";
    analyzer[] = "Functions/MismatchParameterName";
    analyzer[] = "Functions/MultipleDeclarations";
    analyzer[] = "Functions/MustReturn";
@@ -6025,7 +6026,6 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Functions/IsExtFunction'
      - 'Functions/IsGenerator'
      - 'Functions/KillsApp'
-     - 'Functions/MarkCallable'
      - 'Functions/MismatchParameterName'
      - 'Functions/MultipleDeclarations'
      - 'Functions/MustReturn'
@@ -6946,6 +6946,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Classes/RaisedAccessLevel";
    analyzer[] = "Classes/RedefinedMethods";
    analyzer[] = "Classes/RedefinedProperty";
+   analyzer[] = "Classes/RewroteFinalClassConstant";
    analyzer[] = "Classes/ShouldUseSelf";
    analyzer[] = "Classes/UndeclaredStaticProperty";
    analyzer[] = "Classes/UndefinedMethod";
@@ -6955,6 +6956,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Classes/UnreachableMethod";
    analyzer[] = "Classes/UnusedConstant";
    analyzer[] = "Classes/UselessAssignationOfPromotedProperty";
+   analyzer[] = "Classes/UselessConstantOverwrite";
    analyzer[] = "Classes/UselessTypehint";
    analyzer[] = "Classes/WrongTypedPropertyInit";
    analyzer[] = "Enums/NoMagicMethod";
@@ -7044,6 +7046,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Classes/RaisedAccessLevel'
      - 'Classes/RedefinedMethods'
      - 'Classes/RedefinedProperty'
+     - 'Classes/RewroteFinalClassConstant'
      - 'Classes/ShouldUseSelf'
      - 'Classes/UndeclaredStaticProperty'
      - 'Classes/UndefinedMethod'
@@ -7053,6 +7056,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Classes/UnreachableMethod'
      - 'Classes/UnusedConstant'
      - 'Classes/UselessAssignationOfPromotedProperty'
+     - 'Classes/UselessConstantOverwrite'
      - 'Classes/UselessTypehint'
      - 'Classes/WrongTypedPropertyInit'
      - 'Enums/NoMagicMethod'

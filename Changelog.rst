@@ -6,7 +6,7 @@ Release Note
 
 Here is the release note of exakat. 
 
-**Version 2.5.3 (, 2023-02-04)**
+**Version 2.5.5 (, 2023-02-04)**
 
 
 + Architecture
@@ -23,6 +23,32 @@ Here is the release note of exakat.
 
 + Tokenizer
     + 
+
+**Version 2.5.4 (, 2023-02-04)**
+
+
++ Architecture
+    + Refactored generation of VCS
+
++ Cobbler
+    + 
+
++ Report
+    + 
+
++ Analysis
+    + Updated analysis : Useless Null Coalesce now omits stdclass
+    + New analysis : report rewritten final class constant
+    + New analysis : report uselessly rewriten class constant
+    + Updated analysis : Fixed detection of use for functions and constants
+    + Removed analysis : Removed 'Mark callable'
+    + Updated analysis : Fixed detection of calls to __construct
+    + Updated analysis : Avoid Boolean as Argument sped up
+    + Updated analysis : Property Could Be Local sped up
+
++ Tokenizer
+    + 
+
 **Version 2.5.2 (Wang Gui, 2023-02-04)**
 
 
