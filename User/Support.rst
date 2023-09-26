@@ -88,6 +88,7 @@ List of external services whose configuration files has been commited in the cod
 * `artisan <http://laravel.com/docs/5.1/artisan>`_ - artisan
 * `atoum <http://atoum.org/>`_ - .bootstrap.atoum.php, .atoum.php, .atoum.bootstrap.php
 * `arcanist <https://secure.phabricator.com/book/phabricator/article/arcanist_lint/>`_ - .arclint, .arcconfig
+* `asp.net <https://dotnet.microsoft.com/en-us/apps/aspnet>`_ - web.config
 * `bazaar <https://bazaar.canonical.com/en/>`_ - .bzr
 * `babeljs <https://babeljs.io/>`_ - .babel.rc, .babel.js, .babelrc, babel.config.js
 * `behat <http://docs.behat.org/en/v2.5/>`_ - behat.yml.dist, behat.yml
@@ -109,7 +110,7 @@ List of external services whose configuration files has been commited in the cod
 * `cvs <https://www.nongnu.org/cvs/>`_ - CVS
 * `cypress <https://www.cypress.io/>`_ - cypress.config.js
 * `deptrack <https://github.com/qossmic/deptrac>`_ - deptrac.yaml
-* `docker <http://www.docker.com/>`_ - .dockerignore, .docker, docker-compose.yml, Dockerfile, .env.docker
+* `docker <http://www.docker.com/>`_ - .dockerignore, .docker, docker-compose.yml, docker-compose.yaml, Dockerfile, .env.docker
 * `dotenv <https://symfony.com/doc/current/components/dotenv.htmls>`_ - .env.dist, .env, .env.example
 * `doxygen <https://www.doxygen.nl/index.html>`_ - Doxyfile
 * `docblox <https://github.com/dzuelke/Docblox.git>`_ - docblox.dist.xml

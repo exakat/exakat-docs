@@ -43,6 +43,7 @@ Summary
   * :ref:`Migration80 <report-migration80>`
   * :ref:`Migration81 <report-migration81>`
   * :ref:`Migration82 <report-migration82>`
+  * :ref:`Naming <report-naming>`
   * :ref:`None <report-none>`
   * :ref:`OneLiners <report-oneliners>`
   * :ref:`Owasp <report-owasp>`
@@ -2139,6 +2140,39 @@ _____
 +--------------+------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_ |
 +--------------+------------------------------------------------------------------+
+
+
+.. _report-naming:
+
+Naming
+++++++
+
+Naming
+______
+
+The Naming report checks spelling with named element in the code.
+
+The Naming report checks spelling with named element in the code.
+
+.. image:: ../images/report.naming.png
+    :alt: Example of a Naming report (0)
+
+Specs
+_____
+
++--------------+------------------------------------------+
+| Short name   | Naming                                   |
++--------------+------------------------------------------+
+| Rulesets     | Naming doesn't depend on rulesets.       |
+|              |                                          |
+|              |                                          |
++--------------+------------------------------------------+
+| Type         | html                                     |
++--------------+------------------------------------------+
+| Target       | This report is written in 'naming.html'. |
++--------------+------------------------------------------+
+| Available in |                                          |
++--------------+------------------------------------------+
 
 
 .. _report-none:

@@ -253,6 +253,46 @@ _____
 +----------------+-------------------------------------------------------------------------------------------------------------------------+
 
 
+.. _classes-changeclass:
+
+.. _classes-changeclass:
+
+Classes/ChangeClass
++++++++++++++++++++
+
+
+.. _classes-changeclass-before:
+
+Before
+______
+.. code-block:: php
+
+   
+
+.. _classes-changeclass-after:
+
+After
+_____
+.. code-block:: php
+
+   
+
+
+
+.. _classes-changeclass-specs:
+
+Specs
+_____
+
++----------------+---------------------+
+| Short Name     | Classes/ChangeClass |
++----------------+---------------------+
+| Exakat version | 2.3.0               |
++----------------+---------------------+
+| Available in   |                     |
++----------------+---------------------+
+
+
 .. _attributes-createphpdoc:
 
 .. _create-phpdoc:
@@ -1613,6 +1653,599 @@ _____
 +----------------+-------------------------------------------------------------------------------------------------------------------------+
 
 
+.. _functions-renamefunction:
+
+.. _rename-a-function:
+
+Rename A Function
++++++++++++++++++
+This cobbler renames a function from a name A to a name B. 
+
+
+
+
+.. _rename-a-function-before:
+
+Before
+______
+.. code-block:: php
+
+   <?php
+   
+   function foo() {} 
+   foo();
+   
+   ?>
+
+.. _rename-a-function-after:
+
+After
+_____
+.. code-block:: php
+
+   <?php
+   
+   function bar() {} 
+   bar();
+   
+   ?>
+
+
+.. _rename-a-function-destination:
+
+Parameters
+__________
+
++-------------+---------+--------+---------------------------------+
+| Name        | Default | Type   | Description                     |
++-------------+---------+--------+---------------------------------+
+| origin      |         | string | The function to rename          |
++-------------+---------+--------+---------------------------------+
+| destination |         | string | The destination's function name |
++-------------+---------+--------+---------------------------------+
+
+.. _rename-a-function-reverse-cobbler:
+
+Reverse Cobbler
+_______________
+
+* :ref:`rename-a-function`
+
+
+
+.. _rename-a-function-specs:
+
+Specs
+_____
+
++----------------+--------------------------+
+| Short Name     | Functions/RenameFunction |
++----------------+--------------------------+
+| Exakat version | 2.3.0                    |
++----------------+--------------------------+
+| Available in   |                          |
++----------------+--------------------------+
+
+
+.. _rename-renamenamespace:
+
+.. _rename-a-namespace:
+
+Rename A Namespace
+++++++++++++++++++
+Changes the name of a namespaces from A to B.
+
+Make sure that the new namspace is distinct from the previous ones : merging namespaces is not recommended nor checked. This cobbler is better suited a giving an unused name to a namespace.
+
+
+.. _rename-a-namespace-before:
+
+Before
+______
+.. code-block:: php
+
+   <?php
+   namespace A;
+   
+   function foo() {} 
+   
+   ?>
+   
+
+.. _rename-a-namespace-after:
+
+After
+_____
+.. code-block:: php
+
+   <?php
+   namespace B;
+   
+   function foo() {} 
+   ?>
+
+
+.. _rename-a-namespace-destination:
+
+Parameters
+__________
+
++-------------+---------+--------+----------------------------+
+| Name        | Default | Type   | Description                |
++-------------+---------+--------+----------------------------+
+| origin      |         | string | The original namespace.    |
++-------------+---------+--------+----------------------------+
+| destination |         | string | The destination namespace. |
++-------------+---------+--------+----------------------------+
+
+.. _rename-a-namespace-reverse-cobbler:
+
+Reverse Cobbler
+_______________
+
+* :ref:`rename-a-namespace`
+
+
+
+.. _rename-a-namespace-specs:
+
+Specs
+_____
+
++----------------+------------------------+
+| Short Name     | Rename/RenameNamespace |
++----------------+------------------------+
+| Exakat version | 2.6.0                  |
++----------------+------------------------+
+| Available in   |                        |
++----------------+------------------------+
+
+
+.. _classes-renameclass:
+
+.. _rename-class:
+
+Rename Class
+++++++++++++
+Rename a class into another one. 
+
+The rename applies the new name to the class, and its usage : static calls, types, extends and instanceof. 
+
+.. _rename-class-before:
+
+Before
+______
+.. code-block:: php
+
+   <?php
+   class x {}
+   
+   function foo(x $a) {}
+   
+   ?>
+
+.. _rename-class-after:
+
+After
+_____
+.. code-block:: php
+
+   <?php
+   class Y {}
+   
+   function foo(Y $a) {}
+   
+   ?>
+
+
+.. _rename-class-destination:
+
+Parameters
+__________
+
++-------------+---------+--------+------------------------------+
+| Name        | Default | Type   | Description                  |
++-------------+---------+--------+------------------------------+
+| origin      |         | string | The class to rename          |
++-------------+---------+--------+------------------------------+
+| destination |         | string | The destination's class name |
++-------------+---------+--------+------------------------------+
+
+.. _rename-class-reverse-cobbler:
+
+Reverse Cobbler
+_______________
+
+* :ref:`rename-class`
+
+
+
+.. _rename-class-specs:
+
+Specs
+_____
+
++----------------+---------------------+
+| Short Name     | Classes/RenameClass |
++----------------+---------------------+
+| Exakat version | 2.3.0               |
++----------------+---------------------+
+| Available in   |                     |
++----------------+---------------------+
+
+
+.. _classes-renamemethod:
+
+.. _rename-class:
+
+Rename Class
+++++++++++++
+Rename a class into another one. 
+
+The rename applies the new name to the class, and its usage : static calls, types, extends and instanceof. 
+
+.. _rename-class-before:
+
+Before
+______
+.. code-block:: php
+
+   <?php
+   class x {
+   	function m() {}
+   }
+   
+   (new x)->m();
+   
+   ?>
+
+.. _rename-class-after:
+
+After
+_____
+.. code-block:: php
+
+   <?php
+   class x {
+   	function newM() {}
+   }
+   
+   (new x)->newM();
+   
+   ?>
+
+
+.. _rename-class-destination:
+
+Parameters
+__________
+
++-------------+---------+--------+--------------------------------------------------------------------------+
+| Name        | Default | Type   | Description                                                              |
++-------------+---------+--------+--------------------------------------------------------------------------+
+| origin      |         | string | The method to rename, along with its parent class. Like theClass::Method |
++-------------+---------+--------+--------------------------------------------------------------------------+
+| destination |         | string | The destination's method name. Only the name.                            |
++-------------+---------+--------+--------------------------------------------------------------------------+
+
+.. _rename-class-reverse-cobbler:
+
+Reverse Cobbler
+_______________
+
+* :ref:`rename-class`
+
+
+
+.. _rename-class-specs:
+
+Specs
+_____
+
++----------------+----------------------+
+| Short Name     | Classes/RenameMethod |
++----------------+----------------------+
+| Exakat version | 2.3.0                |
++----------------+----------------------+
+| Available in   |                      |
++----------------+----------------------+
+
+
+.. _traits-renametrait:
+
+.. _rename-class:
+
+Rename Class
+++++++++++++
+Rename a trait into another one. 
+
+The rename applies the new name to the trait, and its usage : use cases in classes and traits, static calls (PHP 8.0-). 
+
+.. _rename-class-before:
+
+Before
+______
+.. code-block:: php
+
+   <?php
+   trait t {}
+   
+   class x {
+   	use t;
+   }
+   
+   ?>
+
+.. _rename-class-after:
+
+After
+_____
+.. code-block:: php
+
+   <?php
+   trait newT {}
+   
+   class x {
+   	use newT;
+   }
+   
+   ?>
+
+
+.. _rename-class-destination:
+
+Parameters
+__________
+
++-------------+---------+--------+------------------------------+
+| Name        | Default | Type   | Description                  |
++-------------+---------+--------+------------------------------+
+| origin      |         | string | The class to rename          |
++-------------+---------+--------+------------------------------+
+| destination |         | string | The destination's class name |
++-------------+---------+--------+------------------------------+
+
+
+
+.. _rename-class-specs:
+
+Specs
+_____
+
++----------------+--------------------+
+| Short Name     | Traits/RenameTrait |
++----------------+--------------------+
+| Exakat version | 2.3.0              |
++----------------+--------------------+
+| Available in   |                    |
++----------------+--------------------+
+
+
+.. _classes-renameconstant:
+
+.. _rename-class-constant:
+
+Rename Class Constant
++++++++++++++++++++++
+Rename a class constant into another one. 
+
+The rename applies the new name to the class constant, and its usage. 
+
+.. _rename-class-constant-before:
+
+Before
+______
+.. code-block:: php
+
+   <?php
+   class x {
+   	const A = 1;
+   }
+   
+   echo x::A;
+   
+   ?>
+
+.. _rename-class-constant-after:
+
+After
+_____
+.. code-block:: php
+
+   <?php
+   class x {
+   	const B = 1;
+   }
+   
+   echo x::B;
+   
+   ?>
+
+
+.. _rename-class-constant-destination:
+
+Parameters
+__________
+
++-------------+---------+--------+----------------------------------------------------------------+
+| Name        | Default | Type   | Description                                                    |
++-------------+---------+--------+----------------------------------------------------------------+
+| origin      |         | string | The class constant to rename, along with its class name. \x::A |
++-------------+---------+--------+----------------------------------------------------------------+
+| destination |         | string | The destination's class constant name. B                       |
++-------------+---------+--------+----------------------------------------------------------------+
+
+.. _rename-class-constant-reverse-cobbler:
+
+Reverse Cobbler
+_______________
+
+* :ref:`rename-class-constant`
+
+
+
+.. _rename-class-constant-specs:
+
+Specs
+_____
+
++----------------+------------------------+
+| Short Name     | Classes/RenameConstant |
++----------------+------------------------+
+| Exakat version | 2.3.0                  |
++----------------+------------------------+
+| Available in   |                        |
++----------------+------------------------+
+
+
+.. _constants-renameconstant:
+
+.. _rename-constant:
+
+Rename Constant
++++++++++++++++
+This cobbler renames a constant and replace it with another constant. 
+
+.. _rename-constant-before:
+
+Before
+______
+.. code-block:: php
+
+   <?php
+   
+   const A = 1;
+   
+   echo A;
+   echo \A;
+   
+   ?>
+
+.. _rename-constant-after:
+
+After
+_____
+.. code-block:: php
+
+   <?php
+   
+   const B = 1;
+   
+   echo B;
+   echo \B;
+   
+   ?>
+
+
+.. _rename-constant-destination:
+
+Parameters
+__________
+
++-------------+---------+--------+---------------------------------+
+| Name        | Default | Type   | Description                     |
++-------------+---------+--------+---------------------------------+
+| origin      |         | string | The constant to rename          |
++-------------+---------+--------+---------------------------------+
+| destination |         | string | The destination's constant name |
++-------------+---------+--------+---------------------------------+
+
+.. _rename-constant-reverse-cobbler:
+
+Reverse Cobbler
+_______________
+
+* :ref:`rename-constant`
+
+
+
+.. _rename-constant-specs:
+
+Specs
+_____
+
++----------------+--------------------------+
+| Short Name     | Constants/RenameConstant |
++----------------+--------------------------+
+| Exakat version | 2.3.0                    |
++----------------+--------------------------+
+| Available in   |                          |
++----------------+--------------------------+
+
+
+.. _enums-renameenums:
+
+.. _rename-enums:
+
+Rename Enums
+++++++++++++
+Rename a class into another one. 
+
+The rename applies the new name to the class, and its usage : static calls, types, extends and instanceof. 
+
+.. _rename-enums-before:
+
+Before
+______
+.. code-block:: php
+
+   <?php
+   enum E {}
+   
+   function foo(E $a) {}
+   
+   ?>
+
+.. _rename-enums-after:
+
+After
+_____
+.. code-block:: php
+
+   <?php
+   enum EFG {}
+   
+   function foo(EFG $a) {}
+   
+   ?>
+
+
+.. _rename-enums-destination:
+
+Parameters
+__________
+
++-------------+---------+--------+------------------------------+
+| Name        | Default | Type   | Description                  |
++-------------+---------+--------+------------------------------+
+| origin      |         | string | The class to rename          |
++-------------+---------+--------+------------------------------+
+| destination |         | string | The destination's class name |
++-------------+---------+--------+------------------------------+
+
+.. _rename-enums-reverse-cobbler:
+
+Reverse Cobbler
+_______________
+
+* :ref:`rename-enums`
+
+
+
+.. _rename-enums-specs:
+
+Specs
+_____
+
++----------------+-------------------+
+| Short Name     | Enums/RenameEnums |
++----------------+-------------------+
+| Exakat version | 2.3.0             |
++----------------+-------------------+
+| Available in   |                   |
++----------------+-------------------+
+
+
 .. _structures-renamefunctioncall:
 
 .. _rename-functioncalls:
@@ -1691,6 +2324,79 @@ _____
 +----------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in   | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +----------------+-------------------------------------------------------------------------------------------------------------------------+
+
+
+.. _interfaces-renameinterface:
+
+.. _rename-interface:
+
+Rename Interface
+++++++++++++++++
+Rename an interface into another one. 
+
+The rename applies the new name to the class, and its usage : static constants, types, extends and instanceof. 
+
+.. _rename-interface-before:
+
+Before
+______
+.. code-block:: php
+
+   <?php
+   interface i {}
+   
+   function foo(i $a) : j {}
+   
+   ?>
+
+.. _rename-interface-after:
+
+After
+_____
+.. code-block:: php
+
+   <?php
+   class j {}
+   
+   function foo(j $a) : j {}
+   
+   ?>
+
+
+.. _rename-interface-destination:
+
+Parameters
+__________
+
++-------------+---------+--------+------------------------------+
+| Name        | Default | Type   | Description                  |
++-------------+---------+--------+------------------------------+
+| origin      |         | string | The class to rename          |
++-------------+---------+--------+------------------------------+
+| destination |         | string | The destination's class name |
++-------------+---------+--------+------------------------------+
+
+.. _rename-interface-reverse-cobbler:
+
+Reverse Cobbler
+_______________
+
+* :ref:`rename-interface`
+
+
+
+.. _rename-interface-specs:
+
+Specs
+_____
+
++----------------+----------------------------+
+| Short Name     | Interfaces/RenameInterface |
++----------------+----------------------------+
+| Exakat version | 2.5.0                      |
++----------------+----------------------------+
+| Available in   |                            |
++----------------+----------------------------+
 
 
 .. _structures-renamemethodcall:
@@ -1854,6 +2560,80 @@ _____
 +----------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in   | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +----------------+-------------------------------------------------------------------------------------------------------------------------+
+
+
+.. _classes-renameproperty:
+
+.. _rename-property:
+
+Rename Property
++++++++++++++++
+Rename a property into another one. 
+
+The rename applies the new name to the property, and its usage : static calls, and normal calls.
+
+.. _rename-property-before:
+
+Before
+______
+.. code-block:: php
+
+   <?php
+   class x {
+   	private $p = 1;
+   	
+   	function m() {
+   		$this->p = 2;
+   	}
+   }
+   
+   ?>
+
+.. _rename-property-after:
+
+After
+_____
+.. code-block:: php
+
+   <?php
+   class x {
+   	private $newP = 1;
+   	
+   	function m() {
+   		$this->newP = 2;
+   	}
+   }
+   
+   ?>
+
+
+.. _rename-property-destination:
+
+Parameters
+__________
+
++-------------+---------+--------+-------------------------------------------------------------------------------+
+| Name        | Default | Type   | Description                                                                   |
++-------------+---------+--------+-------------------------------------------------------------------------------+
+| origin      |         | string | The property to rename, along with its parent class. Like theClass::$property |
++-------------+---------+--------+-------------------------------------------------------------------------------+
+| destination |         | string | The destination's property name. Only the name.                               |
++-------------+---------+--------+-------------------------------------------------------------------------------+
+
+
+
+.. _rename-property-specs:
+
+Specs
+_____
+
++----------------+------------------------+
+| Short Name     | Classes/RenameProperty |
++----------------+------------------------+
+| Exakat version | 2.3.0                  |
++----------------+------------------------+
+| Available in   |                        |
++----------------+------------------------+
 
 
 .. _functions-setnulltype:

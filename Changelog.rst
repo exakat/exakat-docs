@@ -31,10 +31,24 @@ Here is the release note of exakat.
     + Refactored generation of VCS
 
 + Cobbler
-    + 
+    + New cobbler : rename namespace
+    + New cobbler : rename function
+    + New cobbler : rename constant
+    + New cobbler : rename class
+    + New cobbler : rename interface
+    + New cobbler : rename enums
+    + New cobbler : rename trait
+    + New cobbler : rename method
+    + New cobbler : rename class constant
+    + New cobbler : rename property
 
 + Report
-    + 
+    + Added Classes dependencies table to Ambassador
+    + Added Classes dependencies counts table to Ambassador
+    + Added Classes dependent counts table to Ambassador
+    + Added Namespaces to Exception tree
+    + Added list of repeated class names
+    + New report : Naming, that checks spelling 
 
 + Analysis
     + Updated analysis : Useless Null Coalesce now omits stdclass
@@ -45,18 +59,49 @@ Here is the release note of exakat.
     + Updated analysis : Fixed detection of calls to __construct
     + Updated analysis : Avoid Boolean as Argument sped up
     + Updated analysis : Property Could Be Local sped up
+    + New analysis : Report blind variable used beyond their foreach() loop
+    + Updated analysis : Could Use Try has more exceptions sources
+    + New analysis : Report recalled conditions
+    + Updated analysis : Upgraded Classes depencencies list with attributes, New initializers and instanceof
+    + New analysis : Report incompatible property definition between trait and class
+    + Updated analysis : Deep definition now includes define() calls and enums
+    + Updated analysis : Collection of File dependencies now include interfaces
+    + Updated analysis : Fixed but in Could Be Spaceship
+    + Updated analysis : Upgraded 'unthrown exception' to handle variables
+    + New analysis : report usage of self:: on 
+    + New analysis : report usage of DNF
+    + Updated analysis : readonly usage covers classes and anonymous classes
+    + New analysis : report usage of FTN as standalone type 
+    + New analysis : Collect usage of throw and their method
+    + New analysis : Collect literals used in comparisons
+    + New analysis : Suggest using array_combine()
+    + New analysis : Report comparisons with distinct scalar types
+    + New analysis : reports null being used as array's index
+    + New analysis : collect all named things in the source code
+    + Updated analysis : isComponent also supports enum and declare
+    + New analysis : report useless Try clauses
+    + New analysis : report converted exceptions
+    + New analysis : report methods that are no more than a single if
+    + New analysis : suggest to ditch default before assigning it
+    + Updated analysis : Unset or Cast was refactored with less raw() calls
+    + Updated analysis : PPP declaration style
+    + New analysis : collect the number of injections in a constructor
+    + New analysis : collect the property usage level for each class
+    + New analysis : collect structures, instead of in dump
+    + New analysis : collect catch, to complete results with throw collect
+    + Updated analysis : report usage of standalone True, False, Null.
+    + New analysis : report identical cases in match and switch
+    + New analysis : report usage of constants in traits
+    + New analysis : preference between short and formal comparison
 
 + Tokenizer
-    + 
+    + Added support for typed constants
+    + Checked support for readonly anonymous classes
+    + Fixed LINK in DNF types
+    + Added support for attributes in enum, trait, interface and enumcase
 
 **Version 2.5.2 (Wang Gui, 2023-02-04)**
 
-
-+ Architecture
-    + 
-
-+ Cobbler
-    + 
 
 + Report
     + New report : Format for SonarCube

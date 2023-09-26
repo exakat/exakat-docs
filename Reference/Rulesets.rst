@@ -6,7 +6,7 @@ Rulesets
 Introduction
 ------------------------
 
-Exakat provides unique 1561 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
+Exakat provides unique 1584 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
 
 For more smoothly usage, the ruleset concept allow you to run a set of rules based on a decidated focus. Beawre that a Ruleset run all the associated rules and any needed dependencies.
 
@@ -128,7 +128,7 @@ All
 
 All is a dummy ruleset, which includes all the rules. It is mostly used internally.
 
-Total : 1559 analysis
+Total : 1582 analysis
 
 * :ref:`adding-zero`
 * :ref:`ambiguous-array-index`
@@ -1216,7 +1216,7 @@ Total : 1559 analysis
 * :ref:`dependant-abstract-classes`
 * :ref:`wrong-type-returned`
 * :ref:`generator-cannot-return`
-* :ref:`cant-use-function`
+* :ref:`methods-that-should-not-be-used`
 * :ref:`use-datetimeimmutable-class`
 * :ref:`set-aside-code`
 * :ref:`use-array-functions`
@@ -1271,7 +1271,6 @@ Total : 1559 analysis
 * :ref:`set-class-remote-definition-with-parenthesis`
 * :ref:`set-class-property-definition-with-typehint`
 * :ref:`set-array-class-definition`
-* :ref:`set-string-method-definition`
 * :ref:`set-class-method-remote-definition`
 * :ref:`use-arrow-functions`
 * :ref:`max-level-of-nesting`
@@ -1399,7 +1398,7 @@ Total : 1559 analysis
 * :ref:`collect-parameter-names`
 * :ref:`no-need-for-triple-equal`
 * :ref:`array\_merge-needs-array-of-arrays`
-* :ref:`dont-compare-typed-boolean`
+* :ref:`avoid-compare-typed-boolean`
 * :ref:`abstract-away`
 * :ref:`wrong-type-for-native-php-function`
 * :ref:`large-try-block`
@@ -1689,6 +1688,30 @@ Total : 1559 analysis
 * :ref:`php-8.3-new-classes`
 * :ref:`rewrote-final-class-constant`
 * :ref:`useless-constant-overwrite`
+* :ref:`blind-variable-used-beyond-loop`
+* :ref:`recalled-condition`
+* :ref:`incompatible-property`
+* :ref:`collect-methods-throwing-exceptions`
+* :ref:`static-call-with-self`
+* :ref:`use-dnf`
+* :ref:`collect-throw-calls`
+* :ref:`collect-compared-literals`
+* :ref:`could-be-array\_combine()`
+* :ref:`comparison-on-different-types`
+* :ref:`no-null-for-index`
+* :ref:`collects-names`
+* :ref:`useless-try`
+* :ref:`converted-exceptions`
+* :ref:`method-is-not-an-if`
+* :ref:`default-then-discard`
+* :ref:`class-injection-count`
+* :ref:`collect-property-usage`
+* :ref:`collect-structures`
+* :ref:`collect-catch-calls`
+* :ref:`structures-identicalcase`
+* :ref:`standalonetype-true-false-null`
+* :ref:`constants-in-traits`
+* :ref:`short-or-complete-comparison`
 
 Specs
 _____
@@ -1707,7 +1730,7 @@ Analyze
 
 This ruleset centralizes a large number of classic trap and pitfalls when writing PHP.
 
-Total : 471 analysis
+Total : 479 analysis
 
 * :ref:`adding-zero`
 * :ref:`ambiguous-array-index`
@@ -2179,7 +2202,15 @@ Total : 471 analysis
 * :ref:`double-checks`
 * :ref:`strpos()-with-integers`
 * :ref:`missing-assignation-in-command`
+* :ref:`no-valid-cast`
 * :ref:`misused-yield`
+* :ref:`no-null-for-index`
+* :ref:`useless-try`
+* :ref:`converted-exceptions`
+* :ref:`method-is-not-an-if`
+* :ref:`default-then-discard`
+* :ref:`structures-identicalcase`
+* :ref:`standalonetype-true-false-null`
 
 Specs
 _____
@@ -2200,7 +2231,7 @@ Appinfo
 
 A set of rules that describes with PHP features is used in the code.
 
-Total : 381 analysis
+Total : 383 analysis
 
 * :ref:`array-index`
 * :ref:`multidimensional-arrays`
@@ -2575,6 +2606,7 @@ Total : 381 analysis
 * :ref:`array-addition`
 * :ref:`ice-framework`
 * :ref:`extensions-exttaint`
+* :ref:`random-extension`
 * :ref:`ip`
 * :ref:`ext-scrypt`
 * :ref:`ext-teds`
@@ -2583,6 +2615,7 @@ Total : 381 analysis
 * :ref:`date()-versus-datetime-preference`
 * :ref:`plus-plus-used-on-strings`
 * :ref:`short-ternary`
+* :ref:`use-dnf`
 
 Specs
 _____
@@ -2627,7 +2660,7 @@ CE
 
 This ruleset is the Community Edition list. It holds all the analysis that are in the community edition version of Exakat.
 
-Total : 626 analysis
+Total : 625 analysis
 
 * :ref:`adding-zero`
 * :ref:`array-index`
@@ -3136,7 +3169,7 @@ Total : 626 analysis
 * :ref:`php-7.4-new-classes`
 * :ref:`new-constants-in-php-7.4`
 * :ref:`wrong-type-returned`
-* :ref:`cant-use-function`
+* :ref:`methods-that-should-not-be-used`
 * :ref:`php-7.4-removed-functions`
 * :ref:`mb\_strrpos()-third-argument`
 * :ref:`array\_key\_exists()-works-on-arrays`
@@ -3163,7 +3196,6 @@ Total : 626 analysis
 * :ref:`use-covariance`
 * :ref:`use-contravariance`
 * :ref:`set-array-class-definition`
-* :ref:`set-string-method-definition`
 * :ref:`use-arrow-functions`
 * :ref:`environment-variable-usage`
 * :ref:`indentation-levels`
@@ -3471,7 +3503,7 @@ Changed Behavior
 
 Ruleset with all rules that identify changed behavior across PHP versions. This means that some syntax behave differently, depending on PHP version.
 
-Total : 48 analysis
+Total : 52 analysis
 
 * :ref:`$http\_raw\_post\_data-usage`
 * :ref:`wrong-optional-parameter`
@@ -3485,13 +3517,16 @@ Total : 48 analysis
 * :ref:`reserved-keywords-in-php-7`
 * :ref:`scalar-typehint-usage`
 * :ref:`return-typehint-usage`
+* :ref:`isset()-with-constant`
 * :ref:`list-with-appends`
 * :ref:`simple-global-variable`
 * :ref:`foreach-don't-change-pointer`
 * :ref:`unicode-escape-partial`
 * :ref:`eval()-without-try`
 * :ref:`usort-sorting-in-php-7.0`
+* :ref:`func\_get\_arg()-modified`
 * :ref:`php7-relaxed-keyword`
+* :ref:`set\_exception\_handler()-warning`
 * :ref:`using-$this-outside-a-class`
 * :ref:`list-with-keys`
 * :ref:`php-7.1-microseconds`
@@ -3520,6 +3555,7 @@ Total : 48 analysis
 * :ref:`php-8.1-resources-turned-into-objects`
 * :ref:`no-private-abstract-method-in-trait`
 * :ref:`no-max-on-empty-array`
+* :ref:`no-empty-string-with-explode()`
 * :ref:`strpos()-with-integers`
 
 Specs
@@ -3539,7 +3575,7 @@ Class Review
 
 This ruleset focuses on classes construction issues, and their related structures : traits, interfaces, methods, properties, constants.
 
-Total : 87 analysis
+Total : 89 analysis
 
 * :ref:`final-class-usage`
 * :ref:`final-methods-usage`
@@ -3628,6 +3664,8 @@ Total : 87 analysis
 * :ref:`sidelined-method`
 * :ref:`rewrote-final-class-constant`
 * :ref:`useless-constant-overwrite`
+* :ref:`incompatible-property`
+* :ref:`static-call-with-self`
 
 Specs
 _____
@@ -4550,7 +4588,7 @@ CompatibilityPHP82
 
 This ruleset centralizes all analysis for the migration from PHP 8.1 to 8.2.
 
-Total : 12 analysis
+Total : 13 analysis
 
 * :ref:`undefined-properties`
 * :ref:`false-to-array-conversion`
@@ -4564,6 +4602,7 @@ Total : 12 analysis
 * :ref:`utf8-encode-and-decode-are-deprecated`
 * :ref:`new-functions-in-php-8.2`
 * :ref:`deprecated-mb\_string-encodings`
+* :ref:`constants-in-traits`
 
 Specs
 _____
@@ -4675,8 +4714,9 @@ Dump
 
 This ruleset collects various names given to different structures in the code : for example, variables, classes, methods, constants, etc. It also collects networks of data, like file inclusion or external dependencies.
 
-Total : 44 analysis
+Total : 53 analysis
 
+* :ref:`caught-exceptions`
 * :ref:`environment-variable-usage`
 * :ref:`indentation-levels`
 * :ref:`cyclomatic-complexity`
@@ -4721,6 +4761,14 @@ Total : 44 analysis
 * :ref:`collect-calls`
 * :ref:`collect-setlocale`
 * :ref:`argument-counts-per-calls`
+* :ref:`collect-throw-calls`
+* :ref:`collect-compared-literals`
+* :ref:`comparison-on-different-types`
+* :ref:`collects-names`
+* :ref:`class-injection-count`
+* :ref:`collect-property-usage`
+* :ref:`collect-structures`
+* :ref:`collect-catch-calls`
 
 Specs
 _____
@@ -5088,7 +5136,7 @@ NoDoc
 
 Ruleset with analysis which are not published in the docs.
 
-Total : 37 analysis
+Total : 36 analysis
 
 * :ref:`php-native-reference-variable`
 * :ref:`create-compact-variables`
@@ -5113,7 +5161,6 @@ Total : 37 analysis
 * :ref:`set-class-remote-definition-with-parenthesis`
 * :ref:`set-class-property-definition-with-typehint`
 * :ref:`set-array-class-definition`
-* :ref:`set-string-method-definition`
 * :ref:`set-class-method-remote-definition`
 * :ref:`make-functioncall-with-reference`
 * :ref:`propagate-calls`
@@ -5193,7 +5240,7 @@ Performances
 
 This ruleset focuses on performances issues : anything that slows the code's execution.
 
-Total : 57 analysis
+Total : 58 analysis
 
 * :ref:`eval()-usage`
 * :ref:`for-using-functioncall`
@@ -5252,6 +5299,7 @@ Total : 57 analysis
 * :ref:`pre-calculate-use`
 * :ref:`substr()-in-loops`
 * :ref:`should-cache-local`
+* :ref:`recalled-condition`
 
 Specs
 _____
@@ -5272,7 +5320,7 @@ Preferences
 
 This ruleset identify code with multiple forms, and report when one is more frequent than the others. Echo vs print, shell_exec() vs ``, etc.
 
-Total : 37 analysis
+Total : 38 analysis
 
 * :ref:`true-false-inconsistant-case`
 * :ref:`echo-or-print`
@@ -5311,6 +5359,7 @@ Total : 37 analysis
 * :ref:`strict-in\_array()-preference`
 * :ref:`date()-versus-datetime-preference`
 * :ref:`mono-or-multibytes-favorite`
+* :ref:`short-or-complete-comparison`
 
 Specs
 _____
@@ -5490,7 +5539,7 @@ Suggestions
 
 This ruleset focuses on possibly better syntax than the one currently used. Those may be code modernization, alternatives, more efficient solutions, or simply left over from older versions. 
 
-Total : 120 analysis
+Total : 122 analysis
 
 * :ref:`while(list()-=-each())`
 * :ref:`function-subscripting,-old-style`
@@ -5577,7 +5626,7 @@ Total : 120 analysis
 * :ref:`static-global-variables-confusion`
 * :ref:`possible-alias-confusion`
 * :ref:`too-much-indented`
-* :ref:`dont-compare-typed-boolean`
+* :ref:`avoid-compare-typed-boolean`
 * :ref:`abstract-away`
 * :ref:`large-try-block`
 * :ref:`cancel-common-method`
@@ -5612,6 +5661,8 @@ Total : 120 analysis
 * :ref:`class-could-be-readonly`
 * :ref:`use-str\_ends\_with()`
 * :ref:`use-str\_starts\_with()`
+* :ref:`blind-variable-used-beyond-loop`
+* :ref:`could-be-array\_combine()`
 
 Specs
 _____
