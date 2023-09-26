@@ -108,7 +108,7 @@ With that configuration, the Drillinstructor and the Owasp report are created au
 Predefined config files
 ------------------------
 
-44 rulesets detailled here : 
+45 rulesets detailled here : 
 
 .. _annex-all:
 
@@ -8885,6 +8885,45 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Php/VersionCompareOperator'
      - 'Structures/DeprecatedMbEncoding'
      - 'Traits/CannotCallTraitMethod'
+     - 'Traits/ConstantsInTraits'
+
+
+
+
+.. _annex-compatibilityphp83:
+
+CompatibilityPHP83
+##################
+
+
+.. _annex-ini-compatibilityphp83:
+
+CompatibilityPHP83 for INI
+++++++++++++++++++++++++++
+
+
+INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and edit them to your owns.
+::
+
+ [CompatibilityPHP83]
+   analyzer[] = "Php/Php83NewClasses";
+   analyzer[] = "Php/Php83NewFunctions";
+   analyzer[] = "Traits/ConstantsInTraits";
+
+
+.. _annex-yaml-compatibilityphp83:
+
+CompatibilityPHP83 for .exakat.yaml
++++++++++++++++++++++++++++++++++++
+
+
+YAML configuration for built-in rulesets. Copy them in your code, with the name .exakat.yaml, and edit them to your owns.
+::
+
+  rulesets:
+    'CompatibilityPHP83':
+     - 'Php/Php83NewClasses'
+     - 'Php/Php83NewFunctions'
      - 'Traits/ConstantsInTraits'
 
 

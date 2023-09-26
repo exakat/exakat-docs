@@ -71,6 +71,8 @@ Here is the list of the current rulesets supported by Exakat Engine.
 +-----------------------------------------------+------------------------------------------------------------------------------------------------------+
 | :ref:`ruleset-compatibilityphp82`             |List features that are incompatible with PHP 8.2.                                                     |
 +-----------------------------------------------+------------------------------------------------------------------------------------------------------+
+| :ref:`ruleset-compatibilityphp83`             |List features that are incompatible with PHP 8.3.                                                     |
++-----------------------------------------------+------------------------------------------------------------------------------------------------------+
 | :ref:`ruleset-dead-code`                      |Check the unused code or unreachable code.                                                            |
 +-----------------------------------------------+------------------------------------------------------------------------------------------------------+
 | :ref:`ruleset-deprecated`                     |List of deprecated features, across all PHP versions.                                                 |
@@ -1690,7 +1692,7 @@ Total : 1582 analysis
 * :ref:`useless-constant-overwrite`
 * :ref:`blind-variable-used-beyond-loop`
 * :ref:`recalled-condition`
-* :ref:`incompatible-property`
+* :ref:`incompatible-property-between-class-and-trait`
 * :ref:`collect-methods-throwing-exceptions`
 * :ref:`static-call-with-self`
 * :ref:`use-dnf`
@@ -1708,7 +1710,7 @@ Total : 1582 analysis
 * :ref:`collect-property-usage`
 * :ref:`collect-structures`
 * :ref:`collect-catch-calls`
-* :ref:`structures-identicalcase`
+* :ref:`identical-case-in-switch`
 * :ref:`standalonetype-true-false-null`
 * :ref:`constants-in-traits`
 * :ref:`short-or-complete-comparison`
@@ -2209,7 +2211,7 @@ Total : 479 analysis
 * :ref:`converted-exceptions`
 * :ref:`method-is-not-an-if`
 * :ref:`default-then-discard`
-* :ref:`structures-identicalcase`
+* :ref:`identical-case-in-switch`
 * :ref:`standalonetype-true-false-null`
 
 Specs
@@ -3664,7 +3666,7 @@ Total : 89 analysis
 * :ref:`sidelined-method`
 * :ref:`rewrote-final-class-constant`
 * :ref:`useless-constant-overwrite`
-* :ref:`incompatible-property`
+* :ref:`incompatible-property-between-class-and-trait`
 * :ref:`static-call-with-self`
 
 Specs
@@ -4609,6 +4611,31 @@ _____
 
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Short name   | CompatibilityPHP82                                                                                                                                                                      |
++--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Community Edition <https://www.exakat.io/community-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
++--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Reports      | :ref:`report-diplomat`, :ref:`report-ambassador`                                                                                                                                        |
++--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
+.. _ruleset-compatibilityphp83:
+
+CompatibilityPHP83
+++++++++++++++++++
+
+This ruleset centralizes all analysis for the migration from PHP 8.2 to 8.3.
+
+Total : 3 analysis
+
+* :ref:`new-functions-in-php-8.3`
+* :ref:`php-8.3-new-classes`
+* :ref:`constants-in-traits`
+
+Specs
+_____
+
++--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Short name   | CompatibilityPHP83                                                                                                                                                                      |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Community Edition <https://www.exakat.io/community-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

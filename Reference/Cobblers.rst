@@ -255,31 +255,62 @@ _____
 
 .. _classes-changeclass:
 
-.. _classes-changeclass:
+.. _change-class:
 
-Classes/ChangeClass
-+++++++++++++++++++
+Change Class
+++++++++++++
+This cobbler replaces a class by another one, and leave the original class intact.
+
+This cobbler is useful for inserting new classes instead of native PHP or library related ones: the usage shall be changed, but not the definition. 
+
+It might also be useful to update code, but keep older classes available for backward compatibility or fallback strategies.
 
 
-.. _classes-changeclass-before:
+.. _change-class-before:
 
 Before
 ______
 .. code-block:: php
 
+   <?php
    
+   class oldClass {}
+   
+   $a = new oldClass;
+   
+   ?>
 
-.. _classes-changeclass-after:
+.. _change-class-after:
 
 After
 _____
 .. code-block:: php
 
+   <?php
    
+   class oldClass {}
+   
+   $a = new newClass;
+   
+   ?>
+
+.. _change-class-related-cobbler:
+
+Related Cobblers
+________________
+
+* :ref:`rename-class`
+
+.. _change-class-reverse-cobbler:
+
+Reverse Cobbler
+_______________
+
+* :ref:`change-class`
 
 
 
-.. _classes-changeclass-specs:
+.. _change-class-specs:
 
 Specs
 _____
