@@ -93,6 +93,11 @@ Here is the release note of exakat.
     + New analysis : report identical cases in match and switch
     + New analysis : report usage of constants in traits
     + New analysis : preference between short and formal comparison
+    + New analysis : report yield that can be turned into a yield from
+    + New analysis : report usage of enum cases in static constant expressions
+    + New analysis : report modification of readonly properties in __clone() 
+    + New analysis : report usage of internal classes with class_alias()
+    + New analysis : report usage PHP 8.3 new dynamic 
 
 + Tokenizer
     + Added support for typed constants

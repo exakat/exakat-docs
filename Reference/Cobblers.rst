@@ -294,6 +294,22 @@ _____
    
    ?>
 
+
+.. _change-class-destinationname:
+
+Parameters
+__________
+
++-----------------+---------+------+-------------------------------------------------------------------+
+| Name            | Default | Type | Description                                                       |
++-----------------+---------+------+-------------------------------------------------------------------+
+| origin          |         | name | The full namespace path name of the class to target.              |
++-----------------+---------+------+-------------------------------------------------------------------+
+| newClass        |         | name | The full namespace path name of the class to use.                 |
++-----------------+---------+------+-------------------------------------------------------------------+
+| destinationName |         | name | The name of the class to use. This may be used as an import alias |
++-----------------+---------+------+-------------------------------------------------------------------+
+
 .. _change-class-related-cobbler:
 
 Related Cobblers
@@ -1158,7 +1174,7 @@ Remove Readonly Option
 ++++++++++++++++++++++
 Readonly is a property and class option. This cobbler removes it from both. 
 
-The readonly keyword is removed from property definitions, and from promoted properties.
+The readonly keyword is removed from property and class definitions, and from promoted properties.
 
 
 .. _remove-readonly-option-before:
