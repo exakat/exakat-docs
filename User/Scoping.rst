@@ -836,6 +836,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Interfaces/CantOverloadConstants";
    analyzer[] = "Interfaces/CouldUseInterface";
    analyzer[] = "Interfaces/EmptyInterface";
+   analyzer[] = "Interfaces/InheritedClassConstantVisibility";
    analyzer[] = "Interfaces/InterfaceMethod";
    analyzer[] = "Interfaces/InterfaceUsage";
    analyzer[] = "Interfaces/Interfacenames";
@@ -1138,6 +1139,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Php/ShouldUseFunction";
    analyzer[] = "Php/SignatureTrailingComma";
    analyzer[] = "Php/SpreadOperatorForArray";
+   analyzer[] = "Php/StaticVariableDefaultCanBeAnyExpression";
    analyzer[] = "Php/StaticclassUsage";
    analyzer[] = "Php/StringIntComparison";
    analyzer[] = "Php/StrposWithIntegers";
@@ -2439,6 +2441,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Interfaces/CantOverloadConstants'
      - 'Interfaces/CouldUseInterface'
      - 'Interfaces/EmptyInterface'
+     - 'Interfaces/InheritedClassConstantVisibility'
      - 'Interfaces/InterfaceMethod'
      - 'Interfaces/InterfaceUsage'
      - 'Interfaces/Interfacenames'
@@ -2741,6 +2744,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Php/ShouldUseFunction'
      - 'Php/SignatureTrailingComma'
      - 'Php/SpreadOperatorForArray'
+     - 'Php/StaticVariableDefaultCanBeAnyExpression'
      - 'Php/StaticclassUsage'
      - 'Php/StringIntComparison'
      - 'Php/StrposWithIntegers'
@@ -7386,6 +7390,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Php/Php73NewFunctions";
    analyzer[] = "Php/Php7RelaxedKeyword";
    analyzer[] = "Php/ReadonlyPropertyChangedByCloning";
+   analyzer[] = "Php/StaticVariableDefaultCanBeAnyExpression";
    analyzer[] = "Php/StaticclassUsage";
    analyzer[] = "Php/TrailingComma";
    analyzer[] = "Php/TypedPropertyUsage";
@@ -7491,6 +7496,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Php/Php73NewFunctions'
      - 'Php/Php7RelaxedKeyword'
      - 'Php/ReadonlyPropertyChangedByCloning'
+     - 'Php/StaticVariableDefaultCanBeAnyExpression'
      - 'Php/StaticclassUsage'
      - 'Php/TrailingComma'
      - 'Php/TypedPropertyUsage'
@@ -7600,6 +7606,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Php/Php73NewFunctions";
    analyzer[] = "Php/Php7RelaxedKeyword";
    analyzer[] = "Php/ReadonlyPropertyChangedByCloning";
+   analyzer[] = "Php/StaticVariableDefaultCanBeAnyExpression";
    analyzer[] = "Php/StaticclassUsage";
    analyzer[] = "Php/TrailingComma";
    analyzer[] = "Php/TypedPropertyUsage";
@@ -7702,6 +7709,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Php/Php73NewFunctions'
      - 'Php/Php7RelaxedKeyword'
      - 'Php/ReadonlyPropertyChangedByCloning'
+     - 'Php/StaticVariableDefaultCanBeAnyExpression'
      - 'Php/StaticclassUsage'
      - 'Php/TrailingComma'
      - 'Php/TypedPropertyUsage'
@@ -7810,6 +7818,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Php/Php73NewFunctions";
    analyzer[] = "Php/Php7RelaxedKeyword";
    analyzer[] = "Php/ReadonlyPropertyChangedByCloning";
+   analyzer[] = "Php/StaticVariableDefaultCanBeAnyExpression";
    analyzer[] = "Php/TrailingComma";
    analyzer[] = "Php/TypedPropertyUsage";
    analyzer[] = "Php/UnicodeEscapePartial";
@@ -7905,6 +7914,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Php/Php73NewFunctions'
      - 'Php/Php7RelaxedKeyword'
      - 'Php/ReadonlyPropertyChangedByCloning'
+     - 'Php/StaticVariableDefaultCanBeAnyExpression'
      - 'Php/TrailingComma'
      - 'Php/TypedPropertyUsage'
      - 'Php/UnicodeEscapePartial'
@@ -7999,6 +8009,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Php/Php80OnlyTypeHints";
    analyzer[] = "Php/RawPostDataUsage";
    analyzer[] = "Php/ReadonlyPropertyChangedByCloning";
+   analyzer[] = "Php/StaticVariableDefaultCanBeAnyExpression";
    analyzer[] = "Php/TrailingComma";
    analyzer[] = "Php/TypedPropertyUsage";
    analyzer[] = "Php/UnicodeEscapePartial";
@@ -8084,6 +8095,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Php/Php80OnlyTypeHints'
      - 'Php/RawPostDataUsage'
      - 'Php/ReadonlyPropertyChangedByCloning'
+     - 'Php/StaticVariableDefaultCanBeAnyExpression'
      - 'Php/TrailingComma'
      - 'Php/TypedPropertyUsage'
      - 'Php/UnicodeEscapePartial'
@@ -8169,6 +8181,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Php/ReadonlyPropertyChangedByCloning";
    analyzer[] = "Php/ReservedKeywords7";
    analyzer[] = "Php/SetExceptionHandlerPHP7";
+   analyzer[] = "Php/StaticVariableDefaultCanBeAnyExpression";
    analyzer[] = "Php/TrailingComma";
    analyzer[] = "Php/TypedPropertyUsage";
    analyzer[] = "Php/UnpackingInsideArrays";
@@ -8245,6 +8258,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Php/ReadonlyPropertyChangedByCloning'
      - 'Php/ReservedKeywords7'
      - 'Php/SetExceptionHandlerPHP7'
+     - 'Php/StaticVariableDefaultCanBeAnyExpression'
      - 'Php/TrailingComma'
      - 'Php/TypedPropertyUsage'
      - 'Php/UnpackingInsideArrays'
@@ -8321,6 +8335,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Php/Php80UnionTypehint";
    analyzer[] = "Php/ReadonlyPropertyChangedByCloning";
    analyzer[] = "Php/SignatureTrailingComma";
+   analyzer[] = "Php/StaticVariableDefaultCanBeAnyExpression";
    analyzer[] = "Php/TrailingComma";
    analyzer[] = "Php/TypedPropertyUsage";
    analyzer[] = "Php/UnpackingInsideArrays";
@@ -8387,6 +8402,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Php/Php80UnionTypehint'
      - 'Php/ReadonlyPropertyChangedByCloning'
      - 'Php/SignatureTrailingComma'
+     - 'Php/StaticVariableDefaultCanBeAnyExpression'
      - 'Php/TrailingComma'
      - 'Php/TypedPropertyUsage'
      - 'Php/UnpackingInsideArrays'
@@ -8454,6 +8470,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Php/Php80UnionTypehint";
    analyzer[] = "Php/ReadonlyPropertyChangedByCloning";
    analyzer[] = "Php/SignatureTrailingComma";
+   analyzer[] = "Php/StaticVariableDefaultCanBeAnyExpression";
    analyzer[] = "Php/ThrowWasAnExpression";
    analyzer[] = "Php/TrailingComma";
    analyzer[] = "Php/TypedPropertyUsage";
@@ -8513,6 +8530,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Php/Php80UnionTypehint'
      - 'Php/ReadonlyPropertyChangedByCloning'
      - 'Php/SignatureTrailingComma'
+     - 'Php/StaticVariableDefaultCanBeAnyExpression'
      - 'Php/ThrowWasAnExpression'
      - 'Php/TrailingComma'
      - 'Php/TypedPropertyUsage'
@@ -8572,6 +8590,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Php/Php80UnionTypehint";
    analyzer[] = "Php/ReadonlyPropertyChangedByCloning";
    analyzer[] = "Php/SignatureTrailingComma";
+   analyzer[] = "Php/StaticVariableDefaultCanBeAnyExpression";
    analyzer[] = "Php/ThrowWasAnExpression";
    analyzer[] = "Php/TypedPropertyUsage";
    analyzer[] = "Php/UnknownPcre2Option";
@@ -8622,6 +8641,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Php/Php80UnionTypehint'
      - 'Php/ReadonlyPropertyChangedByCloning'
      - 'Php/SignatureTrailingComma'
+     - 'Php/StaticVariableDefaultCanBeAnyExpression'
      - 'Php/ThrowWasAnExpression'
      - 'Php/TypedPropertyUsage'
      - 'Php/UnknownPcre2Option'
@@ -8692,6 +8712,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Php/ReflectionExportIsDeprecated";
    analyzer[] = "Php/ScalarAreNotArrays";
    analyzer[] = "Php/SignatureTrailingComma";
+   analyzer[] = "Php/StaticVariableDefaultCanBeAnyExpression";
    analyzer[] = "Php/ThrowWasAnExpression";
    analyzer[] = "Php/UseEnumCaseInConstantExpression";
    analyzer[] = "Php/UseMatch";
@@ -8753,6 +8774,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Php/ReflectionExportIsDeprecated'
      - 'Php/ScalarAreNotArrays'
      - 'Php/SignatureTrailingComma'
+     - 'Php/StaticVariableDefaultCanBeAnyExpression'
      - 'Php/ThrowWasAnExpression'
      - 'Php/UseEnumCaseInConstantExpression'
      - 'Php/UseMatch'
@@ -8812,6 +8834,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Php/PhpErrorMsgUsage";
    analyzer[] = "Php/ReadonlyPropertyChangedByCloning";
    analyzer[] = "Php/ReservedMatchKeyword";
+   analyzer[] = "Php/StaticVariableDefaultCanBeAnyExpression";
    analyzer[] = "Php/StringIntComparison";
    analyzer[] = "Php/UseEnumCaseInConstantExpression";
    analyzer[] = "Structures/ArrayMapPassesByValue";
@@ -8863,6 +8886,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Php/PhpErrorMsgUsage'
      - 'Php/ReadonlyPropertyChangedByCloning'
      - 'Php/ReservedMatchKeyword'
+     - 'Php/StaticVariableDefaultCanBeAnyExpression'
      - 'Php/StringIntComparison'
      - 'Php/UseEnumCaseInConstantExpression'
      - 'Structures/ArrayMapPassesByValue'
@@ -8911,6 +8935,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Php/Php81RemovedFunctions";
    analyzer[] = "Php/ReadonlyPropertyChangedByCloning";
    analyzer[] = "Php/RestrictGlobalUsage";
+   analyzer[] = "Php/StaticVariableDefaultCanBeAnyExpression";
    analyzer[] = "Php/UseEnumCaseInConstantExpression";
    analyzer[] = "Php/VersionCompareOperator";
    analyzer[] = "Traits/CannotCallTraitMethod";
@@ -8950,6 +8975,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Php/Php81RemovedFunctions'
      - 'Php/ReadonlyPropertyChangedByCloning'
      - 'Php/RestrictGlobalUsage'
+     - 'Php/StaticVariableDefaultCanBeAnyExpression'
      - 'Php/UseEnumCaseInConstantExpression'
      - 'Php/VersionCompareOperator'
      - 'Traits/CannotCallTraitMethod'
@@ -8981,11 +9007,13 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Classes/NewDynamicConstantSyntax";
    analyzer[] = "Classes/UndefinedProperty";
    analyzer[] = "Functions/DeprecatedCallable";
+   analyzer[] = "Interfaces/InheritedClassConstantVisibility";
    analyzer[] = "Php/ClassAliasSupportsInternalClasses";
    analyzer[] = "Php/DeprecateDollarCurly";
    analyzer[] = "Php/FalseToArray";
    analyzer[] = "Php/Php82NewFunctions";
    analyzer[] = "Php/ReadonlyPropertyChangedByCloning";
+   analyzer[] = "Php/StaticVariableDefaultCanBeAnyExpression";
    analyzer[] = "Php/Utf8EncodeDeprecated";
    analyzer[] = "Php/VersionCompareOperator";
    analyzer[] = "Structures/DeprecatedMbEncoding";
@@ -9011,11 +9039,13 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Classes/NewDynamicConstantSyntax'
      - 'Classes/UndefinedProperty'
      - 'Functions/DeprecatedCallable'
+     - 'Interfaces/InheritedClassConstantVisibility'
      - 'Php/ClassAliasSupportsInternalClasses'
      - 'Php/DeprecateDollarCurly'
      - 'Php/FalseToArray'
      - 'Php/Php82NewFunctions'
      - 'Php/ReadonlyPropertyChangedByCloning'
+     - 'Php/StaticVariableDefaultCanBeAnyExpression'
      - 'Php/Utf8EncodeDeprecated'
      - 'Php/VersionCompareOperator'
      - 'Structures/DeprecatedMbEncoding'
@@ -9042,6 +9072,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
 ::
 
  [CompatibilityPHP83]
+   analyzer[] = "Interfaces/InheritedClassConstantVisibility";
    analyzer[] = "Php/Php83NewClasses";
    analyzer[] = "Php/Php83NewFunctions";
    analyzer[] = "Traits/ConstantsInTraits";
@@ -9058,6 +9089,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
 
   rulesets:
     'CompatibilityPHP83':
+     - 'Interfaces/InheritedClassConstantVisibility'
      - 'Php/Php83NewClasses'
      - 'Php/Php83NewFunctions'
      - 'Traits/ConstantsInTraits'

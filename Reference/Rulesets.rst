@@ -6,7 +6,7 @@ Rulesets
 Introduction
 ------------------------
 
-Exakat provides unique 1590 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
+Exakat provides unique 1592 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
 
 For more smoothly usage, the ruleset concept allow you to run a set of rules based on a decidated focus. Beawre that a Ruleset run all the associated rules and any needed dependencies.
 
@@ -130,7 +130,7 @@ All
 
 All is a dummy ruleset, which includes all the rules. It is mostly used internally.
 
-Total : 1588 analysis
+Total : 1590 analysis
 
 * :ref:`adding-zero`
 * :ref:`ambiguous-array-index`
@@ -1716,10 +1716,12 @@ Total : 1588 analysis
 * :ref:`short-or-complete-comparison`
 * :ref:`could-use-yield-from`
 * :ref:`use-enum-case-in-constant-expression`
-* :ref:`php-readonlypropertychangedbycloning`
+* :ref:`readonly-property-changed-by-cloning`
 * :ref:`new-dynamic-class-constant-syntax`
 * :ref:`class\_alias()-supports-internal-classes`
 * :ref:`redeclared-static-variable`
+* :ref:`static-variable-can-default-to-arbitrary-expression`
+* :ref:`inherited-class-constant-visibility`
 
 Specs
 _____
@@ -3766,7 +3768,7 @@ CompatibilityPHP53
 
 This ruleset centralizes all analysis for the migration from PHP 5.2 to 5.3.
 
-Total : 92 analysis
+Total : 93 analysis
 
 * :ref:`non-static-methods-called-in-a-static`
 * :ref:`ext-dba`
@@ -3856,10 +3858,11 @@ Total : 92 analysis
 * :ref:`no-private-abstract-method-in-trait`
 * :ref:`clone-constant`
 * :ref:`use-enum-case-in-constant-expression`
-* :ref:`php-readonlypropertychangedbycloning`
+* :ref:`readonly-property-changed-by-cloning`
 * :ref:`new-dynamic-class-constant-syntax`
 * :ref:`class\_alias()-supports-internal-classes`
 * :ref:`redeclared-static-variable`
+* :ref:`static-variable-can-default-to-arbitrary-expression`
 
 Specs
 _____
@@ -3880,7 +3883,7 @@ CompatibilityPHP54
 
 This ruleset centralizes all analysis for the migration from PHP 5.3 to 5.4.
 
-Total : 89 analysis
+Total : 90 analysis
 
 * :ref:`non-static-methods-called-in-a-static`
 * :ref:`use-lower-case-for-parent,-static-and-self`
@@ -3967,10 +3970,11 @@ Total : 89 analysis
 * :ref:`no-private-abstract-method-in-trait`
 * :ref:`clone-constant`
 * :ref:`use-enum-case-in-constant-expression`
-* :ref:`php-readonlypropertychangedbycloning`
+* :ref:`readonly-property-changed-by-cloning`
 * :ref:`new-dynamic-class-constant-syntax`
 * :ref:`class\_alias()-supports-internal-classes`
 * :ref:`redeclared-static-variable`
+* :ref:`static-variable-can-default-to-arbitrary-expression`
 
 Specs
 _____
@@ -3991,7 +3995,7 @@ CompatibilityPHP55
 
 This ruleset centralizes all analysis for the migration from PHP 5.4 to 5.5.
 
-Total : 82 analysis
+Total : 83 analysis
 
 * :ref:`non-static-methods-called-in-a-static`
 * :ref:`ext-apc`
@@ -4071,10 +4075,11 @@ Total : 82 analysis
 * :ref:`no-private-abstract-method-in-trait`
 * :ref:`clone-constant`
 * :ref:`use-enum-case-in-constant-expression`
-* :ref:`php-readonlypropertychangedbycloning`
+* :ref:`readonly-property-changed-by-cloning`
 * :ref:`new-dynamic-class-constant-syntax`
 * :ref:`class\_alias()-supports-internal-classes`
 * :ref:`redeclared-static-variable`
+* :ref:`static-variable-can-default-to-arbitrary-expression`
 
 Specs
 _____
@@ -4095,7 +4100,7 @@ CompatibilityPHP56
 
 This ruleset centralizes all analysis for the migration from PHP 5.5 to 5.6.
 
-Total : 72 analysis
+Total : 73 analysis
 
 * :ref:`non-static-methods-called-in-a-static`
 * :ref:`malformed-octal`
@@ -4165,10 +4170,11 @@ Total : 72 analysis
 * :ref:`no-private-abstract-method-in-trait`
 * :ref:`clone-constant`
 * :ref:`use-enum-case-in-constant-expression`
-* :ref:`php-readonlypropertychangedbycloning`
+* :ref:`readonly-property-changed-by-cloning`
 * :ref:`new-dynamic-class-constant-syntax`
 * :ref:`class\_alias()-supports-internal-classes`
 * :ref:`redeclared-static-variable`
+* :ref:`static-variable-can-default-to-arbitrary-expression`
 
 Specs
 _____
@@ -4189,7 +4195,7 @@ CompatibilityPHP70
 
 This ruleset centralizes all analysis for the migration from PHP 5.6 to 7.0.
 
-Total : 63 analysis
+Total : 64 analysis
 
 * :ref:`mcrypt\_create\_iv()-with-default-values`
 * :ref:`magic-visibility`
@@ -4250,10 +4256,11 @@ Total : 63 analysis
 * :ref:`no-private-abstract-method-in-trait`
 * :ref:`clone-constant`
 * :ref:`use-enum-case-in-constant-expression`
-* :ref:`php-readonlypropertychangedbycloning`
+* :ref:`readonly-property-changed-by-cloning`
 * :ref:`new-dynamic-class-constant-syntax`
 * :ref:`class\_alias()-supports-internal-classes`
 * :ref:`redeclared-static-variable`
+* :ref:`static-variable-can-default-to-arbitrary-expression`
 
 Specs
 _____
@@ -4274,7 +4281,7 @@ CompatibilityPHP71
 
 This ruleset centralizes all analysis for the migration from PHP 7.0 to 7.1.
 
-Total : 53 analysis
+Total : 54 analysis
 
 * :ref:`ext-mcrypt`
 * :ref:`hash-algorithms-incompatible-with-php-5.3`
@@ -4325,10 +4332,11 @@ Total : 53 analysis
 * :ref:`clone-constant`
 * :ref:`no-keyword-in-namespace`
 * :ref:`use-enum-case-in-constant-expression`
-* :ref:`php-readonlypropertychangedbycloning`
+* :ref:`readonly-property-changed-by-cloning`
 * :ref:`new-dynamic-class-constant-syntax`
 * :ref:`class\_alias()-supports-internal-classes`
 * :ref:`redeclared-static-variable`
+* :ref:`static-variable-can-default-to-arbitrary-expression`
 
 Specs
 _____
@@ -4349,7 +4357,7 @@ CompatibilityPHP72
 
 This ruleset centralizes all analysis for the migration from PHP 7.1 to 7.2.
 
-Total : 46 analysis
+Total : 47 analysis
 
 * :ref:`undefined-constants`
 * :ref:`hash-algorithms-incompatible-with-php-5.3`
@@ -4393,10 +4401,11 @@ Total : 46 analysis
 * :ref:`clone-constant`
 * :ref:`no-keyword-in-namespace`
 * :ref:`use-enum-case-in-constant-expression`
-* :ref:`php-readonlypropertychangedbycloning`
+* :ref:`readonly-property-changed-by-cloning`
 * :ref:`new-dynamic-class-constant-syntax`
 * :ref:`class\_alias()-supports-internal-classes`
 * :ref:`redeclared-static-variable`
+* :ref:`static-variable-can-default-to-arbitrary-expression`
 
 Specs
 _____
@@ -4417,7 +4426,7 @@ CompatibilityPHP73
 
 This ruleset centralizes all analysis for the migration from PHP 7.2 to 7.3.
 
-Total : 37 analysis
+Total : 38 analysis
 
 * :ref:`new-functions-in-php-7.3`
 * :ref:`unknown-pcre2-option`
@@ -4452,10 +4461,11 @@ Total : 37 analysis
 * :ref:`clone-constant`
 * :ref:`no-keyword-in-namespace`
 * :ref:`use-enum-case-in-constant-expression`
-* :ref:`php-readonlypropertychangedbycloning`
+* :ref:`readonly-property-changed-by-cloning`
 * :ref:`new-dynamic-class-constant-syntax`
 * :ref:`class\_alias()-supports-internal-classes`
 * :ref:`redeclared-static-variable`
+* :ref:`static-variable-can-default-to-arbitrary-expression`
 
 Specs
 _____
@@ -4476,7 +4486,7 @@ CompatibilityPHP74
 
 This ruleset centralizes all analysis for the migration from PHP 7.3 to 7.4.
 
-Total : 48 analysis
+Total : 49 analysis
 
 * :ref:`detect-current-class`
 * :ref:`don't-read-and-write-in-one-expression`
@@ -4522,10 +4532,11 @@ Total : 48 analysis
 * :ref:`clone-constant`
 * :ref:`no-keyword-in-namespace`
 * :ref:`use-enum-case-in-constant-expression`
-* :ref:`php-readonlypropertychangedbycloning`
+* :ref:`readonly-property-changed-by-cloning`
 * :ref:`new-dynamic-class-constant-syntax`
 * :ref:`class\_alias()-supports-internal-classes`
 * :ref:`redeclared-static-variable`
+* :ref:`static-variable-can-default-to-arbitrary-expression`
 
 Specs
 _____
@@ -4546,7 +4557,7 @@ CompatibilityPHP80
 
 This ruleset centralizes all analysis for the migration from PHP 7.4 to 8.0.
 
-Total : 38 analysis
+Total : 39 analysis
 
 * :ref:`old-style-constructor`
 * :ref:`wrong-optional-parameter`
@@ -4582,10 +4593,11 @@ Total : 38 analysis
 * :ref:`multiple-type-cases-in-switch`
 * :ref:`no-max-on-empty-array`
 * :ref:`use-enum-case-in-constant-expression`
-* :ref:`php-readonlypropertychangedbycloning`
+* :ref:`readonly-property-changed-by-cloning`
 * :ref:`new-dynamic-class-constant-syntax`
 * :ref:`class\_alias()-supports-internal-classes`
 * :ref:`redeclared-static-variable`
+* :ref:`static-variable-can-default-to-arbitrary-expression`
 
 Specs
 _____
@@ -4606,7 +4618,7 @@ CompatibilityPHP81
 
 This ruleset centralizes all analysis for the migration from PHP 8.0 to 8.1.
 
-Total : 26 analysis
+Total : 27 analysis
 
 * :ref:`php-7.4-removed-directives`
 * :ref:`php-8.0-removed-directives`
@@ -4630,10 +4642,11 @@ Total : 26 analysis
 * :ref:`version\_compare-operator`
 * :ref:`named-argument-and-variadic`
 * :ref:`use-enum-case-in-constant-expression`
-* :ref:`php-readonlypropertychangedbycloning`
+* :ref:`readonly-property-changed-by-cloning`
 * :ref:`new-dynamic-class-constant-syntax`
 * :ref:`class\_alias()-supports-internal-classes`
 * :ref:`redeclared-static-variable`
+* :ref:`static-variable-can-default-to-arbitrary-expression`
 
 Specs
 _____
@@ -4654,7 +4667,7 @@ CompatibilityPHP82
 
 This ruleset centralizes all analysis for the migration from PHP 8.1 to 8.2.
 
-Total : 17 analysis
+Total : 19 analysis
 
 * :ref:`undefined-properties`
 * :ref:`false-to-array-conversion`
@@ -4669,10 +4682,12 @@ Total : 17 analysis
 * :ref:`new-functions-in-php-8.2`
 * :ref:`deprecated-mb\_string-encodings`
 * :ref:`constants-in-traits`
-* :ref:`php-readonlypropertychangedbycloning`
+* :ref:`readonly-property-changed-by-cloning`
 * :ref:`new-dynamic-class-constant-syntax`
 * :ref:`class\_alias()-supports-internal-classes`
 * :ref:`redeclared-static-variable`
+* :ref:`static-variable-can-default-to-arbitrary-expression`
+* :ref:`inherited-class-constant-visibility`
 
 Specs
 _____
@@ -4693,11 +4708,12 @@ CompatibilityPHP83
 
 This ruleset centralizes all analysis for the migration from PHP 8.2 to 8.3.
 
-Total : 3 analysis
+Total : 4 analysis
 
 * :ref:`new-functions-in-php-8.3`
 * :ref:`php-8.3-new-classes`
 * :ref:`constants-in-traits`
+* :ref:`inherited-class-constant-visibility`
 
 Specs
 _____

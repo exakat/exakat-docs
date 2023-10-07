@@ -98,6 +98,8 @@ Here is the release note of exakat.
     + New analysis : report modification of readonly properties in __clone() 
     + New analysis : report usage of internal classes with class_alias()
     + New analysis : report usage PHP 8.3 new dynamic 
+    + New analysis : static variables may be initialized with arbitrary expression in PHP 8.3
+    + New analysis : report when an interface's class constant visibility is not public when in the class 
 
 + Tokenizer
     + Added support for typed constants
