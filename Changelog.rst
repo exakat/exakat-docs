@@ -100,6 +100,9 @@ Here is the release note of exakat.
     + New analysis : report usage PHP 8.3 new dynamic 
     + New analysis : static variables may be initialized with arbitrary expression in PHP 8.3
     + New analysis : report when an interface's class constant visibility is not public when in the class 
+    + Updated analysis : upgraded pre-calculate used variable in closure
+    + Updated analysis : Insufficient typehint (extended coverage)
+    + New analysis : Report final trait method that are overwritten
 
 + Tokenizer
     + Added support for typed constants

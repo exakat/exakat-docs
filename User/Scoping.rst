@@ -1579,6 +1579,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Traits/CouldUseTrait";
    analyzer[] = "Traits/DependantTrait";
    analyzer[] = "Traits/EmptyTrait";
+   analyzer[] = "Traits/FinalTraitsAreFinal";
    analyzer[] = "Traits/IncompatibleProperty";
    analyzer[] = "Traits/IsExtTrait";
    analyzer[] = "Traits/LocallyUsedProperty";
@@ -3184,6 +3185,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Traits/CouldUseTrait'
      - 'Traits/DependantTrait'
      - 'Traits/EmptyTrait'
+     - 'Traits/FinalTraitsAreFinal'
      - 'Traits/IncompatibleProperty'
      - 'Traits/IsExtTrait'
      - 'Traits/LocallyUsedProperty'
@@ -7411,6 +7413,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/PHP7Dirname";
    analyzer[] = "Structures/SwitchWithMultipleDefault";
    analyzer[] = "Structures/VariableGlobal";
+   analyzer[] = "Traits/FinalTraitsAreFinal";
    analyzer[] = "Traits/NoPrivateAbstract";
    analyzer[] = "Type/Binary";
    analyzer[] = "Type/MalformedOctal";
@@ -7517,6 +7520,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/PHP7Dirname'
      - 'Structures/SwitchWithMultipleDefault'
      - 'Structures/VariableGlobal'
+     - 'Traits/FinalTraitsAreFinal'
      - 'Traits/NoPrivateAbstract'
      - 'Type/Binary'
      - 'Type/MalformedOctal'
@@ -7628,6 +7632,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/PHP7Dirname";
    analyzer[] = "Structures/SwitchWithMultipleDefault";
    analyzer[] = "Structures/VariableGlobal";
+   analyzer[] = "Traits/FinalTraitsAreFinal";
    analyzer[] = "Traits/NoPrivateAbstract";
    analyzer[] = "Type/MalformedOctal";
    analyzer[] = "Variables/Php5IndirectExpression";
@@ -7731,6 +7736,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/PHP7Dirname'
      - 'Structures/SwitchWithMultipleDefault'
      - 'Structures/VariableGlobal'
+     - 'Traits/FinalTraitsAreFinal'
      - 'Traits/NoPrivateAbstract'
      - 'Type/MalformedOctal'
      - 'Variables/Php5IndirectExpression'
@@ -7834,6 +7840,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/PHP7Dirname";
    analyzer[] = "Structures/SwitchWithMultipleDefault";
    analyzer[] = "Structures/VariableGlobal";
+   analyzer[] = "Traits/FinalTraitsAreFinal";
    analyzer[] = "Traits/NoPrivateAbstract";
    analyzer[] = "Type/MalformedOctal";
    analyzer[] = "Variables/Php5IndirectExpression";
@@ -7930,6 +7937,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/PHP7Dirname'
      - 'Structures/SwitchWithMultipleDefault'
      - 'Structures/VariableGlobal'
+     - 'Traits/FinalTraitsAreFinal'
      - 'Traits/NoPrivateAbstract'
      - 'Type/MalformedOctal'
      - 'Variables/Php5IndirectExpression'
@@ -8023,6 +8031,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/PHP7Dirname";
    analyzer[] = "Structures/SwitchWithMultipleDefault";
    analyzer[] = "Structures/VariableGlobal";
+   analyzer[] = "Traits/FinalTraitsAreFinal";
    analyzer[] = "Traits/NoPrivateAbstract";
    analyzer[] = "Type/MalformedOctal";
    analyzer[] = "Variables/Php5IndirectExpression";
@@ -8109,6 +8118,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/PHP7Dirname'
      - 'Structures/SwitchWithMultipleDefault'
      - 'Structures/VariableGlobal'
+     - 'Traits/FinalTraitsAreFinal'
      - 'Traits/NoPrivateAbstract'
      - 'Type/MalformedOctal'
      - 'Variables/Php5IndirectExpression'
@@ -8194,6 +8204,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/NoGetClassNull";
    analyzer[] = "Structures/SetlocaleNeedsConstants";
    analyzer[] = "Structures/pregOptionE";
+   analyzer[] = "Traits/FinalTraitsAreFinal";
    analyzer[] = "Traits/NoPrivateAbstract";
    analyzer[] = "Type/HexadecimalString";
    analyzer[] = "Variables/Php7IndirectExpression";
@@ -8271,6 +8282,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/NoGetClassNull'
      - 'Structures/SetlocaleNeedsConstants'
      - 'Structures/pregOptionE'
+     - 'Traits/FinalTraitsAreFinal'
      - 'Traits/NoPrivateAbstract'
      - 'Type/HexadecimalString'
      - 'Variables/Php7IndirectExpression'
@@ -8345,6 +8357,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/NoGetClassNull";
    analyzer[] = "Structures/NoSubstrOne";
    analyzer[] = "Structures/pregOptionE";
+   analyzer[] = "Traits/FinalTraitsAreFinal";
    analyzer[] = "Traits/NoPrivateAbstract";
    analyzer[] = "Type/HexadecimalString";
    analyzer[] = "Type/OctalInString";
@@ -8412,6 +8425,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/NoGetClassNull'
      - 'Structures/NoSubstrOne'
      - 'Structures/pregOptionE'
+     - 'Traits/FinalTraitsAreFinal'
      - 'Traits/NoPrivateAbstract'
      - 'Type/HexadecimalString'
      - 'Type/OctalInString'
@@ -8481,6 +8495,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/ContinueIsForLoop";
    analyzer[] = "Structures/NoGetClassNull";
    analyzer[] = "Structures/pregOptionE";
+   analyzer[] = "Traits/FinalTraitsAreFinal";
    analyzer[] = "Traits/NoPrivateAbstract";
    analyzer[] = "Variables/RedeclaredStaticVariable";
 
@@ -8541,6 +8556,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/ContinueIsForLoop'
      - 'Structures/NoGetClassNull'
      - 'Structures/pregOptionE'
+     - 'Traits/FinalTraitsAreFinal'
      - 'Traits/NoPrivateAbstract'
      - 'Variables/RedeclaredStaticVariable'
 
@@ -8599,6 +8615,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/ArrayMergeWithEllipsis";
    analyzer[] = "Structures/ContinueIsForLoop";
    analyzer[] = "Structures/DontReadAndWriteInOneExpression";
+   analyzer[] = "Traits/FinalTraitsAreFinal";
    analyzer[] = "Traits/NoPrivateAbstract";
    analyzer[] = "Variables/RedeclaredStaticVariable";
 
@@ -8650,6 +8667,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/ArrayMergeWithEllipsis'
      - 'Structures/ContinueIsForLoop'
      - 'Structures/DontReadAndWriteInOneExpression'
+     - 'Traits/FinalTraitsAreFinal'
      - 'Traits/NoPrivateAbstract'
      - 'Variables/RedeclaredStaticVariable'
 
@@ -8719,6 +8737,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/CurlVersionNow";
    analyzer[] = "Structures/DontReadAndWriteInOneExpression";
    analyzer[] = "Structures/OpensslRandomPseudoByteSecondArg";
+   analyzer[] = "Traits/FinalTraitsAreFinal";
    analyzer[] = "Traits/NoPrivateAbstract";
    analyzer[] = "Variables/RedeclaredStaticVariable";
 
@@ -8781,6 +8800,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/CurlVersionNow'
      - 'Structures/DontReadAndWriteInOneExpression'
      - 'Structures/OpensslRandomPseudoByteSecondArg'
+     - 'Traits/FinalTraitsAreFinal'
      - 'Traits/NoPrivateAbstract'
      - 'Variables/RedeclaredStaticVariable'
 
@@ -8841,6 +8861,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/MultipleTypeCasesInSwitch";
    analyzer[] = "Structures/NoMaxOnEmptyArray";
    analyzer[] = "Structures/UnsupportedTypesWithOperators";
+   analyzer[] = "Traits/FinalTraitsAreFinal";
    analyzer[] = "Variables/RedeclaredStaticVariable";
 
 
@@ -8893,6 +8914,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/MultipleTypeCasesInSwitch'
      - 'Structures/NoMaxOnEmptyArray'
      - 'Structures/UnsupportedTypesWithOperators'
+     - 'Traits/FinalTraitsAreFinal'
      - 'Variables/RedeclaredStaticVariable'
 
 
@@ -8939,6 +8961,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Php/UseEnumCaseInConstantExpression";
    analyzer[] = "Php/VersionCompareOperator";
    analyzer[] = "Traits/CannotCallTraitMethod";
+   analyzer[] = "Traits/FinalTraitsAreFinal";
    analyzer[] = "Variables/InheritedStaticVariable";
    analyzer[] = "Variables/RedeclaredStaticVariable";
 
@@ -8979,6 +9002,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Php/UseEnumCaseInConstantExpression'
      - 'Php/VersionCompareOperator'
      - 'Traits/CannotCallTraitMethod'
+     - 'Traits/FinalTraitsAreFinal'
      - 'Variables/InheritedStaticVariable'
      - 'Variables/RedeclaredStaticVariable'
 
@@ -9019,6 +9043,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/DeprecatedMbEncoding";
    analyzer[] = "Traits/CannotCallTraitMethod";
    analyzer[] = "Traits/ConstantsInTraits";
+   analyzer[] = "Traits/FinalTraitsAreFinal";
    analyzer[] = "Variables/RedeclaredStaticVariable";
 
 
@@ -9051,6 +9076,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/DeprecatedMbEncoding'
      - 'Traits/CannotCallTraitMethod'
      - 'Traits/ConstantsInTraits'
+     - 'Traits/FinalTraitsAreFinal'
      - 'Variables/RedeclaredStaticVariable'
 
 
