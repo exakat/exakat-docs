@@ -6,7 +6,7 @@ Release Note
 
 Here is the release note of exakat. 
 
-**Version 2.5.5 (, 2023-02-04)**
+**Version 2.6.1 (, 2023-10-19)**
 
 
 + Architecture
@@ -19,12 +19,14 @@ Here is the release note of exakat.
     + 
 
 + Analysis
-    + 
+    + Updated analysis : Use same types for comparisons was refactored
+    + Updated analysis : Add Zero skips ?? and ?: when it is used to create default values
+    + Updated analysis : Implode() args order was refactored with type support
 
 + Tokenizer
     + 
 
-**Version 2.5.4 (, 2023-02-04)**
+**Version 2.6.0 (, 2023-10-04)**
 
 
 + Architecture
