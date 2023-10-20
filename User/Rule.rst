@@ -7,7 +7,7 @@ Rule
 Rules
 ----------------------------------
 
-Exakat provides unique 1593 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
+Exakat provides unique 1596 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
 
 Each rule is documented with :
 * a PHP version  : The version of PHP to wich the rule apply

@@ -601,6 +601,10 @@ Analyzers may be configured in the `project/*/config.ini`; they may also be conf
   + constant_or_variable_name : 100
 
     + Literal value to be used when including files. For example, by configuring 'Files_MissingInclude["HOME_DIR"] = "/tmp/myDir/";', then 'include HOME_DIR . "my_class.php"; will be actually be used as '/tmp/myDir/my_class.php'. Constants must be configured with their correct case. Variable must be configured with their initial '$'. Configure any number of variable and constant names.
+:ref:`Multiline Expressions <multiline-expressions>`
+  + min : 2
+
+    + Minimal number of lines in an expression to report.
 :ref:`Multiple Index Definition <multiple-index-definition>`
   + arrayMaxSize : 15000
 

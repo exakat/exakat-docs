@@ -6,7 +6,7 @@ Release Note
 
 Here is the release note of exakat. 
 
-**Version 2.6.1 (, 2023-10-19)**
+**Version 2.6.2 (, 2023-11-04)**
 
 
 + Architecture
@@ -19,12 +19,32 @@ Here is the release note of exakat.
     + 
 
 + Analysis
-    + Updated analysis : Use same types for comparisons was refactored
-    + Updated analysis : Add Zero skips ?? and ?: when it is used to create default values
-    + Updated analysis : Implode() args order was refactored with type support
+    + 
 
 + Tokenizer
     + 
+
+**Version 2.6.1 (, 2023-10-19)**
+
+
++ Cobbler
+    + New Cobbler : Logical to In_array() conversion
+
++ Analysis
+    + Updated analysis : Use same types for comparisons was refactored
+    + Updated analysis : Add Zero skips ?? and ?: when it is used to create default values
+    + Updated analysis : Implode() args order was refactored with type support
+    + New analysis : report multiline expressions
+    + New analysis : report usage of typed constants
+    + Updated analysis : sprintf() argument counts is improved
+    + Updated analysis : double instruction skips try, while, do while.
+    + Updated analysis : useless instruction refactored clone expressions
+    + Updated analysis : array Append in a list() call
+    + Updated analysis : written only variables now take into account isset() too
+    + Updated analysis : recursive functions don't report recursion via property or method call()
+    + Updated analysis : Shell favorite
+    + New analysis : Casting Method Favorite
+    + Updated analysis : Ellipsis detection improved
 
 **Version 2.6.0 (, 2023-10-04)**
 

@@ -55,7 +55,6 @@ List of external links mentioned in this documentation.
 
 * `$HTTP_RAW_POST_DATA variable <https://www.php.net/manual/en/reserved.variables.httprawpostdata.php>`_
 * `7z <https://www.7-zip.org/7z.html>`_
-* `@deprecated <https://docs.phpdoc.org/latest/references/phpdoc/tags/deprecated.html>`_
 * `[HttpFoundation] Make sessions secure and lazy #24523 <https://github.com/symfony/symfony/pull/24523>`_
 * `Add Exakat To Your CI Pipeline <https://www.exakat.io/add-exakat-to-your-ci-pipeline/>`_
 * `Ambassador <https://exakat.readthedocs.io/en/latest/Reports.html#ambassador>`_
@@ -77,7 +76,6 @@ List of external links mentioned in this documentation.
 * `Data structures <http://docs.php.net/manual/en/book.ds.php>`_
 * `DCDFLIB <https://people.sc.fsu.edu/~jburkardt/c_src/cdflib/cdflib.html>`_
 * `Deprecate and remove INTL_IDNA_VARIANT_2003 <https://wiki.php.net/rfc/deprecate-and-remove-intl_idna_variant_2003>`_
-* `Deprecated features in PHP 7.2.x <https://www.php.net/manual/en/migration72.deprecated.php>`_
 * `directive error_reporting <https://www.php.net/manual/en/errorfunc.configuration.php#ini.error-reporting>`_
 * `Docker <http://www.docker.com/>`_
 * `Docker image <https://hub.docker.com/r/exakat/exakat/>`_
@@ -141,7 +139,6 @@ List of external links mentioned in this documentation.
 * `PMB <https://www.sigb.net/>`_
 * `Povilas Korop <https://twitter.com/PovilasKorop>`_
 * `Prepare for PHP migration with Exakat <https://www.exakat.io/prepare-for-php-migration-with-exakat/>`_
-* `printf <https://www.php.net/printf>`_
 * `PSR-3 <https://www.php-fig.org/psr/psr-3>`_
 * `RabbitMQ AMQP client library <https://github.com/alanxz/rabbitmq-c>`_
 * `rar <https://en.wikipedia.org/wiki/RAR_(file_format)>`_

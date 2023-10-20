@@ -6,7 +6,7 @@ Rulesets
 Introduction
 ------------------------
 
-Exakat provides unique 1593 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
+Exakat provides unique 1596 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
 
 For more smoothly usage, the ruleset concept allow you to run a set of rules based on a decidated focus. Beawre that a Ruleset run all the associated rules and any needed dependencies.
 
@@ -130,7 +130,7 @@ All
 
 All is a dummy ruleset, which includes all the rules. It is mostly used internally.
 
-Total : 1591 analysis
+Total : 1594 analysis
 
 * :ref:`adding-zero`
 * :ref:`ambiguous-array-index`
@@ -649,14 +649,14 @@ Total : 1591 analysis
 * :ref:`php-7.0-new-classes`
 * :ref:`php-7.0-new-interfaces`
 * :ref:`empty-list`
-* :ref:`list-with-appends`
+* :ref:`list-with-array-appends`
 * :ref:`simple-global-variable`
 * :ref:`parenthesis-as-parameter`
 * :ref:`foreach-don't-change-pointer`
 * :ref:`php5-indirect-variable-expression`
 * :ref:`php-7-indirect-expression`
 * :ref:`unicode-escape-partial`
-* :ref:`define-with-array`
+* :ref:`define-constants-with-array`
 * :ref:`php-7.0-removed-directives`
 * :ref:`directives-usage`
 * :ref:`useless-brackets`
@@ -1723,6 +1723,9 @@ Total : 1591 analysis
 * :ref:`static-variable-can-default-to-arbitrary-expression`
 * :ref:`inherited-class-constant-visibility`
 * :ref:`final-traits-are-final`
+* :ref:`multiline-expressions`
+* :ref:`typed-class-constants-usage`
+* :ref:`favorite-casting-method`
 
 Specs
 _____
@@ -3532,7 +3535,7 @@ Total : 52 analysis
 * :ref:`scalar-typehint-usage`
 * :ref:`return-typehint-usage`
 * :ref:`isset()-with-constant`
-* :ref:`list-with-appends`
+* :ref:`list-with-array-appends`
 * :ref:`simple-global-variable`
 * :ref:`foreach-don't-change-pointer`
 * :ref:`unicode-escape-partial`
@@ -3769,7 +3772,7 @@ CompatibilityPHP53
 
 This ruleset centralizes all analysis for the migration from PHP 5.2 to 5.3.
 
-Total : 94 analysis
+Total : 95 analysis
 
 * :ref:`non-static-methods-called-in-a-static`
 * :ref:`ext-dba`
@@ -3810,7 +3813,7 @@ Total : 94 analysis
 * :ref:`php5-indirect-variable-expression`
 * :ref:`php-7-indirect-expression`
 * :ref:`unicode-escape-partial`
-* :ref:`define-with-array`
+* :ref:`define-constants-with-array`
 * :ref:`no-list-with-string`
 * :ref:`php7-dirname`
 * :ref:`php7-relaxed-keyword`
@@ -3865,6 +3868,7 @@ Total : 94 analysis
 * :ref:`redeclared-static-variable`
 * :ref:`static-variable-can-default-to-arbitrary-expression`
 * :ref:`final-traits-are-final`
+* :ref:`typed-class-constants-usage`
 
 Specs
 _____
@@ -3885,7 +3889,7 @@ CompatibilityPHP54
 
 This ruleset centralizes all analysis for the migration from PHP 5.3 to 5.4.
 
-Total : 91 analysis
+Total : 92 analysis
 
 * :ref:`non-static-methods-called-in-a-static`
 * :ref:`use-lower-case-for-parent,-static-and-self`
@@ -3923,7 +3927,7 @@ Total : 91 analysis
 * :ref:`php5-indirect-variable-expression`
 * :ref:`php-7-indirect-expression`
 * :ref:`unicode-escape-partial`
-* :ref:`define-with-array`
+* :ref:`define-constants-with-array`
 * :ref:`no-list-with-string`
 * :ref:`php7-dirname`
 * :ref:`php7-relaxed-keyword`
@@ -3978,6 +3982,7 @@ Total : 91 analysis
 * :ref:`redeclared-static-variable`
 * :ref:`static-variable-can-default-to-arbitrary-expression`
 * :ref:`final-traits-are-final`
+* :ref:`typed-class-constants-usage`
 
 Specs
 _____
@@ -3998,7 +4003,7 @@ CompatibilityPHP55
 
 This ruleset centralizes all analysis for the migration from PHP 5.4 to 5.5.
 
-Total : 84 analysis
+Total : 85 analysis
 
 * :ref:`non-static-methods-called-in-a-static`
 * :ref:`ext-apc`
@@ -4030,7 +4035,7 @@ Total : 84 analysis
 * :ref:`php5-indirect-variable-expression`
 * :ref:`php-7-indirect-expression`
 * :ref:`unicode-escape-partial`
-* :ref:`define-with-array`
+* :ref:`define-constants-with-array`
 * :ref:`no-list-with-string`
 * :ref:`php7-dirname`
 * :ref:`php7-relaxed-keyword`
@@ -4084,6 +4089,7 @@ Total : 84 analysis
 * :ref:`redeclared-static-variable`
 * :ref:`static-variable-can-default-to-arbitrary-expression`
 * :ref:`final-traits-are-final`
+* :ref:`typed-class-constants-usage`
 
 Specs
 _____
@@ -4104,7 +4110,7 @@ CompatibilityPHP56
 
 This ruleset centralizes all analysis for the migration from PHP 5.5 to 5.6.
 
-Total : 74 analysis
+Total : 75 analysis
 
 * :ref:`non-static-methods-called-in-a-static`
 * :ref:`malformed-octal`
@@ -4125,7 +4131,7 @@ Total : 74 analysis
 * :ref:`php5-indirect-variable-expression`
 * :ref:`php-7-indirect-expression`
 * :ref:`unicode-escape-partial`
-* :ref:`define-with-array`
+* :ref:`define-constants-with-array`
 * :ref:`no-list-with-string`
 * :ref:`php7-dirname`
 * :ref:`php7-relaxed-keyword`
@@ -4180,6 +4186,7 @@ Total : 74 analysis
 * :ref:`redeclared-static-variable`
 * :ref:`static-variable-can-default-to-arbitrary-expression`
 * :ref:`final-traits-are-final`
+* :ref:`typed-class-constants-usage`
 
 Specs
 _____
@@ -4200,7 +4207,7 @@ CompatibilityPHP70
 
 This ruleset centralizes all analysis for the migration from PHP 5.6 to 7.0.
 
-Total : 65 analysis
+Total : 66 analysis
 
 * :ref:`mcrypt\_create\_iv()-with-default-values`
 * :ref:`magic-visibility`
@@ -4210,7 +4217,7 @@ Total : 65 analysis
 * :ref:`break-outside-loop`
 * :ref:`php-7.0-removed-functions`
 * :ref:`empty-list`
-* :ref:`list-with-appends`
+* :ref:`list-with-array-appends`
 * :ref:`simple-global-variable`
 * :ref:`foreach-don't-change-pointer`
 * :ref:`php-7-indirect-expression`
@@ -4267,6 +4274,7 @@ Total : 65 analysis
 * :ref:`redeclared-static-variable`
 * :ref:`static-variable-can-default-to-arbitrary-expression`
 * :ref:`final-traits-are-final`
+* :ref:`typed-class-constants-usage`
 
 Specs
 _____
@@ -4287,7 +4295,7 @@ CompatibilityPHP71
 
 This ruleset centralizes all analysis for the migration from PHP 7.0 to 7.1.
 
-Total : 55 analysis
+Total : 56 analysis
 
 * :ref:`ext-mcrypt`
 * :ref:`hash-algorithms-incompatible-with-php-5.3`
@@ -4344,6 +4352,7 @@ Total : 55 analysis
 * :ref:`redeclared-static-variable`
 * :ref:`static-variable-can-default-to-arbitrary-expression`
 * :ref:`final-traits-are-final`
+* :ref:`typed-class-constants-usage`
 
 Specs
 _____
@@ -4364,7 +4373,7 @@ CompatibilityPHP72
 
 This ruleset centralizes all analysis for the migration from PHP 7.1 to 7.2.
 
-Total : 48 analysis
+Total : 49 analysis
 
 * :ref:`undefined-constants`
 * :ref:`hash-algorithms-incompatible-with-php-5.3`
@@ -4414,6 +4423,7 @@ Total : 48 analysis
 * :ref:`redeclared-static-variable`
 * :ref:`static-variable-can-default-to-arbitrary-expression`
 * :ref:`final-traits-are-final`
+* :ref:`typed-class-constants-usage`
 
 Specs
 _____
@@ -4434,7 +4444,7 @@ CompatibilityPHP73
 
 This ruleset centralizes all analysis for the migration from PHP 7.2 to 7.3.
 
-Total : 39 analysis
+Total : 40 analysis
 
 * :ref:`new-functions-in-php-7.3`
 * :ref:`unknown-pcre2-option`
@@ -4475,6 +4485,7 @@ Total : 39 analysis
 * :ref:`redeclared-static-variable`
 * :ref:`static-variable-can-default-to-arbitrary-expression`
 * :ref:`final-traits-are-final`
+* :ref:`typed-class-constants-usage`
 
 Specs
 _____
@@ -4495,7 +4506,7 @@ CompatibilityPHP74
 
 This ruleset centralizes all analysis for the migration from PHP 7.3 to 7.4.
 
-Total : 50 analysis
+Total : 51 analysis
 
 * :ref:`detect-current-class`
 * :ref:`don't-read-and-write-in-one-expression`
@@ -4547,6 +4558,7 @@ Total : 50 analysis
 * :ref:`redeclared-static-variable`
 * :ref:`static-variable-can-default-to-arbitrary-expression`
 * :ref:`final-traits-are-final`
+* :ref:`typed-class-constants-usage`
 
 Specs
 _____
@@ -4567,7 +4579,7 @@ CompatibilityPHP80
 
 This ruleset centralizes all analysis for the migration from PHP 7.4 to 8.0.
 
-Total : 40 analysis
+Total : 41 analysis
 
 * :ref:`old-style-constructor`
 * :ref:`wrong-optional-parameter`
@@ -4609,6 +4621,7 @@ Total : 40 analysis
 * :ref:`redeclared-static-variable`
 * :ref:`static-variable-can-default-to-arbitrary-expression`
 * :ref:`final-traits-are-final`
+* :ref:`typed-class-constants-usage`
 
 Specs
 _____
@@ -4629,7 +4642,7 @@ CompatibilityPHP81
 
 This ruleset centralizes all analysis for the migration from PHP 8.0 to 8.1.
 
-Total : 28 analysis
+Total : 29 analysis
 
 * :ref:`php-7.4-removed-directives`
 * :ref:`php-8.0-removed-directives`
@@ -4659,6 +4672,7 @@ Total : 28 analysis
 * :ref:`redeclared-static-variable`
 * :ref:`static-variable-can-default-to-arbitrary-expression`
 * :ref:`final-traits-are-final`
+* :ref:`typed-class-constants-usage`
 
 Specs
 _____
@@ -4679,7 +4693,7 @@ CompatibilityPHP82
 
 This ruleset centralizes all analysis for the migration from PHP 8.1 to 8.2.
 
-Total : 20 analysis
+Total : 21 analysis
 
 * :ref:`undefined-properties`
 * :ref:`false-to-array-conversion`
@@ -4701,6 +4715,7 @@ Total : 20 analysis
 * :ref:`static-variable-can-default-to-arbitrary-expression`
 * :ref:`inherited-class-constant-visibility`
 * :ref:`final-traits-are-final`
+* :ref:`typed-class-constants-usage`
 
 Specs
 _____
@@ -5445,7 +5460,7 @@ Preferences
 
 This ruleset identify code with multiple forms, and report when one is more frequent than the others. Echo vs print, shell_exec() vs ``, etc.
 
-Total : 38 analysis
+Total : 39 analysis
 
 * :ref:`true-false-inconsistant-case`
 * :ref:`echo-or-print`
@@ -5485,6 +5500,7 @@ Total : 38 analysis
 * :ref:`date()-versus-datetime-preference`
 * :ref:`mono-or-multibytes-favorite`
 * :ref:`short-or-complete-comparison`
+* :ref:`favorite-casting-method`
 
 Specs
 _____
@@ -5664,7 +5680,7 @@ Suggestions
 
 This ruleset focuses on possibly better syntax than the one currently used. Those may be code modernization, alternatives, more efficient solutions, or simply left over from older versions. 
 
-Total : 122 analysis
+Total : 123 analysis
 
 * :ref:`while(list()-=-each())`
 * :ref:`function-subscripting,-old-style`
@@ -5788,6 +5804,7 @@ Total : 122 analysis
 * :ref:`use-str\_starts\_with()`
 * :ref:`blind-variable-used-beyond-loop`
 * :ref:`could-be-array\_combine()`
+* :ref:`multiline-expressions`
 
 Specs
 _____
