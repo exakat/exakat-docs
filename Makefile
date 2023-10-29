@@ -7,7 +7,7 @@ SPHINXBUILD   ?= sphinx-build
 #SPHINXBUILD   = /Users/famille/Library/Python/2.7/bin/sphinx-build
 SPHINXBUILD   = /opt/homebrew/bin/sphinx-build 
 PAPER         =
-BUILDDIR      = build
+BUILDDIR      = _build
 
 # User-friendly check for sphinx-build
 ifeq ($(shell which $(SPHINXBUILD) >/dev/null 2>&1; echo $$?), 1)

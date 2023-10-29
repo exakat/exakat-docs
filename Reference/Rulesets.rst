@@ -6,7 +6,7 @@ Rulesets
 Introduction
 ------------------------
 
-Exakat provides unique 1596 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
+Exakat provides unique 1597 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
 
 For more smoothly usage, the ruleset concept allow you to run a set of rules based on a decidated focus. Beawre that a Ruleset run all the associated rules and any needed dependencies.
 
@@ -130,7 +130,7 @@ All
 
 All is a dummy ruleset, which includes all the rules. It is mostly used internally.
 
-Total : 1594 analysis
+Total : 1595 analysis
 
 * :ref:`adding-zero`
 * :ref:`ambiguous-array-index`
@@ -1726,6 +1726,7 @@ Total : 1594 analysis
 * :ref:`multiline-expressions`
 * :ref:`typed-class-constants-usage`
 * :ref:`favorite-casting-method`
+* :ref:`structures-getclasswithoutarg`
 
 Specs
 _____

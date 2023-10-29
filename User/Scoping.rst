@@ -1363,6 +1363,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/ForgottenWhiteSpace";
    analyzer[] = "Structures/FunctionPreSubscripting";
    analyzer[] = "Structures/FunctionSubscripting";
+   analyzer[] = "Structures/GetClassWithoutArg";
    analyzer[] = "Structures/GlobalInGlobal";
    analyzer[] = "Structures/GlobalOutsideLoop";
    analyzer[] = "Structures/GlobalUsage";
@@ -2972,6 +2973,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/ForgottenWhiteSpace'
      - 'Structures/FunctionPreSubscripting'
      - 'Structures/FunctionSubscripting'
+     - 'Structures/GetClassWithoutArg'
      - 'Structures/GlobalInGlobal'
      - 'Structures/GlobalOutsideLoop'
      - 'Structures/GlobalUsage'
