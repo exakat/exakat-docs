@@ -6,7 +6,7 @@ Rulesets
 Introduction
 ------------------------
 
-Exakat provides unique 1600 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
+Exakat provides unique 1601 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
 
 For more smoothly usage, the ruleset concept allow you to run a set of rules based on a decidated focus. Beawre that a Ruleset run all the associated rules and any needed dependencies.
 
@@ -130,7 +130,7 @@ All
 
 All is a dummy ruleset, which includes all the rules. It is mostly used internally.
 
-Total : 1598 analysis
+Total : 1599 analysis
 
 * :ref:`adding-zero`
 * :ref:`ambiguous-array-index`
@@ -1728,8 +1728,9 @@ Total : 1598 analysis
 * :ref:`favorite-casting-method`
 * :ref:`get\_class()-without-argument`
 * :ref:`append-and-assign-arrays`
-* :ref:`classes-cannotbereadonly`
+* :ref:`cannot-be-readonly`
 * :ref:`static-variable-initialisation`
+* :ref:`collect-graph-triplets`
 
 Specs
 _____
@@ -3687,7 +3688,7 @@ Total : 90 analysis
 * :ref:`useless-constant-overwrite`
 * :ref:`incompatible-property-between-class-and-trait`
 * :ref:`static-call-with-self`
-* :ref:`classes-cannotbereadonly`
+* :ref:`cannot-be-readonly`
 
 Specs
 _____
@@ -4861,7 +4862,7 @@ Dump
 
 This ruleset collects various names given to different structures in the code : for example, variables, classes, methods, constants, etc. It also collects networks of data, like file inclusion or external dependencies.
 
-Total : 53 analysis
+Total : 54 analysis
 
 * :ref:`caught-exceptions`
 * :ref:`environment-variable-usage`
@@ -4916,6 +4917,7 @@ Total : 53 analysis
 * :ref:`collect-property-usage`
 * :ref:`collect-structures`
 * :ref:`collect-catch-calls`
+* :ref:`collect-graph-triplets`
 
 Specs
 _____
