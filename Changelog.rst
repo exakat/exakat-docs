@@ -19,7 +19,12 @@ Here is the release note of exakat.
     + 
 
 + Analysis
-    + 
+    + New analysis : report arrays that are used for append and direct index access at the same time
+    + New analysis : report get_class() and get_parent_class() without arguments
+    + Updated analysis : Literal inventory now reports float, array() and heredocs
+    + New analysis : report usage of advanced static variable initialisation
+    + New analysis : cannot be readonly
+    + New analysis : report triplet stats from the internal graph
 
 + Tokenizer
     + 

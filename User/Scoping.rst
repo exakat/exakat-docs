@@ -127,6 +127,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
 
  [All]
    analyzer[] = "Arrays/AmbiguousKeys";
+   analyzer[] = "Arrays/AppendAndAssignArrays";
    analyzer[] = "Arrays/ArrayBracketConsistence";
    analyzer[] = "Arrays/ArrayNSUsage";
    analyzer[] = "Arrays/Arrayindex";
@@ -169,6 +170,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Classes/AvoidOptionalProperties";
    analyzer[] = "Classes/AvoidUsing";
    analyzer[] = "Classes/CancelCommonMethod";
+   analyzer[] = "Classes/CannotBeReadonly";
    analyzer[] = "Classes/CantExtendFinal";
    analyzer[] = "Classes/CantInheritAbstractMethod";
    analyzer[] = "Classes/CantInstantiateClass";
@@ -474,6 +476,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Dump/CollectFilesDependencies";
    analyzer[] = "Dump/CollectForeachFavorite";
    analyzer[] = "Dump/CollectGlobalVariables";
+   analyzer[] = "Dump/CollectGraphTriplets";
    analyzer[] = "Dump/CollectLiterals";
    analyzer[] = "Dump/CollectLocalVariableCounts";
    analyzer[] = "Dump/CollectMbstringEncodings";
@@ -1694,6 +1697,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Variables/RedeclaredStaticVariable";
    analyzer[] = "Variables/References";
    analyzer[] = "Variables/SelfTransform";
+   analyzer[] = "Variables/StaticVariableInitialisation";
    analyzer[] = "Variables/StaticVariables";
    analyzer[] = "Variables/StrangeName";
    analyzer[] = "Variables/UncommonEnvVar";
@@ -1737,6 +1741,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
   rulesets:
     'All':
      - 'Arrays/AmbiguousKeys'
+     - 'Arrays/AppendAndAssignArrays'
      - 'Arrays/ArrayBracketConsistence'
      - 'Arrays/ArrayNSUsage'
      - 'Arrays/Arrayindex'
@@ -1779,6 +1784,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Classes/AvoidOptionalProperties'
      - 'Classes/AvoidUsing'
      - 'Classes/CancelCommonMethod'
+     - 'Classes/CannotBeReadonly'
      - 'Classes/CantExtendFinal'
      - 'Classes/CantInheritAbstractMethod'
      - 'Classes/CantInstantiateClass'
@@ -2084,6 +2090,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Dump/CollectFilesDependencies'
      - 'Dump/CollectForeachFavorite'
      - 'Dump/CollectGlobalVariables'
+     - 'Dump/CollectGraphTriplets'
      - 'Dump/CollectLiterals'
      - 'Dump/CollectLocalVariableCounts'
      - 'Dump/CollectMbstringEncodings'
@@ -3304,6 +3311,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Variables/RedeclaredStaticVariable'
      - 'Variables/References'
      - 'Variables/SelfTransform'
+     - 'Variables/StaticVariableInitialisation'
      - 'Variables/StaticVariables'
      - 'Variables/StrangeName'
      - 'Variables/UncommonEnvVar'
@@ -7002,6 +7010,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Classes/AbstractConstants";
    analyzer[] = "Classes/AvoidOptionArrays";
    analyzer[] = "Classes/CancelCommonMethod";
+   analyzer[] = "Classes/CannotBeReadonly";
    analyzer[] = "Classes/CantOverwriteFinalConstant";
    analyzer[] = "Classes/ClassInvasion";
    analyzer[] = "Classes/ConstantClass";
@@ -7104,6 +7113,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Classes/AbstractConstants'
      - 'Classes/AvoidOptionArrays'
      - 'Classes/CancelCommonMethod'
+     - 'Classes/CannotBeReadonly'
      - 'Classes/CantOverwriteFinalConstant'
      - 'Classes/ClassInvasion'
      - 'Classes/ConstantClass'
@@ -8993,6 +9003,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Traits/FinalTraitsAreFinal";
    analyzer[] = "Variables/InheritedStaticVariable";
    analyzer[] = "Variables/RedeclaredStaticVariable";
+   analyzer[] = "Variables/StaticVariableInitialisation";
 
 
 .. _annex-yaml-compatibilityphp81:
@@ -9035,6 +9046,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Traits/FinalTraitsAreFinal'
      - 'Variables/InheritedStaticVariable'
      - 'Variables/RedeclaredStaticVariable'
+     - 'Variables/StaticVariableInitialisation'
 
 
 
@@ -9076,6 +9088,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Traits/ConstantsInTraits";
    analyzer[] = "Traits/FinalTraitsAreFinal";
    analyzer[] = "Variables/RedeclaredStaticVariable";
+   analyzer[] = "Variables/StaticVariableInitialisation";
 
 
 .. _annex-yaml-compatibilityphp82:
@@ -9110,6 +9123,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Traits/ConstantsInTraits'
      - 'Traits/FinalTraitsAreFinal'
      - 'Variables/RedeclaredStaticVariable'
+     - 'Variables/StaticVariableInitialisation'
 
 
 
@@ -9133,6 +9147,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Interfaces/InheritedClassConstantVisibility";
    analyzer[] = "Php/Php83NewClasses";
    analyzer[] = "Php/Php83NewFunctions";
+   analyzer[] = "Structures/GetClassWithoutArg";
    analyzer[] = "Traits/ConstantsInTraits";
 
 
@@ -9150,6 +9165,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Interfaces/InheritedClassConstantVisibility'
      - 'Php/Php83NewClasses'
      - 'Php/Php83NewFunctions'
+     - 'Structures/GetClassWithoutArg'
      - 'Traits/ConstantsInTraits'
 
 
@@ -9334,6 +9350,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Dump/CollectFilesDependencies";
    analyzer[] = "Dump/CollectForeachFavorite";
    analyzer[] = "Dump/CollectGlobalVariables";
+   analyzer[] = "Dump/CollectGraphTriplets";
    analyzer[] = "Dump/CollectLiterals";
    analyzer[] = "Dump/CollectLocalVariableCounts";
    analyzer[] = "Dump/CollectMbstringEncodings";
@@ -9400,6 +9417,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Dump/CollectFilesDependencies'
      - 'Dump/CollectForeachFavorite'
      - 'Dump/CollectGlobalVariables'
+     - 'Dump/CollectGraphTriplets'
      - 'Dump/CollectLiterals'
      - 'Dump/CollectLocalVariableCounts'
      - 'Dump/CollectMbstringEncodings'

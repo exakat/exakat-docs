@@ -6,7 +6,7 @@ Rulesets
 Introduction
 ------------------------
 
-Exakat provides unique 1597 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
+Exakat provides unique 1600 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
 
 For more smoothly usage, the ruleset concept allow you to run a set of rules based on a decidated focus. Beawre that a Ruleset run all the associated rules and any needed dependencies.
 
@@ -130,7 +130,7 @@ All
 
 All is a dummy ruleset, which includes all the rules. It is mostly used internally.
 
-Total : 1595 analysis
+Total : 1598 analysis
 
 * :ref:`adding-zero`
 * :ref:`ambiguous-array-index`
@@ -1726,7 +1726,10 @@ Total : 1595 analysis
 * :ref:`multiline-expressions`
 * :ref:`typed-class-constants-usage`
 * :ref:`favorite-casting-method`
-* :ref:`structures-getclasswithoutarg`
+* :ref:`get\_class()-without-argument`
+* :ref:`append-and-assign-arrays`
+* :ref:`classes-cannotbereadonly`
+* :ref:`static-variable-initialisation`
 
 Specs
 _____
@@ -3593,7 +3596,7 @@ Class Review
 
 This ruleset focuses on classes construction issues, and their related structures : traits, interfaces, methods, properties, constants.
 
-Total : 89 analysis
+Total : 90 analysis
 
 * :ref:`final-class-usage`
 * :ref:`final-methods-usage`
@@ -3684,6 +3687,7 @@ Total : 89 analysis
 * :ref:`useless-constant-overwrite`
 * :ref:`incompatible-property-between-class-and-trait`
 * :ref:`static-call-with-self`
+* :ref:`classes-cannotbereadonly`
 
 Specs
 _____
@@ -4643,7 +4647,7 @@ CompatibilityPHP81
 
 This ruleset centralizes all analysis for the migration from PHP 8.0 to 8.1.
 
-Total : 29 analysis
+Total : 30 analysis
 
 * :ref:`php-7.4-removed-directives`
 * :ref:`php-8.0-removed-directives`
@@ -4674,6 +4678,7 @@ Total : 29 analysis
 * :ref:`static-variable-can-default-to-arbitrary-expression`
 * :ref:`final-traits-are-final`
 * :ref:`typed-class-constants-usage`
+* :ref:`static-variable-initialisation`
 
 Specs
 _____
@@ -4694,7 +4699,7 @@ CompatibilityPHP82
 
 This ruleset centralizes all analysis for the migration from PHP 8.1 to 8.2.
 
-Total : 21 analysis
+Total : 22 analysis
 
 * :ref:`undefined-properties`
 * :ref:`false-to-array-conversion`
@@ -4717,6 +4722,7 @@ Total : 21 analysis
 * :ref:`inherited-class-constant-visibility`
 * :ref:`final-traits-are-final`
 * :ref:`typed-class-constants-usage`
+* :ref:`static-variable-initialisation`
 
 Specs
 _____
@@ -4737,12 +4743,13 @@ CompatibilityPHP83
 
 This ruleset centralizes all analysis for the migration from PHP 8.2 to 8.3.
 
-Total : 4 analysis
+Total : 5 analysis
 
 * :ref:`new-functions-in-php-8.3`
 * :ref:`php-8.3-new-classes`
 * :ref:`constants-in-traits`
 * :ref:`inherited-class-constant-visibility`
+* :ref:`get\_class()-without-argument`
 
 Specs
 _____
