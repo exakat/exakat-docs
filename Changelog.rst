@@ -19,12 +19,6 @@ Here is the release note of exakat.
     + 
 
 + Analysis
-    + New analysis : report arrays that are used for append and direct index access at the same time
-    + New analysis : report get_class() and get_parent_class() without arguments
-    + Updated analysis : Literal inventory now reports float, array() and heredocs
-    + New analysis : report usage of advanced static variable initialisation
-    + New analysis : cannot be readonly
-    + New analysis : report triplet stats from the internal graph
 
 + Tokenizer
     + 
@@ -50,6 +44,15 @@ Here is the release note of exakat.
     + Updated analysis : Shell favorite
     + New analysis : Casting Method Favorite
     + Updated analysis : Ellipsis detection improved
+    + New analysis : report arrays that are used for append and direct index access at the same time
+    + New analysis : report get_class() and get_parent_class() without arguments
+    + Updated analysis : Literal inventory now reports float, array() and heredocs
+    + New analysis : report usage of advanced static variable initialisation
+    + New analysis : cannot be readonly
+    + New analysis : report triplet stats from the internal graph
+    + New analysis : report static variables outside a method
+    + Updated analysis : Missing types are now covering class constants too
+    + New analysis : report usage of Deprecated features (CITE, functions, parameters...)
 
 **Version 2.6.0 (, 2023-10-04)**
 

@@ -6,7 +6,7 @@ Rulesets
 Introduction
 ------------------------
 
-Exakat provides unique 1601 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
+Exakat provides unique 1603 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
 
 For more smoothly usage, the ruleset concept allow you to run a set of rules based on a decidated focus. Beawre that a Ruleset run all the associated rules and any needed dependencies.
 
@@ -130,7 +130,7 @@ All
 
 All is a dummy ruleset, which includes all the rules. It is mostly used internally.
 
-Total : 1599 analysis
+Total : 1601 analysis
 
 * :ref:`adding-zero`
 * :ref:`ambiguous-array-index`
@@ -1545,7 +1545,7 @@ Total : 1599 analysis
 * :ref:`use-class\_alias()`
 * :ref:`undefined-enumcase`
 * :ref:`too-many-stringed-elseif`
-* :ref:`missing-typehints`
+* :ref:`missing-type-in-definition`
 * :ref:`identical-elseif`
 * :ref:`simplify-foreach`
 * :ref:`use-variable-created-inside-loop`
@@ -1731,6 +1731,8 @@ Total : 1599 analysis
 * :ref:`cannot-be-readonly`
 * :ref:`static-variable-initialisation`
 * :ref:`collect-graph-triplets`
+* :ref:`static-variable-in-namespace`
+* :ref:`using-deprecated-feature`
 
 Specs
 _____
@@ -2658,12 +2660,13 @@ Attributes
 
 This ruleset gathers all rules that rely on PHP 8.+ attributes.
 
-Total : 4 analysis
+Total : 5 analysis
 
 * :ref:`exit-like-methods`
 * :ref:`using-deprecated-method`
 * :ref:`modify-immutable`
 * :ref:`missing-attribute-attribute`
+* :ref:`using-deprecated-feature`
 
 Specs
 _____
@@ -4771,7 +4774,7 @@ Dead code
 
 This ruleset focuses on dead code : expressions or even structures that are written, valid but never used.
 
-Total : 31 analysis
+Total : 32 analysis
 
 * :ref:`empty-traits`
 * :ref:`unused-use`
@@ -4804,6 +4807,7 @@ Total : 31 analysis
 * :ref:`identical-elseif`
 * :ref:`use-variable-created-inside-loop`
 * :ref:`unused-enumeration-case`
+* :ref:`static-variable-in-namespace`
 
 Specs
 _____

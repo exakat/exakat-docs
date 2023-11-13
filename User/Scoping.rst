@@ -156,6 +156,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Attributes/MissingAttributeAttribute";
    analyzer[] = "Attributes/ModifyImmutable";
    analyzer[] = "Attributes/NestedAttributes";
+   analyzer[] = "Attributes/UsingDeprecated";
    analyzer[] = "Classes/AbstractConstants";
    analyzer[] = "Classes/AbstractOrImplements";
    analyzer[] = "Classes/AbstractStatic";
@@ -1697,6 +1698,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Variables/RedeclaredStaticVariable";
    analyzer[] = "Variables/References";
    analyzer[] = "Variables/SelfTransform";
+   analyzer[] = "Variables/StaticVariableInNamespace";
    analyzer[] = "Variables/StaticVariableInitialisation";
    analyzer[] = "Variables/StaticVariables";
    analyzer[] = "Variables/StrangeName";
@@ -1770,6 +1772,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Attributes/MissingAttributeAttribute'
      - 'Attributes/ModifyImmutable'
      - 'Attributes/NestedAttributes'
+     - 'Attributes/UsingDeprecated'
      - 'Classes/AbstractConstants'
      - 'Classes/AbstractOrImplements'
      - 'Classes/AbstractStatic'
@@ -3311,6 +3314,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Variables/RedeclaredStaticVariable'
      - 'Variables/References'
      - 'Variables/SelfTransform'
+     - 'Variables/StaticVariableInNamespace'
      - 'Variables/StaticVariableInitialisation'
      - 'Variables/StaticVariables'
      - 'Variables/StrangeName'
@@ -5159,6 +5163,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
  [Attributes]
    analyzer[] = "Attributes/MissingAttributeAttribute";
    analyzer[] = "Attributes/ModifyImmutable";
+   analyzer[] = "Attributes/UsingDeprecated";
    analyzer[] = "Functions/KillsApp";
    analyzer[] = "Functions/UsingDeprecated";
 
@@ -5176,6 +5181,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
     'Attributes':
      - 'Attributes/MissingAttributeAttribute'
      - 'Attributes/ModifyImmutable'
+     - 'Attributes/UsingDeprecated'
      - 'Functions/KillsApp'
      - 'Functions/UsingDeprecated'
 
@@ -9218,6 +9224,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/UseVariableInsideLoop";
    analyzer[] = "Traits/EmptyTrait";
    analyzer[] = "Traits/SelfUsingTrait";
+   analyzer[] = "Variables/StaticVariableInNamespace";
 
 
 .. _annex-yaml-dead-code:
@@ -9262,6 +9269,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/UseVariableInsideLoop'
      - 'Traits/EmptyTrait'
      - 'Traits/SelfUsingTrait'
+     - 'Variables/StaticVariableInNamespace'
 
 
 
