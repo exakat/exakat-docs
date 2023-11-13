@@ -1516,7 +1516,7 @@ Total : 1601 analysis
 * :ref:`variable-anf-property-typehint`
 * :ref:`extends-stdclass`
 * :ref:`scope-resolution-operator`
-* :ref:`could-use-nullable-object-operator`
+* :ref:`could-use-null-safe-object-operator`
 * :ref:`cant-overload-constants`
 * :ref:`variable-is-a-local-constant`
 * :ref:`argument-could-be-iterable`
@@ -5795,7 +5795,7 @@ Total : 123 analysis
 * :ref:`no-static-variable-in-a-method`
 * :ref:`declare-static-once`
 * :ref:`could-use-match`
-* :ref:`could-use-nullable-object-operator`
+* :ref:`could-use-null-safe-object-operator`
 * :ref:`argument-could-be-iterable`
 * :ref:`multiple-similar-calls`
 * :ref:`could-be-ternary`

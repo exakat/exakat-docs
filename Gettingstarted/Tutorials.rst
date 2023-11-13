@@ -74,6 +74,8 @@ Open the report, with a web browser: it is located in projects/sculpin/diplomat.
 Congratulations, this is your first audit.
 
 
+.. _in-code-auditing-local:
+
 In Code Auditing With Exakat (Local)
 ----------------------------------------
 
@@ -115,6 +117,9 @@ Run exakat
 This command runs the default configuration over the code source. It displays immediately the audit as a Text file, directly in the terminal. 
 
 Congratulations, this is your first audit.
+
+
+.. _in-code-auditing-docker:
 
 In Code Auditing With Exakat (Docker)
 ----------------------------------------
