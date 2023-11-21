@@ -1,6 +1,6 @@
 .. _Bare:
 
-with a Bare metal installation
+Standard installation
 ********************************
 
 Here are 2 tutorials to run Exakat on your code. You may install exakat with the `projects` folder, and centralize multiple audits in one place, or run exakat in-code, right from the source code. You may also run exakat on a host machine (aka, bare-metal), or as a docker container.
@@ -19,7 +19,7 @@ All tutorials follow the same steps :
 + Reports access
 
 
-Bare metal install, with projects folder
+Standard install, with projects folder
 ----------------------------------------
 
 Installation
