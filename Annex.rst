@@ -54,15 +54,11 @@ External links
 List of external links mentioned in this documentation.
 
 * `$HTTP_RAW_POST_DATA variable <https://www.php.net/manual/en/reserved.variables.httprawpostdata.php>`_
-* `7z <https://www.7-zip.org/7z.html>`_
-* `@deprecated <https://docs.phpdoc.org/latest/references/phpdoc/tags/deprecated.html>`_
 * `[HttpFoundation] Make sessions secure and lazy #24523 <https://github.com/symfony/symfony/pull/24523>`_
-* `Add Exakat To Your CI Pipeline <https://www.exakat.io/add-exakat-to-your-ci-pipeline/>`_
 * `Ambassador <https://exakat.readthedocs.io/en/latest/Reports.html#ambassador>`_
 * `Aronduby Dump <https://github.com/aronduby/dump>`_
 * `Atif Shahab Qureshi <https://twitter.com/Atif__Shahab>`_
 * `Backward incompatible changes PHP 7.0 <https://www.php.net/manual/en/migration70.incompatible.php>`_
-* `bazaar <https://bazaar.canonical.com/en/>`_
 * `Benoit Burnichon <https://twitter.com/BenoitBurnichon>`_
 * `Bitwise Operators <https://www.php.net/manual/en/language.operators.bitwise.php>`_
 * `Brandon Savage <https://twitter.com/BrandonSavage>`_
@@ -70,18 +66,12 @@ List of external links mentioned in this documentation.
 * `Carnage <https://twitter.com/giveupalready>`_
 * `cat: write error: Broken pipe <https://askubuntu.com/questions/421663/cat-write-error-broken-pipe>`_
 * `Classes Abstraction <https://www.php.net/abstract>`_
-* `composer <https://getcomposer.org/>`_
-* `continue-on-error <https://docs.github.com/en/actions/learn-github-actions/workflow-syntax-for-github-actions#jobsjob_idstepscontinue-on-error>`_
-* `curl <http://www.php.net/curl>`_
-* `CVS <https://www.nongnu.org/cvs/>`_
 * `Data structures <http://docs.php.net/manual/en/book.ds.php>`_
 * `DCDFLIB <https://people.sc.fsu.edu/~jburkardt/c_src/cdflib/cdflib.html>`_
 * `Deprecate and remove INTL_IDNA_VARIANT_2003 <https://wiki.php.net/rfc/deprecate-and-remove-intl_idna_variant_2003>`_
-* `Deprecated features in PHP 7.2.x <https://www.php.net/manual/en/migration72.deprecated.php>`_
 * `directive error_reporting <https://www.php.net/manual/en/errorfunc.configuration.php#ini.error-reporting>`_
 * `Docker <http://www.docker.com/>`_
 * `Docker image <https://hub.docker.com/r/exakat/exakat/>`_
-* `dotdeb instruction <https://www.dotdeb.org/instructions/>`_
 * `download <https://www.exakat.io/download-exakat/>`_
 * `Empty Catch Clause <http://wiki.c2.com/?EmptyCatchClause>`_
 * `Enchant spelling library <https://www.php.net/manual/en/book.enchant.php>`_
@@ -94,23 +84,18 @@ List of external links mentioned in this documentation.
 * `foreach <https://www.php.net/manual/en/control-structures.foreach.php>`_
 * `Frederic Bouchery <https://twitter.com/FredBouchery/>`_
 * `George Peter Banyard <https://twitter.com/Girgias>`_
-* `Git <https://git-scm.com/>`_
-* `Github Action <https://docs.github.com/en/actions>`_
-* `Github upload <https://github.com/actions/upload-artifact>`_
 * `Github.com/exakat/exakat <https://github.com/exakat/exakat>`_
 * `global namespace <https://www.php.net/manual/en/language.namespaces.global.php>`_
 * `graphviz <http://www.graphviz.org/>`_
 * `Gremlin server <http://tinkerpop.apache.org/>`_
-* `hash <http://www.php.net/hash>`_
 * `hash_algos <https://www.php.net/hash_algos>`_
 * `Holger Woltersdorf <https://twitter.com/hollodotme>`_
 * `How to fix Headers already sent error in PHP <http://stackoverflow.com/questions/8028957/how-to-fix-headers-already-sent-error-in-php>`_
-* `https://hub.docker.com/r/exakat/exakat-ga <https://hub.docker.com/r/exakat/exakat-ga>`_
-* `https://www.exakat.io/ <https://www.exakat.io/>`_
+* `https://www.exakat.io/versions <https://www.exakat.io/versions>`_
 * `https://www.exakat.io/versions/index.php?file=latest <https://www.exakat.io/versions/index.php?file=latest>`_
 * `ICU <http://site.icu-project.org/>`_
 * `IERS <https://www.iers.org/IERS/EN/Home/home_node.html>`_
-* `Installing Exakat to monitor several projects <https://www.exakat.io/installing-exakat-to-monitor-several-projects/>`_
+* `Installing Exakat to monitor several projects []=> <https://www.exakat.io/installing-exakat-to-monitor-several-projects/>`_
 * `Internal Constructor Behavior <https://wiki.php.net/rfc/internal_constructor_behaviour>`_
 * `Is it a bad practice to have multiple classes in the same file? <https://stackoverflow.com/questions/360643/is-it-a-bad-practice-to-have-multiple-classes-in-the-same-file>`_
 * `Isset Ternary <https://wiki.php.net/rfc/isset_ternary>`_
@@ -123,7 +108,6 @@ List of external links mentioned in this documentation.
 * `Logical Operators <https://www.php.net/manual/en/language.operators.logical.php>`_
 * `Marco Pivetta tweet <https://twitter.com/Ocramius/status/811504929357660160>`_
 * `mcrypt_create_iv() <https://www.php.net/manual/en/function.mcrypt-create-iv.php>`_
-* `mercurial <https://www.mercurial-scm.org/>`_
 * `Migration80 <https://exakat.readthedocs.io/en/latest/Reports.html#migration80>`_
 * `MongoDB driver <https://www.php.net/mongo>`_
 * `mysqli <https://www.php.net/manual/en/book.mysqli.php>`_
@@ -140,11 +124,9 @@ List of external links mentioned in this documentation.
 * `plantuml <http://plantuml.com/>`_
 * `PMB <https://www.sigb.net/>`_
 * `Povilas Korop <https://twitter.com/PovilasKorop>`_
-* `Prepare for PHP migration with Exakat <https://www.exakat.io/prepare-for-php-migration-with-exakat/>`_
-* `printf <https://www.php.net/printf>`_
+* `Prepare for PHP migration with Exakat []=> <https://www.exakat.io/prepare-for-php-migration-with-exakat/>`_
 * `PSR-3 <https://www.php-fig.org/psr/psr-3>`_
 * `RabbitMQ AMQP client library <https://github.com/alanxz/rabbitmq-c>`_
-* `rar <https://en.wikipedia.org/wiki/RAR_(file_format)>`_
 * `Refactoring code <https://www.jetbrains.com/help/phpstorm/refactoring-source-code.html>`_
 * `RFC 7159 <http://www.faqs.org/rfcs/rfc7159>`_
 * `RFC 7230 <https://tools.ietf.org/html/rfc7230>`_
@@ -152,26 +134,18 @@ List of external links mentioned in this documentation.
 * `RFC 959 <http://www.faqs.org/rfcs/rfc959>`_
 * `Scope Resolution Operator (::) <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_
 * `Specification pattern <https://en.wikipedia.org/wiki/Specification_pattern>`_
-* `sqlite3 <http://www.php.net/sqlite3>`_
 * `Static Keyword <https://www.php.net/manual/en/language.oop5.static.php>`_
-* `Svn <https://subversion.apache.org/>`_
-* `tetraweb/php <https://hub.docker.com/r/tetraweb/php/>`_
 * `Text <https://exakat.readthedocs.io/en/latest/Reports.html#text>`_
-* `The main PPA for PHP (8.0, 7.4, 7.3, 7.2, 7.1, 7.0, 5.6)  <https://launchpad.net/~ondrej/+archive/ubuntu/php>`_
-* `tokenizer <http://www.php.net/tokenizer>`_
 * `Tutorial 1: Let’s learn by example <https://docs.phalconphp.com/en/latest/reference/tutorial.html>`_
 * `Type Casting <https://php.net/manual/en/language.types.type-juggling.php#language.types.typecasting>`_
 * `Type declarations <https://www.php.net/manual/en/functions.arguments.php#functions.arguments.type-declaration>`_
 * `Type Juggling <https://www.php.net/manual/en/language.types.type-juggling.php>`_
 * `unset <https://www.php.net/unset>`_
-* `upload artifact <https://github.com/actions/upload-artifact>`_
 * `V8 Javascript Engine <https://bugs.chromium.org/p/v8/issues/list>`_
 * `Vagrant file <https://github.com/exakat/exakat-vagrant>`_
 * `Vladimir Reznichenko <https://twitter.com/kalessil>`_
-* `workflow_dispatch <https://docs.github.com/en/actions/managing-workflow-runs/manually-running-a-workflow>`_
 * `www.exakat.io <https://www.exakat.io/versions/>`_
 * `YAML Ain't Markup Language <http://www.yaml.org/>`_
-* `zip <https://en.wikipedia.org/wiki/Zip_(file_format)>`_
 
 
 

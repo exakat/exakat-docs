@@ -546,10 +546,6 @@ Analyzers may be configured in the `project/*/config.ini`; they may also be conf
   + forbiddenClasses : 
 
     + List of classes to be avoided
-:ref:`Custom/MethodUsage <custom-methodusage>`
-  + searchFor : 
-
-    + Method to report in the codes : use static syntax to describe them : \a::foo(); \a\b\c::goo().
 :ref:`Duplicate Literal <duplicate-literal>`
   + minDuplicate : 15
 
@@ -597,10 +593,18 @@ Analyzers may be configured in the `project/*/config.ini`; they may also be conf
   + minMagicCallsToGet : 2
 
     + Minimal number of calls of a magic property to make it worth locally caching.
+:ref:`Method Usage <method-usage>`
+  + searchFor : 
+
+    + Method to report in the codes : use static syntax to describe them : \a::foo(); \a\b\c::goo().
 :ref:`Missing Include <missing-include>`
   + constant_or_variable_name : 100
 
     + Literal value to be used when including files. For example, by configuring 'Files_MissingInclude["HOME_DIR"] = "/tmp/myDir/";', then 'include HOME_DIR . "my_class.php"; will be actually be used as '/tmp/myDir/my_class.php'. Constants must be configured with their correct case. Variable must be configured with their initial '$'. Configure any number of variable and constant names.
+:ref:`Multiline Expressions <multiline-expressions>`
+  + min : 2
+
+    + Minimal number of lines in an expression to report.
 :ref:`Multiple Index Definition <multiple-index-definition>`
   + arrayMaxSize : 15000
 

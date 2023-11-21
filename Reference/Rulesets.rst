@@ -6,7 +6,7 @@ Rulesets
 Introduction
 ------------------------
 
-Exakat provides unique 1524 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
+Exakat provides unique 1604 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
 
 For more smoothly usage, the ruleset concept allow you to run a set of rules based on a decidated focus. Beawre that a Ruleset run all the associated rules and any needed dependencies.
 
@@ -71,6 +71,8 @@ Here is the list of the current rulesets supported by Exakat Engine.
 +-----------------------------------------------+------------------------------------------------------------------------------------------------------+
 | :ref:`ruleset-compatibilityphp82`             |List features that are incompatible with PHP 8.2.                                                     |
 +-----------------------------------------------+------------------------------------------------------------------------------------------------------+
+| :ref:`ruleset-compatibilityphp83`             |List features that are incompatible with PHP 8.3.                                                     |
++-----------------------------------------------+------------------------------------------------------------------------------------------------------+
 | :ref:`ruleset-dead-code`                      |Check the unused code or unreachable code.                                                            |
 +-----------------------------------------------+------------------------------------------------------------------------------------------------------+
 | :ref:`ruleset-deprecated`                     |List of deprecated features, across all PHP versions.                                                 |
@@ -90,6 +92,8 @@ Here is the list of the current rulesets supported by Exakat Engine.
 | :ref:`ruleset-lintbutwontexec`                |Check the code for common errors that will lead to a Fatal error on production, but lint fine.        |
 +-----------------------------------------------+------------------------------------------------------------------------------------------------------+
 | :ref:`ruleset-nodoc`                          |Ruleset with analysis which are not published in the docs.                                            |
++-----------------------------------------------+------------------------------------------------------------------------------------------------------+
+| :ref:`ruleset-one-liners`                     |Report expressions that are one liners.                                                               |
 +-----------------------------------------------+------------------------------------------------------------------------------------------------------+
 | :ref:`ruleset-php-recommendations`            |Report recommendations from the PHP manual.                                                           |
 +-----------------------------------------------+------------------------------------------------------------------------------------------------------+
@@ -126,7 +130,7 @@ All
 
 All is a dummy ruleset, which includes all the rules. It is mostly used internally.
 
-Total : 1522 analysis
+Total : 1602 analysis
 
 * :ref:`adding-zero`
 * :ref:`ambiguous-array-index`
@@ -442,7 +446,7 @@ Total : 1522 analysis
 * :ref:`wrong-number-of-arguments-in-methods`
 * :ref:`class-has-fluent-interface`
 * :ref:`method-has-fluent-interface`
-* :ref:`method-has-no-fluent-interface`
+* :ref:`method-is-not-for-fluent-interface`
 * :ref:`php-handlers-usage`
 * :ref:`ext-imagick`
 * :ref:`unused-methods`
@@ -553,7 +557,6 @@ Total : 1522 analysis
 * :ref:`old-style-\_\_autoload()`
 * :ref:`altering-foreach-without-reference`
 * :ref:`test-class`
-* :ref:`mark-callable`
 * :ref:`magic-visibility`
 * :ref:`use-pathinfo`
 * :ref:`should-use-existing-constants`
@@ -646,14 +649,14 @@ Total : 1522 analysis
 * :ref:`php-7.0-new-classes`
 * :ref:`php-7.0-new-interfaces`
 * :ref:`empty-list`
-* :ref:`list-with-appends`
+* :ref:`list-with-array-appends`
 * :ref:`simple-global-variable`
 * :ref:`parenthesis-as-parameter`
 * :ref:`foreach-don't-change-pointer`
 * :ref:`php5-indirect-variable-expression`
 * :ref:`php-7-indirect-expression`
 * :ref:`unicode-escape-partial`
-* :ref:`define-with-array`
+* :ref:`define-constants-with-array`
 * :ref:`php-7.0-removed-directives`
 * :ref:`directives-usage`
 * :ref:`useless-brackets`
@@ -1205,7 +1208,7 @@ Total : 1522 analysis
 * :ref:`always-use-function-with-array\_key\_exists()`
 * :ref:`complex-dynamic-names`
 * :ref:`curl\_version()-has-no-argument`
-* :ref:`php-7.4-new-class`
+* :ref:`php-7.4-new-classes`
 * :ref:`new-constants-in-php-7.4`
 * :ref:`unused-class-constant`
 * :ref:`could-be-constant`
@@ -1215,7 +1218,7 @@ Total : 1522 analysis
 * :ref:`dependant-abstract-classes`
 * :ref:`wrong-type-returned`
 * :ref:`generator-cannot-return`
-* :ref:`cant-use-function`
+* :ref:`methods-that-should-not-be-used`
 * :ref:`use-datetimeimmutable-class`
 * :ref:`set-aside-code`
 * :ref:`use-array-functions`
@@ -1270,7 +1273,6 @@ Total : 1522 analysis
 * :ref:`set-class-remote-definition-with-parenthesis`
 * :ref:`set-class-property-definition-with-typehint`
 * :ref:`set-array-class-definition`
-* :ref:`set-string-method-definition`
 * :ref:`set-class-method-remote-definition`
 * :ref:`use-arrow-functions`
 * :ref:`max-level-of-nesting`
@@ -1398,7 +1400,7 @@ Total : 1522 analysis
 * :ref:`collect-parameter-names`
 * :ref:`no-need-for-triple-equal`
 * :ref:`array\_merge-needs-array-of-arrays`
-* :ref:`dont-compare-typed-boolean`
+* :ref:`avoid-compare-typed-boolean`
 * :ref:`abstract-away`
 * :ref:`wrong-type-for-native-php-function`
 * :ref:`large-try-block`
@@ -1514,7 +1516,7 @@ Total : 1522 analysis
 * :ref:`variable-anf-property-typehint`
 * :ref:`extends-stdclass`
 * :ref:`scope-resolution-operator`
-* :ref:`could-use-nullable-object-operator`
+* :ref:`could-use-null-safe-object-operator`
 * :ref:`cant-overload-constants`
 * :ref:`variable-is-a-local-constant`
 * :ref:`argument-could-be-iterable`
@@ -1543,7 +1545,7 @@ Total : 1522 analysis
 * :ref:`use-class\_alias()`
 * :ref:`undefined-enumcase`
 * :ref:`too-many-stringed-elseif`
-* :ref:`missing-typehints`
+* :ref:`missing-type-in-definition`
 * :ref:`identical-elseif`
 * :ref:`simplify-foreach`
 * :ref:`use-variable-created-inside-loop`
@@ -1639,17 +1641,99 @@ Total : 1522 analysis
 * :ref:`method-property-confusion`
 * :ref:`could-use-namespace-magic-constant`
 * :ref:`incompatible-types-with-incoming-values`
-* :ref:`custom-methodusage`
+* :ref:`method-usage`
 * :ref:`too-many-chained-calls`
 * :ref:`empty-loop`
 * :ref:`too-many-extractions`
 * :ref:`no-variable-needed`
 * :ref:`possible-typeerror`
 * :ref:`json\_encode()-without-exceptions`
-* :ref:`variables-noinitials`
+* :ref:`no-initial-s-in-variable-names`
 * :ref:`collect-calls`
 * :ref:`set-method-fnp`
 * :ref:`type-dodging`
+* :ref:`skip-empty-array`
+* :ref:`useless-method`
+* :ref:`weak-type-with-array`
+* :ref:`class-could-be-readonly`
+* :ref:`multiple-type-cases-in-switch`
+* :ref:`class-invasion`
+* :ref:`property-invasion`
+* :ref:`filter-not-raw`
+* :ref:`collect-setlocale`
+* :ref:`plus-plus-used-on-strings`
+* :ref:`no-max-on-empty-array`
+* :ref:`no-empty-string-with-explode()`
+* :ref:`array-access-on-literal-array`
+* :ref:`double-checks`
+* :ref:`strpos()-with-integers`
+* :ref:`unvalidated-data-cached-in-session`
+* :ref:`ellipsis-merge`
+* :ref:`superglobals`
+* :ref:`new-functions-in-php-8.3`
+* :ref:`use-str\_ends\_with()`
+* :ref:`use-str\_starts\_with()`
+* :ref:`missing-assignation-in-command`
+* :ref:`mono-or-multibytes-favorite`
+* :ref:`argument-counts-per-calls`
+* :ref:`global-definitions`
+* :ref:`short-ternary`
+* :ref:`deprecated-mb\_string-encodings`
+* :ref:`pre-calculate-use`
+* :ref:`no-valid-cast`
+* :ref:`init-then-update`
+* :ref:`different-constructors`
+* :ref:`sidelined-method`
+* :ref:`misused-yield`
+* :ref:`substr()-in-loops`
+* :ref:`should-cache-local`
+* :ref:`php-8.3-new-classes`
+* :ref:`rewrote-final-class-constant`
+* :ref:`useless-constant-overwrite`
+* :ref:`blind-variable-used-beyond-loop`
+* :ref:`recalled-condition`
+* :ref:`incompatible-property-between-class-and-trait`
+* :ref:`collect-methods-throwing-exceptions`
+* :ref:`static-call-with-self`
+* :ref:`use-dnf`
+* :ref:`collect-throw-calls`
+* :ref:`collect-compared-literals`
+* :ref:`could-be-array\_combine()`
+* :ref:`comparison-on-different-types`
+* :ref:`no-null-for-index`
+* :ref:`collects-names`
+* :ref:`useless-try`
+* :ref:`converted-exceptions`
+* :ref:`method-is-not-an-if`
+* :ref:`default-then-discard`
+* :ref:`class-injection-count`
+* :ref:`collect-property-usage`
+* :ref:`collect-structures`
+* :ref:`collect-catch-calls`
+* :ref:`identical-case-in-switch`
+* :ref:`standalonetype-true-false-null`
+* :ref:`constants-in-traits`
+* :ref:`short-or-complete-comparison`
+* :ref:`could-use-yield-from`
+* :ref:`use-enum-case-in-constant-expression`
+* :ref:`readonly-property-changed-by-cloning`
+* :ref:`new-dynamic-class-constant-syntax`
+* :ref:`class\_alias()-supports-internal-classes`
+* :ref:`redeclared-static-variable`
+* :ref:`static-variable-can-default-to-arbitrary-expression`
+* :ref:`inherited-class-constant-visibility`
+* :ref:`final-traits-are-final`
+* :ref:`multiline-expressions`
+* :ref:`typed-class-constants-usage`
+* :ref:`favorite-casting-method`
+* :ref:`get\_class()-without-argument`
+* :ref:`append-and-assign-arrays`
+* :ref:`cannot-be-readonly`
+* :ref:`static-variable-initialisation`
+* :ref:`collect-graph-triplets`
+* :ref:`static-variable-in-namespace`
+* :ref:`using-deprecated-feature`
+* :ref:`override`
 
 Specs
 _____
@@ -1668,7 +1752,7 @@ Analyze
 
 This ruleset centralizes a large number of classic trap and pitfalls when writing PHP.
 
-Total : 464 analysis
+Total : 480 analysis
 
 * :ref:`adding-zero`
 * :ref:`ambiguous-array-index`
@@ -2134,6 +2218,22 @@ Total : 464 analysis
 * :ref:`coalesce-and-ternary-operators-order`
 * :ref:`useless-assignation-of-promoted-property`
 * :ref:`empty-loop`
+* :ref:`useless-method`
+* :ref:`weak-type-with-array`
+* :ref:`no-empty-string-with-explode()`
+* :ref:`double-checks`
+* :ref:`strpos()-with-integers`
+* :ref:`missing-assignation-in-command`
+* :ref:`no-valid-cast`
+* :ref:`misused-yield`
+* :ref:`no-null-for-index`
+* :ref:`useless-try`
+* :ref:`converted-exceptions`
+* :ref:`method-is-not-an-if`
+* :ref:`default-then-discard`
+* :ref:`identical-case-in-switch`
+* :ref:`standalonetype-true-false-null`
+* :ref:`could-use-yield-from`
 
 Specs
 _____
@@ -2154,7 +2254,7 @@ Appinfo
 
 A set of rules that describes with PHP features is used in the code.
 
-Total : 380 analysis
+Total : 386 analysis
 
 * :ref:`array-index`
 * :ref:`multidimensional-arrays`
@@ -2263,6 +2363,7 @@ Total : 380 analysis
 * :ref:`variable-references`
 * :ref:`static-variables`
 * :ref:`variables-with-long-names`
+* :ref:`php-variables`
 * :ref:`variable-variables`
 * :ref:`abstract-class-usage`
 * :ref:`abstract-methods-usage`
@@ -2334,7 +2435,6 @@ Total : 380 analysis
 * :ref:`mail-usage`
 * :ref:`dynamic-calls`
 * :ref:`test-class`
-* :ref:`mark-callable`
 * :ref:`ext-dio`
 * :ref:`ext-phalcon`
 * :ref:`composer-usage`
@@ -2530,12 +2630,18 @@ Total : 380 analysis
 * :ref:`array-addition`
 * :ref:`ice-framework`
 * :ref:`extensions-exttaint`
+* :ref:`random-extension`
 * :ref:`ip`
 * :ref:`ext-scrypt`
 * :ref:`ext-teds`
 * :ref:`geospatial`
 * :ref:`feast-usage`
 * :ref:`date()-versus-datetime-preference`
+* :ref:`plus-plus-used-on-strings`
+* :ref:`short-ternary`
+* :ref:`use-dnf`
+* :ref:`use-enum-case-in-constant-expression`
+* :ref:`new-dynamic-class-constant-syntax`
 
 Specs
 _____
@@ -2556,12 +2662,14 @@ Attributes
 
 This ruleset gathers all rules that rely on PHP 8.+ attributes.
 
-Total : 4 analysis
+Total : 6 analysis
 
 * :ref:`exit-like-methods`
 * :ref:`using-deprecated-method`
 * :ref:`modify-immutable`
 * :ref:`missing-attribute-attribute`
+* :ref:`using-deprecated-feature`
+* :ref:`override`
 
 Specs
 _____
@@ -2580,7 +2688,7 @@ CE
 
 This ruleset is the Community Edition list. It holds all the analysis that are in the community edition version of Exakat.
 
-Total : 627 analysis
+Total : 625 analysis
 
 * :ref:`adding-zero`
 * :ref:`array-index`
@@ -2826,7 +2934,6 @@ Total : 627 analysis
 * :ref:`use-php-object-api`
 * :ref:`altering-foreach-without-reference`
 * :ref:`test-class`
-* :ref:`mark-callable`
 * :ref:`use-pathinfo`
 * :ref:`ext-dio`
 * :ref:`no-parenthesis-for-language-construct`
@@ -3087,10 +3194,10 @@ Total : 627 analysis
 * :ref:`concat-and-addition`
 * :ref:`new-functions-in-php-7.4`
 * :ref:`curl\_version()-has-no-argument`
-* :ref:`php-7.4-new-class`
+* :ref:`php-7.4-new-classes`
 * :ref:`new-constants-in-php-7.4`
 * :ref:`wrong-type-returned`
-* :ref:`cant-use-function`
+* :ref:`methods-that-should-not-be-used`
 * :ref:`php-7.4-removed-functions`
 * :ref:`mb\_strrpos()-third-argument`
 * :ref:`array\_key\_exists()-works-on-arrays`
@@ -3117,7 +3224,6 @@ Total : 627 analysis
 * :ref:`use-covariance`
 * :ref:`use-contravariance`
 * :ref:`set-array-class-definition`
-* :ref:`set-string-method-definition`
 * :ref:`use-arrow-functions`
 * :ref:`environment-variable-usage`
 * :ref:`indentation-levels`
@@ -3425,7 +3531,7 @@ Changed Behavior
 
 Ruleset with all rules that identify changed behavior across PHP versions. This means that some syntax behave differently, depending on PHP version.
 
-Total : 46 analysis
+Total : 52 analysis
 
 * :ref:`$http\_raw\_post\_data-usage`
 * :ref:`wrong-optional-parameter`
@@ -3439,13 +3545,16 @@ Total : 46 analysis
 * :ref:`reserved-keywords-in-php-7`
 * :ref:`scalar-typehint-usage`
 * :ref:`return-typehint-usage`
-* :ref:`list-with-appends`
+* :ref:`isset()-with-constant`
+* :ref:`list-with-array-appends`
 * :ref:`simple-global-variable`
 * :ref:`foreach-don't-change-pointer`
 * :ref:`unicode-escape-partial`
 * :ref:`eval()-without-try`
 * :ref:`usort-sorting-in-php-7.0`
+* :ref:`func\_get\_arg()-modified`
 * :ref:`php7-relaxed-keyword`
+* :ref:`set\_exception\_handler()-warning`
 * :ref:`using-$this-outside-a-class`
 * :ref:`list-with-keys`
 * :ref:`php-7.1-microseconds`
@@ -3473,6 +3582,9 @@ Total : 46 analysis
 * :ref:`string-int-comparison`
 * :ref:`php-8.1-resources-turned-into-objects`
 * :ref:`no-private-abstract-method-in-trait`
+* :ref:`no-max-on-empty-array`
+* :ref:`no-empty-string-with-explode()`
+* :ref:`strpos()-with-integers`
 
 Specs
 _____
@@ -3491,7 +3603,7 @@ Class Review
 
 This ruleset focuses on classes construction issues, and their related structures : traits, interfaces, methods, properties, constants.
 
-Total : 80 analysis
+Total : 90 analysis
 
 * :ref:`final-class-usage`
 * :ref:`final-methods-usage`
@@ -3573,6 +3685,16 @@ Total : 80 analysis
 * :ref:`set-chaining-exception`
 * :ref:`useless-assignation-of-promoted-property`
 * :ref:`type-dodging`
+* :ref:`class-could-be-readonly`
+* :ref:`class-invasion`
+* :ref:`property-invasion`
+* :ref:`different-constructors`
+* :ref:`sidelined-method`
+* :ref:`rewrote-final-class-constant`
+* :ref:`useless-constant-overwrite`
+* :ref:`incompatible-property-between-class-and-trait`
+* :ref:`static-call-with-self`
+* :ref:`cannot-be-readonly`
 
 Specs
 _____
@@ -3662,7 +3784,7 @@ CompatibilityPHP53
 
 This ruleset centralizes all analysis for the migration from PHP 5.2 to 5.3.
 
-Total : 87 analysis
+Total : 95 analysis
 
 * :ref:`non-static-methods-called-in-a-static`
 * :ref:`ext-dba`
@@ -3703,7 +3825,7 @@ Total : 87 analysis
 * :ref:`php5-indirect-variable-expression`
 * :ref:`php-7-indirect-expression`
 * :ref:`unicode-escape-partial`
-* :ref:`define-with-array`
+* :ref:`define-constants-with-array`
 * :ref:`no-list-with-string`
 * :ref:`php7-dirname`
 * :ref:`php7-relaxed-keyword`
@@ -3751,6 +3873,14 @@ Total : 87 analysis
 * :ref:`constant-scalar-expression`
 * :ref:`no-private-abstract-method-in-trait`
 * :ref:`clone-constant`
+* :ref:`use-enum-case-in-constant-expression`
+* :ref:`readonly-property-changed-by-cloning`
+* :ref:`new-dynamic-class-constant-syntax`
+* :ref:`class\_alias()-supports-internal-classes`
+* :ref:`redeclared-static-variable`
+* :ref:`static-variable-can-default-to-arbitrary-expression`
+* :ref:`final-traits-are-final`
+* :ref:`typed-class-constants-usage`
 
 Specs
 _____
@@ -3771,7 +3901,7 @@ CompatibilityPHP54
 
 This ruleset centralizes all analysis for the migration from PHP 5.3 to 5.4.
 
-Total : 84 analysis
+Total : 92 analysis
 
 * :ref:`non-static-methods-called-in-a-static`
 * :ref:`use-lower-case-for-parent,-static-and-self`
@@ -3809,7 +3939,7 @@ Total : 84 analysis
 * :ref:`php5-indirect-variable-expression`
 * :ref:`php-7-indirect-expression`
 * :ref:`unicode-escape-partial`
-* :ref:`define-with-array`
+* :ref:`define-constants-with-array`
 * :ref:`no-list-with-string`
 * :ref:`php7-dirname`
 * :ref:`php7-relaxed-keyword`
@@ -3857,6 +3987,14 @@ Total : 84 analysis
 * :ref:`constant-scalar-expression`
 * :ref:`no-private-abstract-method-in-trait`
 * :ref:`clone-constant`
+* :ref:`use-enum-case-in-constant-expression`
+* :ref:`readonly-property-changed-by-cloning`
+* :ref:`new-dynamic-class-constant-syntax`
+* :ref:`class\_alias()-supports-internal-classes`
+* :ref:`redeclared-static-variable`
+* :ref:`static-variable-can-default-to-arbitrary-expression`
+* :ref:`final-traits-are-final`
+* :ref:`typed-class-constants-usage`
 
 Specs
 _____
@@ -3877,7 +4015,7 @@ CompatibilityPHP55
 
 This ruleset centralizes all analysis for the migration from PHP 5.4 to 5.5.
 
-Total : 77 analysis
+Total : 85 analysis
 
 * :ref:`non-static-methods-called-in-a-static`
 * :ref:`ext-apc`
@@ -3909,7 +4047,7 @@ Total : 77 analysis
 * :ref:`php5-indirect-variable-expression`
 * :ref:`php-7-indirect-expression`
 * :ref:`unicode-escape-partial`
-* :ref:`define-with-array`
+* :ref:`define-constants-with-array`
 * :ref:`no-list-with-string`
 * :ref:`php7-dirname`
 * :ref:`php7-relaxed-keyword`
@@ -3956,6 +4094,14 @@ Total : 77 analysis
 * :ref:`constant-scalar-expression`
 * :ref:`no-private-abstract-method-in-trait`
 * :ref:`clone-constant`
+* :ref:`use-enum-case-in-constant-expression`
+* :ref:`readonly-property-changed-by-cloning`
+* :ref:`new-dynamic-class-constant-syntax`
+* :ref:`class\_alias()-supports-internal-classes`
+* :ref:`redeclared-static-variable`
+* :ref:`static-variable-can-default-to-arbitrary-expression`
+* :ref:`final-traits-are-final`
+* :ref:`typed-class-constants-usage`
 
 Specs
 _____
@@ -3976,7 +4122,7 @@ CompatibilityPHP56
 
 This ruleset centralizes all analysis for the migration from PHP 5.5 to 5.6.
 
-Total : 67 analysis
+Total : 75 analysis
 
 * :ref:`non-static-methods-called-in-a-static`
 * :ref:`malformed-octal`
@@ -3997,7 +4143,7 @@ Total : 67 analysis
 * :ref:`php5-indirect-variable-expression`
 * :ref:`php-7-indirect-expression`
 * :ref:`unicode-escape-partial`
-* :ref:`define-with-array`
+* :ref:`define-constants-with-array`
 * :ref:`no-list-with-string`
 * :ref:`php7-dirname`
 * :ref:`php7-relaxed-keyword`
@@ -4045,6 +4191,14 @@ Total : 67 analysis
 * :ref:`constant-scalar-expression`
 * :ref:`no-private-abstract-method-in-trait`
 * :ref:`clone-constant`
+* :ref:`use-enum-case-in-constant-expression`
+* :ref:`readonly-property-changed-by-cloning`
+* :ref:`new-dynamic-class-constant-syntax`
+* :ref:`class\_alias()-supports-internal-classes`
+* :ref:`redeclared-static-variable`
+* :ref:`static-variable-can-default-to-arbitrary-expression`
+* :ref:`final-traits-are-final`
+* :ref:`typed-class-constants-usage`
 
 Specs
 _____
@@ -4065,7 +4219,7 @@ CompatibilityPHP70
 
 This ruleset centralizes all analysis for the migration from PHP 5.6 to 7.0.
 
-Total : 58 analysis
+Total : 66 analysis
 
 * :ref:`mcrypt\_create\_iv()-with-default-values`
 * :ref:`magic-visibility`
@@ -4075,7 +4229,7 @@ Total : 58 analysis
 * :ref:`break-outside-loop`
 * :ref:`php-7.0-removed-functions`
 * :ref:`empty-list`
-* :ref:`list-with-appends`
+* :ref:`list-with-array-appends`
 * :ref:`simple-global-variable`
 * :ref:`foreach-don't-change-pointer`
 * :ref:`php-7-indirect-expression`
@@ -4125,6 +4279,14 @@ Total : 58 analysis
 * :ref:`cant-overload-constants`
 * :ref:`no-private-abstract-method-in-trait`
 * :ref:`clone-constant`
+* :ref:`use-enum-case-in-constant-expression`
+* :ref:`readonly-property-changed-by-cloning`
+* :ref:`new-dynamic-class-constant-syntax`
+* :ref:`class\_alias()-supports-internal-classes`
+* :ref:`redeclared-static-variable`
+* :ref:`static-variable-can-default-to-arbitrary-expression`
+* :ref:`final-traits-are-final`
+* :ref:`typed-class-constants-usage`
 
 Specs
 _____
@@ -4145,7 +4307,7 @@ CompatibilityPHP71
 
 This ruleset centralizes all analysis for the migration from PHP 7.0 to 7.1.
 
-Total : 48 analysis
+Total : 56 analysis
 
 * :ref:`ext-mcrypt`
 * :ref:`hash-algorithms-incompatible-with-php-5.3`
@@ -4195,6 +4357,14 @@ Total : 48 analysis
 * :ref:`no-private-abstract-method-in-trait`
 * :ref:`clone-constant`
 * :ref:`no-keyword-in-namespace`
+* :ref:`use-enum-case-in-constant-expression`
+* :ref:`readonly-property-changed-by-cloning`
+* :ref:`new-dynamic-class-constant-syntax`
+* :ref:`class\_alias()-supports-internal-classes`
+* :ref:`redeclared-static-variable`
+* :ref:`static-variable-can-default-to-arbitrary-expression`
+* :ref:`final-traits-are-final`
+* :ref:`typed-class-constants-usage`
 
 Specs
 _____
@@ -4215,7 +4385,7 @@ CompatibilityPHP72
 
 This ruleset centralizes all analysis for the migration from PHP 7.1 to 7.2.
 
-Total : 41 analysis
+Total : 49 analysis
 
 * :ref:`undefined-constants`
 * :ref:`hash-algorithms-incompatible-with-php-5.3`
@@ -4258,6 +4428,14 @@ Total : 41 analysis
 * :ref:`no-private-abstract-method-in-trait`
 * :ref:`clone-constant`
 * :ref:`no-keyword-in-namespace`
+* :ref:`use-enum-case-in-constant-expression`
+* :ref:`readonly-property-changed-by-cloning`
+* :ref:`new-dynamic-class-constant-syntax`
+* :ref:`class\_alias()-supports-internal-classes`
+* :ref:`redeclared-static-variable`
+* :ref:`static-variable-can-default-to-arbitrary-expression`
+* :ref:`final-traits-are-final`
+* :ref:`typed-class-constants-usage`
 
 Specs
 _____
@@ -4278,7 +4456,7 @@ CompatibilityPHP73
 
 This ruleset centralizes all analysis for the migration from PHP 7.2 to 7.3.
 
-Total : 32 analysis
+Total : 40 analysis
 
 * :ref:`new-functions-in-php-7.3`
 * :ref:`unknown-pcre2-option`
@@ -4312,6 +4490,14 @@ Total : 32 analysis
 * :ref:`no-private-abstract-method-in-trait`
 * :ref:`clone-constant`
 * :ref:`no-keyword-in-namespace`
+* :ref:`use-enum-case-in-constant-expression`
+* :ref:`readonly-property-changed-by-cloning`
+* :ref:`new-dynamic-class-constant-syntax`
+* :ref:`class\_alias()-supports-internal-classes`
+* :ref:`redeclared-static-variable`
+* :ref:`static-variable-can-default-to-arbitrary-expression`
+* :ref:`final-traits-are-final`
+* :ref:`typed-class-constants-usage`
 
 Specs
 _____
@@ -4332,7 +4518,7 @@ CompatibilityPHP74
 
 This ruleset centralizes all analysis for the migration from PHP 7.3 to 7.4.
 
-Total : 43 analysis
+Total : 52 analysis
 
 * :ref:`detect-current-class`
 * :ref:`don't-read-and-write-in-one-expression`
@@ -4340,7 +4526,7 @@ Total : 43 analysis
 * :ref:`concat-and-addition`
 * :ref:`new-functions-in-php-7.4`
 * :ref:`curl\_version()-has-no-argument`
-* :ref:`php-7.4-new-class`
+* :ref:`php-7.4-new-classes`
 * :ref:`new-constants-in-php-7.4`
 * :ref:`php-7.4-removed-functions`
 * :ref:`mb\_strrpos()-third-argument`
@@ -4377,6 +4563,15 @@ Total : 43 analysis
 * :ref:`no-private-abstract-method-in-trait`
 * :ref:`clone-constant`
 * :ref:`no-keyword-in-namespace`
+* :ref:`constants-in-traits`
+* :ref:`use-enum-case-in-constant-expression`
+* :ref:`readonly-property-changed-by-cloning`
+* :ref:`new-dynamic-class-constant-syntax`
+* :ref:`class\_alias()-supports-internal-classes`
+* :ref:`redeclared-static-variable`
+* :ref:`static-variable-can-default-to-arbitrary-expression`
+* :ref:`final-traits-are-final`
+* :ref:`typed-class-constants-usage`
 
 Specs
 _____
@@ -4397,7 +4592,7 @@ CompatibilityPHP80
 
 This ruleset centralizes all analysis for the migration from PHP 7.4 to 8.0.
 
-Total : 31 analysis
+Total : 42 analysis
 
 * :ref:`old-style-constructor`
 * :ref:`wrong-optional-parameter`
@@ -4430,6 +4625,17 @@ Total : 31 analysis
 * :ref:`php-8.1-resources-turned-into-objects`
 * :ref:`clone-constant`
 * :ref:`named-argument-and-variadic`
+* :ref:`multiple-type-cases-in-switch`
+* :ref:`no-max-on-empty-array`
+* :ref:`constants-in-traits`
+* :ref:`use-enum-case-in-constant-expression`
+* :ref:`readonly-property-changed-by-cloning`
+* :ref:`new-dynamic-class-constant-syntax`
+* :ref:`class\_alias()-supports-internal-classes`
+* :ref:`redeclared-static-variable`
+* :ref:`static-variable-can-default-to-arbitrary-expression`
+* :ref:`final-traits-are-final`
+* :ref:`typed-class-constants-usage`
 
 Specs
 _____
@@ -4450,7 +4656,7 @@ CompatibilityPHP81
 
 This ruleset centralizes all analysis for the migration from PHP 8.0 to 8.1.
 
-Total : 21 analysis
+Total : 31 analysis
 
 * :ref:`php-7.4-removed-directives`
 * :ref:`php-8.0-removed-directives`
@@ -4473,6 +4679,16 @@ Total : 21 analysis
 * :ref:`cannot-call-static-trait-method-directly`
 * :ref:`version\_compare-operator`
 * :ref:`named-argument-and-variadic`
+* :ref:`constants-in-traits`
+* :ref:`use-enum-case-in-constant-expression`
+* :ref:`readonly-property-changed-by-cloning`
+* :ref:`new-dynamic-class-constant-syntax`
+* :ref:`class\_alias()-supports-internal-classes`
+* :ref:`redeclared-static-variable`
+* :ref:`static-variable-can-default-to-arbitrary-expression`
+* :ref:`final-traits-are-final`
+* :ref:`typed-class-constants-usage`
+* :ref:`static-variable-initialisation`
 
 Specs
 _____
@@ -4493,8 +4709,9 @@ CompatibilityPHP82
 
 This ruleset centralizes all analysis for the migration from PHP 8.1 to 8.2.
 
-Total : 10 analysis
+Total : 22 analysis
 
+* :ref:`undefined-properties`
 * :ref:`false-to-array-conversion`
 * :ref:`float-conversion-as-index`
 * :ref:`cannot-call-static-trait-method-directly`
@@ -4505,12 +4722,50 @@ Total : 10 analysis
 * :ref:`dollar-curly-interpolation-is-deprecated`
 * :ref:`utf8-encode-and-decode-are-deprecated`
 * :ref:`new-functions-in-php-8.2`
+* :ref:`deprecated-mb\_string-encodings`
+* :ref:`constants-in-traits`
+* :ref:`readonly-property-changed-by-cloning`
+* :ref:`new-dynamic-class-constant-syntax`
+* :ref:`class\_alias()-supports-internal-classes`
+* :ref:`redeclared-static-variable`
+* :ref:`static-variable-can-default-to-arbitrary-expression`
+* :ref:`inherited-class-constant-visibility`
+* :ref:`final-traits-are-final`
+* :ref:`typed-class-constants-usage`
+* :ref:`static-variable-initialisation`
 
 Specs
 _____
 
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Short name   | CompatibilityPHP82                                                                                                                                                                      |
++--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Community Edition <https://www.exakat.io/community-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
++--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Reports      | :ref:`report-diplomat`, :ref:`report-ambassador`                                                                                                                                        |
++--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
+.. _ruleset-compatibilityphp83:
+
+CompatibilityPHP83
+++++++++++++++++++
+
+This ruleset centralizes all analysis for the migration from PHP 8.2 to 8.3.
+
+Total : 5 analysis
+
+* :ref:`new-functions-in-php-8.3`
+* :ref:`php-8.3-new-classes`
+* :ref:`constants-in-traits`
+* :ref:`inherited-class-constant-visibility`
+* :ref:`get\_class()-without-argument`
+
+Specs
+_____
+
++--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Short name   | CompatibilityPHP83                                                                                                                                                                      |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Community Edition <https://www.exakat.io/community-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -4525,7 +4780,7 @@ Dead code
 
 This ruleset focuses on dead code : expressions or even structures that are written, valid but never used.
 
-Total : 31 analysis
+Total : 32 analysis
 
 * :ref:`empty-traits`
 * :ref:`unused-use`
@@ -4558,6 +4813,7 @@ Total : 31 analysis
 * :ref:`identical-elseif`
 * :ref:`use-variable-created-inside-loop`
 * :ref:`unused-enumeration-case`
+* :ref:`static-variable-in-namespace`
 
 Specs
 _____
@@ -4616,8 +4872,9 @@ Dump
 
 This ruleset collects various names given to different structures in the code : for example, variables, classes, methods, constants, etc. It also collects networks of data, like file inclusion or external dependencies.
 
-Total : 42 analysis
+Total : 54 analysis
 
+* :ref:`caught-exceptions`
 * :ref:`environment-variable-usage`
 * :ref:`indentation-levels`
 * :ref:`cyclomatic-complexity`
@@ -4660,6 +4917,17 @@ Total : 42 analysis
 * :ref:`collect-stub-structures`
 * :ref:`collect-vendor-structures`
 * :ref:`collect-calls`
+* :ref:`collect-setlocale`
+* :ref:`argument-counts-per-calls`
+* :ref:`collect-throw-calls`
+* :ref:`collect-compared-literals`
+* :ref:`comparison-on-different-types`
+* :ref:`collects-names`
+* :ref:`class-injection-count`
+* :ref:`collect-property-usage`
+* :ref:`collect-structures`
+* :ref:`collect-catch-calls`
+* :ref:`collect-graph-triplets`
 
 Specs
 _____
@@ -4680,9 +4948,8 @@ First
 
 A set of rules that are always run at the beginning of a project, because they are frequently used. It is mostly used internally.
 
-Total : 4 analysis
+Total : 3 analysis
 
-* :ref:`mark-callable`
 * :ref:`variable-anf-property-typehint`
 * :ref:`variable-is-a-local-constant`
 * :ref:`add-return-typehint`
@@ -4738,7 +5005,7 @@ For example :
 
 
 
-Total : 35 analysis
+Total : 36 analysis
 
 * :ref:`constants-names`
 * :ref:`binary-glossary`
@@ -4775,6 +5042,7 @@ Total : 35 analysis
 * :ref:`extends-stdclass`
 * :ref:`incoming-date-formats`
 * :ref:`ip`
+* :ref:`init-then-update`
 
 Specs
 _____
@@ -5027,7 +5295,7 @@ NoDoc
 
 Ruleset with analysis which are not published in the docs.
 
-Total : 37 analysis
+Total : 36 analysis
 
 * :ref:`php-native-reference-variable`
 * :ref:`create-compact-variables`
@@ -5052,7 +5320,6 @@ Total : 37 analysis
 * :ref:`set-class-remote-definition-with-parenthesis`
 * :ref:`set-class-property-definition-with-typehint`
 * :ref:`set-array-class-definition`
-* :ref:`set-string-method-definition`
 * :ref:`set-class-method-remote-definition`
 * :ref:`make-functioncall-with-reference`
 * :ref:`propagate-calls`
@@ -5077,12 +5344,39 @@ _____
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 
 
+.. _ruleset-one-liners:
+
+One Liners
+++++++++++
+
+This ruleset focuses on reporting one liners, which makes using an IDE had.
+
+Total : 5 analysis
+
+* :ref:`coalesce`
+* :ref:`use-arrow-functions`
+* :ref:`throw-was-an-expression`
+* :ref:`use-nullsafe-operator`
+* :ref:`short-ternary`
+
+Specs
+_____
+
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Short name   | OneLiners                                                                                                               |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Reports      |                                                                                                                         |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+
+
 .. _ruleset-php-recommendations:
 
 PHP recommendations
 +++++++++++++++++++
 
-This ruleset is collected from the warnings and notes that are available in the PHP manual. For example, return do not require parenthesis.
+This ruleset is a collection of warnings and notes that are available in the PHP manual. For example, return do not require parenthesis.
 
 Total : 0 analysis
 
@@ -5105,7 +5399,7 @@ Performances
 
 This ruleset focuses on performances issues : anything that slows the code's execution.
 
-Total : 52 analysis
+Total : 59 analysis
 
 * :ref:`eval()-usage`
 * :ref:`for-using-functioncall`
@@ -5159,6 +5453,13 @@ Total : 52 analysis
 * :ref:`static-call-may-be-truly-static`
 * :ref:`simplify-foreach`
 * :ref:`too-many-extractions`
+* :ref:`skip-empty-array`
+* :ref:`ellipsis-merge`
+* :ref:`pre-calculate-use`
+* :ref:`substr()-in-loops`
+* :ref:`should-cache-local`
+* :ref:`recalled-condition`
+* :ref:`could-use-yield-from`
 
 Specs
 _____
@@ -5179,7 +5480,7 @@ Preferences
 
 This ruleset identify code with multiple forms, and report when one is more frequent than the others. Echo vs print, shell_exec() vs ``, etc.
 
-Total : 36 analysis
+Total : 39 analysis
 
 * :ref:`true-false-inconsistant-case`
 * :ref:`echo-or-print`
@@ -5217,6 +5518,9 @@ Total : 36 analysis
 * :ref:`empty-array-detection`
 * :ref:`strict-in\_array()-preference`
 * :ref:`date()-versus-datetime-preference`
+* :ref:`mono-or-multibytes-favorite`
+* :ref:`short-or-complete-comparison`
+* :ref:`favorite-casting-method`
 
 Specs
 _____
@@ -5273,7 +5577,7 @@ Security
 
 This ruleset focuses on code security. 
 
-Total : 45 analysis
+Total : 47 analysis
 
 * :ref:`eval()-usage`
 * :ref:`phpinfo`
@@ -5320,6 +5624,8 @@ Total : 45 analysis
 * :ref:`keep-files-access-restricted`
 * :ref:`check-crypto-key-length`
 * :ref:`incompatible-types-with-incoming-values`
+* :ref:`filter-not-raw`
+* :ref:`unvalidated-data-cached-in-session`
 
 Specs
 _____
@@ -5340,7 +5646,7 @@ Semantics
 
 This ruleset focuses on human interpretation of the code. It reviews special values of literals, and named structures.
 
-Total : 33 analysis
+Total : 34 analysis
 
 * :ref:`ambiguous-array-index`
 * :ref:`constants-with-strange-names`
@@ -5374,7 +5680,8 @@ Total : 33 analysis
 * :ref:`method-property-confusion`
 * :ref:`too-many-chained-calls`
 * :ref:`no-variable-needed`
-* :ref:`variables-noinitials`
+* :ref:`no-initial-s-in-variable-names`
+* :ref:`array-access-on-literal-array`
 
 Specs
 _____
@@ -5393,7 +5700,7 @@ Suggestions
 
 This ruleset focuses on possibly better syntax than the one currently used. Those may be code modernization, alternatives, more efficient solutions, or simply left over from older versions. 
 
-Total : 117 analysis
+Total : 123 analysis
 
 * :ref:`while(list()-=-each())`
 * :ref:`function-subscripting,-old-style`
@@ -5480,7 +5787,7 @@ Total : 117 analysis
 * :ref:`static-global-variables-confusion`
 * :ref:`possible-alias-confusion`
 * :ref:`too-much-indented`
-* :ref:`dont-compare-typed-boolean`
+* :ref:`avoid-compare-typed-boolean`
 * :ref:`abstract-away`
 * :ref:`large-try-block`
 * :ref:`cancel-common-method`
@@ -5494,7 +5801,7 @@ Total : 117 analysis
 * :ref:`no-static-variable-in-a-method`
 * :ref:`declare-static-once`
 * :ref:`could-use-match`
-* :ref:`could-use-nullable-object-operator`
+* :ref:`could-use-null-safe-object-operator`
 * :ref:`argument-could-be-iterable`
 * :ref:`multiple-similar-calls`
 * :ref:`could-be-ternary`
@@ -5512,6 +5819,12 @@ Total : 117 analysis
 * :ref:`could-use-class-operator`
 * :ref:`could-use-namespace-magic-constant`
 * :ref:`json\_encode()-without-exceptions`
+* :ref:`class-could-be-readonly`
+* :ref:`use-str\_ends\_with()`
+* :ref:`use-str\_starts\_with()`
+* :ref:`blind-variable-used-beyond-loop`
+* :ref:`could-be-array\_combine()`
+* :ref:`multiline-expressions`
 
 Specs
 _____
