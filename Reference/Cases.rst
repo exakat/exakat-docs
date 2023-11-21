@@ -8179,7 +8179,7 @@ Zencart
 
 :ref:`should-use-operator`, in includes/modules/payment/paypal/paypal_curl.php:378. 
 
-Here, $options is merged with $values if it is an array. If it is not an array, it is probably a null value, and may be ignored. Adding a 'array' type will strengthen the code an catch situations where TransactionSearch() is called with a string, leading to clearer code.
+Here, $options is merged with $values if it is an array. If it is not an array, it is probably a null value, and may be ignored. Adding a 'array' typehint will strengthen the code an catch situations where TransactionSearch() is called with a string, leading to clearer code.
 
 .. code-block:: php
    
@@ -8199,7 +8199,7 @@ SugarCrm
 
 :ref:`should-use-operator`, in include/utils.php:2093:464. 
 
-$override should an an array : if not, it is actually set by default to empty array. Here, a type with a default value of 'array()' would offset the parameter validation to the calling method.
+$override should an an array : if not, it is actually set by default to empty array. Here, a typehint with a default value of 'array()' would offset the parameter validation to the calling method.
 
 .. code-block:: php
    
@@ -8547,7 +8547,7 @@ Phinx
 
 :ref:`strict-comparison-with-booleans`, in src/Phinx/Db/Adapter/MysqlAdapter.php:1131. 
 
-`ìsNull( )`` always returns a boolean : it may be only be ``true`` or ``false``. Until typed properties or return type are used, isNull() may return anything else. 
+`ìsNull( )`` always returns a boolean : it may be only be ``true`` or ``false``. Until typehinted properties or return typehint are used, isNull() may return anything else. 
 
 .. code-block:: php
    

@@ -6,9 +6,9 @@ Overview
 Summary
 -------
 
-* `1603 analyzers`
-* `Compatible with PHP 5.2 to 8.2`_
-* `Migration guide from 5.2 to 8.2`_
+* `1524 analyzers`
+* `Compatible with PHP 5.2 to 8.0`_
+* `Migration guide from 5.2 to 8.0`_
 * `Modernize your code`_
 * `Detect code smells or bugs that impact the code`_
 * `appinfo(): the list of PHP features`_
@@ -18,27 +18,27 @@ Summary
 * `Code visualizations`_
 
 
-1603 analyzers
+1524 analyzers
 -----------------------------
 
-There are currently 1603 different analyzers that check the PHP code to report code smells. Analyzers are inspired by PHP manual, migration documents, community good practices, computer science or simple logic. 
+There are currently 1524 different analyzers that check the PHP code to report code smells. Analyzers are inspired by PHP manual, migration documents, community good practices, computer science or simple logic. 
 
 Some of them track rare occurrences, and some are frequent. Some track careless mistakes and some are highly complex situations. In any case, exakat has your back, and will warn you. 
 
 .. image:: ../images/dashboard.748.png
-    :alt: 1603 analysis with faceted search
+    :alt: 1524 analysis with faceted search
 
 
-Compatible with PHP 5.2 to 8.2
+Compatible with PHP 5.2 to 8.0
 ------------------------------
 
-The Exakat engine audits code with PHP versions that range from PHP 5.2 to PHP 8.3-dev. 
+The Exakat engine audits code with PHP versions that range from PHP 5.2 to PHP 8.0-dev. 
 
 The Exakat engine itself runs on PHP 7.x+ and is regularly checked on those versions. It is possible to run Exakat on 7.2 and audit a code with PHP 5.6. 
 
 
-Migration guidew from 5.2 to 8.2
---------------------------------
+Migration guide from 5.2 to 8.0
+-------------------------------
 
 Every middle version of PHP comes with its migration guide from the manual, and from community's feedback. Incompatibilities are included as analyzers in Exakat, and report everything they can find that may prevent you from moving to the newer version. 
 
