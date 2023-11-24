@@ -114,7 +114,7 @@ fopen() may be tested for existence, readability before using it. Although, it a
     $isReadable = @\fopen($filePath, 'r') !== false;
     
             if (!$filePath || !$isReadable) {
-                throw new \Exception(sprintf(Cannot open file %s \n, $filename));
+                throw new \Exception(sprintf("Cannot open file %s \n", $filename));
             }
 
 
@@ -312,7 +312,7 @@ $tmp[$kk] is &$vv.
     foreach ($tmp as $kk=>$vv)
     								{
     									// Do not use the FilesModel here – tables are locked!
-    									$objFile = $this->Database->prepare(SELECT uuid FROM tl_files WHERE path=?)
+    									$objFile = $this->Database->prepare("SELECT uuid FROM tl_files WHERE path=?")
     															  ->limit(1)
     															  ->execute($this->customizeUploadPath($vv));
     
@@ -960,7 +960,7 @@ This is a typical example of a function mostly controlled by one condition. It c
             if ($validResult == 'existingpatient') {
     /// Long bloc of code
             } else {
-                return '<?xml version=1.0 encoding=UTF-8?>
+                return '<?xml version="1.0" encoding="UTF-8"?>
     			<!-- Edited by XMLSpy -->
     			<note>
     
@@ -1186,7 +1186,7 @@ $e is used both as 'local' variable : it is local to the catch clause, and it is
 .. code-block:: php
    
     try {
-            $res = $Snmp->get_query(get_routing_table);
+            $res = $Snmp->get_query("get_routing_table");
             // remove those not in subnet
             if (sizeof($res)>0) {
                // save for debug
@@ -1205,9 +1205,9 @@ $e is used both as 'local' variable : it is local to the catch clause, and it is
     // on line 132
         // print errors
         if (isset($errors)) {
-            print <hr>;
+            print "<hr>";
             foreach ($errors as $e) {
-                print $Result->show (warning, $e, false, false, true);
+                print $Result->show ("warning", $e, false, false, true);
             }
         }
 
@@ -1225,10 +1225,10 @@ $e starts as an Email(), in the 'getMultipleMessagesFromSugar' case, while a few
 .. code-block:: php
    
     // On line 900, $e is a Email
-            case getMultipleMessagesFromSugar:
-                $GLOBALS['log']->debug(********** EMAIL 2.0 - Asynchronous - at: getMultipleMessagesFromSugar);
+            case "getMultipleMessagesFromSugar":
+                $GLOBALS['log']->debug("********** EMAIL 2.0 - Asynchronous - at: getMultipleMessagesFromSugar");
                 if (isset($_REQUEST['uid']) && !empty($_REQUEST['uid'])) {
-                    $exIds = explode(,, $_REQUEST['uid']);
+                    $exIds = explode(",", $_REQUEST['uid']);
                     $out = array();
     
                     foreach ($exIds as $id) {
@@ -1247,12 +1247,12 @@ $e starts as an Email(), in the 'getMultipleMessagesFromSugar' case, while a few
     
     // lots of code
     // on line 1082
-            case refreshSugarFolders:
+            case "refreshSugarFolders":
                 try {
-                    $GLOBALS['log']->debug(********** EMAIL 2.0 - Asynchronous - at: refreshSugarFolders);
+                    $GLOBALS['log']->debug("********** EMAIL 2.0 - Asynchronous - at: refreshSugarFolders");
                     $rootNode = new ExtNode('', '');
                     $folderOpenState = $current_user->getPreference('folderOpenState', 'Emails');
-                    $folderOpenState = (empty($folderOpenState)) ?  : $folderOpenState;
+                    $folderOpenState = (empty($folderOpenState)) ? "" : $folderOpenState;
                     $ret = $email->et->folder->getUserFolders(
                         $rootNode,
                         sugar_unserialize($folderOpenState),
@@ -1297,7 +1297,7 @@ $value must be an array or a string here.
                     $iniString .= implode($this->nestSeparator, $group)
                                .  ' = '
                                .  $this->prepareValue($value)
-                               .  \n;
+                               .  ""\n"";
                 }
             }
 
@@ -1452,7 +1452,7 @@ The opening an closing tag couldd be moved outside the if condition : they are c
     	                            }
     	                            else
     	                            {
-    	                                print '<td class=center\>'."\n";
+    	                                print '<td class="center">'."\n";
     	                                print '<a href="'.$_SERVER["PHP_SELF"].'?action=set&value='.$name.'&scan_dir='.$module->scandir.'&label='.urlencode($module->name).'">'.img_picto($langs->trans("SetAsDefault"), 'switch_off').'</a>';
     	                                print "</td>";
     	                            }
@@ -1770,7 +1770,7 @@ Those two if structure may definitely merged into one single instruction.
 .. code-block:: php
    
     $success = 1;
-        $checksum = ;
+        $checksum = "";
         if ($outcome === false) {
             $success = 0;
         }
@@ -1781,10 +1781,10 @@ Those two if structure may definitely merged into one single instruction.
             // indeed need the binded values, then will need
             // to include this as a separate array.
     
-            //error_log(STATEMENT: .$statement,0);
-            //error_log(BINDS: .$processed_binds,0);
+            //error_log(""STATEMENT: "".$statement,0);
+            //error_log(""BINDS: "".$processed_binds,0);
             $checksum = sql_checksum_of_modified_row($statement);
-            //error_log(CHECKSUM: .$checksum,0);
+            //error_log(""CHECKSUM: "".$checksum,0);
         }
 
 
@@ -2263,10 +2263,10 @@ Using self makes it obvious that Operator::GetSystemId() is a local call, while 
         static function ReadParams()
         {
             if(!empty($_POST[POST_EXTERN_REQUESTED_INTERNID]))
-                return Communication::GetParameter(POST_EXTERN_REQUESTED_INTERNID,,$c,FILTER_SANITIZE_SPECIAL_CHARS,null,32);
-            else if(!empty($_GET[operator]))
+                return Communication::GetParameter(POST_EXTERN_REQUESTED_INTERNID,"",$c,FILTER_SANITIZE_SPECIAL_CHARS,null,32);
+            else if(!empty($_GET["operator"]))
             {
-                $userid = Communication::GetParameter(operator,,$c,FILTER_SANITIZE_SPECIAL_CHARS,null,32,false,false);
+                $userid = Communication::GetParameter("operator","",$c,FILTER_SANITIZE_SPECIAL_CHARS,null,32,false,false);
                 $sysid = Operator::GetSystemId($userid);
     }
 
@@ -2322,7 +2322,7 @@ foreach() reads $lines into $r, and augment those lines. By the end, the $r vari
             foreach ($lines as &$r) {
                 $r['controls'] = $this->renderControls($r);
                 $r['fileSize'] = GeneralUtility::formatSize($r['size']);
-                $r['message'] = ($r['msg'] && !$this->doesImport ? '<span class=text-danger>' . htmlspecialchars($r['msg']) . '</span>' : '');
+                $r['message'] = ($r['msg'] && !$this->doesImport ? '<span class="text-danger">' . htmlspecialchars($r['msg']) . '</span>' : '');
             }
             $viewData['pagetreeLines'] = $lines;
         } else {
@@ -2340,7 +2340,7 @@ foreach() reads $lines into $r, and augment those lines. By the end, the $r vari
             foreach ($lines as &$r) {
                 $r['controls'] = $this->renderControls($r);
                 $r['fileSize'] = GeneralUtility::formatSize($r['size']);
-                $r['message'] = ($r['msg'] && !$this->doesImport ? '<span class=text-danger>' . htmlspecialchars($r['msg']) . '</span>' : '');
+                $r['message'] = ($r['msg'] && !$this->doesImport ? '<span class="text-danger">' . htmlspecialchars($r['msg']) . '</span>' : '');
             }
             $viewData['remainingRecords'] = $lines;
         }
@@ -2364,7 +2364,7 @@ There are two nested foreach here : they both have referenced blind variables. T
             $len = strlen($data);
             // check if it begins and ends with single quotes
             // if it does, then it double quotes may not be the enclosure
-            if ($len>=2 && $data[0] == " && $data[$len-1] == ") {
+            if ($len>=2 && $data[0] == "'" && $data[$len-1] == "'") {
                 $beginEndWithSingle = true;
                 break;
             }
@@ -2880,10 +2880,10 @@ This code could be turned into a switch() structure.
    
     if ($field[3] === 'text') {
                     echo '
-                            <input type=text id=edit_field_.$field[0]._.$elem[0]. class=edit_item_field input_text text ui-widget-content ui-corner-all size=40 data-field-type=.$field[3]. data-field-masked=.$field[4]. data-field-is-mandatory=.$field[5]. data-template-id=.$templateID.>';
+                            <input type="text" id="edit_field_'.$field[0].'_'.$elem[0].'" class="edit_item_field input_text text ui-widget-content ui-corner-all" size="40" data-field-type="'.$field[3].'" data-field-masked="'.$field[4].'" data-field-is-mandatory="'.$field[5].'" data-template-id="'.$templateID.'">';
                 } else if ($field[3] === 'textarea') {
                     echo '
-                            <textarea id=edit_field_.$field[0]._.$elem[0]. class=edit_item_field input_text text ui-widget-content ui-corner-all colums=40 rows=5 data-field-type=.$field["3"]. data-field-masked=.$field[4]. data-field-is-mandatory=.$field[5]. data-template-id=.$templateID.></textarea>';
+                            <textarea id="edit_field_'.$field[0].'_'.$elem[0].'" class="edit_item_field input_text text ui-widget-content ui-corner-all" colums="40" rows="5" data-field-type="'.$field["3"].'" data-field-masked="'.$field[4].'" data-field-is-mandatory="'.$field[5].'" data-template-id="'.$templateID.'"></textarea>';
                 }
 
 
@@ -2959,7 +2959,7 @@ The ``then`` block is empty and commented : yet, it may have been clearer to mak
 .. code-block:: php
    
     /* checks */
-    if($_POST['action'] == delete) {
+    if($_POST['action'] == "delete") {
     	# no cecks
     }
     else {
@@ -3045,7 +3045,7 @@ There is no need for a semi-colon after a if/then structure.
     public function run()
             {
                 $id = $this->getId();
-                $additionalSettingsJs = showAvatars: . var_export($this->showAvatars, true) . ,;
+                $additionalSettingsJs = "showAvatars: " . var_export($this->showAvatars, true) . ",";
                 if ($this->classes)
                 {
                     $additionalSettingsJs .=  $this->classes . ',';
@@ -3303,7 +3303,7 @@ This acts as a view. The final 'exit' is meant to ensure that no other piece of 
             // Don't try to load a view
             $this->render['view'] = false;
     
-            header(Content-type: {$this->attachment->type});
+            header("Content-type: {$this->attachment->type}");
             $content_type = explode('/', $this->attachment->type);
     
             // Check what type of file we're dealing with.
@@ -3311,13 +3311,13 @@ This acts as a view. The final 'exit' is meant to ensure that no other piece of 
                 // If the mime-type is text, we can just display it
                 // as plain text. I hate having to download files.
                 if ($content_type[0] == 'text') {
-                    header(Content-type: text/plain);
+                    header("Content-type: text/plain");
                 }
-                header("Content-Disposition: filename=\{$this->attachment->name}\\");
+                header("Content-Disposition: filename=\"{$this->attachment->name}\"");
             }
             // Anything else should be downloaded
             else {
-                header("Content-Disposition: attachment; filename=\{$this->attachment->name}\\");
+                header("Content-Disposition: attachment; filename=\"{$this->attachment->name}\"");
             }
     
             // Decode the contents and display it
@@ -3341,10 +3341,10 @@ Here, exit is used as a rudimentary error management. When the version is not co
     $this->version		= (trim($_GET['EaseTemplateVer']))?die('Ease Templae E3!'):'';
 
 
-.. _case-failed-substr-comparison:
+.. _case-failed-substr()-comparison:
 
-Failed Substr Comparison
-########################
+Failed Substr() Comparison
+##########################
 
 .. _case-zurmo-structures-failingsubstrcomparison:
 
@@ -3352,9 +3352,9 @@ Zurmo
 +++++
 
 
-:ref:`failed-substr-comparison`, in app/protected/modules/zurmo/modules/SecurableModule.php:117. 
+:ref:`failed-substr()-comparison`, in app/protected/modules/zurmo/modules/SecurableModule.php:117. 
 
-filterAuditEvent compares a six char string with 'AUDIT\_EVENT\_' which contains 10 chars. This method returns only FALSE. Although it is used only once, the whole block that calls this method is now dead code. 
+filterAuditEvent compares a six char string with 'AUDIT_EVENT_' which contains 10 chars. This method returns only FALSE. Although it is used only once, the whole block that calls this method is now dead code. 
 
 .. code-block:: php
    
@@ -3370,7 +3370,7 @@ MediaWiki
 +++++++++
 
 
-:ref:`failed-substr-comparison`, in includes/media/DjVu.php:263. 
+:ref:`failed-substr()-comparison`, in includes/media/DjVu.php:263. 
 
 $metadata contains data that may be in different formats. When it is a pure XML file, it is 'Old style'. The comment helps understanding that this is not the modern way to go : the Old Style is actually never called, due to a failing condition.
 
@@ -3404,7 +3404,7 @@ $wh is an array, and is read for its index 'id', but it is not modified. The ref
     if($nb_warehouse>1) {
         foreach($warehouses_list as &$wh) {
     
-            print '<td class=right>';
+            print '<td class="right">';
             print empty($product->stock_warehouse[$wh['id']]->real) ? '0' : $product->stock_warehouse[$wh['id']]->real;
             print '</td>';
         }
@@ -3488,7 +3488,7 @@ Static method that could be public.
     
         static function CreateSPAMFilter($_userId,$_base64=true)
         {
-            if(!empty(Server::$Configuration->File[gl_sfa]))
+            if(!empty(Server::$Configuration->File["gl_sfa"]))
             {
 
 
@@ -3511,7 +3511,7 @@ Here, $advocateid may be directly read from ocsql_fetch_assoc(), although, check
    
     $advocateid = false;
     	if (isset($GLOBALS['OC_configAR']['OC_paperAdvocates']) && $GLOBALS['OC_configAR']['OC_paperAdvocates']) {
-    		$ar = ocsql_query(SELECT `advocateid` FROM ` . OCC_TABLE_PAPERADVOCATE . ` WHERE `paperid`=' . safeSQLstr($pid) . ') or err('Unable to retrieve advocate');
+    		$ar = ocsql_query(""SELECT `advocateid` FROM `"" . OCC_TABLE_PAPERADVOCATE . ""` WHERE `paperid`='"" . safeSQLstr($pid) . ""'"") or err('Unable to retrieve advocate');
     		if (ocsql_num_rows($ar) == 1) {
     			$al = ocsql_fetch_assoc($ar);
     			$advocateid = $al['advocateid'];
@@ -3680,7 +3680,7 @@ In that long logical expression, $personDb->pers_cal_date is tested twice
 .. code-block:: php
    
     // *** Filter person's WITHOUT any date's ***
-    			if ($user[group_filter_date]=='j'){
+    			if ($user["group_filter_date"]=='j'){
     				if ($personDb->pers_birth_date=='' AND $personDb->pers_bapt_date==''
     				AND $personDb->pers_death_date=='' AND $personDb->pers_buried_date==''
     				AND $personDb->pers_cal_date=='' AND $personDb->pers_cal_date==''
@@ -3890,7 +3890,7 @@ This code actually loads the file, join it, then split it again. file() would be
 
 .. code-block:: php
    
-    $markerdata = explode( "\n", implode( '', file( $filename ) ) );
+    $markerdata = explode( \n, implode( '', file( $filename ) ) );
 
 
 .. _case-inconsistent-variable-usage:
@@ -3936,21 +3936,21 @@ All those strings ends up as integers.
    
     // Build Currency format table
         $curFormat = Array();
-        $curFormat[036]=2;
-        $curFormat[124]=2;
-        $curFormat[203]=2;
-        $curFormat[208]=2;
-        $curFormat[348]=2;
-        $curFormat[392]=0;
-        $curFormat[554]=2;
-        $curFormat[578]=2;
-        $curFormat[702]=2;
-        $curFormat[752]=2;
-        $curFormat[756]=2;
-        $curFormat[826]=2;
-        $curFormat[840]=2;
-        $curFormat[978]=2;
-        $curFormat[985]=2;
+        $curFormat["036"]=2;
+        $curFormat["124"]=2;
+        $curFormat["203"]=2;
+        $curFormat["208"]=2;
+        $curFormat["348"]=2;
+        $curFormat["392"]=0;
+        $curFormat["554"]=2;
+        $curFormat["578"]=2;
+        $curFormat["702"]=2;
+        $curFormat["752"]=2;
+        $curFormat["756"]=2;
+        $curFormat["826"]=2;
+        $curFormat["840"]=2;
+        $curFormat["978"]=2;
+        $curFormat["985"]=2;
 
 
 .. _case-mautic-structures-indicesareintorstring:
@@ -4470,7 +4470,7 @@ This method returns the list of mime type, by using a hidden global value : ee()
     	 * List of Mime Types
     	 *
     	 * This is a list of mime types.  We use it to validate
-    	 * the allowed types set by the developer
+    	 * the "allowed types" set by the developer
     	 *
     	 * @param	string
     	 * @return	string
@@ -4527,8 +4527,8 @@ This is an unusual way to apply a condition. $bgcolor is '#FFFFFF' by default, a
 
 .. code-block:: php
    
-    $bgcolor = #FFFFFF;
-    	$i % 2 ? 0 : $bgcolor = #F6F6F6;
+    $bgcolor = "#FFFFFF";
+    	$i % 2 ? 0 : $bgcolor = "#F6F6F6";
 
 
 .. _case-openemr-structures-mismatchedternary:
@@ -4867,19 +4867,19 @@ $fullElement is an array most of the time, but finally ends up being a string. S
 .. code-block:: php
    
     $fullElement = [];
-                $fullElement[] = '<div class=checkbox t3js-form-field-eval-null-placeholder-checkbox>';
-                $fullElement[] =     '<label for= . $nullControlNameEscaped . >';
-                $fullElement[] =         '<input type=hidden name= . $nullControlNameEscaped .  value= . $fallbackValue .  />';
-                $fullElement[] =         '<input type=checkbox name= . $nullControlNameEscaped .  id= . $nullControlNameEscaped .  value=1' . $checked . $disabled . ' />';
+                $fullElement[] = '<div class="checkbox t3js-form-field-eval-null-placeholder-checkbox">';
+                $fullElement[] =     '<label for="' . $nullControlNameEscaped . '">';
+                $fullElement[] =         '<input type="hidden" name="' . $nullControlNameEscaped . '" value="' . $fallbackValue . '" />';
+                $fullElement[] =         '<input type="checkbox" name="' . $nullControlNameEscaped . '" id="' . $nullControlNameEscaped . '" value="1"' . $checked . $disabled . ' />';
                 $fullElement[] =         $overrideLabel;
                 $fullElement[] =     '</label>';
                 $fullElement[] = '</div>';
-                $fullElement[] = '<div class=t3js-formengine-placeholder-placeholder>';
-                $fullElement[] =    '<div class=form-control-wrap style=max-width: . $width . px>';
-                $fullElement[] =        '<input type=text class=form-control disabled=disabled value= . $shortenedPlaceholder .  />';
+                $fullElement[] = '<div class="t3js-formengine-placeholder-placeholder">';
+                $fullElement[] =    '<div class="form-control-wrap" style="max-width:' . $width . 'px">';
+                $fullElement[] =        '<input type="text" class="form-control" disabled="disabled" value="' . $shortenedPlaceholder . '" />';
                 $fullElement[] =    '</div>';
                 $fullElement[] = '</div>';
-                $fullElement[] = '<div class=t3js-formengine-placeholder-formfield>';
+                $fullElement[] = '<div class="t3js-formengine-placeholder-formfield">';
                 $fullElement[] =    $expansionHtml;
                 $fullElement[] = '</div>';
                 $fullElement = implode(LF, $fullElement);
@@ -5039,15 +5039,15 @@ Here, '$count % 1' is always true, after the first loop of the foreach. There is
             {
                 if (!empty($def['relationship_field'])) {
                     $label = !empty($def['vname']) ? $def['vname'] : $def['name'];
-                    echo <td> . translate($label, $this->module) . :</td>
-                       . <td><input id='{$def['name']}' name='{$def['name']}'>  ;
+                    echo "<td>" . translate($label, $this->module) . ":</td>" 
+                       . "<td><input id='{$def['name']}' name='{$def['name']}'>"; 
     
                     if ($count%1)
-                        echo </tr><tr>;
+                        echo "</tr><tr>";
                     $count++;
                 }
             }
-            echo </tr></table></form>;
+            echo "</tr></table></form>";
 
 
 .. _case-edusoho-structures-multiplybyone:
@@ -5181,7 +5181,7 @@ The first condition is fairly complex, and could also return early. Then, the se
                     if(empty(Server::$Configuration->File["gl_kbmr"]))
                     {
                         Logging::DebugLog(serialize($_SERVER));
-                        exit("err 888383; can't read $_SERVER[\HTTP_HOST\\] and $_SERVER[\PHP_SELF\\]");
+                        exit("err 888383; can't read \$_SERVER[\"HTTP_HOST\"] and \$_SERVER[\"PHP_SELF\"]");
                     }
                 }
     
@@ -5605,9 +5605,9 @@ Although the file is readable, file() may return false in case of failure. On th
 
 .. code-block:: php
    
-    $file = XOOPS_ROOT_PATH . /modules/{$module_dir}/docs/changelog.txt;
+    $file = XOOPS_ROOT_PATH . "/modules/{$module_dir}/docs/changelog.txt";
                 if ( is_readable( $file ) ) {
-                    $ret .= implode( '<br>', file( $file ) ) . \n;
+                    $ret .= implode( '<br>', file( $file ) ) . "\n";
                 }
 
 
@@ -5698,10 +5698,10 @@ Although they are commented just above, the values provided here are suspicious.
     // FTP parameters that you must customize.  If you are not sending
      // then set $FTP_SERVER to an empty string.
      //
-     $FTP_SERVER = 192.168.0.30;
-     $FTP_USER   = openemr;
-     $FTP_PASS   = secret;
-     $FTP_DIR    = ;
+     $FTP_SERVER = "192.168.0.30";
+     $FTP_USER   = "openemr";
+     $FTP_PASS   = "secret";
+     $FTP_DIR    = "";
 
 
 .. _case-nextcloud-structures-nohardcodedip:
@@ -6199,12 +6199,12 @@ This double-call returns ``$results`` as a boolean, preventing a spill of data t
    
     $result = $this->db_prime()->q(
     			[
-    				DELETE FROM `[prefix]oauth2_clients`
-    				WHERE `id` = '%s',
-    				DELETE FROM `[prefix]oauth2_clients_grant_access`
-    				WHERE `id`	= '%s',
-    				DELETE FROM `[prefix]oauth2_clients_sessions`
-    				WHERE `id`	= '%s'
+    				"DELETE FROM `[prefix]oauth2_clients`
+    				WHERE `id` = '%s'",
+    				"DELETE FROM `[prefix]oauth2_clients_grant_access`
+    				WHERE `id`	= '%s'",
+    				"DELETE FROM `[prefix]oauth2_clients_sessions`
+    				WHERE `id`	= '%s'" 
     			],
     			$id
     		);
@@ -6292,7 +6292,7 @@ Here, $template is modified, when its properties are modified. When only the pro
                 $template->cache_lifetime = $bcachetime;
             }
             $template->setCompileId($xobject->getVar('dirname', 'n'));
-            $tplName = ($tplName = $xobject->getVar('template')) ? db:$tplName : 'db:system_block_dummy.tpl';
+            $tplName = ($tplName = $xobject->getVar('template')) ? "db:$tplName" : 'db:system_block_dummy.tpl';
             $cacheid = $this->generateCacheId('blk_' . $xobject->getVar('bid'));
     // more code to the end of the method
 
@@ -6526,7 +6526,7 @@ $str is actually processed as an array (string of characters), and it is also mo
    
     foreach ($str as $str) {
                     if ($i < $m) {
-                        $str .= \n;
+                        $str .= "\n";
                     }
                     if (0 < $this->maxStringWidth && $this->maxStringWidth < $len = mb_strlen($str, 'UTF-8')) {
                         $str = mb_substr($str, 0, $this->maxStringWidth, 'UTF-8');
@@ -7164,7 +7164,7 @@ There is a property called '$users'. It is easy to mistake $this->users and $use
     	public function group_fetch_users ($group_id) {
     		$out = array ();
     		# get all users
-    		$users = $this->fetch_all_objects(users);
+    		$users = $this->fetch_all_objects("users");
     		# check if $gid in array
     		if($users!==false) {
     			foreach($users as $u) {
@@ -7207,22 +7207,22 @@ The value is SELECTed first in the database, and it is INSERTed if not. This may
         $tmp = mysqli_num_rows(
             mysqli_query(
                 $dbTmp,
-                SELECT * FROM `.$var['tbl_prefix'].misc`
-                WHERE type='.$elem[0].' AND intitule='.$elem[1].'
+                "SELECT * FROM `".$var['tbl_prefix']."misc`
+                WHERE type='".$elem[0]."' AND intitule='".$elem[1]."'" 
             )
         );
         if (intval($tmp) === 0) {
             $queryRes = mysqli_query(
                 $dbTmp,
-                INSERT INTO `.$var['tbl_prefix'].misc`
+                "INSERT INTO `".$var['tbl_prefix']."misc`
                 (`type`, `intitule`, `valeur`) VALUES
-                ('.$elem[0].', '.$elem[1].', '.
-                str_replace(', , $elem[2]).');
+                ('".$elem[0]."', '".$elem[1]."', '".
+                str_replace("'", "", $elem[2])."');" 
             ); // or die(mysqli_error($dbTmp))
         }
     
         // append new setting in config file
-        $config_text .= '.$elem[1].' => '.str_replace(', , $elem[2]).',;
+        $config_text .= "'".$elem[1]."' => '".str_replace("'", "", $elem[2])."',";
                             }
 
 
@@ -7238,17 +7238,17 @@ The value is SELECTed first in the database, and it is INSERTed if not. This may
 
 .. code-block:: php
    
-    $query = select * from facility;
+    $query = "select * from facility";
     $result = mysqli_query($con, $query);
     while ($row = mysqli_fetch_array($result)) {
-        $string = update facility set 
+        $string = "update facility set 
           
               `name`    = 'Facility_{$row['id']}',
               `phone`   = '(000) 000-0000'
     
-            where `id` = {$row['id']};
+            where `id` = {$row['id']}";
     
-        mysqli_query($con, $string) or print Error altering facility table \n;
+        mysqli_query($con, $string) or print "Error altering facility table \n";
         $string = '';
     }
 
@@ -7562,9 +7562,9 @@ Simply calling print once is better than three times. Here too, echo usage would
 
 .. code-block:: php
    
-    print '<input type=text name=quicksearch value=.$quicksearch. size=10 '.$pattern.' title=.__(Minimum:).$min_chars.__(characters).>';
-    			print ' <input type=submit value=.__(Search).>';
-    		print </form>;
+    print '<input type="text" name="quicksearch" value="'.$quicksearch.'" size="10" '.$pattern.' title="'.__('Minimum:').$min_chars.__('characters').'">';
+    			print ' <input type="submit" value="'.__('Search').'">';
+    		print "</form>";
 
 
 .. _case-rethrown-exceptions:
@@ -8100,7 +8100,7 @@ This code could turn the string into an array, with the explode() function, and 
     				continue;
     			}
     
-    			if ($quoted == FALSE && ($char == ' || $char == ") && ($word === '' || $word == '-'))
+    			if ($quoted == FALSE && ($char == '"' || $char == "'") && ($word === '' || $word == '-'))
     			{
     				$quoted = TRUE;
     				$quote = $char;
@@ -8378,7 +8378,7 @@ OpenConf
 
 :ref:`simplify-regex`, in openconf/include.php:964. 
 
-`\%e` is not a special char for PCRE regex, although it look like it. It is a special char for date() or printf(). This preg_replace() may be upgraded to str_replace()
+`\\%e` is not a special char for PCRE regex, although it look like it. It is a special char for date() or printf(). This preg_replace() may be upgraded to str_replace()
 
 .. code-block:: php
    
@@ -8860,7 +8860,7 @@ The default case is actually processed after the switch, by the next if/then str
                 case 'component':
                 case 'priority':
                 case 'severity':
-                    return $ticket[{$column}_name];
+                    return $ticket["{$column}_name"];
                     break;
     
                 // Votes
@@ -9893,13 +9893,13 @@ This class has a long list of private properties. It also has an equally long (m
     class User
     {
         /**
-         * @Column(name=id, type=integer)
-         * @GeneratedValue(strategy=AUTO)
+         * @Column(name=""id"", type=""integer"")
+         * @GeneratedValue(strategy=""AUTO"")
          */
         private $id;
     
         /**
-         * @OneToMany(targetEntity=ONote, mappedBy=user)
+         * @OneToMany(targetEntity=""ONote"", mappedBy=""user"")
          */
         private $oNotes;
 
@@ -10114,7 +10114,7 @@ MediaWiki
 
 :ref:`use-list-with-foreach`, in includes/parser/LinkHolderArray.php:372. 
 
-This foreach reads each element from $entries into entry. $entry, in turn, is written into $pdbk, $title and $displayText for easier reuse. 5 elements are read from $entry, and they could be set in their respective variable in the foreach() with a list call. The only on that can't be set is 'query' which has to be tested.
+This foreach reads each element from $entries into entry. $entry, in turn, is written into $pdbk, $title and $displayText for easier reuse. 5 elements are read from $entry, and they could be set in their respective variable in the foreach() with a list call. The only on that can't be set is 'query' which has to be tested.\
 
 .. code-block:: php
    
@@ -10123,7 +10123,7 @@ This foreach reads each element from $entries into entry. $entry, in turn, is wr
     				$title = $entry['title'];
     				$query = isset( $entry['query'] ) ? $entry['query'] : [];
     				$key = "$ns:$index";
-    				$searchkey = "<!--LINK'\$key-->\;
+    				$searchkey = "<!--LINK'\" $key-->";
     				$displayText = $entry['text'];
     				if ( isset( $entry['selflink'] ) ) {
     					$replacePairs[$searchkey] = Linker::makeSelfLinkObj( $title, $displayText, $query );
@@ -10572,11 +10572,11 @@ Difficut to guess what was before the block here. It doesn't have any usage for 
                     if ($new_row == false) {
                         ?>
     
-                        <div class=row>
+                        <div class="row">
                     <?php
                         $new_row = true;
                     } ?>
-                    <div class=col-sm-3>
+                    <div class="col-sm-3">
 
 
 .. _case-piwigo-structures-uselessbrackets:
@@ -10645,7 +10645,7 @@ Here, the catch clause will intercept a IO problem while writing element on the 
         // More code......
                 try {
                     $filesystem = new Filesystem();
-                    $filesystem->dumpFile($phpConfigFile, '<?php return ' . var_export($config, true) . ';' . \n);
+                    $filesystem->dumpFile($phpConfigFile, '<?php return ' . var_export($config, true) . ';' . "\n");
                 } catch (IOException $e) {
                     return false;
                 }
@@ -11059,7 +11059,7 @@ $_rawContent is unset after being sent to the stream. The variable is a paramete
         {
             if (Tinebase_Core::isLogLevel(Zend_Log::TRACE)) Tinebase_Core::getLogger()->trace(__METHOD__ . '::' . __LINE__ . ' Content: ' . $_rawContent);
             
-            $stream = fopen(php://temp, 'r+');
+            $stream = fopen("php://temp", 'r+');
             fputs($stream, $_rawContent);
             rewind($stream);
             
@@ -11184,9 +11184,9 @@ The first while() is needed, to read the arbitrary long list returned by the SQL
 
 .. code-block:: php
    
-    function getInsuranceReport($pid, $type = primary)
+    function getInsuranceReport($pid, $type = ""primary"")
     {
-        $sql = select * from insurance_data where pid=? and type=? order by date ASC;
+        $sql = ""select * from insurance_data where pid=? and type=? order by date ASC"";
         $res = sqlStatement($sql, array($pid, $type));
         while ($list = sqlFetchArray($res)) {
             while (list($key, $value) = each($list)) {
@@ -11302,7 +11302,7 @@ lame_binary_path is a static property, but it is accessed as a normal property i
     protected function wavToMp3($data)
         {
             if (!file_exists(self::$lame_binary_path) || !is_executable(self::$lame_binary_path)) {
-                throw new Exception('Lame binary  . $this->lame_binary_path .  does not exist or is not executable');
+                throw new Exception('Lame binary "' . $this->lame_binary_path . '" does not exist or is not executable');
             }
 
 
@@ -11620,7 +11620,7 @@ $cond is build from values extracted from the $fields array. Although it is prob
     
     							$lcond = str_replace($val['3'], "$v", $lcond);
     							$cond = $lcond.' '.$rcond;
-    							$cond = str_replace("\|", "|", $cond);
+    							$cond = str_replace("|", "|", $cond);
     
     							eval("$result = ".$cond.";");
 

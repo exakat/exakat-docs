@@ -6,7 +6,7 @@ Rulesets
 Introduction
 ------------------------
 
-Exakat provides unique 1604 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
+Exakat provides unique 1606 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
 
 For more smoothly usage, the ruleset concept allow you to run a set of rules based on a decidated focus. Beawre that a Ruleset run all the associated rules and any needed dependencies.
 
@@ -130,7 +130,7 @@ All
 
 All is a dummy ruleset, which includes all the rules. It is mostly used internally.
 
-Total : 1602 analysis
+Total : 1604 analysis
 
 * :ref:`adding-zero`
 * :ref:`ambiguous-array-index`
@@ -778,7 +778,7 @@ Total : 1602 analysis
 * :ref:`multiple-alias-definitions`
 * :ref:`nested-ifthen`
 * :ref:`cast-to-boolean`
-* :ref:`failed-substr-comparison`
+* :ref:`failed-substr()-comparison`
 * :ref:`should-use-ternary-operator`
 * :ref:`unused-returned-value`
 * :ref:`modernize-empty-with-expression`
@@ -1734,6 +1734,8 @@ Total : 1602 analysis
 * :ref:`static-variable-in-namespace`
 * :ref:`using-deprecated-feature`
 * :ref:`override`
+* :ref:`dont-use-the-type-as-variable`
+* :ref:`static-methods-cannot-call-non-static-methods`
 
 Specs
 _____
@@ -1752,7 +1754,7 @@ Analyze
 
 This ruleset centralizes a large number of classic trap and pitfalls when writing PHP.
 
-Total : 480 analysis
+Total : 481 analysis
 
 * :ref:`adding-zero`
 * :ref:`ambiguous-array-index`
@@ -1960,7 +1962,7 @@ Total : 480 analysis
 * :ref:`multiple-alias-definitions`
 * :ref:`nested-ifthen`
 * :ref:`cast-to-boolean`
-* :ref:`failed-substr-comparison`
+* :ref:`failed-substr()-comparison`
 * :ref:`should-use-ternary-operator`
 * :ref:`unused-returned-value`
 * :ref:`modernize-empty-with-expression`
@@ -2234,6 +2236,7 @@ Total : 480 analysis
 * :ref:`identical-case-in-switch`
 * :ref:`standalonetype-true-false-null`
 * :ref:`could-use-yield-from`
+* :ref:`static-methods-cannot-call-non-static-methods`
 
 Specs
 _____
@@ -3038,7 +3041,7 @@ Total : 625 analysis
 * :ref:`should-make-alias`
 * :ref:`multiple-identical-trait-or-interface`
 * :ref:`multiple-alias-definitions`
-* :ref:`failed-substr-comparison`
+* :ref:`failed-substr()-comparison`
 * :ref:`should-use-ternary-operator`
 * :ref:`drop-else-after-return`
 * :ref:`use-class-operator`
@@ -3442,7 +3445,7 @@ Total : 178 analysis
 * :ref:`should-make-alias`
 * :ref:`multiple-identical-trait-or-interface`
 * :ref:`multiple-alias-definitions`
-* :ref:`failed-substr-comparison`
+* :ref:`failed-substr()-comparison`
 * :ref:`should-use-ternary-operator`
 * :ref:`drop-else-after-return`
 * :ref:`use-class-operator`
@@ -3603,7 +3606,7 @@ Class Review
 
 This ruleset focuses on classes construction issues, and their related structures : traits, interfaces, methods, properties, constants.
 
-Total : 90 analysis
+Total : 91 analysis
 
 * :ref:`final-class-usage`
 * :ref:`final-methods-usage`
@@ -3695,6 +3698,7 @@ Total : 90 analysis
 * :ref:`incompatible-property-between-class-and-trait`
 * :ref:`static-call-with-self`
 * :ref:`cannot-be-readonly`
+* :ref:`static-methods-cannot-call-non-static-methods`
 
 Specs
 _____
@@ -5646,7 +5650,7 @@ Semantics
 
 This ruleset focuses on human interpretation of the code. It reviews special values of literals, and named structures.
 
-Total : 34 analysis
+Total : 35 analysis
 
 * :ref:`ambiguous-array-index`
 * :ref:`constants-with-strange-names`
@@ -5682,6 +5686,7 @@ Total : 34 analysis
 * :ref:`no-variable-needed`
 * :ref:`no-initial-s-in-variable-names`
 * :ref:`array-access-on-literal-array`
+* :ref:`dont-use-the-type-as-variable`
 
 Specs
 _____
@@ -5884,7 +5889,7 @@ Total : 28 analysis
 * :ref:`unresolved-instanceof`
 * :ref:`avoid-substr()-one`
 * :ref:`no-choice`
-* :ref:`failed-substr-comparison`
+* :ref:`failed-substr()-comparison`
 * :ref:`unitialized-properties`
 * :ref:`could-use-str\_repeat()`
 * :ref:`logical-operators-favorite`

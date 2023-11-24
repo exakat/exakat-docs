@@ -114,7 +114,6 @@ List of external links mentioned in this documentation.
 * `Optimize array_unique() <https://github.com/php/php-src/commit/6c2c7a023da4223e41fea0225c51a417fc8eb10d>`_
 * `Option to make json_encode and json_decode throw exceptions on errors <https://ayesh.me/Upgrade-PHP-7.3#json-exceptions>`_
 * `original idea <https://twitter.com/b_viguier/status/940173951908700161>`_
-* `Overload <https://www.php.net/manual/en/language.oop5.overloading.php#object.get>`_
 * `parent <https://www.php.net/manual/en/keyword.parent.php>`_
 * `PCRE <https://www.php.net/pcre>`_
 * `pg_last_error <https://www.php.net/manual/en/function.pg-last-error.php>`_
@@ -139,7 +138,6 @@ List of external links mentioned in this documentation.
 * `Tutorial 1: Let’s learn by example <https://docs.phalconphp.com/en/latest/reference/tutorial.html>`_
 * `Type Casting <https://php.net/manual/en/language.types.type-juggling.php#language.types.typecasting>`_
 * `Type declarations <https://www.php.net/manual/en/functions.arguments.php#functions.arguments.type-declaration>`_
-* `Type Juggling <https://www.php.net/manual/en/language.types.type-juggling.php>`_
 * `unset <https://www.php.net/unset>`_
 * `V8 Javascript Engine <https://bugs.chromium.org/p/v8/issues/list>`_
 * `Vagrant file <https://github.com/exakat/exakat-vagrant>`_

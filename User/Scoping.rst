@@ -324,6 +324,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Classes/ShouldHaveDestructor";
    analyzer[] = "Classes/ShouldUseSelf";
    analyzer[] = "Classes/ShouldUseThis";
+   analyzer[] = "Classes/StaticCannotCallNonStatic";
    analyzer[] = "Classes/StaticContainsThis";
    analyzer[] = "Classes/StaticMethods";
    analyzer[] = "Classes/StaticMethodsCalledFromObject";
@@ -1334,6 +1335,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/DontMixPlusPlus";
    analyzer[] = "Structures/DontReadAndWriteInOneExpression";
    analyzer[] = "Structures/DontReuseForeachSource";
+   analyzer[] = "Structures/DontUseTheTypeAsVariable";
    analyzer[] = "Structures/DoubleAssignation";
    analyzer[] = "Structures/DoubleChecks";
    analyzer[] = "Structures/DoubleInstruction";
@@ -1941,6 +1943,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Classes/ShouldHaveDestructor'
      - 'Classes/ShouldUseSelf'
      - 'Classes/ShouldUseThis'
+     - 'Classes/StaticCannotCallNonStatic'
      - 'Classes/StaticContainsThis'
      - 'Classes/StaticMethods'
      - 'Classes/StaticMethodsCalledFromObject'
@@ -2951,6 +2954,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/DontMixPlusPlus'
      - 'Structures/DontReadAndWriteInOneExpression'
      - 'Structures/DontReuseForeachSource'
+     - 'Structures/DontUseTheTypeAsVariable'
      - 'Structures/DoubleAssignation'
      - 'Structures/DoubleChecks'
      - 'Structures/DoubleInstruction'
@@ -3438,6 +3442,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Classes/ScalarOrObjectProperty";
    analyzer[] = "Classes/ShouldUseSelf";
    analyzer[] = "Classes/ShouldUseThis";
+   analyzer[] = "Classes/StaticCannotCallNonStatic";
    analyzer[] = "Classes/StaticContainsThis";
    analyzer[] = "Classes/StaticMethodsCalledFromObject";
    analyzer[] = "Classes/SwappedArguments";
@@ -3931,6 +3936,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Classes/ScalarOrObjectProperty'
      - 'Classes/ShouldUseSelf'
      - 'Classes/ShouldUseThis'
+     - 'Classes/StaticCannotCallNonStatic'
      - 'Classes/StaticContainsThis'
      - 'Classes/StaticMethodsCalledFromObject'
      - 'Classes/SwappedArguments'
@@ -7073,6 +7079,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Classes/RedefinedProperty";
    analyzer[] = "Classes/RewroteFinalClassConstant";
    analyzer[] = "Classes/ShouldUseSelf";
+   analyzer[] = "Classes/StaticCannotCallNonStatic";
    analyzer[] = "Classes/UndeclaredStaticProperty";
    analyzer[] = "Classes/UndefinedMethod";
    analyzer[] = "Classes/UnfinishedObject";
@@ -7176,6 +7183,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Classes/RedefinedProperty'
      - 'Classes/RewroteFinalClassConstant'
      - 'Classes/ShouldUseSelf'
+     - 'Classes/StaticCannotCallNonStatic'
      - 'Classes/UndeclaredStaticProperty'
      - 'Classes/UndefinedMethod'
      - 'Classes/UnfinishedObject'
@@ -10728,6 +10736,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Php/ClassFunctionConfusion";
    analyzer[] = "Php/ReservedNames";
    analyzer[] = "Structures/ArrayAccessOnLiteralArray";
+   analyzer[] = "Structures/DontUseTheTypeAsVariable";
    analyzer[] = "Structures/PropertyVariableConfusion";
    analyzer[] = "Structures/SGVariablesConfusion";
    analyzer[] = "Structures/TooManyChainedCalls";
@@ -10775,6 +10784,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Php/ClassFunctionConfusion'
      - 'Php/ReservedNames'
      - 'Structures/ArrayAccessOnLiteralArray'
+     - 'Structures/DontUseTheTypeAsVariable'
      - 'Structures/PropertyVariableConfusion'
      - 'Structures/SGVariablesConfusion'
      - 'Structures/TooManyChainedCalls'

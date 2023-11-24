@@ -6,7 +6,7 @@ Release Note
 
 Here is the release note of exakat. 
 
-**Version 2.6.2 (, 2023-11-04)**
+**Version 2.6.4 (, 2023-12-31)**
 
 
 + Architecture
@@ -22,6 +22,43 @@ Here is the release note of exakat.
 
 + Tokenizer
     + 
+
+**Version 2.6.3 (, 2023-12-17)**
+
+
++ Architecture
+    + 
+
++ Cobbler
+    + 
+
++ Report
+    + 
+
++ Analysis
+	+ New analysis : report non-static method called from static method
+
++ Tokenizer
+    + 
+
+**Version 2.6.2 (, 2023-11-21)**
+
+
++ Analysis
+    + New analysis : Casting Method Favorite
+    + Updated analysis : Ellipsis detection improved
+    + New analysis : report arrays that are used for append and direct index access at the same time
+    + New analysis : report get_class() and get_parent_class() without arguments
+    + Updated analysis : Literal inventory now reports float, array() and heredocs
+    + New analysis : report usage of advanced static variable initialisation
+    + New analysis : cannot be readonly
+    + New analysis : report triplet stats from the internal graph
+    + New analysis : report static variables outside a method
+    + Updated analysis : Missing types are now covering class constants too
+    + New analysis : report usage of Deprecated features (CITE, functions, parameters...)
+    + Updated analysis : Could Be Typed * now supports class constants
+    + New analysis : add support for #[Override] before PHP 8.3
+    + New analysis : report variables that use their type as name
 
 **Version 2.6.1 (, 2023-10-19)**
 
@@ -42,19 +79,6 @@ Here is the release note of exakat.
     + Updated analysis : written only variables now take into account isset() too
     + Updated analysis : recursive functions don't report recursion via property or method call()
     + Updated analysis : Shell favorite
-    + New analysis : Casting Method Favorite
-    + Updated analysis : Ellipsis detection improved
-    + New analysis : report arrays that are used for append and direct index access at the same time
-    + New analysis : report get_class() and get_parent_class() without arguments
-    + Updated analysis : Literal inventory now reports float, array() and heredocs
-    + New analysis : report usage of advanced static variable initialisation
-    + New analysis : cannot be readonly
-    + New analysis : report triplet stats from the internal graph
-    + New analysis : report static variables outside a method
-    + Updated analysis : Missing types are now covering class constants too
-    + New analysis : report usage of Deprecated features (CITE, functions, parameters...)
-    + Updated analysis : Could Be Typed * now supports class constants
-    + New analysis : add support for #[Override] before PHP 8.3
 
 **Version 2.6.0 (, 2023-10-04)**
 
