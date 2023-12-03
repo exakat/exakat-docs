@@ -6,7 +6,7 @@ Rulesets
 Introduction
 ------------------------
 
-Exakat provides unique 1606 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
+Exakat provides unique 1610 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
 
 For more smoothly usage, the ruleset concept allow you to run a set of rules based on a decidated focus. Beawre that a Ruleset run all the associated rules and any needed dependencies.
 
@@ -130,7 +130,7 @@ All
 
 All is a dummy ruleset, which includes all the rules. It is mostly used internally.
 
-Total : 1604 analysis
+Total : 1608 analysis
 
 * :ref:`adding-zero`
 * :ref:`ambiguous-array-index`
@@ -339,7 +339,7 @@ Total : 1604 analysis
 * :ref:`cast-usage`
 * :ref:`function-subscripting`
 * :ref:`nested-loops`
-* :ref:`close-tags`
+* :ref:`closing-tags`
 * :ref:`I?=-usage`
 * :ref:`static-methods-can't-contain-$this`
 * :ref:`closure-may-use-$this`
@@ -1736,6 +1736,10 @@ Total : 1604 analysis
 * :ref:`override`
 * :ref:`dont-use-the-type-as-variable`
 * :ref:`static-methods-cannot-call-non-static-methods`
+* :ref:`untyped-no-default-properties`
+* :ref:`trait-is-not-a-type`
+* :ref:`cannot-use-append-for-reading`
+* :ref:`friend-attribute`
 
 Specs
 _____
@@ -1754,7 +1758,7 @@ Analyze
 
 This ruleset centralizes a large number of classic trap and pitfalls when writing PHP.
 
-Total : 481 analysis
+Total : 485 analysis
 
 * :ref:`adding-zero`
 * :ref:`ambiguous-array-index`
@@ -2096,6 +2100,7 @@ Total : 481 analysis
 * :ref:`casting-ternary`
 * :ref:`concat-empty-string`
 * :ref:`concat-and-addition`
+* :ref:`useless-argument`
 * :ref:`no-append-on-source`
 * :ref:`memoize-magiccall`
 * :ref:`unused-class-constant`
@@ -2236,7 +2241,10 @@ Total : 481 analysis
 * :ref:`identical-case-in-switch`
 * :ref:`standalonetype-true-false-null`
 * :ref:`could-use-yield-from`
+* :ref:`append-and-assign-arrays`
 * :ref:`static-methods-cannot-call-non-static-methods`
+* :ref:`trait-is-not-a-type`
+* :ref:`cannot-use-append-for-reading`
 
 Specs
 _____
@@ -2257,7 +2265,7 @@ Appinfo
 
 A set of rules that describes with PHP features is used in the code.
 
-Total : 386 analysis
+Total : 387 analysis
 
 * :ref:`array-index`
 * :ref:`multidimensional-arrays`
@@ -2645,6 +2653,7 @@ Total : 386 analysis
 * :ref:`use-dnf`
 * :ref:`use-enum-case-in-constant-expression`
 * :ref:`new-dynamic-class-constant-syntax`
+* :ref:`untyped-no-default-properties`
 
 Specs
 _____
@@ -2665,7 +2674,7 @@ Attributes
 
 This ruleset gathers all rules that rely on PHP 8.+ attributes.
 
-Total : 6 analysis
+Total : 7 analysis
 
 * :ref:`exit-like-methods`
 * :ref:`using-deprecated-method`
@@ -2673,6 +2682,7 @@ Total : 6 analysis
 * :ref:`missing-attribute-attribute`
 * :ref:`using-deprecated-feature`
 * :ref:`override`
+* :ref:`friend-attribute`
 
 Specs
 _____
@@ -3606,7 +3616,7 @@ Class Review
 
 This ruleset focuses on classes construction issues, and their related structures : traits, interfaces, methods, properties, constants.
 
-Total : 91 analysis
+Total : 93 analysis
 
 * :ref:`final-class-usage`
 * :ref:`final-methods-usage`
@@ -3699,6 +3709,8 @@ Total : 91 analysis
 * :ref:`static-call-with-self`
 * :ref:`cannot-be-readonly`
 * :ref:`static-methods-cannot-call-non-static-methods`
+* :ref:`untyped-no-default-properties`
+* :ref:`trait-is-not-a-type`
 
 Specs
 _____
@@ -3748,7 +3760,7 @@ Total : 28 analysis
 * :ref:`non-lowercase-keywords`
 * :ref:`echo-or-print`
 * :ref:`constant-comparison`
-* :ref:`close-tags`
+* :ref:`closing-tags`
 * :ref:`one-letter-functions`
 * :ref:`wrong-class-name-case`
 * :ref:`bracketless-blocks`

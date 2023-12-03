@@ -140,7 +140,7 @@ The Beauty Canon report displays one result per line. This report lists all issu
 
 The title of the analysis is listed on the left, and the analysis short name is listed on the right, for further documentation.
 
-This analysis uses Analysis as default rule. It may otherwise configured with the -T option.
+This analysis uses "Analysis" as default rule. It may otherwise configured with the -T option.
 
 
 
@@ -1030,12 +1030,12 @@ Simple Json format. It is a flat array of objects, all with the same structure.
         "project": "sculpin",
         "branch": "master",
         "lastCommitId": "b7c9027f05d9bff4dc6e92f36d29c4738bfc0b42",
-        "ruleId": "Classes\/ChildRemoveTypehint",
+        "ruleId": "Classes\\/ChildRemoveTypehint",
         "type": "warning",
         "severity": "major",
         "fixable": "fixable",
-        "file": "\/src\/Sculpin\/Core\/Source\/SourceInterface.php",
-        "namespace": "\sculpin\core\source",
+        "file": "\\/src\\/Sculpin\\/Core\\/Source\\/SourceInterface.php",
+        "namespace": "\\sculpin\\core\\source",
         "class": "",
         "function": "",
         "message": "Child Class Removes Typehint",
@@ -1053,7 +1053,7 @@ This Report may be configured with the [Exakatjson] section, to provide the uuid
 ::
 
     [Exakatjson]
-    uuid=1234567abcd;
+    uuid="1234567abcd";
 
 
 
@@ -1994,10 +1994,10 @@ Exakat measures a large number of code dimensions, such as number of files, line
 ::
 
     {
-    	loc: 95950,
-    	locTotal: 140260,
-    	files: 1824,
-    	tokens: 677213
+    	"loc": 95950,
+    	"locTotal": 140260,
+    	"files": 1824,
+    	"tokens": 677213
     }
 
 
@@ -2008,7 +2008,9 @@ _____
 +--------------+------------------------------------------------------------------+
 | Short name   | Meters                                                           |
 +--------------+------------------------------------------------------------------+
-| Rulesets     | None.                                                            |
+| Rulesets     | This reports works with an arbitrary list of results.            |
+|              |                                                                  |
+|              |                                                                  |
 +--------------+------------------------------------------------------------------+
 | Type         | JSON                                                             |
 +--------------+------------------------------------------------------------------+

@@ -37,9 +37,15 @@ Here is the release note of exakat.
 
 + Analysis
 	+ New analysis : report non-static method called from static method
+	+ New analysis : report properties that are untyped, uninitialized, and no set in the constructor.
+	+ New analysis : report traits used in a type
+	+ New analysis : report short assignations on appends (should not be possible)
+	+ Updated analysis : report usage of static properties with ??= and other short assignations
+	+ New analysis : added support for the friend attribute
 
 + Tokenizer
-    + 
+    + Fixed bug with short assignment left operand not being marked as read as well as written
+    + Added fullnspath to Staticclass atom
 
 **Version 2.6.2 (, 2023-11-21)**
 

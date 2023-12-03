@@ -153,6 +153,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Arrays/WeakType";
    analyzer[] = "Arrays/WeirdIndex";
    analyzer[] = "Arrays/WithCallback";
+   analyzer[] = "Attributes/Friend";
    analyzer[] = "Attributes/MissingAttributeAttribute";
    analyzer[] = "Attributes/ModifyImmutable";
    analyzer[] = "Attributes/NestedAttributes";
@@ -358,6 +359,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Classes/UnresolvedCatch";
    analyzer[] = "Classes/UnresolvedClasses";
    analyzer[] = "Classes/UnresolvedInstanceof";
+   analyzer[] = "Classes/UntypedNoDefaultProperties";
    analyzer[] = "Classes/UnusedClass";
    analyzer[] = "Classes/UnusedConstant";
    analyzer[] = "Classes/UnusedMethods";
@@ -1278,6 +1280,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/BuriedAssignation";
    analyzer[] = "Structures/CalltimePassByReference";
    analyzer[] = "Structures/CanCountNonCountable";
+   analyzer[] = "Structures/CannotUseAppendForReading";
    analyzer[] = "Structures/CastFavorite";
    analyzer[] = "Structures/CastToBoolean";
    analyzer[] = "Structures/CastingTernary";
@@ -1600,6 +1603,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Traits/Php";
    analyzer[] = "Traits/SelfUsingTrait";
    analyzer[] = "Traits/SidelinedMethod";
+   analyzer[] = "Traits/TraitIsNotAType";
    analyzer[] = "Traits/TraitMethod";
    analyzer[] = "Traits/TraitNotFound";
    analyzer[] = "Traits/TraitUsage";
@@ -1772,6 +1776,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Arrays/WeakType'
      - 'Arrays/WeirdIndex'
      - 'Arrays/WithCallback'
+     - 'Attributes/Friend'
      - 'Attributes/MissingAttributeAttribute'
      - 'Attributes/ModifyImmutable'
      - 'Attributes/NestedAttributes'
@@ -1977,6 +1982,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Classes/UnresolvedCatch'
      - 'Classes/UnresolvedClasses'
      - 'Classes/UnresolvedInstanceof'
+     - 'Classes/UntypedNoDefaultProperties'
      - 'Classes/UnusedClass'
      - 'Classes/UnusedConstant'
      - 'Classes/UnusedMethods'
@@ -2897,6 +2903,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/BuriedAssignation'
      - 'Structures/CalltimePassByReference'
      - 'Structures/CanCountNonCountable'
+     - 'Structures/CannotUseAppendForReading'
      - 'Structures/CastFavorite'
      - 'Structures/CastToBoolean'
      - 'Structures/CastingTernary'
@@ -3219,6 +3226,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Traits/Php'
      - 'Traits/SelfUsingTrait'
      - 'Traits/SidelinedMethod'
+     - 'Traits/TraitIsNotAType'
      - 'Traits/TraitMethod'
      - 'Traits/TraitNotFound'
      - 'Traits/TraitUsage'
@@ -3372,6 +3380,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
 
  [Analyze]
    analyzer[] = "Arrays/AmbiguousKeys";
+   analyzer[] = "Arrays/AppendAndAssignArrays";
    analyzer[] = "Arrays/FloatConversionAsIndex";
    analyzer[] = "Arrays/MultipleIdenticalKeys";
    analyzer[] = "Arrays/NoSpreadForHash";
@@ -3545,6 +3554,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Functions/UnusedReturnedValue";
    analyzer[] = "Functions/UseConstantAsArguments";
    analyzer[] = "Functions/UseConstantsAsReturns";
+   analyzer[] = "Functions/UselessArgument";
    analyzer[] = "Functions/UselessReferenceArgument";
    analyzer[] = "Functions/UselessReturn";
    analyzer[] = "Functions/UsesDefaultArguments";
@@ -3648,6 +3658,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/BooleanStrictComparison";
    analyzer[] = "Structures/BreakOutsideLoop";
    analyzer[] = "Structures/BuriedAssignation";
+   analyzer[] = "Structures/CannotUseAppendForReading";
    analyzer[] = "Structures/CastToBoolean";
    analyzer[] = "Structures/CastingTernary";
    analyzer[] = "Structures/CatchShadowsVariable";
@@ -3828,6 +3839,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Traits/DependantTrait";
    analyzer[] = "Traits/EmptyTrait";
    analyzer[] = "Traits/MethodCollisionTraits";
+   analyzer[] = "Traits/TraitIsNotAType";
    analyzer[] = "Traits/TraitNotFound";
    analyzer[] = "Traits/UndefinedInsteadof";
    analyzer[] = "Traits/UndefinedTrait";
@@ -3866,6 +3878,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
   rulesets:
     'Analyze':
      - 'Arrays/AmbiguousKeys'
+     - 'Arrays/AppendAndAssignArrays'
      - 'Arrays/FloatConversionAsIndex'
      - 'Arrays/MultipleIdenticalKeys'
      - 'Arrays/NoSpreadForHash'
@@ -4039,6 +4052,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Functions/UnusedReturnedValue'
      - 'Functions/UseConstantAsArguments'
      - 'Functions/UseConstantsAsReturns'
+     - 'Functions/UselessArgument'
      - 'Functions/UselessReferenceArgument'
      - 'Functions/UselessReturn'
      - 'Functions/UsesDefaultArguments'
@@ -4142,6 +4156,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/BooleanStrictComparison'
      - 'Structures/BreakOutsideLoop'
      - 'Structures/BuriedAssignation'
+     - 'Structures/CannotUseAppendForReading'
      - 'Structures/CastToBoolean'
      - 'Structures/CastingTernary'
      - 'Structures/CatchShadowsVariable'
@@ -4322,6 +4337,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Traits/DependantTrait'
      - 'Traits/EmptyTrait'
      - 'Traits/MethodCollisionTraits'
+     - 'Traits/TraitIsNotAType'
      - 'Traits/TraitNotFound'
      - 'Traits/UndefinedInsteadof'
      - 'Traits/UndefinedTrait'
@@ -4398,6 +4414,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Classes/StaticMethods";
    analyzer[] = "Classes/StaticProperties";
    analyzer[] = "Classes/TestClass";
+   analyzer[] = "Classes/UntypedNoDefaultProperties";
    analyzer[] = "Classes/VariableClasses";
    analyzer[] = "Composer/Autoload";
    analyzer[] = "Composer/UseComposer";
@@ -4797,6 +4814,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Classes/StaticMethods'
      - 'Classes/StaticProperties'
      - 'Classes/TestClass'
+     - 'Classes/UntypedNoDefaultProperties'
      - 'Classes/VariableClasses'
      - 'Composer/Autoload'
      - 'Composer/UseComposer'
@@ -5171,6 +5189,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
 ::
 
  [Attributes]
+   analyzer[] = "Attributes/Friend";
    analyzer[] = "Attributes/MissingAttributeAttribute";
    analyzer[] = "Attributes/ModifyImmutable";
    analyzer[] = "Attributes/Override";
@@ -5190,6 +5209,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
 
   rulesets:
     'Attributes':
+     - 'Attributes/Friend'
      - 'Attributes/MissingAttributeAttribute'
      - 'Attributes/ModifyImmutable'
      - 'Attributes/Override'
@@ -7086,6 +7106,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Classes/UninitedProperty";
    analyzer[] = "Classes/UnreachableConstant";
    analyzer[] = "Classes/UnreachableMethod";
+   analyzer[] = "Classes/UntypedNoDefaultProperties";
    analyzer[] = "Classes/UnusedConstant";
    analyzer[] = "Classes/UselessAssignationOfPromotedProperty";
    analyzer[] = "Classes/UselessConstantOverwrite";
@@ -7112,6 +7133,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Traits/IncompatibleProperty";
    analyzer[] = "Traits/SelfUsingTrait";
    analyzer[] = "Traits/SidelinedMethod";
+   analyzer[] = "Traits/TraitIsNotAType";
    analyzer[] = "Traits/UnusedClassTrait";
    analyzer[] = "Traits/UsedOnceTrait";
    analyzer[] = "Typehints/WrongTypeWithDefault";
@@ -7190,6 +7212,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Classes/UninitedProperty'
      - 'Classes/UnreachableConstant'
      - 'Classes/UnreachableMethod'
+     - 'Classes/UntypedNoDefaultProperties'
      - 'Classes/UnusedConstant'
      - 'Classes/UselessAssignationOfPromotedProperty'
      - 'Classes/UselessConstantOverwrite'
@@ -7216,6 +7239,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Traits/IncompatibleProperty'
      - 'Traits/SelfUsingTrait'
      - 'Traits/SidelinedMethod'
+     - 'Traits/TraitIsNotAType'
      - 'Traits/UnusedClassTrait'
      - 'Traits/UsedOnceTrait'
      - 'Typehints/WrongTypeWithDefault'

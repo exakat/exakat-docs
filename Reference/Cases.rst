@@ -625,9 +625,9 @@ $line is build in several steps, then then final version is added to $content. I
    
     foreach($records as $record)
             {
-                $line = implode("\\ . getDelimiter() . "\\, $record);
-                $line = "\\ . $line;
-                $line .= "\\r\n\;
+                $line = implode("\"" . getDelimiter() . "\"", $record);
+                $line = "\"" . $line;
+                $line .= "\"\r\n";
                 $line = parseRelateFields($line, $record, $customRelateFields);
                 $content .= $line;
             }
@@ -1089,7 +1089,7 @@ The array_walk() function is called on the plugin's list. Each element is regist
                 $plugins,
                 function ($plugin) use ($app) {
                     /** @var Plugin $plugin */
-                    $provider = (strpos($plugin->getClassName(), '\') === false)
+                    $provider = (strpos($plugin->getClassName(), '\\') === false)
                         ? sprintf('phpDocumentor\Plugin\%s\ServiceProvider', $plugin->getClassName())
                         : $plugin->getClassName();
                     if (!class_exists($provider)) {
@@ -2416,7 +2416,7 @@ The ConstructHiddenValues function builds the ConstructHiddenSubValues function.
                 }
             } else // Exit recurse
             {
-                $Result = "<input type="hidden" name=\\ . htmlspecialchars($Name) . "\" value=\"" . htmlspecialchars($Value) . "\/>\n\;
+                $Result = "<input type="hidden" name=\"" . htmlspecialchars($Name) . "\" value=\"" . htmlspecialchars($Value) . "\" />\n";
             }
     
             return $Result;
@@ -3180,15 +3180,15 @@ This actually decodes into a copyright notice.
 
 'function cleanAndSanitizeScriptHeader(& $output)
                         {
-                            $requiredOne = <span>Copyright &#169; Zurmo Inc., 2013. All rights reserved.;....'
+                            $requiredOne = "<span>Copyright &#169; Zurmo Inc., 2013. All rights reserved.";....'
 
 
 .. code-block:: php
    
-    eval(\x66\x75\x6e\x63\x74\x69\x6f\x6e\x20\x63\x6c\x65\x61\x6e\x41\x6e\x64\x53\x61\x6e\x69\x74\x69\x7a\x65\x53\x63\x72 .
-         \x69\x70\x74\x48\x65\x61\x64\x65\x72\x28\x26\x20\x24\x6f\x75\x74\x70\x75\x74\x29\x0d\x0a\x20\x20\x20\x20\x20\x20 .
-         \x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x7b\x0d\x0a\x20\x20\x20\x20\x20\x20\x20 .
-         \x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x24\x72\x65\x71\x75\x69\x72 .
+    eval("\x66\x75\x6e\x63\x74\x69\x6f\x6e\x20\x63\x6c\x65\x61\x6e\x41\x6e\x64\x53\x61\x6e\x69\x74\x69\x7a\x65\x53\x63\x72" .
+         "\x69\x70\x74\x48\x65\x61\x64\x65\x72\x28\x26\x20\x24\x6f\x75\x74\x70\x75\x74\x29\x0d\x0a\x20\x20\x20\x20\x20\x20" .
+         "\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x7b\x0d\x0a\x20\x20\x20\x20\x20\x20\x20" .
+         "\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x24\x72\x65\x71\x75\x69\x72" .
          // several more lines like that
 
 
@@ -3592,12 +3592,12 @@ Use expression is only reached when the csrf token is checked. This probably sav
      */
     
     
-    require_once(../../globals.php);
-    require_once($srcdir/patient.inc);
-    require_once($srcdir/options.inc.php);
+    require_once("../../globals.php");
+    require_once("$srcdir/patient.inc");
+    require_once("$srcdir/options.inc.php");
     
     if (!empty($_POST)) {
-        if (!verifyCsrfToken($_POST[csrf_token_form])) {
+        if (!verifyCsrfToken($_POST["csrf_token_form"])) {
             csrfNotVerified();
         }
     }
@@ -4400,9 +4400,9 @@ The three calls to str_replace() could be replaced by one, using array arguments
     static function jsValue($string) {
             return
                 preg_replace('/\r?\n/', "\n",
-                str_replace('"', "\\\,
+                str_replace('"', "\"",
                 str_replace("'", "\'",
-                str_replace("\", "\\",
+                str_replace("\\", "\\",
             $string))));
         }
 
@@ -4421,7 +4421,7 @@ Since str_replace is already using an array, the second argument must also be an
    
     $text = strip_tags($text);
     
-            $text = str_replace(array(\n, \r, \t), '', $text);
+            $text = str_replace(array("\n", "\r", "\t"), '', $text);
             $text = str_replace('&nbsp;', ' ', $text);
             $text = trim($text);
 
@@ -4659,8 +4659,8 @@ This code is creating some directories for Javascript or CSS (from the directori
                     if ($env == 'prod') {
                         $checkPaths = [
                             $assetsFullPath,
-                            $assetsFullPath/css,
-                            $assetsFullPath/js,
+                            "$assetsFullPath/css",
+                            "$assetsFullPath/js",
                         ];
                         array_walk($checkPaths, function ($path) {
                             if (!file_exists($path)) {
@@ -9210,7 +9210,7 @@ HuMo-Gen
     			$reltext=$neph." ".$spantext.__(' of ');
     		}
     		else { $reltext=$neph." ".$degree; }
-    	} elseif ($selected_language==he){
+    	} elseif ($selected_language=="he"){
     		if($sexe=='m') { $nephniece = __('nephew'); }
     ///............
 
@@ -9893,13 +9893,13 @@ This class has a long list of private properties. It also has an equally long (m
     class User
     {
         /**
-         * @Column(name=""id"", type=""integer"")
-         * @GeneratedValue(strategy=""AUTO"")
+         * @Column(name=id, type=integer)
+         * @GeneratedValue(strategy=AUTO)
          */
         private $id;
     
         /**
-         * @OneToMany(targetEntity=""ONote"", mappedBy=""user"")
+         * @OneToMany(targetEntity=ONote, mappedBy=user)
          */
         private $oNotes;
 
@@ -10448,7 +10448,7 @@ WordPress
 
 :ref:`use-session\_start()-options`, in wp-admin/includes/misc.php:74. 
 
-This code actually loads the file, join it, then split it again. file() would be sufficient. 
+This code actually loads the file, join it, then split it again. file() would be sufficient.
 
 .. code-block:: php
    
@@ -10839,7 +10839,7 @@ $product is defined with a reference in the method signature, but it is also use
     		$props_to_update = $force ? $meta_key_to_props : $this->get_props_to_update( $product, $meta_key_to_props );
     
     		foreach ( $props_to_update as $meta_key => $prop ) {
-    					$value   = $product->{get_$prop}( 'edit' );
+    					$value   = $product->{"get_$prop"}( 'edit' );
     					$updated = update_post_meta( $product->get_id(), $meta_key, $value );
     			if ( $updated ) {
     				$this->updated_props[] = $prop;
@@ -11714,7 +11714,7 @@ Using PREG_SET_ORDER will remove the usage of the ``$key``variable.
    
     function parse_string_to_array($str)
     	{
-    		preg_match_all('#(\w+)=([\'"])(.*)\2#U', $str, $matches);
+    		preg_match_all('#(\w+)=([\'"])(.*)\\2#U', $str, $matches);
     		$params = array();
     		foreach($matches[1] as $key => $val)
     		{
