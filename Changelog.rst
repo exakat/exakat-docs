@@ -42,6 +42,10 @@ Here is the release note of exakat.
 	+ New analysis : report short assignations on appends (should not be possible)
 	+ Updated analysis : report usage of static properties with ??= and other short assignations
 	+ New analysis : added support for the friend attribute
+	+ New analysis : report method names starting with __
+	+ New analysis : report $array[count($array)] append system
+	+ Updated analysis : unknown directive names cover more PHP functions and combinaisons
+	+ New analysis : report when void is returned by reference in a method
 
 + Tokenizer
     + Fixed bug with short assignment left operand not being marked as read as well as written

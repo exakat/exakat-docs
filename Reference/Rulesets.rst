@@ -6,7 +6,7 @@ Rulesets
 Introduction
 ------------------------
 
-Exakat provides unique 1610 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
+Exakat provides unique 1614 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
 
 For more smoothly usage, the ruleset concept allow you to run a set of rules based on a decidated focus. Beawre that a Ruleset run all the associated rules and any needed dependencies.
 
@@ -130,7 +130,7 @@ All
 
 All is a dummy ruleset, which includes all the rules. It is mostly used internally.
 
-Total : 1608 analysis
+Total : 1612 analysis
 
 * :ref:`adding-zero`
 * :ref:`ambiguous-array-index`
@@ -1740,6 +1740,10 @@ Total : 1608 analysis
 * :ref:`trait-is-not-a-type`
 * :ref:`cannot-use-append-for-reading`
 * :ref:`friend-attribute`
+* :ref:`count()-to-array-append`
+* :ref:`structures-uselesstrailingcomma`
+* :ref:`reserved-methods`
+* :ref:`void-is-not-a-reference`
 
 Specs
 _____
@@ -1758,7 +1762,7 @@ Analyze
 
 This ruleset centralizes a large number of classic trap and pitfalls when writing PHP.
 
-Total : 485 analysis
+Total : 486 analysis
 
 * :ref:`adding-zero`
 * :ref:`ambiguous-array-index`
@@ -2245,6 +2249,7 @@ Total : 485 analysis
 * :ref:`static-methods-cannot-call-non-static-methods`
 * :ref:`trait-is-not-a-type`
 * :ref:`cannot-use-append-for-reading`
+* :ref:`void-is-not-a-reference`
 
 Specs
 _____
@@ -3800,7 +3805,7 @@ CompatibilityPHP53
 
 This ruleset centralizes all analysis for the migration from PHP 5.2 to 5.3.
 
-Total : 95 analysis
+Total : 96 analysis
 
 * :ref:`non-static-methods-called-in-a-static`
 * :ref:`ext-dba`
@@ -3897,6 +3902,7 @@ Total : 95 analysis
 * :ref:`static-variable-can-default-to-arbitrary-expression`
 * :ref:`final-traits-are-final`
 * :ref:`typed-class-constants-usage`
+* :ref:`void-is-not-a-reference`
 
 Specs
 _____
@@ -3917,7 +3923,7 @@ CompatibilityPHP54
 
 This ruleset centralizes all analysis for the migration from PHP 5.3 to 5.4.
 
-Total : 92 analysis
+Total : 93 analysis
 
 * :ref:`non-static-methods-called-in-a-static`
 * :ref:`use-lower-case-for-parent,-static-and-self`
@@ -4011,6 +4017,7 @@ Total : 92 analysis
 * :ref:`static-variable-can-default-to-arbitrary-expression`
 * :ref:`final-traits-are-final`
 * :ref:`typed-class-constants-usage`
+* :ref:`void-is-not-a-reference`
 
 Specs
 _____
@@ -4031,7 +4038,7 @@ CompatibilityPHP55
 
 This ruleset centralizes all analysis for the migration from PHP 5.4 to 5.5.
 
-Total : 85 analysis
+Total : 86 analysis
 
 * :ref:`non-static-methods-called-in-a-static`
 * :ref:`ext-apc`
@@ -4118,6 +4125,7 @@ Total : 85 analysis
 * :ref:`static-variable-can-default-to-arbitrary-expression`
 * :ref:`final-traits-are-final`
 * :ref:`typed-class-constants-usage`
+* :ref:`void-is-not-a-reference`
 
 Specs
 _____
@@ -4138,7 +4146,7 @@ CompatibilityPHP56
 
 This ruleset centralizes all analysis for the migration from PHP 5.5 to 5.6.
 
-Total : 75 analysis
+Total : 76 analysis
 
 * :ref:`non-static-methods-called-in-a-static`
 * :ref:`malformed-octal`
@@ -4215,6 +4223,7 @@ Total : 75 analysis
 * :ref:`static-variable-can-default-to-arbitrary-expression`
 * :ref:`final-traits-are-final`
 * :ref:`typed-class-constants-usage`
+* :ref:`void-is-not-a-reference`
 
 Specs
 _____
@@ -4235,7 +4244,7 @@ CompatibilityPHP70
 
 This ruleset centralizes all analysis for the migration from PHP 5.6 to 7.0.
 
-Total : 66 analysis
+Total : 67 analysis
 
 * :ref:`mcrypt\_create\_iv()-with-default-values`
 * :ref:`magic-visibility`
@@ -4303,6 +4312,7 @@ Total : 66 analysis
 * :ref:`static-variable-can-default-to-arbitrary-expression`
 * :ref:`final-traits-are-final`
 * :ref:`typed-class-constants-usage`
+* :ref:`void-is-not-a-reference`
 
 Specs
 _____
@@ -4323,7 +4333,7 @@ CompatibilityPHP71
 
 This ruleset centralizes all analysis for the migration from PHP 7.0 to 7.1.
 
-Total : 56 analysis
+Total : 57 analysis
 
 * :ref:`ext-mcrypt`
 * :ref:`hash-algorithms-incompatible-with-php-5.3`
@@ -4381,6 +4391,7 @@ Total : 56 analysis
 * :ref:`static-variable-can-default-to-arbitrary-expression`
 * :ref:`final-traits-are-final`
 * :ref:`typed-class-constants-usage`
+* :ref:`void-is-not-a-reference`
 
 Specs
 _____
@@ -4401,7 +4412,7 @@ CompatibilityPHP72
 
 This ruleset centralizes all analysis for the migration from PHP 7.1 to 7.2.
 
-Total : 49 analysis
+Total : 50 analysis
 
 * :ref:`undefined-constants`
 * :ref:`hash-algorithms-incompatible-with-php-5.3`
@@ -4452,6 +4463,7 @@ Total : 49 analysis
 * :ref:`static-variable-can-default-to-arbitrary-expression`
 * :ref:`final-traits-are-final`
 * :ref:`typed-class-constants-usage`
+* :ref:`void-is-not-a-reference`
 
 Specs
 _____
@@ -4472,7 +4484,7 @@ CompatibilityPHP73
 
 This ruleset centralizes all analysis for the migration from PHP 7.2 to 7.3.
 
-Total : 40 analysis
+Total : 41 analysis
 
 * :ref:`new-functions-in-php-7.3`
 * :ref:`unknown-pcre2-option`
@@ -4514,6 +4526,7 @@ Total : 40 analysis
 * :ref:`static-variable-can-default-to-arbitrary-expression`
 * :ref:`final-traits-are-final`
 * :ref:`typed-class-constants-usage`
+* :ref:`void-is-not-a-reference`
 
 Specs
 _____
@@ -4534,7 +4547,7 @@ CompatibilityPHP74
 
 This ruleset centralizes all analysis for the migration from PHP 7.3 to 7.4.
 
-Total : 52 analysis
+Total : 53 analysis
 
 * :ref:`detect-current-class`
 * :ref:`don't-read-and-write-in-one-expression`
@@ -4588,6 +4601,7 @@ Total : 52 analysis
 * :ref:`static-variable-can-default-to-arbitrary-expression`
 * :ref:`final-traits-are-final`
 * :ref:`typed-class-constants-usage`
+* :ref:`void-is-not-a-reference`
 
 Specs
 _____
@@ -4608,7 +4622,7 @@ CompatibilityPHP80
 
 This ruleset centralizes all analysis for the migration from PHP 7.4 to 8.0.
 
-Total : 42 analysis
+Total : 43 analysis
 
 * :ref:`old-style-constructor`
 * :ref:`wrong-optional-parameter`
@@ -4652,6 +4666,7 @@ Total : 42 analysis
 * :ref:`static-variable-can-default-to-arbitrary-expression`
 * :ref:`final-traits-are-final`
 * :ref:`typed-class-constants-usage`
+* :ref:`void-is-not-a-reference`
 
 Specs
 _____
@@ -4672,7 +4687,7 @@ CompatibilityPHP81
 
 This ruleset centralizes all analysis for the migration from PHP 8.0 to 8.1.
 
-Total : 31 analysis
+Total : 32 analysis
 
 * :ref:`php-7.4-removed-directives`
 * :ref:`php-8.0-removed-directives`
@@ -4705,6 +4720,7 @@ Total : 31 analysis
 * :ref:`final-traits-are-final`
 * :ref:`typed-class-constants-usage`
 * :ref:`static-variable-initialisation`
+* :ref:`void-is-not-a-reference`
 
 Specs
 _____
@@ -5415,7 +5431,7 @@ Performances
 
 This ruleset focuses on performances issues : anything that slows the code's execution.
 
-Total : 59 analysis
+Total : 60 analysis
 
 * :ref:`eval()-usage`
 * :ref:`for-using-functioncall`
@@ -5476,6 +5492,7 @@ Total : 59 analysis
 * :ref:`should-cache-local`
 * :ref:`recalled-condition`
 * :ref:`could-use-yield-from`
+* :ref:`count()-to-array-append`
 
 Specs
 _____
