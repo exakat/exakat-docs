@@ -6,7 +6,7 @@ Rulesets
 Introduction
 ------------------------
 
-Exakat provides unique 1614 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
+Exakat provides unique 1616 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
 
 For more smoothly usage, the ruleset concept allow you to run a set of rules based on a decidated focus. Beawre that a Ruleset run all the associated rules and any needed dependencies.
 
@@ -130,7 +130,7 @@ All
 
 All is a dummy ruleset, which includes all the rules. It is mostly used internally.
 
-Total : 1612 analysis
+Total : 1614 analysis
 
 * :ref:`adding-zero`
 * :ref:`ambiguous-array-index`
@@ -931,7 +931,7 @@ Total : 1612 analysis
 * :ref:`mismatched-typehint`
 * :ref:`scalar-or-object-property`
 * :ref:`group-use-trailing-comma`
-* :ref:`assign-with-and-precedence`
+* :ref:`assign-and-lettered-logical-operator-precedence`
 * :ref:`logical-operators-favorite`
 * :ref:`isset-multiple-arguments`
 * :ref:`no-magic-method-with-array`
@@ -1163,7 +1163,7 @@ Total : 1612 analysis
 * :ref:`ext-weakref`
 * :ref:`ext-pcov`
 * :ref:`insufficient-typehint`
-* :ref:`bad-typehint-relay`
+* :ref:`bad-type-relay`
 * :ref:`constant-dynamic-creation`
 * :ref:`php-8.0-removed-functions`
 * :ref:`php-8.0-removed-constants`
@@ -1309,7 +1309,6 @@ Total : 1612 analysis
 * :ref:`can't-implement-traversable`
 * :ref:`parameter-hiding`
 * :ref:`wrong-function-name-case`
-* :ref:`propagate-calls`
 * :ref:`is\_a()-with-string`
 * :ref:`mbstring-unknown-encoding`
 * :ref:`collect-mbstring-encodings`
@@ -1741,9 +1740,12 @@ Total : 1612 analysis
 * :ref:`cannot-use-append-for-reading`
 * :ref:`friend-attribute`
 * :ref:`count()-to-array-append`
-* :ref:`structures-uselesstrailingcomma`
+* :ref:`useless-trailing-comma`
 * :ref:`reserved-methods`
 * :ref:`void-is-not-a-reference`
+* :ref:`can't-call-generator`
+* :ref:`non-integer-nor-string-as-index`
+* :ref:`cant-instantiate-non-class`
 
 Specs
 _____
@@ -1762,7 +1764,7 @@ Analyze
 
 This ruleset centralizes a large number of classic trap and pitfalls when writing PHP.
 
-Total : 486 analysis
+Total : 489 analysis
 
 * :ref:`adding-zero`
 * :ref:`ambiguous-array-index`
@@ -2023,7 +2025,7 @@ Total : 486 analysis
 * :ref:`mismatched-default-arguments`
 * :ref:`mismatched-typehint`
 * :ref:`scalar-or-object-property`
-* :ref:`assign-with-and-precedence`
+* :ref:`assign-and-lettered-logical-operator-precedence`
 * :ref:`no-magic-method-with-array`
 * :ref:`logical-to-in\_array`
 * :ref:`pathinfo()-returns-may-vary`
@@ -2250,6 +2252,9 @@ Total : 486 analysis
 * :ref:`trait-is-not-a-type`
 * :ref:`cannot-use-append-for-reading`
 * :ref:`void-is-not-a-reference`
+* :ref:`can't-call-generator`
+* :ref:`non-integer-nor-string-as-index`
+* :ref:`cant-instantiate-non-class`
 
 Specs
 _____
@@ -3118,7 +3123,7 @@ Total : 625 analysis
 * :ref:`declare-strict\_types-usage`
 * :ref:`encoding-usage`
 * :ref:`ticks-usage`
-* :ref:`assign-with-and-precedence`
+* :ref:`assign-and-lettered-logical-operator-precedence`
 * :ref:`no-magic-method-with-array`
 * :ref:`ext-xattr`
 * :ref:`ext-rdkafka`
@@ -3476,7 +3481,7 @@ Total : 178 analysis
 * :ref:`strings-with-strange-space`
 * :ref:`no-empty-regex`
 * :ref:`no-reference-on-left-side`
-* :ref:`assign-with-and-precedence`
+* :ref:`assign-and-lettered-logical-operator-precedence`
 * :ref:`no-magic-method-with-array`
 * :ref:`is-actually-zero`
 * :ref:`unconditional-break-in-loop`
@@ -3549,9 +3554,8 @@ Changed Behavior
 
 Ruleset with all rules that identify changed behavior across PHP versions. This means that some syntax behave differently, depending on PHP version.
 
-Total : 52 analysis
+Total : 49 analysis
 
-* :ref:`$http\_raw\_post\_data-usage`
 * :ref:`wrong-optional-parameter`
 * :ref:`closure-may-use-$this`
 * :ref:`crypt()-without-salt`
@@ -3571,12 +3575,10 @@ Total : 52 analysis
 * :ref:`eval()-without-try`
 * :ref:`usort-sorting-in-php-7.0`
 * :ref:`func\_get\_arg()-modified`
-* :ref:`php7-relaxed-keyword`
 * :ref:`set\_exception\_handler()-warning`
 * :ref:`using-$this-outside-a-class`
 * :ref:`list-with-keys`
 * :ref:`php-7.1-microseconds`
-* :ref:`no-string-with-append`
 * :ref:`php-7.3-last-empty-argument`
 * :ref:`assert-function-is-reserved`
 * :ref:`no-reference-for-static-property`
@@ -3621,7 +3623,7 @@ Class Review
 
 This ruleset focuses on classes construction issues, and their related structures : traits, interfaces, methods, properties, constants.
 
-Total : 93 analysis
+Total : 94 analysis
 
 * :ref:`final-class-usage`
 * :ref:`final-methods-usage`
@@ -3716,6 +3718,7 @@ Total : 93 analysis
 * :ref:`static-methods-cannot-call-non-static-methods`
 * :ref:`untyped-no-default-properties`
 * :ref:`trait-is-not-a-type`
+* :ref:`cant-instantiate-non-class`
 
 Specs
 _____
@@ -3757,7 +3760,7 @@ Coding conventions
 
 This ruleset centralizes all analysis related to coding conventions. Sometimes, those are easy to extract with static analysis, and so here they are. No all o them are available.
 
-Total : 28 analysis
+Total : 29 analysis
 
 * :ref:`no-plus-one`
 * :ref:`all-uppercase-variables`
@@ -3787,6 +3790,7 @@ Total : 28 analysis
 * :ref:`wrong-case-namespaces`
 * :ref:`wrong-typehinted-name`
 * :ref:`multiple-property-declaration-on-one-line`
+* :ref:`useless-trailing-comma`
 
 Specs
 _____
@@ -4904,7 +4908,7 @@ Dump
 
 This ruleset collects various names given to different structures in the code : for example, variables, classes, methods, constants, etc. It also collects networks of data, like file inclusion or external dependencies.
 
-Total : 54 analysis
+Total : 55 analysis
 
 * :ref:`caught-exceptions`
 * :ref:`environment-variable-usage`
@@ -4951,6 +4955,7 @@ Total : 54 analysis
 * :ref:`collect-calls`
 * :ref:`collect-setlocale`
 * :ref:`argument-counts-per-calls`
+* :ref:`collect-methods-throwing-exceptions`
 * :ref:`collect-throw-calls`
 * :ref:`collect-compared-literals`
 * :ref:`comparison-on-different-types`
@@ -5095,7 +5100,7 @@ IsExt
 
 This is automatically filled, based on the documentation's isExt attribute.
 
-Total : 36 analysis
+Total : 34 analysis
 
 * :ref:`non-static-methods-called-in-a-static`
 * :ref:`static-methods-called-from-object`
@@ -5104,7 +5109,6 @@ Total : 36 analysis
 * :ref:`undefined-classes`
 * :ref:`defined-class-constants`
 * :ref:`undefined-class-constants`
-* :ref:`undefined-functions`
 * :ref:`uses-default-values`
 * :ref:`wrong-number-of-arguments`
 * :ref:`unresolved-use`
@@ -5122,7 +5126,6 @@ Total : 36 analysis
 * :ref:`php-overridden-function`
 * :ref:`php-native-reference-variable`
 * :ref:`interfaces-is-not-implemented`
-* :ref:`make-functioncall-with-reference`
 * :ref:`dont-collect-void`
 * :ref:`array\_map()-passes-by-value`
 * :ref:`only-container-for-reference`
@@ -5151,7 +5154,7 @@ IsPHP
 
 This is automatically filled, based on the documentation's isPHP attribute.
 
-Total : 36 analysis
+Total : 34 analysis
 
 * :ref:`non-static-methods-called-in-a-static`
 * :ref:`static-methods-called-from-object`
@@ -5160,7 +5163,6 @@ Total : 36 analysis
 * :ref:`undefined-classes`
 * :ref:`defined-class-constants`
 * :ref:`undefined-class-constants`
-* :ref:`undefined-functions`
 * :ref:`uses-default-values`
 * :ref:`wrong-number-of-arguments`
 * :ref:`unresolved-use`
@@ -5178,7 +5180,6 @@ Total : 36 analysis
 * :ref:`php-overridden-function`
 * :ref:`php-native-reference-variable`
 * :ref:`interfaces-is-not-implemented`
-* :ref:`make-functioncall-with-reference`
 * :ref:`dont-collect-void`
 * :ref:`array\_map()-passes-by-value`
 * :ref:`only-container-for-reference`
@@ -5207,7 +5208,7 @@ IsStub
 
 This is automatically filled, based on the documentation's isStub attribute.
 
-Total : 34 analysis
+Total : 32 analysis
 
 * :ref:`non-static-methods-called-in-a-static`
 * :ref:`static-methods-called-from-object`
@@ -5216,7 +5217,6 @@ Total : 34 analysis
 * :ref:`undefined-classes`
 * :ref:`defined-class-constants`
 * :ref:`undefined-class-constants`
-* :ref:`undefined-functions`
 * :ref:`uses-default-values`
 * :ref:`wrong-number-of-arguments`
 * :ref:`unresolved-use`
@@ -5232,7 +5232,6 @@ Total : 34 analysis
 * :ref:`php-overridden-function`
 * :ref:`php-native-reference-variable`
 * :ref:`interfaces-is-not-implemented`
-* :ref:`make-functioncall-with-reference`
 * :ref:`dont-collect-void`
 * :ref:`array\_map()-passes-by-value`
 * :ref:`only-container-for-reference`
@@ -5327,7 +5326,7 @@ NoDoc
 
 Ruleset with analysis which are not published in the docs.
 
-Total : 36 analysis
+Total : 35 analysis
 
 * :ref:`php-native-reference-variable`
 * :ref:`create-compact-variables`
@@ -5354,7 +5353,6 @@ Total : 36 analysis
 * :ref:`set-array-class-definition`
 * :ref:`set-class-method-remote-definition`
 * :ref:`make-functioncall-with-reference`
-* :ref:`propagate-calls`
 * :ref:`create-foreach-default`
 * :ref:`extended-typehints`
 * :ref:`php-ext-stub-property-and-method`
@@ -5963,7 +5961,7 @@ Total : 28 analysis
 * :ref:`not-a-scalar-type`
 * :ref:`mismatch-type-and-default`
 * :ref:`insufficient-typehint`
-* :ref:`bad-typehint-relay`
+* :ref:`bad-type-relay`
 * :ref:`wrong-type-with-call`
 * :ref:`missing-typehint`
 * :ref:`fossilized-method`

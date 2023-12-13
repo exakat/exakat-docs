@@ -500,6 +500,26 @@ This piece of code inside a 275 lines method. Besides, there are 11 classes that
                 });
 
 
+.. _case-assign-and-lettered-logical-operator-precedence:
+
+Assign And Lettered Logical Operator Precedence
+###############################################
+
+.. _case-xataface-php-assignand:
+
+xataface
+++++++++
+
+
+:ref:`assign-and-lettered-logical-operator-precedence`, in Dataface/LanguageTool.php:265. 
+
+The usage of 'and' here is a workaround for PHP version that have no support for the coalesce. $autosubmit receives the value of $params['autosubmit'] only if the latter is set. Yet, with = having higher precedence over 'and', $autosubmit is mistaken with the existence of $params['autosubmit'] : its value is actually omitted.
+
+.. code-block:: php
+   
+    $autosubmit = isset($params['autosubmit']) and $params['autosubmit'];
+
+
 .. _case-assign-default-to-properties:
 
 Assign Default To Properties
@@ -584,26 +604,6 @@ _isEnabled may default to true. It could also default to a class constant.
         public function __construct()
         {
             $this->_isEnabled = true;
-
-
-.. _case-assign-with-and-precedence:
-
-Assign With And Precedence
-##########################
-
-.. _case-xataface-php-assignand:
-
-xataface
-++++++++
-
-
-:ref:`assign-with-and-precedence`, in Dataface/LanguageTool.php:265. 
-
-The usage of 'and' here is a workaround for PHP version that have no support for the coalesce. $autosubmit receives the value of $params['autosubmit'] only if the latter is set. Yet, with = having higher precedence over 'and', $autosubmit is mistaken with the existence of $params['autosubmit'] : its value is actually omitted.
-
-.. code-block:: php
-   
-    $autosubmit = isset($params['autosubmit']) and $params['autosubmit'];
 
 
 .. _case-avoid-concat-in-loop:
@@ -1089,7 +1089,7 @@ The array_walk() function is called on the plugin's list. Each element is regist
                 $plugins,
                 function ($plugin) use ($app) {
                     /** @var Plugin $plugin */
-                    $provider = (strpos($plugin->getClassName(), '\\') === false)
+                    $provider = (strpos($plugin->getClassName(), '\') === false)
                         ? sprintf('phpDocumentor\Plugin\%s\ServiceProvider', $plugin->getClassName())
                         : $plugin->getClassName();
                     if (!class_exists($provider)) {
@@ -9197,20 +9197,20 @@ HuMo-Gen
     global $db_functions, $reltext, $sexe, $sexe2, $language, $spantext, $selected_language, $foundX_nr, $rel_arrayX, $rel_arrayspouseX, $spouse;
     global $reltext_nor, $reltext_nor2; // for Norwegian and Danish
     
-    	if($selected_language=="es"){
-    		if($sexe=="m") { $neph=__('nephew'); $span_postfix="o "; $grson='nieto'; }
-    		else { $neph=__('niece'); $span_postfix="a "; $grson='nieta'; }
+    	if($selected_language==es){
+    		if($sexe==m) { $neph=__('nephew'); $span_postfix=o; $grson='nieto'; }
+    		else { $neph=__('niece'); $span_postfix=a; $grson='nieta'; }
     		//$gendiff = abs($generX - $generY); // FOUT
     		$gendiff = abs($generX - $generY) - 1;
     		$gennr=$gendiff-1;
-    		$degree=$grson." ".$gennr.$span_postfix;
+    		$degree=$grson..$gennr.$span_postfix;
     		if($gendiff ==1) { $reltext=$neph.__(' of ');}
     		elseif($gendiff > 1 AND $gendiff < 27) {
     			spanish_degrees($gendiff,$grson);
-    			$reltext=$neph." ".$spantext.__(' of ');
+    			$reltext=$neph..$spantext.__(' of ');
     		}
-    		else { $reltext=$neph." ".$degree; }
-    	} elseif ($selected_language=="he"){
+    		else { $reltext=$neph..$degree; }
+    	} elseif ($selected_language==he){
     		if($sexe=='m') { $nephniece = __('nephew'); }
     ///............
 

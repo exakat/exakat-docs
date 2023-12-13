@@ -177,6 +177,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Classes/CantExtendFinal";
    analyzer[] = "Classes/CantInheritAbstractMethod";
    analyzer[] = "Classes/CantInstantiateClass";
+   analyzer[] = "Classes/CantInstantiateNonClass";
    analyzer[] = "Classes/CantOverwriteFinalConstant";
    analyzer[] = "Classes/CantOverwriteFinalMethod";
    analyzer[] = "Classes/CheckOnCallUsage";
@@ -412,7 +413,6 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Complete/OverwrittenProperties";
    analyzer[] = "Complete/PhpExtStubPropertyMethod";
    analyzer[] = "Complete/PhpNativeReference";
-   analyzer[] = "Complete/PropagateCalls";
    analyzer[] = "Complete/PropagateConstants";
    analyzer[] = "Complete/ReturnTypehint";
    analyzer[] = "Complete/SetArrayClassDefinition";
@@ -724,6 +724,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Functions/AvoidBooleanArgument";
    analyzer[] = "Functions/BadTypehintRelay";
    analyzer[] = "Functions/CallbackNeedsReturn";
+   analyzer[] = "Functions/CanCallGenerator";
    analyzer[] = "Functions/CancelledParameter";
    analyzer[] = "Functions/CannotUseStaticForClosure";
    analyzer[] = "Functions/CantUse";
@@ -1475,6 +1476,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/NoValidCast";
    analyzer[] = "Structures/NoVariableIsACondition";
    analyzer[] = "Structures/NonBreakableSpaceInNames";
+   analyzer[] = "Structures/NonIntStringAsIndex";
    analyzer[] = "Structures/Noscream";
    analyzer[] = "Structures/NotEqual";
    analyzer[] = "Structures/NotNot";
@@ -1804,6 +1806,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Classes/CantExtendFinal'
      - 'Classes/CantInheritAbstractMethod'
      - 'Classes/CantInstantiateClass'
+     - 'Classes/CantInstantiateNonClass'
      - 'Classes/CantOverwriteFinalConstant'
      - 'Classes/CantOverwriteFinalMethod'
      - 'Classes/CheckOnCallUsage'
@@ -2039,7 +2042,6 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Complete/OverwrittenProperties'
      - 'Complete/PhpExtStubPropertyMethod'
      - 'Complete/PhpNativeReference'
-     - 'Complete/PropagateCalls'
      - 'Complete/PropagateConstants'
      - 'Complete/ReturnTypehint'
      - 'Complete/SetArrayClassDefinition'
@@ -2351,6 +2353,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Functions/AvoidBooleanArgument'
      - 'Functions/BadTypehintRelay'
      - 'Functions/CallbackNeedsReturn'
+     - 'Functions/CanCallGenerator'
      - 'Functions/CancelledParameter'
      - 'Functions/CannotUseStaticForClosure'
      - 'Functions/CantUse'
@@ -3102,6 +3105,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/NoValidCast'
      - 'Structures/NoVariableIsACondition'
      - 'Structures/NonBreakableSpaceInNames'
+     - 'Structures/NonIntStringAsIndex'
      - 'Structures/Noscream'
      - 'Structures/NotEqual'
      - 'Structures/NotNot'
@@ -3409,6 +3413,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Classes/AvoidOptionalProperties";
    analyzer[] = "Classes/CantExtendFinal";
    analyzer[] = "Classes/CantInstantiateClass";
+   analyzer[] = "Classes/CantInstantiateNonClass";
    analyzer[] = "Classes/CantOverwriteFinalConstant";
    analyzer[] = "Classes/CheckOnCallUsage";
    analyzer[] = "Classes/CitSameName";
@@ -3522,6 +3527,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Functions/AliasesUsage";
    analyzer[] = "Functions/AvoidBooleanArgument";
    analyzer[] = "Functions/CallbackNeedsReturn";
+   analyzer[] = "Functions/CanCallGenerator";
    analyzer[] = "Functions/CancelledParameter";
    analyzer[] = "Functions/CannotUseStaticForClosure";
    analyzer[] = "Functions/CouldCentralize";
@@ -3780,6 +3786,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/NoSubstrOne";
    analyzer[] = "Structures/NoValidCast";
    analyzer[] = "Structures/NoVariableIsACondition";
+   analyzer[] = "Structures/NonIntStringAsIndex";
    analyzer[] = "Structures/Noscream";
    analyzer[] = "Structures/NotEqual";
    analyzer[] = "Structures/NotNot";
@@ -3908,6 +3915,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Classes/AvoidOptionalProperties'
      - 'Classes/CantExtendFinal'
      - 'Classes/CantInstantiateClass'
+     - 'Classes/CantInstantiateNonClass'
      - 'Classes/CantOverwriteFinalConstant'
      - 'Classes/CheckOnCallUsage'
      - 'Classes/CitSameName'
@@ -4021,6 +4029,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Functions/AliasesUsage'
      - 'Functions/AvoidBooleanArgument'
      - 'Functions/CallbackNeedsReturn'
+     - 'Functions/CanCallGenerator'
      - 'Functions/CancelledParameter'
      - 'Functions/CannotUseStaticForClosure'
      - 'Functions/CouldCentralize'
@@ -4279,6 +4288,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/NoSubstrOne'
      - 'Structures/NoValidCast'
      - 'Structures/NoVariableIsACondition'
+     - 'Structures/NonIntStringAsIndex'
      - 'Structures/Noscream'
      - 'Structures/NotEqual'
      - 'Structures/NotNot'
@@ -6938,14 +6948,11 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Php/MethodCallOnNew";
    analyzer[] = "Php/NeverKeyword";
    analyzer[] = "Php/NoReferenceForStaticProperty";
-   analyzer[] = "Php/NoStringWithAppend";
    analyzer[] = "Php/PHP73LastEmptyArgument";
    analyzer[] = "Php/Php71microseconds";
    analyzer[] = "Php/Php74mbstrrpos3rdArg";
-   analyzer[] = "Php/Php7RelaxedKeyword";
    analyzer[] = "Php/Php81RemovesResources";
    analyzer[] = "Php/PhpErrorMsgUsage";
-   analyzer[] = "Php/RawPostDataUsage";
    analyzer[] = "Php/ReflectionExportIsDeprecated";
    analyzer[] = "Php/ReservedKeywords7";
    analyzer[] = "Php/RestrictGlobalUsage";
@@ -7003,14 +7010,11 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Php/MethodCallOnNew'
      - 'Php/NeverKeyword'
      - 'Php/NoReferenceForStaticProperty'
-     - 'Php/NoStringWithAppend'
      - 'Php/PHP73LastEmptyArgument'
      - 'Php/Php71microseconds'
      - 'Php/Php74mbstrrpos3rdArg'
-     - 'Php/Php7RelaxedKeyword'
      - 'Php/Php81RemovesResources'
      - 'Php/PhpErrorMsgUsage'
-     - 'Php/RawPostDataUsage'
      - 'Php/ReflectionExportIsDeprecated'
      - 'Php/ReservedKeywords7'
      - 'Php/RestrictGlobalUsage'
@@ -7059,6 +7063,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Classes/AvoidOptionArrays";
    analyzer[] = "Classes/CancelCommonMethod";
    analyzer[] = "Classes/CannotBeReadonly";
+   analyzer[] = "Classes/CantInstantiateNonClass";
    analyzer[] = "Classes/CantOverwriteFinalConstant";
    analyzer[] = "Classes/ClassInvasion";
    analyzer[] = "Classes/ConstantClass";
@@ -7165,6 +7170,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Classes/AvoidOptionArrays'
      - 'Classes/CancelCommonMethod'
      - 'Classes/CannotBeReadonly'
+     - 'Classes/CantInstantiateNonClass'
      - 'Classes/CantOverwriteFinalConstant'
      - 'Classes/ClassInvasion'
      - 'Classes/ConstantClass'
@@ -7332,6 +7338,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/HeredocDelimiterFavorite";
    analyzer[] = "Structures/MixedConcatInterpolation";
    analyzer[] = "Structures/PlusEgalOne";
+   analyzer[] = "Structures/UselessTrailingComma";
    analyzer[] = "Structures/YodaComparison";
    analyzer[] = "Type/ShouldBeSingleQuote";
    analyzer[] = "Type/SimilarIntegers";
@@ -7373,6 +7380,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/HeredocDelimiterFavorite'
      - 'Structures/MixedConcatInterpolation'
      - 'Structures/PlusEgalOne'
+     - 'Structures/UselessTrailingComma'
      - 'Structures/YodaComparison'
      - 'Type/ShouldBeSingleQuote'
      - 'Type/SimilarIntegers'
@@ -9439,6 +9447,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Dump/CollectLocalVariableCounts";
    analyzer[] = "Dump/CollectMbstringEncodings";
    analyzer[] = "Dump/CollectMethodCounts";
+   analyzer[] = "Dump/CollectMethodsThrowingExceptions";
    analyzer[] = "Dump/CollectNativeCallsPerExpressions";
    analyzer[] = "Dump/CollectParameterCounts";
    analyzer[] = "Dump/CollectParameterNames";
@@ -9506,6 +9515,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Dump/CollectLocalVariableCounts'
      - 'Dump/CollectMbstringEncodings'
      - 'Dump/CollectMethodCounts'
+     - 'Dump/CollectMethodsThrowingExceptions'
      - 'Dump/CollectNativeCallsPerExpressions'
      - 'Dump/CollectParameterCounts'
      - 'Dump/CollectParameterNames'
@@ -9715,13 +9725,11 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Classes/StaticMethodsCalledFromObject";
    analyzer[] = "Classes/UndefinedClasses";
    analyzer[] = "Classes/UndefinedConstants";
-   analyzer[] = "Complete/MakeFunctioncallWithReference";
    analyzer[] = "Complete/PhpNativeReference";
    analyzer[] = "Constants/UndefinedConstants";
    analyzer[] = "Enums/UndefinedEnumcase";
    analyzer[] = "Functions/DontUseVoid";
    analyzer[] = "Functions/OnlyVariablePassedByReference";
-   analyzer[] = "Functions/UndefinedFunctions";
    analyzer[] = "Functions/UsesDefaultArguments";
    analyzer[] = "Functions/WrongArgumentNameWithPhpFunction";
    analyzer[] = "Functions/WrongNumberOfArguments";
@@ -9764,13 +9772,11 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Classes/StaticMethodsCalledFromObject'
      - 'Classes/UndefinedClasses'
      - 'Classes/UndefinedConstants'
-     - 'Complete/MakeFunctioncallWithReference'
      - 'Complete/PhpNativeReference'
      - 'Constants/UndefinedConstants'
      - 'Enums/UndefinedEnumcase'
      - 'Functions/DontUseVoid'
      - 'Functions/OnlyVariablePassedByReference'
-     - 'Functions/UndefinedFunctions'
      - 'Functions/UsesDefaultArguments'
      - 'Functions/WrongArgumentNameWithPhpFunction'
      - 'Functions/WrongNumberOfArguments'
@@ -9820,13 +9826,11 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Classes/StaticMethodsCalledFromObject";
    analyzer[] = "Classes/UndefinedClasses";
    analyzer[] = "Classes/UndefinedConstants";
-   analyzer[] = "Complete/MakeFunctioncallWithReference";
    analyzer[] = "Complete/PhpNativeReference";
    analyzer[] = "Constants/UndefinedConstants";
    analyzer[] = "Enums/UndefinedEnumcase";
    analyzer[] = "Functions/DontUseVoid";
    analyzer[] = "Functions/OnlyVariablePassedByReference";
-   analyzer[] = "Functions/UndefinedFunctions";
    analyzer[] = "Functions/UsesDefaultArguments";
    analyzer[] = "Functions/WrongArgumentNameWithPhpFunction";
    analyzer[] = "Functions/WrongNumberOfArguments";
@@ -9869,13 +9873,11 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Classes/StaticMethodsCalledFromObject'
      - 'Classes/UndefinedClasses'
      - 'Classes/UndefinedConstants'
-     - 'Complete/MakeFunctioncallWithReference'
      - 'Complete/PhpNativeReference'
      - 'Constants/UndefinedConstants'
      - 'Enums/UndefinedEnumcase'
      - 'Functions/DontUseVoid'
      - 'Functions/OnlyVariablePassedByReference'
-     - 'Functions/UndefinedFunctions'
      - 'Functions/UsesDefaultArguments'
      - 'Functions/WrongArgumentNameWithPhpFunction'
      - 'Functions/WrongNumberOfArguments'
@@ -9925,13 +9927,11 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Classes/StaticMethodsCalledFromObject";
    analyzer[] = "Classes/UndefinedClasses";
    analyzer[] = "Classes/UndefinedConstants";
-   analyzer[] = "Complete/MakeFunctioncallWithReference";
    analyzer[] = "Complete/PhpNativeReference";
    analyzer[] = "Constants/UndefinedConstants";
    analyzer[] = "Enums/UndefinedEnumcase";
    analyzer[] = "Functions/DontUseVoid";
    analyzer[] = "Functions/OnlyVariablePassedByReference";
-   analyzer[] = "Functions/UndefinedFunctions";
    analyzer[] = "Functions/UsesDefaultArguments";
    analyzer[] = "Functions/WrongArgumentNameWithPhpFunction";
    analyzer[] = "Functions/WrongNumberOfArguments";
@@ -9972,13 +9972,11 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Classes/StaticMethodsCalledFromObject'
      - 'Classes/UndefinedClasses'
      - 'Classes/UndefinedConstants'
-     - 'Complete/MakeFunctioncallWithReference'
      - 'Complete/PhpNativeReference'
      - 'Constants/UndefinedConstants'
      - 'Enums/UndefinedEnumcase'
      - 'Functions/DontUseVoid'
      - 'Functions/OnlyVariablePassedByReference'
-     - 'Functions/UndefinedFunctions'
      - 'Functions/UsesDefaultArguments'
      - 'Functions/WrongArgumentNameWithPhpFunction'
      - 'Functions/WrongNumberOfArguments'
@@ -10155,7 +10153,6 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Complete/OverwrittenProperties";
    analyzer[] = "Complete/PhpExtStubPropertyMethod";
    analyzer[] = "Complete/PhpNativeReference";
-   analyzer[] = "Complete/PropagateCalls";
    analyzer[] = "Complete/PropagateConstants";
    analyzer[] = "Complete/ReturnTypehint";
    analyzer[] = "Complete/SetArrayClassDefinition";
@@ -10204,7 +10201,6 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Complete/OverwrittenProperties'
      - 'Complete/PhpExtStubPropertyMethod'
      - 'Complete/PhpNativeReference'
-     - 'Complete/PropagateCalls'
      - 'Complete/PropagateConstants'
      - 'Complete/ReturnTypehint'
      - 'Complete/SetArrayClassDefinition'

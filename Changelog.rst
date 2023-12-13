@@ -46,10 +46,18 @@ Here is the release note of exakat.
 	+ New analysis : report $array[count($array)] append system
 	+ Updated analysis : unknown directive names cover more PHP functions and combinaisons
 	+ New analysis : report when void is returned by reference in a method
+	+ Updated analysis : Can Count Iterable was upgraded with types
+	+ New analysis : can't call a generator directly
+	+ New analysis : report useless trailing comma
+	+ Removed analysis : propagate calls (Complete)
+	+ New analysis : report non-int and non-string used as index in an array call
+	+ New analysis : report attempt to instantiate non-class (e, t, i)
+	+ Updated analysis : Too Many Variables in Method
 
 + Tokenizer
     + Fixed bug with short assignment left operand not being marked as read as well as written
     + Added fullnspath to Staticclass atom
+    + Added support for THROWN, CALLED, YIELDED links in methods
 
 **Version 2.6.2 (, 2023-11-21)**
 
