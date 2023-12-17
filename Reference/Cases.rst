@@ -7164,7 +7164,7 @@ There is a property called '$users'. It is easy to mistake $this->users and $use
     	public function group_fetch_users ($group_id) {
     		$out = array ();
     		# get all users
-    		$users = $this->fetch_all_objects("users");
+    		$users = $this->fetch_all_objects(users);
     		# check if $gid in array
     		if($users!==false) {
     			foreach($users as $u) {
@@ -11302,7 +11302,7 @@ lame_binary_path is a static property, but it is accessed as a normal property i
     protected function wavToMp3($data)
         {
             if (!file_exists(self::$lame_binary_path) || !is_executable(self::$lame_binary_path)) {
-                throw new Exception('Lame binary "' . $this->lame_binary_path . '" does not exist or is not executable');
+                throw new Exception('Lame binary  . $this->lame_binary_path .  does not exist or is not executable');
             }
 
 

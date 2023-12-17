@@ -565,6 +565,13 @@ Analyzers may be configured in the `project/*/config.ini`; they may also be conf
   + maxOverwrite : 8
 
     + Minimal number of method overwrite to consider that any refactor on the method signature is now hard.
+:ref:`Injectable Version <injectable-version>`
+  + injectableVersion : \injectableversion
+
+    + The FQN for the InjectableVersion attribute. By default, it is in the global space
+  + checkInjectableVersion : \checkinjectableversion
+
+    + The FQN for the CheckInjectableVersion attribute. By default, it is in the global space
 :ref:`Keep Files Access Restricted <keep-files-access-restricted>`
   + filePrivileges : 0777
 

@@ -154,10 +154,12 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Arrays/WeirdIndex";
    analyzer[] = "Arrays/WithCallback";
    analyzer[] = "Attributes/Friend";
+   analyzer[] = "Attributes/InjectableVersion";
    analyzer[] = "Attributes/MissingAttributeAttribute";
    analyzer[] = "Attributes/ModifyImmutable";
    analyzer[] = "Attributes/NestedAttributes";
    analyzer[] = "Attributes/Override";
+   analyzer[] = "Attributes/PhpNativeAttributes";
    analyzer[] = "Attributes/UsingDeprecated";
    analyzer[] = "Classes/AbstractConstants";
    analyzer[] = "Classes/AbstractOrImplements";
@@ -276,6 +278,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Classes/MissingVisibility";
    analyzer[] = "Classes/MultipleClassesInFile";
    analyzer[] = "Classes/MultipleDeclarations";
+   analyzer[] = "Classes/MultiplePropertyDeclaration";
    analyzer[] = "Classes/MultiplePropertyDeclarationOnOneLine";
    analyzer[] = "Classes/MultipleTraitOrInterface";
    analyzer[] = "Classes/MutualExtension";
@@ -1783,10 +1786,12 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Arrays/WeirdIndex'
      - 'Arrays/WithCallback'
      - 'Attributes/Friend'
+     - 'Attributes/InjectableVersion'
      - 'Attributes/MissingAttributeAttribute'
      - 'Attributes/ModifyImmutable'
      - 'Attributes/NestedAttributes'
      - 'Attributes/Override'
+     - 'Attributes/PhpNativeAttributes'
      - 'Attributes/UsingDeprecated'
      - 'Classes/AbstractConstants'
      - 'Classes/AbstractOrImplements'
@@ -1905,6 +1910,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Classes/MissingVisibility'
      - 'Classes/MultipleClassesInFile'
      - 'Classes/MultipleDeclarations'
+     - 'Classes/MultiplePropertyDeclaration'
      - 'Classes/MultiplePropertyDeclarationOnOneLine'
      - 'Classes/MultipleTraitOrInterface'
      - 'Classes/MutualExtension'
@@ -5213,6 +5219,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Attributes/MissingAttributeAttribute";
    analyzer[] = "Attributes/ModifyImmutable";
    analyzer[] = "Attributes/Override";
+   analyzer[] = "Attributes/PhpNativeAttributes";
    analyzer[] = "Attributes/UsingDeprecated";
    analyzer[] = "Functions/KillsApp";
    analyzer[] = "Functions/UsingDeprecated";
@@ -5233,6 +5240,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Attributes/MissingAttributeAttribute'
      - 'Attributes/ModifyImmutable'
      - 'Attributes/Override'
+     - 'Attributes/PhpNativeAttributes'
      - 'Attributes/UsingDeprecated'
      - 'Functions/KillsApp'
      - 'Functions/UsingDeprecated'
@@ -7100,6 +7108,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Classes/MismatchProperties";
    analyzer[] = "Classes/MissingAbstractMethod";
    analyzer[] = "Classes/MissingVisibility";
+   analyzer[] = "Classes/MultiplePropertyDeclaration";
    analyzer[] = "Classes/MutualExtension";
    analyzer[] = "Classes/NoParent";
    analyzer[] = "Classes/NoReadonlyAssignationInGlobal";
@@ -7207,6 +7216,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Classes/MismatchProperties'
      - 'Classes/MissingAbstractMethod'
      - 'Classes/MissingVisibility'
+     - 'Classes/MultiplePropertyDeclaration'
      - 'Classes/MutualExtension'
      - 'Classes/NoParent'
      - 'Classes/NoReadonlyAssignationInGlobal'
@@ -9609,6 +9619,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Classes/MagicProperties";
    analyzer[] = "Classes/PromotedProperties";
    analyzer[] = "Constants/Constantnames";
+   analyzer[] = "Functions/MultipleIdenticalClosure";
    analyzer[] = "Php/CookiesVariables";
    analyzer[] = "Php/DateFormats";
    analyzer[] = "Php/IncomingVariables";
@@ -9658,6 +9669,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Classes/MagicProperties'
      - 'Classes/PromotedProperties'
      - 'Constants/Constantnames'
+     - 'Functions/MultipleIdenticalClosure'
      - 'Php/CookiesVariables'
      - 'Php/DateFormats'
      - 'Php/IncomingVariables'
@@ -11362,7 +11374,18 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
 ::
 
  [php-cs-fixable]
-   analyzer[] = "";
+   analyzer[] = "Classes/DontUnsetProperties";
+   analyzer[] = "Namespaces/UnusedUse";
+   analyzer[] = "Php/ImplodeOneArg";
+   analyzer[] = "Php/IsnullVsEqualNull";
+   analyzer[] = "Php/IssetMultipleArgs";
+   analyzer[] = "Php/LogicalInLetters";
+   analyzer[] = "Php/NewExponent";
+   analyzer[] = "Structures/CouldUseDir";
+   analyzer[] = "Structures/ElseIfElseif";
+   analyzer[] = "Structures/MultipleUnset";
+   analyzer[] = "Structures/PHP7Dirname";
+   analyzer[] = "Structures/UseConstant";
 
 
 .. _annex-yaml-php-cs-fixable:
@@ -11376,7 +11399,18 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
 
   rulesets:
     'php-cs-fixable':
-     - ''
+     - 'Classes/DontUnsetProperties'
+     - 'Namespaces/UnusedUse'
+     - 'Php/ImplodeOneArg'
+     - 'Php/IsnullVsEqualNull'
+     - 'Php/IssetMultipleArgs'
+     - 'Php/LogicalInLetters'
+     - 'Php/NewExponent'
+     - 'Structures/CouldUseDir'
+     - 'Structures/ElseIfElseif'
+     - 'Structures/MultipleUnset'
+     - 'Structures/PHP7Dirname'
+     - 'Structures/UseConstant'
 
 
 

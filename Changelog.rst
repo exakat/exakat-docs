@@ -23,7 +23,7 @@ Here is the release note of exakat.
 + Tokenizer
     + 
 
-**Version 2.6.3 (, 2023-12-17)**
+**Version 2.6.4 (, 2023-12-31)**
 
 
 + Architecture
@@ -34,6 +34,18 @@ Here is the release note of exakat.
 
 + Report
     + 
+
++ Analysis
+	+ New analysis : report PHP native attribute usage
+	+ New analysis : check for injectable version, based on attribute declaration
+	+ New analysis : report multiple definition for the same property in a class family
+	+ Refactored analysis : multiply by one now reports +$a as a hidden cast.
+
++ Tokenizer
+    + 
+
+**Version 2.6.3 (, 2023-12-14)**
+
 
 + Analysis
 	+ New analysis : report non-static method called from static method
