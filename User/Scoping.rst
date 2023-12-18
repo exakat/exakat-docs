@@ -1315,6 +1315,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/CouldBeSpaceship";
    analyzer[] = "Structures/CouldBeStatic";
    analyzer[] = "Structures/CouldBeTernary";
+   analyzer[] = "Structures/CouldCastToArray";
    analyzer[] = "Structures/CouldUseArrayFillKeys";
    analyzer[] = "Structures/CouldUseArraySum";
    analyzer[] = "Structures/CouldUseArrayUnique";
@@ -1411,6 +1412,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/InvalidDateScanningFormat";
    analyzer[] = "Structures/InvalidPackFormat";
    analyzer[] = "Structures/InvalidRegex";
+   analyzer[] = "Structures/IsAVersusInstanceof";
    analyzer[] = "Structures/IsZero";
    analyzer[] = "Structures/IssetWithConstant";
    analyzer[] = "Structures/JsonEncodeExceptions";
@@ -2947,6 +2949,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/CouldBeSpaceship'
      - 'Structures/CouldBeStatic'
      - 'Structures/CouldBeTernary'
+     - 'Structures/CouldCastToArray'
      - 'Structures/CouldUseArrayFillKeys'
      - 'Structures/CouldUseArraySum'
      - 'Structures/CouldUseArrayUnique'
@@ -3043,6 +3046,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/InvalidDateScanningFormat'
      - 'Structures/InvalidPackFormat'
      - 'Structures/InvalidRegex'
+     - 'Structures/IsAVersusInstanceof'
      - 'Structures/IsZero'
      - 'Structures/IssetWithConstant'
      - 'Structures/JsonEncodeExceptions'
@@ -10181,6 +10185,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Complete/SetParentDefinition";
    analyzer[] = "Complete/SolveTraitMethods";
    analyzer[] = "Complete/VariableTypehint";
+   analyzer[] = "Variables/IsLocalConstant";
 
 
 .. _annex-yaml-nodoc:
@@ -10229,6 +10234,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Complete/SetParentDefinition'
      - 'Complete/SolveTraitMethods'
      - 'Complete/VariableTypehint'
+     - 'Variables/IsLocalConstant'
 
 
 
@@ -10511,6 +10517,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/GtOrLtFavorite";
    analyzer[] = "Structures/HeredocDelimiterFavorite";
    analyzer[] = "Structures/IfThenReturnFavorite";
+   analyzer[] = "Structures/IsAVersusInstanceof";
    analyzer[] = "Structures/NewLineStyle";
    analyzer[] = "Structures/NotOrNot";
    analyzer[] = "Structures/OneExpressionBracketsConsistency";
@@ -10563,6 +10570,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/GtOrLtFavorite'
      - 'Structures/HeredocDelimiterFavorite'
      - 'Structures/IfThenReturnFavorite'
+     - 'Structures/IsAVersusInstanceof'
      - 'Structures/NewLineStyle'
      - 'Structures/NotOrNot'
      - 'Structures/OneExpressionBracketsConsistency'
@@ -10952,6 +10960,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/CouldBeArrayCombine";
    analyzer[] = "Structures/CouldBeSpaceship";
    analyzer[] = "Structures/CouldBeTernary";
+   analyzer[] = "Structures/CouldCastToArray";
    analyzer[] = "Structures/CouldUseArrayFillKeys";
    analyzer[] = "Structures/CouldUseArraySum";
    analyzer[] = "Structures/CouldUseArrayUnique";
@@ -11088,6 +11097,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/CouldBeArrayCombine'
      - 'Structures/CouldBeSpaceship'
      - 'Structures/CouldBeTernary'
+     - 'Structures/CouldCastToArray'
      - 'Structures/CouldUseArrayFillKeys'
      - 'Structures/CouldUseArraySum'
      - 'Structures/CouldUseArrayUnique'

@@ -5,7 +5,7 @@ Preferences
 
 This ruleset identify code with multiple forms, and report when one is more frequent than the others. Echo vs print, shell_exec() vs ``, etc.
 
-Total : 39 analysis
+Total : 40 analysis
 
 * :ref:`true-false-inconsistant-case`
 * :ref:`echo-or-print`
@@ -46,6 +46,7 @@ Total : 39 analysis
 * :ref:`mono-or-multibytes-favorite`
 * :ref:`short-or-complete-comparison`
 * :ref:`favorite-casting-method`
+* :ref:`is\_a()-versus-instanceof`
 
 Specs
 _____

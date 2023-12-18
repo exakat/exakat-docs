@@ -5,7 +5,7 @@ All
 
 All is a dummy ruleset, which includes all the rules. It is mostly used internally.
 
-Total : 1617 analysis
+Total : 1619 analysis
 
 * :ref:`adding-zero`
 * :ref:`ambiguous-array-index`
@@ -1624,6 +1624,8 @@ Total : 1617 analysis
 * :ref:`php-native-attributes`
 * :ref:`injectable-version`
 * :ref:`multiple-property-declaration`
+* :ref:`is\_a()-versus-instanceof`
+* :ref:`could-cast-to-array`
 
 Specs
 _____

@@ -5,7 +5,7 @@ NoDoc
 
 Ruleset with analysis which are not published in the docs.
 
-Total : 35 analysis
+Total : 36 analysis
 
 * :ref:`php-native-reference-variable`
 * :ref:`create-compact-variables`
@@ -36,6 +36,7 @@ Total : 35 analysis
 * :ref:`extended-typehints`
 * :ref:`php-ext-stub-property-and-method`
 * :ref:`variable-anf-property-typehint`
+* :ref:`variable-is-a-local-constant`
 * :ref:`is-stub-structure`
 * :ref:`is-php-structure`
 * :ref:`is-extension-structure`

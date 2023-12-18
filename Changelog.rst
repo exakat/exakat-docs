@@ -40,9 +40,14 @@ Here is the release note of exakat.
 	+ New analysis : check for injectable version, based on attribute declaration
 	+ New analysis : report multiple definition for the same property in a class family
 	+ Refactored analysis : multiply by one now reports +$a as a hidden cast.
+	+ New analysis : is_a() or instanceof favorite
+	+ Refactored analysis : Use Stdclass has extended coverage now
+	+ Refactored analysis : Undefined Classes includes Enum now
+	+ Refactored analysis : Pss outside a class include Enum now
+	+ New analysis : suggest using (array)
 
 + Tokenizer
-    + 
+    + Added CALLED link to new calls
 
 **Version 2.6.3 (, 2023-12-14)**
 
