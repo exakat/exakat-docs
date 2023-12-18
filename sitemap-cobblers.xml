@@ -120,3 +120,31 @@
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Cobblers/Functions/RenameParameter.html</loc>
  </url>
+ <url>
+  <loc>https://exakat.readthedocs.io/en/latest/Reference/Cobblers/Classes/RenameProperty.html</loc>
+ </url>
+ <url>
+  <loc>https://exakat.readthedocs.io/en/latest/Reference/Cobblers/Functions/SetNullType.html</loc>
+ </url>
+ <url>
+  <loc>https://exakat.readthedocs.io/en/latest/Reference/Cobblers/Functions/SetTypeVoid.html</loc>
+ </url>
+ <url>
+  <loc>https://exakat.readthedocs.io/en/latest/Reference/Cobblers/Functions/SetTypehints.html</loc>
+ </url>
+ <url>
+  <loc>https://exakat.readthedocs.io/en/latest/Reference/Cobblers/Classes/SplitPropertyDefinitions.html</loc>
+ </url>
+ <url>
+  <loc>https://exakat.readthedocs.io/en/latest/Reference/Cobblers/Structures/SwitchToMatch.html</loc>
+ </url>
+ <url>
+  <loc>https://exakat.readthedocs.io/en/latest/Reference/Cobblers/Namespaces/UseAlias.html</loc>
+ </url>
+ <url>
+  <loc>https://exakat.readthedocs.io/en/latest/Reference/Cobblers/Classes/VarToPublic.html</loc>
+ </url>
+ <url>
+  <loc>https://exakat.readthedocs.io/en/latest/Reference/Cobblers/Structures/ArrayKeysSpeedup.html</loc>
+ </url>
+</urlset>
