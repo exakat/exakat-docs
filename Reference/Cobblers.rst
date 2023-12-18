@@ -12,6 +12,9 @@ Cobblers are a complement to code analysis : the analysis spot code to be fixed,
 List of Cobblers
 --------------------------
 
+.. toctree::
+   :maxdepth: 1
+
    Cobblers/Structures/AddBracketsToSingleInstructions.rst
    Cobblers/Classes/AddFinalClass.rst
    Cobblers/Structures/AddNoScream.rst
