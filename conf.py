@@ -56,7 +56,7 @@ author = u'Damien Seguy'
 # built documents.
 #
 # The short X.Y version.
-version = u'2.3.6'
+version = u'2.6.4'
 # The full version, including alpha/beta/rc tags.
 release = u'1'
 
@@ -291,3 +291,9 @@ from sphinx.highlighting import lexers
 from pygments.lexers.web import PhpLexer
 lexers["php"] = PhpLexer(startinline=True, linenos=1)
 lexers["php-annotations"] = PhpLexer(startinline=True, linenos=1)
+
+html_extra_path = ["googlee919cb0917e4fefc.html", 
+					"robots.txt",
+					"sitemap-rulesets.xml",
+					"sitemap-cobblers.xml"
+					]
