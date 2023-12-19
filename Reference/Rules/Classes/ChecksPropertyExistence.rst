@@ -1,0 +1,60 @@
+.. _classes-checkspropertyexistence:
+
+.. _checks-property-existence:
+
+Checks Property Existence
++++++++++++++++++++++++++
+
+  This analysis reports checks property existence. 
+
+In PHP 8.2, non-specified properties are discouraged : they should always be defined in the class code. When this guideline is applied, properties always exists, and a call to `property_exists() <https://www.php.net/property_exists>`_ is now useless.
+
+Some situations are still legit : 
++ When the class is ``stdClass``, where no property is initially defined. This may be the case of JSON data, or arrays cast to objects.
++ When the class uses magic methods, in particular `__get() <https://www.php.net/manual/en/language.oop5.magic.php>`_, `__set() <https://www.php.net/manual/en/language.oop5.magic.php>`_ and `__isset() <https://www.php.net/manual/en/language.oop5.magic.php>`_.
+
+
+.. code-block:: php
+   
+   <?php
+   
+   class x {
+       private $a = 1;
+       
+       function foo() {
+           $this->cache = $this->a + 1;
+       }
+   
+   }
+   
+   ?>
+
+
+In this analysis, `isset() <https://www.www.php.net/isset>`_ and `property_exists() <https://www.php.net/property_exists>`_ are both used to detect this checking behavior. `property_exists() <https://www.php.net/property_exists>`_ is actually the only method to actually check the existence, since `isset() <https://www.www.php.net/isset>`_ will confuse non-existing properties and ``null``. 
+
+While the behavior is deprecated in PHP 8.2, it is recommended to review older code and remove it. It will both ensure forward compatibility and cleaner, faster local code.
+
+Specs
+_____
+
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Short name   | Classes/ChecksPropertyExistence                                                                                         |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`CompatibilityPHP82 <ruleset-CompatibilityPHP82>`                                        |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Exakat since | 2.3.3                                                                                                                   |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| PHP Version  | All                                                                                                                     |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Severity     | Minor                                                                                                                   |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Time To Fix  | Quick (30 mins)                                                                                                         |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Precision    | High                                                                                                                    |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Features     | stdclass, property                                                                                                      |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+
+

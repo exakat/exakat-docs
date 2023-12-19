@@ -1,0 +1,74 @@
+.. _php-shouldusearrayfilter:
+
+.. _should-use-array\_filter():
+
+Should Use array_filter()
++++++++++++++++++++++++++
+
+  Should use `array_filter() <https://www.php.net/array_filter>`_.
+
+`array_filter() <https://www.php.net/array_filter>`_ is a native PHP function, that extract elements from an array, based on a custom call. Using `array_filter() <https://www.php.net/array_filter>`_ shortens your code, and allows for reusing the filtering logic across the application, instead of hard coding it every time.
+
+
+.. code-block:: php
+   
+   <?php
+   
+   $a = range(0, 10); // integers from 0 to 10
+   
+   // Extracts odd numbers
+   $odds = array_filter($a, function($x) { return $x % 2; });
+   $odds = array_filter($a, 'odd');
+   
+   // Slow and cumbersome code for extracting odd numbers
+   $odds = array();
+   foreach($a as $v) {
+       if ($a % 2) { // same filter than the closure above, or the odd function below
+           $bColumn[] = $v;
+       }
+   }
+   
+   function foo($x) {
+       return $x % 2; 
+   }
+   
+   ?>
+
+
+`array_filter() <https://www.php.net/array_filter>`_ is faster than `foreach() <https://www.php.net/manual/en/control-structures.foreach.php>`_ (with or without the `isset() <https://www.www.php.net/isset>`_ test) with 3 elements or more, and it is significantly faster beyond 5 elements. Memory consumption is the same.
+
+See also `array_filter <https://php.net/array_filter>`_.
+
+
+Suggestions
+___________
+
+* Use array_filter()
+
+
+
+
+Specs
+_____
+
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Short name   | Php/ShouldUseArrayFilter                                                                                                |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Suggestions <ruleset-Suggestions>`                                                      |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Exakat since | 1.0.7                                                                                                                   |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| PHP Version  | All                                                                                                                     |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Severity     | Minor                                                                                                                   |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Time To Fix  | Slow (1 hour)                                                                                                           |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Precision    | Very high                                                                                                               |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Examples     | :ref:`case-xataface-php-shouldusearrayfilter`, :ref:`case-shopware-php-shouldusearrayfilter`                            |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+
+

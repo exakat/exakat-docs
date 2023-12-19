@@ -1,0 +1,61 @@
+.. _structures-cancountnoncountable:
+
+.. _can't-count-non-countable:
+
+Can't Count Non-Countable
++++++++++++++++++++++++++
+
+  `Count() <https://www.php.net/count>`_ emits an `error <https://www.php.net/error>`_ when it tries to count scalars or objects what don't implement `Countable <https://www.php.net/countable>`_ interface.
+
+.. code-block:: php
+   
+   <?php
+   
+   // Normal usage
+   $a = array(1,2,3,4);
+   echo count($a)." items\n";
+   
+   // Error emiting usage
+   $a = '1234';
+   echo count($a)." chars\n";
+   
+   // Error emiting usage
+   echo count($unsetVar)." elements\n";
+   
+   ?>
+
+See also `Warn when counting non-countable types <https://www.php.net/manual/en/migration72.incompatible.php#migration72.incompatible.warn-on-non-countable-types>`_.
+
+
+Suggestions
+___________
+
+* Add a check before using count such as a type check 
+
+
+
+
+Specs
+_____
+
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Short name   | Structures/CanCountNonCountable                                                                                         |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`CompatibilityPHP72 <ruleset-CompatibilityPHP72>`                                        |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Exakat since | 1.0.4                                                                                                                   |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| PHP Version  | All                                                                                                                     |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Severity     | Major                                                                                                                   |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Time To Fix  | Quick (30 mins)                                                                                                         |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Precision    | Very high                                                                                                               |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Features     | countable                                                                                                               |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+
+

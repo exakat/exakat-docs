@@ -1,0 +1,64 @@
+.. _namespaces-couldusemagicconstant:
+
+.. _could-use-namespace-magic-constant:
+
+Could Use Namespace Magic Constant
+++++++++++++++++++++++++++++++++++
+
+  Use the `__NAMESPACE__ <https://www.php.net/manual/en/language.constants.predefined.php>`_ magic constant, instead of hardcoding the current namespace.
+
+
+.. code-block:: php
+   
+   <?php
+   
+   namespace A\B\C {
+   	class D {}
+   	$className = 'D';
+   
+   	// hardcoded namespace, needed to instantiate dynamically the class
+   	// Don't forget the extra \\ 
+   print	$fullclassName = '\\'.__NAMESPACE__.'\\'.$className;
+   	$object = new $fullclassName;
+   	
+   	
+   	// hardcoded namespace, needed to instantiate dynamically the class
+   	$path = "\\A\\B\\C\";
+   	$fullclassName = $path.$className;
+   	$object = new $fullclassName;
+   
+   }
+   ?>
+
+Suggestions
+___________
+
+* Replace the hardcoded namespace with the __NAMESPACE__ constant, and extra separators.
+
+
+
+
+Specs
+_____
+
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Short name   | Namespaces/CouldUseMagicConstant                                                                                        |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Suggestions <ruleset-Suggestions>`                                                      |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Exakat since | 2.5.0                                                                                                                   |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| PHP Version  | All                                                                                                                     |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Severity     | Minor                                                                                                                   |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Time To Fix  | Quick (30 mins)                                                                                                         |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Precision    | High                                                                                                                    |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Features     | magic-constant                                                                                                          |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+
+

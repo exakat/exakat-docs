@@ -1,0 +1,50 @@
+.. _classes-extendsstdclass:
+
+.. _extends-stdclass:
+
+Extends stdClass
+++++++++++++++++
+
+  Those classes extends ``stdClass``.
+
+Traditionally, classes are defined independently, without any native class extension. 
+
+In PHP 8.2, dynamic properties are deprecated, and yield a warning in the logs. Adding 'extends \\`stdClass <https://www.php.net/stdclass>`_' to classes signature removes this warning, as `stdclass <https://www.php.net/stdclass>`_ is the empty class, without any method, property nor constants. 
+
+
+.. code-block:: php
+   
+   <?php
+   
+   class myClass extends \stdClass {
+       function __set($a, $b) {
+           $this->$a = $b;
+       }
+   }
+   
+   ?>
+
+Specs
+_____
+
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Short name   | Classes/ExtendsStdclass                                                                                                 |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`CompatibilityPHP82 <ruleset-CompatibilityPHP82>`, :ref:`Inventory <ruleset-Inventory>`  |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Exakat since | 2.3.2                                                                                                                   |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| PHP Version  | All                                                                                                                     |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Severity     | Minor                                                                                                                   |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Time To Fix  | Quick (30 mins)                                                                                                         |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Precision    | High                                                                                                                    |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Features     | stdclass, dynamic-property                                                                                              |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+
+

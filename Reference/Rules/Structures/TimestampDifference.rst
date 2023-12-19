@@ -1,0 +1,71 @@
+.. _structures-timestampdifference:
+
+.. _timestamp-difference:
+
+Timestamp Difference
+++++++++++++++++++++
+
+  Avoid adding or subtracting quantities of seconds to measure time. 
+
+``time()``, ``microtime()`` or ``DateTime\:\:format('U')`` provide timestamps, which are the number of seconds since ``January, 1rst, 1970``. They shouldn't be used to calculate duration or another date by adding an amount of seconds. 
+
+Those functions are subject to variations, depending on system clock variations, such as daylight saving time difference (every spring and fall, one hour variation), or leap seconds, happening on ``June, 30th`` or ``December 31th``, as announced by `IERS <https://www.iers.org/IERS/EN/Home/home_node.html>`_.
+
+
+.. code-block:: php
+   
+   <?php
+   
+   // Calculating tomorow, same hour, the wrong way
+   // tomorrow is not always in 86400s, especially in countries with daylight saving 
+   $tomorrow = time()  + 86400; 
+   
+   // Good way to calculate tomorrow
+   $datetime = new DateTime('tomorrow');
+   
+   ?>
+
+
+When the difference may be rounded to a larger time unit (rounding the difference to days, or several hours), the variation may be ignored safely.
+
+When the difference is very small, it requires a better way to measure time difference, such as `Ticks <https://www.php.net/manual/en/control-structures.declare.php#control-structures.declare.ticks>'_, 
+`ext/hrtime <https://www.php.net/manual/en/book.hrtime.php>'_, or including a check on the actual time zone (``ini_get()`` with 'date.timezone').
+
+See also `PHP DateTime difference – it’s a trap! <http://blog.codebusters.pl/en/php-datetime-difference-trap/>`_ and `PHP Daylight savings bug? <https://stackoverflow.com/questions/22519091/php-daylight-savings-bug>`_.
+
+
+Suggestions
+___________
+
+* For small time intervals, use hrtime() functions
+* For larger time intervals, use add() method with ``DateTime``
+
+
+
+
+Specs
+_____
+
++--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Short name   | Structures/TimestampDifference                                                                                                                                                          |
++--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Analyze <ruleset-Analyze>`, :ref:`CE <ruleset-CE>`, :ref:`CI-checks <ruleset-CI-checks>`                                                                |
++--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Exakat since | 0.8.4                                                                                                                                                                                   |
++--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| PHP Version  | All                                                                                                                                                                                     |
++--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Severity     | Major                                                                                                                                                                                   |
++--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Time To Fix  | Slow (1 hour)                                                                                                                                                                           |
++--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Precision    | High                                                                                                                                                                                    |
++--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Features     | date                                                                                                                                                                                    |
++--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Examples     | :ref:`case-zurmo-structures-timestampdifference`, :ref:`case-shopware-structures-timestampdifference`                                                                                   |
++--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Community Edition <https://www.exakat.io/community-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
++--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+

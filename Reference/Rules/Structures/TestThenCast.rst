@@ -1,0 +1,64 @@
+.. _structures-testthencast:
+
+.. _test-then-cast:
+
+Test Then Cast
+++++++++++++++
+
+  A test is run on a value without a cast, and later the cast value is later used. 
+
+The cast may introduce a distortion to the value, and still lead to the unwanted situation. For example, comparing to 0, then later casting to an int. The comparison to 0 is done without casting, and as such, 0.1 is different from 0. Yet, (int) 0.1 is actually 0, leading to a Division by 0 `error <https://www.php.net/error>`_.
+
+
+.. code-block:: php
+   
+   <?php
+   
+   // Here. $x may be different from 0, but (int) $x may be 0
+   $x = 0.1;
+   
+   if ($x != 0) {
+       $y = 4 / (int) $x;
+   }
+   
+   // Safe solution : check the cast value.
+   if ( (int) $x != 0) {
+       $y = 4 / (int) $x;
+   }
+   
+   ?>
+
+Suggestions
+___________
+
+* Test with the cast value
+
+
+
+
+Specs
+_____
+
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Short name   | Structures/TestThenCast                                                                                                 |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Analyze <ruleset-Analyze>`                                                              |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Exakat since | 1.1.6                                                                                                                   |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| PHP Version  | All                                                                                                                     |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Severity     | Major                                                                                                                   |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Time To Fix  | Instant (5 mins)                                                                                                        |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Precision    | Very high                                                                                                               |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Features     | cast                                                                                                                    |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Examples     | :ref:`case-dolphin-structures-testthencast`, :ref:`case-suitecrm-structures-testthencast`                               |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+
+

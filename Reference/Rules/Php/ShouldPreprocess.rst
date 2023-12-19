@@ -1,0 +1,68 @@
+.. _php-shouldpreprocess:
+
+.. _should-preprocess-chr():
+
+Should Preprocess Chr()
++++++++++++++++++++++++
+
+  Replace literal `chr() <https://www.php.net/chr>`_ calls with their escape sequence.
+
+`chr() <https://www.php.net/chr>`_ is a functioncall, that cannot be cached. It is only resolved at execution time. 
+On the other hand, literal values are preprocessed by PHP and may be cached.
+
+
+.. code-block:: php
+   
+   <?php
+   
+   // This is easier on PHP
+   $a = "\120\110\120\040 is great!";
+   
+   // This is slow
+   $a = chr(80), chr(72), chr(80), chr(32), ' is great!';
+   
+   // This would be the best with this example, but it is not always possible
+   $a = 'PHP is great!';
+   
+   ?>
+
+
+This is a micro-optimisation.
+
+See also `Escape sequences <https://www.php.net/manual/en/regexp.reference.escape.php>`_.
+
+
+Suggestions
+___________
+
+* Use PHP string sequences, and skip chr() at execution time
+
+
+
+
+Specs
+_____
+
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Short name   | Php/ShouldPreprocess                                                                                                    |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Suggestions <ruleset-Suggestions>`                                                      |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Exakat since | 1.1.9                                                                                                                   |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| PHP Version  | All                                                                                                                     |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Severity     | Minor                                                                                                                   |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Time To Fix  | Quick (30 mins)                                                                                                         |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Precision    | Very high                                                                                                               |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Features     | preprocess                                                                                                              |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Examples     | :ref:`case-phpadsnew-php-shouldpreprocess`                                                                              |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+
+

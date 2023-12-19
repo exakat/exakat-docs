@@ -1,0 +1,81 @@
+.. _structures-danglingarrayreferences:
+
+.. _dangling-array-references:
+
+Dangling Array References
++++++++++++++++++++++++++
+
+  Always unset a referenced-variable used in a loop.
+
+It is highly recommended to unset blind variables when they are set up as references after a loop. 
+
+
+.. code-block:: php
+   
+   <?php
+   
+   $array = array(1,2,3,4);
+   
+   foreach($array as &$a) {
+       $a += 1;
+   }
+   // This only unset the reference, not the value
+   unset($a);
+   
+   
+   // Dangling array problem
+   foreach($array as &$a) {
+       $a += 1;
+   }
+   //$array === array(3,4,5,6);
+   
+   // This does nothing (apparently)
+   // $a is already a reference, even if it doesn't show here.
+   foreach($array as $a) {}
+   //$array === array(3,4,5,5);
+   
+   ?>
+
+
+When omitting this step, the next loop that will also require this variable will deal with garbage values, and produce unexpected results.
+
+See also `No Dangling Reference <https://github.com/dseguy/clearPHP/blob/master/rules/no-dangling-reference.md>`_, `PHP foreach pass-by-reference: Do it right, or better not at all <https://coderwall.com/p/qx3fpa/php-foreach-pass-by-reference-do-it-right-or-better-not-at-all>`_, `How does PHP 'foreach' actually work? <https://stackoverflow.com/questions/10057671/how-does-php-foreach-actually-work/14854568#14854568>`_ and `References and foreach <https://schlueters.de/blog/archives/141-references-and-foreach.html>`_.
+
+
+Suggestions
+___________
+
+* Avoid using the reference altogether : sometimes, the reference is not needed.
+* Add unset() right after the loop, to avoid reusing the reference.
+
+
+
+
+Specs
+_____
+
++--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Short name   | Structures/DanglingArrayReferences                                                                                                                                                      |
++--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Analyze <ruleset-Analyze>`, :ref:`CE <ruleset-CE>`, :ref:`CI-checks <ruleset-CI-checks>`, :ref:`Top10 <ruleset-Top10>`                                  |
++--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Exakat since | 0.8.4                                                                                                                                                                                   |
++--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| PHP Version  | All                                                                                                                                                                                     |
++--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Severity     | Major                                                                                                                                                                                   |
++--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Time To Fix  | Instant (5 mins)                                                                                                                                                                        |
++--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Precision    | Very high                                                                                                                                                                               |
++--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Features     | loop                                                                                                                                                                                    |
++--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| ClearPHP     | `no-dangling-reference <https://github.com/dseguy/clearPHP/tree/master/rules/no-dangling-reference.md>`__                                                                               |
++--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Examples     | :ref:`case-typo3-structures-danglingarrayreferences`, :ref:`case-sugarcrm-structures-danglingarrayreferences`                                                                           |
++--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Community Edition <https://www.exakat.io/community-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
++--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+

@@ -1,0 +1,66 @@
+.. _variables-variablenonascii:
+
+.. _non-ascii-variables:
+
+Non Ascii Variables
++++++++++++++++++++
+
+  PHP allows certain characters in variable names. The variable name must only include letters, figures, underscores and ASCII characters from 128 to 255. 
+
+In practice, letters outside the scope of the intervalle ``[a-zA-Z0-9_]`` are rare, and require more care when editing the code or passing it from OS to OS. 
+
+Also, certain letter might appear similar to the roman ones, and be part of a different alphabet. This is the case, for example, of the cyrillic alphabet, where `А` (cyrillic A, U+0410) is actually different from `A` (Latin A, U+0041). Some dashes and spaces may be valid in PHP variable names, and look very confusing.
+
+
+.. code-block:: php
+   
+   <?php
+   
+   // person, in Simplified Chinese
+   class 人 {
+       // An actual working class in PHP.
+       public function __construct() {
+           echo __CLASS__;
+       }
+   }
+   
+   // people = new person();
+   $人民 = new 人();
+   
+   ?>
+
+See also `Variables <https://www.php.net/manual/en/language.variables.basics.php>`_.
+
+
+Suggestions
+___________
+
+* Make sure those special chars have actual meaning.
+
+
+
+
+Specs
+_____
+
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Short name   | Variables/VariableNonascii                                                                                              |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Analyze <ruleset-Analyze>`                                                              |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Exakat since | 0.8.4                                                                                                                   |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| PHP Version  | All                                                                                                                     |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Severity     | Minor                                                                                                                   |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Time To Fix  | Slow (1 hour)                                                                                                           |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Precision    | Very high                                                                                                               |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Examples     | :ref:`case-magento-variables-variablenonascii`                                                                          |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+
+
