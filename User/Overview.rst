@@ -6,7 +6,7 @@ Overview
 Summary
 -------
 
-* `1621 analyzers`
+* `{{ANALYZERS_COUNT}} analyzers`
 * `Compatible with PHP 5.2 to 8.4`_
 * `Migration guide from 5.2 to 8.4`_
 * `Modernize your code`_
@@ -18,15 +18,15 @@ Summary
 * `Code visualizations`_
 
 
-1621 analyzers
+{{ANALYZERS_COUNT}} analyzers
 -----------------------------
 
-There are currently 1621 different analyzers that check the PHP code to report code smells. Analyzers are inspired by PHP manual, migration documents, community good practices, computer science or simple logic. 
+There are currently {{ANALYZERS_COUNT}} different analyzers that check the PHP code to report code smells. Analyzers are inspired by PHP manual, migration documents, community good practices, computer science or simple logic. 
 
 Some of them track rare occurrences, and some are frequent. Some track careless mistakes and some are highly complex situations. In any case, exakat has your back, and will warn you. 
 
 .. image:: ../images/dashboard.748.png
-    :alt: 1621 analysis with faceted search
+    :alt: {{ANALYZERS_COUNT}} analysis with faceted search
 
 
 Compatible with PHP 5.2 to 8.2
