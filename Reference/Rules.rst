@@ -6,7 +6,7 @@ Rules
 Introduction
 ------------------------
 
-Exakat provides unique 1621 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
+Exakat provides unique 1623 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
 
 Each rule is documented with code example to allow you to remediate your code. If you want to automate remediation, ours cobblers can are there to fix the issues in your code for your.  
 
@@ -143,6 +143,7 @@ List of Rules
    Rules/Exceptions/CaughtExceptions.rst
    Rules/Php/TryCatchUsage.rst
    Rules/Exceptions/CatchE.rst
+   Rules/Classes/CheckAfterNullSafeOperator.rst
    Rules/Structures/CheckAllTypes.rst
    Rules/Security/CryptoKeyLength.rst
    Rules/Structures/CheckDivision.rst
@@ -820,6 +821,7 @@ List of Rules
    Rules/Security/NoNetForXmlLoad.rst
    Rules/Structures/NoNullForIndex.rst
    Rules/Php/NoNullForNative.rst
+   Rules/Classes/NoNullWithNullSafeOperator.rst
    Rules/Structures/NoObjectAsIndex.rst
    Rules/Structures/NoParenthesisForLanguageConstruct.rst
    Rules/Structures/PlusEgalOne.rst
@@ -1648,9 +1650,11 @@ List of analyzers, by version of introduction, newest to oldest. In parenthesis,
 
 * 2.6.4
 
+  * :ref:`Check After Null Safe Operator <check-after-null-safe-operator>`
   * :ref:`Could Cast To Array <could-cast-to-array>`
   * :ref:`Injectable Version <injectable-version>`
   * :ref:`Multiple Property Declaration <multiple-property-declaration>`
+  * :ref:`No Null With Null Safe Operator <no-null-with-null-safe-operator>`
   * :ref:`PHP Native Attributes <php-native-attributes>`
   * :ref:`is_a() Versus instanceof <is\_a()-versus-instanceof>`
 
@@ -5459,6 +5463,7 @@ Directory by PHP Function
       + :ref:`No Keyword In Namespace <no-keyword-in-namespace>`
       + :ref:`No Magic Method With Array <no-magic-method-with-array>`
       + :ref:`No Max On Empty Array <no-max-on-empty-array>`
+      + :ref:`No Null With Null Safe Operator <no-null-with-null-safe-operator>`
       + :ref:`No Object As Index <no-object-as-index>`
       + :ref:`No Real Comparison <no-real-comparison>`
       + :ref:`No Self Referencing Constant <no-self-referencing-constant>`
@@ -7433,12 +7438,14 @@ Directory by PHP Function
 
       + :ref:`$this Belongs To Classes Or Traits <$this-belongs-to-classes-or-traits>`
       + :ref:`$this Is Not For Static Methods <$this-is-not-for-static-methods>`
+      + :ref:`Check After Null Safe Operator <check-after-null-safe-operator>`
       + :ref:`Check All Types <check-all-types>`
       + :ref:`Check JSON <check-json>`
       + :ref:`Coalesce And Ternary Operators Order <coalesce-and-ternary-operators-order>`
       + :ref:`Hidden Nullable Typehint <hidden-nullable-typehint>`
       + :ref:`Method Property Confusion <method-property-confusion>`
       + :ref:`No Max On Empty Array <no-max-on-empty-array>`
+      + :ref:`No Null With Null Safe Operator <no-null-with-null-safe-operator>`
       + :ref:`Null Or Boolean Arrays <null-or-boolean-arrays>`
       + :ref:`Should Use Coalesce <should-use-coalesce>`
       + :ref:`Static Methods Can't Contain $this <static-methods-can't-contain-$this>`
@@ -7452,6 +7459,7 @@ Directory by PHP Function
 
     + `Null`
 
+      + :ref:`Check After Null Safe Operator <check-after-null-safe-operator>`
       + :ref:`Could Be Null <could-be-null>`
       + :ref:`Duplicate Literal <duplicate-literal>`
       + :ref:`Indices Are Int Or String <indices-are-int-or-string>`
@@ -7498,6 +7506,7 @@ Directory by PHP Function
       + :ref:`Avoid Optional Properties <avoid-optional-properties>`
       + :ref:`Break With Non Integer <break-with-non-integer>`
       + :ref:`Casting Ternary <casting-ternary>`
+      + :ref:`Check After Null Safe Operator <check-after-null-safe-operator>`
       + :ref:`Check All Types <check-all-types>`
       + :ref:`Check JSON <check-json>`
       + :ref:`Coalesce And Ternary Operators Order <coalesce-and-ternary-operators-order>`
@@ -7531,6 +7540,7 @@ Directory by PHP Function
       + :ref:`Multiple Type Cases In Switch <multiple-type-cases-in-switch>`
       + :ref:`No Max On Empty Array <no-max-on-empty-array>`
       + :ref:`No Null For Index <no-null-for-index>`
+      + :ref:`No Null With Null Safe Operator <no-null-with-null-safe-operator>`
       + :ref:`No Reference For Ternary <no-reference-for-ternary>`
       + :ref:`No get_class() With Null <no-get\_class()-with-null>`
       + :ref:`Non Nullable Getters <non-nullable-getters>`
@@ -8323,6 +8333,7 @@ Directory by PHP Function
       + :ref:`Assign And Lettered Logical Operator Precedence <assign-and-lettered-logical-operator-precedence>`
       + :ref:`Cache Variable Outside Loop <cache-variable-outside-loop>`
       + :ref:`Casting Ternary <casting-ternary>`
+      + :ref:`Check After Null Safe Operator <check-after-null-safe-operator>`
       + :ref:`Check Division By Zero <check-division-by-zero>`
       + :ref:`Collect Classes Dependencies <collect-classes-dependencies>`
       + :ref:`Compared Comparison <compared-comparison>`
@@ -8347,6 +8358,7 @@ Directory by PHP Function
       + :ref:`Make One Call With Array <make-one-call-with-array>`
       + :ref:`Methodcall On New <methodcall-on-new>`
       + :ref:`Mismatched Ternary Alternatives <mismatched-ternary-alternatives>`
+      + :ref:`No Null With Null Safe Operator <no-null-with-null-safe-operator>`
       + :ref:`No Valid Cast <no-valid-cast>`
       + :ref:`No get_class() With Null <no-get\_class()-with-null>`
       + :ref:`Possible Infinite Loop <possible-infinite-loop>`
@@ -11472,6 +11484,7 @@ Exakat links each rules to PHP features.
 
   + Null Safe Object Operator
 
+    + :ref:`Check After Null Safe Operator <check-after-null-safe-operator>`
     + :ref:`Could Use Null-Safe Object Operator <could-use-null-safe-object-operator>`
 
   + Nullable

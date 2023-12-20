@@ -5,7 +5,7 @@ Analyze
 
 This ruleset centralizes a large number of classic trap and pitfalls when writing PHP.
 
-Total : 489 analysis
+Total : 491 analysis
 
 * :ref:`adding-zero`
 * :ref:`ambiguous-array-index`
@@ -496,6 +496,8 @@ Total : 489 analysis
 * :ref:`can't-call-generator`
 * :ref:`non-integer-nor-string-as-index`
 * :ref:`cant-instantiate-non-class`
+* :ref:`check-after-null-safe-operator`
+* :ref:`no-null-with-null-safe-operator`
 
 Specs
 _____

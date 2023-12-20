@@ -379,6 +379,9 @@
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Exceptions/CatchE.html</loc>
  </url>
  <url>
+  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Classes/CheckAfterNullSafeOperator.html</loc>
+ </url>
+ <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/CheckAllTypes.html</loc>
  </url>
  <url>
@@ -2408,6 +2411,9 @@
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Php/NoNullForNative.html</loc>
+ </url>
+ <url>
+  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Classes/NoNullWithNullSafeOperator.html</loc>
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/NoObjectAsIndex.html</loc>

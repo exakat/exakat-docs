@@ -47,6 +47,8 @@ Here is the release note of exakat.
 	+ New analysis : suggest using (array)
 	+ Refactored analysis : set class_alias() definitions
 	+ Refactored analysis : Could Use Null-safe operator now covers new situations
+	+ New analysis : check after nullsafe operator
+	+ New analysis : Don't use Null typed elements with a null-safe operator
 
 + Tokenizer
     + Added CALLED link to new calls

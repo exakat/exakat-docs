@@ -182,6 +182,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Classes/CantInstantiateNonClass";
    analyzer[] = "Classes/CantOverwriteFinalConstant";
    analyzer[] = "Classes/CantOverwriteFinalMethod";
+   analyzer[] = "Classes/CheckAfterNullSafeOperator";
    analyzer[] = "Classes/CheckOnCallUsage";
    analyzer[] = "Classes/ChecksPropertyExistence";
    analyzer[] = "Classes/ChildRemoveTypehint";
@@ -285,6 +286,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Classes/NewDynamicConstantSyntax";
    analyzer[] = "Classes/NewOnFunctioncallOrIdentifier";
    analyzer[] = "Classes/NoMagicWithArray";
+   analyzer[] = "Classes/NoNullWithNullSafeOperator";
    analyzer[] = "Classes/NoPSSOutsideClass";
    analyzer[] = "Classes/NoParent";
    analyzer[] = "Classes/NoPublicAccess";
@@ -1816,6 +1818,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Classes/CantInstantiateNonClass'
      - 'Classes/CantOverwriteFinalConstant'
      - 'Classes/CantOverwriteFinalMethod'
+     - 'Classes/CheckAfterNullSafeOperator'
      - 'Classes/CheckOnCallUsage'
      - 'Classes/ChecksPropertyExistence'
      - 'Classes/ChildRemoveTypehint'
@@ -1919,6 +1922,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Classes/NewDynamicConstantSyntax'
      - 'Classes/NewOnFunctioncallOrIdentifier'
      - 'Classes/NoMagicWithArray'
+     - 'Classes/NoNullWithNullSafeOperator'
      - 'Classes/NoPSSOutsideClass'
      - 'Classes/NoParent'
      - 'Classes/NoPublicAccess'
@@ -3425,6 +3429,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Classes/CantInstantiateClass";
    analyzer[] = "Classes/CantInstantiateNonClass";
    analyzer[] = "Classes/CantOverwriteFinalConstant";
+   analyzer[] = "Classes/CheckAfterNullSafeOperator";
    analyzer[] = "Classes/CheckOnCallUsage";
    analyzer[] = "Classes/CitSameName";
    analyzer[] = "Classes/CloneWithNonObject";
@@ -3454,6 +3459,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Classes/MultipleDeclarations";
    analyzer[] = "Classes/MultipleTraitOrInterface";
    analyzer[] = "Classes/NoMagicWithArray";
+   analyzer[] = "Classes/NoNullWithNullSafeOperator";
    analyzer[] = "Classes/NoPSSOutsideClass";
    analyzer[] = "Classes/NoParent";
    analyzer[] = "Classes/NoPublicAccess";
@@ -3927,6 +3933,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Classes/CantInstantiateClass'
      - 'Classes/CantInstantiateNonClass'
      - 'Classes/CantOverwriteFinalConstant'
+     - 'Classes/CheckAfterNullSafeOperator'
      - 'Classes/CheckOnCallUsage'
      - 'Classes/CitSameName'
      - 'Classes/CloneWithNonObject'
@@ -3956,6 +3963,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Classes/MultipleDeclarations'
      - 'Classes/MultipleTraitOrInterface'
      - 'Classes/NoMagicWithArray'
+     - 'Classes/NoNullWithNullSafeOperator'
      - 'Classes/NoPSSOutsideClass'
      - 'Classes/NoParent'
      - 'Classes/NoPublicAccess'
@@ -7114,6 +7122,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Classes/MissingVisibility";
    analyzer[] = "Classes/MultiplePropertyDeclaration";
    analyzer[] = "Classes/MutualExtension";
+   analyzer[] = "Classes/NoNullWithNullSafeOperator";
    analyzer[] = "Classes/NoParent";
    analyzer[] = "Classes/NoReadonlyAssignationInGlobal";
    analyzer[] = "Classes/NoSelfReferencingConstant";
@@ -7222,6 +7231,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Classes/MissingVisibility'
      - 'Classes/MultiplePropertyDeclaration'
      - 'Classes/MutualExtension'
+     - 'Classes/NoNullWithNullSafeOperator'
      - 'Classes/NoParent'
      - 'Classes/NoReadonlyAssignationInGlobal'
      - 'Classes/NoSelfReferencingConstant'
@@ -10894,6 +10904,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Arrays/ShouldPreprocess";
    analyzer[] = "Arrays/SliceFirst";
    analyzer[] = "Classes/CancelCommonMethod";
+   analyzer[] = "Classes/CheckAfterNullSafeOperator";
    analyzer[] = "Classes/CouldBeAbstractMethod";
    analyzer[] = "Classes/CouldBeIterable";
    analyzer[] = "Classes/CouldBeReadonly";
@@ -11031,6 +11042,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Arrays/ShouldPreprocess'
      - 'Arrays/SliceFirst'
      - 'Classes/CancelCommonMethod'
+     - 'Classes/CheckAfterNullSafeOperator'
      - 'Classes/CouldBeAbstractMethod'
      - 'Classes/CouldBeIterable'
      - 'Classes/CouldBeReadonly'

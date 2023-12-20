@@ -5,7 +5,7 @@ Suggestions
 
 This ruleset focuses on possibly better syntax than the one currently used. Those may be code modernization, alternatives, more efficient solutions, or simply left over from older versions. 
 
-Total : 124 analysis
+Total : 125 analysis
 
 * :ref:`while(list()-=-each())`
 * :ref:`function-subscripting,-old-style`
@@ -131,6 +131,7 @@ Total : 124 analysis
 * :ref:`could-be-array\_combine()`
 * :ref:`multiline-expressions`
 * :ref:`could-cast-to-array`
+* :ref:`check-after-null-safe-operator`
 
 Specs
 _____
