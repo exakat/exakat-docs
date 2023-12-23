@@ -6,7 +6,7 @@ Release Note
 
 Here is the release note of exakat. 
 
-**Version 2.6.4 (, 2023-12-31)**
+**Version 2.6.5 (, 2023-12-31)**
 
 
 + Architecture
@@ -27,7 +27,8 @@ Here is the release note of exakat.
 
 
 + Architecture
-    + 
+    + Moved assert configuration to ini_set and php.ini
+    + Added a set of token values for Debian 12 and 8.3
 
 + Cobbler
     + 
@@ -49,6 +50,10 @@ Here is the release note of exakat.
 	+ Refactored analysis : Could Use Null-safe operator now covers new situations
 	+ New analysis : check after nullsafe operator
 	+ New analysis : Don't use Null typed elements with a null-safe operator
+	+ New analysis : report invalid casts
+	+ New analysis : could use strcontains()
+	+ New analysis : suggest removing unused variable in catch
+	+ New analysis : suggest adding readonly to property
 
 + Tokenizer
     + Added CALLED link to new calls

@@ -9,7 +9,6 @@ Final Private Methods
 
 PHP 8.0 warns when it finds such a method.
 
-
 .. code-block:: php
    
    <?php

@@ -5,7 +5,7 @@ Suggestions
 
 This ruleset focuses on possibly better syntax than the one currently used. Those may be code modernization, alternatives, more efficient solutions, or simply left over from older versions. 
 
-Total : 125 analysis
+Total : 128 analysis
 
 * :ref:`while(list()-=-each())`
 * :ref:`function-subscripting,-old-style`
@@ -132,6 +132,9 @@ Total : 125 analysis
 * :ref:`multiline-expressions`
 * :ref:`could-cast-to-array`
 * :ref:`check-after-null-safe-operator`
+* :ref:`could-use-strcontains()`
+* :ref:`could-drop-variable`
+* :ref:`could-be-readonly-property`
 
 Specs
 _____

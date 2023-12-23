@@ -212,6 +212,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Classes/CouldBeProtectedMethod";
    analyzer[] = "Classes/CouldBeProtectedProperty";
    analyzer[] = "Classes/CouldBeReadonly";
+   analyzer[] = "Classes/CouldBeReadonlyProperty";
    analyzer[] = "Classes/CouldBeStatic";
    analyzer[] = "Classes/CouldBeStringable";
    analyzer[] = "Classes/CouldInjectParam";
@@ -532,6 +533,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Exceptions/CaughtButNotThrown";
    analyzer[] = "Exceptions/CaughtExceptions";
    analyzer[] = "Exceptions/ConvertedExceptions";
+   analyzer[] = "Exceptions/CouldDropVariable";
    analyzer[] = "Exceptions/CouldUseTry";
    analyzer[] = "Exceptions/DefinedExceptions";
    analyzer[] = "Exceptions/ForgottenThrown";
@@ -1326,6 +1328,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/CouldUseMatch";
    analyzer[] = "Structures/CouldUseNullableOperator";
    analyzer[] = "Structures/CouldUseShortAssignation";
+   analyzer[] = "Structures/CouldUseStrContains";
    analyzer[] = "Structures/CouldUseStrrepeat";
    analyzer[] = "Structures/CouldUseYieldFrom";
    analyzer[] = "Structures/CryptWithoutSalt";
@@ -1411,6 +1414,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/IndicesAreIntOrString";
    analyzer[] = "Structures/InfiniteRecursion";
    analyzer[] = "Structures/InitThenIf";
+   analyzer[] = "Structures/InvalidCast";
    analyzer[] = "Structures/InvalidDateScanningFormat";
    analyzer[] = "Structures/InvalidPackFormat";
    analyzer[] = "Structures/InvalidRegex";
@@ -1848,6 +1852,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Classes/CouldBeProtectedMethod'
      - 'Classes/CouldBeProtectedProperty'
      - 'Classes/CouldBeReadonly'
+     - 'Classes/CouldBeReadonlyProperty'
      - 'Classes/CouldBeStatic'
      - 'Classes/CouldBeStringable'
      - 'Classes/CouldInjectParam'
@@ -2168,6 +2173,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Exceptions/CaughtButNotThrown'
      - 'Exceptions/CaughtExceptions'
      - 'Exceptions/ConvertedExceptions'
+     - 'Exceptions/CouldDropVariable'
      - 'Exceptions/CouldUseTry'
      - 'Exceptions/DefinedExceptions'
      - 'Exceptions/ForgottenThrown'
@@ -2962,6 +2968,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/CouldUseMatch'
      - 'Structures/CouldUseNullableOperator'
      - 'Structures/CouldUseShortAssignation'
+     - 'Structures/CouldUseStrContains'
      - 'Structures/CouldUseStrrepeat'
      - 'Structures/CouldUseYieldFrom'
      - 'Structures/CryptWithoutSalt'
@@ -3047,6 +3054,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/IndicesAreIntOrString'
      - 'Structures/InfiniteRecursion'
      - 'Structures/InitThenIf'
+     - 'Structures/InvalidCast'
      - 'Structures/InvalidDateScanningFormat'
      - 'Structures/InvalidPackFormat'
      - 'Structures/InvalidRegex'
@@ -3752,6 +3760,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/InconsistentElseif";
    analyzer[] = "Structures/IndicesAreIntOrString";
    analyzer[] = "Structures/InfiniteRecursion";
+   analyzer[] = "Structures/InvalidCast";
    analyzer[] = "Structures/InvalidDateScanningFormat";
    analyzer[] = "Structures/InvalidPackFormat";
    analyzer[] = "Structures/InvalidRegex";
@@ -4256,6 +4265,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/InconsistentElseif'
      - 'Structures/IndicesAreIntOrString'
      - 'Structures/InfiniteRecursion'
+     - 'Structures/InvalidCast'
      - 'Structures/InvalidDateScanningFormat'
      - 'Structures/InvalidPackFormat'
      - 'Structures/InvalidRegex'
@@ -7098,6 +7108,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Classes/CouldBeProtectedMethod";
    analyzer[] = "Classes/CouldBeProtectedProperty";
    analyzer[] = "Classes/CouldBeReadonly";
+   analyzer[] = "Classes/CouldBeReadonlyProperty";
    analyzer[] = "Classes/CouldBeStatic";
    analyzer[] = "Classes/CouldBeStringable";
    analyzer[] = "Classes/CouldInjectParam";
@@ -7207,6 +7218,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Classes/CouldBeProtectedMethod'
      - 'Classes/CouldBeProtectedProperty'
      - 'Classes/CouldBeReadonly'
+     - 'Classes/CouldBeReadonlyProperty'
      - 'Classes/CouldBeStatic'
      - 'Classes/CouldBeStringable'
      - 'Classes/CouldInjectParam'
@@ -9315,6 +9327,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Enums/UnusedEnumCase";
    analyzer[] = "Exceptions/AlreadyCaught";
    analyzer[] = "Exceptions/CaughtButNotThrown";
+   analyzer[] = "Exceptions/CouldDropVariable";
    analyzer[] = "Exceptions/Rethrown";
    analyzer[] = "Exceptions/Unthrown";
    analyzer[] = "Functions/UnusedFunctions";
@@ -9360,6 +9373,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Enums/UnusedEnumCase'
      - 'Exceptions/AlreadyCaught'
      - 'Exceptions/CaughtButNotThrown'
+     - 'Exceptions/CouldDropVariable'
      - 'Exceptions/Rethrown'
      - 'Exceptions/Unthrown'
      - 'Functions/UnusedFunctions'
@@ -10075,6 +10089,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Php/JsonSerializeReturnType";
    analyzer[] = "Php/OnlyVariableForReference";
    analyzer[] = "Structures/ImplicitConversionToInt";
+   analyzer[] = "Structures/InvalidCast";
    analyzer[] = "Traits/MethodCollisionTraits";
    analyzer[] = "Traits/TraitNotFound";
    analyzer[] = "Traits/UndefinedInsteadof";
@@ -10134,6 +10149,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Php/JsonSerializeReturnType'
      - 'Php/OnlyVariableForReference'
      - 'Structures/ImplicitConversionToInt'
+     - 'Structures/InvalidCast'
      - 'Traits/MethodCollisionTraits'
      - 'Traits/TraitNotFound'
      - 'Traits/UndefinedInsteadof'
@@ -10615,6 +10631,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Php/IsAWithString";
    analyzer[] = "Structures/AddZero";
    analyzer[] = "Structures/CouldUseShortAssignation";
+   analyzer[] = "Structures/CouldUseStrContains";
    analyzer[] = "Structures/ElseIfElseif";
    analyzer[] = "Structures/ForWithFunctioncall";
    analyzer[] = "Structures/ImpliedIf";
@@ -10642,6 +10659,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Php/IsAWithString'
      - 'Structures/AddZero'
      - 'Structures/CouldUseShortAssignation'
+     - 'Structures/CouldUseStrContains'
      - 'Structures/ElseIfElseif'
      - 'Structures/ForWithFunctioncall'
      - 'Structures/ImpliedIf'
@@ -10908,6 +10926,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Classes/CouldBeAbstractMethod";
    analyzer[] = "Classes/CouldBeIterable";
    analyzer[] = "Classes/CouldBeReadonly";
+   analyzer[] = "Classes/CouldBeReadonlyProperty";
    analyzer[] = "Classes/CouldSetPropertyDefault";
    analyzer[] = "Classes/CouldUseClassOperator";
    analyzer[] = "Classes/LoweredAccessLevel";
@@ -10921,6 +10940,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Classes/UselessTypehint";
    analyzer[] = "Constants/CouldUseConstant";
    analyzer[] = "Enums/CouldBeEnum";
+   analyzer[] = "Exceptions/CouldDropVariable";
    analyzer[] = "Exceptions/CouldUseTry";
    analyzer[] = "Exceptions/LargeTryBlock";
    analyzer[] = "Exceptions/LongPreparation";
@@ -10979,6 +10999,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/CouldUseDir";
    analyzer[] = "Structures/CouldUseMatch";
    analyzer[] = "Structures/CouldUseNullableOperator";
+   analyzer[] = "Structures/CouldUseStrContains";
    analyzer[] = "Structures/DeclareStaticOnce";
    analyzer[] = "Structures/DirectlyUseFile";
    analyzer[] = "Structures/DontCompareTypedBoolean";
@@ -11046,6 +11067,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Classes/CouldBeAbstractMethod'
      - 'Classes/CouldBeIterable'
      - 'Classes/CouldBeReadonly'
+     - 'Classes/CouldBeReadonlyProperty'
      - 'Classes/CouldSetPropertyDefault'
      - 'Classes/CouldUseClassOperator'
      - 'Classes/LoweredAccessLevel'
@@ -11059,6 +11081,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Classes/UselessTypehint'
      - 'Constants/CouldUseConstant'
      - 'Enums/CouldBeEnum'
+     - 'Exceptions/CouldDropVariable'
      - 'Exceptions/CouldUseTry'
      - 'Exceptions/LargeTryBlock'
      - 'Exceptions/LongPreparation'
@@ -11117,6 +11140,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/CouldUseDir'
      - 'Structures/CouldUseMatch'
      - 'Structures/CouldUseNullableOperator'
+     - 'Structures/CouldUseStrContains'
      - 'Structures/DeclareStaticOnce'
      - 'Structures/DirectlyUseFile'
      - 'Structures/DontCompareTypedBoolean'

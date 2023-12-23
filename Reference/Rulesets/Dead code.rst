@@ -5,7 +5,7 @@ Dead code
 
 This ruleset focuses on dead code : expressions or even structures that are written, valid but never used.
 
-Total : 32 analysis
+Total : 33 analysis
 
 * :ref:`empty-traits`
 * :ref:`unused-use`
@@ -39,6 +39,7 @@ Total : 32 analysis
 * :ref:`use-variable-created-inside-loop`
 * :ref:`unused-enumeration-case`
 * :ref:`static-variable-in-namespace`
+* :ref:`could-drop-variable`
 
 Specs
 _____

@@ -9,6 +9,7 @@ Function With Dynamic Code
 
 Dynamic code is based on usage of include(), require(), require_once() and include(), `extract() <https://www.php.net/extract>`_ and eval(). 
 
+This is a support rule, to help omits some special cases in other rules.
 
 .. code-block:: php
    
@@ -26,9 +27,6 @@ Dynamic code is based on usage of include(), require(), require_once() and inclu
    }
    
    ?>
-
-
-This is a support rule, to help omits some special cases in other rules.
 
 Specs
 _____
@@ -48,7 +46,7 @@ _____
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                                                                               |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | dynamic                                                                                                                                                                                 |
+| Features     | dynamic-call                                                                                                                                                                            |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Community Edition <https://www.exakat.io/community-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

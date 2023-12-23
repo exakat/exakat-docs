@@ -5,7 +5,7 @@ Class Review
 
 This ruleset focuses on classes construction issues, and their related structures : traits, interfaces, methods, properties, constants.
 
-Total : 96 analysis
+Total : 97 analysis
 
 * :ref:`final-class-usage`
 * :ref:`final-methods-usage`
@@ -103,6 +103,7 @@ Total : 96 analysis
 * :ref:`cant-instantiate-non-class`
 * :ref:`multiple-property-declaration`
 * :ref:`no-null-with-null-safe-operator`
+* :ref:`could-be-readonly-property`
 
 Specs
 _____

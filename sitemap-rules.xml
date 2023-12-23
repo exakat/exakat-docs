@@ -790,6 +790,9 @@
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Classes/CouldBeProtectedProperty.html</loc>
  </url>
  <url>
+  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Classes/CouldBeReadonlyProperty.html</loc>
+ </url>
+ <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Typehints/CouldBeSelf.html</loc>
  </url>
  <url>
@@ -824,6 +827,9 @@
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/CouldCastToArray.html</loc>
+ </url>
+ <url>
+  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Exceptions/CouldDropVariable.html</loc>
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Classes/CouldInjectParam.html</loc>
@@ -908,6 +914,9 @@
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/CouldUseStrrepeat.html</loc>
+ </url>
+ <url>
+  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/CouldUseStrContains.html</loc>
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Performances/CountToAppend.html</loc>
@@ -1748,6 +1757,9 @@
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Php/Php81IntersectionTypehint.html</loc>
+ </url>
+ <url>
+  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/InvalidCast.html</loc>
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Constants/InvalidName.html</loc>

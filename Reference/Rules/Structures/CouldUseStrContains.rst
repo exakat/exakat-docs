@@ -1,35 +1,45 @@
-.. _attributes-phpnativeattributes:
+.. _structures-couldusestrcontains:
 
-.. _php-native-attributes:
+.. _could-use-strcontains():
 
-PHP Native Attributes
-+++++++++++++++++++++
+Could Use strcontains()
++++++++++++++++++++++++
 
-  This is the list of the PHP native `attribute <https://www.php.net/attribute>`_ in use in the code. 
+  PHP 8 introduced the strcontains() function, which is a replacement for `strpos() <https://www.php.net/strpos>`_. strcontains() checks if a string is found inside a string, and returns a boolean. 
+
+When `strpos() <https://www.php.net/strpos>`_ is used as a boolean, or compared to a boolean, strcontains() is a good replacement. When `strpos() <https://www.php.net/strpos>`_ is actually used to calculate a position inside a string, it should not be replaced.
+
+strcontains() is not backward compatible, so it should be be used before PHP 8.0. Polyfills are available. 
+
 
 .. code-block:: php
    
    <?php
    
-   #[Attribute]
-   class x {
-   	function foo(#[SensitiveParameter] $a) {
-   		// doSomething()
-   	}
-   }
+   // Could use strcontains()
+   if (strpos($haystack, $needle) !== false) { }
+   
+   // Not a possible replacement 
+   $position = strpos($haystack, $needle); 
+   $haystack[$position + 1] = 'A'; 
    
    ?>
 
-See also `PHP native attributes <https://www.exakat.io/en/php-native-attributes-quick-reference/>`_.
+Suggestions
+___________
+
+* replace strpos() by strcontains()
+
+
 
 
 Specs
 _____
 
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Short name   | Attributes/PhpNativeAttributes                                                                                          |
+| Short name   | Structures/CouldUseStrContains                                                                                          |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Attributes <ruleset-Attributes>`                                                        |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Rector <ruleset-Rector>`, :ref:`Suggestions <ruleset-Suggestions>`                      |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 2.6.4                                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
@@ -39,9 +49,7 @@ _____
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | attribute                                                                                                               |
+| Precision    | High                                                                                                                    |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

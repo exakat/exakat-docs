@@ -5,7 +5,7 @@ Rector
 
 `RectorPHP <https://getrector.org/>`_ is a reconstructor tool. It applies modifications in the PHP code automatically. Exakat finds results which may be automatically updated with rector. 
 
-Total : 14 analysis
+Total : 15 analysis
 
 * :ref:`adding-zero`
 * :ref:`multiple-index-definition`
@@ -21,6 +21,7 @@ Total : 14 analysis
 * :ref:`never-called-parameter`
 * :ref:`closure-could-be-a-callback`
 * :ref:`is\_a()-with-string`
+* :ref:`could-use-strcontains()`
 
 Specs
 _____

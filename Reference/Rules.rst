@@ -6,7 +6,7 @@ Rules
 Introduction
 ------------------------
 
-Exakat provides unique 1623 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
+Exakat provides unique 1627 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
 
 Each rule is documented with code example to allow you to remediate your code. If you want to automate remediation, ours cobblers can are there to fix the issues in your code for your.  
 
@@ -280,6 +280,7 @@ List of Rules
    Rules/Classes/CouldBeProtectedConstant.rst
    Rules/Classes/CouldBeProtectedMethod.rst
    Rules/Classes/CouldBeProtectedProperty.rst
+   Rules/Classes/CouldBeReadonlyProperty.rst
    Rules/Typehints/CouldBeSelf.rst
    Rules/Structures/CouldBeSpaceship.rst
    Rules/Structures/CouldBeStatic.rst
@@ -292,6 +293,7 @@ List of Rules
    Rules/Typehints/CouldBeVoid.rst
    Rules/Structures/CouldBeArrayCombine.rst
    Rules/Structures/CouldCastToArray.rst
+   Rules/Exceptions/CouldDropVariable.rst
    Rules/Classes/CouldInjectParam.rst
    Rules/Functions/CouldCentralize.rst
    Rules/Typehints/CouldNotType.rst
@@ -320,6 +322,7 @@ List of Rules
    Rules/Structures/CouldUseArrayUnique.rst
    Rules/Classes/ShouldUseSelf.rst
    Rules/Structures/CouldUseStrrepeat.rst
+   Rules/Structures/CouldUseStrContains.rst
    Rules/Performances/CountToAppend.rst
    Rules/Patterns/CourrierAntiPattern.rst
    Rules/Php/Crc32MightBeNegative.rst
@@ -600,6 +603,7 @@ List of Rules
    Rules/Type/Ports.rst
    Rules/Type/StringInterpolation.rst
    Rules/Php/Php81IntersectionTypehint.rst
+   Rules/Structures/InvalidCast.rst
    Rules/Constants/InvalidName.rst
    Rules/Structures/InvalidDateScanningFormat.rst
    Rules/Type/OctalInString.rst
@@ -1651,8 +1655,12 @@ List of analyzers, by version of introduction, newest to oldest. In parenthesis,
 * 2.6.4
 
   * :ref:`Check After Null Safe Operator <check-after-null-safe-operator>`
+  * :ref:`Could Be Readonly Property <could-be-readonly-property>`
   * :ref:`Could Cast To Array <could-cast-to-array>`
+  * :ref:`Could Drop Variable <could-drop-variable>`
+  * :ref:`Could Use strcontains() <could-use-strcontains()>`
   * :ref:`Injectable Version <injectable-version>`
+  * :ref:`Invalid Cast <invalid-cast>`
   * :ref:`Multiple Property Declaration <multiple-property-declaration>`
   * :ref:`No Null With Null Safe Operator <no-null-with-null-safe-operator>`
   * :ref:`PHP Native Attributes <php-native-attributes>`
@@ -3937,6 +3945,7 @@ Directory by PHP Function
       + :ref:`Could Be Enumeration <could-be-enumeration>`
       + :ref:`Could Be Protected Method <could-be-protected-method>`
       + :ref:`Could Be Protected Property <could-be-protected-property>`
+      + :ref:`Could Be Readonly Property <could-be-readonly-property>`
       + :ref:`Could Be Static Closure <could-be-static-closure>`
       + :ref:`Could Inject Param <could-inject-param>`
       + :ref:`Could Set Property Default <could-set-property-default>`
@@ -4189,6 +4198,7 @@ Directory by PHP Function
       + :ref:`Don't Send $this In Constructor <don't-send-$this-in-constructor>`
       + :ref:`Empty Final Element In Array <empty-final-element-in-array>`
       + :ref:`Group Use Trailing Comma <group-use-trailing-comma>`
+      + :ref:`Invalid Cast <invalid-cast>`
       + :ref:`List With Array Appends <list-with-array-appends>`
       + :ref:`Memoize MagicCall <memoize-magiccall>`
       + :ref:`Mismatch Type And Default <mismatch-type-and-default>`
@@ -5273,6 +5283,7 @@ Directory by PHP Function
       + :ref:`Error Messages <error-messages>`
       + :ref:`Inclusion Wrong Case <inclusion-wrong-case>`
       + :ref:`Inherited Class Constant Visibility <inherited-class-constant-visibility>`
+      + :ref:`Invalid Cast <invalid-cast>`
       + :ref:`No Return For Generator <no-return-for-generator>`
       + :ref:`PHP 7.0 New Classes <php-7.0-new-classes>`
       + :ref:`Print And Die <print-and-die>`
@@ -5300,6 +5311,7 @@ Directory by PHP Function
       + :ref:`Collect Catch Calls <collect-catch-calls>`
       + :ref:`Collect Methods Throwing Exceptions <collect-methods-throwing-exceptions>`
       + :ref:`Collect Throw Calls <collect-throw-calls>`
+      + :ref:`Could Drop Variable <could-drop-variable>`
       + :ref:`Default Then Discard <default-then-discard>`
       + :ref:`Defined Exceptions <defined-exceptions>`
       + :ref:`Don't Be Too Manual <don't-be-too-manual>`
@@ -5581,6 +5593,7 @@ Directory by PHP Function
       + :ref:`Collect Methods Throwing Exceptions <collect-methods-throwing-exceptions>`
       + :ref:`Collect Throw Calls <collect-throw-calls>`
       + :ref:`Converted Exceptions <converted-exceptions>`
+      + :ref:`Could Drop Variable <could-drop-variable>`
       + :ref:`Could Use Null-Safe Object Operator <could-use-null-safe-object-operator>`
       + :ref:`Defined Exceptions <defined-exceptions>`
       + :ref:`Empty Classes <empty-classes>`
@@ -5770,6 +5783,7 @@ Directory by PHP Function
       + :ref:`Could Be Constant <could-be-constant>`
       + :ref:`Could Be Null <could-be-null>`
       + :ref:`Could Use Trait <could-use-trait>`
+      + :ref:`Could Use strcontains() <could-use-strcontains()>`
       + :ref:`Don't Echo Error <don't-echo-error>`
       + :ref:`Double Instructions <double-instructions>`
       + :ref:`Double array_flip() <double-array\_flip()>`
@@ -9194,6 +9208,7 @@ Directory by PHP Function
 
     + `strpos()`
 
+      + :ref:`Could Use strcontains() <could-use-strcontains()>`
       + :ref:`Logical To in_array <logical-to-in\_array>`
       + :ref:`Mono Or Multibytes Favorite <mono-or-multibytes-favorite>`
       + :ref:`Simplify Regex <simplify-regex>`
@@ -9764,6 +9779,7 @@ Directory by PHP Function
 
     + `__clone`
 
+      + :ref:`Could Be Readonly Property <could-be-readonly-property>`
       + :ref:`Direct Call To __clone() <direct-call-to-\_\_clone()>`
       + :ref:`Has Magic Method <has-magic-method>`
       + :ref:`Magic Methods <magic-methods>`
@@ -9784,6 +9800,7 @@ Directory by PHP Function
       + :ref:`Can't Instantiate Class <can't-instantiate-class>`
       + :ref:`Collect Method Counts <collect-method-counts>`
       + :ref:`Constructors <constructors>`
+      + :ref:`Could Be Readonly Property <could-be-readonly-property>`
       + :ref:`Could Be Static Closure <could-be-static-closure>`
       + :ref:`Could Set Property Default <could-set-property-default>`
       + :ref:`Could Use Promoted Properties <could-use-promoted-properties>`
@@ -10151,6 +10168,7 @@ Exakat links each rules to PHP features.
     + :ref:`Friend Attribute <friend-attribute>`
     + :ref:`Missing Attribute Attribute <missing-attribute-attribute>`
     + :ref:`Modify Immutable <modify-immutable>`
+    + :ref:`PHP Native Attributes <php-native-attributes>`
     + :ref:`Use PHP Attributes <use-php-attributes>`
     + :ref:`Using Deprecated Feature <using-deprecated-feature>`
     + :ref:`Wrong Attribute Configuration <wrong-attribute-configuration>`
@@ -10217,6 +10235,10 @@ Exakat links each rules to PHP features.
     + :ref:`Non-lowercase Keywords <non-lowercase-keywords>`
     + :ref:`Switch Without Default <switch-without-default>`
 
+  + Case Sensitivity
+
+    + :ref:`Wrong Function Name Case <wrong-function-name-case>`
+
   + Cast Operator
 
     + :ref:`Cast To Boolean <cast-to-boolean>`
@@ -10226,6 +10248,7 @@ Exakat links each rules to PHP features.
     + :ref:`Could Cast To Array <could-cast-to-array>`
     + :ref:`Do Not Cast To Int <do-not-cast-to-int>`
     + :ref:`Favorite Casting Method <favorite-casting-method>`
+    + :ref:`Invalid Cast <invalid-cast>`
     + :ref:`No Valid Cast <no-valid-cast>`
     + :ref:`Not Not <not-not>`
     + :ref:`Should Typecast <should-typecast>`
@@ -10238,10 +10261,12 @@ Exakat links each rules to PHP features.
     + :ref:`Caught Exceptions <caught-exceptions>`
     + :ref:`Caught Expressions <caught-expressions>`
     + :ref:`Collect Catch Calls <collect-catch-calls>`
+    + :ref:`Could Drop Variable <could-drop-variable>`
     + :ref:`Useless Catch <useless-catch>`
 
   + Chaining Exceptions
 
+    + :ref:`Set Chaining Exception <set-chaining-exception>`
     + :ref:`Should Chain Exception <should-chain-exception>`
 
   + Class Aliases
@@ -10485,6 +10510,9 @@ Exakat links each rules to PHP features.
 
     + :ref:`Constant Scalar Expression <constant-scalar-expression>`
     + :ref:`Constant Scalar Expressions <constant-scalar-expressions>`
+    + :ref:`Define Constants With Array <define-constants-with-array>`
+    + :ref:`Propagate Constants <propagate-constants>`
+    + :ref:`Static Variable Initialisation <static-variable-initialisation>`
 
   + Constants
 
@@ -10500,6 +10528,7 @@ Exakat links each rules to PHP features.
     + :ref:`Constant Dynamic Creation <constant-dynamic-creation>`
     + :ref:`Constant Typo Looks Like A Variable <constant-typo-looks-like-a-variable>`
     + :ref:`Constants Created Outside Its Namespace <constants-created-outside-its-namespace>`
+    + :ref:`Constants In Traits <constants-in-traits>`
     + :ref:`Constants Names <constants-names>`
     + :ref:`Constants Usage <constants-usage>`
     + :ref:`Constants With Strange Names <constants-with-strange-names>`
@@ -10588,6 +10617,10 @@ Exakat links each rules to PHP features.
     + :ref:`Timestamp Difference <timestamp-difference>`
     + :ref:`Use DateTimeImmutable Class <use-datetimeimmutable-class>`
     + :ref:`date() versus DateTime Preference <date()-versus-datetime-preference>`
+
+  + Dead code
+
+    + :ref:`Cannot Be Readonly <cannot-be-readonly>`
 
   + Debugger
 
@@ -10686,8 +10719,11 @@ Exakat links each rules to PHP features.
   + Dynamic Call
 
     + :ref:`Dynamic Calls <dynamic-calls>`
+    + :ref:`Dynamic Code <dynamic-code>`
+    + :ref:`Dynamic Function Call <dynamic-function-call>`
     + :ref:`Dynamic Methodcall <dynamic-methodcall>`
     + :ref:`Dynamic New <dynamic-new>`
+    + :ref:`Function With Dynamic Code <function-with-dynamic-code>`
 
   + Dynamic Class
 
@@ -10814,6 +10850,7 @@ Exakat links each rules to PHP features.
   + Exponent
 
     + :ref:`Exponent Usage <exponent-usage>`
+    + :ref:`Negative Power <negative-power>`
 
   + Exponential
 
@@ -10847,6 +10884,10 @@ Exakat links each rules to PHP features.
     + :ref:`File Uploads <file-uploads>`
     + :ref:`Upload Filename Injection <upload-filename-injection>`
     + :ref:`move_uploaded_file Instead Of copy <move\_uploaded\_file-instead-of-copy>`
+
+  + FileSystemIterator
+
+    + :ref:`Avoid glob() Usage <avoid-glob()-usage>`
 
   + Final Class Constants
 
@@ -10993,6 +11034,14 @@ Exakat links each rules to PHP features.
     + :ref:`Is Generator <is-generator>`
     + :ref:`No Return For Generator <no-return-for-generator>`
 
+  + Global Code
+
+    + :ref:`Global Code Only <global-code-only>`
+
+  + Global Space
+
+    + :ref:`Don't Pollute Global Space <don't-pollute-global-space>`
+
   + Global Variables
 
     + :ref:`Declare Global Early <declare-global-early>`
@@ -11029,6 +11078,7 @@ Exakat links each rules to PHP features.
   + Hard Coded
 
     + :ref:`Hardcoded Passwords <hardcoded-passwords>`
+    + :ref:`No Hardcoded Path <no-hardcoded-path>`
 
   + Hash
 
@@ -11058,6 +11108,11 @@ Exakat links each rules to PHP features.
   + Iconv
 
     + :ref:`Iconv With Translit <iconv-with-translit>`
+
+  + Idempotent
+
+    + :ref:`Double Instructions <double-instructions>`
+    + :ref:`Recalled Condition <recalled-condition>`
 
   + If Then Else
 
@@ -11106,6 +11161,10 @@ Exakat links each rules to PHP features.
 
     + :ref:`Don't Change Incomings <don't-change-incomings>`
 
+  + Increment
+
+    + :ref:`Pre-increment <pre-increment>`
+
   + Indentation
 
     + :ref:`Indentation Levels <indentation-levels>`
@@ -11130,6 +11189,10 @@ Exakat links each rules to PHP features.
 
     + :ref:`Use Same Types For Comparisons <use-same-types-for-comparisons>`
 
+  + Infinite
+
+    + :ref:`Infinite Recursion <infinite-recursion>`
+
   + Inheritance
 
     + :ref:`Already Parents Interface <already-parents-interface>`
@@ -11141,6 +11204,10 @@ Exakat links each rules to PHP features.
     + :ref:`Overwritten Properties <overwritten-properties>`
     + :ref:`Property Used Above <property-used-above>`
     + :ref:`Too Many Children <too-many-children>`
+
+  + Initialisation
+
+    + :ref:`Init Then Update <init-then-update>`
 
   + Injection
 
@@ -11239,6 +11306,7 @@ Exakat links each rules to PHP features.
   + Lazy Loading
 
     + :ref:`Abstract Or Implements <abstract-or-implements>`
+    + :ref:`Inherited Class Constant Visibility <inherited-class-constant-visibility>`
 
   + Liskov Substitution Principle
 
@@ -11313,6 +11381,7 @@ Exakat links each rules to PHP features.
     + :ref:`Must Return Methods <must-return-methods>`
     + :ref:`No Magic Method For Enum <no-magic-method-for-enum>`
     + :ref:`No Magic Method With Array <no-magic-method-with-array>`
+    + :ref:`Reserved Methods <reserved-methods>`
     + :ref:`Useless Typehint <useless-typehint>`
     + :ref:`__debugInfo() Usage <\_\_debuginfo()-usage>`
     + :ref:`__toString() Throws Exception <\_\_tostring()-throws-exception>`
@@ -11486,6 +11555,7 @@ Exakat links each rules to PHP features.
 
     + :ref:`Check After Null Safe Operator <check-after-null-safe-operator>`
     + :ref:`Could Use Null-Safe Object Operator <could-use-null-safe-object-operator>`
+    + :ref:`No Null With Null Safe Operator <no-null-with-null-safe-operator>`
 
   + Nullable
 
@@ -11494,6 +11564,10 @@ Exakat links each rules to PHP features.
     + :ref:`Hidden Nullable Typehint <hidden-nullable-typehint>`
     + :ref:`Use Nullable Type <use-nullable-type>`
 
+  + Numeric Separator
+
+    + :ref:`Numeric Literal Separator <numeric-literal-separator>`
+
   + Object
 
     + :ref:`Array_Fill() With Objects <array\_fill()-with-objects>`
@@ -11501,6 +11575,10 @@ Exakat links each rules to PHP features.
     + :ref:`Scalar Or Object Property <scalar-or-object-property>`
     + :ref:`Static Methods Called From Object <static-methods-called-from-object>`
     + :ref:`Unfinished Object <unfinished-object>`
+
+  + Object API
+
+    + :ref:`Use PHP Object API <use-php-object-api>`
 
   + Object Invasion
 
@@ -11633,6 +11711,16 @@ Exakat links each rules to PHP features.
     + :ref:`Array_Map() Passes By Value <array\_map()-passes-by-value>`
     + :ref:`Calltime Pass By Reference <calltime-pass-by-reference>`
 
+  + Password
+
+    + :ref:`Hardcoded Passwords <hardcoded-passwords>`
+
+  + Path
+
+    + :ref:`No Hardcoded Path <no-hardcoded-path>`
+    + :ref:`Pathinfo() Returns May Vary <pathinfo()-returns-may-vary>`
+    + :ref:`Use pathinfo() Arguments <use-pathinfo()-arguments>`
+
   + PharException
 
     + :ref:`Could Use Try <could-use-try>`
@@ -11715,6 +11803,14 @@ Exakat links each rules to PHP features.
   + Public Visibility
 
     + :ref:`Unused Public Method <unused-public-method>`
+
+  + Query
+
+    + :ref:`Queries In Loops <queries-in-loops>`
+
+  + Query String
+
+    + :ref:`parse_str() Warning <parse\_str()-warning>`
 
   + Random
 
@@ -11803,6 +11899,7 @@ Exakat links each rules to PHP features.
   + Reserved Names
 
     + :ref:`PHP Keywords As Names <php-keywords-as-names>`
+    + :ref:`Php7 Relaxed Keyword <php7-relaxed-keyword>`
 
   + Return
 
@@ -11964,6 +12061,7 @@ Exakat links each rules to PHP features.
   + Strict Comparison
 
     + :ref:`Strict Comparison With Booleans <strict-comparison-with-booleans>`
+    + :ref:`Strict In_Array() Preference <strict-in\_array()-preference>`
     + :ref:`Strpos()-like Comparison <strpos()-like-comparison>`
     + :ref:`Use === null <use-===-null>`
 
@@ -12055,6 +12153,7 @@ Exakat links each rules to PHP features.
     + :ref:`Signature Trailing Comma <signature-trailing-comma>`
     + :ref:`Trailing Comma In Calls <trailing-comma-in-calls>`
     + :ref:`Use Closure Trailing Comma <use-closure-trailing-comma>`
+    + :ref:`Useless Trailing Comma <useless-trailing-comma>`
 
   + Traits
 
@@ -12062,6 +12161,7 @@ Exakat links each rules to PHP features.
     + :ref:`Calling Static Trait Method <calling-static-trait-method>`
     + :ref:`Cannot Call Static Trait Method Directly <cannot-call-static-trait-method-directly>`
     + :ref:`Collect Class Traits Counts <collect-class-traits-counts>`
+    + :ref:`Constants In Traits <constants-in-traits>`
     + :ref:`Could Use Trait <could-use-trait>`
     + :ref:`Dependant Trait <dependant-trait>`
     + :ref:`Empty Traits <empty-traits>`
@@ -12086,8 +12186,12 @@ Exakat links each rules to PHP features.
   + Try-catch
 
     + :ref:`Catch Overwrite Variable <catch-overwrite-variable>`
+    + :ref:`Collect Catch Calls <collect-catch-calls>`
+    + :ref:`Converted Exceptions <converted-exceptions>`
     + :ref:`Could Use Try <could-use-try>`
+    + :ref:`Empty Try Catch <empty-try-catch>`
     + :ref:`Large Try Block <large-try-block>`
+    + :ref:`Multiple Catch <multiple-catch>`
     + :ref:`Multiple Exceptions Catch() <multiple-exceptions-catch()>`
     + :ref:`Throw <throw>`
     + :ref:`Try With Finally <try-with-finally>`
@@ -12152,6 +12256,10 @@ Exakat links each rules to PHP features.
     + :ref:`Weak Typing <weak-typing>`
     + :ref:`Wrong Typehinted Name <wrong-typehinted-name>`
 
+  + TypeError
+
+    + :ref:`Possible TypeError <possible-typeerror>`
+
   + UnexpectedValueException
 
     + :ref:`Could Use Try <could-use-try>`
@@ -12203,6 +12311,7 @@ Exakat links each rules to PHP features.
 
     + :ref:`Filter Not Raw <filter-not-raw>`
     + :ref:`Insecure Integer Validation <insecure-integer-validation>`
+    + :ref:`Useless Check <useless-check>`
     + :ref:`filter_input() As A Source <filter\_input()-as-a-source>`
 
   + Variable Variables
@@ -12240,6 +12349,10 @@ Exakat links each rules to PHP features.
     + :ref:`Spread Operator For Array <spread-operator-for-array>`
     + :ref:`array_merge() And Variadic <array\_merge()-and-variadic>`
 
+  + Virtual Machine
+
+    + :ref:`Always Use Function With array_key_exists() <always-use-function-with-array\_key\_exists()>`
+
   + Visibility
 
     + :ref:`Access Protected Structures <access-protected-structures>`
@@ -12276,6 +12389,10 @@ Exakat links each rules to PHP features.
 
     + :ref:`PHP Alternative Syntax <php-alternative-syntax>`
     + :ref:`While(List() = Each()) <while(list()-=-each())>`
+
+  + Whitespace
+
+    + :ref:`Forgotten Whitespace <forgotten-whitespace>`
 
   + XML
 
@@ -12319,6 +12436,10 @@ Exakat links each rules to PHP features.
     + :ref:`Unfinished Object <unfinished-object>`
     + :ref:`Useless Constructor <useless-constructor>`
     + :ref:`Wrong Number Of Arguments <wrong-number-of-arguments>`
+
+  + crc32
+
+    + :ref:`Crc32() Might Be Negative <crc32()-might-be-negative>`
 
   + declare()
 
@@ -12529,7 +12650,7 @@ Directory by PHP Error message
 
 Exakat helps reduce the amount of error and warning that code is producing by reporting pattern that are likely to emit errors.
 
-259 PHP error message detailled : 
+262 PHP error message detailled : 
 
 * :ref:`"boolean" will be interpreted as a class name. Did you mean "bool"? <not-a-scalar-type>`
 * :ref:`"continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? <continue-is-for-loop>`
@@ -12562,6 +12683,7 @@ Exakat helps reduce the amount of error and warning that code is producing by re
 * :ref:`Argument cannot be passed by reference <typehinted-references>`
 * :ref:`Argument must be of type int, array given <wrong-parameter-type>`
 * :ref:`Array and string offset access syntax with curly braces is deprecated <no-more-curly-arrays>`
+* :ref:`Array to string conversion <invalid-cast>`
 * :ref:`Attempt to echo a string that might be tainted <extensions-exttaint>`
 * :ref:`Attempt to read property "b" on null <could-use-null-safe-object-operator>`
 * :ref:`Attribute "AttributeFunction" cannot target Class (allowed targets: Function) <wrong-attribute-configuration>`
@@ -12680,6 +12802,8 @@ Exakat helps reduce the amount of error and warning that code is producing by re
 * :ref:`Non-static method x\:\:foo() cannot be called statically <static-methods-cannot-call-non-static-methods>`
 * :ref:`Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior <strpos()-with-integers>`
 * :ref:`Object of class stdClass could not be converted to <no-valid-cast>`
+* :ref:`Object of class stdClass could not be converted to float <invalid-cast>`
+* :ref:`Object of class stdClass could not be converted to int <invalid-cast>`
 * :ref:`Octal escape sequence overflow \500 is greater than \377 <invalid-octal-in-string>`
 * :ref:`Old style constructors are DEPRECATED in PHP 7.0, and will be removed in a future version. You should always use __construct() in new code. <old-style-constructor>`
 * :ref:`Only the first byte will be assigned to the string offset <only-first-byte->`

@@ -7,6 +7,7 @@ Dynamic Code
 
   List of instructions that were left during analysis, as they rely on dynamic data. 
 
+Any further analysis will need to start from here.
 
 .. code-block:: php
    
@@ -20,9 +21,6 @@ Dynamic Code
    $object->method();
    
    ?>
-
-
-Any further analysis will need to start from here.
 
 See also `Variable functions <https://www.php.net/manual/en/functions.variable-functions.php>`_.
 
@@ -45,7 +43,7 @@ _____
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                                                                               |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | dynamic                                                                                                                                                                                 |
+| Features     | dynamic-call                                                                                                                                                                            |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Community Edition <https://www.exakat.io/community-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

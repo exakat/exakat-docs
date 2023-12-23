@@ -5,7 +5,7 @@ All
 
 All is a dummy ruleset, which includes all the rules. It is mostly used internally.
 
-Total : 1621 analysis
+Total : 1625 analysis
 
 * :ref:`adding-zero`
 * :ref:`ambiguous-array-index`
@@ -1628,6 +1628,10 @@ Total : 1621 analysis
 * :ref:`could-cast-to-array`
 * :ref:`check-after-null-safe-operator`
 * :ref:`no-null-with-null-safe-operator`
+* :ref:`invalid-cast`
+* :ref:`could-use-strcontains()`
+* :ref:`could-drop-variable`
+* :ref:`could-be-readonly-property`
 
 Specs
 _____
