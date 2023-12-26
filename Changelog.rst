@@ -57,6 +57,7 @@ Here is the release note of exakat.
 
 + Tokenizer
     + Added CALLED link to new calls
+    + Fixed edgecases with match and readonly
 
 **Version 2.6.3 (, 2023-12-14)**
 

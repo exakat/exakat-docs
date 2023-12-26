@@ -443,7 +443,7 @@ Total : 492 analysis
 * :ref:`dont-add-seconds`
 * :ref:`use-constants-as-returns`
 * :ref:`identical-variables-in-foreach`
-* :ref:`cant-overwrite-final-constant`
+* :ref:`can't-overwrite-final-constant`
 * :ref:`unsupported-operand-types`
 * :ref:`version\_compare-operator`
 * :ref:`do-not-cast-to-int`
@@ -467,7 +467,7 @@ Total : 492 analysis
 * :ref:`no-default-for-referenced-parameter`
 * :ref:`clone-constant`
 * :ref:`could-inject-param`
-* :ref:`unused-public-method`
+* :ref:`unused-public-methods`
 * :ref:`mbstring-unknown-encodings`
 * :ref:`coalesce-and-ternary-operators-order`
 * :ref:`useless-assignation-of-promoted-property`

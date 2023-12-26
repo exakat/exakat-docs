@@ -72,7 +72,7 @@ Total : 97 analysis
 * :ref:`undefined-methods`
 * :ref:`unfinished-object`
 * :ref:`undefined-enumcase`
-* :ref:`cant-overwrite-final-constant`
+* :ref:`can't-overwrite-final-constant`
 * :ref:`no-constructor-in-interface`
 * :ref:`lowered-access-level`
 * :ref:`used-once-trait`

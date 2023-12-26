@@ -48,7 +48,7 @@ Total : 47 analysis
 * :ref:`false-to-array-conversion`
 * :ref:`deprecated-callable`
 * :ref:`cant-overload-constants`
-* :ref:`cant-overwrite-final-constant`
+* :ref:`can't-overwrite-final-constant`
 * :ref:`implicit-conversion-to-int`
 * :ref:`no-magic-method-for-enum`
 * :ref:`wrong-type-with-default`

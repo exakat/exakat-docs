@@ -160,7 +160,7 @@ List of rulesets
    Rulesets/LintButWontExec.rst
    Rulesets/NoDoc.rst
    Rulesets/OneLiners.rst
-   Rulesets/Php recommendations.rst
+   Rulesets/PHP recommendations.rst
    Rulesets/Performances.rst
    Rulesets/Preferences.rst
    Rulesets/Rector.rst

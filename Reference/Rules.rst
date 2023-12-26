@@ -120,6 +120,7 @@ List of Rules
    Rules/Classes/CantExtendFinal.rst
    Rules/Interfaces/CantImplementTraversable.rst
    Rules/Classes/CantInstantiateClass.rst
+   Rules/Classes/CantOverwriteFinalConstant.rst
    Rules/Exceptions/CantThrow.rst
    Rules/Classes/CancelCommonMethod.rst
    Rules/Functions/CancelledParameter.rst
@@ -130,7 +131,6 @@ List of Rules
    Rules/Classes/CantInheritAbstractMethod.rst
    Rules/Classes/CantInstantiateNonClass.rst
    Rules/Interfaces/CantOverloadConstants.rst
-   Rules/Classes/CantOverwriteFinalConstant.rst
    Rules/Classes/CantOverwriteFinalMethod.rst
    Rules/Php/CantUseReturnValueInWriteContext.rst
    Rules/Constants/CaseInsensitiveConstants.rst
@@ -1813,7 +1813,7 @@ List of analyzers, by version of introduction, newest to oldest. In parenthesis,
   * :ref:`Could Be Abstract Method <could-be-abstract-method>`
   * :ref:`No Keyword In Namespace <no-keyword-in-namespace>`
   * :ref:`Solve Trait Constants <solve-trait-constants>`
-  * :ref:`Unused Public Method <unused-public-method>`
+  * :ref:`Unused Public Methods <unused-public-methods>`
   * :ref:`date() versus DateTime Preference <date()-versus-datetime-preference>`
 
 * 2.4.8
@@ -1900,7 +1900,7 @@ List of analyzers, by version of introduction, newest to oldest. In parenthesis,
 * 2.3.9
 
   * :ref:`Add Return Typehint <add-return-typehint>`
-  * :ref:`Cant Overwrite Final Constant <cant-overwrite-final-constant>`
+  * :ref:`Can't Overwrite Final Constant <can't-overwrite-final-constant>`
   * :ref:`Constant : With Or Without Use <constant--with-or-without-use>`
   * :ref:`Dont Add Seconds <dont-add-seconds>`
   * :ref:`Identical Variables In Foreach <identical-variables-in-foreach>`
@@ -7586,6 +7586,7 @@ Directory by PHP Function
       + :ref:`Unset In Foreach <unset-in-foreach>`
       + :ref:`Use === null <use-===-null>`
       + :ref:`Use Browscap <use-browscap>`
+      + :ref:`Use Closure Trailing Comma <use-closure-trailing-comma>`
       + :ref:`Use Debug <use-debug>`
       + :ref:`Use NullSafe Operator <use-nullsafe-operator>`
       + :ref:`Use Nullable Type <use-nullable-type>`
@@ -10896,7 +10897,7 @@ Exakat links each rules to PHP features.
   + Final Keyword
 
     + :ref:`Can't Extend Final <can't-extend-final>`
-    + :ref:`Cant Overwrite Final Constant <cant-overwrite-final-constant>`
+    + :ref:`Can't Overwrite Final Constant <can't-overwrite-final-constant>`
     + :ref:`Cant Overwrite Final Method <cant-overwrite-final-method>`
     + :ref:`Class Could Be Final <class-could-be-final>`
     + :ref:`Class Should Be Final By Ocramius <class-should-be-final-by-ocramius>`
@@ -11434,7 +11435,7 @@ Exakat links each rules to PHP features.
     + :ref:`Undefined Methods <undefined-methods>`
     + :ref:`Unreachable Method <unreachable-method>`
     + :ref:`Unused Methods <unused-methods>`
-    + :ref:`Unused Public Method <unused-public-method>`
+    + :ref:`Unused Public Methods <unused-public-methods>`
     + :ref:`Used Methods <used-methods>`
     + :ref:`Used Once Property <used-once-property>`
     + :ref:`Used Private Methods <used-private-methods>`
@@ -11627,7 +11628,7 @@ Exakat links each rules to PHP features.
 
   + Overwrite
 
-    + :ref:`Cant Overwrite Final Constant <cant-overwrite-final-constant>`
+    + :ref:`Can't Overwrite Final Constant <can't-overwrite-final-constant>`
     + :ref:`Cant Overwrite Final Method <cant-overwrite-final-method>`
     + :ref:`Immutable Signature <immutable-signature>`
     + :ref:`Overwritten Class Constants <overwritten-class-constants>`
@@ -11802,7 +11803,7 @@ Exakat links each rules to PHP features.
 
   + Public Visibility
 
-    + :ref:`Unused Public Method <unused-public-method>`
+    + :ref:`Unused Public Methods <unused-public-methods>`
 
   + Query
 
@@ -12650,7 +12651,7 @@ Directory by PHP Error message
 
 Exakat helps reduce the amount of error and warning that code is producing by reporting pattern that are likely to emit errors.
 
-262 PHP error message detailled : 
+263 PHP error message detailled : 
 
 * :ref:`"boolean" will be interpreted as a class name. Did you mean "bool"? <not-a-scalar-type>`
 * :ref:`"continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? <continue-is-for-loop>`
@@ -12914,6 +12915,7 @@ Exakat helps reduce the amount of error and warning that code is producing by re
 * :ref:`theClass and theTrait define the same property ($property) in the composition of theClass. However, the definition differs and is considered incompatible. <incompatible-property-between-class-and-trait>`
 * :ref:`unpack(): Type t: unknown format code <invalid-pack-format>`
 * :ref:`version_compare(): Argument #3 ($operator) must be a valid comparison operator <version\_compare-operator>`
+* :ref:`y\:\:F cannot override final constant x\:\:F <can't-overwrite-final-constant>`
 
 
 

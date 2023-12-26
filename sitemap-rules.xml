@@ -310,6 +310,9 @@
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Classes/CantInstantiateClass.html</loc>
  </url>
  <url>
+  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Classes/CantOverwriteFinalConstant.html</loc>
+ </url>
+ <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Exceptions/CantThrow.html</loc>
  </url>
  <url>
@@ -338,9 +341,6 @@
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Interfaces/CantOverloadConstants.html</loc>
- </url>
- <url>
-  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Classes/CantOverwriteFinalConstant.html</loc>
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Classes/CantOverwriteFinalMethod.html</loc>

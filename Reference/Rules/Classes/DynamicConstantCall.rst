@@ -5,9 +5,9 @@
 Dynamic Class Constant
 ++++++++++++++++++++++
 
-  Dynamic calls to class constants.
+  This is the list of dynamic calls to class constants.
 
-Constant may be dynamically called with the `constant() <https://www.php.net/constant>`_ function.
+Constant may be dynamically called with the `constant() <https://www.php.net/constant>`_ function. In PHP 8.3, they may also be called with a new dedicated syntax. 
 
 .. code-block:: php
    
@@ -20,7 +20,11 @@ Constant may be dynamically called with the `constant() <https://www.php.net/con
        }
    
        // Dynamic access to 'E_ALL'
-       echo constant('i::MY_CONSTANT');
+       $constantName = 'MY_CONSTANT';
+       echo constant('i::'.$constantName);
+   
+       // With PHP 8.3 : 
+       echo i::{$constantName};
    
    ?>
 

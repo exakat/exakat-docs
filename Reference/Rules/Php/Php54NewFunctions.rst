@@ -33,6 +33,16 @@ New Functions In PHP 5.4
 + `zlib_decode() <https://www.php.net/zlib_decode>`_
 + `zlib_encode() <https://www.php.net/zlib_encode>`_
 
+.. code-block:: php
+   
+   <?php
+   
+   $zipped = zlib_encode($longText); 
+   
+   $raw = zlib_decode($zipped);
+   
+   ?>
+
 Specs
 _____
 

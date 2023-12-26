@@ -1428,7 +1428,7 @@ Total : 1625 analysis
 * :ref:`dont-add-seconds`
 * :ref:`use-constants-as-returns`
 * :ref:`identical-variables-in-foreach`
-* :ref:`cant-overwrite-final-constant`
+* :ref:`can't-overwrite-final-constant`
 * :ref:`string-int-comparison`
 * :ref:`add-return-typehint`
 * :ref:`ext-protobuf`
@@ -1501,7 +1501,7 @@ Total : 1625 analysis
 * :ref:`geospatial`
 * :ref:`feast-usage`
 * :ref:`date()-versus-datetime-preference`
-* :ref:`unused-public-method`
+* :ref:`unused-public-methods`
 * :ref:`could-be-abstract-method`
 * :ref:`solve-trait-constants`
 * :ref:`no-keyword-in-namespace`

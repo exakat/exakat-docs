@@ -7,7 +7,6 @@ Hash Algorithms Incompatible With PHP 5.4/5.5
 
   List of hash algorithms incompatible with PHP 5.4 and 5.5.
 
-
 .. code-block:: php
    
    <?php

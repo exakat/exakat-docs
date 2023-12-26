@@ -7,7 +7,6 @@ Empty List
 
   Empty `list() <https://www.php.net/list>`_ are not allowed anymore in PHP 7. There must be at least one variable in the list call.
 
-
 .. code-block:: php
    
    <?php

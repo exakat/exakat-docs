@@ -11,7 +11,6 @@ It may be in function definitions and function calls; it may be in arrays; it is
 
 `... <https://www.php.net/manual/en/functions.arguments.php#functions.variable-arg-list>`_ allows for packing or unpacking arguments into an array.
 
-
 .. code-block:: php
    
    <?php

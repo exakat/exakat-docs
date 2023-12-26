@@ -1,11 +1,28 @@
 .. _classes-unusedpublicmethod:
 
-.. _unused-public-method:
+.. _unused-public-methods:
 
-Unused Public Method
-++++++++++++++++++++
+Unused Public Methods
++++++++++++++++++++++
 
   List unused public methods.
+
+.. code-block:: php
+   
+   <?php
+   
+   class x {
+   	public function usedMethod() {}
+   	
+   	// There is no call to this method
+   	public function unusedMethod() {}
+   }
+   
+   $x = new x();
+   $x->usedMethod();
+   
+   
+   ?>
 
 Specs
 _____
@@ -26,6 +43,8 @@ _____
 | Precision    | Medium                                                                                                                  |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Features     | public, method                                                                                                          |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Related rule | :ref:`unused-private-methods`, :ref:`unused-protected-methods`, :ref:`unused-methods`                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

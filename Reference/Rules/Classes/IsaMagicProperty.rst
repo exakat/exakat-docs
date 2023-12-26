@@ -5,7 +5,9 @@
 Is A Magic Property
 +++++++++++++++++++
 
-  Mark properties usage when they are actually a magic call.
+  Mark properties usage when they are actually a magic call. 
+
+There is no direct mention of it in the syntax, it has to be checked with the definitions of the class.
 
 .. code-block:: php
    

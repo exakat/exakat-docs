@@ -5,7 +5,11 @@
 Use Closure Trailing Comma
 ++++++++++++++++++++++++++
 
-  Use a trailing comma in the `closure <https://www.php.net/`closure <https://www.php.net/closure>`_>`_'s use list. This feature was added in PHP 8.0.
+  Use a trailing comma in the `closure <https://www.php.net/`closure <https://www.php.net/closure>`_>`_'s ``use`` list. 
+
+A trailing comma doesn't add any argument, not even a void or null one. It is a convenient for VCS to make diff with the previous code, and have them more readable.
+
+This feature was added in PHP 8.0.
 
 .. code-block:: php
    
@@ -22,6 +26,14 @@ Use Closure Trailing Comma
 See also `Trailing Comma In Closure Use List <https://wiki.php.net/rfc/trailing_comma_in_closure_use_list>`_.
 
 
+Suggestions
+___________
+
+* Add a trailing comma when there are more than one argument in the use expression
+
+
+
+
 Specs
 _____
 
@@ -32,7 +44,7 @@ _____
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 2.1.6                                                                                                                                                                                   |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| PHP Version  | With PHP 8.0 and older                                                                                                                                                                  |
+| PHP Version  | With PHP 8.0 and more recent                                                                                                                                                            |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Severity     | Minor                                                                                                                                                                                   |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

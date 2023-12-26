@@ -36,7 +36,7 @@ Total : 34 analysis
 * :ref:`only-container-for-reference`
 * :ref:`wrong-argument-name-with-php-function`
 * :ref:`undefined-enumcase`
-* :ref:`cant-overwrite-final-constant`
+* :ref:`can't-overwrite-final-constant`
 * :ref:`lowered-access-level`
 * :ref:`cant-overwrite-final-method`
 * :ref:`overload-existing-names`

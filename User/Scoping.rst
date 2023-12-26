@@ -10324,7 +10324,28 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
 ::
 
  [PHP recommendations]
-   analyzer[] = "";
+   analyzer[] = "Attributes/MissingAttributeAttribute";
+   analyzer[] = "Classes/CouldBeStringable";
+   analyzer[] = "Classes/ThrowInDestruct";
+   analyzer[] = "Constants/BadConstantnames";
+   analyzer[] = "Interfaces/NoConstructorInInterface";
+   analyzer[] = "Namespaces/UseWithFullyQualifiedNS";
+   analyzer[] = "Performances/AvoidArrayPush";
+   analyzer[] = "Php/Crc32MightBeNegative";
+   analyzer[] = "Php/ImplodeOneArg";
+   analyzer[] = "Php/NoCastToInt";
+   analyzer[] = "Php/NotScalarType";
+   analyzer[] = "Php/ReservedMethods";
+   analyzer[] = "Php/ReturnWithParenthesis";
+   analyzer[] = "Structures/DanglingArrayReferences";
+   analyzer[] = "Structures/EvalUsage";
+   analyzer[] = "Structures/NoIssetWithEmpty";
+   analyzer[] = "Structures/ShortTags";
+   analyzer[] = "Structures/StrposCompare";
+   analyzer[] = "Structures/UnsupportedOperandTypes";
+   analyzer[] = "Structures/UseConstant";
+   analyzer[] = "Structures/UselessCasting";
+   analyzer[] = "Type/NoRealComparison";
 
 
 .. _annex-yaml-php-recommendations:
@@ -10338,7 +10359,28 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
 
   rulesets:
     'PHP recommendations':
-     - ''
+     - 'Attributes/MissingAttributeAttribute'
+     - 'Classes/CouldBeStringable'
+     - 'Classes/ThrowInDestruct'
+     - 'Constants/BadConstantnames'
+     - 'Interfaces/NoConstructorInInterface'
+     - 'Namespaces/UseWithFullyQualifiedNS'
+     - 'Performances/AvoidArrayPush'
+     - 'Php/Crc32MightBeNegative'
+     - 'Php/ImplodeOneArg'
+     - 'Php/NoCastToInt'
+     - 'Php/NotScalarType'
+     - 'Php/ReservedMethods'
+     - 'Php/ReturnWithParenthesis'
+     - 'Structures/DanglingArrayReferences'
+     - 'Structures/EvalUsage'
+     - 'Structures/NoIssetWithEmpty'
+     - 'Structures/ShortTags'
+     - 'Structures/StrposCompare'
+     - 'Structures/UnsupportedOperandTypes'
+     - 'Structures/UseConstant'
+     - 'Structures/UselessCasting'
+     - 'Type/NoRealComparison'
 
 
 
