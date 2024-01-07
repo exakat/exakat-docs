@@ -13,7 +13,6 @@ It is recommended to use ``const`` for global constants, as this keyword is proc
 
 Note that `define() <https://www.php.net/define>`_ used to allow the creation of case-insensitive constants, but this is deprecated since PHP 7.3 and will be removed in PHP 8.0.
 
-
 .. code-block:: php
    
    <?php

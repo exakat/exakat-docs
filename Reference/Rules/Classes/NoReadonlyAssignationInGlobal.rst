@@ -7,8 +7,7 @@ No Readonly Assignation In Global
 
   When a property is marked readonly, it may only be assigned within the class of definition.
 
-It cannot be assigned outside this class, in the global scope. It is also immune to class invasion. 
-
+It cannot be assigned outside this class, in the global scope. It is also immune to class invasion.
 
 .. code-block:: php
    

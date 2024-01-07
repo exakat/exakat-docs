@@ -9,7 +9,6 @@ Case Insensitive Constants
 
 This feature is deprecated since PHP 7.3 and is removed since PHP 8.0.
 
-
 .. code-block:: php
    
    <?php

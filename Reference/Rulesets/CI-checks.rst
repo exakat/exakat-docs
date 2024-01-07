@@ -147,7 +147,7 @@ Total : 178 analysis
 * :ref:`missing-parenthesis`
 * :ref:`callback-function-needs-return`
 * :ref:`strpos()-too-much`
-* :ref:`typehinted-references`
+* :ref:`class-typed-references`
 * :ref:`check-json`
 * :ref:`undefined-class`
 * :ref:`undefined-variable`

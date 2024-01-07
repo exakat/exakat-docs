@@ -5,8 +5,7 @@
 Constants Names
 +++++++++++++++
 
-  List of PHP constants being defined.
-
+  List of PHP defined global constants in the source code. Constants are defined with the ``define()`` functioncall or ``const`` command. 
 
 .. code-block:: php
    

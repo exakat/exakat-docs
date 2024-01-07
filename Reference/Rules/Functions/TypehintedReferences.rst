@@ -1,16 +1,15 @@
 .. _functions-typehintedreferences:
 
-.. _typehinted-references:
+.. _class-typed-references:
 
-Typehinted References
-+++++++++++++++++++++
+Class-typed References
+++++++++++++++++++++++
 
-  Typehinted arguments have no need for references. Since they are only an object, they are already a reference.
+  Class-typee arguments have no need for references. Since they are representing an object, they are already a reference.
 
 In fact, adding the & on the argument definition may lead to `error <https://www.php.net/error>`_ like ``Only variables should be passed by reference``.
 
 This applies to the ``object`` type hint, but not the the others, such as ``int`` or ``bool``.
-
 
 .. code-block:: php
    

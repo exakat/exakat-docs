@@ -95,6 +95,7 @@ List of external services whose configuration files has been commited in the cod
 * `bitbucket <https://bitbucket.org/product>`_ - bitbucket-pipelines.yml, bitbucket-pipelines.yml.template, bitbucket_packagist_scripts.json
 * `box2 <https://github.com/box-project/box2>`_ - box.json, box.json.dist
 * `bower <http://bower.io/>`_ - bower.json, .bowerrc
+* `browserslist <https://github.com/browserslist/browserslist>`_ - .browserslistrc
 * `captainhook <https://github.com/captainhookphp/captainhook>`_ - captainhook.json
 * `circleCI <https://circleci.com/>`_ - circle.yml, .circleci
 * `codacy <http://www.codacy.com/>`_ - .codacy.json
@@ -122,23 +123,27 @@ List of external services whose configuration files has been commited in the cod
 * `eslint <http://eslint.org/>`_ - .eslintrc, .eslintignore, eslintrc.js, .eslintrc.js, .eslintrc.json
 * `Exakat <https://www.exakat.io/>`_ - .exakat.yaml, .exakat.yml, .exakat.ini
 * `favicon <https://en.wikipedia.org/wiki/Favicon>`_ - favicon.ico
+* `Flakes <https://nixos.wiki/wiki/Flakes>`_ - flake.lock, flake.nix
 * `flintci <https://flintci.io/>`_ - .flintci.yml
 * `garden <https://garden.io/>`_ - garden.yaml
-* `git <https://git-scm.com/>`_ - .git, .gitignore, .gitattributes, .gitmodules, .mailmap, .githooks
+* `git <https://git-scm.com/>`_ - .git, .gitignore, .gitattributes, .gitmodules, .mailmap, .githooks, .git-hooks
+* `gitbook <https://www.gitbook.com/>`_ - .gitbook.yaml
 * `gitpod <https://www.gitpod.io/>`_ - .gitpod.yml, gitpod.code-workspace, .gitpod.dockerfile, .gitpod.Dockerfile
 * `github <https://www.github.com/>`_ - .github
 * `gitlab <https://www.gitlab.com/>`_ - .gitlab-ci.yml
-* `gulpfile <http://gulpjs.com/>`_ - gulpfile.js
+* `gulp <http://gulpjs.com/>`_ - gulpfile.js, gulpfile.babel.js
 * `grumphp <https://github.com/phpro/grumphp>`_ - grumphp.yml.dist, grumphp.yml, grumphp.dist.yml
 * `gush <https://github.com/gushphp/gush>`_ - .gush.yml
 * `gruntjs <https://gruntjs.com/>`_ - Gruntfile.js, gruntfile.js
 * `humbug <https://github.com/humbug/box.git>`_ - humbug.json.dist, humbug.json
 * `infection <https://infection.github.io/>`_ - infection.yml, .infection.yml, infection.json.dist, infection.json
-* `insight <https://insight.sensiolabs.com/>`_ - .sensiolabs.yml
+* `insight <https://insight.sensiolabs.com/>`_ - .sensiolabs.yml, .symfony.insight.yaml
 * `jest <https://jestjs.io/>`_ - jest.config.js
 * `jetbrains <https://www.jetbrains.com/phpstorm/>`_ - .idea
 * `jshint <http://jshint.com/>`_ - .jshintrc, .jshintignore
+* `karma <https://karma-runner.github.io/latest/index.html>`_ - ./karma.conf.js, ./karma.conf.coffee, ./karma.conf.ts, karma.conf.js
 * `lando <https://lando.dev/>`_ - .lando.yml
+* `lerna <https://lerna.js.org/>`_ - lerna.json
 * `mercurial <https://www.mercurial-scm.org/>`_ - .hg, .hgtags, .hgignore, .hgeol
 * `mkdocs <http://www.mkdocs.org>`_ - mkdocs.yml
 * `npm <https://www.npmjs.com/>`_ - package.json, .npmignore, .npmrc, package-lock.json
@@ -150,6 +155,7 @@ List of external services whose configuration files has been commited in the cod
 * `phalcon <https://phalconphp.com/>`_ - .phalcon
 * `phpbench <https://github.com/phpbench/phpbench>`_ - phpbench.json, phpbench.json.dist
 * `phpci <https://www.phptesting.org/>`_ - phpci.yml
+* `php-cs-fixer <https://github.com/PHP-CS-Fixer/PHP-CS-Fixer>`_ - .php-cs-fixer.php, .php-cs-fixer.dist.php
 * `Phpdocumentor <https://www.phpdoc.org/>`_ - .phpdoc.xml, phpdoc.dist.xml, phpdoc.xml.dist
 * `phpdox <https://github.com/theseer/phpdox>`_ - phpdox.xml.dist, phpdox.xml
 * `phive <https://phar.io/>`_ - phive.xml
@@ -163,11 +169,13 @@ List of external services whose configuration files has been commited in the cod
 * `phpstan <https://github.com/phpstan>`_ - phpstan.neon, .phpstan.neon, phpstan.neon.dist, phpstan-baseline.neon, phpstan.tests.neon.dist, phpstan.dist.neon
 * `phpswitch <https://github.com/jubianchi/phpswitch>`_ - .phpswitch.yml
 * `PHPMD <https://phpmd.org/>`_ - phpmd.xml, phpmd.xml.dist, phpmd_ruleset.xml
-* `PHPUnit <https://www.phpunit.de/>`_ - phpunit.xml.dist, phpunit.xml, phpunit.xml.legacy, phpunit.dist.xml
+* `PHPstorm <https://www.jetbrains.com/phpstorm/>`_ - .phpstorm.meta.php
+* `PHPUnit <https://www.phpunit.de/>`_ - phpunit.xml.dist, phpunit.xml, phpunit.xml.legacy, phpunit.dist.xml, phpunit-unit.xml
 * `postcss <https://github.com/postcss/postcss>`_ - postcss.config.js
-* `prettier <https://prettier.io/>`_ - .prettierrc, .prettierignore, .prettierrc.json
+* `prettier <https://prettier.io/>`_ - .prettierrc, .prettierignore, .prettierrc.json, .prettierrc.js
 * `psalm <https://getpsalm.org/>`_ - psalm.xml, psalm-baseline.xml, psalm.xml.dist
 * `puppet <https://puppet.com/>`_ - .puppet
+* `qodana <https://www.jetbrains.com/qodana/>`_ - qodana.yaml
 * `renovate <https://www.renovatebot.com/>`_ - renovate.json
 * `rmt <https://github.com/liip/RMT>`_ - .rmt.yml
 * `robo <https://robo.li/>`_ - RoboFile.php, robo.yml.dist
@@ -178,7 +186,7 @@ List of external services whose configuration files has been commited in the cod
 * `stickler <https://stickler-ci.com/docs>`_ - .stickler.yml
 * `storyplayer <https://datasift.github.io/storyplayer/>`_ - storyplayer.json.dist
 * `styleci <https://styleci.io/>`_ - .styleci.yml
-* `stylelint <https://stylelint.io/>`_ - .stylelintrc, .stylelintignore, .stylelintrc.json
+* `stylelint <https://stylelint.io/>`_ - .stylelintrc, .stylelintignore, .stylelintrc.json, stylelint.config.js
 * `sublimelinter <http://www.sublimelinter.com/en/latest/>`_ - .csslintrc
 * `symfony <https://symfony.com/>`_ - symfony.lock
 * `svn <https://subversion.apache.org/>`_ - svn.revision, .svn, .svnignore

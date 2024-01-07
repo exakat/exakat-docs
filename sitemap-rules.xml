@@ -313,6 +313,9 @@
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Classes/CantOverwriteFinalConstant.html</loc>
  </url>
  <url>
+  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Classes/CantOverwriteFinalMethod.html</loc>
+ </url>
+ <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Exceptions/CantThrow.html</loc>
  </url>
  <url>
@@ -341,9 +344,6 @@
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Interfaces/CantOverloadConstants.html</loc>
- </url>
- <url>
-  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Classes/CantOverwriteFinalMethod.html</loc>
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Php/CantUseReturnValueInWriteContext.html</loc>
@@ -437,6 +437,9 @@
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Classes/CitSameName.html</loc>
+ </url>
+ <url>
+  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Functions/TypehintedReferences.html</loc>
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Classes/MutualExtension.html</loc>
@@ -2320,6 +2323,9 @@
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/NewLineStyle.html</loc>
  </url>
  <url>
+  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Classes/NewThenCall.html</loc>
+ </url>
+ <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Classes/NewOnFunctioncallOrIdentifier.html</loc>
  </url>
  <url>
@@ -3604,6 +3610,9 @@
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Php/TryMultipleCatch.html</loc>
  </url>
  <url>
+  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Exceptions/TryNoCatch.html</loc>
+ </url>
+ <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Type/ArrayIndex.html</loc>
  </url>
  <url>
@@ -3629,9 +3638,6 @@
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Dump/Typehintorder.html</loc>
- </url>
- <url>
-  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Functions/TypehintedReferences.html</loc>
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Dump/TypehintingStats.html</loc>

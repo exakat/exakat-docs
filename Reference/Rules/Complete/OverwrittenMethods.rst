@@ -8,6 +8,9 @@ Overwritten Methods
   This command adds OVERWRITE link between methods definitions of classes.
 
 
+
+The `foo` method will be linked between classes x and y, with an OVERWRITE link.
+
 .. code-block:: php
    
    <?php
@@ -21,9 +24,6 @@ Overwritten Methods
    }
    
    ?>
-
-
-The `foo` method will be linked between classes x and y, with an OVERWRITE link.
 
 Specs
 _____

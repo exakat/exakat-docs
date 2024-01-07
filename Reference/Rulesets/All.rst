@@ -5,7 +5,7 @@ All
 
 All is a dummy ruleset, which includes all the rules. It is mostly used internally.
 
-Total : 1625 analysis
+Total : 1627 analysis
 
 * :ref:`adding-zero`
 * :ref:`ambiguous-array-index`
@@ -936,7 +936,7 @@ Total : 1625 analysis
 * :ref:`failing-analysis`
 * :ref:`can't-instantiate-class`
 * :ref:`strpos()-too-much`
-* :ref:`typehinted-references`
+* :ref:`class-typed-references`
 * :ref:`do-in-base`
 * :ref:`weak-typing`
 * :ref:`cache-variable-outside-loop`
@@ -1453,7 +1453,7 @@ Total : 1625 analysis
 * :ref:`extensions-yar`
 * :ref:`collect-stub-structures`
 * :ref:`lowered-access-level`
-* :ref:`cant-overwrite-final-method`
+* :ref:`can't-overwrite-final-method`
 * :ref:`implicit-conversion-to-int`
 * :ref:`excimer`
 * :ref:`use-same-types-for-comparisons`
@@ -1632,6 +1632,8 @@ Total : 1625 analysis
 * :ref:`could-use-strcontains()`
 * :ref:`could-drop-variable`
 * :ref:`could-be-readonly-property`
+* :ref:`new-object-then-immediate-call`
+* :ref:`try-without-catch`
 
 Specs
 _____

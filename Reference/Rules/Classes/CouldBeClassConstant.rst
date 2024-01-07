@@ -5,8 +5,11 @@
 Could Be Class Constant
 +++++++++++++++++++++++
 
-  When a property is defined and read, but never modified, it could be turned into a constant. 
+  When a property is defined, with a default value, then read, but never modified, it could be turned into a constant. 
 
+Such a property may initially be intended to have a value update, but that never turned out in the code. 
+
+By making the property a constant, it makes visible its constant nature, and reduce the complexity of the code.
 
 .. code-block:: php
    
@@ -28,9 +31,6 @@ Could Be Class Constant
    }
    
    ?>
-
-
-Starting with PHP 5.6, `array() <https://www.php.net/array>`_ may be defined as constants.
 
 See also Class Constants `<https://www.php.net/manual/en/language.oop5.constants.php>`_.
 
@@ -62,6 +62,8 @@ _____
 | Precision    | Very high                                                                                                               |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Features     | class-constant, visibility                                                                                              |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Related rule | :ref:`never-called-parameter`                                                                                           |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

@@ -462,7 +462,7 @@ Total : 625 analysis
 * :ref:`ext-zookeeper`
 * :ref:`ext-cmark`
 * :ref:`strpos()-too-much`
-* :ref:`typehinted-references`
+* :ref:`class-typed-references`
 * :ref:`check-json`
 * :ref:`ext-eio`
 * :ref:`undefined-class`

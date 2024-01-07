@@ -45,7 +45,6 @@ Total : 55 analysis
 * :ref:`collect-use-counts`
 * :ref:`collect-block-size`
 * :ref:`collect-dependency-extension`
-* :ref:`public-reach-to-private-methods`
 * :ref:`could-be-a-constant`
 * :ref:`collect-stub-structures`
 * :ref:`collect-vendor-structures`
@@ -62,6 +61,7 @@ Total : 55 analysis
 * :ref:`collect-structures`
 * :ref:`collect-catch-calls`
 * :ref:`collect-graph-triplets`
+* :ref:`try-without-catch`
 
 Specs
 _____

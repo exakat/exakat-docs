@@ -9,6 +9,7 @@ fputcsv() In Loops
 
 To speed up this process, it is recommended to dump the CSV to memory first, then dump the memory to the disk, in larger chunks. Since `fputcsv() <https://www.php.net/fputcsv>`_ works only on stream, it is necessary to use a memory stream.
 
+The speed improvement is significant on small rows, while it may be less significant on larger rows : with more data in the rows, the file buffer may fill up more efficiently. On small rows, the speed gain is up to 7 times.
 
 .. code-block:: php
    
@@ -34,9 +35,6 @@ To speed up this process, it is recommended to dump the CSV to memory first, the
    }
    fclose($fp);
    ?>
-
-
-The speed improvement is significant on small rows, while it may be less significant on larger rows : with more data in the rows, the file buffer may fill up more efficiently. On small rows, the speed gain is up to 7 times.
 
 Suggestions
 ___________

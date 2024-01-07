@@ -9,7 +9,6 @@ Wrong Class Name Case
 
 It may also be a violation of coding conventions.
 
-
 .. code-block:: php
    
    <?php

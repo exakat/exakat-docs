@@ -24,7 +24,7 @@ The following structures are evaluated differently in PHP 5 and 7. It is recomme
    $foo['bar']['baz'] = 'bar';
    $bar = 'foobarbazbar';
    echo $$foo['bar']['baz'];
-   echo ${$foo['bar']['baz']};
+   echo \$\{\$foo['bar']['baz']\};
    
    ?>
 
@@ -32,10 +32,10 @@ The following structures are evaluated differently in PHP 5 and 7. It is recomme
 +-----------------------+-------------------------+-------------------------+
 | Expression            | PHP 5 interpretation    | PHP 7 interpretation    |
 +-----------------------+-------------------------+-------------------------+
-|$$foo['bar']['baz']    |${$foo['bar']['baz']}    |($$foo)['bar']['baz']    |
-|$foo->$bar['baz']      |$foo->{$bar['baz']}      |($foo->$bar)['baz']      |
-|$foo->$bar['baz']()    |$foo->{$bar['baz']}()    |($foo->$bar)['baz']()    |
-|Foo\:\:$bar['baz']()   |Foo\:\:{$bar['baz']}()   |(Foo\:\:$bar)['baz']()   |
+|\$\$foo['bar']['baz']    |\$\{\$foo['bar']['baz']\}    |(\$\$foo)['bar']['baz']    |
+|\$foo->\$bar['baz']      |\$foo->\{\$bar['baz']\}      |(\$foo->\$bar)['baz']      |
+|\$foo->\$bar['baz']()    |\$foo->\{\$bar['baz']\}()    |(\$foo->\$bar)['baz']()    |
+|Foo\:\:\$bar['baz']()   |Foo\:\:{\$bar['baz']}()   |(Foo\:\:\$bar)['baz']()   |
 +-----------------------+-------------------------+-------------------------+
 
 See also `Backward incompatible changes PHP 7.0 <https://www.php.net/manual/en/migration70.incompatible.php>`_.
@@ -44,8 +44,8 @@ See also `Backward incompatible changes PHP 7.0 <https://www.php.net/manual/en/m
 Suggestions
 ___________
 
-* Avoid using complex expressions, mixing ``$$\``, ``[0]`` and ``->`` in the same expression
-* Add curly braces {} to ensure that the precedence is the same between PHP 5 and 7. For example, ``$$v`` becomes ``${$v}``
+* Avoid using complex expressions, mixing ``\$\$\``, ``[0]`` and ``->`` in the same expression
+* Add curly braces \{\} to ensure that the precedence is the same between PHP 5 and 7. For example, ``\$\$v`` becomes ``\$\{\$v\}``
 
 
 

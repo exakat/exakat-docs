@@ -5,7 +5,14 @@
 Is CLI Script
 +++++++++++++
 
-  Mark a file as a CLI script, based on the usage of #!.
+  Mark a file as a CLI script. This means that this code is used in command line. That detection is based on the usage of distinct CLI features, such as ``#!`` at the beginning of the file.
+#!/usr/bin/php
+
+.. code-block:: php
+   
+   <?php
+   	echo PHP_VERSION;
+   ?>
 
 Specs
 _____

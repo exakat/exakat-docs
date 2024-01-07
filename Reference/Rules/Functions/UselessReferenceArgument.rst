@@ -5,12 +5,11 @@
 Useless Referenced Argument
 +++++++++++++++++++++++++++
 
-  The argument has a reference, but is only used for reading. 
+  The argument has a reference, and is only used for reading. 
 
 This is probably a development artefact that was forgotten. It is better to remove it. 
 
 This analysis also applies to `foreach() <https://www.php.net/manual/en/control-structures.foreach.php>`_ loops, that declare the blind variable as reference, then use the variable as an object, accessing properties and methods. When a variable contains an object, there is no need to declare a reference : it is a reference automatically.
-
 
 .. code-block:: php
    

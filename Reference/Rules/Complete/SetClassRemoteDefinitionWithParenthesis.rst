@@ -5,8 +5,7 @@
 Set Class Remote Definition With Parenthesis
 ++++++++++++++++++++++++++++++++++++++++++++
 
-  Links method call to its definition, thanks to the new in parenthesis. The link is ``DEFINITION``.
-
+  Links methodcall, properties and constants to its definition, based to the new in the parenthesis. The link is ``DEFINITION``.
 
 .. code-block:: php
    

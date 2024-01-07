@@ -9,7 +9,6 @@ ext/xmlreader
 
 The `XMLReader <https://www.php.net/xmlreader>`_ extension is an XML Pull parser. The reader acts as a cursor going forward on the document stream and stopping at each node on the way.
 
-
 .. code-block:: php
    
    <?php

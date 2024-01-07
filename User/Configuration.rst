@@ -624,6 +624,10 @@ Analyzers may be configured in the `project/*/config.ini`; they may also be conf
   + minNestedTernary : 2
 
     + Minimal number of nested ternary to report.
+:ref:`New On Functioncall Or Identifier <new-on-functioncall-or-identifier>`
+  + threshold : 10
+
+    + Maximal percentage for a syntax to be considered to be fixed.
 :ref:`PHP Keywords As Names <php-keywords-as-names>`
   + reservedNames : 
 

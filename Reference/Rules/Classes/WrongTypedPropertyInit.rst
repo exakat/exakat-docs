@@ -10,6 +10,9 @@ Wrong Typed Property Default
 Initialized type might be a new instance, the return of a method call or an interface compatible object.
 
 
+
+PHP compiles such code, but won't execute it, as it detects the incompatibility at execution time.
+
 .. code-block:: php
    
    <?php
@@ -29,9 +32,6 @@ Initialized type might be a new instance, the return of a method call or an inte
    }
    
    ?>
-
-
-PHP compiles such code, but won't execute it, as it detects the incompatibility at execution time.
 
 See also :ref:`Wrong Type Returned <wrong-type-returned>` and :ref:`Mismatch Type And Default <mismatch-type-and-default>`.
 

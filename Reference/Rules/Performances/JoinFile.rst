@@ -7,10 +7,11 @@ Joining file()
 
   Use `file() <https://www.php.net/file>`_ to read lines separately. 
 
-Applying join('', ) or implode('', ) to the `result <https://www.php.net/result>`_ of `file() <https://www.php.net/file>`_ provides the same results than using `file_get_contents() <https://www.php.net/file_get_contents>`_, but at a higher cost of memory and processing.
+Applying ``join('', )`` or ``implode('', )`` to the `result <https://www.php.net/result>`_ of `file() <https://www.php.net/file>`_ provides the same results than using `file_get_contents() <https://www.php.net/file_get_contents>`_, but at a higher cost of memory and processing.
 
-If the delimiter is not '', then `implode() <https://www.php.net/implode>`_ and `file() <https://www.php.net/file>`_ are a better solution than `file_get_contents() <https://www.php.net/file_get_contents>`_ and `str_replace() <https://www.php.net/str_replace>`_ or `nl2br() <https://www.php.net/nl2br>`_.
+If the delimiter is not ``''``, then ``implode()`` and ``file()`` are a better solution than ``file_get_contents()`` and ``str_replace()`` or ``nl2br()``.
 
+Always use ``file_get_contents()`` to get the content of a file as a string. Consider using `readfile() <https://www.php.net/readfile>`_ to echo the content directly to the output.
 
 .. code-block:: php
    
@@ -31,9 +32,6 @@ If the delimiter is not '', then `implode() <https://www.php.net/implode>`_ and 
    fclose($fp);
    
    ?>
-
-
-Always use `file_get_contents() <https://www.php.net/file_get_contents>`_ to get the content of a file as a string. Consider using `readfile() <https://www.php.net/readfile>`_ to echo the content directly to the output.
 
 See also `file_get_contents <https://www.php.net/file_get_contents>`_ and `file <https://www.php.net/file>`_.
 

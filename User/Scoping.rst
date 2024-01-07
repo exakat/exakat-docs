@@ -286,6 +286,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Classes/MutualExtension";
    analyzer[] = "Classes/NewDynamicConstantSyntax";
    analyzer[] = "Classes/NewOnFunctioncallOrIdentifier";
+   analyzer[] = "Classes/NewThenCall";
    analyzer[] = "Classes/NoMagicWithArray";
    analyzer[] = "Classes/NoNullWithNullSafeOperator";
    analyzer[] = "Classes/NoPSSOutsideClass";
@@ -548,6 +549,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Exceptions/ThrowFunctioncall";
    analyzer[] = "Exceptions/ThrowRawExceptions";
    analyzer[] = "Exceptions/ThrownExceptions";
+   analyzer[] = "Exceptions/TryNoCatch";
    analyzer[] = "Exceptions/UncaughtExceptions";
    analyzer[] = "Exceptions/Unthrown";
    analyzer[] = "Exceptions/UnusedExceptionVariable";
@@ -1926,6 +1928,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Classes/MutualExtension'
      - 'Classes/NewDynamicConstantSyntax'
      - 'Classes/NewOnFunctioncallOrIdentifier'
+     - 'Classes/NewThenCall'
      - 'Classes/NoMagicWithArray'
      - 'Classes/NoNullWithNullSafeOperator'
      - 'Classes/NoPSSOutsideClass'
@@ -2188,6 +2191,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Exceptions/ThrowFunctioncall'
      - 'Exceptions/ThrowRawExceptions'
      - 'Exceptions/ThrownExceptions'
+     - 'Exceptions/TryNoCatch'
      - 'Exceptions/UncaughtExceptions'
      - 'Exceptions/Unthrown'
      - 'Exceptions/UnusedExceptionVariable'
@@ -3466,6 +3470,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Classes/MissingAbstractMethod";
    analyzer[] = "Classes/MultipleDeclarations";
    analyzer[] = "Classes/MultipleTraitOrInterface";
+   analyzer[] = "Classes/NewThenCall";
    analyzer[] = "Classes/NoMagicWithArray";
    analyzer[] = "Classes/NoNullWithNullSafeOperator";
    analyzer[] = "Classes/NoPSSOutsideClass";
@@ -3971,6 +3976,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Classes/MissingAbstractMethod'
      - 'Classes/MultipleDeclarations'
      - 'Classes/MultipleTraitOrInterface'
+     - 'Classes/NewThenCall'
      - 'Classes/NoMagicWithArray'
      - 'Classes/NoNullWithNullSafeOperator'
      - 'Classes/NoPSSOutsideClass'
@@ -7133,6 +7139,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Classes/MissingVisibility";
    analyzer[] = "Classes/MultiplePropertyDeclaration";
    analyzer[] = "Classes/MutualExtension";
+   analyzer[] = "Classes/NewThenCall";
    analyzer[] = "Classes/NoNullWithNullSafeOperator";
    analyzer[] = "Classes/NoParent";
    analyzer[] = "Classes/NoReadonlyAssignationInGlobal";
@@ -7243,6 +7250,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Classes/MissingVisibility'
      - 'Classes/MultiplePropertyDeclaration'
      - 'Classes/MutualExtension'
+     - 'Classes/NewThenCall'
      - 'Classes/NoNullWithNullSafeOperator'
      - 'Classes/NoParent'
      - 'Classes/NoReadonlyAssignationInGlobal'
@@ -9511,10 +9519,10 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Dump/Inclusions";
    analyzer[] = "Dump/IndentationLevels";
    analyzer[] = "Dump/NewOrder";
-   analyzer[] = "Dump/PublicReach";
    analyzer[] = "Dump/TypehintingStats";
    analyzer[] = "Dump/Typehintorder";
    analyzer[] = "Exceptions/CaughtExceptions";
+   analyzer[] = "Exceptions/TryNoCatch";
    analyzer[] = "Php/ComparisonOnDifferentTypes";
 
 
@@ -9579,10 +9587,10 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Dump/Inclusions'
      - 'Dump/IndentationLevels'
      - 'Dump/NewOrder'
-     - 'Dump/PublicReach'
      - 'Dump/TypehintingStats'
      - 'Dump/Typehintorder'
      - 'Exceptions/CaughtExceptions'
+     - 'Exceptions/TryNoCatch'
      - 'Php/ComparisonOnDifferentTypes'
 
 
@@ -9752,10 +9760,8 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
  [IsExt]
    analyzer[] = "Classes/AccessProtected";
    analyzer[] = "Classes/CantExtendFinal";
-   analyzer[] = "Classes/CantOverwriteFinalConstant";
    analyzer[] = "Classes/CantOverwriteFinalMethod";
    analyzer[] = "Classes/DefinedConstants";
-   analyzer[] = "Classes/InstantiatingAbstractClass";
    analyzer[] = "Classes/IsInterfaceMethod";
    analyzer[] = "Classes/LoweredAccessLevel";
    analyzer[] = "Classes/MethodPropertyConfusion";
@@ -9763,7 +9769,6 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Classes/RaisedAccessLevel";
    analyzer[] = "Classes/RedefinedPrivateProperty";
    analyzer[] = "Classes/StaticMethodsCalledFromObject";
-   analyzer[] = "Classes/UndefinedClasses";
    analyzer[] = "Classes/UndefinedConstants";
    analyzer[] = "Complete/PhpNativeReference";
    analyzer[] = "Constants/UndefinedConstants";
@@ -9799,10 +9804,8 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
     'IsExt':
      - 'Classes/AccessProtected'
      - 'Classes/CantExtendFinal'
-     - 'Classes/CantOverwriteFinalConstant'
      - 'Classes/CantOverwriteFinalMethod'
      - 'Classes/DefinedConstants'
-     - 'Classes/InstantiatingAbstractClass'
      - 'Classes/IsInterfaceMethod'
      - 'Classes/LoweredAccessLevel'
      - 'Classes/MethodPropertyConfusion'
@@ -9810,7 +9813,6 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Classes/RaisedAccessLevel'
      - 'Classes/RedefinedPrivateProperty'
      - 'Classes/StaticMethodsCalledFromObject'
-     - 'Classes/UndefinedClasses'
      - 'Classes/UndefinedConstants'
      - 'Complete/PhpNativeReference'
      - 'Constants/UndefinedConstants'
@@ -9853,10 +9855,8 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
  [IsPHP]
    analyzer[] = "Classes/AccessProtected";
    analyzer[] = "Classes/CantExtendFinal";
-   analyzer[] = "Classes/CantOverwriteFinalConstant";
    analyzer[] = "Classes/CantOverwriteFinalMethod";
    analyzer[] = "Classes/DefinedConstants";
-   analyzer[] = "Classes/InstantiatingAbstractClass";
    analyzer[] = "Classes/IsInterfaceMethod";
    analyzer[] = "Classes/LoweredAccessLevel";
    analyzer[] = "Classes/MethodPropertyConfusion";
@@ -9864,7 +9864,6 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Classes/RaisedAccessLevel";
    analyzer[] = "Classes/RedefinedPrivateProperty";
    analyzer[] = "Classes/StaticMethodsCalledFromObject";
-   analyzer[] = "Classes/UndefinedClasses";
    analyzer[] = "Classes/UndefinedConstants";
    analyzer[] = "Complete/PhpNativeReference";
    analyzer[] = "Constants/UndefinedConstants";
@@ -9900,10 +9899,8 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
     'IsPHP':
      - 'Classes/AccessProtected'
      - 'Classes/CantExtendFinal'
-     - 'Classes/CantOverwriteFinalConstant'
      - 'Classes/CantOverwriteFinalMethod'
      - 'Classes/DefinedConstants'
-     - 'Classes/InstantiatingAbstractClass'
      - 'Classes/IsInterfaceMethod'
      - 'Classes/LoweredAccessLevel'
      - 'Classes/MethodPropertyConfusion'
@@ -9911,7 +9908,6 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Classes/RaisedAccessLevel'
      - 'Classes/RedefinedPrivateProperty'
      - 'Classes/StaticMethodsCalledFromObject'
-     - 'Classes/UndefinedClasses'
      - 'Classes/UndefinedConstants'
      - 'Complete/PhpNativeReference'
      - 'Constants/UndefinedConstants'
@@ -9954,10 +9950,8 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
  [IsStub]
    analyzer[] = "Classes/AccessProtected";
    analyzer[] = "Classes/CantExtendFinal";
-   analyzer[] = "Classes/CantOverwriteFinalConstant";
    analyzer[] = "Classes/CantOverwriteFinalMethod";
    analyzer[] = "Classes/DefinedConstants";
-   analyzer[] = "Classes/InstantiatingAbstractClass";
    analyzer[] = "Classes/IsInterfaceMethod";
    analyzer[] = "Classes/LoweredAccessLevel";
    analyzer[] = "Classes/MethodPropertyConfusion";
@@ -9965,7 +9959,6 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Classes/RaisedAccessLevel";
    analyzer[] = "Classes/RedefinedPrivateProperty";
    analyzer[] = "Classes/StaticMethodsCalledFromObject";
-   analyzer[] = "Classes/UndefinedClasses";
    analyzer[] = "Classes/UndefinedConstants";
    analyzer[] = "Complete/PhpNativeReference";
    analyzer[] = "Constants/UndefinedConstants";
@@ -9999,10 +9992,8 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
     'IsStub':
      - 'Classes/AccessProtected'
      - 'Classes/CantExtendFinal'
-     - 'Classes/CantOverwriteFinalConstant'
      - 'Classes/CantOverwriteFinalMethod'
      - 'Classes/DefinedConstants'
-     - 'Classes/InstantiatingAbstractClass'
      - 'Classes/IsInterfaceMethod'
      - 'Classes/LoweredAccessLevel'
      - 'Classes/MethodPropertyConfusion'
@@ -10010,7 +10001,6 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Classes/RaisedAccessLevel'
      - 'Classes/RedefinedPrivateProperty'
      - 'Classes/StaticMethodsCalledFromObject'
-     - 'Classes/UndefinedClasses'
      - 'Classes/UndefinedConstants'
      - 'Complete/PhpNativeReference'
      - 'Constants/UndefinedConstants'

@@ -10,6 +10,9 @@ Bad Constants Names
 For example, ``__TRAIT__`` recently appeared in PHP, as a magic constant. In the future, other may appear. 
 
 
+
+The analyzer will report any constant which name is ``__.*.__``, or even ``_.*_`` (only one underscore).
+
 .. code-block:: php
    
    <?php
@@ -21,9 +24,6 @@ For example, ``__TRAIT__`` recently appeared in PHP, as a magic constant. In the
    define('__MY_OTHER_APP_CONST__', 2);
    
    ?>
-
-
-The analyzer will report any constant which name is ``__.*.__``, or even ``_.*_`` (only one underscore).
 
 See also `Constants <https://www.php.net/manual/en/language.constants.php>`_.
 

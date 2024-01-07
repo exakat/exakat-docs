@@ -5,9 +5,15 @@
 Never Called Parameter
 ++++++++++++++++++++++
 
-  When a parameter is never used at calltime. It always falls back to its default value : then, it may be turned into a local variable.
+  This analysis reports when a parameter is never used at calltime. 
 
-Parameter without a default value are reported by PHP, and are usually always filled. 
+Such parameter has a default value, and always falls back to it. As such, it may be turned into a local variable.
+
+A never called parameter is often planned for future use, though, so far, the code base doesn't make use of it. It also happens that the code use it, but is not part of the analyzed code base, such as a plugin system.
+
+This issue is silent: it doesn't yield any `error <https://www.php.net/error>`_. It is also difficult to identify, as it requires checking all the usage of the method.
+
+This analysis checks for actual usage of the parameter, from the outside of the method. This is different from checking if the parameter is used inside the method.
 
 
 .. code-block:: php
@@ -26,9 +32,6 @@ Parameter without a default value are reported by PHP, and are usually always fi
    foo($c);
    
    ?>
-
-
-This analysis checks for actual usage of the parameter, from the outside of the method. This is different from checking if the parameter is used inside the method.
 
 See also :ref:`Unused Parameter <unused-parameter>`, :ref:`Cancelled Parameter <cancelled-parameter>` and :ref:`Parameter Hiding <parameter-hiding>`.
 
@@ -61,7 +64,11 @@ _____
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                                 |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------+
+| Features     | silent                                                                                                                               |
++--------------+--------------------------------------------------------------------------------------------------------------------------------------+
 | Examples     | :ref:`case-piwigo-functions-neverusedparameter`                                                                                      |
++--------------+--------------------------------------------------------------------------------------------------------------------------------------+
+| Related rule | :ref:`could-be-class-constant`                                                                                                       |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_              |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------+

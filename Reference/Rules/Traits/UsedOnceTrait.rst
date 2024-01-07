@@ -5,8 +5,7 @@
 Used Once Trait
 +++++++++++++++
 
-  Trait should promote code reuse and be used multiple time. 
-
+  Trait should promote code reuse and be used multiple time. A trait that is used once might be as well merged into its host class, and removed. This is currently overengineered code.
 
 .. code-block:: php
    
@@ -33,8 +32,8 @@ Used Once Trait
 Suggestions
 ___________
 
-* inline the trait with its calling class or trait
-* use the trait in another class or trait
+* Inline the trait with its calling class or trait
+* Use the trait in another class or trait
 
 
 
@@ -57,7 +56,7 @@ _____
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                    |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | code-reuse                                                                                                              |
+| Features     | code-reuse, overenginereed                                                                                              |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

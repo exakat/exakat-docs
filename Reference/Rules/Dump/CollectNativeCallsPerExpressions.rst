@@ -5,7 +5,16 @@
 Collect Native Calls Per Expressions
 ++++++++++++++++++++++++++++++++++++
 
-  Computes and collects the number of PHP native call per expression.
+  This rule collects the number of PHP native call per expression. The more calls in an expression, the more complex the code.
+
+.. code-block:: php
+   
+   <?php
+   
+   // 2 calls to PHP native functions in the same expression
+   $a = hexdec($a) + hexdec($b);
+   
+   ?>
 
 Specs
 _____

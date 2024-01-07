@@ -9,7 +9,6 @@ Untyped No Default Properties
 
 This means that these properties will be assigned later, and are now running the risk to be accessed before being written. This yields a warning, and, when the property get typed, event with ``mixed``, a fatal `error <https://www.php.net/error>`_.
 
-
 .. code-block:: php
    
    <?php

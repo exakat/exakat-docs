@@ -2880,10 +2880,10 @@ This code could be turned into a switch() structure.
    
     if ($field[3] === 'text') {
                     echo '
-                            <input type="text" id="edit_field_'.$field[0].'_'.$elem[0].'" class="edit_item_field input_text text ui-widget-content ui-corner-all" size="40" data-field-type="'.$field[3].'" data-field-masked="'.$field[4].'" data-field-is-mandatory="'.$field[5].'" data-template-id="'.$templateID.'">';
+                            <input type=text id=edit_field_.$field[0]._.$elem[0]. class=edit_item_field input_text text ui-widget-content ui-corner-all size=40 data-field-type=.$field[3]. data-field-masked=.$field[4]. data-field-is-mandatory=.$field[5]. data-template-id=.$templateID.>';
                 } else if ($field[3] === 'textarea') {
                     echo '
-                            <textarea id="edit_field_'.$field[0].'_'.$elem[0].'" class="edit_item_field input_text text ui-widget-content ui-corner-all" colums="40" rows="5" data-field-type="'.$field["3"].'" data-field-masked="'.$field[4].'" data-field-is-mandatory="'.$field[5].'" data-template-id="'.$templateID.'"></textarea>';
+                            <textarea id=edit_field_.$field[0]._.$elem[0]. class=edit_item_field input_text text ui-widget-content ui-corner-all colums=40 rows=5 data-field-type=.$field["3"]. data-field-masked=.$field[4]. data-field-is-mandatory=.$field[5]. data-template-id=.$templateID.></textarea>';
                 }
 
 
@@ -10839,7 +10839,7 @@ $product is defined with a reference in the method signature, but it is also use
     		$props_to_update = $force ? $meta_key_to_props : $this->get_props_to_update( $product, $meta_key_to_props );
     
     		foreach ( $props_to_update as $meta_key => $prop ) {
-    					$value   = $product->{"get_$prop"}( 'edit' );
+    					$value   = $product->{get_$prop}( 'edit' );
     					$updated = update_post_meta( $product->get_id(), $meta_key, $value );
     			if ( $updated ) {
     				$this->updated_props[] = $prop;
@@ -11323,7 +11323,7 @@ This code actually loads the file, join it, then split it again. file() would be
 
 .. code-block:: php
    
-    $markerdata = explode( "\n", implode( '', file( $filename ) ) );
+    $markerdata = explode( \n, implode( '', file( $filename ) ) );
 
 
 .. _case-wrong-number-of-arguments:

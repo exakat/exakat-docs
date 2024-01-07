@@ -5,7 +5,7 @@
 Thrown Exceptions
 +++++++++++++++++
 
-  This rules reports the usage of the ``throw`` keyword. This means exceptions were raised. 
+  This rules reports the usage of the ``throw`` keyword. This means all these exceptions are raised at some point in the code.
 
 .. code-block:: php
    

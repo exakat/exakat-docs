@@ -11,6 +11,17 @@ This works on PHP native functions and custom functions.
 
 This doesn't work on dynamic calls nor methods yet.
 
+.. code-block:: php
+   
+   <?php
+   
+   function foo($a, &$b) {}
+   
+   // $b is marked as modified
+   foo($a, $b);
+   
+   ?>
+
 Specs
 _____
 

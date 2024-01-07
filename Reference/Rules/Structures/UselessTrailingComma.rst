@@ -13,7 +13,6 @@ Trailing comma with only one element are reported as useless. Then, for multiple
 
 This is a coding convention.
 
-
 .. code-block:: php
    
    <?php

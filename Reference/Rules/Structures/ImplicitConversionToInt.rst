@@ -22,6 +22,9 @@ The conversion happens in various situations in PHP lifecycle (extracted from th
 + As an array key
 
 
+
+This features is applied to PHP 8.1 and later, yet it is also applicable to older versions of PHP.
+
 .. code-block:: php
    
    <?php
@@ -32,9 +35,6 @@ The conversion happens in various situations in PHP lifecycle (extracted from th
    foo(1.2);
    
    ?>
-
-
-This features is applied to PHP 8.1 and later, yet it is also applicable to older versions of PHP.
 
 See also `PHP RFC: Deprecate implicit non-integer-compatible float to int conversions <https://wiki.php.net/rfc/implicit-float-int-deprecate>`_.
 

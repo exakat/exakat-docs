@@ -11,6 +11,9 @@ When defining a constant, it is recommended to use 'const' when the features of 
 This way, constant will be defined at compile time, and not at execution time. 
 
 
+
+`define() <https://www.php.net/define>`_ function is useful when the constant is not known at compile time, or when case sensitivity is necessary.
+
 .. code-block:: php
    
    <?php
@@ -19,21 +22,6 @@ This way, constant will be defined at compile time, and not at execution time.
      // Don't 
      define('A', 1);
      
-   ?>
-
-
-`define() <https://www.php.net/define>`_ function is useful when the constant is not known at compile time, or when case sensitivity is necessary.
-
-
-.. code-block:: php
-   
-   <?php
-     // Read $a in database or config file
-     define('A', $a);
-   
-     // Read $a in database or config file
-     define('B', 1, true);
-     echo b;
    ?>
 
 See also `Syntax <https://www.php.net/manual/en/language.constants.syntax.php>`_.

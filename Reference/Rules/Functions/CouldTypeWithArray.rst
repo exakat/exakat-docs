@@ -5,8 +5,7 @@
 Could Type With Array
 +++++++++++++++++++++
 
-  That argument may be typed with ``array``. 
-
+  That argument may be typed with ``array``. Based on usage, it was determined that the only type possible is a array.
 
 .. code-block:: php
    

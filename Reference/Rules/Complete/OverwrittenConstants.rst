@@ -10,6 +10,9 @@ Overwritten Constant
 A constant is overwritten by another when it is defined in one of the `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ class or `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ interface.
 
 
+
+The `A` constant will be linked between classes x and y, with an OVERWRITE link.
+
 .. code-block:: php
    
    <?php
@@ -23,9 +26,6 @@ A constant is overwritten by another when it is defined in one of the `parent <h
    }
    
    ?>
-
-
-The `A` constant will be linked between classes x and y, with an OVERWRITE link.
 
 Specs
 _____

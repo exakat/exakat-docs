@@ -7,6 +7,7 @@ Property Used Below
 
   This rule marks properties that are used in children classes.
 
+This analysis doesn't mark the current class, nor the `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ or grand `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ classes.
 
 .. code-block:: php
    
@@ -33,9 +34,6 @@ Property Used Below
    }
    
    ?>
-
-
-This analysis doesn't mark the current class, nor the `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ or grand `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ classes.
 
 See also :ref:`Property Used Above <property-used-above>`.
 

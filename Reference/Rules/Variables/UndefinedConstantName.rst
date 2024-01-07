@@ -34,7 +34,7 @@ ___________
 
 * Define the constant
 * Turn the dynamic syntax into a normal variable syntax
-* Use a fully qualified name (at least one \ ) to turn this syntax into a Fatal error when the constant is not found. This doesn't fix the problem, but may make it more obvious during the diagnostic.
+* Use a fully qualified name (at least one \\ ) to turn this syntax into a Fatal error when the constant is not found. This doesn't fix the problem, but may make it more obvious during the diagnostic.
 
 
 

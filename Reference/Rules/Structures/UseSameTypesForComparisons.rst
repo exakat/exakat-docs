@@ -12,6 +12,11 @@ Different types may lead to PHP type juggling, where the values are first cast t
 This applies to all inequality operators, as well as the spaceship operator. 
 
 
+
+This analysis skips comparisons between integers, floats and strings, as those are usually expected.
+
+Thanks to `Jordi Boggiano <https://twitter.com/seldaek>`_ and `Filippo Tessarotto <https://twitter.com/slamzoe>`_.
+
 .. code-block:: php
    
    <?php
@@ -33,11 +38,6 @@ This applies to all inequality operators, as well as the spaceship operator.
    var_dump(x::A->value > x::b->value);
    
    ?>
-
-
-This analysis skips comparisons between integers, floats and strings, as those are usually expected.
-
-Thanks to `Jordi Boggiano <https://twitter.com/seldaek>`_ and `Filippo Tessarotto <https://twitter.com/slamzoe>`_.
 
 Suggestions
 ___________

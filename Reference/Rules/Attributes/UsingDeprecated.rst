@@ -9,7 +9,6 @@ Using Deprecated Feature
 
 Note that the class ` :ref:`rulesets-deprecated` ` does not need to be defined anywhere.
 
-
 .. code-block:: php
    
    <?php

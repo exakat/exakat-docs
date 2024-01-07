@@ -1,41 +1,46 @@
-.. _dump-collectblocksize:
+.. _classes-newthencall:
 
-.. _collect-block-size:
+.. _new-object-then-immediate-call:
 
-Collect Block Size
-++++++++++++++++++
+New Object Then Immediate Call
+++++++++++++++++++++++++++++++
 
-  Collect block size for instructions such as for, foreach, while, do...while, ifthen.
+  This rule reports immediate calls on a new object. This can be simplified with a parenthesis structure, including with the assignation inside the parenthesis.
 
-This is a starting point for reviewing large blocks of code and extract methods.
+It is also being discussed to drop the parenthesis altogether. 
 
 
 .. code-block:: php
    
    <?php
    
-   foreach($array as $key => $value) {
-   	// This is a one line block for the foreach
-   	doSomething();
-   }
+   $a = new Foo();
+   $a->bar();
    
-   if($a === $b) {
-   	$a++;
-   	// This is a two lines block for the ifthen
-   	doSomething($a, $b);
-   }
+   ($a = new Foo())->bar();
    
    ?>
+
+See also `new MyClass()->method() without parentheses <https://twitter.com/pronskiy/status/1739646806407999653>`_.
+
+
+Suggestions
+___________
+
+* Condense the two expressions into one
+
+
+
 
 Specs
 _____
 
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Short name   | Dump/CollectBlockSize                                                                                                   |
+| Short name   | Classes/NewThenCall                                                                                                     |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Dump <ruleset-Dump>`                                                                    |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Analyze <ruleset-Analyze>`, :ref:`Class Review <ruleset-Class-Review>`                  |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Exakat since | 2.2.0                                                                                                                   |
+| Exakat since | 2.6.4                                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | PHP Version  | All                                                                                                                     |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
@@ -43,9 +48,7 @@ _____
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | inclusion, ifthen, foreach, while, dowhile                                                                              |
+| Precision    | High                                                                                                                    |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

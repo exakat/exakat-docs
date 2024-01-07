@@ -5,7 +5,7 @@
 Could Type With Boolean
 +++++++++++++++++++++++
 
-  That argument may be typed with ``bool``.
+  That argument, property or method may be typed with ``bool``. Based on usage, it was determined that the only type possible is a boolean.
 
 .. code-block:: php
    

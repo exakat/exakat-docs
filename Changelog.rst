@@ -54,6 +54,7 @@ Here is the release note of exakat.
 	+ New analysis : could use strcontains()
 	+ New analysis : suggest removing unused variable in catch
 	+ New analysis : suggest adding readonly to property
+	+ New analysis : spot calls just after an instanciation
 
 + Tokenizer
     + Added CALLED link to new calls

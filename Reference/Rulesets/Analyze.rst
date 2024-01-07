@@ -5,7 +5,7 @@ Analyze
 
 This ruleset centralizes a large number of classic trap and pitfalls when writing PHP.
 
-Total : 492 analysis
+Total : 493 analysis
 
 * :ref:`adding-zero`
 * :ref:`ambiguous-array-index`
@@ -306,7 +306,7 @@ Total : 492 analysis
 * :ref:`wrong-range-check`
 * :ref:`can't-instantiate-class`
 * :ref:`strpos()-too-much`
-* :ref:`typehinted-references`
+* :ref:`class-typed-references`
 * :ref:`weak-typing`
 * :ref:`method-signature-must-be-compatible`
 * :ref:`mismatch-type-and-default`
@@ -499,6 +499,7 @@ Total : 492 analysis
 * :ref:`check-after-null-safe-operator`
 * :ref:`no-null-with-null-safe-operator`
 * :ref:`invalid-cast`
+* :ref:`new-object-then-immediate-call`
 
 Specs
 _____

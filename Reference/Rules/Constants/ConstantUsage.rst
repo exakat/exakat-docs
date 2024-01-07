@@ -5,8 +5,9 @@
 Constants Usage
 +++++++++++++++
 
-  List of constants being used.
+  List of constants in use in the source code. Constants are `T_STRING <https://www.php.net/T_STRING>`_, localised in specific part of the code. 
 
+For example, they can't be followed by a parenthesis, as this is a function call; nor preceded by a ``new`` operator, as this is an object instantiation. 
 
 .. code-block:: php
    
@@ -17,6 +18,9 @@ Constants Usage
    // PHP_EOL (native PHP Constant)
    // MY_CONST (custom constant)
    echo PHP_EOL . MY_CONST;
+   
+   // Here, MY_CONST is actually a function name, and is omitted in this analysis
+   MY_CONST();
    
    ?>
 

@@ -11,7 +11,6 @@ This may reduce the reading and proofing of the arrays, and induce confusion. Th
 
 Unless order is important, it is recommended to always use the same order when defining literal arrays. This makes it easier to match different part of the code by recognizing one of its literal.
 
-
 .. code-block:: php
    
    <?php

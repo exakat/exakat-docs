@@ -5,13 +5,11 @@ IsExt
 
 This is automatically filled, based on the documentation's isExt attribute.
 
-Total : 34 analysis
+Total : 31 analysis
 
 * :ref:`non-static-methods-called-in-a-static`
 * :ref:`static-methods-called-from-object`
 * :ref:`undefined-constants`
-* :ref:`instantiating-abstract-class`
-* :ref:`undefined-classes`
 * :ref:`defined-class-constants`
 * :ref:`undefined-class-constants`
 * :ref:`uses-default-values`
@@ -36,9 +34,8 @@ Total : 34 analysis
 * :ref:`only-container-for-reference`
 * :ref:`wrong-argument-name-with-php-function`
 * :ref:`undefined-enumcase`
-* :ref:`can't-overwrite-final-constant`
 * :ref:`lowered-access-level`
-* :ref:`cant-overwrite-final-method`
+* :ref:`can't-overwrite-final-method`
 * :ref:`overload-existing-names`
 * :ref:`method-property-confusion`
 
