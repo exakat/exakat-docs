@@ -158,7 +158,7 @@ Total : 178 analysis
 * :ref:`useless-method-alias`
 * :ref:`possible-missing-subpattern`
 * :ref:`assign-and-compare`
-* :ref:`typehint-must-be-returned`
+* :ref:`type-must-be-returned`
 * :ref:`check-on-\_\_call-usage`
 * :ref:`casting-ternary`
 * :ref:`concat-and-addition`

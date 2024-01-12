@@ -5,7 +5,7 @@ Analyze
 
 This ruleset centralizes a large number of classic trap and pitfalls when writing PHP.
 
-Total : 493 analysis
+Total : 494 analysis
 
 * :ref:`adding-zero`
 * :ref:`ambiguous-array-index`
@@ -338,7 +338,7 @@ Total : 493 analysis
 * :ref:`assign-and-compare`
 * :ref:`variable-is-not-a-condition`
 * :ref:`insufficient-typehint`
-* :ref:`typehint-must-be-returned`
+* :ref:`type-must-be-returned`
 * :ref:`clone-with-non-object`
 * :ref:`check-on-\_\_call-usage`
 * :ref:`avoid-option-arrays-in-constructors`
@@ -415,7 +415,6 @@ Total : 493 analysis
 * :ref:`array\_map()-passes-by-value`
 * :ref:`missing-\_\_isset()-method`
 * :ref:`modify-immutable`
-* :ref:`only-container-for-reference`
 * :ref:`cannot-use-static-for-closure`
 * :ref:`only-first-byte-`
 * :ref:`inherited-property-type-must-match`
@@ -500,6 +499,8 @@ Total : 493 analysis
 * :ref:`no-null-with-null-safe-operator`
 * :ref:`invalid-cast`
 * :ref:`new-object-then-immediate-call`
+* :ref:`wrong-precedence-in-expression`
+* :ref:`only-variable-passed-by-reference`
 
 Specs
 _____

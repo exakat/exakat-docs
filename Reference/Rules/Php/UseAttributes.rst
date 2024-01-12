@@ -5,7 +5,10 @@
 Use PHP Attributes
 ++++++++++++++++++
 
-  PHP 8.0 attributes in use.
+  This rule reports if PHP 8.0 attributes are in use. 
+
+Attributes look like special comments ``#[`... <https://www.php.net/manual/en/functions.arguments.php#functions.variable-arg-list>`_]``. They are linked to classes, traits, interfaces, enums, class constants, functions, methods, and parameters.
+
 
 .. code-block:: php
    
@@ -27,7 +30,7 @@ _____
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Php/UseAttributes                                                                                                                                                                       |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Appinfo <ruleset-Appinfo>`, :ref:`CE <ruleset-CE>`                                                                                                      |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Appinfo <ruleset-Appinfo>`, :ref:`CE <ruleset-CE>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`                                                  |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 2.1.6                                                                                                                                                                                   |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

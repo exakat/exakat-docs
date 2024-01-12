@@ -20,7 +20,7 @@ Unusual Case For PHP Functions
 Suggestions
 ___________
 
-* use the PHP casing for functions
+* Use the PHP casing for functions
 
 
 

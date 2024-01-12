@@ -6,11 +6,11 @@ Release Note
 
 Here is the release note of exakat. 
 
-**Version 2.6.5 (, 2023-12-31)**
+**Version 2.6.5 (, 2024-01-11)**
 
 
 + Architecture
-    + 
+	+ Speed up Load with less arrays, more classes
 
 + Cobbler
     + 
@@ -19,6 +19,7 @@ Here is the release note of exakat.
     + 
 
 + Analysis
+	+
 
 + Tokenizer
     + 
@@ -29,12 +30,7 @@ Here is the release note of exakat.
 + Architecture
     + Moved assert configuration to ini_set and php.ini
     + Added a set of token values for Debian 12 and 8.3
-
-+ Cobbler
-    + 
-
-+ Report
-    + 
+    + Void is now a single atom in the graph (speed up, less resources)
 
 + Analysis
 	+ New analysis : report PHP native attribute usage
@@ -54,7 +50,14 @@ Here is the release note of exakat.
 	+ New analysis : could use strcontains()
 	+ New analysis : suggest removing unused variable in catch
 	+ New analysis : suggest adding readonly to property
-	+ New analysis : spot calls just after an instanciation
+	+ New analysis : spot calls just after an instantiation
+	+ New analysis: report try without catch but with finally
+	+ New analysis: report precedence errors with coalesce and comparisons
+	+ Refactored analysis : Cache Outside Loop was upgraded to spot cases in for, while and do while. 
+	+ Refactored analysis : Join On File is extended with the reverse: file_get_contents() with explode()
+	+ New analysis: report exported properties
+	+ Removed analysis: remove duplicate rule OnlyVariableForReference
+	+ New analysis: report literal passed by reference
 
 + Tokenizer
     + Added CALLED link to new calls

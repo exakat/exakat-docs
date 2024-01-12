@@ -25,7 +25,7 @@ Could Drop Variable
 Suggestions
 ___________
 
-* remove the unused variable
+* Remove the unused variable
 
 
 

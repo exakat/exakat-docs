@@ -5,7 +5,7 @@ IsExt
 
 This is automatically filled, based on the documentation's isExt attribute.
 
-Total : 31 analysis
+Total : 29 analysis
 
 * :ref:`non-static-methods-called-in-a-static`
 * :ref:`static-methods-called-from-object`
@@ -31,11 +31,9 @@ Total : 31 analysis
 * :ref:`interfaces-is-not-implemented`
 * :ref:`dont-collect-void`
 * :ref:`array\_map()-passes-by-value`
-* :ref:`only-container-for-reference`
 * :ref:`wrong-argument-name-with-php-function`
 * :ref:`undefined-enumcase`
 * :ref:`lowered-access-level`
-* :ref:`can't-overwrite-final-method`
 * :ref:`overload-existing-names`
 * :ref:`method-property-confusion`
 

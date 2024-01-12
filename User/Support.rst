@@ -126,6 +126,7 @@ List of external services whose configuration files has been commited in the cod
 * `Flakes <https://nixos.wiki/wiki/Flakes>`_ - flake.lock, flake.nix
 * `flintci <https://flintci.io/>`_ - .flintci.yml
 * `garden <https://garden.io/>`_ - garden.yaml
+* `gherkin <https://cucumber.io/docs/gherkin/>`_ - .gherkin-lintrc
 * `git <https://git-scm.com/>`_ - .git, .gitignore, .gitattributes, .gitmodules, .mailmap, .githooks, .git-hooks
 * `gitbook <https://www.gitbook.com/>`_ - .gitbook.yaml
 * `gitpod <https://www.gitpod.io/>`_ - .gitpod.yml, gitpod.code-workspace, .gitpod.dockerfile, .gitpod.Dockerfile
@@ -176,11 +177,14 @@ List of external services whose configuration files has been commited in the cod
 * `psalm <https://getpsalm.org/>`_ - psalm.xml, psalm-baseline.xml, psalm.xml.dist
 * `puppet <https://puppet.com/>`_ - .puppet
 * `qodana <https://www.jetbrains.com/qodana/>`_ - qodana.yaml
+* `readthedocs <https://about.readthedocs.com/>`_ - .readthedocs.yml, .readthedocs.yaml
 * `renovate <https://www.renovatebot.com/>`_ - renovate.json
 * `rmt <https://github.com/liip/RMT>`_ - .rmt.yml
 * `robo <https://robo.li/>`_ - RoboFile.php, robo.yml.dist
+* `sass-lint <https://github.com/sasstools/sass-lint>`_ - .sass-link.yml
 * `scrutinizer <https://scrutinizer-ci.com/>`_ - .scrutinizer.yml
 * `semantic versioning <http://semver.org/>`_ - .semver
+* `shifter <https://getshifter.io/>`_ - .shifter.json
 * `Sonar <https://www.sonarsource.com/>`_ - sonar-project.properties
 * `SPIP <https://www.spip.net/>`_ - paquet.xml
 * `stickler <https://stickler-ci.com/docs>`_ - .stickler.yml
@@ -194,7 +198,7 @@ List of external services whose configuration files has been commited in the cod
 * `transifex <https://www.transifex.com/>`_ - .tx
 * `typescript <https://www.typescriptlang.org/>`_ - tsconfig.json
 * `Robots.txt <http://www.robotstxt.org/>`_ - robots.txt
-* `travis <https://travis-ci.org/>`_ - .travis.yml, .env.travis, .travis, .travis.php.ini, .travis.coverage.sh, .travis.ini, travis.php.ini
+* `travis <https://travis-ci.org/>`_ - .travis.yml, .env.travis, .travis, .travis.php.ini, .travis.coverage.sh, .travis.ini, travis.php.ini, .travis.install.sh
 * `varci <https://var.ci/>`_ - .varci, .varci.yml
 * `Vagrant <https://www.vagrantup.com/>`_ - Vagrantfile
 * `vite <https://vitejs.dev/>`_ - vite.config.js

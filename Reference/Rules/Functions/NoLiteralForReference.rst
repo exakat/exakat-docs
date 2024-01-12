@@ -11,6 +11,7 @@ Objects are always passed by reference, so there is no need to explicitly declar
 
 Expressions, including ternary operator, produce value, and can't be used by reference directly. This is also the case for expression that include one or more reference. 
 
+Wrongly passing a value as a reference leads to a PHP Notice.
 
 .. code-block:: php
    
@@ -31,9 +32,6 @@ Expressions, including ternary operator, produce value, and can't be used by ref
    function &bar2() { return 2 + $r; }
    
    ?>
-
-
-Wrongly passing a value as a reference leads to a PHP Notice.
 
 See also `References <https://www.php.net/references>`_.
 

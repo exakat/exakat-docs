@@ -5,13 +5,16 @@
 Collect Use Counts
 ++++++++++++++++++
 
-  Count the number of use expression in a file. This count 4 uses. 
+  This rule counts the number of ``use``` expression in a file. ``use`` expressions import external classes, interfaces, enums, constant, functions and traits. 
+
+A high number of imports may signal a class that is doing to much.
 
 
 .. code-block:: php
    
    <?php
    
+   // This count 4 uses
    use A as B;
    use F\C, F\D, F\E;
    
@@ -23,7 +26,7 @@ _____
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Dump/CollectUseCounts                                                                                                                                                                   |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`CE <ruleset-CE>`, :ref:`Dump <ruleset-Dump>`                                                                                                            |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`CE <ruleset-CE>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`, :ref:`Dump <ruleset-Dump>`                                                        |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 2.1.9                                                                                                                                                                                   |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

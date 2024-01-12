@@ -8,6 +8,9 @@ Unused Label
   Some labels have been defined in the code, but they are not used. They may be removed as they are dead code.
 
 
+
+There is no analysis for undefined goto call, as PHP checks that goto has a destination label at compile time :
+
 .. code-block:: php
    
    <?php
@@ -24,9 +27,6 @@ Unused Label
    B: 
    
    ?>
-
-
-There is no analysis for undefined goto call, as PHP checks that goto has a destination label at compile time :
 
 See also `Goto <https://www.php.net/manual/en/control-structures.goto.php>`_.
 
@@ -48,7 +48,7 @@ _____
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Structures/UnusedLabel                                                                                                  |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Dead code <ruleset-Dead-code>`                                                          |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`, :ref:`Dead code <ruleset-Dead-code>`      |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 0.8.4                                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

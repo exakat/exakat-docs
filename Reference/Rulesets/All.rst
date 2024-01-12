@@ -5,7 +5,7 @@ All
 
 All is a dummy ruleset, which includes all the rules. It is mostly used internally.
 
-Total : 1627 analysis
+Total : 1629 analysis
 
 * :ref:`adding-zero`
 * :ref:`ambiguous-array-index`
@@ -1044,7 +1044,7 @@ Total : 1627 analysis
 * :ref:`php-8.0-removed-constants`
 * :ref:`law-of-demeter`
 * :ref:`an-oop-factory`
-* :ref:`typehint-must-be-returned`
+* :ref:`type-must-be-returned`
 * :ref:`inconsistent-variable-usage`
 * :ref:`should-deep-clone`
 * :ref:`clone-with-non-object`
@@ -1342,7 +1342,6 @@ Total : 1627 analysis
 * :ref:`declare-static-once`
 * :ref:`avoid-get\_object\_vars()`
 * :ref:`could-use-match`
-* :ref:`only-container-for-reference`
 * :ref:`cannot-use-static-for-closure`
 * :ref:`multiple-property-declaration-on-one-line`
 * :ref:`could-be-generator`
@@ -1634,6 +1633,9 @@ Total : 1627 analysis
 * :ref:`could-be-readonly-property`
 * :ref:`new-object-then-immediate-call`
 * :ref:`try-without-catch`
+* :ref:`wrong-precedence-in-expression`
+* :ref:`only-variable-passed-by-reference`
+* :ref:`property-export`
 
 Specs
 _____

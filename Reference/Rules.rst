@@ -6,7 +6,7 @@ Rules
 Introduction
 ------------------------
 
-Exakat provides unique 1629 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
+Exakat provides unique 1631 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
 
 Each rule is documented with code example to allow you to remediate your code. If you want to automate remediation, ours cobblers can are there to fix the issues in your code for your.  
 
@@ -885,11 +885,11 @@ List of Rules
    Rules/Functions/OneLetterFunctions.rst
    Rules/Classes/OneObjectOperatorPerLine.rst
    Rules/Type/OneVariableStrings.rst
-   Rules/Php/OnlyVariableForReference.rst
    Rules/Structures/OnlyFirstByte.rst
    Rules/Classes/OnlyStaticMethods.rst
    Rules/Functions/OnlyVariableForReference.rst
    Rules/Functions/OnlyVariablePassedByReference.rst
+   Rules/Php/OnlyVariablePassedByReference.rst
    Rules/Structures/OnlyVariableReturnedByReference.rst
    Rules/Type/OpensslCipher.rst
    Rules/Php/OpensslEncryptAlgoChange.rst
@@ -1003,6 +1003,7 @@ List of Rules
    Rules/Classes/PPPDeclarationStyle.rst
    Rules/Classes/PropertyCouldBeLocal.rst
    Rules/Classes/CouldBePrivate.rst
+   Rules/Classes/ExportProperty.rst
    Rules/Classes/PropertyInvasion.rst
    Rules/Classes/PropertyDefinition.rst
    Rules/Classes/PropertyUsedAbove.rst
@@ -1225,10 +1226,10 @@ List of Rules
    Rules/Typehints/CouldBeInt.rst
    Rules/Typehints/CouldBeNever.rst
    Rules/Functions/TypeDodging.rst
+   Rules/Functions/TypehintMustBeReturned.rst
    Rules/Classes/TypedClassConstants.rst
    Rules/Php/TypedPropertyUsage.rst
    Rules/Typehints/CouldBeIterable.rst
-   Rules/Functions/TypehintMustBeReturned.rst
    Rules/Dump/Typehintorder.rst
    Rules/Dump/TypehintingStats.rst
    Rules/Functions/Typehints.rst
@@ -1439,6 +1440,7 @@ List of Rules
    Rules/Functions/WrongNumberOfArgumentsMethods.rst
    Rules/Functions/WrongOptionalParameter.rst
    Rules/Php/InternalParameterType.rst
+   Rules/Structures/WrongPrecedenceInExpression.rst
    Rules/Structures/WrongRange.rst
    Rules/Php/WrongTypeForNativeFunction.rst
    Rules/Functions/WrongReturnedType.rst
@@ -1666,8 +1668,11 @@ List of analyzers, by version of introduction, newest to oldest. In parenthesis,
   * :ref:`Multiple Property Declaration <multiple-property-declaration>`
   * :ref:`New Object Then Immediate Call <new-object-then-immediate-call>`
   * :ref:`No Null With Null Safe Operator <no-null-with-null-safe-operator>`
+  * :ref:`Only Variable Passed By Reference <only-variable-passed-by-reference>`
   * :ref:`PHP Native Attributes <php-native-attributes>`
+  * :ref:`Property Export <property-export>`
   * :ref:`Try Without Catch <try-without-catch>`
+  * :ref:`Wrong Precedence In Expression <wrong-precedence-in-expression>`
   * :ref:`is_a() Versus instanceof <is\_a()-versus-instanceof>`
 
 * 2.6.3
@@ -2050,7 +2055,6 @@ List of analyzers, by version of introduction, newest to oldest. In parenthesis,
   * :ref:`Long Preparation For Throw <long-preparation-for-throw>`
   * :ref:`Missing __isset() Method <missing-\_\_isset()-method>`
   * :ref:`Modify Immutable <modify-immutable>`
-  * :ref:`Only Container For Reference <only-container-for-reference>`
   * :ref:`PHP 8.0 Resources Turned Into Objects <php-8.0-resources-turned-into-objects>`
   * :ref:`PHP 8.1 Resources Turned Into Objects <php-8.1-resources-turned-into-objects>`
   * :ref:`PHP 80 Named Parameter Variadic <php-80-named-parameter-variadic>`
@@ -2472,7 +2476,7 @@ List of analyzers, by version of introduction, newest to oldest. In parenthesis,
 * 1.6.9
 
   * :ref:`Inconsistent Variable Usage <inconsistent-variable-usage>`
-  * :ref:`Typehint Must Be Returned <typehint-must-be-returned>`
+  * :ref:`Type Must Be Returned <type-must-be-returned>`
 
 * 1.6.8
 
@@ -4002,6 +4006,7 @@ Directory by PHP Function
       + :ref:`Parent First <parent-first>`
       + :ref:`Property Could Be Local <property-could-be-local>`
       + :ref:`Property Could Be Private <property-could-be-private>`
+      + :ref:`Property Export <property-export>`
       + :ref:`Property Invasion <property-invasion>`
       + :ref:`Property Used Above <property-used-above>`
       + :ref:`Property Used Below <property-used-below>`
@@ -4095,7 +4100,6 @@ Directory by PHP Function
       + :ref:`Fossilized Methods List <fossilized-methods-list>`
       + :ref:`Iffectations <iffectations>`
       + :ref:`Method Has Fluent Interface <method-has-fluent-interface>`
-      + :ref:`Mismatch Parameter Name <mismatch-parameter-name>`
       + :ref:`Misused Yield <misused-yield>`
       + :ref:`Multiple Definition Of The Same Argument <multiple-definition-of-the-same-argument>`
       + :ref:`Must Return Methods <must-return-methods>`
@@ -4115,6 +4119,7 @@ Directory by PHP Function
       + :ref:`Type Dodging <type-dodging>`
       + :ref:`Unknown Parameter Name <unknown-parameter-name>`
       + :ref:`Unpacking Inside Arrays <unpacking-inside-arrays>`
+      + :ref:`Use PHP Attributes <use-php-attributes>`
       + :ref:`Used Once Property <used-once-property>`
       + :ref:`Useless Instructions <useless-instructions>`
       + :ref:`Yii usage <yii-usage>`
@@ -4483,6 +4488,7 @@ Directory by PHP Function
       + :ref:`Logical To in_array <logical-to-in\_array>`
       + :ref:`Long Arguments <long-arguments>`
       + :ref:`Long Preparation For Throw <long-preparation-for-throw>`
+      + :ref:`Method Is Not For Fluent Interface <method-is-not-for-fluent-interface>`
       + :ref:`Missing Cases In Switch <missing-cases-in-switch>`
       + :ref:`Multiple Type Cases In Switch <multiple-type-cases-in-switch>`
       + :ref:`Multiples Identical Case <multiples-identical-case>`
@@ -5492,6 +5498,7 @@ Directory by PHP Function
       + :ref:`Nullable Without Check <nullable-without-check>`
       + :ref:`One Expression Brackets Consistency <one-expression-brackets-consistency>`
       + :ref:`Only Variable For Reference <only-variable-for-reference>`
+      + :ref:`Only Variable Passed By Reference <only-variable-passed-by-reference>`
       + :ref:`Or Die <or-die>`
       + :ref:`Override <override>`
       + :ref:`Overwritten Foreach Var <overwritten-foreach-var>`
@@ -5520,7 +5527,7 @@ Directory by PHP Function
       + :ref:`Too Complex Expression <too-complex-expression>`
       + :ref:`Too Many Chained Calls <too-many-chained-calls>`
       + :ref:`Try Without Catch <try-without-catch>`
-      + :ref:`Typehint Must Be Returned <typehint-must-be-returned>`
+      + :ref:`Type Must Be Returned <type-must-be-returned>`
       + :ref:`Uncaught Exceptions <uncaught-exceptions>`
       + :ref:`Unconditional Break In Loop <unconditional-break-in-loop>`
       + :ref:`Undefined ::class <undefined-class>`
@@ -5844,6 +5851,7 @@ Directory by PHP Function
       + :ref:`Useless Catch <useless-catch>`
       + :ref:`Uses Default Values <uses-default-values>`
       + :ref:`Variables With One Letter Names <variables-with-one-letter-names>`
+      + :ref:`Wrong Precedence In Expression <wrong-precedence-in-expression>`
       + :ref:`ext/exif <ext-exif>`
       + :ref:`ext/inotify <ext-inotify>`
       + :ref:`ext/libxml <ext-libxml>`
@@ -7484,11 +7492,12 @@ Directory by PHP Function
       + :ref:`Could Be Null <could-be-null>`
       + :ref:`Duplicate Literal <duplicate-literal>`
       + :ref:`Indices Are Int Or String <indices-are-int-or-string>`
+      + :ref:`Method Is Not For Fluent Interface <method-is-not-for-fluent-interface>`
       + :ref:`No Null For Native PHP Functions <no-null-for-native-php-functions>`
       + :ref:`Null Or Boolean Arrays <null-or-boolean-arrays>`
       + :ref:`Null Type Favorite <null-type-favorite>`
       + :ref:`Scalar Or Object Property <scalar-or-object-property>`
-      + :ref:`Typehint Must Be Returned <typehint-must-be-returned>`
+      + :ref:`Type Must Be Returned <type-must-be-returned>`
       + :ref:`Set Null Type <set-null-type>`
       + :ref:`Set Typehints <set-typehints>`
 
@@ -7785,6 +7794,7 @@ Directory by PHP Function
       + :ref:`File Uploads <file-uploads>`
       + :ref:`Final Class Usage <final-class-usage>`
       + :ref:`Final Methods Usage <final-methods-usage>`
+      + :ref:`Joining file() <joining-file()>`
       + :ref:`Make One Call With Array <make-one-call-with-array>`
       + :ref:`Mono Or Multibytes Favorite <mono-or-multibytes-favorite>`
       + :ref:`New Line Style <new-line-style>`
@@ -8198,6 +8208,10 @@ Directory by PHP Function
 
       + :ref:`Strpos()-like Comparison <strpos()-like-comparison>`
 
+    + `print()`
+
+      + :ref:`Property Export <property-export>`
+
     + `print_r()`
 
       + :ref:`Use Debug <use-debug>`
@@ -8382,6 +8396,7 @@ Directory by PHP Function
       + :ref:`No get_class() With Null <no-get\_class()-with-null>`
       + :ref:`Possible Infinite Loop <possible-infinite-loop>`
       + :ref:`Possible Missing Subpattern <possible-missing-subpattern>`
+      + :ref:`Property Export <property-export>`
       + :ref:`Strpos()-like Comparison <strpos()-like-comparison>`
       + :ref:`Substring First <substring-first>`
       + :ref:`Too Many Chained Calls <too-many-chained-calls>`
@@ -9033,7 +9048,6 @@ Directory by PHP Function
       + :ref:`No Static Variable In A Method <no-static-variable-in-a-method>`
       + :ref:`Non Static Methods Called In A Static <non-static-methods-called-in-a-static>`
       + :ref:`Normal Methods <normal-methods>`
-      + :ref:`Only Container For Reference <only-container-for-reference>`
       + :ref:`Only Static Methods Class <only-static-methods-class>`
       + :ref:`Only Variable For Reference <only-variable-for-reference>`
       + :ref:`Only Variable Passed By Reference <only-variable-passed-by-reference>`
@@ -9526,13 +9540,14 @@ Directory by PHP Function
       + :ref:`String Int Comparison <string-int-comparison>`
       + :ref:`Too Many Chained Calls <too-many-chained-calls>`
       + :ref:`True False Inconsistant Case <true-false-inconsistant-case>`
-      + :ref:`Typehint Must Be Returned <typehint-must-be-returned>`
+      + :ref:`Type Must Be Returned <type-must-be-returned>`
       + :ref:`Use Browscap <use-browscap>`
       + :ref:`Use Debug <use-debug>`
       + :ref:`Use Named Boolean In Argument Definition <use-named-boolean-in-argument-definition>`
       + :ref:`Use Same Types For Comparisons <use-same-types-for-comparisons>`
       + :ref:`Useless Null Coalesce <useless-null-coalesce>`
       + :ref:`Wrong Parameter Type <wrong-parameter-type>`
+      + :ref:`Wrong Precedence In Expression <wrong-precedence-in-expression>`
       + :ref:`ext/exif <ext-exif>`
       + :ref:`ext/mongo <ext-mongo>`
       + :ref:`ext/msgpack <ext-msgpack>`
@@ -10195,6 +10210,7 @@ Exakat links each rules to PHP features.
   + Blind Variable
 
     + :ref:`Blind Variables <blind-variables>`
+    + :ref:`Dont Change The Blind Var <dont-change-the-blind-var>`
     + :ref:`Use The Blind Var <use-the-blind-var>`
 
   + Block
@@ -10635,11 +10651,6 @@ Exakat links each rules to PHP features.
     + :ref:`Use Debug <use-debug>`
     + :ref:`var_dump()... Usage <var\_dump()...-usage>`
 
-  + Declaration
-
-    + :ref:`Multiple Functions Declarations <multiple-functions-declarations>`
-    + :ref:`Wrong Access Style to Property <wrong-access-style-to-property>`
-
   + Default
 
     + :ref:`Default Then Discard <default-then-discard>`
@@ -10655,6 +10666,12 @@ Exakat links each rules to PHP features.
     + :ref:`Redefined Default <redefined-default>`
     + :ref:`Uninitialized Property <uninitialized-property>`
     + :ref:`Wrong Typed Property Default <wrong-typed-property-default>`
+
+  + Definition
+
+    + :ref:`Definitions Only <definitions-only>`
+    + :ref:`Multiple Functions Declarations <multiple-functions-declarations>`
+    + :ref:`Wrong Access Style to Property <wrong-access-style-to-property>`
 
   + Dependency Injection
 
@@ -10715,6 +10732,10 @@ Exakat links each rules to PHP features.
   + Do While
 
     + :ref:`PHP Alternative Syntax <php-alternative-syntax>`
+
+  + Do...while
+
+    + :ref:`Collect Block Size <collect-block-size>`
 
   + Double Quotes Strings
 
@@ -10798,6 +10819,10 @@ Exakat links each rules to PHP features.
 
     + :ref:`Undefined Enumcase <undefined-enumcase>`
     + :ref:`Use Same Types For Comparisons <use-same-types-for-comparisons>`
+
+  + Environment Variables
+
+    + :ref:`Environment Variables <environment-variables>`
 
   + Error
 
@@ -11129,6 +11154,7 @@ Exakat links each rules to PHP features.
 
   + If Then Else
 
+    + :ref:`Collect Block Size <collect-block-size>`
     + :ref:`Could Be Else <could-be-else>`
     + :ref:`Else If Versus Elseif <else-if-versus-elseif>`
     + :ref:`Identical Elseif <identical-elseif>`
@@ -11362,6 +11388,7 @@ Exakat links each rules to PHP features.
     + :ref:`Continue Is For Loop <continue-is-for-loop>`
     + :ref:`Dangling Array References <dangling-array-references>`
     + :ref:`Dont Change The Blind Var <dont-change-the-blind-var>`
+    + :ref:`Empty Loop <empty-loop>`
     + :ref:`Foreach On Object <foreach-on-object>`
     + :ref:`Infinite Recursion <infinite-recursion>`
     + :ref:`Possible Infinite Loop <possible-infinite-loop>`
@@ -11435,6 +11462,7 @@ Exakat links each rules to PHP features.
     + :ref:`Illegal Name For Method <illegal-name-for-method>`
     + :ref:`Implemented Methods Must Be Public <implemented-methods-must-be-public>`
     + :ref:`Interface Methods <interface-methods>`
+    + :ref:`Method Collision Traits <method-collision-traits>`
     + :ref:`Method Could Be Private Method <method-could-be-private-method>`
     + :ref:`Method Is Not For Fluent Interface <method-is-not-for-fluent-interface>`
     + :ref:`Method Used Below <method-used-below>`
@@ -11533,7 +11561,7 @@ Exakat links each rules to PHP features.
     + :ref:`Methods Without Return <methods-without-return>`
     + :ref:`Never Keyword <never-keyword>`
     + :ref:`Type Could Be Never <type-could-be-never>`
-    + :ref:`Typehint Must Be Returned <typehint-must-be-returned>`
+    + :ref:`Type Must Be Returned <type-must-be-returned>`
 
   + New In Initializers
 
@@ -11638,6 +11666,10 @@ Exakat links each rules to PHP features.
 
     + :ref:`Don't Change Incomings <don't-change-incomings>`
 
+  + Overenginer
+
+    + :ref:`Used Once Trait <used-once-trait>`
+
   + Overwrite
 
     + :ref:`Can't Overwrite Final Constant <can't-overwrite-final-constant>`
@@ -11696,7 +11728,6 @@ Exakat links each rules to PHP features.
     + :ref:`Mismatched Default Arguments <mismatched-default-arguments>`
     + :ref:`Missing Type In Definition <missing-type-in-definition>`
     + :ref:`Modified Typed Parameter <modified-typed-parameter>`
-    + :ref:`Only Container For Reference <only-container-for-reference>`
     + :ref:`Only Variable Passed By Reference <only-variable-passed-by-reference>`
     + :ref:`Optional Parameter <optional-parameter>`
     + :ref:`PHP 80 Named Parameter Variadic <php-80-named-parameter-variadic>`
@@ -11834,6 +11865,7 @@ Exakat links each rules to PHP features.
   + Readability
 
     + :ref:`Collect Readability <collect-readability>`
+    + :ref:`Missing Parenthesis <missing-parenthesis>`
     + :ref:`Preprocessable <preprocessable>`
     + :ref:`Recycled Variables <recycled-variables>`
 
@@ -11869,7 +11901,6 @@ Exakat links each rules to PHP features.
     + :ref:`No Reference On Left Side <no-reference-on-left-side>`
     + :ref:`No Referenced Void <no-referenced-void>`
     + :ref:`Objects Don't Need References <objects-don't-need-references>`
-    + :ref:`Only Container For Reference <only-container-for-reference>`
     + :ref:`Only Variable For Reference <only-variable-for-reference>`
     + :ref:`Only Variable Passed By Reference <only-variable-passed-by-reference>`
     + :ref:`Only Variable Returned By Reference <only-variable-returned-by-reference>`
@@ -11936,7 +11967,7 @@ Exakat links each rules to PHP features.
     + :ref:`Missing Some Returntype <missing-some-returntype>`
     + :ref:`Nullable Without Check <nullable-without-check>`
     + :ref:`Return Typehint Usage <return-typehint-usage>`
-    + :ref:`Typehint Must Be Returned <typehint-must-be-returned>`
+    + :ref:`Type Must Be Returned <type-must-be-returned>`
 
   + Return Value
 
@@ -12037,10 +12068,6 @@ Exakat links each rules to PHP features.
   + Spaceship Operator
 
     + :ref:`Could Be Spaceship <could-be-spaceship>`
-
-  + Sqlite3
-
-    + :ref:`Sqlite3 Requires Single Quotes <sqlite3-requires-single-quotes>`
 
   + Static Constant
 
@@ -12278,6 +12305,10 @@ Exakat links each rules to PHP features.
 
     + :ref:`Possible TypeError <possible-typeerror>`
 
+  + Typo
+
+    + :ref:`Undefined Constants <undefined-constants>`
+
   + UnexpectedValueException
 
     + :ref:`Could Use Try <could-use-try>`
@@ -12440,6 +12471,10 @@ Exakat links each rules to PHP features.
   + basename
 
     + :ref:`Use Basename Suffix <use-basename-suffix>`
+
+  + browscap
+
+    + :ref:`Use Browscap <use-browscap>`
 
   + compact()
 
@@ -12680,8 +12715,8 @@ Exakat helps reduce the amount of error and warning that code is producing by re
 * :ref:`$GLOBALS can only be modified using the $GLOBALS[$name] = $value syntax <restrict-global-usage>`
 * :ref:`%s %s inherits both %s\:\:%s and %s\:\:%s <overwritten-class-constants>`
 * :ref:`'break' operator accepts only positive integers <break-with-0>`
-* :ref:`A function with return type must return a value (did you mean "return null;" instead of "return;"?) <typehint-must-be-returned>`
-* :ref:`A never-returning function must not return <typehint-must-be-returned>`
+* :ref:`A function with return type must return a value (did you mean "return null;" instead of "return;"?) <type-must-be-returned>`
+* :ref:`A never-returning function must not return <type-must-be-returned>`
 * :ref:`Abstract function t\:\:someAbstractPrivateFunction() cannot be declared private <no-private-abstract-method-in-trait>`
 * :ref:`Access level to Bar\:\:$publicProperty must be public (as in class Foo) <raised-access-level>`
 * :ref:`Access level to x\:\:I must be public (as in interface i) <inherited-class-constant-visibility>`
@@ -12692,6 +12727,8 @@ Exakat helps reduce the amount of error and warning that code is producing by re
 * :ref:`Accessing static property aa\:\:$a as non static <wrong-access-style-to-property>`
 * :ref:`An alias (%s) was defined for method %s(), but this method does not exist <undefined-insteadof>`
 * :ref:`Argument #1 ($a) must be of type T <undefined-interfaces>`
+* :ref:`Argument #1 ($array) cannot be passed by reference <only-variable-passed-by-reference>`
+* :ref:`Argument #1 ($array) could not be passed by reference <only-variable-passed-by-reference>`
 * :ref:`Argument #1 ($line) must be passed by reference <array\_map()-passes-by-value>`
 * :ref:`Argument #1 ($s) must be of type X, int given <wrong-type-with-call>`
 * :ref:`Argument #1 ($s) must be of type array, int given <wrong-argument-type>`
@@ -12702,7 +12739,6 @@ Exakat helps reduce the amount of error and warning that code is producing by re
 * :ref:`Argument #3 ($matches) cannot be passed by reference <only-variable-passed-by-reference>`
 * :ref:`Argument 1 passed to foo() must be of the type integer, string given <mismatch-type-and-default>`
 * :ref:`Argument cannot be passed by reference <class-typed-references>`
-* :ref:`Argument cannot be passed by reference <only-container-for-reference>`
 * :ref:`Argument cannot be passed by reference <only-variable-for-reference>`
 * :ref:`Argument must be of type int, array given <wrong-parameter-type>`
 * :ref:`Array and string offset access syntax with curly braces is deprecated <no-more-curly-arrays>`
@@ -12746,7 +12782,6 @@ Exakat helps reduce the amount of error and warning that code is producing by re
 * :ref:`Cannot override final method Foo\:\:FooBar() <final-methods-usage>`
 * :ref:`Cannot override final method x\:\:method() <can't-overwrite-final-method>`
 * :ref:`Cannot pass parameter 1 by reference <no-literal-for-reference>`
-* :ref:`Cannot pass parameter 1 by reference <only-container-for-reference>`
 * :ref:`Cannot pass parameter 1 by reference <only-variable-for-reference>`
 * :ref:`Cannot perform bitwise not on array <unsupported-types-with-operators>`
 * :ref:`Cannot perform bitwise not on bool <unsupported-types-with-operators>`
@@ -12767,6 +12802,7 @@ Exakat helps reduce the amount of error and warning that code is producing by re
 * :ref:`Cannot use int as default value for parameter $a of type string <wrong-typed-property-default>`
 * :ref:`Cannot use int as default value for property x\:\:$a of type string <wrong-typed-property-default>`
 * :ref:`Cannot use isset() on the result of an expression (you can use "null !== expression" instead) <isset()-with-constant>`
+* :ref:`Cannot use isset() on the result of an expression (you can use "null !== expression" instead) <only-variable-passed-by-reference>`
 * :ref:`Cannot use lexical variable $b as a parameter name <multiple-definition-of-the-same-argument>`
 * :ref:`Cannot use object of type Foo as array <$this-is-not-an-array>`
 * :ref:`Cannot use positional argument after argument unpacking <named-argument-and-variadic>`
@@ -12834,7 +12870,6 @@ Exakat helps reduce the amount of error and warning that code is producing by re
 * :ref:`Only variable references should be returned by reference <no-literal-for-reference>`
 * :ref:`Only variable references should be returned by reference <no-reference-for-ternary>`
 * :ref:`Only variable references should be returned by reference <no-referenced-void>`
-* :ref:`Only variables can be passed by reference <only-container-for-reference>`
 * :ref:`Only variables can be passed by reference <only-variable-for-reference>`
 * :ref:`Only variables should be passed by reference <class-typed-references>`
 * :ref:`Only variables should be passed by reference <parenthesis-as-parameter>`
@@ -12848,8 +12883,8 @@ Exakat helps reduce the amount of error and warning that code is producing by re
 * :ref:`Return type must be array when declared in <magic-method-returntype-is-restricted>`
 * :ref:`Return type of a\:\:key() should either be compatible with IteratorIterator\:\:key(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice <php-native-class-type-compatibility>`
 * :ref:`Return type of x\:\:jsonserialize() should either be compatible with JsonSerializable\:\:jsonSerialize(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice <php-native-interfaces-and-return-type>`
-* :ref:`Return value must be of type mixed, none returned <typehint-must-be-returned>`
-* :ref:`Return value of foo() must be an instance of Bar, none returned <typehint-must-be-returned>`
+* :ref:`Return value must be of type mixed, none returned <type-must-be-returned>`
+* :ref:`Return value of foo() must be an instance of Bar, none returned <type-must-be-returned>`
 * :ref:`Return value of foo() must be of the type int, string returned <missing-some-returntype>`
 * :ref:`Static function foo\:\:bar() should not be abstract <abstract-static-methods>`
 * :ref:`The (real) cast has been removed, use (float) instead <avoid-real>`

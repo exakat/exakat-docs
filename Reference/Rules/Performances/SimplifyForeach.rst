@@ -30,8 +30,8 @@ This is a micro-optimisation.
 Suggestions
 ___________
 
-* use array_keys() or array_values() to simplify the source array
-* remove the call to $key => when the key is not used in the loop
+* Use array_keys() or array_values() to simplify the source array
+* Remove the call to $key => when the key is not used in the loop
 
 
 

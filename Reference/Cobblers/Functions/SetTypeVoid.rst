@@ -54,7 +54,7 @@ ________________
 Reverse Cobbler
 _______________
 
-* :ref:`remove-typehint`
+* :ref:`remove-type`
 
 
 

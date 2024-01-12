@@ -13,6 +13,9 @@ If the delimiter is not ``''``, then ``implode()`` and ``file()`` are a better s
 
 Always use ``file_get_contents()`` to get the content of a file as a string. Consider using `readfile() <https://www.php.net/readfile>`_ to echo the content directly to the output.
 
+This analysis also checks for the reverse feature: loading a file with ``file_get_contents()`` and splitting it into rows with ``explode()`` or an alternative. Such association should be replaced by a single call to ``file()``, with may be the ``FILE_IGNORE_NEW_LINES``.
+
+
 .. code-block:: php
    
    <?php
@@ -31,9 +34,13 @@ Always use ``file_get_contents()`` to get the content of a file as a string. Con
    }
    fclose($fp);
    
+   // Reverse feature 
+   $file = file_get_contents('/path/to/file.txt');
+   $rows = explode(PHP_EOL, $file);
+   
    ?>
 
-See also `file_get_contents <https://www.php.net/file_get_contents>`_ and `file <https://www.php.net/file>`_.
+See also `file_get_contents <https://www.php.net/file_get_contents>`_, `file <https://www.php.net/file>`_ and `explode <https://www.php.net/explode>`_.
 
 
 Suggestions

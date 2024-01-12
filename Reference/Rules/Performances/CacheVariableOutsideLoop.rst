@@ -7,9 +7,13 @@ Cache Variable Outside Loop
 
   Avoid recalculating constant values inside the loop.
 
-Do the calculation once, outside the loops, and then reuse the value each time. 
+Do the calculation once, outside the loop, and then reuse the value in the body of the loop. 
 
 One of the classic example if doing ``count($array)`` in a ``for`` loop : since the source is constant during the loop, the `result <https://www.php.net/result>`_ of `count() <https://www.php.net/count>`_ is always the same. 
+
+Depending on the load of the called method, this may increase the speed of the loop from little to enormously.
+
+This analysis works on all the loops: while, do...while, foreach and for.
 
 
 .. code-block:: php
@@ -32,9 +36,6 @@ One of the classic example if doing ``count($array)`` in a ``for`` loop : since 
    
    ?>
 
-
-Depending on the load of the called method, this may increase the speed of the loop from little to enormously.
-
 Suggestions
 ___________
 
@@ -47,22 +48,22 @@ ___________
 Specs
 _____
 
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Short name   | Performances/CacheVariableOutsideLoop                                                                                   |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Performances <ruleset-Performances>`                                                    |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Exakat since | 1.2.8                                                                                                                   |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| PHP Version  | All                                                                                                                     |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Severity     | Major                                                                                                                   |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Time To Fix  | Quick (30 mins)                                                                                                         |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Precision    | Medium                                                                                                                  |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
++--------------+--------------------------------------------------------------------------------------------------------------------------+
+| Short name   | Performances/CacheVariableOutsideLoop                                                                                    |
++--------------+--------------------------------------------------------------------------------------------------------------------------+
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`, :ref:`Performances <ruleset-Performances>` |
++--------------+--------------------------------------------------------------------------------------------------------------------------+
+| Exakat since | 1.2.8                                                                                                                    |
++--------------+--------------------------------------------------------------------------------------------------------------------------+
+| PHP Version  | All                                                                                                                      |
++--------------+--------------------------------------------------------------------------------------------------------------------------+
+| Severity     | Major                                                                                                                    |
++--------------+--------------------------------------------------------------------------------------------------------------------------+
+| Time To Fix  | Quick (30 mins)                                                                                                          |
++--------------+--------------------------------------------------------------------------------------------------------------------------+
+| Precision    | Medium                                                                                                                   |
++--------------+--------------------------------------------------------------------------------------------------------------------------+
+| Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_  |
++--------------+--------------------------------------------------------------------------------------------------------------------------+
 
 

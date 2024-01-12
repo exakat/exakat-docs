@@ -32,7 +32,7 @@ Total : 47 analysis
 * :ref:`repeated-interface`
 * :ref:`avoid-self-in-interface`
 * :ref:`useless-method-alias`
-* :ref:`typehint-must-be-returned`
+* :ref:`type-must-be-returned`
 * :ref:`clone-with-non-object`
 * :ref:`trait-not-found`
 * :ref:`wrong-type-returned`
@@ -41,7 +41,6 @@ Total : 47 analysis
 * :ref:`wrong-typed-property-default`
 * :ref:`mismatch-properties-typehints`
 * :ref:`could-be-stringable`
-* :ref:`only-container-for-reference`
 * :ref:`inherited-property-type-must-match`
 * :ref:`duplicate-named-parameter`
 * :ref:`php-native-interfaces-and-return-type`
@@ -54,6 +53,7 @@ Total : 47 analysis
 * :ref:`wrong-type-with-default`
 * :ref:`clone-constant`
 * :ref:`invalid-cast`
+* :ref:`only-variable-passed-by-reference`
 
 Specs
 _____

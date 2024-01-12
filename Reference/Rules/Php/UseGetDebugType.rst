@@ -5,7 +5,7 @@
 Use get_debug_type()
 ++++++++++++++++++++
 
-  `get_debug_type() <https://www.php.net/get_debug_type>`_ returns the given type of a variable. It was introduced in PHP 8.0.
+  `get_debug_type() <https://www.php.net/get_debug_type>`_ returns the given type of a variable. It was introduced in PHP 8.0: this makes it incompatible with previous versions.
 
 .. code-block:: php
    

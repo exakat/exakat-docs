@@ -9,8 +9,7 @@ Incompatible Types With Incoming Values
 
 This currently is based on \symfony\component\httpfoundation\request class, and its related `get*()` methods. 
 
-The analysis also checks usage of superglobals and their related types. 
-
+The analysis also checks usage of superglobals and their related types.
 
 .. code-block:: php
    

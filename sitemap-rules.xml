@@ -2605,9 +2605,6 @@
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Type/OneVariableStrings.html</loc>
  </url>
  <url>
-  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Php/OnlyVariableForReference.html</loc>
- </url>
- <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/OnlyFirstByte.html</loc>
  </url>
  <url>
@@ -2618,6 +2615,9 @@
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Functions/OnlyVariablePassedByReference.html</loc>
+ </url>
+ <url>
+  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Php/OnlyVariablePassedByReference.html</loc>
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/OnlyVariableReturnedByReference.html</loc>
@@ -2957,6 +2957,9 @@
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Classes/CouldBePrivate.html</loc>
+ </url>
+ <url>
+  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Classes/ExportProperty.html</loc>
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Classes/PropertyInvasion.html</loc>
@@ -3625,6 +3628,9 @@
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Functions/TypeDodging.html</loc>
  </url>
  <url>
+  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Functions/TypehintMustBeReturned.html</loc>
+ </url>
+ <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Classes/TypedClassConstants.html</loc>
  </url>
  <url>
@@ -3632,9 +3638,6 @@
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Typehints/CouldBeIterable.html</loc>
- </url>
- <url>
-  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Functions/TypehintMustBeReturned.html</loc>
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Dump/Typehintorder.html</loc>
@@ -4265,6 +4268,9 @@
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Php/InternalParameterType.html</loc>
+ </url>
+ <url>
+  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/WrongPrecedenceInExpression.html</loc>
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/WrongRange.html</loc>

@@ -16,7 +16,6 @@ Use Array Functions
 * concatenation : use `implode() <https://www.php.net/implode>`_
 * ifthen : use `array_filter() <https://www.php.net/array_filter>`_
 
-
 .. code-block:: php
    
    <?php
@@ -49,7 +48,7 @@ _____
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Structures/UseArrayFunctions                                                                                            |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Suggestions <ruleset-Suggestions>`                                                      |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`, :ref:`Suggestions <ruleset-Suggestions>`  |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 1.8.8                                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

@@ -1,15 +1,15 @@
 .. _functions-removetypes:
 
-.. _remove-typehint:
+.. _remove-type:
 
-Remove Typehint
-+++++++++++++++
-This cobbler remove the typehint mentions in the code. This might yield some speed when executing, since those tests will be not conveyed at runtime. 
+Remove Type
++++++++++++
+This cobbler remove the type mentions in the code. This might yield some speed when executing, since those tests will be not conveyed at runtime. 
 
-Typehints from arguments, method returns and properties are all removed. 
+Types from arguments, method returns and properties are all removed. 
 
 
-.. _remove-typehint-before:
+.. _remove-type-before:
 
 Before
 ______
@@ -27,7 +27,7 @@ ______
    
    ?>
 
-.. _remove-typehint-after:
+.. _remove-type-after:
 
 After
 _____
@@ -46,7 +46,7 @@ _____
    ?>
 
 
-.. _remove-typehint-type\_to\_remove:
+.. _remove-type-type\_to\_remove:
 
 Parameters
 __________
@@ -57,14 +57,14 @@ __________
 | type_to_remove | all     | data | A comma separated list of types to remove. For example : never,string,A\B\C;. Use 'All' for everyt type. |
 +----------------+---------+------+----------------------------------------------------------------------------------------------------------+
 
-.. _remove-typehint-suggested-analysis:
+.. _remove-type-suggested-analysis:
 
 Suggested Analysis
 __________________
 
 * :ref:`php-8.1-typehints`
 
-.. _remove-typehint-reverse-cobbler:
+.. _remove-type-reverse-cobbler:
 
 Reverse Cobbler
 _______________
@@ -73,7 +73,7 @@ _______________
 
 
 
-.. _remove-typehint-specs:
+.. _remove-type-specs:
 
 Specs
 _____

@@ -28,7 +28,7 @@ strcontains() is not backward compatible, so it should be be used before PHP 8.0
 Suggestions
 ___________
 
-* replace strpos() by strcontains()
+* Replace strpos() by strcontains()
 
 
 

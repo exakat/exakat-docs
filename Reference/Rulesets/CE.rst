@@ -498,7 +498,7 @@ Total : 625 analysis
 * :ref:`php-8.0-removed-functions`
 * :ref:`php-8.0-removed-constants`
 * :ref:`an-oop-factory`
-* :ref:`typehint-must-be-returned`
+* :ref:`type-must-be-returned`
 * :ref:`self-transforming-variables`
 * :ref:`check-on-\_\_call-usage`
 * :ref:`php-overridden-function`

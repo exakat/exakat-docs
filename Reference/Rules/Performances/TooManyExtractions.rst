@@ -7,8 +7,7 @@ Too Many Extractions
 
   Using a loop to extract all the values from an array or an object, but failing to use them all later.
 
-This means too much work was applied to the extraction, and it could be shorten by choosing the actual values. 
-
+This means too much work was applied to the extraction, and it could be shorten by choosing the actual values.
 
 .. code-block:: php
    
