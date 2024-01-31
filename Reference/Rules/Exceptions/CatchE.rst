@@ -9,8 +9,7 @@ Caught Variable
 
 There seems to be a choice that is not enforced : one form is dominant, (> 90%) while the others are rare. 
 
-The analyzed code has less than 10% of one of the three : for consistency reasons, it is recommended to make them all the same. 
-
+The analyzed code has less than 10% of one of the three : for consistency reasons, it is recommended to make them all the same.
 
 .. code-block:: php
    
@@ -48,7 +47,7 @@ _____
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Exceptions/CatchE                                                                                                       |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Preferences <ruleset-Preferences>`                                                      |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`, :ref:`Preferences <ruleset-Preferences>`  |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 1.7.6                                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

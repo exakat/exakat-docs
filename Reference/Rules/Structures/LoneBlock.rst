@@ -5,21 +5,28 @@
 Lone Blocks
 +++++++++++
 
-  Any grouped code without a commanding structure is useless. 
+  Grouped code without a commanding structure is useless and may be removed. 
 
-Blocks are compulsory when defining a structure, such as a class or a function. They are most often used with flow control instructions, like if then or switch. 
+Blocks are compulsory when defining a structure, such as a class, a function or a switch. They are most often used with flow control instructions, like if then or foreach. 
 
-Blocks are also valid syntax that group several instructions together, though they have no effect at all, except confuse the reader. Most often, it is a ruin from a previous flow control instruction, whose condition was removed or commented. They should be removed. 
+Blocks are also valid syntax that group several instructions together, though they have no effect at all. They are unusual enough to confuse the reader. 
 
+Most often, it is a ruin from a previous flow control instruction, whose condition was removed or commented. They should be removed.
 
 .. code-block:: php
    
    <?php
    
-       // Lone block
+       // Lone block without artefact
+       {
+       	$a = 3;
+       	$c = 4;
+       }
+   
+       // Lone block with commented out loop
        //foreach($a as $b) 
        {
-           $b++;
+           $b = 1;
        }
    ?>
 
@@ -37,7 +44,7 @@ _____
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Structures/LoneBlock                                                                                                                                                                    |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Analyze <ruleset-Analyze>`, :ref:`CE <ruleset-CE>`, :ref:`CI-checks <ruleset-CI-checks>`                                                                |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Analyze <ruleset-Analyze>`, :ref:`CE <ruleset-CE>`, :ref:`CI-checks <ruleset-CI-checks>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`            |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 0.8.4                                                                                                                                                                                   |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

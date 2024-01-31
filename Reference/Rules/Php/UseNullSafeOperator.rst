@@ -5,8 +5,7 @@
 Use NullSafe Operator
 +++++++++++++++++++++
 
-  The nullsafe operator ``?->`` is an alternative to the object operator ``->``. It silently fails the whole expression if a null is used for object. 
-
+  The nullsafe operator ``?->`` is an alternative to the object operator ``->``. It silently fails the whole expression if a null is used for object.
 
 .. code-block:: php
    
@@ -31,7 +30,7 @@ _____
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Php/UseNullSafeOperator                                                                                                                                                                 |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Appinfo <ruleset-Appinfo>`, :ref:`CE <ruleset-CE>`, :ref:`One Liners <ruleset-One-Liners>`                                                              |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Appinfo <ruleset-Appinfo>`, :ref:`CE <ruleset-CE>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`, :ref:`One Liners <ruleset-One-Liners>`          |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 2.1.6                                                                                                                                                                                   |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

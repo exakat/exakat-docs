@@ -391,6 +391,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Classes/UselessConstructor";
    analyzer[] = "Classes/UselessFinal";
    analyzer[] = "Classes/UselessMethod";
+   analyzer[] = "Classes/UselessNullSafeOperator";
    analyzer[] = "Classes/UselessTypehint";
    analyzer[] = "Classes/UsingThisOutsideAClass";
    analyzer[] = "Classes/VariableClasses";
@@ -510,6 +511,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Dump/CollectVariables";
    analyzer[] = "Dump/CollectVendorStructures";
    analyzer[] = "Dump/CollectsNames";
+   analyzer[] = "Dump/CombinedCalls";
    analyzer[] = "Dump/ConstantOrder";
    analyzer[] = "Dump/CouldBeAConstant";
    analyzer[] = "Dump/CyclomaticComplexity";
@@ -1379,6 +1381,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/ExitUsage";
    analyzer[] = "Structures/FailingSubstrComparison";
    analyzer[] = "Structures/Fallthrough";
+   analyzer[] = "Structures/FilePutContentsDataType";
    analyzer[] = "Structures/FileUploadUsage";
    analyzer[] = "Structures/FileUsage";
    analyzer[] = "Structures/ForWithFunctioncall";
@@ -1458,6 +1461,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/NegativePow";
    analyzer[] = "Structures/NestedIfthen";
    analyzer[] = "Structures/NestedLoops";
+   analyzer[] = "Structures/NestedMatch";
    analyzer[] = "Structures/NestedTernary";
    analyzer[] = "Structures/NeverNegative";
    analyzer[] = "Structures/NewLineStyle";
@@ -1594,6 +1598,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/UselessInstruction";
    analyzer[] = "Structures/UselessNullCoalesce";
    analyzer[] = "Structures/UselessParenthesis";
+   analyzer[] = "Structures/UselessShortTernary";
    analyzer[] = "Structures/UselessSwitch";
    analyzer[] = "Structures/UselessTrailingComma";
    analyzer[] = "Structures/UselessUnset";
@@ -2035,6 +2040,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Classes/UselessConstructor'
      - 'Classes/UselessFinal'
      - 'Classes/UselessMethod'
+     - 'Classes/UselessNullSafeOperator'
      - 'Classes/UselessTypehint'
      - 'Classes/UsingThisOutsideAClass'
      - 'Classes/VariableClasses'
@@ -2154,6 +2160,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Dump/CollectVariables'
      - 'Dump/CollectVendorStructures'
      - 'Dump/CollectsNames'
+     - 'Dump/CombinedCalls'
      - 'Dump/ConstantOrder'
      - 'Dump/CouldBeAConstant'
      - 'Dump/CyclomaticComplexity'
@@ -3023,6 +3030,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/ExitUsage'
      - 'Structures/FailingSubstrComparison'
      - 'Structures/Fallthrough'
+     - 'Structures/FilePutContentsDataType'
      - 'Structures/FileUploadUsage'
      - 'Structures/FileUsage'
      - 'Structures/ForWithFunctioncall'
@@ -3102,6 +3110,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/NegativePow'
      - 'Structures/NestedIfthen'
      - 'Structures/NestedLoops'
+     - 'Structures/NestedMatch'
      - 'Structures/NestedTernary'
      - 'Structures/NeverNegative'
      - 'Structures/NewLineStyle'
@@ -3238,6 +3247,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/UselessInstruction'
      - 'Structures/UselessNullCoalesce'
      - 'Structures/UselessParenthesis'
+     - 'Structures/UselessShortTernary'
      - 'Structures/UselessSwitch'
      - 'Structures/UselessTrailingComma'
      - 'Structures/UselessUnset'
@@ -3696,6 +3706,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/AlteringForeachWithoutReference";
    analyzer[] = "Structures/AlternativeConsistenceByFile";
    analyzer[] = "Structures/AlwaysFalse";
+   analyzer[] = "Structures/ArrayAccessOnLiteralArray";
    analyzer[] = "Structures/ArrayFillWithObjects";
    analyzer[] = "Structures/ArrayMapPassesByValue";
    analyzer[] = "Structures/ArrayMergeAndVariadic";
@@ -3766,7 +3777,6 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/ImplicitConversionToInt";
    analyzer[] = "Structures/ImpliedIf";
    analyzer[] = "Structures/ImplodeArgsOrder";
-   analyzer[] = "Structures/InconsistentElseif";
    analyzer[] = "Structures/IndicesAreIntOrString";
    analyzer[] = "Structures/InfiniteRecursion";
    analyzer[] = "Structures/InvalidCast";
@@ -3796,6 +3806,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/MultiplyByOne";
    analyzer[] = "Structures/NegativePow";
    analyzer[] = "Structures/NestedIfthen";
+   analyzer[] = "Structures/NestedMatch";
    analyzer[] = "Structures/NestedTernary";
    analyzer[] = "Structures/NeverNegative";
    analyzer[] = "Structures/NextMonthTrap";
@@ -3876,6 +3887,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/UselessInstruction";
    analyzer[] = "Structures/UselessNullCoalesce";
    analyzer[] = "Structures/UselessParenthesis";
+   analyzer[] = "Structures/UselessShortTernary";
    analyzer[] = "Structures/UselessSwitch";
    analyzer[] = "Structures/UselessUnset";
    analyzer[] = "Structures/VardumpUsage";
@@ -4203,6 +4215,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/AlteringForeachWithoutReference'
      - 'Structures/AlternativeConsistenceByFile'
      - 'Structures/AlwaysFalse'
+     - 'Structures/ArrayAccessOnLiteralArray'
      - 'Structures/ArrayFillWithObjects'
      - 'Structures/ArrayMapPassesByValue'
      - 'Structures/ArrayMergeAndVariadic'
@@ -4273,7 +4286,6 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/ImplicitConversionToInt'
      - 'Structures/ImpliedIf'
      - 'Structures/ImplodeArgsOrder'
-     - 'Structures/InconsistentElseif'
      - 'Structures/IndicesAreIntOrString'
      - 'Structures/InfiniteRecursion'
      - 'Structures/InvalidCast'
@@ -4303,6 +4315,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/MultiplyByOne'
      - 'Structures/NegativePow'
      - 'Structures/NestedIfthen'
+     - 'Structures/NestedMatch'
      - 'Structures/NestedTernary'
      - 'Structures/NeverNegative'
      - 'Structures/NextMonthTrap'
@@ -4383,6 +4396,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/UselessInstruction'
      - 'Structures/UselessNullCoalesce'
      - 'Structures/UselessParenthesis'
+     - 'Structures/UselessShortTernary'
      - 'Structures/UselessSwitch'
      - 'Structures/UselessUnset'
      - 'Structures/VardumpUsage'
@@ -4770,6 +4784,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/ErrorMessages";
    analyzer[] = "Structures/EvalUsage";
    analyzer[] = "Structures/ExitUsage";
+   analyzer[] = "Structures/FilePutContentsDataType";
    analyzer[] = "Structures/FileUploadUsage";
    analyzer[] = "Structures/FileUsage";
    analyzer[] = "Structures/FunctionSubscripting";
@@ -5170,6 +5185,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/ErrorMessages'
      - 'Structures/EvalUsage'
      - 'Structures/ExitUsage'
+     - 'Structures/FilePutContentsDataType'
      - 'Structures/FileUploadUsage'
      - 'Structures/FileUsage'
      - 'Structures/FunctionSubscripting'
@@ -6972,37 +6988,114 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
  [Changed Behavior]
    analyzer[] = "Arrays/NegativeStart";
    analyzer[] = "Attributes/NestedAttributes";
+   analyzer[] = "Classes/AbstractConstants";
+   analyzer[] = "Classes/AbstractOrImplements";
+   analyzer[] = "Classes/CannotBeReadonly";
+   analyzer[] = "Classes/CouldBeIterable";
+   analyzer[] = "Classes/CouldBeProtectedConstant";
+   analyzer[] = "Classes/CouldBeProtectedMethod";
+   analyzer[] = "Classes/CouldBeProtectedProperty";
+   analyzer[] = "Classes/CouldInjectParam";
+   analyzer[] = "Classes/CouldSetPropertyDefault";
+   analyzer[] = "Classes/DefinedParentMP";
    analyzer[] = "Classes/ExportProperty";
+   analyzer[] = "Classes/ExtendsStdclass";
+   analyzer[] = "Classes/MissingVisibility";
+   analyzer[] = "Classes/NoNullWithNullSafeOperator";
    analyzer[] = "Classes/NoParent";
+   analyzer[] = "Classes/NoReadonlyAssignationInGlobal";
+   analyzer[] = "Classes/PromotedProperties";
    analyzer[] = "Classes/PssWithoutClass";
+   analyzer[] = "Classes/ReadonlyUsage";
+   analyzer[] = "Classes/UndefinedConstants";
    analyzer[] = "Classes/UndefinedProperty";
+   analyzer[] = "Classes/UnitializedProperties";
+   analyzer[] = "Classes/UnusedPublicMethod";
+   analyzer[] = "Classes/UseThis";
+   analyzer[] = "Classes/UselessConstructor";
+   analyzer[] = "Classes/UselessNullSafeOperator";
    analyzer[] = "Classes/UsingThisOutsideAClass";
    analyzer[] = "Complete/ReturnTypehint";
    analyzer[] = "Complete/VariableTypehint";
+   analyzer[] = "Constants/ConstDefinePreference";
+   analyzer[] = "Constants/CouldUseConstant";
+   analyzer[] = "Constants/CreatedOutsideItsNamespace";
+   analyzer[] = "Constants/CustomConstantUsage";
+   analyzer[] = "Constants/DefineInsensitivePreference";
+   analyzer[] = "Custom/MethodUsage";
+   analyzer[] = "Dump/ClassInjectionCount";
+   analyzer[] = "Dump/CollectCatch";
+   analyzer[] = "Dump/CollectClassChanges";
+   analyzer[] = "Dump/CollectClassChildren";
+   analyzer[] = "Dump/CollectClassDepth";
+   analyzer[] = "Dump/CollectClassInterfaceCounts";
+   analyzer[] = "Dump/CollectClassTraitsCounts";
+   analyzer[] = "Dump/CollectGraphTriplets";
+   analyzer[] = "Dump/CollectLocalVariableCounts";
+   analyzer[] = "Dump/CollectMethodCounts";
+   analyzer[] = "Dump/CollectNativeCallsPerExpressions";
+   analyzer[] = "Dump/CollectParameterCounts";
    analyzer[] = "Dump/CollectPropertyCounts";
+   analyzer[] = "Dump/CollectPropertyUsage";
+   analyzer[] = "Dump/CollectSetLocale";
+   analyzer[] = "Dump/CollectStructures";
    analyzer[] = "Dump/CollectUseCounts";
+   analyzer[] = "Dump/CyclomaticComplexity";
+   analyzer[] = "Dump/EnvironnementVariables";
+   analyzer[] = "Dump/FossilizedMethods";
+   analyzer[] = "Dump/Inclusions";
+   analyzer[] = "Dump/IndentationLevels";
+   analyzer[] = "Dump/NewOrder";
+   analyzer[] = "Exceptions/AlreadyCaught";
+   analyzer[] = "Exceptions/CantThrow";
+   analyzer[] = "Exceptions/CatchE";
+   analyzer[] = "Exceptions/CatchUndefinedVariable";
+   analyzer[] = "Exceptions/CaughtButNotThrown";
+   analyzer[] = "Exceptions/CaughtExceptions";
+   analyzer[] = "Exceptions/UselessTry";
+   analyzer[] = "Functions/CannotUseStaticForClosure";
+   analyzer[] = "Functions/CouldTypehint";
+   analyzer[] = "Functions/DynamicCode";
    analyzer[] = "Functions/HasNotFluentInterface";
    analyzer[] = "Functions/MismatchParameterName";
    analyzer[] = "Functions/MismatchTypeAndDefault";
+   analyzer[] = "Functions/NoLiteralForReference";
+   analyzer[] = "Functions/Recursive";
+   analyzer[] = "Functions/TypeDodging";
+   analyzer[] = "Functions/UselessDefault";
    analyzer[] = "Functions/VoidIsNotAReference";
    analyzer[] = "Functions/WrongOptionalParameter";
    analyzer[] = "Functions/funcGetArgModified";
    analyzer[] = "Interfaces/CantOverloadConstants";
+   analyzer[] = "Interfaces/CouldUseInterface";
+   analyzer[] = "Patterns/GetterSetter";
    analyzer[] = "Performances/CacheVariableOutsideLoop";
+   analyzer[] = "Performances/ClassOperator";
+   analyzer[] = "Performances/EllipsisMerge";
+   analyzer[] = "Performances/PreCalculateUse";
+   analyzer[] = "Performances/SkipEmptyArray";
+   analyzer[] = "Performances/SubstrInLoops";
+   analyzer[] = "Performances/TooManyExtractions";
    analyzer[] = "Php/AssertFunctionIsReserved";
    analyzer[] = "Php/ClosureThisSupport";
+   analyzer[] = "Php/ComparisonOnDifferentTypes";
    analyzer[] = "Php/ConcatAndAddition";
    analyzer[] = "Php/ForeachDontChangePointer";
    analyzer[] = "Php/GlobalWithoutSimpleVariable";
+   analyzer[] = "Php/Gotonames";
    analyzer[] = "Php/ListWithAppends";
    analyzer[] = "Php/ListWithKeys";
    analyzer[] = "Php/MethodCallOnNew";
+   analyzer[] = "Php/NamedArgumentAndVariadic";
    analyzer[] = "Php/NeverKeyword";
    analyzer[] = "Php/NoReferenceForStaticProperty";
    analyzer[] = "Php/PHP73LastEmptyArgument";
    analyzer[] = "Php/Php71microseconds";
    analyzer[] = "Php/Php74mbstrrpos3rdArg";
    analyzer[] = "Php/Php81RemovesResources";
+   analyzer[] = "Php/Php82NewFunctions";
+   analyzer[] = "Php/Php83NewClasses";
+   analyzer[] = "Php/Php83NewFunctions";
    analyzer[] = "Php/PhpErrorMsgUsage";
    analyzer[] = "Php/ReflectionExportIsDeprecated";
    analyzer[] = "Php/ReservedKeywords7";
@@ -7010,29 +7103,65 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Php/ReturnTypehintUsage";
    analyzer[] = "Php/ScalarTypehintUsage";
    analyzer[] = "Php/SetExceptionHandlerPHP7";
+   analyzer[] = "Php/ShortTernary";
    analyzer[] = "Php/StringIntComparison";
    analyzer[] = "Php/StrposWithIntegers";
    analyzer[] = "Php/ThrowWasAnExpression";
    analyzer[] = "Php/UnicodeEscapePartial";
+   analyzer[] = "Php/UpperCaseKeyword";
    analyzer[] = "Php/UseAttributes";
+   analyzer[] = "Php/UseNullSafeOperator";
    analyzer[] = "Php/UsortSorting";
+   analyzer[] = "Security/FilterNotRaw";
+   analyzer[] = "Security/IncompatibleTypesWithIncoming";
+   analyzer[] = "Security/SafeHttpHeaders";
+   analyzer[] = "Security/SessionCachedData";
+   analyzer[] = "Structures/AlwaysFalse";
+   analyzer[] = "Structures/CheckDivision";
    analyzer[] = "Structures/ConstantScalarExpression";
+   analyzer[] = "Structures/CouldBeArrayCombine";
+   analyzer[] = "Structures/CouldBeStatic";
    analyzer[] = "Structures/CryptWithoutSalt";
    analyzer[] = "Structures/CurlVersionNow";
+   analyzer[] = "Structures/DirThenSlash";
+   analyzer[] = "Structures/EmptyLoop";
    analyzer[] = "Structures/EmptyWithExpression";
    analyzer[] = "Structures/EvalWithoutTry";
+   analyzer[] = "Structures/FilePutContentsDataType";
+   analyzer[] = "Structures/ForWithFunctioncall";
+   analyzer[] = "Structures/FunctionPreSubscripting";
    analyzer[] = "Structures/HtmlentitiescallDefaultFlag";
    analyzer[] = "Structures/ImplodeArgsOrder";
+   analyzer[] = "Structures/InvalidRegex";
+   analyzer[] = "Structures/IsZero";
    analyzer[] = "Structures/IssetWithConstant";
+   analyzer[] = "Structures/LoneBlock";
+   analyzer[] = "Structures/MergeIfThen";
+   analyzer[] = "Structures/MissingParenthesis";
+   analyzer[] = "Structures/MultipleSimilarCalls";
+   analyzer[] = "Structures/NoChoice";
    analyzer[] = "Structures/NoEmptyStringWithExplode";
    analyzer[] = "Structures/NoMaxOnEmptyArray";
+   analyzer[] = "Structures/OneLineTwoInstructions";
    analyzer[] = "Structures/OnlyFirstByte";
+   analyzer[] = "Structures/PlusEgalOne";
+   analyzer[] = "Structures/RepeatedPrint";
+   analyzer[] = "Structures/UnreachableCode";
    analyzer[] = "Structures/UnusedLabel";
    analyzer[] = "Structures/UseArrayFunctions";
+   analyzer[] = "Structures/UseCaseValue";
+   analyzer[] = "Structures/UselessShortTernary";
+   analyzer[] = "Structures/UselessTrailingComma";
    analyzer[] = "Structures/WrongPrecedenceInExpression";
+   analyzer[] = "Traits/MethodCollisionTraits";
    analyzer[] = "Traits/NoPrivateAbstract";
+   analyzer[] = "Type/Ip";
+   analyzer[] = "Type/StringInterpolation";
+   analyzer[] = "Typehints/CouldBeResource";
    analyzer[] = "Variables/CloseNaming";
+   analyzer[] = "Variables/InconsistentUsage";
    analyzer[] = "Variables/InheritedStaticVariable";
+   analyzer[] = "Variables/IsLocalConstant";
    analyzer[] = "Variables/References";
 
 
@@ -7049,37 +7178,114 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
     'Changed Behavior':
      - 'Arrays/NegativeStart'
      - 'Attributes/NestedAttributes'
+     - 'Classes/AbstractConstants'
+     - 'Classes/AbstractOrImplements'
+     - 'Classes/CannotBeReadonly'
+     - 'Classes/CouldBeIterable'
+     - 'Classes/CouldBeProtectedConstant'
+     - 'Classes/CouldBeProtectedMethod'
+     - 'Classes/CouldBeProtectedProperty'
+     - 'Classes/CouldInjectParam'
+     - 'Classes/CouldSetPropertyDefault'
+     - 'Classes/DefinedParentMP'
      - 'Classes/ExportProperty'
+     - 'Classes/ExtendsStdclass'
+     - 'Classes/MissingVisibility'
+     - 'Classes/NoNullWithNullSafeOperator'
      - 'Classes/NoParent'
+     - 'Classes/NoReadonlyAssignationInGlobal'
+     - 'Classes/PromotedProperties'
      - 'Classes/PssWithoutClass'
+     - 'Classes/ReadonlyUsage'
+     - 'Classes/UndefinedConstants'
      - 'Classes/UndefinedProperty'
+     - 'Classes/UnitializedProperties'
+     - 'Classes/UnusedPublicMethod'
+     - 'Classes/UseThis'
+     - 'Classes/UselessConstructor'
+     - 'Classes/UselessNullSafeOperator'
      - 'Classes/UsingThisOutsideAClass'
      - 'Complete/ReturnTypehint'
      - 'Complete/VariableTypehint'
+     - 'Constants/ConstDefinePreference'
+     - 'Constants/CouldUseConstant'
+     - 'Constants/CreatedOutsideItsNamespace'
+     - 'Constants/CustomConstantUsage'
+     - 'Constants/DefineInsensitivePreference'
+     - 'Custom/MethodUsage'
+     - 'Dump/ClassInjectionCount'
+     - 'Dump/CollectCatch'
+     - 'Dump/CollectClassChanges'
+     - 'Dump/CollectClassChildren'
+     - 'Dump/CollectClassDepth'
+     - 'Dump/CollectClassInterfaceCounts'
+     - 'Dump/CollectClassTraitsCounts'
+     - 'Dump/CollectGraphTriplets'
+     - 'Dump/CollectLocalVariableCounts'
+     - 'Dump/CollectMethodCounts'
+     - 'Dump/CollectNativeCallsPerExpressions'
+     - 'Dump/CollectParameterCounts'
      - 'Dump/CollectPropertyCounts'
+     - 'Dump/CollectPropertyUsage'
+     - 'Dump/CollectSetLocale'
+     - 'Dump/CollectStructures'
      - 'Dump/CollectUseCounts'
+     - 'Dump/CyclomaticComplexity'
+     - 'Dump/EnvironnementVariables'
+     - 'Dump/FossilizedMethods'
+     - 'Dump/Inclusions'
+     - 'Dump/IndentationLevels'
+     - 'Dump/NewOrder'
+     - 'Exceptions/AlreadyCaught'
+     - 'Exceptions/CantThrow'
+     - 'Exceptions/CatchE'
+     - 'Exceptions/CatchUndefinedVariable'
+     - 'Exceptions/CaughtButNotThrown'
+     - 'Exceptions/CaughtExceptions'
+     - 'Exceptions/UselessTry'
+     - 'Functions/CannotUseStaticForClosure'
+     - 'Functions/CouldTypehint'
+     - 'Functions/DynamicCode'
      - 'Functions/HasNotFluentInterface'
      - 'Functions/MismatchParameterName'
      - 'Functions/MismatchTypeAndDefault'
+     - 'Functions/NoLiteralForReference'
+     - 'Functions/Recursive'
+     - 'Functions/TypeDodging'
+     - 'Functions/UselessDefault'
      - 'Functions/VoidIsNotAReference'
      - 'Functions/WrongOptionalParameter'
      - 'Functions/funcGetArgModified'
      - 'Interfaces/CantOverloadConstants'
+     - 'Interfaces/CouldUseInterface'
+     - 'Patterns/GetterSetter'
      - 'Performances/CacheVariableOutsideLoop'
+     - 'Performances/ClassOperator'
+     - 'Performances/EllipsisMerge'
+     - 'Performances/PreCalculateUse'
+     - 'Performances/SkipEmptyArray'
+     - 'Performances/SubstrInLoops'
+     - 'Performances/TooManyExtractions'
      - 'Php/AssertFunctionIsReserved'
      - 'Php/ClosureThisSupport'
+     - 'Php/ComparisonOnDifferentTypes'
      - 'Php/ConcatAndAddition'
      - 'Php/ForeachDontChangePointer'
      - 'Php/GlobalWithoutSimpleVariable'
+     - 'Php/Gotonames'
      - 'Php/ListWithAppends'
      - 'Php/ListWithKeys'
      - 'Php/MethodCallOnNew'
+     - 'Php/NamedArgumentAndVariadic'
      - 'Php/NeverKeyword'
      - 'Php/NoReferenceForStaticProperty'
      - 'Php/PHP73LastEmptyArgument'
      - 'Php/Php71microseconds'
      - 'Php/Php74mbstrrpos3rdArg'
      - 'Php/Php81RemovesResources'
+     - 'Php/Php82NewFunctions'
+     - 'Php/Php83NewClasses'
+     - 'Php/Php83NewFunctions'
      - 'Php/PhpErrorMsgUsage'
      - 'Php/ReflectionExportIsDeprecated'
      - 'Php/ReservedKeywords7'
@@ -7087,29 +7293,65 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Php/ReturnTypehintUsage'
      - 'Php/ScalarTypehintUsage'
      - 'Php/SetExceptionHandlerPHP7'
+     - 'Php/ShortTernary'
      - 'Php/StringIntComparison'
      - 'Php/StrposWithIntegers'
      - 'Php/ThrowWasAnExpression'
      - 'Php/UnicodeEscapePartial'
+     - 'Php/UpperCaseKeyword'
      - 'Php/UseAttributes'
+     - 'Php/UseNullSafeOperator'
      - 'Php/UsortSorting'
+     - 'Security/FilterNotRaw'
+     - 'Security/IncompatibleTypesWithIncoming'
+     - 'Security/SafeHttpHeaders'
+     - 'Security/SessionCachedData'
+     - 'Structures/AlwaysFalse'
+     - 'Structures/CheckDivision'
      - 'Structures/ConstantScalarExpression'
+     - 'Structures/CouldBeArrayCombine'
+     - 'Structures/CouldBeStatic'
      - 'Structures/CryptWithoutSalt'
      - 'Structures/CurlVersionNow'
+     - 'Structures/DirThenSlash'
+     - 'Structures/EmptyLoop'
      - 'Structures/EmptyWithExpression'
      - 'Structures/EvalWithoutTry'
+     - 'Structures/FilePutContentsDataType'
+     - 'Structures/ForWithFunctioncall'
+     - 'Structures/FunctionPreSubscripting'
      - 'Structures/HtmlentitiescallDefaultFlag'
      - 'Structures/ImplodeArgsOrder'
+     - 'Structures/InvalidRegex'
+     - 'Structures/IsZero'
      - 'Structures/IssetWithConstant'
+     - 'Structures/LoneBlock'
+     - 'Structures/MergeIfThen'
+     - 'Structures/MissingParenthesis'
+     - 'Structures/MultipleSimilarCalls'
+     - 'Structures/NoChoice'
      - 'Structures/NoEmptyStringWithExplode'
      - 'Structures/NoMaxOnEmptyArray'
+     - 'Structures/OneLineTwoInstructions'
      - 'Structures/OnlyFirstByte'
+     - 'Structures/PlusEgalOne'
+     - 'Structures/RepeatedPrint'
+     - 'Structures/UnreachableCode'
      - 'Structures/UnusedLabel'
      - 'Structures/UseArrayFunctions'
+     - 'Structures/UseCaseValue'
+     - 'Structures/UselessShortTernary'
+     - 'Structures/UselessTrailingComma'
      - 'Structures/WrongPrecedenceInExpression'
+     - 'Traits/MethodCollisionTraits'
      - 'Traits/NoPrivateAbstract'
+     - 'Type/Ip'
+     - 'Type/StringInterpolation'
+     - 'Typehints/CouldBeResource'
      - 'Variables/CloseNaming'
+     - 'Variables/InconsistentUsage'
      - 'Variables/InheritedStaticVariable'
+     - 'Variables/IsLocalConstant'
      - 'Variables/References'
 
 
@@ -7202,6 +7444,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Classes/UnusedConstant";
    analyzer[] = "Classes/UselessAssignationOfPromotedProperty";
    analyzer[] = "Classes/UselessConstantOverwrite";
+   analyzer[] = "Classes/UselessNullSafeOperator";
    analyzer[] = "Classes/UselessTypehint";
    analyzer[] = "Classes/WrongTypedPropertyInit";
    analyzer[] = "Enums/NoMagicMethod";
@@ -7314,6 +7557,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Classes/UnusedConstant'
      - 'Classes/UselessAssignationOfPromotedProperty'
      - 'Classes/UselessConstantOverwrite'
+     - 'Classes/UselessNullSafeOperator'
      - 'Classes/UselessTypehint'
      - 'Classes/WrongTypedPropertyInit'
      - 'Enums/NoMagicMethod'
@@ -9547,6 +9791,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Dump/CollectVariables";
    analyzer[] = "Dump/CollectVendorStructures";
    analyzer[] = "Dump/CollectsNames";
+   analyzer[] = "Dump/CombinedCalls";
    analyzer[] = "Dump/ConstantOrder";
    analyzer[] = "Dump/CouldBeAConstant";
    analyzer[] = "Dump/CyclomaticComplexity";
@@ -9615,6 +9860,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Dump/CollectVariables'
      - 'Dump/CollectVendorStructures'
      - 'Dump/CollectsNames'
+     - 'Dump/CombinedCalls'
      - 'Dump/ConstantOrder'
      - 'Dump/CouldBeAConstant'
      - 'Dump/CyclomaticComplexity'
@@ -9806,7 +10052,6 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Classes/RaisedAccessLevel";
    analyzer[] = "Classes/RedefinedPrivateProperty";
    analyzer[] = "Classes/StaticMethodsCalledFromObject";
-   analyzer[] = "Classes/UndefinedConstants";
    analyzer[] = "Complete/PhpNativeReference";
    analyzer[] = "Constants/UndefinedConstants";
    analyzer[] = "Enums/UndefinedEnumcase";
@@ -9848,7 +10093,6 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Classes/RaisedAccessLevel'
      - 'Classes/RedefinedPrivateProperty'
      - 'Classes/StaticMethodsCalledFromObject'
-     - 'Classes/UndefinedConstants'
      - 'Complete/PhpNativeReference'
      - 'Constants/UndefinedConstants'
      - 'Enums/UndefinedEnumcase'
@@ -9897,7 +10141,6 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Classes/RaisedAccessLevel";
    analyzer[] = "Classes/RedefinedPrivateProperty";
    analyzer[] = "Classes/StaticMethodsCalledFromObject";
-   analyzer[] = "Classes/UndefinedConstants";
    analyzer[] = "Complete/PhpNativeReference";
    analyzer[] = "Constants/UndefinedConstants";
    analyzer[] = "Enums/UndefinedEnumcase";
@@ -9939,7 +10182,6 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Classes/RaisedAccessLevel'
      - 'Classes/RedefinedPrivateProperty'
      - 'Classes/StaticMethodsCalledFromObject'
-     - 'Classes/UndefinedConstants'
      - 'Complete/PhpNativeReference'
      - 'Constants/UndefinedConstants'
      - 'Enums/UndefinedEnumcase'
@@ -9988,7 +10230,6 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Classes/RaisedAccessLevel";
    analyzer[] = "Classes/RedefinedPrivateProperty";
    analyzer[] = "Classes/StaticMethodsCalledFromObject";
-   analyzer[] = "Classes/UndefinedConstants";
    analyzer[] = "Complete/PhpNativeReference";
    analyzer[] = "Constants/UndefinedConstants";
    analyzer[] = "Enums/UndefinedEnumcase";
@@ -10028,7 +10269,6 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Classes/RaisedAccessLevel'
      - 'Classes/RedefinedPrivateProperty'
      - 'Classes/StaticMethodsCalledFromObject'
-     - 'Classes/UndefinedConstants'
      - 'Complete/PhpNativeReference'
      - 'Constants/UndefinedConstants'
      - 'Enums/UndefinedEnumcase'

@@ -5,7 +5,7 @@
 Could Be Type
 +++++++++++++
 
-  This is a generic analysis, that applies common behavior when searching for types.
+  This is a generic analysis, that applies common patterns when searching for types. It should not be used directly.
 
 Specs
 _____

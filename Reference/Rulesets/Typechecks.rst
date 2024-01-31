@@ -31,7 +31,7 @@ Total : 28 analysis
 * :ref:`could-be-self`
 * :ref:`could-be-parent`
 * :ref:`could-be-generator`
-* :ref:`argument-could-be-iterable`
+* :ref:`this-could-be-iterable`
 * :ref:`type-could-be-never`
 * :ref:`typehints-couldberesource`
 * :ref:`possible-typeerror`

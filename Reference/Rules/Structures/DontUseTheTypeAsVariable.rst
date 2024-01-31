@@ -1,9 +1,9 @@
 .. _structures-dontusethetypeasvariable:
 
-.. _dont-use-the-type-as-variable:
+.. _don't-use-the-type-as-variable-name:
 
-Dont Use The Type As Variable
-+++++++++++++++++++++++++++++
+Don't Use The Type As Variable Name
++++++++++++++++++++++++++++++++++++
 
   When it is difficult to find a good name, it is very tempting to use the type.
 

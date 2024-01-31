@@ -5,12 +5,19 @@
 Readonly Usage
 ++++++++++++++
 
-  Usage of the readonly option on class properties. 
-
+  Usage of the readonly option on classes and properties. Readonly is available on classes starting with PHP 8.2.
 
 .. code-block:: php
    
    <?php
+   
+   class x {
+   	private readonly int $property = 1;
+   }
+   
+   readonly class y {
+   	private int $property = 1;
+   }
    
    ?>
 
@@ -23,7 +30,7 @@ _____
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Classes/ReadonlyUsage                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Appinfo <ruleset-Appinfo>`                                                              |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Appinfo <ruleset-Appinfo>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`          |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 2.3.5                                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

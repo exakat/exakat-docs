@@ -5,8 +5,7 @@
 Fossilized Methods List
 +++++++++++++++++++++++
 
-  This is the list of fossilized methods. Those methods appears when they get tightly couple with a child or `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ class, and cannot evolve anymore without making the rest of the family evolve also. They are now very difficult to update and usually, become inert. 
-
+  This is the list of fossilized methods. Those methods appears when they get tightly couple with a child or `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ class, and cannot evolve anymore without making the rest of the family evolve also. They are now very difficult to update and usually, become inert.
 
 .. code-block:: php
    
@@ -33,7 +32,7 @@ _____
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Dump/FossilizedMethods                                                                                                                                                                  |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`CE <ruleset-CE>`, :ref:`Dump <ruleset-Dump>`                                                                                                            |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`CE <ruleset-CE>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`, :ref:`Dump <ruleset-Dump>`                                                        |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 2.1.5                                                                                                                                                                                   |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

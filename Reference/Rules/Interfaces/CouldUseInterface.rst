@@ -7,7 +7,6 @@ Forgotten Interface
 
   The following classes have been found implementing an interface's methods, though it doesn't explicitly implements this interface. This may have been forgotten.
 
-
 .. code-block:: php
    
    <?php
@@ -47,7 +46,7 @@ _____
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Interfaces/CouldUseInterface                                                                                            |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Analyze <ruleset-Analyze>`                                                              |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Analyze <ruleset-Analyze>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`          |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 0.11.7                                                                                                                  |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

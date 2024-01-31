@@ -1,22 +1,31 @@
-.. _classes-cannotbereadonly:
+.. _classes-uselessnullsafeoperator:
 
-.. _cannot-be-readonly:
+.. _useless-nullsafe-operator:
 
-Cannot Be Readonly
-++++++++++++++++++
+Useless NullSafe Operator
++++++++++++++++++++++++++
 
-  This analysis reports different situations where a property is readonly, and has some impossible code. 
+  The nullsafe operator protects the code from accessing a method or a property on a null value. If the object part of the syntax cannot be null, then the nullsafe operator ``?->`` will not protect it. 
 
-Two cases are reported : 
-+ a `self <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_-updated property, where it is updated with a value that is created from itself. The most obvious is ``$this->a = `$this <https://www.php.net/manual/en/language.oop5.basic.php>`_->a;`` (which is reported as an `error <https://www.php.net/error>`_ by PHP), and The most obvious is ``$this->a = foo(`$this <https://www.php.net/manual/en/language.oop5.basic.php>`_->a);`` is the most common.
-+ a property which is set in the constructor, yet has a distinct method where it is updated too. 
-
-Most of thoses cases are dead code.
+.. code-block:: php
+   
+   <?php
+   
+   function foo() : A {
+   	return new A(); // or other code
+   }
+   
+   // foo() always returns A, so it is always valid
+   foo()?->methodOnA();
+   
+   
+   ?>
 
 Suggestions
 ___________
 
-* Remove the impossible code
+* Replace the null safe operator with the normal one.
+* Add the type null to the type declaration.
 
 
 
@@ -25,19 +34,19 @@ Specs
 _____
 
 +--------------+--------------------------------------------------------------------------------------------------------------------------+
-| Short name   | Classes/CannotBeReadonly                                                                                                 |
+| Short name   | Classes/UselessNullSafeOperator                                                                                          |
 +--------------+--------------------------------------------------------------------------------------------------------------------------+
 | Rulesets     | :ref:`All <ruleset-All>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`, :ref:`Class Review <ruleset-Class-Review>` |
 +--------------+--------------------------------------------------------------------------------------------------------------------------+
-| Exakat since | 2.6.1                                                                                                                    |
+| Exakat since | 2.6.5                                                                                                                    |
 +--------------+--------------------------------------------------------------------------------------------------------------------------+
-| Severity     | Major                                                                                                                    |
+| Severity     | Minor                                                                                                                    |
 +--------------+--------------------------------------------------------------------------------------------------------------------------+
 | Time To Fix  | Quick (30 mins)                                                                                                          |
 +--------------+--------------------------------------------------------------------------------------------------------------------------+
-| Precision    | Very high                                                                                                                |
+| Precision    | High                                                                                                                     |
 +--------------+--------------------------------------------------------------------------------------------------------------------------+
-| Features     | readonly, dead-code                                                                                                      |
+| Features     | nullsafe-operator                                                                                                        |
 +--------------+--------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_  |
 +--------------+--------------------------------------------------------------------------------------------------------------------------+

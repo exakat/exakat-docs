@@ -5,7 +5,7 @@ Analyze
 
 This ruleset centralizes a large number of classic trap and pitfalls when writing PHP.
 
-Total : 494 analysis
+Total : 495 analysis
 
 * :ref:`adding-zero`
 * :ref:`ambiguous-array-index`
@@ -150,7 +150,7 @@ Total : 494 analysis
 * :ref:`no-hardcoded-ip`
 * :ref:`else-if-versus-elseif`
 * :ref:`unset-in-foreach`
-* :ref:`could-be-static`
+* :ref:`could-be-a-static-variable`
 * :ref:`multiple-class-declarations`
 * :ref:`empty-namespace`
 * :ref:`could-use-short-assignation`
@@ -225,7 +225,7 @@ Total : 494 analysis
 * :ref:`no-isset()-with-empty()`
 * :ref:`useless-check`
 * :ref:`bail-out-early`
-* :ref:`dont-change-the-blind-var`
+* :ref:`don't-change-the-blind-var`
 * :ref:`avoid-using-stdclass`
 * :ref:`too-many-local-variables`
 * :ref:`illegal-name-for-method`
@@ -311,7 +311,7 @@ Total : 494 analysis
 * :ref:`method-signature-must-be-compatible`
 * :ref:`mismatch-type-and-default`
 * :ref:`check-json`
-* :ref:`dont-mix-++`
+* :ref:`don't-mix-++`
 * :ref:`can't-throw-throwable`
 * :ref:`abstract-or-implements`
 * :ref:`incompatible-signature-methods`
@@ -325,7 +325,6 @@ Total : 494 analysis
 * :ref:`undefined-insteadof`
 * :ref:`method-collision-traits`
 * :ref:`class-could-be-final`
-* :ref:`inconsistent-elseif`
 * :ref:`only-variable-for-reference`
 * :ref:`wrong-access-style-to-property`
 * :ref:`invalid-pack-format`
@@ -383,7 +382,7 @@ Total : 494 analysis
 * :ref:`merge-if-then`
 * :ref:`wrong-type-with-call`
 * :ref:`not-equal-is-not-!==`
-* :ref:`dont-collect-void`
+* :ref:`don't-collect-void`
 * :ref:`wrong-typed-property-default`
 * :ref:`hidden-nullable-typehint`
 * :ref:`fn-argument-variable-confusion`
@@ -435,11 +434,11 @@ Total : 494 analysis
 * :ref:`overwritten-foreach-var`
 * :ref:`recycled-variables`
 * :ref:`check-division-by-zero`
-* :ref:`dont-reuse-foreach-source`
+* :ref:`don't-reuse-foreach-source`
 * :ref:`unreachable-method`
 * :ref:`unfinished-object`
 * :ref:`undefined-enumcase`
-* :ref:`dont-add-seconds`
+* :ref:`don't-add-seconds`
 * :ref:`use-constants-as-returns`
 * :ref:`identical-variables-in-foreach`
 * :ref:`can't-overwrite-final-constant`
@@ -465,7 +464,7 @@ Total : 494 analysis
 * :ref:`datetimeimmutable-is-not-immutable`
 * :ref:`no-default-for-referenced-parameter`
 * :ref:`clone-constant`
-* :ref:`could-inject-param`
+* :ref:`could-inject-parameter`
 * :ref:`unused-public-methods`
 * :ref:`mbstring-unknown-encodings`
 * :ref:`coalesce-and-ternary-operators-order`
@@ -474,6 +473,7 @@ Total : 494 analysis
 * :ref:`useless-method`
 * :ref:`weak-type-with-array`
 * :ref:`no-empty-string-with-explode()`
+* :ref:`array-access-on-literal-array`
 * :ref:`double-checks`
 * :ref:`strpos()-with-integers`
 * :ref:`missing-assignation-in-command`
@@ -501,6 +501,7 @@ Total : 494 analysis
 * :ref:`new-object-then-immediate-call`
 * :ref:`wrong-precedence-in-expression`
 * :ref:`only-variable-passed-by-reference`
+* :ref:`structures-nestedmatch`
 
 Specs
 _____

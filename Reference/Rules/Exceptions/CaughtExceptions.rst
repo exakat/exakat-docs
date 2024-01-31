@@ -5,8 +5,7 @@
 Caught Exceptions
 +++++++++++++++++
 
-  Exceptions used in catch clause. 
-
+  This rule collects the exceptions used in catch clause. Those are the caught exceptions.
 
 .. code-block:: php
    
@@ -15,6 +14,8 @@ Caught Exceptions
    try {
        foo();
    } catch (MyException $e) {
+       fixException();
+   } catch (MyOtherException1|MyOtherException2) {
        fixException();
    } finally {
        clean();
@@ -28,7 +29,7 @@ _____
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Exceptions/CaughtExceptions                                                                                             |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Dump <ruleset-Dump>`                                                                    |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`, :ref:`Dump <ruleset-Dump>`                |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 0.8.4                                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

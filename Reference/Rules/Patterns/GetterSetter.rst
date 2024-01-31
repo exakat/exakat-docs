@@ -7,8 +7,7 @@ Getter And Setter
 
   A getter is a method whose purpose is to read the internal value of a class; a setter is a method whose purpose is to write a value inside a class. 
 
-Exakat marks simple setters and getters : their content only writes (resp. reads) on property at a time. More refined getters/setters might appear in the future, when formatting and filter is detected and omitted. 
-
+Exakat marks simple setters and getters : their content only writes (resp. reads) on property at a time. More refined getters/setters might appear in the future, when formatting and filter is detected and omitted.
 
 .. code-block:: php
    
@@ -39,7 +38,7 @@ _____
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Patterns/GetterSetter                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`                                                                                                |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`                                            |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 2.3.3                                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

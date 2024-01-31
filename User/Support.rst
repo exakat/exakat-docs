@@ -109,7 +109,7 @@ List of external services whose configuration files has been commited in the cod
 * `coveralls <https://coveralls.zendesk.com/>`_ - .coveralls.yml
 * `crowdin <https://crowdin.com/>`_ - crowdin.yml
 * `cvs <https://www.nongnu.org/cvs/>`_ - CVS
-* `cypress <https://www.cypress.io/>`_ - cypress.config.js
+* `cypress <https://www.cypress.io/>`_ - cypress.config.js, cypress.config.ts
 * `deptrack <https://github.com/qossmic/deptrac>`_ - deptrac.yaml
 * `docheader <https://github.com/malukenho/docheader>`_ - .docheader
 * `docker <http://www.docker.com/>`_ - .dockerignore, .docker, docker-compose.yml, docker-compose.yaml, Dockerfile, .env.docker
@@ -118,7 +118,7 @@ List of external services whose configuration files has been commited in the cod
 * `docblox <https://github.com/dzuelke/Docblox.git>`_ - docblox.dist.xml
 * `drone <http://docs.drone.io/>`_ - .dockerignore, .docker
 * `drupalci <https://www.drupal.org/project/drupalci>`_ - drupalci.yml
-* `drush <https://www.drupal.org/project/drupalci>`_ - drush.services.yml
+* `drush <https://www.drupal.org/project/drush>`_ - drush.services.yml
 * `editorconfig <https://editorconfig.org/>`_ - .editorconfig
 * `eslint <http://eslint.org/>`_ - .eslintrc, .eslintignore, eslintrc.js, .eslintrc.js, .eslintrc.json
 * `Exakat <https://www.exakat.io/>`_ - .exakat.yaml, .exakat.yml, .exakat.ini
@@ -139,6 +139,7 @@ List of external services whose configuration files has been commited in the cod
 * `humbug <https://github.com/humbug/box.git>`_ - humbug.json.dist, humbug.json
 * `infection <https://infection.github.io/>`_ - infection.yml, .infection.yml, infection.json.dist, infection.json
 * `insight <https://insight.sensiolabs.com/>`_ - .sensiolabs.yml, .symfony.insight.yaml
+* `jekyll <https://jekyllrb.com/>`_ - _config.yml, _config.toml
 * `jest <https://jestjs.io/>`_ - jest.config.js
 * `jetbrains <https://www.jetbrains.com/phpstorm/>`_ - .idea
 * `jshint <http://jshint.com/>`_ - .jshintrc, .jshintignore
@@ -186,6 +187,7 @@ List of external services whose configuration files has been commited in the cod
 * `semantic versioning <http://semver.org/>`_ - .semver
 * `shifter <https://getshifter.io/>`_ - .shifter.json
 * `Sonar <https://www.sonarsource.com/>`_ - sonar-project.properties
+* `Snyk <https://snyk.io/>`_ - .snyk
 * `SPIP <https://www.spip.net/>`_ - paquet.xml
 * `stickler <https://stickler-ci.com/docs>`_ - .stickler.yml
 * `storyplayer <https://datasift.github.io/storyplayer/>`_ - storyplayer.json.dist
@@ -204,8 +206,9 @@ List of external services whose configuration files has been commited in the cod
 * `vite <https://vitejs.dev/>`_ - vite.config.js
 * `visualstudio <https://code.visualstudio.com/>`_ - .vscode
 * `vue <https://vuejs.org/>`_ - vue.config.js
-* `webpack <https://webpack.js.org/>`_ - webpack.mix.js, webpack.config.js
-* `yarn <https://yarnpkg.com/lang/en/>`_ - yarn.lock
+* `webpack <https://webpack.js.org/>`_ - webpack.mix.js, webpack.config.js, webpack.ssr.mix.js
+* `yarn <https://yarnpkg.com/lang/en/>`_ - yarn.lock, .yarnclean
+* `yamllint <https://github.com/adrienverge/yamllint>`_ - .yamllint.yaml
 * `Zend_Tool <https://framework.zend.com/>`_ - zfproject.xml
 
 Supported PHP Extensions

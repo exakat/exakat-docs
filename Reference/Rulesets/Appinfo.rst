@@ -5,7 +5,7 @@ Appinfo
 
 A set of rules that describes with PHP features is used in the code.
 
-Total : 387 analysis
+Total : 388 analysis
 
 * :ref:`array-index`
 * :ref:`multidimensional-arrays`
@@ -394,6 +394,7 @@ Total : 387 analysis
 * :ref:`use-enum-case-in-constant-expression`
 * :ref:`new-dynamic-class-constant-syntax`
 * :ref:`untyped-no-default-properties`
+* :ref:`file\_put\_contents-using-array-argument`
 
 Specs
 _____

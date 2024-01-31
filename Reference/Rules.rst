@@ -6,7 +6,7 @@ Rules
 Introduction
 ------------------------
 
-Exakat provides unique 1631 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
+Exakat provides unique 1634 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
 
 Each rule is documented with code example to allow you to remediate your code. If you want to automate remediation, ours cobblers can are there to fix the issues in your code for your.  
 
@@ -57,7 +57,6 @@ List of Rules
    Rules/Classes/Anonymous.rst
    Rules/Arrays/AppendAndAssignArrays.rst
    Rules/Php/Argon2Usage.rst
-   Rules/Classes/CouldBeIterable.rst
    Rules/Dump/ArgumentCountsPerCalls.rst
    Rules/Functions/ShouldBeTypehinted.rst
    Rules/Structures/ArrayAccessOnLiteralArray.rst
@@ -262,6 +261,7 @@ List of Rules
    Rules/Exceptions/ConvertedExceptions.rst
    Rules/Php/CookiesVariables.rst
    Rules/Dump/CouldBeAConstant.rst
+   Rules/Structures/CouldBeStatic.rst
    Rules/Classes/CouldBeAbstractClass.rst
    Rules/Classes/CouldBeAbstractMethod.rst
    Rules/Typehints/CouldBeArray.rst
@@ -284,7 +284,6 @@ List of Rules
    Rules/Classes/CouldBeReadonlyProperty.rst
    Rules/Typehints/CouldBeSelf.rst
    Rules/Structures/CouldBeSpaceship.rst
-   Rules/Structures/CouldBeStatic.rst
    Rules/Functions/CouldBeStaticClosure.rst
    Rules/Typehints/CouldBeString.rst
    Rules/Classes/CouldBeStringable.rst
@@ -376,19 +375,19 @@ List of Rules
    Rules/Performances/DoInBase.rst
    Rules/Php/NoCastToInt.rst
    Rules/Php/DeprecateDollarCurly.rst
+   Rules/Structures/DontAddSeconds.rst
    Rules/Structures/DontBeTooManual.rst
    Rules/Structures/NoChangeIncomingVariables.rst
-   Rules/Security/DontEchoError.rst
-   Rules/Structures/DontLoopOnYield.rst
-   Rules/Php/DontPolluteGlobalSpace.rst
-   Rules/Structures/DontReadAndWriteInOneExpression.rst
-   Rules/Classes/DontSendThisInConstructor.rst
-   Rules/Classes/DontUnsetProperties.rst
-   Rules/Structures/DontAddSeconds.rst
    Rules/Structures/DontChangeBlindKey.rst
    Rules/Functions/DontUseVoid.rst
+   Rules/Security/DontEchoError.rst
+   Rules/Structures/DontLoopOnYield.rst
    Rules/Structures/DontMixPlusPlus.rst
+   Rules/Php/DontPolluteGlobalSpace.rst
+   Rules/Structures/DontReadAndWriteInOneExpression.rst
    Rules/Structures/DontReuseForeachSource.rst
+   Rules/Classes/DontSendThisInConstructor.rst
+   Rules/Classes/DontUnsetProperties.rst
    Rules/Structures/DontUseTheTypeAsVariable.rst
    Rules/Structures/DoubleAssignation.rst
    Rules/Structures/DoubleChecks.rst
@@ -466,6 +465,7 @@ List of Rules
    Rules/Files/NotDefinitionsOnly.rst
    Rules/Structures/FileUploadUsage.rst
    Rules/Structures/FileUsage.rst
+   Rules/Structures/FilePutContentsDataType.rst
    Rules/Security/FilterNotRaw.rst
    Rules/Php/FilterToAddSlashes.rst
    Rules/Classes/Finalclass.rst
@@ -1170,6 +1170,7 @@ List of Rules
    Rules/Type/StringWithStrangeSpace.rst
    Rules/Structures/StrposCompare.rst
    Rules/Php/StrtrArguments.rst
+   Rules/Structures/NestedMatch.rst
    Rules/Structures/SubstrToTrim.rst
    Rules/Performances/SubstrInLoops.rst
    Rules/Performances/SubstrFirst.rst
@@ -1188,6 +1189,7 @@ List of Rules
    Rules/Structures/TernaryInConcat.rst
    Rules/Classes/TestClass.rst
    Rules/Structures/TestThenCast.rst
+   Rules/Classes/CouldBeIterable.rst
    Rules/Php/ThrowUsage.rst
    Rules/Exceptions/ThrowFunctioncall.rst
    Rules/Classes/ThrowInDestruct.rst
@@ -1391,6 +1393,7 @@ List of Rules
    Rules/Classes/UselessMethod.rst
    Rules/Traits/UselessAlias.rst
    Rules/Structures/UselessNullCoalesce.rst
+   Rules/Classes/UselessNullSafeOperator.rst
    Rules/Structures/UselessParenthesis.rst
    Rules/Functions/UselessReferenceArgument.rst
    Rules/Functions/UselessReturn.rst
@@ -1656,6 +1659,12 @@ Directory by Exakat version
 List of analyzers, by version of introduction, newest to oldest. In parenthesis, the first element is the analyzer name, used with 'analyze -P' command, and the seconds, if any, are the ruleset, used with the -T option. Rulesets are separated by commas, as the same analysis may be used in several rulesets.
 
 
+* 2.6.5
+
+  * :ref:`File_Put_Contents Using Array Argument <file\_put\_contents-using-array-argument>`
+  * :ref:`Structures/NestedMatch <structures-nestedmatch>`
+  * :ref:`Useless NullSafe Operator <useless-nullsafe-operator>`
+
 * 2.6.4
 
   * :ref:`Check After Null Safe Operator <check-after-null-safe-operator>`
@@ -1685,7 +1694,7 @@ List of analyzers, by version of introduction, newest to oldest. In parenthesis,
 
   * :ref:`Cant Instantiate Non Class <cant-instantiate-non-class>`
   * :ref:`Count() To Array Append <count()-to-array-append>`
-  * :ref:`Dont Use The Type As Variable <dont-use-the-type-as-variable>`
+  * :ref:`Don't Use The Type As Variable Name <don't-use-the-type-as-variable-name>`
   * :ref:`Friend Attribute <friend-attribute>`
   * :ref:`Non Integer Nor String As Index <non-integer-nor-string-as-index>`
   * :ref:`Reserved Methods <reserved-methods>`
@@ -1833,7 +1842,7 @@ List of analyzers, by version of introduction, newest to oldest. In parenthesis,
 * 2.4.7
 
   * :ref:`Clone Constant <clone-constant>`
-  * :ref:`Could Inject Param <could-inject-param>`
+  * :ref:`Could Inject Parameter <could-inject-parameter>`
   * :ref:`Empty Array Detection <empty-array-detection>`
   * :ref:`Enum Case Values <enum-case-values>`
   * :ref:`Geospatial <geospatial>`
@@ -1911,7 +1920,7 @@ List of analyzers, by version of introduction, newest to oldest. In parenthesis,
   * :ref:`Add Return Typehint <add-return-typehint>`
   * :ref:`Can't Overwrite Final Constant <can't-overwrite-final-constant>`
   * :ref:`Constant : With Or Without Use <constant--with-or-without-use>`
-  * :ref:`Dont Add Seconds <dont-add-seconds>`
+  * :ref:`Don't Add Seconds <don't-add-seconds>`
   * :ref:`Identical Variables In Foreach <identical-variables-in-foreach>`
   * :ref:`String Int Comparison <string-int-comparison>`
   * :ref:`Use Constants As Returns <use-constants-as-returns>`
@@ -1948,7 +1957,7 @@ List of analyzers, by version of introduction, newest to oldest. In parenthesis,
   * :ref:`Collect Dependency Extension <collect-dependency-extension>`
   * :ref:`Could Be Ternary <could-be-ternary>`
   * :ref:`Could Use Existing Constant <could-use-existing-constant>`
-  * :ref:`Dont Reuse Foreach Source <dont-reuse-foreach-source>`
+  * :ref:`Don't Reuse Foreach Source <don't-reuse-foreach-source>`
   * :ref:`Missing Visibility <missing-visibility>`
   * :ref:`Multiple Similar Calls <multiple-similar-calls>`
   * :ref:`Readonly Usage <readonly-usage>`
@@ -1957,7 +1966,6 @@ List of analyzers, by version of introduction, newest to oldest. In parenthesis,
 * 2.3.3
 
   * :ref:`Abstract Class Constants <abstract-class-constants>`
-  * :ref:`Argument Could Be Iterable <argument-could-be-iterable>`
   * :ref:`Check Division By Zero <check-division-by-zero>`
   * :ref:`Checks Property Existence <checks-property-existence>`
   * :ref:`Could Use Null-Safe Object Operator <could-use-null-safe-object-operator>`
@@ -1965,6 +1973,7 @@ List of analyzers, by version of introduction, newest to oldest. In parenthesis,
   * :ref:`Intersection Typehint <intersection-typehint>`
   * :ref:`Recycled Variables <recycled-variables>`
   * :ref:`Scope Resolution Operator <scope-resolution-operator>`
+  * :ref:`This Could Be Iterable <this-could-be-iterable>`
   * :ref:`Variable Is A Local Constant <variable-is-a-local-constant>`
 
 * 2.3.2
@@ -2191,7 +2200,7 @@ List of analyzers, by version of introduction, newest to oldest. In parenthesis,
 
 * 2.0.9
 
-  * :ref:`Dont Collect Void <dont-collect-void>`
+  * :ref:`Don't Collect Void <don't-collect-void>`
   * :ref:`Php 8.0 Only TypeHints <php-8.0-only-typehints>`
   * :ref:`Uninitialized Property <uninitialized-property>`
   * :ref:`Union Typehint <union-typehint>`
@@ -2668,7 +2677,7 @@ List of analyzers, by version of introduction, newest to oldest. In parenthesis,
   * :ref:`Compared But Not Assigned Strings <compared-but-not-assigned-strings>`
   * :ref:`Comparisons Orientation <comparisons-orientation>`
   * :ref:`Could Be Static Closure <could-be-static-closure>`
-  * :ref:`Dont Mix ++ <dont-mix-++>`
+  * :ref:`Don't Mix ++ <don't-mix-++>`
   * :ref:`Strict Or Relaxed Comparison <strict-or-relaxed-comparison>`
   * :ref:`move_uploaded_file Instead Of copy <move\_uploaded\_file-instead-of-copy>`
 
@@ -3172,7 +3181,7 @@ List of analyzers, by version of introduction, newest to oldest. In parenthesis,
   * :ref:`Array() / [  ] Consistence <array()---[--]-consistence>`
   * :ref:`Bail Out Early <bail-out-early>`
   * :ref:`Die Exit Consistence <die-exit-consistence>`
-  * :ref:`Dont Change The Blind Var <dont-change-the-blind-var>`
+  * :ref:`Don't Change The Blind Var <don't-change-the-blind-var>`
   * :ref:`More Than One Level Of Indentation <more-than-one-level-of-indentation>`
   * :ref:`One Dot Or Object Operator Per Line <one-dot-or-object-operator-per-line>`
   * :ref:`PHP 7.1 Microseconds <php-7.1-microseconds>`
@@ -3283,8 +3292,8 @@ List of analyzers, by version of introduction, newest to oldest. In parenthesis,
   * :ref:`Constants With Strange Names <constants-with-strange-names>`
   * :ref:`Constructors <constructors>`
   * :ref:`Continents <continents>`
+  * :ref:`Could Be A Static Variable <could-be-a-static-variable>`
   * :ref:`Could Be Class Constant <could-be-class-constant>`
-  * :ref:`Could Be Static <could-be-static>`
   * :ref:`Could Use Alias <could-use-alias>`
   * :ref:`Could Use Short Assignation <could-use-short-assignation>`
   * :ref:`Could Use __DIR__ <could-use-\_\_dir\_\_>`
@@ -3955,7 +3964,7 @@ Directory by PHP Function
       + :ref:`Could Be Protected Property <could-be-protected-property>`
       + :ref:`Could Be Readonly Property <could-be-readonly-property>`
       + :ref:`Could Be Static Closure <could-be-static-closure>`
-      + :ref:`Could Inject Param <could-inject-param>`
+      + :ref:`Could Inject Parameter <could-inject-parameter>`
       + :ref:`Could Set Property Default <could-set-property-default>`
       + :ref:`Could Use Promoted Properties <could-use-promoted-properties>`
       + :ref:`Courier Anti-Pattern <courier-anti-pattern>`
@@ -4026,6 +4035,7 @@ Directory by PHP Function
       + :ref:`Static Methods Called From Object <static-methods-called-from-object>`
       + :ref:`Static Methods Can't Contain $this <static-methods-can't-contain-$this>`
       + :ref:`Sylius usage <sylius-usage>`
+      + :ref:`This Could Be Iterable <this-could-be-iterable>`
       + :ref:`Throw In Destruct <throw-in-destruct>`
       + :ref:`Too Complex Expression <too-complex-expression>`
       + :ref:`Too Many Injections <too-many-injections>`
@@ -4998,7 +5008,7 @@ Directory by PHP Function
     + `DateTime`
 
       + :ref:`Clone Usage <clone-usage>`
-      + :ref:`Dont Add Seconds <dont-add-seconds>`
+      + :ref:`Don't Add Seconds <don't-add-seconds>`
       + :ref:`PHP 7.1 Microseconds <php-7.1-microseconds>`
       + :ref:`Timestamp Difference <timestamp-difference>`
       + :ref:`Use DateTimeImmutable Class <use-datetimeimmutable-class>`
@@ -5031,7 +5041,7 @@ Directory by PHP Function
 
     + `Directory`
 
-      + :ref:`Could Inject Param <could-inject-param>`
+      + :ref:`Could Inject Parameter <could-inject-parameter>`
       + :ref:`ext/ldap <ext-ldap>`
 
     + `DirectoryIterator`
@@ -5165,7 +5175,7 @@ Directory by PHP Function
     + `directory`
 
       + :ref:`$FILES full_path <$files-full\_path>`
-      + :ref:`Could Inject Param <could-inject-param>`
+      + :ref:`Could Inject Parameter <could-inject-parameter>`
       + :ref:`Could Use __DIR__ <could-use-\_\_dir\_\_>`
       + :ref:`Keep Files Access Restricted <keep-files-access-restricted>`
       + :ref:`No Hardcoded Path <no-hardcoded-path>`
@@ -5435,6 +5445,7 @@ Directory by PHP Function
       + :ref:`Could Use Null-Safe Object Operator <could-use-null-safe-object-operator>`
       + :ref:`Could Use Try <could-use-try>`
       + :ref:`Crypto Usage <crypto-usage>`
+      + :ref:`Custom Constant Usage <custom-constant-usage>`
       + :ref:`Declare strict_types Usage <declare-strict\_types-usage>`
       + :ref:`Don't Echo Error <don't-echo-error>`
       + :ref:`Don't Send $this In Constructor <don't-send-$this-in-constructor>`
@@ -5916,6 +5927,7 @@ Directory by PHP Function
 
     + `file_put_contents()`
 
+      + :ref:`File_Put_Contents Using Array Argument <file\_put\_contents-using-array-argument>`
       + :ref:`No array_merge() In Loops <no-array\_merge()-in-loops>`
       + :ref:`Strpos()-like Comparison <strpos()-like-comparison>`
       + :ref:`Use File Append <use-file-append>`
@@ -5972,8 +5984,8 @@ Directory by PHP Function
       + :ref:`Bracketless Blocks <bracketless-blocks>`
       + :ref:`Break Outside Loop <break-outside-loop>`
       + :ref:`Can't Call Generator <can't-call-generator>`
-      + :ref:`Dont Change The Blind Var <dont-change-the-blind-var>`
-      + :ref:`Dont Reuse Foreach Source <dont-reuse-foreach-source>`
+      + :ref:`Don't Change The Blind Var <don't-change-the-blind-var>`
+      + :ref:`Don't Reuse Foreach Source <don't-reuse-foreach-source>`
       + :ref:`Find Key Directly <find-key-directly>`
       + :ref:`Foreach Don't Change Pointer <foreach-don't-change-pointer>`
       + :ref:`Foreach With list() <foreach-with-list()>`
@@ -6843,6 +6855,7 @@ Directory by PHP Function
     + `is_array()`
 
       + :ref:`Assumptions <assumptions>`
+      + :ref:`Could Typehint <could-typehint>`
       + :ref:`Should Use Operator <should-use-operator>`
 
     + `is_callable()`
@@ -6894,6 +6907,7 @@ Directory by PHP Function
     + `is_string()`
 
       + :ref:`Check All Types <check-all-types>`
+      + :ref:`Could Typehint <could-typehint>`
       + :ref:`Use Instanceof <use-instanceof>`
 
     + `isset`
@@ -7204,6 +7218,7 @@ Directory by PHP Function
       + :ref:`Collect Compared Literals <collect-compared-literals>`
       + :ref:`Could Use Match <could-use-match>`
       + :ref:`Identical Case In Switch <identical-case-in-switch>`
+      + :ref:`Indentation Levels <indentation-levels>`
       + :ref:`Logical To in_array <logical-to-in\_array>`
       + :ref:`Multiline Expressions <multiline-expressions>`
       + :ref:`Multiple Type Cases In Switch <multiple-type-cases-in-switch>`
@@ -7603,6 +7618,7 @@ Directory by PHP Function
       + :ref:`Use NullSafe Operator <use-nullsafe-operator>`
       + :ref:`Use Nullable Type <use-nullable-type>`
       + :ref:`Useless Null Coalesce <useless-null-coalesce>`
+      + :ref:`Useless NullSafe Operator <useless-nullsafe-operator>`
       + :ref:`Useless Type Check <useless-type-check>`
       + :ref:`Weak Typing <weak-typing>`
       + :ref:`__toString() Throws Exception <\_\_tostring()-throws-exception>`
@@ -7790,7 +7806,7 @@ Directory by PHP Function
       + :ref:`Always Anchor Regex <always-anchor-regex>`
       + :ref:`Compare Hash <compare-hash>`
       + :ref:`Constants Usage <constants-usage>`
-      + :ref:`Dont Change The Blind Var <dont-change-the-blind-var>`
+      + :ref:`Don't Change The Blind Var <don't-change-the-blind-var>`
       + :ref:`File Uploads <file-uploads>`
       + :ref:`Final Class Usage <final-class-usage>`
       + :ref:`Final Methods Usage <final-methods-usage>`
@@ -7918,6 +7934,7 @@ Directory by PHP Function
       + :ref:`Avoid Self In Interface <avoid-self-in-interface>`
       + :ref:`Cancel Common Method <cancel-common-method>`
       + :ref:`Class Without Parent <class-without-parent>`
+      + :ref:`Collect Class Depth <collect-class-depth>`
       + :ref:`Constant Used Below <constant-used-below>`
       + :ref:`Could Be Abstract Class <could-be-abstract-class>`
       + :ref:`Could Be Parent Method <could-be-parent-method>`
@@ -8374,9 +8391,9 @@ Directory by PHP Function
       + :ref:`Could Use Null-Safe Object Operator <could-use-null-safe-object-operator>`
       + :ref:`Crc32() Might Be Negative <crc32()-might-be-negative>`
       + :ref:`Don't Be Too Manual <don't-be-too-manual>`
+      + :ref:`Don't Collect Void <don't-collect-void>`
       + :ref:`Don't Echo Error <don't-echo-error>`
       + :ref:`Don't Unset Properties <don't-unset-properties>`
-      + :ref:`Dont Collect Void <dont-collect-void>`
       + :ref:`Double Instructions <double-instructions>`
       + :ref:`Empty With Expression <empty-with-expression>`
       + :ref:`Foreach Needs Reference Array <foreach-needs-reference-array>`
@@ -8581,7 +8598,7 @@ Directory by PHP Function
 
     + `Sqlite3`
 
-      + :ref:`Dont Use The Type As Variable <dont-use-the-type-as-variable>`
+      + :ref:`Don't Use The Type As Variable Name <don't-use-the-type-as-variable-name>`
       + :ref:`Fetch One Row Format <fetch-one-row-format>`
       + :ref:`Set Aside Code <set-aside-code>`
       + :ref:`ext/sqlite3 <ext-sqlite3>`
@@ -8969,7 +8986,7 @@ Directory by PHP Function
 
     + `sqlite3`
 
-      + :ref:`Dont Use The Type As Variable <dont-use-the-type-as-variable>`
+      + :ref:`Don't Use The Type As Variable Name <don't-use-the-type-as-variable-name>`
       + :ref:`Set Aside Code <set-aside-code>`
 
     + `sqlsrv_errors()`
@@ -9006,7 +9023,7 @@ Directory by PHP Function
       + :ref:`Constant Dynamic Creation <constant-dynamic-creation>`
       + :ref:`Constant Order <constant-order>`
       + :ref:`Constant Scalar Expressions <constant-scalar-expressions>`
-      + :ref:`Could Be Static <could-be-static>`
+      + :ref:`Could Be A Static Variable <could-be-a-static-variable>`
       + :ref:`Could Be Static Closure <could-be-static-closure>`
       + :ref:`Could Be Typehinted Callable <could-be-typehinted-callable>`
       + :ref:`Declare Global Early <declare-global-early>`
@@ -9463,6 +9480,7 @@ Directory by PHP Function
 
     + `traversable`
 
+      + :ref:`This Could Be Iterable <this-could-be-iterable>`
       + :ref:`Typehint Could Be Iterable <typehint-could-be-iterable>`
 
     + `trigger_error()`
@@ -10209,8 +10227,7 @@ Exakat links each rules to PHP features.
 
   + Blind Variable
 
-    + :ref:`Blind Variables <blind-variables>`
-    + :ref:`Dont Change The Blind Var <dont-change-the-blind-var>`
+    + :ref:`Don't Change The Blind Var <don't-change-the-blind-var>`
     + :ref:`Use The Blind Var <use-the-blind-var>`
 
   + Block
@@ -10627,6 +10644,10 @@ Exakat links each rules to PHP features.
 
     + :ref:`Useless Brackets <useless-brackets>`
 
+  + Cyclomatic Complexity
+
+    + :ref:`Cyclomatic Complexity <cyclomatic-complexity>`
+
   + DRY : don't repeat yourself
 
     + :ref:`Identical Case In Switch <identical-case-in-switch>`
@@ -10635,7 +10656,7 @@ Exakat links each rules to PHP features.
   + Dates
 
     + :ref:`Date Formats <date-formats>`
-    + :ref:`Dont Add Seconds <dont-add-seconds>`
+    + :ref:`Don't Add Seconds <don't-add-seconds>`
     + :ref:`Invalid Date Scanning Format <invalid-date-scanning-format>`
     + :ref:`Next Month Trap <next-month-trap>`
     + :ref:`Timestamp Difference <timestamp-difference>`
@@ -10650,6 +10671,11 @@ Exakat links each rules to PHP features.
 
     + :ref:`Use Debug <use-debug>`
     + :ref:`var_dump()... Usage <var\_dump()...-usage>`
+
+  + Declaration
+
+    + :ref:`Multiple Functions Declarations <multiple-functions-declarations>`
+    + :ref:`Wrong Access Style to Property <wrong-access-style-to-property>`
 
   + Default
 
@@ -10670,8 +10696,6 @@ Exakat links each rules to PHP features.
   + Definition
 
     + :ref:`Definitions Only <definitions-only>`
-    + :ref:`Multiple Functions Declarations <multiple-functions-declarations>`
-    + :ref:`Wrong Access Style to Property <wrong-access-style-to-property>`
 
   + Dependency Injection
 
@@ -10795,6 +10819,10 @@ Exakat links each rules to PHP features.
     + :ref:`Ellipsis Usage <ellipsis-usage>`
     + :ref:`No Spread For Hash <no-spread-for-hash>`
 
+  + Email
+
+    + :ref:`Email Addresses <email-addresses>`
+
   + Empty
 
     + :ref:`Empty With Expression <empty-with-expression>`
@@ -10836,6 +10864,7 @@ Exakat links each rules to PHP features.
 
   + Escape Sequences
 
+    + :ref:`Encoded Simple Letters <encoded-simple-letters>`
     + :ref:`Htmlentities Using Default Flag <htmlentities-using-default-flag>`
     + :ref:`Unicode Escape Partial <unicode-escape-partial>`
     + :ref:`Unicode Escape Syntax <unicode-escape-syntax>`
@@ -10896,6 +10925,10 @@ Exakat links each rules to PHP features.
     + :ref:`Is An Extension Function <is-an-extension-function>`
     + :ref:`ext/decimal <ext-decimal>`
     + :ref:`ext/eaccelerator <ext-eaccelerator>`
+
+  + Fallback Function
+
+    + :ref:`Fallback Function <fallback-function>`
 
   + False
 
@@ -10974,7 +11007,7 @@ Exakat links each rules to PHP features.
 
     + :ref:`Altering Foreach Without Reference <altering-foreach-without-reference>`
     + :ref:`Collect Block Size <collect-block-size>`
-    + :ref:`Dont Reuse Foreach Source <dont-reuse-foreach-source>`
+    + :ref:`Don't Reuse Foreach Source <don't-reuse-foreach-source>`
     + :ref:`Foreach Don't Change Pointer <foreach-don't-change-pointer>`
     + :ref:`Foreach Needs Reference Array <foreach-needs-reference-array>`
     + :ref:`Foreach On Object <foreach-on-object>`
@@ -11023,6 +11056,7 @@ Exakat links each rules to PHP features.
 
   + Function Subscripting
 
+    + :ref:`Function Subscripting <function-subscripting>`
     + :ref:`Function Subscripting, Old Style <function-subscripting,-old-style>`
 
   + Functions
@@ -11191,7 +11225,6 @@ Exakat links each rules to PHP features.
     + :ref:`Collect Method Counts <collect-method-counts>`
     + :ref:`Collect Parameter Counts <collect-parameter-counts>`
     + :ref:`Collect Parameter Names <collect-parameter-names>`
-    + :ref:`Collect Static Class Changes <collect-static-class-changes>`
     + :ref:`Inclusions <inclusions>`
     + :ref:`Inclusions <inclusions>`
     + :ref:`Indentation Levels <indentation-levels>`
@@ -11250,6 +11283,7 @@ Exakat links each rules to PHP features.
 
   + Injection
 
+    + :ref:`Could Inject Parameter <could-inject-parameter>`
     + :ref:`DI Cyclic Dependencies <di-cyclic-dependencies>`
     + :ref:`Direct Injection <direct-injection>`
     + :ref:`Indirect Injection <indirect-injection>`
@@ -11318,8 +11352,8 @@ Exakat links each rules to PHP features.
 
   + Iterable
 
-    + :ref:`Argument Could Be Iterable <argument-could-be-iterable>`
     + :ref:`Could Type With Iterable <could-type-with-iterable>`
+    + :ref:`This Could Be Iterable <this-could-be-iterable>`
     + :ref:`Typehint Could Be Iterable <typehint-could-be-iterable>`
 
   + JSON
@@ -11387,7 +11421,7 @@ Exakat links each rules to PHP features.
     + :ref:`Break Outside Loop <break-outside-loop>`
     + :ref:`Continue Is For Loop <continue-is-for-loop>`
     + :ref:`Dangling Array References <dangling-array-references>`
-    + :ref:`Dont Change The Blind Var <dont-change-the-blind-var>`
+    + :ref:`Don't Change The Blind Var <don't-change-the-blind-var>`
     + :ref:`Empty Loop <empty-loop>`
     + :ref:`Foreach On Object <foreach-on-object>`
     + :ref:`Infinite Recursion <infinite-recursion>`
@@ -11488,6 +11522,10 @@ Exakat links each rules to PHP features.
     + :ref:`Recalled Condition <recalled-condition>`
     + :ref:`Should Cache Local <should-cache-local>`
     + :ref:`Unpreprocessed Values <unpreprocessed-values>`
+
+  + Microtime()
+
+    + :ref:`PHP 7.1 Microseconds <php-7.1-microseconds>`
 
   + Mixed
 
@@ -12014,7 +12052,7 @@ Exakat links each rules to PHP features.
   + Semantics
 
     + :ref:`Confusing Names <confusing-names>`
-    + :ref:`Dont Use The Type As Variable <dont-use-the-type-as-variable>`
+    + :ref:`Don't Use The Type As Variable Name <don't-use-the-type-as-variable-name>`
     + :ref:`Mismatch Parameter And Type <mismatch-parameter-and-type>`
     + :ref:`One Letter Functions <one-letter-functions>`
     + :ref:`Possible Alias Confusion <possible-alias-confusion>`
@@ -12055,7 +12093,9 @@ Exakat links each rules to PHP features.
 
   + Silent Behavior
 
+    + :ref:`File_Put_Contents Using Array Argument <file\_put\_contents-using-array-argument>`
     + :ref:`Never Called Parameter <never-called-parameter>`
+    + :ref:`Silently Cast Integer <silently-cast-integer>`
 
   + Single Quotes Strings
 
@@ -12169,6 +12209,10 @@ Exakat links each rules to PHP features.
 
     + :ref:`Shell commands <shell-commands>`
 
+  + Taint Analysis
+
+    + :ref:`Extensions/Exttaint <extensions-exttaint>`
+
   + Ternary Operator
 
     + :ref:`Casting Ternary <casting-ternary>`
@@ -12260,6 +12304,7 @@ Exakat links each rules to PHP features.
     + :ref:`Child Class Removes Typehint <child-class-removes-typehint>`
     + :ref:`Could Be Null <could-be-null>`
     + :ref:`Could Be Parent <could-be-parent>`
+    + :ref:`Could Inject Parameter <could-inject-parameter>`
     + :ref:`Could Not Type <could-not-type>`
     + :ref:`Could Type With Boolean <could-type-with-boolean>`
     + :ref:`Could Type With Int <could-type-with-int>`
@@ -12430,7 +12475,7 @@ Exakat links each rules to PHP features.
   + Void
 
     + :ref:`Could Be Void <could-be-void>`
-    + :ref:`Dont Collect Void <dont-collect-void>`
+    + :ref:`Don't Collect Void <don't-collect-void>`
     + :ref:`No Referenced Void <no-referenced-void>`
     + :ref:`Return void  <return-void->`
 
@@ -12644,7 +12689,7 @@ Exakat links each rules to PHP features.
     + :ref:`$this Is Not For Static Methods <$this-is-not-for-static-methods>`
     + :ref:`Ambiguous Static <ambiguous-static>`
     + :ref:`Cannot Use Static For Closure <cannot-use-static-for-closure>`
-    + :ref:`Could Be Static <could-be-static>`
+    + :ref:`Could Be A Static Variable <could-be-a-static-variable>`
     + :ref:`Declare Static Once <declare-static-once>`
     + :ref:`Make All Statics <make-all-statics>`
     + :ref:`Method Could Be Static <method-could-be-static>`
@@ -12990,12 +13035,10 @@ Exakat has rules that help identify possible exceptions in the code.
 
   + ArithmeticError Error
 
-    + :ref:`Check Division By Zero <check-division-by-zero>`
     + :ref:`Could Use Try <could-use-try>`
 
   + DivisionByZeroError
 
-    + :ref:`Check Division By Zero <check-division-by-zero>`
     + :ref:`Could Use Try <could-use-try>`
 
   + Exception

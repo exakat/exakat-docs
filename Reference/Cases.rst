@@ -1681,6 +1681,98 @@ break is used here for cases, unless the case includes a if/then structures, in 
                             }
 
 
+.. _case-could-be-a-static-variable:
+
+Could Be A Static Variable
+##########################
+
+.. _case-dolphin-structures-couldbestatic:
+
+Dolphin
++++++++
+
+
+:ref:`could-be-a-static-variable`, in inc/utils.inc.php:673. 
+
+Dolphin pro relies on HTMLPurifier to handle cleaning of values : it is used to prevent xss threat. In this method, oHtmlPurifier is first checked, and if needed, created. Since creation is long and costly, it is only created once. Once the object is created, it is stored as a global to be accessible at the next call of the method. In fact, oHtmlPurifier is never used outside this method, so it could be turned into a 'static' variable, and prevent other methods to modify it. This is a typical example of variable that could be static instead of global. 
+
+.. code-block:: php
+   
+    function clear_xss($val)
+    {
+        // HTML Purifier plugin
+        global $oHtmlPurifier;
+        if (!isset($oHtmlPurifier) && !$GLOBALS['logged']['admin']) {
+    
+            require_once(BX_DIRECTORY_PATH_PLUGINS . 'htmlpurifier/HTMLPurifier.standalone.php');
+    
+    /..../
+    
+            $oHtmlPurifier = new HTMLPurifier($oConfig);
+        }
+    
+        if (!$GLOBALS['logged']['admin']) {
+            $val = $oHtmlPurifier->purify($val);
+        }
+    
+        $oZ = new BxDolAlerts('system', 'clear_xss', 0, 0,
+            array('oHtmlPurifier' => $oHtmlPurifier, 'return_data' => &$val));
+        $oZ->alert();
+    
+        return $val;
+    }
+
+
+.. _case-contao-structures-couldbestatic:
+
+Contao
+++++++
+
+
+:ref:`could-be-a-static-variable`, in system/helper/functions.php:184. 
+
+$arrScanCache is a typical cache variables. It is set as global for persistence between calls. If it contains an already stored answer, it is returned immediately. If it is not set yet, it is then filled with a value, and later reused. This global could be turned into static, and avoid pollution of global space. 
+
+.. code-block:: php
+   
+    function scan($strFolder, $blnUncached=false)
+    {
+    	global $arrScanCache;
+    
+    	// Add a trailing slash
+    	if (substr($strFolder, -1, 1) != '/')
+    	{
+    		$strFolder .= '/';
+    	}
+    
+    	// Load from cache
+    	if (!$blnUncached && isset($arrScanCache[$strFolder]))
+    	{
+    		return $arrScanCache[$strFolder];
+    	}
+    	$arrReturn = array();
+    
+    	// Scan directory
+    	foreach (scandir($strFolder) as $strFile)
+    	{
+    		if ($strFile == '.' || $strFile == '..')
+    		{
+    			continue;
+    		}
+    
+    		$arrReturn[] = $strFile;
+    	}
+    
+    	// Cache the result
+    	if (!$blnUncached)
+    	{
+    		$arrScanCache[$strFolder] = $arrReturn;
+    	}
+    
+    	return $arrReturn;
+    }
+
+
 .. _case-could-be-abstract-class:
 
 Could Be Abstract Class
@@ -1813,98 +1905,6 @@ The code includes a fair number of class constants. The one listed here are only
         const TEXT_REGULAR = 65535;
         const TEXT_MEDIUM  = 16777215;
         const TEXT_LONG    = 4294967295;
-
-
-.. _case-could-be-static:
-
-Could Be Static
-###############
-
-.. _case-dolphin-structures-couldbestatic:
-
-Dolphin
-+++++++
-
-
-:ref:`could-be-static`, in inc/utils.inc.php:673. 
-
-Dolphin pro relies on HTMLPurifier to handle cleaning of values : it is used to prevent xss threat. In this method, oHtmlPurifier is first checked, and if needed, created. Since creation is long and costly, it is only created once. Once the object is created, it is stored as a global to be accessible at the next call of the method. In fact, oHtmlPurifier is never used outside this method, so it could be turned into a 'static' variable, and prevent other methods to modify it. This is a typical example of variable that could be static instead of global. 
-
-.. code-block:: php
-   
-    function clear_xss($val)
-    {
-        // HTML Purifier plugin
-        global $oHtmlPurifier;
-        if (!isset($oHtmlPurifier) && !$GLOBALS['logged']['admin']) {
-    
-            require_once(BX_DIRECTORY_PATH_PLUGINS . 'htmlpurifier/HTMLPurifier.standalone.php');
-    
-    /..../
-    
-            $oHtmlPurifier = new HTMLPurifier($oConfig);
-        }
-    
-        if (!$GLOBALS['logged']['admin']) {
-            $val = $oHtmlPurifier->purify($val);
-        }
-    
-        $oZ = new BxDolAlerts('system', 'clear_xss', 0, 0,
-            array('oHtmlPurifier' => $oHtmlPurifier, 'return_data' => &$val));
-        $oZ->alert();
-    
-        return $val;
-    }
-
-
-.. _case-contao-structures-couldbestatic:
-
-Contao
-++++++
-
-
-:ref:`could-be-static`, in system/helper/functions.php:184. 
-
-$arrScanCache is a typical cache variables. It is set as global for persistence between calls. If it contains an already stored answer, it is returned immediately. If it is not set yet, it is then filled with a value, and later reused. This global could be turned into static, and avoid pollution of global space. 
-
-.. code-block:: php
-   
-    function scan($strFolder, $blnUncached=false)
-    {
-    	global $arrScanCache;
-    
-    	// Add a trailing slash
-    	if (substr($strFolder, -1, 1) != '/')
-    	{
-    		$strFolder .= '/';
-    	}
-    
-    	// Load from cache
-    	if (!$blnUncached && isset($arrScanCache[$strFolder]))
-    	{
-    		return $arrScanCache[$strFolder];
-    	}
-    	$arrReturn = array();
-    
-    	// Scan directory
-    	foreach (scandir($strFolder) as $strFile)
-    	{
-    		if ($strFile == '.' || $strFile == '..')
-    		{
-    			continue;
-    		}
-    
-    		$arrReturn[] = $strFile;
-    	}
-    
-    	// Cache the result
-    	if (!$blnUncached)
-    	{
-    		$arrScanCache[$strFolder] = $arrReturn;
-    	}
-    
-    	return $arrReturn;
-    }
 
 
 .. _case-could-be-static-closure:
@@ -2606,6 +2606,44 @@ The replacement with ``yield from``is not straigthforward here. Yield is only ca
     }
 
 
+.. _case-don't-mix-++:
+
+Don't Mix ++
+############
+
+.. _case-contao-structures-dontmixplusplus:
+
+Contao
+++++++
+
+
+:ref:`don't-mix-++`, in core-bundle/src/Resources/contao/drivers/DC_Table.php:1272. 
+
+Incrementing and multiplying at the same time.
+
+.. code-block:: php
+   
+    $this->Database->prepare("UPDATE " . $this->strTable . " SET sorting=? WHERE id=?")
+    		   ->execute(($count++ * 128), $objNewSorting->id);
+
+
+.. _case-typo3-structures-dontmixplusplus:
+
+Typo3
++++++
+
+
+:ref:`don't-mix-++`, in typo3/sysext/backend/Classes/Controller/SiteConfigurationController.php:74. 
+
+The post-increment is not readable at first glance.
+
+.. code-block:: php
+   
+    foreach ($row['rootline'] as &$record) {
+                    $record['margin'] = $i++ * 20;
+                }
+
+
 .. _case-don't-send-$this-in-constructor:
 
 Don't Send $this In Constructor
@@ -2723,44 +2761,6 @@ The property errorParams is emptied by unsetting it. The property is actually de
          * @var array
          */
         protected $errorParams = [];
-
-
-.. _case-dont-mix-++:
-
-Dont Mix ++
-###########
-
-.. _case-contao-structures-dontmixplusplus:
-
-Contao
-++++++
-
-
-:ref:`dont-mix-++`, in core-bundle/src/Resources/contao/drivers/DC_Table.php:1272. 
-
-Incrementing and multiplying at the same time.
-
-.. code-block:: php
-   
-    $this->Database->prepare("UPDATE " . $this->strTable . " SET sorting=? WHERE id=?")
-    		   ->execute(($count++ * 128), $objNewSorting->id);
-
-
-.. _case-typo3-structures-dontmixplusplus:
-
-Typo3
-+++++
-
-
-:ref:`dont-mix-++`, in typo3/sysext/backend/Classes/Controller/SiteConfigurationController.php:74. 
-
-The post-increment is not readable at first glance.
-
-.. code-block:: php
-   
-    foreach ($row['rootline'] as &$record) {
-                    $record['margin'] = $i++ * 20;
-                }
 
 
 .. _case-double-array\_flip():
@@ -3511,7 +3511,7 @@ Here, $advocateid may be directly read from ocsql_fetch_assoc(), although, check
    
     $advocateid = false;
     	if (isset($GLOBALS['OC_configAR']['OC_paperAdvocates']) && $GLOBALS['OC_configAR']['OC_paperAdvocates']) {
-    		$ar = ocsql_query(""SELECT `advocateid` FROM `"" . OCC_TABLE_PAPERADVOCATE . ""` WHERE `paperid`='"" . safeSQLstr($pid) . ""'"") or err('Unable to retrieve advocate');
+    		$ar = ocsql_query(SELECT `advocateid` FROM ` . OCC_TABLE_PAPERADVOCATE . ` WHERE `paperid`=' . safeSQLstr($pid) . ') or err('Unable to retrieve advocate');
     		if (ocsql_num_rows($ar) == 1) {
     			$al = ocsql_fetch_assoc($ar);
     			$advocateid = $al['advocateid'];
@@ -3913,8 +3913,8 @@ $request is used successively as an object (IXR_Request), then as a string (The 
     $request = new IXR_Request($method, $args);
             $length = $request->getLength();
             $xml = $request->getXml();
-            $r = "\r\n";
-            $request  = "POST {$this->path} HTTP/1.0$r";
+            $r = \r\n;
+            $request  = POST {$this->path} HTTP/1.0$r;
 
 
 .. _case-indices-are-int-or-string:
@@ -7562,9 +7562,9 @@ Simply calling print once is better than three times. Here too, echo usage would
 
 .. code-block:: php
    
-    print '<input type="text" name="quicksearch" value="'.$quicksearch.'" size="10" '.$pattern.' title="'.__('Minimum:').$min_chars.__('characters').'">';
-    			print ' <input type="submit" value="'.__('Search').'">';
-    		print "</form>";
+    print '<input type=text name=quicksearch value=.$quicksearch. size=10 '.$pattern.' title=.__(Minimum:).$min_chars.__(characters).>';
+    			print ' <input type=submit value=.__(Search).>';
+    		print </form>;
 
 
 .. _case-rethrown-exceptions:

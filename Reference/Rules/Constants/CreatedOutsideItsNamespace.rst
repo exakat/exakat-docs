@@ -10,6 +10,9 @@ Constants Created Outside Its Namespace
 Using the `define() <https://www.php.net/define>`_ function, it is possible to create constant outside their namespace, but using the fully qualified namespace.
 
 
+
+However, this makes the code confusing and difficult to debug. It is recommended to move the constant definition to its namespace.
+
 .. code-block:: php
    
    <?php
@@ -26,9 +29,6 @@ Using the `define() <https://www.php.net/define>`_ function, it is possible to c
    
    ?>
 
-
-However, this makes the code confusing and difficult to debug. It is recommended to move the constant definition to its namespace.
-
 Suggestions
 ___________
 
@@ -43,7 +43,7 @@ _____
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Constants/CreatedOutsideItsNamespace                                                                                    |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Analyze <ruleset-Analyze>`                                                              |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Analyze <ruleset-Analyze>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`          |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 0.8.4                                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

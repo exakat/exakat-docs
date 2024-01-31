@@ -5,8 +5,7 @@
 Comparison On Different Types
 +++++++++++++++++++++++++++++
 
-  This rule reports comparisons and spaceship operator that are used with distinct types. 
-
+  This rule reports comparisons and spaceship operator that are used with distinct types.
 
 .. code-block:: php
    
@@ -22,7 +21,7 @@ _____
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Php/ComparisonOnDifferentTypes                                                                                          |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Dump <ruleset-Dump>`                                                                    |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`, :ref:`Dump <ruleset-Dump>`                |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 2.5.3                                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

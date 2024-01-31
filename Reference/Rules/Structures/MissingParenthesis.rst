@@ -5,7 +5,9 @@
 Missing Parenthesis
 +++++++++++++++++++
 
-  Add parenthesis to those expressions to prevent bugs. In these expressions, the code is legit, but it might be not readable for a developer. 
+  Adding parenthesis to addition expressions make them more readable and to prevent bugs. 
+
+In the expressions below, the code is legit, although it is prone to misunderstanding.
 
 .. code-block:: php
    
@@ -18,11 +20,14 @@ Missing Parenthesis
        print "Is\n";
    }
    
-   // Could this addition be actually
+   // Could this addition be actually,
    $c = -$a + $b;
    
-   // This one ? 
+   // this one ? 
    $c = -($a + $b);
+   
+   // or this one ? 
+   $c = $b - $a;
    
    ?>
 
@@ -32,8 +37,7 @@ See also `Operators Precedence <https://www.php.net/manual/en/language.operators
 Suggestions
 ___________
 
-* Use compatible data type in both branch of the alternative
-* Turn the ternary into a if/then, with different processing
+* Use parenthesis to show intent in the addition expression
 
 
 
@@ -44,7 +48,7 @@ _____
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Structures/MissingParenthesis                                                                                                                                                           |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Analyze <ruleset-Analyze>`, :ref:`CE <ruleset-CE>`, :ref:`CI-checks <ruleset-CI-checks>`                                                                |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Analyze <ruleset-Analyze>`, :ref:`CE <ruleset-CE>`, :ref:`CI-checks <ruleset-CI-checks>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`            |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 1.2.6                                                                                                                                                                                   |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

@@ -10,6 +10,9 @@ Collect Property Usage
 In the example below, ``$p`` is used once. ``$q`` is used in two methods, while being used three times in total. 
 
 
+
+The level of usage of ``$p`` is now 1 / 2 = 0.5; The level of usage of ``$q`` is now 2 / 2 = 1.
+
 .. code-block:: php
    
    <?php
@@ -30,16 +33,13 @@ In the example below, ``$p`` is used once. ``$q`` is used in two methods, while 
    
    ?>
 
-
-The level of usage of ``$p`` is now 1 / 2 = 0.5; The level of usage of ``$q`` is now 2 / 2 = 1.
-
 Specs
 _____
 
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Dump/CollectPropertyUsage                                                                                               |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Dump <ruleset-Dump>`                                                                    |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`, :ref:`Dump <ruleset-Dump>`                |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 2.5.3                                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

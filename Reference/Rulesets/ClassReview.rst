@@ -5,7 +5,7 @@ Class Review
 
 This ruleset focuses on classes construction issues, and their related structures : traits, interfaces, methods, properties, constants.
 
-Total : 99 analysis
+Total : 100 analysis
 
 * :ref:`final-class-usage`
 * :ref:`final-methods-usage`
@@ -15,7 +15,7 @@ Total : 99 analysis
 * :ref:`redefined-property`
 * :ref:`useless-interfaces`
 * :ref:`could-be-class-constant`
-* :ref:`could-be-static`
+* :ref:`could-be-a-static-variable`
 * :ref:`no-self-referencing-constant`
 * :ref:`property-could-be-private`
 * :ref:`redefined-methods`
@@ -83,7 +83,7 @@ Total : 99 analysis
 * :ref:`wrong-type-with-default`
 * :ref:`same-name-for-property-and-method`
 * :ref:`magic-method-returntype-is-restricted`
-* :ref:`could-inject-param`
+* :ref:`could-inject-parameter`
 * :ref:`set-chaining-exception`
 * :ref:`useless-assignation-of-promoted-property`
 * :ref:`type-dodging`
@@ -106,6 +106,7 @@ Total : 99 analysis
 * :ref:`could-be-readonly-property`
 * :ref:`new-object-then-immediate-call`
 * :ref:`property-export`
+* :ref:`useless-nullsafe-operator`
 
 Specs
 _____

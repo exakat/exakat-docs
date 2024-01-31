@@ -5,7 +5,9 @@
 Unused Public Methods
 +++++++++++++++++++++
 
-  List unused public methods.
+  This rule lists unused public methods. 
+
+Unused public methods are declared as ``public`` in the class, but never called, including outside the class.
 
 .. code-block:: php
    
@@ -30,7 +32,7 @@ _____
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Classes/UnusedPublicMethod                                                                                              |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Analyze <ruleset-Analyze>`                                                              |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Analyze <ruleset-Analyze>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`          |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 2.4.9                                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

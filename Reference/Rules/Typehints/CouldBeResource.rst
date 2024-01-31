@@ -7,7 +7,6 @@ Typehints/CouldBeResource
 
 ``resource`` is an internal PHP type, and it should be a scalar type, yet it is not implement yet (as of PHP 8.2). It is still used as such by Exakat.
 
-
 .. code-block:: php
    
    <?php
@@ -28,7 +27,7 @@ _____
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Typehints/CouldBeResource                                                                                               |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Typechecks <ruleset-Typechecks>`                                                        |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`, :ref:`Typechecks <ruleset-Typechecks>`    |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 2.4.5                                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

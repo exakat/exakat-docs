@@ -8,6 +8,9 @@ No Private Abstract Method In Trait
   Method could not be both abstract and private in traits. This was changed in PHP 8.0 : the class might overwrite the trait's method, since it has precedence of it. And when the class doesn't overwrite it, then the class has an abstract method, and can't be instantiated. 
 
 
+
+This might be important for backward incompatibility, although it doesn't lint in previous versions.
+
 .. code-block:: php
    
    <?php
@@ -28,9 +31,6 @@ No Private Abstract Method In Trait
    
    
    ?>
-
-
-This might be important for backward incompatibility, although it doesn't lint in previous versions.
 
 See also `Abstract Trait Members <https://www.php.net/manual/en/language.oop5.traits.php#language.oop5.traits.abstract>`_.
 

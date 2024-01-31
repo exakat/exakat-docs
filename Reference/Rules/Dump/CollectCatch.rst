@@ -5,8 +5,7 @@
 Collect Catch Calls
 +++++++++++++++++++
 
-  This analysis collects all catch command usage, along with the `exception <https://www.php.net/exception>`_ caught and the calling method. 
-
+  This analysis collects all catch command usage, along with the `exception <https://www.php.net/exception>`_ caught and the calling method.
 
 .. code-block:: php
    
@@ -31,7 +30,7 @@ _____
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Dump/CollectCatch                                                                                                       |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Dump <ruleset-Dump>`                                                                    |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`, :ref:`Dump <ruleset-Dump>`                |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 2.5.3                                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

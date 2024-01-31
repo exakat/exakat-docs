@@ -1,46 +1,35 @@
-.. _exceptions-alreadycaught:
+.. _structures-fileputcontentsdatatype:
 
-.. _exception-order:
+.. _file\_put\_contents-using-array-argument:
 
-Exception Order
-+++++++++++++++
+File_Put_Contents Using Array Argument
+++++++++++++++++++++++++++++++++++++++
 
-  When catching `exception <https://www.php.net/exception>`_, the most specialized exceptions must be in the early catch, and the most general exceptions must be in the later catch. Otherwise, the general catches intercept the `exception <https://www.php.net/exception>`_, and the more specialized will not be read.
+  `file_put_contents() <https://www.php.net/file_put_contents>`_ accepts a second argument as an array, and stores it in the file with an implicit implode. This is a documented behavior, though it is rarely used.
 
 .. code-block:: php
    
    <?php
    
-   class A extends \Exception {}
-   class B extends A {}
+   file_put_contents('/tmp/file.txt', [1, 2, 3, 4]);
    
-   try {
-       throw new A();
-   } 
-   catch(A $a1) { }
-   catch(B $b2 ) { 
-       // Never reached, as previous Catch is catching the early worm
-   }
+   print file_get_contents('/tmp/file.txt'); 
+   // displays 1234
    
    ?>
 
-Suggestions
-___________
-
-* Remove one of the catch clause
-
-
+See also `file_put_contents() <https://www.php.net/file_put_contents>`_.
 
 
 Specs
 _____
 
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Short name   | Exceptions/AlreadyCaught                                                                                                |
+| Short name   | Structures/FilePutContentsDataType                                                                                      |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`, :ref:`Dead code <ruleset-Dead-code>`      |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Appinfo <ruleset-Appinfo>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`          |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Exakat since | 0.8.4                                                                                                                   |
+| Exakat since | 2.6.5                                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | PHP Version  | All                                                                                                                     |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
@@ -50,9 +39,7 @@ _____
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                    |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | exception                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Examples     | :ref:`case-woocommerce-exceptions-alreadycaught`                                                                        |
+| Features     | silent                                                                                                                  |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

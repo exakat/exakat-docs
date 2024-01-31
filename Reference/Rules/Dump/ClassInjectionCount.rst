@@ -5,8 +5,7 @@
 Class Injection Count
 +++++++++++++++++++++
 
-  Counts the number of arguments in the constructor. 
-
+  Counts the number of arguments in the constructor. Variadic arguments are counted as one. The more injections in a constructor, the harder it is to use it. Although, the threshold for difficulty is probably quite high.
 
 .. code-block:: php
    
@@ -26,7 +25,7 @@ _____
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Dump/ClassInjectionCount                                                                                                |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Dump <ruleset-Dump>`                                                                    |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`, :ref:`Dump <ruleset-Dump>`                |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 2.5.3                                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

@@ -1,9 +1,9 @@
 .. _structures-dontreuseforeachsource:
 
-.. _dont-reuse-foreach-source:
+.. _don't-reuse-foreach-source:
 
-Dont Reuse Foreach Source
-+++++++++++++++++++++++++
+Don't Reuse Foreach Source
+++++++++++++++++++++++++++
 
   It is dangerous to reuse the same variable inside a loop that use it as a source.
 

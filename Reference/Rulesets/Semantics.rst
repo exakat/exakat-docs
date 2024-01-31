@@ -41,7 +41,7 @@ Total : 35 analysis
 * :ref:`no-variable-needed`
 * :ref:`no-initial-s-in-variable-names`
 * :ref:`array-access-on-literal-array`
-* :ref:`dont-use-the-type-as-variable`
+* :ref:`don't-use-the-type-as-variable-name`
 
 Specs
 _____

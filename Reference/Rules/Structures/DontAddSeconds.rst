@@ -1,9 +1,9 @@
 .. _structures-dontaddseconds:
 
-.. _dont-add-seconds:
+.. _don't-add-seconds:
 
-Dont Add Seconds
-++++++++++++++++
+Don't Add Seconds
++++++++++++++++++
 
   Avoid adding seconds to a date, and use ``DateTime\:\:modify`` to add an interval. 
 

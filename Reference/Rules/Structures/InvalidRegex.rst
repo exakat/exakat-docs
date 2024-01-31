@@ -10,6 +10,11 @@ Invalid Regex
 Several reasons may lead to this situation : syntax `error <https://www.php.net/error>`_, Unknown modifier, missing parenthesis or reference.
 
 
+
+Regex are check with the Exakat version of PHP. 
+
+Dynamic regex are only checked for simple values. Dynamic values may eventually generate a compilation `error <https://www.php.net/error>`_.
+
 .. code-block:: php
    
    <?php
@@ -21,11 +26,6 @@ Several reasons may lead to this situation : syntax `error <https://www.php.net/
    preg_match('/[abc/', $string);
    
    ?>
-
-
-Regex are check with the Exakat version of PHP. 
-
-Dynamic regex are only checked for simple values. Dynamic values may eventually generate a compilation `error <https://www.php.net/error>`_.
 
 Suggestions
 ___________
@@ -41,7 +41,7 @@ _____
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Structures/InvalidRegex                                                                                                                                                                 |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Analyze <ruleset-Analyze>`, :ref:`CE <ruleset-CE>`, :ref:`CI-checks <ruleset-CI-checks>`                                                                |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Analyze <ruleset-Analyze>`, :ref:`CE <ruleset-CE>`, :ref:`CI-checks <ruleset-CI-checks>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`            |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 1.0.5                                                                                                                                                                                   |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

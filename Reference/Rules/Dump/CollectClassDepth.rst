@@ -5,8 +5,7 @@
 Collect Class Depth
 +++++++++++++++++++
 
-  Count the number of level of extends for classes.
-
+  This rule count the number of level of extends in classes. Each level is a depth level: the last child has that number of direct `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_, which are dependencies.
 
 .. code-block:: php
    
@@ -27,7 +26,7 @@ _____
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Dump/CollectClassDepth                                                                                                                                                                  |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`CE <ruleset-CE>`, :ref:`Dump <ruleset-Dump>`                                                                                                            |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`CE <ruleset-CE>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`, :ref:`Dump <ruleset-Dump>`                                                        |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 2.0.3                                                                                                                                                                                   |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

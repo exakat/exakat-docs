@@ -11,7 +11,6 @@ The analyzed code has less than 10% of one of them : for consistency reasons, it
 
 Note that `define() <https://www.php.net/define>`_ used to allow the creation of case-sensitive constants, but this is deprecated since PHP 7.3 and will be removed in PHP 8.0.
 
-
 .. code-block:: php
    
    <?php
@@ -40,7 +39,7 @@ _____
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Constants/DefineInsensitivePreference                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Preferences <ruleset-Preferences>`                                                      |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`, :ref:`Preferences <ruleset-Preferences>`  |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 1.3.8                                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

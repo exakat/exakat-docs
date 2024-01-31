@@ -5,8 +5,7 @@
 Could Typehint
 ++++++++++++++
 
-  Arguments that are tested with `instanceof <https://www.php.net/manual/en/language.operators.type.php>`_ gain from making it a Typehint.
-
+  Arguments that are tested with `instanceof <https://www.php.net/manual/en/language.operators.type.php>`_, `is_array() <https://www.php.net/is_array>`_, `is_string() <https://www.php.net/is_string>`_, etc. could be modernized with a typehint.
 
 .. code-block:: php
    
@@ -43,7 +42,7 @@ _____
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Functions/CouldTypehint                                                                                                 |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`                                                                                                |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`                                            |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 0.11.5                                                                                                                  |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

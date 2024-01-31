@@ -1,9 +1,9 @@
 .. _structures-dontchangeblindkey:
 
-.. _dont-change-the-blind-var:
+.. _don't-change-the-blind-var:
 
-Dont Change The Blind Var
-+++++++++++++++++++++++++
+Don't Change The Blind Var
+++++++++++++++++++++++++++
 
   When using a `foreach() <https://www.php.net/manual/en/control-structures.foreach.php>`_, the blind variables hold a copy of the original value. It is confusing to modify them, as it seems that the original value may be changed.
 

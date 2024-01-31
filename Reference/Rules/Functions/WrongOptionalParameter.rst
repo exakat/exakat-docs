@@ -10,25 +10,9 @@ Wrong Optional Parameter
 PHP parameters are optional when they defined with a default value, like this : 
 
 
-.. code-block:: php
-   
-   <?php
-       function x($arg = 1) {
-           // PHP code here
-       }
-   ?>
-
 
 When a function have both compulsory and optional parameters, the compulsory ones should appear first, and the optional should appear last : 
 
-
-.. code-block:: php
-   
-   <?php
-       function x($arg, $arg2 = 2) {
-           // PHP code here
-       }
-   ?>
 
 
 PHP solves this problem at runtime, assign values in the same other, but will miss some of the default values and emits warnings. 
@@ -36,6 +20,14 @@ PHP solves this problem at runtime, assign values in the same other, but will mi
 It is better to put all the optional parameters at the end of the method's signature.
 
 Optional parameter wrongly placed are now a Notice in PHP 8.0. The only previous case that is allowed in PHP 8.0 and also in this analysis, is when the ``null`` value is used as default for typed arguments.
+
+.. code-block:: php
+   
+   <?php
+       function x($arg = 1) {
+           // PHP code here
+       }
+   ?>
 
 See also `Function arguments <https://www.php.net/manual/en/functions.arguments.php>`_.
 

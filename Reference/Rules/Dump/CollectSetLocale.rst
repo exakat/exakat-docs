@@ -5,8 +5,7 @@
 Collect SetLocale
 +++++++++++++++++
 
-  Collect calls to `setlocale() <https://www.php.net/setlocale>`_'s second argument.
-
+  This rule collects the second argument to all the calls to `setlocale() <https://www.php.net/setlocale>`_. This gives an overview of the which special locales are used in the code.
 
 .. code-block:: php
    
@@ -22,7 +21,7 @@ _____
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Dump/CollectSetLocale                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Dump <ruleset-Dump>`                                                                    |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`, :ref:`Dump <ruleset-Dump>`                |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 2.5.1                                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

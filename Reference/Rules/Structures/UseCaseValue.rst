@@ -7,8 +7,7 @@ Use The Case Value
 
   When `switch() <https://www.php.net/manual/en/control-structures.switch.php>`_ has branched to the right case, the value of the switched variable is known : it is the case.
 
-This doesn't work with complex expression cases, nor with default. 
-
+This doesn't work with complex expression cases, nor with default.
 
 .. code-block:: php
    
@@ -42,7 +41,7 @@ _____
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Structures/UseCaseValue                                                                                                 |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Suggestions <ruleset-Suggestions>`                                                      |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`, :ref:`Suggestions <ruleset-Suggestions>`  |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 1.9.6                                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

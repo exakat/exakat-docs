@@ -9,8 +9,7 @@ Collect Local Variable Counts
 
 The count applies to functions, methods, closures and arrow functions. 
 
-Arguments and global variables are not counted. `Static <https://www.php.net/manual/en/language.oop5.static.php>`_ variables are. 
-
+Arguments and global variables are not counted. `Static <https://www.php.net/manual/en/language.oop5.static.php>`_ variables are.
 
 .. code-block:: php
    
@@ -33,7 +32,7 @@ _____
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Dump/CollectLocalVariableCounts                                                                                                                                                         |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`CE <ruleset-CE>`, :ref:`Dump <ruleset-Dump>`                                                                                                            |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`CE <ruleset-CE>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`, :ref:`Dump <ruleset-Dump>`                                                        |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 2.1.2                                                                                                                                                                                   |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

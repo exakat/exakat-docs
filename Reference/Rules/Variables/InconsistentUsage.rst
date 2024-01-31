@@ -7,7 +7,6 @@ Inconsistent Variable Usage
 
   Those variables are used in various and inconsistent ways. It is difficult to understand if they are an array, an object or a scalar variable.
 
-
 .. code-block:: php
    
    <?php
@@ -37,7 +36,7 @@ _____
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Variables/InconsistentUsage                                                                                             |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`                                                                                                |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`                                            |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 1.6.9                                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

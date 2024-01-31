@@ -11,7 +11,6 @@ Closures that makes use of the `$this <https://www.php.net/manual/en/language.oo
 
 Closures that makes use of the bindTo() method, to change the context of execution, also cannot use the `static <https://www.php.net/manual/en/language.oop5.static.php>`_ keyword. Even if `$this <https://www.php.net/manual/en/language.oop5.basic.php>`_ is not used in the `closure <https://www.php.net/`closure <https://www.php.net/closure>`_>`_, the `static <https://www.php.net/manual/en/language.oop5.static.php>`_ keyword prevents the call to bindTo().
 
-
 .. code-block:: php
    
    <?php
@@ -60,7 +59,7 @@ _____
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Functions/CannotUseStaticForClosure                                                                                     |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Analyze <ruleset-Analyze>`                                                              |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Analyze <ruleset-Analyze>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`          |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 2.2.2                                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

@@ -5,8 +5,7 @@
 Filter Not Raw
 ++++++++++++++
 
-  Report usage of filter functions with the ``FILTER_RAW_UNSAFE`` option. This option is the default one. 
-
+  Report usage of filter functions with the ``FILTER_RAW_UNSAFE`` option. This option is the default one.
 
 .. code-block:: php
    
@@ -34,7 +33,7 @@ _____
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Security/FilterNotRaw                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Security <ruleset-Security>`                                                            |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`, :ref:`Security <ruleset-Security>`        |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 2.5.1                                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

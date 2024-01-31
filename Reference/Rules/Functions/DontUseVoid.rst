@@ -1,9 +1,9 @@
 .. _functions-dontusevoid:
 
-.. _dont-collect-void:
+.. _don't-collect-void:
 
-Dont Collect Void
-+++++++++++++++++
+Don't Collect Void
+++++++++++++++++++
 
   When a method returns void, there is no need to collect the `result <https://www.php.net/result>`_. The collected value is always ``null``.
 

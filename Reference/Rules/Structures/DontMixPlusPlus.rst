@@ -1,9 +1,9 @@
 .. _structures-dontmixplusplus:
 
-.. _dont-mix-++:
+.. _don't-mix-++:
 
-Dont Mix ++
-+++++++++++
+Don't Mix ++
+++++++++++++
 
   ++ operators, pre and post, have two distinct behaviors, and should be used separately.
 

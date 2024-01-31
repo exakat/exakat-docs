@@ -6,11 +6,11 @@ Release Note
 
 Here is the release note of exakat. 
 
-**Version 2.6.5 (, 2024-01-11)**
+**Version 2.6.6 (, 2024-01-11)**
 
 
 + Architecture
-	+ Speed up Load with less arrays, more classes
+	+ 
 
 + Cobbler
     + 
@@ -24,6 +24,35 @@ Here is the release note of exakat.
 + Tokenizer
     + 
 
+**Version 2.6.5 (, 2024-01-11)**
+
+
++ Architecture
+	+ Added support for NEXT in Sequence, Method definition, Functioncall, concatenations
+
++ Cobbler
+    + 
+
++ Report
+    + 
+
++ Analysis
+	+ Refactored analysis : Structures/UselessTrailingComma handles method calls
+	+ Refactored analysis : Structures/UnreachableCode handles never returntype
+	+ Refactored analysis : Classes/AbstractOrImplements
+	+ Fixed analysis : Complete/ReturnType had a bug with Classanonymous
+	+ Refactored analysis : Variables/InconsistentUsage had a bug with Classanonymous
+	+ New analysis : report useless nullsafe operator usage
+	+ New analysis : report file_put_contents(, [])
+	+ New analysis : report nested match() calls
+	+ New analysis : report useless short ternary
+	+ New analysis : dump all combined method calls
+
++ Tokenizer
+    + Fixed display of ?-> inside strings
+    + Refactored Goto labels with a common atom between goto and labels
+    + Fixed minor errors with SEQUENCE (via NEXT)
+
 **Version 2.6.4 (, 2023-12-31)**
 
 
@@ -31,6 +60,7 @@ Here is the release note of exakat.
     + Moved assert configuration to ini_set and php.ini
     + Added a set of token values for Debian 12 and 8.3
     + Void is now a single atom in the graph (speed up, less resources)
+    + Speed up Load with less arrays, more classes
 
 + Analysis
 	+ New analysis : report PHP native attribute usage

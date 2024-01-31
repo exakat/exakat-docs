@@ -9,7 +9,6 @@ Collect Use Counts
 
 A high number of imports may signal a class that is doing to much.
 
-
 .. code-block:: php
    
    <?php

@@ -8,6 +8,9 @@ strpos() With Integers
   `strpos() <https://www.php.net/strpos>`_ used to accept integer as second argument, and turn them into their ASCII equivalent. This was deprecated in PHP 7.x, and dropped in 8.0.
 
 
+
+It is recommended to use casting to ensure the variable is actually strings, and `strpos() <https://www.php.net/strpos>`_ behaves as expected.
+
 .. code-block:: php
    
    <?php
@@ -17,9 +20,6 @@ strpos() With Integers
    // PHP 7.4- : 3, 32 is turned into space, then found
    
    ?>
-
-
-It is recommended to use casting to ensure the variable is actually strings, and `strpos() <https://www.php.net/strpos>`_ behaves as expected.
 
 Suggestions
 ___________

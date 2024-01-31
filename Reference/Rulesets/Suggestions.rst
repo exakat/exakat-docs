@@ -107,7 +107,7 @@ Total : 128 analysis
 * :ref:`declare-static-once`
 * :ref:`could-use-match`
 * :ref:`could-use-null-safe-object-operator`
-* :ref:`argument-could-be-iterable`
+* :ref:`this-could-be-iterable`
 * :ref:`multiple-similar-calls`
 * :ref:`could-be-ternary`
 * :ref:`use-file-append`

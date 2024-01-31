@@ -8,6 +8,9 @@ Could Use Existing Constant
   This rule reports literals that have the same value as a constant, and, as such, might be used as a constant, instead of a literal.
 
 
+
+Floats are not considered by this rule, for comparison reasons. Also, ``true``, ``false``, ``null``, 0 and 1 are also automatically excluded.
+
 .. code-block:: php
    
    <?php
@@ -17,9 +20,6 @@ Could Use Existing Constant
    $a = 1;
    
    ?>
-
-
-Floats are not considered by this rule, for comparison reasons. Also, ``true``, ``false``, ``null``, 0 and 1 are also automatically excluded.
 
 +---------------+---------+-------+------------------------------------------------------------------------------------------------------------------------+
 | Name          | Default | Type  | Description                                                                                                            |
@@ -44,7 +44,7 @@ _____
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Constants/CouldUseConstant                                                                                              |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Suggestions <ruleset-Suggestions>`                                                      |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`, :ref:`Suggestions <ruleset-Suggestions>`  |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 2.3.5                                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

@@ -5,7 +5,7 @@ All
 
 All is a dummy ruleset, which includes all the rules. It is mostly used internally.
 
-Total : 1629 analysis
+Total : 1632 analysis
 
 * :ref:`adding-zero`
 * :ref:`ambiguous-array-index`
@@ -475,7 +475,7 @@ Total : 1629 analysis
 * :ref:`reserved-keywords-in-php-7`
 * :ref:`unset-in-foreach`
 * :ref:`could-be-class-constant`
-* :ref:`could-be-static`
+* :ref:`could-be-a-static-variable`
 * :ref:`multiple-class-declarations`
 * :ref:`compare-hash`
 * :ref:`empty-namespace`
@@ -673,7 +673,7 @@ Total : 1629 analysis
 * :ref:`die-exit-consistence`
 * :ref:`array()---[--]-consistence`
 * :ref:`php-7.1-microseconds`
-* :ref:`dont-change-the-blind-var`
+* :ref:`don't-change-the-blind-var`
 * :ref:`getting-last-element`
 * :ref:`rethrown-exceptions`
 * :ref:`avoid-using-stdclass`
@@ -955,7 +955,7 @@ Total : 1629 analysis
 * :ref:`compared-but-not-assigned-strings`
 * :ref:`could-be-static-closure`
 * :ref:`move\_uploaded\_file-instead-of-copy`
-* :ref:`dont-mix-++`
+* :ref:`don't-mix-++`
 * :ref:`can't-throw-throwable`
 * :ref:`abstract-or-implements`
 * :ref:`ext-eio`
@@ -1224,7 +1224,7 @@ Total : 1629 analysis
 * :ref:`constant-order`
 * :ref:`php-8.0-variable-syntax-tweaks`
 * :ref:`new-functions-in-php-8.0`
-* :ref:`dont-collect-void`
+* :ref:`don't-collect-void`
 * :ref:`php-8.0-only-typehints`
 * :ref:`union-typehint`
 * :ref:`uninitialized-property`
@@ -1392,7 +1392,7 @@ Total : 1629 analysis
 * :ref:`could-use-null-safe-object-operator`
 * :ref:`cant-overload-constants`
 * :ref:`variable-is-a-local-constant`
-* :ref:`argument-could-be-iterable`
+* :ref:`this-could-be-iterable`
 * :ref:`intersection-typehint`
 * :ref:`abstract-class-constants`
 * :ref:`recycled-variables`
@@ -1404,7 +1404,7 @@ Total : 1629 analysis
 * :ref:`readonly-usage`
 * :ref:`missing-visibility`
 * :ref:`could-use-existing-constant`
-* :ref:`dont-reuse-foreach-source`
+* :ref:`don't-reuse-foreach-source`
 * :ref:`collect-dependency-extension`
 * :ref:`public-reach-to-private-methods`
 * :ref:`unreachable-method`
@@ -1424,7 +1424,7 @@ Total : 1629 analysis
 * :ref:`use-variable-created-inside-loop`
 * :ref:`string-interpolation-favorite`
 * :ref:`type-could-be-never`
-* :ref:`dont-add-seconds`
+* :ref:`don't-add-seconds`
 * :ref:`use-constants-as-returns`
 * :ref:`identical-variables-in-foreach`
 * :ref:`can't-overwrite-final-constant`
@@ -1494,7 +1494,7 @@ Total : 1629 analysis
 * :ref:`enum-case-values`
 * :ref:`random-extension`
 * :ref:`ip`
-* :ref:`could-inject-param`
+* :ref:`could-inject-parameter`
 * :ref:`ext-scrypt`
 * :ref:`ext-teds`
 * :ref:`geospatial`
@@ -1607,7 +1607,7 @@ Total : 1629 analysis
 * :ref:`static-variable-in-namespace`
 * :ref:`using-deprecated-feature`
 * :ref:`override`
-* :ref:`dont-use-the-type-as-variable`
+* :ref:`don't-use-the-type-as-variable-name`
 * :ref:`static-methods-cannot-call-non-static-methods`
 * :ref:`untyped-no-default-properties`
 * :ref:`trait-is-not-a-type`
@@ -1636,6 +1636,9 @@ Total : 1629 analysis
 * :ref:`wrong-precedence-in-expression`
 * :ref:`only-variable-passed-by-reference`
 * :ref:`property-export`
+* :ref:`file\_put\_contents-using-array-argument`
+* :ref:`useless-nullsafe-operator`
+* :ref:`structures-nestedmatch`
 
 Specs
 _____

@@ -5,8 +5,7 @@
 Defined Parent MP
 +++++++++++++++++
 
-  Check `static <https://www.php.net/manual/en/language.oop5.static.php>`_ calls with '`parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_'. 
-
+  Report when a `static <https://www.php.net/manual/en/language.oop5.static.php>`_ call with '`parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_' with `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ has an actual definition.
 
 .. code-block:: php
    
@@ -45,7 +44,7 @@ _____
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Classes/DefinedParentMP                                                                                                 |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`                                                                                                |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`                                            |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 0.8.4                                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

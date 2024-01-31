@@ -10,6 +10,11 @@ Recursive Functions
 Usually, the method call itself directly. In rarer occasions, the method calls another method which calls it back; such cycle are longer and not detected here.
 
 
+
+Functions, methods, arrow functions and closures are identified as recursive. Higher level of recursion are not detected (function a() calls function b(), calls function a(), etc.).
+
+Functions are easy to identify as recursive. Methods have some blind spots : when the injected argument is of the same class, it may lead to recursion too. On the other hand, calling the same method on a property is not sufficient, as the property might not be ``$this``.
+
 .. code-block:: php
    
    <?php
@@ -22,18 +27,13 @@ Usually, the method call itself directly. In rarer occasions, the method calls a
    }
    ?>
 
-
-Functions, methods, arrow functions and closures are identified as recursive. Higher level of recursion are not detected (function a() calls function b(), calls function a(), etc.).
-
-Functions are easy to identify as recursive. Methods have some blind spots : when the injected argument is of the same class, it may lead to recursion too. On the other hand, calling the same method on a property is not sufficient, as the property might not be ``$this``.
-
 Specs
 _____
 
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Functions/Recursive                                                                                                                                                                     |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Appinfo <ruleset-Appinfo>`, :ref:`CE <ruleset-CE>`                                                                                                      |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Appinfo <ruleset-Appinfo>`, :ref:`CE <ruleset-CE>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`                                                  |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 0.8.4                                                                                                                                                                                   |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

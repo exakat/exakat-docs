@@ -5,13 +5,12 @@ IsExt
 
 This is automatically filled, based on the documentation's isExt attribute.
 
-Total : 29 analysis
+Total : 28 analysis
 
 * :ref:`non-static-methods-called-in-a-static`
 * :ref:`static-methods-called-from-object`
 * :ref:`undefined-constants`
 * :ref:`defined-class-constants`
-* :ref:`undefined-class-constants`
 * :ref:`uses-default-values`
 * :ref:`wrong-number-of-arguments`
 * :ref:`unresolved-use`
@@ -29,7 +28,7 @@ Total : 29 analysis
 * :ref:`php-overridden-function`
 * :ref:`php-native-reference-variable`
 * :ref:`interfaces-is-not-implemented`
-* :ref:`dont-collect-void`
+* :ref:`don't-collect-void`
 * :ref:`array\_map()-passes-by-value`
 * :ref:`wrong-argument-name-with-php-function`
 * :ref:`undefined-enumcase`
