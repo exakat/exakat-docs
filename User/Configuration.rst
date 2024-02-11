@@ -546,6 +546,10 @@ Analyzers may be configured in the `project/*/config.ini`; they may also be conf
   + forbiddenClasses : 
 
     + List of classes to be avoided
+:ref:`Custom/MethodUsage <custom-methodusage>`
+  + searchFor : 
+
+    + Method to report in the codes : use static syntax to describe them : \a::foo(); \a\b\c::goo().
 :ref:`Duplicate Literal <duplicate-literal>`
   + minDuplicate : 15
 
@@ -565,13 +569,6 @@ Analyzers may be configured in the `project/*/config.ini`; they may also be conf
   + maxOverwrite : 8
 
     + Minimal number of method overwrite to consider that any refactor on the method signature is now hard.
-:ref:`Injectable Version <injectable-version>`
-  + injectableVersion : \injectableversion
-
-    + The FQN for the InjectableVersion attribute. By default, it is in the global space
-  + checkInjectableVersion : \checkinjectableversion
-
-    + The FQN for the CheckInjectableVersion attribute. By default, it is in the global space
 :ref:`Keep Files Access Restricted <keep-files-access-restricted>`
   + filePrivileges : 0777
 
@@ -600,18 +597,10 @@ Analyzers may be configured in the `project/*/config.ini`; they may also be conf
   + minMagicCallsToGet : 2
 
     + Minimal number of calls of a magic property to make it worth locally caching.
-:ref:`Method Usage <method-usage>`
-  + searchFor : 
-
-    + Method to report in the codes : use static syntax to describe them : \a::foo(); \a\b\c::goo().
 :ref:`Missing Include <missing-include>`
   + constant_or_variable_name : 100
 
     + Literal value to be used when including files. For example, by configuring 'Files_MissingInclude["HOME_DIR"] = "/tmp/myDir/";', then 'include HOME_DIR . "my_class.php"; will be actually be used as '/tmp/myDir/my_class.php'. Constants must be configured with their correct case. Variable must be configured with their initial '$'. Configure any number of variable and constant names.
-:ref:`Multiline Expressions <multiline-expressions>`
-  + min : 2
-
-    + Minimal number of lines in an expression to report.
 :ref:`Multiple Index Definition <multiple-index-definition>`
   + arrayMaxSize : 15000
 
@@ -624,10 +613,6 @@ Analyzers may be configured in the `project/*/config.ini`; they may also be conf
   + minNestedTernary : 2
 
     + Minimal number of nested ternary to report.
-:ref:`New On Functioncall Or Identifier <new-on-functioncall-or-identifier>`
-  + threshold : 10
-
-    + Maximal percentage for a syntax to be considered to be fixed.
 :ref:`PHP Keywords As Names <php-keywords-as-names>`
   + reservedNames : 
 

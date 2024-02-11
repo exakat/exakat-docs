@@ -121,6 +121,9 @@
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Php/Argon2Usage.html</loc>
  </url>
  <url>
+  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Classes/CouldBeIterable.html</loc>
+ </url>
+ <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Dump/ArgumentCountsPerCalls.html</loc>
  </url>
  <url>
@@ -307,12 +310,6 @@
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Classes/CantInstantiateClass.html</loc>
  </url>
  <url>
-  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Classes/CantOverwriteFinalConstant.html</loc>
- </url>
- <url>
-  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Classes/CantOverwriteFinalMethod.html</loc>
- </url>
- <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Exceptions/CantThrow.html</loc>
  </url>
  <url>
@@ -341,6 +338,12 @@
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Interfaces/CantOverloadConstants.html</loc>
+ </url>
+ <url>
+  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Classes/CantOverwriteFinalConstant.html</loc>
+ </url>
+ <url>
+  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Classes/CantOverwriteFinalMethod.html</loc>
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Php/CantUseReturnValueInWriteContext.html</loc>
@@ -374,9 +377,6 @@
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Exceptions/CatchE.html</loc>
- </url>
- <url>
-  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Classes/CheckAfterNullSafeOperator.html</loc>
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/CheckAllTypes.html</loc>
@@ -434,9 +434,6 @@
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Classes/CitSameName.html</loc>
- </url>
- <url>
-  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Functions/TypehintedReferences.html</loc>
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Classes/MutualExtension.html</loc>
@@ -733,9 +730,6 @@
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Dump/CouldBeAConstant.html</loc>
  </url>
  <url>
-  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/CouldBeStatic.html</loc>
- </url>
- <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Classes/CouldBeAbstractClass.html</loc>
  </url>
  <url>
@@ -793,13 +787,13 @@
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Classes/CouldBeProtectedProperty.html</loc>
  </url>
  <url>
-  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Classes/CouldBeReadonlyProperty.html</loc>
- </url>
- <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Typehints/CouldBeSelf.html</loc>
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/CouldBeSpaceship.html</loc>
+ </url>
+ <url>
+  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/CouldBeStatic.html</loc>
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Functions/CouldBeStaticClosure.html</loc>
@@ -827,9 +821,6 @@
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/CouldCastToArray.html</loc>
- </url>
- <url>
-  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Exceptions/CouldDropVariable.html</loc>
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Classes/CouldInjectParam.html</loc>
@@ -914,9 +905,6 @@
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/CouldUseStrrepeat.html</loc>
- </url>
- <url>
-  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/CouldUseStrContains.html</loc>
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Performances/CountToAppend.html</loc>
@@ -1075,19 +1063,10 @@
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Php/DeprecateDollarCurly.html</loc>
  </url>
  <url>
-  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/DontAddSeconds.html</loc>
- </url>
- <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/DontBeTooManual.html</loc>
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/NoChangeIncomingVariables.html</loc>
- </url>
- <url>
-  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/DontChangeBlindKey.html</loc>
- </url>
- <url>
-  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Functions/DontUseVoid.html</loc>
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Security/DontEchoError.html</loc>
@@ -1096,22 +1075,31 @@
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/DontLoopOnYield.html</loc>
  </url>
  <url>
-  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/DontMixPlusPlus.html</loc>
- </url>
- <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Php/DontPolluteGlobalSpace.html</loc>
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/DontReadAndWriteInOneExpression.html</loc>
  </url>
  <url>
-  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/DontReuseForeachSource.html</loc>
- </url>
- <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Classes/DontSendThisInConstructor.html</loc>
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Classes/DontUnsetProperties.html</loc>
+ </url>
+ <url>
+  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/DontAddSeconds.html</loc>
+ </url>
+ <url>
+  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/DontChangeBlindKey.html</loc>
+ </url>
+ <url>
+  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Functions/DontUseVoid.html</loc>
+ </url>
+ <url>
+  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/DontMixPlusPlus.html</loc>
+ </url>
+ <url>
+  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/DontReuseForeachSource.html</loc>
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/DontUseTheTypeAsVariable.html</loc>
@@ -1343,9 +1331,6 @@
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/FileUsage.html</loc>
- </url>
- <url>
-  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/FilePutContentsDataType.html</loc>
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Security/FilterNotRaw.html</loc>
@@ -1760,9 +1745,6 @@
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Php/Php81IntersectionTypehint.html</loc>
- </url>
- <url>
-  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/InvalidCast.html</loc>
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Constants/InvalidName.html</loc>
@@ -2323,9 +2305,6 @@
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/NewLineStyle.html</loc>
  </url>
  <url>
-  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Classes/NewThenCall.html</loc>
- </url>
- <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Classes/NewOnFunctioncallOrIdentifier.html</loc>
  </url>
  <url>
@@ -2429,9 +2408,6 @@
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Php/NoNullForNative.html</loc>
- </url>
- <url>
-  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Classes/NoNullWithNullSafeOperator.html</loc>
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/NoObjectAsIndex.html</loc>
@@ -2605,6 +2581,9 @@
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Type/OneVariableStrings.html</loc>
  </url>
  <url>
+  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Php/OnlyVariableForReference.html</loc>
+ </url>
+ <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/OnlyFirstByte.html</loc>
  </url>
  <url>
@@ -2615,9 +2594,6 @@
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Functions/OnlyVariablePassedByReference.html</loc>
- </url>
- <url>
-  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Php/OnlyVariablePassedByReference.html</loc>
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/OnlyVariableReturnedByReference.html</loc>
@@ -2957,9 +2933,6 @@
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Classes/CouldBePrivate.html</loc>
- </url>
- <url>
-  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Classes/ExportProperty.html</loc>
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Classes/PropertyInvasion.html</loc>
@@ -3460,9 +3433,6 @@
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Php/StrtrArguments.html</loc>
  </url>
  <url>
-  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/NestedMatch.html</loc>
- </url>
- <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/SubstrToTrim.html</loc>
  </url>
  <url>
@@ -3515,9 +3485,6 @@
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/TestThenCast.html</loc>
- </url>
- <url>
-  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Classes/CouldBeIterable.html</loc>
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Php/ThrowUsage.html</loc>
@@ -3619,9 +3586,6 @@
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Php/TryMultipleCatch.html</loc>
  </url>
  <url>
-  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Exceptions/TryNoCatch.html</loc>
- </url>
- <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Type/ArrayIndex.html</loc>
  </url>
  <url>
@@ -3634,9 +3598,6 @@
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Functions/TypeDodging.html</loc>
  </url>
  <url>
-  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Functions/TypehintMustBeReturned.html</loc>
- </url>
- <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Classes/TypedClassConstants.html</loc>
  </url>
  <url>
@@ -3646,7 +3607,13 @@
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Typehints/CouldBeIterable.html</loc>
  </url>
  <url>
+  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Functions/TypehintMustBeReturned.html</loc>
+ </url>
+ <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Dump/Typehintorder.html</loc>
+ </url>
+ <url>
+  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Functions/TypehintedReferences.html</loc>
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Dump/TypehintingStats.html</loc>
@@ -4129,9 +4096,6 @@
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/UselessNullCoalesce.html</loc>
  </url>
  <url>
-  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Classes/UselessNullSafeOperator.html</loc>
- </url>
- <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/UselessParenthesis.html</loc>
  </url>
  <url>
@@ -4277,9 +4241,6 @@
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Php/InternalParameterType.html</loc>
- </url>
- <url>
-  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/WrongPrecedenceInExpression.html</loc>
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/WrongRange.html</loc>

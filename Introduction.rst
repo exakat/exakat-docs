@@ -3,12 +3,12 @@
 Introduction
 ============
 
-This is the documentation of the Exakat engine, version 2.6.5 (Build 1502), on Fri, 12 Jan 2024 15:44:26 +0000.
+This is the documentation of the Exakat engine, version 2.5.2 (Build 1443), on Thu, 16 Feb 2023 09:53:14 +0000.
 
 What is Exakat ? 
 ----------------
 
-Exakat is a tool for analyzing, reporting and assessing PHP code source efficiently and systematically. Exakat processes PHP 5.2 to 7.4 and 8.3 code, as well as reporting on security, performance, code quality, migration. 
+Exakat is a tool for analyzing, reporting and assessing PHP code source efficiently and systematically. Exakat processes PHP 5.2 to 7.4 and 8.0 code, as well as reporting on security, performance, code quality, migration. 
 
 Exakat reads the code, builds an AST and several dependency graphs, then indexes all of it in a graph database. From there, exakat runs analysis, collecting potential errors and descriptive information about the code. Finally, exakat produces reports, both for humans and machines.
 
