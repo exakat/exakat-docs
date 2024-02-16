@@ -6,11 +6,11 @@ Release Note
 
 Here is the release note of exakat. 
 
-**Version 2.5.5 (, 2023-02-04)**
+**Version 2.6.7 (, 2024-01-11)**
 
 
 + Architecture
-    + 
+	+ 
 
 + Cobbler
     + 
@@ -19,22 +19,192 @@ Here is the release note of exakat.
     + 
 
 + Analysis
-    + 
+	+
 
 + Tokenizer
     + 
 
-**Version 2.5.4 (, 2023-02-04)**
+**Version 2.6.6 (, 2024-01-11)**
 
 
 + Architecture
-    + Refactored generation of VCS
+	+ 
+
++ Cobbler
+    + 
+
++ Report
+    + Ambassador : fixed documentation display of PHP scripts
+
++ Analysis
+	+ Refactored analysis : fixed bug in Missing New (confusion with property)
+	+ Augmented analysis : null coalesce and ?? with members
+	+ New analysis : useless coalesce operator
+	+ New analysis : report empty json_decode()
+
++ Tokenizer
+    + Made property inside a string with a Name, not a Identifier
+
+**Version 2.6.5 (, 2024-01-31)**
+
+
++ Architecture
+	+ Added support for NEXT in Sequence, Method definition, Functioncall, concatenations
 
 + Cobbler
     + 
 
 + Report
     + 
+
++ Analysis
+	+ Refactored analysis : Structures/UselessTrailingComma handles method calls
+	+ Refactored analysis : Structures/UnreachableCode handles never returntype
+	+ Refactored analysis : Classes/AbstractOrImplements
+	+ Fixed analysis : Complete/ReturnType had a bug with Classanonymous
+	+ Refactored analysis : Variables/InconsistentUsage had a bug with Classanonymous
+	+ New analysis : report useless nullsafe operator usage
+	+ New analysis : report file_put_contents(, [])
+	+ New analysis : report nested match() calls
+	+ New analysis : report useless short ternary
+	+ New analysis : dump all combined method calls
+
++ Tokenizer
+    + Fixed display of ?-> inside strings
+    + Refactored Goto labels with a common atom between goto and labels
+    + Fixed minor errors with SEQUENCE (via NEXT)
+
+**Version 2.6.4 (, 2023-12-31)**
+
+
++ Architecture
+    + Moved assert configuration to ini_set and php.ini
+    + Added a set of token values for Debian 12 and 8.3
+    + Void is now a single atom in the graph (speed up, less resources)
+    + Speed up Load with less arrays, more classes
+
++ Analysis
+	+ New analysis : report PHP native attribute usage
+	+ New analysis : check for injectable version, based on attribute declaration
+	+ New analysis : report multiple definition for the same property in a class family
+	+ Refactored analysis : multiply by one now reports +$a as a hidden cast.
+	+ New analysis : is_a() or instanceof favorite
+	+ Refactored analysis : Use Stdclass has extended coverage now
+	+ Refactored analysis : Undefined Classes includes Enum now
+	+ Refactored analysis : Pss outside a class include Enum now
+	+ New analysis : suggest using (array)
+	+ Refactored analysis : set class_alias() definitions
+	+ Refactored analysis : Could Use Null-safe operator now covers new situations
+	+ New analysis : check after nullsafe operator
+	+ New analysis : Don't use Null typed elements with a null-safe operator
+	+ New analysis : report invalid casts
+	+ New analysis : could use strcontains()
+	+ New analysis : suggest removing unused variable in catch
+	+ New analysis : suggest adding readonly to property
+	+ New analysis : spot calls just after an instantiation
+	+ New analysis: report try without catch but with finally
+	+ New analysis: report precedence errors with coalesce and comparisons
+	+ Refactored analysis : Cache Outside Loop was upgraded to spot cases in for, while and do while. 
+	+ Refactored analysis : Join On File is extended with the reverse: file_get_contents() with explode()
+	+ New analysis: report exported properties
+	+ Removed analysis: remove duplicate rule OnlyVariableForReference
+	+ New analysis: report literal passed by reference
+
++ Tokenizer
+    + Added CALLED link to new calls
+    + Fixed edgecases with match and readonly
+
+**Version 2.6.3 (, 2023-12-14)**
+
+
++ Analysis
+	+ New analysis : report non-static method called from static method
+	+ New analysis : report properties that are untyped, uninitialized, and no set in the constructor.
+	+ New analysis : report traits used in a type
+	+ New analysis : report short assignations on appends (should not be possible)
+	+ Updated analysis : report usage of static properties with ??= and other short assignations
+	+ New analysis : added support for the friend attribute
+	+ New analysis : report method names starting with __
+	+ New analysis : report $array[count($array)] append system
+	+ Updated analysis : unknown directive names cover more PHP functions and combinaisons
+	+ New analysis : report when void is returned by reference in a method
+	+ Updated analysis : Can Count Iterable was upgraded with types
+	+ New analysis : can't call a generator directly
+	+ New analysis : report useless trailing comma
+	+ Removed analysis : propagate calls (Complete)
+	+ New analysis : report non-int and non-string used as index in an array call
+	+ New analysis : report attempt to instantiate non-class (e, t, i)
+	+ Updated analysis : Too Many Variables in Method
+
++ Tokenizer
+    + Fixed bug with short assignment left operand not being marked as read as well as written
+    + Added fullnspath to Staticclass atom
+    + Added support for THROWN, CALLED, YIELDED links in methods
+
+**Version 2.6.2 (, 2023-11-21)**
+
+
++ Analysis
+    + New analysis : Casting Method Favorite
+    + Updated analysis : Ellipsis detection improved
+    + New analysis : report arrays that are used for append and direct index access at the same time
+    + New analysis : report get_class() and get_parent_class() without arguments
+    + Updated analysis : Literal inventory now reports float, array() and heredocs
+    + New analysis : report usage of advanced static variable initialisation
+    + New analysis : cannot be readonly
+    + New analysis : report triplet stats from the internal graph
+    + New analysis : report static variables outside a method
+    + Updated analysis : Missing types are now covering class constants too
+    + New analysis : report usage of Deprecated features (CITE, functions, parameters...)
+    + Updated analysis : Could Be Typed * now supports class constants
+    + New analysis : add support for #[Override] before PHP 8.3
+    + New analysis : report variables that use their type as name
+
+**Version 2.6.1 (, 2023-10-19)**
+
+
++ Cobbler
+    + New Cobbler : Logical to In_array() conversion
+
++ Analysis
+    + Updated analysis : Use same types for comparisons was refactored
+    + Updated analysis : Add Zero skips ?? and ?: when it is used to create default values
+    + Updated analysis : Implode() args order was refactored with type support
+    + New analysis : report multiline expressions
+    + New analysis : report usage of typed constants
+    + Updated analysis : sprintf() argument counts is improved
+    + Updated analysis : double instruction skips try, while, do while.
+    + Updated analysis : useless instruction refactored clone expressions
+    + Updated analysis : array Append in a list() call
+    + Updated analysis : written only variables now take into account isset() too
+    + Updated analysis : recursive functions don't report recursion via property or method call()
+    + Updated analysis : Shell favorite
+
+**Version 2.6.0 (, 2023-10-04)**
+
+
++ Architecture
+    + Refactored generation of VCS
+
++ Cobbler
+    + New cobbler : rename namespace
+    + New cobbler : rename function
+    + New cobbler : rename constant
+    + New cobbler : rename class
+    + New cobbler : rename interface
+    + New cobbler : rename enums
+    + New cobbler : rename trait
+    + New cobbler : rename method
+    + New cobbler : rename class constant
+    + New cobbler : rename property
+
++ Report
+    + Added Classes dependencies table to Ambassador
+    + Added Classes dependencies counts table to Ambassador
+    + Added Classes dependent counts table to Ambassador
+    + Added Namespaces to Exception tree
+    + Added list of repeated class names
+    + New report : Naming, that checks spelling 
 
 + Analysis
     + Updated analysis : Useless Null Coalesce now omits stdclass
@@ -43,18 +213,61 @@ Here is the release note of exakat.
     + Updated analysis : Fixed detection of use for functions and constants
     + Removed analysis : Removed 'Mark callable'
     + Updated analysis : Fixed detection of calls to __construct
+    + Updated analysis : Avoid Boolean as Argument sped up
+    + Updated analysis : Property Could Be Local sped up
+    + New analysis : Report blind variable used beyond their foreach() loop
+    + Updated analysis : Could Use Try has more exceptions sources
+    + New analysis : Report recalled conditions
+    + Updated analysis : Upgraded Classes depencencies list with attributes, New initializers and instanceof
+    + New analysis : Report incompatible property definition between trait and class
+    + Updated analysis : Deep definition now includes define() calls and enums
+    + Updated analysis : Collection of File dependencies now include interfaces
+    + Updated analysis : Fixed but in Could Be Spaceship
+    + Updated analysis : Upgraded 'unthrown exception' to handle variables
+    + New analysis : report usage of self:: on 
+    + New analysis : report usage of DNF
+    + Updated analysis : readonly usage covers classes and anonymous classes
+    + New analysis : report usage of FTN as standalone type 
+    + New analysis : Collect usage of throw and their method
+    + New analysis : Collect literals used in comparisons
+    + New analysis : Suggest using array_combine()
+    + New analysis : Report comparisons with distinct scalar types
+    + New analysis : reports null being used as array's index
+    + New analysis : collect all named things in the source code
+    + Updated analysis : isComponent also supports enum and declare
+    + New analysis : report useless Try clauses
+    + New analysis : report converted exceptions
+    + New analysis : report methods that are no more than a single if
+    + New analysis : suggest to ditch default before assigning it
+    + Updated analysis : Unset or Cast was refactored with less raw() calls
+    + Updated analysis : PPP declaration style
+    + New analysis : collect the number of injections in a constructor
+    + New analysis : collect the property usage level for each class
+    + New analysis : collect structures, instead of in dump
+    + New analysis : collect catch, to complete results with throw collect
+    + Updated analysis : report usage of standalone True, False, Null.
+    + New analysis : report identical cases in match and switch
+    + New analysis : report usage of constants in traits
+    + New analysis : preference between short and formal comparison
+    + New analysis : report yield that can be turned into a yield from
+    + New analysis : report usage of enum cases in static constant expressions
+    + New analysis : report modification of readonly properties in __clone() 
+    + New analysis : report usage of internal classes with class_alias()
+    + New analysis : report usage PHP 8.3 new dynamic 
+    + New analysis : static variables may be initialized with arbitrary expression in PHP 8.3
+    + New analysis : report when an interface's class constant visibility is not public when in the class 
+    + Updated analysis : upgraded pre-calculate used variable in closure
+    + Updated analysis : Insufficient typehint (extended coverage)
+    + New analysis : Report final trait method that are overwritten
 
 + Tokenizer
-    + 
+    + Added support for typed constants
+    + Checked support for readonly anonymous classes
+    + Fixed LINK in DNF types
+    + Added support for attributes in enum, trait, interface and enumcase
 
 **Version 2.5.2 (Wang Gui, 2023-02-04)**
 
-
-+ Architecture
-    + 
-
-+ Cobbler
-    + 
 
 + Report
     + New report : Format for SonarCube

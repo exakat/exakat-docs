@@ -1,0 +1,81 @@
+.. _classes-disconnectedclasses:
+
+.. _disconnected-classes:
+
+Disconnected Classes
+++++++++++++++++++++
+
+  One class is extending the other, but they do not use any features from one another. Basically, those two classes are using extends, but they are completely independent and may be separated. 
+
+When using the 'extends' keyword, the newly created classes are now acting together and making one. This should be visible in calls from one class to the other, or simply by property usage : they can't live without each other.
+
+On the other hand, two completely independent classes that are merged, although they should be kept separated.
+
+
+.. code-block:: php
+   
+   <?php
+   
+   class A {
+       private $pa = 1;
+       
+       function fooA() {
+           $this->pa = 2;
+       }
+   }
+   
+   // class B and Class A are totally independent
+   class B extends A {
+       private $pb = 1;
+       
+       function fooB() {
+           $this->pb = 2;
+       }
+   }
+   
+   
+   // class C makes use of class A : it is dependent on the parent class
+   class C extends A {
+       private $pc = 1;
+       
+       function fooB() {
+           $this->pc = 2 + $this->fooA();
+       }
+   }
+   ?>
+
+Suggestions
+___________
+
+* Remove the extension
+* Make actual usage of the classes, at least from one of them
+
+
+
+
+Specs
+_____
+
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Short name   | Classes/DisconnectedClasses                                                                                             |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Class Review <ruleset-Class-Review>`                                                    |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Exakat since | 1.8.9                                                                                                                   |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| PHP Version  | All                                                                                                                     |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Severity     | Minor                                                                                                                   |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Time To Fix  | Slow (1 hour)                                                                                                           |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Precision    | High                                                                                                                    |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Features     | class                                                                                                                   |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Examples     | :ref:`case-wordpress-classes-disconnectedclasses`                                                                       |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+
+

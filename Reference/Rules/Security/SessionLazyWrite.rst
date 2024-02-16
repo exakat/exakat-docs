@@ -1,0 +1,64 @@
+.. _security-sessionlazywrite:
+
+.. _session-lazy-write:
+
+Session Lazy Write
+++++++++++++++++++
+
+  Classes that implements `SessionHandlerInterface <https://www.php.net/sessionhandlerinterface>`_ must also implements `SessionUpdateTimestampHandlerInterface <https://www.php.net/sessionupdatetimestamphandlerinterface>`_. 
+
+The two extra methods are used to help lazy loading : the first actually checks if a sessionId is available, and the seconds updates the time of last usage of the session data in the session storage. 
+
+This was spotted by ``Nicolas Grekas``, and fixed in Symfony `[HttpFoundation] Make sessions `secure <https://www.php.net/secure>`_ and lazy #24523 <https://github.com/symfony/symfony/pull/24523>`_. 
+
+
+.. code-block:: php
+   
+   <?php
+   
+   interface SessionUpdateTimestampHandlerInterface {
+       // returns a boolean to indicate that valid data is available for this sessionId, or not.
+       function validateId($sessionId);
+       
+       //called to change the last time of usage for the session data.
+       //It may be a file's touch or full write, or a simple update on the database
+       function updateTimestamp($sessionId, $sessionData);
+   }
+   
+   ?>
+
+See also `Sessions: Improve original RFC about lazy_write <https://wiki.php.net/rfc/session-read_only-lazy_write>`_ and `Sessions <https://www.php.net/manual/en/book.session.php>`_.
+
+
+Suggestions
+___________
+
+* Implements the SessionUpdateTimestampHandlerInterface interface
+
+
+
+
+Specs
+_____
+
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Short name   | Security/SessionLazyWrite                                                                                               |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Security <ruleset-Security>`                                                            |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Exakat since | 0.12.15                                                                                                                 |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| PHP Version  | All                                                                                                                     |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Severity     | Major                                                                                                                   |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Time To Fix  | Slow (1 hour)                                                                                                           |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Precision    | High                                                                                                                    |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Features     | session                                                                                                                 |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+
+

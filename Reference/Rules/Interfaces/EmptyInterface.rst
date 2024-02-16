@@ -1,0 +1,65 @@
+.. _interfaces-emptyinterface:
+
+.. _empty-interfaces:
+
+Empty Interfaces
+++++++++++++++++
+
+  Empty interfaces are a code smell. Interfaces should contains at least a method or a constant, and not be totally empty.
+
+
+.. code-block:: php
+   
+   <?php
+   
+   // an empty interface
+   interface empty {}
+   
+   // an normal interface
+   interface normal {
+       public function i() ;
+   }
+   
+   // a constants interface
+   interface constantsOnly {
+       const FOO = 1;
+   }
+   
+   ?>
+
+See also `Empty interfaces are bad practice <https://r.je/empty-interfaces-bad-practice.html>`_ and `Blog : Are empty interfaces code smell? <https://hackernoon.com/are-interfaces-code-smell-bd19abc266d3>`_.
+
+
+Suggestions
+___________
+
+* Remove the interface
+* Add some methods or constants to the interface
+
+
+
+
+Specs
+_____
+
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Short name   | Interfaces/EmptyInterface                                                                                               |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Analyze <ruleset-Analyze>`                                                              |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Exakat since | 0.8.4                                                                                                                   |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| PHP Version  | All                                                                                                                     |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Severity     | Minor                                                                                                                   |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Time To Fix  | Instant (5 mins)                                                                                                        |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Precision    | High                                                                                                                    |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Features     | interface                                                                                                               |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+
+

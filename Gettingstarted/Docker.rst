@@ -1,7 +1,7 @@
 .. _Docker:
 
-with a Docker installation
-**************************
+Docker installation
+*******************
 
 Here are 2 tutorials to run Exakat on your code. You may install exakat with the projects folder, and centralize your audits in one place, or run exakat in-code, right from the source code. You may also run exakat with a bare-metal installation, or as a docker container.
 

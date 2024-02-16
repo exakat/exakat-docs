@@ -1,0 +1,71 @@
+.. _structures-uselesscheck:
+
+.. _useless-check:
+
+Useless Check
++++++++++++++
+
+  There is no need to check the size of an array content before using foreach. `Foreach() <https://www.php.net/manual/en/control-structures.foreach.php>`_ applies a test on the source, and skips the loop if no element is found.
+
+
+
+This analysis checks for conditions with `sizeof() <https://www.php.net/sizeof>`_ and `count() <https://www.php.net/count>`_. Conditions with `isset() <https://www.www.php.net/isset>`_ and empty() are omitted : they also check for the variable existence, and thus, offer extra coverage.
+
+.. code-block:: php
+   
+   <?php
+   
+   // Checking for type is good. 
+   if (is_array($array)) {
+       foreach($array as $a) {
+           doSomething($a);
+       }
+   }
+   
+   // Foreach on empty arrays doesn't start. Checking is useless
+   if (!empty($array)) {
+       foreach($array as $a) {
+           doSomething($a);
+       }
+   }
+   
+   ?>
+
+See also `foreach <https://www.php.net/manual/en/control-structures.foreach.php>`_.
+
+
+Suggestions
+___________
+
+* Drop the condition and the check
+* Turn the condition into isset(), empty() and is_array()
+
+
+
+
+Specs
+_____
+
++--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Short name   | Structures/UselessCheck                                                                                                                                                                 |
++--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Analyze <ruleset-Analyze>`, :ref:`CE <ruleset-CE>`, :ref:`CI-checks <ruleset-CI-checks>`                                                                |
++--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Exakat since | 0.8.9                                                                                                                                                                                   |
++--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| PHP Version  | All                                                                                                                                                                                     |
++--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Severity     | Minor                                                                                                                                                                                   |
++--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Time To Fix  | Instant (5 mins)                                                                                                                                                                        |
++--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Precision    | Very high                                                                                                                                                                               |
++--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Features     | validation                                                                                                                                                                              |
++--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Examples     | :ref:`case-magento-structures-uselesscheck`, :ref:`case-phinx-structures-uselesscheck`                                                                                                  |
++--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Community Edition <https://www.exakat.io/community-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
++--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+

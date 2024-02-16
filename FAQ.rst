@@ -11,12 +11,14 @@ Summary
 * `Can I clone with my ssh keys?`_
 * `After init, my project has no code!`_
 * `The project is too big`_
+* `The report XXX is not available`_
 * `Java Out Of Memory Error`_
 * `How can I run a very large project?`_
 * `Does exakat runs on Java 8?`_
 * `Where can I find the report`_
 * `Exakat only produces the default report`_
 * `Can I run exakat on local code?`_
+* `Can I run exakat on local code, without git or VCS?`_
 * `Can I ignore a dir or a file?`_
 * `Can I audit only one folder in vendor?`_
 * `Can I run Exakat with PHP 5?`_
@@ -102,6 +104,18 @@ If you need to run exakat on larger sources, you may change this value to make i
 
 It may be interesting to 'ignore_dir[]', from projects/<name>/config.ini. 
 
+`The report XXX is not available`_
+----------------------------------
+
+Some reports are available in the community edition, and others are in the cloud/enterprise editions. 
+
+The list of available reports are accessible via the command 'catalog', along with the Rules and Rulesets.
+
+::
+
+    php exakat catalog
+
+
 `Java Out Of Memory Error`_
 ---------------------------
 
@@ -167,6 +181,20 @@ There are several ways to do that : use symbolic links, make a copy of the sourc
     php exakat.phar init -p <your project name> -R <path/to/the/code> -symlink 
     php exakat.phar init -p <your project name> -R <path/to/the/code> -copy 
     php exakat.phar init -p <your project name> -R <path/to/the/code> -git 
+
+Symlink will branch exakat directly into the code; -copy makes a copy of the code (this means the code will never be updated without manual intervention); git (or other vcs) may also be used with local repositories. 
+
+Exakat do not modify any existing source code : it only access it for reading purpose, then works on a separated database. As a defensive security measure, we suggest that exakat should work on a read-only copy of the code. 
+
+`Can I run exakat on local code, without git or VCS?`_
+------------------------------------------------------
+
+There are several ways to do that : use symbolic links, make a copy of the source.
+
+::
+
+    php exakat.phar init -p <your project name> -R <path/to/the/code> -symlink 
+    php exakat.phar init -p <your project name> -R <path/to/the/code> -copy 
 
 Symlink will branch exakat directly into the code; -copy makes a copy of the code (this means the code will never be updated without manual intervention); git (or other vcs) may also be used with local repositories. 
 

@@ -1,0 +1,54 @@
+.. _structures-nestedmatch:
+
+.. _nested-match:
+
+Nested Match
+++++++++++++
+
+  Nested match calls makes the code difficult to read. It is recommended to avoid nesting match calls.
+
+.. code-block:: php
+   
+   <?php
+   
+   $a = match($b) {
+   	1 => 3,
+   	3 => 'ab',
+   	5 => match($c) {
+   		6 => new X,
+   		7 => [],
+   	}
+   	default => false,
+   };
+   
+   ?>
+
+Suggestions
+___________
+
+* Merge the two match() in one.
+* Replace the nested match call by a method call.
+
+
+
+
+Specs
+_____
+
++--------------+------------------------------------------------------------+
+| Short name   | Structures/NestedMatch                                     |
++--------------+------------------------------------------------------------+
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Analyze <ruleset-Analyze>` |
++--------------+------------------------------------------------------------+
+| Exakat since | 2.6.5                                                      |
++--------------+------------------------------------------------------------+
+| Severity     | Minor                                                      |
++--------------+------------------------------------------------------------+
+| Time To Fix  | Quick (30 mins)                                            |
++--------------+------------------------------------------------------------+
+| Precision    | Very high                                                  |
++--------------+------------------------------------------------------------+
+| Available in |                                                            |
++--------------+------------------------------------------------------------+
+
+

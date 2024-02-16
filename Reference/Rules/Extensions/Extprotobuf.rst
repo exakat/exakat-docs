@@ -1,0 +1,65 @@
+.. _extensions-extprotobuf:
+
+.. _ext-protobuf:
+
+ext/protobuf
+++++++++++++
+
+  Extension Protobuf.
+
+Protocol Buffers (a.k.a., protobuf) are Google's language-neutral, platform-neutral, extensible mechanism for serializing structured data. 
+
+
+.. code-block:: php
+   
+   <?php
+   
+   // Example extracted from https://developers.google.com/protocol-buffers/docs/reference/php-generated
+   
+   // given a simple message 
+   //message Foo {}
+   
+   /*
+   The protocol buffer compiler generates a PHP class called Foo. This class inherits from a common base class, Google\Protobuf\Internal\Message, which provides methods for encoding and decoding your message types, as shown in the following example:
+   */
+   
+   $from = new Foo();
+   $from->setInt32(1);
+   $from->setString('a');
+   $from->getRepeatedInt32()[] = 1;
+   $from->getMapInt32Int32()[1] = 1;
+   $data = $from->serializeToString();
+   try {
+     $to->mergeFromString($data);
+   } catch (Exception $e) {
+     // Handle parsing error from invalid data.
+     ...
+   }
+   
+   ?>
+
+See also `Protocol Buffers <https://developers.google.com/protocol-buffers>`_, `PHP Protocol Buffers <https://github.com/protocolbuffers/protobuf>`_ and `protobuf-php on packagist <https://github.com/protocolbuffers/protobuf-php>`_.
+
+
+Specs
+_____
+
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Short name   | Extensions/Extprotobuf                                                                                                  |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Appinfo <ruleset-Appinfo>`                                                              |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Exakat since | 0.8.4                                                                                                                   |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| PHP Version  | With PHP 7.0 and more recent                                                                                            |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Severity     | Minor                                                                                                                   |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Time To Fix  | Quick (30 mins)                                                                                                         |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Precision    | Very high                                                                                                               |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+
+

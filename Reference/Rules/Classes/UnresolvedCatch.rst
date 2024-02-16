@@ -1,0 +1,67 @@
+.. _classes-unresolvedcatch:
+
+.. _unresolved-catch:
+
+Unresolved Catch
+++++++++++++++++
+
+  Catch clauses do not check for `Exception <https://www.php.net/exception>`_ existence. 
+
+Catch clauses check that the emitted expression is of the requested Class, but if that class doesn't exist in the code, the catch clause is always false. This is dead code.
+
+
+.. code-block:: php
+   
+   <?php
+   
+   try {
+       // doSomething()
+   } catch {TypoedExxeption $e) { // Do not exist Exception
+       // Fix this exception
+   } catch {Stdclass $e) {        // Exists, but is not an exception
+       // Fix this exception
+   } catch {Exception $e) {        // Actual and effective catch
+       // Fix this exception
+   }
+   ?>
+
+See also `PHP Try Catch: Basics & Advanced PHP Exception Handling Tutorial <https://stackify.com/php-try-catch-php-exception-tutorial/>`_ and `Silent failure to catch exceptions in PHP <http://yakhairsurplus.com/silent-filure-to-catch-exceptions-in-php/>`_.
+
+
+Suggestions
+___________
+
+* Fix the name of the exception
+* Remove the catch clause
+* Add a use expression with a valid name
+* Create/import the missing exception
+
+
+
+
+Specs
+_____
+
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Short name   | Classes/UnresolvedCatch                                                                                                 |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Dead code <ruleset-Dead-code>`                                                          |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Exakat since | 0.8.4                                                                                                                   |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| PHP Version  | All                                                                                                                     |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Severity     | Major                                                                                                                   |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Time To Fix  | Quick (30 mins)                                                                                                         |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Precision    | High                                                                                                                    |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Features     | try-catch                                                                                                               |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| ClearPHP     | `no-unresolved-catch <https://github.com/dseguy/clearPHP/tree/master/rules/no-unresolved-catch.md>`__                   |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+
+

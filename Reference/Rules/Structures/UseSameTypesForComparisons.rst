@@ -1,0 +1,73 @@
+.. _structures-usesametypesforcomparisons:
+
+.. _use-same-types-for-comparisons:
+
+Use Same Types For Comparisons
+++++++++++++++++++++++++++++++
+
+  Beware when using inequality operators that the type of the values are the same on both sites of the operators.
+
+Different types may lead to PHP type juggling, where the values are first cast to one of the used types. Other comparisons are always failing, leading to unexpected behavior.
+
+This applies to all inequality operators, as well as the spaceship operator. 
+
+
+
+This analysis skips comparisons between integers, floats and strings, as those are usually expected.
+
+Thanks to `Jordi Boggiano <https://twitter.com/seldaek>`_ and `Filippo Tessarotto <https://twitter.com/slamzoe>`_.
+
+.. code-block:: php
+   
+   <?php
+   
+   // Both are wrong, while one should be true (depending on when you read this)
+   var_dump('1995-06-08' < new DateTimeImmutable());
+   var_dump('1995-06-08' > new DateTimeImmutable());
+   
+   enum x : int {
+       case A = 1;
+       case B = 2;
+   }
+   
+   // Both are false as objects are compared, not their integer value
+   var_dump(x::A < x::B);
+   var_dump(x::A > x::B);
+   
+   var_dump(x::A->value < x::b->value);
+   var_dump(x::A->value > x::b->value);
+   
+   ?>
+
+Suggestions
+___________
+
+* Make sure that the same time
+
+
+
+
+Specs
+_____
+
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Short name   | Structures/UseSameTypesForComparisons                                                                                   |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Analyze <ruleset-Analyze>`                                                              |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Exakat since | 2.4.2                                                                                                                   |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| PHP Version  | All                                                                                                                     |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Severity     | Minor                                                                                                                   |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Time To Fix  | Quick (30 mins)                                                                                                         |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Precision    | Very high                                                                                                               |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Features     | inequality, enum-case, type-juggling                                                                                    |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+
+

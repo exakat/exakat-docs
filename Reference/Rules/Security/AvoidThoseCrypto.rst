@@ -1,0 +1,68 @@
+.. _security-avoidthosecrypto:
+
+.. _avoid-those-hash-functions:
+
+Avoid Those Hash Functions
+++++++++++++++++++++++++++
+
+  The following cryptography algorithms are considered insecure, and should be replaced with new and more modern algorithms. 
+
+``MD2``, ``MD4``, ``MD5``, ``SHA0``, ``SHA1``, ``CRC``, ``DES``, ``3DES``, ``RC2``, ``RC4``. 
+
+When possible, avoid using them, may it be as PHP functions, or hashing function configurations (mcrypt, hash...).
+
+
+.. code-block:: php
+   
+   <?php
+   
+   // Weak cryptographic algorithm
+   echo md5('The quick brown fox jumped over the lazy dog.');
+   
+   // Weak cryptographic algorthim, used with a modern PHP extension (easier to update)
+   echo hash('md5', 'The quick brown fox jumped over the lazy dog.');
+   
+   // Strong cryptographic algorthim, used with a modern PHP extension
+   echo hash('sha156', 'The quick brown fox jumped over the lazy dog.');
+   
+   ?>
+
+
+Weak cryptography is commonly used for hashing values when caching them. In such cases, security is not a primary concern. However, it may later become such, when hackers get access to the cache folders, or if the cached identifier is published. As a preventive protection, it is recommended to always use a `secure <https://www.php.net/secure>`_ hashing function.
+
+See also `Secure Hash Algorithms <https://en.wikipedia.org/wiki/Secure_Hash_Algorithms>`_.
+
+
+Suggestions
+___________
+
+* Keep the current crypto, and add a call to a stronger one. 
+* Change the crypto for a more modern one and update the related databases
+
+
+
+
+Specs
+_____
+
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Short name   | Security/AvoidThoseCrypto                                                                                               |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Security <ruleset-Security>`                                                            |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Exakat since | 0.8.4                                                                                                                   |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| PHP Version  | All                                                                                                                     |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Severity     | Major                                                                                                                   |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Time To Fix  | Quick (30 mins)                                                                                                         |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Precision    | Very high                                                                                                               |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Features     | hash                                                                                                                    |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+
+
