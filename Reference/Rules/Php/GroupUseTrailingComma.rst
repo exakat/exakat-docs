@@ -9,7 +9,6 @@ Group Use Trailing Comma
 
 Although this empty instruction is ignored at execution, this allows for clean presentation of code, and short diff when committing in a VCS.
 
-
 .. code-block:: php
    
    <?php

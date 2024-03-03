@@ -9,7 +9,6 @@ Use array_slice()
 
 `array_splice() <https://www.php.net/array_splice>`_ is also available, to remove a portion of array inside the array, not at the ends. This has no simple equivalent for strings.
 
-
 .. code-block:: php
    
    <?php

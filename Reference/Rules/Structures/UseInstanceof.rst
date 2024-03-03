@@ -9,7 +9,6 @@ Avoid get_class()
 
 ``get_class()`` only compares the full namespace name of the object's class, while ``instanceof`` actually resolves the name, using the local namespace and aliases.
 
-
 .. code-block:: php
    
    <?php

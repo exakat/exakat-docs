@@ -10,20 +10,6 @@ Mbstring Unknown Encodings
 For example, `mb_chr() <https://www.php.net/mb_chr>`_ requires encoding as second parameter. The supported encodings are available with `mb_list_encodings() <https://www.php.net/mb_list_encodings>`_ and `mb_encoding_aliases() <https://www.php.net/mb_encoding_aliases>`_.
 
 A wrong encoding generates a fatal `error <https://www.php.net/error>`_.
-
-
-.. code-block:: php
-   
-   <?php
-   
-   	print mb_chr(128024, 'UTF-8')); // emoji of an elephant
-   
-   	//Argument #2 ($encoding) must be a valid encoding, "elephpant" given 
-   	print mb_chr($value, 'elephpant')); 
-   }
-   ?>
-
-
 Here are some of the dropped encodings, depending on PHP versions: 
 
 + PHP 7.0
@@ -43,6 +29,17 @@ Here are some of the dropped encodings, depending on PHP versions:
   	+ base64
   	+ uuencode
   	+ html-entities
+
+.. code-block:: php
+   
+   <?php
+   
+   	print mb_chr(128024, 'UTF-8')); // emoji of an elephant
+   
+   	//Argument #2 ($encoding) must be a valid encoding, "elephpant" given 
+   	print mb_chr($value, 'elephpant')); 
+   }
+   ?>
 
 Suggestions
 ___________

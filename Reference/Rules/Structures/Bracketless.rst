@@ -8,7 +8,7 @@ Bracketless Blocks
   PHP allows one liners as `for() <https://www.php.net/manual/en/control-structures.for.php>`_, `foreach() <https://www.php.net/manual/en/control-structures.foreach.php>`_, `while() <https://www.php.net/manual/en/control-structures.while.php>`_, do/`while() <https://www.php.net/manual/en/control-structures.while.php>`_ loops, or as then/else expressions. 
 
 It is generally considered a bad practice, as readability is lower and there are non-negligible risk of excluding from the loop the next instruction.
-
+`switch() <https://www.php.net/manual/en/control-structures.switch.php>`_ and `match() <https://www.php.net/manual/en/control-structures.match.php>`_ cannot be without bracket.
 
 .. code-block:: php
    
@@ -23,9 +23,6 @@ It is generally considered a bad practice, as readability is lower and there are
    }
    
    ?>
-
-
-`switch() <https://www.php.net/manual/en/control-structures.switch.php>`_ and `match() <https://www.php.net/manual/en/control-structures.match.php>`_ cannot be without bracket.
 
 Suggestions
 ___________

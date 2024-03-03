@@ -6,7 +6,7 @@ Rules
 Introduction
 ------------------------
 
-Exakat provides unique 1638 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
+Exakat provides unique 1640 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
 
 Each rule is documented with code example to allow you to remediate your code. If you want to automate remediation, ours cobblers can are there to fix the issues in your code for your.  
 
@@ -124,7 +124,6 @@ List of Rules
    Rules/Exceptions/CantThrow.rst
    Rules/Classes/CancelCommonMethod.rst
    Rules/Functions/CancelledParameter.rst
-   Rules/Classes/CannotBeReadonly.rst
    Rules/Traits/CannotCallTraitMethod.rst
    Rules/Structures/CannotUseAppendForReading.rst
    Rules/Functions/CannotUseStaticForClosure.rst
@@ -324,6 +323,7 @@ List of Rules
    Rules/Classes/ShouldUseSelf.rst
    Rules/Structures/CouldUseStrrepeat.rst
    Rules/Structures/CouldUseStrContains.rst
+   Rules/Structures/CountIsNotNegative.rst
    Rules/Performances/CountToAppend.rst
    Rules/Patterns/CourrierAntiPattern.rst
    Rules/Php/Crc32MightBeNegative.rst
@@ -447,6 +447,7 @@ List of Rules
    Rules/Functions/ExceedingTypehint.rst
    Rules/Exceptions/AlreadyCaught.rst
    Rules/Extensions/Extexcimer.rst
+   Rules/Php/ExitNoArg.rst
    Rules/Structures/ExitUsage.rst
    Rules/Functions/KillsApp.rst
    Rules/Php/ExponentUsage.rst
@@ -1004,6 +1005,7 @@ List of Rules
    Rules/Classes/PromotedProperties.rst
    Rules/Complete/PropagateConstants.rst
    Rules/Classes/PPPDeclarationStyle.rst
+   Rules/Classes/CannotBeReadonly.rst
    Rules/Classes/PropertyCouldBeLocal.rst
    Rules/Classes/CouldBePrivate.rst
    Rules/Classes/ExportProperty.rst
@@ -1665,7 +1667,9 @@ List of analyzers, by version of introduction, newest to oldest. In parenthesis,
 
 * 2.6.6
 
+  * :ref:`Count() Is Not Negative <count()-is-not-negative>`
   * :ref:`Empty Json Error <empty-json-error>`
+  * :ref:`Exit Without Argument <exit-without-argument>`
   * :ref:`Useless Coalesce <useless-coalesce>`
 
 * 2.6.5
@@ -1717,11 +1721,11 @@ List of analyzers, by version of introduction, newest to oldest. In parenthesis,
 * 2.6.1
 
   * :ref:`Append And Assign Arrays <append-and-assign-arrays>`
-  * :ref:`Cannot Be Readonly <cannot-be-readonly>`
   * :ref:`Collect Graph Triplets <collect-graph-triplets>`
   * :ref:`Favorite Casting Method <favorite-casting-method>`
   * :ref:`Multiline Expressions <multiline-expressions>`
   * :ref:`Override <override>`
+  * :ref:`Property Cannot Be Readonly <property-cannot-be-readonly>`
   * :ref:`Static Variable In Namespace <static-variable-in-namespace>`
   * :ref:`Static Variable Initialisation <static-variable-initialisation>`
   * :ref:`Using Deprecated Feature <using-deprecated-feature>`
@@ -3961,7 +3965,6 @@ Directory by PHP Function
       + :ref:`Avoid Large Array Assignation <avoid-large-array-assignation>`
       + :ref:`Avoid Optional Properties <avoid-optional-properties>`
       + :ref:`Avoid option arrays in constructors <avoid-option-arrays-in-constructors>`
-      + :ref:`Cannot Be Readonly <cannot-be-readonly>`
       + :ref:`Cannot Use Static For Closure <cannot-use-static-for-closure>`
       + :ref:`Check On __Call Usage <check-on-\_\_call-usage>`
       + :ref:`Checks Property Existence <checks-property-existence>`
@@ -4024,6 +4027,7 @@ Directory by PHP Function
       + :ref:`Non Nullable Getters <non-nullable-getters>`
       + :ref:`Non Static Methods Called In A Static <non-static-methods-called-in-a-static>`
       + :ref:`Parent First <parent-first>`
+      + :ref:`Property Cannot Be Readonly <property-cannot-be-readonly>`
       + :ref:`Property Could Be Local <property-could-be-local>`
       + :ref:`Property Could Be Private <property-could-be-private>`
       + :ref:`Property Export <property-export>`
@@ -4611,6 +4615,7 @@ Directory by PHP Function
     + `Countable`
 
       + :ref:`Can't Count Non-Countable <can't-count-non-countable>`
+      + :ref:`Count() Is Not Negative <count()-is-not-negative>`
       + :ref:`PHP Interfaces <php-interfaces>`
       + :ref:`PHP Native Interfaces and Return Type <php-native-interfaces-and-return-type>`
       + :ref:`Use is_countable <use-is\_countable>`
@@ -4878,6 +4883,7 @@ Directory by PHP Function
       + :ref:`$this Is Not For Static Methods <$this-is-not-for-static-methods>`
       + :ref:`Always Positive Comparison <always-positive-comparison>`
       + :ref:`Cache Variable Outside Loop <cache-variable-outside-loop>`
+      + :ref:`Count() Is Not Negative <count()-is-not-negative>`
       + :ref:`Count() To Array Append <count()-to-array-append>`
       + :ref:`Empty Array Detection <empty-array-detection>`
       + :ref:`No Count With 0 <no-count-with-0>`
@@ -5158,6 +5164,7 @@ Directory by PHP Function
       + :ref:`Don't Echo Error <don't-echo-error>`
       + :ref:`Environment Variables <environment-variables>`
       + :ref:`Error Messages <error-messages>`
+      + :ref:`Exit Without Argument <exit-without-argument>`
       + :ref:`Exit() Usage <exit()-usage>`
       + :ref:`Exit-like Methods <exit-like-methods>`
       + :ref:`Implied If <implied-if>`
@@ -5317,6 +5324,7 @@ Directory by PHP Function
       + :ref:`Inclusion Wrong Case <inclusion-wrong-case>`
       + :ref:`Inherited Class Constant Visibility <inherited-class-constant-visibility>`
       + :ref:`Invalid Cast <invalid-cast>`
+      + :ref:`New Functions In PHP 8.3 <new-functions-in-php-8.3>`
       + :ref:`No Return For Generator <no-return-for-generator>`
       + :ref:`PHP 7.0 New Classes <php-7.0-new-classes>`
       + :ref:`Print And Die <print-and-die>`
@@ -5442,7 +5450,6 @@ Directory by PHP Function
       + :ref:`Can't Count Non-Countable <can't-count-non-countable>`
       + :ref:`Can't Extend Final <can't-extend-final>`
       + :ref:`Can't Throw Throwable <can't-throw-throwable>`
-      + :ref:`Cannot Be Readonly <cannot-be-readonly>`
       + :ref:`Cannot Use Append For Reading <cannot-use-append-for-reading>`
       + :ref:`Cant Inherit Abstract Method <cant-inherit-abstract-method>`
       + :ref:`Cant Use Return Value In Write Context <cant-use-return-value-in-write-context>`
@@ -5538,6 +5545,7 @@ Directory by PHP Function
       + :ref:`Parent, Static Or Self Outside Class <parent,-static-or-self-outside-class>`
       + :ref:`Possible TypeError <possible-typeerror>`
       + :ref:`Printf Number Of Arguments <printf-number-of-arguments>`
+      + :ref:`Property Cannot Be Readonly <property-cannot-be-readonly>`
       + :ref:`Raised Access Level <raised-access-level>`
       + :ref:`Redefined Private Property <redefined-private-property>`
       + :ref:`Restrict Global Usage <restrict-global-usage>`
@@ -5690,6 +5698,7 @@ Directory by PHP Function
       + :ref:`Don't Echo Error <don't-echo-error>`
       + :ref:`Else Usage <else-usage>`
       + :ref:`Error Messages <error-messages>`
+      + :ref:`Exit Without Argument <exit-without-argument>`
       + :ref:`Exit() Usage <exit()-usage>`
       + :ref:`Exit-like Methods <exit-like-methods>`
       + :ref:`Never Typehint Usage <never-typehint-usage>`
@@ -6105,6 +6114,7 @@ Directory by PHP Function
 
       + :ref:`Can't Call Generator <can't-call-generator>`
       + :ref:`Could Be Generator <could-be-generator>`
+      + :ref:`Could Use Yield From <could-use-yield-from>`
       + :ref:`Don't Loop On Yield <don't-loop-on-yield>`
       + :ref:`Generator Cannot Return <generator-cannot-return>`
       + :ref:`Is Generator <is-generator>`
@@ -7514,6 +7524,7 @@ Directory by PHP Function
       + :ref:`Check All Types <check-all-types>`
       + :ref:`Check JSON <check-json>`
       + :ref:`Coalesce And Ternary Operators Order <coalesce-and-ternary-operators-order>`
+      + :ref:`Empty Slots In Arrays <empty-slots-in-arrays>`
       + :ref:`Hidden Nullable Typehint <hidden-nullable-typehint>`
       + :ref:`Method Property Confusion <method-property-confusion>`
       + :ref:`No Max On Empty Array <no-max-on-empty-array>`
@@ -8466,6 +8477,7 @@ Directory by PHP Function
       + :ref:`Possible Infinite Loop <possible-infinite-loop>`
       + :ref:`Possible Missing Subpattern <possible-missing-subpattern>`
       + :ref:`Property Export <property-export>`
+      + :ref:`Self-Transforming Variables <self-transforming-variables>`
       + :ref:`Strpos()-like Comparison <strpos()-like-comparison>`
       + :ref:`Substring First <substring-first>`
       + :ref:`Too Many Chained Calls <too-many-chained-calls>`
@@ -8744,7 +8756,6 @@ Directory by PHP Function
       + :ref:`Array Access On Literal Array <array-access-on-literal-array>`
       + :ref:`Avoid Large Array Assignation <avoid-large-array-assignation>`
       + :ref:`Avoid Self In Interface <avoid-self-in-interface>`
-      + :ref:`Cannot Be Readonly <cannot-be-readonly>`
       + :ref:`Const With Array <const-with-array>`
       + :ref:`Constant Class <constant-class>`
       + :ref:`Constant Used Below <constant-used-below>`
@@ -8764,6 +8775,7 @@ Directory by PHP Function
       + :ref:`Overwritten Class Constants <overwritten-class-constants>`
       + :ref:`Parent, Static Or Self Outside Class <parent,-static-or-self-outside-class>`
       + :ref:`Php7 Relaxed Keyword <php7-relaxed-keyword>`
+      + :ref:`Property Cannot Be Readonly <property-cannot-be-readonly>`
       + :ref:`Property Used In One Method Only <property-used-in-one-method-only>`
       + :ref:`Self Using Trait <self-using-trait>`
       + :ref:`Should Use Math <should-use-math>`
@@ -9167,6 +9179,7 @@ Directory by PHP Function
       + :ref:`Unused Private Methods <unused-private-methods>`
       + :ref:`Unused Private Properties <unused-private-properties>`
       + :ref:`Use ::Class Operator <use-class-operator>`
+      + :ref:`Use Arrow Functions <use-arrow-functions>`
       + :ref:`Use Lower Case For Parent, Static And Self <use-lower-case-for-parent,-static-and-self>`
       + :ref:`Use PHP7 Encapsed Strings <use-php7-encapsed-strings>`
       + :ref:`Use This <use-this>`
@@ -9925,6 +9938,7 @@ Directory by PHP Function
       + :ref:`Old Style Constructor <old-style-constructor>`
       + :ref:`Parent First <parent-first>`
       + :ref:`Promoted Properties <promoted-properties>`
+      + :ref:`Property Cannot Be Readonly <property-cannot-be-readonly>`
       + :ref:`Property Could Be Local <property-could-be-local>`
       + :ref:`Readonly Property Changed By Cloning <readonly-property-changed-by-cloning>`
       + :ref:`Redefined Default <redefined-default>`
@@ -10691,6 +10705,10 @@ Exakat links each rules to PHP features.
     + :ref:`ext/mcrypt <ext-mcrypt>`
     + :ref:`ext/scrypt <ext-scrypt>`
 
+  + Ctype
+
+    + :ref:`ext/ctype <ext-ctype>`
+
   + Curl
 
     + :ref:`Safe Curl Options <safe-curl-options>`
@@ -10718,9 +10736,9 @@ Exakat links each rules to PHP features.
     + :ref:`Use DateTimeImmutable Class <use-datetimeimmutable-class>`
     + :ref:`date() versus DateTime Preference <date()-versus-datetime-preference>`
 
-  + Dead code
+  + Dead Code
 
-    + :ref:`Cannot Be Readonly <cannot-be-readonly>`
+    + :ref:`Property Cannot Be Readonly <property-cannot-be-readonly>`
 
   + Debugger
 
@@ -10929,6 +10947,10 @@ Exakat links each rules to PHP features.
     + :ref:`Eval() Usage <eval()-usage>`
     + :ref:`eval() Without Try <eval()-without-try>`
 
+  + Event Loop
+
+    + :ref:`ext/ev <ext-ev>`
+
   + Exception
 
     + :ref:`Caught Variable <caught-variable>`
@@ -10960,6 +10982,7 @@ Exakat links each rules to PHP features.
 
     + :ref:`Die Exit Consistence <die-exit-consistence>`
     + :ref:`Error Messages <error-messages>`
+    + :ref:`Exit Without Argument <exit-without-argument>`
     + :ref:`Exit() Usage <exit()-usage>`
     + :ref:`Exit-like Methods <exit-like-methods>`
     + :ref:`Print And Die <print-and-die>`
@@ -11718,6 +11741,10 @@ Exakat links each rules to PHP features.
 
     + :ref:`Property Invasion <property-invasion>`
 
+  + Object Nullsafe Operator ?->
+
+    + :ref:`Useless NullSafe Operator <useless-nullsafe-operator>`
+
   + Object Operator ->
 
     + :ref:`Use NullSafe Operator <use-nullsafe-operator>`
@@ -11964,9 +11991,9 @@ Exakat links each rules to PHP features.
 
   + Readonly
 
-    + :ref:`Cannot Be Readonly <cannot-be-readonly>`
     + :ref:`Class Could Be Readonly <class-could-be-readonly>`
     + :ref:`No Readonly Assignation In Global <no-readonly-assignation-in-global>`
+    + :ref:`Property Cannot Be Readonly <property-cannot-be-readonly>`
     + :ref:`Readonly Usage <readonly-usage>`
 
   + Real Numbers
@@ -12125,6 +12152,11 @@ Exakat links each rules to PHP features.
     + :ref:`Should Use session_regenerateid() <should-use-session\_regenerateid()>`
     + :ref:`Use session_start() Options <use-session\_start()-options>`
     + :ref:`ext/session <ext-session>`
+
+  + Shell
+
+    + :ref:`Shell Favorite <shell-favorite>`
+    + :ref:`Shell Usage <shell-usage>`
 
   + Short Assignations
 
@@ -12353,7 +12385,7 @@ Exakat links each rules to PHP features.
     + :ref:`Implicit Conversion To Int <implicit-conversion-to-int>`
     + :ref:`Use Same Types For Comparisons <use-same-types-for-comparisons>`
 
-  + Type system
+  + Type System
 
     + :ref:`Argument Should Be Typehinted <argument-should-be-typehinted>`
     + :ref:`Avoid get_class() <avoid-get\_class()>`
@@ -12681,6 +12713,10 @@ Exakat links each rules to PHP features.
   + libsodium
 
     + :ref:`ext/mcrypt <ext-mcrypt>`
+
+  + mcrypt Extension
+
+    + :ref:`mcrypt_create_iv() With Default Values <mcrypt\_create\_iv()-with-default-values>`
 
   + mysqli_sql_exception
 

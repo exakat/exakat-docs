@@ -11,6 +11,9 @@ In ``$array[index]``, PHP cannot find index as a constant, but, as a default beh
 
 This default behavior raise concerns when a corresponding constant is defined, either using `define() <https://www.php.net/define>`_ or the const keyword (outside a class). The definition of the index constant will modify the behavior of the index, as it will now use the constant definition, and not the 'index' string. 
 
+It is recommended to make index a real string (with ' or "), or to define the corresponding constant to avoid any future surprise.
+
+Note that PHP 7.2 removes the support for this feature.
 
 .. code-block:: php
    
@@ -32,11 +35,6 @@ This default behavior raise concerns when a corresponding constant is defined, e
     $array[index] = 1;
    
    ?>
-
-
-It is recommended to make index a real string (with ' or "), or to define the corresponding constant to avoid any future surprise.
-
-Note that PHP 7.2 removes the support for this feature.
 
 See also `PHP RFC: Deprecate and Remove Bareword (Unquoted) Strings <https://wiki.php.net/rfc/deprecate-bareword-strings>`_ and `Syntax <https://www.php.net/manual/en/language.constants.syntax.php>`_.
 

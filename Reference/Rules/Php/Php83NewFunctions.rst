@@ -16,6 +16,18 @@ The following functions are now native functions in PHP 8.3. It is compulsory to
 * `posix_fpathconf() <https://www.php.net/posix_fpathconf>`_
 * `socket_atmark() <https://www.php.net/socket_atmark>`_
 
+.. code-block:: php
+   
+   <?php
+   
+   if (json_validate($json)) {
+   	$data = json_decode($json);
+   } else {
+   	print Error : This is not a valid JSON;
+   }
+   
+   ?>
+
 Suggestions
 ___________
 

@@ -9,8 +9,7 @@ Could Use strcontains()
 
 When `strpos() <https://www.php.net/strpos>`_ is used as a boolean, or compared to a boolean, strcontains() is a good replacement. When `strpos() <https://www.php.net/strpos>`_ is actually used to calculate a position inside a string, it should not be replaced.
 
-strcontains() is not backward compatible, so it should be be used before PHP 8.0. Polyfills are available. 
-
+strcontains() is not backward compatible, so it should be be used before PHP 8.0. Polyfills are available.
 
 .. code-block:: php
    

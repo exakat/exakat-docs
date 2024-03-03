@@ -9,7 +9,6 @@ Short Syntax For Arrays
 
 PHP 5.4 introduced the new short syntax, with square brackets. The previous syntax, based on the `array() <https://www.php.net/array>`_ keyword is still available.
 
-
 .. code-block:: php
    
    <?php

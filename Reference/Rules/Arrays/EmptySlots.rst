@@ -5,8 +5,7 @@
 Empty Slots In Arrays
 +++++++++++++++++++++
 
-  PHP tolerates the last element of an array to be empty.
-
+  PHP allows the last element of an array to be empty. It doesn't allow any other element to be empty: it should at least be an explicit `NULL <https://www.php.net/manual/en/language.types.null.php>`_  value.
 
 .. code-block:: php
    

@@ -96,7 +96,7 @@ Total : 100 analysis
 * :ref:`useless-constant-overwrite`
 * :ref:`incompatible-property-between-class-and-trait`
 * :ref:`static-call-with-self`
-* :ref:`cannot-be-readonly`
+* :ref:`property-cannot-be-readonly`
 * :ref:`static-methods-cannot-call-non-static-methods`
 * :ref:`untyped-no-default-properties`
 * :ref:`trait-is-not-a-type`

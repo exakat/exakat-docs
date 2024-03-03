@@ -7,7 +7,6 @@ Handle Arrays With Callback
 
   Use functions like `array_map() <https://www.php.net/array_map>`_.
 
-
 .. code-block:: php
    
    <?php

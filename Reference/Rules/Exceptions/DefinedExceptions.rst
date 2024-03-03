@@ -5,8 +5,7 @@
 Defined Exceptions
 ++++++++++++++++++
 
-  This is the list of defined exceptions.
-
+  This is the list of defined exceptions. Those exceptions are custom to the code, and shall be thrown at one point or more in the code.
 
 .. code-block:: php
    

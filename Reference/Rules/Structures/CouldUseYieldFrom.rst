@@ -5,8 +5,7 @@
 Could Use Yield From
 ++++++++++++++++++++
 
-  ``Yield from`` replaces a loop and a ``yield`` call. The resulting syntax is shorter and faster.
-
+  ``Yield from`` can be applied to an array or another `generator <https://www.php.net/`generator <https://www.php.net/generator>`_>`_. It replaces a loop and a ``yield`` call. The resulting syntax is shorter and faster.
 
 .. code-block:: php
    

@@ -7,8 +7,7 @@ Identical Case In Switch
 
   In a `switch() <https://www.php.net/manual/en/control-structures.switch.php>`_ or `match() <https://www.php.net/manual/en/control-structures.match.php>`_ statement, when there are identical cases, it means that multiple case labels that have the same code block. 
 
-This can happen by mistake or design. They may be merged together. 
-
+This can happen by mistake or design. They may be merged together.
 
 .. code-block:: php
    

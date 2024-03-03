@@ -12,6 +12,9 @@ Forgetting the yield from keyword cancels the `generator <https://www.php.net/`g
 Using ``yield`` on a `generator <https://www.php.net/`generator <https://www.php.net/generator>`_>`_, yields `... <https://www.php.net/manual/en/functions.arguments.php#functions.variable-arg-list>`_ the `generator <https://www.php.net/`generator <https://www.php.net/generator>`_>`_, not the values of the `generator <https://www.php.net/`generator <https://www.php.net/generator>`_>`_.
 
 
+
+It is legit to yield a `generator <https://www.php.net/`generator <https://www.php.net/generator>`_>`_, for later usage. This is just very uncommon, and worth a check.
+
 .. code-block:: php
    
    <?php
@@ -33,9 +36,6 @@ Using ``yield`` on a `generator <https://www.php.net/`generator <https://www.php
    }
    
    ?>
-
-
-It is legit to yield a `generator <https://www.php.net/`generator <https://www.php.net/generator>`_>`_, for later usage. This is just very uncommon, and worth a check.
 
 Suggestions
 ___________

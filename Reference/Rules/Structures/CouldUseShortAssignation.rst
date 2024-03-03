@@ -5,14 +5,15 @@
 Could Use Short Assignation
 +++++++++++++++++++++++++++
 
-  Use short assignment operator, to speed up code, and keep syntax clear.  
+  Use short assignment operator, to speed up code, and keep syntax clear.
 
 Some operators, like * or +, have a compact and fast 'do-and-assign' version. They looks like a compacted version for = and the operator. This syntax is good for readability, and saves some memory in the process. 
 
-Depending on the operator, not all permutations of arguments are possible. 
+Depending on the operator, not all permutations of arguments are possible. For example, ``$a = $a - 2`` can use the ``-=`` short operator, but ``$a = 2 - $a`` doesn't. 
 
 Addition and short assignation of addition have a different set of features when applied to arrays. Do not exchange one another in that case.
 
+Short operators are faster than the extended version, though it is a micro-optimization.
 
 .. code-block:: php
    
@@ -53,9 +54,6 @@ Addition and short assignation of addition have a different set of features when
    $l ??= 'value';
    
    ?>
-
-
-Short operators are faster than the extended version, though it is a micro-optimization.
 
 See also `Assignation Operators <https://www.php.net/manual/en/language.operators.assignment.php>`_.
 

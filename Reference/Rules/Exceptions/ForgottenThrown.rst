@@ -5,8 +5,7 @@
 Forgotten Thrown
 ++++++++++++++++
 
-  An `exception <https://www.php.net/exception>`_ is instantiated, but not thrown. 
-
+  This rule reports when an `exception <https://www.php.net/exception>`_ is instantiated, but not thrown. Often, this is a case of forgotten throw.
 
 .. code-block:: php
    
@@ -24,8 +23,8 @@ Forgotten Thrown
 Suggestions
 ___________
 
-* Remove the throw expression
-* Add the new to the throw expression
+* Remove the instantiation expression.
+* Add the throw to the new expression.
 
 
 

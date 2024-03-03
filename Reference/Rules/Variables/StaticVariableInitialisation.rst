@@ -9,7 +9,6 @@ Static Variable Initialisation
 
 Indeed, `static <https://www.php.net/manual/en/language.oop5.static.php>`_ variables are variables, so they shall be initialized with any value, another variable or a functioncall. This behavior is different from the `static <https://www.php.net/manual/en/language.oop5.static.php>`_ constant expression, where only a small set of operators and constants can be used.
 
-
 .. code-block:: php
    
    <?php

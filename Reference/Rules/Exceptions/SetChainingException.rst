@@ -9,7 +9,6 @@ Set Chaining Exception
 
 For that, the constructor of the chaining `exception <https://www.php.net/exception>`_ must relay the previous one to the `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ constructor.
 
-
 .. code-block:: php
    
    <?php

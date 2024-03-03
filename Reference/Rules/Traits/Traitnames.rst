@@ -5,7 +5,7 @@
 Trait Names
 +++++++++++
 
-  List all the trait's names, found in the code.
+  List all the trait's names.
 
 .. code-block:: php
    

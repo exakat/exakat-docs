@@ -5,8 +5,7 @@
 Incompatible Property Between Class And Trait
 +++++++++++++++++++++++++++++++++++++++++++++
 
-  Reports a property definition that doesn't fit the importing class.
-
+  Reports a property definition that doesn't fit the importing class. The property definition should be identical in the trait and in the class. 
 
 .. code-block:: php
    
@@ -29,6 +28,16 @@ Incompatible Property Between Class And Trait
    }
    
    ?>
+
+Suggestions
+___________
+
+* Make sure the property is defined identically in the class and the trait.
+* Change the property definition in the class and make it distinct with the one in the trait.
+* Change the property definition in the trait and make it distinct with the one in the class.
+
+
+
 
 Specs
 _____

@@ -9,21 +9,31 @@ func_get_arg() Modified
 
 Since PHP 7, it is reporting the value of the argument at calling time, which may have been modified by a previous instruction. 
 
+This code will display 1 in PHP 7, and 0 in PHP 5.
 
 .. code-block:: php
    
    <?php
    
    function x($a) {
+       print func_get_arg(0);  // 0 
        $a++;
-       print func_get_arg(0);
+       print func_get_arg(0);  // 1
    }
    
    x(0);
    ?>
 
+Suggestions
+___________
 
-This code will display 1 in PHP 7, and 0 in PHP 5.
+* Use func_get_arg() early in the function.
+* Avoir mixing func_get_args() and direct access to the parameters.
+* Avoir using func_get_args() and specifying parameters.
+* Avoir modifying parameters.
+
+
+
 
 Specs
 _____

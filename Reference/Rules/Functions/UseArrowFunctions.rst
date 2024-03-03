@@ -5,10 +5,9 @@
 Use Arrow Functions
 +++++++++++++++++++
 
-  Arrow functions are closures that require less code to write.
+  Arrow functions are closures that require one expression of code. They also include all the variables of the current context, unless they are made `static <https://www.php.net/manual/en/language.oop5.static.php>`_.
 
-Arrow functions were introduced in PHP 7.4. They added the reserved keyword ``fn``. s
-
+Arrow functions were introduced in PHP 7.4. They added the reserved keyword ``fn``.
 
 .. code-block:: php
    

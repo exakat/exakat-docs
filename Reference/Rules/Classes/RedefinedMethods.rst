@@ -9,7 +9,6 @@ Redefined Methods
 
 Protected and public redefined methods replace each other. Private methods are kept separated, and depends on the caller to be distinguished.
 
-
 .. code-block:: php
    
    <?php

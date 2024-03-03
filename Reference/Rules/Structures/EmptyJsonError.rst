@@ -5,7 +5,7 @@
 Empty Json Error
 ++++++++++++++++
 
-  `json_last_error() <https://www.php.net/json_last_error>`_ keeps the last `error <https://www.php.net/error>`_ that was generated while decoding a JSON string. To reset this cache to empty, one must run a call to `json_decode() <https://www.php.net/json_decode>`_ that succeed. This leads some code to make an apparently pointless call, just to empty the `error <https://www.php.net/error>`_ cache, and avoid confusing the message with the one of a previous call. 
+  `json_last_error() <https://www.php.net/json_last_error>`_ keeps the last `error <https://www.php.net/error>`_ that was generated while decoding a JSON string. To reset this cache to empty, one must run a call to `json_decode() <https://www.php.net/json_decode>`_ that succeed. This leads some code to make an apparently pointless call, just to empty the `error <https://www.php.net/error>`_ cache, and avoid confusing the message with the one of a previous call.
 
 .. code-block:: php
    
@@ -30,22 +30,22 @@ Empty Json Error
 Specs
 _____
 
-+--------------+------------------------------------------------------------+
-| Short name   | Structures/EmptyJsonError                                  |
-+--------------+------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Analyze <ruleset-Analyze>` |
-+--------------+------------------------------------------------------------+
-| Exakat since | 2.6.6                                                      |
-+--------------+------------------------------------------------------------+
-| PHP Version  | All                                                        |
-+--------------+------------------------------------------------------------+
-| Severity     | Minor                                                      |
-+--------------+------------------------------------------------------------+
-| Time To Fix  | Quick (30 mins)                                            |
-+--------------+------------------------------------------------------------+
-| Precision    | High                                                       |
-+--------------+------------------------------------------------------------+
-| Available in |                                                            |
-+--------------+------------------------------------------------------------+
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Short name   | Structures/EmptyJsonError                                                                                               |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Analyze <ruleset-Analyze>`                                                              |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Exakat since | 2.6.6                                                                                                                   |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| PHP Version  | All                                                                                                                     |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Severity     | Minor                                                                                                                   |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Time To Fix  | Quick (30 mins)                                                                                                         |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Precision    | High                                                                                                                    |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
 
 

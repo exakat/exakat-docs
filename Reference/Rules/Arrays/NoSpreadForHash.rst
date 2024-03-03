@@ -5,8 +5,7 @@
 No Spread For Hash
 ++++++++++++++++++
 
-  The spread operator ``...`` only works on integer-indexed arrays. 
-
+  The spread operator ``...`` only works on integer-indexed arrays.
 
 .. code-block:: php
    

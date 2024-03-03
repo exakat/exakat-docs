@@ -7,8 +7,7 @@ Weak Type With Array
 
   Using array as a type, to use specific index later.
 
-The type of array is too weak : it allows to know that the array syntax has to be used in the function. Yet, it doesn't enforce the presence or absence of a specific index. 
-
+The type of array is too weak : it allows to know that the array syntax has to be used in the function. Yet, it doesn't enforce the presence or absence of a specific index.
 
 .. code-block:: php
    

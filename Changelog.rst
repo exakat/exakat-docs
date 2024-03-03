@@ -44,6 +44,7 @@ Here is the release note of exakat.
 
 + Tokenizer
     + Made property inside a string with a Name, not a Identifier
+    + Mark variable in append as modified
 
 **Version 2.6.5 (, 2024-01-31)**
 

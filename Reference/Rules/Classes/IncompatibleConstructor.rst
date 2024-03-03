@@ -9,9 +9,6 @@ Different Constructors
 
 Only constructors are allowed to have different signatures : all other methods must be compatible with the `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ methods.
 
-
-
-
 .. code-block:: php
    
    <?php

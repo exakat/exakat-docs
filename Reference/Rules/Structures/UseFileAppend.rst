@@ -9,7 +9,6 @@ Use File Append
 
 Using `file_put_contents() <https://www.php.net/file_put_contents>`_ also keeps the file open as little as possible, unlike keeping the resource open in PHP, between usages.
 
-
 .. code-block:: php
    
    <?php

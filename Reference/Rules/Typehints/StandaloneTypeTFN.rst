@@ -9,7 +9,6 @@ StandaloneType True False Null
 
 false and null were added to PHP in PHP 8.2, as standalone types : they can be used alone in a type declaration (property, argument or returntype). true was added in PHP 8.3.
 
-
 .. code-block:: php
    
    <?php

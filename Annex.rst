@@ -94,7 +94,6 @@ List of external links mentioned in this documentation.
 * `libeio <http://software.schmorp.de/pkg/libeio.html>`_
 * `libmongoc <https://github.com/mongodb/mongo-c-driver>`_
 * `Marco Pivetta tweet <https://twitter.com/Ocramius/status/811504929357660160>`_
-* `mcrypt_create_iv() <https://www.php.net/manual/en/function.mcrypt-create-iv.php>`_
 * `Migration80 <https://exakat.readthedocs.io/en/latest/Reports.html#migration80>`_
 * `MongoDB driver <https://www.php.net/mongo>`_
 * `mysqli <https://www.php.net/manual/en/book.mysqli.php>`_

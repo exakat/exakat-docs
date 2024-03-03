@@ -9,8 +9,7 @@ Missing Assignation In Command
 
 elseif() and branches that returns or goto somewhere else are omitted. 
 
-This is work in progress. 
-
+This is work in progress.
 
 .. code-block:: php
    

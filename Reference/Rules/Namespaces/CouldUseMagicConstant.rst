@@ -5,7 +5,7 @@
 Could Use Namespace Magic Constant
 ++++++++++++++++++++++++++++++++++
 
-  Use the `__NAMESPACE__ <https://www.php.net/manual/en/language.constants.predefined.php>`_ magic constant, instead of hardcoding the current namespace.
+  Use the `__NAMESPACE__ <https://www.php.net/manual/en/language.constants.predefined.php>`_ magic constant, instead of hardcoding the current namespace. That way, the namespace is easier to read, and it will change with the namespace expression.
 
 .. code-block:: php
    

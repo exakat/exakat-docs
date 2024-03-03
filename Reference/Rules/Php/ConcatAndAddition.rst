@@ -10,7 +10,9 @@ Concat And Addition
 From the RFC : ``Currently the precedence of '.', '+' and '-' operators are equal. Any combination of these operators are simply evaluated left-to-right``.
 
 This is counter-intuitive though: you rarely want to add or subtract concatenated strings which in general are not numbers. However, given PHP's capability of seamlessly converting an integer to a string, concatenation of these values is desired.``
+This analysis reports any addition and concatenation that are mixed, without parenthesis. Addition also means substraction here, aka using `+` or `-`.
 
+The same applies to bitshift operations, ``<<`` and ``>>``. There is no RFC for this change.
 
 .. code-block:: php
    
@@ -25,11 +27,6 @@ This is counter-intuitive though: you rarely want to add or subtract concatenate
    echo "sum :" . ($a + $b);
    
    ?>
-
-
-This analysis reports any addition and concatenation that are mixed, without parenthesis. Addition also means substraction here, aka using `+` or `-`.
-
-The same applies to bitshift operations, ``<<`` and ``>>``. There is no RFC for this change.
 
 See also `Change the precedence of the concatenation operator <https://wiki.php.net/rfc/concatenation_precedence>`_.
 

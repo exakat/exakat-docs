@@ -7,8 +7,7 @@ ext/sqlite3
 
   Extension `Sqlite3 <https://www.php.net/sqlite3>`_.
 
-Support for SQLite version 3 databases.
-
+This extension adds support for SQLite version 3 databases. There used to be a Sqlite2 extension, which have been discontinued: this is the replacement.
 
 .. code-block:: php
    

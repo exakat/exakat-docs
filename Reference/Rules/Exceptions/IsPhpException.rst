@@ -7,7 +7,6 @@ PHP Exception
 
   Mark an `exception <https://www.php.net/exception>`_ as a native `exception <https://www.php.net/exception>`_. They may come from PHP standard distribution or an extension.
 
-
 .. code-block:: php
    
    <?php

@@ -7,8 +7,7 @@ ext/pcov
 
   CodeCoverage compatible driver for PHP.
 
-A `self <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ contained CodeCoverage compatible driver for PHP7
-
+A `self <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ contained CodeCoverage compatible driver for PHP7. CodeCoverage provides collection, processing, and rendering functionality for PHP code coverage information.
 
 .. code-block:: php
    
@@ -22,7 +21,7 @@ A `self <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_
    var_dump(\pcov\collect());
    ?>
 
-See also `PCOV <https://github.com/krakjoe/pcov>`_.
+See also `PCOV <https://github.com/krakjoe/pcov>`_ and `phpunit/php-code-coverage <https://github.com/sebastianbergmann/php-code-coverage>`_.
 
 
 Specs

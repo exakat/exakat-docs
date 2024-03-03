@@ -10,7 +10,7 @@ No Keyword In Namespace
 This rule is only useful to keep compatibility with previous versions. It leads to a compilation `error <https://www.php.net/error>`_. 
 
 While some keywords are highly specific to PHP, such as ``endswitch`` or ``__halt_compiler``, others are more common such as empty(), `isset() <https://www.www.php.net/isset>`_, use, global, function...
-
+Usage of PHP keyword was also relaxed for method' name.
 
 .. code-block:: php
    
@@ -24,9 +24,6 @@ While some keywords are highly specific to PHP, such as ``endswitch`` or ``__hal
    namespace end {}
    
    ?>
-
-
-Usage of PHP keyword was also relaxed for method' name.
 
 Suggestions
 ___________

@@ -9,8 +9,7 @@ PHP 7.3 Last Empty Argument
 
 This was introduced in PHP 7.3, and is not backward compatible.
 
-The last empty line is easier on the VCS, allowing clearer text diffs. 
-
+The last empty line is easier on the VCS, allowing clearer text diffs.
 
 .. code-block:: php
    

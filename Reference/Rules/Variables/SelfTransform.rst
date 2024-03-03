@@ -5,8 +5,7 @@
 Self-Transforming Variables
 +++++++++++++++++++++++++++
 
-  Variables that are assigned to themselves, after transformation. 
-
+  Variables that are assigned to themselves, after transformation. Auto-transformations include appending element to an array, using post and pre increment operators, and assigning to the variable the `result <https://www.php.net/result>`_ of a call where the variable is also an argument.
 
 .. code-block:: php
    

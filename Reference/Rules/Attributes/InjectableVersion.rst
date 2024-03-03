@@ -13,8 +13,7 @@ The ``InjectableVersion`` allows to mark a specific class in a class hierarchy a
 
 The check applies to the whole method. 
 
-The specifications include namespaces which are exempt from checking the `attribute <https://www.php.net/attribute>`_, namely test. This is not supported yet. 
-
+The specifications include namespaces which are exempt from checking the `attribute <https://www.php.net/attribute>`_, namely test. This is not supported yet.
 
 .. code-block:: php
    

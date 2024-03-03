@@ -5,8 +5,9 @@
 Missing Attribute Attribute
 +++++++++++++++++++++++++++
 
-  While not strictly required it is recommended to create an actual class for every `attribute <https://www.php.net/attribute>`_.
+  A class that servers as `attribute <https://www.php.net/attribute>`_, should have the `attribute <https://www.php.net/attribute>`_ ``#[`Attribute <https://www.php.net/attribute>`_]``. 
 
+While not strictly required, it is still recommended to create an actual class for every `attribute <https://www.php.net/attribute>`_.
 
 .. code-block:: php
    

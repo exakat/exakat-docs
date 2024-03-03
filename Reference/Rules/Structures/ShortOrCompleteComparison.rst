@@ -9,8 +9,7 @@ Short Or Complete Comparison
 
 Formal is an explicit comparison to another boolean, while short is when the variable is used without comparison. 
 
-The analyzed code has less than 10% of one of them : for consistency reasons, it is recommended to make them all the same. 
-
+The analyzed code has less than 10% of one of them : for consistency reasons, it is recommended to make them all the same.
 
 .. code-block:: php
    

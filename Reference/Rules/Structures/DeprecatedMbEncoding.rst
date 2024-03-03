@@ -16,7 +16,6 @@ Deprecated Mb_string Encodings
 
 This applies to the `mb_detect_encoding() <https://www.php.net/mb_detect_encoding>`_ and `mb_convert_encoding() <https://www.php.net/mb_convert_encoding>`_ functions.
 
-
 .. code-block:: php
    
    <?php

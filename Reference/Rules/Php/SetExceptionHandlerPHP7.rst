@@ -9,7 +9,6 @@ set_exception_handler() Warning
 
 When in doubt about backward compatibility, just drop the typehint. Otherwise, use ``Throwable``.
 
-
 .. code-block:: php
    
    <?php
@@ -28,6 +27,14 @@ When in doubt about backward compatibility, just drop the typehint. Otherwise, u
    ?>
 
 See also Drop the type and Use Throwable type.
+
+
+Suggestions
+___________
+
+* Change the typehint from Exception to Throwable.
+
+
 
 
 Specs

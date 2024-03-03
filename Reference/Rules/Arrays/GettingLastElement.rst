@@ -7,8 +7,7 @@ Getting Last Element
 
   Getting the last element of an array relies on `array_key_last() <https://www.php.net/array_key_last>`_.
 
-`array_key_last() <https://www.php.net/array_key_last>`_ was added in PHP 7.3. Before that, other ways had to be used, such as reaching the ``count() - 1`` elements, or via ``array_pop(`array_keys()) <https://www.php.net/array_keys>`_``. 
-
+`array_key_last() <https://www.php.net/array_key_last>`_ was added in PHP 7.3. Before that, other ways had to be used, such as reaching the ``count() - 1`` elements, or via ``array_pop(`array_keys()) <https://www.php.net/array_keys>`_``.
 
 .. code-block:: php
    

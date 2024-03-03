@@ -6,7 +6,7 @@ Exceeding Typehint
 ++++++++++++++++++
 
   The typehint is not fully used in the method. Some of the defined methods in the typehint are unused. A tighter typehint could be used, to avoid method pollution.
-
+Tight typehint prevents the argument from doing too much. They also require more maintenance : creation of dedicated interfaces, method management to keep all typehint tight.
 
 .. code-block:: php
    
@@ -32,9 +32,6 @@ Exceeding Typehint
    }
    
    ?>
-
-
-Tight typehint prevents the argument from doing too much. They also require more maintenance : creation of dedicated interfaces, method management to keep all typehint tight.
 
 See also :ref:`Insufficient Typehint <insufficient-typehint>`.
 

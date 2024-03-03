@@ -9,8 +9,7 @@ Comparisons Orientation
 
 The analyzed code has less than 10% of one of them : for consistency reasons, it is recommended to make them all the same. 
 
-It is recommended to always use the same comparison style. 
-
+It is recommended to always use the same comparison style.
 
 .. code-block:: php
    

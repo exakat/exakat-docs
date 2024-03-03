@@ -6,7 +6,7 @@ Solve Trait Constants
 +++++++++++++++++++++
 
   Adds a link between `static <https://www.php.net/manual/en/language.oop5.static.php>`_ constant usage and a class constant set in a trait. 
-
+Constants in traits are added in PHP 8.2.
 
 .. code-block:: php
    
@@ -23,9 +23,6 @@ Solve Trait Constants
    }
    
    ?>
-
-
-Constants in traits are added in PHP 8.2.
 
 Specs
 _____

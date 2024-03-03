@@ -5,7 +5,7 @@
 Double Object Assignation
 +++++++++++++++++++++++++
 
-  Make sure that assigning the same object to two variables is the intended purpose.
+  The same object is assigned to two distinct variables. Given that objects are actually references to the same data, this is usually not necessary. Make sure that this is the intended purpose.
 
 .. code-block:: php
    
@@ -26,8 +26,8 @@ See also `class <https://www.php.net/manual/en/language.oop5.basic.php#language.
 Suggestions
 ___________
 
-* Split the double assignation to two distinct instantiations
-* Split the double assignation to two distinct lines
+* Split the double assignation to two distinct instantiations.
+* Split the double assignation to two distinct lines.
 
 
 

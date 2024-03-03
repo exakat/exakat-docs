@@ -7,8 +7,7 @@ Modify Immutable
 
   A class, marked as immutable, is being modified. 
 
-This `attribute <https://www.php.net/attribute>`_ is supported as a PHPdoc comment, `@immutable, and as a PHP 8.0 `attribute <https://www.php.net/attribute>`_. 
-
+This `attribute <https://www.php.net/attribute>`_ is supported as a PHPdoc comment, `@immutable, and as a PHP 8.0 `attribute <https://www.php.net/attribute>`_.
 
 .. code-block:: php
    

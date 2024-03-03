@@ -9,6 +9,7 @@ Ambiguous Array Index
 
 Array indices only accept integers and strings, so any other type of literal is reported. In fact, ``null`` is turned into an empty string, booleans are turned into an integer, and real numbers are truncated (not rounded).
 
+They are indeed distinct, but may lead to confusion.
 
 .. code-block:: php
    
@@ -25,9 +26,6 @@ Array indices only accept integers and strings, so any other type of literal is 
    $x[true] = 6; 
    
    ?>
-
-
-They are indeed distinct, but may lead to confusion.
 
 See also `array <https://www.php.net/manual/en/language.types.array.php>`_.
 

@@ -322,9 +322,6 @@
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Functions/CancelledParameter.html</loc>
  </url>
  <url>
-  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Classes/CannotBeReadonly.html</loc>
- </url>
- <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Traits/CannotCallTraitMethod.html</loc>
  </url>
  <url>
@@ -922,6 +919,9 @@
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/CouldUseStrContains.html</loc>
  </url>
  <url>
+  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/CountIsNotNegative.html</loc>
+ </url>
+ <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Performances/CountToAppend.html</loc>
  </url>
  <url>
@@ -1289,6 +1289,9 @@
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Extensions/Extexcimer.html</loc>
+ </url>
+ <url>
+  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Php/ExitNoArg.html</loc>
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/ExitUsage.html</loc>
@@ -2960,6 +2963,9 @@
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Classes/PPPDeclarationStyle.html</loc>
+ </url>
+ <url>
+  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Classes/CannotBeReadonly.html</loc>
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Classes/PropertyCouldBeLocal.html</loc>

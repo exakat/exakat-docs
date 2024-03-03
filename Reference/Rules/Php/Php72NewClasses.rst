@@ -9,7 +9,6 @@ Php 7.2 New Class
 
 The new class is : `HashContext <https://www.php.net/hashcontext>`_.
 
-
 .. code-block:: php
    
    <?php

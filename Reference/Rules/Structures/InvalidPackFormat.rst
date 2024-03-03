@@ -12,7 +12,7 @@ Invalid Pack Format
 `unpack() <https://www.php.net/unpack>`_ also accepts a name after the format specifier and an optional quantifier. 
 
 All other situations is not a valid, and produces a warning : ``pack(): Type t: unknown format code``
-
+Check `pack() <https://www.php.net/pack>`_ documentation for format specifiers that were introduced in various PHP version, namely 7.0, 7.1 and 7.2.
 
 .. code-block:: php
    
@@ -22,9 +22,6 @@ All other situations is not a valid, and produces a warning : ``pack(): Type t: 
        // the first unsigned short is stored as 'first'. The next matches are names with numbers.
        $res = unpack('nfirst/vc*', $binarydata);
    ?>
-
-
-Check `pack() <https://www.php.net/pack>`_ documentation for format specifiers that were introduced in various PHP version, namely 7.0, 7.1 and 7.2.
 
 See also `pack <https://www.php.net/pack>`_ and `unpack <https://www.php.net/pack>`_.
 

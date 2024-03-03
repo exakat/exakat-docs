@@ -11,7 +11,6 @@ A child class is able to declare a method with the same name than a `static <htt
 
 This is not the case anymore in PHP 7.0+.
 
-
 .. code-block:: php
    
    <?php

@@ -9,7 +9,6 @@ Try Without Catch
 
 This is very rare.
 
-
 .. code-block:: php
    
    <?php

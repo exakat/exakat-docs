@@ -5,8 +5,7 @@
 Group Use Declaration
 +++++++++++++++++++++
 
-  The group use declaration is used in the code.
-
+  This rule reports when a group use declaration is used. This is PHP feature since version 7.0, yet it is seldom used.
 
 .. code-block:: php
    

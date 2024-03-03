@@ -1,25 +1,20 @@
-.. _variables-ambiguoustypes:
+.. _structures-countisnotnegative:
 
-.. _ambiguous-types-with-variables:
+.. _count()-is-not-negative:
 
-Ambiguous Types With Variables
-++++++++++++++++++++++++++++++
+Count() Is Not Negative
++++++++++++++++++++++++
 
-  The same variable is assigned various types, in different methods. This means that one may expect the same named variable to behave differently in different context.
+  This rule reports when the `Countable <https://www.php.net/countable>`_ method ``count`` is poised to return a negative value. 
+
+It also reports when a call to ``count()`` is compared to a value that might be negative.
 
 .. code-block:: php
    
-   <?php
+   <?phpVersion
    
-   function foo() {
-   	$i = 1;
-   	$user = new User();
-   }
-   
-   function goo() {
-   	$i = 2; // $i is always an integer
-   	$user = new Propect();  // Sometimes $user is a User, and sometimes it is a Propect
-   }
+   // count() shall not be below 0, so === is preferable here
+   if (count($array) <= 0) { }
    
    ?>
 
@@ -27,11 +22,13 @@ Specs
 _____
 
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Short name   | Variables/AmbiguousTypes                                                                                                |
+| Short name   | Structures/CountIsNotNegative                                                                                           |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Semantics <ruleset-Semantics>`                                                          |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Analyze <ruleset-Analyze>`                                                              |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Exakat since | 2.5.0                                                                                                                   |
+| Exakat since | 2.6.6                                                                                                                   |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| PHP Version  | All                                                                                                                     |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Severity     | Minor                                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

@@ -11,7 +11,6 @@ In particular, the ternary operator works on truthy values, and `NULL <https://w
 
 On the other hand, the coalesce operator only process `NULL <https://www.php.net/manual/en/language.types.null.php>`_, and will leave the false (or any other falsy value) to process to the ternary operator.
 
-
 .. code-block:: php
    
    <?php

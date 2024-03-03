@@ -174,7 +174,7 @@ Total : 177 analysis
 * :ref:`collect-property-usage`
 * :ref:`collect-structures`
 * :ref:`collect-catch-calls`
-* :ref:`cannot-be-readonly`
+* :ref:`property-cannot-be-readonly`
 * :ref:`collect-graph-triplets`
 * :ref:`useless-trailing-comma`
 * :ref:`void-is-not-a-reference`

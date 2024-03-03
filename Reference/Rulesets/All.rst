@@ -5,7 +5,7 @@ All
 
 All is a dummy ruleset, which includes all the rules. It is mostly used internally.
 
-Total : 1636 analysis
+Total : 1638 analysis
 
 * :ref:`adding-zero`
 * :ref:`ambiguous-array-index`
@@ -1601,7 +1601,7 @@ Total : 1636 analysis
 * :ref:`favorite-casting-method`
 * :ref:`get\_class()-without-argument`
 * :ref:`append-and-assign-arrays`
-* :ref:`cannot-be-readonly`
+* :ref:`property-cannot-be-readonly`
 * :ref:`static-variable-initialisation`
 * :ref:`collect-graph-triplets`
 * :ref:`static-variable-in-namespace`
@@ -1643,6 +1643,8 @@ Total : 1636 analysis
 * :ref:`combined-calls`
 * :ref:`empty-json-error`
 * :ref:`useless-coalesce`
+* :ref:`count()-is-not-negative`
+* :ref:`exit-without-argument`
 
 Specs
 _____

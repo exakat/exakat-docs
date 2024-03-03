@@ -21,7 +21,6 @@ The following debug functions and libraries are reported :
 * `Xdebug <https://xdebug.org/>`_
 * `Zend debug <https://github.com/zendframework/zend-debug>`_
 
-
 .. code-block:: php
    
    <?php

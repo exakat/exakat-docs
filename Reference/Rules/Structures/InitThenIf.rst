@@ -8,6 +8,9 @@ Init Then Update
   This is a structure where the variable is initialized in the main sequence of the code, then adapted to another value in a subsequent if structure.
 
 
+
+This analysis reports such structures, based on assignation of constant values in the initial statement.
+
 .. code-block:: php
    
    <?php
@@ -18,9 +21,6 @@ Init Then Update
    }
    
    ?>
-
-
-This analysis reports such structures, based on assignation of constant values in the initial statement.
 
 Specs
 _____

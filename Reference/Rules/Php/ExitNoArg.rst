@@ -1,25 +1,19 @@
-.. _variables-ambiguoustypes:
+.. _php-exitnoarg:
 
-.. _ambiguous-types-with-variables:
+.. _exit-without-argument:
 
-Ambiguous Types With Variables
-++++++++++++++++++++++++++++++
+Exit Without Argument
++++++++++++++++++++++
 
-  The same variable is assigned various types, in different methods. This means that one may expect the same named variable to behave differently in different context.
+  This rule reports usage of `die <https://www.php.net/die>`_ and `exit <https://www.www.php.net/exit>`_ without arguments. These commands are not functions, and are allowed to be used without parenthesis: by default, they use the 0 status.
 
 .. code-block:: php
    
    <?php
    
-   function foo() {
-   	$i = 1;
-   	$user = new User();
-   }
+   exit; 
    
-   function goo() {
-   	$i = 2; // $i is always an integer
-   	$user = new Propect();  // Sometimes $user is a User, and sometimes it is a Propect
-   }
+   die; 
    
    ?>
 
@@ -27,17 +21,21 @@ Specs
 _____
 
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Short name   | Variables/AmbiguousTypes                                                                                                |
+| Short name   | Php/ExitNoArg                                                                                                           |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Semantics <ruleset-Semantics>`                                                          |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Analyze <ruleset-Analyze>`                                                              |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Exakat since | 2.5.0                                                                                                                   |
+| Exakat since | 2.6.6                                                                                                                   |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| PHP Version  | All                                                                                                                     |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Severity     | Minor                                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Precision    | High                                                                                                                    |
+| Precision    | Very high                                                                                                               |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Features     | exit                                                                                                                    |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

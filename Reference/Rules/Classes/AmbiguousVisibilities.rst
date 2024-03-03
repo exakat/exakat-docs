@@ -9,8 +9,7 @@ Ambiguous Visibilities
 
 While it is legit to have a property with the same name in different classes, it may easily lead to confusion. As soon as the context is need to understand if the property is accessible or not, the readability suffers.
 
-It is recommended to handle the same properties in the same way across classes, even when the classes are not related. 
-
+It is recommended to handle the same properties in the same way across classes, even when the classes are not related.
 
 .. code-block:: php
    

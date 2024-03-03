@@ -8,7 +8,7 @@ Recalled Condition
   A recalled condition is a check that is made twice : once in the condition, once in the body of the structure. 
 
 Usually, the second call may be skipped by storing the value in a local variable. 
-
+The second call may be necessary when the call is not idempotent.
 
 .. code-block:: php
    
@@ -21,13 +21,10 @@ Usually, the second call may be skipped by storing the value in a local variable
    
    ?>
 
-
-The second call may be necessary when the call is not idempotent.
-
 Suggestions
 ___________
 
-* Put the result of the call in a variable to cache it
+* Put the result of the call in a variable to cache it.
 
 
 

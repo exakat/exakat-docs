@@ -7,7 +7,6 @@ mb_strrpos() Third Argument
 
   Passing the encoding as 3rd parameter to `mb_strrpos() <https://www.php.net/mb_strrpos>`_ is deprecated. Instead pass a 0 offset, and encoding as 4th parameter.
 
-
 .. code-block:: php
    
    <?php
@@ -20,6 +19,14 @@ mb_strrpos() Third Argument
    ?>
 
 See also mb_strrpos().
+
+
+Suggestions
+___________
+
+* Remove usage of mb_strrpos() 3rd parameter.
+
+
 
 
 Specs

@@ -5,11 +5,17 @@
 Constants In Traits
 +++++++++++++++++++
 
-  Trait may have their own constants. This was introduced in PHP 8.2.
+  Traits may have their own constants. This feature was introduced in PHP 8.2 and is not backward compatible.
 
-trait t {
-	const A = 1;
-}
+.. code-block:: php
+   
+   <?php
+   
+   trait t {
+   	const A = 1;
+   }
+   
+   ?>
 
 See also `PHP RFC: Constants in Traits <https://wiki.php.net/rfc/constants_in_traits>`_ and `Ability to use Constants in Traits in PHP 8.2 <https://www.amitmerchant.com/traits-constants-php-82/>`_.
 

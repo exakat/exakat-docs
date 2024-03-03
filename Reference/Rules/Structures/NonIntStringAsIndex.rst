@@ -9,7 +9,6 @@ Non Integer Nor String As Index
 
 PHP arrays only accept integers and strings as keys. PHP convert the other types to integer or string, and that may lead to surprises when reading the arrays.
 
-
 .. code-block:: php
    
    <?php

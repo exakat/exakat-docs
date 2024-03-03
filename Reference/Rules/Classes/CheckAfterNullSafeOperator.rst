@@ -9,8 +9,7 @@ Check After Null Safe Operator
 
 While it saves some checks in certain cases, the null-safe operator should be followed by a check on the returned value to process any misfire of the method. 
 
-This analysis checks that the `result <https://www.php.net/result>`_ of the expression is collected, and compared to null. 
-
+This analysis checks that the `result <https://www.php.net/result>`_ of the expression is collected, and compared to null.
 
 .. code-block:: php
    

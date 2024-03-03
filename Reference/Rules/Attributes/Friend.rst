@@ -17,8 +17,6 @@ Friend Attribute
 
 Based on the specificiations from Dave Liddament.
 
-
-
 .. code-block:: php
    
    <?php

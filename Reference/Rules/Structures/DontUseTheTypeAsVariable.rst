@@ -11,12 +11,17 @@ Such a name should carry its actual usage, as the type is already hold by the da
 
 This rule check for parameters and variables which uses the type as name. It also report instantiation which hold the same name than the instantiated class.
 
-$`sqlite3 <https://www.php.net/sqlite3>`_ = new `Sqlite3() <https://www.php.net/sqlite3>`_;
-
-function foo(int $int) : array {
-	$array = [];
-	return $array;
-}
+.. code-block:: php
+   
+   <?php
+   
+   $sqlite3 = new Sqlite3();
+   
+   function foo(int $int) : array {
+   	$array = [];
+   	return $array;
+   }
+   ?>
 
 Suggestions
 ___________

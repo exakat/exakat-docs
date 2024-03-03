@@ -9,7 +9,6 @@ ext/sqlite
 
 Support for SQLite version 2 databases. The support for this version of Sqlite has ended. It is recommended to use ``SQLite3``.
 
-
 .. code-block:: php
    
    <?php

@@ -10,7 +10,7 @@ Could Use Class Operator
 Classes may also be identified with a string, as a fully qualified name. Using the class operator is a more explicit way to do it.
 
 The `\:\:class` operator works with the local use expressions. It also provides a string, which may be further processed.
-
+The class operator is also called the 'scope resolution operator'.
 
 .. code-block:: php
    
@@ -27,9 +27,6 @@ The `\:\:class` operator works with the local use expressions. It also provides 
    $object = new $a(); // object of A\B\C.
    
    ?>
-
-
-The class operator is also called the 'scope resolution operator'.
 
 See also `Scope Resolution Operator (::) <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_.
 

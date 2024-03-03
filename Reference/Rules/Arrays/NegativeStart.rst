@@ -9,7 +9,6 @@ Negative Start Index In Array
 
 The behavior will `break <https://www.php.net/manual/en/control-structures.break.php>`_ code that relies on automatic index in arrays, when a negative index is used for a starter.
 
-
 .. code-block:: php
    
    <?php

@@ -7,6 +7,7 @@ isset() With Constant
 
   Until PHP 7, it was possible to use arrays as constants, but it was not possible to test them with `isset <https://www.www.php.net/isset>`_.
 
+This would yield an `error <https://www.php.net/error>`_ : ``Cannot use `isset() <https://www.www.php.net/isset>`_ on the `result <https://www.php.net/result>`_ of an expression (you can use "null !== expression" instead)``. This is a backward incompatibility.
 
 .. code-block:: php
    
@@ -16,8 +17,13 @@ isset() With Constant
    if (isset(X[4])) {}
    ?>
 
+Suggestions
+___________
 
-This would yield an `error <https://www.php.net/error>`_ : ``Cannot use `isset() <https://www.www.php.net/isset>`_ on the `result <https://www.php.net/result>`_ of an expression (you can use "null !== expression" instead)``. This is a backward incompatibility.
+* Avoid testing values on constants.
+
+
+
 
 Specs
 _____

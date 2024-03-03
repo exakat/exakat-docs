@@ -7,8 +7,7 @@ Use Count Recursive
 
   The code could use the recursive version of count.
 
-The second argument of count, when set to ``COUNT_RECURSIVE``, count recursively the elements. It also counts the elements themselves. 
-
+The second argument of count, when set to ``COUNT_RECURSIVE``, count recursively the elements. It also counts the elements themselves.
 
 .. code-block:: php
    

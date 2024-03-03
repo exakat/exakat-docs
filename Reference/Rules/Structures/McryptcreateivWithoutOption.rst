@@ -5,10 +5,11 @@
 mcrypt_create_iv() With Default Values
 ++++++++++++++++++++++++++++++++++++++
 
-  Avoid using `mcrypt_create_iv() <https://www.php.net/manual/en/function.mcrypt-create-iv.php>`_ default values.
+  Avoid using `mcrypt_create_iv()` default values.
 
-`mcrypt_create_iv() <https://www.php.net/manual/en/function.mcrypt-create-iv.php>`_ used to have ``MCRYPT_DEV_RANDOM`` as default values, and in PHP 5.6, it now uses ``MCRYPT_DEV_URANDOM``.
+``mcrypt_create_iv()`` used to have ``MCRYPT_DEV_RANDOM`` as default values, and in PHP 5.6, it now uses ``MCRYPT_DEV_URANDOM``.
 
+If the code doesn't have a second argument, it relies on the default value. It is recommended to set explicitly the value, so has to avoid problems while migrating.
 
 .. code-block:: php
    
@@ -22,10 +23,15 @@ mcrypt_create_iv() With Default Values
    
    ?>
 
-
-If the code doesn't have a second argument, it relies on the default value. It is recommended to set explicitly the value, so has to avoid problems while migrating.
-
 See also `mcrypt_create_iv() <https://www.php.net/manual/en/function.mcrypt-create-iv.php>`_.
+
+
+Suggestions
+___________
+
+* Avoid using `mcrypt_create_iv()` default values.
+
+
 
 
 Specs

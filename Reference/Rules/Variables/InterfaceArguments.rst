@@ -5,8 +5,7 @@
 Interface Arguments
 +++++++++++++++++++
 
-  Variables that are arguments in an interface. 
-
+  This rule lists variables that are arguments in an interface.
 
 .. code-block:: php
    

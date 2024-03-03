@@ -7,7 +7,6 @@ Generator Cannot Return
 
   Generators could not use return and yield at the same time. In PHP 7.0, `generator <https://www.php.net/`generator <https://www.php.net/generator>`_>`_ can now use both of them.
 
-
 .. code-block:: php
    
    <?php

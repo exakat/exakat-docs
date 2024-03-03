@@ -8,7 +8,10 @@ No Count With 0
   Comparing `count() <https://www.php.net/count>`_, `strlen() <https://www.php.net/strlen>`_ or `mb_strlen() <https://www.php.net/mb_strlen>`_ to 0 is a waste of resources. There are three distinct situations.
 
 When comparing `count() <https://www.php.net/count>`_ with 0, with ===, ==, !==, !=, it is more efficient to use empty(). empty() is a language construct that checks if a value is present, while `count() <https://www.php.net/count>`_ actually load the number of element.
+When comparing `count() <https://www.php.net/count>`_ strictly with 0 and ``>``, it is more efficient to use ``!(empty(  ))``
+Comparing `count() <https://www.php.net/count>`_, `strlen() <https://www.php.net/strlen>`_ or `mb_strlen() <https://www.php.net/mb_strlen>`_ with other values than 0 cannot be replaced with a comparison with empty().
 
+Note that this is a micro-optimisation : since PHP keeps track of the number of elements in arrays (or number of chars in strings), the total computing time of both operations is often lower than a ms. However, both functions tends to be heavily used, and may even be used inside loops.
 
 .. code-block:: php
    
@@ -24,40 +27,6 @@ When comparing `count() <https://www.php.net/count>`_ with 0, with ===, ==, !==,
    }
    
    ?>
-
-
-When comparing `count() <https://www.php.net/count>`_ strictly with 0 and ``>``, it is more efficient to use ``!(empty(  ))``
-
-
-.. code-block:: php
-   
-   <?php
-   
-   // Checking if an array is empty
-   if (count($array) > 0) {
-       // doSomething();
-   }
-   // This may be replaced with 
-   if (!empty($array)) {
-       // doSomething();
-   }
-   
-   Of course comparing count() with negative values, or with >= is useless.
-   
-   <?php
-   
-   // Checking if an array is empty
-   if (count($array) < 0) {
-       // This never happens
-       // doSomething();
-   }
-   
-   ?>
-
-
-Comparing `count() <https://www.php.net/count>`_, `strlen() <https://www.php.net/strlen>`_ or `mb_strlen() <https://www.php.net/mb_strlen>`_ with other values than 0 cannot be replaced with a comparison with empty().
-
-Note that this is a micro-optimisation : since PHP keeps track of the number of elements in arrays (or number of chars in strings), the total computing time of both operations is often lower than a ms. However, both functions tends to be heavily used, and may even be used inside loops.
 
 See also `count <https://www.php.net/count>`_, `strlen <https://www.php.net/strlen>`_ and `mb_strlen <https://www.php.net/mb_strlen>`_.
 

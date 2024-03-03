@@ -6138,8 +6138,8 @@ The `state` constant in the `$result` array is coming from the SQL query. There 
         {
             // get state from db
             dol_syslog("get state from db");
-            $sql = "SELECT state FROM ".MAIN_DB_PREFIX."oauth_state";
-            $sql.= " WHERE service='".$this->db->escape($service)."'";
+            $sql = "SELECT state FROM ".MAIN_DB_PREFIX."oauth_state"; 
+            $sql.= " WHERE service='".$this->db->escape($service)."'"; 
             $resql = $this->db->query($sql);
             $result = $this->db->fetch_array($resql);
             $states[$service] = $result[state];
@@ -6171,12 +6171,12 @@ The `fields` constant in the `$tableEntry` which holds a list of tables. It seem
             }
             foreach ($tableList as $tableEntry) {
                 $languageKeyField = issetorArray($tableEntry, 'languageKeyField', 'language_id');
-                $sql = " INSERT IGNORE INTO :table: (";
+                $sql = " INSERT IGNORE INTO :table: ("; 
                 $sql = $this->dbConn->bindVars($sql, ':table:', $tableEntry ['table'], 'noquotestring');
-                $sql .= $languageKeyField. ", ";
-                $fieldNames = "";
+                $sql .= $languageKeyField. ,;
+                $fieldNames = ;
                 foreach ($tableEntry[fields] as $fieldName => $fieldType) {
-                    $fieldNames .= $fieldName . ", ";
+                    $fieldNames .= $fieldName . ,;
                 }
 
 
@@ -10033,7 +10033,7 @@ This code actually loads the file, join it, then split it again. file() would be
 
 .. code-block:: php
    
-    $markerdata = explode( "\n", implode( '', file( $filename ) ) );
+    $markerdata = explode( \n, implode( '', file( $filename ) ) );
 
 
 .. _case-prestashop-structures-usecountrecursive:
@@ -10114,7 +10114,7 @@ MediaWiki
 
 :ref:`use-list-with-foreach`, in includes/parser/LinkHolderArray.php:372. 
 
-This foreach reads each element from $entries into entry. $entry, in turn, is written into $pdbk, $title and $displayText for easier reuse. 5 elements are read from $entry, and they could be set in their respective variable in the foreach() with a list call. The only on that can't be set is 'query' which has to be tested.\
+This foreach reads each element from $entries into entry. $entry, in turn, is written into $pdbk, $title and $displayText for easier reuse. 5 elements are read from $entry, and they could be set in their respective variable in the foreach() with a list call. The only on that can't be set is 'query' which has to be tested.
 
 .. code-block:: php
    
@@ -10122,7 +10122,7 @@ This foreach reads each element from $entries into entry. $entry, in turn, is wr
     				$pdbk = $entry['pdbk'];
     				$title = $entry['title'];
     				$query = isset( $entry['query'] ) ? $entry['query'] : [];
-    				$key = "$ns:$index";
+    				$key = $ns:$index;
     				$searchkey = "<!--LINK'\" $key-->";
     				$displayText = $entry['text'];
     				if ( isset( $entry['selflink'] ) ) {

@@ -11,8 +11,7 @@ In the `date() <https://www.php.net/date>`_ team, there are the following functi
 
 In the `DateTime <https://www.php.net/`datetime <https://www.php.net/datetime>`_>`_ team, there are the instantiation of `DateTime <https://www.php.net/`datetime <https://www.php.net/datetime>`_>`_ and `DateTimeImmutable <https://www.php.net/`datetimeimmutable <https://www.php.net/datetimeimmutable>`_>`_; the DateTime\:\:createFromInterface(), `DateTime\:\:createFromFormat() <https://www.php.net/manual/en/datetime.createfromformat.php>`_, DateTime\:\:createFromImmutable() and DateTime\:\:createFromMutable(). 
 
-The analyzed code has less than 10% of one of them : for consistency reasons, it is recommended to make them all the same. 
-
+The analyzed code has less than 10% of one of them : for consistency reasons, it is recommended to make them all the same.
 
 .. code-block:: php
    

@@ -11,8 +11,6 @@ Generally, the higher declaration should be the one to stay.
 
 Keeping one definition makes it clear which class is responsible for that property. It also keep the code more flexible in case of an update on the property: only one place to change it.
 
-
-
 .. code-block:: php
    
    <?php

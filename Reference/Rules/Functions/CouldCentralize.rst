@@ -9,8 +9,7 @@ Could Make A Function
 
 This approach is similar to turning literals into constants : it centralize the value, it helps refactoring by updating it. It also makes the code more readable. Moreover, it often highlight common grounds between remote code locations. 
 
-The analysis looks for functions calls, and checks the arguments. When the calls occurs more than 4 times, it is reported. 
-
+The analysis looks for functions calls, and checks the arguments. When the calls occurs more than 4 times, it is reported.
 
 .. code-block:: php
    

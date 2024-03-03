@@ -1000,6 +1000,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Php/EmptyList";
    analyzer[] = "Php/EnumUsage";
    analyzer[] = "Php/ErrorLogUsage";
+   analyzer[] = "Php/ExitNoArg";
    analyzer[] = "Php/ExponentUsage";
    analyzer[] = "Php/FailingAnalysis";
    analyzer[] = "Php/FalseToArray";
@@ -1336,6 +1337,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/CouldUseStrContains";
    analyzer[] = "Structures/CouldUseStrrepeat";
    analyzer[] = "Structures/CouldUseYieldFrom";
+   analyzer[] = "Structures/CountIsNotNegative";
    analyzer[] = "Structures/CryptWithoutSalt";
    analyzer[] = "Structures/CurlVersionNow";
    analyzer[] = "Structures/DanglingArrayReferences";
@@ -2651,6 +2653,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Php/EmptyList'
      - 'Php/EnumUsage'
      - 'Php/ErrorLogUsage'
+     - 'Php/ExitNoArg'
      - 'Php/ExponentUsage'
      - 'Php/FailingAnalysis'
      - 'Php/FalseToArray'
@@ -2987,6 +2990,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/CouldUseStrContains'
      - 'Structures/CouldUseStrrepeat'
      - 'Structures/CouldUseYieldFrom'
+     - 'Structures/CountIsNotNegative'
      - 'Structures/CryptWithoutSalt'
      - 'Structures/CurlVersionNow'
      - 'Structures/DanglingArrayReferences'
@@ -3666,6 +3670,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Php/Deprecated";
    analyzer[] = "Php/DontPolluteGlobalSpace";
    analyzer[] = "Php/EmptyList";
+   analyzer[] = "Php/ExitNoArg";
    analyzer[] = "Php/FalseToArray";
    analyzer[] = "Php/FopenMode";
    analyzer[] = "Php/ForeachObject";
@@ -3741,6 +3746,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/CouldUseShortAssignation";
    analyzer[] = "Structures/CouldUseStrrepeat";
    analyzer[] = "Structures/CouldUseYieldFrom";
+   analyzer[] = "Structures/CountIsNotNegative";
    analyzer[] = "Structures/DanglingArrayReferences";
    analyzer[] = "Structures/DefaultThenDiscard";
    analyzer[] = "Structures/DirThenSlash";
@@ -4177,6 +4183,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Php/Deprecated'
      - 'Php/DontPolluteGlobalSpace'
      - 'Php/EmptyList'
+     - 'Php/ExitNoArg'
      - 'Php/FalseToArray'
      - 'Php/FopenMode'
      - 'Php/ForeachObject'
@@ -4252,6 +4259,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/CouldUseShortAssignation'
      - 'Structures/CouldUseStrrepeat'
      - 'Structures/CouldUseYieldFrom'
+     - 'Structures/CountIsNotNegative'
      - 'Structures/DanglingArrayReferences'
      - 'Structures/DefaultThenDiscard'
      - 'Structures/DirThenSlash'

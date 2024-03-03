@@ -8,7 +8,7 @@ Multiple Exceptions Catch()
   It is possible to have several distinct exceptions class caught by the same catch, preventing code repetition. 
 
 This is a new feature since PHP 7.1.
-
+This is a backward incompatible feature of PHP 7.1.
 
 .. code-block:: php
    
@@ -39,9 +39,6 @@ This is a new feature since PHP 7.1.
    }
    
    ?>
-
-
-This is a backward incompatible feature of PHP 7.1.
 
 Specs
 _____

@@ -9,7 +9,6 @@ Do Not Cast To Int
 
 Use functions like `floor() <https://www.php.net/floor>`_, `round() <https://www.php.net/round>`_ or `ceil() <https://www.php.net/ceil>`_ : they use an explicit method for rounding, that helps keeping the side effects under control.
 
-
 .. code-block:: php
    
    <?php

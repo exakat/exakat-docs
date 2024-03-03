@@ -7,7 +7,6 @@ Long Preparation For Throw
 
   When throwing an `exception <https://www.php.net/exception>`_, move the preparing code in the `exception <https://www.php.net/exception>`_. This will keep the ``throw`` call simple.
 
-
 .. code-block:: php
    
    <?php

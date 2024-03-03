@@ -9,7 +9,6 @@ Static Variable Can Default To Arbitrary Expression
 
 This feature was introduced in PHP 8.3.
 
-
 .. code-block:: php
    
    <?php

@@ -5,8 +5,7 @@
 Abstract Class Usage
 ++++++++++++++++++++
 
-  List of all abstract classes being used.
-
+  List of all abstract classes defined in the code. 
 
 .. code-block:: php
    
