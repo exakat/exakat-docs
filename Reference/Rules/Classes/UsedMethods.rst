@@ -7,7 +7,6 @@ Used Methods
 
   Those methods are used in the code. This analysis is mostly useful for its contrary.
 
-
 .. code-block:: php
    
    <?php

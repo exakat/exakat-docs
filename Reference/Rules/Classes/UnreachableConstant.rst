@@ -7,8 +7,7 @@ Unreachable Class Constant
 
   Class constants may be unreachable due to visibility configuration. 
 
-Since PHP 7.1, class constants support visibility. Their usage may be restricted to the current class, or ``private``, to classes that extends or are extended by the current class, or ``protected``. They may also be ``public``, just like it was before. 
-
+Since PHP 7.1, class constants support visibility. Their usage may be restricted to the current class, or ``private``, to classes that extends or are extended by the current class, or ``protected``. They may also be ``public``, just like it was before.
 
 .. code-block:: php
    

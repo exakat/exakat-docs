@@ -1,12 +1,11 @@
 .. _functions-isgenerator:
 
-.. _is-generator:
+.. _method-is-a-generator:
 
-Is Generator
-++++++++++++
+Method Is A Generator
++++++++++++++++++++++
 
-  Mark as such functions or methods that are using yield and yield from.
-
+  This rule marks functions, methods, `... <https://www.php.net/manual/en/functions.arguments.php#functions.variable-arg-list>`_ that are using ``yield`` and ``yield from`` keywords.
 
 .. code-block:: php
    

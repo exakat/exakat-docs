@@ -9,7 +9,6 @@ While(List() = Each())
 
 This structure is deprecated since PHP 7.2. It may disappear in the future.
 
-
 .. code-block:: php
    
    <?php

@@ -7,8 +7,7 @@ Useless Abstract Class
 
   Those classes are marked 'abstract' and they are never extended. This way, they won't be instantiated nor used. 
 
-Abstract classes that have only `static <https://www.php.net/manual/en/language.oop5.static.php>`_ methods are omitted here : one usage of such classes are Utilities classes, which only offer `static <https://www.php.net/manual/en/language.oop5.static.php>`_ methods. 
-
+Abstract classes that have only `static <https://www.php.net/manual/en/language.oop5.static.php>`_ methods are omitted here : one usage of such classes are Utilities classes, which only offer `static <https://www.php.net/manual/en/language.oop5.static.php>`_ methods.
 
 .. code-block:: php
    

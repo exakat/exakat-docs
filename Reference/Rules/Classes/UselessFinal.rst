@@ -9,7 +9,6 @@ Useless Final
 
 There is no need to declare them individually final.
 
-
 .. code-block:: php
    
    <?php

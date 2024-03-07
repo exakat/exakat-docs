@@ -6,7 +6,7 @@ Create Magic Method
 +++++++++++++++++++
 
   This command creates a link DEFINITION between a ``__call()`` and ``__callStatic()`` calls, and its equivalent magic method.
-
+This command may not detect all possible link for the ``__get()`` and ``__set()`` call. It may be missing information about the nature of the object. ``Self``, ``static``, ``parent`` and simple variables are detected.
 
 .. code-block:: php
    
@@ -31,9 +31,6 @@ Create Magic Method
    }
    
    ?>
-
-
-This command may not detect all possible link for the ``__get()`` and ``__set()`` call. It may be missing information about the nature of the object. ``Self``, ``static``, ``parent`` and simple variables are detected.
 
 See also `Magic Methods <https://www.php.net/manual/en/language.oop5.magic.php>`_.
 

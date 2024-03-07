@@ -7,7 +7,6 @@ Too Many Finds
 
   Too many methods called 'find*' in this class. It is may be time to consider the `Specification pattern <https://en.wikipedia.org/wiki/Specification_pattern>`_.
 
-
 .. code-block:: php
    
    <?php

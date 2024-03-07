@@ -11,7 +11,6 @@ Properties used in one method only may be used several times, and read only. Thi
 
 Setting properties with default values is a good way to avoid littering the code with literal values, and provide a single point of update (by extension, or by hardcoding) for all those situations. A constant is definitely better suited for this task.
 
-
 .. code-block:: php
    
    <?php

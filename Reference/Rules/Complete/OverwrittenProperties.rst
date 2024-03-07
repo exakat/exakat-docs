@@ -6,7 +6,7 @@ Overwritten Properties
 ++++++++++++++++++++++
 
   This command adds OVERWRITE link between property definitions of classes.
-
+The `$p` property will be linked between classes x and y, with an OVERWRITE link.
 
 .. code-block:: php
    
@@ -21,9 +21,6 @@ Overwritten Properties
    }
    
    ?>
-
-
-The `$p` property will be linked between classes x and y, with an OVERWRITE link.
 
 Specs
 _____

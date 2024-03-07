@@ -12,7 +12,7 @@ Variables have no definition expression in PHP. Exakat holds their definition wi
 Properties have definitions, and non-compulsory default values. This command creates multiple DEFINITION link for them.
 
 DEFAULT is convenient in the case of `null` value, which will be assigned an object at execution time. 
-
+Short assignations, such as `+=`  are not considered default value. It needs to be a full assignation
 
 .. code-block:: php
    
@@ -35,9 +35,6 @@ DEFAULT is convenient in the case of `null` value, which will be assigned an obj
    }
    
    ?>
-
-
-Short assignations, such as `+=`  are not considered default value. It needs to be a full assignation
 
 Specs
 _____

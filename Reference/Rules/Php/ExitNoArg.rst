@@ -5,7 +5,7 @@
 Exit Without Argument
 +++++++++++++++++++++
 
-  This rule reports usage of `die <https://www.php.net/die>`_ and `exit <https://www.www.php.net/exit>`_ without arguments. These commands are not functions, and are allowed to be used without parenthesis: by default, they use the 0 status.
+  This rule reports usage of `die <https://www.php.net/die>`_ and `exit <https://www.www.php.net/exit>`_ without arguments, nor parenthesis. These commands are not functions, and are allowed to be used without parenthesis: by default, they use the 0 status.
 
 .. code-block:: php
    

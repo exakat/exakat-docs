@@ -9,7 +9,6 @@ Used Classes
 
 Classes may be use when they are instantiated, or with `static <https://www.php.net/manual/en/language.oop5.static.php>`_ calls
 
-
 .. code-block:: php
    
    <?php

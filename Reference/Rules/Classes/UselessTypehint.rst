@@ -7,8 +7,7 @@ Useless Typehint
 
   `__get() <https://www.php.net/manual/en/language.oop5.magic.php>`_ and `__set() <https://www.php.net/manual/en/language.oop5.magic.php>`_ magic methods won't enforce any typehint. The name of the magic property is always cast to string.
 
-`__call() <https://www.php.net/manual/en/language.oop5.magic.php>`_ 
-
+`__call() <https://www.php.net/manual/en/language.oop5.magic.php>`_
 
 .. code-block:: php
    

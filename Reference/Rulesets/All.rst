@@ -295,7 +295,7 @@ Total : 1638 analysis
 * :ref:`dynamically-called-classes`
 * :ref:`conditioned-function`
 * :ref:`conditioned-constants`
-* :ref:`is-generator`
+* :ref:`method-is-a-generator`
 * :ref:`try-with-finally`
 * :ref:`use-password\_hash()`
 * :ref:`dereferencing-string-and-arrays`

@@ -11,7 +11,6 @@ Structures that commonly accept several lines, like `match() <https://www.php.ne
 
 Multiline expressions, like complex expressions, tend to be less readable. Although, some multiline expressions are written to make them more readable, compared to a one-line complex expression.
 
-
 .. code-block:: php
    
    <?php

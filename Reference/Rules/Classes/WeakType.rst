@@ -7,7 +7,6 @@ Weak Typing
 
   The variable's validation is not enough to allow for a sophisticated usage. For example, the variable is checked for null, then used as an object or an array.
 
-
 .. code-block:: php
    
    <?php

@@ -7,7 +7,6 @@ Dynamically Called Classes
 
   Indicates if a class is called dynamically.
 
-
 .. code-block:: php
    
    <?php

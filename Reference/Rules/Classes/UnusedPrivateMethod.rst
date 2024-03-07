@@ -10,8 +10,7 @@ Unused Private Methods
 Private methods are reserved for the defining class. Thus, they must be used with the current class, with ``$this`` or ``self\:\:``.
 
 Protected methods, in a standalone class, are also included.
-
-
+This analysis skips classes that makes `self <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ dynamic calls, such as ``$this->$method()``.
 
 .. code-block:: php
    
@@ -33,9 +32,6 @@ Protected methods, in a standalone class, are also included.
    }
    
    ?>
-
-
-This analysis skips classes that makes `self <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ dynamic calls, such as ``$this->$method()``.
 
 Suggestions
 ___________

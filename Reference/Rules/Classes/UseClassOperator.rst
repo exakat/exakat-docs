@@ -12,7 +12,9 @@ This is actually faster than strings, which are parsed at execution time, while 
 ``\:\:class`` operator is also able to handle use expressions, including aliases and local namespace. The code is easier to maintain. For example, the target class's namespace may be renamed, without changing the ``\:\:class``, while the string must be updated.
 
 ``\:\:class`` operator works with ``self`` and ``static``keywords. 
+This is not possible when building the name of the class with concatenation.
 
+This is a micro-optimization. This also helps `static <https://www.php.net/manual/en/language.oop5.static.php>`_ analysis, as it gives more information at compile time to analyse.
 
 .. code-block:: php
    
@@ -33,11 +35,6 @@ This is actually faster than strings, which are parsed at execution time, while 
    $object = new $className;
    
    ?>
-
-
-This is not possible when building the name of the class with concatenation.
-
-This is a micro-optimization. This also helps `static <https://www.php.net/manual/en/language.oop5.static.php>`_ analysis, as it gives more information at compile time to analyse.
 
 See also `::class <https://www.php.net/manual/en/language.oop5.basic.php#language.oop5.basic.class.class>`_.
 

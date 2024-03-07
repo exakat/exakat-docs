@@ -11,7 +11,6 @@ Local usage of the `closure <https://www.php.net/`closure <https://www.php.net/c
 
 This also supports first class callable, when the callable is defined in the code code (aka, not with native PHP functions or external libraries).
 
-
 .. code-block:: php
    
    <?php

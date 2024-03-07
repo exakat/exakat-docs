@@ -623,7 +623,6 @@ List of Rules
    Rules/Files/IsCliScript.rst
    Rules/Complete/IsExtStructure.rst
    Rules/Traits/IsExtTrait.rst
-   Rules/Functions/IsGenerator.rst
    Rules/Constants/IsGlobalConstant.rst
    Rules/Classes/IsInterfaceMethod.rst
    Rules/Project/IsLibrary.rst
@@ -691,6 +690,7 @@ List of Rules
    Rules/Classes/CouldBePrivateMethod.rst
    Rules/Classes/CouldBeStatic.rst
    Rules/Functions/HasFluentInterface.rst
+   Rules/Functions/IsGenerator.rst
    Rules/Functions/MethodIsNotAnIf.rst
    Rules/Functions/HasNotFluentInterface.rst
    Rules/Classes/MethodIsOverwritten.rst
@@ -3438,7 +3438,6 @@ List of analyzers, by version of introduction, newest to oldest. In parenthesis,
   * :ref:`Is An Extension Interface <is-an-extension-interface>`
   * :ref:`Is CLI Script <is-cli-script>`
   * :ref:`Is Extension Trait <is-extension-trait>`
-  * :ref:`Is Generator <is-generator>`
   * :ref:`Is Global Constant <is-global-constant>`
   * :ref:`Is Interface Method <is-interface-method>`
   * :ref:`Is Library <is-library>`
@@ -3466,6 +3465,7 @@ List of analyzers, by version of introduction, newest to oldest. In parenthesis,
   * :ref:`Malformed Octal <malformed-octal>`
   * :ref:`Md5 Strings <md5-strings>`
   * :ref:`Method Has Fluent Interface <method-has-fluent-interface>`
+  * :ref:`Method Is A Generator <method-is-a-generator>`
   * :ref:`Method Is Not For Fluent Interface <method-is-not-for-fluent-interface>`
   * :ref:`Methodcall On New <methodcall-on-new>`
   * :ref:`Methods Without Return <methods-without-return>`
@@ -4125,6 +4125,7 @@ Directory by PHP Function
       + :ref:`Fossilized Methods List <fossilized-methods-list>`
       + :ref:`Iffectations <iffectations>`
       + :ref:`Method Has Fluent Interface <method-has-fluent-interface>`
+      + :ref:`Method Is A Generator <method-is-a-generator>`
       + :ref:`Misused Yield <misused-yield>`
       + :ref:`Multiple Definition Of The Same Argument <multiple-definition-of-the-same-argument>`
       + :ref:`Must Return Methods <must-return-methods>`
@@ -6117,7 +6118,7 @@ Directory by PHP Function
       + :ref:`Could Use Yield From <could-use-yield-from>`
       + :ref:`Don't Loop On Yield <don't-loop-on-yield>`
       + :ref:`Generator Cannot Return <generator-cannot-return>`
-      + :ref:`Is Generator <is-generator>`
+      + :ref:`Method Is A Generator <method-is-a-generator>`
       + :ref:`Misused Yield <misused-yield>`
       + :ref:`No Return For Generator <no-return-for-generator>`
       + :ref:`PHP 7.1 Scalar Typehints <php-7.1-scalar-typehints>`
@@ -11181,7 +11182,7 @@ Exakat links each rules to PHP features.
 
     + :ref:`Can't Call Generator <can't-call-generator>`
     + :ref:`Generator Cannot Return <generator-cannot-return>`
-    + :ref:`Is Generator <is-generator>`
+    + :ref:`Method Is A Generator <method-is-a-generator>`
     + :ref:`No Return For Generator <no-return-for-generator>`
 
   + Global Code
@@ -12592,7 +12593,7 @@ Exakat links each rules to PHP features.
 
     + :ref:`Can't Call Generator <can't-call-generator>`
     + :ref:`Don't Loop On Yield <don't-loop-on-yield>`
-    + :ref:`Is Generator <is-generator>`
+    + :ref:`Method Is A Generator <method-is-a-generator>`
     + :ref:`No Return For Generator <no-return-for-generator>`
     + :ref:`Should Yield With Key <should-yield-with-key>`
     + :ref:`Yield From Usage <yield-from-usage>`
@@ -12833,7 +12834,7 @@ Exakat links each rules to PHP features.
 
     + :ref:`Can't Call Generator <can't-call-generator>`
     + :ref:`Could Use Yield From <could-use-yield-from>`
-    + :ref:`Is Generator <is-generator>`
+    + :ref:`Method Is A Generator <method-is-a-generator>`
     + :ref:`Misused Yield <misused-yield>`
     + :ref:`Yield From Usage <yield-from-usage>`
     + :ref:`Yield Usage <yield-usage>`

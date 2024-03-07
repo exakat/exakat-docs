@@ -6,7 +6,7 @@ Create Compact Variables
 ++++++++++++++++++++++++
 
   This command creates Variable definitions, based on usage of `compact() <https://www.php.net/compact>`_. 
-
+This only works when `compact() <https://www.php.net/compact>`_ is used with literal values, or with constants. Dynamic values are not reported.
 
 .. code-block:: php
    
@@ -17,9 +17,6 @@ Create Compact Variables
        return compact('a');
    }
    ?>
-
-
-This only works when `compact() <https://www.php.net/compact>`_ is used with literal values, or with constants. Dynamic values are not reported.
 
 Specs
 _____

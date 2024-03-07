@@ -7,7 +7,6 @@ Extended Typehints
 
   Produces all the definition links between typehints (arguments, return types, properties) and the definitions that are valid with the typehint.
 
-
 .. code-block:: php
    
    <?php

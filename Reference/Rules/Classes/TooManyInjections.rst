@@ -7,7 +7,6 @@ Too Many Injections
 
   When a class is constructed with more than four dependencies, it should be split into smaller classes.
 
-
 .. code-block:: php
    
    <?php

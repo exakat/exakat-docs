@@ -8,7 +8,9 @@ Unused Protected Methods
   The following protected methods are unused in children class. As such, they may be considered for being private.
 
 Methods reported by this analysis are not used by children, yet they are protected.
+No usage of those methods were found. 
 
+This analysis is impacted by dynamic method calls.
 
 .. code-block:: php
    
@@ -43,11 +45,6 @@ Methods reported by this analysis are not used by children, yet they are protect
    }
    
    ?>
-
-
-No usage of those methods were found. 
-
-This analysis is impacted by dynamic method calls.
 
 Suggestions
 ___________

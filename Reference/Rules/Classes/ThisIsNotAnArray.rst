@@ -9,7 +9,6 @@ $this Is Not An Array
 
 This is unless the class (or its parents) has the ``ArrayAccess`` interface, or extends ``ArrayObject`` or ``SimpleXMLElement``.
 
-
 .. code-block:: php
    
    <?php

@@ -35,12 +35,19 @@ Here is the release note of exakat.
 
 + Report
     + Ambassador : fixed documentation display of PHP scripts
+    + CallGraph : displays the call graph in dot format
 
 + Analysis
 	+ Refactored analysis : fixed bug in Missing New (confusion with property)
 	+ Augmented analysis : null coalesce and ?? with members
 	+ New analysis : useless coalesce operator
 	+ New analysis : report empty json_decode()
+	+ Refactored analysis : No Parenthesis For Language Construct now covers yield and yield from
+	+ New analysis : exit/die without parenthesis
+	+ New analysis : count() is not negative
+	+ Refactored analysis : Must return now skips generators and exited functions
+	+ Refactored analysis : Double object assignation now focuses on variables, properties.
+	+ Refactored analysis : Removed false positives with 'Can Call Generator'
 
 + Tokenizer
     + Made property inside a string with a Name, not a Identifier

@@ -7,7 +7,6 @@ Make Class Constant Definition
 
   This command adds DEFINITION link between class constant definitions and their usage.
 
-
 .. code-block:: php
    
    <?php

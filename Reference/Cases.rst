@@ -32,7 +32,7 @@ $this is used to call the document_upload_download_log() method, although this p
 .. code-block:: php
    
     <?php 
-    require_once(dirname(__FILE__) . "/../interface/globals.php");
+    require_once(dirname(__FILE__) . /../interface/globals.php);
     
     $type = $_GET['type'];
     $document_id = $_GET['doc_id'];
@@ -9446,7 +9446,7 @@ self::$sugar_strptime_long_mon refers to the current class, which extends DateTi
                    // FIXME: locale?
         $mon = $dateparts[$regexp['positions']['F']];
         if(isset(self::$sugar_strptime_long_mon[$mon])) {
-            $data["tm_mon"] = self::$sugar_strptime_long_mon[$mon];
+            $data[tm_mon] = self::$sugar_strptime_long_mon[$mon];
         } else {
             return false;
         }
@@ -11184,9 +11184,9 @@ The first while() is needed, to read the arbitrary long list returned by the SQL
 
 .. code-block:: php
    
-    function getInsuranceReport($pid, $type = ""primary"")
+    function getInsuranceReport($pid, $type = primary)
     {
-        $sql = ""select * from insurance_data where pid=? and type=? order by date ASC"";
+        $sql = select * from insurance_data where pid=? and type=? order by date ASC;
         $res = sqlStatement($sql, array($pid, $type));
         while ($list = sqlFetchArray($res)) {
             while (list($key, $value) = each($list)) {

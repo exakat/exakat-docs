@@ -9,7 +9,6 @@ Unused Class Constant
 
 Class constants may be used in expressions, in `static <https://www.php.net/manual/en/language.oop5.static.php>`_ expressions, when building other constants, or in default values.
 
-
 .. code-block:: php
    
    <?php

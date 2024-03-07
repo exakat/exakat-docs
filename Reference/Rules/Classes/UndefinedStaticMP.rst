@@ -5,8 +5,7 @@
 Undefined static\:\: Or self\:\:
 ++++++++++++++++++++++++++++++++
 
-  The identified property or method are undefined. `self <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ and `static <https://www.php.net/manual/en/language.oop5.static.php>`_ refer to the current class, or one of its `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ or trait. 
-
+  The identified property or method are undefined. `self <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ and `static <https://www.php.net/manual/en/language.oop5.static.php>`_ refer to the current class, or one of its `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ or trait.
 
 .. code-block:: php
    

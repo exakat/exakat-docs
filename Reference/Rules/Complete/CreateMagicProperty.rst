@@ -8,7 +8,7 @@ Create Magic Property
   This command creates a link DEFINITION between a ``__get`` and ``__set`` calls, and its equivalent magic method.
 
 It also adds links between ``__invoke`` and ``__toString`` in adapted situations.
-
+This command may not detect all possible link for the ``__get`` and ``__set`` call. It may be missing information about the nature of the object.
 
 .. code-block:: php
    
@@ -33,9 +33,6 @@ It also adds links between ``__invoke`` and ``__toString`` in adapted situations
    }
    
    ?>
-
-
-This command may not detect all possible link for the ``__get`` and ``__set`` call. It may be missing information about the nature of the object.
 
 Specs
 _____

@@ -7,7 +7,6 @@ Create Foreach Default
 
   This command adds DEFAULT link from the blind variables to the literal available.
 
-
 .. code-block:: php
    
    <?php

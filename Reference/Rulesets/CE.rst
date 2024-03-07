@@ -188,7 +188,7 @@ Total : 625 analysis
 * :ref:`multiple-catch`
 * :ref:`dynamically-called-classes`
 * :ref:`conditioned-function`
-* :ref:`is-generator`
+* :ref:`method-is-a-generator`
 * :ref:`try-with-finally`
 * :ref:`dereferencing-string-and-arrays`
 * :ref:`list()-may-omit-variables`

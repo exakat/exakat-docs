@@ -9,7 +9,6 @@ Unresolved Catch
 
 Catch clauses check that the emitted expression is of the requested Class, but if that class doesn't exist in the code, the catch clause is always false. This is dead code.
 
-
 .. code-block:: php
    
    <?php

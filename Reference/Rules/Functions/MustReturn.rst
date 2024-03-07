@@ -11,7 +11,6 @@ Methods that must return are : `__get() <https://www.php.net/manual/en/language.
 
 Methods that may not return, but are often expected to : `__call() <https://www.php.net/manual/en/language.oop5.magic.php>`_, `__callStatic() <https://www.php.net/manual/en/language.oop5.magic.php>`_.
 
-
 .. code-block:: php
    
    <?php

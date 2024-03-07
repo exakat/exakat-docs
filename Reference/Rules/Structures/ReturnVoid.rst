@@ -7,7 +7,6 @@ Return void
 
   Return returns null as default value. It is recommended to mention explicitly 'null' or find a meaningful return such as a boolean or a default value instead.
 
-
 .. code-block:: php
    
    <?php

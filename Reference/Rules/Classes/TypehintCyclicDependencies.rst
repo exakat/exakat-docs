@@ -9,7 +9,6 @@ DI Cyclic Dependencies
 
 Dependency injection should be organized as an acyclic tree-like structure
 
-
 .. code-block:: php
    
    <?php

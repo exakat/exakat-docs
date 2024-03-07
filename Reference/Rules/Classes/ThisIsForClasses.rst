@@ -11,8 +11,7 @@ $this Belongs To Classes Or Traits
 
 It is a pseudo-variable, and should be used within class's or trait's methods and not outside. It should also not be used in `static <https://www.php.net/manual/en/language.oop5.static.php>`_ methods.
 
-PHP 7.1 is stricter and check for `$this <https://www.php.net/manual/en/language.oop5.basic.php>`_ at several situations. 
-
+PHP 7.1 is stricter and check for `$this <https://www.php.net/manual/en/language.oop5.basic.php>`_ at several situations.
 
 .. code-block:: php
    

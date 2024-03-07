@@ -9,7 +9,6 @@ Used Private Methods
 
 Protected methods, in a standalone class, are also included.
 
-
 .. code-block:: php
    
    <?php

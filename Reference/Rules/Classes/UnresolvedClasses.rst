@@ -5,8 +5,7 @@
 Unresolved Classes
 ++++++++++++++++++
 
-  The following classes are instantiated in the code, but their definition couldn't be found. 
-
+  The following classes are instantiated in the code, but their definition couldn't be found.
 
 .. code-block:: php
    

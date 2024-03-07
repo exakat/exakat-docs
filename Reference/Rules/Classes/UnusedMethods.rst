@@ -11,8 +11,7 @@ They are probably dead code, unless they are called dynamically.
 
 This analysis omits methods which are in a class that makes dynamical `self <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ calls : ``$this->$m()``. That way, any method may be called. 
 
-This analysis omits methods which are overwritten by a child class. That way, they are considered to provide a default behavior. 
-
+This analysis omits methods which are overwritten by a child class. That way, they are considered to provide a default behavior.
 
 .. code-block:: php
    

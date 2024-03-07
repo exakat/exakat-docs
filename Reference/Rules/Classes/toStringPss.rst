@@ -9,7 +9,6 @@ Magic Visibility
 
 Magic methods cannot be declared as `static <https://www.php.net/manual/en/language.oop5.static.php>`_. They are always associated with an instance of a class and cannot be called statically.
 
-
 .. code-block:: php
    
    <?php

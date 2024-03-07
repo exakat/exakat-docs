@@ -1819,9 +1819,6 @@
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Traits/IsExtTrait.html</loc>
  </url>
  <url>
-  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Functions/IsGenerator.html</loc>
- </url>
- <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Constants/IsGlobalConstant.html</loc>
  </url>
  <url>
@@ -2021,6 +2018,9 @@
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Functions/HasFluentInterface.html</loc>
+ </url>
+ <url>
+  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Functions/IsGenerator.html</loc>
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Functions/MethodIsNotAnIf.html</loc>

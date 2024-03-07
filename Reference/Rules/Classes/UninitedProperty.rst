@@ -9,8 +9,7 @@ Uninitialized Property
 
 Properties may be initialized at definition time, along with their visibility and type. Some types are not initialized at definition time, as any object (before PHP 8.2) or resources, so they should be initialized during constructor. At the end of the former, all properties shall have a legit value, and be ready for usage.
 
-PHP 8.1 introduced the possibility to instantiate objects as default value, as long as they only require constant values. This means that those properties may have an object type and a default value. 
-
+PHP 8.1 introduced the possibility to instantiate objects as default value, as long as they only require constant values. This means that those properties may have an object type and a default value.
 
 .. code-block:: php
    

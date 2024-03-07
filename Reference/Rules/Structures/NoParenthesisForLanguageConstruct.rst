@@ -6,7 +6,7 @@ No Parenthesis For Language Construct
 +++++++++++++++++++++++++++++++++++++
 
   Some PHP language constructs, such are ``include``, ``require``, ``include_once``, ``require_once``, ``print``, ``echo`` don't need parenthesis. They accept parenthesis, but it is may lead to strange situations. 
-
+It it better to avoid using parenthesis with ``echo``, ``print``, ``return``, ``throw``, ``yield``, ``yield from``, ``include``, ``require``, ``include_once``, ``require_once``.
 
 .. code-block:: php
    
@@ -18,9 +18,6 @@ No Parenthesis For Language Construct
    // include  'foo.inc' or die();
    
    ?>
-
-
-It it better to avoid using parenthesis with ``echo``, ``print``, ``return``, ``throw``, ``yield``, ``yield from``, ``include``, ``require``, ``include_once``, ``require_once``.
 
 See also `ON PHP LANGUAGE CONSTRUCTS AND PARENTHESES <https://tfrommen.de/on-php-language-constructs-and-parentheses/>`_ and  `include <https://www.php.net/manual/en/function.include.php>`_.
 

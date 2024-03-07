@@ -8,7 +8,9 @@ Using $this Outside A Class
   ``$this`` is a special variable, that should only be used in a class context. 
 
 Until PHP 7.1, ``$this`` may be used as an argument in a function or a method, a global, a `static <https://www.php.net/manual/en/language.oop5.static.php>`_ : while this is legit, it sounds confusing enough to avoid it.
+Starting with PHP 7.1, the PHP `engine <https://www.php.net/engine>`_ check thoroughly that ``$this`` is used in an appropriate manner, and raise fatal errors in case it isn't. 
 
+Yet, it is possible to find ``$this`` outside a class : if the file is included inside a class, then ``$this`` will be recognized and validated. If the file is included outside a class context, it will yield a fatal `error <https://www.php.net/error>`_ : ``Using `$this <https://www.php.net/manual/en/language.oop5.basic.php>`_ when not in object context``.
 
 .. code-block:: php
    
@@ -24,11 +26,6 @@ Until PHP 7.1, ``$this`` may be used as an argument in a function or a method, a
    }
    
    ?>
-
-
-Starting with PHP 7.1, the PHP `engine <https://www.php.net/engine>`_ check thoroughly that ``$this`` is used in an appropriate manner, and raise fatal errors in case it isn't. 
-
-Yet, it is possible to find ``$this`` outside a class : if the file is included inside a class, then ``$this`` will be recognized and validated. If the file is included outside a class context, it will yield a fatal `error <https://www.php.net/error>`_ : ``Using `$this <https://www.php.net/manual/en/language.oop5.basic.php>`_ when not in object context``.
 
 See also `Closure::bind <https://www.php.net/manual/en/closure.bind.php>`_ and `The Basics <https://www.php.net/manual/en/language.oop5.basic.php>`_.
 

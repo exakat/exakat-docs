@@ -7,7 +7,6 @@ Used Protected Method
 
   Marks methods being used in the current class or its children classes.
 
-
 .. code-block:: php
    
    <?php

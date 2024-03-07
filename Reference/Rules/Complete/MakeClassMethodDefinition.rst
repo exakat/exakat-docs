@@ -6,7 +6,9 @@ Make Class Method Definition
 ++++++++++++++++++++++++++++
 
   This command links a method call to its method definition. 
+This command may not detect all possible link for the methods. It may be missing information about the nature of the object.
 
+This command may also produce multiple definitions link, when the definition are ambiguous.
 
 .. code-block:: php
    
@@ -25,11 +27,6 @@ Make Class Method Definition
    }
    
    ?>
-
-
-This command may not detect all possible link for the methods. It may be missing information about the nature of the object.
-
-This command may also produce multiple definitions link, when the definition are ambiguous.
 
 Specs
 _____

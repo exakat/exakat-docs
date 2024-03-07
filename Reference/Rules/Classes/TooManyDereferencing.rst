@@ -10,7 +10,7 @@ Too Many Dereferencing
 This analysis counts both `static <https://www.php.net/manual/en/language.oop5.static.php>`_ calls and normal call; methods, properties and constants. It also takes into account arrays along the way.
 
 The default limit of chaining methods and properties is set to 7 by default. 
-
+Too many chained methods is harder to read.
 
 .. code-block:: php
    
@@ -20,9 +20,6 @@ The default limit of chaining methods and properties is set to 7 by default.
    $main->getA()->getB()->getC()->getD()->getE()->getF()->getG()->getH()->getI()->property;
    
    ?>
-
-
-Too many chained methods is harder to read.
 
 +----------------------+---------+---------+----------------------------------+
 | Name                 | Default | Type    | Description                      |
