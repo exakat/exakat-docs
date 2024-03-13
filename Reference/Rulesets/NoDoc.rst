@@ -19,7 +19,7 @@ Total : 36 analysis
 * :ref:`make-class-method-definition`
 * :ref:`create-default-values`
 * :ref:`set-class\_alias()-definition`
-* :ref:`make-class-constant-definition`
+* :ref:`makes-class-constant-definition`
 * :ref:`set-class-remote-definition-with-injection`
 * :ref:`solve-trait-methods`
 * :ref:`follow-closure-definition`

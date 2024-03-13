@@ -7,7 +7,6 @@ Direct Injection
 
   The following code act directly upon PHP incoming variables like ``$_GET`` and ``$_POST``. This makes those snippets very unsafe.
 
-
 .. code-block:: php
    
    <?php
@@ -41,7 +40,7 @@ _____
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Security/DirectInjection                                                                                                |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Security <ruleset-Security>`                                                            |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`, :ref:`Security <ruleset-Security>`        |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 0.8.4                                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

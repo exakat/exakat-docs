@@ -11,7 +11,6 @@ Currently, classes with more than 1 defined method are used to identify possible
 
 Only the name of the method is used to identify possible methods. Signature and method options are not taken into account.
 
-
 .. code-block:: php
    
    <?php
@@ -51,7 +50,7 @@ _____
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Interfaces/PossibleInterfaces                                                                                           |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`                                                                                                |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`                                            |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 2.0.6                                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

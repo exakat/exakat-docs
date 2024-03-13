@@ -8,7 +8,7 @@ preg_match_all() Flag
   `preg_match_all() <https://www.php.net/preg_match_all>`_ has an option to configure the structure of the results : it is either by capturing parenthesis (by default), or by `result <https://www.php.net/result>`_ sets. 
 
 The second option is the most interesting when the following `foreach() <https://www.php.net/manual/en/control-structures.foreach.php>`_ loop has to manipulate several captured strings at the same time. No need to use an index in the first array and use it in the other arrays.
-
+The second syntax is easier to read and may be marginally faster to execute (`preg_match_all() <https://www.php.net/preg_match_all>`_ and `foreach()) <https://www.php.net/manual/en/control-structures.foreach.php>`_.
 
 .. code-block:: php
    
@@ -31,9 +31,6 @@ The second option is the most interesting when the following `foreach() <https:/
    
    ?>
 
-
-The second syntax is easier to read and may be marginally faster to execute (`preg_match_all() <https://www.php.net/preg_match_all>`_ and `foreach()) <https://www.php.net/manual/en/control-structures.foreach.php>`_.
-
 Suggestions
 ___________
 
@@ -48,7 +45,7 @@ _____
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Php/PregMatchAllFlag                                                                                                    |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Suggestions <ruleset-Suggestions>`                                                      |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`, :ref:`Suggestions <ruleset-Suggestions>`  |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 0.8.4                                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

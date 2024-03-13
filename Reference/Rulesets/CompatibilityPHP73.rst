@@ -5,7 +5,7 @@ CompatibilityPHP73
 
 This ruleset centralizes all analysis for the migration from PHP 7.2 to 7.3.
 
-Total : 41 analysis
+Total : 43 analysis
 
 * :ref:`new-functions-in-php-7.3`
 * :ref:`unknown-pcre2-option`
@@ -48,6 +48,8 @@ Total : 41 analysis
 * :ref:`final-traits-are-final`
 * :ref:`typed-class-constants-usage`
 * :ref:`void-is-not-a-reference`
+* :ref:`php-8.1-new-types`
+* :ref:`php-8.2-new-types`
 
 Specs
 _____

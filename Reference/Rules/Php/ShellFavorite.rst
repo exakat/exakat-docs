@@ -9,7 +9,6 @@ Shell Favorite
 
 It was found that one of those three is actually being used over 90% of the time. The remaining cases should be uniformed, so has to make this code consistent.
 
-
 .. code-block:: php
    
    <?php
@@ -41,7 +40,7 @@ _____
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Php/ShellFavorite                                                                                                       |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Preferences <ruleset-Preferences>`                                                      |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`, :ref:`Preferences <ruleset-Preferences>`  |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 0.12.9                                                                                                                  |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

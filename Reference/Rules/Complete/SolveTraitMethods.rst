@@ -7,7 +7,6 @@ Solve Trait Methods
 
   This command adds DEFINITION link between trait's method definitions and their usage in classes.
 
-
 .. code-block:: php
    
    <?php
@@ -37,7 +36,7 @@ _____
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Complete/SolveTraitMethods                                                                                              |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`NoDoc <ruleset-NoDoc>`                                                                  |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`, :ref:`NoDoc <ruleset-NoDoc>`              |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 1.9.2                                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

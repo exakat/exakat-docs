@@ -6,7 +6,7 @@ Rules
 Introduction
 ------------------------
 
-Exakat provides unique 1640 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
+Exakat provides unique 1644 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
 
 Each rule is documented with code example to allow you to remediate your code. If you want to automate remediation, ours cobblers can are there to fix the issues in your code for your.  
 
@@ -211,9 +211,9 @@ List of Rules
    Rules/Dump/CollectStubStructures.rst
    Rules/Dump/CollectThrow.rst
    Rules/Dump/CollectUseCounts.rst
-   Rules/Dump/CollectVariables.rst
    Rules/Dump/CollectVendorStructures.rst
    Rules/Dump/CollectsNames.rst
+   Rules/Dump/CollectVariables.rst
    Rules/Dump/CombinedCalls.rst
    Rules/Structures/CommonAlternatives.rst
    Rules/Security/CompareHash.rst
@@ -668,12 +668,12 @@ List of Rules
    Rules/Classes/toStringPss.rst
    Rules/Structures/MailUsage.rst
    Rules/Complete/MakeAllStatics.rst
-   Rules/Complete/MakeClassConstantDefinition.rst
    Rules/Complete/MakeClassMethodDefinition.rst
    Rules/Complete/MakeFunctioncallWithReference.rst
    Rules/Classes/MakeGlobalAProperty.rst
    Rules/Classes/MakeMagicConcrete.rst
    Rules/Performances/MakeOneCall.rst
+   Rules/Complete/MakeClassConstantDefinition.rst
    Rules/Type/MalformedOctal.rst
    Rules/Php/IsINF.rst
    Rules/Php/IsNAN.rst
@@ -936,11 +936,13 @@ List of Rules
    Rules/Php/Php80RemovedFunctions.rst
    Rules/Php/Php80RemovesResources.rst
    Rules/Php/PHP80scalartypehints.rst
+   Rules/Php/Php81NewTypes.rst
    Rules/Php/Php81RemovedConstant.rst
    Rules/Php/Php81RemovedDirective.rst
    Rules/Php/Php81RemovedFunctions.rst
    Rules/Php/Php81RemovesResources.rst
    Rules/Php/PHP81scalartypehints.rst
+   Rules/Php/Php82NewTypes.rst
    Rules/Php/Php80NamedParameterVariadic.rst
    Rules/Php/AlternativeSyntax.rst
    Rules/Arrays/Phparrayindex.rst
@@ -1173,6 +1175,7 @@ List of Rules
    Rules/Structures/StringInterpolationFavorite.rst
    Rules/Type/StringHoldAVariable.rst
    Rules/Type/StringWithStrangeSpace.rst
+   Rules/Structures/StrposLessThanOne.rst
    Rules/Structures/StrposCompare.rst
    Rules/Php/StrtrArguments.rst
    Rules/Structures/SubstrToTrim.rst
@@ -1425,6 +1428,7 @@ List of Rules
    Rules/Structures/VariableGlobal.rst
    Rules/Variables/IsLocalConstant.rst
    Rules/Structures/NoVariableIsACondition.rst
+   Rules/Functions/VariableParameterAmbiguityInArrowFunction.rst
    Rules/Variables/References.rst
    Rules/Variables/VariableVariables.rst
    Rules/Variables/VariableLong.rst
@@ -1670,7 +1674,11 @@ List of analyzers, by version of introduction, newest to oldest. In parenthesis,
   * :ref:`Count() Is Not Negative <count()-is-not-negative>`
   * :ref:`Empty Json Error <empty-json-error>`
   * :ref:`Exit Without Argument <exit-without-argument>`
+  * :ref:`PHP 8.1 New Types <php-8.1-new-types>`
+  * :ref:`PHP 8.2 New Types <php-8.2-new-types>`
+  * :ref:`Strpos() Less Than One <strpos()-less-than-one>`
   * :ref:`Useless Coalesce <useless-coalesce>`
+  * :ref:`Variable Parameter Ambiguity In Arrow Function <variable-parameter-ambiguity-in-arrow-function>`
 
 * 2.6.5
 
@@ -2125,7 +2133,7 @@ List of analyzers, by version of introduction, newest to oldest. In parenthesis,
   * :ref:`Collect Global Variables <collect-global-variables>`
   * :ref:`Collect Native Calls Per Expressions <collect-native-calls-per-expressions>`
   * :ref:`Collect Readability <collect-readability>`
-  * :ref:`Collect Variables <collect-variables>`
+  * :ref:`Collects Variables <collects-variables>`
   * :ref:`Could Be Parent Method <could-be-parent-method>`
   * :ref:`Don't Pollute Global Space <don't-pollute-global-space>`
   * :ref:`Missing Some Returntype <missing-some-returntype>`
@@ -2359,8 +2367,8 @@ List of analyzers, by version of introduction, newest to oldest. In parenthesis,
   * :ref:`Create Magic Property <create-magic-property>`
   * :ref:`Follow Closure Definition <follow-closure-definition>`
   * :ref:`Implode() Arguments Order <implode()-arguments-order>`
-  * :ref:`Make Class Constant Definition <make-class-constant-definition>`
   * :ref:`Make Class Method Definition <make-class-method-definition>`
+  * :ref:`Makes Class Constant Definition <makes-class-constant-definition>`
   * :ref:`No ENT_IGNORE <no-ent\_ignore>`
   * :ref:`No More Curly Arrays <no-more-curly-arrays>`
   * :ref:`Overwritten Constant <overwritten-constant>`
@@ -4114,6 +4122,7 @@ Directory by PHP Function
     + `...`
 
       + :ref:`Ambiguous Static <ambiguous-static>`
+      + :ref:`Array_merge Needs Array Of Arrays <array\_merge-needs-array-of-arrays>`
       + :ref:`Check On __Call Usage <check-on-\_\_call-usage>`
       + :ref:`Collect Vendor Structures <collect-vendor-structures>`
       + :ref:`Constant Dynamic Creation <constant-dynamic-creation>`
@@ -5174,6 +5183,7 @@ Directory by PHP Function
       + :ref:`No Hardcoded Port <no-hardcoded-port>`
       + :ref:`No Parenthesis For Language Construct <no-parenthesis-for-language-construct>`
       + :ref:`Or Die <or-die>`
+      + :ref:`PHP 8.1 New Types <php-8.1-new-types>`
       + :ref:`Print And Die <print-and-die>`
       + :ref:`Stomp <stomp>`
       + :ref:`Type Could Be Never <type-could-be-never>`
@@ -5443,6 +5453,7 @@ Directory by PHP Function
       + :ref:`Accessing Private <accessing-private>`
       + :ref:`Always Anchor Regex <always-anchor-regex>`
       + :ref:`Ambiguous Static <ambiguous-static>`
+      + :ref:`Array_merge Needs Array Of Arrays <array\_merge-needs-array-of-arrays>`
       + :ref:`Assert Function Is Reserved <assert-function-is-reserved>`
       + :ref:`Avoid Optional Properties <avoid-optional-properties>`
       + :ref:`Avoid Self In Interface <avoid-self-in-interface>`
@@ -5877,6 +5888,7 @@ Directory by PHP Function
       + :ref:`Strict Comparison With Booleans <strict-comparison-with-booleans>`
       + :ref:`String Int Comparison <string-int-comparison>`
       + :ref:`Strings With Strange Space <strings-with-strange-space>`
+      + :ref:`Strpos() Less Than One <strpos()-less-than-one>`
       + :ref:`Strpos()-like Comparison <strpos()-like-comparison>`
       + :ref:`Unchecked Resources <unchecked-resources>`
       + :ref:`Undefined Interfaces <undefined-interfaces>`
@@ -6105,6 +6117,7 @@ Directory by PHP Function
 
     + `Generator`
 
+      + :ref:`Method Is A Generator <method-is-a-generator>`
       + :ref:`Should Yield With Key <should-yield-with-key>`
 
     + `gc_mem_caches()`
@@ -6194,6 +6207,10 @@ Directory by PHP Function
     + `getdate()`
 
       + :ref:`date() versus DateTime Preference <date()-versus-datetime-preference>`
+
+    + `getenv()`
+
+      + :ref:`Environment Variable Usage <environment-variable-usage>`
 
     + `getimagesizefromstring()`
 
@@ -6575,7 +6592,6 @@ Directory by PHP Function
       + :ref:`Use Instanceof <use-instanceof>`
       + :ref:`Use is_countable <use-is\_countable>`
       + :ref:`Used Interfaces <used-interfaces>`
-      + :ref:`Useless Interfaces <useless-interfaces>`
       + :ref:`ext/psr <ext-psr>`
       + :ref:`is_a() Versus instanceof <is\_a()-versus-instanceof>`
       + :ref:`self, parent, static Outside Class <self,-parent,-static-outside-class>`
@@ -7863,7 +7879,6 @@ Directory by PHP Function
       + :ref:`Final Class Usage <final-class-usage>`
       + :ref:`Final Methods Usage <final-methods-usage>`
       + :ref:`Joining file() <joining-file()>`
-      + :ref:`Make One Call With Array <make-one-call-with-array>`
       + :ref:`Mono Or Multibytes Favorite <mono-or-multibytes-favorite>`
       + :ref:`New Line Style <new-line-style>`
       + :ref:`Next Month Trap <next-month-trap>`
@@ -8469,7 +8484,6 @@ Directory by PHP Function
       + :ref:`Large Try Block <large-try-block>`
       + :ref:`Law of Demeter <law-of-demeter>`
       + :ref:`Logical To in_array <logical-to-in\_array>`
-      + :ref:`Make One Call With Array <make-one-call-with-array>`
       + :ref:`Methodcall On New <methodcall-on-new>`
       + :ref:`Mismatched Ternary Alternatives <mismatched-ternary-alternatives>`
       + :ref:`No Null With Null Safe Operator <no-null-with-null-safe-operator>`
@@ -9095,6 +9109,7 @@ Directory by PHP Function
       + :ref:`Could Be A Static Variable <could-be-a-static-variable>`
       + :ref:`Could Be Static Closure <could-be-static-closure>`
       + :ref:`Could Be Typehinted Callable <could-be-typehinted-callable>`
+      + :ref:`Create Foreach Default <create-foreach-default>`
       + :ref:`Declare Global Early <declare-global-early>`
       + :ref:`Declare Static Once <declare-static-once>`
       + :ref:`Defined Parent MP <defined-parent-mp>`
@@ -9299,6 +9314,7 @@ Directory by PHP Function
 
       + :ref:`Mono Or Multibytes Favorite <mono-or-multibytes-favorite>`
       + :ref:`Simplify Regex <simplify-regex>`
+      + :ref:`Strpos() Less Than One <strpos()-less-than-one>`
       + :ref:`Strpos()-like Comparison <strpos()-like-comparison>`
       + :ref:`Use str_contains() <use-str\_contains()>`
       + :ref:`strpos() Too Much <strpos()-too-much>`
@@ -9320,6 +9336,7 @@ Directory by PHP Function
       + :ref:`Mono Or Multibytes Favorite <mono-or-multibytes-favorite>`
       + :ref:`Simplify Regex <simplify-regex>`
       + :ref:`Slow Functions <slow-functions>`
+      + :ref:`Strpos() Less Than One <strpos()-less-than-one>`
       + :ref:`Strpos()-like Comparison <strpos()-like-comparison>`
       + :ref:`Use str_contains() <use-str\_contains()>`
       + :ref:`strpos() Too Much <strpos()-too-much>`
@@ -9609,6 +9626,7 @@ Directory by PHP Function
       + :ref:`No Boolean As Default <no-boolean-as-default>`
       + :ref:`Null Or Boolean Arrays <null-or-boolean-arrays>`
       + :ref:`PHP 7.1 Microseconds <php-7.1-microseconds>`
+      + :ref:`PHP 8.2 New Types <php-8.2-new-types>`
       + :ref:`PHP 80 Named Parameter Variadic <php-80-named-parameter-variadic>`
       + :ref:`PHP Handlers Usage <php-handlers-usage>`
       + :ref:`PHP Native Class Type Compatibility <php-native-class-type-compatibility>`
@@ -10178,7 +10196,7 @@ Exakat links each rules to PHP features.
     + :ref:`Internet Ports <internet-ports>`
     + :ref:`Order Of Declaration <order-of-declaration>`
 
-  + Arbitrary Number of Argument
+  + Arbitrary Number Of Argument
 
     + :ref:`func_get_arg() Modified <func\_get\_arg()-modified>`
 
@@ -10255,6 +10273,7 @@ Exakat links each rules to PHP features.
     + :ref:`Fn Argument Variable Confusion <fn-argument-variable-confusion>`
     + :ref:`Follow Closure Definition <follow-closure-definition>`
     + :ref:`Use Arrow Functions <use-arrow-functions>`
+    + :ref:`Variable Parameter Ambiguity In Arrow Function <variable-parameter-ambiguity-in-arrow-function>`
 
   + Assertions
 
@@ -11834,13 +11853,13 @@ Exakat links each rules to PHP features.
     + :ref:`PSR-7 Usage <psr-7-usage>`
     + :ref:`ext/psr <ext-psr>`
 
+  + PHP Tags
+
+    + :ref:`Using Short Tags <using-short-tags>`
+
   + PHP Variables
 
     + :ref:`Safe Phpvariables <safe-phpvariables>`
-
-  + PHP tags
-
-    + :ref:`Using Short Tags <using-short-tags>`
 
   + Parameter
 
@@ -12207,7 +12226,7 @@ Exakat links each rules to PHP features.
     + :ref:`Could Be Class Constant <could-be-class-constant>`
     + :ref:`Could Be Protected Class Constant <could-be-protected-class-constant>`
     + :ref:`Defined Class Constants <defined-class-constants>`
-    + :ref:`Make Class Constant Definition <make-class-constant-definition>`
+    + :ref:`Makes Class Constant Definition <makes-class-constant-definition>`
     + :ref:`New Dynamic Class Constant Syntax <new-dynamic-class-constant-syntax>`
     + :ref:`Overwritten Class Constants <overwritten-class-constants>`
     + :ref:`Overwritten Constant <overwritten-constant>`
@@ -12506,7 +12525,7 @@ Exakat links each rules to PHP features.
 
     + :ref:`All Uppercase Variables <all-uppercase-variables>`
     + :ref:`Assigned Twice <assigned-twice>`
-    + :ref:`Collect Variables <collect-variables>`
+    + :ref:`Collects Variables <collects-variables>`
     + :ref:`Configure Extract <configure-extract>`
     + :ref:`Confusing Names <confusing-names>`
     + :ref:`Constant Typo Looks Like A Variable <constant-typo-looks-like-a-variable>`

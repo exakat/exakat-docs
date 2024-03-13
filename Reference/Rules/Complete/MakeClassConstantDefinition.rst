@@ -1,11 +1,11 @@
 .. _complete-makeclassconstantdefinition:
 
-.. _make-class-constant-definition:
+.. _makes-class-constant-definition:
 
-Make Class Constant Definition
-++++++++++++++++++++++++++++++
+Makes Class Constant Definition
++++++++++++++++++++++++++++++++
 
-  This command adds DEFINITION link between class constant definitions and their usage.
+  This rule adds DEFINITION link between class constant definitions and their usage. These links are used later to identify the values delivered by the constant.
 
 .. code-block:: php
    
@@ -29,7 +29,7 @@ _____
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Complete/MakeClassConstantDefinition                                                                                                                                                    |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`CE <ruleset-CE>`, :ref:`NoDoc <ruleset-NoDoc>`                                                                                                          |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`CE <ruleset-CE>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`, :ref:`NoDoc <ruleset-NoDoc>`                                                      |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 1.9.2                                                                                                                                                                                   |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

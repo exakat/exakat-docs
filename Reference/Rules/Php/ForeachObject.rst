@@ -9,7 +9,6 @@ Foreach On Object
 
 Foreach on an object member is a legit PHP syntax, though it is very rare : blind variables rarely have to be securing in an object to be processed.
 
-
 .. code-block:: php
    
    <?php
@@ -32,7 +31,7 @@ _____
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Php/ForeachObject                                                                                                       |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Analyze <ruleset-Analyze>`                                                              |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Analyze <ruleset-Analyze>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`          |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 1.1.6                                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

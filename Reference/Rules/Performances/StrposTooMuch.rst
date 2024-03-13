@@ -8,7 +8,7 @@ strpos() Too Much
   `strpos() <https://www.php.net/strpos>`_ covers the whole string before reporting 0. If the expected string is expected be at the beginning, or a fixed place, it is more stable to use `substr() <https://www.php.net/substr>`_ for comparison.
 
 The longer the haystack (the searched string), the more efficient is that trick. The string has to be 10k or more to have impact, unless it is in a loop. 
-
+This applies to `stripos() <https://www.php.net/stripos>`_ too.
 
 .. code-block:: php
    
@@ -38,9 +38,6 @@ The longer the haystack (the searched string), the more efficient is that trick.
    
    ?>
 
-
-This applies to `stripos() <https://www.php.net/stripos>`_ too.
-
 Suggestions
 ___________
 
@@ -57,7 +54,7 @@ _____
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Performances/StrposTooMuch                                                                                                                                                              |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Analyze <ruleset-Analyze>`, :ref:`CE <ruleset-CE>`, :ref:`CI-checks <ruleset-CI-checks>`                                                                |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Analyze <ruleset-Analyze>`, :ref:`CE <ruleset-CE>`, :ref:`CI-checks <ruleset-CI-checks>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`            |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 1.2.8                                                                                                                                                                                   |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

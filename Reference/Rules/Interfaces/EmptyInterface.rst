@@ -7,7 +7,6 @@ Empty Interfaces
 
   Empty interfaces are a code smell. Interfaces should contains at least a method or a constant, and not be totally empty.
 
-
 .. code-block:: php
    
    <?php
@@ -45,7 +44,7 @@ _____
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Interfaces/EmptyInterface                                                                                               |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Analyze <ruleset-Analyze>`                                                              |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Analyze <ruleset-Analyze>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`          |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 0.8.4                                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

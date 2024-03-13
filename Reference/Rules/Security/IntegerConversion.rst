@@ -8,7 +8,7 @@ Insecure Integer Validation
   Comparing incoming variables to integer may lead to injection.
 
 When comparing a variable to an integer, PHP applies type juggling, and transform the variable in an integer too. When the value converts smoothly to an integer, this means the validation may pass and yet, the value may carry an injection.
-
+This analysis spots situations where an incoming value is compared to an integer. The usage of the validated value is not analyzed further.
 
 .. code-block:: php
    
@@ -37,9 +37,6 @@ When comparing a variable to an integer, PHP applies type juggling, and transfor
    
    ?>
 
-
-This analysis spots situations where an incoming value is compared to an integer. The usage of the validated value is not analyzed further.
-
 See also `Type Juggling Authentication Bypass Vulnerability in CMS Made Simple <https://www.netsparker.com/blog/web-security/type-juggling-authentication-bypass-cms-made-simple/>`_, `PHP STRING COMPARISON VULNERABILITIES <https://hydrasky.com/network-security/php-string-comparison-vulnerabilities/>`_ and `PHP Magic Tricks: Type Juggling <https://www.owasp.org/images/6/6b/PHPMagicTricks-TypeJuggling.pdf>`_.
 
 
@@ -58,7 +55,7 @@ _____
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Security/IntegerConversion                                                                                              |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Security <ruleset-Security>`                                                            |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`, :ref:`Security <ruleset-Security>`        |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 1.7.7                                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

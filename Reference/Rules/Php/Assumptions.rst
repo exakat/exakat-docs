@@ -7,8 +7,7 @@ Assumptions
 
   Assumptions in the code, that leads to possible bugs. 
 
-Some conditions may be very weak, and lead to errors. For example, the code below checks that the variable `$a` is not null, then uses it as an array. There is no relationship between 'not null' and 'being an array', so this is an assumption. 
-
+Some conditions may be very weak, and lead to errors. For example, the code below checks that the variable `$a` is not null, then uses it as an array. There is no relationship between 'not null' and 'being an array', so this is an assumption.
 
 .. code-block:: php
    
@@ -50,7 +49,7 @@ _____
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Php/Assumptions                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Analyze <ruleset-Analyze>`                                                              |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Analyze <ruleset-Analyze>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`          |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 2.1.9                                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

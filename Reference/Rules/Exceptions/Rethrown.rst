@@ -9,8 +9,7 @@ Rethrown Exceptions
 
 When exceptions are caught, they should be processed or transformed, but not rethrown as is.
 
-Those issues often happen when a catch structure was positioned for debug purposes, but lost its usage later. 
-
+Those issues often happen when a catch structure was positioned for debug purposes, but lost its usage later.
 
 .. code-block:: php
    
@@ -43,7 +42,7 @@ _____
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Exceptions/Rethrown                                                                                                     |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Dead code <ruleset-Dead-code>`                                                          |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`, :ref:`Dead code <ruleset-Dead-code>`      |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 0.9.0                                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

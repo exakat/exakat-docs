@@ -48,6 +48,12 @@ Here is the release note of exakat.
 	+ Refactored analysis : Must return now skips generators and exited functions
 	+ Refactored analysis : Double object assignation now focuses on variables, properties.
 	+ Refactored analysis : Removed false positives with 'Can Call Generator'
+	+ Refactored analysis : Removed false positives with OnlyVariablePassedByReference
+	+ Refactored analysis : Useless reference in foreach
+	+ New analysis : report possible confusion between parameter and variable in arrow functions
+	+ New analysis : report usage of the new PHP 8.1 types
+	+ New analysis : report usage of the new PHP 8.2 types
+	+ New analysis : report usage of strpos() < 1 (possible bug)
 
 + Tokenizer
     + Made property inside a string with a Name, not a Identifier

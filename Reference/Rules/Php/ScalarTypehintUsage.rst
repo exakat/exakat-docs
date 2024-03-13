@@ -9,8 +9,7 @@ Scalar Typehint Usage
 
 Scalar typehint are PHP 7.0 and more recent. Some, like ``object``, is 7.2.
 
-Scalar typehint were not supported in PHP 5 and older. Then, the typehint is treated as a class name. 
-
+Scalar typehint were not supported in PHP 5 and older. Then, the typehint is treated as a class name.
 
 .. code-block:: php
    

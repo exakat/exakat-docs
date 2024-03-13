@@ -13,7 +13,6 @@ callable may be a string representing a function name or a `static <https://www.
 
 When arguments are used to call a function, but are not marked with 'callable', they are reported by this analysis.
 
-
 .. code-block:: php
    
    <?php
@@ -48,7 +47,7 @@ _____
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Functions/CouldBeCallable                                                                                               |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`                                                                                                |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`                                            |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 0.10.5                                                                                                                  |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

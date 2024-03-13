@@ -9,8 +9,7 @@ Must Call Parent Constructor
 
 As of PHP 7.3, two classes currently need that call : ``SplTempFileObject`` and ``SplFileObject``.
 
-The `error <https://www.php.net/error>`_ is only emitted if the class is instantiated, and a `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ class is called. 
-
+The `error <https://www.php.net/error>`_ is only emitted if the class is instantiated, and a `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ class is called.
 
 .. code-block:: php
    
@@ -25,7 +24,7 @@ The `error <https://www.php.net/error>`_ is only emitted if the class is instant
    (new mySplFileObject())->passthru();
    ?>
 
-See also `Why, php? WHY??? <https://gist.github.com/everzet/4215537>`_\.
+See also `Why, php? WHY??? <https://gist.github.com/everzet/4215537>`_.
 
 
 Suggestions
@@ -43,7 +42,7 @@ _____
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Php/MustCallParentConstructor                                                                                           |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Analyze <ruleset-Analyze>`                                                              |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Analyze <ruleset-Analyze>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`          |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 1.4.1                                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

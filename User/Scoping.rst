@@ -841,6 +841,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Functions/UsesDefaultArguments";
    analyzer[] = "Functions/UsingDeprecated";
    analyzer[] = "Functions/VariableArguments";
+   analyzer[] = "Functions/VariableParameterAmbiguityInArrowFunction";
    analyzer[] = "Functions/VoidIsNotAReference";
    analyzer[] = "Functions/WithoutReturn";
    analyzer[] = "Functions/WrongArgumentNameWithPhpFunction";
@@ -1127,11 +1128,13 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Php/Php80VariableSyntax";
    analyzer[] = "Php/Php81IntersectionTypehint";
    analyzer[] = "Php/Php81NewFunctions";
+   analyzer[] = "Php/Php81NewTypes";
    analyzer[] = "Php/Php81RemovedConstant";
    analyzer[] = "Php/Php81RemovedDirective";
    analyzer[] = "Php/Php81RemovedFunctions";
    analyzer[] = "Php/Php81RemovesResources";
    analyzer[] = "Php/Php82NewFunctions";
+   analyzer[] = "Php/Php82NewTypes";
    analyzer[] = "Php/Php83NewClasses";
    analyzer[] = "Php/Php83NewFunctions";
    analyzer[] = "Php/PhpErrorMsgUsage";
@@ -1556,6 +1559,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/StringInterpolationFavorite";
    analyzer[] = "Structures/StripTagsSkipsClosedTag";
    analyzer[] = "Structures/StrposCompare";
+   analyzer[] = "Structures/StrposLessThanOne";
    analyzer[] = "Structures/SubstrLastArg";
    analyzer[] = "Structures/SubstrToTrim";
    analyzer[] = "Structures/SuspiciousComparison";
@@ -2494,6 +2498,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Functions/UsesDefaultArguments'
      - 'Functions/UsingDeprecated'
      - 'Functions/VariableArguments'
+     - 'Functions/VariableParameterAmbiguityInArrowFunction'
      - 'Functions/VoidIsNotAReference'
      - 'Functions/WithoutReturn'
      - 'Functions/WrongArgumentNameWithPhpFunction'
@@ -2780,11 +2785,13 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Php/Php80VariableSyntax'
      - 'Php/Php81IntersectionTypehint'
      - 'Php/Php81NewFunctions'
+     - 'Php/Php81NewTypes'
      - 'Php/Php81RemovedConstant'
      - 'Php/Php81RemovedDirective'
      - 'Php/Php81RemovedFunctions'
      - 'Php/Php81RemovesResources'
      - 'Php/Php82NewFunctions'
+     - 'Php/Php82NewTypes'
      - 'Php/Php83NewClasses'
      - 'Php/Php83NewFunctions'
      - 'Php/PhpErrorMsgUsage'
@@ -3209,6 +3216,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/StringInterpolationFavorite'
      - 'Structures/StripTagsSkipsClosedTag'
      - 'Structures/StrposCompare'
+     - 'Structures/StrposLessThanOne'
      - 'Structures/SubstrLastArg'
      - 'Structures/SubstrToTrim'
      - 'Structures/SuspiciousComparison'
@@ -3871,6 +3879,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/StaticLoop";
    analyzer[] = "Structures/StripTagsSkipsClosedTag";
    analyzer[] = "Structures/StrposCompare";
+   analyzer[] = "Structures/StrposLessThanOne";
    analyzer[] = "Structures/SuspiciousComparison";
    analyzer[] = "Structures/SwitchToSwitch";
    analyzer[] = "Structures/SwitchWithoutDefault";
@@ -4384,6 +4393,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/StaticLoop'
      - 'Structures/StripTagsSkipsClosedTag'
      - 'Structures/StrposCompare'
+     - 'Structures/StrposLessThanOne'
      - 'Structures/SuspiciousComparison'
      - 'Structures/SwitchToSwitch'
      - 'Structures/SwitchWithoutDefault'
@@ -7002,50 +7012,157 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
 ::
 
  [Changed Behavior]
+   analyzer[] = "Arrays/AmbiguousKeys";
+   analyzer[] = "Arrays/AppendAndAssignArrays";
+   analyzer[] = "Arrays/ArrayNSUsage";
+   analyzer[] = "Arrays/Arrayindex";
+   analyzer[] = "Arrays/EmptySlots";
+   analyzer[] = "Arrays/FloatConversionAsIndex";
+   analyzer[] = "Arrays/GettingLastElement";
    analyzer[] = "Arrays/NegativeStart";
+   analyzer[] = "Arrays/NoSpreadForHash";
+   analyzer[] = "Arrays/NonConstantArray";
+   analyzer[] = "Arrays/WeakType";
+   analyzer[] = "Arrays/WithCallback";
+   analyzer[] = "Attributes/Friend";
+   analyzer[] = "Attributes/InjectableVersion";
+   analyzer[] = "Attributes/MissingAttributeAttribute";
+   analyzer[] = "Attributes/ModifyImmutable";
    analyzer[] = "Attributes/NestedAttributes";
+   analyzer[] = "Attributes/PhpNativeAttributes";
    analyzer[] = "Classes/AbstractConstants";
    analyzer[] = "Classes/AbstractOrImplements";
+   analyzer[] = "Classes/AbstractStatic";
+   analyzer[] = "Classes/Abstractclass";
+   analyzer[] = "Classes/AmbiguousVisibilities";
    analyzer[] = "Classes/CannotBeReadonly";
+   analyzer[] = "Classes/CheckAfterNullSafeOperator";
    analyzer[] = "Classes/CouldBeIterable";
    analyzer[] = "Classes/CouldBeProtectedConstant";
    analyzer[] = "Classes/CouldBeProtectedMethod";
    analyzer[] = "Classes/CouldBeProtectedProperty";
+   analyzer[] = "Classes/CouldBeReadonlyProperty";
    analyzer[] = "Classes/CouldInjectParam";
    analyzer[] = "Classes/CouldSetPropertyDefault";
+   analyzer[] = "Classes/CouldUseClassOperator";
    analyzer[] = "Classes/DefinedParentMP";
    analyzer[] = "Classes/ExportProperty";
    analyzer[] = "Classes/ExtendsStdclass";
+   analyzer[] = "Classes/IncompatibleConstructor";
+   analyzer[] = "Classes/MethodPropertyConfusion";
    analyzer[] = "Classes/MissingVisibility";
+   analyzer[] = "Classes/MultiplePropertyDeclaration";
+   analyzer[] = "Classes/MultipleTraitOrInterface";
+   analyzer[] = "Classes/NoMagicWithArray";
    analyzer[] = "Classes/NoNullWithNullSafeOperator";
+   analyzer[] = "Classes/NoPSSOutsideClass";
    analyzer[] = "Classes/NoParent";
    analyzer[] = "Classes/NoReadonlyAssignationInGlobal";
    analyzer[] = "Classes/PromotedProperties";
    analyzer[] = "Classes/PssWithoutClass";
+   analyzer[] = "Classes/RaisedAccessLevel";
    analyzer[] = "Classes/ReadonlyUsage";
+   analyzer[] = "Classes/RedefinedConstants";
+   analyzer[] = "Classes/RedefinedDefault";
+   analyzer[] = "Classes/RedefinedMethods";
+   analyzer[] = "Classes/ThisIsForClasses";
+   analyzer[] = "Classes/ThisIsNotAnArray";
+   analyzer[] = "Classes/TooManyDereferencing";
+   analyzer[] = "Classes/TooManyFinds";
+   analyzer[] = "Classes/TooManyInjections";
+   analyzer[] = "Classes/TypehintCyclicDependencies";
    analyzer[] = "Classes/UndefinedConstants";
    analyzer[] = "Classes/UndefinedProperty";
+   analyzer[] = "Classes/UndefinedStaticMP";
+   analyzer[] = "Classes/UndefinedStaticclass";
+   analyzer[] = "Classes/UninitedProperty";
    analyzer[] = "Classes/UnitializedProperties";
+   analyzer[] = "Classes/UnreachableConstant";
+   analyzer[] = "Classes/UnreachableMethod";
+   analyzer[] = "Classes/UnresolvedCatch";
+   analyzer[] = "Classes/UnresolvedClasses";
+   analyzer[] = "Classes/UnresolvedInstanceof";
+   analyzer[] = "Classes/UnusedClass";
+   analyzer[] = "Classes/UnusedConstant";
+   analyzer[] = "Classes/UnusedMethods";
+   analyzer[] = "Classes/UnusedPrivateMethod";
+   analyzer[] = "Classes/UnusedProtectedMethods";
    analyzer[] = "Classes/UnusedPublicMethod";
+   analyzer[] = "Classes/UseClassOperator";
+   analyzer[] = "Classes/UseInstanceof";
    analyzer[] = "Classes/UseThis";
+   analyzer[] = "Classes/UsedClass";
+   analyzer[] = "Classes/UsedMethods";
+   analyzer[] = "Classes/UsedOnceProperty";
+   analyzer[] = "Classes/UsedPrivateMethod";
+   analyzer[] = "Classes/UsedProtectedMethod";
+   analyzer[] = "Classes/UselessAbstract";
+   analyzer[] = "Classes/UselessAssignationOfPromotedProperty";
    analyzer[] = "Classes/UselessConstructor";
+   analyzer[] = "Classes/UselessFinal";
    analyzer[] = "Classes/UselessNullSafeOperator";
+   analyzer[] = "Classes/UselessTypehint";
    analyzer[] = "Classes/UsingThisOutsideAClass";
+   analyzer[] = "Classes/VariableClasses";
+   analyzer[] = "Classes/WeakType";
+   analyzer[] = "Classes/toStringPss";
+   analyzer[] = "Complete/CreateCompactVariables";
+   analyzer[] = "Complete/CreateDefaultValues";
+   analyzer[] = "Complete/CreateForeachDefault";
+   analyzer[] = "Complete/CreateMagicMethod";
+   analyzer[] = "Complete/CreateMagicProperty";
+   analyzer[] = "Complete/ExtendedTypehints";
+   analyzer[] = "Complete/FollowClosureDefinition";
+   analyzer[] = "Complete/MakeClassConstantDefinition";
+   analyzer[] = "Complete/MakeClassMethodDefinition";
+   analyzer[] = "Complete/OverwrittenProperties";
+   analyzer[] = "Complete/PhpExtStubPropertyMethod";
+   analyzer[] = "Complete/PhpNativeReference";
+   analyzer[] = "Complete/PropagateConstants";
    analyzer[] = "Complete/ReturnTypehint";
+   analyzer[] = "Complete/SetArrayClassDefinition";
+   analyzer[] = "Complete/SetClassMethodRemoteDefinition";
+   analyzer[] = "Complete/SetClassPropertyDefinitionWithTypehint";
+   analyzer[] = "Complete/SetClassRemoteDefinitionWithGlobal";
+   analyzer[] = "Complete/SetClassRemoteDefinitionWithInjection";
+   analyzer[] = "Complete/SetClassRemoteDefinitionWithLocalNew";
+   analyzer[] = "Complete/SetClassRemoteDefinitionWithReturnTypehint";
+   analyzer[] = "Complete/SetClassRemoteDefinitionWithTypehint";
+   analyzer[] = "Complete/SetCloneLink";
+   analyzer[] = "Complete/SetMethodFnp";
+   analyzer[] = "Complete/SetParentDefinition";
+   analyzer[] = "Complete/SolveTraitConstants";
+   analyzer[] = "Complete/SolveTraitMethods";
    analyzer[] = "Complete/VariableTypehint";
    analyzer[] = "Constants/ConstDefinePreference";
    analyzer[] = "Constants/CouldUseConstant";
    analyzer[] = "Constants/CreatedOutsideItsNamespace";
    analyzer[] = "Constants/CustomConstantUsage";
    analyzer[] = "Constants/DefineInsensitivePreference";
+   analyzer[] = "Constants/DynamicCreation";
+   analyzer[] = "Constants/InconsistantCase";
+   analyzer[] = "Constants/InvalidName";
+   analyzer[] = "Constants/IsExtConstant";
+   analyzer[] = "Constants/IsGlobalConstant";
+   analyzer[] = "Constants/IsPhpConstant";
+   analyzer[] = "Constants/MagicConstantUsage";
+   analyzer[] = "Constants/MultipleConstantDefinition";
+   analyzer[] = "Constants/PhpConstantUsage";
+   analyzer[] = "Constants/StrangeName";
+   analyzer[] = "Constants/UndefinedConstants";
+   analyzer[] = "Constants/UnusedConstants";
+   analyzer[] = "Constants/VariableConstant";
    analyzer[] = "Custom/MethodUsage";
+   analyzer[] = "Dump/CallOrder";
    analyzer[] = "Dump/ClassInjectionCount";
+   analyzer[] = "Dump/CollectCalls";
    analyzer[] = "Dump/CollectCatch";
    analyzer[] = "Dump/CollectClassChanges";
    analyzer[] = "Dump/CollectClassChildren";
    analyzer[] = "Dump/CollectClassDepth";
    analyzer[] = "Dump/CollectClassInterfaceCounts";
    analyzer[] = "Dump/CollectClassTraitsCounts";
+   analyzer[] = "Dump/CollectDependencyExtension";
    analyzer[] = "Dump/CollectGraphTriplets";
    analyzer[] = "Dump/CollectLocalVariableCounts";
    analyzer[] = "Dump/CollectMethodCounts";
@@ -7053,73 +7170,300 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Dump/CollectParameterCounts";
    analyzer[] = "Dump/CollectPropertyCounts";
    analyzer[] = "Dump/CollectPropertyUsage";
+   analyzer[] = "Dump/CollectReadability";
    analyzer[] = "Dump/CollectSetLocale";
    analyzer[] = "Dump/CollectStructures";
    analyzer[] = "Dump/CollectUseCounts";
+   analyzer[] = "Dump/CombinedCalls";
    analyzer[] = "Dump/CyclomaticComplexity";
    analyzer[] = "Dump/EnvironnementVariables";
    analyzer[] = "Dump/FossilizedMethods";
    analyzer[] = "Dump/Inclusions";
    analyzer[] = "Dump/IndentationLevels";
    analyzer[] = "Dump/NewOrder";
+   analyzer[] = "Dump/ParameterArgumentsLinks";
+   analyzer[] = "Dump/PublicReach";
+   analyzer[] = "Dump/TypehintingStats";
+   analyzer[] = "Dump/Typehintorder";
    analyzer[] = "Exceptions/AlreadyCaught";
    analyzer[] = "Exceptions/CantThrow";
    analyzer[] = "Exceptions/CatchE";
    analyzer[] = "Exceptions/CatchUndefinedVariable";
    analyzer[] = "Exceptions/CaughtButNotThrown";
    analyzer[] = "Exceptions/CaughtExceptions";
+   analyzer[] = "Exceptions/CouldDropVariable";
+   analyzer[] = "Exceptions/DefinedExceptions";
+   analyzer[] = "Exceptions/ForgottenThrown";
+   analyzer[] = "Exceptions/IsPhpException";
+   analyzer[] = "Exceptions/LargeTryBlock";
+   analyzer[] = "Exceptions/LongPreparation";
+   analyzer[] = "Exceptions/MultipleCatch";
+   analyzer[] = "Exceptions/OverwriteException";
+   analyzer[] = "Exceptions/PossibleTypeError";
+   analyzer[] = "Exceptions/Rethrown";
+   analyzer[] = "Exceptions/SetChainingException";
+   analyzer[] = "Exceptions/ThrowFunctioncall";
+   analyzer[] = "Exceptions/TryNoCatch";
+   analyzer[] = "Exceptions/UncaughtExceptions";
+   analyzer[] = "Exceptions/Unthrown";
+   analyzer[] = "Exceptions/UnusedExceptionVariable";
+   analyzer[] = "Exceptions/UselessCatch";
    analyzer[] = "Exceptions/UselessTry";
+   analyzer[] = "Extensions/Extamqp";
+   analyzer[] = "Extensions/Extapache";
+   analyzer[] = "Extensions/Extapc";
+   analyzer[] = "Extensions/Extapcu";
+   analyzer[] = "Extensions/Extarray";
+   analyzer[] = "Extensions/Extast";
+   analyzer[] = "Extensions/Extbcmath";
+   analyzer[] = "Extensions/Extbzip2";
+   analyzer[] = "Extensions/Extcalendar";
+   analyzer[] = "Extensions/Extpcov";
+   analyzer[] = "Extensions/Extsqlite";
+   analyzer[] = "Extensions/Extsqlite3";
+   analyzer[] = "Functions/AddDefaultValue";
+   analyzer[] = "Functions/AliasesUsage";
+   analyzer[] = "Functions/AvoidBooleanArgument";
+   analyzer[] = "Functions/CancelledParameter";
    analyzer[] = "Functions/CannotUseStaticForClosure";
+   analyzer[] = "Functions/CantUse";
+   analyzer[] = "Functions/Closure2String";
+   analyzer[] = "Functions/Closures";
+   analyzer[] = "Functions/ConditionedFunctions";
+   analyzer[] = "Functions/CouldBeCallable";
+   analyzer[] = "Functions/CouldBeStaticClosure";
+   analyzer[] = "Functions/CouldCentralize";
    analyzer[] = "Functions/CouldTypehint";
    analyzer[] = "Functions/DynamicCode";
+   analyzer[] = "Functions/ExceedingTypehint";
+   analyzer[] = "Functions/GeneratorCannotReturn";
    analyzer[] = "Functions/HasNotFluentInterface";
+   analyzer[] = "Functions/IsGenerator";
    analyzer[] = "Functions/MismatchParameterName";
    analyzer[] = "Functions/MismatchTypeAndDefault";
+   analyzer[] = "Functions/MustReturn";
    analyzer[] = "Functions/NoLiteralForReference";
+   analyzer[] = "Functions/NullTypeFavorite";
    analyzer[] = "Functions/Recursive";
    analyzer[] = "Functions/TypeDodging";
+   analyzer[] = "Functions/TypehintMustBeReturned";
+   analyzer[] = "Functions/UseArrowFunctions";
    analyzer[] = "Functions/UselessDefault";
+   analyzer[] = "Functions/UselessReferenceArgument";
+   analyzer[] = "Functions/VariableParameterAmbiguityInArrowFunction";
    analyzer[] = "Functions/VoidIsNotAReference";
    analyzer[] = "Functions/WrongOptionalParameter";
    analyzer[] = "Functions/funcGetArgModified";
+   analyzer[] = "Interfaces/AlreadyParentsInterface";
+   analyzer[] = "Interfaces/AvoidSelfInInterface";
+   analyzer[] = "Interfaces/CantImplementTraversable";
    analyzer[] = "Interfaces/CantOverloadConstants";
    analyzer[] = "Interfaces/CouldUseInterface";
+   analyzer[] = "Interfaces/EmptyInterface";
+   analyzer[] = "Interfaces/InterfaceMethod";
+   analyzer[] = "Interfaces/InterfaceUsage";
+   analyzer[] = "Interfaces/Interfacenames";
+   analyzer[] = "Interfaces/IsExtInterface";
+   analyzer[] = "Interfaces/IsNotImplemented";
+   analyzer[] = "Interfaces/NoGaranteeForPropertyConstant";
+   analyzer[] = "Interfaces/Php";
+   analyzer[] = "Interfaces/PossibleInterfaces";
+   analyzer[] = "Interfaces/RepeatedInterface";
+   analyzer[] = "Interfaces/UndefinedInterfaces";
+   analyzer[] = "Interfaces/UnusedInterfaces";
+   analyzer[] = "Interfaces/UsedInterfaces";
+   analyzer[] = "Interfaces/UselessInterfaces";
+   analyzer[] = "Namespaces/Alias";
+   analyzer[] = "Namespaces/AliasConfusion";
+   analyzer[] = "Namespaces/ConstantFullyQualified";
+   analyzer[] = "Namespaces/CouldUseAlias";
+   analyzer[] = "Namespaces/CouldUseMagicConstant";
+   analyzer[] = "Namespaces/EmptyNamespace";
+   analyzer[] = "Namespaces/GlobalImport";
+   analyzer[] = "Namespaces/HiddenUse";
+   analyzer[] = "Namespaces/MultipleAliasDefinitionPerFile";
+   analyzer[] = "Namespaces/MultipleAliasDefinitions";
+   analyzer[] = "Namespaces/NamespaceUsage";
+   analyzer[] = "Namespaces/Namespacesnames";
+   analyzer[] = "Namespaces/NoKeywordInNamespace";
+   analyzer[] = "Namespaces/ShouldMakeAlias";
+   analyzer[] = "Namespaces/UnresolvedUse";
+   analyzer[] = "Namespaces/UnusedUse";
+   analyzer[] = "Namespaces/UseFunctionsConstants";
+   analyzer[] = "Namespaces/UseWithFullyQualifiedNS";
+   analyzer[] = "Namespaces/UsedUse";
+   analyzer[] = "Namespaces/WrongCase";
+   analyzer[] = "Patterns/AbstractAway";
+   analyzer[] = "Patterns/CourrierAntiPattern";
+   analyzer[] = "Patterns/DependencyInjection";
+   analyzer[] = "Patterns/Factory";
    analyzer[] = "Patterns/GetterSetter";
+   analyzer[] = "Performances/ArrayKeyExistsSpeedup";
+   analyzer[] = "Performances/ArrayMergeInLoops";
+   analyzer[] = "Performances/Autoappend";
+   analyzer[] = "Performances/AvoidArrayPush";
    analyzer[] = "Performances/CacheVariableOutsideLoop";
    analyzer[] = "Performances/ClassOperator";
+   analyzer[] = "Performances/CountToAppend";
+   analyzer[] = "Performances/DoInBase";
+   analyzer[] = "Performances/DoubleArrayFlip";
    analyzer[] = "Performances/EllipsisMerge";
+   analyzer[] = "Performances/FetchOneRowFormat";
+   analyzer[] = "Performances/IssetWholeArray";
+   analyzer[] = "Performances/LogicalToInArray";
+   analyzer[] = "Performances/MakeOneCall";
+   analyzer[] = "Performances/MbStringInLoop";
+   analyzer[] = "Performances/MemoizeMagicCall";
+   analyzer[] = "Performances/NoConcatInLoop";
+   analyzer[] = "Performances/NoGlob";
+   analyzer[] = "Performances/NotCountNull";
+   analyzer[] = "Performances/OptimizeExplode";
+   analyzer[] = "Performances/PHP7EncapsedStrings";
+   analyzer[] = "Performances/Php74ArrayKeyExists";
    analyzer[] = "Performances/PreCalculateUse";
+   analyzer[] = "Performances/PrePostIncrement";
+   analyzer[] = "Performances/RegexOnArrays";
+   analyzer[] = "Performances/RegexOnCollector";
+   analyzer[] = "Performances/SimpleSwitch";
    analyzer[] = "Performances/SkipEmptyArray";
+   analyzer[] = "Performances/SlowFunctions";
+   analyzer[] = "Performances/StrposTooMuch";
+   analyzer[] = "Performances/SubstrFirst";
    analyzer[] = "Performances/SubstrInLoops";
    analyzer[] = "Performances/TooManyExtractions";
+   analyzer[] = "Performances/UseArraySlice";
+   analyzer[] = "Performances/UseBlindVar";
+   analyzer[] = "Performances/timeVsstrtotime";
+   analyzer[] = "Php/ArrayKeyExistsWithObjects";
    analyzer[] = "Php/AssertFunctionIsReserved";
+   analyzer[] = "Php/Assumptions";
+   analyzer[] = "Php/AutoloadUsage";
+   analyzer[] = "Php/AvoidGetobjectVars";
+   analyzer[] = "Php/AvoidMbDectectEncoding";
+   analyzer[] = "Php/AvoidReal";
+   analyzer[] = "Php/AvoidSetErrorHandlerContextArg";
+   analyzer[] = "Php/BetterRand";
+   analyzer[] = "Php/CallingStaticTraitMethod";
+   analyzer[] = "Php/CantUseReturnValueInWriteContext";
+   analyzer[] = "Php/CaseForPSS";
+   analyzer[] = "Php/CastingUsage";
+   analyzer[] = "Php/ClassConstWithArray";
+   analyzer[] = "Php/ClassFunctionConfusion";
+   analyzer[] = "Php/CloseTagsConsistency";
    analyzer[] = "Php/ClosureThisSupport";
+   analyzer[] = "Php/Coalesce";
+   analyzer[] = "Php/CoalesceEqual";
+   analyzer[] = "Php/CompactInexistant";
    analyzer[] = "Php/ComparisonOnDifferentTypes";
    analyzer[] = "Php/ConcatAndAddition";
+   analyzer[] = "Php/ConstWithArray";
+   analyzer[] = "Php/ConstantScalarExpression";
+   analyzer[] = "Php/CookiesVariables";
+   analyzer[] = "Php/CouldUseIsCountable";
+   analyzer[] = "Php/Crc32MightBeNegative";
+   analyzer[] = "Php/CryptoUsage";
+   analyzer[] = "Php/DateFormats";
+   analyzer[] = "Php/DeclareEncoding";
+   analyzer[] = "Php/DeclareStrict";
+   analyzer[] = "Php/DeclareStrictType";
+   analyzer[] = "Php/DetectCurrentClass";
+   analyzer[] = "Php/DirectivesUsage";
+   analyzer[] = "Php/DlUsage";
+   analyzer[] = "Php/ExitNoArg";
+   analyzer[] = "Php/FilesFullPath";
+   analyzer[] = "Php/FilterToAddSlashes";
+   analyzer[] = "Php/FinalConstant";
+   analyzer[] = "Php/FlexibleHeredoc";
+   analyzer[] = "Php/FopenMode";
    analyzer[] = "Php/ForeachDontChangePointer";
+   analyzer[] = "Php/ForeachObject";
    analyzer[] = "Php/GlobalWithoutSimpleVariable";
+   analyzer[] = "Php/GlobalsVsGlobal";
    analyzer[] = "Php/Gotonames";
+   analyzer[] = "Php/GroupUseDeclaration";
+   analyzer[] = "Php/GroupUseTrailingComma";
+   analyzer[] = "Php/HashAlgos71";
+   analyzer[] = "Php/HashAlgos74";
+   analyzer[] = "Php/HashUsesObjects";
+   analyzer[] = "Php/ImplodeOneArg";
+   analyzer[] = "Php/IncomingValues";
+   analyzer[] = "Php/IntegerSeparatorUsage";
+   analyzer[] = "Php/InternalParameterType";
+   analyzer[] = "Php/IsAWithString";
+   analyzer[] = "Php/IsINF";
+   analyzer[] = "Php/IsNAN";
+   analyzer[] = "Php/IsnullVsEqualNull";
+   analyzer[] = "Php/IssetMultipleArgs";
+   analyzer[] = "Php/JsonSerializeReturnType";
+   analyzer[] = "Php/Labelnames";
+   analyzer[] = "Php/LetterCharsLogicalFavorite";
+   analyzer[] = "Php/ListShortSyntax";
    analyzer[] = "Php/ListWithAppends";
    analyzer[] = "Php/ListWithKeys";
    analyzer[] = "Php/MethodCallOnNew";
+   analyzer[] = "Php/MiddleVersion";
+   analyzer[] = "Php/MissingMagicIsset";
+   analyzer[] = "Php/MissingSubpattern";
+   analyzer[] = "Php/MultipleDeclareStrict";
+   analyzer[] = "Php/MustCallParentConstructor";
    analyzer[] = "Php/NamedArgumentAndVariadic";
+   analyzer[] = "Php/NativeClassTypeCompatibility";
+   analyzer[] = "Php/NestedTernaryWithoutParenthesis";
    analyzer[] = "Php/NeverKeyword";
+   analyzer[] = "Php/NeverTypehintUsage";
+   analyzer[] = "Php/NewExponent";
+   analyzer[] = "Php/NoCastToInt";
+   analyzer[] = "Php/NoClassInGlobal";
+   analyzer[] = "Php/NoListWithString";
+   analyzer[] = "Php/NoNullForNative";
    analyzer[] = "Php/NoReferenceForStaticProperty";
+   analyzer[] = "Php/NoSubstrMinusOne";
+   analyzer[] = "Php/NotScalarType";
+   analyzer[] = "Php/OnlyVariablePassedByReference";
+   analyzer[] = "Php/OpensslEncryptAlgoChange";
+   analyzer[] = "Php/PHP70scalartypehints";
+   analyzer[] = "Php/PHP71scalartypehints";
+   analyzer[] = "Php/PHP72scalartypehints";
    analyzer[] = "Php/PHP73LastEmptyArgument";
+   analyzer[] = "Php/PHP80scalartypehints";
+   analyzer[] = "Php/PHP81scalartypehints";
+   analyzer[] = "Php/ParenthesisAsParameter";
+   analyzer[] = "Php/Password55";
+   analyzer[] = "Php/PathinfoReturns";
+   analyzer[] = "Php/PearUsage";
+   analyzer[] = "Php/Php54RemovedFunctions";
    analyzer[] = "Php/Php71microseconds";
+   analyzer[] = "Php/Php72NewClasses";
+   analyzer[] = "Php/Php72NewConstants";
    analyzer[] = "Php/Php74mbstrrpos3rdArg";
+   analyzer[] = "Php/Php80OnlyTypeHints";
+   analyzer[] = "Php/Php81NewTypes";
    analyzer[] = "Php/Php81RemovesResources";
    analyzer[] = "Php/Php82NewFunctions";
+   analyzer[] = "Php/Php82NewTypes";
    analyzer[] = "Php/Php83NewClasses";
    analyzer[] = "Php/Php83NewFunctions";
    analyzer[] = "Php/PhpErrorMsgUsage";
+   analyzer[] = "Php/PregMatchAllFlag";
+   analyzer[] = "Php/Prints";
    analyzer[] = "Php/ReflectionExportIsDeprecated";
    analyzer[] = "Php/ReservedKeywords7";
+   analyzer[] = "Php/ReservedMethods";
+   analyzer[] = "Php/ReservedNames";
    analyzer[] = "Php/RestrictGlobalUsage";
    analyzer[] = "Php/ReturnTypehintUsage";
+   analyzer[] = "Php/ReturnWithParenthesis";
+   analyzer[] = "Php/SafePhpvars";
+   analyzer[] = "Php/ScalarAreNotArrays";
    analyzer[] = "Php/ScalarTypehintUsage";
+   analyzer[] = "Php/SerializeMagic";
+   analyzer[] = "Php/SessionVariables";
    analyzer[] = "Php/SetExceptionHandlerPHP7";
+   analyzer[] = "Php/SetHandlers";
+   analyzer[] = "Php/ShellFavorite";
+   analyzer[] = "Php/ShortOpenTagRequired";
    analyzer[] = "Php/ShortTernary";
+   analyzer[] = "Php/StaticVariableDefaultCanBeAnyExpression";
    analyzer[] = "Php/StringIntComparison";
    analyzer[] = "Php/StrposWithIntegers";
    analyzer[] = "Php/ThrowWasAnExpression";
@@ -7128,57 +7472,158 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Php/UseAttributes";
    analyzer[] = "Php/UseNullSafeOperator";
    analyzer[] = "Php/UsortSorting";
+   analyzer[] = "Security/CurlOptions";
+   analyzer[] = "Security/DirectInjection";
+   analyzer[] = "Security/DontEchoError";
+   analyzer[] = "Security/DynamicDl";
+   analyzer[] = "Security/EncodedLetters";
+   analyzer[] = "Security/FilterInputSource";
    analyzer[] = "Security/FilterNotRaw";
+   analyzer[] = "Security/GPRAliases";
    analyzer[] = "Security/IncompatibleTypesWithIncoming";
+   analyzer[] = "Security/IndirectInjection";
+   analyzer[] = "Security/IntegerConversion";
+   analyzer[] = "Security/KeepFilesRestricted";
+   analyzer[] = "Security/MinusOneOnError";
+   analyzer[] = "Security/MkdirDefault";
+   analyzer[] = "Security/MoveUploadedFile";
+   analyzer[] = "Security/NoEntIgnore";
+   analyzer[] = "Security/NoNetForXmlLoad";
+   analyzer[] = "Security/NoSleep";
+   analyzer[] = "Security/NoWeakSSLCrypto";
+   analyzer[] = "Security/RegisterGlobals";
    analyzer[] = "Security/SafeHttpHeaders";
+   analyzer[] = "Security/SensitiveArgument";
    analyzer[] = "Security/SessionCachedData";
+   analyzer[] = "Security/SessionLazyWrite";
+   analyzer[] = "Security/SetCookieArgs";
+   analyzer[] = "Security/ShouldUsePreparedStatement";
+   analyzer[] = "Security/ShouldUseSessionRegenerateId";
+   analyzer[] = "Security/Sqlite3RequiresSingleQuotes";
    analyzer[] = "Structures/AlwaysFalse";
+   analyzer[] = "Structures/ArrayAccessOnLiteralArray";
+   analyzer[] = "Structures/ArrayMergeArrayArray";
+   analyzer[] = "Structures/Bracketless";
    analyzer[] = "Structures/CheckDivision";
+   analyzer[] = "Structures/CoalesceNullCoalesce";
    analyzer[] = "Structures/ConstantScalarExpression";
    analyzer[] = "Structures/CouldBeArrayCombine";
    analyzer[] = "Structures/CouldBeStatic";
+   analyzer[] = "Structures/CouldCastToArray";
+   analyzer[] = "Structures/CouldUseShortAssignation";
+   analyzer[] = "Structures/CouldUseStrContains";
+   analyzer[] = "Structures/CouldUseYieldFrom";
+   analyzer[] = "Structures/CountIsNotNegative";
    analyzer[] = "Structures/CryptWithoutSalt";
    analyzer[] = "Structures/CurlVersionNow";
+   analyzer[] = "Structures/DateTimePreference";
+   analyzer[] = "Structures/DeprecatedMbEncoding";
+   analyzer[] = "Structures/DereferencingAS";
    analyzer[] = "Structures/DirThenSlash";
+   analyzer[] = "Structures/DontUseTheTypeAsVariable";
+   analyzer[] = "Structures/DoubleObjectAssignation";
+   analyzer[] = "Structures/EmptyJsonError";
    analyzer[] = "Structures/EmptyLoop";
    analyzer[] = "Structures/EmptyWithExpression";
    analyzer[] = "Structures/EvalWithoutTry";
    analyzer[] = "Structures/FilePutContentsDataType";
    analyzer[] = "Structures/ForWithFunctioncall";
    analyzer[] = "Structures/FunctionPreSubscripting";
+   analyzer[] = "Structures/GtOrLtFavorite";
    analyzer[] = "Structures/HtmlentitiescallDefaultFlag";
+   analyzer[] = "Structures/IdenticalCase";
    analyzer[] = "Structures/ImplodeArgsOrder";
+   analyzer[] = "Structures/IndicesAreIntOrString";
+   analyzer[] = "Structures/InitThenIf";
+   analyzer[] = "Structures/InvalidCast";
+   analyzer[] = "Structures/InvalidPackFormat";
    analyzer[] = "Structures/InvalidRegex";
    analyzer[] = "Structures/IsZero";
    analyzer[] = "Structures/IssetWithConstant";
    analyzer[] = "Structures/LoneBlock";
+   analyzer[] = "Structures/MbStringNonEncodings";
+   analyzer[] = "Structures/McryptcreateivWithoutOption";
    analyzer[] = "Structures/MergeIfThen";
+   analyzer[] = "Structures/MissingAssignation";
+   analyzer[] = "Structures/MissingNew";
    analyzer[] = "Structures/MissingParenthesis";
+   analyzer[] = "Structures/MisusedYield";
+   analyzer[] = "Structures/MultilineExpressions";
    analyzer[] = "Structures/MultipleSimilarCalls";
+   analyzer[] = "Structures/NestedMatch";
    analyzer[] = "Structures/NoChoice";
    analyzer[] = "Structures/NoEmptyStringWithExplode";
    analyzer[] = "Structures/NoMaxOnEmptyArray";
+   analyzer[] = "Structures/NoNullForIndex";
+   analyzer[] = "Structures/NoParenthesisForLanguageConstruct";
+   analyzer[] = "Structures/NonIntStringAsIndex";
    analyzer[] = "Structures/OneLineTwoInstructions";
    analyzer[] = "Structures/OnlyFirstByte";
    analyzer[] = "Structures/PlusEgalOne";
+   analyzer[] = "Structures/RecalledCondition";
    analyzer[] = "Structures/RepeatedPrint";
+   analyzer[] = "Structures/ReturnVoid";
+   analyzer[] = "Structures/ShortOrCompleteComparison";
+   analyzer[] = "Structures/StrposLessThanOne";
+   analyzer[] = "Structures/ThrowsAndAssign";
    analyzer[] = "Structures/UnreachableCode";
    analyzer[] = "Structures/UnusedLabel";
    analyzer[] = "Structures/UseArrayFunctions";
    analyzer[] = "Structures/UseCaseValue";
+   analyzer[] = "Structures/UseCountRecursive";
+   analyzer[] = "Structures/UseDebug";
+   analyzer[] = "Structures/UseFileAppend";
+   analyzer[] = "Structures/UseInstanceof";
+   analyzer[] = "Structures/UseListWithForeach";
+   analyzer[] = "Structures/UselessCoalesce";
    analyzer[] = "Structures/UselessShortTernary";
    analyzer[] = "Structures/UselessTrailingComma";
+   analyzer[] = "Structures/WhileListEach";
    analyzer[] = "Structures/WrongPrecedenceInExpression";
+   analyzer[] = "Structures/toStringThrowsException";
+   analyzer[] = "Traits/ConstantsInTraits";
+   analyzer[] = "Traits/CouldUseTrait";
+   analyzer[] = "Traits/DependantTrait";
+   analyzer[] = "Traits/EmptyTrait";
+   analyzer[] = "Traits/IncompatibleProperty";
+   analyzer[] = "Traits/IsExtTrait";
+   analyzer[] = "Traits/LocallyUsedProperty";
    analyzer[] = "Traits/MethodCollisionTraits";
+   analyzer[] = "Traits/MultipleUsage";
    analyzer[] = "Traits/NoPrivateAbstract";
+   analyzer[] = "Traits/Php";
+   analyzer[] = "Traits/SelfUsingTrait";
+   analyzer[] = "Traits/TraitMethod";
+   analyzer[] = "Traits/TraitNotFound";
+   analyzer[] = "Traits/TraitUsage";
+   analyzer[] = "Traits/Traitnames";
+   analyzer[] = "Traits/UndefinedInsteadof";
+   analyzer[] = "Traits/UndefinedTrait";
+   analyzer[] = "Traits/UnusedClassTrait";
+   analyzer[] = "Traits/UnusedTrait";
+   analyzer[] = "Traits/UsedTrait";
+   analyzer[] = "Traits/UselessAlias";
+   analyzer[] = "Type/ArrayIndex";
+   analyzer[] = "Type/Binary";
+   analyzer[] = "Type/CharString";
+   analyzer[] = "Type/DuplicateLiteral";
+   analyzer[] = "Type/Email";
+   analyzer[] = "Type/HttpStatus";
    analyzer[] = "Type/Ip";
+   analyzer[] = "Type/Printf";
    analyzer[] = "Type/StringInterpolation";
    analyzer[] = "Typehints/CouldBeResource";
+   analyzer[] = "Typehints/StandaloneTypeTFN";
+   analyzer[] = "Utils/Selector";
+   analyzer[] = "Variables/AmbiguousTypes";
    analyzer[] = "Variables/CloseNaming";
    analyzer[] = "Variables/InconsistentUsage";
    analyzer[] = "Variables/InheritedStaticVariable";
+   analyzer[] = "Variables/InterfaceArguments";
    analyzer[] = "Variables/IsLocalConstant";
    analyzer[] = "Variables/References";
+   analyzer[] = "Variables/SelfTransform";
+   analyzer[] = "Variables/StaticVariableInitialisation";
 
 
 .. _annex-yaml-changed-behavior:
@@ -7192,50 +7637,157 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
 
   rulesets:
     'Changed Behavior':
+     - 'Arrays/AmbiguousKeys'
+     - 'Arrays/AppendAndAssignArrays'
+     - 'Arrays/ArrayNSUsage'
+     - 'Arrays/Arrayindex'
+     - 'Arrays/EmptySlots'
+     - 'Arrays/FloatConversionAsIndex'
+     - 'Arrays/GettingLastElement'
      - 'Arrays/NegativeStart'
+     - 'Arrays/NoSpreadForHash'
+     - 'Arrays/NonConstantArray'
+     - 'Arrays/WeakType'
+     - 'Arrays/WithCallback'
+     - 'Attributes/Friend'
+     - 'Attributes/InjectableVersion'
+     - 'Attributes/MissingAttributeAttribute'
+     - 'Attributes/ModifyImmutable'
      - 'Attributes/NestedAttributes'
+     - 'Attributes/PhpNativeAttributes'
      - 'Classes/AbstractConstants'
      - 'Classes/AbstractOrImplements'
+     - 'Classes/AbstractStatic'
+     - 'Classes/Abstractclass'
+     - 'Classes/AmbiguousVisibilities'
      - 'Classes/CannotBeReadonly'
+     - 'Classes/CheckAfterNullSafeOperator'
      - 'Classes/CouldBeIterable'
      - 'Classes/CouldBeProtectedConstant'
      - 'Classes/CouldBeProtectedMethod'
      - 'Classes/CouldBeProtectedProperty'
+     - 'Classes/CouldBeReadonlyProperty'
      - 'Classes/CouldInjectParam'
      - 'Classes/CouldSetPropertyDefault'
+     - 'Classes/CouldUseClassOperator'
      - 'Classes/DefinedParentMP'
      - 'Classes/ExportProperty'
      - 'Classes/ExtendsStdclass'
+     - 'Classes/IncompatibleConstructor'
+     - 'Classes/MethodPropertyConfusion'
      - 'Classes/MissingVisibility'
+     - 'Classes/MultiplePropertyDeclaration'
+     - 'Classes/MultipleTraitOrInterface'
+     - 'Classes/NoMagicWithArray'
      - 'Classes/NoNullWithNullSafeOperator'
+     - 'Classes/NoPSSOutsideClass'
      - 'Classes/NoParent'
      - 'Classes/NoReadonlyAssignationInGlobal'
      - 'Classes/PromotedProperties'
      - 'Classes/PssWithoutClass'
+     - 'Classes/RaisedAccessLevel'
      - 'Classes/ReadonlyUsage'
+     - 'Classes/RedefinedConstants'
+     - 'Classes/RedefinedDefault'
+     - 'Classes/RedefinedMethods'
+     - 'Classes/ThisIsForClasses'
+     - 'Classes/ThisIsNotAnArray'
+     - 'Classes/TooManyDereferencing'
+     - 'Classes/TooManyFinds'
+     - 'Classes/TooManyInjections'
+     - 'Classes/TypehintCyclicDependencies'
      - 'Classes/UndefinedConstants'
      - 'Classes/UndefinedProperty'
+     - 'Classes/UndefinedStaticMP'
+     - 'Classes/UndefinedStaticclass'
+     - 'Classes/UninitedProperty'
      - 'Classes/UnitializedProperties'
+     - 'Classes/UnreachableConstant'
+     - 'Classes/UnreachableMethod'
+     - 'Classes/UnresolvedCatch'
+     - 'Classes/UnresolvedClasses'
+     - 'Classes/UnresolvedInstanceof'
+     - 'Classes/UnusedClass'
+     - 'Classes/UnusedConstant'
+     - 'Classes/UnusedMethods'
+     - 'Classes/UnusedPrivateMethod'
+     - 'Classes/UnusedProtectedMethods'
      - 'Classes/UnusedPublicMethod'
+     - 'Classes/UseClassOperator'
+     - 'Classes/UseInstanceof'
      - 'Classes/UseThis'
+     - 'Classes/UsedClass'
+     - 'Classes/UsedMethods'
+     - 'Classes/UsedOnceProperty'
+     - 'Classes/UsedPrivateMethod'
+     - 'Classes/UsedProtectedMethod'
+     - 'Classes/UselessAbstract'
+     - 'Classes/UselessAssignationOfPromotedProperty'
      - 'Classes/UselessConstructor'
+     - 'Classes/UselessFinal'
      - 'Classes/UselessNullSafeOperator'
+     - 'Classes/UselessTypehint'
      - 'Classes/UsingThisOutsideAClass'
+     - 'Classes/VariableClasses'
+     - 'Classes/WeakType'
+     - 'Classes/toStringPss'
+     - 'Complete/CreateCompactVariables'
+     - 'Complete/CreateDefaultValues'
+     - 'Complete/CreateForeachDefault'
+     - 'Complete/CreateMagicMethod'
+     - 'Complete/CreateMagicProperty'
+     - 'Complete/ExtendedTypehints'
+     - 'Complete/FollowClosureDefinition'
+     - 'Complete/MakeClassConstantDefinition'
+     - 'Complete/MakeClassMethodDefinition'
+     - 'Complete/OverwrittenProperties'
+     - 'Complete/PhpExtStubPropertyMethod'
+     - 'Complete/PhpNativeReference'
+     - 'Complete/PropagateConstants'
      - 'Complete/ReturnTypehint'
+     - 'Complete/SetArrayClassDefinition'
+     - 'Complete/SetClassMethodRemoteDefinition'
+     - 'Complete/SetClassPropertyDefinitionWithTypehint'
+     - 'Complete/SetClassRemoteDefinitionWithGlobal'
+     - 'Complete/SetClassRemoteDefinitionWithInjection'
+     - 'Complete/SetClassRemoteDefinitionWithLocalNew'
+     - 'Complete/SetClassRemoteDefinitionWithReturnTypehint'
+     - 'Complete/SetClassRemoteDefinitionWithTypehint'
+     - 'Complete/SetCloneLink'
+     - 'Complete/SetMethodFnp'
+     - 'Complete/SetParentDefinition'
+     - 'Complete/SolveTraitConstants'
+     - 'Complete/SolveTraitMethods'
      - 'Complete/VariableTypehint'
      - 'Constants/ConstDefinePreference'
      - 'Constants/CouldUseConstant'
      - 'Constants/CreatedOutsideItsNamespace'
      - 'Constants/CustomConstantUsage'
      - 'Constants/DefineInsensitivePreference'
+     - 'Constants/DynamicCreation'
+     - 'Constants/InconsistantCase'
+     - 'Constants/InvalidName'
+     - 'Constants/IsExtConstant'
+     - 'Constants/IsGlobalConstant'
+     - 'Constants/IsPhpConstant'
+     - 'Constants/MagicConstantUsage'
+     - 'Constants/MultipleConstantDefinition'
+     - 'Constants/PhpConstantUsage'
+     - 'Constants/StrangeName'
+     - 'Constants/UndefinedConstants'
+     - 'Constants/UnusedConstants'
+     - 'Constants/VariableConstant'
      - 'Custom/MethodUsage'
+     - 'Dump/CallOrder'
      - 'Dump/ClassInjectionCount'
+     - 'Dump/CollectCalls'
      - 'Dump/CollectCatch'
      - 'Dump/CollectClassChanges'
      - 'Dump/CollectClassChildren'
      - 'Dump/CollectClassDepth'
      - 'Dump/CollectClassInterfaceCounts'
      - 'Dump/CollectClassTraitsCounts'
+     - 'Dump/CollectDependencyExtension'
      - 'Dump/CollectGraphTriplets'
      - 'Dump/CollectLocalVariableCounts'
      - 'Dump/CollectMethodCounts'
@@ -7243,73 +7795,300 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Dump/CollectParameterCounts'
      - 'Dump/CollectPropertyCounts'
      - 'Dump/CollectPropertyUsage'
+     - 'Dump/CollectReadability'
      - 'Dump/CollectSetLocale'
      - 'Dump/CollectStructures'
      - 'Dump/CollectUseCounts'
+     - 'Dump/CombinedCalls'
      - 'Dump/CyclomaticComplexity'
      - 'Dump/EnvironnementVariables'
      - 'Dump/FossilizedMethods'
      - 'Dump/Inclusions'
      - 'Dump/IndentationLevels'
      - 'Dump/NewOrder'
+     - 'Dump/ParameterArgumentsLinks'
+     - 'Dump/PublicReach'
+     - 'Dump/TypehintingStats'
+     - 'Dump/Typehintorder'
      - 'Exceptions/AlreadyCaught'
      - 'Exceptions/CantThrow'
      - 'Exceptions/CatchE'
      - 'Exceptions/CatchUndefinedVariable'
      - 'Exceptions/CaughtButNotThrown'
      - 'Exceptions/CaughtExceptions'
+     - 'Exceptions/CouldDropVariable'
+     - 'Exceptions/DefinedExceptions'
+     - 'Exceptions/ForgottenThrown'
+     - 'Exceptions/IsPhpException'
+     - 'Exceptions/LargeTryBlock'
+     - 'Exceptions/LongPreparation'
+     - 'Exceptions/MultipleCatch'
+     - 'Exceptions/OverwriteException'
+     - 'Exceptions/PossibleTypeError'
+     - 'Exceptions/Rethrown'
+     - 'Exceptions/SetChainingException'
+     - 'Exceptions/ThrowFunctioncall'
+     - 'Exceptions/TryNoCatch'
+     - 'Exceptions/UncaughtExceptions'
+     - 'Exceptions/Unthrown'
+     - 'Exceptions/UnusedExceptionVariable'
+     - 'Exceptions/UselessCatch'
      - 'Exceptions/UselessTry'
+     - 'Extensions/Extamqp'
+     - 'Extensions/Extapache'
+     - 'Extensions/Extapc'
+     - 'Extensions/Extapcu'
+     - 'Extensions/Extarray'
+     - 'Extensions/Extast'
+     - 'Extensions/Extbcmath'
+     - 'Extensions/Extbzip2'
+     - 'Extensions/Extcalendar'
+     - 'Extensions/Extpcov'
+     - 'Extensions/Extsqlite'
+     - 'Extensions/Extsqlite3'
+     - 'Functions/AddDefaultValue'
+     - 'Functions/AliasesUsage'
+     - 'Functions/AvoidBooleanArgument'
+     - 'Functions/CancelledParameter'
      - 'Functions/CannotUseStaticForClosure'
+     - 'Functions/CantUse'
+     - 'Functions/Closure2String'
+     - 'Functions/Closures'
+     - 'Functions/ConditionedFunctions'
+     - 'Functions/CouldBeCallable'
+     - 'Functions/CouldBeStaticClosure'
+     - 'Functions/CouldCentralize'
      - 'Functions/CouldTypehint'
      - 'Functions/DynamicCode'
+     - 'Functions/ExceedingTypehint'
+     - 'Functions/GeneratorCannotReturn'
      - 'Functions/HasNotFluentInterface'
+     - 'Functions/IsGenerator'
      - 'Functions/MismatchParameterName'
      - 'Functions/MismatchTypeAndDefault'
+     - 'Functions/MustReturn'
      - 'Functions/NoLiteralForReference'
+     - 'Functions/NullTypeFavorite'
      - 'Functions/Recursive'
      - 'Functions/TypeDodging'
+     - 'Functions/TypehintMustBeReturned'
+     - 'Functions/UseArrowFunctions'
      - 'Functions/UselessDefault'
+     - 'Functions/UselessReferenceArgument'
+     - 'Functions/VariableParameterAmbiguityInArrowFunction'
      - 'Functions/VoidIsNotAReference'
      - 'Functions/WrongOptionalParameter'
      - 'Functions/funcGetArgModified'
+     - 'Interfaces/AlreadyParentsInterface'
+     - 'Interfaces/AvoidSelfInInterface'
+     - 'Interfaces/CantImplementTraversable'
      - 'Interfaces/CantOverloadConstants'
      - 'Interfaces/CouldUseInterface'
+     - 'Interfaces/EmptyInterface'
+     - 'Interfaces/InterfaceMethod'
+     - 'Interfaces/InterfaceUsage'
+     - 'Interfaces/Interfacenames'
+     - 'Interfaces/IsExtInterface'
+     - 'Interfaces/IsNotImplemented'
+     - 'Interfaces/NoGaranteeForPropertyConstant'
+     - 'Interfaces/Php'
+     - 'Interfaces/PossibleInterfaces'
+     - 'Interfaces/RepeatedInterface'
+     - 'Interfaces/UndefinedInterfaces'
+     - 'Interfaces/UnusedInterfaces'
+     - 'Interfaces/UsedInterfaces'
+     - 'Interfaces/UselessInterfaces'
+     - 'Namespaces/Alias'
+     - 'Namespaces/AliasConfusion'
+     - 'Namespaces/ConstantFullyQualified'
+     - 'Namespaces/CouldUseAlias'
+     - 'Namespaces/CouldUseMagicConstant'
+     - 'Namespaces/EmptyNamespace'
+     - 'Namespaces/GlobalImport'
+     - 'Namespaces/HiddenUse'
+     - 'Namespaces/MultipleAliasDefinitionPerFile'
+     - 'Namespaces/MultipleAliasDefinitions'
+     - 'Namespaces/NamespaceUsage'
+     - 'Namespaces/Namespacesnames'
+     - 'Namespaces/NoKeywordInNamespace'
+     - 'Namespaces/ShouldMakeAlias'
+     - 'Namespaces/UnresolvedUse'
+     - 'Namespaces/UnusedUse'
+     - 'Namespaces/UseFunctionsConstants'
+     - 'Namespaces/UseWithFullyQualifiedNS'
+     - 'Namespaces/UsedUse'
+     - 'Namespaces/WrongCase'
+     - 'Patterns/AbstractAway'
+     - 'Patterns/CourrierAntiPattern'
+     - 'Patterns/DependencyInjection'
+     - 'Patterns/Factory'
      - 'Patterns/GetterSetter'
+     - 'Performances/ArrayKeyExistsSpeedup'
+     - 'Performances/ArrayMergeInLoops'
+     - 'Performances/Autoappend'
+     - 'Performances/AvoidArrayPush'
      - 'Performances/CacheVariableOutsideLoop'
      - 'Performances/ClassOperator'
+     - 'Performances/CountToAppend'
+     - 'Performances/DoInBase'
+     - 'Performances/DoubleArrayFlip'
      - 'Performances/EllipsisMerge'
+     - 'Performances/FetchOneRowFormat'
+     - 'Performances/IssetWholeArray'
+     - 'Performances/LogicalToInArray'
+     - 'Performances/MakeOneCall'
+     - 'Performances/MbStringInLoop'
+     - 'Performances/MemoizeMagicCall'
+     - 'Performances/NoConcatInLoop'
+     - 'Performances/NoGlob'
+     - 'Performances/NotCountNull'
+     - 'Performances/OptimizeExplode'
+     - 'Performances/PHP7EncapsedStrings'
+     - 'Performances/Php74ArrayKeyExists'
      - 'Performances/PreCalculateUse'
+     - 'Performances/PrePostIncrement'
+     - 'Performances/RegexOnArrays'
+     - 'Performances/RegexOnCollector'
+     - 'Performances/SimpleSwitch'
      - 'Performances/SkipEmptyArray'
+     - 'Performances/SlowFunctions'
+     - 'Performances/StrposTooMuch'
+     - 'Performances/SubstrFirst'
      - 'Performances/SubstrInLoops'
      - 'Performances/TooManyExtractions'
+     - 'Performances/UseArraySlice'
+     - 'Performances/UseBlindVar'
+     - 'Performances/timeVsstrtotime'
+     - 'Php/ArrayKeyExistsWithObjects'
      - 'Php/AssertFunctionIsReserved'
+     - 'Php/Assumptions'
+     - 'Php/AutoloadUsage'
+     - 'Php/AvoidGetobjectVars'
+     - 'Php/AvoidMbDectectEncoding'
+     - 'Php/AvoidReal'
+     - 'Php/AvoidSetErrorHandlerContextArg'
+     - 'Php/BetterRand'
+     - 'Php/CallingStaticTraitMethod'
+     - 'Php/CantUseReturnValueInWriteContext'
+     - 'Php/CaseForPSS'
+     - 'Php/CastingUsage'
+     - 'Php/ClassConstWithArray'
+     - 'Php/ClassFunctionConfusion'
+     - 'Php/CloseTagsConsistency'
      - 'Php/ClosureThisSupport'
+     - 'Php/Coalesce'
+     - 'Php/CoalesceEqual'
+     - 'Php/CompactInexistant'
      - 'Php/ComparisonOnDifferentTypes'
      - 'Php/ConcatAndAddition'
+     - 'Php/ConstWithArray'
+     - 'Php/ConstantScalarExpression'
+     - 'Php/CookiesVariables'
+     - 'Php/CouldUseIsCountable'
+     - 'Php/Crc32MightBeNegative'
+     - 'Php/CryptoUsage'
+     - 'Php/DateFormats'
+     - 'Php/DeclareEncoding'
+     - 'Php/DeclareStrict'
+     - 'Php/DeclareStrictType'
+     - 'Php/DetectCurrentClass'
+     - 'Php/DirectivesUsage'
+     - 'Php/DlUsage'
+     - 'Php/ExitNoArg'
+     - 'Php/FilesFullPath'
+     - 'Php/FilterToAddSlashes'
+     - 'Php/FinalConstant'
+     - 'Php/FlexibleHeredoc'
+     - 'Php/FopenMode'
      - 'Php/ForeachDontChangePointer'
+     - 'Php/ForeachObject'
      - 'Php/GlobalWithoutSimpleVariable'
+     - 'Php/GlobalsVsGlobal'
      - 'Php/Gotonames'
+     - 'Php/GroupUseDeclaration'
+     - 'Php/GroupUseTrailingComma'
+     - 'Php/HashAlgos71'
+     - 'Php/HashAlgos74'
+     - 'Php/HashUsesObjects'
+     - 'Php/ImplodeOneArg'
+     - 'Php/IncomingValues'
+     - 'Php/IntegerSeparatorUsage'
+     - 'Php/InternalParameterType'
+     - 'Php/IsAWithString'
+     - 'Php/IsINF'
+     - 'Php/IsNAN'
+     - 'Php/IsnullVsEqualNull'
+     - 'Php/IssetMultipleArgs'
+     - 'Php/JsonSerializeReturnType'
+     - 'Php/Labelnames'
+     - 'Php/LetterCharsLogicalFavorite'
+     - 'Php/ListShortSyntax'
      - 'Php/ListWithAppends'
      - 'Php/ListWithKeys'
      - 'Php/MethodCallOnNew'
+     - 'Php/MiddleVersion'
+     - 'Php/MissingMagicIsset'
+     - 'Php/MissingSubpattern'
+     - 'Php/MultipleDeclareStrict'
+     - 'Php/MustCallParentConstructor'
      - 'Php/NamedArgumentAndVariadic'
+     - 'Php/NativeClassTypeCompatibility'
+     - 'Php/NestedTernaryWithoutParenthesis'
      - 'Php/NeverKeyword'
+     - 'Php/NeverTypehintUsage'
+     - 'Php/NewExponent'
+     - 'Php/NoCastToInt'
+     - 'Php/NoClassInGlobal'
+     - 'Php/NoListWithString'
+     - 'Php/NoNullForNative'
      - 'Php/NoReferenceForStaticProperty'
+     - 'Php/NoSubstrMinusOne'
+     - 'Php/NotScalarType'
+     - 'Php/OnlyVariablePassedByReference'
+     - 'Php/OpensslEncryptAlgoChange'
+     - 'Php/PHP70scalartypehints'
+     - 'Php/PHP71scalartypehints'
+     - 'Php/PHP72scalartypehints'
      - 'Php/PHP73LastEmptyArgument'
+     - 'Php/PHP80scalartypehints'
+     - 'Php/PHP81scalartypehints'
+     - 'Php/ParenthesisAsParameter'
+     - 'Php/Password55'
+     - 'Php/PathinfoReturns'
+     - 'Php/PearUsage'
+     - 'Php/Php54RemovedFunctions'
      - 'Php/Php71microseconds'
+     - 'Php/Php72NewClasses'
+     - 'Php/Php72NewConstants'
      - 'Php/Php74mbstrrpos3rdArg'
+     - 'Php/Php80OnlyTypeHints'
+     - 'Php/Php81NewTypes'
      - 'Php/Php81RemovesResources'
      - 'Php/Php82NewFunctions'
+     - 'Php/Php82NewTypes'
      - 'Php/Php83NewClasses'
      - 'Php/Php83NewFunctions'
      - 'Php/PhpErrorMsgUsage'
+     - 'Php/PregMatchAllFlag'
+     - 'Php/Prints'
      - 'Php/ReflectionExportIsDeprecated'
      - 'Php/ReservedKeywords7'
+     - 'Php/ReservedMethods'
+     - 'Php/ReservedNames'
      - 'Php/RestrictGlobalUsage'
      - 'Php/ReturnTypehintUsage'
+     - 'Php/ReturnWithParenthesis'
+     - 'Php/SafePhpvars'
+     - 'Php/ScalarAreNotArrays'
      - 'Php/ScalarTypehintUsage'
+     - 'Php/SerializeMagic'
+     - 'Php/SessionVariables'
      - 'Php/SetExceptionHandlerPHP7'
+     - 'Php/SetHandlers'
+     - 'Php/ShellFavorite'
+     - 'Php/ShortOpenTagRequired'
      - 'Php/ShortTernary'
+     - 'Php/StaticVariableDefaultCanBeAnyExpression'
      - 'Php/StringIntComparison'
      - 'Php/StrposWithIntegers'
      - 'Php/ThrowWasAnExpression'
@@ -7318,57 +8097,158 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Php/UseAttributes'
      - 'Php/UseNullSafeOperator'
      - 'Php/UsortSorting'
+     - 'Security/CurlOptions'
+     - 'Security/DirectInjection'
+     - 'Security/DontEchoError'
+     - 'Security/DynamicDl'
+     - 'Security/EncodedLetters'
+     - 'Security/FilterInputSource'
      - 'Security/FilterNotRaw'
+     - 'Security/GPRAliases'
      - 'Security/IncompatibleTypesWithIncoming'
+     - 'Security/IndirectInjection'
+     - 'Security/IntegerConversion'
+     - 'Security/KeepFilesRestricted'
+     - 'Security/MinusOneOnError'
+     - 'Security/MkdirDefault'
+     - 'Security/MoveUploadedFile'
+     - 'Security/NoEntIgnore'
+     - 'Security/NoNetForXmlLoad'
+     - 'Security/NoSleep'
+     - 'Security/NoWeakSSLCrypto'
+     - 'Security/RegisterGlobals'
      - 'Security/SafeHttpHeaders'
+     - 'Security/SensitiveArgument'
      - 'Security/SessionCachedData'
+     - 'Security/SessionLazyWrite'
+     - 'Security/SetCookieArgs'
+     - 'Security/ShouldUsePreparedStatement'
+     - 'Security/ShouldUseSessionRegenerateId'
+     - 'Security/Sqlite3RequiresSingleQuotes'
      - 'Structures/AlwaysFalse'
+     - 'Structures/ArrayAccessOnLiteralArray'
+     - 'Structures/ArrayMergeArrayArray'
+     - 'Structures/Bracketless'
      - 'Structures/CheckDivision'
+     - 'Structures/CoalesceNullCoalesce'
      - 'Structures/ConstantScalarExpression'
      - 'Structures/CouldBeArrayCombine'
      - 'Structures/CouldBeStatic'
+     - 'Structures/CouldCastToArray'
+     - 'Structures/CouldUseShortAssignation'
+     - 'Structures/CouldUseStrContains'
+     - 'Structures/CouldUseYieldFrom'
+     - 'Structures/CountIsNotNegative'
      - 'Structures/CryptWithoutSalt'
      - 'Structures/CurlVersionNow'
+     - 'Structures/DateTimePreference'
+     - 'Structures/DeprecatedMbEncoding'
+     - 'Structures/DereferencingAS'
      - 'Structures/DirThenSlash'
+     - 'Structures/DontUseTheTypeAsVariable'
+     - 'Structures/DoubleObjectAssignation'
+     - 'Structures/EmptyJsonError'
      - 'Structures/EmptyLoop'
      - 'Structures/EmptyWithExpression'
      - 'Structures/EvalWithoutTry'
      - 'Structures/FilePutContentsDataType'
      - 'Structures/ForWithFunctioncall'
      - 'Structures/FunctionPreSubscripting'
+     - 'Structures/GtOrLtFavorite'
      - 'Structures/HtmlentitiescallDefaultFlag'
+     - 'Structures/IdenticalCase'
      - 'Structures/ImplodeArgsOrder'
+     - 'Structures/IndicesAreIntOrString'
+     - 'Structures/InitThenIf'
+     - 'Structures/InvalidCast'
+     - 'Structures/InvalidPackFormat'
      - 'Structures/InvalidRegex'
      - 'Structures/IsZero'
      - 'Structures/IssetWithConstant'
      - 'Structures/LoneBlock'
+     - 'Structures/MbStringNonEncodings'
+     - 'Structures/McryptcreateivWithoutOption'
      - 'Structures/MergeIfThen'
+     - 'Structures/MissingAssignation'
+     - 'Structures/MissingNew'
      - 'Structures/MissingParenthesis'
+     - 'Structures/MisusedYield'
+     - 'Structures/MultilineExpressions'
      - 'Structures/MultipleSimilarCalls'
+     - 'Structures/NestedMatch'
      - 'Structures/NoChoice'
      - 'Structures/NoEmptyStringWithExplode'
      - 'Structures/NoMaxOnEmptyArray'
+     - 'Structures/NoNullForIndex'
+     - 'Structures/NoParenthesisForLanguageConstruct'
+     - 'Structures/NonIntStringAsIndex'
      - 'Structures/OneLineTwoInstructions'
      - 'Structures/OnlyFirstByte'
      - 'Structures/PlusEgalOne'
+     - 'Structures/RecalledCondition'
      - 'Structures/RepeatedPrint'
+     - 'Structures/ReturnVoid'
+     - 'Structures/ShortOrCompleteComparison'
+     - 'Structures/StrposLessThanOne'
+     - 'Structures/ThrowsAndAssign'
      - 'Structures/UnreachableCode'
      - 'Structures/UnusedLabel'
      - 'Structures/UseArrayFunctions'
      - 'Structures/UseCaseValue'
+     - 'Structures/UseCountRecursive'
+     - 'Structures/UseDebug'
+     - 'Structures/UseFileAppend'
+     - 'Structures/UseInstanceof'
+     - 'Structures/UseListWithForeach'
+     - 'Structures/UselessCoalesce'
      - 'Structures/UselessShortTernary'
      - 'Structures/UselessTrailingComma'
+     - 'Structures/WhileListEach'
      - 'Structures/WrongPrecedenceInExpression'
+     - 'Structures/toStringThrowsException'
+     - 'Traits/ConstantsInTraits'
+     - 'Traits/CouldUseTrait'
+     - 'Traits/DependantTrait'
+     - 'Traits/EmptyTrait'
+     - 'Traits/IncompatibleProperty'
+     - 'Traits/IsExtTrait'
+     - 'Traits/LocallyUsedProperty'
      - 'Traits/MethodCollisionTraits'
+     - 'Traits/MultipleUsage'
      - 'Traits/NoPrivateAbstract'
+     - 'Traits/Php'
+     - 'Traits/SelfUsingTrait'
+     - 'Traits/TraitMethod'
+     - 'Traits/TraitNotFound'
+     - 'Traits/TraitUsage'
+     - 'Traits/Traitnames'
+     - 'Traits/UndefinedInsteadof'
+     - 'Traits/UndefinedTrait'
+     - 'Traits/UnusedClassTrait'
+     - 'Traits/UnusedTrait'
+     - 'Traits/UsedTrait'
+     - 'Traits/UselessAlias'
+     - 'Type/ArrayIndex'
+     - 'Type/Binary'
+     - 'Type/CharString'
+     - 'Type/DuplicateLiteral'
+     - 'Type/Email'
+     - 'Type/HttpStatus'
      - 'Type/Ip'
+     - 'Type/Printf'
      - 'Type/StringInterpolation'
      - 'Typehints/CouldBeResource'
+     - 'Typehints/StandaloneTypeTFN'
+     - 'Utils/Selector'
+     - 'Variables/AmbiguousTypes'
      - 'Variables/CloseNaming'
      - 'Variables/InconsistentUsage'
      - 'Variables/InheritedStaticVariable'
+     - 'Variables/InterfaceArguments'
      - 'Variables/IsLocalConstant'
      - 'Variables/References'
+     - 'Variables/SelfTransform'
+     - 'Variables/StaticVariableInitialisation'
 
 
 
@@ -7815,6 +8695,8 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Php/Php72NewClasses";
    analyzer[] = "Php/Php73NewFunctions";
    analyzer[] = "Php/Php7RelaxedKeyword";
+   analyzer[] = "Php/Php81NewTypes";
+   analyzer[] = "Php/Php82NewTypes";
    analyzer[] = "Php/ReadonlyPropertyChangedByCloning";
    analyzer[] = "Php/StaticVariableDefaultCanBeAnyExpression";
    analyzer[] = "Php/StaticclassUsage";
@@ -7924,6 +8806,8 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Php/Php72NewClasses'
      - 'Php/Php73NewFunctions'
      - 'Php/Php7RelaxedKeyword'
+     - 'Php/Php81NewTypes'
+     - 'Php/Php82NewTypes'
      - 'Php/ReadonlyPropertyChangedByCloning'
      - 'Php/StaticVariableDefaultCanBeAnyExpression'
      - 'Php/StaticclassUsage'
@@ -8037,6 +8921,8 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Php/Php72NewClasses";
    analyzer[] = "Php/Php73NewFunctions";
    analyzer[] = "Php/Php7RelaxedKeyword";
+   analyzer[] = "Php/Php81NewTypes";
+   analyzer[] = "Php/Php82NewTypes";
    analyzer[] = "Php/ReadonlyPropertyChangedByCloning";
    analyzer[] = "Php/StaticVariableDefaultCanBeAnyExpression";
    analyzer[] = "Php/StaticclassUsage";
@@ -8143,6 +9029,8 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Php/Php72NewClasses'
      - 'Php/Php73NewFunctions'
      - 'Php/Php7RelaxedKeyword'
+     - 'Php/Php81NewTypes'
+     - 'Php/Php82NewTypes'
      - 'Php/ReadonlyPropertyChangedByCloning'
      - 'Php/StaticVariableDefaultCanBeAnyExpression'
      - 'Php/StaticclassUsage'
@@ -8255,6 +9143,8 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Php/Php72NewClasses";
    analyzer[] = "Php/Php73NewFunctions";
    analyzer[] = "Php/Php7RelaxedKeyword";
+   analyzer[] = "Php/Php81NewTypes";
+   analyzer[] = "Php/Php82NewTypes";
    analyzer[] = "Php/ReadonlyPropertyChangedByCloning";
    analyzer[] = "Php/StaticVariableDefaultCanBeAnyExpression";
    analyzer[] = "Php/TrailingComma";
@@ -8354,6 +9244,8 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Php/Php72NewClasses'
      - 'Php/Php73NewFunctions'
      - 'Php/Php7RelaxedKeyword'
+     - 'Php/Php81NewTypes'
+     - 'Php/Php82NewTypes'
      - 'Php/ReadonlyPropertyChangedByCloning'
      - 'Php/StaticVariableDefaultCanBeAnyExpression'
      - 'Php/TrailingComma'
@@ -8451,6 +9343,8 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Php/Php73NewFunctions";
    analyzer[] = "Php/Php7RelaxedKeyword";
    analyzer[] = "Php/Php80OnlyTypeHints";
+   analyzer[] = "Php/Php81NewTypes";
+   analyzer[] = "Php/Php82NewTypes";
    analyzer[] = "Php/RawPostDataUsage";
    analyzer[] = "Php/ReadonlyPropertyChangedByCloning";
    analyzer[] = "Php/StaticVariableDefaultCanBeAnyExpression";
@@ -8540,6 +9434,8 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Php/Php73NewFunctions'
      - 'Php/Php7RelaxedKeyword'
      - 'Php/Php80OnlyTypeHints'
+     - 'Php/Php81NewTypes'
+     - 'Php/Php82NewTypes'
      - 'Php/RawPostDataUsage'
      - 'Php/ReadonlyPropertyChangedByCloning'
      - 'Php/StaticVariableDefaultCanBeAnyExpression'
@@ -8628,6 +9524,8 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Php/Php73NewFunctions";
    analyzer[] = "Php/Php80OnlyTypeHints";
    analyzer[] = "Php/Php80UnionTypehint";
+   analyzer[] = "Php/Php81NewTypes";
+   analyzer[] = "Php/Php82NewTypes";
    analyzer[] = "Php/ReadonlyPropertyChangedByCloning";
    analyzer[] = "Php/ReservedKeywords7";
    analyzer[] = "Php/SetExceptionHandlerPHP7";
@@ -8708,6 +9606,8 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Php/Php73NewFunctions'
      - 'Php/Php80OnlyTypeHints'
      - 'Php/Php80UnionTypehint'
+     - 'Php/Php81NewTypes'
+     - 'Php/Php82NewTypes'
      - 'Php/ReadonlyPropertyChangedByCloning'
      - 'Php/ReservedKeywords7'
      - 'Php/SetExceptionHandlerPHP7'
@@ -8789,6 +9689,8 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Php/Php73NewFunctions";
    analyzer[] = "Php/Php80OnlyTypeHints";
    analyzer[] = "Php/Php80UnionTypehint";
+   analyzer[] = "Php/Php81NewTypes";
+   analyzer[] = "Php/Php82NewTypes";
    analyzer[] = "Php/ReadonlyPropertyChangedByCloning";
    analyzer[] = "Php/SignatureTrailingComma";
    analyzer[] = "Php/StaticVariableDefaultCanBeAnyExpression";
@@ -8859,6 +9761,8 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Php/Php73NewFunctions'
      - 'Php/Php80OnlyTypeHints'
      - 'Php/Php80UnionTypehint'
+     - 'Php/Php81NewTypes'
+     - 'Php/Php82NewTypes'
      - 'Php/ReadonlyPropertyChangedByCloning'
      - 'Php/SignatureTrailingComma'
      - 'Php/StaticVariableDefaultCanBeAnyExpression'
@@ -8930,6 +9834,8 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Php/Php73NewFunctions";
    analyzer[] = "Php/Php80OnlyTypeHints";
    analyzer[] = "Php/Php80UnionTypehint";
+   analyzer[] = "Php/Php81NewTypes";
+   analyzer[] = "Php/Php82NewTypes";
    analyzer[] = "Php/ReadonlyPropertyChangedByCloning";
    analyzer[] = "Php/SignatureTrailingComma";
    analyzer[] = "Php/StaticVariableDefaultCanBeAnyExpression";
@@ -8993,6 +9899,8 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Php/Php73NewFunctions'
      - 'Php/Php80OnlyTypeHints'
      - 'Php/Php80UnionTypehint'
+     - 'Php/Php81NewTypes'
+     - 'Php/Php82NewTypes'
      - 'Php/ReadonlyPropertyChangedByCloning'
      - 'Php/SignatureTrailingComma'
      - 'Php/StaticVariableDefaultCanBeAnyExpression'
@@ -9056,6 +9964,8 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Php/Php74NewDirective";
    analyzer[] = "Php/Php80OnlyTypeHints";
    analyzer[] = "Php/Php80UnionTypehint";
+   analyzer[] = "Php/Php81NewTypes";
+   analyzer[] = "Php/Php82NewTypes";
    analyzer[] = "Php/ReadonlyPropertyChangedByCloning";
    analyzer[] = "Php/SignatureTrailingComma";
    analyzer[] = "Php/StaticVariableDefaultCanBeAnyExpression";
@@ -9110,6 +10020,8 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Php/Php74NewDirective'
      - 'Php/Php80OnlyTypeHints'
      - 'Php/Php80UnionTypehint'
+     - 'Php/Php81NewTypes'
+     - 'Php/Php82NewTypes'
      - 'Php/ReadonlyPropertyChangedByCloning'
      - 'Php/SignatureTrailingComma'
      - 'Php/StaticVariableDefaultCanBeAnyExpression'
@@ -9182,6 +10094,8 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Php/Php80OnlyTypeHints";
    analyzer[] = "Php/Php80UnionTypehint";
    analyzer[] = "Php/Php80VariableSyntax";
+   analyzer[] = "Php/Php81NewTypes";
+   analyzer[] = "Php/Php82NewTypes";
    analyzer[] = "Php/ReadonlyPropertyChangedByCloning";
    analyzer[] = "Php/ReflectionExportIsDeprecated";
    analyzer[] = "Php/ScalarAreNotArrays";
@@ -9248,6 +10162,8 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Php/Php80OnlyTypeHints'
      - 'Php/Php80UnionTypehint'
      - 'Php/Php80VariableSyntax'
+     - 'Php/Php81NewTypes'
+     - 'Php/Php82NewTypes'
      - 'Php/ReadonlyPropertyChangedByCloning'
      - 'Php/ReflectionExportIsDeprecated'
      - 'Php/ScalarAreNotArrays'
@@ -9312,7 +10228,9 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Php/Php80RemovedDirective";
    analyzer[] = "Php/Php80RemovedFunctions";
    analyzer[] = "Php/Php80RemovesResources";
+   analyzer[] = "Php/Php81NewTypes";
    analyzer[] = "Php/Php81RemovesResources";
+   analyzer[] = "Php/Php82NewTypes";
    analyzer[] = "Php/PhpErrorMsgUsage";
    analyzer[] = "Php/ReadonlyPropertyChangedByCloning";
    analyzer[] = "Php/ReservedMatchKeyword";
@@ -9368,7 +10286,9 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Php/Php80RemovedDirective'
      - 'Php/Php80RemovedFunctions'
      - 'Php/Php80RemovesResources'
+     - 'Php/Php81NewTypes'
      - 'Php/Php81RemovesResources'
+     - 'Php/Php82NewTypes'
      - 'Php/PhpErrorMsgUsage'
      - 'Php/ReadonlyPropertyChangedByCloning'
      - 'Php/ReservedMatchKeyword'
@@ -9420,9 +10340,11 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Php/Php74RemovedDirective";
    analyzer[] = "Php/Php80RemovedDirective";
    analyzer[] = "Php/Php81NewFunctions";
+   analyzer[] = "Php/Php81NewTypes";
    analyzer[] = "Php/Php81RemovedConstant";
    analyzer[] = "Php/Php81RemovedDirective";
    analyzer[] = "Php/Php81RemovedFunctions";
+   analyzer[] = "Php/Php82NewTypes";
    analyzer[] = "Php/ReadonlyPropertyChangedByCloning";
    analyzer[] = "Php/RestrictGlobalUsage";
    analyzer[] = "Php/StaticVariableDefaultCanBeAnyExpression";
@@ -9465,9 +10387,11 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Php/Php74RemovedDirective'
      - 'Php/Php80RemovedDirective'
      - 'Php/Php81NewFunctions'
+     - 'Php/Php81NewTypes'
      - 'Php/Php81RemovedConstant'
      - 'Php/Php81RemovedDirective'
      - 'Php/Php81RemovedFunctions'
+     - 'Php/Php82NewTypes'
      - 'Php/ReadonlyPropertyChangedByCloning'
      - 'Php/RestrictGlobalUsage'
      - 'Php/StaticVariableDefaultCanBeAnyExpression'
@@ -10063,29 +10987,20 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Classes/DefinedConstants";
    analyzer[] = "Classes/IsInterfaceMethod";
    analyzer[] = "Classes/LoweredAccessLevel";
-   analyzer[] = "Classes/MethodPropertyConfusion";
    analyzer[] = "Classes/NonStaticMethodsCalledStatic";
-   analyzer[] = "Classes/RaisedAccessLevel";
    analyzer[] = "Classes/RedefinedPrivateProperty";
    analyzer[] = "Classes/StaticMethodsCalledFromObject";
-   analyzer[] = "Complete/PhpNativeReference";
-   analyzer[] = "Constants/UndefinedConstants";
    analyzer[] = "Enums/UndefinedEnumcase";
    analyzer[] = "Functions/DontUseVoid";
    analyzer[] = "Functions/OnlyVariablePassedByReference";
    analyzer[] = "Functions/UsesDefaultArguments";
    analyzer[] = "Functions/WrongArgumentNameWithPhpFunction";
    analyzer[] = "Functions/WrongNumberOfArguments";
-   analyzer[] = "Interfaces/AlreadyParentsInterface";
-   analyzer[] = "Interfaces/IsNotImplemented";
-   analyzer[] = "Interfaces/UndefinedInterfaces";
    analyzer[] = "Namespaces/OverloadExistingNames";
-   analyzer[] = "Namespaces/UnresolvedUse";
    analyzer[] = "Php/OveriddenFunction";
    analyzer[] = "Php/TooManyNativeCalls";
    analyzer[] = "Php/UpperCaseFunction";
    analyzer[] = "Structures/ArrayMapPassesByValue";
-   analyzer[] = "Traits/UndefinedTrait";
 
 
 .. _annex-yaml-isext:
@@ -10104,29 +11019,20 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Classes/DefinedConstants'
      - 'Classes/IsInterfaceMethod'
      - 'Classes/LoweredAccessLevel'
-     - 'Classes/MethodPropertyConfusion'
      - 'Classes/NonStaticMethodsCalledStatic'
-     - 'Classes/RaisedAccessLevel'
      - 'Classes/RedefinedPrivateProperty'
      - 'Classes/StaticMethodsCalledFromObject'
-     - 'Complete/PhpNativeReference'
-     - 'Constants/UndefinedConstants'
      - 'Enums/UndefinedEnumcase'
      - 'Functions/DontUseVoid'
      - 'Functions/OnlyVariablePassedByReference'
      - 'Functions/UsesDefaultArguments'
      - 'Functions/WrongArgumentNameWithPhpFunction'
      - 'Functions/WrongNumberOfArguments'
-     - 'Interfaces/AlreadyParentsInterface'
-     - 'Interfaces/IsNotImplemented'
-     - 'Interfaces/UndefinedInterfaces'
      - 'Namespaces/OverloadExistingNames'
-     - 'Namespaces/UnresolvedUse'
      - 'Php/OveriddenFunction'
      - 'Php/TooManyNativeCalls'
      - 'Php/UpperCaseFunction'
      - 'Structures/ArrayMapPassesByValue'
-     - 'Traits/UndefinedTrait'
 
 
 
@@ -10152,29 +11058,20 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Classes/DefinedConstants";
    analyzer[] = "Classes/IsInterfaceMethod";
    analyzer[] = "Classes/LoweredAccessLevel";
-   analyzer[] = "Classes/MethodPropertyConfusion";
    analyzer[] = "Classes/NonStaticMethodsCalledStatic";
-   analyzer[] = "Classes/RaisedAccessLevel";
    analyzer[] = "Classes/RedefinedPrivateProperty";
    analyzer[] = "Classes/StaticMethodsCalledFromObject";
-   analyzer[] = "Complete/PhpNativeReference";
-   analyzer[] = "Constants/UndefinedConstants";
    analyzer[] = "Enums/UndefinedEnumcase";
    analyzer[] = "Functions/DontUseVoid";
    analyzer[] = "Functions/OnlyVariablePassedByReference";
    analyzer[] = "Functions/UsesDefaultArguments";
    analyzer[] = "Functions/WrongArgumentNameWithPhpFunction";
    analyzer[] = "Functions/WrongNumberOfArguments";
-   analyzer[] = "Interfaces/AlreadyParentsInterface";
-   analyzer[] = "Interfaces/IsNotImplemented";
-   analyzer[] = "Interfaces/UndefinedInterfaces";
    analyzer[] = "Namespaces/OverloadExistingNames";
-   analyzer[] = "Namespaces/UnresolvedUse";
    analyzer[] = "Php/OveriddenFunction";
    analyzer[] = "Php/TooManyNativeCalls";
    analyzer[] = "Php/UpperCaseFunction";
    analyzer[] = "Structures/ArrayMapPassesByValue";
-   analyzer[] = "Traits/UndefinedTrait";
 
 
 .. _annex-yaml-isphp:
@@ -10193,29 +11090,20 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Classes/DefinedConstants'
      - 'Classes/IsInterfaceMethod'
      - 'Classes/LoweredAccessLevel'
-     - 'Classes/MethodPropertyConfusion'
      - 'Classes/NonStaticMethodsCalledStatic'
-     - 'Classes/RaisedAccessLevel'
      - 'Classes/RedefinedPrivateProperty'
      - 'Classes/StaticMethodsCalledFromObject'
-     - 'Complete/PhpNativeReference'
-     - 'Constants/UndefinedConstants'
      - 'Enums/UndefinedEnumcase'
      - 'Functions/DontUseVoid'
      - 'Functions/OnlyVariablePassedByReference'
      - 'Functions/UsesDefaultArguments'
      - 'Functions/WrongArgumentNameWithPhpFunction'
      - 'Functions/WrongNumberOfArguments'
-     - 'Interfaces/AlreadyParentsInterface'
-     - 'Interfaces/IsNotImplemented'
-     - 'Interfaces/UndefinedInterfaces'
      - 'Namespaces/OverloadExistingNames'
-     - 'Namespaces/UnresolvedUse'
      - 'Php/OveriddenFunction'
      - 'Php/TooManyNativeCalls'
      - 'Php/UpperCaseFunction'
      - 'Structures/ArrayMapPassesByValue'
-     - 'Traits/UndefinedTrait'
 
 
 
@@ -10241,27 +11129,18 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Classes/DefinedConstants";
    analyzer[] = "Classes/IsInterfaceMethod";
    analyzer[] = "Classes/LoweredAccessLevel";
-   analyzer[] = "Classes/MethodPropertyConfusion";
    analyzer[] = "Classes/NonStaticMethodsCalledStatic";
-   analyzer[] = "Classes/RaisedAccessLevel";
    analyzer[] = "Classes/RedefinedPrivateProperty";
    analyzer[] = "Classes/StaticMethodsCalledFromObject";
-   analyzer[] = "Complete/PhpNativeReference";
-   analyzer[] = "Constants/UndefinedConstants";
    analyzer[] = "Enums/UndefinedEnumcase";
    analyzer[] = "Functions/DontUseVoid";
    analyzer[] = "Functions/OnlyVariablePassedByReference";
    analyzer[] = "Functions/UsesDefaultArguments";
    analyzer[] = "Functions/WrongArgumentNameWithPhpFunction";
    analyzer[] = "Functions/WrongNumberOfArguments";
-   analyzer[] = "Interfaces/AlreadyParentsInterface";
-   analyzer[] = "Interfaces/IsNotImplemented";
-   analyzer[] = "Interfaces/UndefinedInterfaces";
    analyzer[] = "Namespaces/OverloadExistingNames";
-   analyzer[] = "Namespaces/UnresolvedUse";
    analyzer[] = "Php/OveriddenFunction";
    analyzer[] = "Structures/ArrayMapPassesByValue";
-   analyzer[] = "Traits/UndefinedTrait";
 
 
 .. _annex-yaml-isstub:
@@ -10280,27 +11159,18 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Classes/DefinedConstants'
      - 'Classes/IsInterfaceMethod'
      - 'Classes/LoweredAccessLevel'
-     - 'Classes/MethodPropertyConfusion'
      - 'Classes/NonStaticMethodsCalledStatic'
-     - 'Classes/RaisedAccessLevel'
      - 'Classes/RedefinedPrivateProperty'
      - 'Classes/StaticMethodsCalledFromObject'
-     - 'Complete/PhpNativeReference'
-     - 'Constants/UndefinedConstants'
      - 'Enums/UndefinedEnumcase'
      - 'Functions/DontUseVoid'
      - 'Functions/OnlyVariablePassedByReference'
      - 'Functions/UsesDefaultArguments'
      - 'Functions/WrongArgumentNameWithPhpFunction'
      - 'Functions/WrongNumberOfArguments'
-     - 'Interfaces/AlreadyParentsInterface'
-     - 'Interfaces/IsNotImplemented'
-     - 'Interfaces/UndefinedInterfaces'
      - 'Namespaces/OverloadExistingNames'
-     - 'Namespaces/UnresolvedUse'
      - 'Php/OveriddenFunction'
      - 'Structures/ArrayMapPassesByValue'
-     - 'Traits/UndefinedTrait'
 
 
 
@@ -11522,6 +12392,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
 
  [Surprising]
    analyzer[] = "Structures/SequenceInFor";
+   analyzer[] = "Structures/StrposLessThanOne";
 
 
 .. _annex-yaml-surprising:
@@ -11536,6 +12407,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
   rulesets:
     'Surprising':
      - 'Structures/SequenceInFor'
+     - 'Structures/StrposLessThanOne'
 
 
 

@@ -5,7 +5,7 @@ CompatibilityPHP74
 
 This ruleset centralizes all analysis for the migration from PHP 7.3 to 7.4.
 
-Total : 53 analysis
+Total : 55 analysis
 
 * :ref:`detect-current-class`
 * :ref:`don't-read-and-write-in-one-expression`
@@ -60,6 +60,8 @@ Total : 53 analysis
 * :ref:`final-traits-are-final`
 * :ref:`typed-class-constants-usage`
 * :ref:`void-is-not-a-reference`
+* :ref:`php-8.1-new-types`
+* :ref:`php-8.2-new-types`
 
 Specs
 _____

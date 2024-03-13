@@ -9,7 +9,6 @@ Return Typehint Usage
 
 Return typehint were introduced in PHP 7.0, and are backward incompatible with PHP 5.x.
 
-
 .. code-block:: php
    
    <?php

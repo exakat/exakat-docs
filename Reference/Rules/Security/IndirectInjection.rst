@@ -7,8 +7,7 @@ Indirect Injection
 
   This rule reports injections through indirect usage of `$_GET <https://www.php.net/manual/en/reserved.variables.get.php>`_, `$_POST <https://www.php.net/manual/en/reserved.variables.post.php>`_, `$_REQUEST <https://www.php.net/manual/en/reserved.variables.request.php>`_, $_COOKIE values. The injection is indirect, as the incoming data may be stored in different container before reaching the sensitive call. 
 
-Sensitive parameters are identified with Security/`SensitiveParameter <https://www.php.net/sensitiveparameter>`_ rule. 
-
+Sensitive parameters are identified with Security/`SensitiveParameter <https://www.php.net/sensitiveparameter>`_ rule.
 
 .. code-block:: php
    
@@ -38,7 +37,7 @@ _____
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Security/IndirectInjection                                                                                              |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Security <ruleset-Security>`                                                            |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`, :ref:`Security <ruleset-Security>`        |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 0.8.4                                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

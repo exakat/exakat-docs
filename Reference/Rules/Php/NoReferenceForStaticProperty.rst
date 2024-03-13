@@ -11,7 +11,6 @@ According to the PHP 7.3 changelog :
 
 In PHP, `static <https://www.php.net/manual/en/language.oop5.static.php>`_ properties are shared between inheriting classes, unless the `static <https://www.php.net/manual/en/language.oop5.static.php>`_ property is explicitly overridden in a child class. However, due to an implementation artifact it was possible to separate the `static <https://www.php.net/manual/en/language.oop5.static.php>`_ properties by assigning a reference. This loophole has been fixed.
 
-
 .. code-block:: php
    
    <?php

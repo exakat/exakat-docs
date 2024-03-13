@@ -5,7 +5,7 @@
 Method Is A Generator
 +++++++++++++++++++++
 
-  This rule marks functions, methods, `... <https://www.php.net/manual/en/functions.arguments.php#functions.variable-arg-list>`_ that are using ``yield`` and ``yield from`` keywords.
+  This rule marks functions, methods, `... <https://www.php.net/manual/en/functions.arguments.php#functions.variable-arg-list>`_ that are using ``yield`` and ``yield from`` keywords. The usage of that keyword makes them `Generator <https://www.php.net/manual/en/class.`generator <https://www.php.net/generator>`_.php>`_, as is show by the compulsory return type of ``Generator``.
 
 .. code-block:: php
    
@@ -33,7 +33,7 @@ _____
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Functions/IsGenerator                                                                                                                                                                   |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Appinfo <ruleset-Appinfo>`, :ref:`CE <ruleset-CE>`                                                                                                      |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Appinfo <ruleset-Appinfo>`, :ref:`CE <ruleset-CE>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`                                                  |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 0.8.4                                                                                                                                                                                   |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

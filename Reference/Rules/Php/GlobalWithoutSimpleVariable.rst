@@ -7,7 +7,6 @@ Simple Global Variable
 
   The global keyword should only be used with simple variables. Since PHP 7, it cannot be used with complex or dynamic structures.
 
-
 .. code-block:: php
    
    <?php
@@ -19,7 +18,7 @@ Simple Global Variable
    global $$variable->global ;
    
    // Tolerated in PHP 7
-   global ${$variable->global};
+   global $\{$variable->global\}; 
    
    ?>
 

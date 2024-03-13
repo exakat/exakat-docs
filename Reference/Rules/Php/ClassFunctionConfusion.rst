@@ -9,7 +9,6 @@ Class Function Confusion
 
 When functions and classes bear the same name, calling them may be confusing. This may also lead to forgotten 'new' keyword.
 
-
 .. code-block:: php
    
    <?php
@@ -40,7 +39,7 @@ _____
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Php/ClassFunctionConfusion                                                                                              |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Semantics <ruleset-Semantics>`                                                          |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`, :ref:`Semantics <ruleset-Semantics>`      |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 0.10.2                                                                                                                  |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

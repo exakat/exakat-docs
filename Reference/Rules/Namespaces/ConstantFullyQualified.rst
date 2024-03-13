@@ -8,7 +8,9 @@ Fully Qualified Constants
   Constants defined with their namespace.
 
 When defining constants with `define() <https://www.php.net/define>`_ function, it is possible to include the actual namespace : 
+However, the name should be fully qualified without the initial \. Here, \a\b\c constant will never be accessible as a namespace constant, though it will be accessible via the `constant() <https://www.php.net/constant>`_ function.
 
+Also, the namespace will be absolute, and not a relative namespace of the current one.
 
 .. code-block:: php
    
@@ -18,15 +20,10 @@ When defining constants with `define() <https://www.php.net/define>`_ function, 
    
    ?>
 
-
-However, the name should be fully qualified without the initial \. Here, \a\b\c constant will never be accessible as a namespace constant, though it will be accessible via the `constant() <https://www.php.net/constant>`_ function.
-
-Also, the namespace will be absolute, and not a relative namespace of the current one.
-
 Suggestions
 ___________
 
-* Drop the initial \ when creating constants with define() : for example, use trim($x, '\\'), which removes anti-slashes before and after.
+* Drop the initial \ when creating constants with define() : for example, use trim($x, '\'), which removes anti-slashes before and after.
 
 
 
@@ -37,7 +34,7 @@ _____
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Namespaces/ConstantFullyQualified                                                                                       |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Analyze <ruleset-Analyze>`                                                              |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Analyze <ruleset-Analyze>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`          |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 0.8.4                                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

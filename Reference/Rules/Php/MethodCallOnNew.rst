@@ -8,7 +8,7 @@ Methodcall On New
   It is possible to call a method right at object instantiation. 
 
 This syntax was added in PHP 5.4+. Before, this was not possible : the object had to be stored in a variable first.
-
+This syntax is interesting when the object is not reused, and may be discarded
 
 .. code-block:: php
    
@@ -26,9 +26,6 @@ This syntax was added in PHP 5.4+. Before, this was not possible : the object ha
    }
    
    ?>
-
-
-This syntax is interesting when the object is not reused, and may be discarded
 
 Specs
 _____

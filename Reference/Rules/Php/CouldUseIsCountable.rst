@@ -9,7 +9,6 @@ Use is_countable
 
 `is_countable() <https://www.php.net/is_countable>`_ accepts arrays and object whose class implements \`countable <https://www.php.net/countable>`_.
 
-
 .. code-block:: php
    
    <?php
@@ -51,7 +50,7 @@ _____
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Php/CouldUseIsCountable                                                                                                 |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Suggestions <ruleset-Suggestions>`                                                      |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`, :ref:`Suggestions <ruleset-Suggestions>`  |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 1.3.8                                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

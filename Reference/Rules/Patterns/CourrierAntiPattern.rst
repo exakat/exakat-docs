@@ -8,7 +8,7 @@ Courier Anti-Pattern
   The courier anti-pattern is the storage of a dependency by a class, in order to create an instance that requires this dependency.
 
 The class itself doesn't actually need this dependency, but has a dependency to a class that requires it. 
-
+The alternative here is to inject Foo instead of Bar.
 
 .. code-block:: php
    
@@ -37,9 +37,6 @@ The class itself doesn't actually need this dependency, but has a dependency to 
    
    ?>
 
-
-The alternative here is to inject Foo instead of Bar.
-
 See also `Courier Anti-pattern <https://r.je/oop-courier-anti-pattern.html>`_.
 
 
@@ -49,7 +46,7 @@ _____
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Patterns/CourrierAntiPattern                                                                                                                                                            |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Appinfo <ruleset-Appinfo>`, :ref:`CE <ruleset-CE>`                                                                                                      |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Appinfo <ruleset-Appinfo>`, :ref:`CE <ruleset-CE>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`                                                  |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 0.11.6                                                                                                                                                                                  |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

@@ -13,7 +13,6 @@ PHP superglobals are usually filled with external data that should be filtered. 
 
 ``$_SERVER`` is partially safe. It is valid for the following values : ``DOCUMENT_ROOT``, ``REQUEST_TIME``, ``REQUEST_TIME_FLOAT``, ``SCRIPT_NAME``, ``SERVER_ADMIN``, ``_``.
 
-
 .. code-block:: php
    
    <?php
@@ -38,7 +37,7 @@ _____
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Php/SafePhpvars                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`                                                                                                |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`                                            |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 2.1.2                                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

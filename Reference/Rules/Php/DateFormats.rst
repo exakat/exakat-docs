@@ -9,7 +9,6 @@ Date Formats
 
 Date format are detected with calls to `date() <https://www.php.net/date>`_, `strftime() <https://www.php.net/strftime>`_, `gmstrftime() <https://www.php.net/gmstrftime>`_, `date_format() <https://www.php.net/date_format>`_ functions and to the format() method on ``Datetime`` and ``DatetimeImmutable``.
 
-
 .. code-block:: php
    
    <?php
@@ -29,7 +28,7 @@ _____
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Php/DateFormats                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Inventory <ruleset-Inventory>`                                                          |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`, :ref:`Inventory <ruleset-Inventory>`      |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 0.12.16                                                                                                                 |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

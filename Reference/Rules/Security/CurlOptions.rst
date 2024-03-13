@@ -9,7 +9,6 @@ Safe Curl Options
 
 With those tests, the certificate is verified, and if it isn't valid, the `connection <https://www.php.net/connection>`_ fails : this is a safe behavior.
 
-
 .. code-block:: php
    
    <?php
@@ -41,7 +40,7 @@ _____
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Security/CurlOptions                                                                                                    |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Security <ruleset-Security>`                                                            |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`, :ref:`Security <ruleset-Security>`        |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 0.8.4                                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

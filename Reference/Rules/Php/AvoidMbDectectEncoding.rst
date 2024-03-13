@@ -9,7 +9,6 @@ Avoid mb_dectect_encoding()
 
 For example, UTF-8 and ISO-8859-1 share some common characters : when a string is build with them it is impossible to differentiate the actual encoding.
 
-
 .. code-block:: php
    
    <?php
@@ -35,7 +34,7 @@ _____
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Php/AvoidMbDectectEncoding                                                                                              |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Analyze <ruleset-Analyze>`                                                              |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Analyze <ruleset-Analyze>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`          |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 1.8.9                                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

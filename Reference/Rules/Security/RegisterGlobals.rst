@@ -11,8 +11,7 @@ This lead to security failures, as the variables were often used but not filtere
 Though it is less often found in more recent code, ``register_globals`` is sometimes needed in legacy code, that haven't made the move to eradicate this style of coding.
 Backward compatible pieces of code that mimic the ``register_globals`` features usually create even greater security risks by being run after scripts startup. At that point, some important variables are already set, and may be overwritten by the incoming call, creating confusion in the script.
 
-Mimicking ``register_globals`` is achieved with variables variables, `extract() <https://www.php.net/extract>`_, `parse_str() <https://www.php.net/parse_str>`_ and import_request_variables() (Up to PHP 5.4). 
-
+Mimicking ``register_globals`` is achieved with variables variables, `extract() <https://www.php.net/extract>`_, `parse_str() <https://www.php.net/parse_str>`_ and import_request_variables() (Up to PHP 5.4).
 
 .. code-block:: php
    
@@ -43,7 +42,7 @@ _____
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Security/RegisterGlobals                                                                                                |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Security <ruleset-Security>`                                                            |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`, :ref:`Security <ruleset-Security>`        |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 0.8.4                                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

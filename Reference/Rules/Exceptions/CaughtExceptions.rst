@@ -5,7 +5,10 @@
 Caught Exceptions
 +++++++++++++++++
 
-  This rule collects the exceptions used in catch clause. Those are the caught exceptions.
+  This rule collects the exceptions used in catch clause. Those are the caught exceptions. 
+
+Caught exceptions might be thrown from within the code, or from an outside library. 
+
 
 .. code-block:: php
    

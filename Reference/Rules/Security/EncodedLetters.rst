@@ -11,7 +11,6 @@ Usually, escape sequences are made to encode unusual characters. Using escape se
 
 This analysis also detects Unicode codepoint with superfluous leading zeros.
 
-
 .. code-block:: php
    
    <?php
@@ -45,7 +44,7 @@ _____
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Security/EncodedLetters                                                                                                 |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Security <ruleset-Security>`                                                            |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`, :ref:`Security <ruleset-Security>`        |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 0.10.5                                                                                                                  |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

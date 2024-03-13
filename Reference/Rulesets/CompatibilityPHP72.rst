@@ -5,7 +5,7 @@ CompatibilityPHP72
 
 This ruleset centralizes all analysis for the migration from PHP 7.1 to 7.2.
 
-Total : 50 analysis
+Total : 52 analysis
 
 * :ref:`undefined-constants`
 * :ref:`hash-algorithms-incompatible-with-php-5.3`
@@ -57,6 +57,8 @@ Total : 50 analysis
 * :ref:`final-traits-are-final`
 * :ref:`typed-class-constants-usage`
 * :ref:`void-is-not-a-reference`
+* :ref:`php-8.1-new-types`
+* :ref:`php-8.2-new-types`
 
 Specs
 _____

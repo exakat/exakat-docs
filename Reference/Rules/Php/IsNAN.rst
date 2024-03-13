@@ -5,8 +5,7 @@
 Manipulates NaN
 +++++++++++++++
 
-  This code handles ``Not-a-Number`` situations. ``Not-a-Number``, also called ``NaN``, happens when a calculation can't return an actual float. 
-
+  This code handles ``Not-a-Number`` situations. ``Not-a-Number``, also called ``NaN``, happens when a calculation can't return an actual float.
 
 .. code-block:: php
    
@@ -36,7 +35,7 @@ _____
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Php/IsNAN                                                                                                                                                                               |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Appinfo <ruleset-Appinfo>`, :ref:`CE <ruleset-CE>`                                                                                                      |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Appinfo <ruleset-Appinfo>`, :ref:`CE <ruleset-CE>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`                                                  |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 0.10.6                                                                                                                                                                                  |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

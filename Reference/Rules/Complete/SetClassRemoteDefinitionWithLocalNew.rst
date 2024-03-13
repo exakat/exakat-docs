@@ -7,7 +7,6 @@ Set Class Remote Definition With Local New
 
   Links method calls and properties to its definition, thanks to the local new. The link is ``DEFINITION``.
 
-
 .. code-block:: php
    
    <?php
@@ -31,7 +30,7 @@ _____
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Complete/SetClassRemoteDefinitionWithLocalNew                                                                           |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`NoDoc <ruleset-NoDoc>`                                                                  |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`, :ref:`NoDoc <ruleset-NoDoc>`              |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 1.9.3                                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

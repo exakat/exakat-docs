@@ -11,7 +11,6 @@ A foreach loop won't change the internal pointer of the array, as it works on a 
 
 This only applies when a `foreach() <https://www.php.net/manual/en/control-structures.foreach.php>`_ by reference is used.
 
-
 .. code-block:: php
    
    <?php

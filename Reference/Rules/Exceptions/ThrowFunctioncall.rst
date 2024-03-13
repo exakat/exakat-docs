@@ -6,7 +6,7 @@ Throw Functioncall
 ++++++++++++++++++
 
   The ``throw`` keyword expects to use an `exception <https://www.php.net/exception>`_. Calling a function to prepare that `exception <https://www.php.net/exception>`_ before throwing it is possible, but forgetting the new keyword is also possible. 
-
+When the ``new`` keyword is forgotten, then the class constructor is used as a function name, and now `exception <https://www.php.net/exception>`_ is emitted, but an ``Undefined function`` fatal `error <https://www.php.net/error>`_ is emitted.
 
 .. code-block:: php
    
@@ -24,9 +24,6 @@ Throw Functioncall
    
    ?>
 
-
-When the ``new`` keyword is forgotten, then the class constructor is used as a function name, and now `exception <https://www.php.net/exception>`_ is emitted, but an ``Undefined function`` fatal `error <https://www.php.net/error>`_ is emitted.
-
 Suggestions
 ___________
 
@@ -43,7 +40,7 @@ _____
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Exceptions/ThrowFunctioncall                                                                                                                                                            |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Analyze <ruleset-Analyze>`, :ref:`CE <ruleset-CE>`, :ref:`CI-checks <ruleset-CI-checks>`                                                                |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Analyze <ruleset-Analyze>`, :ref:`CE <ruleset-CE>`, :ref:`CI-checks <ruleset-CI-checks>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`            |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 0.8.4                                                                                                                                                                                   |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

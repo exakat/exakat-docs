@@ -6,7 +6,7 @@ Set Clone Link
 ++++++++++++++
 
   This command creates a link DEFINITION between a clone call, and its equivalent magic method.
-
+This command may not detect all possible link for the clone. It may be missing information about the nature of the clone object.
 
 .. code-block:: php
    
@@ -31,9 +31,6 @@ Set Clone Link
    
    ?>
 
-
-This command may not detect all possible link for the clone. It may be missing information about the nature of the clone object.
-
 See also `Object Cloning <https://www.php.net/manual/en/language.oop5.cloning.php>`_.
 
 
@@ -43,7 +40,7 @@ _____
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Complete/SetCloneLink                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`NoDoc <ruleset-NoDoc>`                                                                  |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`, :ref:`NoDoc <ruleset-NoDoc>`              |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 1.9.2                                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

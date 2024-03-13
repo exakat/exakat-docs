@@ -5,9 +5,10 @@ Surprising
 
 PHP is full of exceptional situations where something doesn't work as expected, or as we thought would be expected. Then, exakat gets a rule for that, and it is listed here. Watch out, unusual beasts are hidden in this list : the most interesting is possibly the docs.
 
-Total : 1 analysis
+Total : 2 analysis
 
 * :ref:`sequences-in-for`
+* :ref:`strpos()-less-than-one`
 
 Specs
 _____

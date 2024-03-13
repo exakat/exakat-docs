@@ -7,8 +7,7 @@ Dynamic Library Loading
 
   Loading a variable dynamically requires a lot of care in the preparation of the library name. 
 
-In case of injection in the variable, the dynamic loading of a library gives a lot of power to an intruder. 
-
+In case of injection in the variable, the dynamic loading of a library gives a lot of power to an intruder.
 
 .. code-block:: php
    
@@ -43,7 +42,7 @@ _____
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Security/DynamicDl                                                                                                      |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Security <ruleset-Security>`                                                            |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`, :ref:`Security <ruleset-Security>`        |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 1.1.7                                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

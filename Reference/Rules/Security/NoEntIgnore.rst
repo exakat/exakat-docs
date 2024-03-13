@@ -11,7 +11,6 @@ No ENT_IGNORE
 
 It is recommended to use the other configuration options : ``ENT_COMPAT``, ``ENT_QUOTES``, ``ENT_NOQUOTES``, ``ENT_SUBSTITUTE``, ``ENT_DISALLOWED``, ``ENT_HTML401``, ``ENT_XML1``, ``ENT_XHTML`` or ``ENT_HTML5``.
 
-
 .. code-block:: php
    
    <?php
@@ -43,7 +42,7 @@ _____
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Security/NoEntIgnore                                                                                                    |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Security <ruleset-Security>`                                                            |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`, :ref:`Security <ruleset-Security>`        |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 1.9.2                                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

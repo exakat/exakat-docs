@@ -5,18 +5,19 @@
 Environment Variable Usage
 ++++++++++++++++++++++++++
 
-  Collects all environment variables in the application, for inventory purposes.
+  This rule collects all environment variables used in the application, for inventory purposes. Environment variables are detected with the usage of the ``$_SERVER`` superglobal variable, or calls to the `getenv() <https://www.php.net/getenv>`_ and setenv() native functions. 
+
+This helps catalog the interactions between the application and its host environment.
 
 .. code-block:: php
    
    <?php
    
-   $implicit_global = 1;
-   global $explicit_global;
+   echo $_SERVER['MY_GLOBAL'];
    
-   function foo() {
-       $local_variable = 2;
-   }
+   print getenv('DB_HOST');
+   
+   setenv('SPECIAL_KEY', $calculatedKey);
    
    ?>
 

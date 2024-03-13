@@ -625,9 +625,9 @@ $line is build in several steps, then then final version is added to $content. I
    
     foreach($records as $record)
             {
-                $line = implode("\"" . getDelimiter() . "\"", $record);
+                $line = implode("\\ . getDelimiter() . "\"", $record);
                 $line = "\"" . $line;
-                $line .= "\"\r\n";
+                $line .= ""\r\n";
                 $line = parseRelateFields($line, $record, $customRelateFields);
                 $content .= $line;
             }
@@ -839,8 +839,8 @@ Recursive copy of folders, based on scandir(). ``DirectoryIterator`` and ``Files
     			}
     			$files = scandir($src);
     			foreach ($files as $file) {
-    				if ($file != "." && $file != "..") {
-    					self::copyr("$src/$file", "$dest/$file");
+    				if ($file != . && $file != ..) {
+    					self::copyr($src/$file, $dest/$file);
     				}
     			}
     		} elseif (file_exists($src) && !\OC\Files\Filesystem::isFileBlacklisted($src)) {
@@ -1930,7 +1930,7 @@ The closure function($m) makes no usage of the current object : using static pre
       static function ws_getMethodList($params, &$service)
       {
         $methods = array_filter($service->_methods,
-          function($m) { return empty($m["options"]["hidden"]) || !$m["options"]["hidden"];} );
+          function($m) { return empty($m[options][hidden]) || !$m[options][hidden];} );
         return array('methods' => new PwgNamedArray( array_keys($methods),'method' ) );
       }
 
@@ -3185,10 +3185,10 @@ This actually decodes into a copyright notice.
 
 .. code-block:: php
    
-    eval("\x66\x75\x6e\x63\x74\x69\x6f\x6e\x20\x63\x6c\x65\x61\x6e\x41\x6e\x64\x53\x61\x6e\x69\x74\x69\x7a\x65\x53\x63\x72" .
-         "\x69\x70\x74\x48\x65\x61\x64\x65\x72\x28\x26\x20\x24\x6f\x75\x74\x70\x75\x74\x29\x0d\x0a\x20\x20\x20\x20\x20\x20" .
-         "\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x7b\x0d\x0a\x20\x20\x20\x20\x20\x20\x20" .
-         "\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x24\x72\x65\x71\x75\x69\x72" .
+    eval(\x66\x75\x6e\x63\x74\x69\x6f\x6e\x20\x63\x6c\x65\x61\x6e\x41\x6e\x64\x53\x61\x6e\x69\x74\x69\x7a\x65\x53\x63\x72 .
+         \x69\x70\x74\x48\x65\x61\x64\x65\x72\x28\x26\x20\x24\x6f\x75\x74\x70\x75\x74\x29\x0d\x0a\x20\x20\x20\x20\x20\x20 .
+         \x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x7b\x0d\x0a\x20\x20\x20\x20\x20\x20\x20 .
+         \x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x24\x72\x65\x71\x75\x69\x72 .
          // several more lines like that
 
 
@@ -3592,12 +3592,12 @@ Use expression is only reached when the csrf token is checked. This probably sav
      */
     
     
-    require_once("../../globals.php");
-    require_once("$srcdir/patient.inc");
-    require_once("$srcdir/options.inc.php");
+    require_once(../../globals.php);
+    require_once($srcdir/patient.inc);
+    require_once($srcdir/options.inc.php);
     
     if (!empty($_POST)) {
-        if (!verifyCsrfToken($_POST["csrf_token_form"])) {
+        if (!verifyCsrfToken($_POST[csrf_token_form])) {
             csrfNotVerified();
         }
     }
@@ -3990,7 +3990,7 @@ Note the dash in the name. Either a copy/paste, or a generated definition file :
 
 .. code-block:: php
    
-    define("INS_TYPE_OTHER_NON-FEDERAL_PROGRAMS", 10);
+    define(INS_TYPE_OTHER_NON-FEDERAL_PROGRAMS, 10);
 
 
 .. _case-invalid-regex:
@@ -4078,11 +4078,11 @@ LiveZilla
 
 :ref:`isset-multiple-arguments`, in livezilla/_lib/trdp/pchart/class/pDraw.class.php:3852. 
 
-This is the equivalent of !(isset($Data["Series"][$SerieA]["Data"]) && isset($Data["Series"][$SerieB]["Data"])), and then, !(isset($Data["Series"][$SerieA]["Data"], $Data["Series"][$SerieB]["Data"]))
+This is the equivalent of !(isset($Data[Series][$SerieA][Data]) && isset($Data[Series][$SerieB][Data])), and then, !(isset($Data[Series][$SerieA][Data], $Data[Series][$SerieB][Data]))
 
 .. code-block:: php
    
-    !isset($Data["Series"][$SerieA]["Data"]) || !isset($Data["Series"][$SerieB]["Data"])
+    !isset($Data[Series][$SerieA][Data]) || !isset($Data[Series][$SerieB][Data])
 
 
 .. _case-isset()-on-the-whole-array:
@@ -4399,10 +4399,10 @@ The three calls to str_replace() could be replaced by one, using array arguments
    
     static function jsValue($string) {
             return
-                preg_replace('/\r?\n/', "\n",
+                preg_replace('/\r?\n/', \n,
                 str_replace('"', "\"",
                 str_replace("'", "\'",
-                str_replace("\\", "\\",
+                str_replace("\", "\",
             $string))));
         }
 
@@ -4421,7 +4421,7 @@ Since str_replace is already using an array, the second argument must also be an
    
     $text = strip_tags($text);
     
-            $text = str_replace(array("\n", "\r", "\t"), '', $text);
+            $text = str_replace(array(\n, \r, \t), '', $text);
             $text = str_replace('&nbsp;', ' ', $text);
             $text = trim($text);
 
@@ -4659,8 +4659,8 @@ This code is creating some directories for Javascript or CSS (from the directori
                     if ($env == 'prod') {
                         $checkPaths = [
                             $assetsFullPath,
-                            "$assetsFullPath/css",
-                            "$assetsFullPath/js",
+                            $assetsFullPath/css,
+                            $assetsFullPath/js,
                         ];
                         array_walk($checkPaths, function ($path) {
                             if (!file_exists($path)) {
@@ -4780,25 +4780,7 @@ The constant is build according to the situation, in the part of the script (fil
 
 .. code-block:: php
    
-    if (isset($_GET['ocparams']) && !empty($_GET['ocparams'])) {
-    		$params = '';
-    		if (preg_match_all("/(\w+)--(\w+)_-/", $_GET['ocparams'], $matches)) {
-    			foreach ($matches[1] as $idx => $m) {
-    				if (($m != 'module') && ($m != 'action') && preg_match("/^[\w-]+$/", $m)) {
-    					$params .= '&' . $m . '=' . urlencode($matches[2][$idx]);
-    					$_GET[$m] = $matches[2][$idx];
-    				}
-    			}
-    		}
-    		unset($_GET['ocparams']);
-    		define('OCC_SELF', $_SERVER['PHP_SELF'] . '?module=' . $_REQUEST['module'] . '&action=' . $_GET['action'] . $params);
-    	} elseif (isset($_SERVER['REQUEST_URI']) && strstr($_SERVER['REQUEST_URI'], '?')) {
-    		define('OCC_SELF', htmlspecialchars($_SERVER['REQUEST_URI']));
-    	} elseif (isset($_SERVER['QUERY_STRING']) && strstr($_SERVER['QUERY_STRING'], '&')) {
-    		define('OCC_SELF', $_SERVER['PHP_SELF'] . '?' . htmlspecialchars($_SERVER['QUERY_STRING']));
-    	} else {
-    		err('This server does not support REQUEST_URI or QUERY_STRING','Error');
-    	}
+    0
 
 
 .. _case-multiple-index-definition:
@@ -6585,13 +6567,13 @@ $false may be true or false (or else...). In fact, the variable is not even defi
     if (!isset($_COOKIE['kioskCookie'])) {
         if ($windowOpen) {
             $guid = uniqid();
-            setcookie("kioskCookie", $guid, 2147483647);
+            setcookie(kioskCookie, $guid, 2147483647);
             $Kiosk = new \ChurchCRM\KioskDevice();
             $Kiosk->setGUIDHash(hash('sha256', $guid));
             $Kiosk->setAccepted($false);
             $Kiosk->save();
         } else {
-            header("HTTP/1.1 401 Unauthorized");
+            header(HTTP/1.1 401 Unauthorized);
             exit;
         }
     }
@@ -6868,9 +6850,9 @@ This code avoid the PHP notice by padding the resulting array (see comment in Fr
    
     if (preg_match("#^([12][0-9]{3}[-/][01]?[0-9])([-/]00)?( [-0-9:]+)?$#", $date, $regs)) {
     				$regs = array_pad($regs, 4, null); // eviter notice php
-    				$date = preg_replace("@/@", "-", $regs[1]) . "-00" . $regs[3];
+    				$date = preg_replace(@/@, -, $regs[1]) . -00 . $regs[3];
     			} else {
-    				$date = date("Y-m-d H:i:s", strtotime($date));
+    				$date = date(Y-m-d H:i:s, strtotime($date));
     			}
 
 
@@ -7403,7 +7385,7 @@ The API starts with security features, such as the whitelist(). The whitelist ap
     
     parse_str($_SERVER['QUERY_STRING']);
     $method = $_SERVER['REQUEST_METHOD'];
-    $request = explode("/", substr(@$_SERVER['PATH_INFO'], 1));
+    $request = explode(/, substr(@$_SERVER['PATH_INFO'], 1));
 
 
 .. _case-xoops-security-registerglobals:
@@ -7430,7 +7412,7 @@ This code only exports the POST variables as globals. And it does clean incoming
     
     if (isset($_POST)) {
         foreach ($_POST as $k => $v) {
-            ${$k} = $v;
+            $\{$k\} = $v;
         }
     }
     
@@ -8422,7 +8404,7 @@ You may replace this with a isset() : $_POST can't contain a NULL value, unless 
 
 .. code-block:: php
    
-    array_key_exists("report_type", $_POST);
+    array_key_exists(report_type, $_POST);
 
 
 .. _case-suitecrm-performances-slowfunctions:
@@ -8437,7 +8419,7 @@ This is a equivalent for nl2br()
 
 .. code-block:: php
    
-    preg_replace("/\r\n/", "<BR>", $focus->$field)
+    preg_replace(/\r\n/, <BR>, $focus->$field)
 
 
 .. _case-static-methods-can't-contain-$this:
@@ -8964,7 +8946,7 @@ SugarCRM uses exceptions to fill work in progress. Here, we recognize a forgotte
    
     function getContentChanges()
         {
-            throw Exception("Not Implemented");
+            throw Exception(Not Implemented);
         }
 
 
@@ -10645,7 +10627,7 @@ Here, the catch clause will intercept a IO problem while writing element on the 
         // More code......
                 try {
                     $filesystem = new Filesystem();
-                    $filesystem->dumpFile($phpConfigFile, '<?php return ' . var_export($config, true) . ';' . "\n");
+                    $filesystem->dumpFile($phpConfigFile, '<?php return ' . var_export($config, true) . ';' . \n);
                 } catch (IOException $e) {
                     return false;
                 }
@@ -11425,7 +11407,7 @@ Zencart
 
 :ref:`wrong-parameter-type`, in admin/includes/header.php:180. 
 
-setlocale() may be called with null or '' (empty string), and will set values from the environment. When called with "0" (the string), it only reports the current setting. Using an integer is probably undocumented behavior, and falls back to the zero string. 
+setlocale() may be called with null or '' (empty string), and will set values from the environment. When called with 0 (the string), it only reports the current setting. Using an integer is probably undocumented behavior, and falls back to the zero string. 
 
 .. code-block:: php
    
@@ -11714,7 +11696,7 @@ Using PREG_SET_ORDER will remove the usage of the ``$key``variable.
    
     function parse_string_to_array($str)
     	{
-    		preg_match_all('#(\w+)=([\'"])(.*)\\2#U', $str, $matches);
+    		preg_match_all('#(\w+)=([\'"])(.*)\2#U', $str, $matches);
     		$params = array();
     		foreach($matches[1] as $key => $val)
     		{

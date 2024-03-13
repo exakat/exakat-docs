@@ -20,7 +20,9 @@ While each alternative has its performance gain, they make the code more readabl
 As little as three ``or`` comparisons are slower than using an alternative. The more calls, the slower is as string of ``or``. Also, the further the target value is in the ``or`` list, the slower it is to find it. Although, it is not easy to control that value. 
 
 This analysis also reports `in_array() <https://www.php.net/in_array>`_ calls with arrays of a single element : those should be turned into a ``or`` call, or have more values in the array, or have the array published as a constant. 
+This is a micro-optimisation : speed gain is low, and marginal. Code centralisation is a more significant advantage.
 
+Thanks to `Frederic Bouchery <https://twitter.com/FredBouchery/>`_ for extending the alternatives of that analysis.
 
 .. code-block:: php
    
@@ -69,11 +71,6 @@ This analysis also reports `in_array() <https://www.php.net/in_array>`_ calls wi
    
    ?>
 
-
-This is a micro-optimisation : speed gain is low, and marginal. Code centralisation is a more significant advantage.
-
-Thanks to `Frederic Bouchery <https://twitter.com/FredBouchery/>`_ for extending the alternatives of that analysis.
-
 See also `in_array() <https://www.php.net/in_array>`_, `isset() <https://www.php.net/isset>`_, `match() <https://www.php.net/match>`_, `switch() <https://www.php.net/switch>`_ and `strpos() <https://www.php.net/strpos>`_.
 
 
@@ -95,7 +92,7 @@ _____
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Performances/LogicalToInArray                                                                                           |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Analyze <ruleset-Analyze>`                                                              |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Analyze <ruleset-Analyze>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`          |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 0.12.5                                                                                                                  |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

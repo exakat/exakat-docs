@@ -9,7 +9,6 @@ Multiple Declaration Of Strict_types
 
 Indeed, any `strict_types` set to 1 will have the final word. Setting `strict_types` to 0 will not revert the configuration, wherever is this call made.
 
-
 .. code-block:: php
    
    <?php 
@@ -37,7 +36,7 @@ _____
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Php/MultipleDeclareStrict                                                                                               |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Analyze <ruleset-Analyze>`                                                              |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Analyze <ruleset-Analyze>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`          |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 2.1.8                                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

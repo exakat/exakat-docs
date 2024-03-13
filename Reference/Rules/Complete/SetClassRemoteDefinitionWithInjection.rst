@@ -7,7 +7,6 @@ Set Class Remote Definition With Injection
 
   Links a method call and its definition, thanks to a typehint.
 
-
 .. code-block:: php
    
    <?php
@@ -29,7 +28,7 @@ _____
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Complete/SetClassRemoteDefinitionWithInjection                                                                          |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`NoDoc <ruleset-NoDoc>`                                                                  |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`, :ref:`NoDoc <ruleset-NoDoc>`              |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 1.9.2                                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

@@ -7,7 +7,6 @@ List With Keys
 
   Setting keys when using `list() <https://www.php.net/list>`_ is a PHP 7.1 feature.
 
-
 .. code-block:: php
    
    <?php

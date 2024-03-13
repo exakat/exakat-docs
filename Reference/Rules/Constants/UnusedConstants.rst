@@ -6,7 +6,7 @@ Unused Constants
 ++++++++++++++++
 
   Those constants are defined in the code but never used. Defining unused constants slow down the application, as they are executed and stored in PHP hashtables. 
-
+It is recommended to comment them out, and only define them when it is necessary.
 
 .. code-block:: php
    
@@ -20,9 +20,6 @@ Unused Constants
    define('ANOTHER_UNUSED_CONSTANT', 3);
    
    ?>
-
-
-It is recommended to comment them out, and only define them when it is necessary.
 
 Suggestions
 ___________
@@ -39,7 +36,7 @@ _____
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Constants/UnusedConstants                                                                                               |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Dead code <ruleset-Dead-code>`                                                          |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`, :ref:`Dead code <ruleset-Dead-code>`      |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 0.8.4                                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

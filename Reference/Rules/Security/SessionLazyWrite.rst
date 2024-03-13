@@ -9,8 +9,7 @@ Session Lazy Write
 
 The two extra methods are used to help lazy loading : the first actually checks if a sessionId is available, and the seconds updates the time of last usage of the session data in the session storage. 
 
-This was spotted by ``Nicolas Grekas``, and fixed in Symfony `[HttpFoundation] Make sessions `secure <https://www.php.net/secure>`_ and lazy #24523 <https://github.com/symfony/symfony/pull/24523>`_. 
-
+This was spotted by ``Nicolas Grekas``, and fixed in Symfony `[HttpFoundation] Make sessions `secure <https://www.php.net/secure>`_ and lazy #24523 <https://github.com/symfony/symfony/pull/24523>`_.
 
 .. code-block:: php
    
@@ -44,7 +43,7 @@ _____
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Security/SessionLazyWrite                                                                                               |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Security <ruleset-Security>`                                                            |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`, :ref:`Security <ruleset-Security>`        |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 0.12.15                                                                                                                 |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

@@ -6,7 +6,9 @@ Propagate Constants
 +++++++++++++++++++
 
   This command calculates constant expression values, and set them in the graph.
+After running this command, B has ``intval`` of 3. 
 
+This command propagate ``const`` constants, class constants and `define() <https://www.php.net/define>`_ constants, when possible.
 
 .. code-block:: php
    
@@ -17,18 +19,13 @@ Propagate Constants
    
    ?>
 
-
-After running this command, B has ``intval`` of 3. 
-
-This command propagate ``const`` constants, class constants and `define() <https://www.php.net/define>`_ constants, when possible.
-
 Specs
 _____
 
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Complete/PropagateConstants                                                                                             |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`NoDoc <ruleset-NoDoc>`                                                                  |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`, :ref:`NoDoc <ruleset-NoDoc>`              |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 1.9.2                                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

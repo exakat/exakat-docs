@@ -5,7 +5,7 @@
 Used Methods
 ++++++++++++
 
-  Those methods are used in the code. This analysis is mostly useful for its contrary.
+  Those methods are used in the code: this means they have a definition and at least one call. They may have more than one call too. This analysis is mostly useful for detecting unused methods.
 
 .. code-block:: php
    
@@ -39,7 +39,7 @@ _____
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Classes/UsedMethods                                                                                                     |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`                                                                                                |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`                                            |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 0.8.4                                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

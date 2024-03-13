@@ -530,7 +530,7 @@ Total : 625 analysis
 * :ref:`overwritten-constant`
 * :ref:`create-magic-property`
 * :ref:`set-parent-definition`
-* :ref:`make-class-constant-definition`
+* :ref:`makes-class-constant-definition`
 * :ref:`follow-closure-definition`
 * :ref:`php-7.4-constant-deprecation`
 * :ref:`implode()-arguments-order`
@@ -609,7 +609,7 @@ Total : 625 analysis
 * :ref:`use-closure-trailing-comma`
 * :ref:`unknown-parameter-name`
 * :ref:`missing-some-returntype`
-* :ref:`collect-variables`
+* :ref:`collects-variables`
 * :ref:`collect-global-variables`
 * :ref:`collect-readability`
 * :ref:`collect-definitions-statistics`

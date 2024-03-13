@@ -5,7 +5,7 @@
 Defined Parent MP
 +++++++++++++++++
 
-  Report when a `static <https://www.php.net/manual/en/language.oop5.static.php>`_ call with '`parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_' with `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ has an actual definition.
+  This rule reports when a `static <https://www.php.net/manual/en/language.oop5.static.php>`_ call with `parent`, where the `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ has an actual definition.
 
 .. code-block:: php
    

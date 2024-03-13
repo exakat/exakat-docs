@@ -7,8 +7,7 @@ Useless Catch
 
   A catch clause should handle the `exception <https://www.php.net/exception>`_ by doing something. 
 
-Among the task of a catch clause : log the `exception <https://www.php.net/exception>`_, clean any mess that was introduced, fail graciously. 
-
+Among the task of a catch clause : log the `exception <https://www.php.net/exception>`_, clean any mess that was introduced, fail graciously.
 
 .. code-block:: php
    
@@ -49,7 +48,7 @@ _____
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Exceptions/UselessCatch                                                                                                                                                                 |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Analyze <ruleset-Analyze>`, :ref:`CE <ruleset-CE>`, :ref:`CI-checks <ruleset-CI-checks>`                                                                |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Analyze <ruleset-Analyze>`, :ref:`CE <ruleset-CE>`, :ref:`CI-checks <ruleset-CI-checks>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`            |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 1.1.4                                                                                                                                                                                   |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

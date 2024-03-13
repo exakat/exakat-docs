@@ -7,8 +7,7 @@ Is Global Constant
 
   Mark a constant that may fallback to a global const definition, even though it is in a namespace. 
 
-This analysis skips PHP and ext's functions, namespaced constants. 
-
+This analysis skips PHP and ext's functions, namespaced constants.
 
 .. code-block:: php
    
@@ -42,7 +41,7 @@ _____
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Constants/IsGlobalConstant                                                                                              |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`                                                                                                |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`                                            |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 0.8.4                                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

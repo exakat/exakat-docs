@@ -10,7 +10,7 @@ filter_input() As A Source
 The main feature of `filter_input() <https://www.php.net/filter_input>`_ is that it is already filtered. The main drawback is that ``FILTER_FLAG_NONE`` is the ``none`` filter, and that default configuration is `FILTER_UNSAFE_RAW`.
 
 The filter extension keeps access to the incoming data, even after the super globals, such as ``$_GET``, are unset.
-
+Thanks to `Frederic Bouchery <https://twitter.com/FredBouchery/>`_ for reporting this `special case <https://twitter.com/FredBouchery/status/1049297213598457857>`_.
 
 .. code-block:: php
    
@@ -26,9 +26,6 @@ The filter extension keeps access to the incoming data, even after the super glo
    echo filter_var(_GET, 'i');
    
    ?>
-
-
-Thanks to `Frederic Bouchery <https://twitter.com/FredBouchery/>`_ for reporting this `special case <https://twitter.com/FredBouchery/status/1049297213598457857>`_.
 
 See also `Data filtering <https://www.php.net/manual/en/book.filter.php>`_.
 
@@ -48,7 +45,7 @@ _____
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Security/FilterInputSource                                                                                              |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Security <ruleset-Security>`                                                            |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`, :ref:`Security <ruleset-Security>`        |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 1.4.8                                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

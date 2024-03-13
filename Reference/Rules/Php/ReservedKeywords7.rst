@@ -7,8 +7,7 @@ Reserved Keywords In PHP 7
 
   PHP reserved names for class/trait/interface. They won't be available anymore in user space starting with PHP 7.
 
-For example, string, float, false, true, null, resource,`... <https://www.php.net/manual/en/functions.arguments.php#functions.variable-arg-list>`_ are not acceptable as class name. 
-
+For example, string, float, false, true, null, resource,`... <https://www.php.net/manual/en/functions.arguments.php#functions.variable-arg-list>`_ are not acceptable as class name.
 
 .. code-block:: php
    

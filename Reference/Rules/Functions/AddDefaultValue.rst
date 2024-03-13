@@ -5,8 +5,7 @@
 Add Default Value
 +++++++++++++++++
 
-  Parameter in methods definition may receive a default value. This allows the called method to set a value when the parameter is omitted. 
-
+  Parameter in methods definition may receive a default value. This allows the called method to set a value when the parameter is omitted.
 
 .. code-block:: php
    
@@ -37,7 +36,7 @@ _____
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Functions/AddDefaultValue                                                                                               |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Suggestions <ruleset-Suggestions>`                                                      |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`, :ref:`Suggestions <ruleset-Suggestions>`  |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 1.4.5                                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

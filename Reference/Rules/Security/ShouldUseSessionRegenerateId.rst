@@ -13,7 +13,6 @@ A good approach to protect the session ID is to reduce its lifespan : the shorte
 
 Based on this philosophy, a code source that uses Zend\Session but never uses Zend\Session\:\:regenerateId() has to be updated.
 
-
 .. code-block:: php
    
    <?php
@@ -47,7 +46,7 @@ _____
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Security/ShouldUseSessionRegenerateId                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Security <ruleset-Security>`                                                            |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`, :ref:`Security <ruleset-Security>`        |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 0.10.4                                                                                                                  |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

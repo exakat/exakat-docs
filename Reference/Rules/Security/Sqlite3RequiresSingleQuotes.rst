@@ -6,7 +6,9 @@ Sqlite3 Requires Single Quotes
 ++++++++++++++++++++++++++++++
 
   The escapeString() method from ``SQLite3`` doesn't escape ``"``, but only ``'``. 
+To properly handle quotes and ``NUL`` characters, use bindParam() instead.
 
+Quote from the PHP manual comments : ``The reason this function doesn't escape double quotes is because double quotes are used with names (the equivalent of backticks in MySQL), as in table or column names, while single quotes are used for values.``
 
 .. code-block:: php
    
@@ -19,11 +21,6 @@ Sqlite3 Requires Single Quotes
    $query = 'SELECT * FROM table WHERE col = "'.$sqlite->escapeString($x).'"';
    
    ?>
-
-
-To properly handle quotes and ``NUL`` characters, use bindParam() instead.
-
-Quote from the PHP manual comments : ``The reason this function doesn't escape double quotes is because double quotes are used with names (the equivalent of backticks in MySQL), as in table or column names, while single quotes are used for values.``
 
 See also `SQLite3::escapeString <https://www.php.net/manual/en/sqlite3.escapestring.php>`_.
 
@@ -43,7 +40,7 @@ _____
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Security/Sqlite3RequiresSingleQuotes                                                                                    |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Security <ruleset-Security>`                                                            |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`, :ref:`Security <ruleset-Security>`        |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 1.0.10                                                                                                                  |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

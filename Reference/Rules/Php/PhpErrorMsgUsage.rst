@@ -7,7 +7,6 @@ $php_errormsg Usage
 
   $php_errormsg is removed since PHP 8.0. $php_errormsg tracks the last `error <https://www.php.net/error>`_ message, with the directive `track_errors`. All was removed in PHP 8.0, and shall be replaced with `error_get_last() <https://www.php.net/error_get_last>`_.
 
-
 .. code-block:: php
    
    <?php

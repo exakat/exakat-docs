@@ -7,8 +7,7 @@ Constant Dynamic Creation
 
   Registering constant with dynamic values. Dynamic values include values read in external sources (files, databases, remote API, `... <https://www.php.net/manual/en/functions.arguments.php#functions.variable-arg-list>`_ ), random sources (time, `rand() <https://www.php.net/rand>`_, `...) <https://www.php.net/manual/en/functions.arguments.php#functions.variable-arg-list>`_
 
-Dynamic constants are not possible with the ``const`` keyword, though `static <https://www.php.net/manual/en/language.oop5.static.php>`_ constant expression allows for a good range of combinations, including conditions. 
-
+Dynamic constants are not possible with the ``const`` keyword, though `static <https://www.php.net/manual/en/language.oop5.static.php>`_ constant expression allows for a good range of combinations, including conditions.
 
 .. code-block:: php
    
@@ -33,7 +32,7 @@ _____
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Constants/DynamicCreation                                                                                                                                                               |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Appinfo <ruleset-Appinfo>`, :ref:`CE <ruleset-CE>`                                                                                                      |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Appinfo <ruleset-Appinfo>`, :ref:`CE <ruleset-CE>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`                                                  |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 1.6.7                                                                                                                                                                                   |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

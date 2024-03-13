@@ -5,7 +5,7 @@
 Use Composer Lock
 +++++++++++++++++
 
-  Reports if the ``composer.lock`` was committed to the archive.
+  This rule reports when the ``composer.lock`` is committed to the archive. ``composer.lock`` stores the actual versions of the components that were fetched by composer, based on the ``composer.json``. This is useful to store and share among developers.
 
 See also `Composer <https://getcomposer.org/>`_.
 

@@ -5,7 +5,7 @@ CompatibilityPHP81
 
 This ruleset centralizes all analysis for the migration from PHP 8.0 to 8.1.
 
-Total : 32 analysis
+Total : 34 analysis
 
 * :ref:`php-7.4-removed-directives`
 * :ref:`php-8.0-removed-directives`
@@ -39,6 +39,8 @@ Total : 32 analysis
 * :ref:`typed-class-constants-usage`
 * :ref:`static-variable-initialisation`
 * :ref:`void-is-not-a-reference`
+* :ref:`php-8.1-new-types`
+* :ref:`php-8.2-new-types`
 
 Specs
 _____

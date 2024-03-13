@@ -6,7 +6,7 @@ Uncaught Exceptions
 +++++++++++++++++++
 
   The following exceptions are thrown in the code, but are never caught. 
-
+Either they will lead to a Fatal `Error <https://www.php.net/error>`_, or they have to be caught by an including application. This is a valid behavior for libraries, but is not for a final application.
 
 .. code-block:: php
    
@@ -28,9 +28,6 @@ Uncaught Exceptions
    
    ?>
 
-
-Either they will lead to a Fatal `Error <https://www.php.net/error>`_, or they have to be caught by an including application. This is a valid behavior for libraries, but is not for a final application.
-
 See also `Structuring PHP Exceptions <https://www.alainschlesser.com/structuring-php-exceptions/>`_.
 
 
@@ -48,7 +45,7 @@ _____
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Exceptions/UncaughtExceptions                                                                                           |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Analyze <ruleset-Analyze>`                                                              |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Analyze <ruleset-Analyze>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`          |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 0.8.4                                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

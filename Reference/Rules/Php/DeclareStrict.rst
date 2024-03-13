@@ -7,8 +7,7 @@ strict_types Preference
 
   ``strict_types`` is a PHP mode where typehint are enforced strictly or weakly. By default, it is weak typing, allowing backward compatibility with previous versions. 
 
-This analysis reports if ``strict_types`` are used systematically or not. ``strict_types`` affects the calling file, not the definition file. 
-
+This analysis reports if ``strict_types`` are used systematically or not. ``strict_types`` affects the calling file, not the definition file.
 
 .. code-block:: php
    
@@ -38,7 +37,7 @@ _____
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Php/DeclareStrict                                                                                                                                                                       |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Appinfo <ruleset-Appinfo>`, :ref:`CE <ruleset-CE>`, :ref:`Preferences <ruleset-Preferences>`                                                            |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Appinfo <ruleset-Appinfo>`, :ref:`CE <ruleset-CE>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`, :ref:`Preferences <ruleset-Preferences>`        |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 0.12.2                                                                                                                                                                                  |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

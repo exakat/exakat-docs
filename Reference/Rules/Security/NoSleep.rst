@@ -8,7 +8,9 @@ Avoid sleep()/usleep()
   `sleep() <https://www.php.net/sleep>`_ and `usleep() <https://www.php.net/usleep>`_ help saturate the web server. 
 
 Pausing the script for a specific amount of time means that the Web server is also making all related resources sleep, such as database, sockets, session, etc. This may used to set up a DOS on the server.  
+As much as possible, avoid delaying the end of the script. 
 
+`sleep() <https://www.php.net/sleep>`_ and `usleep() <https://www.php.net/usleep>`_ have less impact in commandline (``CLI``).
 
 .. code-block:: php
    
@@ -26,11 +28,6 @@ Pausing the script for a specific amount of time means that the Web server is al
    
    ?>
 
-
-As much as possible, avoid delaying the end of the script. 
-
-`sleep() <https://www.php.net/sleep>`_ and `usleep() <https://www.php.net/usleep>`_ have less impact in commandline (``CLI``).
-
 Suggestions
 ___________
 
@@ -46,7 +43,7 @@ _____
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Security/NoSleep                                                                                                        |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Security <ruleset-Security>`                                                            |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`, :ref:`Security <ruleset-Security>`        |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 0.8.4                                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

@@ -8,7 +8,11 @@ Avoid glob() Usage
   `glob() <https://www.php.net/glob>`_ and `scandir() <https://www.php.net/scandir>`_ sorts results by default. When that kind of sorting is not needed, save some time by requesting ``NOSORT`` with those functions.
 
 Besides, whenever possible, use `scandir() <https://www.php.net/scandir>`_ instead of `glob() <https://www.php.net/glob>`_. 
+Using `opendir() <https://www.php.net/opendir>`_ and a while loop may be even faster. 
 
+This analysis skips `scandir() <https://www.php.net/scandir>`_ and `glob() <https://www.php.net/glob>`_ if they are explicitly configured with flags (aka, sorting is explicitly needed).
+
+`glob() <https://www.php.net/glob>`_ accepts wildchar, such as ``*``, that may not easily replaced with `scandir() <https://www.php.net/scandir>`_ or `opendir() <https://www.php.net/opendir>`_.
 
 .. code-block:: php
    
@@ -28,13 +32,6 @@ Besides, whenever possible, use `scandir() <https://www.php.net/scandir>`_ inste
    
    ?>
 
-
-Using `opendir() <https://www.php.net/opendir>`_ and a while loop may be even faster. 
-
-This analysis skips `scandir() <https://www.php.net/scandir>`_ and `glob() <https://www.php.net/glob>`_ if they are explicitly configured with flags (aka, sorting is explicitly needed).
-
-`glob() <https://www.php.net/glob>`_ accepts wildchar, such as ``*``, that may not easily replaced with `scandir() <https://www.php.net/scandir>`_ or `opendir() <https://www.php.net/opendir>`_.
-
 See also `Putting glob to the test <https://www.phparch.com/2010/04/putting-glob-to-the-test/>`_, `How to list files recursively in a directory with PHP iterators  <https://dev.to/bdelespierre/how-to-list-files-recursively-in-a-directory-with-php-iterators-5c0m>`_ and `glob:// <https://www.php.net/manual/en/wrappers.glob.php>`_.
 
 
@@ -51,26 +48,26 @@ ___________
 Specs
 _____
 
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Short name   | Performances/NoGlob                                                                                                     |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Performances <ruleset-Performances>`                                                    |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Exakat since | 0.9.6                                                                                                                   |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| PHP Version  | All                                                                                                                     |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Severity     | Major                                                                                                                   |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Time To Fix  | Quick (30 mins)                                                                                                         |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | glob, directoryiterator, filesystemiterator                                                                             |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Examples     | :ref:`case-phinx-performances-noglob`, :ref:`case-nextcloud-performances-noglob`                                        |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
++--------------+--------------------------------------------------------------------------------------------------------------------------+
+| Short name   | Performances/NoGlob                                                                                                      |
++--------------+--------------------------------------------------------------------------------------------------------------------------+
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`, :ref:`Performances <ruleset-Performances>` |
++--------------+--------------------------------------------------------------------------------------------------------------------------+
+| Exakat since | 0.9.6                                                                                                                    |
++--------------+--------------------------------------------------------------------------------------------------------------------------+
+| PHP Version  | All                                                                                                                      |
++--------------+--------------------------------------------------------------------------------------------------------------------------+
+| Severity     | Major                                                                                                                    |
++--------------+--------------------------------------------------------------------------------------------------------------------------+
+| Time To Fix  | Quick (30 mins)                                                                                                          |
++--------------+--------------------------------------------------------------------------------------------------------------------------+
+| Precision    | Very high                                                                                                                |
++--------------+--------------------------------------------------------------------------------------------------------------------------+
+| Features     | glob, directoryiterator, filesystemiterator                                                                              |
++--------------+--------------------------------------------------------------------------------------------------------------------------+
+| Examples     | :ref:`case-phinx-performances-noglob`, :ref:`case-nextcloud-performances-noglob`                                         |
++--------------+--------------------------------------------------------------------------------------------------------------------------+
+| Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_  |
++--------------+--------------------------------------------------------------------------------------------------------------------------+
 
 

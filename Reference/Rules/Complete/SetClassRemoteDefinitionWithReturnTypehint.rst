@@ -7,7 +7,6 @@ Set Class Remote Definition With Return Typehint
 
   Links method call to its definition, thanks to the typed return. The link is ``DEFINITION``.
 
-
 .. code-block:: php
    
    <?php
@@ -34,7 +33,7 @@ _____
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Complete/SetClassRemoteDefinitionWithReturnTypehint                                                                     |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`NoDoc <ruleset-NoDoc>`                                                                  |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`, :ref:`NoDoc <ruleset-NoDoc>`              |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 1.9.3                                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

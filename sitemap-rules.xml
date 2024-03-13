@@ -583,13 +583,13 @@
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Dump/CollectUseCounts.html</loc>
  </url>
  <url>
-  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Dump/CollectVariables.html</loc>
- </url>
- <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Dump/CollectVendorStructures.html</loc>
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Dump/CollectsNames.html</loc>
+ </url>
+ <url>
+  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Dump/CollectVariables.html</loc>
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Dump/CombinedCalls.html</loc>
@@ -1954,9 +1954,6 @@
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Complete/MakeAllStatics.html</loc>
  </url>
  <url>
-  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Complete/MakeClassConstantDefinition.html</loc>
- </url>
- <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Complete/MakeClassMethodDefinition.html</loc>
  </url>
  <url>
@@ -1970,6 +1967,9 @@
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Performances/MakeOneCall.html</loc>
+ </url>
+ <url>
+  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Complete/MakeClassConstantDefinition.html</loc>
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Type/MalformedOctal.html</loc>
@@ -2758,6 +2758,9 @@
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Php/PHP80scalartypehints.html</loc>
  </url>
  <url>
+  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Php/Php81NewTypes.html</loc>
+ </url>
+ <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Php/Php81RemovedConstant.html</loc>
  </url>
  <url>
@@ -2771,6 +2774,9 @@
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Php/PHP81scalartypehints.html</loc>
+ </url>
+ <url>
+  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Php/Php82NewTypes.html</loc>
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Php/Php80NamedParameterVariadic.html</loc>
@@ -3467,6 +3473,9 @@
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Type/StringWithStrangeSpace.html</loc>
+ </url>
+ <url>
+  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/StrposLessThanOne.html</loc>
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/StrposCompare.html</loc>
@@ -4223,6 +4232,9 @@
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/NoVariableIsACondition.html</loc>
+ </url>
+ <url>
+  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Functions/VariableParameterAmbiguityInArrowFunction.html</loc>
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Variables/References.html</loc>

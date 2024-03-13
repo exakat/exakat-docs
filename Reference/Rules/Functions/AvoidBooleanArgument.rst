@@ -9,7 +9,6 @@ Use Named Boolean In Argument Definition
 
 It is recommended to use explicit constant names or enumerations, instead. They are more readable. They also allow for easy replacement when the code evolve and has to replace those booleans by strings. This works even also with classes, and class constants.
 
-
 .. code-block:: php
    
    <?php
@@ -53,7 +52,7 @@ _____
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Functions/AvoidBooleanArgument                                                                                          |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Analyze <ruleset-Analyze>`                                                              |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Analyze <ruleset-Analyze>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`          |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 1.0.6                                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

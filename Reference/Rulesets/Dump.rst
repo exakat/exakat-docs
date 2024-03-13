@@ -32,7 +32,7 @@ Total : 56 analysis
 * :ref:`collect-parameter-names`
 * :ref:`fossilized-methods-list`
 * :ref:`collect-static-class-changes`
-* :ref:`collect-variables`
+* :ref:`collects-variables`
 * :ref:`collect-global-variables`
 * :ref:`collect-readability`
 * :ref:`collect-definitions-statistics`

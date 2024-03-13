@@ -8,7 +8,7 @@ Call Order
   This is a representation of the code. Each node is a function or method, and each link a is call from a method to another.
 
 The only link is the possible call from a method to the other. All control flow is omitted, including conditional calls and loops.
-
+From the above script, the resulting network will display 'foo() -> bar(), foo() -> foobar(), bar() -> foobar()' calls.
 
 .. code-block:: php
    
@@ -28,17 +28,13 @@ The only link is the possible call from a method to the other. All control flow 
        }
    ?>
 
-
-
-From the above script, the resulting network will display 'foo() -> bar(), foo() -> foobar(), bar() -> foobar()' calls.
-
 Specs
 _____
 
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Dump/CallOrder                                                                                                                                                                          |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`CE <ruleset-CE>`, :ref:`Dump <ruleset-Dump>`                                                                                                            |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`CE <ruleset-CE>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`, :ref:`Dump <ruleset-Dump>`                                                        |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 2.1.4                                                                                                                                                                                   |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

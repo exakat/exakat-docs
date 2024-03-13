@@ -5,7 +5,7 @@
 Used Protected Method
 +++++++++++++++++++++
 
-  Marks methods being used in the current class or its children classes.
+  This rule marks protected methods being used in the current class or its children classes. This show how the methods are used inside a class hierarchy.
 
 .. code-block:: php
    
@@ -39,7 +39,7 @@ _____
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Classes/UsedProtectedMethod                                                                                             |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`                                                                                                |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`                                            |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 0.8.4                                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

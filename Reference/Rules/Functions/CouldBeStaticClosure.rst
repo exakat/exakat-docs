@@ -10,7 +10,7 @@ Could Be Static Closure
 By preventing the useless import of ``$this``, you avoid useless work. 
 
 This also has the added value to prevent the usage of ``$this`` from the `closure <https://www.php.net/`closure <https://www.php.net/closure>`_>`_. This is a good security practice.
-
+This is a micro-optimisation. Apply it in case of intensive usage.
 
 .. code-block:: php
    
@@ -37,9 +37,6 @@ This also has the added value to prevent the usage of ``$this`` from the `closur
    
    ?>
 
-
-This is a micro-optimisation. Apply it in case of intensive usage.
-
 See also `Anonymous functions <https://www.php.net/manual/en/functions.anonymous.php>`_, `GeneratedHydrator <https://github.com/Ocramius/GeneratedHydrator/releases/tag/3.0.0>`_ and `Static anonymous functions <https://www.php.net/manual/en/functions.anonymous.php#functions.anonymous-functions.static>`_.
 
 
@@ -58,7 +55,7 @@ _____
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Functions/CouldBeStaticClosure                                                                                          |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Suggestions <ruleset-Suggestions>`                                                      |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`, :ref:`Suggestions <ruleset-Suggestions>`  |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 1.3.2                                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

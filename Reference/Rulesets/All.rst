@@ -5,7 +5,7 @@ All
 
 All is a dummy ruleset, which includes all the rules. It is mostly used internally.
 
-Total : 1638 analysis
+Total : 1642 analysis
 
 * :ref:`adding-zero`
 * :ref:`ambiguous-array-index`
@@ -1128,7 +1128,7 @@ Total : 1638 analysis
 * :ref:`create-default-values`
 * :ref:`array\_merge()-and-variadic`
 * :ref:`set-class\_alias()-definition`
-* :ref:`make-class-constant-definition`
+* :ref:`makes-class-constant-definition`
 * :ref:`set-class-remote-definition-with-injection`
 * :ref:`solve-trait-methods`
 * :ref:`follow-closure-definition`
@@ -1291,7 +1291,7 @@ Total : 1638 analysis
 * :ref:`unknown-parameter-name`
 * :ref:`missing-some-returntype`
 * :ref:`don't-pollute-global-space`
-* :ref:`collect-variables`
+* :ref:`collects-variables`
 * :ref:`could-be-parent-method`
 * :ref:`collect-global-variables`
 * :ref:`collect-readability`
@@ -1645,6 +1645,10 @@ Total : 1638 analysis
 * :ref:`useless-coalesce`
 * :ref:`count()-is-not-negative`
 * :ref:`exit-without-argument`
+* :ref:`php-8.1-new-types`
+* :ref:`php-8.2-new-types`
+* :ref:`variable-parameter-ambiguity-in-arrow-function`
+* :ref:`strpos()-less-than-one`
 
 Specs
 _____

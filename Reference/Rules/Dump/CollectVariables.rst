@@ -1,11 +1,26 @@
 .. _dump-collectvariables:
 
-.. _collect-variables:
+.. _collects-variables:
 
-Collect Variables
-+++++++++++++++++
+Collects Variables
+++++++++++++++++++
 
-  Collect all variables from the code. Their type is mentionned, as variable, object or array, depending on their usage.
+  This rule collects all variables from the code. Their type is mentionned, as variable, object or array, depending on their usage. 
+
+.. code-block:: php
+   
+   <?php
+   
+   // variable : array
+   $array[1] = 2;
+   
+   // variable : variable
+   $value = 3;
+   
+   // variable : object
+   $object->property;
+   
+   ?>
 
 Specs
 _____

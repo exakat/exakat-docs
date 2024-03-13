@@ -5,7 +5,7 @@
 Unresolved Classes
 ++++++++++++++++++
 
-  The following classes are instantiated in the code, but their definition couldn't be found.
+  The following classes are instantiated in the code, but their definition couldn't be found in that same code. They might be defined in an extension or an external component.
 
 .. code-block:: php
    
@@ -34,7 +34,7 @@ _____
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Classes/UnresolvedClasses                                                                                               |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Analyze <ruleset-Analyze>`                                                              |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Analyze <ruleset-Analyze>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`          |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 0.8.4                                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

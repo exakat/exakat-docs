@@ -9,7 +9,6 @@ Cancelled Parameter
 
 Reference argument are omitted in this rule, as their value changes, however hardcoded, may have an impact on the calling code.
 
-
 .. code-block:: php
    
    <?php
@@ -49,7 +48,7 @@ _____
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Functions/CancelledParameter                                                                                            |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Analyze <ruleset-Analyze>`                                                              |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Analyze <ruleset-Analyze>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`          |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 2.2.0                                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

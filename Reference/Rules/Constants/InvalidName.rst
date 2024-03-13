@@ -11,8 +11,7 @@ According to PHP's manual, constant names, ' A valid constant name starts with a
 
 Constant, must follow this regex : ``/[a-zA-Z_\x7f-\xff][a-zA-Z0-9_\x7f-\xff]*/``.
 
-In particular when defined using `define() <https://www.php.net/define>`_ function, no `error <https://www.php.net/error>`_ is produced. When using ``const``, on the other hand, the name must be valid at linting time. 
-
+In particular when defined using `define() <https://www.php.net/define>`_ function, no `error <https://www.php.net/error>`_ is produced. When using ``const``, on the other hand, the name must be valid at linting time.
 
 .. code-block:: php
    
@@ -44,7 +43,7 @@ _____
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Constants/InvalidName                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Analyze <ruleset-Analyze>`                                                              |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Analyze <ruleset-Analyze>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`          |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 0.8.4                                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

@@ -8,20 +8,6 @@ List With Array Appends
   `List() <https://www.php.net/list>`_ behavior has changed in PHP 7.0 and it has impact on the indexing when list is used with the [] operator. 
 
 The appended values are created in the same order than in the syntax, while in PHP 5.6, it is in the reverse order. 
-
-
-.. code-block:: php
-   
-   <?php
-   
-   $x = array();
-   list($x[], $x[], $x[]) = [1, 2, 3];
-   
-   print_r($x);
-   
-   ?>
-
-
 In PHP 7.0, results are :::
 
    
@@ -43,6 +29,19 @@ In PHP 5.6, results are :::
        [1] => 2
        [2] => 1
    )
+   
+
+
+.. code-block:: php
+   
+   <?php
+   
+   $x = array();
+   list($x[], $x[], $x[]) = [1, 2, 3];
+   
+   print_r($x);
+   
+   ?>
 
 Suggestions
 ___________

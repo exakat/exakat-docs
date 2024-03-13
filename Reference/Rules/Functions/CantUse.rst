@@ -6,7 +6,7 @@ Methods That Should Not Be Used
 +++++++++++++++++++++++++++++++
 
   These methods and functions only throw an `exception <https://www.php.net/exception>`_, or raise an `error <https://www.php.net/error>`_. As such, they are a warning that such function or method shouldn't be used. 
-
+Those functions could also be marked as deprecated, with an `attribute <https://www.php.net/attribute>`_ or a phpdoc. This is not taken into account by this analysis.
 
 .. code-block:: php
    
@@ -17,16 +17,13 @@ Methods That Should Not Be Used
    }
    ?>
 
-
-Those functions could also be marked as deprecated, with an `attribute <https://www.php.net/attribute>`_ or a phpdoc. This is not taken into account by this analysis.
-
 Specs
 _____
 
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Functions/CantUse                                                                                                                                                                       |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`CE <ruleset-CE>`                                                                                                                                        |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`CE <ruleset-CE>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`                                                                                    |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 1.8.7                                                                                                                                                                                   |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

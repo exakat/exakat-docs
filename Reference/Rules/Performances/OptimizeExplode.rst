@@ -8,7 +8,11 @@ Optimize Explode()
   Limit `explode() <https://www.php.net/explode>`_ results at call time. `explode() <https://www.php.net/explode>`_ returns an array, after breaking the argument into smaller strings, with a delimiter. 
 
 By default, `explode() <https://www.php.net/explode>`_ breaks the whole string into smaller strings, and returns the array. When not all the elements of the returned array are necessary, using the third argument of `explode() <https://www.php.net/explode>`_ speeds up the process, by removing unnecessary work.
+Limiting `explode() <https://www.php.net/explode>`_ has no effect when the operation is already exact : it simply prevents `explode() <https://www.php.net/explode>`_ to cut more than needed if the argument is unexpectedly large. 
 
+This optimisation applies to split(), `preg_split() <https://www.php.net/preg_split>`_ and `mb_split() <https://www.php.net/mb_split>`_, too.
+
+This is a micro optimisation, unless the exploded string is large.
 
 .. code-block:: php
    
@@ -30,13 +34,6 @@ By default, `explode() <https://www.php.net/explode>`_ breaks the whole string i
    list($a, $b) = explode(',', $string, 2);
    ?>
 
-
-Limiting `explode() <https://www.php.net/explode>`_ has no effect when the operation is already exact : it simply prevents `explode() <https://www.php.net/explode>`_ to cut more than needed if the argument is unexpectedly large. 
-
-This optimisation applies to split(), `preg_split() <https://www.php.net/preg_split>`_ and `mb_split() <https://www.php.net/mb_split>`_, too.
-
-This is a micro optimisation, unless the exploded string is large.
-
 See also `Cryptography Extensions <https://www.php.net/manual/en/refs.crypto.php>`_.
 
 
@@ -51,24 +48,24 @@ ___________
 Specs
 _____
 
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Short name   | Performances/OptimizeExplode                                                                                            |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Performances <ruleset-Performances>`                                                    |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Exakat since | 2.1.9                                                                                                                   |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| PHP Version  | All                                                                                                                     |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Severity     | Minor                                                                                                                   |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Time To Fix  | Quick (30 mins)                                                                                                         |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | crypto                                                                                                                  |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
++--------------+--------------------------------------------------------------------------------------------------------------------------+
+| Short name   | Performances/OptimizeExplode                                                                                             |
++--------------+--------------------------------------------------------------------------------------------------------------------------+
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`, :ref:`Performances <ruleset-Performances>` |
++--------------+--------------------------------------------------------------------------------------------------------------------------+
+| Exakat since | 2.1.9                                                                                                                    |
++--------------+--------------------------------------------------------------------------------------------------------------------------+
+| PHP Version  | All                                                                                                                      |
++--------------+--------------------------------------------------------------------------------------------------------------------------+
+| Severity     | Minor                                                                                                                    |
++--------------+--------------------------------------------------------------------------------------------------------------------------+
+| Time To Fix  | Quick (30 mins)                                                                                                          |
++--------------+--------------------------------------------------------------------------------------------------------------------------+
+| Precision    | Very high                                                                                                                |
++--------------+--------------------------------------------------------------------------------------------------------------------------+
+| Features     | crypto                                                                                                                   |
++--------------+--------------------------------------------------------------------------------------------------------------------------+
+| Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_  |
++--------------+--------------------------------------------------------------------------------------------------------------------------+
 
 

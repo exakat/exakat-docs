@@ -19,8 +19,7 @@ The ``$`secure <https://www.php.net/secure>`_`` argument limits the transmission
 
 The ``$httponly`` argument limits the access of the cookie to JavaScript. It is only transmitted to the browser, and retransmitted. This helps reducing XSS and CSRF attacks, though it is disputed. 
 
-The ``$samesite`` argument limits the sending of the cookie to the domain that initiated the request. It is by default ``Lax`` but should be upgraded to ``Strict`` whenever possible. This feature is available as PHP 7.3. 
-
+The ``$samesite`` argument limits the sending of the cookie to the domain that initiated the request. It is by default ``Lax`` but should be upgraded to ``Strict`` whenever possible. This feature is available as PHP 7.3.
 
 .. code-block:: php
    
@@ -54,7 +53,7 @@ _____
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Security/SetCookieArgs                                                                                                  |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Security <ruleset-Security>`                                                            |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`, :ref:`Security <ruleset-Security>`        |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 0.10.6                                                                                                                  |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

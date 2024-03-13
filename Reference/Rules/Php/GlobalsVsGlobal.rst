@@ -7,8 +7,7 @@ $GLOBALS Or global
 
   Usually, PHP projects make a choice between the global keyword, and the $GLOBALS variable. Sometimes, the project has no recommendations. 
 
-When your project use a vast majority of one of the convention, then the analyzer will report all remaining inconsistently cased constant. 
-
+When your project use a vast majority of one of the convention, then the analyzer will report all remaining inconsistently cased constant.
 
 .. code-block:: php
    
@@ -27,7 +26,7 @@ _____
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Php/GlobalsVsGlobal                                                                                                     |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Preferences <ruleset-Preferences>`                                                      |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`, :ref:`Preferences <ruleset-Preferences>`  |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 0.9.2                                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

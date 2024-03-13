@@ -5,8 +5,7 @@
 Variable Constants
 ++++++++++++++++++
 
-  Variable constants are constants whose value is accessed via the function `constant() <https://www.php.net/constant>`_. Otherwise, there is no way to dynamically access a constant (aka, when the developer has the name of the constant as a incoming parameter, and it requires the value of it). 
-
+  Variable constants are constants whose value is accessed via the function `constant() <https://www.php.net/constant>`_. Otherwise, there is no way to dynamically access a constant (aka, when the developer has the name of the constant as a incoming parameter, and it requires the value of it).
 
 .. code-block:: php
    
@@ -29,7 +28,7 @@ _____
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Constants/VariableConstant                                                                                                                                                              |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Appinfo <ruleset-Appinfo>`, :ref:`CE <ruleset-CE>`                                                                                                      |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Appinfo <ruleset-Appinfo>`, :ref:`CE <ruleset-CE>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`                                                  |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 0.8.4                                                                                                                                                                                   |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

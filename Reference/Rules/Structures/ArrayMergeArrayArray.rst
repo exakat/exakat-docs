@@ -9,6 +9,7 @@ Array_merge Needs Array Of Arrays
 
 This analysis also reports when the used types are not an array : `array_merge() <https://www.php.net/array_merge>`_ does not accept scalar values, but only arrays.
 
+Since PHP 7.4, it is possible to call `array_merge() <https://www.php.net/array_merge>`_ without an argument : this means the default value may an empty array. 
 
 .. code-block:: php
    
@@ -17,16 +18,13 @@ This analysis also reports when the used types are not an array : `array_merge()
    // safe default value
    $a = array(array());
    
-   // when $list is empty, it is 
+   // when $list is empty, this will trigger an error during array_merge()
    foreach($list as $l) {
        $a[] = $l;
    }
-   $b = array_merge($a);
+   $b = array_merge(...$a);
    
    ?>
-
-
-Since PHP 7.4, it is possible to call `array_merge() <https://www.php.net/array_merge>`_ without an argument : this means the default value may an empty array. This array shall not contain scalar values.
 
 See also `array_merge <https://www.php.net/array_merge>`_.
 
@@ -46,11 +44,11 @@ _____
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Structures/ArrayMergeArrayArray                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Analyze <ruleset-Analyze>`                                                              |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Analyze <ruleset-Analyze>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`          |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 2.1.4                                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| PHP Version  | All                                                                                                                     |
+| PHP Version  | With PHP 7.4 and older                                                                                                  |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Severity     | Minor                                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

@@ -6,7 +6,7 @@ Pathinfo() Returns May Vary
 +++++++++++++++++++++++++++
 
   `pathinfo() <https://www.php.net/pathinfo>`_ function returns an array whose content may vary. It is recommended to collect the values after check, rather than directly.
-
+The same applies to `parse_url() <https://www.php.net/parse_url>`_, which returns an array with various index.
 
 .. code-block:: php
    
@@ -32,9 +32,6 @@ Pathinfo() Returns May Vary
    
    ?>
 
-
-The same applies to `parse_url() <https://www.php.net/parse_url>`_, which returns an array with various index.
-
 Suggestions
 ___________
 
@@ -49,7 +46,7 @@ _____
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Php/PathinfoReturns                                                                                                     |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Analyze <ruleset-Analyze>`                                                              |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Analyze <ruleset-Analyze>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`          |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 0.12.11                                                                                                                 |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

@@ -5,7 +5,7 @@ Analyze
 
 This ruleset centralizes a large number of classic trap and pitfalls when writing PHP.
 
-Total : 500 analysis
+Total : 501 analysis
 
 * :ref:`adding-zero`
 * :ref:`ambiguous-array-index`
@@ -507,6 +507,7 @@ Total : 500 analysis
 * :ref:`useless-coalesce`
 * :ref:`count()-is-not-negative`
 * :ref:`exit-without-argument`
+* :ref:`strpos()-less-than-one`
 
 Specs
 _____

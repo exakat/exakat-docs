@@ -11,7 +11,6 @@ While they work fine when the assertions are active (``zend.assertions=1``), cal
 
 Since PHP 7.3, a fatal `error <https://www.php.net/error>`_ is emitted : ``Defining a custom `assert() <https://www.php.net/assert>`_ function is deprecated, as the function has special semantics``.
 
-
 .. code-block:: php
    
    <?php

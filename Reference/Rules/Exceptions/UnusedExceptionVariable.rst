@@ -7,8 +7,7 @@ Unused Exception Variable
 
   The variable from a catch clause is not used. It is expected to be used, either by chaining the `exception <https://www.php.net/exception>`_, or logging the message.
 
-In PHP 8.0, this variable may be omitted. 
-
+In PHP 8.0, this variable may be omitted.
 
 .. code-block:: php
    
@@ -43,7 +42,7 @@ _____
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Exceptions/UnusedExceptionVariable                                                                                      |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Suggestions <ruleset-Suggestions>`                                                      |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`, :ref:`Suggestions <ruleset-Suggestions>`  |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 2.2.0                                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

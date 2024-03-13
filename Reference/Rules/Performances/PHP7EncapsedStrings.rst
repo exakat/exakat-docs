@@ -8,7 +8,7 @@ Use PHP7 Encapsed Strings
   PHP 7 has optimized the handling of double-quoted strings. In particular, double-quoted strings are much less memory hungry than classic concatenations. 
 
 PHP allocates memory at the end of the double-quoted string, making only one call to the allocator. On the other hand, concatenations are allocated each time they include dynamic content, leading to higher memory consumption. 
-
+Concatenations are still needed with constants, `static <https://www.php.net/manual/en/language.oop5.static.php>`_ constants, magic constants, functions, `static <https://www.php.net/manual/en/language.oop5.static.php>`_ properties or `static <https://www.php.net/manual/en/language.oop5.static.php>`_ methods.
 
 .. code-block:: php
    
@@ -28,33 +28,30 @@ PHP allocates memory at the end of the double-quoted string, making only one cal
    
    ?>
 
-
-Concatenations are still needed with constants, `static <https://www.php.net/manual/en/language.oop5.static.php>`_ constants, magic constants, functions, `static <https://www.php.net/manual/en/language.oop5.static.php>`_ properties or `static <https://www.php.net/manual/en/language.oop5.static.php>`_ methods.
-
 See also `PHP 7 performance improvements (3/5): Encapsed strings optimization <https://blog.blackfire.io/php-7-performance-improvements-encapsed-strings-optimization.html>`_.
 
 
 Specs
 _____
 
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Short name   | Performances/PHP7EncapsedStrings                                                                                        |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Performances <ruleset-Performances>`                                                    |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Exakat since | 1.0.4                                                                                                                   |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| PHP Version  | All                                                                                                                     |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Severity     |                                                                                                                         |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Time To Fix  |                                                                                                                         |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | string                                                                                                                  |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
++--------------+--------------------------------------------------------------------------------------------------------------------------+
+| Short name   | Performances/PHP7EncapsedStrings                                                                                         |
++--------------+--------------------------------------------------------------------------------------------------------------------------+
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`, :ref:`Performances <ruleset-Performances>` |
++--------------+--------------------------------------------------------------------------------------------------------------------------+
+| Exakat since | 1.0.4                                                                                                                    |
++--------------+--------------------------------------------------------------------------------------------------------------------------+
+| PHP Version  | All                                                                                                                      |
++--------------+--------------------------------------------------------------------------------------------------------------------------+
+| Severity     |                                                                                                                          |
++--------------+--------------------------------------------------------------------------------------------------------------------------+
+| Time To Fix  |                                                                                                                          |
++--------------+--------------------------------------------------------------------------------------------------------------------------+
+| Precision    | Very high                                                                                                                |
++--------------+--------------------------------------------------------------------------------------------------------------------------+
+| Features     | string                                                                                                                   |
++--------------+--------------------------------------------------------------------------------------------------------------------------+
+| Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_  |
++--------------+--------------------------------------------------------------------------------------------------------------------------+
 
 

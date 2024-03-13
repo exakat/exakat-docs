@@ -9,8 +9,7 @@ True False Inconsistant Case
 
 Usually, PHP projects choose between ALL CAPS True/False, or all lowercase True/False. Sometimes, the project will have no recommendations. 
 
-When your project use a vast majority of one of the convention, then the analyzer will report all remaining inconsistently cased constant. 
-
+When your project use a vast majority of one of the convention, then the analyzer will report all remaining inconsistently cased constant.
 
 .. code-block:: php
    
@@ -40,7 +39,7 @@ _____
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Constants/InconsistantCase                                                                                              |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Preferences <ruleset-Preferences>`                                                      |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`, :ref:`Preferences <ruleset-Preferences>`  |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 0.8.4                                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

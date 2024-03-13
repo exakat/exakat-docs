@@ -8,7 +8,7 @@ Filter To add_slashes()
   ``FILTER_SANITIZE_MAGIC_QUOTES`` is deprecated. In PHP 7.4, it should be replaced with `addslashes() <https://www.php.net/addslashes>`_
 
 According to the migration RDFC : 'Magic quotes were deprecated all the way back in PHP 5.3 and later removed in PHP 5.4. The filter extension implements a sanitization filter that mimics this behavior of magic_quotes by calling `addslashes() <https://www.php.net/addslashes>`_ on the input in question.'
-
+`addslashes() <https://www.php.net/addslashes>`_ used to filter data while building SQL queries, to prevent injections. Nowadays, prepared queries are a better option.
 
 .. code-block:: php
    
@@ -21,9 +21,6 @@ According to the migration RDFC : 'Magic quotes were deprecated all the way back
    $var = addslashes($input);
    
    ?>
-
-
-`addslashes() <https://www.php.net/addslashes>`_ used to filter data while building SQL queries, to prevent injections. Nowadays, prepared queries are a better option.
 
 See also `Deprecations for PHP 7.4 <https://wiki.php.net/rfc/deprecations_php_7_4>`_.
 
@@ -43,7 +40,7 @@ _____
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Php/FilterToAddSlashes                                                                                                                                                                  |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`CE <ruleset-CE>`, :ref:`CompatibilityPHP74 <ruleset-CompatibilityPHP74>`                                                                                |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`CE <ruleset-CE>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`, :ref:`CompatibilityPHP74 <ruleset-CompatibilityPHP74>`                            |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 1.9.9                                                                                                                                                                                   |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

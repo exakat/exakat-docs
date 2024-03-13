@@ -5,7 +5,7 @@ CompatibilityPHP70
 
 This ruleset centralizes all analysis for the migration from PHP 5.6 to 7.0.
 
-Total : 67 analysis
+Total : 69 analysis
 
 * :ref:`mcrypt\_create\_iv()-with-default-values`
 * :ref:`magic-visibility`
@@ -74,6 +74,8 @@ Total : 67 analysis
 * :ref:`final-traits-are-final`
 * :ref:`typed-class-constants-usage`
 * :ref:`void-is-not-a-reference`
+* :ref:`php-8.1-new-types`
+* :ref:`php-8.2-new-types`
 
 Specs
 _____

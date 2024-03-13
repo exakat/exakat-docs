@@ -8,7 +8,7 @@ Keep Files Access Restricted
   Avoid using 0777 as file or `directory <https://www.php.net/`directory <https://www.php.net/directory>`_>`_ mode. In particular, setting a file or a `directory <https://www.php.net/`directory <https://www.php.net/directory>`_>`_ to 0777 (or universal read-write-execute) may lead to security vulnerabilities, as anything on the server may read, write and even execute
 
 File mode may be changed using the `chmod() <https://www.php.net/chmod>`_ function, or at `directory <https://www.php.net/`directory <https://www.php.net/directory>`_>`_ creation, with `mkdir() <https://www.php.net/mkdir>`_.
-
+By default, this analysis report universal access (0777). It is possible to make this analysis more restrictive, by providing more forbidden modes in the ``filePrivileges`` parameter. For example : ``511,510,489``. Only use a decimal representation.
 
 .. code-block:: php
    
@@ -23,9 +23,6 @@ File mode may be changed using the `chmod() <https://www.php.net/chmod>`_ functi
    chmod($file, 0777); 
    
    ?>
-
-
-By default, this analysis report universal access (0777). It is possible to make this analysis more restrictive, by providing more forbidden modes in the ``filePrivileges`` parameter. For example : ``511,510,489``. Only use a decimal representation.
 
 +----------------+---------+--------+--------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Name           | Default | Type   | Description                                                                                                                                                  |
@@ -52,7 +49,7 @@ _____
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Security/KeepFilesRestricted                                                                                            |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Security <ruleset-Security>`                                                            |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`, :ref:`Security <ruleset-Security>`        |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 2.1.1                                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

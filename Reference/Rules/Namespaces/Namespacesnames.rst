@@ -6,7 +6,7 @@ Namespaces Glossary
 +++++++++++++++++++
 
   List of all the defined namespaces in the code, using the namespace keyword. 
-
+Global namespaces are mentioned when they are explicitly used.
 
 .. code-block:: php
    
@@ -20,16 +20,13 @@ Namespaces Glossary
    
    ?>
 
-
-Global namespaces are mentioned when they are explicitly used.
-
 Specs
 _____
 
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Namespaces/Namespacesnames                                                                                                                                                              |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Appinfo <ruleset-Appinfo>`, :ref:`CE <ruleset-CE>`                                                                                                      |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Appinfo <ruleset-Appinfo>`, :ref:`CE <ruleset-CE>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`                                                  |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 0.8.4                                                                                                                                                                                   |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

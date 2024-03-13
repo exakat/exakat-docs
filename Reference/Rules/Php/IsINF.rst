@@ -5,8 +5,7 @@
 Manipulates INF
 +++++++++++++++
 
-  This code handles `INF <https://www.php.net/INF>`_ situations. `INF <https://www.php.net/INF>`_ represents the infinity, when used in a float context. It happens when a calculation returns a number that is much larger than the maximum allowed float (not integer), or a number that is not a Division by 0. 
-
+  This code handles `INF <https://www.php.net/INF>`_ situations. `INF <https://www.php.net/INF>`_ represents the infinity, when used in a float context. It happens when a calculation returns a number that is much larger than the maximum allowed float (not integer), or a number that is not a Division by 0.
 
 .. code-block:: php
    
@@ -37,7 +36,7 @@ _____
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Php/IsINF                                                                                                                                                                               |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Appinfo <ruleset-Appinfo>`, :ref:`CE <ruleset-CE>`                                                                                                      |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Appinfo <ruleset-Appinfo>`, :ref:`CE <ruleset-CE>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`                                                  |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 0.10.6                                                                                                                                                                                  |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

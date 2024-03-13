@@ -8,6 +8,17 @@ Make One Call With Array
   Avoid calling the same functions several times by batching the calls with arrays.
 
 Calling the same function to chain modifications is slower than calling the same function once, with all the transformations at the same time. Some PHP functions accept scalars or arrays, and using the later is more efficient.
+Potential replacements : 
+
++--------------------------------------------------------------------------+-------------------------------------------------------------------------------------+
+| Function                                                                 | Replacement                                                                         |
++--------------------------------------------------------------------------+-------------------------------------------------------------------------------------+
+| `str_replace() <https://www.php.net/str_replace>`_                       | `str_replace() <https://www.php.net/str_replace>`_                                  |
+| `str_ireplace() <https://www.php.net/str_ireplace>`_                     | `str_replace() <https://www.php.net/str_replace>`_                                  |
+| `substr_replace() <https://www.php.net/substr_replace>`_                 | `substr_replace() <https://www.php.net/substr_replace>`_                            |
+| `preg_replace() <https://www.php.net/preg_replace>`_                     | `preg_replace() <https://www.php.net/preg_replace>`_                                |
+| `preg_replace_callback() <https://www.php.net/preg_replace_callback>`_   | `preg_replace_callback_array() <https://www.php.net/preg_replace_callback_array>`_  |
++--------------------------------------------------------------------------+-------------------------------------------------------------------------------------+
 
 
 .. code-block:: php
@@ -31,59 +42,6 @@ Calling the same function to chain modifications is slower than calling the same
    
    ?>
 
-
-Potential replacements : 
-
-+--------------------------------------------------------------------------+-------------------------------------------------------------------------------------+
-| Function                                                                 | Replacement                                                                         |
-+--------------------------------------------------------------------------+-------------------------------------------------------------------------------------+
-| `str_replace() <https://www.php.net/str_replace>`_                       | `str_replace() <https://www.php.net/str_replace>`_                                  |
-| `str_ireplace() <https://www.php.net/str_ireplace>`_                     | `str_replace() <https://www.php.net/str_replace>`_                                  |
-| `substr_replace() <https://www.php.net/substr_replace>`_                 | `substr_replace() <https://www.php.net/substr_replace>`_                            |
-| `preg_replace() <https://www.php.net/preg_replace>`_                     | `preg_replace() <https://www.php.net/preg_replace>`_                                |
-| `preg_replace_callback() <https://www.php.net/preg_replace_callback>`_   | `preg_replace_callback_array() <https://www.php.net/preg_replace_callback_array>`_  |
-+--------------------------------------------------------------------------+-------------------------------------------------------------------------------------+
-
-
-.. code-block:: php
-   
-   <?php
-   $subject = 'Aaaaaa Bbb';
-   
-   
-   //preg_replace_callback_array() is better than multiple preg_replace_callback : 
-   preg_replace_callback_array(
-       [
-           '~[a]+~i' => function ($match) {
-               echo strlen($match[0]), ' matches for a found', PHP_EOL;
-           },
-           '~[b]+~i' => function ($match) {
-               echo strlen($match[0]), ' matches for b found', PHP_EOL;
-           }
-       ],
-       $subject
-   );
-   
-   $result = preg_replace_callback('~[a]+~i', function ($match) {
-               echo strlen($match[0]), ' matches for a found', PHP_EOL;
-           }, $subject);
-   
-   $result = preg_replace_callback('~[b]+~i', function ($match) {
-               echo strlen($match[0]), ' matches for b found', PHP_EOL;
-           }, $subject);
-   
-   //str_replace() accepts arrays as arguments
-   $string = str_replace( ['a', 'b', 'c'],
-                          ['A', 'B', 'C'],
-                          $string);
-   
-   // Too many calls to str_replace
-   $string = str_replace( 'a', 'A');
-   $string = str_replace( 'b', 'B');
-   $string = str_replace( 'c', 'C');
-   
-   ?>
-
 Suggestions
 ___________
 
@@ -97,26 +55,26 @@ ___________
 Specs
 _____
 
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Short name   | Performances/MakeOneCall                                                                                                |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Performances <ruleset-Performances>`                                                    |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Exakat since | 0.8.4                                                                                                                   |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| PHP Version  | All                                                                                                                     |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Severity     | Major                                                                                                                   |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Time To Fix  | Quick (30 mins)                                                                                                         |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Precision    | High                                                                                                                    |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | csv                                                                                                                     |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Examples     | :ref:`case-humo-gen-performances-makeonecall`, :ref:`case-edusoho-performances-makeonecall`                             |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
++--------------+--------------------------------------------------------------------------------------------------------------------------+
+| Short name   | Performances/MakeOneCall                                                                                                 |
++--------------+--------------------------------------------------------------------------------------------------------------------------+
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`, :ref:`Performances <ruleset-Performances>` |
++--------------+--------------------------------------------------------------------------------------------------------------------------+
+| Exakat since | 0.8.4                                                                                                                    |
++--------------+--------------------------------------------------------------------------------------------------------------------------+
+| PHP Version  | All                                                                                                                      |
++--------------+--------------------------------------------------------------------------------------------------------------------------+
+| Severity     | Major                                                                                                                    |
++--------------+--------------------------------------------------------------------------------------------------------------------------+
+| Time To Fix  | Quick (30 mins)                                                                                                          |
++--------------+--------------------------------------------------------------------------------------------------------------------------+
+| Precision    | High                                                                                                                     |
++--------------+--------------------------------------------------------------------------------------------------------------------------+
+| Features     | csv                                                                                                                      |
++--------------+--------------------------------------------------------------------------------------------------------------------------+
+| Examples     | :ref:`case-humo-gen-performances-makeonecall`, :ref:`case-edusoho-performances-makeonecall`                              |
++--------------+--------------------------------------------------------------------------------------------------------------------------+
+| Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_  |
++--------------+--------------------------------------------------------------------------------------------------------------------------+
 
 

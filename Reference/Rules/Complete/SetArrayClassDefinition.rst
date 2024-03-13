@@ -9,7 +9,6 @@ Set Array Class Definition
 
 PHP accepts an array structure such as ``[class, method]``, or ``[$object, method]`` as a valid method callback. This analysis builds such relations, whenever they are `static <https://www.php.net/manual/en/language.oop5.static.php>`_.
 
-
 .. code-block:: php
    
    <?php
@@ -34,7 +33,7 @@ _____
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Complete/SetArrayClassDefinition                                                                                                                                                        |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`CE <ruleset-CE>`, :ref:`NoDoc <ruleset-NoDoc>`                                                                                                          |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`CE <ruleset-CE>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`, :ref:`NoDoc <ruleset-NoDoc>`                                                      |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 1.9.3                                                                                                                                                                                   |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

@@ -5,7 +5,7 @@
 Create Foreach Default
 ++++++++++++++++++++++
 
-  This command adds DEFAULT link from the blind variables to the literal available.
+  This command adds DEFAULT link from the blind variables to the literal definitions, when they are available. This adds sources for `static <https://www.php.net/manual/en/language.oop5.static.php>`_ loops, which are based on hardcoded list of data. Dynamic loops are not affected.
 
 .. code-block:: php
    
@@ -24,7 +24,7 @@ _____
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Complete/CreateForeachDefault                                                                                           |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`NoDoc <ruleset-NoDoc>`                                                                  |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`, :ref:`NoDoc <ruleset-NoDoc>`              |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 1.9.9                                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

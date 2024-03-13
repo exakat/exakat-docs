@@ -8,7 +8,7 @@ Cast Usage
   List of all cast usage.
 
 PHP does not require (or support) explicit type definition in variable declaration; a variable's type is determined by the context in which the variable is used. 
-
+Until PHP 7.2, a ``(unset)`` operator was available. It had the same role as ``unset()`` as a function.
 
 .. code-block:: php
    
@@ -22,9 +22,6 @@ PHP does not require (or support) explicit type definition in variable declarati
    
    ?>
 
-
-Until PHP 7.2, a ``(unset)`` operator was available. It had the same role as ``unset()`` as a function.
-
 See also `Type Juggling <https://www.php.net/manual/en/language.types.type-juggling.php>`_ and `unset <https://www.php.net/unset>`_.
 
 
@@ -34,7 +31,7 @@ _____
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Php/CastingUsage                                                                                                                                                                        |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Appinfo <ruleset-Appinfo>`, :ref:`CE <ruleset-CE>`                                                                                                      |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Appinfo <ruleset-Appinfo>`, :ref:`CE <ruleset-CE>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`                                                  |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 0.8.4                                                                                                                                                                                   |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
