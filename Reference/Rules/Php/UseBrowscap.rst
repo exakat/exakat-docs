@@ -9,7 +9,6 @@ Use Browscap
 
 Browscap is the 'Browser Capabilities Project'.
 
-
 .. code-block:: php
    
    <?php

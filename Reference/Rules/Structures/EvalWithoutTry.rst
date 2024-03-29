@@ -6,7 +6,7 @@ eval() Without Try
 ++++++++++++++++++
 
   ``eval()`` emits a ``ParseError`` `exception <https://www.php.net/exception>`_ with PHP 7 and later. Catching this `exception <https://www.php.net/exception>`_ is the recommended way to handle errors when using the ``eval()`` function.
-
+Note that it will catch situations where ``eval()`` is provided with code that can't be used, but it will not catch security problems. Avoid using ``eval()`` with incoming data.
 
 .. code-block:: php
    
@@ -26,9 +26,6 @@ eval() Without Try
    }
    
    ?>
-
-
-Note that it will catch situations where ``eval()`` is provided with code that can't be used, but it will not catch security problems. Avoid using ``eval()`` with incoming data.
 
 Suggestions
 ___________

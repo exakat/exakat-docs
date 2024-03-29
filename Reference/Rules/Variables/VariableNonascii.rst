@@ -11,7 +11,6 @@ In practice, letters outside the scope of the intervalle ``[a-zA-Z0-9_]`` are ra
 
 Also, certain letter might appear similar to the roman ones, and be part of a different alphabet. This is the case, for example, of the cyrillic alphabet, where `А` (cyrillic A, U+0410) is actually different from `A` (Latin A, U+0041). Some dashes and spaces may be valid in PHP variable names, and look very confusing.
 
-
 .. code-block:: php
    
    <?php

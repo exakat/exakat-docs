@@ -7,8 +7,7 @@ Written Only Variables
 
   Those variables are being written, but never read. In this way, they are useless and should be removed, or be read at some point in the code.
 
-When the variables are only written, it takes time to process them, while discarding their `result <https://www.php.net/result>`_ without usage. Also, when those variables are built with a complex process, it makes it difficult to understand their point, and still create maintenance work. 
-
+When the variables are only written, it takes time to process them, while discarding their `result <https://www.php.net/result>`_ without usage. Also, when those variables are built with a complex process, it makes it difficult to understand their point, and still create maintenance work.
 
 .. code-block:: php
    

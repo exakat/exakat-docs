@@ -9,7 +9,6 @@ ext/ctype
 
 Ext/`ctype <https://www.php.net/ctype>`_ checks whether a character or string falls into a certain character class according to the current `locale <https://www.php.net/locale>`_.
 
-
 .. code-block:: php
    
    <?php

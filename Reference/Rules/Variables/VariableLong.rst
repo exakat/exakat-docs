@@ -6,7 +6,7 @@ Variables With Long Names
 +++++++++++++++++++++++++
 
   This analysis collects all variables with more than 20 characters longs. This may be configured with the ``variableLength`` parameter.
-
+PHP has not limitation on variable name size. While short name are often obscure, long names are usually better. Yet, there exists a limit to convenient variable name length.
 
 .. code-block:: php
    
@@ -16,9 +16,6 @@ Variables With Long Names
    $There_is nothing_wrong_with_long_variable_names_They_tend_to_be_rare_and_that_make_them_noteworthy = 1;
    
    ?>
-
-
-PHP has not limitation on variable name size. While short name are often obscure, long names are usually better. Yet, there exists a limit to convenient variable name length.
 
 +----------------+---------+---------+----------------------------------------------------------------+
 | Name           | Default | Type    | Description                                                    |

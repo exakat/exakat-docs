@@ -6,7 +6,7 @@ Rules
 Introduction
 ------------------------
 
-Exakat provides unique 1644 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
+Exakat provides unique 1647 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
 
 Each rule is documented with code example to allow you to remediate your code. If you want to automate remediation, ours cobblers can are there to fix the issues in your code for your.  
 
@@ -567,6 +567,7 @@ List of Rules
    Rules/Structures/ImpliedIf.rst
    Rules/Php/ImplodeOneArg.rst
    Rules/Structures/ImplodeArgsOrder.rst
+   Rules/Php/IncludeVariables.rst
    Rules/Files/InclusionWrongCase.rst
    Rules/Dump/Inclusions.rst
    Rules/Structures/IncludeUsage.rst
@@ -825,6 +826,7 @@ List of Rules
    Rules/Classes/NoMagicWithArray.rst
    Rules/Structures/NoMaxOnEmptyArray.rst
    Rules/Php/NoMoreCurlyArrays.rst
+   Rules/Attributes/NoNamedArguments.rst
    Rules/Structures/NoNeedForElse.rst
    Rules/Structures/NoNeedForTriple.rst
    Rules/Structures/NoNeedGetClass.rst
@@ -1153,6 +1155,7 @@ List of Rules
    Rules/Performances/StaticCallDontNeedObjects.rst
    Rules/Performances/StaticCallWithSelf.rst
    Rules/Structures/SGVariablesConfusion.rst
+   Rules/Structures/StaticInclude.rst
    Rules/Structures/StaticLoop.rst
    Rules/Classes/StaticMethods.rst
    Rules/Classes/StaticMethodsCalledFromObject.rst
@@ -1332,7 +1335,6 @@ List of Rules
    Rules/Functions/UseConstantsAsReturns.rst
    Rules/Php/UseContravariance.rst
    Rules/Php/UseCookies.rst
-   Rules/Structures/UseCountRecursive.rst
    Rules/Php/UseCovariance.rst
    Rules/Php/UseDNF.rst
    Rules/Php/UseDateTimeImmutable.rst
@@ -1350,6 +1352,7 @@ List of Rules
    Rules/Performances/PHP7EncapsedStrings.rst
    Rules/Php/UsePathinfo.rst
    Rules/Structures/UsePositiveCondition.rst
+   Rules/Structures/UseCountRecursive.rst
    Rules/Structures/UseSameTypesForComparisons.rst
    Rules/Structures/UseSystemTmp.rst
    Rules/Performances/UseBlindVar.rst
@@ -1669,6 +1672,12 @@ Directory by Exakat version
 List of analyzers, by version of introduction, newest to oldest. In parenthesis, the first element is the analyzer name, used with 'analyze -P' command, and the seconds, if any, are the ruleset, used with the -T option. Rulesets are separated by commas, as the same analysis may be used in several rulesets.
 
 
+* 2.6.7
+
+  * :ref:`Include Variables <include-variables>`
+  * :ref:`No Named Parameters <no-named-parameters>`
+  * :ref:`Static Inclusions <static-inclusions>`
+
 * 2.6.6
 
   * :ref:`Count() Is Not Negative <count()-is-not-negative>`
@@ -1794,7 +1803,7 @@ List of analyzers, by version of introduction, newest to oldest. In parenthesis,
   * :ref:`Ellipsis Merge <ellipsis-merge>`
   * :ref:`Global Definitions <global-definitions>`
   * :ref:`Init Then Update <init-then-update>`
-  * :ref:`Missing Assignation In Command <missing-assignation-in-command>`
+  * :ref:`Missing Assignation In Branches <missing-assignation-in-branches>`
   * :ref:`Misused Yield <misused-yield>`
   * :ref:`Mono Or Multibytes Favorite <mono-or-multibytes-favorite>`
   * :ref:`New Functions In PHP 8.3 <new-functions-in-php-8.3>`
@@ -2785,7 +2794,7 @@ List of analyzers, by version of introduction, newest to oldest. In parenthesis,
   * :ref:`Dynamic Library Loading <dynamic-library-loading>`
   * :ref:`PHP 7.3 Last Empty Argument <php-7.3-last-empty-argument>`
   * :ref:`Property Could Be Local <property-could-be-local>`
-  * :ref:`Use Count Recursive <use-count-recursive>`
+  * :ref:`Use Recursive count() <use-recursive-count()>`
   * :ref:`ext/leveldb <ext-leveldb>`
   * :ref:`ext/opencensus <ext-opencensus>`
   * :ref:`ext/uopz <ext-uopz>`
@@ -4107,6 +4116,7 @@ Directory by PHP Function
       + :ref:`Mismatch Type And Default <mismatch-type-and-default>`
       + :ref:`Modify Immutable <modify-immutable>`
       + :ref:`Negative Power <negative-power>`
+      + :ref:`No Named Parameters <no-named-parameters>`
       + :ref:`Only Variable Passed By Reference <only-variable-passed-by-reference>`
       + :ref:`Symfony usage <symfony-usage>`
       + :ref:`Unused Traits <unused-traits>`
@@ -4230,6 +4240,7 @@ Directory by PHP Function
 
     + `array()`
 
+      + :ref:`Append And Assign Arrays <append-and-assign-arrays>`
       + :ref:`Array With String Initialization <array-with-string-initialization>`
       + :ref:`Array() / [  ] Consistence <array()---[--]-consistence>`
       + :ref:`Array_merge Needs Array Of Arrays <array\_merge-needs-array-of-arrays>`
@@ -4562,11 +4573,11 @@ Directory by PHP Function
 
     + `COUNT_NORMAL`
 
-      + :ref:`Use Count Recursive <use-count-recursive>`
+      + :ref:`Use Recursive count() <use-recursive-count()>`
 
     + `COUNT_RECURSIVE`
 
-      + :ref:`Use Count Recursive <use-count-recursive>`
+      + :ref:`Use Recursive count() <use-recursive-count()>`
 
     + `CURLOPT_FILE`
 
@@ -4746,6 +4757,7 @@ Directory by PHP Function
       + :ref:`Should Use Function <should-use-function>`
       + :ref:`Should Yield With Key <should-yield-with-key>`
       + :ref:`Slow Functions <slow-functions>`
+      + :ref:`Static Inclusions <static-inclusions>`
       + :ref:`Suspicious Comparison <suspicious-comparison>`
       + :ref:`Throw Raw Exceptions <throw-raw-exceptions>`
       + :ref:`URL List <url-list>`
@@ -4899,6 +4911,7 @@ Directory by PHP Function
       + :ref:`No Count With 0 <no-count-with-0>`
       + :ref:`PHP Interfaces <php-interfaces>`
       + :ref:`Use Constant As Arguments <use-constant-as-arguments>`
+      + :ref:`Use Recursive count() <use-recursive-count()>`
       + :ref:`Use is_countable <use-is\_countable>`
       + :ref:`Useless Check <useless-check>`
       + :ref:`Uses Default Values <uses-default-values>`
@@ -5874,6 +5887,7 @@ Directory by PHP Function
       + :ref:`PHP 8.0 Removed Directives <php-8.0-removed-directives>`
       + :ref:`PHP 8.0 Typehints <php-8.0-typehints>`
       + :ref:`PHP 8.1 Removed Directives <php-8.1-removed-directives>`
+      + :ref:`PHP 8.1 Resources Turned Into Objects <php-8.1-resources-turned-into-objects>`
       + :ref:`PHP Handlers Usage <php-handlers-usage>`
       + :ref:`Php 8.0 Only TypeHints <php-8.0-only-typehints>`
       + :ref:`Possible Infinite Loop <possible-infinite-loop>`
@@ -7482,12 +7496,10 @@ Directory by PHP Function
 
     + `mysqli_connect_errno()`
 
-      + :ref:`Use PHP Object API <use-php-object-api>`
       + :ref:`ext/mysqli <ext-mysqli>`
 
     + `mysqli_connect_error()`
 
-      + :ref:`Use PHP Object API <use-php-object-api>`
       + :ref:`ext/mysqli <ext-mysqli>`
 
     + `mysqli_error_list()`
@@ -7871,7 +7883,6 @@ Directory by PHP Function
 
     + `PHP_EOL`
 
-      + :ref:`Always Anchor Regex <always-anchor-regex>`
       + :ref:`Compare Hash <compare-hash>`
       + :ref:`Constants Usage <constants-usage>`
       + :ref:`Don't Change The Blind Var <don't-change-the-blind-var>`
@@ -7967,6 +7978,14 @@ Directory by PHP Function
     + `PREG_SPLIT_NO_EMPTY`
 
       + :ref:`No mb_substr In Loop <no-mb\_substr-in-loop>`
+
+    + `PSPELL_FAST`
+
+      + :ref:`PHP 8.1 Resources Turned Into Objects <php-8.1-resources-turned-into-objects>`
+
+    + `PSPELL_RUN_TOGETHER`
+
+      + :ref:`PHP 8.1 Resources Turned Into Objects <php-8.1-resources-turned-into-objects>`
 
     + `Parent`
 
@@ -8466,6 +8485,7 @@ Directory by PHP Function
       + :ref:`Check Division By Zero <check-division-by-zero>`
       + :ref:`Collect Classes Dependencies <collect-classes-dependencies>`
       + :ref:`Compared Comparison <compared-comparison>`
+      + :ref:`Comparison On Different Types <comparison-on-different-types>`
       + :ref:`Constant Scalar Expressions <constant-scalar-expressions>`
       + :ref:`Could Use Null-Safe Object Operator <could-use-null-safe-object-operator>`
       + :ref:`Crc32() Might Be Negative <crc32()-might-be-negative>`
@@ -9172,6 +9192,7 @@ Directory by PHP Function
       + :ref:`Static Call May Be Truly Static <static-call-may-be-truly-static>`
       + :ref:`Static Call With Self <static-call-with-self>`
       + :ref:`Static Global Variables Confusion <static-global-variables-confusion>`
+      + :ref:`Static Inclusions <static-inclusions>`
       + :ref:`Static Loop <static-loop>`
       + :ref:`Static Methods <static-methods>`
       + :ref:`Static Methods Called From Object <static-methods-called-from-object>`
@@ -9623,9 +9644,11 @@ Directory by PHP Function
       + :ref:`Minus One On Error <minus-one-on-error>`
       + :ref:`Multiple Index Definition <multiple-index-definition>`
       + :ref:`Multiples Identical Case <multiples-identical-case>`
+      + :ref:`New Functions In PHP 8.1 <new-functions-in-php-8.1>`
       + :ref:`No Boolean As Default <no-boolean-as-default>`
       + :ref:`Null Or Boolean Arrays <null-or-boolean-arrays>`
       + :ref:`PHP 7.1 Microseconds <php-7.1-microseconds>`
+      + :ref:`PHP 8.1 Resources Turned Into Objects <php-8.1-resources-turned-into-objects>`
       + :ref:`PHP 8.2 New Types <php-8.2-new-types>`
       + :ref:`PHP 80 Named Parameter Variadic <php-80-named-parameter-variadic>`
       + :ref:`PHP Handlers Usage <php-handlers-usage>`
@@ -9850,6 +9873,7 @@ Directory by PHP Function
       + :ref:`No Hardcoded Path <no-hardcoded-path>`
       + :ref:`PHP Sapi <php-sapi>`
       + :ref:`PHP7 Dirname <php7-dirname>`
+      + :ref:`Static Inclusions <static-inclusions>`
       + :ref:`Use PHP7 Encapsed Strings <use-php7-encapsed-strings>`
       + :ref:`__DIR__ Then Slash <\_\_dir\_\_-then-slash>`
       + :ref:`ext/wasm <ext-wasm>`
@@ -10316,6 +10340,7 @@ Exakat links each rules to PHP features.
 
   + Blind Variable
 
+    + :ref:`Blind Variables <blind-variables>`
     + :ref:`Don't Change The Blind Var <don't-change-the-blind-var>`
     + :ref:`Use The Blind Var <use-the-blind-var>`
 
@@ -10570,6 +10595,10 @@ Exakat links each rules to PHP features.
     + :ref:`Should Use Coalesce <should-use-coalesce>`
     + :ref:`Useless Null Coalesce <useless-null-coalesce>`
 
+  + Code Reuse
+
+    + :ref:`Used Once Trait <used-once-trait>`
+
   + Coding Conventions
 
     + :ref:`Unusual Case For PHP Functions <unusual-case-for-php-functions>`
@@ -10741,7 +10770,7 @@ Exakat links each rules to PHP features.
 
     + :ref:`Cyclomatic Complexity <cyclomatic-complexity>`
 
-  + DRY : don't repeat yourself
+  + DRY : Don't Repeat Yourself
 
     + :ref:`Identical Case In Switch <identical-case-in-switch>`
     + :ref:`Multiple Property Declaration <multiple-property-declaration>`
@@ -10830,13 +10859,13 @@ Exakat links each rules to PHP features.
 
     + :ref:`Avoid glob() Usage <avoid-glob()-usage>`
 
+  + Disable Classes
+
+    + :ref:`Can't Disable Class <can't-disable-class>`
+
   + Disable Functions
 
     + :ref:`Can't Disable Function <can't-disable-function>`
-
-  + Disable classes
-
-    + :ref:`Can't Disable Class <can't-disable-class>`
 
   + Disjunctive Normal Form (DNF)
 
@@ -11015,6 +11044,10 @@ Exakat links each rules to PHP features.
   + Exponential
 
     + :ref:`** For Exponent <**-for-exponent>`
+
+  + Expression
+
+    + :ref:`Identical Consecutive Expression <identical-consecutive-expression>`
 
   + Extensions
 
@@ -11275,6 +11308,11 @@ Exakat links each rules to PHP features.
     + :ref:`HTTP Status Code <http-status-code>`
     + :ref:`Http Headers <http-headers>`
 
+  + IP
+
+    + :ref:`Ip <ip>`
+    + :ref:`No Hardcoded Ip <no-hardcoded-ip>`
+
   + Iconv
 
     + :ref:`Iconv With Translit <iconv-with-translit>`
@@ -11509,6 +11547,7 @@ Exakat links each rules to PHP features.
 
     + :ref:`Assign And Lettered Logical Operator Precedence <assign-and-lettered-logical-operator-precedence>`
     + :ref:`Logical Operators Favorite <logical-operators-favorite>`
+    + :ref:`Logical Should Use Symbolic Operators <logical-should-use-symbolic-operators>`
     + :ref:`Not Not <not-not>`
     + :ref:`Not Or Tilde <not-or-tilde>`
 
@@ -11649,6 +11688,7 @@ Exakat links each rules to PHP features.
     + :ref:`Duplicate Named Parameter <duplicate-named-parameter>`
     + :ref:`Mismatch Parameter Name <mismatch-parameter-name>`
     + :ref:`Named Parameter Usage <named-parameter-usage>`
+    + :ref:`No Named Parameters <no-named-parameters>`
     + :ref:`Unknown Parameter Name <unknown-parameter-name>`
     + :ref:`Wrong Argument Name With PHP Function <wrong-argument-name-with-php-function>`
 
@@ -11879,6 +11919,7 @@ Exakat links each rules to PHP features.
 
   + Parenthesis
 
+    + :ref:`Coalesce And Concat <coalesce-and-concat>`
     + :ref:`Dynamic New <dynamic-new>`
     + :ref:`Missing Parenthesis <missing-parenthesis>`
     + :ref:`Nested Ternary Without Parenthesis <nested-ternary-without-parenthesis>`
@@ -12217,6 +12258,10 @@ Exakat links each rules to PHP features.
 
     + :ref:`Could Be Spaceship <could-be-spaceship>`
 
+  + Sqlite3
+
+    + :ref:`Sqlite3 Requires Single Quotes <sqlite3-requires-single-quotes>`
+
   + Static Constant
 
     + :ref:`Abstract Class Constants <abstract-class-constants>`
@@ -12242,11 +12287,13 @@ Exakat links each rules to PHP features.
 
   + Static Variables
 
+    + :ref:`Could Be A Static Variable <could-be-a-static-variable>`
     + :ref:`Declare Global Early <declare-global-early>`
     + :ref:`Inherited Static Variable <inherited-static-variable>`
     + :ref:`No Static Variable In A Method <no-static-variable-in-a-method>`
     + :ref:`Redeclared Static Variable <redeclared-static-variable>`
     + :ref:`Static Variable Can Default To Arbitrary Expression <static-variable-can-default-to-arbitrary-expression>`
+    + :ref:`Static Variable In Namespace <static-variable-in-namespace>`
     + :ref:`Static Variables <static-variables>`
     + :ref:`Used Once Variables (In Scope) <used-once-variables-(in-scope)>`
 
@@ -12611,6 +12658,7 @@ Exakat links each rules to PHP features.
   + Yield
 
     + :ref:`Can't Call Generator <can't-call-generator>`
+    + :ref:`Could Be Generator <could-be-generator>`
     + :ref:`Don't Loop On Yield <don't-loop-on-yield>`
     + :ref:`Method Is A Generator <method-is-a-generator>`
     + :ref:`No Return For Generator <no-return-for-generator>`
@@ -12852,6 +12900,7 @@ Exakat links each rules to PHP features.
   + yield from Keyword
 
     + :ref:`Can't Call Generator <can't-call-generator>`
+    + :ref:`Could Be Generator <could-be-generator>`
     + :ref:`Could Use Yield From <could-use-yield-from>`
     + :ref:`Method Is A Generator <method-is-a-generator>`
     + :ref:`Misused Yield <misused-yield>`
@@ -13085,7 +13134,7 @@ Exakat helps reduce the amount of error and warning that code is producing by re
 * :ref:`Undefined function <undefined-functions>`
 * :ref:`Undefined property <don't-unset-properties>`
 * :ref:`Undefined property: x\:\:$e <undefined-properties>`
-* :ref:`Undefined variable $a <missing-assignation-in-command>`
+* :ref:`Undefined variable $a <missing-assignation-in-branches>`
 * :ref:`Undefined variable: <casting-ternary>`
 * :ref:`Undefined variable: <undefined-variable>`
 * :ref:`Unknown format specifier <sprintf-format-compilation>`
@@ -13193,10 +13242,6 @@ Exakat has rules that help identify possible exceptions in the code.
   + Type Error
 
     + :ref:`Could Use Try <could-use-try>`
-
-  + TypeError
-
-    + :ref:`Wrong Type For Native PHP Function <wrong-type-for-native-php-function>`
 
   + UnexpectedValueException
 

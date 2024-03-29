@@ -8,7 +8,7 @@ Foreach With list()
   Foreach loops have the ability to use `list() <https://www.php.net/list>`_ (or []) as blind variables. This syntax assign directly array elements to various variables. 
 
 PHP 5.5 introduced the usage of list in `foreach() <https://www.php.net/manual/en/control-structures.foreach.php>`_ loops. Until PHP 7.1, it was not possible to use non-numerical arrays as `list() <https://www.php.net/list>`_ wouldn't support string-indexed arrays.
-
+Previously, it was compulsory to `extract() <https://www.php.net/extract>`_ the data from the blind array :
 
 .. code-block:: php
    
@@ -21,19 +21,6 @@ PHP 5.5 introduced the usage of list in `foreach() <https://www.php.net/manual/e
    
        // PHP 7.1 and later, with arrays
        foreach($array as list('col1' => $a, 'col3' => $b)) { // 'col2 is ignored'
-           // do something 
-       }
-   ?>
-
-
-Previously, it was compulsory to `extract() <https://www.php.net/extract>`_ the data from the blind array : 
-
-
-.. code-block:: php
-   
-   <?php
-       foreach($array as $c) { 
-           list($a, $b) = $c;
            // do something 
        }
    ?>

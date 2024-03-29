@@ -8,7 +8,7 @@ Can't Disable Function
   This is the list of potentially dangerous PHP functions being used in the code, such as `exec() <https://www.php.net/exec>`_ or `fsockopen() <https://www.php.net/fsockopen>`_. 
 
 eval() is not reported here, as it is not a PHP function, but a language construct : it can't be disabled.
-
+This analysis is the base for suggesting values for the ``disable_functions`` directive.
 
 .. code-block:: php
    
@@ -20,9 +20,6 @@ eval() is not reported here, as it is not a PHP function, but a language constru
    // This script doesn't use imap_open(), therefore, this function may be disabled. 
    
    ?>
-
-
-This analysis is the base for suggesting values for the ``disable_functions`` directive.
 
 Specs
 _____

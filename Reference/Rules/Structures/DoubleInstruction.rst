@@ -7,8 +7,7 @@ Double Instructions
 
   Twice the same call in a row. This might be a typo, and the second call is useless. 
 
-It may also be an non-idempotent method: that is, a method which has a different `result <https://www.php.net/result>`_ when called with the same arguments. For example, ``rand()`` or ``fgets()``. 
-
+It may also be an non-idempotent method: that is, a method which has a different `result <https://www.php.net/result>`_ when called with the same arguments. For example, ``rand()`` or ``fgets()``.
 
 .. code-block:: php
    

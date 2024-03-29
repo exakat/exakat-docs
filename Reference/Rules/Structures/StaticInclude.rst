@@ -1,24 +1,23 @@
-.. _structures-comparedbutnotassignedstrings:
+.. _structures-staticinclude:
 
-.. _compared-but-not-assigned-strings:
+.. _static-inclusions:
 
-Compared But Not Assigned Strings
-+++++++++++++++++++++++++++++++++
+Static Inclusions
++++++++++++++++++
 
-  Those strings are compared to variables in the code, but those values are never assigned.
+  This rule reports all `static <https://www.php.net/manual/en/language.oop5.static.php>`_ inclusion. A inclusion is `static <https://www.php.net/manual/en/language.oop5.static.php>`_ when it relies only on constants, such as literals, global and class constants, and the magic constants.
+
+This rule is a collaboration with `Bohuslav Šimek <https://twitter.com/BohuslavSimek>`_.
 
 .. code-block:: php
    
    <?php
    
-   // some assigned strings in the code
-   $a = 'b';
+   // a static inclusion
+   include __DIR__.'/lib/source.php';
    
-   // some compared strings in the code
-   // Depending on the origin of $b, is this possible? 
-   if ($b === 'c') {
-   
-   }
+   $include = '/lib/helpers.inc';
+   include $include;
    
    ?>
 
@@ -26,17 +25,17 @@ Specs
 _____
 
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Short name   | Structures/ComparedButNotAssignedStrings                                                                                |
+| Short name   | Structures/StaticInclude                                                                                                |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`                                                                                                |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Analyze <ruleset-Analyze>`                                                              |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Exakat since | 1.3.2                                                                                                                   |
+| Exakat since | 2.6.7                                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | PHP Version  | All                                                                                                                     |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Severity     | Minor                                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Time To Fix  | Slow (1 hour)                                                                                                           |
+| Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                    |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

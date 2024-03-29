@@ -9,7 +9,6 @@ Use DateTimeImmutable Class
 
 While ``DateTime`` may be modified, ``DateTimeImmutable`` cannot be modified : it needs to be cloned instead. Any modification to such an object will return a new and distinct object. This prevents alterations that are hard to track.
 
-
 .. code-block:: php
    
    <?php

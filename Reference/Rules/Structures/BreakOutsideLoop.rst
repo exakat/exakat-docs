@@ -9,7 +9,6 @@ Break Outside Loop
 
 It is not possible anymore to include a piece of code inside a loop that will then `break <https://www.php.net/manual/en/control-structures.break.php>`_.
 
-
 .. code-block:: php
    
    <?php

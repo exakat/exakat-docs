@@ -5,7 +5,7 @@
 Collect Structures
 ++++++++++++++++++
 
-  This analyzer collects all defined structures in the source code, with their details.
+  This rule collects all defined structures in the source code, with their details.
 
 + Classes
 + Enums
@@ -13,6 +13,18 @@ Collect Structures
 + Interfaces
 + Functions
 + Constants
+
+.. code-block:: php
+   
+   <?php
+   
+   const X = 1;
+   
+   class Y {
+   	private function foo() {}
+   }
+   
+   ?>
 
 Specs
 _____

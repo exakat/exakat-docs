@@ -8,22 +8,6 @@ Usort Sorting In PHP 7.0
   `Usort() <https://www.php.net/usort>`_, `uksort() <https://www.php.net/uksort>`_ and `uasort() <https://www.php.net/uasort>`_ behavior has changed in PHP 7. Values that are equals (based on the user-provided method) may be sorted differently than in PHP 5. 
 
 If this sorting is important, it is advised to add extra comparison in the user-function and avoid returning 0 (thus, depending on default implementation). 
-
-
-.. code-block:: php
-   
-   <?php
-   
-   $a = [ 2, 4, 3, 6];
-   
-   function noSort($a) { return $a > 5; }
-   
-   usort($a, 'noSort');
-   print_r($a);
-   
-   ?>
-
-
 In PHP 5, the results is :::
 
    
@@ -47,6 +31,21 @@ in PHP 7, the `result <https://www.php.net/result>`_ is :::
        [2] => 3
        [3] => 6
    )
+   
+
+
+.. code-block:: php
+   
+   <?php
+   
+   $a = [ 2, 4, 3, 6];
+   
+   function noSort($a) { return $a > 5; }
+   
+   usort($a, 'noSort');
+   print_r($a);
+   
+   ?>
 
 See also `Sort order of equal elements <https://www.php.net/manual/en/migration70.incompatible.php#migration70.incompatible.other.sort-order>`_.
 

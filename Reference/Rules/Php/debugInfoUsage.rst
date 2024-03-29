@@ -9,7 +9,6 @@ __debugInfo() Usage
 
 It has been introduced in PHP 5.6. In the previous versions of PHP, this method is ignored and won't be called when debugging.
 
-
 .. code-block:: php
    
    <?php

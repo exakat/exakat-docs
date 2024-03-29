@@ -8,7 +8,7 @@ Use Pathinfo
   Use `pathinfo() <https://www.php.net/pathinfo>`_ function instead of string manipulations.
 
 `pathinfo() <https://www.php.net/pathinfo>`_ is more efficient and readable and string functions.
-
+When the path contains UTF-8 characters, `pathinfo() <https://www.php.net/pathinfo>`_ may strip them. There, string functions are necessary.
 
 .. code-block:: php
    
@@ -24,9 +24,6 @@ Use Pathinfo
    $ext = substr($filename, - strpos(strreverse($filename), '.')); // Capture php
    
    ?>
-
-
-When the path contains UTF-8 characters, `pathinfo() <https://www.php.net/pathinfo>`_ may strip them. There, string functions are necessary.
 
 Suggestions
 ___________

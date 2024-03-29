@@ -9,7 +9,6 @@ Yield Usage
 
 Yield was introduced in PHP 5.5, and is backward incompatible.
 
-
 .. code-block:: php
    
    <?php

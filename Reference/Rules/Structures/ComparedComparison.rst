@@ -7,7 +7,6 @@ Compared Comparison
 
   Usually, comparison are sufficient, and it is rare to have to compare the `result <https://www.php.net/result>`_ of comparison. Check if this two-stage comparison is really needed.
 
-
 .. code-block:: php
    
    <?php

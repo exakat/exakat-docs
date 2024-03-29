@@ -51,7 +51,7 @@ Total : 128 analysis
 * :ref:`should-use-math`
 * :ref:`could-use-compact`
 * :ref:`could-use-array\_fill\_keys`
-* :ref:`use-count-recursive`
+* :ref:`use-recursive-count()`
 * :ref:`too-many-parameters`
 * :ref:`should-preprocess-chr()`
 * :ref:`possible-increment`

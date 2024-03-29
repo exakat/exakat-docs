@@ -7,7 +7,6 @@ Linux Only Files
 
   List of files that are only found on Linux style systems. They are making the application depend on the system.
 
-
 .. code-block:: php
    
    <?php

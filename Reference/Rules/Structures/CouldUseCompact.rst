@@ -6,7 +6,7 @@ Could Use Compact
 +++++++++++++++++
 
   `Compact() <https://www.php.net/compact>`_ turns a group of variables into an array. It may be used to simplify expressions. 
-
+Note that compact accepts any string, and any undefined variable is not set, without a warning.
 
 .. code-block:: php
    
@@ -24,9 +24,6 @@ Could Use Compact
    $array = ['a' => $a, 'b' => $b];
    
    ?>
-
-
-Note that compact accepts any string, and any undefined variable is not set, without a warning.
 
 See also `compact <http://www.php.net/compact>`_.
 

@@ -10,7 +10,7 @@ Constant Conditions
 The condition doesn't change during execution, and the following blocks are always executed or not. This may also lead to an infinite or a null loop. 
 
 When this is the case, the condition may be removed, and dead code may be removed. 
-
+It is advised to remove them, or to make them depend on configuration.
 
 .. code-block:: php
    
@@ -48,9 +48,6 @@ When this is the case, the condition may be removed, and dead code may be remove
    $a = TRUE ? $x : $y;
    
    ?>
-
-
-It is advised to remove them, or to make them depend on configuration.
 
 Specs
 _____

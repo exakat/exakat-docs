@@ -9,7 +9,6 @@ Could Be Else
 
 When two if/then structures follow each other, using a condition and its opposite, they may be merged into one.
 
-
 .. code-block:: php
    
    <?php

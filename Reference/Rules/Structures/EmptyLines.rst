@@ -11,7 +11,6 @@ This may be trailing semi-colon or empty blocks for if-then structures.
 
 Comments that explains the reason of the situation are not taken into account.
 
-
 .. code-block:: php
    
    <?php

@@ -7,7 +7,6 @@ Assigned In One Branch
 
   Report variables that are assigned in one branch, and not in the other.
 
-
 .. code-block:: php
    
    <?php

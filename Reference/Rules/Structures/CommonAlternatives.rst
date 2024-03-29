@@ -6,7 +6,7 @@ Common Alternatives
 +++++++++++++++++++
 
   In the following conditional structures, expressions were found that are common to both 'then' and 'else'. It may be interesting, though not always possible, to put them both out of the conditional, and reduce line count. 
-
+may be rewritten in :
 
 .. code-block:: php
    
@@ -18,23 +18,6 @@ Common Alternatives
        $b = strtolower($b[2]); 
        $b++;
    }
-   ?>
-
-
-may be rewritten in : 
-
-
-.. code-block:: php
-   
-   <?php
-   
-   $b = strtolower($b[2]); 
-   if ($c == 5) {
-       $a++;
-   } else {
-       $b++;
-   }
-   
    ?>
 
 Suggestions

@@ -5,8 +5,7 @@
 Could Be Generator
 ++++++++++++++++++
 
-  Return value may be typed ``generator``.
-
+  This rule reports methods, functions... where the return value may be typed ``Generator``. This is the case when the body of the function uses the ``yield`` and ``yield from`` keyword.
 
 .. code-block:: php
    
@@ -50,7 +49,7 @@ _____
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | class                                                                                                                   |
+| Features     | class, yield, yield-from                                                                                                |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

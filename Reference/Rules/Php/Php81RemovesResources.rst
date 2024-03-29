@@ -28,6 +28,19 @@ The affected functions are the following :
 + `pspell_new_personal() <https://www.php.net/pspell_new_personal>`_
 + `pspell_new_config() <https://www.php.net/pspell_new_config>`_
 
+ 
+
+.. code-block:: php
+   
+   <?php
+   
+   $pspell = new pspell_new(en, , , ,
+                        (PSPELL_FAST|PSPELL_RUN_TOGETHER));
+   var_dump(is_resource($pspell)); // true in PHP 8.0, 
+   							    // false in PHP 8.1
+   
+   ?>
+
 See also `UPGRADING PHP 8.1 <https://www.php.net/manual/en/migration81.incompatible.php#migration81.incompatible.resource2object>`_.
 
 

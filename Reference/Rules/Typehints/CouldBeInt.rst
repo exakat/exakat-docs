@@ -5,7 +5,7 @@
 Type Could Be Integer
 +++++++++++++++++++++
 
-  Mark arguments, class constants, properties and return types that can be set to ``int``.
+  This rule marks arguments, class constants, properties and return types that can be set to ``int``.
 
 .. code-block:: php
    

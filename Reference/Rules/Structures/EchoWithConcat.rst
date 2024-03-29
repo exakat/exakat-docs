@@ -8,27 +8,14 @@ Echo With Concat
   Optimize your ``echo``'s by avoiding concatenating at ``echo`` time, but serving all argument separated. This will save PHP a memory copy.
 
 If values, literals and variables, are small enough, this won't have visible impact. Otherwise, this is less work and less memory waste.
-
+instead of
+It is a micro-optimisation.
 
 .. code-block:: php
    
    <?php
      echo $a, ' b ', $c;
    ?>
-
-
-instead of
-
-
-.. code-block:: php
-   
-   <?php
-     echo  $a . ' b ' . $c;
-     echo $a b $c;
-   ?>
-
-
-It is a micro-optimisation.
 
 Suggestions
 ___________

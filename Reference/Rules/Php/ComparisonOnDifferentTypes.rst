@@ -5,7 +5,7 @@
 Comparison On Different Types
 +++++++++++++++++++++++++++++
 
-  This rule reports comparisons and spaceship operator that are used with distinct types.
+  This rule reports comparisons and spaceship operator that are used with distinct types. When the types are distinct, PHP apply silent type juggling, and it may `result <https://www.php.net/result>`_ in unexpected results. 
 
 .. code-block:: php
    
@@ -14,6 +14,14 @@ Comparison On Different Types
    1 == 'a';
    
    ?>
+
+Suggestions
+___________
+
+* Ensure both operands are using the same type.
+
+
+
 
 Specs
 _____

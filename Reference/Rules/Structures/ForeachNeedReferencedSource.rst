@@ -9,25 +9,12 @@ Foreach Needs Reference Array
 When the array is the `result <https://www.php.net/result>`_ of an expression, the array is not kept in memory after the foreach loop, and any change made with & are lost.
 
 This will do nothing
-
+This will have an actual effect
 
 .. code-block:: php
    
    <?php
        foreach(array(1,2,3) as &$value) {
-           $value *= 2;
-       }
-   ?>
-
-
-This will have an actual effect
-
-
-.. code-block:: php
-   
-   <?php
-       $array = array(1,2,3);
-       foreach($array as &$value) {
            $value *= 2;
        }
    ?>

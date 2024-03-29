@@ -8,7 +8,7 @@ Don't Loop On Yield
   Use ``yield from``, instead of looping on a `generator <https://www.php.net/`generator <https://www.php.net/generator>`_>`_ with ``yield``.
 
 ``yield from`` delegate the yielding to another `generator <https://www.php.net/`generator <https://www.php.net/generator>`_>`_, and keep calling that `generator <https://www.php.net/`generator <https://www.php.net/generator>`_>`_ until it is finished. It also works with implicit `generator <https://www.php.net/`generator <https://www.php.net/generator>`_>`_ datastructure, like arrays.
-
+There is a performance gain when delegating, over looping manually on the `generator <https://www.php.net/`generator <https://www.php.net/generator>`_>`_. You may even consider writing the loop to store all values in an array, then ``yield from`` the array.
 
 .. code-block:: php
    
@@ -32,9 +32,6 @@ Don't Loop On Yield
    }
    
    ?>
-
-
-There is a performance gain when delegating, over looping manually on the `generator <https://www.php.net/`generator <https://www.php.net/generator>`_>`_. You may even consider writing the loop to store all values in an array, then ``yield from`` the array.
 
 See also `Generator delegation via yield from <https://www.php.net/manual/en/language.generators.syntax.php#control-structures.yield.from>`_.
 

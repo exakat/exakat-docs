@@ -5,8 +5,7 @@
 Collect Throw Calls
 +++++++++++++++++++
 
-  This rule collects all `throw` command usage, along with the `exception <https://www.php.net/exception>`_ thrown and the calling method. 
-
+  This rule collects all `throw` command usage, along with the `exception <https://www.php.net/exception>`_ thrown and the calling method.
 
 .. code-block:: php
    

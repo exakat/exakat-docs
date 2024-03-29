@@ -9,8 +9,7 @@ Use session_start() Options
 
 This way, session's options are set in one call, saving several hits.
 
-This is available since PHP 7.0. It is recommended to set those values in the ``php.ini`` file, whenever possible. 
-
+This is available since PHP 7.0. It is recommended to set those values in the ``php.ini`` file, whenever possible.
 
 .. code-block:: php
    

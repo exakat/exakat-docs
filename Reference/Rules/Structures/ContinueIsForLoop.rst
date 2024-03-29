@@ -9,7 +9,6 @@ Continue Is For Loop
 
 Since PHP 7.3, the execution emits a warning when finding a ``continue`` inside a ``switch`` : '"`continue <https://www.php.net/manual/en/control-structures.continue.php>`_" targeting switch is equivalent to "`break <https://www.php.net/manual/en/control-structures.break.php>`_". Did you mean to use "`continue <https://www.php.net/manual/en/control-structures.continue.php>`_ 2"?'
 
-
 .. code-block:: php
    
    <?php

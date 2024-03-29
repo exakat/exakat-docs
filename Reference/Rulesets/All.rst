@@ -5,7 +5,7 @@ All
 
 All is a dummy ruleset, which includes all the rules. It is mostly used internally.
 
-Total : 1642 analysis
+Total : 1645 analysis
 
 * :ref:`adding-zero`
 * :ref:`ambiguous-array-index`
@@ -912,7 +912,7 @@ Total : 1642 analysis
 * :ref:`php-7.3-last-empty-argument`
 * :ref:`could-use-array\_fill\_keys`
 * :ref:`ext-leveldb`
-* :ref:`use-count-recursive`
+* :ref:`use-recursive-count()`
 * :ref:`property-could-be-local`
 * :ref:`ext-db2`
 * :ref:`mass-creation-of-arrays`
@@ -1546,7 +1546,7 @@ Total : 1642 analysis
 * :ref:`new-functions-in-php-8.3`
 * :ref:`use-str\_ends\_with()`
 * :ref:`use-str\_starts\_with()`
-* :ref:`missing-assignation-in-command`
+* :ref:`missing-assignation-in-branches`
 * :ref:`mono-or-multibytes-favorite`
 * :ref:`argument-counts-per-calls`
 * :ref:`global-definitions`
@@ -1649,6 +1649,9 @@ Total : 1642 analysis
 * :ref:`php-8.2-new-types`
 * :ref:`variable-parameter-ambiguity-in-arrow-function`
 * :ref:`strpos()-less-than-one`
+* :ref:`include-variables`
+* :ref:`no-named-parameters`
+* :ref:`static-inclusions`
 
 Specs
 _____

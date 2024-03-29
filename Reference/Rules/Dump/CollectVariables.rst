@@ -5,7 +5,7 @@
 Collects Variables
 ++++++++++++++++++
 
-  This rule collects all variables from the code. Their type is mentionned, as variable, object or array, depending on their usage. 
+  This rule collects all variables from the code. Their type is mentionned, as variable, object or array, depending on their usage.
 
 .. code-block:: php
    

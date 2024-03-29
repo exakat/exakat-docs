@@ -5,8 +5,7 @@
 Double Assignation
 ++++++++++++++++++
 
-  This happens when a container (variable, property, array index) is assigned with values twice in a row. One of them is probably a debug instruction, that was forgotten. 
-
+  This happens when a container (variable, property, array index) is assigned with values twice in a row. One of them is probably a debug instruction, that was forgotten.
 
 .. code-block:: php
    

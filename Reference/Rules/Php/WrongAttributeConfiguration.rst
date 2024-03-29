@@ -5,8 +5,7 @@
 Wrong Attribute Configuration
 +++++++++++++++++++++++++++++
 
-  A class is attributed to the wrong PHP structure. 
-
+  A class is attributed to the wrong PHP structure.
 
 .. code-block:: php
    

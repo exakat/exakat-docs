@@ -6,7 +6,7 @@ Release Note
 
 Here is the release note of exakat. 
 
-**Version 2.6.7 (, 2024-01-11)**
+**Version 2.6.7 (Zhang Gongjin, 2024-01-11)**
 
 
 + Architecture
@@ -19,19 +19,14 @@ Here is the release note of exakat.
     + 
 
 + Analysis
-	+
+	+ New analysis : report variables used with include.
+	+ New analysis : report named parameters with no-named-parameters
 
 + Tokenizer
     + 
 
-**Version 2.6.6 (, 2024-01-11)**
+**Version 2.6.6 (Gao Shilian, 2024-03-14)**
 
-
-+ Architecture
-	+ 
-
-+ Cobbler
-    + 
 
 + Report
     + Ambassador : fixed documentation display of PHP scripts
@@ -59,7 +54,7 @@ Here is the release note of exakat.
     + Made property inside a string with a Name, not a Identifier
     + Mark variable in append as modified
 
-**Version 2.6.5 (, 2024-01-31)**
+**Version 2.6.5 (Cheng Yaojin, 2024-01-31)**
 
 
 + Architecture
@@ -128,7 +123,7 @@ Here is the release note of exakat.
     + Added CALLED link to new calls
     + Fixed edgecases with match and readonly
 
-**Version 2.6.3 (, 2023-12-14)**
+**Version 2.6.3 (Ma Sanbao, 2023-12-14)**
 
 
 + Analysis
@@ -155,7 +150,7 @@ Here is the release note of exakat.
     + Added fullnspath to Staticclass atom
     + Added support for THROWN, CALLED, YIELDED links in methods
 
-**Version 2.6.2 (, 2023-11-21)**
+**Version 2.6.2 (Duan Zhixian, 2023-11-21)**
 
 
 + Analysis
@@ -174,7 +169,7 @@ Here is the release note of exakat.
     + New analysis : add support for #[Override] before PHP 8.3
     + New analysis : report variables that use their type as name
 
-**Version 2.6.1 (, 2023-10-19)**
+**Version 2.6.1 (Liu Hongji, 2023-10-19)**
 
 
 + Cobbler
@@ -194,7 +189,7 @@ Here is the release note of exakat.
     + Updated analysis : recursive functions don't report recursion via property or method call()
     + Updated analysis : Shell favorite
 
-**Version 2.6.0 (, 2023-10-04)**
+**Version 2.6.0 (Xue Rengui, 2023-10-04)**
 
 
 + Architecture

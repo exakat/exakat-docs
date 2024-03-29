@@ -9,7 +9,6 @@ ext/crypto
 
 Objective PHP binding of OpenSSL Crypto library.
 
-
 .. code-block:: php
    
    <?php

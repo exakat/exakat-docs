@@ -13,7 +13,6 @@ The analyzed code has less than 10% of the rare delimiters. For consistency reas
 
 Generally, one or two delimiters are used, with generic value. It is recommended to use a humanly readable delimiter : SQL, HTML, XML, GREMLIN, etc. This helps readability in the code.
 
-
 .. code-block:: php
    
    <?php

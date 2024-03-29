@@ -14,7 +14,9 @@ Most of the time, when using a simple `is_string() <https://www.php.net/is_strin
 What happens often is that in case of failure in the code (database not working, another class not checking its results), a third type is pushed to the structure, and it ends up breaking the execution. 
 
 The safe way is to check the various types all the time, and use the default case (here, the else) to throw `exception() <https://www.php.net/exception>`_ or test an assertion and handle the special case.
+Using `is_callable() <https://www.php.net/is_callable>`_, `is_iterable() <https://www.php.net/is_iterable>`_ with this structure is fine : when variable is callable or not, while a variable is an integer or else. 
 
+Using a type test without else is also accepted here. This is a special treatment for this test, and all others are ignored. This aspect may vary depending on situations and projects.
 
 .. code-block:: php
    
@@ -38,11 +40,6 @@ The safe way is to check the various types all the time, and use the default cas
    }
    
    ?>
-
-
-Using `is_callable() <https://www.php.net/is_callable>`_, `is_iterable() <https://www.php.net/is_iterable>`_ with this structure is fine : when variable is callable or not, while a variable is an integer or else. 
-
-Using a type test without else is also accepted here. This is a special treatment for this test, and all others are ignored. This aspect may vary depending on situations and projects.
 
 Suggestions
 ___________

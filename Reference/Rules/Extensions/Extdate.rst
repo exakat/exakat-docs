@@ -7,8 +7,7 @@ ext/date
 
   Extension ext/date.
 
-These functions allows the manipulation of date and time from the server where the PHP scripts are running. 
-
+These functions allows the manipulation of date and time from the server where the PHP scripts are running.
 
 .. code-block:: php
    

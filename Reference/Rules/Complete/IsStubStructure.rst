@@ -5,7 +5,7 @@
 Is Stub Structure
 +++++++++++++++++
 
-  Finish marking atoms with isStub, as part of the custom elements, probably from composer.
+  This command finishes marking atoms with the isStub property. ``isStub`` are structures (functions, constants, classes, traits...) that are defined in an external component, and described with PDFF files.
 
 Specs
 _____

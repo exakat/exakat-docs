@@ -9,8 +9,7 @@ Constant Scalar Expressions
 
 This feature was introduced in PHP 5.6. It also supports `array() <https://www.php.net/array>`_, and expressions in arrays.
 
-Those expressions (using simple operators) may only manipulate other constants, and all values must be known at compile time. 
-
+Those expressions (using simple operators) may only manipulate other constants, and all values must be known at compile time.
 
 .. code-block:: php
    

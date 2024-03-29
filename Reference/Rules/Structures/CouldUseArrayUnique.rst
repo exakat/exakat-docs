@@ -9,7 +9,6 @@ Could Use array_unique
 
 Always try to use native PHP functions, instead of rebuilding them with custom PHP code.
 
-
 .. code-block:: php
    
    <?php

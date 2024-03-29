@@ -5,7 +5,7 @@
 Goto Names
 ++++++++++
 
-  List of all goto labels used in the code.
+  This rule lists of all goto labels used in the code. The labels must match a goto call, although it is possible to create a label without a goto.
 
 .. code-block:: php
    

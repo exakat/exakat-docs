@@ -7,7 +7,6 @@ Typed Property Usage
 
   PHP properties may be typed. Since PHP 7.4, it is possible to type properties, just like arguments and return values.
 
-
 .. code-block:: php
    
    <?php

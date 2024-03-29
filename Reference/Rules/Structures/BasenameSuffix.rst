@@ -6,7 +6,7 @@ Use Basename Suffix
 +++++++++++++++++++
 
   `basename() <https://www.php.net/basename>`_ is able to remove a file extension when it is provided as argument. The second argument is removed from the name of the file.
-
+Using `basename() <https://www.php.net/basename>`_ instead of `substr() <https://www.php.net/substr>`_ or else, makes the intention clear.
 
 .. code-block:: php
    
@@ -21,9 +21,6 @@ Use Basename Suffix
    $filename = substr(basename($path), 0, -4);
    
    ?>
-
-
-Using `basename() <https://www.php.net/basename>`_ instead of `substr() <https://www.php.net/substr>`_ or else, makes the intention clear.
 
 See also `basename <http://www.php.net/basename>`_.
 

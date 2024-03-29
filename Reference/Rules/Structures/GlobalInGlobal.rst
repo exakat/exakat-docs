@@ -7,7 +7,6 @@ Global In Global
 
   List of global variables. There are the global variables, defined with the global keyword, and the implicit global variables, defined in the global scope.
 
-
 .. code-block:: php
    
    <?php

@@ -9,6 +9,15 @@ Append And Assign Arrays
 
 Array append and direct index assignation have different impact one on the other. In particular, assign a value explicitely and later append values may have an impact on one another.
 
+.. code-block:: php
+   
+   <?php
+   
+   $arrayAppend = array();
+   $arrayAppend[] = 1;
+   
+   ?>
+
 Specs
 _____
 

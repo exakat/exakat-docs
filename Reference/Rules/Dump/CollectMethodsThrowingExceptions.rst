@@ -7,8 +7,7 @@ Collect Methods Throwing Exceptions
 
   This is a list of all the methods and functions that throw `exception <https://www.php.net/exception>`_.
 
-This rule reports explicit throw's, and doesn't list exceptions passing through : for example, when the `exception <https://www.php.net/exception>`_ is thrown in a sub-call, but not caught yet. 
-
+This rule reports explicit throw's, and doesn't list exceptions passing through : for example, when the `exception <https://www.php.net/exception>`_ is thrown in a sub-call, but not caught yet.
 
 .. code-block:: php
    

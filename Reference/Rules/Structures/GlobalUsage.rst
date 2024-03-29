@@ -6,7 +6,7 @@ Global Usage
 ++++++++++++
 
   List usage of globals variables, with global keywords or direct access to $GLOBALS.
-
+It is recommended to avoid using global variables, at it makes it very difficult to track changes in values across the whole application.
 
 .. code-block:: php
    
@@ -21,8 +21,6 @@ Global Usage
    test();
    
    ?>
-
-It is recommended to avoid using global variables, at it makes it very difficult to track changes in values across the whole application.
 
 See also `Variable scope <https://www.php.net/manual/en/language.variables.scope.php>`_.
 

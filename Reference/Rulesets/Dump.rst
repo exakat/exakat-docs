@@ -5,7 +5,7 @@ Dump
 
 This ruleset collects various names given to different structures in the code : for example, variables, classes, methods, constants, etc. It also collects networks of data, like file inclusion or external dependencies.
 
-Total : 56 analysis
+Total : 57 analysis
 
 * :ref:`caught-exceptions`
 * :ref:`environment-variable-usage`
@@ -63,6 +63,7 @@ Total : 56 analysis
 * :ref:`collect-graph-triplets`
 * :ref:`try-without-catch`
 * :ref:`combined-calls`
+* :ref:`include-variables`
 
 Specs
 _____

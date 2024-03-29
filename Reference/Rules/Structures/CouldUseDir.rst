@@ -8,7 +8,7 @@ Could Use __DIR__
   Use `__DIR__ <https://www.php.net/manual/en/language.constants.predefined.php>`_ constant to access the current file's `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ `directory <https://www.php.net/`directory <https://www.php.net/directory>`_>`_. 
 
 Avoid using `dirname() <https://www.php.net/dirname>`_ on `__FILE__ <https://www.php.net/manual/en/language.constants.predefined.php>`_.
-
+`__DIR__ <https://www.php.net/manual/en/language.constants.predefined.php>`_ has been introduced in PHP 5.3.0.
 
 .. code-block:: php
    
@@ -24,9 +24,6 @@ Avoid using `dirname() <https://www.php.net/dirname>`_ on `__FILE__ <https://www
    assert(dirname(__FILE__) == __DIR__);
    
    ?>
-
-
-`__DIR__ <https://www.php.net/manual/en/language.constants.predefined.php>`_ has been introduced in PHP 5.3.0.
 
 See also `Magic Constants <https://www.php.net/manual/en/language.constants.predefined.php>`_.
 

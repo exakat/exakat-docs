@@ -8,7 +8,7 @@ Could Use Match
   The `switch() <https://www.php.net/manual/en/control-structures.switch.php>`_ syntax use may be replaced by a `match() <https://www.php.net/manual/en/control-structures.match.php>`_ call. 
 
 The simplest case for such refactoring is when each of the switch's case (including default), assign one value to the same variable. See this below : 
-
+`Match() <https://www.php.net/manual/en/control-structures.match.php>`_ was introduced in PHP 8. It is not valid with older PHP versions.
 
 .. code-block:: php
    
@@ -33,9 +33,6 @@ The simplest case for such refactoring is when each of the switch's case (includ
        };
        */
    ?>
-
-
-`Match() <https://www.php.net/manual/en/control-structures.match.php>`_ was introduced in PHP 8. It is not valid with older PHP versions.
 
 See also `Match() <https://www.php.net/manual/en/control-structures.match.php>`_.
 

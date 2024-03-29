@@ -7,7 +7,6 @@ Duplicate Calls
 
   Duplicate calls within the same context. They should be called once, and then stashed in a variable for reuse. This saves a lot of time.
 
-
 .. code-block:: php
    
    <?php

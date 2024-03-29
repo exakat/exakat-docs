@@ -9,8 +9,7 @@ Const Or Define
 
 The analyzed code has less than 10% of one of them : for consistency reasons, it is recommended to make them all the same. 
 
-They are almost interchangeable, though not totally : ``define()`` allows the creation of case-insensitive constants, while ``Const`` won\'t. 
-
+They are almost interchangeable, though not totally : ``define()`` allows the creation of case-insensitive constants, while ``Const`` won\'t.
 
 .. code-block:: php
    

@@ -9,7 +9,6 @@ Collect Parameter Names
 
 The names are collected from functions, methods, closures and arrow functions. Compulsory and optional parameters are all processed.
 
-
 .. code-block:: php
    
    <?php

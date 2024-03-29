@@ -58,6 +58,7 @@ List of external links mentioned in this documentation.
 * `Aronduby Dump <https://github.com/aronduby/dump>`_
 * `Atif Shahab Qureshi <https://twitter.com/Atif__Shahab>`_
 * `Benoit Burnichon <https://twitter.com/BenoitBurnichon>`_
+* `Bohuslav Šimek <https://twitter.com/BohuslavSimek>`_
 * `Brandon Savage <https://twitter.com/BrandonSavage>`_
 * `Carbon <https://carbon.nesbot.com/docs/>`_
 * `Carnage <https://twitter.com/giveupalready>`_

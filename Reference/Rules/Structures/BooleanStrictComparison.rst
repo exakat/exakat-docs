@@ -10,7 +10,9 @@ Strict Comparison With Booleans
 Boolean values may be easily mistaken with other values, especially when the function may return integer or boolean as a normal course of action. 
 
 It is encouraged to use strict comparison === or !== when booleans are involved in a comparison.
+`switch() <https://www.php.net/manual/en/control-structures.switch.php>`_ structures always uses `==` comparisons. Since PHP 8.0, it is possible to use `match() <https://www.php.net/manual/en/control-structures.match.php>`_ to have strict comparisons. This is not reported by this analysis, as every switch should be refactored. 
 
+Native functions `in_array() <https://www.php.net/in_array>`_, `array_keys() <https://www.php.net/array_keys>`_ and `array_search() <https://www.php.net/array_search>`_ have a third parameter to make it use strict comparisons.
 
 .. code-block:: php
    
@@ -39,11 +41,6 @@ It is encouraged to use strict comparison === or !== when booleans are involved 
    }
    
    ?>
-
-
-`switch() <https://www.php.net/manual/en/control-structures.switch.php>`_ structures always uses `==` comparisons. Since PHP 8.0, it is possible to use `match() <https://www.php.net/manual/en/control-structures.match.php>`_ to have strict comparisons. This is not reported by this analysis, as every switch should be refactored. 
-
-Native functions `in_array() <https://www.php.net/in_array>`_, `array_keys() <https://www.php.net/array_keys>`_ and `array_search() <https://www.php.net/array_search>`_ have a third parameter to make it use strict comparisons.
 
 Suggestions
 ___________

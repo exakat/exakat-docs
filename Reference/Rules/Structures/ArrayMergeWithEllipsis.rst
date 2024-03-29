@@ -18,7 +18,6 @@ This applies to the following PHP functions :
 * `array_diff_key() <https://www.php.net/array_diff_key>`_
 * `array_diff_uassoc() <https://www.php.net/array_diff_uassoc>`_
 
-
 .. code-block:: php
    
    <?php

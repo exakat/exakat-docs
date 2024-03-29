@@ -5,8 +5,7 @@
 Cast To Boolean
 +++++++++++++++
 
-  This expression may be reduced by casting to boolean type. 
-
+  This expression may be reduced to casting to a boolean. This makes the code more readable, and adapt the type of the value to its usage.
 
 .. code-block:: php
    

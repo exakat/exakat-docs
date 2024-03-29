@@ -25,6 +25,16 @@ PHP 8.1 Removed Functions
 * `restore_include_path() <https://www.php.net/restore_include_path>`_
 * gzgetss()
 
+ 
+
+.. code-block:: php
+   
+   <?php
+   
+   echo hebrevc(abc);
+   
+   ?>
+
 Suggestions
 ___________
 

@@ -10,7 +10,7 @@ Wrong Type With Default
 For properties, this will generate an `error <https://www.php.net/error>`_ as soon as the default value is used : this is before constructor call for properties, and when the argument is omitted for promoted properties.
 
 For parameters, the `error <https://www.php.net/error>`_ happens when the argument is omitted, and the default value is fetched. Otherwise, it won't happen. 
-
+This `error <https://www.php.net/error>`_ is immediately detected when a literal value is used. It only happens when the default is a constant (class or global) or an expression, as those are only solved at execution time.
 
 .. code-block:: php
    
@@ -25,9 +25,6 @@ For parameters, the `error <https://www.php.net/error>`_ happens when the argume
    new B;
    //Cannot assign string to property B::$c of type string
    ?>
-
-
-This `error <https://www.php.net/error>`_ is immediately detected when a literal value is used. It only happens when the default is a constant (class or global) or an expression, as those are only solved at execution time.
 
 See also `When does PHP check for Fatal error <https://www.exakat.io/en/when-does-php-check-for-fatal-error/>`_.
 

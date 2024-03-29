@@ -11,7 +11,6 @@ The goal of PSR-6 is to allow developers to create cache-aware libraries that ca
 
 It is supported by an set of interfaces, that one may use in the code.
 
-
 .. code-block:: php
    
    <?php

@@ -7,8 +7,7 @@ Don't Read And Write In One Expression
 
   Avoid giving value and using it at the same time, in one expression. This is an undefined behavior of PHP, and may change without warning.
 
-One of those changes happens between PHP 7.2 and 7.3 : 
-
+One of those changes happens between PHP 7.2 and 7.3 :
 
 .. code-block:: php
    

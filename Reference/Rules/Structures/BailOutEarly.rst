@@ -12,7 +12,6 @@ The main sequence is then focused on the important code.
 
 This analysis works with the ``break``, ``continue``, ``throw`` and ``goto`` keywords too, depending on situations.
 
-
 .. code-block:: php
    
    <?php

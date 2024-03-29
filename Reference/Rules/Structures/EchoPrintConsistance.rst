@@ -11,8 +11,7 @@ There seems to be a choice that is not enforced : one form is dominant, (> 90%) 
 
 The analyzed code has less than 10% of one of the three : for consistency reasons, it is recommended to make them all the same. 
 
-It happens that print, echo or <?= are used depending on coding style and files. One file may be consistently using print, while the others are all using echo. 
-
+It happens that print, echo or <?= are used depending on coding style and files. One file may be consistently using print, while the others are all using echo.
 
 .. code-block:: php
    

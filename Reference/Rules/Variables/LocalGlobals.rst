@@ -13,8 +13,7 @@ Having both a global and a local variable with the same name is legit. PHP keeps
 
 However, in the mind of the coder, it is easy to mistake the local variable $x and the global variable $x. May they be given different meaning, and this is an `error <https://www.php.net/error>`_-prone situation. 
 
-It is recommended to keep the global variables's name distinct from the local variables. 
-
+It is recommended to keep the global variables's name distinct from the local variables.
 
 .. code-block:: php
    

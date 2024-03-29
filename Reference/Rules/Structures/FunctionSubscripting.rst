@@ -10,7 +10,7 @@ Function Subscripting
 This works, given that the method actually returns an array. 
 
 This syntax was not possible until PHP 5.4. Until then, it was compulsory to store the `result <https://www.php.net/result>`_ in a variable first. Although this is now superfluous, it has been a standard syntax in PHP, and is still being used.
-
+Storing the `result <https://www.php.net/result>`_ in a variable is still useful if the `result <https://www.php.net/result>`_ is actually used more than once.
 
 .. code-block:: php
    
@@ -31,9 +31,6 @@ This syntax was not possible until PHP 5.4. Until then, it was compulsory to sto
    echo $x[1]; // displays 'a';
    
    ?>
-
-
-Storing the `result <https://www.php.net/result>`_ in a variable is still useful if the `result <https://www.php.net/result>`_ is actually used more than once.
 
 See also `Accessing array elements with square bracket syntax <https://www.php.net/manual/en/language.types.array.php#language.types.array.syntax.accessing>`_.
 

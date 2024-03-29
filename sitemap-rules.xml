@@ -1651,6 +1651,9 @@
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/ImplodeArgsOrder.html</loc>
  </url>
  <url>
+  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Php/IncludeVariables.html</loc>
+ </url>
+ <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Files/InclusionWrongCase.html</loc>
  </url>
  <url>
@@ -2423,6 +2426,9 @@
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Php/NoMoreCurlyArrays.html</loc>
+ </url>
+ <url>
+  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Attributes/NoNamedArguments.html</loc>
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/NoNeedForElse.html</loc>
@@ -3409,6 +3415,9 @@
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/SGVariablesConfusion.html</loc>
  </url>
  <url>
+  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/StaticInclude.html</loc>
+ </url>
+ <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/StaticLoop.html</loc>
  </url>
  <url>
@@ -3946,9 +3955,6 @@
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Php/UseCookies.html</loc>
  </url>
  <url>
-  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/UseCountRecursive.html</loc>
- </url>
- <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Php/UseCovariance.html</loc>
  </url>
  <url>
@@ -3998,6 +4004,9 @@
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/UsePositiveCondition.html</loc>
+ </url>
+ <url>
+  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/UseCountRecursive.html</loc>
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/UseSameTypesForComparisons.html</loc>

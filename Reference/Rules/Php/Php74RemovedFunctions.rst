@@ -17,6 +17,15 @@ PHP 7.4 Removed Functions
 
 This analysis skips redefined PHP functions : when a replacement for a removed PHP function was created, with condition on the PHP version, then its usage is considered valid.
 
+.. code-block:: php
+   
+   <?php
+   
+   // are the magic quotes in use? (before PHP 8.0)
+   var_dump(get_magic_quotes_gpc());
+   
+   ?>
+
 See also `PHP 7.4 Removed Functions <https://www.php.net/manual/en/migration74.incompatible.php#migration70.incompatible.removed-functions>`_ and `PHP 7.4 Deprecations : Introduction <https://wiki.php.net/rfc/deprecations_php_7_4#introduction>`_.
 
 

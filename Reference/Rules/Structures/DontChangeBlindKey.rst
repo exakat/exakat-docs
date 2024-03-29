@@ -11,7 +11,6 @@ When actually changing the original value, use the reference in the foreach defi
 
 When the value has to be prepared before usage, then save the filtered value in a separate variable. This makes the clean value obvious, and preserve the original value for a future usage.
 
-
 .. code-block:: php
    
    <?php

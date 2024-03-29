@@ -11,8 +11,7 @@ Really long expressions tends to be `error <https://www.php.net/error>`_ prone :
 
 As a general rule, it is recommended to keep expressions short. The analysis include any expression that is more than 15 tokens large : variable and operators counts as one, properties, arrays count as two. Parenthesis are also counted. 
 
-PHP has no specific limit to expression size, so long expression are legal and valid. It is possible that the business logic requires a complex equation. 
-
+PHP has no specific limit to expression size, so long expression are legal and valid. It is possible that the business logic requires a complex equation.
 
 .. code-block:: php
    

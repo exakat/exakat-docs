@@ -11,7 +11,6 @@ Since a children class may accept a `parent <https://www.php.net/manual/en/langu
 
 Contravariance is a PHP 7.4 feature. Contravariance is distinct from return type covariance.
 
-
 .. code-block:: php
    
    <?php

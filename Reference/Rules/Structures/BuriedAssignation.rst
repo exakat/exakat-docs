@@ -9,7 +9,6 @@ Buried Assignation
 
 They are difficult to spot, and may be confusing. It is advised to place them in a more visible place.
 
-
 .. code-block:: php
    
    <?php

@@ -9,8 +9,7 @@ Concatenation Interpolation Consistence
 
 Interpolation is a clean way to write concatenation, though it gets messy with long dereferences or with constants. Concatenations are longer to write. 
 
-The analyzed code has less than 10% of one of them : for consistency reasons, it is recommended to make them all the same. 
-
+The analyzed code has less than 10% of one of them : for consistency reasons, it is recommended to make them all the same.
 
 .. code-block:: php
    

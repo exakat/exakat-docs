@@ -7,7 +7,6 @@ Empty With Expression
 
   empty() doesn't accept expressions until PHP 5.5. Until then, it is necessary to store the `result <https://www.php.net/result>`_ of the expression in a variable and then, test it with empty().
 
-
 .. code-block:: php
    
    <?php

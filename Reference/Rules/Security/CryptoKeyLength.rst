@@ -14,8 +14,7 @@ This rule use the following recommendations :
 + `OPENSSL_KEYTYPE_DH`  => 2048
 + `OPENSSL_KEYTYPE_EC`  => 512
 
-The values above are used with the openssl PHP extension. 
-
+The values above are used with the openssl PHP extension.
 
 .. code-block:: php
    

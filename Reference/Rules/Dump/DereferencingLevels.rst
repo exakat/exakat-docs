@@ -9,8 +9,7 @@ Dereferencing Levels
 
 Every time a `->` object operator or `?->` null-safe object operator are used, this count as one level of dereferencing. 
 
-Fluent interfaces tends to have very high levels of deferencing. 
-
+Fluent interfaces tends to have very high levels of deferencing.
 
 .. code-block:: php
    

@@ -960,7 +960,7 @@ This is a typical example of a function mostly controlled by one condition. It c
             if ($validResult == 'existingpatient') {
     /// Long bloc of code
             } else {
-                return '<?xml version="1.0" encoding="UTF-8"?>
+                return '<?xml version=1.0 encoding=UTF-8?>
     			<!-- Edited by XMLSpy -->
     			<note>
     
@@ -1186,7 +1186,7 @@ $e is used both as 'local' variable : it is local to the catch clause, and it is
 .. code-block:: php
    
     try {
-            $res = $Snmp->get_query("get_routing_table");
+            $res = $Snmp->get_query(get_routing_table);
             // remove those not in subnet
             if (sizeof($res)>0) {
                // save for debug
@@ -1205,9 +1205,9 @@ $e is used both as 'local' variable : it is local to the catch clause, and it is
     // on line 132
         // print errors
         if (isset($errors)) {
-            print "<hr>";
+            print <hr>;
             foreach ($errors as $e) {
-                print $Result->show ("warning", $e, false, false, true);
+                print $Result->show (warning, $e, false, false, true);
             }
         }
 
@@ -1225,10 +1225,10 @@ $e starts as an Email(), in the 'getMultipleMessagesFromSugar' case, while a few
 .. code-block:: php
    
     // On line 900, $e is a Email
-            case "getMultipleMessagesFromSugar":
-                $GLOBALS['log']->debug("********** EMAIL 2.0 - Asynchronous - at: getMultipleMessagesFromSugar");
+            case getMultipleMessagesFromSugar:
+                $GLOBALS['log']->debug(********** EMAIL 2.0 - Asynchronous - at: getMultipleMessagesFromSugar);
                 if (isset($_REQUEST['uid']) && !empty($_REQUEST['uid'])) {
-                    $exIds = explode(",", $_REQUEST['uid']);
+                    $exIds = explode(,, $_REQUEST['uid']);
                     $out = array();
     
                     foreach ($exIds as $id) {
@@ -1247,12 +1247,12 @@ $e starts as an Email(), in the 'getMultipleMessagesFromSugar' case, while a few
     
     // lots of code
     // on line 1082
-            case "refreshSugarFolders":
+            case refreshSugarFolders:
                 try {
-                    $GLOBALS['log']->debug("********** EMAIL 2.0 - Asynchronous - at: refreshSugarFolders");
+                    $GLOBALS['log']->debug(********** EMAIL 2.0 - Asynchronous - at: refreshSugarFolders);
                     $rootNode = new ExtNode('', '');
                     $folderOpenState = $current_user->getPreference('folderOpenState', 'Emails');
-                    $folderOpenState = (empty($folderOpenState)) ? "" : $folderOpenState;
+                    $folderOpenState = (empty($folderOpenState)) ?  : $folderOpenState;
                     $ret = $email->et->folder->getUserFolders(
                         $rootNode,
                         sugar_unserialize($folderOpenState),
@@ -1297,7 +1297,7 @@ $value must be an array or a string here.
                     $iniString .= implode($this->nestSeparator, $group)
                                .  ' = '
                                .  $this->prepareValue($value)
-                               .  ""\n"";
+                               .  \n;
                 }
             }
 
@@ -1444,8 +1444,8 @@ The opening an closing tag couldd be moved outside the if condition : they are c
     // Active
     	                            if (in_array($name, $def))
     	                            {
-    	                            	print '<td class="center">'."\n";
-    	                            	print '<a href="'.$_SERVER["PHP_SELF"].'?action=del&value='.$name.'">';
+    	                            	print '<td class=center>'.\n;
+    "	                            	print '<a href="'.$_SERVER["PHP_SELF"].'?action=del&value='.$name.'">';
     	                            	print img_picto($langs->trans("Enabled"), 'switch_on');
     	                            	print '</a>';
     	                            	print '</td>';
@@ -1527,7 +1527,7 @@ This code is using the stronger SHA256 but compares it to another string. $_toke
     function IsValidToken($_token)
     {
         if(!empty($_token))
-            if(hash("sha256",$this->Token) == $_token)
+            if(hash(sha256,$this->Token) == $_token)
                 return true;
         return false;
     }
@@ -1862,7 +1862,7 @@ Those two if structure may definitely merged into one single instruction.
 .. code-block:: php
    
     $success = 1;
-        $checksum = "";
+        $checksum = ;
         if ($outcome === false) {
             $success = 0;
         }
@@ -1873,10 +1873,10 @@ Those two if structure may definitely merged into one single instruction.
             // indeed need the binded values, then will need
             // to include this as a separate array.
     
-            //error_log(""STATEMENT: "".$statement,0);
-            //error_log(""BINDS: "".$processed_binds,0);
+            //error_log(STATEMENT: .$statement,0);
+            //error_log(BINDS: .$processed_binds,0);
             $checksum = sql_checksum_of_modified_row($statement);
-            //error_log(""CHECKSUM: "".$checksum,0);
+            //error_log(CHECKSUM: .$checksum,0);
         }
 
 
@@ -2010,7 +2010,7 @@ This code actually loads the file, join it, then split it again. file() would be
 
 .. code-block:: php
    
-    $markerdata = explode( "\n", implode( '', file( $filename ) ) );
+    $markerdata = explode( \n, implode( '', file( $filename ) ) );
 
 
 .. _case-could-use-short-assignation:
@@ -2322,7 +2322,7 @@ foreach() reads $lines into $r, and augment those lines. By the end, the $r vari
             foreach ($lines as &$r) {
                 $r['controls'] = $this->renderControls($r);
                 $r['fileSize'] = GeneralUtility::formatSize($r['size']);
-                $r['message'] = ($r['msg'] && !$this->doesImport ? '<span class="text-danger">' . htmlspecialchars($r['msg']) . '</span>' : '');
+                $r['message'] = ($r['msg'] && !$this->doesImport ? '<span class=text-danger>' . htmlspecialchars($r['msg']) . '</span>' : '');
             }
             $viewData['pagetreeLines'] = $lines;
         } else {
@@ -2340,7 +2340,7 @@ foreach() reads $lines into $r, and augment those lines. By the end, the $r vari
             foreach ($lines as &$r) {
                 $r['controls'] = $this->renderControls($r);
                 $r['fileSize'] = GeneralUtility::formatSize($r['size']);
-                $r['message'] = ($r['msg'] && !$this->doesImport ? '<span class="text-danger">' . htmlspecialchars($r['msg']) . '</span>' : '');
+                $r['message'] = ($r['msg'] && !$this->doesImport ? '<span class=text-danger>' . htmlspecialchars($r['msg']) . '</span>' : '');
             }
             $viewData['remainingRecords'] = $lines;
         }
@@ -2364,7 +2364,7 @@ There are two nested foreach here : they both have referenced blind variables. T
             $len = strlen($data);
             // check if it begins and ends with single quotes
             // if it does, then it double quotes may not be the enclosure
-            if ($len>=2 && $data[0] == "'" && $data[$len-1] == "'") {
+            if ($len>=2 && $data[0] == " && $data[$len-1] == ") {
                 $beginEndWithSingle = true;
                 break;
             }
@@ -2959,7 +2959,7 @@ The ``then`` block is empty and commented : yet, it may have been clearer to mak
 .. code-block:: php
    
     /* checks */
-    if($_POST['action'] == "delete") {
+    if($_POST['action'] == delete) {
     	# no cecks
     }
     else {
@@ -3045,7 +3045,7 @@ There is no need for a semi-colon after a if/then structure.
     public function run()
             {
                 $id = $this->getId();
-                $additionalSettingsJs = "showAvatars: " . var_export($this->showAvatars, true) . ",";
+                $additionalSettingsJs = showAvatars: . var_export($this->showAvatars, true) . ,;
                 if ($this->classes)
                 {
                     $additionalSettingsJs .=  $this->classes . ',';
@@ -3303,7 +3303,7 @@ This acts as a view. The final 'exit' is meant to ensure that no other piece of 
             // Don't try to load a view
             $this->render['view'] = false;
     
-            header("Content-type: {$this->attachment->type}");
+            header(Content-type: {$this->attachment->type});
             $content_type = explode('/', $this->attachment->type);
     
             // Check what type of file we're dealing with.
@@ -3311,7 +3311,7 @@ This acts as a view. The final 'exit' is meant to ensure that no other piece of 
                 // If the mime-type is text, we can just display it
                 // as plain text. I hate having to download files.
                 if ($content_type[0] == 'text') {
-                    header("Content-type: text/plain");
+                    header(Content-type: text/plain);
                 }
                 header("Content-Disposition: filename=\"{$this->attachment->name}\"");
             }
@@ -3404,7 +3404,7 @@ $wh is an array, and is read for its index 'id', but it is not modified. The ref
     if($nb_warehouse>1) {
         foreach($warehouses_list as &$wh) {
     
-            print '<td class="right">';
+            print '<td class=right>';
             print empty($product->stock_warehouse[$wh['id']]->real) ? '0' : $product->stock_warehouse[$wh['id']]->real;
             print '</td>';
         }
@@ -3680,7 +3680,7 @@ In that long logical expression, $personDb->pers_cal_date is tested twice
 .. code-block:: php
    
     // *** Filter person's WITHOUT any date's ***
-    			if ($user["group_filter_date"]=='j'){
+    			if ($user[group_filter_date]=='j'){
     				if ($personDb->pers_birth_date=='' AND $personDb->pers_bapt_date==''
     				AND $personDb->pers_death_date=='' AND $personDb->pers_buried_date==''
     				AND $personDb->pers_cal_date=='' AND $personDb->pers_cal_date==''
@@ -4377,7 +4377,7 @@ This code actually loads the file, join it, then split it again. file() would be
 
 .. code-block:: php
    
-    $markerdata = explode( "\n", implode( '', file( $filename ) ) );
+    $markerdata = explode( \n, implode( '', file( $filename ) ) );
 
 
 .. _case-make-one-call-with-array:
@@ -6508,7 +6508,7 @@ $str is actually processed as an array (string of characters), and it is also mo
    
     foreach ($str as $str) {
                     if ($i < $m) {
-                        $str .= "\n";
+                        $str .= \n;
                     }
                     if (0 < $this->maxStringWidth && $this->maxStringWidth < $len = mb_strlen($str, 'UTF-8')) {
                         $str = mb_substr($str, 0, $this->maxStringWidth, 'UTF-8');
@@ -9998,46 +9998,6 @@ One example where code review reports errors where unit tests don't : array_mult
     array_multisort($order, SORT_NUMERIC, SORT_DESC, $this->results)
 
 
-.. _case-use-count-recursive:
-
-Use Count Recursive
-###################
-
-.. _case-wordpress-structures-usecountrecursive:
-
-WordPress
-+++++++++
-
-
-:ref:`use-count-recursive`, in wp-admin/includes/misc.php:74. 
-
-This code actually loads the file, join it, then split it again. file() would be sufficient. 
-
-.. code-block:: php
-   
-    $markerdata = explode( \n, implode( '', file( $filename ) ) );
-
-
-.. _case-prestashop-structures-usecountrecursive:
-
-PrestaShop
-++++++++++
-
-
-:ref:`use-count-recursive`, in controllers/admin/AdminSearchController.php:342. 
-
-This could be improved with count() recursive and a array_filter call, to remove empty $list.
-
-.. code-block:: php
-   
-    $nb_results = 0;
-                foreach ($this->_list as $list) {
-                    if ($list != false) {
-                        $nb_results += count($list);
-                    }
-                }
-
-
 .. _case-use-instanceof:
 
 Use Instanceof
@@ -10290,6 +10250,46 @@ Let's be positive, and start processing the presence of $topic first. And let's 
     						}
 
 
+.. _case-use-recursive-count():
+
+Use Recursive count()
+#####################
+
+.. _case-wordpress-structures-usecountrecursive:
+
+WordPress
++++++++++
+
+
+:ref:`use-recursive-count()`, in wp-admin/includes/misc.php:74. 
+
+This code actually loads the file, join it, then split it again. file() would be sufficient. 
+
+.. code-block:: php
+   
+    $markerdata = explode( \n, implode( '', file( $filename ) ) );
+
+
+.. _case-prestashop-structures-usecountrecursive:
+
+PrestaShop
+++++++++++
+
+
+:ref:`use-recursive-count()`, in controllers/admin/AdminSearchController.php:342. 
+
+This could be improved with count() recursive and a array_filter call, to remove empty $list.
+
+.. code-block:: php
+   
+    $nb_results = 0;
+                foreach ($this->_list as $list) {
+                    if ($list != false) {
+                        $nb_results += count($list);
+                    }
+                }
+
+
 .. _case-use-const:
 
 Use const
@@ -10346,7 +10346,7 @@ The `$filepath` is broken into pieces, and then, only the 'extension' part is us
     
             if (! isset($pathinfo['extension'])) {
                 throw new Exception\RuntimeException(sprintf(
-                    'Filename "%s" is missing an extension and cannot be auto-detected',
+                    'Filename %s is missing an extension and cannot be auto-detected',
                     $filename
                 ));
             }
@@ -10434,7 +10434,7 @@ This code actually loads the file, join it, then split it again. file() would be
 
 .. code-block:: php
    
-    $markerdata = explode( "\n", implode( '', file( $filename ) ) );
+    $markerdata = explode( \n, implode( '', file( $filename ) ) );
 
 
 .. _case-used-once-variables:
@@ -10457,13 +10457,13 @@ In the updateEmailTemplate method, $generatedQueries collects all the generated 
     private function updateEmailTemplate($name, $content, $contentHtml = null)
         {
             $sql = <<<SQL
-    UPDATE `s_core_config_mails` SET `content` = "$content" WHERE `name` = "$name" AND dirty = 0
+    UPDATE `s_core_config_mails` SET `content` = $content WHERE `name` = $name AND dirty = 0
     SQL;
             $this->addSql($sql);
     
             if ($contentHtml != null) {
                 $sql = <<<SQL
-    UPDATE `s_core_config_mails` SET `content` = "$content", `contentHTML` = "$contentHtml" WHERE `name` = "$name" AND dirty = 0
+    UPDATE `s_core_config_mails` SET `content` = $content, `contentHTML` = $contentHtml WHERE `name` = $name AND dirty = 0
     SQL;
                 $generatedQueries[] = $sql;
             }
@@ -10514,13 +10514,13 @@ In the updateEmailTemplate method, $generatedQueries collects all the generated 
     private function updateEmailTemplate($name, $content, $contentHtml = null)
         {
             $sql = <<<SQL
-    UPDATE `s_core_config_mails` SET `content` = "$content" WHERE `name` = "$name" AND dirty = 0
+    UPDATE `s_core_config_mails` SET `content` = $content WHERE `name` = $name AND dirty = 0
     SQL;
             $this->addSql($sql);
     
             if ($contentHtml != null) {
                 $sql = <<<SQL
-    UPDATE `s_core_config_mails` SET `content` = "$content", `contentHTML` = "$contentHtml" WHERE `name` = "$name" AND dirty = 0
+    UPDATE `s_core_config_mails` SET `content` = $content, `contentHTML` = $contentHtml WHERE `name` = $name AND dirty = 0
     SQL;
                 $generatedQueries[] = $sql;
             }
@@ -11600,7 +11600,7 @@ $cond is build from values extracted from the $fields array. Although it is prob
     						{
     							$v = $row['m_field_id_'.$fields[$val['3']]];
     
-    							$lcond = str_replace($val['3'], "$v", $lcond);
+    							$lcond = str_replace($val['3'], $v, $lcond);
     							$cond = $lcond.' '.$rcond;
     							$cond = str_replace("|", "|", $cond);
     

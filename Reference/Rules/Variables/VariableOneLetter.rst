@@ -9,7 +9,6 @@ Variables With One Letter Names
 
 Some one-letter variables have meaning : ``$x`` and ``$y`` for coordinates, ``$i``, ``$j``, ``$k`` for blind variables. Others tend to be an easy way to give a name to a variable, without thinking too hard a good name.
 
-
 .. code-block:: php
    
    <?php

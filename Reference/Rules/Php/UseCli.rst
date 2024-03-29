@@ -7,7 +7,6 @@ Use Cli
 
   Signal the usage of code in CLI mode, through the usage of ``$argv`` and ``$argc`` variables, or the `getopt() <https://www.php.net/getopt>`_ function.
 
-
 .. code-block:: php
    
    <?php

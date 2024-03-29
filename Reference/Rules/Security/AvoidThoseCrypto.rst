@@ -10,7 +10,7 @@ Avoid Those Hash Functions
 ``MD2``, ``MD4``, ``MD5``, ``SHA0``, ``SHA1``, ``CRC``, ``DES``, ``3DES``, ``RC2``, ``RC4``. 
 
 When possible, avoid using them, may it be as PHP functions, or hashing function configurations (mcrypt, hash...).
-
+Weak cryptography is commonly used for hashing values when caching them. In such cases, security is not a primary concern. However, it may later become such, when hackers get access to the cache folders, or if the cached identifier is published. As a preventive protection, it is recommended to always use a `secure <https://www.php.net/secure>`_ hashing function.
 
 .. code-block:: php
    
@@ -26,9 +26,6 @@ When possible, avoid using them, may it be as PHP functions, or hashing function
    echo hash('sha156', 'The quick brown fox jumped over the lazy dog.');
    
    ?>
-
-
-Weak cryptography is commonly used for hashing values when caching them. In such cases, security is not a primary concern. However, it may later become such, when hackers get access to the cache folders, or if the cached identifier is published. As a preventive protection, it is recommended to always use a `secure <https://www.php.net/secure>`_ hashing function.
 
 See also `Secure Hash Algorithms <https://en.wikipedia.org/wiki/Secure_Hash_Algorithms>`_.
 

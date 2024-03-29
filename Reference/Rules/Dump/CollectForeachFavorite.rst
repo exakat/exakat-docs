@@ -7,7 +7,6 @@ Foreach() Favorite
 
   Collect the name used in `foreach() <https://www.php.net/manual/en/control-structures.foreach.php>`_ loops. Then, sorts them in order of popularity.
 
-
 .. code-block:: php
    
    <?php

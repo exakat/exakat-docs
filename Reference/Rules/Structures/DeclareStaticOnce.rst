@@ -6,7 +6,7 @@ Declare Static Once
 +++++++++++++++++++
 
   Global and `static <https://www.php.net/manual/en/language.oop5.static.php>`_ variables should be declared only once in a method. It is also recommended to configure it at the beginning of the method. This could be refined by defining the variable at the last common moment, though it lacks readability.
-
+Defining `static <https://www.php.net/manual/en/language.oop5.static.php>`_ or global methods late is a micro-optimisation.
 
 .. code-block:: php
    
@@ -25,9 +25,6 @@ Declare Static Once
    }
    
    ?>
-
-
-Defining `static <https://www.php.net/manual/en/language.oop5.static.php>`_ or global methods late is a micro-optimisation.
 
 Suggestions
 ___________

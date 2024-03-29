@@ -158,6 +158,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Attributes/MissingAttributeAttribute";
    analyzer[] = "Attributes/ModifyImmutable";
    analyzer[] = "Attributes/NestedAttributes";
+   analyzer[] = "Attributes/NoNamedArguments";
    analyzer[] = "Attributes/Override";
    analyzer[] = "Attributes/PhpNativeAttributes";
    analyzer[] = "Attributes/UsingDeprecated";
@@ -1027,6 +1028,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Php/HashUsesObjects";
    analyzer[] = "Php/IdnUts46";
    analyzer[] = "Php/ImplodeOneArg";
+   analyzer[] = "Php/IncludeVariables";
    analyzer[] = "Php/IncomingValues";
    analyzer[] = "Php/IncomingVariables";
    analyzer[] = "Php/Incompilable";
@@ -1554,6 +1556,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/ShouldUseOperator";
    analyzer[] = "Structures/SimplePreg";
    analyzer[] = "Structures/SprintfFormatCompilation";
+   analyzer[] = "Structures/StaticInclude";
    analyzer[] = "Structures/StaticLoop";
    analyzer[] = "Structures/StrictInArrayFavorite";
    analyzer[] = "Structures/StringInterpolationFavorite";
@@ -1815,6 +1818,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Attributes/MissingAttributeAttribute'
      - 'Attributes/ModifyImmutable'
      - 'Attributes/NestedAttributes'
+     - 'Attributes/NoNamedArguments'
      - 'Attributes/Override'
      - 'Attributes/PhpNativeAttributes'
      - 'Attributes/UsingDeprecated'
@@ -2684,6 +2688,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Php/HashUsesObjects'
      - 'Php/IdnUts46'
      - 'Php/ImplodeOneArg'
+     - 'Php/IncludeVariables'
      - 'Php/IncomingValues'
      - 'Php/IncomingVariables'
      - 'Php/Incompilable'
@@ -3211,6 +3216,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/ShouldUseOperator'
      - 'Structures/SimplePreg'
      - 'Structures/SprintfFormatCompilation'
+     - 'Structures/StaticInclude'
      - 'Structures/StaticLoop'
      - 'Structures/StrictInArrayFavorite'
      - 'Structures/StringInterpolationFavorite'
@@ -3876,6 +3882,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/ShouldPreprocess";
    analyzer[] = "Structures/ShouldUseExplodeArgs";
    analyzer[] = "Structures/SprintfFormatCompilation";
+   analyzer[] = "Structures/StaticInclude";
    analyzer[] = "Structures/StaticLoop";
    analyzer[] = "Structures/StripTagsSkipsClosedTag";
    analyzer[] = "Structures/StrposCompare";
@@ -4390,6 +4397,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/ShouldPreprocess'
      - 'Structures/ShouldUseExplodeArgs'
      - 'Structures/SprintfFormatCompilation'
+     - 'Structures/StaticInclude'
      - 'Structures/StaticLoop'
      - 'Structures/StripTagsSkipsClosedTag'
      - 'Structures/StrposCompare'
@@ -10747,6 +10755,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Exceptions/CaughtExceptions";
    analyzer[] = "Exceptions/TryNoCatch";
    analyzer[] = "Php/ComparisonOnDifferentTypes";
+   analyzer[] = "Php/IncludeVariables";
 
 
 .. _annex-yaml-dump:
@@ -10816,6 +10825,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Exceptions/CaughtExceptions'
      - 'Exceptions/TryNoCatch'
      - 'Php/ComparisonOnDifferentTypes'
+     - 'Php/IncludeVariables'
 
 
 

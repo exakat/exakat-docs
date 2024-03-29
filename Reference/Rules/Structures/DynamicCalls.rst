@@ -7,7 +7,6 @@ Dynamic Calls
 
   List of dynamic calls. They will probably need to be reviewed manually.
 
-
 .. code-block:: php
    
    <?php

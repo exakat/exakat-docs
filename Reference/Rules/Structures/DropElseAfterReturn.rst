@@ -9,8 +9,7 @@ Drop Else After Return
 
 This way, the else block disappears, and is now the main sequence of the function. 
 
-This is also true if else has a return, and then not. When doing so, don't forget to reverse the condition. 
-
+This is also true if else has a return, and then not. When doing so, don't forget to reverse the condition.
 
 .. code-block:: php
    

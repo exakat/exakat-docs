@@ -7,7 +7,6 @@ curl_version() Has No Argument
 
   `curl_version() <https://www.php.net/curl_version>`_ used to accept ``CURLVERSION_NOW`` as argument. Since PHP 7.4, it is a function without arguments.
 
-
 .. code-block:: php
    
    <?php

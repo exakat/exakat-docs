@@ -10,7 +10,7 @@ Difference Consistence
 The analyzed code has less than 10% of one of them : for consistency reasons, it is recommended to make them all the same. 
 
 It happens that != and <> are used depending on coding style and files. One file may be consistently using <>, while the others are all using !=. 
-
+<> and != are the two only comparison operators that are identical.
 
 .. code-block:: php
    
@@ -25,9 +25,6 @@ It happens that != and <> are used depending on coding style and files. One file
    }
    
    ?>
-
-
-<> and != are the two only comparison operators that are identical.
 
 See also `Comparison Operators <https://www.php.net/manual/en/language.operators.comparison.php>`_.
 

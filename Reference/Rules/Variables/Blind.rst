@@ -5,8 +5,7 @@
 Blind Variables
 +++++++++++++++
 
-  Variables that are used in foreach or for structure, for their managing the loop itself. 
-
+  Blind variables are that are used in foreach or for structure, for managing the loop itself.
 
 .. code-block:: php
    
@@ -35,7 +34,7 @@ _____
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | variable-blind                                                                                                          |
+| Features     | blind-variable                                                                                                          |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

@@ -7,7 +7,6 @@ ext/ds
 
   Extension Data Structures : `Data structures <http://docs.php.net/manual/en/book.ds.php>`_.
 
-
 .. code-block:: php
    
    <?php

@@ -9,7 +9,6 @@ Collect Block Size
 
 This is a starting point for reviewing large blocks of code and extract methods.
 
-
 .. code-block:: php
    
    <?php

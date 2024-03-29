@@ -6,7 +6,11 @@ Use str_contains()
 ++++++++++++++++++
 
   `str_contains() <https://www.php.net/str_contains>`_ checks if a string is within another one. It replaces a call to `strpos() <https://www.php.net/strpos>`_ with a comparison. 
+Note that this function is case sensitive : it cannot replace `stripos() <https://www.php.net/stripos>`_.
 
+Note that this function is single-byte only : it cannot replace `mb_strpos() <https://www.php.net/mb_strpos>`_.
+
+This analysis omits calls to `strpos() <https://www.php.net/strpos>`_ that are saved to a variable. `strpos() <https://www.php.net/strpos>`_ is actually returning the position of the found string in the haystack, which may be reused later.
 
 .. code-block:: php
    
@@ -22,13 +26,6 @@ Use str_contains()
    if ($pos > 3) { doSomething();
    
    ?>
-
-
-Note that this function is case sensitive : it cannot replace `stripos() <https://www.php.net/stripos>`_.
-
-Note that this function is single-byte only : it cannot replace `mb_strpos() <https://www.php.net/mb_strpos>`_.
-
-This analysis omits calls to `strpos() <https://www.php.net/strpos>`_ that are saved to a variable. `strpos() <https://www.php.net/strpos>`_ is actually returning the position of the found string in the haystack, which may be reused later.
 
 See also `PHP RFC: str_contains <https://wiki.php.net/rfc/str_contains>`_.
 

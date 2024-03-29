@@ -5,8 +5,7 @@
 Iconv With Translit
 +++++++++++++++++++
 
-  The transliteration feature of `iconv() <https://www.php.net/iconv>`_ depends on the underlying system to support it. 
-
+  The transliteration feature of `iconv() <https://www.php.net/iconv>`_ depends on the underlying system to support it.
 
 .. code-block:: php
    

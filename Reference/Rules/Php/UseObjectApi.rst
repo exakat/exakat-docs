@@ -13,7 +13,6 @@ Often, this least to more compact code, as methods are shorter, and there is no 
 
 OOP / procedural alternatives are available for `mysqli <https://www.php.net/manual/en/book.`mysqli <https://www.php.net/mysqli>`_.php>`_, `tidy <https://www.php.net/manual/en/book.`tidy <https://www.php.net/tidy>`_.php>`_, `cairo <https://www.php.net/manual/en/book.cairo.php>`_, `finfo <https://www.php.net/manual/en/book.fileinfo.php>`_, and some others.
 
-
 .. code-block:: php
    
    <?php
@@ -38,27 +37,6 @@ OOP / procedural alternatives are available for `mysqli <https://www.php.net/man
        /* free result set */
        $result->close();
    }
-   ?>
-
-
-
-.. code-block:: php
-   
-   <?php
-   /// Procedural version
-   $link = mysqli_connect("localhost", "my_user", "my_password", "world");
-   
-   /* check connection */
-   if (mysqli_connect_errno()) {
-       printf("Connect failed: %s\n", mysqli_connect_error());
-       exit();
-   }
-   
-   /* Create table doesn't return a resultset */
-   if (mysqli_query($link, "CREATE TEMPORARY TABLE myCity LIKE City") === TRUE) {
-       printf("Table myCity successfully created.\n");
-   }
-   
    ?>
 
 Suggestions

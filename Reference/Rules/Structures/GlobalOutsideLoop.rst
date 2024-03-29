@@ -6,7 +6,7 @@ Global Inside Loop
 ++++++++++++++++++
 
   The global and `static <https://www.php.net/manual/en/language.oop5.static.php>`_ keywords must be used outside loops. Otherwise, they are evaluated at each loop, slowing the whole process.
-
+This is a micro-optimisation.
 
 .. code-block:: php
    
@@ -24,9 +24,6 @@ Global Inside Loop
        $total += $b;
    }
    ?>
-
-
-This is a micro-optimisation.
 
 Suggestions
 ___________

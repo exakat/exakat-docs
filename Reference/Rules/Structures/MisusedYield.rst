@@ -5,13 +5,11 @@
 Misused Yield
 +++++++++++++
 
-  When chaining `generator <https://www.php.net/`generator <https://www.php.net/generator>`_>`_, one must use the yield from keyword.
+  When chaining `generator <https://www.php.net/`generator <https://www.php.net/generator>`_>`_, one must use the ``yield from`` keyword.
 
 Forgetting the yield from keyword cancels the `generator <https://www.php.net/`generator <https://www.php.net/generator>`_>`_ nature of the functioncall and nothing is emited. 
 
 Using ``yield`` on a `generator <https://www.php.net/`generator <https://www.php.net/generator>`_>`_, yields `... <https://www.php.net/manual/en/functions.arguments.php#functions.variable-arg-list>`_ the `generator <https://www.php.net/`generator <https://www.php.net/generator>`_>`_, not the values of the `generator <https://www.php.net/`generator <https://www.php.net/generator>`_>`_.
-
-
 
 It is legit to yield a `generator <https://www.php.net/`generator <https://www.php.net/generator>`_>`_, for later usage. This is just very uncommon, and worth a check.
 

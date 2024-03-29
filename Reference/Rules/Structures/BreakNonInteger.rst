@@ -9,7 +9,6 @@ Break With Non Integer
 
 Other values were acceptable in PHP 5.3 and previous version, but this is now reported as an `error <https://www.php.net/error>`_.
 
-
 .. code-block:: php
    
    <?php

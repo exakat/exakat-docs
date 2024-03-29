@@ -9,7 +9,6 @@ array_merge() And Variadic
 
 Before PHP 7.4, `array_merge() <https://www.php.net/array_merge>`_ and `array_merge_recursive() <https://www.php.net/array_merge_recursive>`_ would complain when no argument was provided. As such, using the spread operator `...` on an empty `array() <https://www.php.net/array>`_ would yield no argument, and an `error <https://www.php.net/error>`_.
 
-
 .. code-block:: php
    
    <?php

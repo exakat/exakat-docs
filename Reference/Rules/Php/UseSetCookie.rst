@@ -9,8 +9,7 @@ Should Use SetCookie()
 
 `setcookie() <https://www.php.net/setcookie>`_ applies some encoding internally, for the value of the cookie and the date of expiration. Rarely, this encoding has to be skipped : then, use setrawencoding().
 
-Both functions help by giving a checklist of important attributes to be used with the cookie. 
-
+Both functions help by giving a checklist of important attributes to be used with the cookie.
 
 .. code-block:: php
    

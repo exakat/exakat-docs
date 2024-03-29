@@ -13,7 +13,6 @@ Blind variables, which are defined in a `foreach() <https://www.php.net/manual/e
 
 Parameters that are inherited from `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ classes' methods are also omitted : they are imposed by the structure, and cannot be avoided.
 
-
 .. code-block:: php
    
    <?php

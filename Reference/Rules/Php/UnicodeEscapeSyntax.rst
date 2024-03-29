@@ -7,7 +7,6 @@ Unicode Escape Syntax
 
   Usage of the Unicode Escape syntax, with the ``\u{xxxxx}`` format, available since PHP 7.0.
 
-
 .. code-block:: php
    
    <?php

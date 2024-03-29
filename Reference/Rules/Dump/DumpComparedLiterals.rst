@@ -15,7 +15,6 @@ Strict searches are omitted. So, ===, !==, `match() <https://www.php.net/manual/
 
 Some comparisons are not covered yet : `sort() <https://www.php.net/sort>`_.
 
-
 .. code-block:: php
    
    <?php

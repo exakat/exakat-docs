@@ -7,8 +7,7 @@ Searching For Multiple Keys
 
   `array_search() <https://www.php.net/array_search>`_ and `array_keys() <https://www.php.net/array_keys>`_ find keys in an array. `array_search() <https://www.php.net/array_search>`_ returns the first key that match a value, while `array_keys() <https://www.php.net/array_keys>`_ returns all the keys that match a value.
 
-`array_search() <https://www.php.net/array_search>`_ and `array_keys() <https://www.php.net/array_keys>`_ both accepts a final parameter to set a strict search or not. 
-
+`array_search() <https://www.php.net/array_search>`_ and `array_keys() <https://www.php.net/array_keys>`_ both accepts a final parameter to set a strict search or not.
 
 .. code-block:: php
    

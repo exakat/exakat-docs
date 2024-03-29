@@ -8,7 +8,7 @@ Weird Array Index
   Array index that looks weird. Arrays index may be string or integer, but some strings looks weird.
 
 In particular, strings that include terminal white spaces, often leads to missed values.
-
+Although this is rare `error <https://www.php.net/error>`_, and often easy to spot, it is also very hard to find when it strikes.
 
 .. code-block:: php
    
@@ -29,9 +29,6 @@ In particular, strings that include terminal white spaces, often leads to missed
    echo $array['c'];
    
    ?>
-
-
-Although this is rare `error <https://www.php.net/error>`_, and often easy to spot, it is also very hard to find when it strikes.
 
 Suggestions
 ___________

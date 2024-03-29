@@ -11,8 +11,7 @@ This works with single types, both classes and scalars; it works with union type
 
 This doesn't happen with properties : they must be defined with the nullable type to accept a ``null``value as default value.
 
-This doesn't happen with constant, which can't be typehinted. 
-
+This doesn't happen with constant, which can't be typehinted.
 
 .. code-block:: php
    

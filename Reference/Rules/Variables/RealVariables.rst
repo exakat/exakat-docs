@@ -6,7 +6,7 @@ Real Variables
 ++++++++++++++
 
   Inventory of real variables. Global, `Static <https://www.php.net/manual/en/language.oop5.static.php>`_ and property declarations are skipped here. 
-
+This is a refined version of a search on ``T_VARIABLE`` token.
 
 .. code-block:: php
    
@@ -25,9 +25,6 @@ Real Variables
    }
    
    ?>
-
-
-This is a refined version of a search on ``T_VARIABLE`` token.
 
 Specs
 _____

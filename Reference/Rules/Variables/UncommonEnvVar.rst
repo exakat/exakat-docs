@@ -10,7 +10,6 @@ Environment Variables
 They often provides configuration parameter that are set by the host of the application to be used. 
 That way, information is not hardcoded in the application, and may be changed at production.
 
-
 .. code-block:: php
    
    <?php

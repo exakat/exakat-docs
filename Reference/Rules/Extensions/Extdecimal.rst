@@ -9,7 +9,6 @@ ext/decimal
 
 This library provides a PHP extension that adds support for correctly-rounded, arbitrary-precision decimal floating point arithmetic. Applications that rely on accurate numbers (ie. money, measurements, or mathematics) can use Decimal instead of float or string to represent numerical values.
 
-
 .. code-block:: php
    
    <?php

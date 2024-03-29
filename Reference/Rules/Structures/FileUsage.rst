@@ -9,7 +9,6 @@ File Usage
 
 Files usage is based on the usage of file functions.
 
-
 .. code-block:: php
    
    <?php

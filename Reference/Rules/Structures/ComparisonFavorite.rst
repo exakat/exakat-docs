@@ -9,8 +9,7 @@ Strict Or Relaxed Comparison
 
 The analyzed code has less than 10% of one of them : for consistency reasons, it is recommended to make them all the same. 
 
-It is recommended to always use the strict comparison by default, and use the relaxed in case of specific situations. 
-
+It is recommended to always use the strict comparison by default, and use the relaxed in case of specific situations.
 
 .. code-block:: php
    

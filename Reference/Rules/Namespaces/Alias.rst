@@ -5,7 +5,7 @@
 Aliases
 +++++++
 
-  List of all aliases used, to alias namespaces.
+  This rule lists all aliases. Aliases are used file by file, although some classes may have different aliases depending on the context.
 
 .. code-block:: php
    

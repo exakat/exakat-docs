@@ -7,7 +7,6 @@ Windows Only Constants
 
   When built on Windows, PHP offers some extra constants. They are not available on other operating systems.
 
-
 .. code-block:: php
    
    <?php

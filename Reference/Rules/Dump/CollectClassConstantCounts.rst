@@ -7,8 +7,7 @@ Collect Class Constant Counts
 
   This analysis collects the number of class constants per class or interface. 
 
-The count applies to classes, anonymous classes and interfaces. They are considered distinct one from another. 
-
+The count applies to classes, anonymous classes and interfaces. They are considered distinct one from another.
 
 .. code-block:: php
    

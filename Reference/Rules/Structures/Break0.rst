@@ -7,7 +7,6 @@ Break With 0
 
   It is not possible to `break <https://www.php.net/manual/en/control-structures.break.php>`_ 0 : it makes no sense. `Break <https://www.php.net/manual/en/control-structures.break.php>`_ 1 is the minimum, and is the default value.
 
-
 .. code-block:: php
    
    <?php

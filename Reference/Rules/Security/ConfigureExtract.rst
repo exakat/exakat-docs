@@ -12,7 +12,7 @@ Extract imports variables from an array into the local scope. In case of a confl
 In fact, `extract() <https://www.php.net/extract>`_ may be configured to handle the situation differently : it may skip the conflicting variable, prefix it, prefix it only if it exists, only import overwriting variables... It may also import them as references to the original values.
 
 This analysis reports `extract() <https://www.php.net/extract>`_ when it is not configured explicitly. If overwriting is the intended objective, it is not reported.
-
+Always avoid using `extract() <https://www.php.net/extract>`_ on untrusted sources, such as ``$_GET``, ``$_POST``, ``$_FILES``, or even databases records.
 
 .. code-block:: php
    
@@ -31,9 +31,6 @@ This analysis reports `extract() <https://www.php.net/extract>`_ when it is not 
    extract($array, EXTR_OVERWRITE);
    
    ?>
-
-
-Always avoid using `extract() <https://www.php.net/extract>`_ on untrusted sources, such as ``$_GET``, ``$_POST``, ``$_FILES``, or even databases records.
 
 See also `extract <https://www.php.net/extract>`_.
 

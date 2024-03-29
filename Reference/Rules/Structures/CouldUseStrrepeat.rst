@@ -7,8 +7,7 @@ Could Use str_repeat()
 
   Use `str_repeat() <https://www.php.net/str_repeat>`_ or `str_pad() <https://www.php.net/str_pad>`_ instead of making a loop.
 
-Making a loop to repeat the same concatenation is actually much longer than using `str_repeat() <https://www.php.net/str_repeat>`_. As soon as the loop repeats more than twice, `str_repeat() <https://www.php.net/str_repeat>`_ is much faster. With arrays of 30, the difference is significant, though the whole operation is short by itself. 
-
+Making a loop to repeat the same concatenation is actually much longer than using `str_repeat() <https://www.php.net/str_repeat>`_. As soon as the loop repeats more than twice, `str_repeat() <https://www.php.net/str_repeat>`_ is much faster. With arrays of 30, the difference is significant, though the whole operation is short by itself.
 
 .. code-block:: php
    

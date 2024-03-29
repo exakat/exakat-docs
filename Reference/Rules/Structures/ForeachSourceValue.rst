@@ -8,7 +8,9 @@ Overwritten Source And Value
   In a `foreach() <https://www.php.net/manual/en/control-structures.foreach.php>`_, it is best to keep source and values distinct. Otherwise, they overwrite each other.
 
 Since PHP 7.0, PHP makes a copy of the original source, then works on it. This makes possible to use the same name for the source and the values.
+When the source is used as the value, the elements in the array are successively assigned to itself. After the loop, the original array has been replaced by its last element.
 
+The same applies to the index, or to any variable in a `list() <https://www.php.net/list>`_ structure, used in a `foreach() <https://www.php.net/manual/en/control-structures.foreach.php>`_.
 
 .. code-block:: php
    
@@ -37,11 +39,6 @@ Since PHP 7.0, PHP makes a copy of the original source, then works on it. This m
    print_r($array);
    
    ?>
-
-
-When the source is used as the value, the elements in the array are successively assigned to itself. After the loop, the original array has been replaced by its last element.
-
-The same applies to the index, or to any variable in a `list() <https://www.php.net/list>`_ structure, used in a `foreach() <https://www.php.net/manual/en/control-structures.foreach.php>`_.
 
 Suggestions
 ___________

@@ -5,8 +5,9 @@
 Caught Expressions
 ++++++++++++++++++
 
-  List of caught exceptions.
+  This rule lists all the caught exceptions. 
 
+Exceptions may be caught by a code, while the same code never throw them. 
 
 .. code-block:: php
    

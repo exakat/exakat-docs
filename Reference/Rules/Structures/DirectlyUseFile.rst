@@ -20,8 +20,6 @@ Directly Use File
 * recode() => recode_file()
 * recode_string() => recode_file()
 
-
-
 .. code-block:: php
    
    <?php

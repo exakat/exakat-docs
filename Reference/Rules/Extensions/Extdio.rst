@@ -9,7 +9,6 @@ ext/dio
 
 PHP supports the direct io functions as described in the Posix Standard (Section 6) for performing I/O functions at a lower level than the C-Language stream I/O functions
 
-
 .. code-block:: php
    
    <?php

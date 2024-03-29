@@ -5,13 +5,13 @@
 Merge If Then
 +++++++++++++
 
-  Two successive if/then into one, by merging the two conditions.
+  Two nested if/then may be merged into one, by merging the two conditions. This is often a development artifact. 
 
 .. code-block:: php
    
    <?php
    
-   // two merge conditions
+   // two merged conditions
    if ($a == 1 && $b == 2) {
        // doSomething()
    }

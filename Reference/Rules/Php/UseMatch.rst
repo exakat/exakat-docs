@@ -5,8 +5,7 @@
 Uses PHP 8 Match()
 ++++++++++++++++++
 
-  Use the `match() <https://www.php.net/manual/en/control-structures.match.php>`_ syntax. 
-
+  Use the `match() <https://www.php.net/manual/en/control-structures.match.php>`_ syntax.
 
 .. code-block:: php
    

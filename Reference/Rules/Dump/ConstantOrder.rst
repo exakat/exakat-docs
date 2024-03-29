@@ -8,7 +8,11 @@ Constant Order
   Order of dependency of constants. 
 
 Constants, either global or class, may be built using `static <https://www.php.net/manual/en/language.oop5.static.php>`_ expression. In turn, this means that constants have now a build order. For example : 
+The code above leads to the following order : ``A`` - ``B``, ``C``. ``A`` can be built without constraints, while ``B`` and ``C`` must be build when ``A`` is available. Note that ``B`` and ``C`` are both dependant on ``A``, but are not dependant on each other.
 
+The resulting tree displays the different relationship between the constants. 
+
+Note : ``define``constants are not considered here. Only ``const`` constants, global or class.
 
 .. code-block:: php
    
@@ -25,13 +29,6 @@ Constants, either global or class, may be built using `static <https://www.php.n
    }
    
    ?>
-
-
-The code above leads to the following order : ``A`` - ``B``, ``C``. ``A`` can be built without constraints, while ``B`` and ``C`` must be build when ``A`` is available. Note that ``B`` and ``C`` are both dependant on ``A``, but are not dependant on each other.
-
-The resulting tree displays the different relationship between the constants. 
-
-Note : ``define``constants are not considered here. Only ``const`` constants, global or class.
 
 Specs
 _____

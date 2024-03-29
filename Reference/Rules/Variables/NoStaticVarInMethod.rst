@@ -10,7 +10,7 @@ No Static Variable In A Method
 Inside a class, it is recommended to use the class properties, `static <https://www.php.net/manual/en/language.oop5.static.php>`_ or not, to hold values between calls to the method. Inside a function, or a `closure <https://www.php.net/`closure <https://www.php.net/closure>`_>`_, no such container is available, so `static <https://www.php.net/manual/en/language.oop5.static.php>`_ variables may be useful. Although, a refactoring to a class is also recommended here. 
 
 Properties have clear definitions, and are less surprising than `static <https://www.php.net/manual/en/language.oop5.static.php>`_ variables.
-
+The `static <https://www.php.net/manual/en/language.oop5.static.php>`_ variable is easier to refactor as a `static <https://www.php.net/manual/en/language.oop5.static.php>`_ property. It is also possible to refactor it as a property, although it may impact the behavior of the previous code, or require extra work.
 
 .. code-block:: php
    
@@ -35,9 +35,6 @@ Properties have clear definitions, and are less surprising than `static <https:/
    }
    
    ?>
-
-
-The `static <https://www.php.net/manual/en/language.oop5.static.php>`_ variable is easier to refactor as a `static <https://www.php.net/manual/en/language.oop5.static.php>`_ property. It is also possible to refactor it as a property, although it may impact the behavior of the previous code, or require extra work.
 
 Suggestions
 ___________

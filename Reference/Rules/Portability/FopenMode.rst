@@ -8,7 +8,7 @@ Fopen Binary Mode
   Use explicit ``b`` when opening files.
 
 `fopen() <https://www.php.net/fopen>`_ supports a ``b`` option in the second parameter, to make sure the read is binary. This is the recommended way when writing portable applications, between Linux and Windows.
-
+Also, Windows PHP does support a ``t`` option, that translates automatically line endings to the right value. As this is Windows only, this should be avoided for portability reasons.
 
 .. code-block:: php
    
@@ -21,9 +21,6 @@ Fopen Binary Mode
    $fp = fopen('path/to/file.doc', 'w');
    
    ?>
-
-
-Also, Windows PHP does support a ``t`` option, that translates automatically line endings to the right value. As this is Windows only, this should be avoided for portability reasons.
 
 See also `fopen <https://www.php.net/fopen>`_.
 

@@ -7,8 +7,7 @@ Find Key Directly
 
   There is no need to use `foreach() <https://www.php.net/manual/en/control-structures.foreach.php>`_ to search for a key. 
 
-PHP offers two solutions : `array_search() <https://www.php.net/array_search>`_ and `array_keys() <https://www.php.net/array_keys>`_. `Array_search() <https://www.php.net/array_search>`_ finds the first key that fits a value, and `array_keys() <https://www.php.net/array_keys>`_ returns all the keys. 
-
+PHP offers two solutions : `array_search() <https://www.php.net/array_search>`_ and `array_keys() <https://www.php.net/array_keys>`_. `Array_search() <https://www.php.net/array_search>`_ finds the first key that fits a value, and `array_keys() <https://www.php.net/array_keys>`_ returns all the keys.
 
 .. code-block:: php
    

@@ -5,7 +5,7 @@
 Final Constant
 ++++++++++++++
 
-  Final modifier for class constants.
+  This rule lists the usage of the final modifier for class constants. The support of final for class constants was added in PHP 8.1.
 
 .. code-block:: php
    

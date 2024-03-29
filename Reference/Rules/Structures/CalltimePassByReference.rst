@@ -9,7 +9,6 @@ Calltime Pass By Reference
 
 Either the function use a reference in its signature, either the reference won't pass.
 
-
 .. code-block:: php
    
    <?php

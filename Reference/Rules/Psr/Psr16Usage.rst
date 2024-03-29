@@ -7,7 +7,6 @@ PSR-16 Usage
 
   PSR-16 describes a simple yet extensible interface for a cache item and a cache driver. It is supported by an set of interfaces, that one may use in the code.
 
-
 .. code-block:: php
    
    <?php

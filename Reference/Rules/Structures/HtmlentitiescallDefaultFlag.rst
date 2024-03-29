@@ -11,7 +11,6 @@ The second argument of the functions is the type of protection. The protection m
 
 In PHP 8.1, the default value of this parameter has changed. It used to be ``ENT_COMPAT`` and is now ``ENT_QUOTES | `ENT_SUBSTITUTE <https://www.php.net/ENT_SUBSTITUTE>`_``. The main difference between the different configuration is that the single quote, which was left intact so far, is now protected HTML style.
 
-
 .. code-block:: php
    
    <?php

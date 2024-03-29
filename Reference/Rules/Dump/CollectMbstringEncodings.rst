@@ -5,8 +5,7 @@
 Collect Mbstring Encodings
 ++++++++++++++++++++++++++
 
-  This analysis collects the encoding names, used by ext/mb functions. 
-
+  This analysis collects the encoding names, used by ext/mb functions.
 
 .. code-block:: php
    

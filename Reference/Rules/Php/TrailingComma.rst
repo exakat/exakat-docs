@@ -7,8 +7,7 @@ Trailing Comma In Calls
 
   The last argument may be left empty. 
 
-This feature was introduced in PHP 7.3. 
-
+This feature was introduced in PHP 7.3.
 
 .. code-block:: php
    

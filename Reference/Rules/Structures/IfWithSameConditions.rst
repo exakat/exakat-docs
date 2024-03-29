@@ -6,7 +6,7 @@ If With Same Conditions
 +++++++++++++++++++++++
 
   Successive If / then structures that have the same condition may be either merged or have one of the condition changed. 
-
+Note that if the values used in the condition have been modified in the first if/then structure, the two distinct conditions may be needed.
 
 .. code-block:: php
    
@@ -23,26 +23,6 @@ If With Same Conditions
    // May be replaced by 
    if ($a == 1) {
        doSomething();
-       doSomethingElse();
-   }
-   
-   ?>
-
-
-Note that if the values used in the condition have been modified in the first if/then structure, the two distinct conditions may be needed. 
-
-
-.. code-block:: php
-   
-   <?php
-   
-   // May not be merged
-   if ($a == 1) {
-       // Check that this is really the situation
-       $a = checkSomething();
-   }
-   
-   if ($a == 1) {
        doSomethingElse();
    }
    

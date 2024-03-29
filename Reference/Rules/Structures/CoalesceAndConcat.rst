@@ -5,7 +5,9 @@
 Coalesce And Concat
 +++++++++++++++++++
 
-  The concatenation operator dot has precedence over the coalesce operator ??. 
+  The concatenation operator ``.`` has precedence over the coalesce operator ``??``. 
+
+It is recommended to add parenthesis to make this expression explicit.
 
 
 .. code-block:: php
@@ -51,7 +53,7 @@ _____
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                                                                               |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | coalesce, concat, precedence                                                                                                                                                            |
+| Features     | coalesce, concat, precedence, parenthesis                                                                                                                                               |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Community Edition <https://www.exakat.io/community-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

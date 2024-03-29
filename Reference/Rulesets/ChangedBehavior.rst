@@ -292,7 +292,7 @@ Total : 611 analysis
 * :ref:`foreach-on-object`
 * :ref:`dynamic-library-loading`
 * :ref:`php-7.3-last-empty-argument`
-* :ref:`use-count-recursive`
+* :ref:`use-recursive-count()`
 * :ref:`processing-collector`
 * :ref:`missing-parenthesis`
 * :ref:`strpos()-too-much`
@@ -554,7 +554,7 @@ Total : 611 analysis
 * :ref:`unvalidated-data-cached-in-session`
 * :ref:`ellipsis-merge`
 * :ref:`new-functions-in-php-8.3`
-* :ref:`missing-assignation-in-command`
+* :ref:`missing-assignation-in-branches`
 * :ref:`short-ternary`
 * :ref:`deprecated-mb\_string-encodings`
 * :ref:`pre-calculate-use`

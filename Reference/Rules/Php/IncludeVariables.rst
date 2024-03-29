@@ -1,24 +1,17 @@
-.. _structures-comparedbutnotassignedstrings:
+.. _php-includevariables:
 
-.. _compared-but-not-assigned-strings:
+.. _include-variables:
 
-Compared But Not Assigned Strings
-+++++++++++++++++++++++++++++++++
+Include Variables
++++++++++++++++++
 
-  Those strings are compared to variables in the code, but those values are never assigned.
+  When include, and its cousins, are used with a variable, or any data container.
 
 .. code-block:: php
    
    <?php
    
-   // some assigned strings in the code
-   $a = 'b';
-   
-   // some compared strings in the code
-   // Depending on the origin of $b, is this possible? 
-   if ($b === 'c') {
-   
-   }
+   include $fileToPath;
    
    ?>
 
@@ -26,19 +19,19 @@ Specs
 _____
 
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Short name   | Structures/ComparedButNotAssignedStrings                                                                                |
+| Short name   | Php/IncludeVariables                                                                                                    |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`                                                                                                |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Dump <ruleset-Dump>`                                                                    |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Exakat since | 1.3.2                                                                                                                   |
+| Exakat since | 2.6.7                                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | PHP Version  | All                                                                                                                     |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Severity     | Minor                                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Time To Fix  | Slow (1 hour)                                                                                                           |
+| Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Precision    | High                                                                                                                    |
+| Precision    | Very high                                                                                                               |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

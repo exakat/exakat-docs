@@ -7,8 +7,7 @@ Use Cookies
 
   This code source uses cookies. 
 
-Cookie usage is spotted with the usage of `setcookie() <https://www.php.net/setcookie>`_, `setrawcookie() <https://www.php.net/setrawcookie>`_ and `header() <https://www.php.net/header>`_ with the 'Set-Cookie' header. 
-
+Cookie usage is spotted with the usage of `setcookie() <https://www.php.net/setcookie>`_, `setrawcookie() <https://www.php.net/setrawcookie>`_ and `header() <https://www.php.net/header>`_ with the 'Set-Cookie' header.
 
 .. code-block:: php
    

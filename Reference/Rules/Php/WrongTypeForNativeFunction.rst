@@ -7,7 +7,6 @@ Wrong Type For Native PHP Function
 
   This analysis reports calls to a PHP native function with a wrongly typed value.
 
-
 .. code-block:: php
    
    <?php

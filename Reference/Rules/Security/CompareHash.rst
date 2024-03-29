@@ -10,7 +10,7 @@ Compare Hash
 In a number of situations, the hash value will start with ``0e``, and PHP will understand that the comparison involves integers : it will then convert the strings into numbers, and it may end up converting them to 0.
 
 Here is an example : 
-
+You may also use `password_hash() <https://www.php.net/password_hash>`_ and `password_verify() <https://www.php.net/password_verify>`_ : they work together without integer conversion problems, and they can't be confused with a number.
 
 .. code-block:: php
    
@@ -36,9 +36,6 @@ Here is an example :
    var_dump(md5('240610708') == md5('QNKCDZO') );
    
    ?>
-
-
-You may also use `password_hash() <https://www.php.net/password_hash>`_ and `password_verify() <https://www.php.net/password_verify>`_ : they work together without integer conversion problems, and they can't be confused with a number.
 
 See also `Magic Hashes <https://blog.whitehatsec.com/magic-hashes/>`_ , `What is the best way to compare hashed strings? (PHP) <https://stackoverflow.com/questions/5211132/what-is-the-best-way-to-compare-hashed-strings-php/23959696#23959696>`_ and `md5('240610708') == md5('QNKCDZO') <https://news.ycombinator.com/item?id=9484757>`_.
 

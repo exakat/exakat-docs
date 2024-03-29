@@ -9,7 +9,6 @@ ext/cmark
 
 cmark provides access to the reference implementation of CommonMark, a rationalized version of Markdown syntax with a specification.
 
-
 .. code-block:: php
    
    <?php

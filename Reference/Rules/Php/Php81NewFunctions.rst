@@ -35,6 +35,18 @@ The following functions are now native functions in PHP 8.1. It is compulsory to
 * `sodium_crypto_stream_xchacha20_keygen() <https://www.php.net/sodium_crypto_stream_xchacha20_keygen>`_
 * `sodium_crypto_stream_xchacha20_xor() <https://www.php.net/sodium_crypto_stream_xchacha20_xor>`_
 
+
+
+
+.. code-block:: php
+   
+   <?php
+   
+   $array = [1,2,3];
+   var_dump(array_is_list($array)); // true
+   
+   ?>
+
 Suggestions
 ___________
 

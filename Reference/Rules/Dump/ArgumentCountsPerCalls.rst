@@ -8,7 +8,7 @@ Argument Counts Per Calls
   Collects the number of arguments passed to PHP functions. 
 
 This is focused on PHP native functions, with optional characters.
-
+This helps detect unused or lesser know arguments.
 
 .. code-block:: php
    
@@ -21,9 +21,6 @@ This is focused on PHP native functions, with optional characters.
    $c = in_array($array, $needle, true);
    
    ?>
-
-
-This helps detect unused or lesser know arguments.
 
 Specs
 _____

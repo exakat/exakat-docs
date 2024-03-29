@@ -8,8 +8,7 @@ Iffectations
   Affectations that appears in a condition. 
 
 Iffectations are a way to do both a test and an affectations. 
-They may also be typos, such as if ($x = 3) { `... <https://www.php.net/manual/en/functions.arguments.php#functions.variable-arg-list>`_ }, leading to a constant condition. 
-
+They may also be typos, such as if ($x = 3) { `... <https://www.php.net/manual/en/functions.arguments.php#functions.variable-arg-list>`_ }, leading to a constant condition.
 
 .. code-block:: php
    

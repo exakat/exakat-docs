@@ -9,7 +9,7 @@ Unicode Escape Partial
 
 PHP 7 will recognize en replace those sequences, while PHP 5 keep them intact.
 PHP 7 will halt on partial Unicode Sequences, as it tries to understand them, but may fail. 
-
+Is is recommended to check all those strings, and make sure they will behave correctly in PHP 7.
 
 .. code-block:: php
    
@@ -24,9 +24,6 @@ PHP 7 will halt on partial Unicode Sequences, as it tries to understand them, bu
    // PHP 7 emits a fatal error
    
    ?>
-
-
-Is is recommended to check all those strings, and make sure they will behave correctly in PHP 7.
 
 Specs
 _____

@@ -9,7 +9,6 @@ Don't Mix ++
 
 When mixed in a larger expression, they are difficult to read, and may lead to unwanted behaviors.
 
-
 .. code-block:: php
    
    <?php

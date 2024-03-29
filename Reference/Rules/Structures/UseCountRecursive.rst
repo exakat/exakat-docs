@@ -1,13 +1,15 @@
 .. _structures-usecountrecursive:
 
-.. _use-count-recursive:
+.. _use-recursive-count():
 
-Use Count Recursive
-+++++++++++++++++++
+Use Recursive count()
++++++++++++++++++++++
 
-  The code could use the recursive version of count.
+  The native `count() <https://www.php.net/count>`_ function is recursive: it can count all the elements inside multi-dimensional arrays. 
 
-The second argument of count, when set to ``COUNT_RECURSIVE``, count recursively the elements. It also counts the elements themselves.
+The second argument of count, when set to ``COUNT_RECURSIVE``, count recursively the elements. 
+
+Recursive `count() <https://www.php.net/count>`_ counts all the elements, includeing the recusrive elements themselves. For a 2 dimensional array, this means removing the normal count of elements from the list. For higher dimensions, removing the recursive elememnts requires better filtering.
 
 .. code-block:: php
    

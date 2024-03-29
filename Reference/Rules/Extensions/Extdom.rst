@@ -9,7 +9,6 @@ ext/dom
 
 The DOM extension allows the manipulation of XML documents through the DOM API with PHP.
 
-
 .. code-block:: php
    
    <?php

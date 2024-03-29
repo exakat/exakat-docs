@@ -13,7 +13,6 @@ A list of classic typo is also used to find such variables.
 
 This analysis is case-sensitive.
 
-
 .. code-block:: php
    
    <?php

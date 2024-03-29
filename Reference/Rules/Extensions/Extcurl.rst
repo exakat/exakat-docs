@@ -9,7 +9,6 @@ ext/curl
 
 PHP supports libcurl, a library created by Daniel Stenberg. It allows the `connection <https://www.php.net/connection>`_ and communication to many different types of servers with many different types of protocols.
 
-
 .. code-block:: php
    
    <?php

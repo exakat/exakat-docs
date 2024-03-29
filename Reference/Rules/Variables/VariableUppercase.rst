@@ -9,7 +9,6 @@ All Uppercase Variables
 
 When using custom variables, try to use lowercase ``$variables``, ``$camelCase``, ``$sturdyCase`` or ``$snake_case``.
 
-
 .. code-block:: php
    
    <?php

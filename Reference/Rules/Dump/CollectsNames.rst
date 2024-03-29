@@ -11,7 +11,6 @@ Variables names are trimmed of their ``$`` sign. Namespaces are kept as a whole.
 
 The following code provides 3 values ; ``parameter``, ``foo`` and ``local``.
 
-
 .. code-block:: php
    
    <?php

@@ -9,7 +9,6 @@ ext/db2
 
 This extension gives access to IBM DB2 Universal Database, IBM Cloudscape, and Apache Derby databases using the DB2 Call Level Interface (DB2 CLI).
 
-
 .. code-block:: php
    
    <?php

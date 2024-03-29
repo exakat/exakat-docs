@@ -6,7 +6,9 @@ Overwriting Variable
 ++++++++++++++++++++
 
   Replacing the content of a variable by something different is prone to errors. For example, it is not obvious if the $text variable is plain text or HTML text. 
+Besides, it is possible that the source is needed later, for extra processing. 
 
+Note that accumulators, like += .=  or [] etc., that are meant to collect lots of values with consistent type are OK.
 
 .. code-block:: php
    
@@ -19,11 +21,6 @@ Overwriting Variable
    $textHTML = htmlentities($text);
    
    ?>
-
-
-Besides, it is possible that the source is needed later, for extra processing. 
-
-Note that accumulators, like += .=  or [] etc., that are meant to collect lots of values with consistent type are OK.
 
 Specs
 _____

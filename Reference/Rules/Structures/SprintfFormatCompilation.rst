@@ -9,7 +9,6 @@ Sprintf Format Compilation
 
 This applies to `printf() <https://www.php.net/printf>`_, `sprintf() <https://www.php.net/sprintf>`_, `vprintf() <https://www.php.net/vprintf>`_, `vfprintf() <https://www.php.net/vfprintf>`_, `vsprintf() <https://www.php.net/vsprintf>`_, `sscanf() <https://www.php.net/sscanf>`_, `fscanf() <https://www.php.net/fscanf>`_
 
-
 .. code-block:: php
    
    <?php

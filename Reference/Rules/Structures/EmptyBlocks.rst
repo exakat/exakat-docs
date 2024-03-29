@@ -7,8 +7,7 @@ Empty Blocks
 
   Full empty block, part of a control structures. 
 
-It is recommended to remove those blocks, so as to reduce confusion in the code. 
-
+It is recommended to remove those blocks, so as to reduce confusion in the code.
 
 .. code-block:: php
    

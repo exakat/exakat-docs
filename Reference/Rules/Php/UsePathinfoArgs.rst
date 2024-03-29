@@ -10,7 +10,7 @@ Use pathinfo() Arguments
 It is twice faster to get only one element from `pathinfo() <https://www.php.net/pathinfo>`_ than get the four of them, and use only one.
 
 This analysis reports `pathinfo() <https://www.php.net/pathinfo>`_ usage, without second argument, where only one or two indices are used, after the call.
-
+Depending on the situation, the functions `dirname() <https://www.php.net/dirname>`_ and `basename() <https://www.php.net/basename>`_ may also be used. They are even faster, when only fetching those data.
 
 .. code-block:: php
    
@@ -35,9 +35,6 @@ This analysis reports `pathinfo() <https://www.php.net/pathinfo>`_ usage, withou
    }
    
    ?>
-
-
-Depending on the situation, the functions `dirname() <https://www.php.net/dirname>`_ and `basename() <https://www.php.net/basename>`_ may also be used. They are even faster, when only fetching those data.
 
 See also `list <https://www.php.net/manual/en/function.list.php>`_.
 

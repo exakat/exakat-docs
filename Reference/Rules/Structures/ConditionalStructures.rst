@@ -9,8 +9,7 @@ Conditional Structures
 
 It is possible to create conditioned functions, classes, interfaces, traits and enumerations. Constants have to be defined with `define() <https://www.php.net/define>`_ and can't use the `const` keyword.
 
-Classes elements, such as methods, can't be conditional. 
-
+Classes elements, such as methods, can't be conditional.
 
 .. code-block:: php
    

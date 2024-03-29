@@ -11,7 +11,6 @@ Nullable Types are an option to type hint : they allow the passing value to be n
 
 According to the authors of the feature : 'It is common in many programming languages including PHP to allow a variable to be of some type or null. This null often indicates an `error <https://www.php.net/error>`_ or lack of something to return.'
 
-
 .. code-block:: php
    
    <?php

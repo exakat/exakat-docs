@@ -7,9 +7,22 @@ Could Be array_combine()
 
   This rule suggests using the native function `array_combine() <https://www.php.net/array_combine>`_ to merge two arrays in a hash. 
 
-foreach($a as $b => $c) {
-	$d[$c] = $e[$b];
-}
+.. code-block:: php
+   
+   <?php
+   
+   $keys = [1, 2, 3];
+   $values = ['a', 'b', 'c'];
+   $destination = [];
+   foreach($keys as $k => $v) {
+   	$destination[$v] = $values[$k];
+   }
+   
+   $destination = [1 => 'a', 2 => 'b', 3 => 'c'];
+   
+   $destination = array_combine($keys, $values);
+   
+   ?>
 
 See also `How to use array_merge() and array_combine() in PHP ? <https://www.geeksforgeeks.org/how-to-use-array_merge-and-array_combine-in-php/>`_.
 
@@ -17,7 +30,7 @@ See also `How to use array_merge() and array_combine() in PHP ? <https://www.gee
 Suggestions
 ___________
 
-* Use array_combine()
+* Use array_combine().
 
 
 

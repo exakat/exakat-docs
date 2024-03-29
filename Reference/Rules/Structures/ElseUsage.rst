@@ -9,8 +9,7 @@ Else Usage
 
 For example, defaulting values before using a condition; returning early in the method, thus skipping long else blocks; using a ternary operator to assign values conditionnaly. 
 
-Else is the equivalent of the default clause in a switch statement. When the if/then structure can be replaced with a switch can (albeit, a 2-case switch seems strange), then else usage is a good solution. 
-
+Else is the equivalent of the default clause in a switch statement. When the if/then structure can be replaced with a switch can (albeit, a 2-case switch seems strange), then else usage is a good solution.
 
 .. code-block:: php
    

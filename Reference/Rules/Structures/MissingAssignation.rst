@@ -1,13 +1,13 @@
 .. _structures-missingassignation:
 
-.. _missing-assignation-in-command:
+.. _missing-assignation-in-branches:
 
-Missing Assignation In Command
-++++++++++++++++++++++++++++++
+Missing Assignation In Branches
++++++++++++++++++++++++++++++++
 
-  A variable is assigned in one of the branch, but not the other. Such variable might be needed later, and not available. 
+  A variable is assigned in one of the branch, but not the other. Such variable might be needed later, and when going throw this branch, it won't be available. 
 
-elseif() and branches that returns or goto somewhere else are omitted. 
+In this analysis, elseif() and branches that return or goto somewhere else are omitted. 
 
 
 .. code-block:: php
@@ -41,8 +41,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Medium                                                                                                                  |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | wip                                                                                                                     |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

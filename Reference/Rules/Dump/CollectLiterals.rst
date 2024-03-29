@@ -5,8 +5,7 @@
 Collect Literals
 ++++++++++++++++
 
-  Collects all literals in the application. Strings, integer, float are collected. Booleans, null and arrays are not. 
-
+  Collects all literals in the application. Strings, integer, float are collected. Booleans, null and arrays are not.
 
 .. code-block:: php
    

@@ -5,7 +5,6 @@ Extensions/Exttaint
 
   Taint is a extension used to detect and track tainted string. It follows each assignation of the code and keeps track of its taint. And also can be used to spot sql injection vulnerabilities, shell inject, etc.
 
-
 .. code-block:: php
    
    <?php

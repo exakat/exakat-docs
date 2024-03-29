@@ -9,7 +9,6 @@ Avoid Compare Typed Boolean
 
 The analysis checks for equality and identity comparisons. It doesn't check for the not operator usage.
 
-
 .. code-block:: php
    
    <?php

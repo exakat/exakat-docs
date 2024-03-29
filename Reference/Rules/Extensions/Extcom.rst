@@ -9,7 +9,6 @@ ext/com
 
 COM is an acronym for 'Component Object Model'; it is an object orientated layer (and associated services) on top of DCE RPC (an open standard) and defines a common calling convention that enables code written in any language to call and interoperate with code written in any other language (provided those languages are COM aware).
 
-
 .. code-block:: php
    
    <?php 

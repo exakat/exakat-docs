@@ -5,10 +5,9 @@
 Php 7 Indirect Expression
 +++++++++++++++++++++++++
 
-  Those are variable indirect expressions that are interpreted differently in PHP 5 and PHP 7. 
+  This rule reports variable indirect expressions, that are interpreted differently in PHP 5 and PHP 7. 
 
-You should check them so they don't behave strangely.
-
+They should be checked, as they will behave differently between these PHP versions.
 
 .. code-block:: php
    

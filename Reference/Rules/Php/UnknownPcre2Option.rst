@@ -9,8 +9,7 @@ Unknown Pcre2 Option
 
 The ``S`` modifier : it used to tell PCRE to spend more time studying the regex, so as to be faster at execution. This is now the default behavior, and may be dropped from the regex.
 
-The ``X`` modifier : ``X`` is still existing with ``PCRE2``, though it is now the default for ``PCRE2``, and not for PHP as time of writing. In particular, ``Any backslash in a pattern that is followed by a letter that has no special meaning causes an `error <https://www.php.net/error>`_, thus reserving these combinations for future expansion. ``. It is recommended to avoid using useless sequence \\s in regex to get ready for that change. All the following letters ``gijkmoqyFIJMOTY`` . Note that ``clLpPuU`` are valid ``PRCE`` sequences, and are probably failing for other reasons. 
-
+The ``X`` modifier : ``X`` is still existing with ``PCRE2``, though it is now the default for ``PCRE2``, and not for PHP as time of writing. In particular, ``Any backslash in a pattern that is followed by a letter that has no special meaning causes an `error <https://www.php.net/error>`_, thus reserving these combinations for future expansion. ``. It is recommended to avoid using useless sequence \s in regex to get ready for that change. All the following letters ``gijkmoqyFIJMOTY`` . Note that ``clLpPuU`` are valid ``PRCE`` sequences, and are probably failing for other reasons.
 
 .. code-block:: php
    

@@ -7,8 +7,7 @@ File Uploads
 
   This code makes usage of file upload features of PHP.
 
-Upload file feature is detected through the usage of specific functions : 
-
+Upload file feature is detected through the usage of specific functions :
 
 .. code-block:: php
    

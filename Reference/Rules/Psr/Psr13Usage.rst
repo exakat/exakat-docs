@@ -9,7 +9,6 @@ PSR-13 Usage
 
 It is supported by an set of interfaces, that one may use in the code.
 
-
 .. code-block:: php
    
    <?php

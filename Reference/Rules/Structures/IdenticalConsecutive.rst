@@ -9,7 +9,6 @@ Identical Consecutive Expression
 
 They may be a copy/paste with unmodified content. When the content has to be duplicated, it is recommended to avoid executing the expression again, and just access the cached `result <https://www.php.net/result>`_.
 
-
 .. code-block:: php
    
    <?php

@@ -8,7 +8,9 @@ Substr To Trim
   When removing the first or the last character of a string, `trim() <https://www.php.net/trim>`_ does a more readable job. 
 
 `trim() <https://www.php.net/trim>`_, `ltrim() <https://www.php.net/ltrim>`_ and `rtrim() <https://www.php.net/rtrim>`_ accept a string as second argument. Those will all be removed from the endings of the string.
+`trim() <https://www.php.net/trim>`_ will remove all occurrences of the requested char(). This may remove a loop with `substr() <https://www.php.net/substr>`_, or remove more than is needed. 
 
+`trim() <https://www.php.net/trim>`_ doesn't work with multi-bytes strings, but so does `substr() <https://www.php.net/substr>`_. For that, use `mb_substr() <https://www.php.net/mb_substr>`_, as there isn't any mb_trim() function (so far in PHP 8.2).
 
 .. code-block:: php
    
@@ -26,11 +28,6 @@ Substr To Trim
    $b = substr($a, 1, -1); // replace with trim()
    
    ?>
-
-
-`trim() <https://www.php.net/trim>`_ will remove all occurrences of the requested char(). This may remove a loop with `substr() <https://www.php.net/substr>`_, or remove more than is needed. 
-
-`trim() <https://www.php.net/trim>`_ doesn't work with multi-bytes strings, but so does `substr() <https://www.php.net/substr>`_. For that, use `mb_substr() <https://www.php.net/mb_substr>`_, as there isn't any mb_trim() function (so far in PHP 8.2).
 
 See also `trim <https://www.php.net/manual/en/function.trim.php>`_, `ltrim <https://www.php.net/manual/en/function.ltrim.php>`_ and `rtrim <https://www.php.net/manual/en/function.rtrim.php>`_.
 

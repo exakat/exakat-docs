@@ -5,8 +5,7 @@
 Try With Multiple Catch
 +++++++++++++++++++++++
 
-  Try may be used with multiple catch clauses. 
-
+  Try may be used with multiple catch clauses.
 
 .. code-block:: php
    

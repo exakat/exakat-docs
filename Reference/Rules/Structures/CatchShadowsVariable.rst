@@ -6,7 +6,7 @@ Catch Overwrite Variable
 ++++++++++++++++++++++++
 
   The try/catch structure uses some variables that are also in use in this scope. In case of a caught `exception <https://www.php.net/exception>`_, the `exception <https://www.php.net/exception>`_ will be put in the catch variable, and overwrite the current value, loosing some data.
-
+It is recommended to use another name for these catch variables.
 
 .. code-block:: php
    
@@ -29,9 +29,6 @@ Catch Overwrite Variable
    }
    
    ?>
-
-
-It is recommended to use another name for these catch variables.
 
 Suggestions
 ___________

@@ -9,7 +9,6 @@ Foreach Reference Is Not Modified
 
 In the spotted loop, reference are used but never modified. They may be removed.
 
-
 .. code-block:: php
    
    <?php

@@ -11,7 +11,6 @@ In PHP 7, `generator <https://www.php.net/`generator <https://www.php.net/genera
 
 ``Yield from`` was introduced in PHP 7.1, and is backward incompatible.
 
-
 .. code-block:: php
    
    <?php

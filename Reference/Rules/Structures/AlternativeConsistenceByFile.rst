@@ -11,7 +11,6 @@ The classic syntax is almost always used. When used, the alternative syntax is u
 
 This analysis reports files that are using both syntax at the same time. This is confusing.
 
-
 .. code-block:: php
    
    <?php

@@ -8,7 +8,7 @@ Error Messages
   `Error <https://www.php.net/error>`_ message when an `error <https://www.php.net/error>`_ is reported in the code. Those messages will be read by whoever is triggering the `error <https://www.php.net/error>`_, and it has to be helpful. 
 
 It is a good exercise to read the messages out of context, and try to understand what is about.
-
+`Error <https://www.php.net/error>`_ messages are spotted via `die <https://www.php.net/die>`_, `exit <https://www.www.php.net/exit>`_, `trigger_error() <https://www.php.net/trigger_error>`_ or throw.
 
 .. code-block:: php
    
@@ -20,9 +20,6 @@ It is a good exercise to read the messages out of context, and try to understand
    throw new Exception('Exception thrown at runtime');
    
    ?>
-
-
-`Error <https://www.php.net/error>`_ messages are spotted via `die <https://www.php.net/die>`_, `exit <https://www.www.php.net/exit>`_, `trigger_error() <https://www.php.net/trigger_error>`_ or throw.
 
 Specs
 _____

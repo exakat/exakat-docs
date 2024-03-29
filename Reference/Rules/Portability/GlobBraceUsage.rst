@@ -6,7 +6,7 @@ GLOB_BRACE Usage
 ++++++++++++++++
 
   `GLOB_BRACE <https://www.php.net/GLOB_BRACE>`_ is not always available on every underlying operating system. This is the case on Solaris OS, and on Alpine OS, used for Docker.
-
+It is possible to check the support for `GLOB_BRACE <https://www.php.net/GLOB_BRACE>`_ by checking the presence of the constant.
 
 .. code-block:: php
    
@@ -22,9 +22,6 @@ GLOB_BRACE Usage
                           ); 
    
    ?>
-
-
-It is possible to check the support for `GLOB_BRACE <https://www.php.net/GLOB_BRACE>`_ by checking the presence of the constant.
 
 See also `Alpine Linux <https://alpinelinux.org/>`_, `GLOB_BRACE breaks Sulu on Alpine Linux <https://github.com/sulu/sulu/issues/4513>`_ and `[performance] Symfony Kernel::boot() in dev mode on Alpine #35009 <https://github.com/symfony/symfony/issues/35009>`_.
 

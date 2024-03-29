@@ -9,7 +9,6 @@ ext/dba
 
 These functions build the foundation for accessing Berkeley DB style databases.
 
-
 .. code-block:: php
    
    <?php

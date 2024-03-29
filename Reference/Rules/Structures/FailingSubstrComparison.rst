@@ -8,7 +8,9 @@ Failed Substr() Comparison
   The extracted string must be of the size of the compared string.
 
 This is also true for negative lengths.
+This rule raise a false positive when the variable is already smaller than the expected `substr() <https://www.php.net/substr>`_ results.
 
+This rule doesn't apply to `mb_substr() <https://www.php.net/mb_substr>`_ and `iconv_substr() <https://www.php.net/iconv_substr>`_ : those functions use the character size, not the byte size.
 
 .. code-block:: php
    
@@ -26,11 +28,6 @@ This is also true for negative lengths.
    if (substr($a, 0, 3) !== 'ab') { }
    
    ?>
-
-
-This rule raise a false positive when the variable is already smaller than the expected `substr() <https://www.php.net/substr>`_ results.
-
-This rule doesn't apply to `mb_substr() <https://www.php.net/mb_substr>`_ and `iconv_substr() <https://www.php.net/iconv_substr>`_ : those functions use the character size, not the byte size.
 
 Suggestions
 ___________

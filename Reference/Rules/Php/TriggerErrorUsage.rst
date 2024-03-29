@@ -9,7 +9,6 @@ Trigger Errors
 
 PHP errors are triggered with `trigger_error() <https://www.php.net/trigger_error>`_.
 
-
 .. code-block:: php
    
    <?php

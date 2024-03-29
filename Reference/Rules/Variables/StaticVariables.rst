@@ -5,8 +5,7 @@
 Static Variables
 ++++++++++++++++
 
-  In PHP, variables may be `static <https://www.php.net/manual/en/language.oop5.static.php>`_. They will survive after the function execution end, and will be available at the next function run. They are distinct from globals, which are available application wide, and from `static <https://www.php.net/manual/en/language.oop5.static.php>`_ properties, which are tied to a class of objects. 
-
+  In PHP, variables may be `static <https://www.php.net/manual/en/language.oop5.static.php>`_. They will survive after the function execution end, and will be available at the next function run. They are distinct from globals, which are available application wide, and from `static <https://www.php.net/manual/en/language.oop5.static.php>`_ properties, which are tied to a class of objects.
 
 .. code-block:: php
    

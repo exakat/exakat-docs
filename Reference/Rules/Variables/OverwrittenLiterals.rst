@@ -9,7 +9,6 @@ Overwritten Literals
 
 This analysis doesn't take into account the distance between two assignations : it may report false positives when the variable is actually used for several purposes, and, as such, assigned twice with different values.
 
-
 .. code-block:: php
    
    <?php

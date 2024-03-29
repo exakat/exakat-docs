@@ -13,7 +13,7 @@ CWE report this as a security concern, unless well documented.
 A fallthrough may be used as a feature. Then, it is indistinguishable from an `error <https://www.php.net/error>`_. 
 
 When the case block is empty, this analysis doesn't report it : the case is then used as an alias.
-
+This analysis doesn't take into account comments about the fallthrough.
 
 .. code-block:: php
    
@@ -30,9 +30,6 @@ When the case block is empty, this analysis doesn't report it : the case is then
            break ;
    }
    ?>
-
-
-This analysis doesn't take into account comments about the fallthrough.
 
 See also `CWE-484: Omitted Break Statement in Switch <https://cwe.mitre.org/data/definitions/484.html>`_ and `Rule: no-switch-case-fall-through <https://palantir.github.io/tslint/rules/no-switch-case-fall-through/>`_.
 

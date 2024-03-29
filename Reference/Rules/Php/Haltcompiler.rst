@@ -7,7 +7,6 @@ __halt_compiler
 
   __halt_compiler() usage.
 
-
 .. code-block:: php
    
    <?php

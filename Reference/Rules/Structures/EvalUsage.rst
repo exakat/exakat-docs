@@ -8,7 +8,12 @@ Eval() Usage
   Using eval() is evil. 
 
 Using eval() is bad for performances (compilation time), for caches (it won't be compiled), and for security (if it includes external data).
+Most of the time, it is possible to replace the code by some standard PHP, like variable variable for accessing a variable for which you have the name.
+At worse, including a pregenerated file is faster and cacheable. 
 
+There are several situations where eval() is actually the only solution : 
+
+For PHP 7.0 and later, it is important to put eval() in a try..catch expression.
 
 .. code-block:: php
    
@@ -25,14 +30,6 @@ Using eval() is bad for performances (compilation time), for caches (it won't be
        eval($literalCode);
    
    ?>
-
-
-Most of the time, it is possible to replace the code by some standard PHP, like variable variable for accessing a variable for which you have the name.
-At worse, including a pregenerated file is faster and cacheable. 
-
-There are several situations where eval() is actually the only solution : 
-
-For PHP 7.0 and later, it is important to put eval() in a try..catch expression.
 
 See also `eval <http://www.php.net/eval>`_ and `The Land Where PHP  Uses eval() <https://www.exakat.io/land-where-php-uses-eval/>`_.
 

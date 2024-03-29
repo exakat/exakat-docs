@@ -9,7 +9,6 @@ crypt() Without Salt
 
 According to the manual : The salt parameter is optional. However, `crypt() <https://www.php.net/crypt>`_ creates a weak hash without the salt. PHP 5.6 or later raise an `E_NOTICE <https://www.php.net/E_NOTICE>`_ `error <https://www.php.net/error>`_ without it. Make sure to specify a strong enough salt for better security.
 
-
 .. code-block:: php
    
    <?php

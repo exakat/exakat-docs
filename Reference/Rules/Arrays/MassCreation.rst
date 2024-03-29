@@ -5,8 +5,7 @@
 Mass Creation Of Arrays
 +++++++++++++++++++++++
 
-  Literal creation of an array, by assigning a lot of index. 
-
+  Literal creation of an array, by assigning a lot of index.
 
 .. code-block:: php
    
