@@ -10,7 +10,7 @@ Double Checks
 Some of the testing may be pushed to the type system, for example `is_int() <https://www.php.net/is_int>`_ and ``int`` type. Others can't, as the check is not integrated in the type system, such as `is_readable() <https://www.php.net/is_readable>`_ and ``string``, for a path. 
 
 The check may be removed from the method, when the method is not called elsewhere without protection. 
-
+Cleaning such structure leads to micro-optimisation.
 
 .. code-block:: php
    
@@ -28,9 +28,6 @@ The check may be removed from the method, when the method is not called elsewher
    }
    
    ?>
-
-
-Cleaning such structure leads to micro-optimisation.
 
 Suggestions
 ___________

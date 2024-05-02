@@ -9,7 +9,6 @@ Simplify Regex
 
 PRCE regex are a powerful way to search inside strings, but they also come at the price of performance. When the query is simple enough, try using `strpos() <https://www.php.net/strpos>`_ or `stripos() <https://www.php.net/stripos>`_ instead.
 
-
 .. code-block:: php
    
    <?php

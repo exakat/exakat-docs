@@ -9,7 +9,6 @@ ext/mbstring
 
 ``mbstring`` provides multibyte specific string functions that help you deal with multibyte encodings in PHP.
 
-
 .. code-block:: php
    
    <?php

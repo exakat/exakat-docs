@@ -9,7 +9,6 @@ ext/uuid
 
 An interface to the libuuid system library. The libuuid library is used to generate unique identifiers for objects that may be accessible beyond the local system. The Linux implementation was created to uniquely identify ext2 filesystems created by a machine. This library generates UUIDs compatible with those created by the Open Software Foundation (OSF) Distributed Computing Environment (DCE) utility uuidgen.
 
-
 .. code-block:: php
    
    <?php

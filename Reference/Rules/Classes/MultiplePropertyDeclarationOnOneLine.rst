@@ -9,7 +9,6 @@ Multiple Property Declaration On One Line
 
 Keeping properties separate helps documenting and refactoring them independently.
 
-
 .. code-block:: php
    
    <?php

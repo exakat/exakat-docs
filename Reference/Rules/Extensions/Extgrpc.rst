@@ -7,7 +7,6 @@ ext/grpc
 
   Extension for GRPC : A high performance, open-source universal RPC framework.
 
-
 .. code-block:: php
    
    <?php

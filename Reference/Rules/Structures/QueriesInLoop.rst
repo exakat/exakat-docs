@@ -12,7 +12,9 @@ Querying an external database in a loop usually leads to performances problems. 
 This problem applies also to prepared statement : when such statement are called in a loop, they are slower than one-time large queries.
 
 It is recommended to reduce the number of queries by making one query, and dispatching the results afterwards. This is true with SQL databases, graph queries, LDAP queries, etc. 
+This optimisation is not always possible : for example, some SQL queries may not be prepared, like ``DROP TABLE`` or ``DESC``. ``UPDATE`` commands often update one row at a time, and grouping such queries may be counter-productive or unsafe. 
 
+This analysis looks for query calls inside loops, and within one functioncall.
 
 .. code-block:: php
    
@@ -43,11 +45,6 @@ It is recommended to reduce the number of queries by making one query, and dispa
    }
    
    ?>
-
-
-This optimisation is not always possible : for example, some SQL queries may not be prepared, like ``DROP TABLE`` or ``DESC``. ``UPDATE`` commands often update one row at a time, and grouping such queries may be counter-productive or unsafe. 
-
-This analysis looks for query calls inside loops, and within one functioncall.
 
 See also `E N+1 PROBLEM IN ORMS SOLVING THE N+1 PROBLEM IN ORMS <https://thecodingmachine.io/solving-n-plus-1-problem-in-orms>`_.
 

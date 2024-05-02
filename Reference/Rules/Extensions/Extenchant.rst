@@ -7,8 +7,7 @@ ext/enchant
 
   Extension Enchant.
 
-Enchant is the PHP binding for the `Enchant spelling library <https://www.php.net/manual/en/book.enchant.php>`_. Enchant steps in to provide uniformity and conformity on top of all spelling libraries, and implement certain features that may be lacking in any individual provider library. 
-
+Enchant is the PHP binding for the `Enchant spelling library <https://www.php.net/manual/en/book.enchant.php>`_. Enchant steps in to provide uniformity and conformity on top of all spelling libraries, and implement certain features that may be lacking in any individual provider library.
 
 .. code-block:: php
    

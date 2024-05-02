@@ -8,7 +8,7 @@ Mismatched Typehint
   Relayed arguments don't have the same typehint.
 
 Typehint acts as a filter method. When an object is checked with a first class, and then checked again with a second distinct class, the whole process is always false : $a can't be of two different classes at the same time.
-
+Note : This analysis currently doesn't check generalisation of classes : for example, when B is a child of BB, it is still reported as a mismatch.
 
 .. code-block:: php
    
@@ -26,9 +26,6 @@ Typehint acts as a filter method. When an object is checked with a first class, 
    }
    
    ?>
-
-
-Note : This analysis currently doesn't check generalisation of classes : for example, when B is a child of BB, it is still reported as a mismatch.
 
 Suggestions
 ___________

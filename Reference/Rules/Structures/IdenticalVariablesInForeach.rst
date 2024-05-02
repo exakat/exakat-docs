@@ -7,8 +7,7 @@ Identical Variables In Foreach
 
   Do not use the same variable names as a `foreach() <https://www.php.net/manual/en/control-structures.foreach.php>`_ source and one of its blind variables. 
 
-`Foreach() <https://www.php.net/manual/en/control-structures.foreach.php>`_ makes a copy of the original data while working on it : this prevents any interference. Yet, when the source and the blind variable is the same, the source will have changed after the loop. 
-
+`Foreach() <https://www.php.net/manual/en/control-structures.foreach.php>`_ makes a copy of the original data while working on it : this prevents any interference. Yet, when the source and the blind variable is the same, the source will have changed after the loop.
 
 .. code-block:: php
    

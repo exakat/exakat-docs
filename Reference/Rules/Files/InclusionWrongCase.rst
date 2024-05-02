@@ -7,7 +7,6 @@ Inclusion Wrong Case
 
   Inclusion should follow exactly the case of included files and path. This prevents the infamous case-sensitive filesystem bug, where files are correctly included in a case-insensitive system, and failed to be when moved to production.
 
-
 .. code-block:: php
    
    <?php

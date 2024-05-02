@@ -9,7 +9,6 @@ Typo 3 usage
 
 The current supported version is 11.4
 
-
 .. code-block:: php
    
    <?php

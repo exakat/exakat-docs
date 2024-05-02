@@ -8,7 +8,7 @@ Multiples Identical Case
   Some cases are defined multiple times, but only one will be processed. Check the list of cases, and remove the extra one.
 
 Exakat finds the value of the cases as much as possible, and ignore any dynamic cases (using variables).
-
+It is also possible to write a valid switch statement, with all identical cases, and yet, different meaning each time. This is considered an edge case, and shall be manually removed.
 
 .. code-block:: php
    
@@ -31,30 +31,6 @@ Exakat finds the value of the cases as much as possible, and ignore any dynamic 
            break; 
        default:
            
-   }
-   ?>
-
-
-It is also possible to write a valid switch statement, with all identical cases, and yet, different meaning each time. This is considered an edge case, and shall be manually removed.
-
-
-.. code-block:: php
-   
-   <?php
-   $a = 10;
-   
-   switch (13) {
-       case ++$a: 
-           echo '1) '. $a;
-           break;
-       
-       case ++$a: 
-           echo '2) '. $a;
-           break;
-       
-       case ++$a: 
-           echo '3) '. $a;
-           break;
    }
    ?>
 

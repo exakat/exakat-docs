@@ -19,7 +19,6 @@ There are 8 new classes :
 * ``ReflectionType``
 * ``AssertionError``
 
-
 .. code-block:: php
    
    <?php

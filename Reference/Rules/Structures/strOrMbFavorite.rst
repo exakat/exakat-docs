@@ -8,19 +8,6 @@ Mono Or Multibytes Favorite
   PHP handles strings wity bytes, and also support multibytes with the mbstring extension. This analysis reports when the mono or the multi byte version has dominance.
 
 The dominant one is reported when it has over 90% of usage. The remaining cases should be uniformed, so has to make this code consistent.
-
-
-.. code-block:: php
-   
-   <?php
-   
-   echo strlen($string) . PHP_EOL;
-   
-   echo mb_strlen($string) . PHP_EOL;
-   
-   ?>
-
-
 Sometimes, the same code may make usage of both the versions, depending on the manipulated string. For example, array index as single bytes strings, while user labels as multi-bytes. 
 
 The following functions are used for the analysis : 
@@ -40,9 +27,17 @@ The following functions are used for the analysis :
 + `mb_chr() <https://www.php.net/mb_chr>`_          =>  `chr() <https://www.php.net/chr>`_
 + `mb_ord() <https://www.php.net/mb_ord>`_          =>  `ord() <https://www.php.net/ord>`_
 + `mb_parse_str() <https://www.php.net/mb_parse_str>`_    =>  `parse_str() <https://www.php.net/parse_str>`_
-
-
 This rule doesn't detect mb_string overloading, which remplace some of the mono-bytes functions by their mbstring counterpart, without changing the calls in the code.
+
+.. code-block:: php
+   
+   <?php
+   
+   echo strlen($string) . PHP_EOL;
+   
+   echo mb_strlen($string) . PHP_EOL;
+   
+   ?>
 
 Suggestions
 ___________

@@ -7,7 +7,6 @@ Throw
 
   List of thrown exceptions.
 
-
 .. code-block:: php
    
    <?php

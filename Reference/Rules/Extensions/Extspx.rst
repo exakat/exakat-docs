@@ -5,8 +5,7 @@
 ext/spx
 +++++++
 
-  SPX, which stands for Simple Profiling eXtension, is just another profiling extension for PHP. 
-
+  SPX, which stands for Simple Profiling eXtension, is just another profiling extension for PHP.
 
 .. code-block:: php
    

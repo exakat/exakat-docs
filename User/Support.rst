@@ -198,6 +198,7 @@ List of external services whose configuration files has been commited in the cod
 * `styleci <https://styleci.io/>`_ - .styleci.yml
 * `stylelint <https://stylelint.io/>`_ - .stylelintrc, .stylelintignore, .stylelintrc.json, stylelint.config.js
 * `sublimelinter <http://www.sublimelinter.com/en/latest/>`_ - .csslintrc
+* `supervisor <http://supervisord.org/>`_ - supervisor.conf
 * `symfony <https://symfony.com/>`_ - symfony.lock
 * `svn <https://subversion.apache.org/>`_ - svn.revision, .svn, .svnignore
 * `tailwind <https://tailwindcss.com/>`_ - tailwind.config.js, tailwind.js

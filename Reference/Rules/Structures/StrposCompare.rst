@@ -8,40 +8,11 @@ Strpos()-like Comparison
   The `result <https://www.php.net/result>`_ of that function may be mistaken with an `error <https://www.php.net/error>`_.
 
 `strpos() <https://www.php.net/strpos>`_, along with several PHP native functions, returns a string position, starting at 0, or false, in case of failure. 
-
-
-.. code-block:: php
-   
-   <?php
-   
-   // This is the best comparison
-   if (strpos($string, 'a') === false) { }
-   
-   // This is OK, as 2 won't be mistaken with false
-   if (strpos($string, 'a') == 2) { }
-   
-   // strpos is one of the 26 functions that may behave this way
-   if (preg_match($regex, $string)) { } 
-   
-   // This works like above, catching the value for later reuse
-   if ($a = strpos($string, 'a')) { }
-   
-   // This misses the case where 'a' is the first char of the string
-   if (strpos($string, 'a')) { }
-   
-   // This misses the case where 'a' is the first char of the string, just like above
-   if (strpos($string, 'a') == 0) { }
-   
-   ?>
-
-
 It is recommended to check the `result <https://www.php.net/result>`_ of `strpos() <https://www.php.net/strpos>`_ with === or !==, so as to avoid confusing 0 and false. 
 
 This analyzer list all the `strpos() <https://www.php.net/strpos>`_-like functions that are directly compared with == or !=. `preg_match() <https://www.php.net/preg_match>`_, when its first argument is a literal, is omitted : this function only returns `NULL <https://www.php.net/manual/en/language.types.null.php>`_ in case of regex `error <https://www.php.net/error>`_. 
 
 The full list is the following : 
-
-
 * `array_search() <https://www.php.net/array_search>`_
 * `collator_compare() <https://www.php.net/collator_compare>`_
 * `collator_get_sort_key() <https://www.php.net/collator_get_sort_key>`_
@@ -68,6 +39,30 @@ The full list is the following :
 * `curl_exec() <https://www.php.net/curl_exec>`_
 
 In PHP 8.0, `str_contains() <https://www.php.net/str_contains>`_ will do the expected job of `strpos() <https://www.php.net/strpos>`_, with less confusion.
+
+.. code-block:: php
+   
+   <?php
+   
+   // This is the best comparison
+   if (strpos($string, 'a') === false) { }
+   
+   // This is OK, as 2 won't be mistaken with false
+   if (strpos($string, 'a') == 2) { }
+   
+   // strpos is one of the 26 functions that may behave this way
+   if (preg_match($regex, $string)) { } 
+   
+   // This works like above, catching the value for later reuse
+   if ($a = strpos($string, 'a')) { }
+   
+   // This misses the case where 'a' is the first char of the string
+   if (strpos($string, 'a')) { }
+   
+   // This misses the case where 'a' is the first char of the string, just like above
+   if (strpos($string, 'a') == 0) { }
+   
+   ?>
 
 See also `strpos not working correctly <https://bugs.php.net/bug.php?id=52198>`_.
 

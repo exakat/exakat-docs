@@ -7,7 +7,6 @@ Child Class Removes Typehint
 
   PHP 7.2 introduced the ability to remove a typehint when overloading a method. This is not valid code for older versions.
 
-
 .. code-block:: php
    
    <?php

@@ -7,8 +7,7 @@ Static Global Variables Confusion
 
   PHP can't have variable that are both `static <https://www.php.net/manual/en/language.oop5.static.php>`_ and global variable. While the syntax is legit, the variables will be alternatively global or `static <https://www.php.net/manual/en/language.oop5.static.php>`_.
 
-It is recommended to avoid using the same name for a global variable and a `static <https://www.php.net/manual/en/language.oop5.static.php>`_ variable. 
-
+It is recommended to avoid using the same name for a global variable and a `static <https://www.php.net/manual/en/language.oop5.static.php>`_ variable.
 
 .. code-block:: php
    

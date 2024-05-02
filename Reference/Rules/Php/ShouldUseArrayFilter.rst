@@ -8,7 +8,7 @@ Should Use array_filter()
   Should use `array_filter() <https://www.php.net/array_filter>`_.
 
 `array_filter() <https://www.php.net/array_filter>`_ is a native PHP function, that extract elements from an array, based on a custom call. Using `array_filter() <https://www.php.net/array_filter>`_ shortens your code, and allows for reusing the filtering logic across the application, instead of hard coding it every time.
-
+`array_filter() <https://www.php.net/array_filter>`_ is faster than `foreach() <https://www.php.net/manual/en/control-structures.foreach.php>`_ (with or without the `isset() <https://www.www.php.net/isset>`_ test) with 3 elements or more, and it is significantly faster beyond 5 elements. Memory consumption is the same.
 
 .. code-block:: php
    
@@ -33,9 +33,6 @@ Should Use array_filter()
    }
    
    ?>
-
-
-`array_filter() <https://www.php.net/array_filter>`_ is faster than `foreach() <https://www.php.net/manual/en/control-structures.foreach.php>`_ (with or without the `isset() <https://www.www.php.net/isset>`_ test) with 3 elements or more, and it is significantly faster beyond 5 elements. Memory consumption is the same.
 
 See also `array_filter <https://php.net/array_filter>`_.
 

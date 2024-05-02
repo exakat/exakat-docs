@@ -9,7 +9,6 @@ ext/lua
 
 'Lua is a powerful, fast, light-weight, embeddable scripting language.' This extension embeds the lua interpreter and offers an OO-API to lua variables and functions.
 
-
 .. code-block:: php
    
    <?php

@@ -5,7 +5,7 @@ All
 
 All is a dummy ruleset, which includes all the rules. It is mostly used internally.
 
-Total : 1645 analysis
+Total : 1648 analysis
 
 * :ref:`adding-zero`
 * :ref:`ambiguous-array-index`
@@ -215,7 +215,7 @@ Total : 1645 analysis
 * :ref:`function-subscripting`
 * :ref:`nested-loops`
 * :ref:`closing-tags`
-* :ref:`I?=-usage`
+* :ref:`php-echo-tag-usage`
 * :ref:`static-methods-can't-contain-$this`
 * :ref:`closure-may-use-$this`
 * :ref:`while(list()-=-each())`
@@ -1230,7 +1230,7 @@ Total : 1645 analysis
 * :ref:`uninitialized-property`
 * :ref:`wrong-typed-property-default`
 * :ref:`signature-trailing-comma`
-* :ref:`hidden-nullable-typehint`
+* :ref:`implicit-nullable-type`
 * :ref:`fn-argument-variable-confusion`
 * :ref:`missing-abstract-method`
 * :ref:`throw-was-an-expression`
@@ -1652,6 +1652,9 @@ Total : 1645 analysis
 * :ref:`include-variables`
 * :ref:`no-named-parameters`
 * :ref:`static-inclusions`
+* :ref:`deprecated-attribute`
+* :ref:`constant-used-only-once`
+* :ref:`constants-relayconstant`
 
 Specs
 _____

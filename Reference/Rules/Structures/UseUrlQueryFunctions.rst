@@ -13,7 +13,6 @@ Should Use Url Query Functions
 
 Those functions include extra checks : for example, `http_build_query() <https://www.php.net/http_build_query>`_ adds `urlencode() <https://www.php.net/urlencode>`_ call on the values, and allow for choosing the separator and the Query string format.
 
-
 .. code-block:: php
    
    <?php

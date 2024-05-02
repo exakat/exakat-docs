@@ -9,7 +9,7 @@ No Hardcoded Ip
 
 It is recommended to move such configuration in external files or databases, for each update. 
 This may also come handy when testing. 
-
+``127.0.0.1``, ``\:\:1`` and ``\:\:0`` are omitted, and not considered as a violation.
 
 .. code-block:: php
    
@@ -25,9 +25,6 @@ This may also come handy when testing.
    $thisIsNotAnIP = '2133:1387:9393:5330';
    
    ?>
-
-
-``127.0.0.1``, ``\:\:1`` and ``\:\:0`` are omitted, and not considered as a violation.
 
 See also `Use of Hardcoded IPv4 Addresses <https://docs.microsoft.com/en-us/windows/desktop/winsock/use-of-hardcoded-ipv4-addresses-2>`_ and `Never hard code sensitive information <https://wiki.sei.cmu.edu/confluence/display/java/MSC03-J.+Never+hard+code+sensitive+information>`_.
 

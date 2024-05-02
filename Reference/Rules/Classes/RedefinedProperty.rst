@@ -8,7 +8,11 @@ Redefined Property
   Property redefined in a `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ class. 
 
 Using heritage, it is possible to define several times the same property, at different levels of the hierarchy.
+When this is the case, it is difficult to understand which class will actually handle the property. 
 
+In the case of a private property, the different instances will stay distinct. In the case of protected or public properties, they will all share the same value. 
+
+It is recommended to avoid redefining the same property in a hierarchy.
 
 .. code-block:: php
    
@@ -24,13 +28,6 @@ Using heritage, it is possible to define several times the same property, at dif
    }
    
    ?>
-
-
-When this is the case, it is difficult to understand which class will actually handle the property. 
-
-In the case of a private property, the different instances will stay distinct. In the case of protected or public properties, they will all share the same value. 
-
-It is recommended to avoid redefining the same property in a hierarchy.
 
 Suggestions
 ___________

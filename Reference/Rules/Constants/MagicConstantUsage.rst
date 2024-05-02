@@ -16,6 +16,8 @@ Magic Constant Usage
 + ``__METHOD__``
 + ``__NAMESPACE__``
 
+
+
 .. code-block:: php
    
    <?php

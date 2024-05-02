@@ -5,7 +5,7 @@
 Could Be array_combine()
 ++++++++++++++++++++++++
 
-  This rule suggests using the native function `array_combine() <https://www.php.net/array_combine>`_ to merge two arrays in a hash. 
+  This rule suggests using the native function `array_combine() <https://www.php.net/array_combine>`_ to merge two arrays into a hash. `array_combine() <https://www.php.net/array_combine>`_ takes the keys and the values from two distinct arrays, and merge them into one.
 
 .. code-block:: php
    

@@ -11,7 +11,6 @@ Magic Methods
 
 ``__construct`` and ``__destruct`` are omitted here, as they are routinely used to create and destroy objects.
 
-
 .. code-block:: php
    
    <?php

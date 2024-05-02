@@ -7,7 +7,6 @@ PHP7 Dirname
 
   `dirname() <https://www.php.net/dirname>`_ has a second argument that represents the number of `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ folder to follow. This prevent us from using nested `dirname() <https://www.php.net/dirname>`_ calls to reach an grand-`parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ direct.
 
-
 .. code-block:: php
    
    <?php

@@ -7,8 +7,7 @@ Could Be Abstract Method
 
   A method can be made abstract, when all the class's children implement it. 
 
-Since the method will also loose its body, it should not be refered in any calls. 
-
+Since the method will also loose its body, it should not be refered in any calls.
 
 .. code-block:: php
    

@@ -7,8 +7,7 @@ ext/redis
 
   Extension ext/redis.
 
-The phpredis extension provides an API for communicating with the Redis key-value store. 
-
+The phpredis extension provides an API for communicating with the Redis key-value store.
 
 .. code-block:: php
    

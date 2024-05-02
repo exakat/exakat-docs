@@ -7,7 +7,6 @@ Functions Using Reference
 
   Functions and methods using references in their signature.
 
-
 .. code-block:: php
    
    <?php

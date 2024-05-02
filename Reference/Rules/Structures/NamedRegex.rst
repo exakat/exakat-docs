@@ -11,8 +11,7 @@ From the manual : It is possible to name a subpattern using the syntax ``(?P<nam
 
 Naming subpatterns makes it easier to know what is read from the results of the subpattern : for example, ``$r['name']`` has more meaning than ``$r[1]``. 
 
-Named subpatterns may also be shifted in the regex without impact on the resulting array. 
-
+Named subpatterns may also be shifted in the regex without impact on the resulting array.
 
 .. code-block:: php
    

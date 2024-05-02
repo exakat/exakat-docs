@@ -6,7 +6,7 @@ Special Integers
 ++++++++++++++++
 
   Short and incomplete list of integers that may hold special values. 
-
+The list includes powers of 2, duration in various units, factorial, ASCII codes and years.
 
 .. code-block:: php
    
@@ -19,9 +19,6 @@ Special Integers
    $day = 1440;
    
    ?>
-
-
-The list includes powers of 2, duration in various units, factorial, ASCII codes and years.
 
 Specs
 _____

@@ -7,7 +7,6 @@ Duplicate Named Parameter
 
   Two parameters have the same name in a method call. This will yield a Fatal `error <https://www.php.net/error>`_ at execution time.
 
-
 .. code-block:: php
    
    <?php

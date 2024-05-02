@@ -9,7 +9,6 @@ Locally Unused Property
 
 While this is syntactically correct, it is unusual that defined resources are used in a child class. It may be worth moving the definition to another class, or to move accessing methods to the class.
 
-
 .. code-block:: php
    
    <?php

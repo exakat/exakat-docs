@@ -11,7 +11,6 @@ PHP ignores any command that tries to unset a global variable, a `static <https:
 
 This is different from the garbage collector, which is run on its own schedule. It is also different from an explicit unset, aimed at freeing memory early : those are useful.
 
-
 .. code-block:: php
    
    <?php

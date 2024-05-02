@@ -9,7 +9,6 @@ ext/libxml
 
 These functions/constants are available as of PHP 5.1.0, and the following core extensions rely on this libxml extension: DOM, libxml, SimpleXML, SOAP, WDDX, XSL, XML, `XMLReader <https://www.php.net/xmlreader>`_, XMLRPC and `XMLWriter <https://www.php.net/xmlwriter>`_.
 
-
 .. code-block:: php
    
    <?php

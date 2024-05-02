@@ -7,8 +7,7 @@ Don't Reuse Foreach Source
 
   It is dangerous to reuse the same variable inside a loop that use it as a source.
 
-PHP actually takes a copy of the source, so the `foreach() <https://www.php.net/manual/en/control-structures.foreach.php>`_ loop is not affected by the modification. On the other hand, the source of the loop is modified after the loop (and actually, also during), which may come as a surprise to a later coder. 
-
+PHP actually takes a copy of the source, so the `foreach() <https://www.php.net/manual/en/control-structures.foreach.php>`_ loop is not affected by the modification. On the other hand, the source of the loop is modified after the loop (and actually, also during), which may come as a surprise to a later coder.
 
 .. code-block:: php
    

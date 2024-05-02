@@ -7,7 +7,6 @@ Use Variable Created Inside Loop
 
   When a variable is created inside a loop, it should also be used in the loop. Otherwise, the variable will be overwritten by each loop, and become dead code.
 
-
 .. code-block:: php
    
    <?php

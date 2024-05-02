@@ -8,7 +8,7 @@ Incoming Date Formats
   This is the list of format string used when creating dates. 
 
 This is particularly interesting for relative time strings inventories.
-
+This doesn't collect the dynamical dates, built from strings. `strtotime() <https://www.php.net/strtotime>`_ and date\:\:createFromFormat() are used.
 
 .. code-block:: php
    
@@ -17,9 +17,6 @@ This is particularly interesting for relative time strings inventories.
    echo strtotime("now"), "\n";
    
    ?>
-
-
-This doesn't collect the dynamical dates, built from strings. `strtotime() <https://www.php.net/strtotime>`_ and date\:\:createFromFormat() are used.
 
 See also `DateTimeImmutable::createFromFormat <https://www.php.net/manual/en/datetime.createfromformat.php>`_.
 

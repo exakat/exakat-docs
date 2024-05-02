@@ -9,7 +9,6 @@ Rewrote Final Class Constant
 
 It is possible to write code that lints, when the classes are in different files. Such overwrites will only be detected at execution time.
 
-
 .. code-block:: php
    
    <?php

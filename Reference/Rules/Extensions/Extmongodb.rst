@@ -9,8 +9,7 @@ ext/mongodb
 
 Do not mistake with extension `Mongo <https://www.php.net/Mongo>`_, the previous version.
 
-Mongodb driver supports both PHP and HHVM and is developed atop the `libmongoc <https://github.com/mongodb/mongo-c-driver>`_ and `libbson <https://github.com/mongodb/libbson>`_ libraries. 
-
+Mongodb driver supports both PHP and HHVM and is developed atop the `libmongoc <https://github.com/mongodb/mongo-c-driver>`_ and `libbson <https://github.com/mongodb/libbson>`_ libraries.
 
 .. code-block:: php
    

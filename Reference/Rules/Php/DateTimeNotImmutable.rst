@@ -6,7 +6,7 @@ DateTimeImmutable Is Not Immutable
 ++++++++++++++++++++++++++++++++++
 
   ``DateTimeImmutable`` is not really immutable because its internal state can be modified after instantiation.
-
+Inspired by the article from ``Matthias Noback``.
 
 .. code-block:: php
    
@@ -19,9 +19,6 @@ DateTimeImmutable Is Not Immutable
    echo $dt->getTimestamp() . "\n";
    
    ?>
-
-
-Inspired by the article from ``Matthias Noback``.
 
 See also `Effective immutability with PHPStan <https://matthiasnoback.nl/2022/07/effective-immutability-with-phpstan/>`_.
 

@@ -9,7 +9,6 @@ Class Overreach
 
 This feature is also called class invasion.
 
-
 .. code-block:: php
    
    <?php

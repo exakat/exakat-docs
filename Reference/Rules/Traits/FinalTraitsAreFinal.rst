@@ -5,8 +5,7 @@
 Final Traits Are Final
 ++++++++++++++++++++++
 
-  A final method in a trait is also final when in its importing class. This means that the importing class may redefine it, but not the children. 
-
+  A final method in a trait is also final when in its importing class. This means that the importing class may redefine it, but not the children.
 
 .. code-block:: php
    

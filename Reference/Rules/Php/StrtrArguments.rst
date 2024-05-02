@@ -9,7 +9,6 @@ Strtr Arguments
 
 In particular, `strtr() <https://www.php.net/strtr>`_ works on strings of the same size, and cannot be used to remove chars.
 
-
 .. code-block:: php
    
    <?php

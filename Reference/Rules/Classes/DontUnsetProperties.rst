@@ -8,7 +8,9 @@ Don't Unset Properties
   Don't unset properties. They would go undefined, and raise warnings of undefined properties, even though the property is explicitly defined in the original class. 
 
 When getting rid of a property, assign it to `null`. This keeps the property defined in the object, yet allows existence check without errors.
+This analysis works on properties and `static <https://www.php.net/manual/en/language.oop5.static.php>`_ properties. It also reports magic properties being unset.
 
+Thanks for `Benoit Burnichon <https://twitter.com/BenoitBurnichon>`_ for the original idea.
 
 .. code-block:: php
    
@@ -36,11 +38,6 @@ When getting rid of a property, assign it to `null`. This keeps the property def
    var_dump($a->c === null);
    
    ?>
-
-
-This analysis works on properties and `static <https://www.php.net/manual/en/language.oop5.static.php>`_ properties. It also reports magic properties being unset.
-
-Thanks for `Benoit Burnichon <https://twitter.com/BenoitBurnichon>`_ for the original idea.
 
 Suggestions
 ___________

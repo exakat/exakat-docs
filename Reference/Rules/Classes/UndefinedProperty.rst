@@ -7,13 +7,9 @@ Undefined Properties
 
   List of properties that are not explicitly defined in the class, its parents or traits.
 
-
-
 It is possible to spot unidentified properties by using the PHP's magic methods ``__get`` and ``__set``. Even if the class doesn't use magic methods, any call to an undefined property will be directed to those methods, and they can be used as a canary, warning that the code is missing a definition. 
 
-
-
-In PHP 8.2, undefined properties are reported as deprecated. They will be a Fatal `Error <https://www.php.net/error>`_ in PHP 9.0.
+In PHP 8.2, undefined properties are reported as deprecated. They will become a Fatal `Error <https://www.php.net/error>`_ in PHP 9.0.
 
 .. code-block:: php
    

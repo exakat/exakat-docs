@@ -7,8 +7,7 @@ No Direct Access
 
   This expression protects files against direct access. It will kill the process if it realizes this is not supposed to be directly accessed.
 
-Those expressions are used in applications and framework, to prevent direct access to definition files. 
-
+Those expressions are used in applications and framework, to prevent direct access to definition files.
 
 .. code-block:: php
    

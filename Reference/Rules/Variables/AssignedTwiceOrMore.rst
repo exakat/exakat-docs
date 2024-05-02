@@ -11,7 +11,6 @@ While this is possible and quite common, it is also a good practice to avoid cha
 
 Incremental changes to a variables are not reported here.
 
-
 .. code-block:: php
    
    <?php

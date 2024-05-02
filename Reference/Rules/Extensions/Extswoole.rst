@@ -9,7 +9,6 @@ Swoole
 
 Swoole is an event-driven asynchronous & concurrent networking communication framework with high performance written only in C for PHP.
 
-
 .. code-block:: php
    
    <?php

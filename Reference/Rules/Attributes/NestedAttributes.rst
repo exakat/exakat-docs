@@ -6,7 +6,7 @@ Nested Attributes
 +++++++++++++++++
 
   Nested `attribute <https://www.php.net/attribute>`_ are `attribute <https://www.php.net/attribute>`_ in attributes. 
-
+Nested attributes are not available in PHP 8.0 and older. It is reported as an invalid constant expression.
 
 .. code-block:: php
    
@@ -21,9 +21,6 @@ Nested Attributes
        public string $name = '';
    }
    ?>
-
-
-Nested attributes are not available in PHP 8.0 and older. It is reported as an invalid constant expression.
 
 See also `PHP RFC: New in initializers <https://wiki.php.net/rfc/new_in_initializers>`_ and `New initializers`.
 

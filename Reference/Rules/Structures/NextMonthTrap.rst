@@ -12,7 +12,7 @@ Next Month Trap
 This happens to January, March, May, July, August and October. January is also vulnerable for 29 (not every year), 30 and 31. 
 
 To use '+1 month', rely on 'first day of next month' or 'last day of next month' to extract the next month's name. For longer interfaces, start from 'first day of next month'.
-
+Note that ``Datetime`` and ``DatetimeImmutable`` are also subject to the same trap.
 
 .. code-block:: php
    
@@ -27,9 +27,6 @@ To use '+1 month', rely on 'first day of next month' or 'last day of next month'
    echo date('F', strtotime('first day of next month',mktime(0,0,0,$i,31,2017))).PHP_EOL;
    
    ?>
-
-
-Note that ``Datetime`` and ``DatetimeImmutable`` are also subject to the same trap.
 
 See also `It is the 31st again <https://twitter.com/rasmus/status/925431734128197632>`_.
 

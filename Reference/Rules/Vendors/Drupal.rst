@@ -7,7 +7,6 @@ Drupal Usage
 
   This analysis reports usage of the Drupal CMS. The report is based on the usage of Drupal namespace.
 
-
 .. code-block:: php
    
    <?php

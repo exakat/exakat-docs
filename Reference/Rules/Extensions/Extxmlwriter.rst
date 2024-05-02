@@ -9,7 +9,6 @@ ext/xmlwriter
 
 The `XMLWriter <https://www.php.net/xmlwriter>`_ extension wraps the libxml `xmlWriter <https://www.php.net/xmlwriter>`_ API inside PHP.
 
-
 .. code-block:: php
    
    <?php

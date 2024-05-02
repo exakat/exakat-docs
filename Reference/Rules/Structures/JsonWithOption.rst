@@ -8,7 +8,9 @@ Use json_decode() Options
   `json_decode() <https://www.php.net/json_decode>`_ returns objects by default, unless the second argument is set to ``TRUE`` or ``JSON_OBJECT_AS_ARRAY``. Then, it returns arrays.
 
 Avoid casting the returned value from `json_decode() <https://www.php.net/json_decode>`_, and use the second argument to directly set the correct type.
+Note that all objects will be turned into arrays, recursively. If you're expecting an array of objects, don't use the ``JSON_OBJECT_AS_ARRAY`` constant, and change your JSON code.
 
+Note that ``JSON_OBJECT_AS_ARRAY`` is the only constant : there is no defined constant to explicitly ask for an object as returned value.
 
 .. code-block:: php
    
@@ -23,11 +25,6 @@ Avoid casting the returned value from `json_decode() <https://www.php.net/json_d
    $array = (array) json_decode($json);
    
    ?>
-
-
-Note that all objects will be turned into arrays, recursively. If you're expecting an array of objects, don't use the ``JSON_OBJECT_AS_ARRAY`` constant, and change your JSON code.
-
-Note that ``JSON_OBJECT_AS_ARRAY`` is the only constant : there is no defined constant to explicitly ask for an object as returned value.
 
 See also `json_decode <https://www.php.net/json_decode>`_.
 

@@ -7,8 +7,7 @@ Constant : With Or Without Use
 
   This analysis collects the ways constants are called in the code : with a local import, alias or not, or with their fully qualified name.
 
-The analyzed code has less than 10% of one of them : for consistency reasons, it is recommended to make them all the same. 
-
+The analyzed code has less than 10% of one of them : for consistency reasons, it is recommended to make them all the same.
 
 .. code-block:: php
    

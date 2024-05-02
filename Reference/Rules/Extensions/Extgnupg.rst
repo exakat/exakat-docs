@@ -9,7 +9,6 @@ ext/gnupgp
 
 This module allows you to interact with gnupg.
 
-
 .. code-block:: php
    
    <?php

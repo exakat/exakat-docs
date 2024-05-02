@@ -7,8 +7,7 @@ Don't Add Seconds
 
   Avoid adding seconds to a date, and use ``DateTime\:\:modify`` to add an interval. 
 
-This method will handle situations like daylight savings, leap seconds and even leap days. 
-
+This method will handle situations like daylight savings, leap seconds and even leap days.
 
 .. code-block:: php
    

@@ -7,7 +7,6 @@ Dynamic Classes
 
   Dynamic calls of classes.
 
-
 .. code-block:: php
    
    <?php

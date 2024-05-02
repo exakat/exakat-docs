@@ -114,7 +114,7 @@ fopen() may be tested for existence, readability before using it. Although, it a
     $isReadable = @\fopen($filePath, 'r') !== false;
     
             if (!$filePath || !$isReadable) {
-                throw new \Exception(sprintf("Cannot open file %s \n", $filename));
+                throw new \Exception(sprintf(Cannot open file %s \n, $filename));
             }
 
 
@@ -362,7 +362,7 @@ strlen(($actiosXML) will never be negative, and hence, is always false. This exc
    
     if (strlen($actionsXML) < 0 &&
             @simplexml_load_string('<data>' . $actionsXML . '</data>', null, LIBXML_NOERROR) === false) {
-                Mage::throwException(Mage::helper('dataflow')->__("Actions XML is not valid."));
+                Mage::throwException(Mage::helper('dataflow')->__(Actions XML is not valid.));
             }
 
 
@@ -761,7 +761,7 @@ No need to call substr() to get only one char.
 
 .. code-block:: php
    
-    if (substr($LocationFromGet, 0, 1) == "/") {
+    if (substr($LocationFromGet, 0, 1) == /) {
         $LocationFromGet = substr($LocationFromGet, 1);
     }
 
@@ -778,7 +778,7 @@ No need to call substr() to get only one char.
 
 .. code-block:: php
    
-    $_hex = str_replace("#", "", $_hex);
+    $_hex = str_replace(#, , $_hex);
                 if(strlen($_hex) == 3) {
                 $r = hexdec(substr($_hex,0,1).substr($_hex,0,1));
                 $g = hexdec(substr($_hex,1,1).substr($_hex,1,1));
@@ -1122,7 +1122,7 @@ This code actually loads the file, join it, then split it again. file() would be
 
 .. code-block:: php
    
-    $markerdata = explode( "\n", implode( '', file( $filename ) ) );
+    $markerdata = explode( \n, implode( '', file( $filename ) ) );
 
 
 .. _case-cast-to-boolean:
@@ -2263,10 +2263,10 @@ Using self makes it obvious that Operator::GetSystemId() is a local call, while 
         static function ReadParams()
         {
             if(!empty($_POST[POST_EXTERN_REQUESTED_INTERNID]))
-                return Communication::GetParameter(POST_EXTERN_REQUESTED_INTERNID,"",$c,FILTER_SANITIZE_SPECIAL_CHARS,null,32);
-            else if(!empty($_GET["operator"]))
+                return Communication::GetParameter(POST_EXTERN_REQUESTED_INTERNID,,$c,FILTER_SANITIZE_SPECIAL_CHARS,null,32);
+            else if(!empty($_GET[operator]))
             {
-                $userid = Communication::GetParameter("operator","",$c,FILTER_SANITIZE_SPECIAL_CHARS,null,32,false,false);
+                $userid = Communication::GetParameter(operator,,$c,FILTER_SANITIZE_SPECIAL_CHARS,null,32,false,false);
                 $sysid = Operator::GetSystemId($userid);
     }
 
@@ -2405,18 +2405,18 @@ The ConstructHiddenValues function builds the ConstructHiddenSubValues function.
          *
          * @param array  $Value Array of values, can be multidimensional
          *
-         * @return string    Properly consctructed <input type="hidden"...> tags
+         * @return string    Properly consctructed <input type=hidden...> tags
          */
         function ConstructHiddenSubValues($Name, $Value)
         {
             if (is_array($Value)) {
-                $Result = "";
+                $Result = ;
                 foreach ($Value as $KeyName => $SubValue) {
-                    $Result .= ConstructHiddenSubValues("{$Name}[{$KeyName}]", $SubValue);
+                    $Result .= ConstructHiddenSubValues({$Name}[{$KeyName}], $SubValue);
                 }
             } else // Exit recurse
             {
-                $Result = "<input type="hidden" name=\"" . htmlspecialchars($Name) . "\" value=\"" . htmlspecialchars($Value) . "\" />\n";
+                $Result = "<input type="hidden" name=\\ . htmlspecialchars($Name) . "\" value=\"" . htmlspecialchars($Value) . "\" />\n";
             }
     
             return $Result;
@@ -2510,7 +2510,7 @@ This code actually loads the file, join it, then split it again. file() would be
 
 .. code-block:: php
    
-    $markerdata = explode( "\n", implode( '', file( $filename ) ) );
+    $markerdata = explode( \n, implode( '', file( $filename ) ) );
 
 
 .. _case-don't-echo-error:
@@ -4470,7 +4470,7 @@ This method returns the list of mime type, by using a hidden global value : ee()
     	 * List of Mime Types
     	 *
     	 * This is a list of mime types.  We use it to validate
-    	 * the "allowed types" set by the developer
+    	 * the allowed types set by the developer
     	 *
     	 * @param	string
     	 * @return	string
@@ -4523,12 +4523,12 @@ phpadsnew
 
 :ref:`mismatched-ternary-alternatives`, in phpAdsNew-2.0/admin/lib-misc-stats.inc.php:219. 
 
-This is an unusual way to apply a condition. $bgcolor is '#FFFFFF' by default, and if $i % 2, then $bcolor is '#F6F6F6';. A more readable ternary option would be '$bgcolor =  = 	$i % 2 ? "#FFFFFF" : "#F6F6F6";', and make a matched alternative branches.
+This is an unusual way to apply a condition. $bgcolor is '#FFFFFF' by default, and if $i % 2, then $bcolor is '#F6F6F6';. A more readable ternary option would be '$bgcolor =  = 	$i % 2 ? #FFFFFF : #F6F6F6;', and make a matched alternative branches.
 
 .. code-block:: php
    
-    $bgcolor = "#FFFFFF";
-    	$i % 2 ? 0 : $bgcolor = "#F6F6F6";
+    $bgcolor = #FFFFFF;
+    	$i % 2 ? 0 : $bgcolor = #F6F6F6;
 
 
 .. _case-openemr-structures-mismatchedternary:
@@ -4568,7 +4568,7 @@ This code actually loads the file, join it, then split it again. file() would be
 
 .. code-block:: php
    
-    $markerdata = explode( "\n", implode( '', file( $filename ) ) );
+    $markerdata = explode( \n, implode( '', file( $filename ) ) );
 
 
 .. _case-missing-cases-in-switch:
@@ -4849,19 +4849,19 @@ $fullElement is an array most of the time, but finally ends up being a string. S
 .. code-block:: php
    
     $fullElement = [];
-                $fullElement[] = '<div class="checkbox t3js-form-field-eval-null-placeholder-checkbox">';
-                $fullElement[] =     '<label for="' . $nullControlNameEscaped . '">';
-                $fullElement[] =         '<input type="hidden" name="' . $nullControlNameEscaped . '" value="' . $fallbackValue . '" />';
-                $fullElement[] =         '<input type="checkbox" name="' . $nullControlNameEscaped . '" id="' . $nullControlNameEscaped . '" value="1"' . $checked . $disabled . ' />';
+                $fullElement[] = '<div class=checkbox t3js-form-field-eval-null-placeholder-checkbox>';
+                $fullElement[] =     '<label for= . $nullControlNameEscaped . >';
+                $fullElement[] =         '<input type=hidden name= . $nullControlNameEscaped .  value= . $fallbackValue .  />';
+                $fullElement[] =         '<input type=checkbox name= . $nullControlNameEscaped .  id= . $nullControlNameEscaped .  value=1' . $checked . $disabled . ' />';
                 $fullElement[] =         $overrideLabel;
                 $fullElement[] =     '</label>';
                 $fullElement[] = '</div>';
-                $fullElement[] = '<div class="t3js-formengine-placeholder-placeholder">';
-                $fullElement[] =    '<div class="form-control-wrap" style="max-width:' . $width . 'px">';
-                $fullElement[] =        '<input type="text" class="form-control" disabled="disabled" value="' . $shortenedPlaceholder . '" />';
+                $fullElement[] = '<div class=t3js-formengine-placeholder-placeholder>';
+                $fullElement[] =    '<div class=form-control-wrap style=max-width: . $width . px>';
+                $fullElement[] =        '<input type=text class=form-control disabled=disabled value= . $shortenedPlaceholder .  />';
                 $fullElement[] =    '</div>';
                 $fullElement[] = '</div>';
-                $fullElement[] = '<div class="t3js-formengine-placeholder-formfield">';
+                $fullElement[] = '<div class=t3js-formengine-placeholder-formfield>';
                 $fullElement[] =    $expansionHtml;
                 $fullElement[] = '</div>';
                 $fullElement = implode(LF, $fullElement);
@@ -5163,7 +5163,7 @@ The first condition is fairly complex, and could also return early. Then, the se
                     if(empty(Server::$Configuration->File["gl_kbmr"]))
                     {
                         Logging::DebugLog(serialize($_SERVER));
-                        exit("err 888383; can't read \$_SERVER[\"HTTP_HOST\"] and \$_SERVER[\"PHP_SELF\"]");
+                        exit("err 888383; can't read $_SERVER["HTTP_HOST"] and $_SERVER["PHP_SELF"]");
                     }
                 }
     
@@ -5223,7 +5223,7 @@ There are 5 level of nesting here, from the beginning of the method, down to the
     				# check for .. subpage backlinks
     				$dotdotcount = 0;
     				$nodotdot = $target;
-    				while ( strncmp( $nodotdot, "../", 3 ) == 0 ) {
+    				while ( strncmp( $nodotdot, ../, 3 ) == 0 ) {
     					++$dotdotcount;
     					$nodotdot = substr( $nodotdot, 3 );
     				}
@@ -5270,7 +5270,7 @@ Interesting usage of both if/then, for the flow control, and ternary, for data p
 .. code-block:: php
    
     // le script de l'espace prive
-    	// Mettre a "index.php" si DirectoryIndex ne le fait pas ou pb connexes:
+    	// Mettre a index.php si DirectoryIndex ne le fait pas ou pb connexes:
     	// les anciens IIS n'acceptent pas les POST sur ecrire/ (#419)
     	// meme pb sur thttpd cf. http://forum.spip.net/fr_184153.html
     	if (!defined('_SPIP_ECRIRE_SCRIPT')) {
@@ -5342,7 +5342,7 @@ This code actually loads the file, join it, then split it again. file() would be
 
 .. code-block:: php
    
-    $markerdata = explode( "\n", implode( '', file( $filename ) ) );
+    $markerdata = explode( \n, implode( '', file( $filename ) ) );
 
 
 .. _case-next-month-trap:
@@ -5587,9 +5587,9 @@ Although the file is readable, file() may return false in case of failure. On th
 
 .. code-block:: php
    
-    $file = XOOPS_ROOT_PATH . "/modules/{$module_dir}/docs/changelog.txt";
+    $file = XOOPS_ROOT_PATH . /modules/{$module_dir}/docs/changelog.txt;
                 if ( is_readable( $file ) ) {
-                    $ret .= implode( '<br>', file( $file ) ) . "\n";
+                    $ret .= implode( '<br>', file( $file ) ) . \n;
                 }
 
 
@@ -5680,10 +5680,10 @@ Although they are commented just above, the values provided here are suspicious.
     // FTP parameters that you must customize.  If you are not sending
      // then set $FTP_SERVER to an empty string.
      //
-     $FTP_SERVER = "192.168.0.30";
-     $FTP_USER   = "openemr";
-     $FTP_PASS   = "secret";
-     $FTP_DIR    = "";
+     $FTP_SERVER = 192.168.0.30;
+     $FTP_USER   = openemr;
+     $FTP_PASS   = secret;
+     $FTP_DIR    = ;
 
 
 .. _case-nextcloud-structures-nohardcodedip:
@@ -5783,7 +5783,7 @@ This code actually loads the file, join it, then split it again. file() would be
 
 .. code-block:: php
    
-    $markerdata = explode( "\n", implode( '', file( $filename ) ) );
+    $markerdata = explode( \n, implode( '', file( $filename ) ) );
 
 
 .. _case-no-need-for-else:
@@ -6181,17 +6181,7 @@ This double-call returns ``$results`` as a boolean, preventing a spill of data t
    
     $result = $this->db_prime()->q(
     			[
-    				"DELETE FROM `[prefix]oauth2_clients`
-    				WHERE `id` = '%s'",
-    				"DELETE FROM `[prefix]oauth2_clients_grant_access`
-    				WHERE `id`	= '%s'",
-    				"DELETE FROM `[prefix]oauth2_clients_sessions`
-    				WHERE `id`	= '%s'" 
-    			],
-    			$id
-    		);
-    		unset($this->cache->{'/'});
-    		return !!$result;
+    				DELETE FROM `[prefix]oauth2_clients`
 
 
 .. _case-tine20-structures-notnot:
@@ -6274,7 +6264,7 @@ Here, $template is modified, when its properties are modified. When only the pro
                 $template->cache_lifetime = $bcachetime;
             }
             $template->setCompileId($xobject->getVar('dirname', 'n'));
-            $tplName = ($tplName = $xobject->getVar('template')) ? "db:$tplName" : 'db:system_block_dummy.tpl';
+            $tplName = ($tplName = $xobject->getVar('template')) ? db:$tplName : 'db:system_block_dummy.tpl';
             $cacheid = $this->generateCacheId('blk_' . $xobject->getVar('bid'));
     // more code to the end of the method
 
@@ -6396,7 +6386,7 @@ Double-quotes are not needed here. If casting to string is important, the (strin
 .. code-block:: php
    
     foreach ($plugininfo['params'] as $key => $param) {
-    		$default["$key"] = $param['default'];
+    		$default[$key] = $param['default'];
     	}
 
 
@@ -6413,8 +6403,8 @@ Both concatenations could be merged, independently. If readability is important,
 .. code-block:: php
    
     public static function removeFile($path, $filename) {
-    		if (file_exists("$path" . "$filename")) {
-    			unlink("$path" . "$filename");
+    		if (file_exists($path . $filename)) {
+    			unlink($path . $filename);
     		}
     	}
 
@@ -6764,10 +6754,10 @@ An actual phpinfo(), available during installation. Note that the phpinfo() is a
     <center>
     
         <form method=post>
-            <input type=submit name=phpinfo value="PHP Info">
+            <input type=submit name=phpinfo value=PHP Info>
         </form>
         <form method=post>
-            <input type=submit name=gdinfo value="GD Info">
+            <input type=submit name=gdinfo value=GD Info>
         </form>
     
     </center>
@@ -6920,7 +6910,7 @@ phpadsnew
 
 :ref:`preprocessable`, in phpAdsNew-2.0/adview.php:302. 
 
-Each call to chr() may be done before. First, chr() may be replace with the hexadecimal sequence "0x3B"; Secondly, 0x3b is a rather long replacement for a simple semi-colon. The whole pragraph could be stored in a separate file, for easier modifications. 
+Each call to chr() may be done before. First, chr() may be replace with the hexadecimal sequence 0x3B; Secondly, 0x3b is a rather long replacement for a simple semi-colon. The whole pragraph could be stored in a separate file, for easier modifications. 
 
 .. code-block:: php
    
@@ -7220,19 +7210,10 @@ The value is SELECTed first in the database, and it is INSERTed if not. This may
 
 .. code-block:: php
    
-    $query = "select * from facility";
+    $query = select * from facility;
     $result = mysqli_query($con, $query);
     while ($row = mysqli_fetch_array($result)) {
-        $string = "update facility set 
-          
-              `name`    = 'Facility_{$row['id']}',
-              `phone`   = '(000) 000-0000'
-    
-            where `id` = {$row['id']}";
-    
-        mysqli_query($con, $string) or print "Error altering facility table \n";
-        $string = '';
-    }
+        $string = update facility set
 
 
 .. _case-randomly-sorted-arrays:
@@ -7672,15 +7653,15 @@ TeamPass
 .. code-block:: php
    
     if ($result == 1) {
-                    $return = "";
-                    $logError = "";
+                    $return = ;
+                    $logError = ;
                     $proceedIdentification = true;
                     $userPasswordVerified = false;
                     unset($_SESSION['hedgeId']);
                     unset($_SESSION['flickercode']);
                 } else {
                     if ($result < -10) {
-                        $logError = "ERROR: ".$result;
+                        $logError = ERROR:.$result;
                     } elseif ($result == -4) {
                         $logError = "Wrong response code, no more tries left.";
                     } elseif ($result == -3) {
@@ -7698,7 +7679,7 @@ TeamPass
                     echo '[{"value" : "'.$return.'", "user_admin":"',
                     isset($_SESSION['user_admin']) ? $_SESSION['user_admin'] : "",
                     '", "initial_url" : "'.@$_SESSION['initial_url'].'",
-                    "error" : "'.$logError.'"}]';
+                    "error" : "'.$logError.'""}]';
     
                     exit();
                 }
@@ -7719,15 +7700,15 @@ Typo3
     } elseif ($table === 'pages') {
                                     $parameters = ['id' => $this->id, 'pagesOnly' => 1, 'returnUrl' => GeneralUtility::getIndpEnv('REQUEST_URI')];
                                     $href = (string)$uriBuilder->buildUriFromRoute('db_new', $parameters);
-                                    $icon = '<a class="btn btn-default" href="' . htmlspecialchars($href) . '" title="' . htmlspecialchars($lang->getLL('new')) . '">'
+                                    $icon = '<a class=btn btn-default href= . htmlspecialchars($href) .  title= . htmlspecialchars($lang->getLL(new)) . >'
                                         . $spriteIcon->render() . '</a>';
                                 } else {
                                     $params = '&edit[' . $table . '][' . $this->id . ']=new';
                                     if ($table === 'pages') {
                                         $params .= '&overrideVals[pages][doktype]=' . (int)$this->pageRow['doktype'];
                                     }
-                                    $icon = '<a class="btn btn-default" href="#" onclick="' . htmlspecialchars(BackendUtility::editOnClick($params, '', -1))
-                                        . '" title="' . htmlspecialchars($lang->getLL('new')) . '">' . $spriteIcon->render() . '</a>';
+                                    $icon = '<a class=btn btn-default href=# onclick= . htmlspecialchars(BackendUtility::editOnClick($params, , -1))
+                                        .  title= . htmlspecialchars($lang->getLL(new)) . >' . $spriteIcon->render() . '</a>';
                                 }
 
 
@@ -7874,7 +7855,7 @@ phpadsnew
 
 :ref:`should-preprocess-chr()`, in phpAdsNew-2.0/adview.php:302. 
 
-Each call to chr() may be done before. First, chr() may be replace with the hexadecimal sequence "0x3B"; Secondly, 0x3b is a rather long replacement for a simple semi-colon. The whole pragraph could be stored in a separate file, for easier modifications. 
+Each call to chr() may be done before. First, chr() may be replace with the hexadecimal sequence 0x3B; Secondly, 0x3b is a rather long replacement for a simple semi-colon. The whole pragraph could be stored in a separate file, for easier modifications. 
 
 .. code-block:: php
    
@@ -8082,7 +8063,7 @@ This code could turn the string into an array, with the explode() function, and 
     				continue;
     			}
     
-    			if ($quoted == FALSE && ($char == '"' || $char == "'") && ($word === '' || $word == '-'))
+    			if ($quoted == FALSE && ($char == ' || $char == ") && ($word === '' || $word == '-'))
     			{
     				$quoted = TRUE;
     				$quote = $char;
@@ -8112,7 +8093,7 @@ This loops reviews the 'stack' and updates its elements. The same loop may lever
     						if ( array_key_exists( $token, self::$v ) ) {
     							$stack[ $i ] = self::$v[ $token ];
     						} else {
-    							return self::trigger( "undefined variable '$token' in function definition" );
+    							return self::trigger( undefined variable $token in function definition );
     						}
     					}
     				}
@@ -8360,11 +8341,11 @@ OpenConf
 
 :ref:`simplify-regex`, in openconf/include.php:964. 
 
-`\\%e` is not a special char for PCRE regex, although it look like it. It is a special char for date() or printf(). This preg_replace() may be upgraded to str_replace()
+`\%e` is not a special char for PCRE regex, although it look like it. It is a special char for date() or printf(). This preg_replace() may be upgraded to str_replace()
 
 .. code-block:: php
    
-    $conv = iconv($cp, 'utf-8', strftime(preg_replace("/\%e/", '%#d', $format), $time));
+    $conv = iconv($cp, 'utf-8', strftime(preg_replace(/\%e/, '%#d', $format), $time));
 
 
 .. _case-slice-arrays-first:
@@ -8728,7 +8709,7 @@ if $subnet['description'] is a string, the comparison with 0 turn it into a bool
 
 .. code-block:: php
    
-    $subnet['description'] = strlen($subnet['description']==0) ? "/" : $subnet['description'];
+    $subnet['description'] = strlen($subnet['description']==0) ? / : $subnet['description'];
 
 
 .. _case-expressionengine-structures-suspiciouscomparison:
@@ -8842,7 +8823,7 @@ The default case is actually processed after the switch, by the next if/then str
                 case 'component':
                 case 'priority':
                 case 'severity':
-                    return $ticket["{$column}_name"];
+                    return $ticket[{$column}_name];
                     break;
     
                 // Votes
@@ -9016,8 +8997,8 @@ When daylight saving strike, the email may suddenly be locked for 1 hour minus 3
    
     // Check lock time. Add a buffer of 30 seconds to the lock time (default request time)
                 if (!empty($mailing['locked']) && strtotime($mailing['locked']) > time() - 30) {
-                    echo "Current mail: '" . $subjectCurrentMailing . "'\n";
-                    echo "Wait " . (strtotime($mailing['locked']) + 30 - time()) . " seconds ...\n";
+                    echo Current mail: " . $subjectCurrentMailing . "\n;
+                    echo Wait . (strtotime($mailing['locked']) + 30 - time()) . seconds ...\n;
                     return;
                 }
 
@@ -9574,7 +9555,7 @@ unserialize() only extract a non-empty value here. But its content is not checke
 
 .. code-block:: php
    
-    $this->Customs = (!empty($_row["customs"])) ? @unserialize($_row["customs"]) : array();
+    $this->Customs = (!empty($_row[customs])) ? @unserialize($_row[customs]) : array();
 
 
 .. _case-unused-functions:
@@ -9672,7 +9653,7 @@ $gConf is not used in this method, and may be safely avoided.
     
             switch ($sort) {
                 case 'top':
-                    $order_by = " t1.`votes` DESC ";
+                    $order_by = t1.`votes` DESC;
                     break;
                 case 'rnd':
                     $order_by = " RAND() ";
@@ -9980,7 +9961,7 @@ E_WARNING is a valid value, but PHP documentation for trigger_error() explains t
 
 .. code-block:: php
    
-    trigger_error("Octal or hexadecimal string '" . $match[1] . "' not supported", E_WARNING)
+    trigger_error(Octal or hexadecimal string " . $match[1] . " not supported, E_WARNING)
 
 
 .. _case-shopware-functions-useconstantasarguments:
@@ -10212,18 +10193,18 @@ if (isset($time[$t])) { } else { } would put the important case in first place, 
     	} else {
     		$p = ($a + $b - $time[$t]) * 1000;
     		unset($time[$t]);
-    #			echo "'$p'";exit;
+    #			echo $p;exit;
     		if ($raw) {
     			return $p;
     		}
     		if ($p < 1000) {
     			$s = '';
     		} else {
-    			$s = sprintf("%d ", $x = floor($p / 1000));
+    			$s = sprintf(%d, $x = floor($p / 1000));
     			$p -= ($x * 1000);
     		}
     
-    		return $s . sprintf($s ? "%07.3f ms" : "%.3f ms", $p);
+    		return $s . sprintf($s ? %07.3f ms : %.3f ms, $p);
     	}
 
 
@@ -10554,11 +10535,11 @@ Difficut to guess what was before the block here. It doesn't have any usage for 
                     if ($new_row == false) {
                         ?>
     
-                        <div class="row">
+                        <div class=row>
                     <?php
                         $new_row = true;
                     } ?>
-                    <div class="col-sm-3">
+                    <div class=col-sm-3>
 
 
 .. _case-piwigo-structures-uselessbrackets:
@@ -10954,9 +10935,9 @@ $aParams is an argument : this code looks like the switch is reserved for future
     function getModulesBy($aParams = array())
     	{
     		$sMethod = 'getAll';
-            $sPostfix = $sWhereClause = "";
+            $sPostfix = $sWhereClause = ;
     
-            $sOrderClause = "ORDER BY `title`";
+            $sOrderClause = ORDER BY `title`;
             switch($aParams['type']) {
                 case 'path':
                 	$sMethod = 'getRow';
@@ -11041,7 +11022,7 @@ $_rawContent is unset after being sent to the stream. The variable is a paramete
         {
             if (Tinebase_Core::isLogLevel(Zend_Log::TRACE)) Tinebase_Core::getLogger()->trace(__METHOD__ . '::' . __LINE__ . ' Content: ' . $_rawContent);
             
-            $stream = fopen("php://temp", 'r+');
+            $stream = fopen(php://temp, 'r+');
             fputs($stream, $_rawContent);
             rewind($stream);
             

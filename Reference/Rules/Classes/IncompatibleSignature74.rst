@@ -18,7 +18,6 @@ The same signatures means the children class must have :
 
 This problem emits a fatal `error <https://www.php.net/error>`_, for abstract methods, or a warning `error <https://www.php.net/error>`_, for normal methods. Yet, it is difficult to lint, because classes are often stored in different files. As such, PHP do lint each file independently, as unknown `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ classes are not checked if not present. Yet, when executing the code, PHP lint the actual code and may encounter a fatal `error <https://www.php.net/error>`_.
 
-
 .. code-block:: php
    
    <?php

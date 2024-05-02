@@ -9,7 +9,6 @@ ext/lzf
 
 LZF is a very fast compression algorithm, ideal for saving space with only slight speed cost. It can be optimized for speed or space at the time of compilation.
 
-
 .. code-block:: php
    
    <?php

@@ -9,7 +9,6 @@ Should Use Foreach
 
 `Foreach() <https://www.php.net/manual/en/control-structures.foreach.php>`_ is the modern loop : it maps automatically every element of the array to a blind variable, and iterate. This is faster and safer.
 
-
 .. code-block:: php
    
    <?php

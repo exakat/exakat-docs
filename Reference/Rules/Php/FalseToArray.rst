@@ -6,7 +6,7 @@ False To Array Conversion
 +++++++++++++++++++++++++
 
   The auto vivification of false is deprecated. This feature is the automagical conversion of a boolean into an array, if needed.
-
+Until PHP 8.1, this was possible. This feature is deprecated in PHP 8.1, and will be removed in PHP 9.0.
 
 .. code-block:: php
    
@@ -18,9 +18,6 @@ False To Array Conversion
    $a[3] = 1;
    
    ?>
-
-
-Until PHP 8.1, this was possible. This feature is deprecated in PHP 8.1, and will be removed in PHP 9.0.
 
 See also `Autovivification from false <https://www.php.net/manual/en/migration81.deprecated.php#migration81.deprecated.core.autovivification-false>`_.
 

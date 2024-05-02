@@ -11,7 +11,7 @@ Void Is Not A Reference
    
    <?php
    
-   function ?foo() : void {}
+   function &foo() : void {}
    
    ?>
 

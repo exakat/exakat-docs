@@ -9,7 +9,6 @@ ext/mailparse
 
 Mailparse is an extension for parsing and working with email messages. It can deal with `RFC 822 (MIME) <http://www.faqs.org/rfcs/rfc822.html>`_ and `RFC 2045 (MIME) <http://www.faqs.org/rfcs/rfc2045.html>`_ compliant messages.
 
-
 .. code-block:: php
    
    <?php

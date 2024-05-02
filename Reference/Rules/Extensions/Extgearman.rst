@@ -7,8 +7,7 @@ ext/gearman
 
   Extension Gearman.
 
-Gearman is a generic application framework for farming out work to multiple machines or processes. 
-
+Gearman is a generic application framework for farming out work to multiple machines or processes.
 
 .. code-block:: php
    

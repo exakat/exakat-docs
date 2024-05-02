@@ -39,7 +39,7 @@ For example :
 
 
 
-Total : 37 analysis
+Total : 39 analysis
 
 * :ref:`constants-names`
 * :ref:`binary-glossary`
@@ -57,6 +57,7 @@ Total : 37 analysis
 * :ref:`unicode-blocks`
 * :ref:`url-list`
 * :ref:`hexadecimal-in-string`
+* :ref:`relay-function`
 * :ref:`invalid-octal-in-string`
 * :ref:`sql-queries`
 * :ref:`regex-inventory`
@@ -78,6 +79,7 @@ Total : 37 analysis
 * :ref:`incoming-date-formats`
 * :ref:`ip`
 * :ref:`init-then-update`
+* :ref:`constants-relayconstant`
 
 Specs
 _____

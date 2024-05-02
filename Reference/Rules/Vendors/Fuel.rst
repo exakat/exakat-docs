@@ -6,7 +6,7 @@ Fuel PHP Usage
 ++++++++++++++
 
   This analysis reports usage of the Fuel PHP Framework. 
-
+Do not confuse fuelPHP and fuelCMS
 
 .. code-block:: php
    
@@ -15,12 +15,9 @@ Fuel PHP Usage
    class Presenter extends \Fuel\Core\Presenter
    {
        // namespace prefix
-       protected static $ns_prefix = 'Presenter\\';
+       protected static $ns_prefix = 'Presenter\';
    }
    ?>
-
-
-Do not confuse fuelPHP and fuelCMS
 
 See also `FuelPHP <https://fuelphp.com>`_.
 

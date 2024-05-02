@@ -7,7 +7,6 @@ Typehints
 
   List of all the types (classes or scalar) used in Typehinting.
 
-
 .. code-block:: php
    
    <?php

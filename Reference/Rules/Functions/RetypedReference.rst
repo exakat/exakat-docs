@@ -10,7 +10,9 @@ Retyped Reference
 It is possible for a referenced and typed parameter to be retyped during a method call. As such, the type of the used variable might both be checked and changed. 
 
 Using such syntax will lead to confusion in the code.
+This works on all types, scalars or objects. 
 
+This rule will detect variables which are defined with a placeholder value, or even undefined, and are filled during the method call.
 
 .. code-block:: php
    
@@ -25,11 +27,6 @@ Using such syntax will lead to confusion in the code.
    }
    
    ?>
-
-
-This works on all types, scalars or objects. 
-
-This rule will detect variables which are defined with a placeholder value, or even undefined, and are filled during the method call.
 
 Suggestions
 ___________

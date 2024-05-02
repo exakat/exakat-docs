@@ -11,7 +11,6 @@ Duplicate code in methods is often the results of code evolution, where a method
 
 This doesn't apply to `private` methods, which are reserved for one class.
 
-
 .. code-block:: php
    
    <?php

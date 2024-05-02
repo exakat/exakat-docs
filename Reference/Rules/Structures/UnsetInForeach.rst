@@ -7,7 +7,6 @@ Unset In Foreach
 
   Unset applied to the variables of a ``foreach`` loop are useless. Those variables are copies and not the actual value. Even if the value is a reference, unsetting it has no effect on the original array : the only effect may be indirect, on elements inside an array, or on properties inside an object.
 
-
 .. code-block:: php
    
    <?php

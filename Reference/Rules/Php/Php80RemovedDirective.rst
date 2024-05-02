@@ -13,6 +13,14 @@ You can detect valid directives with `ini_get() <https://www.php.net/ini_get>`_.
 
 See `Deprecation `track_errors <https://www.php.net/manual/en/errorfunc.configuration.php#ini.track-errors>`_ <https://www.php.net/manual/en/migration80.incompatible.php`_.
 
+.. code-block:: php
+   
+   <?php
+   
+   var_dump(ini_get('track_errors'));
+   
+   ?>
+
 Suggestions
 ___________
 

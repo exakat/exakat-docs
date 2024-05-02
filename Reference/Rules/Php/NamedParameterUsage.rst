@@ -9,7 +9,6 @@ Named Parameter Usage
 
 Named parameters works for both custom methods and PHP native functions.
 
-
 .. code-block:: php
    
    <?php

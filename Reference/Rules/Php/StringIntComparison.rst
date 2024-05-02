@@ -9,8 +9,7 @@ String Int Comparison
 
 In particular, strings that are equal to 0, or empty strings, have changed.
 
-This doesn't affect identity comparison, since the type is initially checked. 
-
+This doesn't affect identity comparison, since the type is initially checked.
 
 .. code-block:: php
    

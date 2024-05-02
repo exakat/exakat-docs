@@ -9,7 +9,6 @@ Test Then Cast
 
 The cast may introduce a distortion to the value, and still lead to the unwanted situation. For example, comparing to 0, then later casting to an int. The comparison to 0 is done without casting, and as such, 0.1 is different from 0. Yet, (int) 0.1 is actually 0, leading to a Division by 0 `error <https://www.php.net/error>`_.
 
-
 .. code-block:: php
    
    <?php

@@ -7,8 +7,7 @@ Converted Exceptions
 
   Converted exceptions is when an `exception <https://www.php.net/exception>`_ is caught, then immediately converted into another one and thrown again.
 
-Sometimes, extra operations take place, such as logging or `error <https://www.php.net/error>`_ couting. 
-
+Sometimes, extra operations take place, such as logging or `error <https://www.php.net/error>`_ couting.
 
 .. code-block:: php
    

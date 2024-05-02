@@ -5,8 +5,7 @@
 No Magic Method For Enum
 ++++++++++++++++++++++++
 
-  Enumeration cannot have a magic method, nor a constructor. 
-
+  Enumeration cannot have magic methods, nor a constructor. Enumeration cases are created as needed, and magic methods are interfering with the default behavior of enumerations.
 
 .. code-block:: php
    

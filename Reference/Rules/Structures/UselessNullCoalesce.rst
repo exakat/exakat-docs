@@ -9,7 +9,6 @@ Useless Null Coalesce
 
 This is particularly true for properties (`static <https://www.php.net/manual/en/language.oop5.static.php>`_ or not) and returntype of methods and functions. And, to a lesser extend, to variables and parameters.
 
-
 .. code-block:: php
    
    <?php

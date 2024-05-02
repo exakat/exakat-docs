@@ -7,8 +7,7 @@ ext/ibase
 
   Extensions ``Interbase`` and ``Firebird``.
 
-``Firebird`` is a relational database offering many ISO SQL-2003 features that runs on Linux, Windows, and a variety of Unix platforms. 
-
+``Firebird`` is a relational database offering many ISO SQL-2003 features that runs on Linux, Windows, and a variety of Unix platforms.
 
 .. code-block:: php
    

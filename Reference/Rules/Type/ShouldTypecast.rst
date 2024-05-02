@@ -8,7 +8,9 @@ Should Typecast
   When typecasting, it is better to use the casting operator, such as ``(int)`` or ``(bool)``.
 
 Functions such as `intval() <https://www.php.net/intval>`_ or `settype() <https://www.php.net/settype>`_ are always slower.
+This is a micro-optimisation, although such conversion may be use multiple times, leading to a larger performance increase.  
 
+Note that `intval() <https://www.php.net/intval>`_ may also be used to convert an integer to another base. `Intval() <https://www.php.net/intval>`_ called with 2 arguments are skipped by this rule.
 
 .. code-block:: php
    
@@ -25,11 +27,6 @@ Functions such as `intval() <https://www.php.net/intval>`_ or `settype() <https:
    
    
    ?>
-
-
-This is a micro-optimisation, although such conversion may be use multiple times, leading to a larger performance increase.  
-
-Note that `intval() <https://www.php.net/intval>`_ may also be used to convert an integer to another base. `Intval() <https://www.php.net/intval>`_ called with 2 arguments are skipped by this rule.
 
 Suggestions
 ___________

@@ -8,8 +8,7 @@ Use Positive Condition
   Whenever possible, use a positive condition. 
 
 Positive conditions are easier to understand, and lead to less understanding problems.
-Negative conditions are not reported when else is not present. 
-
+Negative conditions are not reported when else is not present.
 
 .. code-block:: php
    

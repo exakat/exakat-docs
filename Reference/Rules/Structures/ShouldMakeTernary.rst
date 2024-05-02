@@ -9,7 +9,6 @@ Should Use Ternary Operator
 
 They are less verbose, compatible with assignation and easier to read.
 
-
 .. code-block:: php
    
    <?php

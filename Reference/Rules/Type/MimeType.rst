@@ -5,8 +5,7 @@
 Mime Types
 ++++++++++
 
-  List of Mime Types that are mentioned in the code. 
-
+  List of Mime Types that are mentioned in the code.
 
 .. code-block:: php
    

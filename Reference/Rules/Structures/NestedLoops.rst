@@ -6,7 +6,9 @@ Nested Loops
 ++++++++++++
 
   Nested loops happens when a loop (while, do..while, for, foreach), is used inside another loop. 
+Such structure tends to require a lot of processing, as the size of both loops have to be multiplied to estimate the actual payload. They should be avoided as much as possible. This may no be always possible, though.
 
+Nested loops are worth a check for performances reasons, as they will process a lot of times the same instructions.
 
 .. code-block:: php
    
@@ -21,11 +23,6 @@ Nested Loops
    }
    
    ?>
-
-
-Such structure tends to require a lot of processing, as the size of both loops have to be multiplied to estimate the actual payload. They should be avoided as much as possible. This may no be always possible, though.
-
-Nested loops are worth a check for performances reasons, as they will process a lot of times the same instructions.
 
 Specs
 _____

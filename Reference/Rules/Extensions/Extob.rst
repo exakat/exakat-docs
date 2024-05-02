@@ -9,7 +9,6 @@ ext/ob
 
 The Output Control functions allow you to control when output is sent from the script.
 
-
 .. code-block:: php
    
    <?php

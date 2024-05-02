@@ -9,7 +9,6 @@ ext/exif
 
 The EXIF extension manipulates image meta data.
 
-
 .. code-block:: php
    
    <?php

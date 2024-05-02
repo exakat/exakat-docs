@@ -6,7 +6,7 @@ var_dump()... Usage
 +++++++++++++++++++
 
   `var_dump() <https://www.php.net/var_dump>`_, `print_r() <https://www.php.net/print_r>`_ or `var_export() <https://www.php.net/var_export>`_ should not be left in any production code. They are debugging functions.
-
+They may be tolerated during development time, but must be removed so as not to have any chance to be run in production.
 
 .. code-block:: php
    
@@ -22,9 +22,6 @@ var_dump()... Usage
    }
    
    ?>
-
-
-They may be tolerated during development time, but must be removed so as not to have any chance to be run in production.
 
 Suggestions
 ___________

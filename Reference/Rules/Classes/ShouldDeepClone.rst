@@ -9,8 +9,7 @@ Should Deep Clone
 
 This is where the magic method `__clone() <https://www.php.net/manual/en/language.oop5.magic.php>`_ comes into play. It is called, when defined, at clone time, so that the cloned object may clone all the needed sub-objects.
 
-It is recommended to use the `__clone() <https://www.php.net/manual/en/language.oop5.magic.php>`_ method whenever the objects hold objects. 
-
+It is recommended to use the `__clone() <https://www.php.net/manual/en/language.oop5.magic.php>`_ method whenever the objects hold objects.
 
 .. code-block:: php
    

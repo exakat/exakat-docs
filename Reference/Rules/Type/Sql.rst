@@ -7,8 +7,7 @@ SQL queries
 
   SQL queries, detected in literal strings. 
 
-SQL queries are detected with keywords, inside literals or concatenations. 
-
+SQL queries are detected with keywords, inside literals or concatenations.
 
 .. code-block:: php
    

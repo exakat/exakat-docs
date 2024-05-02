@@ -5,7 +5,7 @@ CE
 
 This ruleset is the Community Edition list. It holds all the analysis that are in the community edition version of Exakat.
 
-Total : 625 analysis
+Total : 624 analysis
 
 * :ref:`adding-zero`
 * :ref:`array-index`
@@ -153,7 +153,7 @@ Total : 625 analysis
 * :ref:`cast-usage`
 * :ref:`function-subscripting`
 * :ref:`nested-loops`
-* :ref:`I?=-usage`
+* :ref:`php-echo-tag-usage`
 * :ref:`static-methods-can't-contain-$this`
 * :ref:`while(list()-=-each())`
 * :ref:`multiples-identical-case`
@@ -447,7 +447,6 @@ Total : 625 analysis
 * :ref:`no-reference-for-ternary`
 * :ref:`unused-inherited-variable-in-closure`
 * :ref:`fallback-function`
-* :ref:`useless-catch`
 * :ref:`ext-hrtime`
 * :ref:`ext-xxtea`
 * :ref:`ext-uopz`

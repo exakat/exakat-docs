@@ -8,7 +8,7 @@ Setlocale() Uses Constants
   `setlocale() <https://www.php.net/setlocale>`_ don't use strings but constants. 
 
 The first argument of `setlocale() <https://www.php.net/setlocale>`_ must be one of the valid constants, ``LC_ALL``, ``LC_COLLATE``, ``LC_CTYPE``, ``LC_MONETARY``, ``LC_NUMERIC``, ``LC_TIME, `LC_MESSAGES <https://www.php.net/LC_MESSAGES>`_``.
-
+The PHP 5 usage of strings (same name as above, enclosed in ' or ") is not legit anymore in PHP 7 and later.
 
 .. code-block:: php
    
@@ -24,10 +24,7 @@ The first argument of `setlocale() <https://www.php.net/setlocale>`_ must be one
    
    ?>
 
-
-The PHP 5 usage of strings (same name as above, enclosed in ' or ") is not legit anymore in PHP 7 and later.
-
-See also `setlocale <https://www.php.net/setlocale>`_\.
+See also `setlocale <https://www.php.net/setlocale>`_.
 
 
 Suggestions

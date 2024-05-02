@@ -7,7 +7,6 @@ ext/pcre
 
   Extension ext/pcre. PCRE stands for Perl Compatible Regular Expression. It is a standard PHP extension.
 
-
 .. code-block:: php
    
    <?php

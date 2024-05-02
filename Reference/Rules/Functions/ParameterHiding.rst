@@ -11,7 +11,6 @@ While this is a legit syntax, parameter hiding tends to make the code confusing.
 
 Keep this code simple by removing the hiding parameter.
 
-
 .. code-block:: php
    
    <?php

@@ -7,8 +7,7 @@ Used Functions
 
   The functions below are used in the code.
 
-A function is used in the code when it is called literally, or as a string callback. 
-
+A function is used in the code when it is called literally, or as a string callback.
 
 .. code-block:: php
    

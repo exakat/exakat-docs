@@ -9,8 +9,7 @@ Useless Instructions
 
 For example, an addition whose `result <https://www.php.net/result>`_ is not stored in a variable, or immediately used, does nothing : it is actually performed, and the `result <https://www.php.net/result>`_ is lost. Just plain lost. In fact, PHP might detect it, and optimize it away. 
 
-Here the useless instructions that are spotted : 
-
+Here the useless instructions that are spotted :
 
 .. code-block:: php
    

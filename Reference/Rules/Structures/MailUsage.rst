@@ -9,7 +9,6 @@ Mail Usage
 
 The analysis is based on `mail() <https://www.php.net/mail>`_ function and various classes used to send mail.
 
-
 .. code-block:: php
    
    <?php

@@ -8,7 +8,9 @@ Unsupported Types With Operators
   Arrays, resources and objects are generally not accepted with unary and binary operators. 
 
 The operators are `+`, `-`, `*`, `/`, `**`, `%`, `<<`, `>>`, `&`, `|`, `^`, `~`, `++` and `--`.
+In PHP 8.0, the rules have been made stricter and more consistent. 
 
+The only valid operator is `+`, combined with arrays in both operands. Other situations throw ``TypeError``.
 
 .. code-block:: php
    
@@ -23,11 +25,6 @@ The operators are `+`, `-`, `*`, `/`, `**`, `%`, `<<`, `>>`, `&`, `|`, `^`, `~`,
    $b = $c[$a]; 
    
    ?>
-
-
-In PHP 8.0, the rules have been made stricter and more consistent. 
-
-The only valid operator is `+`, combined with arrays in both operands. Other situations throw ``TypeError``.
 
 See also `Stricter type checks for arithmetic/bitwise operators <https://wiki.php.net/rfc/arithmetic_operator_type_checks>`_ and `TypeError <https://www.php.net/manual/en/class.typeerror.php>`_.
 

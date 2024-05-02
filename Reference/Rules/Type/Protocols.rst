@@ -7,8 +7,7 @@ Protocol lists
 
   List of all protocols that were found in the code.
 
-From the manual : PHP comes with many built-in wrappers for various URL-style protocols for use with the filesystem functions such as `fopen() <https://www.php.net/fopen>`_, `copy() <https://www.php.net/copy>`_, `file_exists() <https://www.php.net/file_exists>`_ and `filesize() <https://www.php.net/filesize>`_. 
-
+From the manual : PHP comes with many built-in wrappers for various URL-style protocols for use with the filesystem functions such as `fopen() <https://www.php.net/fopen>`_, `copy() <https://www.php.net/copy>`_, `file_exists() <https://www.php.net/file_exists>`_ and `filesize() <https://www.php.net/filesize>`_.
 
 .. code-block:: php
    

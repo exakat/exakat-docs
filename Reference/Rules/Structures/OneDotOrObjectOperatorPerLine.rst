@@ -6,7 +6,8 @@ One Dot Or Object Operator Per Line
 +++++++++++++++++++++++++++++++++++
 
   Rule #4 of Object Calisthenics : Only one -> or . per line.
-
+This analysis will also catch the following cases : 
+When kept, simple, this rule has some edge cases which are left to the reader.
 
 .. code-block:: php
    
@@ -26,36 +27,6 @@ One Dot Or Object Operator Per Line
                     'b' . 
                     $c .
                     'd';
-   
-   ?>
-
-
-This analysis will also catch the following cases : 
-
-
-.. code-block:: php
-   
-   <?php
-       // set of multiples (concatenations or properties or methodcalls)
-       foo('a' . 'b', 'c'. 'd');
-       foo('a' . 'b', $c->d);
-   
-   ?>
-
-
-When kept, simple, this rule has some edge cases which are left to the reader.
-
-
-.. code-block:: php
-   
-   <?php
-   
-   $a = 'a' . 'b'
-        . 
-        'c' . 'd';
-   $c = $f->g('e' . 'f');
-   
-   $e = A::B::D;
    
    ?>
 

@@ -9,7 +9,6 @@ ext/seaslog
 
 An effective, fast, stable log extension for PHP.
 
-
 .. code-block:: php
    
    <?php

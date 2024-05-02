@@ -8,7 +8,7 @@ Should Use array_column()
   Avoid writing a whole slow loop, and use the native `array_column() <https://www.php.net/array_column>`_.
 
 `array_column() <https://www.php.net/array_column>`_ is a native PHP function, that extract a property or a index from a array of object, or a multidimensional array. This prevents the usage of foreach to collect those values.
-
+`array_column() <https://www.php.net/array_column>`_ is faster than `foreach() <https://www.php.net/manual/en/control-structures.foreach.php>`_ (with or without the `isset() <https://www.www.php.net/isset>`_ test) with 3 elements or more, and it is significantly faster beyond 5 elements. Memory consumption is the same.
 
 .. code-block:: php
    
@@ -29,9 +29,6 @@ Should Use array_column()
    }
    
    ?>
-
-
-`array_column() <https://www.php.net/array_column>`_ is faster than `foreach() <https://www.php.net/manual/en/control-structures.foreach.php>`_ (with or without the `isset() <https://www.www.php.net/isset>`_ test) with 3 elements or more, and it is significantly faster beyond 5 elements. Memory consumption is the same.
 
 See also `[blog] array_column() <https://benramsey.com/projects/array-column/>`_ and preprocess.
 

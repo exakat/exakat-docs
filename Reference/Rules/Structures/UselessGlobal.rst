@@ -6,7 +6,8 @@ Useless Global
 ++++++++++++++
 
   Global are useless in two cases. First, on super-globals, which are always globals, like `$_GET <https://www.php.net/manual/en/reserved.variables.get.php>`_; secondly, on variables that are not used.
-
+Also, PHP has superglobals, a special team of variables that are always available, whatever the context. 
+They are : $GLOBALS, $_SERVER, `$_GET <https://www.php.net/manual/en/reserved.variables.get.php>`_, `$_POST <https://www.php.net/manual/en/reserved.variables.post.php>`_, $_FILES, $_COOKIE, $_SESSION, `$_REQUEST <https://www.php.net/manual/en/reserved.variables.request.php>`_ and `$_ENV <https://www.php.net/manual/en/reserved.variables.env.php>`_.
 
 .. code-block:: php
    
@@ -23,10 +24,6 @@ Useless Global
    }
    
    ?>
-
-
-Also, PHP has superglobals, a special team of variables that are always available, whatever the context. 
-They are : $GLOBALS, $_SERVER, `$_GET <https://www.php.net/manual/en/reserved.variables.get.php>`_, `$_POST <https://www.php.net/manual/en/reserved.variables.post.php>`_, $_FILES, $_COOKIE, $_SESSION, `$_REQUEST <https://www.php.net/manual/en/reserved.variables.request.php>`_ and `$_ENV <https://www.php.net/manual/en/reserved.variables.env.php>`_.
 
 Suggestions
 ___________

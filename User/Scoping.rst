@@ -153,6 +153,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Arrays/WeakType";
    analyzer[] = "Arrays/WeirdIndex";
    analyzer[] = "Arrays/WithCallback";
+   analyzer[] = "Attributes/Deprecated";
    analyzer[] = "Attributes/Friend";
    analyzer[] = "Attributes/InjectableVersion";
    analyzer[] = "Attributes/MissingAttributeAttribute";
@@ -452,6 +453,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Constants/ConstRecommended";
    analyzer[] = "Constants/ConstantStrangeNames";
    analyzer[] = "Constants/ConstantUsage";
+   analyzer[] = "Constants/ConstantUsedOnce";
    analyzer[] = "Constants/Constantnames";
    analyzer[] = "Constants/CouldBeConstant";
    analyzer[] = "Constants/CouldUseConstant";
@@ -467,6 +469,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Constants/MagicConstantUsage";
    analyzer[] = "Constants/MultipleConstantDefinition";
    analyzer[] = "Constants/PhpConstantUsage";
+   analyzer[] = "Constants/RelayConstant";
    analyzer[] = "Constants/StrangeName";
    analyzer[] = "Constants/UndefinedConstants";
    analyzer[] = "Constants/UnusedConstants";
@@ -1813,6 +1816,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Arrays/WeakType'
      - 'Arrays/WeirdIndex'
      - 'Arrays/WithCallback'
+     - 'Attributes/Deprecated'
      - 'Attributes/Friend'
      - 'Attributes/InjectableVersion'
      - 'Attributes/MissingAttributeAttribute'
@@ -2112,6 +2116,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Constants/ConstRecommended'
      - 'Constants/ConstantStrangeNames'
      - 'Constants/ConstantUsage'
+     - 'Constants/ConstantUsedOnce'
      - 'Constants/Constantnames'
      - 'Constants/CouldBeConstant'
      - 'Constants/CouldUseConstant'
@@ -2127,6 +2132,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Constants/MagicConstantUsage'
      - 'Constants/MultipleConstantDefinition'
      - 'Constants/PhpConstantUsage'
+     - 'Constants/RelayConstant'
      - 'Constants/StrangeName'
      - 'Constants/UndefinedConstants'
      - 'Constants/UnusedConstants'
@@ -3568,6 +3574,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Classes/WrongTypedPropertyInit";
    analyzer[] = "Constants/BadConstantnames";
    analyzer[] = "Constants/ConstRecommended";
+   analyzer[] = "Constants/ConstantUsedOnce";
    analyzer[] = "Constants/CreatedOutsideItsNamespace";
    analyzer[] = "Constants/InvalidName";
    analyzer[] = "Constants/MultipleConstantDefinition";
@@ -3585,7 +3592,6 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Exceptions/ThrowRawExceptions";
    analyzer[] = "Exceptions/UncaughtExceptions";
    analyzer[] = "Exceptions/Unthrown";
-   analyzer[] = "Exceptions/UselessCatch";
    analyzer[] = "Exceptions/UselessTry";
    analyzer[] = "Files/InclusionWrongCase";
    analyzer[] = "Files/MissingInclude";
@@ -3619,7 +3625,6 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Functions/OnlyVariableForReference";
    analyzer[] = "Functions/OnlyVariablePassedByReference";
    analyzer[] = "Functions/RedeclaredPhpFunction";
-   analyzer[] = "Functions/RelayFunction";
    analyzer[] = "Functions/RetypedReference";
    analyzer[] = "Functions/ShouldUseConstants";
    analyzer[] = "Functions/ShouldYieldWithKey";
@@ -4083,6 +4088,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Classes/WrongTypedPropertyInit'
      - 'Constants/BadConstantnames'
      - 'Constants/ConstRecommended'
+     - 'Constants/ConstantUsedOnce'
      - 'Constants/CreatedOutsideItsNamespace'
      - 'Constants/InvalidName'
      - 'Constants/MultipleConstantDefinition'
@@ -4100,7 +4106,6 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Exceptions/ThrowRawExceptions'
      - 'Exceptions/UncaughtExceptions'
      - 'Exceptions/Unthrown'
-     - 'Exceptions/UselessCatch'
      - 'Exceptions/UselessTry'
      - 'Files/InclusionWrongCase'
      - 'Files/MissingInclude'
@@ -4134,7 +4139,6 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Functions/OnlyVariableForReference'
      - 'Functions/OnlyVariablePassedByReference'
      - 'Functions/RedeclaredPhpFunction'
-     - 'Functions/RelayFunction'
      - 'Functions/RetypedReference'
      - 'Functions/ShouldUseConstants'
      - 'Functions/ShouldYieldWithKey'
@@ -5299,6 +5303,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
 ::
 
  [Attributes]
+   analyzer[] = "Attributes/Deprecated";
    analyzer[] = "Attributes/Friend";
    analyzer[] = "Attributes/MissingAttributeAttribute";
    analyzer[] = "Attributes/ModifyImmutable";
@@ -5320,6 +5325,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
 
   rulesets:
     'Attributes':
+     - 'Attributes/Deprecated'
      - 'Attributes/Friend'
      - 'Attributes/MissingAttributeAttribute'
      - 'Attributes/ModifyImmutable'
@@ -5473,7 +5479,6 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Exceptions/OverwriteException";
    analyzer[] = "Exceptions/ThrowFunctioncall";
    analyzer[] = "Exceptions/ThrownExceptions";
-   analyzer[] = "Exceptions/UselessCatch";
    analyzer[] = "Extensions/Extamqp";
    analyzer[] = "Extensions/Extapache";
    analyzer[] = "Extensions/Extapc";
@@ -6111,7 +6116,6 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Exceptions/OverwriteException'
      - 'Exceptions/ThrowFunctioncall'
      - 'Exceptions/ThrownExceptions'
-     - 'Exceptions/UselessCatch'
      - 'Extensions/Extamqp'
      - 'Extensions/Extapache'
      - 'Extensions/Extapc'
@@ -6660,7 +6664,6 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Constants/UndefinedConstants";
    analyzer[] = "Exceptions/OverwriteException";
    analyzer[] = "Exceptions/ThrowFunctioncall";
-   analyzer[] = "Exceptions/UselessCatch";
    analyzer[] = "Functions/AliasesUsage";
    analyzer[] = "Functions/CallbackNeedsReturn";
    analyzer[] = "Functions/MustReturn";
@@ -6851,7 +6854,6 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Constants/UndefinedConstants'
      - 'Exceptions/OverwriteException'
      - 'Exceptions/ThrowFunctioncall'
-     - 'Exceptions/UselessCatch'
      - 'Functions/AliasesUsage'
      - 'Functions/CallbackNeedsReturn'
      - 'Functions/MustReturn'
@@ -7032,7 +7034,6 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Arrays/NonConstantArray";
    analyzer[] = "Arrays/WeakType";
    analyzer[] = "Arrays/WithCallback";
-   analyzer[] = "Attributes/Friend";
    analyzer[] = "Attributes/InjectableVersion";
    analyzer[] = "Attributes/MissingAttributeAttribute";
    analyzer[] = "Attributes/ModifyImmutable";
@@ -7215,7 +7216,6 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Exceptions/UncaughtExceptions";
    analyzer[] = "Exceptions/Unthrown";
    analyzer[] = "Exceptions/UnusedExceptionVariable";
-   analyzer[] = "Exceptions/UselessCatch";
    analyzer[] = "Exceptions/UselessTry";
    analyzer[] = "Extensions/Extamqp";
    analyzer[] = "Extensions/Extapache";
@@ -7657,7 +7657,6 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Arrays/NonConstantArray'
      - 'Arrays/WeakType'
      - 'Arrays/WithCallback'
-     - 'Attributes/Friend'
      - 'Attributes/InjectableVersion'
      - 'Attributes/MissingAttributeAttribute'
      - 'Attributes/ModifyImmutable'
@@ -7840,7 +7839,6 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Exceptions/UncaughtExceptions'
      - 'Exceptions/Unthrown'
      - 'Exceptions/UnusedExceptionVariable'
-     - 'Exceptions/UselessCatch'
      - 'Exceptions/UselessTry'
      - 'Extensions/Extamqp'
      - 'Extensions/Extapache'
@@ -10889,7 +10887,9 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Classes/MagicProperties";
    analyzer[] = "Classes/PromotedProperties";
    analyzer[] = "Constants/Constantnames";
+   analyzer[] = "Constants/RelayConstant";
    analyzer[] = "Functions/MultipleIdenticalClosure";
+   analyzer[] = "Functions/RelayFunction";
    analyzer[] = "Php/CookiesVariables";
    analyzer[] = "Php/DateFormats";
    analyzer[] = "Php/IncomingVariables";
@@ -10939,7 +10939,9 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Classes/MagicProperties'
      - 'Classes/PromotedProperties'
      - 'Constants/Constantnames'
+     - 'Constants/RelayConstant'
      - 'Functions/MultipleIdenticalClosure'
+     - 'Functions/RelayFunction'
      - 'Php/CookiesVariables'
      - 'Php/DateFormats'
      - 'Php/IncomingVariables'

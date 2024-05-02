@@ -7,8 +7,7 @@ Could Use self
 
   ``self`` keyword refers to the current class, or any of its parents. Using it is just as fast as the full class name, it is as readable and it is will not be changed upon class or namespace change.
 
-It is also routinely used in traits : there, ``self`` represents the class in which the trait is used, or the trait itself. 
-
+It is also routinely used in traits : there, ``self`` represents the class in which the trait is used, or the trait itself.
 
 .. code-block:: php
    

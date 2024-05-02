@@ -9,7 +9,6 @@ ext/password
 
 The password hashing API provides an easy to use wrapper around `crypt() <https://www.php.net/crypt>`_ and some other password hashing algorithms, to make it easy to create and manage passwords in a `secure <https://www.php.net/secure>`_ manner.
 
-
 .. code-block:: php
    
    <?php

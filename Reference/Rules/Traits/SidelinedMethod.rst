@@ -9,7 +9,6 @@ Sidelined Method
 
 It is recommended to check if this is not a typo, as the trait may not be able to work correctly.
 
-
 .. code-block:: php
    
    <?php

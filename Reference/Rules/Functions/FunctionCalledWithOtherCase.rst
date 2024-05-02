@@ -10,7 +10,7 @@ either to distinguish the method from others, such as PHP natives functions, or 
 convention. 
 
 PHP functions are case insensitive, which leads to situations like : 
-
+It is recommended to use the same casing in the function call and the function definition.
 
 .. code-block:: php
    
@@ -21,9 +21,6 @@ PHP functions are case insensitive, which leads to situations like :
    
       myutility($var);
    ?>
-
-
-It is recommended to use the same casing in the function call and the function definition.
 
 Suggestions
 ___________

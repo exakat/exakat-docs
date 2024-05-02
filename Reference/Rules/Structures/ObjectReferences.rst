@@ -11,8 +11,7 @@ Reference operator is needed when the object are replaced inside the method with
 
 Reference operator is also needed when one of the types is scalar : this include null, and the hidden null type : that is when the default value is null.
 
-This rule applies to arguments in methods, and to `foreach() <https://www.php.net/manual/en/control-structures.foreach.php>`_ blind variables. 
-
+This rule applies to arguments in methods, and to `foreach() <https://www.php.net/manual/en/control-structures.foreach.php>`_ blind variables.
 
 .. code-block:: php
    

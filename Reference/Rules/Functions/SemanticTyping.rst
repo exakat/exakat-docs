@@ -7,7 +7,6 @@ Semantic Typing
 
   Arguments names are only useful inside the method's body. They are not actual type.
 
-
 .. code-block:: php
    
    <?php

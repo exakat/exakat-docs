@@ -9,8 +9,7 @@ Default Then Discard
 
 In the code below, the variable is assigned a default value. Then, this value is immediately tested and discarded. 
 
-It is more readable to test the value, and discard it, or assign it later, rather than assign first then discard it later. 
-
+It is more readable to test the value, and discard it, or assign it later, rather than assign first then discard it later.
 
 .. code-block:: php
    

@@ -7,7 +7,6 @@ Error_Log() Usage
 
   Usage of `error_log() <https://www.php.net/error_log>`_ function. This leads to checking the configuration of ``error_log`` in the PHP configuration directives.
 
-
 .. code-block:: php
    
    <?php

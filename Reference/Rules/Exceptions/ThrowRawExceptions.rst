@@ -6,7 +6,7 @@ Throw Raw Exceptions
 ++++++++++++++++++++
 
   Avoid throwing native PHP exceptions. Consider defining specific and meaningful `exception <https://www.php.net/exception>`_, by extending the native one.
-
+Thanks to `Atif Shahab Qureshi <https://twitter.com/Atif__Shahab>`_ for the inspiration.
 
 .. code-block:: php
    
@@ -20,9 +20,6 @@ Throw Raw Exceptions
    throw new myException('This is a distinguished error!');
    
    ?>
-
-
-Thanks to `Atif Shahab Qureshi <https://twitter.com/Atif__Shahab>`_ for the inspiration.
 
 See also `Stop using regular exceptions in PHP! <https://abdlrahmansaber.medium.com/stop-using-regular-exceptions-in-php-e6aed2629dce>`_.
 

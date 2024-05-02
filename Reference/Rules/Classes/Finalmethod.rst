@@ -7,8 +7,7 @@ Final Methods Usage
 
   List of all final methods being used.
 
-final may be applied to classes and methods in classes and traits. 
-
+final may be applied to classes and methods in classes and traits.
 
 .. code-block:: php
    

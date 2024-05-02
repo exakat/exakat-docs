@@ -9,7 +9,6 @@ ext/mail
 
 The `mail() <https://www.php.net/mail>`_ function allows you to send mail.
 
-
 .. code-block:: php
    
    <?php

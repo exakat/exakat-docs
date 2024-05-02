@@ -9,8 +9,7 @@ Strange Names In Classes
 
 Ever wondered why the ``__constructor`` is never called? Or the ``__consturct`` ? 
 
-Those errors most often originate from typos, or quick fixes that where not fully tested. Other times, they were badly chosen, or ran into PHP's own reserved keywords. 
-
+Those errors most often originate from typos, or quick fixes that where not fully tested. Other times, they were badly chosen, or ran into PHP's own reserved keywords.
 
 .. code-block:: php
    

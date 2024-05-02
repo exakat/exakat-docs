@@ -9,7 +9,6 @@ Unknown Parameter Name
 
 Named arguments errors will also arise when spreading a hash array with arbitrary number of arguments. For example, with `array_merge() <https://www.php.net/array_merge>`_, the array should not use named keys.
 
-
 .. code-block:: php
    
    <?php

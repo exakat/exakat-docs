@@ -7,8 +7,7 @@ Enum Case Values
 
   Adds a `DEFINITION`link between a `static <https://www.php.net/manual/en/language.oop5.static.php>`_ Enumeration case and its actual defined value. 
 
-No link is added when no value is defined. 
-
+No link is added when no value is defined.
 
 .. code-block:: php
    

@@ -6,7 +6,7 @@ Could Be Enumeration
 ++++++++++++++++++++
 
   This rule detects a potential enumeration. When a property is only and ever assigned a finite number of literals, it may be turned into an enumeration.
-
+Currently, the analysis focuses on properties that may have 2 or more values (parameter `minElements`). The property should only be assigned literals, or constants.
 
 .. code-block:: php
    
@@ -25,9 +25,6 @@ Could Be Enumeration
    }
    
    ?>
-
-
-Currently, the analysis focuses on properties that may have 2 or more values (parameter `minElements`). The property should only be assigned literals, or constants.
 
 +-------------+---------+---------+-------------------------------------------------------------------------------+
 | Name        | Default | Type    | Description                                                                   |

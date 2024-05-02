@@ -10,7 +10,7 @@ Empty Function
 Such functions or methods are rarely useful. As a bare minimum, the function should return some useful value, even if constant.
 
 A method is considered empty when it contains nothing, or contains expressions without impact. 
-
+Methods which overwrite another methods are omitted. Methods which are the concrete version of an abstract method are considered.
 
 .. code-block:: php
    
@@ -33,9 +33,6 @@ A method is considered empty when it contains nothing, or contains expressions w
    }
    
    ?>
-
-
-Methods which overwrite another methods are omitted. Methods which are the concrete version of an abstract method are considered.
 
 Suggestions
 ___________

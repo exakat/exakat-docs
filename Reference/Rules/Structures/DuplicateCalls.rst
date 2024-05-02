@@ -5,7 +5,9 @@
 Duplicate Calls
 +++++++++++++++
 
-  Duplicate calls within the same context. They should be called once, and then stashed in a variable for reuse. This saves a lot of time.
+  Duplicate calls within the same context. They should be called once, and then cached in a variable for reuse. 
+
+This saves a lot of time of execution and reexecution of the same code. It is a micro-optimisation in case of a simple property fetch, but it may be more costly.
 
 .. code-block:: php
    
@@ -42,7 +44,7 @@ _____
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | calls                                                                                                                   |
+| Features     | calls, micro-optimisation                                                                                               |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | ClearPHP     | `no-duplicated-code <https://github.com/dseguy/clearPHP/tree/master/rules/no-duplicated-code.md>`__                     |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

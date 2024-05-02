@@ -11,6 +11,8 @@ No Constructor In Interface
 
 ```
 
+```
+
 .. code-block:: php
    
    <?php
@@ -20,8 +22,6 @@ No Constructor In Interface
    }
    
    ?>
-
-```
 
 See also `Object Interfaces <https://www.php.net/manual/en/language.oop5.interfaces.php>`_.
 

@@ -9,7 +9,6 @@ ext/phalcon
 
 Phalcon's autoload examples from the docs :  `Tutorial 1: Let’s learn by example <https://docs.phalconphp.com/en/latest/reference/tutorial.html>`_
 
-
 .. code-block:: php
    
    <?php

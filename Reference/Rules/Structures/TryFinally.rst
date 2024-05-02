@@ -7,7 +7,6 @@ Try With Finally
 
   Indicates if a try use a finally statement.
 
-
 .. code-block:: php
    
    <?php

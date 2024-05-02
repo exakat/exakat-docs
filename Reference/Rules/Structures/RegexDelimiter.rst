@@ -15,7 +15,6 @@ Generally, one or two delimiters are used, depending on the expected special cha
 
 Regex are literals, or partial literals, used in `preg_match() <https://www.php.net/preg_match>`_, `preg_match_all() <https://www.php.net/preg_match_all>`_, `preg_replace() <https://www.php.net/preg_replace>`_, `preg_replace_callback() <https://www.php.net/preg_replace_callback>`_, `preg_replace_callback_array() <https://www.php.net/preg_replace_callback_array>`_.
 
-
 .. code-block:: php
    
    <?php

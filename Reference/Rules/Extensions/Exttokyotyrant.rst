@@ -7,8 +7,7 @@ ext/tokyotyrant
 
   Extension for Tokyo Tyrant.
 
-tokyo_tyrant extension provides a wrapper for Tokyo Tyrant client libraries. 
-
+tokyo_tyrant extension provides a wrapper for Tokyo Tyrant client libraries.
 
 .. code-block:: php
    

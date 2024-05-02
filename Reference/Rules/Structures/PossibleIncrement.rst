@@ -9,7 +9,6 @@ Possible Increment
 
 The same pattern is not reported with -, as it is legit expression. + sign is usually understated, rather than explicit.
 
-
 .. code-block:: php
    
    <?php

@@ -9,7 +9,6 @@ ext/inotify
 
 The Inotify extension gives access to the Linux kernel subsystem that acts to extend filesystems to notice changes to the filesystem, and report those changes to applications.
 
-
 .. code-block:: php
    
    <?php

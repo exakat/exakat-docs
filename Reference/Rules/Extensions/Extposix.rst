@@ -9,7 +9,6 @@ ext/posix
 
 Ext/posix contains an interface to those functions defined in the IEEE 1003.1 (POSIX.1) standards document which are not accessible through other means.
 
-
 .. code-block:: php
    
    <?php

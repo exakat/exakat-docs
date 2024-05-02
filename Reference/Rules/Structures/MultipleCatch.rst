@@ -7,7 +7,6 @@ Multiple Catch
 
   Indicates if a try structure have several catch statement.
 
-
 .. code-block:: php
    
    <?php

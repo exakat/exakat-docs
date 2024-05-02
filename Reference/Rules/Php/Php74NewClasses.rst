@@ -12,7 +12,6 @@ The new classes are :
 + ``ReflectionReference``
 + ``WeakReference``
 
-
 .. code-block:: php
    
    <?php

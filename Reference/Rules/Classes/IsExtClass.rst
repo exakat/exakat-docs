@@ -7,7 +7,6 @@ Is An Extension Class
 
   Those classes belongs to a PHP Extensions.
 
-
 .. code-block:: php
    
    <?php

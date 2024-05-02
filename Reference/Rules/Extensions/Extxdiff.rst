@@ -9,7 +9,6 @@ ext/xdiff
 
 xdiff extension enables you to create and apply patch files containing differences between different revisions of files.
 
-
 .. code-block:: php
    
    <?php

@@ -9,7 +9,6 @@ ext/expect
 
 This extension allows to interact with processes through ``PTY``. You may consider using the ``expect://`` wrapper with the filesystem functions which provide a simpler and more intuitive interface.
 
-
 .. code-block:: php
    
    <?php

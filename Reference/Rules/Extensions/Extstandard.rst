@@ -9,7 +9,6 @@ ext/standard
 
 This is not a real PHP extension : it covers the core functions.
 
-
 .. code-block:: php
    
    <?php

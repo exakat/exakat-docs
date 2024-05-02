@@ -10,7 +10,7 @@ Missing Cases In Switch
 When comparing two different `switch() <https://www.php.net/manual/en/control-structures.switch.php>`_ structures, it appears that some cases are missing in one of them. The set of cases are almost identical, but one of the values are missing. 
 
 `Switch() <https://www.php.net/manual/en/control-structures.switch.php>`_ structures using strings as literals are compared in this analysis. When the discrepancy between two lists is below 25%, both switches are reported.
-
+In the example, one may argue that the 'c' case is actually handled by the 'default' case. Otherwise, business logic may request that omission.
 
 .. code-block:: php
    
@@ -35,9 +35,6 @@ When comparing two different `switch() <https://www.php.net/manual/en/control-st
    }
    
    ?>
-
-
-In the example, one may argue that the 'c' case is actually handled by the 'default' case. Otherwise, business logic may request that omission.
 
 Suggestions
 ___________

@@ -7,7 +7,6 @@ Internally Used Properties
 
   Properties that are used internally.
 
-
 .. code-block:: php
    
    <?php

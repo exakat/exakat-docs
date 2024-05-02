@@ -11,7 +11,6 @@ PHP 7.0 won't compile a script that allows for several default cases.
 
 Multiple default happens often with large `switch() <https://www.php.net/manual/en/control-structures.switch.php>`_.
 
-
 .. code-block:: php
    
    <?php

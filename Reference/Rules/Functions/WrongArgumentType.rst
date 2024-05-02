@@ -6,7 +6,7 @@ Wrong Argument Type
 +++++++++++++++++++
 
   Checks that the type of the argument is consistent with the type of the called method.
-
+This analysis is valid with PHP 8.0.
 
 .. code-block:: php
    
@@ -21,9 +21,6 @@ Wrong Argument Type
    foo('asd');
    
    ?>
-
-
-This analysis is valid with PHP 8.0.
 
 Suggestions
 ___________

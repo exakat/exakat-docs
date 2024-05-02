@@ -8,7 +8,7 @@ Clone With Non-Object
   The ``clone`` keyword must be used on variables, properties or results from a function or method call. 
 
 ``clone`` cannot be used with constants or literals.
-
+Cloning a non-object lint but won't execute.
 
 .. code-block:: php
    
@@ -24,9 +24,6 @@ Clone With Non-Object
    $y = clone x;
    
    ?>
-
-
-Cloning a non-object lint but won't execute.
 
 See also `Object cloning <https://www.php.net/manual/en/language.oop5.cloning.php>`_.
 

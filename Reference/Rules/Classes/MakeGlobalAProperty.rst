@@ -11,7 +11,6 @@ Using properties is slightly faster than calling global or $GLOBALS, though the 
 
 Setting the property in the constructor (or in a factory), makes the class easier to test, as there is now a single point of configuration.
 
-
 .. code-block:: php
    
    <?php 

@@ -9,7 +9,6 @@ ext/imap
 
 This extension operate with the IMAP protocol, as well as the NNTP, POP3 and local mailbox access methods.
 
-
 .. code-block:: php
    
    <?php

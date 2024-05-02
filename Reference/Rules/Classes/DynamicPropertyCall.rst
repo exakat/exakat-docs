@@ -7,7 +7,6 @@ Dynamic Property
 
   Dynamic access to class property. This is when the the name of the property is stored in a variable (or other container), rather than statically provided.
 
-
 .. code-block:: php
    
    <?php

@@ -5,7 +5,7 @@ Changed Behavior
 
 Ruleset with all rules that identify changed behavior across PHP versions. This means that some syntax behave differently, depending on PHP version.
 
-Total : 611 analysis
+Total : 609 analysis
 
 * :ref:`ambiguous-array-index`
 * :ref:`array-index`
@@ -288,7 +288,6 @@ Total : 611 analysis
 * :ref:`no-net-for-xml-load`
 * :ref:`useless-referenced-argument`
 * :ref:`double-array\_flip()`
-* :ref:`useless-catch`
 * :ref:`foreach-on-object`
 * :ref:`dynamic-library-loading`
 * :ref:`php-7.3-last-empty-argument`
@@ -585,7 +584,6 @@ Total : 611 analysis
 * :ref:`static-variable-initialisation`
 * :ref:`collect-graph-triplets`
 * :ref:`don't-use-the-type-as-variable-name`
-* :ref:`friend-attribute`
 * :ref:`count()-to-array-append`
 * :ref:`useless-trailing-comma`
 * :ref:`reserved-methods`

@@ -9,8 +9,7 @@ Exit-like Methods
 
 They are detected when they do call `exit() <https://www.www.php.net/exit>`_ or `die() <https://www.php.net/die>`_. They may also be identified with the PHP 8.0 ``#[NoReturn]`` `attribute <https://www.php.net/attribute>`_, or the PHPdoc ``@noreturn`` (case insensitive).
 
-If they are called, they will stop the application. They are a user-land equivalent of `exit() <https://www.www.php.net/exit>`_ or `die() <https://www.php.net/die>`_. 
-
+If they are called, they will stop the application. They are a user-land equivalent of `exit() <https://www.www.php.net/exit>`_ or `die() <https://www.php.net/die>`_.
 
 .. code-block:: php
    

@@ -9,7 +9,6 @@ ext/ftp
 
 The functions in this extension implement client access to files servers speaking the File Transfer Protocol (FTP) as defined in `RFC 959 <http://www.faqs.org/rfcs/rfc959>`_.
 
-
 .. code-block:: php
    
    <?php

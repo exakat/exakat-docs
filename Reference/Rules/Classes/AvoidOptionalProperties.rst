@@ -9,8 +9,7 @@ Avoid Optional Properties
 
 When a property has to be checked once for existence, it is safer to check it each time. This leads to a decrease in readability and a lot of checks added to the code.
 
-Either make sure the property is set with an actual object rather than with null, or use a null object. A null object offers the same interface than the expected object, but does nothing. It allows calling its methods, without running into a Fatal `error <https://www.php.net/error>`_, nor testing it. 
-
+Either make sure the property is set with an actual object rather than with null, or use a null object. A null object offers the same interface than the expected object, but does nothing. It allows calling its methods, without running into a Fatal `error <https://www.php.net/error>`_, nor testing it.
 
 .. code-block:: php
    

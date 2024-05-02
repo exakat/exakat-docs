@@ -6,7 +6,7 @@ Octal Glossary
 ++++++++++++++
 
   List of all the integer values using the octal format : an integer starting with an initial 0. 
-
+Putting an initial 0 is often innocuous, but in PHP, 0755 and 755 are not the same. The second is actually 1363 in octal, and will not provide the expected privileges.
 
 .. code-block:: php
    
@@ -19,9 +19,6 @@ Octal Glossary
      $a = 01283; // octal number (equivalent to 10 decimal)
    
    ?>
-
-
-Putting an initial 0 is often innocuous, but in PHP, 0755 and 755 are not the same. The second is actually 1363 in octal, and will not provide the expected privileges.
 
 See also  `Integers <https://www.php.net/manual/en/language.types.integer.php>`_.
 

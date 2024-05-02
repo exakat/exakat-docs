@@ -8,7 +8,7 @@ Not Equal Is Not !==
   Not and Equal operators, used separately, don't amount to the different operator ``!==``.
 
 ``!$a == $b`` first turns ``$a``into the opposite boolean, then compares this boolean value to ``$b``. On the other hand, ``$a !== $b`` compares the two variables for type and value, and returns a boolean. 
-
+Note that the ``instanceof`` operator may be use with this syntax, due to operator precedence.
 
 .. code-block:: php
    
@@ -28,9 +28,6 @@ Not Equal Is Not !==
        // doSomething()
    }
    ?>
-
-
-Note that the ``instanceof`` operator may be use with this syntax, due to operator precedence.
 
 See also `Operator Precedence <https://www.php.net/manual/en/language.operators.precedence.php>`_.
 

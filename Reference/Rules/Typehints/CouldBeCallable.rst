@@ -8,7 +8,7 @@ Could Be Callable
   Mark arguments and return types that can be set to ``callable``.
 
 The analysis also reports properties that could be 'callable', although PHP doesn't allow that configuration.
-
+Note that properties cannot be callable. It reports a compilation `error <https://www.php.net/error>`_.
 
 .. code-block:: php
    
@@ -21,9 +21,6 @@ The analysis also reports properties that could be 'callable', although PHP does
    }
    
    ?>
-
-
-Note that properties cannot be callable. It reports a compilation `error <https://www.php.net/error>`_.
 
 See also `Callbacks / callables <https://www.php.net/manual/en/language.types.callable.php>`_.
 

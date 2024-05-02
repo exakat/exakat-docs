@@ -7,8 +7,7 @@ ext/xml
 
   Extension xml (Parser).
 
-This PHP extension implements support for James Clark's expat in PHP. This toolkit lets you parse, but not validate, XML documents. 
-
+This PHP extension implements support for James Clark's expat in PHP. This toolkit lets you parse, but not validate, XML documents.
 
 .. code-block:: php
    

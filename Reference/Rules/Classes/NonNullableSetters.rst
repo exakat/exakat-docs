@@ -9,7 +9,6 @@ Non Nullable Getters
 
 In particular, if the injection happens with a separate method, there is a time where the object is not consistent, and the property holds a default non-object value.
 
-
 .. code-block:: php
    
    <?php

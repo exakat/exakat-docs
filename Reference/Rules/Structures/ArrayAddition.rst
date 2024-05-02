@@ -5,8 +5,7 @@
 Array Addition
 ++++++++++++++
 
-  Addition where one of the operands are arrays. 
-
+  Addition where one of the operands are arrays.
 
 .. code-block:: php
    

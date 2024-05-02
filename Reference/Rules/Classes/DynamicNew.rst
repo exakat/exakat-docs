@@ -7,7 +7,6 @@ Dynamic New
 
   Dynamic instantiation of classes. It happens when the name of the class is an executable expression, and, as such, only known at execution time.
 
-
 .. code-block:: php
    
    <?php

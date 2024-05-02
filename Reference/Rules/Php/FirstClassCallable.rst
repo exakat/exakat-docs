@@ -5,8 +5,7 @@
 First Class Callable
 ++++++++++++++++++++
 
-  A syntax using ellipsis was introduced to make it easy to make a method into a callable. 
-
+  A syntax using ellipsis was introduced to make it easy to make a method into a callable.
 
 .. code-block:: php
    

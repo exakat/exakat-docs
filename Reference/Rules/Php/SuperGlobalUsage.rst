@@ -7,7 +7,6 @@ Super Global Usage
 
   Spot usage of Super global variables, such as `$_GET <https://www.php.net/manual/en/reserved.variables.get.php>`_, `$_POST <https://www.php.net/manual/en/reserved.variables.post.php>`_ or `$_REQUEST <https://www.php.net/manual/en/reserved.variables.request.php>`_.
 
-
 .. code-block:: php
    
    <?php

@@ -9,7 +9,6 @@ ext/ev
 
 ext/ev is a high performance full-featured event loop written in C.
 
-
 .. code-block:: php
    
    <?php

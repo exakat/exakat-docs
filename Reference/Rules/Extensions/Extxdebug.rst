@@ -9,7 +9,6 @@ ext/xdebug
 
 The Xdebug is a extension PHP which provides debugging and profiling capabilities.
 
-
 .. code-block:: php
    
    <?php

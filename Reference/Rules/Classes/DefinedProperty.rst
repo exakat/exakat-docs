@@ -7,7 +7,6 @@ Defined Properties
 
   List of properties that are explicitly defined in the class, its parents or traits.
 
-
 .. code-block:: php
    
    <?php

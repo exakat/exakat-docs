@@ -9,7 +9,6 @@ Class Should Be Final By Ocramius
 
 When a class should be final, as explained by ``Ocramius`` (``Marco Pivetta``).
 
-
 .. code-block:: php
    
    <?php

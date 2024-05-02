@@ -7,7 +7,6 @@ Inclusions
 
   List of all inclusions. Inclusions are made with include(), include_once(), require() and require_once().
 
-
 .. code-block:: php
    
    <?php

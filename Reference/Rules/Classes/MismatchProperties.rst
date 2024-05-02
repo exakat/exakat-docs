@@ -10,7 +10,7 @@ Mismatch Properties Typehints
 When a property is declared both in a `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ class, and a child class, they must have the same type. The same type includes a possible null value.
 
 This doesn't apply to private properties, which are only visible locally.
-
+This code will lint, but not execute.
 
 .. code-block:: php
    
@@ -26,9 +26,6 @@ This doesn't apply to private properties, which are only visible locally.
        protected $p; 
    }
    ?>
-
-
-This code will lint, but not execute.
 
 Suggestions
 ___________

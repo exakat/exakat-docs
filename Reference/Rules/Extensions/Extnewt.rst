@@ -9,7 +9,6 @@ ext/newt
 
 This is a PHP language extension for RedHat Newt library, a terminal-based window and widget library for writing applications with user friendly interface.
 
-
 .. code-block:: php
    
    <?php

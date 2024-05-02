@@ -6,7 +6,37 @@ Release Note
 
 Here is the release note of exakat. 
 
-**Version 2.6.7 (Zhang Gongjin, 2024-01-11)**
+**Version 2.6.9 (, 2024-01-11)**
+
+
++ Architecture
+	+ 
+
++ Cobbler
+    + 
+
++ Report
+    + Ambassador : upgraded manual rendering
+
++ Analysis
+	+ New analysis : new rule for Deprecated attribute (analysis)
+	+ Updated analysis : modernized Pss Without CITE
+	+ Updated analysis : modernized Pss Without CITE
+	+ Updated analysis : refactored 'useless arguments', with named parameters
+	+ Updated analysis : Undefined Property skips dynamic properties
+	+ Updated analysis : Unused variable in catch now handles other names than $e
+	+ Updated analysis : Do not report abstract exceptions as unthrown
+	+ Updated analysis : Useless catch is moved to WIP
+	+ New analysis : report constants used only once
+	+ New analysis : report relay constants (which are relaying another constant value)
+	+ Updated analysis : Hidden Nullable 
+	+ Updated analysis : Useless constructor takes into account promoted properties
+	+ Updated analysis : Undefined Enum Case now handles class constant relays
+
++ Tokenizer
+    + 
+
+**Version 2.6.8 (, 2024-04-24)**
 
 
 + Architecture
@@ -19,11 +49,18 @@ Here is the release note of exakat.
     + 
 
 + Analysis
-	+ New analysis : report variables used with include.
-	+ New analysis : report named parameters with no-named-parameters
+	+ New analysis : new rule for Deprecated attribute (analysis)
 
 + Tokenizer
     + 
+
+**Version 2.6.7 (Zhang Gongjin, 2024-03-21)**
+
+
++ Analysis
+	+ New analysis : report variables used with include.
+	+ New analysis : report named parameters with no-named-parameters
+	+ New analysis : new rule for Deprecated attribute (analysis)
 
 **Version 2.6.6 (Gao Shilian, 2024-03-14)**
 

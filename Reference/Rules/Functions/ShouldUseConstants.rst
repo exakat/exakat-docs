@@ -7,7 +7,6 @@ Should Use Existing Constants
 
   The following functions have related constants that should be used as arguments, instead of scalar literals, such as integers or strings.
 
-
 .. code-block:: php
    
    <?php

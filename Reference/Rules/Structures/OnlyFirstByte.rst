@@ -5,8 +5,7 @@
 Only First Byte 
 ++++++++++++++++
 
-  When assigning a char to a string with an array notation, only the first byte is used. 
-
+  When assigning a char to a string with an array notation, only the first byte is used.
 
 .. code-block:: php
    

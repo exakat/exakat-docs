@@ -8,7 +8,8 @@ No Self Referencing Constant
   It is not possible to use a constant to define itself in a class. It yields a fatal `error <https://www.php.net/error>`_ at runtime. 
 
 The PHP `error <https://www.php.net/error>`_ reads : ``Cannot declare `self <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_-referencing constant 'self\:\:C2'``. Unlike PHP which is `self <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_-referencing, `self <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ referencing variables can't have a value : just don't use that.
-
+The code may access an already declared constant with `self <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ or with its class name.
+This `error <https://www.php.net/error>`_ is not detected by linting. It is only detected at instantiation time : if the class is not used, it won't appear.
 
 .. code-block:: php
    
@@ -19,22 +20,6 @@ The PHP `error <https://www.php.net/error>`_ reads : ``Cannot declare `self <htt
            const C3 = a::C3 + 2; // self referencing constant
        }
    ?>
-
-
-The code may access an already declared constant with `self <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ or with its class name.
-
-
-.. code-block:: php
-   
-   <?php
-       class a { 
-           const C1 = 1; 
-           const C2 = a::C1; 
-       }
-   ?>
-
-
-This `error <https://www.php.net/error>`_ is not detected by linting. It is only detected at instantiation time : if the class is not used, it won't appear.
 
 Suggestions
 ___________

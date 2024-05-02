@@ -9,7 +9,6 @@ Integer As Property
 
 If the code must be compatible with previous versions, avoid casting arrays to object.
 
-
 .. code-block:: php
    
    <?php

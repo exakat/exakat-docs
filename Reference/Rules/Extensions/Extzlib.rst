@@ -7,7 +7,6 @@ ext/zlib
 
   Extension ext/zlib.
 
-
 .. code-block:: php
    
    <?php

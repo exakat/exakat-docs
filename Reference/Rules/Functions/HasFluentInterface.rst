@@ -9,7 +9,6 @@ Method Has Fluent Interface
 
 Fluent interfaces allows for chaining methods calls. This implies that `$this <https://www.php.net/manual/en/language.oop5.basic.php>`_ is always returned, so that the next method call is done on the same object.
 
-
 .. code-block:: php
    
    <?php

@@ -6,7 +6,7 @@ Results May Be Missing
 ++++++++++++++++++++++
 
   `preg_match() <https://www.php.net/preg_match>`_ may return empty values, if the search fails. It is important to check for the existence of results before assigning them to another variable, or using it.
-
+Since PHP 7.2, it is possible to use the ``PREG_UNMATCHED_AS_NULL`` constant in the flag parameter to avoid this.
 
 .. code-block:: php
    
@@ -15,9 +15,6 @@ Results May Be Missing
        $s = $r[1];
        // $s may end up null if preg_match fails.
    ?>
-
-
-Since PHP 7.2, it is possible to use the ``PREG_UNMATCHED_AS_NULL`` constant in the flag parameter to avoid this.
 
 Suggestions
 ___________

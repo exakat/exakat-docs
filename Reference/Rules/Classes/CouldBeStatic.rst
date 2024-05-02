@@ -9,7 +9,6 @@ Method Could Be Static
 
 While `static <https://www.php.net/manual/en/language.oop5.static.php>`_ methods are usually harder to handle, recognizing the `static <https://www.php.net/manual/en/language.oop5.static.php>`_ status is a first step before turning the method into a standalone function.
 
-
 .. code-block:: php
    
    <?php

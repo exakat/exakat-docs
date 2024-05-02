@@ -9,7 +9,7 @@ Should Use Local Class
 
 Methods should use ``$this`` with another method or a property, or call ``parent\:\:``. `Static <https://www.php.net/manual/en/language.oop5.static.php>`_ methods should call another `static <https://www.php.net/manual/en/language.oop5.static.php>`_ method, or a `static <https://www.php.net/manual/en/language.oop5.static.php>`_ property. 
 Methods which are overwritten by a child class are omitted : the `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ class act as a default value for the children class, and this is correct.
-
+Note that a method using a class constant is not considered as using the local class, for this analyzer.
 
 .. code-block:: php
    
@@ -41,9 +41,6 @@ Methods which are overwritten by a child class are omitted : the `parent <https:
    }
    
    ?>
-
-
-Note that a method using a class constant is not considered as using the local class, for this analyzer.
 
 Suggestions
 ___________

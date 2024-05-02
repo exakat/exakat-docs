@@ -5,7 +5,7 @@ Analyze
 
 This ruleset centralizes a large number of classic trap and pitfalls when writing PHP.
 
-Total : 502 analysis
+Total : 501 analysis
 
 * :ref:`adding-zero`
 * :ref:`ambiguous-array-index`
@@ -169,7 +169,6 @@ Total : 502 analysis
 * :ref:`useless-brackets`
 * :ref:`preg\_replace-with-option-e`
 * :ref:`eval()-without-try`
-* :ref:`relay-function`
 * :ref:`func\_get\_arg()-modified`
 * :ref:`avoid-get\_class()`
 * :ref:`silently-cast-integer`
@@ -293,7 +292,6 @@ Total : 502 analysis
 * :ref:`inclusion-wrong-case`
 * :ref:`missing-include`
 * :ref:`useless-referenced-argument`
-* :ref:`useless-catch`
 * :ref:`possible-infinite-loop`
 * :ref:`test-then-cast`
 * :ref:`foreach-on-object`
@@ -384,7 +382,7 @@ Total : 502 analysis
 * :ref:`not-equal-is-not-!==`
 * :ref:`don't-collect-void`
 * :ref:`wrong-typed-property-default`
-* :ref:`hidden-nullable-typehint`
+* :ref:`implicit-nullable-type`
 * :ref:`fn-argument-variable-confusion`
 * :ref:`missing-abstract-method`
 * :ref:`undefined-constant-name`
@@ -509,6 +507,7 @@ Total : 502 analysis
 * :ref:`exit-without-argument`
 * :ref:`strpos()-less-than-one`
 * :ref:`static-inclusions`
+* :ref:`constant-used-only-once`
 
 Specs
 _____

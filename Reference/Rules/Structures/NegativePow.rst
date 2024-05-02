@@ -9,8 +9,7 @@ Negative Power
 
 This means that -2 `** <https://www.php.net/manual/en/language.operators.arithmetic.php>`_ 2 == -4. It is in fact, -(2 `** <https://www.php.net/manual/en/language.operators.arithmetic.php>`_ 2). 
 
-When using negative power, it is clearer to add parenthesis or to use the `pow() <https://www.php.net/pow>`_ function, which has no such ambiguity : 
-
+When using negative power, it is clearer to add parenthesis or to use the `pow() <https://www.php.net/pow>`_ function, which has no such ambiguity :
 
 .. code-block:: php
    

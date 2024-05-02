@@ -6,7 +6,7 @@ Could Be Parent Method
 ++++++++++++++++++++++
 
   A method is defined in several children, but not in a the `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ class. It may be worth checking if this method doesn't belong the `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ class, as an abstraction.
-
+Only the name of the method is used is for gathering purposes. If the code has grown organically, the signature (default values, typehint, argument names) may have followed different path, and will require a refactorisation.
 
 .. code-block:: php
    
@@ -30,9 +30,6 @@ Could Be Parent Method
    }
    
    ?>
-
-
-Only the name of the method is used is for gathering purposes. If the code has grown organically, the signature (default values, typehint, argument names) may have followed different path, and will require a refactorisation.
 
 +-------------+---------+---------+-----------------------------------------------+
 | Name        | Default | Type    | Description                                   |

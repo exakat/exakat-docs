@@ -7,7 +7,6 @@ Joomla usage
 
   This analysis reports usage of the Joomla CMS.
 
-
 .. code-block:: php
    
    <?php

@@ -6,7 +6,7 @@ Implemented Methods Must Be Public
 ++++++++++++++++++++++++++++++++++
 
   Class methods that are defined in an interface must be public. They cannot be either private, nor protected.
-
+This `error <https://www.php.net/error>`_ is not reported by lint, and is reported at execution time.
 
 .. code-block:: php
    
@@ -25,9 +25,6 @@ Implemented Methods Must Be Public
    }
    
    ?>
-
-
-This `error <https://www.php.net/error>`_ is not reported by lint, and is reported at execution time.
 
 See also `Interfaces <https://www.php.net/manual/en/language.oop5.interfaces.php>`_ and `Interfaces - the next level of abstraction <https://phpenthusiast.com/object-oriented-php-tutorials/interfaces>`_.
 

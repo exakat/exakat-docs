@@ -7,7 +7,6 @@ Functioncall Is Global
 
   Marks a functioncall when it is from the global scope. It is not located in another function, class or trait.
 
-
 .. code-block:: php
    
    <?php

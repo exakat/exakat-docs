@@ -11,7 +11,6 @@ When using the 'extends' keyword, the newly created classes are now acting toget
 
 On the other hand, two completely independent classes that are merged, although they should be kept separated.
 
-
 .. code-block:: php
    
    <?php

@@ -9,7 +9,6 @@ ext/tokenizer
 
 The Tokenizer functions provide an interface to the PHP tokenizer embedded in the Zend `Engine <https://www.php.net/engine>`_.
 
-
 .. code-block:: php
    
    <?php

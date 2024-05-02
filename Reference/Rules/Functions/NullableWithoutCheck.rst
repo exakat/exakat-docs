@@ -5,8 +5,7 @@
 Nullable Without Check
 ++++++++++++++++++++++
 
-  Nullable typehinted argument should be checked before usage.
-
+  Nullable typed argument or properties should be checked before usage. When they are null, they probably won't behave like the other type, and lead to an `error <https://www.php.net/error>`_.
 
 .. code-block:: php
    

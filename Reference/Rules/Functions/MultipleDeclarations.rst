@@ -11,8 +11,7 @@ PHP accepts multiple definitions for the same functions, as long as they are not
 
 This creates to several situations in which the same functions are defined multiple times : the function may be compatible with various PHP version, but their implementation may not. Or the function is part of a larger library, and sometimes only need without the rest of the library. 
 
-It is recommended to avoid having several functions with the same name in one repository. Turn those functions into methods and load them when needed. 
-
+It is recommended to avoid having several functions with the same name in one repository. Turn those functions into methods and load them when needed.
 
 .. code-block:: php
    

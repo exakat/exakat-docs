@@ -11,7 +11,6 @@ In particular, ``new``and ``instanceof`` now support a way to inline the express
 
 Magic constants are now accessible with array notation, just like another constant. It is also possible to use method calls : although this is Syntacticly correct for PHP, this won't be executed, as the left operand is a string, and not an object.
 
-
 .. code-block:: php
    
    <?php

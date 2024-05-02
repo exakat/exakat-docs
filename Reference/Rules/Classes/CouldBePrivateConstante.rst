@@ -10,7 +10,9 @@ Could Be Private Class Constant
 Since PHP 7.1, constants may also have a public/protected/private visibility. This restrict their usage to anywhere, class and children or class. 
 
 As a general rule, it is recommended to make constant ``private`` by default, and to relax this restriction as needed. PHP makes them public by default.
+Constant shall stay ``public`` when the code has to be compatible with PHP 7.0 and older. 
 
+They also have to be public in the case of component : some of those constants have to be used by external actors, in order to configure the component.
 
 .. code-block:: php
    
@@ -36,11 +38,6 @@ As a general rule, it is recommended to make constant ``private`` by default, an
    }
    
    ?>
-
-
-Constant shall stay ``public`` when the code has to be compatible with PHP 7.0 and older. 
-
-They also have to be public in the case of component : some of those constants have to be used by external actors, in order to configure the component.
 
 See also `Class Constants <https://www.php.net/manual/en/language.oop5.constants.php>`_.
 

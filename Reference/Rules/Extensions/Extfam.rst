@@ -11,7 +11,6 @@ ext/fam
 
 ext/FAM is not available for Windows
 
-
 .. code-block:: php
    
    <?php

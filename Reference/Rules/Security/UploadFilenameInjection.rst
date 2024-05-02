@@ -6,7 +6,7 @@ Upload Filename Injection
 +++++++++++++++++++++++++
 
   When receiving a file via Upload, it is recommended to store it under a `self <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_-generated name. Any storage that uses the original filename, or even a part of it may be vulnerable to injections.
-
+It is highly recommended to validate any incoming file, generate a name for it, and store the `result <https://www.php.net/result>`_ in a folder outside the web folder. Also, avoid accepting PHP scripts, if possible.
 
 .. code-block:: php
    
@@ -39,9 +39,6 @@ Upload Filename Injection
    }
    
    ?>
-
-
-It is highly recommended to validate any incoming file, generate a name for it, and store the `result <https://www.php.net/result>`_ in a folder outside the web folder. Also, avoid accepting PHP scripts, if possible.
 
 See also `[CVE-2017-6090] <https://cxsecurity.com/issue/WLB-2017100031>`_, `CWE-616: Incomplete Identification of Uploaded File Variables <https://cwe.mitre.org/data/definitions/616.html>`_ and `Why File Upload Forms are a Major Security Threat <https://www.acunetix.com/websitesecurity/upload-forms-threat/>`_.
 

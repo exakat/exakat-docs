@@ -9,7 +9,6 @@ ext/gender
 
 The Gender PHP extension is a port of the gender.c program originally written by Joerg Michael. Its main purpose is to find out the gender of firstnames, based on a database of over 40000 firstnames from 54 countries.
 
-
 .. code-block:: php
    
    <?php

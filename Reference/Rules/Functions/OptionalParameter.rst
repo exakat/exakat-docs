@@ -9,7 +9,6 @@ Optional Parameter
 
 Such argument is optional, as it may be omitted. When this is the case, the code has to differentiate between the default behavior or the actual usage. It is recommended to avoid providing a default value, and use a null object.
 
-
 .. code-block:: php
    
    <?php

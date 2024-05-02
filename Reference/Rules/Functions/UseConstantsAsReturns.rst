@@ -7,7 +7,6 @@ Use Constants As Returns
 
   When a native PHP function returns only constants, it is recommended to use those constants to identify the returned values.
 
-
 .. code-block:: php
    
    <?php

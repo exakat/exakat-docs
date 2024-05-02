@@ -9,8 +9,7 @@ Never Used Properties
 
 Properties are considered used when they are used locally, in the same class as their definition, or in a `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ class : a `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ class is always included with the current class. 
 
-On the other hand, properties which are defined in a class, but only used in children classes is considered unused, since children may also avoid using it. 
-
+On the other hand, properties which are defined in a class, but only used in children classes is considered unused, since children may also avoid using it.
 
 .. code-block:: php
    

@@ -6,7 +6,7 @@ Method Could Be Private Method
 ++++++++++++++++++++++++++++++
 
   The following methods are never used outside their class of definition. Given the analyzed code, they could be set as private. 
-
+Note that dynamic properties (such as $x->$y) are not taken into account.
 
 .. code-block:: php
    
@@ -36,9 +36,6 @@ Method Could Be Private Method
    $foo->cantdBePrivate();
    
    ?>
-
-
-Note that dynamic properties (such as $x->$y) are not taken into account.
 
 Specs
 _____

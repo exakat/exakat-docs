@@ -7,7 +7,6 @@ Should Use Math
 
   Use math operators to make the operation readable.
 
-
 .. code-block:: php
    
    <?php

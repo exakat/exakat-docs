@@ -14,7 +14,7 @@ This analysis targets methods which are build around large conditions : the actu
 The default threshold ``indentationAverage`` of 1 is a good start for spotting large methods with big conditional code, and will leave smaller methods, even when they only contain one if/then. Larger methods shall be refactored in smaller size. 
 
 The parameter ``minimumSize`` set aside methods which are too small for refactoring.
-
+This analysis is distinct from Structures/MaxLevelOfIdentation, which only reports the highest level of indentation. This one reports how one method is build around one big
 
 .. code-block:: php
    
@@ -53,9 +53,6 @@ The parameter ``minimumSize`` set aside methods which are too small for refactor
    }
    
    ?>
-
-
-This analysis is distinct from Structures/MaxLevelOfIdentation, which only reports the highest level of indentation. This one reports how one method is build around one big
 
 +--------------------+---------+------+------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Name               | Default | Type | Description                                                                                                                                          |

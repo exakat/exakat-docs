@@ -9,7 +9,6 @@ Readonly Property Changed By Cloning
 
 In that method, a new object is being created. It is acting like a constructor, and may tweak some of the values of the original object, before assigning them to the new object.
 
-
 .. code-block:: php
    
    <?php

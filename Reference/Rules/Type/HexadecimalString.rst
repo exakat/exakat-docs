@@ -11,8 +11,7 @@ Until PHP 7.0, PHP recognizes hexadecimal numbers inside strings, and converts t
 
 PHP 7.0 and until 7.1, converts the string to 0, silently. 
 
-PHP 7.1 and later, emits a 'A non-numeric value encountered' warning, and convert the string to 0. 
-
+PHP 7.1 and later, emits a 'A non-numeric value encountered' warning, and convert the string to 0.
 
 .. code-block:: php
    

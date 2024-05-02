@@ -9,7 +9,6 @@ No isset() With empty()
 
 From the manual : ``No warning is generated if the variable does not exist. That means empty() is essentially the concise equivalent to !`isset( <https://www.www.php.net/isset>`_$var) || $var == false.`` The main difference is that `isset() <https://www.www.php.net/isset>`_ only works with variables, while empty() works with other structures, such as constants.
 
-
 .. code-block:: php
    
    <?php

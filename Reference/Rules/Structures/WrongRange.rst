@@ -5,8 +5,7 @@
 Wrong Range Check
 +++++++++++++++++
 
-  The interval check should use && and not ||. 
-
+  The interval check should use && and not ||.
 
 .. code-block:: php
    

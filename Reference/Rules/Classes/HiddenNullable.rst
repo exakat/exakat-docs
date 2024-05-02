@@ -1,9 +1,9 @@
 .. _classes-hiddennullable:
 
-.. _hidden-nullable-typehint:
+.. _implicit-nullable-type:
 
-Hidden Nullable Typehint
-++++++++++++++++++++++++
+Implicit Nullable Type
+++++++++++++++++++++++
 
   Argument with default value of null are nullable. It works both with the ``null`` typehint (PHP 8.0), or the ``?`` operator are not used, setting the default value to null is allowed, and makes the argument nullable.
 
@@ -11,7 +11,10 @@ This works with single types, both classes and scalars; it works with union type
 
 This doesn't happen with properties : they must be defined with the nullable type to accept a ``null``value as default value.
 
-This doesn't happen with constant, which can't be typehinted.
+This doesn't happen with constant, whose value must be explicitely defined. 
+
+In PHP 8.4, the implicit nullable type are deprecated. They might be removed in PHP 9.0.
+
 
 .. code-block:: php
    
@@ -31,7 +34,7 @@ This doesn't happen with constant, which can't be typehinted.
    
    ?>
 
-See also `Nullable types <https://wiki.php.net/rfc/nullable_types>`_, `Type declaration <https://www.php.net/manual/en/functions.arguments.php#functions.arguments.type-declaration>`_ and `Deprecate implicit nullable parameters #3535 <https://github.com/php/php-src/pull/3535>`_.
+See also `Nullable types <https://wiki.php.net/rfc/nullable_types>`_, `Type declaration <https://www.php.net/manual/en/functions.arguments.php#functions.arguments.type-declaration>`_, `Deprecate implicit nullable parameters #3535 <https://github.com/php/php-src/pull/3535>`_ and `PHP RFC: Deprecate implicitly nullable parameter types <https://wiki.php.net/rfc/deprecate-implicitly-nullable-types>`_.
 
 
 Suggestions

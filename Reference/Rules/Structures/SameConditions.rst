@@ -11,7 +11,6 @@ This analysis returns false positive when there are attempt to fix a situation, 
 
 Conditions that are shared between if structures, but inside a logical OR expression are also detected.
 
-
 .. code-block:: php
    
    <?php

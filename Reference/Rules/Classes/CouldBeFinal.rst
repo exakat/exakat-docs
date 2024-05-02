@@ -11,7 +11,6 @@ As stated by ``Matthias Noback`` : ``If a class is not marked final, it has at l
 
 Prevent your classes from being subclassed by making them ``final``. Sometimes, classes are not meant or thought to be derivable.
 
-
 .. code-block:: php
    
    <?php

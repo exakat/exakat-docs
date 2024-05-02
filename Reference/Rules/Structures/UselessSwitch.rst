@@ -7,7 +7,6 @@ Useless Switch
 
   This switch has only one case. It may very well be replaced by a ifthen structure.
 
-
 .. code-block:: php
    
    <?php

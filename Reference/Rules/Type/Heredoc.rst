@@ -9,7 +9,6 @@ Heredoc Delimiter Glossary
 
 In the example below, ``EOD`` is the delimiter.
 
-
 .. code-block:: php
    
    <?php

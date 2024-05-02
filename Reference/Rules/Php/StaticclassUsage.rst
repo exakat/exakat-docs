@@ -10,7 +10,7 @@
 Using ``\:\:class`` is safer than relying on a string. It does adapt if the class's name or its namespace is changed'. It is also faster, though it is a micro-optimisation. 
 
 It is introduced in PHP 5.5.
-
+Be aware that ``\:\:class`` is a replacement for `__CLASS__ <https://www.php.net/manual/en/language.constants.predefined.php>`_ magic constant.
 
 .. code-block:: php
    
@@ -31,9 +31,6 @@ It is introduced in PHP 5.5.
    // displays A\B\C 
    
    ?>
-
-
-Be aware that ``\:\:class`` is a replacement for `__CLASS__ <https://www.php.net/manual/en/language.constants.predefined.php>`_ magic constant.
 
 See also `Class Constant <https://www.php.net/manual/en/language.oop5.constants.php>`_.
 

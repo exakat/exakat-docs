@@ -7,7 +7,6 @@ Avoid option arrays in constructors
 
   Avoid option arrays in constructors. Use one parameter per injected element.
 
-
 .. code-block:: php
    
    <?php

@@ -7,7 +7,6 @@ One Object Operator Per Line
 
   Avoid using more than one operator -> per line, to prevent information overload.
 
-
 .. code-block:: php
    
    <?php

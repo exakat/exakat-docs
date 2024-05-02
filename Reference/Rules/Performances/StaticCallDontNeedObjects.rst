@@ -8,7 +8,7 @@ Static Call May Be Truly Static
   `Static <https://www.php.net/manual/en/language.oop5.static.php>`_ calls are allowed on objects. Although, when using typehinting, it is better to use the actual type, and allow PHP to prepare this at compilation time, not at execution time.
 
 When the typehint is an interface or an abstract class, then the object may hold a different type : those cases are omitted.
-
+This is a micro-optimisation. The call is very fast, but will gain another 1/3 with a `static <https://www.php.net/manual/en/language.oop5.static.php>`_ syntax.
 
 .. code-block:: php
    
@@ -23,9 +23,6 @@ When the typehint is an interface or an abstract class, then the object may hold
    }
    
    ?>
-
-
-This is a micro-optimisation. The call is very fast, but will gain another 1/3 with a `static <https://www.php.net/manual/en/language.oop5.static.php>`_ syntax.
 
 Suggestions
 ___________

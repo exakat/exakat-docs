@@ -9,7 +9,6 @@ ext/intl
 
 Internationalization extension (further is referred as Intl) is a wrapper for `ICU <http://site.icu-project.org/>`_ library, enabling PHP programmers to perform various `locale <https://www.php.net/locale>`_-aware operations including but not limited to formatting, transliteration, encoding conversion, calendar operations, `UCA <http://www.unicode.org/reports/tr10/>`_-conformant collation, locating text boundaries and working with `locale <https://www.php.net/locale>`_ identifiers, timezones and graphemes.
 
-
 .. code-block:: php
    
    <?php

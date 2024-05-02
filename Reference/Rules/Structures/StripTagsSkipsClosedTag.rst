@@ -7,7 +7,6 @@ strip_tags() Skips Closed Tag
 
   `strip_tags() <https://www.php.net/strip_tags>`_ skips non-`self <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ closing tags. This means that tags such as ``<br />`` will be ignored from the second argument of the function.
 
-
 .. code-block:: php
    
    <?php

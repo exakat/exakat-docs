@@ -9,7 +9,6 @@ ext/xattr
 
 The xattr extension allows for the manipulation of extended attributes on a filesystem.
 
-
 .. code-block:: php
    
    <?php

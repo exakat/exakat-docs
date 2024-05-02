@@ -8,7 +8,7 @@ No Valid Cast
   This cast generates an `error <https://www.php.net/error>`_, as there is no way to convert an object to an int. 
 
 The `result <https://www.php.net/result>`_ will be 1. 
-
+This rule applies to float and int. This doesn't apply to string cast, as the magic method `__toString() <https://www.php.net/manual/en/language.oop5.magic.php>`_ allows for such conversions.
 
 .. code-block:: php
    
@@ -20,9 +20,6 @@ The `result <https://www.php.net/result>`_ will be 1.
    
    
    ?>
-
-
-This rule applies to float and int. This doesn't apply to string cast, as the magic method `__toString() <https://www.php.net/manual/en/language.oop5.magic.php>`_ allows for such conversions.
 
 Suggestions
 ___________

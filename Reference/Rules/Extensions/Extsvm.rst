@@ -9,7 +9,6 @@ ext/svm
 
 ``SVM`` is in interface with the ``libsvm``, from . ``libsvm``is a library for Support Vector Machines, a classification tool for machine learning.
 
-
 .. code-block:: php
    
    <?php

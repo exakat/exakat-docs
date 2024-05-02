@@ -7,7 +7,6 @@ Variable Global
 
   Variable ``global`` such are valid in PHP 5.6, but no in PHP 7.0. They should be replaced with ${$foo->bar}.
 
-
 .. code-block:: php
    
    <?php

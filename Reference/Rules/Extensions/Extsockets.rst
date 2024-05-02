@@ -9,7 +9,6 @@ ext/sockets
 
 The `socket <https://www.php.net/socket>`_ extension implements a low-level interface to the `socket <https://www.php.net/socket>`_ communication functions based on the popular BSD sockets, providing the possibility to act as a `socket <https://www.php.net/socket>`_ server as well as a client.
 
-
 .. code-block:: php
    
    <?php

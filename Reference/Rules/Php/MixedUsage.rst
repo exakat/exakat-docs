@@ -7,7 +7,6 @@ Mixed Typehint Usage
 
   Usage of the mixed typehint.
 
-
 .. code-block:: php
    
    <?php

@@ -7,8 +7,7 @@ ext/xhprof
 
   Extension xhprof.
 
-XHProf is a light-weight hierarchical and instrumentation based profiler. 
-
+XHProf is a light-weight hierarchical and instrumentation based profiler.
 
 .. code-block:: php
    

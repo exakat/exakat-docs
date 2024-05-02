@@ -9,7 +9,6 @@ ext/zookeeper
 
 ZooKeeper is an Apache project that enables centralized service for maintaining configuration information, naming, providing distributed synchronization, and providing group services.
 
-
 .. code-block:: php
    
    <?php

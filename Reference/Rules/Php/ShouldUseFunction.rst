@@ -12,7 +12,7 @@ PHP searches for functions in the local namespaces, and in case it fails, makes 
 The speed bump range from 2 to 8 %, depending on the availability of functions in the local scope. The overall bump is about 1 µs per functioncall, which makes it a micro optimisation until a lot of function calls are made.
 
 Based on one of `Marco Pivetta tweet <https://twitter.com/Ocramius/status/811504929357660160>`_.
-
+This analysis is a related to Performances/Php74ArrayKeyExists, and is a more general version.
 
 .. code-block:: php
    
@@ -32,9 +32,6 @@ Based on one of `Marco Pivetta tweet <https://twitter.com/Ocramius/status/811504
    }
    
    ?>
-
-
-This analysis is a related to Performances/Php74ArrayKeyExists, and is a more general version.
 
 See also `blog post <http://veewee.github.io/blog/optimizing-php-performance-by-fq-function-calls/>`_.
 

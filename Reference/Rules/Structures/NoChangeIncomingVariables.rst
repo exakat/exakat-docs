@@ -6,7 +6,7 @@ Don't Change Incomings
 ++++++++++++++++++++++
 
   PHP hands over a lot of information using special variables like `$_GET <https://www.php.net/manual/en/reserved.variables.get.php>`_, `$_POST <https://www.php.net/manual/en/reserved.variables.post.php>`_, etc... Modifying those variables and those values inside variables means that the original content is lost, while it will still look like raw data, and, as such, will be untrustworthy.
-
+It is recommended to put the modified values in another variable, and keep the original one intact.
 
 .. code-block:: php
    
@@ -19,9 +19,6 @@ Don't Change Incomings
    $_GET['id'] = strtolower($_GET['id']);
    
    ?>
-
-
-It is recommended to put the modified values in another variable, and keep the original one intact.
 
 Suggestions
 ___________

@@ -6,7 +6,13 @@
 ++++++++++
 
   `@ <https://www.php.net/manual/en/language.operators.errorcontrol.php>`_ is the 'no scream' operator : it suppresses `error <https://www.php.net/error>`_ output. 
+This operator is very slow : it processes the `error <https://www.php.net/error>`_, and finally decides not to display it. It is often faster to check the conditions first, then run the method without ``@``.
 
+You may also set display_error to 0 in the ``php.ini`` : this avoids user's `error <https://www.php.net/error>`_ display, and keeps the `error <https://www.php.net/error>`_ in the PHP logs, for later processing. 
+
+The only situation where ``@`` is useful is when a native PHP function displays errors messages and there is no way to check it from the code beforehand. 
+
+This was the case with `fopen() <https://www.php.net/fopen>`_, `stream_socket_server() <https://www.php.net/stream_socket_server>`_, `token_get_all() <https://www.php.net/token_get_all>`_. As of PHP 7.0, they are all hiding errors when ``@`` is active.
 
 .. code-block:: php
    
@@ -16,15 +22,6 @@
    $x = @$_GET['x'];
    
    ?>
-
-
-This operator is very slow : it processes the `error <https://www.php.net/error>`_, and finally decides not to display it. It is often faster to check the conditions first, then run the method without ``@``.
-
-You may also set display_error to 0 in the ``php.ini`` : this avoids user's `error <https://www.php.net/error>`_ display, and keeps the `error <https://www.php.net/error>`_ in the PHP logs, for later processing. 
-
-The only situation where ``@`` is useful is when a native PHP function displays errors messages and there is no way to check it from the code beforehand. 
-
-This was the case with `fopen() <https://www.php.net/fopen>`_, `stream_socket_server() <https://www.php.net/stream_socket_server>`_, `token_get_all() <https://www.php.net/token_get_all>`_. As of PHP 7.0, they are all hiding errors when ``@`` is active.
 
 +---------------------+-------------------------+------+----------------------------------------------+
 | Name                | Default                 | Type | Description                                  |

@@ -13,7 +13,6 @@ Sodium supports a variety of compilers and operating systems, including Windows 
 
 The design choices emphasize security, and "magic constants" have clear rationales.
 
-
 .. code-block:: php
    
    <?php

@@ -7,7 +7,6 @@ No Hardcoded Port
 
   When connecting to a remove server, port is an important information. It is recommended to make this configurable (with constant or configuration), to as to be able to change this value without changing the code.
 
-
 .. code-block:: php
    
    <?php

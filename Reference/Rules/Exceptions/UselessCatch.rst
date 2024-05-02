@@ -9,6 +9,11 @@ Useless Catch
 
 Among the task of a catch clause : log the `exception <https://www.php.net/exception>`_, clean any mess that was introduced, fail graciously.
 
+In particular, a return inside a catch clause might short-circuit the commands laid after the try/catch block. 
+
+It is also a sign that there is no `error <https://www.php.net/error>`_, and the `exception <https://www.php.net/exception>`_ shall be handled with a preemptive check, rather than an `error <https://www.php.net/error>`_ review.
+
+
 .. code-block:: php
    
    <?php
@@ -36,8 +41,8 @@ See also `Exceptions <https://www.php.net/manual/en/language.exceptions.php>`_ a
 Suggestions
 ___________
 
-* Add a log call to the catch block
-* Handle correctly the exception
+* Add a log call to the catch block.
+* Handle correctly the exception.
 
 
 
@@ -48,7 +53,7 @@ _____
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Exceptions/UselessCatch                                                                                                                                                                 |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Analyze <ruleset-Analyze>`, :ref:`CE <ruleset-CE>`, :ref:`CI-checks <ruleset-CI-checks>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`            |
+| Rulesets     | :ref:`All <ruleset-All>`                                                                                                                                                                |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 1.1.4                                                                                                                                                                                   |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

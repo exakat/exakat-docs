@@ -9,7 +9,6 @@ ext/event
 
 This is an extension to efficiently schedule I/O, time and signal based events using the best I/O notification mechanism available for specific platform. This is a port of libevent to the PHP infrastructure.
 
-
 .. code-block:: php
    
    <?php

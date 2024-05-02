@@ -7,7 +7,6 @@ Anonymous Classes
 
   Anonymous classes.
 
-
 .. code-block:: php
    
    <?php

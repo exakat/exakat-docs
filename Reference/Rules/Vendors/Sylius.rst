@@ -9,7 +9,6 @@ Sylius usage
 
 Sylius is an Open Source Headless eCommerce Platform for mid-market and enterprise brands that need custom solutions.
 
-
 .. code-block:: php
    
    <?php

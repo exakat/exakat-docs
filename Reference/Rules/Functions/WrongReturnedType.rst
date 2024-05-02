@@ -7,7 +7,6 @@ Wrong Type Returned
 
   The returned value is not compatible with the specified return type.
 
-
 .. code-block:: php
    
    <?php

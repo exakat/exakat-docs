@@ -8,7 +8,7 @@ Long Arguments
   Long arguments should be put in variable, to preserve readability. 
 
 When literal arguments are too long, they `break <https://www.php.net/manual/en/control-structures.break.php>`_ the hosting structure by moving the next argument too far on the right. Whenever possible, long arguments should be set in a local variable to keep the readability.
-
+Literal strings and heredoc strings, including variables, that are over 50 chars longs are reported here.
 
 .. code-block:: php
    
@@ -30,9 +30,6 @@ When literal arguments are too long, they `break <https://www.php.net/manual/en/
    , 2, '123456789012345678901234567890123456789012345678901234567890');
    
    ?>
-
-
-Literal strings and heredoc strings, including variables, that are over 50 chars longs are reported here.
 
 +-------------+---------+---------+---------------------------------------------------------------------------+
 | Name        | Default | Type    | Description                                                               |

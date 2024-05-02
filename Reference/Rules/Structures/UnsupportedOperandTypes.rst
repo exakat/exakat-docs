@@ -8,7 +8,7 @@ Unsupported Operand Types
   This `error <https://www.php.net/error>`_ is raised when trying to combine an array and a scalar value. 
 
 Always checks that the types are compatible with the planned operations.
-
+PHP detects this `error <https://www.php.net/error>`_ at linting time, when using literal values. When `static <https://www.php.net/manual/en/language.oop5.static.php>`_ expression are involved, this `error <https://www.php.net/error>`_ will appear at execution time.
 
 .. code-block:: php
    
@@ -20,9 +20,6 @@ Always checks that the types are compatible with the planned operations.
    $b = MY_ARRAY + array(3,4);
    
    ?>
-
-
-PHP detects this `error <https://www.php.net/error>`_ at linting time, when using literal values. When `static <https://www.php.net/manual/en/language.oop5.static.php>`_ expression are involved, this `error <https://www.php.net/error>`_ will appear at execution time.
 
 See also `PHP - Fatal error: Unsupported operand types [duplicate] <https://stackoverflow.com/questions/2108875/php-fatal-error-unsupported-operand-types>`_.
 

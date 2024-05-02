@@ -9,7 +9,6 @@ Useless Brackets
 
 Standalone brackets may be a left over of an old instruction, or a misunderstanding of the alternative syntax.
 
-
 .. code-block:: php
    
    <?php

@@ -9,7 +9,6 @@ ext/sem
 
 This module provides wrappers for the System V IPC family of functions. It includes semaphores, shared memory and inter-process messaging (IPC).
 
-
 .. code-block:: php
    
    <?php

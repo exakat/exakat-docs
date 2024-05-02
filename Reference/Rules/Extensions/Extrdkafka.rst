@@ -9,7 +9,6 @@ ext/rdkafka
 
 PHP-rdkafka is a thin librdkafka binding providing a working PHP 5 / PHP 7 Kafka 0.8 / 0.9 / 0.10 client.
 
-
 .. code-block:: php
    
    <?php

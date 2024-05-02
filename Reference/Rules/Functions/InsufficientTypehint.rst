@@ -8,7 +8,7 @@ Insufficient Typehint
   An argument is typehinted, but it actually calls methods that are not listed in the interface.
 
 Classes may be implementing more methods than the one that are listed in the interface they also implements. This means that filtering objects with a typehint, but calling other methods will be solved at execution time : if the method is available, it will be used; if it is not, a fatal `error <https://www.php.net/error>`_ is reported.
-
+Inspired by discussion with `Brandon Savage <https://twitter.com/BrandonSavage>`_.
 
 .. code-block:: php
    
@@ -28,9 +28,6 @@ Classes may be implementing more methods than the one that are listed in the int
        $x->notInI();  // this call is not garanteed
    }
    ?>
-
-
-Inspired by discussion with `Brandon Savage <https://twitter.com/BrandonSavage>`_.
 
 See also `Interface segregation principle <https://en.wikipedia.org/wiki/Interface_segregation_principle>`_.
 

@@ -5,12 +5,13 @@
 Avoid Large Array Assignation
 +++++++++++++++++++++++++++++
 
-  Avoid setting large arrays to local variables. This is done every time the function is called.
+  Avoid setting large arrays to local variables. Such operation is done every time the function is called, and it wastes time. 
 
-There are different ways to avoid this : inject the array, build the array once, use a constant or even a global variable.
+This rule applies to constant arrays: when the arrays are dynamically build, with variables or properties, they are not reported here.
+
+There are different ways to avoid this : inject the array, build the array once, use a constant or a global variable. 
 
 The effect on small arrays (less than 10 elements) is not significant. Arrays with 10 elements or more are reported here. The effect is also more important on functions that are called often, or within loops.
-
 
 .. code-block:: php
    

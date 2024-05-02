@@ -7,7 +7,6 @@ Pack Format Inventory
 
   All format used in the code with `pack() <https://www.php.net/pack>`_ and `unpack() <https://www.php.net/unpack>`_.
 
-
 .. code-block:: php
    
    <?php

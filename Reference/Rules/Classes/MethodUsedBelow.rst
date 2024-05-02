@@ -6,7 +6,7 @@ Method Used Below
 +++++++++++++++++
 
   Mark methods that are used in children classes.
-
+This doesn't mark the current class, nor the (grand-)`parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ ones.
 
 .. code-block:: php
    
@@ -33,9 +33,6 @@ Method Used Below
    }
    
    ?>
-
-
-This doesn't mark the current class, nor the (grand-)`parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ ones.
 
 See also inheritance.
 

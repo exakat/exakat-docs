@@ -9,7 +9,6 @@ ext/json
 
 This extension implements the JavaScript Object Notation (JSON) data-interchange format. PHP implements a superset of JSON as specified in the original `RFC 7159 <http://www.faqs.org/rfcs/rfc7159>`_.
 
-
 .. code-block:: php
    
    <?php

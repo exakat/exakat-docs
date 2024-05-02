@@ -8,7 +8,7 @@ Swapped Arguments
   Overwritten methods must be compatible, but argument names is not part of that compatibility.
 
 Methods with the same name, in two classes of the same hierarchy, must be compatible for typehint, default value, reference. The name of the argument is not taken into account when checking such compatibility, at least until PHP 7.4.
-
+This analysis reports argument lists that differs in ordering. This analysis doesn't report argument lists that also differs in argument names.
 
 .. code-block:: php
    
@@ -29,9 +29,6 @@ Methods with the same name, in two classes of the same hierarchy, must be compat
    }
    
    ?>
-
-
-This analysis reports argument lists that differs in ordering. This analysis doesn't report argument lists that also differs in argument names.
 
 Suggestions
 ___________

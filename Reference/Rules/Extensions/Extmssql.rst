@@ -9,7 +9,6 @@ ext/mssql
 
 These functions allow you to access MS SQL Server database.
 
-
 .. code-block:: php
    
    <?php

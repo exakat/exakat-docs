@@ -7,7 +7,6 @@ Useless Constant Overwrite
 
   A class constant is defined in a `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ and child class, with the same value. One of them is useless and may be removed.
 
-
 .. code-block:: php
    
    <?php

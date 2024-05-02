@@ -8,7 +8,7 @@ Deprecated Callable
   Callable functions that are supported by ``call_user_func($callable)``, but not with the ``$callable()`` syntax are deprecated. 
 
 One important aspect is the loss of context : 'self\:\:method' may be created anywhere in the code, while `self\:\:class` can only be used inside a class, and, in that case, inside the target class. 
-
+It is recommended to update the code with any PHP version, to prepare for the future removal of the feature.
 
 .. code-block:: php
    
@@ -28,9 +28,6 @@ One important aspect is the loss of context : 'self\:\:method' may be created an
    $x = new x;
    $x->foo('self::method');
    ?>
-
-
-It is recommended to update the code with any PHP version, to prepare for the future removal of the feature.
 
 See also `PHP RFC: Deprecate partially supported callables <https://wiki.php.net/rfc/deprecate_partially_supported_callables>`_.
 

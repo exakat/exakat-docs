@@ -8,7 +8,9 @@ Mismatched Default Arguments
   Arguments are relayed from one method to the other, and the arguments have different default values. 
 
 Although it is possible to have different default values, it is worth checking why this is actually the case.
+This analysis reports the original arguments. Starting from it, follow the usage of the argument in its method, and find calls to other methods. 
 
+This analysis omits reporting argument when one of them does not have a default value.
 
 .. code-block:: php
    
@@ -26,11 +28,6 @@ Although it is possible to have different default values, it is worth checking w
    }
    
    ?>
-
-
-This analysis reports the original arguments. Starting from it, follow the usage of the argument in its method, and find calls to other methods. 
-
-This analysis omits reporting argument when one of them does not have a default value.
 
 Suggestions
 ___________

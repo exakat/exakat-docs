@@ -7,7 +7,9 @@ Useless Constructor
 
   Class constructor that have empty bodies are useless. They may be removed, as they are not called.
 
-The only edge case is when the class has a `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_, and that constructor should not be called.
+One edge case is when the class has a `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_, and the `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ constructor must not be called.
+
+Another edge case is promoted properties: the body of the constructor is still empty, but the parameters hold the definitions of properties. These might be better outside the constructor though.
 
 
 .. code-block:: php

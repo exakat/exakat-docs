@@ -9,7 +9,7 @@ Should Preprocess Chr()
 
 `chr() <https://www.php.net/chr>`_ is a functioncall, that cannot be cached. It is only resolved at execution time. 
 On the other hand, literal values are preprocessed by PHP and may be cached.
-
+This is a micro-optimisation.
 
 .. code-block:: php
    
@@ -25,9 +25,6 @@ On the other hand, literal values are preprocessed by PHP and may be cached.
    $a = 'PHP is great!';
    
    ?>
-
-
-This is a micro-optimisation.
 
 See also `Escape sequences <https://www.php.net/manual/en/regexp.reference.escape.php>`_.
 

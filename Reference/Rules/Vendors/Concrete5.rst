@@ -7,7 +7,6 @@ Concrete5 usage
 
   This analysis reports usage of the Concrete 5 framework.
 
-
 .. code-block:: php
    
    <?php

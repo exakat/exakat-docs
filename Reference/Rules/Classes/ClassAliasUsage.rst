@@ -5,8 +5,7 @@
 Usage Of class_alias()
 ++++++++++++++++++++++
 
-  ``class_alias`` creates dynamically an alias for classes. 
-
+  ``class_alias`` creates dynamically an alias for classes.
 
 .. code-block:: php
    

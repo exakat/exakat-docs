@@ -7,7 +7,6 @@ Defined static\:\: Or self\:\:
 
   List of all defined `static <https://www.php.net/manual/en/language.oop5.static.php>`_ and `self <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ properties and methods.
 
-
 .. code-block:: php
    
    <?php

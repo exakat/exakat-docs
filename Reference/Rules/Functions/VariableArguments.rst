@@ -7,7 +7,6 @@ Has Variable Arguments
 
   Indicates if this function or method accept an arbitrary number of arguments, based on `func_get_args() <https://www.php.net/func_get_args>`_, `func_get_arg() <https://www.php.net/func_get_arg>`_ and `func_num_args() <https://www.php.net/func_num_args>`_ usage.
 
-
 .. code-block:: php
    
    <?php

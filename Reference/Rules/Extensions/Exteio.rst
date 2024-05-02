@@ -11,7 +11,6 @@ This is a PHP extension wrapping functions of the `libeio <http://software.schmo
 
 Libeio is a an asynchronous I/O library. Features basically include asynchronous versions of POSIX API(read, write, open, close, stat, unlink, fdatasync, mknod, readdir etc.); sendfile (native on Solaris, Linux, HP-UX, FreeBSD); readahead. libeio itself emulates the system calls, if they are not available on specific(UNIX-like) platform.
 
-
 .. code-block:: php
    
    <?php

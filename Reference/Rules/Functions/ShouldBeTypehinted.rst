@@ -8,7 +8,7 @@ Argument Should Be Typehinted
   When a method expects objects as argument, those arguments should be typehinted. This way, it provides early warning that a wrong object is being sent to the method.
 
 The analyzer will detect situations where a class, or the keywords 'array' or 'callable'. 
-
+`Closure <https://www.php.net/manual/en/class.`closure <https://www.php.net/closure>`_.php>`_ arguments are omitted.
 
 .. code-block:: php
    
@@ -20,9 +20,6 @@ The analyzer will detect situations where a class, or the keywords 'array' or 'c
    }
    
    ?>
-
-
-`Closure <https://www.php.net/manual/en/class.`closure <https://www.php.net/closure>`_.php>`_ arguments are omitted.
 
 See also `Type declarations <https://www.php.net/manual/en/functions.arguments.php#functions.arguments.type-declaration>`_.
 

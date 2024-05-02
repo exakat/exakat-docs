@@ -10,7 +10,7 @@ Nested Ternary
 They are a convenient instruction to apply some condition, and avoid a if() structure. It works best when it is simple, like in a one liner. 
 
 However, ternary operators tends to make the syntax very difficult to read when they are nested. It is then recommended to use an if() structure, and make the whole code readable.
-
+This is a separate analysis from PHP's preventing nested ternaries without parenthesis.
 
 .. code-block:: php
    
@@ -61,9 +61,6 @@ However, ternary operators tends to make the syntax very difficult to read when 
    }
    
    ?>
-
-
-This is a separate analysis from PHP's preventing nested ternaries without parenthesis.
 
 +------------------+---------+---------+---------------------------------------------+
 | Name             | Default | Type    | Description                                 |

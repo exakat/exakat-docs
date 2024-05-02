@@ -8,7 +8,7 @@ Random Without Try
   `random_int() <https://www.php.net/random_int>`_ and `random_bytes() <https://www.php.net/random_bytes>`_ require a try/catch structure around them.
 
 `random_int() <https://www.php.net/random_int>`_ and `random_bytes() <https://www.php.net/random_bytes>`_ emit Exceptions if they meet a problem. This way, failure can't be mistaken with returning an empty value, which leads to lower security. 
-
+Since PHP 7.4, `openssl_random_pseudo_bytes() <https://www.php.net/openssl_random_pseudo_bytes>`_ has adopted the same behavior. It is included in this analysis : check your PHP version for actual application.
 
 .. code-block:: php
    
@@ -25,9 +25,6 @@ Random Without Try
    }
    
    ?>
-
-
-Since PHP 7.4, `openssl_random_pseudo_bytes() <https://www.php.net/openssl_random_pseudo_bytes>`_ has adopted the same behavior. It is included in this analysis : check your PHP version for actual application.
 
 Suggestions
 ___________

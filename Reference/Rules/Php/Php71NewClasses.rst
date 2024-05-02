@@ -9,7 +9,6 @@ Php 7.1 New Class
 
 The new class is : `ReflectionClassConstant <https://www.php.net/reflectionclassconstant>`_. The other class is 'Void' : this is forbidden as a class name, as Void is used for return type hint.
 
-
 .. code-block:: php
    
    <?php

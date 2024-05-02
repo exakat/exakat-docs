@@ -7,7 +7,6 @@ Accessing Private
 
   List of calls to private properties/methods that will compile but yield some fatal `error <https://www.php.net/error>`_ upon execution.
 
-
 .. code-block:: php
    
    <?php

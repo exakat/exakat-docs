@@ -10,7 +10,7 @@ Complex Dynamic Names
 There are no place for checks or flow control, leading to any rogue value to be used as is. Besides, the expression is often overlooked, and not expected there : this makes the code less readable.
 
 It is recommended to build the name in a separate variable, apply the usual checks for existence and validity, and then use the name.
-
+This analysis only accept simple containers, such as variables, properties.
 
 .. code-block:: php
    
@@ -29,9 +29,6 @@ It is recommended to build the name in a separate variable, apply the usual chec
    echo $a->{strtolower($string)};
    
    ?>
-
-
-This analysis only accept simple containers, such as variables, properties.
 
 See also  `Dynamically Access PHP Object Properties with $this <https://drupalize.me/blog/201508/dynamically-access-php-object-properties>`_.
 

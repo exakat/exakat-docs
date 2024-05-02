@@ -13,7 +13,6 @@ This applies to the following functions :
 * `phpversion() <https://www.php.net/phpversion>`_ : replace with `PHP_VERSION`
 * `php_sapi_name() <https://www.php.net/php_sapi_name>`_ : replace with `PHP_SAPI_NAME`
 
-
 .. code-block:: php
    
    <?php

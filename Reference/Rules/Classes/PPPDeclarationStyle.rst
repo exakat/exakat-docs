@@ -9,8 +9,7 @@ Properties Declaration Consistence
 
 The analyzed code has less than 10% of one of them : for consistency reasons, it is recommended to make them all the same. 
 
-It happens that choosing unique declarations or multiple depends on coding style and files. 
-
+It happens that choosing unique declarations or multiple depends on coding style and files.
 
 .. code-block:: php
    

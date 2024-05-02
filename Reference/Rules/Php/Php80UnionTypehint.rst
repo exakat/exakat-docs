@@ -8,7 +8,9 @@ Union Typehint
   Union typehints allows the specification of several typehint for the same argument or return value. 
 
 Several typehints are specified at the same place as a single one. The different values are separated by a pipe character ``|``, like for exceptions 
+Nullable is reported as union type. Mixed and iterable are not reported as a union type. 
 
+Union types are a PHP 8.0 new feature. They are not compatible with PHP 7.4 and older.
 
 .. code-block:: php
    
@@ -27,11 +29,6 @@ Several typehints are specified at the same place as a single one. The different
        }
    }
    ?>
-
-
-Nullable is reported as union type. Mixed and iterable are not reported as a union type. 
-
-Union types are a PHP 8.0 new feature. They are not compatible with PHP 7.4 and older.
 
 See also `PHP RFC: Union Types 2.0 <https://wiki.php.net/rfc/union_types_v2>`_, `PHP 8 Union types <https://www.geeksforgeeks.org/php-8-union-types/>`_ and `Type declarations <https://www.php.net/manual/en/language.types.declarations.php>`_.
 

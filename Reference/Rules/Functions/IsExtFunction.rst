@@ -6,7 +6,7 @@ Is An Extension Function
 ++++++++++++++++++++++++
 
   This is an extension function. 
-
+Almost every PHP extension defines extra functions. Nowadays, they are prefixed, like ``mysqli_connect``, ``ldap_close``, or ``zlib_decode``. Sometimes, they are even in a namespace. Refer to the extension itself to learn more about its functions usage.
 
 .. code-block:: php
    
@@ -19,9 +19,6 @@ Is An Extension Function
    echo json_encode($array);
    
    ?>
-
-
-Almost every PHP extension defines extra functions. Nowadays, they are prefixed, like ``mysqli_connect``, ``ldap_close``, or ``zlib_decode``. Sometimes, they are even in a namespace. Refer to the extension itself to learn more about its functions usage.
 
 Specs
 _____

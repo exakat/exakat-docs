@@ -10,7 +10,9 @@ Property Used In One Method Only
 Properties used in one method only may be used several times, and read only. This may be a class constant. Such properties are meant to be overwritten by an extending class, and that's possible with class constants.
 
 Properties that read and written may be converted into a variable, `static <https://www.php.net/manual/en/language.oop5.static.php>`_ to the method. This way, they are kept close to the method, and do not pollute the object's properties.
+This analysis consider that using the current object with a cast or with the `get_object_vars() <https://www.php.net/get_object_vars>`_ function is also a usage, and skip those properties.
 
+Note : properties used only once are not returned by this analysis. They are omitted, and are available in the analysis `Used Once Property`_.
 
 .. code-block:: php
    
@@ -46,11 +48,6 @@ Properties that read and written may be converted into a variable, `static <http
    }
    
    ?>
-
-
-This analysis consider that using the current object with a cast or with the `get_object_vars() <https://www.php.net/get_object_vars>`_ function is also a usage, and skip those properties.
-
-Note : properties used only once are not returned by this analysis. They are omitted, and are available in the analysis `Used Once Property`_.
 
 Suggestions
 ___________

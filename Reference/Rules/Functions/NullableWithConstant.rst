@@ -7,7 +7,6 @@ Nullable With Constant
 
   Arguments are automatically nullable with a literal null. They used to also be nullable with a constant null, before PHP 8.0.
 
-
 .. code-block:: php
    
    <?php

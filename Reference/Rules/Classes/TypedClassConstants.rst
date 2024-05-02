@@ -13,6 +13,16 @@ While it appears to be a paradox to give a type to a structure which as a `stati
 + When the class constant is build with an expression
 + When the class constant is build with another constant
 
+.. code-block:: php
+   
+   <?php
+   
+   class x {
+   	const int A = 1;
+   }
+   
+   ?>
+
 See also `PHP RFC: Typed class constants <https://wiki.php.net/rfc/typed_class_constants>`_ and `Why Class Constants Should be Typed <https://tomasvotruba.com/blog/2020/06/22/why-class-constants-should-be-typed>_.
 
 

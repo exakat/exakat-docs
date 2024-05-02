@@ -11,7 +11,6 @@ A public constant may be used anywhere in the code; a protected constant usage i
 
 This feature was introduced in PHP 7.1. It is recommended to use explicit visibility, and, whenever possible, make the visibility private.
 
-
 .. code-block:: php
    
    <?php

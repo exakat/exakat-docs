@@ -10,7 +10,7 @@ One Expression Brackets Consistency
 PHP makes bracket optional when a control structure pilot only one expression. Both are semantically identical.
 
 This analysis reports code that uses brackets while the vast majority of other expressions uses none. Or the contrary. 
-
+Another analysis, [Structures/Bracketless], reports the absence of brackets as an `error <https://www.php.net/error>`_.
 
 .. code-block:: php
    
@@ -23,9 +23,6 @@ This analysis reports code that uses brackets while the vast majority of other e
    for($i2 = 0; $i2 < 10; $i2++)  $c++; 
    
    ?>
-
-
-Another analysis, [Structures/Bracketless], reports the absence of brackets as an `error <https://www.php.net/error>`_.
 
 Specs
 _____

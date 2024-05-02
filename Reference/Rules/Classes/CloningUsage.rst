@@ -7,7 +7,6 @@ Clone Usage
 
   List of all clone situations.
 
-
 .. code-block:: php
    
    <?php

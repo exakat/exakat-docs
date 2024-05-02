@@ -13,7 +13,6 @@ Closures, and more generally, functions definitions are counted separatedly.
 
 This analysis checks for 4 levels of nesting, by default. This may be changed by configuration.
 
-
 .. code-block:: php
    
    <?php

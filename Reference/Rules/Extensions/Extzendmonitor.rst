@@ -9,7 +9,6 @@ ext/zend_monitor
 
 The Zend Monitor component is integrated into the runtime environment and serves as an alerting and collection mechanism for early detection of PHP script problems.
 
-
 .. code-block:: php
    
    <?php

@@ -9,7 +9,6 @@ ext/filter
 
 This extension filters data by either validating or sanitizing it.
 
-
 .. code-block:: php
    
    <?php

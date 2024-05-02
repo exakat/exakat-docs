@@ -7,7 +7,6 @@ No Need For Triple Equal
 
   There is no need for the identity comparison when the methods returns the proper type.
 
-
 .. code-block:: php
    
    <?php

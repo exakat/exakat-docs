@@ -7,8 +7,7 @@ ext/math
 
   Core functions that provides math standard functions.
 
-This is not a real extension : it is a documentation section, that helps sorting the functions. 
-
+This is not a real extension : it is a documentation section, that helps sorting the functions.
 
 .. code-block:: php
    

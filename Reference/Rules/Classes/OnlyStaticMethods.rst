@@ -7,7 +7,6 @@ Only Static Methods Class
 
   Marks a class that has only `static <https://www.php.net/manual/en/language.oop5.static.php>`_ methods.
 
-
 .. code-block:: php
    
    <?php

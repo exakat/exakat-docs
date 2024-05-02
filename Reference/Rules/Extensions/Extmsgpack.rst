@@ -9,7 +9,6 @@ ext/msgpack
 
 This extension provide API for handling MessagePack serialization, both encoding and decoding.
 
-
 .. code-block:: php
    
    <?php

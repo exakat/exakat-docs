@@ -9,7 +9,6 @@ ext/iconv
 
  With this module, you can turn a string represented by a local character set into the one represented by another character set, which may be the Unicode character set.
 
-
 .. code-block:: php
    
    <?php

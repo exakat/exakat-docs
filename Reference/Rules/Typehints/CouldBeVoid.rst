@@ -6,7 +6,7 @@ Could Be Void
 +++++++++++++
 
   Mark return types that can be set to void.
-
+All abstract methods (in classes or in interfaces) are omitted here.
 
 .. code-block:: php
    
@@ -18,9 +18,6 @@ Could Be Void
    }
    
    ?>
-
-
-All abstract methods (in classes or in interfaces) are omitted here.
 
 Suggestions
 ___________

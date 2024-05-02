@@ -9,7 +9,6 @@ Too Many Stringed Elseif
 
 This rule also takes into account ``else if`` structures.
 
-
 .. code-block:: php
    
    <?php

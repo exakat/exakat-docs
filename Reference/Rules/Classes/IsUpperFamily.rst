@@ -9,7 +9,6 @@ Is Upper Family
 
 This applies to `static <https://www.php.net/manual/en/language.oop5.static.php>`_ methodcalls, property accesses and class constants.
 
-
 .. code-block:: php
    
    <?php

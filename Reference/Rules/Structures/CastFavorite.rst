@@ -11,7 +11,6 @@ The analyzed code has less than 10% of one of them : for consistency reasons, it
 
 It happens that casting operators or conversion functions are used depending on coding style and files.
 
-
 .. code-block:: php
    
    <?php

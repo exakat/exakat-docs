@@ -7,8 +7,7 @@ ext/ncurses
 
   Extension ncurses (CLI).
 
-ncurses (new curses) is a free software emulation of curses in System V Rel 4.0 (and above). 
-
+ncurses (new curses) is a free software emulation of curses in System V Rel 4.0 (and above).
 
 .. code-block:: php
    

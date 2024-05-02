@@ -9,7 +9,6 @@ Ambiguous Static
 
 Try to keep the methods simple and unique. Consider renaming the methods and properties to distinguish them easily. A method and a `static <https://www.php.net/manual/en/language.oop5.static.php>`_ method have probably different responsibilities.
 
-
 .. code-block:: php
    
    <?php

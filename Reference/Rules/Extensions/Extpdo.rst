@@ -7,8 +7,7 @@ ext/pdo
 
   Generic extension `PDO <https://www.php.net/pdo>`_.
 
-The PHP Data Objects (`PDO) <https://www.php.net/pdo>`_ extension defines a lightweight, consistent interface for accessing databases in PHP. 
-
+The PHP Data Objects (`PDO) <https://www.php.net/pdo>`_ extension defines a lightweight, consistent interface for accessing databases in PHP.
 
 .. code-block:: php
    

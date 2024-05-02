@@ -7,7 +7,6 @@ PHP Sapi
 
   List of PHP SAPI mentioned in the code. When those SAPI are mentioned in strings, they are usually checked to take advantage of special characteristics. Check the code for portability.
 
-
 .. code-block:: php
    
    <?php

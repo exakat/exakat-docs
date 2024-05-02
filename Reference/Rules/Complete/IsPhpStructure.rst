@@ -5,7 +5,16 @@
 Is PHP Structure
 ++++++++++++++++
 
-  Finish marking atoms with ``isPhp``, as part of the standard PHP elements. For example, ``Datetime``, ``E_ALL``, etc.
+  This rules marks atoms with ``isPhp``, as part of the standard PHP elements. For example, ``Datetime``, ``E_ALL``, etc. This `attribute <https://www.php.net/attribute>`_ is available in the `engine <https://www.php.net/engine>`_, but not displayed.
+
+.. code-block:: php
+   
+   <?php
+   
+   // strtolower is marked as isPhp 
+   $string = strtolower($s) . foo($s);
+   
+   ?>
 
 Specs
 _____

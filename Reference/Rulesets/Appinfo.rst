@@ -135,7 +135,7 @@ Total : 388 analysis
 * :ref:`cast-usage`
 * :ref:`function-subscripting`
 * :ref:`nested-loops`
-* :ref:`I?=-usage`
+* :ref:`php-echo-tag-usage`
 * :ref:`ext-pcntl`
 * :ref:`ext-redis`
 * :ref:`ext-sqlsrv`

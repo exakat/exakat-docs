@@ -9,7 +9,6 @@ Invalid Octal In String
 
 The check is applied to the string, starting with PHP 7.1. In PHP 7.0 and older, those sequences were silently adapted (modulo/% \400).
 
-
 .. code-block:: php
    
    <?php

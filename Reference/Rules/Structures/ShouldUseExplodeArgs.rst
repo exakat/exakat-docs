@@ -7,7 +7,6 @@ Should Use Explode Args
 
   `explode() <https://www.php.net/explode>`_ has a third argument, which limits the amount of exploded elements. With it, it is possible to collect only the first elements, or drop the last ones.
 
-
 .. code-block:: php
    
    <?php

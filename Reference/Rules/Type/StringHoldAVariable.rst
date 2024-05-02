@@ -11,7 +11,6 @@ Single quotes and Nowdoc syntax may include $ signs. They are treated as literal
 
 However, there are some potential variables in those strings, making it possible for an `error <https://www.php.net/error>`_ : the variable was forgotten and will be published as such. It is worth checking the content and make sure those strings are not variables.
 
-
 .. code-block:: php
    
    <?php

@@ -9,8 +9,7 @@ Unused Inherited Variable In Closure
 
 `Closure <https://www.php.net/manual/en/class.`closure <https://www.php.net/closure>`_.php>`_ have two separate set of incoming variables : the arguments (between parenthesis) and the inherited variables, in the 'use' clause. Inherited variables are extracted from the local environment at creation time, and keep their value until execution. 
 
-The reported closures are requesting some local variables, but do not make any usage of them. They may be considered as dead code.  
-
+The reported closures are requesting some local variables, but do not make any usage of them. They may be considered as dead code.
 
 .. code-block:: php
    

@@ -10,7 +10,7 @@ Class Invasion
 This is possible from the scope of the class itself. For example, an cloned object, or a parameter with the same type as the current class. 
 
 Class invasion is a PHP feature. 
-
+This applies to properties, constants and methods, `static <https://www.php.net/manual/en/language.oop5.static.php>`_ or not.
 
 .. code-block:: php
    
@@ -28,9 +28,6 @@ Class invasion is a PHP feature.
    }
    
    ?>
-
-
-This applies to properties, constants and methods, `static <https://www.php.net/manual/en/language.oop5.static.php>`_ or not.
 
 Specs
 _____

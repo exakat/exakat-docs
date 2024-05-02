@@ -7,10 +7,10 @@ PHP 8.0 Removed Constants
 
   The following PHP native constants were removed in PHP 8.0.
 
-* INTL_IDNA_VARIANT_2003 (See `Deprecate and remove INTL_IDNA_VARIANT_2003 <https://wiki.php.net/rfc/deprecate-and-remove-intl_idna_variant_2003>`_)
-* MB_OVERLOAD_MAIL
-* MB_OVERLOAD_STRING
-* MB_OVERLOAD_REGEX
++ INTL_IDNA_VARIANT_2003 (See `Deprecate and remove INTL_IDNA_VARIANT_2003 <https://wiki.php.net/rfc/deprecate-and-remove-intl_idna_variant_2003>`_)
++ MB_OVERLOAD_MAIL
++ MB_OVERLOAD_STRING
++ MB_OVERLOAD_REGEX
 
 Suggestions
 ___________

@@ -11,7 +11,6 @@ When a local variable name is used as an argument's name in an arrow function, t
 
 When the local variable is not listed as argument, it is then imported in the arrow function.
 
-
 .. code-block:: php
    
    <?php

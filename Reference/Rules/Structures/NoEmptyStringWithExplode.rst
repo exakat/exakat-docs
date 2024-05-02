@@ -7,8 +7,7 @@ No Empty String With explode()
 
   `explode() <https://www.php.net/explode>`_ doesn't allow empty strings as separator. Until PHP 8.0, it would make a warning, and return false. After that version, it raises a `ValueError <https://www.php.net/valueerror>`_.
 
-To `break <https://www.php.net/manual/en/control-structures.break.php>`_ a string into individual characters, it is possible to use the array notation on strings, or to use the `str_split() <https://www.php.net/str_split>`_ function. 
-
+To `break <https://www.php.net/manual/en/control-structures.break.php>`_ a string into individual characters, it is possible to use the array notation on strings, or to use the `str_split() <https://www.php.net/str_split>`_ function.
 
 .. code-block:: php
    

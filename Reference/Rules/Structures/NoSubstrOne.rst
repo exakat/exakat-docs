@@ -12,7 +12,7 @@ There are two ways to access a byte in a string : `substr() <https://www.php.net
 The second style is more readable. It may be up to four times faster, though it is a micro-optimization. It is recommended to use it. 
 
 PHP 7.1 also introduces the support of negative offsets as string index : negative offset are also reported.
-
+Beware that `substr() <https://www.php.net/substr>`_ and ``$v[$pos]`` are similar, while `mb_substr() <https://www.php.net/mb_substr>`_ is not. The first function works on bytes, while the latter works on characters.
 
 .. code-block:: php
    
@@ -31,9 +31,6 @@ PHP 7.1 also introduces the support of negative offsets as string index : negati
    // displays ??人
    
    ?>
-
-
-Beware that `substr() <https://www.php.net/substr>`_ and ``$v[$pos]`` are similar, while `mb_substr() <https://www.php.net/mb_substr>`_ is not. The first function works on bytes, while the latter works on characters.
 
 Suggestions
 ___________

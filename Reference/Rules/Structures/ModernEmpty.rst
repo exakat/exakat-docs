@@ -9,7 +9,6 @@ Modernize Empty With Expression
 
 There is no need to store the expression in a variable before testing, unless it is reused later.
 
-
 .. code-block:: php
    
    <?php

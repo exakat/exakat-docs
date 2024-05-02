@@ -7,8 +7,7 @@ ext/trader
 
   Extension trader.
 
-The trader extension is a free open source stock library based on TA-Lib. It's dedicated to trading software developers requiring to perform technical analysis of financial market data. 
-
+The trader extension is a free open source stock library based on TA-Lib. It's dedicated to trading software developers requiring to perform technical analysis of financial market data.
 
 .. code-block:: php
    

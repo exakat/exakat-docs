@@ -7,8 +7,7 @@ ext/geoip
 
   Extension geoip for PHP.
 
-The GeoIP extension allows the localisation of an IP address. 
-
+The GeoIP extension allows the localisation of an IP address.
 
 .. code-block:: php
    

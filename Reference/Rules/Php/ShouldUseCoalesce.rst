@@ -6,7 +6,7 @@ Should Use Coalesce
 +++++++++++++++++++
 
   PHP 7 introduced the ``??`` operator, that replaces longer structures to set default values when a variable is not set.
-
+Sample extracted from PHP docs `Isset Ternary <https://wiki.php.net/rfc/isset_ternary>`_.
 
 .. code-block:: php
    
@@ -21,9 +21,6 @@ Should Use Coalesce
    // equivalent to: if (($model = Model::get($id)) === NULL) { $model = $default_model; }
    
    ?>
-
-
-Sample extracted from PHP docs `Isset Ternary <https://wiki.php.net/rfc/isset_ternary>`_.
 
 See also `New in PHP 7: null coalesce operator <https://lornajane.net/posts/2015/new-in-php-7-null-coalesce-operator>`_.
 

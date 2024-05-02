@@ -7,7 +7,6 @@ Could Be CIT
 
   Mark arguments and return types that can be set to a class, interface definition.
 
-
 .. code-block:: php
    
    <?php

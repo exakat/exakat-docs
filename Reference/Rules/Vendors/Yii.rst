@@ -9,7 +9,6 @@ Yii usage
 
 This analysis targets Yii 2, not Yii 1.
 
-
 .. code-block:: php
    
    <?php

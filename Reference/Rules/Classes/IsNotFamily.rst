@@ -7,7 +7,6 @@ Is Not Class Family
 
   Mark a `static <https://www.php.net/manual/en/language.oop5.static.php>`_ method call as inside the family of classes. Children are not considered here.
 
-
 .. code-block:: php
    
    <?php

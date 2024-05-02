@@ -9,7 +9,6 @@ Implode() Arguments Order
 
 In PHP 7.4, the order array then string is deprecated, and emits a warning. It will be removed in PHP 8.0.
 
-
 .. code-block:: php
    
    <?php

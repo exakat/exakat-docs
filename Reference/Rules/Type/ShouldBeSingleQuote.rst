@@ -8,7 +8,7 @@ Should Be Single Quote
   Use single quote for simple strings.
 
 `Static <https://www.php.net/manual/en/language.oop5.static.php>`_ content inside a string, that has no single quotes nor escape sequence (such as \n or \t), should be using single quote delimiter, instead of double quote. 
-
+If you have too many of them, don't loose your time switching them all. If you have a few of them, it may be good for consistence.
 
 .. code-block:: php
    
@@ -23,9 +23,6 @@ Should Be Single Quote
    $b = "\x03\u{1F418}";
    
    ?>
-
-
-If you have too many of them, don't loose your time switching them all. If you have a few of them, it may be good for consistence.
 
 Specs
 _____

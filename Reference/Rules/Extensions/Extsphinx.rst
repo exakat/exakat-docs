@@ -7,8 +7,7 @@ ext/sphinx
 
   Extension for the Sphinx search server.
 
-This extension provides bindings for Sphinx search client library. 
-
+This extension provides bindings for Sphinx search client library.
 
 .. code-block:: php
    

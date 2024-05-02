@@ -13,7 +13,6 @@ PHP doesn't mistake space and tables for whitespace when tokenizing the code.
 
 This analysis doesn't report Unicode Codepoint Notation : those are visible in the code.
 
-
 .. code-block:: php
    
    <?php

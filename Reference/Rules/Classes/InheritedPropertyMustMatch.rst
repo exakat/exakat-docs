@@ -9,7 +9,6 @@ Inherited Property Type Must Match
 
 This affect public and protected properties. Private properties are immune to this rule, as they actually are distinct properties.
 
-
 .. code-block:: php
    
    <?php

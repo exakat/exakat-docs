@@ -7,7 +7,6 @@ Excimer
 
   Excimer is a PHP 7.1+ extension that provides an interrupting timer and a low-overhead sampling profiler.
 
-
 .. code-block:: php
    
    <?php

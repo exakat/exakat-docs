@@ -5,8 +5,7 @@
 Method Is Overwritten
 +++++++++++++++++++++
 
-  This rule marks a method that is overwritten in a child class. 
-
+  This rule marks a method that is overwritten in a child class.
 
 .. code-block:: php
    

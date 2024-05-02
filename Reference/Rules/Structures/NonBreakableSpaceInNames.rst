@@ -8,7 +8,8 @@ Non Breakable Space In Names
   PHP allows non-breakable spaces in structures names, such as class, interfaces, traits, and variables.
 
 This may be a nice trick to make names more readable outside code context, like long-named methods for tests. 
-
+Original post by ``Matthieu Napoli``.
+.
 
 .. code-block:: php
    
@@ -19,10 +20,6 @@ This may be a nice trick to make names more readable outside code context, like 
    class ClassWithoutNonBreakableSpaces {}
    
    ?>
-
-
-Original post by ``Matthieu Napoli``.
-.
 
 See also `Using non-breakable spaces in test method names <http://mnapoli.fr/using-non-breakable-spaces-in-test-method-names/>`_ and `PHP Variable Names <http://schappo.blogspot.nl/2015/06/php-variable-names.html>`_.
 

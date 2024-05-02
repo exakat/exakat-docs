@@ -8,7 +8,7 @@ Only Variable For Reference
   When a method is requesting an argument to be a reference, it cannot be called with a literal value.
 
 The call must be made with a variable, or any assimilated data container : array, property or `static <https://www.php.net/manual/en/language.oop5.static.php>`_ property. 
-
+Note that PHP may detect this `error <https://www.php.net/error>`_ at linting time, if the method is defined after being called : at that point, PHP will only check the problem during execution. This is definitely the case for methods, compared to functions or `static <https://www.php.net/manual/en/language.oop5.static.php>`_ methods.
 
 .. code-block:: php
    
@@ -23,9 +23,6 @@ The call must be made with a variable, or any assimilated data container : array
    function foo($a, &$b) {}
    
    ?>
-
-
-Note that PHP may detect this `error <https://www.php.net/error>`_ at linting time, if the method is defined after being called : at that point, PHP will only check the problem during execution. This is definitely the case for methods, compared to functions or `static <https://www.php.net/manual/en/language.oop5.static.php>`_ methods.
 
 See also `Passing arguments by reference <https://www.php.net/manual/en/functions.arguments.php#functions.arguments.by-reference>`_.
 

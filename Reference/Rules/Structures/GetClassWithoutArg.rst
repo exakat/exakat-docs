@@ -7,6 +7,16 @@ get_class() Without Argument
 
   `get_class() <https://www.php.net/get_class>`_ and `get_parent_class() <https://www.php.net/get_parent_class>`_ should not be called without arguments. It was possible until PHP 8.3, but it is now a deprecated behavior.
 
+.. code-block:: php
+   
+   <?php
+   
+   $a = new stdClass;
+   
+   print get_class($a);
+   
+   ?>
+
 Suggestions
 ___________
 

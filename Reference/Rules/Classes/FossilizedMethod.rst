@@ -11,7 +11,6 @@ This happens when a class is extended. When a method is overwritten once, it may
 
 This analysis counts the number of times a method is overwritten, and report any method that is overwritten more than 6 times. This threshold may be configured.
 
-
 .. code-block:: php
    
    <?php

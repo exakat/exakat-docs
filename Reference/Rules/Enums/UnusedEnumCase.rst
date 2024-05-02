@@ -6,7 +6,7 @@ Unused Enumeration Case
 +++++++++++++++++++++++
 
   Those are enumeration cases which are defined, yet not used.
-
+The `error <https://www.php.net/error>`_ message when the case is missing mentions the class constant : this is because enumeration cases and class constants use the same configuration. They are only distinguished by their definition, which, here, does not exists.
 
 .. code-block:: php
    
@@ -24,9 +24,6 @@ Unused Enumeration Case
    foo(x::A);
    
    ?>
-
-
-The `error <https://www.php.net/error>`_ message when the case is missing mentions the class constant : this is because enumeration cases and class constants use the same configuration. They are only distinguished by their definition, which, here, does not exists.
 
 Suggestions
 ___________

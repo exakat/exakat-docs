@@ -7,7 +7,6 @@ Unused Global
 
   A global keyword is used in a method, yet the variable is not actually used. This makes PHP import values for nothing, or may create interference
 
-
 .. code-block:: php
    
    <?php

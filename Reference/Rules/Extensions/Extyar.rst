@@ -5,8 +5,7 @@
 Extensions yar
 ++++++++++++++
 
-  yar : Yet Another RPC framework. 
-
+  yar : Yet Another RPC framework.
 
 .. code-block:: php
    

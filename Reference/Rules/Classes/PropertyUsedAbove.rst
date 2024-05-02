@@ -9,7 +9,6 @@ Property Used Above
 
 It may also be used in the current class, or its children, though this is not reported by this analyzer.
 
-
 .. code-block:: php
    
    <?php

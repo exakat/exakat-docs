@@ -7,7 +7,6 @@ Ez cms usage
 
   This analysis reports usage of the Ez CMS.
 
-
 .. code-block:: php
    
    <?php

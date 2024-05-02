@@ -10,7 +10,7 @@ Missing Include
 The analysis works with every type of inclusion : include(), require(), include_once() and require_once(). It also works with parenthesis when used as parameter delimiter.
 
 The analysis doesn't take into account ``include_path``. This may yield false positives.
-
+Missing included files may lead to a fatal `error <https://www.php.net/error>`_, a warning or other `error <https://www.php.net/error>`_ later in the execution.
 
 .. code-block:: php
    
@@ -23,14 +23,11 @@ The analysis doesn't take into account ``include_path``. This may yield false po
    
    ?>
 
-
-Missing included files may lead to a fatal `error <https://www.php.net/error>`_, a warning or other `error <https://www.php.net/error>`_ later in the execution.
-
-+---------------------------+---------+---------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Name                      | Default | Type    | Description                                                                                                                                                                                                                                                                                                                                                                                    |
-+---------------------------+---------+---------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| constant_or_variable_name | 100     | integer | Literal value to be used when including files. For example, by configuring 'Files_MissingInclude["HOME_DIR"] = "/tmp/myDir/";', then 'include HOME_DIR . "my_class.php"; will be actually be used as '/tmp/myDir/my_class.php'. Constants must be configured with their correct case. Variable must be configured with their initial '$'. Configure any number of variable and constant names. |
-+---------------------------+---------+---------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++---------------------------+---------+---------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Name                      | Default | Type    | Description                                                                                                                                                                                                                                                                                                                                                                              |
++---------------------------+---------+---------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| constant_or_variable_name | 100     | integer | Literal value to be used when including files. For example, by configuring 'Files_MissingInclude[HOME_DIR] = /tmp/myDir/;', then 'include HOME_DIR . my_class.php; will be actually be used as '/tmp/myDir/my_class.php'. Constants must be configured with their correct case. Variable must be configured with their initial '$'. Configure any number of variable and constant names. |
++---------------------------+---------+---------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
 

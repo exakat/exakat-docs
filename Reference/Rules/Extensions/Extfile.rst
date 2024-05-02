@@ -9,7 +9,6 @@ ext/file
 
 Extension that handle access to file on the file system.
 
-
 .. code-block:: php
    
    <?php

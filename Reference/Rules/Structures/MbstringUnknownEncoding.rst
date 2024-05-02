@@ -9,7 +9,6 @@ Mbstring Unknown Encoding
 
 This analysis takes in charge all ``mbstring`` encoding and aliases. The full list of supported mbstring encoding is available with `mb_list_encodings() <https://www.php.net/mb_list_encodings>`_. Each encoding alias is available with `mb_encoding_aliases() <https://www.php.net/mb_encoding_aliases>`_.
 
-
 .. code-block:: php
    
    <?php

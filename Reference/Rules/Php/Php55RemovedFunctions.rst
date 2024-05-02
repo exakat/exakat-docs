@@ -16,7 +16,6 @@ Functions Removed In PHP 5.5
 + mcrypt_ecb()
 + mcrypt_ofb()
 
-
 .. code-block:: php
    
    <?php

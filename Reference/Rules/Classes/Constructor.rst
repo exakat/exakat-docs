@@ -5,8 +5,7 @@
 Constructors
 ++++++++++++
 
-  Mark methods as constructors. 
-
+  Mark methods as constructors.
 
 .. code-block:: php
    

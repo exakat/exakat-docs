@@ -9,7 +9,6 @@ Spread Operator For Array
 
 `list() <https://www.php.net/list>`_ is not allowed to use this operator, as `list() <https://www.php.net/list>`_ expected variables, not values.
 
-
 .. code-block:: php
    
    <?php

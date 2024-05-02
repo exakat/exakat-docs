@@ -7,8 +7,7 @@ Never Keyword
 
   Never becomes a PHP keyword. It is used for typing functions which never returns anything (either dies or throw an `exception) <https://www.php.net/exception>`_.
 
-It should be avoided in namespaces, classes, traits and interfaces. Methods, constants and functions are OK. 
-
+It should be avoided in namespaces, classes, traits and interfaces. Methods, constants and functions are OK.
 
 .. code-block:: php
    

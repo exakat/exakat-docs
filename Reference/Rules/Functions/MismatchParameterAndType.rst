@@ -7,8 +7,7 @@ Mismatch Parameter And Type
 
   When the name of the parameter contradicts the type of the parameter.
 
-This is mostly semantics, so it will affect the coder and the auditor of the code. PHP is immune to those errors. 
-
+This is mostly semantics, so it will affect the coder and the auditor of the code. PHP is immune to those errors.
 
 .. code-block:: php
    

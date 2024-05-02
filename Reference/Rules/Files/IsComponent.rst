@@ -9,7 +9,6 @@ File Is Component
 
 Such a file is a component, that may be included in other code and there, used. By itself, it doesn't execute any code.
 
-
 .. code-block:: php
    
    <?php

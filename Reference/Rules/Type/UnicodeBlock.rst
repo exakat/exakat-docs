@@ -8,7 +8,7 @@ Unicode Blocks
   List of the Unicode blocks used in string literals.
 
 This is the kind of characters that can be found in the applications strings.
-
+Note that Exakat only analyze PHP scripts : any translation available in a ``.po`` or external resource is not parsed and will not show.
 
 .. code-block:: php
    
@@ -23,9 +23,6 @@ This is the kind of characters that can be found in the applications strings.
    $b = "\u{4EBA}"; Same as above
    
    ?>
-
-
-Note that Exakat only analyze PHP scripts : any translation available in a ``.po`` or external resource is not parsed and will not show.
 
 See also `Unicode block <https://en.wikipedia.org/wiki/Unicode_block>`_.
 

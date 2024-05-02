@@ -7,7 +7,6 @@ No Referenced Void
 
   There is no point returning a reference with a void type. This is now reported as deprecated in PHP 8.1.
 
-
 .. code-block:: php
    
    <?php

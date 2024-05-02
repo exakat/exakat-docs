@@ -9,7 +9,6 @@ version_compare Operator
 
 Until PHP 8.1, it was silently reverted to the default value. It is a deprecated warning in PHP 8.1 and will be finalized in PHP 9.0. It is recommended to fix this parameter in any PHP version.
 
-
 .. code-block:: php
    
    <?php

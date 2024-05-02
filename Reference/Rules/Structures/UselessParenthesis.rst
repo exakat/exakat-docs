@@ -11,7 +11,6 @@ Parenthesis group several elements together, and allows for a more readable expr
 
 Sometimes, the parenthesis provide the same execution order than the default order : they are deemed useless, from the PHP point of view. Yet, they may add readability to the code. In special circumstances, they may also protect the code from evolution in the precedence of operators : for example, ``1 + 2 . '.' . 3 + 4;`` has different results between PHP 8 and PHP 7.
 
-
 .. code-block:: php
    
    <?php

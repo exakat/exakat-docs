@@ -9,7 +9,6 @@ No Class As Typehint
 
 A class is needed when the object is with properties : interfaces do not allow the specifications of properties.
 
-
 .. code-block:: php
    
    <?php

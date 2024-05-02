@@ -10,7 +10,7 @@ Switch Without Default
 Switch statements hold a number of 'case' that cover all known situations, and a 'default' one which is executed when all other options are exhausted. 
 
 For Match statements, a missing default will lead to the ``UnhandledMatchError``` `exception <https://www.php.net/exception>`_ being raised. On the other hand, the switch statement will simply `exit <https://www.www.php.net/exit>`_ without action nor alert. 
-
+Most of the time, `switch() <https://www.php.net/manual/en/control-structures.switch.php>`_ do need a default case, so as to catch the odd situation where the 'value is not what it was expected'. This is a good place to catch unexpected values, to set a default behavior.
 
 .. code-block:: php
    
@@ -51,9 +51,6 @@ For Match statements, a missing default will lead to the ``UnhandledMatchError``
    // In case $format is not known, an exception is thrown for processing 
    
    ?>
-
-
-Most of the time, `switch() <https://www.php.net/manual/en/control-structures.switch.php>`_ do need a default case, so as to catch the odd situation where the 'value is not what it was expected'. This is a good place to catch unexpected values, to set a default behavior.
 
 See also `UnhandledMatchError <https://www.php.net/manual/en/class.unhandledmatcherror.php>`_.
 

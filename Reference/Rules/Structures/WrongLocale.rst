@@ -5,8 +5,7 @@
 Wrong Locale
 ++++++++++++
 
-  Checks the `locale <https://www.php.net/locale>`_ used in the code against a library. 
-
+  This rule checks the `locale <https://www.php.net/locale>`_ used in the code, against a library of known valid locales. Unknown locales are reported: they might be typos or unknown to certain systems.
 
 .. code-block:: php
    

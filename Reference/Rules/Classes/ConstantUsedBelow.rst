@@ -6,7 +6,7 @@ Constant Used Below
 +++++++++++++++++++
 
   Mark class constants that are used in children classes.
-
+This analysis marks constants at their definition, not the current class, nor the (grand-)`parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_.
 
 .. code-block:: php
    
@@ -33,9 +33,6 @@ Constant Used Below
    }
    
    ?>
-
-
-This analysis marks constants at their definition, not the current class, nor the (grand-)`parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_.
 
 Specs
 _____

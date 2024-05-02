@@ -7,8 +7,7 @@ ext/phar
 
   Extension `phar <https://www.php.net/phar>`_.
 
-The `phar <https://www.php.net/phar>`_ extension provides a way to put entire PHP applications into a single file called a ``phar`` (PHP Archive) for easy distribution and installation. 
-
+The `phar <https://www.php.net/phar>`_ extension provides a way to put entire PHP applications into a single file called a ``phar`` (PHP Archive) for easy distribution and installation.
 
 .. code-block:: php
    

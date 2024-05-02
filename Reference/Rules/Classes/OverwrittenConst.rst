@@ -7,7 +7,6 @@ Overwritten Class Constants
 
   Those class constants are overwriting  a `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ class's constant. This may lead to confusion, as the value of the constant may change depending on the way it is called.
 
-
 .. code-block:: php
    
    <?php

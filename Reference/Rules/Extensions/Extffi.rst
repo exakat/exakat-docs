@@ -9,7 +9,6 @@ ext/ffi
 
 This extension allows the loading of shared libraries (.DLL or .so), calling of C functions and accessing of C data structures in pure PHP, without having to have deep knowledge of the Zend extension API, and without having to learn a third “intermediate” language. The public API is implemented as a single class `FFI <https://www.php.net/ffi>`_ with several `static <https://www.php.net/manual/en/language.oop5.static.php>`_ methods (some of them may be called dynamically), and overloaded object methods, which perform the actual interaction with C data.
 
-
 .. code-block:: php
    
    <?php

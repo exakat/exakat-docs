@@ -8,7 +8,7 @@ Dynamic Self Calls
   A class that calls itself dynamically. This may be property or methods. 
 
 Calling itself dynamically happens when a class is configured to call various properties (container) or methods.  
-
+This rule is mostly useful internally, to side some special situations.
 
 .. code-block:: php
    
@@ -25,9 +25,6 @@ Calling itself dynamically happens when a class is configured to call various pr
        }
    }
    ?>
-
-
-This rule is mostly useful internally, to side some special situations.
 
 Specs
 _____

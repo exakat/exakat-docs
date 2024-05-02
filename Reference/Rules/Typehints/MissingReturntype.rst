@@ -8,7 +8,7 @@ Missing Some Returntype
   The specified typehints are not compatible with the returned values. 
 
 The code of the method may return other types, which are not specified and will lead to a PHP fatal `error <https://www.php.net/error>`_. It is the case for insufficient typehints, when a typehint is missing, or inconsistent typehints, when the method returns varied types. 
-
+The analysis reports a method when it finds other return types than the one expected. In the case of multiple typehints, as for the last example, the PHP code may require an upgrade to PHP 8.0.
 
 .. code-block:: php
    
@@ -31,9 +31,6 @@ The code of the method may return other types, which are not specified and will 
    }
    
    ?>
-
-
-The analysis reports a method when it finds other return types than the one expected. In the case of multiple typehints, as for the last example, the PHP code may require an upgrade to PHP 8.0.
 
 Suggestions
 ___________

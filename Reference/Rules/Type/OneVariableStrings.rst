@@ -6,7 +6,7 @@ One Variable String
 +++++++++++++++++++
 
   These strings only contains one variable or property or array. 
-
+When the goal is to convert a variable to a string, it is recommended to use the type casting (string) operator : it is then clearer to understand the conversion. It is also marginally faster, though very little.
 
 .. code-block:: php
    
@@ -27,9 +27,6 @@ One Variable String
    $b5 = "{$a->foo()}";
    
    ?>
-
-
-When the goal is to convert a variable to a string, it is recommended to use the type casting (string) operator : it is then clearer to understand the conversion. It is also marginally faster, though very little.
 
 See also `Strings <https://www.php.net/manual/en/language.types.string.php>`_ and `Type Juggling <https://www.php.net/manual/en/language.types.type-juggling.php>`_.
 

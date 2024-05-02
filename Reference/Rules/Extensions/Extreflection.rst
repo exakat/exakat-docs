@@ -9,7 +9,6 @@ ext/reflection
 
 PHP comes with a complete `reflection <https://www.php.net/reflection>`_ API that adds the ability to reverse-engineer classes, interfaces, functions, methods and extensions. Additionally, the `reflection <https://www.php.net/reflection>`_ API offers ways to retrieve doc comments for functions, classes and methods.
 
-
 .. code-block:: php
    
    <?php

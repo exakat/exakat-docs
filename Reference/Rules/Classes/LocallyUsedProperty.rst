@@ -5,8 +5,7 @@
 Locally Used Property
 +++++++++++++++++++++
 
-  List of properties that are used in the class where they are defined. 
-
+  List of properties that are used in the class where they are defined.
 
 .. code-block:: php
    

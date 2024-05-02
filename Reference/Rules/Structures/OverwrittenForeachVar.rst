@@ -9,7 +9,6 @@ Overwritten Foreach Var
 
 Careful coding may take advantage of that feature. Though, it tends to be `error <https://www.php.net/error>`_ prone, and will generate bugs if the code is refactored.
 
-
 .. code-block:: php
    
    <?php

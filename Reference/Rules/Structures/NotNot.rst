@@ -9,7 +9,6 @@ Not Not
 
 This is a wrong casting to boolean. PHP supports ``(boolean)`` to do the same, faster and cleaner.
 
-
 .. code-block:: php
    
    <?php

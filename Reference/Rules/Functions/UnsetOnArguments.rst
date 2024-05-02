@@ -5,8 +5,7 @@
 Unset Arguments
 +++++++++++++++
 
-  There is no need to unset arguments. Those values will be freed at the end of the function anyhow. 
-
+  There is no need to unset arguments. Those values will be freed at the end of the function anyhow.
 
 .. code-block:: php
    

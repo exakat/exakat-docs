@@ -13,7 +13,6 @@ Classes where only one non-magic method is available are omitted.
 
 Traits with private properties are processed the same way.
 
-
 .. code-block:: php
    
    <?php

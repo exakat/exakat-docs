@@ -6,7 +6,11 @@ Class, Interface, Enum Or Trait With Identical Names
 ++++++++++++++++++++++++++++++++++++++++++++++++++++
 
   The following names are used at the same time for classes, interfaces or traits. For example, 
+Even if they are in different namespaces, identical names makes classes easy to confuse. This is often solved by using alias at import time : this leads to more confusion, as a class suddenly changes its name. 
 
+Internally, PHP use the same list for all classes, interfaces and traits. As such, it is not allowed to have both a trait and a class with the same name.
+
+In PHP 4, and PHP 5 before namespaces, it was not possible to have classes with the same name. They were simply included after a check.
 
 .. code-block:: php
    
@@ -16,13 +20,6 @@ Class, Interface, Enum Or Trait With Identical Names
        trait a     { /* some definitions */ }
        enum a      { /* some definitions */ } // PHP 8.1
    ?>
-
-
-Even if they are in different namespaces, identical names makes classes easy to confuse. This is often solved by using alias at import time : this leads to more confusion, as a class suddenly changes its name. 
-
-Internally, PHP use the same list for all classes, interfaces and traits. As such, it is not allowed to have both a trait and a class with the same name.
-
-In PHP 4, and PHP 5 before namespaces, it was not possible to have classes with the same name. They were simply included after a check.
 
 Suggestions
 ___________

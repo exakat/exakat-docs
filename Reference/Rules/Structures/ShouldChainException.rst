@@ -11,7 +11,6 @@ When catching an `exception <https://www.php.net/exception>`_ and rethrowing ano
 
 Note : Chaining requires PHP > 5.3.0.
 
-
 .. code-block:: php
    
    <?php

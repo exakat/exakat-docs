@@ -9,7 +9,6 @@ Real Functions
 
 Function keywords, that are not in a class, trait, interface, nor a `closure <https://www.php.net/`closure <https://www.php.net/closure>`_>`_.
 
-
 .. code-block:: php
    
    <?php

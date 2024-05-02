@@ -6,7 +6,8 @@ No Reference On Left Side
 +++++++++++++++++++++++++
 
   Do not use references as the right element in an assignation. 
-
+This is the case for most situations : addition, multiplication, bitshift, logical, power, concatenation.
+Note that PHP won't compile the code if the operator is a short operator (+=, .=, etc.), nor if the & is on the right side of the operator.
 
 .. code-block:: php
    
@@ -22,10 +23,6 @@ No Reference On Left Side
    // $a === 5
    
    ?>
-
-
-This is the case for most situations : addition, multiplication, bitshift, logical, power, concatenation.
-Note that PHP won't compile the code if the operator is a short operator (+=, .=, etc.), nor if the & is on the right side of the operator.
 
 See also `References Explained <https://www.php.net/manual/en/language.references.php>`_ and `Operator Precedence <https://www.php.net/manual/en/language.operators.precedence.php>`_.
 

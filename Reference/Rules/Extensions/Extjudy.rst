@@ -9,7 +9,6 @@ ext/judy
 
 PHP `Judy <https://www.php.net/Judy>`_ is a PECL extension for the `Judy C library <http://judy.sourceforge.net/>`_ implementing dynamic sparse arrays.
 
-
 .. code-block:: php
    
    <?php 

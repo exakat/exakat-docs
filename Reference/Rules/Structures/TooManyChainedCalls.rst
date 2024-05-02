@@ -11,7 +11,6 @@ This makes the whole expression difficult to read, and it is possible to miss so
 
 This may lead to bugs when some of the intermediate calls may return an invalid `result <https://www.php.net/result>`_, such as `null` or `false` in case of `error <https://www.php.net/error>`_. Those must be tested before being propagated.
 
-
 .. code-block:: php
    
    <?php

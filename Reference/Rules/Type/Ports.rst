@@ -9,7 +9,6 @@ Internet Ports
 
 Ports are recognized based on a internal database of port. They are found in Integers.
 
-
 .. code-block:: php
    
    <?php

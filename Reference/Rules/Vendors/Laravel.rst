@@ -7,7 +7,6 @@ Laravel usage
 
   This analysis reports usage of the Laravel framework.
 
-
 .. code-block:: php
    
    <?php

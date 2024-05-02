@@ -5,8 +5,7 @@
 String Interpolation Favorite
 +++++++++++++++++++++++++++++
 
-  This analysis collects the various ways that string interpolation is done inside strings. Until PHP 8.1, there were 4 ways : 
-
+  This analysis collects the various ways that string interpolation is done inside strings. Until PHP 8.1, there were 4 ways :
 
 .. code-block:: php
    

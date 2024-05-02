@@ -6,7 +6,11 @@ Phpinfo
 +++++++
 
   `phpinfo() <https://www.php.net/phpinfo>`_ is a great function to learn about the current configuration of the server.
+If left in the production code, it may lead to a critical leak, as any attacker gaining access to this data will know a lot about the server configuration.
 
+It is advised to never leave that kind of instruction in a production code. 
+
+`phpinfo() <https://www.php.net/phpinfo>`_ may be necessary to access some specific configuration of the server : for example, ``Apache`` module list are only available via `phpinfo() <https://www.php.net/phpinfo>`_, and apache_get(), when they are loaded.
 
 .. code-block:: php
    
@@ -17,13 +21,6 @@ Phpinfo
    }
    
    ?>
-
-
-If left in the production code, it may lead to a critical leak, as any attacker gaining access to this data will know a lot about the server configuration.
-
-It is advised to never leave that kind of instruction in a production code. 
-
-`phpinfo() <https://www.php.net/phpinfo>`_ may be necessary to access some specific configuration of the server : for example, ``Apache`` module list are only available via `phpinfo() <https://www.php.net/phpinfo>`_, and apache_get(), when they are loaded.
 
 Suggestions
 ___________

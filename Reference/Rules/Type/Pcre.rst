@@ -6,7 +6,7 @@ Perl Regex
 ++++++++++
 
   List of all the Perl Regex (PCRE-style).
-
+Regex are spotted when they are literals : dynamically built regex, (including /$x/) are not reported.
 
 .. code-block:: php
    
@@ -17,9 +17,6 @@ Perl Regex
    preg_replace('#[0-9A-Z]+#is', $y, $z);
    
    ?>
-
-
-Regex are spotted when they are literals : dynamically built regex, (including /$x/) are not reported.
 
 See also `PCRE <https://www.php.net/manual/en/book.pcre.php>_.
 

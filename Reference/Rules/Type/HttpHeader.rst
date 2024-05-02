@@ -6,7 +6,7 @@ Http Headers
 ++++++++++++
 
   List of HTTP headers use in the code. 
-
+Those headers are mostly used with `header() <https://www.php.net/header>`_ function to send to browser.
 
 .. code-block:: php
    
@@ -22,9 +22,6 @@ Http Headers
    header($header);
    
    ?>
-
-
-Those headers are mostly used with `header() <https://www.php.net/header>`_ function to send to browser.
 
 See also `List of HTTP header fields <https://en.wikipedia.org/wiki/List_of_HTTP_header_fields>`_.
 

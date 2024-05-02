@@ -6,7 +6,9 @@ Modified Typed Parameter
 ++++++++++++++++++++++++
 
   Reports modified parameters, which have a non-scalar typehint. Such variables should not be changed within the body of the method. Unlike typed properties, which always hold the expected type, typed parameters are only guaranteed type at the beginning of the method block. 
+This problem doesn't apply to scalar types : by default, PHP pass scalar parameters by value, not by reference. Class types are always passed by reference.
 
+This problem is similar to :ref:`don't-unset-properties`  : the `static <https://www.php.net/manual/en/language.oop5.static.php>`_ specification of the property may be unset, leading to confusing 'undefined property', while the class hold the property definition.
 
 .. code-block:: php
    
@@ -33,11 +35,6 @@ Modified Typed Parameter
    }
    
    ?>
-
-
-This problem doesn't apply to scalar types : by default, PHP pass scalar parameters by value, not by reference. Class types are always passed by reference.
-
-This problem is similar to :ref:`don't-unset-properties`  : the `static <https://www.php.net/manual/en/language.oop5.static.php>`_ specification of the property may be unset, leading to confusing 'undefined property', while the class hold the property definition.
 
 Suggestions
 ___________

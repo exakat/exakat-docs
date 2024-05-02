@@ -7,7 +7,6 @@ Stomp
 
   This extension allows php applications to communicate with any Stomp compliant Message Brokers through easy object-oriented and procedural interfaces.
 
-
 .. code-block:: php
    
    <?php

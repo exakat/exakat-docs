@@ -9,7 +9,6 @@ Useless Type Check
 
 In particular, a typed argument can't be null, unless it is explicitly nullable, or has a ``null`` value as default.
 
-
 .. code-block:: php
    
    <?php

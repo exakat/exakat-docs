@@ -9,7 +9,6 @@ Check On __Call Usage
 
 If the method doesn't exists, then the same method will be called again, leading to the same failure. Finally, it will crash PHP.
 
-
 .. code-block:: php
    
    <?php

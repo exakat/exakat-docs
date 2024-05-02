@@ -6,7 +6,9 @@ Wrong Number Of Arguments In Methods
 ++++++++++++++++++++++++++++++++++++
 
   Those methods are called with a wrong number of arguments : too many or too few. Check the signature.
+Methods with a variable number of argument, either using ellipsis or `func_get_args() <https://www.php.net/func_get_args>`_ are ignored. 
 
+PHP emits an `error <https://www.php.net/error>`_ at runtime, when arguments are not enough : ''. PHP doesn't emit an `error <https://www.php.net/error>`_ when too many arguments are provided.
 
 .. code-block:: php
    
@@ -29,11 +31,6 @@ Wrong Number Of Arguments In Methods
    }
    
    ?>
-
-
-Methods with a variable number of argument, either using ellipsis or `func_get_args() <https://www.php.net/func_get_args>`_ are ignored. 
-
-PHP emits an `error <https://www.php.net/error>`_ at runtime, when arguments are not enough : ''. PHP doesn't emit an `error <https://www.php.net/error>`_ when too many arguments are provided.
 
 Suggestions
 ___________

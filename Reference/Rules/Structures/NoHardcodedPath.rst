@@ -11,7 +11,6 @@ Either use `__FILE__ <https://www.php.net/manual/en/language.constants.predefine
 
 Relative paths are relative to the current execution `directory <https://www.php.net/`directory <https://www.php.net/directory>`_>`_, and not the current file. This means they may differ depending on the location of the start of the application, and are sensitive to `chdir() <https://www.php.net/chdir>`_ and `chroot() <https://www.php.net/chroot>`_ usage.
 
-
 .. code-block:: php
    
    <?php

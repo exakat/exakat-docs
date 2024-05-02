@@ -7,8 +7,7 @@ Too Many Parameters
 
   Method has too many parameters. Exakat has a default parameter count which may be configured.
 
-A method that needs more than 8 parameters is trying to do too much : it should be reviewed and split into smaller methods. 
-
+A method that needs more than 8 parameters is trying to do too much : it should be reviewed and split into smaller methods.
 
 .. code-block:: php
    

@@ -9,7 +9,6 @@ ext/fann
 
 PHP binding for ``FANN`` library which implements multi-layer artificial neural networks with support for both fully connected and sparsely connected networks.
 
-
 .. code-block:: php
    
    <?php

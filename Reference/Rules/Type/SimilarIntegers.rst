@@ -5,8 +5,7 @@
 Similar Integers
 ++++++++++++++++
 
-  This analysis reports all integer values that are expressed in different format. 
-
+  This analysis reports all integer values that are expressed in different format.
 
 .. code-block:: php
    

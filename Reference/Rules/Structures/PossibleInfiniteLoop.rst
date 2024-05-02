@@ -10,7 +10,7 @@ Possible Infinite Loop
 `fgets() <https://www.php.net/fgets>`_, and functions like `fgetss() <https://www.php.net/fgetss>`_, `fgetcsv() <https://www.php.net/fgetcsv>`_, `fread() <https://www.php.net/fread>`_, return false when they finish reading, or can't access the file. 
 
 In case the file is not accessible, comparing the `result <https://www.php.net/result>`_ of the reading to something that is falsy, leads to a permanent valid condition. The execution will only finish when the ``max_execution_time`` is reached. 
-
+It is recommended to check the file resources when they are opened, and always use === or !== to compare readings. `feof() <https://www.php.net/feof>`_ is also a reliable function here.
 
 .. code-block:: php
    
@@ -24,9 +24,6 @@ In case the file is not accessible, comparing the `result <https://www.php.net/r
    }
    
    ?>
-
-
-It is recommended to check the file resources when they are opened, and always use === or !== to compare readings. `feof() <https://www.php.net/feof>`_ is also a reliable function here.
 
 Specs
 _____

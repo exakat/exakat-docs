@@ -9,7 +9,6 @@ Hardcoded Passwords
 
 Hardcoding passwords is a bad idea. Not only it make the code difficult to change, but it is an information leak. It is better to hide this kind of information out of the code.
 
-
 .. code-block:: php
    
    <?php

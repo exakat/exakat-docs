@@ -9,7 +9,6 @@ ext/memcache
 
 Memcache module provides handy procedural and object oriented interface to memcached, highly effective caching daemon, which was especially designed to decrease database load in dynamic web applications.
 
-
 .. code-block:: php
    
    <?php

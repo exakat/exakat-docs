@@ -11,7 +11,6 @@ The number of compulsory arguments is often mistaken for the same number of argu
 
 While this code is legit, it is recommended to check if the two signatures could be synchronized, and reduce future surprises.
 
-
 .. code-block:: php
    
    <?php

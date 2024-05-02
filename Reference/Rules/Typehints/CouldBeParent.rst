@@ -9,7 +9,6 @@ Could Be Parent
 
 This analysis works when typehints have already been configured.
 
-
 .. code-block:: php
    
    <?php

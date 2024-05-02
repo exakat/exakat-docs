@@ -6,7 +6,7 @@ New Initializers
 ++++++++++++++++
 
   Parameters, `static <https://www.php.net/manual/en/language.oop5.static.php>`_ variables and global constants may be initialized with an object. 
-
+This feature is available in PHP 8.1 and more recent. It is reported as an invalid constant expression in older PHP versions.
 
 .. code-block:: php
    
@@ -20,9 +20,6 @@ New Initializers
    const A = new C;
    
    ?>
-
-
-This feature is available in PHP 8.1 and more recent. It is reported as an invalid constant expression in older PHP versions.
 
 See also `PHP RFC: New in initializers <https://wiki.php.net/rfc/new_in_initializers>`_ and `Nested Attributes`_.
 

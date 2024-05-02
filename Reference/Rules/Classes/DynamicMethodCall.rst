@@ -7,7 +7,6 @@ Dynamic Methodcall
 
   Dynamic calls to class methods.
 
-
 .. code-block:: php
    
    <?php

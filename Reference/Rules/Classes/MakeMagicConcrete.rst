@@ -9,8 +9,7 @@ Make Magic Concrete
 
 Magic properties are managed dynamically, with `__get() <https://www.php.net/manual/en/language.oop5.magic.php>`_ and `__set() <https://www.php.net/manual/en/language.oop5.magic.php>`_. They replace property access by a methodcall, and they are much slower than the first. 
 
-When a property name is getting used more often, it is worth creating a concrete property, and skip the method call. The threshold for ``magicMemberUsage`` is 1, by default. 
-
+When a property name is getting used more often, it is worth creating a concrete property, and skip the method call. The threshold for ``magicMemberUsage`` is 1, by default.
 
 .. code-block:: php
    

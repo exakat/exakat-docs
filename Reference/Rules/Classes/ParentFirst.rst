@@ -8,7 +8,7 @@ Parent First
   When calling `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ constructor, always put it first in the ``__construct`` method. 
 
 It ensures the `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ is correctly build before the child start using values. 
-
+This analysis doesn't apply to Exceptions.
 
 .. code-block:: php
    
@@ -41,9 +41,6 @@ It ensures the `parent <https://www.php.net/manual/en/language.oop5.paamayim-nek
    }
    
    ?>
-
-
-This analysis doesn't apply to Exceptions.
 
 Suggestions
 ___________

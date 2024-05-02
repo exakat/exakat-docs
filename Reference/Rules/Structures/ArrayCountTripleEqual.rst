@@ -6,7 +6,7 @@ Empty Array Detection
 +++++++++++++++++++++
 
   Empty arrays may be detected with different solutions. 
-
+This analysis includes comparison to 0 with count, with ==, ===, != and !==, and comparison to empty arrays. Constants are not handled.
 
 .. code-block:: php
    
@@ -19,9 +19,6 @@ Empty Array Detection
    count($array) === 0;
    
    ?>
-
-
-This analysis includes comparison to 0 with count, with ==, ===, != and !==, and comparison to empty arrays. Constants are not handled.
 
 Specs
 _____

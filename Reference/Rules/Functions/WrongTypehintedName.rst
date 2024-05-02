@@ -8,7 +8,9 @@ Wrong Typehinted Name
   The parameter name doesn't reflect the typehint used.
 
 There are no restriction on parameter names, except its uniqueness in the signature. Yet, using a scalar typehint as the name for another typehinted value is just misleading. 
+This analysis relies on exact names : calling an array a list of ``strings`` is OK with this analysis.
 
+This analysis relies on a few variations of names : ``bool`` and ``boolean``, ``int`` and ``integer``.
 
 .. code-block:: php
    
@@ -24,11 +26,6 @@ There are no restriction on parameter names, except its uniqueness in the signat
    }
    
    ?>
-
-
-This analysis relies on exact names : calling an array a list of ``strings`` is OK with this analysis.
-
-This analysis relies on a few variations of names : ``bool`` and ``boolean``, ``int`` and ``integer``.
 
 Suggestions
 ___________

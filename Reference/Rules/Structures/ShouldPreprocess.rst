@@ -6,7 +6,7 @@ Preprocessable
 ++++++++++++++
 
   The following expressions are made of literals or already known values : they may be fully calculated before running PHP.
-
+By doing so, this will reduce the amount of work of PHP. This is a micro-optimisation, when this is used once, or the amount of work is small. It may be kept for readability.
 
 .. code-block:: php
    
@@ -25,9 +25,6 @@ Preprocessable
    $name = ucfirst(strtolower('PARIS'));
    
    ?>
-
-
-By doing so, this will reduce the amount of work of PHP. This is a micro-optimisation, when this is used once, or the amount of work is small. It may be kept for readability.
 
 Suggestions
 ___________

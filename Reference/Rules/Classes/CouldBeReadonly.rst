@@ -7,7 +7,6 @@ Class Could Be Readonly
 
   When all properties are readonly, it is possible to set the option at the class. This feature was introduced in PHP 8.2.
 
-
 .. code-block:: php
    
    <?php

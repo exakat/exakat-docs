@@ -7,8 +7,7 @@ ext/oci8
 
   Extension ext/oci8.
 
-OCI8 gives access Oracle Database 12c, 11g, 10g, 9i and 8i. 
-
+OCI8 gives access Oracle Database 12c, 11g, 10g, 9i and 8i.
 
 .. code-block:: php
    

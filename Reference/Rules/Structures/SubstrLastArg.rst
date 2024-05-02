@@ -7,7 +7,6 @@ Drop Substr Last Arg
 
   `Substr() <https://www.php.net/substr>`_ works till the end of the string when the last argument is omitted. There is no need to calculate string size to make this work.
 
-
 .. code-block:: php
    
    <?php

@@ -9,7 +9,6 @@ Wordpress usage
 
 The current supported version is Wordpress 5.8.
 
-
 .. code-block:: php
    
    <?php

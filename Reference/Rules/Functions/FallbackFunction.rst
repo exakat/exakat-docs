@@ -7,7 +7,6 @@ Fallback Function
 
   A function that is called with its name alone, and whose definition is in the global scope.
 
-
 .. code-block:: php
    
    <?php

@@ -9,7 +9,6 @@ ext/snmp
 
 The `SNMP <https://www.php.net/SNMP>`_ extension provides a very simple and easily usable toolset for managing remote devices via the Simple Network Management Protocol.
 
-
 .. code-block:: php
    
    <?php

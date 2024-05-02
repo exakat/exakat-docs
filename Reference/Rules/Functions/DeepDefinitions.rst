@@ -8,7 +8,11 @@ Deep Definitions
   Structures, such as functions, classes, interfaces, traits, enum, etc. may be defined anywhere in the code, including inside functions. This is legit code for PHP. 
 
 Since the availability of autoload, with spl_register_autoload(), there is no need for that kind of code. Structures should be defined, and accessible to the autoloading. Inclusions and deep definitions should be avoided, as they compel code to load some definitions, while autoloading will only load them if needed. 
+Functions are excluded from autoload, but shall be gathered in libraries, and not hidden inside other code.
 
+Constants definitions are tolerated inside functions : they may be used for avoiding repeat, or noting the usage of such function. 
+
+Definitions inside a if/then statement, that include PHP version check are accepted here.
 
 .. code-block:: php
    
@@ -26,13 +30,6 @@ Since the availability of autoload, with spl_register_autoload(), there is no ne
    }
    
    ?>
-
-
-Functions are excluded from autoload, but shall be gathered in libraries, and not hidden inside other code.
-
-Constants definitions are tolerated inside functions : they may be used for avoiding repeat, or noting the usage of such function. 
-
-Definitions inside a if/then statement, that include PHP version check are accepted here.
 
 See also `Autoloading Classes <https://www.php.net/manual/en/language.oop5.autoload.php>`_.
 

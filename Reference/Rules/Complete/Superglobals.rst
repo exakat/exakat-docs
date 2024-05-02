@@ -7,7 +7,6 @@ Superglobals
 
   Links superglobals across the code. This speeds up pivoting with super global values.
 
-
 .. code-block:: php
    
    <?php

@@ -9,7 +9,6 @@ ext/v8js
 
 This extension embeds the `V8 Javascript `Engine <https://www.php.net/engine>`_ <https://bugs.chromium.org/p/v8/issues/list>`_ into PHP.
 
-
 .. code-block:: php
    
    <?php

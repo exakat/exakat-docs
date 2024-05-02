@@ -7,8 +7,7 @@ ext/info
 
   PHP Options and Information.
 
-These functions enable you to get a lot of information about PHP itself, e.g. runtime configuration, loaded extensions, version and much more. 
-
+These functions enable you to get a lot of information about PHP itself, e.g. runtime configuration, loaded extensions, version and much more.
 
 .. code-block:: php
    

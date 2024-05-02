@@ -7,8 +7,7 @@ Could Be Spaceship
 
   The spaceship operator compares values and returns 0 for equality, 1 for superior and -1 for inferior. 
 
-It is the same as below, and prevents lots of code. 
-
+It is the same as below, and prevents lots of code.
 
 .. code-block:: php
    

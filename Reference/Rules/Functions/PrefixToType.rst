@@ -10,7 +10,19 @@ Prefix And Suffixes With Typehint
 For example, a method with the signature ``function isACustomer() {}`` should return a boolean. That boolean can then be read when calling the method : ``if ($user->isACustomer()) {}``.
 
 There are multiple such conventions that may be applied. For example, ``has*`` should return a boolean, ``set*`` should return nothing (aka ``void``), and ``get*`` shall return any kind of type. 
+There are 2 parameters for this analysis. It is recommended to customize them to get an better results, related to the naming conventions used in the code.
 
+``prefixedType`` is used for prefix in method names, which is the beginning of the name. ``suffixedType`` is used for suffixes : the ending part of the name. Matching is case insensitive.
+
+The prefix is configured as the index of the map, while the related type is configured as the value of the map.
+
+``prefixToType['is'] = 'bool';`` will be use as ``is*`` shall use the ``bool`` typehint.
+
+Multiple typehints may be used at the same time. PHP supports multiple types since PHP 8.0, and Exakat will support them with any PHP version. Specify multiple types by separating them with comma. Any typehint not found in this list will be reported, including ``null``.
+
+PHP scalar types are available : ``string``, ``int``, ``void``, etc. Explicit types, based on classes or interfaces, must use the fully qualified name, not the short name. ``suffixToType['uuid'] = '\Uuid';`` will be use as ``*uuid`` shall use the ``\Uuid`` typehint.
+
+When multiple rules applies, only one is reported.
 
 .. code-block:: php
    
@@ -38,21 +50,6 @@ There are multiple such conventions that may be applied. For example, ``has*`` s
    }
    
    ?>
-
-
-There are 2 parameters for this analysis. It is recommended to customize them to get an better results, related to the naming conventions used in the code.
-
-``prefixedType`` is used for prefix in method names, which is the beginning of the name. ``suffixedType`` is used for suffixes : the ending part of the name. Matching is case insensitive.
-
-The prefix is configured as the index of the map, while the related type is configured as the value of the map.
-
-``prefixToType['is'] = 'bool';`` will be use as ``is*`` shall use the ``bool`` typehint.
-
-Multiple typehints may be used at the same time. PHP supports multiple types since PHP 8.0, and Exakat will support them with any PHP version. Specify multiple types by separating them with comma. Any typehint not found in this list will be reported, including ``null``.
-
-PHP scalar types are available : ``string``, ``int``, ``void``, etc. Explicit types, based on classes or interfaces, must use the fully qualified name, not the short name. ``suffixToType['uuid'] = '\Uuid';`` will be use as ``*uuid`` shall use the ``\Uuid`` typehint.
-
-When multiple rules applies, only one is reported.
 
 +--------------+-----------------------------------------+----------+------------------------------------------------+
 | Name         | Default                                 | Type     | Description                                    |

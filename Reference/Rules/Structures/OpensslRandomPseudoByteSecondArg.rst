@@ -9,7 +9,6 @@ openssl_random_pseudo_byte() Second Argument
 
 On the other hand, it is important to catch the `exception <https://www.php.net/exception>`_ that openssl_random_pseudo_byte() may emit.
 
-
 .. code-block:: php
    
    <?php

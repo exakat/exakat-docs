@@ -9,7 +9,6 @@ ext/hash
 
 Message Digest (hash) `engine <https://www.php.net/engine>`_. Allows direct or incremental processing of arbitrary length messages using a variety of hashing algorithms.
 
-
 .. code-block:: php
    
    <?php

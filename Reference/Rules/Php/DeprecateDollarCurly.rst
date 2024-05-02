@@ -7,8 +7,7 @@ Dollar Curly Interpolation Is Deprecated
 
   Among the different variable interpolation is strings, ```` is deprecated. It is made obsolete in PHP 8.2, and should disappear in PHP 9.0.
 
-There are still several interpolation ways : variables, array elements (one index-level) and curly brackets. It is also possible to use string concatenation. 
-
+There are still several interpolation ways : variables, array elements (one index-level) and curly brackets. It is also possible to use string concatenation.
 
 .. code-block:: php
    
@@ -17,7 +16,7 @@ There are still several interpolation ways : variables, array elements (one inde
    $a = 'a';
    $a2 = 'surprise!';
    
-   $b = "\\$\\{$a . 2}\"; 
+   $b = "\$\{$a . 2}"; 
    
    echo $b;
    // display 'surprise!'

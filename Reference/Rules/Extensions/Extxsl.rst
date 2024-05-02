@@ -9,7 +9,6 @@ ext/xsl
 
 The XSL extension implements the XSL standard, performing XSLT transformations using the libxslt library.
 
-
 .. code-block:: php
    
    <?php

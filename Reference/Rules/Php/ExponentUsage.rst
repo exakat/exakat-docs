@@ -7,7 +7,6 @@ Exponent Usage
 
   Usage of the `** <https://www.php.net/manual/en/language.operators.arithmetic.php>`_ operator or \*\*\=, to make exponents.
 
-
 .. code-block:: php
    
    <?php

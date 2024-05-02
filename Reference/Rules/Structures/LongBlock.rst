@@ -11,7 +11,6 @@ This analysis is applied to loops (for, foreach, while, do..while) and if/then/e
 
 Then length of a block is managed with the ``longBlock`` parameter. By default, it is 200 lines, from beginning to the end. Comments are taken into account.
 
-
 .. code-block:: php
    
    <?php

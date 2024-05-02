@@ -8,7 +8,7 @@ Multiple Type Cases In Switch
   This reports `switch() <https://www.php.net/manual/en/control-structures.switch.php>`_ instructions, which have several types in cases.
 
 This might generate compatibility errors, as the comparison may succeed in different ways, depending on PHP versions. This is particularly the case for PHP 8.0, and values such as '0', '', 0, null, and false.
-
+This situation doesn't affect `match() <https://www.php.net/manual/en/control-structures.match.php>`_, as it uses a strict type comparison, unlike `switch() <https://www.php.net/manual/en/control-structures.switch.php>`_.
 
 .. code-block:: php
    
@@ -23,9 +23,6 @@ This might generate compatibility errors, as the comparison may succeed in diffe
    }
    
    ?>
-
-
-This situation doesn't affect `match() <https://www.php.net/manual/en/control-structures.match.php>`_, as it uses a strict type comparison, unlike `switch() <https://www.php.net/manual/en/control-structures.switch.php>`_.
 
 Suggestions
 ___________

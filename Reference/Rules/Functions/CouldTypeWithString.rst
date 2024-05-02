@@ -5,8 +5,7 @@
 Could Type With String
 ++++++++++++++++++++++
 
-  That argument may be typed with ``string``. 
-
+  That argument may be typed with ``string``.
 
 .. code-block:: php
    

@@ -5,8 +5,7 @@
 Avoid array_unique()
 ++++++++++++++++++++
 
-  The native function `array_unique() <https://www.php.net/array_unique>`_ is much slower than using other alternatives, such as `array_count_values() <https://www.php.net/array_count_values>`_, `array_flip() <https://www.php.net/array_flip>`_/`array_keys() <https://www.php.net/array_keys>`_, or even a `foreach() <https://www.php.net/manual/en/control-structures.foreach.php>`_ loops. 
-
+  The native function `array_unique() <https://www.php.net/array_unique>`_ is much slower than using other alternatives, such as `array_count_values() <https://www.php.net/array_count_values>`_, `array_flip() <https://www.php.net/array_flip>`_/`array_keys() <https://www.php.net/array_keys>`_, or even a `foreach() <https://www.php.net/manual/en/control-structures.foreach.php>`_ loops.
 
 .. code-block:: php
    

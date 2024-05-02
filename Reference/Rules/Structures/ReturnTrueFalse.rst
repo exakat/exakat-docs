@@ -6,7 +6,8 @@ Return True False
 +++++++++++++++++
 
   These conditional expressions return true/false, depending on the condition. This may be simplified by dropping the control structure altogether.
-
+This may be simplified with : 
+This may be applied to assignations and ternary operators too.
 
 .. code-block:: php
    
@@ -17,36 +18,6 @@ Return True False
    } else {
        return false;
    }
-   
-   ?>
-
-
-This may be simplified with : 
-
-
-.. code-block:: php
-   
-   <?php
-   
-   return version_compare($a, $b) >= 0;
-   
-   ?>
-
-
-This may be applied to assignations and ternary operators too.
-
-
-.. code-block:: php
-   
-   <?php
-   
-   if (version_compare($a, $b) >= 0) {
-       $a = true;
-   } else {
-       $a = false;
-   }
-   
-   $a = version_compare($a, $b) >= 0 ? false : true;
    
    ?>
 

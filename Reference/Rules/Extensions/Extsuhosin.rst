@@ -11,7 +11,6 @@ Suhosin (pronounced 'su-ho-shin') is an advanced protection system for PHP insta
 
 Suhosin was a PHP 5 extension, and it has been ported to PHP 7 and 8, as a separate but eponymous project.
 
-
 .. code-block:: php
    
    <?php

@@ -9,8 +9,7 @@ Clone Constant
 
 This is also valid with default values, however they are assigned to a variable, which falls back to the classic clone usage.
 
-Backward compatibility is OK, since PHP compile such code, and only checks at execution time that the constant is an object. 
-
+Backward compatibility is OK, since PHP compile such code, and only checks at execution time that the constant is an object.
 
 .. code-block:: php
    

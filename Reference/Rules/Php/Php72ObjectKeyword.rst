@@ -7,8 +7,7 @@ PHP 7.2 Object Keyword
 
   'object' is a PHP keyword. It can't be used for class, interface or trait name. 
 
-This is the case since PHP 7.2. 
-
+This is the case since PHP 7.2.
 
 .. code-block:: php
    

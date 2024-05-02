@@ -10,7 +10,7 @@ Multiple Returns
 This makes it difficult to maintain : since the function may be short-circuited early, some later instruction may be omitted.
 
 Ideally, guard clauses, which check if arguments are valid or not at the beginning of the method are the only `exception <https://www.php.net/exception>`_ to this rule.
-
+Currently, the `engine <https://www.php.net/engine>`_ doesn't spot guard clauses.
 
 .. code-block:: php
    
@@ -30,9 +30,6 @@ Ideally, guard clauses, which check if arguments are valid or not at the beginni
        return $b;
    }
    ?>
-
-
-Currently, the `engine <https://www.php.net/engine>`_ doesn't spot guard clauses.
 
 See also `Single Function Exit Point <http://wiki.c2.com/?SingleFunctionExitPoint>`_.
 

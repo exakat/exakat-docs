@@ -8,7 +8,7 @@ Suspicious Comparison
   The comparison seems to be misplaced.
 
 A comparison happens in the last argument, while the actual function expect another type : this may be the case of a badly placed parenthesis.
-
+Original idea by `Vladimir Reznichenko <https://twitter.com/kalessil>`_.
 
 .. code-block:: php
    
@@ -25,9 +25,6 @@ A comparison happens in the last argument, while the actual function expect anot
    }
    
    ?>
-
-
-Original idea by `Vladimir Reznichenko <https://twitter.com/kalessil>`_.
 
 Suggestions
 ___________

@@ -9,7 +9,6 @@ Print And Die
 
 When stopping a script with `die() <https://www.php.net/die>`_, it is possible to provide a message as first argument, that will be displayed at execution. There is no need to make a specific call to print or echo.
 
-
 .. code-block:: php
    
    <?php

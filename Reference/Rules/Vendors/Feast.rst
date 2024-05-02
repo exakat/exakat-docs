@@ -9,7 +9,6 @@ Feast usage
 
 FEAST is a radically different PHP Framework that was built from the ground up to be an alternative to the dependency-heavy frameworks that exist already. Its goal is a light-weight footprint that just lets you get stuff done.
 
-
 .. code-block:: php
    
    <?php

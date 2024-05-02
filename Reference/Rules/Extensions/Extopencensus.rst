@@ -9,7 +9,6 @@ ext/opencensus
 
 A stats collection and distributed tracing framework.
 
-
 .. code-block:: php
    
    <?php

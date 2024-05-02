@@ -9,7 +9,6 @@ Unkown Regex Options
 
 All other letter used as option are not supported : depending on the situation, they may be ignored or raise an `error <https://www.php.net/error>`_.
 
-
 .. code-block:: php
    
    <?php

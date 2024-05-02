@@ -9,7 +9,6 @@ ext/hrtime
 
 The HRTime extension implements a high resolution `StopWatch` class. It uses the best possible API on different platforms which brings resolution up to nanoseconds. It also makes possible to implement a custom stopwatch using low level ticks delivered by the underlaying system.
 
-
 .. code-block:: php
    
    <?php

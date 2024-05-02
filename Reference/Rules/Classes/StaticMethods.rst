@@ -7,7 +7,6 @@ Static Methods
 
   List of all `static <https://www.php.net/manual/en/language.oop5.static.php>`_ methods.
 
-
 .. code-block:: php
    
    <?php

@@ -9,8 +9,7 @@ ext/wasm
 
 The goal of the project is to be able to run WebAssembly binaries from PHP directly. So much fun coming!
 
-From the php-ext-wasm documentation : 
-
+From the php-ext-wasm documentation :
 
 .. code-block:: php
    

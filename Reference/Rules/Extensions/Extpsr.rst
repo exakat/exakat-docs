@@ -18,8 +18,6 @@ Currently supported PSR :
 * `PSR-16 <https://www.php-fig.org/psr/psr-16>`_ - `psr/simple-cache`
 * `PSR-17 <https://www.php-fig.org/psr/psr-17>`_ - `psr/http-factory`
 
-
-
 .. code-block:: php
    
    <?php

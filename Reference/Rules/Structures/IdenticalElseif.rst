@@ -9,7 +9,6 @@ Identical Elseif
 
 This is similar to having multiple cases in the same switch or match expression.
 
-
 .. code-block:: php
    
    <?php

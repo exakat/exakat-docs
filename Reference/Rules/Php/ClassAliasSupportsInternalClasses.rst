@@ -7,7 +7,6 @@ class_alias() Supports Internal Classes
 
   `class_alias() <https://www.php.net/class_alias>`_ accepts internal classes as first argument. Until PHP 8.3, this feature was restricted to user-defined classes.
 
-
 .. code-block:: php
    
    <?php

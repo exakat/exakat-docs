@@ -5,8 +5,7 @@
 Nowdoc Delimiter Glossary
 +++++++++++++++++++++++++
 
-  List of all the delimiters used to build a Nowdoc string. 
-
+  List of all the delimiters used to build a Nowdoc string.
 
 .. code-block:: php
    

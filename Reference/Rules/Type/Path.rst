@@ -8,7 +8,7 @@ Path lists
   List of all paths that were found in the code.
 
 Path are identified with this regex : ``^(.*/)([^/]*)\.\w+$``. In particular, the `directory <https://www.php.net/`directory <https://www.php.net/directory>`_>`_ delimiter is ``/`` : Windows delimiter ``\`` are not detected. 
-
+URL are ignored when the protocol is present in the literal : ``http://www.example.com`` is not mistaken with a file.
 
 .. code-block:: php
    
@@ -21,9 +21,6 @@ Path are identified with this regex : ``^(.*/)([^/]*)\.\w+$``. In particular, th
    $source = 'https://www.other-example.com/';
    
    ?>
-
-
-URL are ignored when the protocol is present in the literal : ``http://www.example.com`` is not mistaken with a file.
 
 See also `Dir predefined constants <https://www.php.net/manual/en/dir.constants.php>`_ and `Supported Protocols and Wrappers <https://www.php.net/manual/en/wrappers.php>`_.
 

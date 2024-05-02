@@ -5,8 +5,7 @@
 Redeclared Static Variable
 ++++++++++++++++++++++++++
 
-  `Static <https://www.php.net/manual/en/language.oop5.static.php>`_ variables shall be declared only once. It is forbidden in PHP 8.3 and later.
-
+  `Static <https://www.php.net/manual/en/language.oop5.static.php>`_ variables shall be declared only once. It is forbidden in PHP 8.3 and later. It was silently allowed in PHP 8.2 and older.
 
 .. code-block:: php
    

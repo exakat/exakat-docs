@@ -11,7 +11,6 @@ Performance wise, it is better to call ``global`` or ``static`` only before usin
 
 Human-wise, it is recommended to put ``global`` or ``static`` at the beginning of the method, for better readability.
 
-
 .. code-block:: php
    
    <?php 

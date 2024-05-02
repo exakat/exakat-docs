@@ -9,7 +9,6 @@ Could Be Abstract Class
 
 That will prevent new code to try to instantiate it.
 
-
 .. code-block:: php
    
    <?php

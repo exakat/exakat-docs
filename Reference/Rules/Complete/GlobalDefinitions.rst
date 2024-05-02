@@ -11,7 +11,6 @@ It creates a Virtualglobal atom, which links to all definitions of that variable
 
 It currently doesn't work with variables in the global space, as it is not known how to detect them : they might be included at some point.
 
-
 .. code-block:: php
    
    <?php

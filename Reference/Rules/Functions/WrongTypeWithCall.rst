@@ -8,7 +8,7 @@ Wrong Type With Call
   This analysis checks that a call to a method uses the types.
 
 This analysis is compatible with Union types and with Intersection types.
-
+Currently, this analysis doesn't take into account ``strict_types = 1``. As such, ``int`` and ``string`` won't be compatible.
 
 .. code-block:: php
    
@@ -25,9 +25,6 @@ This analysis is compatible with Union types and with Intersection types.
    foo("1");
    
    ?>
-
-
-Currently, this analysis doesn't take into account ``strict_types = 1``. As such, ``int`` and ``string`` won't be compatible.
 
 Suggestions
 ___________

@@ -9,7 +9,6 @@ No Return Used
 
 This analysis supports functions and `static <https://www.php.net/manual/en/language.oop5.static.php>`_ methods, when a definition may be found. It doesn't support method calls.
 
-
 .. code-block:: php
    
    <?php

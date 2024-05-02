@@ -9,7 +9,6 @@ ext/imagick
 
 Imagick is a native php extension to create and modify images using the ImageMagick API.
 
-
 .. code-block:: php
    
    <?php

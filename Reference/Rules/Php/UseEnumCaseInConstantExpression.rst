@@ -7,7 +7,6 @@ Use Enum Case In Constant Expression
 
   Enum cases are constants, and may be used in constant definitions, as value. This is valid both with the case itself, or with their value, for the backed enum version.
 
-
 .. code-block:: php
    
    <?php

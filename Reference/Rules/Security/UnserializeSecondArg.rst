@@ -9,7 +9,6 @@ Unserialize Second Arg
 
 One way to exploit unserialize, is to make PHP unserialized the data to an available class, may be one that may be auto-loaded.
 
-
 .. code-block:: php
    
    <?php

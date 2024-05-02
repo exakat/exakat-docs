@@ -5,8 +5,7 @@
 Conditioned Constants
 +++++++++++++++++++++
 
-  Indicates if a constant will be defined only if a condition is met.
-
+  This rule indicates when a constant is defined if a condition is met. Several definitions of a global constant are possible in the code: using conditions, it is possible to have only one defined during execution.
 
 .. code-block:: php
    

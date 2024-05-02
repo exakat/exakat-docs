@@ -9,7 +9,6 @@ ext/readline
 
 The readline functions implement an interface to the GNU Readline library. These are functions that provide editable command lines.
 
-
 .. code-block:: php
    
    <?php

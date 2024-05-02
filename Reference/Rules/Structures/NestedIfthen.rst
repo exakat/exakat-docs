@@ -7,7 +7,6 @@ Nested Ifthen
 
   Three levels of ifthen is too much. The method should be split into smaller functions.
 
-
 .. code-block:: php
    
    <?php

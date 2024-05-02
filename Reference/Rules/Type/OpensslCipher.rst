@@ -11,8 +11,7 @@ It is important to always use valid cipher modes for SSL. In case of non-existen
 
 By reviewing this inventory, it is possible to detect forgotten ciphers, and fix them.
 
-The full list of available ciphers for the PHP installation is available with the function `openssl_get_cipher_methods() <https://www.php.net/openssl_get_cipher_methods>`_. 
-
+The full list of available ciphers for the PHP installation is available with the function `openssl_get_cipher_methods() <https://www.php.net/openssl_get_cipher_methods>`_.
 
 .. code-block:: php
    

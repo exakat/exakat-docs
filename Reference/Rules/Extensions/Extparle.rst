@@ -7,8 +7,7 @@ ext/parle
 
   Extension Parser and Lexer.
 
-The parle extension provides lexing and parsing facilities. The implementation is based on » Ben Hanson's libraries and requires a » C++14 capable compiler. 
-
+The parle extension provides lexing and parsing facilities. The implementation is based on » Ben Hanson's libraries and requires a » C++14 capable compiler.
 
 .. code-block:: php
    

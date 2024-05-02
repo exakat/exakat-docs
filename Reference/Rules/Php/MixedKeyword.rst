@@ -11,7 +11,6 @@ It should be avoided in classes, traits and interfaces. Methods, anonymous class
 
 Setting a `never` class in a namespaces doesn't make it legit.
 
-
 .. code-block:: php
    
    <?php

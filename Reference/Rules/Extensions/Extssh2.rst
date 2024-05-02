@@ -7,7 +7,6 @@ ext/ssh2
 
   Extension ext/ssh2.
 
-
 .. code-block:: php
    
    <?php

@@ -7,7 +7,6 @@ Type Could Be Never
 
   Mark return types that can be set to ``never``.
 
-
 .. code-block:: php
    
    <?php

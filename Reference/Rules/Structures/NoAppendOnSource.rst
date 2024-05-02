@@ -6,7 +6,7 @@ No Append On Source
 +++++++++++++++++++
 
   Do not append new elements to an array in a foreach loop. Since PHP 7.0, the array is still used as a source, and will be augmented, and used again. 
-
+Thanks to `Frederic Bouchery <https://twitter.com/FredBouchery/>`_ for the reminder.
 
 .. code-block:: php
    
@@ -36,9 +36,6 @@ No Append On Source
    }
    
    ?>
-
-
-Thanks to `Frederic Bouchery <https://twitter.com/FredBouchery/>`_ for the reminder.
 
 See also `foreach <https://www.php.net/manual/en/control-structures.foreach.php>`_ and `What will this code return? #PHP <https://twitter.com/FredBouchery/status/1135480412703211520>`_.
 

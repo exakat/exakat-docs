@@ -1,11 +1,11 @@
 .. _php-echotagusage:
 
-.. _I?=-usage:
+.. _php-echo-tag-usage:
 
-<?= Usage
-+++++++++
+PHP Echo Tag Usage
+++++++++++++++++++
 
-  Usage of the short echo tab, ``<?=``, that echo's directly the following content.
+  Usage of the short echo tab, that echo's directly the following content.
 <?= $variable; 
 ?>
 

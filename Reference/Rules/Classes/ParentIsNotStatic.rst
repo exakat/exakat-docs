@@ -7,8 +7,7 @@ Parent Is Not Static
 
   The `parent` keyword behaves like `self`, not like `static`. It links to the `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ of the defining expression, not to the one being called.
 
-This may skip the `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ of the calling class, and create a `Undefined method` call, or yield the wrong `\:\:class` value. It may also skip a local version of the method. 
-
+This may skip the `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ of the calling class, and create a `Undefined method` call, or yield the wrong `\:\:class` value. It may also skip a local version of the method.
 
 .. code-block:: php
    

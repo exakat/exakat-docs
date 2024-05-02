@@ -10,7 +10,9 @@ Immutable Signature
 In PHP 7.3, typehint had to be the same, or dropped. In PHP 7.4, typehint may be contravariant (arguments), or covariant (returntype). 
 
 This analysis may be configured with ``maxOverwrite``. By default, a minimum of 8 overwritten methods is considered difficult to update.
+When refactoring a method, all the related methodcall may have to be updated too. Adding a type, a default value, or a new argument with default value won't affect the calls, but only the definitions. Otherwise, calls will also have to be updated.
 
+IDE may help with signature refactoring, such as `Refactoring code <https://www.jetbrains.com/help/phpstorm/refactoring-source-code.html>`_.
 
 .. code-block:: php
    
@@ -35,11 +37,6 @@ This analysis may be configured with ``maxOverwrite``. By default, a minimum of 
    }
    
    ?>
-
-
-When refactoring a method, all the related methodcall may have to be updated too. Adding a type, a default value, or a new argument with default value won't affect the calls, but only the definitions. Otherwise, calls will also have to be updated.
-
-IDE may help with signature refactoring, such as `Refactoring code <https://www.jetbrains.com/help/phpstorm/refactoring-source-code.html>`_.
 
 +--------------+---------+---------+-------------------------------------------------------------------------------------------------------+
 | Name         | Default | Type    | Description                                                                                           |

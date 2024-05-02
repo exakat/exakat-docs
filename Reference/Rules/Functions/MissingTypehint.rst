@@ -9,7 +9,6 @@ Missing Typehint
 
 void is considered a specified typehint, and is not reported here.
 
-
 .. code-block:: php
    
    <?php

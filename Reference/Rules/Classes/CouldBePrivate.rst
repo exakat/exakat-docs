@@ -6,7 +6,7 @@ Property Could Be Private
 +++++++++++++++++++++++++
 
   The following properties are never used outside their class of definition. Given the analyzed code, they could be set as private. 
-
+Note that dynamic properties (such as $x->$y) are not taken into account.
 
 .. code-block:: php
    
@@ -36,9 +36,6 @@ Property Could Be Private
    $foo->cantdBePrivate = 2;
    
    ?>
-
-
-Note that dynamic properties (such as $x->$y) are not taken into account.
 
 Suggestions
 ___________

@@ -8,7 +8,7 @@ File Is Not Definitions Only
   An included file should only provide definitions and declarations, or executable code : not both. 
 
 With definitions only files, their inclusion provide new features, and keep the current execution untouched, and in control of the flow.
-
+Within this context, globals, use, and namespaces instructions are not considered a warning.
 
 .. code-block:: php
    
@@ -27,9 +27,6 @@ With definitions only files, their inclusion provide new features, and keep the 
    class bar {}
    
    ?>
-
-
-Within this context, globals, use, and namespaces instructions are not considered a warning.
 
 Suggestions
 ___________

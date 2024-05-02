@@ -6,7 +6,9 @@ Ternary In Concat
 +++++++++++++++++
 
   Ternary and coalesce operator have higher priority than dot '.' for concatenation. This means that : 
+prints actually ``'E'``, instead of the awaited ``'B0CE'``.
 
+To be safe, always add parenthesis when using ternary operator with concatenation.
 
 .. code-block:: php
    
@@ -19,11 +21,6 @@ Ternary In Concat
    
      print 'B'.$b.'C'. $b > 1 ? 'D' : 'E';
    ?>
-
-
-prints actually ``'E'``, instead of the awaited ``'B0CE'``.
-
-To be safe, always add parenthesis when using ternary operator with concatenation.
 
 See also `Operator Precedence <https://www.php.net/manual/en/language.operators.precedence.php>`_.
 

@@ -9,7 +9,6 @@ Method Signature Must Be Compatible
 
 PHP generates the infamous Fatal `error <https://www.php.net/error>`_ at execution : ``Declaration of FooParent\:\:Bar() must be compatible with FooChildren\:\:Bar()``
 
-
 .. code-block:: php
    
    <?php

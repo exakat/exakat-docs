@@ -5,7 +5,7 @@ Attributes
 
 This ruleset gathers all rules that rely on PHP 8.+ attributes.
 
-Total : 8 analysis
+Total : 9 analysis
 
 * :ref:`exit-like-methods`
 * :ref:`using-deprecated-method`
@@ -15,6 +15,7 @@ Total : 8 analysis
 * :ref:`override`
 * :ref:`friend-attribute`
 * :ref:`php-native-attributes`
+* :ref:`deprecated-attribute`
 
 Specs
 _____

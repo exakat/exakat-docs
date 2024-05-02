@@ -9,7 +9,6 @@ ext/wddx
 
 The Web Distributed Data Exchange, or WDDX, is a free, open XML-based technology that allows Web applications created with any platform to easily exchange data with one another over the Web.
 
-
 .. code-block:: php
    
    <?php

@@ -7,7 +7,6 @@ ext/pkcs11
 
   In cryptography, PKCS #11 is one of the Public-Key Cryptography Standards. This extensions provides methods to create, read and check those keys.
 
-
 .. code-block:: php
    
    <?php

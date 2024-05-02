@@ -20,7 +20,6 @@ Those are the following functions :
 * `mb_strrichr() <https://www.php.net/mb_strrichr>`_
 * `mb_substr() <https://www.php.net/mb_substr>`_
 
-
 .. code-block:: php
    
    <?php

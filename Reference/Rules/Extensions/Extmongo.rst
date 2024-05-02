@@ -6,7 +6,7 @@ ext/mongo
 +++++++++
 
   Extension `MongoDB <https://www.php.net/MongoDB>`_ driver (legacy).
-
+Note : this is not the `MongoDB driver <https://www.php.net/mongo>`_. This is the legacy extension.
 
 .. code-block:: php
    
@@ -38,9 +38,6 @@ ext/mongo
    }
    
    ?>
-
-
-Note : this is not the `MongoDB driver <https://www.php.net/mongo>`_. This is the legacy extension.
 
 See also `ext/mongo manual <https://www.php.net/manual/en/book.mongo.php>`_ and `MongdDb <https://www.mongodb.com/>`_.
 

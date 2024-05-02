@@ -10,7 +10,6 @@ ext/xxtea
 XXTEA is a fast and `secure <https://www.php.net/secure>`_ encryption algorithm. This is a XXTEA extension for PHP.
 It is different from the original XXTEA encryption algorithm. It encrypts and decrypts string instead of uint32 array, and the key is also string.
 
-
 .. code-block:: php
    
    <?php

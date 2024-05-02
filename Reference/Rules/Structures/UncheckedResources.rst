@@ -9,7 +9,6 @@ Unchecked Resources
 
 Always check that resources are correctly created before using them.
 
-
 .. code-block:: php
    
    <?php

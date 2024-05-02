@@ -6,7 +6,7 @@ parse_str() Warning
 +++++++++++++++++++
 
   The `parse_str() <https://www.php.net/parse_str>`_ function parses a query string and assigns the resulting variables to the local scope. This may create a unexpected number of variables, and even overwrite the existing one.
-
+Always use an empty variable a second parameter to `parse_str() <https://www.php.net/parse_str>`_, so as to collect the incoming values, and then, filter them in that array.
 
 .. code-block:: php
    
@@ -21,9 +21,6 @@ parse_str() Warning
      foo( );
      // displays 1
    ?>
-
-
-Always use an empty variable a second parameter to `parse_str() <https://www.php.net/parse_str>`_, so as to collect the incoming values, and then, filter them in that array.
 
 See also `parse_url() <https://www.php.net/manual/en/function.parse-url.php>`_ and `PHP SSRF Techniques <https://medium.com/secjuice/php-ssrf-techniques-9d422cb28d51>`_.
 

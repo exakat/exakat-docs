@@ -9,7 +9,6 @@ ext/mysqli
 
 The `mysqli <https://www.php.net/mysqli>`_ extension allows you to access the functionality provided by MySQL 4.1 and above.
 
-
 .. code-block:: php
    
    <?php

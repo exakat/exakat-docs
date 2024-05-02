@@ -7,7 +7,6 @@ ext/CSV
 
   A small PHP extension to add/improve the handling of CSV strings.
 
-
 .. code-block:: php
    
    <?php

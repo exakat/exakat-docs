@@ -7,7 +7,6 @@ Shell Usage
 
   List of shell calls to system.
 
-
 .. code-block:: php
    
    <?php

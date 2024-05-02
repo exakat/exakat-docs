@@ -8,8 +8,7 @@ Order Of Declaration
   The order used to declare members and methods has a great impact on readability and maintenance. However, practices varies greatly. As usual, being consistent is the most important and useful.
 
 The suggested order is the following : traits, constants, properties, methods. 
-Optional characteristics, like final, `static <https://www.php.net/manual/en/language.oop5.static.php>`_... are not specified. Special methods names are not specified. 
-
+Optional characteristics, like final, `static <https://www.php.net/manual/en/language.oop5.static.php>`_... are not specified. Special methods names are not specified.
 
 .. code-block:: php
    

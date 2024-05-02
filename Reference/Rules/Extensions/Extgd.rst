@@ -8,7 +8,6 @@ ext/gd
   Extension GD for PHP.
 
 This extension allows PHP to create and manipulate image files in a variety of different image formats, including GIF, PNG, JPEG, WBMP, and XPM.
- 
 
 .. code-block:: php
    

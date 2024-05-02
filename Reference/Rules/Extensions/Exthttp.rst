@@ -13,7 +13,6 @@ It eases handling of HTTP URL, headers and messages, provides means for negotiat
 
 It provides powerful request functionality with support for parallel requests.
 
-
 .. code-block:: php
    
    <?php 

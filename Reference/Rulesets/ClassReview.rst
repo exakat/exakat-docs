@@ -50,7 +50,7 @@ Total : 100 analysis
 * :ref:`fossilized-method`
 * :ref:`uninitialized-property`
 * :ref:`wrong-typed-property-default`
-* :ref:`hidden-nullable-typehint`
+* :ref:`implicit-nullable-type`
 * :ref:`missing-abstract-method`
 * :ref:`unused-trait-in-class`
 * :ref:`cyclic-references`

@@ -9,7 +9,6 @@ preg_replace With Option e
 
 `preg_replace() <https://www.php.net/preg_replace>`_ with /e option may be replaced with `preg_replace_callback() <https://www.php.net/preg_replace_callback>`_ and a `closure <https://www.php.net/`closure <https://www.php.net/closure>`_>`_, or `preg_replace_callback_array() <https://www.php.net/preg_replace_callback_array>`_ and an array of closures.
 
-
 .. code-block:: php
    
    <?php

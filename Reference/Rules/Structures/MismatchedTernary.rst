@@ -9,7 +9,6 @@ Mismatched Ternary Alternatives
 
 Ternary operator applies a condition, and yield two different results. Those results will then be processed by code that expects the same types. It is recommended to match the types on both branches of the ternary operator.
 
-
 .. code-block:: php
    
    <?php

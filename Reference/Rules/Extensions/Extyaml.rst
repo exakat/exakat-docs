@@ -9,7 +9,6 @@ ext/yaml
 
 This extension implements the `YAML Ain't Markup Language <http://www.yaml.org/>`_ (YAML) data serialization standard. Parsing and emitting are handled by the `LibYAML <http://pyyaml.org/wiki/LibYAML>`_ library.
 
-
 .. code-block:: php
    
    <?php

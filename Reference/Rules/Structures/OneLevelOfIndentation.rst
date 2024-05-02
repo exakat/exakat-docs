@@ -9,7 +9,6 @@ More Than One Level Of Indentation
 
 It helps to abide by the Single Responsibility rule and increase reuse.
 
-
 .. code-block:: php
    
    <?php

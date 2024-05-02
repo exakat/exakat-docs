@@ -9,7 +9,6 @@ ext/fileinfo
 
 This module guesses the content type and encoding of a file by looking for certain magic byte sequences at specific positions within the file.
 
-
 .. code-block:: php
    
    <?php

@@ -9,7 +9,6 @@ No Return Or Throw In Finally
 
 Note that PHP prevents the usage of goto, `break <https://www.php.net/manual/en/control-structures.break.php>`_ and `continue <https://www.php.net/manual/en/control-structures.continue.php>`_ within the finally block at linting phase. This is categorized as a Security problem.
 
-
 .. code-block:: php
    
    <?php

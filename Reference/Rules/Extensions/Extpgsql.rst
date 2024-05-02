@@ -7,8 +7,7 @@ ext/pgsql
 
   Extension PostGreSQL.
 
-PostgreSQL is an open source descendant of this original Berkeley code.  It provides SQL92/SQL99 language support, transactions, referential integrity, stored procedures and type extensibility. 
-
+PostgreSQL is an open source descendant of this original Berkeley code.  It provides SQL92/SQL99 language support, transactions, referential integrity, stored procedures and type extensibility.
 
 .. code-block:: php
    

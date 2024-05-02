@@ -7,8 +7,7 @@ ext/igbinary
 
   Extension igbinary. 
 
-igbinary is a drop in replacement for the standard php serializer. Instead of time and space consuming textual representation, igbinary stores php data structures in compact binary form. 
-
+igbinary is a drop in replacement for the standard php serializer. Instead of time and space consuming textual representation, igbinary stores php data structures in compact binary form.
 
 .. code-block:: php
    

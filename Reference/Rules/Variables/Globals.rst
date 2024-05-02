@@ -7,7 +7,6 @@ Globals
 
   Global variables.
 
-
 .. code-block:: php
    
    <?php

@@ -28,9 +28,6 @@
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Php/StaticclassUsage.html</loc>
  </url>
  <url>
-  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Php/EchoTagUsage.html</loc>
- </url>
- <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/Noscream.html</loc>
  </url>
  <url>
@@ -700,6 +697,9 @@
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Classes/ConstantUsedBelow.html</loc>
  </url>
  <url>
+  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Constants/ConstantUsedOnce.html</loc>
+ </url>
+ <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Constants/CreatedOutsideItsNamespace.html</loc>
  </url>
  <url>
@@ -713,6 +713,9 @@
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Constants/ConstantStrangeNames.html</loc>
+ </url>
+ <url>
+  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Constants/RelayConstant.html</loc>
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Classes/Constructor.html</loc>
@@ -1016,6 +1019,9 @@
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Patterns/DependencyInjection.html</loc>
+ </url>
+ <url>
+  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Attributes/Deprecated.html</loc>
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Functions/DeprecatedCallable.html</loc>
@@ -1570,9 +1576,6 @@
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Type/HexadecimalString.html</loc>
  </url>
  <url>
-  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Classes/HiddenNullable.html</loc>
- </url>
- <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Namespaces/HiddenUse.html</loc>
  </url>
  <url>
@@ -1640,6 +1643,9 @@
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/ImplicitGlobal.html</loc>
+ </url>
+ <url>
+  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Classes/HiddenNullable.html</loc>
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/ImpliedIf.html</loc>
@@ -2798,6 +2804,9 @@
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Constants/PhpConstantUsage.html</loc>
+ </url>
+ <url>
+  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Php/EchoTagUsage.html</loc>
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Exceptions/IsPhpException.html</loc>

@@ -9,8 +9,7 @@ No Default For Referenced Parameter
 
 When they have a default value, that default value is not a reference, and it will not have impact on the calling context. 
 
-Then, the parameter behaves like a reference when the argument is provided, and not as a reference when the parameter is not provided. This makes sense : no parameter in, no parameter out. 
-
+Then, the parameter behaves like a reference when the argument is provided, and not as a reference when the parameter is not provided. This makes sense : no parameter in, no parameter out.
 
 .. code-block:: php
    

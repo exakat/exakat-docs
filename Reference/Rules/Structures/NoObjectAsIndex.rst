@@ -6,7 +6,7 @@ No Object As Index
 ++++++++++++++++++
 
   PHP accepts objects as index, though it will report various `error <https://www.php.net/error>`_ messages when this happens.
-
+Thanks to `George Peter Banyard <https://twitter.com/Girgias>`_ for the inspiration.
 
 .. code-block:: php
    
@@ -23,9 +23,6 @@ No Object As Index
    }
    
    ?>
-
-
-Thanks to `George Peter Banyard <https://twitter.com/Girgias>`_ for the inspiration.
 
 See also `Use an object as an offet <https://twitter.com/Girgias/status/1405519800575553540>`_.
 

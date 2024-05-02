@@ -8,7 +8,7 @@ Could Be Ternary
   This control structure may be replaced by a ternary operator. 
 
 Th ternary operator may be shorter and easier to read than the full blown if-then-else structure. 
-
+Depending on the situation, the null-ternary and the coalesce operator may also be a good alternative.
 
 .. code-block:: php
    
@@ -25,9 +25,6 @@ Th ternary operator may be shorter and easier to read than the full blown if-the
    $b = empty($a) ? 1 : foo();
    
    ?>
-
-
-Depending on the situation, the null-ternary and the coalesce operator may also be a good alternative.
 
 See also PHP Shorthand If/Else Using Ternary Operators (?:) `<https://davidwalsh.name/php-shorthand-if-else-ternary-operators>`_ and Shorthand comparisons in PHP `<https://stitcher.io/blog/shorthand-comparisons-in-php>`_.
 

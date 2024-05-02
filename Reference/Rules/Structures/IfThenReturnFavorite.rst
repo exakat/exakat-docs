@@ -5,9 +5,8 @@
 If Then Return Favorite
 +++++++++++++++++++++++
 
-  
-Show of hands: which syntax would you prefer in a PHP function - A, B or C?  
-
+  Show of hands: which syntax would you prefer in a PHP function - A, B or C?  
+Based on a tweet from `Povilas Korop <https://twitter.com/PovilasKorop>`_ : `Show of hands: which syntax would you prefer in a PHP function - A, B or C?  <https://twitter.com/exakat/status/1542585298562998274>`_
 
 .. code-block:: php
    
@@ -30,9 +29,6 @@ Show of hands: which syntax would you prefer in a PHP function - A, B or C?
    return  $condition ? A : B;
    
    ?>
-
-
-Based on a tweet from `Povilas Korop <https://twitter.com/PovilasKorop>`_ : `Show of hands: which syntax would you prefer in a PHP function - A, B or C?  <https://twitter.com/exakat/status/1542585298562998274>`_
 
 Specs
 _____

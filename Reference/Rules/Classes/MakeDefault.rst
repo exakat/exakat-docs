@@ -6,7 +6,7 @@ Assign Default To Properties
 ++++++++++++++++++++++++++++
 
   Properties may be assigned default values at declaration time. Such values may be later modified, if needed. 
-
+Default values will save some instructions in the constructor, and makes the value obvious in the code.
 
 .. code-block:: php
    
@@ -34,9 +34,6 @@ Assign Default To Properties
    }
    
    ?>
-
-
-Default values will save some instructions in the constructor, and makes the value obvious in the code.
 
 See also `PHP Default parameters <https://www.phptutorial.net/php-tutorial/php-default-parameters/>`_.
 

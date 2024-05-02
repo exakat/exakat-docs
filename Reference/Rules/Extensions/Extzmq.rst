@@ -7,8 +7,7 @@ ext/0mq
 
   Extension ext/zmq for ``0mq``.
 
-``ØMQ is a software library that lets you quickly design and implement a fast message-based application.`` 
-
+``ØMQ is a software library that lets you quickly design and implement a fast message-based application.``
 
 .. code-block:: php
    

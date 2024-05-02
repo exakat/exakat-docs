@@ -7,8 +7,7 @@ Always Positive Comparison
 
   Some PHP native functions, such as `count() <https://www.php.net/count>`_, `strlen() <https://www.php.net/strlen>`_, or `abs() <https://www.php.net/abs>`_ only returns positive or null values. 
 
-When comparing them to 0, the following expressions are always true and should be avoided. 
-
+When comparing them to 0, the following expressions are always true and should be avoided.
 
 .. code-block:: php
    

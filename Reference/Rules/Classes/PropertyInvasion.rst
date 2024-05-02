@@ -7,8 +7,7 @@ Property Invasion
 
   Property invasion exports a reference from an object, for external and direct modifications. 
 
-With a method that returns a reference, a link is created between an external variable and the private property. That way, it is possible to modify the object, without calling a property, or a method. 
-
+With a method that returns a reference, a link is created between an external variable and the private property. That way, it is possible to modify the object, without calling a property, or a method.
 
 .. code-block:: php
    

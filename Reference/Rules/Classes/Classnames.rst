@@ -7,7 +7,6 @@ Classes Names
 
   List of all classes, as defined in the application.
 
-
 .. code-block:: php
    
    <?php

@@ -7,7 +7,6 @@ Normal Methods
 
   Spot normal Methods.
 
-
 .. code-block:: php
    
    <?php

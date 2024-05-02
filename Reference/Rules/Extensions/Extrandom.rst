@@ -5,8 +5,7 @@
 Random extension
 ++++++++++++++++
 
-  The random extension. It improves the random generators from the older PHP version, and provides a OOP interface. 
-
+  The random extension. It improves the random generators from the older PHP version, and provides a OOP interface.
 
 .. code-block:: php
    

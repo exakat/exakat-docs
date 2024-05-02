@@ -9,7 +9,6 @@ Implements Is For Interface
 
 PHP defers the implements check until execution : the code in example does lint, but won,t run.
 
-
 .. code-block:: php
    
    <?php

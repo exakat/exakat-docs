@@ -9,7 +9,6 @@ ext/weakref
 
 Weak references provide a non-intrusive gateway to ephemeral objects. Unlike normal (strong) references, weak references do not prevent the garbage collector from freeing that object. For this reason, an object may be destroyed even though a weak reference to that object still exists. In such conditions, the weak reference seamlessly becomes invalid.
 
-
 .. code-block:: php
    
    <?php

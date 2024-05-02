@@ -7,7 +7,6 @@ String
 
   Strings in PHP. Strings are part of the core of PHP, and are not a separate extension.
 
-
 .. code-block:: php
    
    <?php

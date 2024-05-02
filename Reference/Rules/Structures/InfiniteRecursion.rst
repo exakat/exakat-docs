@@ -9,7 +9,6 @@ Infinite Recursion
 
 This rules applies to recursive functions without any condition. This also applies to function which inject the incoming arguments, without modifications.
 
-
 .. code-block:: php
    
    <?php

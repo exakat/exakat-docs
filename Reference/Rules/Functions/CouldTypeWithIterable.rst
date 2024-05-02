@@ -7,8 +7,7 @@ Could Type With Iterable
 
   Suggest using ``iterable`` typehint for arguments.
 
-``iterable`` represents both ``array`` and objects that implements ``Iterator`` interface. Both types are coerced, and usable here. 
-
+``iterable`` represents both ``array`` and objects that implements ``Iterator`` interface. Both types are coerced, and usable here.
 
 .. code-block:: php
    

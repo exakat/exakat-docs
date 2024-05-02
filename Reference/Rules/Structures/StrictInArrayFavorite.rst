@@ -10,7 +10,7 @@ Strict In_Array() Preference
 The analyzed code has less than 10% of one of the two sets : for consistency reasons, it is recommended to make them all the same. 
 
 Warning : the two sets of operators have different precedence levels. Using and or && is not exactly the same, especially and not only, when assigning the results to a variable. 
-
+In doubt, it is recommended to use the strict mode.
 
 .. code-block:: php
    
@@ -23,9 +23,6 @@ Warning : the two sets of operators have different precedence levels. Using and 
    in_array($value, $array, true);
    
    ?>
-
-
-In doubt, it is recommended to use the strict mode.
 
 Specs
 _____

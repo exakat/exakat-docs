@@ -9,7 +9,6 @@ ext/session
 
 Session support in PHP consists of a way to preserve certain data across subsequent accesses.
 
-
 .. code-block:: php
    
    <?php

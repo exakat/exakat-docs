@@ -9,7 +9,6 @@ Var Keyword
 
 It is recommended to avoid using var, and explicitly use the new keywords.
 
-
 .. code-block:: php
    
    <?php

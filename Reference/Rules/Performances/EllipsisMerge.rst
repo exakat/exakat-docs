@@ -7,11 +7,9 @@ Ellipsis Merge
 
   Ellipsis are slower than `array_merge() <https://www.php.net/array_merge>`_. 
 
-
+The speed up is significative when the merge happen inside a loop. There, `array_merge() <https://www.php.net/array_merge>`_ is an order of magnitude faster.
 
 This is a micro optimisation. The larger and numerous the arrays, the better the speed gain. 
-
-The speed up is significative when the merge happen inside a loop. There, `array_merge() <https://www.php.net/array_merge>`_ is an order of magnitude faster.
 
 .. code-block:: php
    

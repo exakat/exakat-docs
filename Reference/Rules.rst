@@ -6,7 +6,7 @@ Rules
 Introduction
 ------------------------
 
-Exakat provides unique 1647 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
+Exakat provides unique 1650 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
 
 Each rule is documented with code example to allow you to remediate your code. If you want to automate remediation, ours cobblers can are there to fix the issues in your code for your.  
 
@@ -26,7 +26,6 @@ List of Rules
    Rules/Classes/ThisIsNotForStatic.rst
    Rules/Php/NewExponent.rst
    Rules/Php/StaticclassUsage.rst
-   Rules/Php/EchoTagUsage.rst
    Rules/Structures/Noscream.rst
    Rules/Patterns/AbstractAway.rst
    Rules/Classes/AbstractConstants.rst
@@ -250,11 +249,13 @@ List of Rules
    Rules/Structures/ConstantScalarExpression.rst
    Rules/Variables/ConstantTypo.rst
    Rules/Classes/ConstantUsedBelow.rst
+   Rules/Constants/ConstantUsedOnce.rst
    Rules/Constants/CreatedOutsideItsNamespace.rst
    Rules/Traits/ConstantsInTraits.rst
    Rules/Constants/Constantnames.rst
    Rules/Constants/ConstantUsage.rst
    Rules/Constants/ConstantStrangeNames.rst
+   Rules/Constants/RelayConstant.rst
    Rules/Classes/Constructor.rst
    Rules/Type/Continents.rst
    Rules/Structures/ContinueIsForLoop.rst
@@ -356,6 +357,7 @@ List of Rules
    Rules/Classes/DependantAbstractClass.rst
    Rules/Traits/DependantTrait.rst
    Rules/Patterns/DependencyInjection.rst
+   Rules/Attributes/Deprecated.rst
    Rules/Functions/DeprecatedCallable.rst
    Rules/Structures/DeprecatedMbEncoding.rst
    Rules/Php/Deprecated.rst
@@ -540,7 +542,6 @@ List of Rules
    Rules/Type/Heredoc.rst
    Rules/Type/Hexadecimal.rst
    Rules/Type/HexadecimalString.rst
-   Rules/Classes/HiddenNullable.rst
    Rules/Namespaces/HiddenUse.rst
    Rules/Structures/Htmlentitiescall.rst
    Rules/Structures/HtmlentitiescallDefaultFlag.rst
@@ -564,6 +565,7 @@ List of Rules
    Rules/Classes/ImplementIsForInterface.rst
    Rules/Structures/ImplicitConversionToInt.rst
    Rules/Structures/ImplicitGlobal.rst
+   Rules/Classes/HiddenNullable.rst
    Rules/Structures/ImpliedIf.rst
    Rules/Php/ImplodeOneArg.rst
    Rules/Structures/ImplodeArgsOrder.rst
@@ -950,6 +952,7 @@ List of Rules
    Rules/Arrays/Phparrayindex.rst
    Rules/Php/MiddleVersion.rst
    Rules/Constants/PhpConstantUsage.rst
+   Rules/Php/EchoTagUsage.rst
    Rules/Exceptions/IsPhpException.rst
    Rules/Php/SetHandlers.rst
    Rules/Interfaces/Php.rst
@@ -1672,8 +1675,14 @@ Directory by Exakat version
 List of analyzers, by version of introduction, newest to oldest. In parenthesis, the first element is the analyzer name, used with 'analyze -P' command, and the seconds, if any, are the ruleset, used with the -T option. Rulesets are separated by commas, as the same analysis may be used in several rulesets.
 
 
+* 2.6.8
+
+  * :ref:`Deprecated Attribute <deprecated-attribute>`
+
 * 2.6.7
 
+  * :ref:`Constant Used Only Once <constant-used-only-once>`
+  * :ref:`Constants/RelayConstant <constants-relayconstant>`
   * :ref:`Include Variables <include-variables>`
   * :ref:`No Named Parameters <no-named-parameters>`
   * :ref:`Static Inclusions <static-inclusions>`
@@ -2226,7 +2235,7 @@ List of analyzers, by version of introduction, newest to oldest. In parenthesis,
 * 2.1.0
 
   * :ref:`Fn Argument Variable Confusion <fn-argument-variable-confusion>`
-  * :ref:`Hidden Nullable Typehint <hidden-nullable-typehint>`
+  * :ref:`Implicit Nullable Type <implicit-nullable-type>`
   * :ref:`Missing Abstract Method <missing-abstract-method>`
   * :ref:`Signature Trailing Comma <signature-trailing-comma>`
 
@@ -3247,7 +3256,6 @@ List of analyzers, by version of introduction, newest to oldest. In parenthesis,
   * :ref:`$this Is Not An Array <$this-is-not-an-array>`
   * :ref:`$this Is Not For Static Methods <$this-is-not-for-static-methods>`
   * :ref:`** For Exponent <**-for-exponent>`
-  * :ref:`<?= Usage <I?=-usage>`
   * :ref:`@ Operator <@-operator>`
   * :ref:`Abstract Class Usage <abstract-class-usage>`
   * :ref:`Abstract Methods Usage <abstract-methods-usage>`
@@ -3565,6 +3573,7 @@ List of analyzers, by version of introduction, newest to oldest. In parenthesis,
   * :ref:`PHP Arrays Index <php-arrays-index>`
   * :ref:`PHP Bugfixes <php-bugfixes>`
   * :ref:`PHP Constant Usage <php-constant-usage>`
+  * :ref:`PHP Echo Tag Usage <php-echo-tag-usage>`
   * :ref:`PHP Handlers Usage <php-handlers-usage>`
   * :ref:`PHP Interfaces <php-interfaces>`
   * :ref:`PHP Keywords As Names <php-keywords-as-names>`
@@ -4490,9 +4499,11 @@ Directory by PHP Function
 
     + `attribute`
 
+      + :ref:`Deprecated Attribute <deprecated-attribute>`
       + :ref:`Exit-like Methods <exit-like-methods>`
       + :ref:`Friend Attribute <friend-attribute>`
       + :ref:`Injectable Version <injectable-version>`
+      + :ref:`Is PHP Structure <is-php-structure>`
       + :ref:`Methods That Should Not Be Used <methods-that-should-not-be-used>`
       + :ref:`Missing Attribute Attribute <missing-attribute-attribute>`
       + :ref:`Modify Immutable <modify-immutable>`
@@ -4855,7 +4866,6 @@ Directory by PHP Function
 
       + :ref:`Assigned Twice <assigned-twice>`
       + :ref:`Same Conditions In Condition <same-conditions-in-condition>`
-      + :ref:`ext/tidy <ext-tidy>`
 
     + `connection`
 
@@ -5053,7 +5063,6 @@ Directory by PHP Function
 
       + :ref:`Clone Usage <clone-usage>`
       + :ref:`Don't Add Seconds <don't-add-seconds>`
-      + :ref:`PHP 7.1 Microseconds <php-7.1-microseconds>`
       + :ref:`Timestamp Difference <timestamp-difference>`
       + :ref:`Use DateTimeImmutable Class <use-datetimeimmutable-class>`
       + :ref:`date() versus DateTime Preference <date()-versus-datetime-preference>`
@@ -5347,6 +5356,7 @@ Directory by PHP Function
       + :ref:`Error Messages <error-messages>`
       + :ref:`Inclusion Wrong Case <inclusion-wrong-case>`
       + :ref:`Inherited Class Constant Visibility <inherited-class-constant-visibility>`
+      + :ref:`Interfaces Don't Ensure Properties <interfaces-don't-ensure-properties>`
       + :ref:`Invalid Cast <invalid-cast>`
       + :ref:`New Functions In PHP 8.3 <new-functions-in-php-8.3>`
       + :ref:`No Return For Generator <no-return-for-generator>`
@@ -5445,6 +5455,7 @@ Directory by PHP Function
     + `engine`
 
       + :ref:`Collect Atom Counts <collect-atom-counts>`
+      + :ref:`Is PHP Structure <is-php-structure>`
       + :ref:`Multiple Returns <multiple-returns>`
       + :ref:`No Net For Xml Load <no-net-for-xml-load>`
       + :ref:`Non-lowercase Keywords <non-lowercase-keywords>`
@@ -5611,6 +5622,7 @@ Directory by PHP Function
       + :ref:`Use Constants As Returns <use-constants-as-returns>`
       + :ref:`Use Lower Case For Parent, Static And Self <use-lower-case-for-parent,-static-and-self>`
       + :ref:`Use Nullable Type <use-nullable-type>`
+      + :ref:`Useless Catch <useless-catch>`
       + :ref:`Using $this Outside A Class <using-$this-outside-a-class>`
       + :ref:`Variable Is Not A Condition <variable-is-not-a-condition>`
       + :ref:`Weird Array Index <weird-array-index>`
@@ -7554,7 +7566,7 @@ Directory by PHP Function
       + :ref:`Check JSON <check-json>`
       + :ref:`Coalesce And Ternary Operators Order <coalesce-and-ternary-operators-order>`
       + :ref:`Empty Slots In Arrays <empty-slots-in-arrays>`
-      + :ref:`Hidden Nullable Typehint <hidden-nullable-typehint>`
+      + :ref:`Implicit Nullable Type <implicit-nullable-type>`
       + :ref:`Method Property Confusion <method-property-confusion>`
       + :ref:`No Max On Empty Array <no-max-on-empty-array>`
       + :ref:`No Null With Null Safe Operator <no-null-with-null-safe-operator>`
@@ -7635,7 +7647,7 @@ Directory by PHP Function
       + :ref:`Don't Send $this In Constructor <don't-send-$this-in-constructor>`
       + :ref:`Don't Unset Properties <don't-unset-properties>`
       + :ref:`File Is Not Definitions Only <file-is-not-definitions-only>`
-      + :ref:`Hidden Nullable Typehint <hidden-nullable-typehint>`
+      + :ref:`Implicit Nullable Type <implicit-nullable-type>`
       + :ref:`Incompatible Types With Incoming Values <incompatible-types-with-incoming-values>`
       + :ref:`Indices Are Int Or String <indices-are-int-or-string>`
       + :ref:`Insufficient Property Typehint <insufficient-property-typehint>`
@@ -7737,10 +7749,6 @@ Directory by PHP Function
     + `ob_end_flush()`
 
       + :ref:`ext/ob <ext-ob>`
-
-    + `ob_get_clean()`
-
-      + :ref:`ext/tidy <ext-tidy>`
 
     + `ob_start()`
 
@@ -8806,7 +8814,6 @@ Directory by PHP Function
       + :ref:`Method Could Be Static <method-could-be-static>`
       + :ref:`No Self Referencing Constant <no-self-referencing-constant>`
       + :ref:`No Static Variable In A Method <no-static-variable-in-a-method>`
-      + :ref:`Non Static Methods Called In A Static <non-static-methods-called-in-a-static>`
       + :ref:`Overwritten Class Constants <overwritten-class-constants>`
       + :ref:`Parent, Static Or Self Outside Class <parent,-static-or-self-outside-class>`
       + :ref:`Php7 Relaxed Keyword <php7-relaxed-keyword>`
@@ -9259,6 +9266,7 @@ Directory by PHP Function
       + :ref:`Scope Resolution Operator <scope-resolution-operator>`
       + :ref:`class_alias() Supports Internal Classes <class\_alias()-supports-internal-classes>`
       + :ref:`ext/memcache <ext-memcache>`
+      + :ref:`get_class() Without Argument <get\_class()-without-argument>`
 
     + `stdclass`
 
@@ -9270,6 +9278,10 @@ Directory by PHP Function
       + :ref:`New Functions In PHP 8.0 <new-functions-in-php-8.0>`
       + :ref:`Strpos()-like Comparison <strpos()-like-comparison>`
       + :ref:`Use str_contains() <use-str\_contains()>`
+
+    + `str_ends_with()`
+
+      + :ref:`Use str_ends_with() <use-str\_ends\_with()>`
 
     + `str_ireplace()`
 
@@ -9292,6 +9304,10 @@ Directory by PHP Function
 
       + :ref:`No Empty String With explode() <no-empty-string-with-explode()>`
       + :ref:`Substr() In Loops <substr()-in-loops>`
+
+    + `str_starts_with()`
+
+      + :ref:`Use str_starts_with() <use-str\_starts\_with()>`
 
     + `stream_isatty()`
 
@@ -9531,7 +9547,6 @@ Directory by PHP Function
     + `tidy`
 
       + :ref:`Use PHP Object API <use-php-object-api>`
-      + :ref:`ext/tidy <ext-tidy>`
 
     + `time()`
 
@@ -9686,7 +9701,6 @@ Directory by PHP Function
       + :ref:`ext/pkcs11 <ext-pkcs11>`
       + :ref:`ext/sqlsrv <ext-sqlsrv>`
       + :ref:`ext/teds <ext-teds>`
-      + :ref:`ext/tidy <ext-tidy>`
       + :ref:`ext/uopz <ext-uopz>`
       + :ref:`ext/xmlwriter <ext-xmlwriter>`
       + :ref:`ext/xsl <ext-xsl>`
@@ -10146,6 +10160,10 @@ Exakat links each rules to PHP features.
     + :ref:`Useless Global <useless-global>`
 
   + $_REQUEST
+
+    + :ref:`Useless Global <useless-global>`
+
+  + $_SERVER
 
     + :ref:`Useless Global <useless-global>`
 
@@ -10932,7 +10950,7 @@ Exakat links each rules to PHP features.
 
   + Echo Tag
 
-    + :ref:`<?= Usage <I?=-usage>`
+    + :ref:`PHP Echo Tag Usage <php-echo-tag-usage>`
     + :ref:`Using Short Tags <using-short-tags>`
 
   + Ellipsis
@@ -11263,6 +11281,10 @@ Exakat links each rules to PHP features.
     + :ref:`Labels <labels>`
     + :ref:`Unused Label <unused-label>`
 
+  + HTML Escaping
+
+    + :ref:`No ENT_IGNORE <no-ent\_ignore>`
+
   + HTML entity
 
     + :ref:`Htmlentities Calls <htmlentities-calls>`
@@ -11336,6 +11358,7 @@ Exakat links each rules to PHP features.
 
   + Iffectation
 
+    + :ref:`Recalled Condition <recalled-condition>`
     + :ref:`Variable Is Not A Condition <variable-is-not-a-condition>`
 
   + ImagickException
@@ -11654,6 +11677,7 @@ Exakat links each rules to PHP features.
 
   + Micro-optimisation
 
+    + :ref:`Duplicate Calls <duplicate-calls>`
     + :ref:`Ellipsis Merge <ellipsis-merge>`
     + :ref:`Pre-Calculate Use <pre-calculate-use>`
     + :ref:`Recalled Condition <recalled-condition>`
@@ -11778,7 +11802,7 @@ Exakat links each rules to PHP features.
 
     + :ref:`Could Be Null <could-be-null>`
     + :ref:`Could Use Null-Safe Object Operator <could-use-null-safe-object-operator>`
-    + :ref:`Hidden Nullable Typehint <hidden-nullable-typehint>`
+    + :ref:`Implicit Nullable Type <implicit-nullable-type>`
     + :ref:`Use Nullable Type <use-nullable-type>`
 
   + Numeric Separator
@@ -11949,6 +11973,10 @@ Exakat links each rules to PHP features.
   + PharException
 
     + :ref:`Could Use Try <could-use-try>`
+
+  + Port
+
+    + :ref:`No Hardcoded Port <no-hardcoded-port>`
 
   + Precedence
 
@@ -12467,7 +12495,7 @@ Exakat links each rules to PHP features.
     + :ref:`Could Typehint <could-typehint>`
     + :ref:`Exceeding Typehint <exceeding-typehint>`
     + :ref:`Extended Typehints <extended-typehints>`
-    + :ref:`Hidden Nullable Typehint <hidden-nullable-typehint>`
+    + :ref:`Implicit Nullable Type <implicit-nullable-type>`
     + :ref:`Incompatible Types With Incoming Values <incompatible-types-with-incoming-values>`
     + :ref:`Insufficient Property Typehint <insufficient-property-typehint>`
     + :ref:`Insufficient Typehint <insufficient-typehint>`
@@ -13190,11 +13218,6 @@ Directory by Exception
 
 Exakat has rules that help identify possible exceptions in the code.
 
-  + ArgumentCountError
-
-    + :ref:`Unknown Parameter Name <unknown-parameter-name>`
-    + :ref:`Wrong Number Of Arguments <wrong-number-of-arguments>`
-
   + ArithmeticError Error
 
     + :ref:`Could Use Try <could-use-try>`
@@ -13246,10 +13269,6 @@ Exakat has rules that help identify possible exceptions in the code.
   + UnexpectedValueException
 
     + :ref:`Could Use Try <could-use-try>`
-
-  + UnhandledMatchError
-
-    + :ref:`Switch Without Default <switch-without-default>`
 
   + mysqli_sql_exception
 

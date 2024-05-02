@@ -7,7 +7,6 @@ Cant Inherit Abstract Method
 
   Inheriting abstract methods was made available in PHP 7.2. In previous versions, it emitted a fatal `error <https://www.php.net/error>`_.
 
-
 .. code-block:: php
    
    <?php

@@ -9,7 +9,6 @@ Final Class Usage
 
 final may be applied to classes and methods.
 
-
 .. code-block:: php
    
    <?php

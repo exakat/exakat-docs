@@ -5,7 +5,7 @@ CI-checks
 
 This ruleset is a collection of important rules to run in a CI pipeline.
 
-Total : 178 analysis
+Total : 177 analysis
 
 * :ref:`adding-zero`
 * :ref:`multiple-index-definition`
@@ -141,7 +141,6 @@ Total : 178 analysis
 * :ref:`identical-on-both-sides`
 * :ref:`no-reference-for-ternary`
 * :ref:`unused-inherited-variable-in-closure`
-* :ref:`useless-catch`
 * :ref:`don't-unset-properties`
 * :ref:`strtr-arguments`
 * :ref:`missing-parenthesis`

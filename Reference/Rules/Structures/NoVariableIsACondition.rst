@@ -8,7 +8,7 @@ Variable Is Not A Condition
   Avoid using a lone variable as a condition. It is recommended to use a comparative value, or one of the filtering function, such as `isset() <https://www.www.php.net/isset>`_, empty(). 
 
 Using the raw variable as a condition blurs the difference between an undefined variable and an empty value. By using an explicit comparison or validation function, it is easier to understand what the variable stands for.
-
+Thanks to the `PMB <https://www.sigb.net/>`_ team for the inspiration.
 
 .. code-block:: php
    
@@ -25,9 +25,6 @@ Using the raw variable as a condition blurs the difference between an undefined 
    }
    
    ?>
-
-
-Thanks to the `PMB <https://www.sigb.net/>`_ team for the inspiration.
 
 Suggestions
 ___________

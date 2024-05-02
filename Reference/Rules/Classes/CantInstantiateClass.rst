@@ -5,8 +5,7 @@
 Can't Instantiate Class
 +++++++++++++++++++++++
 
-  When constructor is not public, it is not possible to instantiate such a class. Either this is a conception choice, or there are factories to handle that. Either way, it is not possible to call new on such class. 
-
+  When constructor is not public, it is not possible to instantiate such a class. Either this is a conception choice, or there are factories to handle that. Either way, it is not possible to call new on such class.
 
 .. code-block:: php
    

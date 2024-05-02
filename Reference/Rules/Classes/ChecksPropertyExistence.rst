@@ -12,7 +12,9 @@ In PHP 8.2, non-specified properties are discouraged : they should always be def
 Some situations are still legit : 
 + When the class is ``stdClass``, where no property is initially defined. This may be the case of JSON data, or arrays cast to objects.
 + When the class uses magic methods, in particular `__get() <https://www.php.net/manual/en/language.oop5.magic.php>`_, `__set() <https://www.php.net/manual/en/language.oop5.magic.php>`_ and `__isset() <https://www.php.net/manual/en/language.oop5.magic.php>`_.
+In this analysis, `isset() <https://www.www.php.net/isset>`_ and `property_exists() <https://www.php.net/property_exists>`_ are both used to detect this checking behavior. `property_exists() <https://www.php.net/property_exists>`_ is actually the only method to actually check the existence, since `isset() <https://www.www.php.net/isset>`_ will confuse non-existing properties and ``null``. 
 
+While the behavior is deprecated in PHP 8.2, it is recommended to review older code and remove it. It will both ensure forward compatibility and cleaner, faster local code.
 
 .. code-block:: php
    
@@ -28,11 +30,6 @@ Some situations are still legit :
    }
    
    ?>
-
-
-In this analysis, `isset() <https://www.www.php.net/isset>`_ and `property_exists() <https://www.php.net/property_exists>`_ are both used to detect this checking behavior. `property_exists() <https://www.php.net/property_exists>`_ is actually the only method to actually check the existence, since `isset() <https://www.www.php.net/isset>`_ will confuse non-existing properties and ``null``. 
-
-While the behavior is deprecated in PHP 8.2, it is recommended to review older code and remove it. It will both ensure forward compatibility and cleaner, faster local code.
 
 Specs
 _____

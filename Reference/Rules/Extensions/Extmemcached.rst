@@ -9,7 +9,6 @@ ext/memcached
 
 This extension uses the libmemcached library to provide an API for communicating with memcached servers. It also provides a session handler (`memcached`).
 
-
 .. code-block:: php
    
    <?php

@@ -9,7 +9,6 @@ ext/vips
 
 The VIPS image processing system is a very fast, multi-threaded image processing library with low memory needs.
 
-
 .. code-block:: php
    
    <?php

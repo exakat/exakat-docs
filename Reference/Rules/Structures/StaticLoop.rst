@@ -8,7 +8,11 @@ Static Loop
   `Static <https://www.php.net/manual/en/language.oop5.static.php>`_ loop may be preprocessed.
 
 It looks like the following loops are `static <https://www.php.net/manual/en/language.oop5.static.php>`_ : the same code is executed each time, without taking into account loop variables.
+It is possible to create loops that don't use any blind variables, though this is fairly rare. In particular, calling a method may update an internal pointer, like `next() <https://www.php.net/next>`_ or ``SimpleXMLIterator\:\:`next() <https://www.php.net/next>`_``. 
 
+It is recommended to turn a `static <https://www.php.net/manual/en/language.oop5.static.php>`_ loop into an expression that avoid the loop. For example, replacing the sum of all integers by the ``function $n * ($n + 1) / 2``, or using `array_sum() <https://www.php.net/array_sum>`_.
+
+This analysis doesn't detect usage of variables with ``compact``.
 
 .. code-block:: php
    
@@ -30,13 +34,6 @@ It looks like the following loops are `static <https://www.php.net/manual/en/lan
    }
    
    ?>
-
-
-It is possible to create loops that don't use any blind variables, though this is fairly rare. In particular, calling a method may update an internal pointer, like `next() <https://www.php.net/next>`_ or ``SimpleXMLIterator\:\:`next() <https://www.php.net/next>`_``. 
-
-It is recommended to turn a `static <https://www.php.net/manual/en/language.oop5.static.php>`_ loop into an expression that avoid the loop. For example, replacing the sum of all integers by the ``function $n * ($n + 1) / 2``, or using `array_sum() <https://www.php.net/array_sum>`_.
-
-This analysis doesn't detect usage of variables with ``compact``.
 
 Suggestions
 ___________

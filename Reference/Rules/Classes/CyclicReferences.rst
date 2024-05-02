@@ -8,7 +8,7 @@ Cyclic References
   Avoid cyclic references. 
 
 Cyclic references happen when an object points to another object, which reciprocate. This is particularly possible with classes, when the child class has to keep a reference to the `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ class. 
-
+Cyclic references, or circular references, are memory intensive : only the garbage collector can understand when they may be flushed from memory, which is a costly operation. On the other hand, in an acyclic reference code, the reference counter will know immediately know that an object is free or not.
 
 .. code-block:: php
    
@@ -33,9 +33,6 @@ Cyclic references happen when an object points to another object, which reciproc
        }
    }
    ?>
-
-
-Cyclic references, or circular references, are memory intensive : only the garbage collector can understand when they may be flushed from memory, which is a costly operation. On the other hand, in an acyclic reference code, the reference counter will know immediately know that an object is free or not.
 
 See also `About circular references in PHP <https://johann.pardanaud.com/blog/about-circular-references-in-php>`_ and `A Journey to find a memory leak <https://jolicode.com/blog/a-journey-to-find-a-memory-leak/>`_.
 

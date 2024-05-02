@@ -6,7 +6,7 @@ Simplify Foreach
 ++++++++++++++++
 
   Remove all unused keys or values from a `foreach() <https://www.php.net/manual/en/control-structures.foreach.php>`_ call. This prevents PHP from assigning them for nothing, and save some processing time. 
-
+This is a micro-optimisation.
 
 .. code-block:: php
    
@@ -23,9 +23,6 @@ Simplify Foreach
    }
    
    ?>
-
-
-This is a micro-optimisation.
 
 Suggestions
 ___________

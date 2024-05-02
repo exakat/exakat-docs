@@ -8,7 +8,7 @@ Logical Mistakes
   Avoid logical mistakes within long expressions. 
 
 Sometimes, the logic is not what it seems. It is important to check the actual impact of every part of the logical expression. Do not hesitate to make a table with all possible cases. If those cases are too numerous, it may be time to rethink the whole expression. 
-
+Inspired by an article from ``Andrey Karpov``.
 
 .. code-block:: php
    
@@ -27,9 +27,6 @@ Sometimes, the logic is not what it seems. It is important to check the actual i
    if ($a == 1 && $a != 2) {}
    
    ?>
-
-
-Inspired by an article from ``Andrey Karpov``.
 
 See also `Logical Expressions in C/C++. Mistakes Made by Professionals <http://www.viva64.com/en/b/0390/>`_.
 

@@ -7,7 +7,6 @@ URL List
 
   List of all the URL addresses that were found in the code.
 
-
 .. code-block:: php
    
    <?php

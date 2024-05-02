@@ -16,25 +16,8 @@ Some functioncalls are also considered definition only, as they configure PHP, b
 * set_session_handler()
 * `set_error_handler() <https://www.php.net/set_error_handler>`_
 * `spl_autoload_register() <https://www.php.net/spl_autoload_register>`_
-
-
 File A : 
-
-.. code-block:: php
-   
-   <?php
-   
-   // This file has only definitions
-   function foo() {}
-   
-   define('a', 1);
-   
-   class bar {}
-   
-   ?>
-
-
-File B : 
+File B :
 
 .. code-block:: php
    

@@ -9,7 +9,6 @@ ext/xmlrpc
 
 This extension can be used to write XML-RPC servers and clients.
 
-
 .. code-block:: php
    
    <?php

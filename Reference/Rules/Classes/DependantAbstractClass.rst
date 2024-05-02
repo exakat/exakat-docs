@@ -11,7 +11,6 @@ The following abstract classes make usage of constant, methods and properties, `
 
 This may also lead to dead code : when the abstract class is removed, the host class have unused properties and methods.
 
-
 .. code-block:: php
    
    <?php

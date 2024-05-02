@@ -7,7 +7,6 @@ No get_class() With Null
 
   It is not possible to pass explicitly null to `get_class() <https://www.php.net/get_class>`_ to get the current's class name. Since PHP 7.2, one must call `get_class() <https://www.php.net/get_class>`_ without arguments to achieve that `result <https://www.php.net/result>`_.
 
-
 .. code-block:: php
    
    <?php

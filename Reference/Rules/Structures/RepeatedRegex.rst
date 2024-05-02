@@ -8,7 +8,7 @@ Repeated Regex
   Repeated regex should be centralized. 
 
 When a regex is repeatedly used in the code, it is getting harder to update. 
-
+Regex that are repeated at least once (aka, used twice or more) are reported. Regex that are dynamically build are not reported.
 
 .. code-block:: php
    
@@ -28,9 +28,6 @@ When a regex is repeatedly used in the code, it is getting harder to update.
    preg_match('/^circle|^square$/i', $string);
    
    ?>
-
-
-Regex that are repeated at least once (aka, used twice or more) are reported. Regex that are dynamically build are not reported.
 
 Suggestions
 ___________

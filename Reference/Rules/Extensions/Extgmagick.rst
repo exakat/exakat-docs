@@ -9,7 +9,6 @@ ext/gmagick
 
 Gmagick is a php extension to create, modify and obtain meta information of images using the GraphicsMagick API.
 
-
 .. code-block:: php
    
    <?php

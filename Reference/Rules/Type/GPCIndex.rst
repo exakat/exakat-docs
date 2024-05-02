@@ -7,7 +7,6 @@ Incoming Variable Index Inventory
 
   This collects all the index used in incoming variables : `$_GET <https://www.php.net/manual/en/reserved.variables.get.php>`_, `$_POST <https://www.php.net/manual/en/reserved.variables.post.php>`_, `$_REQUEST <https://www.php.net/manual/en/reserved.variables.request.php>`_, $_COOKIE.
 
-
 .. code-block:: php
    
    <?php

@@ -7,7 +7,6 @@ Symfony usage
 
   This analysis reports usage of the Symfony framework.
 
-
 .. code-block:: php
    
    <?php

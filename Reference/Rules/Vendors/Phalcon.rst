@@ -7,7 +7,6 @@ Phalcon Usage
 
   This analysis reports usage of the Phalcon Framework. The report is based on the usage of Phalcon namespace, which may be provided by PHP code inclusion or the PHP extension.
 
-
 .. code-block:: php
    
    <?php

@@ -7,7 +7,6 @@ Abstract Methods Usage
 
   List of all abstract methods being used.
 
-
 .. code-block:: php
    
    <?php

@@ -8,34 +8,12 @@ ext/tidy
   Extension `Tidy <https://www.php.net/tidy>`_.
 
 `Tidy <https://www.php.net/tidy>`_ is a binding for the `Tidy <https://www.php.net/tidy>`_ HTML clean and repair utility which allows you to not only clean and otherwise manipulate HTML documents, but also traverse the document tree.
-
-
-.. code-block:: php
-   
-   <?php
-   ob_start();
-   ?>
-
 <html>a html document</html>
 
 .. code-block:: php
    
    <?php
-   $html = ob_get_clean();
-   
-   // Specify configuration
-   $config = array(
-              'indent'         => true,
-              'output-xhtml'   => true,
-              'wrap'           => 200);
-   
-   // Tidy
-   $tidy = new tidy;
-   $tidy->parseString($html, $config, 'utf8');
-   $tidy->cleanRepair();
-   
-   // Output
-   echo $tidy;
+   ob_start();
    ?>
 
 See also `Tidy <https://www.php.net/manual/en/book.tidy.php>`_ and `HTML-tidy <http://www.html-tidy.org/>`_.

@@ -10,7 +10,7 @@ Switch To Switch
 On the other hand, `switch() <https://www.php.net/manual/en/control-structures.switch.php>`_ structures with less than 3 elements should be expressed as a if / else structure.
 
 Note that if condition that uses strict typing (=== or !==) can't be converted to `switch() <https://www.php.net/manual/en/control-structures.switch.php>`_ as the latter only performs == or != comparisons.
-
+Note that simple switch statement, which compare a variable to a literal are optimised in PHP 7.2 and more recent. This gives a nice performance boost, and keep code readable.
 
 .. code-block:: php
    
@@ -52,9 +52,6 @@ Note that if condition that uses strict typing (=== or !==) can't be converted t
    }
    
    ?>
-
-
-Note that simple switch statement, which compare a variable to a literal are optimised in PHP 7.2 and more recent. This gives a nice performance boost, and keep code readable.
 
 See also `PHP 7.2's switch optimisations <https://derickrethans.nl/php7.2-switch.html>`_ and `Is Your Code Readable By Humans? Cognitive Complexity Tells You <https://www.tomasvotruba.cz/blog/2018/05/21/is-your-code-readable-by-humans-cognitive-complexity-tells-you/>`_.
 

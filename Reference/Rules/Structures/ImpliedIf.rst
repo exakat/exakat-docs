@@ -12,7 +12,7 @@ when the left operand of 'and' is false, the right one is not executed, as its `
 when the left operand of 'or' is true, the right one is not executed, as its `result <https://www.php.net/result>`_ is useless; 
 
 However, such structures are confusing. It is easy to misread them as conditions, and ignore an important logic step. 
-
+It is recommended to use a real 'if then' structures, to make the condition readable.
 
 .. code-block:: php
    
@@ -29,9 +29,6 @@ However, such structures are confusing. It is easy to misread them as conditions
    $user = $_GET['user'] || 'anonymous';
    
    ?>
-
-
-It is recommended to use a real 'if then' structures, to make the condition readable.
 
 Suggestions
 ___________

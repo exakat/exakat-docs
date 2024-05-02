@@ -13,8 +13,7 @@ Unsetting scalar properties, such as `string` or `int` is not necessary, as they
 
 Destructor is useful for long-running resources : file resource, sockets, a file lock or persistent database connexion. This is a good time to finish cleanly, and close.
 
-Internally to the application, destructors are also useful with `static <https://www.php.net/manual/en/language.oop5.static.php>`_ properties and registries : for example, the current class may deregister from a list of listener, so that this list is still up to date. Otherwise, the registry keeps the object alive.  
-
+Internally to the application, destructors are also useful with `static <https://www.php.net/manual/en/language.oop5.static.php>`_ properties and registries : for example, the current class may deregister from a list of listener, so that this list is still up to date. Otherwise, the registry keeps the object alive.
 
 .. code-block:: php
    

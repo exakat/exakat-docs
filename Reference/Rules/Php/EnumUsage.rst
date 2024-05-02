@@ -7,7 +7,6 @@ Enum Usage
 
   PHP's enumeration. Introduced in PHP 8.1.
 
-
 .. code-block:: php
    
    <?php

@@ -14,8 +14,7 @@ Defined methods are found in :
 + Extension's definitions
 + Included components.
 
-When the origin of the class is not clear, the report is omitted. 
-
+When the origin of the class is not clear, the report is omitted.
 
 .. code-block:: php
    

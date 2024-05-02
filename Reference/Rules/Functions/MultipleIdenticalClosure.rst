@@ -8,7 +8,7 @@ Multiple Identical Closure
   Several closures are defined with the same code. 
 
 It may be interesting to check if a named function could be defined from them.
-
+This analysis also reports functions and methods that look like the closures : they may be considered for switch.
 
 .. code-block:: php
    
@@ -23,9 +23,6 @@ It may be interesting to check if a named function could be defined from them.
    foo($x, $squaring);
    
    ?>
-
-
-This analysis also reports functions and methods that look like the closures : they may be considered for switch.
 
 See also `class <https://www.php.net/manual/en/language.oop5.basic.php#language.oop5.basic.class>`_.
 

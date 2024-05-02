@@ -7,7 +7,6 @@ Resources Usage
 
   List of situations that are creating resources.
 
-
 .. code-block:: php
    
    <?php

@@ -5,8 +5,7 @@
 Cannot Call Static Trait Method Directly
 ++++++++++++++++++++++++++++++++++++++++
 
-  From the migration docs : Calling a `static <https://www.php.net/manual/en/language.oop5.static.php>`_ method, or accessing a `static <https://www.php.net/manual/en/language.oop5.static.php>`_ property directly on a trait is deprecated. `Static <https://www.php.net/manual/en/language.oop5.static.php>`_ methods and properties should only be accessed on a class using the trait. 
-
+  From the migration docs : Calling a `static <https://www.php.net/manual/en/language.oop5.static.php>`_ method, or accessing a `static <https://www.php.net/manual/en/language.oop5.static.php>`_ property directly on a trait is deprecated. `Static <https://www.php.net/manual/en/language.oop5.static.php>`_ methods and properties should only be accessed on a class using the trait.
 
 .. code-block:: php
    

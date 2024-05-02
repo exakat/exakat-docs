@@ -7,7 +7,6 @@ Functions Glossary
 
   List of all the defined functions in the code.
 
-
 .. code-block:: php
    
    <?php

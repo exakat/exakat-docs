@@ -9,7 +9,6 @@ Redeclared PHP Functions
 
 This is useful when managing backward compatibility, like emulating an old function, or preparing for newer PHP versions, like emulating new upcoming function.
 
-
 .. code-block:: php
    
    <?php

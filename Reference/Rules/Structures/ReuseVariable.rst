@@ -8,7 +8,9 @@ Reuse Existing Variable
   A variable is already holding the content that is calculated again : it could be used again. 
 
 It is recommended to use the cached value. This saves some computation, in particular when used in a loop, and speeds up the process. This is called memoization.
+Some expressions are not idempotent, and should not be cached. For example, calls to `time() <https://www.php.net/time>`_ or `fgets() <https://www.php.net/fgets>`_ return different values with the same parameters.
 
+This may be a micro-optimisation.
 
 .. code-block:: php
    
@@ -24,11 +26,6 @@ It is recommended to use the cached value. This saves some computation, in parti
    }
    
    ?>
-
-
-Some expressions are not idempotent, and should not be cached. For example, calls to `time() <https://www.php.net/time>`_ or `fgets() <https://www.php.net/fgets>`_ return different values with the same parameters.
-
-This may be a micro-optimisation.
 
 Suggestions
 ___________

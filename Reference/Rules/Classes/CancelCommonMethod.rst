@@ -8,7 +8,7 @@ Cancel Common Method
   A `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ method's is too little used in children.
 
 The `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ class has a method, which is customised in children classes, though most of the time, those are empty : hence, cancelled. 
-
+A threshold of ``cancelThreshold`` % of the children methods have to be cancelled to report the `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ class. By default, it is 75 (or 3 out of 4).
 
 .. code-block:: php
    
@@ -31,9 +31,6 @@ The `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.ph
    }
    
    ?>
-
-
-A threshold of ``cancelThreshold`` % of the children methods have to be cancelled to report the `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ class. By default, it is 75 (or 3 out of 4).
 
 +-----------------+---------+---------+--------------------------------------------------------------------------------+
 | Name            | Default | Type    | Description                                                                    |

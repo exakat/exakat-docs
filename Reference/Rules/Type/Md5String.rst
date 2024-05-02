@@ -9,7 +9,6 @@ Md5 Strings
 
 MD5 values are detected as hexadecimal strings, of length 32. No attempt at recognizing the origin value is made, so any such strings, including dummy '11111111111111111111111111111111' are reported.
 
-
 .. code-block:: php
    
    <?php

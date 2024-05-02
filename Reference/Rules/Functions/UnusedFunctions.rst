@@ -9,7 +9,6 @@ Unused Functions
 
 Recursive functions, level 1, are detected : they are only reported when a call from outside the function is made. Recursive functions calls of higher level (A calls B calls A) are not handled.
 
-
 .. code-block:: php
    
    <?php

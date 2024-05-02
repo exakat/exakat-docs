@@ -8,7 +8,9 @@ Useless Argument
   The argument is always used with the same value. This value could be hard coded in the method, and save one argument slot.
 
 There is no indication that this argument will be used with other values. It may be a development artifact, that survived without cleaning.
+Methods with less than 3 calls are not considered here, to avoid reporting methods used once. Also, arguments with a default value are omitted. 
 
+The chances of useless arguments decrease with the number of usage. The parameter ``maxUsageCount`` prevents highly called methods (more than the parameter value) to be processed.
 
 .. code-block:: php
    
@@ -27,11 +29,6 @@ There is no indication that this argument will be used with other values. It may
    foo(3, 2);
    
    ?>
-
-
-Methods with less than 3 calls are not considered here, to avoid reporting methods used once. Also, arguments with a default value are omitted. 
-
-The chances of useless arguments decrease with the number of usage. The parameter ``maxUsageCount`` prevents highly called methods (more than the parameter value) to be processed.
 
 +---------------+---------+---------+---------------------------------------------------------------------------------------+
 | Name          | Default | Type    | Description                                                                           |

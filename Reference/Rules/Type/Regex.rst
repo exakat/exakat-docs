@@ -6,7 +6,7 @@ Regex Inventory
 +++++++++++++++
 
   All regular expressions used in the code. PHP relies on the PCRE extension to process them, with the functions `preg_match() <https://www.php.net/preg_match>`_, `preg_replace() <https://www.php.net/preg_replace>`_, etc. 
-
+``mbstring`` regular expressions are also collected. POSIX regex are not listed : they were deprecated in PHP 7.0.
 
 .. code-block:: php
    
@@ -19,9 +19,6 @@ Regex Inventory
    if(mb_ereg('[\x{0600}-\x{06FF}]', $text))
    
    ?>
-
-
-``mbstring`` regular expressions are also collected. POSIX regex are not listed : they were deprecated in PHP 7.0.
 
 See also `preg_match() <https://www.php.net/preg_match>`_, `ext/mbstring <http://www.php.net/manual/en/book.mbstring.php> `_ and `ext/pcre <http://www.php.net/manual/en/book.pcre.php> `_.
 

@@ -7,7 +7,6 @@ Constant Definition
 
   List of class constants being defined.
 
-
 .. code-block:: php
    
    <?php

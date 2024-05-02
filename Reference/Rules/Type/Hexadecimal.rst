@@ -7,7 +7,6 @@ Hexadecimal Glossary
 
   List of all the integer values, written in the hexadecimal format.
 
-
 .. code-block:: php
    
    <?php

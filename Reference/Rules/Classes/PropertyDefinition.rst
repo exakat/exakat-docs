@@ -5,8 +5,7 @@
 Property Names
 ++++++++++++++
 
-  Variables are used in property definitions, when they are located in a class. 
-
+  Variables are used in property definitions, when they are located in a class.
 
 .. code-block:: php
    
