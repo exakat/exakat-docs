@@ -185,7 +185,7 @@ Total : 624 analysis
 * :ref:`is-extension-trait`
 * :ref:`dynamic-function-call`
 * :ref:`has-variable-arguments`
-* :ref:`multiple-catch`
+* :ref:`multiple-catch-with-try`
 * :ref:`dynamically-called-classes`
 * :ref:`conditioned-function`
 * :ref:`method-is-a-generator`
@@ -405,7 +405,6 @@ Total : 624 analysis
 * :ref:`laravel-usage`
 * :ref:`symfony-usage`
 * :ref:`wordpress-usage`
-* :ref:`ez-cms-usage`
 * :ref:`joomla-usage`
 * :ref:`non-breakable-space-in-names`
 * :ref:`multiple-functions-declarations`
@@ -447,6 +446,7 @@ Total : 624 analysis
 * :ref:`no-reference-for-ternary`
 * :ref:`unused-inherited-variable-in-closure`
 * :ref:`fallback-function`
+* :ref:`useless-catch`
 * :ref:`ext-hrtime`
 * :ref:`ext-xxtea`
 * :ref:`ext-uopz`

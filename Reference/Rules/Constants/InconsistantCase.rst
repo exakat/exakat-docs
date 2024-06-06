@@ -5,11 +5,14 @@
 True False Inconsistant Case
 ++++++++++++++++++++++++++++
 
-  `TRUE <https://www.php.net/TRUE>`_ or true or True is the favorite.
+  `TRUE <https://www.php.net/TRUE>`_, true or True is the favorite way to write these values.
 
-Usually, PHP projects choose between ALL CAPS True/False, or all lowercase True/False. Sometimes, the project will have no recommendations. 
+Usually, source code chooses either ALL CAPS booleans and null, either all lowercase. Sometimes, there is no standard.
 
-When your project use a vast majority of one of the convention, then the analyzer will report all remaining inconsistently cased constant.
+When the source code uses a majority of one of the above convention, then the analyzer reports all remaining inconsistently cased constants.
+
+This rule works on booleans and the null value, altogether.
+
 
 .. code-block:: php
    

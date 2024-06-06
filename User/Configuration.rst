@@ -615,7 +615,7 @@ Analyzers may be configured in the `project/*/config.ini`; they may also be conf
 :ref:`Multiple Index Definition <multiple-index-definition>`
   + arrayMaxSize : 15000
 
-    + Maximal size of arrays to be analyzed. This will speed up analysis, and leave the largest arrays untouched.
+    + Maximal size of arrays to be analyzed. This directive speeds up analysis, and leaves the largest arrays untouched.
 :ref:`Nested Ifthen <nested-ifthen>`
   + nestedIfthen : 3
 

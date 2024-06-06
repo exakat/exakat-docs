@@ -5,7 +5,7 @@
 Constructors
 ++++++++++++
 
-  Mark methods as constructors.
+  This rule marks methods as constructors. In PHP 8.0 and more recent, only the magic method ``__construct`` is the constructor. In older versions, the method with the same name than the class was the constructor, although with a lower priority than the magic method.
 
 .. code-block:: php
    
@@ -40,7 +40,7 @@ _____
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Classes/Constructor                                                                                                     |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`                                                                                                |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`                                            |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 0.8.4                                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

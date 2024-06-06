@@ -79,7 +79,7 @@ Total : 39 analysis
 * :ref:`incoming-date-formats`
 * :ref:`ip`
 * :ref:`init-then-update`
-* :ref:`constants-relayconstant`
+* :ref:`relay-constant`
 
 Specs
 _____

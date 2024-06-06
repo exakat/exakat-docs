@@ -15,6 +15,10 @@ Use Array Functions
 * multiplication : use `array_product() <https://www.php.net/array_product>`_
 * concatenation : use `implode() <https://www.php.net/implode>`_
 * ifthen : use `array_filter() <https://www.php.net/array_filter>`_
+* extract one index $s['index'] : use `array_column() <https://www.php.net/array_column>`_
+* apply a method to each element : use `array_map() <https://www.php.net/array_map>`_ or `array_walk() <https://www.php.net/array_walk>`_
+
+
 
 .. code-block:: php
    
@@ -27,6 +31,14 @@ Use Array Functions
    foreach($array as $s) {
        $all .= $s . '-';
    }
+   
+   // extract one index in an array
+   $extract = [];
+   foreach($array as $a) {
+   	$extract[] = $a['index'];
+   }
+   
+   $extract = array_column($array, 'index');
    
    ?>
 

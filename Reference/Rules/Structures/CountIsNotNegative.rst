@@ -11,7 +11,7 @@ It also reports when a call to ``count()`` is compared to a value that might be 
 
 .. code-block:: php
    
-   <?phpVersion
+   <?php
    
    // count() shall not be below 0, so === is preferable here
    if (count($array) <= 0) { }

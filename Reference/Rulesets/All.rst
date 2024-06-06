@@ -5,7 +5,7 @@ All
 
 All is a dummy ruleset, which includes all the rules. It is mostly used internally.
 
-Total : 1648 analysis
+Total : 1652 analysis
 
 * :ref:`adding-zero`
 * :ref:`ambiguous-array-index`
@@ -291,7 +291,7 @@ Total : 1648 analysis
 * :ref:`is-extension-trait`
 * :ref:`dynamic-function-call`
 * :ref:`has-variable-arguments`
-* :ref:`multiple-catch`
+* :ref:`multiple-catch-with-try`
 * :ref:`dynamically-called-classes`
 * :ref:`conditioned-function`
 * :ref:`conditioned-constants`
@@ -783,7 +783,6 @@ Total : 1648 analysis
 * :ref:`laravel-usage`
 * :ref:`symfony-usage`
 * :ref:`wordpress-usage`
-* :ref:`ez-cms-usage`
 * :ref:`use-session\_start()-options`
 * :ref:`cant-inherit-abstract-method`
 * :ref:`joomla-usage`
@@ -1520,7 +1519,7 @@ Total : 1648 analysis
 * :ref:`too-many-extractions`
 * :ref:`no-variable-needed`
 * :ref:`possible-typeerror`
-* :ref:`json\_encode()-without-exceptions`
+* :ref:`json\_encode()-without-catching-exceptions`
 * :ref:`no-initial-s-in-variable-names`
 * :ref:`collect-calls`
 * :ref:`set-method-fnp`
@@ -1606,7 +1605,7 @@ Total : 1648 analysis
 * :ref:`collect-graph-triplets`
 * :ref:`static-variable-in-namespace`
 * :ref:`using-deprecated-feature`
-* :ref:`override`
+* :ref:`override-attribute`
 * :ref:`don't-use-the-type-as-variable-name`
 * :ref:`static-methods-cannot-call-non-static-methods`
 * :ref:`untyped-no-default-properties`
@@ -1654,7 +1653,12 @@ Total : 1648 analysis
 * :ref:`static-inclusions`
 * :ref:`deprecated-attribute`
 * :ref:`constant-used-only-once`
-* :ref:`constants-relayconstant`
+* :ref:`relay-constant`
+* :ref:`useless-override-attribute`
+* :ref:`missing-overriden-method`
+* :ref:`neos`
+* :ref:`cakephp`
+* :ref:`remove-parameter-with-named-parameters`
 
 Specs
 _____

@@ -5,7 +5,7 @@
 Iconv With Translit
 +++++++++++++++++++
 
-  The transliteration feature of `iconv() <https://www.php.net/iconv>`_ depends on the underlying system to support it.
+  The transliteration feature of `iconv() <https://www.php.net/iconv>`_ depends on the underlying system to support it. This feature is also a portability issue.
 
 .. code-block:: php
    
@@ -33,7 +33,7 @@ _____
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Portability/IconvTranslit                                                                                               |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`                                                                                                |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`                                            |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 2.1.6                                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

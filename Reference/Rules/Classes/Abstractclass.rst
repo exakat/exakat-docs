@@ -5,7 +5,7 @@
 Abstract Class Usage
 ++++++++++++++++++++
 
-  List of all abstract classes defined in the code. 
+  This rule lists of all abstract classes defined. Abstract classes cannot be instanciated, and must be extended to be used.
 
 .. code-block:: php
    

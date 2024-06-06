@@ -6,7 +6,7 @@ Release Note
 
 Here is the release note of exakat. 
 
-**Version 2.6.9 (, 2024-01-11)**
+**Version 2.6.9 (Du Ruhui, 2024-05-17)**
 
 
 + Architecture
@@ -14,6 +14,24 @@ Here is the release note of exakat.
 
 + Cobbler
     + 
+
++ Report
+    + 
+
++ Analysis
+	+ New analysis : new rule for Deprecated attribute (analysis)
+	+ New analysis : new rule for Useless Override Attribute
+	+ New analysis : Override Attribute for PHP 8.0-2
+	+ Refactored analysis : Don't use Void now omits plain strings
+	+ New analysis : Added Neos CMS as vendor
+	+ New analysis : Added Cakephp in vendor list
+	+ Removed analysis : Removed Ez from vendor list
+
++ Tokenizer
+    + Fixed precedence for %, * and /
+
+**Version 2.6.8 (Fang Xuanling, 2024-05-02)**
+
 
 + Report
     + Ambassador : upgraded manual rendering
@@ -32,27 +50,6 @@ Here is the release note of exakat.
 	+ Updated analysis : Hidden Nullable 
 	+ Updated analysis : Useless constructor takes into account promoted properties
 	+ Updated analysis : Undefined Enum Case now handles class constant relays
-
-+ Tokenizer
-    + 
-
-**Version 2.6.8 (, 2024-04-24)**
-
-
-+ Architecture
-	+ 
-
-+ Cobbler
-    + 
-
-+ Report
-    + 
-
-+ Analysis
-	+ New analysis : new rule for Deprecated attribute (analysis)
-
-+ Tokenizer
-    + 
 
 **Version 2.6.7 (Zhang Gongjin, 2024-03-21)**
 

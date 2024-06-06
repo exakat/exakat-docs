@@ -1,9 +1,9 @@
 .. _attributes-override:
 
-.. _override:
+.. _override-attribute:
 
-Override
-++++++++
+Override Attribute
+++++++++++++++++++
 
   `Override <https://www.php.net/override>`_ is a native PHP `attribute <https://www.php.net/attribute>`_. It was introduced in PHP 8.3, and was not available before. 
 

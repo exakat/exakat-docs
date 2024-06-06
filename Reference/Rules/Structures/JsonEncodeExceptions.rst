@@ -1,9 +1,9 @@
 .. _structures-jsonencodeexceptions:
 
-.. _json\_encode()-without-exceptions:
+.. _json\_encode()-without-catching-exceptions:
 
-Json_encode() Without Exceptions
-++++++++++++++++++++++++++++++++
+Json_encode() Without Catching Exceptions
++++++++++++++++++++++++++++++++++++++++++
 
   `json_encode() <https://www.php.net/json_encode>`_ and `json_decode() <https://www.php.net/json_decode>`_ should use the `exception <https://www.php.net/exception>`_ system, to detect invalid JSON syntax. 
 
@@ -40,7 +40,7 @@ _____
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Structures/JsonEncodeExceptions                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Suggestions <ruleset-Suggestions>`                                                      |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`, :ref:`Suggestions <ruleset-Suggestions>`  |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 2.5.0                                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

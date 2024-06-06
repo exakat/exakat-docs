@@ -6,7 +6,7 @@ Rules
 Introduction
 ------------------------
 
-Exakat provides unique 1650 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
+Exakat provides unique 1654 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
 
 Each rule is documented with code example to allow you to remediate your code. If you want to automate remediation, ours cobblers can are there to fix the issues in your code for your.  
 
@@ -107,6 +107,7 @@ List of Rules
    Rules/Structures/BreakNonInteger.rst
    Rules/Structures/BuriedAssignation.rst
    Rules/Performances/CacheVariableOutsideLoop.rst
+   Rules/Vendors/Cakephp.rst
    Rules/Dump/CallOrder.rst
    Rules/Functions/CallbackNeedsReturn.rst
    Rules/Php/CallingStaticTraitMethod.rst
@@ -255,7 +256,6 @@ List of Rules
    Rules/Constants/Constantnames.rst
    Rules/Constants/ConstantUsage.rst
    Rules/Constants/ConstantStrangeNames.rst
-   Rules/Constants/RelayConstant.rst
    Rules/Classes/Constructor.rst
    Rules/Type/Continents.rst
    Rules/Structures/ContinueIsForLoop.rst
@@ -458,7 +458,6 @@ List of Rules
    Rules/Extensions/Extyar.rst
    Rules/Extensions/Exttaint.rst
    Rules/Files/Services.rst
-   Rules/Vendors/Ez.rst
    Rules/Structures/FailingSubstrComparison.rst
    Rules/Php/FailingAnalysis.rst
    Rules/Functions/FallbackFunction.rst
@@ -718,6 +717,7 @@ List of Rules
    Rules/Attributes/MissingAttributeAttribute.rst
    Rules/Structures/MissingCases.rst
    Rules/Files/MissingInclude.rst
+   Rules/Attributes/MissingOverrideMethod.rst
    Rules/Structures/MissingParenthesis.rst
    Rules/Typehints/MissingReturntype.rst
    Rules/Typehints/MissingTypehints.rst
@@ -771,6 +771,7 @@ List of Rules
    Rules/Functions/AliasesUsage.rst
    Rules/Structures/NegativePow.rst
    Rules/Arrays/NegativeStart.rst
+   Rules/Vendors/Neos.rst
    Rules/Attributes/NestedAttributes.rst
    Rules/Structures/NestedIfthen.rst
    Rules/Structures/NestedLoops.rst
@@ -1049,7 +1050,9 @@ List of Rules
    Rules/Type/Regex.rst
    Rules/Performances/RegexOnArrays.rst
    Rules/Security/RegisterGlobals.rst
+   Rules/Constants/RelayConstant.rst
    Rules/Functions/RelayFunction.rst
+   Rules/Functions/RemoveParameterWithNamedOnes.rst
    Rules/Interfaces/RepeatedInterface.rst
    Rules/Structures/RepeatedRegex.rst
    Rules/Structures/RepeatedPrint.rst
@@ -1408,6 +1411,7 @@ List of Rules
    Rules/Traits/UselessAlias.rst
    Rules/Structures/UselessNullCoalesce.rst
    Rules/Classes/UselessNullSafeOperator.rst
+   Rules/Attributes/UselessOverride.rst
    Rules/Structures/UselessParenthesis.rst
    Rules/Functions/UselessReferenceArgument.rst
    Rules/Functions/UselessReturn.rst
@@ -1677,14 +1681,19 @@ List of analyzers, by version of introduction, newest to oldest. In parenthesis,
 
 * 2.6.8
 
+  * :ref:`Cakephp <cakephp>`
   * :ref:`Deprecated Attribute <deprecated-attribute>`
+  * :ref:`Missing Overriden Method <missing-overriden-method>`
+  * :ref:`Neos <neos>`
+  * :ref:`Remove Parameter With Named Parameters <remove-parameter-with-named-parameters>`
+  * :ref:`Useless Override Attribute <useless-override-attribute>`
 
 * 2.6.7
 
   * :ref:`Constant Used Only Once <constant-used-only-once>`
-  * :ref:`Constants/RelayConstant <constants-relayconstant>`
   * :ref:`Include Variables <include-variables>`
   * :ref:`No Named Parameters <no-named-parameters>`
+  * :ref:`Relay Constant <relay-constant>`
   * :ref:`Static Inclusions <static-inclusions>`
 
 * 2.6.6
@@ -1750,7 +1759,7 @@ List of analyzers, by version of introduction, newest to oldest. In parenthesis,
   * :ref:`Collect Graph Triplets <collect-graph-triplets>`
   * :ref:`Favorite Casting Method <favorite-casting-method>`
   * :ref:`Multiline Expressions <multiline-expressions>`
-  * :ref:`Override <override>`
+  * :ref:`Override Attribute <override-attribute>`
   * :ref:`Property Cannot Be Readonly <property-cannot-be-readonly>`
   * :ref:`Static Variable In Namespace <static-variable-in-namespace>`
   * :ref:`Static Variable Initialisation <static-variable-initialisation>`
@@ -1851,7 +1860,7 @@ List of analyzers, by version of introduction, newest to oldest. In parenthesis,
   * :ref:`Could Use Namespace Magic Constant <could-use-namespace-magic-constant>`
   * :ref:`Empty Loop <empty-loop>`
   * :ref:`Incompatible Types With Incoming Values <incompatible-types-with-incoming-values>`
-  * :ref:`Json_encode() Without Exceptions <json\_encode()-without-exceptions>`
+  * :ref:`Json_encode() Without Catching Exceptions <json\_encode()-without-catching-exceptions>`
   * :ref:`Mbstring Unknown Encodings <mbstring-unknown-encodings>`
   * :ref:`Method Property Confusion <method-property-confusion>`
   * :ref:`Method Usage <method-usage>`
@@ -3022,7 +3031,6 @@ List of analyzers, by version of introduction, newest to oldest. In parenthesis,
 
   * :ref:`Cant Inherit Abstract Method <cant-inherit-abstract-method>`
   * :ref:`Codeigniter usage <codeigniter-usage>`
-  * :ref:`Ez cms usage <ez-cms-usage>`
   * :ref:`Joomla usage <joomla-usage>`
   * :ref:`Laravel usage <laravel-usage>`
   * :ref:`Symfony usage <symfony-usage>`
@@ -3498,7 +3506,7 @@ List of analyzers, by version of introduction, newest to oldest. In parenthesis,
   * :ref:`Mixed Keys In Array <mixed-keys-in-array>`
   * :ref:`Multidimensional Arrays <multidimensional-arrays>`
   * :ref:`Multiple Alias Definitions <multiple-alias-definitions>`
-  * :ref:`Multiple Catch <multiple-catch>`
+  * :ref:`Multiple Catch With Try <multiple-catch-with-try>`
   * :ref:`Multiple Class Declarations <multiple-class-declarations>`
   * :ref:`Multiple Classes In One File <multiple-classes-in-one-file>`
   * :ref:`Multiple Constant Definition <multiple-constant-definition>`
@@ -4062,6 +4070,7 @@ Directory by PHP Function
       + :ref:`Property Used Below <property-used-below>`
       + :ref:`Property Used In One Method Only <property-used-in-one-method-only>`
       + :ref:`Property Variable Confusion <property-variable-confusion>`
+      + :ref:`Public Reach To Private Methods <public-reach-to-private-methods>`
       + :ref:`Readonly Property Changed By Cloning <readonly-property-changed-by-cloning>`
       + :ref:`Redefined Default <redefined-default>`
       + :ref:`Scalar Or Object Property <scalar-or-object-property>`
@@ -4379,8 +4388,8 @@ Directory by PHP Function
       + :ref:`Array_Map() Passes By Value <array\_map()-passes-by-value>`
       + :ref:`Callback Function Needs Return <callback-function-needs-return>`
       + :ref:`Could Be Typehinted Callable <could-be-typehinted-callable>`
-      + :ref:`Handle Arrays With Callback <handle-arrays-with-callback>`
       + :ref:`Slow Functions <slow-functions>`
+      + :ref:`Use Array Functions <use-array-functions>`
 
     + `array_merge()`
 
@@ -4483,6 +4492,7 @@ Directory by PHP Function
       + :ref:`Altering Foreach Without Reference <altering-foreach-without-reference>`
       + :ref:`Array_Map() Passes By Value <array\_map()-passes-by-value>`
       + :ref:`Slow Functions <slow-functions>`
+      + :ref:`Use Array Functions <use-array-functions>`
 
     + `arsort()`
 
@@ -4504,16 +4514,20 @@ Directory by PHP Function
       + :ref:`Friend Attribute <friend-attribute>`
       + :ref:`Injectable Version <injectable-version>`
       + :ref:`Is PHP Structure <is-php-structure>`
+      + :ref:`Method Is Overwritten <method-is-overwritten>`
       + :ref:`Methods That Should Not Be Used <methods-that-should-not-be-used>`
       + :ref:`Missing Attribute Attribute <missing-attribute-attribute>`
+      + :ref:`Missing Overriden Method <missing-overriden-method>`
       + :ref:`Modify Immutable <modify-immutable>`
       + :ref:`Nested Attributes <nested-attributes>`
-      + :ref:`Override <override>`
+      + :ref:`Override Attribute <override-attribute>`
       + :ref:`PHP Native Attributes <php-native-attributes>`
       + :ref:`PHP Native Class Type Compatibility <php-native-class-type-compatibility>`
       + :ref:`PHP Native Interfaces and Return Type <php-native-interfaces-and-return-type>`
+      + :ref:`Useless Override Attribute <useless-override-attribute>`
       + :ref:`Using Deprecated Feature <using-deprecated-feature>`
       + :ref:`Using Deprecated Method <using-deprecated-method>`
+      + :ref:`Wrong Attribute Configuration <wrong-attribute-configuration>`
       + :ref:`IsExt <isext>`
       + :ref:`IsPHP <isphp>`
       + :ref:`IsStub <isstub>`
@@ -5531,7 +5545,7 @@ Directory by PHP Function
       + :ref:`Invalid Octal In String <invalid-octal-in-string>`
       + :ref:`Invalid Regex <invalid-regex>`
       + :ref:`Is Actually Zero <is-actually-zero>`
-      + :ref:`Json_encode() Without Exceptions <json\_encode()-without-exceptions>`
+      + :ref:`Json_encode() Without Catching Exceptions <json\_encode()-without-catching-exceptions>`
       + :ref:`Local Globals <local-globals>`
       + :ref:`Malformed Octal <malformed-octal>`
       + :ref:`Mbstring Unknown Encodings <mbstring-unknown-encodings>`
@@ -5542,6 +5556,7 @@ Directory by PHP Function
       + :ref:`Mismatch Type And Default <mismatch-type-and-default>`
       + :ref:`Missing Abstract Method <missing-abstract-method>`
       + :ref:`Missing Include <missing-include>`
+      + :ref:`Missing Overriden Method <missing-overriden-method>`
       + :ref:`Missing Some Returntype <missing-some-returntype>`
       + :ref:`Mixed Concat And Interpolation <mixed-concat-and-interpolation>`
       + :ref:`Modified Typed Parameter <modified-typed-parameter>`
@@ -5570,7 +5585,7 @@ Directory by PHP Function
       + :ref:`Only Variable For Reference <only-variable-for-reference>`
       + :ref:`Only Variable Passed By Reference <only-variable-passed-by-reference>`
       + :ref:`Or Die <or-die>`
-      + :ref:`Override <override>`
+      + :ref:`Override Attribute <override-attribute>`
       + :ref:`Overwritten Foreach Var <overwritten-foreach-var>`
       + :ref:`PHP 7.0 Scalar Typehints <php-7.0-scalar-typehints>`
       + :ref:`PHP 7.4 Reserved Keyword <php-7.4-reserved-keyword>`
@@ -5623,6 +5638,7 @@ Directory by PHP Function
       + :ref:`Use Lower Case For Parent, Static And Self <use-lower-case-for-parent,-static-and-self>`
       + :ref:`Use Nullable Type <use-nullable-type>`
       + :ref:`Useless Catch <useless-catch>`
+      + :ref:`Useless Override Attribute <useless-override-attribute>`
       + :ref:`Using $this Outside A Class <using-$this-outside-a-class>`
       + :ref:`Variable Is Not A Condition <variable-is-not-a-condition>`
       + :ref:`Weird Array Index <weird-array-index>`
@@ -5686,7 +5702,7 @@ Directory by PHP Function
       + :ref:`Exception Order <exception-order>`
       + :ref:`Exit() Usage <exit()-usage>`
       + :ref:`Forgotten Thrown <forgotten-thrown>`
-      + :ref:`Json_encode() Without Exceptions <json\_encode()-without-exceptions>`
+      + :ref:`Json_encode() Without Catching Exceptions <json\_encode()-without-catching-exceptions>`
       + :ref:`Large Try Block <large-try-block>`
       + :ref:`Long Preparation For Throw <long-preparation-for-throw>`
       + :ref:`Manipulates INF <manipulates-inf>`
@@ -5829,10 +5845,6 @@ Directory by PHP Function
     + `FTP_BINARY`
 
       + :ref:`ext/ftp <ext-ftp>`
-
-    + `False`
-
-      + :ref:`True False Inconsistant Case <true-false-inconsistant-case>`
 
     + `FilesystemIterator`
 
@@ -7040,11 +7052,11 @@ Directory by PHP Function
 
     + `JSON_THROW_ON_ERROR`
 
-      + :ref:`Json_encode() Without Exceptions <json\_encode()-without-exceptions>`
+      + :ref:`Json_encode() Without Catching Exceptions <json\_encode()-without-catching-exceptions>`
 
     + `JsonException`
 
-      + :ref:`Json_encode() Without Exceptions <json\_encode()-without-exceptions>`
+      + :ref:`Json_encode() Without Catching Exceptions <json\_encode()-without-catching-exceptions>`
 
     + `JsonSerializable`
 
@@ -7061,19 +7073,19 @@ Directory by PHP Function
     + `json_decode()`
 
       + :ref:`Empty Json Error <empty-json-error>`
-      + :ref:`Json_encode() Without Exceptions <json\_encode()-without-exceptions>`
+      + :ref:`Json_encode() Without Catching Exceptions <json\_encode()-without-catching-exceptions>`
       + :ref:`Use json_decode() Options <use-json\_decode()-options>`
 
     + `json_encode()`
 
       + :ref:`Avoid Using stdClass <avoid-using-stdclass>`
-      + :ref:`Json_encode() Without Exceptions <json\_encode()-without-exceptions>`
+      + :ref:`Json_encode() Without Catching Exceptions <json\_encode()-without-catching-exceptions>`
 
     + `json_last_error()`
 
       + :ref:`Check JSON <check-json>`
       + :ref:`Empty Json Error <empty-json-error>`
-      + :ref:`Json_encode() Without Exceptions <json\_encode()-without-exceptions>`
+      + :ref:`Json_encode() Without Catching Exceptions <json\_encode()-without-catching-exceptions>`
 
     + `json_last_error_msg()`
 
@@ -7677,6 +7689,7 @@ Directory by PHP Function
       + :ref:`PSR-7 Usage <psr-7-usage>`
       + :ref:`Parent First <parent-first>`
       + :ref:`Php 8.0 Only TypeHints <php-8.0-only-typehints>`
+      + :ref:`Remove Parameter With Named Parameters <remove-parameter-with-named-parameters>`
       + :ref:`Reserved Keywords In PHP 7 <reserved-keywords-in-php-7>`
       + :ref:`Results May Be Missing <results-may-be-missing>`
       + :ref:`Return void  <return-void->`
@@ -7688,6 +7701,7 @@ Directory by PHP Function
       + :ref:`Should Deep Clone <should-deep-clone>`
       + :ref:`Should Use Operator <should-use-operator>`
       + :ref:`StandaloneType True False Null <standalonetype-true-false-null>`
+      + :ref:`True False Inconsistant Case <true-false-inconsistant-case>`
       + :ref:`Typehinting Stats <typehinting-stats>`
       + :ref:`Unbinding Closures <unbinding-closures>`
       + :ref:`Uninitialized Property <uninitialized-property>`
@@ -7744,7 +7758,8 @@ Directory by PHP Function
 
     + `Override`
 
-      + :ref:`Override <override>`
+      + :ref:`Override Attribute <override-attribute>`
+      + :ref:`Useless Override Attribute <useless-override-attribute>`
 
     + `ob_end_flush()`
 
@@ -7852,6 +7867,8 @@ Directory by PHP Function
 
       + :ref:`Final Class Usage <final-class-usage>`
       + :ref:`Final Methods Usage <final-methods-usage>`
+      + :ref:`Missing Overriden Method <missing-overriden-method>`
+      + :ref:`Useless Override Attribute <useless-override-attribute>`
 
 
 + `P`
@@ -8048,10 +8065,11 @@ Directory by PHP Function
       + :ref:`Locally Unused Property <locally-unused-property>`
       + :ref:`Method Used Below <method-used-below>`
       + :ref:`Mismatch Properties Typehints <mismatch-properties-typehints>`
+      + :ref:`Missing Overriden Method <missing-overriden-method>`
       + :ref:`Multiple Identical Trait Or Interface <multiple-identical-trait-or-interface>`
       + :ref:`Must Call Parent Constructor <must-call-parent-constructor>`
       + :ref:`Never Used Properties <never-used-properties>`
-      + :ref:`Override <override>`
+      + :ref:`Override Attribute <override-attribute>`
       + :ref:`Overwritten Class Constants <overwritten-class-constants>`
       + :ref:`Overwritten Constant <overwritten-constant>`
       + :ref:`PHP7 Dirname <php7-dirname>`
@@ -8083,6 +8101,7 @@ Directory by PHP Function
       + :ref:`Useless Constant Overwrite <useless-constant-overwrite>`
       + :ref:`Useless Constructor <useless-constructor>`
       + :ref:`Useless Method <useless-method>`
+      + :ref:`Useless Override Attribute <useless-override-attribute>`
       + :ref:`ext/pcntl <ext-pcntl>`
       + :ref:`self, parent, static Outside Class <self,-parent,-static-outside-class>`
       + :ref:`Set Typehints <set-typehints>`
@@ -8422,7 +8441,7 @@ Directory by PHP Function
 
       + :ref:`Caught Variable <caught-variable>`
       + :ref:`Defined Exceptions <defined-exceptions>`
-      + :ref:`Multiple Catch <multiple-catch>`
+      + :ref:`Multiple Catch With Try <multiple-catch-with-try>`
       + :ref:`Resources Usage <resources-usage>`
       + :ref:`Throw Functioncall <throw-functioncall>`
 
@@ -8512,6 +8531,7 @@ Directory by PHP Function
       + :ref:`Large Try Block <large-try-block>`
       + :ref:`Law of Demeter <law-of-demeter>`
       + :ref:`Logical To in_array <logical-to-in\_array>`
+      + :ref:`Method Is Overwritten <method-is-overwritten>`
       + :ref:`Methodcall On New <methodcall-on-new>`
       + :ref:`Mismatched Ternary Alternatives <mismatched-ternary-alternatives>`
       + :ref:`No Null With Null Safe Operator <no-null-with-null-safe-operator>`
@@ -9181,7 +9201,7 @@ Directory by PHP Function
       + :ref:`Only Variable Passed By Reference <only-variable-passed-by-reference>`
       + :ref:`Only Variable Returned By Reference <only-variable-returned-by-reference>`
       + :ref:`Order Of Declaration <order-of-declaration>`
-      + :ref:`Override <override>`
+      + :ref:`Override Attribute <override-attribute>`
       + :ref:`Overwritten Class Constants <overwritten-class-constants>`
       + :ref:`Parent, Static Or Self Outside Class <parent,-static-or-self-outside-class>`
       + :ref:`Php 8.0 Variable Syntax Tweaks <php-8.0-variable-syntax-tweaks>`
@@ -9474,6 +9494,7 @@ Directory by PHP Function
       + :ref:`Switch Without Default <switch-without-default>`
       + :ref:`Too Many Stringed Elseif <too-many-stringed-elseif>`
       + :ref:`Use The Case Value <use-the-case-value>`
+      + :ref:`Uses PHP 8 Match() <uses-php-8-match()>`
       + :ref:`Switch To Match <switch-to-match>`
 
     + `sys_get_temp_dir()`
@@ -9687,6 +9708,7 @@ Directory by PHP Function
       + :ref:`Too Many Chained Calls <too-many-chained-calls>`
       + :ref:`True False Inconsistant Case <true-false-inconsistant-case>`
       + :ref:`Type Must Be Returned <type-must-be-returned>`
+      + :ref:`Typo 3 usage <typo-3-usage>`
       + :ref:`Use Browscap <use-browscap>`
       + :ref:`Use Debug <use-debug>`
       + :ref:`Use Named Boolean In Argument Definition <use-named-boolean-in-argument-definition>`
@@ -10142,9 +10164,21 @@ Directory by PHP Features
 
 Exakat links each rules to PHP features.
 
+  + $GLOBALS
+
+    + :ref:`Global Definitions <global-definitions>`
+
   + $HTTP_RAW_POST_DATA
 
     + :ref:`$HTTP_RAW_POST_DATA Usage <$http\_raw\_post\_data-usage>`
+
+  + $_COOKIE
+
+    + :ref:`Useless Global <useless-global>`
+
+  + $_ENV
+
+    + :ref:`Useless Global <useless-global>`
 
   + $_FILES
 
@@ -11002,6 +11036,10 @@ Exakat links each rules to PHP features.
     + :ref:`Avoid set_error_handler $context Argument <avoid-set\_error\_handler-$context-argument>`
     + :ref:`set_exception_handler() Warning <set\_exception\_handler()-warning>`
 
+  + Error Handling
+
+    + :ref:`Json_encode() Without Catching Exceptions <json\_encode()-without-catching-exceptions>`
+
   + Escape Sequences
 
     + :ref:`Encoded Simple Letters <encoded-simple-letters>`
@@ -11186,7 +11224,6 @@ Exakat links each rules to PHP features.
     + :ref:`Codeigniter usage <codeigniter-usage>`
     + :ref:`Concrete5 usage <concrete5-usage>`
     + :ref:`Drupal Usage <drupal-usage>`
-    + :ref:`Ez cms usage <ez-cms-usage>`
     + :ref:`Feast usage <feast-usage>`
     + :ref:`Fuel PHP Usage <fuel-php-usage>`
     + :ref:`Ice framework <ice-framework>`
@@ -11244,10 +11281,6 @@ Exakat links each rules to PHP features.
     + :ref:`Useless Default Argument <useless-default-argument>`
     + :ref:`Wrong Number Of Arguments <wrong-number-of-arguments>`
 
-  + GLOBALS, the variable
-
-    + :ref:`Global Definitions <global-definitions>`
-
   + Generator
 
     + :ref:`Can't Call Generator <can't-call-generator>`
@@ -11281,16 +11314,16 @@ Exakat links each rules to PHP features.
     + :ref:`Labels <labels>`
     + :ref:`Unused Label <unused-label>`
 
-  + HTML Escaping
-
-    + :ref:`No ENT_IGNORE <no-ent\_ignore>`
-
-  + HTML entity
+  + HTML Entity
 
     + :ref:`Htmlentities Calls <htmlentities-calls>`
     + :ref:`Htmlentities Using Default Flag <htmlentities-using-default-flag>`
 
-  + HTTP headers
+  + HTML Escaping
+
+    + :ref:`No ENT_IGNORE <no-ent\_ignore>`
+
+  + HTTP Headers
 
     + :ref:`Http Headers <http-headers>`
     + :ref:`Safe HTTP Headers <safe-http-headers>`
@@ -11412,7 +11445,7 @@ Exakat links each rules to PHP features.
     + :ref:`Weird Array Index <weird-array-index>`
     + :ref:`array_key_exists() Works On Arrays <array\_key\_exists()-works-on-arrays>`
 
-  + Index for arrays
+  + Index For Arrays
 
     + :ref:`PHP Arrays Index <php-arrays-index>`
 
@@ -11518,7 +11551,7 @@ Exakat links each rules to PHP features.
   + JSON
 
     + :ref:`Check JSON <check-json>`
-    + :ref:`Json_encode() Without Exceptions <json\_encode()-without-exceptions>`
+    + :ref:`Json_encode() Without Catching Exceptions <json\_encode()-without-catching-exceptions>`
     + :ref:`PHP Native Interfaces and Return Type <php-native-interfaces-and-return-type>`
     + :ref:`Use json_decode() Options <use-json\_decode()-options>`
 
@@ -11530,7 +11563,7 @@ Exakat links each rules to PHP features.
 
     + :ref:`Php7 Relaxed Keyword <php7-relaxed-keyword>`
 
-  + Language construct
+  + Language Construct
 
     + :ref:`Avoid Parenthesis With Language Construct <avoid-parenthesis-with-language-construct>`
     + :ref:`No Parenthesis For Language Construct <no-parenthesis-for-language-construct>`
@@ -11566,7 +11599,7 @@ Exakat links each rules to PHP features.
 
     + :ref:`Error_Log() Usage <error\_log()-usage>`
 
-  + Logical operators
+  + Logical Operators
 
     + :ref:`Assign And Lettered Logical Operator Precedence <assign-and-lettered-logical-operator-precedence>`
     + :ref:`Logical Operators Favorite <logical-operators-favorite>`
@@ -11873,6 +11906,11 @@ Exakat links each rules to PHP features.
   + Overenginer
 
     + :ref:`Used Once Trait <used-once-trait>`
+
+  + Override Parent Method
+
+    + :ref:`Method Is Overwritten <method-is-overwritten>`
+    + :ref:`Missing Overriden Method <missing-overriden-method>`
 
   + Overwrite
 
@@ -12463,7 +12501,7 @@ Exakat links each rules to PHP features.
     + :ref:`Could Use Try <could-use-try>`
     + :ref:`Empty Try Catch <empty-try-catch>`
     + :ref:`Large Try Block <large-try-block>`
-    + :ref:`Multiple Catch <multiple-catch>`
+    + :ref:`Multiple Catch With Try <multiple-catch-with-try>`
     + :ref:`Multiple Exceptions Catch() <multiple-exceptions-catch()>`
     + :ref:`Throw <throw>`
     + :ref:`Try With Finally <try-with-finally>`

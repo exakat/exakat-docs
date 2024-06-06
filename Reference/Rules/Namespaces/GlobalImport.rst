@@ -5,7 +5,7 @@
 Global Import
 +++++++++++++
 
-  Mark a Use statement that is importing a global class in the current file.
+  This rule marks a ``use`` statement that imports a global class in the current file.
 
 .. code-block:: php
    

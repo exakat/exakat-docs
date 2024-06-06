@@ -5,9 +5,9 @@
 Multiple Index Definition
 +++++++++++++++++++++++++
 
-  Indexes that are defined multiple times in the same array. 
+  This rules lists the indexes that are defined multiple times in the same array. 
 
-They are indeed overwriting each other. This is most probably a typo.
+In reality, they are overwriting each other. This is most probably a typo or a failed copy/paste.
 
 
 .. code-block:: php
@@ -25,23 +25,23 @@ They are indeed overwriting each other. This is most probably a typo.
    
        // Multiple identical keys (automated version)
        $x = array(1 => 2, 
-                  3,        // This will be index 2
+                  3,        // This is the index 2
                   2 => 4);  // this index is overwritten
    ?>
 
-+--------------+---------+---------+-------------------------------------------------------------------------------------------------------------+
-| Name         | Default | Type    | Description                                                                                                 |
-+--------------+---------+---------+-------------------------------------------------------------------------------------------------------------+
-| arrayMaxSize | 15000   | integer | Maximal size of arrays to be analyzed. This will speed up analysis, and leave the largest arrays untouched. |
-+--------------+---------+---------+-------------------------------------------------------------------------------------------------------------+
++--------------+---------+---------+--------------------------------------------------------------------------------------------------------------------+
+| Name         | Default | Type    | Description                                                                                                        |
++--------------+---------+---------+--------------------------------------------------------------------------------------------------------------------+
+| arrayMaxSize | 15000   | integer | Maximal size of arrays to be analyzed. This directive speeds up analysis, and leaves the largest arrays untouched. |
++--------------+---------+---------+--------------------------------------------------------------------------------------------------------------------+
 
 
 
 Suggestions
 ___________
 
-* Review your code and check that arrays only have keys defined once.
-* Review carefully your code and check indirect values, like constants, static constants.
+* Review the code and check that arrays only have keys defined once.
+* Review carefully the code and check indirect values, like constants and static constants.
 
 
 

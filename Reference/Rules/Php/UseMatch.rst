@@ -5,7 +5,10 @@
 Uses PHP 8 Match()
 ++++++++++++++++++
 
-  Use the `match() <https://www.php.net/manual/en/control-structures.match.php>`_ syntax.
+  This rule reports usage of the the `match() <https://www.php.net/manual/en/control-structures.match.php>`_ syntax.
+
+`match() <https://www.php.net/manual/en/control-structures.match.php>`_ was introduced in PHP 8.0, and is an alternative to `switch() <https://www.php.net/manual/en/control-structures.switch.php>`_. It is also not backward compatible with previous versions of PHP.
+
 
 .. code-block:: php
    
@@ -29,7 +32,7 @@ _____
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Php/UseMatch                                                                                                                                                                            |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`CE <ruleset-CE>`, :ref:`CompatibilityPHP74 <ruleset-CompatibilityPHP74>`                                                                                |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`CE <ruleset-CE>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`, :ref:`CompatibilityPHP74 <ruleset-CompatibilityPHP74>`                            |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 2.1.4                                                                                                                                                                                   |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

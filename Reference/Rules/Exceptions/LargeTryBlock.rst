@@ -9,7 +9,7 @@ Large Try Block
 
 When writing large blocks of code in a try, it becomes difficult to understand where the expression is coming from. Large blocks may also lead to catch multiples exceptions, with a long list of catch clause. 
 
-In particular, the catch clause will resume the execution without knowing where the try was interrupted : there are no indication of achievement, even partial. In fact, catching an `exception <https://www.php.net/exception>`_ signals a very dirty situation.
+In particular, the catch clause resumes the execution without knowing where the try was interrupted : there are no indication of achievement, even partial. In fact, catching an `exception <https://www.php.net/exception>`_ signals a very dirty situation.
 This analysis reports try blocks that are 5 lines or more. This threshold may be configured with the directive ``tryBlockMaxSize``. Catch clause, and finally are not considered here.
 
 .. code-block:: php

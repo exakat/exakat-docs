@@ -5,7 +5,7 @@
 Wrong Attribute Configuration
 +++++++++++++++++++++++++++++
 
-  A class is attributed to the wrong PHP structure.
+  A class is attributed to the wrong PHP structure. A class may be an `attribute <https://www.php.net/attribute>`_, and it may also be configured to be used with different structures : classes, function, parameters, etc. When an `attribute <https://www.php.net/attribute>`_ has a configuration, it must be used with the correct structure.
 
 .. code-block:: php
    
@@ -41,7 +41,7 @@ _____
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Php/WrongAttributeConfiguration                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Analyze <ruleset-Analyze>`                                                              |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Analyze <ruleset-Analyze>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`          |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 2.2.0                                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

@@ -5,7 +5,7 @@
 Used Interfaces
 +++++++++++++++
 
-  Interfaces used in the code.
+  This rule lists all the interfaces used in the code. They are used with the ``implements`` keyword, the ``instanceof`` operator, and as types with parameters, class constants, properties and methods.
 
 .. code-block:: php
    

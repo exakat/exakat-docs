@@ -271,6 +271,9 @@
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Performances/CacheVariableOutsideLoop.html</loc>
  </url>
  <url>
+  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Vendors/Cakephp.html</loc>
+ </url>
+ <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Dump/CallOrder.html</loc>
  </url>
  <url>
@@ -713,9 +716,6 @@
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Constants/ConstantStrangeNames.html</loc>
- </url>
- <url>
-  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Constants/RelayConstant.html</loc>
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Classes/Constructor.html</loc>
@@ -1322,9 +1322,6 @@
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Files/Services.html</loc>
- </url>
- <url>
-  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Vendors/Ez.html</loc>
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/FailingSubstrComparison.html</loc>
@@ -2104,6 +2101,9 @@
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Files/MissingInclude.html</loc>
  </url>
  <url>
+  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Attributes/MissingOverrideMethod.html</loc>
+ </url>
+ <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/MissingParenthesis.html</loc>
  </url>
  <url>
@@ -2261,6 +2261,9 @@
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Arrays/NegativeStart.html</loc>
+ </url>
+ <url>
+  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Vendors/Neos.html</loc>
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Attributes/NestedAttributes.html</loc>
@@ -3097,7 +3100,13 @@
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Security/RegisterGlobals.html</loc>
  </url>
  <url>
+  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Constants/RelayConstant.html</loc>
+ </url>
+ <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Functions/RelayFunction.html</loc>
+ </url>
+ <url>
+  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Functions/RemoveParameterWithNamedOnes.html</loc>
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Interfaces/RepeatedInterface.html</loc>
@@ -4172,6 +4181,9 @@
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Classes/UselessNullSafeOperator.html</loc>
+ </url>
+ <url>
+  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Attributes/UselessOverride.html</loc>
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/UselessParenthesis.html</loc>

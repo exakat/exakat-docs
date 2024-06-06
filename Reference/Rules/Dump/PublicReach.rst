@@ -13,6 +13,24 @@ This class map is useful to prepare tests and improve coverage by targeting publ
 
 Note that conditions will apply (pun intended) : a link between two methods only means that one may call the other, given the right conditions.
 
+.. code-block:: php
+   
+   <?php
+   
+   class A {
+   	// This method be reached publicly, and it triggers a call to bar()
+   	public function foo() {
+   		$this->bar();
+   	}
+   	
+   	// This method cannot be reached publicly
+   	private function bar() {
+   		// doSomething()
+   	}
+   }
+   
+   ?>
+
 Specs
 _____
 

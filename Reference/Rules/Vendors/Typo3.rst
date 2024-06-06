@@ -5,9 +5,9 @@
 Typo 3 usage
 ++++++++++++
 
-  This analysis reports usage of the Typo 3 CMS.
+  This rule reports usage of the Typo 3 CMS API in the code. 
 
-The current supported version is 11.4
+TYPO3 is a free enterprise-class CMS based on PHP. It combines open source code with reliability and true scalability. 
 
 .. code-block:: php
    
@@ -33,7 +33,7 @@ _____
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Vendors/Typo3                                                                                                                                                                           |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Appinfo <ruleset-Appinfo>`, :ref:`CE <ruleset-CE>`                                                                                                      |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Appinfo <ruleset-Appinfo>`, :ref:`CE <ruleset-CE>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`                                                  |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 1.9.9                                                                                                                                                                                   |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

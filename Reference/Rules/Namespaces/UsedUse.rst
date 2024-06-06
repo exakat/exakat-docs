@@ -5,7 +5,7 @@
 Used Use
 ++++++++
 
-  List of use statements. Those use are made to import namespaces structures, not to include traits.
+  This rule lists the ``use`` statements. Those ``use`` are made to import namespaces structures, including functions and constants, and not to include traits in classes.
 
 .. code-block:: php
    

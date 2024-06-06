@@ -5,7 +5,7 @@
 Only Static Methods Class
 +++++++++++++++++++++++++
 
-  Marks a class that has only `static <https://www.php.net/manual/en/language.oop5.static.php>`_ methods.
+  This rule marks a class that only contains `static <https://www.php.net/manual/en/language.oop5.static.php>`_ methods. Such classes are tool classes, with definition of methods that can be called without an object. This is akin to functions, with autoloading possibilities.
 
 .. code-block:: php
    
@@ -25,7 +25,7 @@ _____
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Classes/OnlyStaticMethods                                                                                               |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`                                                                                                |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`                                            |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 0.8.4                                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

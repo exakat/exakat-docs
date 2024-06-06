@@ -5,7 +5,7 @@ Appinfo
 
 A set of rules that describes with PHP features is used in the code.
 
-Total : 388 analysis
+Total : 390 analysis
 
 * :ref:`array-index`
 * :ref:`multidimensional-arrays`
@@ -145,7 +145,7 @@ Total : 388 analysis
 * :ref:`ext-memcached`
 * :ref:`dynamic-function-call`
 * :ref:`has-variable-arguments`
-* :ref:`multiple-catch`
+* :ref:`multiple-catch-with-try`
 * :ref:`dynamically-called-classes`
 * :ref:`conditioned-function`
 * :ref:`conditioned-constants`
@@ -223,6 +223,7 @@ Total : 388 analysis
 * :ref:`ext-pecl\_http`
 * :ref:`uses-environment`
 * :ref:`redefined-methods`
+* :ref:`unknown-directive-name`
 * :ref:`is-cli-script`
 * :ref:`php-bugfixes`
 * :ref:`ext-tokyotyrant`
@@ -272,7 +273,6 @@ Total : 388 analysis
 * :ref:`laravel-usage`
 * :ref:`symfony-usage`
 * :ref:`wordpress-usage`
-* :ref:`ez-cms-usage`
 * :ref:`joomla-usage`
 * :ref:`non-breakable-space-in-names`
 * :ref:`multiple-functions-declarations`
@@ -395,6 +395,8 @@ Total : 388 analysis
 * :ref:`new-dynamic-class-constant-syntax`
 * :ref:`untyped-no-default-properties`
 * :ref:`file\_put\_contents-using-array-argument`
+* :ref:`neos`
+* :ref:`cakephp`
 
 Specs
 _____

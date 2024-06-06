@@ -20,6 +20,14 @@ Float Conversion As Index
 See also `Implicit incompatible float to int conversions <https://www.php.net/manual/en/migration81.deprecated.php#migration81.deprecated.core.implicit-float-conversion>`_.
 
 
+Suggestions
+___________
+
+* Use the cast operator (string) to convert the floats into strings. The reverse cast is most often possible.
+
+
+
+
 Specs
 _____
 

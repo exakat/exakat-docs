@@ -5,7 +5,10 @@
 Dynamic Calls
 +++++++++++++
 
-  List of dynamic calls. They will probably need to be reviewed manually.
+  This rule lists all dynamic calls. This is convenient when one has to review them manually.
+
+Only the dynamic call is listed : the sources are left in their context.
+
 
 .. code-block:: php
    
@@ -37,7 +40,7 @@ _____
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Structures/DynamicCalls                                                                                                                                                                 |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Appinfo <ruleset-Appinfo>`, :ref:`CE <ruleset-CE>`                                                                                                      |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Appinfo <ruleset-Appinfo>`, :ref:`CE <ruleset-CE>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`                                                  |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 0.8.4                                                                                                                                                                                   |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

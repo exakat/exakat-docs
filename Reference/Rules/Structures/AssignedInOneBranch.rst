@@ -5,7 +5,12 @@
 Assigned In One Branch
 ++++++++++++++++++++++
 
-  Report variables that are assigned in one branch, and not in the other.
+  This rule reports variables that are assigned in one branch, and not in the other.
+
+This situation means that, depending on the branch used, some variables may not always be available. Such inbalance may generate warnings. 
+
+This rule looks at if/then structures. 
+
 
 .. code-block:: php
    
@@ -37,7 +42,7 @@ _____
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Structures/AssignedInOneBranch                                                                                          |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`                                                                                                |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`                                            |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 1.0.5                                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

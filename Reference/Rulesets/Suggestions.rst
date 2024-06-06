@@ -123,7 +123,7 @@ Total : 128 analysis
 * :ref:`could-be-abstract-method`
 * :ref:`could-use-class-operator`
 * :ref:`could-use-namespace-magic-constant`
-* :ref:`json\_encode()-without-exceptions`
+* :ref:`json\_encode()-without-catching-exceptions`
 * :ref:`class-could-be-readonly`
 * :ref:`use-str\_ends\_with()`
 * :ref:`use-str\_starts\_with()`

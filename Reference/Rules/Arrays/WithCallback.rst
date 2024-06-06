@@ -5,7 +5,9 @@
 Handle Arrays With Callback
 +++++++++++++++++++++++++++
 
-  Use functions like `array_map() <https://www.php.net/array_map>`_.
+  This rule marks method and function calls that accepts array callbacks as argument. 
+
+It marks the method call, and not the argument.
 
 .. code-block:: php
    

@@ -5,7 +5,7 @@
 Wrong Type For Native PHP Function
 ++++++++++++++++++++++++++++++++++
 
-  This analysis reports calls to a PHP native function with a wrongly typed value.
+  This rule reports calls to a PHP native function with a wrongly typed value.
 
 .. code-block:: php
    
@@ -41,7 +41,7 @@ _____
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Php/WrongTypeForNativeFunction                                                                                                                                                          |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Analyze <ruleset-Analyze>`, :ref:`CE <ruleset-CE>`, :ref:`CI-checks <ruleset-CI-checks>`                                                                |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Analyze <ruleset-Analyze>`, :ref:`CE <ruleset-CE>`, :ref:`CI-checks <ruleset-CI-checks>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`            |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 2.1.5                                                                                                                                                                                   |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

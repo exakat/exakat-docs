@@ -8,7 +8,7 @@ _______
 
 The Phpcity report represents your code as a city. 
 
-Phpcity is a code visualisation tool : it displays the source code as a city, with districts and buildings. Ther will be high sky crappers, signaling large classes, entire districts of small blocks, large venues and isolated parks. Some imagination is welcome too. 
+Phpcity is a code visualisation tool : it displays the source code as a city, with districts and buildings. There are be high sky crappers, signaling large classes, entire districts of small blocks, large venues and isolated parks. Some imagination is welcome too. 
 
 The original idea is Richard Wettel's `Code city <https://wettel.github.io/codecity.html>`_, which has been adapted to many languages, including PHP. The PHP version is based on the open source `PHPcity project <https://github.com/adrianhuna/PHPCity>`_, which is itself build with `JScity <https://github.com/ASERG-UFMG/JSCity/wiki/JSCITY>`_. 
 
