@@ -24,6 +24,18 @@ It is possible to write code that lints, when the classes are in different files
    }
    
    ?>
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/cannot+override+final+constant.html>`_
+
+
+
+Connex PHP features
+-------------------
+
+  + `final <https://php-dictionary.readthedocs.io/en/latest/dictionary/final.ini.html>`_
+
 
 Suggestions
 ___________
@@ -49,8 +61,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                          |
 +--------------+--------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                     |
-+--------------+--------------------------------------------------------------------------------------------------------------------------+
-| Features     | final                                                                                                                    |
 +--------------+--------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_  |
 +--------------+--------------------------------------------------------------------------------------------------------------------------+

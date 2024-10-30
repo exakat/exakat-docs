@@ -22,6 +22,12 @@ This means that the default argument of `OPENSSL_CIPHER_RC2_40 <https://www.php.
        exec(ini_get("sendmail_path") . " < enc.txt");
    }
    ?>
+Connex PHP features
+-------------------
+
+  + `cryptography <https://php-dictionary.readthedocs.io/en/latest/dictionary/cryptography.ini.html>`_
+  + `openssl <https://php-dictionary.readthedocs.io/en/latest/dictionary/openssl.ini.html>`_
+
 
 Suggestions
 ___________
@@ -49,8 +55,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                                      |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Medium                                                                                                                               |
-+--------------+--------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | cryptography, openssl                                                                                                                |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_              |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------+

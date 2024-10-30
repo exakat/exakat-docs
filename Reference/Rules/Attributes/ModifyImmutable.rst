@@ -29,6 +29,11 @@ This `attribute <https://www.php.net/attribute>`_ is supported as a PHPdoc comme
 
 See also `phpstorm-stubs/meta/attributes/Immutable.php <https://github.com/JetBrains/phpstorm-stubs/blob/master/meta/attributes/Immutable.php>`_ and `PhpStorm 2020.3 EAP \#4: Custom PHP 8 Attributes  <https://blog.jetbrains.com/phpstorm/2020/10/phpstorm-2020-3-eap-4/>`_.
 
+Connex PHP features
+-------------------
+
+  + `attribute <https://php-dictionary.readthedocs.io/en/latest/dictionary/attribute.ini.html>`_
+
 
 Suggestions
 ___________
@@ -54,8 +59,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                                                        |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Medium                                                                                                                                                 |
-+--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | attribute                                                                                                                                              |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_                                |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+

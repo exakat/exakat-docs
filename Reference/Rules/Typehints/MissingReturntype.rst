@@ -31,6 +31,18 @@ The analysis reports a method when it finds other return types than the one expe
    }
    
    ?>
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Return+value+of+foo%28%29+must+be+of+the+type+int%2C+string+returned.html>`_
+
+
+
+Connex PHP features
+-------------------
+
+  + `return-typehint <https://php-dictionary.readthedocs.io/en/latest/dictionary/return-typehint.ini.html>`_
+
 
 Suggestions
 ___________
@@ -58,8 +70,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                                                                                         |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                                                                               |
-+--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | return-typehint                                                                                                                                                                         |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Community Edition <https://www.exakat.io/community-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

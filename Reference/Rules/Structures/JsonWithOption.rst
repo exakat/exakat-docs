@@ -28,6 +28,11 @@ Note that ``JSON_OBJECT_AS_ARRAY`` is the only constant : there is no defined co
 
 See also `json_decode <https://www.php.net/json_decode>`_.
 
+Connex PHP features
+-------------------
+
+  + `json <https://php-dictionary.readthedocs.io/en/latest/dictionary/json.ini.html>`_
+
 
 Suggestions
 ___________
@@ -54,8 +59,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | json                                                                                                                    |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

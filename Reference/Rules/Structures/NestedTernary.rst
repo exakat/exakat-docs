@@ -72,6 +72,11 @@ This is a separate analysis from PHP's preventing nested ternaries without paren
 
 See also `Nested Ternaries are Great <https://medium.com/javascript-scene/nested-ternaries-are-great-361bddd0f340>`_ and :ref:`Nested Ternary Without Parenthesis <nested-ternary-without-parenthesis>`.
 
+Connex PHP features
+-------------------
+
+  + `ternary <https://php-dictionary.readthedocs.io/en/latest/dictionary/ternary.ini.html>`_
+
 
 Suggestions
 ___________
@@ -99,8 +104,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                                                                                         |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                                                                               |
-+--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | ternary                                                                                                                                                                                 |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | ClearPHP     | `no-nested-ternary <https://github.com/dseguy/clearPHP/tree/master/rules/no-nested-ternary.md>`__                                                                                       |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

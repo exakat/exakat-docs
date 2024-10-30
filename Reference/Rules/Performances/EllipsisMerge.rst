@@ -22,6 +22,13 @@ This is a micro optimisation. The larger and numerous the arrays, the better the
    $all = array(...$array1, ...$array2);
    
    ?>
+Connex PHP features
+-------------------
+
+  + `merge <https://php-dictionary.readthedocs.io/en/latest/dictionary/merge.ini.html>`_
+  + `ellipsis <https://php-dictionary.readthedocs.io/en/latest/dictionary/ellipsis.ini.html>`_
+  + `micro-optimisation <https://php-dictionary.readthedocs.io/en/latest/dictionary/micro-optimisation.ini.html>`_
+
 
 Suggestions
 ___________
@@ -48,8 +55,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                          |
 +--------------+--------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                |
-+--------------+--------------------------------------------------------------------------------------------------------------------------+
-| Features     | merge, ellipsis, micro-optimisation                                                                                      |
 +--------------+--------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_  |
 +--------------+--------------------------------------------------------------------------------------------------------------------------+

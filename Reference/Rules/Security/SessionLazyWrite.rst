@@ -28,6 +28,11 @@ This was spotted by ``Nicolas Grekas``, and fixed in Symfony `[HttpFoundation] M
 
 See also `Sessions: Improve original RFC about lazy_write <https://wiki.php.net/rfc/session-read_only-lazy_write>`_ and `Sessions <https://www.php.net/manual/en/book.session.php>`_.
 
+Connex PHP features
+-------------------
+
+  + `session <https://php-dictionary.readthedocs.io/en/latest/dictionary/session.ini.html>`_
+
 
 Suggestions
 ___________
@@ -54,8 +59,6 @@ _____
 | Time To Fix  | Slow (1 hour)                                                                                                           |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                    |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | session                                                                                                                 |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

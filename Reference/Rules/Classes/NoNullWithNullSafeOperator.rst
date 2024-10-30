@@ -30,6 +30,11 @@ As such, it is recommended to avoid finishing with a method that returns null, i
    if ($result === null) { }
    
    ?>
+Connex PHP features
+-------------------
+
+  + `nullsafe-object-operator <https://php-dictionary.readthedocs.io/en/latest/dictionary/nullsafe-object-operator.ini.html>`_
+
 
 Suggestions
 ___________
@@ -57,8 +62,6 @@ _____
 | Time To Fix  | Slow (1 hour)                                                                                                                                              |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                                                       |
-+--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | nullsafe-object-operator                                                                                                                                   |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_                                    |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+

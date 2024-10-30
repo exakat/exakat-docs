@@ -33,6 +33,11 @@ The full list of available ciphers for the PHP installation is available with th
 
 See also openssl_encrypt() and `OpenSSL [PHP manual] <https://www.php.net/manual/en/book.openssl.php>`_.
 
+Connex PHP features
+-------------------
+
+  + `openssl <https://php-dictionary.readthedocs.io/en/latest/dictionary/openssl.ini.html>`_
+
 
 Specs
 _____
@@ -51,8 +56,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                    |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | openssl                                                                                                                 |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

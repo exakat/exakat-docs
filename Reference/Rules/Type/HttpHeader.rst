@@ -25,6 +25,12 @@ Those headers are mostly used with `header() <https://www.php.net/header>`_ func
 
 See also `List of HTTP header fields <https://en.wikipedia.org/wiki/List_of_HTTP_header_fields>`_.
 
+Connex PHP features
+-------------------
+
+  + `http <https://php-dictionary.readthedocs.io/en/latest/dictionary/http.ini.html>`_
+  + `http-header <https://php-dictionary.readthedocs.io/en/latest/dictionary/http-header.ini.html>`_
+
 
 Specs
 _____
@@ -43,8 +49,6 @@ _____
 | Time To Fix  |                                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | http, http-header                                                                                                       |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

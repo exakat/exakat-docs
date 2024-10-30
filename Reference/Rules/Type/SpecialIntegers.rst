@@ -19,6 +19,11 @@ The list includes powers of 2, duration in various units, factorial, ASCII codes
    $day = 1440;
    
    ?>
+Connex PHP features
+-------------------
+
+  + `integer <https://php-dictionary.readthedocs.io/en/latest/dictionary/integer.ini.html>`_
+
 
 Specs
 _____
@@ -37,8 +42,6 @@ _____
 | Time To Fix  |                                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | integer                                                                                                                 |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

@@ -19,6 +19,18 @@ This applies to `printf() <https://www.php.net/printf>`_, `sprintf() <https://ww
 
 See also `sprintf <https://www.php.net/manual/en/function.sprintf.php>`_.
 
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Unknown+format+specifier.html>`_
+
+
+
+Connex PHP features
+-------------------
+
+  + `sprintf <https://php-dictionary.readthedocs.io/en/latest/dictionary/sprintf.ini.html>`_
+
 
 Suggestions
 ___________
@@ -45,8 +57,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | sprintf                                                                                                                 |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

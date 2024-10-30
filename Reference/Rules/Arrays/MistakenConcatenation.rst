@@ -20,6 +20,12 @@ Mistaken Concatenation
    $array = array(1, 2, 3, 4, 5);
    
    ?>
+Connex PHP features
+-------------------
+
+  + `array <https://php-dictionary.readthedocs.io/en/latest/dictionary/array.ini.html>`_
+  + `concatenation <https://php-dictionary.readthedocs.io/en/latest/dictionary/concatenation.ini.html>`_
+
 
 Specs
 _____
@@ -38,8 +44,6 @@ _____
 | Time To Fix  | Instant (5 mins)                                                                                                        |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | array, concatenation                                                                                                    |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

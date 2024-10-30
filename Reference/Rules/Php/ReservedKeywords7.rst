@@ -20,6 +20,11 @@ For example, string, float, false, true, null, resource,`... <https://www.php.ne
 
 See also `List of other reserved words <https://www.php.net/manual/en/reserved.other-reserved-words.php>`_.
 
+Connex PHP features
+-------------------
+
+  + `class <https://php-dictionary.readthedocs.io/en/latest/dictionary/class.ini.html>`_
+
 
 Suggestions
 ___________
@@ -48,8 +53,6 @@ _____
 | Changed Behavior | PHP 7.0 - `More <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/.html>`__                                           |
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------+
 | Precision        | Very high                                                                                                                            |
-+------------------+--------------------------------------------------------------------------------------------------------------------------------------+
-| Features         | class                                                                                                                                |
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------+
 | Available in     | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_              |
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------+

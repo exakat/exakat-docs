@@ -24,6 +24,19 @@ Cannot Call Static Trait Method Directly
 
 See also `Calling a static element on a trait  <https://www.php.net/manual/en/migration81.deprecated.php#migration81.deprecated.core.static-trait>`_.
 
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Calling+static+trait+method+t%3A%3At+is+deprecated%2C+it+should+only+be+called+on+a+class+using+the+trait.html>`_
+
+
+
+Connex PHP features
+-------------------
+
+  + `trait <https://php-dictionary.readthedocs.io/en/latest/dictionary/trait.ini.html>`_
+  + `static-method <https://php-dictionary.readthedocs.io/en/latest/dictionary/static-method.ini.html>`_
+
 
 Suggestions
 ___________
@@ -50,8 +63,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                                                                                                                                |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                                                                                                                           |
-+--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | trait, static-method                                                                                                                                                                                                           |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_                                                                                                        |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

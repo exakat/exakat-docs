@@ -40,6 +40,12 @@ The best practise is to check the incoming value before attempting the division.
 
 See also `DivisionByZeroError <https://www.php.net/manual/fr/class.divisionbyzeroerror.php>`_.
 
+Connex PHP features
+-------------------
+
+  + `exception <https://php-dictionary.readthedocs.io/en/latest/dictionary/exception.ini.html>`_
+  + `arithmeticerror <https://php-dictionary.readthedocs.io/en/latest/dictionary/arithmeticerror.ini.html>`_
+
 
 Specs
 _____
@@ -58,8 +64,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                    |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | exception, arithmeticerror                                                                                              |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Related rule | :ref:`could-use-try`                                                                                                    |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

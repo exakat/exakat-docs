@@ -19,6 +19,14 @@ Named Argument And Variadic
      // Normal way
      foo( 1, ...$a);
    ?>
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Cannot+combine+named+arguments+and+argument+unpacking.html>`_
+  + `1 <https://php-errors.readthedocs.io/en/latest/messages/Cannot+use+positional+argument+after+argument+unpacking.html>`_
+
+
+
 
 Suggestions
 ___________

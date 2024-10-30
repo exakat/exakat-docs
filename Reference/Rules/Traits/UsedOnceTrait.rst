@@ -28,6 +28,12 @@ Used Once Trait
 +----------+---------+---------+----------------------------------------------------------------------------+
 
 
+Connex PHP features
+-------------------
+
+  + `code-reuse <https://php-dictionary.readthedocs.io/en/latest/dictionary/code-reuse.ini.html>`_
+  + `overenginereed <https://php-dictionary.readthedocs.io/en/latest/dictionary/overenginereed.ini.html>`_
+
 
 Suggestions
 ___________
@@ -55,8 +61,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                    |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | code-reuse, overenginereed                                                                                              |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

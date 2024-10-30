@@ -17,6 +17,12 @@ This only works when `compact() <https://www.php.net/compact>`_ is used with lit
        return compact('a');
    }
    ?>
+Connex PHP features
+-------------------
+
+  + `compact <https://php-dictionary.readthedocs.io/en/latest/dictionary/compact.ini.html>`_
+  + `dynamic-variable <https://php-dictionary.readthedocs.io/en/latest/dictionary/dynamic-variable.ini.html>`_
+
 
 Specs
 _____
@@ -35,8 +41,6 @@ _____
 | Time To Fix  |                                                                                                                                                                                         |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                                                                               |
-+--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | compact, dynamic-variable                                                                                                                                                               |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Community Edition <https://www.exakat.io/community-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

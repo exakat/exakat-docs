@@ -36,6 +36,11 @@ There is no need to store the expression in a variable before testing, unless it
 
 See also `empty() <https://www.php.net/empty>`_ and `empty() supports arbitrary expressions <https://www.php.net/manual/en/migration55.new-features.php#migration55.new-features.empty>`_.
 
+Connex PHP features
+-------------------
+
+  + `empty <https://php-dictionary.readthedocs.io/en/latest/dictionary/empty.ini.html>`_
+
 
 Suggestions
 ___________
@@ -62,8 +67,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                    |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | empty                                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

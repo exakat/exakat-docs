@@ -29,6 +29,18 @@ Array With String Initialization
 
 See also `PHP 7.1 no longer converts string to arrays the first time a value is assigned with square bracket notation <https://www.drupal.org/project/adaptivetheme/issues/2832900>`_.
 
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Cannot+use+a+scalar+value+as+an+array.html>`_
+
+
+
+Connex PHP features
+-------------------
+
+  + `initialisation <https://php-dictionary.readthedocs.io/en/latest/dictionary/initialisation.ini.html>`_
+
 
 Suggestions
 ___________

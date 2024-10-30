@@ -28,6 +28,22 @@ The only valid operator is `+`, combined with arrays in both operands. Other sit
 
 See also `Stricter type checks for arithmetic/bitwise operators <https://wiki.php.net/rfc/arithmetic_operator_type_checks>`_ and `TypeError <https://www.php.net/manual/en/class.typeerror.php>`_.
 
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Unsupported+operand+types.html>`_
+  + `1 <https://php-errors.readthedocs.io/en/latest/messages/Cannot+perform+bitwise+not+on+array.html>`_
+  + `2 <https://php-errors.readthedocs.io/en/latest/messages/Cannot+perform+bitwise+not+on+bool.html>`_
+  + `3 <https://php-errors.readthedocs.io/en/latest/messages/Cannot+perform+bitwise+not+on+resource.html>`_
+  + `4 <https://php-errors.readthedocs.io/en/latest/messages/Cannot+perform+bitwise+not+on+object.html>`_
+
+
+
+Connex PHP features
+-------------------
+
+  + `operator <https://php-dictionary.readthedocs.io/en/latest/dictionary/operator.ini.html>`_
+
 
 Suggestions
 ___________
@@ -49,15 +65,13 @@ _____
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 2.1.9                                                                                                                                                                                          |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| PHP Version  | All                                                                                                                                                                                            |
+| PHP Version  | With PHP 8.0 and older                                                                                                                                                                         |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Severity     | Minor                                                                                                                                                                                          |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Time To Fix  | Quick (30 mins)                                                                                                                                                                                |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Medium                                                                                                                                                                                         |
-+--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | operator                                                                                                                                                                                       |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Community Edition <https://www.exakat.io/community-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_        |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

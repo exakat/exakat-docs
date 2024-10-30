@@ -25,6 +25,12 @@ While this is not explicitely enforced, using such names may create future confl
 
 See also `Magic methods <https://www.php.net/manual/en/language.oop5.magic.php>`_.
 
+Connex PHP features
+-------------------
+
+  + `naming <https://php-dictionary.readthedocs.io/en/latest/dictionary/naming.ini.html>`_
+  + `magic-method <https://php-dictionary.readthedocs.io/en/latest/dictionary/magic-method.ini.html>`_
+
 
 Suggestions
 ___________
@@ -51,8 +57,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                                        |
 +--------------+----------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                              |
-+--------------+----------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | naming, magic-method                                                                                                                   |
 +--------------+----------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_                |
 +--------------+----------------------------------------------------------------------------------------------------------------------------------------+

@@ -33,6 +33,12 @@ Incrementing variables, with math operations or concatenation, is OK : the conte
    }
    
    ?>
+Connex PHP features
+-------------------
+
+  + `variable <https://php-dictionary.readthedocs.io/en/latest/dictionary/variable.ini.html>`_
+  + `type <https://php-dictionary.readthedocs.io/en/latest/dictionary/type.ini.html>`_
+
 
 Suggestions
 ___________
@@ -61,8 +67,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                    |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | variable, type                                                                                                          |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Examples     | :ref:`case-typo3-structures-multipletypevariable`, :ref:`case-vanilla-structures-multipletypevariable`                  |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

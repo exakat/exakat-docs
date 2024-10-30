@@ -24,6 +24,13 @@ Using `basename() <https://www.php.net/basename>`_ instead of `substr() <https:/
 
 See also `basename <http://www.php.net/basename>`_.
 
+Connex PHP features
+-------------------
+
+  + `basename <https://php-dictionary.readthedocs.io/en/latest/dictionary/basename.ini.html>`_
+  + `file-extension <https://php-dictionary.readthedocs.io/en/latest/dictionary/file-extension.ini.html>`_
+  + `dirname <https://php-dictionary.readthedocs.io/en/latest/dictionary/dirname.ini.html>`_
+
 
 Suggestions
 ___________
@@ -50,8 +57,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                    |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | basename, file-extension, dirname                                                                                       |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Examples     | :ref:`case-nextcloud-structures-basenamesuffix`, :ref:`case-dolibarr-structures-basenamesuffix`                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

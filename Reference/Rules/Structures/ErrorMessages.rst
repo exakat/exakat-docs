@@ -20,6 +20,13 @@ It is a good exercise to read the messages out of context, and try to understand
    throw new Exception('Exception thrown at runtime');
    
    ?>
+Connex PHP features
+-------------------
+
+  + `error <https://php-dictionary.readthedocs.io/en/latest/dictionary/error.ini.html>`_
+  + `die <https://php-dictionary.readthedocs.io/en/latest/dictionary/die.ini.html>`_
+  + `exception <https://php-dictionary.readthedocs.io/en/latest/dictionary/exception.ini.html>`_
+
 
 Specs
 _____
@@ -38,8 +45,6 @@ _____
 | Time To Fix  |                                                                                                                                                                                         |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                                                                               |
-+--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | error, die, exception                                                                                                                                                                   |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Community Edition <https://www.exakat.io/community-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

@@ -19,6 +19,11 @@ Also, the namespace will be absolute, and not a relative namespace of the curren
    define('a\b\c', 1); 
    
    ?>
+Connex PHP features
+-------------------
+
+  + `namespace <https://php-dictionary.readthedocs.io/en/latest/dictionary/namespace.ini.html>`_
+
 
 Suggestions
 ___________
@@ -45,8 +50,6 @@ _____
 | Time To Fix  | Slow (1 hour)                                                                                                           |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | namespace                                                                                                               |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

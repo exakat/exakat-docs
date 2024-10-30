@@ -22,6 +22,11 @@ Arrow functions were introduced in PHP 7.4. They added the reserved keyword ``fn
 
 See also `RFC : Arrow functions <https://wiki.php.net/rfc/arrow_functions>`_ and `Arrow functions in PHP <https://stitcher.io/blog/short-closures-in-php>`_.
 
+Connex PHP features
+-------------------
+
+  + `arrow-function <https://php-dictionary.readthedocs.io/en/latest/dictionary/arrow-function.ini.html>`_
+
 
 Specs
 _____
@@ -40,8 +45,6 @@ _____
 | Time To Fix  |                                                                                                                                                                                         |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                                                                               |
-+--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | arrow-function                                                                                                                                                                          |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Community Edition <https://www.exakat.io/community-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

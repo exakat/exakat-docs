@@ -46,6 +46,12 @@ This analysis may report classes which do not explicitly implements any interfac
    // true
    
    ?>
+Connex PHP features
+-------------------
+
+  + `implements <https://php-dictionary.readthedocs.io/en/latest/dictionary/implements.ini.html>`_
+  + `inheritance <https://php-dictionary.readthedocs.io/en/latest/dictionary/inheritance.ini.html>`_
+
 
 Suggestions
 ___________
@@ -72,8 +78,6 @@ _____
 | Time To Fix  | Instant (5 mins)                                                                                                                                         |
 +--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                                                |
-+--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | implements, inheritance                                                                                                                                  |
 +--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Examples     | :ref:`case-wordpress-interfaces-alreadyparentsinterface`, :ref:`case-thelia-interfaces-alreadyparentsinterface`                                          |
 +--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------+

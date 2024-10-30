@@ -29,6 +29,19 @@ Either this is not a `static <https://www.php.net/manual/en/language.oop5.static
 
 See also `Static Keyword <https://www.php.net/manual/en/language.oop5.static.php>``Static Keyword <https://www.php.net/manual/en/language.oop5.static.php>`_.
 
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Using+%24this+when+not+in+object+context.html>`_
+
+
+
+Connex PHP features
+-------------------
+
+  + `$this <https://php-dictionary.readthedocs.io/en/latest/dictionary/%24this.ini.html>`_
+  + `static <https://php-dictionary.readthedocs.io/en/latest/dictionary/static.ini.html>`_
+
 
 Suggestions
 ___________
@@ -56,8 +69,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                                                                                         |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                                                                               |
-+--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | $this, static                                                                                                                                                                           |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | ClearPHP     | `no-static-this <https://github.com/dseguy/clearPHP/tree/master/rules/no-static-this.md>`__                                                                                             |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

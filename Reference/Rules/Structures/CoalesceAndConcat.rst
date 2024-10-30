@@ -24,6 +24,14 @@ It is recommended to add parenthesis to make this expression explicit.
    echo $b ?? 'd' . 'e';
    
    ?>
+Connex PHP features
+-------------------
+
+  + `coalesce <https://php-dictionary.readthedocs.io/en/latest/dictionary/coalesce.ini.html>`_
+  + `concat <https://php-dictionary.readthedocs.io/en/latest/dictionary/concat.ini.html>`_
+  + `precedence <https://php-dictionary.readthedocs.io/en/latest/dictionary/precedence.ini.html>`_
+  + `parenthesis <https://php-dictionary.readthedocs.io/en/latest/dictionary/parenthesis.ini.html>`_
+
 
 Suggestions
 ___________
@@ -52,8 +60,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                                                                                         |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                                                                               |
-+--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | coalesce, concat, precedence, parenthesis                                                                                                                                               |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Community Edition <https://www.exakat.io/community-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

@@ -57,6 +57,11 @@ Internally to the application, destructors are also useful with `static <https:/
 
 See also `Destructor <https://www.php.net/manual/en/language.oop5.decon.php#language.oop5.decon.destructor>`_ and `Php Destructors <https://stackoverflow.com/questions/3566155/php-destructors>`_.
 
+Connex PHP features
+-------------------
+
+  + `destructor <https://php-dictionary.readthedocs.io/en/latest/dictionary/destructor.ini.html>`_
+
 
 Suggestions
 ___________
@@ -83,8 +88,6 @@ _____
 | Time To Fix  | Slow (1 hour)                                                                                                           |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | destructor                                                                                                              |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

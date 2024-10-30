@@ -39,6 +39,11 @@ This analysis spots situations where an incoming value is compared to an integer
 
 See also `Type Juggling Authentication Bypass Vulnerability in CMS Made Simple <https://www.netsparker.com/blog/web-security/type-juggling-authentication-bypass-cms-made-simple/>`_, `PHP STRING COMPARISON VULNERABILITIES <https://hydrasky.com/network-security/php-string-comparison-vulnerabilities/>`_ and `PHP Magic Tricks: Type Juggling <https://www.owasp.org/images/6/6b/PHPMagicTricks-TypeJuggling.pdf>`_.
 
+Connex PHP features
+-------------------
+
+  + `validation <https://php-dictionary.readthedocs.io/en/latest/dictionary/validation.ini.html>`_
+
 
 Suggestions
 ___________
@@ -66,8 +71,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                    |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | validation                                                                                                              |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

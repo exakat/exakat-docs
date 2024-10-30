@@ -35,6 +35,18 @@ Since PHP 7.3, a fatal `error <https://www.php.net/error>`_ is emitted : ``Defin
 
 See also `assert <https://www.php.net/assert>`_ and `User-defined assert function is optimized away with zend.assertions=-1 <https://bugs.php.net/bug.php?id=75445>`_.
 
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Defining+a+custom+assert%28%29+function+is+deprecated%2C+as+the+function+has+special+semantics.html>`_
+
+
+
+Connex PHP features
+-------------------
+
+  + `assertion <https://php-dictionary.readthedocs.io/en/latest/dictionary/assertion.ini.html>`_
+
 
 Suggestions
 ___________
@@ -63,8 +75,6 @@ _____
 | Changed Behavior | PHP 7.2 - `More <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/.html>`__                                                                                                                     |
 +------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision        | Very high                                                                                                                                                                                                      |
-+------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features         | assertion                                                                                                                                                                                                      |
 +------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in     | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_                                                                                        |
 +------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

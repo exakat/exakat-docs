@@ -29,6 +29,12 @@ Hash Will Use Objects
 
 See also `Move ext/hash from resources to objects <https://www.php.net/manual/en/migration72.incompatible.php#migration72.incompatible.hash-ext-to-objects>`_.
 
+Connex PHP features
+-------------------
+
+  + `hash <https://php-dictionary.readthedocs.io/en/latest/dictionary/hash.ini.html>`_
+  + `object <https://php-dictionary.readthedocs.io/en/latest/dictionary/object.ini.html>`_
+
 
 Specs
 _____
@@ -47,8 +53,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                                      |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                            |
-+--------------+--------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | hash, object                                                                                                                         |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_              |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------+

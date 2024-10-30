@@ -27,6 +27,12 @@ This rule may lead to the usage of the ``Override`` `attribute <https://www.php.
    }
    
    ?>
+Connex PHP features
+-------------------
+
+  + `inheritance <https://php-dictionary.readthedocs.io/en/latest/dictionary/inheritance.ini.html>`_
+  + `override <https://php-dictionary.readthedocs.io/en/latest/dictionary/override.ini.html>`_
+
 
 Specs
 _____
@@ -45,8 +51,6 @@ _____
 | Time To Fix  |                                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | inheritance, override                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

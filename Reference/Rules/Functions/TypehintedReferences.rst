@@ -36,6 +36,19 @@ This applies to the ``object`` type hint, but not the the others, such as ``int`
 
 See also `Passing by reference <https://www.php.net/manual/en/language.references.pass.php>`_ and `Objects and references <https://www.php.net/manual/en/language.oop5.references.php>`_.
 
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Only+variables+should+be+passed+by+reference.html>`_
+  + `1 <https://php-errors.readthedocs.io/en/latest/messages/Argument+cannot+be+passed+by+reference.html>`_
+
+
+
+Connex PHP features
+-------------------
+
+  + `reference <https://php-dictionary.readthedocs.io/en/latest/dictionary/reference.ini.html>`_
+
 
 Suggestions
 ___________
@@ -62,8 +75,6 @@ _____
 | Time To Fix  | Instant (5 mins)                                                                                                                                                                        |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                                                                                    |
-+--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | reference                                                                                                                                                                               |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Community Edition <https://www.exakat.io/community-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

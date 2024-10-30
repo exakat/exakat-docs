@@ -40,6 +40,11 @@ Too Many Finds
 
 See also `On Taming Repository Classes in Doctrine <https://beberlei.de/2013/03/04/doctrine_repositories.html>`_ and `specifications <https://slides.pixelart.at/2017-02-04/fosdem/specifications/#/>`_.
 
+Connex PHP features
+-------------------
+
+  + `class <https://php-dictionary.readthedocs.io/en/latest/dictionary/class.ini.html>`_
+
 
 Suggestions
 ___________
@@ -67,8 +72,6 @@ _____
 | Time To Fix  | Slow (1 hour)                                                                                                           |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | class                                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

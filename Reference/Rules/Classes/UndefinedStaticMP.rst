@@ -28,6 +28,19 @@ Undefined static\:\: Or self\:\:
 
 See also `Late Static Bindings <https://www.php.net/manual/en/language.oop5.late-static-bindings.php>`_.
 
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Access+to+undeclared+static+property%3A+x%3A%3A%24y.html>`_
+  + `1 <https://php-errors.readthedocs.io/en/latest/messages/Call+to+undefined+method+x%3A%3Ay%28%29.html>`_
+
+
+
+Connex PHP features
+-------------------
+
+  + `static <https://php-dictionary.readthedocs.io/en/latest/dictionary/static.ini.html>`_
+
 
 Suggestions
 ___________
@@ -57,8 +70,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | static                                                                                                                  |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Examples     | :ref:`case-xataface-classes-undefinedstaticmp`, :ref:`case-sugarcrm-classes-undefinedstaticmp`                          |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

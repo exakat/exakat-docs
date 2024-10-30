@@ -28,6 +28,14 @@ Depending on the situation, the null-ternary and the coalesce operator may also 
 
 See also PHP Shorthand If/Else Using Ternary Operators (?:) `<https://davidwalsh.name/php-shorthand-if-else-ternary-operators>`_ and Shorthand comparisons in PHP `<https://stitcher.io/blog/shorthand-comparisons-in-php>`_.
 
+Connex PHP features
+-------------------
+
+  + `ternary <https://php-dictionary.readthedocs.io/en/latest/dictionary/ternary.ini.html>`_
+  + `coalesce <https://php-dictionary.readthedocs.io/en/latest/dictionary/coalesce.ini.html>`_
+  + `null-ternary <https://php-dictionary.readthedocs.io/en/latest/dictionary/null-ternary.ini.html>`_
+  + `short-assignation <https://php-dictionary.readthedocs.io/en/latest/dictionary/short-assignation.ini.html>`_
+
 
 Suggestions
 ___________
@@ -54,8 +62,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                    |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | ternary, coalesce, null-ternary, short-assignation                                                                      |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

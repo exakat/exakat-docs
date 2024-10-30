@@ -28,6 +28,12 @@ Such argument is optional, as it may be omitted. When this is the case, the code
        }
    }
    ?>
+Connex PHP features
+-------------------
+
+  + `parameter <https://php-dictionary.readthedocs.io/en/latest/dictionary/parameter.ini.html>`_
+  + `optional-parameter <https://php-dictionary.readthedocs.io/en/latest/dictionary/optional-parameter.ini.html>`_
+
 
 Specs
 _____
@@ -46,8 +52,6 @@ _____
 | Time To Fix  |                                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | parameter, optional-parameter                                                                                           |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

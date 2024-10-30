@@ -30,6 +30,19 @@ In PHP 8.2, undefined properties are reported as deprecated. They will become a 
 
 See also `Properties <https://www.php.net/manual/en/language.oop5.properties.php>`_.
 
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Undefined+property%3A+x%3A%3A%24e.html>`_
+  + `1 <https://php-errors.readthedocs.io/en/latest/messages/Property+%25s%3A%3A%24%25s+does+not+exist.html>`_
+
+
+
+Connex PHP features
+-------------------
+
+  + `property <https://php-dictionary.readthedocs.io/en/latest/dictionary/property.ini.html>`_
+
 
 Suggestions
 ___________
@@ -59,8 +72,6 @@ _____
 | Changed Behavior | PHP 8.2 - `More <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/.html>`__                                                                                                                                           |
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision        | Very high                                                                                                                                                                                                                            |
-+------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features         | property                                                                                                                                                                                                                             |
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | ClearPHP         | `no-undefined-properties <https://github.com/dseguy/clearPHP/tree/master/rules/no-undefined-properties.md>`__                                                                                                                        |
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

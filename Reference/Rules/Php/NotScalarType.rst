@@ -26,6 +26,18 @@ Thanks to ``Benoit Viguier`` for the `original idea <https://twitter.com/b_vigui
 
 See also `Type declarations <https://www.php.net/manual/en/functions.arguments.php#functions.arguments.type-declaration>`_ and `PHP RFC: Scalar Type Hints <https://wiki.php.net/rfc/scalar_type_hints>`_.
 
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/%22boolean%22+will+be+interpreted+as+a+class+name.+Did+you+mean+%22bool%22%3F+.html>`_
+
+
+
+Connex PHP features
+-------------------
+
+  + `scalar-typehint <https://php-dictionary.readthedocs.io/en/latest/dictionary/scalar-typehint.ini.html>`_
+
 
 Suggestions
 ___________
@@ -52,8 +64,6 @@ _____
 | Time To Fix  | Instant (5 mins)                                                                                                                                                               |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                                                                      |
-+--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | scalar-typehint                                                                                                                                                                |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_                                                        |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

@@ -23,6 +23,13 @@ In this analysis, elseif() and branches that return or goto somewhere else are o
    
    // $b might be missing
    ?>
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Undefined+variable+%24a.html>`_
+
+
+
 
 Specs
 _____

@@ -42,6 +42,11 @@ The new classes are :
 
 See also `New Classes and Interfaces <https://www.php.net/manual/en/migration83.classes.php>`_.
 
+Connex PHP features
+-------------------
+
+  + `class <https://php-dictionary.readthedocs.io/en/latest/dictionary/class.ini.html>`_
+
 
 Suggestions
 ___________
@@ -69,8 +74,6 @@ _____
 | Time To Fix  | Slow (1 hour)                                                                                                                        |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                            |
-+--------------+--------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | class                                                                                                                                |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_              |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------+

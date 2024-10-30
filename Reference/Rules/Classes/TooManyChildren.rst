@@ -51,6 +51,12 @@ The analysis doesn't work recursively : only direct generations are counted. Onl
 
 See also `Why is subclassing too much bad (and hence why should we use prototypes to do away with it)? <https://softwareengineering.stackexchange.com/questions/137687/why-is-subclassing-too-much-bad-and-hence-why-should-we-use-prototypes-to-do-aw>`_.
 
+Connex PHP features
+-------------------
+
+  + `class <https://php-dictionary.readthedocs.io/en/latest/dictionary/class.ini.html>`_
+  + `inheritance <https://php-dictionary.readthedocs.io/en/latest/dictionary/inheritance.ini.html>`_
+
 
 Suggestions
 ___________
@@ -77,8 +83,6 @@ _____
 | Time To Fix  | Slow (1 hour)                                                                                                           |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | class, inheritance                                                                                                      |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Examples     | :ref:`case-typo3-classes-toomanychildren`, :ref:`case-woocommerce-classes-toomanychildren`                              |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

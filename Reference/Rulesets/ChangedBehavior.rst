@@ -1199,7 +1199,7 @@ Total : 1442 analysis
 * :ref:`named-parameter-usage`
 * :ref:`first-class-callable`
 * :ref:`never-keyword`
-* :ref:`mixed-keyword`
+* :ref:`the-mixed-keyword`
 * :ref:`mixed-typehint-usage`
 * :ref:`false-to-array-conversion`
 * :ref:`float-conversion-as-index`

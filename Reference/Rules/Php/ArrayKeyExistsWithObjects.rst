@@ -25,6 +25,19 @@ array_key_exists() Works On Arrays
 
 See also `array_key_exists() with objects <https://wiki.php.net/rfc/deprecations_php_7_4#array_key_exists_with_objects>`_ and `array_key_exists <https://php.net/array-key-exists>`_.
 
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Using+array_key_exists%28%29+on+objects+is+deprecated.+Use+isset%28%29+or+property_exists%28%29+instead.html>`_
+
+
+
+Connex PHP features
+-------------------
+
+  + `index <https://php-dictionary.readthedocs.io/en/latest/dictionary/index.ini.html>`_
+  + `array <https://php-dictionary.readthedocs.io/en/latest/dictionary/array.ini.html>`_
+
 
 Suggestions
 ___________
@@ -52,8 +65,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                                                                                                |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                                                                                           |
-+--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | index, array                                                                                                                                                                                   |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Community Edition <https://www.exakat.io/community-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_        |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

@@ -16,6 +16,12 @@ Those functions could also be marked as deprecated, with an `attribute <https://
        throw new exception('Don\'t use obsoleteFoo() but rather the new version of foo().');
    }
    ?>
+Connex PHP features
+-------------------
+
+  + `function <https://php-dictionary.readthedocs.io/en/latest/dictionary/function.ini.html>`_
+  + `deprecated <https://php-dictionary.readthedocs.io/en/latest/dictionary/deprecated.ini.html>`_
+
 
 Specs
 _____
@@ -34,8 +40,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                                                                                         |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                                                                               |
-+--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | function, deprecated                                                                                                                                                                    |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Community Edition <https://www.exakat.io/community-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

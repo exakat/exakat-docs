@@ -32,6 +32,18 @@ Missing Abstract Method
 
 See also `Classes Abstraction <https://www.php.net/abstract>`_.
 
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Class+c+contains+1+abstract+method+and+must+therefore+be+declared+abstract+or+implement+the+remaining+methods+%28a%3A%3Afoo%29.html>`_
+
+
+
+Connex PHP features
+-------------------
+
+  + `abstract <https://php-dictionary.readthedocs.io/en/latest/dictionary/abstract.ini.html>`_
+
 
 Suggestions
 ___________
@@ -60,8 +72,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | abstract                                                                                                                |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

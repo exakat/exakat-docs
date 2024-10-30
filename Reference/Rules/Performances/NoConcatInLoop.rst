@@ -30,6 +30,11 @@ The same doesn't apply to addition and multiplication, with `array_sum() <https:
 
 See also `PHP 7 performance improvements (3/5): Encapsed strings optimization <https://blog.blackfire.io/php-7-performance-improvements-encapsed-strings-optimization.html>`_.
 
+Connex PHP features
+-------------------
+
+  + `loop <https://php-dictionary.readthedocs.io/en/latest/dictionary/loop.ini.html>`_
+
 
 Suggestions
 ___________
@@ -56,8 +61,6 @@ _____
 | Time To Fix  | Slow (1 hour)                                                                                                                                          |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                                              |
-+--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | loop                                                                                                                                                   |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Examples     | :ref:`case-suitecrm-performances-noconcatinloop`, :ref:`case-thinkphp-performances-noconcatinloop`                                                     |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+

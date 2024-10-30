@@ -33,6 +33,11 @@ XHProf is a light-weight hierarchical and instrumentation based profiler.
 
 See also `XHprof Documentation <http://web.archive.org/web/20110514095512/http://mirror.facebook.net/facebook/xhprof/doc.html>`_ and `ext/apcu <https://pecl.php.net/package/xhprof>`_.
 
+Connex PHP features
+-------------------
+
+  + `profiler <https://php-dictionary.readthedocs.io/en/latest/dictionary/profiler.ini.html>`_
+
 
 Specs
 _____
@@ -51,8 +56,6 @@ _____
 | Time To Fix  |                                                                                                                                                                                         |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                                                                               |
-+--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | profiler                                                                                                                                                                                |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Community Edition <https://www.exakat.io/community-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

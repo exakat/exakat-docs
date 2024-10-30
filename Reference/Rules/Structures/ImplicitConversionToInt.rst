@@ -38,6 +38,18 @@ This features is applied to PHP 8.1 and later, yet it is also applicable to olde
 
 See also `PHP RFC: Deprecate implicit non-integer-compatible float to int conversions <https://wiki.php.net/rfc/implicit-float-int-deprecate>`_.
 
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Implicit+conversion+from+float+1.2+to+int+loses+precision.html>`_
+
+
+
+Connex PHP features
+-------------------
+
+  + `type-juggling <https://php-dictionary.readthedocs.io/en/latest/dictionary/type-juggling.ini.html>`_
+
 
 Suggestions
 ___________
@@ -64,8 +76,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                    |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | type-juggling                                                                                                           |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Note         | This issue may lint but will not run                                                                                    |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

@@ -23,6 +23,11 @@ This method will handle situations like daylight savings, leap seconds and even 
 
 See also `DateTime::modify <https://www.php.net/manual/fr/datetimeimmutable.modify.php>`_ and `datetime <https://www.php.net/manual/fr/intro.datetime.php>`_.
 
+Connex PHP features
+-------------------
+
+  + `date <https://php-dictionary.readthedocs.io/en/latest/dictionary/date.ini.html>`_
+
 
 Specs
 _____
@@ -41,8 +46,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                    |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | date                                                                                                                    |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

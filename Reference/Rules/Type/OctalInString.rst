@@ -27,6 +27,13 @@ The check is applied to the string, starting with PHP 7.1. In PHP 7.0 and older,
 
 See also `Integers <https://www.php.net/manual/en/language.types.integer.php>`_.
 
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Octal+escape+sequence+overflow+%5C500+is+greater+than+%5C377.html>`_
+
+
+
 
 Suggestions
 ___________

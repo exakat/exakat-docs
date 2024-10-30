@@ -27,6 +27,11 @@ It is recommended to use the other configuration options : ``ENT_COMPAT``, ``ENT
 
 See also `htmlspecialchars <https://www.php.net/htmlspecialchars>`_ and `Deletion of Code Points <http://unicode.org/reports/tr36/#Deletion_of_Noncharacters>`_.
 
+Connex PHP features
+-------------------
+
+  + `html-escape <https://php-dictionary.readthedocs.io/en/latest/dictionary/html-escape.ini.html>`_
+
 
 Suggestions
 ___________
@@ -53,8 +58,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | html-escape                                                                                                             |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

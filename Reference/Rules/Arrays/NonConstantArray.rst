@@ -38,6 +38,18 @@ Note that PHP 7.2 removes the support for this feature.
 
 See also `PHP RFC: Deprecate and Remove Bareword (Unquoted) Strings <https://wiki.php.net/rfc/deprecate-bareword-strings>`_ and `Syntax <https://www.php.net/manual/en/language.constants.syntax.php>`_.
 
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Uncaught+Error%3A+Undefined+constant.html>`_
+
+
+
+Connex PHP features
+-------------------
+
+  + `array <https://php-dictionary.readthedocs.io/en/latest/dictionary/array.ini.html>`_
+
 
 Suggestions
 ___________
@@ -65,8 +77,6 @@ _____
 | Time To Fix  | Instant (5 mins)                                                                                                        |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                    |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | array                                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Examples     | :ref:`case-dolibarr-arrays-nonconstantarray`, :ref:`case-zencart-arrays-nonconstantarray`                               |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

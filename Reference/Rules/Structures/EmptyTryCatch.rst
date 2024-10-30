@@ -27,6 +27,11 @@ At worst, the `error <https://www.php.net/error>`_ should be logged, so as to me
 
 See also `Empty Catch Clause <http://wiki.c2.com/?EmptyCatchClause>`_.
 
+Connex PHP features
+-------------------
+
+  + `try <https://php-dictionary.readthedocs.io/en/latest/dictionary/try.ini.html>`_
+
 
 Suggestions
 ___________
@@ -55,8 +60,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | try                                                                                                                     |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Examples     | :ref:`case-livezilla-structures-emptytrycatch`, :ref:`case-mautic-structures-emptytrycatch`                             |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

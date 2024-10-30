@@ -47,6 +47,11 @@ This analysis relies on typehinted properties, as introduced in PHP 7.4. It also
    }
    
    ?>
+Connex PHP features
+-------------------
+
+  + `typehint <https://php-dictionary.readthedocs.io/en/latest/dictionary/typehint.ini.html>`_
+
 
 Suggestions
 ___________
@@ -73,8 +78,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                          |
 +--------------+--------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                |
-+--------------+--------------------------------------------------------------------------------------------------------------------------+
-| Features     | typehint                                                                                                                 |
 +--------------+--------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_  |
 +--------------+--------------------------------------------------------------------------------------------------------------------------+

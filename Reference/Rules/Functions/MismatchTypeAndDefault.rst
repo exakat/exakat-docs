@@ -43,6 +43,20 @@ PHP reports typehint and default mismatch at compilation time, unless there is a
 
 See also `Type declarations <https://www.php.net/manual/en/functions.arguments.php#functions.arguments.type-declaration>`_, :ref:`Wrong Type Returned <wrong-type-returned>`, :ref:`Mismatch Type And Default <mismatch-type-and-default>` and :ref:`Wrong Typed Property Default <wrong-typed-property-default>`.
 
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Argument+1+passed+to+foo%28%29+must+be+of+the+type+integer%2C+string+given.html>`_
+  + `1 <https://php-errors.readthedocs.io/en/latest/messages/Default+value+for+parameters+with+a+int+type+can+only+be+int+or+NULL+.html>`_
+
+
+
+Connex PHP features
+-------------------
+
+  + `type <https://php-dictionary.readthedocs.io/en/latest/dictionary/type.ini.html>`_
+  + `default <https://php-dictionary.readthedocs.io/en/latest/dictionary/default.ini.html>`_
+
 
 Suggestions
 ___________
@@ -70,8 +84,6 @@ _____
 | Time To Fix  | Slow (1 hour)                                                                                                                                                                                            |
 +--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Medium                                                                                                                                                                                                   |
-+--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | type, default                                                                                                                                                                                            |
 +--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Note         | This issue may lint but will not run                                                                                                                                                                     |
 +--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

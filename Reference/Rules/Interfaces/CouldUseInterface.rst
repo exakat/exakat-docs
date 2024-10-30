@@ -31,6 +31,12 @@ Forgotten Interface
 
 See also :ref:`Could Use Trait <could-use-trait>`.
 
+Connex PHP features
+-------------------
+
+  + `interface <https://php-dictionary.readthedocs.io/en/latest/dictionary/interface.ini.html>`_
+  + `ducktyping <https://php-dictionary.readthedocs.io/en/latest/dictionary/ducktyping.ini.html>`_
+
 
 Suggestions
 ___________
@@ -57,8 +63,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                    |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | interface, ducktyping                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

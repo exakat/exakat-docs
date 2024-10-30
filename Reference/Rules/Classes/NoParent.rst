@@ -21,6 +21,19 @@ In PHP 7.4, it is a Deprecated warning. In PHP 7.3, it was a Fatal `error <https
        }
    }
    ?>
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Cannot+use+%22%22parent%22%22+when+current+class+scope+has+no+parent.html>`_
+  + `1 <https://php-errors.readthedocs.io/en/latest/messages/Cannot+access+parent%3A%3A+when+current+class+scope+has+no+parent.html>`_
+
+
+
+Connex PHP features
+-------------------
+
+  + `parent <https://php-dictionary.readthedocs.io/en/latest/dictionary/parent.ini.html>`_
+
 
 Suggestions
 ___________
@@ -51,8 +64,6 @@ _____
 | Changed Behavior | PHP 8.0 - `More <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/.html>`__                                                                                                                               |
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision        | Very high                                                                                                                                                                                                                |
-+------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features         | parent                                                                                                                                                                                                                   |
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in     | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Community Edition <https://www.exakat.io/community-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_                                  |
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

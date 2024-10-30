@@ -33,6 +33,12 @@ Use expression are options for the current namespace.
 
 See also `Using namespaces: Aliasing/Importing <https://www.php.net/manual/en/language.namespaces.importing.php>`_.
 
+Connex PHP features
+-------------------
+
+  + `namespace <https://php-dictionary.readthedocs.io/en/latest/dictionary/namespace.ini.html>`_
+  + `use <https://php-dictionary.readthedocs.io/en/latest/dictionary/use.ini.html>`_
+
 
 Suggestions
 ___________
@@ -60,8 +66,6 @@ _____
 | Time To Fix  | Slow (1 hour)                                                                                                           |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                    |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | namespace, use                                                                                                          |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | ClearPHP     | `no-unresolved-use <https://github.com/dseguy/clearPHP/tree/master/rules/no-unresolved-use.md>`__                       |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

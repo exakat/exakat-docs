@@ -37,6 +37,11 @@ This analysis doesn't mark the current class, nor the `parent <https://www.php.n
 
 See also :ref:`Property Used Above <property-used-above>`.
 
+Connex PHP features
+-------------------
+
+  + `property <https://php-dictionary.readthedocs.io/en/latest/dictionary/property.ini.html>`_
+
 
 Specs
 _____
@@ -55,8 +60,6 @@ _____
 | Time To Fix  | Slow (1 hour)                                                                                                           |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Medium                                                                                                                  |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | property                                                                                                                |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

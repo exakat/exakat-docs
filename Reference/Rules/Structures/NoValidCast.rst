@@ -20,6 +20,18 @@ This rule applies to float and int. This doesn't apply to string cast, as the ma
    
    
    ?>
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Object+of+class+stdClass+could+not+be+converted+to.html>`_
+
+
+
+Connex PHP features
+-------------------
+
+  + `cast <https://php-dictionary.readthedocs.io/en/latest/dictionary/cast.ini.html>`_
+
 
 Suggestions
 ___________
@@ -46,8 +58,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Medium                                                                                                                  |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | cast                                                                                                                    |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

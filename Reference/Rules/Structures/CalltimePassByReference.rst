@@ -25,6 +25,19 @@ Either the function use a reference in its signature, either the reference won't
 
 See also `Passing by Reference <https://www.php.net/manual/en/language.references.pass.php>`_.
 
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Call-time+pass-by-reference+has+been+removed.html>`_
+
+
+
+Connex PHP features
+-------------------
+
+  + `by-value <https://php-dictionary.readthedocs.io/en/latest/dictionary/by-value.ini.html>`_
+  + `by-reference <https://php-dictionary.readthedocs.io/en/latest/dictionary/by-reference.ini.html>`_
+
 
 Suggestions
 ___________
@@ -53,8 +66,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                                      |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                            |
-+--------------+--------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | by-value, by-reference                                                                                                               |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_              |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------+

@@ -26,6 +26,11 @@ Property Names
 
 See also `Properties <https://www.php.net/manual/en/language.oop5.properties.php>`_.
 
+Connex PHP features
+-------------------
+
+  + `property <https://php-dictionary.readthedocs.io/en/latest/dictionary/property.ini.html>`_
+
 
 Specs
 _____
@@ -44,8 +49,6 @@ _____
 | Time To Fix  |                                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | property                                                                                                                |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

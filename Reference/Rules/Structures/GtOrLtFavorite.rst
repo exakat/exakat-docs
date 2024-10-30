@@ -35,6 +35,11 @@ It is recommended to always use the same comparison style.
 
 See also `Comparison Operators <https://www.php.net/manual/en/language.operators.comparison.php>`_.
 
+Connex PHP features
+-------------------
+
+  + `comparison <https://php-dictionary.readthedocs.io/en/latest/dictionary/comparison.ini.html>`_
+
 
 Specs
 _____
@@ -53,8 +58,6 @@ _____
 | Time To Fix  |                                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                    |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | comparison                                                                                                              |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

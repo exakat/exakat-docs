@@ -12,6 +12,12 @@ The following functions are now native functions in PHP 8.0. It is compulsory to
 * `str_contains() <https://www.php.net/str_contains>`_
 * `fdiv() <https://www.php.net/fdiv>`_
 * `preg_last_error_msg() <https://www.php.net/preg_last_error_msg>`_
+Connex PHP features
+-------------------
+
+  + `function <https://php-dictionary.readthedocs.io/en/latest/dictionary/function.ini.html>`_
+  + `native <https://php-dictionary.readthedocs.io/en/latest/dictionary/native.ini.html>`_
+
 
 Suggestions
 ___________
@@ -40,8 +46,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                                                                                         |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                                                                               |
-+--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | function, native                                                                                                                                                                        |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Community Edition <https://www.exakat.io/community-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

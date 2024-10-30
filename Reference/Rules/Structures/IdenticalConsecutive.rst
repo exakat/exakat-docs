@@ -27,6 +27,11 @@ They may be a copy/paste with unmodified content. When the content has to be dup
        $next = doSomething();
    }
    ?>
+Connex PHP features
+-------------------
+
+  + `expression <https://php-dictionary.readthedocs.io/en/latest/dictionary/expression.ini.html>`_
+
 
 Suggestions
 ___________
@@ -53,8 +58,6 @@ _____
 | Time To Fix  | Instant (5 mins)                                                                                                        |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | expression                                                                                                              |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

@@ -27,6 +27,11 @@ Functions Removed In PHP 5.5
 
 See also `Deprecated features in PHP 5.5.x <https://www.php.net/manual/en/migration55.deprecated.php>`_.
 
+Connex PHP features
+-------------------
+
+  + `deprecated <https://php-dictionary.readthedocs.io/en/latest/dictionary/deprecated.ini.html>`_
+
 
 Suggestions
 ___________
@@ -53,8 +58,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                                      |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                            |
-+--------------+--------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | deprecated                                                                                                                           |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_              |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------+

@@ -44,6 +44,11 @@ Nested Ifthen
 
 See also :ref:`No title for Structures/TooManyIf <No anchor for Structures/TooManyIf>`.
 
+Connex PHP features
+-------------------
+
+  + `if-then <https://php-dictionary.readthedocs.io/en/latest/dictionary/if-then.ini.html>`_
+
 
 Specs
 _____
@@ -62,8 +67,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | if-then                                                                                                                 |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Examples     | :ref:`case-livezilla-structures-nestedifthen`, :ref:`case-mediawiki-structures-nestedifthen`                            |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

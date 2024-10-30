@@ -20,6 +20,11 @@ Regex are spotted when they are literals : dynamically built regex, (including /
 
 See also `PCRE <https://www.php.net/manual/en/book.pcre.php>_.
 
+Connex PHP features
+-------------------
+
+  + `regex <https://php-dictionary.readthedocs.io/en/latest/dictionary/regex.ini.html>`_
+
 
 Specs
 _____
@@ -38,8 +43,6 @@ _____
 | Time To Fix  |                                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                    |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | regex                                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

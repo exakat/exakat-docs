@@ -25,6 +25,18 @@ Wrong Attribute Configuration
 
 See also `Declaring Attribute Classes <https://www.php.net/manual/en/language.attributes.classes.php>`_.
 
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Attribute+%22AttributeFunction%22+cannot+target+Class+%28allowed+targets%3A+Function%29.html>`_
+
+
+
+Connex PHP features
+-------------------
+
+  + `attribute <https://php-dictionary.readthedocs.io/en/latest/dictionary/attribute.ini.html>`_
+
 
 Suggestions
 ___________
@@ -52,8 +64,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                    |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | attribute                                                                                                               |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

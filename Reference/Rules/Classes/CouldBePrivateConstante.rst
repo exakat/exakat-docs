@@ -41,6 +41,11 @@ They also have to be public in the case of component : some of those constants h
 
 See also `Class Constants <https://www.php.net/manual/en/language.oop5.constants.php>`_.
 
+Connex PHP features
+-------------------
+
+  + `visibility <https://php-dictionary.readthedocs.io/en/latest/dictionary/visibility.ini.html>`_
+
 
 Specs
 _____
@@ -59,8 +64,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                          |
 +--------------+--------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                |
-+--------------+--------------------------------------------------------------------------------------------------------------------------+
-| Features     | visibility                                                                                                               |
 +--------------+--------------------------------------------------------------------------------------------------------------------------+
 | Examples     | :ref:`case-phinx-classes-couldbeprivateconstante`                                                                        |
 +--------------+--------------------------------------------------------------------------------------------------------------------------+

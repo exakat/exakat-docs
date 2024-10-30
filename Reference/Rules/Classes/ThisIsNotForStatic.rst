@@ -33,6 +33,19 @@ While executing a `static <https://www.php.net/manual/en/language.oop5.static.ph
 
 See also `Static Keyword <https://www.php.net/manual/en/language.oop5.static.php>`_.
 
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Using+%24this+when+not+in+object+context+.html>`_
+
+
+
+Connex PHP features
+-------------------
+
+  + `static <https://php-dictionary.readthedocs.io/en/latest/dictionary/static.ini.html>`_
+  + `method <https://php-dictionary.readthedocs.io/en/latest/dictionary/method.ini.html>`_
+
 
 Suggestions
 ___________
@@ -61,8 +74,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | static, method                                                                                                          |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | ClearPHP     | `no-static-this <https://github.com/dseguy/clearPHP/tree/master/rules/no-static-this.md>`__                             |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

@@ -54,6 +54,12 @@ Variables which differ only by case, or by punctuation or by numbers are reporte
 
 See also `How to pick bad function and variable names <http://mojones.net/how-to-pick-bad-function-and-variable-names.html>`_.
 
+Connex PHP features
+-------------------
+
+  + `variable <https://php-dictionary.readthedocs.io/en/latest/dictionary/variable.ini.html>`_
+  + `semantics <https://php-dictionary.readthedocs.io/en/latest/dictionary/semantics.ini.html>`_
+
 
 Suggestions
 ___________
@@ -80,8 +86,6 @@ _____
 | Time To Fix  | Slow (1 hour)                                                                                                           |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | variable, semantics                                                                                                     |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

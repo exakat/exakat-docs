@@ -34,6 +34,14 @@ This problem emits a fatal `error <https://www.php.net/error>`_, for abstract me
 
 See also `Object Inheritance <https://www.php.net/manual/en/language.oop5.inheritance.php>`_.
 
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Declaration+of+ab%3A%3Afoo%28%24a%29+should+be+compatible+with+a%3A%3Afoo%28%24a+%3D+1%29+.html>`_
+  + `1 <https://php-errors.readthedocs.io/en/latest/messages/Declaration+of+ab%3A%3Afoo%28%24a%29+must+be+compatible+with+a%3A%3Afoo%28%24a+%3D+1%29+.html>`_
+
+
+
 
 Suggestions
 ___________

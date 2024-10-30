@@ -48,6 +48,12 @@ This analysis looks for query calls inside loops, and within one functioncall.
 
 See also `E N+1 PROBLEM IN ORMS SOLVING THE N+1 PROBLEM IN ORMS <https://thecodingmachine.io/solving-n-plus-1-problem-in-orms>`_.
 
+Connex PHP features
+-------------------
+
+  + `query <https://php-dictionary.readthedocs.io/en/latest/dictionary/query.ini.html>`_
+  + `loop <https://php-dictionary.readthedocs.io/en/latest/dictionary/loop.ini.html>`_
+
 
 Suggestions
 ___________
@@ -75,8 +81,6 @@ _____
 | Time To Fix  | Slow (1 hour)                                                                                                                                |
 +--------------+----------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                                    |
-+--------------+----------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | query, loop                                                                                                                                  |
 +--------------+----------------------------------------------------------------------------------------------------------------------------------------------+
 | Examples     | :ref:`case-teampass-structures-queriesinloop`, :ref:`case-openemr-structures-queriesinloop`                                                  |
 +--------------+----------------------------------------------------------------------------------------------------------------------------------------------+

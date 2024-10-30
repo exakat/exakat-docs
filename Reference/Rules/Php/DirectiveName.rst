@@ -27,6 +27,11 @@ The following list has directive mentioned in the code, that are not known from 
    }
    
    ?>
+Connex PHP features
+-------------------
+
+  + `directive <https://php-dictionary.readthedocs.io/en/latest/dictionary/directive.ini.html>`_
+
 
 Specs
 _____
@@ -45,8 +50,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | directive                                                                                                               |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

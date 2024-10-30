@@ -23,6 +23,18 @@ Duplicate Named Parameter
 
 See also `Function arguments <https://www.php.net/manual/en/functions.arguments.php>`_.
 
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Named+parameter+%24a+overwrites+previous+argument.html>`_
+
+
+
+Connex PHP features
+-------------------
+
+  + `named-parameter <https://php-dictionary.readthedocs.io/en/latest/dictionary/named-parameter.ini.html>`_
+
 
 Suggestions
 ___________
@@ -50,8 +62,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                                                                  |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                                                        |
-+--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | named-parameter                                                                                                                                                  |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Note         | This issue may lint but will not run                                                                                                                             |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+

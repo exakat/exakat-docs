@@ -28,6 +28,11 @@ When in doubt about backward compatibility, just drop the typehint. Otherwise, u
 
 See also Drop the type and Use Throwable type.
 
+Connex PHP features
+-------------------
+
+  + `error-handler <https://php-dictionary.readthedocs.io/en/latest/dictionary/error-handler.ini.html>`_
+
 
 Suggestions
 ___________
@@ -56,8 +61,6 @@ _____
 | Changed Behavior | PHP 7.0 - `More <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/.html>`__                                           |
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------+
 | Precision        | Very high                                                                                                                            |
-+------------------+--------------------------------------------------------------------------------------------------------------------------------------+
-| Features         | error-handler                                                                                                                        |
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------+
 | Available in     | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_              |
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------+

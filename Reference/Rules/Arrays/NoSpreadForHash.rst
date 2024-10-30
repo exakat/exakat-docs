@@ -21,6 +21,21 @@ No Spread For Hash
 
 See also `Variable-length argument lists <https://www.php.net/manual/en/functions.arguments.php#functions.variable-arg-list>`_.
 
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Cannot+unpack+array+with+string+keys.html>`_
+  + `1 <https://php-errors.readthedocs.io/en/latest/messages/does+not+accept+unknown+named+parameters.html>`_
+
+
+
+Connex PHP features
+-------------------
+
+  + `ellipsis <https://php-dictionary.readthedocs.io/en/latest/dictionary/ellipsis.ini.html>`_
+  + `array <https://php-dictionary.readthedocs.io/en/latest/dictionary/array.ini.html>`_
+  + `array-spread <https://php-dictionary.readthedocs.io/en/latest/dictionary/array-spread.ini.html>`_
+
 
 Suggestions
 ___________
@@ -49,8 +64,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                    |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | ellipsis, array, array-spread                                                                                           |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

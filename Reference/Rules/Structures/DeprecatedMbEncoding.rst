@@ -30,6 +30,18 @@ This applies to the `mb_detect_encoding() <https://www.php.net/mb_detect_encodin
 
 See also `PHP 8.2: Mbstring: Base64, Uuencode, QPrint, and HTML Entity encodings are deprecated <https://php.watch/versions/8.2/mbstring-qprint-base64-uuencode-html-entities-deprecated>`_.
 
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/mb_convert_encoding%28%29%3A+Handling+Base64+via+mbstring+is+deprecated%3B+use+base64_encode%2Fbase64_decode+instead.html>`_
+
+
+
+Connex PHP features
+-------------------
+
+  + `encoding <https://php-dictionary.readthedocs.io/en/latest/dictionary/encoding.ini.html>`_
+
 
 Suggestions
 ___________
@@ -54,8 +66,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                                      |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                                 |
-+--------------+--------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | encoding                                                                                                                             |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_              |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------+

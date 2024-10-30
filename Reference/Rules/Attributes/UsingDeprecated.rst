@@ -20,6 +20,11 @@ Note that the class ` :ref:`rulesets-deprecated` ` does not need to be defined a
    foo(); 
    
    ?>
+Connex PHP features
+-------------------
+
+  + `attribute <https://php-dictionary.readthedocs.io/en/latest/dictionary/attribute.ini.html>`_
+
 
 Suggestions
 ___________
@@ -44,8 +49,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Medium                                                                                                                  |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | attribute                                                                                                               |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

@@ -37,6 +37,11 @@ Setting properties with default values is a good way to avoid littering the code
    }
    
    ?>
+Connex PHP features
+-------------------
+
+  + `method <https://php-dictionary.readthedocs.io/en/latest/dictionary/method.ini.html>`_
+
 
 Suggestions
 ___________
@@ -64,8 +69,6 @@ _____
 | Time To Fix  | Slow (1 hour)                                                                                                           |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                    |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | method                                                                                                                  |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

@@ -22,6 +22,11 @@ It may also be an non-idempotent method: that is, a method which has a different
    $a = array_merge($a, $c);
    
    ?>
+Connex PHP features
+-------------------
+
+  + `idempotent <https://php-dictionary.readthedocs.io/en/latest/dictionary/idempotent.ini.html>`_
+
 
 Suggestions
 ___________
@@ -49,8 +54,6 @@ _____
 | Time To Fix  | Instant (5 mins)                                                                                                        |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | idempotent                                                                                                              |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

@@ -31,6 +31,12 @@ Exakat marks simple setters and getters : their content only writes (resp. reads
 
 See also `PHP: Getters and Setters <https://thisinterestsme.com/php-getters-and-setters/>`_.
 
+Connex PHP features
+-------------------
+
+  + `getter <https://php-dictionary.readthedocs.io/en/latest/dictionary/getter.ini.html>`_
+  + `setter <https://php-dictionary.readthedocs.io/en/latest/dictionary/setter.ini.html>`_
+
 
 Specs
 _____
@@ -49,8 +55,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                    |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | getter, setter                                                                                                          |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

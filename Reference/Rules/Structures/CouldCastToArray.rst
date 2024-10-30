@@ -29,6 +29,12 @@ Could Cast To Array
 
 See also `Mastering the (array) Cast Operator in PHP <https://www.exakat.io/en/mastering-the-array-cast-operator-in-php-a-comprehensive-guide/>`_.
 
+Connex PHP features
+-------------------
+
+  + `array <https://php-dictionary.readthedocs.io/en/latest/dictionary/array.ini.html>`_
+  + `cast <https://php-dictionary.readthedocs.io/en/latest/dictionary/cast.ini.html>`_
+
 
 Suggestions
 ___________
@@ -55,8 +61,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                    |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | array, cast                                                                                                             |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

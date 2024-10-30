@@ -23,6 +23,11 @@ All other letter used as option are not supported : depending on the situation, 
 
 See also `Pattern Modifiers <https://www.php.net/manual/en/reference.pcre.pattern.modifiers.php>`_.
 
+Connex PHP features
+-------------------
+
+  + `regex <https://php-dictionary.readthedocs.io/en/latest/dictionary/regex.ini.html>`_
+
 
 Suggestions
 ___________
@@ -51,8 +56,6 @@ _____
 | Time To Fix  | Slow (1 hour)                                                                                                                                                                           |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                                                                                    |
-+--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | regex                                                                                                                                                                                   |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Community Edition <https://www.exakat.io/community-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

@@ -23,6 +23,12 @@ If you have too many of them, don't loose your time switching them all. If you h
    $b = "\x03\u{1F418}";
    
    ?>
+Connex PHP features
+-------------------
+
+  + `double-quote <https://php-dictionary.readthedocs.io/en/latest/dictionary/double-quote.ini.html>`_
+  + `single-quote <https://php-dictionary.readthedocs.io/en/latest/dictionary/single-quote.ini.html>`_
+
 
 Specs
 _____
@@ -41,8 +47,6 @@ _____
 | Time To Fix  | Instant (5 mins)                                                                                                                     |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                            |
-+--------------+--------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | double-quote, single-quote                                                                                                           |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------+
 | ClearPHP     | `no-double-quote <https://github.com/dseguy/clearPHP/tree/master/rules/no-double-quote.md>`__                                        |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------+

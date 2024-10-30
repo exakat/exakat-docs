@@ -6,7 +6,7 @@ CompatibilityPHP83
 CompatibilityPHP83
 __________________
 
-The CompatibilityPHP83 report list all detected issues with PHP 8.2 compatibility.
+The CompatibilityPHP83 report list all detected issues with PHP 8.3 compatibility.
 
 The CompatibilityPHP83 report displays one result per line, grouped by rule, and ordered by file and line number. Here is an example : 
 

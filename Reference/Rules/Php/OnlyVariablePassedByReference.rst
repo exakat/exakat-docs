@@ -24,6 +24,15 @@ This is also the case of ``isset()``, althought with a different `error <https:/
    echo end(foo());
    
    ?>
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Argument+%231+%28%24array%29+could+not+be+passed+by+reference.html>`_
+  + `1 <https://php-errors.readthedocs.io/en/latest/messages/Argument+%231+%28%24array%29+cannot+be+passed+by+reference.html>`_
+  + `2 <https://php-errors.readthedocs.io/en/latest/messages/Cannot+use+isset%28%29+on+the+result+of+an+expression+%28you+can+use+%22null+%21%3D%3D+expression%22+instead%29.html>`_
+
+
+
 
 Suggestions
 ___________

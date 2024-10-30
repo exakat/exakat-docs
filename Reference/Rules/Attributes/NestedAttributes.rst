@@ -24,6 +24,19 @@ Nested attributes are not available in PHP 8.0 and older. It is reported as an i
 
 See also `PHP RFC: New in initializers <https://wiki.php.net/rfc/new_in_initializers>`_ and `New initializers`.
 
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Constant+expression+contains+invalid+operations.html>`_
+
+
+
+Connex PHP features
+-------------------
+
+  + `new-in-initializer <https://php-dictionary.readthedocs.io/en/latest/dictionary/new-in-initializer.ini.html>`_
+  + `nested-attribute <https://php-dictionary.readthedocs.io/en/latest/dictionary/nested-attribute.ini.html>`_
+
 
 Specs
 _____
@@ -44,8 +57,6 @@ _____
 | Changed Behavior | PHP 8.1 - `More <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/nestedAttributes.html>`__                                                                                                                                                                             |
 +------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision        | Very high                                                                                                                                                                                                                                                                              |
-+------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features         | new-in-initializer, nested-attribute                                                                                                                                                                                                                                                   |
 +------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in     | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_                                                                                                                                                                |
 +------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

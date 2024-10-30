@@ -42,6 +42,19 @@ Closures that makes use of the bindTo() method, to change the context of executi
 
 See also `Static anonymous functions <https://www.php.net/manual/en/functions.anonymous.php#functions.anonymous-functions.static>`_.
 
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Cannot+bind+an+instance+to+a+static+closure.html>`_
+
+
+
+Connex PHP features
+-------------------
+
+  + `closure <https://php-dictionary.readthedocs.io/en/latest/dictionary/closure.ini.html>`_
+  + `static <https://php-dictionary.readthedocs.io/en/latest/dictionary/static.ini.html>`_
+
 
 Suggestions
 ___________
@@ -70,8 +83,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Medium                                                                                                                  |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | closure, static                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

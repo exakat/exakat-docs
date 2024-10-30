@@ -22,6 +22,12 @@ In PHP 8.2, dynamic properties are deprecated, and yield a warning in the logs. 
    }
    
    ?>
+Connex PHP features
+-------------------
+
+  + `stdclass <https://php-dictionary.readthedocs.io/en/latest/dictionary/stdclass.ini.html>`_
+  + `dynamic-property <https://php-dictionary.readthedocs.io/en/latest/dictionary/dynamic-property.ini.html>`_
+
 
 Specs
 _____
@@ -40,8 +46,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                                                                            |
 +--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                                                                       |
-+--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | stdclass, dynamic-property                                                                                                                                                 |
 +--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_                                                    |
 +--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

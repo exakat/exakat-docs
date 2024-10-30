@@ -9,6 +9,11 @@ Ice framework
 
 See also `ice framework <https://www.iceframework.org/>`_ and `ice framework : Hello world tutorial <https://www.iceframework.org/doc/tutorial/hello>`_.
 
+Connex PHP features
+-------------------
+
+  + `framework <https://php-dictionary.readthedocs.io/en/latest/dictionary/framework.ini.html>`_
+
 
 Specs
 _____
@@ -27,8 +32,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | framework                                                                                                               |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

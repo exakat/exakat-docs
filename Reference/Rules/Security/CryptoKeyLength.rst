@@ -38,6 +38,12 @@ The values above are used with the openssl PHP extension.
 
 See also `The Definitive 2019 Guide to Cryptographic Key Sizes and Algorithm Recommendations <https://paragonie.com/blog/2019/03/definitive-2019-guide-cryptographic-key-sizes-and-algorithm-recommendations>`_ and `Cryptographic Key Length Recommendation <https://www.keylength.com/>`_.
 
+Connex PHP features
+-------------------
+
+  + `cryptography <https://php-dictionary.readthedocs.io/en/latest/dictionary/cryptography.ini.html>`_
+  + `openssl <https://php-dictionary.readthedocs.io/en/latest/dictionary/openssl.ini.html>`_
+
 
 Suggestions
 ___________
@@ -64,8 +70,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                    |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | cryptography, openssl                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

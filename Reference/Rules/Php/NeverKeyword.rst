@@ -23,6 +23,18 @@ It should be avoided in namespaces, classes, traits and interfaces. Methods, con
 
 See also `never <https://www.php.net/manual/en/language.types.declarations.php#language.types.declarations.never>`_ and `PHP RFC: noreturn type <https://wiki.php.net/rfc/noreturn_type>`_.
 
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Cannot+use+%27never%27+as+class+name+as+it+is+reserved+.html>`_
+
+
+
+Connex PHP features
+-------------------
+
+  + `never <https://php-dictionary.readthedocs.io/en/latest/dictionary/never.ini.html>`_
+
 
 Suggestions
 ___________
@@ -51,8 +63,6 @@ _____
 | Changed Behavior | PHP 8.1 - `More <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/.html>`__                                                                                                               |
 +------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision        | Very high                                                                                                                                                                                                |
-+------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features         | never                                                                                                                                                                                                    |
 +------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in     | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_                                                                                  |
 +------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

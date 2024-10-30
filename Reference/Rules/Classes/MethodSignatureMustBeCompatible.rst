@@ -22,6 +22,20 @@ PHP generates the infamous Fatal `error <https://www.php.net/error>`_ at executi
    }
    
    ?>
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Declaration+of+FooParent%3A%3ABar%28%29+must+be+compatible+with+FooChildren%3A%3ABar%28%29.html>`_
+
+
+
+Connex PHP features
+-------------------
+
+  + `typehint <https://php-dictionary.readthedocs.io/en/latest/dictionary/typehint.ini.html>`_
+  + `type-covariance <https://php-dictionary.readthedocs.io/en/latest/dictionary/type-covariance.ini.html>`_
+  + `type-contravariance <https://php-dictionary.readthedocs.io/en/latest/dictionary/type-contravariance.ini.html>`_
+
 
 Suggestions
 ___________
@@ -49,8 +63,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                                                                  |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                                                             |
-+--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | typehint, type-covariance, type-contravariance                                                                                                                   |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Note         | This issue may lint but will not run                                                                                                                             |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+

@@ -5,7 +5,7 @@
 Encoding Usage
 ++++++++++++++
 
-  Usage of declare(encoding = );.
+  Usage of ``declare(encoding = )``. This command configures the encoding to be used with the current file. 
 
 .. code-block:: php
    
@@ -17,6 +17,12 @@ Encoding Usage
    ?>
 
 See also `declare <https://www.php.net/manual/en/control-structures.declare.php>`_.
+
+Connex PHP features
+-------------------
+
+  + `encoding <https://php-dictionary.readthedocs.io/en/latest/dictionary/encoding.ini.html>`_
+  + `declare <https://php-dictionary.readthedocs.io/en/latest/dictionary/declare.ini.html>`_
 
 
 Specs
@@ -36,8 +42,6 @@ _____
 | Time To Fix  |                                                                                                                                                                                         |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                                                                               |
-+--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | encoding                                                                                                                                                                                |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Community Edition <https://www.exakat.io/community-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

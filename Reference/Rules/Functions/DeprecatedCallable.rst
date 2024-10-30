@@ -31,6 +31,20 @@ It is recommended to update the code with any PHP version, to prepare for the fu
 
 See also `PHP RFC: Deprecate partially supported callables <https://wiki.php.net/rfc/deprecate_partially_supported_callables>`_.
 
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Use+of+%22self%22+in+callables+is+deprecated.html>`_
+  + `1 <https://php-errors.readthedocs.io/en/latest/messages/Use+of+%22static%22+in+callables+is+deprecated.html>`_
+  + `2 <https://php-errors.readthedocs.io/en/latest/messages/Use+of+%22parent%22+in+callables+is+deprecated.html>`_
+
+
+
+Connex PHP features
+-------------------
+
+  + `callable <https://php-dictionary.readthedocs.io/en/latest/dictionary/callable.ini.html>`_
+
 
 Suggestions
 ___________
@@ -58,8 +72,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                                                                                        |
 +--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                                                                                   |
-+--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | callable                                                                                                                                                                               |
 +--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Note         | This issue may lint but will not run                                                                                                                                                   |
 +--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

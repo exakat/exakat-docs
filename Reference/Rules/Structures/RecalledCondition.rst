@@ -25,6 +25,13 @@ One of the option is to use an iffectation: an affectation in the condition. Thi
    }
    
    ?>
+Connex PHP features
+-------------------
+
+  + `micro-optimisation <https://php-dictionary.readthedocs.io/en/latest/dictionary/micro-optimisation.ini.html>`_
+  + `idempotent <https://php-dictionary.readthedocs.io/en/latest/dictionary/idempotent.ini.html>`_
+  + `iffectation <https://php-dictionary.readthedocs.io/en/latest/dictionary/iffectation.ini.html>`_
+
 
 Suggestions
 ___________
@@ -52,8 +59,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                          |
 +--------------+--------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                     |
-+--------------+--------------------------------------------------------------------------------------------------------------------------+
-| Features     | micro-optimisation, idempotent, iffectation                                                                              |
 +--------------+--------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_  |
 +--------------+--------------------------------------------------------------------------------------------------------------------------+

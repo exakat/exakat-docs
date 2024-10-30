@@ -50,6 +50,12 @@ Long Preparation For Throw
 
 See also `Structuring PHP Exceptions session <https://phpconference.com/blog/structuring-php-exceptions/>`_ and `Best practices for handling exceptional behavior <https://www.nikolaposa.in.rs/blog/2016/08/17/exceptional-behavior-best-practices/>`_.
 
+Connex PHP features
+-------------------
+
+  + `throw <https://php-dictionary.readthedocs.io/en/latest/dictionary/throw.ini.html>`_
+  + `exception <https://php-dictionary.readthedocs.io/en/latest/dictionary/exception.ini.html>`_
+
 
 Suggestions
 ___________
@@ -76,8 +82,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                    |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | throw, exception                                                                                                        |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

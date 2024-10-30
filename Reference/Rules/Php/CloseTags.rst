@@ -14,6 +14,11 @@ Closing Tags
 
 See also `PHP Closing Tag <https://codeigniter.com/userguide3/general/styleguide.html#php-closing-tag>`_.
 
+Connex PHP features
+-------------------
+
+  + `close-tag <https://php-dictionary.readthedocs.io/en/latest/dictionary/close-tag.ini.html>`_
+
 
 Suggestions
 ___________
@@ -40,8 +45,6 @@ _____
 | Time To Fix  | Instant (5 mins)                                                                                                        |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | close-tag                                                                                                               |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | ClearPHP     | `leave-last-closing-out <https://github.com/dseguy/clearPHP/tree/master/rules/leave-last-closing-out.md>`__             |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

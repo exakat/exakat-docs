@@ -71,6 +71,11 @@ This analysis works with the ``break``, ``continue``, ``throw`` and ``goto`` key
 
 See also `Avoid nesting too deeply and return early (part 1) <https://github.com/jupeter/clean-code-php#avoid-nesting-too-deeply-and-return-early-part-1>`_ and `Avoid nesting too deeply and return early (part 2) <https://github.com/jupeter/clean-code-php#avoid-nesting-too-deeply-and-return-early-part-2>`_.
 
+Connex PHP features
+-------------------
+
+  + `return <https://php-dictionary.readthedocs.io/en/latest/dictionary/return.ini.html>`_
+
 
 Suggestions
 ___________
@@ -98,8 +103,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                    |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | return                                                                                                                  |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Examples     | :ref:`case-openemr-structures-bailoutearly`, :ref:`case-opencfp-structures-bailoutearly`                                |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

@@ -22,6 +22,11 @@ Sensitive parameters are identified with Security/`SensitiveParameter <https://w
    foo($_POST['c']);  // $_POST is propagated to the foo function
    
    ?>
+Connex PHP features
+-------------------
+
+  + `injection <https://php-dictionary.readthedocs.io/en/latest/dictionary/injection.ini.html>`_
+
 
 Suggestions
 ___________
@@ -48,8 +53,6 @@ _____
 | Time To Fix  | Slow (1 hour)                                                                                                           |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                    |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | injection                                                                                                               |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

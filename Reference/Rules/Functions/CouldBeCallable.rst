@@ -31,6 +31,11 @@ When arguments are used to call a function, but are not marked with 'callable', 
 
 See also `Callback / callable <https://www.php.net/manual/en/language.types.callable.php>`_.
 
+Connex PHP features
+-------------------
+
+  + `callable <https://php-dictionary.readthedocs.io/en/latest/dictionary/callable.ini.html>`_
+
 
 Suggestions
 ___________
@@ -58,8 +63,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | callable                                                                                                                |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Examples     | :ref:`case-magento-functions-couldbecallable`, :ref:`case-prestashop-functions-couldbecallable`                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

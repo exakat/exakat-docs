@@ -35,6 +35,11 @@ By putting an element on each line, and adding the final comma, it is possible t
 
 See also `Array <https://www.php.net/manual/en/language.types.array.php>`_, `Zend Framework Coding Standard <https://framework.zend.com/manual/2.4/en/ref/coding.standard.html#arrays>`_ and `How clean is your code? How clean are your diffs? <https://blog.madewithlove.be/post/code-style-options-for-cleaner-diffs/>`_.
 
+Connex PHP features
+-------------------
+
+  + `trailing-comma <https://php-dictionary.readthedocs.io/en/latest/dictionary/trailing-comma.ini.html>`_
+
 
 Specs
 _____
@@ -53,8 +58,6 @@ _____
 | Time To Fix  |                                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                    |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | trailing-comma                                                                                                          |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

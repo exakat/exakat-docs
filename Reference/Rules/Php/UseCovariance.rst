@@ -29,6 +29,11 @@ Covariance is a PHP 7.4 feature. Covariance is distinct from argument contravari
 
 See also `Covariant Returns and Contravariant Parameters <https://wiki.php.net/rfc/covariant-returns-and-contravariant-parameters>`_ and :ref:`No title for `Php/UseContravariance`_ <No anchor for `Php/UseContravariance`_>`.
 
+Connex PHP features
+-------------------
+
+  + `covariance <https://php-dictionary.readthedocs.io/en/latest/dictionary/covariance.ini.html>`_
+
 
 Specs
 _____
@@ -47,8 +52,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                                                                                         |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                                                                               |
-+--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | covariance                                                                                                                                                                              |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Community Edition <https://www.exakat.io/community-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

@@ -21,6 +21,11 @@ Using `file_put_contents() <https://www.php.net/file_put_contents>`_ also keeps 
    fwrite($fp, $text);
    
    ?>
+Connex PHP features
+-------------------
+
+  + `file <https://php-dictionary.readthedocs.io/en/latest/dictionary/file.ini.html>`_
+
 
 Suggestions
 ___________

@@ -5,9 +5,10 @@
 Insufficient Typehint
 +++++++++++++++++++++
 
-  An argument is typehinted, but it actually calls methods that are not listed in the interface.
+  An argument is typehinted, but it actually calls methods, constants or properties that are not listed in the interface.
 
 Classes may be implementing more methods than the one that are listed in the interface they also implements. This means that filtering objects with a typehint, but calling other methods will be solved at execution time : if the method is available, it will be used; if it is not, a fatal `error <https://www.php.net/error>`_ is reported.
+
 Inspired by discussion with `Brandon Savage <https://twitter.com/BrandonSavage>`_.
 
 .. code-block:: php
@@ -30,6 +31,20 @@ Inspired by discussion with `Brandon Savage <https://twitter.com/BrandonSavage>`
    ?>
 
 See also `Interface segregation principle <https://en.wikipedia.org/wiki/Interface_segregation_principle>`_.
+
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Undefined+constant+y%3A%3AI4.html>`_
+
+
+
+Connex PHP features
+-------------------
+
+  + `type <https://php-dictionary.readthedocs.io/en/latest/dictionary/type.ini.html>`_
+  + `interface <https://php-dictionary.readthedocs.io/en/latest/dictionary/interface.ini.html>`_
+  + `abstract-class <https://php-dictionary.readthedocs.io/en/latest/dictionary/abstract-class.ini.html>`_
 
 
 Suggestions
@@ -59,8 +74,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                                                        |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Medium                                                                                                                                                 |
-+--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | type, interface, abstract-class                                                                                                                        |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_                                |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+

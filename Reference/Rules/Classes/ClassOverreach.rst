@@ -27,6 +27,12 @@ This feature is also called class invasion.
 
 See also `Visibility from other objects <https://www.php.net/manual/en/language.oop5.visibility.php#language.oop5.visibility-other-objects>`_ and `spatie/invade <https://github.com/spatie/invade>`_.
 
+Connex PHP features
+-------------------
+
+  + `visibility <https://php-dictionary.readthedocs.io/en/latest/dictionary/visibility.ini.html>`_
+  + `class-invasion <https://php-dictionary.readthedocs.io/en/latest/dictionary/class-invasion.ini.html>`_
+
 
 Suggestions
 ___________
@@ -53,8 +59,6 @@ _____
 | Time To Fix  | Slow (1 hour)                                                                                                           |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Medium                                                                                                                  |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | visibility, class-invasion                                                                                              |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

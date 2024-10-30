@@ -30,6 +30,11 @@ Concatenations are still needed with constants, `static <https://www.php.net/man
 
 See also `PHP 7 performance improvements (3/5): Encapsed strings optimization <https://blog.blackfire.io/php-7-performance-improvements-encapsed-strings-optimization.html>`_.
 
+Connex PHP features
+-------------------
+
+  + `string <https://php-dictionary.readthedocs.io/en/latest/dictionary/string.ini.html>`_
+
 
 Specs
 _____
@@ -48,8 +53,6 @@ _____
 | Time To Fix  |                                                                                                                          |
 +--------------+--------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                |
-+--------------+--------------------------------------------------------------------------------------------------------------------------+
-| Features     | string                                                                                                                   |
 +--------------+--------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_  |
 +--------------+--------------------------------------------------------------------------------------------------------------------------+

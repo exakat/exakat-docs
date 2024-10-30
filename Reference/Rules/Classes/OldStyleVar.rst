@@ -23,6 +23,11 @@ It is recommended to avoid using var, and explicitly use the new keywords.
 
 See also `Visibility <https://www.php.net/manual/en/language.oop5.visibility.php>`_.
 
+Connex PHP features
+-------------------
+
+  + `visibility <https://php-dictionary.readthedocs.io/en/latest/dictionary/visibility.ini.html>`_
+
 
 Suggestions
 ___________
@@ -49,8 +54,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | visibility                                                                                                              |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | ClearPHP     | `no-php4-class-syntax <https://github.com/dseguy/clearPHP/tree/master/rules/no-php4-class-syntax.md>`__                 |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

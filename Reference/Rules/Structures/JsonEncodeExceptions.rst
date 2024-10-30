@@ -23,6 +23,12 @@ Alternatively, the `error <https://www.php.net/error>`_ may be check by calling 
 
 See also `json_encode() <https://www.php.net/manual/en/function.json-encode.php>`_.
 
+Connex PHP features
+-------------------
+
+  + `json <https://php-dictionary.readthedocs.io/en/latest/dictionary/json.ini.html>`_
+  + `error-handling <https://php-dictionary.readthedocs.io/en/latest/dictionary/error-handling.ini.html>`_
+
 
 Suggestions
 ___________
@@ -51,8 +57,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                    |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | json, error-handling                                                                                                    |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

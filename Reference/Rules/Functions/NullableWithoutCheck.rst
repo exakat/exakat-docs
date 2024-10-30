@@ -29,6 +29,12 @@ Nullable Without Check
 
 See also `Null Return Types <https://afilina.com/learn/nulls/return-types>`_.
 
+Connex PHP features
+-------------------
+
+  + `null <https://php-dictionary.readthedocs.io/en/latest/dictionary/null.ini.html>`_
+  + `return-typehint <https://php-dictionary.readthedocs.io/en/latest/dictionary/return-typehint.ini.html>`_
+
 
 Suggestions
 ___________
@@ -55,8 +61,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                          |
 +--------------+--------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                     |
-+--------------+--------------------------------------------------------------------------------------------------------------------------+
-| Features     | null, return-typehint                                                                                                    |
 +--------------+--------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_  |
 +--------------+--------------------------------------------------------------------------------------------------------------------------+

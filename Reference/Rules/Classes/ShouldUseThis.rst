@@ -41,6 +41,12 @@ Note that a method using a class constant is not considered as using the local c
    }
    
    ?>
+Connex PHP features
+-------------------
+
+  + `$this <https://php-dictionary.readthedocs.io/en/latest/dictionary/%24this.ini.html>`_
+  + `self <https://php-dictionary.readthedocs.io/en/latest/dictionary/self.ini.html>`_
+
 
 Suggestions
 ___________
@@ -68,8 +74,6 @@ _____
 | Time To Fix  | Slow (1 hour)                                                                                                           |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                    |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | $this, self                                                                                                             |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | ClearPHP     | `not-a-method <https://github.com/dseguy/clearPHP/tree/master/rules/not-a-method.md>`__                                 |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

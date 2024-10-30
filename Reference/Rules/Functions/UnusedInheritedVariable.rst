@@ -25,6 +25,12 @@ The reported closures are requesting some local variables, but do not make any u
 
 See also `Anonymous functions <https://www.php.net/manual/en/functions.anonymous.php>`_.
 
+Connex PHP features
+-------------------
+
+  + `variable <https://php-dictionary.readthedocs.io/en/latest/dictionary/variable.ini.html>`_
+  + `inherited-variable <https://php-dictionary.readthedocs.io/en/latest/dictionary/inherited-variable.ini.html>`_
+
 
 Suggestions
 ___________
@@ -52,8 +58,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                                                                                                                    |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                                                                                                          |
-+--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | variable, inherited-variable                                                                                                                                                                                       |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Examples     | :ref:`case-shopware-functions-unusedinheritedvariable`, :ref:`case-mautic-functions-unusedinheritedvariable`                                                                                                       |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

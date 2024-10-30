@@ -41,6 +41,21 @@ Another approach is to use the null-safe operator when the intermediate methods 
 
 See also `PHP 8.0 feature focus: nullsafe methods <https://platform.sh/blog/2020/php-80-feature-focus-type-nullsafe-methods/>`_ and `Nullsafe methods and properties <https://www.php.net/manual/en/language.oop5.basic.php#language.oop5.basic.nullsafe>`_.
 
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Call+to+a+member+function+b%28%29+on+null.html>`_
+  + `1 <https://php-errors.readthedocs.io/en/latest/messages/Attempt+to+read+property+%22b%22+on+null.html>`_
+  + `2 <https://php-errors.readthedocs.io/en/latest/messages/Class+%22null%22+not+found+.html>`_
+
+
+
+Connex PHP features
+-------------------
+
+  + `nullsafe-object-operator <https://php-dictionary.readthedocs.io/en/latest/dictionary/nullsafe-object-operator.ini.html>`_
+  + `nullable <https://php-dictionary.readthedocs.io/en/latest/dictionary/nullable.ini.html>`_
+
 
 Suggestions
 ___________
@@ -69,8 +84,6 @@ _____
 | Time To Fix  | Slow (1 hour)                                                                                                           |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Medium                                                                                                                  |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | nullsafe-object-operator, nullable                                                                                      |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

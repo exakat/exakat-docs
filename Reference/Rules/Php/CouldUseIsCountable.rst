@@ -34,6 +34,12 @@ Use is_countable
 
 See also `PHP RFC: is_countable <https://wiki.php.net/rfc/is-countable>`_.
 
+Connex PHP features
+-------------------
+
+  + `array <https://php-dictionary.readthedocs.io/en/latest/dictionary/array.ini.html>`_
+  + `countable <https://php-dictionary.readthedocs.io/en/latest/dictionary/countable.ini.html>`_
+
 
 Suggestions
 ___________
@@ -61,8 +67,6 @@ _____
 | Time To Fix  |                                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                    |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | array, countable                                                                                                        |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

@@ -26,6 +26,12 @@ While ``DateTime`` may be modified, ``DateTimeImmutable`` cannot be modified : i
 
 See also `What's all this 'immutable date' stuff, anyway? <https://medium.com/@codebyjeff/whats-all-this-immutable-date-stuff-anyway-72d4130af8ce>`_, `DateTimeImmutable <https://derickrethans.nl/immutable-datetime.html>`_, `The DateTime class <https://www.php.net/manual/en/class.datetime.php>`_ and `The DateTimeImmutable class <https://www.php.net/manual/en/class.datetimeimmutable.php>`_.
 
+Connex PHP features
+-------------------
+
+  + `immutable <https://php-dictionary.readthedocs.io/en/latest/dictionary/immutable.ini.html>`_
+  + `date <https://php-dictionary.readthedocs.io/en/latest/dictionary/date.ini.html>`_
+
 
 Suggestions
 ___________
@@ -52,8 +58,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | immutable, date                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

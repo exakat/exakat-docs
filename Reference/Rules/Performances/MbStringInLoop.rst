@@ -33,6 +33,11 @@ The recommendation is to use `preg_split() <https://www.php.net/preg_split>`_ wi
 
 See also `Optimization: How I made my PHP code run 100 times faster <https://mike42.me/blog/2018-06-how-i-made-my-php-code-run-100-times-faster>`_ and `How to iterate UTF-8 string in PHP? <https://stackoverflow.com/questions/3666306/how-to-iterate-utf-8-string-in-php>`_.
 
+Connex PHP features
+-------------------
+
+  + `csv <https://php-dictionary.readthedocs.io/en/latest/dictionary/csv.ini.html>`_
+
 
 Suggestions
 ___________
@@ -59,8 +64,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                          |
 +--------------+--------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                     |
-+--------------+--------------------------------------------------------------------------------------------------------------------------+
-| Features     | csv                                                                                                                      |
 +--------------+--------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_  |
 +--------------+--------------------------------------------------------------------------------------------------------------------------+

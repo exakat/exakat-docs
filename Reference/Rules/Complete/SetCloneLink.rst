@@ -33,6 +33,11 @@ This command may not detect all possible link for the clone. It may be missing i
 
 See also `Object Cloning <https://www.php.net/manual/en/language.oop5.cloning.php>`_.
 
+Connex PHP features
+-------------------
+
+  + `clone <https://php-dictionary.readthedocs.io/en/latest/dictionary/clone.ini.html>`_
+
 
 Specs
 _____
@@ -51,8 +56,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                    |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | clone                                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

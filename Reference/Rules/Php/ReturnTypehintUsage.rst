@@ -21,6 +21,11 @@ Return typehint were introduced in PHP 7.0, and are backward incompatible with P
 
 See also `RFC: Return Type Declarations <https://wiki.php.net/rfc/return_types>`_ and `Return Type Declarations <https://www.php.net/manual/en/functions.returning-values.php#functions.returning-values.type-declaration>`_.
 
+Connex PHP features
+-------------------
+
+  + `returntype <https://php-dictionary.readthedocs.io/en/latest/dictionary/returntype.ini.html>`_
+
 
 Specs
 _____
@@ -41,8 +46,6 @@ _____
 | Changed Behavior | PHP 7.0 - `More <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/.html>`__                                                                                              |
 +------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision        | Very high                                                                                                                                                                               |
-+------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features         | returntype                                                                                                                                                                              |
 +------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in     | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Community Edition <https://www.exakat.io/community-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

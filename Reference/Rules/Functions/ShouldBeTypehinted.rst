@@ -23,6 +23,11 @@ The analyzer will detect situations where a class, or the keywords 'array' or 'c
 
 See also `Type declarations <https://www.php.net/manual/en/functions.arguments.php#functions.arguments.type-declaration>`_.
 
+Connex PHP features
+-------------------
+
+  + `typehint <https://php-dictionary.readthedocs.io/en/latest/dictionary/typehint.ini.html>`_
+
 
 Suggestions
 ___________
@@ -49,8 +54,6 @@ _____
 | Time To Fix  | Slow (1 hour)                                                                                                           |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | typehint                                                                                                                |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | ClearPHP     | `always-typehint <https://github.com/dseguy/clearPHP/tree/master/rules/always-typehint.md>`__                           |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

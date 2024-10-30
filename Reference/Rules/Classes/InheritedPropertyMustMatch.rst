@@ -29,6 +29,20 @@ This affect public and protected properties. Private properties are immune to th
 
 See also `Properties <https://www.php.net/manual/en/language.oop5.properties.php>`_.
 
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Type+of+b%3A%3A%24a+must+not+be+defined+%28as+in+class+a%29.html>`_
+  + `1 <https://php-errors.readthedocs.io/en/latest/messages/Type+of+b%3A%3A%24a+must+be+array+%28as+in+class+a%29.html>`_
+
+
+
+Connex PHP features
+-------------------
+
+  + `inheritance <https://php-dictionary.readthedocs.io/en/latest/dictionary/inheritance.ini.html>`_
+  + `property <https://php-dictionary.readthedocs.io/en/latest/dictionary/property.ini.html>`_
+
 
 Suggestions
 ___________
@@ -56,8 +70,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                                                                                                              |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                                                                                                         |
-+--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | inheritance, property                                                                                                                                                                                        |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Note         | This issue may lint but will not run                                                                                                                                                                         |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

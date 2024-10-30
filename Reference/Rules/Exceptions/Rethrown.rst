@@ -25,6 +25,11 @@ Those issues often happen when a catch structure was positioned for debug purpos
 
 See also `What are the best practices for catching and re-throwing exceptions? <https://stackoverflow.com/questions/5551668/what-are-the-best-practices-for-catching-and-re-throwing-exceptions/5551828>`_.
 
+Connex PHP features
+-------------------
+
+  + `exception <https://php-dictionary.readthedocs.io/en/latest/dictionary/exception.ini.html>`_
+
 
 Suggestions
 ___________
@@ -53,8 +58,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                    |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | exception                                                                                                               |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Examples     | :ref:`case-prestashop-exceptions-rethrown`                                                                              |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

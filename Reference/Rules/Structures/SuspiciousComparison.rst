@@ -25,6 +25,11 @@ Original idea by `Vladimir Reznichenko <https://twitter.com/kalessil>`_.
    }
    
    ?>
+Connex PHP features
+-------------------
+
+  + `comparison <https://php-dictionary.readthedocs.io/en/latest/dictionary/comparison.ini.html>`_
+
 
 Suggestions
 ___________
@@ -53,8 +58,6 @@ _____
 | Time To Fix  | Instant (5 mins)                                                                                                        |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | comparison                                                                                                              |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Examples     | :ref:`case-phpipam-structures-suspiciouscomparison`, :ref:`case-expressionengine-structures-suspiciouscomparison`       |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

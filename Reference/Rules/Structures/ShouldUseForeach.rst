@@ -37,6 +37,12 @@ Should Use Foreach
 
 See also `foreach <https://www.php.net/manual/en/control-structures.foreach.php>`_ and `5 Ways To Loop Through An Array In PHP <https://www.codewall.co.uk/5-ways-to-loop-through-array-php/>`_.
 
+Connex PHP features
+-------------------
+
+  + `foreach <https://php-dictionary.readthedocs.io/en/latest/dictionary/foreach.ini.html>`_
+  + `for <https://php-dictionary.readthedocs.io/en/latest/dictionary/for.ini.html>`_
+
 
 Suggestions
 ___________
@@ -63,8 +69,6 @@ _____
 | Time To Fix  | Instant (5 mins)                                                                                                        |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | foreach, for                                                                                                            |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Examples     | :ref:`case-expressionengine-structures-shoulduseforeach`, :ref:`case-woocommerce-structures-shoulduseforeach`           |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

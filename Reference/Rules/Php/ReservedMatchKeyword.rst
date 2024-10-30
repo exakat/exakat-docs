@@ -38,6 +38,19 @@ For that, it becomes a reserved keyword, and cannot be used in various situation
 
 See also `Match expression V2 <https://wiki.php.net/rfc/match_expression_v2>`_.
 
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/syntax+error%2C+unexpected+%27match%27.html>`_
+  + `1 <https://php-errors.readthedocs.io/en/latest/messages/syntax+error%2C+unexpected+%27%2C%27.html>`_
+
+
+
+Connex PHP features
+-------------------
+
+  + `match <https://php-dictionary.readthedocs.io/en/latest/dictionary/match.ini.html>`_
+
 
 Suggestions
 ___________
@@ -64,8 +77,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | match                                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Related rule | :ref:`uses-php-8-match()`                                                                                               |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

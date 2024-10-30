@@ -34,6 +34,11 @@ This command may not detect all possible link for the ``__get()`` and ``__set()`
 
 See also `Magic Methods <https://www.php.net/manual/en/language.oop5.magic.php>`_.
 
+Connex PHP features
+-------------------
+
+  + `magic-method <https://php-dictionary.readthedocs.io/en/latest/dictionary/magic-method.ini.html>`_
+
 
 Specs
 _____
@@ -52,8 +57,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | magic-method                                                                                                            |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

@@ -17,6 +17,18 @@ Iconv With Translit
 
 See also `iconv() <https://www.php.net/manual/en/function.iconv.php>`_.
 
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/iconv%28%29%3A+Wrong+charset%2C+conversion+from+%60UTF-8%27+to+%60ASCII%2F%2FTRANSLIT%27+is+not+allowed.html>`_
+
+
+
+Connex PHP features
+-------------------
+
+  + `iconv <https://php-dictionary.readthedocs.io/en/latest/dictionary/iconv.ini.html>`_
+
 
 Suggestions
 ___________
@@ -44,8 +56,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                    |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | iconv                                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

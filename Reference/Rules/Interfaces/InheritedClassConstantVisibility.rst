@@ -25,6 +25,19 @@ This was not checked until PHP 8.3, where it is now a Fatal `Error <https://www.
    }
    
    ?>
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Access+level+to+x%3A%3AI+must+be+public+%28as+in+interface+i%29.html>`_
+
+
+
+Connex PHP features
+-------------------
+
+  + `visibility <https://php-dictionary.readthedocs.io/en/latest/dictionary/visibility.ini.html>`_
+  + `lazy-loading <https://php-dictionary.readthedocs.io/en/latest/dictionary/lazy-loading.ini.html>`_
+
 
 Suggestions
 ___________
@@ -52,8 +65,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                                          |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                                |
-+--------------+------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | visibility, lazy-loading                                                                                                                 |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_                  |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------+

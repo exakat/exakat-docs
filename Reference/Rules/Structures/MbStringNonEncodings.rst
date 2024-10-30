@@ -40,6 +40,19 @@ Here are some of the dropped encodings, depending on PHP versions:
    	print mb_chr($value, 'elephpant')); 
    }
    ?>
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Argument+%232+%28%24encoding%29+must+be+a+valid+encoding%2C+%22xxx%22+given.html>`_
+
+
+
+Connex PHP features
+-------------------
+
+  + `mbstring <https://php-dictionary.readthedocs.io/en/latest/dictionary/mbstring.ini.html>`_
+  + `encoding <https://php-dictionary.readthedocs.io/en/latest/dictionary/encoding.ini.html>`_
+
 
 Suggestions
 ___________
@@ -64,8 +77,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                    |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | mbstring, encoding                                                                                                      |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

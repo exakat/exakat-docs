@@ -34,6 +34,11 @@ If the array has to be completed rather than created, it is also faster to use +
    $a = [2, 3, 5, 7, 11];
    
    ?>
+Connex PHP features
+-------------------
+
+  + `preprocess <https://php-dictionary.readthedocs.io/en/latest/dictionary/preprocess.ini.html>`_
+
 
 Suggestions
 ___________
@@ -60,8 +65,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                    |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | preprocess                                                                                                              |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

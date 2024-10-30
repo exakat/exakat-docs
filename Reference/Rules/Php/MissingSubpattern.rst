@@ -46,6 +46,18 @@ In PHP 7.4, a new option was added : ``PREG_UNMATCHED_AS_NULL``, which always pr
 
 See also `Bug #73948 Preg_match_all should return NULLs on trailing optional capture groups. <https://bugs.php.net/bug.php?id=73948>`_ and `Bug #50887 preg_match , last optional sub-patterns ignored when empty <https://bugs.php.net/bug.php?id=50887>`_.
 
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Undefined+array+key+2.html>`_
+
+
+
+Connex PHP features
+-------------------
+
+  + `regex <https://php-dictionary.readthedocs.io/en/latest/dictionary/regex.ini.html>`_
+
 
 Suggestions
 ___________
@@ -75,8 +87,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                                                                                                            |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                                                                                                  |
-+--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | regex                                                                                                                                                                                                      |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Examples     | :ref:`case-phpmyadmin-php-missingsubpattern`, :ref:`case-spip-php-missingsubpattern`                                                                                                                       |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

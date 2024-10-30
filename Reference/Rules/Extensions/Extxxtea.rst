@@ -30,6 +30,11 @@ It is different from the original XXTEA encryption algorithm. It encrypts and de
 
 See also `PECL ext/xxtea <https://pecl.php.net/package/xxtea>`_ and `ext/xxtea on Github <https://github.com/xxtea/xxtea-pecl>`_.
 
+Connex PHP features
+-------------------
+
+  + `xxtea <https://php-dictionary.readthedocs.io/en/latest/dictionary/xxtea.ini.html>`_
+
 
 Specs
 _____
@@ -48,8 +53,6 @@ _____
 | Time To Fix  |                                                                                                                                                                                         |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                                                                               |
-+--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | xxtea                                                                                                                                                                                   |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Community Edition <https://www.exakat.io/community-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

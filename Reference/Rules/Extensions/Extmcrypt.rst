@@ -71,6 +71,13 @@ This is an interface to the mcrypt library, which supports a wide variety of blo
 
 See also `extension mcrypt <http://www.php.net/manual/en/book.mcrypt.php>`_ and `mcrypt <http://mcrypt.sourceforge.net/>`_.
 
+Connex PHP features
+-------------------
+
+  + `crypto <https://php-dictionary.readthedocs.io/en/latest/dictionary/crypto.ini.html>`_
+  + `libsodium <https://php-dictionary.readthedocs.io/en/latest/dictionary/libsodium.ini.html>`_
+  + `openssl <https://php-dictionary.readthedocs.io/en/latest/dictionary/openssl.ini.html>`_
+
 
 Specs
 _____
@@ -89,8 +96,6 @@ _____
 | Time To Fix  | Slow (1 hour)                                                                                                                                                                                  |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                                                                                      |
-+--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | crypto, libsodium, openssl                                                                                                                                                                     |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Community Edition <https://www.exakat.io/community-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_        |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

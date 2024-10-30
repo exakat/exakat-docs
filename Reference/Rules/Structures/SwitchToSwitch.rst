@@ -55,6 +55,12 @@ Note that simple switch statement, which compare a variable to a literal are opt
 
 See also `PHP 7.2's switch optimisations <https://derickrethans.nl/php7.2-switch.html>`_ and `Is Your Code Readable By Humans? Cognitive Complexity Tells You <https://www.tomasvotruba.cz/blog/2018/05/21/is-your-code-readable-by-humans-cognitive-complexity-tells-you/>`_.
 
+Connex PHP features
+-------------------
+
+  + `switch <https://php-dictionary.readthedocs.io/en/latest/dictionary/switch.ini.html>`_
+  + `match <https://php-dictionary.readthedocs.io/en/latest/dictionary/match.ini.html>`_
+
 
 Suggestions
 ___________
@@ -82,8 +88,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                    |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | switch, match                                                                                                           |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Examples     | :ref:`case-thelia-structures-switchtoswitch`, :ref:`case-xoops-structures-switchtoswitch`                               |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

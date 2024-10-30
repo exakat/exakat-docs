@@ -27,6 +27,13 @@ Magic methods cannot be `static <https://www.php.net/manual/en/language.oop5.sta
    
    }
    ?>
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Non-static+method+x%3A%3Afoo%28%29+cannot+be+called+statically.html>`_
+
+
+
 
 Suggestions
 ___________

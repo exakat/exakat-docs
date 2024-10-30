@@ -32,6 +32,11 @@ The analyzed code has less than 10% of one of the three : for consistency reason
    catch (\Error $error)         { $log->log($error->getMessage();}
    catch (\Exception $exception) { $log->log($exception->getMessage();}
    ?>
+Connex PHP features
+-------------------
+
+  + `exception <https://php-dictionary.readthedocs.io/en/latest/dictionary/exception.ini.html>`_
+
 
 Suggestions
 ___________
@@ -58,8 +63,6 @@ _____
 | Time To Fix  | Slow (1 hour)                                                                                                           |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | exception                                                                                                               |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

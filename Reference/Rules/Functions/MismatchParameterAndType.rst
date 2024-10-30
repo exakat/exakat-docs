@@ -20,6 +20,13 @@ This is mostly semantics, so it will affect the coder and the auditor of the cod
    function bar(int $int) { }
    
    ?>
+Connex PHP features
+-------------------
+
+  + `parameter <https://php-dictionary.readthedocs.io/en/latest/dictionary/parameter.ini.html>`_
+  + `type <https://php-dictionary.readthedocs.io/en/latest/dictionary/type.ini.html>`_
+  + `semantics <https://php-dictionary.readthedocs.io/en/latest/dictionary/semantics.ini.html>`_
+
 
 Suggestions
 ___________
@@ -46,8 +53,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | parameter, type, semantics                                                                                              |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

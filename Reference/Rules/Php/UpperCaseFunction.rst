@@ -15,6 +15,12 @@ Unusual Case For PHP Functions
    ECHO STRTOLOWER('This String');
    
    ?>
+Connex PHP features
+-------------------
+
+  + `function <https://php-dictionary.readthedocs.io/en/latest/dictionary/function.ini.html>`_
+  + `coding-convention <https://php-dictionary.readthedocs.io/en/latest/dictionary/coding-convention.ini.html>`_
+
 
 Suggestions
 ___________
@@ -41,8 +47,6 @@ _____
 | Time To Fix  | Instant (5 mins)                                                                                                                     |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                                 |
-+--------------+--------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | function, coding-convention                                                                                                          |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_              |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------+

@@ -28,6 +28,11 @@ While this is syntactically correct, it is unusual that defined resources are us
    }
    
    ?>
+Connex PHP features
+-------------------
+
+  + `property <https://php-dictionary.readthedocs.io/en/latest/dictionary/property.ini.html>`_
+
 
 Suggestions
 ___________
@@ -55,8 +60,6 @@ _____
 | Time To Fix  | Slow (1 hour)                                                                                                           |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | property                                                                                                                |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

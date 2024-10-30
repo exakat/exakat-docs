@@ -30,6 +30,11 @@ Named subpatterns may also be shifted in the regex without impact on the resulti
 
 See also `Subpatterns <https://www.php.net/manual/en/regexp.reference.subpatterns.php>`_.
 
+Connex PHP features
+-------------------
+
+  + `regex <https://php-dictionary.readthedocs.io/en/latest/dictionary/regex.ini.html>`_
+
 
 Suggestions
 ___________
@@ -56,8 +61,6 @@ _____
 | Time To Fix  |                                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                    |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | regex                                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Examples     | :ref:`case-phinx-structures-namedregex`, :ref:`case-shopware-structures-namedregex`                                     |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

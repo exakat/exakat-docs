@@ -22,7 +22,7 @@ Total : 34 analysis
 * :ref:`new-functions-in-php-8.1`
 * :ref:`php-8.1-removed-functions`
 * :ref:`never-keyword`
-* :ref:`mixed-keyword`
+* :ref:`the-mixed-keyword`
 * :ref:`false-to-array-conversion`
 * :ref:`float-conversion-as-index`
 * :ref:`cannot-call-static-trait-method-directly`

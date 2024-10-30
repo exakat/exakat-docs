@@ -39,6 +39,12 @@ Performances : simplifying a `closure <https://www.php.net/`closure <https://www
 
 See also `Closure class <https://www.php.net/closure>`_ and `Callbacks / Callables <https://www.php.net/manual/en/language.types.callable.php>`_.
 
+Connex PHP features
+-------------------
+
+  + `closure <https://php-dictionary.readthedocs.io/en/latest/dictionary/closure.ini.html>`_
+  + `callback <https://php-dictionary.readthedocs.io/en/latest/dictionary/callback.ini.html>`_
+
 
 Suggestions
 ___________
@@ -66,8 +72,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                                                                                                    |
 +--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                                                                                          |
-+--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | closure, callback                                                                                                                                                                                  |
 +--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Examples     | :ref:`case-tine20-functions-closure2string`, :ref:`case-nextcloud-functions-closure2string`                                                                                                        |
 +--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

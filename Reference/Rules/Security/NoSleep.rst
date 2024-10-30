@@ -27,6 +27,12 @@ As much as possible, avoid delaying the end of the script.
    // Is it now possible to saturate the webserver in 1 s ? 
    
    ?>
+Connex PHP features
+-------------------
+
+  + `sleep <https://php-dictionary.readthedocs.io/en/latest/dictionary/sleep.ini.html>`_
+  + `cli <https://php-dictionary.readthedocs.io/en/latest/dictionary/cli.ini.html>`_
+
 
 Suggestions
 ___________
@@ -54,8 +60,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                    |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | sleep, cli                                                                                                              |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

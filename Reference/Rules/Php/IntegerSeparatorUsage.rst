@@ -21,6 +21,11 @@ Numeric Literal Separators were introduced in PHP 7.4 and are not backward compa
 
 See also `PHP RFC: Numeric Literal Separator <https://wiki.php.net/rfc/numeric_literal_separator>`_.
 
+Connex PHP features
+-------------------
+
+  + `integer-separator <https://php-dictionary.readthedocs.io/en/latest/dictionary/integer-separator.ini.html>`_
+
 
 Specs
 _____
@@ -39,8 +44,6 @@ _____
 | Time To Fix  |                                                                                                                                                                                                |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                                                                                      |
-+--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | integer-separator                                                                                                                                                                              |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Community Edition <https://www.exakat.io/community-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_        |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

@@ -34,6 +34,11 @@ Nowadays, conflicts appear between components, which claim the same name.
 
 See also `Using namespaces: fallback to global function/constant <https://www.php.net/manual/en/language.namespaces.fallback.php>`_.
 
+Connex PHP features
+-------------------
+
+  + `global-space <https://php-dictionary.readthedocs.io/en/latest/dictionary/global-space.ini.html>`_
+
 
 Suggestions
 ___________
@@ -60,8 +65,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                    |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | global-space                                                                                                            |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

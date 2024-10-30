@@ -21,6 +21,18 @@ Until PHP 8.1, it was magically turned into an empty string.
 
 See also `PHP RFC: Deprecate passing null to non-nullable arguments of internal functions <https://wiki.php.net/rfc/deprecate_null_to_scalar_internal_arg>`_.
 
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Passing+null+to+parameter+%232+%28%24offset%29+of+type+int+is+deprecated.html>`_
+
+
+
+Connex PHP features
+-------------------
+
+  + `null <https://php-dictionary.readthedocs.io/en/latest/dictionary/null.ini.html>`_
+
 
 Specs
 _____
@@ -39,8 +51,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                                                                                                                |
 +--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                                                                                                           |
-+--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | null                                                                                                                                                                                                           |
 +--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_                                                                                        |
 +--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

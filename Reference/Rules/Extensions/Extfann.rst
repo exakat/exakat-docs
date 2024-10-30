@@ -36,6 +36,11 @@ PHP binding for ``FANN`` library which implements multi-layer artificial neural 
 
 See also `extension FANN <https://www.php.net/manual/en/book.fann.php>`_, `PHP-ML <https://php-ml.readthedocs.io/en/latest/>`_, `Rubix ML <https://rubixml.com/>`_ and `lib FANN <http://leenissen.dk/>`_.
 
+Connex PHP features
+-------------------
+
+  + `machine-learning <https://php-dictionary.readthedocs.io/en/latest/dictionary/machine-learning.ini.html>`_
+
 
 Specs
 _____
@@ -54,8 +59,6 @@ _____
 | Time To Fix  | Slow (1 hour)                                                                                                                                                                           |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                                                                                    |
-+--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | machine-learning                                                                                                                                                                        |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Community Edition <https://www.exakat.io/community-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

@@ -39,6 +39,12 @@ You may also use `password_hash() <https://www.php.net/password_hash>`_ and `pas
 
 See also `Magic Hashes <https://blog.whitehatsec.com/magic-hashes/>`_ , `What is the best way to compare hashed strings? (PHP) <https://stackoverflow.com/questions/5211132/what-is-the-best-way-to-compare-hashed-strings-php/23959696#23959696>`_ and `md5('240610708') == md5('QNKCDZO') <https://news.ycombinator.com/item?id=9484757>`_.
 
+Connex PHP features
+-------------------
+
+  + `cryptography <https://php-dictionary.readthedocs.io/en/latest/dictionary/cryptography.ini.html>`_
+  + `hash <https://php-dictionary.readthedocs.io/en/latest/dictionary/hash.ini.html>`_
+
 
 Suggestions
 ___________
@@ -67,8 +73,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | cryptography, hash                                                                                                      |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | ClearPHP     | `strict-comparisons <https://github.com/dseguy/clearPHP/tree/master/rules/strict-comparisons.md>`__                     |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

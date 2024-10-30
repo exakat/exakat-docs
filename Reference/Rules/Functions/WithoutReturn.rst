@@ -33,6 +33,12 @@ Functions with the ``void`` or ``never`` return types, are omitted.
 
 See also `return <https://www.php.net/manual/en/function.return.php>`_.
 
+Connex PHP features
+-------------------
+
+  + `return <https://php-dictionary.readthedocs.io/en/latest/dictionary/return.ini.html>`_
+  + `never <https://php-dictionary.readthedocs.io/en/latest/dictionary/never.ini.html>`_
+
 
 Suggestions
 ___________
@@ -59,8 +65,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | return, never                                                                                                           |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

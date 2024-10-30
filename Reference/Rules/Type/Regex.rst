@@ -22,6 +22,19 @@ Regex Inventory
 
 See also `preg_match() <https://www.php.net/preg_match>`_, `ext/mbstring <http://www.php.net/manual/en/book.mbstring.php> `_ and `ext/pcre <http://www.php.net/manual/en/book.pcre.php> `_.
 
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Delimiter+must+not+be+alphanumeric+or+backslash.html>`_
+  + `1 <https://php-errors.readthedocs.io/en/latest/messages/No+ending+delimiter+%27%2F%27.html>`_
+
+
+
+Connex PHP features
+-------------------
+
+  + `regex <https://php-dictionary.readthedocs.io/en/latest/dictionary/regex.ini.html>`_
+
 
 Specs
 _____
@@ -40,8 +53,6 @@ _____
 | Time To Fix  |                                                                                                                                                                                         |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                                                                                    |
-+--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | regex                                                                                                                                                                                   |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Community Edition <https://www.exakat.io/community-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

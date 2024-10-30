@@ -19,6 +19,18 @@ Extensions/Exttaint
 
 See also `taint <https://www.php.net/manual/en/book.taint.php>`_ and `taint on github <https://github.com/laruence/taint>`_.
 
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Attempt+to+echo+a+string+that+might+be+tainted.html>`_
+
+
+
+Connex PHP features
+-------------------
+
+  + `taint <https://php-dictionary.readthedocs.io/en/latest/dictionary/taint.ini.html>`_
+
 
 Specs
 _____
@@ -37,8 +49,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | taint                                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

@@ -53,6 +53,11 @@ The caching is not possible if the processing of the object changes the value of
 
 See also `__get performance questions with PHP <https://stackoverflow.com/questions/3330852/get-set-call-performance-questions-with-php>`_, :ref:`Make Magic Concrete <make-magic-concrete>` and `Benchmarking magic <https://www.garfieldtech.com/blog/benchmarking-magic>`_.
 
+Connex PHP features
+-------------------
+
+  + `memoization <https://php-dictionary.readthedocs.io/en/latest/dictionary/memoization.ini.html>`_
+
 
 Suggestions
 ___________
@@ -80,8 +85,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                                                            |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                                                  |
-+--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | memoization                                                                                                                                                |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_                                    |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+

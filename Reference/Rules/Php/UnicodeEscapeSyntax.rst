@@ -21,6 +21,20 @@ Unicode Escape Syntax
 
 See also `PHP RFC: Unicode Codepoint Escape Syntax <https://wiki.php.net/rfc/unicode_escape>`_, `Code point <https://en.wikipedia.org/wiki/Code_point>`_ and `Unicode <https://en.wikipedia.org/wiki/Unicode>`_.
 
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Invalid+UTF-8+codepoint+escape%3A+Codepoint+too+large.html>`_
+  + `1 <https://php-errors.readthedocs.io/en/latest/messages/Invalid+UTF-8+codepoint+escape+sequence.html>`_
+
+
+
+Connex PHP features
+-------------------
+
+  + `unicode <https://php-dictionary.readthedocs.io/en/latest/dictionary/unicode.ini.html>`_
+  + `escape-sequence <https://php-dictionary.readthedocs.io/en/latest/dictionary/escape-sequence.ini.html>`_
+
 
 Specs
 _____
@@ -39,8 +53,6 @@ _____
 | Time To Fix  | Slow (1 hour)                                                                                                                                                                                                                                                                                                |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                                                                                                                                                                                                         |
-+--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | unicode, escape-sequence                                                                                                                                                                                                                                                                                     |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_                                                                                                                                                                                      |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

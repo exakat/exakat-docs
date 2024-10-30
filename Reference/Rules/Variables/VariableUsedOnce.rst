@@ -30,6 +30,11 @@ This rule counts variables at the application level, and not at a method scope l
 
 See also `class <https://www.php.net/manual/en/language.oop5.basic.php#language.oop5.basic.class>`_.
 
+Connex PHP features
+-------------------
+
+  + `class <https://php-dictionary.readthedocs.io/en/latest/dictionary/class.ini.html>`_
+
 
 Suggestions
 ___________
@@ -58,8 +63,6 @@ _____
 | Time To Fix  | Instant (5 mins)                                                                                                                             |
 +--------------+----------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                                         |
-+--------------+----------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | class                                                                                                                                        |
 +--------------+----------------------------------------------------------------------------------------------------------------------------------------------+
 | Examples     | :ref:`case-shopware-variables-variableusedonce`, :ref:`case-vanilla-variables-variableusedonce`                                              |
 +--------------+----------------------------------------------------------------------------------------------------------------------------------------------+

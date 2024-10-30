@@ -48,6 +48,18 @@ IDE may help with signature refactoring, such as `Refactoring code <https://www.
 
 See also `Covariance and contravariance (computer science) <https://en.wikipedia.org/wiki/Covariance_and_contravariance_(computer_science)>`_ and `extends <https://www.php.net/manual/en/language.oop5.basic.php#language.oop5.basic.extends>`_.
 
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Declaration+of+a%3A%3Afoo%28%24a%29+should+be+compatible+with+ab1%3A%3Afoo%28%24a%29.html>`_
+
+
+
+Connex PHP features
+-------------------
+
+  + `overwrite <https://php-dictionary.readthedocs.io/en/latest/dictionary/overwrite.ini.html>`_
+
 
 Specs
 _____
@@ -66,8 +78,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                                                                                         |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                                                                               |
-+--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | overwrite                                                                                                                                                                               |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Community Edition <https://www.exakat.io/community-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

@@ -22,6 +22,11 @@ This analysis may be configured with extra PHP extensions or external packages.
 
 See also :ref:`Unknown Parameter Name <unknown-parameter-name>`.
 
+Connex PHP features
+-------------------
+
+  + `named-parameter <https://php-dictionary.readthedocs.io/en/latest/dictionary/named-parameter.ini.html>`_
+
 
 Suggestions
 ___________
@@ -50,8 +55,6 @@ _____
 | Time To Fix  | Instant (5 mins)                                                                                                                                     |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                                                 |
-+--------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | named-parameter                                                                                                                                      |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_                              |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------+

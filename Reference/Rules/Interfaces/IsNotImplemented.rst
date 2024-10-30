@@ -31,6 +31,20 @@ This situation usually detects code that was forgotten during a refactorisation 
 
 See also `Interfaces <https://www.php.net/manual/en/language.oop5.interfaces.php>`_.
 
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Class+x+contains+2+abstract+methods+and+must+therefore+be+declared+abstract+or+implement+the+remaining+methods+%28x%3A%3Am1%2C+x%3A%3Am2%29.html>`_
+
+
+
+Connex PHP features
+-------------------
+
+  + `interface <https://php-dictionary.readthedocs.io/en/latest/dictionary/interface.ini.html>`_
+  + `abstract <https://php-dictionary.readthedocs.io/en/latest/dictionary/abstract.ini.html>`_
+  + `implements <https://php-dictionary.readthedocs.io/en/latest/dictionary/implements.ini.html>`_
+
 
 Suggestions
 ___________
@@ -60,8 +74,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                                                                                                                                                                            |
 +--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                                                                                                                                                                       |
-+--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | interface, abstract, implements                                                                                                                                                                                                                                            |
 +--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Note         | This issue may lint but will not run                                                                                                                                                                                                                                       |
 +--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

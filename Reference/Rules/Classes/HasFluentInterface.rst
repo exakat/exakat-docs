@@ -40,6 +40,11 @@ Class Has Fluent Interface
 
 See also `Fluent interface are evil <https://ocramius.github.io/blog/fluent-interfaces-are-evil/>`_, `The basics of Fluent interfaces in PHP <https://tournasdimitrios1.wordpress.com/2011/04/11/the-basics-of-fluent-interfaces-in-php/>`_ and `FluentInterface <https://martinfowler.com/bliki/FluentInterface.html>`_.
 
+Connex PHP features
+-------------------
+
+  + `fluent-interface <https://php-dictionary.readthedocs.io/en/latest/dictionary/fluent-interface.ini.html>`_
+
 
 Specs
 _____
@@ -58,8 +63,6 @@ _____
 | Time To Fix  |                                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                    |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | fluent-interface                                                                                                        |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

@@ -36,6 +36,12 @@ In PHP 8.4, the implicit nullable type are deprecated. They might be removed in 
 
 See also `Nullable types <https://wiki.php.net/rfc/nullable_types>`_, `Type declaration <https://www.php.net/manual/en/functions.arguments.php#functions.arguments.type-declaration>`_, `Deprecate implicit nullable parameters #3535 <https://github.com/php/php-src/pull/3535>`_ and `PHP RFC: Deprecate implicitly nullable parameter types <https://wiki.php.net/rfc/deprecate-implicitly-nullable-types>`_.
 
+Connex PHP features
+-------------------
+
+  + `typehint <https://php-dictionary.readthedocs.io/en/latest/dictionary/typehint.ini.html>`_
+  + `nullable <https://php-dictionary.readthedocs.io/en/latest/dictionary/nullable.ini.html>`_
+
 
 Suggestions
 ___________
@@ -64,8 +70,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                                                            |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                                                  |
-+--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | typehint, nullable                                                                                                                                         |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_                                    |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+

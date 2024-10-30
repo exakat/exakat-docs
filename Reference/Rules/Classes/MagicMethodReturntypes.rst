@@ -5,7 +5,7 @@
 Magic Method Returntype Is Restricted
 +++++++++++++++++++++++++++++++++++++
 
-  Some magic method have compulsory return types. 
+  Some PHP magic method have compulsory return types. This means that the type is compulsory, and it is applied by default, even if it is explicitely omitted. On the other hand, any other type is forbidden, and reported as such by PHP. 
 
 + `__destruct() <https://www.php.net/manual/en/language.oop5.decon.php>`_ : ``void``
 + `__construct() <https://www.php.net/manual/en/language.oop5.decon.php>`_ : ``void``
@@ -16,9 +16,21 @@ Magic Method Returntype Is Restricted
 + `__isset() <https://www.php.net/manual/en/language.oop5.magic.php>`_ : ``bool``
 + `__toString() <https://www.php.net/manual/en/language.oop5.magic.php>`_ : ``string``
 
-The others may use mixed, or a more restrictive one.
+The others magic methods may use mixed, or a more restrictive type.
 
 See also `Magic Methods <https://www.php.net/manual/en/language.oop5.magic.php>`_.
+
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Return+type+must+be+array+when+declared+in.html>`_
+
+
+
+Connex PHP features
+-------------------
+
+  + `magic-method <https://php-dictionary.readthedocs.io/en/latest/dictionary/magic-method.ini.html>`_
 
 
 Suggestions

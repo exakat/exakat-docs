@@ -25,6 +25,12 @@ Recycled variables leads to confusion: with the new initialization, the variable
 
 See also `Please Don’t Recycle Local Variables <https://daedtech.com/please-dont-recycle-local-variables/>`_.
 
+Connex PHP features
+-------------------
+
+  + `variable <https://php-dictionary.readthedocs.io/en/latest/dictionary/variable.ini.html>`_
+  + `readability <https://php-dictionary.readthedocs.io/en/latest/dictionary/readability.ini.html>`_
+
 
 Suggestions
 ___________
@@ -52,8 +58,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                    |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | variable, readability                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

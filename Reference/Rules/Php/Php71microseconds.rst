@@ -25,6 +25,11 @@ This evolution impacts mostly exact comparisons (== and ===). Non-equality (!= a
 
 See also `Backward incompatible changes <https://www.php.net/manual/en/migration71.incompatible.php>`_.
 
+Connex PHP features
+-------------------
+
+  + `microtime <https://php-dictionary.readthedocs.io/en/latest/dictionary/microtime.ini.html>`_
+
 
 Suggestions
 ___________
@@ -53,8 +58,6 @@ _____
 | Changed Behavior | PHP 7.1 - `More <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/.html>`__                                           |
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------+
 | Precision        | Very high                                                                                                                            |
-+------------------+--------------------------------------------------------------------------------------------------------------------------------------+
-| Features         | microtime                                                                                                                            |
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------+
 | Available in     | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_              |
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------+

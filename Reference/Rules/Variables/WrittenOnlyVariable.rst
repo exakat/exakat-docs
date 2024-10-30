@@ -22,6 +22,11 @@ When the variables are only written, it takes time to process them, while discar
    $a .= $b + 3; 
    
    ?>
+Connex PHP features
+-------------------
+
+  + `variable <https://php-dictionary.readthedocs.io/en/latest/dictionary/variable.ini.html>`_
+
 
 Suggestions
 ___________
@@ -50,8 +55,6 @@ _____
 | Time To Fix  | Slow (1 hour)                                                                                                           |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | variable                                                                                                                |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | ClearPHP     | `no-unused-variable <https://github.com/dseguy/clearPHP/tree/master/rules/no-unused-variable.md>`__                     |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

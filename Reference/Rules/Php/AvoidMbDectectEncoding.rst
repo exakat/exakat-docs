@@ -19,6 +19,11 @@ For example, UTF-8 and ISO-8859-1 share some common characters : when a string i
 
 See also `mb_encoding_detect <https://php.net/mb-encoding-detect>`_, `PHP vs. The Developer: Encoding Character Sets <https://www.daganhenderson.com/blog/2013/07/php-encoding-character-sets>`_ and `DPC2019: Of representation and interpretation: A unified theory - Arnout Boks <https://youtu.be/K2zS6vbBb9A?t=1375>`_.
 
+Connex PHP features
+-------------------
+
+  + `mbstring <https://php-dictionary.readthedocs.io/en/latest/dictionary/mbstring.ini.html>`_
+
 
 Suggestions
 ___________
@@ -45,8 +50,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                    |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | mbstring                                                                                                                |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

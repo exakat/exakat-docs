@@ -48,6 +48,11 @@ It is recommended to use the `__clone() <https://www.php.net/manual/en/language.
 
 See also `PHP Clone and Shallow vs Deep Copying <http://jacob-walker.com/blog/php-clone-and-shallow-vs-deep-copying.html>`_ and `Cloning objects <https://www.php.net/manual/en/language.oop5.cloning.php>`_.
 
+Connex PHP features
+-------------------
+
+  + `clone <https://php-dictionary.readthedocs.io/en/latest/dictionary/clone.ini.html>`_
+
 
 Specs
 _____
@@ -66,8 +71,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | clone                                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

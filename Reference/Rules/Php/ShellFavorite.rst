@@ -33,6 +33,11 @@ It was found that one of those three is actually being used over 90% of the time
 
 See also `Execution Operators <https://www.php.net/manual/en/language.operators.execution.php>`_, `shell_exec() <https://www.php.net/shell_exec>`_ and `ptlis/shell-command <https://packagist.org/packages/ptlis/shell-command>`_.
 
+Connex PHP features
+-------------------
+
+  + `shell <https://php-dictionary.readthedocs.io/en/latest/dictionary/shell.ini.html>`_
+
 
 Specs
 _____
@@ -51,8 +56,6 @@ _____
 | Time To Fix  |                                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | shell                                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

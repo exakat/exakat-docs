@@ -32,6 +32,25 @@ Some exceptions have an extra analysis, due to special detection condition : ``P
 
 See also `Predefined Exceptions <https://www.php.net/manual/en/reserved.exceptions.php>`_ and `PharException <https://www.php.net/manual/en/class.pharexception.php>`_.
 
+Connex PHP features
+-------------------
+
+  + `try-catch <https://php-dictionary.readthedocs.io/en/latest/dictionary/try-catch.ini.html>`_
+  + `exception <https://php-dictionary.readthedocs.io/en/latest/dictionary/exception.ini.html>`_
+  + `arithmeticerror <https://php-dictionary.readthedocs.io/en/latest/dictionary/arithmeticerror.ini.html>`_
+  + `divisionbyzeroerror <https://php-dictionary.readthedocs.io/en/latest/dictionary/divisionbyzeroerror.ini.html>`_
+  + `imagickexception <https://php-dictionary.readthedocs.io/en/latest/dictionary/imagickexception.ini.html>`_
+  + `imagickpixelexception <https://php-dictionary.readthedocs.io/en/latest/dictionary/imagickpixelexception.ini.html>`_
+  + `invalidargumentexception <https://php-dictionary.readthedocs.io/en/latest/dictionary/invalidargumentexception.ini.html>`_
+  + `jsonexception <https://php-dictionary.readthedocs.io/en/latest/dictionary/jsonexception.ini.html>`_
+  + `mysqli_sql_exception <https://php-dictionary.readthedocs.io/en/latest/dictionary/mysqli_sql_exception.ini.html>`_
+  + `pdoexception <https://php-dictionary.readthedocs.io/en/latest/dictionary/pdoexception.ini.html>`_
+  + `pharexception <https://php-dictionary.readthedocs.io/en/latest/dictionary/pharexception.ini.html>`_
+  + `reflectionexception <https://php-dictionary.readthedocs.io/en/latest/dictionary/reflectionexception.ini.html>`_
+  + `svmexception <https://php-dictionary.readthedocs.io/en/latest/dictionary/svmexception.ini.html>`_
+  + `typerror <https://php-dictionary.readthedocs.io/en/latest/dictionary/typerror.ini.html>`_
+  + `unexpectedvalueexception <https://php-dictionary.readthedocs.io/en/latest/dictionary/unexpectedvalueexception.ini.html>`_
+
 
 Suggestions
 ___________
@@ -45,28 +64,26 @@ ___________
 Specs
 _____
 
-+--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Short name   | Exceptions/CouldUseTry                                                                                                                                                                                                                                                 |
-+--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Suggestions <ruleset-Suggestions>`                                                                                                                                                                                                     |
-+--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Exakat since | 1.5.0                                                                                                                                                                                                                                                                  |
-+--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| PHP Version  | All                                                                                                                                                                                                                                                                    |
-+--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Severity     | Minor                                                                                                                                                                                                                                                                  |
-+--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Time To Fix  | Quick (30 mins)                                                                                                                                                                                                                                                        |
-+--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Precision    | High                                                                                                                                                                                                                                                                   |
-+--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | try-catch, exception, arithmeticerror, divisionbyzeroerror, imagickexception, imagickpixelexception, invalidargumentexception, jsonexception, mysqli_sql_exception, pdoexception, pharexception, reflectionexception, svmexception, typerror, unexpectedvalueexception |
-+--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Examples     | :ref:`case-mautic-exceptions-couldusetry`                                                                                                                                                                                                                              |
-+--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Related rule | :ref:`eval()-without-try`, :ref:`check-division-by-zero`                                                                                                                                                                                                               |
-+--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_                                                                                                                                                |
-+--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Short name   | Exceptions/CouldUseTry                                                                                                  |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Suggestions <ruleset-Suggestions>`                                                      |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Exakat since | 1.5.0                                                                                                                   |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| PHP Version  | All                                                                                                                     |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Severity     | Minor                                                                                                                   |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Time To Fix  | Quick (30 mins)                                                                                                         |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Precision    | High                                                                                                                    |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Examples     | :ref:`case-mautic-exceptions-couldusetry`                                                                               |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Related rule | :ref:`eval()-without-try`, :ref:`check-division-by-zero`                                                                |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
 
 

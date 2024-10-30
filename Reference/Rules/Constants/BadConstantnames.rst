@@ -27,6 +27,11 @@ The analyzer will report any constant which name is ``__.*.__``, or even ``_.*_`
 
 See also `Constants <https://www.php.net/manual/en/language.constants.php>`_.
 
+Connex PHP features
+-------------------
+
+  + `constant <https://php-dictionary.readthedocs.io/en/latest/dictionary/constant.ini.html>`_
+
 
 Suggestions
 ___________
@@ -53,8 +58,6 @@ _____
 | Time To Fix  | Slow (1 hour)                                                                                                           |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | constant                                                                                                                |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Examples     | :ref:`case-prestashop-constants-badconstantnames`, :ref:`case-zencart-constants-badconstantnames`                       |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

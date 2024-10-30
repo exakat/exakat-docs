@@ -23,6 +23,19 @@ Although such code lints, PHP throws a Fatal `error <https://www.php.net/error>`
 
 See also `Throwable <https://www.php.net/manual/en/class.throwable.php>`_, `Exception <https://www.php.net/manual/en/class.exception.php>`_ and `Error <https://www.php.net/manual/en/class.error.php>`_.
 
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Class+fooThrowable+cannot+implement+interface+Throwable%2C+extend+Exception+or+Error+instead.html>`_
+  + `1 <https://php-errors.readthedocs.io/en/latest/messages/Class+i+cannot+extend+interface+Throwable.html>`_
+
+
+
+Connex PHP features
+-------------------
+
+  + `throwable <https://php-dictionary.readthedocs.io/en/latest/dictionary/throwable.ini.html>`_
+
 
 Suggestions
 ___________
@@ -50,8 +63,6 @@ _____
 | Time To Fix  | Slow (1 hour)                                                                                                                                                    |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                                                        |
-+--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | throwable                                                                                                                                                        |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Note         | This issue may lint but will not run                                                                                                                             |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+

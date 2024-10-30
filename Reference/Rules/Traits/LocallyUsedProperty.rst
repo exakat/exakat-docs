@@ -26,6 +26,12 @@ Locally Used Property In Trait
    $foo = new X();
    $foo->unused = 'here'; // property $unused is used outside the trait definition
    ?>
+Connex PHP features
+-------------------
+
+  + `trait <https://php-dictionary.readthedocs.io/en/latest/dictionary/trait.ini.html>`_
+  + `property <https://php-dictionary.readthedocs.io/en/latest/dictionary/property.ini.html>`_
+
 
 Specs
 _____
@@ -44,8 +50,6 @@ _____
 | Time To Fix  | Slow (1 hour)                                                                                                           |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | trait, property                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

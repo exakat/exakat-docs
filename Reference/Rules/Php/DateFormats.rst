@@ -21,6 +21,11 @@ Date format are detected with calls to `date() <https://www.php.net/date>`_, `st
 
 See also `Date and Time <https://www.php.net/manual/en/book.datetime.php>`_.
 
+Connex PHP features
+-------------------
+
+  + `date <https://php-dictionary.readthedocs.io/en/latest/dictionary/date.ini.html>`_
+
 
 Specs
 _____
@@ -39,8 +44,6 @@ _____
 | Time To Fix  |                                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | date                                                                                                                    |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

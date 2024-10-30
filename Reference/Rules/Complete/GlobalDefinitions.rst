@@ -27,6 +27,12 @@ It currently doesn't work with variables in the global space, as it is not known
    
    
    ?>
+Connex PHP features
+-------------------
+
+  + `global <https://php-dictionary.readthedocs.io/en/latest/dictionary/global.ini.html>`_
+  + `globals <https://php-dictionary.readthedocs.io/en/latest/dictionary/globals.ini.html>`_
+
 
 Specs
 _____
@@ -45,8 +51,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                    |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | global, globals                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

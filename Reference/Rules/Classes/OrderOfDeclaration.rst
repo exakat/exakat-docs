@@ -32,6 +32,13 @@ Optional characteristics, like final, `static <https://www.php.net/manual/en/lan
    }
    
    ?>
+Connex PHP features
+-------------------
+
+  + `class <https://php-dictionary.readthedocs.io/en/latest/dictionary/class.ini.html>`_
+  + `anonymous-class <https://php-dictionary.readthedocs.io/en/latest/dictionary/anonymous-class.ini.html>`_
+  + `abstract <https://php-dictionary.readthedocs.io/en/latest/dictionary/abstract.ini.html>`_
+
 
 Suggestions
 ___________
@@ -58,8 +65,6 @@ _____
 | Time To Fix  |                                                                                                                                      |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Medium                                                                                                                               |
-+--------------+--------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | class, anonymous-class, abstract                                                                                                     |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_              |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------+

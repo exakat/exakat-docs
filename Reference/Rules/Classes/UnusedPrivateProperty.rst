@@ -30,6 +30,11 @@ Being private, those properties are only accessible to the current class or trai
    }
    
    ?>
+Connex PHP features
+-------------------
+
+  + `unused <https://php-dictionary.readthedocs.io/en/latest/dictionary/unused.ini.html>`_
+
 
 Suggestions
 ___________
@@ -59,8 +64,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | unused                                                                                                                  |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Examples     | :ref:`case-openemr-classes-unusedprivateproperty`, :ref:`case-phpadsnew-classes-unusedprivateproperty`                  |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

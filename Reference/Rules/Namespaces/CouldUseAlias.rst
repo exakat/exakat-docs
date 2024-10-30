@@ -42,6 +42,12 @@ This applies to classes (as full name or prefix), and to constants and functions
 
 See also `Using namespaces: Aliasing/Importing ¶ <https://www.php.net/manual/en/language.namespaces.importing.php>`_.
 
+Connex PHP features
+-------------------
+
+  + `namespace <https://php-dictionary.readthedocs.io/en/latest/dictionary/namespace.ini.html>`_
+  + `use-alias <https://php-dictionary.readthedocs.io/en/latest/dictionary/use-alias.ini.html>`_
+
 
 Suggestions
 ___________
@@ -70,8 +76,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                    |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | namespace, use-alias                                                                                                    |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

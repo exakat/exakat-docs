@@ -23,6 +23,18 @@ Use NullSafe Operator
 
 See also `PHP RFC: Nullsafe operator <https://wiki.php.net/rfc/nullsafe_operator>`_.
 
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Call+to+a+member+function+m%28%29+on+null.html>`_
+
+
+
+Connex PHP features
+-------------------
+
+  + `object-operator <https://php-dictionary.readthedocs.io/en/latest/dictionary/object-operator.ini.html>`_
+
 
 Specs
 _____
@@ -41,8 +53,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                                                                                         |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                                                                               |
-+--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | object-operator                                                                                                                                                                         |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Community Edition <https://www.exakat.io/community-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

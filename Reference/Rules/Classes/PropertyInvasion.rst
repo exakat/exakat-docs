@@ -28,6 +28,11 @@ With a method that returns a reference, a link is created between an external va
    print $x->get(); // 2
    
    ?>
+Connex PHP features
+-------------------
+
+  + `object-invasion <https://php-dictionary.readthedocs.io/en/latest/dictionary/object-invasion.ini.html>`_
+
 
 Suggestions
 ___________
@@ -54,8 +59,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                          |
 +--------------+--------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Medium                                                                                                                   |
-+--------------+--------------------------------------------------------------------------------------------------------------------------+
-| Features     | object-invasion                                                                                                          |
 +--------------+--------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_  |
 +--------------+--------------------------------------------------------------------------------------------------------------------------+

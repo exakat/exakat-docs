@@ -66,6 +66,11 @@ This analysis is distinct from Structures/MaxLevelOfIdentation, which only repor
 
 See also :ref:`Max Level Of Nesting <max-level-of-nesting>`.
 
+Connex PHP features
+-------------------
+
+  + `indentation <https://php-dictionary.readthedocs.io/en/latest/dictionary/indentation.ini.html>`_
+
 
 Suggestions
 ___________
@@ -93,8 +98,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | indentation                                                                                                             |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

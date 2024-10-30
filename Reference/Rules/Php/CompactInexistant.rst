@@ -23,6 +23,18 @@ For performances reasons, this analysis only works inside methods and functions.
 
 See also `compact <http://www.php.net/compact>`_ and `PHP RFC: Make compact function reports undefined passed variables <https://wiki.php.net/rfc/compact>`_.
 
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/compact%28%29%3A+Undefined+variable+%24a.html>`_
+
+
+
+Connex PHP features
+-------------------
+
+  + `compact <https://php-dictionary.readthedocs.io/en/latest/dictionary/compact.ini.html>`_
+
 
 Suggestions
 ___________
@@ -50,8 +62,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                                                                                |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                                                                           |
-+--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | compact                                                                                                                                                                        |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_                                                        |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

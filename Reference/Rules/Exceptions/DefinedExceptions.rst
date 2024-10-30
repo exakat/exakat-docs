@@ -23,6 +23,12 @@ Defined Exceptions
 
 See also `Predefined Exceptions <https://www.php.net/manual/en/reserved.exceptions.php>`_ and `Exceptions <https://www.php.net/manual/en/language.exceptions.php>`_.
 
+Connex PHP features
+-------------------
+
+  + `predefined-exception <https://php-dictionary.readthedocs.io/en/latest/dictionary/predefined-exception.ini.html>`_
+  + `exception <https://php-dictionary.readthedocs.io/en/latest/dictionary/exception.ini.html>`_
+
 
 Specs
 _____
@@ -41,8 +47,6 @@ _____
 | Time To Fix  |                                                                                                                                                                                         |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                                                                               |
-+--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | predefined-exception, exception                                                                                                                                                         |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Community Edition <https://www.exakat.io/community-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

@@ -40,6 +40,11 @@ When a property name is getting used more often, it is worth creating a concrete
 
 See also :ref:`Memoize MagicCall <memoize-magiccall>`.
 
+Connex PHP features
+-------------------
+
+  + `magic-method <https://php-dictionary.readthedocs.io/en/latest/dictionary/magic-method.ini.html>`_
+
 
 Suggestions
 ___________
@@ -66,8 +71,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                          |
 +--------------+--------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                     |
-+--------------+--------------------------------------------------------------------------------------------------------------------------+
-| Features     | magic-method                                                                                                             |
 +--------------+--------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_  |
 +--------------+--------------------------------------------------------------------------------------------------------------------------+

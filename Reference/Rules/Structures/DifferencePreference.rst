@@ -28,6 +28,11 @@ It happens that != and <> are used depending on coding style and files. One file
 
 See also `Comparison Operators <https://www.php.net/manual/en/language.operators.comparison.php>`_.
 
+Connex PHP features
+-------------------
+
+  + `operator <https://php-dictionary.readthedocs.io/en/latest/dictionary/operator.ini.html>`_
+
 
 Specs
 _____
@@ -46,8 +51,6 @@ _____
 | Time To Fix  |                                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | operator                                                                                                                |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

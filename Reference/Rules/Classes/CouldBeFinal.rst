@@ -25,6 +25,11 @@ Prevent the classes from being subclassed by making them ``final``. Sometimes, c
 
 See also `Negative architecture, and assumptions about code <https://matthiasnoback.nl/2018/08/negative-architecture-and-assumptions-about-code/>`_ and `When to declare methods final <https://slamdunk.github.io/blog/when-to-declare-methods-final/>`_.
 
+Connex PHP features
+-------------------
+
+  + `final <https://php-dictionary.readthedocs.io/en/latest/dictionary/final.ini.html>`_
+
 
 Suggestions
 ___________
@@ -52,8 +57,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                                                            |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                                                  |
-+--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | final                                                                                                                                                      |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_                                    |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+

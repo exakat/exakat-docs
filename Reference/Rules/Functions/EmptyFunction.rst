@@ -7,10 +7,11 @@ Empty Function
 
   Function or method whose body is empty. 
 
-Such functions or methods are rarely useful. As a bare minimum, the function should return some useful value, even if constant.
+Such functions or methods are rarely useful. As a bare minimum, the function should return some useful value, even if constant; it may also throw an `exception <https://www.php.net/exception>`_, trigger an `error <https://www.php.net/error>`_ or simply `die <https://www.php.net/die>`_.
 
-A method is considered empty when it contains nothing, or contains expressions without impact. 
-Methods which overwrite another methods are omitted. Methods which are the concrete version of an abstract method are considered.
+A method is considered empty when it contains nothing and it doesn't overwrite a `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_'s method. Constructors with promoted properties are considered non-empty.
+
+Methods which are the concrete version of an abstract method are considered.
 
 .. code-block:: php
    
@@ -33,6 +34,11 @@ Methods which overwrite another methods are omitted. Methods which are the concr
    }
    
    ?>
+Connex PHP features
+-------------------
+
+  + `function <https://php-dictionary.readthedocs.io/en/latest/dictionary/function.ini.html>`_
+
 
 Suggestions
 ___________
@@ -60,8 +66,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                    |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | function                                                                                                                |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Examples     | :ref:`case-contao-functions-emptyfunction`                                                                              |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

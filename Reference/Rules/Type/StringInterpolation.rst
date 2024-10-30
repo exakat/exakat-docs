@@ -32,6 +32,12 @@ It is advised to add curly brackets around those structures to make them non-amb
 
 See also `Double quoted <https://www.php.net/manual/en/language.types.string.php#language.types.string.syntax.double>`_.
 
+Connex PHP features
+-------------------
+
+  + `string <https://php-dictionary.readthedocs.io/en/latest/dictionary/string.ini.html>`_
+  + `interpolation <https://php-dictionary.readthedocs.io/en/latest/dictionary/interpolation.ini.html>`_
+
 
 Specs
 _____
@@ -50,8 +56,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                                      |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                            |
-+--------------+--------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | string, interpolation                                                                                                                |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_              |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------+

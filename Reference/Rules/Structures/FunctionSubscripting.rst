@@ -34,6 +34,11 @@ Storing the `result <https://www.php.net/result>`_ in a variable is still useful
 
 See also `Accessing array elements with square bracket syntax <https://www.php.net/manual/en/language.types.array.php#language.types.array.syntax.accessing>`_.
 
+Connex PHP features
+-------------------
+
+  + `subscripting <https://php-dictionary.readthedocs.io/en/latest/dictionary/subscripting.ini.html>`_
+
 
 Specs
 _____
@@ -52,8 +57,6 @@ _____
 | Time To Fix  | Instant (5 mins)                                                                                                                                                                               |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                                                                                           |
-+--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | subscripting                                                                                                                                                                                   |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Community Edition <https://www.exakat.io/community-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_        |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

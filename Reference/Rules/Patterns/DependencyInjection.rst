@@ -37,6 +37,12 @@ Dependency Injection
 
 See also `Understanding Dependency Injection <http://php-di.org/doc/understanding-di.html>`_.
 
+Connex PHP features
+-------------------
+
+  + `dependency-injection <https://php-dictionary.readthedocs.io/en/latest/dictionary/dependency-injection.ini.html>`_
+  + `pattern <https://php-dictionary.readthedocs.io/en/latest/dictionary/pattern.ini.html>`_
+
 
 Specs
 _____
@@ -55,8 +61,6 @@ _____
 | Time To Fix  |                                                                                                                                                                                         |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                                                                               |
-+--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | dependency-injection, pattern                                                                                                                                                           |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Community Edition <https://www.exakat.io/community-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

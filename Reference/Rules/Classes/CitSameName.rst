@@ -20,6 +20,11 @@ In PHP 4, and PHP 5 before namespaces, it was not possible to have classes with 
        trait a     { /* some definitions */ }
        enum a      { /* some definitions */ } // PHP 8.1
    ?>
+Connex PHP features
+-------------------
+
+  + `class <https://php-dictionary.readthedocs.io/en/latest/dictionary/class.ini.html>`_
+
 
 Suggestions
 ___________
@@ -47,8 +52,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | class                                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Examples     | :ref:`case-shopware-classes-citsamename`, :ref:`case-nextcloud-classes-citsamename`                                     |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

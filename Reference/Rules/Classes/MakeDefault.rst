@@ -37,6 +37,11 @@ Default values will save some instructions in the constructor, and makes the val
 
 See also `PHP Default parameters <https://www.phptutorial.net/php-tutorial/php-default-parameters/>`_.
 
+Connex PHP features
+-------------------
+
+  + `default-value <https://php-dictionary.readthedocs.io/en/latest/dictionary/default-value.ini.html>`_
+
 
 Suggestions
 ___________
@@ -63,8 +68,6 @@ _____
 | Time To Fix  | Instant (5 mins)                                                                                                          |
 +--------------+---------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                 |
-+--------------+---------------------------------------------------------------------------------------------------------------------------+
-| Features     | default-value                                                                                                             |
 +--------------+---------------------------------------------------------------------------------------------------------------------------+
 | ClearPHP     | `use-properties-default-values <https://github.com/dseguy/clearPHP/tree/master/rules/use-properties-default-values.md>`__ |
 +--------------+---------------------------------------------------------------------------------------------------------------------------+

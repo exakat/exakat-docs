@@ -26,6 +26,11 @@ It may be in function definitions and function calls; it may be in arrays; it is
 
 See also `PHP RFC: Syntax for variadic functions <https://wiki.php.net/rfc/variadics>`_, `PHP 5.6 and the Splat Operator <https://lornajane.net/posts/2014/php-5-6-and-the-splat-operator>`_ and `Variable-length argument lists <https://www.php.net/manual/en/functions.arguments.php#functions.variable-arg-list>`_.
 
+Connex PHP features
+-------------------
+
+  + `ellipsis <https://php-dictionary.readthedocs.io/en/latest/dictionary/ellipsis.ini.html>`_
+
 
 Specs
 _____
@@ -44,8 +49,6 @@ _____
 | Time To Fix  | Slow (1 hour)                                                                                                                                                                                                                                              |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                                                                                                                                                  |
-+--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | ellipsis                                                                                                                                                                                                                                                   |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Community Edition <https://www.exakat.io/community-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_                                                                    |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

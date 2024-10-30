@@ -27,6 +27,11 @@ Return void
 
 See also `Void functions <https://www.php.net/manual/en/migration71.new-features.php#migration71.new-features.void-functions>`_.
 
+Connex PHP features
+-------------------
+
+  + `void <https://php-dictionary.readthedocs.io/en/latest/dictionary/void.ini.html>`_
+
 
 Specs
 _____
@@ -45,8 +50,6 @@ _____
 | Time To Fix  | Instant (5 mins)                                                                                                        |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | void                                                                                                                    |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

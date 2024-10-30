@@ -19,6 +19,11 @@ Hexadecimal Glossary
 
 See also `Integer Syntax <https://www.php.net/manual/en/language.types.integer.php#language.types.integer.syntax>`_.
 
+Connex PHP features
+-------------------
+
+  + `hexadecimal-integer <https://php-dictionary.readthedocs.io/en/latest/dictionary/hexadecimal-integer.ini.html>`_
+
 
 Specs
 _____
@@ -37,8 +42,6 @@ _____
 | Time To Fix  |                                                                                                                                                                                         |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                                                                               |
-+--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | hexadecimal-integer                                                                                                                                                                     |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Community Edition <https://www.exakat.io/community-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

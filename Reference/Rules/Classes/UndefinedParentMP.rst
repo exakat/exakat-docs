@@ -37,6 +37,19 @@ Note that if the `parent <https://www.php.net/manual/en/language.oop5.paamayim-n
 
 See also `parent <https://www.php.net/manual/en/keyword.parent.php>`_.
 
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Call+to+undefined+method+theParent%3A%3Abar%28%29.html>`_
+  + `1 <https://php-errors.readthedocs.io/en/latest/messages/Cannot+access+parent%3A%3A+when+current+class+scope+has+no+parent.html>`_
+
+
+
+Connex PHP features
+-------------------
+
+  + `parent <https://php-dictionary.readthedocs.io/en/latest/dictionary/parent.ini.html>`_
+
 
 Suggestions
 ___________
@@ -68,8 +81,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | parent                                                                                                                  |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

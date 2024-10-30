@@ -6,6 +6,11 @@ Is Stub Structure
 +++++++++++++++++
 
   This command finishes marking atoms with the isStub property. ``isStub`` are structures (functions, constants, classes, traits...) that are defined in an external component, and described with PDFF files.
+Connex PHP features
+-------------------
+
+  + `stubs <https://php-dictionary.readthedocs.io/en/latest/dictionary/stubs.ini.html>`_
+
 
 Specs
 _____
@@ -24,8 +29,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                    |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | stubs                                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

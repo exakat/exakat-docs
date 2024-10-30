@@ -42,6 +42,12 @@ In PHP 5.6, results are :::
    print_r($x);
    
    ?>
+Connex PHP features
+-------------------
+
+  + `list <https://php-dictionary.readthedocs.io/en/latest/dictionary/list.ini.html>`_
+  + `append <https://php-dictionary.readthedocs.io/en/latest/dictionary/append.ini.html>`_
+
 
 Suggestions
 ___________
@@ -70,8 +76,6 @@ _____
 | Changed Behavior | PHP 7.0 - `More <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/.html>`__                                           |
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------+
 | Precision        | Very high                                                                                                                            |
-+------------------+--------------------------------------------------------------------------------------------------------------------------------------+
-| Features         | list, append                                                                                                                         |
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------+
 | Available in     | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_              |
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------+

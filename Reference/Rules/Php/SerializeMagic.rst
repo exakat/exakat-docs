@@ -22,6 +22,11 @@ Serialize magic methods were introduced in PHP 7.4, and are not effective before
 
 See also `New custom object serialization mechanism <https://wiki.php.net/rfc/custom_object_serialization>`_.
 
+Connex PHP features
+-------------------
+
+  + `serialize <https://php-dictionary.readthedocs.io/en/latest/dictionary/serialize.ini.html>`_
+
 
 Specs
 _____
@@ -40,8 +45,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | serialize                                                                                                               |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

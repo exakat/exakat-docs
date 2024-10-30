@@ -27,6 +27,11 @@ Previously, it was compulsory to `extract() <https://www.php.net/extract>`_ the 
 
 See also `The list function & practical uses of array destructuring in PHP <https://sebastiandedeyne.com/the-list-function-and-practical-uses-of-array-destructuring-in-php>`_ and `Array destructuring in PHP <https://stitcher.io/blog/array-destructuring-with-list-in-php#in-loops>`_.
 
+Connex PHP features
+-------------------
+
+  + `foreach <https://php-dictionary.readthedocs.io/en/latest/dictionary/foreach.ini.html>`_
+
 
 Specs
 _____
@@ -45,8 +50,6 @@ _____
 | Time To Fix  | Slow (1 hour)                                                                                                                                                                                |
 +--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                                                                                    |
-+--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | foreach                                                                                                                                                                                      |
 +--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_                                                                      |
 +--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

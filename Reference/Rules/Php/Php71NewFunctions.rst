@@ -14,6 +14,12 @@ New Functions In PHP 7.1
 * `mb_chr() <https://www.php.net/mb_chr>`_
 * `mb_scrub() <https://www.php.net/mb_scrub>`_
 * `is_iterable() <https://www.php.net/is_iterable>`_
+Connex PHP features
+-------------------
+
+  + `function <https://php-dictionary.readthedocs.io/en/latest/dictionary/function.ini.html>`_
+  + `native <https://php-dictionary.readthedocs.io/en/latest/dictionary/native.ini.html>`_
+
 
 Suggestions
 ___________
@@ -41,8 +47,6 @@ _____
 | Time To Fix  | Slow (1 hour)                                                                                                                        |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                            |
-+--------------+--------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | function, native                                                                                                                     |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_              |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------+

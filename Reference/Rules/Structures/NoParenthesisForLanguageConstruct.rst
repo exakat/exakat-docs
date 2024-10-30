@@ -21,6 +21,14 @@ It it better to avoid using parenthesis with ``echo``, ``print``, ``return``, ``
 
 See also `ON PHP LANGUAGE CONSTRUCTS AND PARENTHESES <https://tfrommen.de/on-php-language-constructs-and-parentheses/>`_ and  `include <https://www.php.net/manual/en/function.include.php>`_.
 
+Connex PHP features
+-------------------
+
+  + `parenthesis <https://php-dictionary.readthedocs.io/en/latest/dictionary/parenthesis.ini.html>`_
+  + `language-construct <https://php-dictionary.readthedocs.io/en/latest/dictionary/language-construct.ini.html>`_
+  + `return <https://php-dictionary.readthedocs.io/en/latest/dictionary/return.ini.html>`_
+  + `include <https://php-dictionary.readthedocs.io/en/latest/dictionary/include.ini.html>`_
+
 
 Suggestions
 ___________
@@ -47,8 +55,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                                                                                                                        |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                                                                                                              |
-+--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | parenthesis, language-construct, return, include                                                                                                                                                                       |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | ClearPHP     | `no-parenthesis-for-language-construct <https://github.com/dseguy/clearPHP/tree/master/rules/no-parenthesis-for-language-construct.md>`__                                                                              |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

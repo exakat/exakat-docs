@@ -29,6 +29,11 @@ Although this is rare `error <https://www.php.net/error>`_, and often easy to sp
    echo $array['c'];
    
    ?>
+Connex PHP features
+-------------------
+
+  + `index <https://php-dictionary.readthedocs.io/en/latest/dictionary/index.ini.html>`_
+
 
 Suggestions
 ___________
@@ -55,8 +60,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                    |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | index                                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

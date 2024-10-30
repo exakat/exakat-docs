@@ -11,6 +11,13 @@ It is recommended to avoid using short tags, and use standard PHP tags. This mak
 
 See also `PHP Tags <https://www.php.net/manual/en/language.basic-syntax.phptags.php>`_.
 
+Connex PHP features
+-------------------
+
+  + `short-tag <https://php-dictionary.readthedocs.io/en/latest/dictionary/short-tag.ini.html>`_
+  + `php-tag <https://php-dictionary.readthedocs.io/en/latest/dictionary/php-tag.ini.html>`_
+  + `echo-tag <https://php-dictionary.readthedocs.io/en/latest/dictionary/echo-tag.ini.html>`_
+
 
 Suggestions
 ___________
@@ -37,8 +44,6 @@ _____
 | Time To Fix  | Instant (5 mins)                                                                                                                                                                                 |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                                                                                        |
-+--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | short-tag, php-tag, echo-tag                                                                                                                                                                     |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | ClearPHP     | `no-short-tags <https://github.com/dseguy/clearPHP/tree/master/rules/no-short-tags.md>`__                                                                                                        |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

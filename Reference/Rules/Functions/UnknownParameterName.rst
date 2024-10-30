@@ -28,6 +28,19 @@ Named arguments errors will also arise when spreading a hash array with arbitrar
 
 See also `Named Arguments <https://wiki.php.net/rfc/named_params>`_ and :ref:`Wrong Argument Name With PHP Function <wrong-argument-name-with-php-function>`.
 
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Unknown+named+parameter+%24d+in.html>`_
+  + `1 <https://php-errors.readthedocs.io/en/latest/messages/array_merge%28%29+does+not+accept+unknown+named+parameters.html>`_
+
+
+
+Connex PHP features
+-------------------
+
+  + `named-parameter <https://php-dictionary.readthedocs.io/en/latest/dictionary/named-parameter.ini.html>`_
+
 
 Suggestions
 ___________
@@ -55,8 +68,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                                                                                         |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                                                                                    |
-+--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | named-parameter                                                                                                                                                                         |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Community Edition <https://www.exakat.io/community-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

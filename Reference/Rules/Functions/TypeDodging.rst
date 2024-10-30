@@ -26,6 +26,11 @@ This is part of the Liskov Substitution Principle, so the syntax is legit. When 
    	}
    } 
    ?>
+Connex PHP features
+-------------------
+
+  + `liskov <https://php-dictionary.readthedocs.io/en/latest/dictionary/liskov.ini.html>`_
+
 
 Suggestions
 ___________
@@ -52,8 +57,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                          |
 +--------------+--------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Medium                                                                                                                   |
-+--------------+--------------------------------------------------------------------------------------------------------------------------+
-| Features     | liskov                                                                                                                   |
 +--------------+--------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_  |
 +--------------+--------------------------------------------------------------------------------------------------------------------------+

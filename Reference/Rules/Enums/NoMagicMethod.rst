@@ -19,6 +19,20 @@ No Magic Method For Enum
 
 See also `Enumeration Methods <https://www.php.net/manual/en/language.enumerations.methods.php>`_.
 
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Enum+may+not+include+__construct.html>`_
+  + `1 <https://php-errors.readthedocs.io/en/latest/messages/Enum+may+not+include+__isset.html>`_
+
+
+
+Connex PHP features
+-------------------
+
+  + `enumeration <https://php-dictionary.readthedocs.io/en/latest/dictionary/enumeration.ini.html>`_
+  + `magic-method <https://php-dictionary.readthedocs.io/en/latest/dictionary/magic-method.ini.html>`_
+
 
 Suggestions
 ___________
@@ -45,8 +59,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                                                                                                              |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                                                                                                    |
-+--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | enumeration, magic-method                                                                                                                                                                                    |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Note         | This issue may lint but will not run                                                                                                                                                                         |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

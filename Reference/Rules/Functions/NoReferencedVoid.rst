@@ -17,6 +17,19 @@ No Referenced Void
 
 See also `PHP RFC: Deprecations for PHP 8.1 <https://wiki.php.net/rfc/deprecations_php_8_1>`_.
 
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Only+variable+references+should+be+returned+by+reference.html>`_
+
+
+
+Connex PHP features
+-------------------
+
+  + `void <https://php-dictionary.readthedocs.io/en/latest/dictionary/void.ini.html>`_
+  + `reference <https://php-dictionary.readthedocs.io/en/latest/dictionary/reference.ini.html>`_
+
 
 Suggestions
 ___________
@@ -41,8 +54,6 @@ _____
 | Time To Fix  | Instant (5 mins)                                                                                                                                                                                               |
 +--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                                                                                                      |
-+--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | void, reference                                                                                                                                                                                                |
 +--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_                                                                                        |
 +--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

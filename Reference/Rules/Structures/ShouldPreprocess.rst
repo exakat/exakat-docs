@@ -25,6 +25,12 @@ By doing so, this will reduce the amount of work of PHP. This is a micro-optimis
    $name = ucfirst(strtolower('PARIS'));
    
    ?>
+Connex PHP features
+-------------------
+
+  + `preprocess <https://php-dictionary.readthedocs.io/en/latest/dictionary/preprocess.ini.html>`_
+  + `readability <https://php-dictionary.readthedocs.io/en/latest/dictionary/readability.ini.html>`_
+
 
 Suggestions
 ___________
@@ -51,8 +57,6 @@ _____
 | Time To Fix  | Instant (5 mins)                                                                                                                               |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                                           |
-+--------------+------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | preprocess, readability                                                                                                                        |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------+
 | Examples     | :ref:`case-phpadsnew-structures-shouldpreprocess`                                                                                              |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------+

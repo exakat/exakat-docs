@@ -35,6 +35,11 @@ There are some situations where using concatenation are compulsory : when callin
      $collision = theClass::CONSTANTE . "b{$c}".number_format($t, 2).' $CAD'."\n";
    
    ?>
+Connex PHP features
+-------------------
+
+  + `concat <https://php-dictionary.readthedocs.io/en/latest/dictionary/concat.ini.html>`_
+
 
 Specs
 _____
@@ -53,8 +58,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | concat                                                                                                                  |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Examples     | :ref:`case-fuelcms-structures-inconsistentconcatenation`                                                                |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

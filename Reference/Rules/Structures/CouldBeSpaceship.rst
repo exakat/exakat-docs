@@ -24,6 +24,11 @@ It is the same as below, and prevents lots of code.
 
 See also `spaceship operator <https://www.php.net/manual/en/migration70.new-features.php#migration70.new-features.spaceship-op>`_ and `Remembering what spaceship operator do on comparison in PHP <https://www.amitmerchant.com/remembering-what-spaceship-operator-do-comparison-php/>`_.
 
+Connex PHP features
+-------------------
+
+  + `spaceship <https://php-dictionary.readthedocs.io/en/latest/dictionary/spaceship.ini.html>`_
+
 
 Suggestions
 ___________
@@ -50,8 +55,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                                                          |
 +--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                                                     |
-+--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | spaceship                                                                                                                                                |
 +--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_                                  |
 +--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------+

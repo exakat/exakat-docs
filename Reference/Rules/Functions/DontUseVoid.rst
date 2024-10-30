@@ -29,6 +29,11 @@ With a ``void`` return type, the method is intented to be without return value. 
    }
    
    ?>
+Connex PHP features
+-------------------
+
+  + `void <https://php-dictionary.readthedocs.io/en/latest/dictionary/void.ini.html>`_
+
 
 Suggestions
 ___________
@@ -57,8 +62,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | void                                                                                                                    |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

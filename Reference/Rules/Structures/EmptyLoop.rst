@@ -34,6 +34,11 @@ Empty loop may come from a typo, where a semi colon detach the block from its lo
    }
    
    ?>
+Connex PHP features
+-------------------
+
+  + `loop <https://php-dictionary.readthedocs.io/en/latest/dictionary/loop.ini.html>`_
+
 
 Suggestions
 ___________
@@ -61,8 +66,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | loop                                                                                                                    |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

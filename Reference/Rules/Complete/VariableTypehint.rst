@@ -22,6 +22,12 @@ This is an internal tool, to help find definitions of classes. The same strategi
    }
    
    ?>
+Connex PHP features
+-------------------
+
+  + `variable <https://php-dictionary.readthedocs.io/en/latest/dictionary/variable.ini.html>`_
+  + `typehint <https://php-dictionary.readthedocs.io/en/latest/dictionary/typehint.ini.html>`_
+
 
 Specs
 _____
@@ -40,8 +46,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                                          |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Medium                                                                                                                                   |
-+--------------+------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | variable, typehint                                                                                                                       |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_                  |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------+

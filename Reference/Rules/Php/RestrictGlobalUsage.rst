@@ -27,6 +27,18 @@ Restrict Global Usage
 
 See also `Restrict $GLOBALS usage <https://wiki.php.net/rfc/restrict_globals_usage>`_.
 
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/%24GLOBALS+can+only+be+modified+using+the+%24GLOBALS%5B%24name%5D+%3D+%24value+syntax.html>`_
+
+
+
+Connex PHP features
+-------------------
+
+  + `global <https://php-dictionary.readthedocs.io/en/latest/dictionary/global.ini.html>`_
+
 
 Suggestions
 ___________
@@ -55,8 +67,6 @@ _____
 | Changed Behavior | PHP 8.1 - `More <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/GLOBALSAssignement.html>`__                         |
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------+
 | Precision        | High                                                                                                                                 |
-+------------------+--------------------------------------------------------------------------------------------------------------------------------------+
-| Features         | global                                                                                                                               |
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------+
 | Available in     | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_              |
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------+

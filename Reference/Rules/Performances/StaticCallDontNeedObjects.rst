@@ -23,6 +23,11 @@ This is a micro-optimisation. The call is very fast, but will gain another 1/3 w
    }
    
    ?>
+Connex PHP features
+-------------------
+
+  + `static <https://php-dictionary.readthedocs.io/en/latest/dictionary/static.ini.html>`_
+
 
 Suggestions
 ___________
@@ -50,8 +55,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                          |
 +--------------+--------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                     |
-+--------------+--------------------------------------------------------------------------------------------------------------------------+
-| Features     | static                                                                                                                   |
 +--------------+--------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_  |
 +--------------+--------------------------------------------------------------------------------------------------------------------------+

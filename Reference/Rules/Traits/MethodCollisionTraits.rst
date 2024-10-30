@@ -39,6 +39,20 @@ The code shown lints, but doesn't execute.
 
 See also `Traits <https://www.php.net/manual/en/language.oop5.traits.php>`_.
 
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Trait+method+M+has+not+been+applied%2C+because+there+are+collisions+with+other+trait+methods+on+C.html>`_
+
+
+
+Connex PHP features
+-------------------
+
+  + `method <https://php-dictionary.readthedocs.io/en/latest/dictionary/method.ini.html>`_
+  + `trait <https://php-dictionary.readthedocs.io/en/latest/dictionary/trait.ini.html>`_
+  + `method-collision <https://php-dictionary.readthedocs.io/en/latest/dictionary/method-collision.ini.html>`_
+
 
 Specs
 _____
@@ -57,8 +71,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                                                                  |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                                                             |
-+--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | method, trait, method-collision                                                                                                                                  |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Note         | This issue may lint but will not run                                                                                                                             |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+

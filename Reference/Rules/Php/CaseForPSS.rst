@@ -27,6 +27,20 @@ Until PHP 5.5, non-lowercase version of those keywords are generating a bug.
    }
    
    ?>
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Class+%27PARENT%27+not+found.html>`_
+
+
+
+Connex PHP features
+-------------------
+
+  + `parent <https://php-dictionary.readthedocs.io/en/latest/dictionary/parent.ini.html>`_
+  + `static <https://php-dictionary.readthedocs.io/en/latest/dictionary/static.ini.html>`_
+  + `self <https://php-dictionary.readthedocs.io/en/latest/dictionary/self.ini.html>`_
+
 
 Suggestions
 ___________
@@ -53,8 +67,6 @@ _____
 | Time To Fix  | Instant (5 mins)                                                                                                                                                                             |
 +--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                                                                                         |
-+--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | parent, static, self                                                                                                                                                                         |
 +--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_                                                                      |
 +--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

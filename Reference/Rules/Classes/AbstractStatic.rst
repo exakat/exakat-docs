@@ -24,6 +24,20 @@ This is not the case anymore in PHP 7.0+.
 
 See also `Why does PHP 5.2+ disallow abstract static class methods? <https://stackoverflow.com/questions/999066/why-does-php-5-2-disallow-abstract-static-class-methods>`_.
 
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Static+function+foo%3A%3Abar%28%29+should+not+be+abstract.html>`_
+
+
+
+Connex PHP features
+-------------------
+
+  + `method <https://php-dictionary.readthedocs.io/en/latest/dictionary/method.ini.html>`_
+  + `abstract <https://php-dictionary.readthedocs.io/en/latest/dictionary/abstract.ini.html>`_
+  + `constant <https://php-dictionary.readthedocs.io/en/latest/dictionary/constant.ini.html>`_
+
 
 Suggestions
 ___________
@@ -52,8 +66,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | method, abstract, constant                                                                                              |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

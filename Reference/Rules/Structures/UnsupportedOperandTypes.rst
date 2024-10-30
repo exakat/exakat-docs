@@ -23,6 +23,18 @@ PHP detects this `error <https://www.php.net/error>`_ at linting time, when usin
 
 See also `PHP - Fatal error: Unsupported operand types [duplicate] <https://stackoverflow.com/questions/2108875/php-fatal-error-unsupported-operand-types>`_.
 
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Unsupported+operand+types.html>`_
+
+
+
+Connex PHP features
+-------------------
+
+  + `plus <https://php-dictionary.readthedocs.io/en/latest/dictionary/plus.ini.html>`_
+
 
 Suggestions
 ___________
@@ -49,8 +61,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                                                                          |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                                                                     |
-+--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | plus                                                                                                                                                                     |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_                                                  |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

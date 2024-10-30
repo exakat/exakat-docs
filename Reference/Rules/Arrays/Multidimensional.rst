@@ -15,6 +15,12 @@ Multidimensional Arrays
 
 See also `Type array <https://www.php.net/manual/en/language.types.array.php>`_ and `Using Multidimensional Arrays in PHP <https://www.elated.com/articles/php-multidimensional-arrays/>`_.
 
+Connex PHP features
+-------------------
+
+  + `array <https://php-dictionary.readthedocs.io/en/latest/dictionary/array.ini.html>`_
+  + `multidimensional-array <https://php-dictionary.readthedocs.io/en/latest/dictionary/multidimensional-array.ini.html>`_
+
 
 Specs
 _____
@@ -33,8 +39,6 @@ _____
 | Time To Fix  |                                                                                                                                                                                         |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                                                                                    |
-+--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | array, multidimensional-array                                                                                                                                                           |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Community Edition <https://www.exakat.io/community-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

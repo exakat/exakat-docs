@@ -42,6 +42,12 @@ When the value has to be prepared before usage, then save the filtered value in 
    }
    
    ?>
+Connex PHP features
+-------------------
+
+  + `loop <https://php-dictionary.readthedocs.io/en/latest/dictionary/loop.ini.html>`_
+  + `blind-key <https://php-dictionary.readthedocs.io/en/latest/dictionary/blind-key.ini.html>`_
+
 
 Specs
 _____
@@ -60,8 +66,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | loop, blind-key                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

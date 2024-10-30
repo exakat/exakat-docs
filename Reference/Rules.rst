@@ -6,7 +6,7 @@ Rules
 Introduction
 ------------------------
 
-Exakat provides unique 1654 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
+Exakat provides unique 1660 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
 
 Each rule is documented with code example to allow you to remediate your code. If you want to automate remediation, ours cobblers can are there to fix the issues in your code for your.  
 
@@ -53,6 +53,7 @@ List of Rules
    Rules/Variables/AmbiguousTypes.rst
    Rules/Classes/AmbiguousVisibilities.rst
    Rules/Patterns/Factory.rst
+   Rules/Exceptions/AnonymousCatch.rst
    Rules/Classes/Anonymous.rst
    Rules/Arrays/AppendAndAssignArrays.rst
    Rules/Php/Argon2Usage.rst
@@ -297,6 +298,7 @@ List of Rules
    Rules/Exceptions/CouldDropVariable.rst
    Rules/Classes/CouldInjectParam.rst
    Rules/Functions/CouldCentralize.rst
+   Rules/Structures/MergeTernaryIntoIfthen.rst
    Rules/Typehints/CouldNotType.rst
    Rules/Classes/CouldSetPropertyDefault.rst
    Rules/Functions/CouldTypeWithArray.rst
@@ -401,6 +403,7 @@ List of Rules
    Rules/Structures/SubstrLastArg.rst
    Rules/Vendors/Drupal.rst
    Rules/Structures/DuplicateCalls.rst
+   Rules/Enums/DuplicateCaseValue.rst
    Rules/Type/DuplicateLiteral.rst
    Rules/Functions/DuplicateNamedParameter.rst
    Rules/Structures/DynamicCalls.rst
@@ -530,7 +533,9 @@ List of Rules
    Rules/Arrays/WithCallback.rst
    Rules/Functions/HardcodedPasswords.rst
    Rules/Classes/HasMagicProperty.rst
+   Rules/Php/HasPropertyHook.rst
    Rules/Functions/VariableArguments.rst
+   Rules/Php/HasVirtualProperty.rst
    Rules/Php/HashAlgos.rst
    Rules/Php/HashAlgos53.rst
    Rules/Php/HashAlgos54.rst
@@ -728,7 +733,6 @@ List of Rules
    Rules/Structures/MisusedYield.rst
    Rules/Structures/MixedConcatInterpolation.rst
    Rules/Arrays/MixedKeys.rst
-   Rules/Php/MixedKeyword.rst
    Rules/Php/MixedUsage.rst
    Rules/Security/MkdirDefault.rst
    Rules/Structures/ModernEmpty.rst
@@ -797,6 +801,7 @@ List of Rules
    Rules/Php/Php81NewFunctions.rst
    Rules/Php/Php82NewFunctions.rst
    Rules/Php/Php83NewFunctions.rst
+   Rules/Php/Php84NewFunctions.rst
    Rules/Php/NewInitializers.rst
    Rules/Structures/NewLineStyle.rst
    Rules/Classes/NewThenCall.rst
@@ -1205,6 +1210,7 @@ List of Rules
    Rules/Structures/TernaryInConcat.rst
    Rules/Classes/TestClass.rst
    Rules/Structures/TestThenCast.rst
+   Rules/Php/MixedKeyword.rst
    Rules/Classes/CouldBeIterable.rst
    Rules/Php/ThrowUsage.rst
    Rules/Exceptions/ThrowFunctioncall.rst
@@ -1681,10 +1687,16 @@ List of analyzers, by version of introduction, newest to oldest. In parenthesis,
 
 * 2.6.8
 
+  * :ref:`Anonymous Catch <anonymous-catch>`
   * :ref:`Cakephp <cakephp>`
+  * :ref:`Could Merge Ternary Into Ifthen <could-merge-ternary-into-ifthen>`
   * :ref:`Deprecated Attribute <deprecated-attribute>`
+  * :ref:`Duplicate Enum Case Value <duplicate-enum-case-value>`
+  * :ref:`Has Property Hook <has-property-hook>`
+  * :ref:`Has Virtual Property <has-virtual-property>`
   * :ref:`Missing Overriden Method <missing-overriden-method>`
   * :ref:`Neos <neos>`
+  * :ref:`New Functions In PHP 8.4 <new-functions-in-php-8.4>`
   * :ref:`Remove Parameter With Named Parameters <remove-parameter-with-named-parameters>`
   * :ref:`Useless Override Attribute <useless-override-attribute>`
 
@@ -2049,7 +2061,6 @@ List of analyzers, by version of introduction, newest to oldest. In parenthesis,
   * :ref:`False To Array Conversion <false-to-array-conversion>`
   * :ref:`Final Constant <final-constant>`
   * :ref:`First Class Callable <first-class-callable>`
-  * :ref:`Mixed Keyword <mixed-keyword>`
   * :ref:`Mixed Typehint Usage <mixed-typehint-usage>`
   * :ref:`Named Parameter Usage <named-parameter-usage>`
   * :ref:`Never Keyword <never-keyword>`
@@ -2060,6 +2071,7 @@ List of analyzers, by version of introduction, newest to oldest. In parenthesis,
   * :ref:`PHP 8.1 Removed Functions <php-8.1-removed-functions>`
   * :ref:`PHP 8.1 Typehints <php-8.1-typehints>`
   * :ref:`PHP Native Interfaces and Return Type <php-native-interfaces-and-return-type>`
+  * :ref:`The Mixed Keyword <the-mixed-keyword>`
 
 * 2.2.5
 
@@ -4032,6 +4044,8 @@ Directory by PHP Function
       + :ref:`Extensions yar <extensions-yar>`
       + :ref:`Feast usage <feast-usage>`
       + :ref:`Getter And Setter <getter-and-setter>`
+      + :ref:`Has Property Hook <has-property-hook>`
+      + :ref:`Has Virtual Property <has-virtual-property>`
       + :ref:`Insufficient Property Typehint <insufficient-property-typehint>`
       + :ref:`Interfaces Don't Ensure Properties <interfaces-don't-ensure-properties>`
       + :ref:`Internally Used Properties <internally-used-properties>`
@@ -4167,6 +4181,7 @@ Directory by PHP Function
       + :ref:`Multiple Definition Of The Same Argument <multiple-definition-of-the-same-argument>`
       + :ref:`Must Return Methods <must-return-methods>`
       + :ref:`Named Argument And Variadic <named-argument-and-variadic>`
+      + :ref:`New Functions In PHP 8.4 <new-functions-in-php-8.4>`
       + :ref:`No Spread For Hash <no-spread-for-hash>`
       + :ref:`No array_merge() In Loops <no-array\_merge()-in-loops>`
       + :ref:`PHP 8.0 Typehints <php-8.0-typehints>`
@@ -4733,6 +4748,7 @@ Directory by PHP Function
       + :ref:`Identity <identity>`
       + :ref:`Multiple Definition Of The Same Argument <multiple-definition-of-the-same-argument>`
       + :ref:`Multiple Identical Closure <multiple-identical-closure>`
+      + :ref:`New Functions In PHP 8.4 <new-functions-in-php-8.4>`
       + :ref:`No Static Variable In A Method <no-static-variable-in-a-method>`
       + :ref:`Parent, Static Or Self Outside Class <parent,-static-or-self-outside-class>`
       + :ref:`Pre-Calculate Use <pre-calculate-use>`
@@ -4740,6 +4756,7 @@ Directory by PHP Function
       + :ref:`Semantic Typing <semantic-typing>`
       + :ref:`Should Use Local Class <should-use-local-class>`
       + :ref:`Should Use array_filter() <should-use-array\_filter()>`
+      + :ref:`Static Variables <static-variables>`
       + :ref:`Unbinding Closures <unbinding-closures>`
       + :ref:`Unused Inherited Variable In Closure <unused-inherited-variable-in-closure>`
       + :ref:`Use Closure Trailing Comma <use-closure-trailing-comma>`
@@ -4822,6 +4839,7 @@ Directory by PHP Function
       + :ref:`report-CompatibilityPHP81 <report-compatibilityphp81>`
       + :ref:`report-CompatibilityPHP82 <report-compatibilityphp82>`
       + :ref:`report-CompatibilityPHP83 <report-compatibilityphp83>`
+      + :ref:`report-CompatibilityPHP84 <report-compatibilityphp84>`
       + :ref:`report-Composer <report-composer>`
       + :ref:`report-Dependency Wheel <report-dependency-wheel>`
       + :ref:`report-Diplomat <report-diplomat>`
@@ -5208,6 +5226,7 @@ Directory by PHP Function
       + :ref:`Check JSON <check-json>`
       + :ref:`Die Exit Consistence <die-exit-consistence>`
       + :ref:`Don't Echo Error <don't-echo-error>`
+      + :ref:`Empty Function <empty-function>`
       + :ref:`Environment Variables <environment-variables>`
       + :ref:`Error Messages <error-messages>`
       + :ref:`Exit Without Argument <exit-without-argument>`
@@ -5215,6 +5234,7 @@ Directory by PHP Function
       + :ref:`Exit-like Methods <exit-like-methods>`
       + :ref:`Implied If <implied-if>`
       + :ref:`Joomla usage <joomla-usage>`
+      + :ref:`New Functions In PHP 8.4 <new-functions-in-php-8.4>`
       + :ref:`No Direct Access <no-direct-access>`
       + :ref:`No Hardcoded Port <no-hardcoded-port>`
       + :ref:`No Parenthesis For Language Construct <no-parenthesis-for-language-construct>`
@@ -5391,6 +5411,7 @@ Directory by PHP Function
     + `Exception`
 
       + :ref:`$this Belongs To Classes Or Traits <$this-belongs-to-classes-or-traits>`
+      + :ref:`Anonymous Catch <anonymous-catch>`
       + :ref:`Array Access On Literal Array <array-access-on-literal-array>`
       + :ref:`Assign And Lettered Logical Operator Precedence <assign-and-lettered-logical-operator-precedence>`
       + :ref:`Can't Throw Throwable <can't-throw-throwable>`
@@ -5522,6 +5543,7 @@ Directory by PHP Function
       + :ref:`Don't Echo Error <don't-echo-error>`
       + :ref:`Don't Send $this In Constructor <don't-send-$this-in-constructor>`
       + :ref:`Duplicate Named Parameter <duplicate-named-parameter>`
+      + :ref:`Empty Function <empty-function>`
       + :ref:`Empty Json Error <empty-json-error>`
       + :ref:`Empty Try Catch <empty-try-catch>`
       + :ref:`Error Messages <error-messages>`
@@ -5686,6 +5708,7 @@ Directory by PHP Function
 
     + `exception`
 
+      + :ref:`Anonymous Catch <anonymous-catch>`
       + :ref:`Catch Overwrite Variable <catch-overwrite-variable>`
       + :ref:`Catch With Undefined Variable <catch-with-undefined-variable>`
       + :ref:`Caught Variable <caught-variable>`
@@ -5699,6 +5722,7 @@ Directory by PHP Function
       + :ref:`Could Use Null-Safe Object Operator <could-use-null-safe-object-operator>`
       + :ref:`Defined Exceptions <defined-exceptions>`
       + :ref:`Empty Classes <empty-classes>`
+      + :ref:`Empty Function <empty-function>`
       + :ref:`Exception Order <exception-order>`
       + :ref:`Exit() Usage <exit()-usage>`
       + :ref:`Forgotten Thrown <forgotten-thrown>`
@@ -5707,7 +5731,6 @@ Directory by PHP Function
       + :ref:`Long Preparation For Throw <long-preparation-for-throw>`
       + :ref:`Manipulates INF <manipulates-inf>`
       + :ref:`Methods That Should Not Be Used <methods-that-should-not-be-used>`
-      + :ref:`Mixed Keyword <mixed-keyword>`
       + :ref:`Multiple Returns <multiple-returns>`
       + :ref:`Never Keyword <never-keyword>`
       + :ref:`Never Typehint Usage <never-typehint-usage>`
@@ -5755,6 +5778,7 @@ Directory by PHP Function
       + :ref:`Exit() Usage <exit()-usage>`
       + :ref:`Exit-like Methods <exit-like-methods>`
       + :ref:`Never Typehint Usage <never-typehint-usage>`
+      + :ref:`New Functions In PHP 8.4 <new-functions-in-php-8.4>`
       + :ref:`PHP 8.1 Typehints <php-8.1-typehints>`
       + :ref:`PHP Handlers Usage <php-handlers-usage>`
       + :ref:`Print And Die <print-and-die>`
@@ -7651,6 +7675,7 @@ Directory by PHP Function
       + :ref:`Constant Typo Looks Like A Variable <constant-typo-looks-like-a-variable>`
       + :ref:`Could Be Null <could-be-null>`
       + :ref:`Could Be Ternary <could-be-ternary>`
+      + :ref:`Could Merge Ternary Into Ifthen <could-merge-ternary-into-ifthen>`
       + :ref:`Could Use Null-Safe Object Operator <could-use-null-safe-object-operator>`
       + :ref:`Could Use array_fill_keys <could-use-array\_fill\_keys>`
       + :ref:`Cyclic References <cyclic-references>`
@@ -8759,6 +8784,7 @@ Directory by PHP Function
       + :ref:`Static Variable Can Default To Arbitrary Expression <static-variable-can-default-to-arbitrary-expression>`
       + :ref:`Static Variable In Namespace <static-variable-in-namespace>`
       + :ref:`Static Variable Initialisation <static-variable-initialisation>`
+      + :ref:`Static Variables <static-variables>`
       + :ref:`Used Once Variables (In Scope) <used-once-variables-(in-scope)>`
       + :ref:`Wrong Access Style to Property <wrong-access-style-to-property>`
       + :ref:`ext/reflection <ext-reflection>`
@@ -10222,6 +10248,7 @@ Exakat links each rules to PHP features.
     + :ref:`Don't Send $this In Constructor <don't-send-$this-in-constructor>`
     + :ref:`Should Use Local Class <should-use-local-class>`
     + :ref:`Static Methods Can't Contain $this <static-methods-can't-contain-$this>`
+    + :ref:`Use This <use-this>`
     + :ref:`Using $this Outside A Class <using-$this-outside-a-class>`
 
   + Abstract Class
@@ -10305,6 +10332,7 @@ Exakat links each rules to PHP features.
     + :ref:`False To Array Conversion <false-to-array-conversion>`
     + :ref:`Float Conversion As Index <float-conversion-as-index>`
     + :ref:`Getting Last Element <getting-last-element>`
+    + :ref:`Has Property Hook <has-property-hook>`
     + :ref:`Indices Are Int Or String <indices-are-int-or-string>`
     + :ref:`Mass Creation Of Arrays <mass-creation-of-arrays>`
     + :ref:`Mistaken Concatenation <mistaken-concatenation>`
@@ -10327,6 +10355,7 @@ Exakat links each rules to PHP features.
 
   + Array Append
 
+    + :ref:`Append And Assign Arrays <append-and-assign-arrays>`
     + :ref:`Count() To Array Append <count()-to-array-append>`
     + :ref:`List With Array Appends <list-with-array-appends>`
     + :ref:`No String With Append <no-string-with-append>`
@@ -10435,6 +10464,7 @@ Exakat links each rules to PHP features.
     + :ref:`Callback Function Needs Return <callback-function-needs-return>`
     + :ref:`Closure Could Be A Callback <closure-could-be-a-callback>`
     + :ref:`Could Be Callable <could-be-callable>`
+    + :ref:`Handle Arrays With Callback <handle-arrays-with-callback>`
 
   + Case
 
@@ -10738,6 +10768,7 @@ Exakat links each rules to PHP features.
     + :ref:`Constant Case Preference <constant-case-preference>`
     + :ref:`Constant Dynamic Creation <constant-dynamic-creation>`
     + :ref:`Constant Typo Looks Like A Variable <constant-typo-looks-like-a-variable>`
+    + :ref:`Constant Used Only Once <constant-used-only-once>`
     + :ref:`Constants Created Outside Its Namespace <constants-created-outside-its-namespace>`
     + :ref:`Constants In Traits <constants-in-traits>`
     + :ref:`Constants Names <constants-names>`
@@ -10758,6 +10789,7 @@ Exakat links each rules to PHP features.
     + :ref:`PHP 8.1 Removed Constants <php-8.1-removed-constants>`
     + :ref:`PHP Constant Usage <php-constant-usage>`
     + :ref:`Propagate Constants <propagate-constants>`
+    + :ref:`Relay Constant <relay-constant>`
     + :ref:`Should Use Existing Constants <should-use-existing-constants>`
     + :ref:`Strange Name For Constants <strange-name-for-constants>`
     + :ref:`True False Inconsistant Case <true-false-inconsistant-case>`
@@ -10875,7 +10907,7 @@ Exakat links each rules to PHP features.
 
     + :ref:`Dependency Injection <dependency-injection>`
 
-  + Deprecation
+  + Deprecated
 
     + :ref:`Functions Removed In PHP 5.5 <functions-removed-in-php-5.5>`
     + :ref:`Methods That Should Not Be Used <methods-that-should-not-be-used>`
@@ -10929,6 +10961,7 @@ Exakat links each rules to PHP features.
 
   + Do While
 
+    + :ref:`Cache Variable Outside Loop <cache-variable-outside-loop>`
     + :ref:`PHP Alternative Syntax <php-alternative-syntax>`
 
   + Do...while
@@ -10996,6 +11029,7 @@ Exakat links each rules to PHP features.
   + Email
 
     + :ref:`Email Addresses <email-addresses>`
+    + :ref:`ext/mailparse <ext-mailparse>`
 
   + Empty
 
@@ -11131,6 +11165,7 @@ Exakat links each rules to PHP features.
     + :ref:`File Usage <file-usage>`
     + :ref:`Fopen Binary Mode <fopen-binary-mode>`
     + :ref:`Linux Only Files <linux-only-files>`
+    + :ref:`Use File Append <use-file-append>`
     + :ref:`ext/xattr <ext-xattr>`
 
   + File Upload
@@ -11185,6 +11220,7 @@ Exakat links each rules to PHP features.
 
   + For
 
+    + :ref:`Cache Variable Outside Loop <cache-variable-outside-loop>`
     + :ref:`For Using Functioncall <for-using-functioncall>`
     + :ref:`PHP Alternative Syntax <php-alternative-syntax>`
     + :ref:`Sequences In For <sequences-in-for>`
@@ -11193,6 +11229,7 @@ Exakat links each rules to PHP features.
   + Foreach
 
     + :ref:`Altering Foreach Without Reference <altering-foreach-without-reference>`
+    + :ref:`Cache Variable Outside Loop <cache-variable-outside-loop>`
     + :ref:`Collect Block Size <collect-block-size>`
     + :ref:`Don't Reuse Foreach Source <don't-reuse-foreach-source>`
     + :ref:`Foreach Don't Change Pointer <foreach-don't-change-pointer>`
@@ -11471,6 +11508,7 @@ Exakat links each rules to PHP features.
 
   + Initialisation
 
+    + :ref:`Array With String Initialization <array-with-string-initialization>`
     + :ref:`Init Then Update <init-then-update>`
 
   + Injection
@@ -11641,6 +11679,7 @@ Exakat links each rules to PHP features.
     + :ref:`Create Magic Method <create-magic-method>`
     + :ref:`Direct Call To __clone() <direct-call-to-\_\_clone()>`
     + :ref:`Has Magic Method <has-magic-method>`
+    + :ref:`Magic Method Returntype Is Restricted <magic-method-returntype-is-restricted>`
     + :ref:`Magic Methods <magic-methods>`
     + :ref:`Magic Visibility <magic-visibility>`
     + :ref:`Make Magic Concrete <make-magic-concrete>`
@@ -11708,6 +11747,10 @@ Exakat links each rules to PHP features.
     + :ref:`Used Private Methods <used-private-methods>`
     + :ref:`Wrong Number Of Arguments <wrong-number-of-arguments>`
 
+  + Methodcall
+
+    + :ref:`Methodcall On New <methodcall-on-new>`
+
   + Micro-optimisation
 
     + :ref:`Duplicate Calls <duplicate-calls>`
@@ -11723,10 +11766,10 @@ Exakat links each rules to PHP features.
 
   + Mixed
 
-    + :ref:`Mixed Keyword <mixed-keyword>`
     + :ref:`Mixed Typehint Usage <mixed-typehint-usage>`
     + :ref:`PHP 8.0 Typehints <php-8.0-typehints>`
     + :ref:`Php 8.0 Only TypeHints <php-8.0-only-typehints>`
+    + :ref:`The Mixed Keyword <the-mixed-keyword>`
 
   + Multibyte String
 
@@ -11746,6 +11789,7 @@ Exakat links each rules to PHP features.
     + :ref:`Mismatch Parameter Name <mismatch-parameter-name>`
     + :ref:`Named Parameter Usage <named-parameter-usage>`
     + :ref:`No Named Parameters <no-named-parameters>`
+    + :ref:`Remove Parameter With Named Parameters <remove-parameter-with-named-parameters>`
     + :ref:`Unknown Parameter Name <unknown-parameter-name>`
     + :ref:`Wrong Argument Name With PHP Function <wrong-argument-name-with-php-function>`
 
@@ -11907,7 +11951,7 @@ Exakat links each rules to PHP features.
 
     + :ref:`Used Once Trait <used-once-trait>`
 
-  + Override Parent Method
+  + Override Attribute
 
     + :ref:`Method Is Overwritten <method-is-overwritten>`
     + :ref:`Missing Overriden Method <missing-overriden-method>`
@@ -12083,6 +12127,11 @@ Exakat links each rules to PHP features.
     + :ref:`Unitialized Properties <unitialized-properties>`
     + :ref:`Untyped No Default Properties <untyped-no-default-properties>`
 
+  + Property Hook
+
+    + :ref:`Duplicate Enum Case Value <duplicate-enum-case-value>`
+    + :ref:`Has Virtual Property <has-virtual-property>`
+
   + Property Type Declaration
 
     + :ref:`Typed Property Usage <typed-property-usage>`
@@ -12112,6 +12161,8 @@ Exakat links each rules to PHP features.
   + Readability
 
     + :ref:`Collect Readability <collect-readability>`
+    + :ref:`Don't Mix ++ <don't-mix-++>`
+    + :ref:`Long Arguments <long-arguments>`
     + :ref:`Missing Parenthesis <missing-parenthesis>`
     + :ref:`Preprocessable <preprocessable>`
     + :ref:`Recycled Variables <recycled-variables>`
@@ -12669,6 +12720,10 @@ Exakat links each rules to PHP features.
 
     + :ref:`Always Use Function With array_key_exists() <always-use-function-with-array\_key\_exists()>`
 
+  + Virtual Property
+
+    + :ref:`Has Virtual Property <has-virtual-property>`
+
   + Visibility
 
     + :ref:`Access Protected Structures <access-protected-structures>`
@@ -12703,6 +12758,7 @@ Exakat links each rules to PHP features.
 
   + While
 
+    + :ref:`Cache Variable Outside Loop <cache-variable-outside-loop>`
     + :ref:`Collect Block Size <collect-block-size>`
     + :ref:`PHP Alternative Syntax <php-alternative-syntax>`
     + :ref:`While(List() = Each()) <while(list()-=-each())>`
@@ -12767,6 +12823,7 @@ Exakat links each rules to PHP features.
   + declare()
 
     + :ref:`Declare strict_types Usage <declare-strict\_types-usage>`
+    + :ref:`Encoding Usage <encoding-usage>`
     + :ref:`Multiple Declaration Of Strict_types <multiple-declaration-of-strict\_types>`
     + :ref:`Substring First <substring-first>`
     + :ref:`Ticks Usage <ticks-usage>`
@@ -12985,6 +13042,7 @@ Exakat helps reduce the amount of error and warning that code is producing by re
 
 * :ref:`"boolean" will be interpreted as a class name. Did you mean "bool"? <not-a-scalar-type>`
 * :ref:`"continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? <continue-is-for-loop>`
+* :ref:`"static\:\:" is not allowed in compile-time constants <avoid-self-in-interface>`
 * :ref:`$GLOBALS can only be modified using the $GLOBALS[$name] = $value syntax <restrict-global-usage>`
 * :ref:`%s %s inherits both %s\:\:%s and %s\:\:%s <overwritten-class-constants>`
 * :ref:`'break' operator accepts only positive integers <break-with-0>`
@@ -13031,7 +13089,6 @@ Exakat helps reduce the amount of error and warning that code is producing by re
 * :ref:`Calling static trait method t\:\:t is deprecated, it should only be called on a class using the trait <cannot-call-static-trait-method-directly>`
 * :ref:`Can't inherit abstract function A\:\:bar() <cant-inherit-abstract-method>`
 * :ref:`Cannot access offset of type stdClass on string <no-object-as-index>`
-* :ref:`Cannot access parent\:\: when current class scope has no parent <avoid-self-in-interface>`
 * :ref:`Cannot access parent\:\: when current class scope has no parent <class-without-parent>`
 * :ref:`Cannot access parent\:\: when current class scope has no parent <undefined-parent>`
 * :ref:`Cannot access private const <unreachable-class-constant>`
@@ -13068,7 +13125,7 @@ Exakat helps reduce the amount of error and warning that code is producing by re
 * :ref:`Cannot use "self" when no class scope is active <self,-parent,-static-outside-class>`
 * :ref:`Cannot use "static" when no class scope is active <self,-parent,-static-outside-class>`
 * :ref:`Cannot use 'final' as constant modifier <final-constant>`
-* :ref:`Cannot use 'never' as class name as it is reserved <mixed-keyword>`
+* :ref:`Cannot use 'mixed' as class name as it is reserved <the-mixed-keyword>`
 * :ref:`Cannot use 'never' as class name as it is reserved <never-keyword>`
 * :ref:`Cannot use [] for reading <cannot-use-append-for-reading>`
 * :ref:`Cannot use a scalar value as an array <array-with-string-initialization>`
@@ -13085,7 +13142,6 @@ Exakat helps reduce the amount of error and warning that code is producing by re
 * :ref:`Class 'x' not found <undefined-class>`
 * :ref:`Class BA contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (A\:\:aFoo) <abstract-or-implements>`
 * :ref:`Class b cannot implement previously implemented interface i <can't-implement-traversable>`
-* :ref:`Class b cannot implement previously implemented interface i <repeated-interface>`
 * :ref:`Class bar cannot implement previously implemented interface i <multiple-identical-trait-or-interface>`
 * :ref:`Class c contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (a\:\:foo) <missing-abstract-method>`
 * :ref:`Class fooThrowable cannot implement interface Throwable, extend Exception or Error instead <can't-throw-throwable>`
@@ -13190,7 +13246,6 @@ Exakat helps reduce the amount of error and warning that code is producing by re
 * :ref:`Uncaught Error: Undefined constant <non-constant-index-in-array>`
 * :ref:`Uncaught TypeError: Cannot auto-initialize an array inside property x\:\:$P of type bool <false-to-array-conversion>`
 * :ref:`Undefined array key 2 <possible-missing-subpattern>`
-* :ref:`Undefined class constant <avoid-self-in-interface>`
 * :ref:`Undefined constant 'A' <undefined-constants>`
 * :ref:`Undefined constant 'y' <undefined-constant-name>`
 * :ref:`Undefined constant <undefined-class-constants>`
@@ -13225,6 +13280,8 @@ Exakat helps reduce the amount of error and warning that code is producing by re
 * :ref:`array_merge() expects at least 1 parameter, 0 given <array\_merge()-and-variadic>`
 * :ref:`b cannot implement a - it is not an interface <implements-is-for-interface>`
 * :ref:`cannot override final constant <rewrote-final-class-constant>`
+* :ref:`cannot-access-parent\:\:-when-current-class-scope-has-no-parent <avoid-self-in-interface>`
+* :ref:`class-%s-cannot-implement-previously-implemented-interface-%s <repeated-interface>`
 * :ref:`class_alias(): Argument #1 ($class) must be a user-defined class name, internal class name given <class\_alias()-supports-internal-classes>`
 * :ref:`compact(): Undefined variable $a <nonexistent-variable-in-compact()>`
 * :ref:`define(): Declaration of case-insensitive constants is deprecated <case-insensitive-constants>`
@@ -13236,7 +13293,6 @@ Exakat helps reduce the amount of error and warning that code is producing by re
 * :ref:`needle is not a string or an integer <strpos()-with-integers>`
 * :ref:`pack(): Type t: unknown format code <invalid-pack-format>`
 * :ref:`printf(): Too few arguments <printf-number-of-arguments>`
-* :ref:`static\:\: is not allowed in compile-time constants <avoid-self-in-interface>`
 * :ref:`strlen() expects exactly 1 argument, 3 given <wrong-number-of-arguments>`
 * :ref:`syntax error, unexpected '&', expecting variable (T_VARIABLE) <intersection-typehint>`
 * :ref:`syntax error, unexpected ',' <reserved-match-keyword>`
@@ -13244,6 +13300,7 @@ Exakat helps reduce the amount of error and warning that code is producing by re
 * :ref:`syntax error, unexpected 'match' <reserved-match-keyword>`
 * :ref:`syntax error, unexpected '|', expecting variable (T_VARIABLE) <union-typehint>`
 * :ref:`theClass and theTrait define the same property ($property) in the composition of theClass. However, the definition differs and is considered incompatible. <incompatible-property-between-class-and-trait>`
+* :ref:`undefined-class-constant-\'%s\:\:%s\' <avoid-self-in-interface>`
 * :ref:`unpack(): Type t: unknown format code <invalid-pack-format>`
 * :ref:`version_compare(): Argument #3 ($operator) must be a valid comparison operator <version\_compare-operator>`
 * :ref:`y\:\:F cannot override final constant x\:\:F <can't-overwrite-final-constant>`

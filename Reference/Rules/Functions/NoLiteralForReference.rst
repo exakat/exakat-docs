@@ -35,6 +35,20 @@ Wrongly passing a value as a reference leads to a PHP Notice.
 
 See also `References <https://www.php.net/references>`_.
 
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Cannot+pass+parameter+1+by+reference.html>`_
+  + `1 <https://php-errors.readthedocs.io/en/latest/messages/Only+variable+references+should+be+returned+by+reference.html>`_
+
+
+
+Connex PHP features
+-------------------
+
+  + `reference <https://php-dictionary.readthedocs.io/en/latest/dictionary/reference.ini.html>`_
+  + `literal <https://php-dictionary.readthedocs.io/en/latest/dictionary/literal.ini.html>`_
+
 
 Suggestions
 ___________
@@ -63,8 +77,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                                                                                         |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                                                                                    |
-+--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | reference, literal                                                                                                                                                                      |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Community Edition <https://www.exakat.io/community-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

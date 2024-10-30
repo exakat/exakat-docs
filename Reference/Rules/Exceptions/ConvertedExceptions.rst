@@ -21,6 +21,12 @@ Sometimes, extra operations take place, such as logging or `error <https://www.p
    }
    
    ?>
+Connex PHP features
+-------------------
+
+  + `exception <https://php-dictionary.readthedocs.io/en/latest/dictionary/exception.ini.html>`_
+  + `try <https://php-dictionary.readthedocs.io/en/latest/dictionary/try.ini.html>`_
+
 
 Specs
 _____
@@ -39,8 +45,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                    |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | exception, try                                                                                                          |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

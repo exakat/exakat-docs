@@ -35,6 +35,12 @@ This problem is similar to :ref:`don't-unset-properties`  : the `static <https:/
    }
    
    ?>
+Connex PHP features
+-------------------
+
+  + `typehint <https://php-dictionary.readthedocs.io/en/latest/dictionary/typehint.ini.html>`_
+  + `parameter <https://php-dictionary.readthedocs.io/en/latest/dictionary/parameter.ini.html>`_
+
 
 Suggestions
 ___________
@@ -62,8 +68,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                                                            |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                                                  |
-+--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | typehint, parameter                                                                                                                                        |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_                                    |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+

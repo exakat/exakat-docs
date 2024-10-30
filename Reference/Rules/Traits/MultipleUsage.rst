@@ -26,6 +26,11 @@ PHP doesn't raise any `error <https://www.php.net/error>`_ when traits are inclu
 
 See also `Traits <https://www.php.net/manual/en/language.oop5.traits.php>`_.
 
+Connex PHP features
+-------------------
+
+  + `trait <https://php-dictionary.readthedocs.io/en/latest/dictionary/trait.ini.html>`_
+
 
 Suggestions
 ___________
@@ -53,8 +58,6 @@ _____
 | Time To Fix  | Instant (5 mins)                                                                                                        |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | trait                                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Examples     | :ref:`case-nextcloud-traits-multipleusage`                                                                              |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

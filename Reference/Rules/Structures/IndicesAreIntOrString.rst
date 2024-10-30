@@ -60,6 +60,18 @@ Note also that PHP detects integer inside strings, and silently turn them into i
 
 See also `Arrays syntax <https://www.php.net/manual/en/language.types.array.php>`_.
 
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Illegal+offset+type.html>`_
+
+
+
+Connex PHP features
+-------------------
+
+  + `array <https://php-dictionary.readthedocs.io/en/latest/dictionary/array.ini.html>`_
+
 
 Suggestions
 ___________
@@ -87,8 +99,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                                                                                         |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                                                                               |
-+--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | array                                                                                                                                                                                   |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Examples     | :ref:`case-zencart-structures-indicesareintorstring`, :ref:`case-mautic-structures-indicesareintorstring`                                                                               |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

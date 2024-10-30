@@ -29,6 +29,12 @@ They are also called 'dynamic variable'.
 
 See also `Variable variables <https://www.php.net/manual/en/language.variables.variable.php>`_.
 
+Connex PHP features
+-------------------
+
+  + `variable-variable <https://php-dictionary.readthedocs.io/en/latest/dictionary/variable-variable.ini.html>`_
+  + `variable <https://php-dictionary.readthedocs.io/en/latest/dictionary/variable.ini.html>`_
+
 
 Specs
 _____
@@ -47,8 +53,6 @@ _____
 | Time To Fix  |                                                                                                                                                                                         |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                                                                               |
-+--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | variable-variable, variable                                                                                                                                                             |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Community Edition <https://www.exakat.io/community-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

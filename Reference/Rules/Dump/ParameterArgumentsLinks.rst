@@ -34,6 +34,12 @@ A parameter is one slot in the method definition. An argument is a slot in the m
    foo(C, 1+3);
    
    ?>
+Connex PHP features
+-------------------
+
+  + `parameter <https://php-dictionary.readthedocs.io/en/latest/dictionary/parameter.ini.html>`_
+  + `argument <https://php-dictionary.readthedocs.io/en/latest/dictionary/argument.ini.html>`_
+
 
 Specs
 _____
@@ -52,8 +58,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                                                                                         |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                                                                                    |
-+--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | parameter, argument                                                                                                                                                                     |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Community Edition <https://www.exakat.io/community-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

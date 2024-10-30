@@ -29,6 +29,13 @@ This rules applies to recursive functions without any condition. This also appli
    }
    
    ?>
+Connex PHP features
+-------------------
+
+  + `loop <https://php-dictionary.readthedocs.io/en/latest/dictionary/loop.ini.html>`_
+  + `recursion <https://php-dictionary.readthedocs.io/en/latest/dictionary/recursion.ini.html>`_
+  + `infinite <https://php-dictionary.readthedocs.io/en/latest/dictionary/infinite.ini.html>`_
+
 
 Suggestions
 ___________
@@ -56,8 +63,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | loop, recursion, infinite                                                                                               |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

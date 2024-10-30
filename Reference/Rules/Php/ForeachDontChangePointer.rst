@@ -26,6 +26,11 @@ This only applies when a `foreach() <https://www.php.net/manual/en/control-struc
 
 See also `foreach no longer changes the internal array pointer <https://www.php.net/manual/en/migration70.incompatible.php#migration70.incompatible.foreach.array-pointer>`_.
 
+Connex PHP features
+-------------------
+
+  + `foreach <https://php-dictionary.readthedocs.io/en/latest/dictionary/foreach.ini.html>`_
+
 
 Suggestions
 ___________
@@ -54,8 +59,6 @@ _____
 | Changed Behavior | PHP 7.0 - `More <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/.html>`__                                           |
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------+
 | Precision        | High                                                                                                                                 |
-+------------------+--------------------------------------------------------------------------------------------------------------------------------------+
-| Features         | foreach                                                                                                                              |
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------+
 | Available in     | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_              |
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------+

@@ -25,6 +25,11 @@ If the code doesn't have a second argument, it relies on the default value. It i
 
 See also `mcrypt_create_iv() <https://www.php.net/manual/en/function.mcrypt-create-iv.php>`_.
 
+Connex PHP features
+-------------------
+
+  + `mcrypt <https://php-dictionary.readthedocs.io/en/latest/dictionary/mcrypt.ini.html>`_
+
 
 Suggestions
 ___________
@@ -51,8 +56,6 @@ _____
 | Time To Fix  | Instant (5 mins)                                                                                                                     |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                                 |
-+--------------+--------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | mcrypt                                                                                                                               |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_              |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------+

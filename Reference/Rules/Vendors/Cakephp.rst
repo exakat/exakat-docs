@@ -5,7 +5,10 @@
 Cakephp
 +++++++
 
-  This rules reports when code is based on the CakePHP framework.
+  This rules reports when the source code is based on the CakePHP framework.
+
+CakePHP is an open-source web framework. It follows the model–view–controller (MVC) approach and is written in PHP, modeled after the concepts of Ruby on Rails, and distributed under the MIT License.
+
 
 .. code-block:: php
    
@@ -20,6 +23,9 @@ Cakephp
    }
    
    ?>
+
+See also `CakePHP <https://cakephp.org/>`_.
+
 
 Specs
 _____

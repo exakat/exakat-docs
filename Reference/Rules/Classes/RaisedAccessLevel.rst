@@ -28,6 +28,18 @@ This `error <https://www.php.net/error>`_ may be detected by PHP when the classe
 
 See also `Visibility <https://www.php.net/manual/en/language.oop5.visibility.php>`_ and `Understanding the concept of visibility in object oriented php <https://torquemag.io/2016/05/understanding-concept-visibility-object-oriented-php/>`_.
 
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Access+level+to+Bar%3A%3A%24publicProperty+must+be+public+%28as+in+class+Foo%29.html>`_
+
+
+
+Connex PHP features
+-------------------
+
+  + `visibility <https://php-dictionary.readthedocs.io/en/latest/dictionary/visibility.ini.html>`_
+
 
 Suggestions
 ___________
@@ -55,8 +67,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                                                                            |
 +--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                                                                  |
-+--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | visibility                                                                                                                                                                 |
 +--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Note         | This issue may lint but will not run                                                                                                                                       |
 +--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

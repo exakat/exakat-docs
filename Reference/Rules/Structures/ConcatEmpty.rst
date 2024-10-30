@@ -30,6 +30,11 @@ Type cast to a string is done with ``(string)`` operator. There is also the func
 
 See also `Type Casting <https://php.net/manual/en/language.types.type-juggling.php#language.types.typecasting>`_ and `PHP Type Casting <https://developer.hyvor.com/tutorials/php/type-casting>`_.
 
+Connex PHP features
+-------------------
+
+  + `string <https://php-dictionary.readthedocs.io/en/latest/dictionary/string.ini.html>`_
+
 
 Suggestions
 ___________
@@ -58,8 +63,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | string                                                                                                                  |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

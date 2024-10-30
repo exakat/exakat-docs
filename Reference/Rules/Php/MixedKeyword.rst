@@ -1,29 +1,40 @@
 .. _php-mixedkeyword:
 
-.. _mixed-keyword:
+.. _the-mixed-keyword:
 
-Mixed Keyword
-+++++++++++++
+The Mixed Keyword
++++++++++++++++++
 
-  Never becomes a PHP keyword. It is used for typing functions which never returns anything (either dies or throw an `exception) <https://www.php.net/exception>`_.
+  `mixed` has becomes a PHP keyword. It is used for explicitly typing methods, argument or properties which accept any type of data.
 
-It should be avoided in classes, traits and interfaces. Methods, anonymous classes (sic), namespaces and functions are OK. 
+That name should be avoided in classes, traits, enumerations and interfaces. Methods, anonymous classes (sic), namespaces and functions are OK to use it. 
 
-Setting a `never` class in a namespaces doesn't make it legit.
 
 .. code-block:: php
    
    <?php
    
    // This is OK
-   function never() { } 
+   function mixed() { } 
    
-   // This is no OK
-   class never {  } 
+   // This is not possible anymore in PHP 8.0.
+   class mixed {  } 
    
    ?>
 
 See also `mixed <hhttps://www.php.net/manual/en/language.types.declarations.php#language.types.declarations.mixed>`_.
+
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Cannot+use+%27mixed%27+as+class+name+as+it+is+reserved+.html>`_
+
+
+
+Connex PHP features
+-------------------
+
+  + `mixed <https://php-dictionary.readthedocs.io/en/latest/dictionary/mixed.ini.html>`_
 
 
 Suggestions
@@ -51,8 +62,6 @@ _____
 | Time To Fix  | Slow (1 hour)                                                                                                                                                                                |
 +--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                                                                                    |
-+--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | mixed                                                                                                                                                                                        |
 +--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_                                                                      |
 +--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

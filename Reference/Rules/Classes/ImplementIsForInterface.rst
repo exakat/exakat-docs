@@ -28,6 +28,19 @@ PHP defers the implements check until execution : the code in example does lint,
    class z implements x {}
    
    ?>
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/b+cannot+implement+a+-+it+is+not+an+interface.html>`_
+
+
+
+Connex PHP features
+-------------------
+
+  + `implements <https://php-dictionary.readthedocs.io/en/latest/dictionary/implements.ini.html>`_
+  + `interface <https://php-dictionary.readthedocs.io/en/latest/dictionary/interface.ini.html>`_
+
 
 Suggestions
 ___________
@@ -54,8 +67,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                    |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | implements, interface                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

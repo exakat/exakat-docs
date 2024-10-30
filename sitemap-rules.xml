@@ -109,6 +109,9 @@
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Patterns/Factory.html</loc>
  </url>
  <url>
+  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Exceptions/AnonymousCatch.html</loc>
+ </url>
+ <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Classes/Anonymous.html</loc>
  </url>
  <url>
@@ -841,6 +844,9 @@
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Functions/CouldCentralize.html</loc>
  </url>
  <url>
+  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/MergeTernaryIntoIfthen.html</loc>
+ </url>
+ <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Typehints/CouldNotType.html</loc>
  </url>
  <url>
@@ -1151,6 +1157,9 @@
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/DuplicateCalls.html</loc>
+ </url>
+ <url>
+  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Enums/DuplicateCaseValue.html</loc>
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Type/DuplicateLiteral.html</loc>
@@ -1540,7 +1549,13 @@
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Classes/HasMagicProperty.html</loc>
  </url>
  <url>
+  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Php/HasPropertyHook.html</loc>
+ </url>
+ <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Functions/VariableArguments.html</loc>
+ </url>
+ <url>
+  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Php/HasVirtualProperty.html</loc>
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Php/HashAlgos.html</loc>
@@ -2134,9 +2149,6 @@
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Arrays/MixedKeys.html</loc>
  </url>
  <url>
-  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Php/MixedKeyword.html</loc>
- </url>
- <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Php/MixedUsage.html</loc>
  </url>
  <url>
@@ -2339,6 +2351,9 @@
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Php/Php83NewFunctions.html</loc>
+ </url>
+ <url>
+  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Php/Php84NewFunctions.html</loc>
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Php/NewInitializers.html</loc>
@@ -3563,6 +3578,9 @@
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/TestThenCast.html</loc>
+ </url>
+ <url>
+  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Php/MixedKeyword.html</loc>
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Classes/CouldBeIterable.html</loc>

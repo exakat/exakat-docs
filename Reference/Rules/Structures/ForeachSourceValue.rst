@@ -39,6 +39,11 @@ The same applies to the index, or to any variable in a `list() <https://www.php.
    print_r($array);
    
    ?>
+Connex PHP features
+-------------------
+
+  + `foreach <https://php-dictionary.readthedocs.io/en/latest/dictionary/foreach.ini.html>`_
+
 
 Suggestions
 ___________
@@ -65,8 +70,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | foreach                                                                                                                 |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Examples     | :ref:`case-churchcrm-structures-foreachsourcevalue`, :ref:`case-expressionengine-structures-foreachsourcevalue`         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

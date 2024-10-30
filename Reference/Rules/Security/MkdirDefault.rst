@@ -24,6 +24,11 @@ Mkdir Default
 
 See also `Why 777 Folder Permissions are a Security Risk <https://www.spiralscripts.co.uk/Blog/why-777-folder-permissions-are-a-security-risk.html>`_.
 
+Connex PHP features
+-------------------
+
+  + `dir <https://php-dictionary.readthedocs.io/en/latest/dictionary/dir.ini.html>`_
+
 
 Suggestions
 ___________
@@ -51,8 +56,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | dir                                                                                                                     |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Examples     | :ref:`case-mautic-security-mkdirdefault`, :ref:`case-openemr-security-mkdirdefault`                                     |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

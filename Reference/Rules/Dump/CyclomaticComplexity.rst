@@ -24,6 +24,11 @@ Cyclomatic Complexity
 
 See also `Cyclomatic complexity <https://en.wikipedia.org/wiki/Cyclomatic_complexity>`_.
 
+Connex PHP features
+-------------------
+
+  + `cyclomatic-complexity <https://php-dictionary.readthedocs.io/en/latest/dictionary/cyclomatic-complexity.ini.html>`_
+
 
 Specs
 _____
@@ -42,8 +47,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                                                                                         |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                                                                                    |
-+--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | cyclomatic-complexity                                                                                                                                                                   |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Community Edition <https://www.exakat.io/community-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

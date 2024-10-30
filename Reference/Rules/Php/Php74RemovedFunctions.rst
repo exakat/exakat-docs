@@ -28,6 +28,12 @@ This analysis skips redefined PHP functions : when a replacement for a removed P
 
 See also `PHP 7.4 Removed Functions <https://www.php.net/manual/en/migration74.incompatible.php#migration70.incompatible.removed-functions>`_ and `PHP 7.4 Deprecations : Introduction <https://wiki.php.net/rfc/deprecations_php_7_4#introduction>`_.
 
+Connex PHP features
+-------------------
+
+  + `function <https://php-dictionary.readthedocs.io/en/latest/dictionary/function.ini.html>`_
+  + `native <https://php-dictionary.readthedocs.io/en/latest/dictionary/native.ini.html>`_
+
 
 Specs
 _____
@@ -46,8 +52,6 @@ _____
 | Time To Fix  | Slow (1 hour)                                                                                                                                                                           |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                                                                               |
-+--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | function, native                                                                                                                                                                        |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Community Edition <https://www.exakat.io/community-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

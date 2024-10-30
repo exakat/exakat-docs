@@ -26,6 +26,19 @@ The reason behind this feature is to keep the code expressive. See the Warning m
 
 See also `PHP RFC: Deprecate left-associative ternary operator <https://wiki.php.net/rfc/ternary_associativity>`_.
 
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Unparenthesized+%60a+%3F+b+%3A+c+%3F+d+%3A+e%60+is+deprecated.+Use+either+%60%28a+%3F+b+%3A+c%29+%3F+d+%3A+e%60+or+%60a+%3F+b+%3A+%28c+%3F+d+%3A+e%29%60.html>`_
+
+
+
+Connex PHP features
+-------------------
+
+  + `ternary <https://php-dictionary.readthedocs.io/en/latest/dictionary/ternary.ini.html>`_
+  + `parenthesis <https://php-dictionary.readthedocs.io/en/latest/dictionary/parenthesis.ini.html>`_
+
 
 Suggestions
 ___________
@@ -52,8 +65,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                                                                                                                                        |
 +--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                                                                                                                              |
-+--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | ternary, parenthesis                                                                                                                                                                                                                   |
 +--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Community Edition <https://www.exakat.io/community-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_                                                |
 +--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

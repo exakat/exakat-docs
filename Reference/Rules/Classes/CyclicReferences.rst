@@ -36,6 +36,12 @@ Cyclic references, or circular references, are memory intensive : only the garba
 
 See also `About circular references in PHP <https://johann.pardanaud.com/blog/about-circular-references-in-php>`_ and `A Journey to find a memory leak <https://jolicode.com/blog/a-journey-to-find-a-memory-leak/>`_.
 
+Connex PHP features
+-------------------
+
+  + `class <https://php-dictionary.readthedocs.io/en/latest/dictionary/class.ini.html>`_
+  + `extends <https://php-dictionary.readthedocs.io/en/latest/dictionary/extends.ini.html>`_
+
 
 Suggestions
 ___________
@@ -63,8 +69,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                                                            |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                                                  |
-+--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | class, extends                                                                                                                                             |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_                                    |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+

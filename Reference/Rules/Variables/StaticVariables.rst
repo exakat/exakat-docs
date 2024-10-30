@@ -5,7 +5,7 @@
 Static Variables
 ++++++++++++++++
 
-  In PHP, variables may be `static <https://www.php.net/manual/en/language.oop5.static.php>`_. They will survive after the function execution end, and will be available at the next function run. They are distinct from globals, which are available application wide, and from `static <https://www.php.net/manual/en/language.oop5.static.php>`_ properties, which are tied to a class of objects.
+  PHP variables may be `static <https://www.php.net/manual/en/language.oop5.static.php>`_ or standard. `Static <https://www.php.net/manual/en/language.oop5.static.php>`_ variables survive after the function execution end, and are available at the next function run. They are distinct from globals, which are available application wide, and from `static <https://www.php.net/manual/en/language.oop5.static.php>`_ properties, which are tied to a class. `Static <https://www.php.net/manual/en/language.oop5.static.php>`_ variables are tied to a function, method, `closure <https://www.php.net/`closure <https://www.php.net/closure>`_>`_ or arrow function.
 
 .. code-block:: php
    
@@ -28,6 +28,11 @@ Static Variables
 
 See also `Using static variables <https://www.php.net/manual/en/language.variables.scope.php#language.variables.scope.static>`_.
 
+Connex PHP features
+-------------------
+
+  + `static-variable <https://php-dictionary.readthedocs.io/en/latest/dictionary/static-variable.ini.html>`_
+
 
 Specs
 _____
@@ -46,8 +51,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                                                                                         |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                                                                               |
-+--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | static-variable                                                                                                                                                                         |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Community Edition <https://www.exakat.io/community-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

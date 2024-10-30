@@ -22,6 +22,13 @@ On the other hand, the coalesce operator only process `NULL <https://www.php.net
    $b = $a ?: 'C' ?? 'B';
    
    ?>
+Connex PHP features
+-------------------
+
+  + `ternary <https://php-dictionary.readthedocs.io/en/latest/dictionary/ternary.ini.html>`_
+  + `null <https://php-dictionary.readthedocs.io/en/latest/dictionary/null.ini.html>`_
+  + `coalesce <https://php-dictionary.readthedocs.io/en/latest/dictionary/coalesce.ini.html>`_
+
 
 Suggestions
 ___________
@@ -48,8 +55,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                    |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | ternary, null, coalesce                                                                                                 |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

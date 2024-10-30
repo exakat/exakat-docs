@@ -26,6 +26,18 @@ The `error <https://www.php.net/error>`_ is only emitted if the class is instant
 
 See also `Why, php? WHY??? <https://gist.github.com/everzet/4215537>`_.
 
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/The+parent+constructor+was+not+called%3A+the+object+is+in+an+invalid+state.html>`_
+
+
+
+Connex PHP features
+-------------------
+
+  + `parent <https://php-dictionary.readthedocs.io/en/latest/dictionary/parent.ini.html>`_
+
 
 Suggestions
 ___________
@@ -53,8 +65,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | parent                                                                                                                  |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

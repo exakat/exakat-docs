@@ -26,6 +26,13 @@ Classes that defined a `__toString() <https://www.php.net/manual/en/language.oop
 
 See also `PHP RFC: Add Stringable interface <https://wiki.php.net/rfc/stringable>`_ and `The Stringable interface <https://www.php.net/manual/en/class.stringable.php>`_.
 
+Connex PHP features
+-------------------
+
+  + `stringable <https://php-dictionary.readthedocs.io/en/latest/dictionary/stringable.ini.html>`_
+  + `string <https://php-dictionary.readthedocs.io/en/latest/dictionary/string.ini.html>`_
+  + `magic-method <https://php-dictionary.readthedocs.io/en/latest/dictionary/magic-method.ini.html>`_
+
 
 Suggestions
 ___________
@@ -53,8 +60,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                                                                                                                                      |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                                                                                                                            |
-+--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | stringable, string, magic-method                                                                                                                                                                                                     |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Note         | This issue may lint but will not run                                                                                                                                                                                                 |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

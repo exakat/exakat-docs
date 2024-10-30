@@ -28,6 +28,18 @@ This code may compile, but won't execute.
 
 See also `Object Interfaces <https://www.php.net/manual/en/language.oop5.interfaces.php>`_ and `The Basics <https://www.php.net/manual/en/language.oop5.basic.php>`_.
 
+Related PHP errors 
+-------------------
+
+  + `Class b cannot implement previously implemented interface i <https://php-errors.readthedocs.io/en/latest/messages/class-%25s-cannot-implement-previously-implemented-interface-%25s.html>`_
+
+
+
+Connex PHP features
+-------------------
+
+  + `interface <https://php-dictionary.readthedocs.io/en/latest/dictionary/interface.ini.html>`_
+
 
 Suggestions
 ___________
@@ -54,8 +66,6 @@ _____
 | Time To Fix  | Instant (5 mins)                                                                                                                                                 |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                                                             |
-+--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | interface                                                                                                                                                        |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Note         | This issue may lint but will not run                                                                                                                             |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+

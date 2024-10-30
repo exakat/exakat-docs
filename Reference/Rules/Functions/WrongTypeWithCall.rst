@@ -25,6 +25,19 @@ Currently, this analysis doesn't take into account ``strict_types = 1``. As such
    foo("1");
    
    ?>
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Argument+%231+%28%24s%29+must+be+of+type+X%2C+int+given.html>`_
+
+
+
+Connex PHP features
+-------------------
+
+  + `union-type <https://php-dictionary.readthedocs.io/en/latest/dictionary/union-type.ini.html>`_
+  + `intersection-type <https://php-dictionary.readthedocs.io/en/latest/dictionary/intersection-type.ini.html>`_
+
 
 Suggestions
 ___________
@@ -53,8 +66,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                                                                                                                      |
 +--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                                                                                                            |
-+--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | union-type, intersection-type                                                                                                                                                                                        |
 +--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Community Edition <https://www.exakat.io/community-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_                              |
 +--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

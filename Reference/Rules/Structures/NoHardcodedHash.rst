@@ -25,6 +25,11 @@ Hashes may be MD5, SHA1, SHA512, Bcrypt or any other. Such values must be easily
 
 See also `Salted Password Hashing - Doing it Right <https://crackstation.net/hashing-security.htm>`_ and `Hash-Buster <https://github.com/s0md3v/Hash-Buster>`_.
 
+Connex PHP features
+-------------------
+
+  + `class <https://php-dictionary.readthedocs.io/en/latest/dictionary/class.ini.html>`_
+
 
 Suggestions
 ___________
@@ -51,8 +56,6 @@ _____
 | Time To Fix  | Slow (1 hour)                                                                                                                                      |
 +--------------+----------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                                          |
-+--------------+----------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | class                                                                                                                                              |
 +--------------+----------------------------------------------------------------------------------------------------------------------------------------------------+
 | Examples     | :ref:`case-shopware-structures-nohardcodedhash`, :ref:`case-sugarcrm-structures-nohardcodedhash`                                                   |
 +--------------+----------------------------------------------------------------------------------------------------------------------------------------------------+

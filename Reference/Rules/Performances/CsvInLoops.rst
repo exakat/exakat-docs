@@ -35,6 +35,11 @@ The speed improvement is significant on small rows, while it may be less signifi
    }
    fclose($fp);
    ?>
+Connex PHP features
+-------------------
+
+  + `csv <https://php-dictionary.readthedocs.io/en/latest/dictionary/csv.ini.html>`_
+
 
 Suggestions
 ___________
@@ -61,8 +66,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                    |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | csv                                                                                                                     |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

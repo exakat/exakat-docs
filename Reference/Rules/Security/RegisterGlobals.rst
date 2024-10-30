@@ -26,6 +26,11 @@ Mimicking ``register_globals`` is achieved with variables variables, `extract() 
    }
    
    ?>
+Connex PHP features
+-------------------
+
+  + `register-globals <https://php-dictionary.readthedocs.io/en/latest/dictionary/register-globals.ini.html>`_
+
 
 Suggestions
 ___________
@@ -53,8 +58,6 @@ _____
 | Time To Fix  | Slow (1 hour)                                                                                                           |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                    |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | register-globals                                                                                                        |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Examples     | :ref:`case-teampass-security-registerglobals`, :ref:`case-xoops-security-registerglobals`                               |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

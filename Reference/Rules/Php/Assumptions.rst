@@ -32,6 +32,11 @@ Some conditions may be very weak, and lead to errors. For example, the code belo
 
 See also `From assumptions to assertions <https://rskuipers.com/entry/from-assumptions-to-assertions>`_.
 
+Connex PHP features
+-------------------
+
+  + `assumption <https://php-dictionary.readthedocs.io/en/latest/dictionary/assumption.ini.html>`_
+
 
 Suggestions
 ___________
@@ -60,8 +65,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                    |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | assumption                                                                                                              |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

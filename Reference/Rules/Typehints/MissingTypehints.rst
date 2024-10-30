@@ -23,6 +23,13 @@ Class constants are typed starting with PHP 8.3
    }
    
    ?>
+Connex PHP features
+-------------------
+
+  + `parameter <https://php-dictionary.readthedocs.io/en/latest/dictionary/parameter.ini.html>`_
+  + `property <https://php-dictionary.readthedocs.io/en/latest/dictionary/property.ini.html>`_
+  + `return-value <https://php-dictionary.readthedocs.io/en/latest/dictionary/return-value.ini.html>`_
+
 
 Suggestions
 ___________
@@ -50,8 +57,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | parameter, property, return-value                                                                                       |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

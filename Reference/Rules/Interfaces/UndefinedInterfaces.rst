@@ -28,6 +28,18 @@ Undefined Interfaces
 
 See also `Object interfaces <https://www.php.net/manual/en/language.oop5.interfaces.php>`_, `Type declarations <https://www.php.net/manual/en/functions.arguments.php#functions.arguments.type-declaration>`_ and `Instanceof <https://www.php.net/manual/en/language.operators.type.php>`_.
 
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Argument+%231+%28%24a%29+must+be+of+type+T.html>`_
+
+
+
+Connex PHP features
+-------------------
+
+  + `interface <https://php-dictionary.readthedocs.io/en/latest/dictionary/interface.ini.html>`_
+
 
 Suggestions
 ___________
@@ -55,8 +67,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                                                                                                                                |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                                                                                                                           |
-+--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | interface                                                                                                                                                                                                                      |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Examples     | :ref:`case-xataface-interfaces-undefinedinterfaces`                                                                                                                                                                            |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

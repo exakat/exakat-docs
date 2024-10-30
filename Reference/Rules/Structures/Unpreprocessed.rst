@@ -25,6 +25,12 @@ This is a micro-optimisation, in particular when the expression is used once.
    
        $days = explode(',', $lang === 'en' ? $days_en : $days_zh); 
    ?>
+Connex PHP features
+-------------------
+
+  + `preprocess <https://php-dictionary.readthedocs.io/en/latest/dictionary/preprocess.ini.html>`_
+  + `micro-optimisation <https://php-dictionary.readthedocs.io/en/latest/dictionary/micro-optimisation.ini.html>`_
+
 
 Suggestions
 ___________
@@ -53,8 +59,6 @@ _____
 | Time To Fix  | Instant (5 mins)                                                                                                                                           |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                                                  |
-+--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | preprocess, micro-optimisation                                                                                                                             |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | ClearPHP     | `always-preprocess <https://github.com/dseguy/clearPHP/tree/master/rules/always-preprocess.md>`__                                                          |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+

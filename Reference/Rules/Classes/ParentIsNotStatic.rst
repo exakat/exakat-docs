@@ -35,6 +35,13 @@ This may skip the `parent <https://www.php.net/manual/en/language.oop5.paamayim-
    // print x::method
    
    ?>
+Connex PHP features
+-------------------
+
+  + `self <https://php-dictionary.readthedocs.io/en/latest/dictionary/self.ini.html>`_
+  + `static <https://php-dictionary.readthedocs.io/en/latest/dictionary/static.ini.html>`_
+  + `parent <https://php-dictionary.readthedocs.io/en/latest/dictionary/parent.ini.html>`_
+
 
 Suggestions
 ___________
@@ -63,8 +70,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                                                            |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                                                  |
-+--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | self, static, parent                                                                                                                                       |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_                                    |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+

@@ -24,6 +24,19 @@ Calling the same method, from the class point of view is valid.
 
 See also `PHP RFC: Deprecations for PHP 8.1 <https://wiki.php.net/rfc/deprecations_php_8_1>`_.
 
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Calling+static+trait+method+Test%3A%3Atest+is+deprecated%2C+it+should+only+be+called+on+a+class+using+the+trait.html>`_
+
+
+
+Connex PHP features
+-------------------
+
+  + `trait <https://php-dictionary.readthedocs.io/en/latest/dictionary/trait.ini.html>`_
+  + `static-method <https://php-dictionary.readthedocs.io/en/latest/dictionary/static-method.ini.html>`_
+
 
 Suggestions
 ___________
@@ -51,8 +64,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                                                                              |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Medium                                                                                                                                                                       |
-+--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | trait, static-method                                                                                                                                                         |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_                                                      |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

@@ -26,6 +26,13 @@ Method Is A Generator
 
 See also `Generators overview <https://www.php.net/manual/en/language.generators.overview.php>`_.
 
+Connex PHP features
+-------------------
+
+  + `generator <https://php-dictionary.readthedocs.io/en/latest/dictionary/generator.ini.html>`_
+  + `yield <https://php-dictionary.readthedocs.io/en/latest/dictionary/yield.ini.html>`_
+  + `yield-from <https://php-dictionary.readthedocs.io/en/latest/dictionary/yield-from.ini.html>`_
+
 
 Specs
 _____
@@ -44,8 +51,6 @@ _____
 | Time To Fix  |                                                                                                                                                                                         |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                                                                               |
-+--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | generator, yield, yield-from                                                                                                                                                            |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Community Edition <https://www.exakat.io/community-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

@@ -36,6 +36,11 @@ This is a micro optimisation, unless the exploded string is large.
 
 See also `Cryptography Extensions <https://www.php.net/manual/en/refs.crypto.php>`_.
 
+Connex PHP features
+-------------------
+
+  + `crypto <https://php-dictionary.readthedocs.io/en/latest/dictionary/crypto.ini.html>`_
+
 
 Suggestions
 ___________
@@ -62,8 +67,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                          |
 +--------------+--------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                |
-+--------------+--------------------------------------------------------------------------------------------------------------------------+
-| Features     | crypto                                                                                                                   |
 +--------------+--------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_  |
 +--------------+--------------------------------------------------------------------------------------------------------------------------+

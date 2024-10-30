@@ -38,6 +38,11 @@ This analysis also skips very common values, such as boolean, ``0`` and ``1``. T
    $a = 'abcd'; 
    
    ?>
+Connex PHP features
+-------------------
+
+  + `constant <https://php-dictionary.readthedocs.io/en/latest/dictionary/constant.ini.html>`_
+
 
 Suggestions
 ___________
@@ -64,8 +69,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                    |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | constant                                                                                                                |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

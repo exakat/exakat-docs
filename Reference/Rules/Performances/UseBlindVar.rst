@@ -28,6 +28,11 @@ Note that it is also faster to use the value with a reference to handle the writ
    }
    
    ?>
+Connex PHP features
+-------------------
+
+  + `blind-variable <https://php-dictionary.readthedocs.io/en/latest/dictionary/blind-variable.ini.html>`_
+
 
 Suggestions
 ___________
@@ -54,8 +59,6 @@ _____
 | Time To Fix  | Instant (5 mins)                                                                                                         |
 +--------------+--------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                |
-+--------------+--------------------------------------------------------------------------------------------------------------------------+
-| Features     | blind-variable                                                                                                           |
 +--------------+--------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_  |
 +--------------+--------------------------------------------------------------------------------------------------------------------------+

@@ -21,6 +21,12 @@ Globals
 
 See also `Global keyword <https://www.php.net/manual/en/language.variables.scope.php#language.variables.scope.global>`_.
 
+Connex PHP features
+-------------------
+
+  + `global <https://php-dictionary.readthedocs.io/en/latest/dictionary/global.ini.html>`_
+  + `global-variable <https://php-dictionary.readthedocs.io/en/latest/dictionary/global-variable.ini.html>`_
+
 
 Specs
 _____
@@ -39,8 +45,6 @@ _____
 | Time To Fix  |                                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                    |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | global, global-variable                                                                                                 |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

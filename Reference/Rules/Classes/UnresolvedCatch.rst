@@ -26,6 +26,11 @@ Catch clauses check that the emitted expression is of the requested Class, but i
 
 See also `PHP Try Catch: Basics & Advanced PHP Exception Handling Tutorial <https://stackify.com/php-try-catch-php-exception-tutorial/>`_ and `Silent failure to catch exceptions in PHP <http://yakhairsurplus.com/silent-filure-to-catch-exceptions-in-php/>`_.
 
+Connex PHP features
+-------------------
+
+  + `try-catch <https://php-dictionary.readthedocs.io/en/latest/dictionary/try-catch.ini.html>`_
+
 
 Suggestions
 ___________
@@ -55,8 +60,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                    |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | try-catch                                                                                                               |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | ClearPHP     | `no-unresolved-catch <https://github.com/dseguy/clearPHP/tree/master/rules/no-unresolved-catch.md>`__                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

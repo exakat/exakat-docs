@@ -20,6 +20,11 @@ It is recommended to comment them out, and only define them when it is necessary
    define('ANOTHER_UNUSED_CONSTANT', 3);
    
    ?>
+Connex PHP features
+-------------------
+
+  + `constant <https://php-dictionary.readthedocs.io/en/latest/dictionary/constant.ini.html>`_
+
 
 Suggestions
 ___________
@@ -47,8 +52,6 @@ _____
 | Time To Fix  | Instant (5 mins)                                                                                                        |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                    |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | constant                                                                                                                |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

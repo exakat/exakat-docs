@@ -21,6 +21,13 @@ Only First Byte
 
 See also `String access and modification by character <https://www.php.net/manual/en/language.types.string.php#language.types.string.substr>`_.
 
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Only+the+first+byte+will+be+assigned+to+the+string+offset.html>`_
+
+
+
 
 Suggestions
 ___________

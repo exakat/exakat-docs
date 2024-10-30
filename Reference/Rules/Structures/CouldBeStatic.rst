@@ -15,6 +15,12 @@ Could Be A Static Variable
        global $variableIsGlobal;       //      accessible everywhere in the application
    }
    ?>
+Connex PHP features
+-------------------
+
+  + `static <https://php-dictionary.readthedocs.io/en/latest/dictionary/static.ini.html>`_
+  + `static-variable <https://php-dictionary.readthedocs.io/en/latest/dictionary/static-variable.ini.html>`_
+
 
 Specs
 _____
@@ -33,8 +39,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                                                            |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                                                  |
-+--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | static, static-variable                                                                                                                                    |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Examples     | :ref:`case-dolphin-structures-couldbestatic`, :ref:`case-contao-structures-couldbestatic`                                                                  |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+

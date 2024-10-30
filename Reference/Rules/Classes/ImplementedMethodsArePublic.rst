@@ -28,6 +28,19 @@ This `error <https://www.php.net/error>`_ is not reported by lint, and is report
 
 See also `Interfaces <https://www.php.net/manual/en/language.oop5.interfaces.php>`_ and `Interfaces - the next level of abstraction <https://phpenthusiast.com/object-oriented-php-tutorials/interfaces>`_.
 
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Access+level+to+x%3A%3Afoo%28%29+must+be+public+%28as+in+class+i%29.html>`_
+
+
+
+Connex PHP features
+-------------------
+
+  + `method <https://php-dictionary.readthedocs.io/en/latest/dictionary/method.ini.html>`_
+  + `visibility <https://php-dictionary.readthedocs.io/en/latest/dictionary/visibility.ini.html>`_
+
 
 Suggestions
 ___________
@@ -54,8 +67,6 @@ _____
 | Time To Fix  | Instant (5 mins)                                                                                                                                                 |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                                                        |
-+--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | method, visibility                                                                                                                                               |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Note         | This issue may lint but will not run                                                                                                                             |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+

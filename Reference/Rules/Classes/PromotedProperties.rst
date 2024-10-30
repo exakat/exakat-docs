@@ -24,6 +24,11 @@ Promoted Properties
 
 See also `Constructor Promotion <https://www.php.net/manual/en/language.oop5.decon.php#language.oop5.decon.constructor.promotion>`_ and `PHP 8: Constructor property promotion <https://stitcher.io/blog/constructor-promotion-in-php-8>`_.
 
+Connex PHP features
+-------------------
+
+  + `promoted-property <https://php-dictionary.readthedocs.io/en/latest/dictionary/promoted-property.ini.html>`_
+
 
 Specs
 _____
@@ -42,8 +47,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                                                      |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                                            |
-+--------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | promoted-property                                                                                                                                    |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_                              |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------+

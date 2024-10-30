@@ -28,6 +28,11 @@ They reduce PHP code at `__construct() <https://www.php.net/manual/en/language.o
 
 See also `PHP 8: Constructor property promotion <https://stitcher.io/blog/constructor-promotion-in-php-8>`_ and `PHP RFC: Constructor Property Promotion <https://wiki.php.net/rfc/constructor_promotion>`_.
 
+Connex PHP features
+-------------------
+
+  + `promoted-property <https://php-dictionary.readthedocs.io/en/latest/dictionary/promoted-property.ini.html>`_
+
 
 Suggestions
 ___________
@@ -54,8 +59,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                    |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | promoted-property                                                                                                       |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

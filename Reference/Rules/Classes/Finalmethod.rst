@@ -32,6 +32,13 @@ final may be applied to classes and methods in classes and traits.
 
 See also `Final Keyword <https://www.php.net/manual/en/language.oop5.final.php>`_.
 
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Cannot+override+final+method+Foo%3A%3AFooBar%28%29.html>`_
+
+
+
 
 Specs
 _____

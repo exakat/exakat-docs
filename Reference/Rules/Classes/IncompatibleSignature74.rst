@@ -35,6 +35,21 @@ This problem emits a fatal `error <https://www.php.net/error>`_, for abstract me
 
 See also `Object Inheritance <https://www.php.net/manual/en/language.oop5.inheritance.php>`_, `PHP RFC: Covariant Returns and Contravariant Parameters <https://wiki.php.net/rfc/covariant-returns-and-contravariant-parameters>`_ and :ref:`Incompatible Signature Methods <incompatible-signature-methods>`.
 
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Declaration+of+ab%3A%3Afoo%28%24a%29+should+be+compatible+with+a%3A%3Afoo%28%24a+%3D+1%29+.html>`_
+  + `1 <https://php-errors.readthedocs.io/en/latest/messages/Declaration+of+ab%3A%3Afoo%28%24a%29+must+be+compatible+with+a%3A%3Afoo%28%24a+%3D+1%29+.html>`_
+  + `2 <https://php-errors.readthedocs.io/en/latest/messages/Could+not+check+compatibility+between+xx%3A%3Abar%28B+%24a%29+and+foo%3A%3Abar%28A+%24a%29%2C+because+class+A+is+not+available.html>`_
+
+
+
+Connex PHP features
+-------------------
+
+  + `type-covariance <https://php-dictionary.readthedocs.io/en/latest/dictionary/type-covariance.ini.html>`_
+  + `type-contravariance <https://php-dictionary.readthedocs.io/en/latest/dictionary/type-contravariance.ini.html>`_
+
 
 Suggestions
 ___________
@@ -61,8 +76,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Medium                                                                                                                  |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | type-covariance, type-contravariance                                                                                    |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Examples     | :ref:`case-suitecrm-classes-incompatiblesignature74`                                                                    |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

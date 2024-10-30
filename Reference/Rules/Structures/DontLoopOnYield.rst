@@ -35,6 +35,11 @@ There is a performance gain when delegating, over looping manually on the `gener
 
 See also `Generator delegation via yield from <https://www.php.net/manual/en/language.generators.syntax.php#control-structures.yield.from>`_.
 
+Connex PHP features
+-------------------
+
+  + `yield <https://php-dictionary.readthedocs.io/en/latest/dictionary/yield.ini.html>`_
+
 
 Suggestions
 ___________
@@ -61,8 +66,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                    |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | yield                                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Examples     | :ref:`case-dolibarr-structures-dontlooponyield`, :ref:`case-tikiwiki-structures-dontlooponyield`                        |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

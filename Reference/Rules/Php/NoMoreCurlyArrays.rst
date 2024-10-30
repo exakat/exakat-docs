@@ -23,6 +23,18 @@ No More Curly Arrays
 
 See also `Deprecate curly brace syntax <https://derickrethans.nl/phpinternalsnews-19.html>`_ and `Deprecate curly brace syntax for accessing array elements and string offsets <https://wiki.php.net/rfc/deprecate_curly_braces_array_access>`_.
 
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Array+and+string+offset+access+syntax+with+curly+braces+is+deprecated.html>`_
+
+
+
+Connex PHP features
+-------------------
+
+  + `array-curly-braces <https://php-dictionary.readthedocs.io/en/latest/dictionary/array-curly-braces.ini.html>`_
+
 
 Suggestions
 ___________
@@ -49,8 +61,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                                                                                         |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                                                                               |
-+--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | array-curly-braces                                                                                                                                                                      |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Community Edition <https://www.exakat.io/community-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

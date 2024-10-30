@@ -38,6 +38,11 @@ The ``$samesite`` argument limits the sending of the cookie to the domain that i
 
 See also `setcookie <http://www.php.net/setcookie>`_ and `'SameSite' cookie attribute <https://www.chromestatus.com/feature/4672634709082112>`_.
 
+Connex PHP features
+-------------------
+
+  + `cookie <https://php-dictionary.readthedocs.io/en/latest/dictionary/cookie.ini.html>`_
+
 
 Suggestions
 ___________
@@ -64,8 +69,6 @@ _____
 | Time To Fix  | Instant (5 mins)                                                                                                        |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | cookie                                                                                                                  |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

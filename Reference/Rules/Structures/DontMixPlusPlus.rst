@@ -27,6 +27,11 @@ When mixed in a larger expression, they are difficult to read, and may lead to u
 
 See also `EXP30-C. Do not depend on the order of evaluation for side effects <https://wiki.sei.cmu.edu/confluence/display/c/EXP30-C.+Do+not+depend+on+the+order+of+evaluation+for+side+effects>`_.
 
+Connex PHP features
+-------------------
+
+  + `readability <https://php-dictionary.readthedocs.io/en/latest/dictionary/readability.ini.html>`_
+
 
 Suggestions
 ___________

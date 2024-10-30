@@ -30,6 +30,13 @@ When the goal is to convert a variable to a string, it is recommended to use the
 
 See also `Strings <https://www.php.net/manual/en/language.types.string.php>`_ and `Type Juggling <https://www.php.net/manual/en/language.types.type-juggling.php>`_.
 
+Connex PHP features
+-------------------
+
+  + `string <https://php-dictionary.readthedocs.io/en/latest/dictionary/string.ini.html>`_
+  + `variable <https://php-dictionary.readthedocs.io/en/latest/dictionary/variable.ini.html>`_
+  + `interpolation <https://php-dictionary.readthedocs.io/en/latest/dictionary/interpolation.ini.html>`_
+
 
 Suggestions
 ___________
@@ -58,8 +65,6 @@ _____
 | Time To Fix  | Instant (5 mins)                                                                                                                                                                        |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                                                                               |
-+--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | string, variable, interpolation                                                                                                                                                         |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Examples     | :ref:`case-tikiwiki-type-onevariablestrings`, :ref:`case-nextcloud-type-onevariablestrings`                                                                                             |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

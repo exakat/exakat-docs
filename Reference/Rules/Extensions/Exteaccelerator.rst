@@ -13,6 +13,11 @@ DEPRECATED: This project is deprecated and does not work with anything newer tha
 
 See also `Eaccelerator <http://eaccelerator.net/>`_ and `eaccelerator/eaccelerato <https://github.com/eaccelerator/eaccelerator>`_.
 
+Connex PHP features
+-------------------
+
+  + `extension <https://php-dictionary.readthedocs.io/en/latest/dictionary/extension.ini.html>`_
+
 
 Specs
 _____
@@ -31,8 +36,6 @@ _____
 | Time To Fix  |                                                                                                                                                                                         |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                                                                               |
-+--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | extension                                                                                                                                                                               |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Community Edition <https://www.exakat.io/community-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

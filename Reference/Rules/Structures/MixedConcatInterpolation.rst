@@ -33,6 +33,12 @@ There are some situations where using concatenation are compulsory : when using 
    $a = "{$b}c" . CONSTANT;
    
    ?>
+Connex PHP features
+-------------------
+
+  + `interpolation <https://php-dictionary.readthedocs.io/en/latest/dictionary/interpolation.ini.html>`_
+  + `concat <https://php-dictionary.readthedocs.io/en/latest/dictionary/concat.ini.html>`_
+
 
 Suggestions
 ___________
@@ -59,8 +65,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                    |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | interpolation, concat                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Examples     | :ref:`case-suitecrm-structures-mixedconcatinterpolation`, :ref:`case-edusoho-structures-mixedconcatinterpolation`       |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

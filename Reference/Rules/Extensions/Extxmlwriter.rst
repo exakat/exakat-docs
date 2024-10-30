@@ -32,6 +32,11 @@ The `XMLWriter <https://www.php.net/xmlwriter>`_ extension wraps the libxml `xml
 
 See also `XMLWriter <https://www.php.net/manual/en/book.xmlwriter.php>`_ and `Module xmlwriter from libxml2 <http://xmlsoft.org/html/libxml-xmlwriter.html>`_.
 
+Connex PHP features
+-------------------
+
+  + `xml <https://php-dictionary.readthedocs.io/en/latest/dictionary/xml.ini.html>`_
+
 
 Specs
 _____
@@ -50,8 +55,6 @@ _____
 | Time To Fix  |                                                                                                                                                                                         |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                                                                               |
-+--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | xml                                                                                                                                                                                     |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Community Edition <https://www.exakat.io/community-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

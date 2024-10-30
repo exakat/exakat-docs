@@ -20,6 +20,14 @@ It is recommended to use casting to ensure the variable is actually strings, and
    // PHP 7.4- : 3, 32 is turned into space, then found
    
    ?>
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/needle+is+not+a+string+or+an+integer.html>`_
+  + `1 <https://php-errors.readthedocs.io/en/latest/messages/Non-string+needles+will+be+interpreted+as+strings+in+the+future.+Use+an+explicit+chr%28%29+call+to+preserve+the+current+behavior.html>`_
+
+
+
 
 Suggestions
 ___________

@@ -33,6 +33,20 @@ The `attribute <https://www.php.net/attribute>`_ ``ReturnTypeWillChange`` is tak
 
 See also method-compatibility.
 
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Return+type+of+a%3A%3Akey%28%29+should+either+be+compatible+with+IteratorIterator%3A%3Akey%28%29%3A+mixed%2C+or+the+%23%5B%5CReturnTypeWillChange%5D+attribute+should+be+used+to+temporarily+suppress+the+notice.html>`_
+
+
+
+Connex PHP features
+-------------------
+
+  + `returntypewillchange <https://php-dictionary.readthedocs.io/en/latest/dictionary/returntypewillchange.ini.html>`_
+  + `type-covariance <https://php-dictionary.readthedocs.io/en/latest/dictionary/type-covariance.ini.html>`_
+  + `type-contravariance <https://php-dictionary.readthedocs.io/en/latest/dictionary/type-contravariance.ini.html>`_
+
 
 Suggestions
 ___________
@@ -59,8 +73,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                                                                        |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                                                                   |
-+--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | returntypewillchange, type-covariance, type-contravariance                                                                                                             |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_                                                |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

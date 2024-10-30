@@ -21,6 +21,20 @@ Cast Unset Usage
 
 See also `Unset casting <https://www.php.net/manual/en/language.types.null.php#language.types.null.casting>`_.
 
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/The+%28unset%29+cast+is+no+longer+supported+.html>`_
+  + `1 <https://php-errors.readthedocs.io/en/latest/messages/The+%28unset%29+cast+is+deprecated.html>`_
+
+
+
+Connex PHP features
+-------------------
+
+  + `cast <https://php-dictionary.readthedocs.io/en/latest/dictionary/cast.ini.html>`_
+  + `unset <https://php-dictionary.readthedocs.io/en/latest/dictionary/unset.ini.html>`_
+
 
 Suggestions
 ___________
@@ -49,8 +63,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                                                                                         |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                                                                               |
-+--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | cast, unset                                                                                                                                                                             |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Community Edition <https://www.exakat.io/community-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

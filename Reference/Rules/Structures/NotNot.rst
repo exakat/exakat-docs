@@ -23,6 +23,12 @@ This is a wrong casting to boolean. PHP supports ``(boolean)`` to do the same, f
 
 See also `Logical Operators <https://www.php.net/manual/en/language.operators.logical.php>`_ and `Type Juggling <https://www.php.net/manual/en/language.types.type-juggling.php>`_.
 
+Connex PHP features
+-------------------
+
+  + `logical-operator <https://php-dictionary.readthedocs.io/en/latest/dictionary/logical-operator.ini.html>`_
+  + `cast <https://php-dictionary.readthedocs.io/en/latest/dictionary/cast.ini.html>`_
+
 
 Suggestions
 ___________
@@ -50,8 +56,6 @@ _____
 | Time To Fix  | Instant (5 mins)                                                                                                                                                                        |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                                                                               |
-+--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | logical-operator, cast                                                                                                                                                                  |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | ClearPHP     | `no-implied-cast <https://github.com/dseguy/clearPHP/tree/master/rules/no-implied-cast.md>`__                                                                                           |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

@@ -28,6 +28,19 @@ This analysis currently covers functioncalls and `static <https://www.php.net/ma
 
 See also `Passing arguments by reference <https://www.php.net/manual/en/functions.arguments.php#functions.arguments.by-reference>`_.
 
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Argument+%233+%28%24matches%29+cannot+be+passed+by+reference.html>`_
+
+
+
+Connex PHP features
+-------------------
+
+  + `reference <https://php-dictionary.readthedocs.io/en/latest/dictionary/reference.ini.html>`_
+  + `parameter <https://php-dictionary.readthedocs.io/en/latest/dictionary/parameter.ini.html>`_
+
 
 Suggestions
 ___________
@@ -54,8 +67,6 @@ _____
 | Time To Fix  | Slow (1 hour)                                                                                                            |
 +--------------+--------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                     |
-+--------------+--------------------------------------------------------------------------------------------------------------------------+
-| Features     | reference, parameter                                                                                                     |
 +--------------+--------------------------------------------------------------------------------------------------------------------------+
 | Examples     | :ref:`case-dolphin-functions-onlyvariablepassedbyreference`, :ref:`case-phpipam-functions-onlyvariablepassedbyreference` |
 +--------------+--------------------------------------------------------------------------------------------------------------------------+

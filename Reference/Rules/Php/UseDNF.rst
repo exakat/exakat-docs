@@ -24,6 +24,12 @@ DNF is available for every typed element of PHP : properties, arguments and retu
 
 See also `PHP 8.2: DNF Types <https://php.watch/versions/8.2/dnf-types>`_.
 
+Connex PHP features
+-------------------
+
+  + `type <https://php-dictionary.readthedocs.io/en/latest/dictionary/type.ini.html>`_
+  + `dnf-type <https://php-dictionary.readthedocs.io/en/latest/dictionary/dnf-type.ini.html>`_
+
 
 Specs
 _____
@@ -42,8 +48,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | type, dnf-type                                                                                                          |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

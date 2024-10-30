@@ -20,6 +20,13 @@ Use functions like `floor() <https://www.php.net/floor>`_, `round() <https://www
 
 See also `Integers <https://www.php.net/manual/en/language.types.integer.php>`_.
 
+Connex PHP features
+-------------------
+
+  + `cast <https://php-dictionary.readthedocs.io/en/latest/dictionary/cast.ini.html>`_
+  + `integer <https://php-dictionary.readthedocs.io/en/latest/dictionary/integer.ini.html>`_
+  + `float <https://php-dictionary.readthedocs.io/en/latest/dictionary/float.ini.html>`_
+
 
 Suggestions
 ___________
@@ -47,8 +54,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                                                                          |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                                                                     |
-+--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | cast, integer, float                                                                                                                                                     |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_                                                  |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

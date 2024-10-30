@@ -23,6 +23,11 @@ Thanks to `Atif Shahab Qureshi <https://twitter.com/Atif__Shahab>`_ for the insp
 
 See also `Stop using regular exceptions in PHP! <https://abdlrahmansaber.medium.com/stop-using-regular-exceptions-in-php-e6aed2629dce>`_.
 
+Connex PHP features
+-------------------
+
+  + `exception <https://php-dictionary.readthedocs.io/en/latest/dictionary/exception.ini.html>`_
+
 
 Suggestions
 ___________
@@ -49,8 +54,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                                                          |
 +--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                                                |
-+--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | exception                                                                                                                                                |
 +--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_                                  |
 +--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------+

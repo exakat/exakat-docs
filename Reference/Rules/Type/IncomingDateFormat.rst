@@ -20,6 +20,11 @@ This doesn't collect the dynamical dates, built from strings. `strtotime() <http
 
 See also `DateTimeImmutable::createFromFormat <https://www.php.net/manual/en/datetime.createfromformat.php>`_.
 
+Connex PHP features
+-------------------
+
+  + `date-format <https://php-dictionary.readthedocs.io/en/latest/dictionary/date-format.ini.html>`_
+
 
 Specs
 _____
@@ -38,8 +43,6 @@ _____
 | Time To Fix  |                                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                    |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | date-format                                                                                                             |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

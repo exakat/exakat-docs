@@ -18,6 +18,12 @@ Nowdoc Delimiter Glossary
 
 See also `Nowdoc <https://www.php.net/manual/en/language.types.string.php#language.types.string.syntax.nowdoc>`_ and `Heredoc <https://www.php.net/manual/en/language.types.string.php#language.types.string.syntax.heredoc>`_.
 
+Connex PHP features
+-------------------
+
+  + `nowdoc <https://php-dictionary.readthedocs.io/en/latest/dictionary/nowdoc.ini.html>`_
+  + `heredoc <https://php-dictionary.readthedocs.io/en/latest/dictionary/heredoc.ini.html>`_
+
 
 Specs
 _____
@@ -36,8 +42,6 @@ _____
 | Time To Fix  |                                                                                                                                                                                         |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                                                                               |
-+--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | nowdoc, heredoc                                                                                                                                                                         |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Community Edition <https://www.exakat.io/community-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

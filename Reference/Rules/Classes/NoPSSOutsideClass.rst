@@ -45,6 +45,23 @@ Closures and arrow functions are reported here, though they might be rebound wit
 
 See also `Scope Resolution Operator (::) <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_.
 
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Cannot+access+static%3A%3A+when+no+class+scope+is+active.html>`_
+  + `1 <https://php-errors.readthedocs.io/en/latest/messages/Cannot+use+%22parent%22+when+no+class+scope+is+active.html>`_
+  + `2 <https://php-errors.readthedocs.io/en/latest/messages/Cannot+use+%22static%22+when+no+class+scope+is+active.html>`_
+  + `3 <https://php-errors.readthedocs.io/en/latest/messages/Cannot+use+%22self%22+when+no+class+scope+is+active.html>`_
+
+
+
+Connex PHP features
+-------------------
+
+  + `self <https://php-dictionary.readthedocs.io/en/latest/dictionary/self.ini.html>`_
+  + `parent <https://php-dictionary.readthedocs.io/en/latest/dictionary/parent.ini.html>`_
+  + `static <https://php-dictionary.readthedocs.io/en/latest/dictionary/static.ini.html>`_
+
 
 Suggestions
 ___________
@@ -72,8 +89,6 @@ _____
 | Time To Fix  | Slow (1 hour)                                                                                                                                                    |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                                                        |
-+--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | self, parent, static                                                                                                                                             |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Note         | This issue may lint but will not run                                                                                                                             |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+

@@ -36,6 +36,12 @@ Note that dynamic properties (such as $x->$y) are not taken into account.
    $foo->cantdBePrivate();
    
    ?>
+Connex PHP features
+-------------------
+
+  + `private <https://php-dictionary.readthedocs.io/en/latest/dictionary/private.ini.html>`_
+  + `method <https://php-dictionary.readthedocs.io/en/latest/dictionary/method.ini.html>`_
+
 
 Specs
 _____
@@ -54,8 +60,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                          |
 +--------------+--------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                |
-+--------------+--------------------------------------------------------------------------------------------------------------------------+
-| Features     | private, method                                                                                                          |
 +--------------+--------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_  |
 +--------------+--------------------------------------------------------------------------------------------------------------------------+

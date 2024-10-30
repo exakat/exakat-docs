@@ -32,6 +32,12 @@ The classes are actually abstract classes, and should be derived into a concrete
 
 See also `Class Abstraction <https://www.php.net/abstract>`_.
 
+Connex PHP features
+-------------------
+
+  + `abstract <https://php-dictionary.readthedocs.io/en/latest/dictionary/abstract.ini.html>`_
+  + `concrete <https://php-dictionary.readthedocs.io/en/latest/dictionary/concrete.ini.html>`_
+
 
 Suggestions
 ___________
@@ -60,8 +66,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | abstract, concrete                                                                                                      |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

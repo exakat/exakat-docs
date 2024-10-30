@@ -23,6 +23,13 @@ Wrong Parameter Type
    echo substr(123456, 0, 4);
    
    ?>
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Argument+must+be+of+type+int%2C+array+given.html>`_
+
+
+
 
 Specs
 _____

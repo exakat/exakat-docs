@@ -37,6 +37,19 @@ This analysis reports both `static <https://www.php.net/manual/en/language.oop5.
 
 See also `Static Keyword <https://www.php.net/manual/en/language.oop5.static.php>`_.
 
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Accessing+static+property+aa%3A%3A%24a+as+non+static.html>`_
+  + `1 <https://php-errors.readthedocs.io/en/latest/messages/Access+to+undeclared+static+property.html>`_
+
+
+
+Connex PHP features
+-------------------
+
+  + `declaration <https://php-dictionary.readthedocs.io/en/latest/dictionary/declaration.ini.html>`_
+
 
 Suggestions
 ___________
@@ -64,8 +77,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                                                                                         |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                                                                               |
-+--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | declaration                                                                                                                                                                             |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Examples     | :ref:`case-humo-gen-classes-undeclaredstaticproperty`                                                                                                                                   |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

@@ -33,6 +33,11 @@ This was the case with `fopen() <https://www.php.net/fopen>`_, `stream_socket_se
 
 See also `I scream, you scream, we all scream for @ <https://www.exakat.io/en/i-scream-you-scream-we-all-scream-for/>`_, `Error Control Operators <https://www.php.net/manual/en/language.operators.errorcontrol.php>`_ and `Five reasons why the shut-op operator should be avoided <https://derickrethans.nl/five-reasons-why-the-shutop-operator-should-be-avoided.html>`_.
 
+Connex PHP features
+-------------------
+
+  + `class <https://php-dictionary.readthedocs.io/en/latest/dictionary/class.ini.html>`_
+
 
 Suggestions
 ___________
@@ -59,8 +64,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                                                                                                                                                            |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                                                                                                                                                  |
-+--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | class                                                                                                                                                                                                                                                      |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | ClearPHP     | `no-noscream <https://github.com/dseguy/clearPHP/tree/master/rules/no-noscream.md>`__                                                                                                                                                                      |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

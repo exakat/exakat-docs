@@ -49,6 +49,11 @@ Based on the specificiations from Dave Liddament.
 
 See also `Friend <https://github.com/DaveLiddament/php-language-extensions#friend>`_ and `php-language-extension <https://github.com/DaveLiddament/php-language-extensions>`_.
 
+Connex PHP features
+-------------------
+
+  + `attribute <https://php-dictionary.readthedocs.io/en/latest/dictionary/attribute.ini.html>`_
+
 
 Suggestions
 ___________
@@ -76,8 +81,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | attribute                                                                                                               |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

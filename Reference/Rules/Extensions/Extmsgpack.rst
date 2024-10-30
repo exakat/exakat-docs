@@ -20,6 +20,11 @@ This extension provide API for handling MessagePack serialization, both encoding
 
 See also `msgpack for PHP <https://github.com/msgpack/msgpack-php>`_ and `MessagePack <https://msgpack.org/>`_.
 
+Connex PHP features
+-------------------
+
+  + `format <https://php-dictionary.readthedocs.io/en/latest/dictionary/format.ini.html>`_
+
 
 Specs
 _____
@@ -38,8 +43,6 @@ _____
 | Time To Fix  |                                                                                                                                                                                         |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                                                                               |
-+--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | format                                                                                                                                                                                  |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Community Edition <https://www.exakat.io/community-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

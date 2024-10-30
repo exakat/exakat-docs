@@ -5,7 +5,7 @@ All
 
 All is a dummy ruleset, which includes all the rules. It is mostly used internally.
 
-Total : 1652 analysis
+Total : 1658 analysis
 
 * :ref:`adding-zero`
 * :ref:`ambiguous-array-index`
@@ -1373,7 +1373,7 @@ Total : 1652 analysis
 * :ref:`new-functions-in-php-8.1`
 * :ref:`php-8.1-removed-functions`
 * :ref:`never-keyword`
-* :ref:`mixed-keyword`
+* :ref:`the-mixed-keyword`
 * :ref:`mixed-typehint-usage`
 * :ref:`false-to-array-conversion`
 * :ref:`float-conversion-as-index`
@@ -1659,6 +1659,12 @@ Total : 1652 analysis
 * :ref:`neos`
 * :ref:`cakephp`
 * :ref:`remove-parameter-with-named-parameters`
+* :ref:`could-merge-ternary-into-ifthen`
+* :ref:`has-property-hook`
+* :ref:`anonymous-catch`
+* :ref:`duplicate-enum-case-value`
+* :ref:`new-functions-in-php-8.4`
+* :ref:`has-virtual-property`
 
 Specs
 _____

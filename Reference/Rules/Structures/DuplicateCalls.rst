@@ -25,6 +25,12 @@ This saves a lot of time of execution and reexecution of the same code. It is a 
 
 See also `Userland naming Guide <https://www.php.net/manual/en/userlandnaming.php>`_.
 
+Connex PHP features
+-------------------
+
+  + `calls <https://php-dictionary.readthedocs.io/en/latest/dictionary/calls.ini.html>`_
+  + `micro-optimisation <https://php-dictionary.readthedocs.io/en/latest/dictionary/micro-optimisation.ini.html>`_
+
 
 Specs
 _____
@@ -43,8 +49,6 @@ _____
 | Time To Fix  | Slow (1 hour)                                                                                                           |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | calls, micro-optimisation                                                                                               |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | ClearPHP     | `no-duplicated-code <https://github.com/dseguy/clearPHP/tree/master/rules/no-duplicated-code.md>`__                     |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

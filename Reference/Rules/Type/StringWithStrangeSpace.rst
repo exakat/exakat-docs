@@ -28,6 +28,11 @@ This analysis doesn't report Unicode Codepoint Notation : those are visible in t
 
 See also `Unicode spaces <https://www.cs.tut.fi/~jkorpela/chars/spaces.html>`_ and `disallow irregular whitespace (no-irregular-whitespace) <http://eslint.org/docs/rules/no-irregular-whitespace>`_.
 
+Connex PHP features
+-------------------
+
+  + `non-breakable-space <https://php-dictionary.readthedocs.io/en/latest/dictionary/non-breakable-space.ini.html>`_
+
 
 Suggestions
 ___________
@@ -55,8 +60,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                                                                                         |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                                                                               |
-+--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | non-breakable-space                                                                                                                                                                     |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Examples     | :ref:`case-openemr-type-stringwithstrangespace`, :ref:`case-thelia-type-stringwithstrangespace`                                                                                         |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

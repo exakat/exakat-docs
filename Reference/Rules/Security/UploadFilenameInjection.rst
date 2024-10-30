@@ -42,6 +42,11 @@ It is highly recommended to validate any incoming file, generate a name for it, 
 
 See also `[CVE-2017-6090] <https://cxsecurity.com/issue/WLB-2017100031>`_, `CWE-616: Incomplete Identification of Uploaded File Variables <https://cwe.mitre.org/data/definitions/616.html>`_ and `Why File Upload Forms are a Major Security Threat <https://www.acunetix.com/websitesecurity/upload-forms-threat/>`_.
 
+Connex PHP features
+-------------------
+
+  + `upload <https://php-dictionary.readthedocs.io/en/latest/dictionary/upload.ini.html>`_
+
 
 Suggestions
 ___________
@@ -69,8 +74,6 @@ _____
 | Time To Fix  | Instant (5 mins)                                                                                                        |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                    |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | upload                                                                                                                  |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

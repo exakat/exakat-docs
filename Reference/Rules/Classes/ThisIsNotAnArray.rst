@@ -31,6 +31,18 @@ This is unless the class (or its parents) has the ``ArrayAccess`` interface, or 
 
 See also `ArrayAccess <https://www.php.net/manual/en/class.arrayaccess.php>`_, `ArrayObject <https://www.php.net/manual/en/class.arrayobject.php>`_ and `The Basics <https://www.php.net/manual/en/language.oop5.basic.php>`_.
 
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Cannot+use+object+of+type+Foo+as+array.html>`_
+
+
+
+Connex PHP features
+-------------------
+
+  + `$this <https://php-dictionary.readthedocs.io/en/latest/dictionary/%24this.ini.html>`_
+
 
 Suggestions
 ___________
@@ -59,8 +71,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                    |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | $this                                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

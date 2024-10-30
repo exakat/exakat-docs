@@ -30,6 +30,12 @@ They may be externally defined, such as in core PHP, extensions or libraries. Ma
    }
    
    ?>
+Connex PHP features
+-------------------
+
+  + `exception <https://php-dictionary.readthedocs.io/en/latest/dictionary/exception.ini.html>`_
+  + `predefined-exception <https://php-dictionary.readthedocs.io/en/latest/dictionary/predefined-exception.ini.html>`_
+
 
 Suggestions
 ___________
@@ -57,8 +63,6 @@ _____
 | Time To Fix  |                                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                    |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | exception, predefined-exception                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

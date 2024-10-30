@@ -63,6 +63,21 @@ PHP 7.1 is stricter and check for `$this <https://www.php.net/manual/en/language
 
 See also `class <https://www.php.net/manual/en/language.oop5.basic.php#language.oop5.basic.class>`_.
 
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Using+%24this+when+not+in+object+context.html>`_
+
+
+
+Connex PHP features
+-------------------
+
+  + `$this <https://php-dictionary.readthedocs.io/en/latest/dictionary/%24this.ini.html>`_
+  + `self <https://php-dictionary.readthedocs.io/en/latest/dictionary/self.ini.html>`_
+  + `parent <https://php-dictionary.readthedocs.io/en/latest/dictionary/parent.ini.html>`_
+  + `static <https://php-dictionary.readthedocs.io/en/latest/dictionary/static.ini.html>`_
+
 
 Suggestions
 ___________
@@ -89,8 +104,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                                                                  |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                                                        |
-+--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | $this, self, parent, static                                                                                                                                      |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Examples     | :ref:`case-openemr-classes-thisisforclasses`                                                                                                                     |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+

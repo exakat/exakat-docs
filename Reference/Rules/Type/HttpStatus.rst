@@ -19,6 +19,11 @@ HTTP Status Code
 
 See also `List of HTTP status codes <https://en.wikipedia.org/wiki/List_of_HTTP_status_codes>`_.
 
+Connex PHP features
+-------------------
+
+  + `http <https://php-dictionary.readthedocs.io/en/latest/dictionary/http.ini.html>`_
+
 
 Specs
 _____
@@ -37,8 +42,6 @@ _____
 | Time To Fix  |                                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | http                                                                                                                    |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

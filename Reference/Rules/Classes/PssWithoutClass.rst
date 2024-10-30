@@ -28,6 +28,22 @@ PHP 7.0 and later detect some of their usage at compile time, and emits a fatal 
    echo self::Z;
    
    ?>
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Cannot+access+self%3A%3A+when+no+class+scope+is+active+.html>`_
+  + `1 <https://php-errors.readthedocs.io/en/latest/messages/Cannot+use+%22parent%22+when+current+class+scope+has+no+parent.html>`_
+
+
+
+Connex PHP features
+-------------------
+
+  + `parent <https://php-dictionary.readthedocs.io/en/latest/dictionary/parent.ini.html>`_
+  + `self <https://php-dictionary.readthedocs.io/en/latest/dictionary/self.ini.html>`_
+  + `static <https://php-dictionary.readthedocs.io/en/latest/dictionary/static.ini.html>`_
+  + `class <https://php-dictionary.readthedocs.io/en/latest/dictionary/class.ini.html>`_
+
 
 Suggestions
 ___________
@@ -56,8 +72,6 @@ _____
 | Changed Behavior | PHP 7.0 - `More <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/.html>`__                              |
 +------------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision        | Very high                                                                                                               |
-+------------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features         | parent, self, static, class                                                                                             |
 +------------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in     | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +------------------+-------------------------------------------------------------------------------------------------------------------------+

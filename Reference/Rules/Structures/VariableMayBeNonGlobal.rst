@@ -34,6 +34,12 @@ Human-wise, it is recommended to put ``global`` or ``static`` at the beginning o
 
 See also `Using static variables <https://www.php.net/manual/en/language.variables.scope.php#language.variables.scope.static>`_ and `The global keyword <https://www.php.net/manual/en/language.variables.scope.php#language.variables.scope.global>`_.
 
+Connex PHP features
+-------------------
+
+  + `static-variable <https://php-dictionary.readthedocs.io/en/latest/dictionary/static-variable.ini.html>`_
+  + `global-variable <https://php-dictionary.readthedocs.io/en/latest/dictionary/global-variable.ini.html>`_
+
 
 Suggestions
 ___________
@@ -62,8 +68,6 @@ _____
 | Time To Fix  | Instant (5 mins)                                                                                                        |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | static-variable, global-variable                                                                                        |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

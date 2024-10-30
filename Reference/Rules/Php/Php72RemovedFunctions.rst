@@ -17,6 +17,13 @@ This analysis skips redefined PHP functions : when a replacement for a removed P
 
 See also `PHP 7.2 Removed Functions <https://www.php.net/manual/en/migration72.incompatible.php#migration72.incompatible.removed-functions>`_ and `Deprecated features in PHP 7.2.x <https://www.php.net/manual/en/migration72.deprecated.php>`_.
 
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/The+each%28%29+function+is+deprecated.+This+message+will+be+suppressed+on+further+calls.html>`_
+
+
+
 
 Suggestions
 ___________

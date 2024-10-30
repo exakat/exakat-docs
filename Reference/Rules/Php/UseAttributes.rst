@@ -23,6 +23,11 @@ Attributes look like special comments ``#[`... <https://www.php.net/manual/en/fu
 
 See also `PHP RFC: Shorter Attribute Syntax <https://wiki.php.net/rfc/shorter_attribute_syntax>`_, `Attributes Amendements <https://wiki.php.net/rfc/attribute_amendments>`_ and `Shorter Attribute Syntax Change <https://wiki.php.net/rfc/shorter_attribute_syntax_change>`_.
 
+Connex PHP features
+-------------------
+
+  + `attribute <https://php-dictionary.readthedocs.io/en/latest/dictionary/attribute.ini.html>`_
+
 
 Specs
 _____
@@ -41,8 +46,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                                                                                         |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                                                                               |
-+--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | attribute                                                                                                                                                                               |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Community Edition <https://www.exakat.io/community-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

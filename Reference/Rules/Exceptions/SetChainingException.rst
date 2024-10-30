@@ -30,6 +30,11 @@ For that, the constructor of the chaining `exception <https://www.php.net/except
    }
    
    ?>
+Connex PHP features
+-------------------
+
+  + `chaining-exception <https://php-dictionary.readthedocs.io/en/latest/dictionary/chaining-exception.ini.html>`_
+
 
 Suggestions
 ___________
@@ -56,8 +61,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                          |
 +--------------+--------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                     |
-+--------------+--------------------------------------------------------------------------------------------------------------------------+
-| Features     | chaining-exception                                                                                                       |
 +--------------+--------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_  |
 +--------------+--------------------------------------------------------------------------------------------------------------------------+

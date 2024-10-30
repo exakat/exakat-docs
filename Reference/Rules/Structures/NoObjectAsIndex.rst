@@ -26,6 +26,21 @@ Thanks to `George Peter Banyard <https://twitter.com/Girgias>`_ for the inspirat
 
 See also `Use an object as an offet <https://twitter.com/Girgias/status/1405519800575553540>`_.
 
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Cannot+access+offset+of+type+stdClass+on+string.html>`_
+  + `1 <https://php-errors.readthedocs.io/en/latest/messages/Illegal+offset+type+in+isset+or+empty.html>`_
+  + `2 <https://php-errors.readthedocs.io/en/latest/messages/Illegal+offset+type.html>`_
+  + `3 <https://php-errors.readthedocs.io/en/latest/messages/Index+invalid+or+out+of+range.html>`_
+
+
+
+Connex PHP features
+-------------------
+
+  + `index <https://php-dictionary.readthedocs.io/en/latest/dictionary/index.ini.html>`_
+
 
 Suggestions
 ___________
@@ -53,8 +68,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Medium                                                                                                                  |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | index                                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

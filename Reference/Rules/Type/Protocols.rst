@@ -24,6 +24,11 @@ From the manual : PHP comes with many built-in wrappers for various URL-style pr
 
 See also `Supported Protocols and Wrappers <https://www.php.net/manual/en/wrappers.php>`_.
 
+Connex PHP features
+-------------------
+
+  + `protocol <https://php-dictionary.readthedocs.io/en/latest/dictionary/protocol.ini.html>`_
+
 
 Specs
 _____
@@ -42,8 +47,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                                                                                         |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                                                                               |
-+--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | protocol                                                                                                                                                                                |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Community Edition <https://www.exakat.io/community-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

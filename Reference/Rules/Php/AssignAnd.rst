@@ -32,6 +32,13 @@ It is recommended to use the &&, ^ and || operators, instead of and, or and xor,
 
 See also `Operator Precedence <https://www.php.net/manual/en/language.operators.precedence.php>`_.
 
+Connex PHP features
+-------------------
+
+  + `precedence <https://php-dictionary.readthedocs.io/en/latest/dictionary/precedence.ini.html>`_
+  + `operator <https://php-dictionary.readthedocs.io/en/latest/dictionary/operator.ini.html>`_
+  + `logical-operator <https://php-dictionary.readthedocs.io/en/latest/dictionary/logical-operator.ini.html>`_
+
 
 Suggestions
 ___________
@@ -59,8 +66,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                                                                                         |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                                                                               |
-+--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | precedence, operator, logical-operator                                                                                                                                                  |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Examples     | :ref:`case-xataface-php-assignand`                                                                                                                                                      |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

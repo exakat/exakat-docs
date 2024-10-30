@@ -35,6 +35,12 @@ Loops of size 2, 3 and 4 function are supported by this analyzer.
    // if foo1 or foo2 are called, this recursive call should be investigated.
    
    ?>
+Connex PHP features
+-------------------
+
+  + `function <https://php-dictionary.readthedocs.io/en/latest/dictionary/function.ini.html>`_
+  + `recursion <https://php-dictionary.readthedocs.io/en/latest/dictionary/recursion.ini.html>`_
+
 
 Suggestions
 ___________
@@ -61,8 +67,6 @@ _____
 | Time To Fix  | Slow (1 hour)                                                                                                           |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | function, recursion                                                                                                     |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

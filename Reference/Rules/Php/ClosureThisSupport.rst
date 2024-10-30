@@ -33,6 +33,12 @@ This is not the case anymore since PHP 5.4.
 
 See also `Anonymous functions <https://www.php.net/manual/en/functions.anonymous.php>`_.
 
+Connex PHP features
+-------------------
+
+  + `closure <https://php-dictionary.readthedocs.io/en/latest/dictionary/closure.ini.html>`_
+  + `$this <https://php-dictionary.readthedocs.io/en/latest/dictionary/%24this.ini.html>`_
+
 
 Specs
 _____
@@ -53,8 +59,6 @@ _____
 | Changed Behavior | PHP 5.4 - `More <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/.html>`__                                           |
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------+
 | Precision        | Very high                                                                                                                            |
-+------------------+--------------------------------------------------------------------------------------------------------------------------------------+
-| Features         | closure, $this                                                                                                                       |
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------+
 | Available in     | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_              |
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------+

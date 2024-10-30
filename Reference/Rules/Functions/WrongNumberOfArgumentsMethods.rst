@@ -31,6 +31,18 @@ PHP emits an `error <https://www.php.net/error>`_ at runtime, when arguments are
    }
    
    ?>
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Too+few+arguments+to+function+Foo%3A%3ABar%28%29%2C+1+passed.html>`_
+
+
+
+Connex PHP features
+-------------------
+
+  + `composer <https://php-dictionary.readthedocs.io/en/latest/dictionary/composer.ini.html>`_
+
 
 Suggestions
 ___________
@@ -58,8 +70,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | composer                                                                                                                |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

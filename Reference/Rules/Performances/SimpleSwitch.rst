@@ -76,6 +76,12 @@ When the switch is partially build of literals, it is worth splitting the switch
 
 See also `PHP 7.2's "switch" optimisations <https://derickrethans.nl/php7.2-switch.html>`_.
 
+Connex PHP features
+-------------------
+
+  + `switch <https://php-dictionary.readthedocs.io/en/latest/dictionary/switch.ini.html>`_
+  + `match <https://php-dictionary.readthedocs.io/en/latest/dictionary/match.ini.html>`_
+
 
 Suggestions
 ___________
@@ -104,8 +110,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                          |
 +--------------+--------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                |
-+--------------+--------------------------------------------------------------------------------------------------------------------------+
-| Features     | switch, match                                                                                                            |
 +--------------+--------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_  |
 +--------------+--------------------------------------------------------------------------------------------------------------------------+

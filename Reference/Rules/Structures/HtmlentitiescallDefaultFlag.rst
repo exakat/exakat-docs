@@ -26,6 +26,13 @@ In PHP 8.1, the default value of this parameter has changed. It used to be ``ENT
 
 See also `htmlentities <https://www.php.net/htmlentities>`_ and `htmlspecialchars <https://www.php.net/htmlspecialchars>`_.
 
+Connex PHP features
+-------------------
+
+  + `escape-sequence <https://php-dictionary.readthedocs.io/en/latest/dictionary/escape-sequence.ini.html>`_
+  + `html-entity <https://php-dictionary.readthedocs.io/en/latest/dictionary/html-entity.ini.html>`_
+  + `class <https://php-dictionary.readthedocs.io/en/latest/dictionary/class.ini.html>`_
+
 
 Suggestions
 ___________
@@ -54,8 +61,6 @@ _____
 | Changed Behavior | PHP 8.1 - `More <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/.html>`__                                                           |
 +------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision        | High                                                                                                                                                 |
-+------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features         | escape-sequence, html-entity, class                                                                                                                  |
 +------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Related rule     | :ref:`htmlentities-calls`                                                                                                                            |
 +------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+

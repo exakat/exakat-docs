@@ -40,6 +40,11 @@ Properties may be defined in an abstract class.
 
 See also `Interface And Abstract Class <https://medium.com/@atakde/interface-and-abstract-class-6f5cae27fa07>`_.
 
+Connex PHP features
+-------------------
+
+  + `interface <https://php-dictionary.readthedocs.io/en/latest/dictionary/interface.ini.html>`_
+
 
 Suggestions
 ___________
@@ -68,8 +73,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                                                            |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                                                       |
-+--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | interface                                                                                                                                                  |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_                                    |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+

@@ -18,6 +18,11 @@ Deprecated functions and extensions are reported in a separate analysis.
 
 See also `Deprecations for PHP 7.2 <https://wiki.php.net/rfc/deprecations_php_7_2>`_.
 
+Connex PHP features
+-------------------
+
+  + `feature <https://php-dictionary.readthedocs.io/en/latest/dictionary/feature.ini.html>`_
+
 
 Suggestions
 ___________
@@ -45,8 +50,6 @@ _____
 | Time To Fix  | Slow (1 hour)                                                                                                                        |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                            |
-+--------------+--------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | feature                                                                                                                              |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_              |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------+

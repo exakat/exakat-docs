@@ -57,6 +57,12 @@ This is true when the receiving structure puts the incoming object immediately t
 
 See also `Don't pass this out of a constructor <http://www.javapractices.com/topic/TopicAction.do?Id=252>`_.
 
+Connex PHP features
+-------------------
+
+  + `$this <https://php-dictionary.readthedocs.io/en/latest/dictionary/%24this.ini.html>`_
+  + `constructor <https://php-dictionary.readthedocs.io/en/latest/dictionary/constructor.ini.html>`_
+
 
 Suggestions
 ___________
@@ -85,8 +91,6 @@ _____
 | Time To Fix  | Slow (1 hour)                                                                                                           |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | $this, constructor                                                                                                      |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Examples     | :ref:`case-woocommerce-classes-dontsendthisinconstructor`, :ref:`case-contao-classes-dontsendthisinconstructor`         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

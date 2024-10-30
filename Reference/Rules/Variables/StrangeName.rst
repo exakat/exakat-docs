@@ -34,6 +34,11 @@ This analysis is case-sensitive.
 
 See also `#QuandLeDevALaFleme <https://twitter.com/bsmt_nevers/status/949238391769653249>`_.
 
+Connex PHP features
+-------------------
+
+  + `variable <https://php-dictionary.readthedocs.io/en/latest/dictionary/variable.ini.html>`_
+
 
 Suggestions
 ___________
@@ -62,8 +67,6 @@ _____
 | Time To Fix  | Slow (1 hour)                                                                                                           |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                    |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | variable                                                                                                                |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Examples     | :ref:`case-fuelcms-variables-strangename`, :ref:`case-phpipam-variables-strangename`                                    |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

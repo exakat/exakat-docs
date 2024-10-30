@@ -28,6 +28,13 @@ Incompatible Property Between Class And Trait
    }
    
    ?>
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/theClass+and+theTrait+define+the+same+property+%28%24property%29+in+the+composition+of+theClass.+However%2C+the+definition+differs+and+is+considered+incompatible..html>`_
+
+
+
 
 Suggestions
 ___________

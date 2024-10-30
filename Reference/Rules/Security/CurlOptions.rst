@@ -25,6 +25,13 @@ With those tests, the certificate is verified, and if it isn't valid, the `conne
 
 See also `Don’t turn off CURLOPT_SSL_VERIFYPEER, fix your PHP configuration <https://www.saotn.org/dont-turn-off-curlopt_ssl_verifypeer-fix-php-configuration/>`_, `Certainty: Automated CACert.pem Management for PHP Software <https://paragonie.com/blog/2017/10/certainty-automated-cacert-pem-management-for-php-software>`_ and `Server-Side HTTPS Requests <https://paragonie.com/blog/2017/12/2018-guide-building-secure-php-software#secure-server-side-https>`_.
 
+Connex PHP features
+-------------------
+
+  + `curl <https://php-dictionary.readthedocs.io/en/latest/dictionary/curl.ini.html>`_
+  + `ssl <https://php-dictionary.readthedocs.io/en/latest/dictionary/ssl.ini.html>`_
+  + `https <https://php-dictionary.readthedocs.io/en/latest/dictionary/https.ini.html>`_
+
 
 Suggestions
 ___________
@@ -51,8 +58,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                    |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | curl, ssl, https                                                                                                        |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Examples     | :ref:`case-openconf-security-curloptions`                                                                               |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

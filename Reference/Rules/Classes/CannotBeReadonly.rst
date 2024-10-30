@@ -33,6 +33,12 @@ Most of thoses cases are dead code.
    }
    
    ?>
+Connex PHP features
+-------------------
+
+  + `readonly <https://php-dictionary.readthedocs.io/en/latest/dictionary/readonly.ini.html>`_
+  + `dead-code <https://php-dictionary.readthedocs.io/en/latest/dictionary/dead-code.ini.html>`_
+
 
 Suggestions
 ___________
@@ -59,8 +65,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                          |
 +--------------+--------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                |
-+--------------+--------------------------------------------------------------------------------------------------------------------------+
-| Features     | readonly, dead-code                                                                                                      |
 +--------------+--------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_  |
 +--------------+--------------------------------------------------------------------------------------------------------------------------+

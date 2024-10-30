@@ -33,6 +33,12 @@ Class constants and constants improve readability when calling the methods or co
 
 See also `FlagArgument <https://www.martinfowler.com/bliki/FlagArgument.html>`_ and `Clean code: The curse of a boolean parameter <https://medium.com/@amlcurran/clean-code-the-curse-of-a-boolean-parameter-c237a830b7a3>`_.
 
+Connex PHP features
+-------------------
+
+  + `boolean <https://php-dictionary.readthedocs.io/en/latest/dictionary/boolean.ini.html>`_
+  + `default-value <https://php-dictionary.readthedocs.io/en/latest/dictionary/default-value.ini.html>`_
+
 
 Suggestions
 ___________
@@ -61,8 +67,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                    |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | boolean, default-value                                                                                                  |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Examples     | :ref:`case-openconf-functions-nobooleanasdefault`                                                                       |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

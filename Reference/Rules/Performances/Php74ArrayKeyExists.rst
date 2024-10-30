@@ -29,6 +29,12 @@ This analysis is related to Php/ShouldUseFunction, and is a special case, that o
 
 See also `Add array_key_exists to the list of specially compiled functions <https://bugs.php.net/bug.php?id=76148>`_.
 
+Connex PHP features
+-------------------
+
+  + `vm <https://php-dictionary.readthedocs.io/en/latest/dictionary/vm.ini.html>`_
+  + `opcode <https://php-dictionary.readthedocs.io/en/latest/dictionary/opcode.ini.html>`_
+
 
 Suggestions
 ___________
@@ -57,8 +63,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                          |
 +--------------+--------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                |
-+--------------+--------------------------------------------------------------------------------------------------------------------------+
-| Features     | vm, opcode                                                                                                               |
 +--------------+--------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_  |
 +--------------+--------------------------------------------------------------------------------------------------------------------------+

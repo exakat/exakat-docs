@@ -30,6 +30,11 @@ When the difference is very small, it requires a better way to measure time diff
 
 See also `PHP DateTime difference – it’s a trap! <http://blog.codebusters.pl/en/php-datetime-difference-trap/>`_ and `PHP Daylight savings bug? <https://stackoverflow.com/questions/22519091/php-daylight-savings-bug>`_.
 
+Connex PHP features
+-------------------
+
+  + `date <https://php-dictionary.readthedocs.io/en/latest/dictionary/date.ini.html>`_
+
 
 Suggestions
 ___________
@@ -57,8 +62,6 @@ _____
 | Time To Fix  | Slow (1 hour)                                                                                                                                                                           |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                                                                                    |
-+--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | date                                                                                                                                                                                    |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Examples     | :ref:`case-zurmo-structures-timestampdifference`, :ref:`case-shopware-structures-timestampdifference`                                                                                   |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

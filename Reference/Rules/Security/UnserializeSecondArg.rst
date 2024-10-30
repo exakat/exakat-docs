@@ -34,6 +34,11 @@ One way to exploit unserialize, is to make PHP unserialized the data to an avail
 
 See also `unserialize() <https://www.php.net/unserialize>`_, `Securely Implementing (De)Serialization in PHP <https://paragonie.com/blog/2016/04/securely-implementing-de-serialization-in-php>`_ and `Remote code execution via PHP [Unserialize] <https://www.notsosecure.com/remote-code-execution-via-php-unserialize/>`_.
 
+Connex PHP features
+-------------------
+
+  + `serialization <https://php-dictionary.readthedocs.io/en/latest/dictionary/serialization.ini.html>`_
+
 
 Suggestions
 ___________
@@ -60,8 +65,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                    |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | serialization                                                                                                           |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Examples     | :ref:`case-piwigo-security-unserializesecondarg`, :ref:`case-livezilla-security-unserializesecondarg`                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

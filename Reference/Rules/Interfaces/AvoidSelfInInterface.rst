@@ -41,6 +41,21 @@ Avoid Self In Interface
 
 See also `Scope Resolution Operator (::) <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_.
 
+Related PHP errors 
+-------------------
+
+  + `Cannot access parent:: when current class scope has no parent <https://php-errors.readthedocs.io/en/latest/messages/cannot-access-parent%3A%3A-when-current-class-scope-has-no-parent.html>`_
+  + `Undefined class constant <https://php-errors.readthedocs.io/en/latest/messages/undefined-class-constant-%5C%27%25s%5C%3A%5C%3A%25s%5C%27.html>`_
+  + `"static::" is not allowed in compile-time constants <https://php-errors.readthedocs.io/en/latest/messages/%22static%3A%3A%22+is+not+allowed+in+compile-time+constants.html>`_
+
+
+
+Connex PHP features
+-------------------
+
+  + `self <https://php-dictionary.readthedocs.io/en/latest/dictionary/self.ini.html>`_
+  + `interface <https://php-dictionary.readthedocs.io/en/latest/dictionary/interface.ini.html>`_
+
 
 Suggestions
 ___________
@@ -68,8 +83,6 @@ _____
 | Time To Fix  | Slow (1 hour)                                                                                                                                                              |
 +--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                                                                  |
-+--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | self, interface                                                                                                                                                            |
 +--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Note         | This issue may lint but will not run                                                                                                                                       |
 +--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

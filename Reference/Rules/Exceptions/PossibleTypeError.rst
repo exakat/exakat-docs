@@ -31,6 +31,11 @@ It is recommended to set a try/catch around those expressions, to catch them.
 
 See also `TypeError <https://www.php.net/manual/en/class.typeerror.php>`.
 
+Connex PHP features
+-------------------
+
+  + `typeerror <https://php-dictionary.readthedocs.io/en/latest/dictionary/typeerror.ini.html>`_
+
 
 Suggestions
 ___________
@@ -59,8 +64,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                    |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | typeerror                                                                                                               |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

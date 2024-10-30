@@ -25,6 +25,11 @@ When omitted, it should be added to make its configuration explicit.
 
 See also `Visibility <https://www.php.net/manual/en/language.oop5.visibility.php>`_.
 
+Connex PHP features
+-------------------
+
+  + `visibility <https://php-dictionary.readthedocs.io/en/latest/dictionary/visibility.ini.html>`_
+
 
 Suggestions
 ___________
@@ -53,8 +58,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                          |
 +--------------+--------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                |
-+--------------+--------------------------------------------------------------------------------------------------------------------------+
-| Features     | visibility                                                                                                               |
 +--------------+--------------------------------------------------------------------------------------------------------------------------+
 | Related rule | :ref:`ambiguous-visibilities`                                                                                            |
 +--------------+--------------------------------------------------------------------------------------------------------------------------+

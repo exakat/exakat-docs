@@ -22,6 +22,13 @@ Sometimes, when the property is going to be replaced by the incoming argument, o
        }
    }
    ?>
+Connex PHP features
+-------------------
+
+  + `property <https://php-dictionary.readthedocs.io/en/latest/dictionary/property.ini.html>`_
+  + `variable <https://php-dictionary.readthedocs.io/en/latest/dictionary/variable.ini.html>`_
+  + `semantics <https://php-dictionary.readthedocs.io/en/latest/dictionary/semantics.ini.html>`_
+
 
 Suggestions
 ___________
@@ -49,8 +56,6 @@ _____
 | Time To Fix  | Slow (1 hour)                                                                                                           |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | property, variable, semantics                                                                                           |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Examples     | :ref:`case-phpipam-structures-propertyvariableconfusion`                                                                |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

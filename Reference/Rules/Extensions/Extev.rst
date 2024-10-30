@@ -57,6 +57,11 @@ ext/ev is a high performance full-featured event loop written in C.
 
 See also `Ev <https://www.php.net/manual/en/book.ev.php>`_ and `libev <http://software.schmorp.de/pkg/libev.html>`_.
 
+Connex PHP features
+-------------------
+
+  + `event-loop <https://php-dictionary.readthedocs.io/en/latest/dictionary/event-loop.ini.html>`_
+
 
 Specs
 _____
@@ -75,8 +80,6 @@ _____
 | Time To Fix  |                                                                                                                                                                                         |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                                                                               |
-+--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | event-loop                                                                                                                                                                              |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Community Edition <https://www.exakat.io/community-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

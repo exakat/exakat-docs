@@ -24,6 +24,11 @@ Always use an empty variable a second parameter to `parse_str() <https://www.php
 
 See also `parse_url() <https://www.php.net/manual/en/function.parse-url.php>`_ and `PHP SSRF Techniques <https://medium.com/secjuice/php-ssrf-techniques-9d422cb28d51>`_.
 
+Connex PHP features
+-------------------
+
+  + `query-string <https://php-dictionary.readthedocs.io/en/latest/dictionary/query-string.ini.html>`_
+
 
 Suggestions
 ___________
@@ -51,8 +56,6 @@ _____
 | Time To Fix  | Slow (1 hour)                                                                                                           |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | query-string                                                                                                            |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | ClearPHP     | `know-your-variables <https://github.com/dseguy/clearPHP/tree/master/rules/know-your-variables.md>`__                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

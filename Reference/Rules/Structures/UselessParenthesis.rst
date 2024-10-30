@@ -36,6 +36,12 @@ Sometimes, the parenthesis provide the same execution order than the default ord
 
 See also `Operators Precedence <https://www.php.net/manual/en/language.operators.precedence.php>`_.
 
+Connex PHP features
+-------------------
+
+  + `operator <https://php-dictionary.readthedocs.io/en/latest/dictionary/operator.ini.html>`_
+  + `operator-precedence <https://php-dictionary.readthedocs.io/en/latest/dictionary/operator-precedence.ini.html>`_
+
 
 Suggestions
 ___________
@@ -62,8 +68,6 @@ _____
 | Time To Fix  | Instant (5 mins)                                                                                                                                                                        |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                                                                               |
-+--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | operator, operator-precedence                                                                                                                                                           |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Examples     | :ref:`case-mautic-structures-uselessparenthesis`, :ref:`case-woocommerce-structures-uselessparenthesis`                                                                                 |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

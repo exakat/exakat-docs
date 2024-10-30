@@ -32,6 +32,18 @@ Note that `define() <https://www.php.net/define>`_ used to allow the creation of
 
 See also `PHP Constants <https://www.php.net/manual/en/language.constants.php>`_ and `Constant definition <https://www.php.net/const>`_.
 
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Case-insensitive+constants+are+deprecated.+The+correct+casing+for+this+constant+is+%22A%22.html>`_
+
+
+
+Connex PHP features
+-------------------
+
+  + `constant <https://php-dictionary.readthedocs.io/en/latest/dictionary/constant.ini.html>`_
+
 
 Specs
 _____
@@ -50,8 +62,6 @@ _____
 | Time To Fix  |                                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | constant                                                                                                                |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

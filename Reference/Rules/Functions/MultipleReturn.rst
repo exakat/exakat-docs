@@ -33,6 +33,11 @@ Currently, the `engine <https://www.php.net/engine>`_ doesn't spot guard clauses
 
 See also `Single Function Exit Point <http://wiki.c2.com/?SingleFunctionExitPoint>`_.
 
+Connex PHP features
+-------------------
+
+  + `return <https://php-dictionary.readthedocs.io/en/latest/dictionary/return.ini.html>`_
+
 
 Specs
 _____
@@ -51,8 +56,6 @@ _____
 | Time To Fix  | Slow (1 hour)                                                                                                           |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | return                                                                                                                  |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

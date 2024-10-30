@@ -42,6 +42,11 @@ This analysis also checks for the reverse feature: loading a file with ``file_ge
 
 See also `file_get_contents <https://www.php.net/file_get_contents>`_, `file <https://www.php.net/file>`_ and `explode <https://www.php.net/explode>`_.
 
+Connex PHP features
+-------------------
+
+  + `csv <https://php-dictionary.readthedocs.io/en/latest/dictionary/csv.ini.html>`_
+
 
 Suggestions
 ___________
@@ -70,8 +75,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                    |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | csv                                                                                                                     |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Examples     | :ref:`case-wordpress-performances-joinfile`, :ref:`case-spip-performances-joinfile`                                     |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

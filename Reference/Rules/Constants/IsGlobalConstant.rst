@@ -34,6 +34,11 @@ This analysis skips PHP and ext's functions, namespaced constants.
 
 See also `$GLOBALS <https://www.php.net/manual/en/reserved.variables.globals.php>`_ and `Variable scope <https://www.php.net/manual/en/language.variables.scope.php>`_.
 
+Connex PHP features
+-------------------
+
+  + `constant <https://php-dictionary.readthedocs.io/en/latest/dictionary/constant.ini.html>`_
+
 
 Specs
 _____
@@ -52,8 +57,6 @@ _____
 | Time To Fix  |                                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | constant                                                                                                                |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

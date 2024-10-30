@@ -30,6 +30,18 @@ Do not use the old __autoload() function, but rather the new spl_register_autolo
 
 See also `Autoloading Classes <https://www.php.net/manual/en/language.oop5.autoload.php>`_.
 
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/__autoload%28%29+is+deprecated%2C+use+spl_autoload_register%28%29+instead.html>`_
+
+
+
+Connex PHP features
+-------------------
+
+  + `autoload <https://php-dictionary.readthedocs.io/en/latest/dictionary/autoload.ini.html>`_
+
 
 Suggestions
 ___________
@@ -58,8 +70,6 @@ _____
 | Time To Fix  | Instant (5 mins)                                                                                                        |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | autoload                                                                                                                |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | ClearPHP     | `use-smart-autoload <https://github.com/dseguy/clearPHP/tree/master/rules/use-smart-autoload.md>`__                     |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

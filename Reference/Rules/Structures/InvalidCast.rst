@@ -24,6 +24,20 @@ Invalid Cast
    print (string) array(); // Array 
    
    ?>
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Object+of+class+stdClass+could+not+be+converted+to+float.html>`_
+  + `1 <https://php-errors.readthedocs.io/en/latest/messages/Object+of+class+stdClass+could+not+be+converted+to+int.html>`_
+  + `2 <https://php-errors.readthedocs.io/en/latest/messages/Array+to+string+conversion.html>`_
+
+
+
+Connex PHP features
+-------------------
+
+  + `cast <https://php-dictionary.readthedocs.io/en/latest/dictionary/cast.ini.html>`_
+
 
 Specs
 _____
@@ -42,8 +56,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                                                                  |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                                                             |
-+--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | cast                                                                                                                                                             |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Note         | This issue may lint but will not run                                                                                                                             |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+

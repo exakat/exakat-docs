@@ -25,6 +25,19 @@ Check `pack() <https://www.php.net/pack>`_ documentation for format specifiers t
 
 See also `pack <https://www.php.net/pack>`_ and `unpack <https://www.php.net/pack>`_.
 
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/pack%28%29%3A+Type+t%3A+unknown+format+code.html>`_
+  + `1 <https://php-errors.readthedocs.io/en/latest/messages/unpack%28%29%3A+Type+t%3A+unknown+format+code.html>`_
+
+
+
+Connex PHP features
+-------------------
+
+  + `pack <https://php-dictionary.readthedocs.io/en/latest/dictionary/pack.ini.html>`_
+
 
 Suggestions
 ___________
@@ -51,8 +64,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                                                                                         |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                                                                                    |
-+--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | pack                                                                                                                                                                                    |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Community Edition <https://www.exakat.io/community-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

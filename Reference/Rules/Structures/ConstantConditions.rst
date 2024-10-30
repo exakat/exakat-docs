@@ -48,6 +48,11 @@ It is advised to remove them, or to make them depend on configuration.
    $a = TRUE ? $x : $y;
    
    ?>
+Connex PHP features
+-------------------
+
+  + `condition <https://php-dictionary.readthedocs.io/en/latest/dictionary/condition.ini.html>`_
+
 
 Specs
 _____
@@ -66,8 +71,6 @@ _____
 | Time To Fix  | Slow (1 hour)                                                                                                           |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | condition                                                                                                               |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

@@ -11,7 +11,6 @@ This is also valid with extended class : the top `parent <https://www.php.net/ma
 
 There is a dedicated compile-time `error <https://www.php.net/error>`_.
 
-
 .. code-block:: php
    
    <?php

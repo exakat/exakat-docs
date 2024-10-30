@@ -30,6 +30,12 @@ While the behavior is deprecated in PHP 8.2, it is recommended to review older c
    }
    
    ?>
+Connex PHP features
+-------------------
+
+  + `stdclass <https://php-dictionary.readthedocs.io/en/latest/dictionary/stdclass.ini.html>`_
+  + `property <https://php-dictionary.readthedocs.io/en/latest/dictionary/property.ini.html>`_
+
 
 Specs
 _____
@@ -48,8 +54,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                                      |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                                 |
-+--------------+--------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | stdclass, property                                                                                                                   |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------+
 | Related rule | :ref:`undefined-properties`                                                                                                          |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------+

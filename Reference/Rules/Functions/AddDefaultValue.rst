@@ -21,6 +21,11 @@ Add Default Value
 
 See also `Function arguments <https://www.php.net/manual/en/functions.arguments.php>`_.
 
+Connex PHP features
+-------------------
+
+  + `default-value <https://php-dictionary.readthedocs.io/en/latest/dictionary/default-value.ini.html>`_
+
 
 Suggestions
 ___________
@@ -47,8 +52,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                    |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | default-value                                                                                                           |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Examples     | :ref:`case-zurmo-functions-adddefaultvalue`, :ref:`case-typo3-functions-adddefaultvalue`                                |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

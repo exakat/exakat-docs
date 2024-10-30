@@ -20,6 +20,11 @@ File_Put_Contents Using Array Argument
 
 See also `file_put_contents() <https://www.php.net/file_put_contents>`_.
 
+Connex PHP features
+-------------------
+
+  + `silent <https://php-dictionary.readthedocs.io/en/latest/dictionary/silent.ini.html>`_
+
 
 Specs
 _____
@@ -38,8 +43,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                    |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | silent                                                                                                                  |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

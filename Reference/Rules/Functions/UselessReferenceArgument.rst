@@ -29,6 +29,12 @@ This analysis also applies to `foreach() <https://www.php.net/manual/en/control-
 
 See also `Objects and references <https://www.php.net/manual/en/language.oop5.references.php>`_.
 
+Connex PHP features
+-------------------
+
+  + `reference <https://php-dictionary.readthedocs.io/en/latest/dictionary/reference.ini.html>`_
+  + `argument <https://php-dictionary.readthedocs.io/en/latest/dictionary/argument.ini.html>`_
+
 
 Suggestions
 ___________
@@ -56,8 +62,6 @@ _____
 | Time To Fix  | Slow (1 hour)                                                                                                           |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                    |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | reference, argument                                                                                                     |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Examples     | :ref:`case-woocommerce-functions-uselessreferenceargument`, :ref:`case-magento-functions-uselessreferenceargument`      |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

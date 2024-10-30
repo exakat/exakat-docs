@@ -34,6 +34,11 @@ That will prevent new code to try to instantiate it.
 
 See also `Class Abstraction <https://www.php.net/abstract>`_ and `Abstract classes and methods <https://phpenthusiast.com/object-oriented-php-tutorials/abstract-classes-and-methods>`_.
 
+Connex PHP features
+-------------------
+
+  + `abstract <https://php-dictionary.readthedocs.io/en/latest/dictionary/abstract.ini.html>`_
+
 
 Suggestions
 ___________
@@ -60,8 +65,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                                                            |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                                                  |
-+--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | abstract                                                                                                                                                   |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Examples     | :ref:`case-edusoho-classes-couldbeabstractclass`, :ref:`case-shopware-classes-couldbeabstractclass`                                                        |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+

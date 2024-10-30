@@ -22,6 +22,11 @@ Unused exceptions are code bloat, as they increase the size of the code without 
    throw new myUsedException('I was called');
    
    ?>
+Connex PHP features
+-------------------
+
+  + `exception <https://php-dictionary.readthedocs.io/en/latest/dictionary/exception.ini.html>`_
+
 
 Suggestions
 ___________
@@ -50,8 +55,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                                                      |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                                            |
-+--------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | exception                                                                                                                                            |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
 | ClearPHP     | `no-unthrown-exceptions <https://github.com/dseguy/clearPHP/tree/master/rules/no-unthrown-exceptions.md>`__                                          |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------+

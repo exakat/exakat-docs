@@ -33,6 +33,11 @@ Every comparison operator is used when finding the favorite.
    if (B <= $a) {}
    
    ?>
+Connex PHP features
+-------------------
+
+  + `comparison <https://php-dictionary.readthedocs.io/en/latest/dictionary/comparison.ini.html>`_
+
 
 Specs
 _____
@@ -51,8 +56,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                            |
 +--------------+----------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                  |
-+--------------+----------------------------------------------------------------------------------------------------------------------------+
-| Features     | comparison                                                                                                                 |
 +--------------+----------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_    |
 +--------------+----------------------------------------------------------------------------------------------------------------------------+

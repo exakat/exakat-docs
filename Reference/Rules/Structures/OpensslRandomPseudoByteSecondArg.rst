@@ -28,6 +28,11 @@ On the other hand, it is important to catch the `exception <https://www.php.net/
 
 See also `openssl_random_pseudo_byte <https://www.php.net/openssl_random_pseudo_bytes>`_ and `PHP RFC: Improve openssl_random_pseudo_bytes() <https://wiki.php.net/rfc/improve-openssl-random-pseudo-bytes>`_.
 
+Connex PHP features
+-------------------
+
+  + `openssl <https://php-dictionary.readthedocs.io/en/latest/dictionary/openssl.ini.html>`_
+
 
 Suggestions
 ___________
@@ -54,8 +59,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                                                                                         |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                                                                               |
-+--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | openssl                                                                                                                                                                                 |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Community Edition <https://www.exakat.io/community-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

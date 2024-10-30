@@ -23,6 +23,13 @@ Until PHP 8.1, it was silently reverted to the default value. It is a deprecated
    var_dump(version_compare('2.0', '2.1', 'as'));
    
    ?>
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/version_compare%28%29%3A+Argument+%233+%28%24operator%29+must+be+a+valid+comparison+operator.html>`_
+
+
+
 
 Suggestions
 ___________

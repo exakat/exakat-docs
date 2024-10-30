@@ -28,6 +28,20 @@ PHP detect such `error <https://www.php.net/error>`_ when all classes are loaded
 
 See also `Class Abstraction <https://www.php.net/abstract>`_.
 
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Class+BA+contains+1+abstract+method+and+must+therefore+be+declared+abstract+or+implement+the+remaining+methods+%28A%3A%3AaFoo%29.html>`_
+
+
+
+Connex PHP features
+-------------------
+
+  + `abstract <https://php-dictionary.readthedocs.io/en/latest/dictionary/abstract.ini.html>`_
+  + `implements <https://php-dictionary.readthedocs.io/en/latest/dictionary/implements.ini.html>`_
+  + `lazy-loading <https://php-dictionary.readthedocs.io/en/latest/dictionary/lazy-loading.ini.html>`_
+
 
 Suggestions
 ___________
@@ -55,8 +69,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                                                                  |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                                                        |
-+--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | abstract, implements, lazy-loading                                                                                                                               |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Examples     | :ref:`case-zurmo-classes-abstractorimplements`                                                                                                                   |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+

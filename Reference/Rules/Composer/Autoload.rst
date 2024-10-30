@@ -6,6 +6,12 @@ Composer's autoload
 +++++++++++++++++++
 
   Report if this code is using the autoload from Composer.
+Connex PHP features
+-------------------
+
+  + `autoload <https://php-dictionary.readthedocs.io/en/latest/dictionary/autoload.ini.html>`_
+  + `composer <https://php-dictionary.readthedocs.io/en/latest/dictionary/composer.ini.html>`_
+
 
 Specs
 _____
@@ -24,8 +30,6 @@ _____
 | Time To Fix  |                                                                                                                                                                                         |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                                                                               |
-+--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | autoload, composer                                                                                                                                                                      |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Community Edition <https://www.exakat.io/community-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

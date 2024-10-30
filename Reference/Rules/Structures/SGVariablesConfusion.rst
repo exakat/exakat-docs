@@ -22,6 +22,12 @@ It is recommended to avoid using the same name for a global variable and a `stat
    }
    
    ?>
+Connex PHP features
+-------------------
+
+  + `global <https://php-dictionary.readthedocs.io/en/latest/dictionary/global.ini.html>`_
+  + `static <https://php-dictionary.readthedocs.io/en/latest/dictionary/static.ini.html>`_
+
 
 Suggestions
 ___________
@@ -50,8 +56,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                                                              |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                                                    |
-+--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | global, static                                                                                                                                               |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_                                      |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------+

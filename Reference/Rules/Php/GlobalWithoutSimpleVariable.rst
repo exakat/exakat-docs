@@ -24,6 +24,11 @@ Simple Global Variable
 
 See also `Changes to the handling of indirect variables, properties, and methods <https://www.php.net/manual/en/migration70.incompatible.php#migration70.incompatible.variable-handling.indirect>`_.
 
+Connex PHP features
+-------------------
+
+  + `global <https://php-dictionary.readthedocs.io/en/latest/dictionary/global.ini.html>`_
+
 
 Suggestions
 ___________
@@ -53,8 +58,6 @@ _____
 | Changed Behavior | PHP 7.0 - `More <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/.html>`__                                           |
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------+
 | Precision        | Very high                                                                                                                            |
-+------------------+--------------------------------------------------------------------------------------------------------------------------------------+
-| Features         | global                                                                                                                               |
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------+
 | Available in     | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_              |
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------+

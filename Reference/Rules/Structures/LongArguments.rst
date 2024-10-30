@@ -38,6 +38,12 @@ Literal strings and heredoc strings, including variables, that are over 50 chars
 +-------------+---------+---------+---------------------------------------------------------------------------+
 
 
+Connex PHP features
+-------------------
+
+  + `argument <https://php-dictionary.readthedocs.io/en/latest/dictionary/argument.ini.html>`_
+  + `readability <https://php-dictionary.readthedocs.io/en/latest/dictionary/readability.ini.html>`_
+
 
 Suggestions
 ___________
@@ -64,8 +70,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | argument                                                                                                                |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Examples     | :ref:`case-cleverstyle-structures-longarguments`, :ref:`case-contao-structures-longarguments`                           |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

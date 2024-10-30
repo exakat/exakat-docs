@@ -5,7 +5,7 @@
 $php_errormsg Usage
 +++++++++++++++++++
 
-  $php_errormsg is removed since PHP 8.0. $php_errormsg tracks the last `error <https://www.php.net/error>`_ message, with the directive `track_errors`. All was removed in PHP 8.0, and shall be replaced with `error_get_last() <https://www.php.net/error_get_last>`_.
+  The variable $php_errormsg is removed since PHP 8.0. $php_errormsg tracks the last `error <https://www.php.net/error>`_ message, with the directive `track_errors`. All was removed in PHP 8.0, and shall be replaced with `error_get_last() <https://www.php.net/error_get_last>`_.
 
 .. code-block:: php
    
@@ -20,6 +20,11 @@ $php_errormsg Usage
    }
    
    ?>
+Connex PHP features
+-------------------
+
+  + `$php_errormsg <https://php-dictionary.readthedocs.io/en/latest/dictionary/%24php_errormsg.ini.html>`_
+
 
 Suggestions
 ___________
@@ -48,8 +53,6 @@ _____
 | Changed Behavior | PHP 8.0 - `More <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/.html>`__                                                                                              |
 +------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision        | High                                                                                                                                                                                    |
-+------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features         | $php_errormsg                                                                                                                                                                           |
 +------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in     | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Community Edition <https://www.exakat.io/community-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

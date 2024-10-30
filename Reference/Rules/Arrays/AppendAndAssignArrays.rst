@@ -17,6 +17,11 @@ Array append and direct index assignation have different impact one on the other
    $arrayAppend[] = 1;
    
    ?>
+Connex PHP features
+-------------------
+
+  + `append <https://php-dictionary.readthedocs.io/en/latest/dictionary/append.ini.html>`_
+
 
 Specs
 _____

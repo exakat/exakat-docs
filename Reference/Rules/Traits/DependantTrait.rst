@@ -40,6 +40,11 @@ This may also lead to dead code : when the trait is removed, the host class have
 
 See also :ref:`Dependant Abstract Classes <dependant-abstract-classes>`.
 
+Connex PHP features
+-------------------
+
+  + `trait <https://php-dictionary.readthedocs.io/en/latest/dictionary/trait.ini.html>`_
+
 
 Suggestions
 ___________
@@ -68,8 +73,6 @@ _____
 | Time To Fix  | Slow (1 hour)                                                                                                           |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                    |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | trait                                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Examples     | :ref:`case-zencart-traits-dependanttrait`                                                                               |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

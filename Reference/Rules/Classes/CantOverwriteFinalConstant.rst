@@ -26,6 +26,19 @@ Can't Overwrite Final Constant
    }
    
    ?>
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/y%3A%3AF+cannot+override+final+constant+x%3A%3AF.html>`_
+
+
+
+Connex PHP features
+-------------------
+
+  + `final <https://php-dictionary.readthedocs.io/en/latest/dictionary/final.ini.html>`_
+  + `overwrite <https://php-dictionary.readthedocs.io/en/latest/dictionary/overwrite.ini.html>`_
+
 
 Suggestions
 ___________
@@ -54,8 +67,6 @@ _____
 | Time To Fix  | Slow (1 hour)                                                                                                                                            |
 +--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                                                     |
-+--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | final, overwrite                                                                                                                                         |
 +--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Note         | This issue may lint but will not run                                                                                                                     |
 +--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------+

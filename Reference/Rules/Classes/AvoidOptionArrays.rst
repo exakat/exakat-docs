@@ -35,6 +35,11 @@ Avoid option arrays in constructors
 
 See also `Avoid option arrays in constructors <http://bestpractices.thecodingmachine.com/php/design_beautiful_classes_and_methods.html#avoid-option-arrays-in-constructors>`_ and `PHP RFC: Named Arguments (Type-safe and documented options) <https://wiki.php.net/rfc/named_params#type-safe_and_documented_options>`_.
 
+Connex PHP features
+-------------------
+
+  + `constructor <https://php-dictionary.readthedocs.io/en/latest/dictionary/constructor.ini.html>`_
+
 
 Suggestions
 ___________
@@ -63,8 +68,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                                                            |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Medium                                                                                                                                                     |
-+--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | constructor                                                                                                                                                |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_                                    |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+

@@ -40,6 +40,12 @@ This library provides a PHP extension that adds support for correctly-rounded, a
 
 See also `PHP Decimal <http://php-decimal.io>`_ and `libmpdec <http://www.bytereef.org/mpdecimal/quickstart.html>`_.
 
+Connex PHP features
+-------------------
+
+  + `extension <https://php-dictionary.readthedocs.io/en/latest/dictionary/extension.ini.html>`_
+  + `float <https://php-dictionary.readthedocs.io/en/latest/dictionary/float.ini.html>`_
+
 
 Specs
 _____
@@ -58,8 +64,6 @@ _____
 | Time To Fix  |                                                                                                                                                                                         |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                                                                               |
-+--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | extension, float                                                                                                                                                                        |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Community Edition <https://www.exakat.io/community-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

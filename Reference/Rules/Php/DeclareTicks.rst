@@ -18,6 +18,12 @@ Ticks Usage
 
 See also `declare <https://www.php.net/manual/en/control-structures.declare.php>`_.
 
+Connex PHP features
+-------------------
+
+  + `tick <https://php-dictionary.readthedocs.io/en/latest/dictionary/tick.ini.html>`_
+  + `declare <https://php-dictionary.readthedocs.io/en/latest/dictionary/declare.ini.html>`_
+
 
 Specs
 _____
@@ -36,8 +42,6 @@ _____
 | Time To Fix  |                                                                                                                                                                                         |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                                                                               |
-+--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | tick, declare                                                                                                                                                                           |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Community Edition <https://www.exakat.io/community-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

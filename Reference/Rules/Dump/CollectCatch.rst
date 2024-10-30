@@ -23,6 +23,12 @@ Collect Catch Calls
 
 See also `Catch <https://www.php.net/manual/en/language.exceptions.php#language.exceptions.catch>`_.
 
+Connex PHP features
+-------------------
+
+  + `catch <https://php-dictionary.readthedocs.io/en/latest/dictionary/catch.ini.html>`_
+  + `try <https://php-dictionary.readthedocs.io/en/latest/dictionary/try.ini.html>`_
+
 
 Specs
 _____
@@ -41,8 +47,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | catch, try                                                                                                              |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

@@ -20,6 +20,19 @@ The last example generates first an `error <https://www.php.net/error>`_ `Undefi
 
 See also `Operators Precedence <https://www.php.net/manual/en/language.operators.precedence.php>`_.
 
+Related PHP errors 
+-------------------
+
+  + `1 <https://php-errors.readthedocs.io/en/latest/messages/Undefined+variable%3A.html>`_
+
+
+
+Connex PHP features
+-------------------
+
+  + `ternary <https://php-dictionary.readthedocs.io/en/latest/dictionary/ternary.ini.html>`_
+  + `cast <https://php-dictionary.readthedocs.io/en/latest/dictionary/cast.ini.html>`_
+
 
 Suggestions
 ___________
@@ -48,8 +61,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                                                                                         |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                                                                               |
-+--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | ternary, cast                                                                                                                                                                           |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Community Edition <https://www.exakat.io/community-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

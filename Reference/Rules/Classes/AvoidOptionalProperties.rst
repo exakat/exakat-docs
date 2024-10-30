@@ -36,6 +36,12 @@ Either make sure the property is set with an actual object rather than with null
 
 See also `Avoid optional services as much as possible <http://bestpractices.thecodingmachine.com/php/design_beautiful_classes_and_methods.html#avoid-optional-services-as-much-as-possible>`_, `The Null Object Pattern – Polymorphism in Domain Models <https://www.sitepoint.com/the-null-object-pattern-polymorphism-in-domain-models/>`_ and `Practical PHP Refactoring: Introduce Null Object <https://dzone.com/articles/practical-php-refactoring-26>`_.
 
+Connex PHP features
+-------------------
+
+  + `property <https://php-dictionary.readthedocs.io/en/latest/dictionary/property.ini.html>`_
+  + `null <https://php-dictionary.readthedocs.io/en/latest/dictionary/null.ini.html>`_
+
 
 Suggestions
 ___________
@@ -63,8 +69,6 @@ _____
 | Time To Fix  | Slow (1 hour)                                                                                                           |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | property, null                                                                                                          |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Examples     | :ref:`case-churchcrm-classes-avoidoptionalproperties`, :ref:`case-dolibarr-classes-avoidoptionalproperties`             |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

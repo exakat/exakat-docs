@@ -37,6 +37,20 @@ This `error <https://www.php.net/error>`_ is not linted : it only appears at exe
 
 See also `Traits <https://www.php.net/manual/en/language.oop5.traits.php>`_.
 
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/An+alias+%28%25s%29+was+defined+for+method+%25s%28%29%2C+but+this+method+does+not+exist.html>`_
+
+
+
+Connex PHP features
+-------------------
+
+  + `insteadof <https://php-dictionary.readthedocs.io/en/latest/dictionary/insteadof.ini.html>`_
+  + `trait <https://php-dictionary.readthedocs.io/en/latest/dictionary/trait.ini.html>`_
+  + `method <https://php-dictionary.readthedocs.io/en/latest/dictionary/method.ini.html>`_
+
 
 Suggestions
 ___________
@@ -64,8 +78,6 @@ _____
 | Time To Fix  | Instant (5 mins)                                                                                                                                                                                                               |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                                                                                                                           |
-+--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | insteadof, trait, method                                                                                                                                                                                                       |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Note         | This issue may lint but will not run                                                                                                                                                                                           |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

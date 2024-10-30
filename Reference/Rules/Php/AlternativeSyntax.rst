@@ -28,6 +28,16 @@ Alternative syntax is another way to write the same expression. Alternative synt
 
 See also `Alternative syntax <https://www.php.net/manual/en/control-structures.alternative-syntax.php>`_.
 
+Connex PHP features
+-------------------
+
+  + `alternative-syntax <https://php-dictionary.readthedocs.io/en/latest/dictionary/alternative-syntax.ini.html>`_
+  + `foreach <https://php-dictionary.readthedocs.io/en/latest/dictionary/foreach.ini.html>`_
+  + `while <https://php-dictionary.readthedocs.io/en/latest/dictionary/while.ini.html>`_
+  + `do-while <https://php-dictionary.readthedocs.io/en/latest/dictionary/do-while.ini.html>`_
+  + `for <https://php-dictionary.readthedocs.io/en/latest/dictionary/for.ini.html>`_
+  + `switch <https://php-dictionary.readthedocs.io/en/latest/dictionary/switch.ini.html>`_
+
 
 Specs
 _____
@@ -46,8 +56,6 @@ _____
 | Time To Fix  |                                                                                                                                                                                         |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                                                                               |
-+--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | alternative-syntax, foreach, while, do-while, for, switch                                                                                                                               |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Community Edition <https://www.exakat.io/community-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

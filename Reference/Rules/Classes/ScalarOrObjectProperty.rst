@@ -63,6 +63,12 @@ Scalar Or Object Property
 
 See also `Null Object Pattern <https://en.wikipedia.org/wiki/Null_Object_pattern#PHP>`_ and `The Null Object Pattern <https://www.sitepoint.com/the-null-object-pattern-polymorphism-in-domain-models/>`_.
 
+Connex PHP features
+-------------------
+
+  + `object <https://php-dictionary.readthedocs.io/en/latest/dictionary/object.ini.html>`_
+  + `scalar-typehint <https://php-dictionary.readthedocs.io/en/latest/dictionary/scalar-typehint.ini.html>`_
+
 
 Suggestions
 ___________
@@ -89,8 +95,6 @@ _____
 | Time To Fix  | Slow (1 hour)                                                                                                           |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                    |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | object, scalar-typehint                                                                                                 |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Examples     | :ref:`case-sugarcrm-classes-scalarorobjectproperty`                                                                     |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

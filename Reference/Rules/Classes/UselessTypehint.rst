@@ -43,6 +43,18 @@ Useless Typehint
 
 See also `__set <https://www.php.net/manual/en/language.oop5.overloading.php#object.set>`_.
 
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Method+name+must+be+a+string.html>`_
+
+
+
+Connex PHP features
+-------------------
+
+  + `magic-method <https://php-dictionary.readthedocs.io/en/latest/dictionary/magic-method.ini.html>`_
+
 
 Suggestions
 ___________
@@ -70,8 +82,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                                                                    |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                                                          |
-+--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | magic-method                                                                                                                                                       |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_                                            |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------+

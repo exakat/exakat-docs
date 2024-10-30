@@ -29,6 +29,23 @@ It is recommended to check the signature of the methods, and fix the arguments.
    echo foo('This function is', 'ignoring arguments');
    
    ?>
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Uncaught+ArgumentCountError%3A+Too+few+arguments+to+function%2C+0+passed.html>`_
+  + `1 <https://php-errors.readthedocs.io/en/latest/messages/Too+few+arguments+to+function+foo%28%29%2C+1+passed+and+exactly+2+expected.html>`_
+  + `2 <https://php-errors.readthedocs.io/en/latest/messages/strlen%28%29+expects+exactly+1+argument%2C+3+given.html>`_
+
+
+
+Connex PHP features
+-------------------
+
+  + `function <https://php-dictionary.readthedocs.io/en/latest/dictionary/function.ini.html>`_
+  + `method <https://php-dictionary.readthedocs.io/en/latest/dictionary/method.ini.html>`_
+  + `static-method <https://php-dictionary.readthedocs.io/en/latest/dictionary/static-method.ini.html>`_
+  + `constructor <https://php-dictionary.readthedocs.io/en/latest/dictionary/constructor.ini.html>`_
+
 
 Suggestions
 ___________
@@ -57,8 +74,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                                                                                         |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                                                                                    |
-+--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | function, method, static-method, constructor                                                                                                                                            |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | ClearPHP     | `no-missing-argument.md <https://github.com/dseguy/clearPHP/tree/master/rules/no-missing-argument.md.md>`__                                                                             |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

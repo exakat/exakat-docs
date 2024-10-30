@@ -28,6 +28,18 @@ In particular when defined using `define() <https://www.php.net/define>`_ functi
 
 See also `Constants <https://www.php.net/manual/en/language.constants.php>`_.
 
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/syntax+error%2C+unexpected+%27-%27%2C+expecting+%27%3D%27.html>`_
+
+
+
+Connex PHP features
+-------------------
+
+  + `constant <https://php-dictionary.readthedocs.io/en/latest/dictionary/constant.ini.html>`_
+
 
 Suggestions
 ___________
@@ -54,8 +66,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | constant                                                                                                                |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Examples     | :ref:`case-openemr-constants-invalidname`                                                                               |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

@@ -25,6 +25,12 @@ Thanks to the `PMB <https://www.sigb.net/>`_ team for the inspiration.
    }
    
    ?>
+Connex PHP features
+-------------------
+
+  + `comparison <https://php-dictionary.readthedocs.io/en/latest/dictionary/comparison.ini.html>`_
+  + `iffectation <https://php-dictionary.readthedocs.io/en/latest/dictionary/iffectation.ini.html>`_
+
 
 Suggestions
 ___________
@@ -51,8 +57,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | comparison, iffectation                                                                                                 |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

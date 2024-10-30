@@ -22,6 +22,13 @@ This is very rare.
    }
    
    ?>
+Connex PHP features
+-------------------
+
+  + `try <https://php-dictionary.readthedocs.io/en/latest/dictionary/try.ini.html>`_
+  + `catch <https://php-dictionary.readthedocs.io/en/latest/dictionary/catch.ini.html>`_
+  + `finally <https://php-dictionary.readthedocs.io/en/latest/dictionary/finally.ini.html>`_
+
 
 Specs
 _____
@@ -40,8 +47,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | try, catch, finally                                                                                                     |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

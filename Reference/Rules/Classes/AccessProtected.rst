@@ -22,6 +22,20 @@ Access Protected Structures
 
 See also `Visibility <https://www.php.net/manual/en/language.oop5.visibility.php>`_. and `Understanding The Concept Of Visibility In Object Oriented PHP <https://torquemag.io/2016/05/understanding-concept-visibility-object-oriented-php/>`_.
 
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Cannot+access+protected+constant+x%3A%3ACpro.html>`_
+  + `1 <https://php-errors.readthedocs.io/en/latest/messages/Cannot+access+protected+property+x%3A%3A%24property.html>`_
+  + `2 <https://php-errors.readthedocs.io/en/latest/messages/Call+to+protected+method+x%3A%3Amethod.html>`_
+
+
+
+Connex PHP features
+-------------------
+
+  + `visibility <https://php-dictionary.readthedocs.io/en/latest/dictionary/visibility.ini.html>`_
+
 
 Suggestions
 ___________
@@ -50,8 +64,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                    |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | visibility                                                                                                              |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

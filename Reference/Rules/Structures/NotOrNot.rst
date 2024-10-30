@@ -30,6 +30,12 @@ The analyzed code has less than 10% of one of them : for consistency reasons, it
 
 See also `Bitwise Operators <https://www.php.net/manual/en/language.operators.bitwise.php>`_, `Logical Operators <https://www.php.net/manual/en/language.operators.logical.php>`_ and `Operators Precedences <https://www.php.net/manual/en/language.operators.precedence.php>`_.
 
+Connex PHP features
+-------------------
+
+  + `logical-operator <https://php-dictionary.readthedocs.io/en/latest/dictionary/logical-operator.ini.html>`_
+  + `bitwise-operator <https://php-dictionary.readthedocs.io/en/latest/dictionary/bitwise-operator.ini.html>`_
+
 
 Suggestions
 ___________
@@ -57,8 +63,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | logical-operator, bitwise-operator                                                                                      |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

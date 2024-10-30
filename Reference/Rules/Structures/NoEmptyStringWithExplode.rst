@@ -16,6 +16,14 @@ To `break <https://www.php.net/manual/en/control-structures.break.php>`_ a strin
    explode('', "a");
    
    ?>
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Empty+delimiter.html>`_
+  + `1 <https://php-errors.readthedocs.io/en/latest/messages/explode%28%29%3A+Argument+%231+%28%24separator%29+cannot+be+empty.html>`_
+
+
+
 
 Suggestions
 ___________

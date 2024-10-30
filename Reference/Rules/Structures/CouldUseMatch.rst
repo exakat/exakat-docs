@@ -36,6 +36,12 @@ The simplest case for such refactoring is when each of the switch's case (includ
 
 See also `Match() <https://www.php.net/manual/en/control-structures.match.php>`_.
 
+Connex PHP features
+-------------------
+
+  + `match <https://php-dictionary.readthedocs.io/en/latest/dictionary/match.ini.html>`_
+  + `switch <https://php-dictionary.readthedocs.io/en/latest/dictionary/switch.ini.html>`_
+
 
 Suggestions
 ___________
@@ -62,8 +68,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                    |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | match, switch                                                                                                           |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

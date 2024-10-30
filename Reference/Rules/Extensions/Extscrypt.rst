@@ -16,6 +16,11 @@ ext/scrypt
 
 See also `scrypt <http://www.tarsnap.com/scrypt.html>` and `PHP scrypt module <https://github.com/DomBlack/php-scrypt>`.
 
+Connex PHP features
+-------------------
+
+  + `crypto <https://php-dictionary.readthedocs.io/en/latest/dictionary/crypto.ini.html>`_
+
 
 Specs
 _____
@@ -34,8 +39,6 @@ _____
 | Time To Fix  |                                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | crypto                                                                                                                  |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

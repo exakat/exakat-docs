@@ -22,6 +22,11 @@ PRCE regex are a powerful way to search inside strings, but they also come at th
    if( stripos('b', $string)) {}       // case insensitive
    
    ?>
+Connex PHP features
+-------------------
+
+  + `regex <https://php-dictionary.readthedocs.io/en/latest/dictionary/regex.ini.html>`_
+
 
 Suggestions
 ___________
@@ -48,8 +53,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                          |
 +--------------+--------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                |
-+--------------+--------------------------------------------------------------------------------------------------------------------------+
-| Features     | regex                                                                                                                    |
 +--------------+--------------------------------------------------------------------------------------------------------------------------+
 | Examples     | :ref:`case-zurmo-structures-simplepreg`, :ref:`case-openconf-structures-simplepreg`                                      |
 +--------------+--------------------------------------------------------------------------------------------------------------------------+

@@ -17,6 +17,11 @@ idn_to_ascii() New Default
 
 See also `idn_to_ascii <https://www.php.net/manual/en/function.idn-to-ascii.php>`_, `idn_to_utf8 <https://www.php.net/manual/en/function.idn-to-utf8.php>`_ and `Unicode IDNA Compatibility Processing <http://unicode.org/reports/tr46/>`_.
 
+Connex PHP features
+-------------------
+
+  + `internationalization <https://php-dictionary.readthedocs.io/en/latest/dictionary/internationalization.ini.html>`_
+
 
 Suggestions
 ___________
@@ -43,8 +48,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                                                                                         |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                                                                               |
-+--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | internationalization                                                                                                                                                                    |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Community Edition <https://www.exakat.io/community-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

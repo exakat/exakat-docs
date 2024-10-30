@@ -22,6 +22,12 @@ This won't raise an `error <https://www.php.net/error>`_, though the resulting v
    $date = datetimeimmutable::createFromFormat('d/X/Y', $a);
    
    ?>
+Connex PHP features
+-------------------
+
+  + `date <https://php-dictionary.readthedocs.io/en/latest/dictionary/date.ini.html>`_
+  + `external-format <https://php-dictionary.readthedocs.io/en/latest/dictionary/external-format.ini.html>`_
+
 
 Suggestions
 ___________
@@ -49,8 +55,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                    |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | date, external-format                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

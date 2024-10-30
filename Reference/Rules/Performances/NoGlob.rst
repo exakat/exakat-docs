@@ -34,6 +34,13 @@ This analysis skips `scandir() <https://www.php.net/scandir>`_ and `glob() <http
 
 See also `Putting glob to the test <https://www.phparch.com/2010/04/putting-glob-to-the-test/>`_, `How to list files recursively in a directory with PHP iterators  <https://dev.to/bdelespierre/how-to-list-files-recursively-in-a-directory-with-php-iterators-5c0m>`_ and `glob:// <https://www.php.net/manual/en/wrappers.glob.php>`_.
 
+Connex PHP features
+-------------------
+
+  + `glob <https://php-dictionary.readthedocs.io/en/latest/dictionary/glob.ini.html>`_
+  + `directoryiterator <https://php-dictionary.readthedocs.io/en/latest/dictionary/directoryiterator.ini.html>`_
+  + `filesystemiterator <https://php-dictionary.readthedocs.io/en/latest/dictionary/filesystemiterator.ini.html>`_
+
 
 Suggestions
 ___________
@@ -62,8 +69,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                          |
 +--------------+--------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                |
-+--------------+--------------------------------------------------------------------------------------------------------------------------+
-| Features     | glob, directoryiterator, filesystemiterator                                                                              |
 +--------------+--------------------------------------------------------------------------------------------------------------------------+
 | Examples     | :ref:`case-phinx-performances-noglob`, :ref:`case-nextcloud-performances-noglob`                                         |
 +--------------+--------------------------------------------------------------------------------------------------------------------------+

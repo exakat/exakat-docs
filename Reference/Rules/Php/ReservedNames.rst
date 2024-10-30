@@ -37,6 +37,11 @@ PHP does check that a number of structures, such as classes, methods, interfaces
 
 See also `List of Keywords <https://www.php.net/manual/en/reserved.keywords.php>`_, `Predefined Classes <https://www.php.net/manual/en/reserved.classes.php>`_, `Predefined Constants <https://www.php.net/manual/en/reserved.constants.php>`_, `List of other reserved words <https://www.php.net/manual/en/reserved.other-reserved-words.php>`_ and `Predefined Variables <https://www.php.net/manual/en/reserved.variables.php>`_.
 
+Connex PHP features
+-------------------
+
+  + `reserved-name <https://php-dictionary.readthedocs.io/en/latest/dictionary/reserved-name.ini.html>`_
+
 
 Suggestions
 ___________
@@ -64,8 +69,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | reserved-name                                                                                                           |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Examples     | :ref:`case-churchcrm-php-reservednames`, :ref:`case-xataface-php-reservednames`                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

@@ -33,6 +33,13 @@ Trait which are referenced in a `use` expression are omitted: they are considere
        use unknownTrait, t, externalTrait;
    }
    ?>
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Trait+%27T%27+not+found.html>`_
+
+
+
 
 Suggestions
 ___________

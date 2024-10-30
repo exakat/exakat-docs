@@ -25,6 +25,11 @@ It marks the method call, and not the argument.
 
 See also `array_map <https://www.php.net/array_map>`_.
 
+Connex PHP features
+-------------------
+
+  + `callback <https://php-dictionary.readthedocs.io/en/latest/dictionary/callback.ini.html>`_
+
 
 Specs
 _____

@@ -27,6 +27,13 @@ Such structure shall be used directly in a `foreach() <https://www.php.net/manua
    }
    
    ?>
+Connex PHP features
+-------------------
+
+  + `yield <https://php-dictionary.readthedocs.io/en/latest/dictionary/yield.ini.html>`_
+  + `yield-from <https://php-dictionary.readthedocs.io/en/latest/dictionary/yield-from.ini.html>`_
+  + `generator <https://php-dictionary.readthedocs.io/en/latest/dictionary/generator.ini.html>`_
+
 
 Specs
 _____
@@ -45,8 +52,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                    |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | yield, yield-from, generator                                                                                            |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

@@ -31,6 +31,12 @@ Null is not accepted here: it would `break <https://www.php.net/manual/en/contro
    }
    
    ?>
+Connex PHP features
+-------------------
+
+  + `method <https://php-dictionary.readthedocs.io/en/latest/dictionary/method.ini.html>`_
+  + `fluent-interface <https://php-dictionary.readthedocs.io/en/latest/dictionary/fluent-interface.ini.html>`_
+
 
 Specs
 _____
@@ -49,8 +55,6 @@ _____
 | Time To Fix  |                                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | method, fluent-interface                                                                                                |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

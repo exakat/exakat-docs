@@ -31,6 +31,12 @@ Unfinished Object
 
 See also `Compulsory parameters should be required in your constructor <http://bestpractices.thecodingmachine.com/php/design_beautiful_classes_and_methods.html#compulsory-parameters-should-be-required-in-your-constructor>`_.
 
+Connex PHP features
+-------------------
+
+  + `object <https://php-dictionary.readthedocs.io/en/latest/dictionary/object.ini.html>`_
+  + `constructor <https://php-dictionary.readthedocs.io/en/latest/dictionary/constructor.ini.html>`_
+
 
 Suggestions
 ___________
@@ -57,8 +63,6 @@ _____
 | Time To Fix  | Slow (1 hour)                                                                                                                                              |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                                                       |
-+--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | object, constructor                                                                                                                                        |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_                                    |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+

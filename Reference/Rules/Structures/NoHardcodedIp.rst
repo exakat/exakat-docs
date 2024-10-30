@@ -28,6 +28,11 @@ This may also come handy when testing.
 
 See also `Use of Hardcoded IPv4 Addresses <https://docs.microsoft.com/en-us/windows/desktop/winsock/use-of-hardcoded-ipv4-addresses-2>`_ and `Never hard code sensitive information <https://wiki.sei.cmu.edu/confluence/display/java/MSC03-J.+Never+hard+code+sensitive+information>`_.
 
+Connex PHP features
+-------------------
+
+  + `ip <https://php-dictionary.readthedocs.io/en/latest/dictionary/ip.ini.html>`_
+
 
 Suggestions
 ___________
@@ -56,8 +61,6 @@ _____
 | Time To Fix  | Slow (1 hour)                                                                                                                                      |
 +--------------+----------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                                          |
-+--------------+----------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | ip                                                                                                                                                 |
 +--------------+----------------------------------------------------------------------------------------------------------------------------------------------------+
 | Examples     | :ref:`case-openemr-structures-nohardcodedip`, :ref:`case-nextcloud-structures-nohardcodedip`                                                       |
 +--------------+----------------------------------------------------------------------------------------------------------------------------------------------------+

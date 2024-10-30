@@ -47,6 +47,11 @@ The ``instanceof`` operator is also faster than the ``is_object()`` functioncall
 
 See also `Type Operators <https://www.php.net/manual/en/language.operators.type.php#language.operators.type>`_ and `is_object <https://www.php.net/manual/en/function.is-object.php>`_.
 
+Connex PHP features
+-------------------
+
+  + `instanceof <https://php-dictionary.readthedocs.io/en/latest/dictionary/instanceof.ini.html>`_
+
 
 Suggestions
 ___________
@@ -76,8 +81,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                                                                                         |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                                                                                    |
-+--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | instanceof                                                                                                                                                                              |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Examples     | :ref:`case-teampass-classes-useinstanceof`, :ref:`case-zencart-classes-useinstanceof`                                                                                                   |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

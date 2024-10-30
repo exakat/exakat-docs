@@ -40,6 +40,11 @@ This analysis omits methods which are overwritten by a child class. That way, th
 
 See also `Dead Code: Unused Method <https://vulncat.fortify.com/en/detail?id=desc.structural.java.dead_code_unused_method>`_.
 
+Connex PHP features
+-------------------
+
+  + `method <https://php-dictionary.readthedocs.io/en/latest/dictionary/method.ini.html>`_
+
 
 Suggestions
 ___________
@@ -68,8 +73,6 @@ _____
 | Time To Fix  | Slow (1 hour)                                                                                                           |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | method                                                                                                                  |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Related rule | :ref:`unused-public-methods`                                                                                            |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

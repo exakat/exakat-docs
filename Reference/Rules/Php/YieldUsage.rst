@@ -24,6 +24,12 @@ Yield was introduced in PHP 5.5, and is backward incompatible.
 
 See also `Generator Syntax <https://www.php.net/manual/en/language.generators.syntax.php>`_, `Deal with Memory Gently using "Yield" in PHP <https://medium.com/tech-tajawal/use-memory-gently-with-yield-in-php-7e62e2480b8d>`_ and `Understanding PHP Generators <https://scotch.io/tutorials/understanding-php-generators>`_.
 
+Connex PHP features
+-------------------
+
+  + `yield <https://php-dictionary.readthedocs.io/en/latest/dictionary/yield.ini.html>`_
+  + `yield-from <https://php-dictionary.readthedocs.io/en/latest/dictionary/yield-from.ini.html>`_
+
 
 Specs
 _____
@@ -42,8 +48,6 @@ _____
 | Time To Fix  |                                                                                                                                                                                         |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                                                                               |
-+--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | yield, yield-from                                                                                                                                                                       |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Community Edition <https://www.exakat.io/community-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

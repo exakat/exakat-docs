@@ -24,6 +24,11 @@ The xattr extension allows for the manipulation of extended attributes on a file
 
 See also `xattr <https://www.php.net/manual/en/book.xattr.php>`_ and `Extended attributres <https://en.wikipedia.org/wiki/Extended_file_attributes>`_.
 
+Connex PHP features
+-------------------
+
+  + `file <https://php-dictionary.readthedocs.io/en/latest/dictionary/file.ini.html>`_
+
 
 Specs
 _____
@@ -42,8 +47,6 @@ _____
 | Time To Fix  |                                                                                                                                                                                         |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                                                                               |
-+--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | file                                                                                                                                                                                    |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Community Edition <https://www.exakat.io/community-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

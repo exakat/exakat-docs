@@ -25,6 +25,12 @@ Missing __isset() Method
 
 See also `When empty is not empty <https://freek.dev/1057-when-empty-is-not-empty>`_.
 
+Connex PHP features
+-------------------
+
+  + `magic-method <https://php-dictionary.readthedocs.io/en/latest/dictionary/magic-method.ini.html>`_
+  + `isset <https://php-dictionary.readthedocs.io/en/latest/dictionary/isset.ini.html>`_
+
 
 Suggestions
 ___________
@@ -51,8 +57,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                                                            |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Medium                                                                                                                                                     |
-+--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | magic-method, isset                                                                                                                                        |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_                                    |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+

@@ -21,6 +21,12 @@ Indeed, any `strict_types` set to 1 will have the final word. Setting `strict_ty
 
 See also `Declare <https://www.php.net/manual/en/control-structures.declare.php>`_.
 
+Connex PHP features
+-------------------
+
+  + `declare <https://php-dictionary.readthedocs.io/en/latest/dictionary/declare.ini.html>`_
+  + `strict_types <https://php-dictionary.readthedocs.io/en/latest/dictionary/strict_types.ini.html>`_
+
 
 Suggestions
 ___________
@@ -47,8 +53,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | declare, strict_types                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

@@ -54,6 +54,14 @@ Most of the time, `switch() <https://www.php.net/manual/en/control-structures.sw
 
 See also `UnhandledMatchError <https://www.php.net/manual/en/class.unhandledmatcherror.php>`_.
 
+Connex PHP features
+-------------------
+
+  + `match <https://php-dictionary.readthedocs.io/en/latest/dictionary/match.ini.html>`_
+  + `switch <https://php-dictionary.readthedocs.io/en/latest/dictionary/switch.ini.html>`_
+  + `case <https://php-dictionary.readthedocs.io/en/latest/dictionary/case.ini.html>`_
+  + `default <https://php-dictionary.readthedocs.io/en/latest/dictionary/default.ini.html>`_
+
 
 Suggestions
 ___________
@@ -81,8 +89,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                                                                                         |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                                                                               |
-+--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | match, switch, case, default                                                                                                                                                            |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | ClearPHP     | `no-switch-without-default <https://github.com/dseguy/clearPHP/tree/master/rules/no-switch-without-default.md>`__                                                                       |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

@@ -25,6 +25,11 @@ The `Reflector <https://www.php.net/reflector>`_ interface, which is implemented
 
 See also `Reflection export() methods <https://wiki.php.net/rfc/deprecations_php_7_4#reflection_export_methods>`_ and `Reflection <https://www.php.net/manual/en/book.reflection.php>`_.
 
+Connex PHP features
+-------------------
+
+  + `reflection <https://php-dictionary.readthedocs.io/en/latest/dictionary/reflection.ini.html>`_
+
 
 Suggestions
 ___________
@@ -54,8 +59,6 @@ _____
 | Changed Behavior | PHP 7.4 - `More <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/.html>`__                                                                                              |
 +------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision        | Very high                                                                                                                                                                               |
-+------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features         | reflection                                                                                                                                                                              |
 +------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in     | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Community Edition <https://www.exakat.io/community-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

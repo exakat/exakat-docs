@@ -20,6 +20,13 @@ Cannot Use Append For Reading
    $x[] ??= 4; // yields a fatal error
    
    ?>
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Cannot+use+%5B%5D+for+reading.html>`_
+
+
+
 
 Suggestions
 ___________

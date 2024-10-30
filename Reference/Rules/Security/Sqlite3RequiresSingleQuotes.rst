@@ -24,6 +24,11 @@ Quote from the PHP manual comments : ``The reason this function doesn't escape d
 
 See also `SQLite3::escapeString <https://www.php.net/manual/en/sqlite3.escapestring.php>`_.
 
+Connex PHP features
+-------------------
+
+  + `sqlite3 <https://php-dictionary.readthedocs.io/en/latest/dictionary/sqlite3.ini.html>`_
+
 
 Suggestions
 ___________
@@ -51,8 +56,6 @@ _____
 | Time To Fix  | Slow (1 hour)                                                                                                           |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                    |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | sqlite3                                                                                                                 |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

@@ -35,12 +35,19 @@ This analysis works on all the loops: while, do...while, foreach and for.
    }
    
    ?>
+Connex PHP features
+-------------------
+
+  + `foreach <https://php-dictionary.readthedocs.io/en/latest/dictionary/foreach.ini.html>`_
+  + `for <https://php-dictionary.readthedocs.io/en/latest/dictionary/for.ini.html>`_
+  + `while <https://php-dictionary.readthedocs.io/en/latest/dictionary/while.ini.html>`_
+  + `do-while <https://php-dictionary.readthedocs.io/en/latest/dictionary/do-while.ini.html>`_
+
 
 Suggestions
 ___________
 
-* Avoid using blind variables outside loops.
-* Store blind variables in local variables or properties for later reuse.
+* Store non-blind variables in local variables or properties before the loop.
 
 
 

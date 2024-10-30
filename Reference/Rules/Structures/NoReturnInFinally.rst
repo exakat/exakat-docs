@@ -51,6 +51,12 @@ Note that PHP prevents the usage of goto, `break <https://www.php.net/manual/en/
 
 See also `Return Inside Finally Block <https://www.owasp.org/index.php/Return_Inside_Finally_Block>`_.
 
+Connex PHP features
+-------------------
+
+  + `finally <https://php-dictionary.readthedocs.io/en/latest/dictionary/finally.ini.html>`_
+  + `return <https://php-dictionary.readthedocs.io/en/latest/dictionary/return.ini.html>`_
+
 
 Suggestions
 ___________
@@ -77,8 +83,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | finally, return                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

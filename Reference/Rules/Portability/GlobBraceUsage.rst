@@ -25,6 +25,11 @@ It is possible to check the support for `GLOB_BRACE <https://www.php.net/GLOB_BR
 
 See also `Alpine Linux <https://alpinelinux.org/>`_, `GLOB_BRACE breaks Sulu on Alpine Linux <https://github.com/sulu/sulu/issues/4513>`_ and `[performance] Symfony Kernel::boot() in dev mode on Alpine #35009 <https://github.com/symfony/symfony/issues/35009>`_.
 
+Connex PHP features
+-------------------
+
+  + `glob <https://php-dictionary.readthedocs.io/en/latest/dictionary/glob.ini.html>`_
+
 
 Suggestions
 ___________
@@ -53,8 +58,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | glob                                                                                                                    |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

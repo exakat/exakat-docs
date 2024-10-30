@@ -39,6 +39,11 @@ This is a micro-optimisation. Apply it in case of intensive usage.
 
 See also `Anonymous functions <https://www.php.net/manual/en/functions.anonymous.php>`_, `GeneratedHydrator <https://github.com/Ocramius/GeneratedHydrator/releases/tag/3.0.0>`_ and `Static anonymous functions <https://www.php.net/manual/en/functions.anonymous.php#functions.anonymous-functions.static>`_.
 
+Connex PHP features
+-------------------
+
+  + `class <https://php-dictionary.readthedocs.io/en/latest/dictionary/class.ini.html>`_
+
 
 Suggestions
 ___________
@@ -66,8 +71,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | class                                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Examples     | :ref:`case-piwigo-functions-couldbestaticclosure`                                                                       |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

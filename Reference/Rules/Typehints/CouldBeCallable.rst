@@ -24,6 +24,19 @@ Note that properties cannot be callable. It reports a compilation `error <https:
 
 See also `Callbacks / callables <https://www.php.net/manual/en/language.types.callable.php>`_.
 
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Property+x%3A%3A%24x+cannot+have+type+callable.html>`_
+
+
+
+Connex PHP features
+-------------------
+
+  + `callback <https://php-dictionary.readthedocs.io/en/latest/dictionary/callback.ini.html>`_
+  + `callable <https://php-dictionary.readthedocs.io/en/latest/dictionary/callable.ini.html>`_
+
 
 Suggestions
 ___________
@@ -50,8 +63,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                    |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | callback, callable                                                                                                      |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

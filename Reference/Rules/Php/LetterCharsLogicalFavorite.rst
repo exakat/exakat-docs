@@ -32,6 +32,11 @@ Using and or && are also the target of other analysis.
 
 See also `Logical Operators <https://www.php.net/manual/en/language.operators.logical.php>`_ and `Operators Precedence <https://www.php.net/manual/en/language.operators.precedence.php>`_.
 
+Connex PHP features
+-------------------
+
+  + `logical-operator <https://php-dictionary.readthedocs.io/en/latest/dictionary/logical-operator.ini.html>`_
+
 
 Suggestions
 ___________
@@ -58,8 +63,6 @@ _____
 | Time To Fix  |                                                                                                                                                      |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                                                 |
-+--------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | logical-operator                                                                                                                                     |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_                              |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------+

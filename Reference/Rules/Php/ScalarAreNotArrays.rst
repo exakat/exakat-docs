@@ -21,6 +21,19 @@ Typehinted argument with a scalar are reported by this analysis. Also, nullable 
 
 See also `E_WARNING for invalid container read array-access <https://wiki.php.net/rfc/notice-for-non-valid-array-container>`_.
 
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Trying+to+access+array+offset+on+value+of+type+null.html>`_
+
+
+
+Connex PHP features
+-------------------
+
+  + `array <https://php-dictionary.readthedocs.io/en/latest/dictionary/array.ini.html>`_
+  + `array-object <https://php-dictionary.readthedocs.io/en/latest/dictionary/array-object.ini.html>`_
+
 
 Suggestions
 ___________
@@ -49,8 +62,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                                                                                                                                      |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                                                                                                                                 |
-+--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | array, array-object                                                                                                                                                                                                                  |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Community Edition <https://www.exakat.io/community-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_                                              |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

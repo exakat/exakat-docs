@@ -23,6 +23,19 @@ From the RFC : ``Doing calls like $obj->`__clone( <https://www.php.net/manual/en
 
 See also `Directly calling __clone is allowed <https://wiki.php.net/rfc/abstract_syntax_tree#directly_calling_clone_is_allowed>`_.
 
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Cannot+call+__clone%28%29+method+on+objects+-+use+%27clone+%24obj%27+instead.html>`_
+
+
+
+Connex PHP features
+-------------------
+
+  + `clone <https://php-dictionary.readthedocs.io/en/latest/dictionary/clone.ini.html>`_
+  + `magic-method <https://php-dictionary.readthedocs.io/en/latest/dictionary/magic-method.ini.html>`_
+
 
 Suggestions
 ___________
@@ -49,8 +62,6 @@ _____
 | Time To Fix  | Slow (1 hour)                                                                                                                                                                                                                                            |
 +--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                                                                                                                                                     |
-+--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | clone, magic-method                                                                                                                                                                                                                                      |
 +--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_                                                                                                                                  |
 +--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

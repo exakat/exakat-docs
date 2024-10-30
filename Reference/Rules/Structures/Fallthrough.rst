@@ -33,6 +33,12 @@ This analysis doesn't take into account comments about the fallthrough.
 
 See also `CWE-484: Omitted Break Statement in Switch <https://cwe.mitre.org/data/definitions/484.html>`_ and `Rule: no-switch-case-fall-through <https://palantir.github.io/tslint/rules/no-switch-case-fall-through/>`_.
 
+Connex PHP features
+-------------------
+
+  + `switch <https://php-dictionary.readthedocs.io/en/latest/dictionary/switch.ini.html>`_
+  + `fallthrough <https://php-dictionary.readthedocs.io/en/latest/dictionary/fallthrough.ini.html>`_
+
 
 Suggestions
 ___________
@@ -59,8 +65,6 @@ _____
 | Time To Fix  | Instant (5 mins)                                                                                                                                       |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                                              |
-+--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | switch, fallthrough                                                                                                                                    |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_                                |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+

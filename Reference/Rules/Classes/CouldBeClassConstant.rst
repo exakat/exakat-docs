@@ -34,6 +34,12 @@ By making the property a constant, it makes visible its constant nature, and red
 
 See also Class Constants `<https://www.php.net/manual/en/language.oop5.constants.php>`_.
 
+Connex PHP features
+-------------------
+
+  + `class-constant <https://php-dictionary.readthedocs.io/en/latest/dictionary/class-constant.ini.html>`_
+  + `visibility <https://php-dictionary.readthedocs.io/en/latest/dictionary/visibility.ini.html>`_
+
 
 Suggestions
 ___________
@@ -60,8 +66,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | class-constant, visibility                                                                                              |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Related rule | :ref:`never-called-parameter`                                                                                           |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

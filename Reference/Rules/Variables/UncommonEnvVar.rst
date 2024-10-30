@@ -28,6 +28,11 @@ That way, information is not hardcoded in the application, and may be changed at
 
 See also `$_ENV <https://www.php.net/reserved.variables.environment.php>`_.
 
+Connex PHP features
+-------------------
+
+  + `environment-variable <https://php-dictionary.readthedocs.io/en/latest/dictionary/environment-variable.ini.html>`_
+
 
 Specs
 _____
@@ -46,8 +51,6 @@ _____
 | Time To Fix  |                                                                                                                                                                                         |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Medium                                                                                                                                                                                  |
-+--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | environment-variable                                                                                                                                                                    |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Community Edition <https://www.exakat.io/community-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

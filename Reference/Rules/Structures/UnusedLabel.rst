@@ -30,6 +30,12 @@ There is no analysis for undefined goto call, as PHP checks that goto has a dest
 
 See also `Goto <https://www.php.net/manual/en/control-structures.goto.php>`_.
 
+Connex PHP features
+-------------------
+
+  + `label <https://php-dictionary.readthedocs.io/en/latest/dictionary/label.ini.html>`_
+  + `goto <https://php-dictionary.readthedocs.io/en/latest/dictionary/goto.ini.html>`_
+
 
 Suggestions
 ___________
@@ -59,8 +65,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                    |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | label, goto                                                                                                             |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

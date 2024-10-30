@@ -14,6 +14,13 @@ class_alias() Supports Internal Classes
    class_alias(stdClass::class, 'standardClass');
    
    ?>
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/class_alias%28%29%3A+Argument+%231+%28%24class%29+must+be+a+user-defined+class+name%2C+internal+class+name+given.html>`_
+
+
+
 
 Specs
 _____

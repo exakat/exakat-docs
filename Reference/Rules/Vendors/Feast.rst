@@ -23,6 +23,11 @@ FEAST is a radically different PHP Framework that was built from the ground up t
 
 See also `Feast <https://docs.feast-framework.com/>`_ and `Feast on github<https://github.com/feastframework/framework>`_.
 
+Connex PHP features
+-------------------
+
+  + `framework <https://php-dictionary.readthedocs.io/en/latest/dictionary/framework.ini.html>`_
+
 
 Specs
 _____
@@ -41,8 +46,6 @@ _____
 | Time To Fix  | Slow (1 hour)                                                                                                           |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | framework                                                                                                               |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

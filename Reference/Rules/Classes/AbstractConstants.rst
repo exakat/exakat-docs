@@ -39,6 +39,12 @@ In the illustration below, ``CONSTA`` is defined in all two children, but not in
 
 See also `I often find myself wishing for abstract constants in PHP <https://twitter.com/coderabbi/status/1480193789834760193>`_.
 
+Connex PHP features
+-------------------
+
+  + `class-constant <https://php-dictionary.readthedocs.io/en/latest/dictionary/class-constant.ini.html>`_
+  + `abstract <https://php-dictionary.readthedocs.io/en/latest/dictionary/abstract.ini.html>`_
+
 
 Suggestions
 ___________
@@ -65,8 +71,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                          |
 +--------------+--------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Medium                                                                                                                   |
-+--------------+--------------------------------------------------------------------------------------------------------------------------+
-| Features     | class-constant, abstract                                                                                                 |
 +--------------+--------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_  |
 +--------------+--------------------------------------------------------------------------------------------------------------------------+

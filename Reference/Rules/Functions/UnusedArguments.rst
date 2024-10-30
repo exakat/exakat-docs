@@ -34,6 +34,11 @@ This is a silent error: no `error <https://www.php.net/error>`_ message is emitt
        }
    }
    ?>
+Connex PHP features
+-------------------
+
+  + `parameter <https://php-dictionary.readthedocs.io/en/latest/dictionary/parameter.ini.html>`_
+
 
 Suggestions
 ___________
@@ -61,8 +66,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | parameter                                                                                                               |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Examples     | :ref:`case-thinkphp-functions-unusedarguments`, :ref:`case-phpmyadmin-functions-unusedarguments`                        |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

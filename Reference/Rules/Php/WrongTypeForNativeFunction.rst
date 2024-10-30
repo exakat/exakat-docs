@@ -26,6 +26,13 @@ Wrong Type For Native PHP Function
 
 See also `PHP 7.1 no longer converts string to arrays the first time a value is assigned with square bracket notation <https://www.drupal.org/project/adaptivetheme/issues/2832900>`_.
 
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Argument+%231+must+be+of+type+float%2C+string+given.html>`_
+
+
+
 
 Suggestions
 ___________

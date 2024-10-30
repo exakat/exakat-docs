@@ -37,6 +37,12 @@ It is also a sign that there is no `error <https://www.php.net/error>`_, and the
 
 See also `Exceptions <https://www.php.net/manual/en/language.exceptions.php>`_ and `Best practices for PHP exception handling <https://www.moxio.com/blog/34/best-practices-for-php-exception-handling>`_.
 
+Connex PHP features
+-------------------
+
+  + `exception <https://php-dictionary.readthedocs.io/en/latest/dictionary/exception.ini.html>`_
+  + `catch <https://php-dictionary.readthedocs.io/en/latest/dictionary/catch.ini.html>`_
+
 
 Suggestions
 ___________
@@ -64,8 +70,6 @@ _____
 | Time To Fix  | Slow (1 hour)                                                                                                                                                                           |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                                                                                    |
-+--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | exception, catch                                                                                                                                                                        |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Examples     | :ref:`case-zurmo-exceptions-uselesscatch`, :ref:`case-prestashop-exceptions-uselesscatch`                                                                                               |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

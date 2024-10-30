@@ -5,7 +5,7 @@ Suggestions
 
 This ruleset focuses on possibly better syntax than the one currently used. Those may be code modernization, alternatives, more efficient solutions, or simply left over from older versions. 
 
-Total : 128 analysis
+Total : 130 analysis
 
 * :ref:`while(list()-=-each())`
 * :ref:`function-subscripting,-old-style`
@@ -135,6 +135,8 @@ Total : 128 analysis
 * :ref:`could-use-strcontains()`
 * :ref:`could-drop-variable`
 * :ref:`could-be-readonly-property`
+* :ref:`missing-overriden-method`
+* :ref:`remove-parameter-with-named-parameters`
 
 Specs
 _____

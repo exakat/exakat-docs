@@ -27,6 +27,14 @@ Interestingly, it is possible to use a qualified name within ``, full or partial
    //Undefined constant 'y'
    echo ;
    ?>
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Undefined+constant+%27y%27.html>`_
+  + `1 <https://php-errors.readthedocs.io/en/latest/messages/Use+of+undefined+constant+y+-+assumed+%27y%27+%28this+will+throw+an+Error+in+a+future+version+of+PHP%29.html>`_
+
+
+
 
 Suggestions
 ___________

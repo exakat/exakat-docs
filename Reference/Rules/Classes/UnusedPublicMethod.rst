@@ -25,6 +25,12 @@ Unused public methods are declared as ``public`` in the class, but never called,
    
    
    ?>
+Connex PHP features
+-------------------
+
+  + `public <https://php-dictionary.readthedocs.io/en/latest/dictionary/public.ini.html>`_
+  + `method <https://php-dictionary.readthedocs.io/en/latest/dictionary/method.ini.html>`_
+
 
 Specs
 _____
@@ -43,8 +49,6 @@ _____
 | Time To Fix  | Slow (1 hour)                                                                                                           |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Medium                                                                                                                  |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | public, method                                                                                                          |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Related rule | :ref:`unused-private-methods`, :ref:`unused-protected-methods`, :ref:`unused-methods`                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

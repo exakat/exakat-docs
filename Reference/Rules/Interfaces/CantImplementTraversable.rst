@@ -26,6 +26,19 @@ Can't Implement Traversable
 
 See also `Traversable <https://www.php.net/manual/en/class.traversable.php>`_, `Iterator <https://www.php.net/manual/en/class.iterator.php>`_ and `IteratorAggregate <https://www.php.net/manual/en/class.iteratoraggregate.php>`_.
 
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Class+x+must+implement+interface+Traversable+as+part+of+either+Iterator+or+IteratorAggregate.html>`_
+  + `1 <https://php-errors.readthedocs.io/en/latest/messages/Class+b+cannot+implement+previously+implemented+interface+i.html>`_
+
+
+
+Connex PHP features
+-------------------
+
+  + `interface <https://php-dictionary.readthedocs.io/en/latest/dictionary/interface.ini.html>`_
+
 
 Suggestions
 ___________
@@ -52,8 +65,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                                                                                                                                |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                                                                                                                      |
-+--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | interface                                                                                                                                                                                                                      |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Note         | This issue may lint but will not run                                                                                                                                                                                           |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

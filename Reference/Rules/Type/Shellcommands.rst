@@ -23,6 +23,11 @@ Shell commands are detected with the italic quotes, and using `shell_exec() <htt
 
 See also `Execution operator <https://www.php.net/manual/en/language.operators.execution.php>`_, `shell_exec <https://www.php.net/manual/en/function.shell-exec.php>`_ and `exec <https://www.php.net/manual/en/function.exec.php>`_.
 
+Connex PHP features
+-------------------
+
+  + `system-call <https://php-dictionary.readthedocs.io/en/latest/dictionary/system-call.ini.html>`_
+
 
 Specs
 _____
@@ -41,8 +46,6 @@ _____
 | Time To Fix  |                                                                                                                                                                                         |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                                                                               |
-+--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | system-call                                                                                                                                                                             |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Community Edition <https://www.exakat.io/community-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

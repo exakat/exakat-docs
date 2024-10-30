@@ -38,6 +38,11 @@ Depending on the situation, the functions `dirname() <https://www.php.net/dirnam
 
 See also `list <https://www.php.net/manual/en/function.list.php>`_.
 
+Connex PHP features
+-------------------
+
+  + `path <https://php-dictionary.readthedocs.io/en/latest/dictionary/path.ini.html>`_
+
 
 Suggestions
 ___________
@@ -64,8 +69,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                          |
 +--------------+--------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                |
-+--------------+--------------------------------------------------------------------------------------------------------------------------+
-| Features     | path                                                                                                                     |
 +--------------+--------------------------------------------------------------------------------------------------------------------------+
 | Examples     | :ref:`case-zend-config-php-usepathinfoargs`, :ref:`case-thinkphp-php-usepathinfoargs`                                    |
 +--------------+--------------------------------------------------------------------------------------------------------------------------+

@@ -28,6 +28,13 @@ This `error <https://www.php.net/error>`_ is immediately detected when a literal
 
 See also `When does PHP check for Fatal error <https://www.exakat.io/en/when-does-php-check-for-fatal-error/>`_.
 
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Cannot+assign+string+to+property+A%3A%3A%24g+of+type+int.html>`_
+
+
+
 
 Specs
 _____

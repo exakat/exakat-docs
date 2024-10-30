@@ -35,6 +35,12 @@ There is a gain in performances by using one call to `isset() <https://www.www.p
 
 See also `Isset <http://www.php.net/isset>`_.
 
+Connex PHP features
+-------------------
+
+  + `coalesce <https://php-dictionary.readthedocs.io/en/latest/dictionary/coalesce.ini.html>`_
+  + `isset <https://php-dictionary.readthedocs.io/en/latest/dictionary/isset.ini.html>`_
+
 
 Suggestions
 ___________
@@ -61,8 +67,6 @@ _____
 | Time To Fix  | Instant (5 mins)                                                                                                                                                   |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                                                               |
-+--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | coalesce, isset                                                                                                                                                    |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Examples     | :ref:`case-tine20-performances-issetwholearray`, :ref:`case-expressionengine-performances-issetwholearray`                                                         |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------+

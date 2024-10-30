@@ -23,6 +23,11 @@ The ``X`` modifier : ``X`` is still existing with ``PCRE2``, though it is now th
 
 See also `Pattern Modifiers <https://www.php.net/manual/en/reference.pcre.pattern.modifiers.php>`_ and `PHP RFC: PCRE2 migration <https://wiki.php.net/rfc/pcre2-migration>`_.
 
+Connex PHP features
+-------------------
+
+  + `regex <https://php-dictionary.readthedocs.io/en/latest/dictionary/regex.ini.html>`_
+
 
 Specs
 _____
@@ -41,8 +46,6 @@ _____
 | Time To Fix  | Instant (5 mins)                                                                                                                                                       |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                                                              |
-+--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | regex                                                                                                                                                                  |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_                                                |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

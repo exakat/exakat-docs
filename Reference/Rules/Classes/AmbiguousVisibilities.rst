@@ -30,6 +30,12 @@ It is recommended to handle the same properties in the same way across classes, 
    echo 'Hello, '.$someone->name;
    
    ?>
+Connex PHP features
+-------------------
+
+  + `class <https://php-dictionary.readthedocs.io/en/latest/dictionary/class.ini.html>`_
+  + `visibility <https://php-dictionary.readthedocs.io/en/latest/dictionary/visibility.ini.html>`_
+
 
 Suggestions
 ___________
@@ -57,8 +63,6 @@ _____
 | Time To Fix  | Slow (1 hour)                                                                                                                                        |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                                            |
-+--------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | class, visibility                                                                                                                                    |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Examples     | :ref:`case-typo3-classes-ambiguousvisibilities`                                                                                                      |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------+

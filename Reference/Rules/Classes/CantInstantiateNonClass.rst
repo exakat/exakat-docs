@@ -19,6 +19,15 @@ Cant Instantiate Non Class
    new t;
    
    ?>
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/+Cannot+instantiate+trait+t+.html>`_
+  + `1 <https://php-errors.readthedocs.io/en/latest/messages/+Cannot+instantiate+interface+i+.html>`_
+  + `2 <https://php-errors.readthedocs.io/en/latest/messages/+Cannot+instantiate+enum+e+.html>`_
+
+
+
 
 Specs
 _____

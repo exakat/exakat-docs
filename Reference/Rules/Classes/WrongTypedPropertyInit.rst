@@ -35,6 +35,19 @@ PHP compiles such code, but won't execute it, as it detects the incompatibility 
 
 See also :ref:`Wrong Type Returned <wrong-type-returned>` and :ref:`Mismatch Type And Default <mismatch-type-and-default>`.
 
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Cannot+use+int+as+default+value+for+parameter+%24a+of+type+string.html>`_
+  + `1 <https://php-errors.readthedocs.io/en/latest/messages/Cannot+use+int+as+default+value+for+property+x%3A%3A%24a+of+type+string.html>`_
+
+
+
+Connex PHP features
+-------------------
+
+  + `default-value <https://php-dictionary.readthedocs.io/en/latest/dictionary/default-value.ini.html>`_
+
 
 Suggestions
 ___________
@@ -63,8 +76,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                                                                                                                        |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                                                                                                                   |
-+--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | default-value                                                                                                                                                                                                          |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Note         | This issue may lint but will not run                                                                                                                                                                                   |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

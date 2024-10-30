@@ -31,6 +31,12 @@ Hardcoding passwords is a bad idea. Not only it make the code difficult to chang
 
 See also `10 GitHub Security Best Practices <https://snyk.io/blog/ten-git-hub-security-best-practices/>`_ and `Git How-To: Remove Your Password from a Repository <https://davidverhasselt.com/git-how-to-remove-your-password-from-a-repository/>`_.
 
+Connex PHP features
+-------------------
+
+  + `password <https://php-dictionary.readthedocs.io/en/latest/dictionary/password.ini.html>`_
+  + `hard-coded <https://php-dictionary.readthedocs.io/en/latest/dictionary/hard-coded.ini.html>`_
+
 
 Suggestions
 ___________
@@ -57,8 +63,6 @@ _____
 | Time To Fix  | Slow (1 hour)                                                                                                                                      |
 +--------------+----------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                                          |
-+--------------+----------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | password, hard-coded                                                                                                                               |
 +--------------+----------------------------------------------------------------------------------------------------------------------------------------------------+
 | ClearPHP     | `no-hardcoded-credential <https://github.com/dseguy/clearPHP/tree/master/rules/no-hardcoded-credential.md>`__                                      |
 +--------------+----------------------------------------------------------------------------------------------------------------------------------------------------+

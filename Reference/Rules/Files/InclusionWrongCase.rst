@@ -24,6 +24,18 @@ Inclusion Wrong Case
 
 See also `include_once <https://www.php.net/manual/en/function.include-once.php>`_.
 
+Related PHP errors 
+-------------------
+
+  + `1 <https://php-errors.readthedocs.io/en/latest/messages/include%28a.php%29%3A+failed+to+open+stream%3A+No+such+file+or+directory.html>`_
+
+
+
+Connex PHP features
+-------------------
+
+  + `include <https://php-dictionary.readthedocs.io/en/latest/dictionary/include.ini.html>`_
+
 
 Suggestions
 ___________
@@ -51,8 +63,6 @@ _____
 | Time To Fix  | Slow (1 hour)                                                                                                           |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | include                                                                                                                 |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

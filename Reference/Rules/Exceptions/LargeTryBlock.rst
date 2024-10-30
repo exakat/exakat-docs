@@ -46,6 +46,11 @@ This analysis reports try blocks that are 5 lines or more. This threshold may be
 
 See also `Exceptions <https://www.php.net/manual/en/language.exceptions.php>`_.
 
+Connex PHP features
+-------------------
+
+  + `try-catch <https://php-dictionary.readthedocs.io/en/latest/dictionary/try-catch.ini.html>`_
+
 
 Suggestions
 ___________
@@ -72,8 +77,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | try-catch                                                                                                               |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

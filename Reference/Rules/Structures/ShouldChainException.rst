@@ -25,6 +25,11 @@ Note : Chaining requires PHP > 5.3.0.
 
 See also `Exception::__construct <https://www.php.net/manual/en/exception.construct.php>`_ and `What are the best practices for catching and re-throwing exceptions? <https://stackoverflow.com/questions/5551668/what-are-the-best-practices-for-catching-and-re-throwing-exceptions/5551828>`_.
 
+Connex PHP features
+-------------------
+
+  + `exception-chain <https://php-dictionary.readthedocs.io/en/latest/dictionary/exception-chain.ini.html>`_
+
 
 Suggestions
 ___________
@@ -51,8 +56,6 @@ _____
 | Time To Fix  | Instant (5 mins)                                                                                                                                                                        |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                                                                               |
-+--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | exception-chain                                                                                                                                                                         |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Examples     | :ref:`case-magento-structures-shouldchainexception`, :ref:`case-tine20-structures-shouldchainexception`                                                                                 |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

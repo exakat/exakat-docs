@@ -38,6 +38,11 @@ Deprecated methods which are not called are not reported.
 
 See also `@deprecated <https://docs.phpdoc.org/latest/references/phpdoc/tags/deprecated.html>`_.
 
+Connex PHP features
+-------------------
+
+  + `deprecated <https://php-dictionary.readthedocs.io/en/latest/dictionary/deprecated.ini.html>`_
+
 
 Suggestions
 ___________
@@ -66,8 +71,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | deprecated                                                                                                              |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

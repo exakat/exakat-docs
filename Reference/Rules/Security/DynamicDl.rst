@@ -26,6 +26,11 @@ In case of injection in the variable, the dynamic loading of a library gives a l
 
 See also `dl <http://www.php.net/dl>`_.
 
+Connex PHP features
+-------------------
+
+  + `library-loading <https://php-dictionary.readthedocs.io/en/latest/dictionary/library-loading.ini.html>`_
+
 
 Suggestions
 ___________
@@ -53,8 +58,6 @@ _____
 | Time To Fix  | Slow (1 hour)                                                                                                           |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | library-loading                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

@@ -28,6 +28,25 @@ Illegal keys, such as another array, will also generate a `NULL <https://www.php
 
 See also `Null and True <https://twitter.com/Chemaclass/status/1144588647464951808>`_.
 
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Trying+to+access+array+offset+on+value+of+type+null.html>`_
+  + `1 <https://php-errors.readthedocs.io/en/latest/messages/Trying+to+access+array+offset+on+value+of+type+boolean.html>`_
+  + `2 <https://php-errors.readthedocs.io/en/latest/messages/Trying+to+access+array+offset+on+value+of+type+float.html>`_
+  + `3 <https://php-errors.readthedocs.io/en/latest/messages/Trying+to+access+array+offset+on+value+of+type+int.html>`_
+
+
+
+Connex PHP features
+-------------------
+
+  + `null <https://php-dictionary.readthedocs.io/en/latest/dictionary/null.ini.html>`_
+  + `boolean <https://php-dictionary.readthedocs.io/en/latest/dictionary/boolean.ini.html>`_
+  + `float <https://php-dictionary.readthedocs.io/en/latest/dictionary/float.ini.html>`_
+  + `int <https://php-dictionary.readthedocs.io/en/latest/dictionary/int.ini.html>`_
+  + `array <https://php-dictionary.readthedocs.io/en/latest/dictionary/array.ini.html>`_
+
 
 Suggestions
 ___________
@@ -55,8 +74,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | null, boolean, float, int, array                                                                                        |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

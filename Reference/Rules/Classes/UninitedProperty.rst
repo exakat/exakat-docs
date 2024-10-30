@@ -28,6 +28,12 @@ PHP 8.1 introduced the possibility to instantiate objects as default value, as l
    }
    
    ?>
+Connex PHP features
+-------------------
+
+  + `property <https://php-dictionary.readthedocs.io/en/latest/dictionary/property.ini.html>`_
+  + `default-value <https://php-dictionary.readthedocs.io/en/latest/dictionary/default-value.ini.html>`_
+
 
 Suggestions
 ___________
@@ -56,8 +62,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                          |
 +--------------+--------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Medium                                                                                                                   |
-+--------------+--------------------------------------------------------------------------------------------------------------------------+
-| Features     | property, default-value                                                                                                  |
 +--------------+--------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_  |
 +--------------+--------------------------------------------------------------------------------------------------------------------------+

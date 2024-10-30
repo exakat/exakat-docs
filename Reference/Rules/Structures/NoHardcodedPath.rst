@@ -31,6 +31,12 @@ Relative paths are relative to the current execution `directory <https://www.php
        glob('/foo/bar/');
        
    ?>
+Connex PHP features
+-------------------
+
+  + `path <https://php-dictionary.readthedocs.io/en/latest/dictionary/path.ini.html>`_
+  + `hardcoded <https://php-dictionary.readthedocs.io/en/latest/dictionary/hardcoded.ini.html>`_
+
 
 Suggestions
 ___________
@@ -60,8 +66,6 @@ _____
 | Time To Fix  | Slow (1 hour)                                                                                                           |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | path, hardcoded                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | ClearPHP     | `no-hardcoded-path <https://github.com/dseguy/clearPHP/tree/master/rules/no-hardcoded-path.md>`__                       |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

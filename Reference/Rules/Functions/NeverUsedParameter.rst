@@ -35,6 +35,11 @@ This analysis checks for actual usage of the parameter, from the outside of the 
 
 See also :ref:`Unused Parameter <unused-parameter>`, :ref:`Cancelled Parameter <cancelled-parameter>` and :ref:`Parameter Hiding <parameter-hiding>`.
 
+Connex PHP features
+-------------------
+
+  + `silent <https://php-dictionary.readthedocs.io/en/latest/dictionary/silent.ini.html>`_
+
 
 Suggestions
 ___________
@@ -63,8 +68,6 @@ _____
 | Time To Fix  | Slow (1 hour)                                                                                                                        |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                                 |
-+--------------+--------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | silent                                                                                                                               |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------+
 | Examples     | :ref:`case-piwigo-functions-neverusedparameter`                                                                                      |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------+

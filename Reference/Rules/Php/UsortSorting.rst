@@ -49,6 +49,11 @@ in PHP 7, the `result <https://www.php.net/result>`_ is :::
 
 See also `Sort order of equal elements <https://www.php.net/manual/en/migration70.incompatible.php#migration70.incompatible.other.sort-order>`_.
 
+Connex PHP features
+-------------------
+
+  + `sort <https://php-dictionary.readthedocs.io/en/latest/dictionary/sort.ini.html>`_
+
 
 Suggestions
 ___________
@@ -79,8 +84,6 @@ _____
 | Changed Behavior | PHP 7.0 - `More <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/.html>`__                                           |
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------+
 | Precision        | Medium                                                                                                                               |
-+------------------+--------------------------------------------------------------------------------------------------------------------------------------+
-| Features         | sort                                                                                                                                 |
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------+
 | Available in     | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_              |
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------+

@@ -29,6 +29,11 @@ When the local variable is not listed as argument, it is then imported in the ar
 
 See also `Arrow functions <https://www.php.net/manual/en/functions.arrow.php>`_.
 
+Connex PHP features
+-------------------
+
+  + `arrow-function <https://php-dictionary.readthedocs.io/en/latest/dictionary/arrow-function.ini.html>`_
+
 
 Suggestions
 ___________
@@ -56,8 +61,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                                                      |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                                                 |
-+--------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | arrow-function                                                                                                                                       |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_                              |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------+

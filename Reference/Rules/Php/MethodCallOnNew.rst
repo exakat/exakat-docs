@@ -26,6 +26,12 @@ This syntax is interesting when the object is not reused, and may be discarded
    }
    
    ?>
+Connex PHP features
+-------------------
+
+  + `new <https://php-dictionary.readthedocs.io/en/latest/dictionary/new.ini.html>`_
+  + `methodcall <https://php-dictionary.readthedocs.io/en/latest/dictionary/methodcall.ini.html>`_
+
 
 Specs
 _____
@@ -46,8 +52,6 @@ _____
 | Changed Behavior | PHP 5.4 - `More <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/.html>`__                                           |
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------+
 | Precision        | Very high                                                                                                                            |
-+------------------+--------------------------------------------------------------------------------------------------------------------------------------+
-| Features         | new, methodcall                                                                                                                      |
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------+
 | Available in     | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_              |
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------+

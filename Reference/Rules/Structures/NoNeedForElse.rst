@@ -47,6 +47,11 @@ No Need For Else
 
 See also `Object Calisthenics, rule # 2 <http://williamdurand.fr/2013/06/03/object-calisthenics/>`_.
 
+Connex PHP features
+-------------------
+
+  + `if-then <https://php-dictionary.readthedocs.io/en/latest/dictionary/if-then.ini.html>`_
+
 
 Suggestions
 ___________
@@ -73,8 +78,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | if-then                                                                                                                 |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Examples     | :ref:`case-thelia-structures-noneedforelse`, :ref:`case-thinkphp-structures-noneedforelse`                              |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

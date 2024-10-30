@@ -25,6 +25,12 @@ There are still several interpolation ways : variables, array elements (one inde
 
 See also https://wiki.php.net/rfc/deprecate_dollar_brace_string_interpolation.
 
+Connex PHP features
+-------------------
+
+  + `string <https://php-dictionary.readthedocs.io/en/latest/dictionary/string.ini.html>`_
+  + `string-interpolation <https://php-dictionary.readthedocs.io/en/latest/dictionary/string-interpolation.ini.html>`_
+
 
 Suggestions
 ___________
@@ -54,8 +60,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                                      |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                            |
-+--------------+--------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | string, string-interpolation                                                                                                         |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_              |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------+

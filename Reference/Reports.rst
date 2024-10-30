@@ -26,6 +26,7 @@ Summary
   * :ref:`CompatibilityPHP81 <report-compatibilityphp81>`
   * :ref:`CompatibilityPHP82 <report-compatibilityphp82>`
   * :ref:`CompatibilityPHP83 <report-compatibilityphp83>`
+  * :ref:`CompatibilityPHP84 <report-compatibilityphp84>`
   * :ref:`Composer <report-composer>`
   * :ref:`Dependency Wheel <report-dependency-wheel>`
   * :ref:`Diplomat <report-diplomat>`
@@ -97,6 +98,7 @@ List of Reports
    Reports/compatibilityphp81.rst
    Reports/compatibilityphp82.rst
    Reports/compatibilityphp83.rst
+   Reports/compatibilityphp84.rst
    Reports/composer.rst
    Reports/dependency_wheel.rst
    Reports/diplomat.rst

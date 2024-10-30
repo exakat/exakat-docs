@@ -27,6 +27,19 @@ To prepare code, avoid using is_real() and the ``(real)`` typecast.
 
 See also `PHP RFC: Deprecations for PHP 7.4 <https://wiki.php.net/rfc/deprecations_php_7_4>`_.
 
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/The+%28real%29+cast+is+deprecated%2C+use+%28float%29+instead.html>`_
+  + `1 <https://php-errors.readthedocs.io/en/latest/messages/The+%28real%29+cast+has+been+removed%2C+use+%28float%29+instead.html>`_
+
+
+
+Connex PHP features
+-------------------
+
+  + `real <https://php-dictionary.readthedocs.io/en/latest/dictionary/real.ini.html>`_
+
 
 Suggestions
 ___________
@@ -54,8 +67,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                                                      |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                                                 |
-+--------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | real                                                                                                                                                 |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_                              |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------+

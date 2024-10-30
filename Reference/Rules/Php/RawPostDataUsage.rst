@@ -25,6 +25,11 @@ It is possible to prepare code to this lack of feature by setting ``always_popul
 
 See also `$HTTP_RAW_POST_DATA variable <https://www.php.net/manual/en/reserved.variables.httprawpostdata.php>`_.
 
+Connex PHP features
+-------------------
+
+  + `$HTTP_RAW_POST_DATA <https://php-dictionary.readthedocs.io/en/latest/dictionary/%24HTTP_RAW_POST_DATA.ini.html>`_
+
 
 Suggestions
 ___________
@@ -51,8 +56,6 @@ _____
 | Time To Fix  | Slow (1 hour)                                                                                                                                                                           |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                                                                               |
-+--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | $HTTP_RAW_POST_DATA                                                                                                                                                                     |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Community Edition <https://www.exakat.io/community-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

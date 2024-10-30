@@ -30,6 +30,11 @@ Note that this is a micro-optimisation : since PHP keeps track of the number of 
 
 See also `count <https://www.php.net/count>`_, `strlen <https://www.php.net/strlen>`_ and `mb_strlen <https://www.php.net/mb_strlen>`_.
 
+Connex PHP features
+-------------------
+
+  + `count <https://php-dictionary.readthedocs.io/en/latest/dictionary/count.ini.html>`_
+
 
 Suggestions
 ___________
@@ -57,8 +62,6 @@ _____
 | Time To Fix  | Instant (5 mins)                                                                                                         |
 +--------------+--------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                |
-+--------------+--------------------------------------------------------------------------------------------------------------------------+
-| Features     | count                                                                                                                    |
 +--------------+--------------------------------------------------------------------------------------------------------------------------+
 | Examples     | :ref:`case-contao-performances-notcountnull`, :ref:`case-wordpress-performances-notcountnull`                            |
 +--------------+--------------------------------------------------------------------------------------------------------------------------+

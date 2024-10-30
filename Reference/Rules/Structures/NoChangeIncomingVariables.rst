@@ -19,6 +19,19 @@ It is recommended to put the modified values in another variable, and keep the o
    $_GET['id'] = strtolower($_GET['id']);
    
    ?>
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Cannot+re-assign+auto-global+variable.html>`_
+
+
+
+Connex PHP features
+-------------------
+
+  + `incoming-data <https://php-dictionary.readthedocs.io/en/latest/dictionary/incoming-data.ini.html>`_
+  + `outgoing-data <https://php-dictionary.readthedocs.io/en/latest/dictionary/outgoing-data.ini.html>`_
+
 
 Suggestions
 ___________
@@ -45,8 +58,6 @@ _____
 | Time To Fix  | Slow (1 hour)                                                                                                           |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                    |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | incoming-data, outgoing-data                                                                                            |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

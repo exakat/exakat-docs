@@ -25,6 +25,15 @@ This is a starting point for reviewing large blocks of code and extract methods.
    }
    
    ?>
+Connex PHP features
+-------------------
+
+  + `inclusion <https://php-dictionary.readthedocs.io/en/latest/dictionary/inclusion.ini.html>`_
+  + `ifthen <https://php-dictionary.readthedocs.io/en/latest/dictionary/ifthen.ini.html>`_
+  + `foreach <https://php-dictionary.readthedocs.io/en/latest/dictionary/foreach.ini.html>`_
+  + `while <https://php-dictionary.readthedocs.io/en/latest/dictionary/while.ini.html>`_
+  + `dowhile <https://php-dictionary.readthedocs.io/en/latest/dictionary/dowhile.ini.html>`_
+
 
 Specs
 _____
@@ -43,8 +52,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | inclusion, ifthen, foreach, while, dowhile                                                                              |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

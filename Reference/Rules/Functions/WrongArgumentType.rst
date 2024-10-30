@@ -21,6 +21,13 @@ This analysis is valid with PHP 8.0.
    foo('asd');
    
    ?>
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Argument+%231+%28%24s%29+must+be+of+type+array%2C+int+given.html>`_
+
+
+
 
 Suggestions
 ___________

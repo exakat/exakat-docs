@@ -16,7 +16,32 @@ Here is the release note of exakat.
     + 
 
 + Report
-    + 
+    + Emissary : added properties attribute in inventory
+
++ Analysis
+    + Fixed bug in 'inherited properties must match' with virtual properties
+    + Fixed bug that took into account IMPLEMENTS/USE cached link
+    + Fixed edge case 
+    + Fixed bug in Insufficient Typehint, where 'value' is always available for enum
+    + Refactored Dump/CollectStructures
+    + Extended analysis to stubs in Unknown ::class string
+    + Omitted promoted properties in empty functions
+	+ New analysis : suggest merging ternaries into one if
+	+ New analysis : report usage of Anonymous Catch
+	+ New analysis : report usage of Property Hooks
+	+ New analysis : report usage of virtual properties
+	+ New analysis : report duplicate values in a backed enum
+	+ New analysis : signal new PHP native functions in PHP 8.4
+
++ Tokenizer
+    + Fixed bug with void getting an extra ellipsis mark
+    + Fixed bug where containers are not marked as read in match() structures
+
+**Version 2.6.8 (Fang Xuanling, 2024-05-02)**
+
+
++ Report
+    + Ambassador : upgraded manual rendering
 
 + Analysis
 	+ New analysis : new rule for Deprecated attribute (analysis)
@@ -26,17 +51,6 @@ Here is the release note of exakat.
 	+ New analysis : Added Neos CMS as vendor
 	+ New analysis : Added Cakephp in vendor list
 	+ Removed analysis : Removed Ez from vendor list
-
-+ Tokenizer
-    + Fixed precedence for %, * and /
-
-**Version 2.6.8 (Fang Xuanling, 2024-05-02)**
-
-
-+ Report
-    + Ambassador : upgraded manual rendering
-
-+ Analysis
 	+ New analysis : new rule for Deprecated attribute (analysis)
 	+ Updated analysis : modernized Pss Without CITE
 	+ Updated analysis : modernized Pss Without CITE
@@ -50,6 +64,7 @@ Here is the release note of exakat.
 	+ Updated analysis : Hidden Nullable 
 	+ Updated analysis : Useless constructor takes into account promoted properties
 	+ Updated analysis : Undefined Enum Case now handles class constant relays
+    + Fixed precedence for %, * and /
 
 **Version 2.6.7 (Zhang Gongjin, 2024-03-21)**
 

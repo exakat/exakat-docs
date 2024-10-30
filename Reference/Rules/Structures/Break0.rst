@@ -22,6 +22,13 @@ Break With 0
        }
    
    ?>
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/%27break%27+operator+accepts+only+positive+integers.html>`_
+
+
+
 
 Suggestions
 ___________

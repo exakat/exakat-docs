@@ -21,6 +21,12 @@ Should Use Existing Constants
 
 See also `Bitmask Constant Arguments in PHP <https://medium.com/@liamhammett/bitmask-constant-arguments-in-php-cf32bf35c73>`_.
 
+Connex PHP features
+-------------------
+
+  + `predefined-constant <https://php-dictionary.readthedocs.io/en/latest/dictionary/predefined-constant.ini.html>`_
+  + `constant <https://php-dictionary.readthedocs.io/en/latest/dictionary/constant.ini.html>`_
+
 
 Suggestions
 ___________
@@ -47,8 +53,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | predefined-constant, constant                                                                                           |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Examples     | :ref:`case-tine20-functions-shoulduseconstants`                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

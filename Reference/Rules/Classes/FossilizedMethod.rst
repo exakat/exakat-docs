@@ -41,6 +41,11 @@ This analysis counts the number of times a method is overwritten, and report any
 
 See also `Method fossilization <https://www.exakat.io/en/method-fossilisation/>_`.
 
+Connex PHP features
+-------------------
+
+  + `fossilized-method <https://php-dictionary.readthedocs.io/en/latest/dictionary/fossilized-method.ini.html>`_
+
 
 Specs
 _____
@@ -59,8 +64,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                                                                  |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                                                        |
-+--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | fossilized-method                                                                                                                                                |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_                                          |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+

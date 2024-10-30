@@ -30,6 +30,11 @@ When two if/then structures follow each other, using a condition and its opposit
    }
    
    ?>
+Connex PHP features
+-------------------
+
+  + `if-then <https://php-dictionary.readthedocs.io/en/latest/dictionary/if-then.ini.html>`_
+
 
 Suggestions
 ___________
@@ -57,8 +62,6 @@ _____
 | Time To Fix  | Instant (5 mins)                                                                                                        |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | if-then                                                                                                                 |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Examples     | :ref:`case-sugarcrm-structures-couldbeelse`, :ref:`case-openemr-structures-couldbeelse`                                 |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

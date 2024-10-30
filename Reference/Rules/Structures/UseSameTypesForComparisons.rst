@@ -38,6 +38,13 @@ Thanks to `Jordi Boggiano <https://twitter.com/seldaek>`_ and `Filippo Tessarott
    var_dump(x::A->value > x::b->value);
    
    ?>
+Connex PHP features
+-------------------
+
+  + `inequality <https://php-dictionary.readthedocs.io/en/latest/dictionary/inequality.ini.html>`_
+  + `enum-case <https://php-dictionary.readthedocs.io/en/latest/dictionary/enum-case.ini.html>`_
+  + `type-juggling <https://php-dictionary.readthedocs.io/en/latest/dictionary/type-juggling.ini.html>`_
+
 
 Suggestions
 ___________
@@ -64,8 +71,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | inequality, enum-case, type-juggling                                                                                    |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

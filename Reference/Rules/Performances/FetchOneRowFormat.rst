@@ -26,6 +26,11 @@ This is a micro-optimisation. The difference may be visible with 200k rows fetch
    $row = $res->fetchArray(\SQLITE3_BOTH);
    
    ?>
+Connex PHP features
+-------------------
+
+  + `csv <https://php-dictionary.readthedocs.io/en/latest/dictionary/csv.ini.html>`_
+
 
 Suggestions
 ___________
@@ -52,8 +57,6 @@ _____
 | Time To Fix  | Instant (5 mins)                                                                                                         |
 +--------------+--------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                     |
-+--------------+--------------------------------------------------------------------------------------------------------------------------+
-| Features     | csv                                                                                                                      |
 +--------------+--------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_  |
 +--------------+--------------------------------------------------------------------------------------------------------------------------+

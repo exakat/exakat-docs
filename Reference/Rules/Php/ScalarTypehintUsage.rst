@@ -23,6 +23,12 @@ Scalar typehint were not supported in PHP 5 and older. Then, the typehint is tre
 
 See also `PHP RFC: Scalar Type Hints <https://wiki.php.net/rfc/scalar_type_hints>`_ and `Type declarations <https://www.php.net/manual/en/functions.arguments.php#functions.arguments.type-declaration>`_.
 
+Connex PHP features
+-------------------
+
+  + `scalar-typehint <https://php-dictionary.readthedocs.io/en/latest/dictionary/scalar-typehint.ini.html>`_
+  + `typehint <https://php-dictionary.readthedocs.io/en/latest/dictionary/typehint.ini.html>`_
+
 
 Specs
 _____
@@ -43,8 +49,6 @@ _____
 | Changed Behavior | PHP 7.0 - `More <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/.html>`__                                                                                              |
 +------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision        | Very high                                                                                                                                                                               |
-+------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features         | scalar-typehint, typehint                                                                                                                                                               |
 +------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in     | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Community Edition <https://www.exakat.io/community-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

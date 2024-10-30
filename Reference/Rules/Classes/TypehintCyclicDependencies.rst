@@ -33,6 +33,11 @@ Dependency injection should be organized as an acyclic tree-like structure
 
 See also `Dependency Injection Smells <http://seregazhuk.github.io/2017/05/04/di-smells/>`_.
 
+Connex PHP features
+-------------------
+
+  + `injection <https://php-dictionary.readthedocs.io/en/latest/dictionary/injection.ini.html>`_
+
 
 Specs
 _____
@@ -51,8 +56,6 @@ _____
 | Time To Fix  |                                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | injection                                                                                                               |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

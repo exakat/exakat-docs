@@ -26,6 +26,21 @@ Note that PHP may detect this `error <https://www.php.net/error>`_ at linting ti
 
 See also `Passing arguments by reference <https://www.php.net/manual/en/functions.arguments.php#functions.arguments.by-reference>`_.
 
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Only+variables+can+be+passed+by+reference.html>`_
+  + `1 <https://php-errors.readthedocs.io/en/latest/messages/Cannot+pass+parameter+1+by+reference.html>`_
+  + `2 <https://php-errors.readthedocs.io/en/latest/messages/Argument+cannot+be+passed+by+reference.html>`_
+
+
+
+Connex PHP features
+-------------------
+
+  + `variable <https://php-dictionary.readthedocs.io/en/latest/dictionary/variable.ini.html>`_
+  + `reference <https://php-dictionary.readthedocs.io/en/latest/dictionary/reference.ini.html>`_
+
 
 Suggestions
 ___________
@@ -53,8 +68,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                                                                  |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Medium                                                                                                                                                           |
-+--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | variable, reference                                                                                                                                              |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Note         | This issue may lint but will not run                                                                                                                             |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+

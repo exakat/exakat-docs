@@ -28,6 +28,12 @@ This analysis omits reporting argument when one of them does not have a default 
    }
    
    ?>
+Connex PHP features
+-------------------
+
+  + `typehint <https://php-dictionary.readthedocs.io/en/latest/dictionary/typehint.ini.html>`_
+  + `parameter <https://php-dictionary.readthedocs.io/en/latest/dictionary/parameter.ini.html>`_
+
 
 Suggestions
 ___________
@@ -55,8 +61,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                                                        |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                                              |
-+--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | typehint, parameter                                                                                                                                    |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Examples     | :ref:`case-spip-functions-mismatcheddefaultarguments`                                                                                                  |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+

@@ -23,6 +23,18 @@ In a separate file :
 
 See also `Final Keyword <https://www.php.net/manual/en/language.oop5.final.php>`_.
 
+Related PHP errors 
+-------------------
+
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Class+y+cannot+extend+final+class+x.html>`_
+
+
+
+Connex PHP features
+-------------------
+
+  + `final <https://php-dictionary.readthedocs.io/en/latest/dictionary/final.ini.html>`_
+
 
 Suggestions
 ___________
@@ -50,8 +62,6 @@ _____
 | Time To Fix  | Instant (5 mins)                                                                                                                                     |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Medium                                                                                                                                               |
-+--------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Features     | final                                                                                                                                                |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_                              |
 +--------------+------------------------------------------------------------------------------------------------------------------------------------------------------+

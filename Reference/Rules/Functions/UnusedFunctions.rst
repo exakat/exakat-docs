@@ -21,6 +21,12 @@ Recursive functions, level 1, are detected : they are only reported when a call 
    used();
    
    ?>
+Connex PHP features
+-------------------
+
+  + `function <https://php-dictionary.readthedocs.io/en/latest/dictionary/function.ini.html>`_
+  + `unused <https://php-dictionary.readthedocs.io/en/latest/dictionary/unused.ini.html>`_
+
 
 Suggestions
 ___________
@@ -48,8 +54,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | function, unused                                                                                                        |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Examples     | :ref:`case-woocommerce-functions-unusedfunctions`, :ref:`case-piwigo-functions-unusedfunctions`                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

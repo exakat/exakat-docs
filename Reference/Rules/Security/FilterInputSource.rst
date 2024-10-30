@@ -29,6 +29,11 @@ Thanks to `Frederic Bouchery <https://twitter.com/FredBouchery/>`_ for reporting
 
 See also `Data filtering <https://www.php.net/manual/en/book.filter.php>`_.
 
+Connex PHP features
+-------------------
+
+  + `validation <https://php-dictionary.readthedocs.io/en/latest/dictionary/validation.ini.html>`_
+
 
 Suggestions
 ___________
@@ -56,8 +61,6 @@ _____
 | Time To Fix  | Slow (1 hour)                                                                                                           |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                    |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | validation                                                                                                              |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

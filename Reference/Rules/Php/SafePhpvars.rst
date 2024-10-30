@@ -30,6 +30,12 @@ PHP superglobals are usually filled with external data that should be filtered. 
 
 See also `Predefined Variables <https://www.php.net/manual/en/reserved.variables.php>`_.
 
+Connex PHP features
+-------------------
+
+  + `superglobal <https://php-dictionary.readthedocs.io/en/latest/dictionary/superglobal.ini.html>`_
+  + `php-variable <https://php-dictionary.readthedocs.io/en/latest/dictionary/php-variable.ini.html>`_
+
 
 Specs
 _____
@@ -48,8 +54,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                    |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | superglobal, php-variable                                                                                               |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

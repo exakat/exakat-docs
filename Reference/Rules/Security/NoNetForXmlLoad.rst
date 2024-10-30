@@ -47,6 +47,11 @@ With the above example, the XML code is `static <https://www.php.net/manual/en/l
 
 See also `XML External Entity <https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/XXE%20injection>`_,, `XML External Entity (XXE) Processing <https://www.owasp.org/index.php/XML_External_Entity_(XXE)_Processing>`_ and `Detecting and exploiting XXE in SAML Interfaces <https://web-in-security.blogspot.nl/2014/11/detecting-and-exploiting-xxe-in-saml.html>`_.
 
+Connex PHP features
+-------------------
+
+  + `xml <https://php-dictionary.readthedocs.io/en/latest/dictionary/xml.ini.html>`_
+
 
 Suggestions
 ___________
@@ -74,8 +79,6 @@ _____
 | Time To Fix  | Slow (1 hour)                                                                                                           |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | High                                                                                                                    |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | xml                                                                                                                     |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

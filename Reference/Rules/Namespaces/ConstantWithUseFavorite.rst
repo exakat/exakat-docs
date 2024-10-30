@@ -22,6 +22,13 @@ The analyzed code has less than 10% of one of them : for consistency reasons, it
    echo BB;
    
    ?>
+Connex PHP features
+-------------------
+
+  + `fully-qualified-name <https://php-dictionary.readthedocs.io/en/latest/dictionary/fully-qualified-name.ini.html>`_
+  + `constant <https://php-dictionary.readthedocs.io/en/latest/dictionary/constant.ini.html>`_
+  + `use <https://php-dictionary.readthedocs.io/en/latest/dictionary/use.ini.html>`_
+
 
 Specs
 _____
@@ -40,8 +47,6 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
-+--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Features     | fully-qualified-name, constant, use                                                                                     |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
