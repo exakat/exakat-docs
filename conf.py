@@ -298,3 +298,7 @@ html_extra_path = ["googlee919cb0917e4fefc.html",
 					"sitemap-rulesets.xml",
 					"sitemap-reports.xml"
 					]
+html_theme_options = {
+    'analytics_id': 'G-29LCZ34CDW',
+    'description': 'Exakat documentation.',
+}
