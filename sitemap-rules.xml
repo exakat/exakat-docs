@@ -3523,9 +3523,6 @@
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Php/StrtrArguments.html</loc>
  </url>
  <url>
-  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/ForeachOnObject.html</loc>
- </url>
- <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/SubstrToTrim.html</loc>
  </url>
  <url>
@@ -4907,6 +4904,9 @@
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Security/FilterInputSource.html</loc>
+ </url>
+ <url>
+  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/ForeachOnObject.html</loc>
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Performances/CsvInLoops.html</loc>

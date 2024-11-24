@@ -1664,7 +1664,7 @@ Total : 1658 analysis
 * :ref:`duplicate-enum-case-value`
 * :ref:`new-functions-in-php-8.4`
 * :ref:`has-virtual-property`
-* :ref:`structures-foreachonobject`
+* :ref:`foreach()-on-object`
 
 Specs
 _____

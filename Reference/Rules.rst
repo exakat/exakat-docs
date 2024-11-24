@@ -1191,7 +1191,6 @@ List of Rules
    Rules/Structures/StrposLessThanOne.rst
    Rules/Structures/StrposCompare.rst
    Rules/Php/StrtrArguments.rst
-   Rules/Structures/ForeachOnObject.rst
    Rules/Structures/SubstrToTrim.rst
    Rules/Performances/SubstrInLoops.rst
    Rules/Performances/SubstrFirst.rst
@@ -1653,6 +1652,7 @@ List of Rules
    Rules/Extensions/Extzlib.rst
    Rules/Extensions/Extzookeeper.rst
    Rules/Security/FilterInputSource.rst
+   Rules/Structures/ForeachOnObject.rst
    Rules/Performances/CsvInLoops.rst
    Rules/Functions/funcGetArgModified.rst
    Rules/Structures/GetClassWithoutArg.rst
@@ -1698,8 +1698,8 @@ List of analyzers, by version of introduction, newest to oldest. In parenthesis,
   * :ref:`Neos <neos>`
   * :ref:`New Functions In PHP 8.4 <new-functions-in-php-8.4>`
   * :ref:`Remove Parameter With Named Parameters <remove-parameter-with-named-parameters>`
-  * :ref:`Structures/ForeachOnObject <structures-foreachonobject>`
   * :ref:`Useless Override Attribute <useless-override-attribute>`
+  * :ref:`foreach() On Object <foreach()-on-object>`
 
 * 2.6.7
 
@@ -6100,6 +6100,7 @@ Directory by PHP Function
       + :ref:`Substr() In Loops <substr()-in-loops>`
       + :ref:`Used Once Variables (In Scope) <used-once-variables-(in-scope)>`
       + :ref:`Useless Referenced Argument <useless-referenced-argument>`
+      + :ref:`foreach() On Object <foreach()-on-object>`
       + :ref:`preg_match_all() Flag <preg\_match\_all()-flag>`
       + :ref:`Add Brackets To Single Instructions <add-brackets-to-single-instructions>`
       + :ref:`Remove Brackets Around Single Instruction <remove-brackets-around-single-instruction>`
@@ -7984,6 +7985,7 @@ Directory by PHP Function
       + :ref:`ext/xdiff <ext-xdiff>`
       + :ref:`ext/xhprof <ext-xhprof>`
       + :ref:`ext/zip <ext-zip>`
+      + :ref:`foreach() On Object <foreach()-on-object>`
 
     + `PHP_INT_MAX`
 
@@ -8800,6 +8802,7 @@ Directory by PHP Function
       + :ref:`Should Deep Clone <should-deep-clone>`
       + :ref:`Unresolved Catch <unresolved-catch>`
       + :ref:`array_key_exists() Works On Arrays <array\_key\_exists()-works-on-arrays>`
+      + :ref:`foreach() On Object <foreach()-on-object>`
 
     + `Stringable`
 

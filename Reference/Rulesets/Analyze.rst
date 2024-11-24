@@ -511,7 +511,7 @@ Total : 505 analysis
 * :ref:`could-merge-ternary-into-ifthen`
 * :ref:`has-property-hook`
 * :ref:`duplicate-enum-case-value`
-* :ref:`structures-foreachonobject`
+* :ref:`foreach()-on-object`
 
 Specs
 _____
