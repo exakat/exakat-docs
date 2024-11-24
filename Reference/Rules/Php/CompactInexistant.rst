@@ -26,7 +26,7 @@ See also `compact <http://www.php.net/compact>`_ and `PHP RFC: Make compact func
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/compact%28%29%3A+Undefined+variable+%24a.html>`_
+  + `Undefined variable $a <https://php-errors.readthedocs.io/en/latest/messages/undefined-variable.html>`_
 
 
 

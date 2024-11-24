@@ -5,7 +5,7 @@ Changed Behavior
 
 Ruleset with all rules that identify changed behavior across PHP versions. This means that some syntax behave differently, depending on PHP version.
 
-Total : 1442 analysis
+Total : 1441 analysis
 
 * :ref:`ambiguous-array-index`
 * :ref:`array-index`
@@ -781,7 +781,6 @@ Total : 1442 analysis
 * :ref:`sqlite3-requires-single-quotes`
 * :ref:`no-net-for-xml-load`
 * :ref:`unused-inherited-variable-in-closure`
-* :ref:`inclusion-wrong-case`
 * :ref:`missing-include`
 * :ref:`local-globals`
 * :ref:`useless-referenced-argument`

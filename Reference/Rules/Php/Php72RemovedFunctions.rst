@@ -20,7 +20,7 @@ See also `PHP 7.2 Removed Functions <https://www.php.net/manual/en/migration72.i
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/The+each%28%29+function+is+deprecated.+This+message+will+be+suppressed+on+further+calls.html>`_
+  + `The each() function is deprecated. This message will be suppressed on further calls <https://php-errors.readthedocs.io/en/latest/messages/the-each%28%29-function-is-deprecated.-this-message-will-be-suppressed-on-further-calls.html>`_
 
 
 

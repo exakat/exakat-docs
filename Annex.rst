@@ -77,7 +77,7 @@ List of external links mentioned in this documentation.
 * `ext/hash extension <http://www.php.net/manual/en/book.hash.php>`_
 * `FAM <http://oss.sgi.com/projects/fam/>`_
 * `Frederic Bouchery <https://twitter.com/FredBouchery/>`_
-* `George Peter Banyard <https://twitter.com/Girgias>`_
+* `Gina Peter Banyard <https://twitter.com/Girgias>`_
 * `Github.com/exakat/exakat <https://github.com/exakat/exakat>`_
 * `global namespace <https://www.php.net/manual/en/language.namespaces.global.php>`_
 * `graphviz <http://www.graphviz.org/>`_

@@ -574,7 +574,6 @@ List of Rules
    Rules/Php/ImplodeOneArg.rst
    Rules/Structures/ImplodeArgsOrder.rst
    Rules/Php/IncludeVariables.rst
-   Rules/Files/InclusionWrongCase.rst
    Rules/Dump/Inclusions.rst
    Rules/Structures/IncludeUsage.rst
    Rules/Type/IncomingDateFormat.rst
@@ -1192,6 +1191,7 @@ List of Rules
    Rules/Structures/StrposLessThanOne.rst
    Rules/Structures/StrposCompare.rst
    Rules/Php/StrtrArguments.rst
+   Rules/Structures/ForeachOnObject.rst
    Rules/Structures/SubstrToTrim.rst
    Rules/Performances/SubstrInLoops.rst
    Rules/Performances/SubstrFirst.rst
@@ -1698,6 +1698,7 @@ List of analyzers, by version of introduction, newest to oldest. In parenthesis,
   * :ref:`Neos <neos>`
   * :ref:`New Functions In PHP 8.4 <new-functions-in-php-8.4>`
   * :ref:`Remove Parameter With Named Parameters <remove-parameter-with-named-parameters>`
+  * :ref:`Structures/ForeachOnObject <structures-foreachonobject>`
   * :ref:`Useless Override Attribute <useless-override-attribute>`
 
 * 2.6.7
@@ -2860,10 +2861,6 @@ List of analyzers, by version of introduction, newest to oldest. In parenthesis,
 
   * :ref:`Local Globals <local-globals>`
   * :ref:`Missing Include <missing-include>`
-
-* 1.1.1
-
-  * :ref:`Inclusion Wrong Case <inclusion-wrong-case>`
 
 * 1.0.11
 
@@ -5388,7 +5385,6 @@ Directory by PHP Function
       + :ref:`Could Use Null-Safe Object Operator <could-use-null-safe-object-operator>`
       + :ref:`Don't Echo Error <don't-echo-error>`
       + :ref:`Error Messages <error-messages>`
-      + :ref:`Inclusion Wrong Case <inclusion-wrong-case>`
       + :ref:`Inherited Class Constant Visibility <inherited-class-constant-visibility>`
       + :ref:`Interfaces Don't Ensure Properties <interfaces-don't-ensure-properties>`
       + :ref:`Invalid Cast <invalid-cast>`
@@ -11485,6 +11481,7 @@ Exakat links each rules to PHP features.
   + Index For Arrays
 
     + :ref:`PHP Arrays Index <php-arrays-index>`
+    + :ref:`Should Yield With Key <should-yield-with-key>`
 
   + Inequality
 
@@ -12256,16 +12253,16 @@ Exakat links each rules to PHP features.
     + :ref:`Unused Returned Value <unused-returned-value>`
     + :ref:`Useless Return <useless-return>`
 
-  + Return Type Will Change
-
-    + :ref:`PHP Native Class Type Compatibility <php-native-class-type-compatibility>`
-
-  + Return Typehint
+  + Return Type
 
     + :ref:`Missing Some Returntype <missing-some-returntype>`
     + :ref:`Nullable Without Check <nullable-without-check>`
     + :ref:`Return Typehint Usage <return-typehint-usage>`
     + :ref:`Type Must Be Returned <type-must-be-returned>`
+
+  + Return Type Will Change
+
+    + :ref:`PHP Native Class Type Compatibility <php-native-class-type-compatibility>`
 
   + Return Value
 
@@ -12880,7 +12877,6 @@ Exakat links each rules to PHP features.
 
   + include
 
-    + :ref:`Inclusion Wrong Case <inclusion-wrong-case>`
     + :ref:`Missing Include <missing-include>`
     + :ref:`No Parenthesis For Language Construct <no-parenthesis-for-language-construct>`
 
@@ -13038,7 +13034,7 @@ Directory by PHP Error message
 
 Exakat helps reduce the amount of error and warning that code is producing by reporting pattern that are likely to emit errors.
 
-264 PHP error message detailled : 
+263 PHP error message detailled : 
 
 * :ref:`"boolean" will be interpreted as a class name. Did you mean "bool"? <not-a-scalar-type>`
 * :ref:`"continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? <continue-is-for-loop>`
@@ -13078,7 +13074,6 @@ Exakat helps reduce the amount of error and warning that code is producing by re
 * :ref:`Attempt to read property "b" on null <could-use-null-safe-object-operator>`
 * :ref:`Attribute "AttributeFunction" cannot target Class (allowed targets: Function) <wrong-attribute-configuration>`
 * :ref:`Call to a member function b() on null <could-use-null-safe-object-operator>`
-* :ref:`Call to a member function m() on null <use-nullsafe-operator>`
 * :ref:`Call to private Y\:\:__construct() from invalid context <can't-instantiate-class>`
 * :ref:`Call to protected method x\:\:method <access-protected-structures>`
 * :ref:`Call to undefined function <throw-functioncall>`
@@ -13088,7 +13083,6 @@ Exakat helps reduce the amount of error and warning that code is producing by re
 * :ref:`Calling static trait method Test\:\:test is deprecated, it should only be called on a class using the trait <calling-static-trait-method>`
 * :ref:`Calling static trait method t\:\:t is deprecated, it should only be called on a class using the trait <cannot-call-static-trait-method-directly>`
 * :ref:`Can't inherit abstract function A\:\:bar() <cant-inherit-abstract-method>`
-* :ref:`Cannot access offset of type stdClass on string <no-object-as-index>`
 * :ref:`Cannot access parent\:\: when current class scope has no parent <class-without-parent>`
 * :ref:`Cannot access parent\:\: when current class scope has no parent <undefined-parent>`
 * :ref:`Cannot access private const <unreachable-class-constant>`
@@ -13173,7 +13167,6 @@ Exakat helps reduce the amount of error and warning that code is producing by re
 * :ref:`Generators cannot return values using "return" <no-return-for-generator>`
 * :ref:`Headers already sent <forgotten-whitespace>`
 * :ref:`Illegal offset type <indices-are-int-or-string>`
-* :ref:`Illegal offset type <no-object-as-index>`
 * :ref:`Illegal offset type in isset or empty <no-object-as-index>`
 * :ref:`Implicit conversion from float 1.2 to int loses precision <implicit-conversion-to-int>`
 * :ref:`Implicit conversion from float 3.141592653589793 to int loses precision <float-conversion-as-index>`
@@ -13222,7 +13215,6 @@ Exakat helps reduce the amount of error and warning that code is producing by re
 * :ref:`The (unset) cast is no longer supported <cast-unset-usage>`
 * :ref:`The behavior of unparenthesized expressions containing both '.' and '+'/'-' will change in PHP 8: '+'/'-' will take a higher precedence <concat-and-addition>`
 * :ref:`The behavior of unparenthesized expressions containing both '.' and '>>'/'<<' will change in PHP 8: '<<'/'>>' will take a higher precedence <concat-and-addition>`
-* :ref:`The each() function is deprecated. This message will be suppressed on further calls <php-7.2-removed-functions>`
 * :ref:`The magic method x\:\:__call() must have public visibility <magic-visibility>`
 * :ref:`The parent constructor was not called: the object is in an invalid state <must-call-parent-constructor>`
 * :ref:`Too few arguments to function Foo\:\:Bar(), 1 passed <wrong-number-of-arguments-in-methods>`
@@ -13279,16 +13271,17 @@ Exakat helps reduce the amount of error and warning that code is producing by re
 * :ref:`array_merge() does not accept unknown named parameters <unknown-parameter-name>`
 * :ref:`array_merge() expects at least 1 parameter, 0 given <array\_merge()-and-variadic>`
 * :ref:`b cannot implement a - it is not an interface <implements-is-for-interface>`
+* :ref:`call-to-a-member-function-%s()-on-%s <use-nullsafe-operator>`
 * :ref:`cannot override final constant <rewrote-final-class-constant>`
+* :ref:`cannot-access-offset-of-type-%s-on-%s <no-object-as-index>`
 * :ref:`cannot-access-parent\:\:-when-current-class-scope-has-no-parent <avoid-self-in-interface>`
 * :ref:`class-%s-cannot-implement-previously-implemented-interface-%s <repeated-interface>`
 * :ref:`class_alias(): Argument #1 ($class) must be a user-defined class name, internal class name given <class\_alias()-supports-internal-classes>`
-* :ref:`compact(): Undefined variable $a <nonexistent-variable-in-compact()>`
 * :ref:`define(): Declaration of case-insensitive constants is deprecated <case-insensitive-constants>`
 * :ref:`does not accept unknown named parameters <no-spread-for-hash>`
 * :ref:`explode(): Argument #1 ($separator) cannot be empty <no-empty-string-with-explode()>`
 * :ref:`iconv(): Wrong charset, conversion from UTF-8' to ASCII//TRANSLIT' is not allowed <iconv-with-translit>`
-* :ref:`include(a.php): failed to open stream: No such file or directory <inclusion-wrong-case>`
+* :ref:`illegal-offset-type <no-object-as-index>`
 * :ref:`mb_convert_encoding(): Handling Base64 via mbstring is deprecated; use base64_encode/base64_decode instead <deprecated-mb\_string-encodings>`
 * :ref:`needle is not a string or an integer <strpos()-with-integers>`
 * :ref:`pack(): Type t: unknown format code <invalid-pack-format>`
@@ -13299,8 +13292,10 @@ Exakat helps reduce the amount of error and warning that code is producing by re
 * :ref:`syntax error, unexpected '-', expecting '=' <invalid-constant-name>`
 * :ref:`syntax error, unexpected 'match' <reserved-match-keyword>`
 * :ref:`syntax error, unexpected '|', expecting variable (T_VARIABLE) <union-typehint>`
+* :ref:`the-each()-function-is-deprecated.-this-message-will-be-suppressed-on-further-calls <php-7.2-removed-functions>`
 * :ref:`theClass and theTrait define the same property ($property) in the composition of theClass. However, the definition differs and is considered incompatible. <incompatible-property-between-class-and-trait>`
 * :ref:`undefined-class-constant-\'%s\:\:%s\' <avoid-self-in-interface>`
+* :ref:`undefined-variable <nonexistent-variable-in-compact()>`
 * :ref:`unpack(): Type t: unknown format code <invalid-pack-format>`
 * :ref:`version_compare(): Argument #3 ($operator) must be a valid comparison operator <version\_compare-operator>`
 * :ref:`y\:\:F cannot override final constant x\:\:F <can't-overwrite-final-constant>`

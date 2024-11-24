@@ -289,7 +289,6 @@ Total : 505 analysis
 * :ref:`identical-consecutive-expression`
 * :ref:`no-reference-for-ternary`
 * :ref:`unused-inherited-variable-in-closure`
-* :ref:`inclusion-wrong-case`
 * :ref:`missing-include`
 * :ref:`useless-referenced-argument`
 * :ref:`possible-infinite-loop`
@@ -512,6 +511,7 @@ Total : 505 analysis
 * :ref:`could-merge-ternary-into-ifthen`
 * :ref:`has-property-hook`
 * :ref:`duplicate-enum-case-value`
+* :ref:`structures-foreachonobject`
 
 Specs
 _____

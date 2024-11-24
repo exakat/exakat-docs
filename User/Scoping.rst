@@ -733,7 +733,6 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Extensions/Extzookeeper";
    analyzer[] = "Files/DefinitionsOnly";
    analyzer[] = "Files/GlobalCodeOnly";
-   analyzer[] = "Files/InclusionWrongCase";
    analyzer[] = "Files/IsCliScript";
    analyzer[] = "Files/IsComponent";
    analyzer[] = "Files/MissingInclude";
@@ -1405,6 +1404,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/FileUsage";
    analyzer[] = "Structures/ForWithFunctioncall";
    analyzer[] = "Structures/ForeachNeedReferencedSource";
+   analyzer[] = "Structures/ForeachOnObject";
    analyzer[] = "Structures/ForeachReferenceIsNotModified";
    analyzer[] = "Structures/ForeachSourceValue";
    analyzer[] = "Structures/ForeachWithList";
@@ -2406,7 +2406,6 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Extensions/Extzookeeper'
      - 'Files/DefinitionsOnly'
      - 'Files/GlobalCodeOnly'
-     - 'Files/InclusionWrongCase'
      - 'Files/IsCliScript'
      - 'Files/IsComponent'
      - 'Files/MissingInclude'
@@ -3078,6 +3077,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/FileUsage'
      - 'Structures/ForWithFunctioncall'
      - 'Structures/ForeachNeedReferencedSource'
+     - 'Structures/ForeachOnObject'
      - 'Structures/ForeachReferenceIsNotModified'
      - 'Structures/ForeachSourceValue'
      - 'Structures/ForeachWithList'
@@ -3615,7 +3615,6 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Exceptions/UncaughtExceptions";
    analyzer[] = "Exceptions/Unthrown";
    analyzer[] = "Exceptions/UselessTry";
-   analyzer[] = "Files/InclusionWrongCase";
    analyzer[] = "Files/MissingInclude";
    analyzer[] = "Functions/AliasesUsage";
    analyzer[] = "Functions/AvoidBooleanArgument";
@@ -3814,6 +3813,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Structures/EvalWithoutTry";
    analyzer[] = "Structures/ExitUsage";
    analyzer[] = "Structures/FailingSubstrComparison";
+   analyzer[] = "Structures/ForeachOnObject";
    analyzer[] = "Structures/ForeachReferenceIsNotModified";
    analyzer[] = "Structures/ForeachSourceValue";
    analyzer[] = "Structures/ForgottenWhiteSpace";
@@ -4133,7 +4133,6 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Exceptions/UncaughtExceptions'
      - 'Exceptions/Unthrown'
      - 'Exceptions/UselessTry'
-     - 'Files/InclusionWrongCase'
      - 'Files/MissingInclude'
      - 'Functions/AliasesUsage'
      - 'Functions/AvoidBooleanArgument'
@@ -4332,6 +4331,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/EvalWithoutTry'
      - 'Structures/ExitUsage'
      - 'Structures/FailingSubstrComparison'
+     - 'Structures/ForeachOnObject'
      - 'Structures/ForeachReferenceIsNotModified'
      - 'Structures/ForeachSourceValue'
      - 'Structures/ForgottenWhiteSpace'
@@ -7591,7 +7591,6 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Extensions/Extzmq";
    analyzer[] = "Extensions/Extzookeeper";
    analyzer[] = "Files/DefinitionsOnly";
-   analyzer[] = "Files/InclusionWrongCase";
    analyzer[] = "Files/IsComponent";
    analyzer[] = "Files/MissingInclude";
    analyzer[] = "Files/NotDefinitionsOnly";
@@ -9046,7 +9045,6 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Extensions/Extzmq'
      - 'Extensions/Extzookeeper'
      - 'Files/DefinitionsOnly'
-     - 'Files/InclusionWrongCase'
      - 'Files/IsComponent'
      - 'Files/MissingInclude'
      - 'Files/NotDefinitionsOnly'

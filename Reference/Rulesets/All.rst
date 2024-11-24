@@ -887,7 +887,6 @@ Total : 1658 analysis
 * :ref:`sqlite3-requires-single-quotes`
 * :ref:`no-net-for-xml-load`
 * :ref:`unused-inherited-variable-in-closure`
-* :ref:`inclusion-wrong-case`
 * :ref:`missing-include`
 * :ref:`local-globals`
 * :ref:`useless-referenced-argument`
@@ -1665,6 +1664,7 @@ Total : 1658 analysis
 * :ref:`duplicate-enum-case-value`
 * :ref:`new-functions-in-php-8.4`
 * :ref:`has-virtual-property`
+* :ref:`structures-foreachonobject`
 
 Specs
 _____

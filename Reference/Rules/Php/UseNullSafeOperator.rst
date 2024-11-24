@@ -26,7 +26,7 @@ See also `PHP RFC: Nullsafe operator <https://wiki.php.net/rfc/nullsafe_operator
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Call+to+a+member+function+m%28%29+on+null.html>`_
+  + `Call to a member function m() on null <https://php-errors.readthedocs.io/en/latest/messages/call-to-a-member-function-%25s%28%29-on-%25s.html>`_
 
 
 

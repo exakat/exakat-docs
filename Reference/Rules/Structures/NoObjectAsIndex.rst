@@ -5,8 +5,9 @@
 No Object As Index
 ++++++++++++++++++
 
-  PHP accepts objects as index, though it will report various `error <https://www.php.net/error>`_ messages when this happens.
-Thanks to `George Peter Banyard <https://twitter.com/Girgias>`_ for the inspiration.
+  PHP accepts objects as index, though it reports various `error <https://www.php.net/error>`_ messages when this happens.
+
+Thanks to `Gina Peter Banyard <https://twitter.com/Girgias>`_ for the inspiration.
 
 .. code-block:: php
    
@@ -29,10 +30,10 @@ See also `Use an object as an offet <https://twitter.com/Girgias/status/14055198
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Cannot+access+offset+of+type+stdClass+on+string.html>`_
-  + `1 <https://php-errors.readthedocs.io/en/latest/messages/Illegal+offset+type+in+isset+or+empty.html>`_
-  + `2 <https://php-errors.readthedocs.io/en/latest/messages/Illegal+offset+type.html>`_
-  + `3 <https://php-errors.readthedocs.io/en/latest/messages/Index+invalid+or+out+of+range.html>`_
+  + `Cannot access offset of type %s on %s <https://php-errors.readthedocs.io/en/latest/messages/cannot-access-offset-of-type-%25s-on-%25s.html>`_
+  + `Illegal offset type <https://php-errors.readthedocs.io/en/latest/messages/illegal-offset-type.html>`_
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Illegal+offset+type+in+isset+or+empty.html>`_
+  + `1 <https://php-errors.readthedocs.io/en/latest/messages/Index+invalid+or+out+of+range.html>`_
 
 
 

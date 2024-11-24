@@ -1672,9 +1672,6 @@
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Php/IncludeVariables.html</loc>
  </url>
  <url>
-  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Files/InclusionWrongCase.html</loc>
- </url>
- <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Dump/Inclusions.html</loc>
  </url>
  <url>
@@ -3524,6 +3521,9 @@
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Php/StrtrArguments.html</loc>
+ </url>
+ <url>
+  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/ForeachOnObject.html</loc>
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/SubstrToTrim.html</loc>
