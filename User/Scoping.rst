@@ -476,6 +476,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Constants/UndefinedConstants";
    analyzer[] = "Constants/UnusedConstants";
    analyzer[] = "Constants/VariableConstant";
+   analyzer[] = "Custom/EvsAndWhere";
    analyzer[] = "Custom/MethodUsage";
    analyzer[] = "Dump/ArgumentCountsPerCalls";
    analyzer[] = "Dump/CallOrder";
@@ -2149,6 +2150,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Constants/UndefinedConstants'
      - 'Constants/UnusedConstants'
      - 'Constants/VariableConstant'
+     - 'Custom/EvsAndWhere'
      - 'Custom/MethodUsage'
      - 'Dump/ArgumentCountsPerCalls'
      - 'Dump/CallOrder'
@@ -12819,6 +12821,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Classes/UndefinedConstants";
    analyzer[] = "Classes/UsingThisOutsideAClass";
    analyzer[] = "Classes/WrongTypedPropertyInit";
+   analyzer[] = "Enums/DuplicateCaseValue";
    analyzer[] = "Enums/NoMagicMethod";
    analyzer[] = "Exceptions/CantThrow";
    analyzer[] = "Functions/DeprecatedCallable";
@@ -12879,6 +12882,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Classes/UndefinedConstants'
      - 'Classes/UsingThisOutsideAClass'
      - 'Classes/WrongTypedPropertyInit'
+     - 'Enums/DuplicateCaseValue'
      - 'Enums/NoMagicMethod'
      - 'Exceptions/CantThrow'
      - 'Functions/DeprecatedCallable'

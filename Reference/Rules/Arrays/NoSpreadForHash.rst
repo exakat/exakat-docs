@@ -24,8 +24,8 @@ See also `Variable-length argument lists <https://www.php.net/manual/en/function
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Cannot+unpack+array+with+string+keys.html>`_
-  + `1 <https://php-errors.readthedocs.io/en/latest/messages/does+not+accept+unknown+named+parameters.html>`_
+  + `Cannot unpack array with string keys <https://php-errors.readthedocs.io/en/latest/messages/cannot-unpack-array-with-string-keys.html>`_
+  + `array_merge() does not accept unknown named parameters <https://php-errors.readthedocs.io/en/latest/messages/array_merge%28%29-does-not-accept-unknown-named-parameters.html>`_
 
 
 

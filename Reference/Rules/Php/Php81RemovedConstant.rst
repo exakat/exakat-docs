@@ -18,7 +18,7 @@ See also `PHP RFC: Deprecations for PHP 8.1 <https://wiki.php.net/rfc/deprecatio
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Constant+FILE_BINARY+is+deprecated.html>`_
+  + `Constant %s is deprecated <https://php-errors.readthedocs.io/en/latest/messages/constant-%25s-is-deprecated.html>`_
 
 
 

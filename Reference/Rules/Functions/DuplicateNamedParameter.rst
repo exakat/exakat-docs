@@ -5,7 +5,7 @@
 Duplicate Named Parameter
 +++++++++++++++++++++++++
 
-  Two parameters have the same name in a method call. This will yield a Fatal `error <https://www.php.net/error>`_ at execution time.
+  Two parameters have the same name in a method call. This yields a Fatal `error <https://www.php.net/error>`_ at execution time.
 
 .. code-block:: php
    
@@ -26,7 +26,7 @@ See also `Function arguments <https://www.php.net/manual/en/functions.arguments.
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Named+parameter+%24a+overwrites+previous+argument.html>`_
+  + `Named parameter $a overwrites previous argument <https://php-errors.readthedocs.io/en/latest/messages/named-parameter-%24x-overwrites-previous-argument.html>`_
 
 
 

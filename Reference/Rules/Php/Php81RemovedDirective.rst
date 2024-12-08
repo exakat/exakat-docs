@@ -19,6 +19,11 @@ You can detect valid directives with `ini_get() <https://www.php.net/ini_get>`_.
 
 See also `PHP RFC: Deprecations for PHP 8.1 <https://wiki.php.net/rfc/deprecations_php_8_1>`_.
 
+Connex PHP features
+-------------------
+
+  + `directive <https://php-dictionary.readthedocs.io/en/latest/dictionary/directive.ini.html>`_
+
 
 Suggestions
 ___________

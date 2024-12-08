@@ -18,13 +18,6 @@ Generator Cannot Return
    }
    
    ?>
-Related PHP errors 
--------------------
-
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Generators+cannot+return+values+using+%22return%22+.html>`_
-
-
-
 Connex PHP features
 -------------------
 

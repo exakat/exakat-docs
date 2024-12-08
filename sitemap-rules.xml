@@ -304,6 +304,9 @@
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Classes/CantExtendFinal.html</loc>
  </url>
  <url>
+  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Exceptions/CantThrow.html</loc>
+ </url>
+ <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Interfaces/CantImplementTraversable.html</loc>
  </url>
  <url>
@@ -314,9 +317,6 @@
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Classes/CantOverwriteFinalMethod.html</loc>
- </url>
- <url>
-  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Exceptions/CantThrow.html</loc>
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Classes/CancelCommonMethod.html</loc>
@@ -962,6 +962,9 @@
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Constants/CustomConstantUsage.html</loc>
+ </url>
+ <url>
+  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Custom/EvsAndWhere.html</loc>
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Classes/CyclicReferences.html</loc>

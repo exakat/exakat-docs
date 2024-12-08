@@ -41,7 +41,7 @@ See also `PHP RFC: Deprecate implicit non-integer-compatible float to int conver
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Implicit+conversion+from+float+1.2+to+int+loses+precision.html>`_
+  + `Implicit conversion from float 1.2 to int loses precision <https://php-errors.readthedocs.io/en/latest/messages/Implicit+conversion+from+float+1.2+to+int+loses+precision.html>`_
 
 
 

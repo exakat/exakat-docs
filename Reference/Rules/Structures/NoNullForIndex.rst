@@ -5,7 +5,7 @@
 No Null For Index
 +++++++++++++++++
 
-  Avoid using ``null`` value as an index in an array. PHP actually cast it to the empty string. This means that later, it might be impossible to find the ``null`` in the list of keys.
+  Avoid using ``null`` value as an index in an array. PHP actually casts it to the empty string. This means that later, it might be impossible to find the ``null`` in the list of keys.
 
 .. code-block:: php
    
@@ -18,6 +18,12 @@ No Null For Index
    // [''] empty string
    
    ?>
+Connex PHP features
+-------------------
+
+  + `null <https://php-dictionary.readthedocs.io/en/latest/dictionary/null.ini.html>`_
+  + `index-array <https://php-dictionary.readthedocs.io/en/latest/dictionary/index-array.ini.html>`_
+
 
 Suggestions
 ___________

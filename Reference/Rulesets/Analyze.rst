@@ -309,7 +309,7 @@ Total : 505 analysis
 * :ref:`mismatch-type-and-default`
 * :ref:`check-json`
 * :ref:`don't-mix-++`
-* :ref:`can't-throw-throwable`
+* :ref:`can't-implement-throwable`
 * :ref:`abstract-or-implements`
 * :ref:`incompatible-signature-methods`
 * :ref:`ambiguous-visibilities`

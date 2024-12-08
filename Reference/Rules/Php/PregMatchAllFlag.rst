@@ -30,6 +30,12 @@ The second syntax is easier to read and may be marginally faster to execute (`pr
    }
    
    ?>
+Connex PHP features
+-------------------
+
+  + `regex <https://php-dictionary.readthedocs.io/en/latest/dictionary/regex.ini.html>`_
+  + `flag <https://php-dictionary.readthedocs.io/en/latest/dictionary/flag.ini.html>`_
+
 
 Suggestions
 ___________

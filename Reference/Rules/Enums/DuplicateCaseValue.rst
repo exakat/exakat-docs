@@ -25,7 +25,8 @@ Duplicate Enum Case Value
 Connex PHP features
 -------------------
 
-  + `hook <https://php-dictionary.readthedocs.io/en/latest/dictionary/hook.ini.html>`_
+  + `enum <https://php-dictionary.readthedocs.io/en/latest/dictionary/enum.ini.html>`_
+  + `enum-case <https://php-dictionary.readthedocs.io/en/latest/dictionary/enum-case.ini.html>`_
 
 
 Specs
@@ -34,7 +35,7 @@ _____
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Short name   | Enums/DuplicateCaseValue                                                                                                |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
-| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Analyze <ruleset-Analyze>`                                                              |
+| Rulesets     | :ref:`All <ruleset-All>`, :ref:`Analyze <ruleset-Analyze>`, :ref:`LintButWontExec <ruleset-LintButWontExec>`            |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 2.6.8                                                                                                                   |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
@@ -45,6 +46,8 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                         |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                               |
++--------------+-------------------------------------------------------------------------------------------------------------------------+
+| Note         | This issue may lint but will not run                                                                                    |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-------------------------------------------------------------------------------------------------------------------------+

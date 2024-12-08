@@ -7,7 +7,7 @@ Use Web
 
   The code is used in web environment.
 
-The web usage is identified through the usage of the superglobals: ``$_GET``, ``$_POST``, etc.
+The web environement is identified through the usage of the superglobals: ``$_GET``, ``$_POST``, etc.
 
 .. code-block:: php
    
@@ -17,6 +17,12 @@ The web usage is identified through the usage of the superglobals: ``$_GET``, ``
    $x = filter_validate($_GET['x'], FILTER_EMAIL);
    
    ?>
+Connex PHP features
+-------------------
+
+  + `web <https://php-dictionary.readthedocs.io/en/latest/dictionary/web.ini.html>`_
+  + `superglobal <https://php-dictionary.readthedocs.io/en/latest/dictionary/superglobal.ini.html>`_
+
 
 Specs
 _____

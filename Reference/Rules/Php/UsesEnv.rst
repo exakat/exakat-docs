@@ -18,7 +18,7 @@ Uses Environment
 Connex PHP features
 -------------------
 
-  + `environment <https://php-dictionary.readthedocs.io/en/latest/dictionary/environment.ini.html>`_
+  + `system <https://php-dictionary.readthedocs.io/en/latest/dictionary/system.ini.html>`_
 
 
 Specs

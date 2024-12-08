@@ -1,9 +1,9 @@
 .. _exceptions-cantthrow:
 
-.. _can't-throw-throwable:
+.. _can't-implement-throwable:
 
-Can't Throw Throwable
-+++++++++++++++++++++
+Can't Implement Throwable
++++++++++++++++++++++++++
 
   Classes extending ``Throwable`` can't be thrown, unless they also extend ``Exception``. The same applies to interfaces that extends ``Throwable``. 
 
@@ -26,8 +26,7 @@ See also `Throwable <https://www.php.net/manual/en/class.throwable.php>`_, `Exce
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Class+fooThrowable+cannot+implement+interface+Throwable%2C+extend+Exception+or+Error+instead.html>`_
-  + `1 <https://php-errors.readthedocs.io/en/latest/messages/Class+i+cannot+extend+interface+Throwable.html>`_
+  + `Class fooThrowable cannot implement interface Throwable, extend Exception or Error instead <https://php-errors.readthedocs.io/en/latest/messages/%25s-%25s-cannot-implement-interface-%25s%2C-extend-exception-or-error-instead.html>`_
 
 
 
@@ -35,6 +34,8 @@ Connex PHP features
 -------------------
 
   + `throwable <https://php-dictionary.readthedocs.io/en/latest/dictionary/throwable.ini.html>`_
+  + `error <https://php-dictionary.readthedocs.io/en/latest/dictionary/error.ini.html>`_
+  + `exception <https://php-dictionary.readthedocs.io/en/latest/dictionary/exception.ini.html>`_
 
 
 Suggestions

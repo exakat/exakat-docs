@@ -31,10 +31,10 @@ See also `Null and True <https://twitter.com/Chemaclass/status/11445886474649518
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Trying+to+access+array+offset+on+value+of+type+null.html>`_
-  + `1 <https://php-errors.readthedocs.io/en/latest/messages/Trying+to+access+array+offset+on+value+of+type+boolean.html>`_
-  + `2 <https://php-errors.readthedocs.io/en/latest/messages/Trying+to+access+array+offset+on+value+of+type+float.html>`_
-  + `3 <https://php-errors.readthedocs.io/en/latest/messages/Trying+to+access+array+offset+on+value+of+type+int.html>`_
+  + `Trying to access array offset on value of type null <https://php-errors.readthedocs.io/en/latest/messages/trying-to-access-array-offset-on-%25s.html>`_
+  + `Trying to access array offset on value of type boolean <https://php-errors.readthedocs.io/en/latest/messages/trying-to-access-array-offset-on-%25s.html>`_
+  + `Trying to access array offset on value of type float <https://php-errors.readthedocs.io/en/latest/messages/trying-to-access-array-offset-on-%25s.html>`_
+  + `Trying to access array offset on value of type int <https://php-errors.readthedocs.io/en/latest/messages/trying-to-access-array-offset-on-%25s.html>`_
 
 
 

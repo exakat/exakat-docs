@@ -41,7 +41,7 @@ See also `PHP RFC: Deprecate and Remove Bareword (Unquoted) Strings <https://wik
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Uncaught+Error%3A+Undefined+constant.html>`_
+  + `Undefined constant <https://php-errors.readthedocs.io/en/latest/messages/undefined-constant-%22%25s.html>`_
 
 
 

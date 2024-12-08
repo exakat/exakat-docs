@@ -38,8 +38,9 @@ See also `References <https://www.php.net/references>`_.
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Cannot+pass+parameter+1+by+reference.html>`_
-  + `1 <https://php-errors.readthedocs.io/en/latest/messages/Only+variable+references+should+be+returned+by+reference.html>`_
+  + `Cannot pass parameter %s by reference <https://php-errors.readthedocs.io/en/latest/messages/%25s%25s%25s%5C%28%5C%29%5C%3A-argument-%23%25d%25s%25s%25s-must-be-passed-by-reference%5C%2C-value-given.html>`_
+  + `%s(): Argument #%s (%s) must be passed by reference, value given <https://php-errors.readthedocs.io/en/latest/messages/%25s%25s%25s%5C%28%5C%29%5C%3A-argument-%23%25d%25s%25s%25s-must-be-passed-by-reference%5C%2C-value-given.html>`_
+  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Only+variable+references+should+be+returned+by+reference.html>`_
 
 
 

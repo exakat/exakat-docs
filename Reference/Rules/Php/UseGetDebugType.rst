@@ -20,6 +20,13 @@ Use get_debug_type()
 
 See also `PHP RFC: get_debug_type <https://wiki.php.net/rfc/get_debug_type>`_.
 
+Connex PHP features
+-------------------
+
+  + `variable <https://php-dictionary.readthedocs.io/en/latest/dictionary/variable.ini.html>`_
+  + `debug <https://php-dictionary.readthedocs.io/en/latest/dictionary/debug.ini.html>`_
+  + `backward incompatible <https://php-dictionary.readthedocs.io/en/latest/dictionary/backward+incompatible.ini.html>`_
+
 
 Suggestions
 ___________

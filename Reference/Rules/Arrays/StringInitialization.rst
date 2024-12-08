@@ -32,7 +32,7 @@ See also `PHP 7.1 no longer converts string to arrays the first time a value is 
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Cannot+use+a+scalar+value+as+an+array.html>`_
+  + `Cannot use a scalar value as an array <https://php-errors.readthedocs.io/en/latest/messages/cannot-use-a-scalar-value-as-an-array.html>`_
 
 
 

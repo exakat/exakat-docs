@@ -31,11 +31,11 @@ See also `Stricter type checks for arithmetic/bitwise operators <https://wiki.ph
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Unsupported+operand+types.html>`_
-  + `1 <https://php-errors.readthedocs.io/en/latest/messages/Cannot+perform+bitwise+not+on+array.html>`_
-  + `2 <https://php-errors.readthedocs.io/en/latest/messages/Cannot+perform+bitwise+not+on+bool.html>`_
-  + `3 <https://php-errors.readthedocs.io/en/latest/messages/Cannot+perform+bitwise+not+on+resource.html>`_
-  + `4 <https://php-errors.readthedocs.io/en/latest/messages/Cannot+perform+bitwise+not+on+object.html>`_
+  + `Unsupported operand types <https://php-errors.readthedocs.io/en/latest/messages/unsupported-operand-types.html>`_
+  + `Cannot perform bitwise not on array <https://php-errors.readthedocs.io/en/latest/messages/cannot-perform-bitwise-not-on-%25s.html>`_
+  + `Cannot perform bitwise not on bool <https://php-errors.readthedocs.io/en/latest/messages/cannot-perform-bitwise-not-on-%25s.html>`_
+  + `Cannot perform bitwise not on resource <https://php-errors.readthedocs.io/en/latest/messages/cannot-perform-bitwise-not-on-%25s.html>`_
+  + `Cannot perform bitwise not on object <https://php-errors.readthedocs.io/en/latest/messages/cannot-perform-bitwise-not-on-%25s.html>`_
 
 
 

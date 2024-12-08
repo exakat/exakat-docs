@@ -841,7 +841,7 @@ Total : 1441 analysis
 * :ref:`could-be-static-closure`
 * :ref:`move\_uploaded\_file-instead-of-copy`
 * :ref:`don't-mix-++`
-* :ref:`can't-throw-throwable`
+* :ref:`can't-implement-throwable`
 * :ref:`abstract-or-implements`
 * :ref:`ext-eio`
 * :ref:`incompatible-signature-methods`

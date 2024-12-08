@@ -5,7 +5,7 @@
 PHP Native Attributes
 +++++++++++++++++++++
 
-  This is the list of the PHP native `attribute <https://www.php.net/attribute>`_ in use in the code. PHP native `attribute <https://www.php.net/attribute>`_ depends on the PHP version, as new attributes are added regularly. 
+  This is the list of the PHP native `attribute <https://www.php.net/attribute>`_ used in the code. PHP native `attribute <https://www.php.net/attribute>`_ depends on the PHP version, as new attributes are added regularly. 
 
 .. code-block:: php
    

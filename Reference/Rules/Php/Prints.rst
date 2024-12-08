@@ -5,7 +5,7 @@
 Displays Text
 +++++++++++++
 
-  Function calls that displays something to the output.
+  Function calls that displays something to the output. Usually, there should not be direct display of data anywhere in the code, but on a specific places, like a template `engine <https://www.php.net/engine>`_, or an output class.
 
 .. code-block:: php
    

@@ -24,9 +24,15 @@ This analysis is valid with PHP 8.0.
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Argument+%231+%28%24s%29+must+be+of+type+array%2C+int+given.html>`_
+  + `Argument #1 ($s) must be of type array, int given <https://php-errors.readthedocs.io/en/latest/messages/Argument+%23%25d+%28%24%25s%29+must+be+of+type+%25s%2C+%25s+given.html>`_
 
 
+
+Connex PHP features
+-------------------
+
+  + `type <https://php-dictionary.readthedocs.io/en/latest/dictionary/type.ini.html>`_
+  + `argument <https://php-dictionary.readthedocs.io/en/latest/dictionary/argument.ini.html>`_
 
 
 Suggestions

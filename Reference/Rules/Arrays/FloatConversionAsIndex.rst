@@ -22,7 +22,7 @@ See also `Implicit incompatible float to int conversions <https://www.php.net/ma
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Implicit+conversion+from+float+3.141592653589793+to+int+loses+precision.html>`_
+  + `Implicit conversion from float \"%s\" to int loses precision <https://php-errors.readthedocs.io/en/latest/messages/implicit-conversion-from-float-string-%5C%22%25s%5C%22-to-int-loses.html>`_
 
 
 

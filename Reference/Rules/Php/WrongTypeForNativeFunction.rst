@@ -5,7 +5,7 @@
 Wrong Type For Native PHP Function
 ++++++++++++++++++++++++++++++++++
 
-  This rule reports calls to a PHP native function with a wrongly typed value.
+  This rule reports calls to a PHP native function with values of the wrong type. With modern PHP versions and strict_typing, it generates a Fatal `error <https://www.php.net/error>`_.
 
 .. code-block:: php
    
@@ -16,8 +16,8 @@ Wrong Type For Native PHP Function
    echo exp(2.5);
    
    // invalid calls
-   echo exp("1");
-   echo exp(array(2.5));
+   echo exp("1");  // OK without strict types
+   echo exp(array(2.5)); // always a fatal error
    
    // valid call, but invalid math
    // -1 is not a valid value for log(), but -1 is a valid type (int) : it is not reported by this analysis.

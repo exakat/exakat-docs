@@ -7,8 +7,6 @@ Useless Check
 
   There is no need to check the size of an array content before using foreach. `Foreach() <https://www.php.net/manual/en/control-structures.foreach.php>`_ applies a test on the source, and skips the loop if no element is found.
 
-
-
 This analysis checks for conditions with `sizeof() <https://www.php.net/sizeof>`_ and `count() <https://www.php.net/count>`_. Conditions with `isset() <https://www.www.php.net/isset>`_ and empty() are omitted : they also check for the variable existence, and thus, offer extra coverage.
 
 .. code-block:: php

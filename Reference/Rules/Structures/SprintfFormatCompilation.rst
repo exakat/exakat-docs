@@ -5,7 +5,9 @@
 Sprintf Format Compilation
 ++++++++++++++++++++++++++
 
-  The `sprintf() <https://www.php.net/sprintf>`_ format used yields an `error <https://www.php.net/error>`_.
+  The `sprintf() <https://www.php.net/sprintf>`_ format used yields an `error <https://www.php.net/error>`_. A format is a ``%`` pourcent character, followed by a letter. 
+
+Some letters are not allowed: ``a, i, j, k, l, m, n, p, q, r, t, v, w, y, z, A, B, C, D, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, Y, Z``.
 
 This applies to `printf() <https://www.php.net/printf>`_, `sprintf() <https://www.php.net/sprintf>`_, `vprintf() <https://www.php.net/vprintf>`_, `vfprintf() <https://www.php.net/vfprintf>`_, `vsprintf() <https://www.php.net/vsprintf>`_, `sscanf() <https://www.php.net/sscanf>`_, `fscanf() <https://www.php.net/fscanf>`_
 
@@ -13,8 +15,8 @@ This applies to `printf() <https://www.php.net/printf>`_, `sprintf() <https://ww
    
    <?php
    
-       printf('"%we3e"', 123); 
-       //Unknown format specifier
+       printf('\%we3e\\', 123); 
+       //Unknown format specifier \w\\
    ?>
 
 See also `sprintf <https://www.php.net/manual/en/function.sprintf.php>`_.

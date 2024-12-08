@@ -78,6 +78,14 @@ Beyond 15 variables, it becomes difficult to keep track of their name and usage,
 +-------------------------------+---------+---------+------------------------------------------------------------------+
 
 
+Connex PHP features
+-------------------
+
+  + `variable <https://php-dictionary.readthedocs.io/en/latest/dictionary/variable.ini.html>`_
+  + `local-variable <https://php-dictionary.readthedocs.io/en/latest/dictionary/local-variable.ini.html>`_
+  + `scope <https://php-dictionary.readthedocs.io/en/latest/dictionary/scope.ini.html>`_
+  + `local-scope <https://php-dictionary.readthedocs.io/en/latest/dictionary/local-scope.ini.html>`_
+
 
 Suggestions
 ___________

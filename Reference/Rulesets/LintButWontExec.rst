@@ -5,7 +5,7 @@ LintButWontExec
 
 This ruleset focuses on PHP code that lint (php -l), but that will not run. As such, this ruleset tries to go further than PHP, by connecting files, just like during execution.
 
-Total : 47 analysis
+Total : 48 analysis
 
 * :ref:`final-class-usage`
 * :ref:`final-methods-usage`
@@ -23,7 +23,7 @@ Total : 47 analysis
 * :ref:`no-magic-method-with-array`
 * :ref:`method-signature-must-be-compatible`
 * :ref:`mismatch-type-and-default`
-* :ref:`can't-throw-throwable`
+* :ref:`can't-implement-throwable`
 * :ref:`abstract-or-implements`
 * :ref:`incompatible-signature-methods`
 * :ref:`undefined-insteadof`
@@ -54,6 +54,7 @@ Total : 47 analysis
 * :ref:`clone-constant`
 * :ref:`invalid-cast`
 * :ref:`only-variable-passed-by-reference`
+* :ref:`duplicate-enum-case-value`
 
 Specs
 _____

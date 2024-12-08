@@ -26,7 +26,7 @@ In this analysis, elseif() and branches that return or goto somewhere else are o
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Undefined+variable+%24a.html>`_
+  + `Undefined variable <https://php-errors.readthedocs.io/en/latest/messages/undefined-variable.html>`_
 
 
 

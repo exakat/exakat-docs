@@ -33,12 +33,18 @@ It is recommended to use explicit constant names or enumerations, instead. They 
 
 See also `Improve Passing Booleans in PHP  <https://freek.dev/2227-improve-passing-booleans-in-php>`_, `Flag Argument <https://martinfowler.com/bliki/FlagArgument.html>`_ and `Improve Passing Booleans in PHP  <https://freek.dev/2227-improve-passing-booleans-in-php>`_.
 
+Connex PHP features
+-------------------
+
+  + `boolean <https://php-dictionary.readthedocs.io/en/latest/dictionary/boolean.ini.html>`_
+  + `argument <https://php-dictionary.readthedocs.io/en/latest/dictionary/argument.ini.html>`_
+
 
 Suggestions
 ___________
 
-* Use available constants whenever possible
-* Create a constant (global or class), and use it
+* Use available constants, global or class
+* Create a constant, global or class, and use it
 * Use named parameters to clarify the target of the boolean
 * Use a single-parameter method, so that the value of the boolean is obvious
 * Use an enumeration

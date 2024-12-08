@@ -5,7 +5,7 @@ All
 
 All is a dummy ruleset, which includes all the rules. It is mostly used internally.
 
-Total : 1658 analysis
+Total : 1659 analysis
 
 * :ref:`adding-zero`
 * :ref:`ambiguous-array-index`
@@ -954,7 +954,7 @@ Total : 1658 analysis
 * :ref:`could-be-static-closure`
 * :ref:`move\_uploaded\_file-instead-of-copy`
 * :ref:`don't-mix-++`
-* :ref:`can't-throw-throwable`
+* :ref:`can't-implement-throwable`
 * :ref:`abstract-or-implements`
 * :ref:`ext-eio`
 * :ref:`incompatible-signature-methods`
@@ -1665,6 +1665,7 @@ Total : 1658 analysis
 * :ref:`new-functions-in-php-8.4`
 * :ref:`has-virtual-property`
 * :ref:`foreach()-on-object`
+* :ref:`custom-evsandwhere`
 
 Specs
 _____

@@ -5,7 +5,7 @@
 Fallback Function
 +++++++++++++++++
 
-  A function that is called with its name alone, and whose definition is in the global scope.
+  This rule reports functions that are called with its name alone, and whose definition is in the global scope. Such syntax relies on the fallback mechanism of PHP, which search for functions in the local namespace, then in the global namespace, before failing.
 
 .. code-block:: php
    

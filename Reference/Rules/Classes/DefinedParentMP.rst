@@ -37,6 +37,11 @@ Defined Parent MP
    }
    
    ?>
+Connex PHP features
+-------------------
+
+  + `parent <https://php-dictionary.readthedocs.io/en/latest/dictionary/parent.ini.html>`_
+
 
 Specs
 _____

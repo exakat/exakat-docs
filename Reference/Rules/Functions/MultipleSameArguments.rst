@@ -27,8 +27,8 @@ See also `Prepare for PHP 7 error messages (part 3) <https://www.exakat.io/prepa
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Cannot+use+lexical+variable+%24b+as+a+parameter+name.html>`_
-  + `1 <https://php-errors.readthedocs.io/en/latest/messages/Redefinition+of+parameter+%24b.html>`_
+  + `Cannot use lexical variable $b as a parameter name <https://php-errors.readthedocs.io/en/latest/messages/cannot-use-lexical-variable-%25s-as-a-parameter-name.html>`_
+  + `Redefinition of parameter $b <https://php-errors.readthedocs.io/en/latest/messages/redefinition-of-parameter-%24%25s.html>`_
 
 
 

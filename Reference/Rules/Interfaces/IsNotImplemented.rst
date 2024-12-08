@@ -34,7 +34,7 @@ See also `Interfaces <https://www.php.net/manual/en/language.oop5.interfaces.php
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Class+x+contains+2+abstract+methods+and+must+therefore+be+declared+abstract+or+implement+the+remaining+methods+%28x%3A%3Am1%2C+x%3A%3Am2%29.html>`_
+  + `Class %s contains %d abstract method%s and must therefore be declared abstract or implement the remaining methods <https://php-errors.readthedocs.io/en/latest/messages/class-%25s-contains-%25d-abstract-method%25s-and-must-therefore-be-declared-abstract-or-implement-the-remaining-methods.html>`_
 
 
 

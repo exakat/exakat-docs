@@ -32,8 +32,8 @@ Related PHP errors
 
   + `Cannot access offset of type %s on %s <https://php-errors.readthedocs.io/en/latest/messages/cannot-access-offset-of-type-%25s-on-%25s.html>`_
   + `Illegal offset type <https://php-errors.readthedocs.io/en/latest/messages/illegal-offset-type.html>`_
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Illegal+offset+type+in+isset+or+empty.html>`_
-  + `1 <https://php-errors.readthedocs.io/en/latest/messages/Index+invalid+or+out+of+range.html>`_
+  + `Illegal offset type in isset or empty <https://php-errors.readthedocs.io/en/latest/messages/illegal-offset-type-in-isset-or-empty.html>`_
+  + `Index invalid or out of range <https://php-errors.readthedocs.io/en/latest/messages/index-invalid-or-out-of-range.html>`_
 
 
 

@@ -26,6 +26,11 @@ Could Be array_combine()
 
 See also `How to use array_merge() and array_combine() in PHP ? <https://www.geeksforgeeks.org/how-to-use-array_merge-and-array_combine-in-php/>`_.
 
+Connex PHP features
+-------------------
+
+  + `hash <https://php-dictionary.readthedocs.io/en/latest/dictionary/hash.ini.html>`_
+
 
 Suggestions
 ___________
