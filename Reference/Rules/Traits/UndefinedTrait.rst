@@ -9,8 +9,6 @@ Undefined Trait
 
 When the using class or trait is instantiated, PHP emits a a fatal `error <https://www.php.net/error>`_.
 
-
-
 Trait which are referenced in a `use` expression are omitted: they are considered part of code that is probably outside the current code, either omitted or in external component.
 
 .. code-block:: php
@@ -36,7 +34,7 @@ Trait which are referenced in a `use` expression are omitted: they are considere
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Trait+%27T%27+not+found.html>`_
+  + `Trait '%s' not found <https://php-errors.readthedocs.io/en/latest/messages/Trait+%27T%27+not+found.html>`_
 
 
 

@@ -5,7 +5,7 @@
 Undefined Enumcase
 ++++++++++++++++++
 
-  The enumeration case does not exists. It may also be a constant.
+  The enumeration case does not exists. It may be a class constant, defined in the same enumeration.
 
 .. code-block:: php
    
@@ -27,7 +27,7 @@ Undefined Enumcase
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Undefined+constant.html>`_
+  + `Undefined constant <https://php-errors.readthedocs.io/en/latest/messages/undefined-constant-%25s%3A%3A%25s.html>`_
 
 
 

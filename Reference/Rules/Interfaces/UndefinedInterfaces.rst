@@ -5,7 +5,7 @@
 Undefined Interfaces
 ++++++++++++++++++++
 
-  Some typehints or ``instanceof`` that are relying on undefined interfaces or classes. They will always return false. Any condition based upon them are dead code.
+  Some types or ``instanceof`` that are relying on undefined interfaces or classes: the validation of the type will always fail and return false. Any condition based upon them are dead code.
 
 .. code-block:: php
    
@@ -31,7 +31,7 @@ See also `Object interfaces <https://www.php.net/manual/en/language.oop5.interfa
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Argument+%231+%28%24a%29+must+be+of+type+T.html>`_
+  + `Argument #1 ($a) must be of type T <https://php-errors.readthedocs.io/en/latest/messages/argument-%23%25d-%5C%28%24%25s%5C%29-must-be-of-type-%25s%5C%2C-%25s-given.html>`_
 
 
 

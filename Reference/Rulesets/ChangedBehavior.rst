@@ -442,7 +442,7 @@ Total : 1441 analysis
 * :ref:`indices-are-int-or-string`
 * :ref:`should-typecast`
 * :ref:`no-self-referencing-constant`
-* :ref:`no-direct-usage`
+* :ref:`no-direct-usage-of-returned-value`
 * :ref:`break-outside-loop`
 * :ref:`else-usage`
 * :ref:`one-object-operator-per-line`

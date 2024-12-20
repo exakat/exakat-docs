@@ -5,7 +5,7 @@
 Minus One On Error
 ++++++++++++++++++
 
-  Some PHP native functions return -1 on `error <https://www.php.net/error>`_. They also return 1 in case of success, and 0 in case of failure. This leads to confusions.
+  Several PHP native functions return -1 on `error <https://www.php.net/error>`_. They also return 1 in case of success, and 0 in case of failure. This leads to confusions.
 
 In case the native function is used as a condition without explicit comparison, PHP type cast the return value to a boolean. In this case, -1 and 1 are both converted to true, and the condition applies. This means that an `error <https://www.php.net/error>`_ situation is mistaken for a successful event. 
 This analysis searches for if/then structures, ternary operators inside `while() <https://www.php.net/manual/en/control-structures.while.php>`_ / do...`while() <https://www.php.net/manual/en/control-structures.while.php>`_ loops.

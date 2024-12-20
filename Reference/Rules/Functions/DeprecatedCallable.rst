@@ -34,9 +34,9 @@ See also `PHP RFC: Deprecate partially supported callables <https://wiki.php.net
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Use+of+%22self%22+in+callables+is+deprecated.html>`_
-  + `1 <https://php-errors.readthedocs.io/en/latest/messages/Use+of+%22static%22+in+callables+is+deprecated.html>`_
-  + `2 <https://php-errors.readthedocs.io/en/latest/messages/Use+of+%22parent%22+in+callables+is+deprecated.html>`_
+  + `Use of "self" in callables is deprecated <https://php-errors.readthedocs.io/en/latest/messages/use-of-%5C%22self%5C%22-in-callables-is-deprecated.html>`_
+  + `Use of "static" in callables is deprecated <https://php-errors.readthedocs.io/en/latest/messages/use-of-%5C%22static%5C%22-in-callables-is-deprecated.html>`_
+  + `Use of "parent" in callables is deprecated <https://php-errors.readthedocs.io/en/latest/messages/use-of-%5C%22parent%5C%22-in-callables-is-deprecated.html>`_
 
 
 

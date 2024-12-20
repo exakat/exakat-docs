@@ -5,7 +5,7 @@
 Multiple Catch With Try
 +++++++++++++++++++++++
 
-  This rule reports when a try structure have several catch statements.
+  This rule reports when a try structure have several catch statements. Usually, try structures have only one catch, so more catch clauses are worth checking.
 
 .. code-block:: php
    
@@ -25,6 +25,7 @@ Connex PHP features
 -------------------
 
   + `try <https://php-dictionary.readthedocs.io/en/latest/dictionary/try.ini.html>`_
+  + `catch <https://php-dictionary.readthedocs.io/en/latest/dictionary/catch.ini.html>`_
 
 
 Specs

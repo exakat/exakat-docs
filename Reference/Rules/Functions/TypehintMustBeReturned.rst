@@ -33,10 +33,8 @@ See also `Return Type Declaration <https://www.php.net/manual/en/functions.retur
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Return+value+of+foo%28%29+must+be+an+instance+of+Bar%2C+none+returned+.html>`_
-  + `1 <https://php-errors.readthedocs.io/en/latest/messages/A+function+with+return+type+must+return+a+value+%28did+you+mean+%22return+null%3B%22+instead+of+%22return%3B%22%3F%29.html>`_
-  + `2 <https://php-errors.readthedocs.io/en/latest/messages/A+never-returning+function+must+not+return.html>`_
-  + `3 <https://php-errors.readthedocs.io/en/latest/messages/Return+value+must+be+of+type+mixed%2C+none+returned.html>`_
+  + `A function with return type must return a value <https://php-errors.readthedocs.io/en/latest/messages/a-function-with-return-type-must-return-a-value.html>`_
+  + `A never-returning function must not return <https://php-errors.readthedocs.io/en/latest/messages/a-never-returning-%25s-must-not-return.html>`_
 
 
 

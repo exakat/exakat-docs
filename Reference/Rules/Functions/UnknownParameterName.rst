@@ -31,8 +31,8 @@ See also `Named Arguments <https://wiki.php.net/rfc/named_params>`_ and :ref:`Wr
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Unknown+named+parameter+%24d+in.html>`_
-  + `1 <https://php-errors.readthedocs.io/en/latest/messages/array_merge%28%29+does+not+accept+unknown+named+parameters.html>`_
+  + `Unknown named parameter $d in <https://php-errors.readthedocs.io/en/latest/messages/unknown-named-parameter-%24%25s.html>`_
+  + `array_merge() does not accept unknown named parameters <https://php-errors.readthedocs.io/en/latest/messages/array_merge%5C%28%5C%29-does-not-accept-unknown-named-parameters.html>`_
 
 
 

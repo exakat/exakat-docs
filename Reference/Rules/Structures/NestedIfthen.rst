@@ -5,7 +5,7 @@
 Nested Ifthen
 +++++++++++++
 
-  Three levels of ifthen is too much. The method should be split into smaller functions.
+  Nesting ``ifthen`` structures increases the complexity of a method. This rules uses three levels of ifthen to signal a complex structure. When a method has such a command, it should be split into smaller methods.
 
 .. code-block:: php
    

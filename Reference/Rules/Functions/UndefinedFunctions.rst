@@ -29,7 +29,7 @@ See also `Functions <https://www.php.net/manual/en/language.functions.php>`_.
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Undefined+function.html>`_
+  + `Undefined function <https://php-errors.readthedocs.io/en/latest/messages/call-to-undefined-function-%25s%5C%28%5C%29.html>`_
 
 
 

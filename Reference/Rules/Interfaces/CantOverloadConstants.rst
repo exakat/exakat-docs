@@ -5,7 +5,7 @@
 Cant Overload Constants
 +++++++++++++++++++++++
 
-  It was not possible to overload class constants within a class, when the constant was defined in an interface.
+  It was not possible to overload class constants within a class, when the constant was defined in an interface. This restriction was removed in PHP 8.1.
 
 .. code-block:: php
    
@@ -27,7 +27,7 @@ See also `interface constants <https://www.php.net/manual/en/language.oop5.inter
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Cannot+inherit+previously-inherited+or+override+constant+A+from+interface+.html>`_
+  + `Cannot inherit previously-inherited or override constant A from interface i <https://php-errors.readthedocs.io/en/latest/messages/cannot-inherit-previously-inherited-or-override-constant-%25s-from-interface-%25s.html>`_
 
 
 

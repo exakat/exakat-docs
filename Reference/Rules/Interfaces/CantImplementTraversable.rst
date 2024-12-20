@@ -5,9 +5,9 @@
 Can't Implement Traversable
 +++++++++++++++++++++++++++
 
-  It is not possible to implement the ``Traversable`` interface. The alternative is to implement ``Iterator`` or ``IteratorAggregate``, which also implements ``Traversable``.
+  It is not possible to implement the ``Traversable`` interface directly. It is possible to implement it via the ``Iterator`` and ``IteratorAggregate`` classes, which, in turn, implements ``Traversable``.
 
-``Traversable`` may be useful when used with ``instanceof``.
+``Traversable`` may be useful when used with ``instanceof``, ``catch`` or any type specification.
 
 .. code-block:: php
    
@@ -29,8 +29,8 @@ See also `Traversable <https://www.php.net/manual/en/class.traversable.php>`_, `
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Class+x+must+implement+interface+Traversable+as+part+of+either+Iterator+or+IteratorAggregate.html>`_
-  + `1 <https://php-errors.readthedocs.io/en/latest/messages/Class+b+cannot+implement+previously+implemented+interface+i.html>`_
+  + `%s %s must implement interface %s as part of either %s or %s <https://php-errors.readthedocs.io/en/latest/messages/%25s-%25s-must-implement-interface-%25s-as-part-of-either-%25s-or-%25s.html>`_
+  + `class %s must implement interface %s as part of either %s or %s <https://php-errors.readthedocs.io/en/latest/messages/class-%25s-must-implement-interface-%25s-as-part-of-either-%25s-or-%25s.html>`_
 
 
 
@@ -38,12 +38,13 @@ Connex PHP features
 -------------------
 
   + `interface <https://php-dictionary.readthedocs.io/en/latest/dictionary/interface.ini.html>`_
+  + `throwable <https://php-dictionary.readthedocs.io/en/latest/dictionary/throwable.ini.html>`_
 
 
 Suggestions
 ___________
 
-* Implement Iterator or IteratorAggregate
+* Extend ``Iterator`` or ``IteratorAggregate``.
 
 
 

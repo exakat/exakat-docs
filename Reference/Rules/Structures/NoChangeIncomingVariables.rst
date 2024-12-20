@@ -22,7 +22,8 @@ It is recommended to put the modified values in another variable, and keep the o
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Cannot+re-assign+auto-global+variable.html>`_
+  + `Cannot re-assign $this <https://php-errors.readthedocs.io/en/latest/messages/cannot-re-assign-%24this.html>`_
+  + `Cannot re-assign auto-global variable $_GET <https://php-errors.readthedocs.io/en/latest/messages/cannot-re-assign-auto-global-variable-%25s.html>`_
 
 
 

@@ -22,8 +22,8 @@ See also `Enumeration Methods <https://www.php.net/manual/en/language.enumeratio
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Enum+may+not+include+__construct.html>`_
-  + `1 <https://php-errors.readthedocs.io/en/latest/messages/Enum+may+not+include+__isset.html>`_
+  + `Enum may not include __construct <https://php-errors.readthedocs.io/en/latest/messages/enum-%25s-cannot-include-magic-method-%25s.html>`_
+  + `Enum may not include __isset <https://php-errors.readthedocs.io/en/latest/messages/enum-%25s-cannot-include-magic-method-%25s.html>`_
 
 
 

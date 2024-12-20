@@ -30,6 +30,15 @@ Connex PHP features
   + `loop <https://php-dictionary.readthedocs.io/en/latest/dictionary/loop.ini.html>`_
 
 
+Suggestions
+___________
+
+* Add a check before using the result of the method.
+* Add a counter to break the loop after a limit of loops.
+
+
+
+
 Specs
 _____
 

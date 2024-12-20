@@ -34,6 +34,11 @@ By default, this analysis report universal access (0777). It is possible to make
 
 See also :ref:`Mkdir Default <mkdir-default>` and `Least Privilege Violation <https://owasp.org/www-community/vulnerabilities/Least_Privilege_Violation>`_.
 
+Connex PHP features
+-------------------
+
+  + `file-access <https://php-dictionary.readthedocs.io/en/latest/dictionary/file-access.ini.html>`_
+
 
 Suggestions
 ___________

@@ -5,7 +5,8 @@
 include_once() Usage
 ++++++++++++++++++++
 
-  Usage of include_once() and require_once(). Those functions should be avoided for performances reasons.
+  This rules reports sage of ``include_once()`` and ``require_once()``. Those functions should be avoided for performances reasons.
+
 Try using autoload for loading classes, or use include() or require() and make it possible to include several times the same file without errors.
 
 .. code-block:: php
@@ -19,6 +20,12 @@ Try using autoload for loading classes, or use include() or require() and make i
    include_once 'lib/helpers.inc';
    
    ?>
+Connex PHP features
+-------------------
+
+  + `include <https://php-dictionary.readthedocs.io/en/latest/dictionary/include.ini.html>`_
+  + `include_once <https://php-dictionary.readthedocs.io/en/latest/dictionary/include_once.ini.html>`_
+
 
 Suggestions
 ___________

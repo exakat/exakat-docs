@@ -1,13 +1,13 @@
 .. _structures-nodirectusage:
 
-.. _no-direct-usage:
+.. _no-direct-usage-of-returned-value:
 
-No Direct Usage
-+++++++++++++++
+No Direct Usage Of Returned Value
++++++++++++++++++++++++++++++++++
 
   The results of the following functions shouldn't be used directly, but checked first. 
 
-For example, `glob() <https://www.php.net/glob>`_ returns an array, unless some `error <https://www.php.net/error>`_ happens, in which case it returns a boolean (false). In such case, however rare it is, plugging `glob() <https://www.php.net/glob>`_ directly in a `foreach() <https://www.php.net/manual/en/control-structures.foreach.php>`_ loops will yield errors.
+For example, `glob() <https://www.php.net/glob>`_ returns an array, unless an `error <https://www.php.net/error>`_ happens, in which case it returns ``false``. In such case, however rare it is, plugging `glob() <https://www.php.net/glob>`_ directly in a `foreach() <https://www.php.net/manual/en/control-structures.foreach.php>`_ loops yields errors.
 
 .. code-block:: php
    
@@ -21,6 +21,13 @@ For example, `glob() <https://www.php.net/glob>`_ returns an array, unless some 
            foreach($files as $file) { /* do Something */ }.
        }
    ?>
+Related PHP errors 
+-------------------
+
+  + `foreach() argument must be of type array|object, false given  <https://php-errors.readthedocs.io/en/latest/messages/foreach%5C%28%5C%29-argument-must-be-of-type-array%5C%7Cobject.html>`_
+
+
+
 
 Suggestions
 ___________

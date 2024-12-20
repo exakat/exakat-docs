@@ -28,7 +28,7 @@ This was not checked until PHP 8.3, where it is now a Fatal `Error <https://www.
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Access+level+to+x%3A%3AI+must+be+public+%28as+in+interface+i%29.html>`_
+  + `Access level to x::I must be public (as in interface i) <https://php-errors.readthedocs.io/en/latest/messages/cannot-inherit-previously-inherited-or-override-constant-%25s-from-interface-%25s.html>`_
 
 
 
@@ -44,6 +44,7 @@ ___________
 
 * Set the constant visibility in the class to public
 * Remove the visibility of the constant in the class
+* Remove the implementation of the interface in the class
 
 
 

@@ -22,6 +22,13 @@ Duplicate Enum Case Value
    }
    
    ?>
+Related PHP errors 
+-------------------
+
+  + `Duplicate value in enum %s for cases %s and %s <https://php-errors.readthedocs.io/en/latest/messages/duplicate-type-%25s-is-redundant.html>`_
+
+
+
 Connex PHP features
 -------------------
 

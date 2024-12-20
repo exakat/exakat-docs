@@ -20,6 +20,11 @@ The same pattern is not reported with -, as it is legit expression. + sign is us
 
 See also `Incrementing/Decrementing Operators <https://www.php.net/manual/en/language.operators.increment.php>`_ and `Arithmetic Operators <https://www.php.net/manual/en/language.operators.arithmetic.php>`_.
 
+Connex PHP features
+-------------------
+
+  + `pre-increment <https://php-dictionary.readthedocs.io/en/latest/dictionary/pre-increment.ini.html>`_
+
 
 Suggestions
 ___________

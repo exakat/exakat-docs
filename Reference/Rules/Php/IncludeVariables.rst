@@ -5,7 +5,7 @@
 Include Variables
 +++++++++++++++++
 
-  When include, and its cousins, are used with a variable, or any data container.
+  This rule reports when ``include``, ``require`` and its cousins, are used with a variable, or any data container. This is a dynamic inclusion.
 
 .. code-block:: php
    
@@ -14,6 +14,11 @@ Include Variables
    include $fileToPath;
    
    ?>
+Connex PHP features
+-------------------
+
+  + `include <https://php-dictionary.readthedocs.io/en/latest/dictionary/include.ini.html>`_
+
 
 Specs
 _____

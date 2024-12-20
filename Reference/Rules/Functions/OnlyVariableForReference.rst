@@ -29,9 +29,9 @@ See also `Passing arguments by reference <https://www.php.net/manual/en/function
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Only+variables+can+be+passed+by+reference.html>`_
-  + `1 <https://php-errors.readthedocs.io/en/latest/messages/Cannot+pass+parameter+1+by+reference.html>`_
-  + `2 <https://php-errors.readthedocs.io/en/latest/messages/Argument+cannot+be+passed+by+reference.html>`_
+  + `Only variables should be passed by reference <https://php-errors.readthedocs.io/en/latest/messages/only-variables-should-be-passed-by-reference.html>`_
+  + `Only variables can be passed by reference <https://php-errors.readthedocs.io/en/latest/messages/only-variables-can-be-passed-by-reference.html>`_
+  + `Cannot pass parameter 1 by reference <https://php-errors.readthedocs.io/en/latest/messages/cannot-pass-parameter-%25d-by-reference.html>`_
 
 
 

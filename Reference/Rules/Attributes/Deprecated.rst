@@ -25,6 +25,11 @@ The full description of the deprecation include ``#[Deprecated(reason: '', repla
 
 See also `#[Deprecated] <https://blog.jetbrains.com/phpstorm/2020/10/phpstorm-2020-3-eap-4/>`_.
 
+Connex PHP features
+-------------------
+
+  + `deprecation <https://php-dictionary.readthedocs.io/en/latest/dictionary/deprecation.ini.html>`_
+
 
 Suggestions
 ___________

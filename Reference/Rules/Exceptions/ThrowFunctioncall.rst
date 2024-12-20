@@ -26,7 +26,8 @@ When the ``new`` keyword is forgotten, then the class constructor is used as a f
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Call+to+undefined+function.html>`_
+  + `Call to undefined function <https://php-errors.readthedocs.io/en/latest/messages/call-to-undefined-function.html>`_
+  + `Call to undefined function %s() <https://php-errors.readthedocs.io/en/latest/messages/call-to-undefined-function-%25s%28%29.html>`_
 
 
 

@@ -5555,10 +5555,10 @@ $build or $signature are empty at that point, no need to calculate their respect
         }
 
 
-.. _case-no-direct-usage:
+.. _case-no-direct-usage-of-returned-value:
 
-No Direct Usage
-###############
+No Direct Usage Of Returned Value
+#################################
 
 .. _case-edusoho-structures-nodirectusage:
 
@@ -5566,7 +5566,7 @@ Edusoho
 +++++++
 
 
-:ref:`no-direct-usage`, in edusoho/src/AppBundle/Controller/Admin/FinanceSettingController.php:107. 
+:ref:`no-direct-usage-of-returned-value`, in edusoho/src/AppBundle/Controller/Admin/FinanceSettingController.php:107. 
 
 Glob() returns false, in case of error. It returns an empty array in case everything is fine, but nothing was found. In case of error, array_map() will stop the script.
 
@@ -5581,7 +5581,7 @@ XOOPS
 +++++
 
 
-:ref:`no-direct-usage`, in htdocs/Frameworks/moduleclasses/moduleadmin/moduleadmin.php:585. 
+:ref:`no-direct-usage-of-returned-value`, in htdocs/Frameworks/moduleclasses/moduleadmin/moduleadmin.php:585. 
 
 Although the file is readable, file() may return false in case of failure. On the other hand, implode doesn't accept boolean values.
 

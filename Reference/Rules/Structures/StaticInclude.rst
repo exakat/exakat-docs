@@ -20,6 +20,12 @@ This rule is a collaboration with `Bohuslav Šimek <https://twitter.com/Bohuslav
    include $include;
    
    ?>
+Connex PHP features
+-------------------
+
+  + `include <https://php-dictionary.readthedocs.io/en/latest/dictionary/include.ini.html>`_
+  + `static-expression <https://php-dictionary.readthedocs.io/en/latest/dictionary/static-expression.ini.html>`_
+
 
 Specs
 _____
