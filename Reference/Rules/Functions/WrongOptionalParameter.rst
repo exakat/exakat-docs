@@ -9,11 +9,7 @@ Wrong Optional Parameter
 
 PHP parameters are optional when they defined with a default value, like this : 
 
-
-
 When a function have both compulsory and optional parameters, the compulsory ones should appear first, and the optional should appear last : 
-
-
 
 PHP solves this problem at runtime, assign values in the same other, but will miss some of the default values and emits warnings. 
 
