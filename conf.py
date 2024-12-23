@@ -56,7 +56,7 @@ author = u'Damien Seguy'
 # built documents.
 #
 # The short X.Y version.
-version = u'2.3.6'
+version = u'2.6.8'
 # The full version, including alpha/beta/rc tags.
 release = u'1'
 
@@ -298,3 +298,8 @@ html_extra_path = ["googlee919cb0917e4fefc.html",
 					"sitemap-rulesets.xml",
 					"sitemap-reports.xml"
 					]
+
+html_js_files = [
+    'js/custom.js',
+    'https://www.googletagmanager.com/gtag/js?id=G-29LCZ34CDW'
+]
