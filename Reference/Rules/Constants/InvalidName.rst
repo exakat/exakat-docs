@@ -31,7 +31,7 @@ See also `Constants <https://www.php.net/manual/en/language.constants.php>`_.
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/syntax+error%2C+unexpected+%27-%27%2C+expecting+%27%3D%27.html>`_
+  + `syntax error, unexpected '-', expecting '=' <https://php-errors.readthedocs.io/en/latest/messages/syntax-error%5C%2C-unexpected-%5C%27-%5C%27%5C%2C-expecting-%5C%27%5C%3D%5C%27.html>`_
 
 
 

@@ -35,7 +35,7 @@ See also `Interface segregation principle <https://en.wikipedia.org/wiki/Interfa
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Undefined+constant+y%3A%3AI4.html>`_
+  + `Undefined constant y::I4 <https://php-errors.readthedocs.io/en/latest/messages/undefined-constant-%25s%3A%3A%25s.html>`_
 
 
 

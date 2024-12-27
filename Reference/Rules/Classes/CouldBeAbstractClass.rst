@@ -15,7 +15,6 @@ That will prevent new code to try to instantiate it.
    
    // Example code would actually be split over multiple files.
    
-   
    // That class could be abstract
    class motherClass {}
    

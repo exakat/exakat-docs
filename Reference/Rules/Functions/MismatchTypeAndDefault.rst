@@ -46,8 +46,8 @@ See also `Type declarations <https://www.php.net/manual/en/functions.arguments.p
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Argument+1+passed+to+foo%28%29+must+be+of+the+type+integer%2C+string+given.html>`_
-  + `1 <https://php-errors.readthedocs.io/en/latest/messages/Default+value+for+parameters+with+a+int+type+can+only+be+int+or+NULL+.html>`_
+  + `Argument 1 passed to foo() must be of the type integer, string given <https://php-errors.readthedocs.io/en/latest/messages/argument-%23%25d-%5C%28%24%25s%5C%29-must-be-of-type-%25s%5C%2C-%25s-given.html>`_
+  + `Default value for parameters with a int type can only be int or NULL <https://php-errors.readthedocs.io/en/latest/messages/default-value-for-parameters-with-a-%25s-type-can-only-be-%25s-or-null.html>`_
 
 
 

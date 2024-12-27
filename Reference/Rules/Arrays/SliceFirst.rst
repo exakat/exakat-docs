@@ -7,8 +7,6 @@ Slice Arrays First
 
   Always start by reducing an array before applying some transformation on it. The shorter array will be processed faster. 
 
-
-
 The gain produced here is greater with longer arrays, or greater reductions. They may also be used in loops. This is a micro-optimisation when used on short arrays.
 
 .. code-block:: php

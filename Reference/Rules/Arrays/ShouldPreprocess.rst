@@ -7,8 +7,6 @@ Preprocess Arrays
 
   Using long list of assignations for initializing arrays is significantly slower than the declaring them as an array. 
 
-
-
 If the array has to be completed rather than created, it is also faster to use += when there are more than ten elements to add.
 
 .. code-block:: php

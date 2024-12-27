@@ -39,8 +39,7 @@ See also `Passing by reference <https://www.php.net/manual/en/language.reference
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Only+variables+should+be+passed+by+reference.html>`_
-  + `1 <https://php-errors.readthedocs.io/en/latest/messages/Argument+cannot+be+passed+by+reference.html>`_
+  + `Only variables should be passed by reference <https://php-errors.readthedocs.io/en/latest/messages/only-variables-should-be-passed-by-reference.html>`_
 
 
 

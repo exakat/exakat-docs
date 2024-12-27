@@ -7,8 +7,6 @@ Too Many Array Dimensions
 
   This analysis reports when arrays have too many dimensions. This happens when arrays are too deeply nested inside other arrays. 
 
-
-
 PHP has no nesting limit, and accepts any number of of dimensions. This is usually very memory hungry, and could be better replaced with classes.
 
 The default threshold for this rule is 3 (see examples above).

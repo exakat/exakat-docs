@@ -11,8 +11,6 @@ Magic methods, such as `__get() <https://www.php.net/manual/en/language.oop5.mag
 
 It is recommended to use the magic method with its intended usage, and not to call it directly. For example, typecast to ``string`` instead of calling the `__toString() <https://www.php.net/manual/en/language.oop5.magic.php>`_ method.
 
-
-
 Accessing those methods in a `static <https://www.php.net/manual/en/language.oop5.static.php>`_ way is also discouraged.
 
 .. code-block:: php

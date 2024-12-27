@@ -28,7 +28,7 @@ Currently, this analysis doesn't take into account ``strict_types = 1``. As such
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Argument+%231+%28%24s%29+must+be+of+type+X%2C+int+given.html>`_
+  + `Argument #1 ($s) must be of type X, int given <https://php-errors.readthedocs.io/en/latest/messages/argument-%23%25d-%28%24%25s%29-must-be-of-type-%25s%2C-%25s-given.html>`_
 
 
 

@@ -34,7 +34,7 @@ PHP emits an `error <https://www.php.net/error>`_ at runtime, when arguments are
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Too+few+arguments+to+function+Foo%3A%3ABar%28%29%2C+1+passed.html>`_
+  + `Too few arguments to function Foo::Bar(), 1 passed <https://php-errors.readthedocs.io/en/latest/messages/too-few-arguments-to-function-%25s%25s%25s%28%29%2C-%25d-passed-and-%25s-%25d.html>`_
 
 
 

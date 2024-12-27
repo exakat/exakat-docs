@@ -31,7 +31,7 @@ See also `Passing arguments by reference <https://www.php.net/manual/en/function
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Argument+%233+%28%24matches%29+cannot+be+passed+by+reference.html>`_
+  + `%s()-Argument #%d ($%s) cannot be passed by reference <https://php-errors.readthedocs.io/en/latest/messages/%25s%28%29%3A-argument-%23%25d%25s%25s%25s-cannot-be-passed-by-reference.html>`_
 
 
 

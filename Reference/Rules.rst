@@ -13096,7 +13096,7 @@ Directory by PHP Error message
 
 Exakat helps reduce the amount of error and warning that code is producing by reporting pattern that are likely to emit errors.
 
-264 PHP error message detailled : 
+262 PHP error message detailled : 
 
 * :ref:`"boolean" will be interpreted as a class name. Did you mean "bool"? <not-a-scalar-type>`
 * :ref:`"continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? <continue-is-for-loop>`
@@ -13105,6 +13105,8 @@ Exakat helps reduce the amount of error and warning that code is producing by re
 * :ref:`%s %s inherits both %s\:\:%s and %s\:\:%s <overwritten-class-constants>`
 * :ref:`%s%s%s\(\)\:-argument-#%d%s%s%s-must-be-passed-by-reference\,-value-given <no-literal-for-reference>`
 * :ref:`%s%s%s\(\)\:-argument-#%d%s%s%s-must-be-passed-by-reference\,-value-given <no-literal-for-reference>`
+* :ref:`%s()-expects-exactly-0-arguments,-%d-given <wrong-number-of-arguments>`
+* :ref:`%s():-argument-#%d%s%s%s-cannot-be-passed-by-reference <only-variable-passed-by-reference>`
 * :ref:`%s-%s-cannot-implement-interface-%s,-extend-exception-or-error-instead <can't-implement-throwable>`
 * :ref:`%s-%s-must-implement-interface-%s-as-part-of-either-%s-or-%s <can't-implement-traversable>`
 * :ref:`'break' operator accepts only positive integers <break-with-0>`
@@ -13120,14 +13122,9 @@ Exakat helps reduce the amount of error and warning that code is producing by re
 * :ref:`Argument #1 ($array) cannot be passed by reference <only-variable-passed-by-reference>`
 * :ref:`Argument #1 ($array) could not be passed by reference <only-variable-passed-by-reference>`
 * :ref:`Argument #1 ($line) must be passed by reference <array\_map()-passes-by-value>`
-* :ref:`Argument #1 ($s) must be of type X, int given <wrong-type-with-call>`
 * :ref:`Argument #1 ($value) must contain at least one element <no-max-on-empty-array>`
 * :ref:`Argument #1 must be of type float, string given <wrong-type-for-native-php-function>`
 * :ref:`Argument #2 ($encoding) must be a valid encoding, "xxx" given <mbstring-unknown-encodings>`
-* :ref:`Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported <case-insensitive-constants>`
-* :ref:`Argument #3 ($matches) cannot be passed by reference <only-variable-passed-by-reference>`
-* :ref:`Argument 1 passed to foo() must be of the type integer, string given <mismatch-type-and-default>`
-* :ref:`Argument cannot be passed by reference <class-typed-references>`
 * :ref:`Argument must be of type int, array given <wrong-parameter-type>`
 * :ref:`Array and string offset access syntax with curly braces is deprecated <no-more-curly-arrays>`
 * :ref:`Array to string conversion <invalid-cast>`
@@ -13198,10 +13195,8 @@ Exakat helps reduce the amount of error and warning that code is producing by re
 * :ref:`Declaration of ab\:\:foo($a) must be compatible with a\:\:foo($a = 1) <incompatible-signature-methods>`
 * :ref:`Declaration of ab\:\:foo($a) should be compatible with a\:\:foo($a = 1) <incompatible-signature-methods-with-covariance>`
 * :ref:`Declaration of ab\:\:foo($a) should be compatible with a\:\:foo($a = 1) <incompatible-signature-methods>`
-* :ref:`Default value for parameters with a int type can only be int or NULL <mismatch-type-and-default>`
 * :ref:`Defining a custom assert() function is deprecated, as the function has special semantics <assert-function-is-reserved>`
 * :ref:`Delimiter must not be alphanumeric or backslash <regex-inventory>`
-* :ref:`Deprecated: Required parameter $y follows optional parameter $x <wrong-optional-parameter>`
 * :ref:`Empty delimiter <no-empty-string-with-explode()>`
 * :ref:`Failed to open stream: +wr' is not a valid mode for fopen <wrong-fopen()-mode>`
 * :ref:`Generators cannot return values using "return" <no-return-for-generator>`
@@ -13218,19 +13213,14 @@ Exakat helps reduce the amount of error and warning that code is producing by re
 * :ref:`No ending delimiter '/' <regex-inventory>`
 * :ref:`Non-static method A\:\:B() should not be called statically <non-static-methods-called-in-a-static>`
 * :ref:`Non-static method x\:\:foo() cannot be called statically <static-methods-cannot-call-non-static-methods>`
-* :ref:`Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior <strpos()-with-integers>`
 * :ref:`Object of class stdClass could not be converted to <no-valid-cast>`
 * :ref:`Object of class stdClass could not be converted to float <invalid-cast>`
 * :ref:`Object of class stdClass could not be converted to int <invalid-cast>`
 * :ref:`Octal escape sequence overflow \500 is greater than \377 <invalid-octal-in-string>`
 * :ref:`Old style constructors are DEPRECATED in PHP 7.0, and will be removed in a future version. You should always use __construct() in new code. <old-style-constructor>`
 * :ref:`Only the first byte will be assigned to the string offset <only-first-byte->`
-* :ref:`Only variable references should be returned by reference <no-literal-for-reference>`
 * :ref:`Only variable references should be returned by reference <no-reference-for-ternary>`
-* :ref:`Only variable references should be returned by reference <no-referenced-void>`
-* :ref:`Only variables should be passed by reference <class-typed-references>`
 * :ref:`Only variables should be passed by reference <parenthesis-as-parameter>`
-* :ref:`Optional parameter $a declared before required parameter $b is implicitly treated as a required parameter <wrong-optional-parameter>`
 * :ref:`Passing null to parameter #2 ($offset) of type int is deprecated <no-null-for-native-php-functions>`
 * :ref:`Private constant MyClass\:\:Z cannot be final as it is not visible to other classes <final-constant>`
 * :ref:`Private methods cannot be final as they are never overridden by other classes <final-private-methods>`
@@ -13249,9 +13239,6 @@ Exakat helps reduce the amount of error and warning that code is producing by re
 * :ref:`The behavior of unparenthesized expressions containing both '.' and '>>'/'<<' will change in PHP 8: '<<'/'>>' will take a higher precedence <concat-and-addition>`
 * :ref:`The magic method x\:\:__call() must have public visibility <magic-visibility>`
 * :ref:`The parent constructor was not called: the object is in an invalid state <must-call-parent-constructor>`
-* :ref:`Too few arguments to function Foo\:\:Bar(), 1 passed <wrong-number-of-arguments-in-methods>`
-* :ref:`Too few arguments to function foo(), 1 passed and exactly 2 expected <wrong-number-of-arguments>`
-* :ref:`Too few arguments to function foo(), 1 passed and exactly 2 expected <wrong-optional-parameter>`
 * :ref:`Trait 'T' not found <undefined-trait>`
 * :ref:`Trait 'a' not found <trait-not-found>`
 * :ref:`Trait method M has not been applied, because there are collisions with other trait methods on C <method-collision-traits>`
@@ -13262,13 +13249,10 @@ Exakat helps reduce the amount of error and warning that code is producing by re
 * :ref:`Type of b\:\:$b must be A (as in class a) <mismatch-properties-typehints>`
 * :ref:`Type z: unknown format code <pack-format-inventory>`
 * :ref:`Typed property x\:\:$p2 must not be accessed before initialization <untyped-no-default-properties>`
-* :ref:`Uncaught ArgumentCountError: Too few arguments to function, 0 passed <wrong-number-of-arguments>`
 * :ref:`Uncaught TypeError: Cannot auto-initialize an array inside property x\:\:$P of type bool <false-to-array-conversion>`
 * :ref:`Undefined array key 2 <possible-missing-subpattern>`
-* :ref:`Undefined constant 'A' <undefined-constants>`
 * :ref:`Undefined constant 'y' <undefined-constant-name>`
 * :ref:`Undefined constant <undefined-class-constants>`
-* :ref:`Undefined constant y\:\:I4 <insufficient-typehint>`
 * :ref:`Undefined property <don't-unset-properties>`
 * :ref:`Undefined property: x\:\:$e <undefined-properties>`
 * :ref:`Undefined variable: <casting-ternary>`
@@ -13288,6 +13272,8 @@ Exakat helps reduce the amount of error and warning that code is producing by re
 * :ref:`__clone method called on non-object <clone-with-non-object>`
 * :ref:`a-function-with-return-type-must-return-a-value <type-must-be-returned>`
 * :ref:`a-never-returning-%s-must-not-return <type-must-be-returned>`
+* :ref:`argument-#%d-($%s)-must-be-of-type-%s,-%s-given <wrong-type-with-call>`
+* :ref:`argument-#%d-\($%s\)-must-be-of-type-%s\,-%s-given <mismatch-type-and-default>`
 * :ref:`argument-#%d-\($%s\)-must-be-of-type-%s\,-%s-given <undefined-interfaces>`
 * :ref:`array_merge() expects at least 1 parameter, 0 given <array\_merge()-and-variadic>`
 * :ref:`array_merge()-does-not-accept-unknown-named-parameters <no-spread-for-hash>`
@@ -13317,7 +13303,9 @@ Exakat helps reduce the amount of error and warning that code is producing by re
 * :ref:`class-%s-must-implement-interface-%s-as-part-of-either-%s-or-%s <can't-implement-traversable>`
 * :ref:`class_alias(): Argument #1 ($class) must be a user-defined class name, internal class name given <class\_alias()-supports-internal-classes>`
 * :ref:`constant-%s-is-deprecated <php-8.1-removed-constants>`
-* :ref:`define(): Declaration of case-insensitive constants is deprecated <case-insensitive-constants>`
+* :ref:`default-value-for-parameters-with-a-%s-type-can-only-be-%s-or-null <mismatch-type-and-default>`
+* :ref:`define\(\)\:-argument-#3-\($case_insensitive\)-is-ignored-since-declaration-of-case-insensitive-constants-is-no-longer-supported <case-insensitive-constants>`
+* :ref:`define\(\)\:-declaration-of-case-insensitive-constants-is-deprecated <case-insensitive-constants>`
 * :ref:`duplicate-type-%s-is-redundant <duplicate-enum-case-value>`
 * :ref:`enum-%s-cannot-include-magic-method-%s <no-magic-method-for-enum>`
 * :ref:`enum-%s-cannot-include-magic-method-%s <no-magic-method-for-enum>`
@@ -13331,19 +13319,27 @@ Exakat helps reduce the amount of error and warning that code is producing by re
 * :ref:`mb_convert_encoding(): Handling Base64 via mbstring is deprecated; use base64_encode/base64_decode instead <deprecated-mb\_string-encodings>`
 * :ref:`named-parameter-$x-overwrites-previous-argument <duplicate-named-parameter>`
 * :ref:`needle is not a string or an integer <strpos()-with-integers>`
+* :ref:`non-string-needles-will-be-interpreted-as-strings-in-the-future.-use-an-explicit-chr()-call-to-preserve-the-current-behavior <strpos()-with-integers>`
+* :ref:`only-variable-references-should-be-returned-by-reference <no-literal-for-reference>`
 * :ref:`only-variables-can-be-passed-by-reference <only-variable-for-reference>`
+* :ref:`only-variables-should-be-passed-by-reference <class-typed-references>`
 * :ref:`only-variables-should-be-passed-by-reference <only-variable-for-reference>`
+* :ref:`optional-parameter-$%s-declared-before-required-parameter-$%s-is-implicitly-treated-as-a-required-parameter <wrong-optional-parameter>`
 * :ref:`pack(): Type t: unknown format code <invalid-pack-format>`
 * :ref:`printf(): Too few arguments <printf-number-of-arguments>`
 * :ref:`redefinition-of-parameter-$%s <multiple-definition-of-the-same-argument>`
-* :ref:`strlen() expects exactly 1 argument, 3 given <wrong-number-of-arguments>`
+* :ref:`required-parameter-$%s-follows-optional-parameter-$%s <wrong-optional-parameter>`
+* :ref:`returning-by-reference-from-a-void-function-is-deprecated <no-referenced-void>`
 * :ref:`syntax error, unexpected '&', expecting variable (T_VARIABLE) <intersection-typehint>`
 * :ref:`syntax error, unexpected ',' <reserved-match-keyword>`
-* :ref:`syntax error, unexpected '-', expecting '=' <invalid-constant-name>`
 * :ref:`syntax error, unexpected 'match' <reserved-match-keyword>`
 * :ref:`syntax error, unexpected '|', expecting variable (T_VARIABLE) <union-typehint>`
+* :ref:`syntax-error\,-unexpected-\'-\'\,-expecting-\'\=\' <invalid-constant-name>`
 * :ref:`the-each()-function-is-deprecated.-this-message-will-be-suppressed-on-further-calls <php-7.2-removed-functions>`
 * :ref:`theClass and theTrait define the same property ($property) in the composition of theClass. However, the definition differs and is considered incompatible. <incompatible-property-between-class-and-trait>`
+* :ref:`too-few-arguments-to-function-%s%s%s(),-%d-passed <wrong-number-of-arguments>`
+* :ref:`too-few-arguments-to-function-%s%s%s(),-%d-passed-and-%s-%d <wrong-number-of-arguments-in-methods>`
+* :ref:`too-few-arguments-to-function-%s%s%s(),-%d-passed-and-%s-%d-expected <wrong-number-of-arguments>`
 * :ref:`trying-to-access-array-offset-on-%s <null-or-boolean-arrays>`
 * :ref:`trying-to-access-array-offset-on-%s <null-or-boolean-arrays>`
 * :ref:`trying-to-access-array-offset-on-%s <null-or-boolean-arrays>`
@@ -13351,6 +13347,8 @@ Exakat helps reduce the amount of error and warning that code is producing by re
 * :ref:`undefined-class-constant-"%s\:\:%s" <avoid-self-in-interface>`
 * :ref:`undefined-class-constant-\'%s\:\:%s\' <unused-enumeration-case>`
 * :ref:`undefined-constant-"%s <non-constant-index-in-array>`
+* :ref:`undefined-constant-"%s <undefined-constants>`
+* :ref:`undefined-constant-%s\:\:%s <insufficient-typehint>`
 * :ref:`undefined-constant-%s\:\:%s <undefined-enumcase>`
 * :ref:`undefined-variable <missing-assignation-in-branches>`
 * :ref:`undefined-variable <nonexistent-variable-in-compact()>`

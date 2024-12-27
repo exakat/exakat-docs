@@ -20,7 +20,7 @@ See also `PHP RFC: Deprecations for PHP 8.1 <https://wiki.php.net/rfc/deprecatio
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Only+variable+references+should+be+returned+by+reference.html>`_
+  + `Returning by reference from a void function is deprecated <https://php-errors.readthedocs.io/en/latest/messages/returning-by-reference-from-a-void-function-is-deprecated.html>`_
 
 
 

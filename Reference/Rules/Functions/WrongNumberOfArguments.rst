@@ -32,9 +32,9 @@ It is recommended to check the signature of the methods, and fix the arguments.
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Uncaught+ArgumentCountError%3A+Too+few+arguments+to+function%2C+0+passed.html>`_
-  + `1 <https://php-errors.readthedocs.io/en/latest/messages/Too+few+arguments+to+function+foo%28%29%2C+1+passed+and+exactly+2+expected.html>`_
-  + `2 <https://php-errors.readthedocs.io/en/latest/messages/strlen%28%29+expects+exactly+1+argument%2C+3+given.html>`_
+  + `Too few arguments to function %s(), %s passed <https://php-errors.readthedocs.io/en/latest/messages/too-few-arguments-to-function-%25s%25s%25s%28%29%2C-%25d-passed.html>`_
+  + `Too few arguments to function foo(), 1 passed and exactly 2 expected <https://php-errors.readthedocs.io/en/latest/messages/too-few-arguments-to-function-%25s%25s%25s%28%29%2C-%25d-passed-and-%25s-%25d-expected.html>`_
+  + `%s() expects exactly 0 argument, %s given <https://php-errors.readthedocs.io/en/latest/messages/%25s%28%29-expects-exactly-0-arguments%2C-%25d-given.html>`_
 
 
 

@@ -30,9 +30,8 @@ See also `Function arguments <https://www.php.net/manual/en/functions.arguments.
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Too+few+arguments+to+function+foo%28%29%2C+1+passed+and+exactly+2+expected.html>`_
-  + `1 <https://php-errors.readthedocs.io/en/latest/messages/Deprecated%3A+Required+parameter+%24y+follows+optional+parameter+%24x.html>`_
-  + `2 <https://php-errors.readthedocs.io/en/latest/messages/Optional+parameter+%24a+declared+before+required+parameter+%24b+is+implicitly+treated+as+a+required+parameter.html>`_
+  + `Required parameter $y follows optional parameter $x <https://php-errors.readthedocs.io/en/latest/messages/required-parameter-%24%25s-follows-optional-parameter-%24%25s.html>`_
+  + `Optional parameter $a declared before required parameter $b is implicitly treated as a required parameter <https://php-errors.readthedocs.io/en/latest/messages/optional-parameter-%24%25s-declared-before-required-parameter-%24%25s-is-implicitly-treated-as-a-required-parameter.html>`_
 
 
 

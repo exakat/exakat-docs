@@ -7,8 +7,6 @@ strpos() With Integers
 
   `strpos() <https://www.php.net/strpos>`_ used to accept integer as second argument, and turn them into their ASCII equivalent. This was deprecated in PHP 7.x, and dropped in 8.0.
 
-
-
 It is recommended to use casting to ensure the variable is actually strings, and `strpos() <https://www.php.net/strpos>`_ behaves as expected.
 
 .. code-block:: php
@@ -24,7 +22,7 @@ Related PHP errors
 -------------------
 
   + `0 <https://php-errors.readthedocs.io/en/latest/messages/needle+is+not+a+string+or+an+integer.html>`_
-  + `1 <https://php-errors.readthedocs.io/en/latest/messages/Non-string+needles+will+be+interpreted+as+strings+in+the+future.+Use+an+explicit+chr%28%29+call+to+preserve+the+current+behavior.html>`_
+  + `Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior <https://php-errors.readthedocs.io/en/latest/messages/non-string-needles-will-be-interpreted-as-strings-in-the-future.-use-an-explicit-chr%28%29-call-to-preserve-the-current-behavior.html>`_
 
 
 
@@ -48,7 +46,7 @@ _____
 +------------------+-------------------------------------------------------------------------------------------------------------------------+
 | Exakat since     | 2.5.2                                                                                                                   |
 +------------------+-------------------------------------------------------------------------------------------------------------------------+
-| PHP Version      | All                                                                                                                     |
+| PHP Version      | With PHP 8.0 and more recent                                                                                            |
 +------------------+-------------------------------------------------------------------------------------------------------------------------+
 | Severity         | Minor                                                                                                                   |
 +------------------+-------------------------------------------------------------------------------------------------------------------------+

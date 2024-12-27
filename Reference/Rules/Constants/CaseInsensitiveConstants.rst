@@ -34,8 +34,8 @@ See also `define <https://www.php.net/define>`_.
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/define%28%29%3A+Declaration+of+case-insensitive+constants+is+deprecated.html>`_
-  + `1 <https://php-errors.readthedocs.io/en/latest/messages/Argument+%233+%28%24case_insensitive%29+is+ignored+since+declaration+of+case-insensitive+constants+is+no+longer+supported.html>`_
+  + `define(): Declaration of case-insensitive constants is deprecated <https://php-errors.readthedocs.io/en/latest/messages/define%5C%28%5C%29%5C%3A-declaration-of-case-insensitive-constants-is-deprecated.html>`_
+  + `Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported <https://php-errors.readthedocs.io/en/latest/messages/define%5C%28%5C%29%5C%3A-argument-%233-%5C%28%24case_insensitive%5C%29-is-ignored-since-declaration-of-case-insensitive-constants-is-no-longer-supported.html>`_
 
 
 

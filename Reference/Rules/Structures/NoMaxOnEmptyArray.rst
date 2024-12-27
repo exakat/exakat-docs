@@ -8,6 +8,7 @@ No Max On Empty Array
   Using `max() <https://www.php.net/max>`_ or `min() <https://www.php.net/min>`_ on an empty array leads to a ``valueError`` `exception <https://www.php.net/exception>`_.
 
 Until PHP 8, `max() <https://www.php.net/max>`_ and `min() <https://www.php.net/min>`_ would return null in case of empty array. This might be confusing with actual values, as an array can contain ``null``. ``null`` has a specific behavior when comparing with other values, and should be avoided with `max() <https://www.php.net/max>`_ and sorts. 
+
 Until PHP 8.0, a call on an empty array would return null, and a warning.
 
 .. code-block:: php
@@ -23,7 +24,6 @@ Until PHP 8.0, a call on an empty array would return null, and a warning.
    } else {
    	$a = max($array);
    }
-   
    
    var_dump(min([-1,  null])); // NULL
    var_dump(max([-1,  null])); // -1

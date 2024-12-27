@@ -45,7 +45,7 @@ See also `Static anonymous functions <https://www.php.net/manual/en/functions.an
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Cannot+bind+an+instance+to+a+static+closure.html>`_
+  + `Cannot bind an instance to a static closure <https://php-errors.readthedocs.io/en/latest/messages/Cannot+bind+an+instance+to+a+static+closure.html>`_
 
 
 

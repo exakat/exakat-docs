@@ -13,8 +13,6 @@ The analyzed code has less than 10% of one of them : for consistency reasons, it
 
 It happens that `array() <https://www.php.net/array>`_ or [] are used depending on coding style and files. One file may be consistently using `array() <https://www.php.net/array>`_, while the others are all using []. 
 
-
-
 The only drawback to use [] over `array() <https://www.php.net/array>`_ is backward incompatibility.
 
 .. code-block:: php

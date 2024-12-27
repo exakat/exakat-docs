@@ -28,11 +28,10 @@ Note that PHP 7.2 removes the support for this feature.
    echo "$array[index]";    // display 1
    echo "$array['index']";  // Syntax error
    
-   
    define('index', 2);
     
-    // now 1 to the element 2 in $array
-    $array[index] = 1;
+   // now 1 to the element 2 in $array
+   $array[index] = 1;
    
    ?>
 

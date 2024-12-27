@@ -27,7 +27,7 @@ See also `Constants <https://www.php.net/manual/en/language.constants.php>`_.
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Undefined+constant+%27A%27.html>`_
+  + `Undefined constant '%s' <https://php-errors.readthedocs.io/en/latest/messages/undefined-constant-%22%25s.html>`_
 
 
 

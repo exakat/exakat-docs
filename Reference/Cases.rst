@@ -3990,7 +3990,7 @@ Note the dash in the name. Either a copy/paste, or a generated definition file :
 
 .. code-block:: php
    
-    define(INS_TYPE_OTHER_NON-FEDERAL_PROGRAMS, 10);
+    define("INS_TYPE_OTHER_NON-FEDERAL_PROGRAMS", 10);
 
 
 .. _case-invalid-regex:
