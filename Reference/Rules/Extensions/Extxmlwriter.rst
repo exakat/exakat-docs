@@ -5,6 +5,21 @@
 ext/xmlwriter
 +++++++++++++
 
+.. meta\:\:
+	:description:
+		ext/xmlwriter: Extension ext/xmlwriter.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: ext/xmlwriter
+	:twitter:description: ext/xmlwriter: Extension ext/xmlwriter
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: ext/xmlwriter
+	:og:type: article
+	:og:description: Extension ext/xmlwriter
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extxmlwriter.html
+	:og:locale: en
   Extension ext/`xmlwriter <https://www.php.net/xmlwriter>`_.
 
 The `XMLWriter <https://www.php.net/xmlwriter>`_ extension wraps the libxml `xmlWriter <https://www.php.net/xmlwriter>`_ API inside PHP.

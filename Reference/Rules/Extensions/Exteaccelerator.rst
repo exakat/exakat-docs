@@ -5,6 +5,21 @@
 ext/eaccelerator
 ++++++++++++++++
 
+.. meta\:\:
+	:description:
+		ext/eaccelerator: Extension Eaccelerator.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: ext/eaccelerator
+	:twitter:description: ext/eaccelerator: Extension Eaccelerator
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: ext/eaccelerator
+	:og:type: article
+	:og:description: Extension Eaccelerator
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Exteaccelerator.html
+	:og:locale: en
   Extension Eaccelerator.
 
 eAccelerator is a free open-source PHP accelerator & optimizer. 

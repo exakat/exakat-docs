@@ -5,6 +5,21 @@
 Undefined Methods
 +++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Undefined Methods: The methods used in the code are undefined.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Undefined Methods
+	:twitter:description: Undefined Methods: The methods used in the code are undefined
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Undefined Methods
+	:og:type: article
+	:og:description: The methods used in the code are undefined
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/UndefinedMethod.html
+	:og:locale: en
   The methods used in the code are undefined. 
 
 Defined methods are found in : 

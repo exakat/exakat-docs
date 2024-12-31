@@ -5,6 +5,21 @@
 Could Be Boolean
 ++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Could Be Boolean: Reports arguments, properties, return types and class constants that can be typed boolean.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Could Be Boolean
+	:twitter:description: Could Be Boolean: Reports arguments, properties, return types and class constants that can be typed boolean
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Could Be Boolean
+	:og:type: article
+	:og:description: Reports arguments, properties, return types and class constants that can be typed boolean
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Typehints/CouldBeBoolean.html
+	:og:locale: en
   Reports arguments, properties, return types and class constants that can be typed boolean.
 
 .. code-block:: php

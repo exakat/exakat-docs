@@ -5,6 +5,21 @@
 Fopen Binary Mode
 +++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Fopen Binary Mode: Use explicit ``b`` when opening files.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Fopen Binary Mode
+	:twitter:description: Fopen Binary Mode: Use explicit ``b`` when opening files
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Fopen Binary Mode
+	:og:type: article
+	:og:description: Use explicit ``b`` when opening files
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Portability/FopenMode.html
+	:og:locale: en
   Use explicit ``b`` when opening files.
 
 `fopen() <https://www.php.net/fopen>`_ supports a ``b`` option in the second parameter, to make sure the read is binary. This is the recommended way when writing portable applications, between Linux and Windows.

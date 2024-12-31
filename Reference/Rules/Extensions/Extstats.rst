@@ -5,6 +5,21 @@
 ext/stats
 +++++++++
 
+.. meta\:\:
+	:description:
+		ext/stats: Statistics extension.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: ext/stats
+	:twitter:description: ext/stats: Statistics extension
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: ext/stats
+	:og:type: article
+	:og:description: Statistics extension
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extstats.html
+	:og:locale: en
   Statistics extension.
 
 This extension contains few dozens of functions useful for statistical computations. It is a wrapper around 2 scientific libraries, namely `DCDFLIB <https://people.sc.fsu.edu/~jburkardt/c_src/cdflib/cdflib.html>`_ (Library of C routines for Cumulative Distributions Functions, Inverses, and Other parameters) by B. Brown & J. Lavato and `RANDLIB <http://people.sc.fsu.edu/~jburkardt/f77_src/ranlib/ranlib.html>`_ by Barry Brown, James Lavato & Kathy Russell.

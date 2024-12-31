@@ -5,6 +5,21 @@
 Group Use Trailing Comma
 ++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Group Use Trailing Comma: The usage of a final empty slot in array() was allowed with use statements.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Group Use Trailing Comma
+	:twitter:description: Group Use Trailing Comma: The usage of a final empty slot in array() was allowed with use statements
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Group Use Trailing Comma
+	:og:type: article
+	:og:description: The usage of a final empty slot in array() was allowed with use statements
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/GroupUseTrailingComma.html
+	:og:locale: en
   The usage of a final empty slot in `array() <https://www.php.net/array>`_ was allowed with use statements. This works in PHP 7.2 and more recent.
 
 Although this empty instruction is ignored at execution, this allows for clean presentation of code, and short diff when committing in a VCS.

@@ -5,6 +5,21 @@
 ext/file
 ++++++++
 
+.. meta\:\:
+	:description:
+		ext/file: Filesystem functions from standard.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: ext/file
+	:twitter:description: ext/file: Filesystem functions from standard
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: ext/file
+	:og:type: article
+	:og:description: Filesystem functions from standard
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extfile.html
+	:og:locale: en
   Filesystem functions from standard.
 
 Extension that handle access to file on the file system.

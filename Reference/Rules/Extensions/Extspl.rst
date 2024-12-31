@@ -5,6 +5,21 @@
 ext/spl
 +++++++
 
+.. meta\:\:
+	:description:
+		ext/spl: SPL extension.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: ext/spl
+	:twitter:description: ext/spl: SPL extension
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: ext/spl
+	:og:type: article
+	:og:description: SPL extension
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extspl.html
+	:og:locale: en
   SPL extension.
 
 The Standard PHP Library (SPL) is a collection of interfaces and classes that are meant to solve common problems.

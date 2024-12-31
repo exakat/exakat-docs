@@ -5,6 +5,21 @@
 Regex Delimiter
 +++++++++++++++
 
+.. meta\:\:
+	:description:
+		Regex Delimiter: PCRE regular expressions may use a variety of delimiters.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Regex Delimiter
+	:twitter:description: Regex Delimiter: PCRE regular expressions may use a variety of delimiters
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Regex Delimiter
+	:og:type: article
+	:og:description: PCRE regular expressions may use a variety of delimiters
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/RegexDelimiter.html
+	:og:locale: en
   PCRE regular expressions may use a variety of delimiters. 
 
 There seems to be a standard delimiter in the code, and some exceptions : one or several forms are dominant (> 90%), while the others are rare. 

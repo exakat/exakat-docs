@@ -5,6 +5,21 @@
 Overwritten Literals
 ++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Overwritten Literals: The same variable is assigned a literal twice.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Overwritten Literals
+	:twitter:description: Overwritten Literals: The same variable is assigned a literal twice
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Overwritten Literals
+	:og:type: article
+	:og:description: The same variable is assigned a literal twice
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Variables/OverwrittenLiterals.html
+	:og:locale: en
   The same variable is assigned a literal twice. It is possible that one of the assignation is too many.
 
 This analysis doesn't take into account the distance between two assignations : it may report false positives when the variable is actually used for several purposes, and, as such, assigned twice with different values.

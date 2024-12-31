@@ -5,6 +5,21 @@
 Hidden Use Expression
 +++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Hidden Use Expression: The use expression for namespaces should always be at the beginning of the namespace block.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Hidden Use Expression
+	:twitter:description: Hidden Use Expression: The use expression for namespaces should always be at the beginning of the namespace block
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Hidden Use Expression
+	:og:type: article
+	:og:description: The use expression for namespaces should always be at the beginning of the namespace block
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Namespaces/HiddenUse.html
+	:og:locale: en
   The use expression for namespaces should always be at the beginning of the namespace block. 
 
 It is where everyone expect them, and it is less confusing than having them at various levels.

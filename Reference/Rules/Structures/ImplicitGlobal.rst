@@ -5,6 +5,21 @@
 Implicit Global
 +++++++++++++++
 
+.. meta\:\:
+	:description:
+		Implicit Global: Global variables, that are used in local scope with global keyword, but are not declared as global in the global scope.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Implicit Global
+	:twitter:description: Implicit Global: Global variables, that are used in local scope with global keyword, but are not declared as global in the global scope
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Implicit Global
+	:og:type: article
+	:og:description: Global variables, that are used in local scope with global keyword, but are not declared as global in the global scope
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ImplicitGlobal.html
+	:og:locale: en
   Global variables, that are used in local scope with global keyword, but are not declared as global in the global scope. They may be mistaken with distinct values, while, in PHP, variables in the global scope are truly global.
 
 .. code-block:: php

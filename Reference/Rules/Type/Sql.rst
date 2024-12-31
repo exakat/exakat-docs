@@ -5,6 +5,21 @@
 SQL queries
 +++++++++++
 
+.. meta\:\:
+	:description:
+		SQL queries: SQL queries, detected in literal strings.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: SQL queries
+	:twitter:description: SQL queries: SQL queries, detected in literal strings
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: SQL queries
+	:og:type: article
+	:og:description: SQL queries, detected in literal strings
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Type/Sql.html
+	:og:locale: en
   SQL queries, detected in literal strings. 
 
 SQL queries are detected with keywords, inside literals or concatenations.

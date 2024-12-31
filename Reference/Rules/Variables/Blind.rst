@@ -5,6 +5,21 @@
 Blind Variables
 +++++++++++++++
 
+.. meta\:\:
+	:description:
+		Blind Variables: Blind variables are that are used in foreach or for structure, for managing the loop itself.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Blind Variables
+	:twitter:description: Blind Variables: Blind variables are that are used in foreach or for structure, for managing the loop itself
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Blind Variables
+	:og:type: article
+	:og:description: Blind variables are that are used in foreach or for structure, for managing the loop itself
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Variables/Blind.html
+	:og:locale: en
   Blind variables are that are used in foreach or for structure, for managing the loop itself.
 
 .. code-block:: php

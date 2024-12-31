@@ -5,6 +5,21 @@
 Constructors
 ++++++++++++
 
+.. meta\:\:
+	:description:
+		Constructors: This rule marks methods as constructors.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Constructors
+	:twitter:description: Constructors: This rule marks methods as constructors
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Constructors
+	:og:type: article
+	:og:description: This rule marks methods as constructors
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/Constructor.html
+	:og:locale: en
   This rule marks methods as constructors. In PHP 8.0 and more recent, only the magic method ``__construct`` is the constructor. In older versions, the method with the same name than the class was the constructor, although with a lower priority than the magic method.
 
 .. code-block:: php

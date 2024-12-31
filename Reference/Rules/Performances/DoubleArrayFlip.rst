@@ -5,6 +5,21 @@
 Double array_flip()
 +++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Double array_flip(): Avoid double array_flip() to gain speed.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Double array_flip()
+	:twitter:description: Double array_flip(): Avoid double array_flip() to gain speed
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Double array_flip()
+	:og:type: article
+	:og:description: Avoid double array_flip() to gain speed
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Performances/DoubleArrayFlip.html
+	:og:locale: en
   Avoid double `array_flip() <https://www.php.net/array_flip>`_ to gain speed. While `array_flip() <https://www.php.net/array_flip>`_ alone is usually useful, a double call to `array_flip() <https://www.php.net/array_flip>`_ is made to make values and keys unique.
 
 .. code-block:: php

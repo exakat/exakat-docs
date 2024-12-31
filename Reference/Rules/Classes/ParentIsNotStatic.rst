@@ -5,6 +5,21 @@
 Parent Is Not Static
 ++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Parent Is Not Static: The `parent` keyword behaves like `self`, not like `static`.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Parent Is Not Static
+	:twitter:description: Parent Is Not Static: The `parent` keyword behaves like `self`, not like `static`
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Parent Is Not Static
+	:og:type: article
+	:og:description: The `parent` keyword behaves like `self`, not like `static`
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/ParentIsNotStatic.html
+	:og:locale: en
   The `parent` keyword behaves like `self`, not like `static`. It links to the `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ of the defining expression, not to the one being called.
 
 This may skip the `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ of the calling class, and create a `Undefined method` call, or yield the wrong `\:\:class` value. It may also skip a local version of the method.

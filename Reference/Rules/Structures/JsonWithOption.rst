@@ -5,6 +5,21 @@
 Use json_decode() Options
 +++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Use json_decode() Options: json_decode() returns objects by default, unless the second argument is set to ``TRUE`` or ``JSON_OBJECT_AS_ARRAY``.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Use json_decode() Options
+	:twitter:description: Use json_decode() Options: json_decode() returns objects by default, unless the second argument is set to ``TRUE`` or ``JSON_OBJECT_AS_ARRAY``
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Use json_decode() Options
+	:og:type: article
+	:og:description: json_decode() returns objects by default, unless the second argument is set to ``TRUE`` or ``JSON_OBJECT_AS_ARRAY``
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/JsonWithOption.html
+	:og:locale: en
   `json_decode() <https://www.php.net/json_decode>`_ returns objects by default, unless the second argument is set to ``TRUE`` or ``JSON_OBJECT_AS_ARRAY``. Then, it returns arrays.
 
 Avoid casting the returned value from `json_decode() <https://www.php.net/json_decode>`_, and use the second argument to directly set the correct type.

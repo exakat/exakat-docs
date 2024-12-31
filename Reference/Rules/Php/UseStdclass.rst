@@ -5,6 +5,21 @@
 Avoid Using stdClass
 ++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Avoid Using stdClass: ``stdClass`` is the default class for PHP.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Avoid Using stdClass
+	:twitter:description: Avoid Using stdClass: ``stdClass`` is the default class for PHP
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Avoid Using stdClass
+	:og:type: article
+	:og:description: ``stdClass`` is the default class for PHP
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/UseStdclass.html
+	:og:locale: en
   ``stdClass`` is the default class for PHP. It is instantiated when PHP needs to return a object, but no class is specifically available.
 
 It is recommended to avoid instantiating this class. Some PHP or frameworks functions, such as `json_encode() <https://www.php.net/json_encode>`_, do return them : this is fine, although it is reported here.

@@ -5,6 +5,21 @@
 Trait Is Not A Type
 +++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Trait Is Not A Type: A trait cannot be used for typing.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Trait Is Not A Type
+	:twitter:description: Trait Is Not A Type: A trait cannot be used for typing
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Trait Is Not A Type
+	:og:type: article
+	:og:description: A trait cannot be used for typing
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Traits/TraitIsNotAType.html
+	:og:locale: en
   A trait cannot be used for typing. It is used by a classes, and those classes should be used for typing.
 
 .. code-block:: php

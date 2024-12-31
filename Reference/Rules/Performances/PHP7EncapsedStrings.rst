@@ -5,6 +5,21 @@
 Use PHP7 Encapsed Strings
 +++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Use PHP7 Encapsed Strings: PHP 7 has optimized the handling of double-quoted strings.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Use PHP7 Encapsed Strings
+	:twitter:description: Use PHP7 Encapsed Strings: PHP 7 has optimized the handling of double-quoted strings
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Use PHP7 Encapsed Strings
+	:og:type: article
+	:og:description: PHP 7 has optimized the handling of double-quoted strings
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Performances/PHP7EncapsedStrings.html
+	:og:locale: en
   PHP 7 has optimized the handling of double-quoted strings. In particular, double-quoted strings are much less memory hungry than classic concatenations. 
 
 PHP allocates memory at the end of the double-quoted string, making only one call to the allocator. On the other hand, concatenations are allocated each time they include dynamic content, leading to higher memory consumption. 

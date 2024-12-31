@@ -5,6 +5,21 @@
 strpos() Too Much
 +++++++++++++++++
 
+.. meta\:\:
+	:description:
+		strpos() Too Much: strpos() covers the whole string before reporting 0.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: strpos() Too Much
+	:twitter:description: strpos() Too Much: strpos() covers the whole string before reporting 0
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: strpos() Too Much
+	:og:type: article
+	:og:description: strpos() covers the whole string before reporting 0
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Performances/StrposTooMuch.html
+	:og:locale: en
   `strpos() <https://www.php.net/strpos>`_ covers the whole string before reporting 0. If the expected string is expected be at the beginning, or a fixed place, it is more stable to use `substr() <https://www.php.net/substr>`_ for comparison.
 
 The longer the haystack (the searched string), the more efficient is that trick. The string has to be 10k or more to have impact, unless it is in a loop. 

@@ -5,6 +5,21 @@
 Fully Qualified Constants
 +++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Fully Qualified Constants: Constants defined with their namespace.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Fully Qualified Constants
+	:twitter:description: Fully Qualified Constants: Constants defined with their namespace
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Fully Qualified Constants
+	:og:type: article
+	:og:description: Constants defined with their namespace
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Namespaces/ConstantFullyQualified.html
+	:og:locale: en
   Constants defined with their namespace.
 
 When defining constants with `define() <https://www.php.net/define>`_ function, it is possible to include the actual namespace : 

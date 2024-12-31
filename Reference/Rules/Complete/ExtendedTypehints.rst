@@ -5,6 +5,21 @@
 Extended Typehints
 ++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Extended Typehints: Produces all the definition links between typehints (arguments, return types, properties) and the definitions that are valid with the typehint.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Extended Typehints
+	:twitter:description: Extended Typehints: Produces all the definition links between typehints (arguments, return types, properties) and the definitions that are valid with the typehint
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Extended Typehints
+	:og:type: article
+	:og:description: Produces all the definition links between typehints (arguments, return types, properties) and the definitions that are valid with the typehint
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Complete/ExtendedTypehints.html
+	:og:locale: en
   Produces all the definition links between typehints (arguments, return types, properties) and the definitions that are valid with the typehint.
 
 .. code-block:: php

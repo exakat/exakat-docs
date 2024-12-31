@@ -5,6 +5,21 @@
 Create Compact Variables
 ++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Create Compact Variables: This command creates Variable definitions, based on usage of compact().
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Create Compact Variables
+	:twitter:description: Create Compact Variables: This command creates Variable definitions, based on usage of compact()
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Create Compact Variables
+	:og:type: article
+	:og:description: This command creates Variable definitions, based on usage of compact()
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Complete/CreateCompactVariables.html
+	:og:locale: en
   This command creates Variable definitions, based on usage of `compact() <https://www.php.net/compact>`_. 
 This only works when `compact() <https://www.php.net/compact>`_ is used with literal values, or with constants. Dynamic values are not reported.
 

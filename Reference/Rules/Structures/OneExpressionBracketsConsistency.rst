@@ -5,6 +5,21 @@
 One Expression Brackets Consistency
 +++++++++++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		One Expression Brackets Consistency: Brackets around one-line expressions are not consistent.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: One Expression Brackets Consistency
+	:twitter:description: One Expression Brackets Consistency: Brackets around one-line expressions are not consistent
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: One Expression Brackets Consistency
+	:og:type: article
+	:og:description: Brackets around one-line expressions are not consistent
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/OneExpressionBracketsConsistency.html
+	:og:locale: en
   Brackets around one-line expressions are not consistent. 
 
 PHP makes bracket optional when a control structure pilot only one expression. Both are semantically identical.

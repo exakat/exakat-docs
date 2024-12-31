@@ -5,6 +5,21 @@
 Old Style Constructor
 +++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Old Style Constructor: PHP classes used to have the method bearing the same name as the class acts as the constructor.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Old Style Constructor
+	:twitter:description: Old Style Constructor: PHP classes used to have the method bearing the same name as the class acts as the constructor
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Old Style Constructor
+	:og:type: article
+	:og:description: PHP classes used to have the method bearing the same name as the class acts as the constructor
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/OldStyleConstructor.html
+	:og:locale: en
   PHP classes used to have the method bearing the same name as the class acts as the constructor. That was PHP 4, and early PHP 5. 
 
 The manual issues a warning about this syntax : ``Old style constructors are DEPRECATED in PHP 7.0, and will be removed in a future version. You should always use `__construct() <https://www.php.net/manual/en/language.oop5.decon.php>`_ in new code.``

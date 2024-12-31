@@ -5,6 +5,21 @@
 ext/judy
 ++++++++
 
+.. meta\:\:
+	:description:
+		ext/judy: The Judy extension.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: ext/judy
+	:twitter:description: ext/judy: The Judy extension
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: ext/judy
+	:og:type: article
+	:og:description: The Judy extension
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extjudy.html
+	:og:locale: en
   The `Judy <https://www.php.net/Judy>`_ extension. 
 
 PHP `Judy <https://www.php.net/Judy>`_ is a PECL extension for the `Judy C library <http://judy.sourceforge.net/>`_ implementing dynamic sparse arrays.

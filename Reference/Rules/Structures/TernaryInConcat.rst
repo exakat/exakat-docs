@@ -5,6 +5,21 @@
 Ternary In Concat
 +++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Ternary In Concat: Ternary and coalesce operator have higher priority than dot '.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Ternary In Concat
+	:twitter:description: Ternary In Concat: Ternary and coalesce operator have higher priority than dot '
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Ternary In Concat
+	:og:type: article
+	:og:description: Ternary and coalesce operator have higher priority than dot '
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/TernaryInConcat.html
+	:og:locale: en
   Ternary and coalesce operator have higher priority than dot '.' for concatenation. This means that : 
 prints actually ``'E'``, instead of the awaited ``'B0CE'``.
 

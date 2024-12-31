@@ -5,6 +5,21 @@
 No Null For Native PHP Functions
 ++++++++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		No Null For Native PHP Functions: Null is not acceptable anymore as an argument, for PHP native functions that require a non-nullable argument.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: No Null For Native PHP Functions
+	:twitter:description: No Null For Native PHP Functions: Null is not acceptable anymore as an argument, for PHP native functions that require a non-nullable argument
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: No Null For Native PHP Functions
+	:og:type: article
+	:og:description: Null is not acceptable anymore as an argument, for PHP native functions that require a non-nullable argument
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/NoNullForNative.html
+	:og:locale: en
   Null is not acceptable anymore as an argument, for PHP native functions that require a non-nullable argument.
 
 Until PHP 8.1, it was magically turned into an empty string.
@@ -24,7 +39,7 @@ See also `PHP RFC: Deprecate passing null to non-nullable arguments of internal 
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Passing+null+to+parameter+%232+%28%24offset%29+of+type+int+is+deprecated.html>`_
+  + `Passing null to parameter #%d ($%s) of type %s is deprecated <https://php-errors.readthedocs.io/en/latest/messages/%25s%28%29%3A-passing-null-to-parameter-%23%25.html>`_
 
 
 

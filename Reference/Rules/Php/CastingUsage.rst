@@ -5,6 +5,21 @@
 Cast Usage
 ++++++++++
 
+.. meta\:\:
+	:description:
+		Cast Usage: List of all cast usage.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Cast Usage
+	:twitter:description: Cast Usage: List of all cast usage
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Cast Usage
+	:og:type: article
+	:og:description: List of all cast usage
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/CastingUsage.html
+	:og:locale: en
   List of all cast usage.
 
 PHP does not require (or support) explicit type definition in variable declaration; a variable's type is determined by the context in which the variable is used. 

@@ -5,6 +5,21 @@
 Trait Methods
 +++++++++++++
 
+.. meta\:\:
+	:description:
+		Trait Methods: List the names of the methods in a trait.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Trait Methods
+	:twitter:description: Trait Methods: List the names of the methods in a trait
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Trait Methods
+	:og:type: article
+	:og:description: List the names of the methods in a trait
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Traits/TraitMethod.html
+	:og:locale: en
   List the names of the methods in a trait. 
 
 .. code-block:: php

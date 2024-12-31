@@ -5,6 +5,21 @@
 Useless Argument
 ++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Useless Argument: The argument is always used with the same value.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Useless Argument
+	:twitter:description: Useless Argument: The argument is always used with the same value
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Useless Argument
+	:og:type: article
+	:og:description: The argument is always used with the same value
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/UselessArgument.html
+	:og:locale: en
   The argument is always used with the same value. This value could be hard coded in the method, and save one argument slot.
 
 There is no indication that this argument will be used with other values. It may be a development artifact, that survived without cleaning.

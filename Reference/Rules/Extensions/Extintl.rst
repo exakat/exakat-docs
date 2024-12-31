@@ -5,6 +5,21 @@
 ext/intl
 ++++++++
 
+.. meta\:\:
+	:description:
+		ext/intl: Extension international.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: ext/intl
+	:twitter:description: ext/intl: Extension international
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: ext/intl
+	:og:type: article
+	:og:description: Extension international
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extintl.html
+	:og:locale: en
   Extension international.
 
 Internationalization extension (further is referred as Intl) is a wrapper for `ICU <http://site.icu-project.org/>`_ library, enabling PHP programmers to perform various `locale <https://www.php.net/locale>`_-aware operations including but not limited to formatting, transliteration, encoding conversion, calendar operations, `UCA <http://www.unicode.org/reports/tr10/>`_-conformant collation, locating text boundaries and working with `locale <https://www.php.net/locale>`_ identifiers, timezones and graphemes.

@@ -5,6 +5,21 @@
 Reserved Methods
 ++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Reserved Methods: PHP has reserved all the methods names, starting with two underscores characters ``__``.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Reserved Methods
+	:twitter:description: Reserved Methods: PHP has reserved all the methods names, starting with two underscores characters ``__``
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Reserved Methods
+	:og:type: article
+	:og:description: PHP has reserved all the methods names, starting with two underscores characters ``__``
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/ReservedMethods.html
+	:og:locale: en
   PHP has reserved all the methods names, starting with two underscores characters ``__``. 
 
 While this is not explicitely enforced, using such names may create future conflict if PHP acquire features that rely on them.

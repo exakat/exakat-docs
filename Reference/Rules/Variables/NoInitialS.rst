@@ -5,6 +5,21 @@
 No Initial S In Variable Names
 ++++++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		No Initial S In Variable Names: The initial capital S in a variable name, may easily be mistaken with the dollar sign.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: No Initial S In Variable Names
+	:twitter:description: No Initial S In Variable Names: The initial capital S in a variable name, may easily be mistaken with the dollar sign
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: No Initial S In Variable Names
+	:og:type: article
+	:og:description: The initial capital S in a variable name, may easily be mistaken with the dollar sign
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Variables/NoInitialS.html
+	:og:locale: en
   The initial capital S in a variable name, may easily be mistaken with the dollar sign. This rules reports all variables that use a capital S as first letter after the dollar sign, to avoid this problem.
 
 .. code-block:: php

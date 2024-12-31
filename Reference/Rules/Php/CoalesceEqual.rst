@@ -5,6 +5,21 @@
 Coalesce Equal
 ++++++++++++++
 
+.. meta\:\:
+	:description:
+		Coalesce Equal: Usage of coalesce assignment operator.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Coalesce Equal
+	:twitter:description: Coalesce Equal: Usage of coalesce assignment operator
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Coalesce Equal
+	:og:type: article
+	:og:description: Usage of coalesce assignment operator
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/CoalesceEqual.html
+	:og:locale: en
   Usage of coalesce assignment operator. The operator is available in PHP since PHP 7.4.
 
 .. code-block:: php

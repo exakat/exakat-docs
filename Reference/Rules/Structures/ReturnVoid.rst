@@ -5,6 +5,21 @@
 Return void 
 ++++++++++++
 
+.. meta\:\:
+	:description:
+		Return void : Return returns null as default value.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Return void 
+	:twitter:description: Return void : Return returns null as default value
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Return void 
+	:og:type: article
+	:og:description: Return returns null as default value
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ReturnVoid.html
+	:og:locale: en
   Return returns null as default value. It is recommended to mention explicitly 'null' or find a meaningful return such as a boolean or a default value instead.
 
 .. code-block:: php

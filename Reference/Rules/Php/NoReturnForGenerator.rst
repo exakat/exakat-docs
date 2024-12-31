@@ -5,6 +5,21 @@
 No Return For Generator
 +++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		No Return For Generator: Return is not allowed in a generator function.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: No Return For Generator
+	:twitter:description: No Return For Generator: Return is not allowed in a generator function
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: No Return For Generator
+	:og:type: article
+	:og:description: Return is not allowed in a generator function
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/NoReturnForGenerator.html
+	:og:locale: en
   Return is not allowed in a `generator <https://www.php.net/`generator <https://www.php.net/generator>`_>`_ function. In PHP versions 5.5 and 5.6, they yield a fatal `Error <https://www.php.net/error>`_.
 
 .. code-block:: php

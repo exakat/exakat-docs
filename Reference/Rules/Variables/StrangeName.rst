@@ -5,6 +5,21 @@
 Strange Name For Variables
 ++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Strange Name For Variables: Variables with strange names.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Strange Name For Variables
+	:twitter:description: Strange Name For Variables: Variables with strange names
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Strange Name For Variables
+	:og:type: article
+	:og:description: Variables with strange names
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Variables/StrangeName.html
+	:og:locale: en
   Variables with strange names. They might be a typo, or bear strange patterns.
 
 Any variable with three identical letter in a row are considered as strange. 2 letters in a row is classic, and while three letters may happen, it is rare enough. 

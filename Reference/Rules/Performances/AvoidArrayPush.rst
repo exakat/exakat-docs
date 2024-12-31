@@ -5,6 +5,21 @@
 Avoid array_push()
 ++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Avoid array_push(): array_push() is slower than the append ``[]`` operator.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Avoid array_push()
+	:twitter:description: Avoid array_push(): array_push() is slower than the append ``[]`` operator
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Avoid array_push()
+	:og:type: article
+	:og:description: array_push() is slower than the append ``[]`` operator
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Performances/AvoidArrayPush.html
+	:og:locale: en
   `array_push() <https://www.php.net/array_push>`_ is slower than the append ``[]`` operator.
 
 This is also true when the append operator is called several times, while `array_push() <https://www.php.net/array_push>`_ is be called only once, with an arbitrary number of argument. 

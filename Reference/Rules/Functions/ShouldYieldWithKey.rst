@@ -5,6 +5,21 @@
 Should Yield With Key
 +++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Should Yield With Key: iterator_to_array() overwrite generated values with the same key.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Should Yield With Key
+	:twitter:description: Should Yield With Key: iterator_to_array() overwrite generated values with the same key
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Should Yield With Key
+	:og:type: article
+	:og:description: iterator_to_array() overwrite generated values with the same key
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/ShouldYieldWithKey.html
+	:og:locale: en
   `iterator_to_array() <https://www.php.net/iterator_to_array>`_ overwrite generated values with the same key. 
 
 PHP generators are based on the ``yield`` keyword. They also delegate some generating to other methods, with ``yield from``. 

@@ -5,6 +5,21 @@
 File Is Component
 +++++++++++++++++
 
+.. meta\:\:
+	:description:
+		File Is Component: Check that a file only contains definition elements, such as traits, interfaces, enumerations, declare, classes, constants, global variables, use or inclusions.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: File Is Component
+	:twitter:description: File Is Component: Check that a file only contains definition elements, such as traits, interfaces, enumerations, declare, classes, constants, global variables, use or inclusions
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: File Is Component
+	:og:type: article
+	:og:description: Check that a file only contains definition elements, such as traits, interfaces, enumerations, declare, classes, constants, global variables, use or inclusions
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Files/IsComponent.html
+	:og:locale: en
   Check that a file only contains definition elements, such as traits, interfaces, enumerations, declare, classes, constants, global variables, use or inclusions. 
 
 Such a file is a component, that may be included in other code and there, used. By itself, it doesn't execute any code.

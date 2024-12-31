@@ -5,6 +5,21 @@
 Non Ascii Variables
 +++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Non Ascii Variables: PHP allows certain characters in variable names.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Non Ascii Variables
+	:twitter:description: Non Ascii Variables: PHP allows certain characters in variable names
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Non Ascii Variables
+	:og:type: article
+	:og:description: PHP allows certain characters in variable names
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Variables/VariableNonascii.html
+	:og:locale: en
   PHP allows certain characters in variable names. The variable name must only include letters, figures, underscores and ASCII characters from 128 to 255. 
 
 In practice, letters outside the scope of the intervalle ``[a-zA-Z0-9_]`` are rare, and require more care when editing the code or passing it from OS to OS. 

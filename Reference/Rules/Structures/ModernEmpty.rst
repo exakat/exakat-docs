@@ -5,6 +5,21 @@
 Modernize Empty With Expression
 +++++++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Modernize Empty With Expression: empty() accepts expressions as argument.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Modernize Empty With Expression
+	:twitter:description: Modernize Empty With Expression: empty() accepts expressions as argument
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Modernize Empty With Expression
+	:og:type: article
+	:og:description: empty() accepts expressions as argument
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ModernEmpty.html
+	:og:locale: en
   empty() accepts expressions as argument. This feature was added in PHP 5.5. 
 
 There is no need to store the expression in a variable before testing, unless it is reused later.

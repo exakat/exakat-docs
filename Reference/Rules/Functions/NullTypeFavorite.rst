@@ -5,6 +5,21 @@
 Null Type Favorite
 ++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Null Type Favorite: Null typed may be written in two ways : with .
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Null Type Favorite
+	:twitter:description: Null Type Favorite: Null typed may be written in two ways : with 
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Null Type Favorite
+	:og:type: article
+	:og:description: Null typed may be written in two ways : with 
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/NullTypeFavorite.html
+	:og:locale: en
   Null typed may be written in two ways : with ? or with union type and null. 
 
 The analyzed code has less than 10% of one of them : for consistency reasons, it is recommended to make them all the same.

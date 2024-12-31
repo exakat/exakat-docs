@@ -5,6 +5,21 @@
 Wrong Attribute Configuration
 +++++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Wrong Attribute Configuration: A class is attributed to the wrong PHP structure.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Wrong Attribute Configuration
+	:twitter:description: Wrong Attribute Configuration: A class is attributed to the wrong PHP structure
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Wrong Attribute Configuration
+	:og:type: article
+	:og:description: A class is attributed to the wrong PHP structure
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/WrongAttributeConfiguration.html
+	:og:locale: en
   A class is attributed to the wrong PHP structure. A class may be an `attribute <https://www.php.net/attribute>`_, and it may also be configured to be used with different structures : classes, function, parameters, etc. When an `attribute <https://www.php.net/attribute>`_ has a configuration, it must be used with the correct structure.
 
 .. code-block:: php

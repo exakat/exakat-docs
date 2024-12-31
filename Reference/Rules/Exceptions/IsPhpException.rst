@@ -5,6 +5,21 @@
 PHP Exception
 +++++++++++++
 
+.. meta\:\:
+	:description:
+		PHP Exception: Mark an exception as a native exception.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: PHP Exception
+	:twitter:description: PHP Exception: Mark an exception as a native exception
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: PHP Exception
+	:og:type: article
+	:og:description: Mark an exception as a native exception
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Exceptions/IsPhpException.html
+	:og:locale: en
   Mark an `exception <https://www.php.net/exception>`_ as a native `exception <https://www.php.net/exception>`_. They may come from PHP standard distribution or an extension.
 
 .. code-block:: php

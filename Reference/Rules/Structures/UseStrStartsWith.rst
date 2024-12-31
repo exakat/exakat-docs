@@ -5,6 +5,21 @@
 Use str_starts_with()
 +++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Use str_starts_with(): There is a dedicated function to check the prefix of a string : it is called str_starts_with().
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Use str_starts_with()
+	:twitter:description: Use str_starts_with(): There is a dedicated function to check the prefix of a string : it is called str_starts_with()
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Use str_starts_with()
+	:og:type: article
+	:og:description: There is a dedicated function to check the prefix of a string : it is called str_starts_with()
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/UseStrStartsWith.html
+	:og:locale: en
   There is a dedicated function to check the prefix of a string : it is called `str_starts_with() <https://www.php.net/str_starts_with>`_. It is available since PHP 8.0
 
 .. code-block:: php

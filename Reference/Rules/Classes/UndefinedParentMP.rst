@@ -5,6 +5,21 @@
 Undefined Parent
 ++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Undefined Parent: List of properties and methods that are accessed using ``parent`` keyword but are not defined in the parent classes.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Undefined Parent
+	:twitter:description: Undefined Parent: List of properties and methods that are accessed using ``parent`` keyword but are not defined in the parent classes
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Undefined Parent
+	:og:type: article
+	:og:description: List of properties and methods that are accessed using ``parent`` keyword but are not defined in the parent classes
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/UndefinedParentMP.html
+	:og:locale: en
   List of properties and methods that are accessed using ``parent`` keyword but are not defined in the `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ classes. 
 
 This may compile but, eventually yields a fatal `error <https://www.php.net/error>`_ during execution.

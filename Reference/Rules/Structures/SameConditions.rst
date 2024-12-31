@@ -5,6 +5,21 @@
 Same Conditions In Condition
 ++++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Same Conditions In Condition: At least two consecutive if/then structures use identical conditions.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Same Conditions In Condition
+	:twitter:description: Same Conditions In Condition: At least two consecutive if/then structures use identical conditions
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Same Conditions In Condition
+	:og:type: article
+	:og:description: At least two consecutive if/then structures use identical conditions
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/SameConditions.html
+	:og:locale: en
   At least two consecutive if/then structures use identical conditions. The latter will probably be ignored.
 
 This analysis returns false positive when there are attempt to fix a situation, or to call an alternative solution. 

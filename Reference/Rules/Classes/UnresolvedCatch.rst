@@ -5,6 +5,21 @@
 Unresolved Catch
 ++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Unresolved Catch: Catch clauses do not check for Exception existence.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Unresolved Catch
+	:twitter:description: Unresolved Catch: Catch clauses do not check for Exception existence
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Unresolved Catch
+	:og:type: article
+	:og:description: Catch clauses do not check for Exception existence
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/UnresolvedCatch.html
+	:og:locale: en
   Catch clauses do not check for `Exception <https://www.php.net/exception>`_ existence. 
 
 Catch clauses check that the emitted expression is of the requested Class, but if that class doesn't exist in the code, the catch clause is always false. This is dead code.

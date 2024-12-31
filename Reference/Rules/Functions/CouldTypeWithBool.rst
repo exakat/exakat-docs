@@ -5,6 +5,21 @@
 Could Type With Boolean
 +++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Could Type With Boolean: That argument, property or method may be typed with ``bool``.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Could Type With Boolean
+	:twitter:description: Could Type With Boolean: That argument, property or method may be typed with ``bool``
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Could Type With Boolean
+	:og:type: article
+	:og:description: That argument, property or method may be typed with ``bool``
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/CouldTypeWithBool.html
+	:og:locale: en
   That argument, property or method may be typed with ``bool``. Based on usage, it was determined that the only type possible is a boolean.
 
 .. code-block:: php

@@ -5,6 +5,21 @@
 No Reference On Left Side
 +++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		No Reference On Left Side: Do not use references as the right element in an assignation.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: No Reference On Left Side
+	:twitter:description: No Reference On Left Side: Do not use references as the right element in an assignation
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: No Reference On Left Side
+	:og:type: article
+	:og:description: Do not use references as the right element in an assignation
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/NoReferenceOnLeft.html
+	:og:locale: en
   Do not use references as the right element in an assignation. 
 This is the case for most situations : addition, multiplication, bitshift, logical, power, concatenation.
 Note that PHP won't compile the code if the operator is a short operator (+=, .=, etc.), nor if the & is on the right side of the operator.

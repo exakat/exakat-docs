@@ -5,6 +5,21 @@
 Strpos() Less Than One
 ++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Strpos() Less Than One: This rule reports a comparison of strpos() or stripos() with 1.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Strpos() Less Than One
+	:twitter:description: Strpos() Less Than One: This rule reports a comparison of strpos() or stripos() with 1
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Strpos() Less Than One
+	:og:type: article
+	:og:description: This rule reports a comparison of strpos() or stripos() with 1
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/StrposLessThanOne.html
+	:og:locale: en
   This rule reports a comparison of `strpos() <https://www.php.net/strpos>`_ or `stripos() <https://www.php.net/stripos>`_ with 1. This is a variable of `strpos() <https://www.php.net/strpos>`_ == 0, since both false and 0 are processed the same way. Yet, 0 might be a valid value.
 
 This rule was suggested by Yann Ouche.

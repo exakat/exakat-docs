@@ -5,6 +5,21 @@
 Undefined Constant Name
 +++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Undefined Constant Name: When using the `` syntax for variable, the name used must be a defined constant.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Undefined Constant Name
+	:twitter:description: Undefined Constant Name: When using the `` syntax for variable, the name used must be a defined constant
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Undefined Constant Name
+	:og:type: article
+	:og:description: When using the `` syntax for variable, the name used must be a defined constant
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Variables/UndefinedConstantName.html
+	:og:locale: en
   When using the `` syntax for variable, the name used must be a defined constant. It is not a simple string, like 'x', it is an actual constant name.
 
 Interestingly, it is possible to use a qualified name within ``, full or partial. PHP will lint such code, and will collect the value of the constant immediately. Since there is no fallback mechanism for fully qualified names, this ends with a Fatal `error <https://www.php.net/error>`_.

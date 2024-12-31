@@ -5,6 +5,21 @@
 Negative Power
 ++++++++++++++
 
+.. meta\:\:
+	:description:
+		Negative Power: The power operator ** has higher precedence than the sign operators + and -.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Negative Power
+	:twitter:description: Negative Power: The power operator ** has higher precedence than the sign operators + and -
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Negative Power
+	:og:type: article
+	:og:description: The power operator ** has higher precedence than the sign operators + and -
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/NegativePow.html
+	:og:locale: en
   The power operator `** <https://www.php.net/manual/en/language.operators.arithmetic.php>`_ has higher precedence than the sign operators + and -.
 
 This means that -2 `** <https://www.php.net/manual/en/language.operators.arithmetic.php>`_ 2 == -4. It is in fact, -(2 `** <https://www.php.net/manual/en/language.operators.arithmetic.php>`_ 2). 

@@ -5,6 +5,21 @@
 Undefined Constants
 +++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Undefined Constants: Constants definition can't be located.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Undefined Constants
+	:twitter:description: Undefined Constants: Constants definition can't be located
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Undefined Constants
+	:og:type: article
+	:og:description: Constants definition can't be located
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Constants/UndefinedConstants.html
+	:og:locale: en
   Constants definition can't be located.
 
 Those constants are not defined in the code, and will raise errors, or use the fallback mechanism of being treated like a string. 

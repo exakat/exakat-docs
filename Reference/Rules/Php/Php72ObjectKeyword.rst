@@ -5,6 +5,21 @@
 PHP 7.2 Object Keyword
 ++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		PHP 7.2 Object Keyword: 'object' is a PHP keyword.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: PHP 7.2 Object Keyword
+	:twitter:description: PHP 7.2 Object Keyword: 'object' is a PHP keyword
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: PHP 7.2 Object Keyword
+	:og:type: article
+	:og:description: 'object' is a PHP keyword
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/Php72ObjectKeyword.html
+	:og:locale: en
   'object' is a PHP keyword. It can't be used for class, interface or trait name. 
 
 This is the case since PHP 7.2.

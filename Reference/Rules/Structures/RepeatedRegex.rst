@@ -5,6 +5,21 @@
 Repeated Regex
 ++++++++++++++
 
+.. meta\:\:
+	:description:
+		Repeated Regex: Repeated regex should be centralized.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Repeated Regex
+	:twitter:description: Repeated Regex: Repeated regex should be centralized
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Repeated Regex
+	:og:type: article
+	:og:description: Repeated regex should be centralized
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/RepeatedRegex.html
+	:og:locale: en
   Repeated regex should be centralized. 
 
 When a regex is repeatedly used in the code, it is getting harder to update. 

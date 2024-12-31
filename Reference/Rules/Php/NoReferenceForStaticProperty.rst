@@ -5,6 +5,21 @@
 No Reference For Static Property
 ++++++++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		No Reference For Static Property: Static properties used to behave independently when set to a reference value.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: No Reference For Static Property
+	:twitter:description: No Reference For Static Property: Static properties used to behave independently when set to a reference value
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: No Reference For Static Property
+	:og:type: article
+	:og:description: Static properties used to behave independently when set to a reference value
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/NoReferenceForStaticProperty.html
+	:og:locale: en
   `Static <https://www.php.net/manual/en/language.oop5.static.php>`_ properties used to behave independently when set to a reference value. This was fixed in PHP 7.3. 
 
 According to the PHP 7.3 changelog : 
@@ -48,7 +63,7 @@ _____
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Time To Fix      | Slow (1 hour)                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Changed Behavior | PHP 7.3 - `More <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/.html>`__                                                                                                                                                                                                                                                                                                                                                                                           |
+| Changed Behavior | PHP 7.3                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision        | Very high                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

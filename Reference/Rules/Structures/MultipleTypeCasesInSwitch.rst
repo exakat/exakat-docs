@@ -5,6 +5,21 @@
 Multiple Type Cases In Switch
 +++++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Multiple Type Cases In Switch: This reports switch() instructions, which have several types in cases.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Multiple Type Cases In Switch
+	:twitter:description: Multiple Type Cases In Switch: This reports switch() instructions, which have several types in cases
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Multiple Type Cases In Switch
+	:og:type: article
+	:og:description: This reports switch() instructions, which have several types in cases
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/MultipleTypeCasesInSwitch.html
+	:og:locale: en
   This reports `switch() <https://www.php.net/manual/en/control-structures.switch.php>`_ instructions, which have several types in cases.
 
 This might generate compatibility errors, as the comparison may succeed in different ways, depending on PHP versions. This is particularly the case for PHP 8.0, and values such as '0', '', 0, null, and false.

@@ -5,6 +5,21 @@
 Upload Filename Injection
 +++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Upload Filename Injection: When receiving a file via Upload, it is recommended to store it under a self-generated name.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Upload Filename Injection
+	:twitter:description: Upload Filename Injection: When receiving a file via Upload, it is recommended to store it under a self-generated name
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Upload Filename Injection
+	:og:type: article
+	:og:description: When receiving a file via Upload, it is recommended to store it under a self-generated name
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Security/UploadFilenameInjection.html
+	:og:locale: en
   When receiving a file via Upload, it is recommended to store it under a `self <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_-generated name. Any storage that uses the original filename, or even a part of it may be vulnerable to injections.
 It is highly recommended to validate any incoming file, generate a name for it, and store the `result <https://www.php.net/result>`_ in a folder outside the web folder. Also, avoid accepting PHP scripts, if possible.
 

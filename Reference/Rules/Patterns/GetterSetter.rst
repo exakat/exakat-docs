@@ -5,6 +5,21 @@
 Getter And Setter
 +++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Getter And Setter: A getter is a method whose purpose is to read the internal value of a class.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Getter And Setter
+	:twitter:description: Getter And Setter: A getter is a method whose purpose is to read the internal value of a class
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Getter And Setter
+	:og:type: article
+	:og:description: A getter is a method whose purpose is to read the internal value of a class
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Patterns/GetterSetter.html
+	:og:locale: en
   A getter is a method whose purpose is to read the internal value of a class; a setter is a method whose purpose is to write a value inside a class. 
 
 Exakat marks simple setters and getters : their content only writes (resp. reads) on property at a time. More refined getters/setters might appear in the future, when formatting and filter is detected and omitted.

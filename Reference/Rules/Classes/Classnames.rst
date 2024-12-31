@@ -5,6 +5,21 @@
 Classes Names
 +++++++++++++
 
+.. meta\:\:
+	:description:
+		Classes Names: List of all classes, as defined in the application.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Classes Names
+	:twitter:description: Classes Names: List of all classes, as defined in the application
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Classes Names
+	:og:type: article
+	:og:description: List of all classes, as defined in the application
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/Classnames.html
+	:og:locale: en
   List of all classes, as defined in the application.
 
 .. code-block:: php

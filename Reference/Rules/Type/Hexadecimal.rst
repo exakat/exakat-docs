@@ -5,6 +5,21 @@
 Hexadecimal Glossary
 ++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Hexadecimal Glossary: List of all the integer values, written in the hexadecimal format.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Hexadecimal Glossary
+	:twitter:description: Hexadecimal Glossary: List of all the integer values, written in the hexadecimal format
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Hexadecimal Glossary
+	:og:type: article
+	:og:description: List of all the integer values, written in the hexadecimal format
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Type/Hexadecimal.html
+	:og:locale: en
   List of all the integer values, written in the hexadecimal format.
 
 .. code-block:: php

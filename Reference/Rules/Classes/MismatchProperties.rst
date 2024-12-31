@@ -5,6 +5,21 @@
 Mismatch Properties Typehints
 +++++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Mismatch Properties Typehints: Properties must match within the same family.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Mismatch Properties Typehints
+	:twitter:description: Mismatch Properties Typehints: Properties must match within the same family
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Mismatch Properties Typehints
+	:og:type: article
+	:og:description: Properties must match within the same family
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/MismatchProperties.html
+	:og:locale: en
   Properties must match within the same family.
 
 When a property is declared both in a `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ class, and a child class, they must have the same type. The same type includes a possible null value.

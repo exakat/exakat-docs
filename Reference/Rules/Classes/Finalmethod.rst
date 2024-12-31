@@ -5,6 +5,21 @@
 Final Methods Usage
 +++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Final Methods Usage: List of all final methods being used.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Final Methods Usage
+	:twitter:description: Final Methods Usage: List of all final methods being used
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Final Methods Usage
+	:og:type: article
+	:og:description: List of all final methods being used
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/Finalmethod.html
+	:og:locale: en
   List of all final methods being used.
 
 final may be applied to classes and methods in classes and traits.

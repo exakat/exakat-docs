@@ -5,6 +5,21 @@
 Locally Unused Property
 +++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Locally Unused Property: Those properties are defined in a class, and this class doesn't have any method that makes use of them.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Locally Unused Property
+	:twitter:description: Locally Unused Property: Those properties are defined in a class, and this class doesn't have any method that makes use of them
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Locally Unused Property
+	:og:type: article
+	:og:description: Those properties are defined in a class, and this class doesn't have any method that makes use of them
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/LocallyUnusedProperty.html
+	:og:locale: en
   Those properties are defined in a class, and this class doesn't have any method that makes use of them. 
 
 While this is syntactically correct, it is unusual that defined resources are used in a child class. It may be worth moving the definition to another class, or to move accessing methods to the class.

@@ -5,6 +5,21 @@
 New Functions In PHP 5.4
 ++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		New Functions In PHP 5.4: PHP introduced new functions in PHP 5.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: New Functions In PHP 5.4
+	:twitter:description: New Functions In PHP 5.4: PHP introduced new functions in PHP 5
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: New Functions In PHP 5.4
+	:og:type: article
+	:og:description: PHP introduced new functions in PHP 5
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/Php54NewFunctions.html
+	:og:locale: en
   PHP introduced new functions in PHP 5.4. If there are defined functions with such names, there will be a conflict when upgrading. It is advised to change those functions' name.
 
 + `hex2bin() <https://www.php.net/hex2bin>`_

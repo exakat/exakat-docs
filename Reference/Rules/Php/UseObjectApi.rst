@@ -5,6 +5,21 @@
 Use PHP Object API
 ++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Use PHP Object API: OOP API is the modern version of the PHP API.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Use PHP Object API
+	:twitter:description: Use PHP Object API: OOP API is the modern version of the PHP API
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Use PHP Object API
+	:og:type: article
+	:og:description: OOP API is the modern version of the PHP API
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/UseObjectApi.html
+	:og:locale: en
   OOP API is the modern version of the PHP API.
 
 When PHP offers the alternative between procedural and OOP api for the same features, it is recommended to use the OOP API. 

@@ -5,6 +5,21 @@
 Use pathinfo() Arguments
 ++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Use pathinfo() Arguments: pathinfo() has a second argument to select only useful data.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Use pathinfo() Arguments
+	:twitter:description: Use pathinfo() Arguments: pathinfo() has a second argument to select only useful data
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Use pathinfo() Arguments
+	:og:type: article
+	:og:description: pathinfo() has a second argument to select only useful data
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/UsePathinfoArgs.html
+	:og:locale: en
   `pathinfo() <https://www.php.net/pathinfo>`_ has a second argument to select only useful data. 
 
 It is twice faster to get only one element from `pathinfo() <https://www.php.net/pathinfo>`_ than get the four of them, and use only one.

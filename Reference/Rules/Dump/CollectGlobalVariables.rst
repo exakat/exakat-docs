@@ -5,6 +5,21 @@
 Collect Global Variables
 ++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Collect Global Variables: This rule collects the names of the global variables.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Collect Global Variables
+	:twitter:description: Collect Global Variables: This rule collects the names of the global variables
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Collect Global Variables
+	:og:type: article
+	:og:description: This rule collects the names of the global variables
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/CollectGlobalVariables.html
+	:og:locale: en
   This rule collects the names of the global variables. The global variables are collected from ``$GLOBALS`` usage, ``global`` keyword usage and variables in the global space.
 
 .. code-block:: php

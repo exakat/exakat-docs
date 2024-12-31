@@ -5,6 +5,21 @@
 ext/decimal
 +++++++++++
 
+.. meta\:\:
+	:description:
+		ext/decimal: Extension php-decimal, by ``Rudi Theunissen``.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: ext/decimal
+	:twitter:description: ext/decimal: Extension php-decimal, by ``Rudi Theunissen``
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: ext/decimal
+	:og:type: article
+	:og:description: Extension php-decimal, by ``Rudi Theunissen``
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extdecimal.html
+	:og:locale: en
   Extension php-decimal, by ``Rudi Theunissen``.
 
 This library provides a PHP extension that adds support for correctly-rounded, arbitrary-precision decimal floating point arithmetic. Applications that rely on accurate numbers (ie. money, measurements, or mathematics) can use Decimal instead of float or string to represent numerical values.

@@ -5,6 +5,21 @@
 ext/phar
 ++++++++
 
+.. meta\:\:
+	:description:
+		ext/phar: Extension phar.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: ext/phar
+	:twitter:description: ext/phar: Extension phar
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: ext/phar
+	:og:type: article
+	:og:description: Extension phar
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extphar.html
+	:og:locale: en
   Extension `phar <https://www.php.net/phar>`_.
 
 The `phar <https://www.php.net/phar>`_ extension provides a way to put entire PHP applications into a single file called a ``phar`` (PHP Archive) for easy distribution and installation.

@@ -5,6 +5,21 @@
 Only Variable Returned By Reference
 +++++++++++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Only Variable Returned By Reference: Function can't return literals by reference.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Only Variable Returned By Reference
+	:twitter:description: Only Variable Returned By Reference: Function can't return literals by reference
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Only Variable Returned By Reference
+	:og:type: article
+	:og:description: Function can't return literals by reference
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/OnlyVariableReturnedByReference.html
+	:og:locale: en
   Function can't return literals by reference.
 
 When a function returns a reference, it is only possible to return variables, properties or `static <https://www.php.net/manual/en/language.oop5.static.php>`_ properties. 

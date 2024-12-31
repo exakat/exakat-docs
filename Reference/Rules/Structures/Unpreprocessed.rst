@@ -5,6 +5,21 @@
 Unpreprocessed Values
 +++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Unpreprocessed Values: Preprocessing values is the preparation of values before PHP executes the code.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Unpreprocessed Values
+	:twitter:description: Unpreprocessed Values: Preprocessing values is the preparation of values before PHP executes the code
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Unpreprocessed Values
+	:og:type: article
+	:og:description: Preprocessing values is the preparation of values before PHP executes the code
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/Unpreprocessed.html
+	:og:locale: en
   Preprocessing values is the preparation of values before PHP executes the code. 
 
 There is no macro language in PHP, that prepares the code before compilation, bringing some comfort and short syntax. Most of the time, one uses PHP itself to preprocess data. 

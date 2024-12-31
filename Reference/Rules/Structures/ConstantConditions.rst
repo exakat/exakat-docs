@@ -5,6 +5,21 @@
 Constant Conditions
 +++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Constant Conditions: If/then structures that have constant condition.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Constant Conditions
+	:twitter:description: Constant Conditions: If/then structures that have constant condition
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Constant Conditions
+	:og:type: article
+	:og:description: If/then structures that have constant condition
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ConstantConditions.html
+	:og:locale: en
   If/then structures that have constant condition. 
 
 The condition doesn't change during execution, and the following blocks are always executed or not. This may also lead to an infinite or a null loop. 

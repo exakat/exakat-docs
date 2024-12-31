@@ -5,6 +5,21 @@
 ext/event
 +++++++++
 
+.. meta\:\:
+	:description:
+		ext/event: Extension event.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: ext/event
+	:twitter:description: ext/event: Extension event
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: ext/event
+	:og:type: article
+	:og:description: Extension event
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extevent.html
+	:og:locale: en
   Extension event.
 
 This is an extension to efficiently schedule I/O, time and signal based events using the best I/O notification mechanism available for specific platform. This is a port of libevent to the PHP infrastructure.

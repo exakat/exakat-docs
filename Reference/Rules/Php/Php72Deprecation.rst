@@ -5,6 +5,21 @@
 PHP 7.2 Deprecations
 ++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		PHP 7.2 Deprecations: Several functions are deprecated in PHP 7.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: PHP 7.2 Deprecations
+	:twitter:description: PHP 7.2 Deprecations: Several functions are deprecated in PHP 7
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: PHP 7.2 Deprecations
+	:og:type: article
+	:og:description: Several functions are deprecated in PHP 7
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/Php72Deprecation.html
+	:og:locale: en
   Several functions are deprecated in PHP 7.2. 
 
 * `parse_str() <https://www.php.net/parse_str>`_ with no second argument

@@ -5,6 +5,21 @@
 Multiple Functions Declarations
 +++++++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Multiple Functions Declarations: Some functions are declared multiple times in the code.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Multiple Functions Declarations
+	:twitter:description: Multiple Functions Declarations: Some functions are declared multiple times in the code
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Multiple Functions Declarations
+	:og:type: article
+	:og:description: Some functions are declared multiple times in the code
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/MultipleDeclarations.html
+	:og:locale: en
   Some functions are declared multiple times in the code. 
 
 PHP accepts multiple definitions for the same functions, as long as they are not in the same file (linting `error) <https://www.php.net/error>`_, or not included simultaneously during the execution. 

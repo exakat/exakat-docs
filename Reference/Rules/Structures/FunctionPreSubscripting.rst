@@ -5,6 +5,21 @@
 Function Subscripting, Old Style
 ++++++++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Function Subscripting, Old Style: It is possible use function results as an array, and read directly its element.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Function Subscripting, Old Style
+	:twitter:description: Function Subscripting, Old Style: It is possible use function results as an array, and read directly its element
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Function Subscripting, Old Style
+	:og:type: article
+	:og:description: It is possible use function results as an array, and read directly its element
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/FunctionPreSubscripting.html
+	:og:locale: en
   It is possible use function results as an array, and read directly its element. This was added in PHP 5.4.
 
 .. code-block:: php

@@ -5,6 +5,21 @@
 ext/v8js
 ++++++++
 
+.. meta\:\:
+	:description:
+		ext/v8js: Extension v8js.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: ext/v8js
+	:twitter:description: ext/v8js: Extension v8js
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: ext/v8js
+	:og:type: article
+	:og:description: Extension v8js
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extv8js.html
+	:og:locale: en
   Extension v8js.
 
 This extension embeds the `V8 Javascript `Engine <https://www.php.net/engine>`_ <https://bugs.chromium.org/p/v8/issues/list>`_ into PHP.

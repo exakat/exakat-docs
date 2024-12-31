@@ -5,6 +5,21 @@
 Flexible Heredoc
 ++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Flexible Heredoc: Flexible syntax for Heredoc.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Flexible Heredoc
+	:twitter:description: Flexible Heredoc: Flexible syntax for Heredoc
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Flexible Heredoc
+	:og:type: article
+	:og:description: Flexible syntax for Heredoc
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/FlexibleHeredoc.html
+	:og:locale: en
   Flexible syntax for Heredoc. 
 
 The new flexible syntax for heredoc and nowdoc enable the closing marker to be indented, and remove the new line requirement after the closing marker.

@@ -5,6 +5,21 @@
 Empty Try Catch
 +++++++++++++++
 
+.. meta\:\:
+	:description:
+		Empty Try Catch: The code does try, then catch errors but do no act upon the error.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Empty Try Catch
+	:twitter:description: Empty Try Catch: The code does try, then catch errors but do no act upon the error
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Empty Try Catch
+	:og:type: article
+	:og:description: The code does try, then catch errors but do no act upon the error
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/EmptyTryCatch.html
+	:og:locale: en
   The code does try, then catch errors but do no act upon the `error <https://www.php.net/error>`_. 
 
 

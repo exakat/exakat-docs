@@ -5,6 +5,21 @@
 String Interpolation Favorite
 +++++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		String Interpolation Favorite: This analysis collects the various ways that string interpolation is done inside strings.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: String Interpolation Favorite
+	:twitter:description: String Interpolation Favorite: This analysis collects the various ways that string interpolation is done inside strings
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: String Interpolation Favorite
+	:og:type: article
+	:og:description: This analysis collects the various ways that string interpolation is done inside strings
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/StringInterpolationFavorite.html
+	:og:locale: en
   This analysis collects the various ways that string interpolation is done inside strings. Until PHP 8.1, there were 4 ways :
 
 .. code-block:: php

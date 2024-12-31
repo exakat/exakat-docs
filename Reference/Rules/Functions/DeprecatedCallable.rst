@@ -5,6 +5,21 @@
 Deprecated Callable
 +++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Deprecated Callable: Callable functions that are supported by ``call_user_func($callable)``, but not with the ``$callable()`` syntax are deprecated.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Deprecated Callable
+	:twitter:description: Deprecated Callable: Callable functions that are supported by ``call_user_func($callable)``, but not with the ``$callable()`` syntax are deprecated
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Deprecated Callable
+	:og:type: article
+	:og:description: Callable functions that are supported by ``call_user_func($callable)``, but not with the ``$callable()`` syntax are deprecated
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/DeprecatedCallable.html
+	:og:locale: en
   Callable functions that are supported by ``call_user_func($callable)``, but not with the ``$callable()`` syntax are deprecated. 
 
 One important aspect is the loss of context : 'self\:\:method' may be created anywhere in the code, while `self\:\:class` can only be used inside a class, and, in that case, inside the target class. 

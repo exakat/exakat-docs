@@ -5,6 +5,21 @@
 Safe HTTP Headers
 +++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Safe HTTP Headers: Avoid configuring HTTP headers with lax restriction from within PHP.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Safe HTTP Headers
+	:twitter:description: Safe HTTP Headers: Avoid configuring HTTP headers with lax restriction from within PHP
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Safe HTTP Headers
+	:og:type: article
+	:og:description: Avoid configuring HTTP headers with lax restriction from within PHP
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Security/SafeHttpHeaders.html
+	:og:locale: en
   Avoid configuring HTTP headers with lax restriction from within PHP. 
 
 There are a lot of HTTP headers those days, targeting various vulnerabilities. To ensure backward compatibility, those headers have a default mode that is lax and permissive. It is recommended to avoid using those from within the code.

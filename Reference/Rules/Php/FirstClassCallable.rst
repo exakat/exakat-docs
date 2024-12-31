@@ -5,6 +5,21 @@
 First Class Callable
 ++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		First Class Callable: A syntax using ellipsis was introduced to make it easy to make a method into a callable.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: First Class Callable
+	:twitter:description: First Class Callable: A syntax using ellipsis was introduced to make it easy to make a method into a callable
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: First Class Callable
+	:og:type: article
+	:og:description: A syntax using ellipsis was introduced to make it easy to make a method into a callable
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/FirstClassCallable.html
+	:og:locale: en
   A syntax using ellipsis was introduced to make it easy to make a method into a callable.
 
 .. code-block:: php

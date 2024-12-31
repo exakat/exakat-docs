@@ -5,6 +5,21 @@
 No Self Referencing Constant
 ++++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		No Self Referencing Constant: It is not possible to use a constant to define itself in a class.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: No Self Referencing Constant
+	:twitter:description: No Self Referencing Constant: It is not possible to use a constant to define itself in a class
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: No Self Referencing Constant
+	:og:type: article
+	:og:description: It is not possible to use a constant to define itself in a class
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/NoSelfReferencingConstant.html
+	:og:locale: en
   It is not possible to use a constant to define itself in a class. It yields a fatal `error <https://www.php.net/error>`_ at runtime. 
 
 The PHP `error <https://www.php.net/error>`_ reads : ``Cannot declare `self <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_-referencing constant 'self\:\:C2'``. Unlike PHP which is `self <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_-referencing, `self <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ referencing variables can't have a value : just don't use that.

@@ -5,6 +5,21 @@
 Collect Property Counts
 +++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Collect Property Counts: This analysis collects the number of properties per class or trait.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Collect Property Counts
+	:twitter:description: Collect Property Counts: This analysis collects the number of properties per class or trait
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Collect Property Counts
+	:og:type: article
+	:og:description: This analysis collects the number of properties per class or trait
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/CollectPropertyCounts.html
+	:og:locale: en
   This analysis collects the number of properties per class or trait. 
 
 The count applies to classes, anonymous classes and traits. They are considered distinct one from another. 

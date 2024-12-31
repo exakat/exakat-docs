@@ -5,6 +5,21 @@
 Bracketless Blocks
 ++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Bracketless Blocks: PHP allows one liners as for(), foreach(), while(), do/while() loops, or as then/else expressions.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Bracketless Blocks
+	:twitter:description: Bracketless Blocks: PHP allows one liners as for(), foreach(), while(), do/while() loops, or as then/else expressions
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Bracketless Blocks
+	:og:type: article
+	:og:description: PHP allows one liners as for(), foreach(), while(), do/while() loops, or as then/else expressions
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/Bracketless.html
+	:og:locale: en
   PHP allows one liners as `for() <https://www.php.net/manual/en/control-structures.for.php>`_, `foreach() <https://www.php.net/manual/en/control-structures.foreach.php>`_, `while() <https://www.php.net/manual/en/control-structures.while.php>`_, do/`while() <https://www.php.net/manual/en/control-structures.while.php>`_ loops, or as then/else expressions. 
 
 It is generally considered a bad practice, as readability is lower and there are non-negligible risk of excluding from the loop the next instruction.

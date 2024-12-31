@@ -5,6 +5,21 @@
 New Functions In PHP 5.5
 ++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		New Functions In PHP 5.5: PHP introduced new functions in PHP 5.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: New Functions In PHP 5.5
+	:twitter:description: New Functions In PHP 5.5: PHP introduced new functions in PHP 5
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: New Functions In PHP 5.5
+	:og:type: article
+	:og:description: PHP introduced new functions in PHP 5
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/Php55NewFunctions.html
+	:og:locale: en
   PHP introduced new functions in PHP 5.5. If you have already defined functions with such names, you will get a conflict when trying to upgrade. It is advised to change those functions' name.
 
 

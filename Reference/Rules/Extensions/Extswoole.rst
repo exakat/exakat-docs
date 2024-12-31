@@ -5,6 +5,21 @@
 Swoole
 ++++++
 
+.. meta\:\:
+	:description:
+		Swoole: Swoole : Production-Grade Async programming Framework for PHP.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Swoole
+	:twitter:description: Swoole: Swoole : Production-Grade Async programming Framework for PHP
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Swoole
+	:og:type: article
+	:og:description: Swoole : Production-Grade Async programming Framework for PHP
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extswoole.html
+	:og:locale: en
   Swoole : Production-Grade Async programming Framework for PHP.
 
 Swoole is an event-driven asynchronous & concurrent networking communication framework with high performance written only in C for PHP.

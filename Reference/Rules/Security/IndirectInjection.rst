@@ -5,6 +5,21 @@
 Indirect Injection
 ++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Indirect Injection: This rule reports injections through indirect usage of $_GET, $_POST, $_REQUEST, $_COOKIE values.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Indirect Injection
+	:twitter:description: Indirect Injection: This rule reports injections through indirect usage of $_GET, $_POST, $_REQUEST, $_COOKIE values
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Indirect Injection
+	:og:type: article
+	:og:description: This rule reports injections through indirect usage of $_GET, $_POST, $_REQUEST, $_COOKIE values
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Security/IndirectInjection.html
+	:og:locale: en
   This rule reports injections through indirect usage of `$_GET <https://www.php.net/manual/en/reserved.variables.get.php>`_, `$_POST <https://www.php.net/manual/en/reserved.variables.post.php>`_, `$_REQUEST <https://www.php.net/manual/en/reserved.variables.request.php>`_, $_COOKIE values. The injection is indirect, as the incoming data may be stored in different container before reaching the sensitive call. 
 
 Sensitive parameters are identified with Security/`SensitiveParameter <https://www.php.net/sensitiveparameter>`_ rule.

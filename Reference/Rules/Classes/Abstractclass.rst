@@ -5,6 +5,21 @@
 Abstract Class Usage
 ++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Abstract Class Usage: This rule lists of all abstract classes defined.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Abstract Class Usage
+	:twitter:description: Abstract Class Usage: This rule lists of all abstract classes defined
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Abstract Class Usage
+	:og:type: article
+	:og:description: This rule lists of all abstract classes defined
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/Abstractclass.html
+	:og:locale: en
   This rule lists of all abstract classes defined. Abstract classes cannot be instanciated, and must be extended to be used.
 
 .. code-block:: php

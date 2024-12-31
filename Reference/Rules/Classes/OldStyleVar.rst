@@ -5,6 +5,21 @@
 Var Keyword
 +++++++++++
 
+.. meta\:\:
+	:description:
+		Var Keyword: Var was used in PHP 4 to mark properties as public.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Var Keyword
+	:twitter:description: Var Keyword: Var was used in PHP 4 to mark properties as public
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Var Keyword
+	:og:type: article
+	:og:description: Var was used in PHP 4 to mark properties as public
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/OldStyleVar.html
+	:og:locale: en
   Var was used in PHP 4 to mark properties as public. Nowadays, new keywords are available : public, protected, private. Var is equivalent to public. 
 
 It is recommended to avoid using var, and explicitly use the new keywords.

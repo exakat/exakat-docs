@@ -5,6 +5,21 @@
 Undefined Classes
 +++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Undefined Classes: Those classes are used in the code, but there are no definition for them.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Undefined Classes
+	:twitter:description: Undefined Classes: Those classes are used in the code, but there are no definition for them
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Undefined Classes
+	:og:type: article
+	:og:description: Those classes are used in the code, but there are no definition for them
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/UndefinedClasses.html
+	:og:locale: en
   Those classes are used in the code, but there are no definition for them.
 
 This may happens under normal conditions, if the application makes use of an unsupported extension, that defines extra classes; 

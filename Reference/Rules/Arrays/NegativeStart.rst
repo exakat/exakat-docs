@@ -5,6 +5,21 @@
 Negative Start Index In Array
 +++++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Negative Start Index In Array: Negative starting index in arrays changed in PHP 8.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Negative Start Index In Array
+	:twitter:description: Negative Start Index In Array: Negative starting index in arrays changed in PHP 8
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Negative Start Index In Array
+	:og:type: article
+	:og:description: Negative starting index in arrays changed in PHP 8
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Arrays/NegativeStart.html
+	:og:locale: en
   Negative starting index in arrays changed in PHP 8.0. Until then, they were ignored, and automatic index started always at 0. Since PHP 8.0, the next index is calculated.
 
 The behavior will `break <https://www.php.net/manual/en/control-structures.break.php>`_ code that relies on automatic index in arrays, when a negative index is used for a starter.
@@ -72,7 +87,7 @@ _____
 +------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Time To Fix      | Quick (30 mins)                                                                                                                                                                         |
 +------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Changed Behavior | PHP 8.0 - `More <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/.html>`__                                                                                              |
+| Changed Behavior | PHP 8.0                                                                                                                                                                                 |
 +------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision        | Very high                                                                                                                                                                               |
 +------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

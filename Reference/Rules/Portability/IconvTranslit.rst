@@ -5,6 +5,21 @@
 Iconv With Translit
 +++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Iconv With Translit: The transliteration feature of iconv() depends on the underlying system to support it.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Iconv With Translit
+	:twitter:description: Iconv With Translit: The transliteration feature of iconv() depends on the underlying system to support it
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Iconv With Translit
+	:og:type: article
+	:og:description: The transliteration feature of iconv() depends on the underlying system to support it
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Portability/IconvTranslit.html
+	:og:locale: en
   The transliteration feature of `iconv() <https://www.php.net/iconv>`_ depends on the underlying system to support it. This feature is also a portability issue.
 
 .. code-block:: php

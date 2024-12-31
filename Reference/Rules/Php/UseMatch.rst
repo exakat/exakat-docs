@@ -5,6 +5,21 @@
 Uses PHP 8 Match()
 ++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Uses PHP 8 Match(): This rule reports usage of the the match() syntax.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Uses PHP 8 Match()
+	:twitter:description: Uses PHP 8 Match(): This rule reports usage of the the match() syntax
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Uses PHP 8 Match()
+	:og:type: article
+	:og:description: This rule reports usage of the the match() syntax
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/UseMatch.html
+	:og:locale: en
   This rule reports usage of the the `match() <https://www.php.net/manual/en/control-structures.match.php>`_ syntax.
 
 `match() <https://www.php.net/manual/en/control-structures.match.php>`_ was introduced in PHP 8.0, and is an alternative to `switch() <https://www.php.net/manual/en/control-structures.switch.php>`_. It is also not backward compatible with previous versions of PHP.

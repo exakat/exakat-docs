@@ -5,6 +5,21 @@
 Linux Only Files
 ++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Linux Only Files: List of files that are only found on Linux style systems.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Linux Only Files
+	:twitter:description: Linux Only Files: List of files that are only found on Linux style systems
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Linux Only Files
+	:og:type: article
+	:og:description: List of files that are only found on Linux style systems
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Portability/LinuxOnlyFiles.html
+	:og:locale: en
   List of files that are only found on Linux style systems. They are making the application depend on the system.
 
 .. code-block:: php

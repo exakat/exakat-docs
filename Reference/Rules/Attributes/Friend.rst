@@ -5,6 +5,21 @@
 Friend Attribute
 ++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Friend Attribute: A method or class can supply via a #[Friend] attribute a list of classes.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Friend Attribute
+	:twitter:description: Friend Attribute: A method or class can supply via a #[Friend] attribute a list of classes
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Friend Attribute
+	:og:type: article
+	:og:description: A method or class can supply via a #[Friend] attribute a list of classes
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Attributes/Friend.html
+	:og:locale: en
   A method or class can supply via a #[Friend] `attribute <https://www.php.net/attribute>`_ a list of classes. Only these classes can call the method. This is loosely based on the C++ friend feature.
 
 + Multiple classes can be specified. E.g. #[Friend(Foo\:\:class, Bar\:\:class)]

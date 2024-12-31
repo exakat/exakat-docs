@@ -5,6 +5,21 @@
 Parameter Hiding
 ++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Parameter Hiding: When a parameter is set to another variable, and never used.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Parameter Hiding
+	:twitter:description: Parameter Hiding: When a parameter is set to another variable, and never used
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Parameter Hiding
+	:og:type: article
+	:og:description: When a parameter is set to another variable, and never used
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/ParameterHiding.html
+	:og:locale: en
   When a parameter is set to another variable, and never used.
 
 While this is a legit syntax, parameter hiding tends to make the code confusing. The parameter itself seems to be unused, while some extra variable appears.

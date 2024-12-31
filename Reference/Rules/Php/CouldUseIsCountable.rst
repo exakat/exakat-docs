@@ -5,6 +5,21 @@
 Use is_countable
 ++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Use is_countable: is_countable() checks if a variables holds a value that can be counted.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Use is_countable
+	:twitter:description: Use is_countable: is_countable() checks if a variables holds a value that can be counted
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Use is_countable
+	:og:type: article
+	:og:description: is_countable() checks if a variables holds a value that can be counted
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/CouldUseIsCountable.html
+	:og:locale: en
   `is_countable() <https://www.php.net/is_countable>`_ checks if a variables holds a value that can be counted. It is recommended to use it before calling `count() <https://www.php.net/count>`_.
 
 `is_countable() <https://www.php.net/is_countable>`_ accepts arrays and object whose class implements \`countable <https://www.php.net/countable>`_.

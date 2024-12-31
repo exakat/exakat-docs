@@ -5,6 +5,21 @@
 Methodcall On New
 +++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Methodcall On New: It is possible to call a method right at object instantiation.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Methodcall On New
+	:twitter:description: Methodcall On New: It is possible to call a method right at object instantiation
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Methodcall On New
+	:og:type: article
+	:og:description: It is possible to call a method right at object instantiation
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/MethodCallOnNew.html
+	:og:locale: en
   It is possible to call a method right at object instantiation. 
 
 This syntax was added in PHP 5.4+. Before, this was not possible : the object had to be stored in a variable first.
@@ -49,7 +64,7 @@ _____
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------+
 | Time To Fix      | Quick (30 mins)                                                                                                                      |
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------+
-| Changed Behavior | PHP 5.4 - `More <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/.html>`__                                           |
+| Changed Behavior | PHP 5.4                                                                                                                              |
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------+
 | Precision        | Very high                                                                                                                            |
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------+

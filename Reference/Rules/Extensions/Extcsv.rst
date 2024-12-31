@@ -5,6 +5,21 @@
 ext/CSV
 +++++++
 
+.. meta\:\:
+	:description:
+		ext/CSV: A small PHP extension to add/improve the handling of CSV strings.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: ext/CSV
+	:twitter:description: ext/CSV: A small PHP extension to add/improve the handling of CSV strings
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: ext/CSV
+	:og:type: article
+	:og:description: A small PHP extension to add/improve the handling of CSV strings
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extcsv.html
+	:og:locale: en
   A small PHP extension to add/improve the handling of CSV strings.
 
 .. code-block:: php

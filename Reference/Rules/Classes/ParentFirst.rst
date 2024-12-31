@@ -5,6 +5,21 @@
 Parent First
 ++++++++++++
 
+.. meta\:\:
+	:description:
+		Parent First: When calling parent constructor, always put it first in the ``__construct`` method.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Parent First
+	:twitter:description: Parent First: When calling parent constructor, always put it first in the ``__construct`` method
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Parent First
+	:og:type: article
+	:og:description: When calling parent constructor, always put it first in the ``__construct`` method
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/ParentFirst.html
+	:og:locale: en
   When calling `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ constructor, always put it first in the ``__construct`` method. 
 
 It ensures the `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ is correctly build before the child start using values. 

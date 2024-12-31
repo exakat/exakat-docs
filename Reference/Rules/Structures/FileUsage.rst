@@ -5,6 +5,21 @@
 File Usage
 ++++++++++
 
+.. meta\:\:
+	:description:
+		File Usage: The application makes usage of files on the system (read, write, delete, etc.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: File Usage
+	:twitter:description: File Usage: The application makes usage of files on the system (read, write, delete, etc
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: File Usage
+	:og:type: article
+	:og:description: The application makes usage of files on the system (read, write, delete, etc
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/FileUsage.html
+	:og:locale: en
   The application makes usage of files on the system (read, write, delete, etc.).
 
 Files usage is based on the usage of file functions.

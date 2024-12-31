@@ -5,6 +5,21 @@
 Substring First
 +++++++++++++++
 
+.. meta\:\:
+	:description:
+		Substring First: Always start by reducing a string before applying some transformation on it.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Substring First
+	:twitter:description: Substring First: Always start by reducing a string before applying some transformation on it
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Substring First
+	:og:type: article
+	:og:description: Always start by reducing a string before applying some transformation on it
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Performances/SubstrFirst.html
+	:og:locale: en
   Always start by reducing a string before applying some transformation on it. The shorter string will be processed faster. 
 The gain produced here is greater with longer strings, or greater reductions. They may also be used in loops. This is a micro-optimisation when used on short strings and single string reductions.
 

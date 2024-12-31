@@ -5,6 +5,21 @@
 If Then Return Favorite
 +++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		If Then Return Favorite: Show of hands: which syntax would you prefer in a PHP function - A, B or C.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: If Then Return Favorite
+	:twitter:description: If Then Return Favorite: Show of hands: which syntax would you prefer in a PHP function - A, B or C
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: If Then Return Favorite
+	:og:type: article
+	:og:description: Show of hands: which syntax would you prefer in a PHP function - A, B or C
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/IfThenReturnFavorite.html
+	:og:locale: en
   Show of hands: which syntax would you prefer in a PHP function - A, B or C?  
 Based on a tweet from `Povilas Korop <https://twitter.com/PovilasKorop>`_ : `Show of hands: which syntax would you prefer in a PHP function - A, B or C?  <https://twitter.com/exakat/status/1542585298562998274>`_
 

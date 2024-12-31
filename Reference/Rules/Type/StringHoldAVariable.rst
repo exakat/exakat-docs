@@ -5,6 +5,21 @@
 String May Hold A Variable
 ++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		String May Hold A Variable: Strings that contains a variable, yet are not interpolated.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: String May Hold A Variable
+	:twitter:description: String May Hold A Variable: Strings that contains a variable, yet are not interpolated
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: String May Hold A Variable
+	:og:type: article
+	:og:description: Strings that contains a variable, yet are not interpolated
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Type/StringHoldAVariable.html
+	:og:locale: en
   Strings that contains a variable, yet are not interpolated. 
 
 Single quotes and Nowdoc syntax may include $ signs. They are treated as literals, and not replaced with a variable value. 

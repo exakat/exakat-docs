@@ -5,6 +5,21 @@
 Use Basename Suffix
 +++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Use Basename Suffix: basename() is able to remove a file extension when it is provided as argument.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Use Basename Suffix
+	:twitter:description: Use Basename Suffix: basename() is able to remove a file extension when it is provided as argument
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Use Basename Suffix
+	:og:type: article
+	:og:description: basename() is able to remove a file extension when it is provided as argument
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/BasenameSuffix.html
+	:og:locale: en
   `basename() <https://www.php.net/basename>`_ is able to remove a file extension when it is provided as argument. The second argument is removed from the name of the file.
 Using `basename() <https://www.php.net/basename>`_ instead of `substr() <https://www.php.net/substr>`_ or else, makes the intention clear.
 

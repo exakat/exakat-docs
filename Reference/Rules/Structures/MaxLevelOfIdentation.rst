@@ -5,6 +5,21 @@
 Max Level Of Nesting
 ++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Max Level Of Nesting: Avoid nesting structures too deep, as it hurts readability.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Max Level Of Nesting
+	:twitter:description: Max Level Of Nesting: Avoid nesting structures too deep, as it hurts readability
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Max Level Of Nesting
+	:og:type: article
+	:og:description: Avoid nesting structures too deep, as it hurts readability
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/MaxLevelOfIdentation.html
+	:og:locale: en
   Avoid nesting structures too deep, as it hurts readability.
 
 Nesting structures are : if/then, switch, for, foreach, while, do...while. Ternary operator, try/catch are not considered a nesting structures.

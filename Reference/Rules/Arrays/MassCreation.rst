@@ -5,6 +5,21 @@
 Mass Creation Of Arrays
 +++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Mass Creation Of Arrays: Literal creation of an array, by assigning a lot of index.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Mass Creation Of Arrays
+	:twitter:description: Mass Creation Of Arrays: Literal creation of an array, by assigning a lot of index
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Mass Creation Of Arrays
+	:og:type: article
+	:og:description: Literal creation of an array, by assigning a lot of index
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Arrays/MassCreation.html
+	:og:locale: en
   Literal creation of an array, by assigning a lot of index.
 
 .. code-block:: php

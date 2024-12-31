@@ -5,6 +5,21 @@
 ext/mongo
 +++++++++
 
+.. meta\:\:
+	:description:
+		ext/mongo: Extension MongoDB driver (legacy).
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: ext/mongo
+	:twitter:description: ext/mongo: Extension MongoDB driver (legacy)
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: ext/mongo
+	:og:type: article
+	:og:description: Extension MongoDB driver (legacy)
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extmongo.html
+	:og:locale: en
   Extension `MongoDB <https://www.php.net/MongoDB>`_ driver (legacy).
 Note : this is not the `MongoDB driver <https://www.php.net/mongo>`_. This is the legacy extension.
 

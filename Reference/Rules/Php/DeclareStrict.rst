@@ -5,6 +5,21 @@
 strict_types Preference
 +++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		strict_types Preference: ``strict_types`` is a PHP mode where typehint are enforced strictly or weakly.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: strict_types Preference
+	:twitter:description: strict_types Preference: ``strict_types`` is a PHP mode where typehint are enforced strictly or weakly
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: strict_types Preference
+	:og:type: article
+	:og:description: ``strict_types`` is a PHP mode where typehint are enforced strictly or weakly
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/DeclareStrict.html
+	:og:locale: en
   ``strict_types`` is a PHP mode where typehint are enforced strictly or weakly. By default, it is weak typing, allowing backward compatibility with previous versions. 
 
 This analysis reports if ``strict_types`` are used systematically or not. ``strict_types`` affects the calling file, not the definition file.

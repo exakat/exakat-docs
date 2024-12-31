@@ -5,6 +5,21 @@
 Dynamic New
 +++++++++++
 
+.. meta\:\:
+	:description:
+		Dynamic New: Dynamic instantiation of classes.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Dynamic New
+	:twitter:description: Dynamic New: Dynamic instantiation of classes
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Dynamic New
+	:og:type: article
+	:og:description: Dynamic instantiation of classes
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/DynamicNew.html
+	:og:locale: en
   Dynamic instantiation of classes. It happens when the name of the class is an executable expression, and, as such, only known at execution time.
 
 .. code-block:: php

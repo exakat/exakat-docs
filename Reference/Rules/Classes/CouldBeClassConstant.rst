@@ -5,6 +5,21 @@
 Could Be Class Constant
 +++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Could Be Class Constant: When a property is defined, with a default value, then read, but never modified, it could be turned into a constant.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Could Be Class Constant
+	:twitter:description: Could Be Class Constant: When a property is defined, with a default value, then read, but never modified, it could be turned into a constant
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Could Be Class Constant
+	:og:type: article
+	:og:description: When a property is defined, with a default value, then read, but never modified, it could be turned into a constant
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/CouldBeClassConstant.html
+	:og:locale: en
   When a property is defined, with a default value, then read, but never modified, it could be turned into a constant. 
 
 Such a property may initially be intended to have a value update, but that never turned out in the code. 

@@ -5,6 +5,21 @@
 Reflection Export() Is Deprecated
 +++++++++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Reflection Export() Is Deprecated: export() method in Reflection classes is now deprecated.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Reflection Export() Is Deprecated
+	:twitter:description: Reflection Export() Is Deprecated: export() method in Reflection classes is now deprecated
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Reflection Export() Is Deprecated
+	:og:type: article
+	:og:description: export() method in Reflection classes is now deprecated
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/ReflectionExportIsDeprecated.html
+	:og:locale: en
   export() method in `Reflection <https://www.php.net/reflection>`_ classes is now deprecated. It is obsolete since PHP 7.4 and will disappear in PHP 8.0.
 
 The `Reflector <https://www.php.net/reflector>`_ interface, which is implemented by all `reflection <https://www.php.net/reflection>`_ classes, specifies two methods: `__toString() <https://www.php.net/manual/en/language.oop5.magic.php>`_ and export().
@@ -56,7 +71,7 @@ _____
 +------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Time To Fix      | Quick (30 mins)                                                                                                                                                                         |
 +------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Changed Behavior | PHP 7.4 - `More <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/.html>`__                                                                                              |
+| Changed Behavior | PHP 7.4                                                                                                                                                                                 |
 +------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision        | Very high                                                                                                                                                                               |
 +------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

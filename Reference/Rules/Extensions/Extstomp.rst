@@ -5,6 +5,21 @@
 Stomp
 +++++
 
+.. meta\:\:
+	:description:
+		Stomp: This extension allows php applications to communicate with any Stomp compliant Message Brokers through easy object-oriented and procedural interfaces.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Stomp
+	:twitter:description: Stomp: This extension allows php applications to communicate with any Stomp compliant Message Brokers through easy object-oriented and procedural interfaces
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Stomp
+	:og:type: article
+	:og:description: This extension allows php applications to communicate with any Stomp compliant Message Brokers through easy object-oriented and procedural interfaces
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extstomp.html
+	:og:locale: en
   This extension allows php applications to communicate with any Stomp compliant Message Brokers through easy object-oriented and procedural interfaces.
 
 .. code-block:: php

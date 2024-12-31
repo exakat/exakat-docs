@@ -5,6 +5,21 @@
 ext/exif
 ++++++++
 
+.. meta\:\:
+	:description:
+		ext/exif: Extension EXIF : Exchangeable image file format.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: ext/exif
+	:twitter:description: ext/exif: Extension EXIF : Exchangeable image file format
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: ext/exif
+	:og:type: article
+	:og:description: Extension EXIF : Exchangeable image file format
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extexif.html
+	:og:locale: en
   Extension EXIF : Exchangeable image file format.
 
 The EXIF extension manipulates image meta data.

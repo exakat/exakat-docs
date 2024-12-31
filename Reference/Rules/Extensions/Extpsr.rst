@@ -5,6 +5,21 @@
 ext/psr
 +++++++
 
+.. meta\:\:
+	:description:
+		ext/psr: Extension PSR : PHP Standards Recommendations.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: ext/psr
+	:twitter:description: ext/psr: Extension PSR : PHP Standards Recommendations
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: ext/psr
+	:og:type: article
+	:og:description: Extension PSR : PHP Standards Recommendations
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extpsr.html
+	:og:locale: en
   Extension PSR : PHP Standards Recommendations.
 
 This PHP extension provides the interfaces from the PSR standards as established by the PHP-FIG group. You can use interfaces provided by this extension in another extension easily - see this example.

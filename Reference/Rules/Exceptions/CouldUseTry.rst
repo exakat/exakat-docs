@@ -5,6 +5,21 @@
 Could Use Try
 +++++++++++++
 
+.. meta\:\:
+	:description:
+		Could Use Try: Some commands may raise exceptions.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Could Use Try
+	:twitter:description: Could Use Try: Some commands may raise exceptions
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Could Use Try
+	:og:type: article
+	:og:description: Some commands may raise exceptions
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Exceptions/CouldUseTry.html
+	:og:locale: en
   Some commands may raise exceptions. It is recommended to use the try/catch block to intercept those exceptions, and process them.
 
 * / : ``DivisionByZeroError``

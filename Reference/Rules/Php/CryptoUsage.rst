@@ -5,6 +5,21 @@
 Crypto Usage
 ++++++++++++
 
+.. meta\:\:
+	:description:
+		Crypto Usage: Usage of cryptography and hashes functions.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Crypto Usage
+	:twitter:description: Crypto Usage: Usage of cryptography and hashes functions
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Crypto Usage
+	:og:type: article
+	:og:description: Usage of cryptography and hashes functions
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/CryptoUsage.html
+	:og:locale: en
   Usage of cryptography and hashes functions. 
 
 The functions listed are the native PHP functions, and do not belong to a specific extension, like ``OpenSSL``, ``mcrypt`` or ``mhash``.

@@ -5,6 +5,21 @@
 Could Use str_repeat()
 ++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Could Use str_repeat(): Use str_repeat() or str_pad() instead of making a loop.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Could Use str_repeat()
+	:twitter:description: Could Use str_repeat(): Use str_repeat() or str_pad() instead of making a loop
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Could Use str_repeat()
+	:og:type: article
+	:og:description: Use str_repeat() or str_pad() instead of making a loop
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/CouldUseStrrepeat.html
+	:og:locale: en
   Use `str_repeat() <https://www.php.net/str_repeat>`_ or `str_pad() <https://www.php.net/str_pad>`_ instead of making a loop.
 
 Making a loop to repeat the same concatenation is actually much longer than using `str_repeat() <https://www.php.net/str_repeat>`_. As soon as the loop repeats more than twice, `str_repeat() <https://www.php.net/str_repeat>`_ is much faster. With arrays of 30, the difference is significant, though the whole operation is short by itself.

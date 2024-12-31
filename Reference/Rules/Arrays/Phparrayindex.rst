@@ -5,6 +5,21 @@
 PHP Arrays Index
 ++++++++++++++++
 
+.. meta\:\:
+	:description:
+		PHP Arrays Index: List of indexes used when manipulating PHP arrays in the code.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: PHP Arrays Index
+	:twitter:description: PHP Arrays Index: List of indexes used when manipulating PHP arrays in the code
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: PHP Arrays Index
+	:og:type: article
+	:og:description: List of indexes used when manipulating PHP arrays in the code
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Arrays/Phparrayindex.html
+	:og:locale: en
   List of indexes used when manipulating PHP arrays in the code. These indices usually carry semantic meanings, and should always be readable.
 
 .. code-block:: php

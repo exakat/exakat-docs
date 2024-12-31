@@ -5,6 +5,21 @@
 PHP 7.4 Reserved Keyword
 ++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		PHP 7.4 Reserved Keyword: ``fn`` is a new PHP keyword.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: PHP 7.4 Reserved Keyword
+	:twitter:description: PHP 7.4 Reserved Keyword: ``fn`` is a new PHP keyword
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: PHP 7.4 Reserved Keyword
+	:og:type: article
+	:og:description: ``fn`` is a new PHP keyword
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/Php74ReservedKeyword.html
+	:og:locale: en
   ``fn`` is a new PHP keyword. In PHP 7.4, it is used to build the arrow functions. When used at an illegal position, ``fn`` generates a Fatal `error <https://www.php.net/error>`_ at compile time.
 
 As a key word, ``fn`` is not allowed as constant name, function name, class name or inside namespaces. 

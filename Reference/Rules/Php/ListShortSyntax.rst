@@ -5,6 +5,21 @@
 List Short Syntax
 +++++++++++++++++
 
+.. meta\:\:
+	:description:
+		List Short Syntax: Usage of short syntax version of list().
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: List Short Syntax
+	:twitter:description: List Short Syntax: Usage of short syntax version of list()
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: List Short Syntax
+	:og:type: article
+	:og:description: Usage of short syntax version of list()
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/ListShortSyntax.html
+	:og:locale: en
   Usage of short syntax version of `list() <https://www.php.net/list>`_.
 
 .. code-block:: php

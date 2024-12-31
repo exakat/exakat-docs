@@ -5,6 +5,21 @@
 Special Integers
 ++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Special Integers: Short and incomplete list of integers that may hold special values.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Special Integers
+	:twitter:description: Special Integers: Short and incomplete list of integers that may hold special values
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Special Integers
+	:og:type: article
+	:og:description: Short and incomplete list of integers that may hold special values
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Type/SpecialIntegers.html
+	:og:locale: en
   Short and incomplete list of integers that may hold special values. 
 The list includes powers of 2, duration in various units, factorial, ASCII codes and years.
 

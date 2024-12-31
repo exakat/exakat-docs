@@ -5,6 +5,21 @@
 No Count With 0
 +++++++++++++++
 
+.. meta\:\:
+	:description:
+		No Count With 0: Comparing count(), strlen() or mb_strlen() to 0 is a waste of resources.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: No Count With 0
+	:twitter:description: No Count With 0: Comparing count(), strlen() or mb_strlen() to 0 is a waste of resources
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: No Count With 0
+	:og:type: article
+	:og:description: Comparing count(), strlen() or mb_strlen() to 0 is a waste of resources
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Performances/NotCountNull.html
+	:og:locale: en
   Comparing `count() <https://www.php.net/count>`_, `strlen() <https://www.php.net/strlen>`_ or `mb_strlen() <https://www.php.net/mb_strlen>`_ to 0 is a waste of resources. There are three distinct situations.
 
 When comparing `count() <https://www.php.net/count>`_ with 0, with ===, ==, !==, !=, it is more efficient to use empty(). empty() is a language construct that checks if a value is present, while `count() <https://www.php.net/count>`_ actually load the number of element.

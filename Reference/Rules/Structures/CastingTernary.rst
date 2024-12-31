@@ -5,6 +5,21 @@
 Casting Ternary
 +++++++++++++++
 
+.. meta\:\:
+	:description:
+		Casting Ternary: Type casting has a precedence over ternary operator, and is applied first.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Casting Ternary
+	:twitter:description: Casting Ternary: Type casting has a precedence over ternary operator, and is applied first
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Casting Ternary
+	:og:type: article
+	:og:description: Type casting has a precedence over ternary operator, and is applied first
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/CastingTernary.html
+	:og:locale: en
   Type casting has a precedence over ternary operator, and is applied first. When this happens, the condition is cast, although it is often useless as PHP will do it if needed.
 
 This applies to the ternary operator, the coalesce operator ?: and the null-coalesce operator ??.

@@ -5,6 +5,21 @@
 Useless Null Coalesce
 +++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Useless Null Coalesce: When the type system ensure the condition is never null, the operator becomes useless.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Useless Null Coalesce
+	:twitter:description: Useless Null Coalesce: When the type system ensure the condition is never null, the operator becomes useless
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Useless Null Coalesce
+	:og:type: article
+	:og:description: When the type system ensure the condition is never null, the operator becomes useless
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/UselessNullCoalesce.html
+	:og:locale: en
   When the type system ensure the condition is never null, the operator becomes useless. 
 
 This is particularly true for properties (`static <https://www.php.net/manual/en/language.oop5.static.php>`_ or not) and returntype of methods and functions. And, to a lesser extend, to variables and parameters.

@@ -5,6 +5,21 @@
 Unkown Regex Options
 ++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Unkown Regex Options: Regex support in PHP accepts the following list of options : ``eimsuxADJSUX``.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Unkown Regex Options
+	:twitter:description: Unkown Regex Options: Regex support in PHP accepts the following list of options : ``eimsuxADJSUX``
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Unkown Regex Options
+	:og:type: article
+	:og:description: Regex support in PHP accepts the following list of options : ``eimsuxADJSUX``
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/UnknownPregOption.html
+	:og:locale: en
   Regex support in PHP accepts the following list of options : ``eimsuxADJSUX``. 
 
 All other letter used as option are not supported : depending on the situation, they may be ignored or raise an `error <https://www.php.net/error>`_.

@@ -5,6 +5,21 @@
 ext/gmp
 +++++++
 
+.. meta\:\:
+	:description:
+		ext/gmp: Extension ext/gmp.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: ext/gmp
+	:twitter:description: ext/gmp: Extension ext/gmp
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: ext/gmp
+	:og:type: article
+	:og:description: Extension ext/gmp
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extgmp.html
+	:og:locale: en
   Extension ext/`gmp <https://www.php.net/gmp>`_.
 
 These functions allow for arbitrary-length integers to be worked with using the GNU MP library.

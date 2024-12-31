@@ -5,6 +5,21 @@
 Return Typehint Usage
 +++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Return Typehint Usage: Spot usage of return typehint.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Return Typehint Usage
+	:twitter:description: Return Typehint Usage: Spot usage of return typehint
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Return Typehint Usage
+	:og:type: article
+	:og:description: Spot usage of return typehint
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/ReturnTypehintUsage.html
+	:og:locale: en
   Spot usage of return typehint. It is a PHP 7.0 feature.
 
 Return typehint were introduced in PHP 7.0, and are backward incompatible with PHP 5.x.
@@ -43,7 +58,7 @@ _____
 +------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Time To Fix      |                                                                                                                                                                                         |
 +------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Changed Behavior | PHP 7.0 - `More <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/.html>`__                                                                                              |
+| Changed Behavior | PHP 7.0                                                                                                                                                                                 |
 +------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision        | Very high                                                                                                                                                                               |
 +------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

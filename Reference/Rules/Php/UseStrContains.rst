@@ -5,6 +5,21 @@
 Use str_contains()
 ++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Use str_contains(): str_contains() checks if a string is within another one.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Use str_contains()
+	:twitter:description: Use str_contains(): str_contains() checks if a string is within another one
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Use str_contains()
+	:og:type: article
+	:og:description: str_contains() checks if a string is within another one
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/UseStrContains.html
+	:og:locale: en
   `str_contains() <https://www.php.net/str_contains>`_ checks if a string is within another one. It replaces a call to `strpos() <https://www.php.net/strpos>`_ with a comparison. 
 Note that this function is case sensitive : it cannot replace `stripos() <https://www.php.net/stripos>`_.
 

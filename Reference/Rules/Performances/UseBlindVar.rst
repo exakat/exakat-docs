@@ -5,6 +5,21 @@
 Use The Blind Var
 +++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Use The Blind Var: When in a loop, it is faster to rely on the blind var, rather than the original source.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Use The Blind Var
+	:twitter:description: Use The Blind Var: When in a loop, it is faster to rely on the blind var, rather than the original source
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Use The Blind Var
+	:og:type: article
+	:og:description: When in a loop, it is faster to rely on the blind var, rather than the original source
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Performances/UseBlindVar.html
+	:og:locale: en
   When in a loop, it is faster to rely on the blind var, rather than the original source.
 
 When the key is referenced in the foreach loop, it is faster to use the available container to access a value for reading.

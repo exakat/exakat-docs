@@ -5,6 +5,21 @@
 Intersection Typehint
 +++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Intersection Typehint: Intersection typehints allows the combination of several typehint for the same argument or return value.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Intersection Typehint
+	:twitter:description: Intersection Typehint: Intersection typehints allows the combination of several typehint for the same argument or return value
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Intersection Typehint
+	:og:type: article
+	:og:description: Intersection typehints allows the combination of several typehint for the same argument or return value
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/Php81IntersectionTypehint.html
+	:og:locale: en
   Intersection typehints allows the combination of several typehint for the same argument or return value. 
 
 Several typehints are specified at the same place as a single one. The different values are separated by a ampersand character ``&``. 

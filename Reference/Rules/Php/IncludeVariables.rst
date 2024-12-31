@@ -5,6 +5,21 @@
 Include Variables
 +++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Include Variables: This rule reports when ``include``, ``require`` and its cousins, are used with a variable, or any data container.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Include Variables
+	:twitter:description: Include Variables: This rule reports when ``include``, ``require`` and its cousins, are used with a variable, or any data container
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Include Variables
+	:og:type: article
+	:og:description: This rule reports when ``include``, ``require`` and its cousins, are used with a variable, or any data container
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/IncludeVariables.html
+	:og:locale: en
   This rule reports when ``include``, ``require`` and its cousins, are used with a variable, or any data container. This is a dynamic inclusion.
 
 .. code-block:: php

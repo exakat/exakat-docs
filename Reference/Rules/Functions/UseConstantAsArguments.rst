@@ -5,6 +5,21 @@
 Use Constant As Arguments
 +++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Use Constant As Arguments: Some methods and functions are defined to be used with constants as arguments.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Use Constant As Arguments
+	:twitter:description: Use Constant As Arguments: Some methods and functions are defined to be used with constants as arguments
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Use Constant As Arguments
+	:og:type: article
+	:og:description: Some methods and functions are defined to be used with constants as arguments
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/UseConstantAsArguments.html
+	:og:locale: en
   Some methods and functions are defined to be used with constants as arguments. Those constants are made to be meaningful and readable, keeping the code maintenable. It is recommended to use such constants as soon as they are documented.
 Here is the list of functions that use a unique PHP constant as argument : 
 

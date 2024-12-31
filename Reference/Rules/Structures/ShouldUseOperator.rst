@@ -5,6 +5,21 @@
 Should Use Operator
 +++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Should Use Operator: Some functions duplicate the feature of an operator.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Should Use Operator
+	:twitter:description: Should Use Operator: Some functions duplicate the feature of an operator
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Should Use Operator
+	:og:type: article
+	:og:description: Some functions duplicate the feature of an operator
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ShouldUseOperator.html
+	:og:locale: en
   Some functions duplicate the feature of an operator. When in doubt, it is better to use the operator. 
 
 Beware, some edge cases may apply. In particular, backward compatibility may prevent usage of newer features.

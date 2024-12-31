@@ -5,6 +5,21 @@
 Use Debug
 +++++++++
 
+.. meta\:\:
+	:description:
+		Use Debug: The code source includes calls to debug functions.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Use Debug
+	:twitter:description: Use Debug: The code source includes calls to debug functions
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Use Debug
+	:og:type: article
+	:og:description: The code source includes calls to debug functions
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/UseDebug.html
+	:og:locale: en
   The code source includes calls to debug functions.
 
 The following debug functions and libraries are reported : 

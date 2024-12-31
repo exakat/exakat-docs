@@ -5,6 +5,21 @@
 Inconsistent Concatenation
 ++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Inconsistent Concatenation: Concatenations happens within a string or using the dot operator.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Inconsistent Concatenation
+	:twitter:description: Inconsistent Concatenation: Concatenations happens within a string or using the dot operator
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Inconsistent Concatenation
+	:og:type: article
+	:og:description: Concatenations happens within a string or using the dot operator
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/InconsistentConcatenation.html
+	:og:locale: en
   Concatenations happens within a string or using the dot operator. Using both is an inconsistent way of writing concatenations.
 
 Switching methods of concatenation, sometimes in the same expression, is `error <https://www.php.net/error>`_ prone. The reader gets confused, and may miss important information. 

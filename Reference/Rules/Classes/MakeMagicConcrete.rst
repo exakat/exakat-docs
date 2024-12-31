@@ -5,6 +5,21 @@
 Make Magic Concrete
 +++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Make Magic Concrete: Speed up execution by replacing magic calls by concrete properties.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Make Magic Concrete
+	:twitter:description: Make Magic Concrete: Speed up execution by replacing magic calls by concrete properties
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Make Magic Concrete
+	:og:type: article
+	:og:description: Speed up execution by replacing magic calls by concrete properties
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/MakeMagicConcrete.html
+	:og:locale: en
   Speed up execution by replacing magic calls by concrete properties. 
 
 Magic properties are managed dynamically, with `__get() <https://www.php.net/manual/en/language.oop5.magic.php>`_ and `__set() <https://www.php.net/manual/en/language.oop5.magic.php>`_. They replace property access by a methodcall, and they are much slower than the first. 

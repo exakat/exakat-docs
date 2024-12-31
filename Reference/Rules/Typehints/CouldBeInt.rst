@@ -5,6 +5,21 @@
 Type Could Be Integer
 +++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Type Could Be Integer: This rule marks arguments, class constants, properties and return types that can be set to the integer type ``int``.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Type Could Be Integer
+	:twitter:description: Type Could Be Integer: This rule marks arguments, class constants, properties and return types that can be set to the integer type ``int``
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Type Could Be Integer
+	:og:type: article
+	:og:description: This rule marks arguments, class constants, properties and return types that can be set to the integer type ``int``
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Typehints/CouldBeInt.html
+	:og:locale: en
   This rule marks arguments, class constants, properties and return types that can be set to the integer type ``int``.
 
 .. code-block:: php

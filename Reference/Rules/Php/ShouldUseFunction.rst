@@ -5,6 +5,21 @@
 Should Use Function
 +++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Should Use Function: Functioncalls that fall back to global scope should be using 'use function' or be fully namespaced.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Should Use Function
+	:twitter:description: Should Use Function: Functioncalls that fall back to global scope should be using 'use function' or be fully namespaced
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Should Use Function
+	:og:type: article
+	:og:description: Functioncalls that fall back to global scope should be using 'use function' or be fully namespaced
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/ShouldUseFunction.html
+	:og:locale: en
   Functioncalls that fall back to global scope should be using 'use function' or be fully namespaced. 
 
 PHP searches for functions in the local namespaces, and in case it fails, makes the same search in the global scope. Anytime a native function is referenced this way, the search (and fail) happens. This slows down the scripts.

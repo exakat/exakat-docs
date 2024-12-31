@@ -5,6 +5,21 @@
 Used Once Variables
 +++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Used Once Variables: This is the list of used once variables.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Used Once Variables
+	:twitter:description: Used Once Variables: This is the list of used once variables
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Used Once Variables
+	:og:type: article
+	:og:description: This is the list of used once variables
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Variables/VariableUsedOnce.html
+	:og:locale: en
   This is the list of used once variables. 
 Such variables are useless. Variables must be used at least twice : once for writing, once for reading, at least. It is recommended to remove them.
 

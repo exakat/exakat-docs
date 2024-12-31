@@ -5,6 +5,21 @@
 Json_encode() Without Catching Exceptions
 +++++++++++++++++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Json_encode() Without Catching Exceptions: json_encode() and json_decode() should use the exception system, to detect invalid JSON syntax.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Json_encode() Without Catching Exceptions
+	:twitter:description: Json_encode() Without Catching Exceptions: json_encode() and json_decode() should use the exception system, to detect invalid JSON syntax
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Json_encode() Without Catching Exceptions
+	:og:type: article
+	:og:description: json_encode() and json_decode() should use the exception system, to detect invalid JSON syntax
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/JsonEncodeExceptions.html
+	:og:locale: en
   `json_encode() <https://www.php.net/json_encode>`_ and `json_decode() <https://www.php.net/json_decode>`_ should use the `exception <https://www.php.net/exception>`_ system, to detect invalid JSON syntax. 
 
 The second argument is a bitmask, and shall include `JSON_THROW_ON_ERROR <https://www.php.net/JSON_THROW_ON_ERROR>`_, so that both function may emit an `exception <https://www.php.net/exception>`_ when a parsing `error <https://www.php.net/error>`_ happen. That `exception <https://www.php.net/exception>`_ can then be caught with a try/catch structure.

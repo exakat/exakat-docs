@@ -5,6 +5,21 @@
 Has Magic Method
 ++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Has Magic Method: The class has defined one of the magic methods.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Has Magic Method
+	:twitter:description: Has Magic Method: The class has defined one of the magic methods
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Has Magic Method
+	:og:type: article
+	:og:description: The class has defined one of the magic methods
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/HasMagicProperty.html
+	:og:locale: en
   The class has defined one of the magic methods.
 
 The magic methods are  : `__call() <https://www.php.net/manual/en/language.oop5.magic.php>`_, `__callStatic() <https://www.php.net/manual/en/language.oop5.magic.php>`_, `__get() <https://www.php.net/manual/en/language.oop5.magic.php>`_, `__set() <https://www.php.net/manual/en/language.oop5.magic.php>`_, `__isset() <https://www.php.net/manual/en/language.oop5.magic.php>`_, `__unset() <https://www.php.net/manual/en/language.oop5.magic.php>`_, `__sleep() <https://www.php.net/manual/en/language.oop5.magic.php>`_, `__wakeup() <https://www.php.net/manual/en/language.oop5.magic.php>`_, `__toString() <https://www.php.net/manual/en/language.oop5.magic.php>`_, `__invoke() <https://www.php.net/manual/en/language.oop5.magic.php>`_, `__set_state() <https://www.php.net/manual/en/language.oop5.magic.php>`_, `__clone() <https://www.php.net/manual/en/language.oop5.magic.php>`_ and `__debugInfo() <https://www.php.net/manual/en/language.oop5.magic.php>`_.

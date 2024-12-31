@@ -5,6 +5,21 @@
 No Direct Access
 ++++++++++++++++
 
+.. meta\:\:
+	:description:
+		No Direct Access: This expression protects files against direct access.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: No Direct Access
+	:twitter:description: No Direct Access: This expression protects files against direct access
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: No Direct Access
+	:og:type: article
+	:og:description: This expression protects files against direct access
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/NoDirectAccess.html
+	:og:locale: en
   This expression protects files against direct access. It will kill the process if it realizes this is not supposed to be directly accessed.
 
 Those expressions are used in applications and framework, to prevent direct access to definition files.

@@ -5,6 +5,21 @@
 Propagate Constants
 +++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Propagate Constants: This command calculates constant expression values, and set them in the graph.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Propagate Constants
+	:twitter:description: Propagate Constants: This command calculates constant expression values, and set them in the graph
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Propagate Constants
+	:og:type: article
+	:og:description: This command calculates constant expression values, and set them in the graph
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Complete/PropagateConstants.html
+	:og:locale: en
   This command calculates constant expression values, and set them in the graph.
 After running this command, B has ``intval`` of 3. 
 

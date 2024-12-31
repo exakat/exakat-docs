@@ -5,6 +5,21 @@
 Multiples Identical Case
 ++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Multiples Identical Case: Some cases are defined multiple times, but only one will be processed.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Multiples Identical Case
+	:twitter:description: Multiples Identical Case: Some cases are defined multiple times, but only one will be processed
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Multiples Identical Case
+	:og:type: article
+	:og:description: Some cases are defined multiple times, but only one will be processed
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/MultipleDefinedCase.html
+	:og:locale: en
   Some cases are defined multiple times, but only one will be processed. Check the list of cases, and remove the extra one.
 
 Exakat finds the value of the cases as much as possible, and ignore any dynamic cases (using variables).

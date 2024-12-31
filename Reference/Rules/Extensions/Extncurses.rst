@@ -5,6 +5,21 @@
 ext/ncurses
 +++++++++++
 
+.. meta\:\:
+	:description:
+		ext/ncurses: Extension ncurses (CLI).
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: ext/ncurses
+	:twitter:description: ext/ncurses: Extension ncurses (CLI)
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: ext/ncurses
+	:og:type: article
+	:og:description: Extension ncurses (CLI)
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extncurses.html
+	:og:locale: en
   Extension ncurses (CLI).
 
 ncurses (new curses) is a free software emulation of curses in System V Rel 4.0 (and above).

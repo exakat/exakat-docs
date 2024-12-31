@@ -5,6 +5,21 @@
 Has Variable Arguments
 ++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Has Variable Arguments: Indicates if this function or method accept an arbitrary number of arguments, based on func_get_args(), func_get_arg() and func_num_args() usage.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Has Variable Arguments
+	:twitter:description: Has Variable Arguments: Indicates if this function or method accept an arbitrary number of arguments, based on func_get_args(), func_get_arg() and func_num_args() usage
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Has Variable Arguments
+	:og:type: article
+	:og:description: Indicates if this function or method accept an arbitrary number of arguments, based on func_get_args(), func_get_arg() and func_num_args() usage
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/VariableArguments.html
+	:og:locale: en
   Indicates if this function or method accept an arbitrary number of arguments, based on `func_get_args() <https://www.php.net/func_get_args>`_, `func_get_arg() <https://www.php.net/func_get_arg>`_ and `func_num_args() <https://www.php.net/func_num_args>`_ usage.
 
 .. code-block:: php

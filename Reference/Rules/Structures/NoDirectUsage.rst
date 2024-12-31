@@ -5,6 +5,21 @@
 No Direct Usage Of Returned Value
 +++++++++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		No Direct Usage Of Returned Value: The results of the following functions shouldn't be used directly, but checked first.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: No Direct Usage Of Returned Value
+	:twitter:description: No Direct Usage Of Returned Value: The results of the following functions shouldn't be used directly, but checked first
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: No Direct Usage Of Returned Value
+	:og:type: article
+	:og:description: The results of the following functions shouldn't be used directly, but checked first
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/NoDirectUsage.html
+	:og:locale: en
   The results of the following functions shouldn't be used directly, but checked first. 
 
 For example, `glob() <https://www.php.net/glob>`_ returns an array, unless an `error <https://www.php.net/error>`_ happens, in which case it returns ``false``. In such case, however rare it is, plugging `glob() <https://www.php.net/glob>`_ directly in a `foreach() <https://www.php.net/manual/en/control-structures.foreach.php>`_ loops yields errors.

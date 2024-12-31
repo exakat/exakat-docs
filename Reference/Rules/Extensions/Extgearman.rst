@@ -5,6 +5,21 @@
 ext/gearman
 +++++++++++
 
+.. meta\:\:
+	:description:
+		ext/gearman: Extension Gearman.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: ext/gearman
+	:twitter:description: ext/gearman: Extension Gearman
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: ext/gearman
+	:og:type: article
+	:og:description: Extension Gearman
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extgearman.html
+	:og:locale: en
   Extension Gearman.
 
 Gearman is a generic application framework for farming out work to multiple machines or processes.

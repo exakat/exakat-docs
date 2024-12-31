@@ -5,6 +5,21 @@
 Generator Cannot Return
 +++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Generator Cannot Return: Generators could not use return and yield at the same time.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Generator Cannot Return
+	:twitter:description: Generator Cannot Return: Generators could not use return and yield at the same time
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Generator Cannot Return
+	:og:type: article
+	:og:description: Generators could not use return and yield at the same time
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/GeneratorCannotReturn.html
+	:og:locale: en
   Generators could not use return and yield at the same time. In PHP 7.0, `generator <https://www.php.net/`generator <https://www.php.net/generator>`_>`_ can now use both of them.
 
 .. code-block:: php

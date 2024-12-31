@@ -5,6 +5,21 @@
 Could Set Property Default
 ++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Could Set Property Default: When a property is set to a literal in the constructor, the assignation may be moved to the property definition.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Could Set Property Default
+	:twitter:description: Could Set Property Default: When a property is set to a literal in the constructor, the assignation may be moved to the property definition
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Could Set Property Default
+	:og:type: article
+	:og:description: When a property is set to a literal in the constructor, the assignation may be moved to the property definition
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/CouldSetPropertyDefault.html
+	:og:locale: en
   When a property is set to a literal in the constructor, the assignation may be moved to the property definition.
 
 It is a micro-optimisation.

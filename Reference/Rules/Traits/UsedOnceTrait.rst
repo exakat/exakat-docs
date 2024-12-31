@@ -5,6 +5,21 @@
 Used Once Trait
 +++++++++++++++
 
+.. meta\:\:
+	:description:
+		Used Once Trait: Trait should promote code reuse and be used multiple time.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Used Once Trait
+	:twitter:description: Used Once Trait: Trait should promote code reuse and be used multiple time
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Used Once Trait
+	:og:type: article
+	:og:description: Trait should promote code reuse and be used multiple time
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Traits/UsedOnceTrait.html
+	:og:locale: en
   Trait should promote code reuse and be used multiple time. A trait that is used once might be as well merged into its host class, and removed. This is currently overengineered code.
 
 .. code-block:: php

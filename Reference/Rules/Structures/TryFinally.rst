@@ -5,6 +5,21 @@
 Try With Finally
 ++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Try With Finally: Indicates if a try use a finally statement.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Try With Finally
+	:twitter:description: Try With Finally: Indicates if a try use a finally statement
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Try With Finally
+	:og:type: article
+	:og:description: Indicates if a try use a finally statement
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/TryFinally.html
+	:og:locale: en
   Indicates if a try use a finally statement.
 
 .. code-block:: php

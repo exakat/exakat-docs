@@ -5,6 +5,21 @@
 Incompilable Files
 ++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Incompilable Files: Files that cannot be compiled, and, as such, be run by PHP.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Incompilable Files
+	:twitter:description: Incompilable Files: Files that cannot be compiled, and, as such, be run by PHP
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Incompilable Files
+	:og:type: article
+	:og:description: Files that cannot be compiled, and, as such, be run by PHP
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/Incompilable.html
+	:og:locale: en
   Files that cannot be compiled, and, as such, be run by PHP. Scripts are linted against various versions of PHP. 
 
 This is usually undesirable, as all code must compile before being executed. It may be that such files are not compilable because they are not yet ready for an upcoming PHP version.

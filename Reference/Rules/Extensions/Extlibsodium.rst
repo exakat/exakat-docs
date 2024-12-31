@@ -5,6 +5,21 @@
 ext/libsodium
 +++++++++++++
 
+.. meta\:\:
+	:description:
+		ext/libsodium: Extension for libsodium : in PECL until PHP 7.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: ext/libsodium
+	:twitter:description: ext/libsodium: Extension for libsodium : in PECL until PHP 7
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: ext/libsodium
+	:og:type: article
+	:og:description: Extension for libsodium : in PECL until PHP 7
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extlibsodium.html
+	:og:locale: en
   Extension for libsodium : in PECL until PHP 7.2, and in core ever since. 
 
 The Sodium crypto library (libsodium) is a modern, easy-to-use software library for encryption, decryption, signatures, password hashing and more.

@@ -5,6 +5,21 @@
 Useless Global
 ++++++++++++++
 
+.. meta\:\:
+	:description:
+		Useless Global: Global are useless in two cases.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Useless Global
+	:twitter:description: Useless Global: Global are useless in two cases
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Useless Global
+	:og:type: article
+	:og:description: Global are useless in two cases
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/UselessGlobal.html
+	:og:locale: en
   Global are useless in two cases. First, on super-globals, which are always globals, like `$_GET <https://www.php.net/manual/en/reserved.variables.get.php>`_; secondly, on variables that are not used.
 Also, PHP has superglobals, a special team of variables that are always available, whatever the context. 
 They are : $GLOBALS, $_SERVER, `$_GET <https://www.php.net/manual/en/reserved.variables.get.php>`_, `$_POST <https://www.php.net/manual/en/reserved.variables.post.php>`_, $_FILES, $_COOKIE, $_SESSION, `$_REQUEST <https://www.php.net/manual/en/reserved.variables.request.php>`_ and `$_ENV <https://www.php.net/manual/en/reserved.variables.env.php>`_.

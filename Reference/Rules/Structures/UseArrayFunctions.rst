@@ -5,6 +5,21 @@
 Use Array Functions
 +++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Use Array Functions: There are a lot of native PHP functions for arrays.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Use Array Functions
+	:twitter:description: Use Array Functions: There are a lot of native PHP functions for arrays
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Use Array Functions
+	:og:type: article
+	:og:description: There are a lot of native PHP functions for arrays
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/UseArrayFunctions.html
+	:og:locale: en
   There are a lot of native PHP functions for arrays. It is often faster to take advantage of them than write a loop.
 
 * `array_push() <https://www.php.net/array_push>`_ : use `array_merge() <https://www.php.net/array_merge>`_

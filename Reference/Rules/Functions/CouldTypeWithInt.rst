@@ -5,6 +5,21 @@
 Could Type With Int
 +++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Could Type With Int: That argument may be typed with ``int``.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Could Type With Int
+	:twitter:description: Could Type With Int: That argument may be typed with ``int``
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Could Type With Int
+	:og:type: article
+	:og:description: That argument may be typed with ``int``
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/CouldTypeWithInt.html
+	:og:locale: en
   That argument may be typed with ``int``.
 
 .. code-block:: php

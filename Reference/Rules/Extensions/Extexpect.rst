@@ -5,6 +5,21 @@
 ext/expect
 ++++++++++
 
+.. meta\:\:
+	:description:
+		ext/expect: Extension Expect.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: ext/expect
+	:twitter:description: ext/expect: Extension Expect
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: ext/expect
+	:og:type: article
+	:og:description: Extension Expect
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extexpect.html
+	:og:locale: en
   Extension Expect.
 
 This extension allows to interact with processes through ``PTY``. You may consider using the ``expect://`` wrapper with the filesystem functions which provide a simpler and more intuitive interface.

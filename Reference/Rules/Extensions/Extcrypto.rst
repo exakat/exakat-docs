@@ -5,6 +5,21 @@
 ext/crypto
 ++++++++++
 
+.. meta\:\:
+	:description:
+		ext/crypto: Extension ext/crypto (PECL).
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: ext/crypto
+	:twitter:description: ext/crypto: Extension ext/crypto (PECL)
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: ext/crypto
+	:og:type: article
+	:og:description: Extension ext/crypto (PECL)
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extcrypto.html
+	:og:locale: en
   Extension ext/crypto (PECL).
 
 Objective PHP binding of OpenSSL Crypto library.

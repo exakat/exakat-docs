@@ -5,6 +5,21 @@
 Unused Constants
 ++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Unused Constants: Those constants are defined in the code but never used.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Unused Constants
+	:twitter:description: Unused Constants: Those constants are defined in the code but never used
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Unused Constants
+	:og:type: article
+	:og:description: Those constants are defined in the code but never used
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Constants/UnusedConstants.html
+	:og:locale: en
   Those constants are defined in the code but never used. Defining unused constants slow down the application, as they are executed and stored in PHP hashtables. 
 It is recommended to comment them out, and only define them when it is necessary.
 

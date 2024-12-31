@@ -5,6 +5,21 @@
 Check Crypto Key Length
 +++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Check Crypto Key Length: Each cryptography algorithm requires a reasonable length.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Check Crypto Key Length
+	:twitter:description: Check Crypto Key Length: Each cryptography algorithm requires a reasonable length
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Check Crypto Key Length
+	:og:type: article
+	:og:description: Each cryptography algorithm requires a reasonable length
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Security/CryptoKeyLength.html
+	:og:locale: en
   Each cryptography algorithm requires a reasonable length. Make sure an up-to-date length is used. 
 
 This rule use the following recommendations : 

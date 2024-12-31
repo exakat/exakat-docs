@@ -5,6 +5,21 @@
 Unset In Foreach
 ++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Unset In Foreach: Unset applied to the variables of a ``foreach`` loop are useless.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Unset In Foreach
+	:twitter:description: Unset In Foreach: Unset applied to the variables of a ``foreach`` loop are useless
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Unset In Foreach
+	:og:type: article
+	:og:description: Unset applied to the variables of a ``foreach`` loop are useless
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/UnsetInForeach.html
+	:og:locale: en
   Unset applied to the variables of a ``foreach`` loop are useless. Those variables are copies and not the actual value. Even if the value is a reference, unsetting it has no effect on the original array : the only effect may be indirect, on elements inside an array, or on properties inside an object.
 
 .. code-block:: php

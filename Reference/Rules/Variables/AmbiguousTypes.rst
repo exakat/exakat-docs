@@ -5,6 +5,21 @@
 Ambiguous Types With Variables
 ++++++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Ambiguous Types With Variables: The same variable is assigned various types, in different methods.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Ambiguous Types With Variables
+	:twitter:description: Ambiguous Types With Variables: The same variable is assigned various types, in different methods
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Ambiguous Types With Variables
+	:og:type: article
+	:og:description: The same variable is assigned various types, in different methods
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Variables/AmbiguousTypes.html
+	:og:locale: en
   The same variable is assigned various types, in different methods. This means that one may expect the same named variable to behave differently in different context.
 
 .. code-block:: php

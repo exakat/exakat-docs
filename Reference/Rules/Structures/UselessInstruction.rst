@@ -5,6 +5,21 @@
 Useless Instructions
 ++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Useless Instructions: Those instructions are useless, or contains useless parts.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Useless Instructions
+	:twitter:description: Useless Instructions: Those instructions are useless, or contains useless parts
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Useless Instructions
+	:og:type: article
+	:og:description: Those instructions are useless, or contains useless parts
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/UselessInstruction.html
+	:og:locale: en
   Those instructions are useless, or contains useless parts. 
 
 For example, an addition whose `result <https://www.php.net/result>`_ is not stored in a variable, or immediately used, does nothing : it is actually performed, and the `result <https://www.php.net/result>`_ is lost. Just plain lost. In fact, PHP might detect it, and optimize it away. 

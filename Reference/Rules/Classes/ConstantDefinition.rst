@@ -5,6 +5,21 @@
 Constant Definition
 +++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Constant Definition: List of class constants being defined.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Constant Definition
+	:twitter:description: Constant Definition: List of class constants being defined
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Constant Definition
+	:og:type: article
+	:og:description: List of class constants being defined
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/ConstantDefinition.html
+	:og:locale: en
   List of class constants being defined.
 
 .. code-block:: php

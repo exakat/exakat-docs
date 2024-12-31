@@ -5,6 +5,21 @@
 Use get_debug_type()
 ++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Use get_debug_type(): get_debug_type() returns the given type of a variable.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Use get_debug_type()
+	:twitter:description: Use get_debug_type(): get_debug_type() returns the given type of a variable
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Use get_debug_type()
+	:og:type: article
+	:og:description: get_debug_type() returns the given type of a variable
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/UseGetDebugType.html
+	:og:locale: en
   `get_debug_type() <https://www.php.net/get_debug_type>`_ returns the given type of a variable. It was introduced in PHP 8.0: this makes it incompatible with previous versions.
 
 .. code-block:: php

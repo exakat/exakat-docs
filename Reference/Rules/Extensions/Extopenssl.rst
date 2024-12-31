@@ -5,6 +5,21 @@
 ext/openssl
 +++++++++++
 
+.. meta\:\:
+	:description:
+		ext/openssl: Extension Openssl.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: ext/openssl
+	:twitter:description: ext/openssl: Extension Openssl
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: ext/openssl
+	:og:type: article
+	:og:description: Extension Openssl
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extopenssl.html
+	:og:locale: en
   Extension Openssl.
 
 This extension binds functions of ``OpenSSL`` library for symmetric and asymmetric encryption and decryption, ``PBKDF2``, ``PKCS7``, ``PKCS12``, ``X509`` and other cryptographic operations. In addition to that it provides implementation of ``TLS`` streams.

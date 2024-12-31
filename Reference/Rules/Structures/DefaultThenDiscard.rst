@@ -5,6 +5,21 @@
 Default Then Discard
 ++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Default Then Discard: Discard the value before assigning it.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Default Then Discard
+	:twitter:description: Default Then Discard: Discard the value before assigning it
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Default Then Discard
+	:og:type: article
+	:og:description: Discard the value before assigning it
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/DefaultThenDiscard.html
+	:og:locale: en
   Discard the value before assigning it. 
 
 In the code below, the variable is assigned a default value. Then, this value is immediately tested and discarded. 

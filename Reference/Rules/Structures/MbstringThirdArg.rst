@@ -5,6 +5,21 @@
 Mbstring Third Arg
 ++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Mbstring Third Arg: Some mbstring functions use the third argument for offset, not for encoding.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Mbstring Third Arg
+	:twitter:description: Mbstring Third Arg: Some mbstring functions use the third argument for offset, not for encoding
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Mbstring Third Arg
+	:og:type: article
+	:og:description: Some mbstring functions use the third argument for offset, not for encoding
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/MbstringThirdArg.html
+	:og:locale: en
   Some mbstring functions use the third argument for offset, not for encoding.
 
 Those are the following functions : 

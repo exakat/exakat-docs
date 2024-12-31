@@ -5,6 +5,21 @@
 Printf Format Inventory
 +++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Printf Format Inventory: All format used in the code with printf(), vprintf(), sprintf(), scanf() and fscanf().
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Printf Format Inventory
+	:twitter:description: Printf Format Inventory: All format used in the code with printf(), vprintf(), sprintf(), scanf() and fscanf()
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Printf Format Inventory
+	:og:type: article
+	:og:description: All format used in the code with printf(), vprintf(), sprintf(), scanf() and fscanf()
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Type/Printf.html
+	:og:locale: en
   All format used in the code with `printf() <https://www.php.net/printf>`_, `vprintf() <https://www.php.net/vprintf>`_, `sprintf() <https://www.php.net/sprintf>`_, scanf() and `fscanf() <https://www.php.net/fscanf>`_.
 
 .. code-block:: php

@@ -5,6 +5,21 @@
 Indentation Levels
 ++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Indentation Levels: Collect all level of indentations for methods and functions.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Indentation Levels
+	:twitter:description: Indentation Levels: Collect all level of indentations for methods and functions
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Indentation Levels
+	:og:type: article
+	:og:description: Collect all level of indentations for methods and functions
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/IndentationLevels.html
+	:og:locale: en
   Collect all level of indentations for methods and functions. Inside methods, indentation level raises for structures such as switch, `match() <https://www.php.net/manual/en/control-structures.match.php>`_, closures, ifthen, and loops. It is recommended to avoid going too high in the levels, as the code becomes less readable.
 
 .. code-block:: php

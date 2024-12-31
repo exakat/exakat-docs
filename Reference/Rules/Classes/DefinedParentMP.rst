@@ -5,6 +5,21 @@
 Defined Parent MP
 +++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Defined Parent MP: This rule reports when a static call with `parent`, where the parent has an actual definition.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Defined Parent MP
+	:twitter:description: Defined Parent MP: This rule reports when a static call with `parent`, where the parent has an actual definition
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Defined Parent MP
+	:og:type: article
+	:og:description: This rule reports when a static call with `parent`, where the parent has an actual definition
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/DefinedParentMP.html
+	:og:locale: en
   This rule reports when a `static <https://www.php.net/manual/en/language.oop5.static.php>`_ call with `parent`, where the `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ has an actual definition.
 
 .. code-block:: php

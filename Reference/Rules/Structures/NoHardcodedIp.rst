@@ -5,6 +5,21 @@
 No Hardcoded Ip
 +++++++++++++++
 
+.. meta\:\:
+	:description:
+		No Hardcoded Ip: Do not leave hard coded IP in your code.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: No Hardcoded Ip
+	:twitter:description: No Hardcoded Ip: Do not leave hard coded IP in your code
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: No Hardcoded Ip
+	:og:type: article
+	:og:description: Do not leave hard coded IP in your code
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/NoHardcodedIp.html
+	:og:locale: en
   Do not leave hard coded IP in your code.
 
 It is recommended to move such configuration in external files or databases, for each update. 

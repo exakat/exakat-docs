@@ -5,6 +5,21 @@
 PHP Overridden Function
 +++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		PHP Overridden Function: It is possible to declare and use a function with the same name as a PHP native, in a namespace.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: PHP Overridden Function
+	:twitter:description: PHP Overridden Function: It is possible to declare and use a function with the same name as a PHP native, in a namespace
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: PHP Overridden Function
+	:og:type: article
+	:og:description: It is possible to declare and use a function with the same name as a PHP native, in a namespace
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/OveriddenFunction.html
+	:og:locale: en
   It is possible to declare and use a function with the same name as a PHP native, in a namespace. 
 
 Within the declaration namespace, it is easy to confuse the local version and the global version, unless the function has been prefixed with ``\``.

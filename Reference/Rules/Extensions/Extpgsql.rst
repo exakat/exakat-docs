@@ -5,6 +5,21 @@
 ext/pgsql
 +++++++++
 
+.. meta\:\:
+	:description:
+		ext/pgsql: Extension PostGreSQL.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: ext/pgsql
+	:twitter:description: ext/pgsql: Extension PostGreSQL
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: ext/pgsql
+	:og:type: article
+	:og:description: Extension PostGreSQL
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extpgsql.html
+	:og:locale: en
   Extension PostGreSQL.
 
 PostgreSQL is an open source descendant of this original Berkeley code.  It provides SQL92/SQL99 language support, transactions, referential integrity, stored procedures and type extensibility.

@@ -5,6 +5,21 @@
 Insufficient Property Typehint
 ++++++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Insufficient Property Typehint: The typehint used for a class property doesn't cover all it usage.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Insufficient Property Typehint
+	:twitter:description: Insufficient Property Typehint: The typehint used for a class property doesn't cover all it usage
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Insufficient Property Typehint
+	:og:type: article
+	:og:description: The typehint used for a class property doesn't cover all it usage
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/InsufficientPropertyTypehint.html
+	:og:locale: en
   The typehint used for a class property doesn't cover all it usage.
 
 The typehint is insufficient when a undefined method or constant is called, or if members are accessed while the typehint is an interface.

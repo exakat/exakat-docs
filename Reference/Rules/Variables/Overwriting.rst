@@ -5,6 +5,21 @@
 Overwriting Variable
 ++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Overwriting Variable: Replacing the content of a variable by something different is prone to errors.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Overwriting Variable
+	:twitter:description: Overwriting Variable: Replacing the content of a variable by something different is prone to errors
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Overwriting Variable
+	:og:type: article
+	:og:description: Replacing the content of a variable by something different is prone to errors
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Variables/Overwriting.html
+	:og:locale: en
   Replacing the content of a variable by something different is prone to errors. For example, it is not obvious if the $text variable is plain text or HTML text. 
 Besides, it is possible that the source is needed later, for extra processing. 
 

@@ -5,6 +5,21 @@
 Joining file()
 ++++++++++++++
 
+.. meta\:\:
+	:description:
+		Joining file(): Use file() to read lines separately.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Joining file()
+	:twitter:description: Joining file(): Use file() to read lines separately
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Joining file()
+	:og:type: article
+	:og:description: Use file() to read lines separately
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Performances/JoinFile.html
+	:og:locale: en
   Use `file() <https://www.php.net/file>`_ to read lines separately. 
 
 Applying ``join('', )`` or ``implode('', )`` to the `result <https://www.php.net/result>`_ of `file() <https://www.php.net/file>`_ provides the same results than using `file_get_contents() <https://www.php.net/file_get_contents>`_, but at a higher cost of memory and processing.

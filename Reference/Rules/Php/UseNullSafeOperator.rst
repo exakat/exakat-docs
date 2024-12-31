@@ -5,6 +5,21 @@
 Use NullSafe Operator
 +++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Use NullSafe Operator: The nullsafe operator ``.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Use NullSafe Operator
+	:twitter:description: Use NullSafe Operator: The nullsafe operator ``
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Use NullSafe Operator
+	:og:type: article
+	:og:description: The nullsafe operator ``
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/UseNullSafeOperator.html
+	:og:locale: en
   The nullsafe operator ``?->`` is an alternative to the object operator ``->``. It silently fails the whole expression if a null is used for object.
 
 .. code-block:: php

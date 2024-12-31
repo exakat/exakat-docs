@@ -5,6 +5,21 @@
 Could Use __DIR__
 +++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Could Use __DIR__: Use __DIR__ constant to access the current file's parent directory.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Could Use __DIR__
+	:twitter:description: Could Use __DIR__: Use __DIR__ constant to access the current file's parent directory
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Could Use __DIR__
+	:og:type: article
+	:og:description: Use __DIR__ constant to access the current file's parent directory
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/CouldUseDir.html
+	:og:locale: en
   Use `__DIR__ <https://www.php.net/manual/en/language.constants.predefined.php>`_ constant to access the current file's `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ `directory <https://www.php.net/`directory <https://www.php.net/directory>`_>`_. 
 
 Avoid using `dirname() <https://www.php.net/dirname>`_ on `__FILE__ <https://www.php.net/manual/en/language.constants.predefined.php>`_.

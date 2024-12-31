@@ -5,6 +5,21 @@
 Iffectations
 ++++++++++++
 
+.. meta\:\:
+	:description:
+		Iffectations: Affectations that appears in a condition.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Iffectations
+	:twitter:description: Iffectations: Affectations that appears in a condition
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Iffectations
+	:og:type: article
+	:og:description: Affectations that appears in a condition
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/Iffectation.html
+	:og:locale: en
   Affectations that appears in a condition. 
 
 Iffectations are a way to do both a test and an affectations. 

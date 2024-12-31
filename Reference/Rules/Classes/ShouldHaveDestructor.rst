@@ -5,6 +5,21 @@
 Should Have Destructor
 ++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Should Have Destructor: PHP destructors are called when the object is being destroyed.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Should Have Destructor
+	:twitter:description: Should Have Destructor: PHP destructors are called when the object is being destroyed
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Should Have Destructor
+	:og:type: article
+	:og:description: PHP destructors are called when the object is being destroyed
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/ShouldHaveDestructor.html
+	:og:locale: en
   PHP destructors are called when the object is being destroyed. By default, PHP calls recursively the destructor on internal objects, until everything is unset.
 
 Unsetting objects and resources explicitly in the destructor is a good practice to reduce the amount of memory in use. It helps PHP resource counter to keep the numbers low, and easier to clean. This is a major advantage for long running scripts.

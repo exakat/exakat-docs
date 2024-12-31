@@ -5,6 +5,21 @@
 Sprintf Format Compilation
 ++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Sprintf Format Compilation: The sprintf() format used yields an error.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Sprintf Format Compilation
+	:twitter:description: Sprintf Format Compilation: The sprintf() format used yields an error
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Sprintf Format Compilation
+	:og:type: article
+	:og:description: The sprintf() format used yields an error
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/SprintfFormatCompilation.html
+	:og:locale: en
   The `sprintf() <https://www.php.net/sprintf>`_ format used yields an `error <https://www.php.net/error>`_. A format is a ``%`` pourcent character, followed by a letter. 
 
 Some letters are not allowed: ``a, i, j, k, l, m, n, p, q, r, t, v, w, y, z, A, B, C, D, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, Y, Z``.

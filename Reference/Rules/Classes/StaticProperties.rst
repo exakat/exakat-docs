@@ -5,6 +5,21 @@
 Static Properties
 +++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Static Properties: List of all static properties.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Static Properties
+	:twitter:description: Static Properties: List of all static properties
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Static Properties
+	:og:type: article
+	:og:description: List of all static properties
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/StaticProperties.html
+	:og:locale: en
   List of all `static <https://www.php.net/manual/en/language.oop5.static.php>`_ properties.
 
 .. code-block:: php

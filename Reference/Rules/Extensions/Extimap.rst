@@ -5,6 +5,21 @@
 ext/imap
 ++++++++
 
+.. meta\:\:
+	:description:
+		ext/imap: Extension ext/imap.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: ext/imap
+	:twitter:description: ext/imap: Extension ext/imap
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: ext/imap
+	:og:type: article
+	:og:description: Extension ext/imap
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extimap.html
+	:og:locale: en
   Extension ext/imap.
 
 This extension operate with the IMAP protocol, as well as the NNTP, POP3 and local mailbox access methods.

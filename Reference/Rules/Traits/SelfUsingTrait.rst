@@ -5,6 +5,21 @@
 Self Using Trait
 ++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Self Using Trait: Trait uses itself : this is unnecessary.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Self Using Trait
+	:twitter:description: Self Using Trait: Trait uses itself : this is unnecessary
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Self Using Trait
+	:og:type: article
+	:og:description: Trait uses itself : this is unnecessary
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Traits/SelfUsingTrait.html
+	:og:locale: en
   Trait uses itself : this is unnecessary. Traits may use themselves, or be used by other traits, that are using the initial trait itself. 
 
 PHP handles the situation quietly, by ignoring all extra use of the same trait, keeping only one valid version.

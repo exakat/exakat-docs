@@ -5,6 +5,21 @@
 Don't Be Too Manual
 +++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Don't Be Too Manual: Adapt the examples from the PHP manual to the code.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Don't Be Too Manual
+	:twitter:description: Don't Be Too Manual: Adapt the examples from the PHP manual to the code
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Don't Be Too Manual
+	:og:type: article
+	:og:description: Adapt the examples from the PHP manual to the code
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/DontBeTooManual.html
+	:og:locale: en
   Adapt the examples from the PHP manual to the code. Don't reuse directly the same names in the source: be more specific about what to expect in those variables.
 
 Here are the variables names that are classic with specific functions: 

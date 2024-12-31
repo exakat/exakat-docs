@@ -5,6 +5,21 @@
 Nested Ternary
 ++++++++++++++
 
+.. meta\:\:
+	:description:
+		Nested Ternary: Ternary operators should not be nested too deep.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Nested Ternary
+	:twitter:description: Nested Ternary: Ternary operators should not be nested too deep
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Nested Ternary
+	:og:type: article
+	:og:description: Ternary operators should not be nested too deep
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/NestedTernary.html
+	:og:locale: en
   Ternary operators should not be nested too deep.
 
 They are a convenient instruction to apply some condition, and avoid a if() structure. It works best when it is simple, like in a one liner. 

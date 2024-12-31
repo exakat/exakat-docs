@@ -5,6 +5,21 @@
 Missing Assignation In Branches
 +++++++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Missing Assignation In Branches: A variable is assigned in one of the branch, but not the other.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Missing Assignation In Branches
+	:twitter:description: Missing Assignation In Branches: A variable is assigned in one of the branch, but not the other
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Missing Assignation In Branches
+	:og:type: article
+	:og:description: A variable is assigned in one of the branch, but not the other
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/MissingAssignation.html
+	:og:locale: en
   A variable is assigned in one of the branch, but not the other. Such variable might be needed later, and when going throw this branch, it won't be available. 
 
 In this analysis, elseif() and branches that return or goto somewhere else are omitted. 

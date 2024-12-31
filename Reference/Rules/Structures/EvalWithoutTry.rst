@@ -5,6 +5,21 @@
 eval() Without Try
 ++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		eval() Without Try: ``eval()`` emits a ``ParseError`` exception with PHP 7 and later.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: eval() Without Try
+	:twitter:description: eval() Without Try: ``eval()`` emits a ``ParseError`` exception with PHP 7 and later
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: eval() Without Try
+	:og:type: article
+	:og:description: ``eval()`` emits a ``ParseError`` exception with PHP 7 and later
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/EvalWithoutTry.html
+	:og:locale: en
   ``eval()`` emits a ``ParseError`` `exception <https://www.php.net/exception>`_ with PHP 7 and later. Catching this `exception <https://www.php.net/exception>`_ is the recommended way to handle errors when using the ``eval()`` function.
 Note that it will catch situations where ``eval()`` is provided with code that can't be used, but it will not catch security problems. Avoid using ``eval()`` with incoming data.
 
@@ -56,7 +71,7 @@ _____
 +------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Time To Fix      | Quick (30 mins)                                                                                                                                                                                                  |
 +------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Changed Behavior | PHP 7.0 - `More <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/.html>`__                                                                                                                       |
+| Changed Behavior | PHP 7.0 - `More <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/EvalWithouTry.html>`__                                                                                                          |
 +------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision        | Very high                                                                                                                                                                                                        |
 +------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

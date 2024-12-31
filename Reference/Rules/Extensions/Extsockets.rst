@@ -5,6 +5,21 @@
 ext/sockets
 +++++++++++
 
+.. meta\:\:
+	:description:
+		ext/sockets: Extension socket.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: ext/sockets
+	:twitter:description: ext/sockets: Extension socket
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: ext/sockets
+	:og:type: article
+	:og:description: Extension socket
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extsockets.html
+	:og:locale: en
   Extension `socket <https://www.php.net/socket>`_.
 
 The `socket <https://www.php.net/socket>`_ extension implements a low-level interface to the `socket <https://www.php.net/socket>`_ communication functions based on the popular BSD sockets, providing the possibility to act as a `socket <https://www.php.net/socket>`_ server as well as a client.

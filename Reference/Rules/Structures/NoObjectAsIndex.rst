@@ -5,6 +5,21 @@
 No Object As Index
 ++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		No Object As Index: PHP accepts objects as index, though it reports various error messages when this happens.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: No Object As Index
+	:twitter:description: No Object As Index: PHP accepts objects as index, though it reports various error messages when this happens
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: No Object As Index
+	:og:type: article
+	:og:description: PHP accepts objects as index, though it reports various error messages when this happens
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/NoObjectAsIndex.html
+	:og:locale: en
   PHP accepts objects as index, though it reports various `error <https://www.php.net/error>`_ messages when this happens.
 
 Thanks to `Gina Peter Banyard <https://twitter.com/Girgias>`_ for the inspiration.

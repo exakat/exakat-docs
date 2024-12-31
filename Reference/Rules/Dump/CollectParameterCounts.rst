@@ -5,6 +5,21 @@
 Collect Parameter Counts
 ++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Collect Parameter Counts: This analysis collects the number of parameter per method.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Collect Parameter Counts
+	:twitter:description: Collect Parameter Counts: This analysis collects the number of parameter per method
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Collect Parameter Counts
+	:og:type: article
+	:og:description: This analysis collects the number of parameter per method
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/CollectParameterCounts.html
+	:og:locale: en
   This analysis collects the number of parameter per method. 
 
 The count applies to functions, methods, closures and arrow functions.

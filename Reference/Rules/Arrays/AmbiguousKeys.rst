@@ -5,6 +5,21 @@
 Ambiguous Array Index
 +++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Ambiguous Array Index: Indexes should not be defined with different types than int or string.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Ambiguous Array Index
+	:twitter:description: Ambiguous Array Index: Indexes should not be defined with different types than int or string
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Ambiguous Array Index
+	:og:type: article
+	:og:description: Indexes should not be defined with different types than int or string
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Arrays/AmbiguousKeys.html
+	:og:locale: en
   Indexes should not be defined with different types than int or string. 
 
 Array indices only accept integers and strings, so any other type of literal is reported. In fact, ``null`` is turned into an empty string, booleans are turned into an integer, and real numbers are truncated (not rounded).

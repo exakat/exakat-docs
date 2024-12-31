@@ -5,6 +5,21 @@
 Random Without Try
 ++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Random Without Try: random_int() and random_bytes() require a try/catch structure around them.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Random Without Try
+	:twitter:description: Random Without Try: random_int() and random_bytes() require a try/catch structure around them
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Random Without Try
+	:og:type: article
+	:og:description: random_int() and random_bytes() require a try/catch structure around them
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/RandomWithoutTry.html
+	:og:locale: en
   `random_int() <https://www.php.net/random_int>`_ and `random_bytes() <https://www.php.net/random_bytes>`_ require a try/catch structure around them.
 
 `random_int() <https://www.php.net/random_int>`_ and `random_bytes() <https://www.php.net/random_bytes>`_ emit Exceptions if they meet a problem. This way, failure can't be mistaken with returning an empty value, which leads to lower security. 

@@ -5,6 +5,21 @@
 Path lists
 ++++++++++
 
+.. meta\:\:
+	:description:
+		Path lists: List of all paths that were found in the code.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Path lists
+	:twitter:description: Path lists: List of all paths that were found in the code
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Path lists
+	:og:type: article
+	:og:description: List of all paths that were found in the code
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Type/Path.html
+	:og:locale: en
   List of all paths that were found in the code.
 
 Path are identified with this regex : ``^(.*/)([^/]*)\.\w+$``. In particular, the `directory <https://www.php.net/`directory <https://www.php.net/directory>`_>`_ delimiter is ``/`` : Windows delimiter ``\`` are not detected. 

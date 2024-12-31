@@ -5,6 +5,21 @@
 Error Messages
 ++++++++++++++
 
+.. meta\:\:
+	:description:
+		Error Messages: Error message when an error is reported in the code.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Error Messages
+	:twitter:description: Error Messages: Error message when an error is reported in the code
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Error Messages
+	:og:type: article
+	:og:description: Error message when an error is reported in the code
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ErrorMessages.html
+	:og:locale: en
   `Error <https://www.php.net/error>`_ message when an `error <https://www.php.net/error>`_ is reported in the code. Those messages will be read by whoever is triggering the `error <https://www.php.net/error>`_, and it has to be helpful. 
 
 It is a good exercise to read the messages out of context, and try to understand what is about.

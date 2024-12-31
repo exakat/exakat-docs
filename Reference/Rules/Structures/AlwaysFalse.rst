@@ -5,6 +5,21 @@
 Comparison Is Always The Same
 +++++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Comparison Is Always The Same: Based on the incoming type of arguments, the comparison always yields the same value.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Comparison Is Always The Same
+	:twitter:description: Comparison Is Always The Same: Based on the incoming type of arguments, the comparison always yields the same value
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Comparison Is Always The Same
+	:og:type: article
+	:og:description: Based on the incoming type of arguments, the comparison always yields the same value
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/AlwaysFalse.html
+	:og:locale: en
   Based on the incoming type of arguments, the comparison always yields the same value. The whole condition might be useless.
 
 .. code-block:: php

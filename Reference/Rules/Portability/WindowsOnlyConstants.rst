@@ -5,6 +5,21 @@
 Windows Only Constants
 ++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Windows Only Constants: When built on Windows, PHP offers some extra constants.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Windows Only Constants
+	:twitter:description: Windows Only Constants: When built on Windows, PHP offers some extra constants
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Windows Only Constants
+	:og:type: article
+	:og:description: When built on Windows, PHP offers some extra constants
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Portability/WindowsOnlyConstants.html
+	:og:locale: en
   When built on Windows, PHP offers some extra constants. They are not available on other operating systems.
 
 .. code-block:: php

@@ -5,6 +5,21 @@
 Forgotten Interface
 +++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Forgotten Interface: The following classes have been found implementing an interface's methods, though it doesn't explicitly implements this interface.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Forgotten Interface
+	:twitter:description: Forgotten Interface: The following classes have been found implementing an interface's methods, though it doesn't explicitly implements this interface
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Forgotten Interface
+	:og:type: article
+	:og:description: The following classes have been found implementing an interface's methods, though it doesn't explicitly implements this interface
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Interfaces/CouldUseInterface.html
+	:og:locale: en
   The following classes have been found implementing an interface's methods, though it doesn't explicitly implements this interface. This may have been forgotten.
 
 .. code-block:: php

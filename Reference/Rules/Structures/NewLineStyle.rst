@@ -5,6 +5,21 @@
 New Line Style
 ++++++++++++++
 
+.. meta\:\:
+	:description:
+		New Line Style: New lines may be written with the sequence \n or with the constant PHP_EOL.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: New Line Style
+	:twitter:description: New Line Style: New lines may be written with the sequence \n or with the constant PHP_EOL
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: New Line Style
+	:og:type: article
+	:og:description: New lines may be written with the sequence \n or with the constant PHP_EOL
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/NewLineStyle.html
+	:og:locale: en
   New lines may be written with the sequence \n or with the constant `PHP_EOL <https://www.php.net/PHP_EOL>`_.
 
 When one of those alternatives is used over 90% of the time, it is considered as standard : the remaining are reported.

@@ -5,6 +5,21 @@
 Drop Else After Return
 ++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Drop Else After Return: Avoid else clause when the then clause returns, but not the else.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Drop Else After Return
+	:twitter:description: Drop Else After Return: Avoid else clause when the then clause returns, but not the else
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Drop Else After Return
+	:og:type: article
+	:og:description: Avoid else clause when the then clause returns, but not the else
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/DropElseAfterReturn.html
+	:og:locale: en
   Avoid else clause when the then clause returns, but not the else. And vice-versa.
 
 This way, the else block disappears, and is now the main sequence of the function. 

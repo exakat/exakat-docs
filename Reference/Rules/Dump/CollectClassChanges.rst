@@ -5,6 +5,21 @@
 Collect Static Class Changes
 ++++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Collect Static Class Changes: Collects changes to constants, methods and properties, within a class hierarchy.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Collect Static Class Changes
+	:twitter:description: Collect Static Class Changes: Collects changes to constants, methods and properties, within a class hierarchy
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Collect Static Class Changes
+	:og:type: article
+	:og:description: Collects changes to constants, methods and properties, within a class hierarchy
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/CollectClassChanges.html
+	:og:locale: en
   Collects changes to constants, methods and properties, within a class hierarchy. It reports changes in visibility, type and values for constants; visibility, type and values for properties.
 
 .. code-block:: php

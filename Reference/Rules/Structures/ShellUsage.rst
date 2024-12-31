@@ -5,6 +5,21 @@
 Shell Usage
 +++++++++++
 
+.. meta\:\:
+	:description:
+		Shell Usage: List of shell calls to system.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Shell Usage
+	:twitter:description: Shell Usage: List of shell calls to system
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Shell Usage
+	:og:type: article
+	:og:description: List of shell calls to system
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ShellUsage.html
+	:og:locale: en
   List of shell calls to system.
 
 .. code-block:: php

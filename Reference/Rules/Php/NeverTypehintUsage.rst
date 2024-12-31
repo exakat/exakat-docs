@@ -5,6 +5,21 @@
 Never Typehint Usage
 ++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Never Typehint Usage: Never is a typehint, which characterize methods that never return a value.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Never Typehint Usage
+	:twitter:description: Never Typehint Usage: Never is a typehint, which characterize methods that never return a value
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Never Typehint Usage
+	:og:type: article
+	:og:description: Never is a typehint, which characterize methods that never return a value
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/NeverTypehintUsage.html
+	:og:locale: en
   Never is a typehint, which characterize methods that never return a value. It will either terminate the execution or throw an `exception <https://www.php.net/exception>`_.
 
 .. code-block:: php

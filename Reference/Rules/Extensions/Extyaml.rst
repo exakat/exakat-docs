@@ -5,6 +5,21 @@
 ext/yaml
 ++++++++
 
+.. meta\:\:
+	:description:
+		ext/yaml: Extension YAML.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: ext/yaml
+	:twitter:description: ext/yaml: Extension YAML
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: ext/yaml
+	:og:type: article
+	:og:description: Extension YAML
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extyaml.html
+	:og:locale: en
   Extension YAML.
 
 This extension implements the `YAML Ain't Markup Language <http://www.yaml.org/>`_ (YAML) data serialization standard. Parsing and emitting are handled by the `LibYAML <http://pyyaml.org/wiki/LibYAML>`_ library.

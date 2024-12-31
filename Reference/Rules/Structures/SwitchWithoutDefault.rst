@@ -5,6 +5,21 @@
 Switch Without Default
 ++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Switch Without Default: Always use a default statement in switch() and match().
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Switch Without Default
+	:twitter:description: Switch Without Default: Always use a default statement in switch() and match()
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Switch Without Default
+	:og:type: article
+	:og:description: Always use a default statement in switch() and match()
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/SwitchWithoutDefault.html
+	:og:locale: en
   Always use a default statement in `switch() <https://www.php.net/manual/en/control-structures.switch.php>`_ and `match() <https://www.php.net/manual/en/control-structures.match.php>`_. 
 
 Switch statements hold a number of 'case' that cover all known situations, and a 'default' one which is executed when all other options are exhausted. 

@@ -5,6 +5,21 @@
 array_merge With Ellipsis
 +++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		array_merge With Ellipsis: Ellipsis, or .
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: array_merge With Ellipsis
+	:twitter:description: array_merge With Ellipsis: Ellipsis, or 
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: array_merge With Ellipsis
+	:og:type: article
+	:og:description: Ellipsis, or 
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ArrayMergeWithEllipsis.html
+	:og:locale: en
   Ellipsis, or `... <https://www.php.net/manual/en/functions.arguments.php#functions.variable-arg-list>`_, returns a null when the operand array is empty. This doesn't suit `array_merge() <https://www.php.net/array_merge>`_. 
 
 It is recommended to use a coalesce operator, to handle graciously an empty array : use an empty array as default value.

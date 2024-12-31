@@ -5,6 +5,21 @@
 array_merge() And Variadic
 ++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		array_merge() And Variadic: Always check value in variadic before using it with array_merge() and array_merge_recursive().
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: array_merge() And Variadic
+	:twitter:description: array_merge() And Variadic: Always check value in variadic before using it with array_merge() and array_merge_recursive()
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: array_merge() And Variadic
+	:og:type: article
+	:og:description: Always check value in variadic before using it with array_merge() and array_merge_recursive()
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ArrayMergeAndVariadic.html
+	:og:locale: en
   Always check value in variadic before using it with `array_merge() <https://www.php.net/array_merge>`_ and `array_merge_recursive() <https://www.php.net/array_merge_recursive>`_.
 
 Before PHP 7.4, `array_merge() <https://www.php.net/array_merge>`_ and `array_merge_recursive() <https://www.php.net/array_merge_recursive>`_ would complain when no argument was provided. As such, using the spread operator `...` on an empty `array() <https://www.php.net/array>`_ would yield no argument, and an `error <https://www.php.net/error>`_.

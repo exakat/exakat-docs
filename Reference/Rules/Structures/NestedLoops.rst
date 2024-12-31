@@ -5,6 +5,21 @@
 Nested Loops
 ++++++++++++
 
+.. meta\:\:
+	:description:
+		Nested Loops: Nested loops happens when a loop (while, do.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Nested Loops
+	:twitter:description: Nested Loops: Nested loops happens when a loop (while, do
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Nested Loops
+	:og:type: article
+	:og:description: Nested loops happens when a loop (while, do
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/NestedLoops.html
+	:og:locale: en
   Nested loops happens when a loop (while, do..while, for, foreach), is used inside another loop. 
 Such structure tends to require a lot of processing, as the size of both loops have to be multiplied to estimate the actual payload. They should be avoided as much as possible. This may no be always possible, though.
 

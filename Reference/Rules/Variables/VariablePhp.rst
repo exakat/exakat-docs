@@ -5,6 +5,21 @@
 PHP Variables
 +++++++++++++
 
+.. meta\:\:
+	:description:
+		PHP Variables: This is the list of PHP predefined variables that are used in the application.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: PHP Variables
+	:twitter:description: PHP Variables: This is the list of PHP predefined variables that are used in the application
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: PHP Variables
+	:og:type: article
+	:og:description: This is the list of PHP predefined variables that are used in the application
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Variables/VariablePhp.html
+	:og:locale: en
   This is the list of PHP predefined variables that are used in the application. 
 
 The web variables (``$_GET``, ``$_COOKIE``, ``$_FILES``) are quite commonly used, though sometimes replaced by some special accessors. Others are rarely used. 

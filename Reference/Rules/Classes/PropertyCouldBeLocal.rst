@@ -5,6 +5,21 @@
 Property Could Be Local
 +++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Property Could Be Local: A property only used in one method may be turned into a local variable.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Property Could Be Local
+	:twitter:description: Property Could Be Local: A property only used in one method may be turned into a local variable
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Property Could Be Local
+	:og:type: article
+	:og:description: A property only used in one method may be turned into a local variable
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/PropertyCouldBeLocal.html
+	:og:locale: en
   A property only used in one method may be turned into a local variable.
 
 Public an protected properties are omitted here : they may be modified somewhere else, in the code. This analysis may be upgraded to support those properties, when tracking of such properties becomes available.

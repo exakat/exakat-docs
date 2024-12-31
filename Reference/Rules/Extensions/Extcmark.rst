@@ -5,6 +5,21 @@
 ext/cmark
 +++++++++
 
+.. meta\:\:
+	:description:
+		ext/cmark: Extension Cmark, for Common Mark.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: ext/cmark
+	:twitter:description: ext/cmark: Extension Cmark, for Common Mark
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: ext/cmark
+	:og:type: article
+	:og:description: Extension Cmark, for Common Mark
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extcmark.html
+	:og:locale: en
   Extension Cmark, for Common Mark.
 
 cmark provides access to the reference implementation of CommonMark, a rationalized version of Markdown syntax with a specification.

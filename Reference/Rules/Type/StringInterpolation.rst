@@ -5,6 +5,21 @@
 Interpolation
 +++++++++++++
 
+.. meta\:\:
+	:description:
+		Interpolation: The following strings contain variables that are will be replaced.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Interpolation
+	:twitter:description: Interpolation: The following strings contain variables that are will be replaced
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Interpolation
+	:og:type: article
+	:og:description: The following strings contain variables that are will be replaced
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Type/StringInterpolation.html
+	:og:locale: en
   The following strings contain variables that are will be replaced. However, the following characters are ambiguous, and may lead to confusion. 
 
 

@@ -5,6 +5,21 @@
 Multiple Type Variable
 ++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Multiple Type Variable: Avoid using the same variable with different types of data.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Multiple Type Variable
+	:twitter:description: Multiple Type Variable: Avoid using the same variable with different types of data
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Multiple Type Variable
+	:og:type: article
+	:og:description: Avoid using the same variable with different types of data
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/MultipleTypeVariable.html
+	:og:locale: en
   Avoid using the same variable with different types of data. 
 
 It is recommended to use different names for differently typed data, while processing them. This prevents errors where one believe the variable holds the former type, while it has already been cast to the later.

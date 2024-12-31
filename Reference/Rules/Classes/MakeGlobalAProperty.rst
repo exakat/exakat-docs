@@ -5,6 +5,21 @@
 Make Global A Property
 ++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Make Global A Property: Calling global (or $GLOBALS) in methods is slower and less testable than setting the global to a property, and using this property.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Make Global A Property
+	:twitter:description: Make Global A Property: Calling global (or $GLOBALS) in methods is slower and less testable than setting the global to a property, and using this property
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Make Global A Property
+	:og:type: article
+	:og:description: Calling global (or $GLOBALS) in methods is slower and less testable than setting the global to a property, and using this property
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/MakeGlobalAProperty.html
+	:og:locale: en
   Calling global (or $GLOBALS) in methods is slower and less testable than setting the global to a property, and using this property.
 
 Using properties is slightly faster than calling global or $GLOBALS, though the gain is not important. 

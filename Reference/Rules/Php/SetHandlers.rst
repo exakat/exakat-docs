@@ -5,6 +5,21 @@
 PHP Handlers Usage
 ++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		PHP Handlers Usage: PHP has a number of handlers that may be replaced by customized code : session, shutdown, error, exception.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: PHP Handlers Usage
+	:twitter:description: PHP Handlers Usage: PHP has a number of handlers that may be replaced by customized code : session, shutdown, error, exception
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: PHP Handlers Usage
+	:og:type: article
+	:og:description: PHP has a number of handlers that may be replaced by customized code : session, shutdown, error, exception
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/SetHandlers.html
+	:og:locale: en
   PHP has a number of handlers that may be replaced by customized code : session, shutdown, `error <https://www.php.net/error>`_, `exception <https://www.php.net/exception>`_. They are noted here.
 
 The example is adapted from the PHP documentation of `set_error_handler() <https://www.php.net/set_error_handler>`_.

@@ -5,6 +5,21 @@
 Useless Abstract Class
 ++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Useless Abstract Class: Those classes are marked 'abstract' and they are never extended.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Useless Abstract Class
+	:twitter:description: Useless Abstract Class: Those classes are marked 'abstract' and they are never extended
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Useless Abstract Class
+	:og:type: article
+	:og:description: Those classes are marked 'abstract' and they are never extended
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/UselessAbstract.html
+	:og:locale: en
   Those classes are marked 'abstract' and they are never extended. This way, they won't be instantiated nor used. 
 
 Abstract classes that have only `static <https://www.php.net/manual/en/language.oop5.static.php>`_ methods are omitted here : one usage of such classes are Utilities classes, which only offer `static <https://www.php.net/manual/en/language.oop5.static.php>`_ methods.

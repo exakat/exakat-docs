@@ -5,6 +5,21 @@
 Invalid Regex
 +++++++++++++
 
+.. meta\:\:
+	:description:
+		Invalid Regex: The PCRE regex doesn't compile.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Invalid Regex
+	:twitter:description: Invalid Regex: The PCRE regex doesn't compile
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Invalid Regex
+	:og:type: article
+	:og:description: The PCRE regex doesn't compile
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/InvalidRegex.html
+	:og:locale: en
   The PCRE regex doesn't compile. It isn't a valid regex.
 
 Several reasons may lead to this situation : syntax `error <https://www.php.net/error>`_, Unknown modifier, missing parenthesis or reference.

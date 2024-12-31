@@ -5,6 +5,21 @@
 List With Array Appends
 +++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		List With Array Appends: List() behavior has changed in PHP 7.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: List With Array Appends
+	:twitter:description: List With Array Appends: List() behavior has changed in PHP 7
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: List With Array Appends
+	:og:type: article
+	:og:description: List() behavior has changed in PHP 7
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/ListWithAppends.html
+	:og:locale: en
   `List() <https://www.php.net/list>`_ behavior has changed in PHP 7.0 and it has impact on the indexing when list is used with the [] operator. 
 
 The appended values are created in the same order than in the syntax, while in PHP 5.6, it is in the reverse order. 
@@ -73,7 +88,7 @@ _____
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------+
 | Time To Fix      | Slow (1 hour)                                                                                                                        |
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------+
-| Changed Behavior | PHP 7.0 - `More <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/.html>`__                                           |
+| Changed Behavior | PHP 7.0                                                                                                                              |
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------+
 | Precision        | Very high                                                                                                                            |
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------+

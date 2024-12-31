@@ -5,6 +5,21 @@
 Never Used Properties
 +++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Never Used Properties: Properties that are never used.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Never Used Properties
+	:twitter:description: Never Used Properties: Properties that are never used
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Never Used Properties
+	:og:type: article
+	:og:description: Properties that are never used
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/PropertyNeverUsed.html
+	:og:locale: en
   Properties that are never used. They are defined in a class or a trait, but they never actually used.
 
 Properties are considered used when they are used locally, in the same class as their definition, or in a `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ class : a `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ class is always included with the current class. 

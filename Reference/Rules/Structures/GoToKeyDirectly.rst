@@ -5,6 +5,21 @@
 Find Key Directly
 +++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Find Key Directly: There is no need to use foreach() to search for a key.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Find Key Directly
+	:twitter:description: Find Key Directly: There is no need to use foreach() to search for a key
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Find Key Directly
+	:og:type: article
+	:og:description: There is no need to use foreach() to search for a key
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/GoToKeyDirectly.html
+	:og:locale: en
   There is no need to use `foreach() <https://www.php.net/manual/en/control-structures.foreach.php>`_ to search for a key. 
 
 PHP offers two solutions : `array_search() <https://www.php.net/array_search>`_ and `array_keys() <https://www.php.net/array_keys>`_. `Array_search() <https://www.php.net/array_search>`_ finds the first key that fits a value, and `array_keys() <https://www.php.net/array_keys>`_ returns all the keys.

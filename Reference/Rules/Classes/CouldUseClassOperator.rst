@@ -5,6 +5,21 @@
 Could Use Class Operator
 ++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Could Use Class Operator: The class operator is `\:\:class`.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Could Use Class Operator
+	:twitter:description: Could Use Class Operator: The class operator is `\:\:class`
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Could Use Class Operator
+	:og:type: article
+	:og:description: The class operator is `\:\:class`
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/CouldUseClassOperator.html
+	:og:locale: en
   The class operator is `\:\:class`. With a class name as left operator, it provides the full class name. 
 
 Classes may also be identified with a string, as a fully qualified name. Using the class operator is a more explicit way to do it.

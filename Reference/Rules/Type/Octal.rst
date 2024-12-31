@@ -5,6 +5,21 @@
 Octal Glossary
 ++++++++++++++
 
+.. meta\:\:
+	:description:
+		Octal Glossary: List of all the integer values using the octal format : an integer starting with an initial 0.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Octal Glossary
+	:twitter:description: Octal Glossary: List of all the integer values using the octal format : an integer starting with an initial 0
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Octal Glossary
+	:og:type: article
+	:og:description: List of all the integer values using the octal format : an integer starting with an initial 0
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Type/Octal.html
+	:og:locale: en
   List of all the integer values using the octal format : an integer starting with an initial 0. 
 Putting an initial 0 is often innocuous, but in PHP, 0755 and 755 are not the same. The second is actually 1363 in octal, and will not provide the expected privileges.
 

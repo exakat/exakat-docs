@@ -5,6 +5,21 @@
 Phpinfo
 +++++++
 
+.. meta\:\:
+	:description:
+		Phpinfo: phpinfo() is a great function to learn about the current configuration of the server.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Phpinfo
+	:twitter:description: Phpinfo: phpinfo() is a great function to learn about the current configuration of the server
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Phpinfo
+	:og:type: article
+	:og:description: phpinfo() is a great function to learn about the current configuration of the server
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/PhpinfoUsage.html
+	:og:locale: en
   `phpinfo() <https://www.php.net/phpinfo>`_ is a great function to learn about the current configuration of the server.
 If left in the production code, it may lead to a critical leak, as any attacker gaining access to this data will know a lot about the server configuration.
 

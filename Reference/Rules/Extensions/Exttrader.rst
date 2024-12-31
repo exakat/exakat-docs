@@ -5,6 +5,21 @@
 ext/trader
 ++++++++++
 
+.. meta\:\:
+	:description:
+		ext/trader: Extension trader.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: ext/trader
+	:twitter:description: ext/trader: Extension trader
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: ext/trader
+	:og:type: article
+	:og:description: Extension trader
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Exttrader.html
+	:og:locale: en
   Extension trader.
 
 The trader extension is a free open source stock library based on TA-Lib. It's dedicated to trading software developers requiring to perform technical analysis of financial market data.

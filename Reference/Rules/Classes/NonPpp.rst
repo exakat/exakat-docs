@@ -5,6 +5,21 @@
 Forgotten Visibility
 ++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Forgotten Visibility: Some classes elements (property, method, constant) are missing their explicit visibility.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Forgotten Visibility
+	:twitter:description: Forgotten Visibility: Some classes elements (property, method, constant) are missing their explicit visibility
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Forgotten Visibility
+	:og:type: article
+	:og:description: Some classes elements (property, method, constant) are missing their explicit visibility
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/NonPpp.html
+	:og:locale: en
   Some classes elements (property, method, constant) are missing their explicit visibility.
 
 By default, it is public. It should at least be mentioned as public, or may be reviewed as protected or private. 

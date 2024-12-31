@@ -5,6 +5,21 @@
 Should Use Explode Args
 +++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Should Use Explode Args: explode() has a third argument, which limits the amount of exploded elements.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Should Use Explode Args
+	:twitter:description: Should Use Explode Args: explode() has a third argument, which limits the amount of exploded elements
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Should Use Explode Args
+	:og:type: article
+	:og:description: explode() has a third argument, which limits the amount of exploded elements
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ShouldUseExplodeArgs.html
+	:og:locale: en
   `explode() <https://www.php.net/explode>`_ has a third argument, which limits the amount of exploded elements. With it, it is possible to collect only the first elements, or drop the last ones.
 
 .. code-block:: php

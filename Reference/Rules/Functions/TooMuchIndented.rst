@@ -5,6 +5,21 @@
 Too Much Indented
 +++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Too Much Indented: Reports methods that are using more than one level of indentation on average.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Too Much Indented
+	:twitter:description: Too Much Indented: Reports methods that are using more than one level of indentation on average
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Too Much Indented
+	:og:type: article
+	:og:description: Reports methods that are using more than one level of indentation on average
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/TooMuchIndented.html
+	:og:locale: en
   Reports methods that are using more than one level of indentation on average. 
 
 Indentations levels are counted for each for, foreach, if...then, while, do..while, try..catch..finally structure met. Compulsory expressions, such as conditions, are not counted in the total. Levels of indentation start at 0 (no indentation needed)

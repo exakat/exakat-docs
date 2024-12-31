@@ -5,6 +5,21 @@
 ext/wasm
 ++++++++
 
+.. meta\:\:
+	:description:
+		ext/wasm: Extension WASM.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: ext/wasm
+	:twitter:description: ext/wasm: Extension WASM
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: ext/wasm
+	:og:type: article
+	:og:description: Extension WASM
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extwasm.html
+	:og:locale: en
   Extension WASM.
 
 The goal of the project is to be able to run WebAssembly binaries from PHP directly. So much fun coming!

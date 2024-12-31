@@ -5,6 +5,21 @@
 While(List() = Each())
 ++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		While(List() = Each()): This code structure is quite old : it should be replace by the more modern and efficient foreach.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: While(List() = Each())
+	:twitter:description: While(List() = Each()): This code structure is quite old : it should be replace by the more modern and efficient foreach
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: While(List() = Each())
+	:og:type: article
+	:og:description: This code structure is quite old : it should be replace by the more modern and efficient foreach
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/WhileListEach.html
+	:og:locale: en
   This code structure is quite old : it should be replace by the more modern and efficient foreach.
 
 This structure is deprecated since PHP 7.2. It may disappear in the future.

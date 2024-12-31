@@ -5,6 +5,21 @@
 This Could Be Iterable
 ++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		This Could Be Iterable: An argument that is both array and traversable may be typed iterable.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: This Could Be Iterable
+	:twitter:description: This Could Be Iterable: An argument that is both array and traversable may be typed iterable
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: This Could Be Iterable
+	:og:type: article
+	:og:description: An argument that is both array and traversable may be typed iterable
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/CouldBeIterable.html
+	:og:locale: en
   An argument that is both array and `traversable <https://www.php.net/`traversable <https://www.php.net/traversable>`_>`_ may be typed iterable. Iterable is a more generic type than array, and allows the usage of iterators too.
 
 .. code-block:: php

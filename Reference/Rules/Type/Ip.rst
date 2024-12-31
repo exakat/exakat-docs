@@ -5,6 +5,21 @@
 Ip
 ++
 
+.. meta\:\:
+	:description:
+		Ip: This rule lists hardocded IPs in the source.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Ip
+	:twitter:description: Ip: This rule lists hardocded IPs in the source
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Ip
+	:og:type: article
+	:og:description: This rule lists hardocded IPs in the source
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Type/Ip.html
+	:og:locale: en
   This rule lists hardocded IPs in the source. Such IPs cannot be changed, and may produce unexpected results. 
 
 .. code-block:: php

@@ -5,6 +5,21 @@
 Global In Global
 ++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Global In Global: List of global variables.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Global In Global
+	:twitter:description: Global In Global: List of global variables
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Global In Global
+	:og:type: article
+	:og:description: List of global variables
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/GlobalInGlobal.html
+	:og:locale: en
   List of global variables. There are the global variables, defined with the global keyword, and the implicit global variables, defined in the global scope.
 
 .. code-block:: php

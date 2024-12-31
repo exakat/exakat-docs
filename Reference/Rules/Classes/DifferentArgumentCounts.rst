@@ -5,6 +5,21 @@
 Different Argument Counts
 +++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Different Argument Counts: Two methods with the same name shall have the same number of compulsory argument.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Different Argument Counts
+	:twitter:description: Different Argument Counts: Two methods with the same name shall have the same number of compulsory argument
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Different Argument Counts
+	:og:type: article
+	:og:description: Two methods with the same name shall have the same number of compulsory argument
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/DifferentArgumentCounts.html
+	:og:locale: en
   Two methods with the same name shall have the same number of compulsory argument. PHP accepts different number of arguments between two methods, if the extra arguments have default values. Basically, they shall be called interchangeably with the same number of arguments.
 
 The number of compulsory arguments is often mistaken for the same number of arguments. When this is the case, it leads to confusion between the two signatures. It will also create more difficulties when refactoring the signature.

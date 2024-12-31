@@ -5,6 +5,21 @@
 Coalesce And Ternary Operators Order
 ++++++++++++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Coalesce And Ternary Operators Order: The ternary operator and the null-coalesce operator cannot be used in any order.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Coalesce And Ternary Operators Order
+	:twitter:description: Coalesce And Ternary Operators Order: The ternary operator and the null-coalesce operator cannot be used in any order
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Coalesce And Ternary Operators Order
+	:og:type: article
+	:og:description: The ternary operator and the null-coalesce operator cannot be used in any order
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/CoalesceNullCoalesce.html
+	:og:locale: en
   The ternary operator and the null-coalesce operator cannot be used in any order. The ternary operator is wider, so ot should be used last.
 
 In particular, the ternary operator works on truthy values, and `NULL <https://www.php.net/manual/en/language.types.null.php>`_ is a falsy one. So, `NULL <https://www.php.net/manual/en/language.types.null.php>`_ might be captured by the ternary operator, and the following coalesce operator has no chance to process it. 

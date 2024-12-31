@@ -5,6 +5,21 @@
 Non-lowercase Keywords
 ++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Non-lowercase Keywords: The usual convention is to write PHP keywords (like ``as``, ``foreach``, ``switch``, ``case``, ``break``, etc.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Non-lowercase Keywords
+	:twitter:description: Non-lowercase Keywords: The usual convention is to write PHP keywords (like ``as``, ``foreach``, ``switch``, ``case``, ``break``, etc
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Non-lowercase Keywords
+	:og:type: article
+	:og:description: The usual convention is to write PHP keywords (like ``as``, ``foreach``, ``switch``, ``case``, ``break``, etc
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/UpperCaseKeyword.html
+	:og:locale: en
   The usual convention is to write PHP keywords (like ``as``, ``foreach``, ``switch``, ``case``, ``break``, etc.) all in lowercase. 
 
 

@@ -5,6 +5,21 @@
 Wrong Function Name Case
 ++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Wrong Function Name Case: The spotted functions are used with a different case than their definition.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Wrong Function Name Case
+	:twitter:description: Wrong Function Name Case: The spotted functions are used with a different case than their definition
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Wrong Function Name Case
+	:og:type: article
+	:og:description: The spotted functions are used with a different case than their definition
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/WrongCase.html
+	:og:locale: en
   The spotted functions are used with a different case than their definition. While PHP accepts this, it makes the code harder to read. 
 
 It may also be a violation of coding conventions.

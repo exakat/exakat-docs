@@ -5,6 +5,21 @@
 Accessing Private
 +++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Accessing Private: List of calls to private properties/methods that will compile but yield some fatal error upon execution.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Accessing Private
+	:twitter:description: Accessing Private: List of calls to private properties/methods that will compile but yield some fatal error upon execution
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Accessing Private
+	:og:type: article
+	:og:description: List of calls to private properties/methods that will compile but yield some fatal error upon execution
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/AccessPrivate.html
+	:og:locale: en
   List of calls to private properties/methods that will compile but yield some fatal `error <https://www.php.net/error>`_ upon execution.
 
 .. code-block:: php

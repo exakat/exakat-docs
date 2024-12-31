@@ -5,6 +5,21 @@
 Mbstring Unknown Encodings
 ++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Mbstring Unknown Encodings: mbstring functions require one of its supported encoding as parameter.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Mbstring Unknown Encodings
+	:twitter:description: Mbstring Unknown Encodings: mbstring functions require one of its supported encoding as parameter
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Mbstring Unknown Encodings
+	:og:type: article
+	:og:description: mbstring functions require one of its supported encoding as parameter
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/MbStringNonEncodings.html
+	:og:locale: en
   mbstring functions require one of its supported encoding as parameter. 
 
 For example, `mb_chr() <https://www.php.net/mb_chr>`_ requires encoding as second parameter. The supported encodings are available with `mb_list_encodings() <https://www.php.net/mb_list_encodings>`_ and `mb_encoding_aliases() <https://www.php.net/mb_encoding_aliases>`_.

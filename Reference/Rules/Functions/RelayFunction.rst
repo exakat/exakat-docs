@@ -5,6 +5,21 @@
 Relay Function
 ++++++++++++++
 
+.. meta\:\:
+	:description:
+		Relay Function: Relay function only delegates workload to another one.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Relay Function
+	:twitter:description: Relay Function: Relay function only delegates workload to another one
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Relay Function
+	:og:type: article
+	:og:description: Relay function only delegates workload to another one
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/RelayFunction.html
+	:og:locale: en
   Relay function only delegates workload to another one. 
 
 Relay functions and methods are delegating the actual work to another function or method. They do not have any impact on the results, besides exposing another name for the same feature.

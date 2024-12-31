@@ -5,6 +5,21 @@
 Use Composer Lock
 +++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Use Composer Lock: This rule reports when the ``composer.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Use Composer Lock
+	:twitter:description: Use Composer Lock: This rule reports when the ``composer
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Use Composer Lock
+	:og:type: article
+	:og:description: This rule reports when the ``composer
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Composer/UseComposerLock.html
+	:og:locale: en
   This rule reports when the ``composer.lock`` is committed to the archive. ``composer.lock`` stores the actual versions of the components that were fetched by composer, based on the ``composer.json``. This is useful to store and share among developers.
 
 See also `Composer <https://getcomposer.org/>`_.

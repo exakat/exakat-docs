@@ -5,6 +5,21 @@
 Useless Typehint
 ++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Useless Typehint: __get() and __set() magic methods won't enforce any typehint.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Useless Typehint
+	:twitter:description: Useless Typehint: __get() and __set() magic methods won't enforce any typehint
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Useless Typehint
+	:og:type: article
+	:og:description: __get() and __set() magic methods won't enforce any typehint
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/UselessTypehint.html
+	:og:locale: en
   `__get() <https://www.php.net/manual/en/language.oop5.magic.php>`_ and `__set() <https://www.php.net/manual/en/language.oop5.magic.php>`_ magic methods won't enforce any typehint. The name of the magic property is always cast to string.
 
 `__call() <https://www.php.net/manual/en/language.oop5.magic.php>`_

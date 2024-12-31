@@ -5,6 +5,21 @@
 Mbstring Unknown Encoding
 +++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Mbstring Unknown Encoding: The encoding used is not known to the ext/mbstring extension.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Mbstring Unknown Encoding
+	:twitter:description: Mbstring Unknown Encoding: The encoding used is not known to the ext/mbstring extension
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Mbstring Unknown Encoding
+	:og:type: article
+	:og:description: The encoding used is not known to the ext/mbstring extension
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/MbstringUnknownEncoding.html
+	:og:locale: en
   The encoding used is not known to the ext/mbstring extension.
 
 This analysis takes in charge all ``mbstring`` encoding and aliases. The full list of supported mbstring encoding is available with `mb_list_encodings() <https://www.php.net/mb_list_encodings>`_. Each encoding alias is available with `mb_encoding_aliases() <https://www.php.net/mb_encoding_aliases>`_.

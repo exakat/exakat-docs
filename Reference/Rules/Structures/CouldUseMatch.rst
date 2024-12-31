@@ -5,6 +5,21 @@
 Could Use Match
 +++++++++++++++
 
+.. meta\:\:
+	:description:
+		Could Use Match: The switch() syntax use may be replaced by a match() call.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Could Use Match
+	:twitter:description: Could Use Match: The switch() syntax use may be replaced by a match() call
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Could Use Match
+	:og:type: article
+	:og:description: The switch() syntax use may be replaced by a match() call
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/CouldUseMatch.html
+	:og:locale: en
   The `switch() <https://www.php.net/manual/en/control-structures.switch.php>`_ syntax use may be replaced by a `match() <https://www.php.net/manual/en/control-structures.match.php>`_ call. 
 
 The simplest case for such refactoring is when each of the switch's case (including default), assign one value to the same variable. See this below : 

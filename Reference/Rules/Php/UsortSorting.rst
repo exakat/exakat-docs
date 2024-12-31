@@ -5,6 +5,21 @@
 Usort Sorting In PHP 7.0
 ++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Usort Sorting In PHP 7.0: Usort(), uksort() and uasort() behavior has changed in PHP 7.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Usort Sorting In PHP 7.0
+	:twitter:description: Usort Sorting In PHP 7.0: Usort(), uksort() and uasort() behavior has changed in PHP 7
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Usort Sorting In PHP 7.0
+	:og:type: article
+	:og:description: Usort(), uksort() and uasort() behavior has changed in PHP 7
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/UsortSorting.html
+	:og:locale: en
   `Usort() <https://www.php.net/usort>`_, `uksort() <https://www.php.net/uksort>`_ and `uasort() <https://www.php.net/uasort>`_ behavior has changed in PHP 7. Values that are equals (based on the user-provided method) may be sorted differently than in PHP 5. 
 
 If this sorting is important, it is advised to add extra comparison in the user-function and avoid returning 0 (thus, depending on default implementation). 
@@ -81,7 +96,7 @@ _____
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------+
 | Time To Fix      | Slow (1 hour)                                                                                                                        |
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------+
-| Changed Behavior | PHP 7.0 - `More <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/.html>`__                                           |
+| Changed Behavior | PHP 7.0                                                                                                                              |
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------+
 | Precision        | Medium                                                                                                                               |
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------+

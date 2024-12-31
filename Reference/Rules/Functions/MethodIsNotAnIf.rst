@@ -5,6 +5,21 @@
 Method Is Not An If
 +++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Method Is Not An If: When a method consists only in one if statement, it might be worth refactoring.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Method Is Not An If
+	:twitter:description: Method Is Not An If: When a method consists only in one if statement, it might be worth refactoring
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Method Is Not An If
+	:og:type: article
+	:og:description: When a method consists only in one if statement, it might be worth refactoring
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/MethodIsNotAnIf.html
+	:og:locale: en
   When a method consists only in one if statement, it might be worth refactoring. 
 
 Each of the blocks of the if/then structure may be turned into their own method, so has to keep operations distinct. 

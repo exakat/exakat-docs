@@ -5,6 +5,21 @@
 Could Use Namespace Magic Constant
 ++++++++++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Could Use Namespace Magic Constant: Use the __NAMESPACE__ magic constant, instead of hardcoding the current namespace.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Could Use Namespace Magic Constant
+	:twitter:description: Could Use Namespace Magic Constant: Use the __NAMESPACE__ magic constant, instead of hardcoding the current namespace
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Could Use Namespace Magic Constant
+	:og:type: article
+	:og:description: Use the __NAMESPACE__ magic constant, instead of hardcoding the current namespace
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Namespaces/CouldUseMagicConstant.html
+	:og:locale: en
   Use the `__NAMESPACE__ <https://www.php.net/manual/en/language.constants.predefined.php>`_ magic constant, instead of hardcoding the current namespace. That way, the namespace is easier to read, and it will change with the namespace expression.
 
 .. code-block:: php

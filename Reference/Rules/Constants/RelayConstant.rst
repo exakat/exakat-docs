@@ -5,6 +5,21 @@
 Relay Constant
 ++++++++++++++
 
+.. meta\:\:
+	:description:
+		Relay Constant: A relay constant is a constant that gives another name to an existing constant.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Relay Constant
+	:twitter:description: Relay Constant: A relay constant is a constant that gives another name to an existing constant
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Relay Constant
+	:og:type: article
+	:og:description: A relay constant is a constant that gives another name to an existing constant
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Constants/RelayConstant.html
+	:og:locale: en
   A relay constant is a constant that gives another name to an existing constant. It is simply build by giving the value of another constant.
 
 Relay constants acts as alias. They also add an extra layer between a constant or a literal and its usage.

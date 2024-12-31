@@ -5,6 +5,21 @@
 Set Clone Link
 ++++++++++++++
 
+.. meta\:\:
+	:description:
+		Set Clone Link: This command creates a link DEFINITION between a clone call, and its equivalent magic method.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Set Clone Link
+	:twitter:description: Set Clone Link: This command creates a link DEFINITION between a clone call, and its equivalent magic method
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Set Clone Link
+	:og:type: article
+	:og:description: This command creates a link DEFINITION between a clone call, and its equivalent magic method
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Complete/SetCloneLink.html
+	:og:locale: en
   This command creates a link DEFINITION between a clone call, and its equivalent magic method.
 This command may not detect all possible link for the clone. It may be missing information about the nature of the clone object.
 

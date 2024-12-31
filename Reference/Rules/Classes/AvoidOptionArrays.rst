@@ -5,6 +5,21 @@
 Avoid option arrays in constructors
 +++++++++++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Avoid option arrays in constructors: Avoid option arrays in constructors.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Avoid option arrays in constructors
+	:twitter:description: Avoid option arrays in constructors: Avoid option arrays in constructors
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Avoid option arrays in constructors
+	:og:type: article
+	:og:description: Avoid option arrays in constructors
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/AvoidOptionArrays.html
+	:og:locale: en
   Avoid option arrays in constructors. Use one parameter per injected element.
 
 .. code-block:: php

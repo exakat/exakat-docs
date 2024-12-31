@@ -5,6 +5,21 @@
 __DIR__ Then Slash
 ++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		__DIR__ Then Slash: __DIR__ must be concatenated with a string starting with /.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: __DIR__ Then Slash
+	:twitter:description: __DIR__ Then Slash: __DIR__ must be concatenated with a string starting with /
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: __DIR__ Then Slash
+	:og:type: article
+	:og:description: __DIR__ must be concatenated with a string starting with /
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/DirThenSlash.html
+	:og:locale: en
   `__DIR__ <https://www.php.net/manual/en/language.constants.predefined.php>`_ must be concatenated with a string starting with /.
 
 The magic constant `__DIR__ <https://www.php.net/manual/en/language.constants.predefined.php>`_ holds the name of the current `directory <https://www.php.net/`directory <https://www.php.net/directory>`_>`_, without final /. When it is used to build path, then the following path fragment must start with /. Otherwise, two directories names will be merged together.

@@ -5,6 +5,21 @@
 Unset Arguments
 +++++++++++++++
 
+.. meta\:\:
+	:description:
+		Unset Arguments: There is no need to unset arguments.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Unset Arguments
+	:twitter:description: Unset Arguments: There is no need to unset arguments
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Unset Arguments
+	:og:type: article
+	:og:description: There is no need to unset arguments
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/UnsetOnArguments.html
+	:og:locale: en
   There is no need to unset arguments. Those values will be freed at the end of the function anyhow.
 
 .. code-block:: php

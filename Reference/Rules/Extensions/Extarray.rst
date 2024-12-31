@@ -5,6 +5,21 @@
 ext/array
 +++++++++
 
+.. meta\:\:
+	:description:
+		ext/array: Core functions processing arrays.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: ext/array
+	:twitter:description: ext/array: Core functions processing arrays
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: ext/array
+	:og:type: article
+	:og:description: Core functions processing arrays
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extarray.html
+	:og:locale: en
   Core functions processing arrays.
 
 These functions manipulate arrays in various ways. Arrays are essential for storing, managing, and operating on sets of variables.

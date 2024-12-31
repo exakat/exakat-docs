@@ -5,6 +5,21 @@
 Undefined Enumcase
 ++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Undefined Enumcase: The enumeration case does not exists.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Undefined Enumcase
+	:twitter:description: Undefined Enumcase: The enumeration case does not exists
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Undefined Enumcase
+	:og:type: article
+	:og:description: The enumeration case does not exists
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Enums/UndefinedEnumcase.html
+	:og:locale: en
   The enumeration case does not exists. It may be a class constant, defined in the same enumeration.
 
 .. code-block:: php

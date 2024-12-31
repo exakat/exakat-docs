@@ -5,6 +5,21 @@
 ext/ftp
 +++++++
 
+.. meta\:\:
+	:description:
+		ext/ftp: Extension FTP.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: ext/ftp
+	:twitter:description: ext/ftp: Extension FTP
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: ext/ftp
+	:og:type: article
+	:og:description: Extension FTP
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extftp.html
+	:og:locale: en
   Extension FTP.
 
 The functions in this extension implement client access to files servers speaking the File Transfer Protocol (FTP) as defined in `RFC 959 <http://www.faqs.org/rfcs/rfc959>`_.

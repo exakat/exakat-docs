@@ -5,6 +5,21 @@
 Sequences In For
 ++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Sequences In For: For() instructions allow several instructions in each of its parameters.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Sequences In For
+	:twitter:description: Sequences In For: For() instructions allow several instructions in each of its parameters
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Sequences In For
+	:og:type: article
+	:og:description: For() instructions allow several instructions in each of its parameters
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/SequenceInFor.html
+	:og:locale: en
   `For() <https://www.php.net/manual/en/control-structures.for.php>`_ instructions allow several instructions in each of its parameters. Then, the instruction separator is comma ',', not semi-colon, which is used for separating the 3 arguments.
 This loop will simultaneously increment `$a` and `$b`. It will stop only when the last of the central sequence reach a value of false : here, when `$b` reach 20 and `$a` will be 6. 
 

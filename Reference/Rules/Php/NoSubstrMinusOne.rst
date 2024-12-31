@@ -5,6 +5,21 @@
 No Substr Minus One
 +++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		No Substr Minus One: Negative index were introduced in PHP 7.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: No Substr Minus One
+	:twitter:description: No Substr Minus One: Negative index were introduced in PHP 7
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: No Substr Minus One
+	:og:type: article
+	:og:description: Negative index were introduced in PHP 7
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/NoSubstrMinusOne.html
+	:og:locale: en
   Negative index were introduced in PHP 7.1. This syntax is not compatible with PHP 7.0 and older.
 
 .. code-block:: php

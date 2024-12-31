@@ -5,6 +5,21 @@
 Displays Text
 +++++++++++++
 
+.. meta\:\:
+	:description:
+		Displays Text: Function calls that displays something to the output.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Displays Text
+	:twitter:description: Displays Text: Function calls that displays something to the output
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Displays Text
+	:og:type: article
+	:og:description: Function calls that displays something to the output
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/Prints.html
+	:og:locale: en
   Function calls that displays something to the output. Usually, there should not be direct display of data anywhere in the code, but on a specific places, like a template `engine <https://www.php.net/engine>`_, or an output class.
 
 .. code-block:: php

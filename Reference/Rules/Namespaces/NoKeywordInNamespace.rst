@@ -5,6 +5,21 @@
 No Keyword In Namespace
 +++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		No Keyword In Namespace: PHP keywords were not allowed in namespaces' names.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: No Keyword In Namespace
+	:twitter:description: No Keyword In Namespace: PHP keywords were not allowed in namespaces' names
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: No Keyword In Namespace
+	:og:type: article
+	:og:description: PHP keywords were not allowed in namespaces' names
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Namespaces/NoKeywordInNamespace.html
+	:og:locale: en
   PHP keywords were not allowed in namespaces' names. As a whole, or as a part of the namespace. The syntax was relaxed in PHP 8.0. 
 
 This rule is only useful to keep compatibility with previous versions. It leads to a compilation `error <https://www.php.net/error>`_. 

@@ -5,6 +5,21 @@
 Untyped No Default Properties
 +++++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Untyped No Default Properties: This rule reports untyped properties without default value, that are not assigned at constructor time.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Untyped No Default Properties
+	:twitter:description: Untyped No Default Properties: This rule reports untyped properties without default value, that are not assigned at constructor time
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Untyped No Default Properties
+	:og:type: article
+	:og:description: This rule reports untyped properties without default value, that are not assigned at constructor time
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/UntypedNoDefaultProperties.html
+	:og:locale: en
   This rule reports untyped properties without default value, that are not assigned at constructor time. 
 
 This means that these properties will be assigned later, and are now running the risk to be accessed before being written. This yields a warning, and, when the property get typed, event with ``mixed``, a fatal `error <https://www.php.net/error>`_.

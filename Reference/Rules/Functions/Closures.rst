@@ -5,6 +5,21 @@
 Closures Glossary
 +++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Closures Glossary: List of all the closures in the code.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Closures Glossary
+	:twitter:description: Closures Glossary: List of all the closures in the code
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Closures Glossary
+	:og:type: article
+	:og:description: List of all the closures in the code
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/Closures.html
+	:og:locale: en
   List of all the closures in the code.
 
 .. code-block:: php

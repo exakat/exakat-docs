@@ -5,6 +5,21 @@
 Dynamic Calls
 +++++++++++++
 
+.. meta\:\:
+	:description:
+		Dynamic Calls: This rule lists all dynamic calls.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Dynamic Calls
+	:twitter:description: Dynamic Calls: This rule lists all dynamic calls
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Dynamic Calls
+	:og:type: article
+	:og:description: This rule lists all dynamic calls
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/DynamicCalls.html
+	:og:locale: en
   This rule lists all dynamic calls. This is convenient when one has to review them manually.
 
 Only the dynamic call is listed : the sources are left in their context.

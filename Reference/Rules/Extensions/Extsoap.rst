@@ -5,6 +5,21 @@
 ext/soap
 ++++++++
 
+.. meta\:\:
+	:description:
+		ext/soap: Extension SOAP.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: ext/soap
+	:twitter:description: ext/soap: Extension SOAP
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: ext/soap
+	:og:type: article
+	:og:description: Extension SOAP
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extsoap.html
+	:og:locale: en
   Extension SOAP.
 
 The SOAP extension can be used to write SOAP Servers and Clients. It supports subsets of » SOAP 1.1, » SOAP 1.2 and » WSDL 1.1 specifications.

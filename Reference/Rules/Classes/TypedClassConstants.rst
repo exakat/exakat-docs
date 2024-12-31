@@ -5,6 +5,21 @@
 Typed Class Constants Usage
 +++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Typed Class Constants Usage: Class constants may be typed with the usual types, like a property or an argument.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Typed Class Constants Usage
+	:twitter:description: Typed Class Constants Usage: Class constants may be typed with the usual types, like a property or an argument
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Typed Class Constants Usage
+	:og:type: article
+	:og:description: Class constants may be typed with the usual types, like a property or an argument
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/TypedClassConstants.html
+	:og:locale: en
   Class constants may be typed with the usual types, like a property or an argument. 
 
 While it appears to be a paradox to give a type to a structure which as a `static <https://www.php.net/manual/en/language.oop5.static.php>`_ value, there are several situations where the type can be enforced: 

@@ -5,6 +5,21 @@
 The Mixed Keyword
 +++++++++++++++++
 
+.. meta\:\:
+	:description:
+		The Mixed Keyword: `mixed` has becomes a PHP keyword.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: The Mixed Keyword
+	:twitter:description: The Mixed Keyword: `mixed` has becomes a PHP keyword
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: The Mixed Keyword
+	:og:type: article
+	:og:description: `mixed` has becomes a PHP keyword
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/MixedKeyword.html
+	:og:locale: en
   `mixed` has becomes a PHP keyword. It is used for explicitly typing methods, argument or properties which accept any type of data.
 
 That name should be avoided in classes, traits, enumerations and interfaces. Methods, anonymous classes (sic), namespaces and functions are OK to use it. 
@@ -27,7 +42,7 @@ See also `mixed <hhttps://www.php.net/manual/en/language.types.declarations.php#
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Cannot+use+%27mixed%27+as+class+name+as+it+is+reserved+.html>`_
+  + `Cannot use 'mixed' as class name as it is reserved <https://php-errors.readthedocs.io/en/latest/messages/cannot-use-%27mixed%27-as-class-name-as-it-is-reserved.html>`_
 
 
 

@@ -5,6 +5,21 @@
 Collect Class Interface Counts
 ++++++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Collect Class Interface Counts: Collect the number of interfaces implemented per class.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Collect Class Interface Counts
+	:twitter:description: Collect Class Interface Counts: Collect the number of interfaces implemented per class
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Collect Class Interface Counts
+	:og:type: article
+	:og:description: Collect the number of interfaces implemented per class
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/CollectClassInterfaceCounts.html
+	:og:locale: en
   Collect the number of interfaces implemented per class. A class with more interfaces includes has more responsabilities.
 
 .. code-block:: php

@@ -5,6 +5,21 @@
 Non Static Methods Called In A Static
 +++++++++++++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Non Static Methods Called In A Static: Static methods have to be declared as such (using the static keyword).
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Non Static Methods Called In A Static
+	:twitter:description: Non Static Methods Called In A Static: Static methods have to be declared as such (using the static keyword)
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Non Static Methods Called In A Static
+	:og:type: article
+	:og:description: Static methods have to be declared as such (using the static keyword)
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/NonStaticMethodsCalledStatic.html
+	:og:locale: en
   `Static <https://www.php.net/manual/en/language.oop5.static.php>`_ methods have to be declared as such (using the `static <https://www.php.net/manual/en/language.oop5.static.php>`_ keyword). Then, one may call them without instantiating the object.
 
 PHP 7.0, and more recent versions, yield a deprecated `error <https://www.php.net/error>`_ : ``Non-`static <https://www.php.net/manual/en/language.oop5.static.php>`_ method A\:\:B() should not be called statically``.

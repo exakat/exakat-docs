@@ -5,6 +5,21 @@
 Difference Consistence
 ++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Difference Consistence: There are two operators to check a difference : <> and !=.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Difference Consistence
+	:twitter:description: Difference Consistence: There are two operators to check a difference : <> and !=
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Difference Consistence
+	:og:type: article
+	:og:description: There are two operators to check a difference : <> and !=
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/DifferencePreference.html
+	:og:locale: en
   There are two operators to check a difference : <> and !=.
 
 The analyzed code has less than 10% of one of them : for consistency reasons, it is recommended to make them all the same. 

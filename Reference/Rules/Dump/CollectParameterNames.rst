@@ -5,6 +5,21 @@
 Collect Parameter Names
 +++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Collect Parameter Names: This analysis collects the names of all parameters.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Collect Parameter Names
+	:twitter:description: Collect Parameter Names: This analysis collects the names of all parameters
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Collect Parameter Names
+	:og:type: article
+	:og:description: This analysis collects the names of all parameters
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/CollectParameterNames.html
+	:og:locale: en
   This analysis collects the names of all parameters. It also counts the number of occurrences of each name.
 
 The names are collected from functions, methods, closures and arrow functions. Compulsory and optional parameters are all processed.

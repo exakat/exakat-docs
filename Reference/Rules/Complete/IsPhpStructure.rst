@@ -5,6 +5,21 @@
 Is PHP Structure
 ++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Is PHP Structure: This rules marks atoms with ``isPhp``, as part of the standard PHP elements.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Is PHP Structure
+	:twitter:description: Is PHP Structure: This rules marks atoms with ``isPhp``, as part of the standard PHP elements
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Is PHP Structure
+	:og:type: article
+	:og:description: This rules marks atoms with ``isPhp``, as part of the standard PHP elements
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Complete/IsPhpStructure.html
+	:og:locale: en
   This rules marks atoms with ``isPhp``, as part of the standard PHP elements. For example, ``Datetime``, ``E_ALL``, etc. This `attribute <https://www.php.net/attribute>`_ is available in the `engine <https://www.php.net/engine>`_, but not displayed.
 
 .. code-block:: php

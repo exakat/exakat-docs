@@ -5,6 +5,21 @@
 PHP 7.2 Scalar Typehints
 ++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		PHP 7.2 Scalar Typehints: A new scalar typehint was introduced : object.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: PHP 7.2 Scalar Typehints
+	:twitter:description: PHP 7.2 Scalar Typehints: A new scalar typehint was introduced : object
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: PHP 7.2 Scalar Typehints
+	:og:type: article
+	:og:description: A new scalar typehint was introduced : object
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/PHP72scalartypehints.html
+	:og:locale: en
   A new scalar typehint was introduced : object. 
 
 It can't be used before PHP 7.2, and will be confused with classes or interfaces.

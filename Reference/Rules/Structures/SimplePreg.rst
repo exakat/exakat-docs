@@ -5,6 +5,21 @@
 Simplify Regex
 ++++++++++++++
 
+.. meta\:\:
+	:description:
+		Simplify Regex: Avoid using regex when the searched string or the replacement are simple enough.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Simplify Regex
+	:twitter:description: Simplify Regex: Avoid using regex when the searched string or the replacement are simple enough
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Simplify Regex
+	:og:type: article
+	:og:description: Avoid using regex when the searched string or the replacement are simple enough
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/SimplePreg.html
+	:og:locale: en
   Avoid using regex when the searched string or the replacement are simple enough.
 
 PRCE regex are a powerful way to search inside strings, but they also come at the price of performance. When the query is simple enough, try using `strpos() <https://www.php.net/strpos>`_ or `stripos() <https://www.php.net/stripos>`_ instead.

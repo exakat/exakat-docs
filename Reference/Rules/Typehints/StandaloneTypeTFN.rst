@@ -5,6 +5,21 @@
 StandaloneType True False Null
 ++++++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		StandaloneType True False Null: Report usage of standalone types of true, false and null.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: StandaloneType True False Null
+	:twitter:description: StandaloneType True False Null: Report usage of standalone types of true, false and null
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: StandaloneType True False Null
+	:og:type: article
+	:og:description: Report usage of standalone types of true, false and null
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Typehints/StandaloneTypeTFN.html
+	:og:locale: en
   Report usage of standalone types of true, false and null. 
 
 false and null were added to PHP in PHP 8.2, as standalone types : they can be used alone in a type declaration (property, argument or returntype). true was added in PHP 8.3.

@@ -5,6 +5,21 @@
 Use Constants As Returns
 ++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Use Constants As Returns: When a native PHP function returns only constants, it is recommended to use those constants to identify the returned values.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Use Constants As Returns
+	:twitter:description: Use Constants As Returns: When a native PHP function returns only constants, it is recommended to use those constants to identify the returned values
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Use Constants As Returns
+	:og:type: article
+	:og:description: When a native PHP function returns only constants, it is recommended to use those constants to identify the returned values
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/UseConstantsAsReturns.html
+	:og:locale: en
   When a native PHP function returns only constants, it is recommended to use those constants to identify the returned values.
 
 .. code-block:: php

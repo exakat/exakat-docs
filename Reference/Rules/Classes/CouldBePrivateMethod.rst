@@ -5,6 +5,21 @@
 Method Could Be Private Method
 ++++++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Method Could Be Private Method: The following methods are never used outside their class of definition.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Method Could Be Private Method
+	:twitter:description: Method Could Be Private Method: The following methods are never used outside their class of definition
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Method Could Be Private Method
+	:og:type: article
+	:og:description: The following methods are never used outside their class of definition
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/CouldBePrivateMethod.html
+	:og:locale: en
   The following methods are never used outside their class of definition. Given the analyzed code, they could be set as private. 
 Note that dynamic properties (such as $x->$y) are not taken into account.
 

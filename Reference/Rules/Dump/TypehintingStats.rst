@@ -5,6 +5,21 @@
 Typehinting Stats
 +++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Typehinting Stats: Collects various statistics about typehinting usage.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Typehinting Stats
+	:twitter:description: Typehinting Stats: Collects various statistics about typehinting usage
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Typehinting Stats
+	:og:type: article
+	:og:description: Collects various statistics about typehinting usage
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/TypehintingStats.html
+	:og:locale: en
   Collects various statistics about typehinting usage.
 
 + totalArguments : Total number of explicit arguments. This count variadics as one, and skip usage of `func_get_args() <https://www.php.net/func_get_args>`_

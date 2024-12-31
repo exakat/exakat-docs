@@ -5,6 +5,21 @@
 Already Parents Interface
 +++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Already Parents Interface: The same interface is implemented by a class and one of its children.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Already Parents Interface
+	:twitter:description: Already Parents Interface: The same interface is implemented by a class and one of its children
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Already Parents Interface
+	:og:type: article
+	:og:description: The same interface is implemented by a class and one of its children
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Interfaces/AlreadyParentsInterface.html
+	:og:locale: en
   The same interface is implemented by a class and one of its children. 
 
 That way, the child doesn't need to implement the interface, nor define its methods to be an instance of the interface. 

@@ -5,6 +5,21 @@
 Static Inclusions
 +++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Static Inclusions: This rule reports all static inclusion.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Static Inclusions
+	:twitter:description: Static Inclusions: This rule reports all static inclusion
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Static Inclusions
+	:og:type: article
+	:og:description: This rule reports all static inclusion
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/StaticInclude.html
+	:og:locale: en
   This rule reports all `static <https://www.php.net/manual/en/language.oop5.static.php>`_ inclusion. A inclusion is `static <https://www.php.net/manual/en/language.oop5.static.php>`_ when it relies only on constants, such as literals, global and class constants, and the magic constants.
 
 This rule is a collaboration with `Bohuslav Šimek <https://twitter.com/BohuslavSimek>`_.

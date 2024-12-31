@@ -5,6 +5,21 @@
 Conditioned Function
 ++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Conditioned Function: Indicates if a function is defined only if a condition is met.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Conditioned Function
+	:twitter:description: Conditioned Function: Indicates if a function is defined only if a condition is met
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Conditioned Function
+	:og:type: article
+	:og:description: Indicates if a function is defined only if a condition is met
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/ConditionedFunctions.html
+	:og:locale: en
   Indicates if a function is defined only if a condition is met.
 
 .. code-block:: php

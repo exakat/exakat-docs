@@ -5,6 +5,21 @@
 PHP 80 Named Parameter Variadic
 +++++++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		PHP 80 Named Parameter Variadic: Named parameter with variadic have been renamed from 0 to 'parameter name' in PHP 8.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: PHP 80 Named Parameter Variadic
+	:twitter:description: PHP 80 Named Parameter Variadic: Named parameter with variadic have been renamed from 0 to 'parameter name' in PHP 8
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: PHP 80 Named Parameter Variadic
+	:og:type: article
+	:og:description: Named parameter with variadic have been renamed from 0 to 'parameter name' in PHP 8
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/Php80NamedParameterVariadic.html
+	:og:locale: en
   Named parameter with variadic have been renamed from 0 to 'parameter name' in PHP 8.0.
 In PHP 7.0, with positional argument only, the content of $b is in an array, index 0. This is also true with PHP 8.0.
 
@@ -56,7 +71,7 @@ _____
 +------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Time To Fix      | Quick (30 mins)                                                                                                                                                                         |
 +------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Changed Behavior | PHP 8.0+ - `More <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/.html>`__                                                                                             |
+| Changed Behavior | PHP 8.0+                                                                                                                                                                                |
 +------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision        | Medium                                                                                                                                                                                  |
 +------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

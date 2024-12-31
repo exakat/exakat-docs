@@ -5,6 +5,21 @@
 Argon2 Usage
 ++++++++++++
 
+.. meta\:\:
+	:description:
+		Argon2 Usage: Argon2 is an optionally compiled password hashing API.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Argon2 Usage
+	:twitter:description: Argon2 Usage: Argon2 is an optionally compiled password hashing API
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Argon2 Usage
+	:og:type: article
+	:og:description: Argon2 is an optionally compiled password hashing API
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/Argon2Usage.html
+	:og:locale: en
   Argon2 is an optionally compiled password hashing API. 
 
 Argon2 has been added to the password hashing API in PHP 7.2. 

@@ -5,6 +5,21 @@
 Unicode Escape Syntax
 +++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Unicode Escape Syntax: Usage of the Unicode Escape syntax, with the ``\u{xxxxx}`` format, available since PHP 7.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Unicode Escape Syntax
+	:twitter:description: Unicode Escape Syntax: Usage of the Unicode Escape syntax, with the ``\u{xxxxx}`` format, available since PHP 7
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Unicode Escape Syntax
+	:og:type: article
+	:og:description: Usage of the Unicode Escape syntax, with the ``\u{xxxxx}`` format, available since PHP 7
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/UnicodeEscapeSyntax.html
+	:og:locale: en
   Usage of the Unicode Escape syntax, with the ``\u{xxxxx}`` format, available since PHP 7.0.
 
 .. code-block:: php

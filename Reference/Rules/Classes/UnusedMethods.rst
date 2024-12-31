@@ -5,6 +5,21 @@
 Unused Methods
 ++++++++++++++
 
+.. meta\:\:
+	:description:
+		Unused Methods: Those methods are never called.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Unused Methods
+	:twitter:description: Unused Methods: Those methods are never called
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Unused Methods
+	:og:type: article
+	:og:description: Those methods are never called
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/UnusedMethods.html
+	:og:locale: en
   Those methods are never called. 
 
 They are probably dead code, unless they are called dynamically.

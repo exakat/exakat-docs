@@ -5,6 +5,21 @@
 Abstract Class Constants
 ++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Abstract Class Constants: Those are class constants which are defined in multiple children, but not in the parent class.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Abstract Class Constants
+	:twitter:description: Abstract Class Constants: Those are class constants which are defined in multiple children, but not in the parent class
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Abstract Class Constants
+	:og:type: article
+	:og:description: Those are class constants which are defined in multiple children, but not in the parent class
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/AbstractConstants.html
+	:og:locale: en
   Those are class constants which are defined in multiple children, but not in the `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ class.
 
 If this class is a feature of the `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ class, or shall and must be defined in the children classes, it is recommended to add them in the `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ class, and let them overloaded in the children class.

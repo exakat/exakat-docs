@@ -5,6 +5,21 @@
 Avoid get_object_vars()
 +++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Avoid get_object_vars(): get_object_vars() changes behavior between PHP 7.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Avoid get_object_vars()
+	:twitter:description: Avoid get_object_vars(): get_object_vars() changes behavior between PHP 7
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Avoid get_object_vars()
+	:og:type: article
+	:og:description: get_object_vars() changes behavior between PHP 7
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/AvoidGetobjectVars.html
+	:og:locale: en
   `get_object_vars() <https://www.php.net/get_object_vars>`_ changes behavior between PHP 7.3 and 7.4. 
 
 Calling `get_object_vars() <https://www.php.net/get_object_vars>`_ on an `ArrayObject <https://www.php.net/manual/en/class.`arrayobject <https://www.php.net/arrayobject>`_.php>`_ instance will now always return the properties of the `ArrayObject <https://www.php.net/manual/en/class.`arrayobject <https://www.php.net/arrayobject>`_.php>`_ itself (or a subclass). Previously it returned the values of the wrapped array/object unless the ArrayObject\:\:STD_PROP_LIST flag was specified.
@@ -53,7 +68,7 @@ _____
 +------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Time To Fix      | Quick (30 mins)                                                                                                                                                                              |
 +------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Changed Behavior | PHP 7.4 - `More <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/.html>`__                                                                                                   |
+| Changed Behavior | PHP 7.4                                                                                                                                                                                      |
 +------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision        | High                                                                                                                                                                                         |
 +------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

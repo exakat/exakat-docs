@@ -5,6 +5,21 @@
 Too Many Chained Calls
 ++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Too Many Chained Calls: Report chained calls of functions, methods and static methods are crammed in one expression.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Too Many Chained Calls
+	:twitter:description: Too Many Chained Calls: Report chained calls of functions, methods and static methods are crammed in one expression
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Too Many Chained Calls
+	:og:type: article
+	:og:description: Report chained calls of functions, methods and static methods are crammed in one expression
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/TooManyChainedCalls.html
+	:og:locale: en
   Report chained calls of functions, methods and `static <https://www.php.net/manual/en/language.oop5.static.php>`_ methods are crammed in one expression.
 
 This makes the whole expression difficult to read, and it is possible to miss some important parameter or intermidate calls when reviewing it. 

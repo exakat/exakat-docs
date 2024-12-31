@@ -5,6 +5,21 @@
 Should Make Alias
 +++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Should Make Alias: Long names should be aliased.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Should Make Alias
+	:twitter:description: Should Make Alias: Long names should be aliased
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Should Make Alias
+	:og:type: article
+	:og:description: Long names should be aliased
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Namespaces/ShouldMakeAlias.html
+	:og:locale: en
   Long names should be aliased.
 
 Aliased names are easy to read at the beginning of the script; they may be changed at one point, and update the whole code at the same time. 

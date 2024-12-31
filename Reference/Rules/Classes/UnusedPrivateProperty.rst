@@ -5,6 +5,21 @@
 Unused Private Properties
 +++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Unused Private Properties: Unused static properties should be removed.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Unused Private Properties
+	:twitter:description: Unused Private Properties: Unused static properties should be removed
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Unused Private Properties
+	:og:type: article
+	:og:description: Unused static properties should be removed
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/UnusedPrivateProperty.html
+	:og:locale: en
   Unused `static <https://www.php.net/manual/en/language.oop5.static.php>`_ properties should be removed. 
 
 Unused private properties are dead code. They are usually leftovers of development or refactorisation : they used to have a mission, but are now left. 

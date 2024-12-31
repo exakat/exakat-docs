@@ -5,6 +5,21 @@
 Logical Mistakes
 ++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Logical Mistakes: Avoid logical mistakes within long expressions.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Logical Mistakes
+	:twitter:description: Logical Mistakes: Avoid logical mistakes within long expressions
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Logical Mistakes
+	:og:type: article
+	:og:description: Avoid logical mistakes within long expressions
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/LogicalMistakes.html
+	:og:locale: en
   Avoid logical mistakes within long expressions. 
 
 Sometimes, the logic is not what it seems. It is important to check the actual impact of every part of the logical expression. Do not hesitate to make a table with all possible cases. If those cases are too numerous, it may be time to rethink the whole expression. 

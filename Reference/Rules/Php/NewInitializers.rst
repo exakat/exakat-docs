@@ -5,6 +5,21 @@
 New Initializers
 ++++++++++++++++
 
+.. meta\:\:
+	:description:
+		New Initializers: Parameters, static variables and global constants may be initialized with an object.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: New Initializers
+	:twitter:description: New Initializers: Parameters, static variables and global constants may be initialized with an object
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: New Initializers
+	:og:type: article
+	:og:description: Parameters, static variables and global constants may be initialized with an object
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/NewInitializers.html
+	:og:locale: en
   Parameters, `static <https://www.php.net/manual/en/language.oop5.static.php>`_ variables and global constants may be initialized with an object. 
 This feature is available in PHP 8.1 and more recent. It is reported as an invalid constant expression in older PHP versions.
 

@@ -5,6 +5,21 @@
 Wrong Typehinted Name
 +++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Wrong Typehinted Name: The parameter name doesn't reflect the typehint used.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Wrong Typehinted Name
+	:twitter:description: Wrong Typehinted Name: The parameter name doesn't reflect the typehint used
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Wrong Typehinted Name
+	:og:type: article
+	:og:description: The parameter name doesn't reflect the typehint used
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/WrongTypehintedName.html
+	:og:locale: en
   The parameter name doesn't reflect the typehint used.
 
 There are no restriction on parameter names, except its uniqueness in the signature. Yet, using a scalar typehint as the name for another typehinted value is just misleading. 

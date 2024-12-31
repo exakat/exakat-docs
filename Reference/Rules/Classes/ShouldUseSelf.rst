@@ -5,6 +5,21 @@
 Could Use self
 ++++++++++++++
 
+.. meta\:\:
+	:description:
+		Could Use self: ``self`` keyword refers to the current class, or any of its parents.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Could Use self
+	:twitter:description: Could Use self: ``self`` keyword refers to the current class, or any of its parents
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Could Use self
+	:og:type: article
+	:og:description: ``self`` keyword refers to the current class, or any of its parents
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/ShouldUseSelf.html
+	:og:locale: en
   ``self`` keyword refers to the current class, or any of its parents. Using it is just as fast as the full class name, it is as readable and it is will not be changed upon class or namespace change.
 
 It is also routinely used in traits : there, ``self`` represents the class in which the trait is used, or the trait itself.

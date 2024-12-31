@@ -5,6 +5,21 @@
 Enum Usage
 ++++++++++
 
+.. meta\:\:
+	:description:
+		Enum Usage: This rule reports usage of PHP native enumerations.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Enum Usage
+	:twitter:description: Enum Usage: This rule reports usage of PHP native enumerations
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Enum Usage
+	:og:type: article
+	:og:description: This rule reports usage of PHP native enumerations
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/EnumUsage.html
+	:og:locale: en
   This rule reports usage of PHP native enumerations. Enumerations were introduced in PHP 8.1 and are not backward compatible.
 
 .. code-block:: php

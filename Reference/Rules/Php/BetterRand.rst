@@ -5,6 +5,21 @@
 Use random_int()
 ++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Use random_int(): rand() and mt_rand() should be replaced with random_int().
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Use random_int()
+	:twitter:description: Use random_int(): rand() and mt_rand() should be replaced with random_int()
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Use random_int()
+	:og:type: article
+	:og:description: rand() and mt_rand() should be replaced with random_int()
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/BetterRand.html
+	:og:locale: en
   `rand() <https://www.php.net/rand>`_ and `mt_rand() <https://www.php.net/mt_rand>`_ should be replaced with `random_int() <https://www.php.net/random_int>`_.
 
 At worse, `rand() <https://www.php.net/rand>`_ should be replaced with `mt_rand() <https://www.php.net/mt_rand>`_, which is a drop-in replacement and `srand() <https://www.php.net/srand>`_ by `mt_srand() <https://www.php.net/mt_srand>`_. 

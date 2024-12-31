@@ -5,6 +5,21 @@
 Slice Arrays First
 ++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Slice Arrays First: Always start by reducing an array before applying some transformation on it.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Slice Arrays First
+	:twitter:description: Slice Arrays First: Always start by reducing an array before applying some transformation on it
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Slice Arrays First
+	:og:type: article
+	:og:description: Always start by reducing an array before applying some transformation on it
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Arrays/SliceFirst.html
+	:og:locale: en
   Always start by reducing an array before applying some transformation on it. The shorter array will be processed faster. 
 
 The gain produced here is greater with longer arrays, or greater reductions. They may also be used in loops. This is a micro-optimisation when used on short arrays.

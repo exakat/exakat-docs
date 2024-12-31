@@ -5,6 +5,21 @@
 PHP 7.0 New Classes
 +++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		PHP 7.0 New Classes: Those classes are now declared natively in PHP 7.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: PHP 7.0 New Classes
+	:twitter:description: PHP 7.0 New Classes: Those classes are now declared natively in PHP 7
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: PHP 7.0 New Classes
+	:og:type: article
+	:og:description: Those classes are now declared natively in PHP 7
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/Php70NewClasses.html
+	:og:locale: en
   Those classes are now declared natively in PHP 7.0 and should not be declared in custom code. 
 
 There are 8 new classes : 

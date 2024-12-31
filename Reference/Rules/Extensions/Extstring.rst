@@ -5,6 +5,21 @@
 String
 ++++++
 
+.. meta\:\:
+	:description:
+		String: Strings in PHP.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: String
+	:twitter:description: String: Strings in PHP
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: String
+	:og:type: article
+	:og:description: Strings in PHP
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extstring.html
+	:og:locale: en
   Strings in PHP. Strings are part of the core of PHP, and are not a separate extension.
 
 .. code-block:: php

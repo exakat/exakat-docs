@@ -5,6 +5,21 @@
 PSR-16 Usage
 ++++++++++++
 
+.. meta\:\:
+	:description:
+		PSR-16 Usage: PSR-16 describes a simple yet extensible interface for a cache item and a cache driver.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: PSR-16 Usage
+	:twitter:description: PSR-16 Usage: PSR-16 describes a simple yet extensible interface for a cache item and a cache driver
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: PSR-16 Usage
+	:og:type: article
+	:og:description: PSR-16 describes a simple yet extensible interface for a cache item and a cache driver
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Psr/Psr16Usage.html
+	:og:locale: en
   PSR-16 describes a simple yet extensible interface for a cache item and a cache driver. It is supported by an set of interfaces, that one may use in the code.
 
 .. code-block:: php

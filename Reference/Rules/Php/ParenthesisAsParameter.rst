@@ -5,6 +5,21 @@
 Parenthesis As Parameter
 ++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Parenthesis As Parameter: Using parenthesis around parameters used to silent some internal check.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Parenthesis As Parameter
+	:twitter:description: Parenthesis As Parameter: Using parenthesis around parameters used to silent some internal check
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Parenthesis As Parameter
+	:og:type: article
+	:og:description: Using parenthesis around parameters used to silent some internal check
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/ParenthesisAsParameter.html
+	:og:locale: en
   Using parenthesis around parameters used to silent some internal check. This is not the case anymore in PHP 7, and should be fixed by removing the parenthesis and making the value a real reference.
 
 .. code-block:: php
@@ -30,7 +45,7 @@ See also `Parentheses around function arguments no longer affect behaviour <http
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Only+variables+should+be+passed+by+reference.html>`_
+  + `Only variables should be passed by reference <https://php-errors.readthedocs.io/en/latest/messages/only-variables-should-be-passed-by-reference.html>`_
 
 
 

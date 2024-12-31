@@ -5,6 +5,21 @@
 Empty Interfaces
 ++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Empty Interfaces: Empty interfaces are a code smell.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Empty Interfaces
+	:twitter:description: Empty Interfaces: Empty interfaces are a code smell
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Empty Interfaces
+	:og:type: article
+	:og:description: Empty interfaces are a code smell
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Interfaces/EmptyInterface.html
+	:og:locale: en
   Empty interfaces are a code smell. Interfaces should contains at least a method or a constant, and not be totally empty.
 
 .. code-block:: php

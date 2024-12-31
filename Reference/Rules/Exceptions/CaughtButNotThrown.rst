@@ -5,6 +5,21 @@
 Undefined Caught Exceptions
 +++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Undefined Caught Exceptions: Those are exceptions that are caught in the code, but are not defined in the application.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Undefined Caught Exceptions
+	:twitter:description: Undefined Caught Exceptions: Those are exceptions that are caught in the code, but are not defined in the application
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Undefined Caught Exceptions
+	:og:type: article
+	:og:description: Those are exceptions that are caught in the code, but are not defined in the application
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Exceptions/CaughtButNotThrown.html
+	:og:locale: en
   Those are exceptions that are caught in the code, but are not defined in the application. 
 
 They may be externally defined, such as in core PHP, extensions or libraries. Make sure those exceptions are useful to your application : otherwise, they are dead code.

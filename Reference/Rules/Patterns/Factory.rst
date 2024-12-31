@@ -5,6 +5,21 @@
 An OOP Factory
 ++++++++++++++
 
+.. meta\:\:
+	:description:
+		An OOP Factory: A method or function that implements a factory.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: An OOP Factory
+	:twitter:description: An OOP Factory: A method or function that implements a factory
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: An OOP Factory
+	:og:type: article
+	:og:description: A method or function that implements a factory
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Patterns/Factory.html
+	:og:locale: en
   A method or function that implements a factory. A factory is a class that handles the creation of an object, based on parameters. The factory hides the logic that leads to the creation of the object.
 
 .. code-block:: php

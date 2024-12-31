@@ -5,6 +5,21 @@
 Assign Default To Properties
 ++++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Assign Default To Properties: Properties may be assigned default values at declaration time.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Assign Default To Properties
+	:twitter:description: Assign Default To Properties: Properties may be assigned default values at declaration time
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Assign Default To Properties
+	:og:type: article
+	:og:description: Properties may be assigned default values at declaration time
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/MakeDefault.html
+	:og:locale: en
   Properties may be assigned default values at declaration time. Such values may be later modified, if needed. 
 Default values will save some instructions in the constructor, and makes the value obvious in the code.
 

@@ -5,6 +5,21 @@
 No Append On Source
 +++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		No Append On Source: Do not append new elements to an array in a foreach loop.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: No Append On Source
+	:twitter:description: No Append On Source: Do not append new elements to an array in a foreach loop
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: No Append On Source
+	:og:type: article
+	:og:description: Do not append new elements to an array in a foreach loop
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/NoAppendOnSource.html
+	:og:locale: en
   Do not append new elements to an array in a foreach loop. Since PHP 7.0, the array is still used as a source, and will be augmented, and used again. 
 Thanks to `Frederic Bouchery <https://twitter.com/FredBouchery/>`_ for the reminder.
 

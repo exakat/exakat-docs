@@ -5,6 +5,21 @@
 Ellipsis Merge
 ++++++++++++++
 
+.. meta\:\:
+	:description:
+		Ellipsis Merge: Ellipsis are slower than array_merge().
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Ellipsis Merge
+	:twitter:description: Ellipsis Merge: Ellipsis are slower than array_merge()
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Ellipsis Merge
+	:og:type: article
+	:og:description: Ellipsis are slower than array_merge()
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Performances/EllipsisMerge.html
+	:og:locale: en
   Ellipsis are slower than `array_merge() <https://www.php.net/array_merge>`_. 
 
 The speed up is significative when the merge happen inside a loop. There, `array_merge() <https://www.php.net/array_merge>`_ is an order of magnitude faster.

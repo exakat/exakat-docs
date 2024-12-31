@@ -5,6 +5,21 @@
 Useless Catch
 +++++++++++++
 
+.. meta\:\:
+	:description:
+		Useless Catch: A catch clause should handle the exception by doing something.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Useless Catch
+	:twitter:description: Useless Catch: A catch clause should handle the exception by doing something
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Useless Catch
+	:og:type: article
+	:og:description: A catch clause should handle the exception by doing something
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Exceptions/UselessCatch.html
+	:og:locale: en
   A catch clause should handle the `exception <https://www.php.net/exception>`_ by doing something. 
 
 Among the task of a catch clause : log the `exception <https://www.php.net/exception>`_, clean any mess that was introduced, fail graciously.

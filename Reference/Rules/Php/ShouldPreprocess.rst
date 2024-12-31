@@ -5,6 +5,21 @@
 Should Preprocess Chr()
 +++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Should Preprocess Chr(): Replace literal chr() calls with their escape sequence.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Should Preprocess Chr()
+	:twitter:description: Should Preprocess Chr(): Replace literal chr() calls with their escape sequence
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Should Preprocess Chr()
+	:og:type: article
+	:og:description: Replace literal chr() calls with their escape sequence
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/ShouldPreprocess.html
+	:og:locale: en
   Replace literal `chr() <https://www.php.net/chr>`_ calls with their escape sequence.
 
 `chr() <https://www.php.net/chr>`_ is a functioncall, that cannot be cached. It is only resolved at execution time. 

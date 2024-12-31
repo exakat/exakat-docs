@@ -5,6 +5,21 @@
 Used Static Properties
 ++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Used Static Properties: List of all static properties that are used.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Used Static Properties
+	:twitter:description: Used Static Properties: List of all static properties that are used
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Used Static Properties
+	:og:type: article
+	:og:description: List of all static properties that are used
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/UsedPrivateProperty.html
+	:og:locale: en
   List of all `static <https://www.php.net/manual/en/language.oop5.static.php>`_ properties that are used.
 
 A private property is used when it is defined and read. A private property that is only written is not used. A property that is only read is used, as it may have a default value, or act as `NULL <https://www.php.net/manual/en/language.types.null.php>`_.

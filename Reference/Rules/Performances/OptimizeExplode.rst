@@ -5,6 +5,21 @@
 Optimize Explode()
 ++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Optimize Explode(): Limit explode() results at call time.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Optimize Explode()
+	:twitter:description: Optimize Explode(): Limit explode() results at call time
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Optimize Explode()
+	:og:type: article
+	:og:description: Limit explode() results at call time
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Performances/OptimizeExplode.html
+	:og:locale: en
   Limit `explode() <https://www.php.net/explode>`_ results at call time. `explode() <https://www.php.net/explode>`_ returns an array, after breaking the argument into smaller strings, with a delimiter. 
 
 By default, `explode() <https://www.php.net/explode>`_ breaks the whole string into smaller strings, and returns the array. When not all the elements of the returned array are necessary, using the third argument of `explode() <https://www.php.net/explode>`_ speeds up the process, by removing unnecessary work.

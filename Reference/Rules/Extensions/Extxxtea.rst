@@ -5,6 +5,21 @@
 ext/xxtea
 +++++++++
 
+.. meta\:\:
+	:description:
+		ext/xxtea: Extension xxtea : XXTEA encryption algorithm extension for PHP.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: ext/xxtea
+	:twitter:description: ext/xxtea: Extension xxtea : XXTEA encryption algorithm extension for PHP
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: ext/xxtea
+	:og:type: article
+	:og:description: Extension xxtea : XXTEA encryption algorithm extension for PHP
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extxxtea.html
+	:og:locale: en
   Extension xxtea : XXTEA encryption algorithm extension for PHP.
 
 XXTEA is a fast and `secure <https://www.php.net/secure>`_ encryption algorithm. This is a XXTEA extension for PHP.

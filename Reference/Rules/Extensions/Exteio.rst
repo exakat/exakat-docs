@@ -5,6 +5,21 @@
 ext/eio
 +++++++
 
+.. meta\:\:
+	:description:
+		ext/eio: Extension EIO.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: ext/eio
+	:twitter:description: ext/eio: Extension EIO
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: ext/eio
+	:og:type: article
+	:og:description: Extension EIO
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Exteio.html
+	:og:locale: en
   Extension EIO.
 
 This is a PHP extension wrapping functions of the `libeio <http://software.schmorp.de/pkg/libeio.html>`_ library written by Marc Lehmann.

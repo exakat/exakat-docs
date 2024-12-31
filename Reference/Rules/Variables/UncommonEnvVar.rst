@@ -5,6 +5,21 @@
 Environment Variables
 +++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Environment Variables: Environment variables are used to interact with the hosting system.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Environment Variables
+	:twitter:description: Environment Variables: Environment variables are used to interact with the hosting system
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Environment Variables
+	:og:type: article
+	:og:description: Environment variables are used to interact with the hosting system
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Variables/UncommonEnvVar.html
+	:og:locale: en
   Environment variables are used to interact with the hosting system. 
 
 They often provides configuration parameter that are set by the host of the application to be used. 

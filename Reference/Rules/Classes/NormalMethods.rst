@@ -5,6 +5,21 @@
 Normal Methods
 ++++++++++++++
 
+.. meta\:\:
+	:description:
+		Normal Methods: Spot normal Methods.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Normal Methods
+	:twitter:description: Normal Methods: Spot normal Methods
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Normal Methods
+	:og:type: article
+	:og:description: Spot normal Methods
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/NormalMethods.html
+	:og:locale: en
   Spot normal Methods.
 
 .. code-block:: php

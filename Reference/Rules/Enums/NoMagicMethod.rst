@@ -5,6 +5,21 @@
 No Magic Method For Enum
 ++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		No Magic Method For Enum: Enumeration cannot have magic methods, nor a constructor.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: No Magic Method For Enum
+	:twitter:description: No Magic Method For Enum: Enumeration cannot have magic methods, nor a constructor
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: No Magic Method For Enum
+	:og:type: article
+	:og:description: Enumeration cannot have magic methods, nor a constructor
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Enums/NoMagicMethod.html
+	:og:locale: en
   Enumeration cannot have magic methods, nor a constructor. Enumeration cases are created as needed, and magic methods are interfering with the default behavior of enumerations.
 
 .. code-block:: php

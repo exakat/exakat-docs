@@ -5,6 +5,21 @@
 Multiple Class Declarations
 +++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Multiple Class Declarations: It is possible to declare several times the same class in the code.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Multiple Class Declarations
+	:twitter:description: Multiple Class Declarations: It is possible to declare several times the same class in the code
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Multiple Class Declarations
+	:og:type: article
+	:og:description: It is possible to declare several times the same class in the code
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/MultipleDeclarations.html
+	:og:locale: en
   It is possible to declare several times the same class in the code. PHP will not mention it until execution time, since declarations may be conditional. 
 It is recommended to avoid declaring several times the same class in the code. The best practice is to separate them with namespaces, they are for here for that purpose. In case those two classes are to be used interchangeably, the best is to use an abstract class or an interface.
 

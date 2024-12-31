@@ -5,6 +5,21 @@
 Implements Is For Interface
 +++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Implements Is For Interface: With class heritage, implements should be used for interfaces, and extends with classes.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Implements Is For Interface
+	:twitter:description: Implements Is For Interface: With class heritage, implements should be used for interfaces, and extends with classes
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Implements Is For Interface
+	:og:type: article
+	:og:description: With class heritage, implements should be used for interfaces, and extends with classes
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/ImplementIsForInterface.html
+	:og:locale: en
   With class heritage, implements should be used for interfaces, and extends with classes.
 
 PHP defers the implements check until execution : the code in example does lint, but won,t run.

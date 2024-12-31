@@ -5,6 +5,21 @@
 ext/date
 ++++++++
 
+.. meta\:\:
+	:description:
+		ext/date: Extension ext/date.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: ext/date
+	:twitter:description: ext/date: Extension ext/date
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: ext/date
+	:og:type: article
+	:og:description: Extension ext/date
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extdate.html
+	:og:locale: en
   Extension ext/date.
 
 These functions allows the manipulation of date and time from the server where the PHP scripts are running.

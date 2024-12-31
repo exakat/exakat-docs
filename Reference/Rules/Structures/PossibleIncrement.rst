@@ -5,6 +5,21 @@
 Possible Increment
 ++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Possible Increment: This expression looks like a typo : a missing + would change the behavior.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Possible Increment
+	:twitter:description: Possible Increment: This expression looks like a typo : a missing + would change the behavior
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Possible Increment
+	:og:type: article
+	:og:description: This expression looks like a typo : a missing + would change the behavior
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/PossibleIncrement.html
+	:og:locale: en
   This expression looks like a typo : a missing + would change the behavior.
 
 The same pattern is not reported with -, as it is legit expression. + sign is usually understated, rather than explicit.

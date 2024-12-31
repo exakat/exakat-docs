@@ -5,6 +5,21 @@
 Should Use Math
 +++++++++++++++
 
+.. meta\:\:
+	:description:
+		Should Use Math: Use math operators to make the operation readable.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Should Use Math
+	:twitter:description: Should Use Math: Use math operators to make the operation readable
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Should Use Math
+	:og:type: article
+	:og:description: Use math operators to make the operation readable
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ShouldUseMath.html
+	:og:locale: en
   Use math operators to make the operation readable.
 
 .. code-block:: php

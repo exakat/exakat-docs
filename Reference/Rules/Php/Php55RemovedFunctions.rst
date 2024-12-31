@@ -5,6 +5,21 @@
 Functions Removed In PHP 5.5
 ++++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Functions Removed In PHP 5.5: Those functions were removed in PHP 5.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Functions Removed In PHP 5.5
+	:twitter:description: Functions Removed In PHP 5.5: Those functions were removed in PHP 5
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Functions Removed In PHP 5.5
+	:og:type: article
+	:og:description: Those functions were removed in PHP 5
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/Php55RemovedFunctions.html
+	:og:locale: en
   Those functions were removed in PHP 5.5.
 
 + `php_logo_guid() <https://www.php.net/php_logo_guid>`_

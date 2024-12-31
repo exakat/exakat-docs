@@ -5,6 +5,21 @@
 Encoded Simple Letters
 ++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Encoded Simple Letters: Some simple letters are written in escape sequence.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Encoded Simple Letters
+	:twitter:description: Encoded Simple Letters: Some simple letters are written in escape sequence
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Encoded Simple Letters
+	:og:type: article
+	:og:description: Some simple letters are written in escape sequence
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Security/EncodedLetters.html
+	:og:locale: en
   Some simple letters are written in escape sequence. 
 
 Usually, escape sequences are made to encode unusual characters. Using escape sequences for simple characters, like letters or numbers is suspicious.

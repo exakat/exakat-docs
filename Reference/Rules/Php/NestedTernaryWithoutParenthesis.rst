@@ -5,6 +5,21 @@
 Nested Ternary Without Parenthesis
 ++++++++++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Nested Ternary Without Parenthesis: It is not allowed to nest ternary operator within itself, without parenthesis.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Nested Ternary Without Parenthesis
+	:twitter:description: Nested Ternary Without Parenthesis: It is not allowed to nest ternary operator within itself, without parenthesis
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Nested Ternary Without Parenthesis
+	:og:type: article
+	:og:description: It is not allowed to nest ternary operator within itself, without parenthesis
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/NestedTernaryWithoutParenthesis.html
+	:og:locale: en
   It is not allowed to nest ternary operator within itself, without parenthesis. This has been implemented in PHP 7.4.
 
 The reason behind this feature is to keep the code expressive. See the Warning message for more explanations

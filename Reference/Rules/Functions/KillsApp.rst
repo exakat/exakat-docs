@@ -5,6 +5,21 @@
 Exit-like Methods
 +++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Exit-like Methods: Those methods terminate the execution.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Exit-like Methods
+	:twitter:description: Exit-like Methods: Those methods terminate the execution
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Exit-like Methods
+	:og:type: article
+	:og:description: Those methods terminate the execution
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/KillsApp.html
+	:og:locale: en
   Those methods terminate the execution. 
 
 They are detected when they do call `exit() <https://www.www.php.net/exit>`_ or `die() <https://www.php.net/die>`_. They may also be identified with the PHP 8.0 ``#[NoReturn]`` `attribute <https://www.php.net/attribute>`_, or the PHPdoc ``@noreturn`` (case insensitive).

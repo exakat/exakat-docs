@@ -5,6 +5,21 @@
 Methods That Should Not Be Used
 +++++++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Methods That Should Not Be Used: These methods and functions only throw an exception, or raise an error.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Methods That Should Not Be Used
+	:twitter:description: Methods That Should Not Be Used: These methods and functions only throw an exception, or raise an error
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Methods That Should Not Be Used
+	:og:type: article
+	:og:description: These methods and functions only throw an exception, or raise an error
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/CantUse.html
+	:og:locale: en
   These methods and functions only throw an `exception <https://www.php.net/exception>`_, or raise an `error <https://www.php.net/error>`_. As such, they are a warning that such function or method shouldn't be used. 
 Those functions could also be marked as deprecated, with an `attribute <https://www.php.net/attribute>`_ or a phpdoc. This is not taken into account by this analysis.
 

@@ -5,6 +5,21 @@
 Objects Don't Need References
 +++++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Objects Don't Need References: There is no need to add references to parameters for objects, as those are always passed by reference when used as arguments.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Objects Don't Need References
+	:twitter:description: Objects Don't Need References: There is no need to add references to parameters for objects, as those are always passed by reference when used as arguments
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Objects Don't Need References
+	:og:type: article
+	:og:description: There is no need to add references to parameters for objects, as those are always passed by reference when used as arguments
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ObjectReferences.html
+	:og:locale: en
   There is no need to add references to parameters for objects, as those are always passed by reference when used as arguments.
 
 Reference operator is needed when the object are replaced inside the method with a new value (or a clone), as whole. Calls to methods or property modifications do not require extra reference.

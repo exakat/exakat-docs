@@ -5,6 +5,21 @@
 Empty Loop
 ++++++++++
 
+.. meta\:\:
+	:description:
+		Empty Loop: This rule reports empty loop.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Empty Loop
+	:twitter:description: Empty Loop: This rule reports empty loop
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Empty Loop
+	:og:type: article
+	:og:description: This rule reports empty loop
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/EmptyLoop.html
+	:og:locale: en
   This rule reports empty loop. An empty loop has no operation in its main block. 
 
 Some empty loop may have features: they are calling methods in the condition, which may change the status of a resource. 

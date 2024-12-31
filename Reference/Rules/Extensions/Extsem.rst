@@ -5,6 +5,21 @@
 ext/sem
 +++++++
 
+.. meta\:\:
+	:description:
+		ext/sem: Extension Semaphore, Shared Memory and IPC.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: ext/sem
+	:twitter:description: ext/sem: Extension Semaphore, Shared Memory and IPC
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: ext/sem
+	:og:type: article
+	:og:description: Extension Semaphore, Shared Memory and IPC
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extsem.html
+	:og:locale: en
   Extension Semaphore, Shared Memory and IPC.
 
 This module provides wrappers for the System V IPC family of functions. It includes semaphores, shared memory and inter-process messaging (IPC).

@@ -5,6 +5,21 @@
 Undefined Trait
 +++++++++++++++
 
+.. meta\:\:
+	:description:
+		Undefined Trait: Those are undefined, traits .
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Undefined Trait
+	:twitter:description: Undefined Trait: Those are undefined, traits 
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Undefined Trait
+	:og:type: article
+	:og:description: Those are undefined, traits 
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Traits/UndefinedTrait.html
+	:og:locale: en
   Those are undefined, traits . 
 
 When the using class or trait is instantiated, PHP emits a a fatal `error <https://www.php.net/error>`_.

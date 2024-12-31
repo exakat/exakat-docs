@@ -5,6 +5,21 @@
 Too Many Finds
 ++++++++++++++
 
+.. meta\:\:
+	:description:
+		Too Many Finds: Too many methods called 'find*' in this class.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Too Many Finds
+	:twitter:description: Too Many Finds: Too many methods called 'find*' in this class
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Too Many Finds
+	:og:type: article
+	:og:description: Too many methods called 'find*' in this class
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/TooManyFinds.html
+	:og:locale: en
   Too many methods called 'find*' in this class. It is may be time to consider the `Specification pattern <https://en.wikipedia.org/wiki/Specification_pattern>`_.
 
 .. code-block:: php

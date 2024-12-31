@@ -5,6 +5,21 @@
 Makes Class Constant Definition
 +++++++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Makes Class Constant Definition: This rule adds DEFINITION link between class constant definitions and their usage.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Makes Class Constant Definition
+	:twitter:description: Makes Class Constant Definition: This rule adds DEFINITION link between class constant definitions and their usage
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Makes Class Constant Definition
+	:og:type: article
+	:og:description: This rule adds DEFINITION link between class constant definitions and their usage
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Complete/MakeClassConstantDefinition.html
+	:og:locale: en
   This rule adds DEFINITION link between class constant definitions and their usage. These links are used later to identify the values delivered by the constant.
 
 .. code-block:: php

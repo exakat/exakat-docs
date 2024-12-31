@@ -5,6 +5,21 @@
 Altering Foreach Without Reference
 ++++++++++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Altering Foreach Without Reference: Foreach() loop that could use a reference as value.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Altering Foreach Without Reference
+	:twitter:description: Altering Foreach Without Reference: Foreach() loop that could use a reference as value
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Altering Foreach Without Reference
+	:og:type: article
+	:og:description: Foreach() loop that could use a reference as value
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/AlteringForeachWithoutReference.html
+	:og:locale: en
   `Foreach() <https://www.php.net/manual/en/control-structures.foreach.php>`_ loop that could use a reference as value. 
 
 When using a foreach loop that modifies the original source, it is recommended to use referenced variables, rather than access the original value with $source[$index]. 

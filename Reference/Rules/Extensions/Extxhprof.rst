@@ -5,6 +5,21 @@
 ext/xhprof
 ++++++++++
 
+.. meta\:\:
+	:description:
+		ext/xhprof: Extension xhprof.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: ext/xhprof
+	:twitter:description: ext/xhprof: Extension xhprof
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: ext/xhprof
+	:og:type: article
+	:og:description: Extension xhprof
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extxhprof.html
+	:og:locale: en
   Extension xhprof.
 
 XHProf is a light-weight hierarchical and instrumentation based profiler.

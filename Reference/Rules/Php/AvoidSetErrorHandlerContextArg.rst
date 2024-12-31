@@ -5,6 +5,21 @@
 Avoid set_error_handler $context Argument
 +++++++++++++++++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Avoid set_error_handler $context Argument: Avoid configuring set_error_handler() with a method that accepts 5 arguments.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Avoid set_error_handler $context Argument
+	:twitter:description: Avoid set_error_handler $context Argument: Avoid configuring set_error_handler() with a method that accepts 5 arguments
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Avoid set_error_handler $context Argument
+	:og:type: article
+	:og:description: Avoid configuring set_error_handler() with a method that accepts 5 arguments
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/AvoidSetErrorHandlerContextArg.html
+	:og:locale: en
   Avoid configuring `set_error_handler() <https://www.php.net/set_error_handler>`_ with a method that accepts 5 arguments. The last argument, ``$errcontext``, is deprecated since PHP 7.2, and will be removed later.
 
 .. code-block:: php

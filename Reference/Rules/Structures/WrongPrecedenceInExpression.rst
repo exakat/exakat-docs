@@ -5,6 +5,21 @@
 Wrong Precedence In Expression
 ++++++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Wrong Precedence In Expression: These operators are not executed in the expected order.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Wrong Precedence In Expression
+	:twitter:description: Wrong Precedence In Expression: These operators are not executed in the expected order
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Wrong Precedence In Expression
+	:og:type: article
+	:og:description: These operators are not executed in the expected order
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/WrongPrecedenceInExpression.html
+	:og:locale: en
   These operators are not executed in the expected order. Coalesce and ternary operator have lesser precedence compared to comparisons or spaceship operators. 
 
 Thus, the comparison is executed first, and the other operator later. 

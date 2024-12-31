@@ -5,6 +5,21 @@
 Using Deprecated Feature
 ++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Using Deprecated Feature: Deprecated attribute marks a class, interface, trait, enumeration, function, closure, array function, parameter, as a deprecated feature.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Using Deprecated Feature
+	:twitter:description: Using Deprecated Feature: Deprecated attribute marks a class, interface, trait, enumeration, function, closure, array function, parameter, as a deprecated feature
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Using Deprecated Feature
+	:og:type: article
+	:og:description: Deprecated attribute marks a class, interface, trait, enumeration, function, closure, array function, parameter, as a deprecated feature
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Attributes/UsingDeprecated.html
+	:og:locale: en
   Deprecated `attribute <https://www.php.net/attribute>`_ marks a class, interface, trait, enumeration, function, `closure <https://www.php.net/`closure <https://www.php.net/closure>`_>`_, array function, parameter, as a deprecated feature. This rule reports usage of these structure, so they can be removed.
 
 Note that the class ` :ref:`rulesets-deprecated` ` does not need to be defined anywhere.

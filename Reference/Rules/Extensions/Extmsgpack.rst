@@ -5,6 +5,21 @@
 ext/msgpack
 +++++++++++
 
+.. meta\:\:
+	:description:
+		ext/msgpack: Extension msgPack.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: ext/msgpack
+	:twitter:description: ext/msgpack: Extension msgPack
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: ext/msgpack
+	:og:type: article
+	:og:description: Extension msgPack
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extmsgpack.html
+	:og:locale: en
   Extension msgPack.
 
 This extension provide API for handling MessagePack serialization, both encoding and decoding.

@@ -5,6 +5,21 @@
 Php 7 Indirect Expression
 +++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Php 7 Indirect Expression: This rule reports variable indirect expressions, that are interpreted differently in PHP 5 and PHP 7.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Php 7 Indirect Expression
+	:twitter:description: Php 7 Indirect Expression: This rule reports variable indirect expressions, that are interpreted differently in PHP 5 and PHP 7
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Php 7 Indirect Expression
+	:og:type: article
+	:og:description: This rule reports variable indirect expressions, that are interpreted differently in PHP 5 and PHP 7
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Variables/Php7IndirectExpression.html
+	:og:locale: en
   This rule reports variable indirect expressions, that are interpreted differently in PHP 5 and PHP 7. 
 
 They should be checked, as they will behave differently between these PHP versions.

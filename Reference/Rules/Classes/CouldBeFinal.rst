@@ -5,6 +5,21 @@
 Class Could Be Final
 ++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Class Could Be Final: Any class that has no extension should be ``final`` by default.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Class Could Be Final
+	:twitter:description: Class Could Be Final: Any class that has no extension should be ``final`` by default
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Class Could Be Final
+	:og:type: article
+	:og:description: Any class that has no extension should be ``final`` by default
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/CouldBeFinal.html
+	:og:locale: en
   Any class that has no extension should be ``final`` by default.
 
 As stated by ``Matthias Noback`` : ``If a class is not marked final, it has at least one subclass``.

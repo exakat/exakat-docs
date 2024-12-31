@@ -5,6 +5,21 @@
 Constants Names
 +++++++++++++++
 
+.. meta\:\:
+	:description:
+		Constants Names: List of PHP defined global constants in the source code.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Constants Names
+	:twitter:description: Constants Names: List of PHP defined global constants in the source code
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Constants Names
+	:og:type: article
+	:og:description: List of PHP defined global constants in the source code
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Constants/Constantnames.html
+	:og:locale: en
   List of PHP defined global constants in the source code. Constants are defined with the ``define()`` functioncall or ``const`` command. 
 
 .. code-block:: php

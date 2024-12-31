@@ -5,6 +5,21 @@
 Const Or Define
 +++++++++++++++
 
+.. meta\:\:
+	:description:
+		Const Or Define: ``const`` and ``define()`` have the same functional use : create constants.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Const Or Define
+	:twitter:description: Const Or Define: ``const`` and ``define()`` have the same functional use : create constants
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Const Or Define
+	:og:type: article
+	:og:description: ``const`` and ``define()`` have the same functional use : create constants
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ConstDefineFavorite.html
+	:og:locale: en
   ``const`` and ``define()`` have the same functional use : create constants. 
 
 The analyzed code has less than 10% of one of them : for consistency reasons, it is recommended to make them all the same. 

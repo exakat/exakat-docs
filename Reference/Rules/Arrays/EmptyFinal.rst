@@ -5,6 +5,21 @@
 Empty Final Element In Array
 ++++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Empty Final Element In Array: The array() construct allows for the empty last element.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Empty Final Element In Array
+	:twitter:description: Empty Final Element In Array: The array() construct allows for the empty last element
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Empty Final Element In Array
+	:og:type: article
+	:og:description: The array() construct allows for the empty last element
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Arrays/EmptyFinal.html
+	:og:locale: en
   The `array() <https://www.php.net/array>`_ construct allows for the empty last element. 
 
 By putting an element on each line, and adding the final comma, it is possible to reduce the size of the diff when comparing code with the previous version.

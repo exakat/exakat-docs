@@ -5,6 +5,21 @@
 Mail Usage
 ++++++++++
 
+.. meta\:\:
+	:description:
+		Mail Usage: Report usage of mail from PHP.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Mail Usage
+	:twitter:description: Mail Usage: Report usage of mail from PHP
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Mail Usage
+	:og:type: article
+	:og:description: Report usage of mail from PHP
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/MailUsage.html
+	:og:locale: en
   Report usage of mail from PHP. 
 
 The analysis is based on `mail() <https://www.php.net/mail>`_ function and various classes used to send mail.

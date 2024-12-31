@@ -5,6 +5,21 @@
 Dereferencing Levels
 ++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Dereferencing Levels: This is the counts of level of dereferencing.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Dereferencing Levels
+	:twitter:description: Dereferencing Levels: This is the counts of level of dereferencing
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Dereferencing Levels
+	:og:type: article
+	:og:description: This is the counts of level of dereferencing
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/DereferencingLevels.html
+	:og:locale: en
   This is the counts of level of dereferencing. 
 
 Every time a `->` object operator or `?->` null-safe object operator are used, this count as one level of dereferencing. 

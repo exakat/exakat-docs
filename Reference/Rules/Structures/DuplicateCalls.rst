@@ -5,6 +5,21 @@
 Duplicate Calls
 +++++++++++++++
 
+.. meta\:\:
+	:description:
+		Duplicate Calls: Duplicate calls within the same context.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Duplicate Calls
+	:twitter:description: Duplicate Calls: Duplicate calls within the same context
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Duplicate Calls
+	:og:type: article
+	:og:description: Duplicate calls within the same context
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/DuplicateCalls.html
+	:og:locale: en
   Duplicate calls within the same context. They should be called once, and then cached in a variable for reuse. 
 
 This saves a lot of time of execution and reexecution of the same code. It is a micro-optimisation in case of a simple property fetch, but it may be more costly.

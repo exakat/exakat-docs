@@ -5,6 +5,21 @@
 PHP 8.1 Typehints
 +++++++++++++++++
 
+.. meta\:\:
+	:description:
+		PHP 8.1 Typehints: A new scalar typehint was introduced : never.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: PHP 8.1 Typehints
+	:twitter:description: PHP 8.1 Typehints: A new scalar typehint was introduced : never
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: PHP 8.1 Typehints
+	:og:type: article
+	:og:description: A new scalar typehint was introduced : never
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/PHP81scalartypehints.html
+	:og:locale: en
   A new scalar typehint was introduced : never. 
 
 It can't be used before PHP 8.1, and will be confused with classes or interfaces.

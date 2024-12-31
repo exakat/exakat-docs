@@ -5,6 +5,21 @@
 Foreach Reference Is Not Modified
 +++++++++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Foreach Reference Is Not Modified: Foreach statement may loop using a reference, especially when the loop has to change values of the array it is looping on.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Foreach Reference Is Not Modified
+	:twitter:description: Foreach Reference Is Not Modified: Foreach statement may loop using a reference, especially when the loop has to change values of the array it is looping on
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Foreach Reference Is Not Modified
+	:og:type: article
+	:og:description: Foreach statement may loop using a reference, especially when the loop has to change values of the array it is looping on
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ForeachReferenceIsNotModified.html
+	:og:locale: en
   Foreach statement may loop using a reference, especially when the loop has to change values of the array it is looping on. 
 
 In the spotted loop, reference are used but never modified. They may be removed.

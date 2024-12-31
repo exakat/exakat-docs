@@ -5,6 +5,21 @@
 Static Call With Self
 +++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Static Call With Self: Avoid using a static call on a non-static method.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Static Call With Self
+	:twitter:description: Static Call With Self: Avoid using a static call on a non-static method
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Static Call With Self
+	:og:type: article
+	:og:description: Avoid using a static call on a non-static method
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Performances/StaticCallWithSelf.html
+	:og:locale: en
   Avoid using a `static <https://www.php.net/manual/en/language.oop5.static.php>`_ call on a non-`static <https://www.php.net/manual/en/language.oop5.static.php>`_ method. 
 
 PHP allows it inside the class itself. Yet, it makes the code confusing.

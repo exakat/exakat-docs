@@ -5,6 +5,21 @@
 Could Be String
 +++++++++++++++
 
+.. meta\:\:
+	:description:
+		Could Be String: Mark arguments, properties, constants and return types that can be set to ``string``.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Could Be String
+	:twitter:description: Could Be String: Mark arguments, properties, constants and return types that can be set to ``string``
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Could Be String
+	:og:type: article
+	:og:description: Mark arguments, properties, constants and return types that can be set to ``string``
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Typehints/CouldBeString.html
+	:og:locale: en
   Mark arguments, properties, constants and return types that can be set to ``string``.
 
 .. code-block:: php

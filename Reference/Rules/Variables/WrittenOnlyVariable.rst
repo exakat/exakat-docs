@@ -5,6 +5,21 @@
 Written Only Variables
 ++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Written Only Variables: Those variables are being written, but never read.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Written Only Variables
+	:twitter:description: Written Only Variables: Those variables are being written, but never read
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Written Only Variables
+	:og:type: article
+	:og:description: Those variables are being written, but never read
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Variables/WrittenOnlyVariable.html
+	:og:locale: en
   Those variables are being written, but never read. In this way, they are useless and should be removed, or be read at some point in the code.
 
 When the variables are only written, it takes time to process them, while discarding their `result <https://www.php.net/result>`_ without usage. Also, when those variables are built with a complex process, it makes it difficult to understand their point, and still create maintenance work.

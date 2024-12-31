@@ -5,6 +5,21 @@
 Alternative Syntax Consistence
 ++++++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Alternative Syntax Consistence: PHP allows for two syntax : the alternative syntax, and the classic syntax.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Alternative Syntax Consistence
+	:twitter:description: Alternative Syntax Consistence: PHP allows for two syntax : the alternative syntax, and the classic syntax
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Alternative Syntax Consistence
+	:og:type: article
+	:og:description: PHP allows for two syntax : the alternative syntax, and the classic syntax
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/AlternativeConsistenceByFile.html
+	:og:locale: en
   PHP allows for two syntax : the alternative syntax, and the classic syntax. 
 
 The classic syntax is almost always used. When used, the alternative syntax is used in templates. 

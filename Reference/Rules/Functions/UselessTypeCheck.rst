@@ -5,6 +5,21 @@
 Useless Type Check
 ++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Useless Type Check: With the type system, checking the type of arguments is handled by PHP.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Useless Type Check
+	:twitter:description: Useless Type Check: With the type system, checking the type of arguments is handled by PHP
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Useless Type Check
+	:og:type: article
+	:og:description: With the type system, checking the type of arguments is handled by PHP
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/UselessTypeCheck.html
+	:og:locale: en
   With the type system, checking the type of arguments is handled by PHP.
 
 In particular, a typed argument can't be null, unless it is explicitly nullable, or has a ``null`` value as default.

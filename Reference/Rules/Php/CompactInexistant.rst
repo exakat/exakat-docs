@@ -5,6 +5,21 @@
 Nonexistent Variable In compact()
 +++++++++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Nonexistent Variable In compact(): Compact() doesn't warn when it tries to work on an nonexistent variable.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Nonexistent Variable In compact()
+	:twitter:description: Nonexistent Variable In compact(): Compact() doesn't warn when it tries to work on an nonexistent variable
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Nonexistent Variable In compact()
+	:og:type: article
+	:og:description: Compact() doesn't warn when it tries to work on an nonexistent variable
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/CompactInexistant.html
+	:og:locale: en
   `Compact() <https://www.php.net/compact>`_ doesn't warn when it tries to work on an nonexistent variable. It just ignores the variable.
 
 This behavior changed in PHP 7.3, and `compact() <https://www.php.net/compact>`_ now emits a warning when the compacted variable doesn't exist.

@@ -5,6 +5,21 @@
 Should Typecast
 +++++++++++++++
 
+.. meta\:\:
+	:description:
+		Should Typecast: When typecasting, it is better to use the casting operator, such as ``(int)`` or ``(bool)``.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Should Typecast
+	:twitter:description: Should Typecast: When typecasting, it is better to use the casting operator, such as ``(int)`` or ``(bool)``
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Should Typecast
+	:og:type: article
+	:og:description: When typecasting, it is better to use the casting operator, such as ``(int)`` or ``(bool)``
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Type/ShouldTypecast.html
+	:og:locale: en
   When typecasting, it is better to use the casting operator, such as ``(int)`` or ``(bool)``.
 
 Functions such as `intval() <https://www.php.net/intval>`_ or `settype() <https://www.php.net/settype>`_ are always slower.

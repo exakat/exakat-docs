@@ -5,6 +5,21 @@
 Super Global Usage
 ++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Super Global Usage: Spot usage of Super global variables, such as $_GET, $_POST or $_REQUEST.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Super Global Usage
+	:twitter:description: Super Global Usage: Spot usage of Super global variables, such as $_GET, $_POST or $_REQUEST
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Super Global Usage
+	:og:type: article
+	:og:description: Spot usage of Super global variables, such as $_GET, $_POST or $_REQUEST
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/SuperGlobalUsage.html
+	:og:locale: en
   Spot usage of Super global variables, such as `$_GET <https://www.php.net/manual/en/reserved.variables.get.php>`_, `$_POST <https://www.php.net/manual/en/reserved.variables.post.php>`_ or `$_REQUEST <https://www.php.net/manual/en/reserved.variables.request.php>`_.
 
 .. code-block:: php

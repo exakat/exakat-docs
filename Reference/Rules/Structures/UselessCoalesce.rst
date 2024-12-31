@@ -5,6 +5,21 @@
 Useless Coalesce
 ++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Useless Coalesce: The .
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Useless Coalesce
+	:twitter:description: Useless Coalesce: The 
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Useless Coalesce
+	:og:type: article
+	:og:description: The 
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/UselessCoalesce.html
+	:og:locale: en
   The ?: operator needs the condition to be potentially empty. This means that the type should have the possibility to be null, false, 0, or any of the empty values.
 
 .. code-block:: php

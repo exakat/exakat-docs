@@ -5,6 +5,21 @@
 Directly Use File
 +++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Directly Use File: Some PHP functions have a close cousin that work directly on files.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Directly Use File
+	:twitter:description: Directly Use File: Some PHP functions have a close cousin that work directly on files
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Directly Use File
+	:og:type: article
+	:og:description: Some PHP functions have a close cousin that work directly on files
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/DirectlyUseFile.html
+	:og:locale: en
   Some PHP functions have a close cousin that work directly on files. This is faster and less code to write.
 
 * `md5() <https://www.php.net/md5>`_ => `md5_file() <https://www.php.net/md5_file>`_

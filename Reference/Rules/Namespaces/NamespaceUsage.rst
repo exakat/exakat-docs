@@ -5,6 +5,21 @@
 Namespaces
 ++++++++++
 
+.. meta\:\:
+	:description:
+		Namespaces: Inventory of all namespaces.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Namespaces
+	:twitter:description: Namespaces: Inventory of all namespaces
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Namespaces
+	:og:type: article
+	:og:description: Inventory of all namespaces
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Namespaces/NamespaceUsage.html
+	:og:locale: en
   Inventory of all namespaces.
 
 .. code-block:: php

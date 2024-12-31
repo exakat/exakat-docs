@@ -5,6 +5,21 @@
 Closure Could Be A Callback
 +++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Closure Could Be A Callback: Closure and arrow function may be simplified to a callback.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Closure Could Be A Callback
+	:twitter:description: Closure Could Be A Callback: Closure and arrow function may be simplified to a callback
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Closure Could Be A Callback
+	:og:type: article
+	:og:description: Closure and arrow function may be simplified to a callback
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/Closure2String.html
+	:og:locale: en
   `Closure <https://www.php.net/manual/en/class.`closure <https://www.php.net/closure>`_.php>`_ and arrow function may be simplified to a callback. Callbacks are strings or arrays.
 
 A simple `closure <https://www.php.net/`closure <https://www.php.net/closure>`_>`_ that only returns arguments relayed to another function or method, could be reduced to a simpler expression.  

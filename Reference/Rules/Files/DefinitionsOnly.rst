@@ -5,6 +5,21 @@
 Definitions Only
 ++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Definitions Only: File is definition only.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Definitions Only
+	:twitter:description: Definitions Only: File is definition only
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Definitions Only
+	:og:type: article
+	:og:description: File is definition only
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Files/DefinitionsOnly.html
+	:og:locale: en
   File is definition only.
 
 Definition-only files only include structure definitions : class, functions, traits, interfaces, constants, global, declare(), use and include().

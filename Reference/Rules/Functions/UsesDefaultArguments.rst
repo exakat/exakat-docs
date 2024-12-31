@@ -5,6 +5,21 @@
 Uses Default Values
 +++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Uses Default Values: Default values are provided to methods so as to make it convenient to use.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Uses Default Values
+	:twitter:description: Uses Default Values: Default values are provided to methods so as to make it convenient to use
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Uses Default Values
+	:og:type: article
+	:og:description: Default values are provided to methods so as to make it convenient to use
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/UsesDefaultArguments.html
+	:og:locale: en
   Default values are provided to methods so as to make it convenient to use. However, with new versions, those values may change. For example, in PHP 5.4, `htmlentities() <https://www.php.net/htmlentities>`_ switched from ``Latin1`` to ``UTF-8`` default encoding.
 As much as possible, it is recommended to use explicit values in those methods, so as to prevent from being surprise at a future PHP evolution. 
 

@@ -5,6 +5,21 @@
 Constants Usage
 +++++++++++++++
 
+.. meta\:\:
+	:description:
+		Constants Usage: List of constants in use in the source code.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Constants Usage
+	:twitter:description: Constants Usage: List of constants in use in the source code
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Constants Usage
+	:og:type: article
+	:og:description: List of constants in use in the source code
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Constants/ConstantUsage.html
+	:og:locale: en
   List of constants in use in the source code. Constants are `T_STRING <https://www.php.net/T_STRING>`_, localised in specific part of the code. 
 
 For example, they can't be followed by a parenthesis, as this is a function call; nor preceded by a ``new`` operator, as this is an object instantiation. 

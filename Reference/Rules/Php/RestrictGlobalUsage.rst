@@ -5,6 +5,21 @@
 Restrict Global Usage
 +++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Restrict Global Usage: $GLOBALS access, as whole, is forbidden.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Restrict Global Usage
+	:twitter:description: Restrict Global Usage: $GLOBALS access, as whole, is forbidden
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Restrict Global Usage
+	:og:type: article
+	:og:description: $GLOBALS access, as whole, is forbidden
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/RestrictGlobalUsage.html
+	:og:locale: en
   $GLOBALS access, as whole, is forbidden. In PHP 8.1, it is not possible to this as a variable, but only access its individual values.
 
 .. code-block:: php

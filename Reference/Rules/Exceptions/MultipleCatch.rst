@@ -5,6 +5,21 @@
 Multiple Exceptions Catch()
 +++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Multiple Exceptions Catch(): It is possible to have several distinct exceptions class caught by the same catch, preventing code repetition.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Multiple Exceptions Catch()
+	:twitter:description: Multiple Exceptions Catch(): It is possible to have several distinct exceptions class caught by the same catch, preventing code repetition
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Multiple Exceptions Catch()
+	:og:type: article
+	:og:description: It is possible to have several distinct exceptions class caught by the same catch, preventing code repetition
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Exceptions/MultipleCatch.html
+	:og:locale: en
   It is possible to have several distinct exceptions class caught by the same catch, preventing code repetition. 
 
 This is a new feature since PHP 7.1.

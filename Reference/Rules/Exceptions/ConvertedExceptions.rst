@@ -5,6 +5,21 @@
 Converted Exceptions
 ++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Converted Exceptions: Converted exceptions is when an exception is caught, then immediately converted into another one and thrown again.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Converted Exceptions
+	:twitter:description: Converted Exceptions: Converted exceptions is when an exception is caught, then immediately converted into another one and thrown again
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Converted Exceptions
+	:og:type: article
+	:og:description: Converted exceptions is when an exception is caught, then immediately converted into another one and thrown again
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Exceptions/ConvertedExceptions.html
+	:og:locale: en
   Converted exceptions is when an `exception <https://www.php.net/exception>`_ is caught, then immediately converted into another one and thrown again.
 
 Sometimes, extra operations take place, such as logging or `error <https://www.php.net/error>`_ couting.

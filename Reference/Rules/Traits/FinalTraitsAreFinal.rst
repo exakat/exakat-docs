@@ -5,6 +5,21 @@
 Final Traits Are Final
 ++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Final Traits Are Final: A final method in a trait is also final when in its importing class.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Final Traits Are Final
+	:twitter:description: Final Traits Are Final: A final method in a trait is also final when in its importing class
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Final Traits Are Final
+	:og:type: article
+	:og:description: A final method in a trait is also final when in its importing class
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Traits/FinalTraitsAreFinal.html
+	:og:locale: en
   A final method in a trait is also final when in its importing class. This means that the importing class may redefine it, but not the children.
 
 .. code-block:: php

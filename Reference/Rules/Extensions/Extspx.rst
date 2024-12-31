@@ -5,6 +5,21 @@
 ext/spx
 +++++++
 
+.. meta\:\:
+	:description:
+		ext/spx: SPX, which stands for Simple Profiling eXtension, is just another profiling extension for PHP.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: ext/spx
+	:twitter:description: ext/spx: SPX, which stands for Simple Profiling eXtension, is just another profiling extension for PHP
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: ext/spx
+	:og:type: article
+	:og:description: SPX, which stands for Simple Profiling eXtension, is just another profiling extension for PHP
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extspx.html
+	:og:locale: en
   SPX, which stands for Simple Profiling eXtension, is just another profiling extension for PHP.
 
 .. code-block:: php

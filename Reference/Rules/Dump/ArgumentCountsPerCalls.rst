@@ -5,6 +5,21 @@
 Argument Counts Per Calls
 +++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Argument Counts Per Calls: Collects the number of arguments passed to PHP functions.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Argument Counts Per Calls
+	:twitter:description: Argument Counts Per Calls: Collects the number of arguments passed to PHP functions
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Argument Counts Per Calls
+	:og:type: article
+	:og:description: Collects the number of arguments passed to PHP functions
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/ArgumentCountsPerCalls.html
+	:og:locale: en
   Collects the number of arguments passed to PHP functions. 
 
 This is focused on PHP native functions, with optional characters.

@@ -5,6 +5,21 @@
 ext/lua
 +++++++
 
+.. meta\:\:
+	:description:
+		ext/lua: Extension Lua.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: ext/lua
+	:twitter:description: ext/lua: Extension Lua
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: ext/lua
+	:og:type: article
+	:og:description: Extension Lua
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extlua.html
+	:og:locale: en
   Extension Lua.
 
 'Lua is a powerful, fast, light-weight, embeddable scripting language.' This extension embeds the lua interpreter and offers an OO-API to lua variables and functions.

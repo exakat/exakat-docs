@@ -5,6 +5,21 @@
 Could Type With Array
 +++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Could Type With Array: That argument may be typed with ``array``.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Could Type With Array
+	:twitter:description: Could Type With Array: That argument may be typed with ``array``
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Could Type With Array
+	:og:type: article
+	:og:description: That argument may be typed with ``array``
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/CouldTypeWithArray.html
+	:og:locale: en
   That argument may be typed with ``array``. Based on usage, it was determined that the only type possible is a array.
 
 .. code-block:: php

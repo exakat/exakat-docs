@@ -5,6 +5,21 @@
 Malformed Octal
 +++++++++++++++
 
+.. meta\:\:
+	:description:
+		Malformed Octal: Those numbers starts with a 0, so they are using the PHP octal convention.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Malformed Octal
+	:twitter:description: Malformed Octal: Those numbers starts with a 0, so they are using the PHP octal convention
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Malformed Octal
+	:og:type: article
+	:og:description: Those numbers starts with a 0, so they are using the PHP octal convention
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Type/MalformedOctal.html
+	:og:locale: en
   Those numbers starts with a 0, so they are using the PHP octal convention. Therefore, one can't use 8 or 9 figures in those numbers, as they don't belong to the octal base. The resulting number will be truncated at the first erroneous figure. For example, 090 is actually 0, and 02689 is actually 22. 
 Also, note that very large octal, usually with more than 21 figures, will be turned into a real number and undergo a reduction in precision.
 

@@ -5,6 +5,21 @@
 Closure May Use $this
 +++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Closure May Use $this: $this is automatically accessible to closures.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Closure May Use $this
+	:twitter:description: Closure May Use $this: $this is automatically accessible to closures
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Closure May Use $this
+	:og:type: article
+	:og:description: $this is automatically accessible to closures
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/ClosureThisSupport.html
+	:og:locale: en
   `$this <https://www.php.net/manual/en/language.oop5.basic.php>`_ is automatically accessible to closures.
 
 When closures were introduced in PHP, they couldn't use the `$this <https://www.php.net/manual/en/language.oop5.basic.php>`_ variable, making is cumbersome to access local properties when the `closure <https://www.php.net/`closure <https://www.php.net/closure>`_>`_ was created within an object. 
@@ -56,7 +71,7 @@ _____
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------+
 | Time To Fix      | Quick (30 mins)                                                                                                                      |
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------+
-| Changed Behavior | PHP 5.4 - `More <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/.html>`__                                           |
+| Changed Behavior | PHP 5.4                                                                                                                              |
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------+
 | Precision        | Very high                                                                                                                            |
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------+

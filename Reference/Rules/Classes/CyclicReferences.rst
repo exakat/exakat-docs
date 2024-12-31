@@ -5,6 +5,21 @@
 Cyclic References
 +++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Cyclic References: Avoid cyclic references.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Cyclic References
+	:twitter:description: Cyclic References: Avoid cyclic references
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Cyclic References
+	:og:type: article
+	:og:description: Avoid cyclic references
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/CyclicReferences.html
+	:og:locale: en
   Avoid cyclic references. 
 
 Cyclic references happen when an object points to another object, which reciprocate. This is particularly possible with classes, when the child class has to keep a reference to the `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ class. 

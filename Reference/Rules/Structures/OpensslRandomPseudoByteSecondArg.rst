@@ -5,6 +5,21 @@
 openssl_random_pseudo_byte() Second Argument
 ++++++++++++++++++++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		openssl_random_pseudo_byte() Second Argument: openssl_random_pseudo_byte() uses exceptions to signal an error.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: openssl_random_pseudo_byte() Second Argument
+	:twitter:description: openssl_random_pseudo_byte() Second Argument: openssl_random_pseudo_byte() uses exceptions to signal an error
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: openssl_random_pseudo_byte() Second Argument
+	:og:type: article
+	:og:description: openssl_random_pseudo_byte() uses exceptions to signal an error
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/OpensslRandomPseudoByteSecondArg.html
+	:og:locale: en
   openssl_random_pseudo_byte() uses exceptions to signal an `error <https://www.php.net/error>`_. Since PHP 7.4, there is no need to use the second argument.
 
 On the other hand, it is important to catch the `exception <https://www.php.net/exception>`_ that openssl_random_pseudo_byte() may emit.

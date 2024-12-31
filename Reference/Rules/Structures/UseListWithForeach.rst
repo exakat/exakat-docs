@@ -5,6 +5,21 @@
 Use List With Foreach
 +++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Use List With Foreach: Foreach() structures accepts list() as blind key.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Use List With Foreach
+	:twitter:description: Use List With Foreach: Foreach() structures accepts list() as blind key
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Use List With Foreach
+	:og:type: article
+	:og:description: Foreach() structures accepts list() as blind key
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/UseListWithForeach.html
+	:og:locale: en
   `Foreach() <https://www.php.net/manual/en/control-structures.foreach.php>`_ structures accepts `list() <https://www.php.net/list>`_ as blind key. If the loop-value is an array with a fixed structure, it is possible to extract the values directly into variables with explicit names.
 
 .. code-block:: php

@@ -5,6 +5,21 @@
 Unused Public Methods
 +++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Unused Public Methods: This rule lists unused public methods.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Unused Public Methods
+	:twitter:description: Unused Public Methods: This rule lists unused public methods
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Unused Public Methods
+	:og:type: article
+	:og:description: This rule lists unused public methods
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/UnusedPublicMethod.html
+	:og:locale: en
   This rule lists unused public methods. 
 
 Unused public methods are declared as ``public`` in the class, but never called, including outside the class.

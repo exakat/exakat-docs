@@ -5,6 +5,21 @@
 ext/session
 +++++++++++
 
+.. meta\:\:
+	:description:
+		ext/session: Extension ext/session.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: ext/session
+	:twitter:description: ext/session: Extension ext/session
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: ext/session
+	:og:type: article
+	:og:description: Extension ext/session
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extsession.html
+	:og:locale: en
   Extension ext/session.
 
 Session support in PHP consists of a way to preserve certain data across subsequent accesses.

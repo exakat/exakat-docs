@@ -5,6 +5,21 @@
 Undefined Class Constants
 +++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Undefined Class Constants: Class constants that are used, but never defined.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Undefined Class Constants
+	:twitter:description: Undefined Class Constants: Class constants that are used, but never defined
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Undefined Class Constants
+	:og:type: article
+	:og:description: Class constants that are used, but never defined
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/UndefinedConstants.html
+	:og:locale: en
   Class constants that are used, but never defined. This yield a fatal `error <https://www.php.net/error>`_ upon execution, but no feedback at compile level.
 
 This analysis takes into account native PHP class constants, extensions and stubs. It also disambiguate enumeration cases. 

@@ -5,6 +5,21 @@
 Property Used Below
 +++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Property Used Below: This rule marks properties that are used in children classes.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Property Used Below
+	:twitter:description: Property Used Below: This rule marks properties that are used in children classes
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Property Used Below
+	:og:type: article
+	:og:description: This rule marks properties that are used in children classes
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/PropertyUsedBelow.html
+	:og:locale: en
   This rule marks properties that are used in children classes.
 
 This analysis doesn't mark the current class, nor the `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ or grand `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ classes.

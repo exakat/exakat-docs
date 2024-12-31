@@ -5,6 +5,21 @@
 ext/ob
 ++++++
 
+.. meta\:\:
+	:description:
+		ext/ob: Extension Output Buffering Control.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: ext/ob
+	:twitter:description: ext/ob: Extension Output Buffering Control
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: ext/ob
+	:og:type: article
+	:og:description: Extension Output Buffering Control
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extob.html
+	:og:locale: en
   Extension Output Buffering Control.
 
 The Output Control functions allow you to control when output is sent from the script.

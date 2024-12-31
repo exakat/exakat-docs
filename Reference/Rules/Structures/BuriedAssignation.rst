@@ -5,6 +5,21 @@
 Buried Assignation
 ++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Buried Assignation: Those assignations are buried in the code, and placed in unexpected situations.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Buried Assignation
+	:twitter:description: Buried Assignation: Those assignations are buried in the code, and placed in unexpected situations
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Buried Assignation
+	:og:type: article
+	:og:description: Those assignations are buried in the code, and placed in unexpected situations
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/BuriedAssignation.html
+	:og:locale: en
   Those assignations are buried in the code, and placed in unexpected situations. 
 
 They are difficult to spot, and may be confusing. It is advised to place them in a more visible place.

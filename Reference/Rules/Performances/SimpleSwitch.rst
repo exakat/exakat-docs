@@ -5,6 +5,21 @@
 Simple Switch And Match
 +++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Simple Switch And Match: Switch() and match() are faster when relying only on literal integers or strings.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Simple Switch And Match
+	:twitter:description: Simple Switch And Match: Switch() and match() are faster when relying only on literal integers or strings
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Simple Switch And Match
+	:og:type: article
+	:og:description: Switch() and match() are faster when relying only on literal integers or strings
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Performances/SimpleSwitch.html
+	:og:locale: en
   `Switch() <https://www.php.net/manual/en/control-structures.switch.php>`_ and `match() <https://www.php.net/manual/en/control-structures.match.php>`_ are faster when relying only on literal integers or strings.
 
 Since PHP 7.2, simple switches, that use only literal strings or integers, are optimized. The bigger the switch, the greater the gain.

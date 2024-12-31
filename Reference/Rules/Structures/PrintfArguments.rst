@@ -5,6 +5,21 @@
 Printf Number Of Arguments
 ++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Printf Number Of Arguments: The number of arguments provided to printf(), vprintf() and vsprintf() doesn't match the format string.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Printf Number Of Arguments
+	:twitter:description: Printf Number Of Arguments: The number of arguments provided to printf(), vprintf() and vsprintf() doesn't match the format string
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Printf Number Of Arguments
+	:og:type: article
+	:og:description: The number of arguments provided to printf(), vprintf() and vsprintf() doesn't match the format string
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/PrintfArguments.html
+	:og:locale: en
   The number of arguments provided to `printf() <https://www.php.net/printf>`_, `vprintf() <https://www.php.net/vprintf>`_ and `vsprintf() <https://www.php.net/vsprintf>`_ doesn't match the format string.
 
 Extra arguments are ignored, and are dead code as such. Missing arguments are reported with a warning, and nothing is displayed.

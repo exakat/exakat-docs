@@ -5,6 +5,21 @@
 Use Same Types For Comparisons
 ++++++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Use Same Types For Comparisons: Beware when using inequality operators that the type of the values are the same on both sites of the operators.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Use Same Types For Comparisons
+	:twitter:description: Use Same Types For Comparisons: Beware when using inequality operators that the type of the values are the same on both sites of the operators
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Use Same Types For Comparisons
+	:og:type: article
+	:og:description: Beware when using inequality operators that the type of the values are the same on both sites of the operators
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/UseSameTypesForComparisons.html
+	:og:locale: en
   Beware when using inequality operators that the type of the values are the same on both sites of the operators.
 
 Different types may lead to PHP type juggling, where the values are first cast to one of the used types. Other comparisons are always failing, leading to unexpected behavior.

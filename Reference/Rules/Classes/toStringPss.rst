@@ -5,6 +5,21 @@
 Magic Visibility
 ++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Magic Visibility: Magic methods must be declared with public visibility.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Magic Visibility
+	:twitter:description: Magic Visibility: Magic methods must be declared with public visibility
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Magic Visibility
+	:og:type: article
+	:og:description: Magic methods must be declared with public visibility
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/toStringPss.html
+	:og:locale: en
   Magic methods must be declared with public visibility. They cannot be private or protected.
 
 Magic methods cannot be declared as `static <https://www.php.net/manual/en/language.oop5.static.php>`_. They are always associated with an instance of a class and cannot be called statically.

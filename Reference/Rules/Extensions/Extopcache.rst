@@ -5,6 +5,21 @@
 ext/opcache
 +++++++++++
 
+.. meta\:\:
+	:description:
+		ext/opcache: Extension opcache.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: ext/opcache
+	:twitter:description: ext/opcache: Extension opcache
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: ext/opcache
+	:og:type: article
+	:og:description: Extension opcache
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extopcache.html
+	:og:locale: en
   Extension opcache.
 
 OPcache improves PHP performance by storing precompiled script bytecode in shared memory, thereby removing the need for PHP to load and parse scripts on each request.

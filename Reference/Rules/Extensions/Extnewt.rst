@@ -5,6 +5,21 @@
 ext/newt
 ++++++++
 
+.. meta\:\:
+	:description:
+		ext/newt: Newt PHP CLI extension.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: ext/newt
+	:twitter:description: ext/newt: Newt PHP CLI extension
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: ext/newt
+	:og:type: article
+	:og:description: Newt PHP CLI extension
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extnewt.html
+	:og:locale: en
   Newt PHP CLI extension.
 
 This is a PHP language extension for RedHat Newt library, a terminal-based window and widget library for writing applications with user friendly interface.

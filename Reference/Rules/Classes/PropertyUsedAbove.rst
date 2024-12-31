@@ -5,6 +5,21 @@
 Property Used Above
 +++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Property Used Above: Property used in the parent classes.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Property Used Above
+	:twitter:description: Property Used Above: Property used in the parent classes
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Property Used Above
+	:og:type: article
+	:og:description: Property used in the parent classes
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/PropertyUsedAbove.html
+	:og:locale: en
   Property used in the `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ classes. If the definition of the property is in the child class, then the `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ should not know about it and make usage of it.
 
 It may also be used in the current class, or its children, though this is not reported by this analyzer.

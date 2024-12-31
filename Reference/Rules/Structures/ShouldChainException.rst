@@ -5,6 +5,21 @@
 Should Chain Exception
 ++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Should Chain Exception: Chain exception to provide more context.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Should Chain Exception
+	:twitter:description: Should Chain Exception: Chain exception to provide more context
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Should Chain Exception
+	:og:type: article
+	:og:description: Chain exception to provide more context
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ShouldChainException.html
+	:og:locale: en
   Chain `exception <https://www.php.net/exception>`_ to provide more context.
 
 When catching an `exception <https://www.php.net/exception>`_ and rethrowing another one, it is recommended to chain the `exception <https://www.php.net/exception>`_ : this means providing the original `exception <https://www.php.net/exception>`_, so that the final recipient has a chance to track the origin of the problem. This doesn't change the thrown message, but provides more information.

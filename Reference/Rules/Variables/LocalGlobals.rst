@@ -5,6 +5,21 @@
 Local Globals
 +++++++++++++
 
+.. meta\:\:
+	:description:
+		Local Globals: A global variable is used locally in a method.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Local Globals
+	:twitter:description: Local Globals: A global variable is used locally in a method
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Local Globals
+	:og:type: article
+	:og:description: A global variable is used locally in a method
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Variables/LocalGlobals.html
+	:og:locale: en
   A global variable is used locally in a method. 
 
 Either the global keyword has been forgotten, or the local variable should be renamed in a less ambiguous manner.

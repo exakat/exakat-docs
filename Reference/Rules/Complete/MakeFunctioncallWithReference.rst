@@ -5,6 +5,21 @@
 Make Functioncall With Reference
 ++++++++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Make Functioncall With Reference: Mark parameters as ``isModified`` if the functioncall uses reference.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Make Functioncall With Reference
+	:twitter:description: Make Functioncall With Reference: Mark parameters as ``isModified`` if the functioncall uses reference
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Make Functioncall With Reference
+	:og:type: article
+	:og:description: Mark parameters as ``isModified`` if the functioncall uses reference
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Complete/MakeFunctioncallWithReference.html
+	:og:locale: en
   Mark parameters as ``isModified`` if the functioncall uses reference.
 
 This works on PHP native functions and custom functions.

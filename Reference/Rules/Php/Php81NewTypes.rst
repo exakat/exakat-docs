@@ -5,6 +5,21 @@
 PHP 8.1 New Types
 +++++++++++++++++
 
+.. meta\:\:
+	:description:
+		PHP 8.1 New Types: This rule reports usage of the new PHP 8.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: PHP 8.1 New Types
+	:twitter:description: PHP 8.1 New Types: This rule reports usage of the new PHP 8
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: PHP 8.1 New Types
+	:og:type: article
+	:og:description: This rule reports usage of the new PHP 8
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/Php81NewTypes.html
+	:og:locale: en
   This rule reports usage of the new PHP 8.1 type. This is the `never` type.
 
 This type is only available in return types in methods. This type is not available before version 8.1: as it was not a reserved keyword, it might be used with a class.

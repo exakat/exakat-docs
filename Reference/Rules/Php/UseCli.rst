@@ -5,6 +5,21 @@
 Use Cli
 +++++++
 
+.. meta\:\:
+	:description:
+		Use Cli: Signal the usage of code in CLI mode, through the usage of ``$argv`` and ``$argc`` variables, or the getopt() function.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Use Cli
+	:twitter:description: Use Cli: Signal the usage of code in CLI mode, through the usage of ``$argv`` and ``$argc`` variables, or the getopt() function
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Use Cli
+	:og:type: article
+	:og:description: Signal the usage of code in CLI mode, through the usage of ``$argv`` and ``$argc`` variables, or the getopt() function
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/UseCli.html
+	:og:locale: en
   Signal the usage of code in CLI mode, through the usage of ``$argv`` and ``$argc`` variables, or the `getopt() <https://www.php.net/getopt>`_ function.
 
 .. code-block:: php

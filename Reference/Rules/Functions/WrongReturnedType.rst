@@ -5,6 +5,21 @@
 Wrong Type Returned
 +++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Wrong Type Returned: The returned value is not compatible with the specified return type.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Wrong Type Returned
+	:twitter:description: Wrong Type Returned: The returned value is not compatible with the specified return type
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Wrong Type Returned
+	:og:type: article
+	:og:description: The returned value is not compatible with the specified return type
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/WrongReturnedType.html
+	:og:locale: en
   The returned value is not compatible with the specified return type.
 
 .. code-block:: php

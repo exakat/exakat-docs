@@ -5,6 +5,21 @@
 Set Parent Definition
 +++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Set Parent Definition: This command creates a DEFINITION link between `parent` keyword and the actual parent class.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Set Parent Definition
+	:twitter:description: Set Parent Definition: This command creates a DEFINITION link between `parent` keyword and the actual parent class
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Set Parent Definition
+	:og:type: article
+	:og:description: This command creates a DEFINITION link between `parent` keyword and the actual parent class
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Complete/SetParentDefinition.html
+	:og:locale: en
   This command creates a DEFINITION link between `parent` keyword and the actual `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ class.
 
 .. code-block:: php

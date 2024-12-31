@@ -5,6 +5,21 @@
 Dynamic Methodcall
 ++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Dynamic Methodcall: Dynamic calls to class methods.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Dynamic Methodcall
+	:twitter:description: Dynamic Methodcall: Dynamic calls to class methods
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Dynamic Methodcall
+	:og:type: article
+	:og:description: Dynamic calls to class methods
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/DynamicMethodCall.html
+	:og:locale: en
   Dynamic calls to class methods.
 
 .. code-block:: php

@@ -5,6 +5,21 @@
 Pack Format Inventory
 +++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Pack Format Inventory: All format used in the code with pack() and unpack().
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Pack Format Inventory
+	:twitter:description: Pack Format Inventory: All format used in the code with pack() and unpack()
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Pack Format Inventory
+	:og:type: article
+	:og:description: All format used in the code with pack() and unpack()
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Type/Pack.html
+	:og:locale: en
   All format used in the code with `pack() <https://www.php.net/pack>`_ and `unpack() <https://www.php.net/unpack>`_.
 
 .. code-block:: php
@@ -22,7 +37,7 @@ See also `pack() <https://www.php.net/pack>`_.
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Type+z%3A+unknown+format+code.html>`_
+  + `Type z: unknown format code <https://php-errors.readthedocs.io/en/latest/messages/type-%25c%3A-unknown-format-code.html>`_
 
 
 

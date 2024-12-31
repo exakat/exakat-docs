@@ -5,6 +5,21 @@
 preg_replace With Option e
 ++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		preg_replace With Option e: preg_replace() supported the /e option until PHP 7.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: preg_replace With Option e
+	:twitter:description: preg_replace With Option e: preg_replace() supported the /e option until PHP 7
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: preg_replace With Option e
+	:og:type: article
+	:og:description: preg_replace() supported the /e option until PHP 7
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/pregOptionE.html
+	:og:locale: en
   `preg_replace() <https://www.php.net/preg_replace>`_ supported the /e option until PHP 7.0. It allowed the use of eval()'ed expression as replacement. This has been dropped in PHP 7.0, for security reasons.
 
 `preg_replace() <https://www.php.net/preg_replace>`_ with /e option may be replaced with `preg_replace_callback() <https://www.php.net/preg_replace_callback>`_ and a `closure <https://www.php.net/`closure <https://www.php.net/closure>`_>`_, or `preg_replace_callback_array() <https://www.php.net/preg_replace_callback_array>`_ and an array of closures.

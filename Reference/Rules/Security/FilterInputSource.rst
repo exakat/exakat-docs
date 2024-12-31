@@ -5,6 +5,21 @@
 filter_input() As A Source
 ++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		filter_input() As A Source: The filter_input() and filter_input_array() functions access directly to ``$_GET``.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: filter_input() As A Source
+	:twitter:description: filter_input() As A Source: The filter_input() and filter_input_array() functions access directly to ``$_GET``
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: filter_input() As A Source
+	:og:type: article
+	:og:description: The filter_input() and filter_input_array() functions access directly to ``$_GET``
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Security/FilterInputSource.html
+	:og:locale: en
   The `filter_input() <https://www.php.net/filter_input>`_ and `filter_input_array() <https://www.php.net/filter_input_array>`_ functions access directly to ``$_GET``. They represent a source for external data just like ``$_GET``, ``$_POST``, etc.
 
 The main feature of `filter_input() <https://www.php.net/filter_input>`_ is that it is already filtered. The main drawback is that ``FILTER_FLAG_NONE`` is the ``none`` filter, and that default configuration is `FILTER_UNSAFE_RAW`.

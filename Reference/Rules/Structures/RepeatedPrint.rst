@@ -5,6 +5,21 @@
 Repeated print()
 ++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Repeated print(): Merge several print or echo in one call, to speed up the processing.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Repeated print()
+	:twitter:description: Repeated print(): Merge several print or echo in one call, to speed up the processing
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Repeated print()
+	:og:type: article
+	:og:description: Merge several print or echo in one call, to speed up the processing
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/RepeatedPrint.html
+	:og:locale: en
   Merge several print or echo in one call, to speed up the processing.
 
 It is recommended to use echo with multiple arguments, or a concatenation with print, instead of multiple calls to print echo, when outputting several blob of text.

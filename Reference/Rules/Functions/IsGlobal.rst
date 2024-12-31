@@ -5,6 +5,21 @@
 Functioncall Is Global
 ++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Functioncall Is Global: Marks a functioncall when it is from the global scope.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Functioncall Is Global
+	:twitter:description: Functioncall Is Global: Marks a functioncall when it is from the global scope
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Functioncall Is Global
+	:og:type: article
+	:og:description: Marks a functioncall when it is from the global scope
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/IsGlobal.html
+	:og:locale: en
   Marks a functioncall when it is from the global scope. It is not located in another function, class or trait.
 
 .. code-block:: php

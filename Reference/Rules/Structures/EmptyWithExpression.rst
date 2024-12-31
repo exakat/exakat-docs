@@ -5,6 +5,21 @@
 Empty With Expression
 +++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Empty With Expression: empty() doesn't accept expressions until PHP 5.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Empty With Expression
+	:twitter:description: Empty With Expression: empty() doesn't accept expressions until PHP 5
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Empty With Expression
+	:og:type: article
+	:og:description: empty() doesn't accept expressions until PHP 5
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/EmptyWithExpression.html
+	:og:locale: en
   empty() doesn't accept expressions until PHP 5.5. Until then, it is necessary to store the `result <https://www.php.net/result>`_ of the expression in a variable and then, test it with empty().
 
 .. code-block:: php
@@ -56,7 +71,7 @@ _____
 +------------------+-------------------------------------------------------------------------------------------------------------------------+
 | Time To Fix      | Quick (30 mins)                                                                                                         |
 +------------------+-------------------------------------------------------------------------------------------------------------------------+
-| Changed Behavior | PHP 5.5 - `More <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/.html>`__                              |
+| Changed Behavior | PHP 5.5                                                                                                                 |
 +------------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision        | Very high                                                                                                               |
 +------------------+-------------------------------------------------------------------------------------------------------------------------+

@@ -5,6 +5,21 @@
 ** For Exponent
 +++++++++++++++
 
+.. meta\:\:
+	:description:
+		** For Exponent: The operator ``**`` calculates exponents, also known as power.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: ** For Exponent
+	:twitter:description: ** For Exponent: The operator ``**`` calculates exponents, also known as power
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: ** For Exponent
+	:og:type: article
+	:og:description: The operator ``**`` calculates exponents, also known as power
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/NewExponent.html
+	:og:locale: en
   The operator ``**`` calculates exponents, also known as power. 
 
 Use it instead of the slower function `pow() <https://www.php.net/pow>`_. This operator was introduced in PHP 5.6.

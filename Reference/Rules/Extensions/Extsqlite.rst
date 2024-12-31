@@ -5,6 +5,21 @@
 ext/sqlite
 ++++++++++
 
+.. meta\:\:
+	:description:
+		ext/sqlite: Extension Sqlite 2.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: ext/sqlite
+	:twitter:description: ext/sqlite: Extension Sqlite 2
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: ext/sqlite
+	:og:type: article
+	:og:description: Extension Sqlite 2
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extsqlite.html
+	:og:locale: en
   Extension Sqlite 2.
 
 Support for SQLite version 2 databases. The support for this version of Sqlite has ended. It is recommended to use ``SQLite3``.

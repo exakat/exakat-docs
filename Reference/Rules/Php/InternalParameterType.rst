@@ -5,6 +5,21 @@
 Wrong Parameter Type
 ++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Wrong Parameter Type: The expected parameter is not of the correct type.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Wrong Parameter Type
+	:twitter:description: Wrong Parameter Type: The expected parameter is not of the correct type
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Wrong Parameter Type
+	:og:type: article
+	:og:description: The expected parameter is not of the correct type
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/InternalParameterType.html
+	:og:locale: en
   The expected parameter is not of the correct type. Check PHP documentation to know which is the right format to be used.
 
 .. code-block:: php

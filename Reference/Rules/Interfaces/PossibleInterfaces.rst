@@ -5,6 +5,21 @@
 Possible Interfaces
 +++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Possible Interfaces: This analyzer lists classes that may be a base to create interfaces.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Possible Interfaces
+	:twitter:description: Possible Interfaces: This analyzer lists classes that may be a base to create interfaces
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Possible Interfaces
+	:og:type: article
+	:og:description: This analyzer lists classes that may be a base to create interfaces
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Interfaces/PossibleInterfaces.html
+	:og:locale: en
   This analyzer lists classes that may be a base to create interfaces. 
 
 Currently, classes with more than 1 defined method are used to identify possible interfaces. An interfaces are considered when at least 2 methods are common in 3 classes.

@@ -5,6 +5,21 @@
 Unreachable Code
 ++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Unreachable Code: Code may be unreachable, because other instructions prevent its reaching.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Unreachable Code
+	:twitter:description: Unreachable Code: Code may be unreachable, because other instructions prevent its reaching
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Unreachable Code
+	:og:type: article
+	:og:description: Code may be unreachable, because other instructions prevent its reaching
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/UnreachableCode.html
+	:og:locale: en
   Code may be unreachable, because other instructions prevent its reaching. 
 
 For example, it be located after throw, return, `exit() <https://www.www.php.net/exit>`_, `die() <https://www.php.net/die>`_, goto, `break <https://www.php.net/manual/en/control-structures.break.php>`_ or `continue <https://www.php.net/manual/en/control-structures.continue.php>`_ : this way, it cannot be reached, as the previous instruction will divert the `engine <https://www.php.net/engine>`_ to another part of the code. 

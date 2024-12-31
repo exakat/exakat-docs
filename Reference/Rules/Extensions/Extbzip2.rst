@@ -5,6 +5,21 @@
 ext/bzip2
 +++++++++
 
+.. meta\:\:
+	:description:
+		ext/bzip2: Extension ext/bzip2.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: ext/bzip2
+	:twitter:description: ext/bzip2: Extension ext/bzip2
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: ext/bzip2
+	:og:type: article
+	:og:description: Extension ext/bzip2
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extbzip2.html
+	:og:locale: en
   Extension ext/bzip2.
 
 Bzip2 Functions for PHP.

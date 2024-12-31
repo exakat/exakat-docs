@@ -5,6 +5,21 @@
 Conditional Structures
 ++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Conditional Structures: Structures that are defined, but only executed conditionally.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Conditional Structures
+	:twitter:description: Conditional Structures: Structures that are defined, but only executed conditionally
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Conditional Structures
+	:og:type: article
+	:og:description: Structures that are defined, but only executed conditionally
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ConditionalStructures.html
+	:og:locale: en
   Structures that are defined, but only executed conditionally.
 
 It is possible to create conditioned functions, classes, interfaces, traits and enumerations. Constants have to be defined with `define() <https://www.php.net/define>`_ and can't use the `const` keyword.

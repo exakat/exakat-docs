@@ -5,6 +5,21 @@
 Illegal Name For Method
 +++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Illegal Name For Method: PHP has reserved usage of methods starting with ``__`` for magic methods.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Illegal Name For Method
+	:twitter:description: Illegal Name For Method: PHP has reserved usage of methods starting with ``__`` for magic methods
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Illegal Name For Method
+	:og:type: article
+	:og:description: PHP has reserved usage of methods starting with ``__`` for magic methods
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/WrongName.html
+	:og:locale: en
   PHP has reserved usage of methods starting with ``__`` for magic methods. It is recommended to avoid using this prefix, to prevent confusions.
 
 .. code-block:: php

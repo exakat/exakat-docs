@@ -5,6 +5,21 @@
 Real Functions
 ++++++++++++++
 
+.. meta\:\:
+	:description:
+		Real Functions: Real functions, not methods.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Real Functions
+	:twitter:description: Real Functions: Real functions, not methods
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Real Functions
+	:og:type: article
+	:og:description: Real functions, not methods
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/RealFunctions.html
+	:og:locale: en
   Real functions, not methods.
 
 Function keywords, that are not in a class, trait, interface, nor a `closure <https://www.php.net/`closure <https://www.php.net/closure>`_>`_.

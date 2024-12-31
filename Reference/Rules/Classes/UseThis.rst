@@ -5,6 +5,21 @@
 Use This
 ++++++++
 
+.. meta\:\:
+	:description:
+		Use This: Those methods should be using $this, or a static method or property.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Use This
+	:twitter:description: Use This: Those methods should be using $this, or a static method or property
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Use This
+	:og:type: article
+	:og:description: Those methods should be using $this, or a static method or property
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/UseThis.html
+	:og:locale: en
   Those methods should be using `$this <https://www.php.net/manual/en/language.oop5.basic.php>`_, or a `static <https://www.php.net/manual/en/language.oop5.static.php>`_ method or property.
 
 A method that doesn't use any local data may be considered for a move : may be it doesn't belong here. 

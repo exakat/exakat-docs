@@ -5,6 +5,21 @@
 Assigned Twice
 ++++++++++++++
 
+.. meta\:\:
+	:description:
+		Assigned Twice: The same variable is assigned twice in the same function.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Assigned Twice
+	:twitter:description: Assigned Twice: The same variable is assigned twice in the same function
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Assigned Twice
+	:og:type: article
+	:og:description: The same variable is assigned twice in the same function
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Variables/AssignedTwiceOrMore.html
+	:og:locale: en
   The same variable is assigned twice in the same function.
 
 While this is possible and quite common, it is also a good practice to avoid changing a value from one literal to another. It is far better to assign the new value to 

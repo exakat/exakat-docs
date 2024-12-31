@@ -5,6 +5,21 @@
 Could Merge Ternary Into Ifthen
 +++++++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Could Merge Ternary Into Ifthen: When two ternary operators are used, in succession, with the same condition, it might be more readable to write it as an if then condition.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Could Merge Ternary Into Ifthen
+	:twitter:description: Could Merge Ternary Into Ifthen: When two ternary operators are used, in succession, with the same condition, it might be more readable to write it as an if then condition
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Could Merge Ternary Into Ifthen
+	:og:type: article
+	:og:description: When two ternary operators are used, in succession, with the same condition, it might be more readable to write it as an if then condition
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/MergeTernaryIntoIfthen.html
+	:og:locale: en
   When two ternary operators are used, in succession, with the same condition, it might be more readable to write it as an if then condition.
 
 With an if then structure, the related instructions are grouped together, while they are scattered otherwise.

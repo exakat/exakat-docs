@@ -5,6 +5,21 @@
 PHP Bugfixes
 ++++++++++++
 
+.. meta\:\:
+	:description:
+		PHP Bugfixes: This is the list of features, used in the code, that also received a bug fix in recent PHP versions.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: PHP Bugfixes
+	:twitter:description: PHP Bugfixes: This is the list of features, used in the code, that also received a bug fix in recent PHP versions
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: PHP Bugfixes
+	:og:type: article
+	:og:description: This is the list of features, used in the code, that also received a bug fix in recent PHP versions
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/MiddleVersion.html
+	:og:locale: en
   This is the list of features, used in the code, that also received a bug fix in recent PHP versions.
 
 Specs

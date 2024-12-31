@@ -5,6 +5,21 @@
 ext/phalcon
 +++++++++++
 
+.. meta\:\:
+	:description:
+		ext/phalcon: Extension Phalcon : High Performance PHP Framework.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: ext/phalcon
+	:twitter:description: ext/phalcon: Extension Phalcon : High Performance PHP Framework
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: ext/phalcon
+	:og:type: article
+	:og:description: Extension Phalcon : High Performance PHP Framework
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extphalcon.html
+	:og:locale: en
   Extension Phalcon : High Performance PHP Framework.
 
 Phalcon's autoload examples from the docs :  `Tutorial 1: Let’s learn by example <https://docs.phalconphp.com/en/latest/reference/tutorial.html>`_

@@ -5,24 +5,39 @@
 set_exception_handler() Warning
 +++++++++++++++++++++++++++++++
 
-  The `set_exception_handler() <https://www.php.net/set_exception_handler>`_ callable function has to be adapted to PHP 7 : ``Exception`` is not the right typehint, it is now ``Throwable``. 
+.. meta\:\:
+	:description:
+		set_exception_handler() Warning: The set_exception_handler() callable function has to be adapted to PHP 7 : ``Exception`` is not the right type, it is now ``Throwable``.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: set_exception_handler() Warning
+	:twitter:description: set_exception_handler() Warning: The set_exception_handler() callable function has to be adapted to PHP 7 : ``Exception`` is not the right type, it is now ``Throwable``
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: set_exception_handler() Warning
+	:og:type: article
+	:og:description: The set_exception_handler() callable function has to be adapted to PHP 7 : ``Exception`` is not the right type, it is now ``Throwable``
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/SetExceptionHandlerPHP7.html
+	:og:locale: en
+  The `set_exception_handler() <https://www.php.net/set_exception_handler>`_ callable function has to be adapted to PHP 7 : ``Exception`` is not the right type, it is now ``Throwable``. 
 
-When in doubt about backward compatibility, just drop the typehint. Otherwise, use ``Throwable``.
+When in doubt about backward compatibility, just drop the type. Otherwise, use ``Throwable``.
 
 .. code-block:: php
    
    <?php
    
-   // PHP 5.6- typehint 
-   class foo { function bar(\Exception $e) {} }
+   // PHP 5.6- type with Exception
+   class foo { static function bar(\Exception $e) {} }
    
-   // PHP 7+ typehint 
-   class foo { function bar(Throwable $e) {} }
+   // PHP 7+ type with Throwable
+   class foo { static function bar(\Throwable $e) {} }
    
-   // PHP 5 and PHP 7 compatible typehint (note : there is none)
-   class foo { function bar($e) {} }
+   // PHP 5 and PHP 7 compatible type (note : there is none)
+   class foo { static function bar($e) {} }
    
-   set_exception_handler(foo);
+   set_exception_handler([Foo::class, 'bar']);
    
    ?>
 
@@ -58,7 +73,7 @@ _____
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------+
 | Time To Fix      | Slow (1 hour)                                                                                                                        |
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------+
-| Changed Behavior | PHP 7.0 - `More <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/.html>`__                                           |
+| Changed Behavior | PHP 7.0 - `More <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/setExceptionHandlerType.html>`__                    |
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------+
 | Precision        | Very high                                                                                                                            |
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------+

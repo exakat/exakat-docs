@@ -5,6 +5,21 @@
 One Letter Functions
 ++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		One Letter Functions: One letter functions seems to be really short for a meaningful name.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: One Letter Functions
+	:twitter:description: One Letter Functions: One letter functions seems to be really short for a meaningful name
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: One Letter Functions
+	:og:type: article
+	:og:description: One letter functions seems to be really short for a meaningful name
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/OneLetterFunctions.html
+	:og:locale: en
   One letter functions seems to be really short for a meaningful name. This may happens for very high usage functions, so as to keep code short, but such functions should be rare.
 
 .. code-block:: php

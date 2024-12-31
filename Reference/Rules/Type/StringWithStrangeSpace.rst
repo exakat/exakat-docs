@@ -5,6 +5,21 @@
 Strings With Strange Space
 ++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Strings With Strange Space: An invisible space may be mistaken for a normal space.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Strings With Strange Space
+	:twitter:description: Strings With Strange Space: An invisible space may be mistaken for a normal space
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Strings With Strange Space
+	:og:type: article
+	:og:description: An invisible space may be mistaken for a normal space
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Type/StringWithStrangeSpace.html
+	:og:locale: en
   An invisible space may be mistaken for a normal space. 
 
 However, PHP does straight comparisons, and may fail at recognizing. This analysis reports when it finds such strange spaces inside strings.

@@ -5,6 +5,21 @@
 Inclusions
 ++++++++++
 
+.. meta\:\:
+	:description:
+		Inclusions: Collect inclusions of files.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Inclusions
+	:twitter:description: Inclusions: Collect inclusions of files
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Inclusions
+	:og:type: article
+	:og:description: Collect inclusions of files
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/Inclusions.html
+	:og:locale: en
   Collect inclusions of files. This is based on include(), require(), include_once() and require_once() keywords.
 
 .. code-block:: php

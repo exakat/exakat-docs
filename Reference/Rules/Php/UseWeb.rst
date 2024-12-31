@@ -5,6 +5,21 @@
 Use Web
 +++++++
 
+.. meta\:\:
+	:description:
+		Use Web: The code is used in web environment.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Use Web
+	:twitter:description: Use Web: The code is used in web environment
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Use Web
+	:og:type: article
+	:og:description: The code is used in web environment
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/UseWeb.html
+	:og:locale: en
   The code is used in web environment.
 
 The web environement is identified through the usage of the superglobals: ``$_GET``, ``$_POST``, etc.

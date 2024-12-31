@@ -5,6 +5,21 @@
 No Plus One
 +++++++++++
 
+.. meta\:\:
+	:description:
+		No Plus One: Incrementing a variable should be done with the ++ or -- operators.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: No Plus One
+	:twitter:description: No Plus One: Incrementing a variable should be done with the ++ or -- operators
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: No Plus One
+	:og:type: article
+	:og:description: Incrementing a variable should be done with the ++ or -- operators
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/PlusEgalOne.html
+	:og:locale: en
   Incrementing a variable should be done with the ++ or -- operators. Any other way, may be avoided.
 
 

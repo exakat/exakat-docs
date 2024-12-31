@@ -5,6 +5,21 @@
 Named Argument And Variadic
 +++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Named Argument And Variadic: Variadic argument must be the last in the list of arguments.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Named Argument And Variadic
+	:twitter:description: Named Argument And Variadic: Variadic argument must be the last in the list of arguments
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Named Argument And Variadic
+	:og:type: article
+	:og:description: Variadic argument must be the last in the list of arguments
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/NamedArgumentAndVariadic.html
+	:og:locale: en
   Variadic argument must be the last in the list of arguments. Since PHP 8.1, it is possible to use named arguments after a variadic argument.
 
 .. code-block:: php
@@ -22,8 +37,8 @@ Named Argument And Variadic
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Cannot+combine+named+arguments+and+argument+unpacking.html>`_
-  + `1 <https://php-errors.readthedocs.io/en/latest/messages/Cannot+use+positional+argument+after+argument+unpacking.html>`_
+  + `Cannot combine named arguments and argument unpacking <https://php-errors.readthedocs.io/en/latest/messages/cannot-combine-named-arguments-and-argument-unpacking.html>`_
+  + `Cannot use positional argument after argument unpacking <https://php-errors.readthedocs.io/en/latest/messages/cannot-use-positional-argument-after-argument-unpacking.html>`_
 
 
 

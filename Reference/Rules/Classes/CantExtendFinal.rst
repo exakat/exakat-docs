@@ -5,6 +5,21 @@
 Can't Extend Final
 ++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Can't Extend Final: It is not possible to extend final classes.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Can't Extend Final
+	:twitter:description: Can't Extend Final: It is not possible to extend final classes
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Can't Extend Final
+	:og:type: article
+	:og:description: It is not possible to extend final classes
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/CantExtendFinal.html
+	:og:locale: en
   It is not possible to extend final classes. 
 
 Since PHP fails with a fatal `error <https://www.php.net/error>`_, this means that the extending class is probably not used in the rest of the code. Check for dead code.

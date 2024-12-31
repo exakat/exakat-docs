@@ -5,6 +5,21 @@
 Environment Variable Usage
 ++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Environment Variable Usage: This rule collects all environment variables used in the application, for inventory purposes.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Environment Variable Usage
+	:twitter:description: Environment Variable Usage: This rule collects all environment variables used in the application, for inventory purposes
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Environment Variable Usage
+	:og:type: article
+	:og:description: This rule collects all environment variables used in the application, for inventory purposes
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/EnvironnementVariables.html
+	:og:locale: en
   This rule collects all environment variables used in the application, for inventory purposes. Environment variables are detected with the usage of the ``$_SERVER`` superglobal variable, or calls to the `getenv() <https://www.php.net/getenv>`_ and setenv() native functions. 
 
 This helps catalog the interactions between the application and its host environment.

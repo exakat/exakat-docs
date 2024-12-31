@@ -5,6 +5,21 @@
 File Uploads
 ++++++++++++
 
+.. meta\:\:
+	:description:
+		File Uploads: This code makes usage of file upload features of PHP.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: File Uploads
+	:twitter:description: File Uploads: This code makes usage of file upload features of PHP
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: File Uploads
+	:og:type: article
+	:og:description: This code makes usage of file upload features of PHP
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/FileUploadUsage.html
+	:og:locale: en
   This code makes usage of file upload features of PHP.
 
 Upload file feature is detected through the usage of specific functions :

@@ -5,6 +5,21 @@
 OpenSSL Ciphers Used
 ++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		OpenSSL Ciphers Used: List of all the OpenSSL ciphers used in the code.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: OpenSSL Ciphers Used
+	:twitter:description: OpenSSL Ciphers Used: List of all the OpenSSL ciphers used in the code
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: OpenSSL Ciphers Used
+	:og:type: article
+	:og:description: List of all the OpenSSL ciphers used in the code
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Type/OpensslCipher.html
+	:og:locale: en
   List of all the OpenSSL ciphers used in the code. 
 
 It is important to always use valid cipher modes for SSL. In case of non-existent cipher, the cipher and decipher operation will not happen. Ciphers are marked as weak after their security is breached, and shall be removed from OpenSSL, and later, from PHP. 

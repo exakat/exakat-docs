@@ -5,6 +5,21 @@
 Method Signature Must Be Compatible
 +++++++++++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Method Signature Must Be Compatible: Make sure methods signature are compatible.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Method Signature Must Be Compatible
+	:twitter:description: Method Signature Must Be Compatible: Make sure methods signature are compatible
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Method Signature Must Be Compatible
+	:og:type: article
+	:og:description: Make sure methods signature are compatible
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/MethodSignatureMustBeCompatible.html
+	:og:locale: en
   Make sure methods signature are compatible.
 
 PHP generates the infamous Fatal `error <https://www.php.net/error>`_ at execution : ``Declaration of FooParent\:\:Bar() must be compatible with FooChildren\:\:Bar()``

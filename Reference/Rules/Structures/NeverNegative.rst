@@ -5,6 +5,21 @@
 Always Positive Comparison
 ++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Always Positive Comparison: Some PHP native functions, such as count(), strlen(), or abs() only returns positive or null values.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Always Positive Comparison
+	:twitter:description: Always Positive Comparison: Some PHP native functions, such as count(), strlen(), or abs() only returns positive or null values
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Always Positive Comparison
+	:og:type: article
+	:og:description: Some PHP native functions, such as count(), strlen(), or abs() only returns positive or null values
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/NeverNegative.html
+	:og:locale: en
   Some PHP native functions, such as `count() <https://www.php.net/count>`_, `strlen() <https://www.php.net/strlen>`_, or `abs() <https://www.php.net/abs>`_ only returns positive or null values. 
 
 When comparing their `result <https://www.php.net/result>`_ to 0, the following expressions are always true and should be avoided.

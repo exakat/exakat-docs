@@ -5,6 +5,21 @@
 Fuel PHP Usage
 ++++++++++++++
 
+.. meta\:\:
+	:description:
+		Fuel PHP Usage: This analysis reports usage of the Fuel PHP Framework.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Fuel PHP Usage
+	:twitter:description: Fuel PHP Usage: This analysis reports usage of the Fuel PHP Framework
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Fuel PHP Usage
+	:og:type: article
+	:og:description: This analysis reports usage of the Fuel PHP Framework
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Vendors/Fuel.html
+	:og:locale: en
   This analysis reports usage of the Fuel PHP Framework. 
 Do not confuse fuelPHP and fuelCMS
 

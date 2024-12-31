@@ -5,6 +5,21 @@
 Constant Order
 ++++++++++++++
 
+.. meta\:\:
+	:description:
+		Constant Order: Order of dependency of constants.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Constant Order
+	:twitter:description: Constant Order: Order of dependency of constants
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Constant Order
+	:og:type: article
+	:og:description: Order of dependency of constants
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/ConstantOrder.html
+	:og:locale: en
   Order of dependency of constants. 
 
 Constants, either global or class, may be built using `static <https://www.php.net/manual/en/language.oop5.static.php>`_ expression. In turn, this means that constants have now a build order. For example : 

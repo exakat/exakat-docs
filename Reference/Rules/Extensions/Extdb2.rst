@@ -5,6 +5,21 @@
 ext/db2
 +++++++
 
+.. meta\:\:
+	:description:
+		ext/db2: Extension for IBM DB2, Cloudscape and Apache Derby.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: ext/db2
+	:twitter:description: ext/db2: Extension for IBM DB2, Cloudscape and Apache Derby
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: ext/db2
+	:og:type: article
+	:og:description: Extension for IBM DB2, Cloudscape and Apache Derby
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extdb2.html
+	:og:locale: en
   Extension for IBM DB2, Cloudscape and Apache Derby.
 
 This extension gives access to IBM DB2 Universal Database, IBM Cloudscape, and Apache Derby databases using the DB2 Call Level Interface (DB2 CLI).

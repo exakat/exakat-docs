@@ -5,6 +5,21 @@
 Is CLI Script
 +++++++++++++
 
+.. meta\:\:
+	:description:
+		Is CLI Script: Mark a file as a CLI script.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Is CLI Script
+	:twitter:description: Is CLI Script: Mark a file as a CLI script
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Is CLI Script
+	:og:type: article
+	:og:description: Mark a file as a CLI script
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Files/IsCliScript.html
+	:og:locale: en
   Mark a file as a CLI script. This means that this code is used in command line. That detection is based on the usage of distinct CLI features, such as ``#!`` at the beginning of the file.
 #!/usr/bin/php
 

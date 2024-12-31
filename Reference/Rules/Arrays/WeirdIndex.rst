@@ -5,6 +5,21 @@
 Weird Array Index
 +++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Weird Array Index: Array index that looks weird.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Weird Array Index
+	:twitter:description: Weird Array Index: Array index that looks weird
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Weird Array Index
+	:og:type: article
+	:og:description: Array index that looks weird
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Arrays/WeirdIndex.html
+	:og:locale: en
   Array index that looks weird. Arrays index may be string or integer, but some strings looks weird.
 
 In particular, strings that include terminal white spaces, often leads to missed values.

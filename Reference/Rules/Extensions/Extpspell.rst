@@ -5,6 +5,21 @@
 ext/pspell
 ++++++++++
 
+.. meta\:\:
+	:description:
+		ext/pspell: Extension pspell.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: ext/pspell
+	:twitter:description: ext/pspell: Extension pspell
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: ext/pspell
+	:og:type: article
+	:og:description: Extension pspell
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extpspell.html
+	:og:locale: en
   Extension pspell.
 
 These functions allow you to check the spelling of a word and offer suggestions.

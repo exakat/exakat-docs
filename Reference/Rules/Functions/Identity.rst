@@ -5,6 +5,21 @@
 Identity
 ++++++++
 
+.. meta\:\:
+	:description:
+		Identity: This method, function or closure returns one of its argument, without modification.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Identity
+	:twitter:description: Identity: This method, function or closure returns one of its argument, without modification
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Identity
+	:og:type: article
+	:og:description: This method, function or closure returns one of its argument, without modification
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/Identity.html
+	:og:locale: en
   This method, function or `closure <https://www.php.net/`closure <https://www.php.net/closure>`_>`_ returns one of its argument, without modification. This is the identity function, which might not be called at all, as it does nothing but return the same incoming argument. It might also be ready for future use.
 
 .. code-block:: php

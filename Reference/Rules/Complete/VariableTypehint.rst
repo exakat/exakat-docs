@@ -5,6 +5,21 @@
 Variable Anf Property Typehint
 ++++++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Variable Anf Property Typehint: Adds typehints to (local) variables and properties, by inference from the code.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Variable Anf Property Typehint
+	:twitter:description: Variable Anf Property Typehint: Adds typehints to (local) variables and properties, by inference from the code
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Variable Anf Property Typehint
+	:og:type: article
+	:og:description: Adds typehints to (local) variables and properties, by inference from the code
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Complete/VariableTypehint.html
+	:og:locale: en
   Adds typehints to (local) variables and properties, by inference from the code. 
 
 Currently, the variable must be assigned only one type within its context to be typed. Non-typed variables limit the scope of other rules.

@@ -5,6 +5,21 @@
 Class Without Parent
 ++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Class Without Parent: Classes should not refer to ``parent`` when it is not extending another class.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Class Without Parent
+	:twitter:description: Class Without Parent: Classes should not refer to ``parent`` when it is not extending another class
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Class Without Parent
+	:og:type: article
+	:og:description: Classes should not refer to ``parent`` when it is not extending another class
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/NoParent.html
+	:og:locale: en
   Classes should not refer to ``parent`` when it is not extending another class. 
 
 In PHP 7.4, it is a Deprecated warning. In PHP 7.3, it was a Fatal `error <https://www.php.net/error>`_, when the code was eventually executed. In PHP 8.0, PHP detects this `error <https://www.php.net/error>`_ at compile time, except for `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ keyword in a `closure <https://www.php.net/`closure <https://www.php.net/closure>`_>`_.
@@ -61,7 +76,7 @@ _____
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Time To Fix      | Quick (30 mins)                                                                                                                                                                                                          |
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Changed Behavior | PHP 8.0 - `More <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/.html>`__                                                                                                                               |
+| Changed Behavior | PHP 8.0                                                                                                                                                                                                                  |
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision        | Very high                                                                                                                                                                                                                |
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

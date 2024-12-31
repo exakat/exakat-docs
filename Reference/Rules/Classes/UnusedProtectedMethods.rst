@@ -5,6 +5,21 @@
 Unused Protected Methods
 ++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Unused Protected Methods: The following protected methods are unused in children class.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Unused Protected Methods
+	:twitter:description: Unused Protected Methods: The following protected methods are unused in children class
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Unused Protected Methods
+	:og:type: article
+	:og:description: The following protected methods are unused in children class
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/UnusedProtectedMethods.html
+	:og:locale: en
   The following protected methods are unused in children class. As such, they may be considered for being private.
 
 Methods reported by this analysis are not used by children, yet they are protected.

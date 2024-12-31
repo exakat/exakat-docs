@@ -5,6 +5,21 @@
 Exceeding Typehint
 ++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Exceeding Typehint: The typehint is not fully used in the method.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Exceeding Typehint
+	:twitter:description: Exceeding Typehint: The typehint is not fully used in the method
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Exceeding Typehint
+	:og:type: article
+	:og:description: The typehint is not fully used in the method
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/ExceedingTypehint.html
+	:og:locale: en
   The typehint is not fully used in the method. Some of the defined methods in the typehint are unused. A tighter typehint could be used, to avoid method pollution.
 Tight typehint prevents the argument from doing too much. They also require more maintenance : creation of dedicated interfaces, method management to keep all typehint tight.
 

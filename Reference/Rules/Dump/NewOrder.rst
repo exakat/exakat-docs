@@ -5,6 +5,21 @@
 New Order
 +++++++++
 
+.. meta\:\:
+	:description:
+		New Order: Order in which new calls must be called.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: New Order
+	:twitter:description: New Order: Order in which new calls must be called
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: New Order
+	:og:type: article
+	:og:description: Order in which new calls must be called
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/NewOrder.html
+	:og:locale: en
   Order in which new calls must be called. When a class uses another class type in its constructor, this means the second class must be instantiated before creating the first. This creates an order for classes.
 
 .. code-block:: php

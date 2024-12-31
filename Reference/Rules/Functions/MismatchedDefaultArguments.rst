@@ -5,6 +5,21 @@
 Mismatched Default Arguments
 ++++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Mismatched Default Arguments: Arguments are relayed from one method to the other, and the arguments have different default values.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Mismatched Default Arguments
+	:twitter:description: Mismatched Default Arguments: Arguments are relayed from one method to the other, and the arguments have different default values
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Mismatched Default Arguments
+	:og:type: article
+	:og:description: Arguments are relayed from one method to the other, and the arguments have different default values
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/MismatchedDefaultArguments.html
+	:og:locale: en
   Arguments are relayed from one method to the other, and the arguments have different default values. 
 
 Although it is possible to have different default values, it is worth checking why this is actually the case.

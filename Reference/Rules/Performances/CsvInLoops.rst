@@ -5,6 +5,21 @@
 fputcsv() In Loops
 ++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		fputcsv() In Loops: fputcsv() is slow when called on each row.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: fputcsv() In Loops
+	:twitter:description: fputcsv() In Loops: fputcsv() is slow when called on each row
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: fputcsv() In Loops
+	:og:type: article
+	:og:description: fputcsv() is slow when called on each row
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Performances/CsvInLoops.html
+	:og:locale: en
   `fputcsv() <https://www.php.net/fputcsv>`_ is slow when called on each row. It actually flushes the data to the disk each time, and that results in a inefficient dump to the disk, each call.
 
 To speed up this process, it is recommended to dump the CSV to memory first, then dump the memory to the disk, in larger chunks. Since `fputcsv() <https://www.php.net/fputcsv>`_ works only on stream, it is necessary to use a memory stream.

@@ -5,6 +5,21 @@
 Abstract Or Implements
 ++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Abstract Or Implements: A class must implements all abstract methods of it parents, or be abstract too.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Abstract Or Implements
+	:twitter:description: Abstract Or Implements: A class must implements all abstract methods of it parents, or be abstract too
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Abstract Or Implements
+	:og:type: article
+	:og:description: A class must implements all abstract methods of it parents, or be abstract too
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/AbstractOrImplements.html
+	:og:locale: en
   A class must implements all abstract methods of it parents, or be abstract too. 
 
 PHP detect such `error <https://www.php.net/error>`_ when all classes are loaded: in a code source where classes are split by files, such `error <https://www.php.net/error>`_ it won't be detected until execution, where PHP stops with a Fatal `Error <https://www.php.net/error>`_ : ``Class BA contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (A\:\:aFoo)``.

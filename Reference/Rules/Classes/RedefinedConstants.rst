@@ -5,6 +5,21 @@
 Redefined Class Constants
 +++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Redefined Class Constants: Redefined class constants.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Redefined Class Constants
+	:twitter:description: Redefined Class Constants: Redefined class constants
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Redefined Class Constants
+	:og:type: article
+	:og:description: Redefined class constants
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/RedefinedConstants.html
+	:og:locale: en
   Redefined class constants.
 
 Class constants may be redefined, though it is prone to errors when using them, as it is now crucial to use the right class name to access the right value.

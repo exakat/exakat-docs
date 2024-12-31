@@ -5,6 +5,21 @@
 Duplicate Named Parameter
 +++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Duplicate Named Parameter: Two parameters have the same name in a method call.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Duplicate Named Parameter
+	:twitter:description: Duplicate Named Parameter: Two parameters have the same name in a method call
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Duplicate Named Parameter
+	:og:type: article
+	:og:description: Two parameters have the same name in a method call
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/DuplicateNamedParameter.html
+	:og:locale: en
   Two parameters have the same name in a method call. This yields a Fatal `error <https://www.php.net/error>`_ at execution time.
 
 .. code-block:: php

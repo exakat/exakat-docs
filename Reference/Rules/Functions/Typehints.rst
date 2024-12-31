@@ -5,6 +5,21 @@
 Typehints
 +++++++++
 
+.. meta\:\:
+	:description:
+		Typehints: List of all the types (classes or scalar) used in Typehinting.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Typehints
+	:twitter:description: Typehints: List of all the types (classes or scalar) used in Typehinting
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Typehints
+	:og:type: article
+	:og:description: List of all the types (classes or scalar) used in Typehinting
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/Typehints.html
+	:og:locale: en
   List of all the types (classes or scalar) used in Typehinting.
 
 .. code-block:: php

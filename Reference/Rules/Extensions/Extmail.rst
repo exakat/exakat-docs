@@ -5,6 +5,21 @@
 ext/mail
 ++++++++
 
+.. meta\:\:
+	:description:
+		ext/mail: Extension for mail.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: ext/mail
+	:twitter:description: ext/mail: Extension for mail
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: ext/mail
+	:og:type: article
+	:og:description: Extension for mail
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extmail.html
+	:og:locale: en
   Extension for mail.
 
 The `mail() <https://www.php.net/mail>`_ function allows you to send mail.

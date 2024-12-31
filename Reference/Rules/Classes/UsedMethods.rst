@@ -5,6 +5,21 @@
 Used Methods
 ++++++++++++
 
+.. meta\:\:
+	:description:
+		Used Methods: Those methods are used in the code: this means they have a definition and at least one call.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Used Methods
+	:twitter:description: Used Methods: Those methods are used in the code: this means they have a definition and at least one call
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Used Methods
+	:og:type: article
+	:og:description: Those methods are used in the code: this means they have a definition and at least one call
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/UsedMethods.html
+	:og:locale: en
   Those methods are used in the code: this means they have a definition and at least one call. They may have more than one call too. This analysis is mostly useful for detecting unused methods.
 
 .. code-block:: php

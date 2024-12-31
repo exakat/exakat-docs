@@ -5,6 +5,21 @@
 Modify Immutable
 ++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Modify Immutable: A class, marked as immutable, is being modified.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Modify Immutable
+	:twitter:description: Modify Immutable: A class, marked as immutable, is being modified
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Modify Immutable
+	:og:type: article
+	:og:description: A class, marked as immutable, is being modified
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Attributes/ModifyImmutable.html
+	:og:locale: en
   A class, marked as immutable, is being modified. 
 
 This `attribute <https://www.php.net/attribute>`_ is supported as a PHPdoc comment, `@immutable, and as a PHP 8.0 `attribute <https://www.php.net/attribute>`_.

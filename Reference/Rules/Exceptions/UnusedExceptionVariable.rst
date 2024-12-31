@@ -5,6 +5,21 @@
 Unused Exception Variable
 +++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Unused Exception Variable: The variable from a catch clause is not used.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Unused Exception Variable
+	:twitter:description: Unused Exception Variable: The variable from a catch clause is not used
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Unused Exception Variable
+	:og:type: article
+	:og:description: The variable from a catch clause is not used
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Exceptions/UnusedExceptionVariable.html
+	:og:locale: en
   The variable from a catch clause is not used. It is expected to be used, either by chaining the `exception <https://www.php.net/exception>`_, or logging the message.
 
 In PHP 8.0, this variable may be omitted.

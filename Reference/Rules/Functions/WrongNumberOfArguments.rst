@@ -5,6 +5,21 @@
 Wrong Number Of Arguments
 +++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Wrong Number Of Arguments: Those functioncalls are made with too many or too few arguments.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Wrong Number Of Arguments
+	:twitter:description: Wrong Number Of Arguments: Those functioncalls are made with too many or too few arguments
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Wrong Number Of Arguments
+	:og:type: article
+	:og:description: Those functioncalls are made with too many or too few arguments
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/WrongNumberOfArguments.html
+	:og:locale: en
   Those functioncalls are made with too many or too few arguments. 
 
 When the number arguments is wrong for native functions, PHP emits a warning. 

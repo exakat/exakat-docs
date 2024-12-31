@@ -5,6 +5,21 @@
 Should Use Coalesce
 +++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Should Use Coalesce: PHP 7 introduced the ``.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Should Use Coalesce
+	:twitter:description: Should Use Coalesce: PHP 7 introduced the ``
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Should Use Coalesce
+	:og:type: article
+	:og:description: PHP 7 introduced the ``
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/ShouldUseCoalesce.html
+	:og:locale: en
   PHP 7 introduced the ``??`` operator, that replaces longer structures to set default values when a variable is not set.
 Sample extracted from PHP docs `Isset Ternary <https://wiki.php.net/rfc/isset_ternary>`_.
 

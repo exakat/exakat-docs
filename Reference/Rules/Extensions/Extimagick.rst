@@ -5,6 +5,21 @@
 ext/imagick
 +++++++++++
 
+.. meta\:\:
+	:description:
+		ext/imagick: Extension Imagick for PHP.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: ext/imagick
+	:twitter:description: ext/imagick: Extension Imagick for PHP
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: ext/imagick
+	:og:type: article
+	:og:description: Extension Imagick for PHP
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extimagick.html
+	:og:locale: en
   Extension Imagick for PHP.
 
 Imagick is a native php extension to create and modify images using the ImageMagick API.

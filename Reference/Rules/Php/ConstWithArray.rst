@@ -5,6 +5,21 @@
 Const With Array
 ++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Const With Array: The const keyword supports array.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Const With Array
+	:twitter:description: Const With Array: The const keyword supports array
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Const With Array
+	:og:type: article
+	:og:description: The const keyword supports array
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/ConstWithArray.html
+	:og:locale: en
   The const keyword supports array. This feature was added in PHP 5.6. 
 
 The array must be filled with other constants. It may also be build using the '+' operator.

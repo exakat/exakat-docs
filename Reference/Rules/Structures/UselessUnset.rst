@@ -5,6 +5,21 @@
 Useless Unset
 +++++++++++++
 
+.. meta\:\:
+	:description:
+		Useless Unset: There are situations where trying to remove a variable is actually useless.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Useless Unset
+	:twitter:description: Useless Unset: There are situations where trying to remove a variable is actually useless
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Useless Unset
+	:og:type: article
+	:og:description: There are situations where trying to remove a variable is actually useless
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/UselessUnset.html
+	:og:locale: en
   There are situations where trying to remove a variable is actually useless. 
 
 PHP ignores any command that tries to unset a global variable, a `static <https://www.php.net/manual/en/language.oop5.static.php>`_ variable, or a blind variable from a foreach loop. 

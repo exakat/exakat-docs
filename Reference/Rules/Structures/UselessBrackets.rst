@@ -5,6 +5,21 @@
 Useless Brackets
 ++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Useless Brackets: Standalone brackets have no use.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Useless Brackets
+	:twitter:description: Useless Brackets: Standalone brackets have no use
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Useless Brackets
+	:og:type: article
+	:og:description: Standalone brackets have no use
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/UselessBrackets.html
+	:og:locale: en
   Standalone brackets have no use. Brackets are used to delimit a block of code, and are used by control statements. They may also be used to protect variables in strings. 
 
 Standalone brackets may be a left over of an old instruction, or a misunderstanding of the alternative syntax.

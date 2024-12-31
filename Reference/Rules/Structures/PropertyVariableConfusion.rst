@@ -5,6 +5,21 @@
 Property Variable Confusion
 +++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Property Variable Confusion: Within a class, there is both a property and variables bearing the same name.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Property Variable Confusion
+	:twitter:description: Property Variable Confusion: Within a class, there is both a property and variables bearing the same name
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Property Variable Confusion
+	:og:type: article
+	:og:description: Within a class, there is both a property and variables bearing the same name
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/PropertyVariableConfusion.html
+	:og:locale: en
   Within a class, there is both a property and variables bearing the same name. 
 
 The property and the variable may easily be confused one for another and lead to a bug. 

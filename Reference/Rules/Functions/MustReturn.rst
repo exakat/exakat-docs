@@ -5,6 +5,21 @@
 Must Return Methods
 +++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Must Return Methods: The following methods are expected to return a value that will be used later.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Must Return Methods
+	:twitter:description: Must Return Methods: The following methods are expected to return a value that will be used later
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Must Return Methods
+	:og:type: article
+	:og:description: The following methods are expected to return a value that will be used later
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/MustReturn.html
+	:og:locale: en
   The following methods are expected to return a value that will be used later. Without return, they are useless.
 
 Methods that must return are : `__get() <https://www.php.net/manual/en/language.oop5.magic.php>`_, `__isset() <https://www.php.net/manual/en/language.oop5.magic.php>`_, `__sleep() <https://www.php.net/manual/en/language.oop5.magic.php>`_, `__toString() <https://www.php.net/manual/en/language.oop5.magic.php>`_, `__set_state() <https://www.php.net/manual/en/language.oop5.magic.php>`_, `__invoke() <https://www.php.net/manual/en/language.oop5.magic.php>`_, `__debugInfo() <https://www.php.net/manual/en/language.oop5.magic.php>`_.

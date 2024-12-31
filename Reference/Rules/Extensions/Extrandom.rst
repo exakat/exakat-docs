@@ -5,6 +5,21 @@
 Random extension
 ++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Random extension: The random extension.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Random extension
+	:twitter:description: Random extension: The random extension
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Random extension
+	:og:type: article
+	:og:description: The random extension
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extrandom.html
+	:og:locale: en
   The random extension. It improves the random generators from the older PHP version, and provides a OOP interface.
 
 .. code-block:: php

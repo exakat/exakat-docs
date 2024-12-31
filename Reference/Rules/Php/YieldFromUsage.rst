@@ -5,6 +5,21 @@
 Yield From Usage
 ++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Yield From Usage: Usage of generator delegation, with ``yield from`` keyword.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Yield From Usage
+	:twitter:description: Yield From Usage: Usage of generator delegation, with ``yield from`` keyword
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Yield From Usage
+	:og:type: article
+	:og:description: Usage of generator delegation, with ``yield from`` keyword
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/YieldFromUsage.html
+	:og:locale: en
   Usage of `generator <https://www.php.net/`generator <https://www.php.net/generator>`_>`_ delegation, with ``yield from`` keyword.
 
 In PHP 7, `generator <https://www.php.net/`generator <https://www.php.net/generator>`_>`_ delegation allows you to yield values from another ``Generator``, ``Traversable`` object, or array by using the ``yield from``. 

@@ -5,6 +5,21 @@
 Direct Call To __clone()
 ++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Direct Call To __clone(): Direct call to magic method ``__clone()`` was forbidden.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Direct Call To __clone()
+	:twitter:description: Direct Call To __clone(): Direct call to magic method ``__clone()`` was forbidden
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Direct Call To __clone()
+	:og:type: article
+	:og:description: Direct call to magic method ``__clone()`` was forbidden
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/DirectCallToClone.html
+	:og:locale: en
   Direct call to magic method ``__clone()`` was forbidden. It is allowed since PHP 7.0. 
 
 From the RFC : ``Doing calls like $obj->`__clone( <https://www.php.net/manual/en/language.oop5.magic.php>`_ ) is now allowed. This was the only magic method that had a compile-time check preventing some calls to it, which doesn't make sense. If we allow all other magic methods to be called, there's no reason to forbid this one``.
@@ -22,13 +37,6 @@ From the RFC : ``Doing calls like $obj->`__clone( <https://www.php.net/manual/en
    ?>
 
 See also `Directly calling __clone is allowed <https://wiki.php.net/rfc/abstract_syntax_tree#directly_calling_clone_is_allowed>`_.
-
-Related PHP errors 
--------------------
-
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Cannot+call+__clone%28%29+method+on+objects+-+use+%27clone+%24obj%27+instead.html>`_
-
-
 
 Connex PHP features
 -------------------
@@ -55,7 +63,7 @@ _____
 +--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 1.4.8                                                                                                                                                                                                                                                    |
 +--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| PHP Version  | With PHP 7.0 and more recent                                                                                                                                                                                                                             |
+| PHP Version  | With PHP 7.0 and older                                                                                                                                                                                                                                   |
 +--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Severity     | Critical                                                                                                                                                                                                                                                 |
 +--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

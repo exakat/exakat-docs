@@ -5,6 +5,21 @@
 ext/math
 ++++++++
 
+.. meta\:\:
+	:description:
+		ext/math: Core functions that provides math standard functions.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: ext/math
+	:twitter:description: ext/math: Core functions that provides math standard functions
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: ext/math
+	:og:type: article
+	:og:description: Core functions that provides math standard functions
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extmath.html
+	:og:locale: en
   Core functions that provides math standard functions.
 
 This is not a real extension : it is a documentation section, that helps sorting the functions.

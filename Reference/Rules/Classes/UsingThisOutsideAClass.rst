@@ -5,6 +5,21 @@
 Using $this Outside A Class
 +++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Using $this Outside A Class: ``$this`` is a special variable, that should only be used in a class context.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Using $this Outside A Class
+	:twitter:description: Using $this Outside A Class: ``$this`` is a special variable, that should only be used in a class context
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Using $this Outside A Class
+	:og:type: article
+	:og:description: ``$this`` is a special variable, that should only be used in a class context
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/UsingThisOutsideAClass.html
+	:og:locale: en
   ``$this`` is a special variable, that should only be used in a class context. 
 
 Until PHP 7.1, ``$this`` may be used as an argument in a function or a method, a global, a `static <https://www.php.net/manual/en/language.oop5.static.php>`_ : while this is legit, it sounds confusing enough to avoid it.
@@ -58,7 +73,7 @@ _____
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Time To Fix      | Instant (5 mins)                                                                                                                                                                                                         |
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Changed Behavior | PHP 7.1 - `More <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/.html>`__                                                                                                                               |
+| Changed Behavior | PHP 7.1                                                                                                                                                                                                                  |
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision        | High                                                                                                                                                                                                                     |
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

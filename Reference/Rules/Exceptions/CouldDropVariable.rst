@@ -5,6 +5,21 @@
 Could Drop Variable
 +++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Could Drop Variable: Suggest removing the variable in catch clause where the variable is not used.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Could Drop Variable
+	:twitter:description: Could Drop Variable: Suggest removing the variable in catch clause where the variable is not used
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Could Drop Variable
+	:og:type: article
+	:og:description: Suggest removing the variable in catch clause where the variable is not used
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Exceptions/CouldDropVariable.html
+	:og:locale: en
   Suggest removing the variable in catch clause where the variable is not used. The type of the `exception <https://www.php.net/exception>`_ is sufficient to make the catch clause work. Although, it is recommended to use the caught `exception <https://www.php.net/exception>`_, for chaining or logging, for example.
 
 .. code-block:: php

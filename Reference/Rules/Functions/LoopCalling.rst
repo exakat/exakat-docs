@@ -5,6 +5,21 @@
 Functions In Loop Calls
 +++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Functions In Loop Calls: The following functions call each-other in a loop fashion : A -> B -> A.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Functions In Loop Calls
+	:twitter:description: Functions In Loop Calls: The following functions call each-other in a loop fashion : A -> B -> A
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Functions In Loop Calls
+	:og:type: article
+	:og:description: The following functions call each-other in a loop fashion : A -> B -> A
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/LoopCalling.html
+	:og:locale: en
   The following functions call each-other in a loop fashion : A -> B -> A.
 
 When those functions have no other interaction, the code is useless and should be dropped.

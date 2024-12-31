@@ -5,6 +5,21 @@
 Empty Classes
 +++++++++++++
 
+.. meta\:\:
+	:description:
+		Empty Classes: Classes that do no define anything at all : no property, method nor constant.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Empty Classes
+	:twitter:description: Empty Classes: Classes that do no define anything at all : no property, method nor constant
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Empty Classes
+	:og:type: article
+	:og:description: Classes that do no define anything at all : no property, method nor constant
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/EmptyClass.html
+	:og:locale: en
   Classes that do no define anything at all : no property, method nor constant. This is possibly dead code.
 
 Empty classes are sometimes used to group classes; an interface may be used here for the same purpose, without inserting an extra level in the class hierarchy.

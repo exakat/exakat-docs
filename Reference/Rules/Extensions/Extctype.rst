@@ -5,6 +5,21 @@
 ext/ctype
 +++++++++
 
+.. meta\:\:
+	:description:
+		ext/ctype: Extension ext/ctype.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: ext/ctype
+	:twitter:description: ext/ctype: Extension ext/ctype
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: ext/ctype
+	:og:type: article
+	:og:description: Extension ext/ctype
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extctype.html
+	:og:locale: en
   Extension ext/`ctype <https://www.php.net/ctype>`_.
 
 Ext/`ctype <https://www.php.net/ctype>`_ checks whether a character or string falls into a certain character class according to the current `locale <https://www.php.net/locale>`_.

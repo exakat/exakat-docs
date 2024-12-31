@@ -5,6 +5,21 @@
 Static Methods Cannot Call Non-Static Methods
 +++++++++++++++++++++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Static Methods Cannot Call Non-Static Methods: A static method cannot call a non-static method.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Static Methods Cannot Call Non-Static Methods
+	:twitter:description: Static Methods Cannot Call Non-Static Methods: A static method cannot call a non-static method
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Static Methods Cannot Call Non-Static Methods
+	:og:type: article
+	:og:description: A static method cannot call a non-static method
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/StaticCannotCallNonStatic.html
+	:og:locale: en
   A `static <https://www.php.net/manual/en/language.oop5.static.php>`_ method cannot call a non-`static <https://www.php.net/manual/en/language.oop5.static.php>`_ method. The object context would be missing. 
 
 On the other hand, a method may call a `static <https://www.php.net/manual/en/language.oop5.static.php>`_ method, as the context is lost, but not useful. 

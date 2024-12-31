@@ -5,6 +5,21 @@
 No Class In Global
 ++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		No Class In Global: Avoid defining structures in Global namespace.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: No Class In Global
+	:twitter:description: No Class In Global: Avoid defining structures in Global namespace
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: No Class In Global
+	:og:type: article
+	:og:description: Avoid defining structures in Global namespace
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/NoClassInGlobal.html
+	:og:locale: en
   Avoid defining structures in Global namespace. Always prefer using a namespace. This will come handy later, either when publishing the code, or when importing a library, or even if PHP reclaims that name.
 
 .. code-block:: php

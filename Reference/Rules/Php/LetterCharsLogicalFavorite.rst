@@ -5,6 +5,21 @@
 Logical Operators Favorite
 ++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Logical Operators Favorite: PHP has two sets of logical operators : letters (and, or, xor) and chars (&&, ||, ^).
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Logical Operators Favorite
+	:twitter:description: Logical Operators Favorite: PHP has two sets of logical operators : letters (and, or, xor) and chars (&&, ||, ^)
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Logical Operators Favorite
+	:og:type: article
+	:og:description: PHP has two sets of logical operators : letters (and, or, xor) and chars (&&, ||, ^)
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/LetterCharsLogicalFavorite.html
+	:og:locale: en
   PHP has two sets of logical operators : letters (and, or, xor) and chars (&&, ||, ^). 
 
 The analyzed code has less than 10% of one of the two sets : for consistency reasons, it is recommended to make them all the same. 

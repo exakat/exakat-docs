@@ -5,6 +5,21 @@
 Use Pathinfo
 ++++++++++++
 
+.. meta\:\:
+	:description:
+		Use Pathinfo: Use pathinfo() function instead of string manipulations.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Use Pathinfo
+	:twitter:description: Use Pathinfo: Use pathinfo() function instead of string manipulations
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Use Pathinfo
+	:og:type: article
+	:og:description: Use pathinfo() function instead of string manipulations
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/UsePathinfo.html
+	:og:locale: en
   Use `pathinfo() <https://www.php.net/pathinfo>`_ function instead of string manipulations.
 
 `pathinfo() <https://www.php.net/pathinfo>`_ is more efficient and readable and string functions.

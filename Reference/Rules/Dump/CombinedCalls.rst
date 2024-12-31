@@ -5,6 +5,21 @@
 Combined Calls
 ++++++++++++++
 
+.. meta\:\:
+	:description:
+		Combined Calls: This collects all the combined function or method calls.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Combined Calls
+	:twitter:description: Combined Calls: This collects all the combined function or method calls
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Combined Calls
+	:og:type: article
+	:og:description: This collects all the combined function or method calls
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/CombinedCalls.html
+	:og:locale: en
   This collects all the combined function or method calls. Those are methods that are called in succession.
 
 .. code-block:: php

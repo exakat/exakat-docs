@@ -5,6 +5,21 @@
 Bad Constants Names
 +++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Bad Constants Names: PHP's manual recommends that developer do not use constants with the convention ``__NAME__``.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Bad Constants Names
+	:twitter:description: Bad Constants Names: PHP's manual recommends that developer do not use constants with the convention ``__NAME__``
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Bad Constants Names
+	:og:type: article
+	:og:description: PHP's manual recommends that developer do not use constants with the convention ``__NAME__``
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Constants/BadConstantnames.html
+	:og:locale: en
   PHP's manual recommends that developer do not use constants with the convention ``__NAME__``. Those are reserved for PHP future use. 
 
 For example, ``__TRAIT__`` recently appeared in PHP, as a magic constant. In the future, other may appear. 

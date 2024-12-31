@@ -5,6 +5,21 @@
 Inherited Static Variable
 +++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Inherited Static Variable: Static variables are distinct when used in an inherited static method.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Inherited Static Variable
+	:twitter:description: Inherited Static Variable: Static variables are distinct when used in an inherited static method
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Inherited Static Variable
+	:og:type: article
+	:og:description: Static variables are distinct when used in an inherited static method
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Variables/InheritedStaticVariable.html
+	:og:locale: en
   `Static <https://www.php.net/manual/en/language.oop5.static.php>`_ variables are distinct when used in an inherited `static <https://www.php.net/manual/en/language.oop5.static.php>`_ method. In PHP 8.1, the `static <https://www.php.net/manual/en/language.oop5.static.php>`_ variable will also be inherited, and shared between the two methods, like a `static <https://www.php.net/manual/en/language.oop5.static.php>`_ property.
 
 .. code-block:: php
@@ -61,7 +76,7 @@ _____
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------+
 | Time To Fix      | Quick (30 mins)                                                                                                                      |
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------+
-| Changed Behavior | PHP 8.1 - `More <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/.html>`__                                           |
+| Changed Behavior | PHP 8.1                                                                                                                              |
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------+
 | Precision        | Medium                                                                                                                               |
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------+

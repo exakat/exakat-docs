@@ -5,6 +5,21 @@
 Set Class Method Remote Definition
 ++++++++++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Set Class Method Remote Definition: Links method to the method definition.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Set Class Method Remote Definition
+	:twitter:description: Set Class Method Remote Definition: Links method to the method definition
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Set Class Method Remote Definition
+	:og:type: article
+	:og:description: Links method to the method definition
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Complete/SetClassMethodRemoteDefinition.html
+	:og:locale: en
   Links method to the method definition. The link is ``DEFINITION``.
 
 `Static <https://www.php.net/manual/en/language.oop5.static.php>`_ method calls and normal method calls are both solved with this rule. `Parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ classes and trait are also searched for the right method.

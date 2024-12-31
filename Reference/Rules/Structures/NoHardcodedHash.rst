@@ -5,6 +5,21 @@
 No Hardcoded Hash
 +++++++++++++++++
 
+.. meta\:\:
+	:description:
+		No Hardcoded Hash: Hash should never be hardcoded.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: No Hardcoded Hash
+	:twitter:description: No Hardcoded Hash: Hash should never be hardcoded
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: No Hardcoded Hash
+	:og:type: article
+	:og:description: Hash should never be hardcoded
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/NoHardcodedHash.html
+	:og:locale: en
   Hash should never be hardcoded. 
 
 Hashes may be MD5, SHA1, SHA512, Bcrypt or any other. Such values must be easily changed, for security reasons, and the source code is not the safest place to hide it.

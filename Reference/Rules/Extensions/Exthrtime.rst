@@ -5,6 +5,21 @@
 ext/hrtime
 ++++++++++
 
+.. meta\:\:
+	:description:
+		ext/hrtime: High resolution timing Extension.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: ext/hrtime
+	:twitter:description: ext/hrtime: High resolution timing Extension
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: ext/hrtime
+	:og:type: article
+	:og:description: High resolution timing Extension
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Exthrtime.html
+	:og:locale: en
   High resolution timing Extension.
 
 The HRTime extension implements a high resolution `StopWatch` class. It uses the best possible API on different platforms which brings resolution up to nanoseconds. It also makes possible to implement a custom stopwatch using low level ticks delivered by the underlaying system.

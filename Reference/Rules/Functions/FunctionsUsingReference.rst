@@ -5,6 +5,21 @@
 Functions Using Reference
 +++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Functions Using Reference: Functions and methods using references in their signature.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Functions Using Reference
+	:twitter:description: Functions Using Reference: Functions and methods using references in their signature
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Functions Using Reference
+	:og:type: article
+	:og:description: Functions and methods using references in their signature
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/FunctionsUsingReference.html
+	:og:locale: en
   Functions and methods using references in their signature.
 
 .. code-block:: php

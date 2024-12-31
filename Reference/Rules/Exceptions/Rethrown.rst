@@ -5,6 +5,21 @@
 Rethrown Exceptions
 +++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Rethrown Exceptions: Throwing a caught exception is usually useless and dead code.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Rethrown Exceptions
+	:twitter:description: Rethrown Exceptions: Throwing a caught exception is usually useless and dead code
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Rethrown Exceptions
+	:og:type: article
+	:og:description: Throwing a caught exception is usually useless and dead code
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Exceptions/Rethrown.html
+	:og:locale: en
   Throwing a caught `exception <https://www.php.net/exception>`_ is usually useless and dead code.
 
 When exceptions are caught, they should be processed or transformed, but not rethrown as is.

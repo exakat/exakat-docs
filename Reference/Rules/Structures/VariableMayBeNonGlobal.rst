@@ -5,6 +5,21 @@
 Declare Global Early
 ++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Declare Global Early: Static and global keywords should be used as early as possible in a method.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Declare Global Early
+	:twitter:description: Declare Global Early: Static and global keywords should be used as early as possible in a method
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Declare Global Early
+	:og:type: article
+	:og:description: Static and global keywords should be used as early as possible in a method
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/VariableMayBeNonGlobal.html
+	:og:locale: en
   `Static <https://www.php.net/manual/en/language.oop5.static.php>`_ and global keywords should be used as early as possible in a method. 
 
 Performance wise, it is better to call ``global`` or ``static`` only before using the variable. 

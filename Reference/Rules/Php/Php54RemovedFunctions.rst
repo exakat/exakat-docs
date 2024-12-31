@@ -5,6 +5,21 @@
 Functions Removed In PHP 5.4
 ++++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Functions Removed In PHP 5.4: Those functions were removed in PHP 5.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Functions Removed In PHP 5.4
+	:twitter:description: Functions Removed In PHP 5.4: Those functions were removed in PHP 5
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Functions Removed In PHP 5.4
+	:og:type: article
+	:og:description: Those functions were removed in PHP 5
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/Php54RemovedFunctions.html
+	:og:locale: en
   Those functions were removed in PHP 5.4.
 
 + ereg()

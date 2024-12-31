@@ -5,6 +5,21 @@
 Is Not Class Family
 +++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Is Not Class Family: Mark a static method call as inside the family of classes.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Is Not Class Family
+	:twitter:description: Is Not Class Family: Mark a static method call as inside the family of classes
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Is Not Class Family
+	:og:type: article
+	:og:description: Mark a static method call as inside the family of classes
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/IsNotFamily.html
+	:og:locale: en
   Mark a `static <https://www.php.net/manual/en/language.oop5.static.php>`_ method call as inside the family of classes. Children are not considered here.
 
 .. code-block:: php

@@ -5,6 +5,21 @@
 Could Use strcontains()
 +++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Could Use strcontains(): PHP 8 introduced the strcontains() function, which is a replacement for strpos().
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Could Use strcontains()
+	:twitter:description: Could Use strcontains(): PHP 8 introduced the strcontains() function, which is a replacement for strpos()
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Could Use strcontains()
+	:og:type: article
+	:og:description: PHP 8 introduced the strcontains() function, which is a replacement for strpos()
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/CouldUseStrContains.html
+	:og:locale: en
   PHP 8 introduced the strcontains() function, which is a replacement for `strpos() <https://www.php.net/strpos>`_. strcontains() checks if a string is found inside a string, and returns a boolean. 
 
 When `strpos() <https://www.php.net/strpos>`_ is used as a boolean, or compared to a boolean, strcontains() is a good replacement. When `strpos() <https://www.php.net/strpos>`_ is actually used to calculate a position inside a string, it should not be replaced.

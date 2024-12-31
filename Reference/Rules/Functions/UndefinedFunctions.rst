@@ -5,6 +5,21 @@
 Undefined Functions
 +++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Undefined Functions: Those functions are called, though they are not defined in the code.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Undefined Functions
+	:twitter:description: Undefined Functions: Those functions are called, though they are not defined in the code
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Undefined Functions
+	:og:type: article
+	:og:description: Those functions are called, though they are not defined in the code
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/UndefinedFunctions.html
+	:og:locale: en
   Those functions are called, though they are not defined in the code. 
 
 The functions are probably defined in a missing library, component, or in an extension. When this is not the case, PHP yield a Fatal `error <https://www.php.net/error>`_ at execution.

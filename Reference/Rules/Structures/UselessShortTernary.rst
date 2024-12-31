@@ -5,6 +5,21 @@
 Useless Short Ternary
 +++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Useless Short Ternary: The short ternary operates on empty or null values.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Useless Short Ternary
+	:twitter:description: Useless Short Ternary: The short ternary operates on empty or null values
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Useless Short Ternary
+	:og:type: article
+	:og:description: The short ternary operates on empty or null values
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/UselessShortTernary.html
+	:og:locale: en
   The short ternary operates on empty or null values. When the type of the condition is not false, boolean or null, the operator is useless.
 
 .. code-block:: php

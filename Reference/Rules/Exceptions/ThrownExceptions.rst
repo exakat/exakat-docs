@@ -5,6 +5,21 @@
 Thrown Exceptions
 +++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Thrown Exceptions: This rules reports the usage of the ``throw`` keyword.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Thrown Exceptions
+	:twitter:description: Thrown Exceptions: This rules reports the usage of the ``throw`` keyword
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Thrown Exceptions
+	:og:type: article
+	:og:description: This rules reports the usage of the ``throw`` keyword
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Exceptions/ThrownExceptions.html
+	:og:locale: en
   This rules reports the usage of the ``throw`` keyword. This means all these exceptions are raised at some point in the code.
 
 .. code-block:: php

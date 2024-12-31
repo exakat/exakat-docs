@@ -5,6 +5,21 @@
 Should Use session_regenerateid()
 +++++++++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Should Use session_regenerateid(): session_regenerateid() should be used when sessions are used.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Should Use session_regenerateid()
+	:twitter:description: Should Use session_regenerateid(): session_regenerateid() should be used when sessions are used
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Should Use session_regenerateid()
+	:og:type: article
+	:og:description: session_regenerateid() should be used when sessions are used
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Security/ShouldUseSessionRegenerateId.html
+	:og:locale: en
   session_regenerateid() should be used when sessions are used.
 
 When using sessions, a session ID is assigned to the user. It is a random number, used to connect the user and its data on the server. Actually, anyone with the session ID may have access to the data. This is why those session ID are so long and complex.

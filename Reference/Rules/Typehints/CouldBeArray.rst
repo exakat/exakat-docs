@@ -5,6 +5,21 @@
 Could Be Array Typehint
 +++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Could Be Array Typehint: This rule spots arguments, class constants, properties or return values that may be labeled with the ``array`` scalar typehint.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Could Be Array Typehint
+	:twitter:description: Could Be Array Typehint: This rule spots arguments, class constants, properties or return values that may be labeled with the ``array`` scalar typehint
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Could Be Array Typehint
+	:og:type: article
+	:og:description: This rule spots arguments, class constants, properties or return values that may be labeled with the ``array`` scalar typehint
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Typehints/CouldBeArray.html
+	:og:locale: en
   This rule spots arguments, class constants, properties or return values that may be labeled with the ``array`` scalar typehint. 
 
 .. code-block:: php

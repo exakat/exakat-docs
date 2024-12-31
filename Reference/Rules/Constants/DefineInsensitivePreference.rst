@@ -5,6 +5,21 @@
 Constant Case Preference
 ++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Constant Case Preference: Define() creates constants which are case sensitive or not.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Constant Case Preference
+	:twitter:description: Constant Case Preference: Define() creates constants which are case sensitive or not
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Constant Case Preference
+	:og:type: article
+	:og:description: Define() creates constants which are case sensitive or not
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Constants/DefineInsensitivePreference.html
+	:og:locale: en
   `Define() <https://www.php.net/define>`_ creates constants which are case sensitive or not. 
 
 The analyzed code has less than 10% of one of them : for consistency reasons, it is recommended to make constant sensitivity definition consistent. 

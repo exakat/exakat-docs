@@ -5,6 +5,21 @@
 Class Overreach
 +++++++++++++++
 
+.. meta\:\:
+	:description:
+		Class Overreach: An object of class A may reach any private or protected properties, constants or methods in another object of the same class.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Class Overreach
+	:twitter:description: Class Overreach: An object of class A may reach any private or protected properties, constants or methods in another object of the same class
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Class Overreach
+	:og:type: article
+	:og:description: An object of class A may reach any private or protected properties, constants or methods in another object of the same class
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/ClassOverreach.html
+	:og:locale: en
   An object of class A may reach any private or protected properties, constants or methods in another object of the same class. This is a PHP feature, though seldom known.
 
 This feature is also called class invasion.

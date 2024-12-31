@@ -5,6 +5,21 @@
 Class Const With Array
 ++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Class Const With Array: This rule lists global and class constant that are defined with an array value.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Class Const With Array
+	:twitter:description: Class Const With Array: This rule lists global and class constant that are defined with an array value
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Class Const With Array
+	:og:type: article
+	:og:description: This rule lists global and class constant that are defined with an array value
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/ClassConstWithArray.html
+	:og:locale: en
   This rule lists global and class constant that are defined with an array value. This feature was added in PHP 5.6.
 
 .. code-block:: php
@@ -55,7 +70,7 @@ _____
 +------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Time To Fix      | Slow (1 hour)                                                                                                                                                                                                                                        |
 +------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Changed Behavior | PHP 5.6 - `More <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/.html>`__                                                                                                                                                           |
+| Changed Behavior | PHP 5.6                                                                                                                                                                                                                                              |
 +------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision        | Very high                                                                                                                                                                                                                                            |
 +------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

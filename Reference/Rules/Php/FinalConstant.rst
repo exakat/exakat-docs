@@ -5,6 +5,21 @@
 Final Constant
 ++++++++++++++
 
+.. meta\:\:
+	:description:
+		Final Constant: This rule lists the usage of the final modifier for class constants.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Final Constant
+	:twitter:description: Final Constant: This rule lists the usage of the final modifier for class constants
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Final Constant
+	:og:type: article
+	:og:description: This rule lists the usage of the final modifier for class constants
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/FinalConstant.html
+	:og:locale: en
   This rule lists the usage of the final modifier for class constants. The support of final for class constants was added in PHP 8.1.
 
 .. code-block:: php

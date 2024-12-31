@@ -5,6 +5,21 @@
 Yoda Comparison
 +++++++++++++++
 
+.. meta\:\:
+	:description:
+		Yoda Comparison: Yoda comparison is a way to write conditions which places literal values on the left side.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Yoda Comparison
+	:twitter:description: Yoda Comparison: Yoda comparison is a way to write conditions which places literal values on the left side
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Yoda Comparison
+	:og:type: article
+	:og:description: Yoda comparison is a way to write conditions which places literal values on the left side
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/YodaComparison.html
+	:og:locale: en
   Yoda comparison is a way to write conditions which places literal values on the left side. 
 The objective is to avoid mistaking a comparison to an assignation. If the comparison operator is mistaken, but the literal is on the left, then an `error <https://www.php.net/error>`_ will be triggered, instead of a silent bug. 
 

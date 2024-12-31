@@ -5,6 +5,21 @@
 New On Functioncall Or Identifier
 +++++++++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		New On Functioncall Or Identifier: Object instantiation with new works with or without arguments.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: New On Functioncall Or Identifier
+	:twitter:description: New On Functioncall Or Identifier: Object instantiation with new works with or without arguments
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: New On Functioncall Or Identifier
+	:og:type: article
+	:og:description: Object instantiation with new works with or without arguments
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/NewOnFunctioncallOrIdentifier.html
+	:og:locale: en
   Object instantiation with new works with or without arguments. Both are valid in PHP. 
 
 The analyzed code has less than 10% of one of the two forms : for consistency reasons, it is recommended to make them all the same.

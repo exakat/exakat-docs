@@ -5,6 +5,21 @@
 ext/password
 ++++++++++++
 
+.. meta\:\:
+	:description:
+		ext/password: Extension password.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: ext/password
+	:twitter:description: ext/password: Extension password
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: ext/password
+	:og:type: article
+	:og:description: Extension password
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extpassword.html
+	:og:locale: en
   Extension password.
 
 The password hashing API provides an easy to use wrapper around `crypt() <https://www.php.net/crypt>`_ and some other password hashing algorithms, to make it easy to create and manage passwords in a `secure <https://www.php.net/secure>`_ manner.

@@ -5,6 +5,21 @@
 Laravel usage
 +++++++++++++
 
+.. meta\:\:
+	:description:
+		Laravel usage: This analysis reports usage of the Laravel framework.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Laravel usage
+	:twitter:description: Laravel usage: This analysis reports usage of the Laravel framework
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Laravel usage
+	:og:type: article
+	:og:description: This analysis reports usage of the Laravel framework
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Vendors/Laravel.html
+	:og:locale: en
   This analysis reports usage of the Laravel framework.
 
 .. code-block:: php

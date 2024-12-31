@@ -5,6 +5,21 @@
 Undefined Variable
 ++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Undefined Variable: Variable that is used before any initialisation.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Undefined Variable
+	:twitter:description: Undefined Variable: Variable that is used before any initialisation
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Undefined Variable
+	:og:type: article
+	:og:description: Variable that is used before any initialisation
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Variables/UndefinedVariable.html
+	:og:locale: en
   Variable that is used before any initialisation. 
 
 It is recommended to use a default value for every variable used. When not specified, the default value is set to ``NULL`` by PHP.

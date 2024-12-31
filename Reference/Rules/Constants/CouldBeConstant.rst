@@ -5,6 +5,21 @@
 Could Be Constant
 +++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Could Be Constant: Literals may be replaced by an existing constant.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Could Be Constant
+	:twitter:description: Could Be Constant: Literals may be replaced by an existing constant
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Could Be Constant
+	:og:type: article
+	:og:description: Literals may be replaced by an existing constant
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Constants/CouldBeConstant.html
+	:og:locale: en
   Literals may be replaced by an existing constant. 
 
 Constants makes the code easier to read, as they may bear a meaningful name. They also hide implementation values, with a readable name, such as ``const READABLE= true;``. Later, upgrading constant values is easier than scouring the code with a new literal. 

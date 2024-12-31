@@ -5,6 +5,21 @@
 ext/pecl_http
 +++++++++++++
 
+.. meta\:\:
+	:description:
+		ext/pecl_http: Extension HTTP.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: ext/pecl_http
+	:twitter:description: ext/pecl_http: Extension HTTP
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: ext/pecl_http
+	:og:type: article
+	:og:description: Extension HTTP
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Exthttp.html
+	:og:locale: en
   Extension HTTP.
 
 This HTTP extension aims to provide a convenient and powerful set of functionalities for one of PHP major applications.

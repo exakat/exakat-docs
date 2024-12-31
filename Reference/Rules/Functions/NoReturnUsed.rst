@@ -5,6 +5,21 @@
 No Return Used
 ++++++++++++++
 
+.. meta\:\:
+	:description:
+		No Return Used: The return value of the following methods are never used.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: No Return Used
+	:twitter:description: No Return Used: The return value of the following methods are never used
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: No Return Used
+	:og:type: article
+	:og:description: The return value of the following methods are never used
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/NoReturnUsed.html
+	:og:locale: en
   The return value of the following methods are never used. The return argument may be dropped from the code, as it is dead code.
 
 This analysis supports functions and `static <https://www.php.net/manual/en/language.oop5.static.php>`_ methods, when a definition may be found. It doesn't support method calls.

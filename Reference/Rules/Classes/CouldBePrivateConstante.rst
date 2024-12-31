@@ -5,6 +5,21 @@
 Could Be Private Class Constant
 +++++++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Could Be Private Class Constant: Class constant may use ``private`` visibility.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Could Be Private Class Constant
+	:twitter:description: Could Be Private Class Constant: Class constant may use ``private`` visibility
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Could Be Private Class Constant
+	:og:type: article
+	:og:description: Class constant may use ``private`` visibility
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/CouldBePrivateConstante.html
+	:og:locale: en
   Class constant may use ``private`` visibility. 
 
 Since PHP 7.1, constants may also have a public/protected/private visibility. This restrict their usage to anywhere, class and children or class. 

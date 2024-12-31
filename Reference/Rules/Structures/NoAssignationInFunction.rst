@@ -5,6 +5,21 @@
 Avoid Large Array Assignation
 +++++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Avoid Large Array Assignation: Avoid setting large arrays to local variables.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Avoid Large Array Assignation
+	:twitter:description: Avoid Large Array Assignation: Avoid setting large arrays to local variables
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Avoid Large Array Assignation
+	:og:type: article
+	:og:description: Avoid setting large arrays to local variables
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/NoAssignationInFunction.html
+	:og:locale: en
   Avoid setting large arrays to local variables. Such operation is done every time the function is called, and it wastes time. 
 
 This rule applies to constant arrays: when the arrays are dynamically build, with variables or properties, they are not reported here.

@@ -5,6 +5,21 @@
 Array_Fill() With Objects
 +++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Array_Fill() With Objects: array_fill() fills an array with identical objects, not copies nor clones.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Array_Fill() With Objects
+	:twitter:description: Array_Fill() With Objects: array_fill() fills an array with identical objects, not copies nor clones
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Array_Fill() With Objects
+	:og:type: article
+	:og:description: array_fill() fills an array with identical objects, not copies nor clones
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ArrayFillWithObjects.html
+	:og:locale: en
   `array_fill() <https://www.php.net/array_fill>`_ fills an array with identical objects, not copies nor clones. This means that all the filled objects are a reference to the same object. Changing one of them will change any of them.
 
 Make sure this is the intended effect in the code. 

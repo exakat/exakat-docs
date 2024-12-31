@@ -5,6 +5,21 @@
 Nowdoc Delimiter Glossary
 +++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Nowdoc Delimiter Glossary: List of all the delimiters used to build a Nowdoc string.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Nowdoc Delimiter Glossary
+	:twitter:description: Nowdoc Delimiter Glossary: List of all the delimiters used to build a Nowdoc string
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Nowdoc Delimiter Glossary
+	:og:type: article
+	:og:description: List of all the delimiters used to build a Nowdoc string
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Type/Nowdoc.html
+	:og:locale: en
   List of all the delimiters used to build a Nowdoc string.
 
 .. code-block:: php

@@ -5,6 +5,21 @@
 Mixed Concat And Interpolation
 ++++++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Mixed Concat And Interpolation: Mixed usage of concatenation and string interpolation is error prone.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Mixed Concat And Interpolation
+	:twitter:description: Mixed Concat And Interpolation: Mixed usage of concatenation and string interpolation is error prone
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Mixed Concat And Interpolation
+	:og:type: article
+	:og:description: Mixed usage of concatenation and string interpolation is error prone
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/MixedConcatInterpolation.html
+	:og:locale: en
   Mixed usage of concatenation and string interpolation is `error <https://www.php.net/error>`_ prone. It is harder to read, and leads to overlooking the concatenation or the interpolation.
 
 Fixing this issue has no impact on the output. It makes code less `error <https://www.php.net/error>`_ prone.

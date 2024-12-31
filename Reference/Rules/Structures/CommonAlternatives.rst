@@ -5,6 +5,21 @@
 Common Alternatives
 +++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Common Alternatives: In the following conditional structures, expressions were found that are common to both 'then' and 'else'.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Common Alternatives
+	:twitter:description: Common Alternatives: In the following conditional structures, expressions were found that are common to both 'then' and 'else'
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Common Alternatives
+	:og:type: article
+	:og:description: In the following conditional structures, expressions were found that are common to both 'then' and 'else'
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/CommonAlternatives.html
+	:og:locale: en
   In the following conditional structures, expressions were found that are common to both 'then' and 'else'. It may be interesting, though not always possible, to put them both out of the conditional, and reduce line count. 
 may be rewritten in :
 

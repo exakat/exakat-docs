@@ -5,6 +5,21 @@
 Cant Instantiate Non Class
 ++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Cant Instantiate Non Class: It is not possible to instantiate anything else than a class.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Cant Instantiate Non Class
+	:twitter:description: Cant Instantiate Non Class: It is not possible to instantiate anything else than a class
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Cant Instantiate Non Class
+	:og:type: article
+	:og:description: It is not possible to instantiate anything else than a class
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/CantInstantiateNonClass.html
+	:og:locale: en
   It is not possible to instantiate anything else than a class. Interfaces, enumerations and traits cannot be instantiated.
 
 .. code-block:: php
@@ -22,9 +37,9 @@ Cant Instantiate Non Class
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/+Cannot+instantiate+trait+t+.html>`_
-  + `1 <https://php-errors.readthedocs.io/en/latest/messages/+Cannot+instantiate+interface+i+.html>`_
-  + `2 <https://php-errors.readthedocs.io/en/latest/messages/+Cannot+instantiate+enum+e+.html>`_
+  + `Cannot instantiate trait %s <https://php-errors.readthedocs.io/en/latest/messages/cannot-instantiate-trait-%25s.html>`_
+  + `Cannot instantiate interface %s <https://php-errors.readthedocs.io/en/latest/messages/cannot-instantiate-interface-%25s.html>`_
+  + `Cannot instantiate enum %s <https://php-errors.readthedocs.io/en/latest/messages/cannot-instantiate-enum-%25s.html>`_
 
 
 

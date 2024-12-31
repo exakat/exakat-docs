@@ -5,6 +5,21 @@
 Wrong Typed Property Default
 ++++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Wrong Typed Property Default: Property is typed, yet receives an incompatible value at constructor time.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Wrong Typed Property Default
+	:twitter:description: Wrong Typed Property Default: Property is typed, yet receives an incompatible value at constructor time
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Wrong Typed Property Default
+	:og:type: article
+	:og:description: Property is typed, yet receives an incompatible value at constructor time
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/WrongTypedPropertyInit.html
+	:og:locale: en
   Property is typed, yet receives an incompatible value at constructor time.
 
 Initialized type might be a new instance, the return of a method call or an interface compatible object.

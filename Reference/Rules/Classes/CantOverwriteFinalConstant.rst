@@ -5,6 +5,21 @@
 Can't Overwrite Final Constant
 ++++++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Can't Overwrite Final Constant: A class constant may be ``final``, and can't be overwritten in a child class.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Can't Overwrite Final Constant
+	:twitter:description: Can't Overwrite Final Constant: A class constant may be ``final``, and can't be overwritten in a child class
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Can't Overwrite Final Constant
+	:og:type: article
+	:og:description: A class constant may be ``final``, and can't be overwritten in a child class
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/CantOverwriteFinalConstant.html
+	:og:locale: en
   A class constant may be ``final``, and can't be overwritten in a child class. ``final`` is a way to make sure a constant cannot be changed in children classes.
 
 ``private`` constants can't be made final, as they are not accessible to any other class. 
@@ -29,7 +44,7 @@ Can't Overwrite Final Constant
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/y%3A%3AF+cannot+override+final+constant+x%3A%3AF.html>`_
+  + `%s::%s cannot override final constant %s::%s <https://php-errors.readthedocs.io/en/latest/messages/%25s%5C%3A%5C%3A%25s-cannot-override-final-constant-%25s%5C%3A%5C%3A%25s.html>`_
 
 
 

@@ -5,6 +5,21 @@
 ext/zip
 +++++++
 
+.. meta\:\:
+	:description:
+		ext/zip: Extension ext/zip.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: ext/zip
+	:twitter:description: ext/zip: Extension ext/zip
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: ext/zip
+	:og:type: article
+	:og:description: Extension ext/zip
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extzip.html
+	:og:locale: en
   Extension ext/zip.
 
 This extension enables you to transparently read or write ZIP compressed archives and the files inside them.

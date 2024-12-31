@@ -5,6 +5,21 @@
 Could Be Protected Method
 +++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Could Be Protected Method: Those methods are declared 'public', but are never used publicly.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Could Be Protected Method
+	:twitter:description: Could Be Protected Method: Those methods are declared 'public', but are never used publicly
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Could Be Protected Method
+	:og:type: article
+	:og:description: Those methods are declared 'public', but are never used publicly
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/CouldBeProtectedMethod.html
+	:og:locale: en
   Those methods are declared 'public', but are never used publicly. They may be made 'protected'. 
 
 These properties may even be made private.

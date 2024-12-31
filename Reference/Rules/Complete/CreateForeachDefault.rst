@@ -5,6 +5,21 @@
 Create Foreach Default
 ++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Create Foreach Default: This command adds DEFAULT link from the blind variables to the literal definitions, when they are available.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Create Foreach Default
+	:twitter:description: Create Foreach Default: This command adds DEFAULT link from the blind variables to the literal definitions, when they are available
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Create Foreach Default
+	:og:type: article
+	:og:description: This command adds DEFAULT link from the blind variables to the literal definitions, when they are available
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Complete/CreateForeachDefault.html
+	:og:locale: en
   This command adds DEFAULT link from the blind variables to the literal definitions, when they are available. This adds sources for `static <https://www.php.net/manual/en/language.oop5.static.php>`_ loops, which are based on hardcoded list of data. Dynamic loops are not affected.
 
 .. code-block:: php

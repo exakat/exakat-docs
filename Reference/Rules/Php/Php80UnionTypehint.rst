@@ -5,6 +5,21 @@
 Union Typehint
 ++++++++++++++
 
+.. meta\:\:
+	:description:
+		Union Typehint: Union typehints allows the specification of several typehint for the same argument or return value.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Union Typehint
+	:twitter:description: Union Typehint: Union typehints allows the specification of several typehint for the same argument or return value
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Union Typehint
+	:og:type: article
+	:og:description: Union typehints allows the specification of several typehint for the same argument or return value
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/Php80UnionTypehint.html
+	:og:locale: en
   Union typehints allows the specification of several typehint for the same argument or return value. 
 
 Several typehints are specified at the same place as a single one. The different values are separated by a pipe character ``|``, like for exceptions 
@@ -35,7 +50,7 @@ See also `PHP RFC: Union Types 2.0 <https://wiki.php.net/rfc/union_types_v2>`_, 
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/syntax+error%2C+unexpected+%27%7C%27%2C+expecting+variable+%28T_VARIABLE%29.html>`_
+  + `syntax error, unexpected '|', expecting variable (T_VARIABLE) <https://php-errors.readthedocs.io/en/latest/messages/syntax+error%2C+unexpected+%27%7C%27%2C+expecting+variable+%28T_VARIABLE%29.html>`_
 
 
 

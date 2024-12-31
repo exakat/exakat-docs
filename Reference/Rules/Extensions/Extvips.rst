@@ -5,6 +5,21 @@
 ext/vips
 ++++++++
 
+.. meta\:\:
+	:description:
+		ext/vips: Extension VIPS.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: ext/vips
+	:twitter:description: ext/vips: Extension VIPS
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: ext/vips
+	:og:type: article
+	:og:description: Extension VIPS
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extvips.html
+	:og:locale: en
   Extension VIPS.
 
 The VIPS image processing system is a very fast, multi-threaded image processing library with low memory needs.

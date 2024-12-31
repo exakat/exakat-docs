@@ -5,6 +5,21 @@
 Wrong Range Check
 +++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Wrong Range Check: The interval check should use && and not ||.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Wrong Range Check
+	:twitter:description: Wrong Range Check: The interval check should use && and not ||
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Wrong Range Check
+	:og:type: article
+	:og:description: The interval check should use && and not ||
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/WrongRange.html
+	:og:locale: en
   The interval check should use && and not ||.
 
 .. code-block:: php

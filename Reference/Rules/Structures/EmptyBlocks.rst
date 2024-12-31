@@ -5,6 +5,21 @@
 Empty Blocks
 ++++++++++++
 
+.. meta\:\:
+	:description:
+		Empty Blocks: Full empty block, part of a control structures.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Empty Blocks
+	:twitter:description: Empty Blocks: Full empty block, part of a control structures
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Empty Blocks
+	:og:type: article
+	:og:description: Full empty block, part of a control structures
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/EmptyBlocks.html
+	:og:locale: en
   Full empty block, part of a control structures. 
 
 It is recommended to remove those blocks, so as to reduce confusion in the code.

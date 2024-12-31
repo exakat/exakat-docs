@@ -5,6 +5,21 @@
 isset() With Constant
 +++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		isset() With Constant: Until PHP 7, it was possible to use arrays as constants, but it was not possible to test them with isset.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: isset() With Constant
+	:twitter:description: isset() With Constant: Until PHP 7, it was possible to use arrays as constants, but it was not possible to test them with isset
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: isset() With Constant
+	:og:type: article
+	:og:description: Until PHP 7, it was possible to use arrays as constants, but it was not possible to test them with isset
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/IssetWithConstant.html
+	:og:locale: en
   Until PHP 7, it was possible to use arrays as constants, but it was not possible to test them with `isset <https://www.www.php.net/isset>`_.
 
 This would yield an `error <https://www.php.net/error>`_ : ``Cannot use `isset() <https://www.www.php.net/isset>`_ on the `result <https://www.php.net/result>`_ of an expression (you can use "null !== expression" instead)``. This is a backward incompatibility.
@@ -19,7 +34,7 @@ This would yield an `error <https://www.php.net/error>`_ : ``Cannot use `isset()
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Cannot+use+isset%28%29+on+the+result+of+an+expression+%28you+can+use+%22null+%21%3D%3D+expression%22+instead%29.html>`_
+  + `Cannot use isset() on the result of an expression (you can use "null !== expression" instead) <https://php-errors.readthedocs.io/en/latest/messages/cannot-use-isset%5C%28%5C%29-on-the-result-of-an-expression-%5C%28you-can-use-%22null-%5C%21%5C%3D%5C%3D-expression%22-instead%5C%29.html>`_
 
 
 
@@ -53,7 +68,7 @@ _____
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Time To Fix      | Instant (5 mins)                                                                                                                                                                                                                                                                                             |
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Changed Behavior | PHP 7.0 - `More <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/.html>`__                                                                                                                                                                                                                   |
+| Changed Behavior | PHP 7.0                                                                                                                                                                                                                                                                                                      |
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision        | Very high                                                                                                                                                                                                                                                                                                    |
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

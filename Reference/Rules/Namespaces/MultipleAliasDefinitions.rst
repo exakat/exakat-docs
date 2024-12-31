@@ -5,6 +5,21 @@
 Multiple Alias Definitions
 ++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Multiple Alias Definitions: Some aliases are representing different classes across the repository.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Multiple Alias Definitions
+	:twitter:description: Multiple Alias Definitions: Some aliases are representing different classes across the repository
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Multiple Alias Definitions
+	:og:type: article
+	:og:description: Some aliases are representing different classes across the repository
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Namespaces/MultipleAliasDefinitions.html
+	:og:locale: en
   Some aliases are representing different classes across the repository. This leads to potential confusion. 
 
 Across an application, it is recommended to use the same namespace for one alias. Failing to do this lead to the same keyword to represent different values in different files, with different behavior. Those are hard to find bugs.

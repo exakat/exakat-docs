@@ -5,6 +5,21 @@
 Declare strict_types Usage
 ++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Declare strict_types Usage: Usage of ``strict_types``.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Declare strict_types Usage
+	:twitter:description: Declare strict_types Usage: Usage of ``strict_types``
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Declare strict_types Usage
+	:og:type: article
+	:og:description: Usage of ``strict_types``
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/DeclareStrictType.html
+	:og:locale: en
   Usage of ``strict_types``. By default, PHP attempts to change the original type to match the type specified by the type-declaration. With an explicit ``strict_types`` declaration, PHP ensures that the incoming argument has the exact type. 
 
 ``strict_types`` were introduced in PHP 7.0.

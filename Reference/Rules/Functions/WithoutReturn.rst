@@ -5,6 +5,21 @@
 Methods Without Return
 ++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Methods Without Return: List of all the functions, closures, methods that have no explicit return.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Methods Without Return
+	:twitter:description: Methods Without Return: List of all the functions, closures, methods that have no explicit return
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Methods Without Return
+	:og:type: article
+	:og:description: List of all the functions, closures, methods that have no explicit return
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/WithoutReturn.html
+	:og:locale: en
   List of all the functions, closures, methods that have no explicit return. 
 
 Functions with the ``void`` or ``never`` return types, are omitted.

@@ -5,6 +5,21 @@
 Unused Enumeration Case
 +++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Unused Enumeration Case: Those are enumeration cases which are defined, yet not used.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Unused Enumeration Case
+	:twitter:description: Unused Enumeration Case: Those are enumeration cases which are defined, yet not used
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Unused Enumeration Case
+	:og:type: article
+	:og:description: Those are enumeration cases which are defined, yet not used
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Enums/UnusedEnumCase.html
+	:og:locale: en
   Those are enumeration cases which are defined, yet not used.
 
 The `error <https://www.php.net/error>`_ message when the case is missing mentions a class constant : this is because enumeration cases and class constants use the same configuration. They are only distinguished by their definition, which, here, does not exists.

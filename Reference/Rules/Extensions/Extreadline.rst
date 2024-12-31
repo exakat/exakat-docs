@@ -5,6 +5,21 @@
 ext/readline
 ++++++++++++
 
+.. meta\:\:
+	:description:
+		ext/readline: Extension readline.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: ext/readline
+	:twitter:description: ext/readline: Extension readline
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: ext/readline
+	:og:type: article
+	:og:description: Extension readline
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extreadline.html
+	:og:locale: en
   Extension readline.
 
 The readline functions implement an interface to the GNU Readline library. These are functions that provide editable command lines.

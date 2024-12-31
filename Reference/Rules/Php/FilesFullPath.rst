@@ -5,6 +5,21 @@
 $FILES full_path
 ++++++++++++++++
 
+.. meta\:\:
+	:description:
+		$FILES full_path: A new index 'full_path' was added to the $_FILES to handle directory uploads.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: $FILES full_path
+	:twitter:description: $FILES full_path: A new index 'full_path' was added to the $_FILES to handle directory uploads
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: $FILES full_path
+	:og:type: article
+	:og:description: A new index 'full_path' was added to the $_FILES to handle directory uploads
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/FilesFullPath.html
+	:og:locale: en
   A new index 'full_path' was added to the $_FILES to handle `directory <https://www.php.net/`directory <https://www.php.net/directory>`_>`_ uploads. This was added in PHP 8.1, and is not available before.
 
 .. code-block:: php

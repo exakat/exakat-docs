@@ -5,6 +5,21 @@
 Invalid Constant Name
 +++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Invalid Constant Name: There is a naming convention for PHP constants names.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Invalid Constant Name
+	:twitter:description: Invalid Constant Name: There is a naming convention for PHP constants names
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Invalid Constant Name
+	:og:type: article
+	:og:description: There is a naming convention for PHP constants names
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Constants/InvalidName.html
+	:og:locale: en
   There is a naming convention for PHP constants names. 
 
 According to PHP's manual, constant names, ' A valid constant name starts with a letter or underscore, followed by any number of letters, numbers, or underscores.'.

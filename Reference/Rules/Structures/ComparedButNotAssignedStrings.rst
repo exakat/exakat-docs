@@ -5,6 +5,21 @@
 Compared But Not Assigned Strings
 +++++++++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Compared But Not Assigned Strings: Those strings are compared to variables in the code, but those values are never assigned.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Compared But Not Assigned Strings
+	:twitter:description: Compared But Not Assigned Strings: Those strings are compared to variables in the code, but those values are never assigned
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Compared But Not Assigned Strings
+	:og:type: article
+	:og:description: Those strings are compared to variables in the code, but those values are never assigned
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ComparedButNotAssignedStrings.html
+	:og:locale: en
   Those strings are compared to variables in the code, but those values are never assigned.
 
 .. code-block:: php

@@ -5,6 +5,21 @@
 ext/xdebug
 ++++++++++
 
+.. meta\:\:
+	:description:
+		ext/xdebug: Xdebug extension.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: ext/xdebug
+	:twitter:description: ext/xdebug: Xdebug extension
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: ext/xdebug
+	:og:type: article
+	:og:description: Xdebug extension
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extxdebug.html
+	:og:locale: en
   Xdebug extension.
 
 The Xdebug is a extension PHP which provides debugging and profiling capabilities.

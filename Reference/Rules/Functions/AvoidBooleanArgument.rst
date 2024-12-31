@@ -5,6 +5,21 @@
 Use Named Boolean In Argument Definition
 ++++++++++++++++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Use Named Boolean In Argument Definition: Boolean values in argument definition are confusing.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Use Named Boolean In Argument Definition
+	:twitter:description: Use Named Boolean In Argument Definition: Boolean values in argument definition are confusing
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Use Named Boolean In Argument Definition
+	:og:type: article
+	:og:description: Boolean values in argument definition are confusing
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/AvoidBooleanArgument.html
+	:og:locale: en
   Boolean values in argument definition are confusing. 
 
 It is recommended to use explicit constant names or enumerations, instead. They are more readable. They also allow for easy replacement when the code evolve and has to replace those booleans by strings. This works even also with classes, and class constants.

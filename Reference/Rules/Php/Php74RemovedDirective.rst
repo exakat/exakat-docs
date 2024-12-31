@@ -5,6 +5,21 @@
 PHP 7.4 Removed Directives
 ++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		PHP 7.4 Removed Directives: List of directives that are removed in PHP 7.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: PHP 7.4 Removed Directives
+	:twitter:description: PHP 7.4 Removed Directives: List of directives that are removed in PHP 7
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: PHP 7.4 Removed Directives
+	:og:type: article
+	:og:description: List of directives that are removed in PHP 7
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/Php74RemovedDirective.html
+	:og:locale: en
   List of directives that are removed in PHP 7.4.
 
 + allow_url_include

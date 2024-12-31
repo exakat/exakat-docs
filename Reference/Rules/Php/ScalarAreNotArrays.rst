@@ -5,6 +5,21 @@
 Scalar Are Not Arrays
 +++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Scalar Are Not Arrays: It is wrong to use a scalar as an array, a Warning is emitted.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Scalar Are Not Arrays
+	:twitter:description: Scalar Are Not Arrays: It is wrong to use a scalar as an array, a Warning is emitted
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Scalar Are Not Arrays
+	:og:type: article
+	:og:description: It is wrong to use a scalar as an array, a Warning is emitted
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/ScalarAreNotArrays.html
+	:og:locale: en
   It is wrong to use a scalar as an array, a Warning is emitted. PHP 7.4 emits a Warning in such situations.
 Typehinted argument with a scalar are reported by this analysis. Also, nullable arguments, both with typehint and return type hint.
 
@@ -24,7 +39,7 @@ See also `E_WARNING for invalid container read array-access <https://wiki.php.ne
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Trying+to+access+array+offset+on+value+of+type+null.html>`_
+  + `Trying to access array offset on value of type null <https://php-errors.readthedocs.io/en/latest/messages/trying-to-access-array-offset-on-%25s.html>`_
 
 
 

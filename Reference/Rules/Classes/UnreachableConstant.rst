@@ -5,6 +5,21 @@
 Unreachable Class Constant
 ++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Unreachable Class Constant: Class constants may be unreachable due to visibility configuration.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Unreachable Class Constant
+	:twitter:description: Unreachable Class Constant: Class constants may be unreachable due to visibility configuration
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Unreachable Class Constant
+	:og:type: article
+	:og:description: Class constants may be unreachable due to visibility configuration
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/UnreachableConstant.html
+	:og:locale: en
   Class constants may be unreachable due to visibility configuration. 
 
 Since PHP 7.1, class constants support visibility. Their usage may be restricted to the current class, or ``private``, to classes that extends or are extended by the current class, or ``protected``. They may also be ``public``, just like it was before.

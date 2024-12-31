@@ -5,6 +5,21 @@
 Not Same Name As File
 +++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Not Same Name As File: The class, interface or trait in this file as a different name, case included, than the file name.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Not Same Name As File
+	:twitter:description: Not Same Name As File: The class, interface or trait in this file as a different name, case included, than the file name
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Not Same Name As File
+	:og:type: article
+	:og:description: The class, interface or trait in this file as a different name, case included, than the file name
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/SameNameAsFile.html
+	:og:locale: en
   The class, interface or trait in this file as a different name, case included, than the file name. 
 
 In the following example,  the file name is ``Foo.php``.

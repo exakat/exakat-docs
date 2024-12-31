@@ -5,6 +5,21 @@
 Static Call May Be Truly Static
 +++++++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Static Call May Be Truly Static: Static calls are allowed on objects.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Static Call May Be Truly Static
+	:twitter:description: Static Call May Be Truly Static: Static calls are allowed on objects
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Static Call May Be Truly Static
+	:og:type: article
+	:og:description: Static calls are allowed on objects
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Performances/StaticCallDontNeedObjects.html
+	:og:locale: en
   `Static <https://www.php.net/manual/en/language.oop5.static.php>`_ calls are allowed on objects. Although, when using typehinting, it is better to use the actual type, and allow PHP to prepare this at compilation time, not at execution time.
 
 When the typehint is an interface or an abstract class, then the object may hold a different type : those cases are omitted.

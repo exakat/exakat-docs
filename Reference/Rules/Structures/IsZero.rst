@@ -5,6 +5,21 @@
 Is Actually Zero
 ++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Is Actually Zero: This addition actually may be simplified because one term is actually negated by another.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Is Actually Zero
+	:twitter:description: Is Actually Zero: This addition actually may be simplified because one term is actually negated by another
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Is Actually Zero
+	:og:type: article
+	:og:description: This addition actually may be simplified because one term is actually negated by another
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/IsZero.html
+	:og:locale: en
   This addition actually may be simplified because one term is actually negated by another. 
 
 This kind of `error <https://www.php.net/error>`_ happens when the expression is very large : the more terms are included, the more chances are that some auto-annihilation happens. 

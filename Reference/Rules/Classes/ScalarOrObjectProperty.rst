@@ -5,6 +5,21 @@
 Scalar Or Object Property
 +++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Scalar Or Object Property: Property shouldn't use both object and scalar syntaxes.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Scalar Or Object Property
+	:twitter:description: Scalar Or Object Property: Property shouldn't use both object and scalar syntaxes
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Scalar Or Object Property
+	:og:type: article
+	:og:description: Property shouldn't use both object and scalar syntaxes
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/ScalarOrObjectProperty.html
+	:og:locale: en
   Property shouldn't use both object and scalar syntaxes. When a property may be an object, it is recommended to implement the Null Object pattern : instead of checking if the property is scalar, make it always object.
 
 .. code-block:: php

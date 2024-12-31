@@ -5,6 +5,21 @@
 For Using Functioncall
 ++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		For Using Functioncall: It is recommended to avoid functioncall in the for() statement.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: For Using Functioncall
+	:twitter:description: For Using Functioncall: It is recommended to avoid functioncall in the for() statement
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: For Using Functioncall
+	:og:type: article
+	:og:description: It is recommended to avoid functioncall in the for() statement
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ForWithFunctioncall.html
+	:og:locale: en
   It is recommended to avoid functioncall in the `for() <https://www.php.net/manual/en/control-structures.for.php>`_ statement. 
 
 This is true with any kind of functioncall that returns the same value throughout the loop. 

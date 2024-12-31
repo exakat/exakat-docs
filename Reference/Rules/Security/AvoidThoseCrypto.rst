@@ -5,6 +5,21 @@
 Avoid Those Hash Functions
 ++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Avoid Those Hash Functions: The following cryptography algorithms are considered insecure, and should be replaced with new and more modern algorithms.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Avoid Those Hash Functions
+	:twitter:description: Avoid Those Hash Functions: The following cryptography algorithms are considered insecure, and should be replaced with new and more modern algorithms
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Avoid Those Hash Functions
+	:og:type: article
+	:og:description: The following cryptography algorithms are considered insecure, and should be replaced with new and more modern algorithms
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Security/AvoidThoseCrypto.html
+	:og:locale: en
   The following cryptography algorithms are considered insecure, and should be replaced with new and more modern algorithms. 
 
 ``MD2``, ``MD4``, ``MD5``, ``SHA0``, ``SHA1``, ``CRC``, ``DES``, ``3DES``, ``RC2``, ``RC4``. 

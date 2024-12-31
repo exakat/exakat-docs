@@ -5,6 +5,21 @@
 No Need For Else
 ++++++++++++++++
 
+.. meta\:\:
+	:description:
+		No Need For Else: Else is not needed when the Then ends with a break.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: No Need For Else
+	:twitter:description: No Need For Else: Else is not needed when the Then ends with a break
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: No Need For Else
+	:og:type: article
+	:og:description: Else is not needed when the Then ends with a break
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/NoNeedForElse.html
+	:og:locale: en
   Else is not needed when the Then ends with a `break <https://www.php.net/manual/en/control-structures.break.php>`_. A `break <https://www.php.net/manual/en/control-structures.break.php>`_ may be the following keywords : `break <https://www.php.net/manual/en/control-structures.break.php>`_, `continue <https://www.php.net/manual/en/control-structures.continue.php>`_, return, goto. Any of these send the execution somewhere in the code. The else block is then executed as the main sequence, only if the condition fails.
 
 .. code-block:: php

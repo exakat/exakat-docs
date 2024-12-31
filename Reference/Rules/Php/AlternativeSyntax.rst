@@ -5,6 +5,21 @@
 PHP Alternative Syntax
 ++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		PHP Alternative Syntax: This rule identifies the usage of alternative syntax in the code, for if then, switch, while, for and foreach.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: PHP Alternative Syntax
+	:twitter:description: PHP Alternative Syntax: This rule identifies the usage of alternative syntax in the code, for if then, switch, while, for and foreach
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: PHP Alternative Syntax
+	:og:type: article
+	:og:description: This rule identifies the usage of alternative syntax in the code, for if then, switch, while, for and foreach
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/AlternativeSyntax.html
+	:og:locale: en
   This rule identifies the usage of alternative syntax in the code, for if then, switch, while, for and foreach.
 
 Alternative syntax is another way to write the same expression. Alternative syntax is less popular than the normal one, and associated with older coding practices.

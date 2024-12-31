@@ -5,6 +5,21 @@
 Switch Fallthrough
 ++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Switch Fallthrough: A switch with fallthrough is prone to errors.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Switch Fallthrough
+	:twitter:description: Switch Fallthrough: A switch with fallthrough is prone to errors
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Switch Fallthrough
+	:og:type: article
+	:og:description: A switch with fallthrough is prone to errors
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/Fallthrough.html
+	:og:locale: en
   A switch with fallthrough is prone to errors. 
 
 A fallthrough happens when a case or default clause in a switch statement is not finished by a `break <https://www.php.net/manual/en/control-structures.break.php>`_ (or equivalent);

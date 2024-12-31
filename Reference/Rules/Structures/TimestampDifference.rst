@@ -5,6 +5,21 @@
 Timestamp Difference
 ++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Timestamp Difference: Avoid adding or subtracting quantities of seconds to measure time.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Timestamp Difference
+	:twitter:description: Timestamp Difference: Avoid adding or subtracting quantities of seconds to measure time
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Timestamp Difference
+	:og:type: article
+	:og:description: Avoid adding or subtracting quantities of seconds to measure time
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/TimestampDifference.html
+	:og:locale: en
   Avoid adding or subtracting quantities of seconds to measure time. 
 
 ``time()``, ``microtime()`` or ``DateTime\:\:format('U')`` provide timestamps, which are the number of seconds since ``January, 1rst, 1970``. They shouldn't be used to calculate duration or another date by adding an amount of seconds. 

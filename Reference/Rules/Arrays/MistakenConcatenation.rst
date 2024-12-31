@@ -5,6 +5,21 @@
 Mistaken Concatenation
 ++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Mistaken Concatenation: A unexpected structure is built for initialization.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Mistaken Concatenation
+	:twitter:description: Mistaken Concatenation: A unexpected structure is built for initialization
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Mistaken Concatenation
+	:og:type: article
+	:og:description: A unexpected structure is built for initialization
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Arrays/MistakenConcatenation.html
+	:og:locale: en
   A unexpected structure is built for initialization. It may be a typo that creates an unwanted expression.
 
 .. code-block:: php

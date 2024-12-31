@@ -5,6 +5,21 @@
 Could Cast To Array
 +++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Could Cast To Array: The array cast operator transform a scalar into an array with that scalar.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Could Cast To Array
+	:twitter:description: Could Cast To Array: The array cast operator transform a scalar into an array with that scalar
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Could Cast To Array
+	:og:type: article
+	:og:description: The array cast operator transform a scalar into an array with that scalar
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/CouldCastToArray.html
+	:og:locale: en
   The array cast operator transform a scalar into an array with that scalar. It also keeps an array as an array, so a single call to ``(array)`` is able to convert scalars to array, while keeping values already in array form intact.
 
 .. code-block:: php

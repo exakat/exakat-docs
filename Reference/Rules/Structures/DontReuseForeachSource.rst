@@ -5,6 +5,21 @@
 Don't Reuse Foreach Source
 ++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Don't Reuse Foreach Source: It is dangerous to reuse the same variable inside a loop that use it as a source.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Don't Reuse Foreach Source
+	:twitter:description: Don't Reuse Foreach Source: It is dangerous to reuse the same variable inside a loop that use it as a source
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Don't Reuse Foreach Source
+	:og:type: article
+	:og:description: It is dangerous to reuse the same variable inside a loop that use it as a source
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/DontReuseForeachSource.html
+	:og:locale: en
   It is dangerous to reuse the same variable inside a loop that use it as a source.
 
 PHP actually takes a copy of the source, so the `foreach() <https://www.php.net/manual/en/control-structures.foreach.php>`_ loop is not affected by the modification. 

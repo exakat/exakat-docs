@@ -5,6 +5,21 @@
 Don't Loop On Yield
 +++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Don't Loop On Yield: Use ``yield from``, instead of looping on a generator with ``yield``.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Don't Loop On Yield
+	:twitter:description: Don't Loop On Yield: Use ``yield from``, instead of looping on a generator with ``yield``
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Don't Loop On Yield
+	:og:type: article
+	:og:description: Use ``yield from``, instead of looping on a generator with ``yield``
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/DontLoopOnYield.html
+	:og:locale: en
   Use ``yield from``, instead of looping on a `generator <https://www.php.net/`generator <https://www.php.net/generator>`_>`_ with ``yield``.
 
 ``yield from`` delegate the yielding to another `generator <https://www.php.net/`generator <https://www.php.net/generator>`_>`_, and keep calling that `generator <https://www.php.net/`generator <https://www.php.net/generator>`_>`_ until it is finished. It also works with implicit `generator <https://www.php.net/`generator <https://www.php.net/generator>`_>`_ datastructure, like arrays.

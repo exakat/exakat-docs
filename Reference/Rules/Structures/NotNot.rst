@@ -5,6 +5,21 @@
 Not Not
 +++++++
 
+.. meta\:\:
+	:description:
+		Not Not: Double not makes a boolean, not a ``true``.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Not Not
+	:twitter:description: Not Not: Double not makes a boolean, not a ``true``
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Not Not
+	:og:type: article
+	:og:description: Double not makes a boolean, not a ``true``
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/NotNot.html
+	:og:locale: en
   Double not makes a boolean, not a ``true``.
 
 This is a wrong casting to boolean. PHP supports ``(boolean)`` to do the same, faster and cleaner.

@@ -5,6 +5,21 @@
 Function Subscripting
 +++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Function Subscripting: It is possible to use the result of a methodcall directly as an array, without storing the result in a temporary variable.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Function Subscripting
+	:twitter:description: Function Subscripting: It is possible to use the result of a methodcall directly as an array, without storing the result in a temporary variable
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Function Subscripting
+	:og:type: article
+	:og:description: It is possible to use the result of a methodcall directly as an array, without storing the result in a temporary variable
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/FunctionSubscripting.html
+	:og:locale: en
   It is possible to use the `result <https://www.php.net/result>`_ of a methodcall directly as an array, without storing the `result <https://www.php.net/result>`_ in a temporary variable.
 
 This works, given that the method actually returns an array. 

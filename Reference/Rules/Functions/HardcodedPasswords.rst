@@ -5,6 +5,21 @@
 Hardcoded Passwords
 +++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Hardcoded Passwords: Hardcoded passwords in the code.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Hardcoded Passwords
+	:twitter:description: Hardcoded Passwords: Hardcoded passwords in the code
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Hardcoded Passwords
+	:og:type: article
+	:og:description: Hardcoded passwords in the code
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/HardcodedPasswords.html
+	:og:locale: en
   Hardcoded passwords in the code. 
 
 Hardcoding passwords is a bad idea. Not only it make the code difficult to change, but it is an information leak. It is better to hide this kind of information out of the code.

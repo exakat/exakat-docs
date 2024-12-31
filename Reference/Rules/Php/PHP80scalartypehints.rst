@@ -5,6 +5,21 @@
 PHP 8.0 Typehints
 +++++++++++++++++
 
+.. meta\:\:
+	:description:
+		PHP 8.0 Typehints: New scalar typehints were introduced : mixed and false.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: PHP 8.0 Typehints
+	:twitter:description: PHP 8.0 Typehints: New scalar typehints were introduced : mixed and false
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: PHP 8.0 Typehints
+	:og:type: article
+	:og:description: New scalar typehints were introduced : mixed and false
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/PHP80scalartypehints.html
+	:og:locale: en
   New scalar typehints were introduced : mixed and false. 
 
 They can't be used before PHP 8.0, and will be confused with classes or interfaces, or generate a parse `error <https://www.php.net/error>`_.

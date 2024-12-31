@@ -5,6 +5,21 @@
 No Referenced Void
 ++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		No Referenced Void: There is no point returning a reference with a void type.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: No Referenced Void
+	:twitter:description: No Referenced Void: There is no point returning a reference with a void type
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: No Referenced Void
+	:og:type: article
+	:og:description: There is no point returning a reference with a void type
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/NoReferencedVoid.html
+	:og:locale: en
   There is no point returning a reference with a void type. This is now reported as deprecated in PHP 8.1.
 
 .. code-block:: php

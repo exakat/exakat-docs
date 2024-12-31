@@ -5,6 +5,21 @@
 Check Division By Zero
 ++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Check Division By Zero: Always check before dividing by a value.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Check Division By Zero
+	:twitter:description: Check Division By Zero: Always check before dividing by a value
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Check Division By Zero
+	:og:type: article
+	:og:description: Always check before dividing by a value
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/CheckDivision.html
+	:og:locale: en
   Always check before dividing by a value. If that value is cast to 0, PHP might stop the processing with an `exception <https://www.php.net/exception>`_, or keep processing it with 0 as a `result <https://www.php.net/result>`_. Both will raise problems. 
 
 The best practise is to check the incoming value before attempting the division. On possible alternative is to catch the `DivisionByZeroError <https://www.php.net/manual/en/class.`divisionbyzeroerror <https://www.php.net/divisionbyzeroerror>`_.php>`_ `exception <https://www.php.net/exception>`_, that PHP 8.0 and more recent will raise.

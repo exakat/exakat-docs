@@ -5,6 +5,21 @@
 Composer's autoload
 +++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Composer's autoload: Report if this code is using the autoload from Composer.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Composer's autoload
+	:twitter:description: Composer's autoload: Report if this code is using the autoload from Composer
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Composer's autoload
+	:og:type: article
+	:og:description: Report if this code is using the autoload from Composer
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Composer/Autoload.html
+	:og:locale: en
   Report if this code is using the autoload from Composer.
 Connex PHP features
 -------------------

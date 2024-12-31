@@ -5,6 +5,21 @@
 Collect Calls
 +++++++++++++
 
+.. meta\:\:
+	:description:
+		Collect Calls: Collects calls to methods, and functions, and mentions the calling method or function.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Collect Calls
+	:twitter:description: Collect Calls: Collects calls to methods, and functions, and mentions the calling method or function
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Collect Calls
+	:og:type: article
+	:og:description: Collects calls to methods, and functions, and mentions the calling method or function
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/CollectCalls.html
+	:og:locale: en
   Collects calls to methods, and functions, and mentions the calling method or function.
 
 

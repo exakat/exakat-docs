@@ -5,6 +5,21 @@
 Count() To Array Append
 +++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Count() To Array Append: The array append operator is able to generate a sane index, without relying on the count() function.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Count() To Array Append
+	:twitter:description: Count() To Array Append: The array append operator is able to generate a sane index, without relying on the count() function
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Count() To Array Append
+	:og:type: article
+	:og:description: The array append operator is able to generate a sane index, without relying on the count() function
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Performances/CountToAppend.html
+	:og:locale: en
   The array append operator is able to generate a sane index, without relying on the `count() <https://www.php.net/count>`_ function. This is faster, and safer.
 
 .. code-block:: php

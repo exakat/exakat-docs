@@ -5,6 +5,21 @@
 No Hardcoded Port
 +++++++++++++++++
 
+.. meta\:\:
+	:description:
+		No Hardcoded Port: When connecting to a remove server, port is an important information.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: No Hardcoded Port
+	:twitter:description: No Hardcoded Port: When connecting to a remove server, port is an important information
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: No Hardcoded Port
+	:og:type: article
+	:og:description: When connecting to a remove server, port is an important information
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/NoHardcodedPort.html
+	:og:locale: en
   When connecting to a remove server, port is an important information. It is recommended to make this configurable (with constant or configuration), to as to be able to change this value without changing the code.
 
 .. code-block:: php

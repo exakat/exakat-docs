@@ -5,6 +5,21 @@
 Implode() Arguments Order
 +++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Implode() Arguments Order: implode() used to accept two signatures, but is only recommending one.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Implode() Arguments Order
+	:twitter:description: Implode() Arguments Order: implode() used to accept two signatures, but is only recommending one
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Implode() Arguments Order
+	:og:type: article
+	:og:description: implode() used to accept two signatures, but is only recommending one
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ImplodeArgsOrder.html
+	:og:locale: en
   `implode() <https://www.php.net/implode>`_ used to accept two signatures, but is only recommending one. Both types orders of string then array, and array then string have been possible until PHP 7.4.
 
 In PHP 7.4, the order array then string is deprecated, and emits a warning. It will be removed in PHP 8.0.
@@ -53,7 +68,7 @@ _____
 +------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Time To Fix      | Quick (30 mins)                                                                                                                                                                         |
 +------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Changed Behavior | PHP 7.4 - `More <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/.html>`__                                                                                              |
+| Changed Behavior | PHP 7.4                                                                                                                                                                                 |
 +------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision        | Very high                                                                                                                                                                               |
 +------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

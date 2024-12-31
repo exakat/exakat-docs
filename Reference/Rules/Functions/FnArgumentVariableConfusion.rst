@@ -5,6 +5,21 @@
 Fn Argument Variable Confusion
 ++++++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Fn Argument Variable Confusion: Avoid using local variables as arrow function arguments.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Fn Argument Variable Confusion
+	:twitter:description: Fn Argument Variable Confusion: Avoid using local variables as arrow function arguments
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Fn Argument Variable Confusion
+	:og:type: article
+	:og:description: Avoid using local variables as arrow function arguments
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/FnArgumentVariableConfusion.html
+	:og:locale: en
   Avoid using local variables as arrow function arguments.
 
 When a local variable name is used as an argument's name in an arrow function, the local variable from the original scope is not imported. They are now two distinct variables.

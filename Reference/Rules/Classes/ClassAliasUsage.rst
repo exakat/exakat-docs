@@ -5,6 +5,21 @@
 Usage Of class_alias()
 ++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Usage Of class_alias(): ``class_alias`` creates dynamically an alias for classes.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Usage Of class_alias()
+	:twitter:description: Usage Of class_alias(): ``class_alias`` creates dynamically an alias for classes
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Usage Of class_alias()
+	:og:type: article
+	:og:description: ``class_alias`` creates dynamically an alias for classes
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/ClassAliasUsage.html
+	:og:locale: en
   ``class_alias`` creates dynamically an alias for classes.
 
 .. code-block:: php

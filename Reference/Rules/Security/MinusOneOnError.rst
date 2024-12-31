@@ -5,6 +5,21 @@
 Minus One On Error
 ++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Minus One On Error: Several PHP native functions return -1 on error.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Minus One On Error
+	:twitter:description: Minus One On Error: Several PHP native functions return -1 on error
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Minus One On Error
+	:og:type: article
+	:og:description: Several PHP native functions return -1 on error
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Security/MinusOneOnError.html
+	:og:locale: en
   Several PHP native functions return -1 on `error <https://www.php.net/error>`_. They also return 1 in case of success, and 0 in case of failure. This leads to confusions.
 
 In case the native function is used as a condition without explicit comparison, PHP type cast the return value to a boolean. In this case, -1 and 1 are both converted to true, and the condition applies. This means that an `error <https://www.php.net/error>`_ situation is mistaken for a successful event. 

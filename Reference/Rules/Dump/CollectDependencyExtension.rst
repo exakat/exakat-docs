@@ -5,6 +5,21 @@
 Collect Dependency Extension
 ++++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Collect Dependency Extension: This analysis lists the interfaces and classes that are not defined in the current code, yet extended.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Collect Dependency Extension
+	:twitter:description: Collect Dependency Extension: This analysis lists the interfaces and classes that are not defined in the current code, yet extended
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Collect Dependency Extension
+	:og:type: article
+	:og:description: This analysis lists the interfaces and classes that are not defined in the current code, yet extended
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/CollectDependencyExtension.html
+	:og:locale: en
   This analysis lists the interfaces and classes that are not defined in the current code, yet extended. 
 
 This yields a list of external dependencies. It is useful for anyone who would like to update those root classes and interfaces.

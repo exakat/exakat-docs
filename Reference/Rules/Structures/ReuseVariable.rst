@@ -5,6 +5,21 @@
 Reuse Existing Variable
 +++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Reuse Existing Variable: A variable is already holding the content that is calculated again : it could be used again.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Reuse Existing Variable
+	:twitter:description: Reuse Existing Variable: A variable is already holding the content that is calculated again : it could be used again
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Reuse Existing Variable
+	:og:type: article
+	:og:description: A variable is already holding the content that is calculated again : it could be used again
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ReuseVariable.html
+	:og:locale: en
   A variable is already holding the content that is calculated again : it could be used again. 
 
 It is recommended to use the cached value. This saves some computation, in particular when used in a loop, and speeds up the process. This is called memoization.

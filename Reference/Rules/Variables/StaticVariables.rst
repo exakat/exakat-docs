@@ -5,6 +5,21 @@
 Static Variables
 ++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Static Variables: PHP variables may be static or standard.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Static Variables
+	:twitter:description: Static Variables: PHP variables may be static or standard
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Static Variables
+	:og:type: article
+	:og:description: PHP variables may be static or standard
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Variables/StaticVariables.html
+	:og:locale: en
   PHP variables may be `static <https://www.php.net/manual/en/language.oop5.static.php>`_ or standard. `Static <https://www.php.net/manual/en/language.oop5.static.php>`_ variables survive after the function execution end, and are available at the next function run. They are distinct from globals, which are available application wide, and from `static <https://www.php.net/manual/en/language.oop5.static.php>`_ properties, which are tied to a class. `Static <https://www.php.net/manual/en/language.oop5.static.php>`_ variables are tied to a function, method, `closure <https://www.php.net/`closure <https://www.php.net/closure>`_>`_ or arrow function.
 
 .. code-block:: php

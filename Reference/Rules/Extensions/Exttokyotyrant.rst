@@ -5,6 +5,21 @@
 ext/tokyotyrant
 +++++++++++++++
 
+.. meta\:\:
+	:description:
+		ext/tokyotyrant: Extension for Tokyo Tyrant.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: ext/tokyotyrant
+	:twitter:description: ext/tokyotyrant: Extension for Tokyo Tyrant
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: ext/tokyotyrant
+	:og:type: article
+	:og:description: Extension for Tokyo Tyrant
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Exttokyotyrant.html
+	:og:locale: en
   Extension for Tokyo Tyrant.
 
 tokyo_tyrant extension provides a wrapper for Tokyo Tyrant client libraries.

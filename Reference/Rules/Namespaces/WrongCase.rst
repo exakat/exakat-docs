@@ -5,6 +5,21 @@
 Wrong Case Namespaces
 +++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Wrong Case Namespaces: Namespaces are case-insensitive.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Wrong Case Namespaces
+	:twitter:description: Wrong Case Namespaces: Namespaces are case-insensitive
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Wrong Case Namespaces
+	:og:type: article
+	:og:description: Namespaces are case-insensitive
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Namespaces/WrongCase.html
+	:og:locale: en
   Namespaces are case-insensitive.
 
 .. code-block:: php

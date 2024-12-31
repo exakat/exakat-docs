@@ -5,6 +5,21 @@
 Hexadecimal In String
 +++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Hexadecimal In String: Mark strings that may be confused with hexadecimal.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Hexadecimal In String
+	:twitter:description: Hexadecimal In String: Mark strings that may be confused with hexadecimal
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Hexadecimal In String
+	:og:type: article
+	:og:description: Mark strings that may be confused with hexadecimal
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Type/HexadecimalString.html
+	:og:locale: en
   Mark strings that may be confused with hexadecimal. 
 
 Until PHP 7.0, PHP recognizes hexadecimal numbers inside strings, and converts them accordingly. 

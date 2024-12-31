@@ -5,6 +5,21 @@
 If With Same Conditions
 +++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		If With Same Conditions: Successive If / then structures that have the same condition may be either merged or have one of the condition changed.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: If With Same Conditions
+	:twitter:description: If With Same Conditions: Successive If / then structures that have the same condition may be either merged or have one of the condition changed
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: If With Same Conditions
+	:og:type: article
+	:og:description: Successive If / then structures that have the same condition may be either merged or have one of the condition changed
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/IfWithSameConditions.html
+	:og:locale: en
   Successive If / then structures that have the same condition may be either merged or have one of the condition changed. 
 Note that if the values used in the condition have been modified in the first if/then structure, the two distinct conditions may be needed.
 

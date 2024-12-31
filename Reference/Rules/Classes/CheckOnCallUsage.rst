@@ -5,6 +5,21 @@
 Check On __Call Usage
 +++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Check On __Call Usage: When using the magic methods __call() and __staticcall(), make sure the method exists before calling it.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Check On __Call Usage
+	:twitter:description: Check On __Call Usage: When using the magic methods __call() and __staticcall(), make sure the method exists before calling it
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Check On __Call Usage
+	:og:type: article
+	:og:description: When using the magic methods __call() and __staticcall(), make sure the method exists before calling it
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/CheckOnCallUsage.html
+	:og:locale: en
   When using the magic methods `__call() <https://www.php.net/manual/en/language.oop5.magic.php>`_ and __staticcall(), make sure the method exists before calling it. 
 
 If the method doesn't exists, then the same method will be called again, leading to the same failure. Finally, it will crash PHP.

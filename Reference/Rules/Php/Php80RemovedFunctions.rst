@@ -5,6 +5,21 @@
 PHP 8.0 Removed Functions
 +++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		PHP 8.0 Removed Functions: The following PHP native functions were deprecated in PHP 8.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: PHP 8.0 Removed Functions
+	:twitter:description: PHP 8.0 Removed Functions: The following PHP native functions were deprecated in PHP 8
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: PHP 8.0 Removed Functions
+	:og:type: article
+	:og:description: The following PHP native functions were deprecated in PHP 8
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/Php80RemovedFunctions.html
+	:og:locale: en
   The following PHP native functions were deprecated in PHP 8.0, and will be removed in PHP 9.0.
 
 * image2wbmp()

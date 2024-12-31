@@ -5,6 +5,21 @@
 Mismatched Typehint
 +++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Mismatched Typehint: Relayed arguments don't have the same typehint.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Mismatched Typehint
+	:twitter:description: Mismatched Typehint: Relayed arguments don't have the same typehint
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Mismatched Typehint
+	:og:type: article
+	:og:description: Relayed arguments don't have the same typehint
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/MismatchedTypehint.html
+	:og:locale: en
   Relayed arguments don't have the same typehint.
 
 Typehint acts as a filter method. When an object is checked with a first class, and then checked again with a second distinct class, the whole process is always false : $a can't be of two different classes at the same time.

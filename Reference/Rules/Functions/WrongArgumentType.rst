@@ -5,6 +5,21 @@
 Wrong Argument Type
 +++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Wrong Argument Type: Checks that the type of the argument is consistent with the type of the called method.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Wrong Argument Type
+	:twitter:description: Wrong Argument Type: Checks that the type of the argument is consistent with the type of the called method
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Wrong Argument Type
+	:og:type: article
+	:og:description: Checks that the type of the argument is consistent with the type of the called method
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/WrongArgumentType.html
+	:og:locale: en
   Checks that the type of the argument is consistent with the type of the called method.
 This analysis is valid with PHP 8.0.
 

@@ -5,6 +5,21 @@
 Conditioned Constants
 +++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Conditioned Constants: This rule indicates when a constant is defined if a condition is met.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Conditioned Constants
+	:twitter:description: Conditioned Constants: This rule indicates when a constant is defined if a condition is met
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Conditioned Constants
+	:og:type: article
+	:og:description: This rule indicates when a constant is defined if a condition is met
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Constants/ConditionedConstants.html
+	:og:locale: en
   This rule indicates when a constant is defined if a condition is met. Several definitions of a global constant are possible in the code: using conditions, it is possible to have only one defined during execution.
 
 .. code-block:: php

@@ -5,6 +5,21 @@
 ext/dom
 +++++++
 
+.. meta\:\:
+	:description:
+		ext/dom: Extension Document Object Model.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: ext/dom
+	:twitter:description: ext/dom: Extension Document Object Model
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: ext/dom
+	:og:type: article
+	:og:description: Extension Document Object Model
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extdom.html
+	:og:locale: en
   Extension Document Object Model.
 
 The DOM extension allows the manipulation of XML documents through the DOM API with PHP.

@@ -5,6 +5,21 @@
 Switch With Too Many Default
 ++++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Switch With Too Many Default: Switch statements should only hold one default, not more.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Switch With Too Many Default
+	:twitter:description: Switch With Too Many Default: Switch statements should only hold one default, not more
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Switch With Too Many Default
+	:og:type: article
+	:og:description: Switch statements should only hold one default, not more
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/SwitchWithMultipleDefault.html
+	:og:locale: en
   Switch statements should only hold one default, not more. Check the code and remove the extra default.  
 
 PHP 7.0 won't compile a script that allows for several default cases. 

@@ -5,6 +5,21 @@
 ext/simplexml
 +++++++++++++
 
+.. meta\:\:
+	:description:
+		ext/simplexml: Extension ``SimpleXML``.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: ext/simplexml
+	:twitter:description: ext/simplexml: Extension ``SimpleXML``
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: ext/simplexml
+	:og:type: article
+	:og:description: Extension ``SimpleXML``
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extsimplexml.html
+	:og:locale: en
   Extension ``SimpleXML``.
 
 The ``SimpleXML`` extension provides a very simple and easily usable toolset to convert XML to an object that can be processed with normal property selectors and array iterators.

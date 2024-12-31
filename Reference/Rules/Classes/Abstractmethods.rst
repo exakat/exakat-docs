@@ -5,6 +5,21 @@
 Abstract Methods Usage
 ++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Abstract Methods Usage: This rule lists of all abstract methods.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Abstract Methods Usage
+	:twitter:description: Abstract Methods Usage: This rule lists of all abstract methods
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Abstract Methods Usage
+	:og:type: article
+	:og:description: This rule lists of all abstract methods
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/Abstractmethods.html
+	:og:locale: en
   This rule lists of all abstract methods. This methods serves as template for child classes to implement.
 
 .. code-block:: php

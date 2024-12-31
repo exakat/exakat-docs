@@ -5,6 +5,21 @@
 No String With Append
 +++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		No String With Append: PHP 7 doesn't allow the usage of [] with strings.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: No String With Append
+	:twitter:description: No String With Append: PHP 7 doesn't allow the usage of [] with strings
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: No String With Append
+	:og:type: article
+	:og:description: PHP 7 doesn't allow the usage of [] with strings
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/NoStringWithAppend.html
+	:og:locale: en
   PHP 7 doesn't allow the usage of [] with strings. [] is an array-only operator.
 
 

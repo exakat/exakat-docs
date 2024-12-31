@@ -5,6 +5,21 @@
 ext/wddx
 ++++++++
 
+.. meta\:\:
+	:description:
+		ext/wddx: Extension WDDX.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: ext/wddx
+	:twitter:description: ext/wddx: Extension WDDX
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: ext/wddx
+	:og:type: article
+	:og:description: Extension WDDX
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extwddx.html
+	:og:locale: en
   Extension WDDX.
 
 The Web Distributed Data Exchange, or WDDX, is a free, open XML-based technology that allows Web applications created with any platform to easily exchange data with one another over the Web.

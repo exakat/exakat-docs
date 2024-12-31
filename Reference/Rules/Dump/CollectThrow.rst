@@ -5,6 +5,21 @@
 Collect Throw Calls
 +++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Collect Throw Calls: This rule collects all `throw` command usage, along with the exception thrown and the calling method.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Collect Throw Calls
+	:twitter:description: Collect Throw Calls: This rule collects all `throw` command usage, along with the exception thrown and the calling method
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Collect Throw Calls
+	:og:type: article
+	:og:description: This rule collects all `throw` command usage, along with the exception thrown and the calling method
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/CollectThrow.html
+	:og:locale: en
   This rule collects all `throw` command usage, along with the `exception <https://www.php.net/exception>`_ thrown and the calling method.
 
 .. code-block:: php

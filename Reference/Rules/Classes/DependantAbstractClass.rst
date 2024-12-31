@@ -5,6 +5,21 @@
 Dependant Abstract Classes
 ++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Dependant Abstract Classes: Abstract classes should be autonomous.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Dependant Abstract Classes
+	:twitter:description: Dependant Abstract Classes: Abstract classes should be autonomous
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Dependant Abstract Classes
+	:og:type: article
+	:og:description: Abstract classes should be autonomous
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/DependantAbstractClass.html
+	:og:locale: en
   Abstract classes should be autonomous. It is recommended to avoid depending on methods, constant or properties that should be made available in inheriting classes, without explicitly abstracting them.
 
 The following abstract classes make usage of constant, methods and properties, `static <https://www.php.net/manual/en/language.oop5.static.php>`_ or not, that are not defined in the class. This means the inheriting classes must provide those constants, methods and properties, but there is no way to enforce this. 

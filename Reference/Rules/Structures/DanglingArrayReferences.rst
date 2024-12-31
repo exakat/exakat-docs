@@ -5,6 +5,21 @@
 Dangling Array References
 +++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Dangling Array References: Always unset a referenced-variable used in a loop.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Dangling Array References
+	:twitter:description: Dangling Array References: Always unset a referenced-variable used in a loop
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Dangling Array References
+	:og:type: article
+	:og:description: Always unset a referenced-variable used in a loop
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/DanglingArrayReferences.html
+	:og:locale: en
   Always unset a referenced-variable used in a loop.
 
 It is highly recommended to unset blind variables when they are set up as references after a loop. 

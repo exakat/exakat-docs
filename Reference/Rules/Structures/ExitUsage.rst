@@ -5,6 +5,21 @@
 Exit() Usage
 ++++++++++++
 
+.. meta\:\:
+	:description:
+		Exit() Usage: Using exit or die() in the code makes the code untestable (it will break unit tests).
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Exit() Usage
+	:twitter:description: Exit() Usage: Using exit or die() in the code makes the code untestable (it will break unit tests)
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Exit() Usage
+	:og:type: article
+	:og:description: Using exit or die() in the code makes the code untestable (it will break unit tests)
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ExitUsage.html
+	:og:locale: en
   Using `exit <https://www.www.php.net/exit>`_ or `die() <https://www.php.net/die>`_ in the code makes the code untestable (it will `break <https://www.php.net/manual/en/control-structures.break.php>`_ unit tests). Moreover, if there is no reason or string to display, it may take a long time to spot where the application is stuck. 
 Try exiting the function/class with return, or throw `exception <https://www.php.net/exception>`_ that may be caught later in the code.
 

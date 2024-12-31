@@ -5,6 +5,21 @@
 Collect Mbstring Encodings
 ++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Collect Mbstring Encodings: This analysis collects the encoding names, used by ext/mb functions.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Collect Mbstring Encodings
+	:twitter:description: Collect Mbstring Encodings: This analysis collects the encoding names, used by ext/mb functions
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Collect Mbstring Encodings
+	:og:type: article
+	:og:description: This analysis collects the encoding names, used by ext/mb functions
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/CollectMbstringEncodings.html
+	:og:locale: en
   This analysis collects the encoding names, used by ext/mb functions.
 
 .. code-block:: php

@@ -5,6 +5,21 @@
 Set Cookie Safe Arguments
 +++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Set Cookie Safe Arguments: The last five arguments of setcookie() and setrawcookie() are for security.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Set Cookie Safe Arguments
+	:twitter:description: Set Cookie Safe Arguments: The last five arguments of setcookie() and setrawcookie() are for security
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Set Cookie Safe Arguments
+	:og:type: article
+	:og:description: The last five arguments of setcookie() and setrawcookie() are for security
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Security/SetCookieArgs.html
+	:og:locale: en
   The last five arguments of `setcookie() <https://www.php.net/setcookie>`_ and `setrawcookie() <https://www.php.net/setrawcookie>`_ are for security. Use them anytime you can.
 
 ``setcookie ( string $name [, string $value = " [, int $expire = 0 [, string $path = " [, string $domain = " [, bool $`secure <https://www.php.net/secure>`_ = false [, bool $httponly = false ]]]]]] )``

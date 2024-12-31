@@ -5,6 +5,21 @@
 ext/rar
 +++++++
 
+.. meta\:\:
+	:description:
+		ext/rar: Extension RAR.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: ext/rar
+	:twitter:description: ext/rar: Extension RAR
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: ext/rar
+	:og:type: article
+	:og:description: Extension RAR
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extrar.html
+	:og:locale: en
   Extension RAR. 
 
 Rar is a powerful and effective archiver created by Eugene Roshal. This extension gives you possibility to read Rar archives but doesn't support writing Rar archives, because this is not supported by the UnRar library and is directly prohibited by its license.

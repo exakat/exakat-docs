@@ -5,6 +5,21 @@
 PHP 7.1 Microseconds
 ++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		PHP 7.1 Microseconds: PHP supports microseconds in ``DateTime`` class and date_create() function.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: PHP 7.1 Microseconds
+	:twitter:description: PHP 7.1 Microseconds: PHP supports microseconds in ``DateTime`` class and date_create() function
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: PHP 7.1 Microseconds
+	:og:type: article
+	:og:description: PHP supports microseconds in ``DateTime`` class and date_create() function
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/Php71microseconds.html
+	:og:locale: en
   PHP supports microseconds in ``DateTime`` class and `date_create() <https://www.php.net/date_create>`_ function. This was introduced in PHP 7.1.
 
 In previous PHP versions, those dates only used seconds, leading to lazy comparisons : 
@@ -55,7 +70,7 @@ _____
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------+
 | Time To Fix      | Quick (30 mins)                                                                                                                      |
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------+
-| Changed Behavior | PHP 7.1 - `More <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/.html>`__                                           |
+| Changed Behavior | PHP 7.1                                                                                                                              |
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------+
 | Precision        | Very high                                                                                                                            |
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------+

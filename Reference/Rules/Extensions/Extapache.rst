@@ -5,6 +5,21 @@
 ext/apache
 ++++++++++
 
+.. meta\:\:
+	:description:
+		ext/apache: Extension Apache.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: ext/apache
+	:twitter:description: ext/apache: Extension Apache
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: ext/apache
+	:og:type: article
+	:og:description: Extension Apache
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extapache.html
+	:og:locale: en
   Extension Apache.
 
 These functions are only available when running PHP as an Apache module.

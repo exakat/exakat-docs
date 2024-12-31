@@ -5,6 +5,21 @@
 Useless Method Alias
 ++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Useless Method Alias: It is not possible to declare an alias of a method with the same name.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Useless Method Alias
+	:twitter:description: Useless Method Alias: It is not possible to declare an alias of a method with the same name
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Useless Method Alias
+	:og:type: article
+	:og:description: It is not possible to declare an alias of a method with the same name
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Traits/UselessAlias.html
+	:og:locale: en
   It is not possible to declare an alias of a method with the same name. 
 
 PHP reports that ``Trait method f has not been applied, because there are collisions with other trait methods on x``, which is a way to say that the alias will be in conflict with the method name. 

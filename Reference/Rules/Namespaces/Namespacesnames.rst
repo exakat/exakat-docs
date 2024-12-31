@@ -5,6 +5,21 @@
 Namespaces Glossary
 +++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Namespaces Glossary: List of all the defined namespaces in the code, using the namespace keyword.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Namespaces Glossary
+	:twitter:description: Namespaces Glossary: List of all the defined namespaces in the code, using the namespace keyword
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Namespaces Glossary
+	:og:type: article
+	:og:description: List of all the defined namespaces in the code, using the namespace keyword
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Namespaces/Namespacesnames.html
+	:og:locale: en
   List of all the defined namespaces in the code, using the namespace keyword. 
 Global namespaces are mentioned when they are explicitly used.
 

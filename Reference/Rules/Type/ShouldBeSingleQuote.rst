@@ -5,6 +5,21 @@
 Should Be Single Quote
 ++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Should Be Single Quote: Use single quote for simple strings.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Should Be Single Quote
+	:twitter:description: Should Be Single Quote: Use single quote for simple strings
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Should Be Single Quote
+	:og:type: article
+	:og:description: Use single quote for simple strings
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Type/ShouldBeSingleQuote.html
+	:og:locale: en
   Use single quote for simple strings.
 
 `Static <https://www.php.net/manual/en/language.oop5.static.php>`_ content inside a string, that has no single quotes nor escape sequence (such as \n or \t), should be using single quote delimiter, instead of double quote. 

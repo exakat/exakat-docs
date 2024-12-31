@@ -5,6 +5,21 @@
 Is An Extension Function
 ++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Is An Extension Function: This is an extension function.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Is An Extension Function
+	:twitter:description: Is An Extension Function: This is an extension function
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Is An Extension Function
+	:og:type: article
+	:og:description: This is an extension function
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/IsExtFunction.html
+	:og:locale: en
   This is an extension function. 
 Almost every PHP extension defines extra functions. Nowadays, they are prefixed, like ``mysqli_connect``, ``ldap_close``, or ``zlib_decode``. Sometimes, they are even in a namespace. Refer to the extension itself to learn more about its functions usage.
 

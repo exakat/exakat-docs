@@ -5,6 +5,21 @@
 ext/iconv
 +++++++++
 
+.. meta\:\:
+	:description:
+		ext/iconv: Extension ext/iconv.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: ext/iconv
+	:twitter:description: ext/iconv: Extension ext/iconv
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: ext/iconv
+	:og:type: article
+	:og:description: Extension ext/iconv
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Exticonv.html
+	:og:locale: en
   Extension ext/iconv.
 
  With this module, you can turn a string represented by a local character set into the one represented by another character set, which may be the Unicode character set.

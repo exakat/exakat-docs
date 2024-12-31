@@ -5,6 +5,21 @@
 Simple Global Variable
 ++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Simple Global Variable: The global keyword should only be used with simple variables.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Simple Global Variable
+	:twitter:description: Simple Global Variable: The global keyword should only be used with simple variables
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Simple Global Variable
+	:og:type: article
+	:og:description: The global keyword should only be used with simple variables
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/GlobalWithoutSimpleVariable.html
+	:og:locale: en
   The global keyword should only be used with simple variables. Since PHP 7, it cannot be used with complex or dynamic structures.
 
 .. code-block:: php
@@ -55,7 +70,7 @@ _____
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------+
 | Time To Fix      | Slow (1 hour)                                                                                                                        |
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------+
-| Changed Behavior | PHP 7.0 - `More <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/.html>`__                                           |
+| Changed Behavior | PHP 7.0                                                                                                                              |
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------+
 | Precision        | Very high                                                                                                                            |
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------+

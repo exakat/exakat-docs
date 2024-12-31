@@ -5,6 +5,21 @@
 Could Be CIT
 ++++++++++++
 
+.. meta\:\:
+	:description:
+		Could Be CIT: Mark arguments and return types that can be set to a class, interface definition.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Could Be CIT
+	:twitter:description: Could Be CIT: Mark arguments and return types that can be set to a class, interface definition
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Could Be CIT
+	:og:type: article
+	:og:description: Mark arguments and return types that can be set to a class, interface definition
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Typehints/CouldBeCIT.html
+	:og:locale: en
   Mark arguments and return types that can be set to a class, interface definition.
 
 .. code-block:: php

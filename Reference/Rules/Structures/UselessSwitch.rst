@@ -5,6 +5,21 @@
 Useless Switch
 ++++++++++++++
 
+.. meta\:\:
+	:description:
+		Useless Switch: This switch has only one case.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Useless Switch
+	:twitter:description: Useless Switch: This switch has only one case
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Useless Switch
+	:og:type: article
+	:og:description: This switch has only one case
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/UselessSwitch.html
+	:og:locale: en
   This switch has only one case. It may very well be replaced by a ifthen structure.
 
 .. code-block:: php

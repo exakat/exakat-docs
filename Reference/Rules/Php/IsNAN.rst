@@ -5,6 +5,21 @@
 Manipulates NaN
 +++++++++++++++
 
+.. meta\:\:
+	:description:
+		Manipulates NaN: This code handles ``Not-a-Number`` situations.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Manipulates NaN
+	:twitter:description: Manipulates NaN: This code handles ``Not-a-Number`` situations
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Manipulates NaN
+	:og:type: article
+	:og:description: This code handles ``Not-a-Number`` situations
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/IsNAN.html
+	:og:locale: en
   This code handles ``Not-a-Number`` situations. ``Not-a-Number``, also called ``NaN``, happens when a calculation can't return an actual float.
 
 .. code-block:: php

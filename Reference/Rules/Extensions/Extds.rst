@@ -5,6 +5,21 @@
 ext/ds
 ++++++
 
+.. meta\:\:
+	:description:
+		ext/ds: Extension Data Structures : `Data structures <http://docs.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: ext/ds
+	:twitter:description: ext/ds: Extension Data Structures : `Data structures <http://docs
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: ext/ds
+	:og:type: article
+	:og:description: Extension Data Structures : `Data structures <http://docs
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extds.html
+	:og:locale: en
   Extension Data Structures : `Data structures <http://docs.php.net/manual/en/book.ds.php>`_.
 
 .. code-block:: php

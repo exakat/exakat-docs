@@ -5,6 +5,21 @@
 Could Be Stringable
 +++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Could Be Stringable: ``Stringable`` is an interface that marks classes with a custom method to cast the object as a string.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Could Be Stringable
+	:twitter:description: Could Be Stringable: ``Stringable`` is an interface that marks classes with a custom method to cast the object as a string
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Could Be Stringable
+	:og:type: article
+	:og:description: ``Stringable`` is an interface that marks classes with a custom method to cast the object as a string
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/CouldBeStringable.html
+	:og:locale: en
   ``Stringable`` is an interface that marks classes with a custom method to cast the object as a string. It was introduced in PHP 8.0.
 
 Classes that defined a `__toString() <https://www.php.net/manual/en/language.oop5.magic.php>`_ magic method may be turned into a string when the typehint, argument, return or property, requires it. This is not the case when strict_types is activated. Yet, until PHP 8.0, there was nothing to identify a class as such.

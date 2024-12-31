@@ -5,6 +5,21 @@
 __halt_compiler
 +++++++++++++++
 
+.. meta\:\:
+	:description:
+		__halt_compiler: __halt_compiler() usage.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: __halt_compiler
+	:twitter:description: __halt_compiler: __halt_compiler() usage
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: __halt_compiler
+	:og:type: article
+	:og:description: __halt_compiler() usage
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/Haltcompiler.html
+	:og:locale: en
   __halt_compiler() usage.
 
 .. code-block:: php

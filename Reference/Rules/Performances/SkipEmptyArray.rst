@@ -5,6 +5,21 @@
 Skip Empty Array
 ++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Skip Empty Array: When collecting arrays to be merged, it is faster to skip the empty arrays, rather than let array_merge() process them.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Skip Empty Array
+	:twitter:description: Skip Empty Array: When collecting arrays to be merged, it is faster to skip the empty arrays, rather than let array_merge() process them
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Skip Empty Array
+	:og:type: article
+	:og:description: When collecting arrays to be merged, it is faster to skip the empty arrays, rather than let array_merge() process them
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Performances/SkipEmptyArray.html
+	:og:locale: en
   When collecting arrays to be merged, it is faster to skip the empty arrays, rather than let `array_merge() <https://www.php.net/array_merge>`_ process them. This also works with `array_merge_recursive() <https://www.php.net/array_merge_recursive>`_.
 
 

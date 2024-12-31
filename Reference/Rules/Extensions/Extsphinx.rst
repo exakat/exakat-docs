@@ -5,6 +5,21 @@
 ext/sphinx
 ++++++++++
 
+.. meta\:\:
+	:description:
+		ext/sphinx: Extension for the Sphinx search server.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: ext/sphinx
+	:twitter:description: ext/sphinx: Extension for the Sphinx search server
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: ext/sphinx
+	:og:type: article
+	:og:description: Extension for the Sphinx search server
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extsphinx.html
+	:og:locale: en
   Extension for the Sphinx search server.
 
 This extension provides bindings for Sphinx search client library.

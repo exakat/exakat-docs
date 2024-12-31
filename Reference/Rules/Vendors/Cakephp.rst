@@ -5,6 +5,21 @@
 Cakephp
 +++++++
 
+.. meta\:\:
+	:description:
+		Cakephp: This rules reports when the source code is based on the CakePHP framework.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Cakephp
+	:twitter:description: Cakephp: This rules reports when the source code is based on the CakePHP framework
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Cakephp
+	:og:type: article
+	:og:description: This rules reports when the source code is based on the CakePHP framework
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Vendors/Cakephp.html
+	:og:locale: en
   This rules reports when the source code is based on the CakePHP framework.
 
 CakePHP is an open-source web framework. It follows the model–view–controller (MVC) approach and is written in PHP, modeled after the concepts of Ruby on Rails, and distributed under the MIT License.

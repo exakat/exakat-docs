@@ -5,6 +5,21 @@
 ext/gender
 ++++++++++
 
+.. meta\:\:
+	:description:
+		ext/gender: Gender extension.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: ext/gender
+	:twitter:description: ext/gender: Gender extension
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: ext/gender
+	:og:type: article
+	:og:description: Gender extension
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extgender.html
+	:og:locale: en
   Gender extension.
 
 The Gender PHP extension is a port of the gender.c program originally written by Joerg Michael. Its main purpose is to find out the gender of firstnames, based on a database of over 40000 firstnames from 54 countries.

@@ -5,6 +5,21 @@
 Missing Some Returntype
 +++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Missing Some Returntype: The specified typehints are not compatible with the returned values.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Missing Some Returntype
+	:twitter:description: Missing Some Returntype: The specified typehints are not compatible with the returned values
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Missing Some Returntype
+	:og:type: article
+	:og:description: The specified typehints are not compatible with the returned values
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Typehints/MissingReturntype.html
+	:og:locale: en
   The specified typehints are not compatible with the returned values. 
 
 The code of the method may return other types, which are not specified and will lead to a PHP fatal `error <https://www.php.net/error>`_. It is the case for insufficient typehints, when a typehint is missing, or inconsistent typehints, when the method returns varied types. 

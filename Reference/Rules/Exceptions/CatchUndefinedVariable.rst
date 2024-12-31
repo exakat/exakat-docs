@@ -5,6 +5,21 @@
 Catch With Undefined Variable
 +++++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Catch With Undefined Variable: Always initialize every variable before the try block, when they are used in a catch block.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Catch With Undefined Variable
+	:twitter:description: Catch With Undefined Variable: Always initialize every variable before the try block, when they are used in a catch block
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Catch With Undefined Variable
+	:og:type: article
+	:og:description: Always initialize every variable before the try block, when they are used in a catch block
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Exceptions/CatchUndefinedVariable.html
+	:og:locale: en
   Always initialize every variable before the try block, when they are used in a catch block. If the `exception <https://www.php.net/exception>`_ is raised before the variable is defined, the catch block may have to handle an undefined variable, leading to more chaos.
 
 .. code-block:: php

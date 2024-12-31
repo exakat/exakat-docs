@@ -5,6 +5,21 @@
 Could Be Else
 +++++++++++++
 
+.. meta\:\:
+	:description:
+		Could Be Else: Merge opposite conditions into one if/then structure.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Could Be Else
+	:twitter:description: Could Be Else: Merge opposite conditions into one if/then structure
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Could Be Else
+	:og:type: article
+	:og:description: Merge opposite conditions into one if/then structure
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/CouldBeElse.html
+	:og:locale: en
   Merge opposite conditions into one if/then structure.
 
 When two if/then structures follow each other, using a condition and its opposite, they may be merged into one.

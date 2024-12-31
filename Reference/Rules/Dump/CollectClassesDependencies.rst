@@ -5,6 +5,21 @@
 Collect Classes Dependencies
 ++++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Collect Classes Dependencies: This rule collects class dependencies.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Collect Classes Dependencies
+	:twitter:description: Collect Classes Dependencies: This rule collects class dependencies
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Collect Classes Dependencies
+	:og:type: article
+	:og:description: This rule collects class dependencies
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/CollectClassesDependencies.html
+	:og:locale: en
   This rule collects class dependencies. Each call to one or the other resource put forward by a class creates a link between two points in the code. 
 
 Class dependencies are based on typehint, calls (`static <https://www.php.net/manual/en/language.oop5.static.php>`_ or normal), `instanceof <https://www.php.net/manual/en/language.operators.type.php>`_, catch, attributes, extends. 

@@ -5,6 +5,21 @@
 include_once() Usage
 ++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		include_once() Usage: This rules reports sage of ``include_once()`` and ``require_once()``.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: include_once() Usage
+	:twitter:description: include_once() Usage: This rules reports sage of ``include_once()`` and ``require_once()``
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: include_once() Usage
+	:og:type: article
+	:og:description: This rules reports sage of ``include_once()`` and ``require_once()``
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/OnceUsage.html
+	:og:locale: en
   This rules reports sage of ``include_once()`` and ``require_once()``. Those functions should be avoided for performances reasons.
 
 Try using autoload for loading classes, or use include() or require() and make it possible to include several times the same file without errors.

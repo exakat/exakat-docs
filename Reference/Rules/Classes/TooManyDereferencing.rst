@@ -5,6 +5,21 @@
 Too Many Dereferencing
 ++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Too Many Dereferencing: Linking too many properties and methods, one to the other.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Too Many Dereferencing
+	:twitter:description: Too Many Dereferencing: Linking too many properties and methods, one to the other
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Too Many Dereferencing
+	:og:type: article
+	:og:description: Linking too many properties and methods, one to the other
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/TooManyDereferencing.html
+	:og:locale: en
   Linking too many properties and methods, one to the other.
 
 This analysis counts both `static <https://www.php.net/manual/en/language.oop5.static.php>`_ calls and normal call; methods, properties and constants. It also takes into account arrays along the way.

@@ -5,6 +5,21 @@
 Dynamic Self Calls
 ++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Dynamic Self Calls: A class that calls itself dynamically.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Dynamic Self Calls
+	:twitter:description: Dynamic Self Calls: A class that calls itself dynamically
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Dynamic Self Calls
+	:og:type: article
+	:og:description: A class that calls itself dynamically
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/DynamicSelfCalls.html
+	:og:locale: en
   A class that calls itself dynamically. This may be property or methods. 
 
 Calling itself dynamically happens when a class is configured to call various properties (container) or methods.  

@@ -5,6 +5,21 @@
 Exit Without Argument
 +++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Exit Without Argument: This rule reports usage of die and exit without arguments, nor parenthesis.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Exit Without Argument
+	:twitter:description: Exit Without Argument: This rule reports usage of die and exit without arguments, nor parenthesis
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Exit Without Argument
+	:og:type: article
+	:og:description: This rule reports usage of die and exit without arguments, nor parenthesis
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/ExitNoArg.html
+	:og:locale: en
   This rule reports usage of `die <https://www.php.net/die>`_ and `exit <https://www.www.php.net/exit>`_ without arguments, nor parenthesis. These commands are not functions, and are allowed to be used without parenthesis: by default, they use the 0 status.
 
 .. code-block:: php

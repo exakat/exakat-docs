@@ -5,6 +5,21 @@
 Class Has Fluent Interface
 ++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Class Has Fluent Interface: Mark a class as such when it contains at least one fluent method.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Class Has Fluent Interface
+	:twitter:description: Class Has Fluent Interface: Mark a class as such when it contains at least one fluent method
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Class Has Fluent Interface
+	:og:type: article
+	:og:description: Mark a class as such when it contains at least one fluent method
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/HasFluentInterface.html
+	:og:locale: en
   Mark a class as such when it contains at least one fluent method. A fluent method is a method that returns `$this <https://www.php.net/manual/en/language.oop5.basic.php>`_, for chaining.
 
 .. code-block:: php

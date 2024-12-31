@@ -5,6 +5,21 @@
 Trigger Errors
 ++++++++++++++
 
+.. meta\:\:
+	:description:
+		Trigger Errors: List of situations where user errors are triggered.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Trigger Errors
+	:twitter:description: Trigger Errors: List of situations where user errors are triggered
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Trigger Errors
+	:og:type: article
+	:og:description: List of situations where user errors are triggered
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/TriggerErrorUsage.html
+	:og:locale: en
   List of situations where user errors are triggered.
 
 PHP errors are triggered with `trigger_error() <https://www.php.net/trigger_error>`_.

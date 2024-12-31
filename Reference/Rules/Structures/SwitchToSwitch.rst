@@ -5,6 +5,21 @@
 Switch To Switch
 ++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Switch To Switch: The following structures are based on if / elseif / else.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Switch To Switch
+	:twitter:description: Switch To Switch: The following structures are based on if / elseif / else
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Switch To Switch
+	:og:type: article
+	:og:description: The following structures are based on if / elseif / else
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/SwitchToSwitch.html
+	:og:locale: en
   The following structures are based on if / elseif / else. Since they have more than three conditions (not withstanding the final else), it is recommended to use the switch structure, so as to make this more readable.
 
 On the other hand, `switch() <https://www.php.net/manual/en/control-structures.switch.php>`_ structures with less than 3 elements should be expressed as a if / else structure.

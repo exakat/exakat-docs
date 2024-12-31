@@ -5,6 +5,21 @@
 No Readonly Assignation In Global
 +++++++++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		No Readonly Assignation In Global: When a property is marked readonly, it may only be assigned within the class of definition.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: No Readonly Assignation In Global
+	:twitter:description: No Readonly Assignation In Global: When a property is marked readonly, it may only be assigned within the class of definition
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: No Readonly Assignation In Global
+	:og:type: article
+	:og:description: When a property is marked readonly, it may only be assigned within the class of definition
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/NoReadonlyAssignationInGlobal.html
+	:og:locale: en
   When a property is marked readonly, it may only be assigned within the class of definition.
 
 It cannot be assigned outside this class, in the global scope. It is also immune to class invasion.

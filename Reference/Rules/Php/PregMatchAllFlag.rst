@@ -5,6 +5,21 @@
 preg_match_all() Flag
 +++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		preg_match_all() Flag: preg_match_all() has an option to configure the structure of the results : it is either by capturing parenthesis (by default), or by result sets.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: preg_match_all() Flag
+	:twitter:description: preg_match_all() Flag: preg_match_all() has an option to configure the structure of the results : it is either by capturing parenthesis (by default), or by result sets
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: preg_match_all() Flag
+	:og:type: article
+	:og:description: preg_match_all() has an option to configure the structure of the results : it is either by capturing parenthesis (by default), or by result sets
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/PregMatchAllFlag.html
+	:og:locale: en
   `preg_match_all() <https://www.php.net/preg_match_all>`_ has an option to configure the structure of the results : it is either by capturing parenthesis (by default), or by `result <https://www.php.net/result>`_ sets. 
 
 The second option is the most interesting when the following `foreach() <https://www.php.net/manual/en/control-structures.foreach.php>`_ loop has to manipulate several captured strings at the same time. No need to use an index in the first array and use it in the other arrays.

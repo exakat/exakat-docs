@@ -5,6 +5,21 @@
 func_get_arg() Modified
 +++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		func_get_arg() Modified: func_get_arg() and func_get_args() used to report the calling value of the argument until PHP 7.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: func_get_arg() Modified
+	:twitter:description: func_get_arg() Modified: func_get_arg() and func_get_args() used to report the calling value of the argument until PHP 7
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: func_get_arg() Modified
+	:og:type: article
+	:og:description: func_get_arg() and func_get_args() used to report the calling value of the argument until PHP 7
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/funcGetArgModified.html
+	:og:locale: en
   `func_get_arg() <https://www.php.net/func_get_arg>`_ and `func_get_args() <https://www.php.net/func_get_args>`_ used to report the calling value of the argument until PHP 7. 
 
 Since PHP 7, it is reporting the value of the argument at calling time, which may have been modified by a previous instruction. 
@@ -56,7 +71,7 @@ _____
 +------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Time To Fix      | Quick (30 mins)                                                                                                                                                        |
 +------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Changed Behavior | PHP 7.0 - `More <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/.html>`__                                                                             |
+| Changed Behavior | PHP 7.0                                                                                                                                                                |
 +------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision        | High                                                                                                                                                                   |
 +------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

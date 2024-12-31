@@ -5,6 +5,21 @@
 Use Constant Instead Of Function
 ++++++++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Use Constant Instead Of Function: Some functioncalls have a constant equivalent, that is faster to execute than calling the function.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Use Constant Instead Of Function
+	:twitter:description: Use Constant Instead Of Function: Some functioncalls have a constant equivalent, that is faster to execute than calling the function
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Use Constant Instead Of Function
+	:og:type: article
+	:og:description: Some functioncalls have a constant equivalent, that is faster to execute than calling the function
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/UseConstant.html
+	:og:locale: en
   Some functioncalls have a constant equivalent, that is faster to execute than calling the function. 
 
 This applies to the following functions : 

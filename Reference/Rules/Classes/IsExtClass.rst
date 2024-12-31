@@ -5,6 +5,21 @@
 Is An Extension Class
 +++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Is An Extension Class: Those classes belongs to a PHP Extensions.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Is An Extension Class
+	:twitter:description: Is An Extension Class: Those classes belongs to a PHP Extensions
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Is An Extension Class
+	:og:type: article
+	:og:description: Those classes belongs to a PHP Extensions
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/IsExtClass.html
+	:og:locale: en
   Those classes belongs to a PHP Extensions.
 
 .. code-block:: php

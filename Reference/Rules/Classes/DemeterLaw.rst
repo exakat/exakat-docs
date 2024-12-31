@@ -5,6 +5,21 @@
 Law of Demeter
 ++++++++++++++
 
+.. meta\:\:
+	:description:
+		Law of Demeter: The law of Demeter specifies a number of constraints to apply to methodcalls from within an method, so as to keep dependencies to a minimum.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Law of Demeter
+	:twitter:description: Law of Demeter: The law of Demeter specifies a number of constraints to apply to methodcalls from within an method, so as to keep dependencies to a minimum
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Law of Demeter
+	:og:type: article
+	:og:description: The law of Demeter specifies a number of constraints to apply to methodcalls from within an method, so as to keep dependencies to a minimum
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/DemeterLaw.html
+	:og:locale: en
   The law of Demeter specifies a number of constraints to apply to methodcalls from within an method, so as to keep dependencies to a minimum.
 
 .. code-block:: php

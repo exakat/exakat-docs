@@ -5,6 +5,21 @@
 Favorite Casting Method
 +++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Favorite Casting Method: There are two methods for casting : the cast operators, or the conversion functions.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Favorite Casting Method
+	:twitter:description: Favorite Casting Method: There are two methods for casting : the cast operators, or the conversion functions
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Favorite Casting Method
+	:og:type: article
+	:og:description: There are two methods for casting : the cast operators, or the conversion functions
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/CastFavorite.html
+	:og:locale: en
   There are two methods for casting : the cast operators, or the conversion functions. The cast operators are ``int``, ``float`` and ``string``. The conversion functions are ``intval()``, ``floatval()`` and ``strval()``.
 
 The analyzed code has less than 10% of one of them : for consistency reasons, it is recommended to make them all the same. 

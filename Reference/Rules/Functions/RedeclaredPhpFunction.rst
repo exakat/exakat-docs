@@ -5,6 +5,21 @@
 Redeclared PHP Functions
 ++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Redeclared PHP Functions: Function that bear the same name as a PHP function, and that are declared.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Redeclared PHP Functions
+	:twitter:description: Redeclared PHP Functions: Function that bear the same name as a PHP function, and that are declared
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Redeclared PHP Functions
+	:og:type: article
+	:og:description: Function that bear the same name as a PHP function, and that are declared
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/RedeclaredPhpFunction.html
+	:og:locale: en
   Function that bear the same name as a PHP function, and that are declared. 
 
 This is useful when managing backward compatibility, like emulating an old function, or preparing for newer PHP versions, like emulating new upcoming function.

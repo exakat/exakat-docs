@@ -5,6 +5,21 @@
 Php 8.0 Variable Syntax Tweaks
 ++++++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Php 8.0 Variable Syntax Tweaks: Several variable syntaxes are added in version 8.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Php 8.0 Variable Syntax Tweaks
+	:twitter:description: Php 8.0 Variable Syntax Tweaks: Several variable syntaxes are added in version 8
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Php 8.0 Variable Syntax Tweaks
+	:og:type: article
+	:og:description: Several variable syntaxes are added in version 8
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/Php80VariableSyntax.html
+	:og:locale: en
   Several variable syntaxes are added in version 8.0. They extends the PHP 7.0 syntax updates, and fix a number of edges cases.
 
 In particular, ``new``and ``instanceof`` now support a way to inline the expression, rather than use a temporary variable.

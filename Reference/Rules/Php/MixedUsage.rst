@@ -5,6 +5,21 @@
 Mixed Typehint Usage
 ++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Mixed Typehint Usage: Usage of the mixed typehint.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Mixed Typehint Usage
+	:twitter:description: Mixed Typehint Usage: Usage of the mixed typehint
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Mixed Typehint Usage
+	:og:type: article
+	:og:description: Usage of the mixed typehint
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/MixedUsage.html
+	:og:locale: en
   Usage of the mixed typehint.
 
 .. code-block:: php

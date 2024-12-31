@@ -5,6 +5,21 @@
 Multiple Usage Of Same Trait
 ++++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Multiple Usage Of Same Trait: The same trait is used several times.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Multiple Usage Of Same Trait
+	:twitter:description: Multiple Usage Of Same Trait: The same trait is used several times
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Multiple Usage Of Same Trait
+	:og:type: article
+	:og:description: The same trait is used several times
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Traits/MultipleUsage.html
+	:og:locale: en
   The same trait is used several times. One trait usage is sufficient.
 
 

@@ -5,6 +5,21 @@
 Variable Is Not A Condition
 +++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Variable Is Not A Condition: Avoid using a lone variable as a condition.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Variable Is Not A Condition
+	:twitter:description: Variable Is Not A Condition: Avoid using a lone variable as a condition
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Variable Is Not A Condition
+	:og:type: article
+	:og:description: Avoid using a lone variable as a condition
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/NoVariableIsACondition.html
+	:og:locale: en
   Avoid using a lone variable as a condition. It is recommended to use a comparative value, or one of the filtering function, such as `isset() <https://www.www.php.net/isset>`_, empty(). 
 
 Using the raw variable as a condition blurs the difference between an undefined variable and an empty value. By using an explicit comparison or validation function, it is easier to understand what the variable stands for.

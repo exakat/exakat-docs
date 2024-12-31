@@ -5,6 +5,21 @@
 File Is Not Definitions Only
 ++++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		File Is Not Definitions Only: An included file should only provide definitions and declarations, or executable code : not both.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: File Is Not Definitions Only
+	:twitter:description: File Is Not Definitions Only: An included file should only provide definitions and declarations, or executable code : not both
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: File Is Not Definitions Only
+	:og:type: article
+	:og:description: An included file should only provide definitions and declarations, or executable code : not both
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Files/NotDefinitionsOnly.html
+	:og:locale: en
   An included file should only provide definitions and declarations, or executable code : not both. 
 
 With definitions only files, their inclusion provide new features, and keep the current execution untouched, and in control of the flow.

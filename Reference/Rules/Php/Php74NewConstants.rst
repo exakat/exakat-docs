@@ -5,6 +5,21 @@
 New Constants In PHP 7.4
 ++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		New Constants In PHP 7.4: The following constants are now native in PHP 7.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: New Constants In PHP 7.4
+	:twitter:description: New Constants In PHP 7.4: The following constants are now native in PHP 7
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: New Constants In PHP 7.4
+	:og:type: article
+	:og:description: The following constants are now native in PHP 7
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/Php74NewConstants.html
+	:og:locale: en
   The following constants are now native in PHP 7.4. It is advised to avoid using such names for constant before moving to this new version.
 
 * ``MB_ONIGURUMA_VERSION``

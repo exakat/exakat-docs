@@ -5,6 +5,21 @@
 No Net For Xml Load
 +++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		No Net For Xml Load: Simplexml and ext/DOM load all external entities from the web, by default.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: No Net For Xml Load
+	:twitter:description: No Net For Xml Load: Simplexml and ext/DOM load all external entities from the web, by default
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: No Net For Xml Load
+	:og:type: article
+	:og:description: Simplexml and ext/DOM load all external entities from the web, by default
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Security/NoNetForXmlLoad.html
+	:og:locale: en
   Simplexml and ext/DOM load all external entities from the web, by default. This is dangerous, in particular when loading unknown XML code.
 
 Look at this XML code below : it is valid. It defines an entity ``xxe``, that is filled with a file, read on the system and base64 encoded.::

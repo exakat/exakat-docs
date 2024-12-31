@@ -5,6 +5,21 @@
 Collect Php Structures
 ++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Collect Php Structures: Collect Php Structures.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Collect Php Structures
+	:twitter:description: Collect Php Structures: Collect Php Structures
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Collect Php Structures
+	:og:type: article
+	:og:description: Collect Php Structures
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/CollectPhpStructures.html
+	:og:locale: en
   Collect Php Structures. Constants, functions, classes, traits and interfaces.
 
 Specs

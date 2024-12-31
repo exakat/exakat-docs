@@ -5,6 +5,21 @@
 Avoid Concat In Loop
 ++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Avoid Concat In Loop: Concatenations inside a loop generate a lot of temporary variables.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Avoid Concat In Loop
+	:twitter:description: Avoid Concat In Loop: Concatenations inside a loop generate a lot of temporary variables
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Avoid Concat In Loop
+	:og:type: article
+	:og:description: Concatenations inside a loop generate a lot of temporary variables
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Performances/NoConcatInLoop.html
+	:og:locale: en
   Concatenations inside a loop generate a lot of temporary variables. They are accumulated and tend to raise the memory usage, leading to slower performances.
 
 It is recommended to store the values in an array, and then use `implode() <https://www.php.net/implode>`_ on that array to make the concatenation at once. The effect is positive when the source array has at least 50 elements. 

@@ -5,6 +5,21 @@
 Can't Instantiate Class
 +++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Can't Instantiate Class: When constructor is not public, it is not possible to instantiate such a class.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Can't Instantiate Class
+	:twitter:description: Can't Instantiate Class: When constructor is not public, it is not possible to instantiate such a class
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Can't Instantiate Class
+	:og:type: article
+	:og:description: When constructor is not public, it is not possible to instantiate such a class
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/CantInstantiateClass.html
+	:og:locale: en
   When constructor is not public, it is not possible to instantiate such a class. Either this is a conception choice, or there are factories to handle that. Either way, it is not possible to call new on such class.
 
 .. code-block:: php

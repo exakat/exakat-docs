@@ -5,6 +5,21 @@
 Unused Traits
 +++++++++++++
 
+.. meta\:\:
+	:description:
+		Unused Traits: Those traits are not used in any class or trait.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Unused Traits
+	:twitter:description: Unused Traits: Those traits are not used in any class or trait
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Unused Traits
+	:og:type: article
+	:og:description: Those traits are not used in any class or trait
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Traits/UnusedTrait.html
+	:og:locale: en
   Those traits are not used in any class or trait. They are probably dead code, as there is no way to use a trait without a host class.
 
 .. code-block:: php

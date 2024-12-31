@@ -5,6 +5,21 @@
 Extends stdClass
 ++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Extends stdClass: Those classes extends ``stdClass``.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Extends stdClass
+	:twitter:description: Extends stdClass: Those classes extends ``stdClass``
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Extends stdClass
+	:og:type: article
+	:og:description: Those classes extends ``stdClass``
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/ExtendsStdclass.html
+	:og:locale: en
   Those classes extends ``stdClass``.
 
 Traditionally, classes are defined independently, without any native class extension. 

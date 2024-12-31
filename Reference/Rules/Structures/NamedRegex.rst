@@ -5,6 +5,21 @@
 Named Regex
 +++++++++++
 
+.. meta\:\:
+	:description:
+		Named Regex: Captured subpatterns may be named, for easier reference.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Named Regex
+	:twitter:description: Named Regex: Captured subpatterns may be named, for easier reference
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Named Regex
+	:og:type: article
+	:og:description: Captured subpatterns may be named, for easier reference
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/NamedRegex.html
+	:og:locale: en
   Captured subpatterns may be named, for easier reference. 
 
 From the manual : It is possible to name a subpattern using the syntax ``(?P<name>pattern)``. This subpattern will then be indexed in the matches array by its normal numeric position and also by name. PHP 5.2.2 introduced two alternative syntaxes ``(?<name>pattern)`` and ``(?'name'pattern)``.

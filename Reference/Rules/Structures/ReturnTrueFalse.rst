@@ -5,6 +5,21 @@
 Return True False
 +++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Return True False: These conditional expressions return true/false, depending on the condition.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Return True False
+	:twitter:description: Return True False: These conditional expressions return true/false, depending on the condition
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Return True False
+	:og:type: article
+	:og:description: These conditional expressions return true/false, depending on the condition
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ReturnTrueFalse.html
+	:og:locale: en
   These conditional expressions return true/false, depending on the condition. This may be simplified by dropping the control structure altogether.
 This may be simplified with : 
 This may be applied to assignations and ternary operators too.

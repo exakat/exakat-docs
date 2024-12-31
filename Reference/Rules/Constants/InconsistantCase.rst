@@ -5,6 +5,21 @@
 True False Inconsistant Case
 ++++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		True False Inconsistant Case: TRUE, true or True is the favorite way to write these values.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: True False Inconsistant Case
+	:twitter:description: True False Inconsistant Case: TRUE, true or True is the favorite way to write these values
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: True False Inconsistant Case
+	:og:type: article
+	:og:description: TRUE, true or True is the favorite way to write these values
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Constants/InconsistantCase.html
+	:og:locale: en
   `TRUE <https://www.php.net/TRUE>`_, true or True is the favorite way to write these values.
 
 Usually, source code chooses either ALL CAPS booleans and null, either all lowercase. Sometimes, there is no standard.

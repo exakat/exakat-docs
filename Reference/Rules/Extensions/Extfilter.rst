@@ -5,6 +5,21 @@
 ext/filter
 ++++++++++
 
+.. meta\:\:
+	:description:
+		ext/filter: Extension filter.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: ext/filter
+	:twitter:description: ext/filter: Extension filter
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: ext/filter
+	:og:type: article
+	:og:description: Extension filter
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extfilter.html
+	:og:locale: en
   Extension filter.
 
 This extension filters data by either validating or sanitizing it.

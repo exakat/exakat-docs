@@ -5,6 +5,21 @@
 Unset() Or (unset)
 ++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Unset() Or (unset): Unset() and (unset) have the same functional use.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Unset() Or (unset)
+	:twitter:description: Unset() Or (unset): Unset() and (unset) have the same functional use
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Unset() Or (unset)
+	:og:type: article
+	:og:description: Unset() and (unset) have the same functional use
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/UnsetOrCast.html
+	:og:locale: en
   Unset() and (unset) have the same functional use. 
 
 The analyzed code has less than 10% of one of them : for consistency reasons, it is recommended to make them all the same. 

@@ -5,6 +5,21 @@
 Typed Property Usage
 ++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Typed Property Usage: PHP properties may be typed.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Typed Property Usage
+	:twitter:description: Typed Property Usage: PHP properties may be typed
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Typed Property Usage
+	:og:type: article
+	:og:description: PHP properties may be typed
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/TypedPropertyUsage.html
+	:og:locale: en
   PHP properties may be typed. Since PHP 7.4, it is possible to type properties, just like arguments and return values.
 
 .. code-block:: php

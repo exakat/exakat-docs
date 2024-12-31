@@ -5,6 +5,21 @@
 Keep Files Access Restricted
 ++++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Keep Files Access Restricted: Avoid using 0777 as file or directory mode.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Keep Files Access Restricted
+	:twitter:description: Keep Files Access Restricted: Avoid using 0777 as file or directory mode
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Keep Files Access Restricted
+	:og:type: article
+	:og:description: Avoid using 0777 as file or directory mode
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Security/KeepFilesRestricted.html
+	:og:locale: en
   Avoid using 0777 as file or `directory <https://www.php.net/`directory <https://www.php.net/directory>`_>`_ mode. In particular, setting a file or a `directory <https://www.php.net/`directory <https://www.php.net/directory>`_>`_ to 0777 (or universal read-write-execute) may lead to security vulnerabilities, as anything on the server may read, write and even execute
 
 File mode may be changed using the `chmod() <https://www.php.net/chmod>`_ function, or at `directory <https://www.php.net/`directory <https://www.php.net/directory>`_>`_ creation, with `mkdir() <https://www.php.net/mkdir>`_.

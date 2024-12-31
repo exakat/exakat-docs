@@ -5,6 +5,21 @@
 Multiple Returns
 ++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Multiple Returns: Functions and methods that have multiple return statement.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Multiple Returns
+	:twitter:description: Multiple Returns: Functions and methods that have multiple return statement
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Multiple Returns
+	:og:type: article
+	:og:description: Functions and methods that have multiple return statement
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/MultipleReturn.html
+	:og:locale: en
   Functions and methods that have multiple return statement. 
 
 This makes it difficult to maintain : since the function may be short-circuited early, some later instruction may be omitted.

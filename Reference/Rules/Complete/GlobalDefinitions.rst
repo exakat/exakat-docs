@@ -5,6 +5,21 @@
 Global Definitions
 ++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Global Definitions: Sets the definitions of global variables across the application.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Global Definitions
+	:twitter:description: Global Definitions: Sets the definitions of global variables across the application
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Global Definitions
+	:og:type: article
+	:og:description: Sets the definitions of global variables across the application
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Complete/GlobalDefinitions.html
+	:og:locale: en
   Sets the definitions of global variables across the application.
 
 It creates a Virtualglobal atom, which links to all definitions of that variables, using ``global $a`` or ``$GLOBALS['a']``.

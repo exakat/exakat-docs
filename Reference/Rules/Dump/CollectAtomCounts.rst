@@ -5,6 +5,21 @@
 Collect Atom Counts
 +++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Collect Atom Counts: Collects the list of each atom detected in the code by the engine, and the number of occurrences.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Collect Atom Counts
+	:twitter:description: Collect Atom Counts: Collects the list of each atom detected in the code by the engine, and the number of occurrences
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Collect Atom Counts
+	:og:type: article
+	:og:description: Collects the list of each atom detected in the code by the engine, and the number of occurrences
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/CollectAtomCounts.html
+	:og:locale: en
   Collects the list of each atom detected in the code by the `engine <https://www.php.net/engine>`_, and the number of occurrences. This gives a good overview of the PHP features in use by that source code.
 
 Specs

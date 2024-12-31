@@ -5,6 +5,21 @@
 No Reference For Ternary
 ++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		No Reference For Ternary: The ternary operator and the null coalescing operator are both expressions that only return values, and not a reference.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: No Reference For Ternary
+	:twitter:description: No Reference For Ternary: The ternary operator and the null coalescing operator are both expressions that only return values, and not a reference
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: No Reference For Ternary
+	:og:type: article
+	:og:description: The ternary operator and the null coalescing operator are both expressions that only return values, and not a reference
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/NoReferenceForTernary.html
+	:og:locale: en
   The ternary operator and the null coalescing operator are both expressions that only return values, and not a reference. 
 
 This means that any provided reference will be turned into its value. While this is usually invisible, it will raise a warning when a reference is expected. This is the case with methods returning a reference. 
@@ -36,7 +51,7 @@ See also `Null Coalescing Operator <https://www.php.net/manual/en/language.opera
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Only+variable+references+should+be+returned+by+reference.html>`_
+  + `Only variable references should be returned by reference <https://php-errors.readthedocs.io/en/latest/messages/only-variable-references-should-be-returned-by-reference.html>`_
 
 
 

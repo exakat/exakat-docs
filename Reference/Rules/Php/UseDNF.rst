@@ -5,6 +5,21 @@
 Use DNF
 +++++++
 
+.. meta\:\:
+	:description:
+		Use DNF: This rule detects the usage of the DNF.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Use DNF
+	:twitter:description: Use DNF: This rule detects the usage of the DNF
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Use DNF
+	:og:type: article
+	:og:description: This rule detects the usage of the DNF
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/UseDNF.html
+	:og:locale: en
   This rule detects the usage of the DNF. DNF is the disjunctive Normal Form. It is a syntax to handle union and intersectional types at the same time. It was introducted in PHP 8.2.
 
 DNF is available for every typed element of PHP : properties, arguments and returntype. It was extended to class constants on PHP 8.3. 

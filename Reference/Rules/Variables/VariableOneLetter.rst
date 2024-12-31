@@ -5,6 +5,21 @@
 Variables With One Letter Names
 +++++++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Variables With One Letter Names: Variables with one letter name are the shortest name for variables.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Variables With One Letter Names
+	:twitter:description: Variables With One Letter Names: Variables with one letter name are the shortest name for variables
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Variables With One Letter Names
+	:og:type: article
+	:og:description: Variables with one letter name are the shortest name for variables
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Variables/VariableOneLetter.html
+	:og:locale: en
   Variables with one letter name are the shortest name for variables. They also bear very little meaning : what does contain the variable ``$w`` ? 
 
 Some one-letter variables have meaning : ``$x`` and ``$y`` for coordinates, ``$i``, ``$j``, ``$k`` for blind variables. Others tend to be an easy way to give a name to a variable, without thinking too hard a good name.

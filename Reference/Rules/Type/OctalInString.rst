@@ -5,6 +5,21 @@
 Invalid Octal In String
 +++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Invalid Octal In String: Any octal sequence inside a string can't be go \377.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Invalid Octal In String
+	:twitter:description: Invalid Octal In String: Any octal sequence inside a string can't be go \377
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Invalid Octal In String
+	:og:type: article
+	:og:description: Any octal sequence inside a string can't be go \377
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Type/OctalInString.html
+	:og:locale: en
   Any octal sequence inside a string can't be go \377. Those will be a fatal `error <https://www.php.net/error>`_ at parsing time. 
 
 The check is applied to the string, starting with PHP 7.1. In PHP 7.0 and older, those sequences were silently adapted (modulo/% \400).

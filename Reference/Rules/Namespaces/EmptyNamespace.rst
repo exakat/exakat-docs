@@ -5,6 +5,21 @@
 Empty Namespace
 +++++++++++++++
 
+.. meta\:\:
+	:description:
+		Empty Namespace: Declaring a namespace in the code and not using it for structure declarations or global instructions is useless.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Empty Namespace
+	:twitter:description: Empty Namespace: Declaring a namespace in the code and not using it for structure declarations or global instructions is useless
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Empty Namespace
+	:og:type: article
+	:og:description: Declaring a namespace in the code and not using it for structure declarations or global instructions is useless
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Namespaces/EmptyNamespace.html
+	:og:locale: en
   Declaring a namespace in the code and not using it for structure declarations or global instructions is useless.
 
 Using simple style : 

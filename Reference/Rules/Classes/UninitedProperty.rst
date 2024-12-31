@@ -5,6 +5,21 @@
 Uninitialized Property
 ++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Uninitialized Property: Uninitialized properties are not fully bootstrapped at the end of the constructor.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Uninitialized Property
+	:twitter:description: Uninitialized Property: Uninitialized properties are not fully bootstrapped at the end of the constructor
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Uninitialized Property
+	:og:type: article
+	:og:description: Uninitialized properties are not fully bootstrapped at the end of the constructor
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/UninitedProperty.html
+	:og:locale: en
   Uninitialized properties are not fully bootstrapped at the end of the constructor. 
 
 Properties may be initialized at definition time, along with their visibility and type. Some types are not initialized at definition time, as any object (before PHP 8.2) or resources, so they should be initialized during constructor. At the end of the former, all properties shall have a legit value, and be ready for usage.

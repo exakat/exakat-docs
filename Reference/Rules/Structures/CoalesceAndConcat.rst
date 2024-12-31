@@ -5,6 +5,21 @@
 Coalesce And Concat
 +++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Coalesce And Concat: The concatenation operator ``.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Coalesce And Concat
+	:twitter:description: Coalesce And Concat: The concatenation operator ``
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Coalesce And Concat
+	:og:type: article
+	:og:description: The concatenation operator ``
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/CoalesceAndConcat.html
+	:og:locale: en
   The concatenation operator ``.`` has precedence over the coalesce operator ``??``. 
 
 It is recommended to add parenthesis to make this expression explicit.

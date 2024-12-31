@@ -5,6 +5,21 @@
 Real Variables
 ++++++++++++++
 
+.. meta\:\:
+	:description:
+		Real Variables: Inventory of real variables.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Real Variables
+	:twitter:description: Real Variables: Inventory of real variables
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Real Variables
+	:og:type: article
+	:og:description: Inventory of real variables
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Variables/RealVariables.html
+	:og:locale: en
   Inventory of real variables. Global, `Static <https://www.php.net/manual/en/language.oop5.static.php>`_ and property declarations are skipped here. 
 This is a refined version of a search on ``T_VARIABLE`` token.
 

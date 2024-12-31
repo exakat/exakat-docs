@@ -5,6 +5,21 @@
 Too Complex Expression
 ++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Too Complex Expression: Long expressions should be broken in small chunks, to limit complexity.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Too Complex Expression
+	:twitter:description: Too Complex Expression: Long expressions should be broken in small chunks, to limit complexity
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Too Complex Expression
+	:og:type: article
+	:og:description: Long expressions should be broken in small chunks, to limit complexity
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ComplexExpression.html
+	:og:locale: en
   Long expressions should be broken in small chunks, to limit complexity. 
 
 Really long expressions tends to be `error <https://www.php.net/error>`_ prone : either by typo, or by missing details. They are even harder to review, once the initially build of the expression is gone. 

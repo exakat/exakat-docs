@@ -5,6 +5,21 @@
 Use File Append
 +++++++++++++++
 
+.. meta\:\:
+	:description:
+		Use File Append: When appending data to a file, one may also use the file_put_contents() function with the ``FILE_APPEND`` option.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Use File Append
+	:twitter:description: Use File Append: When appending data to a file, one may also use the file_put_contents() function with the ``FILE_APPEND`` option
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Use File Append
+	:og:type: article
+	:og:description: When appending data to a file, one may also use the file_put_contents() function with the ``FILE_APPEND`` option
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/UseFileAppend.html
+	:og:locale: en
   When appending data to a file, one may also use the `file_put_contents() <https://www.php.net/file_put_contents>`_ function with the ``FILE_APPEND`` option. 
 
 Using `file_put_contents() <https://www.php.net/file_put_contents>`_ also keeps the file open as little as possible, unlike keeping the resource open in PHP, between usages.

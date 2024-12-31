@@ -5,6 +5,21 @@
 Identical Consecutive Expression
 ++++++++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Identical Consecutive Expression: Identical consecutive expressions might be double code.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Identical Consecutive Expression
+	:twitter:description: Identical Consecutive Expression: Identical consecutive expressions might be double code
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Identical Consecutive Expression
+	:og:type: article
+	:og:description: Identical consecutive expressions might be double code
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/IdenticalConsecutive.html
+	:og:locale: en
   Identical consecutive expressions might be double code. They are worth being checked. 
 
 They may be a copy/paste with unmodified content. When the content has to be duplicated, it is recommended to avoid executing the expression again, and just access the cached `result <https://www.php.net/result>`_.

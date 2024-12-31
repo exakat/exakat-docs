@@ -5,6 +5,21 @@
 Is A Magic Property
 +++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Is A Magic Property: Mark properties usage when they are actually a magic call.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Is A Magic Property
+	:twitter:description: Is A Magic Property: Mark properties usage when they are actually a magic call
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Is A Magic Property
+	:og:type: article
+	:og:description: Mark properties usage when they are actually a magic call
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/IsaMagicProperty.html
+	:og:locale: en
   Mark properties usage when they are actually a magic call. 
 
 There is no direct mention of it in the syntax, it has to be checked with the definitions of the class.

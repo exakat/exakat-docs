@@ -5,6 +5,21 @@
 Class Function Confusion
 ++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Class Function Confusion: Avoid classes and functions bearing the same name.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Class Function Confusion
+	:twitter:description: Class Function Confusion: Avoid classes and functions bearing the same name
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Class Function Confusion
+	:og:type: article
+	:og:description: Avoid classes and functions bearing the same name
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/ClassFunctionConfusion.html
+	:og:locale: en
   Avoid classes and functions bearing the same name. 
 
 When functions and classes bear the same name, calling them may be confusing. This may also lead to forgotten 'new' keyword.

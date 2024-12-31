@@ -5,6 +5,21 @@
 No Max On Empty Array
 +++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		No Max On Empty Array: Using max() or min() on an empty array leads to a ``valueError`` exception.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: No Max On Empty Array
+	:twitter:description: No Max On Empty Array: Using max() or min() on an empty array leads to a ``valueError`` exception
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: No Max On Empty Array
+	:og:type: article
+	:og:description: Using max() or min() on an empty array leads to a ``valueError`` exception
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/NoMaxOnEmptyArray.html
+	:og:locale: en
   Using `max() <https://www.php.net/max>`_ or `min() <https://www.php.net/min>`_ on an empty array leads to a ``valueError`` `exception <https://www.php.net/exception>`_.
 
 Until PHP 8, `max() <https://www.php.net/max>`_ and `min() <https://www.php.net/min>`_ would return null in case of empty array. This might be confusing with actual values, as an array can contain ``null``. ``null`` has a specific behavior when comparing with other values, and should be avoided with `max() <https://www.php.net/max>`_ and sorts. 
@@ -62,7 +77,7 @@ _____
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------+
 | Time To Fix      | Quick (30 mins)                                                                                                                      |
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------+
-| Changed Behavior | PHP 8.0 - `More <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/.html>`__                                           |
+| Changed Behavior | PHP 8.0                                                                                                                              |
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------+
 | Precision        | High                                                                                                                                 |
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------+

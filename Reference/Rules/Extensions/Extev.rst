@@ -5,6 +5,21 @@
 ext/ev
 ++++++
 
+.. meta\:\:
+	:description:
+		ext/ev: Extension ev.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: ext/ev
+	:twitter:description: ext/ev: Extension ev
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: ext/ev
+	:og:type: article
+	:og:description: Extension ev
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extev.html
+	:og:locale: en
   Extension ev.
 
 ext/ev is a high performance full-featured event loop written in C.

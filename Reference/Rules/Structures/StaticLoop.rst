@@ -5,6 +5,21 @@
 Static Loop
 +++++++++++
 
+.. meta\:\:
+	:description:
+		Static Loop: Static loop may be preprocessed.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Static Loop
+	:twitter:description: Static Loop: Static loop may be preprocessed
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Static Loop
+	:og:type: article
+	:og:description: Static loop may be preprocessed
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/StaticLoop.html
+	:og:locale: en
   `Static <https://www.php.net/manual/en/language.oop5.static.php>`_ loop may be preprocessed.
 
 It looks like the following loops are `static <https://www.php.net/manual/en/language.oop5.static.php>`_ : the same code is executed each time, without taking into account loop variables.

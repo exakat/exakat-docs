@@ -5,6 +5,21 @@
 Suspicious Comparison
 +++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Suspicious Comparison: The comparison seems to be misplaced.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Suspicious Comparison
+	:twitter:description: Suspicious Comparison: The comparison seems to be misplaced
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Suspicious Comparison
+	:og:type: article
+	:og:description: The comparison seems to be misplaced
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/SuspiciousComparison.html
+	:og:locale: en
   The comparison seems to be misplaced.
 
 A comparison happens in the last argument, while the actual function expect another type : this may be the case of a badly placed parenthesis.

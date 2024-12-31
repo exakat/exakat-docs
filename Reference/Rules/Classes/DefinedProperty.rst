@@ -5,6 +5,21 @@
 Defined Properties
 ++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Defined Properties: List of properties that are explicitly defined in the class, its parents or traits.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Defined Properties
+	:twitter:description: Defined Properties: List of properties that are explicitly defined in the class, its parents or traits
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Defined Properties
+	:og:type: article
+	:og:description: List of properties that are explicitly defined in the class, its parents or traits
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/DefinedProperty.html
+	:og:locale: en
   List of properties that are explicitly defined in the class, its parents or traits.
 
 .. code-block:: php

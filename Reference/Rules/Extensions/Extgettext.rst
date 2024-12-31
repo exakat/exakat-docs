@@ -5,6 +5,21 @@
 ext/gettext
 +++++++++++
 
+.. meta\:\:
+	:description:
+		ext/gettext: Extension Gettext.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: ext/gettext
+	:twitter:description: ext/gettext: Extension Gettext
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: ext/gettext
+	:og:type: article
+	:og:description: Extension Gettext
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extgettext.html
+	:og:locale: en
   Extension Gettext.
 
 The gettext functions implement an NLS (Native Language Support) API which can be used to internationalize your PHP applications.

@@ -5,6 +5,21 @@
 Use Covariance
 ++++++++++++++
 
+.. meta\:\:
+	:description:
+		Use Covariance: Covariance is compatible return typehint.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Use Covariance
+	:twitter:description: Use Covariance: Covariance is compatible return typehint
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Use Covariance
+	:og:type: article
+	:og:description: Covariance is compatible return typehint
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/UseCovariance.html
+	:og:locale: en
   Covariance is compatible return typehint. A child class may return an object of a child class of the return type of its `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_'s method.
 
 Since a children class may return a children class of the return type, the evolution is in the same order.

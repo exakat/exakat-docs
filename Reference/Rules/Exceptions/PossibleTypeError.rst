@@ -5,6 +5,21 @@
 Possible TypeError
 ++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Possible TypeError: Report possible errors when a string is given to a int or float typed container.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Possible TypeError
+	:twitter:description: Possible TypeError: Report possible errors when a string is given to a int or float typed container
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Possible TypeError
+	:og:type: article
+	:og:description: Report possible errors when a string is given to a int or float typed container
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Exceptions/PossibleTypeError.html
+	:og:locale: en
   Report possible errors when a string is given to a int or float typed container. 
 
 That `error <https://www.php.net/error>`_ will be emitted when strict_types is active, or if the string cannot be formatted into a float or an int. Otherwise, the code works as intended.

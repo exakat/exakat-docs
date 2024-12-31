@@ -5,6 +5,21 @@
 Overload Existing Names
 +++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Overload Existing Names: Imported alias have precedence over existing ones, and as such, may replace existing features with unexpected ones.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Overload Existing Names
+	:twitter:description: Overload Existing Names: Imported alias have precedence over existing ones, and as such, may replace existing features with unexpected ones
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Overload Existing Names
+	:og:type: article
+	:og:description: Imported alias have precedence over existing ones, and as such, may replace existing features with unexpected ones
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Namespaces/OverloadExistingNames.html
+	:og:locale: en
   Imported alias have precedence over existing ones, and as such, may replace existing features with unexpected ones. 
 
 This example shows how to replace `strtolower() <https://www.php.net/strtolower>`_ with `strtoupper() <https://www.php.net/strtoupper>`_ while keeping the main code intact. This might be very confusing code. 

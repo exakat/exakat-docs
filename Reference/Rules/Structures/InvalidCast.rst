@@ -5,6 +5,21 @@
 Invalid Cast
 ++++++++++++
 
+.. meta\:\:
+	:description:
+		Invalid Cast: Some cast operations not permitted.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Invalid Cast
+	:twitter:description: Invalid Cast: Some cast operations not permitted
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Invalid Cast
+	:og:type: article
+	:og:description: Some cast operations not permitted
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/InvalidCast.html
+	:og:locale: en
   Some cast operations not permitted. 
 
 + (string) on an object whose class doesn't have a ``__toString`` method

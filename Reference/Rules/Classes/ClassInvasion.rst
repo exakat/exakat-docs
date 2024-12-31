@@ -5,6 +5,21 @@
 Class Invasion
 ++++++++++++++
 
+.. meta\:\:
+	:description:
+		Class Invasion: Class invasion happens when an object access another object's private methods or properties.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Class Invasion
+	:twitter:description: Class Invasion: Class invasion happens when an object access another object's private methods or properties
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Class Invasion
+	:og:type: article
+	:og:description: Class invasion happens when an object access another object's private methods or properties
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/ClassInvasion.html
+	:og:locale: en
   Class invasion happens when an object access another object's private methods or properties. 
 
 This is possible from the scope of the class itself. For example, an cloned object, or a parameter with the same type as the current class. 

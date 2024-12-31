@@ -5,6 +5,21 @@
 Foreach With list()
 +++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Foreach With list(): Foreach loops have the ability to use list() (or []) as blind variables.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Foreach With list()
+	:twitter:description: Foreach With list(): Foreach loops have the ability to use list() (or []) as blind variables
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Foreach With list()
+	:og:type: article
+	:og:description: Foreach loops have the ability to use list() (or []) as blind variables
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ForeachWithList.html
+	:og:locale: en
   Foreach loops have the ability to use `list() <https://www.php.net/list>`_ (or []) as blind variables. This syntax assign directly array elements to various variables. 
 
 PHP 5.5 introduced the usage of list in `foreach() <https://www.php.net/manual/en/control-structures.foreach.php>`_ loops. Until PHP 7.1, it was not possible to use non-numerical arrays as `list() <https://www.php.net/list>`_ wouldn't support string-indexed arrays.

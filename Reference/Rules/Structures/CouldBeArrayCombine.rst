@@ -5,6 +5,21 @@
 Could Be array_combine()
 ++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Could Be array_combine(): This rule suggests using the native function array_combine() to merge two arrays into a hash.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Could Be array_combine()
+	:twitter:description: Could Be array_combine(): This rule suggests using the native function array_combine() to merge two arrays into a hash
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Could Be array_combine()
+	:og:type: article
+	:og:description: This rule suggests using the native function array_combine() to merge two arrays into a hash
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/CouldBeArrayCombine.html
+	:og:locale: en
   This rule suggests using the native function `array_combine() <https://www.php.net/array_combine>`_ to merge two arrays into a hash. `array_combine() <https://www.php.net/array_combine>`_ takes the keys and the values from two distinct arrays, and merge them into one.
 
 .. code-block:: php

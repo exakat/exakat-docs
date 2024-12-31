@@ -5,6 +5,21 @@
 $php_errormsg Usage
 +++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		$php_errormsg Usage: The variable $php_errormsg is removed since PHP 8.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: $php_errormsg Usage
+	:twitter:description: $php_errormsg Usage: The variable $php_errormsg is removed since PHP 8
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: $php_errormsg Usage
+	:og:type: article
+	:og:description: The variable $php_errormsg is removed since PHP 8
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/PhpErrorMsgUsage.html
+	:og:locale: en
   The variable $php_errormsg is removed since PHP 8.0. $php_errormsg tracks the last `error <https://www.php.net/error>`_ message, with the directive `track_errors`. All was removed in PHP 8.0, and shall be replaced with `error_get_last() <https://www.php.net/error_get_last>`_.
 
 .. code-block:: php
@@ -50,7 +65,7 @@ _____
 +------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Time To Fix      | Quick (30 mins)                                                                                                                                                                         |
 +------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Changed Behavior | PHP 8.0 - `More <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/.html>`__                                                                                              |
+| Changed Behavior | PHP 8.0 - `More <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/php_errormsg.html>`__                                                                                  |
 +------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision        | High                                                                                                                                                                                    |
 +------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

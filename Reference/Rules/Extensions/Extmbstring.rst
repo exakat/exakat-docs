@@ -5,6 +5,21 @@
 ext/mbstring
 ++++++++++++
 
+.. meta\:\:
+	:description:
+		ext/mbstring: Extension ``ext/mbstring``.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: ext/mbstring
+	:twitter:description: ext/mbstring: Extension ``ext/mbstring``
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: ext/mbstring
+	:og:type: article
+	:og:description: Extension ``ext/mbstring``
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extmbstring.html
+	:og:locale: en
   Extension ``ext/mbstring``.
 
 ``mbstring`` provides multibyte specific string functions that help you deal with multibyte encodings in PHP.

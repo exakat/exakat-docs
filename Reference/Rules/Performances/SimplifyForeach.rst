@@ -5,6 +5,21 @@
 Simplify Foreach
 ++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Simplify Foreach: Remove all unused keys or values from a foreach() call.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Simplify Foreach
+	:twitter:description: Simplify Foreach: Remove all unused keys or values from a foreach() call
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Simplify Foreach
+	:og:type: article
+	:og:description: Remove all unused keys or values from a foreach() call
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Performances/SimplifyForeach.html
+	:og:locale: en
   Remove all unused keys or values from a `foreach() <https://www.php.net/manual/en/control-structures.foreach.php>`_ call. This prevents PHP from assigning them for nothing, and save some processing time. 
 This is a micro-optimisation.
 

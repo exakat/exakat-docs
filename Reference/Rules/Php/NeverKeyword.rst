@@ -5,6 +5,21 @@
 Never Keyword
 +++++++++++++
 
+.. meta\:\:
+	:description:
+		Never Keyword: Never becomes a PHP keyword.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Never Keyword
+	:twitter:description: Never Keyword: Never becomes a PHP keyword
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Never Keyword
+	:og:type: article
+	:og:description: Never becomes a PHP keyword
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/NeverKeyword.html
+	:og:locale: en
   Never becomes a PHP keyword. It is used for typing functions which never returns anything (either dies or throw an `exception) <https://www.php.net/exception>`_.
 
 It should be avoided in namespaces, classes, traits and interfaces. Methods, constants and functions are OK.
@@ -26,7 +41,7 @@ See also `never <https://www.php.net/manual/en/language.types.declarations.php#l
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Cannot+use+%27never%27+as+class+name+as+it+is+reserved+.html>`_
+  + `Cannot use 'never' as class name as it is reserved <https://php-errors.readthedocs.io/en/latest/messages/cannot-use-%27never%27-as-class-name-as-it-is-reserved.html>`_
 
 
 
@@ -60,7 +75,7 @@ _____
 +------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Time To Fix      | Slow (1 hour)                                                                                                                                                                                            |
 +------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Changed Behavior | PHP 8.1 - `More <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/.html>`__                                                                                                               |
+| Changed Behavior | PHP 8.1                                                                                                                                                                                                  |
 +------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision        | Very high                                                                                                                                                                                                |
 +------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

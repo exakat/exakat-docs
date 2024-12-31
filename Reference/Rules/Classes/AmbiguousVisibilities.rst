@@ -5,6 +5,21 @@
 Ambiguous Visibilities
 ++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Ambiguous Visibilities: The properties have the same name, but have different visibilities, across different classes.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Ambiguous Visibilities
+	:twitter:description: Ambiguous Visibilities: The properties have the same name, but have different visibilities, across different classes
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Ambiguous Visibilities
+	:og:type: article
+	:og:description: The properties have the same name, but have different visibilities, across different classes
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/AmbiguousVisibilities.html
+	:og:locale: en
   The properties have the same name, but have different visibilities, across different classes. 
 
 While it is legit to have a property with the same name in different classes, it may easily lead to confusion. As soon as the context is need to understand if the property is accessible or not, the readability suffers.

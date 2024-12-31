@@ -5,6 +5,21 @@
 Should Use array_filter()
 +++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Should Use array_filter(): Should use array_filter().
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Should Use array_filter()
+	:twitter:description: Should Use array_filter(): Should use array_filter()
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Should Use array_filter()
+	:og:type: article
+	:og:description: Should use array_filter()
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/ShouldUseArrayFilter.html
+	:og:locale: en
   Should use `array_filter() <https://www.php.net/array_filter>`_.
 
 `array_filter() <https://www.php.net/array_filter>`_ is a native PHP function, that extract elements from an array, based on a custom call. Using `array_filter() <https://www.php.net/array_filter>`_ shortens your code, and allows for reusing the filtering logic across the application, instead of hard coding it every time.

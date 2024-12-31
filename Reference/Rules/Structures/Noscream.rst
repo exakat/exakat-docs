@@ -5,6 +5,21 @@
 @ Operator
 ++++++++++
 
+.. meta\:\:
+	:description:
+		@ Operator: @ is the 'no scream' operator : it suppresses error output.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: @ Operator
+	:twitter:description: @ Operator: @ is the 'no scream' operator : it suppresses error output
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: @ Operator
+	:og:type: article
+	:og:description: @ is the 'no scream' operator : it suppresses error output
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/Noscream.html
+	:og:locale: en
   `@ <https://www.php.net/manual/en/language.operators.errorcontrol.php>`_ is the 'no scream' operator : it suppresses `error <https://www.php.net/error>`_ output. 
 This operator is very slow : it processes the `error <https://www.php.net/error>`_, and finally decides not to display it. It is often faster to check the conditions first, then run the method without ``@``.
 

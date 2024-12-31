@@ -5,6 +5,21 @@
 Const Visibility Usage
 ++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Const Visibility Usage: Visibility for class constant controls the accessibility to class constant.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Const Visibility Usage
+	:twitter:description: Const Visibility Usage: Visibility for class constant controls the accessibility to class constant
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Const Visibility Usage
+	:og:type: article
+	:og:description: Visibility for class constant controls the accessibility to class constant
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/ConstVisibilityUsage.html
+	:og:locale: en
   Visibility for class constant controls the accessibility to class constant.
 
 A public constant may be used anywhere in the code; a protected constant usage is restricted to the class and its relatives; a private constant is restricted to itself.

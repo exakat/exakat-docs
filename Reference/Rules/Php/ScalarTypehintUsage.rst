@@ -5,6 +5,21 @@
 Scalar Typehint Usage
 +++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Scalar Typehint Usage: Spot usage of scalar type hint : ``int``, ``float``, ``boolean`` and ``string``.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Scalar Typehint Usage
+	:twitter:description: Scalar Typehint Usage: Spot usage of scalar type hint : ``int``, ``float``, ``boolean`` and ``string``
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Scalar Typehint Usage
+	:og:type: article
+	:og:description: Spot usage of scalar type hint : ``int``, ``float``, ``boolean`` and ``string``
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/ScalarTypehintUsage.html
+	:og:locale: en
   Spot usage of scalar type hint : ``int``, ``float``, ``boolean`` and ``string``.
 
 Scalar typehint are PHP 7.0 and more recent. Some, like ``object``, is 7.2.
@@ -46,7 +61,7 @@ _____
 +------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Time To Fix      | Quick (30 mins)                                                                                                                                                                         |
 +------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Changed Behavior | PHP 7.0 - `More <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/.html>`__                                                                                              |
+| Changed Behavior | PHP 7.0                                                                                                                                                                                 |
 +------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision        | Very high                                                                                                                                                                               |
 +------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

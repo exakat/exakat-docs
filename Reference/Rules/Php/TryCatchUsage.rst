@@ -5,6 +5,21 @@
 Caught Expressions
 ++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Caught Expressions: This rule lists all the caught exceptions.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Caught Expressions
+	:twitter:description: Caught Expressions: This rule lists all the caught exceptions
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Caught Expressions
+	:og:type: article
+	:og:description: This rule lists all the caught exceptions
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/TryCatchUsage.html
+	:og:locale: en
   This rule lists all the caught exceptions. 
 
 Exceptions may be caught by a code, while the same code never throw them. 

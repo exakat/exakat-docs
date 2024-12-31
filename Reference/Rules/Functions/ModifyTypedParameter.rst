@@ -5,6 +5,21 @@
 Modified Typed Parameter
 ++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Modified Typed Parameter: Reports modified parameters, which have a non-scalar typehint.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Modified Typed Parameter
+	:twitter:description: Modified Typed Parameter: Reports modified parameters, which have a non-scalar typehint
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Modified Typed Parameter
+	:og:type: article
+	:og:description: Reports modified parameters, which have a non-scalar typehint
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/ModifyTypedParameter.html
+	:og:locale: en
   Reports modified parameters, which have a non-scalar typehint. Such variables should not be changed within the body of the method. Unlike typed properties, which always hold the expected type, typed parameters are only guaranteed type at the beginning of the method block. 
 This problem doesn't apply to scalar types : by default, PHP pass scalar parameters by value, not by reference. Class types are always passed by reference.
 

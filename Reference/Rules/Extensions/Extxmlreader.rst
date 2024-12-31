@@ -5,6 +5,21 @@
 ext/xmlreader
 +++++++++++++
 
+.. meta\:\:
+	:description:
+		ext/xmlreader: Extension XMLReader.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: ext/xmlreader
+	:twitter:description: ext/xmlreader: Extension XMLReader
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: ext/xmlreader
+	:og:type: article
+	:og:description: Extension XMLReader
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extxmlreader.html
+	:og:locale: en
   Extension `XMLReader <https://www.php.net/xmlreader>`_.
 
 The `XMLReader <https://www.php.net/xmlreader>`_ extension is an XML Pull parser. The reader acts as a cursor going forward on the document stream and stopping at each node on the way.

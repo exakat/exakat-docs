@@ -5,6 +5,21 @@
 Group Use Declaration
 +++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Group Use Declaration: This rule reports when a group use declaration is used.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Group Use Declaration
+	:twitter:description: Group Use Declaration: This rule reports when a group use declaration is used
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Group Use Declaration
+	:og:type: article
+	:og:description: This rule reports when a group use declaration is used
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/GroupUseDeclaration.html
+	:og:locale: en
   This rule reports when a group use declaration is used. This is PHP feature since version 7.0, yet it is seldom used.
 
 .. code-block:: php

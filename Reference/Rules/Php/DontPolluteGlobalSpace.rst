@@ -5,6 +5,21 @@
 Don't Pollute Global Space
 ++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Don't Pollute Global Space: Avoid creating definitions in the global name space.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Don't Pollute Global Space
+	:twitter:description: Don't Pollute Global Space: Avoid creating definitions in the global name space
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Don't Pollute Global Space
+	:og:type: article
+	:og:description: Avoid creating definitions in the global name space
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/DontPolluteGlobalSpace.html
+	:og:locale: en
   Avoid creating definitions in the global name space.
 
 The global namespace is the default namespace, where all functions, classes, constants, traits and interfaces live. The `global namespace <https://www.php.net/manual/en/language.namespaces.global.php>`_ is also known as the root namespace.

@@ -5,6 +5,21 @@
 Could Be Callable
 +++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Could Be Callable: Mark arguments and return types that can be set to ``callable``.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Could Be Callable
+	:twitter:description: Could Be Callable: Mark arguments and return types that can be set to ``callable``
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Could Be Callable
+	:og:type: article
+	:og:description: Mark arguments and return types that can be set to ``callable``
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Typehints/CouldBeCallable.html
+	:og:locale: en
   Mark arguments and return types that can be set to ``callable``.
 
 The analysis also reports properties that could be 'callable', although PHP doesn't allow that configuration.

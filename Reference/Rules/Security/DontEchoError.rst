@@ -5,6 +5,21 @@
 Don't Echo Error
 ++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Don't Echo Error: It is recommended to avoid displaying error messages directly to the browser.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Don't Echo Error
+	:twitter:description: Don't Echo Error: It is recommended to avoid displaying error messages directly to the browser
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Don't Echo Error
+	:og:type: article
+	:og:description: It is recommended to avoid displaying error messages directly to the browser
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Security/DontEchoError.html
+	:og:locale: en
   It is recommended to avoid displaying `error <https://www.php.net/error>`_ messages directly to the browser.
 
 PHP's uses the ``display_errors`` directive to control display of errors to the browser. This must be kept to ``off`` when in production.

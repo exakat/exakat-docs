@@ -5,6 +5,21 @@
 Cyclomatic Complexity
 +++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Cyclomatic Complexity: This rules calculates cyclomatic complexity for each method, function, and closures.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Cyclomatic Complexity
+	:twitter:description: Cyclomatic Complexity: This rules calculates cyclomatic complexity for each method, function, and closures
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Cyclomatic Complexity
+	:og:type: article
+	:og:description: This rules calculates cyclomatic complexity for each method, function, and closures
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/CyclomaticComplexity.html
+	:og:locale: en
   This rules calculates cyclomatic complexity for each method, function, and closures.
 
 .. code-block:: php

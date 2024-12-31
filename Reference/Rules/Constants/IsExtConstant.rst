@@ -5,6 +5,21 @@
 Is An Extension Constant
 ++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Is An Extension Constant: Mark a constant if it belongs to a known extension.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Is An Extension Constant
+	:twitter:description: Is An Extension Constant: Mark a constant if it belongs to a known extension
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Is An Extension Constant
+	:og:type: article
+	:og:description: Mark a constant if it belongs to a known extension
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Constants/IsExtConstant.html
+	:og:locale: en
   Mark a constant if it belongs to a known extension.
 
 .. code-block:: php

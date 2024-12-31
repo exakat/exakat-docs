@@ -5,6 +5,21 @@
 Is PHP Constant
 +++++++++++++++
 
+.. meta\:\:
+	:description:
+		Is PHP Constant: Mark a constant if it is a PHP constant.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Is PHP Constant
+	:twitter:description: Is PHP Constant: Mark a constant if it is a PHP constant
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Is PHP Constant
+	:og:type: article
+	:og:description: Mark a constant if it is a PHP constant
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Constants/IsPhpConstant.html
+	:og:locale: en
   Mark a constant if it is a PHP constant.
 
 .. code-block:: php

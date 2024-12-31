@@ -5,6 +5,21 @@
 Used Trait
 ++++++++++
 
+.. meta\:\:
+	:description:
+		Used Trait: Mark a trait as being used by a class or another trait.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Used Trait
+	:twitter:description: Used Trait: Mark a trait as being used by a class or another trait
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Used Trait
+	:og:type: article
+	:og:description: Mark a trait as being used by a class or another trait
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Traits/UsedTrait.html
+	:og:locale: en
   Mark a trait as being used by a class or another trait.
 
 .. code-block:: php

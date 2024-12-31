@@ -5,6 +5,21 @@
 Setlocale() Uses Constants
 ++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Setlocale() Uses Constants: setlocale() don't use strings but constants.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Setlocale() Uses Constants
+	:twitter:description: Setlocale() Uses Constants: setlocale() don't use strings but constants
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Setlocale() Uses Constants
+	:og:type: article
+	:og:description: setlocale() don't use strings but constants
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/SetlocaleNeedsConstants.html
+	:og:locale: en
   `setlocale() <https://www.php.net/setlocale>`_ don't use strings but constants. 
 
 The first argument of `setlocale() <https://www.php.net/setlocale>`_ must be one of the valid constants, ``LC_ALL``, ``LC_COLLATE``, ``LC_CTYPE``, ``LC_MONETARY``, ``LC_NUMERIC``, ``LC_TIME, `LC_MESSAGES <https://www.php.net/LC_MESSAGES>`_``.

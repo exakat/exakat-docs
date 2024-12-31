@@ -5,6 +5,21 @@
 strip_tags() Skips Closed Tag
 +++++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		strip_tags() Skips Closed Tag: strip_tags() skips non-self closing tags.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: strip_tags() Skips Closed Tag
+	:twitter:description: strip_tags() Skips Closed Tag: strip_tags() skips non-self closing tags
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: strip_tags() Skips Closed Tag
+	:og:type: article
+	:og:description: strip_tags() skips non-self closing tags
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/StripTagsSkipsClosedTag.html
+	:og:locale: en
   `strip_tags() <https://www.php.net/strip_tags>`_ skips non-`self <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ closing tags. This means that tags such as ``<br />`` will be ignored from the second argument of the function.
 
 .. code-block:: php

@@ -5,6 +5,21 @@
 Useless Interfaces
 ++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Useless Interfaces: The interfaces below are defined and are implemented by some classes.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Useless Interfaces
+	:twitter:description: Useless Interfaces: The interfaces below are defined and are implemented by some classes
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Useless Interfaces
+	:og:type: article
+	:og:description: The interfaces below are defined and are implemented by some classes
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Interfaces/UselessInterfaces.html
+	:og:locale: en
   The interfaces below are defined and are implemented by some classes. 
 
 However, they are never used to enforce an object's class in the code, using ``instanceof`` or in a type. 

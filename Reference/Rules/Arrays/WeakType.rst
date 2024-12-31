@@ -5,6 +5,21 @@
 Weak Type With Array
 ++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Weak Type With Array: Using array as a type, to use specific index later.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Weak Type With Array
+	:twitter:description: Weak Type With Array: Using array as a type, to use specific index later
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Weak Type With Array
+	:og:type: article
+	:og:description: Using array as a type, to use specific index later
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Arrays/WeakType.html
+	:og:locale: en
   Using array as a type, to use specific index later.
 
 The type of array is too weak : it allows to know that the array syntax has to be used in the function. Yet, it doesn't enforce the presence or absence of a specific index.

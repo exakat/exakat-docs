@@ -5,6 +5,21 @@
 Useless Check
 +++++++++++++
 
+.. meta\:\:
+	:description:
+		Useless Check: There is no need to check the size of an array content before using foreach.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Useless Check
+	:twitter:description: Useless Check: There is no need to check the size of an array content before using foreach
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Useless Check
+	:og:type: article
+	:og:description: There is no need to check the size of an array content before using foreach
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/UselessCheck.html
+	:og:locale: en
   There is no need to check the size of an array content before using foreach. `Foreach() <https://www.php.net/manual/en/control-structures.foreach.php>`_ applies a test on the source, and skips the loop if no element is found.
 
 This analysis checks for conditions with `sizeof() <https://www.php.net/sizeof>`_ and `count() <https://www.php.net/count>`_. Conditions with `isset() <https://www.www.php.net/isset>`_ and empty() are omitted : they also check for the variable existence, and thus, offer extra coverage.

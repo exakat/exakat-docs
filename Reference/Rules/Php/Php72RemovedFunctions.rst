@@ -5,6 +5,21 @@
 PHP 7.2 Removed Functions
 +++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		PHP 7.2 Removed Functions: The following PHP native functions were removed in PHP 7.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: PHP 7.2 Removed Functions
+	:twitter:description: PHP 7.2 Removed Functions: The following PHP native functions were removed in PHP 7
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: PHP 7.2 Removed Functions
+	:og:type: article
+	:og:description: The following PHP native functions were removed in PHP 7
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/Php72RemovedFunctions.html
+	:og:locale: en
   The following PHP native functions were removed in PHP 7.2.
 
 * png2wbmp()

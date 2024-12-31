@@ -5,6 +5,21 @@
 ext/enchant
 +++++++++++
 
+.. meta\:\:
+	:description:
+		ext/enchant: Extension Enchant.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: ext/enchant
+	:twitter:description: ext/enchant: Extension Enchant
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: ext/enchant
+	:og:type: article
+	:og:description: Extension Enchant
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extenchant.html
+	:og:locale: en
   Extension Enchant.
 
 Enchant is the PHP binding for the `Enchant spelling library <https://www.php.net/manual/en/book.enchant.php>`_. Enchant steps in to provide uniformity and conformity on top of all spelling libraries, and implement certain features that may be lacking in any individual provider library.

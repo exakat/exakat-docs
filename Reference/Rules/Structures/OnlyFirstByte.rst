@@ -5,6 +5,21 @@
 Only First Byte 
 ++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Only First Byte : When assigning a char to a string with an array notation, only the first byte is used.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Only First Byte 
+	:twitter:description: Only First Byte : When assigning a char to a string with an array notation, only the first byte is used
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Only First Byte 
+	:og:type: article
+	:og:description: When assigning a char to a string with an array notation, only the first byte is used
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/OnlyFirstByte.html
+	:og:locale: en
   When assigning a char to a string with an array notation, only the first byte is used.
 
 .. code-block:: php
@@ -56,7 +71,7 @@ _____
 +------------------+-------------------------------------------------------------------------------------------------------------------------+
 | Time To Fix      | Quick (30 mins)                                                                                                         |
 +------------------+-------------------------------------------------------------------------------------------------------------------------+
-| Changed Behavior | PHP 8.0 - `More <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/.html>`__                              |
+| Changed Behavior | PHP 8.0                                                                                                                 |
 +------------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision        | High                                                                                                                    |
 +------------------+-------------------------------------------------------------------------------------------------------------------------+

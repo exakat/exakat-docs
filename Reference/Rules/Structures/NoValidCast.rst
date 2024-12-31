@@ -5,6 +5,21 @@
 No Valid Cast
 +++++++++++++
 
+.. meta\:\:
+	:description:
+		No Valid Cast: This cast generates an error, as there is no way to convert an object to an int.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: No Valid Cast
+	:twitter:description: No Valid Cast: This cast generates an error, as there is no way to convert an object to an int
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: No Valid Cast
+	:og:type: article
+	:og:description: This cast generates an error, as there is no way to convert an object to an int
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/NoValidCast.html
+	:og:locale: en
   This cast generates an `error <https://www.php.net/error>`_, as there is no way to convert an object to an int. 
 
 The `result <https://www.php.net/result>`_ will be 1. 

@@ -5,6 +5,21 @@
 Missing Include
 +++++++++++++++
 
+.. meta\:\:
+	:description:
+		Missing Include: The included files doesn't exists in the repository.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Missing Include
+	:twitter:description: Missing Include: The included files doesn't exists in the repository
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Missing Include
+	:og:type: article
+	:og:description: The included files doesn't exists in the repository
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Files/MissingInclude.html
+	:og:locale: en
   The included files doesn't exists in the repository. The inclusions target a files that doesn't exist.
 
 The analysis works with every type of inclusion : include(), require(), include_once() and require_once(). It also works with parenthesis when used as parameter delimiter.

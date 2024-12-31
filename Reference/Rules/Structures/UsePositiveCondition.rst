@@ -5,6 +5,21 @@
 Use Positive Condition
 ++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Use Positive Condition: Whenever possible, use a positive condition.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Use Positive Condition
+	:twitter:description: Use Positive Condition: Whenever possible, use a positive condition
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Use Positive Condition
+	:og:type: article
+	:og:description: Whenever possible, use a positive condition
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/UsePositiveCondition.html
+	:og:locale: en
   Whenever possible, use a positive condition. 
 
 Positive conditions are easier to understand, and lead to less understanding problems.

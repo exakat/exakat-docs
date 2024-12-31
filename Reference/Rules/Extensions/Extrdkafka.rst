@@ -5,6 +5,21 @@
 ext/rdkafka
 +++++++++++
 
+.. meta\:\:
+	:description:
+		ext/rdkafka: Extension for RDkafka.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: ext/rdkafka
+	:twitter:description: ext/rdkafka: Extension for RDkafka
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: ext/rdkafka
+	:og:type: article
+	:og:description: Extension for RDkafka
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extrdkafka.html
+	:og:locale: en
   Extension for RDkafka.
 
 PHP-rdkafka is a thin librdkafka binding providing a working PHP 5 / PHP 7 Kafka 0.8 / 0.9 / 0.10 client.

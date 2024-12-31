@@ -5,6 +5,21 @@
 Variable Constants
 ++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Variable Constants: Variable constants are constants whose value is accessed via the function constant().
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Variable Constants
+	:twitter:description: Variable Constants: Variable constants are constants whose value is accessed via the function constant()
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Variable Constants
+	:og:type: article
+	:og:description: Variable constants are constants whose value is accessed via the function constant()
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Constants/VariableConstant.html
+	:og:locale: en
   Variable constants are constants whose value is accessed via the function `constant() <https://www.php.net/constant>`_. Otherwise, there is no way to dynamically access a constant (aka, when the developer has the name of the constant as a incoming parameter, and it requires the value of it).
 
 .. code-block:: php

@@ -5,6 +5,21 @@
 Abstract Away
 +++++++++++++
 
+.. meta\:\:
+	:description:
+		Abstract Away: Avoid using PHP native functions that produce data directly in the code.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Abstract Away
+	:twitter:description: Abstract Away: Avoid using PHP native functions that produce data directly in the code
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Abstract Away
+	:og:type: article
+	:og:description: Avoid using PHP native functions that produce data directly in the code
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Patterns/AbstractAway.html
+	:og:locale: en
   Avoid using PHP native functions that produce data directly in the code. For example, `date() <https://www.php.net/date>`_ or `random_int() <https://www.php.net/random_int>`_. They should be abstracted away in a method, that will be replaced later for testing purposes, or even debugging.
 
 To abstract such calls, place them in a method, and add an interface to this method. Then, create and use those objects.

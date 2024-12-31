@@ -5,6 +5,21 @@
 Nested Match
 ++++++++++++
 
+.. meta\:\:
+	:description:
+		Nested Match: Nested match calls makes the code difficult to read.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Nested Match
+	:twitter:description: Nested Match: Nested match calls makes the code difficult to read
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Nested Match
+	:og:type: article
+	:og:description: Nested match calls makes the code difficult to read
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/NestedMatch.html
+	:og:locale: en
   Nested match calls makes the code difficult to read. It is recommended to avoid nesting match calls.
 
 .. code-block:: php

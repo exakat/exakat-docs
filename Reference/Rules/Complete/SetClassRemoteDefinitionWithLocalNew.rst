@@ -5,6 +5,21 @@
 Set Class Remote Definition With Local New
 ++++++++++++++++++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Set Class Remote Definition With Local New: Links method calls and properties to its definition, thanks to the local new.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Set Class Remote Definition With Local New
+	:twitter:description: Set Class Remote Definition With Local New: Links method calls and properties to its definition, thanks to the local new
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Set Class Remote Definition With Local New
+	:og:type: article
+	:og:description: Links method calls and properties to its definition, thanks to the local new
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Complete/SetClassRemoteDefinitionWithLocalNew.html
+	:og:locale: en
   Links method calls and properties to its definition, thanks to the local new. The link is ``DEFINITION``.
 
 .. code-block:: php

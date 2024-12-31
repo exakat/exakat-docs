@@ -5,6 +5,21 @@
 Binary Glossary
 +++++++++++++++
 
+.. meta\:\:
+	:description:
+		Binary Glossary: List of all the integer values using the binary format.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Binary Glossary
+	:twitter:description: Binary Glossary: List of all the integer values using the binary format
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Binary Glossary
+	:og:type: article
+	:og:description: List of all the integer values using the binary format
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Type/Binary.html
+	:og:locale: en
   List of all the integer values using the binary format.
 
 .. code-block:: php

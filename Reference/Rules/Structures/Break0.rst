@@ -5,6 +5,21 @@
 Break With 0
 ++++++++++++
 
+.. meta\:\:
+	:description:
+		Break With 0: It is not possible to break 0 : it makes no sense.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Break With 0
+	:twitter:description: Break With 0: It is not possible to break 0 : it makes no sense
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Break With 0
+	:og:type: article
+	:og:description: It is not possible to break 0 : it makes no sense
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/Break0.html
+	:og:locale: en
   It is not possible to `break <https://www.php.net/manual/en/control-structures.break.php>`_ 0 : it makes no sense. `Break <https://www.php.net/manual/en/control-structures.break.php>`_ 1 is the minimum, and is the default value.
 
 .. code-block:: php

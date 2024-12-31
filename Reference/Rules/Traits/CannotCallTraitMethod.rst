@@ -5,6 +5,21 @@
 Cannot Call Static Trait Method Directly
 ++++++++++++++++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Cannot Call Static Trait Method Directly: From the migration docs : Calling a static method, or accessing a static property directly on a trait is deprecated.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Cannot Call Static Trait Method Directly
+	:twitter:description: Cannot Call Static Trait Method Directly: From the migration docs : Calling a static method, or accessing a static property directly on a trait is deprecated
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Cannot Call Static Trait Method Directly
+	:og:type: article
+	:og:description: From the migration docs : Calling a static method, or accessing a static property directly on a trait is deprecated
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Traits/CannotCallTraitMethod.html
+	:og:locale: en
   From the migration docs : Calling a `static <https://www.php.net/manual/en/language.oop5.static.php>`_ method, or accessing a `static <https://www.php.net/manual/en/language.oop5.static.php>`_ property directly on a trait is deprecated. `Static <https://www.php.net/manual/en/language.oop5.static.php>`_ methods and properties should only be accessed on a class using the trait.
 
 .. code-block:: php

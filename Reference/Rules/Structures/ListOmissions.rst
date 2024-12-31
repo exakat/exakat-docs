@@ -5,6 +5,21 @@
 list() May Omit Variables
 +++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		list() May Omit Variables: Simply omit any unused variable in a list() call.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: list() May Omit Variables
+	:twitter:description: list() May Omit Variables: Simply omit any unused variable in a list() call
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: list() May Omit Variables
+	:og:type: article
+	:og:description: Simply omit any unused variable in a list() call
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ListOmissions.html
+	:og:locale: en
   Simply omit any unused variable in a `list() <https://www.php.net/list>`_ call. 
 
 `list() <https://www.php.net/list>`_ is the only PHP function that accepts to have omitted arguments. If the following code makes no usage of a listed variable, just omit it.

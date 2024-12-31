@@ -5,6 +5,21 @@
 Assumptions
 +++++++++++
 
+.. meta\:\:
+	:description:
+		Assumptions: Assumptions in the code, that leads to possible bugs.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Assumptions
+	:twitter:description: Assumptions: Assumptions in the code, that leads to possible bugs
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Assumptions
+	:og:type: article
+	:og:description: Assumptions in the code, that leads to possible bugs
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/Assumptions.html
+	:og:locale: en
   Assumptions in the code, that leads to possible bugs. 
 
 Some conditions may be very weak, and lead to errors. For example, the code below checks that the variable `$a` is not null, then uses it as an array. There is no relationship between 'not null' and 'being an array', so this is an assumption.

@@ -5,6 +5,21 @@
 Use \:\:Class Operator
 ++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Use \:\:Class Operator: Use ``\:\:class`` to hardcode class names, instead of strings.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Use \:\:Class Operator
+	:twitter:description: Use \:\:Class Operator: Use ``\:\:class`` to hardcode class names, instead of strings
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Use \:\:Class Operator
+	:og:type: article
+	:og:description: Use ``\:\:class`` to hardcode class names, instead of strings
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/UseClassOperator.html
+	:og:locale: en
   Use ``\:\:class`` to hardcode class names, instead of strings.
 
 This is actually faster than strings, which are parsed at execution time, while ``\:\:class`` is compiled, making it faster to execute. 

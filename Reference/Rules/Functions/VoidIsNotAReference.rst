@@ -5,6 +5,21 @@
 Void Is Not A Reference
 +++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Void Is Not A Reference: It is not possible to return by reference, in a method that is typed void.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Void Is Not A Reference
+	:twitter:description: Void Is Not A Reference: It is not possible to return by reference, in a method that is typed void
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Void Is Not A Reference
+	:og:type: article
+	:og:description: It is not possible to return by reference, in a method that is typed void
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/VoidIsNotAReference.html
+	:og:locale: en
   It is not possible to return by reference, in a method that is typed void. The returned value is a literal ``null``.
 
 .. code-block:: php

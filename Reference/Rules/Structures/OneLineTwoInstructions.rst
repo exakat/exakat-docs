@@ -5,6 +5,21 @@
 Several Instructions On The Same Line
 +++++++++++++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Several Instructions On The Same Line: Usually, instructions do not share their line : one instruction, one line.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Several Instructions On The Same Line
+	:twitter:description: Several Instructions On The Same Line: Usually, instructions do not share their line : one instruction, one line
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Several Instructions On The Same Line
+	:og:type: article
+	:og:description: Usually, instructions do not share their line : one instruction, one line
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/OneLineTwoInstructions.html
+	:og:locale: en
   Usually, instructions do not share their line : one instruction, one line. 
 
 This is good for readability, and help at understanding the code. This is especially important when fast-reading the code to find some special situation, where such double-meaning line way have an impact.

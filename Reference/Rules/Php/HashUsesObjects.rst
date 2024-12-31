@@ -5,6 +5,21 @@
 Hash Will Use Objects
 +++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Hash Will Use Objects: The `ext/hash extension <http://www.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Hash Will Use Objects
+	:twitter:description: Hash Will Use Objects: The `ext/hash extension <http://www
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Hash Will Use Objects
+	:og:type: article
+	:og:description: The `ext/hash extension <http://www
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/HashUsesObjects.html
+	:og:locale: en
   The `ext/hash extension <http://www.php.net/manual/en/book.hash.php>`_ used resources, and is being upgraded to use resources.
 
 .. code-block:: php

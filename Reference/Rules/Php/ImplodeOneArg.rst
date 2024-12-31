@@ -5,6 +5,21 @@
 Implode One Arg
 +++++++++++++++
 
+.. meta\:\:
+	:description:
+		Implode One Arg: implode() may be called with one arg.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Implode One Arg
+	:twitter:description: Implode One Arg: implode() may be called with one arg
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Implode One Arg
+	:og:type: article
+	:og:description: implode() may be called with one arg
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/ImplodeOneArg.html
+	:og:locale: en
   `implode() <https://www.php.net/implode>`_ may be called with one arg. It is recommended to avoid it. 
 
 Using two arguments makes it less surprising to new comers, and consistent with `explode() <https://www.php.net/explode>`_ syntax.

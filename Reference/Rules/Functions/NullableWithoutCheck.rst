@@ -5,6 +5,21 @@
 Nullable Without Check
 ++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Nullable Without Check: Nullable typed argument or properties should be checked before usage.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Nullable Without Check
+	:twitter:description: Nullable Without Check: Nullable typed argument or properties should be checked before usage
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Nullable Without Check
+	:og:type: article
+	:og:description: Nullable typed argument or properties should be checked before usage
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/NullableWithoutCheck.html
+	:og:locale: en
   Nullable typed argument or properties should be checked before usage. When they are null, they probably won't behave like the other type, and lead to an `error <https://www.php.net/error>`_.
 
 .. code-block:: php

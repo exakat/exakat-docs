@@ -5,6 +5,21 @@
 Undefined Properties
 ++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Undefined Properties: List of properties that are not explicitly defined in the class, its parents or traits.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Undefined Properties
+	:twitter:description: Undefined Properties: List of properties that are not explicitly defined in the class, its parents or traits
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Undefined Properties
+	:og:type: article
+	:og:description: List of properties that are not explicitly defined in the class, its parents or traits
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/UndefinedProperty.html
+	:og:locale: en
   List of properties that are not explicitly defined in the class, its parents or traits.
 
 It is possible to spot unidentified properties by using the PHP's magic methods ``__get`` and ``__set``. Even if the class doesn't use magic methods, any call to an undefined property will be directed to those methods, and they can be used as a canary, warning that the code is missing a definition. 
@@ -69,7 +84,7 @@ _____
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Time To Fix      | Quick (30 mins)                                                                                                                                                                                                                      |
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Changed Behavior | PHP 8.2 - `More <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/.html>`__                                                                                                                                           |
+| Changed Behavior | PHP 8.2                                                                                                                                                                                                                              |
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision        | Very high                                                                                                                                                                                                                            |
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

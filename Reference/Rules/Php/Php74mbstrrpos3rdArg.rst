@@ -5,6 +5,21 @@
 mb_strrpos() Third Argument
 +++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		mb_strrpos() Third Argument: Passing the encoding as 3rd parameter to mb_strrpos() is deprecated.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: mb_strrpos() Third Argument
+	:twitter:description: mb_strrpos() Third Argument: Passing the encoding as 3rd parameter to mb_strrpos() is deprecated
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: mb_strrpos() Third Argument
+	:og:type: article
+	:og:description: Passing the encoding as 3rd parameter to mb_strrpos() is deprecated
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/Php74mbstrrpos3rdArg.html
+	:og:locale: en
   Passing the encoding as 3rd parameter to `mb_strrpos() <https://www.php.net/mb_strrpos>`_ is deprecated. Instead pass a 0 offset, and encoding as 4th parameter.
 
 .. code-block:: php
@@ -45,7 +60,7 @@ _____
 +------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Time To Fix      | Quick (30 mins)                                                                                                                                                                         |
 +------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Changed Behavior | PHP 8.0 - `More <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/.html>`__                                                                                              |
+| Changed Behavior | PHP 8.0                                                                                                                                                                                 |
 +------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision        | Very high                                                                                                                                                                               |
 +------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

@@ -5,6 +5,21 @@
 Constant Typo Looks Like A Variable
 +++++++++++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Constant Typo Looks Like A Variable: A constant bears the same name as a variable.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Constant Typo Looks Like A Variable
+	:twitter:description: Constant Typo Looks Like A Variable: A constant bears the same name as a variable
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Constant Typo Looks Like A Variable
+	:og:type: article
+	:og:description: A constant bears the same name as a variable
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Variables/ConstantTypo.html
+	:og:locale: en
   A constant bears the same name as a variable. This might be a typo.
 
 When the constant doesn't exist, PHP 8.0 yields a Fatal `Error <https://www.php.net/error>`_ and stops execution. PHP 7.4 turns the undefined constant into its string equivalent. 

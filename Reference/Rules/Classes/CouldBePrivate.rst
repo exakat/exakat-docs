@@ -5,6 +5,21 @@
 Property Could Be Private
 +++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Property Could Be Private: The following properties are never used outside their class of definition.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Property Could Be Private
+	:twitter:description: Property Could Be Private: The following properties are never used outside their class of definition
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Property Could Be Private
+	:og:type: article
+	:og:description: The following properties are never used outside their class of definition
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/CouldBePrivate.html
+	:og:locale: en
   The following properties are never used outside their class of definition. Given the analyzed code, they could be set as private. 
 Note that dynamic properties (such as $x->$y) are not taken into account.
 

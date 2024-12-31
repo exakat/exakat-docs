@@ -5,6 +5,21 @@
 Break Outside Loop
 ++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Break Outside Loop: Starting with PHP 7, break or continue that are outside a loop (for, foreach(), do.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Break Outside Loop
+	:twitter:description: Break Outside Loop: Starting with PHP 7, break or continue that are outside a loop (for, foreach(), do
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Break Outside Loop
+	:og:type: article
+	:og:description: Starting with PHP 7, break or continue that are outside a loop (for, foreach(), do
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/BreakOutsideLoop.html
+	:og:locale: en
   Starting with PHP 7, `break <https://www.php.net/manual/en/control-structures.break.php>`_ or `continue <https://www.php.net/manual/en/control-structures.continue.php>`_ that are outside a loop (for, `foreach() <https://www.php.net/manual/en/control-structures.foreach.php>`_, do...`while() <https://www.php.net/manual/en/control-structures.while.php>`_, `while()) <https://www.php.net/manual/en/control-structures.while.php>`_ or a `switch() <https://www.php.net/manual/en/control-structures.switch.php>`_ statement won't compile anymore.
 
 It is not possible anymore to include a piece of code inside a loop that will then `break <https://www.php.net/manual/en/control-structures.break.php>`_.

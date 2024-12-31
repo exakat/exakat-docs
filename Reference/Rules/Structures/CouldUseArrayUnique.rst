@@ -5,6 +5,21 @@
 Could Use array_unique
 ++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Could Use array_unique: Use array_unique() to collect unique elements from an array.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Could Use array_unique
+	:twitter:description: Could Use array_unique: Use array_unique() to collect unique elements from an array
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Could Use array_unique
+	:og:type: article
+	:og:description: Use array_unique() to collect unique elements from an array
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/CouldUseArrayUnique.html
+	:og:locale: en
   Use `array_unique() <https://www.php.net/array_unique>`_ to collect unique elements from an array.
 
 Always try to use native PHP functions, instead of rebuilding them with custom PHP code.

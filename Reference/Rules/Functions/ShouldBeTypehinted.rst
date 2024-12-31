@@ -5,6 +5,21 @@
 Argument Should Be Typehinted
 +++++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Argument Should Be Typehinted: When a method expects objects as argument, those arguments should be typehinted.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Argument Should Be Typehinted
+	:twitter:description: Argument Should Be Typehinted: When a method expects objects as argument, those arguments should be typehinted
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Argument Should Be Typehinted
+	:og:type: article
+	:og:description: When a method expects objects as argument, those arguments should be typehinted
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/ShouldBeTypehinted.html
+	:og:locale: en
   When a method expects objects as argument, those arguments should be typehinted. This way, it provides early warning that a wrong object is being sent to the method.
 
 The analyzer will detect situations where a class, or the keywords 'array' or 'callable'. 

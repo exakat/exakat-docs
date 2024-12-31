@@ -5,6 +5,21 @@
 Create Default Values
 +++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Create Default Values: This commands adds a link between variables, property definitions and any assignation to this container.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Create Default Values
+	:twitter:description: Create Default Values: This commands adds a link between variables, property definitions and any assignation to this container
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Create Default Values
+	:og:type: article
+	:og:description: This commands adds a link between variables, property definitions and any assignation to this container
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Complete/CreateDefaultValues.html
+	:og:locale: en
   This commands adds a link between variables, property definitions and any assignation to this container.
 
 Variables have no definition expression in PHP. Exakat holds their definition with the `Variabledefinition` node.

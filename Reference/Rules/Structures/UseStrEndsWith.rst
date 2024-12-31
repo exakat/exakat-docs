@@ -5,6 +5,21 @@
 Use str_ends_with()
 +++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Use str_ends_with(): There is a dedicated function to check the suffix of a string : it is called str_ends_with().
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Use str_ends_with()
+	:twitter:description: Use str_ends_with(): There is a dedicated function to check the suffix of a string : it is called str_ends_with()
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Use str_ends_with()
+	:og:type: article
+	:og:description: There is a dedicated function to check the suffix of a string : it is called str_ends_with()
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/UseStrEndsWith.html
+	:og:locale: en
   There is a dedicated function to check the suffix of a string : it is called `str_ends_with() <https://www.php.net/str_ends_with>`_. It is available since PHP 8.0
 
 .. code-block:: php

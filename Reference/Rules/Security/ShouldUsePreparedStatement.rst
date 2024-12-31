@@ -5,6 +5,21 @@
 Should Use Prepared Statement
 +++++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Should Use Prepared Statement: Modern databases provides support for prepared statement : it separates the query from the processed data and raise significantly the security.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Should Use Prepared Statement
+	:twitter:description: Should Use Prepared Statement: Modern databases provides support for prepared statement : it separates the query from the processed data and raise significantly the security
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Should Use Prepared Statement
+	:og:type: article
+	:og:description: Modern databases provides support for prepared statement : it separates the query from the processed data and raise significantly the security
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Security/ShouldUsePreparedStatement.html
+	:og:locale: en
   Modern databases provides support for prepared statement : it separates the query from the processed data and raise significantly the security. 
 
 Building queries with concatenations is not recommended, though not always avoidable. When possible, use prepared statements.

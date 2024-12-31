@@ -5,6 +5,21 @@
 Could Be Enumeration
 ++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Could Be Enumeration: This rule detects a potential enumeration.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Could Be Enumeration
+	:twitter:description: Could Be Enumeration: This rule detects a potential enumeration
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Could Be Enumeration
+	:og:type: article
+	:og:description: This rule detects a potential enumeration
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Enums/CouldBeEnum.html
+	:og:locale: en
   This rule detects a potential enumeration. When a property is only and ever assigned a finite number of literals, it may be turned into an enumeration.
 Currently, the analysis focuses on properties that may have 2 or more values (parameter `minElements`). The property should only be assigned literals, or constants.
 

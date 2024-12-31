@@ -5,6 +5,21 @@
 Used Protected Method
 +++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Used Protected Method: This rule marks protected methods being used in the current class or its children classes.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Used Protected Method
+	:twitter:description: Used Protected Method: This rule marks protected methods being used in the current class or its children classes
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Used Protected Method
+	:og:type: article
+	:og:description: This rule marks protected methods being used in the current class or its children classes
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/UsedProtectedMethod.html
+	:og:locale: en
   This rule marks protected methods being used in the current class or its children classes. This show how the methods are used inside a class hierarchy.
 
 .. code-block:: php

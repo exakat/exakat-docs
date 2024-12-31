@@ -5,6 +5,21 @@
 Collect Class Children Count
 ++++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Collect Class Children Count: Count the number of class children for a class.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Collect Class Children Count
+	:twitter:description: Collect Class Children Count: Count the number of class children for a class
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Collect Class Children Count
+	:og:type: article
+	:og:description: Count the number of class children for a class
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/CollectClassChildren.html
+	:og:locale: en
   Count the number of class children for a class. The more children a class has, the harder it is to update it, as it might impact more other classes.
 
 .. code-block:: php

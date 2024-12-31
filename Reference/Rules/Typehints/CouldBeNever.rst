@@ -5,6 +5,21 @@
 Type Could Be Never
 +++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Type Could Be Never: Mark return types that can be set to ``never``.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Type Could Be Never
+	:twitter:description: Type Could Be Never: Mark return types that can be set to ``never``
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Type Could Be Never
+	:og:type: article
+	:og:description: Mark return types that can be set to ``never``
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Typehints/CouldBeNever.html
+	:og:locale: en
   Mark return types that can be set to ``never``.
 
 .. code-block:: php

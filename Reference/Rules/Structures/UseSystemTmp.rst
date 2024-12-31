@@ -5,6 +5,21 @@
 Use System Tmp
 ++++++++++++++
 
+.. meta\:\:
+	:description:
+		Use System Tmp: It is recommended to avoid hardcoding the temporary file.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Use System Tmp
+	:twitter:description: Use System Tmp: It is recommended to avoid hardcoding the temporary file
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Use System Tmp
+	:og:type: article
+	:og:description: It is recommended to avoid hardcoding the temporary file
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/UseSystemTmp.html
+	:og:locale: en
   It is recommended to avoid hardcoding the temporary file. It is better to rely on the system's temporary folder, which is accessible with `sys_get_temp_dir() <https://www.php.net/sys_get_temp_dir>`_.
 
 .. code-block:: php

@@ -5,6 +5,21 @@
 Incompatible Signature Methods With Covariance
 ++++++++++++++++++++++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Incompatible Signature Methods With Covariance: Methods should have the compatible signature when being overwritten.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Incompatible Signature Methods With Covariance
+	:twitter:description: Incompatible Signature Methods With Covariance: Methods should have the compatible signature when being overwritten
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Incompatible Signature Methods With Covariance
+	:og:type: article
+	:og:description: Methods should have the compatible signature when being overwritten
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/IncompatibleSignature74.html
+	:og:locale: en
   Methods should have the compatible signature when being overwritten.
 
 The same signatures means the children class must have : 

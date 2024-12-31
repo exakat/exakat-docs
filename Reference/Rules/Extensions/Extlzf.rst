@@ -5,6 +5,21 @@
 ext/lzf
 +++++++
 
+.. meta\:\:
+	:description:
+		ext/lzf: Extension LZF.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: ext/lzf
+	:twitter:description: ext/lzf: Extension LZF
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: ext/lzf
+	:og:type: article
+	:og:description: Extension LZF
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extlzf.html
+	:og:locale: en
   Extension LZF.
 
 LZF is a very fast compression algorithm, ideal for saving space with only slight speed cost. It can be optimized for speed or space at the time of compilation.

@@ -5,6 +5,21 @@
 Neos
 ++++
 
+.. meta\:\:
+	:description:
+		Neos: Neos CMS allows users to easily create, manage and optimize content that is loved.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Neos
+	:twitter:description: Neos: Neos CMS allows users to easily create, manage and optimize content that is loved
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Neos
+	:og:type: article
+	:og:description: Neos CMS allows users to easily create, manage and optimize content that is loved
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Vendors/Neos.html
+	:og:locale: en
   Neos CMS allows users to easily create, manage and optimize content that is loved. Neos is a free enterprise web content management system licensed under the GPL.
 
 See also `Neos CMS <https://www.neos.io/>`_.

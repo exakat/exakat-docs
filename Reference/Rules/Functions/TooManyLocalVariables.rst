@@ -5,6 +5,21 @@
 Too Many Local Variables
 ++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Too Many Local Variables: Too many local variables were found in the methods.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Too Many Local Variables
+	:twitter:description: Too Many Local Variables: Too many local variables were found in the methods
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Too Many Local Variables
+	:og:type: article
+	:og:description: Too many local variables were found in the methods
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/TooManyLocalVariables.html
+	:og:locale: en
   Too many local variables were found in the methods. When over 15 variables are found in such a method, a violation is reported.
 
 Local variables exclude globals (imported with global) and arguments. Local variable include `static <https://www.php.net/manual/en/language.oop5.static.php>`_ variables.

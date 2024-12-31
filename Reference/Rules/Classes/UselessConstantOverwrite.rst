@@ -5,6 +5,21 @@
 Useless Constant Overwrite
 ++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Useless Constant Overwrite: A class constant is defined in a parent and child class, with the same value.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Useless Constant Overwrite
+	:twitter:description: Useless Constant Overwrite: A class constant is defined in a parent and child class, with the same value
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Useless Constant Overwrite
+	:og:type: article
+	:og:description: A class constant is defined in a parent and child class, with the same value
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/UselessConstantOverwrite.html
+	:og:locale: en
   A class constant is defined in a `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ and child class, with the same value. One of them is useless and may be removed.
 
 .. code-block:: php

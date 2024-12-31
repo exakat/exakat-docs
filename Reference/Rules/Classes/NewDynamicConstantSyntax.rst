@@ -5,6 +5,21 @@
 New Dynamic Class Constant Syntax
 +++++++++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		New Dynamic Class Constant Syntax: PHP has a dedicated syntax to access dynamically class constant values.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: New Dynamic Class Constant Syntax
+	:twitter:description: New Dynamic Class Constant Syntax: PHP has a dedicated syntax to access dynamically class constant values
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: New Dynamic Class Constant Syntax
+	:og:type: article
+	:og:description: PHP has a dedicated syntax to access dynamically class constant values
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/NewDynamicConstantSyntax.html
+	:og:locale: en
   PHP has a dedicated syntax to access dynamically class constant values. This was added in PHP 8.3. It prevents using the a call to the function ``constant()``.
 
 .. code-block:: php

@@ -5,6 +5,21 @@
 Retyped Reference
 +++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Retyped Reference: A parameter with a reference may be typed differently, at the end of a method call.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Retyped Reference
+	:twitter:description: Retyped Reference: A parameter with a reference may be typed differently, at the end of a method call
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Retyped Reference
+	:og:type: article
+	:og:description: A parameter with a reference may be typed differently, at the end of a method call
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/RetypedReference.html
+	:og:locale: en
   A parameter with a reference may be typed differently, at the end of a method call. 
 
 It is possible for a referenced and typed parameter to be retyped during a method call. As such, the type of the used variable might both be checked and changed. 

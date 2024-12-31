@@ -5,6 +5,21 @@
 Unicode Blocks
 ++++++++++++++
 
+.. meta\:\:
+	:description:
+		Unicode Blocks: List of the Unicode blocks used in string literals.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Unicode Blocks
+	:twitter:description: Unicode Blocks: List of the Unicode blocks used in string literals
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Unicode Blocks
+	:og:type: article
+	:og:description: List of the Unicode blocks used in string literals
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Type/UnicodeBlock.html
+	:og:locale: en
   List of the Unicode blocks used in string literals.
 
 This is the kind of characters that can be found in the applications strings.

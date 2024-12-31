@@ -5,6 +5,21 @@
 Useless Constructor
 +++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Useless Constructor: Class constructor that have empty bodies are useless.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Useless Constructor
+	:twitter:description: Useless Constructor: Class constructor that have empty bodies are useless
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Useless Constructor
+	:og:type: article
+	:og:description: Class constructor that have empty bodies are useless
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/UselessConstructor.html
+	:og:locale: en
   Class constructor that have empty bodies are useless. They may be removed, as they are not called.
 
 One edge case is when the class has a `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_, and the `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ constructor must not be called.

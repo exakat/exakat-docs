@@ -5,6 +5,21 @@
 Class-typed References
 ++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Class-typed References: Class-typee arguments have no need for references.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Class-typed References
+	:twitter:description: Class-typed References: Class-typee arguments have no need for references
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Class-typed References
+	:og:type: article
+	:og:description: Class-typee arguments have no need for references
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/TypehintedReferences.html
+	:og:locale: en
   Class-typee arguments have no need for references. Since they are representing an object, they are already a reference.
 
 In fact, adding the & on the argument definition may lead to `error <https://www.php.net/error>`_ like ``Only variables should be passed by reference``.

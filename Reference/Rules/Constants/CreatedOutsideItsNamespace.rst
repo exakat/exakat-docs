@@ -5,6 +5,21 @@
 Constants Created Outside Its Namespace
 +++++++++++++++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Constants Created Outside Its Namespace: Constants Created Outside Its Namespace.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Constants Created Outside Its Namespace
+	:twitter:description: Constants Created Outside Its Namespace: Constants Created Outside Its Namespace
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Constants Created Outside Its Namespace
+	:og:type: article
+	:og:description: Constants Created Outside Its Namespace
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Constants/CreatedOutsideItsNamespace.html
+	:og:locale: en
   Constants Created Outside Its Namespace.
 
 Using the `define() <https://www.php.net/define>`_ function, it is possible to create constant outside their namespace, but using the fully qualified namespace.

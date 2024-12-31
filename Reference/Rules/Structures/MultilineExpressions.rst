@@ -5,6 +5,21 @@
 Multiline Expressions
 +++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Multiline Expressions: List of expressions that are spread across several lines.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Multiline Expressions
+	:twitter:description: Multiline Expressions: List of expressions that are spread across several lines
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Multiline Expressions
+	:og:type: article
+	:og:description: List of expressions that are spread across several lines
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/MultilineExpressions.html
+	:og:locale: en
   List of expressions that are spread across several lines. The default is 2.
 
 Structures that commonly accept several lines, like `match() <https://www.php.net/manual/en/control-structures.match.php>`_, `switch() <https://www.php.net/manual/en/control-structures.switch.php>`_, classes, functions, closures, constant definitions, etc. are omitted. 

@@ -5,6 +5,21 @@
 PHP Native Attributes
 +++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		PHP Native Attributes: This is the list of the PHP native attribute used in the code.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: PHP Native Attributes
+	:twitter:description: PHP Native Attributes: This is the list of the PHP native attribute used in the code
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: PHP Native Attributes
+	:og:type: article
+	:og:description: This is the list of the PHP native attribute used in the code
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Attributes/PhpNativeAttributes.html
+	:og:locale: en
   This is the list of the PHP native `attribute <https://www.php.net/attribute>`_ used in the code. PHP native `attribute <https://www.php.net/attribute>`_ depends on the PHP version, as new attributes are added regularly. 
 
 .. code-block:: php

@@ -5,6 +5,21 @@
 ext/teds
 ++++++++
 
+.. meta\:\:
+	:description:
+		ext/teds: teds (Tentative Extra Data Structures) is a collection of data structures and iterable functionality.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: ext/teds
+	:twitter:description: ext/teds: teds (Tentative Extra Data Structures) is a collection of data structures and iterable functionality
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: ext/teds
+	:og:type: article
+	:og:description: teds (Tentative Extra Data Structures) is a collection of data structures and iterable functionality
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extteds.html
+	:og:locale: en
   teds (Tentative Extra Data Structures) is a collection of data structures and iterable functionality.
 
 .. code-block:: php

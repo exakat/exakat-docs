@@ -5,6 +5,21 @@
 Cast Unset Usage
 ++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Cast Unset Usage: Usage of the `(unset)` cast operator was removed.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Cast Unset Usage
+	:twitter:description: Cast Unset Usage: Usage of the `(unset)` cast operator was removed
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Cast Unset Usage
+	:og:type: article
+	:og:description: Usage of the `(unset)` cast operator was removed
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/CastUnsetUsage.html
+	:og:locale: en
   Usage of the `(unset)` cast operator was removed. The operator was deprecated since PHP 7.2.0.
 
 .. code-block:: php
@@ -24,8 +39,8 @@ See also `Unset casting <https://www.php.net/manual/en/language.types.null.php#l
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/The+%28unset%29+cast+is+no+longer+supported+.html>`_
-  + `1 <https://php-errors.readthedocs.io/en/latest/messages/The+%28unset%29+cast+is+deprecated.html>`_
+  + `The (unset) cast is no longer supported <https://php-errors.readthedocs.io/en/latest/messages/the-%28unset%29-cast-is-no-longer-supported.html>`_
+  + `The (unset) cast is deprecated <https://php-errors.readthedocs.io/en/latest/messages/the-%28unset%29-cast-is-deprecated.html>`_
 
 
 

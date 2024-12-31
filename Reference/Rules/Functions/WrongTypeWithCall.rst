@@ -5,6 +5,21 @@
 Wrong Type With Call
 ++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Wrong Type With Call: This analysis checks that a call to a method uses the types.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Wrong Type With Call
+	:twitter:description: Wrong Type With Call: This analysis checks that a call to a method uses the types
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Wrong Type With Call
+	:og:type: article
+	:og:description: This analysis checks that a call to a method uses the types
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/WrongTypeWithCall.html
+	:og:locale: en
   This analysis checks that a call to a method uses the types.
 
 This analysis is compatible with Union types and with Intersection types.

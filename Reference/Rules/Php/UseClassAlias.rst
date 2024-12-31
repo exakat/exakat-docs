@@ -5,6 +5,21 @@
 Use class_alias()
 +++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Use class_alias(): class_alias() is a PHP features, that allows the creation of class alias, at execution time.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Use class_alias()
+	:twitter:description: Use class_alias(): class_alias() is a PHP features, that allows the creation of class alias, at execution time
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Use class_alias()
+	:og:type: article
+	:og:description: class_alias() is a PHP features, that allows the creation of class alias, at execution time
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/UseClassAlias.html
+	:og:locale: en
   `class_alias() <https://www.php.net/class_alias>`_ is a PHP features, that allows the creation of class alias, at execution time. 
 
 Those class aliases are application wide, as they are valid everywhere, yet they have a lower precedence over the use expression. This means that even when a `class_alias() <https://www.php.net/class_alias>`_ was called, the local use expression will have right of execution.

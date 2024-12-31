@@ -5,6 +5,21 @@
 Property Export
 +++++++++++++++
 
+.. meta\:\:
+	:description:
+		Property Export: With a reference, it is possible to export a property and modify it from the outside.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Property Export
+	:twitter:description: Property Export: With a reference, it is possible to export a property and modify it from the outside
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Property Export
+	:og:type: article
+	:og:description: With a reference, it is possible to export a property and modify it from the outside
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/ExportProperty.html
+	:og:locale: en
   With a reference, it is possible to export a property and modify it from the outside. This requires the handling of the reference with a method and a variable. 
 
 The `result <https://www.php.net/result>`_ is a suprising modification of the original object, even if its visibility is private. 

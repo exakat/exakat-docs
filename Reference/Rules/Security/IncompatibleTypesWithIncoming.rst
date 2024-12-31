@@ -5,6 +5,21 @@
 Incompatible Types With Incoming Values
 +++++++++++++++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Incompatible Types With Incoming Values: This analysis report invalid type used when extracting data from an HTTP request, and using them with typed method.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Incompatible Types With Incoming Values
+	:twitter:description: Incompatible Types With Incoming Values: This analysis report invalid type used when extracting data from an HTTP request, and using them with typed method
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Incompatible Types With Incoming Values
+	:og:type: article
+	:og:description: This analysis report invalid type used when extracting data from an HTTP request, and using them with typed method
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Security/IncompatibleTypesWithIncoming.html
+	:og:locale: en
   This analysis report invalid type used when extracting data from an HTTP request, and using them with typed method. 
 
 This currently is based on \symfony\component\httpfoundation\request class, and its related `get*()` methods. 

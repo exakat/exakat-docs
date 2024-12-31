@@ -5,6 +5,21 @@
 Collect Literals
 ++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Collect Literals: Collects all literals in the application.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Collect Literals
+	:twitter:description: Collect Literals: Collects all literals in the application
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Collect Literals
+	:og:type: article
+	:og:description: Collects all literals in the application
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/CollectLiterals.html
+	:og:locale: en
   Collects all literals in the application. Strings, integer, float are collected. Booleans, null and arrays are not.
 
 .. code-block:: php

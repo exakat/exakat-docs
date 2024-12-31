@@ -5,6 +5,21 @@
 ext/svm
 +++++++
 
+.. meta\:\:
+	:description:
+		ext/svm: Extension ``SVM``.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: ext/svm
+	:twitter:description: ext/svm: Extension ``SVM``
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: ext/svm
+	:og:type: article
+	:og:description: Extension ``SVM``
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extsvm.html
+	:og:locale: en
   Extension ``SVM``.
 
 ``SVM`` is in interface with the ``libsvm``, from . ``libsvm``is a library for Support Vector Machines, a classification tool for machine learning.

@@ -5,6 +5,21 @@
 Interfaces Is Not Implemented
 +++++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Interfaces Is Not Implemented: Classes that implements interfaces, must implements each of the interface's methods.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Interfaces Is Not Implemented
+	:twitter:description: Interfaces Is Not Implemented: Classes that implements interfaces, must implements each of the interface's methods
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Interfaces Is Not Implemented
+	:og:type: article
+	:og:description: Classes that implements interfaces, must implements each of the interface's methods
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Interfaces/IsNotImplemented.html
+	:og:locale: en
   Classes that implements interfaces, must implements each of the interface's methods. Otherwise, the class shall be marked as ``abstract``.
 This problem tends to occur in code that splits interfaces and classes by file. This means that PHP's linting will skip the definitions and not find the problem. At execution time, the definitions will be checked, and a Fatal `error <https://www.php.net/error>`_ will occur.
 

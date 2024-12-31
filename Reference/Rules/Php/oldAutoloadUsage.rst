@@ -5,6 +5,21 @@
 Old Style __autoload()
 ++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Old Style __autoload(): Avoid __autoload(), only use spl_register_autoload().
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Old Style __autoload()
+	:twitter:description: Old Style __autoload(): Avoid __autoload(), only use spl_register_autoload()
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Old Style __autoload()
+	:og:type: article
+	:og:description: Avoid __autoload(), only use spl_register_autoload()
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/oldAutoloadUsage.html
+	:og:locale: en
   Avoid __autoload(), only use spl_register_autoload().
 
 __autoload() is deprecated since PHP 7.2 and possibly removed in later versions. spl_register_autoload() was introduced in PHP 5.1.0.

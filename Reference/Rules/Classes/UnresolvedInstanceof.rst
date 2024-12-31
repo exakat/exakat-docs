@@ -5,6 +5,21 @@
 Unresolved Instanceof
 +++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Unresolved Instanceof: The instanceof operator doesn't confirm if the compared class exists.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Unresolved Instanceof
+	:twitter:description: Unresolved Instanceof: The instanceof operator doesn't confirm if the compared class exists
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Unresolved Instanceof
+	:og:type: article
+	:og:description: The instanceof operator doesn't confirm if the compared class exists
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/UnresolvedInstanceof.html
+	:og:locale: en
   The `instanceof <https://www.php.net/manual/en/language.operators.type.php>`_ operator doesn't confirm if the compared class exists. 
 
 It checks if an variable is of a specific class. However, if the referenced class doesn't exist, because of a bug, a missed inclusion or a typo, the operator always fails, without a warning. 

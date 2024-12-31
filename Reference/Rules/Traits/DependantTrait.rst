@@ -5,6 +5,21 @@
 Dependant Trait
 +++++++++++++++
 
+.. meta\:\:
+	:description:
+		Dependant Trait: Traits should be autonomous.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Dependant Trait
+	:twitter:description: Dependant Trait: Traits should be autonomous
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Dependant Trait
+	:og:type: article
+	:og:description: Traits should be autonomous
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Traits/DependantTrait.html
+	:og:locale: en
   Traits should be autonomous. It is recommended to avoid depending on methods or properties that should be in the using class.
 
 The following traits make usage of methods and properties, `static <https://www.php.net/manual/en/language.oop5.static.php>`_ or not, that are not defined in the trait. This means the host class must provide those methods and properties, but there is no way to enforce this. 

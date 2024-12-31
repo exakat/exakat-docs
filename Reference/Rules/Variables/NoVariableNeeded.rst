@@ -5,6 +5,21 @@
 No Variable Needed
 ++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		No Variable Needed: This analysis reports methods where the local variables are not needed.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: No Variable Needed
+	:twitter:description: No Variable Needed: This analysis reports methods where the local variables are not needed
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: No Variable Needed
+	:og:type: article
+	:og:description: This analysis reports methods where the local variables are not needed
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Variables/NoVariableNeeded.html
+	:og:locale: en
   This analysis reports methods where the local variables are not needed.
 
 Such variables may be used to improve readability. 

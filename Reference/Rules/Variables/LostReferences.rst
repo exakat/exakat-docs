@@ -5,6 +5,21 @@
 Lost References
 +++++++++++++++
 
+.. meta\:\:
+	:description:
+		Lost References: Either avoid references, or propagate them correctly.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Lost References
+	:twitter:description: Lost References: Either avoid references, or propagate them correctly
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Lost References
+	:og:type: article
+	:og:description: Either avoid references, or propagate them correctly
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Variables/LostReferences.html
+	:og:locale: en
   Either avoid references, or propagate them correctly.
 
 When assigning a referenced variable with another reference, the initial reference is lost, while the intend was to transfer the content. 

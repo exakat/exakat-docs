@@ -5,6 +5,21 @@
 Incoming Variables
 ++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Incoming Variables: Incoming names, used across the application.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Incoming Variables
+	:twitter:description: Incoming Variables: Incoming names, used across the application
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Incoming Variables
+	:og:type: article
+	:og:description: Incoming names, used across the application
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/IncomingVariables.html
+	:og:locale: en
   Incoming names, used across the application. 
 
 Incoming variables are first-level index in ``$_POST``, ``$_GET``, ``$_COOKIE``, ``$_REQUEST`` and ``$_FILE``;

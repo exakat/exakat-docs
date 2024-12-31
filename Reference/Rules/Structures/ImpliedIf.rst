@@ -5,6 +5,21 @@
 Implied If
 ++++++++++
 
+.. meta\:\:
+	:description:
+		Implied If: It is confusing to emulate if/then with boolean operators.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Implied If
+	:twitter:description: Implied If: It is confusing to emulate if/then with boolean operators
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Implied If
+	:og:type: article
+	:og:description: It is confusing to emulate if/then with boolean operators
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ImpliedIf.html
+	:og:locale: en
   It is confusing to emulate if/then with boolean operators.
 
 It is possible to emulate a if/then structure by using the operators 'and' and 'or'. Since optimizations will be applied to them : 

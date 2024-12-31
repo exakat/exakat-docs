@@ -5,6 +5,21 @@
 Count() Is Not Negative
 +++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Count() Is Not Negative: This rule reports when the Countable method ``count`` is poised to return a negative value.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Count() Is Not Negative
+	:twitter:description: Count() Is Not Negative: This rule reports when the Countable method ``count`` is poised to return a negative value
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Count() Is Not Negative
+	:og:type: article
+	:og:description: This rule reports when the Countable method ``count`` is poised to return a negative value
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/CountIsNotNegative.html
+	:og:locale: en
   This rule reports when the `Countable <https://www.php.net/countable>`_ method ``count`` is poised to return a negative value. 
 
 It also reports when a call to ``count()`` is compared to a value that might be negative.

@@ -5,6 +5,21 @@
 Adding Zero
 +++++++++++
 
+.. meta\:\:
+	:description:
+		Adding Zero: Adding 0 is useless, as 0 is the neutral element for addition.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Adding Zero
+	:twitter:description: Adding Zero: Adding 0 is useless, as 0 is the neutral element for addition
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Adding Zero
+	:og:type: article
+	:og:description: Adding 0 is useless, as 0 is the neutral element for addition
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/AddZero.html
+	:og:locale: en
   Adding 0 is useless, as 0 is the neutral element for addition. Besides, when one of the operands is an integer, PHP silently triggers a cast to integer for the other operand. 
 
 This rule also report using ``+`` with variables, proeprties, etc. which triggers an automated conversion to integer.

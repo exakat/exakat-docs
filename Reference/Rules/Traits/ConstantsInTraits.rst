@@ -5,6 +5,21 @@
 Constants In Traits
 +++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Constants In Traits: Traits may have their own constants.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Constants In Traits
+	:twitter:description: Constants In Traits: Traits may have their own constants
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Constants In Traits
+	:og:type: article
+	:og:description: Traits may have their own constants
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Traits/ConstantsInTraits.html
+	:og:locale: en
   Traits may have their own constants. This feature was introduced in PHP 8.2 and is not backward compatible.
 
 .. code-block:: php

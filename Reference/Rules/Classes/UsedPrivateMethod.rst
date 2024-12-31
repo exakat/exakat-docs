@@ -5,6 +5,21 @@
 Used Private Methods
 ++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Used Private Methods: List of all private methods that are used.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Used Private Methods
+	:twitter:description: Used Private Methods: List of all private methods that are used
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Used Private Methods
+	:og:type: article
+	:og:description: List of all private methods that are used
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/UsedPrivateMethod.html
+	:og:locale: en
   List of all private methods that are used.
 
 Protected methods, in a standalone class, are also included.

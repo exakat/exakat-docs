@@ -5,6 +5,21 @@
 Avoid Optional Properties
 +++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Avoid Optional Properties: Avoid optional properties, to prevent littering the code with existence checks.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Avoid Optional Properties
+	:twitter:description: Avoid Optional Properties: Avoid optional properties, to prevent littering the code with existence checks
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Avoid Optional Properties
+	:og:type: article
+	:og:description: Avoid optional properties, to prevent littering the code with existence checks
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/AvoidOptionalProperties.html
+	:og:locale: en
   Avoid optional properties, to prevent littering the code with existence checks. 
 
 When a property has to be checked once for existence, it is safer to check it each time. This leads to a decrease in readability and a lot of checks added to the code.

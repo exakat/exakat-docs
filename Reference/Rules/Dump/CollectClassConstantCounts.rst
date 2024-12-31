@@ -5,6 +5,21 @@
 Collect Class Constant Counts
 +++++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Collect Class Constant Counts: This analysis collects the number of class constants per class or interface.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Collect Class Constant Counts
+	:twitter:description: Collect Class Constant Counts: This analysis collects the number of class constants per class or interface
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Collect Class Constant Counts
+	:og:type: article
+	:og:description: This analysis collects the number of class constants per class or interface
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/CollectClassConstantCounts.html
+	:og:locale: en
   This analysis collects the number of class constants per class or interface. 
 
 The count applies to classes, anonymous classes and interfaces. They are considered distinct one from another.

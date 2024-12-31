@@ -5,6 +5,21 @@
 Possible Missing Subpattern
 +++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Possible Missing Subpattern: When capturing subpatterns are the last ones in a regex, PHP doesn't fill their spot in the resulting array.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Possible Missing Subpattern
+	:twitter:description: Possible Missing Subpattern: When capturing subpatterns are the last ones in a regex, PHP doesn't fill their spot in the resulting array
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Possible Missing Subpattern
+	:og:type: article
+	:og:description: When capturing subpatterns are the last ones in a regex, PHP doesn't fill their spot in the resulting array
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/MissingSubpattern.html
+	:og:locale: en
   When capturing subpatterns are the last ones in a regex, PHP doesn't fill their spot in the resulting array. This leads to a possible missing index in the `result <https://www.php.net/result>`_ array.
 The same applies to `preg_replace() <https://www.php.net/preg_replace>`_ : the pattern may match the string, but no value is available is the corresponding sub-pattern.
 

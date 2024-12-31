@@ -5,6 +5,21 @@
 Always Anchor Regex
 +++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Always Anchor Regex: Unanchored regex finds the requested pattern, and leaves room for malicious content.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Always Anchor Regex
+	:twitter:description: Always Anchor Regex: Unanchored regex finds the requested pattern, and leaves room for malicious content
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Always Anchor Regex
+	:og:type: article
+	:og:description: Unanchored regex finds the requested pattern, and leaves room for malicious content
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Security/AnchorRegex.html
+	:og:locale: en
   Unanchored regex finds the requested pattern, and leaves room for malicious content. 
 
 Without ``^`` and ``$``, the regex searches for any pattern that satisfies the criteria, leaving any unused part of the string available for arbitrary content. It is recommended to use both anchor

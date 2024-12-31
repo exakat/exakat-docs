@@ -5,6 +5,21 @@
 Unused Returned Value
 +++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Unused Returned Value: The function called returns a value, which is ignored.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Unused Returned Value
+	:twitter:description: Unused Returned Value: The function called returns a value, which is ignored
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Unused Returned Value
+	:og:type: article
+	:og:description: The function called returns a value, which is ignored
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/UnusedReturnedValue.html
+	:og:locale: en
   The function called returns a value, which is ignored. 
 
 Usually, this is a sign of dead code, or a missed check on the results of the functioncall. At times, it may be a valid call if the function has voluntarily no return value. 

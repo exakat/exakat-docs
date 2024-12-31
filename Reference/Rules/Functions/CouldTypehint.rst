@@ -5,6 +5,21 @@
 Could Typehint
 ++++++++++++++
 
+.. meta\:\:
+	:description:
+		Could Typehint: Arguments that are tested with instanceof, is_array(), is_string(), etc.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Could Typehint
+	:twitter:description: Could Typehint: Arguments that are tested with instanceof, is_array(), is_string(), etc
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Could Typehint
+	:og:type: article
+	:og:description: Arguments that are tested with instanceof, is_array(), is_string(), etc
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/CouldTypehint.html
+	:og:locale: en
   Arguments that are tested with `instanceof <https://www.php.net/manual/en/language.operators.type.php>`_, `is_array() <https://www.php.net/is_array>`_, `is_string() <https://www.php.net/is_string>`_, etc. could be modernized with a typehint.
 
 .. code-block:: php

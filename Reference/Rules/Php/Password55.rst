@@ -5,6 +5,21 @@
 Use password_hash()
 +++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Use password_hash(): password_hash() and password_check() are a better choice to replace the use of crypt() to check password.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Use password_hash()
+	:twitter:description: Use password_hash(): password_hash() and password_check() are a better choice to replace the use of crypt() to check password
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Use password_hash()
+	:og:type: article
+	:og:description: password_hash() and password_check() are a better choice to replace the use of crypt() to check password
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/Password55.html
+	:og:locale: en
   `password_hash() <https://www.php.net/password_hash>`_ and password_check() are a better choice to replace the use of `crypt() <https://www.php.net/crypt>`_ to check password.
 
 PHP 5.5 introduced these functions.

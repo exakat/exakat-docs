@@ -5,6 +5,21 @@
 ext/mcrypt
 ++++++++++
 
+.. meta\:\:
+	:description:
+		ext/mcrypt: Extension for mcrypt.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: ext/mcrypt
+	:twitter:description: ext/mcrypt: Extension for mcrypt
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: ext/mcrypt
+	:og:type: article
+	:og:description: Extension for mcrypt
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extmcrypt.html
+	:og:locale: en
   Extension for mcrypt.
 
 This extension has been deprecated as of PHP 7.1.0 and moved to PECL as of PHP 7.2.0.

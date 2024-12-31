@@ -5,6 +5,21 @@
 No Weak SSL Crypto
 ++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		No Weak SSL Crypto: When enabling PHP's stream SSL, it is important to use a safe protocol.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: No Weak SSL Crypto
+	:twitter:description: No Weak SSL Crypto: When enabling PHP's stream SSL, it is important to use a safe protocol
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: No Weak SSL Crypto
+	:og:type: article
+	:og:description: When enabling PHP's stream SSL, it is important to use a safe protocol
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Security/NoWeakSSLCrypto.html
+	:og:locale: en
   When enabling PHP's stream SSL, it is important to use a safe protocol. 
 
 All the SSL protocols (1.0, 2.0, 3.0), and TLS (1.0 are unsafe. The best is to use the most recent TLS, version 1.2. 

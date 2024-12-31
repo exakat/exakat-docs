@@ -5,6 +5,21 @@
 Unused Inherited Variable In Closure
 ++++++++++++++++++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Unused Inherited Variable In Closure: Some closures forgot to make usage of inherited variables.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Unused Inherited Variable In Closure
+	:twitter:description: Unused Inherited Variable In Closure: Some closures forgot to make usage of inherited variables
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Unused Inherited Variable In Closure
+	:og:type: article
+	:og:description: Some closures forgot to make usage of inherited variables
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/UnusedInheritedVariable.html
+	:og:locale: en
   Some closures forgot to make usage of inherited variables.
 
 `Closure <https://www.php.net/manual/en/class.`closure <https://www.php.net/closure>`_.php>`_ have two separate set of incoming variables : the arguments (between parenthesis) and the inherited variables, in the 'use' clause. Inherited variables are extracted from the local environment at creation time, and keep their value until execution. 

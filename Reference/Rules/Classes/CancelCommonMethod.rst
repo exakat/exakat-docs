@@ -5,6 +5,21 @@
 Cancel Common Method
 ++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Cancel Common Method: A parent method's is too little used in children.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Cancel Common Method
+	:twitter:description: Cancel Common Method: A parent method's is too little used in children
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Cancel Common Method
+	:og:type: article
+	:og:description: A parent method's is too little used in children
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/CancelCommonMethod.html
+	:og:locale: en
   A `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ method's is too little used in children.
 
 The `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ class has a method, which is customised in children classes, though most of the time, those are empty : hence, cancelled. 

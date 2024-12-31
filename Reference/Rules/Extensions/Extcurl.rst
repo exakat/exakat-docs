@@ -5,6 +5,21 @@
 ext/curl
 ++++++++
 
+.. meta\:\:
+	:description:
+		ext/curl: Extension curl.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: ext/curl
+	:twitter:description: ext/curl: Extension curl
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: ext/curl
+	:og:type: article
+	:og:description: Extension curl
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extcurl.html
+	:og:locale: en
   Extension curl.
 
 PHP supports libcurl, a library created by Daniel Stenberg. It allows the `connection <https://www.php.net/connection>`_ and communication to many different types of servers with many different types of protocols.

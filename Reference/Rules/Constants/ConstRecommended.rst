@@ -5,6 +5,21 @@
 Use const
 +++++++++
 
+.. meta\:\:
+	:description:
+		Use const: The const keyword may be used to define constant, just like the define() function.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Use const
+	:twitter:description: Use const: The const keyword may be used to define constant, just like the define() function
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Use const
+	:og:type: article
+	:og:description: The const keyword may be used to define constant, just like the define() function
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Constants/ConstRecommended.html
+	:og:locale: en
   The const keyword may be used to define constant, just like the `define() <https://www.php.net/define>`_ function. 
 
 When defining a constant, it is recommended to use 'const' when the features of the constant are not dynamical (name or value are known at compile time). 

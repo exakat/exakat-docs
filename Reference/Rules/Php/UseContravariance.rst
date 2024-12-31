@@ -5,6 +5,21 @@
 Use Contravariance
 ++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Use Contravariance: Contravariance is compatible argument typehint.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Use Contravariance
+	:twitter:description: Use Contravariance: Contravariance is compatible argument typehint
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Use Contravariance
+	:og:type: article
+	:og:description: Contravariance is compatible argument typehint
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/UseContravariance.html
+	:og:locale: en
   Contravariance is compatible argument typehint. A child class may accept an object of a `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ class of the argument type of its `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_'s method.
 
 Since a children class may accept a `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ class of the argument type, the evolution is in opposite order. 

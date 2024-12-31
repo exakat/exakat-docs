@@ -5,6 +5,21 @@
 Not Equal Is Not !==
 ++++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Not Equal Is Not !==: Not and Equal operators, used separately, don't amount to the different operator ``!==``.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Not Equal Is Not !==
+	:twitter:description: Not Equal Is Not !==: Not and Equal operators, used separately, don't amount to the different operator ``!==``
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Not Equal Is Not !==
+	:og:type: article
+	:og:description: Not and Equal operators, used separately, don't amount to the different operator ``!==``
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/NotEqual.html
+	:og:locale: en
   Not and Equal operators, used separately, don't amount to the different operator ``!==``.
 
 ``!$a == $b`` first turns ``$a``into the opposite boolean, then compares this boolean value to ``$b``. On the other hand, ``$a !== $b`` compares the two variables for type and value, and returns a boolean. 

@@ -5,6 +5,21 @@
 Unused Use
 ++++++++++
 
+.. meta\:\:
+	:description:
+		Unused Use: Unused use statements.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Unused Use
+	:twitter:description: Unused Use: Unused use statements
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Unused Use
+	:og:type: article
+	:og:description: Unused use statements
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Namespaces/UnusedUse.html
+	:og:locale: en
   Unused use statements. They may be removed, as they clutter the code and slows PHP by forcing it to search in this list for nothing.
 
 .. code-block:: php

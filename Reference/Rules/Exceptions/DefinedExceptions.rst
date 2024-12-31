@@ -5,6 +5,21 @@
 Defined Exceptions
 ++++++++++++++++++
 
+.. meta\:\:
+	:description:
+		Defined Exceptions: This is the list of defined exceptions.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Defined Exceptions
+	:twitter:description: Defined Exceptions: This is the list of defined exceptions
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Defined Exceptions
+	:og:type: article
+	:og:description: This is the list of defined exceptions
+	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Exceptions/DefinedExceptions.html
+	:og:locale: en
   This is the list of defined exceptions. Those exceptions are custom to the code, and shall be thrown at one point or more in the code.
 
 .. code-block:: php
