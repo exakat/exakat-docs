@@ -44,7 +44,7 @@ Can't Overwrite Final Constant
 Related PHP errors 
 -------------------
 
-  + `%s::%s cannot override final constant %s::%s <https://php-errors.readthedocs.io/en/latest/messages/%25s%5C%3A%5C%3A%25s-cannot-override-final-constant-%25s%5C%3A%5C%3A%25s.html>`_
+  + `%s::%s cannot override final constant %s::%s <https://php-errors.readthedocs.io/en/latest/messages/%25s%3A%3A%25s-cannot-override-final-constant-%25s%3A%3A%25s.html>`_
 
 
 
