@@ -5,7 +5,7 @@
 Unresolved Catch
 ++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Unresolved Catch: Catch clauses do not check for Exception existence.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Unresolved Catch
 	:og:description: Catch clauses do not check for Exception existence
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/UnresolvedCatch.html
 	:og:locale: en
-  Catch clauses do not check for `Exception <https://www.php.net/exception>`_ existence. 
+Catch clauses do not check for `Exception <https://www.php.net/exception>`_ existence. 
 
 Catch clauses check that the emitted expression is of the requested Class, but if that class doesn't exist in the code, the catch clause is always false. This is dead code.
 

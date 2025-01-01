@@ -5,7 +5,7 @@
 Should Use Ternary Operator
 +++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Should Use Ternary Operator: Ternary operators are the best when assigning values to a variable.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Should Use Ternary Operator
 	:og:description: Ternary operators are the best when assigning values to a variable
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ShouldMakeTernary.html
 	:og:locale: en
-  Ternary operators are the best when assigning values to a variable.
+Ternary operators are the best when assigning values to a variable.
 
 They are less verbose, compatible with assignation and easier to read.
 

@@ -5,7 +5,7 @@
 No Hardcoded Port
 +++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		No Hardcoded Port: When connecting to a remove server, port is an important information.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ No Hardcoded Port
 	:og:description: When connecting to a remove server, port is an important information
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/NoHardcodedPort.html
 	:og:locale: en
-  When connecting to a remove server, port is an important information. It is recommended to make this configurable (with constant or configuration), to as to be able to change this value without changing the code.
+When connecting to a remove server, port is an important information. It is recommended to make this configurable (with constant or configuration), to as to be able to change this value without changing the code.
 
 .. code-block:: php
    

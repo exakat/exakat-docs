@@ -5,7 +5,7 @@
 PHP Native Class Type Compatibility
 +++++++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		PHP Native Class Type Compatibility: PHP enforces the method compatibility with native classes and interfaces.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ PHP Native Class Type Compatibility
 	:og:description: PHP enforces the method compatibility with native classes and interfaces
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/NativeClassTypeCompatibility.html
 	:og:locale: en
-  PHP enforces the method compatibility with native classes and interfaces. 
+PHP enforces the method compatibility with native classes and interfaces. 
 
 This means that classes that extends native PHP classes or interfaces must declare compatible types. They can't omit typing, like it was the case until PHP 8.0.
 This is needed for compatibility with PHP 8.0. This is probably good for older versions too, although it is not reported.

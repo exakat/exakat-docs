@@ -5,7 +5,7 @@
 ext/json
 ++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/json: Extension JSON.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/json
 	:og:description: Extension JSON
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extjson.html
 	:og:locale: en
-  Extension JSON.
+Extension JSON.
 
 This extension implements the JavaScript Object Notation (JSON) data-interchange format. PHP implements a superset of JSON as specified in the original `RFC 7159 <http://www.faqs.org/rfcs/rfc7159>`_.
 

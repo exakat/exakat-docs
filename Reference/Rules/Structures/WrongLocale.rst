@@ -5,7 +5,7 @@
 Wrong Locale
 ++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Wrong Locale: This rule checks the locale used in the code, against a library of known valid locales.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Wrong Locale
 	:og:description: This rule checks the locale used in the code, against a library of known valid locales
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/WrongLocale.html
 	:og:locale: en
-  This rule checks the `locale <https://www.php.net/locale>`_ used in the code, against a library of known valid locales. Unknown locales are reported: they might be typos or unknown to certain systems.
+This rule checks the `locale <https://www.php.net/locale>`_ used in the code, against a library of known valid locales. Unknown locales are reported: they might be typos or unknown to certain systems.
 
 .. code-block:: php
    

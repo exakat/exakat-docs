@@ -5,7 +5,7 @@
 Avoid glob() Usage
 ++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Avoid glob() Usage: glob() and scandir() sorts results by default.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Avoid glob() Usage
 	:og:description: glob() and scandir() sorts results by default
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Performances/NoGlob.html
 	:og:locale: en
-  `glob() <https://www.php.net/glob>`_ and `scandir() <https://www.php.net/scandir>`_ sorts results by default. When that kind of sorting is not needed, save some time by requesting ``NOSORT`` with those functions.
+`glob() <https://www.php.net/glob>`_ and `scandir() <https://www.php.net/scandir>`_ sorts results by default. When that kind of sorting is not needed, save some time by requesting ``NOSORT`` with those functions.
 
 Besides, whenever possible, use `scandir() <https://www.php.net/scandir>`_ instead of `glob() <https://www.php.net/glob>`_. 
 Using `opendir() <https://www.php.net/opendir>`_ and a while loop may be even faster. 

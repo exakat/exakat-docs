@@ -5,7 +5,7 @@
 Untyped No Default Properties
 +++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Untyped No Default Properties: This rule reports untyped properties without default value, that are not assigned at constructor time.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Untyped No Default Properties
 	:og:description: This rule reports untyped properties without default value, that are not assigned at constructor time
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/UntypedNoDefaultProperties.html
 	:og:locale: en
-  This rule reports untyped properties without default value, that are not assigned at constructor time. 
+This rule reports untyped properties without default value, that are not assigned at constructor time. 
 
 This means that these properties will be assigned later, and are now running the risk to be accessed before being written. This yields a warning, and, when the property get typed, event with ``mixed``, a fatal `error <https://www.php.net/error>`_.
 

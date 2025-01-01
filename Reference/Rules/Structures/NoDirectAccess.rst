@@ -5,7 +5,7 @@
 No Direct Access
 ++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		No Direct Access: This expression protects files against direct access.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ No Direct Access
 	:og:description: This expression protects files against direct access
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/NoDirectAccess.html
 	:og:locale: en
-  This expression protects files against direct access. It will kill the process if it realizes this is not supposed to be directly accessed.
+This expression protects files against direct access. It will kill the process if it realizes this is not supposed to be directly accessed.
 
 Those expressions are used in applications and framework, to prevent direct access to definition files.
 

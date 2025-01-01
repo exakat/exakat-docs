@@ -5,7 +5,7 @@
 Undefined Classes
 +++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Undefined Classes: Those classes are used in the code, but there are no definition for them.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Undefined Classes
 	:og:description: Those classes are used in the code, but there are no definition for them
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/UndefinedClasses.html
 	:og:locale: en
-  Those classes are used in the code, but there are no definition for them.
+Those classes are used in the code, but there are no definition for them.
 
 This may happens under normal conditions, if the application makes use of an unsupported extension, that defines extra classes; 
 or if some external libraries, such as PEAR, are not provided during the analysis.

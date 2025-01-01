@@ -5,7 +5,7 @@
 Not Or Tilde
 ++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Not Or Tilde: There are two NOT operator in PHP : ``!`` and ``~``.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Not Or Tilde
 	:og:description: There are two NOT operator in PHP : ``!`` and ``~``
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/NotOrNot.html
 	:og:locale: en
-  There are two NOT operator in PHP : ``!`` and ``~``. The first is a logical operator, and returns a boolean. The second is a bit-wise operator, and flips each bit. 
+There are two NOT operator in PHP : ``!`` and ``~``. The first is a logical operator, and returns a boolean. The second is a bit-wise operator, and flips each bit. 
 
 Although they are distinct operations, there are situations where they provide the same results. In particular, when processing booleans. 
 

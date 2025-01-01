@@ -5,7 +5,7 @@
 Useless NullSafe Operator
 +++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Useless NullSafe Operator: Nullsafe operator ``.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Useless NullSafe Operator
 	:og:description: Nullsafe operator ``
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/UselessNullSafeOperator.html
 	:og:locale: en
-  Nullsafe operator ``?->`` has no object when the types are never null, or when coalesce is active.
+Nullsafe operator ``?->`` has no object when the types are never null, or when coalesce is active.
 
 The nullsafe operator protects the execution from accessing a method or a property on a null value. If the object part of the syntax cannot be null, then the nullsafe operator ``?->`` will not protect it. 
 

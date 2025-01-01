@@ -5,7 +5,7 @@
 Useless Parenthesis
 +++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Useless Parenthesis: Situations where parenthesis are not necessary, and may be removed.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Useless Parenthesis
 	:og:description: Situations where parenthesis are not necessary, and may be removed
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/UselessParenthesis.html
 	:og:locale: en
-  Situations where parenthesis are not necessary, and may be removed.
+Situations where parenthesis are not necessary, and may be removed.
 
 Parenthesis group several elements together, and allows for a more readable expression. They are used with logical and mathematical expressions. They are necessary when the precedence of the operators are not the intended execution order : for example, when an addition must be performed before the multiplication.
 

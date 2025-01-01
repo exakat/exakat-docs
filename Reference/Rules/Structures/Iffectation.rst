@@ -5,7 +5,7 @@
 Iffectations
 ++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Iffectations: Affectations that appears in a condition.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Iffectations
 	:og:description: Affectations that appears in a condition
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/Iffectation.html
 	:og:locale: en
-  Affectations that appears in a condition. 
+Affectations that appears in a condition. 
 
 Iffectations are a way to do both a test and an affectations. 
 They may also be typos, such as if ($x = 3) { `... <https://www.php.net/manual/en/functions.arguments.php#functions.variable-arg-list>`_ }, leading to a constant condition.

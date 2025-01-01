@@ -5,7 +5,7 @@
 Collect Graph Triplets
 ++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Collect Graph Triplets: Collects the triplets (origin, link, destination) in the graph.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Collect Graph Triplets
 	:og:description: Collects the triplets (origin, link, destination) in the graph
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/CollectGraphTriplets.html
 	:og:locale: en
-  Collects the triplets (origin, link, destination) in the graph. 
+Collects the triplets (origin, link, destination) in the graph. 
 
 The goal is to provide visibility on the type of used relationship in the code.
 

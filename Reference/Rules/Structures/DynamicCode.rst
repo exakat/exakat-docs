@@ -5,7 +5,7 @@
 Dynamic Code
 ++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Dynamic Code: List of instructions that were left during analysis, as they rely on dynamic data.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Dynamic Code
 	:og:description: List of instructions that were left during analysis, as they rely on dynamic data
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/DynamicCode.html
 	:og:locale: en
-  List of instructions that were left during analysis, as they rely on dynamic data. 
+List of instructions that were left during analysis, as they rely on dynamic data. 
 
 Any further analysis will need to start from here.
 

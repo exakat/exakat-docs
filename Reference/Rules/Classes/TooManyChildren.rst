@@ -5,7 +5,7 @@
 Too Many Children
 +++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Too Many Children: Classes that have more than 15 children.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Too Many Children
 	:og:description: Classes that have more than 15 children
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/TooManyChildren.html
 	:og:locale: en
-  Classes that have more than 15 children. It is worth checking if they cannot be refactored in anyway.
+Classes that have more than 15 children. It is worth checking if they cannot be refactored in anyway.
 
 The threshold of 15 children can be configured. There is no technical limitation of the number of children and grand-children for a class. 
 

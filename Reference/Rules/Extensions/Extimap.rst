@@ -5,7 +5,7 @@
 ext/imap
 ++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/imap: Extension ext/imap.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/imap
 	:og:description: Extension ext/imap
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extimap.html
 	:og:locale: en
-  Extension ext/imap.
+Extension ext/imap.
 
 This extension operate with the IMAP protocol, as well as the NNTP, POP3 and local mailbox access methods.
 

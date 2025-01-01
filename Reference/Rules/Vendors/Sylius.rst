@@ -5,7 +5,7 @@
 Sylius usage
 ++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Sylius usage: This analysis reports usage of the Sylius framework.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Sylius usage
 	:og:description: This analysis reports usage of the Sylius framework
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Vendors/Sylius.html
 	:og:locale: en
-  This analysis reports usage of the Sylius framework.
+This analysis reports usage of the Sylius framework.
 
 Sylius is an Open Source Headless eCommerce Platform for mid-market and enterprise brands that need custom solutions.
 

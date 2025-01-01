@@ -5,7 +5,7 @@
 PSR-7 Usage
 +++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		PSR-7 Usage: PSR-7 describes common interfaces for representing HTTP messages as described in `RFC 7230 <https://tools.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ PSR-7 Usage
 	:og:description: PSR-7 describes common interfaces for representing HTTP messages as described in `RFC 7230 <https://tools
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Psr/Psr7Usage.html
 	:og:locale: en
-  PSR-7 describes common interfaces for representing HTTP messages as described in `RFC 7230 <https://tools.ietf.org/html/rfc7230>`_ and `RFC 7231 <https://tools.ietf.org/html/rfc7231>`_, and URI for use with HTTP messages as described in `RFC 3986 <https://tools.ietf.org/html/rfc3986>`_. 
+PSR-7 describes common interfaces for representing HTTP messages as described in `RFC 7230 <https://tools.ietf.org/html/rfc7230>`_ and `RFC 7231 <https://tools.ietf.org/html/rfc7231>`_, and URI for use with HTTP messages as described in `RFC 3986 <https://tools.ietf.org/html/rfc3986>`_. 
 
 It is supported by an set of interfaces, that one may use in the code.
 

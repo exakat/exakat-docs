@@ -5,7 +5,7 @@
 Strict In_Array() Preference
 ++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Strict In_Array() Preference: It is possible to set in_array() to strict search mode, by using the third argument.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Strict In_Array() Preference
 	:og:description: It is possible to set in_array() to strict search mode, by using the third argument
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/StrictInArrayFavorite.html
 	:og:locale: en
-  It is possible to set `in_array() <https://www.php.net/in_array>`_ to strict search mode, by using the third argument.
+It is possible to set `in_array() <https://www.php.net/in_array>`_ to strict search mode, by using the third argument.
 
 The analyzed code has less than 10% of one of the two sets : for consistency reasons, it is recommended to make them all the same. 
 

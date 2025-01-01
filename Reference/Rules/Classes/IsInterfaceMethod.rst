@@ -5,7 +5,7 @@
 Is Interface Method
 +++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Is Interface Method: Mark a method as part of an interface that the current class implements.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Is Interface Method
 	:og:description: Mark a method as part of an interface that the current class implements
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/IsInterfaceMethod.html
 	:og:locale: en
-  Mark a method as part of an interface that the current class implements.
+Mark a method as part of an interface that the current class implements.
 
 .. code-block:: php
    

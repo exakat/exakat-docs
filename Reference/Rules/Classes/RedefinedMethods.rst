@@ -5,7 +5,7 @@
 Redefined Methods
 +++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Redefined Methods: Redefined methods are overwritten methods.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Redefined Methods
 	:og:description: Redefined methods are overwritten methods
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/RedefinedMethods.html
 	:og:locale: en
-  Redefined methods are overwritten methods. Those methods are defined in different classes that are part of the same classes hierarchy.
+Redefined methods are overwritten methods. Those methods are defined in different classes that are part of the same classes hierarchy.
 
 Protected and public redefined methods replace each other. Private methods are kept separated, and depends on the caller to be distinguished.
 

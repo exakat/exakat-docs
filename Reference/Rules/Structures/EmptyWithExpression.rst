@@ -5,7 +5,7 @@
 Empty With Expression
 +++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Empty With Expression: empty() doesn't accept expressions until PHP 5.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Empty With Expression
 	:og:description: empty() doesn't accept expressions until PHP 5
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/EmptyWithExpression.html
 	:og:locale: en
-  empty() doesn't accept expressions until PHP 5.5. Until then, it is necessary to store the `result <https://www.php.net/result>`_ of the expression in a variable and then, test it with empty().
+empty() doesn't accept expressions until PHP 5.5. Until then, it is necessary to store the `result <https://www.php.net/result>`_ of the expression in a variable and then, test it with empty().
 
 .. code-block:: php
    

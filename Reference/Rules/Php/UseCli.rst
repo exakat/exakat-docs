@@ -5,7 +5,7 @@
 Use Cli
 +++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Use Cli: Signal the usage of code in CLI mode, through the usage of ``$argv`` and ``$argc`` variables, or the getopt() function.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Use Cli
 	:og:description: Signal the usage of code in CLI mode, through the usage of ``$argv`` and ``$argc`` variables, or the getopt() function
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/UseCli.html
 	:og:locale: en
-  Signal the usage of code in CLI mode, through the usage of ``$argv`` and ``$argc`` variables, or the `getopt() <https://www.php.net/getopt>`_ function.
+Signal the usage of code in CLI mode, through the usage of ``$argv`` and ``$argc`` variables, or the `getopt() <https://www.php.net/getopt>`_ function.
 
 .. code-block:: php
    

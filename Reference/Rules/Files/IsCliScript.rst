@@ -5,7 +5,7 @@
 Is CLI Script
 +++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Is CLI Script: Mark a file as a CLI script.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Is CLI Script
 	:og:description: Mark a file as a CLI script
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Files/IsCliScript.html
 	:og:locale: en
-  Mark a file as a CLI script. This means that this code is used in command line. That detection is based on the usage of distinct CLI features, such as ``#!`` at the beginning of the file.
+Mark a file as a CLI script. This means that this code is used in command line. That detection is based on the usage of distinct CLI features, such as ``#!`` at the beginning of the file.
 #!/usr/bin/php
 
 .. code-block:: php

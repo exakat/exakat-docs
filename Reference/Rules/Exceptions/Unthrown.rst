@@ -5,7 +5,7 @@
 Unthrown Exception
 ++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Unthrown Exception: These exceptions are defined in the code but never thrown.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Unthrown Exception
 	:og:description: These exceptions are defined in the code but never thrown
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Exceptions/Unthrown.html
 	:og:locale: en
-  These exceptions are defined in the code but never thrown. They are probably dead code.
+These exceptions are defined in the code but never thrown. They are probably dead code.
 
 Unused exceptions are code bloat, as they increase the size of the code without any purpose. They are also misleading, as other developers might come to the impression that there is a mechanism to handle the situation that the `exception <https://www.php.net/exception>`_ describe, yet they are generating a fatal `error <https://www.php.net/error>`_.
 

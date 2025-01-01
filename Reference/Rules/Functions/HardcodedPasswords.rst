@@ -5,7 +5,7 @@
 Hardcoded Passwords
 +++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Hardcoded Passwords: Hardcoded passwords in the code.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Hardcoded Passwords
 	:og:description: Hardcoded passwords in the code
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/HardcodedPasswords.html
 	:og:locale: en
-  Hardcoded passwords in the code. 
+Hardcoded passwords in the code. 
 
 Hardcoding passwords is a bad idea. Not only it make the code difficult to change, but it is an information leak. It is better to hide this kind of information out of the code.
 

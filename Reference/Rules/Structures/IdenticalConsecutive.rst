@@ -5,7 +5,7 @@
 Identical Consecutive Expression
 ++++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Identical Consecutive Expression: Identical consecutive expressions might be double code.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Identical Consecutive Expression
 	:og:description: Identical consecutive expressions might be double code
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/IdenticalConsecutive.html
 	:og:locale: en
-  Identical consecutive expressions might be double code. They are worth being checked. 
+Identical consecutive expressions might be double code. They are worth being checked. 
 
 They may be a copy/paste with unmodified content. When the content has to be duplicated, it is recommended to avoid executing the expression again, and just access the cached `result <https://www.php.net/result>`_.
 

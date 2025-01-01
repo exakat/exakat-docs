@@ -5,7 +5,7 @@
 Unresolved Classes
 ++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Unresolved Classes: The following classes are instantiated in the code, but their definition couldn't be found in that same code.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Unresolved Classes
 	:og:description: The following classes are instantiated in the code, but their definition couldn't be found in that same code
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/UnresolvedClasses.html
 	:og:locale: en
-  The following classes are instantiated in the code, but their definition couldn't be found in that same code. They might be defined in an extension or an external component.
+The following classes are instantiated in the code, but their definition couldn't be found in that same code. They might be defined in an extension or an external component.
 
 .. code-block:: php
    

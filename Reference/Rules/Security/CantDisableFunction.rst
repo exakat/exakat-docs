@@ -5,7 +5,7 @@
 Can't Disable Function
 ++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Can't Disable Function: This is the list of potentially dangerous PHP functions being used in the code, such as exec() or fsockopen().
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Can't Disable Function
 	:og:description: This is the list of potentially dangerous PHP functions being used in the code, such as exec() or fsockopen()
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Security/CantDisableFunction.html
 	:og:locale: en
-  This is the list of potentially dangerous PHP functions being used in the code, such as `exec() <https://www.php.net/exec>`_ or `fsockopen() <https://www.php.net/fsockopen>`_. 
+This is the list of potentially dangerous PHP functions being used in the code, such as `exec() <https://www.php.net/exec>`_ or `fsockopen() <https://www.php.net/fsockopen>`_. 
 
 eval() is not reported here, as it is not a PHP function, but a language construct : it can't be disabled.
 This analysis is the base for suggesting values for the ``disable_functions`` directive.

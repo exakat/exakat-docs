@@ -5,7 +5,7 @@
 Queries In Loops
 ++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Queries In Loops: Avoid querying databases in a loop.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Queries In Loops
 	:og:description: Avoid querying databases in a loop
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/QueriesInLoop.html
 	:og:locale: en
-  Avoid querying databases in a loop. 
+Avoid querying databases in a loop. 
 
 Querying an external database in a loop usually leads to performances problems. This is also called the 'n + 1 problem'. 
 

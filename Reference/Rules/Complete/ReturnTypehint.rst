@@ -5,7 +5,7 @@
 Add Return Typehint
 +++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Add Return Typehint: Add returntype to methods, functions, closures and arrow functions.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Add Return Typehint
 	:og:description: Add returntype to methods, functions, closures and arrow functions
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Complete/ReturnTypehint.html
 	:og:locale: en
-  Add returntype to methods, functions, closures and arrow functions. The return types are read from the code and deduced, based on literal values, local types and operations.
+Add returntype to methods, functions, closures and arrow functions. The return types are read from the code and deduced, based on literal values, local types and operations.
 
 .. code-block:: php
    

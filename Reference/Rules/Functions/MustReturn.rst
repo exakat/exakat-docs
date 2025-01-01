@@ -5,7 +5,7 @@
 Must Return Methods
 +++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Must Return Methods: The following methods are expected to return a value that will be used later.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Must Return Methods
 	:og:description: The following methods are expected to return a value that will be used later
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/MustReturn.html
 	:og:locale: en
-  The following methods are expected to return a value that will be used later. Without return, they are useless.
+The following methods are expected to return a value that will be used later. Without return, they are useless.
 
 Methods that must return are : `__get() <https://www.php.net/manual/en/language.oop5.magic.php>`_, `__isset() <https://www.php.net/manual/en/language.oop5.magic.php>`_, `__sleep() <https://www.php.net/manual/en/language.oop5.magic.php>`_, `__toString() <https://www.php.net/manual/en/language.oop5.magic.php>`_, `__set_state() <https://www.php.net/manual/en/language.oop5.magic.php>`_, `__invoke() <https://www.php.net/manual/en/language.oop5.magic.php>`_, `__debugInfo() <https://www.php.net/manual/en/language.oop5.magic.php>`_.
 

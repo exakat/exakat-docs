@@ -5,7 +5,7 @@
 Compare Hash
 ++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Compare Hash: When comparing hash values, it is important to use the strict comparison : hash_equals(), ``===`` or ``!==``.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Compare Hash
 	:og:description: When comparing hash values, it is important to use the strict comparison : hash_equals(), ``===`` or ``!==``
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Security/CompareHash.html
 	:og:locale: en
-  When comparing hash values, it is important to use the strict comparison : `hash_equals() <https://www.php.net/hash_equals>`_, ``===`` or ``!==``. 
+When comparing hash values, it is important to use the strict comparison : `hash_equals() <https://www.php.net/hash_equals>`_, ``===`` or ``!==``. 
 
 In a number of situations, the hash value will start with ``0e``, and PHP will understand that the comparison involves integers : it will then convert the strings into numbers, and it may end up converting them to 0.
 

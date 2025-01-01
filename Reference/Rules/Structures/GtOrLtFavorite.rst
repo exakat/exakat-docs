@@ -5,7 +5,7 @@
 Comparisons Orientation
 +++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Comparisons Orientation: Maths has two comparisons styles : ``>`` or ``<``.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Comparisons Orientation
 	:og:description: Maths has two comparisons styles : ``>`` or ``<``
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/GtOrLtFavorite.html
 	:og:locale: en
-  Maths has two comparisons styles : ``>`` or ``<``. Both may include equality : ``<=`` and ``>=``.
+Maths has two comparisons styles : ``>`` or ``<``. Both may include equality : ``<=`` and ``>=``.
 
 The analyzed code has less than 10% of one of them : for consistency reasons, it is recommended to make them all the same. 
 

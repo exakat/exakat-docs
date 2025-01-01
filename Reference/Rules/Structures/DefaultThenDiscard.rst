@@ -5,7 +5,7 @@
 Default Then Discard
 ++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Default Then Discard: Discard the value before assigning it.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Default Then Discard
 	:og:description: Discard the value before assigning it
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/DefaultThenDiscard.html
 	:og:locale: en
-  Discard the value before assigning it. 
+Discard the value before assigning it. 
 
 In the code below, the variable is assigned a default value. Then, this value is immediately tested and discarded. 
 

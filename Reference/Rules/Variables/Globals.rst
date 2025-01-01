@@ -5,7 +5,7 @@
 Globals
 +++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Globals: Global variables.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Globals
 	:og:description: Global variables
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Variables/Globals.html
 	:og:locale: en
-  Global variables.
+Global variables.
 
 .. code-block:: php
    

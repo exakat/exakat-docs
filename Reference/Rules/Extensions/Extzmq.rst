@@ -5,7 +5,7 @@
 ext/0mq
 +++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/0mq: Extension ext/zmq for ``0mq``.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/0mq
 	:og:description: Extension ext/zmq for ``0mq``
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extzmq.html
 	:og:locale: en
-  Extension ext/zmq for ``0mq``.
+Extension ext/zmq for ``0mq``.
 
 ``ØMQ is a software library that lets you quickly design and implement a fast message-based application.``
 

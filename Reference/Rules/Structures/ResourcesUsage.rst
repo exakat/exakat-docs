@@ -5,7 +5,7 @@
 Resources Usage
 +++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Resources Usage: List of situations that are creating resources.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Resources Usage
 	:og:description: List of situations that are creating resources
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ResourcesUsage.html
 	:og:locale: en
-  List of situations that are creating resources.
+List of situations that are creating resources.
 
 .. code-block:: php
    

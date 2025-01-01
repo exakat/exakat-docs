@@ -5,7 +5,7 @@
 Override Attribute
 ++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Override Attribute: Override is a native PHP attribute.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Override Attribute
 	:og:description: Override is a native PHP attribute
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Attributes/Override.html
 	:og:locale: en
-  `Override <https://www.php.net/override>`_ is a native PHP `attribute <https://www.php.net/attribute>`_. It was introduced in PHP 8.3, and was not available before. 
+`Override <https://www.php.net/override>`_ is a native PHP `attribute <https://www.php.net/attribute>`_. It was introduced in PHP 8.3, and was not available before. 
 
 In fact, `static <https://www.php.net/manual/en/language.oop5.static.php>`_ analysis can perform that check on previous versions of PHP.
 

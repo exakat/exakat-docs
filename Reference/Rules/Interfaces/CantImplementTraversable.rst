@@ -5,7 +5,7 @@
 Can't Implement Traversable
 +++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Can't Implement Traversable: It is not possible to implement the ``Traversable`` interface directly.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Can't Implement Traversable
 	:og:description: It is not possible to implement the ``Traversable`` interface directly
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Interfaces/CantImplementTraversable.html
 	:og:locale: en
-  It is not possible to implement the ``Traversable`` interface directly. It is possible to implement it via the ``Iterator`` and ``IteratorAggregate`` classes, which, in turn, implements ``Traversable``.
+It is not possible to implement the ``Traversable`` interface directly. It is possible to implement it via the ``Iterator`` and ``IteratorAggregate`` classes, which, in turn, implements ``Traversable``.
 
 ``Traversable`` may be useful when used with ``instanceof``, ``catch`` or any type specification.
 

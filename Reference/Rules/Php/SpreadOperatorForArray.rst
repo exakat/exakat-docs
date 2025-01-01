@@ -5,7 +5,7 @@
 Spread Operator For Array
 +++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Spread Operator For Array: The variadic operator may be used with arrays.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Spread Operator For Array
 	:og:description: The variadic operator may be used with arrays
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/SpreadOperatorForArray.html
 	:og:locale: en
-  The variadic operator may be used with arrays. This has been introduced in PHP 7.4. 
+The variadic operator may be used with arrays. This has been introduced in PHP 7.4. 
 
 `list() <https://www.php.net/list>`_ is not allowed to use this operator, as `list() <https://www.php.net/list>`_ expected variables, not values.
 

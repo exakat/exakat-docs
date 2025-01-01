@@ -5,7 +5,7 @@
 PSR-3 Usage
 +++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		PSR-3 Usage: PSR-3 describes a common interface for logging libraries.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ PSR-3 Usage
 	:og:description: PSR-3 describes a common interface for logging libraries
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Psr/Psr3Usage.html
 	:og:locale: en
-  PSR-3 describes a common interface for logging libraries.
+PSR-3 describes a common interface for logging libraries.
 
 It is supported by an set of interfaces, that one may use in the code.
 

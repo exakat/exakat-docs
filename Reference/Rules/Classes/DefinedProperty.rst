@@ -5,7 +5,7 @@
 Defined Properties
 ++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Defined Properties: List of properties that are explicitly defined in the class, its parents or traits.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Defined Properties
 	:og:description: List of properties that are explicitly defined in the class, its parents or traits
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/DefinedProperty.html
 	:og:locale: en
-  List of properties that are explicitly defined in the class, its parents or traits.
+List of properties that are explicitly defined in the class, its parents or traits.
 
 .. code-block:: php
    

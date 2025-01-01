@@ -5,7 +5,7 @@
 Unused Protected Methods
 ++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Unused Protected Methods: The following protected methods are unused in children class.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Unused Protected Methods
 	:og:description: The following protected methods are unused in children class
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/UnusedProtectedMethods.html
 	:og:locale: en
-  The following protected methods are unused in children class. As such, they may be considered for being private.
+The following protected methods are unused in children class. As such, they may be considered for being private.
 
 Methods reported by this analysis are not used by children, yet they are protected.
 No usage of those methods were found. 

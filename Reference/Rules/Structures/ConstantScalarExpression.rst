@@ -5,7 +5,7 @@
 Constant Scalar Expressions
 +++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Constant Scalar Expressions: Define constant with the result of static expressions.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Constant Scalar Expressions
 	:og:description: Define constant with the result of static expressions
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ConstantScalarExpression.html
 	:og:locale: en
-  Define constant with the `result <https://www.php.net/result>`_ of `static <https://www.php.net/manual/en/language.oop5.static.php>`_ expressions. This means that constants may be defined with the const keyword, with the help of various operators but without any functioncalls. 
+Define constant with the `result <https://www.php.net/result>`_ of `static <https://www.php.net/manual/en/language.oop5.static.php>`_ expressions. This means that constants may be defined with the const keyword, with the help of various operators but without any functioncalls. 
 
 This feature was introduced in PHP 5.6. It also supports `array() <https://www.php.net/array>`_, and expressions in arrays.
 

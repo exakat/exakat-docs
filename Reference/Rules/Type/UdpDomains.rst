@@ -5,7 +5,7 @@
 Internet Domains
 ++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Internet Domains: List all internet domain (UDP) used.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Internet Domains
 	:og:description: List all internet domain (UDP) used
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Type/UdpDomains.html
 	:og:locale: en
-  List all internet domain (UDP) used.
+List all internet domain (UDP) used.
 
 See also `List of TCP and UDP port numbers <https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers>`_.
 

@@ -5,7 +5,7 @@
 Concat And Addition
 +++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Concat And Addition: Precedence between addition and concatenation has changed.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Concat And Addition
 	:og:description: Precedence between addition and concatenation has changed
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/ConcatAndAddition.html
 	:og:locale: en
-  Precedence between addition and concatenation has changed. In PHP 7.4, addition has precedence, and before, addition and concatenation had the same precedence.
+Precedence between addition and concatenation has changed. In PHP 7.4, addition has precedence, and before, addition and concatenation had the same precedence.
 
 From the RFC : ``Currently the precedence of '.', '+' and '-' operators are equal. Any combination of these operators are simply evaluated left-to-right``.
 

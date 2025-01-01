@@ -5,7 +5,7 @@
 PHP 8.2 New Types
 +++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		PHP 8.2 New Types: This rule reports usage of the new PHP 8.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ PHP 8.2 New Types
 	:og:description: This rule reports usage of the new PHP 8
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/Php82NewTypes.html
 	:og:locale: en
-  This rule reports usage of the new PHP 8.2 types. This is the `true` type.
+This rule reports usage of the new PHP 8.2 types. This is the `true` type.
 
 This type is not available before version 8.2.
 

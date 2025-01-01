@@ -5,7 +5,7 @@
 ext/expect
 ++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/expect: Extension Expect.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/expect
 	:og:description: Extension Expect
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extexpect.html
 	:og:locale: en
-  Extension Expect.
+Extension Expect.
 
 This extension allows to interact with processes through ``PTY``. You may consider using the ``expect://`` wrapper with the filesystem functions which provide a simpler and more intuitive interface.
 

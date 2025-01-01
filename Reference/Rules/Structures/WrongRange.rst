@@ -5,7 +5,7 @@
 Wrong Range Check
 +++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Wrong Range Check: The interval check should use && and not ||.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Wrong Range Check
 	:og:description: The interval check should use && and not ||
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/WrongRange.html
 	:og:locale: en
-  The interval check should use && and not ||.
+The interval check should use && and not ||.
 
 .. code-block:: php
    

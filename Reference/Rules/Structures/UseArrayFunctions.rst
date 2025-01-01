@@ -5,7 +5,7 @@
 Use Array Functions
 +++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Use Array Functions: There are a lot of native PHP functions for arrays.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Use Array Functions
 	:og:description: There are a lot of native PHP functions for arrays
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/UseArrayFunctions.html
 	:og:locale: en
-  There are a lot of native PHP functions for arrays. It is often faster to take advantage of them than write a loop.
+There are a lot of native PHP functions for arrays. It is often faster to take advantage of them than write a loop.
 
 * `array_push() <https://www.php.net/array_push>`_ : use `array_merge() <https://www.php.net/array_merge>`_
 * `array_slice() <https://www.php.net/array_slice>`_ : use `array_chunk() <https://www.php.net/array_chunk>`_

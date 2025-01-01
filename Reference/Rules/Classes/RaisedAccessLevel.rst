@@ -5,7 +5,7 @@
 Raised Access Level
 +++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Raised Access Level: A visibility may be lowered, but not raised.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Raised Access Level
 	:og:description: A visibility may be lowered, but not raised
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/RaisedAccessLevel.html
 	:og:locale: en
-  A visibility may be lowered, but not raised. Visibilities apply to properties, methods and class constants. 
+A visibility may be lowered, but not raised. Visibilities apply to properties, methods and class constants. 
 
 This `error <https://www.php.net/error>`_ may be detected by PHP when the classes are in the same file, and declared in the right order : then, PHP reports a compilation `error <https://www.php.net/error>`_. However, when the classes are separated in different files, as it is customary, PHP won't check this at linting time, yielding a fatal `error <https://www.php.net/error>`_ at execution time.
 

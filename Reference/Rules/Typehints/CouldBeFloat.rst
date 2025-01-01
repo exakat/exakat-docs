@@ -5,7 +5,7 @@
 Could Be Float
 ++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Could Be Float: Mark arguments, class constants, properties and return types that can be set to ``float``.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Could Be Float
 	:og:description: Mark arguments, class constants, properties and return types that can be set to ``float``
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Typehints/CouldBeFloat.html
 	:og:locale: en
-  Mark arguments, class constants, properties and return types that can be set to ``float``.
+Mark arguments, class constants, properties and return types that can be set to ``float``.
 
 .. code-block:: php
    

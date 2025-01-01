@@ -5,7 +5,7 @@
 Http Headers
 ++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Http Headers: List of HTTP headers use in the code.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Http Headers
 	:og:description: List of HTTP headers use in the code
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Type/HttpHeader.html
 	:og:locale: en
-  List of HTTP headers use in the code. 
+List of HTTP headers use in the code. 
 Those headers are mostly used with `header() <https://www.php.net/header>`_ function to send to browser.
 
 .. code-block:: php

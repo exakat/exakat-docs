@@ -5,7 +5,7 @@
 ext/pecl_http
 +++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/pecl_http: Extension HTTP.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/pecl_http
 	:og:description: Extension HTTP
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Exthttp.html
 	:og:locale: en
-  Extension HTTP.
+Extension HTTP.
 
 This HTTP extension aims to provide a convenient and powerful set of functionalities for one of PHP major applications.
 

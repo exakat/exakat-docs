@@ -5,7 +5,7 @@
 Drop Else After Return
 ++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Drop Else After Return: Avoid else clause when the then clause returns, but not the else.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Drop Else After Return
 	:og:description: Avoid else clause when the then clause returns, but not the else
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/DropElseAfterReturn.html
 	:og:locale: en
-  Avoid else clause when the then clause returns, but not the else. And vice-versa.
+Avoid else clause when the then clause returns, but not the else. And vice-versa.
 
 This way, the else block disappears, and is now the main sequence of the function. 
 

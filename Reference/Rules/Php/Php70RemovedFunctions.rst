@@ -5,7 +5,7 @@
 PHP 7.0 Removed Functions
 +++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		PHP 7.0 Removed Functions: The following PHP native functions were removed in PHP 7.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ PHP 7.0 Removed Functions
 	:og:description: The following PHP native functions were removed in PHP 7
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/Php70RemovedFunctions.html
 	:og:locale: en
-  The following PHP native functions were removed in PHP 7.0.
+The following PHP native functions were removed in PHP 7.0.
 
 * ereg()
 * ereg_replace()

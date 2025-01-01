@@ -5,7 +5,7 @@
 mcrypt_create_iv() With Default Values
 ++++++++++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		mcrypt_create_iv() With Default Values: Avoid using `mcrypt_create_iv()` default values.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ mcrypt_create_iv() With Default Values
 	:og:description: Avoid using `mcrypt_create_iv()` default values
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/McryptcreateivWithoutOption.html
 	:og:locale: en
-  Avoid using `mcrypt_create_iv()` default values.
+Avoid using `mcrypt_create_iv()` default values.
 
 ``mcrypt_create_iv()`` used to have ``MCRYPT_DEV_RANDOM`` as default values, and in PHP 5.6, it now uses ``MCRYPT_DEV_URANDOM``.
 

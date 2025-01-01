@@ -5,7 +5,7 @@
 ext/reflection
 ++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/reflection: Extension Reflection.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/reflection
 	:og:description: Extension Reflection
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extreflection.html
 	:og:locale: en
-  Extension `Reflection <https://www.php.net/reflection>`_.
+Extension `Reflection <https://www.php.net/reflection>`_.
 
 PHP comes with a complete `reflection <https://www.php.net/reflection>`_ API that adds the ability to reverse-engineer classes, interfaces, functions, methods and extensions. Additionally, the `reflection <https://www.php.net/reflection>`_ API offers ways to retrieve doc comments for functions, classes and methods.
 

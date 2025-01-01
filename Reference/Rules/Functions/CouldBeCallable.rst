@@ -5,7 +5,7 @@
 Could Be Typehinted Callable
 ++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Could Be Typehinted Callable: Those arguments may use the callable Typehint.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Could Be Typehinted Callable
 	:og:description: Those arguments may use the callable Typehint
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/CouldBeCallable.html
 	:og:locale: en
-  Those arguments may use the callable Typehint. 
+Those arguments may use the callable Typehint. 
 
 'callable' is a PHP keyword that represents callback functions. Those may be used in dynamic function call, like $function(); or as callback functions, like with `array_map() <https://www.php.net/array_map>`_;
 

@@ -5,7 +5,7 @@
 Internet Ports
 ++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Internet Ports: List of all the Internet ports mentioned in the code.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Internet Ports
 	:og:description: List of all the Internet ports mentioned in the code
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Type/Ports.html
 	:og:locale: en
-  List of all the Internet ports mentioned in the code. 
+List of all the Internet ports mentioned in the code. 
 
 Ports are recognized based on a internal database of port. They are found in Integers.
 

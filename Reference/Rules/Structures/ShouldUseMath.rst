@@ -5,7 +5,7 @@
 Should Use Math
 +++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Should Use Math: Use math operators to make the operation readable.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Should Use Math
 	:og:description: Use math operators to make the operation readable
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ShouldUseMath.html
 	:og:locale: en
-  Use math operators to make the operation readable.
+Use math operators to make the operation readable.
 
 .. code-block:: php
    

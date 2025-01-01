@@ -5,7 +5,7 @@
 Inclusions
 ++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Inclusions: List of all inclusions.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Inclusions
 	:og:description: List of all inclusions
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/IncludeUsage.html
 	:og:locale: en
-  List of all inclusions. Inclusions are made with include(), include_once(), require() and require_once().
+List of all inclusions. Inclusions are made with include(), include_once(), require() and require_once().
 
 .. code-block:: php
    

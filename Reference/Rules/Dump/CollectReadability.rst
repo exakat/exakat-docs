@@ -5,7 +5,7 @@
 Collect Readability
 +++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Collect Readability: Measure readability for methods, functions and closures, then collect them.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Collect Readability
 	:og:description: Measure readability for methods, functions and closures, then collect them
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/CollectReadability.html
 	:og:locale: en
-  Measure readability for methods, functions and closures, then collect them.
+Measure readability for methods, functions and closures, then collect them.
 Connex PHP features
 -------------------
 

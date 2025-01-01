@@ -5,7 +5,7 @@
 Could Use Promoted Properties
 +++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Could Use Promoted Properties: Promoted properties are a syntax notation where the properties are declared as arguments of the constructor.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Could Use Promoted Properties
 	:og:description: Promoted properties are a syntax notation where the properties are declared as arguments of the constructor
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/CouldUsePromotedProperties.html
 	:og:locale: en
-  Promoted properties are a syntax notation where the properties are declared as arguments of the constructor. 
+Promoted properties are a syntax notation where the properties are declared as arguments of the constructor. 
 
 They reduce PHP code at `__construct() <https://www.php.net/manual/en/language.oop5.decon.php>`_ time. This feature is available in PHP 8.0.
 

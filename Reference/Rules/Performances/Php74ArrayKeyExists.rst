@@ -5,7 +5,7 @@
 Always Use Function With array_key_exists()
 +++++++++++++++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Always Use Function With array_key_exists(): array_key_exists() has been granted a special virtual machine opcode, and is much faster.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Always Use Function With array_key_exists()
 	:og:description: array_key_exists() has been granted a special virtual machine opcode, and is much faster
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Performances/Php74ArrayKeyExists.html
 	:og:locale: en
-  `array_key_exists() <https://www.php.net/array_key_exists>`_ has been granted a special virtual machine opcode, and is much faster. This applies to PHP 7.4 and more recent. 
+`array_key_exists() <https://www.php.net/array_key_exists>`_ has been granted a special virtual machine opcode, and is much faster. This applies to PHP 7.4 and more recent. 
 
 It requires that `array_key_exists() <https://www.php.net/array_key_exists>`_ is statically resolved, either with an initial ``\``, or a ``use function`` expression. This doesn't affect the global namespace.
 This analysis is related to Php/ShouldUseFunction, and is a special case, that only concerns `array_key_exists() <https://www.php.net/array_key_exists>`_.

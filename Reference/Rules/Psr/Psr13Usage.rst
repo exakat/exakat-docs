@@ -5,7 +5,7 @@
 PSR-13 Usage
 ++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		PSR-13 Usage: PSR-13 describes a common interface for dependency injection containers.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ PSR-13 Usage
 	:og:description: PSR-13 describes a common interface for dependency injection containers
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Psr/Psr13Usage.html
 	:og:locale: en
-  PSR-13 describes a common interface for dependency injection containers.
+PSR-13 describes a common interface for dependency injection containers.
 
 It is supported by an set of interfaces, that one may use in the code.
 

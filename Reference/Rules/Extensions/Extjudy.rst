@@ -5,7 +5,7 @@
 ext/judy
 ++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/judy: The Judy extension.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/judy
 	:og:description: The Judy extension
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extjudy.html
 	:og:locale: en
-  The `Judy <https://www.php.net/Judy>`_ extension. 
+The `Judy <https://www.php.net/Judy>`_ extension. 
 
 PHP `Judy <https://www.php.net/Judy>`_ is a PECL extension for the `Judy C library <http://judy.sourceforge.net/>`_ implementing dynamic sparse arrays.
 

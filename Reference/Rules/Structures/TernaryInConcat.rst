@@ -5,7 +5,7 @@
 Ternary In Concat
 +++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Ternary In Concat: Ternary and coalesce operator have higher priority than dot '.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Ternary In Concat
 	:og:description: Ternary and coalesce operator have higher priority than dot '
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/TernaryInConcat.html
 	:og:locale: en
-  Ternary and coalesce operator have higher priority than dot '.' for concatenation. This means that : 
+Ternary and coalesce operator have higher priority than dot '.' for concatenation. This means that : 
 prints actually ``'E'``, instead of the awaited ``'B0CE'``.
 
 To be safe, always add parenthesis when using ternary operator with concatenation.

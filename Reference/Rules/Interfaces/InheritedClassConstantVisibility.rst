@@ -5,7 +5,7 @@
 Inherited Class Constant Visibility
 +++++++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Inherited Class Constant Visibility: Visibility of class constant must be public, even when overwritten.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Inherited Class Constant Visibility
 	:og:description: Visibility of class constant must be public, even when overwritten
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Interfaces/InheritedClassConstantVisibility.html
 	:og:locale: en
-  Visibility of class constant must be public, even when overwritten. 
+Visibility of class constant must be public, even when overwritten. 
 
 This was not checked until PHP 8.3, where it is now a Fatal `Error <https://www.php.net/error>`_. When the interface and the class are defined in different files, the `error <https://www.php.net/error>`_ appears at execution time.
 

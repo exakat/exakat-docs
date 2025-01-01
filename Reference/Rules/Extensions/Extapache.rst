@@ -5,7 +5,7 @@
 ext/apache
 ++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/apache: Extension Apache.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/apache
 	:og:description: Extension Apache
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extapache.html
 	:og:locale: en
-  Extension Apache.
+Extension Apache.
 
 These functions are only available when running PHP as an Apache module.
 

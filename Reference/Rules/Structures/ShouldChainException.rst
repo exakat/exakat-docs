@@ -5,7 +5,7 @@
 Should Chain Exception
 ++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Should Chain Exception: Chain exception to provide more context.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Should Chain Exception
 	:og:description: Chain exception to provide more context
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ShouldChainException.html
 	:og:locale: en
-  Chain `exception <https://www.php.net/exception>`_ to provide more context.
+Chain `exception <https://www.php.net/exception>`_ to provide more context.
 
 When catching an `exception <https://www.php.net/exception>`_ and rethrowing another one, it is recommended to chain the `exception <https://www.php.net/exception>`_ : this means providing the original `exception <https://www.php.net/exception>`_, so that the final recipient has a chance to track the origin of the problem. This doesn't change the thrown message, but provides more information.
 

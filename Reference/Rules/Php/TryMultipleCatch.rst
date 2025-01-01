@@ -5,7 +5,7 @@
 Try With Multiple Catch
 +++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Try With Multiple Catch: Try may be used with multiple catch clauses.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Try With Multiple Catch
 	:og:description: Try may be used with multiple catch clauses
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/TryMultipleCatch.html
 	:og:locale: en
-  Try may be used with multiple catch clauses.
+Try may be used with multiple catch clauses.
 
 .. code-block:: php
    

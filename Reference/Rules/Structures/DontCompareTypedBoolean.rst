@@ -5,7 +5,7 @@
 Avoid Compare Typed Boolean
 +++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Avoid Compare Typed Boolean: There is no need to compare explicitly a function call to a boolean, when the definition has a boolean return type.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Avoid Compare Typed Boolean
 	:og:description: There is no need to compare explicitly a function call to a boolean, when the definition has a boolean return type
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/DontCompareTypedBoolean.html
 	:og:locale: en
-  There is no need to compare explicitly a function call to a boolean, when the definition has a boolean return type.
+There is no need to compare explicitly a function call to a boolean, when the definition has a boolean return type.
 
 The analysis checks for equality and identity comparisons. It doesn't check for the not operator usage.
 

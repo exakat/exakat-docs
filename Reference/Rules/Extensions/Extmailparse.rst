@@ -5,7 +5,7 @@
 ext/mailparse
 +++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/mailparse: Extension mailparse.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/mailparse
 	:og:description: Extension mailparse
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extmailparse.html
 	:og:locale: en
-  Extension mailparse.
+Extension mailparse.
 
 Mailparse is an extension for parsing and working with email messages. It can deal with `RFC 822 (MIME) <http://www.faqs.org/rfcs/rfc822.html>`_ and `RFC 2045 (MIME) <http://www.faqs.org/rfcs/rfc2045.html>`_ compliant messages.
 

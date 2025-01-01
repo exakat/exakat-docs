@@ -5,7 +5,7 @@
 Const Or Define
 +++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Const Or Define: ``const`` and ``define()`` have the same functional use : create constants.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Const Or Define
 	:og:description: ``const`` and ``define()`` have the same functional use : create constants
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ConstDefineFavorite.html
 	:og:locale: en
-  ``const`` and ``define()`` have the same functional use : create constants. 
+``const`` and ``define()`` have the same functional use : create constants. 
 
 The analyzed code has less than 10% of one of them : for consistency reasons, it is recommended to make them all the same. 
 

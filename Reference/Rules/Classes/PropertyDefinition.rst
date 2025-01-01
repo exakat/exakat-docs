@@ -5,7 +5,7 @@
 Property Names
 ++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Property Names: Variables are used in property definitions, when they are located in a class.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Property Names
 	:og:description: Variables are used in property definitions, when they are located in a class
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/PropertyDefinition.html
 	:og:locale: en
-  Variables are used in property definitions, when they are located in a class.
+Variables are used in property definitions, when they are located in a class.
 
 .. code-block:: php
    

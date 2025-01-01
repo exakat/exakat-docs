@@ -5,7 +5,7 @@
 Ticks Usage
 +++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Ticks Usage: Usage of ``declare()`` with ``ticks``.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Ticks Usage
 	:og:description: Usage of ``declare()`` with ``ticks``
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/DeclareTicks.html
 	:og:locale: en
-  Usage of ``declare()`` with ``ticks``. When ticks are declared, a related handler must be registered with `register_tick_function() <https://www.php.net/register_tick_function>`_.
+Usage of ``declare()`` with ``ticks``. When ticks are declared, a related handler must be registered with `register_tick_function() <https://www.php.net/register_tick_function>`_.
 
 .. code-block:: php
    

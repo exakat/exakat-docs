@@ -5,7 +5,7 @@
 ext/weakref
 +++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/weakref: Weak References for PHP.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/weakref
 	:og:description: Weak References for PHP
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extweakref.html
 	:og:locale: en
-  Weak References for PHP.
+Weak References for PHP.
 
 Weak references provide a non-intrusive gateway to ephemeral objects. Unlike normal (strong) references, weak references do not prevent the garbage collector from freeing that object. For this reason, an object may be destroyed even though a weak reference to that object still exists. In such conditions, the weak reference seamlessly becomes invalid.
 

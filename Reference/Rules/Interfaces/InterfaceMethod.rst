@@ -5,7 +5,7 @@
 Interface Methods
 +++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Interface Methods: List the names of the methods in an interface.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Interface Methods
 	:og:description: List the names of the methods in an interface
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Interfaces/InterfaceMethod.html
 	:og:locale: en
-  List the names of the methods in an interface.
+List the names of the methods in an interface.
 
 .. code-block:: php
    

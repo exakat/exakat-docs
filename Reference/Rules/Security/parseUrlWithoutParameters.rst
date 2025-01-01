@@ -5,7 +5,7 @@
 parse_str() Warning
 +++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		parse_str() Warning: The parse_str() function parses a query string and assigns the resulting variables to the local scope.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ parse_str() Warning
 	:og:description: The parse_str() function parses a query string and assigns the resulting variables to the local scope
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Security/parseUrlWithoutParameters.html
 	:og:locale: en
-  The `parse_str() <https://www.php.net/parse_str>`_ function parses a query string and assigns the resulting variables to the local scope. This may create a unexpected number of variables, and even overwrite the existing one.
+The `parse_str() <https://www.php.net/parse_str>`_ function parses a query string and assigns the resulting variables to the local scope. This may create a unexpected number of variables, and even overwrite the existing one.
 Always use an empty variable a second parameter to `parse_str() <https://www.php.net/parse_str>`_, so as to collect the incoming values, and then, filter them in that array.
 
 .. code-block:: php

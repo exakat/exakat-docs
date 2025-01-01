@@ -5,7 +5,7 @@
 Should Use Operator
 +++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Should Use Operator: Some functions duplicate the feature of an operator.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Should Use Operator
 	:og:description: Some functions duplicate the feature of an operator
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ShouldUseOperator.html
 	:og:locale: en
-  Some functions duplicate the feature of an operator. When in doubt, it is better to use the operator. 
+Some functions duplicate the feature of an operator. When in doubt, it is better to use the operator. 
 
 Beware, some edge cases may apply. In particular, backward compatibility may prevent usage of newer features.
 

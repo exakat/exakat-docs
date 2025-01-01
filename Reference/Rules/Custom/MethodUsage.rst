@@ -5,7 +5,7 @@
 Method Usage
 ++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Method Usage: This rule reports method usages.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Method Usage
 	:og:description: This rule reports method usages
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Custom/MethodUsage.html
 	:og:locale: en
-  This rule reports method usages. The methods that are monitored are set with the parameter ``searchFor``.
+This rule reports method usages. The methods that are monitored are set with the parameter ``searchFor``.
 
 .. code-block:: php
    

@@ -5,7 +5,7 @@
 Could Use array_fill_keys
 +++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Could Use array_fill_keys: array_fill_keys() is a native PHP function that creates an array from keys.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Could Use array_fill_keys
 	:og:description: array_fill_keys() is a native PHP function that creates an array from keys
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/CouldUseArrayFillKeys.html
 	:og:locale: en
-  `array_fill_keys() <https://www.php.net/array_fill_keys>`_ is a native PHP function that creates an array from keys. It gets the list of keys, and a constant value to assign to each keys.
+`array_fill_keys() <https://www.php.net/array_fill_keys>`_ is a native PHP function that creates an array from keys. It gets the list of keys, and a constant value to assign to each keys.
 
 This is twice faster than doing the same with a loop.
 

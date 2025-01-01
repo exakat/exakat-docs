@@ -5,7 +5,7 @@
 Too Much Indented
 +++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Too Much Indented: Reports methods that are using more than one level of indentation on average.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Too Much Indented
 	:og:description: Reports methods that are using more than one level of indentation on average
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/TooMuchIndented.html
 	:og:locale: en
-  Reports methods that are using more than one level of indentation on average. 
+Reports methods that are using more than one level of indentation on average. 
 
 Indentations levels are counted for each for, foreach, if...then, while, do..while, try..catch..finally structure met. Compulsory expressions, such as conditions, are not counted in the total. Levels of indentation start at 0 (no indentation needed)
 

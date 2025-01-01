@@ -5,7 +5,7 @@
 Empty Namespace
 +++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Empty Namespace: Declaring a namespace in the code and not using it for structure declarations or global instructions is useless.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Empty Namespace
 	:og:description: Declaring a namespace in the code and not using it for structure declarations or global instructions is useless
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Namespaces/EmptyNamespace.html
 	:og:locale: en
-  Declaring a namespace in the code and not using it for structure declarations or global instructions is useless.
+Declaring a namespace in the code and not using it for structure declarations or global instructions is useless.
 
 Using simple style : 
 Using bracket-style syntax :

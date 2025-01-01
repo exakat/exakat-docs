@@ -5,7 +5,7 @@
 Test Class
 ++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Test Class: Those are test classes, based on popular UT frameworks.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Test Class
 	:og:description: Those are test classes, based on popular UT frameworks
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/TestClass.html
 	:og:locale: en
-  Those are test classes, based on popular UT frameworks.
+Those are test classes, based on popular UT frameworks.
 
 Currently, the following frameworks are detected, based on the classes that are mentionned : 
 

@@ -5,7 +5,7 @@
 Can't Overwrite Final Method
 ++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Can't Overwrite Final Method: A final method is a method that cannot be overwritten in a child class.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Can't Overwrite Final Method
 	:og:description: A final method is a method that cannot be overwritten in a child class
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/CantOverwriteFinalMethod.html
 	:og:locale: en
-  A final method is a method that cannot be overwritten in a child class. This means that no class below the current class may define a method with the same name.
+A final method is a method that cannot be overwritten in a child class. This means that no class below the current class may define a method with the same name.
 
 .. code-block:: php
    

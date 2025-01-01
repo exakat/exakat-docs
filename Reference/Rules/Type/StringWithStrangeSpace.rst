@@ -5,7 +5,7 @@
 Strings With Strange Space
 ++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Strings With Strange Space: An invisible space may be mistaken for a normal space.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Strings With Strange Space
 	:og:description: An invisible space may be mistaken for a normal space
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Type/StringWithStrangeSpace.html
 	:og:locale: en
-  An invisible space may be mistaken for a normal space. 
+An invisible space may be mistaken for a normal space. 
 
 However, PHP does straight comparisons, and may fail at recognizing. This analysis reports when it finds such strange spaces inside strings.
 

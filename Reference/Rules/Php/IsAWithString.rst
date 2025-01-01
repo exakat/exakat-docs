@@ -5,7 +5,7 @@
 Is_A() With String
 ++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Is_A() With String: When using is_a() with a string as first argument, the third argument is compulsory.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Is_A() With String
 	:og:description: When using is_a() with a string as first argument, the third argument is compulsory
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/IsAWithString.html
 	:og:locale: en
-  When using `is_a() <https://www.php.net/is_a>`_ with a string as first argument, the third argument is compulsory. The third argument is ``$allow_string``, and is necessary to work on strings.
+When using `is_a() <https://www.php.net/is_a>`_ with a string as first argument, the third argument is compulsory. The third argument is ``$allow_string``, and is necessary to work on strings.
 
 .. code-block:: php
    

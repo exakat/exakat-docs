@@ -5,7 +5,7 @@
 Empty Function
 ++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Empty Function: Function or method whose body is empty.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Empty Function
 	:og:description: Function or method whose body is empty
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/EmptyFunction.html
 	:og:locale: en
-  Function or method whose body is empty. 
+Function or method whose body is empty. 
 
 Such functions or methods are rarely useful. As a bare minimum, the function should return some useful value, even if constant; it may also throw an `exception <https://www.php.net/exception>`_, trigger an `error <https://www.php.net/error>`_ or simply `die <https://www.php.net/die>`_.
 

@@ -5,7 +5,7 @@
 Static Variable In Namespace
 ++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Static Variable In Namespace: Static variables may be declared outside a function scope, but it has no usage.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Static Variable In Namespace
 	:og:description: Static variables may be declared outside a function scope, but it has no usage
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Variables/StaticVariableInNamespace.html
 	:og:locale: en
-  `Static <https://www.php.net/manual/en/language.oop5.static.php>`_ variables may be declared outside a function scope, but it has no usage. `Static <https://www.php.net/manual/en/language.oop5.static.php>`_ variables are persistent between function calls, and there is not such thing as namespace call (including an 'include' call).
+`Static <https://www.php.net/manual/en/language.oop5.static.php>`_ variables may be declared outside a function scope, but it has no usage. `Static <https://www.php.net/manual/en/language.oop5.static.php>`_ variables are persistent between function calls, and there is not such thing as namespace call (including an 'include' call).
 
 .. code-block:: php
    

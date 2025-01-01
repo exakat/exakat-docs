@@ -5,7 +5,7 @@
 Multiple Definition Of The Same Argument
 ++++++++++++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Multiple Definition Of The Same Argument: A method's signature is holding twice (or more) the same argument.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Multiple Definition Of The Same Argument
 	:og:description: A method's signature is holding twice (or more) the same argument
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/MultipleSameArguments.html
 	:og:locale: en
-  A method's signature is holding twice (or more) the same argument. For example, function x ($a, $a) { `... <https://www.php.net/manual/en/functions.arguments.php#functions.variable-arg-list>`_ }. 
+A method's signature is holding twice (or more) the same argument. For example, function x ($a, $a) { `... <https://www.php.net/manual/en/functions.arguments.php#functions.variable-arg-list>`_ }. 
 
 This is accepted as is by PHP 5, and the last parameter's value will be assigned to the variable. PHP 7.0 and more recent has dropped this feature, and reports a fatal `error <https://www.php.net/error>`_ when linting the code.
 However, this is not common programming practise : all arguments should be named differently.

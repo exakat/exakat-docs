@@ -5,7 +5,7 @@
 Method Could Be Private Method
 ++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Method Could Be Private Method: The following methods are never used outside their class of definition.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Method Could Be Private Method
 	:og:description: The following methods are never used outside their class of definition
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/CouldBePrivateMethod.html
 	:og:locale: en
-  The following methods are never used outside their class of definition. Given the analyzed code, they could be set as private. 
+The following methods are never used outside their class of definition. Given the analyzed code, they could be set as private. 
 Note that dynamic properties (such as $x->$y) are not taken into account.
 
 .. code-block:: php

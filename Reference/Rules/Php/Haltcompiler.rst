@@ -5,7 +5,7 @@
 __halt_compiler
 +++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		__halt_compiler: __halt_compiler() usage.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ __halt_compiler
 	:og:description: __halt_compiler() usage
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/Haltcompiler.html
 	:og:locale: en
-  __halt_compiler() usage.
+__halt_compiler() usage.
 
 .. code-block:: php
    

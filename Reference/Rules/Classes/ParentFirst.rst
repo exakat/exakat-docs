@@ -5,7 +5,7 @@
 Parent First
 ++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Parent First: When calling parent constructor, always put it first in the ``__construct`` method.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Parent First
 	:og:description: When calling parent constructor, always put it first in the ``__construct`` method
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/ParentFirst.html
 	:og:locale: en
-  When calling `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ constructor, always put it first in the ``__construct`` method. 
+When calling `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ constructor, always put it first in the ``__construct`` method. 
 
 It ensures the `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ is correctly build before the child start using values. 
 This analysis doesn't apply to Exceptions.

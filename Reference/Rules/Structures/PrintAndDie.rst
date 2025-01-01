@@ -5,7 +5,7 @@
 Print And Die
 +++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Print And Die: Die() also prints.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Print And Die
 	:og:description: Die() also prints
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/PrintAndDie.html
 	:og:locale: en
-  `Die() <https://www.php.net/die>`_ also prints. 
+`Die() <https://www.php.net/die>`_ also prints. 
 
 When stopping a script with `die() <https://www.php.net/die>`_, it is possible to provide a message as first argument, that will be displayed at execution. There is no need to make a specific call to print or echo.
 

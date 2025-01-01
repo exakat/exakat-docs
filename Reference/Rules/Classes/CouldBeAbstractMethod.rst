@@ -5,7 +5,7 @@
 Could Be Abstract Method
 ++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Could Be Abstract Method: A method can be made abstract, when all the class's children implement it.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Could Be Abstract Method
 	:og:description: A method can be made abstract, when all the class's children implement it
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/CouldBeAbstractMethod.html
 	:og:locale: en
-  A method can be made abstract, when all the class's children implement it. 
+A method can be made abstract, when all the class's children implement it. 
 
 Since the method will also loose its body, it should not be refered in any calls.
 

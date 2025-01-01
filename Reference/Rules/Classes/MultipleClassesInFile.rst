@@ -5,7 +5,7 @@
 Multiple Classes In One File
 ++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Multiple Classes In One File: It is regarded as a bad practice to store several classes in the same file.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Multiple Classes In One File
 	:og:description: It is regarded as a bad practice to store several classes in the same file
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/MultipleClassesInFile.html
 	:og:locale: en
-  It is regarded as a bad practice to store several classes in the same file. This is usually done to make life of __autoload() easier. 
+It is regarded as a bad practice to store several classes in the same file. This is usually done to make life of __autoload() easier. 
 
 It is often unexpected to find class ``foo`` in the ``bar.php`` file. This is also the case for interfaces and traits.
 

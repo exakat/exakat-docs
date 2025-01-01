@@ -5,7 +5,7 @@
 Useless Type Check
 ++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Useless Type Check: With the type system, checking the type of arguments is handled by PHP.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Useless Type Check
 	:og:description: With the type system, checking the type of arguments is handled by PHP
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/UselessTypeCheck.html
 	:og:locale: en
-  With the type system, checking the type of arguments is handled by PHP.
+With the type system, checking the type of arguments is handled by PHP.
 
 In particular, a typed argument can't be null, unless it is explicitly nullable, or has a ``null`` value as default.
 

@@ -5,7 +5,7 @@
 Too Long A Block
 ++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Too Long A Block: The loop is operating on a block that is too long.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Too Long A Block
 	:og:description: The loop is operating on a block that is too long
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/LongBlock.html
 	:og:locale: en
-  The loop is operating on a block that is too long. 
+The loop is operating on a block that is too long. 
 
 This analysis is applied to loops (for, foreach, while, do..while) and if/then/else/elseif structures.
 

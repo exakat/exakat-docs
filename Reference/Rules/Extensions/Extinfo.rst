@@ -5,7 +5,7 @@
 ext/info
 ++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/info: PHP Options and Information.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/info
 	:og:description: PHP Options and Information
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extinfo.html
 	:og:locale: en
-  PHP Options and Information.
+PHP Options and Information.
 
 These functions enable you to get a lot of information about PHP itself, e.g. runtime configuration, loaded extensions, version and much more.
 

@@ -5,7 +5,7 @@
 Uses Environment
 ++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Uses Environment: This rule spots usage of ``$_ENV``, ``getenv()`` and ``putenv()`` functions: they fetch data from the environment variables.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Uses Environment
 	:og:description: This rule spots usage of ``$_ENV``, ``getenv()`` and ``putenv()`` functions: they fetch data from the environment variables
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/UsesEnv.html
 	:og:locale: en
-  This rule spots usage of ``$_ENV``, ``getenv()`` and ``putenv()`` functions: they fetch data from the environment variables.
+This rule spots usage of ``$_ENV``, ``getenv()`` and ``putenv()`` functions: they fetch data from the environment variables.
 
 .. code-block:: php
    

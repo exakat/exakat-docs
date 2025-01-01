@@ -5,7 +5,7 @@
 Possible Missing Subpattern
 +++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Possible Missing Subpattern: When capturing subpatterns are the last ones in a regex, PHP doesn't fill their spot in the resulting array.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Possible Missing Subpattern
 	:og:description: When capturing subpatterns are the last ones in a regex, PHP doesn't fill their spot in the resulting array
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/MissingSubpattern.html
 	:og:locale: en
-  When capturing subpatterns are the last ones in a regex, PHP doesn't fill their spot in the resulting array. This leads to a possible missing index in the `result <https://www.php.net/result>`_ array.
+When capturing subpatterns are the last ones in a regex, PHP doesn't fill their spot in the resulting array. This leads to a possible missing index in the `result <https://www.php.net/result>`_ array.
 The same applies to `preg_replace() <https://www.php.net/preg_replace>`_ : the pattern may match the string, but no value is available is the corresponding sub-pattern.
 
 In PHP 7.4, a new option was added : ``PREG_UNMATCHED_AS_NULL``, which always provides a value for the subpatterns.

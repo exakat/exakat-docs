@@ -5,7 +5,7 @@
 ext/iconv
 +++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/iconv: Extension ext/iconv.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/iconv
 	:og:description: Extension ext/iconv
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Exticonv.html
 	:og:locale: en
-  Extension ext/iconv.
+Extension ext/iconv.
 
  With this module, you can turn a string represented by a local character set into the one represented by another character set, which may be the Unicode character set.
 

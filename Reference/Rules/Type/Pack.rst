@@ -5,7 +5,7 @@
 Pack Format Inventory
 +++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Pack Format Inventory: All format used in the code with pack() and unpack().
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Pack Format Inventory
 	:og:description: All format used in the code with pack() and unpack()
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Type/Pack.html
 	:og:locale: en
-  All format used in the code with `pack() <https://www.php.net/pack>`_ and `unpack() <https://www.php.net/unpack>`_.
+All format used in the code with `pack() <https://www.php.net/pack>`_ and `unpack() <https://www.php.net/unpack>`_.
 
 .. code-block:: php
    

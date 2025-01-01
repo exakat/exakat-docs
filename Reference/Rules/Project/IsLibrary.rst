@@ -5,7 +5,7 @@
 Is Library
 ++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Is Library: Is this project a library (it must be used in a larger project) or a standalone code.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Is Library
 	:og:description: Is this project a library (it must be used in a larger project) or a standalone code
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Project/IsLibrary.html
 	:og:locale: en
-  Is this project a library (it must be used in a larger project) or a standalone code.
+Is this project a library (it must be used in a larger project) or a standalone code.
 
 Specs
 _____

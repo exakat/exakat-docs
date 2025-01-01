@@ -5,7 +5,7 @@
 Implode One Arg
 +++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Implode One Arg: implode() may be called with one arg.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Implode One Arg
 	:og:description: implode() may be called with one arg
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/ImplodeOneArg.html
 	:og:locale: en
-  `implode() <https://www.php.net/implode>`_ may be called with one arg. It is recommended to avoid it. 
+`implode() <https://www.php.net/implode>`_ may be called with one arg. It is recommended to avoid it. 
 
 Using two arguments makes it less surprising to new comers, and consistent with `explode() <https://www.php.net/explode>`_ syntax.
 

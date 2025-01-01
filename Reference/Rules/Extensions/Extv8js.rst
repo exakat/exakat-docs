@@ -5,7 +5,7 @@
 ext/v8js
 ++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/v8js: Extension v8js.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/v8js
 	:og:description: Extension v8js
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extv8js.html
 	:og:locale: en
-  Extension v8js.
+Extension v8js.
 
 This extension embeds the `V8 Javascript `Engine <https://www.php.net/engine>`_ <https://bugs.chromium.org/p/v8/issues/list>`_ into PHP.
 

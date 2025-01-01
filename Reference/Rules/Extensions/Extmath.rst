@@ -5,7 +5,7 @@
 ext/math
 ++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/math: Core functions that provides math standard functions.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/math
 	:og:description: Core functions that provides math standard functions
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extmath.html
 	:og:locale: en
-  Core functions that provides math standard functions.
+Core functions that provides math standard functions.
 
 This is not a real extension : it is a documentation section, that helps sorting the functions.
 

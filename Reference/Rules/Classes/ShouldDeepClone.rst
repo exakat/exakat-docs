@@ -5,7 +5,7 @@
 Should Deep Clone
 +++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Should Deep Clone: By default, PHP makes a shallow clone.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Should Deep Clone
 	:og:description: By default, PHP makes a shallow clone
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/ShouldDeepClone.html
 	:og:locale: en
-  By default, PHP makes a shallow clone. It only clone the scalars, and keep the reference to any object already referenced. This means that the cloned object and its original share any object they hold as property.
+By default, PHP makes a shallow clone. It only clone the scalars, and keep the reference to any object already referenced. This means that the cloned object and its original share any object they hold as property.
 
 This is where the magic method `__clone() <https://www.php.net/manual/en/language.oop5.magic.php>`_ comes into play. It is called, when defined, at clone time, so that the cloned object may clone all the needed sub-objects.
 

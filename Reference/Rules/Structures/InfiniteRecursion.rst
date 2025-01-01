@@ -5,7 +5,7 @@
 Infinite Recursion
 ++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Infinite Recursion: A method is calling itself, with unchanged arguments.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Infinite Recursion
 	:og:description: A method is calling itself, with unchanged arguments
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/InfiniteRecursion.html
 	:og:locale: en
-  A method is calling itself, with unchanged arguments. This might repeat indefinitely.
+A method is calling itself, with unchanged arguments. This might repeat indefinitely.
 
 This rules applies to recursive functions without any condition. This also applies to function which inject the incoming arguments, without modifications.
 

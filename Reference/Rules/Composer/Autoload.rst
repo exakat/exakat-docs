@@ -5,7 +5,7 @@
 Composer's autoload
 +++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Composer's autoload: Report if this code is using the autoload from Composer.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Composer's autoload
 	:og:description: Report if this code is using the autoload from Composer
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Composer/Autoload.html
 	:og:locale: en
-  Report if this code is using the autoload from Composer.
+Report if this code is using the autoload from Composer.
 Connex PHP features
 -------------------
 

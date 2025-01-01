@@ -5,7 +5,7 @@
 Useless Null Coalesce
 +++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Useless Null Coalesce: When the type system ensure the condition is never null, the operator becomes useless.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Useless Null Coalesce
 	:og:description: When the type system ensure the condition is never null, the operator becomes useless
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/UselessNullCoalesce.html
 	:og:locale: en
-  When the type system ensure the condition is never null, the operator becomes useless. 
+When the type system ensure the condition is never null, the operator becomes useless. 
 
 This is particularly true for properties (`static <https://www.php.net/manual/en/language.oop5.static.php>`_ or not) and returntype of methods and functions. And, to a lesser extend, to variables and parameters.
 

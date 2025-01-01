@@ -5,7 +5,7 @@
 Instantiating Abstract Class
 ++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Instantiating Abstract Class: PHP cannot instantiate an abstract class.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Instantiating Abstract Class
 	:og:description: PHP cannot instantiate an abstract class
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/InstantiatingAbstractClass.html
 	:og:locale: en
-  PHP cannot instantiate an abstract class. 
+PHP cannot instantiate an abstract class. 
 
 The classes are actually abstract classes, and should be derived into a concrete class to be instantiated.
 

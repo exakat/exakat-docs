@@ -5,7 +5,7 @@
 Simplify Regex
 ++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Simplify Regex: Avoid using regex when the searched string or the replacement are simple enough.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Simplify Regex
 	:og:description: Avoid using regex when the searched string or the replacement are simple enough
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/SimplePreg.html
 	:og:locale: en
-  Avoid using regex when the searched string or the replacement are simple enough.
+Avoid using regex when the searched string or the replacement are simple enough.
 
 PRCE regex are a powerful way to search inside strings, but they also come at the price of performance. When the query is simple enough, try using `strpos() <https://www.php.net/strpos>`_ or `stripos() <https://www.php.net/stripos>`_ instead.
 

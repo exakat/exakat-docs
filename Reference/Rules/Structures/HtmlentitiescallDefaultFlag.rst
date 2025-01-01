@@ -5,7 +5,7 @@
 Htmlentities Using Default Flag
 +++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Htmlentities Using Default Flag: htmlspecialchars(), htmlentities(), htmlspecialchars_decode(), html_entity_decode() and get_html_translation_table(), are used to prevent injecting special characters in HTML code.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Htmlentities Using Default Flag
 	:og:description: htmlspecialchars(), htmlentities(), htmlspecialchars_decode(), html_entity_decode() and get_html_translation_table(), are used to prevent injecting special characters in HTML code
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/HtmlentitiescallDefaultFlag.html
 	:og:locale: en
-  `htmlspecialchars() <https://www.php.net/htmlspecialchars>`_, `htmlentities() <https://www.php.net/htmlentities>`_, `htmlspecialchars_decode() <https://www.php.net/htmlspecialchars_decode>`_, `html_entity_decode() <https://www.php.net/html_entity_decode>`_ and `get_html_translation_table() <https://www.php.net/get_html_translation_table>`_, are used to prevent injecting special characters in HTML code. As a bare minimum, they take a string and encode it for HTML.
+`htmlspecialchars() <https://www.php.net/htmlspecialchars>`_, `htmlentities() <https://www.php.net/htmlentities>`_, `htmlspecialchars_decode() <https://www.php.net/htmlspecialchars_decode>`_, `html_entity_decode() <https://www.php.net/html_entity_decode>`_ and `get_html_translation_table() <https://www.php.net/get_html_translation_table>`_, are used to prevent injecting special characters in HTML code. As a bare minimum, they take a string and encode it for HTML.
 
 The second argument of the functions is the type of protection. The protection may apply to quotes or not, to HTML 4 or 5, etc. It is highly recommended to set it explicitly.
 

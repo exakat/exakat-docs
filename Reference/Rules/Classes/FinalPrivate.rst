@@ -5,7 +5,7 @@
 Final Private Methods
 +++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Final Private Methods: PHP's private methods cannot be overwritten, as they are dedicated to the current class.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Final Private Methods
 	:og:description: PHP's private methods cannot be overwritten, as they are dedicated to the current class
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/FinalPrivate.html
 	:og:locale: en
-  PHP's private methods cannot be overwritten, as they are dedicated to the current class. That way, the ``final`` keyword is useless. 
+PHP's private methods cannot be overwritten, as they are dedicated to the current class. That way, the ``final`` keyword is useless. 
 
 PHP 8.0 warns when it finds such a method.
 

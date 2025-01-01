@@ -5,7 +5,7 @@
 ext/uuid
 ++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/uuid: Extension ``UUID``.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/uuid
 	:og:description: Extension ``UUID``
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extuuid.html
 	:og:locale: en
-  Extension ``UUID``. A universally unique identifier (UUID) is a 128-bit number used to identify information in computer systems.
+Extension ``UUID``. A universally unique identifier (UUID) is a 128-bit number used to identify information in computer systems.
 
 An interface to the libuuid system library. The libuuid library is used to generate unique identifiers for objects that may be accessible beyond the local system. The Linux implementation was created to uniquely identify ext2 filesystems created by a machine. This library generates UUIDs compatible with those created by the Open Software Foundation (OSF) Distributed Computing Environment (DCE) utility uuidgen.
 

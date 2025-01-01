@@ -5,7 +5,7 @@
 PHP Variables
 +++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		PHP Variables: This is the list of PHP predefined variables that are used in the application.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ PHP Variables
 	:og:description: This is the list of PHP predefined variables that are used in the application
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Variables/VariablePhp.html
 	:og:locale: en
-  This is the list of PHP predefined variables that are used in the application. 
+This is the list of PHP predefined variables that are used in the application. 
 
 The web variables (``$_GET``, ``$_COOKIE``, ``$_FILES``) are quite commonly used, though sometimes replaced by some special accessors. Others are rarely used. 
 

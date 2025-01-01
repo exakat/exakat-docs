@@ -5,7 +5,7 @@
 Single Use Variables
 ++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Single Use Variables: This is the list of variables that are written, then read, and only used once.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Single Use Variables
 	:og:description: This is the list of variables that are written, then read, and only used once
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Variables/UniqueUsage.html
 	:og:locale: en
-  This is the list of variables that are written, then read, and only used once.
+This is the list of variables that are written, then read, and only used once.
 
 Single-use variables may be trimmed down, and the initial expression may be used instead.
 

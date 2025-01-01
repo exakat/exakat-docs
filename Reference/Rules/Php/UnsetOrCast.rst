@@ -5,7 +5,7 @@
 Unset() Or (unset)
 ++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Unset() Or (unset): Unset() and (unset) have the same functional use.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Unset() Or (unset)
 	:og:description: Unset() and (unset) have the same functional use
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/UnsetOrCast.html
 	:og:locale: en
-  Unset() and (unset) have the same functional use. 
+Unset() and (unset) have the same functional use. 
 
 The analyzed code has less than 10% of one of them : for consistency reasons, it is recommended to make them all the same. 
 

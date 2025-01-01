@@ -5,7 +5,7 @@
 Serialize Magic Method
 ++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Serialize Magic Method: Classes that defines __serialize() and __unserialize() are using Serialize Magic.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Serialize Magic Method
 	:og:description: Classes that defines __serialize() and __unserialize() are using Serialize Magic
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/SerializeMagic.html
 	:og:locale: en
-  Classes that defines __serialize() and __unserialize() are using Serialize Magic.
+Classes that defines __serialize() and __unserialize() are using Serialize Magic.
 
 Serialize magic methods were introduced in PHP 7.4, and are not effective before.
 

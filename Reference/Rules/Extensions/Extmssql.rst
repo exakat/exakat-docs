@@ -5,7 +5,7 @@
 ext/mssql
 +++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/mssql: Extension MSSQL, Microsoft SQL Server.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/mssql
 	:og:description: Extension MSSQL, Microsoft SQL Server
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extmssql.html
 	:og:locale: en
-  Extension MSSQL, Microsoft SQL Server.
+Extension MSSQL, Microsoft SQL Server.
 
 These functions allow you to access MS SQL Server database.
 

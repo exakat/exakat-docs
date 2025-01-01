@@ -5,7 +5,7 @@
 ext/bzip2
 +++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/bzip2: Extension ext/bzip2.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/bzip2
 	:og:description: Extension ext/bzip2
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extbzip2.html
 	:og:locale: en
-  Extension ext/bzip2.
+Extension ext/bzip2.
 
 Bzip2 Functions for PHP.
 

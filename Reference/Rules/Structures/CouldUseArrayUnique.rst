@@ -5,7 +5,7 @@
 Could Use array_unique
 ++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Could Use array_unique: Use array_unique() to collect unique elements from an array.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Could Use array_unique
 	:og:description: Use array_unique() to collect unique elements from an array
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/CouldUseArrayUnique.html
 	:og:locale: en
-  Use `array_unique() <https://www.php.net/array_unique>`_ to collect unique elements from an array.
+Use `array_unique() <https://www.php.net/array_unique>`_ to collect unique elements from an array.
 
 Always try to use native PHP functions, instead of rebuilding them with custom PHP code.
 

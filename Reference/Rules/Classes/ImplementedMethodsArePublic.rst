@@ -5,7 +5,7 @@
 Implemented Methods Must Be Public
 ++++++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Implemented Methods Must Be Public: Class methods that are defined in an interface must be public.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Implemented Methods Must Be Public
 	:og:description: Class methods that are defined in an interface must be public
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/ImplementedMethodsArePublic.html
 	:og:locale: en
-  Class methods that are defined in an interface must be public. They cannot be either private, nor protected.
+Class methods that are defined in an interface must be public. They cannot be either private, nor protected.
 This `error <https://www.php.net/error>`_ is not reported by lint, and is reported at execution time.
 
 .. code-block:: php

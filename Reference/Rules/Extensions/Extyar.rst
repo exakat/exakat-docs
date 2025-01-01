@@ -5,7 +5,7 @@
 Extensions yar
 ++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Extensions yar: yar : Yet Another RPC framework.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Extensions yar
 	:og:description: yar : Yet Another RPC framework
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extyar.html
 	:og:locale: en
-  yar : Yet Another RPC framework.
+yar : Yet Another RPC framework.
 
 .. code-block:: php
    

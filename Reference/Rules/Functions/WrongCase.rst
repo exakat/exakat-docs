@@ -5,7 +5,7 @@
 Wrong Function Name Case
 ++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Wrong Function Name Case: The spotted functions are used with a different case than their definition.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Wrong Function Name Case
 	:og:description: The spotted functions are used with a different case than their definition
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/WrongCase.html
 	:og:locale: en
-  The spotted functions are used with a different case than their definition. While PHP accepts this, it makes the code harder to read. 
+The spotted functions are used with a different case than their definition. While PHP accepts this, it makes the code harder to read. 
 
 It may also be a violation of coding conventions.
 

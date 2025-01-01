@@ -5,7 +5,7 @@
 Could Type With Boolean
 +++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Could Type With Boolean: That argument, property or method may be typed with ``bool``.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Could Type With Boolean
 	:og:description: That argument, property or method may be typed with ``bool``
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/CouldTypeWithBool.html
 	:og:locale: en
-  That argument, property or method may be typed with ``bool``. Based on usage, it was determined that the only type possible is a boolean.
+That argument, property or method may be typed with ``bool``. Based on usage, it was determined that the only type possible is a boolean.
 
 .. code-block:: php
    

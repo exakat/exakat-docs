@@ -5,7 +5,7 @@
 Method Is Not For Fluent Interface
 ++++++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Method Is Not For Fluent Interface: Mark a method when it contains at least one return that doesn't return $this.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Method Is Not For Fluent Interface
 	:og:description: Mark a method when it contains at least one return that doesn't return $this
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/HasNotFluentInterface.html
 	:og:locale: en
-  Mark a method when it contains at least one return that doesn't return `$this <https://www.php.net/manual/en/language.oop5.basic.php>`_. Such method cannot be used for fluent interface, which always require the current object to be returned. 
+Mark a method when it contains at least one return that doesn't return `$this <https://www.php.net/manual/en/language.oop5.basic.php>`_. Such method cannot be used for fluent interface, which always require the current object to be returned. 
 
 Null is not accepted here: it would `break <https://www.php.net/manual/en/control-structures.break.php>`_ the execution of the method call chains if it was returned. 
 

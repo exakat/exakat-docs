@@ -5,7 +5,7 @@
 Could Use __DIR__
 +++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Could Use __DIR__: Use __DIR__ constant to access the current file's parent directory.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Could Use __DIR__
 	:og:description: Use __DIR__ constant to access the current file's parent directory
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/CouldUseDir.html
 	:og:locale: en
-  Use `__DIR__ <https://www.php.net/manual/en/language.constants.predefined.php>`_ constant to access the current file's `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ `directory <https://www.php.net/`directory <https://www.php.net/directory>`_>`_. 
+Use `__DIR__ <https://www.php.net/manual/en/language.constants.predefined.php>`_ constant to access the current file's `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ `directory <https://www.php.net/`directory <https://www.php.net/directory>`_>`_. 
 
 Avoid using `dirname() <https://www.php.net/dirname>`_ on `__FILE__ <https://www.php.net/manual/en/language.constants.predefined.php>`_.
 `__DIR__ <https://www.php.net/manual/en/language.constants.predefined.php>`_ has been introduced in PHP 5.3.0.

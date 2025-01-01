@@ -5,7 +5,7 @@
 Closures Glossary
 +++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Closures Glossary: List of all the closures in the code.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Closures Glossary
 	:og:description: List of all the closures in the code
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/Closures.html
 	:og:locale: en
-  List of all the closures in the code.
+List of all the closures in the code.
 
 .. code-block:: php
    

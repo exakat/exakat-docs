@@ -5,7 +5,7 @@
 Signature Trailing Comma
 ++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Signature Trailing Comma: Trailing comma in method signature.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Signature Trailing Comma
 	:og:description: Trailing comma in method signature
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/SignatureTrailingComma.html
 	:og:locale: en
-  Trailing comma in method signature. This feature was added in PHP 8.0. 
+Trailing comma in method signature. This feature was added in PHP 8.0. 
 
 Allowing the trailing comma makes it possible to reduce the size of VCS's diff, when adding , removing a parameter.
 

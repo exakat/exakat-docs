@@ -5,7 +5,7 @@
 Handle Arrays With Callback
 +++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Handle Arrays With Callback: This rule marks method and function calls that accepts array callbacks as argument.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Handle Arrays With Callback
 	:og:description: This rule marks method and function calls that accepts array callbacks as argument
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Arrays/WithCallback.html
 	:og:locale: en
-  This rule marks method and function calls that accepts array callbacks as argument. 
+This rule marks method and function calls that accepts array callbacks as argument. 
 
 It marks the method call, and not the argument.
 

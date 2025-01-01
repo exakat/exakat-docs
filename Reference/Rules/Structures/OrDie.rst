@@ -5,7 +5,7 @@
 Or Die
 ++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Or Die: Classic old style failed error management.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Or Die
 	:og:description: Classic old style failed error management
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/OrDie.html
 	:og:locale: en
-  Classic old style failed `error <https://www.php.net/error>`_ management. 
+Classic old style failed `error <https://www.php.net/error>`_ management. 
 
 
 

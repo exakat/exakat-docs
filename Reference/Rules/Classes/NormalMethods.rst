@@ -5,7 +5,7 @@
 Normal Methods
 ++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Normal Methods: Spot normal Methods.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Normal Methods
 	:og:description: Spot normal Methods
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/NormalMethods.html
 	:og:locale: en
-  Spot normal Methods.
+Spot normal Methods.
 
 .. code-block:: php
    

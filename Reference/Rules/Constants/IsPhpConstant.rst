@@ -5,7 +5,7 @@
 Is PHP Constant
 +++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Is PHP Constant: Mark a constant if it is a PHP constant.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Is PHP Constant
 	:og:description: Mark a constant if it is a PHP constant
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Constants/IsPhpConstant.html
 	:og:locale: en
-  Mark a constant if it is a PHP constant.
+Mark a constant if it is a PHP constant.
 
 .. code-block:: php
    

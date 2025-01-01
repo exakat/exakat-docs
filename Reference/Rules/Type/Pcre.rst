@@ -5,7 +5,7 @@
 Perl Regex
 ++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Perl Regex: List of all the Perl Regex (PCRE-style).
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Perl Regex
 	:og:description: List of all the Perl Regex (PCRE-style)
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Type/Pcre.html
 	:og:locale: en
-  List of all the Perl Regex (PCRE-style).
+List of all the Perl Regex (PCRE-style).
 Regex are spotted when they are literals : dynamically built regex, (including /$x/) are not reported.
 
 .. code-block:: php

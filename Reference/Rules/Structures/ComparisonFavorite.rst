@@ -5,7 +5,7 @@
 Strict Or Relaxed Comparison
 ++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Strict Or Relaxed Comparison: PHP has two comparison styles : strict and relaxed.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Strict Or Relaxed Comparison
 	:og:description: PHP has two comparison styles : strict and relaxed
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ComparisonFavorite.html
 	:og:locale: en
-  PHP has two comparison styles : strict and relaxed. 
+PHP has two comparison styles : strict and relaxed. 
 
 The analyzed code has less than 10% of one of them : for consistency reasons, it is recommended to make them all the same. 
 

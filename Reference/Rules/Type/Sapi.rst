@@ -5,7 +5,7 @@
 PHP Sapi
 ++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		PHP Sapi: List of PHP SAPI mentioned in the code.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ PHP Sapi
 	:og:description: List of PHP SAPI mentioned in the code
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Type/Sapi.html
 	:og:locale: en
-  List of PHP SAPI mentioned in the code. When those SAPI are mentioned in strings, they are usually checked to take advantage of special characteristics. Check the code for portability.
+List of PHP SAPI mentioned in the code. When those SAPI are mentioned in strings, they are usually checked to take advantage of special characteristics. Check the code for portability.
 
 .. code-block:: php
    

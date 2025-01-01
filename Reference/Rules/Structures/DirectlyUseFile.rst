@@ -5,7 +5,7 @@
 Directly Use File
 +++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Directly Use File: Some PHP functions have a close cousin that work directly on files.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Directly Use File
 	:og:description: Some PHP functions have a close cousin that work directly on files
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/DirectlyUseFile.html
 	:og:locale: en
-  Some PHP functions have a close cousin that work directly on files. This is faster and less code to write.
+Some PHP functions have a close cousin that work directly on files. This is faster and less code to write.
 
 * `md5() <https://www.php.net/md5>`_ => `md5_file() <https://www.php.net/md5_file>`_
 * `highlight_string() <https://www.php.net/highlight_string>`_ => `highlight_file() <https://www.php.net/highlight_file>`_, `show_source() <https://www.php.net/show_source>`_

@@ -5,7 +5,7 @@
 ext/pdo
 +++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/pdo: Generic extension PDO.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/pdo
 	:og:description: Generic extension PDO
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extpdo.html
 	:og:locale: en
-  Generic extension `PDO <https://www.php.net/pdo>`_.
+Generic extension `PDO <https://www.php.net/pdo>`_.
 
 The PHP Data Objects (`PDO) <https://www.php.net/pdo>`_ extension defines a lightweight, consistent interface for accessing databases in PHP.
 

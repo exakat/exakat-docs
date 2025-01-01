@@ -5,7 +5,7 @@
 Collect Method Counts
 +++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Collect Method Counts: This analysis collects the number of methods per class, trait or interface.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Collect Method Counts
 	:og:description: This analysis collects the number of methods per class, trait or interface
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/CollectMethodCounts.html
 	:og:locale: en
-  This analysis collects the number of methods per class, trait or interface. 
+This analysis collects the number of methods per class, trait or interface. 
 
 The count applies to classes, anonymous classes, traits and interfaces. They are considered distinct one from another.
 

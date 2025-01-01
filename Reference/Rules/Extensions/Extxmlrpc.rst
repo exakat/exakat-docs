@@ -5,7 +5,7 @@
 ext/xmlrpc
 ++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/xmlrpc: Extension ext/xmlrpc.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/xmlrpc
 	:og:description: Extension ext/xmlrpc
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extxmlrpc.html
 	:og:locale: en
-  Extension ext/xmlrpc.
+Extension ext/xmlrpc.
 
 This extension can be used to write XML-RPC servers and clients.
 

@@ -5,7 +5,7 @@
 Property Used In One Method Only
 ++++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Property Used In One Method Only: Properties should be used in several methods.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Property Used In One Method Only
 	:og:description: Properties should be used in several methods
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/PropertyUsedInOneMethodOnly.html
 	:og:locale: en
-  Properties should be used in several methods. When a property is used in only one method, this should have be of another shape. 
+Properties should be used in several methods. When a property is used in only one method, this should have be of another shape. 
 
 Properties used in one method only may be used several times, and read only. This may be a class constant. Such properties are meant to be overwritten by an extending class, and that's possible with class constants.
 

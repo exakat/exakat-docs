@@ -5,7 +5,7 @@
 Only First Byte 
 ++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Only First Byte : When assigning a char to a string with an array notation, only the first byte is used.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Only First Byte
 	:og:description: When assigning a char to a string with an array notation, only the first byte is used
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/OnlyFirstByte.html
 	:og:locale: en
-  When assigning a char to a string with an array notation, only the first byte is used.
+When assigning a char to a string with an array notation, only the first byte is used.
 
 .. code-block:: php
    

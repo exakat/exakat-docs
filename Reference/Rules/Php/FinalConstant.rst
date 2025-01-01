@@ -5,7 +5,7 @@
 Final Constant
 ++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Final Constant: This rule lists the usage of the final modifier for class constants.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Final Constant
 	:og:description: This rule lists the usage of the final modifier for class constants
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/FinalConstant.html
 	:og:locale: en
-  This rule lists the usage of the final modifier for class constants. The support of final for class constants was added in PHP 8.1.
+This rule lists the usage of the final modifier for class constants. The support of final for class constants was added in PHP 8.1.
 
 .. code-block:: php
    

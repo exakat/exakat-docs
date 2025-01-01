@@ -5,7 +5,7 @@
 Sqlite3 Requires Single Quotes
 ++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Sqlite3 Requires Single Quotes: The escapeString() method from ``SQLite3`` doesn't escape ``"``, but only ``'``.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Sqlite3 Requires Single Quotes
 	:og:description: The escapeString() method from ``SQLite3`` doesn't escape ``"``, but only ``'``
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Security/Sqlite3RequiresSingleQuotes.html
 	:og:locale: en
-  The escapeString() method from ``SQLite3`` doesn't escape ``"``, but only ``'``. 
+The escapeString() method from ``SQLite3`` doesn't escape ``"``, but only ``'``. 
 To properly handle quotes and ``NUL`` characters, use bindParam() instead.
 
 Quote from the PHP manual comments : ``The reason this function doesn't escape double quotes is because double quotes are used with names (the equivalent of backticks in MySQL), as in table or column names, while single quotes are used for values.``

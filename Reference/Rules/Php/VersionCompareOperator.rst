@@ -5,7 +5,7 @@
 version_compare Operator
 ++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		version_compare Operator: version_compare()'s third argument is checked for value.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ version_compare Operator
 	:og:description: version_compare()'s third argument is checked for value
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/VersionCompareOperator.html
 	:og:locale: en
-  `version_compare() <https://www.php.net/version_compare>`_'s third argument is checked for value. The third argument specifies the operator, which may be only one of the following : `<`, `lt`, `<=`, `le`, `>`, `gt`, `>=`, `ge`, `==`, `=`, `eq`, `!=`, `<>`, `ne`. The operator is case sensitive.
+`version_compare() <https://www.php.net/version_compare>`_'s third argument is checked for value. The third argument specifies the operator, which may be only one of the following : `<`, `lt`, `<=`, `le`, `>`, `gt`, `>=`, `ge`, `==`, `=`, `eq`, `!=`, `<>`, `ne`. The operator is case sensitive.
 
 Until PHP 8.1, it was silently reverted to the default value. It is a deprecated warning in PHP 8.1 and will be finalized in PHP 9.0. It is recommended to fix this parameter in any PHP version.
 

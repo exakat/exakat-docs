@@ -5,7 +5,7 @@
 ext/vips
 ++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/vips: Extension VIPS.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/vips
 	:og:description: Extension VIPS
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extvips.html
 	:og:locale: en
-  Extension VIPS.
+Extension VIPS.
 
 The VIPS image processing system is a very fast, multi-threaded image processing library with low memory needs.
 

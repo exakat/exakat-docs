@@ -5,7 +5,7 @@
 Enum Case Values
 ++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Enum Case Values: Adds a `DEFINITION`link between a static Enumeration case and its actual defined value.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Enum Case Values
 	:og:description: Adds a `DEFINITION`link between a static Enumeration case and its actual defined value
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Complete/EnumCaseValues.html
 	:og:locale: en
-  Adds a `DEFINITION`link between a `static <https://www.php.net/manual/en/language.oop5.static.php>`_ Enumeration case and its actual defined value. 
+Adds a `DEFINITION`link between a `static <https://www.php.net/manual/en/language.oop5.static.php>`_ Enumeration case and its actual defined value. 
 
 No link is added when no value is defined.
 

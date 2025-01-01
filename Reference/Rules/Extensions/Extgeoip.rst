@@ -5,7 +5,7 @@
 ext/geoip
 +++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/geoip: Extension geoip for PHP.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/geoip
 	:og:description: Extension geoip for PHP
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extgeoip.html
 	:og:locale: en
-  Extension geoip for PHP.
+Extension geoip for PHP.
 
 The GeoIP extension allows the localisation of an IP address.
 

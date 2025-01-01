@@ -5,7 +5,7 @@
 Use is_countable
 ++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Use is_countable: is_countable() checks if a variables holds a value that can be counted.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Use is_countable
 	:og:description: is_countable() checks if a variables holds a value that can be counted
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/CouldUseIsCountable.html
 	:og:locale: en
-  `is_countable() <https://www.php.net/is_countable>`_ checks if a variables holds a value that can be counted. It is recommended to use it before calling `count() <https://www.php.net/count>`_.
+`is_countable() <https://www.php.net/is_countable>`_ checks if a variables holds a value that can be counted. It is recommended to use it before calling `count() <https://www.php.net/count>`_.
 
 `is_countable() <https://www.php.net/is_countable>`_ accepts arrays and object whose class implements \`countable <https://www.php.net/countable>`_.
 

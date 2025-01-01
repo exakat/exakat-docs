@@ -5,7 +5,7 @@
 Coalesce
 ++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Coalesce: Usage of coalesce operator.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Coalesce
 	:og:description: Usage of coalesce operator
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/Coalesce.html
 	:og:locale: en
-  Usage of coalesce operator.
+Usage of coalesce operator.
 
 Note that the coalesce operator is a special case of the ternary operator.
 

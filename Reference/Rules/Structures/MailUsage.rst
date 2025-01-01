@@ -5,7 +5,7 @@
 Mail Usage
 ++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Mail Usage: Report usage of mail from PHP.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Mail Usage
 	:og:description: Report usage of mail from PHP
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/MailUsage.html
 	:og:locale: en
-  Report usage of mail from PHP. 
+Report usage of mail from PHP. 
 
 The analysis is based on `mail() <https://www.php.net/mail>`_ function and various classes used to send mail.
 

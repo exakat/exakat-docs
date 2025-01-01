@@ -5,7 +5,7 @@
 ext/exif
 ++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/exif: Extension EXIF : Exchangeable image file format.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/exif
 	:og:description: Extension EXIF : Exchangeable image file format
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extexif.html
 	:og:locale: en
-  Extension EXIF : Exchangeable image file format.
+Extension EXIF : Exchangeable image file format.
 
 The EXIF extension manipulates image meta data.
 

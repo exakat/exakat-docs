@@ -5,7 +5,7 @@
 func_get_arg() Modified
 +++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		func_get_arg() Modified: func_get_arg() and func_get_args() used to report the calling value of the argument until PHP 7.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ func_get_arg() Modified
 	:og:description: func_get_arg() and func_get_args() used to report the calling value of the argument until PHP 7
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/funcGetArgModified.html
 	:og:locale: en
-  `func_get_arg() <https://www.php.net/func_get_arg>`_ and `func_get_args() <https://www.php.net/func_get_args>`_ used to report the calling value of the argument until PHP 7. 
+`func_get_arg() <https://www.php.net/func_get_arg>`_ and `func_get_args() <https://www.php.net/func_get_args>`_ used to report the calling value of the argument until PHP 7. 
 
 Since PHP 7, it is reporting the value of the argument at calling time, which may have been modified by a previous instruction. 
 

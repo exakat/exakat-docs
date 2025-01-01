@@ -5,7 +5,7 @@
 ext/apc
 +++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/apc: Extension Alternative PHP Cache.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/apc
 	:og:description: Extension Alternative PHP Cache
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extapc.html
 	:og:locale: en
-  Extension Alternative PHP Cache.
+Extension Alternative PHP Cache.
 
 The Alternative PHP Cache (APC) is a free and open opcode cache for PHP. Its goal is to provide a free, open, and robust framework for caching and optimizing PHP intermediate code.
 

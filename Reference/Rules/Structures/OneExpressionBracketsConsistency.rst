@@ -5,7 +5,7 @@
 One Expression Brackets Consistency
 +++++++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		One Expression Brackets Consistency: Brackets around one-line expressions are not consistent.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ One Expression Brackets Consistency
 	:og:description: Brackets around one-line expressions are not consistent
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/OneExpressionBracketsConsistency.html
 	:og:locale: en
-  Brackets around one-line expressions are not consistent. 
+Brackets around one-line expressions are not consistent. 
 
 PHP makes bracket optional when a control structure pilot only one expression. Both are semantically identical.
 

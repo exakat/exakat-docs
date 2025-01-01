@@ -5,7 +5,7 @@
 Caught Exceptions
 +++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Caught Exceptions: This rule collects the exceptions used in catch clause.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Caught Exceptions
 	:og:description: This rule collects the exceptions used in catch clause
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Exceptions/CaughtExceptions.html
 	:og:locale: en
-  This rule collects the exceptions used in catch clause. Those are the caught exceptions. 
+This rule collects the exceptions used in catch clause. Those are the caught exceptions. 
 
 Caught exceptions might be thrown from within the code, or from an outside library. 
 

@@ -5,7 +5,7 @@
 Unknown Parameter Name
 ++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Unknown Parameter Name: The name of the parameter doesn't belong to the method signature.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Unknown Parameter Name
 	:og:description: The name of the parameter doesn't belong to the method signature
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/UnknownParameterName.html
 	:og:locale: en
-  The name of the parameter doesn't belong to the method signature. Named arguments were introduced in PHP 8.0.
+The name of the parameter doesn't belong to the method signature. Named arguments were introduced in PHP 8.0.
 
 Named arguments errors will also arise when spreading a hash array with arbitrary number of arguments. For example, with `array_merge() <https://www.php.net/array_merge>`_, the array should not use named keys.
 

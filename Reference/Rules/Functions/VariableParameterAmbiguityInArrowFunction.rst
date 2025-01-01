@@ -5,7 +5,7 @@
 Variable Parameter Ambiguity In Arrow Function
 ++++++++++++++++++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Variable Parameter Ambiguity In Arrow Function: Avoid using a parameter that is also the name of a local variable.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Variable Parameter Ambiguity In Arrow Function
 	:og:description: Avoid using a parameter that is also the name of a local variable
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/VariableParameterAmbiguityInArrowFunction.html
 	:og:locale: en
-  Avoid using a parameter that is also the name of a local variable.
+Avoid using a parameter that is also the name of a local variable.
 
 Arrow functions import automatically the variables from the local context in their body. Yet, a variable name may also be used as the name of a parameter. In that case, PHP use the parameter, and omits the value of the local variable.
 

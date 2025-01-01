@@ -5,7 +5,7 @@
 Mime Types
 ++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Mime Types: List of Mime Types that are mentioned in the code.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Mime Types
 	:og:description: List of Mime Types that are mentioned in the code
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Type/MimeType.html
 	:og:locale: en
-  List of Mime Types that are mentioned in the code.
+List of Mime Types that are mentioned in the code.
 
 .. code-block:: php
    

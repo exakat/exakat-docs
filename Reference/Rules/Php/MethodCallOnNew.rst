@@ -5,7 +5,7 @@
 Methodcall On New
 +++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Methodcall On New: It is possible to call a method right at object instantiation.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Methodcall On New
 	:og:description: It is possible to call a method right at object instantiation
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/MethodCallOnNew.html
 	:og:locale: en
-  It is possible to call a method right at object instantiation. 
+It is possible to call a method right at object instantiation. 
 
 This syntax was added in PHP 5.4+. Before, this was not possible : the object had to be stored in a variable first.
 This syntax is interesting when the object is not reused, and may be discarded

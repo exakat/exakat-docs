@@ -5,7 +5,7 @@
 Else Usage
 ++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Else Usage: Else can be avoided by various means.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Else Usage
 	:og:description: Else can be avoided by various means
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ElseUsage.html
 	:og:locale: en
-  Else can be avoided by various means. 
+Else can be avoided by various means. 
 
 For example, defaulting values before using a condition; returning early in the method, thus skipping long else blocks; using a ternary operator to assign values conditionnaly. 
 

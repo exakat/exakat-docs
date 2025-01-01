@@ -5,7 +5,7 @@
 Multiple Identical Closure
 ++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Multiple Identical Closure: Several closures are defined with the same code.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Multiple Identical Closure
 	:og:description: Several closures are defined with the same code
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/MultipleIdenticalClosure.html
 	:og:locale: en
-  Several closures are defined with the same code. 
+Several closures are defined with the same code. 
 
 It may be interesting to check if a named function could be defined from them.
 This analysis also reports functions and methods that look like the closures : they may be considered for switch.

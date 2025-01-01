@@ -5,7 +5,7 @@
 Unused Private Properties
 +++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Unused Private Properties: Unused static properties should be removed.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Unused Private Properties
 	:og:description: Unused static properties should be removed
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/UnusedPrivateProperty.html
 	:og:locale: en
-  Unused `static <https://www.php.net/manual/en/language.oop5.static.php>`_ properties should be removed. 
+Unused `static <https://www.php.net/manual/en/language.oop5.static.php>`_ properties should be removed. 
 
 Unused private properties are dead code. They are usually leftovers of development or refactorisation : they used to have a mission, but are now left. 
 

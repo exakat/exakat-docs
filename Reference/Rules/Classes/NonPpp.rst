@@ -5,7 +5,7 @@
 Forgotten Visibility
 ++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Forgotten Visibility: Some classes elements (property, method, constant) are missing their explicit visibility.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Forgotten Visibility
 	:og:description: Some classes elements (property, method, constant) are missing their explicit visibility
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/NonPpp.html
 	:og:locale: en
-  Some classes elements (property, method, constant) are missing their explicit visibility.
+Some classes elements (property, method, constant) are missing their explicit visibility.
 
 By default, it is public. It should at least be mentioned as public, or may be reviewed as protected or private. 
 

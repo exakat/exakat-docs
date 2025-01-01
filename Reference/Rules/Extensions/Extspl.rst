@@ -5,7 +5,7 @@
 ext/spl
 +++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/spl: SPL extension.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/spl
 	:og:description: SPL extension
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extspl.html
 	:og:locale: en
-  SPL extension.
+SPL extension.
 
 The Standard PHP Library (SPL) is a collection of interfaces and classes that are meant to solve common problems.
 

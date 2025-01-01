@@ -5,7 +5,7 @@
 Drop Substr Last Arg
 ++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Drop Substr Last Arg: Substr() works till the end of the string when the last argument is omitted.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Drop Substr Last Arg
 	:og:description: Substr() works till the end of the string when the last argument is omitted
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/SubstrLastArg.html
 	:og:locale: en
-  `Substr() <https://www.php.net/substr>`_ works till the end of the string when the last argument is omitted. There is no need to calculate string size to make this work.
+`Substr() <https://www.php.net/substr>`_ works till the end of the string when the last argument is omitted. There is no need to calculate string size to make this work.
 
 .. code-block:: php
    

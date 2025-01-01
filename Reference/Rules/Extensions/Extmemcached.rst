@@ -5,7 +5,7 @@
 ext/memcached
 +++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/memcached: Extension ext-memcached.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/memcached
 	:og:description: Extension ext-memcached
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extmemcached.html
 	:og:locale: en
-  Extension ext-memcached.
+Extension ext-memcached.
 
 This extension uses the libmemcached library to provide an API for communicating with memcached servers. It also provides a session handler (`memcached`).
 

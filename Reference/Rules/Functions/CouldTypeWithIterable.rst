@@ -5,7 +5,7 @@
 Could Type With Iterable
 ++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Could Type With Iterable: Suggest using ``iterable`` typehint for arguments.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Could Type With Iterable
 	:og:description: Suggest using ``iterable`` typehint for arguments
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/CouldTypeWithIterable.html
 	:og:locale: en
-  Suggest using ``iterable`` typehint for arguments.
+Suggest using ``iterable`` typehint for arguments.
 
 ``iterable`` represents both ``array`` and objects that implements ``Iterator`` interface. Both types are coerced, and usable here.
 

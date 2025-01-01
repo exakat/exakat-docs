@@ -5,7 +5,7 @@
 Laravel usage
 +++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Laravel usage: This analysis reports usage of the Laravel framework.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Laravel usage
 	:og:description: This analysis reports usage of the Laravel framework
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Vendors/Laravel.html
 	:og:locale: en
-  This analysis reports usage of the Laravel framework.
+This analysis reports usage of the Laravel framework.
 
 .. code-block:: php
    

@@ -5,7 +5,7 @@
 New Object Then Immediate Call
 ++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		New Object Then Immediate Call: This rule reports immediate calls on a new object.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ New Object Then Immediate Call
 	:og:description: This rule reports immediate calls on a new object
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/NewThenCall.html
 	:og:locale: en
-  This rule reports immediate calls on a new object. This can be simplified with a parenthesis structure, including with the assignation inside the parenthesis.
+This rule reports immediate calls on a new object. This can be simplified with a parenthesis structure, including with the assignation inside the parenthesis.
 
 It is also being discussed to drop the parenthesis altogether. 
 

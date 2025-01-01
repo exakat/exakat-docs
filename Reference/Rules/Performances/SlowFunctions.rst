@@ -5,7 +5,7 @@
 Slow Functions
 ++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Slow Functions: Avoid using those slow native PHP functions, and replace them with alternatives.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Slow Functions
 	:og:description: Avoid using those slow native PHP functions, and replace them with alternatives
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Performances/SlowFunctions.html
 	:og:locale: en
-  Avoid using those slow native PHP functions, and replace them with alternatives.
+Avoid using those slow native PHP functions, and replace them with alternatives.
 +---------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------+
 | Slow Function                                                 |  Faster                                                                                                                    | 
 +---------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------+

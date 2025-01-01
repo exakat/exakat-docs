@@ -5,7 +5,7 @@
 Conditional Structures
 ++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Conditional Structures: Structures that are defined, but only executed conditionally.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Conditional Structures
 	:og:description: Structures that are defined, but only executed conditionally
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ConditionalStructures.html
 	:og:locale: en
-  Structures that are defined, but only executed conditionally.
+Structures that are defined, but only executed conditionally.
 
 It is possible to create conditioned functions, classes, interfaces, traits and enumerations. Constants have to be defined with `define() <https://www.php.net/define>`_ and can't use the `const` keyword.
 

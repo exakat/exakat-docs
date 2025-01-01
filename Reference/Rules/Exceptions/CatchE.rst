@@ -5,7 +5,7 @@
 Caught Variable
 +++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Caught Variable: Catch clauses require an exception and a variable name.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Caught Variable
 	:og:description: Catch clauses require an exception and a variable name
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Exceptions/CatchE.html
 	:og:locale: en
-  Catch clauses require an `exception <https://www.php.net/exception>`_ and a variable name. Often, the variable name is the same, `$e`, as learnt from the manual.
+Catch clauses require an `exception <https://www.php.net/exception>`_ and a variable name. Often, the variable name is the same, `$e`, as learnt from the manual.
 
 There seems to be a choice that is not enforced : one form is dominant, (> 90%) while the others are rare. 
 

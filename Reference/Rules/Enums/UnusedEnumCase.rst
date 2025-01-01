@@ -5,7 +5,7 @@
 Unused Enumeration Case
 +++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Unused Enumeration Case: Those are enumeration cases which are defined, yet not used.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Unused Enumeration Case
 	:og:description: Those are enumeration cases which are defined, yet not used
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Enums/UnusedEnumCase.html
 	:og:locale: en
-  Those are enumeration cases which are defined, yet not used.
+Those are enumeration cases which are defined, yet not used.
 
 The `error <https://www.php.net/error>`_ message when the case is missing mentions a class constant : this is because enumeration cases and class constants use the same configuration. They are only distinguished by their definition, which, here, does not exists.
 

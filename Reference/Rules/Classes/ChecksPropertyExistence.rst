@@ -5,7 +5,7 @@
 Checks Property Existence
 +++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Checks Property Existence: This analysis reports checks property existence.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Checks Property Existence
 	:og:description: This analysis reports checks property existence
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/ChecksPropertyExistence.html
 	:og:locale: en
-  This analysis reports checks property existence. 
+This analysis reports checks property existence. 
 
 In PHP 8.2, non-specified properties are discouraged : they should always be defined in the class code. When this guideline is applied, properties always exists, and a call to `property_exists() <https://www.php.net/property_exists>`_ is now useless.
 

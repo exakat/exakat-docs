@@ -5,7 +5,7 @@
 Collect Native Calls Per Expressions
 ++++++++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Collect Native Calls Per Expressions: This rule collects the number of PHP native call per expression.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Collect Native Calls Per Expressions
 	:og:description: This rule collects the number of PHP native call per expression
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/CollectNativeCallsPerExpressions.html
 	:og:locale: en
-  This rule collects the number of PHP native call per expression. The more calls in an expression, the more complex the code.
+This rule collects the number of PHP native call per expression. The more calls in an expression, the more complex the code.
 
 .. code-block:: php
    

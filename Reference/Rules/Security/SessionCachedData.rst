@@ -5,7 +5,7 @@
 Unvalidated Data Cached In Session
 ++++++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Unvalidated Data Cached In Session: Data is cached in the $_SESSION variable and later reused.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Unvalidated Data Cached In Session
 	:og:description: Data is cached in the $_SESSION variable and later reused
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Security/SessionCachedData.html
 	:og:locale: en
-  Data is cached in the $_SESSION variable and later reused. When data is not validated before this storage, it might be used to make an injection.
+Data is cached in the $_SESSION variable and later reused. When data is not validated before this storage, it might be used to make an injection.
 
 .. code-block:: php
    

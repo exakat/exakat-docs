@@ -5,7 +5,7 @@
 Identical Methods
 +++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Identical Methods: When the parent class and the child class have the same method, the child might omit it.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Identical Methods
 	:og:description: When the parent class and the child class have the same method, the child might omit it
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/IdenticalMethods.html
 	:og:locale: en
-  When the `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ class and the child class have the same method, the child might omit it. This reduces code duplication. 
+When the `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ class and the child class have the same method, the child might omit it. This reduces code duplication. 
 
 Duplicate code in methods is often the results of code evolution, where a method was copied with the hierarchy, but the original wasn't removed.
 

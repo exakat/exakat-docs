@@ -5,7 +5,7 @@
 Used Interfaces
 +++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Used Interfaces: This rule lists all the interfaces used in the code.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Used Interfaces
 	:og:description: This rule lists all the interfaces used in the code
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Interfaces/UsedInterfaces.html
 	:og:locale: en
-  This rule lists all the interfaces used in the code. They are used with the ``implements`` keyword, the ``instanceof`` operator, and as types with parameters, class constants, properties and methods.
+This rule lists all the interfaces used in the code. They are used with the ``implements`` keyword, the ``instanceof`` operator, and as types with parameters, class constants, properties and methods.
 
 .. code-block:: php
    

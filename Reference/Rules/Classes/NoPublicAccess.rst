@@ -5,7 +5,7 @@
 No Public Access
 ++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		No Public Access: The properties below are declared with public access, but are never used publicly.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ No Public Access
 	:og:description: The properties below are declared with public access, but are never used publicly
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/NoPublicAccess.html
 	:og:locale: en
-  The properties below are declared with public access, but are never used publicly. They can be made protected or private.
+The properties below are declared with public access, but are never used publicly. They can be made protected or private.
 
 .. code-block:: php
    

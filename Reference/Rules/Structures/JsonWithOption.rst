@@ -5,7 +5,7 @@
 Use json_decode() Options
 +++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Use json_decode() Options: json_decode() returns objects by default, unless the second argument is set to ``TRUE`` or ``JSON_OBJECT_AS_ARRAY``.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Use json_decode() Options
 	:og:description: json_decode() returns objects by default, unless the second argument is set to ``TRUE`` or ``JSON_OBJECT_AS_ARRAY``
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/JsonWithOption.html
 	:og:locale: en
-  `json_decode() <https://www.php.net/json_decode>`_ returns objects by default, unless the second argument is set to ``TRUE`` or ``JSON_OBJECT_AS_ARRAY``. Then, it returns arrays.
+`json_decode() <https://www.php.net/json_decode>`_ returns objects by default, unless the second argument is set to ``TRUE`` or ``JSON_OBJECT_AS_ARRAY``. Then, it returns arrays.
 
 Avoid casting the returned value from `json_decode() <https://www.php.net/json_decode>`_, and use the second argument to directly set the correct type.
 Note that all objects will be turned into arrays, recursively. If you're expecting an array of objects, don't use the ``JSON_OBJECT_AS_ARRAY`` constant, and change your JSON code.

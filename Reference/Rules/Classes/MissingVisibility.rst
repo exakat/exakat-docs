@@ -5,7 +5,7 @@
 Missing Visibility
 ++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Missing Visibility: Class constants, properties and methods usage may be controlled by the visibility option.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Missing Visibility
 	:og:description: Class constants, properties and methods usage may be controlled by the visibility option
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/MissingVisibility.html
 	:og:locale: en
-  Class constants, properties and methods usage may be controlled by the visibility option. When omitted, it is by default public. 
+Class constants, properties and methods usage may be controlled by the visibility option. When omitted, it is by default public. 
 
 When omitted, it should be added to make its configuration explicit.
 

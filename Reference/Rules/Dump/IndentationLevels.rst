@@ -5,7 +5,7 @@
 Indentation Levels
 ++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Indentation Levels: Collect all level of indentations for methods and functions.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Indentation Levels
 	:og:description: Collect all level of indentations for methods and functions
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/IndentationLevels.html
 	:og:locale: en
-  Collect all level of indentations for methods and functions. Inside methods, indentation level raises for structures such as switch, `match() <https://www.php.net/manual/en/control-structures.match.php>`_, closures, ifthen, and loops. It is recommended to avoid going too high in the levels, as the code becomes less readable.
+Collect all level of indentations for methods and functions. Inside methods, indentation level raises for structures such as switch, `match() <https://www.php.net/manual/en/control-structures.match.php>`_, closures, ifthen, and loops. It is recommended to avoid going too high in the levels, as the code becomes less readable.
 
 .. code-block:: php
    

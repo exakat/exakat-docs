@@ -5,7 +5,7 @@
 Duplicate Calls
 +++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Duplicate Calls: Duplicate calls within the same context.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Duplicate Calls
 	:og:description: Duplicate calls within the same context
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/DuplicateCalls.html
 	:og:locale: en
-  Duplicate calls within the same context. They should be called once, and then cached in a variable for reuse. 
+Duplicate calls within the same context. They should be called once, and then cached in a variable for reuse. 
 
 This saves a lot of time of execution and reexecution of the same code. It is a micro-optimisation in case of a simple property fetch, but it may be more costly.
 

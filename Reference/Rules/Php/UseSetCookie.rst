@@ -5,7 +5,7 @@
 Should Use SetCookie()
 ++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Should Use SetCookie(): Use setcookie() or setrawcookie().
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Should Use SetCookie()
 	:og:description: Use setcookie() or setrawcookie()
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/UseSetCookie.html
 	:og:locale: en
-  Use `setcookie() <https://www.php.net/setcookie>`_ or `setrawcookie() <https://www.php.net/setrawcookie>`_. Avoid using `header() <https://www.php.net/header>`_ to do so, as the PHP native functions are more convenient and easier to spot during a refactoring.
+Use `setcookie() <https://www.php.net/setcookie>`_ or `setrawcookie() <https://www.php.net/setrawcookie>`_. Avoid using `header() <https://www.php.net/header>`_ to do so, as the PHP native functions are more convenient and easier to spot during a refactoring.
 
 `setcookie() <https://www.php.net/setcookie>`_ applies some encoding internally, for the value of the cookie and the date of expiration. Rarely, this encoding has to be skipped : then, use setrawencoding().
 

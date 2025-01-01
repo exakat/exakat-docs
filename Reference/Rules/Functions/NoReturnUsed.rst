@@ -5,7 +5,7 @@
 No Return Used
 ++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		No Return Used: The return value of the following methods are never used.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ No Return Used
 	:og:description: The return value of the following methods are never used
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/NoReturnUsed.html
 	:og:locale: en
-  The return value of the following methods are never used. The return argument may be dropped from the code, as it is dead code.
+The return value of the following methods are never used. The return argument may be dropped from the code, as it is dead code.
 
 This analysis supports functions and `static <https://www.php.net/manual/en/language.oop5.static.php>`_ methods, when a definition may be found. It doesn't support method calls.
 

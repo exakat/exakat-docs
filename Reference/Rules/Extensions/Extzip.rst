@@ -5,7 +5,7 @@
 ext/zip
 +++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/zip: Extension ext/zip.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/zip
 	:og:description: Extension ext/zip
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extzip.html
 	:og:locale: en
-  Extension ext/zip.
+Extension ext/zip.
 
 This extension enables you to transparently read or write ZIP compressed archives and the files inside them.
 

@@ -5,7 +5,7 @@
 Missing Parenthesis
 +++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Missing Parenthesis: Adding parenthesis to addition expressions make them more readable and to prevent bugs.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Missing Parenthesis
 	:og:description: Adding parenthesis to addition expressions make them more readable and to prevent bugs
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/MissingParenthesis.html
 	:og:locale: en
-  Adding parenthesis to addition expressions make them more readable and to prevent bugs. 
+Adding parenthesis to addition expressions make them more readable and to prevent bugs. 
 
 In the expressions below, the code is legit, although it is prone to misunderstanding.
 

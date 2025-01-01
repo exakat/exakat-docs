@@ -5,7 +5,7 @@
 Should Use Local Class
 ++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Should Use Local Class: Methods should use the defining class, or be functions.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Should Use Local Class
 	:og:description: Methods should use the defining class, or be functions
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/ShouldUseThis.html
 	:og:locale: en
-  Methods should use the defining class, or be functions.
+Methods should use the defining class, or be functions.
 
 Methods should use ``$this`` with another method or a property, or call ``parent\:\:``. `Static <https://www.php.net/manual/en/language.oop5.static.php>`_ methods should call another `static <https://www.php.net/manual/en/language.oop5.static.php>`_ method, or a `static <https://www.php.net/manual/en/language.oop5.static.php>`_ property. 
 Methods which are overwritten by a child class are omitted : the `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ class act as a default value for the children class, and this is correct.

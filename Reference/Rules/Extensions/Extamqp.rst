@@ -5,7 +5,7 @@
 ext/amqp
 ++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/amqp: Extension ``amqp``.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/amqp
 	:og:description: Extension ``amqp``
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extamqp.html
 	:og:locale: en
-  Extension ``amqp``.
+Extension ``amqp``.
 
 `PHP AMQP Binding Library`. This is an interface with the `RabbitMQ AMQP client library <https://github.com/alanxz/rabbitmq-c>`_. It is a  C language AMQP client library for use with version 2.0 and more recent of the ``RabbitMQ`` broker.
 

@@ -5,7 +5,7 @@
 Displays Text
 +++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Displays Text: Function calls that displays something to the output.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Displays Text
 	:og:description: Function calls that displays something to the output
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/Prints.html
 	:og:locale: en
-  Function calls that displays something to the output. Usually, there should not be direct display of data anywhere in the code, but on a specific places, like a template `engine <https://www.php.net/engine>`_, or an output class.
+Function calls that displays something to the output. Usually, there should not be direct display of data anywhere in the code, but on a specific places, like a template `engine <https://www.php.net/engine>`_, or an output class.
 
 .. code-block:: php
    

@@ -5,7 +5,7 @@
 Short Open Tags
 +++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Short Open Tags: Usage of short open tags is discouraged.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Short Open Tags
 	:og:description: Usage of short open tags is discouraged
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/ShortOpenTagRequired.html
 	:og:locale: en
-  Usage of short open tags is discouraged. The following files were found to be impacted by the short open tag directive at compilation time. They must be reviewed to ensure no &lt;? tags are found in the code.
+Usage of short open tags is discouraged. The following files were found to be impacted by the short open tag directive at compilation time. They must be reviewed to ensure no &lt;? tags are found in the code.
 Connex PHP features
 -------------------
 

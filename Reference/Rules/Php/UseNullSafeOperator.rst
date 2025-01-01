@@ -5,7 +5,7 @@
 Use NullSafe Operator
 +++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Use NullSafe Operator: The nullsafe operator ``.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Use NullSafe Operator
 	:og:description: The nullsafe operator ``
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/UseNullSafeOperator.html
 	:og:locale: en
-  The nullsafe operator ``?->`` is an alternative to the object operator ``->``. It silently fails the whole expression if a null is used for object.
+The nullsafe operator ``?->`` is an alternative to the object operator ``->``. It silently fails the whole expression if a null is used for object.
 
 .. code-block:: php
    

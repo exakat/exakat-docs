@@ -5,7 +5,7 @@
 Try With Finally
 ++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Try With Finally: Indicates if a try use a finally statement.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Try With Finally
 	:og:description: Indicates if a try use a finally statement
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/TryFinally.html
 	:og:locale: en
-  Indicates if a try use a finally statement.
+Indicates if a try use a finally statement.
 
 .. code-block:: php
    

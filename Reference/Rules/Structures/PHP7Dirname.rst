@@ -5,7 +5,7 @@
 PHP7 Dirname
 ++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		PHP7 Dirname: dirname() has a second argument that represents the number of parent folder to follow.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ PHP7 Dirname
 	:og:description: dirname() has a second argument that represents the number of parent folder to follow
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/PHP7Dirname.html
 	:og:locale: en
-  `dirname() <https://www.php.net/dirname>`_ has a second argument that represents the number of `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ folder to follow. This prevent us from using nested `dirname() <https://www.php.net/dirname>`_ calls to reach an grand-`parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ direct.
+`dirname() <https://www.php.net/dirname>`_ has a second argument that represents the number of `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ folder to follow. This prevent us from using nested `dirname() <https://www.php.net/dirname>`_ calls to reach an grand-`parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ direct.
 
 .. code-block:: php
    

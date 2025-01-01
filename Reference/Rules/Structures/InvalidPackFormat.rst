@@ -5,7 +5,7 @@
 Invalid Pack Format
 +++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Invalid Pack Format: Some characters are invalid in a pack() format string.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Invalid Pack Format
 	:og:description: Some characters are invalid in a pack() format string
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/InvalidPackFormat.html
 	:og:locale: en
-  Some characters are invalid in a `pack() <https://www.php.net/pack>`_ format string.
+Some characters are invalid in a `pack() <https://www.php.net/pack>`_ format string.
 
 `pack() <https://www.php.net/pack>`_ and `unpack() <https://www.php.net/unpack>`_ accept the following format specifiers : ``aAhHcCsSnviIlLNVqQJPfgGdeExXZ``. 
 

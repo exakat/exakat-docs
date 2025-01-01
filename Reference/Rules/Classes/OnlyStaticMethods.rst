@@ -5,7 +5,7 @@
 Only Static Methods Class
 +++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Only Static Methods Class: This rule marks a class that only contains static methods.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Only Static Methods Class
 	:og:description: This rule marks a class that only contains static methods
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/OnlyStaticMethods.html
 	:og:locale: en
-  This rule marks a class that only contains `static <https://www.php.net/manual/en/language.oop5.static.php>`_ methods. Such classes are tool classes, with definition of methods that can be called without an object. This is akin to functions, with autoloading possibilities.
+This rule marks a class that only contains `static <https://www.php.net/manual/en/language.oop5.static.php>`_ methods. Such classes are tool classes, with definition of methods that can be called without an object. This is akin to functions, with autoloading possibilities.
 
 .. code-block:: php
    

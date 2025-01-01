@@ -5,7 +5,7 @@
 Flexible Heredoc
 ++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Flexible Heredoc: Flexible syntax for Heredoc.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Flexible Heredoc
 	:og:description: Flexible syntax for Heredoc
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/FlexibleHeredoc.html
 	:og:locale: en
-  Flexible syntax for Heredoc. 
+Flexible syntax for Heredoc. 
 
 The new flexible syntax for heredoc and nowdoc enable the closing marker to be indented, and remove the new line requirement after the closing marker.
 

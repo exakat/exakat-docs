@@ -5,7 +5,7 @@
 ext/fam
 +++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/fam: File Alteration Monitor extension.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/fam
 	:og:description: File Alteration Monitor extension
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extfam.html
 	:og:locale: en
-  File Alteration Monitor extension.
+File Alteration Monitor extension.
 
 `FAM <http://oss.sgi.com/projects/fam/>`_ monitors files and directories, notifying interested applications of changes.
 

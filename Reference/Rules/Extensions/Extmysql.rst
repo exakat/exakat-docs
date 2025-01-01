@@ -5,7 +5,7 @@
 ext/mysql
 +++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/mysql: Extension for MySQL (Original MySQL API).
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/mysql
 	:og:description: Extension for MySQL (Original MySQL API)
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extmysql.html
 	:og:locale: en
-  Extension for MySQL (Original MySQL API).
+Extension for MySQL (Original MySQL API).
 
 This extension is deprecated as of PHP 5.5.0, and has been removed as of PHP 7.0.0. Instead, either the `mysqli <https://www.php.net/mysqli>`_ or PDO_MySQL extension should be used. 
 

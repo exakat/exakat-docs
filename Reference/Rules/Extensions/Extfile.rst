@@ -5,7 +5,7 @@
 ext/file
 ++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/file: Filesystem functions from standard.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/file
 	:og:description: Filesystem functions from standard
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extfile.html
 	:og:locale: en
-  Filesystem functions from standard.
+Filesystem functions from standard.
 
 Extension that handle access to file on the file system.
 

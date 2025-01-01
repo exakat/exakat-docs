@@ -5,7 +5,7 @@
 ext/tokyotyrant
 +++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/tokyotyrant: Extension for Tokyo Tyrant.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/tokyotyrant
 	:og:description: Extension for Tokyo Tyrant
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Exttokyotyrant.html
 	:og:locale: en
-  Extension for Tokyo Tyrant.
+Extension for Tokyo Tyrant.
 
 tokyo_tyrant extension provides a wrapper for Tokyo Tyrant client libraries.
 

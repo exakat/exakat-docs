@@ -5,7 +5,7 @@
 Indices Are Int Or String
 +++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Indices Are Int Or String: Indices in an array notation such as ``$array['indice']`` may only be integers or string.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Indices Are Int Or String
 	:og:description: Indices in an array notation such as ``$array['indice']`` may only be integers or string
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/IndicesAreIntOrString.html
 	:og:locale: en
-  Indices in an array notation such as ``$array['indice']`` may only be integers or string.
+Indices in an array notation such as ``$array['indice']`` may only be integers or string.
 
 Boolean, Null or float will be converted to their integer or string equivalent.
 

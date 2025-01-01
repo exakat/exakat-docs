@@ -5,7 +5,7 @@
 ext/xattr
 +++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/xattr: Extensions xattr.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/xattr
 	:og:description: Extensions xattr
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extxattr.html
 	:og:locale: en
-  Extensions xattr.
+Extensions xattr.
 
 The xattr extension allows for the manipulation of extended attributes on a filesystem.
 

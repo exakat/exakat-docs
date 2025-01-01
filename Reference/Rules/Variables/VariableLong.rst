@@ -5,7 +5,7 @@
 Variables With Long Names
 +++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Variables With Long Names: This analysis collects all variables with more than 20 characters longs.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Variables With Long Names
 	:og:description: This analysis collects all variables with more than 20 characters longs
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Variables/VariableLong.html
 	:og:locale: en
-  This analysis collects all variables with more than 20 characters longs. This may be configured with the ``variableLength`` parameter.
+This analysis collects all variables with more than 20 characters longs. This may be configured with the ``variableLength`` parameter.
 PHP has not limitation on variable name size. While short name are often obscure, long names are usually better. Yet, there exists a limit to convenient variable name length.
 
 .. code-block:: php

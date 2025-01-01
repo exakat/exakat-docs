@@ -5,7 +5,7 @@
 Insufficient Property Typehint
 ++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Insufficient Property Typehint: The typehint used for a class property doesn't cover all it usage.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Insufficient Property Typehint
 	:og:description: The typehint used for a class property doesn't cover all it usage
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/InsufficientPropertyTypehint.html
 	:og:locale: en
-  The typehint used for a class property doesn't cover all it usage.
+The typehint used for a class property doesn't cover all it usage.
 
 The typehint is insufficient when a undefined method or constant is called, or if members are accessed while the typehint is an interface.
 This analysis relies on typehinted properties, as introduced in PHP 7.4. It also relies on typehinted assignations at construct time : the typehint of the assigned argument will be used as the property typehint. Getters and setters are not considered here.

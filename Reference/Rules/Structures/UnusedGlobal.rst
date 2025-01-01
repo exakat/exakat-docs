@@ -5,7 +5,7 @@
 Unused Global
 +++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Unused Global: A global keyword is used in a method, yet the variable is not actually used.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Unused Global
 	:og:description: A global keyword is used in a method, yet the variable is not actually used
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/UnusedGlobal.html
 	:og:locale: en
-  A global keyword is used in a method, yet the variable is not actually used. This makes PHP import values for nothing, or may create interference
+A global keyword is used in a method, yet the variable is not actually used. This makes PHP import values for nothing, or may create interference
 
 .. code-block:: php
    

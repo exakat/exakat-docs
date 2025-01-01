@@ -5,7 +5,7 @@
 Implicit Conversion To Int
 ++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Implicit Conversion To Int: PHP warns when a value is implicitely converted from float to int.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Implicit Conversion To Int
 	:og:description: PHP warns when a value is implicitely converted from float to int
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ImplicitConversionToInt.html
 	:og:locale: en
-  PHP warns when a value is implicitely converted from float to int. This usually leads to a loss of precision and unexpected values.
+PHP warns when a value is implicitely converted from float to int. This usually leads to a loss of precision and unexpected values.
 
 The conversion happens in various situations in PHP lifecycle (extracted from the wiki article): 
 

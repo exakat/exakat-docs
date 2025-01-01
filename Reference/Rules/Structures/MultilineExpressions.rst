@@ -5,7 +5,7 @@
 Multiline Expressions
 +++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Multiline Expressions: List of expressions that are spread across several lines.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Multiline Expressions
 	:og:description: List of expressions that are spread across several lines
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/MultilineExpressions.html
 	:og:locale: en
-  List of expressions that are spread across several lines. The default is 2.
+List of expressions that are spread across several lines. The default is 2.
 
 Structures that commonly accept several lines, like `match() <https://www.php.net/manual/en/control-structures.match.php>`_, `switch() <https://www.php.net/manual/en/control-structures.switch.php>`_, classes, functions, closures, constant definitions, etc. are omitted. 
 

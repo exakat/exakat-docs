@@ -5,7 +5,7 @@
 No Spread For Hash
 ++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		No Spread For Hash: The spread operator ``.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ No Spread For Hash
 	:og:description: The spread operator ``
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Arrays/NoSpreadForHash.html
 	:og:locale: en
-  The spread operator ``...`` used to work only on integer-indexed arrays. This limitation was removed in PHP 8.1 and more recent.
+The spread operator ``...`` used to work only on integer-indexed arrays. This limitation was removed in PHP 8.1 and more recent.
 
 .. code-block:: php
    

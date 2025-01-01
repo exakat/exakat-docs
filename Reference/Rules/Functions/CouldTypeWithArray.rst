@@ -5,7 +5,7 @@
 Could Type With Array
 +++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Could Type With Array: That argument may be typed with ``array``.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Could Type With Array
 	:og:description: That argument may be typed with ``array``
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/CouldTypeWithArray.html
 	:og:locale: en
-  That argument may be typed with ``array``. Based on usage, it was determined that the only type possible is a array.
+That argument may be typed with ``array``. Based on usage, it was determined that the only type possible is a array.
 
 .. code-block:: php
    

@@ -5,7 +5,7 @@
 Is Extension Structure
 ++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Is Extension Structure: Finish marking atoms with ``isExt``, as part of the PHP extension elements.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Is Extension Structure
 	:og:description: Finish marking atoms with ``isExt``, as part of the PHP extension elements
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Complete/IsExtStructure.html
 	:og:locale: en
-  Finish marking atoms with ``isExt``, as part of the PHP extension elements. For example, ``openssl``, ``mysqli``, etc.
+Finish marking atoms with ``isExt``, as part of the PHP extension elements. For example, ``openssl``, ``mysqli``, etc.
 
 Specs
 _____

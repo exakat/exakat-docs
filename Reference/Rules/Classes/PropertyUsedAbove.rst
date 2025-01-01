@@ -5,7 +5,7 @@
 Property Used Above
 +++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Property Used Above: Property used in the parent classes.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Property Used Above
 	:og:description: Property used in the parent classes
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/PropertyUsedAbove.html
 	:og:locale: en
-  Property used in the `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ classes. If the definition of the property is in the child class, then the `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ should not know about it and make usage of it.
+Property used in the `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ classes. If the definition of the property is in the child class, then the `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ should not know about it and make usage of it.
 
 It may also be used in the current class, or its children, though this is not reported by this analyzer.
 

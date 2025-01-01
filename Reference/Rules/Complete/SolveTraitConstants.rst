@@ -5,7 +5,7 @@
 Solve Trait Constants
 +++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Solve Trait Constants: Adds a link between static constant usage and a class constant set in a trait.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Solve Trait Constants
 	:og:description: Adds a link between static constant usage and a class constant set in a trait
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Complete/SolveTraitConstants.html
 	:og:locale: en
-  Adds a link between `static <https://www.php.net/manual/en/language.oop5.static.php>`_ constant usage and a class constant set in a trait. 
+Adds a link between `static <https://www.php.net/manual/en/language.oop5.static.php>`_ constant usage and a class constant set in a trait. 
 Constants in traits are added in PHP 8.2.
 
 .. code-block:: php

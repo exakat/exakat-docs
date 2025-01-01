@@ -5,7 +5,7 @@
 PHP 7.1 Scalar Typehints
 ++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		PHP 7.1 Scalar Typehints: A new scalar typehint was introduced : iterable.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ PHP 7.1 Scalar Typehints
 	:og:description: A new scalar typehint was introduced : iterable
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/PHP71scalartypehints.html
 	:og:locale: en
-  A new scalar typehint was introduced : iterable. 
+A new scalar typehint was introduced : iterable. 
 
 It can't be used before PHP 7.1, and will be confused with classes or interfaces.
 

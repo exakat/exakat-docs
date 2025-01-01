@@ -5,7 +5,7 @@
 ext/varnish
 +++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/varnish: Extension PHP for varnish.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/varnish
 	:og:description: Extension PHP for varnish
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extvarnish.html
 	:og:locale: en
-  Extension PHP for varnish.
+Extension PHP for varnish.
 
 Varnish Cache is an open source, state of the art web application accelerator. The extension makes it possible to interact with a running varnish instance through TCP `socket <https://www.php.net/socket>`_ or shared memory.
 

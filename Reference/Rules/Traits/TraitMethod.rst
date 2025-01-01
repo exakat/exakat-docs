@@ -5,7 +5,7 @@
 Trait Methods
 +++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Trait Methods: List the names of the methods in a trait.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Trait Methods
 	:og:description: List the names of the methods in a trait
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Traits/TraitMethod.html
 	:og:locale: en
-  List the names of the methods in a trait. 
+List the names of the methods in a trait. 
 
 .. code-block:: php
    

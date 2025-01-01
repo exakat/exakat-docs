@@ -5,7 +5,7 @@
 Reflection Export() Is Deprecated
 +++++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Reflection Export() Is Deprecated: export() method in Reflection classes is now deprecated.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Reflection Export() Is Deprecated
 	:og:description: export() method in Reflection classes is now deprecated
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/ReflectionExportIsDeprecated.html
 	:og:locale: en
-  export() method in `Reflection <https://www.php.net/reflection>`_ classes is now deprecated. It is obsolete since PHP 7.4 and will disappear in PHP 8.0.
+export() method in `Reflection <https://www.php.net/reflection>`_ classes is now deprecated. It is obsolete since PHP 7.4 and will disappear in PHP 8.0.
 
 The `Reflector <https://www.php.net/reflector>`_ interface, which is implemented by all `reflection <https://www.php.net/reflection>`_ classes, specifies two methods: `__toString() <https://www.php.net/manual/en/language.oop5.magic.php>`_ and export().
 

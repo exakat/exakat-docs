@@ -5,7 +5,7 @@
 Mbstring Unknown Encodings
 ++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Mbstring Unknown Encodings: mbstring functions require one of its supported encoding as parameter.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Mbstring Unknown Encodings
 	:og:description: mbstring functions require one of its supported encoding as parameter
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/MbStringNonEncodings.html
 	:og:locale: en
-  mbstring functions require one of its supported encoding as parameter. 
+mbstring functions require one of its supported encoding as parameter. 
 
 For example, `mb_chr() <https://www.php.net/mb_chr>`_ requires encoding as second parameter. The supported encodings are available with `mb_list_encodings() <https://www.php.net/mb_list_encodings>`_ and `mb_encoding_aliases() <https://www.php.net/mb_encoding_aliases>`_.
 

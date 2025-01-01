@@ -5,7 +5,7 @@
 PHP 7.0 Removed Directives
 ++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		PHP 7.0 Removed Directives: List of directives that are removed in PHP 7.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ PHP 7.0 Removed Directives
 	:og:description: List of directives that are removed in PHP 7
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/Php70RemovedDirective.html
 	:og:locale: en
-  List of directives that are removed in PHP 7.0.
+List of directives that are removed in PHP 7.0.
 
 See also `Removed INI directives <https://www.php.net/manual/en/migration70.incompatible.php#migration70.incompatible.removed-ini-directives>`_.
 

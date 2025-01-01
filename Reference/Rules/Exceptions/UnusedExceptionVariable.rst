@@ -5,7 +5,7 @@
 Unused Exception Variable
 +++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Unused Exception Variable: The variable from a catch clause is not used.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Unused Exception Variable
 	:og:description: The variable from a catch clause is not used
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Exceptions/UnusedExceptionVariable.html
 	:og:locale: en
-  The variable from a catch clause is not used. It is expected to be used, either by chaining the `exception <https://www.php.net/exception>`_, or logging the message.
+The variable from a catch clause is not used. It is expected to be used, either by chaining the `exception <https://www.php.net/exception>`_, or logging the message.
 
 In PHP 8.0, this variable may be omitted.
 

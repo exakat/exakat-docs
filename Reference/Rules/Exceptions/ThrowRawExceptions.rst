@@ -5,7 +5,7 @@
 Throw Raw Exceptions
 ++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Throw Raw Exceptions: Avoid throwing native PHP exceptions.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Throw Raw Exceptions
 	:og:description: Avoid throwing native PHP exceptions
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Exceptions/ThrowRawExceptions.html
 	:og:locale: en
-  Avoid throwing native PHP exceptions. Consider defining specific and meaningful `exception <https://www.php.net/exception>`_, by extending the native one.
+Avoid throwing native PHP exceptions. Consider defining specific and meaningful `exception <https://www.php.net/exception>`_, by extending the native one.
 Thanks to `Atif Shahab Qureshi <https://twitter.com/Atif__Shahab>`_ for the inspiration.
 
 .. code-block:: php

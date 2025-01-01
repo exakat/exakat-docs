@@ -5,22 +5,22 @@
 Don't Add Seconds
 +++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
-		Don't Add Seconds: Avoid adding seconds to a date, and use ``DateTime\:\:modify`` to add an interval.
+		Don't Add Seconds: Avoid adding seconds to a date, and use ``DateTime::modify`` to add an interval.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: Don't Add Seconds
-	:twitter:description: Don't Add Seconds: Avoid adding seconds to a date, and use ``DateTime\:\:modify`` to add an interval
+	:twitter:description: Don't Add Seconds: Avoid adding seconds to a date, and use ``DateTime::modify`` to add an interval
 	:twitter:creator: @exakat
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
 	:og:title: Don't Add Seconds
 	:og:type: article
-	:og:description: Avoid adding seconds to a date, and use ``DateTime\:\:modify`` to add an interval
+	:og:description: Avoid adding seconds to a date, and use ``DateTime::modify`` to add an interval
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/DontAddSeconds.html
 	:og:locale: en
-  Avoid adding seconds to a date, and use ``DateTime\:\:modify`` to add an interval. 
+Avoid adding seconds to a date, and use ``DateTime\:\:modify`` to add an interval. 
 
 This method will handle situations like daylight savings, leap seconds and even leap days.
 

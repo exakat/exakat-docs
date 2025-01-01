@@ -5,7 +5,7 @@
 Unsupported Types With Operators
 ++++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Unsupported Types With Operators: Arrays, resources and objects are generally not accepted with unary and binary operators.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Unsupported Types With Operators
 	:og:description: Arrays, resources and objects are generally not accepted with unary and binary operators
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/UnsupportedTypesWithOperators.html
 	:og:locale: en
-  Arrays, resources and objects are generally not accepted with unary and binary operators. 
+Arrays, resources and objects are generally not accepted with unary and binary operators. 
 
 The operators are `+`, `-`, `*`, `/`, `**`, `%`, `<<`, `>>`, `&`, `|`, `^`, `~`, `++` and `--`.
 In PHP 8.0, the rules have been made stricter and more consistent. 

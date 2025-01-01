@@ -5,7 +5,7 @@
 Same Variable Foreach
 +++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Same Variable Foreach: A foreach which uses its own source as a blind variable is actually broken.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Same Variable Foreach
 	:og:description: A foreach which uses its own source as a blind variable is actually broken
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/AutoUnsetForeach.html
 	:og:locale: en
-  A foreach which uses its own source as a blind variable is actually broken.
+A foreach which uses its own source as a blind variable is actually broken.
 
 Actually, PHP makes a copy of the source before it starts the loop. As such, the same variable may be used for both source and blind value. 
 

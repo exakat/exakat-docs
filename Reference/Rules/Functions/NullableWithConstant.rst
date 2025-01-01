@@ -5,7 +5,7 @@
 Nullable With Constant
 ++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Nullable With Constant: Arguments are automatically nullable with a literal null.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Nullable With Constant
 	:og:description: Arguments are automatically nullable with a literal null
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/NullableWithConstant.html
 	:og:locale: en
-  Arguments are automatically nullable with a literal null. They used to also be nullable with a constant null, before PHP 8.0.
+Arguments are automatically nullable with a literal null. They used to also be nullable with a constant null, before PHP 8.0.
 
 .. code-block:: php
    

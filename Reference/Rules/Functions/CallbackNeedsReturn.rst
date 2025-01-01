@@ -5,7 +5,7 @@
 Callback Function Needs Return
 ++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Callback Function Needs Return: When used with array_map() functions, the callback must return something.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Callback Function Needs Return
 	:og:description: When used with array_map() functions, the callback must return something
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/CallbackNeedsReturn.html
 	:og:locale: en
-  When used with `array_map() <https://www.php.net/array_map>`_ functions, the callback must return something. This return may be in the form of a ``return`` statement, a global variable or a parameter with a reference. All those solutions extract information from the callback. 
+When used with `array_map() <https://www.php.net/array_map>`_ functions, the callback must return something. This return may be in the form of a ``return`` statement, a global variable or a parameter with a reference. All those solutions extract information from the callback. 
 
 
 

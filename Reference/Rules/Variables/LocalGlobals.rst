@@ -5,7 +5,7 @@
 Local Globals
 +++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Local Globals: A global variable is used locally in a method.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Local Globals
 	:og:description: A global variable is used locally in a method
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Variables/LocalGlobals.html
 	:og:locale: en
-  A global variable is used locally in a method. 
+A global variable is used locally in a method. 
 
 Either the global keyword has been forgotten, or the local variable should be renamed in a less ambiguous manner.
 

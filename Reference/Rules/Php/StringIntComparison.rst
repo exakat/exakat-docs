@@ -5,7 +5,7 @@
 String Int Comparison
 +++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		String Int Comparison: While PHP allows direct comparison of integer and strings, with some type conversion, the rules of conversion changed in PHP 8.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ String Int Comparison
 	:og:description: While PHP allows direct comparison of integer and strings, with some type conversion, the rules of conversion changed in PHP 8
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/StringIntComparison.html
 	:og:locale: en
-  While PHP allows direct comparison of integer and strings, with some type conversion, the rules of conversion changed in PHP 8.0. This lead to a change in behavior for comparison.
+While PHP allows direct comparison of integer and strings, with some type conversion, the rules of conversion changed in PHP 8.0. This lead to a change in behavior for comparison.
 
 In particular, strings that are equal to 0, or empty strings, have changed.
 

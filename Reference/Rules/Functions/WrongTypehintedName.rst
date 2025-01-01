@@ -5,7 +5,7 @@
 Wrong Typehinted Name
 +++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Wrong Typehinted Name: The parameter name doesn't reflect the typehint used.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Wrong Typehinted Name
 	:og:description: The parameter name doesn't reflect the typehint used
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/WrongTypehintedName.html
 	:og:locale: en
-  The parameter name doesn't reflect the typehint used.
+The parameter name doesn't reflect the typehint used.
 
 There are no restriction on parameter names, except its uniqueness in the signature. Yet, using a scalar typehint as the name for another typehinted value is just misleading. 
 This analysis relies on exact names : calling an array a list of ``strings`` is OK with this analysis.

@@ -5,7 +5,7 @@
 Isset() On The Whole Array
 ++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Isset() On The Whole Array: Isset() works quietly on a whole array.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Isset() On The Whole Array
 	:og:description: Isset() works quietly on a whole array
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Performances/IssetWholeArray.html
 	:og:locale: en
-  `Isset() <https://www.www.php.net/isset>`_ works quietly on a whole array. There is no need to test all previous index before testing for the target index.
+`Isset() <https://www.www.php.net/isset>`_ works quietly on a whole array. There is no need to test all previous index before testing for the target index.
 
 It also works on chained properties. 
 There is a gain in readability, by avoiding long and hard to read logical expression, and reducing them in one simple `isset() <https://www.www.php.net/isset>`_ call.

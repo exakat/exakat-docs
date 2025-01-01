@@ -5,7 +5,7 @@
 Same Conditions In Condition
 ++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Same Conditions In Condition: At least two consecutive if/then structures use identical conditions.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Same Conditions In Condition
 	:og:description: At least two consecutive if/then structures use identical conditions
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/SameConditions.html
 	:og:locale: en
-  At least two consecutive if/then structures use identical conditions. The latter will probably be ignored.
+At least two consecutive if/then structures use identical conditions. The latter will probably be ignored.
 
 This analysis returns false positive when there are attempt to fix a situation, or to call an alternative solution. 
 

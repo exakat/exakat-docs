@@ -5,7 +5,7 @@
 Should Use Coalesce
 +++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Should Use Coalesce: PHP 7 introduced the ``.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Should Use Coalesce
 	:og:description: PHP 7 introduced the ``
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/ShouldUseCoalesce.html
 	:og:locale: en
-  PHP 7 introduced the ``??`` operator, that replaces longer structures to set default values when a variable is not set.
+PHP 7 introduced the ``??`` operator, that replaces longer structures to set default values when a variable is not set.
 Sample extracted from PHP docs `Isset Ternary <https://wiki.php.net/rfc/isset_ternary>`_.
 
 .. code-block:: php

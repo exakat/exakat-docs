@@ -5,7 +5,7 @@
 Use Debug
 +++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Use Debug: The code source includes calls to debug functions.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Use Debug
 	:og:description: The code source includes calls to debug functions
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/UseDebug.html
 	:og:locale: en
-  The code source includes calls to debug functions.
+The code source includes calls to debug functions.
 
 The following debug functions and libraries are reported : 
 

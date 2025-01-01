@@ -5,7 +5,7 @@
 No Choice
 +++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		No Choice: A conditional structure is being used, and both alternatives are the same, leading to the illusion of choice.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ No Choice
 	:og:description: A conditional structure is being used, and both alternatives are the same, leading to the illusion of choice
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/NoChoice.html
 	:og:locale: en
-  A conditional structure is being used, and both alternatives are the same, leading to the illusion of choice. 
+A conditional structure is being used, and both alternatives are the same, leading to the illusion of choice. 
 
 Either the condition is useless, and may be removed, or the alternatives need to be distinguished.
 

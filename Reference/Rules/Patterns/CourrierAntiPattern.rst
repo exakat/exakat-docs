@@ -5,7 +5,7 @@
 Courier Anti-Pattern
 ++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Courier Anti-Pattern: The courier anti-pattern is the storage of a dependency by a class, in order to create an instance that requires this dependency.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Courier Anti-Pattern
 	:og:description: The courier anti-pattern is the storage of a dependency by a class, in order to create an instance that requires this dependency
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Patterns/CourrierAntiPattern.html
 	:og:locale: en
-  The courier anti-pattern is the storage of a dependency by a class, in order to create an instance that requires this dependency.
+The courier anti-pattern is the storage of a dependency by a class, in order to create an instance that requires this dependency.
 
 The class itself doesn't actually need this dependency, but has a dependency to a class that requires it. 
 The alternative here is to inject Foo instead of Bar.

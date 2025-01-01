@@ -5,7 +5,7 @@
 Filter Not Raw
 ++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Filter Not Raw: Report usage of filter functions with the ``FILTER_RAW_UNSAFE`` option.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Filter Not Raw
 	:og:description: Report usage of filter functions with the ``FILTER_RAW_UNSAFE`` option
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Security/FilterNotRaw.html
 	:og:locale: en
-  Report usage of filter functions with the ``FILTER_RAW_UNSAFE`` option. This option is the default one.
+Report usage of filter functions with the ``FILTER_RAW_UNSAFE`` option. This option is the default one.
 
 .. code-block:: php
    

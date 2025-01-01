@@ -5,7 +5,7 @@
 Unused Public Methods
 +++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Unused Public Methods: This rule lists unused public methods.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Unused Public Methods
 	:og:description: This rule lists unused public methods
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/UnusedPublicMethod.html
 	:og:locale: en
-  This rule lists unused public methods. 
+This rule lists unused public methods. 
 
 Unused public methods are declared as ``public`` in the class, but never called, including outside the class.
 

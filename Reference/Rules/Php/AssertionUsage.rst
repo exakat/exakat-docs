@@ -5,7 +5,7 @@
 Assertions
 ++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Assertions: Usage of assertions, to add checks within PHP code.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Assertions
 	:og:description: Usage of assertions, to add checks within PHP code
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/AssertionUsage.html
 	:og:locale: en
-  Usage of assertions, to add checks within PHP code.
+Usage of assertions, to add checks within PHP code.
 
 Assertions should be used as a debugging feature only. You may use them for sanity-checks that test for conditions that should always be `TRUE <https://www.php.net/TRUE>`_ and that indicate some programming errors if not or to check for the presence of certain features like extension functions or certain system limits and features.
 

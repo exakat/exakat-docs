@@ -5,7 +5,7 @@
 Failing Analysis
 ++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Failing Analysis: This is a dummy analysis.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Failing Analysis
 	:og:description: This is a dummy analysis
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/FailingAnalysis.html
 	:og:locale: en
-  This is a dummy analysis. It is made to fail, for testing purposes.
+This is a dummy analysis. It is made to fail, for testing purposes.
 
 Specs
 _____

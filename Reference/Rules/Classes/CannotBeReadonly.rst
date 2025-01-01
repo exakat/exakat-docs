@@ -5,7 +5,7 @@
 Property Cannot Be Readonly
 +++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Property Cannot Be Readonly: This analysis reports different situations where a property is readonly, and has some impossible code.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Property Cannot Be Readonly
 	:og:description: This analysis reports different situations where a property is readonly, and has some impossible code
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/CannotBeReadonly.html
 	:og:locale: en
-  This analysis reports different situations where a property is readonly, and has some impossible code. 
+This analysis reports different situations where a property is readonly, and has some impossible code. 
 
 Two cases are reported : 
 + a `self <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_-updated property, where it is updated with a value that is created from itself. The most obvious is ``$this->a = `$this <https://www.php.net/manual/en/language.oop5.basic.php>`_->a;`` (which is reported as an `error <https://www.php.net/error>`_ by PHP), and ``$this->a = foo(`$this <https://www.php.net/manual/en/language.oop5.basic.php>`_->a);`` is the most common.

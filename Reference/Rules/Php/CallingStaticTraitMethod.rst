@@ -5,7 +5,7 @@
 Calling Static Trait Method
 +++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Calling Static Trait Method: Calling directly a static method, defined in a trait is deprecated.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Calling Static Trait Method
 	:og:description: Calling directly a static method, defined in a trait is deprecated
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/CallingStaticTraitMethod.html
 	:og:locale: en
-  Calling directly a `static <https://www.php.net/manual/en/language.oop5.static.php>`_ method, defined in a trait is deprecated. It emits a deprecation notice in PHP 8.1.
+Calling directly a `static <https://www.php.net/manual/en/language.oop5.static.php>`_ method, defined in a trait is deprecated. It emits a deprecation notice in PHP 8.1.
 Calling the same method, from the class point of view is valid.
 
 .. code-block:: php

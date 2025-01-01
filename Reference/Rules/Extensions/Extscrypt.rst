@@ -5,7 +5,7 @@
 ext/scrypt
 ++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/scrypt: This is a PHP library providing a wrapper to Colin Percival's scrypt implementation.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/scrypt
 	:og:description: This is a PHP library providing a wrapper to Colin Percival's scrypt implementation
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extscrypt.html
 	:og:locale: en
-  This is a PHP library providing a wrapper to Colin Percival's scrypt implementation. Scrypt is a key derivation function designed to be far more `secure <https://www.php.net/secure>`_ against hardware brute-force attacks than alternative functions such as PBKDF2 or bcrypt.
+This is a PHP library providing a wrapper to Colin Percival's scrypt implementation. Scrypt is a key derivation function designed to be far more `secure <https://www.php.net/secure>`_ against hardware brute-force attacks than alternative functions such as PBKDF2 or bcrypt.
 
 .. code-block:: php
    

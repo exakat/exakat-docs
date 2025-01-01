@@ -5,7 +5,7 @@
 Do Not Cast To Int
 ++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Do Not Cast To Int: Do not cast floats values to int.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Do Not Cast To Int
 	:og:description: Do not cast floats values to int
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/NoCastToInt.html
 	:og:locale: en
-  Do not cast floats values to int. Uses conversion functions like `intval() <https://www.php.net/intval>`_, `round() <https://www.php.net/round>`_, `floor() <https://www.php.net/floor>`_ or `ceil() <https://www.php.net/ceil>`_ to convert the value to integer, with known behavior. 
+Do not cast floats values to int. Uses conversion functions like `intval() <https://www.php.net/intval>`_, `round() <https://www.php.net/round>`_, `floor() <https://www.php.net/floor>`_ or `ceil() <https://www.php.net/ceil>`_ to convert the value to integer, with known behavior. 
 
 Use functions like `floor() <https://www.php.net/floor>`_, `round() <https://www.php.net/round>`_ or `ceil() <https://www.php.net/ceil>`_ : they use an explicit method for rounding, that helps keeping the side effects under control.
 

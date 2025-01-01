@@ -5,7 +5,7 @@
 Use Recursive count()
 +++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Use Recursive count(): The native count() function is recursive: it can count all the elements inside multi-dimensional arrays.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Use Recursive count()
 	:og:description: The native count() function is recursive: it can count all the elements inside multi-dimensional arrays
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/UseCountRecursive.html
 	:og:locale: en
-  The native `count() <https://www.php.net/count>`_ function is recursive: it can count all the elements inside multi-dimensional arrays. 
+The native `count() <https://www.php.net/count>`_ function is recursive: it can count all the elements inside multi-dimensional arrays. 
 
 The second argument of count, when set to ``COUNT_RECURSIVE``, count recursively the elements. 
 

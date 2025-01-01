@@ -5,7 +5,7 @@
 String Interpolation Favorite
 +++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		String Interpolation Favorite: This analysis collects the various ways that string interpolation is done inside strings.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ String Interpolation Favorite
 	:og:description: This analysis collects the various ways that string interpolation is done inside strings
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/StringInterpolationFavorite.html
 	:og:locale: en
-  This analysis collects the various ways that string interpolation is done inside strings. Until PHP 8.1, there were 4 ways :
+This analysis collects the various ways that string interpolation is done inside strings. Until PHP 8.1, there were 4 ways :
 
 .. code-block:: php
    

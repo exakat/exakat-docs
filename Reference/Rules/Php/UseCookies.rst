@@ -5,7 +5,7 @@
 Use Cookies
 +++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Use Cookies: This code source uses cookies.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Use Cookies
 	:og:description: This code source uses cookies
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/UseCookies.html
 	:og:locale: en
-  This code source uses cookies. 
+This code source uses cookies. 
 
 Cookie usage is spotted with the usage of `setcookie() <https://www.php.net/setcookie>`_, `setrawcookie() <https://www.php.net/setrawcookie>`_ and `header() <https://www.php.net/header>`_ with the 'Set-Cookie' header.
 

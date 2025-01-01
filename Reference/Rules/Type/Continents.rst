@@ -5,7 +5,7 @@
 Continents
 ++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Continents: List of all the continents mentioned in the code.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Continents
 	:og:description: List of all the continents mentioned in the code
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Type/Continents.html
 	:og:locale: en
-  List of all the continents mentioned in the code.
+List of all the continents mentioned in the code.
 
 Specs
 _____

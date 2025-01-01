@@ -5,7 +5,7 @@
 No Default For Referenced Parameter
 +++++++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		No Default For Referenced Parameter: Parameters with reference should not have a default value.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ No Default For Referenced Parameter
 	:og:description: Parameters with reference should not have a default value
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/NoDefaultForReference.html
 	:og:locale: en
-  Parameters with reference should not have a default value. 
+Parameters with reference should not have a default value. 
 
 When they have a default value, that default value is not a reference, and it will not have impact on the calling context. 
 

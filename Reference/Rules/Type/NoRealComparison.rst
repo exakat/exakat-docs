@@ -5,7 +5,7 @@
 No Real Comparison
 ++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		No Real Comparison: Avoid comparing decimal numbers with ==, ===, !==, !=.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ No Real Comparison
 	:og:description: Avoid comparing decimal numbers with ==, ===, !==, !=
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Type/NoRealComparison.html
 	:og:locale: en
-  Avoid comparing decimal numbers with ==, ===, !==, !=. Real numbers have an `error <https://www.php.net/error>`_ margin which is random, and makes it very difficult to match even if the compared value is a literal. 
+Avoid comparing decimal numbers with ==, ===, !==, !=. Real numbers have an `error <https://www.php.net/error>`_ margin which is random, and makes it very difficult to match even if the compared value is a literal. 
 
 PHP uses an internal representation in base 2 : any number difficult to represent with this base (like 0.1 or 0.7) will have a margin of `error <https://www.php.net/error>`_.
 Use precision formulas with `abs() <https://www.php.net/abs>`_ to approximate values with a given precision, or avoid reals altogether.

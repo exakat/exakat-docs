@@ -5,7 +5,7 @@
 Autoloading
 +++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Autoloading: Usage of the autoloading feature of PHP.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Autoloading
 	:og:description: Usage of the autoloading feature of PHP
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/AutoloadUsage.html
 	:og:locale: en
-  Usage of the autoloading feature of PHP. 
+Usage of the autoloading feature of PHP. 
 Defining the __autoload() function is obsolete since PHP 7.2.
 
 .. code-block:: php

@@ -5,7 +5,7 @@
 No Null For Native PHP Functions
 ++++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		No Null For Native PHP Functions: Null is not acceptable anymore as an argument, for PHP native functions that require a non-nullable argument.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ No Null For Native PHP Functions
 	:og:description: Null is not acceptable anymore as an argument, for PHP native functions that require a non-nullable argument
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/NoNullForNative.html
 	:og:locale: en
-  Null is not acceptable anymore as an argument, for PHP native functions that require a non-nullable argument.
+Null is not acceptable anymore as an argument, for PHP native functions that require a non-nullable argument.
 
 Until PHP 8.1, it was magically turned into an empty string.
 

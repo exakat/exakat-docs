@@ -5,7 +5,7 @@
 Use Positive Condition
 ++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Use Positive Condition: Whenever possible, use a positive condition.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Use Positive Condition
 	:og:description: Whenever possible, use a positive condition
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/UsePositiveCondition.html
 	:og:locale: en
-  Whenever possible, use a positive condition. 
+Whenever possible, use a positive condition. 
 
 Positive conditions are easier to understand, and lead to less understanding problems.
 Negative conditions are not reported when else is not present.

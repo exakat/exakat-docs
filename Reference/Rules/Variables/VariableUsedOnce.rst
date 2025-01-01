@@ -5,7 +5,7 @@
 Used Once Variables
 +++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Used Once Variables: This is the list of used once variables.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Used Once Variables
 	:og:description: This is the list of used once variables
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Variables/VariableUsedOnce.html
 	:og:locale: en
-  This is the list of used once variables. 
+This is the list of used once variables. 
 Such variables are useless. Variables must be used at least twice : once for writing, once for reading, at least. It is recommended to remove them.
 
 In special situations, variables may be used once : 

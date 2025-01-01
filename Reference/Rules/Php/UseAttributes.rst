@@ -5,7 +5,7 @@
 Use PHP Attributes
 ++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Use PHP Attributes: This rule reports if PHP 8.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Use PHP Attributes
 	:og:description: This rule reports if PHP 8
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/UseAttributes.html
 	:og:locale: en
-  This rule reports if PHP 8.0 attributes are in use. 
+This rule reports if PHP 8.0 attributes are in use. 
 
 Attributes look like special comments ``#[`... <https://www.php.net/manual/en/functions.arguments.php#functions.variable-arg-list>`_]``. They are linked to classes, traits, interfaces, enums, class constants, functions, methods, and parameters.
 

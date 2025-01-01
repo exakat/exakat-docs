@@ -5,7 +5,7 @@
 Scalar Typehint Usage
 +++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Scalar Typehint Usage: Spot usage of scalar type hint : ``int``, ``float``, ``boolean`` and ``string``.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Scalar Typehint Usage
 	:og:description: Spot usage of scalar type hint : ``int``, ``float``, ``boolean`` and ``string``
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/ScalarTypehintUsage.html
 	:og:locale: en
-  Spot usage of scalar type hint : ``int``, ``float``, ``boolean`` and ``string``.
+Spot usage of scalar type hint : ``int``, ``float``, ``boolean`` and ``string``.
 
 Scalar typehint are PHP 7.0 and more recent. Some, like ``object``, is 7.2.
 

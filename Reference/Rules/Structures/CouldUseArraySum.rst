@@ -5,7 +5,7 @@
 Could Use array_sum()
 +++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Could Use array_sum(): These loops could use array_sum().
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Could Use array_sum()
 	:og:description: These loops could use array_sum()
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/CouldUseArraySum.html
 	:og:locale: en
-  These loops could use `array_sum() <https://www.php.net/array_sum>`_. `array_sum() <https://www.php.net/array_sum>`_ loops over the array and sum all of its elements. It is a native PHP function, faster to execute and easier to read.
+These loops could use `array_sum() <https://www.php.net/array_sum>`_. `array_sum() <https://www.php.net/array_sum>`_ loops over the array and sum all of its elements. It is a native PHP function, faster to execute and easier to read.
 When the added elements are, in fact, arrays, use `array_merge() <https://www.php.net/array_merge>`_ instead of `array_sum() <https://www.php.net/array_sum>`_.
 
 This is a micro-optimisation : it will speed up the code, but won't bring large improvements.

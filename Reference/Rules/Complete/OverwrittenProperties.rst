@@ -5,7 +5,7 @@
 Overwritten Properties
 ++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Overwritten Properties: This command adds OVERWRITE link between property definitions of classes.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Overwritten Properties
 	:og:description: This command adds OVERWRITE link between property definitions of classes
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Complete/OverwrittenProperties.html
 	:og:locale: en
-  This command adds OVERWRITE link between property definitions of classes.
+This command adds OVERWRITE link between property definitions of classes.
 The `$p` property will be linked between classes x and y, with an OVERWRITE link.
 
 .. code-block:: php

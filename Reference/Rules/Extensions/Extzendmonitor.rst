@@ -5,7 +5,7 @@
 ext/zend_monitor
 ++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/zend_monitor: Extension ``zend_monitor``.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/zend_monitor
 	:og:description: Extension ``zend_monitor``
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extzendmonitor.html
 	:og:locale: en
-  Extension ``zend_monitor``. 
+Extension ``zend_monitor``. 
 
 The Zend Monitor component is integrated into the runtime environment and serves as an alerting and collection mechanism for early detection of PHP script problems.
 

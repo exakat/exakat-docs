@@ -5,7 +5,7 @@
 Array Access On Literal Array
 +++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Array Access On Literal Array: Accessing an element on a literal array makes that array non-reusable.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Array Access On Literal Array
 	:og:description: Accessing an element on a literal array makes that array non-reusable
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ArrayAccessOnLiteralArray.html
 	:og:locale: en
-  Accessing an element on a literal array makes that array non-reusable. 
+Accessing an element on a literal array makes that array non-reusable. 
 
 It is recommended to make this array a constant or a property, for easier reusage. It also make that content more visiblem in the class definitions.
 

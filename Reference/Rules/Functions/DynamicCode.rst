@@ -5,7 +5,7 @@
 Function With Dynamic Code
 ++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Function With Dynamic Code: Mark a method, function, closure, arrow function that includes dynamic code.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Function With Dynamic Code
 	:og:description: Mark a method, function, closure, arrow function that includes dynamic code
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/DynamicCode.html
 	:og:locale: en
-  Mark a method, function, `closure <https://www.php.net/`closure <https://www.php.net/closure>`_>`_, arrow function that includes dynamic code. 
+Mark a method, function, `closure <https://www.php.net/`closure <https://www.php.net/closure>`_>`_, arrow function that includes dynamic code. 
 
 Dynamic code is based on usage of include(), require(), require_once() and include(), `extract() <https://www.php.net/extract>`_ and eval(). 
 

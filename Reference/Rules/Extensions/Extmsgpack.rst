@@ -5,7 +5,7 @@
 ext/msgpack
 +++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/msgpack: Extension msgPack.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/msgpack
 	:og:description: Extension msgPack
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extmsgpack.html
 	:og:locale: en
-  Extension msgPack.
+Extension msgPack.
 
 This extension provide API for handling MessagePack serialization, both encoding and decoding.
 

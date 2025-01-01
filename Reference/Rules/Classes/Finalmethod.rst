@@ -5,7 +5,7 @@
 Final Methods Usage
 +++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Final Methods Usage: List of all final methods being used.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Final Methods Usage
 	:og:description: List of all final methods being used
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/Finalmethod.html
 	:og:locale: en
-  List of all final methods being used.
+List of all final methods being used.
 
 final may be applied to classes and methods in classes and traits.
 

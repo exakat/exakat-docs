@@ -5,7 +5,7 @@
 move_uploaded_file Instead Of copy
 ++++++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		move_uploaded_file Instead Of copy: Always use move_uploaded_file() with uploaded files.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ move_uploaded_file Instead Of copy
 	:og:description: Always use move_uploaded_file() with uploaded files
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Security/MoveUploadedFile.html
 	:og:locale: en
-  Always use `move_uploaded_file() <https://www.php.net/move_uploaded_file>`_ with uploaded files. Avoid using copy or rename with uploaded file. 
+Always use `move_uploaded_file() <https://www.php.net/move_uploaded_file>`_ with uploaded files. Avoid using copy or rename with uploaded file. 
 
 `move_uploaded_file() <https://www.php.net/move_uploaded_file>`_ checks to ensure that the file designated by filename is a valid upload file (meaning that it was uploaded via PHP's HTTP POST upload mechanism).
 

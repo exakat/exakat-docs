@@ -5,7 +5,7 @@
 Clone Constant
 ++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Clone Constant: Cloning constant is possible since PHP 8.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Clone Constant
 	:og:description: Cloning constant is possible since PHP 8
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/CloneConstant.html
 	:og:locale: en
-  Cloning constant is possible since PHP 8.1. Until that version, constants could not be an object, and as such, could not be cloned. 
+Cloning constant is possible since PHP 8.1. Until that version, constants could not be an object, and as such, could not be cloned. 
 
 This is also valid with default values, however they are assigned to a variable, which falls back to the classic clone usage.
 

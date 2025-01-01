@@ -5,7 +5,7 @@
 Definitions Only
 ++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Definitions Only: File is definition only.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Definitions Only
 	:og:description: File is definition only
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Files/DefinitionsOnly.html
 	:og:locale: en
-  File is definition only.
+File is definition only.
 
 Definition-only files only include structure definitions : class, functions, traits, interfaces, constants, global, declare(), use and include().
 

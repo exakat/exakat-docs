@@ -5,7 +5,7 @@
 Overload Existing Names
 +++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Overload Existing Names: Imported alias have precedence over existing ones, and as such, may replace existing features with unexpected ones.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Overload Existing Names
 	:og:description: Imported alias have precedence over existing ones, and as such, may replace existing features with unexpected ones
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Namespaces/OverloadExistingNames.html
 	:og:locale: en
-  Imported alias have precedence over existing ones, and as such, may replace existing features with unexpected ones. 
+Imported alias have precedence over existing ones, and as such, may replace existing features with unexpected ones. 
 
 This example shows how to replace `strtolower() <https://www.php.net/strtolower>`_ with `strtoupper() <https://www.php.net/strtoupper>`_ while keeping the main code intact. This might be very confusing code. 
 This behavior is important for backward compatibility, and also to avoid naming conflicts when the coding has been done with a PHP installation which do not have some specific declaration. For example, a source may define an 'Event' class, which will be in conflict when the ext/event library is installed. 

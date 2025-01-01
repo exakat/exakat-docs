@@ -5,7 +5,7 @@
 Named Parameter Usage
 +++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Named Parameter Usage: Named parameters is a way to call a method, by specifying the name of the argument, instead of their position order.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Named Parameter Usage
 	:og:description: Named parameters is a way to call a method, by specifying the name of the argument, instead of their position order
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/NamedParameterUsage.html
 	:og:locale: en
-  Named parameters is a way to call a method, by specifying the name of the argument, instead of their position order.
+Named parameters is a way to call a method, by specifying the name of the argument, instead of their position order.
 
 Named parameters works for both custom methods and PHP native functions.
 

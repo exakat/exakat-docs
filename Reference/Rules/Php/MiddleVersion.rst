@@ -5,7 +5,7 @@
 PHP Bugfixes
 ++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		PHP Bugfixes: This is the list of features, used in the code, that also received a bug fix in recent PHP versions.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ PHP Bugfixes
 	:og:description: This is the list of features, used in the code, that also received a bug fix in recent PHP versions
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/MiddleVersion.html
 	:og:locale: en
-  This is the list of features, used in the code, that also received a bug fix in recent PHP versions.
+This is the list of features, used in the code, that also received a bug fix in recent PHP versions.
 
 Specs
 _____

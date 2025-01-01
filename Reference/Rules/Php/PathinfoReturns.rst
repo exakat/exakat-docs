@@ -5,7 +5,7 @@
 Pathinfo() Returns May Vary
 +++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Pathinfo() Returns May Vary: pathinfo() function returns an array whose content may vary.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Pathinfo() Returns May Vary
 	:og:description: pathinfo() function returns an array whose content may vary
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/PathinfoReturns.html
 	:og:locale: en
-  `pathinfo() <https://www.php.net/pathinfo>`_ function returns an array whose content may vary. It is recommended to collect the values after check, rather than directly.
+`pathinfo() <https://www.php.net/pathinfo>`_ function returns an array whose content may vary. It is recommended to collect the values after check, rather than directly.
 The same applies to `parse_url() <https://www.php.net/parse_url>`_, which returns an array with various index.
 
 .. code-block:: php

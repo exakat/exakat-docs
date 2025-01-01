@@ -5,7 +5,7 @@
 Constants Names
 +++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Constants Names: List of PHP defined global constants in the source code.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Constants Names
 	:og:description: List of PHP defined global constants in the source code
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Constants/Constantnames.html
 	:og:locale: en
-  List of PHP defined global constants in the source code. Constants are defined with the ``define()`` functioncall or ``const`` command. 
+List of PHP defined global constants in the source code. Constants are defined with the ``define()`` functioncall or ``const`` command. 
 
 .. code-block:: php
    

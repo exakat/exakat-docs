@@ -5,7 +5,7 @@
 Class Should Be Final By Ocramius
 +++++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Class Should Be Final By Ocramius: 'Make your classes always final, if they implement an interface, and no other public methods are defined'.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Class Should Be Final By Ocramius
 	:og:description: 'Make your classes always final, if they implement an interface, and no other public methods are defined'
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/FinalByOcramius.html
 	:og:locale: en
-  'Make your classes always final, if they implement an interface, and no other public methods are defined'.
+'Make your classes always final, if they implement an interface, and no other public methods are defined'.
 
 When a class should be final, as explained by ``Ocramius`` (``Marco Pivetta``).
 

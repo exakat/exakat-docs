@@ -5,7 +5,7 @@
 Use Const And Functions
 +++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Use Const And Functions: Since PHP 5.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Use Const And Functions
 	:og:description: Since PHP 5
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Namespaces/UseFunctionsConstants.html
 	:og:locale: en
-  Since PHP 5.6 it is possible to import specific functions or constants from other namespaces.
+Since PHP 5.6 it is possible to import specific functions or constants from other namespaces.
 
 .. code-block:: php
    

@@ -5,7 +5,7 @@
 Mixed Keys In Array
 +++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Mixed Keys In Array: Avoid mixing constants and literals in array keys.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Mixed Keys In Array
 	:og:description: Avoid mixing constants and literals in array keys
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Arrays/MixedKeys.html
 	:og:locale: en
-  Avoid mixing constants and literals in array keys.
+Avoid mixing constants and literals in array keys.
 
 When defining default values in arrays, it is recommended to avoid mixing constants and literals, as PHP may mistake them and overwrite the previous with the latter.
 

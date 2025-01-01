@@ -5,7 +5,7 @@
 Could Be Type
 +++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Could Be Type: This is a generic analysis, that applies common patterns when searching for types.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Could Be Type
 	:og:description: This is a generic analysis, that applies common patterns when searching for types
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Typehints/CouldBeType.html
 	:og:locale: en
-  This is a generic analysis, that applies common patterns when searching for types. It should not be used directly.
+This is a generic analysis, that applies common patterns when searching for types. It should not be used directly.
 
 Specs
 _____

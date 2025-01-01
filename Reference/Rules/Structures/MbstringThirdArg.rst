@@ -5,7 +5,7 @@
 Mbstring Third Arg
 ++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Mbstring Third Arg: Some mbstring functions use the third argument for offset, not for encoding.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Mbstring Third Arg
 	:og:description: Some mbstring functions use the third argument for offset, not for encoding
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/MbstringThirdArg.html
 	:og:locale: en
-  Some mbstring functions use the third argument for offset, not for encoding.
+Some mbstring functions use the third argument for offset, not for encoding.
 
 Those are the following functions : 
 

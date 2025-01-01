@@ -5,7 +5,7 @@
 Make All Statics
 ++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Make All Statics: This links each `static` keyword to all possible classes definition.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Make All Statics
 	:og:description: This links each `static` keyword to all possible classes definition
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Complete/MakeAllStatics.html
 	:og:locale: en
-  This links each `static` keyword to all possible classes definition. 
+This links each `static` keyword to all possible classes definition. 
 
 It checks the `\:\:` operator, with for `static <https://www.php.net/manual/en/language.oop5.static.php>`_ constant, `static <https://www.php.net/manual/en/language.oop5.static.php>`_ properties, `static <https://www.php.net/manual/en/language.oop5.static.php>`_ methods and class operator. 
 

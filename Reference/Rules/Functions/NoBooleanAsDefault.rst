@@ -5,7 +5,7 @@
 No Boolean As Default
 +++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		No Boolean As Default: Default values should always be set up with a constant name.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ No Boolean As Default
 	:og:description: Default values should always be set up with a constant name
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/NoBooleanAsDefault.html
 	:og:locale: en
-  Default values should always be set up with a constant name.
+Default values should always be set up with a constant name.
 
 Class constants and constants improve readability when calling the methods or comparing values and statuses.
 

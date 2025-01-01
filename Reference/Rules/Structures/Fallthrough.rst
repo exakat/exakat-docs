@@ -5,7 +5,7 @@
 Switch Fallthrough
 ++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Switch Fallthrough: A switch with fallthrough is prone to errors.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Switch Fallthrough
 	:og:description: A switch with fallthrough is prone to errors
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/Fallthrough.html
 	:og:locale: en
-  A switch with fallthrough is prone to errors. 
+A switch with fallthrough is prone to errors. 
 
 A fallthrough happens when a case or default clause in a switch statement is not finished by a `break <https://www.php.net/manual/en/control-structures.break.php>`_ (or equivalent);
 CWE report this as a security concern, unless well documented.

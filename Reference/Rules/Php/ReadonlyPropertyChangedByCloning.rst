@@ -5,7 +5,7 @@
 Readonly Property Changed By Cloning
 ++++++++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Readonly Property Changed By Cloning: Readonly properties may be changed when cloning.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Readonly Property Changed By Cloning
 	:og:description: Readonly properties may be changed when cloning
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/ReadonlyPropertyChangedByCloning.html
 	:og:locale: en
-  Readonly properties may be changed when cloning. This may happen in the ``__clone`` magic method. 
+Readonly properties may be changed when cloning. This may happen in the ``__clone`` magic method. 
 
 In that method, a new object is being created. It is acting like a constructor, and may tweak some of the values of the original object, before assigning them to the new object.
 

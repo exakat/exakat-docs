@@ -5,7 +5,7 @@
 Used Methods
 ++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Used Methods: Those methods are used in the code: this means they have a definition and at least one call.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Used Methods
 	:og:description: Those methods are used in the code: this means they have a definition and at least one call
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/UsedMethods.html
 	:og:locale: en
-  Those methods are used in the code: this means they have a definition and at least one call. They may have more than one call too. This analysis is mostly useful for detecting unused methods.
+Those methods are used in the code: this means they have a definition and at least one call. They may have more than one call too. This analysis is mostly useful for detecting unused methods.
 
 .. code-block:: php
    

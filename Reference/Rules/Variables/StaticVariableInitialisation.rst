@@ -5,7 +5,7 @@
 Static Variable Initialisation
 ++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Static Variable Initialisation: Static variables can be initialized like any other variable, straight from the ``static`` keyword.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Static Variable Initialisation
 	:og:description: Static variables can be initialized like any other variable, straight from the ``static`` keyword
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Variables/StaticVariableInitialisation.html
 	:og:locale: en
-  `Static <https://www.php.net/manual/en/language.oop5.static.php>`_ variables can be initialized like any other variable, straight from the ``static`` keyword. This was added in PHP 8.3.
+`Static <https://www.php.net/manual/en/language.oop5.static.php>`_ variables can be initialized like any other variable, straight from the ``static`` keyword. This was added in PHP 8.3.
 
 Indeed, `static <https://www.php.net/manual/en/language.oop5.static.php>`_ variables are variables, so they shall be initialized with any value, another variable or a functioncall. This behavior is different from the `static <https://www.php.net/manual/en/language.oop5.static.php>`_ constant expression, where only a small set of operators and constants can be used.
 

@@ -5,7 +5,7 @@
 Follow Closure Definition
 +++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Follow Closure Definition: This command adds DEFINITION link between closure and arrow functions definitions and their usage.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Follow Closure Definition
 	:og:description: This command adds DEFINITION link between closure and arrow functions definitions and their usage
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Complete/FollowClosureDefinition.html
 	:og:locale: en
-  This command adds DEFINITION link between `closure <https://www.php.net/`closure <https://www.php.net/closure>`_>`_ and arrow functions definitions and their usage.
+This command adds DEFINITION link between `closure <https://www.php.net/`closure <https://www.php.net/closure>`_>`_ and arrow functions definitions and their usage.
 
 Local usage of the `closure <https://www.php.net/`closure <https://www.php.net/closure>`_>`_, in the same scope, are detected. Relayed `closure <https://www.php.net/`closure <https://www.php.net/closure>`_>`_, when they are transmitted to another method for usage, is detected, for one jump.
 

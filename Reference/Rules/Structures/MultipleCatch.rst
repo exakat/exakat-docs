@@ -5,7 +5,7 @@
 Multiple Catch With Try
 +++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Multiple Catch With Try: This rule reports when a try structure have several catch statements.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Multiple Catch With Try
 	:og:description: This rule reports when a try structure have several catch statements
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/MultipleCatch.html
 	:og:locale: en
-  This rule reports when a try structure have several catch statements. Usually, try structures have only one catch, so more catch clauses are worth checking.
+This rule reports when a try structure have several catch statements. Usually, try structures have only one catch, so more catch clauses are worth checking.
 
 .. code-block:: php
    

@@ -5,7 +5,7 @@
 Special Integers
 ++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Special Integers: Short and incomplete list of integers that may hold special values.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Special Integers
 	:og:description: Short and incomplete list of integers that may hold special values
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Type/SpecialIntegers.html
 	:og:locale: en
-  Short and incomplete list of integers that may hold special values. 
+Short and incomplete list of integers that may hold special values. 
 The list includes powers of 2, duration in various units, factorial, ASCII codes and years.
 
 .. code-block:: php

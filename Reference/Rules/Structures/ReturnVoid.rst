@@ -5,7 +5,7 @@
 Return void 
 ++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Return void : Return returns null as default value.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Return void
 	:og:description: Return returns null as default value
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ReturnVoid.html
 	:og:locale: en
-  Return returns null as default value. It is recommended to mention explicitly 'null' or find a meaningful return such as a boolean or a default value instead.
+Return returns null as default value. It is recommended to mention explicitly 'null' or find a meaningful return such as a boolean or a default value instead.
 
 .. code-block:: php
    

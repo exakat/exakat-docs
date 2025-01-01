@@ -5,7 +5,7 @@
 date() versus DateTime Preference
 +++++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		date() versus DateTime Preference: Processing dates is done with date() functions or DateTime classes.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ date() versus DateTime Preference
 	:og:description: Processing dates is done with date() functions or DateTime classes
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/DateTimePreference.html
 	:og:locale: en
-  Processing dates is done with `date() <https://www.php.net/date>`_ functions or `DateTime <https://www.php.net/`datetime <https://www.php.net/datetime>`_>`_ classes. 
+Processing dates is done with `date() <https://www.php.net/date>`_ functions or `DateTime <https://www.php.net/`datetime <https://www.php.net/datetime>`_>`_ classes. 
 
 In the `date() <https://www.php.net/date>`_ team, there are the following functions : `date() <https://www.php.net/date>`_, `time() <https://www.php.net/time>`_, `getdate() <https://www.php.net/getdate>`_, `localtime() <https://www.php.net/localtime>`_, `strtotime() <https://www.php.net/strtotime>`_, `strptime() <https://www.php.net/strptime>`_, `gmdate() <https://www.php.net/gmdate>`_, `strftime() <https://www.php.net/strftime>`_, `mktime() <https://www.php.net/mktime>`_, gmktime().
 

@@ -5,7 +5,7 @@
 Error_Log() Usage
 +++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Error_Log() Usage: Usage of error_log() function.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Error_Log() Usage
 	:og:description: Usage of error_log() function
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/ErrorLogUsage.html
 	:og:locale: en
-  Usage of `error_log() <https://www.php.net/error_log>`_ function. This leads to checking the configuration of ``error_log`` in the PHP configuration directives.
+Usage of `error_log() <https://www.php.net/error_log>`_ function. This leads to checking the configuration of ``error_log`` in the PHP configuration directives.
 
 .. code-block:: php
    

@@ -5,7 +5,7 @@
 Could Use Yield From
 ++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Could Use Yield From: ``Yield from`` can be applied to an array or another generator.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Could Use Yield From
 	:og:description: ``Yield from`` can be applied to an array or another generator
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/CouldUseYieldFrom.html
 	:og:locale: en
-  ``Yield from`` can be applied to an array or another `generator <https://www.php.net/`generator <https://www.php.net/generator>`_>`_. It replaces a loop and a ``yield`` call. The resulting syntax is shorter and faster.
+``Yield from`` can be applied to an array or another `generator <https://www.php.net/`generator <https://www.php.net/generator>`_>`_. It replaces a loop and a ``yield`` call. The resulting syntax is shorter and faster.
 
 .. code-block:: php
    

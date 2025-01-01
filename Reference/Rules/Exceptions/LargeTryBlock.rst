@@ -5,7 +5,7 @@
 Large Try Block
 +++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Large Try Block: Try block should enclosing only the expression that may emit an exception.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Large Try Block
 	:og:description: Try block should enclosing only the expression that may emit an exception
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Exceptions/LargeTryBlock.html
 	:og:locale: en
-  Try block should enclosing only the expression that may emit an `exception <https://www.php.net/exception>`_. 
+Try block should enclosing only the expression that may emit an `exception <https://www.php.net/exception>`_. 
 
 When writing large blocks of code in a try, it becomes difficult to understand where the expression is coming from. Large blocks may also lead to catch multiples exceptions, with a long list of catch clause. 
 

@@ -5,7 +5,7 @@
 Typed Property Usage
 ++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Typed Property Usage: PHP properties may be typed.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Typed Property Usage
 	:og:description: PHP properties may be typed
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/TypedPropertyUsage.html
 	:og:locale: en
-  PHP properties may be typed. Since PHP 7.4, it is possible to type properties, just like arguments and return values.
+PHP properties may be typed. Since PHP 7.4, it is possible to type properties, just like arguments and return values.
 
 .. code-block:: php
    

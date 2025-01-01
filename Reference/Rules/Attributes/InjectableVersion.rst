@@ -5,7 +5,7 @@
 Injectable Version
 ++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Injectable Version: The Injectable Version attribute mark a class in a class hierarchy to be the one to use when giving a type to a parameter, return type or property.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Injectable Version
 	:og:description: The Injectable Version attribute mark a class in a class hierarchy to be the one to use when giving a type to a parameter, return type or property
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Attributes/InjectableVersion.html
 	:og:locale: en
-  The Injectable Version `attribute <https://www.php.net/attribute>`_ mark a class in a class hierarchy to be the one to use when giving a type to a parameter, return type or property.
+The Injectable Version `attribute <https://www.php.net/attribute>`_ mark a class in a class hierarchy to be the one to use when giving a type to a parameter, return type or property.
 
 For constructor, it is an implicit check. For other methods, the method has to be marked as ``CheckInjectableMethod`` to be checked. In case no `attribute <https://www.php.net/attribute>`_ is provided, both for ``InjectableVersion`` and ``CheckInjectableVersion``, no `error <https://www.php.net/error>`_ is returned.
 

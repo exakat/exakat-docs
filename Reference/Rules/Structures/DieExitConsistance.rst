@@ -5,7 +5,7 @@
 Die Exit Consistence
 ++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Die Exit Consistence: Die and Exit have the same functional use.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Die Exit Consistence
 	:og:description: Die and Exit have the same functional use
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/DieExitConsistance.html
 	:og:locale: en
-  `Die <https://www.php.net/die>`_ and `Exit <https://www.www.php.net/exit>`_ have the same functional use. 
+`Die <https://www.php.net/die>`_ and `Exit <https://www.www.php.net/exit>`_ have the same functional use. 
 
 The analyzed code has less than 10% of one of them : for consistency reasons, it is recommended to make them all the same. 
 

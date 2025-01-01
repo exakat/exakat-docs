@@ -5,7 +5,7 @@
 ext/mcrypt
 ++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/mcrypt: Extension for mcrypt.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/mcrypt
 	:og:description: Extension for mcrypt
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extmcrypt.html
 	:og:locale: en
-  Extension for mcrypt.
+Extension for mcrypt.
 
 This extension has been deprecated as of PHP 7.1.0 and moved to PECL as of PHP 7.2.0.
 

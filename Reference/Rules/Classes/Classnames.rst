@@ -5,7 +5,7 @@
 Classes Names
 +++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Classes Names: List of all classes, as defined in the application.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Classes Names
 	:og:description: List of all classes, as defined in the application
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/Classnames.html
 	:og:locale: en
-  List of all classes, as defined in the application.
+List of all classes, as defined in the application.
 
 .. code-block:: php
    

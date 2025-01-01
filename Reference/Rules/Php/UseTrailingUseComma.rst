@@ -5,7 +5,7 @@
 Use Closure Trailing Comma
 ++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Use Closure Trailing Comma: Use a trailing comma in the closure's ``use`` list.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Use Closure Trailing Comma
 	:og:description: Use a trailing comma in the closure's ``use`` list
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/UseTrailingUseComma.html
 	:og:locale: en
-  Use a trailing comma in the `closure <https://www.php.net/`closure <https://www.php.net/closure>`_>`_'s ``use`` list. 
+Use a trailing comma in the `closure <https://www.php.net/`closure <https://www.php.net/closure>`_>`_'s ``use`` list. 
 
 A trailing comma doesn't add any argument, not even a void or null one. It is a convenient for VCS to make diff with the previous code, and have them more readable.
 

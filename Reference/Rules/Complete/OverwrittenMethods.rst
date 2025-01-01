@@ -5,7 +5,7 @@
 Overwritten Methods
 +++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Overwritten Methods: This command adds OVERWRITE link between methods definitions of classes.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Overwritten Methods
 	:og:description: This command adds OVERWRITE link between methods definitions of classes
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Complete/OverwrittenMethods.html
 	:og:locale: en
-  This command adds OVERWRITE link between methods definitions of classes.
+This command adds OVERWRITE link between methods definitions of classes.
 
 
 

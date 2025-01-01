@@ -5,7 +5,7 @@
 Implicit Nullable Type
 ++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Implicit Nullable Type: Argument with default value of null are nullable.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Implicit Nullable Type
 	:og:description: Argument with default value of null are nullable
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/HiddenNullable.html
 	:og:locale: en
-  Argument with default value of null are nullable. It works both with the ``null`` typehint (PHP 8.0), or the ``?`` operator are not used, setting the default value to null is allowed, and makes the argument nullable.
+Argument with default value of null are nullable. It works both with the ``null`` typehint (PHP 8.0), or the ``?`` operator are not used, setting the default value to null is allowed, and makes the argument nullable.
 
 This works with single types, both classes and scalars; it works with union types but not with intersection types. 
 

@@ -5,7 +5,7 @@
 Unused Classes
 ++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Unused Classes: The following classes are never explicitly used in the code.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Unused Classes
 	:og:description: The following classes are never explicitly used in the code
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/UnusedClass.html
 	:og:locale: en
-  The following classes are never explicitly used in the code.
+The following classes are never explicitly used in the code.
 
 Note that this may be valid in case the current code is a library or framework, since it defines classes that are used by other (unprovided) codes.
 Also, this analyzer may find classes that are, in fact, dynamically loaded.

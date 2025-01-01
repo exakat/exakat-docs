@@ -5,7 +5,7 @@
 ext/igbinary
 ++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/igbinary: Extension igbinary.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/igbinary
 	:og:description: Extension igbinary
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extigbinary.html
 	:og:locale: en
-  Extension igbinary. 
+Extension igbinary. 
 
 igbinary is a drop in replacement for the standard php serializer. Instead of time and space consuming textual representation, igbinary stores php data structures in compact binary form.
 

@@ -5,7 +5,7 @@
 Cannot Use Static For Closure
 +++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Cannot Use Static For Closure: The reported closures and arrow functions cannot use the static keyword.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Cannot Use Static For Closure
 	:og:description: The reported closures and arrow functions cannot use the static keyword
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/CannotUseStaticForClosure.html
 	:og:locale: en
-  The reported closures and arrow functions cannot use the `static <https://www.php.net/manual/en/language.oop5.static.php>`_ keyword. 
+The reported closures and arrow functions cannot use the `static <https://www.php.net/manual/en/language.oop5.static.php>`_ keyword. 
 
 Closures that makes use of the `$this <https://www.php.net/manual/en/language.oop5.basic.php>`_ pseudo-variable cannot use the `static <https://www.php.net/manual/en/language.oop5.static.php>`_ keyword, at it prevents the import of the `$this <https://www.php.net/manual/en/language.oop5.basic.php>`_ context in the `closure <https://www.php.net/`closure <https://www.php.net/closure>`_>`_. It will fail at execution.
 

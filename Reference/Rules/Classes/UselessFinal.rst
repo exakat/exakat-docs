@@ -5,7 +5,7 @@
 Useless Final
 +++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Useless Final: When a class is declared final, all of its methods are also final by default.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Useless Final
 	:og:description: When a class is declared final, all of its methods are also final by default
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/UselessFinal.html
 	:og:locale: en
-  When a class is declared final, all of its methods are also final by default. 
+When a class is declared final, all of its methods are also final by default. 
 
 There is no need to declare them individually final.
 

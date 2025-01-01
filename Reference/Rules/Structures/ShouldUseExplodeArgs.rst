@@ -5,7 +5,7 @@
 Should Use Explode Args
 +++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Should Use Explode Args: explode() has a third argument, which limits the amount of exploded elements.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Should Use Explode Args
 	:og:description: explode() has a third argument, which limits the amount of exploded elements
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ShouldUseExplodeArgs.html
 	:og:locale: en
-  `explode() <https://www.php.net/explode>`_ has a third argument, which limits the amount of exploded elements. With it, it is possible to collect only the first elements, or drop the last ones.
+`explode() <https://www.php.net/explode>`_ has a third argument, which limits the amount of exploded elements. With it, it is possible to collect only the first elements, or drop the last ones.
 
 .. code-block:: php
    

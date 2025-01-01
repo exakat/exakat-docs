@@ -5,7 +5,7 @@
 Coalesce And Concat
 +++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Coalesce And Concat: The concatenation operator ``.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Coalesce And Concat
 	:og:description: The concatenation operator ``
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/CoalesceAndConcat.html
 	:og:locale: en
-  The concatenation operator ``.`` has precedence over the coalesce operator ``??``. 
+The concatenation operator ``.`` has precedence over the coalesce operator ``??``. 
 
 It is recommended to add parenthesis to make this expression explicit.
 

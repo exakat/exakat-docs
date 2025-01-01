@@ -5,7 +5,7 @@
 Should Preprocess Chr()
 +++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Should Preprocess Chr(): Replace literal chr() calls with their escape sequence.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Should Preprocess Chr()
 	:og:description: Replace literal chr() calls with their escape sequence
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/ShouldPreprocess.html
 	:og:locale: en
-  Replace literal `chr() <https://www.php.net/chr>`_ calls with their escape sequence.
+Replace literal `chr() <https://www.php.net/chr>`_ calls with their escape sequence.
 
 `chr() <https://www.php.net/chr>`_ is a functioncall, that cannot be cached. It is only resolved at execution time. 
 On the other hand, literal values are preprocessed by PHP and may be cached.

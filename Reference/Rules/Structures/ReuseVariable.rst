@@ -5,7 +5,7 @@
 Reuse Existing Variable
 +++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Reuse Existing Variable: A variable is already holding the content that is calculated again : it could be used again.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Reuse Existing Variable
 	:og:description: A variable is already holding the content that is calculated again : it could be used again
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ReuseVariable.html
 	:og:locale: en
-  A variable is already holding the content that is calculated again : it could be used again. 
+A variable is already holding the content that is calculated again : it could be used again. 
 
 It is recommended to use the cached value. This saves some computation, in particular when used in a loop, and speeds up the process. This is called memoization.
 Some expressions are not idempotent, and should not be cached. For example, calls to `time() <https://www.php.net/time>`_ or `fgets() <https://www.php.net/fgets>`_ return different values with the same parameters.

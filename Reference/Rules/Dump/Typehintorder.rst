@@ -5,7 +5,7 @@
 Typehint Order
 ++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Typehint Order: Topological order, based on typehints.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Typehint Order
 	:og:description: Topological order, based on typehints
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/Typehintorder.html
 	:og:locale: en
-  Topological order, based on typehints. 
+Topological order, based on typehints. 
 
 Each function, method that use typehint is a link between a type of data and another one. The argument typehint acts as a filter, and the returned type hint is the next step.
 

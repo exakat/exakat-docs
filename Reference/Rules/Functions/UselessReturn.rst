@@ -5,7 +5,7 @@
 Useless Return
 ++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Useless Return: The spotted functions or methods have a return statement, but this statement is useless.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Useless Return
 	:og:description: The spotted functions or methods have a return statement, but this statement is useless
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/UselessReturn.html
 	:og:locale: en
-  The spotted functions or methods have a return statement, but this statement is useless. This is the case for constructor and destructors, whose return value are ignored or inaccessible.
+The spotted functions or methods have a return statement, but this statement is useless. This is the case for constructor and destructors, whose return value are ignored or inaccessible.
 
 When return is void, and the last element in a function, it is also useless.
 

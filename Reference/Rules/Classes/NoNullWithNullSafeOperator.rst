@@ -5,7 +5,7 @@
 No Null With Null Safe Operator
 +++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		No Null With Null Safe Operator: When building an expression with a null-safe operator, it may fail and produce a NULL as a result.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ No Null With Null Safe Operator
 	:og:description: When building an expression with a null-safe operator, it may fail and produce a NULL as a result
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/NoNullWithNullSafeOperator.html
 	:og:locale: en
-  When building an expression with a null-safe operator, it may fail and produce a `NULL <https://www.php.net/manual/en/language.types.null.php>`_ as a `result <https://www.php.net/result>`_. When the last method of the expression also returns null (or void, which is transformed in null), then it is not possible to differentiate between a failure and a valid execution of the method. 
+When building an expression with a null-safe operator, it may fail and produce a `NULL <https://www.php.net/manual/en/language.types.null.php>`_ as a `result <https://www.php.net/result>`_. When the last method of the expression also returns null (or void, which is transformed in null), then it is not possible to differentiate between a failure and a valid execution of the method. 
 
 As such, it is recommended to avoid finishing with a method that returns null, in an expression that uses a null-safe operator.
 

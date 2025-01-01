@@ -5,7 +5,7 @@
 No Magic Method With Array
 ++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		No Magic Method With Array: Magic method ``__set()`` doesn't work for array syntax.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ No Magic Method With Array
 	:og:description: Magic method ``__set()`` doesn't work for array syntax
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/NoMagicWithArray.html
 	:og:locale: en
-  Magic method ``__set()`` doesn't work for array syntax. 
+Magic method ``__set()`` doesn't work for array syntax. 
 
 When overloading properties, they can only be used for scalar values, excluding arrays. Under the hood, PHP uses ``__get()`` to reach for the name of the property, and doesn't recognize the following index as an array. It yields an `error <https://www.php.net/error>`_ : "Indirect modification of overloaded property".
 

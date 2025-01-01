@@ -5,7 +5,7 @@
 Redeclared Static Variable
 ++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Redeclared Static Variable: Static variables shall be declared only once.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Redeclared Static Variable
 	:og:description: Static variables shall be declared only once
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Variables/RedeclaredStaticVariable.html
 	:og:locale: en
-  `Static <https://www.php.net/manual/en/language.oop5.static.php>`_ variables shall be declared only once. It is forbidden in PHP 8.3 and later. It was silently allowed in PHP 8.2 and older.
+`Static <https://www.php.net/manual/en/language.oop5.static.php>`_ variables shall be declared only once. It is forbidden in PHP 8.3 and later. It was silently allowed in PHP 8.2 and older.
 
 .. code-block:: php
    

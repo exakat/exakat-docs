@@ -5,7 +5,7 @@
 Not Not
 +++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Not Not: Double not makes a boolean, not a ``true``.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Not Not
 	:og:description: Double not makes a boolean, not a ``true``
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/NotNot.html
 	:og:locale: en
-  Double not makes a boolean, not a ``true``.
+Double not makes a boolean, not a ``true``.
 
 This is a wrong casting to boolean. PHP supports ``(boolean)`` to do the same, faster and cleaner.
 

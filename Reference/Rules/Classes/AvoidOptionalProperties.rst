@@ -5,7 +5,7 @@
 Avoid Optional Properties
 +++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Avoid Optional Properties: Avoid optional properties, to prevent littering the code with existence checks.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Avoid Optional Properties
 	:og:description: Avoid optional properties, to prevent littering the code with existence checks
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/AvoidOptionalProperties.html
 	:og:locale: en
-  Avoid optional properties, to prevent littering the code with existence checks. 
+Avoid optional properties, to prevent littering the code with existence checks. 
 
 When a property has to be checked once for existence, it is safer to check it each time. This leads to a decrease in readability and a lot of checks added to the code.
 

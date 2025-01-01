@@ -5,7 +5,7 @@
 Using Short Tags
 ++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Using Short Tags: The code makes use of short tags.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Using Short Tags
 	:og:description: The code makes use of short tags
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ShortTags.html
 	:og:locale: en
-  The code makes use of short tags. Short tags are the following : ``<?`` . A full scripts looks like that : ``<? /* php code */ ?>`` .
+The code makes use of short tags. Short tags are the following : ``<?`` . A full scripts looks like that : ``<? /* php code */ ?>`` .
 
 It is recommended to avoid using short tags, and use standard PHP tags. This makes PHP code compatible with XML standards. Short tags used to be popular, but have lost it.
 

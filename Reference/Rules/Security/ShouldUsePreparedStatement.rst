@@ -5,7 +5,7 @@
 Should Use Prepared Statement
 +++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Should Use Prepared Statement: Modern databases provides support for prepared statement : it separates the query from the processed data and raise significantly the security.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Should Use Prepared Statement
 	:og:description: Modern databases provides support for prepared statement : it separates the query from the processed data and raise significantly the security
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Security/ShouldUsePreparedStatement.html
 	:og:locale: en
-  Modern databases provides support for prepared statement : it separates the query from the processed data and raise significantly the security. 
+Modern databases provides support for prepared statement : it separates the query from the processed data and raise significantly the security. 
 
 Building queries with concatenations is not recommended, though not always avoidable. When possible, use prepared statements.
 Same code, without preparation :

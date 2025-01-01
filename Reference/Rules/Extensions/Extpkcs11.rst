@@ -5,7 +5,7 @@
 ext/pkcs11
 ++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/pkcs11: In cryptography, PKCS #11 is one of the Public-Key Cryptography Standards.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/pkcs11
 	:og:description: In cryptography, PKCS #11 is one of the Public-Key Cryptography Standards
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extpkcs11.html
 	:og:locale: en
-  In cryptography, PKCS #11 is one of the Public-Key Cryptography Standards. This extensions provides methods to create, read and check those keys.
+In cryptography, PKCS #11 is one of the Public-Key Cryptography Standards. This extensions provides methods to create, read and check those keys.
 
 .. code-block:: php
    

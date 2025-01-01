@@ -5,7 +5,7 @@
 set_exception_handler() Warning
 +++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		set_exception_handler() Warning: The set_exception_handler() callable function has to be adapted to PHP 7 : ``Exception`` is not the right type, it is now ``Throwable``.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ set_exception_handler() Warning
 	:og:description: The set_exception_handler() callable function has to be adapted to PHP 7 : ``Exception`` is not the right type, it is now ``Throwable``
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/SetExceptionHandlerPHP7.html
 	:og:locale: en
-  The `set_exception_handler() <https://www.php.net/set_exception_handler>`_ callable function has to be adapted to PHP 7 : ``Exception`` is not the right type, it is now ``Throwable``. 
+The `set_exception_handler() <https://www.php.net/set_exception_handler>`_ callable function has to be adapted to PHP 7 : ``Exception`` is not the right type, it is now ``Throwable``. 
 
 When in doubt about backward compatibility, just drop the type. Otherwise, use ``Throwable``.
 

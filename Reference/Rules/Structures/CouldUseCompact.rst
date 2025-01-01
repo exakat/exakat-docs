@@ -5,7 +5,7 @@
 Could Use Compact
 +++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Could Use Compact: Compact() turns a group of variables into an array.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Could Use Compact
 	:og:description: Compact() turns a group of variables into an array
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/CouldUseCompact.html
 	:og:locale: en
-  `Compact() <https://www.php.net/compact>`_ turns a group of variables into an array. It may be used to simplify expressions. 
+`Compact() <https://www.php.net/compact>`_ turns a group of variables into an array. It may be used to simplify expressions. 
 Note that compact accepts any string, and any undefined variable is not set, without a warning.
 
 .. code-block:: php

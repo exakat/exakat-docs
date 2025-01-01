@@ -5,7 +5,7 @@
 Exception Order
 +++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Exception Order: When catching exception, the most specialized exceptions must be in the early catch, and the most general exceptions must be in the later catch.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Exception Order
 	:og:description: When catching exception, the most specialized exceptions must be in the early catch, and the most general exceptions must be in the later catch
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Exceptions/AlreadyCaught.html
 	:og:locale: en
-  When catching `exception <https://www.php.net/exception>`_, the most specialized exceptions must be in the early catch, and the most general exceptions must be in the later catch. Otherwise, the general catches intercept the `exception <https://www.php.net/exception>`_, and the more specialized will not be read.
+When catching `exception <https://www.php.net/exception>`_, the most specialized exceptions must be in the early catch, and the most general exceptions must be in the later catch. Otherwise, the general catches intercept the `exception <https://www.php.net/exception>`_, and the more specialized will not be read.
 
 .. code-block:: php
    

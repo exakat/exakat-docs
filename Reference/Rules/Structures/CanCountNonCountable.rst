@@ -5,7 +5,7 @@
 Can't Count Non-Countable
 +++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Can't Count Non-Countable: Count() emits an error when it tries to count scalars or objects what don't implement Countable interface.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Can't Count Non-Countable
 	:og:description: Count() emits an error when it tries to count scalars or objects what don't implement Countable interface
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/CanCountNonCountable.html
 	:og:locale: en
-  `Count() <https://www.php.net/count>`_ emits an `error <https://www.php.net/error>`_ when it tries to count scalars or objects what don't implement `Countable <https://www.php.net/countable>`_ interface.
+`Count() <https://www.php.net/count>`_ emits an `error <https://www.php.net/error>`_ when it tries to count scalars or objects what don't implement `Countable <https://www.php.net/countable>`_ interface.
 
 .. code-block:: php
    

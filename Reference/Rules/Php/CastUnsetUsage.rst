@@ -5,7 +5,7 @@
 Cast Unset Usage
 ++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Cast Unset Usage: Usage of the `(unset)` cast operator was removed.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Cast Unset Usage
 	:og:description: Usage of the `(unset)` cast operator was removed
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/CastUnsetUsage.html
 	:og:locale: en
-  Usage of the `(unset)` cast operator was removed. The operator was deprecated since PHP 7.2.0.
+Usage of the `(unset)` cast operator was removed. The operator was deprecated since PHP 7.2.0.
 
 .. code-block:: php
    

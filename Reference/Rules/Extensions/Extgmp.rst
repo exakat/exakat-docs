@@ -5,7 +5,7 @@
 ext/gmp
 +++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/gmp: Extension ext/gmp.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/gmp
 	:og:description: Extension ext/gmp
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extgmp.html
 	:og:locale: en
-  Extension ext/`gmp <https://www.php.net/gmp>`_.
+Extension ext/`gmp <https://www.php.net/gmp>`_.
 
 These functions allow for arbitrary-length integers to be worked with using the GNU MP library.
 

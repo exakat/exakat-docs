@@ -5,7 +5,7 @@
 ext/xsl
 +++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/xsl: Extension XSL.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/xsl
 	:og:description: Extension XSL
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extxsl.html
 	:og:locale: en
-  Extension XSL.
+Extension XSL.
 
 The XSL extension implements the XSL standard, performing XSLT transformations using the libxslt library.
 

@@ -5,7 +5,7 @@
 Overwriting Variable
 ++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Overwriting Variable: Replacing the content of a variable by something different is prone to errors.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Overwriting Variable
 	:og:description: Replacing the content of a variable by something different is prone to errors
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Variables/Overwriting.html
 	:og:locale: en
-  Replacing the content of a variable by something different is prone to errors. For example, it is not obvious if the $text variable is plain text or HTML text. 
+Replacing the content of a variable by something different is prone to errors. For example, it is not obvious if the $text variable is plain text or HTML text. 
 Besides, it is possible that the source is needed later, for extra processing. 
 
 Note that accumulators, like += .=  or [] etc., that are meant to collect lots of values with consistent type are OK.

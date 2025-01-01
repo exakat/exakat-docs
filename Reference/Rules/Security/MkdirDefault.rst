@@ -5,7 +5,7 @@
 Mkdir Default
 +++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Mkdir Default: mkdir() gives universal access to created folders, by default.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Mkdir Default
 	:og:description: mkdir() gives universal access to created folders, by default
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Security/MkdirDefault.html
 	:og:locale: en
-  `mkdir() <https://www.php.net/mkdir>`_ gives universal access to created folders, by default. It is recommended to gives limited set of rights (0755, 0700), or to explicitly set the rights to 0777.
+`mkdir() <https://www.php.net/mkdir>`_ gives universal access to created folders, by default. It is recommended to gives limited set of rights (0755, 0700), or to explicitly set the rights to 0777.
 
 .. code-block:: php
    

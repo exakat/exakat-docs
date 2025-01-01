@@ -5,7 +5,7 @@
 ext/ldap
 ++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/ldap: Extension ext/ldap.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/ldap
 	:og:description: Extension ext/ldap
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extldap.html
 	:og:locale: en
-  Extension ext/ldap.
+Extension ext/ldap.
 
 LDAP is the Lightweight `Directory <https://www.php.net/`Directory <https://www.php.net/Directory>`_>`_ Access Protocol, and is a protocol used to access '`Directory <https://www.php.net/`Directory <https://www.php.net/Directory>`_>`_ Servers'. The `Directory <https://www.php.net/`Directory <https://www.php.net/Directory>`_>`_ is a special kind of database that holds information in a tree structure.
 

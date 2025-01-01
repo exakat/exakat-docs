@@ -5,7 +5,7 @@
 ext/xdebug
 ++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/xdebug: Xdebug extension.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/xdebug
 	:og:description: Xdebug extension
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extxdebug.html
 	:og:locale: en
-  Xdebug extension.
+Xdebug extension.
 
 The Xdebug is a extension PHP which provides debugging and profiling capabilities.
 

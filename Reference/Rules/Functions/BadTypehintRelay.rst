@@ -5,7 +5,7 @@
 Bad Type Relay
 ++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Bad Type Relay: A bad type relay happens where a types argument is relayed to a parameter with another type.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Bad Type Relay
 	:og:description: A bad type relay happens where a types argument is relayed to a parameter with another type
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/BadTypehintRelay.html
 	:og:locale: en
-  A bad type relay happens where a types argument is relayed to a parameter with another type. This leads to a Fatal `error <https://www.php.net/error>`_, and stops execution. This is possibly a piece of dead code.
+A bad type relay happens where a types argument is relayed to a parameter with another type. This leads to a Fatal `error <https://www.php.net/error>`_, and stops execution. This is possibly a piece of dead code.
 
 It is recommended to harmonize the types, so the two methods are compatible.
 

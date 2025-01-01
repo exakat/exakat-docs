@@ -5,7 +5,7 @@
 Multiples Identical Case
 ++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Multiples Identical Case: Some cases are defined multiple times, but only one will be processed.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Multiples Identical Case
 	:og:description: Some cases are defined multiple times, but only one will be processed
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/MultipleDefinedCase.html
 	:og:locale: en
-  Some cases are defined multiple times, but only one will be processed. Check the list of cases, and remove the extra one.
+Some cases are defined multiple times, but only one will be processed. Check the list of cases, and remove the extra one.
 
 Exakat finds the value of the cases as much as possible, and ignore any dynamic cases (using variables).
 It is also possible to write a valid switch statement, with all identical cases, and yet, different meaning each time. This is considered an edge case, and shall be manually removed.

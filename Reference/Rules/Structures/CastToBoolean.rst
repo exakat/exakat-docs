@@ -5,7 +5,7 @@
 Cast To Boolean
 +++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Cast To Boolean: This expression may be reduced to casting to a boolean.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Cast To Boolean
 	:og:description: This expression may be reduced to casting to a boolean
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/CastToBoolean.html
 	:og:locale: en
-  This expression may be reduced to casting to a boolean. This makes the code more readable, and adapt the type of the value to its usage.
+This expression may be reduced to casting to a boolean. This makes the code more readable, and adapt the type of the value to its usage.
 
 .. code-block:: php
    

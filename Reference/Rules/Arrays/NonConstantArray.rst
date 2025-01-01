@@ -5,7 +5,7 @@
 Non-constant Index In Array
 +++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Non-constant Index In Array: Undefined constants revert as strings in Arrays.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Non-constant Index In Array
 	:og:description: Undefined constants revert as strings in Arrays
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Arrays/NonConstantArray.html
 	:og:locale: en
-  Undefined constants revert as strings in Arrays. They are also called ``barewords``.
+Undefined constants revert as strings in Arrays. They are also called ``barewords``.
 
 In ``$array[index]``, PHP cannot find index as a constant, but, as a default behavior, turns it into the string ``index``. 
 

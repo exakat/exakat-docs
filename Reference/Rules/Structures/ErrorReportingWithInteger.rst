@@ -5,7 +5,7 @@
 error_reporting() With Integers
 +++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		error_reporting() With Integers: Using named constants with error_reporting is strongly encouraged to ensure compatibility for future versions.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ error_reporting() With Integers
 	:og:description: Using named constants with error_reporting is strongly encouraged to ensure compatibility for future versions
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ErrorReportingWithInteger.html
 	:og:locale: en
-  Using named constants with error_reporting is strongly encouraged to ensure compatibility for future versions. As `error <https://www.php.net/error>`_ levels are added, the range of integers increases, so older integer-based `error <https://www.php.net/error>`_ levels will not always behave as expected. (Adapted from the documentation).
+Using named constants with error_reporting is strongly encouraged to ensure compatibility for future versions. As `error <https://www.php.net/error>`_ levels are added, the range of integers increases, so older integer-based `error <https://www.php.net/error>`_ levels will not always behave as expected. (Adapted from the documentation).
 
 .. code-block:: php
    

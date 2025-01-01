@@ -5,7 +5,7 @@
 No Readonly Assignation In Global
 +++++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		No Readonly Assignation In Global: When a property is marked readonly, it may only be assigned within the class of definition.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ No Readonly Assignation In Global
 	:og:description: When a property is marked readonly, it may only be assigned within the class of definition
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/NoReadonlyAssignationInGlobal.html
 	:og:locale: en
-  When a property is marked readonly, it may only be assigned within the class of definition.
+When a property is marked readonly, it may only be assigned within the class of definition.
 
 It cannot be assigned outside this class, in the global scope. It is also immune to class invasion.
 

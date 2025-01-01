@@ -5,7 +5,7 @@
 PHP Arrays Index
 ++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		PHP Arrays Index: List of indexes used when manipulating PHP arrays in the code.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ PHP Arrays Index
 	:og:description: List of indexes used when manipulating PHP arrays in the code
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Arrays/Phparrayindex.html
 	:og:locale: en
-  List of indexes used when manipulating PHP arrays in the code. These indices usually carry semantic meanings, and should always be readable.
+List of indexes used when manipulating PHP arrays in the code. These indices usually carry semantic meanings, and should always be readable.
 
 .. code-block:: php
    

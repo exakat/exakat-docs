@@ -5,7 +5,7 @@
 Functions Removed In PHP 5.4
 ++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Functions Removed In PHP 5.4: Those functions were removed in PHP 5.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Functions Removed In PHP 5.4
 	:og:description: Those functions were removed in PHP 5
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/Php54RemovedFunctions.html
 	:og:locale: en
-  Those functions were removed in PHP 5.4.
+Those functions were removed in PHP 5.4.
 
 + ereg()
 + ereg_replace()

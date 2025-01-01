@@ -5,7 +5,7 @@
 Could Be Class Constant
 +++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Could Be Class Constant: When a property is defined, with a default value, then read, but never modified, it could be turned into a constant.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Could Be Class Constant
 	:og:description: When a property is defined, with a default value, then read, but never modified, it could be turned into a constant
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/CouldBeClassConstant.html
 	:og:locale: en
-  When a property is defined, with a default value, then read, but never modified, it could be turned into a constant. 
+When a property is defined, with a default value, then read, but never modified, it could be turned into a constant. 
 
 Such a property may initially be intended to have a value update, but that never turned out in the code. 
 

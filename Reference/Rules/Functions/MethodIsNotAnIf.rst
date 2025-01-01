@@ -5,7 +5,7 @@
 Method Is Not An If
 +++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Method Is Not An If: When a method consists only in one if statement, it might be worth refactoring.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Method Is Not An If
 	:og:description: When a method consists only in one if statement, it might be worth refactoring
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/MethodIsNotAnIf.html
 	:og:locale: en
-  When a method consists only in one if statement, it might be worth refactoring. 
+When a method consists only in one if statement, it might be worth refactoring. 
 
 Each of the blocks of the if/then structure may be turned into their own method, so has to keep operations distinct. 
 

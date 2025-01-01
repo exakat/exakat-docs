@@ -5,7 +5,7 @@
 Hash Will Use Objects
 +++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Hash Will Use Objects: The `ext/hash extension <http://www.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Hash Will Use Objects
 	:og:description: The `ext/hash extension <http://www
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/HashUsesObjects.html
 	:og:locale: en
-  The `ext/hash extension <http://www.php.net/manual/en/book.hash.php>`_ used resources, and is being upgraded to use resources.
+The `ext/hash extension <http://www.php.net/manual/en/book.hash.php>`_ used resources, and is being upgraded to use resources.
 
 .. code-block:: php
    

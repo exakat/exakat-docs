@@ -5,7 +5,7 @@
 Constant Order
 ++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Constant Order: Order of dependency of constants.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Constant Order
 	:og:description: Order of dependency of constants
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/ConstantOrder.html
 	:og:locale: en
-  Order of dependency of constants. 
+Order of dependency of constants. 
 
 Constants, either global or class, may be built using `static <https://www.php.net/manual/en/language.oop5.static.php>`_ expression. In turn, this means that constants have now a build order. For example : 
 The code above leads to the following order : ``A`` - ``B``, ``C``. ``A`` can be built without constraints, while ``B`` and ``C`` must be build when ``A`` is available. Note that ``B`` and ``C`` are both dependant on ``A``, but are not dependant on each other.

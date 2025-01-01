@@ -5,7 +5,7 @@
 Never Called Parameter
 ++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Never Called Parameter: This analysis reports when a parameter is never used at calltime.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Never Called Parameter
 	:og:description: This analysis reports when a parameter is never used at calltime
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/NeverUsedParameter.html
 	:og:locale: en
-  This analysis reports when a parameter is never used at calltime. 
+This analysis reports when a parameter is never used at calltime. 
 
 Such parameter has a default value, and always falls back to it. As such, it may be turned into a local variable.
 

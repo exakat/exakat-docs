@@ -5,7 +5,7 @@
 Goto Names
 ++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Goto Names: This rule lists of all goto labels used in the code.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Goto Names
 	:og:description: This rule lists of all goto labels used in the code
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/Gotonames.html
 	:og:locale: en
-  This rule lists of all goto labels used in the code. The labels must match a goto call, although it is possible to create a label without a goto.
+This rule lists of all goto labels used in the code. The labels must match a goto call, although it is possible to create a label without a goto.
 
 .. code-block:: php
    

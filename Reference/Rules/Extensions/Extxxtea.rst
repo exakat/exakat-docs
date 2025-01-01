@@ -5,7 +5,7 @@
 ext/xxtea
 +++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/xxtea: Extension xxtea : XXTEA encryption algorithm extension for PHP.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/xxtea
 	:og:description: Extension xxtea : XXTEA encryption algorithm extension for PHP
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extxxtea.html
 	:og:locale: en
-  Extension xxtea : XXTEA encryption algorithm extension for PHP.
+Extension xxtea : XXTEA encryption algorithm extension for PHP.
 
 XXTEA is a fast and `secure <https://www.php.net/secure>`_ encryption algorithm. This is a XXTEA extension for PHP.
 It is different from the original XXTEA encryption algorithm. It encrypts and decrypts string instead of uint32 array, and the key is also string.

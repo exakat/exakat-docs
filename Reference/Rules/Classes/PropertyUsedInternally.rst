@@ -5,7 +5,7 @@
 Internally Used Properties
 ++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Internally Used Properties: Properties that are used internally.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Internally Used Properties
 	:og:description: Properties that are used internally
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/PropertyUsedInternally.html
 	:og:locale: en
-  Properties that are used internally.
+Properties that are used internally.
 
 .. code-block:: php
    

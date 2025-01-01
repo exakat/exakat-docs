@@ -5,7 +5,7 @@
 Used Once Property
 ++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Used Once Property: Property used once in their defining class.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Used Once Property
 	:og:description: Property used once in their defining class
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/UsedOnceProperty.html
 	:og:locale: en
-  Property used once in their defining class. 
+Property used once in their defining class. 
 
 Properties used in one method only may be used several times, and read only. This may be a class constant. Such properties are meant to be overwritten by an extending class, and that's possible with class constants. 
 

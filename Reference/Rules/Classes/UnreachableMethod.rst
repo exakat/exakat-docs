@@ -5,7 +5,7 @@
 Unreachable Method
 ++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Unreachable Method: A method that is never called from the code.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Unreachable Method
 	:og:description: A method that is never called from the code
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/UnreachableMethod.html
 	:og:locale: en
-  A method that is never called from the code. 
+A method that is never called from the code. 
 
 The method has the following characteristics : 
 + not private, aka public or protected

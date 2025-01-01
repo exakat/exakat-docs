@@ -5,7 +5,7 @@
 Typehints
 +++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Typehints: List of all the types (classes or scalar) used in Typehinting.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Typehints
 	:og:description: List of all the types (classes or scalar) used in Typehinting
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/Typehints.html
 	:og:locale: en
-  List of all the types (classes or scalar) used in Typehinting.
+List of all the types (classes or scalar) used in Typehinting.
 
 .. code-block:: php
    

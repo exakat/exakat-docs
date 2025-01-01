@@ -5,7 +5,7 @@
 ext/dio
 +++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/dio: Extension DIO : Direct Input Output.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/dio
 	:og:description: Extension DIO : Direct Input Output
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extdio.html
 	:og:locale: en
-  Extension DIO : Direct Input Output.
+Extension DIO : Direct Input Output.
 
 PHP supports the direct io functions as described in the Posix Standard (Section 6) for performing I/O functions at a lower level than the C-Language stream I/O functions
 

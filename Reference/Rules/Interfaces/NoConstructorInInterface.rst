@@ -5,7 +5,7 @@
 No Constructor In Interface
 +++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		No Constructor In Interface: PHP manual recommends not adding constructors to interfaces.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ No Constructor In Interface
 	:og:description: PHP manual recommends not adding constructors to interfaces
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Interfaces/NoConstructorInInterface.html
 	:og:locale: en
-  PHP manual recommends not adding constructors to interfaces. 
+PHP manual recommends not adding constructors to interfaces. 
 
 'Although they are supported, including constructors in interfaces is strongly discouraged. Doing so significantly reduces the flexibility of the object implementing the interface. Additionally, constructors are not enforced by inheritance rules, which can cause inconsistent and unexpected behavior.'
 

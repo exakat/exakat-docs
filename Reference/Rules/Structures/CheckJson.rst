@@ -5,7 +5,7 @@
 Check JSON
 ++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Check JSON: Check errors whenever JSON is encoded or decoded.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Check JSON
 	:og:description: Check errors whenever JSON is encoded or decoded
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/CheckJson.html
 	:og:locale: en
-  Check errors whenever JSON is encoded or decoded. 
+Check errors whenever JSON is encoded or decoded. 
 
 In particular, ``NULL`` is a valid decoded JSON response. If you want to avoid mistaking `NULL <https://www.php.net/manual/en/language.types.null.php>`_ for an `error <https://www.php.net/error>`_, it is recommended to call ``json_last_error``.
 

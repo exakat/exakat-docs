@@ -5,7 +5,7 @@
 Only Variable Returned By Reference
 +++++++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Only Variable Returned By Reference: Function can't return literals by reference.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Only Variable Returned By Reference
 	:og:description: Function can't return literals by reference
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/OnlyVariableReturnedByReference.html
 	:og:locale: en
-  Function can't return literals by reference.
+Function can't return literals by reference.
 
 When a function returns a reference, it is only possible to return variables, properties or `static <https://www.php.net/manual/en/language.oop5.static.php>`_ properties. 
 

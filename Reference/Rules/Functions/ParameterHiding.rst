@@ -5,7 +5,7 @@
 Parameter Hiding
 ++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Parameter Hiding: When a parameter is set to another variable, and never used.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Parameter Hiding
 	:og:description: When a parameter is set to another variable, and never used
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/ParameterHiding.html
 	:og:locale: en
-  When a parameter is set to another variable, and never used.
+When a parameter is set to another variable, and never used.
 
 While this is a legit syntax, parameter hiding tends to make the code confusing. The parameter itself seems to be unused, while some extra variable appears.
 

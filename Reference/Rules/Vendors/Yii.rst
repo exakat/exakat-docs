@@ -5,7 +5,7 @@
 Yii usage
 +++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Yii usage: This analysis reports usage of the Yii 2 framework.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Yii usage
 	:og:description: This analysis reports usage of the Yii 2 framework
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Vendors/Yii.html
 	:og:locale: en
-  This analysis reports usage of the Yii 2 framework.
+This analysis reports usage of the Yii 2 framework.
 
 This analysis targets Yii 2, not Yii 1.
 

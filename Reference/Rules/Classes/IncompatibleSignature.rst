@@ -5,7 +5,7 @@
 Incompatible Signature Methods
 ++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Incompatible Signature Methods: Methods should have the same signature when being overwritten.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Incompatible Signature Methods
 	:og:description: Methods should have the same signature when being overwritten
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/IncompatibleSignature.html
 	:og:locale: en
-  Methods should have the same signature when being overwritten.
+Methods should have the same signature when being overwritten.
 
 The same signatures means the children class must have : 
 

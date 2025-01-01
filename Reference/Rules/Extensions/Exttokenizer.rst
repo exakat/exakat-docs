@@ -5,7 +5,7 @@
 ext/tokenizer
 +++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/tokenizer: Extension Tokenizer.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/tokenizer
 	:og:description: Extension Tokenizer
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Exttokenizer.html
 	:og:locale: en
-  Extension Tokenizer.
+Extension Tokenizer.
 
 The Tokenizer functions provide an interface to the PHP tokenizer embedded in the Zend `Engine <https://www.php.net/engine>`_.
 

@@ -5,7 +5,7 @@
 Super Globals Contagion
 +++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Super Globals Contagion: Basic tainting system.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Super Globals Contagion
 	:og:description: Basic tainting system
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Security/SuperGlobalContagion.html
 	:og:locale: en
-  Basic tainting system. This tracks superglobal values across the variables.
+Basic tainting system. This tracks superglobal values across the variables.
 Connex PHP features
 -------------------
 

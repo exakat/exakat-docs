@@ -5,7 +5,7 @@
 Intersection Typehint
 +++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Intersection Typehint: Intersection typehints allows the combination of several typehint for the same argument or return value.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Intersection Typehint
 	:og:description: Intersection typehints allows the combination of several typehint for the same argument or return value
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/Php81IntersectionTypehint.html
 	:og:locale: en
-  Intersection typehints allows the combination of several typehint for the same argument or return value. 
+Intersection typehints allows the combination of several typehint for the same argument or return value. 
 
 Several typehints are specified at the same place as a single one. The different values are separated by a ampersand character ``&``. 
 

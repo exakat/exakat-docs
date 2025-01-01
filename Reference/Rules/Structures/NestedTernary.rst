@@ -5,7 +5,7 @@
 Nested Ternary
 ++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Nested Ternary: Ternary operators should not be nested too deep.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Nested Ternary
 	:og:description: Ternary operators should not be nested too deep
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/NestedTernary.html
 	:og:locale: en
-  Ternary operators should not be nested too deep.
+Ternary operators should not be nested too deep.
 
 They are a convenient instruction to apply some condition, and avoid a if() structure. It works best when it is simple, like in a one liner. 
 

@@ -5,7 +5,7 @@
 Htmlentities Calls
 ++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Htmlentities Calls: htmlentities() and htmlspecialchars() are used to prevent injecting special characters in HTML code.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Htmlentities Calls
 	:og:description: htmlentities() and htmlspecialchars() are used to prevent injecting special characters in HTML code
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/Htmlentitiescall.html
 	:og:locale: en
-  `htmlentities() <https://www.php.net/htmlentities>`_ and `htmlspecialchars() <https://www.php.net/htmlspecialchars>`_ are used to prevent injecting special characters in HTML code. As a bare minimum, they take a string and encode it for HTML.
+`htmlentities() <https://www.php.net/htmlentities>`_ and `htmlspecialchars() <https://www.php.net/htmlspecialchars>`_ are used to prevent injecting special characters in HTML code. As a bare minimum, they take a string and encode it for HTML.
 
 The second argument of the functions is the type of protection. The protection may apply to quotes or not, to HTML 4 or 5, etc. It is highly recommended to set it explicitly.
 

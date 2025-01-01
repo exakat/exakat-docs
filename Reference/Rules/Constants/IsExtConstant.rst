@@ -5,7 +5,7 @@
 Is An Extension Constant
 ++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Is An Extension Constant: Mark a constant if it belongs to a known extension.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Is An Extension Constant
 	:og:description: Mark a constant if it belongs to a known extension
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Constants/IsExtConstant.html
 	:og:locale: en
-  Mark a constant if it belongs to a known extension.
+Mark a constant if it belongs to a known extension.
 
 .. code-block:: php
    

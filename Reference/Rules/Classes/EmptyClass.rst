@@ -5,7 +5,7 @@
 Empty Classes
 +++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Empty Classes: Classes that do no define anything at all : no property, method nor constant.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Empty Classes
 	:og:description: Classes that do no define anything at all : no property, method nor constant
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/EmptyClass.html
 	:og:locale: en
-  Classes that do no define anything at all : no property, method nor constant. This is possibly dead code.
+Classes that do no define anything at all : no property, method nor constant. This is possibly dead code.
 
 Empty classes are sometimes used to group classes; an interface may be used here for the same purpose, without inserting an extra level in the class hierarchy.
 Classes that are directly derived from an `exception <https://www.php.net/exception>`_ are omitted.

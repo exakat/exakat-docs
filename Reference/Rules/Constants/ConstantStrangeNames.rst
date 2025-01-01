@@ -5,7 +5,7 @@
 Constants With Strange Names
 ++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Constants With Strange Names: List of constants being defined with names that are incompatible with PHP standards.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Constants With Strange Names
 	:og:description: List of constants being defined with names that are incompatible with PHP standards
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Constants/ConstantStrangeNames.html
 	:og:locale: en
-  List of constants being defined with names that are incompatible with PHP standards.
+List of constants being defined with names that are incompatible with PHP standards.
 
 Constants names are valid when they satisfy the following regex : ``^[a-zA-Z_\x80-\xff][a-zA-Z0-9_\x80-\xff]*$``
 

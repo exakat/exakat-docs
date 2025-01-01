@@ -5,7 +5,7 @@
 Joomla usage
 ++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Joomla usage: This analysis reports usage of the Joomla CMS.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Joomla usage
 	:og:description: This analysis reports usage of the Joomla CMS
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Vendors/Joomla.html
 	:og:locale: en
-  This analysis reports usage of the Joomla CMS.
+This analysis reports usage of the Joomla CMS.
 
 .. code-block:: php
    

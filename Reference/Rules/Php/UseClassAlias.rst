@@ -5,7 +5,7 @@
 Use class_alias()
 +++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Use class_alias(): class_alias() is a PHP features, that allows the creation of class alias, at execution time.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Use class_alias()
 	:og:description: class_alias() is a PHP features, that allows the creation of class alias, at execution time
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/UseClassAlias.html
 	:og:locale: en
-  `class_alias() <https://www.php.net/class_alias>`_ is a PHP features, that allows the creation of class alias, at execution time. 
+`class_alias() <https://www.php.net/class_alias>`_ is a PHP features, that allows the creation of class alias, at execution time. 
 
 Those class aliases are application wide, as they are valid everywhere, yet they have a lower precedence over the use expression. This means that even when a `class_alias() <https://www.php.net/class_alias>`_ was called, the local use expression will have right of execution.
 

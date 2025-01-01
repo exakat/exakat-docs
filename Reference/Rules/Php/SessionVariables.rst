@@ -5,7 +5,7 @@
 Session Variables
 +++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Session Variables: Sessions names, used across the application.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Session Variables
 	:og:description: Sessions names, used across the application
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/SessionVariables.html
 	:og:locale: en
-  Sessions names, used across the application.
+Sessions names, used across the application.
 
 .. code-block:: php
    

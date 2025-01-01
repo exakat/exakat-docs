@@ -5,7 +5,7 @@
 Bail Out Early
 ++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Bail Out Early: When using conditions, it is recommended to quit in the current context, and avoid the else clause altogether.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Bail Out Early
 	:og:description: When using conditions, it is recommended to quit in the current context, and avoid the else clause altogether
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/BailOutEarly.html
 	:og:locale: en
-  When using conditions, it is recommended to quit in the current context, and avoid the else clause altogether. 
+When using conditions, it is recommended to quit in the current context, and avoid the else clause altogether. 
 
 The main benefit is to make clear the method applies a condition, and stop immediately when this condition is not satisfied. 
 The main sequence is then focused on the important code. 

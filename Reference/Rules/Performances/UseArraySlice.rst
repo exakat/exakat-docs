@@ -5,7 +5,7 @@
 Use array_slice()
 +++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Use array_slice(): Array_slice() is de equivalent of substr() for arrays.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Use array_slice()
 	:og:description: Array_slice() is de equivalent of substr() for arrays
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Performances/UseArraySlice.html
 	:og:locale: en
-  `Array_slice() <https://www.php.net/array_slice>`_ is de equivalent of `substr() <https://www.php.net/substr>`_ for arrays.
+`Array_slice() <https://www.php.net/array_slice>`_ is de equivalent of `substr() <https://www.php.net/substr>`_ for arrays.
 
 `array_splice() <https://www.php.net/array_splice>`_ is also available, to remove a portion of array inside the array, not at the ends. This has no simple equivalent for strings.
 

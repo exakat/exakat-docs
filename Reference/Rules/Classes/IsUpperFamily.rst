@@ -5,7 +5,7 @@
 Is Upper Family
 +++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Is Upper Family: Does the static call is made within the current hierarchy of class, or, is it made in the class, in the children or outside.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Is Upper Family
 	:og:description: Does the static call is made within the current hierarchy of class, or, is it made in the class, in the children or outside
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/IsUpperFamily.html
 	:og:locale: en
-  Does the `static <https://www.php.net/manual/en/language.oop5.static.php>`_ call is made within the current hierarchy of class, or, is it made in the class, in the children or outside. 
+Does the `static <https://www.php.net/manual/en/language.oop5.static.php>`_ call is made within the current hierarchy of class, or, is it made in the class, in the children or outside. 
 
 This applies to `static <https://www.php.net/manual/en/language.oop5.static.php>`_ methodcalls, property accesses and class constants.
 

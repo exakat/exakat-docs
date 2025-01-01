@@ -5,7 +5,7 @@
 Incoming Values
 +++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Incoming Values: The names of the variables that are passed via the superglobals.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Incoming Values
 	:og:description: The names of the variables that are passed via the superglobals
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/IncomingValues.html
 	:og:locale: en
-  The names of the variables that are passed via the superglobals.
+The names of the variables that are passed via the superglobals.
 
 .. code-block:: php
    

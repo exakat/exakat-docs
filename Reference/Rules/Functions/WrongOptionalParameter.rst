@@ -5,7 +5,7 @@
 Wrong Optional Parameter
 ++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Wrong Optional Parameter: Wrong placement of optional parameters.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Wrong Optional Parameter
 	:og:description: Wrong placement of optional parameters
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/WrongOptionalParameter.html
 	:og:locale: en
-  Wrong placement of optional parameters.
+Wrong placement of optional parameters.
 
 PHP parameters are optional when they defined with a default value, like this : 
 

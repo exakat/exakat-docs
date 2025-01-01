@@ -5,7 +5,7 @@
 Too Many Injections
 +++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Too Many Injections: When a class is constructed with more than four dependencies, it should be split into smaller classes.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Too Many Injections
 	:og:description: When a class is constructed with more than four dependencies, it should be split into smaller classes
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/TooManyInjections.html
 	:og:locale: en
-  When a class is constructed with more than four dependencies, it should be split into smaller classes.
+When a class is constructed with more than four dependencies, it should be split into smaller classes.
 
 .. code-block:: php
    

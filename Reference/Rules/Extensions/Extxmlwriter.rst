@@ -5,7 +5,7 @@
 ext/xmlwriter
 +++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/xmlwriter: Extension ext/xmlwriter.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/xmlwriter
 	:og:description: Extension ext/xmlwriter
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extxmlwriter.html
 	:og:locale: en
-  Extension ext/`xmlwriter <https://www.php.net/xmlwriter>`_.
+Extension ext/`xmlwriter <https://www.php.net/xmlwriter>`_.
 
 The `XMLWriter <https://www.php.net/xmlwriter>`_ extension wraps the libxml `xmlWriter <https://www.php.net/xmlwriter>`_ API inside PHP.
 

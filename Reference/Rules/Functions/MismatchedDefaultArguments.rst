@@ -5,7 +5,7 @@
 Mismatched Default Arguments
 ++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Mismatched Default Arguments: Arguments are relayed from one method to the other, and the arguments have different default values.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Mismatched Default Arguments
 	:og:description: Arguments are relayed from one method to the other, and the arguments have different default values
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/MismatchedDefaultArguments.html
 	:og:locale: en
-  Arguments are relayed from one method to the other, and the arguments have different default values. 
+Arguments are relayed from one method to the other, and the arguments have different default values. 
 
 Although it is possible to have different default values, it is worth checking why this is actually the case.
 This analysis reports the original arguments. Starting from it, follow the usage of the argument in its method, and find calls to other methods. 

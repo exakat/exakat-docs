@@ -5,7 +5,7 @@
 Confusing Names
 +++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Confusing Names: The following variables's name are very close and may lead to confusion.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Confusing Names
 	:og:description: The following variables's name are very close and may lead to confusion
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Variables/CloseNaming.html
 	:og:locale: en
-  The following variables's name are very close and may lead to confusion.
+The following variables's name are very close and may lead to confusion.
 
 Variables are 3 letters long (at least). Variables names build with an extra ``s`` are omitted.
 Variables may be scattered across the code, or close to each other. 

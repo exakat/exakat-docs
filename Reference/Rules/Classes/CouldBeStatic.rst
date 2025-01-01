@@ -5,7 +5,7 @@
 Method Could Be Static
 ++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Method Could Be Static: A method that doesn't make any usage of $this could be turned into a static method.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Method Could Be Static
 	:og:description: A method that doesn't make any usage of $this could be turned into a static method
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/CouldBeStatic.html
 	:og:locale: en
-  A method that doesn't make any usage of `$this <https://www.php.net/manual/en/language.oop5.basic.php>`_ could be turned into a `static <https://www.php.net/manual/en/language.oop5.static.php>`_ method. 
+A method that doesn't make any usage of `$this <https://www.php.net/manual/en/language.oop5.basic.php>`_ could be turned into a `static <https://www.php.net/manual/en/language.oop5.static.php>`_ method. 
 
 While `static <https://www.php.net/manual/en/language.oop5.static.php>`_ methods are usually harder to handle, recognizing the `static <https://www.php.net/manual/en/language.oop5.static.php>`_ status is a first step before turning the method into a standalone function.
 

@@ -5,7 +5,7 @@
 Append And Assign Arrays
 ++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Append And Assign Arrays: This rule reports arrays that are used both with append and direct index assignation.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Append And Assign Arrays
 	:og:description: This rule reports arrays that are used both with append and direct index assignation
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Arrays/AppendAndAssignArrays.html
 	:og:locale: en
-  This rule reports arrays that are used both with append and direct index assignation. Read access are not considered here. 
+This rule reports arrays that are used both with append and direct index assignation. Read access are not considered here. 
 
 Array append and direct index assignation have different impact one on the other. In particular, assign a value explicitely and later append values may have an impact on one another.
 

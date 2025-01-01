@@ -5,7 +5,7 @@
 Constant : With Or Without Use
 ++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Constant : With Or Without Use: This analysis collects the ways constants are called in the code : with a local import, alias or not, or with their fully qualified name.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Constant : With Or Without Use
 	:og:description: This analysis collects the ways constants are called in the code : with a local import, alias or not, or with their fully qualified name
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Namespaces/ConstantWithUseFavorite.html
 	:og:locale: en
-  This analysis collects the ways constants are called in the code : with a local import, alias or not, or with their fully qualified name.
+This analysis collects the ways constants are called in the code : with a local import, alias or not, or with their fully qualified name.
 
 The analyzed code has less than 10% of one of them : for consistency reasons, it is recommended to make them all the same.
 

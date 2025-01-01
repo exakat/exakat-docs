@@ -5,7 +5,7 @@
 Group Use Declaration
 +++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Group Use Declaration: This rule reports when a group use declaration is used.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Group Use Declaration
 	:og:description: This rule reports when a group use declaration is used
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/GroupUseDeclaration.html
 	:og:locale: en
-  This rule reports when a group use declaration is used. This is PHP feature since version 7.0, yet it is seldom used.
+This rule reports when a group use declaration is used. This is PHP feature since version 7.0, yet it is seldom used.
 
 .. code-block:: php
    

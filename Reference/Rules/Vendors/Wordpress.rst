@@ -5,7 +5,7 @@
 Wordpress usage
 +++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Wordpress usage: This analysis reports usage of the Wordpress platform.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Wordpress usage
 	:og:description: This analysis reports usage of the Wordpress platform
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Vendors/Wordpress.html
 	:og:locale: en
-  This analysis reports usage of the Wordpress platform.
+This analysis reports usage of the Wordpress platform.
 
 The current supported version is Wordpress 5.8.
 

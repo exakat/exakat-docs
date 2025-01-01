@@ -5,7 +5,7 @@
 Redefined Class Constants
 +++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Redefined Class Constants: Redefined class constants.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Redefined Class Constants
 	:og:description: Redefined class constants
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/RedefinedConstants.html
 	:og:locale: en
-  Redefined class constants.
+Redefined class constants.
 
 Class constants may be redefined, though it is prone to errors when using them, as it is now crucial to use the right class name to access the right value.
 It is recommended to use distinct names.

@@ -5,7 +5,7 @@
 Use Lower Case For Parent, Static And Self
 ++++++++++++++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Use Lower Case For Parent, Static And Self: The special parent, static and self keywords needed to be lowercase to be usable.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Use Lower Case For Parent, Static And Self
 	:og:description: The special parent, static and self keywords needed to be lowercase to be usable
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/CaseForPSS.html
 	:og:locale: en
-  The special `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_, `static <https://www.php.net/manual/en/language.oop5.static.php>`_ and `self <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ keywords needed to be lowercase to be usable. This was fixed in PHP 5.5; otherwise, they would yield a 'PHP Fatal error:  Class '`PARENT <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_' not found'.
+The special `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_, `static <https://www.php.net/manual/en/language.oop5.static.php>`_ and `self <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ keywords needed to be lowercase to be usable. This was fixed in PHP 5.5; otherwise, they would yield a 'PHP Fatal error:  Class '`PARENT <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_' not found'.
 
 `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_, `static <https://www.php.net/manual/en/language.oop5.static.php>`_ and `self <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ are traditionally written in lowercase only. Mixed case and Upper case are both valid, though.
 Until PHP 5.5, non-lowercase version of those keywords are generating a bug.

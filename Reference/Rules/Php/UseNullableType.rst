@@ -5,7 +5,7 @@
 Use Nullable Type
 +++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Use Nullable Type: The code uses nullable type, available since PHP 7.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Use Nullable Type
 	:og:description: The code uses nullable type, available since PHP 7
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/UseNullableType.html
 	:og:locale: en
-  The code uses nullable type, available since PHP 7.1.
+The code uses nullable type, available since PHP 7.1.
 
 Nullable Types are an option to type hint : they allow the passing value to be null, or another type. 
 

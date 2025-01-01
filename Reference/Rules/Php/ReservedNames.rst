@@ -5,7 +5,7 @@
 PHP Keywords As Names
 +++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		PHP Keywords As Names: PHP has a set of reserved keywords.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ PHP Keywords As Names
 	:og:description: PHP has a set of reserved keywords
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/ReservedNames.html
 	:og:locale: en
-  PHP has a set of reserved keywords. It is recommended not to use those keywords for names structures. 
+PHP has a set of reserved keywords. It is recommended not to use those keywords for names structures. 
 
 PHP does check that a number of structures, such as classes, methods, interfaces... can't be named or called using one of the keywords. However, in a few other situations, no check are enforced. Using keywords in such situation is confusing.
 

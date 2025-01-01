@@ -5,7 +5,7 @@
 Avoid Self In Interface
 +++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Avoid Self In Interface: Self and Parent are tricky when used in an interface.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Avoid Self In Interface
 	:og:description: Self and Parent are tricky when used in an interface
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Interfaces/AvoidSelfInInterface.html
 	:og:locale: en
-  `Self <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ and `Parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ are tricky when used in an interface. 
+`Self <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ and `Parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ are tricky when used in an interface. 
 
 ``self`` refers to the current interface or its extended parents : as long as the constant is defined in the interface family, this is valid.  On the other hand, when ``self`` refers to the current class, the resolution of names would happen at execution time, leading to undefined errors.
 

@@ -5,7 +5,7 @@
 File Is Component
 +++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		File Is Component: Check that a file only contains definition elements, such as traits, interfaces, enumerations, declare, classes, constants, global variables, use or inclusions.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ File Is Component
 	:og:description: Check that a file only contains definition elements, such as traits, interfaces, enumerations, declare, classes, constants, global variables, use or inclusions
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Files/IsComponent.html
 	:og:locale: en
-  Check that a file only contains definition elements, such as traits, interfaces, enumerations, declare, classes, constants, global variables, use or inclusions. 
+Check that a file only contains definition elements, such as traits, interfaces, enumerations, declare, classes, constants, global variables, use or inclusions. 
 
 Such a file is a component, that may be included in other code and there, used. By itself, it doesn't execute any code.
 

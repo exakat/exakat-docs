@@ -5,7 +5,7 @@
 ext/crypto
 ++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/crypto: Extension ext/crypto (PECL).
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/crypto
 	:og:description: Extension ext/crypto (PECL)
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extcrypto.html
 	:og:locale: en
-  Extension ext/crypto (PECL).
+Extension ext/crypto (PECL).
 
 Objective PHP binding of OpenSSL Crypto library.
 

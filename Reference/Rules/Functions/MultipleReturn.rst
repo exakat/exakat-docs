@@ -5,7 +5,7 @@
 Multiple Returns
 ++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Multiple Returns: Functions and methods that have multiple return statement.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Multiple Returns
 	:og:description: Functions and methods that have multiple return statement
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/MultipleReturn.html
 	:og:locale: en
-  Functions and methods that have multiple return statement. 
+Functions and methods that have multiple return statement. 
 
 This makes it difficult to maintain : since the function may be short-circuited early, some later instruction may be omitted.
 

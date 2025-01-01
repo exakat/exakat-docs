@@ -5,7 +5,7 @@
 Namespaces
 ++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Namespaces: Inventory of all namespaces.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Namespaces
 	:og:description: Inventory of all namespaces
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Namespaces/NamespaceUsage.html
 	:og:locale: en
-  Inventory of all namespaces.
+Inventory of all namespaces.
 
 .. code-block:: php
    

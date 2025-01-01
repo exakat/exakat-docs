@@ -5,7 +5,7 @@
 Useless Switch
 ++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Useless Switch: This switch has only one case.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Useless Switch
 	:og:description: This switch has only one case
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/UselessSwitch.html
 	:og:locale: en
-  This switch has only one case. It may very well be replaced by a ifthen structure.
+This switch has only one case. It may very well be replaced by a ifthen structure.
 
 .. code-block:: php
    

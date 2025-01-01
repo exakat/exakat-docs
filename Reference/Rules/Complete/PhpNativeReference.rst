@@ -5,7 +5,7 @@
 Php Native Reference Variable
 +++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Php Native Reference Variable: Native functions, such as sort() (first argument), or preg_match_all() (third argument), use reference.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Php Native Reference Variable
 	:og:description: Native functions, such as sort() (first argument), or preg_match_all() (third argument), use reference
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Complete/PhpNativeReference.html
 	:og:locale: en
-  Native functions, such as `sort() <https://www.php.net/sort>`_ (first argument), or `preg_match_all() <https://www.php.net/preg_match_all>`_ (third argument), use reference.
+Native functions, such as `sort() <https://www.php.net/sort>`_ (first argument), or `preg_match_all() <https://www.php.net/preg_match_all>`_ (third argument), use reference.
 
 .. code-block:: php
    

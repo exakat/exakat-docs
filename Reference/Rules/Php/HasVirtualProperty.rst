@@ -5,7 +5,7 @@
 Has Virtual Property
 ++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Has Virtual Property: Virtual properties are properties with hooks, which do not rely on storage, but process values stored somewhere else.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Has Virtual Property
 	:og:description: Virtual properties are properties with hooks, which do not rely on storage, but process values stored somewhere else
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/HasVirtualProperty.html
 	:og:locale: en
-  Virtual properties are properties with hooks, which do not rely on storage, but process values stored somewhere else.
+Virtual properties are properties with hooks, which do not rely on storage, but process values stored somewhere else.
 
 Virtual proeprties are akin to view, in SQL, where columns are calculated on the fly. 
 

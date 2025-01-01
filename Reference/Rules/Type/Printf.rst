@@ -5,7 +5,7 @@
 Printf Format Inventory
 +++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Printf Format Inventory: All format used in the code with printf(), vprintf(), sprintf(), scanf() and fscanf().
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Printf Format Inventory
 	:og:description: All format used in the code with printf(), vprintf(), sprintf(), scanf() and fscanf()
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Type/Printf.html
 	:og:locale: en
-  All format used in the code with `printf() <https://www.php.net/printf>`_, `vprintf() <https://www.php.net/vprintf>`_, `sprintf() <https://www.php.net/sprintf>`_, scanf() and `fscanf() <https://www.php.net/fscanf>`_.
+All format used in the code with `printf() <https://www.php.net/printf>`_, `vprintf() <https://www.php.net/vprintf>`_, `sprintf() <https://www.php.net/sprintf>`_, scanf() and `fscanf() <https://www.php.net/fscanf>`_.
 
 .. code-block:: php
    

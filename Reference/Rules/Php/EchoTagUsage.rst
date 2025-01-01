@@ -5,7 +5,7 @@
 PHP Echo Tag Usage
 ++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		PHP Echo Tag Usage: Usage of the short echo tab, that echo's directly the following content.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ PHP Echo Tag Usage
 	:og:description: Usage of the short echo tab, that echo's directly the following content
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/EchoTagUsage.html
 	:og:locale: en
-  Usage of the short echo tab, that echo's directly the following content.
+Usage of the short echo tab, that echo's directly the following content.
 <?= $variable; 
 ?>
 Connex PHP features

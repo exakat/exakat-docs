@@ -5,7 +5,7 @@
 Regex On Arrays
 +++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Regex On Arrays: Avoid using a loop with arrays of regex or values.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Regex On Arrays
 	:og:description: Avoid using a loop with arrays of regex or values
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Performances/RegexOnArrays.html
 	:og:locale: en
-  Avoid using a loop with arrays of regex or values. There are several PHP function which work directly on arrays, and much faster.
+Avoid using a loop with arrays of regex or values. There are several PHP function which work directly on arrays, and much faster.
 
 `preg_grep() <https://www.php.net/preg_grep>`_ is able to extract all matching strings from an array, or non-matching strings. This usually saves a loop over the strings.
 

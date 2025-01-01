@@ -5,7 +5,7 @@
 Abstract Static Methods
 +++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Abstract Static Methods: Methods cannot be both abstract and static.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Abstract Static Methods
 	:og:description: Methods cannot be both abstract and static
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/AbstractStatic.html
 	:og:locale: en
-  Methods cannot be both abstract and `static <https://www.php.net/manual/en/language.oop5.static.php>`_. `Static <https://www.php.net/manual/en/language.oop5.static.php>`_ methods belong to a class, and will not be overridden by the child class. For normal methods, PHP will start at the object level, then go up the hierarchy to find the method. With `static <https://www.php.net/manual/en/language.oop5.static.php>`_, it is necessary to mention the name, or use Late `Static <https://www.php.net/manual/en/language.oop5.static.php>`_ Binding, with `self <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ or `static <https://www.php.net/manual/en/language.oop5.static.php>`_. Hence, it is useless to have an abstract `static <https://www.php.net/manual/en/language.oop5.static.php>`_ method : it should be a `static <https://www.php.net/manual/en/language.oop5.static.php>`_ method.
+Methods cannot be both abstract and `static <https://www.php.net/manual/en/language.oop5.static.php>`_. `Static <https://www.php.net/manual/en/language.oop5.static.php>`_ methods belong to a class, and will not be overridden by the child class. For normal methods, PHP will start at the object level, then go up the hierarchy to find the method. With `static <https://www.php.net/manual/en/language.oop5.static.php>`_, it is necessary to mention the name, or use Late `Static <https://www.php.net/manual/en/language.oop5.static.php>`_ Binding, with `self <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ or `static <https://www.php.net/manual/en/language.oop5.static.php>`_. Hence, it is useless to have an abstract `static <https://www.php.net/manual/en/language.oop5.static.php>`_ method : it should be a `static <https://www.php.net/manual/en/language.oop5.static.php>`_ method.
 
 A child class is able to declare a method with the same name than a `static <https://www.php.net/manual/en/language.oop5.static.php>`_ method in the `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_, but those two methods will stay independent. 
 

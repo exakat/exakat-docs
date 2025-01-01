@@ -5,7 +5,7 @@
 Encoding Usage
 ++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Encoding Usage: Usage of ``declare(encoding = )``.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Encoding Usage
 	:og:description: Usage of ``declare(encoding = )``
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/DeclareEncoding.html
 	:og:locale: en
-  Usage of ``declare(encoding = )``. This command configures the encoding to be used with the current file. 
+Usage of ``declare(encoding = )``. This command configures the encoding to be used with the current file. 
 
 .. code-block:: php
    

@@ -5,7 +5,7 @@
 Defined Parent MP
 +++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Defined Parent MP: This rule reports when a static call with `parent`, where the parent has an actual definition.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Defined Parent MP
 	:og:description: This rule reports when a static call with `parent`, where the parent has an actual definition
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/DefinedParentMP.html
 	:og:locale: en
-  This rule reports when a `static <https://www.php.net/manual/en/language.oop5.static.php>`_ call with `parent`, where the `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ has an actual definition.
+This rule reports when a `static <https://www.php.net/manual/en/language.oop5.static.php>`_ call with `parent`, where the `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ has an actual definition.
 
 .. code-block:: php
    

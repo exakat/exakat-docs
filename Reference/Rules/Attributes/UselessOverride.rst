@@ -5,7 +5,7 @@
 Useless Override Attribute
 ++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Useless Override Attribute: The override attribute is only useful on an extended class.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Useless Override Attribute
 	:og:description: The override attribute is only useful on an extended class
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Attributes/UselessOverride.html
 	:og:locale: en
-  The `override <https://www.php.net/override>`_ `attribute <https://www.php.net/attribute>`_ is only useful on an extended class. It allows to mark a method that must be overriding a `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ method. When the class is not extending another class, there is no point in using this `attribute <https://www.php.net/attribute>`_. 
+The `override <https://www.php.net/override>`_ `attribute <https://www.php.net/attribute>`_ is only useful on an extended class. It allows to mark a method that must be overriding a `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ method. When the class is not extending another class, there is no point in using this `attribute <https://www.php.net/attribute>`_. 
 
 This is also valid with extended class : the top `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ class has no use of the `override <https://www.php.net/override>`_. 
 

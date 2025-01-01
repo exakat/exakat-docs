@@ -5,7 +5,7 @@
 No Reference For Ternary
 ++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		No Reference For Ternary: The ternary operator and the null coalescing operator are both expressions that only return values, and not a reference.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ No Reference For Ternary
 	:og:description: The ternary operator and the null coalescing operator are both expressions that only return values, and not a reference
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/NoReferenceForTernary.html
 	:og:locale: en
-  The ternary operator and the null coalescing operator are both expressions that only return values, and not a reference. 
+The ternary operator and the null coalescing operator are both expressions that only return values, and not a reference. 
 
 This means that any provided reference will be turned into its value. While this is usually invisible, it will raise a warning when a reference is expected. This is the case with methods returning a reference. 
 

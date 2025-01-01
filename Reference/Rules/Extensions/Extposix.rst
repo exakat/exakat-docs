@@ -5,7 +5,7 @@
 ext/posix
 +++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/posix: Extension POSIX.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/posix
 	:og:description: Extension POSIX
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extposix.html
 	:og:locale: en
-  Extension POSIX.
+Extension POSIX.
 
 Ext/posix contains an interface to those functions defined in the IEEE 1003.1 (POSIX.1) standards document which are not accessible through other means.
 

@@ -5,7 +5,7 @@
 PHP 8.0 Removed Functions
 +++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		PHP 8.0 Removed Functions: The following PHP native functions were deprecated in PHP 8.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ PHP 8.0 Removed Functions
 	:og:description: The following PHP native functions were deprecated in PHP 8
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/Php80RemovedFunctions.html
 	:og:locale: en
-  The following PHP native functions were deprecated in PHP 8.0, and will be removed in PHP 9.0.
+The following PHP native functions were deprecated in PHP 8.0, and will be removed in PHP 9.0.
 
 * image2wbmp()
 * png2wbmp()

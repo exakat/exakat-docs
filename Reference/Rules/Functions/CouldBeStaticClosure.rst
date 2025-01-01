@@ -5,7 +5,7 @@
 Could Be Static Closure
 +++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Could Be Static Closure: Closure and arrow functions may be static, and prevent the import of ``$this``.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Could Be Static Closure
 	:og:description: Closure and arrow functions may be static, and prevent the import of ``$this``
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/CouldBeStaticClosure.html
 	:og:locale: en
-  `Closure <https://www.php.net/manual/en/class.`closure <https://www.php.net/closure>`_.php>`_ and arrow functions may be `static <https://www.php.net/manual/en/language.oop5.static.php>`_, and prevent the import of ``$this``. 
+`Closure <https://www.php.net/manual/en/class.`closure <https://www.php.net/closure>`_.php>`_ and arrow functions may be `static <https://www.php.net/manual/en/language.oop5.static.php>`_, and prevent the import of ``$this``. 
 
 By preventing the useless import of ``$this``, you avoid useless work. 
 

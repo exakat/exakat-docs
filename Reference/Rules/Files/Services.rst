@@ -5,7 +5,7 @@
 External Config Files
 +++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		External Config Files: List services being used in this code repository, based on configuration files that are committed.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ External Config Files
 	:og:description: List services being used in this code repository, based on configuration files that are committed
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Files/Services.html
 	:og:locale: en
-  List services being used in this code repository, based on configuration files that are committed. 
+List services being used in this code repository, based on configuration files that are committed. 
 
 For example, a .git folder is an artefact of a GIT repository.
 

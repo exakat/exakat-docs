@@ -5,7 +5,7 @@
 Case Insensitive Constants
 ++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Case Insensitive Constants: PHP constants used to be able to be case insensitive, when defined with define() and the third argument.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Case Insensitive Constants
 	:og:description: PHP constants used to be able to be case insensitive, when defined with define() and the third argument
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Constants/CaseInsensitiveConstants.html
 	:og:locale: en
-  PHP constants used to be able to be case insensitive, when defined with `define() <https://www.php.net/define>`_ and the third argument.
+PHP constants used to be able to be case insensitive, when defined with `define() <https://www.php.net/define>`_ and the third argument.
 
 This feature is deprecated since PHP 7.3 and is removed since PHP 8.0.
 

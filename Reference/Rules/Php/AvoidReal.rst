@@ -5,7 +5,7 @@
 Avoid Real
 ++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Avoid Real: PHP has two float data type : real and double.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Avoid Real
 	:og:description: PHP has two float data type : real and double
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/AvoidReal.html
 	:og:locale: en
-  PHP has two float data type : real and double. ``real`` is rarely used, and might be deprecated in PHP 7.4.
+PHP has two float data type : real and double. ``real`` is rarely used, and might be deprecated in PHP 7.4.
 
 To prepare code, avoid using is_real() and the ``(real)`` typecast.
 

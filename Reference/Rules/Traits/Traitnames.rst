@@ -5,7 +5,7 @@
 Trait Names
 +++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Trait Names: List all the trait's names.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Trait Names
 	:og:description: List all the trait's names
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Traits/Traitnames.html
 	:og:locale: en
-  List all the trait's names.
+List all the trait's names.
 
 .. code-block:: php
    

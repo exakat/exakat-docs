@@ -5,7 +5,7 @@
 Variable Global
 +++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Variable Global: Variable ``global`` such are valid in PHP 5.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Variable Global
 	:og:description: Variable ``global`` such are valid in PHP 5
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/VariableGlobal.html
 	:og:locale: en
-  Variable ``global`` such are valid in PHP 5.6, but no in PHP 7.0. They should be replaced with ${$foo->bar}.
+Variable ``global`` such are valid in PHP 5.6, but no in PHP 7.0. They should be replaced with ${$foo->bar}.
 
 .. code-block:: php
    

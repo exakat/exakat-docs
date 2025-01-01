@@ -5,7 +5,7 @@
 Class-typed References
 ++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Class-typed References: Class-typee arguments have no need for references.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Class-typed References
 	:og:description: Class-typee arguments have no need for references
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/TypehintedReferences.html
 	:og:locale: en
-  Class-typee arguments have no need for references. Since they are representing an object, they are already a reference.
+Class-typee arguments have no need for references. Since they are representing an object, they are already a reference.
 
 In fact, adding the & on the argument definition may lead to `error <https://www.php.net/error>`_ like ``Only variables should be passed by reference``.
 

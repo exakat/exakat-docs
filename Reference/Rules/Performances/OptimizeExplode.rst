@@ -5,7 +5,7 @@
 Optimize Explode()
 ++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Optimize Explode(): Limit explode() results at call time.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Optimize Explode()
 	:og:description: Limit explode() results at call time
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Performances/OptimizeExplode.html
 	:og:locale: en
-  Limit `explode() <https://www.php.net/explode>`_ results at call time. `explode() <https://www.php.net/explode>`_ returns an array, after breaking the argument into smaller strings, with a delimiter. 
+Limit `explode() <https://www.php.net/explode>`_ results at call time. `explode() <https://www.php.net/explode>`_ returns an array, after breaking the argument into smaller strings, with a delimiter. 
 
 By default, `explode() <https://www.php.net/explode>`_ breaks the whole string into smaller strings, and returns the array. When not all the elements of the returned array are necessary, using the third argument of `explode() <https://www.php.net/explode>`_ speeds up the process, by removing unnecessary work.
 Limiting `explode() <https://www.php.net/explode>`_ has no effect when the operation is already exact : it simply prevents `explode() <https://www.php.net/explode>`_ to cut more than needed if the argument is unexpectedly large. 

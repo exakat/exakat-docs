@@ -5,7 +5,7 @@
 Modernize Empty With Expression
 +++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Modernize Empty With Expression: empty() accepts expressions as argument.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Modernize Empty With Expression
 	:og:description: empty() accepts expressions as argument
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ModernEmpty.html
 	:og:locale: en
-  empty() accepts expressions as argument. This feature was added in PHP 5.5. 
+empty() accepts expressions as argument. This feature was added in PHP 5.5. 
 
 There is no need to store the expression in a variable before testing, unless it is reused later.
 

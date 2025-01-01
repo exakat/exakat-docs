@@ -5,7 +5,7 @@
 Has Variable Arguments
 ++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Has Variable Arguments: Indicates if this function or method accept an arbitrary number of arguments, based on func_get_args(), func_get_arg() and func_num_args() usage.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Has Variable Arguments
 	:og:description: Indicates if this function or method accept an arbitrary number of arguments, based on func_get_args(), func_get_arg() and func_num_args() usage
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/VariableArguments.html
 	:og:locale: en
-  Indicates if this function or method accept an arbitrary number of arguments, based on `func_get_args() <https://www.php.net/func_get_args>`_, `func_get_arg() <https://www.php.net/func_get_arg>`_ and `func_num_args() <https://www.php.net/func_num_args>`_ usage.
+Indicates if this function or method accept an arbitrary number of arguments, based on `func_get_args() <https://www.php.net/func_get_args>`_, `func_get_arg() <https://www.php.net/func_get_arg>`_ and `func_num_args() <https://www.php.net/func_num_args>`_ usage.
 
 .. code-block:: php
    

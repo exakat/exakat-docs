@@ -5,7 +5,7 @@
 Wrong Access Style to Property
 ++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Wrong Access Style to Property: Use the right syntax when reaching for a property.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Wrong Access Style to Property
 	:og:description: Use the right syntax when reaching for a property
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/UndeclaredStaticProperty.html
 	:og:locale: en
-  Use the right syntax when reaching for a property. `Static <https://www.php.net/manual/en/language.oop5.static.php>`_ properties use the ``\:\:`` operator, and non-`static <https://www.php.net/manual/en/language.oop5.static.php>`_ properties use ``->``. 
+Use the right syntax when reaching for a property. `Static <https://www.php.net/manual/en/language.oop5.static.php>`_ properties use the ``\:\:`` operator, and non-`static <https://www.php.net/manual/en/language.oop5.static.php>`_ properties use ``->``. 
 
 Mistaking one of the other raise two different reactions from PHP : ``Access to undeclared `static <https://www.php.net/manual/en/language.oop5.static.php>`_ property`` is a fatal `error <https://www.php.net/error>`_, while ``PHP Notice:  Accessing `static <https://www.php.net/manual/en/language.oop5.static.php>`_ property aa\:\:$a as non `static <https://www.php.net/manual/en/language.oop5.static.php>`_`` is a notice.
 

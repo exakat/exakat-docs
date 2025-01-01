@@ -5,7 +5,7 @@
 ext/hash
 ++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/hash: Extension for HASH Message Digest Framework.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/hash
 	:og:description: Extension for HASH Message Digest Framework
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Exthash.html
 	:og:locale: en
-  Extension for HASH Message Digest Framework.
+Extension for HASH Message Digest Framework.
 
 Message Digest (hash) `engine <https://www.php.net/engine>`_. Allows direct or incremental processing of arbitrary length messages using a variety of hashing algorithms.
 

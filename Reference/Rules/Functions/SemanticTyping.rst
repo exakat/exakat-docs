@@ -5,7 +5,7 @@
 Semantic Typing
 +++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Semantic Typing: Arguments names are only useful inside the method's body.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Semantic Typing
 	:og:description: Arguments names are only useful inside the method's body
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/SemanticTyping.html
 	:og:locale: en
-  Arguments names are only useful inside the method's body. They are not actual type.
+Arguments names are only useful inside the method's body. They are not actual type.
 
 .. code-block:: php
    

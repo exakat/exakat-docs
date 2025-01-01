@@ -5,7 +5,7 @@
 Missing Overriden Method
 ++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Missing Overriden Method: This rule reports methods which bears the override attribute, but cannot have an eponymous method in the parent class.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Missing Overriden Method
 	:og:description: This rule reports methods which bears the override attribute, but cannot have an eponymous method in the parent class
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Attributes/MissingOverrideMethod.html
 	:og:locale: en
-  This rule reports methods which bears the `override <https://www.php.net/override>`_ `attribute <https://www.php.net/attribute>`_, but cannot have an eponymous method in the `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ class.
+This rule reports methods which bears the `override <https://www.php.net/override>`_ `attribute <https://www.php.net/attribute>`_, but cannot have an eponymous method in the `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ class.
 
 This happens when the class has no `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_, or when a trait is used in class without `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_.
 

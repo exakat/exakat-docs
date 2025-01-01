@@ -5,7 +5,7 @@
 Used Trait
 ++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Used Trait: Mark a trait as being used by a class or another trait.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Used Trait
 	:og:description: Mark a trait as being used by a class or another trait
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Traits/UsedTrait.html
 	:og:locale: en
-  Mark a trait as being used by a class or another trait.
+Mark a trait as being used by a class or another trait.
 
 .. code-block:: php
    

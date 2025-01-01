@@ -5,7 +5,7 @@
 Use With Fully Qualified Name
 +++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Use With Fully Qualified Name: Use statement doesn't require a fully qualified name.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Use With Fully Qualified Name
 	:og:description: Use statement doesn't require a fully qualified name
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Namespaces/UseWithFullyQualifiedNS.html
 	:og:locale: en
-  Use statement doesn't require a fully qualified name.
+Use statement doesn't require a fully qualified name.
 
 PHP manual recommends not to use fully qualified name (starting with \) when using the 'use' statement : they are "the leading backslash is unnecessary and not recommended, as import names must be fully qualified, and are not processed relative to the current namespace".
 

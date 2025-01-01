@@ -5,7 +5,7 @@
 ext/nsapi
 +++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/nsapi: NSAPI specific functions calls.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/nsapi
 	:og:description: NSAPI specific functions calls
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extnsapi.html
 	:og:locale: en
-  NSAPI specific functions calls. 
+NSAPI specific functions calls. 
 
 These functions are only available when running PHP as a NSAPI module in Netscape/iPlanet/Sun webservers.
 

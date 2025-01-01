@@ -5,7 +5,7 @@
 No Append On Source
 +++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		No Append On Source: Do not append new elements to an array in a foreach loop.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ No Append On Source
 	:og:description: Do not append new elements to an array in a foreach loop
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/NoAppendOnSource.html
 	:og:locale: en
-  Do not append new elements to an array in a foreach loop. Since PHP 7.0, the array is still used as a source, and will be augmented, and used again. 
+Do not append new elements to an array in a foreach loop. Since PHP 7.0, the array is still used as a source, and will be augmented, and used again. 
 Thanks to `Frederic Bouchery <https://twitter.com/FredBouchery/>`_ for the reminder.
 
 .. code-block:: php

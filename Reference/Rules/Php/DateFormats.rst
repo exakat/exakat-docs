@@ -5,7 +5,7 @@
 Date Formats
 ++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Date Formats: Inventory of date formats used in the code.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Date Formats
 	:og:description: Inventory of date formats used in the code
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/DateFormats.html
 	:og:locale: en
-  Inventory of date formats used in the code. 
+Inventory of date formats used in the code. 
 
 Date format are detected with calls to `date() <https://www.php.net/date>`_, `strftime() <https://www.php.net/strftime>`_, `gmstrftime() <https://www.php.net/gmstrftime>`_, `date_format() <https://www.php.net/date_format>`_ functions and to the format() method on ``Datetime`` and ``DatetimeImmutable``.
 

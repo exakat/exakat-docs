@@ -5,7 +5,7 @@
 Use Browscap
 ++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Use Browscap: Browscap is a browser database, accessible via get_browser().
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Use Browscap
 	:og:description: Browscap is a browser database, accessible via get_browser()
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/UseBrowscap.html
 	:og:locale: en
-  Browscap is a browser database, accessible via `get_browser() <https://www.php.net/get_browser>`_. 
+Browscap is a browser database, accessible via `get_browser() <https://www.php.net/get_browser>`_. 
 
 Browscap is the 'Browser Capabilities Project'.
 

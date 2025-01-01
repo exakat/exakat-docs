@@ -5,7 +5,7 @@
 No Reference For Static Property
 ++++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		No Reference For Static Property: Static properties used to behave independently when set to a reference value.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ No Reference For Static Property
 	:og:description: Static properties used to behave independently when set to a reference value
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/NoReferenceForStaticProperty.html
 	:og:locale: en
-  `Static <https://www.php.net/manual/en/language.oop5.static.php>`_ properties used to behave independently when set to a reference value. This was fixed in PHP 7.3. 
+`Static <https://www.php.net/manual/en/language.oop5.static.php>`_ properties used to behave independently when set to a reference value. This was fixed in PHP 7.3. 
 
 According to the PHP 7.3 changelog : 
 

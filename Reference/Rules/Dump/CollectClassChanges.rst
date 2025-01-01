@@ -5,7 +5,7 @@
 Collect Static Class Changes
 ++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Collect Static Class Changes: Collects changes to constants, methods and properties, within a class hierarchy.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Collect Static Class Changes
 	:og:description: Collects changes to constants, methods and properties, within a class hierarchy
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/CollectClassChanges.html
 	:og:locale: en
-  Collects changes to constants, methods and properties, within a class hierarchy. It reports changes in visibility, type and values for constants; visibility, type and values for properties.
+Collects changes to constants, methods and properties, within a class hierarchy. It reports changes in visibility, type and values for constants; visibility, type and values for properties.
 
 .. code-block:: php
    

@@ -5,7 +5,7 @@
 ext/zookeeper
 +++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/zookeeper: Extension for Apache Zookeeper.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/zookeeper
 	:og:description: Extension for Apache Zookeeper
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extzookeeper.html
 	:og:locale: en
-  Extension for Apache Zookeeper. 
+Extension for Apache Zookeeper. 
 
 ZooKeeper is an Apache project that enables centralized service for maintaining configuration information, naming, providing distributed synchronization, and providing group services.
 

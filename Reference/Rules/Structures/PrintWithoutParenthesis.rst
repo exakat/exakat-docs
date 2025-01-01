@@ -5,7 +5,7 @@
 Avoid Parenthesis With Language Construct
 +++++++++++++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Avoid Parenthesis With Language Construct: Avoid Parenthesis for language construct.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Avoid Parenthesis With Language Construct
 	:og:description: Avoid Parenthesis for language construct
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/PrintWithoutParenthesis.html
 	:og:locale: en
-  Avoid Parenthesis for language construct. Languages constructs are a few PHP native elements, that looks like functions but are not. 
+Avoid Parenthesis for language construct. Languages constructs are a few PHP native elements, that looks like functions but are not. 
 
 Among other distinction, those elements cannot be directly used as variable function call, and they may be used with or without parenthesis.
 The usage of parenthesis actually give some feeling of comfort, it won't prevent PHP from combining those argument with any later operators, leading to unexpected results.

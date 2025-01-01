@@ -5,7 +5,7 @@
 No Substr Minus One
 +++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		No Substr Minus One: Negative index were introduced in PHP 7.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ No Substr Minus One
 	:og:description: Negative index were introduced in PHP 7
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/NoSubstrMinusOne.html
 	:og:locale: en
-  Negative index were introduced in PHP 7.1. This syntax is not compatible with PHP 7.0 and older.
+Negative index were introduced in PHP 7.1. This syntax is not compatible with PHP 7.0 and older.
 
 .. code-block:: php
    

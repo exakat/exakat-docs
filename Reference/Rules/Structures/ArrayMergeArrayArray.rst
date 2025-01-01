@@ -5,7 +5,7 @@
 Array_merge Needs Array Of Arrays
 +++++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Array_merge Needs Array Of Arrays: When collecting data to feed array_merge(), use an array of array as default value.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Array_merge Needs Array Of Arrays
 	:og:description: When collecting data to feed array_merge(), use an array of array as default value
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ArrayMergeArrayArray.html
 	:og:locale: en
-  When collecting data to feed `array_merge() <https://www.php.net/array_merge>`_, use an array of array as default value. ```array(`array()) <https://www.php.net/array>`_``` is the neutral value for `array_merge() <https://www.php.net/array_merge>`_;
+When collecting data to feed `array_merge() <https://www.php.net/array_merge>`_, use an array of array as default value. ```array(`array()) <https://www.php.net/array>`_``` is the neutral value for `array_merge() <https://www.php.net/array_merge>`_;
 
 This analysis also reports when the used types are not an array : `array_merge() <https://www.php.net/array_merge>`_ does not accept scalar values, but only arrays.
 

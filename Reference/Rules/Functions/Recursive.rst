@@ -5,7 +5,7 @@
 Recursive Functions
 +++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Recursive Functions: Recursive methods are methods that calls itself.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Recursive Functions
 	:og:description: Recursive methods are methods that calls itself
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/Recursive.html
 	:og:locale: en
-  Recursive methods are methods that calls itself. 
+Recursive methods are methods that calls itself. 
 
 Usually, the method call itself directly. In rarer occasions, the method calls another method which calls it back; such cycle are longer and not detected here.
 

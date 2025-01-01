@@ -5,7 +5,7 @@
 Do In Base
 ++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Do In Base: Use SQL expression to compute aggregates in the database.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Do In Base
 	:og:description: Use SQL expression to compute aggregates in the database
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Performances/DoInBase.html
 	:og:locale: en
-  Use SQL expression to compute aggregates in the database. By doing so, the data don't have to be transfered from the database to PHP, which saves a lot of operations. Such operations are also often faster in the database, because of optimized code.
+Use SQL expression to compute aggregates in the database. By doing so, the data don't have to be transfered from the database to PHP, which saves a lot of operations. Such operations are also often faster in the database, because of optimized code.
 
 .. code-block:: php
    

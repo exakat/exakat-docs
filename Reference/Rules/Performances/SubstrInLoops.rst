@@ -5,7 +5,7 @@
 Substr() In Loops
 +++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Substr() In Loops: Successive substr() calls may be replaced by a call to str_split().
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Substr() In Loops
 	:og:description: Successive substr() calls may be replaced by a call to str_split()
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Performances/SubstrInLoops.html
 	:og:locale: en
-  Successive `substr() <https://www.php.net/substr>`_ calls may be replaced by a call to `str_split() <https://www.php.net/str_split>`_. 
+Successive `substr() <https://www.php.net/substr>`_ calls may be replaced by a call to `str_split() <https://www.php.net/str_split>`_. 
 
 It speeds up the processing, and allows the replacement of indefinite loops by a `foreach() <https://www.php.net/manual/en/control-structures.foreach.php>`_ call. 
 

@@ -5,7 +5,7 @@
 Should Typecast
 +++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Should Typecast: When typecasting, it is better to use the casting operator, such as ``(int)`` or ``(bool)``.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Should Typecast
 	:og:description: When typecasting, it is better to use the casting operator, such as ``(int)`` or ``(bool)``
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Type/ShouldTypecast.html
 	:og:locale: en
-  When typecasting, it is better to use the casting operator, such as ``(int)`` or ``(bool)``.
+When typecasting, it is better to use the casting operator, such as ``(int)`` or ``(bool)``.
 
 Functions such as `intval() <https://www.php.net/intval>`_ or `settype() <https://www.php.net/settype>`_ are always slower.
 This is a micro-optimisation, although such conversion may be use multiple times, leading to a larger performance increase.  

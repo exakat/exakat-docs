@@ -5,7 +5,7 @@
 Undefined Functions
 +++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Undefined Functions: Those functions are called, though they are not defined in the code.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Undefined Functions
 	:og:description: Those functions are called, though they are not defined in the code
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/UndefinedFunctions.html
 	:og:locale: en
-  Those functions are called, though they are not defined in the code. 
+Those functions are called, though they are not defined in the code. 
 
 The functions are probably defined in a missing library, component, or in an extension. When this is not the case, PHP yield a Fatal `error <https://www.php.net/error>`_ at execution.
 

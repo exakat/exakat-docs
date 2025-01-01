@@ -5,7 +5,7 @@
 Fallback Function
 +++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Fallback Function: This rule reports functions that are called with its name alone, and whose definition is in the global scope.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Fallback Function
 	:og:description: This rule reports functions that are called with its name alone, and whose definition is in the global scope
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/FallbackFunction.html
 	:og:locale: en
-  This rule reports functions that are called with its name alone, and whose definition is in the global scope. Such syntax relies on the fallback mechanism of PHP, which search for functions in the local namespace, then in the global namespace, before failing.
+This rule reports functions that are called with its name alone, and whose definition is in the global scope. Such syntax relies on the fallback mechanism of PHP, which search for functions in the local namespace, then in the global namespace, before failing.
 
 .. code-block:: php
    

@@ -5,7 +5,7 @@
 Could Use Null-Safe Object Operator
 +++++++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Could Use Null-Safe Object Operator: When the preceding function call has the potential to return null, employing the null-safe object operator can help mitigate fatal errors.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Could Use Null-Safe Object Operator
 	:og:description: When the preceding function call has the potential to return null, employing the null-safe object operator can help mitigate fatal errors
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/CouldUseNullableOperator.html
 	:og:locale: en
-  When the preceding function call has the potential to return null, employing the null-safe object operator can help mitigate fatal errors.
+When the preceding function call has the potential to return null, employing the null-safe object operator can help mitigate fatal errors.
 
 One approach is to assess the returned value prior to utilization, ensuring it is not null, and refraining from invoking methods on a null reference. Alternatively, the null-safe operator can be employed, allowing verification of the end `result <https://www.php.net/result>`_. If the `result <https://www.php.net/result>`_ is null, it indicates an `error <https://www.php.net/error>`_.
 

@@ -5,7 +5,7 @@
 Used Use
 ++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Used Use: This rule lists the ``use`` statements.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Used Use
 	:og:description: This rule lists the ``use`` statements
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Namespaces/UsedUse.html
 	:og:locale: en
-  This rule lists the ``use`` statements. Those ``use`` are made to import namespaces structures, including functions and constants, and not to include traits in classes.
+This rule lists the ``use`` statements. Those ``use`` are made to import namespaces structures, including functions and constants, and not to include traits in classes.
 
 .. code-block:: php
    

@@ -5,7 +5,7 @@
 PHP 8.1 Removed Constants
 +++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		PHP 8.1 Removed Constants: The following PHP native constants were disabled in PHP 8.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ PHP 8.1 Removed Constants
 	:og:description: The following PHP native constants were disabled in PHP 8
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/Php81RemovedConstant.html
 	:og:locale: en
-  The following PHP native constants were disabled in PHP 8.1. They are not removed, but they have no more effect. 
+The following PHP native constants were disabled in PHP 8.1. They are not removed, but they have no more effect. 
 
 + `MYSQLI_STMT_ATTR_UPDATE_MAX_LENGTH <https://www.php.net/MYSQLI_STMT_ATTR_UPDATE_MAX_LENGTH>`_
 + `MYSQLI_STORE_RESULT_COPY_DATA <https://www.php.net/MYSQLI_STORE_RESULT_COPY_DATA>`_

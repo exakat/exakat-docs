@@ -5,7 +5,7 @@
 Use List With Foreach
 +++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Use List With Foreach: Foreach() structures accepts list() as blind key.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Use List With Foreach
 	:og:description: Foreach() structures accepts list() as blind key
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/UseListWithForeach.html
 	:og:locale: en
-  `Foreach() <https://www.php.net/manual/en/control-structures.foreach.php>`_ structures accepts `list() <https://www.php.net/list>`_ as blind key. If the loop-value is an array with a fixed structure, it is possible to extract the values directly into variables with explicit names.
+`Foreach() <https://www.php.net/manual/en/control-structures.foreach.php>`_ structures accepts `list() <https://www.php.net/list>`_ as blind key. If the loop-value is an array with a fixed structure, it is possible to extract the values directly into variables with explicit names.
 
 .. code-block:: php
    

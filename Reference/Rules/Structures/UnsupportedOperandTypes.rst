@@ -5,7 +5,7 @@
 Unsupported Operand Types
 +++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Unsupported Operand Types: This error is raised when trying to combine an array and a scalar value.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Unsupported Operand Types
 	:og:description: This error is raised when trying to combine an array and a scalar value
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/UnsupportedOperandTypes.html
 	:og:locale: en
-  This `error <https://www.php.net/error>`_ is raised when trying to combine an array and a scalar value. 
+This `error <https://www.php.net/error>`_ is raised when trying to combine an array and a scalar value. 
 
 Always checks that the types are compatible with the planned operations.
 PHP detects this `error <https://www.php.net/error>`_ at linting time, when using literal values. When `static <https://www.php.net/manual/en/language.oop5.static.php>`_ expression are involved, this `error <https://www.php.net/error>`_ will appear at execution time.

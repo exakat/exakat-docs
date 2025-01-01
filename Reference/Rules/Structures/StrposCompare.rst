@@ -5,7 +5,7 @@
 Strpos()-like Comparison
 ++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Strpos()-like Comparison: The result of that function may be mistaken with an error.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Strpos()-like Comparison
 	:og:description: The result of that function may be mistaken with an error
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/StrposCompare.html
 	:og:locale: en
-  The `result <https://www.php.net/result>`_ of that function may be mistaken with an `error <https://www.php.net/error>`_.
+The `result <https://www.php.net/result>`_ of that function may be mistaken with an `error <https://www.php.net/error>`_.
 
 `strpos() <https://www.php.net/strpos>`_, along with several PHP native functions, returns a string position, starting at 0, or false, in case of failure. 
 It is recommended to check the `result <https://www.php.net/result>`_ of `strpos() <https://www.php.net/strpos>`_ with === or !==, so as to avoid confusing 0 and false. 

@@ -5,7 +5,7 @@
 Overwritten Literals
 ++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Overwritten Literals: The same variable is assigned a literal twice.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Overwritten Literals
 	:og:description: The same variable is assigned a literal twice
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Variables/OverwrittenLiterals.html
 	:og:locale: en
-  The same variable is assigned a literal twice. It is possible that one of the assignation is too many.
+The same variable is assigned a literal twice. It is possible that one of the assignation is too many.
 
 This analysis doesn't take into account the distance between two assignations : it may report false positives when the variable is actually used for several purposes, and, as such, assigned twice with different values.
 

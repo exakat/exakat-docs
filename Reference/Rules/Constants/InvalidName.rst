@@ -5,7 +5,7 @@
 Invalid Constant Name
 +++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Invalid Constant Name: There is a naming convention for PHP constants names.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Invalid Constant Name
 	:og:description: There is a naming convention for PHP constants names
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Constants/InvalidName.html
 	:og:locale: en
-  There is a naming convention for PHP constants names. 
+There is a naming convention for PHP constants names. 
 
 According to PHP's manual, constant names, ' A valid constant name starts with a letter or underscore, followed by any number of letters, numbers, or underscores.'.
 

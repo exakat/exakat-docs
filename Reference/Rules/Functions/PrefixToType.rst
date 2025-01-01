@@ -5,7 +5,7 @@
 Prefix And Suffixes With Typehint
 +++++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Prefix And Suffixes With Typehint: This analysis checks the relationship between methods prefixes and suffixes, with their corresponding return typehint.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Prefix And Suffixes With Typehint
 	:og:description: This analysis checks the relationship between methods prefixes and suffixes, with their corresponding return typehint
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/PrefixToType.html
 	:og:locale: en
-  This analysis checks the relationship between methods prefixes and suffixes, with their corresponding return typehint.
+This analysis checks the relationship between methods prefixes and suffixes, with their corresponding return typehint.
 
 For example, a method with the signature ``function isACustomer() {}`` should return a boolean. That boolean can then be read when calling the method : ``if ($user->isACustomer()) {}``.
 

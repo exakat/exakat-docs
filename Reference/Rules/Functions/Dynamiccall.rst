@@ -5,7 +5,7 @@
 Dynamic Function Call
 +++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Dynamic Function Call: Mark a functioncall made with a variable name.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Dynamic Function Call
 	:og:description: Mark a functioncall made with a variable name
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/Dynamiccall.html
 	:og:locale: en
-  Mark a functioncall made with a variable name. This means the function is only known at execution time, since it depends on the content of the variable. 
+Mark a functioncall made with a variable name. This means the function is only known at execution time, since it depends on the content of the variable. 
 
 .. code-block:: php
    

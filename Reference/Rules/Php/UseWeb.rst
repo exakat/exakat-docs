@@ -5,7 +5,7 @@
 Use Web
 +++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Use Web: The code is used in web environment.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Use Web
 	:og:description: The code is used in web environment
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/UseWeb.html
 	:og:locale: en
-  The code is used in web environment.
+The code is used in web environment.
 
 The web environement is identified through the usage of the superglobals: ``$_GET``, ``$_POST``, etc.
 

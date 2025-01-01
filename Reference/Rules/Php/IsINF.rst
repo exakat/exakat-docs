@@ -5,7 +5,7 @@
 Manipulates INF
 +++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Manipulates INF: This code handles INF situations.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Manipulates INF
 	:og:description: This code handles INF situations
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/IsINF.html
 	:og:locale: en
-  This code handles `INF <https://www.php.net/INF>`_ situations. `INF <https://www.php.net/INF>`_ represents the infinity, when used in a float context. It happens when a calculation returns a number that is much larger than the maximum allowed float (not integer), or a number that is not a Division by 0.
+This code handles `INF <https://www.php.net/INF>`_ situations. `INF <https://www.php.net/INF>`_ represents the infinity, when used in a float context. It happens when a calculation returns a number that is much larger than the maximum allowed float (not integer), or a number that is not a Division by 0.
 
 .. code-block:: php
    

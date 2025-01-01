@@ -5,7 +5,7 @@
 Multiple Unset()
 ++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Multiple Unset(): Unset() accepts multiple arguments, unsetting them one after each other.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Multiple Unset()
 	:og:description: Unset() accepts multiple arguments, unsetting them one after each other
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/MultipleUnset.html
 	:og:locale: en
-  Unset() accepts multiple arguments, unsetting them one after each other. It is more efficient to call unset() once, than multiple times.
+Unset() accepts multiple arguments, unsetting them one after each other. It is more efficient to call unset() once, than multiple times.
 
 .. code-block:: php
    

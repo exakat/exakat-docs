@@ -5,7 +5,7 @@
 Locally Used Property In Trait
 ++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Locally Used Property In Trait: List of properties that are used in the trait where they are defined.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Locally Used Property In Trait
 	:og:description: List of properties that are used in the trait where they are defined
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Traits/LocallyUsedProperty.html
 	:og:locale: en
-  List of properties that are used in the trait where they are defined. A property should be used at least once in the trait of its definition.
+List of properties that are used in the trait where they are defined. A property should be used at least once in the trait of its definition.
 
 .. code-block:: php
    

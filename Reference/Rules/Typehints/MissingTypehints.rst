@@ -5,7 +5,7 @@
 Missing Type In Definition
 ++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Missing Type In Definition: This rule reports any missing typehints, on parameters, return value, property or class constants.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Missing Type In Definition
 	:og:description: This rule reports any missing typehints, on parameters, return value, property or class constants
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Typehints/MissingTypehints.html
 	:og:locale: en
-  This rule reports any missing typehints, on parameters, return value, property or class constants. It is recommended to add types to all possible structures to make the type system more efficient.
+This rule reports any missing typehints, on parameters, return value, property or class constants. It is recommended to add types to all possible structures to make the type system more efficient.
 
 `__construct() <https://www.php.net/manual/en/language.oop5.decon.php>`_ and `__destruct() <https://www.php.net/manual/en/language.oop5.decon.php>`_ should not use typehints, and are omitted.
 

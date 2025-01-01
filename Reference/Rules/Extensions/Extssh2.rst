@@ -5,7 +5,7 @@
 ext/ssh2
 ++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/ssh2: Extension ext/ssh2.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/ssh2
 	:og:description: Extension ext/ssh2
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extssh2.html
 	:og:locale: en
-  Extension ext/ssh2.
+Extension ext/ssh2.
 
 .. code-block:: php
    

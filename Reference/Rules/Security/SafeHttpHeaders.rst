@@ -5,7 +5,7 @@
 Safe HTTP Headers
 +++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Safe HTTP Headers: Avoid configuring HTTP headers with lax restriction from within PHP.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Safe HTTP Headers
 	:og:description: Avoid configuring HTTP headers with lax restriction from within PHP
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Security/SafeHttpHeaders.html
 	:og:locale: en
-  Avoid configuring HTTP headers with lax restriction from within PHP. 
+Avoid configuring HTTP headers with lax restriction from within PHP. 
 
 There are a lot of HTTP headers those days, targeting various vulnerabilities. To ensure backward compatibility, those headers have a default mode that is lax and permissive. It is recommended to avoid using those from within the code.
 

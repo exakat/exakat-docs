@@ -5,7 +5,7 @@
 ext/snmp
 ++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/snmp: Extension SNMP.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/snmp
 	:og:description: Extension SNMP
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extsnmp.html
 	:og:locale: en
-  Extension `SNMP <https://www.php.net/SNMP>`_.
+Extension `SNMP <https://www.php.net/SNMP>`_.
 
 The `SNMP <https://www.php.net/SNMP>`_ extension provides a very simple and easily usable toolset for managing remote devices via the Simple Network Management Protocol.
 

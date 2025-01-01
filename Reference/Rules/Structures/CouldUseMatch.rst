@@ -5,7 +5,7 @@
 Could Use Match
 +++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Could Use Match: The switch() syntax use may be replaced by a match() call.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Could Use Match
 	:og:description: The switch() syntax use may be replaced by a match() call
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/CouldUseMatch.html
 	:og:locale: en
-  The `switch() <https://www.php.net/manual/en/control-structures.switch.php>`_ syntax use may be replaced by a `match() <https://www.php.net/manual/en/control-structures.match.php>`_ call. 
+The `switch() <https://www.php.net/manual/en/control-structures.switch.php>`_ syntax use may be replaced by a `match() <https://www.php.net/manual/en/control-structures.match.php>`_ call. 
 
 The simplest case for such refactoring is when each of the switch's case (including default), assign one value to the same variable. See this below : 
 `Match() <https://www.php.net/manual/en/control-structures.match.php>`_ was introduced in PHP 8. It is not valid with older PHP versions.

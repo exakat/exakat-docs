@@ -5,7 +5,7 @@
 ext/psr
 +++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/psr: Extension PSR : PHP Standards Recommendations.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/psr
 	:og:description: Extension PSR : PHP Standards Recommendations
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extpsr.html
 	:og:locale: en
-  Extension PSR : PHP Standards Recommendations.
+Extension PSR : PHP Standards Recommendations.
 
 This PHP extension provides the interfaces from the PSR standards as established by the PHP-FIG group. You can use interfaces provided by this extension in another extension easily - see this example.
 

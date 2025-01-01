@@ -5,22 +5,22 @@
 Invalid Date Scanning Format
 ++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
-		Invalid Date Scanning Format: The format string used with Datetime\:\:createFromFormat() method (or similar) contains unknown characters.
+		Invalid Date Scanning Format: The format string used with Datetime::createFromFormat() method (or similar) contains unknown characters.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: Invalid Date Scanning Format
-	:twitter:description: Invalid Date Scanning Format: The format string used with Datetime\:\:createFromFormat() method (or similar) contains unknown characters
+	:twitter:description: Invalid Date Scanning Format: The format string used with Datetime::createFromFormat() method (or similar) contains unknown characters
 	:twitter:creator: @exakat
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
 	:og:title: Invalid Date Scanning Format
 	:og:type: article
-	:og:description: The format string used with Datetime\:\:createFromFormat() method (or similar) contains unknown characters
+	:og:description: The format string used with Datetime::createFromFormat() method (or similar) contains unknown characters
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/InvalidDateScanningFormat.html
 	:og:locale: en
-  The format string used with `Datetime\:\:createFromFormat() <https://www.php.net/manual/en/datetime.createfromformat.php>`_ method (or similar) contains unknown characters. 
+The format string used with `Datetime\:\:createFromFormat() <https://www.php.net/manual/en/datetime.createfromformat.php>`_ method (or similar) contains unknown characters. 
 
 This won't raise an `error <https://www.php.net/error>`_, though the resulting values should be checked.
 

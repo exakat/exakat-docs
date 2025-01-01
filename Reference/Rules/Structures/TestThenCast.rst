@@ -5,7 +5,7 @@
 Test Then Cast
 ++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Test Then Cast: A test is run on a value without a cast, and later the cast value is later used.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Test Then Cast
 	:og:description: A test is run on a value without a cast, and later the cast value is later used
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/TestThenCast.html
 	:og:locale: en
-  A test is run on a value without a cast, and later the cast value is later used. 
+A test is run on a value without a cast, and later the cast value is later used. 
 
 The cast may introduce a distortion to the value, and still lead to the unwanted situation. For example, comparing to 0, then later casting to an int. The comparison to 0 is done without casting, and as such, 0.1 is different from 0. Yet, (int) 0.1 is actually 0, leading to a Division by 0 `error <https://www.php.net/error>`_.
 

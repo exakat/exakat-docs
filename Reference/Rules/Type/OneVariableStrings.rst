@@ -5,7 +5,7 @@
 One Variable String
 +++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		One Variable String: These strings only contains one variable or property or array.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ One Variable String
 	:og:description: These strings only contains one variable or property or array
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Type/OneVariableStrings.html
 	:og:locale: en
-  These strings only contains one variable or property or array. 
+These strings only contains one variable or property or array. 
 When the goal is to convert a variable to a string, it is recommended to use the type casting (string) operator : it is then clearer to understand the conversion. It is also marginally faster, though very little.
 
 .. code-block:: php

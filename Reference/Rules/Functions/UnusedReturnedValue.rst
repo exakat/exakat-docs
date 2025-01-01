@@ -5,7 +5,7 @@
 Unused Returned Value
 +++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Unused Returned Value: The function called returns a value, which is ignored.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Unused Returned Value
 	:og:description: The function called returns a value, which is ignored
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/UnusedReturnedValue.html
 	:og:locale: en
-  The function called returns a value, which is ignored. 
+The function called returns a value, which is ignored. 
 
 Usually, this is a sign of dead code, or a missed check on the results of the functioncall. At times, it may be a valid call if the function has voluntarily no return value. 
 

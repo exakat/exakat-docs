@@ -5,7 +5,7 @@
 No Need For Triple Equal
 ++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		No Need For Triple Equal: There is no need for the identity comparison when the methods returns the proper type.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ No Need For Triple Equal
 	:og:description: There is no need for the identity comparison when the methods returns the proper type
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/NoNeedForTriple.html
 	:og:locale: en
-  There is no need for the identity comparison when the methods returns the proper type.
+There is no need for the identity comparison when the methods returns the proper type.
 
 .. code-block:: php
    

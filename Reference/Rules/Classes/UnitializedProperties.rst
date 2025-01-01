@@ -5,7 +5,7 @@
 Unitialized Properties
 ++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Unitialized Properties: Properties that are not initialized in the constructor, nor at definition.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Unitialized Properties
 	:og:description: Properties that are not initialized in the constructor, nor at definition
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/UnitializedProperties.html
 	:og:locale: en
-  Properties that are not initialized in the constructor, nor at definition. 
+Properties that are not initialized in the constructor, nor at definition. 
 
 With the above class, when m() is accessed right after instantiation, there will be a missing property. 
 Using default values at property definition, or setting default values in the constructor ensures that the created object is consistent.

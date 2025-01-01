@@ -5,7 +5,7 @@
 PHP 8.0 Typehints
 +++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		PHP 8.0 Typehints: New scalar typehints were introduced : mixed and false.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ PHP 8.0 Typehints
 	:og:description: New scalar typehints were introduced : mixed and false
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/PHP80scalartypehints.html
 	:og:locale: en
-  New scalar typehints were introduced : mixed and false. 
+New scalar typehints were introduced : mixed and false. 
 
 They can't be used before PHP 8.0, and will be confused with classes or interfaces, or generate a parse `error <https://www.php.net/error>`_.
 

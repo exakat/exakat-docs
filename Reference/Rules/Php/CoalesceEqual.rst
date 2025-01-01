@@ -5,7 +5,7 @@
 Coalesce Equal
 ++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Coalesce Equal: Usage of coalesce assignment operator.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Coalesce Equal
 	:og:description: Usage of coalesce assignment operator
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/CoalesceEqual.html
 	:og:locale: en
-  Usage of coalesce assignment operator. The operator is available in PHP since PHP 7.4.
+Usage of coalesce assignment operator. The operator is available in PHP since PHP 7.4.
 
 .. code-block:: php
    

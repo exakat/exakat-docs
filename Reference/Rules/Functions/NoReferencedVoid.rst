@@ -5,7 +5,7 @@
 No Referenced Void
 ++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		No Referenced Void: There is no point returning a reference with a void type.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ No Referenced Void
 	:og:description: There is no point returning a reference with a void type
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/NoReferencedVoid.html
 	:og:locale: en
-  There is no point returning a reference with a void type. This is now reported as deprecated in PHP 8.1.
+There is no point returning a reference with a void type. This is now reported as deprecated in PHP 8.1.
 
 .. code-block:: php
    

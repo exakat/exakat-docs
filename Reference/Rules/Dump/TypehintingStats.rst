@@ -5,7 +5,7 @@
 Typehinting Stats
 +++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Typehinting Stats: Collects various statistics about typehinting usage.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Typehinting Stats
 	:og:description: Collects various statistics about typehinting usage
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/TypehintingStats.html
 	:og:locale: en
-  Collects various statistics about typehinting usage.
+Collects various statistics about typehinting usage.
 
 + totalArguments : Total number of explicit arguments. This count variadics as one, and skip usage of `func_get_args() <https://www.php.net/func_get_args>`_
 + totalFunctions : Total number of functions, closures, arrow-functions and methods

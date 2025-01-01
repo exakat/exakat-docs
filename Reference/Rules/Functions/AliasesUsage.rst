@@ -5,7 +5,7 @@
 Native Alias Functions Usage
 ++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Native Alias Functions Usage: PHP manual recommends to avoid function aliases.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Native Alias Functions Usage
 	:og:description: PHP manual recommends to avoid function aliases
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/AliasesUsage.html
 	:og:locale: en
-  PHP manual recommends to avoid function aliases.
+PHP manual recommends to avoid function aliases.
 
 Some PHP native functions have several names, and both may be used the same way. However, one of the names is the main name, and the others are aliases. Aliases may be removed or change or dropped in the future. Even if this is not forecast, it is good practice to use the main name, instead of the aliases. 
 Aliases are compiled in PHP, and do not provide any performances over the normal function. 

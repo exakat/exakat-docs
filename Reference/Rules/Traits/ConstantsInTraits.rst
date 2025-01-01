@@ -5,7 +5,7 @@
 Constants In Traits
 +++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Constants In Traits: Traits may have their own constants.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Constants In Traits
 	:og:description: Traits may have their own constants
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Traits/ConstantsInTraits.html
 	:og:locale: en
-  Traits may have their own constants. This feature was introduced in PHP 8.2 and is not backward compatible.
+Traits may have their own constants. This feature was introduced in PHP 8.2 and is not backward compatible.
 
 .. code-block:: php
    

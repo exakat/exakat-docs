@@ -5,7 +5,7 @@
 Overwritten Foreach Var
 +++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Overwritten Foreach Var: When using standard blind variable names, nested foreach may lead to overwriting the variables.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Overwritten Foreach Var
 	:og:description: When using standard blind variable names, nested foreach may lead to overwriting the variables
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/OverwrittenForeachVar.html
 	:og:locale: en
-  When using standard blind variable names, nested foreach may lead to overwriting the variables.
+When using standard blind variable names, nested foreach may lead to overwriting the variables.
 
 Careful coding may take advantage of that feature. Though, it tends to be `error <https://www.php.net/error>`_ prone, and will generate bugs if the code is refactored.
 

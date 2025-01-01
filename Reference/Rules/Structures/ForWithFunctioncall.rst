@@ -5,7 +5,7 @@
 For Using Functioncall
 ++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		For Using Functioncall: It is recommended to avoid functioncall in the for() statement.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ For Using Functioncall
 	:og:description: It is recommended to avoid functioncall in the for() statement
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ForWithFunctioncall.html
 	:og:locale: en
-  It is recommended to avoid functioncall in the `for() <https://www.php.net/manual/en/control-structures.for.php>`_ statement. 
+It is recommended to avoid functioncall in the `for() <https://www.php.net/manual/en/control-structures.for.php>`_ statement. 
 
 This is true with any kind of functioncall that returns the same value throughout the loop. 
 

@@ -5,7 +5,7 @@
 ext/xmlreader
 +++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/xmlreader: Extension XMLReader.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/xmlreader
 	:og:description: Extension XMLReader
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extxmlreader.html
 	:og:locale: en
-  Extension `XMLReader <https://www.php.net/xmlreader>`_.
+Extension `XMLReader <https://www.php.net/xmlreader>`_.
 
 The `XMLReader <https://www.php.net/xmlreader>`_ extension is an XML Pull parser. The reader acts as a cursor going forward on the document stream and stopping at each node on the way.
 

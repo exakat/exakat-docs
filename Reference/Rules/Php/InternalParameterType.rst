@@ -5,7 +5,7 @@
 Wrong Parameter Type
 ++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Wrong Parameter Type: The expected parameter is not of the correct type.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Wrong Parameter Type
 	:og:description: The expected parameter is not of the correct type
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/InternalParameterType.html
 	:og:locale: en
-  The expected parameter is not of the correct type. Check PHP documentation to know which is the right format to be used.
+The expected parameter is not of the correct type. Check PHP documentation to know which is the right format to be used.
 
 .. code-block:: php
    

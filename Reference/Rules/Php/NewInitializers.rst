@@ -5,7 +5,7 @@
 New Initializers
 ++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		New Initializers: Parameters, static variables and global constants may be initialized with an object.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ New Initializers
 	:og:description: Parameters, static variables and global constants may be initialized with an object
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/NewInitializers.html
 	:og:locale: en
-  Parameters, `static <https://www.php.net/manual/en/language.oop5.static.php>`_ variables and global constants may be initialized with an object. 
+Parameters, `static <https://www.php.net/manual/en/language.oop5.static.php>`_ variables and global constants may be initialized with an object. 
 This feature is available in PHP 8.1 and more recent. It is reported as an invalid constant expression in older PHP versions.
 
 .. code-block:: php

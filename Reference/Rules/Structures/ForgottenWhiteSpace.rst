@@ -5,7 +5,7 @@
 Forgotten Whitespace
 ++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Forgotten Whitespace: Forgotten whitespaces brings unexpected error messages.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Forgotten Whitespace
 	:og:description: Forgotten whitespaces brings unexpected error messages
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ForgottenWhiteSpace.html
 	:og:locale: en
-  Forgotten whitespaces brings unexpected `error <https://www.php.net/error>`_ messages.
+Forgotten whitespaces brings unexpected `error <https://www.php.net/error>`_ messages.
 
 White spaces have been left at either end of a file : before the PHP opening tag, or after the closing tag. 
 

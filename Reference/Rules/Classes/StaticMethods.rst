@@ -5,7 +5,7 @@
 Static Methods
 ++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Static Methods: List of all static methods.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Static Methods
 	:og:description: List of all static methods
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/StaticMethods.html
 	:og:locale: en
-  List of all `static <https://www.php.net/manual/en/language.oop5.static.php>`_ methods.
+List of all `static <https://www.php.net/manual/en/language.oop5.static.php>`_ methods.
 
 .. code-block:: php
    

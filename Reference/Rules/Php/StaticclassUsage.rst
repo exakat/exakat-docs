@@ -5,22 +5,22 @@
 \:\:class
 +++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
-		\:\:class: PHP has a special class constant to hold the name of the class : ``class`` keyword.
+		::class: PHP has a special class constant to hold the name of the class : ``class`` keyword.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
-	:twitter:title: \:\:class
-	:twitter:description: \:\:class: PHP has a special class constant to hold the name of the class : ``class`` keyword
+	:twitter:title: ::class
+	:twitter:description: ::class: PHP has a special class constant to hold the name of the class : ``class`` keyword
 	:twitter:creator: @exakat
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: \:\:class
+	:og:title: ::class
 	:og:type: article
 	:og:description: PHP has a special class constant to hold the name of the class : ``class`` keyword
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/StaticclassUsage.html
 	:og:locale: en
-  PHP has a special class constant to hold the name of the class : ``class`` keyword. It represents the class name that is used in the left part of the operator.
+PHP has a special class constant to hold the name of the class : ``class`` keyword. It represents the class name that is used in the left part of the operator.
 
 Using ``\:\:class`` is safer than relying on a string. It does adapt if the class's name or its namespace is changed'. It is also faster, though it is a micro-optimisation. 
 

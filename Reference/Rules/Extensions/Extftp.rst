@@ -5,7 +5,7 @@
 ext/ftp
 +++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/ftp: Extension FTP.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/ftp
 	:og:description: Extension FTP
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extftp.html
 	:og:locale: en
-  Extension FTP.
+Extension FTP.
 
 The functions in this extension implement client access to files servers speaking the File Transfer Protocol (FTP) as defined in `RFC 959 <http://www.faqs.org/rfcs/rfc959>`_.
 

@@ -5,7 +5,7 @@
 No Initial S In Variable Names
 ++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		No Initial S In Variable Names: The initial capital S in a variable name, may easily be mistaken with the dollar sign.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ No Initial S In Variable Names
 	:og:description: The initial capital S in a variable name, may easily be mistaken with the dollar sign
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Variables/NoInitialS.html
 	:og:locale: en
-  The initial capital S in a variable name, may easily be mistaken with the dollar sign. This rules reports all variables that use a capital S as first letter after the dollar sign, to avoid this problem.
+The initial capital S in a variable name, may easily be mistaken with the dollar sign. This rules reports all variables that use a capital S as first letter after the dollar sign, to avoid this problem.
 
 .. code-block:: php
    

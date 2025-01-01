@@ -5,7 +5,7 @@
 Throw Functioncall
 ++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Throw Functioncall: The ``throw`` keyword expects to use an exception.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Throw Functioncall
 	:og:description: The ``throw`` keyword expects to use an exception
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Exceptions/ThrowFunctioncall.html
 	:og:locale: en
-  The ``throw`` keyword expects to use an `exception <https://www.php.net/exception>`_. Calling a function to prepare that `exception <https://www.php.net/exception>`_ before throwing it is possible, but forgetting the new keyword is also possible. 
+The ``throw`` keyword expects to use an `exception <https://www.php.net/exception>`_. Calling a function to prepare that `exception <https://www.php.net/exception>`_ before throwing it is possible, but forgetting the new keyword is also possible. 
 When the ``new`` keyword is forgotten, then the class constructor is used as a function name, and now `exception <https://www.php.net/exception>`_ is emitted, but an ``Undefined function`` fatal `error <https://www.php.net/error>`_ is emitted.
 
 .. code-block:: php

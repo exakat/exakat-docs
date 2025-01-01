@@ -5,7 +5,7 @@
 Caught Expressions
 ++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Caught Expressions: This rule lists all the caught exceptions.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Caught Expressions
 	:og:description: This rule lists all the caught exceptions
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/TryCatchUsage.html
 	:og:locale: en
-  This rule lists all the caught exceptions. 
+This rule lists all the caught exceptions. 
 
 Exceptions may be caught by a code, while the same code never throw them. 
 

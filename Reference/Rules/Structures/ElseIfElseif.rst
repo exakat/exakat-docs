@@ -5,7 +5,7 @@
 Else If Versus Elseif
 +++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Else If Versus Elseif: Always use elseif instead of else and if.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Else If Versus Elseif
 	:og:description: Always use elseif instead of else and if
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ElseIfElseif.html
 	:og:locale: en
-  Always use elseif instead of else and if. 
+Always use elseif instead of else and if. 
 
 The keyword elseif SHOULD be used instead of else if so that all control keywords look like single words". Quoted from the PHP-FIG documentation
 

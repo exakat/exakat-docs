@@ -5,7 +5,7 @@
 Nullable Without Check
 ++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Nullable Without Check: Nullable typed argument or properties should be checked before usage.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Nullable Without Check
 	:og:description: Nullable typed argument or properties should be checked before usage
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/NullableWithoutCheck.html
 	:og:locale: en
-  Nullable typed argument or properties should be checked before usage. When they are null, they probably won't behave like the other type, and lead to an `error <https://www.php.net/error>`_.
+Nullable typed argument or properties should be checked before usage. When they are null, they probably won't behave like the other type, and lead to an `error <https://www.php.net/error>`_.
 
 .. code-block:: php
    

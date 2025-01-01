@@ -5,7 +5,7 @@
 Empty Try Catch
 +++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Empty Try Catch: The code does try, then catch errors but do no act upon the error.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Empty Try Catch
 	:og:description: The code does try, then catch errors but do no act upon the error
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/EmptyTryCatch.html
 	:og:locale: en
-  The code does try, then catch errors but do no act upon the `error <https://www.php.net/error>`_. 
+The code does try, then catch errors but do no act upon the `error <https://www.php.net/error>`_. 
 
 
 

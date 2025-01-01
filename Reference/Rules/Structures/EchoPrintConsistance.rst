@@ -5,7 +5,7 @@
 Echo Or Print
 +++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Echo Or Print: Echo and print have the same functional use.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Echo Or Print
 	:og:description: Echo and print have the same functional use
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/EchoPrintConsistance.html
 	:og:locale: en
-  Echo and print have the same functional use. <?= and `printf() <https://www.php.net/printf>`_ are also considered in this analysis. 
+Echo and print have the same functional use. <?= and `printf() <https://www.php.net/printf>`_ are also considered in this analysis. 
 
 There seems to be a choice that is not enforced : one form is dominant, (> 90%) while the others are rare. 
 

@@ -5,7 +5,7 @@
 ext/array
 +++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/array: Core functions processing arrays.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/array
 	:og:description: Core functions processing arrays
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extarray.html
 	:og:locale: en
-  Core functions processing arrays.
+Core functions processing arrays.
 
 These functions manipulate arrays in various ways. Arrays are essential for storing, managing, and operating on sets of variables.
 

@@ -5,7 +5,7 @@
 Abstract Methods Usage
 ++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Abstract Methods Usage: This rule lists of all abstract methods.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Abstract Methods Usage
 	:og:description: This rule lists of all abstract methods
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/Abstractmethods.html
 	:og:locale: en
-  This rule lists of all abstract methods. This methods serves as template for child classes to implement.
+This rule lists of all abstract methods. This methods serves as template for child classes to implement.
 
 .. code-block:: php
    

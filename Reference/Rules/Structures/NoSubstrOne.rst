@@ -5,7 +5,7 @@
 Avoid Substr() One
 ++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Avoid Substr() One: Use array notation ``$string[$position]`` to reach a single byte in a string.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Avoid Substr() One
 	:og:description: Use array notation ``$string[$position]`` to reach a single byte in a string
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/NoSubstrOne.html
 	:og:locale: en
-  Use array notation ``$string[$position]`` to reach a single byte in a string.
+Use array notation ``$string[$position]`` to reach a single byte in a string.
 
 There are two ways to access a byte in a string : `substr() <https://www.php.net/substr>`_ and ``$v[$pos]``.
 

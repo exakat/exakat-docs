@@ -5,7 +5,7 @@
 PHP Alternative Syntax
 ++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		PHP Alternative Syntax: This rule identifies the usage of alternative syntax in the code, for if then, switch, while, for and foreach.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ PHP Alternative Syntax
 	:og:description: This rule identifies the usage of alternative syntax in the code, for if then, switch, while, for and foreach
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/AlternativeSyntax.html
 	:og:locale: en
-  This rule identifies the usage of alternative syntax in the code, for if then, switch, while, for and foreach.
+This rule identifies the usage of alternative syntax in the code, for if then, switch, while, for and foreach.
 
 Alternative syntax is another way to write the same expression. Alternative syntax is less popular than the normal one, and associated with older coding practices.
 

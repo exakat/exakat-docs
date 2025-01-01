@@ -5,7 +5,7 @@
 Dynamically Called Classes
 ++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Dynamically Called Classes: This rule reports when a class is called dynamically.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Dynamically Called Classes
 	:og:description: This rule reports when a class is called dynamically
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/VariableClasses.html
 	:og:locale: en
-  This rule reports when a class is called dynamically. To call dynamically a class, one must use a variable at instantiation time, or with the objects syntaxes.
+This rule reports when a class is called dynamically. To call dynamically a class, one must use a variable at instantiation time, or with the objects syntaxes.
 
 .. code-block:: php
    

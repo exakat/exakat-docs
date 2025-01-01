@@ -5,7 +5,7 @@
 Wrong Number Of Arguments
 +++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Wrong Number Of Arguments: Those functioncalls are made with too many or too few arguments.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Wrong Number Of Arguments
 	:og:description: Those functioncalls are made with too many or too few arguments
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/WrongNumberOfArguments.html
 	:og:locale: en
-  Those functioncalls are made with too many or too few arguments. 
+Those functioncalls are made with too many or too few arguments. 
 
 When the number arguments is wrong for native functions, PHP emits a warning. 
 When the number arguments is too small for custom functions, PHP raises an `exception <https://www.php.net/exception>`_. 

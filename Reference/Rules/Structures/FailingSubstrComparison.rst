@@ -5,7 +5,7 @@
 Failed Substr() Comparison
 ++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Failed Substr() Comparison: The extracted string must be of the size of the compared string.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Failed Substr() Comparison
 	:og:description: The extracted string must be of the size of the compared string
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/FailingSubstrComparison.html
 	:og:locale: en
-  The extracted string must be of the size of the compared string.
+The extracted string must be of the size of the compared string.
 
 This is also true for negative lengths.
 This rule raise a false positive when the variable is already smaller than the expected `substr() <https://www.php.net/substr>`_ results.

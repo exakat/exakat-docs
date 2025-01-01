@@ -5,7 +5,7 @@
 array_key_exists() Speedup
 ++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		array_key_exists() Speedup: array_key_exists() has its own opcode, leading to better features and speed.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ array_key_exists() Speedup
 	:og:description: array_key_exists() has its own opcode, leading to better features and speed
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Performances/ArrayKeyExistsSpeedup.html
 	:og:locale: en
-  `array_key_exists() <https://www.php.net/array_key_exists>`_ has its own opcode, leading to better features and speed.
+`array_key_exists() <https://www.php.net/array_key_exists>`_ has its own opcode, leading to better features and speed.
 
 `isset() <https://www.www.php.net/isset>`_ is faster for all non-empty values, but is limited when the value is `NULL <https://www.php.net/manual/en/language.types.null.php>`_ or empty : then, `array_key_exists() <https://www.php.net/array_key_exists>`_ has the good features.
 

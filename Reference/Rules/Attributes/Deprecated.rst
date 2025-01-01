@@ -5,7 +5,7 @@
 Deprecated Attribute
 ++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Deprecated Attribute: The Deprecated attribute marks a class, method, property, class constants and functions that should not be used anymore.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Deprecated Attribute
 	:og:description: The Deprecated attribute marks a class, method, property, class constants and functions that should not be used anymore
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Attributes/Deprecated.html
 	:og:locale: en
-  The Deprecated `attribute <https://www.php.net/attribute>`_ marks a class, method, property, class constants and functions that should not be used anymore. The element is still usable in the current version, and it might be removed in a future version.
+The Deprecated `attribute <https://www.php.net/attribute>`_ marks a class, method, property, class constants and functions that should not be used anymore. The element is still usable in the current version, and it might be removed in a future version.
 
 The full description of the deprecation include ``#[Deprecated(reason: '', replacement: '')]``. The reason parameter is a human readable reason for the change; the replacement parameter is a replacement suggestion. Only the `attribute <https://www.php.net/attribute>`_ is used in this rule.
 

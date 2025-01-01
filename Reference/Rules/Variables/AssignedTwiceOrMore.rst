@@ -5,7 +5,7 @@
 Assigned Twice
 ++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Assigned Twice: The same variable is assigned twice in the same function.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Assigned Twice
 	:og:description: The same variable is assigned twice in the same function
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Variables/AssignedTwiceOrMore.html
 	:og:locale: en
-  The same variable is assigned twice in the same function.
+The same variable is assigned twice in the same function.
 
 While this is possible and quite common, it is also a good practice to avoid changing a value from one literal to another. It is far better to assign the new value to 
 

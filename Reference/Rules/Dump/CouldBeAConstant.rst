@@ -5,7 +5,7 @@
 Could Be A Constant
 +++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Could Be A Constant: This analysis detects literal values that make good candidate for constants.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Could Be A Constant
 	:og:description: This analysis detects literal values that make good candidate for constants
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/CouldBeAConstant.html
 	:og:locale: en
-  This analysis detects literal values that make good candidate for constants. 
+This analysis detects literal values that make good candidate for constants. 
 
 Candidates needs two characteristics : 
 

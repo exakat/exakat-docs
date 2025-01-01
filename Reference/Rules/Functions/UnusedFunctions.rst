@@ -5,7 +5,7 @@
 Unused Functions
 ++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Unused Functions: The functions below are unused.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Unused Functions
 	:og:description: The functions below are unused
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/UnusedFunctions.html
 	:og:locale: en
-  The functions below are unused. They look like dead code.
+The functions below are unused. They look like dead code.
 
 Recursive functions, level 1, are detected : they are only reported when a call from outside the function is made. Recursive functions calls of higher level (A calls B calls A) are not handled.
 

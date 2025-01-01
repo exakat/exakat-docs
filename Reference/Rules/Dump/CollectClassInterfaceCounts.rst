@@ -5,7 +5,7 @@
 Collect Class Interface Counts
 ++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Collect Class Interface Counts: Collect the number of interfaces implemented per class.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Collect Class Interface Counts
 	:og:description: Collect the number of interfaces implemented per class
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/CollectClassInterfaceCounts.html
 	:og:locale: en
-  Collect the number of interfaces implemented per class. A class with more interfaces includes has more responsabilities.
+Collect the number of interfaces implemented per class. A class with more interfaces includes has more responsabilities.
 
 .. code-block:: php
    

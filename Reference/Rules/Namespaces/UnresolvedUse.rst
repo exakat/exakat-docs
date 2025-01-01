@@ -5,7 +5,7 @@
 Unresolved Use
 ++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Unresolved Use: The following use instructions cannot be resolved to a known class, interface, trait, constant or function.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Unresolved Use
 	:og:description: The following use instructions cannot be resolved to a known class, interface, trait, constant or function
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Namespaces/UnresolvedUse.html
 	:og:locale: en
-  The following use instructions cannot be resolved to a known class, interface, trait, constant or function. They should be dropped or fixed.
+The following use instructions cannot be resolved to a known class, interface, trait, constant or function. They should be dropped or fixed.
 
 A known class, interface, trait, constant or function is defined in PHP (standard), an extension, a stub or the current code.
 Use expression are options for the current namespace.

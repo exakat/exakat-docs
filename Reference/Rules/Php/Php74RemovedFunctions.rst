@@ -5,7 +5,7 @@
 PHP 7.4 Removed Functions
 +++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		PHP 7.4 Removed Functions: The following PHP native functions were deprecated in PHP 7.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ PHP 7.4 Removed Functions
 	:og:description: The following PHP native functions were deprecated in PHP 7
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/Php74RemovedFunctions.html
 	:og:locale: en
-  The following PHP native functions were deprecated in PHP 7.4.
+The following PHP native functions were deprecated in PHP 7.4.
 
 * `hebrevc() <https://www.php.net/hebrevc>`_
 * `convert_cyr_string() <https://www.php.net/convert_cyr_string>`_

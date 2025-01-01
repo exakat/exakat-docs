@@ -5,7 +5,7 @@
 ext/opencensus
 ++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/opencensus: Extension PHP for OpenCensus.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/opencensus
 	:og:description: Extension PHP for OpenCensus
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extopencensus.html
 	:og:locale: en
-  Extension PHP for OpenCensus. 
+Extension PHP for OpenCensus. 
 
 A stats collection and distributed tracing framework.
 

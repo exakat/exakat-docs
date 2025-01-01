@@ -5,7 +5,7 @@
 ext/simplexml
 +++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/simplexml: Extension ``SimpleXML``.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/simplexml
 	:og:description: Extension ``SimpleXML``
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extsimplexml.html
 	:og:locale: en
-  Extension ``SimpleXML``.
+Extension ``SimpleXML``.
 
 The ``SimpleXML`` extension provides a very simple and easily usable toolset to convert XML to an object that can be processed with normal property selectors and array iterators.
 

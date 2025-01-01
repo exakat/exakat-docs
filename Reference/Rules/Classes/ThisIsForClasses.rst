@@ -5,7 +5,7 @@
 $this Belongs To Classes Or Traits
 ++++++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		$this Belongs To Classes Or Traits: The pseudo-variable $this must be used inside a class or trait, or bound closures.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ $this Belongs To Classes Or Traits
 	:og:description: The pseudo-variable $this must be used inside a class or trait, or bound closures
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/ThisIsForClasses.html
 	:og:locale: en
-  The pseudo-variable `$this <https://www.php.net/manual/en/language.oop5.basic.php>`_ must be used inside a class or trait, or bound closures. 
+The pseudo-variable `$this <https://www.php.net/manual/en/language.oop5.basic.php>`_ must be used inside a class or trait, or bound closures. 
 
 `$this <https://www.php.net/manual/en/language.oop5.basic.php>`_ variable represents the current object, inside a class or trait scope
 

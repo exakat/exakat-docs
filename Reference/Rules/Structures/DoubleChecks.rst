@@ -5,7 +5,7 @@
 Double Checks
 +++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Double Checks: Double checks happen when data is checked at one point, and then, checked again, with the same test, in a following call.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Double Checks
 	:og:description: Double checks happen when data is checked at one point, and then, checked again, with the same test, in a following call
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/DoubleChecks.html
 	:og:locale: en
-  Double checks happen when data is checked at one point, and then, checked again, with the same test, in a following call.
+Double checks happen when data is checked at one point, and then, checked again, with the same test, in a following call.
 
 Some of the testing may be pushed to the type system, for example `is_int() <https://www.php.net/is_int>`_ and ``int`` type. Others can't, as the check is not integrated in the type system, such as `is_readable() <https://www.php.net/is_readable>`_ and ``string``, for a path. 
 

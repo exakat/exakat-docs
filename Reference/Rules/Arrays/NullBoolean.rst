@@ -5,7 +5,7 @@
 Null Or Boolean Arrays
 ++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Null Or Boolean Arrays: Null, int, floats, booleans are valid with PHP array syntx.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Null Or Boolean Arrays
 	:og:description: Null, int, floats, booleans are valid with PHP array syntx
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Arrays/NullBoolean.html
 	:og:locale: en
-  Null, int, floats, booleans are valid with PHP array syntx. Yet, they only produces ``null`` values. They also did not emits any warning until PHP 7.4.
+Null, int, floats, booleans are valid with PHP array syntx. Yet, they only produces ``null`` values. They also did not emits any warning until PHP 7.4.
 
 Older code used to initialize variables as null, sometimes explictly, and then, use them as arrays. The current support for this syntax is for backward compatibility. 
 

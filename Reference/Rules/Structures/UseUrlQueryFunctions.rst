@@ -5,7 +5,7 @@
 Should Use Url Query Functions
 ++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Should Use Url Query Functions: PHP features several functions dedicated to processing URL's query string.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Should Use Url Query Functions
 	:og:description: PHP features several functions dedicated to processing URL's query string
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/UseUrlQueryFunctions.html
 	:og:locale: en
-  PHP features several functions dedicated to processing URL's query string. 
+PHP features several functions dedicated to processing URL's query string. 
 
 + `parse_str() <https://www.php.net/parse_str>`_
 + `parse_url() <https://www.php.net/parse_url>`_

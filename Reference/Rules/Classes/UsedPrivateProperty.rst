@@ -5,7 +5,7 @@
 Used Static Properties
 ++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Used Static Properties: List of all static properties that are used.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Used Static Properties
 	:og:description: List of all static properties that are used
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/UsedPrivateProperty.html
 	:og:locale: en
-  List of all `static <https://www.php.net/manual/en/language.oop5.static.php>`_ properties that are used.
+List of all `static <https://www.php.net/manual/en/language.oop5.static.php>`_ properties that are used.
 
 A private property is used when it is defined and read. A private property that is only written is not used. A property that is only read is used, as it may have a default value, or act as `NULL <https://www.php.net/manual/en/language.types.null.php>`_.
 

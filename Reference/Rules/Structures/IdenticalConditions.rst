@@ -5,7 +5,7 @@
 Identical Conditions
 ++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Identical Conditions: These logical expressions contain members that are identical.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Identical Conditions
 	:og:description: These logical expressions contain members that are identical
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/IdenticalConditions.html
 	:og:locale: en
-  These logical expressions contain members that are identical. 
+These logical expressions contain members that are identical. 
 
 This means those expressions may be simplified.
 

@@ -5,7 +5,7 @@
 SQL queries
 +++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		SQL queries: SQL queries, detected in literal strings.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ SQL queries
 	:og:description: SQL queries, detected in literal strings
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Type/Sql.html
 	:og:locale: en
-  SQL queries, detected in literal strings. 
+SQL queries, detected in literal strings. 
 
 SQL queries are detected with keywords, inside literals or concatenations.
 

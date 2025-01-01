@@ -5,7 +5,7 @@
 ext/gettext
 +++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/gettext: Extension Gettext.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/gettext
 	:og:description: Extension Gettext
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extgettext.html
 	:og:locale: en
-  Extension Gettext.
+Extension Gettext.
 
 The gettext functions implement an NLS (Native Language Support) API which can be used to internationalize your PHP applications.
 

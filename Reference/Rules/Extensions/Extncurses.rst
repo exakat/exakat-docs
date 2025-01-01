@@ -5,7 +5,7 @@
 ext/ncurses
 +++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/ncurses: Extension ncurses (CLI).
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/ncurses
 	:og:description: Extension ncurses (CLI)
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extncurses.html
 	:og:locale: en
-  Extension ncurses (CLI).
+Extension ncurses (CLI).
 
 ncurses (new curses) is a free software emulation of curses in System V Rel 4.0 (and above).
 

@@ -5,7 +5,7 @@
 Same Name For Property And Method
 +++++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Same Name For Property And Method: A property and a method have the same name.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Same Name For Property And Method
 	:og:description: A property and a method have the same name
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/PropertyMethodSameName.html
 	:og:locale: en
-  A property and a method have the same name. While it is a valid naming scheme with PHP, it may lead to confusion while codeing. 
+A property and a method have the same name. While it is a valid naming scheme with PHP, it may lead to confusion while codeing. 
 
 Such naming collision may appear with words that are the same as a verb (for method) and as a noun (for property). For example, in English : query, work, debug, run, process, rain, polish, paint, etc,. 
 

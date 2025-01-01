@@ -5,7 +5,7 @@
 Throw In Destruct
 +++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Throw In Destruct: According to the manual, ``Attempting to throw an exception from a destructor (called in the time of script termination) causes a fatal error.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Throw In Destruct
 	:og:description: According to the manual, ``Attempting to throw an exception from a destructor (called in the time of script termination) causes a fatal error
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/ThrowInDestruct.html
 	:og:locale: en
-  According to the manual, ``Attempting to throw an `exception <https://www.php.net/exception>`_ from a destructor (called in the time of script termination) causes a fatal `error <https://www.php.net/error>`_.``
+According to the manual, ``Attempting to throw an `exception <https://www.php.net/exception>`_ from a destructor (called in the time of script termination) causes a fatal `error <https://www.php.net/error>`_.``
 
 The destructor may be called during the lifespan of the script, but it is not certain. If the `exception <https://www.php.net/exception>`_ is thrown later, the script may end up with a fatal `error <https://www.php.net/error>`_. 
 

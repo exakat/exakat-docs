@@ -5,7 +5,7 @@
 PHP 7.3 Removed Functions
 +++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		PHP 7.3 Removed Functions: The following PHP native functions were removed in PHP 7.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ PHP 7.3 Removed Functions
 	:og:description: The following PHP native functions were removed in PHP 7
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/Php73RemovedFunctions.html
 	:og:locale: en
-  The following PHP native functions were removed in PHP 7.3.
+The following PHP native functions were removed in PHP 7.3.
 
 * image2wbmp()
 

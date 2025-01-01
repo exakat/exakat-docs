@@ -5,7 +5,7 @@
 Access Protected Structures
 +++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Access Protected Structures: It is not allowed to access protected properties, methods or constants from outside the class or its relatives.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Access Protected Structures
 	:og:description: It is not allowed to access protected properties, methods or constants from outside the class or its relatives
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/AccessProtected.html
 	:og:locale: en
-  It is not allowed to access protected properties, methods or constants from outside the class or its relatives.
+It is not allowed to access protected properties, methods or constants from outside the class or its relatives.
 
 .. code-block:: php
    

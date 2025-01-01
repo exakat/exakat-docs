@@ -5,7 +5,7 @@
 __debugInfo() Usage
 +++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		__debugInfo() Usage: The magic method __debugInfo() provides a custom way to dump an object.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ __debugInfo() Usage
 	:og:description: The magic method __debugInfo() provides a custom way to dump an object
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/debugInfoUsage.html
 	:og:locale: en
-  The magic method `__debugInfo() <https://www.php.net/manual/en/language.oop5.magic.php>`_ provides a custom way to dump an object. 
+The magic method `__debugInfo() <https://www.php.net/manual/en/language.oop5.magic.php>`_ provides a custom way to dump an object. 
 
 It has been introduced in PHP 5.6. In the previous versions of PHP, this method is ignored and won't be called when debugging.
 

@@ -5,7 +5,7 @@
 Declare strict_types Usage
 ++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Declare strict_types Usage: Usage of ``strict_types``.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Declare strict_types Usage
 	:og:description: Usage of ``strict_types``
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/DeclareStrictType.html
 	:og:locale: en
-  Usage of ``strict_types``. By default, PHP attempts to change the original type to match the type specified by the type-declaration. With an explicit ``strict_types`` declaration, PHP ensures that the incoming argument has the exact type. 
+Usage of ``strict_types``. By default, PHP attempts to change the original type to match the type specified by the type-declaration. With an explicit ``strict_types`` declaration, PHP ensures that the incoming argument has the exact type. 
 
 ``strict_types`` were introduced in PHP 7.0.
 

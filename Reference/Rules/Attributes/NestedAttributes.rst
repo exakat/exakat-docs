@@ -5,7 +5,7 @@
 Nested Attributes
 +++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Nested Attributes: Nested attribute are attribute in attributes.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Nested Attributes
 	:og:description: Nested attribute are attribute in attributes
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Attributes/NestedAttributes.html
 	:og:locale: en
-  Nested `attribute <https://www.php.net/attribute>`_ are `attribute <https://www.php.net/attribute>`_ in attributes. 
+Nested `attribute <https://www.php.net/attribute>`_ are `attribute <https://www.php.net/attribute>`_ in attributes. 
 Nested attributes are not available in PHP 8.0 and older. It is reported as an invalid constant expression.
 
 .. code-block:: php

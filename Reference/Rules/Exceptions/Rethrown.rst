@@ -5,7 +5,7 @@
 Rethrown Exceptions
 +++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Rethrown Exceptions: Throwing a caught exception is usually useless and dead code.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Rethrown Exceptions
 	:og:description: Throwing a caught exception is usually useless and dead code
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Exceptions/Rethrown.html
 	:og:locale: en
-  Throwing a caught `exception <https://www.php.net/exception>`_ is usually useless and dead code.
+Throwing a caught `exception <https://www.php.net/exception>`_ is usually useless and dead code.
 
 When exceptions are caught, they should be processed or transformed, but not rethrown as is.
 

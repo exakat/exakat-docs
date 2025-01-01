@@ -5,7 +5,7 @@
 Cant Instantiate Non Class
 ++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Cant Instantiate Non Class: It is not possible to instantiate anything else than a class.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Cant Instantiate Non Class
 	:og:description: It is not possible to instantiate anything else than a class
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/CantInstantiateNonClass.html
 	:og:locale: en
-  It is not possible to instantiate anything else than a class. Interfaces, enumerations and traits cannot be instantiated.
+It is not possible to instantiate anything else than a class. Interfaces, enumerations and traits cannot be instantiated.
 
 .. code-block:: php
    

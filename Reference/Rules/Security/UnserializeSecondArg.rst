@@ -5,7 +5,7 @@
 Unserialize Second Arg
 ++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Unserialize Second Arg: Since PHP 7, unserialize() function has a second argument that limits the classes that may be unserialized.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Unserialize Second Arg
 	:og:description: Since PHP 7, unserialize() function has a second argument that limits the classes that may be unserialized
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Security/UnserializeSecondArg.html
 	:og:locale: en
-  Since PHP 7, `unserialize() <https://www.php.net/unserialize>`_ function has a second argument that limits the classes that may be unserialized. In case of a breach, this is limiting the classes accessible from `unserialize() <https://www.php.net/unserialize>`_. 
+Since PHP 7, `unserialize() <https://www.php.net/unserialize>`_ function has a second argument that limits the classes that may be unserialized. In case of a breach, this is limiting the classes accessible from `unserialize() <https://www.php.net/unserialize>`_. 
 
 One way to exploit unserialize, is to make PHP unserialized the data to an available class, may be one that may be auto-loaded.
 

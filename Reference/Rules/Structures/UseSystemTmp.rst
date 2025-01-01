@@ -5,7 +5,7 @@
 Use System Tmp
 ++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Use System Tmp: It is recommended to avoid hardcoding the temporary file.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Use System Tmp
 	:og:description: It is recommended to avoid hardcoding the temporary file
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/UseSystemTmp.html
 	:og:locale: en
-  It is recommended to avoid hardcoding the temporary file. It is better to rely on the system's temporary folder, which is accessible with `sys_get_temp_dir() <https://www.php.net/sys_get_temp_dir>`_.
+It is recommended to avoid hardcoding the temporary file. It is better to rely on the system's temporary folder, which is accessible with `sys_get_temp_dir() <https://www.php.net/sys_get_temp_dir>`_.
 
 .. code-block:: php
    

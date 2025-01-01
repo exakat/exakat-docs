@@ -5,7 +5,7 @@
 Constant Case Preference
 ++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Constant Case Preference: Define() creates constants which are case sensitive or not.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Constant Case Preference
 	:og:description: Define() creates constants which are case sensitive or not
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Constants/DefineInsensitivePreference.html
 	:og:locale: en
-  `Define() <https://www.php.net/define>`_ creates constants which are case sensitive or not. 
+`Define() <https://www.php.net/define>`_ creates constants which are case sensitive or not. 
 
 The analyzed code has less than 10% of one of them : for consistency reasons, it is recommended to make constant sensitivity definition consistent. 
 

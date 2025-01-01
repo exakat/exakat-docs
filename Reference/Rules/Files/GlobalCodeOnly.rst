@@ -5,7 +5,7 @@
 Global Code Only
 ++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Global Code Only: This rule reports files that only contain global code.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Global Code Only
 	:og:description: This rule reports files that only contain global code
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Files/GlobalCodeOnly.html
 	:og:locale: en
-  This rule reports files that only contain global code.
+This rule reports files that only contain global code.
 
 .. code-block:: php
    

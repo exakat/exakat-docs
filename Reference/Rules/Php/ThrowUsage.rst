@@ -5,7 +5,7 @@
 Throw
 +++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Throw: List of thrown exceptions.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Throw
 	:og:description: List of thrown exceptions
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/ThrowUsage.html
 	:og:locale: en
-  List of thrown exceptions.
+List of thrown exceptions.
 
 .. code-block:: php
    

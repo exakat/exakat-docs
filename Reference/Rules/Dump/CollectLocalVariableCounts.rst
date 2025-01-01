@@ -5,7 +5,7 @@
 Collect Local Variable Counts
 +++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Collect Local Variable Counts: This analysis collects the number of local variables used in a method or a function.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Collect Local Variable Counts
 	:og:description: This analysis collects the number of local variables used in a method or a function
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/CollectLocalVariableCounts.html
 	:og:locale: en
-  This analysis collects the number of local variables used in a method or a function. 
+This analysis collects the number of local variables used in a method or a function. 
 
 The count applies to functions, methods, closures and arrow functions. 
 

@@ -5,7 +5,7 @@
 ext/shmop
 +++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/shmop: Extension ext/shmop.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/shmop
 	:og:description: Extension ext/shmop
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extshmop.html
 	:og:locale: en
-  Extension ext/`shmop <https://www.php.net/shmop>`_.
+Extension ext/`shmop <https://www.php.net/shmop>`_.
 
 `Shmop <https://www.php.net/shmop>`_ is an easy to use set of functions that allows PHP to read, write, create and delete Unix shared memory segments.
 

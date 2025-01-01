@@ -5,7 +5,7 @@
 Public Reach To Private Methods
 +++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Public Reach To Private Methods: This rule reports the ways to reach private and protected methods, by using only public methods.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Public Reach To Private Methods
 	:og:description: This rule reports the ways to reach private and protected methods, by using only public methods
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/PublicReach.html
 	:og:locale: en
-  This rule reports the ways to reach private and protected methods, by using only public methods. 
+This rule reports the ways to reach private and protected methods, by using only public methods. 
 
 Each internal is reported here, with the origin and destination. When connecting the calls from methods to method, it is possible to draw the path from public methods to private methods.
 

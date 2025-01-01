@@ -5,7 +5,7 @@
 ext/rdkafka
 +++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/rdkafka: Extension for RDkafka.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/rdkafka
 	:og:description: Extension for RDkafka
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extrdkafka.html
 	:og:locale: en
-  Extension for RDkafka.
+Extension for RDkafka.
 
 PHP-rdkafka is a thin librdkafka binding providing a working PHP 5 / PHP 7 Kafka 0.8 / 0.9 / 0.10 client.
 

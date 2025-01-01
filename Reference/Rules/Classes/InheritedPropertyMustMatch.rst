@@ -5,7 +5,7 @@
 Inherited Property Type Must Match
 ++++++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Inherited Property Type Must Match: Properties that are inherited between classes must match.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Inherited Property Type Must Match
 	:og:description: Properties that are inherited between classes must match
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/InheritedPropertyMustMatch.html
 	:og:locale: en
-  Properties that are inherited between classes must match. 
+Properties that are inherited between classes must match. 
 
 This affect public and protected properties. Private properties are immune to this rule, as they actually are distinct properties.
 

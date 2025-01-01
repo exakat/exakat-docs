@@ -5,7 +5,7 @@
 Direct Call To __clone()
 ++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Direct Call To __clone(): Direct call to magic method ``__clone()`` was forbidden.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Direct Call To __clone()
 	:og:description: Direct call to magic method ``__clone()`` was forbidden
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/DirectCallToClone.html
 	:og:locale: en
-  Direct call to magic method ``__clone()`` was forbidden. It is allowed since PHP 7.0. 
+Direct call to magic method ``__clone()`` was forbidden. It is allowed since PHP 7.0. 
 
 From the RFC : ``Doing calls like $obj->`__clone( <https://www.php.net/manual/en/language.oop5.magic.php>`_ ) is now allowed. This was the only magic method that had a compile-time check preventing some calls to it, which doesn't make sense. If we allow all other magic methods to be called, there's no reason to forbid this one``.
 

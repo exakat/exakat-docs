@@ -5,7 +5,7 @@
 Close Tags Consistency
 ++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Close Tags Consistency: PHP scripts may omit the final closing tag.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Close Tags Consistency
 	:og:description: PHP scripts may omit the final closing tag
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/CloseTagsConsistency.html
 	:og:locale: en
-  PHP scripts may omit the final closing tag. 
+PHP scripts may omit the final closing tag. 
 
 This is a convention, used to avoid the infamous 'headers already sent' `error <https://www.php.net/error>`_ message, that appears when a script with extra invisible spaces is included before actually emitting the headers.
 

@@ -5,7 +5,7 @@
 Dereferencing Levels
 ++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Dereferencing Levels: This is the counts of level of dereferencing.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Dereferencing Levels
 	:og:description: This is the counts of level of dereferencing
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/DereferencingLevels.html
 	:og:locale: en
-  This is the counts of level of dereferencing. 
+This is the counts of level of dereferencing. 
 
 Every time a `->` object operator or `?->` null-safe object operator are used, this count as one level of dereferencing. 
 

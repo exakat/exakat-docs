@@ -5,7 +5,7 @@
 Sidelined Method
 ++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Sidelined Method: A method, defined in a trait, which is overwritten by a class's method.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Sidelined Method
 	:og:description: A method, defined in a trait, which is overwritten by a class's method
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Traits/SidelinedMethod.html
 	:og:locale: en
-  A method, defined in a trait, which is overwritten by a class's method. This makes the trait's method useless and unreachable. 
+A method, defined in a trait, which is overwritten by a class's method. This makes the trait's method useless and unreachable. 
 
 It is recommended to check if this is not a typo, as the trait may not be able to work correctly.
 

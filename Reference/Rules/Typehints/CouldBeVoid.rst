@@ -5,7 +5,7 @@
 Could Be Void
 +++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Could Be Void: Mark return types that can be set to void.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Could Be Void
 	:og:description: Mark return types that can be set to void
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Typehints/CouldBeVoid.html
 	:og:locale: en
-  Mark return types that can be set to void.
+Mark return types that can be set to void.
 All abstract methods (in classes or in interfaces) are omitted here.
 
 .. code-block:: php

@@ -5,7 +5,7 @@
 Possible Increment
 ++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Possible Increment: This expression looks like a typo : a missing + would change the behavior.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Possible Increment
 	:og:description: This expression looks like a typo : a missing + would change the behavior
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/PossibleIncrement.html
 	:og:locale: en
-  This expression looks like a typo : a missing + would change the behavior.
+This expression looks like a typo : a missing + would change the behavior.
 
 The same pattern is not reported with -, as it is legit expression. + sign is usually understated, rather than explicit.
 

@@ -5,7 +5,7 @@
 Php 7.2 New Class
 +++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Php 7.2 New Class: New classes, introduced in PHP 7.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Php 7.2 New Class
 	:og:description: New classes, introduced in PHP 7
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/Php72NewClasses.html
 	:og:locale: en
-  New classes, introduced in PHP 7.2. If classes where created with the same name, in current code, they have to be moved in a namespace, or removed from code to migrate safely to PHP 7.2.
+New classes, introduced in PHP 7.2. If classes where created with the same name, in current code, they have to be moved in a namespace, or removed from code to migrate safely to PHP 7.2.
 
 The new class is : `HashContext <https://www.php.net/hashcontext>`_.
 

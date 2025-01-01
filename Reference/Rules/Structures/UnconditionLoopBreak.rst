@@ -5,7 +5,7 @@
 Unconditional Break In Loop
 +++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Unconditional Break In Loop: An unconditional break in a loop creates dead code.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Unconditional Break In Loop
 	:og:description: An unconditional break in a loop creates dead code
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/UnconditionLoopBreak.html
 	:og:locale: en
-  An unconditional `break <https://www.php.net/manual/en/control-structures.break.php>`_ in a loop creates dead code. Since the `break <https://www.php.net/manual/en/control-structures.break.php>`_ is directly in the body of the loop, it is always executed, creating a strange loop that can only run once. 
+An unconditional `break <https://www.php.net/manual/en/control-structures.break.php>`_ in a loop creates dead code. Since the `break <https://www.php.net/manual/en/control-structures.break.php>`_ is directly in the body of the loop, it is always executed, creating a strange loop that can only run once. 
 
 Here, `break <https://www.php.net/manual/en/control-structures.break.php>`_ may also be a return, a goto or a `continue <https://www.php.net/manual/en/control-structures.continue.php>`_. They all branch out of the loop. Such statement are valid, but should be moderated with a condition.
 

@@ -5,7 +5,7 @@
 Cant Inherit Abstract Method
 ++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Cant Inherit Abstract Method: Inheriting abstract methods was made available in PHP 7.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Cant Inherit Abstract Method
 	:og:description: Inheriting abstract methods was made available in PHP 7
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/CantInheritAbstractMethod.html
 	:og:locale: en
-  Inheriting abstract methods was made available in PHP 7.2. In previous versions, it emitted a fatal `error <https://www.php.net/error>`_.
+Inheriting abstract methods was made available in PHP 7.2. In previous versions, it emitted a fatal `error <https://www.php.net/error>`_.
 
 .. code-block:: php
    

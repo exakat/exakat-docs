@@ -5,7 +5,7 @@
 Method Collision Traits
 +++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Method Collision Traits: Two or more traits are included in the same class, and they have methods collisions.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Method Collision Traits
 	:og:description: Two or more traits are included in the same class, and they have methods collisions
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Traits/MethodCollisionTraits.html
 	:og:locale: en
-  Two or more traits are included in the same class, and they have methods collisions. 
+Two or more traits are included in the same class, and they have methods collisions. 
 
 Those collisions should be solved with a ``use`` expression. When they are not, PHP stops execution with a fatal `error <https://www.php.net/error>`_ : ``Trait method M has not been applied, because there are collisions with other trait methods on C``.
 

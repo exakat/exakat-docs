@@ -5,7 +5,7 @@
 Dynamic Calls
 +++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Dynamic Calls: This rule lists all dynamic calls.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Dynamic Calls
 	:og:description: This rule lists all dynamic calls
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/DynamicCalls.html
 	:og:locale: en
-  This rule lists all dynamic calls. This is convenient when one has to review them manually.
+This rule lists all dynamic calls. This is convenient when one has to review them manually.
 
 Only the dynamic call is listed : the sources are left in their context.
 

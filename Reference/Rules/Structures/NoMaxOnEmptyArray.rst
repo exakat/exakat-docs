@@ -5,7 +5,7 @@
 No Max On Empty Array
 +++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		No Max On Empty Array: Using max() or min() on an empty array leads to a ``valueError`` exception.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ No Max On Empty Array
 	:og:description: Using max() or min() on an empty array leads to a ``valueError`` exception
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/NoMaxOnEmptyArray.html
 	:og:locale: en
-  Using `max() <https://www.php.net/max>`_ or `min() <https://www.php.net/min>`_ on an empty array leads to a ``valueError`` `exception <https://www.php.net/exception>`_.
+Using `max() <https://www.php.net/max>`_ or `min() <https://www.php.net/min>`_ on an empty array leads to a ``valueError`` `exception <https://www.php.net/exception>`_.
 
 Until PHP 8, `max() <https://www.php.net/max>`_ and `min() <https://www.php.net/min>`_ would return null in case of empty array. This might be confusing with actual values, as an array can contain ``null``. ``null`` has a specific behavior when comparing with other values, and should be avoided with `max() <https://www.php.net/max>`_ and sorts. 
 

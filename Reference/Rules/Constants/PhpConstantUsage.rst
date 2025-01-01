@@ -5,7 +5,7 @@
 PHP Constant Usage
 ++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		PHP Constant Usage: List of PHP constants being used.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ PHP Constant Usage
 	:og:description: List of PHP constants being used
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Constants/PhpConstantUsage.html
 	:og:locale: en
-  List of PHP constants being used.
+List of PHP constants being used.
 
 .. code-block:: php
    

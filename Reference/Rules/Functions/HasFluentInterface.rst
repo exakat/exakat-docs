@@ -5,7 +5,7 @@
 Method Has Fluent Interface
 +++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Method Has Fluent Interface: Mark a method when it only returns $this.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Method Has Fluent Interface
 	:og:description: Mark a method when it only returns $this
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/HasFluentInterface.html
 	:og:locale: en
-  Mark a method when it only returns `$this <https://www.php.net/manual/en/language.oop5.basic.php>`_.
+Mark a method when it only returns `$this <https://www.php.net/manual/en/language.oop5.basic.php>`_.
 
 Fluent interfaces allows for chaining methods calls. This implies that `$this <https://www.php.net/manual/en/language.oop5.basic.php>`_ is always returned, so that the next method call is done on the same object.
 

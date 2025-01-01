@@ -5,7 +5,7 @@
 URL List
 ++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		URL List: List of all the URL addresses that were found in the code.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ URL List
 	:og:description: List of all the URL addresses that were found in the code
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Type/Url.html
 	:og:locale: en
-  List of all the URL addresses that were found in the code.
+List of all the URL addresses that were found in the code.
 
 .. code-block:: php
    

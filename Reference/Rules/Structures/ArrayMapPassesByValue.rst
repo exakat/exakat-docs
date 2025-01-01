@@ -5,7 +5,7 @@
 Array_Map() Passes By Value
 +++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Array_Map() Passes By Value: array_map() requires the callback to receive elements by value.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Array_Map() Passes By Value
 	:og:description: array_map() requires the callback to receive elements by value
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ArrayMapPassesByValue.html
 	:og:locale: en
-  `array_map() <https://www.php.net/array_map>`_ requires the callback to receive elements by value. Unlike `array_walk() <https://www.php.net/array_walk>`_, which accepts by value or by reference, depending on the action taken.
+`array_map() <https://www.php.net/array_map>`_ requires the callback to receive elements by value. Unlike `array_walk() <https://www.php.net/array_walk>`_, which accepts by value or by reference, depending on the action taken.
 
 PHP 8.0 and more recent emits a Warning
 

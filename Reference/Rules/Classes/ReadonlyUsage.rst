@@ -5,7 +5,7 @@
 Readonly Usage
 ++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Readonly Usage: Usage of the readonly option on classes and properties.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Readonly Usage
 	:og:description: Usage of the readonly option on classes and properties
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/ReadonlyUsage.html
 	:og:locale: en
-  Usage of the readonly option on classes and properties. Readonly is available on classes starting with PHP 8.2.
+Usage of the readonly option on classes and properties. Readonly is available on classes starting with PHP 8.2.
 
 .. code-block:: php
    

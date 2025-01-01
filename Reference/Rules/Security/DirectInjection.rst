@@ -5,7 +5,7 @@
 Direct Injection
 ++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Direct Injection: The following code act directly upon PHP incoming variables like ``$_GET`` and ``$_POST``.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Direct Injection
 	:og:description: The following code act directly upon PHP incoming variables like ``$_GET`` and ``$_POST``
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Security/DirectInjection.html
 	:og:locale: en
-  The following code act directly upon PHP incoming variables like ``$_GET`` and ``$_POST``. This makes those snippets very unsafe.
+The following code act directly upon PHP incoming variables like ``$_GET`` and ``$_POST``. This makes those snippets very unsafe.
 
 .. code-block:: php
    

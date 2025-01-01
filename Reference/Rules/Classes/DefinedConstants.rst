@@ -5,7 +5,7 @@
 Defined Class Constants
 +++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Defined Class Constants: Checks if class constants are defined.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Defined Class Constants
 	:og:description: Checks if class constants are defined
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/DefinedConstants.html
 	:og:locale: en
-  Checks if class constants are defined. This includes class constants, one level of `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ (extended) or interfaces (implemented).
+Checks if class constants are defined. This includes class constants, one level of `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ (extended) or interfaces (implemented).
 
 This analysis takes into account native PHP, extension and stubs class definitions.
 

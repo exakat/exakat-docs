@@ -5,7 +5,7 @@
 New Line Style
 ++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		New Line Style: New lines may be written with the sequence \n or with the constant PHP_EOL.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ New Line Style
 	:og:description: New lines may be written with the sequence \n or with the constant PHP_EOL
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/NewLineStyle.html
 	:og:locale: en
-  New lines may be written with the sequence \n or with the constant `PHP_EOL <https://www.php.net/PHP_EOL>`_.
+New lines may be written with the sequence \n or with the constant `PHP_EOL <https://www.php.net/PHP_EOL>`_.
 
 When one of those alternatives is used over 90% of the time, it is considered as standard : the remaining are reported.
 

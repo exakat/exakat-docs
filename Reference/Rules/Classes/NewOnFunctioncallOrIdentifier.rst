@@ -5,7 +5,7 @@
 New On Functioncall Or Identifier
 +++++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		New On Functioncall Or Identifier: Object instantiation with new works with or without arguments.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ New On Functioncall Or Identifier
 	:og:description: Object instantiation with new works with or without arguments
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/NewOnFunctioncallOrIdentifier.html
 	:og:locale: en
-  Object instantiation with new works with or without arguments. Both are valid in PHP. 
+Object instantiation with new works with or without arguments. Both are valid in PHP. 
 
 The analyzed code has less than 10% of one of the two forms : for consistency reasons, it is recommended to make them all the same.
 

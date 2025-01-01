@@ -5,7 +5,7 @@
 Undefined Insteadof
 +++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Undefined Insteadof: ``Insteadof`` tries to replace a method with another, but it doesn't exists.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Undefined Insteadof
 	:og:description: ``Insteadof`` tries to replace a method with another, but it doesn't exists
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Traits/UndefinedInsteadof.html
 	:og:locale: en
-  ``Insteadof`` tries to replace a method with another, but it doesn't exists. This happens when the replacing class is refactored, and some of its definition are dropped. 
+``Insteadof`` tries to replace a method with another, but it doesn't exists. This happens when the replacing class is refactored, and some of its definition are dropped. 
 
 ``Insteadof`` may replace a non-existing method with an existing one, but not the contrary. 
 

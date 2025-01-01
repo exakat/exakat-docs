@@ -5,7 +5,7 @@
 No Hardcoded Hash
 +++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		No Hardcoded Hash: Hash should never be hardcoded.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ No Hardcoded Hash
 	:og:description: Hash should never be hardcoded
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/NoHardcodedHash.html
 	:og:locale: en
-  Hash should never be hardcoded. 
+Hash should never be hardcoded. 
 
 Hashes may be MD5, SHA1, SHA512, Bcrypt or any other. Such values must be easily changed, for security reasons, and the source code is not the safest place to hide it.
 

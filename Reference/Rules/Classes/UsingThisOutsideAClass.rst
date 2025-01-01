@@ -5,7 +5,7 @@
 Using $this Outside A Class
 +++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Using $this Outside A Class: ``$this`` is a special variable, that should only be used in a class context.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Using $this Outside A Class
 	:og:description: ``$this`` is a special variable, that should only be used in a class context
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/UsingThisOutsideAClass.html
 	:og:locale: en
-  ``$this`` is a special variable, that should only be used in a class context. 
+``$this`` is a special variable, that should only be used in a class context. 
 
 Until PHP 7.1, ``$this`` may be used as an argument in a function or a method, a global, a `static <https://www.php.net/manual/en/language.oop5.static.php>`_ : while this is legit, it sounds confusing enough to avoid it.
 Starting with PHP 7.1, the PHP `engine <https://www.php.net/engine>`_ check thoroughly that ``$this`` is used in an appropriate manner, and raise fatal errors in case it isn't. 

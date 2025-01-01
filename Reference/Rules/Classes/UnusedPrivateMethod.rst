@@ -5,7 +5,7 @@
 Unused Private Methods
 ++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Unused Private Methods: Private methods that are not used in the local class are dead code.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Unused Private Methods
 	:og:description: Private methods that are not used in the local class are dead code
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/UnusedPrivateMethod.html
 	:og:locale: en
-  Private methods that are not used in the local class are dead code. Protected methods that are not used in the local class or its children, are dead code.
+Private methods that are not used in the local class are dead code. Protected methods that are not used in the local class or its children, are dead code.
 
 Private methods are reserved for the defining class. Thus, they must be used with the current class, with ``$this`` or ``self\:\:``.
 

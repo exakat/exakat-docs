@@ -5,7 +5,7 @@
 Don't Change The Blind Var
 ++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Don't Change The Blind Var: When using a foreach(), the blind variables hold a copy of the original value.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Don't Change The Blind Var
 	:og:description: When using a foreach(), the blind variables hold a copy of the original value
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/DontChangeBlindKey.html
 	:og:locale: en
-  When using a `foreach() <https://www.php.net/manual/en/control-structures.foreach.php>`_, the blind variables hold a copy of the original value. It is confusing to modify them, as it seems that the original value may be changed.
+When using a `foreach() <https://www.php.net/manual/en/control-structures.foreach.php>`_, the blind variables hold a copy of the original value. It is confusing to modify them, as it seems that the original value may be changed.
 
 When actually changing the original value, use the reference in the foreach definition to make it obvious, and save the final reassignation.
 

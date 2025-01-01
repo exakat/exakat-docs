@@ -5,7 +5,7 @@
 Lost References
 +++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Lost References: Either avoid references, or propagate them correctly.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Lost References
 	:og:description: Either avoid references, or propagate them correctly
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Variables/LostReferences.html
 	:og:locale: en
-  Either avoid references, or propagate them correctly.
+Either avoid references, or propagate them correctly.
 
 When assigning a referenced variable with another reference, the initial reference is lost, while the intend was to transfer the content. 
 Do not reassign a reference with another reference. Assign new content to the reference to change its value.

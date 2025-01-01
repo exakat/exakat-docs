@@ -5,7 +5,7 @@
 Relay Function
 ++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Relay Function: Relay function only delegates workload to another one.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Relay Function
 	:og:description: Relay function only delegates workload to another one
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/RelayFunction.html
 	:og:locale: en
-  Relay function only delegates workload to another one. 
+Relay function only delegates workload to another one. 
 
 Relay functions and methods are delegating the actual work to another function or method. They do not have any impact on the results, besides exposing another name for the same feature.
 Relay functions are typical of transition API, where an old API have to be preserved until it is fully migrated. Then, they may be removed, so as to reduce confusion, and simplify the API.

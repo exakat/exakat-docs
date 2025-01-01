@@ -5,7 +5,7 @@
 PHP 7.4 Constant Deprecation
 ++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		PHP 7.4 Constant Deprecation: One constant is deprecated in PHP 7.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ PHP 7.4 Constant Deprecation
 	:og:description: One constant is deprecated in PHP 7
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/Php74Deprecation.html
 	:og:locale: en
-  One constant is deprecated in PHP 7.4. 
+One constant is deprecated in PHP 7.4. 
 
 * `CURLPIPE_HTTP1 <https://www.php.net/CURLPIPE_HTTP1>`_
 

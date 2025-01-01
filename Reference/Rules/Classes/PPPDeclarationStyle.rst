@@ -5,7 +5,7 @@
 Properties Declaration Consistence
 ++++++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Properties Declaration Consistence: Properties may be declared all at once, or one by one.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Properties Declaration Consistence
 	:og:description: Properties may be declared all at once, or one by one
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/PPPDeclarationStyle.html
 	:og:locale: en
-  Properties may be declared all at once, or one by one. 
+Properties may be declared all at once, or one by one. 
 
 The analyzed code has less than 10% of one of them : for consistency reasons, it is recommended to make them all the same. 
 

@@ -5,7 +5,7 @@
 Trailing Comma In Calls
 +++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Trailing Comma In Calls: The last argument may be left empty.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Trailing Comma In Calls
 	:og:description: The last argument may be left empty
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/TrailingComma.html
 	:og:locale: en
-  The last argument may be left empty. 
+The last argument may be left empty. 
 
 This feature was introduced in PHP 7.3.
 

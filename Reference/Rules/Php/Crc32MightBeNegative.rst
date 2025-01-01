@@ -5,7 +5,7 @@
 Crc32() Might Be Negative
 +++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Crc32() Might Be Negative: crc32() may return a negative number, on 32 bits platforms.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Crc32() Might Be Negative
 	:og:description: crc32() may return a negative number, on 32 bits platforms
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/Crc32MightBeNegative.html
 	:og:locale: en
-  `crc32() <https://www.php.net/crc32>`_ may return a negative number, on 32 bits platforms.
+`crc32() <https://www.php.net/crc32>`_ may return a negative number, on 32 bits platforms.
 
 According to the manual : Because PHP\'s integer type is signed many ``CRC32`` checksums will `result <https://www.php.net/result>`_ in negative integers on 32 bits platforms. On 64 bits installations, all `crc32() <https://www.php.net/crc32>`_ results will be positive integers though.
 

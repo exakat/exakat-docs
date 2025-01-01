@@ -5,7 +5,7 @@
 Locally Used Property
 +++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Locally Used Property: List of properties that are used in the class where they are defined.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Locally Used Property
 	:og:description: List of properties that are used in the class where they are defined
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/LocallyUsedProperty.html
 	:og:locale: en
-  List of properties that are used in the class where they are defined.
+List of properties that are used in the class where they are defined.
 
 .. code-block:: php
    

@@ -5,7 +5,7 @@
 Check After Null Safe Operator
 ++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Check After Null Safe Operator: Null-safe operator is ``.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Check After Null Safe Operator
 	:og:description: Null-safe operator is ``
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/CheckAfterNullSafeOperator.html
 	:og:locale: en
-  Null-safe operator is ``?->``, which prevents fatal errors in case the object of the call is `NULL <https://www.php.net/manual/en/language.types.null.php>`_. The execution continues, though the `result <https://www.php.net/result>`_ of the expression is now `NULL <https://www.php.net/manual/en/language.types.null.php>`_ too. 
+Null-safe operator is ``?->``, which prevents fatal errors in case the object of the call is `NULL <https://www.php.net/manual/en/language.types.null.php>`_. The execution continues, though the `result <https://www.php.net/result>`_ of the expression is now `NULL <https://www.php.net/manual/en/language.types.null.php>`_ too. 
 
 While it saves some checks in certain cases, the null-safe operator should be followed by a check on the returned value to process any misfire of the method. 
 

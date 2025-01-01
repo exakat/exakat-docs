@@ -5,7 +5,7 @@
 Can't Call Generator
 ++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Can't Call Generator: It is not possible to call directly a generator: a generator is a method that uses the ``yield`` or ``yield from`` keyword.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Can't Call Generator
 	:og:description: It is not possible to call directly a generator: a generator is a method that uses the ``yield`` or ``yield from`` keyword
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/CanCallGenerator.html
 	:og:locale: en
-  It is not possible to call directly a generator: a `generator <https://www.php.net/`generator <https://www.php.net/generator>`_>`_ is a method that uses the ``yield`` or ``yield from`` keyword. 
+It is not possible to call directly a generator: a `generator <https://www.php.net/`generator <https://www.php.net/generator>`_>`_ is a method that uses the ``yield`` or ``yield from`` keyword. 
 
 Such structure shall be used directly in a `foreach() <https://www.php.net/manual/en/control-structures.foreach.php>`_ structure, or with the function ``iterator_to_array()``.
 

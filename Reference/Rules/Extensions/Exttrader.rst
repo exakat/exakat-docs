@@ -5,7 +5,7 @@
 ext/trader
 ++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/trader: Extension trader.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/trader
 	:og:description: Extension trader
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Exttrader.html
 	:og:locale: en
-  Extension trader.
+Extension trader.
 
 The trader extension is a free open source stock library based on TA-Lib. It's dedicated to trading software developers requiring to perform technical analysis of financial market data.
 

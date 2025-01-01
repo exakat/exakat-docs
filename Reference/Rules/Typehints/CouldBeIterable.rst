@@ -5,7 +5,7 @@
 Typehint Could Be Iterable
 ++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Typehint Could Be Iterable: Mark arguments, class constants, properties and return types that can be set to ``iterable``.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Typehint Could Be Iterable
 	:og:description: Mark arguments, class constants, properties and return types that can be set to ``iterable``
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Typehints/CouldBeIterable.html
 	:og:locale: en
-  Mark arguments, class constants, properties and return types that can be set to ``iterable``.
+Mark arguments, class constants, properties and return types that can be set to ``iterable``.
 
 .. code-block:: php
    

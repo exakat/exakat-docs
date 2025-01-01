@@ -5,7 +5,7 @@
 Collect Property Usage
 ++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Collect Property Usage: Collect the level of usage of a property.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Collect Property Usage
 	:og:description: Collect the level of usage of a property
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/CollectPropertyUsage.html
 	:og:locale: en
-  Collect the level of usage of a property. A property is used in distinct methods. The level of usage is the ratio between the number of methods in which the property is used, divided by the number of total methods. 
+Collect the level of usage of a property. A property is used in distinct methods. The level of usage is the ratio between the number of methods in which the property is used, divided by the number of total methods. 
 
 In the example below, ``$p`` is used once. ``$q`` is used in two methods, while being used three times in total. 
 

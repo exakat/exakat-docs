@@ -5,7 +5,7 @@
 Named Argument And Variadic
 +++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Named Argument And Variadic: Variadic argument must be the last in the list of arguments.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Named Argument And Variadic
 	:og:description: Variadic argument must be the last in the list of arguments
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/NamedArgumentAndVariadic.html
 	:og:locale: en
-  Variadic argument must be the last in the list of arguments. Since PHP 8.1, it is possible to use named arguments after a variadic argument.
+Variadic argument must be the last in the list of arguments. Since PHP 8.1, it is possible to use named arguments after a variadic argument.
 
 .. code-block:: php
    

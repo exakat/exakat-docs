@@ -5,7 +5,7 @@
 Double Assignation
 ++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Double Assignation: This happens when a container (variable, property, array index) is assigned with values twice in a row.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Double Assignation
 	:og:description: This happens when a container (variable, property, array index) is assigned with values twice in a row
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/DoubleAssignation.html
 	:og:locale: en
-  This happens when a container (variable, property, array index) is assigned with values twice in a row. One of them is probably a debug instruction, that was forgotten.
+This happens when a container (variable, property, array index) is assigned with values twice in a row. One of them is probably a debug instruction, that was forgotten.
 
 .. code-block:: php
    

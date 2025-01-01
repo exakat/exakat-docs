@@ -5,7 +5,7 @@
 Use const
 +++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Use const: The const keyword may be used to define constant, just like the define() function.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Use const
 	:og:description: The const keyword may be used to define constant, just like the define() function
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Constants/ConstRecommended.html
 	:og:locale: en
-  The const keyword may be used to define constant, just like the `define() <https://www.php.net/define>`_ function. 
+The const keyword may be used to define constant, just like the `define() <https://www.php.net/define>`_ function. 
 
 When defining a constant, it is recommended to use 'const' when the features of the constant are not dynamical (name or value are known at compile time). 
 This way, constant will be defined at compile time, and not at execution time. 

@@ -5,7 +5,7 @@
 Undefined Caught Exceptions
 +++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Undefined Caught Exceptions: Those are exceptions that are caught in the code, but are not defined in the application.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Undefined Caught Exceptions
 	:og:description: Those are exceptions that are caught in the code, but are not defined in the application
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Exceptions/CaughtButNotThrown.html
 	:og:locale: en
-  Those are exceptions that are caught in the code, but are not defined in the application. 
+Those are exceptions that are caught in the code, but are not defined in the application. 
 
 They may be externally defined, such as in core PHP, extensions or libraries. Make sure those exceptions are useful to your application : otherwise, they are dead code.
 

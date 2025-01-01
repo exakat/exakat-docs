@@ -5,7 +5,7 @@
 Php 8.3 New Classes
 +++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Php 8.3 New Classes: New classes, introduced in PHP 8.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Php 8.3 New Classes
 	:og:description: New classes, introduced in PHP 8
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/Php83NewClasses.html
 	:og:locale: en
-  New classes, introduced in PHP 8.3. If classes where created with the same name, in current code, they have to be moved in a namespace, or removed from code to migrate safely to PHP 8.3.
+New classes, introduced in PHP 8.3. If classes where created with the same name, in current code, they have to be moved in a namespace, or removed from code to migrate safely to PHP 8.3.
 
 The new classes are : 
 

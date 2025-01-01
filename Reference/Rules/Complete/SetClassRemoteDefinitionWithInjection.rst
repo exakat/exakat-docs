@@ -5,7 +5,7 @@
 Set Class Remote Definition With Injection
 ++++++++++++++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Set Class Remote Definition With Injection: Links a method call and its definition, thanks to a typehint.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Set Class Remote Definition With Injection
 	:og:description: Links a method call and its definition, thanks to a typehint
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Complete/SetClassRemoteDefinitionWithInjection.html
 	:og:locale: en
-  Links a method call and its definition, thanks to a typehint.
+Links a method call and its definition, thanks to a typehint.
 
 .. code-block:: php
    

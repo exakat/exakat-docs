@@ -5,7 +5,7 @@
 Use DateTimeImmutable Class
 +++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Use DateTimeImmutable Class: The ``DateTimeImmutable`` class is the immutable version of the ``Datetime`` class.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Use DateTimeImmutable Class
 	:og:description: The ``DateTimeImmutable`` class is the immutable version of the ``Datetime`` class
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/UseDateTimeImmutable.html
 	:og:locale: en
-  The ``DateTimeImmutable`` class is the immutable version of the ``Datetime`` class. 
+The ``DateTimeImmutable`` class is the immutable version of the ``Datetime`` class. 
 
 While ``DateTime`` may be modified, ``DateTimeImmutable`` cannot be modified : it needs to be cloned instead. Any modification to such an object will return a new and distinct object. This prevents alterations that are hard to track.
 

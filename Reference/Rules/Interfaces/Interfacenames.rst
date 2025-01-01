@@ -5,7 +5,7 @@
 Interfaces Names
 ++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Interfaces Names: List of all the defined interfaces in the code.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Interfaces Names
 	:og:description: List of all the defined interfaces in the code
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Interfaces/Interfacenames.html
 	:og:locale: en
-  List of all the defined interfaces in the code.
+List of all the defined interfaces in the code.
 
 .. code-block:: php
    

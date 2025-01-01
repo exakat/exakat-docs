@@ -5,7 +5,7 @@
 Property Could Be Local
 +++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Property Could Be Local: A property only used in one method may be turned into a local variable.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Property Could Be Local
 	:og:description: A property only used in one method may be turned into a local variable
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/PropertyCouldBeLocal.html
 	:og:locale: en
-  A property only used in one method may be turned into a local variable.
+A property only used in one method may be turned into a local variable.
 
 Public an protected properties are omitted here : they may be modified somewhere else, in the code. This analysis may be upgraded to support those properties, when tracking of such properties becomes available.
 

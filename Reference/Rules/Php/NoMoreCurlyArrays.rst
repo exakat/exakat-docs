@@ -5,7 +5,7 @@
 No More Curly Arrays
 ++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		No More Curly Arrays: Only use square brackets to access array elements.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ No More Curly Arrays
 	:og:description: Only use square brackets to access array elements
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/NoMoreCurlyArrays.html
 	:og:locale: en
-  Only use square brackets to access array elements. The usage of curly brackets for array access is deprecated since PHP 7.4.
+Only use square brackets to access array elements. The usage of curly brackets for array access is deprecated since PHP 7.4.
 
 .. code-block:: php
    

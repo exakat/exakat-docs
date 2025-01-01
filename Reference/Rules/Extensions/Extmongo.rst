@@ -5,7 +5,7 @@
 ext/mongo
 +++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/mongo: Extension MongoDB driver (legacy).
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/mongo
 	:og:description: Extension MongoDB driver (legacy)
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extmongo.html
 	:og:locale: en
-  Extension `MongoDB <https://www.php.net/MongoDB>`_ driver (legacy).
+Extension `MongoDB <https://www.php.net/MongoDB>`_ driver (legacy).
 Note : this is not the `MongoDB driver <https://www.php.net/mongo>`_. This is the legacy extension.
 
 .. code-block:: php

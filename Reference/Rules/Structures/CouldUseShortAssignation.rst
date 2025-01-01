@@ -5,7 +5,7 @@
 Could Use Short Assignation
 +++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Could Use Short Assignation: Use short assignment operator, to speed up code, and keep syntax clear.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Could Use Short Assignation
 	:og:description: Use short assignment operator, to speed up code, and keep syntax clear
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/CouldUseShortAssignation.html
 	:og:locale: en
-  Use short assignment operator, to speed up code, and keep syntax clear.
+Use short assignment operator, to speed up code, and keep syntax clear.
 
 Some operators, like * or +, have a compact and fast 'do-and-assign' version. They looks like a compacted version for = and the operator. This syntax is good for readability, and saves some memory in the process. 
 

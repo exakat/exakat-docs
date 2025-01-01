@@ -5,7 +5,7 @@
 Protocol lists
 ++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Protocol lists: List of all protocols that were found in the code.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Protocol lists
 	:og:description: List of all protocols that were found in the code
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Type/Protocols.html
 	:og:locale: en
-  List of all protocols that were found in the code.
+List of all protocols that were found in the code.
 
 From the manual : PHP comes with many built-in wrappers for various URL-style protocols for use with the filesystem functions such as `fopen() <https://www.php.net/fopen>`_, `copy() <https://www.php.net/copy>`_, `file_exists() <https://www.php.net/file_exists>`_ and `filesize() <https://www.php.net/filesize>`_.
 

@@ -5,7 +5,7 @@
 Nested Ternary Without Parenthesis
 ++++++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Nested Ternary Without Parenthesis: It is not allowed to nest ternary operator within itself, without parenthesis.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Nested Ternary Without Parenthesis
 	:og:description: It is not allowed to nest ternary operator within itself, without parenthesis
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/NestedTernaryWithoutParenthesis.html
 	:og:locale: en
-  It is not allowed to nest ternary operator within itself, without parenthesis. This has been implemented in PHP 7.4.
+It is not allowed to nest ternary operator within itself, without parenthesis. This has been implemented in PHP 7.4.
 
 The reason behind this feature is to keep the code expressive. See the Warning message for more explanations
 

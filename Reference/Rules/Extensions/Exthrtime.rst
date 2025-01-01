@@ -5,7 +5,7 @@
 ext/hrtime
 ++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/hrtime: High resolution timing Extension.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/hrtime
 	:og:description: High resolution timing Extension
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Exthrtime.html
 	:og:locale: en
-  High resolution timing Extension.
+High resolution timing Extension.
 
 The HRTime extension implements a high resolution `StopWatch` class. It uses the best possible API on different platforms which brings resolution up to nanoseconds. It also makes possible to implement a custom stopwatch using low level ticks delivered by the underlaying system.
 

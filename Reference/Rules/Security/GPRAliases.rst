@@ -5,7 +5,7 @@
 GPRC Aliases
 ++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		GPRC Aliases: The following variables are holding the content of $_GET, $_POST, $_REQUEST or $_COOKIE.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ GPRC Aliases
 	:og:description: The following variables are holding the content of $_GET, $_POST, $_REQUEST or $_COOKIE
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Security/GPRAliases.html
 	:og:locale: en
-  The following variables are holding the content of `$_GET <https://www.php.net/manual/en/reserved.variables.get.php>`_, `$_POST <https://www.php.net/manual/en/reserved.variables.post.php>`_, `$_REQUEST <https://www.php.net/manual/en/reserved.variables.request.php>`_ or $_COOKIE. They shouldn't be trusted, just like their original variables.
+The following variables are holding the content of `$_GET <https://www.php.net/manual/en/reserved.variables.get.php>`_, `$_POST <https://www.php.net/manual/en/reserved.variables.post.php>`_, `$_REQUEST <https://www.php.net/manual/en/reserved.variables.request.php>`_ or $_COOKIE. They shouldn't be trusted, just like their original variables.
 
 .. code-block:: php
    

@@ -5,7 +5,7 @@
 ext/odbc
 ++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/odbc: Extension ODBC.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/odbc
 	:og:description: Extension ODBC
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extodbc.html
 	:og:locale: en
-  Extension ODBC.
+Extension ODBC.
 
 In addition to normal ODBC support, the Unified ODBC functions in PHP allow you to access several databases that have borrowed the semantics of the ODBC API to implement their own API. Instead of maintaining multiple database drivers that were all nearly identical, these drivers have been unified into a single set of ODBC functions.
 

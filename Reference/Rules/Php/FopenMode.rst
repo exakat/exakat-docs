@@ -5,7 +5,7 @@
 Wrong fopen() Mode
 ++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Wrong fopen() Mode: Wrong file opening for fopen().
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Wrong fopen() Mode
 	:og:description: Wrong file opening for fopen()
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/FopenMode.html
 	:og:locale: en
-  Wrong file opening for `fopen() <https://www.php.net/fopen>`_.
+Wrong file opening for `fopen() <https://www.php.net/fopen>`_.
 
 `fopen() <https://www.php.net/fopen>`_ has a few modes, as described in the documentation : 'r', 'r+', for reading;  'w', 'w+' for writing; 'a', 'a+' for appending; 'x', 'x+' for modifying; 'c', 'c+' for writing and locking, 't' for text files and windows only.
 An optional 'b' may be used to make the `fopen() <https://www.php.net/fopen>`_ call more portable and binary safe. Another optional 't' may be used to make the `fopen() <https://www.php.net/fopen>`_ call process automatically text input : this one should be avoided. 

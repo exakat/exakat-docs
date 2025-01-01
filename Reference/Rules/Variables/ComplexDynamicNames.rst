@@ -5,7 +5,7 @@
 Complex Dynamic Names
 +++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Complex Dynamic Names: Avoid using expressions as names for variables or methods.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Complex Dynamic Names
 	:og:description: Avoid using expressions as names for variables or methods
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Variables/ComplexDynamicNames.html
 	:og:locale: en
-  Avoid using expressions as names for variables or methods. 
+Avoid using expressions as names for variables or methods. 
 
 There are no place for checks or flow control, leading to any rogue value to be used as is. Besides, the expression is often overlooked, and not expected there : this makes the code less readable.
 

@@ -5,7 +5,7 @@
 No Hardcoded Ip
 +++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		No Hardcoded Ip: Do not leave hard coded IP in your code.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ No Hardcoded Ip
 	:og:description: Do not leave hard coded IP in your code
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/NoHardcodedIp.html
 	:og:locale: en
-  Do not leave hard coded IP in your code.
+Do not leave hard coded IP in your code.
 
 It is recommended to move such configuration in external files or databases, for each update. 
 This may also come handy when testing. 

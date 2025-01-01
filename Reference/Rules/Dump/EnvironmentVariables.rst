@@ -5,7 +5,7 @@
 Environment Variables
 +++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Environment Variables: Collect all used Environment variables.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Environment Variables
 	:og:description: Collect all used Environment variables
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/EnvironmentVariables.html
 	:og:locale: en
-  Collect all used Environment variables.
+Collect all used Environment variables.
 
 Specs
 _____

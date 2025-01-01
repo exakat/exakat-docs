@@ -5,7 +5,7 @@
 PHP 7.0 Scalar Typehints
 ++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		PHP 7.0 Scalar Typehints: New scalar typehints were introduced : ``bool``, ``int``, ``float``, ``string``.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ PHP 7.0 Scalar Typehints
 	:og:description: New scalar typehints were introduced : ``bool``, ``int``, ``float``, ``string``
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/PHP70scalartypehints.html
 	:og:locale: en
-  New scalar typehints were introduced : ``bool``, ``int``, ``float``, ``string``.
+New scalar typehints were introduced : ``bool``, ``int``, ``float``, ``string``.
 
 They cannot be used before PHP 7.0, and will be confused with classes or interfaces.
 

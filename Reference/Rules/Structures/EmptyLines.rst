@@ -5,7 +5,7 @@
 Empty Instructions
 ++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Empty Instructions: Empty instructions are part of the code that have no instructions.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Empty Instructions
 	:og:description: Empty instructions are part of the code that have no instructions
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/EmptyLines.html
 	:og:locale: en
-  Empty instructions are part of the code that have no instructions. 
+Empty instructions are part of the code that have no instructions. 
 
 This may be trailing semi-colon or empty blocks for if-then structures.
 

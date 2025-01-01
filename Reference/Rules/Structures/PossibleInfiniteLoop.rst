@@ -5,7 +5,7 @@
 Possible Infinite Loop
 ++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Possible Infinite Loop: Loops on files that can't be open results in infinite loop.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Possible Infinite Loop
 	:og:description: Loops on files that can't be open results in infinite loop
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/PossibleInfiniteLoop.html
 	:og:locale: en
-  Loops on files that can't be open results in infinite loop.
+Loops on files that can't be open results in infinite loop.
 
 `fgets() <https://www.php.net/fgets>`_, and functions like `fgetss() <https://www.php.net/fgetss>`_, `fgetcsv() <https://www.php.net/fgetcsv>`_, `fread() <https://www.php.net/fread>`_, return false when they finish reading, or can't access the file. 
 

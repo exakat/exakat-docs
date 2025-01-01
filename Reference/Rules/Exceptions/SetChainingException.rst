@@ -5,7 +5,7 @@
 Set Chaining Exception
 ++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Set Chaining Exception: Chaining exception allows rethrowing a caught exception with a new one.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Set Chaining Exception
 	:og:description: Chaining exception allows rethrowing a caught exception with a new one
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Exceptions/SetChainingException.html
 	:og:locale: en
-  Chaining `exception <https://www.php.net/exception>`_ allows rethrowing a caught `exception <https://www.php.net/exception>`_ with a new one. The previous `exception <https://www.php.net/exception>`_ is added to the new `exception <https://www.php.net/exception>`_, for later reference.
+Chaining `exception <https://www.php.net/exception>`_ allows rethrowing a caught `exception <https://www.php.net/exception>`_ with a new one. The previous `exception <https://www.php.net/exception>`_ is added to the new `exception <https://www.php.net/exception>`_, for later reference.
 
 For that, the constructor of the chaining `exception <https://www.php.net/exception>`_ must relay the previous one to the `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ constructor.
 

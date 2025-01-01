@@ -5,7 +5,7 @@
 Overwritten Constant
 ++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Overwritten Constant: This command adds OVERWRITE link between class constant definitions.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Overwritten Constant
 	:og:description: This command adds OVERWRITE link between class constant definitions
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Complete/OverwrittenConstants.html
 	:og:locale: en
-  This command adds OVERWRITE link between class constant definitions.
+This command adds OVERWRITE link between class constant definitions.
 
 A constant is overwritten by another when it is defined in one of the `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ class or `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ interface.
 

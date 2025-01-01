@@ -5,7 +5,7 @@
 Avoid get_class()
 +++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Avoid get_class(): ``get_class()`` should be replaced with the ``instanceof`` operator to check the class of an object.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Avoid get_class()
 	:og:description: ``get_class()`` should be replaced with the ``instanceof`` operator to check the class of an object
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/UseInstanceof.html
 	:og:locale: en
-  ``get_class()`` should be replaced with the ``instanceof`` operator to check the class of an object. 
+``get_class()`` should be replaced with the ``instanceof`` operator to check the class of an object. 
 
 ``get_class()`` only compares the full namespace name of the object's class, while ``instanceof`` actually resolves the name, using the local namespace and aliases.
 

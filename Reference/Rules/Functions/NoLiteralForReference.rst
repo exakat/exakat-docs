@@ -5,7 +5,7 @@
 No Literal For Reference
 ++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		No Literal For Reference: Method arguments and return values may be by reference.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ No Literal For Reference
 	:og:description: Method arguments and return values may be by reference
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/NoLiteralForReference.html
 	:og:locale: en
-  Method arguments and return values may be by reference. Then, they need to be a valid variable.
+Method arguments and return values may be by reference. Then, they need to be a valid variable.
 
 Objects are always passed by reference, so there is no need to explicitly declare it.
 

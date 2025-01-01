@@ -5,7 +5,7 @@
 Overwritten Source And Value
 ++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Overwritten Source And Value: In a foreach(), it is best to keep source and values distinct.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Overwritten Source And Value
 	:og:description: In a foreach(), it is best to keep source and values distinct
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ForeachSourceValue.html
 	:og:locale: en
-  In a `foreach() <https://www.php.net/manual/en/control-structures.foreach.php>`_, it is best to keep source and values distinct. Otherwise, they overwrite each other.
+In a `foreach() <https://www.php.net/manual/en/control-structures.foreach.php>`_, it is best to keep source and values distinct. Otherwise, they overwrite each other.
 
 Since PHP 7.0, PHP makes a copy of the original source, then works on it. This makes possible to use the same name for the source and the values.
 When the source is used as the value, the elements in the array are successively assigned to itself. After the loop, the original array has been replaced by its last element.

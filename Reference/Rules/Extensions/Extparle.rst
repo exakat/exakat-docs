@@ -5,7 +5,7 @@
 ext/parle
 +++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/parle: Extension Parser and Lexer.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/parle
 	:og:description: Extension Parser and Lexer
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extparle.html
 	:og:locale: en
-  Extension Parser and Lexer.
+Extension Parser and Lexer.
 
 The parle extension provides lexing and parsing facilities. The implementation is based on » Ben Hanson's libraries and requires a » C++14 capable compiler.
 

@@ -5,7 +5,7 @@
 Inclusions
 ++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Inclusions: Collect inclusions of files.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Inclusions
 	:og:description: Collect inclusions of files
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/Inclusions.html
 	:og:locale: en
-  Collect inclusions of files. This is based on include(), require(), include_once() and require_once() keywords.
+Collect inclusions of files. This is based on include(), require(), include_once() and require_once() keywords.
 
 .. code-block:: php
    

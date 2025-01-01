@@ -5,7 +5,7 @@
 ext/standard
 ++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/standard: Standards PHP functions.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/standard
 	:og:description: Standards PHP functions
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extstandard.html
 	:og:locale: en
-  Standards PHP functions.
+Standards PHP functions.
 
 This is not a real PHP extension : it covers the core functions.
 

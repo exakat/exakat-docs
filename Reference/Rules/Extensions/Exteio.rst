@@ -5,7 +5,7 @@
 ext/eio
 +++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/eio: Extension EIO.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/eio
 	:og:description: Extension EIO
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Exteio.html
 	:og:locale: en
-  Extension EIO.
+Extension EIO.
 
 This is a PHP extension wrapping functions of the `libeio <http://software.schmorp.de/pkg/libeio.html>`_ library written by Marc Lehmann.
 

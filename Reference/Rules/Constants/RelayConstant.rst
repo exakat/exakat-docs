@@ -5,7 +5,7 @@
 Relay Constant
 ++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Relay Constant: A relay constant is a constant that gives another name to an existing constant.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Relay Constant
 	:og:description: A relay constant is a constant that gives another name to an existing constant
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Constants/RelayConstant.html
 	:og:locale: en
-  A relay constant is a constant that gives another name to an existing constant. It is simply build by giving the value of another constant.
+A relay constant is a constant that gives another name to an existing constant. It is simply build by giving the value of another constant.
 
 Relay constants acts as alias. They also add an extra layer between a constant or a literal and its usage.
 

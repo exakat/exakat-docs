@@ -5,7 +5,7 @@
 ext/wddx
 ++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/wddx: Extension WDDX.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/wddx
 	:og:description: Extension WDDX
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extwddx.html
 	:og:locale: en
-  Extension WDDX.
+Extension WDDX.
 
 The Web Distributed Data Exchange, or WDDX, is a free, open XML-based technology that allows Web applications created with any platform to easily exchange data with one another over the Web.
 

@@ -5,7 +5,7 @@
 Should Be Single Quote
 ++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Should Be Single Quote: Use single quote for simple strings.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Should Be Single Quote
 	:og:description: Use single quote for simple strings
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Type/ShouldBeSingleQuote.html
 	:og:locale: en
-  Use single quote for simple strings.
+Use single quote for simple strings.
 
 `Static <https://www.php.net/manual/en/language.oop5.static.php>`_ content inside a string, that has no single quotes nor escape sequence (such as \n or \t), should be using single quote delimiter, instead of double quote. 
 If you have too many of them, don't loose your time switching them all. If you have a few of them, it may be good for consistence.

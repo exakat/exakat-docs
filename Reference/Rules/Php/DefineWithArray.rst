@@ -5,7 +5,7 @@
 Define Constants With Array
 +++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Define Constants With Array: PHP has the ability to define an array as a constant, using the define() native call.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Define Constants With Array
 	:og:description: PHP has the ability to define an array as a constant, using the define() native call
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/DefineWithArray.html
 	:og:locale: en
-  PHP has the ability to define an array as a constant, using the `define() <https://www.php.net/define>`_ native call. This was not possible until that version, only with the const keyword.
+PHP has the ability to define an array as a constant, using the `define() <https://www.php.net/define>`_ native call. This was not possible until that version, only with the const keyword.
 
 This was introduced in PHP 7.0. It also applies to the ``const`` keyword and to class constants.
 

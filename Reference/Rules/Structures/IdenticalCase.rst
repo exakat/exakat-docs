@@ -5,7 +5,7 @@
 Identical Case In Switch
 ++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Identical Case In Switch: In a switch() or match() statement, when there are identical cases, it means that multiple case labels that have the same code block.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Identical Case In Switch
 	:og:description: In a switch() or match() statement, when there are identical cases, it means that multiple case labels that have the same code block
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/IdenticalCase.html
 	:og:locale: en
-  In a `switch() <https://www.php.net/manual/en/control-structures.switch.php>`_ or `match() <https://www.php.net/manual/en/control-structures.match.php>`_ statement, when there are identical cases, it means that multiple case labels that have the same code block. 
+In a `switch() <https://www.php.net/manual/en/control-structures.switch.php>`_ or `match() <https://www.php.net/manual/en/control-structures.match.php>`_ statement, when there are identical cases, it means that multiple case labels that have the same code block. 
 
 This can happen by mistake or design. They may be merged together.
 

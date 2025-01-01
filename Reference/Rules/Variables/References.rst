@@ -5,7 +5,7 @@
 Variable References
 +++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Variable References: Variables that are holding references.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Variable References
 	:og:description: Variables that are holding references
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Variables/References.html
 	:og:locale: en
-  Variables that are holding references.
+Variables that are holding references.
 
 References are created with ``=&`` operators, and later propagated with the same operators, or via reference-arguments.
 

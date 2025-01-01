@@ -5,7 +5,7 @@
 List With Reference
 +++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		List With Reference: Support for references in list calls is not backward compatible with older versions of PHP.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ List With Reference
 	:og:description: Support for references in list calls is not backward compatible with older versions of PHP
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/ListWithReference.html
 	:og:locale: en
-  Support for references in list calls is not backward compatible with older versions of PHP. The support was introduced in PHP 7.3.
+Support for references in list calls is not backward compatible with older versions of PHP. The support was introduced in PHP 7.3.
 
 .. code-block:: php
    

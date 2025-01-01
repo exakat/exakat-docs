@@ -5,7 +5,7 @@
 Useless Instructions
 ++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Useless Instructions: Those instructions are useless, or contains useless parts.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Useless Instructions
 	:og:description: Those instructions are useless, or contains useless parts
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/UselessInstruction.html
 	:og:locale: en
-  Those instructions are useless, or contains useless parts. 
+Those instructions are useless, or contains useless parts. 
 
 For example, an addition whose `result <https://www.php.net/result>`_ is not stored in a variable, or immediately used, does nothing : it is actually performed, and the `result <https://www.php.net/result>`_ is lost. Just plain lost. In fact, PHP might detect it, and optimize it away. 
 

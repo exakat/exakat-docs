@@ -5,7 +5,7 @@
 ext/leveldb
 +++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/leveldb: PHP Binding for LevelDB.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/leveldb
 	:og:description: PHP Binding for LevelDB
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extleveldb.html
 	:og:locale: en
-  PHP Binding for LevelDB.
+PHP Binding for LevelDB.
 
 LevelDB is a fast key-value storage library written at Google that provides an ordered mapping from string keys to string values.
 

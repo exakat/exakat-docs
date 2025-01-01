@@ -5,7 +5,7 @@
 Makes Class Constant Definition
 +++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Makes Class Constant Definition: This rule adds DEFINITION link between class constant definitions and their usage.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Makes Class Constant Definition
 	:og:description: This rule adds DEFINITION link between class constant definitions and their usage
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Complete/MakeClassConstantDefinition.html
 	:og:locale: en
-  This rule adds DEFINITION link between class constant definitions and their usage. These links are used later to identify the values delivered by the constant.
+This rule adds DEFINITION link between class constant definitions and their usage. These links are used later to identify the values delivered by the constant.
 
 .. code-block:: php
    

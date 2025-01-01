@@ -5,7 +5,7 @@
 Constant Used Only Once
 +++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Constant Used Only Once: This rule reports constants that are used only once.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Constant Used Only Once
 	:og:description: This rule reports constants that are used only once
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Constants/ConstantUsedOnce.html
 	:og:locale: en
-  This rule reports constants that are used only once. Constants that are used only once may be replaced by they literal value, unless future use is expected.
+This rule reports constants that are used only once. Constants that are used only once may be replaced by they literal value, unless future use is expected.
 
 This rule works on global and class constants.
 

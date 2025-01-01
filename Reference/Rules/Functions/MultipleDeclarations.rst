@@ -5,7 +5,7 @@
 Multiple Functions Declarations
 +++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Multiple Functions Declarations: Some functions are declared multiple times in the code.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Multiple Functions Declarations
 	:og:description: Some functions are declared multiple times in the code
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/MultipleDeclarations.html
 	:og:locale: en
-  Some functions are declared multiple times in the code. 
+Some functions are declared multiple times in the code. 
 
 PHP accepts multiple definitions for the same functions, as long as they are not in the same file (linting `error) <https://www.php.net/error>`_, or not included simultaneously during the execution. 
 

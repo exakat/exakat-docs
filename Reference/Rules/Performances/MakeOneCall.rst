@@ -5,7 +5,7 @@
 Make One Call With Array
 ++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Make One Call With Array: Avoid calling the same functions several times by batching the calls with arrays.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Make One Call With Array
 	:og:description: Avoid calling the same functions several times by batching the calls with arrays
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Performances/MakeOneCall.html
 	:og:locale: en
-  Avoid calling the same functions several times by batching the calls with arrays.
+Avoid calling the same functions several times by batching the calls with arrays.
 
 Calling the same function to chain modifications is slower than calling the same function once, with all the transformations at the same time. Some PHP functions accept scalars or arrays, and using the later is more efficient.
 Potential replacements : 

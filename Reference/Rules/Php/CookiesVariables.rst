@@ -5,7 +5,7 @@
 Cookies Variables
 +++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Cookies Variables: Cookies names, used across the application.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Cookies Variables
 	:og:description: Cookies names, used across the application
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/CookiesVariables.html
 	:og:locale: en
-  Cookies names, used across the application.
+Cookies names, used across the application.
 
 .. code-block:: php
    

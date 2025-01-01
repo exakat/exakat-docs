@@ -5,7 +5,7 @@
 Could Be Boolean
 ++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Could Be Boolean: Reports arguments, properties, return types and class constants that can be typed boolean.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Could Be Boolean
 	:og:description: Reports arguments, properties, return types and class constants that can be typed boolean
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Typehints/CouldBeBoolean.html
 	:og:locale: en
-  Reports arguments, properties, return types and class constants that can be typed boolean.
+Reports arguments, properties, return types and class constants that can be typed boolean.
 
 .. code-block:: php
    

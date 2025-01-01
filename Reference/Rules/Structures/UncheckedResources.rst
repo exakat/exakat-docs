@@ -5,7 +5,7 @@
 Unchecked Resources
 +++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Unchecked Resources: Resources are created, but never checked before being used.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Unchecked Resources
 	:og:description: Resources are created, but never checked before being used
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/UncheckedResources.html
 	:og:locale: en
-  Resources are created, but never checked before being used. This is not safe.
+Resources are created, but never checked before being used. This is not safe.
 
 Always check that resources are correctly created before using them.
 

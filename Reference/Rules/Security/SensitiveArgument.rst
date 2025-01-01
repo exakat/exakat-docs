@@ -5,7 +5,7 @@
 Sensitive Argument
 ++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Sensitive Argument: Spot the argument that are sensitive for security.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Sensitive Argument
 	:og:description: Spot the argument that are sensitive for security
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Security/SensitiveArgument.html
 	:og:locale: en
-  Spot the argument that are sensitive for security. The functioncalls that are hosting a sensitive argument are called a sink.
+Spot the argument that are sensitive for security. The functioncalls that are hosting a sensitive argument are called a sink.
 
 .. code-block:: php
    

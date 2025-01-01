@@ -5,7 +5,7 @@
 Wrong Type With Call
 ++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Wrong Type With Call: This analysis checks that a call to a method uses the types.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Wrong Type With Call
 	:og:description: This analysis checks that a call to a method uses the types
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/WrongTypeWithCall.html
 	:og:locale: en
-  This analysis checks that a call to a method uses the types.
+This analysis checks that a call to a method uses the types.
 
 This analysis is compatible with Union types and with Intersection types.
 Currently, this analysis doesn't take into account ``strict_types = 1``. As such, ``int`` and ``string`` won't be compatible.

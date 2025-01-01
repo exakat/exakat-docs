@@ -5,7 +5,7 @@
 ext/calendar
 ++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/calendar: Extension ext/calendar.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/calendar
 	:og:description: Extension ext/calendar
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extcalendar.html
 	:og:locale: en
-  Extension ext/calendar.
+Extension ext/calendar.
 
 The calendar extension presents a series of functions to simplify converting between different calendar formats.
 

@@ -5,7 +5,7 @@
 One Object Operator Per Line
 ++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		One Object Operator Per Line: It is recommended to avoid using more than one operator -> per line, to prevent information overload.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ One Object Operator Per Line
 	:og:description: It is recommended to avoid using more than one operator -> per line, to prevent information overload
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/OneObjectOperatorPerLine.html
 	:og:locale: en
-  It is recommended to avoid using more than one operator -> per line, to prevent information overload.
+It is recommended to avoid using more than one operator -> per line, to prevent information overload.
 
 This rule applies to chained  calls, and not on distinct expressions, that may end up on the same line. 
 

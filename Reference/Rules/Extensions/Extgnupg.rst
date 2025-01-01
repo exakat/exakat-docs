@@ -5,7 +5,7 @@
 ext/gnupgp
 ++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/gnupgp: Extension GnuPG.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/gnupgp
 	:og:description: Extension GnuPG
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extgnupg.html
 	:og:locale: en
-  Extension GnuPG.
+Extension GnuPG.
 
 This module allows you to interact with gnupg.
 

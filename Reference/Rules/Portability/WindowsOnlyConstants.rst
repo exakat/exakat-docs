@@ -5,7 +5,7 @@
 Windows Only Constants
 ++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Windows Only Constants: When built on Windows, PHP offers some extra constants.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Windows Only Constants
 	:og:description: When built on Windows, PHP offers some extra constants
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Portability/WindowsOnlyConstants.html
 	:og:locale: en
-  When built on Windows, PHP offers some extra constants. They are not available on other operating systems.
+When built on Windows, PHP offers some extra constants. They are not available on other operating systems.
 
 .. code-block:: php
    

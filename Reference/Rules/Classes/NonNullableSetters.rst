@@ -5,7 +5,7 @@
 Non Nullable Getters
 ++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Non Nullable Getters: A getter needs to be nullable when a property is injected.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Non Nullable Getters
 	:og:description: A getter needs to be nullable when a property is injected
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/NonNullableSetters.html
 	:og:locale: en
-  A getter needs to be nullable when a property is injected. 
+A getter needs to be nullable when a property is injected. 
 
 In particular, if the injection happens with a separate method, there is a time where the object is not consistent, and the property holds a default non-object value.
 

@@ -5,7 +5,7 @@
 Concatenation Interpolation Consistence
 +++++++++++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Concatenation Interpolation Consistence: Concatenations are done with the .
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Concatenation Interpolation Consistence
 	:og:description: Concatenations are done with the 
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ConcatenationInterpolationFavorite.html
 	:og:locale: en
-  Concatenations are done with the . operator or by interpolation inside a string. 
+Concatenations are done with the . operator or by interpolation inside a string. 
 
 Interpolation is a clean way to write concatenation, though it gets messy with long dereferences or with constants. Concatenations are longer to write. 
 

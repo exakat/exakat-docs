@@ -5,7 +5,7 @@
 Collect Structures
 ++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Collect Structures: This rule collects all defined structures in the source code, with their details.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Collect Structures
 	:og:description: This rule collects all defined structures in the source code, with their details
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/CollectStructures.html
 	:og:locale: en
-  This rule collects all defined structures in the source code, with their details.
+This rule collects all defined structures in the source code, with their details.
 
 + Classes
 + Enums

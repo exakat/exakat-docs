@@ -5,7 +5,7 @@
 Dynamic Property
 ++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Dynamic Property: Dynamic access to class property.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Dynamic Property
 	:og:description: Dynamic access to class property
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/DynamicPropertyCall.html
 	:og:locale: en
-  Dynamic access to class property. This is when the the name of the property is stored in a variable (or other container), rather than statically provided.
+Dynamic access to class property. This is when the the name of the property is stored in a variable (or other container), rather than statically provided.
 
 .. code-block:: php
    

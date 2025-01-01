@@ -5,7 +5,7 @@
 ext/opcache
 +++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/opcache: Extension opcache.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/opcache
 	:og:description: Extension opcache
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extopcache.html
 	:og:locale: en
-  Extension opcache.
+Extension opcache.
 
 OPcache improves PHP performance by storing precompiled script bytecode in shared memory, thereby removing the need for PHP to load and parse scripts on each request.
 

@@ -5,7 +5,7 @@
 Mismatch Type And Default
 +++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Mismatch Type And Default: The argument typehint and its default value don't match.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Mismatch Type And Default
 	:og:description: The argument typehint and its default value don't match
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/MismatchTypeAndDefault.html
 	:og:locale: en
-  The argument typehint and its default value don't match. 
+The argument typehint and its default value don't match. 
 
 The code may lint and load, and even work when the arguments are provided. Though, PHP won't eventually execute it. 
 

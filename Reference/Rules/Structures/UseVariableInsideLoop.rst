@@ -5,7 +5,7 @@
 Use Variable Created Inside Loop
 ++++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Use Variable Created Inside Loop: When a variable is created inside a loop, it should also be used in the loop.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Use Variable Created Inside Loop
 	:og:description: When a variable is created inside a loop, it should also be used in the loop
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/UseVariableInsideLoop.html
 	:og:locale: en
-  When a variable is created inside a loop, it should also be used in the loop. Otherwise, the variable will be overwritten by each loop, and become dead code.
+When a variable is created inside a loop, it should also be used in the loop. Otherwise, the variable will be overwritten by each loop, and become dead code.
 
 .. code-block:: php
    

@@ -5,7 +5,7 @@
 class_alias() Supports Internal Classes
 +++++++++++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		class_alias() Supports Internal Classes: class_alias() accepts internal classes as first argument.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ class_alias() Supports Internal Classes
 	:og:description: class_alias() accepts internal classes as first argument
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/ClassAliasSupportsInternalClasses.html
 	:og:locale: en
-  `class_alias() <https://www.php.net/class_alias>`_ accepts internal classes as first argument. Until PHP 8.3, this feature was restricted to user-defined classes.
+`class_alias() <https://www.php.net/class_alias>`_ accepts internal classes as first argument. Until PHP 8.3, this feature was restricted to user-defined classes.
 
 .. code-block:: php
    

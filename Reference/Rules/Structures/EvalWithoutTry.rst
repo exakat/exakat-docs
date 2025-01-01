@@ -5,7 +5,7 @@
 eval() Without Try
 ++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		eval() Without Try: ``eval()`` emits a ``ParseError`` exception with PHP 7 and later.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ eval() Without Try
 	:og:description: ``eval()`` emits a ``ParseError`` exception with PHP 7 and later
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/EvalWithoutTry.html
 	:og:locale: en
-  ``eval()`` emits a ``ParseError`` `exception <https://www.php.net/exception>`_ with PHP 7 and later. Catching this `exception <https://www.php.net/exception>`_ is the recommended way to handle errors when using the ``eval()`` function.
+``eval()`` emits a ``ParseError`` `exception <https://www.php.net/exception>`_ with PHP 7 and later. Catching this `exception <https://www.php.net/exception>`_ is the recommended way to handle errors when using the ``eval()`` function.
 Note that it will catch situations where ``eval()`` is provided with code that can't be used, but it will not catch security problems. Avoid using ``eval()`` with incoming data.
 
 .. code-block:: php

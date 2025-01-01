@@ -5,7 +5,7 @@
 Short Syntax For Arrays
 +++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Short Syntax For Arrays: Arrays written with the new short syntax.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Short Syntax For Arrays
 	:og:description: Arrays written with the new short syntax
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Arrays/ArrayNSUsage.html
 	:og:locale: en
-  Arrays written with the new short syntax. 
+Arrays written with the new short syntax. 
 
 PHP 5.4 introduced the new short syntax, with square brackets. The previous syntax, based on the `array() <https://www.php.net/array>`_ keyword is still available.
 

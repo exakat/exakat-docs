@@ -5,22 +5,22 @@
 Must Call Parent Constructor
 ++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
-		Must Call Parent Constructor: Some PHP native classes require a call to ``parent\:\:__construct()`` to be stable.
+		Must Call Parent Constructor: Some PHP native classes require a call to ``parent::__construct()`` to be stable.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: Must Call Parent Constructor
-	:twitter:description: Must Call Parent Constructor: Some PHP native classes require a call to ``parent\:\:__construct()`` to be stable
+	:twitter:description: Must Call Parent Constructor: Some PHP native classes require a call to ``parent::__construct()`` to be stable
 	:twitter:creator: @exakat
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
 	:og:title: Must Call Parent Constructor
 	:og:type: article
-	:og:description: Some PHP native classes require a call to ``parent\:\:__construct()`` to be stable
+	:og:description: Some PHP native classes require a call to ``parent::__construct()`` to be stable
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/MustCallParentConstructor.html
 	:og:locale: en
-  Some PHP native classes require a call to ``parent\:\:`__construct() <https://www.php.net/manual/en/language.oop5.decon.php>`_`` to be stable. 
+Some PHP native classes require a call to ``parent\:\:`__construct() <https://www.php.net/manual/en/language.oop5.decon.php>`_`` to be stable. 
 
 As of PHP 7.3, two classes currently need that call : ``SplTempFileObject`` and ``SplFileObject``.
 

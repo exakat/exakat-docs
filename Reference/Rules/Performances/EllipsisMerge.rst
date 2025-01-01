@@ -5,7 +5,7 @@
 Ellipsis Merge
 ++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Ellipsis Merge: Ellipsis are slower than array_merge().
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Ellipsis Merge
 	:og:description: Ellipsis are slower than array_merge()
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Performances/EllipsisMerge.html
 	:og:locale: en
-  Ellipsis are slower than `array_merge() <https://www.php.net/array_merge>`_. 
+Ellipsis are slower than `array_merge() <https://www.php.net/array_merge>`_. 
 
 The speed up is significative when the merge happen inside a loop. There, `array_merge() <https://www.php.net/array_merge>`_ is an order of magnitude faster.
 

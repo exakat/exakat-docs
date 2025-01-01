@@ -5,7 +5,7 @@
 Collect Parameter Names
 +++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Collect Parameter Names: This analysis collects the names of all parameters.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Collect Parameter Names
 	:og:description: This analysis collects the names of all parameters
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/CollectParameterNames.html
 	:og:locale: en
-  This analysis collects the names of all parameters. It also counts the number of occurrences of each name.
+This analysis collects the names of all parameters. It also counts the number of occurrences of each name.
 
 The names are collected from functions, methods, closures and arrow functions. Compulsory and optional parameters are all processed.
 

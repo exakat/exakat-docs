@@ -5,7 +5,7 @@
 Is Stub Structure
 +++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Is Stub Structure: This command finishes marking atoms with the isStub property.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Is Stub Structure
 	:og:description: This command finishes marking atoms with the isStub property
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Complete/IsStubStructure.html
 	:og:locale: en
-  This command finishes marking atoms with the isStub property. ``isStub`` are structures (functions, constants, classes, traits...) that are defined in an external component, and described with PDFF files.
+This command finishes marking atoms with the isStub property. ``isStub`` are structures (functions, constants, classes, traits...) that are defined in an external component, and described with PDFF files.
 Connex PHP features
 -------------------
 

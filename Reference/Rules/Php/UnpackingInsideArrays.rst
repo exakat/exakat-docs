@@ -5,7 +5,7 @@
 Unpacking Inside Arrays
 +++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Unpacking Inside Arrays: The variadic operator is now available inside arrays.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Unpacking Inside Arrays
 	:og:description: The variadic operator is now available inside arrays
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/UnpackingInsideArrays.html
 	:og:locale: en
-  The variadic operator is now available inside arrays. Until PHP 7.4, it is not possible to use the variadic operator, or ``...`` inside arrays. 
+The variadic operator is now available inside arrays. Until PHP 7.4, it is not possible to use the variadic operator, or ``...`` inside arrays. 
 
 The workaround is to use `array_merge() <https://www.php.net/array_merge>`_, after checking that arrays are not empty.
 

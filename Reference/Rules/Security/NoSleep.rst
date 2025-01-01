@@ -5,7 +5,7 @@
 Avoid sleep()/usleep()
 ++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Avoid sleep()/usleep(): sleep() and usleep() help saturate the web server.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Avoid sleep()/usleep()
 	:og:description: sleep() and usleep() help saturate the web server
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Security/NoSleep.html
 	:og:locale: en
-  `sleep() <https://www.php.net/sleep>`_ and `usleep() <https://www.php.net/usleep>`_ help saturate the web server. 
+`sleep() <https://www.php.net/sleep>`_ and `usleep() <https://www.php.net/usleep>`_ help saturate the web server. 
 
 Pausing the script for a specific amount of time means that the Web server is also making all related resources sleep, such as database, sockets, session, etc. This may used to set up a DOS on the server.  
 As much as possible, avoid delaying the end of the script. 

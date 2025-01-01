@@ -5,7 +5,7 @@
 Could Be Parent
 +++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Could Be Parent: Mark arguments, return types and properties that can be set to ``parent``.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Could Be Parent
 	:og:description: Mark arguments, return types and properties that can be set to ``parent``
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Typehints/CouldBeParent.html
 	:og:locale: en
-  Mark arguments, return types and properties that can be set to ``parent``.
+Mark arguments, return types and properties that can be set to ``parent``.
 
 This analysis works when typehints have already been configured.
 

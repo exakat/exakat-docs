@@ -5,7 +5,7 @@
 Don't Pollute Global Space
 ++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Don't Pollute Global Space: Avoid creating definitions in the global name space.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Don't Pollute Global Space
 	:og:description: Avoid creating definitions in the global name space
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/DontPolluteGlobalSpace.html
 	:og:locale: en
-  Avoid creating definitions in the global name space.
+Avoid creating definitions in the global name space.
 
 The global namespace is the default namespace, where all functions, classes, constants, traits and interfaces live. The `global namespace <https://www.php.net/manual/en/language.namespaces.global.php>`_ is also known as the root namespace.
 

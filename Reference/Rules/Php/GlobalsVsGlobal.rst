@@ -5,7 +5,7 @@
 $GLOBALS Or global
 ++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		$GLOBALS Or global: Usually, PHP projects make a choice between the global keyword, and the $GLOBALS variable.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ $GLOBALS Or global
 	:og:description: Usually, PHP projects make a choice between the global keyword, and the $GLOBALS variable
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/GlobalsVsGlobal.html
 	:og:locale: en
-  Usually, PHP projects make a choice between the global keyword, and the $GLOBALS variable. Sometimes, the project has no recommendations. 
+Usually, PHP projects make a choice between the global keyword, and the $GLOBALS variable. Sometimes, the project has no recommendations. 
 
 When your project use a vast majority of one of the convention, then the analyzer will report all remaining inconsistently cased constant.
 

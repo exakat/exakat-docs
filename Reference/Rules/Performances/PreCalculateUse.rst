@@ -5,7 +5,7 @@
 Pre-Calculate Use
 +++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Pre-Calculate Use: In a closure, it is faster to pass a final value, rather than calculate it at call time.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Pre-Calculate Use
 	:og:description: In a closure, it is faster to pass a final value, rather than calculate it at call time
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Performances/PreCalculateUse.html
 	:og:locale: en
-  In a `closure <https://www.php.net/`closure <https://www.php.net/closure>`_>`_, it is faster to pass a final value, rather than calculate it at call time. 
+In a `closure <https://www.php.net/`closure <https://www.php.net/closure>`_>`_, it is faster to pass a final value, rather than calculate it at call time. 
 
 In the ``use`` clause of the `closure <https://www.php.net/`closure <https://www.php.net/closure>`_>`_, make sure that the passed variables do not require any more processing, such as a call to another function or an extra expression.
 

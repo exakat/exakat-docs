@@ -5,7 +5,7 @@
 ext/fileinfo
 ++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/fileinfo: Extension ext/fileinfo.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/fileinfo
 	:og:description: Extension ext/fileinfo
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extfileinfo.html
 	:og:locale: en
-  Extension ext/fileinfo.
+Extension ext/fileinfo.
 
 This module guesses the content type and encoding of a file by looking for certain magic byte sequences at specific positions within the file.
 

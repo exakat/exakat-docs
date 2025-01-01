@@ -5,7 +5,7 @@
 No isset() With empty()
 +++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		No isset() With empty(): empty() actually does the job of isset() too.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ No isset() With empty()
 	:og:description: empty() actually does the job of isset() too
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/NoIssetWithEmpty.html
 	:og:locale: en
-  empty() actually does the job of `isset() <https://www.www.php.net/isset>`_ too. 
+empty() actually does the job of `isset() <https://www.www.php.net/isset>`_ too. 
 
 From the manual : ``No warning is generated if the variable does not exist. That means empty() is essentially the concise equivalent to !`isset( <https://www.www.php.net/isset>`_$var) || $var == false.`` The main difference is that `isset() <https://www.www.php.net/isset>`_ only works with variables, while empty() works with other structures, such as constants.
 

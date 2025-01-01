@@ -5,7 +5,7 @@
 Suspicious Comparison
 +++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Suspicious Comparison: The comparison seems to be misplaced.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Suspicious Comparison
 	:og:description: The comparison seems to be misplaced
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/SuspiciousComparison.html
 	:og:locale: en
-  The comparison seems to be misplaced.
+The comparison seems to be misplaced.
 
 A comparison happens in the last argument, while the actual function expect another type : this may be the case of a badly placed parenthesis.
 Original idea by `Vladimir Reznichenko <https://twitter.com/kalessil>`_.

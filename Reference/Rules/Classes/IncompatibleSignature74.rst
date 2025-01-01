@@ -5,7 +5,7 @@
 Incompatible Signature Methods With Covariance
 ++++++++++++++++++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Incompatible Signature Methods With Covariance: Methods should have the compatible signature when being overwritten.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Incompatible Signature Methods With Covariance
 	:og:description: Methods should have the compatible signature when being overwritten
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/IncompatibleSignature74.html
 	:og:locale: en
-  Methods should have the compatible signature when being overwritten.
+Methods should have the compatible signature when being overwritten.
 
 The same signatures means the children class must have : 
 

@@ -5,7 +5,7 @@
 Throws An Assignement
 +++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Throws An Assignement: It is possible to throw an exception, and, in the same time, assign this exception to a variable.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Throws An Assignement
 	:og:description: It is possible to throw an exception, and, in the same time, assign this exception to a variable
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ThrowsAndAssign.html
 	:og:locale: en
-  It is possible to throw an `exception <https://www.php.net/exception>`_, and, in the same time, assign this `exception <https://www.php.net/exception>`_ to a variable.
+It is possible to throw an `exception <https://www.php.net/exception>`_, and, in the same time, assign this `exception <https://www.php.net/exception>`_ to a variable.
 
 However, the variable will never be used, as the `exception <https://www.php.net/exception>`_ is thrown, and any following code is not executed, unless the `exception <https://www.php.net/exception>`_ is caught in the same scope.
 

@@ -5,7 +5,7 @@
 Unused Interfaces
 +++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Unused Interfaces: Those interfaces are defined and never used.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Unused Interfaces
 	:og:description: Those interfaces are defined and never used
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Interfaces/UnusedInterfaces.html
 	:og:locale: en
-  Those interfaces are defined and never used. They should be removed, as they are dead code.
+Those interfaces are defined and never used. They should be removed, as they are dead code.
 
 Interfaces may be use as `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ for other interfaces, as types (argument, return and property), in instance of.
 

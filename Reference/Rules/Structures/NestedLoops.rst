@@ -5,7 +5,7 @@
 Nested Loops
 ++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Nested Loops: Nested loops happens when a loop (while, do.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Nested Loops
 	:og:description: Nested loops happens when a loop (while, do
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/NestedLoops.html
 	:og:locale: en
-  Nested loops happens when a loop (while, do..while, for, foreach), is used inside another loop. 
+Nested loops happens when a loop (while, do..while, for, foreach), is used inside another loop. 
 Such structure tends to require a lot of processing, as the size of both loops have to be multiplied to estimate the actual payload. They should be avoided as much as possible. This may no be always possible, though.
 
 Nested loops are worth a check for performances reasons, as they will process a lot of times the same instructions.

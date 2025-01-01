@@ -5,7 +5,7 @@
 No List With String
 +++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		No List With String: list() can't be used anymore to access particular offset in a string.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ No List With String
 	:og:description: list() can't be used anymore to access particular offset in a string
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/NoListWithString.html
 	:og:locale: en
-  `list() <https://www.php.net/list>`_ can't be used anymore to access particular offset in a string. This should be done with `substr() <https://www.php.net/substr>`_ or $string[$offset] syntax.
+`list() <https://www.php.net/list>`_ can't be used anymore to access particular offset in a string. This should be done with `substr() <https://www.php.net/substr>`_ or $string[$offset] syntax.
 
 .. code-block:: php
    

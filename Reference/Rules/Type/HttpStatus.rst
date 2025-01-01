@@ -5,7 +5,7 @@
 HTTP Status Code
 ++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		HTTP Status Code: List of all the HTTP status codes mentioned in the code.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ HTTP Status Code
 	:og:description: List of all the HTTP status codes mentioned in the code
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Type/HttpStatus.html
 	:og:locale: en
-  List of all the HTTP status codes mentioned in the code.
+List of all the HTTP status codes mentioned in the code.
 
 .. code-block:: php
    

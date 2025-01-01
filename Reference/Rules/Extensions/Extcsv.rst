@@ -5,7 +5,7 @@
 ext/CSV
 +++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/CSV: A small PHP extension to add/improve the handling of CSV strings.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/CSV
 	:og:description: A small PHP extension to add/improve the handling of CSV strings
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extcsv.html
 	:og:locale: en
-  A small PHP extension to add/improve the handling of CSV strings.
+A small PHP extension to add/improve the handling of CSV strings.
 
 .. code-block:: php
    

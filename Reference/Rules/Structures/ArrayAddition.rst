@@ -5,7 +5,7 @@
 Array Addition
 ++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Array Addition: Addition where one of the operands are arrays.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Array Addition
 	:og:description: Addition where one of the operands are arrays
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ArrayAddition.html
 	:og:locale: en
-  Addition where one of the operands are arrays.
+Addition where one of the operands are arrays.
 
 .. code-block:: php
    

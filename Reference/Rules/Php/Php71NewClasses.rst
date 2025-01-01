@@ -5,7 +5,7 @@
 Php 7.1 New Class
 +++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Php 7.1 New Class: New classes, introduced in PHP 7.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Php 7.1 New Class
 	:og:description: New classes, introduced in PHP 7
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/Php71NewClasses.html
 	:og:locale: en
-  New classes, introduced in PHP 7.1. If classes where created with the same name, in current code, they have to be moved in a namespace, or removed from code to migrate safely to PHP 7.1.
+New classes, introduced in PHP 7.1. If classes where created with the same name, in current code, they have to be moved in a namespace, or removed from code to migrate safely to PHP 7.1.
 
 The new class is : `ReflectionClassConstant <https://www.php.net/reflectionclassconstant>`_. The other class is 'Void' : this is forbidden as a class name, as Void is used for return type hint.
 

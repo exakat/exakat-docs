@@ -5,7 +5,7 @@
 Collect Dependency Extension
 ++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Collect Dependency Extension: This analysis lists the interfaces and classes that are not defined in the current code, yet extended.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Collect Dependency Extension
 	:og:description: This analysis lists the interfaces and classes that are not defined in the current code, yet extended
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/CollectDependencyExtension.html
 	:og:locale: en
-  This analysis lists the interfaces and classes that are not defined in the current code, yet extended. 
+This analysis lists the interfaces and classes that are not defined in the current code, yet extended. 
 
 This yields a list of external dependencies. It is useful for anyone who would like to update those root classes and interfaces.
 

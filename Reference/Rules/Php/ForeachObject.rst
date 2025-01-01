@@ -5,7 +5,7 @@
 Foreach On Object
 +++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Foreach On Object: Foreach on object looks like a typo.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Foreach On Object
 	:og:description: Foreach on object looks like a typo
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/ForeachObject.html
 	:og:locale: en
-  Foreach on object looks like a typo. This is particularly true when both object and member are variables.
+Foreach on object looks like a typo. This is particularly true when both object and member are variables.
 
 Foreach on an object member is a legit PHP syntax, though it is very rare : blind variables rarely have to be securing in an object to be processed.
 

@@ -5,7 +5,7 @@
 Directives Usage
 ++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Directives Usage: This rule lists the directives mentioned in the code.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Directives Usage
 	:og:description: This rule lists the directives mentioned in the code
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/DirectivesUsage.html
 	:og:locale: en
-  This rule lists the directives mentioned in the code. When the directives are accessed in the code, it signals that they must be configured in PHP.ini first.
+This rule lists the directives mentioned in the code. When the directives are accessed in the code, it signals that they must be configured in PHP.ini first.
 
 .. code-block:: php
    

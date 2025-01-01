@@ -5,7 +5,7 @@
 Assigned In One Branch
 ++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Assigned In One Branch: This rule reports variables that are assigned in one branch, and not in the other.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Assigned In One Branch
 	:og:description: This rule reports variables that are assigned in one branch, and not in the other
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/AssignedInOneBranch.html
 	:og:locale: en
-  This rule reports variables that are assigned in one branch, and not in the other.
+This rule reports variables that are assigned in one branch, and not in the other.
 
 This situation means that, depending on the branch used, some variables may not always be available. Such inbalance may generate warnings. 
 

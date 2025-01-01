@@ -5,7 +5,7 @@
 Yield Usage
 +++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Yield Usage: Usage of generators, with yield keyword.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Yield Usage
 	:og:description: Usage of generators, with yield keyword
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/YieldUsage.html
 	:og:locale: en
-  Usage of generators, with yield keyword.
+Usage of generators, with yield keyword.
 
 Yield was introduced in PHP 5.5, and is backward incompatible.
 

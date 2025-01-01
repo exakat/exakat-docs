@@ -5,7 +5,7 @@
 Implode() Arguments Order
 +++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Implode() Arguments Order: implode() used to accept two signatures, but is only recommending one.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Implode() Arguments Order
 	:og:description: implode() used to accept two signatures, but is only recommending one
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ImplodeArgsOrder.html
 	:og:locale: en
-  `implode() <https://www.php.net/implode>`_ used to accept two signatures, but is only recommending one. Both types orders of string then array, and array then string have been possible until PHP 7.4.
+`implode() <https://www.php.net/implode>`_ used to accept two signatures, but is only recommending one. Both types orders of string then array, and array then string have been possible until PHP 7.4.
 
 In PHP 7.4, the order array then string is deprecated, and emits a warning. It will be removed in PHP 8.0.
 

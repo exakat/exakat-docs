@@ -5,7 +5,7 @@
 Concat Empty String
 +++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Concat Empty String: Using a concatenation to make a value a string should be replaced with a type cast.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Concat Empty String
 	:og:description: Using a concatenation to make a value a string should be replaced with a type cast
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ConcatEmpty.html
 	:og:locale: en
-  Using a concatenation to make a value a string should be replaced with a type cast.
+Using a concatenation to make a value a string should be replaced with a type cast.
 
 Type cast to a string is done with ``(string)`` operator. There is also the function `strval() <https://www.php.net/strval>`_, although it is less recommended.
 

@@ -5,7 +5,7 @@
 Could Be Null
 +++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Could Be Null: Mark arguments, properties, class constants and return types that can be ``null``.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Could Be Null
 	:og:description: Mark arguments, properties, class constants and return types that can be ``null``
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Typehints/CouldBeNull.html
 	:og:locale: en
-  Mark arguments, properties, class constants and return types that can be ``null``. Null was introduced as a standlone type in PHP 8.2. Before that, null had to be paired with another type.
+Mark arguments, properties, class constants and return types that can be ``null``. Null was introduced as a standlone type in PHP 8.2. Before that, null had to be paired with another type.
 
 .. code-block:: php
    

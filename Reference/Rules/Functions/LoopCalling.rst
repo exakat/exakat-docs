@@ -5,7 +5,7 @@
 Functions In Loop Calls
 +++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Functions In Loop Calls: The following functions call each-other in a loop fashion : A -> B -> A.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Functions In Loop Calls
 	:og:description: The following functions call each-other in a loop fashion : A -> B -> A
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/LoopCalling.html
 	:og:locale: en
-  The following functions call each-other in a loop fashion : A -> B -> A.
+The following functions call each-other in a loop fashion : A -> B -> A.
 
 When those functions have no other interaction, the code is useless and should be dropped.
 

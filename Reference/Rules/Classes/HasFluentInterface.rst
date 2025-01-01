@@ -5,7 +5,7 @@
 Class Has Fluent Interface
 ++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Class Has Fluent Interface: Mark a class as such when it contains at least one fluent method.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Class Has Fluent Interface
 	:og:description: Mark a class as such when it contains at least one fluent method
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/HasFluentInterface.html
 	:og:locale: en
-  Mark a class as such when it contains at least one fluent method. A fluent method is a method that returns `$this <https://www.php.net/manual/en/language.oop5.basic.php>`_, for chaining.
+Mark a class as such when it contains at least one fluent method. A fluent method is a method that returns `$this <https://www.php.net/manual/en/language.oop5.basic.php>`_, for chaining.
 
 .. code-block:: php
    

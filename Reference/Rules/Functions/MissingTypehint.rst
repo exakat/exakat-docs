@@ -5,7 +5,7 @@
 Missing Typehint
 ++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Missing Typehint: No typehint was found for a parameter, a return type for a method or a property.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Missing Typehint
 	:og:description: No typehint was found for a parameter, a return type for a method or a property
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/MissingTypehint.html
 	:og:locale: en
-  No typehint was found for a parameter, a return type for a method or a property.
+No typehint was found for a parameter, a return type for a method or a property.
 
 void is considered a specified typehint, and is not reported here.
 

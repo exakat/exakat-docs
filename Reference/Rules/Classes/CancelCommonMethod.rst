@@ -5,7 +5,7 @@
 Cancel Common Method
 ++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Cancel Common Method: A parent method's is too little used in children.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Cancel Common Method
 	:og:description: A parent method's is too little used in children
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/CancelCommonMethod.html
 	:og:locale: en
-  A `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ method's is too little used in children.
+A `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ method's is too little used in children.
 
 The `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ class has a method, which is customised in children classes, though most of the time, those are empty : hence, cancelled. 
 A threshold of ``cancelThreshold`` % of the children methods have to be cancelled to report the `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ class. By default, it is 75 (or 3 out of 4).

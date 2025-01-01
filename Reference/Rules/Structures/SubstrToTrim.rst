@@ -5,7 +5,7 @@
 Substr To Trim
 ++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Substr To Trim: When removing the first or the last character of a string, trim() does a more readable job.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Substr To Trim
 	:og:description: When removing the first or the last character of a string, trim() does a more readable job
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/SubstrToTrim.html
 	:og:locale: en
-  When removing the first or the last character of a string, `trim() <https://www.php.net/trim>`_ does a more readable job. 
+When removing the first or the last character of a string, `trim() <https://www.php.net/trim>`_ does a more readable job. 
 
 `trim() <https://www.php.net/trim>`_, `ltrim() <https://www.php.net/ltrim>`_ and `rtrim() <https://www.php.net/rtrim>`_ accept a string as second argument. Those will all be removed from the endings of the string.
 `trim() <https://www.php.net/trim>`_ will remove all occurrences of the requested char(). This may remove a loop with `substr() <https://www.php.net/substr>`_, or remove more than is needed. 

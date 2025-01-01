@@ -5,7 +5,7 @@
 ext/filter
 ++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/filter: Extension filter.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/filter
 	:og:description: Extension filter
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extfilter.html
 	:og:locale: en
-  Extension filter.
+Extension filter.
 
 This extension filters data by either validating or sanitizing it.
 

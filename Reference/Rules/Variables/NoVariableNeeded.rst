@@ -5,7 +5,7 @@
 No Variable Needed
 ++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		No Variable Needed: This analysis reports methods where the local variables are not needed.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ No Variable Needed
 	:og:description: This analysis reports methods where the local variables are not needed
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Variables/NoVariableNeeded.html
 	:og:locale: en
-  This analysis reports methods where the local variables are not needed.
+This analysis reports methods where the local variables are not needed.
 
 Such variables may be used to improve readability. 
 

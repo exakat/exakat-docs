@@ -5,7 +5,7 @@
 Is Extension Trait
 ++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Is Extension Trait: Indicates if these traits are defined in an extension.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Is Extension Trait
 	:og:description: Indicates if these traits are defined in an extension
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Traits/IsExtTrait.html
 	:og:locale: en
-  Indicates if these traits are defined in an extension. Traits that are defined in an extension are available from the start of the application. There are no known extension that defines a trait, at the moment of writing (feb-2024).
+Indicates if these traits are defined in an extension. Traits that are defined in an extension are available from the start of the application. There are no known extension that defines a trait, at the moment of writing (feb-2024).
 Connex PHP features
 -------------------
 

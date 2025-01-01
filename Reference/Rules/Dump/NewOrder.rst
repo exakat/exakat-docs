@@ -5,7 +5,7 @@
 New Order
 +++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		New Order: Order in which new calls must be called.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ New Order
 	:og:description: Order in which new calls must be called
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/NewOrder.html
 	:og:locale: en
-  Order in which new calls must be called. When a class uses another class type in its constructor, this means the second class must be instantiated before creating the first. This creates an order for classes.
+Order in which new calls must be called. When a class uses another class type in its constructor, this means the second class must be instantiated before creating the first. This creates an order for classes.
 
 .. code-block:: php
    

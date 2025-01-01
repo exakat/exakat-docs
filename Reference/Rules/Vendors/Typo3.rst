@@ -5,7 +5,7 @@
 Typo 3 usage
 ++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Typo 3 usage: This rule reports usage of the Typo 3 CMS API in the code.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Typo 3 usage
 	:og:description: This rule reports usage of the Typo 3 CMS API in the code
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Vendors/Typo3.html
 	:og:locale: en
-  This rule reports usage of the Typo 3 CMS API in the code. 
+This rule reports usage of the Typo 3 CMS API in the code. 
 
 TYPO3 is a free enterprise-class CMS based on PHP. It combines open source code with reliability and true scalability. 
 

@@ -5,7 +5,7 @@
 Propagate Constants
 +++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Propagate Constants: This command calculates constant expression values, and set them in the graph.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Propagate Constants
 	:og:description: This command calculates constant expression values, and set them in the graph
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Complete/PropagateConstants.html
 	:og:locale: en
-  This command calculates constant expression values, and set them in the graph.
+This command calculates constant expression values, and set them in the graph.
 After running this command, B has ``intval`` of 3. 
 
 This command propagate ``const`` constants, class constants and `define() <https://www.php.net/define>`_ constants, when possible.

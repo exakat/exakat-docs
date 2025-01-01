@@ -5,7 +5,7 @@
 Should Make Alias
 +++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Should Make Alias: Long names should be aliased.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Should Make Alias
 	:og:description: Long names should be aliased
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Namespaces/ShouldMakeAlias.html
 	:og:locale: en
-  Long names should be aliased.
+Long names should be aliased.
 
 Aliased names are easy to read at the beginning of the script; they may be changed at one point, and update the whole code at the same time. 
 Finally, short names makes the rest of the code readable.

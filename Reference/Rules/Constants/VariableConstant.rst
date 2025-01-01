@@ -5,7 +5,7 @@
 Variable Constants
 ++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Variable Constants: Variable constants are constants whose value is accessed via the function constant().
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Variable Constants
 	:og:description: Variable constants are constants whose value is accessed via the function constant()
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Constants/VariableConstant.html
 	:og:locale: en
-  Variable constants are constants whose value is accessed via the function `constant() <https://www.php.net/constant>`_. Otherwise, there is no way to dynamically access a constant (aka, when the developer has the name of the constant as a incoming parameter, and it requires the value of it).
+Variable constants are constants whose value is accessed via the function `constant() <https://www.php.net/constant>`_. Otherwise, there is no way to dynamically access a constant (aka, when the developer has the name of the constant as a incoming parameter, and it requires the value of it).
 
 .. code-block:: php
    

@@ -5,7 +5,7 @@
 Set Class Property Definition With Typehint
 +++++++++++++++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Set Class Property Definition With Typehint: Links method call to its definition, thanks to property typehinting.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Set Class Property Definition With Typehint
 	:og:description: Links method call to its definition, thanks to property typehinting
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Complete/SetClassPropertyDefinitionWithTypehint.html
 	:og:locale: en
-  Links method call to its definition, thanks to property typehinting. The link is ``DEFINITION``.
+Links method call to its definition, thanks to property typehinting. The link is ``DEFINITION``.
 
 .. code-block:: php
    

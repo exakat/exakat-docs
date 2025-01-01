@@ -5,7 +5,7 @@
 Variable Anf Property Typehint
 ++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Variable Anf Property Typehint: Adds typehints to (local) variables and properties, by inference from the code.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Variable Anf Property Typehint
 	:og:description: Adds typehints to (local) variables and properties, by inference from the code
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Complete/VariableTypehint.html
 	:og:locale: en
-  Adds typehints to (local) variables and properties, by inference from the code. 
+Adds typehints to (local) variables and properties, by inference from the code. 
 
 Currently, the variable must be assigned only one type within its context to be typed. Non-typed variables limit the scope of other rules.
 

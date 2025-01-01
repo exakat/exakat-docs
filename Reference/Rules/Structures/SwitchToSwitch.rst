@@ -5,7 +5,7 @@
 Switch To Switch
 ++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Switch To Switch: The following structures are based on if / elseif / else.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Switch To Switch
 	:og:description: The following structures are based on if / elseif / else
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/SwitchToSwitch.html
 	:og:locale: en
-  The following structures are based on if / elseif / else. Since they have more than three conditions (not withstanding the final else), it is recommended to use the switch structure, so as to make this more readable.
+The following structures are based on if / elseif / else. Since they have more than three conditions (not withstanding the final else), it is recommended to use the switch structure, so as to make this more readable.
 
 On the other hand, `switch() <https://www.php.net/manual/en/control-structures.switch.php>`_ structures with less than 3 elements should be expressed as a if / else structure.
 

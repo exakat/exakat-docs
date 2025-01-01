@@ -5,7 +5,7 @@
 Null Type Favorite
 ++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Null Type Favorite: Null typed may be written in two ways : with .
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Null Type Favorite
 	:og:description: Null typed may be written in two ways : with 
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/NullTypeFavorite.html
 	:og:locale: en
-  Null typed may be written in two ways : with ? or with union type and null. 
+Null typed may be written in two ways : with ? or with union type and null. 
 
 The analyzed code has less than 10% of one of them : for consistency reasons, it is recommended to make them all the same.
 

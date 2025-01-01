@@ -5,7 +5,7 @@
 Unfinished Object
 +++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Unfinished Object: Some of the properties are not assigned a value before or at constructor time.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Unfinished Object
 	:og:description: Some of the properties are not assigned a value before or at constructor time
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/UnfinishedObject.html
 	:og:locale: en
-  Some of the properties are not assigned a value before or at constructor time. Then, they might be called when one of the other public method is called, and yield a fatal `error <https://www.php.net/error>`_.
+Some of the properties are not assigned a value before or at constructor time. Then, they might be called when one of the other public method is called, and yield a fatal `error <https://www.php.net/error>`_.
 
 .. code-block:: php
    

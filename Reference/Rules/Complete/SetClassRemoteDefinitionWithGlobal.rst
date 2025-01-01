@@ -5,7 +5,7 @@
 Set Class Remote Definition With Global
 +++++++++++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Set Class Remote Definition With Global: Links method call to its definition, thanks to the global definition.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Set Class Remote Definition With Global
 	:og:description: Links method call to its definition, thanks to the global definition
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Complete/SetClassRemoteDefinitionWithGlobal.html
 	:og:locale: en
-  Links method call to its definition, thanks to the global definition. The link is ``DEFINITION``.
+Links method call to its definition, thanks to the global definition. The link is ``DEFINITION``.
 
 .. code-block:: php
    

@@ -5,7 +5,7 @@
 Interfaces Don't Ensure Properties
 ++++++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Interfaces Don't Ensure Properties: When using an interface as a type, properties are not enforced.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Interfaces Don't Ensure Properties
 	:og:description: When using an interface as a type, properties are not enforced
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Interfaces/NoGaranteeForPropertyConstant.html
 	:og:locale: en
-  When using an interface as a type, properties are not enforced. They might be not available, and lead to a Fatal `Error <https://www.php.net/error>`_.
+When using an interface as a type, properties are not enforced. They might be not available, and lead to a Fatal `Error <https://www.php.net/error>`_.
 
 An interface is a template for a class, which specify the minimum amount of methods and constants. Properties are never defined in an interface, and should not be relied upon.
 

@@ -5,7 +5,7 @@
 Dependant Trait
 +++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Dependant Trait: Traits should be autonomous.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Dependant Trait
 	:og:description: Traits should be autonomous
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Traits/DependantTrait.html
 	:og:locale: en
-  Traits should be autonomous. It is recommended to avoid depending on methods or properties that should be in the using class.
+Traits should be autonomous. It is recommended to avoid depending on methods or properties that should be in the using class.
 
 The following traits make usage of methods and properties, `static <https://www.php.net/manual/en/language.oop5.static.php>`_ or not, that are not defined in the trait. This means the host class must provide those methods and properties, but there is no way to enforce this. 
 

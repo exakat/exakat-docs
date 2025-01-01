@@ -5,7 +5,7 @@
 Php 7 Indirect Expression
 +++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Php 7 Indirect Expression: This rule reports variable indirect expressions, that are interpreted differently in PHP 5 and PHP 7.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Php 7 Indirect Expression
 	:og:description: This rule reports variable indirect expressions, that are interpreted differently in PHP 5 and PHP 7
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Variables/Php7IndirectExpression.html
 	:og:locale: en
-  This rule reports variable indirect expressions, that are interpreted differently in PHP 5 and PHP 7. 
+This rule reports variable indirect expressions, that are interpreted differently in PHP 5 and PHP 7. 
 
 They should be checked, as they will behave differently between these PHP versions.
 

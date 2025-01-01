@@ -5,7 +5,7 @@
 Is PHP Structure
 ++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Is PHP Structure: This rules marks atoms with ``isPhp``, as part of the standard PHP elements.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Is PHP Structure
 	:og:description: This rules marks atoms with ``isPhp``, as part of the standard PHP elements
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Complete/IsPhpStructure.html
 	:og:locale: en
-  This rules marks atoms with ``isPhp``, as part of the standard PHP elements. For example, ``Datetime``, ``E_ALL``, etc. This `attribute <https://www.php.net/attribute>`_ is available in the `engine <https://www.php.net/engine>`_, but not displayed.
+This rules marks atoms with ``isPhp``, as part of the standard PHP elements. For example, ``Datetime``, ``E_ALL``, etc. This `attribute <https://www.php.net/attribute>`_ is available in the `engine <https://www.php.net/engine>`_, but not displayed.
 
 .. code-block:: php
    

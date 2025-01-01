@@ -5,7 +5,7 @@
 Shell Favorite
 ++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Shell Favorite: PHP has several syntax to make system calls : shell_exec(), exec() and back-ticks, &#96.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Shell Favorite
 	:og:description: PHP has several syntax to make system calls : shell_exec(), exec() and back-ticks, &#96
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/ShellFavorite.html
 	:og:locale: en
-  PHP has several syntax to make system calls : `shell_exec() <https://www.php.net/shell_exec>`_, `exec() <https://www.php.net/exec>`_ and back-ticks, &#96; are the common ones. 
+PHP has several syntax to make system calls : `shell_exec() <https://www.php.net/shell_exec>`_, `exec() <https://www.php.net/exec>`_ and back-ticks, &#96; are the common ones. 
 
 It was found that one of those three is actually being used over 90% of the time. The remaining cases should be uniformed, so has to make this code consistent.
 

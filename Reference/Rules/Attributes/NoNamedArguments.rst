@@ -5,7 +5,7 @@
 No Named Parameters
 +++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		No Named Parameters: Named parameters were introduced in PHP 8.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ No Named Parameters
 	:og:description: Named parameters were introduced in PHP 8
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Attributes/NoNamedArguments.html
 	:og:locale: en
-  Named parameters were introduced in PHP 8.0. They introduce a strong coupling between the parameter names and the calling structure: changing the parameter name breaks the call. 
+Named parameters were introduced in PHP 8.0. They introduce a strong coupling between the parameter names and the calling structure: changing the parameter name breaks the call. 
 
 To avoid this, case by base, PHP.watch introduced the ``no-named-parameters`` PHP doc commend, which allows method owners to signal that the calls should not use the named parameters. 
 

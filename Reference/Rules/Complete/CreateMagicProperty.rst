@@ -5,7 +5,7 @@
 Create Magic Property
 +++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Create Magic Property: This command creates a link DEFINITION between a ``__get`` and ``__set`` calls, and its equivalent magic method.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Create Magic Property
 	:og:description: This command creates a link DEFINITION between a ``__get`` and ``__set`` calls, and its equivalent magic method
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Complete/CreateMagicProperty.html
 	:og:locale: en
-  This command creates a link DEFINITION between a ``__get`` and ``__set`` calls, and its equivalent magic method.
+This command creates a link DEFINITION between a ``__get`` and ``__set`` calls, and its equivalent magic method.
 
 It also adds links between ``__invoke`` and ``__toString`` in adapted situations.
 This command may not detect all possible link for the ``__get`` and ``__set`` call. It may be missing information about the nature of the object.

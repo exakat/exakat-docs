@@ -5,7 +5,7 @@
 ext/dba
 +++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/dba: Extension ext/dba.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/dba
 	:og:description: Extension ext/dba
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extdba.html
 	:og:locale: en
-  Extension ext/dba.
+Extension ext/dba.
 
 These functions build the foundation for accessing Berkeley DB style databases.
 

@@ -5,7 +5,7 @@
 Iconv With Translit
 +++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Iconv With Translit: The transliteration feature of iconv() depends on the underlying system to support it.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Iconv With Translit
 	:og:description: The transliteration feature of iconv() depends on the underlying system to support it
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Portability/IconvTranslit.html
 	:og:locale: en
-  The transliteration feature of `iconv() <https://www.php.net/iconv>`_ depends on the underlying system to support it. This feature is also a portability issue.
+The transliteration feature of `iconv() <https://www.php.net/iconv>`_ depends on the underlying system to support it. This feature is also a portability issue.
 
 .. code-block:: php
    

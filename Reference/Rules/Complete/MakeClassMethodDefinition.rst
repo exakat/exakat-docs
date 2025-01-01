@@ -5,7 +5,7 @@
 Make Class Method Definition
 ++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Make Class Method Definition: This command links a method call to its method definition.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Make Class Method Definition
 	:og:description: This command links a method call to its method definition
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Complete/MakeClassMethodDefinition.html
 	:og:locale: en
-  This command links a method call to its method definition. 
+This command links a method call to its method definition. 
 This command may not detect all possible link for the methods. It may be missing information about the nature of the object.
 
 This command may also produce multiple definitions link, when the definition are ambiguous.

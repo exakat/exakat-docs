@@ -5,7 +5,7 @@
 ext/seaslog
 +++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/seaslog: Extension Seaslog.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/seaslog
 	:og:description: Extension Seaslog
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extseaslog.html
 	:og:locale: en
-  Extension Seaslog.
+Extension Seaslog.
 
 An effective, fast, stable log extension for PHP.
 

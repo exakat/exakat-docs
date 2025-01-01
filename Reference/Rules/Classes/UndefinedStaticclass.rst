@@ -5,22 +5,22 @@
 Undefined \:\:class
 +++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
-		Undefined \:\:class: ``\:\:class`` doesn't check if a corresponding class exists.
+		Undefined ::class: ``::class`` doesn't check if a corresponding class exists.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
-	:twitter:title: Undefined \:\:class
-	:twitter:description: Undefined \:\:class: ``\:\:class`` doesn't check if a corresponding class exists
+	:twitter:title: Undefined ::class
+	:twitter:description: Undefined ::class: ``::class`` doesn't check if a corresponding class exists
 	:twitter:creator: @exakat
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Undefined \:\:class
+	:og:title: Undefined ::class
 	:og:type: article
-	:og:description: ``\:\:class`` doesn't check if a corresponding class exists
+	:og:description: ``::class`` doesn't check if a corresponding class exists
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/UndefinedStaticclass.html
 	:og:locale: en
-  ``\:\:class`` doesn't check if a corresponding class exists. 
+``\:\:class`` doesn't check if a corresponding class exists. 
 
 ``\:\:class`` must be checked with a call to `class_exists() <https://www.php.net/class_exists>`_. Otherwise, it may lead to a ``Class 'foo' not found`` or even silent dead code : this happens also with Catch and `instanceof <https://www.php.net/manual/en/language.operators.type.php>`_ commands with undefined classes. PHP doesn't raise an `error <https://www.php.net/error>`_ in that case.
 

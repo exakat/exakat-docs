@@ -5,7 +5,7 @@
 Filter To add_slashes()
 +++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Filter To add_slashes(): ``FILTER_SANITIZE_MAGIC_QUOTES`` is deprecated.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Filter To add_slashes()
 	:og:description: ``FILTER_SANITIZE_MAGIC_QUOTES`` is deprecated
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/FilterToAddSlashes.html
 	:og:locale: en
-  ``FILTER_SANITIZE_MAGIC_QUOTES`` is deprecated. In PHP 7.4, it should be replaced with `addslashes() <https://www.php.net/addslashes>`_
+``FILTER_SANITIZE_MAGIC_QUOTES`` is deprecated. In PHP 7.4, it should be replaced with `addslashes() <https://www.php.net/addslashes>`_
 
 According to the migration RDFC : 'Magic quotes were deprecated all the way back in PHP 5.3 and later removed in PHP 5.4. The filter extension implements a sanitization filter that mimics this behavior of magic_quotes by calling `addslashes() <https://www.php.net/addslashes>`_ on the input in question.'
 `addslashes() <https://www.php.net/addslashes>`_ used to filter data while building SQL queries, to prevent injections. Nowadays, prepared queries are a better option.

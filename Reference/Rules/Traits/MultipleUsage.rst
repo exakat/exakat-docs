@@ -5,7 +5,7 @@
 Multiple Usage Of Same Trait
 ++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Multiple Usage Of Same Trait: The same trait is used several times.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Multiple Usage Of Same Trait
 	:og:description: The same trait is used several times
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Traits/MultipleUsage.html
 	:og:locale: en
-  The same trait is used several times. One trait usage is sufficient.
+The same trait is used several times. One trait usage is sufficient.
 
 
 

@@ -5,7 +5,7 @@
 Real Functions
 ++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Real Functions: Real functions, not methods.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Real Functions
 	:og:description: Real functions, not methods
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/RealFunctions.html
 	:og:locale: en
-  Real functions, not methods.
+Real functions, not methods.
 
 Function keywords, that are not in a class, trait, interface, nor a `closure <https://www.php.net/`closure <https://www.php.net/closure>`_>`_.
 

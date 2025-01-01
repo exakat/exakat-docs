@@ -5,7 +5,7 @@
 Find Key Directly
 +++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Find Key Directly: There is no need to use foreach() to search for a key.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Find Key Directly
 	:og:description: There is no need to use foreach() to search for a key
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/GoToKeyDirectly.html
 	:og:locale: en
-  There is no need to use `foreach() <https://www.php.net/manual/en/control-structures.foreach.php>`_ to search for a key. 
+There is no need to use `foreach() <https://www.php.net/manual/en/control-structures.foreach.php>`_ to search for a key. 
 
 PHP offers two solutions : `array_search() <https://www.php.net/array_search>`_ and `array_keys() <https://www.php.net/array_keys>`_. `Array_search() <https://www.php.net/array_search>`_ finds the first key that fits a value, and `array_keys() <https://www.php.net/array_keys>`_ returns all the keys.
 

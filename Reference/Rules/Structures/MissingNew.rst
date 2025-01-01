@@ -5,7 +5,7 @@
 Maybe Missing New
 +++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Maybe Missing New: This functioncall looks like a class instantiation that is missing the new keyword.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Maybe Missing New
 	:og:description: This functioncall looks like a class instantiation that is missing the new keyword
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/MissingNew.html
 	:og:locale: en
-  This functioncall looks like a class instantiation that is missing the new keyword.
+This functioncall looks like a class instantiation that is missing the new keyword.
 
 Any function definition was found for that function, but a class with that name was. New is probably missing.
 

@@ -5,7 +5,7 @@
 Strtr Arguments
 +++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Strtr Arguments: Strtr() replaces characters by others in a string.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Strtr Arguments
 	:og:description: Strtr() replaces characters by others in a string
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/StrtrArguments.html
 	:og:locale: en
-  `Strtr() <https://www.php.net/strtr>`_ replaces characters by others in a string. When using strings, `strtr() <https://www.php.net/strtr>`_ replaces characters as long as they have a replacement. All others are ignored.
+`Strtr() <https://www.php.net/strtr>`_ replaces characters by others in a string. When using strings, `strtr() <https://www.php.net/strtr>`_ replaces characters as long as they have a replacement. All others are ignored.
 
 In particular, `strtr() <https://www.php.net/strtr>`_ works on strings of the same size, and cannot be used to remove chars.
 

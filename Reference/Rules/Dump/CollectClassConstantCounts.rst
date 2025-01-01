@@ -5,7 +5,7 @@
 Collect Class Constant Counts
 +++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Collect Class Constant Counts: This analysis collects the number of class constants per class or interface.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Collect Class Constant Counts
 	:og:description: This analysis collects the number of class constants per class or interface
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/CollectClassConstantCounts.html
 	:og:locale: en
-  This analysis collects the number of class constants per class or interface. 
+This analysis collects the number of class constants per class or interface. 
 
 The count applies to classes, anonymous classes and interfaces. They are considered distinct one from another.
 

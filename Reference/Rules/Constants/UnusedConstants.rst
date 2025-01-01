@@ -5,7 +5,7 @@
 Unused Constants
 ++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Unused Constants: Those constants are defined in the code but never used.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Unused Constants
 	:og:description: Those constants are defined in the code but never used
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Constants/UnusedConstants.html
 	:og:locale: en
-  Those constants are defined in the code but never used. Defining unused constants slow down the application, as they are executed and stored in PHP hashtables. 
+Those constants are defined in the code but never used. Defining unused constants slow down the application, as they are executed and stored in PHP hashtables. 
 It is recommended to comment them out, and only define them when it is necessary.
 
 .. code-block:: php

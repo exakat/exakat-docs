@@ -5,7 +5,7 @@
 Deep Definitions
 ++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Deep Definitions: Structures, such as functions, classes, interfaces, traits, enum, etc.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Deep Definitions
 	:og:description: Structures, such as functions, classes, interfaces, traits, enum, etc
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/DeepDefinitions.html
 	:og:locale: en
-  Structures, such as functions, classes, interfaces, traits, enum, etc. may be defined anywhere in the code, including inside functions. This is legit code for PHP. 
+Structures, such as functions, classes, interfaces, traits, enum, etc. may be defined anywhere in the code, including inside functions. This is legit code for PHP. 
 
 Since the availability of autoload, with spl_register_autoload(), there is no need for that kind of code. Structures should be defined, and accessible to the autoloading. Inclusions and deep definitions should be avoided, as they compel code to load some definitions, while autoloading will only load them if needed. 
 Functions are excluded from autoload, but shall be gathered in libraries, and not hidden inside other code.

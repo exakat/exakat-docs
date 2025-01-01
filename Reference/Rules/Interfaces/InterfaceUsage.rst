@@ -5,7 +5,7 @@
 Interfaces Usage
 ++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Interfaces Usage: List of used interfaces.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Interfaces Usage
 	:og:description: List of used interfaces
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Interfaces/InterfaceUsage.html
 	:og:locale: en
-  List of used interfaces.
+List of used interfaces.
 
 Interfaces are used when mentioned in a class or another interface, with implements keyword; they are used in `instanceof <https://www.php.net/manual/en/language.operators.type.php>`_ expression, in typehints and class constant.
 

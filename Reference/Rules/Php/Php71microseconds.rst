@@ -5,7 +5,7 @@
 PHP 7.1 Microseconds
 ++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		PHP 7.1 Microseconds: PHP supports microseconds in ``DateTime`` class and date_create() function.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ PHP 7.1 Microseconds
 	:og:description: PHP supports microseconds in ``DateTime`` class and date_create() function
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/Php71microseconds.html
 	:og:locale: en
-  PHP supports microseconds in ``DateTime`` class and `date_create() <https://www.php.net/date_create>`_ function. This was introduced in PHP 7.1.
+PHP supports microseconds in ``DateTime`` class and `date_create() <https://www.php.net/date_create>`_ function. This was introduced in PHP 7.1.
 
 In previous PHP versions, those dates only used seconds, leading to lazy comparisons : 
 This code displays true in PHP 7.0 and older, (unless the code was run too close from the next second). In PHP 7.1, this is always false.

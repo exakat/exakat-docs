@@ -5,7 +5,7 @@
 Ice framework
 +++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Ice framework: Ice - simple, fast and open-source PHP framework frozen in C-extension.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Ice framework
 	:og:description: Ice - simple, fast and open-source PHP framework frozen in C-extension
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extice.html
 	:og:locale: en
-  Ice - simple, fast and open-source PHP framework frozen in C-extension. Ice is loosely coupled, allowing developers to use only the components that they need.
+Ice - simple, fast and open-source PHP framework frozen in C-extension. Ice is loosely coupled, allowing developers to use only the components that they need.
 
 See also `ice framework <https://www.iceframework.org/>`_ and `ice framework : Hello world tutorial <https://www.iceframework.org/doc/tutorial/hello>`_.
 

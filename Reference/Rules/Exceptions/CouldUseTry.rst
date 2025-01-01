@@ -5,7 +5,7 @@
 Could Use Try
 +++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Could Use Try: Some commands may raise exceptions.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Could Use Try
 	:og:description: Some commands may raise exceptions
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Exceptions/CouldUseTry.html
 	:og:locale: en
-  Some commands may raise exceptions. It is recommended to use the try/catch block to intercept those exceptions, and process them.
+Some commands may raise exceptions. It is recommended to use the try/catch block to intercept those exceptions, and process them.
 
 * / : ``DivisionByZeroError``
 * % : ``DivisionByZeroError``

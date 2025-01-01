@@ -5,7 +5,7 @@
 Casting Ternary
 +++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Casting Ternary: Type casting has a precedence over ternary operator, and is applied first.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Casting Ternary
 	:og:description: Type casting has a precedence over ternary operator, and is applied first
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/CastingTernary.html
 	:og:locale: en
-  Type casting has a precedence over ternary operator, and is applied first. When this happens, the condition is cast, although it is often useless as PHP will do it if needed.
+Type casting has a precedence over ternary operator, and is applied first. When this happens, the condition is cast, although it is often useless as PHP will do it if needed.
 
 This applies to the ternary operator, the coalesce operator ?: and the null-coalesce operator ??.
 The last example generates first an `error <https://www.php.net/error>`_ `Undefined variable: b`, since $b is first cast to a string. The `result <https://www.php.net/result>`_ is then an empty string, which leads to an empty string to be stored into $a. Multiple errors cascade.

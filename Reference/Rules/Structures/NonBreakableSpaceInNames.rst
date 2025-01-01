@@ -5,7 +5,7 @@
 Non Breakable Space In Names
 ++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Non Breakable Space In Names: PHP allows non-breakable spaces in structures names, such as class, interfaces, traits, and variables.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Non Breakable Space In Names
 	:og:description: PHP allows non-breakable spaces in structures names, such as class, interfaces, traits, and variables
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/NonBreakableSpaceInNames.html
 	:og:locale: en
-  PHP allows non-breakable spaces in structures names, such as class, interfaces, traits, and variables.
+PHP allows non-breakable spaces in structures names, such as class, interfaces, traits, and variables.
 
 This may be a nice trick to make names more readable outside code context, like long-named methods for tests. 
 Original post by ``Matthieu Napoli``.

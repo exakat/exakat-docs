@@ -5,7 +5,7 @@
 Set Class Remote Definition With Parenthesis
 ++++++++++++++++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Set Class Remote Definition With Parenthesis: Links methodcall, properties and constants to its definition, based to the new in the parenthesis.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Set Class Remote Definition With Parenthesis
 	:og:description: Links methodcall, properties and constants to its definition, based to the new in the parenthesis
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Complete/SetClassRemoteDefinitionWithParenthesis.html
 	:og:locale: en
-  Links methodcall, properties and constants to its definition, based to the new in the parenthesis. The link is ``DEFINITION``.
+Links methodcall, properties and constants to its definition, based to the new in the parenthesis. The link is ``DEFINITION``.
 
 .. code-block:: php
    

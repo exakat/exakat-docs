@@ -5,7 +5,7 @@
 ext/cmark
 +++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/cmark: Extension Cmark, for Common Mark.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/cmark
 	:og:description: Extension Cmark, for Common Mark
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extcmark.html
 	:og:locale: en
-  Extension Cmark, for Common Mark.
+Extension Cmark, for Common Mark.
 
 cmark provides access to the reference implementation of CommonMark, a rationalized version of Markdown syntax with a specification.
 

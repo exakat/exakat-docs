@@ -5,7 +5,7 @@
 New Functions In PHP 8.3
 ++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		New Functions In PHP 8.3: New functions are added to new PHP version.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ New Functions In PHP 8.3
 	:og:description: New functions are added to new PHP version
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/Php83NewFunctions.html
 	:og:locale: en
-  New functions are added to new PHP version.
+New functions are added to new PHP version.
 
 The following functions are now native functions in PHP 8.3. It is compulsory to rename any custom function that was created in older versions. One alternative is to move the function to a custom namespace, and update the use list at the beginning of the script. 
 

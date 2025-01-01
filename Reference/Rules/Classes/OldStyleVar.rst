@@ -5,7 +5,7 @@
 Var Keyword
 +++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Var Keyword: Var was used in PHP 4 to mark properties as public.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Var Keyword
 	:og:description: Var was used in PHP 4 to mark properties as public
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/OldStyleVar.html
 	:og:locale: en
-  Var was used in PHP 4 to mark properties as public. Nowadays, new keywords are available : public, protected, private. Var is equivalent to public. 
+Var was used in PHP 4 to mark properties as public. Nowadays, new keywords are available : public, protected, private. Var is equivalent to public. 
 
 It is recommended to avoid using var, and explicitly use the new keywords.
 

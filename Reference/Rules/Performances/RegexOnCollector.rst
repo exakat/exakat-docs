@@ -5,7 +5,7 @@
 Processing Collector
 ++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Processing Collector: When accumulating data in a variable, within a loop, it is slow to apply repeatedly a function to the variable.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Processing Collector
 	:og:description: When accumulating data in a variable, within a loop, it is slow to apply repeatedly a function to the variable
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Performances/RegexOnCollector.html
 	:og:locale: en
-  When accumulating data in a variable, within a loop, it is slow to apply repeatedly a function to the variable.
+When accumulating data in a variable, within a loop, it is slow to apply repeatedly a function to the variable.
 
 The example below illustrate the problem : ``$collector`` is build with element from ``$array``. ``$collector`` actually gets larger and larger, slowing the `in_array() <https://www.php.net/in_array>`_ call each time. 
 

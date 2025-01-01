@@ -5,7 +5,7 @@
 While(List() = Each())
 ++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		While(List() = Each()): This code structure is quite old : it should be replace by the more modern and efficient foreach.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ While(List() = Each())
 	:og:description: This code structure is quite old : it should be replace by the more modern and efficient foreach
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/WhileListEach.html
 	:og:locale: en
-  This code structure is quite old : it should be replace by the more modern and efficient foreach.
+This code structure is quite old : it should be replace by the more modern and efficient foreach.
 
 This structure is deprecated since PHP 7.2. It may disappear in the future.
 

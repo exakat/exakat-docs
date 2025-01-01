@@ -5,7 +5,7 @@
 is_a() Versus instanceof
 ++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		is_a() Versus instanceof: is_a() and instanceof have the same functional use: checking if an object is of a specific class.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ is_a() Versus instanceof
 	:og:description: is_a() and instanceof have the same functional use: checking if an object is of a specific class
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/IsAVersusInstanceof.html
 	:og:locale: en
-  `is_a() <https://www.php.net/is_a>`_ and `instanceof <https://www.php.net/manual/en/language.operators.type.php>`_ have the same functional use: checking if an object is of a specific class. 
+`is_a() <https://www.php.net/is_a>`_ and `instanceof <https://www.php.net/manual/en/language.operators.type.php>`_ have the same functional use: checking if an object is of a specific class. 
 
 The analyzed code has less than 10% of one of them: either `is_a() <https://www.php.net/is_a>`_ or `instanceof <https://www.php.net/manual/en/language.operators.type.php>`_. For consistency reasons, it is recommended to make them all the same. 
 

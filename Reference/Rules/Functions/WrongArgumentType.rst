@@ -5,7 +5,7 @@
 Wrong Argument Type
 +++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Wrong Argument Type: Checks that the type of the argument is consistent with the type of the called method.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Wrong Argument Type
 	:og:description: Checks that the type of the argument is consistent with the type of the called method
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/WrongArgumentType.html
 	:og:locale: en
-  Checks that the type of the argument is consistent with the type of the called method.
+Checks that the type of the argument is consistent with the type of the called method.
 This analysis is valid with PHP 8.0.
 
 .. code-block:: php

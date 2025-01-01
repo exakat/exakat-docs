@@ -5,7 +5,7 @@
 Utf8 Encode And Decode Are Deprecated
 +++++++++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Utf8 Encode And Decode Are Deprecated: utf8_encode() and utf8_decode() are deprecated in PHP 8.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Utf8 Encode And Decode Are Deprecated
 	:og:description: utf8_encode() and utf8_decode() are deprecated in PHP 8
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/Utf8EncodeDeprecated.html
 	:og:locale: en
-  `utf8_encode() <https://www.php.net/utf8_encode>`_ and `utf8_decode() <https://www.php.net/utf8_decode>`_ are deprecated in PHP 8.0. They are planned removal in PHP 9.0.
+`utf8_encode() <https://www.php.net/utf8_encode>`_ and `utf8_decode() <https://www.php.net/utf8_decode>`_ are deprecated in PHP 8.0. They are planned removal in PHP 9.0.
 
 See also `PHP RFC: Deprecate and Remove utf8_encode and utf8_decode <https://wiki.php.net/rfc/remove_utf8_decode_and_utf8_encode>`_.
 

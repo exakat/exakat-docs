@@ -5,7 +5,7 @@
 ext/sqlite3
 +++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/sqlite3: Extension Sqlite3.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/sqlite3
 	:og:description: Extension Sqlite3
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extsqlite3.html
 	:og:locale: en
-  Extension `Sqlite3 <https://www.php.net/sqlite3>`_.
+Extension `Sqlite3 <https://www.php.net/sqlite3>`_.
 
 This extension adds support for SQLite version 3 databases. There used to be a Sqlite2 extension, which have been discontinued: this is the replacement.
 

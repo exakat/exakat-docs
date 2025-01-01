@@ -5,7 +5,7 @@
 Abstract Class Usage
 ++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Abstract Class Usage: This rule lists of all abstract classes defined.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Abstract Class Usage
 	:og:description: This rule lists of all abstract classes defined
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/Abstractclass.html
 	:og:locale: en
-  This rule lists of all abstract classes defined. Abstract classes cannot be instanciated, and must be extended to be used.
+This rule lists of all abstract classes defined. Abstract classes cannot be instanciated, and must be extended to be used.
 
 .. code-block:: php
    

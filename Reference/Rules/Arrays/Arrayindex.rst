@@ -5,7 +5,7 @@
 Array Index
 +++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Array Index: List of all indexes used in arrays.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Array Index
 	:og:description: List of all indexes used in arrays
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Arrays/Arrayindex.html
 	:og:locale: en
-  List of all indexes used in arrays. The indexes are strings or integers. They are accessed with different syntaxes: either the square brackets, or the => operator.
+List of all indexes used in arrays. The indexes are strings or integers. They are accessed with different syntaxes: either the square brackets, or the => operator.
 
 .. code-block:: php
    

@@ -5,7 +5,7 @@
 Could Be Spaceship
 ++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Could Be Spaceship: The spaceship operator compares values and returns 0 for equality, 1 for superior and -1 for inferior.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Could Be Spaceship
 	:og:description: The spaceship operator compares values and returns 0 for equality, 1 for superior and -1 for inferior
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/CouldBeSpaceship.html
 	:og:locale: en
-  The spaceship operator compares values and returns 0 for equality, 1 for superior and -1 for inferior. 
+The spaceship operator compares values and returns 0 for equality, 1 for superior and -1 for inferior. 
 
 It is the same as below, and prevents lots of code.
 

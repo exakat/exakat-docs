@@ -5,7 +5,7 @@
 Several Instructions On The Same Line
 +++++++++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Several Instructions On The Same Line: Usually, instructions do not share their line : one instruction, one line.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Several Instructions On The Same Line
 	:og:description: Usually, instructions do not share their line : one instruction, one line
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/OneLineTwoInstructions.html
 	:og:locale: en
-  Usually, instructions do not share their line : one instruction, one line. 
+Usually, instructions do not share their line : one instruction, one line. 
 
 This is good for readability, and help at understanding the code. This is especially important when fast-reading the code to find some special situation, where such double-meaning line way have an impact.
 

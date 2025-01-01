@@ -5,7 +5,7 @@
 Uncaught Exceptions
 +++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Uncaught Exceptions: The following exceptions are thrown in the code, but are never caught.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Uncaught Exceptions
 	:og:description: The following exceptions are thrown in the code, but are never caught
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Exceptions/UncaughtExceptions.html
 	:og:locale: en
-  The following exceptions are thrown in the code, but are never caught. 
+The following exceptions are thrown in the code, but are never caught. 
 Either they will lead to a Fatal `Error <https://www.php.net/error>`_, or they have to be caught by an including application. This is a valid behavior for libraries, but is not for a final application.
 
 .. code-block:: php

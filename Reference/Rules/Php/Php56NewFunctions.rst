@@ -5,7 +5,7 @@
 New Functions In PHP 5.6
 ++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		New Functions In PHP 5.6: PHP introduced new functions in PHP 5.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ New Functions In PHP 5.6
 	:og:description: PHP introduced new functions in PHP 5
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/Php56NewFunctions.html
 	:og:locale: en
-  PHP introduced new functions in PHP 5.6. If you have already defined functions with such names, you will get a conflict when trying to upgrade. It is advised to change those functions' name.
+PHP introduced new functions in PHP 5.6. If you have already defined functions with such names, you will get a conflict when trying to upgrade. It is advised to change those functions' name.
 
 + `gmp_root() <https://www.php.net/gmp_root>`_
 + `gmp_rootrem() <https://www.php.net/gmp_rootrem>`_

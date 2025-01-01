@@ -5,7 +5,7 @@
 Useless Assignation Of Promoted Property
 ++++++++++++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Useless Assignation Of Promoted Property: Promoted properties save the assignation of constructor argument to the property.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Useless Assignation Of Promoted Property
 	:og:description: Promoted properties save the assignation of constructor argument to the property
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/UselessAssignationOfPromotedProperty.html
 	:og:locale: en
-  Promoted properties save the assignation of constructor argument to the property. It is useless to do it with that syntax, and in the constructor too.
+Promoted properties save the assignation of constructor argument to the property. It is useless to do it with that syntax, and in the constructor too.
 
 .. code-block:: php
    

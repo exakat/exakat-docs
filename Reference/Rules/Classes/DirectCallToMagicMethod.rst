@@ -5,7 +5,7 @@
 No Direct Call To Magic Method
 ++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		No Direct Call To Magic Method: PHP features magic methods, which are methods related to operators.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ No Direct Call To Magic Method
 	:og:description: PHP features magic methods, which are methods related to operators
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/DirectCallToMagicMethod.html
 	:og:locale: en
-  PHP features magic methods, which are methods related to operators.
+PHP features magic methods, which are methods related to operators.
 
 Magic methods, such as `__get() <https://www.php.net/manual/en/language.oop5.magic.php>`_, related to =, or `__clone() <https://www.php.net/manual/en/language.oop5.magic.php>`_, related to ``clone``, are supposed to be used in an object environment, and not with direct call. 
 

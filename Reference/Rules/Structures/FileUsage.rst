@@ -5,7 +5,7 @@
 File Usage
 ++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		File Usage: The application makes usage of files on the system (read, write, delete, etc.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ File Usage
 	:og:description: The application makes usage of files on the system (read, write, delete, etc
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/FileUsage.html
 	:og:locale: en
-  The application makes usage of files on the system (read, write, delete, etc.).
+The application makes usage of files on the system (read, write, delete, etc.).
 
 Files usage is based on the usage of file functions.
 

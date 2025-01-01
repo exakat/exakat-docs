@@ -5,7 +5,7 @@
 Mismatch Parameter Name
 +++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Mismatch Parameter Name: Parameter name change in overwritten method.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Mismatch Parameter Name
 	:og:description: Parameter name change in overwritten method
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/MismatchParameterName.html
 	:og:locale: en
-  Parameter name change in overwritten method. This may lead to errors when using PHP 8.0 named arguments. 
+Parameter name change in overwritten method. This may lead to errors when using PHP 8.0 named arguments. 
 
 PHP use the name of the parameter in the method whose code is executed. When the name change between the method and the overwritten method, the consistency is broken.
 

@@ -5,7 +5,7 @@
 Incoming Variables
 ++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Incoming Variables: Incoming names, used across the application.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Incoming Variables
 	:og:description: Incoming names, used across the application
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/IncomingVariables.html
 	:og:locale: en
-  Incoming names, used across the application. 
+Incoming names, used across the application. 
 
 Incoming variables are first-level index in ``$_POST``, ``$_GET``, ``$_COOKIE``, ``$_REQUEST`` and ``$_FILE``;
 

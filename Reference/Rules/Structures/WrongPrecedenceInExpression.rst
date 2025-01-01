@@ -5,7 +5,7 @@
 Wrong Precedence In Expression
 ++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Wrong Precedence In Expression: These operators are not executed in the expected order.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Wrong Precedence In Expression
 	:og:description: These operators are not executed in the expected order
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/WrongPrecedenceInExpression.html
 	:og:locale: en
-  These operators are not executed in the expected order. Coalesce and ternary operator have lesser precedence compared to comparisons or spaceship operators. 
+These operators are not executed in the expected order. Coalesce and ternary operator have lesser precedence compared to comparisons or spaceship operators. 
 
 Thus, the comparison is executed first, and the other operator later. 
 

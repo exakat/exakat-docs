@@ -5,7 +5,7 @@
 Set Array Class Definition
 ++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Set Array Class Definition: Link arrays with their related method definition.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Set Array Class Definition
 	:og:description: Link arrays with their related method definition
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Complete/SetArrayClassDefinition.html
 	:og:locale: en
-  Link arrays with their related method definition.
+Link arrays with their related method definition.
 
 PHP accepts an array structure such as ``[class, method]``, or ``[$object, method]`` as a valid method callback. This analysis builds such relations, whenever they are `static <https://www.php.net/manual/en/language.oop5.static.php>`_.
 

@@ -5,7 +5,7 @@
 Undefined Interfaces
 ++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Undefined Interfaces: Some types or ``instanceof`` that are relying on undefined interfaces or classes: the validation of the type will always fail and return false.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Undefined Interfaces
 	:og:description: Some types or ``instanceof`` that are relying on undefined interfaces or classes: the validation of the type will always fail and return false
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Interfaces/UndefinedInterfaces.html
 	:og:locale: en
-  Some types or ``instanceof`` that are relying on undefined interfaces or classes: the validation of the type will always fail and return false. Any condition based upon them are dead code.
+Some types or ``instanceof`` that are relying on undefined interfaces or classes: the validation of the type will always fail and return false. Any condition based upon them are dead code.
 
 .. code-block:: php
    

@@ -5,7 +5,7 @@
 Return With Parenthesis
 +++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Return With Parenthesis: return statement doesn't require parenthesis.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Return With Parenthesis
 	:og:description: return statement doesn't require parenthesis
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/ReturnWithParenthesis.html
 	:og:locale: en
-  return statement doesn't require parenthesis. PHP tolerates them with return statement, but it is recommended not to use them. 
+return statement doesn't require parenthesis. PHP tolerates them with return statement, but it is recommended not to use them. 
 
 From the PHP Manual : 'Note: Note that since return is a language construct and not a function, the parentheses surrounding its argument are not required and their use is discouraged.'.
 

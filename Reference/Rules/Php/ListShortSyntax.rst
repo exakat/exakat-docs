@@ -5,7 +5,7 @@
 List Short Syntax
 +++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		List Short Syntax: Usage of short syntax version of list().
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ List Short Syntax
 	:og:description: Usage of short syntax version of list()
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/ListShortSyntax.html
 	:og:locale: en
-  Usage of short syntax version of `list() <https://www.php.net/list>`_.
+Usage of short syntax version of `list() <https://www.php.net/list>`_.
 
 .. code-block:: php
    

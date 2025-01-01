@@ -5,7 +5,7 @@
 Collect Class Depth
 +++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Collect Class Depth: This rule count the number of level of extends in classes.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Collect Class Depth
 	:og:description: This rule count the number of level of extends in classes
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/CollectClassDepth.html
 	:og:locale: en
-  This rule count the number of level of extends in classes. Each level is a depth level: the last child has that number of direct `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_, which are dependencies.
+This rule count the number of level of extends in classes. Each level is a depth level: the last child has that number of direct `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_, which are dependencies.
 
 .. code-block:: php
    

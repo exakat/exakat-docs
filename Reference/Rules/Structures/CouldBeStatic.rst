@@ -5,7 +5,7 @@
 Could Be A Static Variable
 ++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Could Be A Static Variable: This global is only used in one function or method.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Could Be A Static Variable
 	:og:description: This global is only used in one function or method
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/CouldBeStatic.html
 	:og:locale: en
-  This global is only used in one function or method. It may be transformed into a '`static <https://www.php.net/manual/en/language.oop5.static.php>`_' variable, instead of global. This allows you to keep the value between call to the function, but will not be accessible outside this function.
+This global is only used in one function or method. It may be transformed into a '`static <https://www.php.net/manual/en/language.oop5.static.php>`_' variable, instead of global. This allows you to keep the value between call to the function, but will not be accessible outside this function.
 
 .. code-block:: php
    

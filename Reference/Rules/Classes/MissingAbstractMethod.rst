@@ -5,7 +5,7 @@
 Missing Abstract Method
 +++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Missing Abstract Method: Abstract methods must have a non-abstract version for the class to be complete.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Missing Abstract Method
 	:og:description: Abstract methods must have a non-abstract version for the class to be complete
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/MissingAbstractMethod.html
 	:og:locale: en
-  Abstract methods must have a non-abstract version for the class to be complete. A class that is missing one abstract definition cannot be instantiated.
+Abstract methods must have a non-abstract version for the class to be complete. A class that is missing one abstract definition cannot be instantiated.
 
 .. code-block:: php
    

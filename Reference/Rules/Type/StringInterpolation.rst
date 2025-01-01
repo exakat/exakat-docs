@@ -5,7 +5,7 @@
 Interpolation
 +++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Interpolation: The following strings contain variables that are will be replaced.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Interpolation
 	:og:description: The following strings contain variables that are will be replaced
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Type/StringInterpolation.html
 	:og:locale: en
-  The following strings contain variables that are will be replaced. However, the following characters are ambiguous, and may lead to confusion. 
+The following strings contain variables that are will be replaced. However, the following characters are ambiguous, and may lead to confusion. 
 
 
 

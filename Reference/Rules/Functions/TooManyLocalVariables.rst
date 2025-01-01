@@ -5,7 +5,7 @@
 Too Many Local Variables
 ++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Too Many Local Variables: Too many local variables were found in the methods.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Too Many Local Variables
 	:og:description: Too many local variables were found in the methods
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/TooManyLocalVariables.html
 	:og:locale: en
-  Too many local variables were found in the methods. When over 15 variables are found in such a method, a violation is reported.
+Too many local variables were found in the methods. When over 15 variables are found in such a method, a violation is reported.
 
 Local variables exclude globals (imported with global) and arguments. Local variable include `static <https://www.php.net/manual/en/language.oop5.static.php>`_ variables.
 

@@ -5,7 +5,7 @@
 Argon2 Usage
 ++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Argon2 Usage: Argon2 is an optionally compiled password hashing API.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Argon2 Usage
 	:og:description: Argon2 is an optionally compiled password hashing API
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/Argon2Usage.html
 	:og:locale: en
-  Argon2 is an optionally compiled password hashing API. 
+Argon2 is an optionally compiled password hashing API. 
 
 Argon2 has been added to the password hashing API in PHP 7.2. 
 

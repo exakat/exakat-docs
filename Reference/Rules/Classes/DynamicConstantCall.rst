@@ -5,7 +5,7 @@
 Dynamic Class Constant
 ++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Dynamic Class Constant: This is the list of dynamic calls to class constants.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Dynamic Class Constant
 	:og:description: This is the list of dynamic calls to class constants
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/DynamicConstantCall.html
 	:og:locale: en
-  This is the list of dynamic calls to class constants.
+This is the list of dynamic calls to class constants.
 
 Constant may be dynamically called with the `constant() <https://www.php.net/constant>`_ function. In PHP 8.3, they may also be called with a new dedicated syntax. 
 

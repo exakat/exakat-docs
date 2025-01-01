@@ -5,7 +5,7 @@
 Call Order
 ++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Call Order: This is a representation of the code.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Call Order
 	:og:description: This is a representation of the code
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/CallOrder.html
 	:og:locale: en
-  This is a representation of the code. Each node is a function or method, and each link a is call from a method to another.
+This is a representation of the code. Each node is a function or method, and each link a is call from a method to another.
 
 The only link is the possible call from a method to the other. All control flow is omitted, including conditional calls and loops.
 From the above script, the resulting network will display 'foo() -> bar(), foo() -> foobar(), bar() -> foobar()' calls.

@@ -5,7 +5,7 @@
 One Dot Or Object Operator Per Line
 +++++++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		One Dot Or Object Operator Per Line: Rule #4 of Object Calisthenics : Only one -> or .
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ One Dot Or Object Operator Per Line
 	:og:description: Rule #4 of Object Calisthenics : Only one -> or 
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/OneDotOrObjectOperatorPerLine.html
 	:og:locale: en
-  Rule #4 of Object Calisthenics : Only one -> or . per line.
+Rule #4 of Object Calisthenics : Only one -> or . per line.
 This analysis will also catch the following cases : 
 When kept, simple, this rule has some edge cases which are left to the reader.
 

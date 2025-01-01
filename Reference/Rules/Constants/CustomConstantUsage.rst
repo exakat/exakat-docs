@@ -5,7 +5,7 @@
 Custom Constant Usage
 +++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Custom Constant Usage: The code is using constants that are not defined in PHP extensions or PHP itself.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Custom Constant Usage
 	:og:description: The code is using constants that are not defined in PHP extensions or PHP itself
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Constants/CustomConstantUsage.html
 	:og:locale: en
-  The code is using constants that are not defined in PHP extensions or PHP itself. This may lead to a fatal `error <https://www.php.net/error>`_.
+The code is using constants that are not defined in PHP extensions or PHP itself. This may lead to a fatal `error <https://www.php.net/error>`_.
 
 .. code-block:: php
    

@@ -5,7 +5,7 @@
 Implements Is For Interface
 +++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Implements Is For Interface: With class heritage, implements should be used for interfaces, and extends with classes.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Implements Is For Interface
 	:og:description: With class heritage, implements should be used for interfaces, and extends with classes
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/ImplementIsForInterface.html
 	:og:locale: en
-  With class heritage, implements should be used for interfaces, and extends with classes.
+With class heritage, implements should be used for interfaces, and extends with classes.
 
 PHP defers the implements check until execution : the code in example does lint, but won,t run.
 

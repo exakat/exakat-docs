@@ -5,7 +5,7 @@
 Collect Class Children Count
 ++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Collect Class Children Count: Count the number of class children for a class.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Collect Class Children Count
 	:og:description: Count the number of class children for a class
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/CollectClassChildren.html
 	:og:locale: en
-  Count the number of class children for a class. The more children a class has, the harder it is to update it, as it might impact more other classes.
+Count the number of class children for a class. The more children a class has, the harder it is to update it, as it might impact more other classes.
 
 .. code-block:: php
    

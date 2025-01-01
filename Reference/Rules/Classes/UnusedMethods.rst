@@ -5,7 +5,7 @@
 Unused Methods
 ++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Unused Methods: Those methods are never called.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Unused Methods
 	:og:description: Those methods are never called
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/UnusedMethods.html
 	:og:locale: en
-  Those methods are never called. 
+Those methods are never called. 
 
 They are probably dead code, unless they are called dynamically.
 

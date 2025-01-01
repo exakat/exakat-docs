@@ -5,7 +5,7 @@
 Is An Extension Function
 ++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Is An Extension Function: This is an extension function.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Is An Extension Function
 	:og:description: This is an extension function
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/IsExtFunction.html
 	:og:locale: en
-  This is an extension function. 
+This is an extension function. 
 Almost every PHP extension defines extra functions. Nowadays, they are prefixed, like ``mysqli_connect``, ``ldap_close``, or ``zlib_decode``. Sometimes, they are even in a namespace. Refer to the extension itself to learn more about its functions usage.
 
 .. code-block:: php

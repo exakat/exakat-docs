@@ -5,7 +5,7 @@
 Timestamp Difference
 ++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Timestamp Difference: Avoid adding or subtracting quantities of seconds to measure time.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Timestamp Difference
 	:og:description: Avoid adding or subtracting quantities of seconds to measure time
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/TimestampDifference.html
 	:og:locale: en
-  Avoid adding or subtracting quantities of seconds to measure time. 
+Avoid adding or subtracting quantities of seconds to measure time. 
 
 ``time()``, ``microtime()`` or ``DateTime\:\:format('U')`` provide timestamps, which are the number of seconds since ``January, 1rst, 1970``. They shouldn't be used to calculate duration or another date by adding an amount of seconds. 
 

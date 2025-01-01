@@ -5,7 +5,7 @@
 Create Compact Variables
 ++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Create Compact Variables: This command creates Variable definitions, based on usage of compact().
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Create Compact Variables
 	:og:description: This command creates Variable definitions, based on usage of compact()
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Complete/CreateCompactVariables.html
 	:og:locale: en
-  This command creates Variable definitions, based on usage of `compact() <https://www.php.net/compact>`_. 
+This command creates Variable definitions, based on usage of `compact() <https://www.php.net/compact>`_. 
 This only works when `compact() <https://www.php.net/compact>`_ is used with literal values, or with constants. Dynamic values are not reported.
 
 .. code-block:: php

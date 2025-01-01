@@ -5,7 +5,7 @@
 Cyclic References
 +++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Cyclic References: Avoid cyclic references.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Cyclic References
 	:og:description: Avoid cyclic references
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/CyclicReferences.html
 	:og:locale: en
-  Avoid cyclic references. 
+Avoid cyclic references. 
 
 Cyclic references happen when an object points to another object, which reciprocate. This is particularly possible with classes, when the child class has to keep a reference to the `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ class. 
 Cyclic references, or circular references, are memory intensive : only the garbage collector can understand when they may be flushed from memory, which is a costly operation. On the other hand, in an acyclic reference code, the reference counter will know immediately know that an object is free or not.

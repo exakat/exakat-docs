@@ -5,7 +5,7 @@
 Labels
 ++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Labels: List of all labels used in the code.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Labels
 	:og:description: List of all labels used in the code
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/Labelnames.html
 	:og:locale: en
-  List of all labels used in the code.
+List of all labels used in the code.
 
 .. code-block:: php
    

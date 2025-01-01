@@ -5,7 +5,7 @@
 Cyclomatic Complexity
 +++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Cyclomatic Complexity: This rules calculates cyclomatic complexity for each method, function, and closures.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Cyclomatic Complexity
 	:og:description: This rules calculates cyclomatic complexity for each method, function, and closures
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/CyclomaticComplexity.html
 	:og:locale: en
-  This rules calculates cyclomatic complexity for each method, function, and closures.
+This rules calculates cyclomatic complexity for each method, function, and closures.
 
 .. code-block:: php
    

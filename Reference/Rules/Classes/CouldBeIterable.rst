@@ -5,7 +5,7 @@
 This Could Be Iterable
 ++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		This Could Be Iterable: An argument that is both array and traversable may be typed iterable.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ This Could Be Iterable
 	:og:description: An argument that is both array and traversable may be typed iterable
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/CouldBeIterable.html
 	:og:locale: en
-  An argument that is both array and `traversable <https://www.php.net/`traversable <https://www.php.net/traversable>`_>`_ may be typed iterable. Iterable is a more generic type than array, and allows the usage of iterators too.
+An argument that is both array and `traversable <https://www.php.net/`traversable <https://www.php.net/traversable>`_>`_ may be typed iterable. Iterable is a more generic type than array, and allows the usage of iterators too.
 
 .. code-block:: php
    

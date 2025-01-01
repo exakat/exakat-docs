@@ -5,7 +5,7 @@
 Extended Typehints
 ++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Extended Typehints: Produces all the definition links between typehints (arguments, return types, properties) and the definitions that are valid with the typehint.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Extended Typehints
 	:og:description: Produces all the definition links between typehints (arguments, return types, properties) and the definitions that are valid with the typehint
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Complete/ExtendedTypehints.html
 	:og:locale: en
-  Produces all the definition links between typehints (arguments, return types, properties) and the definitions that are valid with the typehint.
+Produces all the definition links between typehints (arguments, return types, properties) and the definitions that are valid with the typehint.
 
 .. code-block:: php
    

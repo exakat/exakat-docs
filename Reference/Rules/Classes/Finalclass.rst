@@ -5,7 +5,7 @@
 Final Class Usage
 +++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Final Class Usage: This rule lists of all final classes in use in the code.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Final Class Usage
 	:og:description: This rule lists of all final classes in use in the code
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/Finalclass.html
 	:og:locale: en
-  This rule lists of all final classes in use in the code. 
+This rule lists of all final classes in use in the code. 
 
 The ``final`` option may be applied to classes and methods: this rule only reports classes.
 

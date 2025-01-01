@@ -5,7 +5,7 @@
 Set Class Method Remote Definition
 ++++++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Set Class Method Remote Definition: Links method to the method definition.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Set Class Method Remote Definition
 	:og:description: Links method to the method definition
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Complete/SetClassMethodRemoteDefinition.html
 	:og:locale: en
-  Links method to the method definition. The link is ``DEFINITION``.
+Links method to the method definition. The link is ``DEFINITION``.
 
 `Static <https://www.php.net/manual/en/language.oop5.static.php>`_ method calls and normal method calls are both solved with this rule. `Parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ classes and trait are also searched for the right method.
 

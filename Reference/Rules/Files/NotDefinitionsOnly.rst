@@ -5,7 +5,7 @@
 File Is Not Definitions Only
 ++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		File Is Not Definitions Only: An included file should only provide definitions and declarations, or executable code : not both.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ File Is Not Definitions Only
 	:og:description: An included file should only provide definitions and declarations, or executable code : not both
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Files/NotDefinitionsOnly.html
 	:og:locale: en
-  An included file should only provide definitions and declarations, or executable code : not both. 
+An included file should only provide definitions and declarations, or executable code : not both. 
 
 With definitions only files, their inclusion provide new features, and keep the current execution untouched, and in control of the flow.
 Within this context, globals, use, and namespaces instructions are not considered a warning.

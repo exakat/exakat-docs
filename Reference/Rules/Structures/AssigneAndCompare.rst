@@ -5,7 +5,7 @@
 Assign And Compare
 ++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Assign And Compare: Assignation has a lower precedence than comparison.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Assign And Compare
 	:og:description: Assignation has a lower precedence than comparison
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/AssigneAndCompare.html
 	:og:locale: en
-  Assignation has a lower precedence than comparison. As such, the assignation always happens after the comparison. This leads to the comparison being stored in the variable, and not the value being compared.
+Assignation has a lower precedence than comparison. As such, the assignation always happens after the comparison. This leads to the comparison being stored in the variable, and not the value being compared.
 
 .. code-block:: php
    

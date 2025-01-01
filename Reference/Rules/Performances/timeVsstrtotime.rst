@@ -5,7 +5,7 @@
 time() Vs strtotime()
 +++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		time() Vs strtotime(): time() is actually faster than strtotime() with 'now' key string.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ time() Vs strtotime()
 	:og:description: time() is actually faster than strtotime() with 'now' key string
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Performances/timeVsstrtotime.html
 	:og:locale: en
-  `time() <https://www.php.net/time>`_ is actually faster than `strtotime() <https://www.php.net/strtotime>`_ with 'now' key string.
+`time() <https://www.php.net/time>`_ is actually faster than `strtotime() <https://www.php.net/strtotime>`_ with 'now' key string.
 This is a micro-optimisation. Relative gain is real, but small unless the function is used many times.
 
 .. code-block:: php

@@ -5,7 +5,7 @@
 Collect Atom Counts
 +++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Collect Atom Counts: Collects the list of each atom detected in the code by the engine, and the number of occurrences.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Collect Atom Counts
 	:og:description: Collects the list of each atom detected in the code by the engine, and the number of occurrences
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/CollectAtomCounts.html
 	:og:locale: en
-  Collects the list of each atom detected in the code by the `engine <https://www.php.net/engine>`_, and the number of occurrences. This gives a good overview of the PHP features in use by that source code.
+Collects the list of each atom detected in the code by the `engine <https://www.php.net/engine>`_, and the number of occurrences. This gives a good overview of the PHP features in use by that source code.
 
 Specs
 _____

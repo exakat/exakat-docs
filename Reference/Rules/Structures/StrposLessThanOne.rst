@@ -5,7 +5,7 @@
 Strpos() Less Than One
 ++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Strpos() Less Than One: This rule reports a comparison of strpos() or stripos() with 1.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Strpos() Less Than One
 	:og:description: This rule reports a comparison of strpos() or stripos() with 1
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/StrposLessThanOne.html
 	:og:locale: en
-  This rule reports a comparison of `strpos() <https://www.php.net/strpos>`_ or `stripos() <https://www.php.net/stripos>`_ with 1. This is a variable of `strpos() <https://www.php.net/strpos>`_ == 0, since both false and 0 are processed the same way. Yet, 0 might be a valid value.
+This rule reports a comparison of `strpos() <https://www.php.net/strpos>`_ or `stripos() <https://www.php.net/stripos>`_ with 1. This is a variable of `strpos() <https://www.php.net/strpos>`_ == 0, since both false and 0 are processed the same way. Yet, 0 might be a valid value.
 
 This rule was suggested by Yann Ouche.
 

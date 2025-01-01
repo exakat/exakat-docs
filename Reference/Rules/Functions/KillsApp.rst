@@ -5,7 +5,7 @@
 Exit-like Methods
 +++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Exit-like Methods: Those methods terminate the execution.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Exit-like Methods
 	:og:description: Those methods terminate the execution
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/KillsApp.html
 	:og:locale: en
-  Those methods terminate the execution. 
+Those methods terminate the execution. 
 
 They are detected when they do call `exit() <https://www.www.php.net/exit>`_ or `die() <https://www.php.net/die>`_. They may also be identified with the PHP 8.0 ``#[NoReturn]`` `attribute <https://www.php.net/attribute>`_, or the PHPdoc ``@noreturn`` (case insensitive).
 

@@ -5,7 +5,7 @@
 Difference Consistence
 ++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Difference Consistence: There are two operators to check a difference : <> and !=.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Difference Consistence
 	:og:description: There are two operators to check a difference : <> and !=
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/DifferencePreference.html
 	:og:locale: en
-  There are two operators to check a difference : <> and !=.
+There are two operators to check a difference : <> and !=.
 
 The analyzed code has less than 10% of one of them : for consistency reasons, it is recommended to make them all the same. 
 

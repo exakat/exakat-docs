@@ -5,7 +5,7 @@
 Could Be Protected Method
 +++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Could Be Protected Method: Those methods are declared 'public', but are never used publicly.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Could Be Protected Method
 	:og:description: Those methods are declared 'public', but are never used publicly
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/CouldBeProtectedMethod.html
 	:og:locale: en
-  Those methods are declared 'public', but are never used publicly. They may be made 'protected'. 
+Those methods are declared 'public', but are never used publicly. They may be made 'protected'. 
 
 These properties may even be made private.
 

@@ -5,7 +5,7 @@
 Don't Echo Error
 ++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Don't Echo Error: It is recommended to avoid displaying error messages directly to the browser.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Don't Echo Error
 	:og:description: It is recommended to avoid displaying error messages directly to the browser
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Security/DontEchoError.html
 	:og:locale: en
-  It is recommended to avoid displaying `error <https://www.php.net/error>`_ messages directly to the browser.
+It is recommended to avoid displaying `error <https://www.php.net/error>`_ messages directly to the browser.
 
 PHP's uses the ``display_errors`` directive to control display of errors to the browser. This must be kept to ``off`` when in production.
 `Error <https://www.php.net/error>`_ messages should be logged, but not displayed.

@@ -5,7 +5,7 @@
 Invalid Regex
 +++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Invalid Regex: The PCRE regex doesn't compile.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Invalid Regex
 	:og:description: The PCRE regex doesn't compile
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/InvalidRegex.html
 	:og:locale: en
-  The PCRE regex doesn't compile. It isn't a valid regex.
+The PCRE regex doesn't compile. It isn't a valid regex.
 
 Several reasons may lead to this situation : syntax `error <https://www.php.net/error>`_, Unknown modifier, missing parenthesis or reference.
 

@@ -5,7 +5,7 @@
 Create Default Values
 +++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Create Default Values: This commands adds a link between variables, property definitions and any assignation to this container.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Create Default Values
 	:og:description: This commands adds a link between variables, property definitions and any assignation to this container
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Complete/CreateDefaultValues.html
 	:og:locale: en
-  This commands adds a link between variables, property definitions and any assignation to this container.
+This commands adds a link between variables, property definitions and any assignation to this container.
 
 Variables have no definition expression in PHP. Exakat holds their definition with the `Variabledefinition` node.
 

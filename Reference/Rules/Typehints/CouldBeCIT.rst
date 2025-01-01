@@ -5,7 +5,7 @@
 Could Be CIT
 ++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Could Be CIT: Mark arguments and return types that can be set to a class, interface definition.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Could Be CIT
 	:og:description: Mark arguments and return types that can be set to a class, interface definition
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Typehints/CouldBeCIT.html
 	:og:locale: en
-  Mark arguments and return types that can be set to a class, interface definition.
+Mark arguments and return types that can be set to a class, interface definition.
 
 .. code-block:: php
    

@@ -5,7 +5,7 @@
 Links Between Parameter And Argument
 ++++++++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Links Between Parameter And Argument: Collect various stats about arguments and parameter usage.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Links Between Parameter And Argument
 	:og:description: Collect various stats about arguments and parameter usage
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/ParameterArgumentsLinks.html
 	:og:locale: en
-  Collect various stats about arguments and parameter usage. 
+Collect various stats about arguments and parameter usage. 
 
 A parameter is one slot in the method definition. An argument is a slot in the method call. Both are linked by the method and their respective position in the argument list.
 

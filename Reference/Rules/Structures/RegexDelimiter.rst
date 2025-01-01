@@ -5,7 +5,7 @@
 Regex Delimiter
 +++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Regex Delimiter: PCRE regular expressions may use a variety of delimiters.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Regex Delimiter
 	:og:description: PCRE regular expressions may use a variety of delimiters
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/RegexDelimiter.html
 	:og:locale: en
-  PCRE regular expressions may use a variety of delimiters. 
+PCRE regular expressions may use a variety of delimiters. 
 
 There seems to be a standard delimiter in the code, and some exceptions : one or several forms are dominant (> 90%), while the others are rare. 
 

@@ -5,7 +5,7 @@
 ext/tidy
 ++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/tidy: Extension Tidy.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/tidy
 	:og:description: Extension Tidy
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Exttidy.html
 	:og:locale: en
-  Extension `Tidy <https://www.php.net/tidy>`_.
+Extension `Tidy <https://www.php.net/tidy>`_.
 
 `Tidy <https://www.php.net/tidy>`_ is a binding for the `Tidy <https://www.php.net/tidy>`_ HTML clean and repair utility which allows you to not only clean and otherwise manipulate HTML documents, but also traverse the document tree.
 <html>a html document</html>

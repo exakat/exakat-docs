@@ -5,7 +5,7 @@
 Dynamic Library Loading
 +++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Dynamic Library Loading: Loading a variable dynamically requires a lot of care in the preparation of the library name.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Dynamic Library Loading
 	:og:description: Loading a variable dynamically requires a lot of care in the preparation of the library name
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Security/DynamicDl.html
 	:og:locale: en
-  Loading a variable dynamically requires a lot of care in the preparation of the library name. 
+Loading a variable dynamically requires a lot of care in the preparation of the library name. 
 
 In case of injection in the variable, the dynamic loading of a library gives a lot of power to an intruder.
 

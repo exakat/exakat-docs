@@ -5,7 +5,7 @@
 Anonymous Classes
 +++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Anonymous Classes: This rule lists the anonymous classes.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Anonymous Classes
 	:og:description: This rule lists the anonymous classes
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/Anonymous.html
 	:og:locale: en
-  This rule lists the anonymous classes. Anonymous classes are defined without a name, and are immediately instanciated.
+This rule lists the anonymous classes. Anonymous classes are defined without a name, and are immediately instanciated.
 
 .. code-block:: php
    

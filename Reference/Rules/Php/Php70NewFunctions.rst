@@ -5,7 +5,7 @@
 New Functions In PHP 7.0
 ++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		New Functions In PHP 7.0: The following functions are now native functions in PHP 7.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ New Functions In PHP 7.0
 	:og:description: The following functions are now native functions in PHP 7
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/Php70NewFunctions.html
 	:og:locale: en
-  The following functions are now native functions in PHP 7.0. It is advised to change them before moving to this new version.
+The following functions are now native functions in PHP 7.0. It is advised to change them before moving to this new version.
 
 * `get_resources() <https://www.php.net/get_resources>`_
 * `gc_mem_caches() <https://www.php.net/gc_mem_caches>`_

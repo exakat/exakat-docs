@@ -5,7 +5,7 @@
 Useless Trailing Comma
 ++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Useless Trailing Comma: Trailing comma is the last comma in a call or function definition.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Useless Trailing Comma
 	:og:description: Trailing comma is the last comma in a call or function definition
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/UselessTrailingComma.html
 	:og:locale: en
-  Trailing comma is the last comma in a call or function definition. It is left with an empty slot aftewards, so as to reduce the diff when adding or removing an element. 
+Trailing comma is the last comma in a call or function definition. It is left with an empty slot aftewards, so as to reduce the diff when adding or removing an element. 
 
 Trailing commas appear in array definition, method calls, method definitions, including use expression for closures and use call. 
 

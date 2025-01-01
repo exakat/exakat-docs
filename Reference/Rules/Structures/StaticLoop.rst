@@ -5,7 +5,7 @@
 Static Loop
 +++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Static Loop: Static loop may be preprocessed.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Static Loop
 	:og:description: Static loop may be preprocessed
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/StaticLoop.html
 	:og:locale: en
-  `Static <https://www.php.net/manual/en/language.oop5.static.php>`_ loop may be preprocessed.
+`Static <https://www.php.net/manual/en/language.oop5.static.php>`_ loop may be preprocessed.
 
 It looks like the following loops are `static <https://www.php.net/manual/en/language.oop5.static.php>`_ : the same code is executed each time, without taking into account loop variables.
 It is possible to create loops that don't use any blind variables, though this is fairly rare. In particular, calling a method may update an internal pointer, like `next() <https://www.php.net/next>`_ or ``SimpleXMLIterator\:\:`next() <https://www.php.net/next>`_``. 

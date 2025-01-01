@@ -5,7 +5,7 @@
 Constant Comparison
 +++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Constant Comparison: Constant to the left or right is a favorite.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Constant Comparison
 	:og:description: Constant to the left or right is a favorite
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ConstantComparisonConsistance.html
 	:og:locale: en
-  Constant to the left or right is a favorite. 
+Constant to the left or right is a favorite. 
 
 Comparisons are commutative : they may be $a == B or B == $a. The analyzed code show less than 10% of one of the two : for consistency reasons, it is recommended to make them all the same. 
 

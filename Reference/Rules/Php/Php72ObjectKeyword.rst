@@ -5,7 +5,7 @@
 PHP 7.2 Object Keyword
 ++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		PHP 7.2 Object Keyword: 'object' is a PHP keyword.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ PHP 7.2 Object Keyword
 	:og:description: 'object' is a PHP keyword
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/Php72ObjectKeyword.html
 	:og:locale: en
-  'object' is a PHP keyword. It can't be used for class, interface or trait name. 
+'object' is a PHP keyword. It can't be used for class, interface or trait name. 
 
 This is the case since PHP 7.2.
 

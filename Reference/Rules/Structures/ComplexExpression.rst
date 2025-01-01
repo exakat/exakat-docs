@@ -5,7 +5,7 @@
 Too Complex Expression
 ++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Too Complex Expression: Long expressions should be broken in small chunks, to limit complexity.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Too Complex Expression
 	:og:description: Long expressions should be broken in small chunks, to limit complexity
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ComplexExpression.html
 	:og:locale: en
-  Long expressions should be broken in small chunks, to limit complexity. 
+Long expressions should be broken in small chunks, to limit complexity. 
 
 Really long expressions tends to be `error <https://www.php.net/error>`_ prone : either by typo, or by missing details. They are even harder to review, once the initially build of the expression is gone. 
 

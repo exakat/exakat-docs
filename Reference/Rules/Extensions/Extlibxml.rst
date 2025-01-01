@@ -5,7 +5,7 @@
 ext/libxml
 ++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/libxml: Extension libxml.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/libxml
 	:og:description: Extension libxml
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extlibxml.html
 	:og:locale: en
-  Extension libxml.
+Extension libxml.
 
 These functions/constants are available as of PHP 5.1.0, and the following core extensions rely on this libxml extension: DOM, libxml, SimpleXML, SOAP, WDDX, XSL, XML, `XMLReader <https://www.php.net/xmlreader>`_, XMLRPC and `XMLWriter <https://www.php.net/xmlwriter>`_.
 

@@ -5,7 +5,7 @@
 Use password_hash()
 +++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Use password_hash(): password_hash() and password_check() are a better choice to replace the use of crypt() to check password.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Use password_hash()
 	:og:description: password_hash() and password_check() are a better choice to replace the use of crypt() to check password
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/Password55.html
 	:og:locale: en
-  `password_hash() <https://www.php.net/password_hash>`_ and password_check() are a better choice to replace the use of `crypt() <https://www.php.net/crypt>`_ to check password.
+`password_hash() <https://www.php.net/password_hash>`_ and password_check() are a better choice to replace the use of `crypt() <https://www.php.net/crypt>`_ to check password.
 
 PHP 5.5 introduced these functions.
 

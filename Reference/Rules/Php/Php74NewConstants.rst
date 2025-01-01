@@ -5,7 +5,7 @@
 New Constants In PHP 7.4
 ++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		New Constants In PHP 7.4: The following constants are now native in PHP 7.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ New Constants In PHP 7.4
 	:og:description: The following constants are now native in PHP 7
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/Php74NewConstants.html
 	:og:locale: en
-  The following constants are now native in PHP 7.4. It is advised to avoid using such names for constant before moving to this new version.
+The following constants are now native in PHP 7.4. It is advised to avoid using such names for constant before moving to this new version.
 
 * ``MB_ONIGURUMA_VERSION``
 * ``SO_LABEL``

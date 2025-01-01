@@ -5,7 +5,7 @@
 Undefined Enumcase
 ++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Undefined Enumcase: The enumeration case does not exists.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Undefined Enumcase
 	:og:description: The enumeration case does not exists
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Enums/UndefinedEnumcase.html
 	:og:locale: en
-  The enumeration case does not exists. It may be a class constant, defined in the same enumeration.
+The enumeration case does not exists. It may be a class constant, defined in the same enumeration.
 
 .. code-block:: php
    

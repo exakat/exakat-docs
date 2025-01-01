@@ -5,7 +5,7 @@
 Session Lazy Write
 ++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Session Lazy Write: Classes that implements SessionHandlerInterface must also implements SessionUpdateTimestampHandlerInterface.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Session Lazy Write
 	:og:description: Classes that implements SessionHandlerInterface must also implements SessionUpdateTimestampHandlerInterface
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Security/SessionLazyWrite.html
 	:og:locale: en
-  Classes that implements `SessionHandlerInterface <https://www.php.net/sessionhandlerinterface>`_ must also implements `SessionUpdateTimestampHandlerInterface <https://www.php.net/sessionupdatetimestamphandlerinterface>`_. 
+Classes that implements `SessionHandlerInterface <https://www.php.net/sessionhandlerinterface>`_ must also implements `SessionUpdateTimestampHandlerInterface <https://www.php.net/sessionupdatetimestamphandlerinterface>`_. 
 
 The two extra methods are used to help lazy loading : the first actually checks if a sessionId is available, and the seconds updates the time of last usage of the session data in the session storage. 
 

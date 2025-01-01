@@ -5,7 +5,7 @@
 List With Keys
 ++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		List With Keys: Setting keys when using list() is a PHP 7.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ List With Keys
 	:og:description: Setting keys when using list() is a PHP 7
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/ListWithKeys.html
 	:og:locale: en
-  Setting keys when using `list() <https://www.php.net/list>`_ is a PHP 7.1 feature.
+Setting keys when using `list() <https://www.php.net/list>`_ is a PHP 7.1 feature.
 
 .. code-block:: php
    

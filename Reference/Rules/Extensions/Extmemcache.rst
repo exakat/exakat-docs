@@ -5,7 +5,7 @@
 ext/memcache
 ++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/memcache: Extension Memcache.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/memcache
 	:og:description: Extension Memcache
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extmemcache.html
 	:og:locale: en
-  Extension Memcache.
+Extension Memcache.
 
 Memcache module provides handy procedural and object oriented interface to memcached, highly effective caching daemon, which was especially designed to decrease database load in dynamic web applications.
 

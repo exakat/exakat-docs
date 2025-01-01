@@ -5,7 +5,7 @@
 Environment Variables
 +++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Environment Variables: Environment variables are used to interact with the hosting system.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Environment Variables
 	:og:description: Environment variables are used to interact with the hosting system
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Variables/UncommonEnvVar.html
 	:og:locale: en
-  Environment variables are used to interact with the hosting system. 
+Environment variables are used to interact with the hosting system. 
 
 They often provides configuration parameter that are set by the host of the application to be used. 
 That way, information is not hardcoded in the application, and may be changed at production.

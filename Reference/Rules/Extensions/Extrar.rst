@@ -5,7 +5,7 @@
 ext/rar
 +++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/rar: Extension RAR.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/rar
 	:og:description: Extension RAR
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extrar.html
 	:og:locale: en
-  Extension RAR. 
+Extension RAR. 
 
 Rar is a powerful and effective archiver created by Eugene Roshal. This extension gives you possibility to read Rar archives but doesn't support writing Rar archives, because this is not supported by the UnRar library and is directly prohibited by its license.
 

@@ -5,7 +5,7 @@
 Shell Usage
 +++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Shell Usage: List of shell calls to system.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Shell Usage
 	:og:description: List of shell calls to system
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ShellUsage.html
 	:og:locale: en
-  List of shell calls to system.
+List of shell calls to system.
 
 .. code-block:: php
    

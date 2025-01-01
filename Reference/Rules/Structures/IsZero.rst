@@ -5,7 +5,7 @@
 Is Actually Zero
 ++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Is Actually Zero: This addition actually may be simplified because one term is actually negated by another.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Is Actually Zero
 	:og:description: This addition actually may be simplified because one term is actually negated by another
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/IsZero.html
 	:og:locale: en
-  This addition actually may be simplified because one term is actually negated by another. 
+This addition actually may be simplified because one term is actually negated by another. 
 
 This kind of `error <https://www.php.net/error>`_ happens when the expression is very large : the more terms are included, the more chances are that some auto-annihilation happens. 
 

@@ -5,7 +5,7 @@
 Don't Use The Type As Variable Name
 +++++++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Don't Use The Type As Variable Name: When it is difficult to find a good name, it is very tempting to use the type.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Don't Use The Type As Variable Name
 	:og:description: When it is difficult to find a good name, it is very tempting to use the type
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/DontUseTheTypeAsVariable.html
 	:og:locale: en
-  When it is difficult to find a good name, it is very tempting to use the type.
+When it is difficult to find a good name, it is very tempting to use the type.
 
 Such a name should carry its actual usage, as the type is already hold by the data.
 

@@ -5,7 +5,7 @@
 Real Variables
 ++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Real Variables: Inventory of real variables.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Real Variables
 	:og:description: Inventory of real variables
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Variables/RealVariables.html
 	:og:locale: en
-  Inventory of real variables. Global, `Static <https://www.php.net/manual/en/language.oop5.static.php>`_ and property declarations are skipped here. 
+Inventory of real variables. Global, `Static <https://www.php.net/manual/en/language.oop5.static.php>`_ and property declarations are skipped here. 
 This is a refined version of a search on ``T_VARIABLE`` token.
 
 .. code-block:: php

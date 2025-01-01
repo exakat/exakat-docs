@@ -5,7 +5,7 @@
 strict_types Preference
 +++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		strict_types Preference: ``strict_types`` is a PHP mode where typehint are enforced strictly or weakly.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ strict_types Preference
 	:og:description: ``strict_types`` is a PHP mode where typehint are enforced strictly or weakly
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/DeclareStrict.html
 	:og:locale: en
-  ``strict_types`` is a PHP mode where typehint are enforced strictly or weakly. By default, it is weak typing, allowing backward compatibility with previous versions. 
+``strict_types`` is a PHP mode where typehint are enforced strictly or weakly. By default, it is weak typing, allowing backward compatibility with previous versions. 
 
 This analysis reports if ``strict_types`` are used systematically or not. ``strict_types`` affects the calling file, not the definition file.
 

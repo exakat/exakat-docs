@@ -5,7 +5,7 @@
 Shell commands
 ++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Shell commands: Shell commands, called from PHP.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Shell commands
 	:og:description: Shell commands, called from PHP
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Type/Shellcommands.html
 	:og:locale: en
-  Shell commands, called from PHP. 
+Shell commands, called from PHP. 
 
 Shell commands are detected with the italic quotes, and using `shell_exec() <https://www.php.net/shell_exec>`_, `system() <https://www.php.net/system>`_, `exec() <https://www.php.net/exec>`_ and `proc_open() <https://www.php.net/proc_open>`_.
 

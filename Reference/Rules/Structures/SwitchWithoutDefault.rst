@@ -5,7 +5,7 @@
 Switch Without Default
 ++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Switch Without Default: Always use a default statement in switch() and match().
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Switch Without Default
 	:og:description: Always use a default statement in switch() and match()
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/SwitchWithoutDefault.html
 	:og:locale: en
-  Always use a default statement in `switch() <https://www.php.net/manual/en/control-structures.switch.php>`_ and `match() <https://www.php.net/manual/en/control-structures.match.php>`_. 
+Always use a default statement in `switch() <https://www.php.net/manual/en/control-structures.switch.php>`_ and `match() <https://www.php.net/manual/en/control-structures.match.php>`_. 
 
 Switch statements hold a number of 'case' that cover all known situations, and a 'default' one which is executed when all other options are exhausted. 
 

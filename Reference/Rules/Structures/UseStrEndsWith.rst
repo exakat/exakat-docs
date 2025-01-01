@@ -5,7 +5,7 @@
 Use str_ends_with()
 +++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Use str_ends_with(): There is a dedicated function to check the suffix of a string : it is called str_ends_with().
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Use str_ends_with()
 	:og:description: There is a dedicated function to check the suffix of a string : it is called str_ends_with()
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/UseStrEndsWith.html
 	:og:locale: en
-  There is a dedicated function to check the suffix of a string : it is called `str_ends_with() <https://www.php.net/str_ends_with>`_. It is available since PHP 8.0
+There is a dedicated function to check the suffix of a string : it is called `str_ends_with() <https://www.php.net/str_ends_with>`_. It is available since PHP 8.0
 
 .. code-block:: php
    

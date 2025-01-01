@@ -5,7 +5,7 @@
 ext/xdiff
 +++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/xdiff: Extension xdiff.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/xdiff
 	:og:description: Extension xdiff
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extxdiff.html
 	:og:locale: en
-  Extension xdiff.
+Extension xdiff.
 
 xdiff extension enables you to create and apply patch files containing differences between different revisions of files.
 

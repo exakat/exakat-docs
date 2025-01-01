@@ -5,7 +5,7 @@
 Useless Referenced Argument
 +++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Useless Referenced Argument: The argument has a reference, and is only used for reading.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Useless Referenced Argument
 	:og:description: The argument has a reference, and is only used for reading
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/UselessReferenceArgument.html
 	:og:locale: en
-  The argument has a reference, and is only used for reading. 
+The argument has a reference, and is only used for reading. 
 
 This is probably a development artefact that was forgotten. It is better to remove it. 
 

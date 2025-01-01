@@ -5,7 +5,7 @@
 Property Invasion
 +++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Property Invasion: Property invasion exports a reference from an object, for external and direct modifications.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Property Invasion
 	:og:description: Property invasion exports a reference from an object, for external and direct modifications
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/PropertyInvasion.html
 	:og:locale: en
-  Property invasion exports a reference from an object, for external and direct modifications. 
+Property invasion exports a reference from an object, for external and direct modifications. 
 
 With a method that returns a reference, a link is created between an external variable and the private property. That way, it is possible to modify the object, without calling a property, or a method.
 

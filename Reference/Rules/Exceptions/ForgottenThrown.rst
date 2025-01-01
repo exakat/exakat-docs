@@ -5,7 +5,7 @@
 Forgotten Thrown
 ++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Forgotten Thrown: This rule reports when an exception is instantiated, but not thrown.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Forgotten Thrown
 	:og:description: This rule reports when an exception is instantiated, but not thrown
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Exceptions/ForgottenThrown.html
 	:og:locale: en
-  This rule reports when an `exception <https://www.php.net/exception>`_ is instantiated, but not thrown. Often, this is a case of forgotten throw.
+This rule reports when an `exception <https://www.php.net/exception>`_ is instantiated, but not thrown. Often, this is a case of forgotten throw.
 
 .. code-block:: php
    

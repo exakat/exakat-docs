@@ -5,7 +5,7 @@
 Collects Names
 ++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Collects Names: Collects the names used in the code.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Collects Names
 	:og:description: Collects the names used in the code
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/CollectsNames.html
 	:og:locale: en
-  Collects the names used in the code. Names are extracted from namespaces, classes, interfaces, traits, enumerations, variables (parameter and local variable), properties, constants, methods, functions, use expression (with as). 
+Collects the names used in the code. Names are extracted from namespaces, classes, interfaces, traits, enumerations, variables (parameter and local variable), properties, constants, methods, functions, use expression (with as). 
 
 Variables names are trimmed of their ``$`` sign. Namespaces are kept as a whole. Each name has the type from the code.
 

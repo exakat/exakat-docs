@@ -5,7 +5,7 @@
 Argument Should Be Typehinted
 +++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Argument Should Be Typehinted: When a method expects objects as argument, those arguments should be typehinted.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Argument Should Be Typehinted
 	:og:description: When a method expects objects as argument, those arguments should be typehinted
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/ShouldBeTypehinted.html
 	:og:locale: en
-  When a method expects objects as argument, those arguments should be typehinted. This way, it provides early warning that a wrong object is being sent to the method.
+When a method expects objects as argument, those arguments should be typehinted. This way, it provides early warning that a wrong object is being sent to the method.
 
 The analyzer will detect situations where a class, or the keywords 'array' or 'callable'. 
 `Closure <https://www.php.net/manual/en/class.`closure <https://www.php.net/closure>`_.php>`_ arguments are omitted.

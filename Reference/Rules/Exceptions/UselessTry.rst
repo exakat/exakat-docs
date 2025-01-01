@@ -5,7 +5,7 @@
 Useless Try
 +++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Useless Try: Report try clause that are useless.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Useless Try
 	:og:description: Report try clause that are useless
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Exceptions/UselessTry.html
 	:og:locale: en
-  Report try clause that are useless. A try clause is useless when no `exception <https://www.php.net/exception>`_ is emitted by the code in the block. 
+Report try clause that are useless. A try clause is useless when no `exception <https://www.php.net/exception>`_ is emitted by the code in the block. 
 
 
 

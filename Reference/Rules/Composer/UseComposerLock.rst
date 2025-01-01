@@ -5,7 +5,7 @@
 Use Composer Lock
 +++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Use Composer Lock: This rule reports when the ``composer.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Use Composer Lock
 	:og:description: This rule reports when the ``composer
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Composer/UseComposerLock.html
 	:og:locale: en
-  This rule reports when the ``composer.lock`` is committed to the archive. ``composer.lock`` stores the actual versions of the components that were fetched by composer, based on the ``composer.json``. This is useful to store and share among developers.
+This rule reports when the ``composer.lock`` is committed to the archive. ``composer.lock`` stores the actual versions of the components that were fetched by composer, based on the ``composer.json``. This is useful to store and share among developers.
 
 See also `Composer <https://getcomposer.org/>`_.
 

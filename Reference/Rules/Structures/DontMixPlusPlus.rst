@@ -5,7 +5,7 @@
 Don't Mix ++
 ++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Don't Mix ++: ++ operators, pre and post, have two distinct behaviors, and should be used separately.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Don't Mix ++
 	:og:description: ++ operators, pre and post, have two distinct behaviors, and should be used separately
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/DontMixPlusPlus.html
 	:og:locale: en
-  ++ operators, pre and post, have two distinct behaviors, and should be used separately.
+++ operators, pre and post, have two distinct behaviors, and should be used separately.
 
 When mixed in a larger expression, they are difficult to read, and may lead to unwanted behaviors.
 

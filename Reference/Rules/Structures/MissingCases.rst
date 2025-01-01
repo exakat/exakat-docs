@@ -5,7 +5,7 @@
 Missing Cases In Switch
 +++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Missing Cases In Switch: It seems that some cases are missing in this switch structure.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Missing Cases In Switch
 	:og:description: It seems that some cases are missing in this switch structure
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/MissingCases.html
 	:og:locale: en
-  It seems that some cases are missing in this switch structure.
+It seems that some cases are missing in this switch structure.
 
 When comparing two different `switch() <https://www.php.net/manual/en/control-structures.switch.php>`_ structures, it appears that some cases are missing in one of them. The set of cases are almost identical, but one of the values are missing. 
 

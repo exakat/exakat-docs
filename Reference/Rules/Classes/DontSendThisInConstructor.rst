@@ -5,7 +5,7 @@
 Don't Send $this In Constructor
 +++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Don't Send $this In Constructor: Don't use ``$this`` as an argument while in the __construct().
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Don't Send $this In Constructor
 	:og:description: Don't use ``$this`` as an argument while in the __construct()
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/DontSendThisInConstructor.html
 	:og:locale: en
-  Don't use ``$this`` as an argument while in the `__construct() <https://www.php.net/manual/en/language.oop5.decon.php>`_. Until the constructor is finished, the object is not finished, and may be in an unstable state. Providing it to another code may lead to `error <https://www.php.net/error>`_. 
+Don't use ``$this`` as an argument while in the `__construct() <https://www.php.net/manual/en/language.oop5.decon.php>`_. Until the constructor is finished, the object is not finished, and may be in an unstable state. Providing it to another code may lead to `error <https://www.php.net/error>`_. 
 
 This is true when the receiving structure puts the incoming object immediately to work, and don't store it for later use.
 

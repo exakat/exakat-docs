@@ -5,7 +5,7 @@
 ext/sdl
 +++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/sdl: Extensions ext/sdl.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/sdl
 	:og:description: Extensions ext/sdl
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extsdl.html
 	:og:locale: en
-  Extensions ext/sdl.
+Extensions ext/sdl.
 
 Simple DirectMedia Layer (SDL) is a cross-platform software development library designed to provide a hardware abstraction layer for computer multimedia hardware components.
 

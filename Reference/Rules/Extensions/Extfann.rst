@@ -5,7 +5,7 @@
 ext/fann
 ++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/fann: Extension ``FANN`` : Fast Artificial Neural Network.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/fann
 	:og:description: Extension ``FANN`` : Fast Artificial Neural Network
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extfann.html
 	:og:locale: en
-  Extension ``FANN`` : Fast Artificial Neural Network.
+Extension ``FANN`` : Fast Artificial Neural Network.
 
 PHP binding for ``FANN`` library which implements multi-layer artificial neural networks with support for both fully connected and sparsely connected networks.
 

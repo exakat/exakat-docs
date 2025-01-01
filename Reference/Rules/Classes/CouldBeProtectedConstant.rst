@@ -5,7 +5,7 @@
 Could Be Protected Class Constant
 +++++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Could Be Protected Class Constant: Class constant may use 'protected' visibility.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Could Be Protected Class Constant
 	:og:description: Class constant may use 'protected' visibility
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/CouldBeProtectedConstant.html
 	:og:locale: en
-  Class constant may use 'protected' visibility. 
+Class constant may use 'protected' visibility. 
 
 Since PHP 7.1, constants may also have a public/protected/private visibility. This restrict their usage to anywhere, class and children or class. 
 

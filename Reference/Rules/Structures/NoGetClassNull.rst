@@ -5,7 +5,7 @@
 No get_class() With Null
 ++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		No get_class() With Null: It is not possible to pass explicitly null to get_class() to get the current's class name.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ No get_class() With Null
 	:og:description: It is not possible to pass explicitly null to get_class() to get the current's class name
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/NoGetClassNull.html
 	:og:locale: en
-  It is not possible to pass explicitly null to `get_class() <https://www.php.net/get_class>`_ to get the current's class name. Since PHP 7.2, one must call `get_class() <https://www.php.net/get_class>`_ without arguments to achieve that `result <https://www.php.net/result>`_.
+It is not possible to pass explicitly null to `get_class() <https://www.php.net/get_class>`_ to get the current's class name. Since PHP 7.2, one must call `get_class() <https://www.php.net/get_class>`_ without arguments to achieve that `result <https://www.php.net/result>`_.
 
 .. code-block:: php
    

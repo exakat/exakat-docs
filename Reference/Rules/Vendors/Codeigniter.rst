@@ -5,7 +5,7 @@
 Codeigniter usage
 +++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Codeigniter usage: This analysis reports usage of the Codeigniter 4 framework.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Codeigniter usage
 	:og:description: This analysis reports usage of the Codeigniter 4 framework
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Vendors/Codeigniter.html
 	:og:locale: en
-  This analysis reports usage of the Codeigniter 4 framework.
+This analysis reports usage of the Codeigniter 4 framework.
 
 Note : Code igniter 3 and older are not reported.
 

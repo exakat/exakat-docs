@@ -5,7 +5,7 @@
 Is An Extension Class
 +++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Is An Extension Class: Those classes belongs to a PHP Extensions.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Is An Extension Class
 	:og:description: Those classes belongs to a PHP Extensions
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/IsExtClass.html
 	:og:locale: en
-  Those classes belongs to a PHP Extensions.
+Those classes belongs to a PHP Extensions.
 
 .. code-block:: php
    

@@ -5,7 +5,7 @@
 Different Constructors
 ++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Different Constructors: PHP allows different signatures for constructors.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Different Constructors
 	:og:description: PHP allows different signatures for constructors
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/IncompatibleConstructor.html
 	:og:locale: en
-  PHP allows different signatures for constructors. This is a legacy feature. 
+PHP allows different signatures for constructors. This is a legacy feature. 
 
 Only constructors are allowed to have different signatures : all other methods must be compatible with the `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ methods.
 

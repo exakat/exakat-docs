@@ -5,7 +5,7 @@
 Count() Is Not Negative
 +++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Count() Is Not Negative: This rule reports when the Countable method ``count`` is poised to return a negative value.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Count() Is Not Negative
 	:og:description: This rule reports when the Countable method ``count`` is poised to return a negative value
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/CountIsNotNegative.html
 	:og:locale: en
-  This rule reports when the `Countable <https://www.php.net/countable>`_ method ``count`` is poised to return a negative value. 
+This rule reports when the `Countable <https://www.php.net/countable>`_ method ``count`` is poised to return a negative value. 
 
 It also reports when a call to ``count()`` is compared to a value that might be negative.
 

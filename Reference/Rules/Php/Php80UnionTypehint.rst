@@ -5,7 +5,7 @@
 Union Typehint
 ++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Union Typehint: Union typehints allows the specification of several typehint for the same argument or return value.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Union Typehint
 	:og:description: Union typehints allows the specification of several typehint for the same argument or return value
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/Php80UnionTypehint.html
 	:og:locale: en
-  Union typehints allows the specification of several typehint for the same argument or return value. 
+Union typehints allows the specification of several typehint for the same argument or return value. 
 
 Several typehints are specified at the same place as a single one. The different values are separated by a pipe character ``|``, like for exceptions 
 Nullable is reported as union type. Mixed and iterable are not reported as a union type. 

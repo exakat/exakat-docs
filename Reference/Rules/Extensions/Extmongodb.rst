@@ -5,7 +5,7 @@
 ext/mongodb
 +++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/mongodb: Extension MongoDb.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/mongodb
 	:og:description: Extension MongoDb
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extmongodb.html
 	:og:locale: en
-  Extension MongoDb.
+Extension MongoDb.
 
 Do not mistake with extension `Mongo <https://www.php.net/Mongo>`_, the previous version.
 

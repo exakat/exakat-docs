@@ -5,7 +5,7 @@
 Could Be String
 +++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Could Be String: Mark arguments, properties, constants and return types that can be set to ``string``.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Could Be String
 	:og:description: Mark arguments, properties, constants and return types that can be set to ``string``
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Typehints/CouldBeString.html
 	:og:locale: en
-  Mark arguments, properties, constants and return types that can be set to ``string``.
+Mark arguments, properties, constants and return types that can be set to ``string``.
 
 .. code-block:: php
    

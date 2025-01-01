@@ -5,7 +5,7 @@
 Multiple Alias Definitions Per File
 +++++++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Multiple Alias Definitions Per File: Avoid aliasing the same name with different aliases.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Multiple Alias Definitions Per File
 	:og:description: Avoid aliasing the same name with different aliases
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Namespaces/MultipleAliasDefinitionPerFile.html
 	:og:locale: en
-  Avoid aliasing the same name with different aliases. This leads to confusion.
+Avoid aliasing the same name with different aliases. This leads to confusion.
 
 .. code-block:: php
    

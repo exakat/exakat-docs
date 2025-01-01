@@ -5,7 +5,7 @@
 Repeated print()
 ++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Repeated print(): Merge several print or echo in one call, to speed up the processing.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Repeated print()
 	:og:description: Merge several print or echo in one call, to speed up the processing
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/RepeatedPrint.html
 	:og:locale: en
-  Merge several print or echo in one call, to speed up the processing.
+Merge several print or echo in one call, to speed up the processing.
 
 It is recommended to use echo with multiple arguments, or a concatenation with print, instead of multiple calls to print echo, when outputting several blob of text.
 

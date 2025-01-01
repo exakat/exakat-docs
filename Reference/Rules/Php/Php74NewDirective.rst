@@ -5,7 +5,7 @@
 PHP 74 New Directives
 +++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		PHP 74 New Directives: List of directives that are new in PHP 7.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ PHP 74 New Directives
 	:og:description: List of directives that are new in PHP 7
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/Php74NewDirective.html
 	:og:locale: en
-  List of directives that are new in PHP 7.4.
+List of directives that are new in PHP 7.4.
 
 + ``zend.exception_ignore_args`` : From the php.ini : ``Allows to include or exclude arguments from stack traces generated for exceptions. Default: Off``
 + ``opcache.preload_user``

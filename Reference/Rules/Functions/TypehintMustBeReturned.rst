@@ -5,7 +5,7 @@
 Type Must Be Returned
 +++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Type Must Be Returned: When using a type for a method, it is compulsory to use a at least one return in the method's body.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Type Must Be Returned
 	:og:description: When using a type for a method, it is compulsory to use a at least one return in the method's body
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/TypehintMustBeReturned.html
 	:og:locale: en
-  When using a type for a method, it is compulsory to use a at least one return in the method's body. This is true for nullable type too : ``return`` alone won't be sufficient.
+When using a type for a method, it is compulsory to use a at least one return in the method's body. This is true for nullable type too : ``return`` alone won't be sufficient.
 
 When the method contains a return expression, PHP doesn't lint unless the return expression has a value. Any value will do, and it will actually checked at execution time.
 

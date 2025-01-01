@@ -5,7 +5,7 @@
 Integer As Property
 +++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Integer As Property: It is backward incompatible to use integers are property names.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Integer As Property
 	:og:description: It is backward incompatible to use integers are property names
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/IntegerAsProperty.html
 	:og:locale: en
-  It is backward incompatible to use integers are property names. This feature was introduced in PHP 7.2.
+It is backward incompatible to use integers are property names. This feature was introduced in PHP 7.2.
 
 If the code must be compatible with previous versions, avoid casting arrays to object.
 

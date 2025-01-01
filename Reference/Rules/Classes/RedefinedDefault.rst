@@ -5,7 +5,7 @@
 Redefined Default
 +++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Redefined Default: Classes allows properties to be set with a default value.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Redefined Default
 	:og:description: Classes allows properties to be set with a default value
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/RedefinedDefault.html
 	:og:locale: en
-  Classes allows properties to be set with a default value. When those properties get, unconditionally, another value at constructor time, then one of the default value are useless. One of those definition should go : it is better to define properties outside the constructor.
+Classes allows properties to be set with a default value. When those properties get, unconditionally, another value at constructor time, then one of the default value are useless. One of those definition should go : it is better to define properties outside the constructor.
 
 .. code-block:: php
    

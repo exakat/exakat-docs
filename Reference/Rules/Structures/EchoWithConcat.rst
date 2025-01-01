@@ -5,7 +5,7 @@
 Echo With Concat
 ++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Echo With Concat: Optimize your ``echo``'s by avoiding concatenating at ``echo`` time, but serving all argument separated.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Echo With Concat
 	:og:description: Optimize your ``echo``'s by avoiding concatenating at ``echo`` time, but serving all argument separated
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/EchoWithConcat.html
 	:og:locale: en
-  Optimize your ``echo``'s by avoiding concatenating at ``echo`` time, but serving all argument separated. This will save PHP a memory copy.
+Optimize your ``echo``'s by avoiding concatenating at ``echo`` time, but serving all argument separated. This will save PHP a memory copy.
 
 If values, literals and variables, are small enough, this won't have visible impact. Otherwise, this is less work and less memory waste.
 instead of

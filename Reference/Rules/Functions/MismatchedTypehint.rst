@@ -5,7 +5,7 @@
 Mismatched Typehint
 +++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Mismatched Typehint: Relayed arguments don't have the same typehint.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Mismatched Typehint
 	:og:description: Relayed arguments don't have the same typehint
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/MismatchedTypehint.html
 	:og:locale: en
-  Relayed arguments don't have the same typehint.
+Relayed arguments don't have the same typehint.
 
 Typehint acts as a filter method. When an object is checked with a first class, and then checked again with a second distinct class, the whole process is always false : $a can't be of two different classes at the same time.
 Note : This analysis currently doesn't check generalisation of classes : for example, when B is a child of BB, it is still reported as a mismatch.

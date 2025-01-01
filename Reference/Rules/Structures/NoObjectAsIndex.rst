@@ -5,7 +5,7 @@
 No Object As Index
 ++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		No Object As Index: PHP accepts objects as index, though it reports various error messages when this happens.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ No Object As Index
 	:og:description: PHP accepts objects as index, though it reports various error messages when this happens
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/NoObjectAsIndex.html
 	:og:locale: en
-  PHP accepts objects as index, though it reports various `error <https://www.php.net/error>`_ messages when this happens.
+PHP accepts objects as index, though it reports various `error <https://www.php.net/error>`_ messages when this happens.
 
 Thanks to `Gina Peter Banyard <https://twitter.com/Girgias>`_ for the inspiration.
 

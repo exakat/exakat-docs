@@ -5,7 +5,7 @@
 Hash Algorithms
 +++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Hash Algorithms: There is a long but limited list of hashing algorithm available to PHP.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Hash Algorithms
 	:og:description: There is a long but limited list of hashing algorithm available to PHP
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/HashAlgos.html
 	:og:locale: en
-  There is a long but limited list of hashing algorithm available to PHP. The one found doesn't seem to be existing.
+There is a long but limited list of hashing algorithm available to PHP. The one found doesn't seem to be existing.
 
 .. code-block:: php
    

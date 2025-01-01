@@ -5,7 +5,7 @@
 Use === null
 ++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Use === null: It is faster to use === null than the function is_null().
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Use === null
 	:og:description: It is faster to use === null than the function is_null()
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/IsnullVsEqualNull.html
 	:og:locale: en
-  It is faster to use === null than the function `is_null() <https://www.php.net/is_null>`_.
+It is faster to use === null than the function `is_null() <https://www.php.net/is_null>`_.
 This is a micro-optimisation. And being used frequently, and in loops, it may yield visible speed up.
 
 .. code-block:: php

@@ -5,7 +5,7 @@
 ext/readline
 ++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/readline: Extension readline.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/readline
 	:og:description: Extension readline
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extreadline.html
 	:og:locale: en
-  Extension readline.
+Extension readline.
 
 The readline functions implement an interface to the GNU Readline library. These are functions that provide editable command lines.
 

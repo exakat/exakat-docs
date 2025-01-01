@@ -5,7 +5,7 @@
 Used Protected Method
 +++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Used Protected Method: This rule marks protected methods being used in the current class or its children classes.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Used Protected Method
 	:og:description: This rule marks protected methods being used in the current class or its children classes
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/UsedProtectedMethod.html
 	:og:locale: en
-  This rule marks protected methods being used in the current class or its children classes. This show how the methods are used inside a class hierarchy.
+This rule marks protected methods being used in the current class or its children classes. This show how the methods are used inside a class hierarchy.
 
 .. code-block:: php
    

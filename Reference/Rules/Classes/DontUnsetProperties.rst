@@ -5,7 +5,7 @@
 Don't Unset Properties
 ++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Don't Unset Properties: Don't unset properties.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Don't Unset Properties
 	:og:description: Don't unset properties
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/DontUnsetProperties.html
 	:og:locale: en
-  Don't unset properties. They would go undefined, and raise warnings of undefined properties, even though the property is explicitly defined in the original class. 
+Don't unset properties. They would go undefined, and raise warnings of undefined properties, even though the property is explicitly defined in the original class. 
 
 When getting rid of a property, assign it to `null`. This keeps the property defined in the object, yet allows existence check without errors.
 This analysis works on properties and `static <https://www.php.net/manual/en/language.oop5.static.php>`_ properties. It also reports magic properties being unset.

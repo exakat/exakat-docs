@@ -5,22 +5,22 @@
 Scope Resolution Operator
 +++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
-		Scope Resolution Operator: The scope resolution operator `\:\:class` is faster than a call to get_class() function.
+		Scope Resolution Operator: The scope resolution operator `::class` is faster than a call to get_class() function.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: Scope Resolution Operator
-	:twitter:description: Scope Resolution Operator: The scope resolution operator `\:\:class` is faster than a call to get_class() function
+	:twitter:description: Scope Resolution Operator: The scope resolution operator `::class` is faster than a call to get_class() function
 	:twitter:creator: @exakat
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
 	:og:title: Scope Resolution Operator
 	:og:type: article
-	:og:description: The scope resolution operator `\:\:class` is faster than a call to get_class() function
+	:og:description: The scope resolution operator `::class` is faster than a call to get_class() function
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Performances/ClassOperator.html
 	:og:locale: en
-  The scope resolution operator `\:\:class` is faster than a call to `get_class() <https://www.php.net/get_class>`_ function.
+The scope resolution operator `\:\:class` is faster than a call to `get_class() <https://www.php.net/get_class>`_ function.
 
 It is also possible to replace `get_class()` by `static\:\:class` to get the name of the calling class.
 

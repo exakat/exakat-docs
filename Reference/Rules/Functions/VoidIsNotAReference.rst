@@ -5,7 +5,7 @@
 Void Is Not A Reference
 +++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Void Is Not A Reference: It is not possible to return by reference, in a method that is typed void.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Void Is Not A Reference
 	:og:description: It is not possible to return by reference, in a method that is typed void
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/VoidIsNotAReference.html
 	:og:locale: en
-  It is not possible to return by reference, in a method that is typed void. The returned value is a literal ``null``.
+It is not possible to return by reference, in a method that is typed void. The returned value is a literal ``null``.
 
 .. code-block:: php
    

@@ -5,7 +5,7 @@
 Stomp
 +++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Stomp: This extension allows php applications to communicate with any Stomp compliant Message Brokers through easy object-oriented and procedural interfaces.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Stomp
 	:og:description: This extension allows php applications to communicate with any Stomp compliant Message Brokers through easy object-oriented and procedural interfaces
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extstomp.html
 	:og:locale: en
-  This extension allows php applications to communicate with any Stomp compliant Message Brokers through easy object-oriented and procedural interfaces.
+This extension allows php applications to communicate with any Stomp compliant Message Brokers through easy object-oriented and procedural interfaces.
 
 .. code-block:: php
    

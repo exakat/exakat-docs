@@ -5,7 +5,7 @@
 Lowered Access Level
 ++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Lowered Access Level: A visibility was lowered.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Lowered Access Level
 	:og:description: A visibility was lowered
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/LoweredAccessLevel.html
 	:og:locale: en
-  A visibility was lowered. While this is a PHP feature, lowering visibility means that the data is now available to more actors than previously set up, and it might yield surprises to part of the code that still rely on the previous visibility.
+A visibility was lowered. While this is a PHP feature, lowering visibility means that the data is now available to more actors than previously set up, and it might yield surprises to part of the code that still rely on the previous visibility.
 
 This applies to all visibility's structures : class constant, properties and methods.
 

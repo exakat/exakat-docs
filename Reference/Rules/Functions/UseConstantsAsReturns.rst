@@ -5,7 +5,7 @@
 Use Constants As Returns
 ++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Use Constants As Returns: When a native PHP function returns only constants, it is recommended to use those constants to identify the returned values.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Use Constants As Returns
 	:og:description: When a native PHP function returns only constants, it is recommended to use those constants to identify the returned values
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/UseConstantsAsReturns.html
 	:og:locale: en
-  When a native PHP function returns only constants, it is recommended to use those constants to identify the returned values.
+When a native PHP function returns only constants, it is recommended to use those constants to identify the returned values.
 
 .. code-block:: php
    

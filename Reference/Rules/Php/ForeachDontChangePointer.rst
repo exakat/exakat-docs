@@ -5,7 +5,7 @@
 Foreach Don't Change Pointer
 ++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Foreach Don't Change Pointer: foreach() loops use their own internal cursor.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Foreach Don't Change Pointer
 	:og:description: foreach() loops use their own internal cursor
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/ForeachDontChangePointer.html
 	:og:locale: en
-  `foreach() <https://www.php.net/manual/en/control-structures.foreach.php>`_ loops use their own internal cursor.
+`foreach() <https://www.php.net/manual/en/control-structures.foreach.php>`_ loops use their own internal cursor.
 
 A foreach loop won't change the internal pointer of the array, as it works on a copy of the source. Hence, applying array pointer's functions such as `current() <https://www.php.net/current>`_ or `next() <https://www.php.net/next>`_ to the source array won't have the same behavior in PHP 5 than PHP 7.
 

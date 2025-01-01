@@ -5,7 +5,7 @@
 $HTTP_RAW_POST_DATA Usage
 +++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		$HTTP_RAW_POST_DATA Usage: ``$HTTP_RAW_POST_DATA`` is deprecated, and should be replaced by ``php://input``.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ $HTTP_RAW_POST_DATA Usage
 	:og:description: ``$HTTP_RAW_POST_DATA`` is deprecated, and should be replaced by ``php://input``
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/RawPostDataUsage.html
 	:og:locale: en
-  ``$HTTP_RAW_POST_DATA`` is deprecated, and should be replaced by ``php://input``. 
+``$HTTP_RAW_POST_DATA`` is deprecated, and should be replaced by ``php://input``. 
 
 ``$HTTP_RAW_POST_DATA`` is deprecated since PHP 5.6.
 

@@ -5,7 +5,7 @@
 New Functions In PHP 7.1
 ++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		New Functions In PHP 7.1: The following functions are now native functions in PHP 7.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ New Functions In PHP 7.1
 	:og:description: The following functions are now native functions in PHP 7
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/Php71NewFunctions.html
 	:og:locale: en
-  The following functions are now native functions in PHP 7.1. It is advised to change them before moving to this new version.
+The following functions are now native functions in PHP 7.1. It is advised to change them before moving to this new version.
 
 * `curl_share_strerror() <https://www.php.net/curl_share_strerror>`_
 * `curl_multi_errno() <https://www.php.net/curl_multi_errno>`_

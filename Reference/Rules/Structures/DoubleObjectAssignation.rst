@@ -5,7 +5,7 @@
 Double Object Assignation
 +++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Double Object Assignation: The same object is assigned to two distinct variables.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Double Object Assignation
 	:og:description: The same object is assigned to two distinct variables
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/DoubleObjectAssignation.html
 	:og:locale: en
-  The same object is assigned to two distinct variables. Given that objects are actually references to the same data, this is usually not necessary. Make sure that this is the intended purpose.
+The same object is assigned to two distinct variables. Given that objects are actually references to the same data, this is usually not necessary. Make sure that this is the intended purpose.
 
 .. code-block:: php
    

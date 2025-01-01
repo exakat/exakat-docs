@@ -5,7 +5,7 @@
 foreach() On Object
 +++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		foreach() On Object: This analysis reports usage of a foreach() structure on an object.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ foreach() On Object
 	:og:description: This analysis reports usage of a foreach() structure on an object
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ForeachOnObject.html
 	:og:locale: en
-  This analysis reports usage of a `foreach() <https://www.php.net/manual/en/control-structures.foreach.php>`_ structure on an object. That object shall not be an array, nor an object with array syntax, such as ``Traversable``.
+This analysis reports usage of a `foreach() <https://www.php.net/manual/en/control-structures.foreach.php>`_ structure on an object. That object shall not be an array, nor an object with array syntax, such as ``Traversable``.
 
 .. code-block:: php
    

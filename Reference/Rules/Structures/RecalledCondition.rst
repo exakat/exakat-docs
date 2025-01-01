@@ -5,7 +5,7 @@
 Recalled Condition
 ++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Recalled Condition: A recalled condition is a check that is made twice : once in the condition, then again in the body of the structure, to collect the actual value.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Recalled Condition
 	:og:description: A recalled condition is a check that is made twice : once in the condition, then again in the body of the structure, to collect the actual value
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/RecalledCondition.html
 	:og:locale: en
-  A recalled condition is a check that is made twice : once in the condition, then again in the body of the structure, to collect the actual value. 
+A recalled condition is a check that is made twice : once in the condition, then again in the body of the structure, to collect the actual value. 
 
 Usually, the second call may be skipped by storing the value in a local variable. à
 

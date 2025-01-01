@@ -5,7 +5,7 @@
 Unused Label
 ++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Unused Label: Some labels have been defined in the code, but they are not used.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Unused Label
 	:og:description: Some labels have been defined in the code, but they are not used
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/UnusedLabel.html
 	:og:locale: en
-  Some labels have been defined in the code, but they are not used. They may be removed as they are dead code.
+Some labels have been defined in the code, but they are not used. They may be removed as they are dead code.
 
 
 

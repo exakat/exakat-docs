@@ -5,7 +5,7 @@
 Lone Blocks
 +++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Lone Blocks: Grouped code without a commanding structure is useless and may be removed.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Lone Blocks
 	:og:description: Grouped code without a commanding structure is useless and may be removed
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/LoneBlock.html
 	:og:locale: en
-  Grouped code without a commanding structure is useless and may be removed. 
+Grouped code without a commanding structure is useless and may be removed. 
 
 Blocks are compulsory when defining a structure, such as a class, a function or a switch. They are most often used with flow control instructions, like if then or foreach. 
 

@@ -5,7 +5,7 @@
 Check Crypto Key Length
 +++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Check Crypto Key Length: Each cryptography algorithm requires a reasonable length.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Check Crypto Key Length
 	:og:description: Each cryptography algorithm requires a reasonable length
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Security/CryptoKeyLength.html
 	:og:locale: en
-  Each cryptography algorithm requires a reasonable length. Make sure an up-to-date length is used. 
+Each cryptography algorithm requires a reasonable length. Make sure an up-to-date length is used. 
 
 This rule use the following recommendations : 
 

@@ -5,7 +5,7 @@
 Collect Vendor Structures
 +++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Collect Vendor Structures: Collect the structures (constant, function, classes, interfaces, traits, enums, .
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Collect Vendor Structures
 	:og:description: Collect the structures (constant, function, classes, interfaces, traits, enums, 
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/CollectVendorStructures.html
 	:og:locale: en
-  Collect the structures (constant, function, classes, interfaces, traits, enums, `...) <https://www.php.net/manual/en/functions.arguments.php#functions.variable-arg-list>`_ that are defined as stubs in the configuration.
+Collect the structures (constant, function, classes, interfaces, traits, enums, `...) <https://www.php.net/manual/en/functions.arguments.php#functions.variable-arg-list>`_ that are defined as stubs in the configuration.
 
 +----------+---------+------+---------------------------------------------------------------------------------------------------------+
 | Name     | Default | Type | Description                                                                                             |

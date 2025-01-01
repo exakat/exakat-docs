@@ -5,7 +5,7 @@
 Class Function Confusion
 ++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Class Function Confusion: Avoid classes and functions bearing the same name.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Class Function Confusion
 	:og:description: Avoid classes and functions bearing the same name
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/ClassFunctionConfusion.html
 	:og:locale: en
-  Avoid classes and functions bearing the same name. 
+Avoid classes and functions bearing the same name. 
 
 When functions and classes bear the same name, calling them may be confusing. This may also lead to forgotten 'new' keyword.
 

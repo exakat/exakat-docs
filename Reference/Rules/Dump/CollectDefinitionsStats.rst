@@ -5,7 +5,7 @@
 Collect Definitions Statistics
 ++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Collect Definitions Statistics: Collect counts of various structures, such a static constants, static method calls, static properties, method calls and properties.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Collect Definitions Statistics
 	:og:description: Collect counts of various structures, such a static constants, static method calls, static properties, method calls and properties
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/CollectDefinitionsStats.html
 	:og:locale: en
-  Collect counts of various structures, such a `static <https://www.php.net/manual/en/language.oop5.static.php>`_ constants, `static <https://www.php.net/manual/en/language.oop5.static.php>`_ method calls, `static <https://www.php.net/manual/en/language.oop5.static.php>`_ properties, method calls and properties.
+Collect counts of various structures, such a `static <https://www.php.net/manual/en/language.oop5.static.php>`_ constants, `static <https://www.php.net/manual/en/language.oop5.static.php>`_ method calls, `static <https://www.php.net/manual/en/language.oop5.static.php>`_ properties, method calls and properties.
 
 Specs
 _____

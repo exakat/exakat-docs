@@ -5,7 +5,7 @@
 Possible TypeError
 ++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Possible TypeError: Report possible errors when a string is given to a int or float typed container.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Possible TypeError
 	:og:description: Report possible errors when a string is given to a int or float typed container
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Exceptions/PossibleTypeError.html
 	:og:locale: en
-  Report possible errors when a string is given to a int or float typed container. 
+Report possible errors when a string is given to a int or float typed container. 
 
 That `error <https://www.php.net/error>`_ will be emitted when strict_types is active, or if the string cannot be formatted into a float or an int. Otherwise, the code works as intended.
 

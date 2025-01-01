@@ -5,7 +5,7 @@
 Useless Method
 ++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Useless Method: This method is useless, as it actually does what PHP would do by default.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Useless Method
 	:og:description: This method is useless, as it actually does what PHP would do by default
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/UselessMethod.html
 	:og:locale: en
-  This method is useless, as it actually does what PHP would do by default. 
+This method is useless, as it actually does what PHP would do by default. 
 
 For example, relaying a method call to its `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ is useless. Removing the method altogether has the same feature, although this doesn't apply to constructors. 
 

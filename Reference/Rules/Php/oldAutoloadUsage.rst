@@ -5,7 +5,7 @@
 Old Style __autoload()
 ++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Old Style __autoload(): Avoid __autoload(), only use spl_register_autoload().
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Old Style __autoload()
 	:og:description: Avoid __autoload(), only use spl_register_autoload()
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/oldAutoloadUsage.html
 	:og:locale: en
-  Avoid __autoload(), only use spl_register_autoload().
+Avoid __autoload(), only use spl_register_autoload().
 
 __autoload() is deprecated since PHP 7.2 and possibly removed in later versions. spl_register_autoload() was introduced in PHP 5.1.0.
 

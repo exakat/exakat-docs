@@ -5,7 +5,7 @@
 Inconsistent Elseif
 +++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Inconsistent Elseif: Chaining if/elseif requires a consistent string of conditions.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Inconsistent Elseif
 	:og:description: Chaining if/elseif requires a consistent string of conditions
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/InconsistentElseif.html
 	:og:locale: en
-  Chaining if/elseif requires a consistent string of conditions. The conditions are executed one after the other, and the conditions shouldn't overlap.
+Chaining if/elseif requires a consistent string of conditions. The conditions are executed one after the other, and the conditions shouldn't overlap.
 
 This analysis reports chains of elseif that don't share a common variable (or array, or property, etc.. ). As such, testing different conditions are consistent.
 

@@ -5,7 +5,7 @@
 Collect Files Dependencies
 ++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Collect Files Dependencies: Collect all dependencies between files, based on definitions and usage.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Collect Files Dependencies
 	:og:description: Collect all dependencies between files, based on definitions and usage
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/CollectFilesDependencies.html
 	:og:locale: en
-  Collect all dependencies between files, based on definitions and usage.
+Collect all dependencies between files, based on definitions and usage.
 
 For example, file `A.php`, which defines de class `A`, is a dependence to a file `B.php`, which makes a call to a method from `A`,  or use `A` as a typehint, etc..
 

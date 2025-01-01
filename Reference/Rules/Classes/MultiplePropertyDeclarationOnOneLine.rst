@@ -5,7 +5,7 @@
 Multiple Property Declaration On One Line
 +++++++++++++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Multiple Property Declaration On One Line: Multiple properties are defined on the same line.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Multiple Property Declaration On One Line
 	:og:description: Multiple properties are defined on the same line
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/MultiplePropertyDeclarationOnOneLine.html
 	:og:locale: en
-  Multiple properties are defined on the same line. They could be defined independently, on separate expressions.
+Multiple properties are defined on the same line. They could be defined independently, on separate expressions.
 
 Keeping properties separate helps documenting and refactoring them independently.
 

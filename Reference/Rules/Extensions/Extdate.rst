@@ -5,7 +5,7 @@
 ext/date
 ++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/date: Extension ext/date.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/date
 	:og:description: Extension ext/date
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extdate.html
 	:og:locale: en
-  Extension ext/date.
+Extension ext/date.
 
 These functions allows the manipulation of date and time from the server where the PHP scripts are running.
 

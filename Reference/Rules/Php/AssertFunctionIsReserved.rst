@@ -5,7 +5,7 @@
 Assert Function Is Reserved
 +++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Assert Function Is Reserved: Avoid defining an ``assert`` function in namespaces.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Assert Function Is Reserved
 	:og:description: Avoid defining an ``assert`` function in namespaces
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/AssertFunctionIsReserved.html
 	:og:locale: en
-  Avoid defining an ``assert`` function in namespaces. 
+Avoid defining an ``assert`` function in namespaces. 
 
 While they work fine when the assertions are active (``zend.assertions=1``), calls to unqualified ``assert`` are optimized away when assertions are not active. 
 

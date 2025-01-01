@@ -5,7 +5,7 @@
 Closing Tags
 ++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Closing Tags: PHP manual recommends that script should be left open, without the final closing ``.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Closing Tags
 	:og:description: PHP manual recommends that script should be left open, without the final closing ``
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/CloseTags.html
 	:og:locale: en
-  PHP manual recommends that script should be left open, without the final closing ``?>``. This way, one will avoid the infamous bug ``'Header already sent'``, associated with left-over spaces, that are lying after this closing tag.
+PHP manual recommends that script should be left open, without the final closing ``?>``. This way, one will avoid the infamous bug ``'Header already sent'``, associated with left-over spaces, that are lying after this closing tag.
 <?php
 
 // some code

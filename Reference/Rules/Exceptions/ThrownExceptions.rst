@@ -5,7 +5,7 @@
 Thrown Exceptions
 +++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Thrown Exceptions: This rules reports the usage of the ``throw`` keyword.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Thrown Exceptions
 	:og:description: This rules reports the usage of the ``throw`` keyword
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Exceptions/ThrownExceptions.html
 	:og:locale: en
-  This rules reports the usage of the ``throw`` keyword. This means all these exceptions are raised at some point in the code.
+This rules reports the usage of the ``throw`` keyword. This means all these exceptions are raised at some point in the code.
 
 .. code-block:: php
    

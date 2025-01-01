@@ -5,7 +5,7 @@
 ext/sqlsrv
 ++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/sqlsrv: Extension for Microsoft SQL Server Driver.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/sqlsrv
 	:og:description: Extension for Microsoft SQL Server Driver
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extsqlsrv.html
 	:og:locale: en
-  Extension for Microsoft SQL Server Driver.
+Extension for Microsoft SQL Server Driver.
 
 The SQLSRV extension allows you to access Microsoft SQL Server and SQL Azure databases when running PHP on Windows.
 

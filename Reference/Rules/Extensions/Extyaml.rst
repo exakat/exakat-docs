@@ -5,7 +5,7 @@
 ext/yaml
 ++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/yaml: Extension YAML.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/yaml
 	:og:description: Extension YAML
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extyaml.html
 	:og:locale: en
-  Extension YAML.
+Extension YAML.
 
 This extension implements the `YAML Ain't Markup Language <http://www.yaml.org/>`_ (YAML) data serialization standard. Parsing and emitting are handled by the `LibYAML <http://pyyaml.org/wiki/LibYAML>`_ library.
 

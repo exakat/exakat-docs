@@ -5,7 +5,7 @@
 Could Be Parent Method
 ++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Could Be Parent Method: A method is defined in several children, but not in a the parent class.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Could Be Parent Method
 	:og:description: A method is defined in several children, but not in a the parent class
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/CouldBeParentMethod.html
 	:og:locale: en
-  A method is defined in several children, but not in a the `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ class. It may be worth checking if this method doesn't belong the `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ class, as an abstraction.
+A method is defined in several children, but not in a the `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ class. It may be worth checking if this method doesn't belong the `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ class, as an abstraction.
 Only the name of the method is used is for gathering purposes. If the code has grown organically, the signature (default values, typehint, argument names) may have followed different path, and will require a refactorisation.
 
 .. code-block:: php

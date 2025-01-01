@@ -5,7 +5,7 @@
 Could Use Existing Constant
 +++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Could Use Existing Constant: This rule reports literals that have the same value as a constant, and, as such, might be used as a constant, instead of a literal.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Could Use Existing Constant
 	:og:description: This rule reports literals that have the same value as a constant, and, as such, might be used as a constant, instead of a literal
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Constants/CouldUseConstant.html
 	:og:locale: en
-  This rule reports literals that have the same value as a constant, and, as such, might be used as a constant, instead of a literal.
+This rule reports literals that have the same value as a constant, and, as such, might be used as a constant, instead of a literal.
 
 
 

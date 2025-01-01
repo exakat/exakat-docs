@@ -5,7 +5,7 @@
 Php 7.4 New Classes
 +++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Php 7.4 New Classes: New classes, introduced in PHP 7.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Php 7.4 New Classes
 	:og:description: New classes, introduced in PHP 7
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/Php74NewClasses.html
 	:og:locale: en
-  New classes, introduced in PHP 7.4. If classes where created with the same name, in current code, they have to be moved in a namespace, or removed from code to migrate safely to PHP 7.4.
+New classes, introduced in PHP 7.4. If classes where created with the same name, in current code, they have to be moved in a namespace, or removed from code to migrate safely to PHP 7.4.
 
 The new classes are : 
 

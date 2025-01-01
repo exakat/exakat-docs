@@ -5,7 +5,7 @@
 Undefined Parent
 ++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Undefined Parent: List of properties and methods that are accessed using ``parent`` keyword but are not defined in the parent classes.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Undefined Parent
 	:og:description: List of properties and methods that are accessed using ``parent`` keyword but are not defined in the parent classes
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/UndefinedParentMP.html
 	:og:locale: en
-  List of properties and methods that are accessed using ``parent`` keyword but are not defined in the `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ classes. 
+List of properties and methods that are accessed using ``parent`` keyword but are not defined in the `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ classes. 
 
 This may compile but, eventually yields a fatal `error <https://www.php.net/error>`_ during execution.
 

@@ -5,7 +5,7 @@
 Class Could Be Final
 ++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Class Could Be Final: Any class that has no extension should be ``final`` by default.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Class Could Be Final
 	:og:description: Any class that has no extension should be ``final`` by default
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/CouldBeFinal.html
 	:og:locale: en
-  Any class that has no extension should be ``final`` by default.
+Any class that has no extension should be ``final`` by default.
 
 As stated by ``Matthias Noback`` : ``If a class is not marked final, it has at least one subclass``.
 

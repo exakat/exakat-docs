@@ -5,7 +5,7 @@
 Php 8.0 Only TypeHints
 ++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Php 8.0 Only TypeHints: Three scalar typehints are introduced in version 8.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Php 8.0 Only TypeHints
 	:og:description: Three scalar typehints are introduced in version 8
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/Php80OnlyTypeHints.html
 	:og:locale: en
-  Three scalar typehints are introduced in version 8.0. They are ``mixed``, ``false`` and ``null``. 
+Three scalar typehints are introduced in version 8.0. They are ``mixed``, ``false`` and ``null``. 
 
 ``false`` represents a false boolean, and nothing else. It is more restrictive than a boolean, which accepts true too. 
 ``null`` is an alternative syntax to ``?`` : it allows the type to be ``null``. 

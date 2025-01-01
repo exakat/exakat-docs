@@ -5,7 +5,7 @@
 Parent, Static Or Self Outside Class
 ++++++++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Parent, Static Or Self Outside Class: Parent, static and self keywords must be used within a class, a trait, an interface or an enum.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Parent, Static Or Self Outside Class
 	:og:description: Parent, static and self keywords must be used within a class, a trait, an interface or an enum
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/PssWithoutClass.html
 	:og:locale: en
-  `Parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_, `static <https://www.php.net/manual/en/language.oop5.static.php>`_ and `self <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ keywords must be used within a class, a trait, an interface or an enum. They make no sense outside a class or trait scope, as `self <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ and `static <https://www.php.net/manual/en/language.oop5.static.php>`_ refers to the current class and `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ refers to one of `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ above.
+`Parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_, `static <https://www.php.net/manual/en/language.oop5.static.php>`_ and `self <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ keywords must be used within a class, a trait, an interface or an enum. They make no sense outside a class or trait scope, as `self <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ and `static <https://www.php.net/manual/en/language.oop5.static.php>`_ refers to the current class and `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ refers to one of `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ above.
 
 PHP 7.0 and later detect some of their usage at compile time, and emits a fatal `error <https://www.php.net/error>`_.
 `Static <https://www.php.net/manual/en/language.oop5.static.php>`_ may be used in a function or a `closure <https://www.php.net/`closure <https://www.php.net/closure>`_>`_, but not globally.

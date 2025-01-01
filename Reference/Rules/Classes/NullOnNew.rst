@@ -5,7 +5,7 @@
 Null On New
 +++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Null On New: Until PHP 7, some classes instantiation could yield null, instead of throwing an exception.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Null On New
 	:og:description: Until PHP 7, some classes instantiation could yield null, instead of throwing an exception
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/NullOnNew.html
 	:og:locale: en
-  Until PHP 7, some classes instantiation could yield null, instead of throwing an `exception <https://www.php.net/exception>`_. 
+Until PHP 7, some classes instantiation could yield null, instead of throwing an `exception <https://www.php.net/exception>`_. 
 
 After issuing a 'new' with those classes, it was important to check if the returned object were null or not. No `exception <https://www.php.net/exception>`_ were thrown.
 This inconsistency has been cleaned in PHP 7 : see See `Internal Constructor Behavior <https://wiki.php.net/rfc/internal_constructor_behaviour>`_

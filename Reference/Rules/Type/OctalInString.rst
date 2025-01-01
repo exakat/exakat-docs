@@ -5,7 +5,7 @@
 Invalid Octal In String
 +++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Invalid Octal In String: Any octal sequence inside a string can't be go \377.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Invalid Octal In String
 	:og:description: Any octal sequence inside a string can't be go \377
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Type/OctalInString.html
 	:og:locale: en
-  Any octal sequence inside a string can't be go \377. Those will be a fatal `error <https://www.php.net/error>`_ at parsing time. 
+Any octal sequence inside a string can't be go \377. Those will be a fatal `error <https://www.php.net/error>`_ at parsing time. 
 
 The check is applied to the string, starting with PHP 7.1. In PHP 7.0 and older, those sequences were silently adapted (modulo/% \400).
 

@@ -5,7 +5,7 @@
 Collect SetLocale
 +++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Collect SetLocale: This rule collects the second argument to all the calls to setlocale().
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Collect SetLocale
 	:og:description: This rule collects the second argument to all the calls to setlocale()
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/CollectSetLocale.html
 	:og:locale: en
-  This rule collects the second argument to all the calls to `setlocale() <https://www.php.net/setlocale>`_. This gives an overview of the which special locales are used in the code.
+This rule collects the second argument to all the calls to `setlocale() <https://www.php.net/setlocale>`_. This gives an overview of the which special locales are used in the code.
 
 .. code-block:: php
    

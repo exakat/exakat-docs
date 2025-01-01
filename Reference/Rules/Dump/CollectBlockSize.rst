@@ -5,7 +5,7 @@
 Collect Block Size
 ++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Collect Block Size: Collect block size for instructions such as for, foreach, while, do.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Collect Block Size
 	:og:description: Collect block size for instructions such as for, foreach, while, do
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/CollectBlockSize.html
 	:og:locale: en
-  Collect block size for instructions such as for, foreach, while, do...while, ifthen.
+Collect block size for instructions such as for, foreach, while, do...while, ifthen.
 
 This is a starting point for reviewing large blocks of code and extract methods.
 

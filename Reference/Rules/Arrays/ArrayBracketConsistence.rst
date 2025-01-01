@@ -5,7 +5,7 @@
 Array() / [  ] Consistence
 ++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Array() / [  ] Consistence: array() or [ ] is the favorite.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Array() / [  ] Consistence
 	:og:description: array() or [ ] is the favorite
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Arrays/ArrayBracketConsistence.html
 	:og:locale: en
-  `array() <https://www.php.net/array>`_ or [ ] is the favorite.
+`array() <https://www.php.net/array>`_ or [ ] is the favorite.
 
 `array() <https://www.php.net/array>`_ and [ ] have the same functional use. 
 

@@ -5,7 +5,7 @@
 Collect Throw Calls
 +++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Collect Throw Calls: This rule collects all `throw` command usage, along with the exception thrown and the calling method.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Collect Throw Calls
 	:og:description: This rule collects all `throw` command usage, along with the exception thrown and the calling method
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/CollectThrow.html
 	:og:locale: en
-  This rule collects all `throw` command usage, along with the `exception <https://www.php.net/exception>`_ thrown and the calling method.
+This rule collects all `throw` command usage, along with the `exception <https://www.php.net/exception>`_ thrown and the calling method.
 
 .. code-block:: php
    

@@ -5,7 +5,7 @@
 Undefined Constants
 +++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Undefined Constants: Constants definition can't be located.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Undefined Constants
 	:og:description: Constants definition can't be located
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Constants/UndefinedConstants.html
 	:og:locale: en
-  Constants definition can't be located.
+Constants definition can't be located.
 
 Those constants are not defined in the code, and will raise errors, or use the fallback mechanism of being treated like a string. 
 It is recommended to define them all, or to avoid using them.

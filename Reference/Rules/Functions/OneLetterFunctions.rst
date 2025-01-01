@@ -5,7 +5,7 @@
 One Letter Functions
 ++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		One Letter Functions: One letter functions seems to be really short for a meaningful name.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ One Letter Functions
 	:og:description: One letter functions seems to be really short for a meaningful name
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/OneLetterFunctions.html
 	:og:locale: en
-  One letter functions seems to be really short for a meaningful name. This may happens for very high usage functions, so as to keep code short, but such functions should be rare.
+One letter functions seems to be really short for a meaningful name. This may happens for very high usage functions, so as to keep code short, but such functions should be rare.
 
 .. code-block:: php
    

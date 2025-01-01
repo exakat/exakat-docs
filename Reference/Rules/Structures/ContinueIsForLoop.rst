@@ -5,7 +5,7 @@
 Continue Is For Loop
 ++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Continue Is For Loop: break and continue are very similar in PHP : they both break out of loop or switch.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Continue Is For Loop
 	:og:description: break and continue are very similar in PHP : they both break out of loop or switch
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ContinueIsForLoop.html
 	:og:locale: en
-  `break <https://www.php.net/manual/en/control-structures.break.php>`_ and `continue <https://www.php.net/manual/en/control-structures.continue.php>`_ are very similar in PHP : they both `break <https://www.php.net/manual/en/control-structures.break.php>`_ out of loop or switch. Yet, `continue <https://www.php.net/manual/en/control-structures.continue.php>`_ should be reserved for loops.
+`break <https://www.php.net/manual/en/control-structures.break.php>`_ and `continue <https://www.php.net/manual/en/control-structures.continue.php>`_ are very similar in PHP : they both `break <https://www.php.net/manual/en/control-structures.break.php>`_ out of loop or switch. Yet, `continue <https://www.php.net/manual/en/control-structures.continue.php>`_ should be reserved for loops.
 
 Since PHP 7.3, the execution emits a warning when finding a ``continue`` inside a ``switch`` : '"`continue <https://www.php.net/manual/en/control-structures.continue.php>`_" targeting switch is equivalent to "`break <https://www.php.net/manual/en/control-structures.break.php>`_". Did you mean to use "`continue <https://www.php.net/manual/en/control-structures.continue.php>`_ 2"?'
 

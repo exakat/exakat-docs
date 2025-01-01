@@ -5,7 +5,7 @@
 ext/svm
 +++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/svm: Extension ``SVM``.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/svm
 	:og:description: Extension ``SVM``
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extsvm.html
 	:og:locale: en
-  Extension ``SVM``.
+Extension ``SVM``.
 
 ``SVM`` is in interface with the ``libsvm``, from . ``libsvm``is a library for Support Vector Machines, a classification tool for machine learning.
 

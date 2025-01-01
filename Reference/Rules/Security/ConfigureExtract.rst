@@ -5,7 +5,7 @@
 Configure Extract
 +++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Configure Extract: The extract() function overwrites local variables when left unconfigured.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Configure Extract
 	:og:description: The extract() function overwrites local variables when left unconfigured
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Security/ConfigureExtract.html
 	:og:locale: en
-  The `extract() <https://www.php.net/extract>`_ function overwrites local variables when left unconfigured.
+The `extract() <https://www.php.net/extract>`_ function overwrites local variables when left unconfigured.
 
 Extract imports variables from an array into the local scope. In case of a conflict, that is when a local variable already exists, it overwrites the previous variable.
 

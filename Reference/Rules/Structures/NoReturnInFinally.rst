@@ -5,7 +5,7 @@
 No Return Or Throw In Finally
 +++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		No Return Or Throw In Finally: Avoid using return and throw in a finally block.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ No Return Or Throw In Finally
 	:og:description: Avoid using return and throw in a finally block
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/NoReturnInFinally.html
 	:og:locale: en
-  Avoid using return and throw in a finally block. Both command will interrupt the processing of the try catch block, and any `exception <https://www.php.net/exception>`_ that was emitted will not be processed. This leads to unprocessed exceptions, leaving the application in an unstable state.
+Avoid using return and throw in a finally block. Both command will interrupt the processing of the try catch block, and any `exception <https://www.php.net/exception>`_ that was emitted will not be processed. This leads to unprocessed exceptions, leaving the application in an unstable state.
 
 Note that PHP prevents the usage of goto, `break <https://www.php.net/manual/en/control-structures.break.php>`_ and `continue <https://www.php.net/manual/en/control-structures.continue.php>`_ within the finally block at linting phase. This is categorized as a Security problem.
 

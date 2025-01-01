@@ -5,7 +5,7 @@
 ext/mbstring
 ++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/mbstring: Extension ``ext/mbstring``.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/mbstring
 	:og:description: Extension ``ext/mbstring``
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extmbstring.html
 	:og:locale: en
-  Extension ``ext/mbstring``.
+Extension ``ext/mbstring``.
 
 ``mbstring`` provides multibyte specific string functions that help you deal with multibyte encodings in PHP.
 

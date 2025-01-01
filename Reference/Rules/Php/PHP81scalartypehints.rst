@@ -5,7 +5,7 @@
 PHP 8.1 Typehints
 +++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		PHP 8.1 Typehints: A new scalar typehint was introduced : never.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ PHP 8.1 Typehints
 	:og:description: A new scalar typehint was introduced : never
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/PHP81scalartypehints.html
 	:og:locale: en
-  A new scalar typehint was introduced : never. 
+A new scalar typehint was introduced : never. 
 
 It can't be used before PHP 8.1, and will be confused with classes or interfaces.
 

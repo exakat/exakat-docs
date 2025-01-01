@@ -5,7 +5,7 @@
 Immutable Signature
 +++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Immutable Signature: Overwrites makes refactoring a method signature difficult.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Immutable Signature
 	:og:description: Overwrites makes refactoring a method signature difficult
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/ImmutableSignature.html
 	:og:locale: en
-  Overwrites makes refactoring a method signature difficult. PHP enforces compatible signature, by checking if arguments have the same type, reference and default values.
+Overwrites makes refactoring a method signature difficult. PHP enforces compatible signature, by checking if arguments have the same type, reference and default values.
 
 In PHP 7.3, typehint had to be the same, or dropped. In PHP 7.4, typehint may be contravariant (arguments), or covariant (returntype). 
 

@@ -5,7 +5,7 @@
 $this Is Not An Array
 +++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		$this Is Not An Array: ``$this`` variable represents the current object and it is not an array.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ $this Is Not An Array
 	:og:description: ``$this`` variable represents the current object and it is not an array
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/ThisIsNotAnArray.html
 	:og:locale: en
-  ``$this`` variable represents the current object and it is not an array. 
+``$this`` variable represents the current object and it is not an array. 
 
 This is unless the class (or its parents) has the ``ArrayAccess`` interface, or extends ``ArrayObject`` or ``SimpleXMLElement``.
 

@@ -5,7 +5,7 @@
 Conditioned Function
 ++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Conditioned Function: Indicates if a function is defined only if a condition is met.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Conditioned Function
 	:og:description: Indicates if a function is defined only if a condition is met
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/ConditionedFunctions.html
 	:og:locale: en
-  Indicates if a function is defined only if a condition is met.
+Indicates if a function is defined only if a condition is met.
 
 .. code-block:: php
    

@@ -5,7 +5,7 @@
 ext/gmagick
 +++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/gmagick: Extension gmagick.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/gmagick
 	:og:description: Extension gmagick
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extgmagick.html
 	:og:locale: en
-  Extension gmagick.
+Extension gmagick.
 
 Gmagick is a php extension to create, modify and obtain meta information of images using the GraphicsMagick API.
 

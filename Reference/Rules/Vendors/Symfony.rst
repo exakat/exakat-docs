@@ -5,7 +5,7 @@
 Symfony usage
 +++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Symfony usage: This analysis reports usage of the Symfony framework.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Symfony usage
 	:og:description: This analysis reports usage of the Symfony framework
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Vendors/Symfony.html
 	:og:locale: en
-  This analysis reports usage of the Symfony framework.
+This analysis reports usage of the Symfony framework.
 
 .. code-block:: php
    

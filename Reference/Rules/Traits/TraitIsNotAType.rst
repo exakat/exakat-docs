@@ -5,7 +5,7 @@
 Trait Is Not A Type
 +++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Trait Is Not A Type: A trait cannot be used for typing.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Trait Is Not A Type
 	:og:description: A trait cannot be used for typing
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Traits/TraitIsNotAType.html
 	:og:locale: en
-  A trait cannot be used for typing. It is used by a classes, and those classes should be used for typing.
+A trait cannot be used for typing. It is used by a classes, and those classes should be used for typing.
 
 .. code-block:: php
    

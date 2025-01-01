@@ -5,7 +5,7 @@
 Use Basename Suffix
 +++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Use Basename Suffix: basename() is able to remove a file extension when it is provided as argument.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Use Basename Suffix
 	:og:description: basename() is able to remove a file extension when it is provided as argument
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/BasenameSuffix.html
 	:og:locale: en
-  `basename() <https://www.php.net/basename>`_ is able to remove a file extension when it is provided as argument. The second argument is removed from the name of the file.
+`basename() <https://www.php.net/basename>`_ is able to remove a file extension when it is provided as argument. The second argument is removed from the name of the file.
 Using `basename() <https://www.php.net/basename>`_ instead of `substr() <https://www.php.net/substr>`_ or else, makes the intention clear.
 
 .. code-block:: php

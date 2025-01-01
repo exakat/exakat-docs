@@ -5,7 +5,7 @@
 Phalcon Usage
 +++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Phalcon Usage: This analysis reports usage of the Phalcon Framework.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Phalcon Usage
 	:og:description: This analysis reports usage of the Phalcon Framework
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Vendors/Phalcon.html
 	:og:locale: en
-  This analysis reports usage of the Phalcon Framework. The report is based on the usage of Phalcon namespace, which may be provided by PHP code inclusion or the PHP extension.
+This analysis reports usage of the Phalcon Framework. The report is based on the usage of Phalcon namespace, which may be provided by PHP code inclusion or the PHP extension.
 
 .. code-block:: php
    

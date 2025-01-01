@@ -5,7 +5,7 @@
 Unset In Foreach
 ++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Unset In Foreach: Unset applied to the variables of a ``foreach`` loop are useless.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Unset In Foreach
 	:og:description: Unset applied to the variables of a ``foreach`` loop are useless
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/UnsetInForeach.html
 	:og:locale: en
-  Unset applied to the variables of a ``foreach`` loop are useless. Those variables are copies and not the actual value. Even if the value is a reference, unsetting it has no effect on the original array : the only effect may be indirect, on elements inside an array, or on properties inside an object.
+Unset applied to the variables of a ``foreach`` loop are useless. Those variables are copies and not the actual value. Even if the value is a reference, unsetting it has no effect on the original array : the only effect may be indirect, on elements inside an array, or on properties inside an object.
 
 .. code-block:: php
    

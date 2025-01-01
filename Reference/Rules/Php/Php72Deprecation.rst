@@ -5,7 +5,7 @@
 PHP 7.2 Deprecations
 ++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		PHP 7.2 Deprecations: Several functions are deprecated in PHP 7.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ PHP 7.2 Deprecations
 	:og:description: Several functions are deprecated in PHP 7
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/Php72Deprecation.html
 	:og:locale: en
-  Several functions are deprecated in PHP 7.2. 
+Several functions are deprecated in PHP 7.2. 
 
 * `parse_str() <https://www.php.net/parse_str>`_ with no second argument
 * `assert() <https://www.php.net/assert>`_ on strings

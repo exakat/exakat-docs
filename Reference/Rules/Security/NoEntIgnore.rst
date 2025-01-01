@@ -5,7 +5,7 @@
 No ENT_IGNORE
 +++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		No ENT_IGNORE: Certain characters have special significance in HTML, and should be represented by HTML entities if they are to preserve their meanings.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ No ENT_IGNORE
 	:og:description: Certain characters have special significance in HTML, and should be represented by HTML entities if they are to preserve their meanings
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Security/NoEntIgnore.html
 	:og:locale: en
-  Certain characters have special significance in HTML, and should be represented by HTML entities if they are to preserve their meanings.
+Certain characters have special significance in HTML, and should be represented by HTML entities if they are to preserve their meanings.
 
 `ENT_IGNORE <https://www.php.net/ENT_IGNORE>`_ is a configuration option for `htmlspecialchars() <https://www.php.net/htmlspecialchars>`_, that ignore any needed character replacement. This mean the raw input will now be processed by PHP, or a target browser.
 

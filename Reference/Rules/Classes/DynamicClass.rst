@@ -5,7 +5,7 @@
 Dynamic Classes
 +++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Dynamic Classes: Dynamic calls of classes.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Dynamic Classes
 	:og:description: Dynamic calls of classes
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/DynamicClass.html
 	:og:locale: en
-  Dynamic calls of classes.
+Dynamic calls of classes.
 
 .. code-block:: php
    

@@ -5,7 +5,7 @@
 Collect Methods Throwing Exceptions
 +++++++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Collect Methods Throwing Exceptions: This is a list of all the methods and functions that throw exception.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Collect Methods Throwing Exceptions
 	:og:description: This is a list of all the methods and functions that throw exception
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/CollectMethodsThrowingExceptions.html
 	:og:locale: en
-  This is a list of all the methods and functions that throw `exception <https://www.php.net/exception>`_.
+This is a list of all the methods and functions that throw `exception <https://www.php.net/exception>`_.
 
 This rule reports explicit throw's, and doesn't list exceptions passing through : for example, when the `exception <https://www.php.net/exception>`_ is thrown in a sub-call, but not caught yet.
 

@@ -5,7 +5,7 @@
 Modify Immutable
 ++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Modify Immutable: A class, marked as immutable, is being modified.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Modify Immutable
 	:og:description: A class, marked as immutable, is being modified
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Attributes/ModifyImmutable.html
 	:og:locale: en
-  A class, marked as immutable, is being modified. 
+A class, marked as immutable, is being modified. 
 
 This `attribute <https://www.php.net/attribute>`_ is supported as a PHPdoc comment, `@immutable, and as a PHP 8.0 `attribute <https://www.php.net/attribute>`_.
 

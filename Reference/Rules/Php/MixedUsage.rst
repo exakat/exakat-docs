@@ -5,7 +5,7 @@
 Mixed Typehint Usage
 ++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Mixed Typehint Usage: Usage of the mixed typehint.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Mixed Typehint Usage
 	:og:description: Usage of the mixed typehint
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/MixedUsage.html
 	:og:locale: en
-  Usage of the mixed typehint.
+Usage of the mixed typehint.
 
 .. code-block:: php
    

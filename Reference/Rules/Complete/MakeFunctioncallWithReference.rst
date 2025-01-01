@@ -5,7 +5,7 @@
 Make Functioncall With Reference
 ++++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Make Functioncall With Reference: Mark parameters as ``isModified`` if the functioncall uses reference.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Make Functioncall With Reference
 	:og:description: Mark parameters as ``isModified`` if the functioncall uses reference
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Complete/MakeFunctioncallWithReference.html
 	:og:locale: en
-  Mark parameters as ``isModified`` if the functioncall uses reference.
+Mark parameters as ``isModified`` if the functioncall uses reference.
 
 This works on PHP native functions and custom functions.
 

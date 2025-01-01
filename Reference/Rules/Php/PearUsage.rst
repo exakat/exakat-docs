@@ -5,7 +5,7 @@
 Pear Usage
 ++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Pear Usage: Pear Usage : list of Pear packages in use.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Pear Usage
 	:og:description: Pear Usage : list of Pear packages in use
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/PearUsage.html
 	:og:locale: en
-  Pear Usage : list of Pear packages in use.
+Pear Usage : list of Pear packages in use.
 
 .. code-block:: php
    

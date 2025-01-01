@@ -5,7 +5,7 @@
 ext/gearman
 +++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/gearman: Extension Gearman.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/gearman
 	:og:description: Extension Gearman
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extgearman.html
 	:og:locale: en
-  Extension Gearman.
+Extension Gearman.
 
 Gearman is a generic application framework for farming out work to multiple machines or processes.
 

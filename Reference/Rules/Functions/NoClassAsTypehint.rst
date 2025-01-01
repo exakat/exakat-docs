@@ -5,7 +5,7 @@
 No Class As Typehint
 ++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		No Class As Typehint: Avoid using concrete classes as typehint : always use interfaces or abstract classes.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ No Class As Typehint
 	:og:description: Avoid using concrete classes as typehint : always use interfaces or abstract classes
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/NoClassAsTypehint.html
 	:og:locale: en
-  Avoid using concrete classes as typehint : always use interfaces or abstract classes. This way, different classes, or versions of classes may be passed as argument. The typehint is not linked to an implementation, but to signatures.
+Avoid using concrete classes as typehint : always use interfaces or abstract classes. This way, different classes, or versions of classes may be passed as argument. The typehint is not linked to an implementation, but to signatures.
 
 A class is needed when the object is with properties : interfaces do not allow the specifications of properties.
 

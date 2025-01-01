@@ -5,7 +5,7 @@
 Aliases
 +++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Aliases: This rule lists all aliases.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Aliases
 	:og:description: This rule lists all aliases
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Namespaces/Alias.html
 	:og:locale: en
-  This rule lists all aliases. Aliases are used file by file, although some classes may have different aliases depending on the context.
+This rule lists all aliases. Aliases are used file by file, although some classes may have different aliases depending on the context.
 
 .. code-block:: php
    

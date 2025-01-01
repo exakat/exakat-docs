@@ -5,7 +5,7 @@
 Dynamic Methodcall
 ++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Dynamic Methodcall: Dynamic calls to class methods.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Dynamic Methodcall
 	:og:description: Dynamic calls to class methods
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/DynamicMethodCall.html
 	:og:locale: en
-  Dynamic calls to class methods.
+Dynamic calls to class methods.
 
 .. code-block:: php
    

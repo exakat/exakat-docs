@@ -5,7 +5,7 @@
 Assign And Lettered Logical Operator Precedence
 +++++++++++++++++++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Assign And Lettered Logical Operator Precedence: The lettered logical operators ``and``, ``or`` and ``xor`` have lower precedence than assignation.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Assign And Lettered Logical Operator Precedence
 	:og:description: The lettered logical operators ``and``, ``or`` and ``xor`` have lower precedence than assignation
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/AssignAnd.html
 	:og:locale: en
-  The lettered logical operators ``and``, ``or`` and ``xor`` have lower precedence than assignation. It collects less information than expected.
+The lettered logical operators ``and``, ``or`` and ``xor`` have lower precedence than assignation. It collects less information than expected.
 
 When that precedence is taken into account, this is valid and useful code. Yet, as it is rare and surprising to many developers, it is recommended to avoid it.
 

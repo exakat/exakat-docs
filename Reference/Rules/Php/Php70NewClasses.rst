@@ -5,7 +5,7 @@
 PHP 7.0 New Classes
 +++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		PHP 7.0 New Classes: Those classes are now declared natively in PHP 7.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ PHP 7.0 New Classes
 	:og:description: Those classes are now declared natively in PHP 7
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/Php70NewClasses.html
 	:og:locale: en
-  Those classes are now declared natively in PHP 7.0 and should not be declared in custom code. 
+Those classes are now declared natively in PHP 7.0 and should not be declared in custom code. 
 
 There are 8 new classes : 
 

@@ -5,7 +5,7 @@
 Break With Non Integer
 ++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Break With Non Integer: When using a break, the argument of the operator must be a positive non-null integer literal or be omitted.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Break With Non Integer
 	:og:description: When using a break, the argument of the operator must be a positive non-null integer literal or be omitted
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/BreakNonInteger.html
 	:og:locale: en
-  When using a `break <https://www.php.net/manual/en/control-structures.break.php>`_, the argument of the operator must be a positive non-null integer literal or be omitted.
+When using a `break <https://www.php.net/manual/en/control-structures.break.php>`_, the argument of the operator must be a positive non-null integer literal or be omitted.
 
 Other values were acceptable in PHP 5.3 and previous version, but this is now reported as an `error <https://www.php.net/error>`_.
 

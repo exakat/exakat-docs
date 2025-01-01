@@ -5,7 +5,7 @@
 Set Aside Code
 ++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Set Aside Code: Setting aside code should be made into a method.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Set Aside Code
 	:og:description: Setting aside code should be made into a method
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/SetAside.html
 	:og:locale: en
-  Setting aside code should be made into a method. 
+Setting aside code should be made into a method. 
 
 Setting aside code happens when one variable or member is stored locally, to be temporarily replaced by another value. Once the new value has been processed, the original value is reverted.
 

@@ -5,7 +5,7 @@
 Weak Type With Array
 ++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Weak Type With Array: Using array as a type, to use specific index later.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Weak Type With Array
 	:og:description: Using array as a type, to use specific index later
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Arrays/WeakType.html
 	:og:locale: en
-  Using array as a type, to use specific index later.
+Using array as a type, to use specific index later.
 
 The type of array is too weak : it allows to know that the array syntax has to be used in the function. Yet, it doesn't enforce the presence or absence of a specific index.
 

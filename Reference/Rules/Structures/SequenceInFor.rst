@@ -5,7 +5,7 @@
 Sequences In For
 ++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Sequences In For: For() instructions allow several instructions in each of its parameters.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Sequences In For
 	:og:description: For() instructions allow several instructions in each of its parameters
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/SequenceInFor.html
 	:og:locale: en
-  `For() <https://www.php.net/manual/en/control-structures.for.php>`_ instructions allow several instructions in each of its parameters. Then, the instruction separator is comma ',', not semi-colon, which is used for separating the 3 arguments.
+`For() <https://www.php.net/manual/en/control-structures.for.php>`_ instructions allow several instructions in each of its parameters. Then, the instruction separator is comma ',', not semi-colon, which is used for separating the 3 arguments.
 This loop will simultaneously increment `$a` and `$b`. It will stop only when the last of the central sequence reach a value of false : here, when `$b` reach 20 and `$a` will be 6. 
 
 This structure is rarely used, and makes the `for()` instruction quite difficult to read. It is also easy to oversee the multiples instructions, and omit one of them.

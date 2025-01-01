@@ -5,7 +5,7 @@
 Missing __isset() Method
 ++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Missing __isset() Method: When using empty() on magic properties, the magic method __isset() must be implemented.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Missing __isset() Method
 	:og:description: When using empty() on magic properties, the magic method __isset() must be implemented
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/MissingMagicIsset.html
 	:og:locale: en
-  When using empty() on magic properties, the magic method `__isset() <https://www.php.net/manual/en/language.oop5.magic.php>`_ must be implemented.
+When using empty() on magic properties, the magic method `__isset() <https://www.php.net/manual/en/language.oop5.magic.php>`_ must be implemented.
 
 .. code-block:: php
    

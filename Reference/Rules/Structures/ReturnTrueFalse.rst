@@ -5,7 +5,7 @@
 Return True False
 +++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Return True False: These conditional expressions return true/false, depending on the condition.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Return True False
 	:og:description: These conditional expressions return true/false, depending on the condition
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ReturnTrueFalse.html
 	:og:locale: en
-  These conditional expressions return true/false, depending on the condition. This may be simplified by dropping the control structure altogether.
+These conditional expressions return true/false, depending on the condition. This may be simplified by dropping the control structure altogether.
 This may be simplified with : 
 This may be applied to assignations and ternary operators too.
 

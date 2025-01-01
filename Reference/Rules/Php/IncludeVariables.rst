@@ -5,7 +5,7 @@
 Include Variables
 +++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Include Variables: This rule reports when ``include``, ``require`` and its cousins, are used with a variable, or any data container.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Include Variables
 	:og:description: This rule reports when ``include``, ``require`` and its cousins, are used with a variable, or any data container
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/IncludeVariables.html
 	:og:locale: en
-  This rule reports when ``include``, ``require`` and its cousins, are used with a variable, or any data container. This is a dynamic inclusion.
+This rule reports when ``include``, ``require`` and its cousins, are used with a variable, or any data container. This is a dynamic inclusion.
 
 .. code-block:: php
    

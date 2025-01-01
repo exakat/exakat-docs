@@ -5,7 +5,7 @@
 Is Not Class Family
 +++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Is Not Class Family: Mark a static method call as inside the family of classes.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Is Not Class Family
 	:og:description: Mark a static method call as inside the family of classes
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/IsNotFamily.html
 	:og:locale: en
-  Mark a `static <https://www.php.net/manual/en/language.oop5.static.php>`_ method call as inside the family of classes. Children are not considered here.
+Mark a `static <https://www.php.net/manual/en/language.oop5.static.php>`_ method call as inside the family of classes. Children are not considered here.
 
 .. code-block:: php
    

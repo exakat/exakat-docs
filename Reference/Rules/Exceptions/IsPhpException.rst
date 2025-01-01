@@ -5,7 +5,7 @@
 PHP Exception
 +++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		PHP Exception: Mark an exception as a native exception.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ PHP Exception
 	:og:description: Mark an exception as a native exception
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Exceptions/IsPhpException.html
 	:og:locale: en
-  Mark an `exception <https://www.php.net/exception>`_ as a native `exception <https://www.php.net/exception>`_. They may come from PHP standard distribution or an extension.
+Mark an `exception <https://www.php.net/exception>`_ as a native `exception <https://www.php.net/exception>`_. They may come from PHP standard distribution or an extension.
 
 .. code-block:: php
    

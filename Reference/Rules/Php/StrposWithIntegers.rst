@@ -5,7 +5,7 @@
 strpos() With Integers
 ++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		strpos() With Integers: strpos() used to accept integer as second argument, and turn them into their ASCII equivalent.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ strpos() With Integers
 	:og:description: strpos() used to accept integer as second argument, and turn them into their ASCII equivalent
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/StrposWithIntegers.html
 	:og:locale: en
-  `strpos() <https://www.php.net/strpos>`_ used to accept integer as second argument, and turn them into their ASCII equivalent. This was deprecated in PHP 7.x, and dropped in 8.0.
+`strpos() <https://www.php.net/strpos>`_ used to accept integer as second argument, and turn them into their ASCII equivalent. This was deprecated in PHP 7.x, and dropped in 8.0.
 
 It is recommended to use casting to ensure the variable is actually strings, and `strpos() <https://www.php.net/strpos>`_ behaves as expected.
 

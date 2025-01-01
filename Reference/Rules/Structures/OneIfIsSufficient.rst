@@ -5,7 +5,7 @@
 One If Is Sufficient
 ++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		One If Is Sufficient: Nested conditions may be rewritten another way, to reduce the amount of code.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ One If Is Sufficient
 	:og:description: Nested conditions may be rewritten another way, to reduce the amount of code
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/OneIfIsSufficient.html
 	:og:locale: en
-  Nested conditions may be rewritten another way, to reduce the amount of code.
+Nested conditions may be rewritten another way, to reduce the amount of code.
 
 Nested conditions are equivalent to an ``&&`` condition. As such, they may be switched. When one of the condition has no explicit else, then it is lighter to write it as the first condition. This way, it is written once, and not repeated.
 

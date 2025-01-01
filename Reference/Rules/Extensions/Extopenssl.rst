@@ -5,7 +5,7 @@
 ext/openssl
 +++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/openssl: Extension Openssl.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/openssl
 	:og:description: Extension Openssl
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extopenssl.html
 	:og:locale: en
-  Extension Openssl.
+Extension Openssl.
 
 This extension binds functions of ``OpenSSL`` library for symmetric and asymmetric encryption and decryption, ``PBKDF2``, ``PKCS7``, ``PKCS12``, ``X509`` and other cryptographic operations. In addition to that it provides implementation of ``TLS`` streams.
 

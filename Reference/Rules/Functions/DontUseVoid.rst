@@ -5,7 +5,7 @@
 Don't Collect Void
 ++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Don't Collect Void: When a method has the return type void, there is no need to collect the result.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Don't Collect Void
 	:og:description: When a method has the return type void, there is no need to collect the result
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/DontUseVoid.html
 	:og:locale: en
-  When a method has the return type void, there is no need to collect the `result <https://www.php.net/result>`_. The collected value is always ``null``.
+When a method has the return type void, there is no need to collect the `result <https://www.php.net/result>`_. The collected value is always ``null``.
 
 With a ``void`` return type, the method is intented to be without return value. This analysis also include methods which are not returning anything, and could be completed with a ``void`` returntype.
 

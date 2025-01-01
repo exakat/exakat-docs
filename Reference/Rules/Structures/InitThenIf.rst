@@ -5,7 +5,7 @@
 Init Then Update
 ++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Init Then Update: This is a structure where the variable is initialized in the main sequence of the code, then adapted to another value in a subsequent if structure.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Init Then Update
 	:og:description: This is a structure where the variable is initialized in the main sequence of the code, then adapted to another value in a subsequent if structure
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/InitThenIf.html
 	:og:locale: en
-  This is a structure where the variable is initialized in the main sequence of the code, then adapted to another value in a subsequent if structure.
+This is a structure where the variable is initialized in the main sequence of the code, then adapted to another value in a subsequent if structure.
 
 
 

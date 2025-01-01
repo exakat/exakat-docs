@@ -5,7 +5,7 @@
 ext/ds
 ++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/ds: Extension Data Structures : `Data structures <http://docs.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/ds
 	:og:description: Extension Data Structures : `Data structures <http://docs
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extds.html
 	:og:locale: en
-  Extension Data Structures : `Data structures <http://docs.php.net/manual/en/book.ds.php>`_.
+Extension Data Structures : `Data structures <http://docs.php.net/manual/en/book.ds.php>`_.
 
 .. code-block:: php
    

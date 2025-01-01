@@ -5,7 +5,7 @@
 Constant Definition
 +++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Constant Definition: List of class constants being defined.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Constant Definition
 	:og:description: List of class constants being defined
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/ConstantDefinition.html
 	:og:locale: en
-  List of class constants being defined.
+List of class constants being defined.
 
 .. code-block:: php
    

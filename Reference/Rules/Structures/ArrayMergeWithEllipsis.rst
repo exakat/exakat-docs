@@ -5,7 +5,7 @@
 array_merge With Ellipsis
 +++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		array_merge With Ellipsis: Ellipsis, or .
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ array_merge With Ellipsis
 	:og:description: Ellipsis, or 
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ArrayMergeWithEllipsis.html
 	:og:locale: en
-  Ellipsis, or `... <https://www.php.net/manual/en/functions.arguments.php#functions.variable-arg-list>`_, returns a null when the operand array is empty. This doesn't suit `array_merge() <https://www.php.net/array_merge>`_. 
+Ellipsis, or `... <https://www.php.net/manual/en/functions.arguments.php#functions.variable-arg-list>`_, returns a null when the operand array is empty. This doesn't suit `array_merge() <https://www.php.net/array_merge>`_. 
 
 It is recommended to use a coalesce operator, to handle graciously an empty array : use an empty array as default value.
 

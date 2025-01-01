@@ -5,7 +5,7 @@
 Dangling Array References
 +++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Dangling Array References: Always unset a referenced-variable used in a loop.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Dangling Array References
 	:og:description: Always unset a referenced-variable used in a loop
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/DanglingArrayReferences.html
 	:og:locale: en
-  Always unset a referenced-variable used in a loop.
+Always unset a referenced-variable used in a loop.
 
 It is highly recommended to unset blind variables when they are set up as references after a loop. 
 When omitting this step, the next loop that will also require this variable will deal with garbage values, and produce unexpected results.

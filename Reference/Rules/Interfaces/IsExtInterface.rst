@@ -5,7 +5,7 @@
 Is An Extension Interface
 +++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Is An Extension Interface: This is an interface defined in a PHP C extension.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Is An Extension Interface
 	:og:description: This is an interface defined in a PHP C extension
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Interfaces/IsExtInterface.html
 	:og:locale: en
-  This is an interface defined in a PHP C extension.
+This is an interface defined in a PHP C extension.
 
 .. code-block:: php
    

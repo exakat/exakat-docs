@@ -5,7 +5,7 @@
 Use Arrow Functions
 +++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Use Arrow Functions: Arrow functions are closures that require one expression of code.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Use Arrow Functions
 	:og:description: Arrow functions are closures that require one expression of code
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/UseArrowFunctions.html
 	:og:locale: en
-  Arrow functions are closures that require one expression of code. They also include all the variables of the current context, unless they are made `static <https://www.php.net/manual/en/language.oop5.static.php>`_.
+Arrow functions are closures that require one expression of code. They also include all the variables of the current context, unless they are made `static <https://www.php.net/manual/en/language.oop5.static.php>`_.
 
 Arrow functions were introduced in PHP 7.4. They added the reserved keyword ``fn``.
 

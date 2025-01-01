@@ -5,7 +5,7 @@
 Multiple Identical Trait Or Interface
 +++++++++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Multiple Identical Trait Or Interface: There is no need to use the same trait, or implements the same interface more than once in a class.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Multiple Identical Trait Or Interface
 	:og:description: There is no need to use the same trait, or implements the same interface more than once in a class
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/MultipleTraitOrInterface.html
 	:og:locale: en
-  There is no need to use the same trait, or implements the same interface more than once in a class.
+There is no need to use the same trait, or implements the same interface more than once in a class.
 
 Up to PHP 7.4, this doesn't raise any warning. Traits are only imported once, and interfaces may be implemented as many times as wanted.
 

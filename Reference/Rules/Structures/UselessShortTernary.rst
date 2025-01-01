@@ -5,7 +5,7 @@
 Useless Short Ternary
 +++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Useless Short Ternary: The short ternary operates on empty or null values.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Useless Short Ternary
 	:og:description: The short ternary operates on empty or null values
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/UselessShortTernary.html
 	:og:locale: en
-  The short ternary operates on empty or null values. When the type of the condition is not false, boolean or null, the operator is useless.
+The short ternary operates on empty or null values. When the type of the condition is not false, boolean or null, the operator is useless.
 
 .. code-block:: php
    

@@ -5,7 +5,7 @@
 New Functions In PHP 5.4
 ++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		New Functions In PHP 5.4: PHP introduced new functions in PHP 5.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ New Functions In PHP 5.4
 	:og:description: PHP introduced new functions in PHP 5
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/Php54NewFunctions.html
 	:og:locale: en
-  PHP introduced new functions in PHP 5.4. If there are defined functions with such names, there will be a conflict when upgrading. It is advised to change those functions' name.
+PHP introduced new functions in PHP 5.4. If there are defined functions with such names, there will be a conflict when upgrading. It is advised to change those functions' name.
 
 + `hex2bin() <https://www.php.net/hex2bin>`_
 + `http_response_code() <https://www.php.net/http_response_code>`_

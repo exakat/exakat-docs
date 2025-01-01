@@ -5,7 +5,7 @@
 Use Constant Instead Of Function
 ++++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Use Constant Instead Of Function: Some functioncalls have a constant equivalent, that is faster to execute than calling the function.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Use Constant Instead Of Function
 	:og:description: Some functioncalls have a constant equivalent, that is faster to execute than calling the function
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/UseConstant.html
 	:og:locale: en
-  Some functioncalls have a constant equivalent, that is faster to execute than calling the function. 
+Some functioncalls have a constant equivalent, that is faster to execute than calling the function. 
 
 This applies to the following functions : 
 

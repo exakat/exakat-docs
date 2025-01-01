@@ -5,7 +5,7 @@
 Global In Global
 ++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Global In Global: List of global variables.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Global In Global
 	:og:description: List of global variables
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/GlobalInGlobal.html
 	:og:locale: en
-  List of global variables. There are the global variables, defined with the global keyword, and the implicit global variables, defined in the global scope.
+List of global variables. There are the global variables, defined with the global keyword, and the implicit global variables, defined in the global scope.
 
 .. code-block:: php
    

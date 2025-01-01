@@ -5,7 +5,7 @@
 Ellipsis Usage
 ++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Ellipsis Usage: Usage of the ellipsis keyword.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Ellipsis Usage
 	:og:description: Usage of the ellipsis keyword
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/EllipsisUsage.html
 	:og:locale: en
-  Usage of the ellipsis keyword. The keyword is three dots : ``...`` . It is also named variadic or splat operator.
+Usage of the ellipsis keyword. The keyword is three dots : ``...`` . It is also named variadic or splat operator.
 
 It may be in function definitions and function calls; it may be in arrays; it is also usable with parenthesis.
 

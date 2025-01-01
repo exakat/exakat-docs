@@ -5,7 +5,7 @@
 Fully Qualified Constants
 +++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Fully Qualified Constants: Constants defined with their namespace.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Fully Qualified Constants
 	:og:description: Constants defined with their namespace
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Namespaces/ConstantFullyQualified.html
 	:og:locale: en
-  Constants defined with their namespace.
+Constants defined with their namespace.
 
 When defining constants with `define() <https://www.php.net/define>`_ function, it is possible to include the actual namespace : 
 However, the name should be fully qualified without the initial \. Here, \a\b\c constant will never be accessible as a namespace constant, though it will be accessible via the `constant() <https://www.php.net/constant>`_ function.

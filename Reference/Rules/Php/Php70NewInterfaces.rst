@@ -5,7 +5,7 @@
 PHP 7.0 New Interfaces
 ++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		PHP 7.0 New Interfaces: The following interfaces are introduced in PHP 7.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ PHP 7.0 New Interfaces
 	:og:description: The following interfaces are introduced in PHP 7
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/Php70NewInterfaces.html
 	:og:locale: en
-  The following interfaces are introduced in PHP 7.0. They shouldn't be defined in custom code.
+The following interfaces are introduced in PHP 7.0. They shouldn't be defined in custom code.
 
 + `Throwable <https://www.php.net/manual/en/class.`throwable <https://www.php.net/throwable>`_.php>`_
 + `SessionUpdateTimestampHandlerInterface <https://www.php.net/sessionupdatetimestamphandlerinterface>`_

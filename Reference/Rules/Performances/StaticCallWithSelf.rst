@@ -5,7 +5,7 @@
 Static Call With Self
 +++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Static Call With Self: Avoid using a static call on a non-static method.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Static Call With Self
 	:og:description: Avoid using a static call on a non-static method
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Performances/StaticCallWithSelf.html
 	:og:locale: en
-  Avoid using a `static <https://www.php.net/manual/en/language.oop5.static.php>`_ call on a non-`static <https://www.php.net/manual/en/language.oop5.static.php>`_ method. 
+Avoid using a `static <https://www.php.net/manual/en/language.oop5.static.php>`_ call on a non-`static <https://www.php.net/manual/en/language.oop5.static.php>`_ method. 
 
 PHP allows it inside the class itself. Yet, it makes the code confusing.
 

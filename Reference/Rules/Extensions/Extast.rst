@@ -5,7 +5,7 @@
 ext/php-ast
 +++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/php-ast: PHP-AST extension (PHP 7.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/php-ast
 	:og:description: PHP-AST extension (PHP 7
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extast.html
 	:og:locale: en
-  PHP-AST extension (PHP 7.0 +).
+PHP-AST extension (PHP 7.0 +).
 
 .. code-block:: php
    

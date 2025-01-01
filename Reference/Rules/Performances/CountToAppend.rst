@@ -5,7 +5,7 @@
 Count() To Array Append
 +++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Count() To Array Append: The array append operator is able to generate a sane index, without relying on the count() function.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Count() To Array Append
 	:og:description: The array append operator is able to generate a sane index, without relying on the count() function
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Performances/CountToAppend.html
 	:og:locale: en
-  The array append operator is able to generate a sane index, without relying on the `count() <https://www.php.net/count>`_ function. This is faster, and safer.
+The array append operator is able to generate a sane index, without relying on the `count() <https://www.php.net/count>`_ function. This is faster, and safer.
 
 .. code-block:: php
    

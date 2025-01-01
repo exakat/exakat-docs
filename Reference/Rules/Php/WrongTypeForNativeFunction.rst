@@ -5,7 +5,7 @@
 Wrong Type For Native PHP Function
 ++++++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Wrong Type For Native PHP Function: This rule reports calls to a PHP native function with values of the wrong type.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Wrong Type For Native PHP Function
 	:og:description: This rule reports calls to a PHP native function with values of the wrong type
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/WrongTypeForNativeFunction.html
 	:og:locale: en
-  This rule reports calls to a PHP native function with values of the wrong type. With modern PHP versions and strict_typing, it generates a Fatal `error <https://www.php.net/error>`_.
+This rule reports calls to a PHP native function with values of the wrong type. With modern PHP versions and strict_typing, it generates a Fatal `error <https://www.php.net/error>`_.
 
 .. code-block:: php
    

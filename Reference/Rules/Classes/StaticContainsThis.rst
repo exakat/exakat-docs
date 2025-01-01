@@ -5,7 +5,7 @@
 Static Methods Can't Contain $this
 ++++++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Static Methods Can't Contain $this: Static methods are also called ``class methods`` : they may be called even if the class has no instantiated object.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Static Methods Can't Contain $this
 	:og:description: Static methods are also called ``class methods`` : they may be called even if the class has no instantiated object
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/StaticContainsThis.html
 	:og:locale: en
-  `Static <https://www.php.net/manual/en/language.oop5.static.php>`_ methods are also called ``class methods`` : they may be called even if the class has no instantiated object. Thus, the local variable ``$this`` won't exist, PHP will set it to `NULL <https://www.php.net/manual/en/language.types.null.php>`_ as usual. 
+`Static <https://www.php.net/manual/en/language.oop5.static.php>`_ methods are also called ``class methods`` : they may be called even if the class has no instantiated object. Thus, the local variable ``$this`` won't exist, PHP will set it to `NULL <https://www.php.net/manual/en/language.types.null.php>`_ as usual. 
 Either this is not a `static <https://www.php.net/manual/en/language.oop5.static.php>`_ method, which is fixed by removing the ``static`` keyword, or replace all `$this <https://www.php.net/manual/en/language.oop5.basic.php>`_ mention by `static <https://www.php.net/manual/en/language.oop5.static.php>`_ properties ``Class\:\:$property``.
 
 .. code-block:: php

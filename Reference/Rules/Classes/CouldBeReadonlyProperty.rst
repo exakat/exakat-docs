@@ -5,7 +5,7 @@
 Could Be Readonly Property
 ++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Could Be Readonly Property: This property could be made readonly.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Could Be Readonly Property
 	:og:description: This property could be made readonly
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/CouldBeReadonlyProperty.html
 	:og:locale: en
-  This property could be made readonly. For that, the property is set in the constructor, and optionally in the ``__clone`` magic method, and never modified otherwise.
+This property could be made readonly. For that, the property is set in the constructor, and optionally in the ``__clone`` magic method, and never modified otherwise.
 
 .. code-block:: php
    

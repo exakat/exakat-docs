@@ -5,7 +5,7 @@
 __toString() Throws Exception
 +++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		__toString() Throws Exception: Magical method __toString() can't throw exceptions.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ __toString() Throws Exception
 	:og:description: Magical method __toString() can't throw exceptions
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/toStringThrowsException.html
 	:og:locale: en
-  Magical method `__toString() <https://www.php.net/manual/en/language.oop5.magic.php>`_ can't throw exceptions.
+Magical method `__toString() <https://www.php.net/manual/en/language.oop5.magic.php>`_ can't throw exceptions.
 
 In fact, `__toString() <https://www.php.net/manual/en/language.oop5.magic.php>`_ may not let an `exception <https://www.php.net/exception>`_ pass. If it throw an `exception <https://www.php.net/exception>`_, but must catch it. If an underlying method throws an `exception <https://www.php.net/exception>`_, it must be caught.
 

@@ -5,7 +5,7 @@
 Rewrote Final Class Constant
 ++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Rewrote Final Class Constant: Final class constants can't be rewriten in a child class.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Rewrote Final Class Constant
 	:og:description: Final class constants can't be rewriten in a child class
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/RewroteFinalClassConstant.html
 	:og:locale: en
-  Final class constants can't be rewriten in a child class. 
+Final class constants can't be rewriten in a child class. 
 
 It is possible to write code that lints, when the classes are in different files. Such overwrites will only be detected at execution time.
 

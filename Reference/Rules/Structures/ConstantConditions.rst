@@ -5,7 +5,7 @@
 Constant Conditions
 +++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Constant Conditions: If/then structures that have constant condition.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Constant Conditions
 	:og:description: If/then structures that have constant condition
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ConstantConditions.html
 	:og:locale: en
-  If/then structures that have constant condition. 
+If/then structures that have constant condition. 
 
 The condition doesn't change during execution, and the following blocks are always executed or not. This may also lead to an infinite or a null loop. 
 

@@ -5,7 +5,7 @@
 Weird Array Index
 +++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Weird Array Index: Array index that looks weird.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Weird Array Index
 	:og:description: Array index that looks weird
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Arrays/WeirdIndex.html
 	:og:locale: en
-  Array index that looks weird. Arrays index may be string or integer, but some strings looks weird.
+Array index that looks weird. Arrays index may be string or integer, but some strings looks weird.
 
 In particular, strings that include terminal white spaces, often leads to missed values.
 Although this is rare `error <https://www.php.net/error>`_, and often easy to spot, it is also very hard to find when it strikes.

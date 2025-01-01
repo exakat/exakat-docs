@@ -5,7 +5,7 @@
 ext/sqlite
 ++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/sqlite: Extension Sqlite 2.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/sqlite
 	:og:description: Extension Sqlite 2
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extsqlite.html
 	:og:locale: en
-  Extension Sqlite 2.
+Extension Sqlite 2.
 
 Support for SQLite version 2 databases. The support for this version of Sqlite has ended. It is recommended to use ``SQLite3``.
 

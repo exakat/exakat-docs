@@ -5,7 +5,7 @@
 Alternative Syntax Consistence
 ++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Alternative Syntax Consistence: PHP allows for two syntax : the alternative syntax, and the classic syntax.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Alternative Syntax Consistence
 	:og:description: PHP allows for two syntax : the alternative syntax, and the classic syntax
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/AlternativeConsistenceByFile.html
 	:og:locale: en
-  PHP allows for two syntax : the alternative syntax, and the classic syntax. 
+PHP allows for two syntax : the alternative syntax, and the classic syntax. 
 
 The classic syntax is almost always used. When used, the alternative syntax is used in templates. 
 

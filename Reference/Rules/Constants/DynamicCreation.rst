@@ -5,7 +5,7 @@
 Constant Dynamic Creation
 +++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Constant Dynamic Creation: Registering constant with dynamic values.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Constant Dynamic Creation
 	:og:description: Registering constant with dynamic values
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Constants/DynamicCreation.html
 	:og:locale: en
-  Registering constant with dynamic values. Dynamic values include values read in external sources (files, databases, remote API, `... <https://www.php.net/manual/en/functions.arguments.php#functions.variable-arg-list>`_ ), random sources (time, `rand() <https://www.php.net/rand>`_, `...) <https://www.php.net/manual/en/functions.arguments.php#functions.variable-arg-list>`_
+Registering constant with dynamic values. Dynamic values include values read in external sources (files, databases, remote API, `... <https://www.php.net/manual/en/functions.arguments.php#functions.variable-arg-list>`_ ), random sources (time, `rand() <https://www.php.net/rand>`_, `...) <https://www.php.net/manual/en/functions.arguments.php#functions.variable-arg-list>`_
 
 Dynamic constants are not possible with the ``const`` keyword, though `static <https://www.php.net/manual/en/language.oop5.static.php>`_ constant expression allows for a good range of combinations, including conditions.
 

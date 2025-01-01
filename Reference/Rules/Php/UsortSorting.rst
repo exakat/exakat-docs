@@ -5,7 +5,7 @@
 Usort Sorting In PHP 7.0
 ++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Usort Sorting In PHP 7.0: Usort(), uksort() and uasort() behavior has changed in PHP 7.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Usort Sorting In PHP 7.0
 	:og:description: Usort(), uksort() and uasort() behavior has changed in PHP 7
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/UsortSorting.html
 	:og:locale: en
-  `Usort() <https://www.php.net/usort>`_, `uksort() <https://www.php.net/uksort>`_ and `uasort() <https://www.php.net/uasort>`_ behavior has changed in PHP 7. Values that are equals (based on the user-provided method) may be sorted differently than in PHP 5. 
+`Usort() <https://www.php.net/usort>`_, `uksort() <https://www.php.net/uksort>`_ and `uasort() <https://www.php.net/uasort>`_ behavior has changed in PHP 7. Values that are equals (based on the user-provided method) may be sorted differently than in PHP 5. 
 
 If this sorting is important, it is advised to add extra comparison in the user-function and avoid returning 0 (thus, depending on default implementation). 
 In PHP 5, the results is :::

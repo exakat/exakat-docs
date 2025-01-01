@@ -5,7 +5,7 @@
 Could Be Protected Property
 +++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Could Be Protected Property: Those properties are declared public, but are never used publicly.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Could Be Protected Property
 	:og:description: Those properties are declared public, but are never used publicly
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/CouldBeProtectedProperty.html
 	:og:locale: en
-  Those properties are declared public, but are never used publicly. They may be made protected. 
+Those properties are declared public, but are never used publicly. They may be made protected. 
 
 This property may even be made private.
 

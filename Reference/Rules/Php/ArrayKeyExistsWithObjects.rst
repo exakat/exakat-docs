@@ -5,7 +5,7 @@
 array_key_exists() Works On Arrays
 ++++++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		array_key_exists() Works On Arrays: array_key_exists() requires arrays as second argument.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ array_key_exists() Works On Arrays
 	:og:description: array_key_exists() requires arrays as second argument
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/ArrayKeyExistsWithObjects.html
 	:og:locale: en
-  `array_key_exists() <https://www.php.net/array_key_exists>`_ requires arrays as second argument. Until PHP 7.4, objects were also allowed, yet it is now deprecated.
+`array_key_exists() <https://www.php.net/array_key_exists>`_ requires arrays as second argument. Until PHP 7.4, objects were also allowed, yet it is now deprecated.
 
 .. code-block:: php
    

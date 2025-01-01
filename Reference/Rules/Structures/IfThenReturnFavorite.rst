@@ -5,7 +5,7 @@
 If Then Return Favorite
 +++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		If Then Return Favorite: Show of hands: which syntax would you prefer in a PHP function - A, B or C.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ If Then Return Favorite
 	:og:description: Show of hands: which syntax would you prefer in a PHP function - A, B or C
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/IfThenReturnFavorite.html
 	:og:locale: en
-  Show of hands: which syntax would you prefer in a PHP function - A, B or C?  
+Show of hands: which syntax would you prefer in a PHP function - A, B or C?  
 Based on a tweet from `Povilas Korop <https://twitter.com/PovilasKorop>`_ : `Show of hands: which syntax would you prefer in a PHP function - A, B or C?  <https://twitter.com/exakat/status/1542585298562998274>`_
 
 .. code-block:: php

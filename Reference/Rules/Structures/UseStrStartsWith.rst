@@ -5,7 +5,7 @@
 Use str_starts_with()
 +++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Use str_starts_with(): There is a dedicated function to check the prefix of a string : it is called str_starts_with().
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Use str_starts_with()
 	:og:description: There is a dedicated function to check the prefix of a string : it is called str_starts_with()
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/UseStrStartsWith.html
 	:og:locale: en
-  There is a dedicated function to check the prefix of a string : it is called `str_starts_with() <https://www.php.net/str_starts_with>`_. It is available since PHP 8.0
+There is a dedicated function to check the prefix of a string : it is called `str_starts_with() <https://www.php.net/str_starts_with>`_. It is available since PHP 8.0
 
 .. code-block:: php
    

@@ -5,7 +5,7 @@
 Has Property Hook
 +++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Has Property Hook: The analyzed code makes use of property hook.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Has Property Hook
 	:og:description: The analyzed code makes use of property hook
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/HasPropertyHook.html
 	:og:locale: en
-  The analyzed code makes use of property hook. They were introduced in PHP 8.4.
+The analyzed code makes use of property hook. They were introduced in PHP 8.4.
 
 .. code-block:: php
    

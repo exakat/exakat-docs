@@ -5,7 +5,7 @@
 Magic Methods
 +++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Magic Methods: List of PHP magic methods being used.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Magic Methods
 	:og:description: List of PHP magic methods being used
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/MagicMethod.html
 	:og:locale: en
-  List of PHP magic methods being used. The magic methods are 
+List of PHP magic methods being used. The magic methods are 
 
 `__call() <https://www.php.net/manual/en/language.oop5.magic.php>`_, `__callStatic() <https://www.php.net/manual/en/language.oop5.magic.php>`_, `__get() <https://www.php.net/manual/en/language.oop5.magic.php>`_, `__set() <https://www.php.net/manual/en/language.oop5.magic.php>`_, `__isset() <https://www.php.net/manual/en/language.oop5.magic.php>`_, `__unset() <https://www.php.net/manual/en/language.oop5.magic.php>`_, `__sleep() <https://www.php.net/manual/en/language.oop5.magic.php>`_, `__wakeup() <https://www.php.net/manual/en/language.oop5.magic.php>`_, `__toString() <https://www.php.net/manual/en/language.oop5.magic.php>`_, `__invoke() <https://www.php.net/manual/en/language.oop5.magic.php>`_, `__set_state() <https://www.php.net/manual/en/language.oop5.magic.php>`_, `__clone() <https://www.php.net/manual/en/language.oop5.magic.php>`_ and `__debugInfo() <https://www.php.net/manual/en/language.oop5.magic.php>`_.
 

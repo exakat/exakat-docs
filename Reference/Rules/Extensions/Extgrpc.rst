@@ -5,7 +5,7 @@
 ext/grpc
 ++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/grpc: Extension for GRPC : A high performance, open-source universal RPC framework.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/grpc
 	:og:description: Extension for GRPC : A high performance, open-source universal RPC framework
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extgrpc.html
 	:og:locale: en
-  Extension for GRPC : A high performance, open-source universal RPC framework.
+Extension for GRPC : A high performance, open-source universal RPC framework.
 
 .. code-block:: php
    

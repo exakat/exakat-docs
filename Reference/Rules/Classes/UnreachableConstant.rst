@@ -5,7 +5,7 @@
 Unreachable Class Constant
 ++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Unreachable Class Constant: Class constants may be unreachable due to visibility configuration.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Unreachable Class Constant
 	:og:description: Class constants may be unreachable due to visibility configuration
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/UnreachableConstant.html
 	:og:locale: en
-  Class constants may be unreachable due to visibility configuration. 
+Class constants may be unreachable due to visibility configuration. 
 
 Since PHP 7.1, class constants support visibility. Their usage may be restricted to the current class, or ``private``, to classes that extends or are extended by the current class, or ``protected``. They may also be ``public``, just like it was before.
 

@@ -5,7 +5,7 @@
 Used Functions
 ++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Used Functions: The functions below are used in the code.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Used Functions
 	:og:description: The functions below are used in the code
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/UsedFunctions.html
 	:og:locale: en
-  The functions below are used in the code.
+The functions below are used in the code.
 
 A function is used in the code when it is called literally, or as a string callback.
 

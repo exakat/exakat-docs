@@ -5,7 +5,7 @@
 $this Is Not For Static Methods
 +++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		$this Is Not For Static Methods: Static methods shouldn't use $this variable.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ $this Is Not For Static Methods
 	:og:description: Static methods shouldn't use $this variable
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/ThisIsNotForStatic.html
 	:og:locale: en
-  `Static <https://www.php.net/manual/en/language.oop5.static.php>`_ methods shouldn't use `$this <https://www.php.net/manual/en/language.oop5.basic.php>`_ variable.
+`Static <https://www.php.net/manual/en/language.oop5.static.php>`_ methods shouldn't use `$this <https://www.php.net/manual/en/language.oop5.basic.php>`_ variable.
 
 `$this <https://www.php.net/manual/en/language.oop5.basic.php>`_ variable represents an object, the current object. It is not compatible with a `static <https://www.php.net/manual/en/language.oop5.static.php>`_ method, which may operate without any object. 
 

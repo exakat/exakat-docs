@@ -5,7 +5,7 @@
 Insecure Integer Validation
 +++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Insecure Integer Validation: Comparing incoming variables to integer may lead to injection.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Insecure Integer Validation
 	:og:description: Comparing incoming variables to integer may lead to injection
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Security/IntegerConversion.html
 	:og:locale: en
-  Comparing incoming variables to integer may lead to injection.
+Comparing incoming variables to integer may lead to injection.
 
 When comparing a variable to an integer, PHP applies type juggling, and transform the variable in an integer too. When the value converts smoothly to an integer, this means the validation may pass and yet, the value may carry an injection.
 This analysis spots situations where an incoming value is compared to an integer. The usage of the validated value is not analyzed further.

@@ -5,7 +5,7 @@
 ext/sockets
 +++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/sockets: Extension socket.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/sockets
 	:og:description: Extension socket
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extsockets.html
 	:og:locale: en
-  Extension `socket <https://www.php.net/socket>`_.
+Extension `socket <https://www.php.net/socket>`_.
 
 The `socket <https://www.php.net/socket>`_ extension implements a low-level interface to the `socket <https://www.php.net/socket>`_ communication functions based on the popular BSD sockets, providing the possibility to act as a `socket <https://www.php.net/socket>`_ server as well as a client.
 

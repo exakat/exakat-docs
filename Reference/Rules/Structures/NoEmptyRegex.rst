@@ -5,7 +5,7 @@
 No Empty Regex
 ++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		No Empty Regex: PHP regex don't accept empty regex, nor regex with alphanumeric delimiter.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ No Empty Regex
 	:og:description: PHP regex don't accept empty regex, nor regex with alphanumeric delimiter
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/NoEmptyRegex.html
 	:og:locale: en
-  PHP regex don't accept empty regex, nor regex with alphanumeric delimiter.
+PHP regex don't accept empty regex, nor regex with alphanumeric delimiter.
 
 Most of those errors happen at execution time, when the regex is build dynamically, but still may end empty. At compile time, such `error <https://www.php.net/error>`_ are made when the code is not tested before commit.
 

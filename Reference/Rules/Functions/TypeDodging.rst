@@ -5,7 +5,7 @@
 Type Dodging
 ++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Type Dodging: It is always possible to rewrite a parameter type by using union types.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Type Dodging
 	:og:description: It is always possible to rewrite a parameter type by using union types
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/TypeDodging.html
 	:og:locale: en
-  It is always possible to rewrite a parameter type by using union types. When the `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ class or interface requires a type, the child class may create a union type with the required type, add a secondary type and ignore the first one. 
+It is always possible to rewrite a parameter type by using union types. When the `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ class or interface requires a type, the child class may create a union type with the required type, add a secondary type and ignore the first one. 
 
 This is part of the Liskov Substitution Principle, so the syntax is legit. When the union type is only used to circumvent the previous typing, it is now a violation, as such a typed data would be valid, but ignored.
 

@@ -5,7 +5,7 @@
 Scalar Or Object Property
 +++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Scalar Or Object Property: Property shouldn't use both object and scalar syntaxes.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Scalar Or Object Property
 	:og:description: Property shouldn't use both object and scalar syntaxes
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/ScalarOrObjectProperty.html
 	:og:locale: en
-  Property shouldn't use both object and scalar syntaxes. When a property may be an object, it is recommended to implement the Null Object pattern : instead of checking if the property is scalar, make it always object.
+Property shouldn't use both object and scalar syntaxes. When a property may be an object, it is recommended to implement the Null Object pattern : instead of checking if the property is scalar, make it always object.
 
 .. code-block:: php
    

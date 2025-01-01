@@ -5,7 +5,7 @@
 ext/sphinx
 ++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/sphinx: Extension for the Sphinx search server.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/sphinx
 	:og:description: Extension for the Sphinx search server
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extsphinx.html
 	:og:locale: en
-  Extension for the Sphinx search server.
+Extension for the Sphinx search server.
 
 This extension provides bindings for Sphinx search client library.
 

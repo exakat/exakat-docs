@@ -5,7 +5,7 @@
 Undefined Methods
 +++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Undefined Methods: The methods used in the code are undefined.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Undefined Methods
 	:og:description: The methods used in the code are undefined
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/UndefinedMethod.html
 	:og:locale: en
-  The methods used in the code are undefined. 
+The methods used in the code are undefined. 
 
 Defined methods are found in : 
 + Local definitions

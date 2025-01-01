@@ -3,7 +3,7 @@
 Extensions/Exttaint
 +++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Extensions/Exttaint: Taint is a extension used to detect and track tainted string.
 	:twitter:card: summary_large_image
@@ -18,7 +18,7 @@ Extensions/Exttaint
 	:og:description: Taint is a extension used to detect and track tainted string
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Exttaint.html
 	:og:locale: en
-  Taint is a extension used to detect and track tainted string. It follows each assignation of the code and keeps track of its taint. And also can be used to spot sql injection vulnerabilities, shell inject, etc.
+Taint is a extension used to detect and track tainted string. It follows each assignation of the code and keeps track of its taint. And also can be used to spot sql injection vulnerabilities, shell inject, etc.
 
 .. code-block:: php
    

@@ -5,7 +5,7 @@
 Order Of Declaration
 ++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Order Of Declaration: The order used to declare members and methods has a great impact on readability and maintenance.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Order Of Declaration
 	:og:description: The order used to declare members and methods has a great impact on readability and maintenance
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/OrderOfDeclaration.html
 	:og:locale: en
-  The order used to declare members and methods has a great impact on readability and maintenance. However, practices varies greatly. As usual, being consistent is the most important and useful.
+The order used to declare members and methods has a great impact on readability and maintenance. However, practices varies greatly. As usual, being consistent is the most important and useful.
 
 The suggested order is the following : traits, constants, properties, methods. 
 Optional characteristics, like final, `static <https://www.php.net/manual/en/language.oop5.static.php>`_... are not specified. Special methods names are not specified.

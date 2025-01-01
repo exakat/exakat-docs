@@ -5,7 +5,7 @@
 ext/pspell
 ++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/pspell: Extension pspell.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/pspell
 	:og:description: Extension pspell
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extpspell.html
 	:og:locale: en
-  Extension pspell.
+Extension pspell.
 
 These functions allow you to check the spelling of a word and offer suggestions.
 

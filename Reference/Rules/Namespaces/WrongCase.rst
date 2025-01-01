@@ -5,7 +5,7 @@
 Wrong Case Namespaces
 +++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Wrong Case Namespaces: Namespaces are case-insensitive.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Wrong Case Namespaces
 	:og:description: Namespaces are case-insensitive
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Namespaces/WrongCase.html
 	:og:locale: en
-  Namespaces are case-insensitive.
+Namespaces are case-insensitive.
 
 .. code-block:: php
    

@@ -5,7 +5,7 @@
 Empty Blocks
 ++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Empty Blocks: Full empty block, part of a control structures.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Empty Blocks
 	:og:description: Full empty block, part of a control structures
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/EmptyBlocks.html
 	:og:locale: en
-  Full empty block, part of a control structures. 
+Full empty block, part of a control structures. 
 
 It is recommended to remove those blocks, so as to reduce confusion in the code.
 

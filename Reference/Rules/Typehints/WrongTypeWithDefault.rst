@@ -5,7 +5,7 @@
 Wrong Type With Default
 +++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Wrong Type With Default: The default value is not of the declared type.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Wrong Type With Default
 	:og:description: The default value is not of the declared type
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Typehints/WrongTypeWithDefault.html
 	:og:locale: en
-  The default value is not of the declared type. 
+The default value is not of the declared type. 
 
 For properties, this will generate an `error <https://www.php.net/error>`_ as soon as the default value is used : this is before constructor call for properties, and when the argument is omitted for promoted properties.
 

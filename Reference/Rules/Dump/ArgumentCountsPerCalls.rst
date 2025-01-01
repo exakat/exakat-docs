@@ -5,7 +5,7 @@
 Argument Counts Per Calls
 +++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Argument Counts Per Calls: Collects the number of arguments passed to PHP functions.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Argument Counts Per Calls
 	:og:description: Collects the number of arguments passed to PHP functions
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/ArgumentCountsPerCalls.html
 	:og:locale: en
-  Collects the number of arguments passed to PHP functions. 
+Collects the number of arguments passed to PHP functions. 
 
 This is focused on PHP native functions, with optional characters.
 This helps detect unused or lesser know arguments.

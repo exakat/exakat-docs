@@ -5,7 +5,7 @@
 PHP Interfaces
 ++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		PHP Interfaces: List of PHP interfaces being used in the code.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ PHP Interfaces
 	:og:description: List of PHP interfaces being used in the code
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Interfaces/Php.html
 	:og:locale: en
-  List of PHP interfaces being used in the code.
+List of PHP interfaces being used in the code.
 
 .. code-block:: php
    

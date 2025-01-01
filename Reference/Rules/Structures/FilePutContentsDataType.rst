@@ -5,7 +5,7 @@
 File_Put_Contents Using Array Argument
 ++++++++++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		File_Put_Contents Using Array Argument: file_put_contents() accepts a second argument as an array, and stores it in the file with an implicit implode.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ File_Put_Contents Using Array Argument
 	:og:description: file_put_contents() accepts a second argument as an array, and stores it in the file with an implicit implode
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/FilePutContentsDataType.html
 	:og:locale: en
-  `file_put_contents() <https://www.php.net/file_put_contents>`_ accepts a second argument as an array, and stores it in the file with an implicit implode. This is a documented behavior, though it is rarely used.
+`file_put_contents() <https://www.php.net/file_put_contents>`_ accepts a second argument as an array, and stores it in the file with an implicit implode. This is a documented behavior, though it is rarely used.
 
 .. code-block:: php
    

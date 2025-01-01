@@ -5,7 +5,7 @@
 Const Or Define Preference
 ++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Const Or Define Preference: ``Const`` and define() have almost the same functional use : they create constants.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Const Or Define Preference
 	:og:description: ``Const`` and define() have almost the same functional use : they create constants
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Constants/ConstDefinePreference.html
 	:og:locale: en
-  ``Const`` and `define() <https://www.php.net/define>`_ have almost the same functional use : they create constants. 
+``Const`` and `define() <https://www.php.net/define>`_ have almost the same functional use : they create constants. 
 
 The analyzed code has less than 10% of one of them : for consistency reasons, it is recommended to make constant definition consistent. 
 

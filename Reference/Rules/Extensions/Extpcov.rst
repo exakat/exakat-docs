@@ -5,7 +5,7 @@
 ext/pcov
 ++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/pcov: CodeCoverage compatible driver for PHP.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/pcov
 	:og:description: CodeCoverage compatible driver for PHP
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extpcov.html
 	:og:locale: en
-  CodeCoverage compatible driver for PHP.
+CodeCoverage compatible driver for PHP.
 
 A `self <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ contained CodeCoverage compatible driver for PHP7. CodeCoverage provides collection, processing, and rendering functionality for PHP code coverage information.
 

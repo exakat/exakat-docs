@@ -5,7 +5,7 @@
 Could Typehint
 ++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Could Typehint: Arguments that are tested with instanceof, is_array(), is_string(), etc.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Could Typehint
 	:og:description: Arguments that are tested with instanceof, is_array(), is_string(), etc
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/CouldTypehint.html
 	:og:locale: en
-  Arguments that are tested with `instanceof <https://www.php.net/manual/en/language.operators.type.php>`_, `is_array() <https://www.php.net/is_array>`_, `is_string() <https://www.php.net/is_string>`_, etc. could be modernized with a typehint.
+Arguments that are tested with `instanceof <https://www.php.net/manual/en/language.operators.type.php>`_, `is_array() <https://www.php.net/is_array>`_, `is_string() <https://www.php.net/is_string>`_, etc. could be modernized with a typehint.
 
 .. code-block:: php
    

@@ -5,7 +5,7 @@
 Nowdoc Delimiter Glossary
 +++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Nowdoc Delimiter Glossary: List of all the delimiters used to build a Nowdoc string.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Nowdoc Delimiter Glossary
 	:og:description: List of all the delimiters used to build a Nowdoc string
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Type/Nowdoc.html
 	:og:locale: en
-  List of all the delimiters used to build a Nowdoc string.
+List of all the delimiters used to build a Nowdoc string.
 
 .. code-block:: php
    

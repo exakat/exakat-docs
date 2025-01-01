@@ -5,7 +5,7 @@
 ** For Exponent
 +++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		** For Exponent: The operator ``**`` calculates exponents, also known as power.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@
 	:og:description: The operator ``**`` calculates exponents, also known as power
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/NewExponent.html
 	:og:locale: en
-  The operator ``**`` calculates exponents, also known as power. 
+The operator ``**`` calculates exponents, also known as power. 
 
 Use it instead of the slower function `pow() <https://www.php.net/pow>`_. This operator was introduced in PHP 5.6.
 Be aware the the '-' operator has lower priority than the `** <https://www.php.net/manual/en/language.operators.arithmetic.php>`_ operator : this leads to the following confusing `result <https://www.php.net/result>`_.

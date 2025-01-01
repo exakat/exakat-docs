@@ -5,7 +5,7 @@
 Static Inclusions
 +++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Static Inclusions: This rule reports all static inclusion.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Static Inclusions
 	:og:description: This rule reports all static inclusion
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/StaticInclude.html
 	:og:locale: en
-  This rule reports all `static <https://www.php.net/manual/en/language.oop5.static.php>`_ inclusion. A inclusion is `static <https://www.php.net/manual/en/language.oop5.static.php>`_ when it relies only on constants, such as literals, global and class constants, and the magic constants.
+This rule reports all `static <https://www.php.net/manual/en/language.oop5.static.php>`_ inclusion. A inclusion is `static <https://www.php.net/manual/en/language.oop5.static.php>`_ when it relies only on constants, such as literals, global and class constants, and the magic constants.
 
 This rule is a collaboration with `Bohuslav Šimek <https://twitter.com/BohuslavSimek>`_.
 

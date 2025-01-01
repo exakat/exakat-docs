@@ -5,7 +5,7 @@
 Overwritten Exceptions
 ++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Overwritten Exceptions: In catch blocks, it is good practice to avoid overwriting the incoming exception, as information about the exception will be lost.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Overwritten Exceptions
 	:og:description: In catch blocks, it is good practice to avoid overwriting the incoming exception, as information about the exception will be lost
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Exceptions/OverwriteException.html
 	:og:locale: en
-  In catch blocks, it is good practice to avoid overwriting the incoming `exception <https://www.php.net/exception>`_, as information about the `exception <https://www.php.net/exception>`_ will be lost.
+In catch blocks, it is good practice to avoid overwriting the incoming `exception <https://www.php.net/exception>`_, as information about the `exception <https://www.php.net/exception>`_ will be lost.
 
 .. code-block:: php
    

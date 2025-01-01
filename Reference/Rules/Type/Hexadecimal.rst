@@ -5,7 +5,7 @@
 Hexadecimal Glossary
 ++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Hexadecimal Glossary: List of all the integer values, written in the hexadecimal format.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Hexadecimal Glossary
 	:og:description: List of all the integer values, written in the hexadecimal format
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Type/Hexadecimal.html
 	:og:locale: en
-  List of all the integer values, written in the hexadecimal format.
+List of all the integer values, written in the hexadecimal format.
 
 .. code-block:: php
    

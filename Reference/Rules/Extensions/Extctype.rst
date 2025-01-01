@@ -5,7 +5,7 @@
 ext/ctype
 +++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/ctype: Extension ext/ctype.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/ctype
 	:og:description: Extension ext/ctype
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extctype.html
 	:og:locale: en
-  Extension ext/`ctype <https://www.php.net/ctype>`_.
+Extension ext/`ctype <https://www.php.net/ctype>`_.
 
 Ext/`ctype <https://www.php.net/ctype>`_ checks whether a character or string falls into a certain character class according to the current `locale <https://www.php.net/locale>`_.
 

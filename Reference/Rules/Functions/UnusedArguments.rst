@@ -5,7 +5,7 @@
 Unused Parameter
 ++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Unused Parameter: Those parameters are not used inside the method or function.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Unused Parameter
 	:og:description: Those parameters are not used inside the method or function
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/UnusedArguments.html
 	:og:locale: en
-  Those parameters are not used inside the method or function. 
+Those parameters are not used inside the method or function. 
 
 Unused parameters should be removed in functions : they are dead code, and seem to offer features that they do not deliver.
 

@@ -5,7 +5,7 @@
 Unknown Directive Name
 ++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Unknown Directive Name: Unknown directives names used in the code.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Unknown Directive Name
 	:og:description: Unknown directives names used in the code
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/DirectiveName.html
 	:og:locale: en
-  Unknown directives names used in the code. 
+Unknown directives names used in the code. 
 
 The following list has directive mentioned in the code, that are not known from PHP or any extension. If this is due to a mistake, the directive must be fixed to be actually useful.
 

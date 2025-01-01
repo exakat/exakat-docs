@@ -5,7 +5,7 @@
 No Plus One
 +++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		No Plus One: Incrementing a variable should be done with the ++ or -- operators.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ No Plus One
 	:og:description: Incrementing a variable should be done with the ++ or -- operators
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/PlusEgalOne.html
 	:og:locale: en
-  Incrementing a variable should be done with the ++ or -- operators. Any other way, may be avoided.
+Incrementing a variable should be done with the ++ or -- operators. Any other way, may be avoided.
 
 
 

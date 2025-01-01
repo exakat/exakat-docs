@@ -5,7 +5,7 @@
 Could Type With Int
 +++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Could Type With Int: That argument may be typed with ``int``.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Could Type With Int
 	:og:description: That argument may be typed with ``int``
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/CouldTypeWithInt.html
 	:og:locale: en
-  That argument may be typed with ``int``.
+That argument may be typed with ``int``.
 
 .. code-block:: php
    

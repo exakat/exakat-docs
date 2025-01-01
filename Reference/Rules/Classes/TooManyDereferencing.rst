@@ -5,7 +5,7 @@
 Too Many Dereferencing
 ++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Too Many Dereferencing: Linking too many properties and methods, one to the other.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Too Many Dereferencing
 	:og:description: Linking too many properties and methods, one to the other
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/TooManyDereferencing.html
 	:og:locale: en
-  Linking too many properties and methods, one to the other.
+Linking too many properties and methods, one to the other.
 
 This analysis counts both `static <https://www.php.net/manual/en/language.oop5.static.php>`_ calls and normal call; methods, properties and constants. It also takes into account arrays along the way.
 

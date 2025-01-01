@@ -5,7 +5,7 @@
 True False Inconsistant Case
 ++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		True False Inconsistant Case: TRUE, true or True is the favorite way to write these values.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ True False Inconsistant Case
 	:og:description: TRUE, true or True is the favorite way to write these values
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Constants/InconsistantCase.html
 	:og:locale: en
-  `TRUE <https://www.php.net/TRUE>`_, true or True is the favorite way to write these values.
+`TRUE <https://www.php.net/TRUE>`_, true or True is the favorite way to write these values.
 
 Usually, source code chooses either ALL CAPS booleans and null, either all lowercase. Sometimes, there is no standard.
 

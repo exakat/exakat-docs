@@ -5,7 +5,7 @@
 Too Many Finds
 ++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Too Many Finds: Too many methods called 'find*' in this class.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Too Many Finds
 	:og:description: Too many methods called 'find*' in this class
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/TooManyFinds.html
 	:og:locale: en
-  Too many methods called 'find*' in this class. It is may be time to consider the `Specification pattern <https://en.wikipedia.org/wiki/Specification_pattern>`_.
+Too many methods called 'find*' in this class. It is may be time to consider the `Specification pattern <https://en.wikipedia.org/wiki/Specification_pattern>`_.
 
 .. code-block:: php
    

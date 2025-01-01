@@ -5,7 +5,7 @@
 Used Classes
 ++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Used Classes: The following classes are used in the code.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Used Classes
 	:og:description: The following classes are used in the code
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/UsedClass.html
 	:og:locale: en
-  The following classes are used in the code.
+The following classes are used in the code.
 
 Classes may be use when they are instantiated, or with `static <https://www.php.net/manual/en/language.oop5.static.php>`_ calls
 

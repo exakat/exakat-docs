@@ -5,7 +5,7 @@
 Superglobals
 ++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Superglobals: Links superglobals across the code.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Superglobals
 	:og:description: Links superglobals across the code
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Complete/Superglobals.html
 	:og:locale: en
-  Links superglobals across the code. This speeds up pivoting with super global values.
+Links superglobals across the code. This speeds up pivoting with super global values.
 
 .. code-block:: php
    

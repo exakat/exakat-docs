@@ -5,7 +5,7 @@
 Could Type With String
 ++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Could Type With String: That argument may be typed with ``string``.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Could Type With String
 	:og:description: That argument may be typed with ``string``
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/CouldTypeWithString.html
 	:og:locale: en
-  That argument may be typed with ``string``.
+That argument may be typed with ``string``.
 
 .. code-block:: php
    

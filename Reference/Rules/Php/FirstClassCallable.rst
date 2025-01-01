@@ -5,7 +5,7 @@
 First Class Callable
 ++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		First Class Callable: A syntax using ellipsis was introduced to make it easy to make a method into a callable.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ First Class Callable
 	:og:description: A syntax using ellipsis was introduced to make it easy to make a method into a callable
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/FirstClassCallable.html
 	:og:locale: en
-  A syntax using ellipsis was introduced to make it easy to make a method into a callable.
+A syntax using ellipsis was introduced to make it easy to make a method into a callable.
 
 .. code-block:: php
    

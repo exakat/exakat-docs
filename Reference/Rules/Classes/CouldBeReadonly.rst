@@ -5,7 +5,7 @@
 Class Could Be Readonly
 +++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Class Could Be Readonly: When all properties are readonly, it is possible to set the option at the class.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Class Could Be Readonly
 	:og:description: When all properties are readonly, it is possible to set the option at the class
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/CouldBeReadonly.html
 	:og:locale: en
-  When all properties are readonly, it is possible to set the option at the class. This feature was introduced in PHP 8.2.
+When all properties are readonly, it is possible to set the option at the class. This feature was introduced in PHP 8.2.
 
 .. code-block:: php
    

@@ -5,7 +5,7 @@
 Optional Parameter
 ++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Optional Parameter: An optional parameter is a method argument that has both a typehint and a default value.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Optional Parameter
 	:og:description: An optional parameter is a method argument that has both a typehint and a default value
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/OptionalParameter.html
 	:og:locale: en
-  An optional parameter is a method argument that has both a typehint and a default value. 
+An optional parameter is a method argument that has both a typehint and a default value. 
 
 Such argument is optional, as it may be omitted. When this is the case, the code has to differentiate between the default behavior or the actual usage. It is recommended to avoid providing a default value, and use a null object.
 

@@ -5,7 +5,7 @@
 Memoize MagicCall
 +++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Memoize MagicCall: Cache calls to magic methods in local variable.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Memoize MagicCall
 	:og:description: Cache calls to magic methods in local variable
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Performances/MemoizeMagicCall.html
 	:og:locale: en
-  Cache calls to magic methods in local variable. Local cache is faster than calling again the magic method as soon as the second call, provided that the value hasn't changed.
+Cache calls to magic methods in local variable. Local cache is faster than calling again the magic method as soon as the second call, provided that the value hasn't changed.
 
 ``__get`` is slower, as it turns a simple member access into a full method call. 
 The caching is not possible if the processing of the object changes the value of the property.

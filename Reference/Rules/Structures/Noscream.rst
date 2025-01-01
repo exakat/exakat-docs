@@ -5,7 +5,7 @@
 @ Operator
 ++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		@ Operator: @ is the 'no scream' operator : it suppresses error output.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@
 	:og:description: @ is the 'no scream' operator : it suppresses error output
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/Noscream.html
 	:og:locale: en
-  `@ <https://www.php.net/manual/en/language.operators.errorcontrol.php>`_ is the 'no scream' operator : it suppresses `error <https://www.php.net/error>`_ output. 
+`@ <https://www.php.net/manual/en/language.operators.errorcontrol.php>`_ is the 'no scream' operator : it suppresses `error <https://www.php.net/error>`_ output. 
 This operator is very slow : it processes the `error <https://www.php.net/error>`_, and finally decides not to display it. It is often faster to check the conditions first, then run the method without ``@``.
 
 You may also set display_error to 0 in the ``php.ini`` : this avoids user's `error <https://www.php.net/error>`_ display, and keeps the `error <https://www.php.net/error>`_ in the PHP logs, for later processing. 

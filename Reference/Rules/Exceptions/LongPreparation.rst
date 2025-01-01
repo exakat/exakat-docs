@@ -5,7 +5,7 @@
 Long Preparation For Throw
 ++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Long Preparation For Throw: When throwing an exception, move the preparing code in the exception.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Long Preparation For Throw
 	:og:description: When throwing an exception, move the preparing code in the exception
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Exceptions/LongPreparation.html
 	:og:locale: en
-  When throwing an `exception <https://www.php.net/exception>`_, move the preparing code in the `exception <https://www.php.net/exception>`_. This will keep the ``throw`` call simple.
+When throwing an `exception <https://www.php.net/exception>`_, move the preparing code in the `exception <https://www.php.net/exception>`_. This will keep the ``throw`` call simple.
 
 .. code-block:: php
    

@@ -5,7 +5,7 @@
 Strange Names In Classes
 ++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Strange Names In Classes: Those methods, properties, constants or types should have another name.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Strange Names In Classes
 	:og:description: Those methods, properties, constants or types should have another name
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/StrangeName.html
 	:og:locale: en
-  Those methods, properties, constants or types should have another name.
+Those methods, properties, constants or types should have another name.
 
 Ever wondered why the ``__constructor`` is never called? Or the ``__consturct`` ? 
 

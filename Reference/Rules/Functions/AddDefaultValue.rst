@@ -5,7 +5,7 @@
 Add Default Value
 +++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Add Default Value: Parameter in methods definition may receive a default value.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Add Default Value
 	:og:description: Parameter in methods definition may receive a default value
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/AddDefaultValue.html
 	:og:locale: en
-  Parameter in methods definition may receive a default value. This allows the called method to set a value when the parameter is omitted.
+Parameter in methods definition may receive a default value. This allows the called method to set a value when the parameter is omitted.
 
 .. code-block:: php
    

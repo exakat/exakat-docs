@@ -5,7 +5,7 @@
 Property Variable Confusion
 +++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Property Variable Confusion: Within a class, there is both a property and variables bearing the same name.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Property Variable Confusion
 	:og:description: Within a class, there is both a property and variables bearing the same name
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/PropertyVariableConfusion.html
 	:og:locale: en
-  Within a class, there is both a property and variables bearing the same name. 
+Within a class, there is both a property and variables bearing the same name. 
 
 The property and the variable may easily be confused one for another and lead to a bug. 
 

@@ -5,7 +5,7 @@
 ext/mysqli
 ++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/mysqli: Extension mysqli for MySQL.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/mysqli
 	:og:description: Extension mysqli for MySQL
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extmysqli.html
 	:og:locale: en
-  Extension `mysqli <https://www.php.net/mysqli>`_ for MySQL.
+Extension `mysqli <https://www.php.net/mysqli>`_ for MySQL.
 
 The `mysqli <https://www.php.net/mysqli>`_ extension allows you to access the functionality provided by MySQL 4.1 and above.
 

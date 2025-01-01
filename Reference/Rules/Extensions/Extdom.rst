@@ -5,7 +5,7 @@
 ext/dom
 +++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/dom: Extension Document Object Model.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/dom
 	:og:description: Extension Document Object Model
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extdom.html
 	:og:locale: en
-  Extension Document Object Model.
+Extension Document Object Model.
 
 The DOM extension allows the manipulation of XML documents through the DOM API with PHP.
 

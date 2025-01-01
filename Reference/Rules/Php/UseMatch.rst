@@ -5,7 +5,7 @@
 Uses PHP 8 Match()
 ++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Uses PHP 8 Match(): This rule reports usage of the the match() syntax.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Uses PHP 8 Match()
 	:og:description: This rule reports usage of the the match() syntax
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/UseMatch.html
 	:og:locale: en
-  This rule reports usage of the the `match() <https://www.php.net/manual/en/control-structures.match.php>`_ syntax.
+This rule reports usage of the the `match() <https://www.php.net/manual/en/control-structures.match.php>`_ syntax.
 
 `match() <https://www.php.net/manual/en/control-structures.match.php>`_ was introduced in PHP 8.0, and is an alternative to `switch() <https://www.php.net/manual/en/control-structures.switch.php>`_. It is also not backward compatible with previous versions of PHP.
 

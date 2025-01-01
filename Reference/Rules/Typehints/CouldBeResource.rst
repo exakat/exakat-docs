@@ -3,7 +3,7 @@
 Typehints/CouldBeResource
 +++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Typehints/CouldBeResource: Mark arguments, properties and return types that can be set to ``resource``.
 	:twitter:card: summary_large_image
@@ -18,7 +18,7 @@ Typehints/CouldBeResource
 	:og:description: Mark arguments, properties and return types that can be set to ``resource``
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Typehints/CouldBeResource.html
 	:og:locale: en
-  Mark arguments, properties and return types that can be set to ``resource``. 
+Mark arguments, properties and return types that can be set to ``resource``. 
 
 ``resource`` is an internal PHP type, and it should be a scalar type, yet it is not implement yet (as of PHP 8.2). It is still used as such by Exakat.
 

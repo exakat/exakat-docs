@@ -5,7 +5,7 @@
 Constant Used Below
 +++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Constant Used Below: Mark class constants that are used in children classes.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Constant Used Below
 	:og:description: Mark class constants that are used in children classes
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/ConstantUsedBelow.html
 	:og:locale: en
-  Mark class constants that are used in children classes.
+Mark class constants that are used in children classes.
 This analysis marks constants at their definition, not the current class, nor the (grand-)`parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_.
 
 .. code-block:: php

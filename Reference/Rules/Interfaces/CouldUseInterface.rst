@@ -5,7 +5,7 @@
 Forgotten Interface
 +++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Forgotten Interface: The following classes have been found implementing an interface's methods, though it doesn't explicitly implements this interface.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Forgotten Interface
 	:og:description: The following classes have been found implementing an interface's methods, though it doesn't explicitly implements this interface
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Interfaces/CouldUseInterface.html
 	:og:locale: en
-  The following classes have been found implementing an interface's methods, though it doesn't explicitly implements this interface. This may have been forgotten.
+The following classes have been found implementing an interface's methods, though it doesn't explicitly implements this interface. This may have been forgotten.
 
 .. code-block:: php
    

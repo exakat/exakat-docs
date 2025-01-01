@@ -5,7 +5,7 @@
 Trait Not Found
 +++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Trait Not Found: A unknown trait is mentioned in the use expression.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Trait Not Found
 	:og:description: A unknown trait is mentioned in the use expression
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Traits/TraitNotFound.html
 	:og:locale: en
-  A unknown trait is mentioned in the use expression. 
+A unknown trait is mentioned in the use expression. 
 
 The used traits all exist, but in the configuration block, some unmentioned trait is called.
 

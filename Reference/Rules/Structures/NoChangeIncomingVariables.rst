@@ -5,7 +5,7 @@
 Don't Change Incomings
 ++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Don't Change Incomings: PHP hands over a lot of information using special variables like $_GET, $_POST, etc.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Don't Change Incomings
 	:og:description: PHP hands over a lot of information using special variables like $_GET, $_POST, etc
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/NoChangeIncomingVariables.html
 	:og:locale: en
-  PHP hands over a lot of information using special variables like `$_GET <https://www.php.net/manual/en/reserved.variables.get.php>`_, `$_POST <https://www.php.net/manual/en/reserved.variables.post.php>`_, etc... Modifying those variables and those values inside variables means that the original content is lost, while it will still look like raw data, and, as such, will be untrustworthy.
+PHP hands over a lot of information using special variables like `$_GET <https://www.php.net/manual/en/reserved.variables.get.php>`_, `$_POST <https://www.php.net/manual/en/reserved.variables.post.php>`_, etc... Modifying those variables and those values inside variables means that the original content is lost, while it will still look like raw data, and, as such, will be untrustworthy.
 It is recommended to put the modified values in another variable, and keep the original one intact.
 
 .. code-block:: php

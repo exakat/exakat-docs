@@ -5,7 +5,7 @@
 Feast usage
 +++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Feast usage: This analysis reports usage of the Feast framework.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Feast usage
 	:og:description: This analysis reports usage of the Feast framework
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Vendors/Feast.html
 	:og:locale: en
-  This analysis reports usage of the Feast framework.
+This analysis reports usage of the Feast framework.
 
 FEAST is a radically different PHP Framework that was built from the ground up to be an alternative to the dependency-heavy frameworks that exist already. Its goal is a light-weight footprint that just lets you get stuff done.
 

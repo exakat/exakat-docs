@@ -5,7 +5,7 @@
 Strict Comparison With Booleans
 +++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Strict Comparison With Booleans: Strict comparisons prevent mistaking an error with a false.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Strict Comparison With Booleans
 	:og:description: Strict comparisons prevent mistaking an error with a false
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/BooleanStrictComparison.html
 	:og:locale: en
-  Strict comparisons prevent mistaking an `error <https://www.php.net/error>`_ with a false. 
+Strict comparisons prevent mistaking an `error <https://www.php.net/error>`_ with a false. 
 
 Boolean values may be easily mistaken with other values, especially when the function may return integer or boolean as a normal course of action. 
 

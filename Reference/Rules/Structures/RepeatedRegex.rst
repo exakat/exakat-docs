@@ -5,7 +5,7 @@
 Repeated Regex
 ++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Repeated Regex: Repeated regex should be centralized.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Repeated Regex
 	:og:description: Repeated regex should be centralized
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/RepeatedRegex.html
 	:og:locale: en
-  Repeated regex should be centralized. 
+Repeated regex should be centralized. 
 
 When a regex is repeatedly used in the code, it is getting harder to update. 
 Regex that are repeated at least once (aka, used twice or more) are reported. Regex that are dynamically build are not reported.

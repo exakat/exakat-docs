@@ -5,7 +5,7 @@
 Collect Stub Structures
 +++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Collect Stub Structures: Collect all called structures that are marked as stubs.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Collect Stub Structures
 	:og:description: Collect all called structures that are marked as stubs
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/CollectStubStructures.html
 	:og:locale: en
-  Collect all called structures that are marked as stubs. Functions, constants, interfaces, enums, traits and classes.
+Collect all called structures that are marked as stubs. Functions, constants, interfaces, enums, traits and classes.
 
 Specs
 _____

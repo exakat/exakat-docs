@@ -5,7 +5,7 @@
 PHP 7.2 Scalar Typehints
 ++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		PHP 7.2 Scalar Typehints: A new scalar typehint was introduced : object.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ PHP 7.2 Scalar Typehints
 	:og:description: A new scalar typehint was introduced : object
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/PHP72scalartypehints.html
 	:og:locale: en
-  A new scalar typehint was introduced : object. 
+A new scalar typehint was introduced : object. 
 
 It can't be used before PHP 7.2, and will be confused with classes or interfaces.
 

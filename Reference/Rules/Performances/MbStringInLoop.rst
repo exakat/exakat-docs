@@ -5,7 +5,7 @@
 No mb_substr In Loop
 ++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		No mb_substr In Loop: Do not use loops on mb_substr().
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ No mb_substr In Loop
 	:og:description: Do not use loops on mb_substr()
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Performances/MbStringInLoop.html
 	:og:locale: en
-  Do not use loops on `mb_substr() <https://www.php.net/mb_substr>`_. 
+Do not use loops on `mb_substr() <https://www.php.net/mb_substr>`_. 
 
 `mb_substr() <https://www.php.net/mb_substr>`_ always starts at the beginning of the string to search for the nth char, and recalculate everything. This means that the first iterations are as fast as `substr() <https://www.php.net/substr>`_ (for comparison), while the longer the string, the slower `mb_substr() <https://www.php.net/mb_substr>`_.
 

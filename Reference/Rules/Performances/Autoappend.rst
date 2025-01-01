@@ -5,7 +5,7 @@
 Autoappend
 ++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Autoappend: Appending a variable to itself leads to enormous usage of memory.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Autoappend
 	:og:description: Appending a variable to itself leads to enormous usage of memory
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Performances/Autoappend.html
 	:og:locale: en
-  Appending a variable to itself leads to enormous usage of memory.
+Appending a variable to itself leads to enormous usage of memory.
 
 .. code-block:: php
    

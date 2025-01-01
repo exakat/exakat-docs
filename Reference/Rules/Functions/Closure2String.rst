@@ -5,7 +5,7 @@
 Closure Could Be A Callback
 +++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Closure Could Be A Callback: Closure and arrow function may be simplified to a callback.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Closure Could Be A Callback
 	:og:description: Closure and arrow function may be simplified to a callback
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/Closure2String.html
 	:og:locale: en
-  `Closure <https://www.php.net/manual/en/class.`closure <https://www.php.net/closure>`_.php>`_ and arrow function may be simplified to a callback. Callbacks are strings or arrays.
+`Closure <https://www.php.net/manual/en/class.`closure <https://www.php.net/closure>`_.php>`_ and arrow function may be simplified to a callback. Callbacks are strings or arrays.
 
 A simple `closure <https://www.php.net/`closure <https://www.php.net/closure>`_>`_ that only returns arguments relayed to another function or method, could be reduced to a simpler expression.  
 

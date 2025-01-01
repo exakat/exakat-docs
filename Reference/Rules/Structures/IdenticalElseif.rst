@@ -5,7 +5,7 @@
 Identical Elseif
 ++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Identical Elseif: In a long if/elseif/then structures, identical conditions are mutually exclusive.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Identical Elseif
 	:og:description: In a long if/elseif/then structures, identical conditions are mutually exclusive
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/IdenticalElseif.html
 	:og:locale: en
-  In a long if/elseif/then structures, identical conditions are mutually exclusive. The first one will happen, and the second will be ignored. 
+In a long if/elseif/then structures, identical conditions are mutually exclusive. The first one will happen, and the second will be ignored. 
 
 This is similar to having multiple cases in the same switch or match expression.
 

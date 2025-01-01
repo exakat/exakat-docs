@@ -5,7 +5,7 @@
 Can't Implement Throwable
 +++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Can't Implement Throwable: Classes extending ``Throwable`` can't be thrown, unless they also extend ``Exception``.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Can't Implement Throwable
 	:og:description: Classes extending ``Throwable`` can't be thrown, unless they also extend ``Exception``
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Exceptions/CantThrow.html
 	:og:locale: en
-  Classes extending ``Throwable`` can't be thrown, unless they also extend ``Exception``. The same applies to interfaces that extends ``Throwable``. 
+Classes extending ``Throwable`` can't be thrown, unless they also extend ``Exception``. The same applies to interfaces that extends ``Throwable``. 
 
 Although such code lints, PHP throws a Fatal `error <https://www.php.net/error>`_ when executing or including it : ``Class fooThrowable cannot implement interface `Throwable <https://www.php.net/manual/en/class.`throwable <https://www.php.net/throwable>`_.php>`_, extend `Exception <https://www.php.net/exception>`_ or `Error <https://www.php.net/error>`_ instead``.
 

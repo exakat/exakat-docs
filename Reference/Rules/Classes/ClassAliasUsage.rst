@@ -5,7 +5,7 @@
 Usage Of class_alias()
 ++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Usage Of class_alias(): ``class_alias`` creates dynamically an alias for classes.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Usage Of class_alias()
 	:og:description: ``class_alias`` creates dynamically an alias for classes
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/ClassAliasUsage.html
 	:og:locale: en
-  ``class_alias`` creates dynamically an alias for classes.
+``class_alias`` creates dynamically an alias for classes.
 
 .. code-block:: php
    

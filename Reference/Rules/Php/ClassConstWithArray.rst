@@ -5,7 +5,7 @@
 Class Const With Array
 ++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Class Const With Array: This rule lists global and class constant that are defined with an array value.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Class Const With Array
 	:og:description: This rule lists global and class constant that are defined with an array value
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/ClassConstWithArray.html
 	:og:locale: en
-  This rule lists global and class constant that are defined with an array value. This feature was added in PHP 5.6.
+This rule lists global and class constant that are defined with an array value. This feature was added in PHP 5.6.
 
 .. code-block:: php
    

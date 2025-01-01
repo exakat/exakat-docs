@@ -3,7 +3,7 @@
 Custom/EvsAndWhere
 ++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Custom/EvsAndWhere: .
 	:twitter:card: summary_large_image
@@ -18,6 +18,7 @@ Custom/EvsAndWhere
 	:og:description: 
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Custom/EvsAndWhere.html
 	:og:locale: en
+
 
 Specs
 _____

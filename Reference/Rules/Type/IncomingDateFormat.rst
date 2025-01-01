@@ -5,7 +5,7 @@
 Incoming Date Formats
 +++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Incoming Date Formats: This is the list of format string used when creating dates.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Incoming Date Formats
 	:og:description: This is the list of format string used when creating dates
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Type/IncomingDateFormat.html
 	:og:locale: en
-  This is the list of format string used when creating dates. 
+This is the list of format string used when creating dates. 
 
 This is particularly interesting for relative time strings inventories.
 This doesn't collect the dynamical dates, built from strings. `strtotime() <https://www.php.net/strtotime>`_ and date\:\:createFromFormat() are used.

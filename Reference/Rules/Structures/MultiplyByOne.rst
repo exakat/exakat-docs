@@ -5,7 +5,7 @@
 Multiply By One
 +++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Multiply By One: Multiplying by 1 is a fancy type cast.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Multiply By One
 	:og:description: Multiplying by 1 is a fancy type cast
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/MultiplyByOne.html
 	:og:locale: en
-  Multiplying by 1 is a fancy type cast. 
+Multiplying by 1 is a fancy type cast. 
 
 If it is used to type cast a value to number, then casting (int) or (float) is clearer. This behavior may change with PHP 7.1, which has unified the behavior of all hidden casts.
 

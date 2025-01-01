@@ -5,7 +5,7 @@
 ext/event
 +++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/event: Extension event.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/event
 	:og:description: Extension event
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extevent.html
 	:og:locale: en
-  Extension event.
+Extension event.
 
 This is an extension to efficiently schedule I/O, time and signal based events using the best I/O notification mechanism available for specific platform. This is a port of libevent to the PHP infrastructure.
 

@@ -5,7 +5,7 @@
 ext/stats
 +++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/stats: Statistics extension.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/stats
 	:og:description: Statistics extension
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extstats.html
 	:og:locale: en
-  Statistics extension.
+Statistics extension.
 
 This extension contains few dozens of functions useful for statistical computations. It is a wrapper around 2 scientific libraries, namely `DCDFLIB <https://people.sc.fsu.edu/~jburkardt/c_src/cdflib/cdflib.html>`_ (Library of C routines for Cumulative Distributions Functions, Inverses, and Other parameters) by B. Brown & J. Lavato and `RANDLIB <http://people.sc.fsu.edu/~jburkardt/f77_src/ranlib/ranlib.html>`_ by Barry Brown, James Lavato & Kathy Russell.
 

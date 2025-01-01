@@ -5,7 +5,7 @@
 Reserved Keywords In PHP 7
 ++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Reserved Keywords In PHP 7: PHP reserved names for class/trait/interface.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Reserved Keywords In PHP 7
 	:og:description: PHP reserved names for class/trait/interface
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/ReservedKeywords7.html
 	:og:locale: en
-  PHP reserved names for class/trait/interface. They won't be available anymore in user space starting with PHP 7.
+PHP reserved names for class/trait/interface. They won't be available anymore in user space starting with PHP 7.
 
 For example, string, float, false, true, null, resource,`... <https://www.php.net/manual/en/functions.arguments.php#functions.variable-arg-list>`_ are not acceptable as class name.
 

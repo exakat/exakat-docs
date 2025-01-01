@@ -5,7 +5,7 @@
 Too Many Native Calls
 +++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Too Many Native Calls: Avoid stuffing too many PHP native call inside another functioncall.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Too Many Native Calls
 	:og:description: Avoid stuffing too many PHP native call inside another functioncall
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/TooManyNativeCalls.html
 	:og:locale: en
-  Avoid stuffing too many PHP native call inside another functioncall. 
+Avoid stuffing too many PHP native call inside another functioncall. 
 
 For readability reasons, or, more often, for edge case handling, it is recommended to avoid nesting too many PHP native calls. 
 

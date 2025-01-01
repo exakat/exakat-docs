@@ -5,7 +5,7 @@
 isset() With Constant
 +++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		isset() With Constant: Until PHP 7, it was possible to use arrays as constants, but it was not possible to test them with isset.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ isset() With Constant
 	:og:description: Until PHP 7, it was possible to use arrays as constants, but it was not possible to test them with isset
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/IssetWithConstant.html
 	:og:locale: en
-  Until PHP 7, it was possible to use arrays as constants, but it was not possible to test them with `isset <https://www.www.php.net/isset>`_.
+Until PHP 7, it was possible to use arrays as constants, but it was not possible to test them with `isset <https://www.www.php.net/isset>`_.
 
 This would yield an `error <https://www.php.net/error>`_ : ``Cannot use `isset() <https://www.www.php.net/isset>`_ on the `result <https://www.php.net/result>`_ of an expression (you can use "null !== expression" instead)``. This is a backward incompatibility.
 

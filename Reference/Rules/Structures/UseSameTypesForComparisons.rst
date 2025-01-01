@@ -5,7 +5,7 @@
 Use Same Types For Comparisons
 ++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Use Same Types For Comparisons: Beware when using inequality operators that the type of the values are the same on both sites of the operators.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Use Same Types For Comparisons
 	:og:description: Beware when using inequality operators that the type of the values are the same on both sites of the operators
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/UseSameTypesForComparisons.html
 	:og:locale: en
-  Beware when using inequality operators that the type of the values are the same on both sites of the operators.
+Beware when using inequality operators that the type of the values are the same on both sites of the operators.
 
 Different types may lead to PHP type juggling, where the values are first cast to one of the used types. Other comparisons are always failing, leading to unexpected behavior.
 

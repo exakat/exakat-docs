@@ -5,7 +5,7 @@
 Already Parents Interface
 +++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Already Parents Interface: The same interface is implemented by a class and one of its children.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Already Parents Interface
 	:og:description: The same interface is implemented by a class and one of its children
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Interfaces/AlreadyParentsInterface.html
 	:og:locale: en
-  The same interface is implemented by a class and one of its children. 
+The same interface is implemented by a class and one of its children. 
 
 That way, the child doesn't need to implement the interface, nor define its methods to be an instance of the interface. 
 This analysis may report classes which do not explicitly implements any interfaces : the issue is then coming from the parents.

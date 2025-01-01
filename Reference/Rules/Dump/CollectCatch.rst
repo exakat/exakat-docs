@@ -5,7 +5,7 @@
 Collect Catch Calls
 +++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Collect Catch Calls: This analysis collects all catch command usage, along with the exception caught and the calling method.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Collect Catch Calls
 	:og:description: This analysis collects all catch command usage, along with the exception caught and the calling method
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/CollectCatch.html
 	:og:locale: en
-  This analysis collects all catch command usage, along with the `exception <https://www.php.net/exception>`_ caught and the calling method.
+This analysis collects all catch command usage, along with the `exception <https://www.php.net/exception>`_ caught and the calling method.
 
 .. code-block:: php
    

@@ -5,7 +5,7 @@
 ext/ev
 ++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/ev: Extension ev.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/ev
 	:og:description: Extension ev
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extev.html
 	:og:locale: en
-  Extension ev.
+Extension ev.
 
 ext/ev is a high performance full-featured event loop written in C.
 

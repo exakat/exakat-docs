@@ -5,7 +5,7 @@
 Foreach Reference Is Not Modified
 +++++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Foreach Reference Is Not Modified: Foreach statement may loop using a reference, especially when the loop has to change values of the array it is looping on.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Foreach Reference Is Not Modified
 	:og:description: Foreach statement may loop using a reference, especially when the loop has to change values of the array it is looping on
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ForeachReferenceIsNotModified.html
 	:og:locale: en
-  Foreach statement may loop using a reference, especially when the loop has to change values of the array it is looping on. 
+Foreach statement may loop using a reference, especially when the loop has to change values of the array it is looping on. 
 
 In the spotted loop, reference are used but never modified. They may be removed.
 

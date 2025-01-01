@@ -5,7 +5,7 @@
 Undefined Trait
 +++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Undefined Trait: Those are undefined, traits .
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Undefined Trait
 	:og:description: Those are undefined, traits 
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Traits/UndefinedTrait.html
 	:og:locale: en
-  Those are undefined, traits . 
+Those are undefined, traits . 
 
 When the using class or trait is instantiated, PHP emits a a fatal `error <https://www.php.net/error>`_.
 

@@ -5,7 +5,7 @@
 Only Variable For Reference
 +++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Only Variable For Reference: When a method is requesting an argument to be a reference, it cannot be called with a literal value.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Only Variable For Reference
 	:og:description: When a method is requesting an argument to be a reference, it cannot be called with a literal value
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/OnlyVariableForReference.html
 	:og:locale: en
-  When a method is requesting an argument to be a reference, it cannot be called with a literal value.
+When a method is requesting an argument to be a reference, it cannot be called with a literal value.
 
 The call must be made with a variable, or any assimilated data container : array, property or `static <https://www.php.net/manual/en/language.oop5.static.php>`_ property. 
 Note that PHP may detect this `error <https://www.php.net/error>`_ at linting time, if the method is defined after being called : at that point, PHP will only check the problem during execution. This is definitely the case for methods, compared to functions or `static <https://www.php.net/manual/en/language.oop5.static.php>`_ methods.

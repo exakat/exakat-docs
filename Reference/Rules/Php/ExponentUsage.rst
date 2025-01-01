@@ -5,22 +5,22 @@
 Exponent Usage
 ++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
-		Exponent Usage: Usage of the ** operator or \*\*\=, to make exponents.
+		Exponent Usage: Usage of the ** operator or **=, to make exponents.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: Exponent Usage
-	:twitter:description: Exponent Usage: Usage of the ** operator or \*\*\=, to make exponents
+	:twitter:description: Exponent Usage: Usage of the ** operator or **=, to make exponents
 	:twitter:creator: @exakat
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
 	:og:title: Exponent Usage
 	:og:type: article
-	:og:description: Usage of the ** operator or \*\*\=, to make exponents
+	:og:description: Usage of the ** operator or **=, to make exponents
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/ExponentUsage.html
 	:og:locale: en
-  Usage of the `** <https://www.php.net/manual/en/language.operators.arithmetic.php>`_ operator or \*\*\=, to make exponents.
+Usage of the `** <https://www.php.net/manual/en/language.operators.arithmetic.php>`_ operator or \*\*\=, to make exponents.
 
 .. code-block:: php
    

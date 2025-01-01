@@ -5,7 +5,7 @@
 Overwritten Class Constants
 +++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Overwritten Class Constants: Those class constants are overwriting  a parent class's constant.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Overwritten Class Constants
 	:og:description: Those class constants are overwriting  a parent class's constant
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/OverwrittenConst.html
 	:og:locale: en
-  Those class constants are overwriting  a `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ class's constant. This may lead to confusion, as the value of the constant may change depending on the way it is called.
+Those class constants are overwriting  a `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ class's constant. This may lead to confusion, as the value of the constant may change depending on the way it is called.
 
 .. code-block:: php
    

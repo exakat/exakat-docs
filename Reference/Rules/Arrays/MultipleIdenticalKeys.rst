@@ -5,7 +5,7 @@
 Multiple Index Definition
 +++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Multiple Index Definition: This rules lists the indexes that are defined multiple times in the same array.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Multiple Index Definition
 	:og:description: This rules lists the indexes that are defined multiple times in the same array
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Arrays/MultipleIdenticalKeys.html
 	:og:locale: en
-  This rules lists the indexes that are defined multiple times in the same array. 
+This rules lists the indexes that are defined multiple times in the same array. 
 
 In reality, they are overwriting each other. This is most probably a typo or a failed copy/paste.
 

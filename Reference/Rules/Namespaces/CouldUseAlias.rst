@@ -5,7 +5,7 @@
 Could Use Alias
 +++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Could Use Alias: This long name may be reduced by using an available alias.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Could Use Alias
 	:og:description: This long name may be reduced by using an available alias
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Namespaces/CouldUseAlias.html
 	:og:locale: en
-  This long name may be reduced by using an available alias.
+This long name may be reduced by using an available alias.
 
 This applies to classes (as full name or prefix), and to constants and functions.
 

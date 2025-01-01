@@ -5,7 +5,7 @@
 Not Equal Is Not !==
 ++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Not Equal Is Not !==: Not and Equal operators, used separately, don't amount to the different operator ``!==``.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Not Equal Is Not !==
 	:og:description: Not and Equal operators, used separately, don't amount to the different operator ``!==``
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/NotEqual.html
 	:og:locale: en
-  Not and Equal operators, used separately, don't amount to the different operator ``!==``.
+Not and Equal operators, used separately, don't amount to the different operator ``!==``.
 
 ``!$a == $b`` first turns ``$a``into the opposite boolean, then compares this boolean value to ``$b``. On the other hand, ``$a !== $b`` compares the two variables for type and value, and returns a boolean. 
 Note that the ``instanceof`` operator may be use with this syntax, due to operator precedence.

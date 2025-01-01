@@ -5,7 +5,7 @@
 PHP5 Indirect Variable Expression
 +++++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		PHP5 Indirect Variable Expression: Indirect variable expressions changes between PHP 5 an 7.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ PHP5 Indirect Variable Expression
 	:og:description: Indirect variable expressions changes between PHP 5 an 7
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Variables/Php5IndirectExpression.html
 	:og:locale: en
-  Indirect variable expressions changes between PHP 5 an 7.
+Indirect variable expressions changes between PHP 5 an 7.
 
 The following structures are evaluated differently in PHP 5 and 7. It is recommended to review them or switch to a less ambiguous syntax.
 +-----------------------+-------------------------+-------------------------+

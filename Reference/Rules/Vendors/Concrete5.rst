@@ -5,7 +5,7 @@
 Concrete5 usage
 +++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Concrete5 usage: This analysis reports usage of the Concrete 5 framework.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Concrete5 usage
 	:og:description: This analysis reports usage of the Concrete 5 framework
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Vendors/Concrete5.html
 	:og:locale: en
-  This analysis reports usage of the Concrete 5 framework.
+This analysis reports usage of the Concrete 5 framework.
 
 .. code-block:: php
    

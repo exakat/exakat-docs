@@ -5,7 +5,7 @@
 ext/eaccelerator
 ++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/eaccelerator: Extension Eaccelerator.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/eaccelerator
 	:og:description: Extension Eaccelerator
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Exteaccelerator.html
 	:og:locale: en
-  Extension Eaccelerator.
+Extension Eaccelerator.
 
 eAccelerator is a free open-source PHP accelerator & optimizer. 
 

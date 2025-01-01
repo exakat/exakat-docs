@@ -5,7 +5,7 @@
 ext/protobuf
 ++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/protobuf: Extension Protobuf.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/protobuf
 	:og:description: Extension Protobuf
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extprotobuf.html
 	:og:locale: en
-  Extension Protobuf.
+Extension Protobuf.
 
 Protocol Buffers (a.k.a., protobuf) are Google's language-neutral, platform-neutral, extensible mechanism for serializing structured data.
 

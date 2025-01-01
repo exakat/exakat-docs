@@ -5,7 +5,7 @@
 Ambiguous Visibilities
 ++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Ambiguous Visibilities: The properties have the same name, but have different visibilities, across different classes.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Ambiguous Visibilities
 	:og:description: The properties have the same name, but have different visibilities, across different classes
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/AmbiguousVisibilities.html
 	:og:locale: en
-  The properties have the same name, but have different visibilities, across different classes. 
+The properties have the same name, but have different visibilities, across different classes. 
 
 While it is legit to have a property with the same name in different classes, it may easily lead to confusion. As soon as the context is need to understand if the property is accessible or not, the readability suffers.
 

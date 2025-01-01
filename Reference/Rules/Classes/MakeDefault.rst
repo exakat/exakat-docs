@@ -5,7 +5,7 @@
 Assign Default To Properties
 ++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Assign Default To Properties: Properties may be assigned default values at declaration time.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Assign Default To Properties
 	:og:description: Properties may be assigned default values at declaration time
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/MakeDefault.html
 	:og:locale: en
-  Properties may be assigned default values at declaration time. Such values may be later modified, if needed. 
+Properties may be assigned default values at declaration time. Such values may be later modified, if needed. 
 Default values will save some instructions in the constructor, and makes the value obvious in the code.
 
 .. code-block:: php

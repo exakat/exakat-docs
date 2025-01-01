@@ -5,7 +5,7 @@
 No Valid Cast
 +++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		No Valid Cast: This cast generates an error, as there is no way to convert an object to an int.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ No Valid Cast
 	:og:description: This cast generates an error, as there is no way to convert an object to an int
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/NoValidCast.html
 	:og:locale: en
-  This cast generates an `error <https://www.php.net/error>`_, as there is no way to convert an object to an int. 
+This cast generates an `error <https://www.php.net/error>`_, as there is no way to convert an object to an int. 
 
 The `result <https://www.php.net/result>`_ will be 1. 
 

@@ -5,7 +5,7 @@
 Static Global Variables Confusion
 +++++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Static Global Variables Confusion: PHP can't have variable that are both static and global variable.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Static Global Variables Confusion
 	:og:description: PHP can't have variable that are both static and global variable
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/SGVariablesConfusion.html
 	:og:locale: en
-  PHP can't have variable that are both `static <https://www.php.net/manual/en/language.oop5.static.php>`_ and global variable. While the syntax is legit, the variables will be alternatively global or `static <https://www.php.net/manual/en/language.oop5.static.php>`_.
+PHP can't have variable that are both `static <https://www.php.net/manual/en/language.oop5.static.php>`_ and global variable. While the syntax is legit, the variables will be alternatively global or `static <https://www.php.net/manual/en/language.oop5.static.php>`_.
 
 It is recommended to avoid using the same name for a global variable and a `static <https://www.php.net/manual/en/language.oop5.static.php>`_ variable.
 

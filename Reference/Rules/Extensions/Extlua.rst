@@ -5,7 +5,7 @@
 ext/lua
 +++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/lua: Extension Lua.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/lua
 	:og:description: Extension Lua
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extlua.html
 	:og:locale: en
-  Extension Lua.
+Extension Lua.
 
 'Lua is a powerful, fast, light-weight, embeddable scripting language.' This extension embeds the lua interpreter and offers an OO-API to lua variables and functions.
 

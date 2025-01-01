@@ -5,7 +5,7 @@
 An OOP Factory
 ++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		An OOP Factory: A method or function that implements a factory.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ An OOP Factory
 	:og:description: A method or function that implements a factory
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Patterns/Factory.html
 	:og:locale: en
-  A method or function that implements a factory. A factory is a class that handles the creation of an object, based on parameters. The factory hides the logic that leads to the creation of the object.
+A method or function that implements a factory. A factory is a class that handles the creation of an object, based on parameters. The factory hides the logic that leads to the creation of the object.
 
 .. code-block:: php
    

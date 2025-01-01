@@ -5,7 +5,7 @@
 Preprocess Arrays
 +++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Preprocess Arrays: Using long list of assignations for initializing arrays is significantly slower than the declaring them as an array.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Preprocess Arrays
 	:og:description: Using long list of assignations for initializing arrays is significantly slower than the declaring them as an array
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Arrays/ShouldPreprocess.html
 	:og:locale: en
-  Using long list of assignations for initializing arrays is significantly slower than the declaring them as an array. 
+Using long list of assignations for initializing arrays is significantly slower than the declaring them as an array. 
 
 If the array has to be completed rather than created, it is also faster to use += when there are more than ten elements to add.
 

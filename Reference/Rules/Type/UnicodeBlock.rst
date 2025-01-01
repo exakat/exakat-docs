@@ -5,7 +5,7 @@
 Unicode Blocks
 ++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Unicode Blocks: List of the Unicode blocks used in string literals.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Unicode Blocks
 	:og:description: List of the Unicode blocks used in string literals
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Type/UnicodeBlock.html
 	:og:locale: en
-  List of the Unicode blocks used in string literals.
+List of the Unicode blocks used in string literals.
 
 This is the kind of characters that can be found in the applications strings.
 Note that Exakat only analyze PHP scripts : any translation available in a ``.po`` or external resource is not parsed and will not show.

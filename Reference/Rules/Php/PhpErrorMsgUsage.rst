@@ -5,7 +5,7 @@
 $php_errormsg Usage
 +++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		$php_errormsg Usage: The variable $php_errormsg is removed since PHP 8.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ $php_errormsg Usage
 	:og:description: The variable $php_errormsg is removed since PHP 8
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/PhpErrorMsgUsage.html
 	:og:locale: en
-  The variable $php_errormsg is removed since PHP 8.0. $php_errormsg tracks the last `error <https://www.php.net/error>`_ message, with the directive `track_errors`. All was removed in PHP 8.0, and shall be replaced with `error_get_last() <https://www.php.net/error_get_last>`_.
+The variable $php_errormsg is removed since PHP 8.0. $php_errormsg tracks the last `error <https://www.php.net/error>`_ message, with the directive `track_errors`. All was removed in PHP 8.0, and shall be replaced with `error_get_last() <https://www.php.net/error_get_last>`_.
 
 .. code-block:: php
    

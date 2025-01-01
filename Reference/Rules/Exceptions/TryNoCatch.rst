@@ -5,7 +5,7 @@
 Try Without Catch
 +++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Try Without Catch: Try may only hold a finally clause, to ensure that some code is always executed, in case of error or not.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Try Without Catch
 	:og:description: Try may only hold a finally clause, to ensure that some code is always executed, in case of error or not
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Exceptions/TryNoCatch.html
 	:og:locale: en
-  Try may only hold a finally clause, to ensure that some code is always executed, in case of `error <https://www.php.net/error>`_ or not.
+Try may only hold a finally clause, to ensure that some code is always executed, in case of `error <https://www.php.net/error>`_ or not.
 
 This is very rare.
 

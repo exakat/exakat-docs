@@ -5,7 +5,7 @@
 Excimer
 +++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Excimer: Excimer is a PHP 7.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Excimer
 	:og:description: Excimer is a PHP 7
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extexcimer.html
 	:og:locale: en
-  Excimer is a PHP 7.1+ extension that provides an interrupting timer and a low-overhead sampling profiler.
+Excimer is a PHP 7.1+ extension that provides an interrupting timer and a low-overhead sampling profiler.
 
 .. code-block:: php
    

@@ -5,7 +5,7 @@
 ext/redis
 +++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/redis: Extension ext/redis.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/redis
 	:og:description: Extension ext/redis
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extredis.html
 	:og:locale: en
-  Extension ext/redis.
+Extension ext/redis.
 
 The phpredis extension provides an API for communicating with the Redis key-value store.
 

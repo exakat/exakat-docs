@@ -5,7 +5,7 @@
 Constants Created Outside Its Namespace
 +++++++++++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Constants Created Outside Its Namespace: Constants Created Outside Its Namespace.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Constants Created Outside Its Namespace
 	:og:description: Constants Created Outside Its Namespace
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Constants/CreatedOutsideItsNamespace.html
 	:og:locale: en
-  Constants Created Outside Its Namespace.
+Constants Created Outside Its Namespace.
 
 Using the `define() <https://www.php.net/define>`_ function, it is possible to create constant outside their namespace, but using the fully qualified namespace.
 

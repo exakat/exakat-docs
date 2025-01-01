@@ -5,7 +5,7 @@
 Function Called With Other Case Than Defined
 ++++++++++++++++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Function Called With Other Case Than Defined: Functions and methods are defined with a specific case.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Function Called With Other Case Than Defined
 	:og:description: Functions and methods are defined with a specific case
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/FunctionCalledWithOtherCase.html
 	:og:locale: en
-  Functions and methods are defined with a specific case. Often, this is done on purpose,
+Functions and methods are defined with a specific case. Often, this is done on purpose,
 either to distinguish the method from others, such as PHP natives functions, or to follow a naming
 convention. 
 

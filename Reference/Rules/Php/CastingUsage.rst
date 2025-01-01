@@ -5,7 +5,7 @@
 Cast Usage
 ++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Cast Usage: List of all cast usage.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Cast Usage
 	:og:description: List of all cast usage
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/CastingUsage.html
 	:og:locale: en
-  List of all cast usage.
+List of all cast usage.
 
 PHP does not require (or support) explicit type definition in variable declaration; a variable's type is determined by the context in which the variable is used. 
 Until PHP 7.2, a ``(unset)`` operator was available. It had the same role as ``unset()`` as a function.

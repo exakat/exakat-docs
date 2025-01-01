@@ -5,7 +5,7 @@
 Anonymous Catch
 +++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Anonymous Catch: It is possible to omit the variable when using a catch clause.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Anonymous Catch
 	:og:description: It is possible to omit the variable when using a catch clause
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Exceptions/AnonymousCatch.html
 	:og:locale: en
-  It is possible to omit the variable when using a catch clause. It will catch the `exception <https://www.php.net/exception>`_, but it will not provide the details of the caught `exception <https://www.php.net/exception>`_.
+It is possible to omit the variable when using a catch clause. It will catch the `exception <https://www.php.net/exception>`_, but it will not provide the details of the caught `exception <https://www.php.net/exception>`_.
 
 .. code-block:: php
    

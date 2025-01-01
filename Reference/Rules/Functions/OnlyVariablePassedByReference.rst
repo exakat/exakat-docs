@@ -5,7 +5,7 @@
 Only Variable Passed By Reference
 +++++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Only Variable Passed By Reference: When an argument is expected by reference, it is compulsory to provide a container.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Only Variable Passed By Reference
 	:og:description: When an argument is expected by reference, it is compulsory to provide a container
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/OnlyVariablePassedByReference.html
 	:og:locale: en
-  When an argument is expected by reference, it is compulsory to provide a container. A container may be a variable, an array, a property or a `static <https://www.php.net/manual/en/language.oop5.static.php>`_ property. 
+When an argument is expected by reference, it is compulsory to provide a container. A container may be a variable, an array, a property or a `static <https://www.php.net/manual/en/language.oop5.static.php>`_ property. 
 
 This may be linted by PHP, when the function definition is in the same file as the function usage. This is silently linted if definition and usage are separated, if the call is dynamical or made as a method.
 This analysis currently covers functioncalls and `static <https://www.php.net/manual/en/language.oop5.static.php>`_ methodcalls, but omits methodcalls.

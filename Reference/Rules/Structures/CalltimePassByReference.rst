@@ -5,7 +5,7 @@
 Calltime Pass By Reference
 ++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Calltime Pass By Reference: PHP doesn't allow when a value is turned into a reference at functioncall, since PHP 5.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Calltime Pass By Reference
 	:og:description: PHP doesn't allow when a value is turned into a reference at functioncall, since PHP 5
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/CalltimePassByReference.html
 	:og:locale: en
-  PHP doesn't allow when a value is turned into a reference at functioncall, since PHP 5.4. 
+PHP doesn't allow when a value is turned into a reference at functioncall, since PHP 5.4. 
 
 Either the function use a reference in its signature, either the reference won't pass.
 

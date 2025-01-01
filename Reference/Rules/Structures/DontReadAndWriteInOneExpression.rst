@@ -5,7 +5,7 @@
 Don't Read And Write In One Expression
 ++++++++++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Don't Read And Write In One Expression: Avoid giving value and using it at the same time, in one expression.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Don't Read And Write In One Expression
 	:og:description: Avoid giving value and using it at the same time, in one expression
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/DontReadAndWriteInOneExpression.html
 	:og:locale: en
-  Avoid giving value and using it at the same time, in one expression. This is an undefined behavior of PHP, and may change without warning.
+Avoid giving value and using it at the same time, in one expression. This is an undefined behavior of PHP, and may change without warning.
 
 One of those changes happens between PHP 7.2 and 7.3 :
 

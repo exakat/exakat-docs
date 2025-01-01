@@ -5,7 +5,7 @@
 Simplify Foreach
 ++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Simplify Foreach: Remove all unused keys or values from a foreach() call.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Simplify Foreach
 	:og:description: Remove all unused keys or values from a foreach() call
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Performances/SimplifyForeach.html
 	:og:locale: en
-  Remove all unused keys or values from a `foreach() <https://www.php.net/manual/en/control-structures.foreach.php>`_ call. This prevents PHP from assigning them for nothing, and save some processing time. 
+Remove all unused keys or values from a `foreach() <https://www.php.net/manual/en/control-structures.foreach.php>`_ call. This prevents PHP from assigning them for nothing, and save some processing time. 
 This is a micro-optimisation.
 
 .. code-block:: php

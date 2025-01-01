@@ -5,7 +5,7 @@
 Custom Class Usage
 ++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Custom Class Usage: List of usage of custom classes throughout the code.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Custom Class Usage
 	:og:description: List of usage of custom classes throughout the code
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/AvoidUsing.html
 	:og:locale: en
-  List of usage of custom classes throughout the code. This might be important when it is time to refactor or remove such usage, before removing the class itself.
+List of usage of custom classes throughout the code. This might be important when it is time to refactor or remove such usage, before removing the class itself.
 
 .. code-block:: php
    

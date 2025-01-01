@@ -5,7 +5,7 @@
 Enum Usage
 ++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Enum Usage: This rule reports usage of PHP native enumerations.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Enum Usage
 	:og:description: This rule reports usage of PHP native enumerations
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/EnumUsage.html
 	:og:locale: en
-  This rule reports usage of PHP native enumerations. Enumerations were introduced in PHP 8.1 and are not backward compatible.
+This rule reports usage of PHP native enumerations. Enumerations were introduced in PHP 8.1 and are not backward compatible.
 
 .. code-block:: php
    

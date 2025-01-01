@@ -5,7 +5,7 @@
 Cache Variable Outside Loop
 +++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Cache Variable Outside Loop: Avoid recalculating constant values inside the loop.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Cache Variable Outside Loop
 	:og:description: Avoid recalculating constant values inside the loop
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Performances/CacheVariableOutsideLoop.html
 	:og:locale: en
-  Avoid recalculating constant values inside the loop.
+Avoid recalculating constant values inside the loop.
 
 Do the calculation once, outside the loop, and then reuse the value in the body of the loop. 
 

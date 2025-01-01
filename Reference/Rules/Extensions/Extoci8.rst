@@ -5,7 +5,7 @@
 ext/oci8
 ++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/oci8: Extension ext/oci8.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/oci8
 	:og:description: Extension ext/oci8
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extoci8.html
 	:og:locale: en
-  Extension ext/oci8.
+Extension ext/oci8.
 
 OCI8 gives access Oracle Database 12c, 11g, 10g, 9i and 8i.
 

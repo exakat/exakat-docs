@@ -5,7 +5,7 @@
 Cancelled Parameter
 +++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Cancelled Parameter: A parameter is cancelled, when its value is hardcoded, and cannot be changed by the calling expression.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Cancelled Parameter
 	:og:description: A parameter is cancelled, when its value is hardcoded, and cannot be changed by the calling expression
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/CancelledParameter.html
 	:og:locale: en
-  A parameter is cancelled, when its value is hardcoded, and cannot be changed by the calling expression. The argument is in the signature, but it is later hardcoded to a literal value : thus, it is not usable, from the caller point of view.
+A parameter is cancelled, when its value is hardcoded, and cannot be changed by the calling expression. The argument is in the signature, but it is later hardcoded to a literal value : thus, it is not usable, from the caller point of view.
 
 Reference argument are omitted in this rule, as their value changes, however hardcoded, may have an impact on the calling code.
 

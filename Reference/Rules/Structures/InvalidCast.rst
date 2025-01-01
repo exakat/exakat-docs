@@ -5,7 +5,7 @@
 Invalid Cast
 ++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Invalid Cast: Some cast operations not permitted.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Invalid Cast
 	:og:description: Some cast operations not permitted
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/InvalidCast.html
 	:og:locale: en
-  Some cast operations not permitted. 
+Some cast operations not permitted. 
 
 + (string) on an object whose class doesn't have a ``__toString`` method
 + (int) on any object, except certain PHP native ones

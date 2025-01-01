@@ -5,7 +5,7 @@
 Too Many Array Dimensions
 +++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Too Many Array Dimensions: This analysis reports when arrays have too many dimensions.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Too Many Array Dimensions
 	:og:description: This analysis reports when arrays have too many dimensions
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Arrays/TooManyDimensions.html
 	:og:locale: en
-  This analysis reports when arrays have too many dimensions. This happens when arrays are too deeply nested inside other arrays. 
+This analysis reports when arrays have too many dimensions. This happens when arrays are too deeply nested inside other arrays. 
 
 PHP has no nesting limit, and accepts any number of of dimensions. This is usually very memory hungry, and could be better replaced with classes.
 

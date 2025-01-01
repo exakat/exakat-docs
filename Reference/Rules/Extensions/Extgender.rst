@@ -5,7 +5,7 @@
 ext/gender
 ++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/gender: Gender extension.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/gender
 	:og:description: Gender extension
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extgender.html
 	:og:locale: en
-  Gender extension.
+Gender extension.
 
 The Gender PHP extension is a port of the gender.c program originally written by Joerg Michael. Its main purpose is to find out the gender of firstnames, based on a database of over 40000 firstnames from 54 countries.
 

@@ -5,7 +5,7 @@
 Functions Glossary
 ++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Functions Glossary: List of all the defined functions in the code.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Functions Glossary
 	:og:description: List of all the defined functions in the code
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/Functionnames.html
 	:og:locale: en
-  List of all the defined functions in the code.
+List of all the defined functions in the code.
 
 .. code-block:: php
    

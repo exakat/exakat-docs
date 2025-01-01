@@ -5,7 +5,7 @@
 Variable Variables
 ++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Variable Variables: A variable variable takes the value of a variable and treats that as the name of a variable.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Variable Variables
 	:og:description: A variable variable takes the value of a variable and treats that as the name of a variable
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Variables/VariableVariables.html
 	:og:locale: en
-  A variable variable takes the value of a variable and treats that as the name of a variable.
+A variable variable takes the value of a variable and treats that as the name of a variable.
 
 PHP has the ability to dynamically use a variable. 
 

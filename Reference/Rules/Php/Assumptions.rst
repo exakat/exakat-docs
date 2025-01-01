@@ -5,7 +5,7 @@
 Assumptions
 +++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Assumptions: Assumptions in the code, that leads to possible bugs.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Assumptions
 	:og:description: Assumptions in the code, that leads to possible bugs
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/Assumptions.html
 	:og:locale: en
-  Assumptions in the code, that leads to possible bugs. 
+Assumptions in the code, that leads to possible bugs. 
 
 Some conditions may be very weak, and lead to errors. For example, the code below checks that the variable `$a` is not null, then uses it as an array. There is no relationship between 'not null' and 'being an array', so this is an assumption.
 

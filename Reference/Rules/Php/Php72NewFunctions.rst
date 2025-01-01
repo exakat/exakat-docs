@@ -5,7 +5,7 @@
 New Functions In PHP 7.2
 ++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		New Functions In PHP 7.2: The following functions are now native functions in PHP 7.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ New Functions In PHP 7.2
 	:og:description: The following functions are now native functions in PHP 7
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/Php72NewFunctions.html
 	:og:locale: en
-  The following functions are now native functions in PHP 7.2. It is advised to change custom functions that are currently created, and using those names, before moving to this new version.
+The following functions are now native functions in PHP 7.2. It is advised to change custom functions that are currently created, and using those names, before moving to this new version.
 
 * `mb_ord() <https://www.php.net/mb_ord>`_
 * `mb_chr() <https://www.php.net/mb_chr>`_

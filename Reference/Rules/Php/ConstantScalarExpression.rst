@@ -5,7 +5,7 @@
 Constant Scalar Expression
 ++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Constant Scalar Expression: Since PHP 5.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Constant Scalar Expression
 	:og:description: Since PHP 5
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/ConstantScalarExpression.html
 	:og:locale: en
-  Since PHP 5.6, it is possible to use expression with Constants and default values. One may only use simple operators.
+Since PHP 5.6, it is possible to use expression with Constants and default values. One may only use simple operators.
 
 .. code-block:: php
    

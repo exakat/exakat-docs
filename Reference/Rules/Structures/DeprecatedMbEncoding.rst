@@ -5,7 +5,7 @@
 Deprecated Mb_string Encodings
 ++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Deprecated Mb_string Encodings: Some encodings, available in the mb_string extensions, are deprecated.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Deprecated Mb_string Encodings
 	:og:description: Some encodings, available in the mb_string extensions, are deprecated
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/DeprecatedMbEncoding.html
 	:og:locale: en
-  Some encodings, available in the mb_string extensions, are deprecated. Starting with PHP 8.2, the following encodings emits a warning: 
+Some encodings, available in the mb_string extensions, are deprecated. Starting with PHP 8.2, the following encodings emits a warning: 
 
 + BASE64
 + UUENCODE

@@ -5,7 +5,7 @@
 get_class() Without Argument
 ++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		get_class() Without Argument: get_class() and get_parent_class() should not be called without arguments.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ get_class() Without Argument
 	:og:description: get_class() and get_parent_class() should not be called without arguments
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/GetClassWithoutArg.html
 	:og:locale: en
-  `get_class() <https://www.php.net/get_class>`_ and `get_parent_class() <https://www.php.net/get_parent_class>`_ should not be called without arguments. It was possible until PHP 8.3, but it is now a deprecated behavior.
+`get_class() <https://www.php.net/get_class>`_ and `get_parent_class() <https://www.php.net/get_parent_class>`_ should not be called without arguments. It was possible until PHP 8.3, but it is now a deprecated behavior.
 
 .. code-block:: php
    

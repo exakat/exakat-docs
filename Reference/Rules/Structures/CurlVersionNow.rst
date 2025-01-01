@@ -5,7 +5,7 @@
 curl_version() Has No Argument
 ++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		curl_version() Has No Argument: curl_version() used to accept ``CURLVERSION_NOW`` as argument.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ curl_version() Has No Argument
 	:og:description: curl_version() used to accept ``CURLVERSION_NOW`` as argument
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/CurlVersionNow.html
 	:og:locale: en
-  `curl_version() <https://www.php.net/curl_version>`_ used to accept ``CURLVERSION_NOW`` as argument. Since PHP 7.4, it is a function without arguments.
+`curl_version() <https://www.php.net/curl_version>`_ used to accept ``CURLVERSION_NOW`` as argument. Since PHP 7.4, it is a function without arguments.
 
 .. code-block:: php
    

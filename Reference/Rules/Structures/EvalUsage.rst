@@ -5,7 +5,7 @@
 Eval() Usage
 ++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Eval() Usage: Using eval() is evil.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Eval() Usage
 	:og:description: Using eval() is evil
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/EvalUsage.html
 	:og:locale: en
-  Using eval() is evil. 
+Using eval() is evil. 
 
 Using eval() is bad for performances (compilation time), for caches (it won't be compiled), and for security (if it includes external data).
 Most of the time, it is possible to replace the code by some standard PHP, like variable variable for accessing a variable for which you have the name.

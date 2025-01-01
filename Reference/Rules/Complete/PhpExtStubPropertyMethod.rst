@@ -5,7 +5,7 @@
 Php Ext Stub Property And Method
 ++++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Php Ext Stub Property And Method: Provides `isExt` property to method call and properties access, based on typehints and local instantiation.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Php Ext Stub Property And Method
 	:og:description: Provides `isExt` property to method call and properties access, based on typehints and local instantiation
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Complete/PhpExtStubPropertyMethod.html
 	:og:locale: en
-  Provides `isExt` property to method call and properties access, based on typehints and local instantiation.
+Provides `isExt` property to method call and properties access, based on typehints and local instantiation.
 
 Specs
 _____

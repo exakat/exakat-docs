@@ -5,7 +5,7 @@
 Use PHP Object API
 ++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Use PHP Object API: OOP API is the modern version of the PHP API.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Use PHP Object API
 	:og:description: OOP API is the modern version of the PHP API
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/UseObjectApi.html
 	:og:locale: en
-  OOP API is the modern version of the PHP API.
+OOP API is the modern version of the PHP API.
 
 When PHP offers the alternative between procedural and OOP api for the same features, it is recommended to use the OOP API. 
 

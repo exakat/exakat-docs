@@ -5,7 +5,7 @@
 Dl() Usage
 ++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Dl() Usage: Dynamically load PHP extensions with dl().
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Dl() Usage
 	:og:description: Dynamically load PHP extensions with dl()
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/DlUsage.html
 	:og:locale: en
-  Dynamically load PHP extensions with `dl() <https://www.php.net/dl>`_.
+Dynamically load PHP extensions with `dl() <https://www.php.net/dl>`_.
 
 .. code-block:: php
    

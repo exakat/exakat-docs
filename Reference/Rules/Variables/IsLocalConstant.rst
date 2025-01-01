@@ -5,7 +5,7 @@
 Variable Is A Local Constant
 ++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Variable Is A Local Constant: A variable that is written once, then never modified : it behaves like a constant.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Variable Is A Local Constant
 	:og:description: A variable that is written once, then never modified : it behaves like a constant
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Variables/IsLocalConstant.html
 	:og:locale: en
-  A variable that is written once, then never modified : it behaves like a constant. Some other rule may take advantage of this.
+A variable that is written once, then never modified : it behaves like a constant. Some other rule may take advantage of this.
 
 .. code-block:: php
    

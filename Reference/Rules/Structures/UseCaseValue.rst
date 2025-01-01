@@ -5,7 +5,7 @@
 Use The Case Value
 ++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Use The Case Value: When switch() has branched to the right case, the value of the switched variable is known : it is the case.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Use The Case Value
 	:og:description: When switch() has branched to the right case, the value of the switched variable is known : it is the case
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/UseCaseValue.html
 	:og:locale: en
-  When `switch() <https://www.php.net/manual/en/control-structures.switch.php>`_ has branched to the right case, the value of the switched variable is known : it is the case.
+When `switch() <https://www.php.net/manual/en/control-structures.switch.php>`_ has branched to the right case, the value of the switched variable is known : it is the case.
 
 This doesn't work with complex expression cases, nor with default.
 

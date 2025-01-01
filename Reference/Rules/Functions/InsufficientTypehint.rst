@@ -5,7 +5,7 @@
 Insufficient Typehint
 +++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Insufficient Typehint: An argument is typehinted, but it actually calls methods, constants or properties that are not listed in the interface.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Insufficient Typehint
 	:og:description: An argument is typehinted, but it actually calls methods, constants or properties that are not listed in the interface
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/InsufficientTypehint.html
 	:og:locale: en
-  An argument is typehinted, but it actually calls methods, constants or properties that are not listed in the interface.
+An argument is typehinted, but it actually calls methods, constants or properties that are not listed in the interface.
 
 Classes may be implementing more methods than the one that are listed in the interface they also implements. This means that filtering objects with a typehint, but calling other methods will be solved at execution time : if the method is available, it will be used; if it is not, a fatal `error <https://www.php.net/error>`_ is reported.
 

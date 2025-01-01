@@ -5,7 +5,7 @@
 Useless Interfaces
 ++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Useless Interfaces: The interfaces below are defined and are implemented by some classes.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Useless Interfaces
 	:og:description: The interfaces below are defined and are implemented by some classes
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Interfaces/UselessInterfaces.html
 	:og:locale: en
-  The interfaces below are defined and are implemented by some classes. 
+The interfaces below are defined and are implemented by some classes. 
 
 However, they are never used to enforce an object's class in the code, using ``instanceof`` or in a type. 
 As they are currently used, those interfaces may be removed without change in behavior.

@@ -5,7 +5,7 @@
 No Need For get_class()
 +++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		No Need For get_class(): There is no need to call get_class() to build a static call.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ No Need For get_class()
 	:og:description: There is no need to call get_class() to build a static call
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/NoNeedGetClass.html
 	:og:locale: en
-  There is no need to call `get_class() <https://www.php.net/get_class>`_ to build a `static <https://www.php.net/manual/en/language.oop5.static.php>`_ call. The argument of `get_class() <https://www.php.net/get_class>`_ may be used directly.
+There is no need to call `get_class() <https://www.php.net/get_class>`_ to build a `static <https://www.php.net/manual/en/language.oop5.static.php>`_ call. The argument of `get_class() <https://www.php.net/get_class>`_ may be used directly.
 
 .. code-block:: php
    

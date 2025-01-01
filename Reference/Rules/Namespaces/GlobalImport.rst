@@ -5,7 +5,7 @@
 Global Import
 +++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Global Import: This rule marks a ``use`` statement that imports a global class in the current file.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Global Import
 	:og:description: This rule marks a ``use`` statement that imports a global class in the current file
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Namespaces/GlobalImport.html
 	:og:locale: en
-  This rule marks a ``use`` statement that imports a global class in the current file.
+This rule marks a ``use`` statement that imports a global class in the current file.
 
 .. code-block:: php
    

@@ -5,7 +5,7 @@
 Implicit Global
 +++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Implicit Global: Global variables, that are used in local scope with global keyword, but are not declared as global in the global scope.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Implicit Global
 	:og:description: Global variables, that are used in local scope with global keyword, but are not declared as global in the global scope
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ImplicitGlobal.html
 	:og:locale: en
-  Global variables, that are used in local scope with global keyword, but are not declared as global in the global scope. They may be mistaken with distinct values, while, in PHP, variables in the global scope are truly global.
+Global variables, that are used in local scope with global keyword, but are not declared as global in the global scope. They may be mistaken with distinct values, while, in PHP, variables in the global scope are truly global.
 
 .. code-block:: php
    

@@ -5,7 +5,7 @@
 Array_Fill() With Objects
 +++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Array_Fill() With Objects: array_fill() fills an array with identical objects, not copies nor clones.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Array_Fill() With Objects
 	:og:description: array_fill() fills an array with identical objects, not copies nor clones
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ArrayFillWithObjects.html
 	:og:locale: en
-  `array_fill() <https://www.php.net/array_fill>`_ fills an array with identical objects, not copies nor clones. This means that all the filled objects are a reference to the same object. Changing one of them will change any of them.
+`array_fill() <https://www.php.net/array_fill>`_ fills an array with identical objects, not copies nor clones. This means that all the filled objects are a reference to the same object. Changing one of them will change any of them.
 
 Make sure this is the intended effect in the code. 
 

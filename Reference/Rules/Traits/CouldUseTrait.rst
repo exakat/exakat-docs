@@ -5,7 +5,7 @@
 Could Use Trait
 +++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Could Use Trait: The following classes have been found implementing all of a trait's methods : it could use this trait, and remove duplicated code.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Could Use Trait
 	:og:description: The following classes have been found implementing all of a trait's methods : it could use this trait, and remove duplicated code
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Traits/CouldUseTrait.html
 	:og:locale: en
-  The following classes have been found implementing all of a trait's methods : it could use this trait, and remove duplicated code.
+The following classes have been found implementing all of a trait's methods : it could use this trait, and remove duplicated code.
 
 
 

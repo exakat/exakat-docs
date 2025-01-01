@@ -5,7 +5,7 @@
 Pre-increment
 +++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Pre-increment: When possible, use the pre-increment operator (``++$i`` or ``--$i``) instead of the post-increment operator (``$i++`` or ``$i--``).
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Pre-increment
 	:og:description: When possible, use the pre-increment operator (``++$i`` or ``--$i``) instead of the post-increment operator (``$i++`` or ``$i--``)
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Performances/PrePostIncrement.html
 	:og:locale: en
-  When possible, use the pre-increment operator (``++$i`` or ``--$i``) instead of the post-increment operator (``$i++`` or ``$i--``).
+When possible, use the pre-increment operator (``++$i`` or ``--$i``) instead of the post-increment operator (``$i++`` or ``$i--``).
 
 The latter needs an extra memory allocation that costs about 10% of performances. 
 This is a micro-optimisation. However, its usage is so widespread, including within loops, that it may eventually have an significant impact on execution time. As such, it is recommended to adopt this rule, and only consider changing legacy code as they are refactored for other reasons.

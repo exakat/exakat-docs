@@ -5,7 +5,7 @@
 Too Many Parameters
 +++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Too Many Parameters: Method has too many parameters.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Too Many Parameters
 	:og:description: Method has too many parameters
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/TooManyParameters.html
 	:og:locale: en
-  Method has too many parameters. Exakat has a default parameter count which may be configured.
+Method has too many parameters. Exakat has a default parameter count which may be configured.
 
 A method that needs more than 8 parameters is trying to do too much : it should be reviewed and split into smaller methods.
 

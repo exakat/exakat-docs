@@ -5,7 +5,7 @@
 Binary Glossary
 +++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Binary Glossary: List of all the integer values using the binary format.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Binary Glossary
 	:og:description: List of all the integer values using the binary format
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Type/Binary.html
 	:og:locale: en
-  List of all the integer values using the binary format.
+List of all the integer values using the binary format.
 
 .. code-block:: php
    

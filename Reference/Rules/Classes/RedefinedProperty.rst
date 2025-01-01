@@ -5,7 +5,7 @@
 Redefined Property
 ++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Redefined Property: Property redefined in a parent class.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Redefined Property
 	:og:description: Property redefined in a parent class
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/RedefinedProperty.html
 	:og:locale: en
-  Property redefined in a `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ class. 
+Property redefined in a `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ class. 
 
 Using heritage, it is possible to define several times the same property, at different levels of the hierarchy.
 When this is the case, it is difficult to understand which class will actually handle the property. 

@@ -5,7 +5,7 @@
 Inconsistent Concatenation
 ++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Inconsistent Concatenation: Concatenations happens within a string or using the dot operator.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Inconsistent Concatenation
 	:og:description: Concatenations happens within a string or using the dot operator
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/InconsistentConcatenation.html
 	:og:locale: en
-  Concatenations happens within a string or using the dot operator. Using both is an inconsistent way of writing concatenations.
+Concatenations happens within a string or using the dot operator. Using both is an inconsistent way of writing concatenations.
 
 Switching methods of concatenation, sometimes in the same expression, is `error <https://www.php.net/error>`_ prone. The reader gets confused, and may miss important information. 
 

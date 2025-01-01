@@ -5,7 +5,7 @@
 Declare Static Once
 +++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Declare Static Once: Global and static variables should be declared only once in a method.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Declare Static Once
 	:og:description: Global and static variables should be declared only once in a method
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/DeclareStaticOnce.html
 	:og:locale: en
-  Global and `static <https://www.php.net/manual/en/language.oop5.static.php>`_ variables should be declared only once in a method. It is also recommended to configure it at the beginning of the method. This could be refined by defining the variable at the last common moment, though it lacks readability.
+Global and `static <https://www.php.net/manual/en/language.oop5.static.php>`_ variables should be declared only once in a method. It is also recommended to configure it at the beginning of the method. This could be refined by defining the variable at the last common moment, though it lacks readability.
 Defining `static <https://www.php.net/manual/en/language.oop5.static.php>`_ or global methods late is a micro-optimisation.
 
 .. code-block:: php

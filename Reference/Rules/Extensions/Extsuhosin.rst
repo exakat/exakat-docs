@@ -5,7 +5,7 @@
 ext/suhosin
 +++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/suhosin: Suhosin extension.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/suhosin
 	:og:description: Suhosin extension
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extsuhosin.html
 	:og:locale: en
-  Suhosin extension.
+Suhosin extension.
 
 Suhosin (pronounced 'su-ho-shin') is an advanced protection system for PHP installations. It was designed to protect servers and users from known and unknown flaws in PHP applications and the PHP core.
 

@@ -5,7 +5,7 @@
 Path lists
 ++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Path lists: List of all paths that were found in the code.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Path lists
 	:og:description: List of all paths that were found in the code
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Type/Path.html
 	:og:locale: en
-  List of all paths that were found in the code.
+List of all paths that were found in the code.
 
 Path are identified with this regex : ``^(.*/)([^/]*)\.\w+$``. In particular, the `directory <https://www.php.net/`directory <https://www.php.net/directory>`_>`_ delimiter is ``/`` : Windows delimiter ``\`` are not detected. 
 URL are ignored when the protocol is present in the literal : ``http://www.example.com`` is not mistaken with a file.

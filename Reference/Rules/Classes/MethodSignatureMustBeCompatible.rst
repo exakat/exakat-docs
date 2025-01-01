@@ -5,7 +5,7 @@
 Method Signature Must Be Compatible
 +++++++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Method Signature Must Be Compatible: Make sure methods signature are compatible.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Method Signature Must Be Compatible
 	:og:description: Make sure methods signature are compatible
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/MethodSignatureMustBeCompatible.html
 	:og:locale: en
-  Make sure methods signature are compatible.
+Make sure methods signature are compatible.
 
 PHP generates the infamous Fatal `error <https://www.php.net/error>`_ at execution : ``Declaration of FooParent\:\:Bar() must be compatible with FooChildren\:\:Bar()``
 

@@ -5,7 +5,7 @@
 Useless Coalesce
 ++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Useless Coalesce: The .
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Useless Coalesce
 	:og:description: The 
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/UselessCoalesce.html
 	:og:locale: en
-  The ?: operator needs the condition to be potentially empty. This means that the type should have the possibility to be null, false, 0, or any of the empty values.
+The ?: operator needs the condition to be potentially empty. This means that the type should have the possibility to be null, false, 0, or any of the empty values.
 
 .. code-block:: php
    

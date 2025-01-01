@@ -5,7 +5,7 @@
 Closure May Use $this
 +++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Closure May Use $this: $this is automatically accessible to closures.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Closure May Use $this
 	:og:description: $this is automatically accessible to closures
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/ClosureThisSupport.html
 	:og:locale: en
-  `$this <https://www.php.net/manual/en/language.oop5.basic.php>`_ is automatically accessible to closures.
+`$this <https://www.php.net/manual/en/language.oop5.basic.php>`_ is automatically accessible to closures.
 
 When closures were introduced in PHP, they couldn't use the `$this <https://www.php.net/manual/en/language.oop5.basic.php>`_ variable, making is cumbersome to access local properties when the `closure <https://www.php.net/`closure <https://www.php.net/closure>`_>`_ was created within an object. 
 This is not the case anymore since PHP 5.4.

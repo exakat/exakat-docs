@@ -5,7 +5,7 @@
 Empty Traits
 ++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Empty Traits: List of all empty trait defined in the code.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Empty Traits
 	:og:description: List of all empty trait defined in the code
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Traits/EmptyTrait.html
 	:og:locale: en
-  List of all empty trait defined in the code. 
+List of all empty trait defined in the code. 
 
 
 

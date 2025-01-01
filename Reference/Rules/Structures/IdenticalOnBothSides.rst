@@ -5,7 +5,7 @@
 Identical On Both Sides
 +++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Identical On Both Sides: Operands should be different when comparing or making a logical combination.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Identical On Both Sides
 	:og:description: Operands should be different when comparing or making a logical combination
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/IdenticalOnBothSides.html
 	:og:locale: en
-  Operands should be different when comparing or making a logical combination. Of course, the value each operand holds may be identical. When the same operand appears on both sides of the expression, the `result <https://www.php.net/result>`_ is know before execution.
+Operands should be different when comparing or making a logical combination. Of course, the value each operand holds may be identical. When the same operand appears on both sides of the expression, the `result <https://www.php.net/result>`_ is know before execution.
 
 .. code-block:: php
    

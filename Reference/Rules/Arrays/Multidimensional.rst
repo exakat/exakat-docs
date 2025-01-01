@@ -5,7 +5,7 @@
 Multidimensional Arrays
 +++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Multidimensional Arrays: Multidimensional arrays are arrays of arrays.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Multidimensional Arrays
 	:og:description: Multidimensional arrays are arrays of arrays
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Arrays/Multidimensional.html
 	:og:locale: en
-  Multidimensional arrays are arrays of arrays. Each level of array is called a dimension. The number of dimensions is arbitrary, though it is recommende not to abuse it beyond 4.
+Multidimensional arrays are arrays of arrays. Each level of array is called a dimension. The number of dimensions is arbitrary, though it is recommende not to abuse it beyond 4.
 
 .. code-block:: php
    

@@ -5,7 +5,7 @@
 PHP 8.0 Removed Directives
 ++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		PHP 8.0 Removed Directives: List of directives that are removed in PHP 8.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ PHP 8.0 Removed Directives
 	:og:description: List of directives that are removed in PHP 8
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/Php80RemovedDirective.html
 	:og:locale: en
-  List of directives that are removed in PHP 8.0.
+List of directives that are removed in PHP 8.0.
 
 In PHP 8.0, `track_errors` was removed. 
 

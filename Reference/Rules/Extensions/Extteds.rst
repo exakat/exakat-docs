@@ -5,7 +5,7 @@
 ext/teds
 ++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/teds: teds (Tentative Extra Data Structures) is a collection of data structures and iterable functionality.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/teds
 	:og:description: teds (Tentative Extra Data Structures) is a collection of data structures and iterable functionality
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extteds.html
 	:og:locale: en
-  teds (Tentative Extra Data Structures) is a collection of data structures and iterable functionality.
+teds (Tentative Extra Data Structures) is a collection of data structures and iterable functionality.
 
 .. code-block:: php
    

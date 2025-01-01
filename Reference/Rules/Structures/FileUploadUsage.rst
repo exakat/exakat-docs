@@ -5,7 +5,7 @@
 File Uploads
 ++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		File Uploads: This code makes usage of file upload features of PHP.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ File Uploads
 	:og:description: This code makes usage of file upload features of PHP
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/FileUploadUsage.html
 	:og:locale: en
-  This code makes usage of file upload features of PHP.
+This code makes usage of file upload features of PHP.
 
 Upload file feature is detected through the usage of specific functions :
 

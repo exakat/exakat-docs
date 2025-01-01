@@ -5,7 +5,7 @@
 Use Instanceof
 ++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Use Instanceof: The ``instanceof`` operator is a more precise alternative to ``is_object()``.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Use Instanceof
 	:og:description: The ``instanceof`` operator is a more precise alternative to ``is_object()``
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/UseInstanceof.html
 	:og:locale: en
-  The ``instanceof`` operator is a more precise alternative to ``is_object()``. It is also faster.
+The ``instanceof`` operator is a more precise alternative to ``is_object()``. It is also faster.
 
 `instanceof <https://www.php.net/manual/en/language.operators.type.php>`_ checks for an variable to be of a class or its parents or the interfaces it implements. 
 Once ``instanceof`` has been used, the actual attributes available (properties, constants, methods) are known, unlike with ``is_object()``.

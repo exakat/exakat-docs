@@ -5,7 +5,7 @@
 Check All Types
 +++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Check All Types: When checking for type, avoid using else.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Check All Types
 	:og:description: When checking for type, avoid using else
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/CheckAllTypes.html
 	:og:locale: en
-  When checking for type, avoid using else. Mention explicitly all tested types, and raise an `exception <https://www.php.net/exception>`_ when all available options have been exhausted : after all, this is when the code doesn't know how to handle the datatype.
+When checking for type, avoid using else. Mention explicitly all tested types, and raise an `exception <https://www.php.net/exception>`_ when all available options have been exhausted : after all, this is when the code doesn't know how to handle the datatype.
 
 PHP has a short list of scalar types : null, boolean, integer, real, strings, object, resource and array. When a variable is not holding one the the type, then it may be of any other type. 
 

@@ -5,7 +5,7 @@
 Classes Mutually Extending Each Other
 +++++++++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Classes Mutually Extending Each Other: Those classes are extending each other, creating an extension loop.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Classes Mutually Extending Each Other
 	:og:description: Those classes are extending each other, creating an extension loop
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/MutualExtension.html
 	:og:locale: en
-  Those classes are extending each other, creating an extension loop. PHP will yield a fatal `error <https://www.php.net/error>`_ at running time, even if it is compiling the code.
+Those classes are extending each other, creating an extension loop. PHP will yield a fatal `error <https://www.php.net/error>`_ at running time, even if it is compiling the code.
 
 .. code-block:: php
    

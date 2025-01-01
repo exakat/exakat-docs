@@ -5,7 +5,7 @@
 Interface Arguments
 +++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Interface Arguments: This rule lists variables that are arguments in an interface.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Interface Arguments
 	:og:description: This rule lists variables that are arguments in an interface
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Variables/InterfaceArguments.html
 	:og:locale: en
-  This rule lists variables that are arguments in an interface.
+This rule lists variables that are arguments in an interface.
 
 .. code-block:: php
    

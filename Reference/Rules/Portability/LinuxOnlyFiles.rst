@@ -5,7 +5,7 @@
 Linux Only Files
 ++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Linux Only Files: List of files that are only found on Linux style systems.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Linux Only Files
 	:og:description: List of files that are only found on Linux style systems
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Portability/LinuxOnlyFiles.html
 	:og:locale: en
-  List of files that are only found on Linux style systems. They are making the application depend on the system.
+List of files that are only found on Linux style systems. They are making the application depend on the system.
 
 .. code-block:: php
    

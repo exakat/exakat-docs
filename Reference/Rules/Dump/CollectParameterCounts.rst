@@ -5,7 +5,7 @@
 Collect Parameter Counts
 ++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Collect Parameter Counts: This analysis collects the number of parameter per method.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Collect Parameter Counts
 	:og:description: This analysis collects the number of parameter per method
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/CollectParameterCounts.html
 	:og:locale: en
-  This analysis collects the number of parameter per method. 
+This analysis collects the number of parameter per method. 
 
 The count applies to functions, methods, closures and arrow functions.
 

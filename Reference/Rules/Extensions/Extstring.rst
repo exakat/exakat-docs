@@ -5,7 +5,7 @@
 String
 ++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		String: Strings in PHP.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ String
 	:og:description: Strings in PHP
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extstring.html
 	:og:locale: en
-  Strings in PHP. Strings are part of the core of PHP, and are not a separate extension.
+Strings in PHP. Strings are part of the core of PHP, and are not a separate extension.
 
 .. code-block:: php
    

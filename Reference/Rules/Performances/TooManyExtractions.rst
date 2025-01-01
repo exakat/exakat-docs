@@ -5,7 +5,7 @@
 Too Many Extractions
 ++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Too Many Extractions: Using a loop to extract all the values from an array or an object, but failing to use them all later.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Too Many Extractions
 	:og:description: Using a loop to extract all the values from an array or an object, but failing to use them all later
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Performances/TooManyExtractions.html
 	:og:locale: en
-  Using a loop to extract all the values from an array or an object, but failing to use them all later.
+Using a loop to extract all the values from an array or an object, but failing to use them all later.
 
 This means too much work was applied to the extraction, and it could be shorten by choosing the actual values.
 

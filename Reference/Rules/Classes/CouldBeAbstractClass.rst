@@ -5,7 +5,7 @@
 Could Be Abstract Class
 +++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Could Be Abstract Class: An abstract class is never instantiated, and has children class that are.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Could Be Abstract Class
 	:og:description: An abstract class is never instantiated, and has children class that are
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/CouldBeAbstractClass.html
 	:og:locale: en
-  An abstract class is never instantiated, and has children class that are. As such, a '`parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_' class that is never instantiated by itself, but has its own children instantiated could be marked as abstract. 
+An abstract class is never instantiated, and has children class that are. As such, a '`parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_' class that is never instantiated by itself, but has its own children instantiated could be marked as abstract. 
 
 That will prevent new code to try to instantiate it.
 

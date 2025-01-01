@@ -5,7 +5,7 @@
 Merge If Then
 +++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Merge If Then: Two nested if/then may be merged into one, by merging the two conditions.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Merge If Then
 	:og:description: Two nested if/then may be merged into one, by merging the two conditions
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/MergeIfThen.html
 	:og:locale: en
-  Two nested if/then may be merged into one, by merging the two conditions. This is often a development artifact. 
+Two nested if/then may be merged into one, by merging the two conditions. This is often a development artifact. 
 
 .. code-block:: php
    

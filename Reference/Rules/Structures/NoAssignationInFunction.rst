@@ -5,7 +5,7 @@
 Avoid Large Array Assignation
 +++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Avoid Large Array Assignation: Avoid setting large arrays to local variables.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Avoid Large Array Assignation
 	:og:description: Avoid setting large arrays to local variables
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/NoAssignationInFunction.html
 	:og:locale: en
-  Avoid setting large arrays to local variables. Such operation is done every time the function is called, and it wastes time. 
+Avoid setting large arrays to local variables. Such operation is done every time the function is called, and it wastes time. 
 
 This rule applies to constant arrays: when the arrays are dynamically build, with variables or properties, they are not reported here.
 

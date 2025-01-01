@@ -5,7 +5,7 @@
 Md5 Strings
 +++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Md5 Strings: List of all the MD5 values hard coded in the application.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Md5 Strings
 	:og:description: List of all the MD5 values hard coded in the application
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Type/Md5String.html
 	:og:locale: en
-  List of all the MD5 values hard coded in the application.
+List of all the MD5 values hard coded in the application.
 
 MD5 values are detected as hexadecimal strings, of length 32. No attempt at recognizing the origin value is made, so any such strings, including dummy '11111111111111111111111111111111' are reported.
 

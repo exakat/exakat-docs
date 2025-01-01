@@ -5,7 +5,7 @@
 Don't Reuse Foreach Source
 ++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Don't Reuse Foreach Source: It is dangerous to reuse the same variable inside a loop that use it as a source.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Don't Reuse Foreach Source
 	:og:description: It is dangerous to reuse the same variable inside a loop that use it as a source
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/DontReuseForeachSource.html
 	:og:locale: en
-  It is dangerous to reuse the same variable inside a loop that use it as a source.
+It is dangerous to reuse the same variable inside a loop that use it as a source.
 
 PHP actually takes a copy of the source, so the `foreach() <https://www.php.net/manual/en/control-structures.foreach.php>`_ loop is not affected by the modification. 
 

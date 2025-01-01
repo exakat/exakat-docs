@@ -5,7 +5,7 @@
 ext/inotify
 +++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/inotify: Extension inotify.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/inotify
 	:og:description: Extension inotify
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extinotify.html
 	:og:locale: en
-  Extension inotify.
+Extension inotify.
 
 The Inotify extension gives access to the Linux kernel subsystem that acts to extend filesystems to notice changes to the filesystem, and report those changes to applications.
 

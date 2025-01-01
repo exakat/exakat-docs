@@ -5,7 +5,7 @@
 Namespaces Glossary
 +++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Namespaces Glossary: List of all the defined namespaces in the code, using the namespace keyword.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Namespaces Glossary
 	:og:description: List of all the defined namespaces in the code, using the namespace keyword
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Namespaces/Namespacesnames.html
 	:og:locale: en
-  List of all the defined namespaces in the code, using the namespace keyword. 
+List of all the defined namespaces in the code, using the namespace keyword. 
 Global namespaces are mentioned when they are explicitly used.
 
 .. code-block:: php

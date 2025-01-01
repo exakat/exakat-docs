@@ -5,7 +5,7 @@
 Constants Usage
 +++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Constants Usage: List of constants in use in the source code.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Constants Usage
 	:og:description: List of constants in use in the source code
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Constants/ConstantUsage.html
 	:og:locale: en
-  List of constants in use in the source code. Constants are `T_STRING <https://www.php.net/T_STRING>`_, localised in specific part of the code. 
+List of constants in use in the source code. Constants are `T_STRING <https://www.php.net/T_STRING>`_, localised in specific part of the code. 
 
 For example, they can't be followed by a parenthesis, as this is a function call; nor preceded by a ``new`` operator, as this is an object instantiation. 
 

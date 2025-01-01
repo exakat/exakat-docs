@@ -5,7 +5,7 @@
 Useless Method Alias
 ++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Useless Method Alias: It is not possible to declare an alias of a method with the same name.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Useless Method Alias
 	:og:description: It is not possible to declare an alias of a method with the same name
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Traits/UselessAlias.html
 	:og:locale: en
-  It is not possible to declare an alias of a method with the same name. 
+It is not possible to declare an alias of a method with the same name. 
 
 PHP reports that ``Trait method f has not been applied, because there are collisions with other trait methods on x``, which is a way to say that the alias will be in conflict with the method name. 
 

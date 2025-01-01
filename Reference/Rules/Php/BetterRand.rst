@@ -5,7 +5,7 @@
 Use random_int()
 ++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Use random_int(): rand() and mt_rand() should be replaced with random_int().
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Use random_int()
 	:og:description: rand() and mt_rand() should be replaced with random_int()
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/BetterRand.html
 	:og:locale: en
-  `rand() <https://www.php.net/rand>`_ and `mt_rand() <https://www.php.net/mt_rand>`_ should be replaced with `random_int() <https://www.php.net/random_int>`_.
+`rand() <https://www.php.net/rand>`_ and `mt_rand() <https://www.php.net/mt_rand>`_ should be replaced with `random_int() <https://www.php.net/random_int>`_.
 
 At worse, `rand() <https://www.php.net/rand>`_ should be replaced with `mt_rand() <https://www.php.net/mt_rand>`_, which is a drop-in replacement and `srand() <https://www.php.net/srand>`_ by `mt_srand() <https://www.php.net/mt_srand>`_. 
 

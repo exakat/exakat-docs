@@ -5,7 +5,7 @@
 Should Use Function
 +++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Should Use Function: Functioncalls that fall back to global scope should be using 'use function' or be fully namespaced.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Should Use Function
 	:og:description: Functioncalls that fall back to global scope should be using 'use function' or be fully namespaced
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/ShouldUseFunction.html
 	:og:locale: en
-  Functioncalls that fall back to global scope should be using 'use function' or be fully namespaced. 
+Functioncalls that fall back to global scope should be using 'use function' or be fully namespaced. 
 
 PHP searches for functions in the local namespaces, and in case it fails, makes the same search in the global scope. Anytime a native function is referenced this way, the search (and fail) happens. This slows down the scripts.
 

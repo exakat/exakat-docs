@@ -5,7 +5,7 @@
 Comparison On Different Types
 +++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Comparison On Different Types: This rule reports comparisons and spaceship operator that are used with distinct types.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Comparison On Different Types
 	:og:description: This rule reports comparisons and spaceship operator that are used with distinct types
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/ComparisonOnDifferentTypes.html
 	:og:locale: en
-  This rule reports comparisons and spaceship operator that are used with distinct types. When the types are distinct, PHP apply silent type juggling, and it may `result <https://www.php.net/result>`_ in unexpected results. 
+This rule reports comparisons and spaceship operator that are used with distinct types. When the types are distinct, PHP apply silent type juggling, and it may `result <https://www.php.net/result>`_ in unexpected results. 
 
 .. code-block:: php
    

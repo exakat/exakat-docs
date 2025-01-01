@@ -5,7 +5,7 @@
 ext/apcu
 ++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/apcu: Extension ``APCU``.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/apcu
 	:og:description: Extension ``APCU``
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extapcu.html
 	:og:locale: en
-  Extension ``APCU``.
+Extension ``APCU``.
 
 ``APCu`` is ``APC`` stripped of opcode caching. The Alternative PHP Cache (APC) is a free and open opcode cache for PHP. Its goal is to provide a free, open, and robust framework for caching and optimizing PHP intermediate code.
 

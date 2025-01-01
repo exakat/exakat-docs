@@ -5,7 +5,7 @@
 Blind Variables
 +++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Blind Variables: Blind variables are that are used in foreach or for structure, for managing the loop itself.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Blind Variables
 	:og:description: Blind variables are that are used in foreach or for structure, for managing the loop itself
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Variables/Blind.html
 	:og:locale: en
-  Blind variables are that are used in foreach or for structure, for managing the loop itself.
+Blind variables are that are used in foreach or for structure, for managing the loop itself.
 
 .. code-block:: php
    

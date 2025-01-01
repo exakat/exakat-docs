@@ -5,7 +5,7 @@
 ext/uopz
 ++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/uopz: Extension UOPZ : User Operations for Zend.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/uopz
 	:og:description: Extension UOPZ : User Operations for Zend
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extuopz.html
 	:og:locale: en
-  Extension UOPZ : User Operations for Zend.
+Extension UOPZ : User Operations for Zend.
 
 The uopz extension is focused on providing utilities to aid with unit testing PHP code.
 

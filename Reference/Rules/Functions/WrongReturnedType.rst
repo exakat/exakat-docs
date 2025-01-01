@@ -5,7 +5,7 @@
 Wrong Type Returned
 +++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Wrong Type Returned: The returned value is not compatible with the specified return type.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Wrong Type Returned
 	:og:description: The returned value is not compatible with the specified return type
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/WrongReturnedType.html
 	:og:locale: en
-  The returned value is not compatible with the specified return type.
+The returned value is not compatible with the specified return type.
 
 .. code-block:: php
    

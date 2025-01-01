@@ -5,7 +5,7 @@
 False To Array Conversion
 +++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		False To Array Conversion: The auto vivification of false is deprecated.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ False To Array Conversion
 	:og:description: The auto vivification of false is deprecated
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/FalseToArray.html
 	:og:locale: en
-  The auto vivification of false is deprecated. This feature is the automagical conversion of a boolean into an array, if needed.
+The auto vivification of false is deprecated. This feature is the automagical conversion of a boolean into an array, if needed.
 
 Until PHP 8.1, this was possible. This feature is deprecated in PHP 8.1, and will be removed in PHP 9.0.
 

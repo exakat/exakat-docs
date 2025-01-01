@@ -5,7 +5,7 @@
 Should Use Foreach
 ++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Should Use Foreach: Use the ``foreach`` loop instead of ``for`` when traversing an array.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Should Use Foreach
 	:og:description: Use the ``foreach`` loop instead of ``for`` when traversing an array
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ShouldUseForeach.html
 	:og:locale: en
-  Use the ``foreach`` loop instead of ``for`` when traversing an array.
+Use the ``foreach`` loop instead of ``for`` when traversing an array.
 
 `Foreach() <https://www.php.net/manual/en/control-structures.foreach.php>`_ is the modern loop : it maps automatically every element of the array to a blind variable, and iterate. This is faster and safer.
 

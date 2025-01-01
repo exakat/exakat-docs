@@ -5,7 +5,7 @@
 ext/zlib
 ++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/zlib: Extension ext/zlib.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/zlib
 	:og:description: Extension ext/zlib
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extzlib.html
 	:og:locale: en
-  Extension ext/zlib.
+Extension ext/zlib.
 
 .. code-block:: php
    

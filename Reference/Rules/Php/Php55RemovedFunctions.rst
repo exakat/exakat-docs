@@ -5,7 +5,7 @@
 Functions Removed In PHP 5.5
 ++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Functions Removed In PHP 5.5: Those functions were removed in PHP 5.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Functions Removed In PHP 5.5
 	:og:description: Those functions were removed in PHP 5
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/Php55RemovedFunctions.html
 	:og:locale: en
-  Those functions were removed in PHP 5.5.
+Those functions were removed in PHP 5.5.
 
 + `php_logo_guid() <https://www.php.net/php_logo_guid>`_
 + php_egg_logo_guid()

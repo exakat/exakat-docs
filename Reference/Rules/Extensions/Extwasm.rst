@@ -5,7 +5,7 @@
 ext/wasm
 ++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/wasm: Extension WASM.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/wasm
 	:og:description: Extension WASM
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extwasm.html
 	:og:locale: en
-  Extension WASM.
+Extension WASM.
 
 The goal of the project is to be able to run WebAssembly binaries from PHP directly. So much fun coming!
 

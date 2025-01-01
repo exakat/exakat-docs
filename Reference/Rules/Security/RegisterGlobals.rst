@@ -5,7 +5,7 @@
 Register Globals
 ++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Register Globals: ``register_globals`` was a PHP directive that dumped all incoming variables from GET, POST, COOKIE and FILES as global variables in the called scripts.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Register Globals
 	:og:description: ``register_globals`` was a PHP directive that dumped all incoming variables from GET, POST, COOKIE and FILES as global variables in the called scripts
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Security/RegisterGlobals.html
 	:og:locale: en
-  ``register_globals`` was a PHP directive that dumped all incoming variables from GET, POST, COOKIE and FILES as global variables in the called scripts.
+``register_globals`` was a PHP directive that dumped all incoming variables from GET, POST, COOKIE and FILES as global variables in the called scripts.
 This lead to security failures, as the variables were often used but not filtered. 
 
 Though it is less often found in more recent code, ``register_globals`` is sometimes needed in legacy code, that haven't made the move to eradicate this style of coding.

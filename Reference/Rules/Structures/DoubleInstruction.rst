@@ -5,7 +5,7 @@
 Double Instructions
 +++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Double Instructions: Twice the same call in a row.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Double Instructions
 	:og:description: Twice the same call in a row
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/DoubleInstruction.html
 	:og:locale: en
-  Twice the same call in a row. This might be a typo, and the second call is useless. 
+Twice the same call in a row. This might be a typo, and the second call is useless. 
 
 It may also be an non-idempotent method: that is, a method which has a different `result <https://www.php.net/result>`_ when called with the same arguments. For example, ``rand()`` or ``fgets()``.
 

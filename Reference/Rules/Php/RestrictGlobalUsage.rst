@@ -5,7 +5,7 @@
 Restrict Global Usage
 +++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Restrict Global Usage: $GLOBALS access, as whole, is forbidden.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Restrict Global Usage
 	:og:description: $GLOBALS access, as whole, is forbidden
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/RestrictGlobalUsage.html
 	:og:locale: en
-  $GLOBALS access, as whole, is forbidden. In PHP 8.1, it is not possible to this as a variable, but only access its individual values.
+$GLOBALS access, as whole, is forbidden. In PHP 8.1, it is not possible to this as a variable, but only access its individual values.
 
 .. code-block:: php
    

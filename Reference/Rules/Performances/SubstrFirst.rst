@@ -5,7 +5,7 @@
 Substring First
 +++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Substring First: Always start by reducing a string before applying some transformation on it.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Substring First
 	:og:description: Always start by reducing a string before applying some transformation on it
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Performances/SubstrFirst.html
 	:og:locale: en
-  Always start by reducing a string before applying some transformation on it. The shorter string will be processed faster. 
+Always start by reducing a string before applying some transformation on it. The shorter string will be processed faster. 
 The gain produced here is greater with longer strings, or greater reductions. They may also be used in loops. This is a micro-optimisation when used on short strings and single string reductions.
 
 This works with any reduction function instead of `substr() <https://www.php.net/substr>`_, like `trim() <https://www.php.net/trim>`_, `iconv() <https://www.php.net/iconv>`_, etc.

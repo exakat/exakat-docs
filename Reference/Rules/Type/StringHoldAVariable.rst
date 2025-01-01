@@ -5,7 +5,7 @@
 String May Hold A Variable
 ++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		String May Hold A Variable: Strings that contains a variable, yet are not interpolated.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ String May Hold A Variable
 	:og:description: Strings that contains a variable, yet are not interpolated
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Type/StringHoldAVariable.html
 	:og:locale: en
-  Strings that contains a variable, yet are not interpolated. 
+Strings that contains a variable, yet are not interpolated. 
 
 Single quotes and Nowdoc syntax may include $ signs. They are treated as literals, and not replaced with a variable value. 
 

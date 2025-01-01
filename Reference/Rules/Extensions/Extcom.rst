@@ -5,7 +5,7 @@
 ext/com
 +++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/com: Extension COM and ``.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/com
 	:og:description: Extension COM and ``
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extcom.html
 	:og:locale: en
-  Extension COM and ``.Net`` (Windows).
+Extension COM and ``.Net`` (Windows).
 
 COM is an acronym for 'Component Object Model'; it is an object orientated layer (and associated services) on top of DCE RPC (an open standard) and defines a common calling convention that enables code written in any language to call and interoperate with code written in any other language (provided those languages are COM aware).
 

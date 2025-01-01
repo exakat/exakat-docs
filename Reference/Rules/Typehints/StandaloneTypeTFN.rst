@@ -5,7 +5,7 @@
 StandaloneType True False Null
 ++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		StandaloneType True False Null: Report usage of standalone types of true, false and null.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ StandaloneType True False Null
 	:og:description: Report usage of standalone types of true, false and null
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Typehints/StandaloneTypeTFN.html
 	:og:locale: en
-  Report usage of standalone types of true, false and null. 
+Report usage of standalone types of true, false and null. 
 
 false and null were added to PHP in PHP 8.2, as standalone types : they can be used alone in a type declaration (property, argument or returntype). true was added in PHP 8.3.
 

@@ -5,7 +5,7 @@
 Ambiguous Types With Variables
 ++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Ambiguous Types With Variables: The same variable is assigned various types, in different methods.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Ambiguous Types With Variables
 	:og:description: The same variable is assigned various types, in different methods
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Variables/AmbiguousTypes.html
 	:og:locale: en
-  The same variable is assigned various types, in different methods. This means that one may expect the same named variable to behave differently in different context.
+The same variable is assigned various types, in different methods. This means that one may expect the same named variable to behave differently in different context.
 
 .. code-block:: php
    

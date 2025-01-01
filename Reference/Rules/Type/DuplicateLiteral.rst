@@ -5,7 +5,7 @@
 Duplicate Literal
 +++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Duplicate Literal: Report literals that are repeated across the code.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Duplicate Literal
 	:og:description: Report literals that are repeated across the code
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Type/DuplicateLiteral.html
 	:og:locale: en
-  Report literals that are repeated across the code. The minimum replication is 5, and is configurable with ``maxDuplicate``.
+Report literals that are repeated across the code. The minimum replication is 5, and is configurable with ``maxDuplicate``.
 
 Repeated literals should be considered a prime candidate for constants.
 

@@ -5,7 +5,7 @@
 No Class In Global
 ++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		No Class In Global: Avoid defining structures in Global namespace.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ No Class In Global
 	:og:description: Avoid defining structures in Global namespace
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/NoClassInGlobal.html
 	:og:locale: en
-  Avoid defining structures in Global namespace. Always prefer using a namespace. This will come handy later, either when publishing the code, or when importing a library, or even if PHP reclaims that name.
+Avoid defining structures in Global namespace. Always prefer using a namespace. This will come handy later, either when publishing the code, or when importing a library, or even if PHP reclaims that name.
 
 .. code-block:: php
    

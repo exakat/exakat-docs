@@ -5,7 +5,7 @@
 Heredoc Delimiter Glossary
 ++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Heredoc Delimiter Glossary: List of all the delimiters used to build a Heredoc string.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Heredoc Delimiter Glossary
 	:og:description: List of all the delimiters used to build a Heredoc string
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Type/Heredoc.html
 	:og:locale: en
-  List of all the delimiters used to build a Heredoc string. 
+List of all the delimiters used to build a Heredoc string. 
 
 In the example below, ``EOD`` is the delimiter.
 

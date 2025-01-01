@@ -5,7 +5,7 @@
 Wrong Argument Name With PHP Function
 +++++++++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Wrong Argument Name With PHP Function: The name of the argument provided is not a valid parameter name for that PHP native function or method.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Wrong Argument Name With PHP Function
 	:og:description: The name of the argument provided is not a valid parameter name for that PHP native function or method
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/WrongArgumentNameWithPhpFunction.html
 	:og:locale: en
-  The name of the argument provided is not a valid parameter name for that PHP native function or method. 
+The name of the argument provided is not a valid parameter name for that PHP native function or method. 
 This analysis may be configured with extra PHP extensions or external packages.
 
 .. code-block:: php

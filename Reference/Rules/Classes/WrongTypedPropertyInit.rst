@@ -5,7 +5,7 @@
 Wrong Typed Property Default
 ++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Wrong Typed Property Default: Property is typed, yet receives an incompatible value at constructor time.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Wrong Typed Property Default
 	:og:description: Property is typed, yet receives an incompatible value at constructor time
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/WrongTypedPropertyInit.html
 	:og:locale: en
-  Property is typed, yet receives an incompatible value at constructor time.
+Property is typed, yet receives an incompatible value at constructor time.
 
 Initialized type might be a new instance, the return of a method call or an interface compatible object.
 

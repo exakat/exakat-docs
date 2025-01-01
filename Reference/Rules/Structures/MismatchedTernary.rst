@@ -5,7 +5,7 @@
 Mismatched Ternary Alternatives
 +++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Mismatched Ternary Alternatives: A ternary operator should yield the same type on both branches.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Mismatched Ternary Alternatives
 	:og:description: A ternary operator should yield the same type on both branches
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/MismatchedTernary.html
 	:og:locale: en
-  A ternary operator should yield the same type on both branches.
+A ternary operator should yield the same type on both branches.
 
 Ternary operator applies a condition, and yield two different results. Those results will then be processed by code that expects the same types. It is recommended to match the types on both branches of the ternary operator.
 

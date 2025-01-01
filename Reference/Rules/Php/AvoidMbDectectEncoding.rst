@@ -5,7 +5,7 @@
 Avoid mb_dectect_encoding()
 +++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Avoid mb_dectect_encoding(): mb_dectect_encoding() is bad at guessing encoding.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Avoid mb_dectect_encoding()
 	:og:description: mb_dectect_encoding() is bad at guessing encoding
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/AvoidMbDectectEncoding.html
 	:og:locale: en
-  mb_dectect_encoding() is bad at guessing encoding. 
+mb_dectect_encoding() is bad at guessing encoding. 
 
 For example, UTF-8 and ISO-8859-1 share some common characters : when a string is build with them it is impossible to differentiate the actual encoding.
 

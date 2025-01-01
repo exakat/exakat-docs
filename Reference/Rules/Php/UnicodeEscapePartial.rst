@@ -5,7 +5,7 @@
 Unicode Escape Partial
 ++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Unicode Escape Partial: PHP 7 introduces a new escape sequence for strings : \u{hex}.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Unicode Escape Partial
 	:og:description: PHP 7 introduces a new escape sequence for strings : \u{hex}
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/UnicodeEscapePartial.html
 	:og:locale: en
-  PHP 7 introduces a new escape sequence for strings : \u{hex}. It is backward incompatible with previous PHP versions for two reasons : 
+PHP 7 introduces a new escape sequence for strings : \u{hex}. It is backward incompatible with previous PHP versions for two reasons : 
 
 PHP 7 will recognize en replace those sequences, while PHP 5 keep them intact.
 PHP 7 will halt on partial Unicode Sequences, as it tries to understand them, but may fail. 

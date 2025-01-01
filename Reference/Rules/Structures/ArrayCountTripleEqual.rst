@@ -5,7 +5,7 @@
 Empty Array Detection
 +++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Empty Array Detection: Empty arrays may be detected with different solutions.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Empty Array Detection
 	:og:description: Empty arrays may be detected with different solutions
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ArrayCountTripleEqual.html
 	:og:locale: en
-  Empty arrays may be detected with different solutions. 
+Empty arrays may be detected with different solutions. 
 This analysis includes comparison to 0 with count, with ==, ===, != and !==, and comparison to empty arrays. Constants are not handled.
 
 .. code-block:: php

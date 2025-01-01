@@ -5,7 +5,7 @@
 ext/spx
 +++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/spx: SPX, which stands for Simple Profiling eXtension, is just another profiling extension for PHP.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/spx
 	:og:description: SPX, which stands for Simple Profiling eXtension, is just another profiling extension for PHP
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extspx.html
 	:og:locale: en
-  SPX, which stands for Simple Profiling eXtension, is just another profiling extension for PHP.
+SPX, which stands for Simple Profiling eXtension, is just another profiling extension for PHP.
 
 .. code-block:: php
    

@@ -5,7 +5,7 @@
 Plus Plus Used On Strings
 +++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Plus Plus Used On Strings: Reports strings that are incremented with the post increment operator ``'s'++``.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Plus Plus Used On Strings
 	:og:description: Reports strings that are incremented with the post increment operator ``'s'++``
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/PlusPlusOnLetters.html
 	:og:locale: en
-  Reports strings that are incremented with the post increment operator ``'s'++``.
+Reports strings that are incremented with the post increment operator ``'s'++``.
 
 This spots issues of the famous feature of PHP : incrementing strings with letters.
 

@@ -5,7 +5,7 @@
 Not A Scalar Type
 +++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Not A Scalar Type: ``int`` is the actual PHP scalar type, not ``integer``.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Not A Scalar Type
 	:og:description: ``int`` is the actual PHP scalar type, not ``integer``
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/NotScalarType.html
 	:og:locale: en
-  ``int`` is the actual PHP scalar type, not ``integer``. 
+``int`` is the actual PHP scalar type, not ``integer``. 
 
 PHP 7 introduced several scalar types, in particular ``int``, ``bool``, ``string`` and ``float``. Those three types are easily mistaken with ``integer``, ``boolean``, ``real`` and ``double``. 
 

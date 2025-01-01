@@ -5,7 +5,7 @@
 Too Many Stringed Elseif
 ++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Too Many Stringed Elseif: Too many if/then structures are linked.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Too Many Stringed Elseif
 	:og:description: Too many if/then structures are linked
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/TooManyElseif.html
 	:og:locale: en
-  Too many if/then structures are linked. If a pattern emerges, such as with the illustration below, they might be replaced with a loop, a `switch() <https://www.php.net/manual/en/control-structures.switch.php>`_ or a `match() <https://www.php.net/manual/en/control-structures.match.php>`_ statement. 
+Too many if/then structures are linked. If a pattern emerges, such as with the illustration below, they might be replaced with a loop, a `switch() <https://www.php.net/manual/en/control-structures.switch.php>`_ or a `match() <https://www.php.net/manual/en/control-structures.match.php>`_ statement. 
 
 This rule also takes into account ``else if`` structures.
 

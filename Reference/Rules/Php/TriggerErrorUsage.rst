@@ -5,7 +5,7 @@
 Trigger Errors
 ++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Trigger Errors: List of situations where user errors are triggered.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Trigger Errors
 	:og:description: List of situations where user errors are triggered
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/TriggerErrorUsage.html
 	:og:locale: en
-  List of situations where user errors are triggered.
+List of situations where user errors are triggered.
 
 PHP errors are triggered with `trigger_error() <https://www.php.net/trigger_error>`_.
 

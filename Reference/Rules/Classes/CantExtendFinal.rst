@@ -5,7 +5,7 @@
 Can't Extend Final
 ++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Can't Extend Final: It is not possible to extend final classes.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Can't Extend Final
 	:og:description: It is not possible to extend final classes
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/CantExtendFinal.html
 	:og:locale: en
-  It is not possible to extend final classes. 
+It is not possible to extend final classes. 
 
 Since PHP fails with a fatal `error <https://www.php.net/error>`_, this means that the extending class is probably not used in the rest of the code. Check for dead code.
 In a separate file :

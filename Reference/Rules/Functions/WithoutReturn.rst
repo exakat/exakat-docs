@@ -5,7 +5,7 @@
 Methods Without Return
 ++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Methods Without Return: List of all the functions, closures, methods that have no explicit return.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Methods Without Return
 	:og:description: List of all the functions, closures, methods that have no explicit return
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/WithoutReturn.html
 	:og:locale: en
-  List of all the functions, closures, methods that have no explicit return. 
+List of all the functions, closures, methods that have no explicit return. 
 
 Functions with the ``void`` or ``never`` return types, are omitted.
 

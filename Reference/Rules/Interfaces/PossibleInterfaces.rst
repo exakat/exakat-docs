@@ -5,7 +5,7 @@
 Possible Interfaces
 +++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Possible Interfaces: This analyzer lists classes that may be a base to create interfaces.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Possible Interfaces
 	:og:description: This analyzer lists classes that may be a base to create interfaces
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Interfaces/PossibleInterfaces.html
 	:og:locale: en
-  This analyzer lists classes that may be a base to create interfaces. 
+This analyzer lists classes that may be a base to create interfaces. 
 
 Currently, classes with more than 1 defined method are used to identify possible interfaces. An interfaces are considered when at least 2 methods are common in 3 classes.
 

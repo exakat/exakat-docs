@@ -5,7 +5,7 @@
 Could Not Type
 ++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Could Not Type: Mark arguments, return types and properties that could not be typed.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Could Not Type
 	:og:description: Mark arguments, return types and properties that could not be typed
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Typehints/CouldNotType.html
 	:og:locale: en
-  Mark arguments, return types and properties that could not be typed.
+Mark arguments, return types and properties that could not be typed.
 Arguments, return types and properties that have no explicit typehint, and that could yield no guess from the following analysis, are deemed unable to receive a type. 
 
 + `Typehints/CouldBeCIT`

@@ -5,7 +5,7 @@
 Set Class Remote Definition With Local New
 ++++++++++++++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Set Class Remote Definition With Local New: Links method calls and properties to its definition, thanks to the local new.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Set Class Remote Definition With Local New
 	:og:description: Links method calls and properties to its definition, thanks to the local new
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Complete/SetClassRemoteDefinitionWithLocalNew.html
 	:og:locale: en
-  Links method calls and properties to its definition, thanks to the local new. The link is ``DEFINITION``.
+Links method calls and properties to its definition, thanks to the local new. The link is ``DEFINITION``.
 
 .. code-block:: php
    

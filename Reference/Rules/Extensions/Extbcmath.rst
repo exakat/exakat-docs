@@ -5,7 +5,7 @@
 ext/bcmath
 ++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/bcmath: Extension BC Math.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/bcmath
 	:og:description: Extension BC Math
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extbcmath.html
 	:og:locale: en
-  Extension BC Math.
+Extension BC Math.
 
 For arbitrary precision mathematics PHP offers the Binary Calculator which supports numbers of any size and precision up to ``2147483647-1`` (or ``0x7FFFFFFF-1``) decimals, represented as strings.
 

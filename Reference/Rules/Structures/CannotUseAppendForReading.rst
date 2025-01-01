@@ -5,7 +5,7 @@
 Cannot Use Append For Reading
 +++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Cannot Use Append For Reading: The append operator ``[]`` is used to add a value to an array.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Cannot Use Append For Reading
 	:og:description: The append operator ``[]`` is used to add a value to an array
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/CannotUseAppendForReading.html
 	:og:locale: en
-  The append operator ``[]`` is used to add a value to an array. It doesn't provide an existing value to read. Hence, the short assignement operators, or the increment ones should not be used with the append operator. For example, the coalesce operator yields an `error <https://www.php.net/error>`_ when used with append.
+The append operator ``[]`` is used to add a value to an array. It doesn't provide an existing value to read. Hence, the short assignement operators, or the increment ones should not be used with the append operator. For example, the coalesce operator yields an `error <https://www.php.net/error>`_ when used with append.
 
 .. code-block:: php
    

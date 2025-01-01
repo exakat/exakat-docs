@@ -5,7 +5,7 @@
 Heredoc Delimiter
 +++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Heredoc Delimiter: Heredoc and Nowdoc expressions may use a variety of delimiters.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Heredoc Delimiter
 	:og:description: Heredoc and Nowdoc expressions may use a variety of delimiters
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/HeredocDelimiterFavorite.html
 	:og:locale: en
-  Heredoc and Nowdoc expressions may use a variety of delimiters. 
+Heredoc and Nowdoc expressions may use a variety of delimiters. 
 
 There seems to be a standard delimiter in the code, and some exceptions : one or several forms are dominant (> 90%), while the others are rare. 
 

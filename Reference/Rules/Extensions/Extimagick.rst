@@ -5,7 +5,7 @@
 ext/imagick
 +++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/imagick: Extension Imagick for PHP.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/imagick
 	:og:description: Extension Imagick for PHP
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extimagick.html
 	:og:locale: en
-  Extension Imagick for PHP.
+Extension Imagick for PHP.
 
 Imagick is a native php extension to create and modify images using the ImageMagick API.
 

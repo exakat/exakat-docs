@@ -5,7 +5,7 @@
 Extends stdClass
 ++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Extends stdClass: Those classes extends ``stdClass``.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Extends stdClass
 	:og:description: Those classes extends ``stdClass``
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/ExtendsStdclass.html
 	:og:locale: en
-  Those classes extends ``stdClass``.
+Those classes extends ``stdClass``.
 
 Traditionally, classes are defined independently, without any native class extension. 
 

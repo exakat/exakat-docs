@@ -5,7 +5,7 @@
 Unknown Pcre2 Option
 ++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Unknown Pcre2 Option: ``PCRE2`` supports different options, compared to ``PCRE1``.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Unknown Pcre2 Option
 	:og:description: ``PCRE2`` supports different options, compared to ``PCRE1``
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/UnknownPcre2Option.html
 	:og:locale: en
-  ``PCRE2`` supports different options, compared to ``PCRE1``. ``PCRE2`` was adopted with PHP 7.3. 
+``PCRE2`` supports different options, compared to ``PCRE1``. ``PCRE2`` was adopted with PHP 7.3. 
 
 The ``S`` modifier : it used to tell PCRE to spend more time studying the regex, so as to be faster at execution. This is now the default behavior, and may be dropped from the regex.
 

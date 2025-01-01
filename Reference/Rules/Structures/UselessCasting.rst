@@ -5,7 +5,7 @@
 Useless Type Casting
 ++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Useless Type Casting: There is no need to cast values that are already well typed.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Useless Type Casting
 	:og:description: There is no need to cast values that are already well typed
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/UselessCasting.html
 	:og:locale: en
-  There is no need to cast values that are already well typed.
+There is no need to cast values that are already well typed.
 
 Typed values, such as properties, do not have to be cast again, as the `engine <https://www.php.net/engine>`_ always ensures their type.
 

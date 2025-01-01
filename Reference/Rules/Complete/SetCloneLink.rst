@@ -5,7 +5,7 @@
 Set Clone Link
 ++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Set Clone Link: This command creates a link DEFINITION between a clone call, and its equivalent magic method.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Set Clone Link
 	:og:description: This command creates a link DEFINITION between a clone call, and its equivalent magic method
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Complete/SetCloneLink.html
 	:og:locale: en
-  This command creates a link DEFINITION between a clone call, and its equivalent magic method.
+This command creates a link DEFINITION between a clone call, and its equivalent magic method.
 This command may not detect all possible link for the clone. It may be missing information about the nature of the clone object.
 
 .. code-block:: php

@@ -5,7 +5,7 @@
 No Hardcoded Path
 +++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		No Hardcoded Path: It is not recommended to use hardcoded literals when designating files.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ No Hardcoded Path
 	:og:description: It is not recommended to use hardcoded literals when designating files
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/NoHardcodedPath.html
 	:og:locale: en
-  It is not recommended to use hardcoded literals when designating files. Full paths are usually tied to one file system organization. As soon as the organisation changes or must be adapted to any external constraint, the path is not valid anymore.
+It is not recommended to use hardcoded literals when designating files. Full paths are usually tied to one file system organization. As soon as the organisation changes or must be adapted to any external constraint, the path is not valid anymore.
 
 Either use `__FILE__ <https://www.php.net/manual/en/language.constants.predefined.php>`_ and `__DIR__ <https://www.php.net/manual/en/language.constants.predefined.php>`_ to make the path relative to the current file; use a ``DOC_ROOT`` as a configuration constant that will allow the moving of the script to another folder; finally functions like `sys_get_temp_dir() <https://www.php.net/sys_get_temp_dir>`_ produce a viable temporary folder.
 

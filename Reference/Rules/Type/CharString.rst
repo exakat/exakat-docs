@@ -5,7 +5,7 @@
 All strings
 +++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		All strings: Strings, heredocs and nowdocs in one place.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ All strings
 	:og:description: Strings, heredocs and nowdocs in one place
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Type/CharString.html
 	:og:locale: en
-  Strings, heredocs and nowdocs in one place.
+Strings, heredocs and nowdocs in one place.
 
 .. code-block:: php
    

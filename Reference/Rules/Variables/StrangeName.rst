@@ -5,7 +5,7 @@
 Strange Name For Variables
 ++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Strange Name For Variables: Variables with strange names.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Strange Name For Variables
 	:og:description: Variables with strange names
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Variables/StrangeName.html
 	:og:locale: en
-  Variables with strange names. They might be a typo, or bear strange patterns.
+Variables with strange names. They might be a typo, or bear strange patterns.
 
 Any variable with three identical letter in a row are considered as strange. 2 letters in a row is classic, and while three letters may happen, it is rare enough. 
 

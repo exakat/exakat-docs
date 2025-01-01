@@ -5,7 +5,7 @@
 Nested Match
 ++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Nested Match: Nested match calls makes the code difficult to read.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Nested Match
 	:og:description: Nested match calls makes the code difficult to read
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/NestedMatch.html
 	:og:locale: en
-  Nested match calls makes the code difficult to read. It is recommended to avoid nesting match calls.
+Nested match calls makes the code difficult to read. It is recommended to avoid nesting match calls.
 
 .. code-block:: php
    

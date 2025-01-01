@@ -5,7 +5,7 @@
 Multiple Type Variable
 ++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Multiple Type Variable: Avoid using the same variable with different types of data.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Multiple Type Variable
 	:og:description: Avoid using the same variable with different types of data
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/MultipleTypeVariable.html
 	:og:locale: en
-  Avoid using the same variable with different types of data. 
+Avoid using the same variable with different types of data. 
 
 It is recommended to use different names for differently typed data, while processing them. This prevents errors where one believe the variable holds the former type, while it has already been cast to the later.
 

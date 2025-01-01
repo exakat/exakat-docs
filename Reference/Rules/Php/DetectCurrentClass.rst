@@ -5,22 +5,22 @@
 Detect Current Class
 ++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
-		Detect Current Class: Detecting the current class should be done with `self\:\:class` or `static\:\:class` operator.
+		Detect Current Class: Detecting the current class should be done with `self::class` or `static::class` operator.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: Detect Current Class
-	:twitter:description: Detect Current Class: Detecting the current class should be done with `self\:\:class` or `static\:\:class` operator
+	:twitter:description: Detect Current Class: Detecting the current class should be done with `self::class` or `static::class` operator
 	:twitter:creator: @exakat
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
 	:og:title: Detect Current Class
 	:og:type: article
-	:og:description: Detecting the current class should be done with `self\:\:class` or `static\:\:class` operator
+	:og:description: Detecting the current class should be done with `self::class` or `static::class` operator
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/DetectCurrentClass.html
 	:og:locale: en
-  Detecting the current class should be done with `self\:\:class` or `static\:\:class` operator.
+Detecting the current class should be done with `self\:\:class` or `static\:\:class` operator.
 
 `__CLASS__ <https://www.php.net/manual/en/language.constants.predefined.php>`_ may be replaced by ``self\:\:class``. 
 `get_called_class() <https://www.php.net/get_called_class>`_ may be replaced by ``static\:\:class``. 

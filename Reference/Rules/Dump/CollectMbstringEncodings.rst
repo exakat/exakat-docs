@@ -5,7 +5,7 @@
 Collect Mbstring Encodings
 ++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Collect Mbstring Encodings: This analysis collects the encoding names, used by ext/mb functions.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Collect Mbstring Encodings
 	:og:description: This analysis collects the encoding names, used by ext/mb functions
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/CollectMbstringEncodings.html
 	:og:locale: en
-  This analysis collects the encoding names, used by ext/mb functions.
+This analysis collects the encoding names, used by ext/mb functions.
 
 .. code-block:: php
    

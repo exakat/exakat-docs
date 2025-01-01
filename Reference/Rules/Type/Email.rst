@@ -5,7 +5,7 @@
 Email Addresses
 +++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Email Addresses: List of all the email addresses that were found in the code.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Email Addresses
 	:og:description: List of all the email addresses that were found in the code
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Type/Email.html
 	:og:locale: en
-  List of all the email addresses that were found in the code.
+List of all the email addresses that were found in the code.
 
 Emails are detected with regex : ``[_A-Za-z0-9-]+(\.[_A-Za-z0-9-]+)*`@ <https://www.php.net/manual/en/language.operators.errorcontrol.php>`_[A-Za-z0-9]+(\.[A-Za-z0-9]+)*(\.[A-Za-z]{2,})``
 

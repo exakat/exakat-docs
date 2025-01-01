@@ -5,7 +5,7 @@
 Collect Global Variables
 ++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Collect Global Variables: This rule collects the names of the global variables.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Collect Global Variables
 	:og:description: This rule collects the names of the global variables
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/CollectGlobalVariables.html
 	:og:locale: en
-  This rule collects the names of the global variables. The global variables are collected from ``$GLOBALS`` usage, ``global`` keyword usage and variables in the global space.
+This rule collects the names of the global variables. The global variables are collected from ``$GLOBALS`` usage, ``global`` keyword usage and variables in the global space.
 
 .. code-block:: php
    

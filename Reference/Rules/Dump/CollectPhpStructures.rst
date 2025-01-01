@@ -5,7 +5,7 @@
 Collect Php Structures
 ++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Collect Php Structures: Collect Php Structures.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Collect Php Structures
 	:og:description: Collect Php Structures
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/CollectPhpStructures.html
 	:og:locale: en
-  Collect Php Structures. Constants, functions, classes, traits and interfaces.
+Collect Php Structures. Constants, functions, classes, traits and interfaces.
 
 Specs
 _____

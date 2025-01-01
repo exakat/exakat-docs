@@ -5,7 +5,7 @@
 Reserved Match Keyword
 ++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Reserved Match Keyword: ``match`` is a new instruction in PHP 8.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Reserved Match Keyword
 	:og:description: ``match`` is a new instruction in PHP 8
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/ReservedMatchKeyword.html
 	:og:locale: en
-  ``match`` is a new instruction in PHP 8.0. 
+``match`` is a new instruction in PHP 8.0. 
 
 For that, it becomes a reserved keyword, and cannot be used in various situations: type, class, function, global constant name.
 

@@ -5,7 +5,7 @@
 Undefined Class Constants
 +++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Undefined Class Constants: Class constants that are used, but never defined.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Undefined Class Constants
 	:og:description: Class constants that are used, but never defined
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/UndefinedConstants.html
 	:og:locale: en
-  Class constants that are used, but never defined. This yield a fatal `error <https://www.php.net/error>`_ upon execution, but no feedback at compile level.
+Class constants that are used, but never defined. This yield a fatal `error <https://www.php.net/error>`_ upon execution, but no feedback at compile level.
 
 This analysis takes into account native PHP class constants, extensions and stubs. It also disambiguate enumeration cases. 
 

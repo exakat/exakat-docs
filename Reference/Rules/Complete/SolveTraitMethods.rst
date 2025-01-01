@@ -5,7 +5,7 @@
 Solve Trait Methods
 +++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Solve Trait Methods: This command adds DEFINITION link between trait's method definitions and their usage in classes.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Solve Trait Methods
 	:og:description: This command adds DEFINITION link between trait's method definitions and their usage in classes
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Complete/SolveTraitMethods.html
 	:og:locale: en
-  This command adds DEFINITION link between trait's method definitions and their usage in classes.
+This command adds DEFINITION link between trait's method definitions and their usage in classes.
 
 .. code-block:: php
    

@@ -5,7 +5,7 @@
 Set Method Fnp
 ++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Set Method Fnp: Complete code by adding the ``fullnspath`` property to methods calls.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Set Method Fnp
 	:og:description: Complete code by adding the ``fullnspath`` property to methods calls
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Complete/SetMethodFnp.html
 	:og:locale: en
-  Complete code by adding the ``fullnspath`` property to methods calls. 
+Complete code by adding the ``fullnspath`` property to methods calls. 
 
 It makes it faster to find definitions later.
 

@@ -5,7 +5,7 @@
 Logical To in_array
 +++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Logical To in_array: Multiple exclusive comparisons with ``or``` may be replaced by faster alternative.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Logical To in_array
 	:og:description: Multiple exclusive comparisons with ``or``` may be replaced by faster alternative
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Performances/LogicalToInArray.html
 	:og:locale: en
-  Multiple exclusive comparisons with ``or``` may be replaced by faster alternative. 
+Multiple exclusive comparisons with ``or``` may be replaced by faster alternative. 
 
 + `isset() <https://www.www.php.net/isset>`_ and an array which keys are the target comparisons
 + `array_key_exists() <https://www.php.net/array_key_exists>`_ and an array which keys are the target comparisons

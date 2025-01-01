@@ -5,7 +5,7 @@
 Is Global Constant
 ++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Is Global Constant: Mark a constant that may fallback to a global const definition, even though it is in a namespace.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Is Global Constant
 	:og:description: Mark a constant that may fallback to a global const definition, even though it is in a namespace
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Constants/IsGlobalConstant.html
 	:og:locale: en
-  Mark a constant that may fallback to a global const definition, even though it is in a namespace. 
+Mark a constant that may fallback to a global const definition, even though it is in a namespace. 
 
 This analysis skips PHP and ext's functions, namespaced constants.
 

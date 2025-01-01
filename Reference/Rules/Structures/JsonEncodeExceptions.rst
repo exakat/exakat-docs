@@ -5,7 +5,7 @@
 Json_encode() Without Catching Exceptions
 +++++++++++++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Json_encode() Without Catching Exceptions: json_encode() and json_decode() should use the exception system, to detect invalid JSON syntax.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Json_encode() Without Catching Exceptions
 	:og:description: json_encode() and json_decode() should use the exception system, to detect invalid JSON syntax
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/JsonEncodeExceptions.html
 	:og:locale: en
-  `json_encode() <https://www.php.net/json_encode>`_ and `json_decode() <https://www.php.net/json_decode>`_ should use the `exception <https://www.php.net/exception>`_ system, to detect invalid JSON syntax. 
+`json_encode() <https://www.php.net/json_encode>`_ and `json_decode() <https://www.php.net/json_decode>`_ should use the `exception <https://www.php.net/exception>`_ system, to detect invalid JSON syntax. 
 
 The second argument is a bitmask, and shall include `JSON_THROW_ON_ERROR <https://www.php.net/JSON_THROW_ON_ERROR>`_, so that both function may emit an `exception <https://www.php.net/exception>`_ when a parsing `error <https://www.php.net/error>`_ happen. That `exception <https://www.php.net/exception>`_ can then be caught with a try/catch structure.
 Alternatively, the `error <https://www.php.net/error>`_ may be check by calling `json_last_error() <https://www.php.net/json_last_error>`_ function. It will not be empty if an `error <https://www.php.net/error>`_ is called.

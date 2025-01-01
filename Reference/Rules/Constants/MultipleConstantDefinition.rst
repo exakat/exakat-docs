@@ -5,7 +5,7 @@
 Multiple Constant Definition
 ++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Multiple Constant Definition: Some constants are defined several times in your code.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Multiple Constant Definition
 	:og:description: Some constants are defined several times in your code
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Constants/MultipleConstantDefinition.html
 	:og:locale: en
-  Some constants are defined several times in your code. This will lead to a fatal `error <https://www.php.net/error>`_, if they are defined during the same execution. 
+Some constants are defined several times in your code. This will lead to a fatal `error <https://www.php.net/error>`_, if they are defined during the same execution. 
 
 Multiple definitions may happens at bootstrap, when the application code is collecting information about the current environment. It may also happen at inclusion time, which one set of constant being loaded, while other definition are not, avoiding conflict. Both are false positive.
 

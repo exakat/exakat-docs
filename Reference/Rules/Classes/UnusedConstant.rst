@@ -5,7 +5,7 @@
 Unused Class Constant
 +++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Unused Class Constant: The class constant is unused.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Unused Class Constant
 	:og:description: The class constant is unused
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/UnusedConstant.html
 	:og:locale: en
-  The class constant is unused. Consider removing it or using it.
+The class constant is unused. Consider removing it or using it.
 
 Class constants may be used in expressions, in `static <https://www.php.net/manual/en/language.oop5.static.php>`_ expressions, when building other constants, or in default values.
 

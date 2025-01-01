@@ -5,7 +5,7 @@
 Used Private Methods
 ++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Used Private Methods: List of all private methods that are used.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Used Private Methods
 	:og:description: List of all private methods that are used
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/UsedPrivateMethod.html
 	:og:locale: en
-  List of all private methods that are used.
+List of all private methods that are used.
 
 Protected methods, in a standalone class, are also included.
 

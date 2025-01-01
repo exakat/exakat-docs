@@ -5,7 +5,7 @@
 Could Be Ternary
 ++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Could Be Ternary: This control structure may be replaced by a ternary operator.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Could Be Ternary
 	:og:description: This control structure may be replaced by a ternary operator
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/CouldBeTernary.html
 	:og:locale: en
-  This control structure may be replaced by a ternary operator. 
+This control structure may be replaced by a ternary operator. 
 
 Th ternary operator may be shorter and easier to read than the full blown if-then-else structure. 
 Depending on the situation, the null-ternary and the coalesce operator may also be a good alternative.

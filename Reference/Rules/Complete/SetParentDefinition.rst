@@ -5,7 +5,7 @@
 Set Parent Definition
 +++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Set Parent Definition: This command creates a DEFINITION link between `parent` keyword and the actual parent class.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Set Parent Definition
 	:og:description: This command creates a DEFINITION link between `parent` keyword and the actual parent class
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Complete/SetParentDefinition.html
 	:og:locale: en
-  This command creates a DEFINITION link between `parent` keyword and the actual `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ class.
+This command creates a DEFINITION link between `parent` keyword and the actual `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ class.
 
 .. code-block:: php
    

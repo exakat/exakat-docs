@@ -5,7 +5,7 @@
 Crypto Usage
 ++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Crypto Usage: Usage of cryptography and hashes functions.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Crypto Usage
 	:og:description: Usage of cryptography and hashes functions
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/CryptoUsage.html
 	:og:locale: en
-  Usage of cryptography and hashes functions. 
+Usage of cryptography and hashes functions. 
 
 The functions listed are the native PHP functions, and do not belong to a specific extension, like ``OpenSSL``, ``mcrypt`` or ``mhash``.
 

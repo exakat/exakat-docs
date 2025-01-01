@@ -5,7 +5,7 @@
 ext/xml
 +++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/xml: Extension xml (Parser).
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/xml
 	:og:description: Extension xml (Parser)
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extxml.html
 	:og:locale: en
-  Extension xml (Parser).
+Extension xml (Parser).
 
 This PHP extension implements support for James Clark's expat in PHP. This toolkit lets you parse, but not validate, XML documents.
 

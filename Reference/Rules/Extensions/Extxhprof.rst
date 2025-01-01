@@ -5,7 +5,7 @@
 ext/xhprof
 ++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/xhprof: Extension xhprof.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/xhprof
 	:og:description: Extension xhprof
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extxhprof.html
 	:og:locale: en
-  Extension xhprof.
+Extension xhprof.
 
 XHProf is a light-weight hierarchical and instrumentation based profiler.
 

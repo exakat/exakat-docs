@@ -5,7 +5,7 @@
 Empty List
 ++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Empty List: Empty list() are not allowed anymore in PHP 7.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Empty List
 	:og:description: Empty list() are not allowed anymore in PHP 7
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/EmptyList.html
 	:og:locale: en
-  Empty `list() <https://www.php.net/list>`_ are not allowed anymore in PHP 7. There must be at least one variable in the list call.
+Empty `list() <https://www.php.net/list>`_ are not allowed anymore in PHP 7. There must be at least one variable in the list call.
 
 .. code-block:: php
    

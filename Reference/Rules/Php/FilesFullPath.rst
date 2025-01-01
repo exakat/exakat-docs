@@ -5,7 +5,7 @@
 $FILES full_path
 ++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		$FILES full_path: A new index 'full_path' was added to the $_FILES to handle directory uploads.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ $FILES full_path
 	:og:description: A new index 'full_path' was added to the $_FILES to handle directory uploads
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/FilesFullPath.html
 	:og:locale: en
-  A new index 'full_path' was added to the $_FILES to handle `directory <https://www.php.net/`directory <https://www.php.net/directory>`_>`_ uploads. This was added in PHP 8.1, and is not available before.
+A new index 'full_path' was added to the $_FILES to handle `directory <https://www.php.net/`directory <https://www.php.net/directory>`_>`_ uploads. This was added in PHP 8.1, and is not available before.
 
 .. code-block:: php
    

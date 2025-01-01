@@ -5,7 +5,7 @@
 Useless Unset
 +++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Useless Unset: There are situations where trying to remove a variable is actually useless.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Useless Unset
 	:og:description: There are situations where trying to remove a variable is actually useless
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/UselessUnset.html
 	:og:locale: en
-  There are situations where trying to remove a variable is actually useless. 
+There are situations where trying to remove a variable is actually useless. 
 
 PHP ignores any command that tries to unset a global variable, a `static <https://www.php.net/manual/en/language.oop5.static.php>`_ variable, or a blind variable from a foreach loop. 
 

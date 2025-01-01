@@ -5,7 +5,7 @@
 Mistaken Concatenation
 ++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Mistaken Concatenation: A unexpected structure is built for initialization.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Mistaken Concatenation
 	:og:description: A unexpected structure is built for initialization
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Arrays/MistakenConcatenation.html
 	:og:locale: en
-  A unexpected structure is built for initialization. It may be a typo that creates an unwanted expression.
+A unexpected structure is built for initialization. It may be a typo that creates an unwanted expression.
 
 .. code-block:: php
    

@@ -5,7 +5,7 @@
 The Mixed Keyword
 +++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		The Mixed Keyword: `mixed` has becomes a PHP keyword.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ The Mixed Keyword
 	:og:description: `mixed` has becomes a PHP keyword
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/MixedKeyword.html
 	:og:locale: en
-  `mixed` has becomes a PHP keyword. It is used for explicitly typing methods, argument or properties which accept any type of data.
+`mixed` has becomes a PHP keyword. It is used for explicitly typing methods, argument or properties which accept any type of data.
 
 That name should be avoided in classes, traits, enumerations and interfaces. Methods, anonymous classes (sic), namespaces and functions are OK to use it. 
 

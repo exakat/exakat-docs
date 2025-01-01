@@ -5,7 +5,7 @@
 Long Arguments
 ++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Long Arguments: Long arguments should be put in variable, to preserve readability.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Long Arguments
 	:og:description: Long arguments should be put in variable, to preserve readability
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/LongArguments.html
 	:og:locale: en
-  Long arguments should be put in variable, to preserve readability. 
+Long arguments should be put in variable, to preserve readability. 
 
 When literal arguments are too long, they `break <https://www.php.net/manual/en/control-structures.break.php>`_ the hosting structure by moving the next argument too far on the right. Whenever possible, long arguments should be set in a local variable to keep the readability.
 Literal strings and heredoc strings, including variables, that are over 50 chars longs are reported here.

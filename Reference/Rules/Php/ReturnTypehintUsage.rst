@@ -5,7 +5,7 @@
 Return Typehint Usage
 +++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Return Typehint Usage: Spot usage of return typehint.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Return Typehint Usage
 	:og:description: Spot usage of return typehint
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/ReturnTypehintUsage.html
 	:og:locale: en
-  Spot usage of return typehint. It is a PHP 7.0 feature.
+Spot usage of return typehint. It is a PHP 7.0 feature.
 
 Return typehint were introduced in PHP 7.0, and are backward incompatible with PHP 5.x.
 

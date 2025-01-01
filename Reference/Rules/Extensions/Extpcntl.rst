@@ -5,7 +5,7 @@
 ext/pcntl
 +++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/pcntl: Extension for process control.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/pcntl
 	:og:description: Extension for process control
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extpcntl.html
 	:og:locale: en
-  Extension for process control.
+Extension for process control.
 
 Process Control support in PHP implements the Unix style of process creation, program execution, signal handling and process termination. Process Control should not be enabled within a web server environment and unexpected results may happen if any Process Control functions are used within a web server environment.
 

@@ -5,7 +5,7 @@
 Hidden Use Expression
 +++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Hidden Use Expression: The use expression for namespaces should always be at the beginning of the namespace block.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Hidden Use Expression
 	:og:description: The use expression for namespaces should always be at the beginning of the namespace block
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Namespaces/HiddenUse.html
 	:og:locale: en
-  The use expression for namespaces should always be at the beginning of the namespace block. 
+The use expression for namespaces should always be at the beginning of the namespace block. 
 
 It is where everyone expect them, and it is less confusing than having them at various levels.
 

@@ -5,7 +5,7 @@
 Redeclared PHP Functions
 ++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Redeclared PHP Functions: Function that bear the same name as a PHP function, and that are declared.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Redeclared PHP Functions
 	:og:description: Function that bear the same name as a PHP function, and that are declared
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/RedeclaredPhpFunction.html
 	:og:locale: en
-  Function that bear the same name as a PHP function, and that are declared. 
+Function that bear the same name as a PHP function, and that are declared. 
 
 This is useful when managing backward compatibility, like emulating an old function, or preparing for newer PHP versions, like emulating new upcoming function.
 

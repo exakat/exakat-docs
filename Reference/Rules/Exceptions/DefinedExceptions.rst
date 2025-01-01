@@ -5,7 +5,7 @@
 Defined Exceptions
 ++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Defined Exceptions: This is the list of defined exceptions.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Defined Exceptions
 	:og:description: This is the list of defined exceptions
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Exceptions/DefinedExceptions.html
 	:og:locale: en
-  This is the list of defined exceptions. Those exceptions are custom to the code, and shall be thrown at one point or more in the code.
+This is the list of defined exceptions. Those exceptions are custom to the code, and shall be thrown at one point or more in the code.
 
 .. code-block:: php
    

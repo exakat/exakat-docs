@@ -5,7 +5,7 @@
 Cakephp
 +++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Cakephp: This rules reports when the source code is based on the CakePHP framework.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Cakephp
 	:og:description: This rules reports when the source code is based on the CakePHP framework
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Vendors/Cakephp.html
 	:og:locale: en
-  This rules reports when the source code is based on the CakePHP framework.
+This rules reports when the source code is based on the CakePHP framework.
 
 CakePHP is an open-source web framework. It follows the model–view–controller (MVC) approach and is written in PHP, modeled after the concepts of Ruby on Rails, and distributed under the MIT License.
 

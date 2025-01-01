@@ -5,7 +5,7 @@
 Isset Multiple Arguments
 ++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Isset Multiple Arguments: isset() may be used with multiple arguments and acts as a AND.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Isset Multiple Arguments
 	:og:description: isset() may be used with multiple arguments and acts as a AND
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/IssetMultipleArgs.html
 	:og:locale: en
-  `isset() <https://www.www.php.net/isset>`_ may be used with multiple arguments and acts as a AND.
+`isset() <https://www.www.php.net/isset>`_ may be used with multiple arguments and acts as a AND.
 
 .. code-block:: php
    

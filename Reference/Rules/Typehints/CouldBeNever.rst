@@ -5,7 +5,7 @@
 Type Could Be Never
 +++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Type Could Be Never: Mark return types that can be set to ``never``.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Type Could Be Never
 	:og:description: Mark return types that can be set to ``never``
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Typehints/CouldBeNever.html
 	:og:locale: en
-  Mark return types that can be set to ``never``.
+Mark return types that can be set to ``never``.
 
 .. code-block:: php
    

@@ -5,7 +5,7 @@
 Composer Usage
 ++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Composer Usage: Mark the usage of composer, mostly by having a ``composer.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Composer Usage
 	:og:description: Mark the usage of composer, mostly by having a ``composer
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Composer/UseComposer.html
 	:og:locale: en
-  Mark the usage of composer, mostly by having a ``composer.json`` file.
+Mark the usage of composer, mostly by having a ``composer.json`` file.
 
 See also `Composer <https://getcomposer.org/>`_.
 

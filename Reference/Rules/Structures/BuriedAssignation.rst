@@ -5,7 +5,7 @@
 Buried Assignation
 ++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Buried Assignation: Those assignations are buried in the code, and placed in unexpected situations.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Buried Assignation
 	:og:description: Those assignations are buried in the code, and placed in unexpected situations
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/BuriedAssignation.html
 	:og:locale: en
-  Those assignations are buried in the code, and placed in unexpected situations. 
+Those assignations are buried in the code, and placed in unexpected situations. 
 
 They are difficult to spot, and may be confusing. It is advised to place them in a more visible place.
 

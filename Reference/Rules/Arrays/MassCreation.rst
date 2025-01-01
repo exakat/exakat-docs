@@ -5,7 +5,7 @@
 Mass Creation Of Arrays
 +++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Mass Creation Of Arrays: Literal creation of an array, by assigning a lot of index.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Mass Creation Of Arrays
 	:og:description: Literal creation of an array, by assigning a lot of index
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Arrays/MassCreation.html
 	:og:locale: en
-  Literal creation of an array, by assigning a lot of index.
+Literal creation of an array, by assigning a lot of index.
 
 .. code-block:: php
    

@@ -5,7 +5,7 @@
 Safe Phpvariables
 +++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Safe Phpvariables: Mark the safe PHP variables.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Safe Phpvariables
 	:og:description: Mark the safe PHP variables
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/SafePhpvars.html
 	:og:locale: en
-  Mark the safe PHP variables. 
+Mark the safe PHP variables. 
 
 PHP superglobals are usually filled with external data that should be filtered. However, some values may be considered safe, as they are under the control of the developer.
 

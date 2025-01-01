@@ -5,7 +5,7 @@
 Could Be Generator
 ++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Could Be Generator: This rule reports methods, functions.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Could Be Generator
 	:og:description: This rule reports methods, functions
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Typehints/CouldBeGenerator.html
 	:og:locale: en
-  This rule reports methods, functions... where the return value may be typed ``Generator``. This is the case when the body of the function uses the ``yield`` and ``yield from`` keyword.
+This rule reports methods, functions... where the return value may be typed ``Generator``. This is the case when the body of the function uses the ``yield`` and ``yield from`` keyword.
 
 .. code-block:: php
    

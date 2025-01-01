@@ -5,7 +5,7 @@
 Constant Class
 ++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Constant Class: A class or an interface only made up of constants.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Constant Class
 	:og:description: A class or an interface only made up of constants
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/ConstantClass.html
 	:og:locale: en
-  A class or an interface only made up of constants. Constants usually have to be used in conjunction of some behavior (methods, class...) and never alone. 
+A class or an interface only made up of constants. Constants usually have to be used in conjunction of some behavior (methods, class...) and never alone. 
 As such, they should be PHP constants (build with define or const), or included in a class with other methods and properties.
 
 .. code-block:: php

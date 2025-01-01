@@ -5,7 +5,7 @@
 Static Properties
 +++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Static Properties: List of all static properties.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Static Properties
 	:og:description: List of all static properties
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/StaticProperties.html
 	:og:locale: en
-  List of all `static <https://www.php.net/manual/en/language.oop5.static.php>`_ properties.
+List of all `static <https://www.php.net/manual/en/language.oop5.static.php>`_ properties.
 
 .. code-block:: php
    

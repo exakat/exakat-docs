@@ -5,7 +5,7 @@
 Randomly Sorted Arrays
 ++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Randomly Sorted Arrays: Those literal arrays are written in several places, but their items are in various orders.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Randomly Sorted Arrays
 	:og:description: Those literal arrays are written in several places, but their items are in various orders
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Arrays/RandomlySortedLiterals.html
 	:og:locale: en
-  Those literal arrays are written in several places, but their items are in various orders. 
+Those literal arrays are written in several places, but their items are in various orders. 
 
 This may reduce the reading and proofing of the arrays, and induce confusion. The random order may also be a residue of development : both arrays started with different values, but they grew overtime to handle the same items. The way they were written lead to the current order.
 

@@ -5,7 +5,7 @@
 Should Cache Local
 ++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Should Cache Local: Repeated calls to a method with the same arguments should be put in a local cache.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Should Cache Local
 	:og:description: Repeated calls to a method with the same arguments should be put in a local cache
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Performances/ShouldCacheLocal.html
 	:og:locale: en
-  Repeated calls to a method with the same arguments should be put in a local cache. 
+Repeated calls to a method with the same arguments should be put in a local cache. 
 
 It speeds up processing, even in case of a simple property fetch. A local cache makes the code more readable and more compact.
 

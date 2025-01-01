@@ -5,7 +5,7 @@
 Method Is Overwritten
 +++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Method Is Overwritten: This rule marks a method that is overwritten in a child class.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Method Is Overwritten
 	:og:description: This rule marks a method that is overwritten in a child class
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/MethodIsOverwritten.html
 	:og:locale: en
-  This rule marks a method that is overwritten in a child class. 
+This rule marks a method that is overwritten in a child class. 
 
 Any child that overwrite the method make that method reported here: the `result <https://www.php.net/result>`_ may be partial. 
 

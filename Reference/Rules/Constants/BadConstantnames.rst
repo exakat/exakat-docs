@@ -5,7 +5,7 @@
 Bad Constants Names
 +++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Bad Constants Names: PHP's manual recommends that developer do not use constants with the convention ``__NAME__``.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Bad Constants Names
 	:og:description: PHP's manual recommends that developer do not use constants with the convention ``__NAME__``
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Constants/BadConstantnames.html
 	:og:locale: en
-  PHP's manual recommends that developer do not use constants with the convention ``__NAME__``. Those are reserved for PHP future use. 
+PHP's manual recommends that developer do not use constants with the convention ``__NAME__``. Those are reserved for PHP future use. 
 
 For example, ``__TRAIT__`` recently appeared in PHP, as a magic constant. In the future, other may appear. 
 

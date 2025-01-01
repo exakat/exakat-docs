@@ -5,7 +5,7 @@
 Promoted Properties
 +++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Promoted Properties: Promoted properties is a way to declare the properties within the constructor, and have them assigned to the constructing value at instantiation.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Promoted Properties
 	:og:description: Promoted properties is a way to declare the properties within the constructor, and have them assigned to the constructing value at instantiation
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/PromotedProperties.html
 	:og:locale: en
-  Promoted properties is a way to declare the properties within the constructor, and have them assigned to the constructing value at instantiation.
+Promoted properties is a way to declare the properties within the constructor, and have them assigned to the constructing value at instantiation.
 
 .. code-block:: php
    

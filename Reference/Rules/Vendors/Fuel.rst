@@ -5,7 +5,7 @@
 Fuel PHP Usage
 ++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Fuel PHP Usage: This analysis reports usage of the Fuel PHP Framework.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Fuel PHP Usage
 	:og:description: This analysis reports usage of the Fuel PHP Framework
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Vendors/Fuel.html
 	:og:locale: en
-  This analysis reports usage of the Fuel PHP Framework. 
+This analysis reports usage of the Fuel PHP Framework. 
 Do not confuse fuelPHP and fuelCMS
 
 .. code-block:: php

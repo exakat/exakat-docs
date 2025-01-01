@@ -5,7 +5,7 @@
 Multiple Property Declaration
 +++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Multiple Property Declaration: The same property is declared in various classes, at least two, in the same class hierarchy.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Multiple Property Declaration
 	:og:description: The same property is declared in various classes, at least two, in the same class hierarchy
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/MultiplePropertyDeclaration.html
 	:og:locale: en
-  The same property is declared in various classes, at least two, in the same class hierarchy. The declarations must be compatible one another, and one of them should be sufficient. 
+The same property is declared in various classes, at least two, in the same class hierarchy. The declarations must be compatible one another, and one of them should be sufficient. 
 
 Generally, the higher declaration should be the one to stay. 
 

@@ -5,7 +5,7 @@
 Always Anchor Regex
 +++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Always Anchor Regex: Unanchored regex finds the requested pattern, and leaves room for malicious content.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Always Anchor Regex
 	:og:description: Unanchored regex finds the requested pattern, and leaves room for malicious content
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Security/AnchorRegex.html
 	:og:locale: en
-  Unanchored regex finds the requested pattern, and leaves room for malicious content. 
+Unanchored regex finds the requested pattern, and leaves room for malicious content. 
 
 Without ``^`` and ``$``, the regex searches for any pattern that satisfies the criteria, leaving any unused part of the string available for arbitrary content. It is recommended to use both anchor
 Note that $ may be a line ending, still leaving room after it for injection.

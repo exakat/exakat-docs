@@ -5,7 +5,7 @@
 Random extension
 ++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Random extension: The random extension.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Random extension
 	:og:description: The random extension
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extrandom.html
 	:og:locale: en
-  The random extension. It improves the random generators from the older PHP version, and provides a OOP interface.
+The random extension. It improves the random generators from the older PHP version, and provides a OOP interface.
 
 .. code-block:: php
    

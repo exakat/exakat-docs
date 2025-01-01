@@ -5,7 +5,7 @@
 Never Keyword
 +++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Never Keyword: Never becomes a PHP keyword.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Never Keyword
 	:og:description: Never becomes a PHP keyword
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/NeverKeyword.html
 	:og:locale: en
-  Never becomes a PHP keyword. It is used for typing functions which never returns anything (either dies or throw an `exception) <https://www.php.net/exception>`_.
+Never becomes a PHP keyword. It is used for typing functions which never returns anything (either dies or throw an `exception) <https://www.php.net/exception>`_.
 
 It should be avoided in namespaces, classes, traits and interfaces. Methods, constants and functions are OK.
 

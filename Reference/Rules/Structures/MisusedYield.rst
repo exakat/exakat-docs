@@ -5,7 +5,7 @@
 Misused Yield
 +++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Misused Yield: When chaining generator, one must use the ``yield from`` keyword.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Misused Yield
 	:og:description: When chaining generator, one must use the ``yield from`` keyword
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/MisusedYield.html
 	:og:locale: en
-  When chaining `generator <https://www.php.net/`generator <https://www.php.net/generator>`_>`_, one must use the ``yield from`` keyword.
+When chaining `generator <https://www.php.net/`generator <https://www.php.net/generator>`_>`_, one must use the ``yield from`` keyword.
 
 Forgetting the yield from keyword cancels the `generator <https://www.php.net/`generator <https://www.php.net/generator>`_>`_ nature of the functioncall and nothing is emited. 
 

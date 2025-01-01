@@ -5,7 +5,7 @@
 Hexadecimal In String
 +++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Hexadecimal In String: Mark strings that may be confused with hexadecimal.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Hexadecimal In String
 	:og:description: Mark strings that may be confused with hexadecimal
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Type/HexadecimalString.html
 	:og:locale: en
-  Mark strings that may be confused with hexadecimal. 
+Mark strings that may be confused with hexadecimal. 
 
 Until PHP 7.0, PHP recognizes hexadecimal numbers inside strings, and converts them accordingly. 
 

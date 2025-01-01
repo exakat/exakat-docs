@@ -5,7 +5,7 @@
 Avoid option arrays in constructors
 +++++++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Avoid option arrays in constructors: Avoid option arrays in constructors.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Avoid option arrays in constructors
 	:og:description: Avoid option arrays in constructors
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/AvoidOptionArrays.html
 	:og:locale: en
-  Avoid option arrays in constructors. Use one parameter per injected element.
+Avoid option arrays in constructors. Use one parameter per injected element.
 
 .. code-block:: php
    

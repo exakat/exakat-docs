@@ -5,7 +5,7 @@
 Functions Using Reference
 +++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Functions Using Reference: Functions and methods using references in their signature.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Functions Using Reference
 	:og:description: Functions and methods using references in their signature
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/FunctionsUsingReference.html
 	:og:locale: en
-  Functions and methods using references in their signature.
+Functions and methods using references in their signature.
 
 .. code-block:: php
    

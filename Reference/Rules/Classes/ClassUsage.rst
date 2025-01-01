@@ -5,7 +5,7 @@
 Class Usage
 +++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Class Usage: List of classes in use in the code source.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Class Usage
 	:og:description: List of classes in use in the code source
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/ClassUsage.html
 	:og:locale: en
-  List of classes in use in the code source.
+List of classes in use in the code source.
 
 .. code-block:: php
    

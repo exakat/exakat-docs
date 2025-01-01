@@ -5,7 +5,7 @@
 Useless Argument
 ++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Useless Argument: The argument is always used with the same value.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Useless Argument
 	:og:description: The argument is always used with the same value
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/UselessArgument.html
 	:og:locale: en
-  The argument is always used with the same value. This value could be hard coded in the method, and save one argument slot.
+The argument is always used with the same value. This value could be hard coded in the method, and save one argument slot.
 
 There is no indication that this argument will be used with other values. It may be a development artifact, that survived without cleaning.
 Methods with less than 3 calls are not considered here, to avoid reporting methods used once. Also, arguments with a default value are omitted. 

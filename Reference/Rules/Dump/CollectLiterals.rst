@@ -5,7 +5,7 @@
 Collect Literals
 ++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Collect Literals: Collects all literals in the application.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Collect Literals
 	:og:description: Collects all literals in the application
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/CollectLiterals.html
 	:og:locale: en
-  Collects all literals in the application. Strings, integer, float are collected. Booleans, null and arrays are not.
+Collects all literals in the application. Strings, integer, float are collected. Booleans, null and arrays are not.
 
 .. code-block:: php
    

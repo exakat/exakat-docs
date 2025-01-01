@@ -5,7 +5,7 @@
 Unkown Regex Options
 ++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Unkown Regex Options: Regex support in PHP accepts the following list of options : ``eimsuxADJSUX``.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Unkown Regex Options
 	:og:description: Regex support in PHP accepts the following list of options : ``eimsuxADJSUX``
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/UnknownPregOption.html
 	:og:locale: en
-  Regex support in PHP accepts the following list of options : ``eimsuxADJSUX``. 
+Regex support in PHP accepts the following list of options : ``eimsuxADJSUX``. 
 
 All other letter used as option are not supported : depending on the situation, they may be ignored or raise an `error <https://www.php.net/error>`_.
 

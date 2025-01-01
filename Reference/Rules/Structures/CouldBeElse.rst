@@ -5,7 +5,7 @@
 Could Be Else
 +++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Could Be Else: Merge opposite conditions into one if/then structure.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Could Be Else
 	:og:description: Merge opposite conditions into one if/then structure
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/CouldBeElse.html
 	:og:locale: en
-  Merge opposite conditions into one if/then structure.
+Merge opposite conditions into one if/then structure.
 
 When two if/then structures follow each other, using a condition and its opposite, they may be merged into one.
 

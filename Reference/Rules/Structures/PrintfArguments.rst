@@ -5,7 +5,7 @@
 Printf Number Of Arguments
 ++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Printf Number Of Arguments: The number of arguments provided to printf(), vprintf() and vsprintf() doesn't match the format string.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Printf Number Of Arguments
 	:og:description: The number of arguments provided to printf(), vprintf() and vsprintf() doesn't match the format string
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/PrintfArguments.html
 	:og:locale: en
-  The number of arguments provided to `printf() <https://www.php.net/printf>`_, `vprintf() <https://www.php.net/vprintf>`_ and `vsprintf() <https://www.php.net/vsprintf>`_ doesn't match the format string.
+The number of arguments provided to `printf() <https://www.php.net/printf>`_, `vprintf() <https://www.php.net/vprintf>`_ and `vsprintf() <https://www.php.net/vsprintf>`_ doesn't match the format string.
 
 Extra arguments are ignored, and are dead code as such. Missing arguments are reported with a warning, and nothing is displayed.
 

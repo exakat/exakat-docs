@@ -5,7 +5,7 @@
 Only Variable Passed By Reference
 +++++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Only Variable Passed By Reference: Some methods require a variable as argument.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Only Variable Passed By Reference
 	:og:description: Some methods require a variable as argument
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/OnlyVariablePassedByReference.html
 	:og:locale: en
-  Some methods require a variable as argument. Those arguments are passed by reference, and they must operate on a variable, or any data container (property, array element). 
+Some methods require a variable as argument. Those arguments are passed by reference, and they must operate on a variable, or any data container (property, array element). 
 
 This means that literal values, constants cannot be used as argument. This is also the case of literal values, returned by other methods.
 

@@ -5,7 +5,7 @@
 Similar Integers
 ++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Similar Integers: This analysis reports all integer values that are expressed in different format.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Similar Integers
 	:og:description: This analysis reports all integer values that are expressed in different format
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Type/SimilarIntegers.html
 	:og:locale: en
-  This analysis reports all integer values that are expressed in different format.
+This analysis reports all integer values that are expressed in different format.
 
 .. code-block:: php
    

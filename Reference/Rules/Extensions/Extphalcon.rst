@@ -5,7 +5,7 @@
 ext/phalcon
 +++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		ext/phalcon: Extension Phalcon : High Performance PHP Framework.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ ext/phalcon
 	:og:description: Extension Phalcon : High Performance PHP Framework
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extphalcon.html
 	:og:locale: en
-  Extension Phalcon : High Performance PHP Framework.
+Extension Phalcon : High Performance PHP Framework.
 
 Phalcon's autoload examples from the docs :  `Tutorial 1: Let’s learn by example <https://docs.phalconphp.com/en/latest/reference/tutorial.html>`_
 

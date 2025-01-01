@@ -5,7 +5,7 @@
 Possible Alias Confusion
 ++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Possible Alias Confusion: An alias is used for a class that doesn't belong to the current namespace, while there is such a class.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Possible Alias Confusion
 	:og:description: An alias is used for a class that doesn't belong to the current namespace, while there is such a class
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Namespaces/AliasConfusion.html
 	:og:locale: en
-  An alias is used for a class that doesn't belong to the current namespace, while there is such a class. This also applies to traits and interfaces.
+An alias is used for a class that doesn't belong to the current namespace, while there is such a class. This also applies to traits and interfaces.
 
 When no alias is used, PHP will search for a class in the local space. Since classes, traits and interfaces are usually stored one per file, it is a valid syntax to create an alias, even if this alias name is the name of a class in the same namespace. 
 

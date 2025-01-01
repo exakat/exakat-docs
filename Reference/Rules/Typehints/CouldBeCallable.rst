@@ -5,7 +5,7 @@
 Could Be Callable
 +++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Could Be Callable: Mark arguments and return types that can be set to ``callable``.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Could Be Callable
 	:og:description: Mark arguments and return types that can be set to ``callable``
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Typehints/CouldBeCallable.html
 	:og:locale: en
-  Mark arguments and return types that can be set to ``callable``.
+Mark arguments and return types that can be set to ``callable``.
 
 The analysis also reports properties that could be 'callable', although PHP doesn't allow that configuration.
 Note that properties cannot be callable. It reports a compilation `error <https://www.php.net/error>`_.

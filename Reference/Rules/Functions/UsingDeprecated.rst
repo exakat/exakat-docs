@@ -5,7 +5,7 @@
 Using Deprecated Method
 +++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Using Deprecated Method: A call to a deprecated method has been spotted.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Using Deprecated Method
 	:og:description: A call to a deprecated method has been spotted
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/UsingDeprecated.html
 	:og:locale: en
-  A call to a deprecated method has been spotted. A method is deprecated when it bears a ``@deprecated`` parameter in its typehint definition.
+A call to a deprecated method has been spotted. A method is deprecated when it bears a ``@deprecated`` parameter in its typehint definition.
 
 Deprecated methods which are not called are not reported.
 

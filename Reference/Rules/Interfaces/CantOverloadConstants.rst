@@ -5,7 +5,7 @@
 Cant Overload Constants
 +++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Cant Overload Constants: It was not possible to overload class constants within a class, when the constant was defined in an interface.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Cant Overload Constants
 	:og:description: It was not possible to overload class constants within a class, when the constant was defined in an interface
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Interfaces/CantOverloadConstants.html
 	:og:locale: en
-  It was not possible to overload class constants within a class, when the constant was defined in an interface. This restriction was removed in PHP 8.1.
+It was not possible to overload class constants within a class, when the constant was defined in an interface. This restriction was removed in PHP 8.1.
 
 .. code-block:: php
    

@@ -5,7 +5,7 @@
 Undefined Variable
 ++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Undefined Variable: Variable that is used before any initialisation.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Undefined Variable
 	:og:description: Variable that is used before any initialisation
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Variables/UndefinedVariable.html
 	:og:locale: en
-  Variable that is used before any initialisation. 
+Variable that is used before any initialisation. 
 
 It is recommended to use a default value for every variable used. When not specified, the default value is set to ``NULL`` by PHP.
 

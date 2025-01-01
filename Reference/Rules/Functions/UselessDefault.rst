@@ -5,7 +5,7 @@
 Useless Default Argument
 ++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Useless Default Argument: One of the argument has a default value, and this default value is never used.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Useless Default Argument
 	:og:description: One of the argument has a default value, and this default value is never used
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/UselessDefault.html
 	:og:locale: en
-  One of the argument has a default value, and this default value is never used. Every time the method is called, the argument is provided explicitly, rendering the default value actually useless.
+One of the argument has a default value, and this default value is never used. Every time the method is called, the argument is provided explicitly, rendering the default value actually useless.
 
 .. code-block:: php
    

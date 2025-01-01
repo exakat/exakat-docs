@@ -5,7 +5,7 @@
 Manipulates NaN
 +++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Manipulates NaN: This code handles ``Not-a-Number`` situations.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Manipulates NaN
 	:og:description: This code handles ``Not-a-Number`` situations
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/IsNAN.html
 	:og:locale: en
-  This code handles ``Not-a-Number`` situations. ``Not-a-Number``, also called ``NaN``, happens when a calculation can't return an actual float.
+This code handles ``Not-a-Number`` situations. ``Not-a-Number``, also called ``NaN``, happens when a calculation can't return an actual float.
 
 .. code-block:: php
    

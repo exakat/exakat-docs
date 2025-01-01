@@ -5,7 +5,7 @@
 Wrong Attribute Configuration
 +++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Wrong Attribute Configuration: A class is attributed to the wrong PHP structure.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Wrong Attribute Configuration
 	:og:description: A class is attributed to the wrong PHP structure
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/WrongAttributeConfiguration.html
 	:og:locale: en
-  A class is attributed to the wrong PHP structure. A class may be an `attribute <https://www.php.net/attribute>`_, and it may also be configured to be used with different structures : classes, function, parameters, etc. When an `attribute <https://www.php.net/attribute>`_ has a configuration, it must be used with the correct structure.
+A class is attributed to the wrong PHP structure. A class may be an `attribute <https://www.php.net/attribute>`_, and it may also be configured to be used with different structures : classes, function, parameters, etc. When an `attribute <https://www.php.net/attribute>`_ has a configuration, it must be used with the correct structure.
 
 .. code-block:: php
    

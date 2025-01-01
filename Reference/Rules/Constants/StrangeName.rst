@@ -5,7 +5,7 @@
 Strange Name For Constants
 ++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Strange Name For Constants: Those constants looks like a typo from other names.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Strange Name For Constants
 	:og:description: Those constants looks like a typo from other names
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Constants/StrangeName.html
 	:og:locale: en
-  Those constants looks like a typo from other names.
+Those constants looks like a typo from other names.
 
 .. code-block:: php
    

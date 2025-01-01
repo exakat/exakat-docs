@@ -5,7 +5,7 @@
 Implied If
 ++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Implied If: It is confusing to emulate if/then with boolean operators.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Implied If
 	:og:description: It is confusing to emulate if/then with boolean operators
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ImpliedIf.html
 	:og:locale: en
-  It is confusing to emulate if/then with boolean operators.
+It is confusing to emulate if/then with boolean operators.
 
 It is possible to emulate a if/then structure by using the operators 'and' and 'or'. Since optimizations will be applied to them : 
 when the left operand of 'and' is false, the right one is not executed, as its `result <https://www.php.net/result>`_ is useless; 

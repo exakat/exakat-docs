@@ -5,7 +5,7 @@
 Silently Cast Integer
 +++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Silently Cast Integer: Those are integer literals that are cast to a float when running PHP.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Silently Cast Integer
 	:og:description: Those are integer literals that are cast to a float when running PHP
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Type/SilentlyCastInteger.html
 	:og:locale: en
-  Those are integer literals that are cast to a float when running PHP. They are too big for the current PHP version, and PHP resorts to cast them into a float, which has a much larger capacity but a lower precision.
+Those are integer literals that are cast to a float when running PHP. They are too big for the current PHP version, and PHP resorts to cast them into a float, which has a much larger capacity but a lower precision.
 
 Compare your literals to ``PHP_MAX_INT`` (typically ``9223372036854775807``) and ``PHP_MIN_INT`` (typically ``-9223372036854775808``).
 This applies to binary (``0b10101``...), octal (``0123123``...) and hexadecimal (``0xfffff``...) too.

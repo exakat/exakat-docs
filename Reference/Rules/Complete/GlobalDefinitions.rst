@@ -5,7 +5,7 @@
 Global Definitions
 ++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Global Definitions: Sets the definitions of global variables across the application.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Global Definitions
 	:og:description: Sets the definitions of global variables across the application
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Complete/GlobalDefinitions.html
 	:og:locale: en
-  Sets the definitions of global variables across the application.
+Sets the definitions of global variables across the application.
 
 It creates a Virtualglobal atom, which links to all definitions of that variables, using ``global $a`` or ``$GLOBALS['a']``.
 

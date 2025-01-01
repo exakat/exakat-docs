@@ -5,7 +5,7 @@
 Used Once Variables (In Scope)
 ++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Used Once Variables (In Scope): This is the list of used once variables, scope by scope.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Used Once Variables (In Scope)
 	:og:description: This is the list of used once variables, scope by scope
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Variables/VariableUsedOnceByContext.html
 	:og:locale: en
-  This is the list of used once variables, scope by scope. Those variables are used once in a function, a method, a class or a namespace. In any case, this means the variable is read or written, while it should be used at least twice. 
+This is the list of used once variables, scope by scope. Those variables are used once in a function, a method, a class or a namespace. In any case, this means the variable is read or written, while it should be used at least twice. 
 
 `Static <https://www.php.net/manual/en/language.oop5.static.php>`_ and global variables are omitted here : they may be used multiple times by having the method being called multiple times. 
 

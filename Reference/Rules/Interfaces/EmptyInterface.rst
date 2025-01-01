@@ -5,7 +5,7 @@
 Empty Interfaces
 ++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Empty Interfaces: Empty interfaces are a code smell.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Empty Interfaces
 	:og:description: Empty interfaces are a code smell
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Interfaces/EmptyInterface.html
 	:og:locale: en
-  Empty interfaces are a code smell. Interfaces should contains at least a method or a constant, and not be totally empty.
+Empty interfaces are a code smell. Interfaces should contains at least a method or a constant, and not be totally empty.
 
 .. code-block:: php
    

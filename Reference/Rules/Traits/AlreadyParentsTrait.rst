@@ -5,7 +5,7 @@
 Already Parents Trait
 +++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Already Parents Trait: Trait is already used a parent's class or trait.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Already Parents Trait
 	:og:description: Trait is already used a parent's class or trait
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Traits/AlreadyParentsTrait.html
 	:og:locale: en
-  Trait is already used a `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_'s class or trait. There is no use to include it a second time, so one of them can be removed.
+Trait is already used a `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_'s class or trait. There is no use to include it a second time, so one of them can be removed.
 
 .. code-block:: php
    

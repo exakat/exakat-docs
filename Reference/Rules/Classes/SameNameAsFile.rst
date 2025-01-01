@@ -5,7 +5,7 @@
 Not Same Name As File
 +++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Not Same Name As File: The class, interface or trait in this file as a different name, case included, than the file name.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Not Same Name As File
 	:og:description: The class, interface or trait in this file as a different name, case included, than the file name
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/SameNameAsFile.html
 	:og:locale: en
-  The class, interface or trait in this file as a different name, case included, than the file name. 
+The class, interface or trait in this file as a different name, case included, than the file name. 
 
 In the following example,  the file name is ``Foo.php``.
 

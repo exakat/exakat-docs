@@ -5,7 +5,7 @@
 Clone Usage
 +++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Clone Usage: This rule lists of all clone expressions.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Clone Usage
 	:og:description: This rule lists of all clone expressions
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/CloningUsage.html
 	:og:locale: en
-  This rule lists of all clone expressions. Cloning objects leads to creating a new object without calling the constructor, but rather the ``__clone`` method, when available.
+This rule lists of all clone expressions. Cloning objects leads to creating a new object without calling the constructor, but rather the ``__clone`` method, when available.
 
 .. code-block:: php
    

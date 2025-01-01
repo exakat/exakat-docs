@@ -5,7 +5,7 @@
 Collect Calls
 +++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Collect Calls: Collects calls to methods, and functions, and mentions the calling method or function.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Collect Calls
 	:og:description: Collects calls to methods, and functions, and mentions the calling method or function
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/CollectCalls.html
 	:og:locale: en
-  Collects calls to methods, and functions, and mentions the calling method or function.
+Collects calls to methods, and functions, and mentions the calling method or function.
 
 
 

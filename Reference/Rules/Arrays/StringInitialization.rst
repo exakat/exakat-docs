@@ -5,7 +5,7 @@
 Array With String Initialization
 ++++++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Array With String Initialization: It used to be possible to initialize a variable with an string, and use it as an array.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Array With String Initialization
 	:og:description: It used to be possible to initialize a variable with an string, and use it as an array
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Arrays/StringInitialization.html
 	:og:locale: en
-  It used to be possible to initialize a variable with an string, and use it as an array. It is not the case anymore in PHP 7.1.
+It used to be possible to initialize a variable with an string, and use it as an array. It is not the case anymore in PHP 7.1.
 
 .. code-block:: php
    

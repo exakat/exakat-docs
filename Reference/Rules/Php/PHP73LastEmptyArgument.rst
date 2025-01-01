@@ -5,7 +5,7 @@
 PHP 7.3 Last Empty Argument
 +++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		PHP 7.3 Last Empty Argument: PHP allows the last element of any functioncall to be empty.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ PHP 7.3 Last Empty Argument
 	:og:description: PHP allows the last element of any functioncall to be empty
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/PHP73LastEmptyArgument.html
 	:og:locale: en
-  PHP allows the last element of any functioncall to be empty. The argument is then not send.
+PHP allows the last element of any functioncall to be empty. The argument is then not send.
 
 This was introduced in PHP 7.3, and is not backward compatible.
 

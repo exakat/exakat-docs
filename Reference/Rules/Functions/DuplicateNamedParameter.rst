@@ -5,7 +5,7 @@
 Duplicate Named Parameter
 +++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Duplicate Named Parameter: Two parameters have the same name in a method call.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Duplicate Named Parameter
 	:og:description: Two parameters have the same name in a method call
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/DuplicateNamedParameter.html
 	:og:locale: en
-  Two parameters have the same name in a method call. This yields a Fatal `error <https://www.php.net/error>`_ at execution time.
+Two parameters have the same name in a method call. This yields a Fatal `error <https://www.php.net/error>`_ at execution time.
 
 .. code-block:: php
    

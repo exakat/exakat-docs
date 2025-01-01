@@ -5,7 +5,7 @@
 Short Or Complete Comparison
 ++++++++++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Short Or Complete Comparison: Which type of condition is used for boolean comparisons : either short or formal.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Short Or Complete Comparison
 	:og:description: Which type of condition is used for boolean comparisons : either short or formal
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ShortOrCompleteComparison.html
 	:og:locale: en
-  Which type of condition is used for boolean comparisons : either short or formal. 
+Which type of condition is used for boolean comparisons : either short or formal. 
 
 Formal is an explicit comparison to another boolean, while short is when the variable is used without comparison. 
 

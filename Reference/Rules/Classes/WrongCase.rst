@@ -5,7 +5,7 @@
 Wrong Class Name Case
 +++++++++++++++++++++
 
-.. meta\:\:
+.. meta::
 	:description:
 		Wrong Class Name Case: The spotted classes are used with a different case than their definition.
 	:twitter:card: summary_large_image
@@ -20,7 +20,7 @@ Wrong Class Name Case
 	:og:description: The spotted classes are used with a different case than their definition
 	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/WrongCase.html
 	:og:locale: en
-  The spotted classes are used with a different case than their definition. While PHP accepts this, it makes the code harder to read. 
+The spotted classes are used with a different case than their definition. While PHP accepts this, it makes the code harder to read. 
 
 It may also be a violation of coding conventions.
 
