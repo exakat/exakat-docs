@@ -6,6 +6,22 @@ File dependendies
 File dependendies
 _________________
 
+.. meta::
+	:description:
+		File dependendies: This reports displays the file dependencies, based on definition usages..
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: File dependendies
+	:twitter:description: File dependendies: This reports displays the file dependencies, based on definition usages.
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: File dependendies
+	:og:type: article
+	:og:description: This reports displays the file dependencies, based on definition usages.
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Reports/.html
+	:og:locale: en
+
 This reports displays the file dependencies, based on definition usages.
 
 This report displays all dependencies between files. A file depends on another when it makes usage of one of its definitions : constant, functions, classes, traits, interfaces. 

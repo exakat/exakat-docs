@@ -46,16 +46,16 @@ List of Cobblers
    Cobblers/Functions/RenameFunction.rst
    Cobblers/Rename/RenameNamespace.rst
    Cobblers/Classes/RenameClass.rst
-   Cobblers/Classes/RenameMethod.rst
-   Cobblers/Traits/RenameTrait.rst
    Cobblers/Classes/RenameConstant.rst
    Cobblers/Constants/RenameConstant.rst
    Cobblers/Enums/RenameEnums.rst
    Cobblers/Structures/RenameFunctionCall.rst
    Cobblers/Interfaces/RenameInterface.rst
+   Cobblers/Classes/RenameMethod.rst
    Cobblers/Structures/RenameMethodcall.rst
    Cobblers/Functions/RenameParameter.rst
    Cobblers/Classes/RenameProperty.rst
+   Cobblers/Traits/RenameTrait.rst
    Cobblers/Functions/SetNullType.rst
    Cobblers/Functions/SetTypeVoid.rst
    Cobblers/Functions/SetTypehints.rst

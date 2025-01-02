@@ -6,6 +6,22 @@ Sarif
 Sarif
 _____
 
+.. meta::
+	:description:
+		Sarif: The SARIF report publishes the results in SARIF format..
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Sarif
+	:twitter:description: Sarif: The SARIF report publishes the results in SARIF format.
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Sarif
+	:og:type: article
+	:og:description: The SARIF report publishes the results in SARIF format.
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Reports/.html
+	:og:locale: en
+
 The SARIF report publishes the results in SARIF format.
 
 `Static Analysis Results Interchange Format (SARIF) <https://docs.oasis-open.org/sarif/sarif/v2.0/sarif-v2.0.html>`_  a standard format for the output of static analysis tools. The format is referred to as the “Static Analysis Results Interchange Format” and is abbreviated as SARIF. 

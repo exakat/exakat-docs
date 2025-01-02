@@ -6,6 +6,22 @@ Xml
 Xml
 ___
 
+.. meta::
+	:description:
+		Xml: The Xml report exports in XML format..
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Xml
+	:twitter:description: Xml: The Xml report exports in XML format.
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Xml
+	:og:type: article
+	:og:description: The Xml report exports in XML format.
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Reports/.html
+	:og:locale: en
+
 The Xml report exports in XML format.
 
 XML version of the reports. It uses the same format than PHP Code Sniffer to output the results. 

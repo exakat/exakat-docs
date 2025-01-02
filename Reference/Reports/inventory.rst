@@ -6,6 +6,22 @@ Inventory
 Inventory
 _________
 
+.. meta::
+	:description:
+		Inventory: The Inventory report collects literals and names trhoughout the code..
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Inventory
+	:twitter:description: Inventory: The Inventory report collects literals and names trhoughout the code.
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Inventory
+	:og:type: article
+	:og:description: The Inventory report collects literals and names trhoughout the code.
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Reports/.html
+	:og:locale: en
+
 The Inventory report collects literals and names trhoughout the code.
 
 This report provides the value, the file and line where a type of value is present. 

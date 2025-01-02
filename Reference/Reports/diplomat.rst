@@ -6,6 +6,22 @@ Diplomat
 Diplomat
 ________
 
+.. meta::
+	:description:
+		Diplomat: The Diplomat is the default human readable report..
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Diplomat
+	:twitter:description: Diplomat: The Diplomat is the default human readable report.
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Diplomat
+	:og:type: article
+	:og:description: The Diplomat is the default human readable report.
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Reports/.html
+	:og:locale: en
+
 The Diplomat is the default human readable report.
 
 The Diplomat report is the default report since Exakat 1.7.0. It is a light version of the Ambassador report, and uses a shorter list of analysis. 

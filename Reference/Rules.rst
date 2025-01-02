@@ -6659,9 +6659,9 @@ Directory by PHP Function
       + :ref:`is_a() Versus instanceof <is\_a()-versus-instanceof>`
       + :ref:`self, parent, static Outside Class <self,-parent,-static-outside-class>`
       + :ref:`Rename Class <rename-class>`
-      + :ref:`Rename Class <rename-class>`
       + :ref:`Rename Enums <rename-enums>`
       + :ref:`Rename Interface <rename-interface>`
+      + :ref:`Rename Method <rename-method>`
 
     + `insteadof`
 
@@ -9296,12 +9296,12 @@ Directory by PHP Function
       + :ref:`Make Static Closures And Arrow Functions <make-static-closures-and-arrow-functions>`
       + :ref:`Remove Static From Closures And Arrow Functions <remove-static-from-closures-and-arrow-functions>`
       + :ref:`Rename Class <rename-class>`
-      + :ref:`Rename Class <rename-class>`
-      + :ref:`Rename Class <rename-class>`
       + :ref:`Rename Enums <rename-enums>`
       + :ref:`Rename Interface <rename-interface>`
+      + :ref:`Rename Method <rename-method>`
       + :ref:`Rename Methodcall <rename-methodcall>`
       + :ref:`Rename Property <rename-property>`
+      + :ref:`Rename Trait <rename-trait>`
       + :ref:`Coding conventions <coding-conventions>`
 
     + `stdClass`

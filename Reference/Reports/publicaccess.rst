@@ -6,6 +6,22 @@ PublicAccess
 PublicAccess
 ____________
 
+.. meta::
+	:description:
+		PublicAccess: This report is a map on how to access private methods from public methods..
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: PublicAccess
+	:twitter:description: PublicAccess: This report is a map on how to access private methods from public methods.
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: PublicAccess
+	:og:type: article
+	:og:description: This report is a map on how to access private methods from public methods.
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Reports/.html
+	:og:locale: en
+
 This report is a map on how to access private methods from public methods.
 
 The Public Access report displays a map that show how to reach private methods by calling.

@@ -1,5 +1,21 @@
 .. _functions-settypevoid:
 
+.. meta::
+	:description:
+		Set Type Void: Adds the void typehint to functions and methods, when possible.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Set Type Void
+	:twitter:description: Set Type Void: Adds the void typehint to functions and methods, when possible
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Set Type Void
+	:og:type: article
+	:og:description: Adds the void typehint to functions and methods, when possible
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Cobblers/Functions/SetTypeVoid.html
+	:og:locale: en
+
 .. _set-type-void:
 
 Set Type Void

@@ -1,5 +1,21 @@
 .. _functions-renameparameter:
 
+.. meta::
+	:description:
+		Rename Parameter: Change the name of a parameter to a new name.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Rename Parameter
+	:twitter:description: Rename Parameter: Change the name of a parameter to a new name
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Rename Parameter
+	:og:type: article
+	:og:description: Change the name of a parameter to a new name
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Cobblers/Functions/RenameParameter.html
+	:og:locale: en
+
 .. _rename-parameter:
 
 Rename Parameter

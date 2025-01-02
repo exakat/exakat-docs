@@ -6,6 +6,22 @@ PhpConfiguration
 PhpConfiguration
 ________________
 
+.. meta::
+	:description:
+		PhpConfiguration: The PhpConfiguration suggests a list of directives to check when setting up the hosting server, tailored for the code.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: PhpConfiguration
+	:twitter:description: PhpConfiguration: The PhpConfiguration suggests a list of directives to check when setting up the hosting server, tailored for the code
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: PhpConfiguration
+	:og:type: article
+	:og:description: The PhpConfiguration suggests a list of directives to check when setting up the hosting server, tailored for the code
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Reports/.html
+	:og:locale: en
+
 The PhpConfiguration suggests a list of directives to check when setting up the hosting server, tailored for the code
 
 PhpConfiguration bases its selection on the code, and classic recommendations. For example, memory_limit or expose_php are always reported, though they have little impact in the code. Extensions also get a short list of important directive, and offer a link to the documentation for more documentation.

@@ -6,6 +6,22 @@ Phpcsfixer
 Phpcsfixer
 __________
 
+.. meta::
+	:description:
+		Phpcsfixer: The Phpcsfixer report provides a configuration file for php-cs-fixer, that automatically fixes issues found in related analysis in exakat..
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Phpcsfixer
+	:twitter:description: Phpcsfixer: The Phpcsfixer report provides a configuration file for php-cs-fixer, that automatically fixes issues found in related analysis in exakat.
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Phpcsfixer
+	:og:type: article
+	:og:description: The Phpcsfixer report provides a configuration file for php-cs-fixer, that automatically fixes issues found in related analysis in exakat.
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Reports/.html
+	:og:locale: en
+
 The Phpcsfixer report provides a configuration file for php-cs-fixer, that automatically fixes issues found in related analysis in exakat.
 
 This report builds a configuration file for php-cs-fixer. 

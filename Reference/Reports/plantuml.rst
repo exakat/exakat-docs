@@ -6,6 +6,22 @@ PlantUml
 PlantUml
 ________
 
+.. meta::
+	:description:
+		PlantUml: The PlantUml export data structure to PlantUml format..
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: PlantUml
+	:twitter:description: PlantUml: The PlantUml export data structure to PlantUml format.
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: PlantUml
+	:og:type: article
+	:og:description: The PlantUml export data structure to PlantUml format.
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Reports/.html
+	:og:locale: en
+
 The PlantUml export data structure to PlantUml format.
 
 This report produces a .puml file, compatible with `PlantUML <http://plantuml.com/>`_.

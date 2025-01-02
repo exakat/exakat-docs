@@ -6,6 +6,22 @@ Clustergrammer
 Clustergrammer
 ______________
 
+.. meta::
+	:description:
+		Clustergrammer: The Clustergrammar report format data for a clustergrammer diagram..
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Clustergrammer
+	:twitter:description: Clustergrammer: The Clustergrammar report format data for a clustergrammer diagram.
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Clustergrammer
+	:og:type: article
+	:og:description: The Clustergrammar report format data for a clustergrammer diagram.
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Reports/.html
+	:og:locale: en
+
 The Clustergrammar report format data for a clustergrammer diagram.
 
 ` :ref:`report-clustergrammer` ` is a visualisation tool that may be found online. After generation of this report, a TEXT file is available in the project directory. Upload it on `http://amp.pharm.mssm.edu/clustergrammer/ <http://amp.pharm.mssm.edu/clustergrammer/>`_ to visualize it. 

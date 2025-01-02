@@ -1,5 +1,21 @@
 .. _classes-vartopublic:
 
+.. meta::
+	:description:
+		Var To Public: Replace the var syntax with public keyword.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Var To Public
+	:twitter:description: Var To Public: Replace the var syntax with public keyword
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Var To Public
+	:og:type: article
+	:og:description: Replace the var syntax with public keyword
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Cobblers/Classes/VarToPublic.html
+	:og:locale: en
+
 .. _var-to-public:
 
 Var To Public

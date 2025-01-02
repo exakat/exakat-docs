@@ -1,5 +1,21 @@
 .. _structures-renamefunction:
 
+.. meta::
+	:description:
+		Rename A Function: Give a function with a new name.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Rename A Function
+	:twitter:description: Rename A Function: Give a function with a new name
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Rename A Function
+	:og:type: article
+	:og:description: Give a function with a new name
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Cobblers/Structures/RenameFunction.html
+	:og:locale: en
+
 .. _rename-a-function:
 
 Rename A Function

@@ -1,5 +1,21 @@
 .. _enums-renameenums:
 
+.. meta::
+	:description:
+		Rename Enums: Rename a class into another one.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Rename Enums
+	:twitter:description: Rename Enums: Rename a class into another one
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Rename Enums
+	:og:type: article
+	:og:description: Rename a class into another one
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Cobblers/Enums/RenameEnums.html
+	:og:locale: en
+
 .. _rename-enums:
 
 Rename Enums

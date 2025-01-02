@@ -1,45 +1,61 @@
 .. _classes-renamemethod:
 
-.. _rename-class:
+.. meta::
+	:description:
+		Rename Method: Rename a method into another one.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Rename Method
+	:twitter:description: Rename Method: Rename a method into another one
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Rename Method
+	:og:type: article
+	:og:description: Rename a method into another one
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Cobblers/Classes/RenameMethod.html
+	:og:locale: en
 
-Rename Class
-++++++++++++
-Rename a class into another one. 
+.. _rename-method:
 
-The rename applies the new name to the class, and its usage : static calls, types, extends and instanceof. 
+Rename Method
++++++++++++++
+Rename a method into another one. 
 
-.. _rename-class-before:
+The rename applies the new name to the method, and its usage : static calls, types, extends and instanceof. 
+
+.. _rename-method-before:
 
 Before
 ______
 .. code-block:: php
 
    <?php
-   class x {
+   class X {
    	function m() {}
    }
    
-   (new x)->m();
+   (new X)->m();
    
    ?>
 
-.. _rename-class-after:
+.. _rename-method-after:
 
 After
 _____
 .. code-block:: php
 
    <?php
-   class x {
+   class X {
    	function newM() {}
    }
    
-   (new x)->newM();
+   (new X)->newM();
    
    ?>
 
 
-.. _rename-class-destination:
+.. _rename-method-destination:
 
 Parameters
 __________
@@ -52,16 +68,16 @@ __________
 | destination |         | string | The destination's method name. Only the name.                            |
 +-------------+---------+--------+--------------------------------------------------------------------------+
 
-.. _rename-class-reverse-cobbler:
+.. _rename-method-reverse-cobbler:
 
 Reverse Cobbler
 _______________
 
-* :ref:`rename-class`
+* :ref:`rename-method`
 
 
 
-.. _rename-class-specs:
+.. _rename-method-specs:
 
 Specs
 _____

@@ -1,5 +1,21 @@
 .. _classes-removereadonly:
 
+.. meta::
+	:description:
+		Remove Readonly Option: Readonly is a property and class option.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Remove Readonly Option
+	:twitter:description: Remove Readonly Option: Readonly is a property and class option
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Remove Readonly Option
+	:og:type: article
+	:og:description: Readonly is a property and class option
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Cobblers/Classes/RemoveReadonly.html
+	:og:locale: en
+
 .. _remove-readonly-option:
 
 Remove Readonly Option

@@ -6,6 +6,22 @@ CompatibilityPHP81
 CompatibilityPHP81
 __________________
 
+.. meta::
+	:description:
+		CompatibilityPHP81: The CompatibilityPHP56 report list all detected issues with PHP 8.1 compatibility..
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: CompatibilityPHP81
+	:twitter:description: CompatibilityPHP81: The CompatibilityPHP56 report list all detected issues with PHP 8.1 compatibility.
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: CompatibilityPHP81
+	:og:type: article
+	:og:description: The CompatibilityPHP56 report list all detected issues with PHP 8.1 compatibility.
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Reports/.html
+	:og:locale: en
+
 The CompatibilityPHP56 report list all detected issues with PHP 8.1 compatibility.
 
 The CompatibilityPHP81 report displays one result per line, grouped by rule, and ordered by file and line number. Here is an example : 

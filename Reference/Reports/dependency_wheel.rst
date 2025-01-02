@@ -6,6 +6,22 @@ Dependency Wheel
 Dependency Wheel
 ________________
 
+.. meta::
+	:description:
+		Dependency Wheel: The DependencyWheel represents dependencies in a code source..
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Dependency Wheel
+	:twitter:description: Dependency Wheel: The DependencyWheel represents dependencies in a code source.
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Dependency Wheel
+	:og:type: article
+	:og:description: The DependencyWheel represents dependencies in a code source.
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Reports/.html
+	:og:locale: en
+
 The DependencyWheel represents dependencies in a code source.
 
 Dependency Wheel is a javascript visualization of the classes dependencies in the code. Every class, interface and trait are represented as a circle, and every relation between the classes are represented by a link between them, inside the circle. 

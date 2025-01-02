@@ -1,5 +1,21 @@
 .. _namespaces-usealias:
 
+.. meta::
+	:description:
+		Use Available Alias: Apply systematically the use expression in the code.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Use Available Alias
+	:twitter:description: Use Available Alias: Apply systematically the use expression in the code
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Use Available Alias
+	:og:type: article
+	:og:description: Apply systematically the use expression in the code
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Cobblers/Namespaces/UseAlias.html
+	:og:locale: en
+
 .. _use-available-alias:
 
 Use Available Alias

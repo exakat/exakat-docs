@@ -1,5 +1,21 @@
 .. _functions-makestaticfunction:
 
+.. meta::
+	:description:
+		Make Static Closures And Arrow Functions: Add the static option to closures and arrow functions.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Make Static Closures And Arrow Functions
+	:twitter:description: Make Static Closures And Arrow Functions: Add the static option to closures and arrow functions
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Make Static Closures And Arrow Functions
+	:og:type: article
+	:og:description: Add the static option to closures and arrow functions
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Cobblers/Functions/MakeStaticFunction.html
+	:og:locale: en
+
 .. _make-static-closures-and-arrow-functions:
 
 Make Static Closures And Arrow Functions

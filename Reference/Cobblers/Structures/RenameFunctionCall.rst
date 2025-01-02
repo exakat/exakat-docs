@@ -1,5 +1,21 @@
 .. _structures-renamefunctioncall:
 
+.. meta::
+	:description:
+		Rename FunctionCalls: Rename a function call to another function.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Rename FunctionCalls
+	:twitter:description: Rename FunctionCalls: Rename a function call to another function
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Rename FunctionCalls
+	:og:type: article
+	:og:description: Rename a function call to another function
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Cobblers/Structures/RenameFunctionCall.html
+	:og:locale: en
+
 .. _rename-functioncalls:
 
 Rename FunctionCalls

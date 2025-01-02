@@ -6,6 +6,22 @@ Ambassador
 Ambassador
 __________
 
+.. meta::
+	:description:
+		Ambassador: Ambassador is the most complete Exakat report. It used to be the default report, until Exakat 1.7.0.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Ambassador
+	:twitter:description: Ambassador: Ambassador is the most complete Exakat report. It used to be the default report, until Exakat 1.7.0
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Ambassador
+	:og:type: article
+	:og:description: Ambassador is the most complete Exakat report. It used to be the default report, until Exakat 1.7.0
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Reports/.html
+	:og:locale: en
+
 Ambassador is the most complete Exakat report. It used to be the default report, until Exakat 1.7.0
 
 The Ambassador report many reports. 

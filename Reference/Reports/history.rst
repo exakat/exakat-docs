@@ -6,6 +6,22 @@ History
 History
 _______
 
+.. meta::
+	:description:
+		History: The History report collects meta information between audits. It saves the values from the current audit into a separate 'history.sqlite' database..
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: History
+	:twitter:description: History: The History report collects meta information between audits. It saves the values from the current audit into a separate 'history.sqlite' database.
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: History
+	:og:type: article
+	:og:description: The History report collects meta information between audits. It saves the values from the current audit into a separate 'history.sqlite' database.
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Reports/.html
+	:og:locale: en
+
 The History report collects meta information between audits. It saves the values from the current audit into a separate 'history.sqlite' database.
 
 The history tables are the same as the dump.sqlite tables, except for the extra 'serial' table. Each audit comes with 3 identifiers : 

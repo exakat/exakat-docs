@@ -1,5 +1,21 @@
 .. _functions-removetypes:
 
+.. meta::
+	:description:
+		Remove Type: This cobbler remove the type mentions in the code.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Remove Type
+	:twitter:description: Remove Type: This cobbler remove the type mentions in the code
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Remove Type
+	:og:type: article
+	:og:description: This cobbler remove the type mentions in the code
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Cobblers/Functions/RemoveTypes.html
+	:og:locale: en
+
 .. _remove-type:
 
 Remove Type

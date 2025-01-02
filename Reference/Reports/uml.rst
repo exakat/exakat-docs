@@ -6,6 +6,22 @@ Uml
 Uml
 ___
 
+.. meta::
+	:description:
+		Uml: The Uml exports data structure to UML format..
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Uml
+	:twitter:description: Uml: The Uml exports data structure to UML format.
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Uml
+	:og:type: article
+	:og:description: The Uml exports data structure to UML format.
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Reports/.html
+	:og:locale: en
+
 The Uml exports data structure to UML format.
 
 This report produces a dot file with a representation of the classes used in the repository. 

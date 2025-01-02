@@ -1,5 +1,21 @@
 .. _structures-addnoscream:
 
+.. meta::
+	:description:
+		Add No Scream @: Adds the no scream operator `@` to an expression.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Add No Scream @
+	:twitter:description: Add No Scream @: Adds the no scream operator `@` to an expression
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Add No Scream @
+	:og:type: article
+	:og:description: Adds the no scream operator `@` to an expression
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Cobblers/Structures/AddNoScream.html
+	:og:locale: en
+
 .. _add-no-scream-@:
 
 Add No Scream @
