@@ -18,7 +18,7 @@ Switch With Too Many Default
 	:og:title: Switch With Too Many Default
 	:og:type: article
 	:og:description: Switch statements should only hold one default, not more
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/SwitchWithMultipleDefault.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Switch With Too Many Default.html
 	:og:locale: en
 Switch statements should only hold one default, not more. Check the code and remove the extra default.  
 

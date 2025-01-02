@@ -18,7 +18,7 @@ Cancel Common Method
 	:og:title: Cancel Common Method
 	:og:type: article
 	:og:description: A parent method's is too little used in children
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/CancelCommonMethod.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Cancel Common Method.html
 	:og:locale: en
 A `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ method's is too little used in children.
 

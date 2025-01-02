@@ -18,7 +18,7 @@ Could Be Protected Method
 	:og:title: Could Be Protected Method
 	:og:type: article
 	:og:description: Those methods are declared 'public', but are never used publicly
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/CouldBeProtectedMethod.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Could Be Protected Method.html
 	:og:locale: en
 Those methods are declared 'public', but are never used publicly. They may be made 'protected'. 
 

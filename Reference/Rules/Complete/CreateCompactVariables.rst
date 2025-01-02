@@ -18,7 +18,7 @@ Create Compact Variables
 	:og:title: Create Compact Variables
 	:og:type: article
 	:og:description: This command creates Variable definitions, based on usage of compact()
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Complete/CreateCompactVariables.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Create Compact Variables.html
 	:og:locale: en
 This command creates Variable definitions, based on usage of `compact() <https://www.php.net/compact>`_. 
 This only works when `compact() <https://www.php.net/compact>`_ is used with literal values, or with constants. Dynamic values are not reported.

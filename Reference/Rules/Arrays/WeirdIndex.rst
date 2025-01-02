@@ -18,7 +18,7 @@ Weird Array Index
 	:og:title: Weird Array Index
 	:og:type: article
 	:og:description: Array index that looks weird
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Arrays/WeirdIndex.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Weird Array Index.html
 	:og:locale: en
 Array index that looks weird. Arrays index may be string or integer, but some strings looks weird.
 

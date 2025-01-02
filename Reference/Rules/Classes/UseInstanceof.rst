@@ -18,7 +18,7 @@ Use Instanceof
 	:og:title: Use Instanceof
 	:og:type: article
 	:og:description: The ``instanceof`` operator is a more precise alternative to ``is_object()``
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/UseInstanceof.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Use Instanceof.html
 	:og:locale: en
 The ``instanceof`` operator is a more precise alternative to ``is_object()``. It is also faster.
 

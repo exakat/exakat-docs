@@ -18,7 +18,7 @@ No Constructor In Interface
 	:og:title: No Constructor In Interface
 	:og:type: article
 	:og:description: PHP manual recommends not adding constructors to interfaces
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Interfaces/NoConstructorInInterface.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No Constructor In Interface.html
 	:og:locale: en
 PHP manual recommends not adding constructors to interfaces. 
 

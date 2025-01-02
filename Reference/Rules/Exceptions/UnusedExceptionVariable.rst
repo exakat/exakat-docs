@@ -18,7 +18,7 @@ Unused Exception Variable
 	:og:title: Unused Exception Variable
 	:og:type: article
 	:og:description: The variable from a catch clause is not used
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Exceptions/UnusedExceptionVariable.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Unused Exception Variable.html
 	:og:locale: en
 The variable from a catch clause is not used. It is expected to be used, either by chaining the `exception <https://www.php.net/exception>`_, or logging the message.
 

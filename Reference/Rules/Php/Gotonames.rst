@@ -18,7 +18,7 @@ Goto Names
 	:og:title: Goto Names
 	:og:type: article
 	:og:description: This rule lists of all goto labels used in the code
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/Gotonames.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Goto Names.html
 	:og:locale: en
 This rule lists of all goto labels used in the code. The labels must match a goto call, although it is possible to create a label without a goto.
 

@@ -18,7 +18,7 @@ Nowdoc Delimiter Glossary
 	:og:title: Nowdoc Delimiter Glossary
 	:og:type: article
 	:og:description: List of all the delimiters used to build a Nowdoc string
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Type/Nowdoc.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Nowdoc Delimiter Glossary.html
 	:og:locale: en
 List of all the delimiters used to build a Nowdoc string.
 

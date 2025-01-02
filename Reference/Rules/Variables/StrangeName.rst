@@ -18,7 +18,7 @@ Strange Name For Variables
 	:og:title: Strange Name For Variables
 	:og:type: article
 	:og:description: Variables with strange names
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Variables/StrangeName.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Strange Name For Variables.html
 	:og:locale: en
 Variables with strange names. They might be a typo, or bear strange patterns.
 

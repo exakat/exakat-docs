@@ -18,7 +18,7 @@ Multiple Property Declaration
 	:og:title: Multiple Property Declaration
 	:og:type: article
 	:og:description: The same property is declared in various classes, at least two, in the same class hierarchy
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/MultiplePropertyDeclaration.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Multiple Property Declaration.html
 	:og:locale: en
 The same property is declared in various classes, at least two, in the same class hierarchy. The declarations must be compatible one another, and one of them should be sufficient. 
 

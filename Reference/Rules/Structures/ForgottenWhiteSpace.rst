@@ -18,7 +18,7 @@ Forgotten Whitespace
 	:og:title: Forgotten Whitespace
 	:og:type: article
 	:og:description: Forgotten whitespaces brings unexpected error messages
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ForgottenWhiteSpace.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Forgotten Whitespace.html
 	:og:locale: en
 Forgotten whitespaces brings unexpected `error <https://www.php.net/error>`_ messages.
 

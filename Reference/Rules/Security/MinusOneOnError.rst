@@ -18,7 +18,7 @@ Minus One On Error
 	:og:title: Minus One On Error
 	:og:type: article
 	:og:description: Several PHP native functions return -1 on error
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Security/MinusOneOnError.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Minus One On Error.html
 	:og:locale: en
 Several PHP native functions return -1 on `error <https://www.php.net/error>`_. They also return 1 in case of success, and 0 in case of failure. This leads to confusions.
 

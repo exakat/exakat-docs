@@ -18,7 +18,7 @@ Duplicate Named Parameter
 	:og:title: Duplicate Named Parameter
 	:og:type: article
 	:og:description: Two parameters have the same name in a method call
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/DuplicateNamedParameter.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Duplicate Named Parameter.html
 	:og:locale: en
 Two parameters have the same name in a method call. This yields a Fatal `error <https://www.php.net/error>`_ at execution time.
 

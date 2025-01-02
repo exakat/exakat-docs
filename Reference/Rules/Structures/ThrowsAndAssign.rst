@@ -18,7 +18,7 @@ Throws An Assignement
 	:og:title: Throws An Assignement
 	:og:type: article
 	:og:description: It is possible to throw an exception, and, in the same time, assign this exception to a variable
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ThrowsAndAssign.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Throws An Assignement.html
 	:og:locale: en
 It is possible to throw an `exception <https://www.php.net/exception>`_, and, in the same time, assign this `exception <https://www.php.net/exception>`_ to a variable.
 

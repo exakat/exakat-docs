@@ -18,7 +18,7 @@ Const With Array
 	:og:title: Const With Array
 	:og:type: article
 	:og:description: The const keyword supports array
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/ConstWithArray.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Const With Array.html
 	:og:locale: en
 The const keyword supports array. This feature was added in PHP 5.6. 
 

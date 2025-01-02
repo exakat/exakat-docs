@@ -18,7 +18,7 @@ Method Is Overwritten
 	:og:title: Method Is Overwritten
 	:og:type: article
 	:og:description: This rule marks a method that is overwritten in a child class
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/MethodIsOverwritten.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Method Is Overwritten.html
 	:og:locale: en
 This rule marks a method that is overwritten in a child class. 
 

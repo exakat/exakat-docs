@@ -18,7 +18,7 @@ Collect Parameter Names
 	:og:title: Collect Parameter Names
 	:og:type: article
 	:og:description: This analysis collects the names of all parameters
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/CollectParameterNames.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Collect Parameter Names.html
 	:og:locale: en
 This analysis collects the names of all parameters. It also counts the number of occurrences of each name.
 

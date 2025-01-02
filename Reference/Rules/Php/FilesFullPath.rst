@@ -18,7 +18,7 @@ $FILES full_path
 	:og:title: $FILES full_path
 	:og:type: article
 	:og:description: A new index 'full_path' was added to the $_FILES to handle directory uploads
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/FilesFullPath.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/$FILES full_path.html
 	:og:locale: en
 A new index 'full_path' was added to the $_FILES to handle `directory <https://www.php.net/`directory <https://www.php.net/directory>`_>`_ uploads. This was added in PHP 8.1, and is not available before.
 

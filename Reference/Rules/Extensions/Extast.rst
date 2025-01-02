@@ -18,7 +18,7 @@ ext/php-ast
 	:og:title: ext/php-ast
 	:og:type: article
 	:og:description: PHP-AST extension (PHP 7
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extast.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/php-ast.html
 	:og:locale: en
 PHP-AST extension (PHP 7.0 +).
 

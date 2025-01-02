@@ -18,7 +18,7 @@ Identical Elseif
 	:og:title: Identical Elseif
 	:og:type: article
 	:og:description: In a long if/elseif/then structures, identical conditions are mutually exclusive
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/IdenticalElseif.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Identical Elseif.html
 	:og:locale: en
 In a long if/elseif/then structures, identical conditions are mutually exclusive. The first one will happen, and the second will be ignored. 
 

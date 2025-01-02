@@ -18,7 +18,7 @@ Type Could Be Never
 	:og:title: Type Could Be Never
 	:og:type: article
 	:og:description: Mark return types that can be set to ``never``
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Typehints/CouldBeNever.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Type Could Be Never.html
 	:og:locale: en
 Mark return types that can be set to ``never``.
 

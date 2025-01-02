@@ -18,7 +18,7 @@ Use DateTimeImmutable Class
 	:og:title: Use DateTimeImmutable Class
 	:og:type: article
 	:og:description: The ``DateTimeImmutable`` class is the immutable version of the ``Datetime`` class
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/UseDateTimeImmutable.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Use DateTimeImmutable Class.html
 	:og:locale: en
 The ``DateTimeImmutable`` class is the immutable version of the ``Datetime`` class. 
 

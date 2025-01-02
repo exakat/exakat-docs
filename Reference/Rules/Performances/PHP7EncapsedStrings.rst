@@ -18,7 +18,7 @@ Use PHP7 Encapsed Strings
 	:og:title: Use PHP7 Encapsed Strings
 	:og:type: article
 	:og:description: PHP 7 has optimized the handling of double-quoted strings
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Performances/PHP7EncapsedStrings.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Use PHP7 Encapsed Strings.html
 	:og:locale: en
 PHP 7 has optimized the handling of double-quoted strings. In particular, double-quoted strings are much less memory hungry than classic concatenations. 
 

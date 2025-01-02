@@ -18,7 +18,7 @@ Hexadecimal Glossary
 	:og:title: Hexadecimal Glossary
 	:og:type: article
 	:og:description: List of all the integer values, written in the hexadecimal format
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Type/Hexadecimal.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Hexadecimal Glossary.html
 	:og:locale: en
 List of all the integer values, written in the hexadecimal format.
 

@@ -18,7 +18,7 @@ Reserved Match Keyword
 	:og:title: Reserved Match Keyword
 	:og:type: article
 	:og:description: ``match`` is a new instruction in PHP 8
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/ReservedMatchKeyword.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Reserved Match Keyword.html
 	:og:locale: en
 ``match`` is a new instruction in PHP 8.0. 
 

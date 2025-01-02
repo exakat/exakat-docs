@@ -18,7 +18,7 @@ Don't Change The Blind Var
 	:og:title: Don't Change The Blind Var
 	:og:type: article
 	:og:description: When using a foreach(), the blind variables hold a copy of the original value
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/DontChangeBlindKey.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Don't Change The Blind Var.html
 	:og:locale: en
 When using a `foreach() <https://www.php.net/manual/en/control-structures.foreach.php>`_, the blind variables hold a copy of the original value. It is confusing to modify them, as it seems that the original value may be changed.
 

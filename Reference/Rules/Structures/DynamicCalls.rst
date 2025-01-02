@@ -18,7 +18,7 @@ Dynamic Calls
 	:og:title: Dynamic Calls
 	:og:type: article
 	:og:description: This rule lists all dynamic calls
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/DynamicCalls.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Dynamic Calls.html
 	:og:locale: en
 This rule lists all dynamic calls. This is convenient when one has to review them manually.
 

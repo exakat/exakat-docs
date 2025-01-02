@@ -18,7 +18,7 @@ Use Basename Suffix
 	:og:title: Use Basename Suffix
 	:og:type: article
 	:og:description: basename() is able to remove a file extension when it is provided as argument
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/BasenameSuffix.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Use Basename Suffix.html
 	:og:locale: en
 `basename() <https://www.php.net/basename>`_ is able to remove a file extension when it is provided as argument. The second argument is removed from the name of the file.
 Using `basename() <https://www.php.net/basename>`_ instead of `substr() <https://www.php.net/substr>`_ or else, makes the intention clear.

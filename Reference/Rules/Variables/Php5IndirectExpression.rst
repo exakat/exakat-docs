@@ -18,7 +18,7 @@ PHP5 Indirect Variable Expression
 	:og:title: PHP5 Indirect Variable Expression
 	:og:type: article
 	:og:description: Indirect variable expressions changes between PHP 5 an 7
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Variables/Php5IndirectExpression.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/PHP5 Indirect Variable Expression.html
 	:og:locale: en
 Indirect variable expressions changes between PHP 5 an 7.
 

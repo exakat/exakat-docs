@@ -18,7 +18,7 @@ Declare strict_types Usage
 	:og:title: Declare strict_types Usage
 	:og:type: article
 	:og:description: Usage of ``strict_types``
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/DeclareStrictType.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Declare strict_types Usage.html
 	:og:locale: en
 Usage of ``strict_types``. By default, PHP attempts to change the original type to match the type specified by the type-declaration. With an explicit ``strict_types`` declaration, PHP ensures that the incoming argument has the exact type. 
 

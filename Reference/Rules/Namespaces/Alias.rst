@@ -18,7 +18,7 @@ Aliases
 	:og:title: Aliases
 	:og:type: article
 	:og:description: This rule lists all aliases
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Namespaces/Alias.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Aliases.html
 	:og:locale: en
 This rule lists all aliases. Aliases are used file by file, although some classes may have different aliases depending on the context.
 

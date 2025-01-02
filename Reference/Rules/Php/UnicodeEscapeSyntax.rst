@@ -18,7 +18,7 @@ Unicode Escape Syntax
 	:og:title: Unicode Escape Syntax
 	:og:type: article
 	:og:description: Usage of the Unicode Escape syntax, with the ``\u{xxxxx}`` format, available since PHP 7
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/UnicodeEscapeSyntax.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Unicode Escape Syntax.html
 	:og:locale: en
 Usage of the Unicode Escape syntax, with the ``\u{xxxxx}`` format, available since PHP 7.0.
 

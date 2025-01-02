@@ -18,7 +18,7 @@ Unresolved Catch
 	:og:title: Unresolved Catch
 	:og:type: article
 	:og:description: Catch clauses do not check for Exception existence
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/UnresolvedCatch.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Unresolved Catch.html
 	:og:locale: en
 Catch clauses do not check for `Exception <https://www.php.net/exception>`_ existence. 
 

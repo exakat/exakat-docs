@@ -18,7 +18,7 @@ Generator Cannot Return
 	:og:title: Generator Cannot Return
 	:og:type: article
 	:og:description: Generators could not use return and yield at the same time
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/GeneratorCannotReturn.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Generator Cannot Return.html
 	:og:locale: en
 Generators could not use return and yield at the same time. In PHP 7.0, `generator <https://www.php.net/`generator <https://www.php.net/generator>`_>`_ can now use both of them.
 

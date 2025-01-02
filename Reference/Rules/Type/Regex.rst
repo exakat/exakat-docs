@@ -18,7 +18,7 @@ Regex Inventory
 	:og:title: Regex Inventory
 	:og:type: article
 	:og:description: All regular expressions used in the code
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Type/Regex.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Regex Inventory.html
 	:og:locale: en
 All regular expressions used in the code. PHP relies on the PCRE extension to process them, with the functions `preg_match() <https://www.php.net/preg_match>`_, `preg_replace() <https://www.php.net/preg_replace>`_, etc. 
 ``mbstring`` regular expressions are also collected. POSIX regex are not listed : they were deprecated in PHP 7.0.

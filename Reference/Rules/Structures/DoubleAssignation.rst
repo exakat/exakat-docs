@@ -18,7 +18,7 @@ Double Assignation
 	:og:title: Double Assignation
 	:og:type: article
 	:og:description: This happens when a container (variable, property, array index) is assigned with values twice in a row
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/DoubleAssignation.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Double Assignation.html
 	:og:locale: en
 This happens when a container (variable, property, array index) is assigned with values twice in a row. One of them is probably a debug instruction, that was forgotten.
 

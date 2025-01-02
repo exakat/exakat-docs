@@ -18,7 +18,7 @@ Useless Return
 	:og:title: Useless Return
 	:og:type: article
 	:og:description: The spotted functions or methods have a return statement, but this statement is useless
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/UselessReturn.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Useless Return.html
 	:og:locale: en
 The spotted functions or methods have a return statement, but this statement is useless. This is the case for constructor and destructors, whose return value are ignored or inaccessible.
 

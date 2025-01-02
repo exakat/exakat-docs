@@ -18,7 +18,7 @@ Never Keyword
 	:og:title: Never Keyword
 	:og:type: article
 	:og:description: Never becomes a PHP keyword
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/NeverKeyword.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Never Keyword.html
 	:og:locale: en
 Never becomes a PHP keyword. It is used for typing functions which never returns anything (either dies or throw an `exception) <https://www.php.net/exception>`_.
 

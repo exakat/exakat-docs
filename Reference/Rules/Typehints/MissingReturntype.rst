@@ -18,7 +18,7 @@ Missing Some Returntype
 	:og:title: Missing Some Returntype
 	:og:type: article
 	:og:description: The specified typehints are not compatible with the returned values
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Typehints/MissingReturntype.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Missing Some Returntype.html
 	:og:locale: en
 The specified typehints are not compatible with the returned values. 
 

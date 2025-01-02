@@ -18,7 +18,7 @@ Bad Constants Names
 	:og:title: Bad Constants Names
 	:og:type: article
 	:og:description: PHP's manual recommends that developer do not use constants with the convention ``__NAME__``
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Constants/BadConstantnames.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Bad Constants Names.html
 	:og:locale: en
 PHP's manual recommends that developer do not use constants with the convention ``__NAME__``. Those are reserved for PHP future use. 
 

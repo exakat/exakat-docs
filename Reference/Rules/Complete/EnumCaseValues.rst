@@ -18,7 +18,7 @@ Enum Case Values
 	:og:title: Enum Case Values
 	:og:type: article
 	:og:description: Adds a `DEFINITION`link between a static Enumeration case and its actual defined value
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Complete/EnumCaseValues.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Enum Case Values.html
 	:og:locale: en
 Adds a `DEFINITION`link between a `static <https://www.php.net/manual/en/language.oop5.static.php>`_ Enumeration case and its actual defined value. 
 

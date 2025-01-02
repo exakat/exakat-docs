@@ -18,7 +18,7 @@ Should Use session_regenerateid()
 	:og:title: Should Use session_regenerateid()
 	:og:type: article
 	:og:description: session_regenerateid() should be used when sessions are used
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Security/ShouldUseSessionRegenerateId.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Should Use session_regenerateid().html
 	:og:locale: en
 session_regenerateid() should be used when sessions are used.
 

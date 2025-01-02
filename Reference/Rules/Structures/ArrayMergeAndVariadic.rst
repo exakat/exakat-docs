@@ -18,7 +18,7 @@ array_merge() And Variadic
 	:og:title: array_merge() And Variadic
 	:og:type: article
 	:og:description: Always check value in variadic before using it with array_merge() and array_merge_recursive()
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ArrayMergeAndVariadic.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/array_merge() And Variadic.html
 	:og:locale: en
 Always check value in variadic before using it with `array_merge() <https://www.php.net/array_merge>`_ and `array_merge_recursive() <https://www.php.net/array_merge_recursive>`_.
 

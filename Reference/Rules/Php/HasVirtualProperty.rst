@@ -18,7 +18,7 @@ Has Virtual Property
 	:og:title: Has Virtual Property
 	:og:type: article
 	:og:description: Virtual properties are properties with hooks, which do not rely on storage, but process values stored somewhere else
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/HasVirtualProperty.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Has Virtual Property.html
 	:og:locale: en
 Virtual properties are properties with hooks, which do not rely on storage, but process values stored somewhere else.
 

@@ -18,7 +18,7 @@ PHP Variables
 	:og:title: PHP Variables
 	:og:type: article
 	:og:description: This is the list of PHP predefined variables that are used in the application
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Variables/VariablePhp.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/PHP Variables.html
 	:og:locale: en
 This is the list of PHP predefined variables that are used in the application. 
 

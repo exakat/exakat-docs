@@ -18,7 +18,7 @@ Unused Enumeration Case
 	:og:title: Unused Enumeration Case
 	:og:type: article
 	:og:description: Those are enumeration cases which are defined, yet not used
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Enums/UnusedEnumCase.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Unused Enumeration Case.html
 	:og:locale: en
 Those are enumeration cases which are defined, yet not used.
 

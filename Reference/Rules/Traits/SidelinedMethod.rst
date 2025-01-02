@@ -18,7 +18,7 @@ Sidelined Method
 	:og:title: Sidelined Method
 	:og:type: article
 	:og:description: A method, defined in a trait, which is overwritten by a class's method
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Traits/SidelinedMethod.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Sidelined Method.html
 	:og:locale: en
 A method, defined in a trait, which is overwritten by a class's method. This makes the trait's method useless and unreachable. 
 

@@ -18,7 +18,7 @@ Avoid Substr() One
 	:og:title: Avoid Substr() One
 	:og:type: article
 	:og:description: Use array notation ``$string[$position]`` to reach a single byte in a string
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/NoSubstrOne.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Avoid Substr() One.html
 	:og:locale: en
 Use array notation ``$string[$position]`` to reach a single byte in a string.
 

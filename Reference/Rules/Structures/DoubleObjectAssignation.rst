@@ -18,7 +18,7 @@ Double Object Assignation
 	:og:title: Double Object Assignation
 	:og:type: article
 	:og:description: The same object is assigned to two distinct variables
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/DoubleObjectAssignation.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Double Object Assignation.html
 	:og:locale: en
 The same object is assigned to two distinct variables. Given that objects are actually references to the same data, this is usually not necessary. Make sure that this is the intended purpose.
 

@@ -3,6 +3,21 @@
 Analyze
 +++++++
 
+.. meta::
+	:description:
+		Analyze: Check for common best practices..
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Analyze
+	:twitter:description: Analyze: Check for common best practices.
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Analyze
+	:og:type: article
+	:og:description: Check for common best practices.
+	:og:url: https://exakat.readthedocs.io/en/latest/Rulesets/Analyze.html
+	:og:locale: en
 This ruleset centralizes a large number of classic trap and pitfalls when writing PHP.
 
 Total : 505 analysis

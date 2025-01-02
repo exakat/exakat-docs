@@ -18,7 +18,7 @@ Empty Try Catch
 	:og:title: Empty Try Catch
 	:og:type: article
 	:og:description: The code does try, then catch errors but do no act upon the error
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/EmptyTryCatch.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Empty Try Catch.html
 	:og:locale: en
 The code does try, then catch errors but do no act upon the `error <https://www.php.net/error>`_. 
 

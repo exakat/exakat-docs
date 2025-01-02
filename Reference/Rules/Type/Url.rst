@@ -18,7 +18,7 @@ URL List
 	:og:title: URL List
 	:og:type: article
 	:og:description: List of all the URL addresses that were found in the code
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Type/Url.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/URL List.html
 	:og:locale: en
 List of all the URL addresses that were found in the code.
 

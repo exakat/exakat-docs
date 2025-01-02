@@ -18,7 +18,7 @@ Logical Mistakes
 	:og:title: Logical Mistakes
 	:og:type: article
 	:og:description: Avoid logical mistakes within long expressions
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/LogicalMistakes.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Logical Mistakes.html
 	:og:locale: en
 Avoid logical mistakes within long expressions. 
 

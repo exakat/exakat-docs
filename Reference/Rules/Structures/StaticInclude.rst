@@ -18,7 +18,7 @@ Static Inclusions
 	:og:title: Static Inclusions
 	:og:type: article
 	:og:description: This rule reports all static inclusion
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/StaticInclude.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Static Inclusions.html
 	:og:locale: en
 This rule reports all `static <https://www.php.net/manual/en/language.oop5.static.php>`_ inclusion. A inclusion is `static <https://www.php.net/manual/en/language.oop5.static.php>`_ when it relies only on constants, such as literals, global and class constants, and the magic constants.
 

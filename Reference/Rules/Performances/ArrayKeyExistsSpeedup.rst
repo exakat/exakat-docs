@@ -18,7 +18,7 @@ array_key_exists() Speedup
 	:og:title: array_key_exists() Speedup
 	:og:type: article
 	:og:description: array_key_exists() has its own opcode, leading to better features and speed
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Performances/ArrayKeyExistsSpeedup.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/array_key_exists() Speedup.html
 	:og:locale: en
 `array_key_exists() <https://www.php.net/array_key_exists>`_ has its own opcode, leading to better features and speed.
 

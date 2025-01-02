@@ -18,7 +18,7 @@ Insufficient Typehint
 	:og:title: Insufficient Typehint
 	:og:type: article
 	:og:description: An argument is typehinted, but it actually calls methods, constants or properties that are not listed in the interface
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/InsufficientTypehint.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Insufficient Typehint.html
 	:og:locale: en
 An argument is typehinted, but it actually calls methods, constants or properties that are not listed in the interface.
 

@@ -18,7 +18,7 @@ Double Checks
 	:og:title: Double Checks
 	:og:type: article
 	:og:description: Double checks happen when data is checked at one point, and then, checked again, with the same test, in a following call
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/DoubleChecks.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Double Checks.html
 	:og:locale: en
 Double checks happen when data is checked at one point, and then, checked again, with the same test, in a following call.
 

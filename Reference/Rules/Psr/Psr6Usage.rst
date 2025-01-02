@@ -18,7 +18,7 @@ PSR-6 Usage
 	:og:title: PSR-6 Usage
 	:og:type: article
 	:og:description: PSR-6 is the cache standard for PHP
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Psr/Psr6Usage.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/PSR-6 Usage.html
 	:og:locale: en
 PSR-6 is the cache standard for PHP.
 

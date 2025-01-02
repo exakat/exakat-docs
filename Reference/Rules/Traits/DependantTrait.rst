@@ -18,7 +18,7 @@ Dependant Trait
 	:og:title: Dependant Trait
 	:og:type: article
 	:og:description: Traits should be autonomous
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Traits/DependantTrait.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Dependant Trait.html
 	:og:locale: en
 Traits should be autonomous. It is recommended to avoid depending on methods or properties that should be in the using class.
 

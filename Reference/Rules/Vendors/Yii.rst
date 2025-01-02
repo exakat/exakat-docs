@@ -18,7 +18,7 @@ Yii usage
 	:og:title: Yii usage
 	:og:type: article
 	:og:description: This analysis reports usage of the Yii 2 framework
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Vendors/Yii.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Yii usage.html
 	:og:locale: en
 This analysis reports usage of the Yii 2 framework.
 

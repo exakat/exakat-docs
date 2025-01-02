@@ -18,7 +18,7 @@ ext/mssql
 	:og:title: ext/mssql
 	:og:type: article
 	:og:description: Extension MSSQL, Microsoft SQL Server
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extmssql.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/mssql.html
 	:og:locale: en
 Extension MSSQL, Microsoft SQL Server.
 

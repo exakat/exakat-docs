@@ -18,7 +18,7 @@ ext/suhosin
 	:og:title: ext/suhosin
 	:og:type: article
 	:og:description: Suhosin extension
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extsuhosin.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/suhosin.html
 	:og:locale: en
 Suhosin extension.
 

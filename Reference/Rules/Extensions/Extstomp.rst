@@ -18,7 +18,7 @@ Stomp
 	:og:title: Stomp
 	:og:type: article
 	:og:description: This extension allows php applications to communicate with any Stomp compliant Message Brokers through easy object-oriented and procedural interfaces
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extstomp.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Stomp.html
 	:og:locale: en
 This extension allows php applications to communicate with any Stomp compliant Message Brokers through easy object-oriented and procedural interfaces.
 

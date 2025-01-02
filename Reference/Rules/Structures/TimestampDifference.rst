@@ -18,7 +18,7 @@ Timestamp Difference
 	:og:title: Timestamp Difference
 	:og:type: article
 	:og:description: Avoid adding or subtracting quantities of seconds to measure time
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/TimestampDifference.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Timestamp Difference.html
 	:og:locale: en
 Avoid adding or subtracting quantities of seconds to measure time. 
 

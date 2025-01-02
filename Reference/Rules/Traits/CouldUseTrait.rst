@@ -18,7 +18,7 @@ Could Use Trait
 	:og:title: Could Use Trait
 	:og:type: article
 	:og:description: The following classes have been found implementing all of a trait's methods : it could use this trait, and remove duplicated code
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Traits/CouldUseTrait.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Could Use Trait.html
 	:og:locale: en
 The following classes have been found implementing all of a trait's methods : it could use this trait, and remove duplicated code.
 

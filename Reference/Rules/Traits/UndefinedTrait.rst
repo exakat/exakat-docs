@@ -18,7 +18,7 @@ Undefined Trait
 	:og:title: Undefined Trait
 	:og:type: article
 	:og:description: Those are undefined, traits 
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Traits/UndefinedTrait.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Undefined Trait.html
 	:og:locale: en
 Those are undefined, traits . 
 

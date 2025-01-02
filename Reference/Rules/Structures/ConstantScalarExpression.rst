@@ -18,7 +18,7 @@ Constant Scalar Expressions
 	:og:title: Constant Scalar Expressions
 	:og:type: article
 	:og:description: Define constant with the result of static expressions
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ConstantScalarExpression.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Constant Scalar Expressions.html
 	:og:locale: en
 Define constant with the `result <https://www.php.net/result>`_ of `static <https://www.php.net/manual/en/language.oop5.static.php>`_ expressions. This means that constants may be defined with the const keyword, with the help of various operators but without any functioncalls. 
 

@@ -18,7 +18,7 @@ Not Not
 	:og:title: Not Not
 	:og:type: article
 	:og:description: Double not makes a boolean, not a ``true``
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/NotNot.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Not Not.html
 	:og:locale: en
 Double not makes a boolean, not a ``true``.
 

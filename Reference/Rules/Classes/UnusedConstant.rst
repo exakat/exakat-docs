@@ -18,7 +18,7 @@ Unused Class Constant
 	:og:title: Unused Class Constant
 	:og:type: article
 	:og:description: The class constant is unused
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/UnusedConstant.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Unused Class Constant.html
 	:og:locale: en
 The class constant is unused. Consider removing it or using it.
 

@@ -18,7 +18,7 @@ ext/ldap
 	:og:title: ext/ldap
 	:og:type: article
 	:og:description: Extension ext/ldap
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extldap.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/ldap.html
 	:og:locale: en
 Extension ext/ldap.
 

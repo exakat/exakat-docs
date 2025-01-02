@@ -18,7 +18,7 @@ Class Overreach
 	:og:title: Class Overreach
 	:og:type: article
 	:og:description: An object of class A may reach any private or protected properties, constants or methods in another object of the same class
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/ClassOverreach.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Class Overreach.html
 	:og:locale: en
 An object of class A may reach any private or protected properties, constants or methods in another object of the same class. This is a PHP feature, though seldom known.
 

@@ -18,7 +18,7 @@ Interface Methods
 	:og:title: Interface Methods
 	:og:type: article
 	:og:description: List the names of the methods in an interface
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Interfaces/InterfaceMethod.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Interface Methods.html
 	:og:locale: en
 List the names of the methods in an interface.
 

@@ -18,7 +18,7 @@ Double Instructions
 	:og:title: Double Instructions
 	:og:type: article
 	:og:description: Twice the same call in a row
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/DoubleInstruction.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Double Instructions.html
 	:og:locale: en
 Twice the same call in a row. This might be a typo, and the second call is useless. 
 

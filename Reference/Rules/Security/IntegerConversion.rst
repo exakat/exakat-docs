@@ -18,7 +18,7 @@ Insecure Integer Validation
 	:og:title: Insecure Integer Validation
 	:og:type: article
 	:og:description: Comparing incoming variables to integer may lead to injection
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Security/IntegerConversion.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Insecure Integer Validation.html
 	:og:locale: en
 Comparing incoming variables to integer may lead to injection.
 

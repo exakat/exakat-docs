@@ -18,7 +18,7 @@ Should Use array_filter()
 	:og:title: Should Use array_filter()
 	:og:type: article
 	:og:description: Should use array_filter()
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/ShouldUseArrayFilter.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Should Use array_filter().html
 	:og:locale: en
 Should use `array_filter() <https://www.php.net/array_filter>`_.
 

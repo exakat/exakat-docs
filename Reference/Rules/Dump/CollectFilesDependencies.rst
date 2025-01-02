@@ -18,7 +18,7 @@ Collect Files Dependencies
 	:og:title: Collect Files Dependencies
 	:og:type: article
 	:og:description: Collect all dependencies between files, based on definitions and usage
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/CollectFilesDependencies.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Collect Files Dependencies.html
 	:og:locale: en
 Collect all dependencies between files, based on definitions and usage.
 

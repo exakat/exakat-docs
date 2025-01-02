@@ -18,7 +18,7 @@ PHP 8.0 Removed Constants
 	:og:title: PHP 8.0 Removed Constants
 	:og:type: article
 	:og:description: The following PHP native constants were removed in PHP 8
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/Php80RemovedConstant.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/PHP 8.0 Removed Constants.html
 	:og:locale: en
 The following PHP native constants were removed in PHP 8.0.
 

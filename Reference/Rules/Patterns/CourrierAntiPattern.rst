@@ -18,7 +18,7 @@ Courier Anti-Pattern
 	:og:title: Courier Anti-Pattern
 	:og:type: article
 	:og:description: The courier anti-pattern is the storage of a dependency by a class, in order to create an instance that requires this dependency
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Patterns/CourrierAntiPattern.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Courier Anti-Pattern.html
 	:og:locale: en
 The courier anti-pattern is the storage of a dependency by a class, in order to create an instance that requires this dependency.
 

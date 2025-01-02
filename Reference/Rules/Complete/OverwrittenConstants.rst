@@ -18,7 +18,7 @@ Overwritten Constant
 	:og:title: Overwritten Constant
 	:og:type: article
 	:og:description: This command adds OVERWRITE link between class constant definitions
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Complete/OverwrittenConstants.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Overwritten Constant.html
 	:og:locale: en
 This command adds OVERWRITE link between class constant definitions.
 

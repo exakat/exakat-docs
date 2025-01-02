@@ -18,7 +18,7 @@ Avoid Large Array Assignation
 	:og:title: Avoid Large Array Assignation
 	:og:type: article
 	:og:description: Avoid setting large arrays to local variables
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/NoAssignationInFunction.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Avoid Large Array Assignation.html
 	:og:locale: en
 Avoid setting large arrays to local variables. Such operation is done every time the function is called, and it wastes time. 
 

@@ -3,6 +3,21 @@
 All
 +++
 
+.. meta::
+	:description:
+		All: All is a dummy ruleset, which includes all the rules..
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: All
+	:twitter:description: All: All is a dummy ruleset, which includes all the rules.
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: All
+	:og:type: article
+	:og:description: All is a dummy ruleset, which includes all the rules.
+	:og:url: https://exakat.readthedocs.io/en/latest/Rulesets/All.html
+	:og:locale: en
 All is a dummy ruleset, which includes all the rules. It is mostly used internally.
 
 Total : 1659 analysis

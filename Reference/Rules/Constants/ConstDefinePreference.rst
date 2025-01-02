@@ -18,7 +18,7 @@ Const Or Define Preference
 	:og:title: Const Or Define Preference
 	:og:type: article
 	:og:description: ``Const`` and define() have almost the same functional use : they create constants
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Constants/ConstDefinePreference.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Const Or Define Preference.html
 	:og:locale: en
 ``Const`` and `define() <https://www.php.net/define>`_ have almost the same functional use : they create constants. 
 

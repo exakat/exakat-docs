@@ -18,7 +18,7 @@ Is Interface Method
 	:og:title: Is Interface Method
 	:og:type: article
 	:og:description: Mark a method as part of an interface that the current class implements
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/IsInterfaceMethod.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Is Interface Method.html
 	:og:locale: en
 Mark a method as part of an interface that the current class implements.
 

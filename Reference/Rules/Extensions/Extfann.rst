@@ -18,7 +18,7 @@ ext/fann
 	:og:title: ext/fann
 	:og:type: article
 	:og:description: Extension ``FANN`` : Fast Artificial Neural Network
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extfann.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/fann.html
 	:og:locale: en
 Extension ``FANN`` : Fast Artificial Neural Network.
 

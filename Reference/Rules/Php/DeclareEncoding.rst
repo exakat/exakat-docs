@@ -18,7 +18,7 @@ Encoding Usage
 	:og:title: Encoding Usage
 	:og:type: article
 	:og:description: Usage of ``declare(encoding = )``
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/DeclareEncoding.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Encoding Usage.html
 	:og:locale: en
 Usage of ``declare(encoding = )``. This command configures the encoding to be used with the current file. 
 

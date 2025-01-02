@@ -18,7 +18,7 @@ Mixed Concat And Interpolation
 	:og:title: Mixed Concat And Interpolation
 	:og:type: article
 	:og:description: Mixed usage of concatenation and string interpolation is error prone
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/MixedConcatInterpolation.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Mixed Concat And Interpolation.html
 	:og:locale: en
 Mixed usage of concatenation and string interpolation is `error <https://www.php.net/error>`_ prone. It is harder to read, and leads to overlooking the concatenation or the interpolation.
 

@@ -18,7 +18,7 @@ Unthrown Exception
 	:og:title: Unthrown Exception
 	:og:type: article
 	:og:description: These exceptions are defined in the code but never thrown
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Exceptions/Unthrown.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Unthrown Exception.html
 	:og:locale: en
 These exceptions are defined in the code but never thrown. They are probably dead code.
 

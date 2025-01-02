@@ -18,7 +18,7 @@ Buried Assignation
 	:og:title: Buried Assignation
 	:og:type: article
 	:og:description: Those assignations are buried in the code, and placed in unexpected situations
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/BuriedAssignation.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Buried Assignation.html
 	:og:locale: en
 Those assignations are buried in the code, and placed in unexpected situations. 
 

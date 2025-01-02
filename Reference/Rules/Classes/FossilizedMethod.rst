@@ -18,7 +18,7 @@ Fossilized Method
 	:og:title: Fossilized Method
 	:og:type: article
 	:og:description: A method is fossilized when it is overwritten so often that changing a default value, a return type or an argument type is getting difficult
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/FossilizedMethod.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Fossilized Method.html
 	:og:locale: en
 A method is fossilized when it is overwritten so often that changing a default value, a return type or an argument type is getting difficult.
 

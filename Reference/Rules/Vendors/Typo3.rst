@@ -18,7 +18,7 @@ Typo 3 usage
 	:og:title: Typo 3 usage
 	:og:type: article
 	:og:description: This rule reports usage of the Typo 3 CMS API in the code
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Vendors/Typo3.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Typo 3 usage.html
 	:og:locale: en
 This rule reports usage of the Typo 3 CMS API in the code. 
 

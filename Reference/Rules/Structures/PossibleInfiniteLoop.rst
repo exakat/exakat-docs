@@ -18,7 +18,7 @@ Possible Infinite Loop
 	:og:title: Possible Infinite Loop
 	:og:type: article
 	:og:description: Loops on files that can't be open results in infinite loop
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/PossibleInfiniteLoop.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Possible Infinite Loop.html
 	:og:locale: en
 Loops on files that can't be open results in infinite loop.
 

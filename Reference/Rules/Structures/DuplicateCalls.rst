@@ -18,7 +18,7 @@ Duplicate Calls
 	:og:title: Duplicate Calls
 	:og:type: article
 	:og:description: Duplicate calls within the same context
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/DuplicateCalls.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Duplicate Calls.html
 	:og:locale: en
 Duplicate calls within the same context. They should be called once, and then cached in a variable for reuse. 
 

@@ -18,7 +18,7 @@ Unused Private Methods
 	:og:title: Unused Private Methods
 	:og:type: article
 	:og:description: Private methods that are not used in the local class are dead code
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/UnusedPrivateMethod.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Unused Private Methods.html
 	:og:locale: en
 Private methods that are not used in the local class are dead code. Protected methods that are not used in the local class or its children, are dead code.
 

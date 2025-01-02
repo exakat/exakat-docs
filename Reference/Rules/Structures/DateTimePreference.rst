@@ -18,7 +18,7 @@ date() versus DateTime Preference
 	:og:title: date() versus DateTime Preference
 	:og:type: article
 	:og:description: Processing dates is done with date() functions or DateTime classes
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/DateTimePreference.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/date() versus DateTime Preference.html
 	:og:locale: en
 Processing dates is done with `date() <https://www.php.net/date>`_ functions or `DateTime <https://www.php.net/`datetime <https://www.php.net/datetime>`_>`_ classes. 
 

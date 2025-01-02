@@ -18,7 +18,7 @@ No ENT_IGNORE
 	:og:title: No ENT_IGNORE
 	:og:type: article
 	:og:description: Certain characters have special significance in HTML, and should be represented by HTML entities if they are to preserve their meanings
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Security/NoEntIgnore.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No ENT_IGNORE.html
 	:og:locale: en
 Certain characters have special significance in HTML, and should be represented by HTML entities if they are to preserve their meanings.
 

@@ -18,7 +18,7 @@ Global Code Only
 	:og:title: Global Code Only
 	:og:type: article
 	:og:description: This rule reports files that only contain global code
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Files/GlobalCodeOnly.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Global Code Only.html
 	:og:locale: en
 This rule reports files that only contain global code.
 

@@ -18,7 +18,7 @@ Dynamic Self Calls
 	:og:title: Dynamic Self Calls
 	:og:type: article
 	:og:description: A class that calls itself dynamically
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/DynamicSelfCalls.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Dynamic Self Calls.html
 	:og:locale: en
 A class that calls itself dynamically. This may be property or methods. 
 

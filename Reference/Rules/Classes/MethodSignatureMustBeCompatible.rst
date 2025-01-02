@@ -18,7 +18,7 @@ Method Signature Must Be Compatible
 	:og:title: Method Signature Must Be Compatible
 	:og:type: article
 	:og:description: Make sure methods signature are compatible
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/MethodSignatureMustBeCompatible.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Method Signature Must Be Compatible.html
 	:og:locale: en
 Make sure methods signature are compatible.
 

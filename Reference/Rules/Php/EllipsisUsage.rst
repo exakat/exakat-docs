@@ -18,7 +18,7 @@ Ellipsis Usage
 	:og:title: Ellipsis Usage
 	:og:type: article
 	:og:description: Usage of the ellipsis keyword
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/EllipsisUsage.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Ellipsis Usage.html
 	:og:locale: en
 Usage of the ellipsis keyword. The keyword is three dots : ``...`` . It is also named variadic or splat operator.
 

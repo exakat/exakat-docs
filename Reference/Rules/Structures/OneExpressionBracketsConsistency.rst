@@ -18,7 +18,7 @@ One Expression Brackets Consistency
 	:og:title: One Expression Brackets Consistency
 	:og:type: article
 	:og:description: Brackets around one-line expressions are not consistent
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/OneExpressionBracketsConsistency.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/One Expression Brackets Consistency.html
 	:og:locale: en
 Brackets around one-line expressions are not consistent. 
 

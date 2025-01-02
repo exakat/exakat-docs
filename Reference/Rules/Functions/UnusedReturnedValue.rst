@@ -18,7 +18,7 @@ Unused Returned Value
 	:og:title: Unused Returned Value
 	:og:type: article
 	:og:description: The function called returns a value, which is ignored
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/UnusedReturnedValue.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Unused Returned Value.html
 	:og:locale: en
 The function called returns a value, which is ignored. 
 

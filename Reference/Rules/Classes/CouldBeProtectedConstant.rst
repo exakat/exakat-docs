@@ -18,7 +18,7 @@ Could Be Protected Class Constant
 	:og:title: Could Be Protected Class Constant
 	:og:type: article
 	:og:description: Class constant may use 'protected' visibility
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/CouldBeProtectedConstant.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Could Be Protected Class Constant.html
 	:og:locale: en
 Class constant may use 'protected' visibility. 
 

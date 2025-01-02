@@ -18,7 +18,7 @@ Multiple Usage Of Same Trait
 	:og:title: Multiple Usage Of Same Trait
 	:og:type: article
 	:og:description: The same trait is used several times
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Traits/MultipleUsage.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Multiple Usage Of Same Trait.html
 	:og:locale: en
 The same trait is used several times. One trait usage is sufficient.
 

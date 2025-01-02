@@ -18,7 +18,7 @@ Cast To Boolean
 	:og:title: Cast To Boolean
 	:og:type: article
 	:og:description: This expression may be reduced to casting to a boolean
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/CastToBoolean.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Cast To Boolean.html
 	:og:locale: en
 This expression may be reduced to casting to a boolean. This makes the code more readable, and adapt the type of the value to its usage.
 

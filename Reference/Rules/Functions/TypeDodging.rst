@@ -18,7 +18,7 @@ Type Dodging
 	:og:title: Type Dodging
 	:og:type: article
 	:og:description: It is always possible to rewrite a parameter type by using union types
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/TypeDodging.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Type Dodging.html
 	:og:locale: en
 It is always possible to rewrite a parameter type by using union types. When the `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ class or interface requires a type, the child class may create a union type with the required type, add a secondary type and ignore the first one. 
 

@@ -18,7 +18,7 @@ Function Subscripting, Old Style
 	:og:title: Function Subscripting, Old Style
 	:og:type: article
 	:og:description: It is possible use function results as an array, and read directly its element
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/FunctionPreSubscripting.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Function Subscripting, Old Style.html
 	:og:locale: en
 It is possible use function results as an array, and read directly its element. This was added in PHP 5.4.
 

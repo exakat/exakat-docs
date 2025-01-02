@@ -18,7 +18,7 @@ No isset() With empty()
 	:og:title: No isset() With empty()
 	:og:type: article
 	:og:description: empty() actually does the job of isset() too
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/NoIssetWithEmpty.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No isset() With empty().html
 	:og:locale: en
 empty() actually does the job of `isset() <https://www.www.php.net/isset>`_ too. 
 

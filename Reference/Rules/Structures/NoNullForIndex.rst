@@ -18,7 +18,7 @@ No Null For Index
 	:og:title: No Null For Index
 	:og:type: article
 	:og:description: Avoid using ``null`` value as an index in an array
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/NoNullForIndex.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No Null For Index.html
 	:og:locale: en
 Avoid using ``null`` value as an index in an array. PHP actually casts it to the empty string. This means that later, it might be impossible to find the ``null`` in the list of keys.
 

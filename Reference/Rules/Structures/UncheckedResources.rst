@@ -18,7 +18,7 @@ Unchecked Resources
 	:og:title: Unchecked Resources
 	:og:type: article
 	:og:description: Resources are created, but never checked before being used
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/UncheckedResources.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Unchecked Resources.html
 	:og:locale: en
 Resources are created, but never checked before being used. This is not safe.
 

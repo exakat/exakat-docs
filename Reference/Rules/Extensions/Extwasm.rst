@@ -18,7 +18,7 @@ ext/wasm
 	:og:title: ext/wasm
 	:og:type: article
 	:og:description: Extension WASM
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extwasm.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/wasm.html
 	:og:locale: en
 Extension WASM.
 

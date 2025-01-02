@@ -18,7 +18,7 @@ Possible Alias Confusion
 	:og:title: Possible Alias Confusion
 	:og:type: article
 	:og:description: An alias is used for a class that doesn't belong to the current namespace, while there is such a class
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Namespaces/AliasConfusion.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Possible Alias Confusion.html
 	:og:locale: en
 An alias is used for a class that doesn't belong to the current namespace, while there is such a class. This also applies to traits and interfaces.
 

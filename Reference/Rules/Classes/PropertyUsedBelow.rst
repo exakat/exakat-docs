@@ -18,7 +18,7 @@ Property Used Below
 	:og:title: Property Used Below
 	:og:type: article
 	:og:description: This rule marks properties that are used in children classes
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/PropertyUsedBelow.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Property Used Below.html
 	:og:locale: en
 This rule marks properties that are used in children classes.
 

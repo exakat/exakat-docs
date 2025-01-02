@@ -18,7 +18,7 @@ Method Is A Generator
 	:og:title: Method Is A Generator
 	:og:type: article
 	:og:description: This rule marks functions, methods, 
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/IsGenerator.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Method Is A Generator.html
 	:og:locale: en
 This rule marks functions, methods, `... <https://www.php.net/manual/en/functions.arguments.php#functions.variable-arg-list>`_ that are using ``yield`` and ``yield from`` keywords. The usage of that keyword makes them `Generator <https://www.php.net/manual/en/class.`generator <https://www.php.net/generator>`_.php>`_, as is show by the compulsory return type of ``Generator``.
 

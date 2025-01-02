@@ -18,7 +18,7 @@ Can't Disable Function
 	:og:title: Can't Disable Function
 	:og:type: article
 	:og:description: This is the list of potentially dangerous PHP functions being used in the code, such as exec() or fsockopen()
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Security/CantDisableFunction.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Can't Disable Function.html
 	:og:locale: en
 This is the list of potentially dangerous PHP functions being used in the code, such as `exec() <https://www.php.net/exec>`_ or `fsockopen() <https://www.php.net/fsockopen>`_. 
 

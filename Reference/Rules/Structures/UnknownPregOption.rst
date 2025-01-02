@@ -18,7 +18,7 @@ Unkown Regex Options
 	:og:title: Unkown Regex Options
 	:og:type: article
 	:og:description: Regex support in PHP accepts the following list of options : ``eimsuxADJSUX``
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/UnknownPregOption.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Unkown Regex Options.html
 	:og:locale: en
 Regex support in PHP accepts the following list of options : ``eimsuxADJSUX``. 
 

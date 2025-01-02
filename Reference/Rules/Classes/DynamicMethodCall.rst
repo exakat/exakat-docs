@@ -18,7 +18,7 @@ Dynamic Methodcall
 	:og:title: Dynamic Methodcall
 	:og:type: article
 	:og:description: Dynamic calls to class methods
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/DynamicMethodCall.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Dynamic Methodcall.html
 	:og:locale: en
 Dynamic calls to class methods.
 

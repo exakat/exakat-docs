@@ -18,7 +18,7 @@ New Dynamic Class Constant Syntax
 	:og:title: New Dynamic Class Constant Syntax
 	:og:type: article
 	:og:description: PHP has a dedicated syntax to access dynamically class constant values
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/NewDynamicConstantSyntax.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/New Dynamic Class Constant Syntax.html
 	:og:locale: en
 PHP has a dedicated syntax to access dynamically class constant values. This was added in PHP 8.3. It prevents using the a call to the function ``constant()``.
 

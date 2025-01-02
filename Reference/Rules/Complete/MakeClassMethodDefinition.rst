@@ -18,7 +18,7 @@ Make Class Method Definition
 	:og:title: Make Class Method Definition
 	:og:type: article
 	:og:description: This command links a method call to its method definition
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Complete/MakeClassMethodDefinition.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Make Class Method Definition.html
 	:og:locale: en
 This command links a method call to its method definition. 
 This command may not detect all possible link for the methods. It may be missing information about the nature of the object.

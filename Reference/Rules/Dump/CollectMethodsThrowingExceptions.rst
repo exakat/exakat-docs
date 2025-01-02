@@ -18,7 +18,7 @@ Collect Methods Throwing Exceptions
 	:og:title: Collect Methods Throwing Exceptions
 	:og:type: article
 	:og:description: This is a list of all the methods and functions that throw exception
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/CollectMethodsThrowingExceptions.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Collect Methods Throwing Exceptions.html
 	:og:locale: en
 This is a list of all the methods and functions that throw `exception <https://www.php.net/exception>`_.
 

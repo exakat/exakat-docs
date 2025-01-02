@@ -18,7 +18,7 @@ PHP 7.0 New Classes
 	:og:title: PHP 7.0 New Classes
 	:og:type: article
 	:og:description: Those classes are now declared natively in PHP 7
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/Php70NewClasses.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/PHP 7.0 New Classes.html
 	:og:locale: en
 Those classes are now declared natively in PHP 7.0 and should not be declared in custom code. 
 

@@ -18,7 +18,7 @@ One Dot Or Object Operator Per Line
 	:og:title: One Dot Or Object Operator Per Line
 	:og:type: article
 	:og:description: Rule #4 of Object Calisthenics : Only one -> or 
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/OneDotOrObjectOperatorPerLine.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/One Dot Or Object Operator Per Line.html
 	:og:locale: en
 Rule #4 of Object Calisthenics : Only one -> or . per line.
 This analysis will also catch the following cases : 

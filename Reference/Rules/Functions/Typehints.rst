@@ -18,7 +18,7 @@ Typehints
 	:og:title: Typehints
 	:og:type: article
 	:og:description: List of all the types (classes or scalar) used in Typehinting
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/Typehints.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Typehints.html
 	:og:locale: en
 List of all the types (classes or scalar) used in Typehinting.
 

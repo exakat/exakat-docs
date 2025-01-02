@@ -18,7 +18,7 @@ Set Class Remote Definition With Injection
 	:og:title: Set Class Remote Definition With Injection
 	:og:type: article
 	:og:description: Links a method call and its definition, thanks to a typehint
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Complete/SetClassRemoteDefinitionWithInjection.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Set Class Remote Definition With Injection.html
 	:og:locale: en
 Links a method call and its definition, thanks to a typehint.
 

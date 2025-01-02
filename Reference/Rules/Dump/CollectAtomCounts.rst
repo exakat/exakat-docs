@@ -18,7 +18,7 @@ Collect Atom Counts
 	:og:title: Collect Atom Counts
 	:og:type: article
 	:og:description: Collects the list of each atom detected in the code by the engine, and the number of occurrences
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/CollectAtomCounts.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Collect Atom Counts.html
 	:og:locale: en
 Collects the list of each atom detected in the code by the `engine <https://www.php.net/engine>`_, and the number of occurrences. This gives a good overview of the PHP features in use by that source code.
 

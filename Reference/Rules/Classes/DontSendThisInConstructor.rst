@@ -18,7 +18,7 @@ Don't Send $this In Constructor
 	:og:title: Don't Send $this In Constructor
 	:og:type: article
 	:og:description: Don't use ``$this`` as an argument while in the __construct()
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/DontSendThisInConstructor.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Don't Send $this In Constructor.html
 	:og:locale: en
 Don't use ``$this`` as an argument while in the `__construct() <https://www.php.net/manual/en/language.oop5.decon.php>`_. Until the constructor is finished, the object is not finished, and may be in an unstable state. Providing it to another code may lead to `error <https://www.php.net/error>`_. 
 

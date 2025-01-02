@@ -18,7 +18,7 @@ Relay Function
 	:og:title: Relay Function
 	:og:type: article
 	:og:description: Relay function only delegates workload to another one
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/RelayFunction.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Relay Function.html
 	:og:locale: en
 Relay function only delegates workload to another one. 
 

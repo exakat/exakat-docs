@@ -18,7 +18,7 @@ Multiple Classes In One File
 	:og:title: Multiple Classes In One File
 	:og:type: article
 	:og:description: It is regarded as a bad practice to store several classes in the same file
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/MultipleClassesInFile.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Multiple Classes In One File.html
 	:og:locale: en
 It is regarded as a bad practice to store several classes in the same file. This is usually done to make life of __autoload() easier. 
 

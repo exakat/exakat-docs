@@ -18,7 +18,7 @@ Empty With Expression
 	:og:title: Empty With Expression
 	:og:type: article
 	:og:description: empty() doesn't accept expressions until PHP 5
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/EmptyWithExpression.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Empty With Expression.html
 	:og:locale: en
 empty() doesn't accept expressions until PHP 5.5. Until then, it is necessary to store the `result <https://www.php.net/result>`_ of the expression in a variable and then, test it with empty().
 

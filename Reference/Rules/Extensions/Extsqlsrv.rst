@@ -18,7 +18,7 @@ ext/sqlsrv
 	:og:title: ext/sqlsrv
 	:og:type: article
 	:og:description: Extension for Microsoft SQL Server Driver
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extsqlsrv.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/sqlsrv.html
 	:og:locale: en
 Extension for Microsoft SQL Server Driver.
 

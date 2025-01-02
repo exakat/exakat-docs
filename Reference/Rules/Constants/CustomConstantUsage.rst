@@ -18,7 +18,7 @@ Custom Constant Usage
 	:og:title: Custom Constant Usage
 	:og:type: article
 	:og:description: The code is using constants that are not defined in PHP extensions or PHP itself
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Constants/CustomConstantUsage.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Custom Constant Usage.html
 	:og:locale: en
 The code is using constants that are not defined in PHP extensions or PHP itself. This may lead to a fatal `error <https://www.php.net/error>`_.
 

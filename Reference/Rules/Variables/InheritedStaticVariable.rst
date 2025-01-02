@@ -18,7 +18,7 @@ Inherited Static Variable
 	:og:title: Inherited Static Variable
 	:og:type: article
 	:og:description: Static variables are distinct when used in an inherited static method
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Variables/InheritedStaticVariable.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Inherited Static Variable.html
 	:og:locale: en
 `Static <https://www.php.net/manual/en/language.oop5.static.php>`_ variables are distinct when used in an inherited `static <https://www.php.net/manual/en/language.oop5.static.php>`_ method. In PHP 8.1, the `static <https://www.php.net/manual/en/language.oop5.static.php>`_ variable will also be inherited, and shared between the two methods, like a `static <https://www.php.net/manual/en/language.oop5.static.php>`_ property.
 

@@ -18,7 +18,7 @@ Array_Fill() With Objects
 	:og:title: Array_Fill() With Objects
 	:og:type: article
 	:og:description: array_fill() fills an array with identical objects, not copies nor clones
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ArrayFillWithObjects.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Array_Fill() With Objects.html
 	:og:locale: en
 `array_fill() <https://www.php.net/array_fill>`_ fills an array with identical objects, not copies nor clones. This means that all the filled objects are a reference to the same object. Changing one of them will change any of them.
 

@@ -18,7 +18,7 @@ Static Methods Cannot Call Non-Static Methods
 	:og:title: Static Methods Cannot Call Non-Static Methods
 	:og:type: article
 	:og:description: A static method cannot call a non-static method
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/StaticCannotCallNonStatic.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Static Methods Cannot Call Non-Static Methods.html
 	:og:locale: en
 A `static <https://www.php.net/manual/en/language.oop5.static.php>`_ method cannot call a non-`static <https://www.php.net/manual/en/language.oop5.static.php>`_ method. The object context would be missing. 
 

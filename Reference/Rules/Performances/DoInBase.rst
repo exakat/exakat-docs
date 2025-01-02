@@ -18,7 +18,7 @@ Do In Base
 	:og:title: Do In Base
 	:og:type: article
 	:og:description: Use SQL expression to compute aggregates in the database
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Performances/DoInBase.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Do In Base.html
 	:og:locale: en
 Use SQL expression to compute aggregates in the database. By doing so, the data don't have to be transfered from the database to PHP, which saves a lot of operations. Such operations are also often faster in the database, because of optimized code.
 

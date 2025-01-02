@@ -3,6 +3,21 @@
 Inventory
 +++++++++
 
+.. meta::
+	:description:
+		Inventory: A set of rules that collect various definitions from the code .
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Inventory
+	:twitter:description: Inventory: A set of rules that collect various definitions from the code 
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Inventory
+	:og:type: article
+	:og:description: A set of rules that collect various definitions from the code 
+	:og:url: https://exakat.readthedocs.io/en/latest/Rulesets/Inventory.html
+	:og:locale: en
 This ruleset collect all free-text names used in the code : variables, global, arguments, methods, classes, etc...
 
 For example : 

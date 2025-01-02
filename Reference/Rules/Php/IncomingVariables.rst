@@ -18,7 +18,7 @@ Incoming Variables
 	:og:title: Incoming Variables
 	:og:type: article
 	:og:description: Incoming names, used across the application
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/IncomingVariables.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Incoming Variables.html
 	:og:locale: en
 Incoming names, used across the application. 
 

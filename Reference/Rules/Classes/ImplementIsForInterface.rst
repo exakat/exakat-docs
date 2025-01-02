@@ -18,7 +18,7 @@ Implements Is For Interface
 	:og:title: Implements Is For Interface
 	:og:type: article
 	:og:description: With class heritage, implements should be used for interfaces, and extends with classes
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/ImplementIsForInterface.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Implements Is For Interface.html
 	:og:locale: en
 With class heritage, implements should be used for interfaces, and extends with classes.
 

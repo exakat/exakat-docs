@@ -18,7 +18,7 @@ Spread Operator For Array
 	:og:title: Spread Operator For Array
 	:og:type: article
 	:og:description: The variadic operator may be used with arrays
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/SpreadOperatorForArray.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Spread Operator For Array.html
 	:og:locale: en
 The variadic operator may be used with arrays. This has been introduced in PHP 7.4. 
 

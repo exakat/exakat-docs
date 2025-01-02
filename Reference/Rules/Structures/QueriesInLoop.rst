@@ -18,7 +18,7 @@ Queries In Loops
 	:og:title: Queries In Loops
 	:og:type: article
 	:og:description: Avoid querying databases in a loop
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/QueriesInLoop.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Queries In Loops.html
 	:og:locale: en
 Avoid querying databases in a loop. 
 

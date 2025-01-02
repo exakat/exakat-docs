@@ -18,7 +18,7 @@ ext/fileinfo
 	:og:title: ext/fileinfo
 	:og:type: article
 	:og:description: Extension ext/fileinfo
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extfileinfo.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/fileinfo.html
 	:og:locale: en
 Extension ext/fileinfo.
 

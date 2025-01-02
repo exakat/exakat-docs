@@ -18,7 +18,7 @@ Collect Graph Triplets
 	:og:title: Collect Graph Triplets
 	:og:type: article
 	:og:description: Collects the triplets (origin, link, destination) in the graph
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/CollectGraphTriplets.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Collect Graph Triplets.html
 	:og:locale: en
 Collects the triplets (origin, link, destination) in the graph. 
 

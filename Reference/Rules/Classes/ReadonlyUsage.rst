@@ -18,7 +18,7 @@ Readonly Usage
 	:og:title: Readonly Usage
 	:og:type: article
 	:og:description: Usage of the readonly option on classes and properties
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/ReadonlyUsage.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Readonly Usage.html
 	:og:locale: en
 Usage of the readonly option on classes and properties. Readonly is available on classes starting with PHP 8.2.
 

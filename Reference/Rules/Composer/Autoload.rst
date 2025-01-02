@@ -18,7 +18,7 @@ Composer's autoload
 	:og:title: Composer's autoload
 	:og:type: article
 	:og:description: Report if this code is using the autoload from Composer
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Composer/Autoload.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Composer's autoload.html
 	:og:locale: en
 Report if this code is using the autoload from Composer.
 Connex PHP features

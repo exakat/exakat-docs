@@ -18,7 +18,7 @@ Constant Scalar Expression
 	:og:title: Constant Scalar Expression
 	:og:type: article
 	:og:description: Since PHP 5
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/ConstantScalarExpression.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Constant Scalar Expression.html
 	:og:locale: en
 Since PHP 5.6, it is possible to use expression with Constants and default values. One may only use simple operators.
 

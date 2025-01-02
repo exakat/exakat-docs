@@ -18,7 +18,7 @@ No Plus One
 	:og:title: No Plus One
 	:og:type: article
 	:og:description: Incrementing a variable should be done with the ++ or -- operators
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/PlusEgalOne.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No Plus One.html
 	:og:locale: en
 Incrementing a variable should be done with the ++ or -- operators. Any other way, may be avoided.
 

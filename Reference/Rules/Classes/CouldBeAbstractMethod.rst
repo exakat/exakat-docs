@@ -18,7 +18,7 @@ Could Be Abstract Method
 	:og:title: Could Be Abstract Method
 	:og:type: article
 	:og:description: A method can be made abstract, when all the class's children implement it
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/CouldBeAbstractMethod.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Could Be Abstract Method.html
 	:og:locale: en
 A method can be made abstract, when all the class's children implement it. 
 

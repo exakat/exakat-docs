@@ -18,7 +18,7 @@ Method Collision Traits
 	:og:title: Method Collision Traits
 	:og:type: article
 	:og:description: Two or more traits are included in the same class, and they have methods collisions
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Traits/MethodCollisionTraits.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Method Collision Traits.html
 	:og:locale: en
 Two or more traits are included in the same class, and they have methods collisions. 
 

@@ -18,7 +18,7 @@ Used Static Properties
 	:og:title: Used Static Properties
 	:og:type: article
 	:og:description: List of all static properties that are used
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/UsedPrivateProperty.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Used Static Properties.html
 	:og:locale: en
 List of all `static <https://www.php.net/manual/en/language.oop5.static.php>`_ properties that are used.
 

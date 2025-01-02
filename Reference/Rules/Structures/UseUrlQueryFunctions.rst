@@ -18,7 +18,7 @@ Should Use Url Query Functions
 	:og:title: Should Use Url Query Functions
 	:og:type: article
 	:og:description: PHP features several functions dedicated to processing URL's query string
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/UseUrlQueryFunctions.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Should Use Url Query Functions.html
 	:og:locale: en
 PHP features several functions dedicated to processing URL's query string. 
 

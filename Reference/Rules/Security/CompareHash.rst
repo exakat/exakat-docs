@@ -18,7 +18,7 @@ Compare Hash
 	:og:title: Compare Hash
 	:og:type: article
 	:og:description: When comparing hash values, it is important to use the strict comparison : hash_equals(), ``===`` or ``!==``
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Security/CompareHash.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Compare Hash.html
 	:og:locale: en
 When comparing hash values, it is important to use the strict comparison : `hash_equals() <https://www.php.net/hash_equals>`_, ``===`` or ``!==``. 
 

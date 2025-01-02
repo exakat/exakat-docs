@@ -18,7 +18,7 @@ Fetch One Row Format
 	:og:title: Fetch One Row Format
 	:og:type: article
 	:og:description: When reading results with ext/Sqlite3, it is recommended to explicitly request ``SQLITE3_NUM`` or ``SQLITE3_ASSOC``, while avoiding the default value and ``SQLITE3_BOTH``
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Performances/FetchOneRowFormat.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Fetch One Row Format.html
 	:og:locale: en
 When reading results with ext/`Sqlite3 <https://www.php.net/sqlite3>`_, it is recommended to explicitly request ``SQLITE3_NUM`` or ``SQLITE3_ASSOC``, while avoiding the default value and ``SQLITE3_BOTH``.
 This is a micro-optimisation. The difference may be visible with 200k rows fetches, and measurable with 10k.

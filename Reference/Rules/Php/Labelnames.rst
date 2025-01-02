@@ -18,7 +18,7 @@ Labels
 	:og:title: Labels
 	:og:type: article
 	:og:description: List of all labels used in the code
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/Labelnames.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Labels.html
 	:og:locale: en
 List of all labels used in the code.
 

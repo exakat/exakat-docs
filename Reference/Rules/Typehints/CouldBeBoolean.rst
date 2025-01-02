@@ -18,7 +18,7 @@ Could Be Boolean
 	:og:title: Could Be Boolean
 	:og:type: article
 	:og:description: Reports arguments, properties, return types and class constants that can be typed boolean
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Typehints/CouldBeBoolean.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Could Be Boolean.html
 	:og:locale: en
 Reports arguments, properties, return types and class constants that can be typed boolean.
 

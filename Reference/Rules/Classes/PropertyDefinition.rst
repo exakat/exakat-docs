@@ -18,7 +18,7 @@ Property Names
 	:og:title: Property Names
 	:og:type: article
 	:og:description: Variables are used in property definitions, when they are located in a class
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/PropertyDefinition.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Property Names.html
 	:og:locale: en
 Variables are used in property definitions, when they are located in a class.
 

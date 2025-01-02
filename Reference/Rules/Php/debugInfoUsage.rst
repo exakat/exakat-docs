@@ -18,7 +18,7 @@ __debugInfo() Usage
 	:og:title: __debugInfo() Usage
 	:og:type: article
 	:og:description: The magic method __debugInfo() provides a custom way to dump an object
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/debugInfoUsage.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/__debugInfo() Usage.html
 	:og:locale: en
 The magic method `__debugInfo() <https://www.php.net/manual/en/language.oop5.magic.php>`_ provides a custom way to dump an object. 
 

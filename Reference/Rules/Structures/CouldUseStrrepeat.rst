@@ -18,7 +18,7 @@ Could Use str_repeat()
 	:og:title: Could Use str_repeat()
 	:og:type: article
 	:og:description: Use str_repeat() or str_pad() instead of making a loop
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/CouldUseStrrepeat.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Could Use str_repeat().html
 	:og:locale: en
 Use `str_repeat() <https://www.php.net/str_repeat>`_ or `str_pad() <https://www.php.net/str_pad>`_ instead of making a loop.
 

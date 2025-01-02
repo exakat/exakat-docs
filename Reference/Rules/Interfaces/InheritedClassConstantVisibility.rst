@@ -18,7 +18,7 @@ Inherited Class Constant Visibility
 	:og:title: Inherited Class Constant Visibility
 	:og:type: article
 	:og:description: Visibility of class constant must be public, even when overwritten
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Interfaces/InheritedClassConstantVisibility.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Inherited Class Constant Visibility.html
 	:og:locale: en
 Visibility of class constant must be public, even when overwritten. 
 

@@ -18,7 +18,7 @@ Self Using Trait
 	:og:title: Self Using Trait
 	:og:type: article
 	:og:description: Trait uses itself : this is unnecessary
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Traits/SelfUsingTrait.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Self Using Trait.html
 	:og:locale: en
 Trait uses itself : this is unnecessary. Traits may use themselves, or be used by other traits, that are using the initial trait itself. 
 

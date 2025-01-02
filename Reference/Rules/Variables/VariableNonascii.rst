@@ -18,7 +18,7 @@ Non Ascii Variables
 	:og:title: Non Ascii Variables
 	:og:type: article
 	:og:description: PHP allows certain characters in variable names
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Variables/VariableNonascii.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Non Ascii Variables.html
 	:og:locale: en
 PHP allows certain characters in variable names. The variable name must only include letters, figures, underscores and ASCII characters from 128 to 255. 
 

@@ -18,7 +18,7 @@ Plus Plus Used On Strings
 	:og:title: Plus Plus Used On Strings
 	:og:type: article
 	:og:description: Reports strings that are incremented with the post increment operator ``'s'++``
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/PlusPlusOnLetters.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Plus Plus Used On Strings.html
 	:og:locale: en
 Reports strings that are incremented with the post increment operator ``'s'++``.
 

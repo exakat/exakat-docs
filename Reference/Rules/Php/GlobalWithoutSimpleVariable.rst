@@ -18,7 +18,7 @@ Simple Global Variable
 	:og:title: Simple Global Variable
 	:og:type: article
 	:og:description: The global keyword should only be used with simple variables
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/GlobalWithoutSimpleVariable.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Simple Global Variable.html
 	:og:locale: en
 The global keyword should only be used with simple variables. Since PHP 7, it cannot be used with complex or dynamic structures.
 

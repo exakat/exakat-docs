@@ -18,7 +18,7 @@ Constant Dynamic Creation
 	:og:title: Constant Dynamic Creation
 	:og:type: article
 	:og:description: Registering constant with dynamic values
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Constants/DynamicCreation.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Constant Dynamic Creation.html
 	:og:locale: en
 Registering constant with dynamic values. Dynamic values include values read in external sources (files, databases, remote API, `... <https://www.php.net/manual/en/functions.arguments.php#functions.variable-arg-list>`_ ), random sources (time, `rand() <https://www.php.net/rand>`_, `...) <https://www.php.net/manual/en/functions.arguments.php#functions.variable-arg-list>`_
 

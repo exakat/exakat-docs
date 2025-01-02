@@ -18,7 +18,7 @@ Non Integer Nor String As Index
 	:og:title: Non Integer Nor String As Index
 	:og:type: article
 	:og:description: Report usage of non-integer and non-string types as index in an array syntax
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/NonIntStringAsIndex.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Non Integer Nor String As Index.html
 	:og:locale: en
 Report usage of non-integer and non-string types as index in an array syntax.
 

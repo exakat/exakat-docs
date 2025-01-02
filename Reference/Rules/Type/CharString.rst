@@ -18,7 +18,7 @@ All strings
 	:og:title: All strings
 	:og:type: article
 	:og:description: Strings, heredocs and nowdocs in one place
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Type/CharString.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/All strings.html
 	:og:locale: en
 Strings, heredocs and nowdocs in one place.
 

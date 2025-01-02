@@ -18,7 +18,7 @@ Foreach On Object
 	:og:title: Foreach On Object
 	:og:type: article
 	:og:description: Foreach on object looks like a typo
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/ForeachObject.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Foreach On Object.html
 	:og:locale: en
 Foreach on object looks like a typo. This is particularly true when both object and member are variables.
 

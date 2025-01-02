@@ -18,7 +18,7 @@ ext/memcached
 	:og:title: ext/memcached
 	:og:type: article
 	:og:description: Extension ext-memcached
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extmemcached.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/memcached.html
 	:og:locale: en
 Extension ext-memcached.
 

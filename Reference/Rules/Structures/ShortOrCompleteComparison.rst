@@ -18,7 +18,7 @@ Short Or Complete Comparison
 	:og:title: Short Or Complete Comparison
 	:og:type: article
 	:og:description: Which type of condition is used for boolean comparisons : either short or formal
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ShortOrCompleteComparison.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Short Or Complete Comparison.html
 	:og:locale: en
 Which type of condition is used for boolean comparisons : either short or formal. 
 

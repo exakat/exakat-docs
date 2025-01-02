@@ -18,7 +18,7 @@ Foreach Don't Change Pointer
 	:og:title: Foreach Don't Change Pointer
 	:og:type: article
 	:og:description: foreach() loops use their own internal cursor
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/ForeachDontChangePointer.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Foreach Don't Change Pointer.html
 	:og:locale: en
 `foreach() <https://www.php.net/manual/en/control-structures.foreach.php>`_ loops use their own internal cursor.
 

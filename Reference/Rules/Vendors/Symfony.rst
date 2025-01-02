@@ -18,7 +18,7 @@ Symfony usage
 	:og:title: Symfony usage
 	:og:type: article
 	:og:description: This analysis reports usage of the Symfony framework
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Vendors/Symfony.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Symfony usage.html
 	:og:locale: en
 This analysis reports usage of the Symfony framework.
 

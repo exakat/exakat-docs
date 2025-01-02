@@ -18,7 +18,7 @@ Propagate Constants
 	:og:title: Propagate Constants
 	:og:type: article
 	:og:description: This command calculates constant expression values, and set them in the graph
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Complete/PropagateConstants.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Propagate Constants.html
 	:og:locale: en
 This command calculates constant expression values, and set them in the graph.
 After running this command, B has ``intval`` of 3. 

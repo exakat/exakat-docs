@@ -18,7 +18,7 @@ No Return Used
 	:og:title: No Return Used
 	:og:type: article
 	:og:description: The return value of the following methods are never used
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/NoReturnUsed.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No Return Used.html
 	:og:locale: en
 The return value of the following methods are never used. The return argument may be dropped from the code, as it is dead code.
 

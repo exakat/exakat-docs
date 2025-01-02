@@ -18,7 +18,7 @@ ext/xmlwriter
 	:og:title: ext/xmlwriter
 	:og:type: article
 	:og:description: Extension ext/xmlwriter
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extxmlwriter.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/xmlwriter.html
 	:og:locale: en
 Extension ext/`xmlwriter <https://www.php.net/xmlwriter>`_.
 

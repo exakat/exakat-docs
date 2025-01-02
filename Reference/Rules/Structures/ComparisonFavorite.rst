@@ -18,7 +18,7 @@ Strict Or Relaxed Comparison
 	:og:title: Strict Or Relaxed Comparison
 	:og:type: article
 	:og:description: PHP has two comparison styles : strict and relaxed
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ComparisonFavorite.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Strict Or Relaxed Comparison.html
 	:og:locale: en
 PHP has two comparison styles : strict and relaxed. 
 

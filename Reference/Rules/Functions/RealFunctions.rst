@@ -18,7 +18,7 @@ Real Functions
 	:og:title: Real Functions
 	:og:type: article
 	:og:description: Real functions, not methods
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/RealFunctions.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Real Functions.html
 	:og:locale: en
 Real functions, not methods.
 

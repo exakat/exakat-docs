@@ -3,6 +3,21 @@
 Appinfo
 +++++++
 
+.. meta::
+	:description:
+		Appinfo: Appinfo is the equivalent of phpinfo() for your code..
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Appinfo
+	:twitter:description: Appinfo: Appinfo is the equivalent of phpinfo() for your code.
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Appinfo
+	:og:type: article
+	:og:description: Appinfo is the equivalent of phpinfo() for your code.
+	:og:url: https://exakat.readthedocs.io/en/latest/Rulesets/Appinfo.html
+	:og:locale: en
 A set of rules that describes with PHP features is used in the code.
 
 Total : 390 analysis

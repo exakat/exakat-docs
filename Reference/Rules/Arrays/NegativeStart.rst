@@ -18,7 +18,7 @@ Negative Start Index In Array
 	:og:title: Negative Start Index In Array
 	:og:type: article
 	:og:description: Negative starting index in arrays changed in PHP 8
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Arrays/NegativeStart.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Negative Start Index In Array.html
 	:og:locale: en
 Negative starting index in arrays changed in PHP 8.0. Until then, they were ignored, and automatic index started always at 0. Since PHP 8.0, the next index is calculated.
 

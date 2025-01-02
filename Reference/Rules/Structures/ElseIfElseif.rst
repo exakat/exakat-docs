@@ -18,7 +18,7 @@ Else If Versus Elseif
 	:og:title: Else If Versus Elseif
 	:og:type: article
 	:og:description: Always use elseif instead of else and if
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ElseIfElseif.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Else If Versus Elseif.html
 	:og:locale: en
 Always use elseif instead of else and if. 
 

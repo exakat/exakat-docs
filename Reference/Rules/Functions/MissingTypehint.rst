@@ -18,7 +18,7 @@ Missing Typehint
 	:og:title: Missing Typehint
 	:og:type: article
 	:og:description: No typehint was found for a parameter, a return type for a method or a property
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/MissingTypehint.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Missing Typehint.html
 	:og:locale: en
 No typehint was found for a parameter, a return type for a method or a property.
 

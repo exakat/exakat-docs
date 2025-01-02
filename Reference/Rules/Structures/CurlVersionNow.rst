@@ -18,7 +18,7 @@ curl_version() Has No Argument
 	:og:title: curl_version() Has No Argument
 	:og:type: article
 	:og:description: curl_version() used to accept ``CURLVERSION_NOW`` as argument
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/CurlVersionNow.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/curl_version() Has No Argument.html
 	:og:locale: en
 `curl_version() <https://www.php.net/curl_version>`_ used to accept ``CURLVERSION_NOW`` as argument. Since PHP 7.4, it is a function without arguments.
 

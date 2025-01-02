@@ -18,7 +18,7 @@ Optional Parameter
 	:og:title: Optional Parameter
 	:og:type: article
 	:og:description: An optional parameter is a method argument that has both a typehint and a default value
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/OptionalParameter.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Optional Parameter.html
 	:og:locale: en
 An optional parameter is a method argument that has both a typehint and a default value. 
 

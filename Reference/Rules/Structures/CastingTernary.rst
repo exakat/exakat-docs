@@ -18,7 +18,7 @@ Casting Ternary
 	:og:title: Casting Ternary
 	:og:type: article
 	:og:description: Type casting has a precedence over ternary operator, and is applied first
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/CastingTernary.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Casting Ternary.html
 	:og:locale: en
 Type casting has a precedence over ternary operator, and is applied first. When this happens, the condition is cast, although it is often useless as PHP will do it if needed.
 

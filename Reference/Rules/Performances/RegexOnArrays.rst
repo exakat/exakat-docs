@@ -18,7 +18,7 @@ Regex On Arrays
 	:og:title: Regex On Arrays
 	:og:type: article
 	:og:description: Avoid using a loop with arrays of regex or values
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Performances/RegexOnArrays.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Regex On Arrays.html
 	:og:locale: en
 Avoid using a loop with arrays of regex or values. There are several PHP function which work directly on arrays, and much faster.
 

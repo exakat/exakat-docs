@@ -18,7 +18,7 @@ No Empty Regex
 	:og:title: No Empty Regex
 	:og:type: article
 	:og:description: PHP regex don't accept empty regex, nor regex with alphanumeric delimiter
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/NoEmptyRegex.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No Empty Regex.html
 	:og:locale: en
 PHP regex don't accept empty regex, nor regex with alphanumeric delimiter.
 

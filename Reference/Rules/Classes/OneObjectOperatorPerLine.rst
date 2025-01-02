@@ -18,7 +18,7 @@ One Object Operator Per Line
 	:og:title: One Object Operator Per Line
 	:og:type: article
 	:og:description: It is recommended to avoid using more than one operator -> per line, to prevent information overload
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/OneObjectOperatorPerLine.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/One Object Operator Per Line.html
 	:og:locale: en
 It is recommended to avoid using more than one operator -> per line, to prevent information overload.
 

@@ -18,7 +18,7 @@ Defined Exceptions
 	:og:title: Defined Exceptions
 	:og:type: article
 	:og:description: This is the list of defined exceptions
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Exceptions/DefinedExceptions.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Defined Exceptions.html
 	:og:locale: en
 This is the list of defined exceptions. Those exceptions are custom to the code, and shall be thrown at one point or more in the code.
 

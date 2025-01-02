@@ -18,7 +18,7 @@ Type Must Be Returned
 	:og:title: Type Must Be Returned
 	:og:type: article
 	:og:description: When using a type for a method, it is compulsory to use a at least one return in the method's body
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/TypehintMustBeReturned.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Type Must Be Returned.html
 	:og:locale: en
 When using a type for a method, it is compulsory to use a at least one return in the method's body. This is true for nullable type too : ``return`` alone won't be sufficient.
 

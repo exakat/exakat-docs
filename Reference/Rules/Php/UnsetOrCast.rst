@@ -18,7 +18,7 @@ Unset() Or (unset)
 	:og:title: Unset() Or (unset)
 	:og:type: article
 	:og:description: Unset() and (unset) have the same functional use
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/UnsetOrCast.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Unset() Or (unset).html
 	:og:locale: en
 Unset() and (unset) have the same functional use. 
 

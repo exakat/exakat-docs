@@ -18,7 +18,7 @@ Non-constant Index In Array
 	:og:title: Non-constant Index In Array
 	:og:type: article
 	:og:description: Undefined constants revert as strings in Arrays
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Arrays/NonConstantArray.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Non-constant Index In Array.html
 	:og:locale: en
 Undefined constants revert as strings in Arrays. They are also called ``barewords``.
 

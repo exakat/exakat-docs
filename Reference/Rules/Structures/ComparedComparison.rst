@@ -18,7 +18,7 @@ Compared Comparison
 	:og:title: Compared Comparison
 	:og:type: article
 	:og:description: Usually, comparison are sufficient, and it is rare to have to compare the result of comparison
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ComparedComparison.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Compared Comparison.html
 	:og:locale: en
 Usually, comparison are sufficient, and it is rare to have to compare the `result <https://www.php.net/result>`_ of comparison. Check if this two-stage comparison is really needed.
 

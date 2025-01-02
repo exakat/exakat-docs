@@ -18,7 +18,7 @@ Mbstring Third Arg
 	:og:title: Mbstring Third Arg
 	:og:type: article
 	:og:description: Some mbstring functions use the third argument for offset, not for encoding
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/MbstringThirdArg.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Mbstring Third Arg.html
 	:og:locale: en
 Some mbstring functions use the third argument for offset, not for encoding.
 

@@ -18,7 +18,7 @@ No Real Comparison
 	:og:title: No Real Comparison
 	:og:type: article
 	:og:description: Avoid comparing decimal numbers with ==, ===, !==, !=
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Type/NoRealComparison.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No Real Comparison.html
 	:og:locale: en
 Avoid comparing decimal numbers with ==, ===, !==, !=. Real numbers have an `error <https://www.php.net/error>`_ margin which is random, and makes it very difficult to match even if the compared value is a literal. 
 

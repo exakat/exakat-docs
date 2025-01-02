@@ -18,7 +18,7 @@ Unused Functions
 	:og:title: Unused Functions
 	:og:type: article
 	:og:description: The functions below are unused
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/UnusedFunctions.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Unused Functions.html
 	:og:locale: en
 The functions below are unused. They look like dead code.
 

@@ -18,7 +18,7 @@ Useless Brackets
 	:og:title: Useless Brackets
 	:og:type: article
 	:og:description: Standalone brackets have no use
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/UselessBrackets.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Useless Brackets.html
 	:og:locale: en
 Standalone brackets have no use. Brackets are used to delimit a block of code, and are used by control statements. They may also be used to protect variables in strings. 
 

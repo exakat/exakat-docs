@@ -18,7 +18,7 @@ Class Invasion
 	:og:title: Class Invasion
 	:og:type: article
 	:og:description: Class invasion happens when an object access another object's private methods or properties
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/ClassInvasion.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Class Invasion.html
 	:og:locale: en
 Class invasion happens when an object access another object's private methods or properties. 
 

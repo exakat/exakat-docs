@@ -18,7 +18,7 @@ filter_input() As A Source
 	:og:title: filter_input() As A Source
 	:og:type: article
 	:og:description: The filter_input() and filter_input_array() functions access directly to ``$_GET``
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Security/FilterInputSource.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/filter_input() As A Source.html
 	:og:locale: en
 The `filter_input() <https://www.php.net/filter_input>`_ and `filter_input_array() <https://www.php.net/filter_input_array>`_ functions access directly to ``$_GET``. They represent a source for external data just like ``$_GET``, ``$_POST``, etc.
 

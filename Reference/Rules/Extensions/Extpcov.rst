@@ -18,7 +18,7 @@ ext/pcov
 	:og:title: ext/pcov
 	:og:type: article
 	:og:description: CodeCoverage compatible driver for PHP
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extpcov.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/pcov.html
 	:og:locale: en
 CodeCoverage compatible driver for PHP.
 

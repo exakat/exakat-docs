@@ -18,7 +18,7 @@ ext/zend_monitor
 	:og:title: ext/zend_monitor
 	:og:type: article
 	:og:description: Extension ``zend_monitor``
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extzendmonitor.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/zend_monitor.html
 	:og:locale: en
 Extension ``zend_monitor``. 
 

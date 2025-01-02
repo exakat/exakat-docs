@@ -18,7 +18,7 @@ Too Many Array Dimensions
 	:og:title: Too Many Array Dimensions
 	:og:type: article
 	:og:description: This analysis reports when arrays have too many dimensions
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Arrays/TooManyDimensions.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Too Many Array Dimensions.html
 	:og:locale: en
 This analysis reports when arrays have too many dimensions. This happens when arrays are too deeply nested inside other arrays. 
 

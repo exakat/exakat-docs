@@ -18,7 +18,7 @@ Pack Format Inventory
 	:og:title: Pack Format Inventory
 	:og:type: article
 	:og:description: All format used in the code with pack() and unpack()
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Type/Pack.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Pack Format Inventory.html
 	:og:locale: en
 All format used in the code with `pack() <https://www.php.net/pack>`_ and `unpack() <https://www.php.net/unpack>`_.
 

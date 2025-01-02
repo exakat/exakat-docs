@@ -18,7 +18,7 @@ Unknown Parameter Name
 	:og:title: Unknown Parameter Name
 	:og:type: article
 	:og:description: The name of the parameter doesn't belong to the method signature
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/UnknownParameterName.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Unknown Parameter Name.html
 	:og:locale: en
 The name of the parameter doesn't belong to the method signature. Named arguments were introduced in PHP 8.0.
 

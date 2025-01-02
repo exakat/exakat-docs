@@ -18,7 +18,7 @@ ext/trader
 	:og:title: ext/trader
 	:og:type: article
 	:og:description: Extension trader
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Exttrader.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/trader.html
 	:og:locale: en
 Extension trader.
 

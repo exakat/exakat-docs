@@ -18,7 +18,7 @@ Scalar Typehint Usage
 	:og:title: Scalar Typehint Usage
 	:og:type: article
 	:og:description: Spot usage of scalar type hint : ``int``, ``float``, ``boolean`` and ``string``
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/ScalarTypehintUsage.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Scalar Typehint Usage.html
 	:og:locale: en
 Spot usage of scalar type hint : ``int``, ``float``, ``boolean`` and ``string``.
 

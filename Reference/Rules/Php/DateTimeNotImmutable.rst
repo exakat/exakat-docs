@@ -18,7 +18,7 @@ DateTimeImmutable Is Not Immutable
 	:og:title: DateTimeImmutable Is Not Immutable
 	:og:type: article
 	:og:description: ``DateTimeImmutable`` is not really immutable because its internal state can be modified after instantiation
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/DateTimeNotImmutable.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/DateTimeImmutable Is Not Immutable.html
 	:og:locale: en
 ``DateTimeImmutable`` is not really immutable because its internal state can be modified after instantiation.
 Inspired by the article from ``Matthias Noback``.

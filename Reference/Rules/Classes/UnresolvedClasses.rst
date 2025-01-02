@@ -18,7 +18,7 @@ Unresolved Classes
 	:og:title: Unresolved Classes
 	:og:type: article
 	:og:description: The following classes are instantiated in the code, but their definition couldn't be found in that same code
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/UnresolvedClasses.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Unresolved Classes.html
 	:og:locale: en
 The following classes are instantiated in the code, but their definition couldn't be found in that same code. They might be defined in an extension or an external component.
 

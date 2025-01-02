@@ -18,7 +18,7 @@ Caught Expressions
 	:og:title: Caught Expressions
 	:og:type: article
 	:og:description: This rule lists all the caught exceptions
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/TryCatchUsage.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Caught Expressions.html
 	:og:locale: en
 This rule lists all the caught exceptions. 
 

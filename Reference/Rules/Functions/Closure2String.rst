@@ -18,7 +18,7 @@ Closure Could Be A Callback
 	:og:title: Closure Could Be A Callback
 	:og:type: article
 	:og:description: Closure and arrow function may be simplified to a callback
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/Closure2String.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Closure Could Be A Callback.html
 	:og:locale: en
 `Closure <https://www.php.net/manual/en/class.`closure <https://www.php.net/closure>`_.php>`_ and arrow function may be simplified to a callback. Callbacks are strings or arrays.
 

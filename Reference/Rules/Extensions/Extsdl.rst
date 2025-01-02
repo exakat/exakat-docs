@@ -18,7 +18,7 @@ ext/sdl
 	:og:title: ext/sdl
 	:og:type: article
 	:og:description: Extensions ext/sdl
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extsdl.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/sdl.html
 	:og:locale: en
 Extensions ext/sdl.
 

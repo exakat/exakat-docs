@@ -18,7 +18,7 @@ Close Tags Consistency
 	:og:title: Close Tags Consistency
 	:og:type: article
 	:og:description: PHP scripts may omit the final closing tag
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/CloseTagsConsistency.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Close Tags Consistency.html
 	:og:locale: en
 PHP scripts may omit the final closing tag. 
 

@@ -18,7 +18,7 @@ ext/shmop
 	:og:title: ext/shmop
 	:og:type: article
 	:og:description: Extension ext/shmop
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extshmop.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/shmop.html
 	:og:locale: en
 Extension ext/`shmop <https://www.php.net/shmop>`_.
 

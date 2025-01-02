@@ -18,7 +18,7 @@ Undefined Properties
 	:og:title: Undefined Properties
 	:og:type: article
 	:og:description: List of properties that are not explicitly defined in the class, its parents or traits
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/UndefinedProperty.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Undefined Properties.html
 	:og:locale: en
 List of properties that are not explicitly defined in the class, its parents or traits.
 

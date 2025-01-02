@@ -18,7 +18,7 @@ Collect Literals
 	:og:title: Collect Literals
 	:og:type: article
 	:og:description: Collects all literals in the application
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/CollectLiterals.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Collect Literals.html
 	:og:locale: en
 Collects all literals in the application. Strings, integer, float are collected. Booleans, null and arrays are not.
 

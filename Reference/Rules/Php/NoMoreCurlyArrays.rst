@@ -18,7 +18,7 @@ No More Curly Arrays
 	:og:title: No More Curly Arrays
 	:og:type: article
 	:og:description: Only use square brackets to access array elements
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/NoMoreCurlyArrays.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No More Curly Arrays.html
 	:og:locale: en
 Only use square brackets to access array elements. The usage of curly brackets for array access is deprecated since PHP 7.4.
 

@@ -18,7 +18,7 @@ Unused Public Methods
 	:og:title: Unused Public Methods
 	:og:type: article
 	:og:description: This rule lists unused public methods
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/UnusedPublicMethod.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Unused Public Methods.html
 	:og:locale: en
 This rule lists unused public methods. 
 

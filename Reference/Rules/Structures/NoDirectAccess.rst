@@ -18,7 +18,7 @@ No Direct Access
 	:og:title: No Direct Access
 	:og:type: article
 	:og:description: This expression protects files against direct access
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/NoDirectAccess.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No Direct Access.html
 	:og:locale: en
 This expression protects files against direct access. It will kill the process if it realizes this is not supposed to be directly accessed.
 

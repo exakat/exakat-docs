@@ -18,7 +18,7 @@ Solve Trait Methods
 	:og:title: Solve Trait Methods
 	:og:type: article
 	:og:description: This command adds DEFINITION link between trait's method definitions and their usage in classes
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Complete/SolveTraitMethods.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Solve Trait Methods.html
 	:og:locale: en
 This command adds DEFINITION link between trait's method definitions and their usage in classes.
 

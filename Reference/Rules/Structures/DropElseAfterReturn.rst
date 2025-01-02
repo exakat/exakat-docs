@@ -18,7 +18,7 @@ Drop Else After Return
 	:og:title: Drop Else After Return
 	:og:type: article
 	:og:description: Avoid else clause when the then clause returns, but not the else
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/DropElseAfterReturn.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Drop Else After Return.html
 	:og:locale: en
 Avoid else clause when the then clause returns, but not the else. And vice-versa.
 

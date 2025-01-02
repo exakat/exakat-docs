@@ -18,7 +18,7 @@ Avoid get_object_vars()
 	:og:title: Avoid get_object_vars()
 	:og:type: article
 	:og:description: get_object_vars() changes behavior between PHP 7
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/AvoidGetobjectVars.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Avoid get_object_vars().html
 	:og:locale: en
 `get_object_vars() <https://www.php.net/get_object_vars>`_ changes behavior between PHP 7.3 and 7.4. 
 

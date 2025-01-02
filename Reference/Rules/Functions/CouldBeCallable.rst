@@ -18,7 +18,7 @@ Could Be Typehinted Callable
 	:og:title: Could Be Typehinted Callable
 	:og:type: article
 	:og:description: Those arguments may use the callable Typehint
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/CouldBeCallable.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Could Be Typehinted Callable.html
 	:og:locale: en
 Those arguments may use the callable Typehint. 
 

@@ -18,7 +18,7 @@ Wrong Parameter Type
 	:og:title: Wrong Parameter Type
 	:og:type: article
 	:og:description: The expected parameter is not of the correct type
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/InternalParameterType.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Wrong Parameter Type.html
 	:og:locale: en
 The expected parameter is not of the correct type. Check PHP documentation to know which is the right format to be used.
 

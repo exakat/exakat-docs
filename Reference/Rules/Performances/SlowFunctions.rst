@@ -18,7 +18,7 @@ Slow Functions
 	:og:title: Slow Functions
 	:og:type: article
 	:og:description: Avoid using those slow native PHP functions, and replace them with alternatives
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Performances/SlowFunctions.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Slow Functions.html
 	:og:locale: en
 Avoid using those slow native PHP functions, and replace them with alternatives.
 +---------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------+

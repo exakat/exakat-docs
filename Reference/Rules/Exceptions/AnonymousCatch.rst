@@ -18,7 +18,7 @@ Anonymous Catch
 	:og:title: Anonymous Catch
 	:og:type: article
 	:og:description: It is possible to omit the variable when using a catch clause
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Exceptions/AnonymousCatch.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Anonymous Catch.html
 	:og:locale: en
 It is possible to omit the variable when using a catch clause. It will catch the `exception <https://www.php.net/exception>`_, but it will not provide the details of the caught `exception <https://www.php.net/exception>`_.
 

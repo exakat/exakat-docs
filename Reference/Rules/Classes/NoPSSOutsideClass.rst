@@ -18,7 +18,7 @@ self, parent, static Outside Class
 	:og:title: self, parent, static Outside Class
 	:og:type: article
 	:og:description: self, parent and static should be called inside a class or trait
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/NoPSSOutsideClass.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/self, parent, static Outside Class.html
 	:og:locale: en
 `self <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_, `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ and `static <https://www.php.net/manual/en/language.oop5.static.php>`_ should be called inside a class or trait. PHP lint won't report those situations. 
 

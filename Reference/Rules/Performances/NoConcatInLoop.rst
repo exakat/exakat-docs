@@ -18,7 +18,7 @@ Avoid Concat In Loop
 	:og:title: Avoid Concat In Loop
 	:og:type: article
 	:og:description: Concatenations inside a loop generate a lot of temporary variables
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Performances/NoConcatInLoop.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Avoid Concat In Loop.html
 	:og:locale: en
 Concatenations inside a loop generate a lot of temporary variables. They are accumulated and tend to raise the memory usage, leading to slower performances.
 

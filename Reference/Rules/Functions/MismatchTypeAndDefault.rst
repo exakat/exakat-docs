@@ -18,7 +18,7 @@ Mismatch Type And Default
 	:og:title: Mismatch Type And Default
 	:og:type: article
 	:og:description: The argument typehint and its default value don't match
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/MismatchTypeAndDefault.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Mismatch Type And Default.html
 	:og:locale: en
 The argument typehint and its default value don't match. 
 

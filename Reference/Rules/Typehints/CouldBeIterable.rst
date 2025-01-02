@@ -18,7 +18,7 @@ Typehint Could Be Iterable
 	:og:title: Typehint Could Be Iterable
 	:og:type: article
 	:og:description: Mark arguments, class constants, properties and return types that can be set to ``iterable``
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Typehints/CouldBeIterable.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Typehint Could Be Iterable.html
 	:og:locale: en
 Mark arguments, class constants, properties and return types that can be set to ``iterable``.
 

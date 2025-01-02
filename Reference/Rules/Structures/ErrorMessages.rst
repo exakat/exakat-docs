@@ -18,7 +18,7 @@ Error Messages
 	:og:title: Error Messages
 	:og:type: article
 	:og:description: Error message when an error is reported in the code
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ErrorMessages.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Error Messages.html
 	:og:locale: en
 `Error <https://www.php.net/error>`_ message when an `error <https://www.php.net/error>`_ is reported in the code. Those messages will be read by whoever is triggering the `error <https://www.php.net/error>`_, and it has to be helpful. 
 

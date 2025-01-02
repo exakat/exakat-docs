@@ -18,7 +18,7 @@ Deprecated Mb_string Encodings
 	:og:title: Deprecated Mb_string Encodings
 	:og:type: article
 	:og:description: Some encodings, available in the mb_string extensions, are deprecated
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/DeprecatedMbEncoding.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Deprecated Mb_string Encodings.html
 	:og:locale: en
 Some encodings, available in the mb_string extensions, are deprecated. Starting with PHP 8.2, the following encodings emits a warning: 
 

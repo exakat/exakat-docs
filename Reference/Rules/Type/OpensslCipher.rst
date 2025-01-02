@@ -18,7 +18,7 @@ OpenSSL Ciphers Used
 	:og:title: OpenSSL Ciphers Used
 	:og:type: article
 	:og:description: List of all the OpenSSL ciphers used in the code
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Type/OpensslCipher.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/OpenSSL Ciphers Used.html
 	:og:locale: en
 List of all the OpenSSL ciphers used in the code. 
 

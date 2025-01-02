@@ -18,7 +18,7 @@ Could Be Array Typehint
 	:og:title: Could Be Array Typehint
 	:og:type: article
 	:og:description: This rule spots arguments, class constants, properties or return values that may be labeled with the ``array`` scalar typehint
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Typehints/CouldBeArray.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Could Be Array Typehint.html
 	:og:locale: en
 This rule spots arguments, class constants, properties or return values that may be labeled with the ``array`` scalar typehint. 
 

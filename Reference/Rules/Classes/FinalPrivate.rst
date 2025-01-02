@@ -18,7 +18,7 @@ Final Private Methods
 	:og:title: Final Private Methods
 	:og:type: article
 	:og:description: PHP's private methods cannot be overwritten, as they are dedicated to the current class
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/FinalPrivate.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Final Private Methods.html
 	:og:locale: en
 PHP's private methods cannot be overwritten, as they are dedicated to the current class. That way, the ``final`` keyword is useless. 
 

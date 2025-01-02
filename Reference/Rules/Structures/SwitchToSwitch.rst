@@ -18,7 +18,7 @@ Switch To Switch
 	:og:title: Switch To Switch
 	:og:type: article
 	:og:description: The following structures are based on if / elseif / else
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/SwitchToSwitch.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Switch To Switch.html
 	:og:locale: en
 The following structures are based on if / elseif / else. Since they have more than three conditions (not withstanding the final else), it is recommended to use the switch structure, so as to make this more readable.
 

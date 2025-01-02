@@ -18,7 +18,7 @@ Anonymous Classes
 	:og:title: Anonymous Classes
 	:og:type: article
 	:og:description: This rule lists the anonymous classes
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/Anonymous.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Anonymous Classes.html
 	:og:locale: en
 This rule lists the anonymous classes. Anonymous classes are defined without a name, and are immediately instanciated.
 

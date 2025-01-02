@@ -18,7 +18,7 @@ Set Cookie Safe Arguments
 	:og:title: Set Cookie Safe Arguments
 	:og:type: article
 	:og:description: The last five arguments of setcookie() and setrawcookie() are for security
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Security/SetCookieArgs.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Set Cookie Safe Arguments.html
 	:og:locale: en
 The last five arguments of `setcookie() <https://www.php.net/setcookie>`_ and `setrawcookie() <https://www.php.net/setrawcookie>`_ are for security. Use them anytime you can.
 

@@ -18,7 +18,7 @@ is_a() Versus instanceof
 	:og:title: is_a() Versus instanceof
 	:og:type: article
 	:og:description: is_a() and instanceof have the same functional use: checking if an object is of a specific class
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/IsAVersusInstanceof.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/is_a() Versus instanceof.html
 	:og:locale: en
 `is_a() <https://www.php.net/is_a>`_ and `instanceof <https://www.php.net/manual/en/language.operators.type.php>`_ have the same functional use: checking if an object is of a specific class. 
 

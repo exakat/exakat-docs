@@ -18,7 +18,7 @@ PHP 74 New Directives
 	:og:title: PHP 74 New Directives
 	:og:type: article
 	:og:description: List of directives that are new in PHP 7
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/Php74NewDirective.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/PHP 74 New Directives.html
 	:og:locale: en
 List of directives that are new in PHP 7.4.
 

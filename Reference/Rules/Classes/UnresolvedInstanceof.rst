@@ -18,7 +18,7 @@ Unresolved Instanceof
 	:og:title: Unresolved Instanceof
 	:og:type: article
 	:og:description: The instanceof operator doesn't confirm if the compared class exists
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/UnresolvedInstanceof.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Unresolved Instanceof.html
 	:og:locale: en
 The `instanceof <https://www.php.net/manual/en/language.operators.type.php>`_ operator doesn't confirm if the compared class exists. 
 

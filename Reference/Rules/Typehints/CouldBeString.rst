@@ -18,7 +18,7 @@ Could Be String
 	:og:title: Could Be String
 	:og:type: article
 	:og:description: Mark arguments, properties, constants and return types that can be set to ``string``
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Typehints/CouldBeString.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Could Be String.html
 	:og:locale: en
 Mark arguments, properties, constants and return types that can be set to ``string``.
 

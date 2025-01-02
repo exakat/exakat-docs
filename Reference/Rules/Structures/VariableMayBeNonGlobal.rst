@@ -18,7 +18,7 @@ Declare Global Early
 	:og:title: Declare Global Early
 	:og:type: article
 	:og:description: Static and global keywords should be used as early as possible in a method
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/VariableMayBeNonGlobal.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Declare Global Early.html
 	:og:locale: en
 `Static <https://www.php.net/manual/en/language.oop5.static.php>`_ and global keywords should be used as early as possible in a method. 
 

@@ -18,7 +18,7 @@ Random extension
 	:og:title: Random extension
 	:og:type: article
 	:og:description: The random extension
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extrandom.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Random extension.html
 	:og:locale: en
 The random extension. It improves the random generators from the older PHP version, and provides a OOP interface.
 

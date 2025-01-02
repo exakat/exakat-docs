@@ -18,7 +18,7 @@ All Uppercase Variables
 	:og:title: All Uppercase Variables
 	:og:type: article
 	:og:description: Usually, global variables are all in uppercase, so as to differentiate them easily
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Variables/VariableUppercase.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/All Uppercase Variables.html
 	:og:locale: en
 Usually, global variables are all in uppercase, so as to differentiate them easily. Though, this is not always the case, with examples like $argc, $argv or $http_response_header.
 

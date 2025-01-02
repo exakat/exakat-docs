@@ -18,7 +18,7 @@ Null On New
 	:og:title: Null On New
 	:og:type: article
 	:og:description: Until PHP 7, some classes instantiation could yield null, instead of throwing an exception
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/NullOnNew.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Null On New.html
 	:og:locale: en
 Until PHP 7, some classes instantiation could yield null, instead of throwing an `exception <https://www.php.net/exception>`_. 
 

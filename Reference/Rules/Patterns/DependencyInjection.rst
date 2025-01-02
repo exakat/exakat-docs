@@ -18,7 +18,7 @@ Dependency Injection
 	:og:title: Dependency Injection
 	:og:type: article
 	:og:description: A dependency injection is a typehinted argument, that is stored in a property by the constructor
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Patterns/DependencyInjection.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Dependency Injection.html
 	:og:locale: en
 A dependency injection is a typehinted argument, that is stored in a property by the constructor.
 

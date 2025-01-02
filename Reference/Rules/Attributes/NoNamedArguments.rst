@@ -18,7 +18,7 @@ No Named Parameters
 	:og:title: No Named Parameters
 	:og:type: article
 	:og:description: Named parameters were introduced in PHP 8
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Attributes/NoNamedArguments.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No Named Parameters.html
 	:og:locale: en
 Named parameters were introduced in PHP 8.0. They introduce a strong coupling between the parameter names and the calling structure: changing the parameter name breaks the call. 
 

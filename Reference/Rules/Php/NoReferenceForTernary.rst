@@ -18,7 +18,7 @@ No Reference For Ternary
 	:og:title: No Reference For Ternary
 	:og:type: article
 	:og:description: The ternary operator and the null coalescing operator are both expressions that only return values, and not a reference
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/NoReferenceForTernary.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No Reference For Ternary.html
 	:og:locale: en
 The ternary operator and the null coalescing operator are both expressions that only return values, and not a reference. 
 

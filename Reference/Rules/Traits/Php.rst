@@ -18,7 +18,7 @@ Redefined PHP Traits
 	:og:title: Redefined PHP Traits
 	:og:type: article
 	:og:description: List of all traits that bears name of a PHP trait
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Traits/Php.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Redefined PHP Traits.html
 	:og:locale: en
 List of all traits that bears name of a PHP trait. Although, at the moment (PHP 8.1), there are no PHP trait defined.
 Connex PHP features

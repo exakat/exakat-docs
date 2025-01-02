@@ -18,7 +18,7 @@ Multiply By One
 	:og:title: Multiply By One
 	:og:type: article
 	:og:description: Multiplying by 1 is a fancy type cast
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/MultiplyByOne.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Multiply By One.html
 	:og:locale: en
 Multiplying by 1 is a fancy type cast. 
 

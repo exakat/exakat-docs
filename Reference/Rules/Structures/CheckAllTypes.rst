@@ -18,7 +18,7 @@ Check All Types
 	:og:title: Check All Types
 	:og:type: article
 	:og:description: When checking for type, avoid using else
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/CheckAllTypes.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Check All Types.html
 	:og:locale: en
 When checking for type, avoid using else. Mention explicitly all tested types, and raise an `exception <https://www.php.net/exception>`_ when all available options have been exhausted : after all, this is when the code doesn't know how to handle the datatype.
 

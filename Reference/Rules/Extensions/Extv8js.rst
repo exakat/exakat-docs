@@ -18,7 +18,7 @@ ext/v8js
 	:og:title: ext/v8js
 	:og:type: article
 	:og:description: Extension v8js
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extv8js.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/v8js.html
 	:og:locale: en
 Extension v8js.
 

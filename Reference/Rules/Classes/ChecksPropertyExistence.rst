@@ -18,7 +18,7 @@ Checks Property Existence
 	:og:title: Checks Property Existence
 	:og:type: article
 	:og:description: This analysis reports checks property existence
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/ChecksPropertyExistence.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Checks Property Existence.html
 	:og:locale: en
 This analysis reports checks property existence. 
 

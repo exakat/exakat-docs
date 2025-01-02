@@ -18,7 +18,7 @@ Wrong Locale
 	:og:title: Wrong Locale
 	:og:type: article
 	:og:description: This rule checks the locale used in the code, against a library of known valid locales
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/WrongLocale.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Wrong Locale.html
 	:og:locale: en
 This rule checks the `locale <https://www.php.net/locale>`_ used in the code, against a library of known valid locales. Unknown locales are reported: they might be typos or unknown to certain systems.
 

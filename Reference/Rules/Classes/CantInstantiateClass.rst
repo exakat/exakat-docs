@@ -18,7 +18,7 @@ Can't Instantiate Class
 	:og:title: Can't Instantiate Class
 	:og:type: article
 	:og:description: When constructor is not public, it is not possible to instantiate such a class
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/CantInstantiateClass.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Can't Instantiate Class.html
 	:og:locale: en
 When constructor is not public, it is not possible to instantiate such a class. Either this is a conception choice, or there are factories to handle that. Either way, it is not possible to call new on such class.
 

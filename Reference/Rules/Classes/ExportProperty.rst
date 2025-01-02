@@ -18,7 +18,7 @@ Property Export
 	:og:title: Property Export
 	:og:type: article
 	:og:description: With a reference, it is possible to export a property and modify it from the outside
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/ExportProperty.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Property Export.html
 	:og:locale: en
 With a reference, it is possible to export a property and modify it from the outside. This requires the handling of the reference with a method and a variable. 
 

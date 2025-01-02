@@ -18,7 +18,7 @@ Insufficient Property Typehint
 	:og:title: Insufficient Property Typehint
 	:og:type: article
 	:og:description: The typehint used for a class property doesn't cover all it usage
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/InsufficientPropertyTypehint.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Insufficient Property Typehint.html
 	:og:locale: en
 The typehint used for a class property doesn't cover all it usage.
 

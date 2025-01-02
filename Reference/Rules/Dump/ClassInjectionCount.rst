@@ -18,7 +18,7 @@ Class Injection Count
 	:og:title: Class Injection Count
 	:og:type: article
 	:og:description: Counts the number of arguments in the constructor
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/ClassInjectionCount.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Class Injection Count.html
 	:og:locale: en
 Counts the number of arguments in the constructor. Variadic arguments are counted as one. The more injections in a constructor, the harder it is to use it. Although, the threshold for difficulty is probably quite high.
 

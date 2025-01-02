@@ -18,7 +18,7 @@ Cakephp
 	:og:title: Cakephp
 	:og:type: article
 	:og:description: This rules reports when the source code is based on the CakePHP framework
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Vendors/Cakephp.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Cakephp.html
 	:og:locale: en
 This rules reports when the source code is based on the CakePHP framework.
 

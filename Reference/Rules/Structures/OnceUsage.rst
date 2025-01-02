@@ -18,7 +18,7 @@ include_once() Usage
 	:og:title: include_once() Usage
 	:og:type: article
 	:og:description: This rules reports sage of ``include_once()`` and ``require_once()``
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/OnceUsage.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/include_once() Usage.html
 	:og:locale: en
 This rules reports sage of ``include_once()`` and ``require_once()``. Those functions should be avoided for performances reasons.
 

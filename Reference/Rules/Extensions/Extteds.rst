@@ -18,7 +18,7 @@ ext/teds
 	:og:title: ext/teds
 	:og:type: article
 	:og:description: teds (Tentative Extra Data Structures) is a collection of data structures and iterable functionality
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extteds.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/teds.html
 	:og:locale: en
 teds (Tentative Extra Data Structures) is a collection of data structures and iterable functionality.
 

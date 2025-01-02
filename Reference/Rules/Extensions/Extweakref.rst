@@ -18,7 +18,7 @@ ext/weakref
 	:og:title: ext/weakref
 	:og:type: article
 	:og:description: Weak References for PHP
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extweakref.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/weakref.html
 	:og:locale: en
 Weak References for PHP.
 

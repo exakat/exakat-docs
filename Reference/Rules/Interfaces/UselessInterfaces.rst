@@ -18,7 +18,7 @@ Useless Interfaces
 	:og:title: Useless Interfaces
 	:og:type: article
 	:og:description: The interfaces below are defined and are implemented by some classes
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Interfaces/UselessInterfaces.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Useless Interfaces.html
 	:og:locale: en
 The interfaces below are defined and are implemented by some classes. 
 

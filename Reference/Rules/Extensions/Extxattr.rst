@@ -18,7 +18,7 @@ ext/xattr
 	:og:title: ext/xattr
 	:og:type: article
 	:og:description: Extensions xattr
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extxattr.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/xattr.html
 	:og:locale: en
 Extensions xattr.
 

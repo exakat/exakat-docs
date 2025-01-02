@@ -18,7 +18,7 @@ Wrong Typed Property Default
 	:og:title: Wrong Typed Property Default
 	:og:type: article
 	:og:description: Property is typed, yet receives an incompatible value at constructor time
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/WrongTypedPropertyInit.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Wrong Typed Property Default.html
 	:og:locale: en
 Property is typed, yet receives an incompatible value at constructor time.
 

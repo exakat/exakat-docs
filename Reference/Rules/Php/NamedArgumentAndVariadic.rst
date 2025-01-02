@@ -18,7 +18,7 @@ Named Argument And Variadic
 	:og:title: Named Argument And Variadic
 	:og:type: article
 	:og:description: Variadic argument must be the last in the list of arguments
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/NamedArgumentAndVariadic.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Named Argument And Variadic.html
 	:og:locale: en
 Variadic argument must be the last in the list of arguments. Since PHP 8.1, it is possible to use named arguments after a variadic argument.
 

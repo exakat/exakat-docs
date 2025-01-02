@@ -18,7 +18,7 @@ ext/tokyotyrant
 	:og:title: ext/tokyotyrant
 	:og:type: article
 	:og:description: Extension for Tokyo Tyrant
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Exttokyotyrant.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/tokyotyrant.html
 	:og:locale: en
 Extension for Tokyo Tyrant.
 

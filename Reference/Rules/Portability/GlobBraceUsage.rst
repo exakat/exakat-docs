@@ -18,7 +18,7 @@ GLOB_BRACE Usage
 	:og:title: GLOB_BRACE Usage
 	:og:type: article
 	:og:description: GLOB_BRACE is not always available on every underlying operating system
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Portability/GlobBraceUsage.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/GLOB_BRACE Usage.html
 	:og:locale: en
 `GLOB_BRACE <https://www.php.net/GLOB_BRACE>`_ is not always available on every underlying operating system. This is the case on Solaris OS, and on Alpine OS, used for Docker.
 It is possible to check the support for `GLOB_BRACE <https://www.php.net/GLOB_BRACE>`_ by checking the presence of the constant.

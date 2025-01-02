@@ -18,7 +18,7 @@ Same Variable Foreach
 	:og:title: Same Variable Foreach
 	:og:type: article
 	:og:description: A foreach which uses its own source as a blind variable is actually broken
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/AutoUnsetForeach.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Same Variable Foreach.html
 	:og:locale: en
 A foreach which uses its own source as a blind variable is actually broken.
 

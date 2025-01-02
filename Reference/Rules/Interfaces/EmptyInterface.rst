@@ -18,7 +18,7 @@ Empty Interfaces
 	:og:title: Empty Interfaces
 	:og:type: article
 	:og:description: Empty interfaces are a code smell
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Interfaces/EmptyInterface.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Empty Interfaces.html
 	:og:locale: en
 Empty interfaces are a code smell. Interfaces should contains at least a method or a constant, and not be totally empty.
 

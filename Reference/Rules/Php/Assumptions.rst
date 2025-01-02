@@ -18,7 +18,7 @@ Assumptions
 	:og:title: Assumptions
 	:og:type: article
 	:og:description: Assumptions in the code, that leads to possible bugs
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/Assumptions.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Assumptions.html
 	:og:locale: en
 Assumptions in the code, that leads to possible bugs. 
 

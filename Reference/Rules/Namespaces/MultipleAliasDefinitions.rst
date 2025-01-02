@@ -18,7 +18,7 @@ Multiple Alias Definitions
 	:og:title: Multiple Alias Definitions
 	:og:type: article
 	:og:description: Some aliases are representing different classes across the repository
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Namespaces/MultipleAliasDefinitions.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Multiple Alias Definitions.html
 	:og:locale: en
 Some aliases are representing different classes across the repository. This leads to potential confusion. 
 

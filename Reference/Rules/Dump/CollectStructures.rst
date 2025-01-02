@@ -18,7 +18,7 @@ Collect Structures
 	:og:title: Collect Structures
 	:og:type: article
 	:og:description: This rule collects all defined structures in the source code, with their details
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/CollectStructures.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Collect Structures.html
 	:og:locale: en
 This rule collects all defined structures in the source code, with their details.
 

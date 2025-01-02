@@ -18,7 +18,7 @@ Composer Usage
 	:og:title: Composer Usage
 	:og:type: article
 	:og:description: Mark the usage of composer, mostly by having a ``composer
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Composer/UseComposer.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Composer Usage.html
 	:og:locale: en
 Mark the usage of composer, mostly by having a ``composer.json`` file.
 

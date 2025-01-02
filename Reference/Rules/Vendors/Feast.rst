@@ -18,7 +18,7 @@ Feast usage
 	:og:title: Feast usage
 	:og:type: article
 	:og:description: This analysis reports usage of the Feast framework
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Vendors/Feast.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Feast usage.html
 	:og:locale: en
 This analysis reports usage of the Feast framework.
 

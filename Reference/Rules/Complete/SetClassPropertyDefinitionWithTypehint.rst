@@ -18,7 +18,7 @@ Set Class Property Definition With Typehint
 	:og:title: Set Class Property Definition With Typehint
 	:og:type: article
 	:og:description: Links method call to its definition, thanks to property typehinting
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Complete/SetClassPropertyDefinitionWithTypehint.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Set Class Property Definition With Typehint.html
 	:og:locale: en
 Links method call to its definition, thanks to property typehinting. The link is ``DEFINITION``.
 

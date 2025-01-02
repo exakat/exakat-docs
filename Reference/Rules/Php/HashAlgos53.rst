@@ -18,7 +18,7 @@ Hash Algorithms Incompatible With PHP 5.3
 	:og:title: Hash Algorithms Incompatible With PHP 5.3
 	:og:type: article
 	:og:description: List of hash algorithms incompatible with PHP 5
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/HashAlgos53.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Hash Algorithms Incompatible With PHP 5.3.html
 	:og:locale: en
 List of hash algorithms incompatible with PHP 5.3.
 

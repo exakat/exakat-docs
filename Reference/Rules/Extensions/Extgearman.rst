@@ -18,7 +18,7 @@ ext/gearman
 	:og:title: ext/gearman
 	:og:type: article
 	:og:description: Extension Gearman
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extgearman.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/gearman.html
 	:og:locale: en
 Extension Gearman.
 

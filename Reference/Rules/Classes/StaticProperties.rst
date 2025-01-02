@@ -18,7 +18,7 @@ Static Properties
 	:og:title: Static Properties
 	:og:type: article
 	:og:description: List of all static properties
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/StaticProperties.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Static Properties.html
 	:og:locale: en
 List of all `static <https://www.php.net/manual/en/language.oop5.static.php>`_ properties.
 

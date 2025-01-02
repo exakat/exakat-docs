@@ -18,7 +18,7 @@ Missing Attribute Attribute
 	:og:title: Missing Attribute Attribute
 	:og:type: article
 	:og:description: A class that servers as attribute, should have the attribute ``#[Attribute]``
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Attributes/MissingAttributeAttribute.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Missing Attribute Attribute.html
 	:og:locale: en
 A class that servers as `attribute <https://www.php.net/attribute>`_, should have the `attribute <https://www.php.net/attribute>`_ ``#[`Attribute <https://www.php.net/attribute>`_]``. 
 

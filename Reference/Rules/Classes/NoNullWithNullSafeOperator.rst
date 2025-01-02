@@ -18,7 +18,7 @@ No Null With Null Safe Operator
 	:og:title: No Null With Null Safe Operator
 	:og:type: article
 	:og:description: When building an expression with a null-safe operator, it may fail and produce a NULL as a result
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/NoNullWithNullSafeOperator.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No Null With Null Safe Operator.html
 	:og:locale: en
 When building an expression with a null-safe operator, it may fail and produce a `NULL <https://www.php.net/manual/en/language.types.null.php>`_ as a `result <https://www.php.net/result>`_. When the last method of the expression also returns null (or void, which is transformed in null), then it is not possible to differentiate between a failure and a valid execution of the method. 
 

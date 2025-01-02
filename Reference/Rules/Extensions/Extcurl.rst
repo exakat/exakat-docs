@@ -18,7 +18,7 @@ ext/curl
 	:og:title: ext/curl
 	:og:type: article
 	:og:description: Extension curl
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extcurl.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/curl.html
 	:og:locale: en
 Extension curl.
 

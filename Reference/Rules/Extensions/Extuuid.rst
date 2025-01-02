@@ -18,7 +18,7 @@ ext/uuid
 	:og:title: ext/uuid
 	:og:type: article
 	:og:description: Extension ``UUID``
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extuuid.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/uuid.html
 	:og:locale: en
 Extension ``UUID``. A universally unique identifier (UUID) is a 128-bit number used to identify information in computer systems.
 

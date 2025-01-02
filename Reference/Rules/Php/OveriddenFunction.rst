@@ -18,7 +18,7 @@ PHP Overridden Function
 	:og:title: PHP Overridden Function
 	:og:type: article
 	:og:description: It is possible to declare and use a function with the same name as a PHP native, in a namespace
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/OveriddenFunction.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/PHP Overridden Function.html
 	:og:locale: en
 It is possible to declare and use a function with the same name as a PHP native, in a namespace. 
 

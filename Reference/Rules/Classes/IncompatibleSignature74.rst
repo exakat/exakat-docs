@@ -18,7 +18,7 @@ Incompatible Signature Methods With Covariance
 	:og:title: Incompatible Signature Methods With Covariance
 	:og:type: article
 	:og:description: Methods should have the compatible signature when being overwritten
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/IncompatibleSignature74.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Incompatible Signature Methods With Covariance.html
 	:og:locale: en
 Methods should have the compatible signature when being overwritten.
 

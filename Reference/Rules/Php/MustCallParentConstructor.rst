@@ -18,7 +18,7 @@ Must Call Parent Constructor
 	:og:title: Must Call Parent Constructor
 	:og:type: article
 	:og:description: Some PHP native classes require a call to ``parent::__construct()`` to be stable
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/MustCallParentConstructor.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Must Call Parent Constructor.html
 	:og:locale: en
 Some PHP native classes require a call to ``parent\:\:`__construct() <https://www.php.net/manual/en/language.oop5.decon.php>`_`` to be stable. 
 

@@ -18,7 +18,7 @@ Empty List
 	:og:title: Empty List
 	:og:type: article
 	:og:description: Empty list() are not allowed anymore in PHP 7
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/EmptyList.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Empty List.html
 	:og:locale: en
 Empty `list() <https://www.php.net/list>`_ are not allowed anymore in PHP 7. There must be at least one variable in the list call.
 

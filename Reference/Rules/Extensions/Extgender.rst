@@ -18,7 +18,7 @@ ext/gender
 	:og:title: ext/gender
 	:og:type: article
 	:og:description: Gender extension
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extgender.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/gender.html
 	:og:locale: en
 Gender extension.
 

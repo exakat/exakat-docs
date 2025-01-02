@@ -18,7 +18,7 @@ PHP 7.2 Deprecations
 	:og:title: PHP 7.2 Deprecations
 	:og:type: article
 	:og:description: Several functions are deprecated in PHP 7
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/Php72Deprecation.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/PHP 7.2 Deprecations.html
 	:og:locale: en
 Several functions are deprecated in PHP 7.2. 
 

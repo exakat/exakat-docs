@@ -18,7 +18,7 @@ Inconsistent Elseif
 	:og:title: Inconsistent Elseif
 	:og:type: article
 	:og:description: Chaining if/elseif requires a consistent string of conditions
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/InconsistentElseif.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Inconsistent Elseif.html
 	:og:locale: en
 Chaining if/elseif requires a consistent string of conditions. The conditions are executed one after the other, and the conditions shouldn't overlap.
 

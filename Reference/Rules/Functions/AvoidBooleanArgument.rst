@@ -18,7 +18,7 @@ Use Named Boolean In Argument Definition
 	:og:title: Use Named Boolean In Argument Definition
 	:og:type: article
 	:og:description: Boolean values in argument definition are confusing
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/AvoidBooleanArgument.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Use Named Boolean In Argument Definition.html
 	:og:locale: en
 Boolean values in argument definition are confusing. 
 

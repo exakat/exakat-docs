@@ -18,7 +18,7 @@ No Spread For Hash
 	:og:title: No Spread For Hash
 	:og:type: article
 	:og:description: The spread operator ``
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Arrays/NoSpreadForHash.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No Spread For Hash.html
 	:og:locale: en
 The spread operator ``...`` used to work only on integer-indexed arrays. This limitation was removed in PHP 8.1 and more recent.
 

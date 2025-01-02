@@ -18,7 +18,7 @@ Mismatched Ternary Alternatives
 	:og:title: Mismatched Ternary Alternatives
 	:og:type: article
 	:og:description: A ternary operator should yield the same type on both branches
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/MismatchedTernary.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Mismatched Ternary Alternatives.html
 	:og:locale: en
 A ternary operator should yield the same type on both branches.
 

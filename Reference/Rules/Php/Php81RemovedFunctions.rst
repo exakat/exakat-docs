@@ -18,7 +18,7 @@ PHP 8.1 Removed Functions
 	:og:title: PHP 8.1 Removed Functions
 	:og:type: article
 	:og:description: The following PHP native functions were deprecated in PHP 8
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/Php81RemovedFunctions.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/PHP 8.1 Removed Functions.html
 	:og:locale: en
 The following PHP native functions were deprecated in PHP 8.1, and will be removed in PHP 9.0.
 

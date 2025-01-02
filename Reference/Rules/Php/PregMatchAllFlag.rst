@@ -18,7 +18,7 @@ preg_match_all() Flag
 	:og:title: preg_match_all() Flag
 	:og:type: article
 	:og:description: preg_match_all() has an option to configure the structure of the results : it is either by capturing parenthesis (by default), or by result sets
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/PregMatchAllFlag.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/preg_match_all() Flag.html
 	:og:locale: en
 `preg_match_all() <https://www.php.net/preg_match_all>`_ has an option to configure the structure of the results : it is either by capturing parenthesis (by default), or by `result <https://www.php.net/result>`_ sets. 
 

@@ -18,7 +18,7 @@ ext/xsl
 	:og:title: ext/xsl
 	:og:type: article
 	:og:description: Extension XSL
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extxsl.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/xsl.html
 	:og:locale: en
 Extension XSL.
 

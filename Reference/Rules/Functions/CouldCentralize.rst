@@ -18,7 +18,7 @@ Could Make A Function
 	:og:title: Could Make A Function
 	:og:type: article
 	:og:description: When a function is called across the code with the same arguments often enough, it should be turned into a local API
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/CouldCentralize.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Could Make A Function.html
 	:og:locale: en
 When a function is called across the code with the same arguments often enough, it should be turned into a local API. 
 

@@ -18,7 +18,7 @@ No Private Abstract Method In Trait
 	:og:title: No Private Abstract Method In Trait
 	:og:type: article
 	:og:description: Method could not be both abstract and private in traits
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Traits/NoPrivateAbstract.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No Private Abstract Method In Trait.html
 	:og:locale: en
 Method could not be both abstract and private in traits. This was changed in PHP 8.0 : the class might overwrite the trait's method, since it has precedence of it. And when the class doesn't overwrite it, then the class has an abstract method, and can't be instantiated. 
 

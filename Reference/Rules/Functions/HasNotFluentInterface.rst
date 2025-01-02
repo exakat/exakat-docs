@@ -18,7 +18,7 @@ Method Is Not For Fluent Interface
 	:og:title: Method Is Not For Fluent Interface
 	:og:type: article
 	:og:description: Mark a method when it contains at least one return that doesn't return $this
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/HasNotFluentInterface.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Method Is Not For Fluent Interface.html
 	:og:locale: en
 Mark a method when it contains at least one return that doesn't return `$this <https://www.php.net/manual/en/language.oop5.basic.php>`_. Such method cannot be used for fluent interface, which always require the current object to be returned. 
 

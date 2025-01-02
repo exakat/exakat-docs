@@ -18,7 +18,7 @@ Static Variable Can Default To Arbitrary Expression
 	:og:title: Static Variable Can Default To Arbitrary Expression
 	:og:type: article
 	:og:description: Static variables can hold any type of PHP expression
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/StaticVariableDefaultCanBeAnyExpression.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Static Variable Can Default To Arbitrary Expression.html
 	:og:locale: en
 `Static <https://www.php.net/manual/en/language.oop5.static.php>`_ variables can hold any type of PHP expression. Indeed, those are variables, so their value can be build from other variables, and even functioncalls. 
 

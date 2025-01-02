@@ -18,7 +18,7 @@ Repeated print()
 	:og:title: Repeated print()
 	:og:type: article
 	:og:description: Merge several print or echo in one call, to speed up the processing
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/RepeatedPrint.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Repeated print().html
 	:og:locale: en
 Merge several print or echo in one call, to speed up the processing.
 

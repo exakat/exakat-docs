@@ -18,7 +18,7 @@ Multiple Exceptions Catch()
 	:og:title: Multiple Exceptions Catch()
 	:og:type: article
 	:og:description: It is possible to have several distinct exceptions class caught by the same catch, preventing code repetition
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Exceptions/MultipleCatch.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Multiple Exceptions Catch().html
 	:og:locale: en
 It is possible to have several distinct exceptions class caught by the same catch, preventing code repetition. 
 

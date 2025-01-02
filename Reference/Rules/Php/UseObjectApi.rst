@@ -18,7 +18,7 @@ Use PHP Object API
 	:og:title: Use PHP Object API
 	:og:type: article
 	:og:description: OOP API is the modern version of the PHP API
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/UseObjectApi.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Use PHP Object API.html
 	:og:locale: en
 OOP API is the modern version of the PHP API.
 

@@ -18,7 +18,7 @@ Objects Don't Need References
 	:og:title: Objects Don't Need References
 	:og:type: article
 	:og:description: There is no need to add references to parameters for objects, as those are always passed by reference when used as arguments
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ObjectReferences.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Objects Don't Need References.html
 	:og:locale: en
 There is no need to add references to parameters for objects, as those are always passed by reference when used as arguments.
 

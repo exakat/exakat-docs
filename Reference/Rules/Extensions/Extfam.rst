@@ -18,7 +18,7 @@ ext/fam
 	:og:title: ext/fam
 	:og:type: article
 	:og:description: File Alteration Monitor extension
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extfam.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/fam.html
 	:og:locale: en
 File Alteration Monitor extension.
 

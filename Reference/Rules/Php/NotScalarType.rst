@@ -18,7 +18,7 @@ Not A Scalar Type
 	:og:title: Not A Scalar Type
 	:og:type: article
 	:og:description: ``int`` is the actual PHP scalar type, not ``integer``
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/NotScalarType.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Not A Scalar Type.html
 	:og:locale: en
 ``int`` is the actual PHP scalar type, not ``integer``. 
 

@@ -3,6 +3,21 @@
 CompatibilityPHP70
 ++++++++++++++++++
 
+.. meta::
+	:description:
+		CompatibilityPHP70: List features that are incompatible with PHP 7.0..
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: CompatibilityPHP70
+	:twitter:description: CompatibilityPHP70: List features that are incompatible with PHP 7.0.
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: CompatibilityPHP70
+	:og:type: article
+	:og:description: List features that are incompatible with PHP 7.0.
+	:og:url: https://exakat.readthedocs.io/en/latest/Rulesets/CompatibilityPHP70.html
+	:og:locale: en
 This ruleset centralizes all analysis for the migration from PHP 5.6 to 7.0.
 
 Total : 69 analysis

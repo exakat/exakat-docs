@@ -18,7 +18,7 @@ Neos
 	:og:title: Neos
 	:og:type: article
 	:og:description: Neos CMS allows users to easily create, manage and optimize content that is loved
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Vendors/Neos.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Neos.html
 	:og:locale: en
 Neos CMS allows users to easily create, manage and optimize content that is loved. Neos is a free enterprise web content management system licensed under the GPL.
 

@@ -18,7 +18,7 @@ Unused Protected Methods
 	:og:title: Unused Protected Methods
 	:og:type: article
 	:og:description: The following protected methods are unused in children class
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/UnusedProtectedMethods.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Unused Protected Methods.html
 	:og:locale: en
 The following protected methods are unused in children class. As such, they may be considered for being private.
 

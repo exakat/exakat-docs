@@ -18,7 +18,7 @@ No Weak SSL Crypto
 	:og:title: No Weak SSL Crypto
 	:og:type: article
 	:og:description: When enabling PHP's stream SSL, it is important to use a safe protocol
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Security/NoWeakSSLCrypto.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No Weak SSL Crypto.html
 	:og:locale: en
 When enabling PHP's stream SSL, it is important to use a safe protocol. 
 

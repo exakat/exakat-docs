@@ -18,7 +18,7 @@ Return void
 	:og:title: Return void 
 	:og:type: article
 	:og:description: Return returns null as default value
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ReturnVoid.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Return void .html
 	:og:locale: en
 Return returns null as default value. It is recommended to mention explicitly 'null' or find a meaningful return such as a boolean or a default value instead.
 

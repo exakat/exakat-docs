@@ -18,7 +18,7 @@ Empty Function
 	:og:title: Empty Function
 	:og:type: article
 	:og:description: Function or method whose body is empty
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/EmptyFunction.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Empty Function.html
 	:og:locale: en
 Function or method whose body is empty. 
 

@@ -18,7 +18,7 @@ First Class Callable
 	:og:title: First Class Callable
 	:og:type: article
 	:og:description: A syntax using ellipsis was introduced to make it easy to make a method into a callable
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/FirstClassCallable.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/First Class Callable.html
 	:og:locale: en
 A syntax using ellipsis was introduced to make it easy to make a method into a callable.
 

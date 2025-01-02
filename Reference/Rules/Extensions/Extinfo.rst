@@ -18,7 +18,7 @@ ext/info
 	:og:title: ext/info
 	:og:type: article
 	:og:description: PHP Options and Information
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extinfo.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/info.html
 	:og:locale: en
 PHP Options and Information.
 

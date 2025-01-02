@@ -18,7 +18,7 @@ Variables With One Letter Names
 	:og:title: Variables With One Letter Names
 	:og:type: article
 	:og:description: Variables with one letter name are the shortest name for variables
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Variables/VariableOneLetter.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Variables With One Letter Names.html
 	:og:locale: en
 Variables with one letter name are the shortest name for variables. They also bear very little meaning : what does contain the variable ``$w`` ? 
 

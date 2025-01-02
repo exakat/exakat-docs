@@ -18,7 +18,7 @@ ext/sem
 	:og:title: ext/sem
 	:og:type: article
 	:og:description: Extension Semaphore, Shared Memory and IPC
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extsem.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/sem.html
 	:og:locale: en
 Extension Semaphore, Shared Memory and IPC.
 

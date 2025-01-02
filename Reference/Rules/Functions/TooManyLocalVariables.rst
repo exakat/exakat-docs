@@ -18,7 +18,7 @@ Too Many Local Variables
 	:og:title: Too Many Local Variables
 	:og:type: article
 	:og:description: Too many local variables were found in the methods
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/TooManyLocalVariables.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Too Many Local Variables.html
 	:og:locale: en
 Too many local variables were found in the methods. When over 15 variables are found in such a method, a violation is reported.
 

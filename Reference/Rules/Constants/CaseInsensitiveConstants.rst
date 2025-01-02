@@ -18,7 +18,7 @@ Case Insensitive Constants
 	:og:title: Case Insensitive Constants
 	:og:type: article
 	:og:description: PHP constants used to be able to be case insensitive, when defined with define() and the third argument
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Constants/CaseInsensitiveConstants.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Case Insensitive Constants.html
 	:og:locale: en
 PHP constants used to be able to be case insensitive, when defined with `define() <https://www.php.net/define>`_ and the third argument.
 

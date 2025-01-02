@@ -18,7 +18,7 @@ Old Style Constructor
 	:og:title: Old Style Constructor
 	:og:type: article
 	:og:description: PHP classes used to have the method bearing the same name as the class acts as the constructor
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/OldStyleConstructor.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Old Style Constructor.html
 	:og:locale: en
 PHP classes used to have the method bearing the same name as the class acts as the constructor. That was PHP 4, and early PHP 5. 
 

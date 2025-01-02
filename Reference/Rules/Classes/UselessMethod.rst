@@ -18,7 +18,7 @@ Useless Method
 	:og:title: Useless Method
 	:og:type: article
 	:og:description: This method is useless, as it actually does what PHP would do by default
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/UselessMethod.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Useless Method.html
 	:og:locale: en
 This method is useless, as it actually does what PHP would do by default. 
 

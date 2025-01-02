@@ -18,7 +18,7 @@ Too Much Indented
 	:og:title: Too Much Indented
 	:og:type: article
 	:og:description: Reports methods that are using more than one level of indentation on average
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/TooMuchIndented.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Too Much Indented.html
 	:og:locale: en
 Reports methods that are using more than one level of indentation on average. 
 

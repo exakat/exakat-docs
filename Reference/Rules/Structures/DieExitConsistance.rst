@@ -18,7 +18,7 @@ Die Exit Consistence
 	:og:title: Die Exit Consistence
 	:og:type: article
 	:og:description: Die and Exit have the same functional use
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/DieExitConsistance.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Die Exit Consistence.html
 	:og:locale: en
 `Die <https://www.php.net/die>`_ and `Exit <https://www.www.php.net/exit>`_ have the same functional use. 
 

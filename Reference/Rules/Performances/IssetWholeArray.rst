@@ -18,7 +18,7 @@ Isset() On The Whole Array
 	:og:title: Isset() On The Whole Array
 	:og:type: article
 	:og:description: Isset() works quietly on a whole array
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Performances/IssetWholeArray.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Isset() On The Whole Array.html
 	:og:locale: en
 `Isset() <https://www.www.php.net/isset>`_ works quietly on a whole array. There is no need to test all previous index before testing for the target index.
 

@@ -18,7 +18,7 @@ Collect Vendor Structures
 	:og:title: Collect Vendor Structures
 	:og:type: article
 	:og:description: Collect the structures (constant, function, classes, interfaces, traits, enums, 
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/CollectVendorStructures.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Collect Vendor Structures.html
 	:og:locale: en
 Collect the structures (constant, function, classes, interfaces, traits, enums, `...) <https://www.php.net/manual/en/functions.arguments.php#functions.variable-arg-list>`_ that are defined as stubs in the configuration.
 

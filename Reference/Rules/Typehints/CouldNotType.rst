@@ -18,7 +18,7 @@ Could Not Type
 	:og:title: Could Not Type
 	:og:type: article
 	:og:description: Mark arguments, return types and properties that could not be typed
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Typehints/CouldNotType.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Could Not Type.html
 	:og:locale: en
 Mark arguments, return types and properties that could not be typed.
 Arguments, return types and properties that have no explicit typehint, and that could yield no guess from the following analysis, are deemed unable to receive a type. 

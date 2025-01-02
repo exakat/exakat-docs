@@ -3,6 +3,21 @@
 Security
 ++++++++
 
+.. meta::
+	:description:
+		Security: Check the code for common security bad practices, especially in the Web environnement..
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Security
+	:twitter:description: Security: Check the code for common security bad practices, especially in the Web environnement.
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Security
+	:og:type: article
+	:og:description: Check the code for common security bad practices, especially in the Web environnement.
+	:og:url: https://exakat.readthedocs.io/en/latest/Rulesets/Security.html
+	:og:locale: en
 This ruleset focuses on code security. 
 
 Total : 47 analysis

@@ -18,7 +18,7 @@ New Constants In PHP 7.2
 	:og:title: New Constants In PHP 7.2
 	:og:type: article
 	:og:description: The following constants are now native in PHP 7
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/Php72NewConstants.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/New Constants In PHP 7.2.html
 	:og:locale: en
 The following constants are now native in PHP 7.2. It is advised to avoid using such names for constant before moving to this new version.
 

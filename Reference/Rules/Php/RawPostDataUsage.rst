@@ -18,7 +18,7 @@ $HTTP_RAW_POST_DATA Usage
 	:og:title: $HTTP_RAW_POST_DATA Usage
 	:og:type: article
 	:og:description: ``$HTTP_RAW_POST_DATA`` is deprecated, and should be replaced by ``php://input``
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/RawPostDataUsage.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/$HTTP_RAW_POST_DATA Usage.html
 	:og:locale: en
 ``$HTTP_RAW_POST_DATA`` is deprecated, and should be replaced by ``php://input``. 
 

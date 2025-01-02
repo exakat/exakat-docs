@@ -18,7 +18,7 @@ Method Property Confusion
 	:og:title: Method Property Confusion
 	:og:type: article
 	:og:description: There might be confusion between a property and a method when they bear the same name
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/MethodPropertyConfusion.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Method Property Confusion.html
 	:og:locale: en
 There might be confusion between a property and a method when they bear the same name. While it is a valid PHP syntax, using the same name for properties and methods leads to possible confusion in the code.
 

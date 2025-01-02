@@ -18,7 +18,7 @@ ext/ffi
 	:og:title: ext/ffi
 	:og:type: article
 	:og:description: Extension ``FFI`` : Foreign Function Interface 
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extffi.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/ffi.html
 	:og:locale: en
 Extension ``FFI`` : Foreign Function Interface .
 

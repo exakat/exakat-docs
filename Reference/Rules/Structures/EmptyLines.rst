@@ -18,7 +18,7 @@ Empty Instructions
 	:og:title: Empty Instructions
 	:og:type: article
 	:og:description: Empty instructions are part of the code that have no instructions
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/EmptyLines.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Empty Instructions.html
 	:og:locale: en
 Empty instructions are part of the code that have no instructions. 
 

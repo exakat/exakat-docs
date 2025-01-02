@@ -18,7 +18,7 @@ ext/ds
 	:og:title: ext/ds
 	:og:type: article
 	:og:description: Extension Data Structures : `Data structures <http://docs
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extds.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/ds.html
 	:og:locale: en
 Extension Data Structures : `Data structures <http://docs.php.net/manual/en/book.ds.php>`_.
 

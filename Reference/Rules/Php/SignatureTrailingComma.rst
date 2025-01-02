@@ -18,7 +18,7 @@ Signature Trailing Comma
 	:og:title: Signature Trailing Comma
 	:og:type: article
 	:og:description: Trailing comma in method signature
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/SignatureTrailingComma.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Signature Trailing Comma.html
 	:og:locale: en
 Trailing comma in method signature. This feature was added in PHP 8.0. 
 

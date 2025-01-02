@@ -18,7 +18,7 @@ Use Recursive count()
 	:og:title: Use Recursive count()
 	:og:type: article
 	:og:description: The native count() function is recursive: it can count all the elements inside multi-dimensional arrays
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/UseCountRecursive.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Use Recursive count().html
 	:og:locale: en
 The native `count() <https://www.php.net/count>`_ function is recursive: it can count all the elements inside multi-dimensional arrays. 
 

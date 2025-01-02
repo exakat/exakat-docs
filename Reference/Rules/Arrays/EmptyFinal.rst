@@ -18,7 +18,7 @@ Empty Final Element In Array
 	:og:title: Empty Final Element In Array
 	:og:type: article
 	:og:description: The array() construct allows for the empty last element
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Arrays/EmptyFinal.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Empty Final Element In Array.html
 	:og:locale: en
 The `array() <https://www.php.net/array>`_ construct allows for the empty last element. 
 

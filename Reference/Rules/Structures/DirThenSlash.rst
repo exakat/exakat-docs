@@ -18,7 +18,7 @@ __DIR__ Then Slash
 	:og:title: __DIR__ Then Slash
 	:og:type: article
 	:og:description: __DIR__ must be concatenated with a string starting with /
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/DirThenSlash.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/__DIR__ Then Slash.html
 	:og:locale: en
 `__DIR__ <https://www.php.net/manual/en/language.constants.predefined.php>`_ must be concatenated with a string starting with /.
 

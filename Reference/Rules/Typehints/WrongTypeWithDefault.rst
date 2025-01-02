@@ -18,7 +18,7 @@ Wrong Type With Default
 	:og:title: Wrong Type With Default
 	:og:type: article
 	:og:description: The default value is not of the declared type
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Typehints/WrongTypeWithDefault.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Wrong Type With Default.html
 	:og:locale: en
 The default value is not of the declared type. 
 

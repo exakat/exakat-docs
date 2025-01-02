@@ -18,7 +18,7 @@ ext/eaccelerator
 	:og:title: ext/eaccelerator
 	:og:type: article
 	:og:description: Extension Eaccelerator
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Exteaccelerator.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/eaccelerator.html
 	:og:locale: en
 Extension Eaccelerator.
 

@@ -18,7 +18,7 @@ PHP Echo Tag Usage
 	:og:title: PHP Echo Tag Usage
 	:og:type: article
 	:og:description: Usage of the short echo tab, that echo's directly the following content
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/EchoTagUsage.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/PHP Echo Tag Usage.html
 	:og:locale: en
 Usage of the short echo tab, that echo's directly the following content.
 <?= $variable; 

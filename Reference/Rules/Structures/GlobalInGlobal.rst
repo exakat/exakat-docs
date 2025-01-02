@@ -18,7 +18,7 @@ Global In Global
 	:og:title: Global In Global
 	:og:type: article
 	:og:description: List of global variables
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/GlobalInGlobal.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Global In Global.html
 	:og:locale: en
 List of global variables. There are the global variables, defined with the global keyword, and the implicit global variables, defined in the global scope.
 

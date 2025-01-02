@@ -18,7 +18,7 @@ Collect Class Traits Counts
 	:og:title: Collect Class Traits Counts
 	:og:type: article
 	:og:description: This rule counts the number of trait used in a class
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/CollectClassTraitsCounts.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Collect Class Traits Counts.html
 	:og:locale: en
 This rule counts the number of trait used in a class. The direct traits are counted, not the traits of the traits.
 

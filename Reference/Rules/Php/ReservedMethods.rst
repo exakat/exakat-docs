@@ -18,7 +18,7 @@ Reserved Methods
 	:og:title: Reserved Methods
 	:og:type: article
 	:og:description: PHP has reserved all the methods names, starting with two underscores characters ``__``
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/ReservedMethods.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Reserved Methods.html
 	:og:locale: en
 PHP has reserved all the methods names, starting with two underscores characters ``__``. 
 

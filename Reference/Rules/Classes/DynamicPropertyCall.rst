@@ -18,7 +18,7 @@ Dynamic Property
 	:og:title: Dynamic Property
 	:og:type: article
 	:og:description: Dynamic access to class property
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/DynamicPropertyCall.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Dynamic Property.html
 	:og:locale: en
 Dynamic access to class property. This is when the the name of the property is stored in a variable (or other container), rather than statically provided.
 

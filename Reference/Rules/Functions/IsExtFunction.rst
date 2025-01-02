@@ -18,7 +18,7 @@ Is An Extension Function
 	:og:title: Is An Extension Function
 	:og:type: article
 	:og:description: This is an extension function
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/IsExtFunction.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Is An Extension Function.html
 	:og:locale: en
 This is an extension function. 
 Almost every PHP extension defines extra functions. Nowadays, they are prefixed, like ``mysqli_connect``, ``ldap_close``, or ``zlib_decode``. Sometimes, they are even in a namespace. Refer to the extension itself to learn more about its functions usage.

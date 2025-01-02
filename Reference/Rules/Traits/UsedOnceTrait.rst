@@ -18,7 +18,7 @@ Used Once Trait
 	:og:title: Used Once Trait
 	:og:type: article
 	:og:description: Trait should promote code reuse and be used multiple time
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Traits/UsedOnceTrait.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Used Once Trait.html
 	:og:locale: en
 Trait should promote code reuse and be used multiple time. A trait that is used once might be as well merged into its host class, and removed. This is currently overengineered code.
 

@@ -18,7 +18,7 @@ Use random_int()
 	:og:title: Use random_int()
 	:og:type: article
 	:og:description: rand() and mt_rand() should be replaced with random_int()
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/BetterRand.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Use random_int().html
 	:og:locale: en
 `rand() <https://www.php.net/rand>`_ and `mt_rand() <https://www.php.net/mt_rand>`_ should be replaced with `random_int() <https://www.php.net/random_int>`_.
 

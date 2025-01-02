@@ -18,7 +18,7 @@ Use str_ends_with()
 	:og:title: Use str_ends_with()
 	:og:type: article
 	:og:description: There is a dedicated function to check the suffix of a string : it is called str_ends_with()
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/UseStrEndsWith.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Use str_ends_with().html
 	:og:locale: en
 There is a dedicated function to check the suffix of a string : it is called `str_ends_with() <https://www.php.net/str_ends_with>`_. It is available since PHP 8.0
 

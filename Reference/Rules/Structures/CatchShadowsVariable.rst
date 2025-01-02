@@ -18,7 +18,7 @@ Catch Overwrite Variable
 	:og:title: Catch Overwrite Variable
 	:og:type: article
 	:og:description: The try/catch structure uses some variables that are also in use in this scope
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/CatchShadowsVariable.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Catch Overwrite Variable.html
 	:og:locale: en
 The try/catch structure uses some variables that are also in use in this scope. In case of a caught `exception <https://www.php.net/exception>`_, the `exception <https://www.php.net/exception>`_ will be put in the catch variable, and overwrite the current value, loosing some data.
 It is recommended to use another name for these catch variables.

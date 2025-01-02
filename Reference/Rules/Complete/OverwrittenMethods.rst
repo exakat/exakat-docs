@@ -18,7 +18,7 @@ Overwritten Methods
 	:og:title: Overwritten Methods
 	:og:type: article
 	:og:description: This command adds OVERWRITE link between methods definitions of classes
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Complete/OverwrittenMethods.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Overwritten Methods.html
 	:og:locale: en
 This command adds OVERWRITE link between methods definitions of classes.
 

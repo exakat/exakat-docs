@@ -18,7 +18,7 @@ Extends stdClass
 	:og:title: Extends stdClass
 	:og:type: article
 	:og:description: Those classes extends ``stdClass``
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/ExtendsStdclass.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Extends stdClass.html
 	:og:locale: en
 Those classes extends ``stdClass``.
 

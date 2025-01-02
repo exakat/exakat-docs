@@ -18,7 +18,7 @@ Static Variables
 	:og:title: Static Variables
 	:og:type: article
 	:og:description: PHP variables may be static or standard
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Variables/StaticVariables.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Static Variables.html
 	:og:locale: en
 PHP variables may be `static <https://www.php.net/manual/en/language.oop5.static.php>`_ or standard. `Static <https://www.php.net/manual/en/language.oop5.static.php>`_ variables survive after the function execution end, and are available at the next function run. They are distinct from globals, which are available application wide, and from `static <https://www.php.net/manual/en/language.oop5.static.php>`_ properties, which are tied to a class. `Static <https://www.php.net/manual/en/language.oop5.static.php>`_ variables are tied to a function, method, `closure <https://www.php.net/`closure <https://www.php.net/closure>`_>`_ or arrow function.
 

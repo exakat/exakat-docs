@@ -18,7 +18,7 @@ Should Use Existing Constants
 	:og:title: Should Use Existing Constants
 	:og:type: article
 	:og:description: The following functions have related constants that should be used as arguments, instead of scalar literals, such as integers or strings
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/ShouldUseConstants.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Should Use Existing Constants.html
 	:og:locale: en
 The following functions have related constants that should be used as arguments, instead of scalar literals, such as integers or strings.
 

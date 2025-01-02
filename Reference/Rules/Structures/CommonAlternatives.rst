@@ -18,7 +18,7 @@ Common Alternatives
 	:og:title: Common Alternatives
 	:og:type: article
 	:og:description: In the following conditional structures, expressions were found that are common to both 'then' and 'else'
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/CommonAlternatives.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Common Alternatives.html
 	:og:locale: en
 In the following conditional structures, expressions were found that are common to both 'then' and 'else'. It may be interesting, though not always possible, to put them both out of the conditional, and reduce line count. 
 may be rewritten in :

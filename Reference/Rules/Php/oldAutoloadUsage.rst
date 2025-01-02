@@ -18,7 +18,7 @@ Old Style __autoload()
 	:og:title: Old Style __autoload()
 	:og:type: article
 	:og:description: Avoid __autoload(), only use spl_register_autoload()
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/oldAutoloadUsage.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Old Style __autoload().html
 	:og:locale: en
 Avoid __autoload(), only use spl_register_autoload().
 

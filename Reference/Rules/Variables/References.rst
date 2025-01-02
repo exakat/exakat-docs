@@ -18,7 +18,7 @@ Variable References
 	:og:title: Variable References
 	:og:type: article
 	:og:description: Variables that are holding references
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Variables/References.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Variable References.html
 	:og:locale: en
 Variables that are holding references.
 

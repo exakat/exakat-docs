@@ -18,7 +18,7 @@ Static Variable Initialisation
 	:og:title: Static Variable Initialisation
 	:og:type: article
 	:og:description: Static variables can be initialized like any other variable, straight from the ``static`` keyword
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Variables/StaticVariableInitialisation.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Static Variable Initialisation.html
 	:og:locale: en
 `Static <https://www.php.net/manual/en/language.oop5.static.php>`_ variables can be initialized like any other variable, straight from the ``static`` keyword. This was added in PHP 8.3.
 

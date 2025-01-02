@@ -18,7 +18,7 @@ Avoid Real
 	:og:title: Avoid Real
 	:og:type: article
 	:og:description: PHP has two float data type : real and double
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/AvoidReal.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Avoid Real.html
 	:og:locale: en
 PHP has two float data type : real and double. ``real`` is rarely used, and might be deprecated in PHP 7.4.
 

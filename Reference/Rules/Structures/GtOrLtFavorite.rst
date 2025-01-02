@@ -18,7 +18,7 @@ Comparisons Orientation
 	:og:title: Comparisons Orientation
 	:og:type: article
 	:og:description: Maths has two comparisons styles : ``>`` or ``<``
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/GtOrLtFavorite.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Comparisons Orientation.html
 	:og:locale: en
 Maths has two comparisons styles : ``>`` or ``<``. Both may include equality : ``<=`` and ``>=``.
 

@@ -18,7 +18,7 @@ Memoize MagicCall
 	:og:title: Memoize MagicCall
 	:og:type: article
 	:og:description: Cache calls to magic methods in local variable
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Performances/MemoizeMagicCall.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Memoize MagicCall.html
 	:og:locale: en
 Cache calls to magic methods in local variable. Local cache is faster than calling again the magic method as soon as the second call, provided that the value hasn't changed.
 

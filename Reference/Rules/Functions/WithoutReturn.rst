@@ -18,7 +18,7 @@ Methods Without Return
 	:og:title: Methods Without Return
 	:og:type: article
 	:og:description: List of all the functions, closures, methods that have no explicit return
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/WithoutReturn.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Methods Without Return.html
 	:og:locale: en
 List of all the functions, closures, methods that have no explicit return. 
 

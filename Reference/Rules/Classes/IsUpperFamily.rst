@@ -18,7 +18,7 @@ Is Upper Family
 	:og:title: Is Upper Family
 	:og:type: article
 	:og:description: Does the static call is made within the current hierarchy of class, or, is it made in the class, in the children or outside
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/IsUpperFamily.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Is Upper Family.html
 	:og:locale: en
 Does the `static <https://www.php.net/manual/en/language.oop5.static.php>`_ call is made within the current hierarchy of class, or, is it made in the class, in the children or outside. 
 

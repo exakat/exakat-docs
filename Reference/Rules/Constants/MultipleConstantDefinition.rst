@@ -18,7 +18,7 @@ Multiple Constant Definition
 	:og:title: Multiple Constant Definition
 	:og:type: article
 	:og:description: Some constants are defined several times in your code
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Constants/MultipleConstantDefinition.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Multiple Constant Definition.html
 	:og:locale: en
 Some constants are defined several times in your code. This will lead to a fatal `error <https://www.php.net/error>`_, if they are defined during the same execution. 
 

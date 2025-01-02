@@ -18,7 +18,7 @@ PHP 7.0 New Interfaces
 	:og:title: PHP 7.0 New Interfaces
 	:og:type: article
 	:og:description: The following interfaces are introduced in PHP 7
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/Php70NewInterfaces.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/PHP 7.0 New Interfaces.html
 	:og:locale: en
 The following interfaces are introduced in PHP 7.0. They shouldn't be defined in custom code.
 

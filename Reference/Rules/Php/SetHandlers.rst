@@ -18,7 +18,7 @@ PHP Handlers Usage
 	:og:title: PHP Handlers Usage
 	:og:type: article
 	:og:description: PHP has a number of handlers that may be replaced by customized code : session, shutdown, error, exception
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/SetHandlers.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/PHP Handlers Usage.html
 	:og:locale: en
 PHP has a number of handlers that may be replaced by customized code : session, shutdown, `error <https://www.php.net/error>`_, `exception <https://www.php.net/exception>`_. They are noted here.
 

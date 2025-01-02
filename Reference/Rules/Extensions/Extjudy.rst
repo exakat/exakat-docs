@@ -18,7 +18,7 @@ ext/judy
 	:og:title: ext/judy
 	:og:type: article
 	:og:description: The Judy extension
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extjudy.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/judy.html
 	:og:locale: en
 The `Judy <https://www.php.net/Judy>`_ extension. 
 

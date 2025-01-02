@@ -18,7 +18,7 @@ Rewrote Final Class Constant
 	:og:title: Rewrote Final Class Constant
 	:og:type: article
 	:og:description: Final class constants can't be rewriten in a child class
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/RewroteFinalClassConstant.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Rewrote Final Class Constant.html
 	:og:locale: en
 Final class constants can't be rewriten in a child class. 
 

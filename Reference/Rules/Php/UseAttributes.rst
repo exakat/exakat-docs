@@ -18,7 +18,7 @@ Use PHP Attributes
 	:og:title: Use PHP Attributes
 	:og:type: article
 	:og:description: This rule reports if PHP 8
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/UseAttributes.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Use PHP Attributes.html
 	:og:locale: en
 This rule reports if PHP 8.0 attributes are in use. 
 

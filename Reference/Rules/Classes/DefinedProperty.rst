@@ -18,7 +18,7 @@ Defined Properties
 	:og:title: Defined Properties
 	:og:type: article
 	:og:description: List of properties that are explicitly defined in the class, its parents or traits
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/DefinedProperty.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Defined Properties.html
 	:og:locale: en
 List of properties that are explicitly defined in the class, its parents or traits.
 

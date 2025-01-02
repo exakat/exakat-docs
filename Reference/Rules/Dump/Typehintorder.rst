@@ -18,7 +18,7 @@ Typehint Order
 	:og:title: Typehint Order
 	:og:type: article
 	:og:description: Topological order, based on typehints
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/Typehintorder.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Typehint Order.html
 	:og:locale: en
 Topological order, based on typehints. 
 

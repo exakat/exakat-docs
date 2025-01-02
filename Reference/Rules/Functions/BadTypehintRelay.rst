@@ -18,7 +18,7 @@ Bad Type Relay
 	:og:title: Bad Type Relay
 	:og:type: article
 	:og:description: A bad type relay happens where a types argument is relayed to a parameter with another type
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/BadTypehintRelay.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Bad Type Relay.html
 	:og:locale: en
 A bad type relay happens where a types argument is relayed to a parameter with another type. This leads to a Fatal `error <https://www.php.net/error>`_, and stops execution. This is possibly a piece of dead code.
 

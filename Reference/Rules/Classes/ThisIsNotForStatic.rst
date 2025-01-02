@@ -18,7 +18,7 @@ $this Is Not For Static Methods
 	:og:title: $this Is Not For Static Methods
 	:og:type: article
 	:og:description: Static methods shouldn't use $this variable
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/ThisIsNotForStatic.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/$this Is Not For Static Methods.html
 	:og:locale: en
 `Static <https://www.php.net/manual/en/language.oop5.static.php>`_ methods shouldn't use `$this <https://www.php.net/manual/en/language.oop5.basic.php>`_ variable.
 

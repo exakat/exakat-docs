@@ -18,7 +18,7 @@ Don't Pollute Global Space
 	:og:title: Don't Pollute Global Space
 	:og:type: article
 	:og:description: Avoid creating definitions in the global name space
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/DontPolluteGlobalSpace.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Don't Pollute Global Space.html
 	:og:locale: en
 Avoid creating definitions in the global name space.
 

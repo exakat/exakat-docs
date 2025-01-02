@@ -18,7 +18,7 @@ Shell commands
 	:og:title: Shell commands
 	:og:type: article
 	:og:description: Shell commands, called from PHP
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Type/Shellcommands.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Shell commands.html
 	:og:locale: en
 Shell commands, called from PHP. 
 

@@ -18,7 +18,7 @@ Could Be Private Class Constant
 	:og:title: Could Be Private Class Constant
 	:og:type: article
 	:og:description: Class constant may use ``private`` visibility
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/CouldBePrivateConstante.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Could Be Private Class Constant.html
 	:og:locale: en
 Class constant may use ``private`` visibility. 
 

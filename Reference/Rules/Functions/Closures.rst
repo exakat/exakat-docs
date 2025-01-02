@@ -18,7 +18,7 @@ Closures Glossary
 	:og:title: Closures Glossary
 	:og:type: article
 	:og:description: List of all the closures in the code
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/Closures.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Closures Glossary.html
 	:og:locale: en
 List of all the closures in the code.
 

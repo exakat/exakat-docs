@@ -18,7 +18,7 @@ No Hardcoded Ip
 	:og:title: No Hardcoded Ip
 	:og:type: article
 	:og:description: Do not leave hard coded IP in your code
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/NoHardcodedIp.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No Hardcoded Ip.html
 	:og:locale: en
 Do not leave hard coded IP in your code.
 

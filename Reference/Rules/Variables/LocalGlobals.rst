@@ -18,7 +18,7 @@ Local Globals
 	:og:title: Local Globals
 	:og:type: article
 	:og:description: A global variable is used locally in a method
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Variables/LocalGlobals.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Local Globals.html
 	:og:locale: en
 A global variable is used locally in a method. 
 

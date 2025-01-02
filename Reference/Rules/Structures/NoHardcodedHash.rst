@@ -18,7 +18,7 @@ No Hardcoded Hash
 	:og:title: No Hardcoded Hash
 	:og:type: article
 	:og:description: Hash should never be hardcoded
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/NoHardcodedHash.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No Hardcoded Hash.html
 	:og:locale: en
 Hash should never be hardcoded. 
 

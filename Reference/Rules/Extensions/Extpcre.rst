@@ -18,7 +18,7 @@ ext/pcre
 	:og:title: ext/pcre
 	:og:type: article
 	:og:description: Extension ext/pcre
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extpcre.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/pcre.html
 	:og:locale: en
 Extension ext/pcre. PCRE stands for Perl Compatible Regular Expression. It is a standard PHP extension.
 

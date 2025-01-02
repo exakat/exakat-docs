@@ -18,7 +18,7 @@ Fopen Binary Mode
 	:og:title: Fopen Binary Mode
 	:og:type: article
 	:og:description: Use explicit ``b`` when opening files
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Portability/FopenMode.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Fopen Binary Mode.html
 	:og:locale: en
 Use explicit ``b`` when opening files.
 

@@ -18,7 +18,7 @@ Could Use Class Operator
 	:og:title: Could Use Class Operator
 	:og:type: article
 	:og:description: The class operator is `::class`
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/CouldUseClassOperator.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Could Use Class Operator.html
 	:og:locale: en
 The class operator is `\:\:class`. With a class name as left operator, it provides the full class name. 
 

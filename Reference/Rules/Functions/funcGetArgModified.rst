@@ -18,7 +18,7 @@ func_get_arg() Modified
 	:og:title: func_get_arg() Modified
 	:og:type: article
 	:og:description: func_get_arg() and func_get_args() used to report the calling value of the argument until PHP 7
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/funcGetArgModified.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/func_get_arg() Modified.html
 	:og:locale: en
 `func_get_arg() <https://www.php.net/func_get_arg>`_ and `func_get_args() <https://www.php.net/func_get_args>`_ used to report the calling value of the argument until PHP 7. 
 

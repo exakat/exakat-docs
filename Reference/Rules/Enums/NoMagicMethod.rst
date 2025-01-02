@@ -18,7 +18,7 @@ No Magic Method For Enum
 	:og:title: No Magic Method For Enum
 	:og:type: article
 	:og:description: Enumeration cannot have magic methods, nor a constructor
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Enums/NoMagicMethod.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No Magic Method For Enum.html
 	:og:locale: en
 Enumeration cannot have magic methods, nor a constructor. Enumeration cases are created as needed, and magic methods are interfering with the default behavior of enumerations.
 

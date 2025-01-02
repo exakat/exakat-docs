@@ -18,7 +18,7 @@ ext/dom
 	:og:title: ext/dom
 	:og:type: article
 	:og:description: Extension Document Object Model
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extdom.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/dom.html
 	:og:locale: en
 Extension Document Object Model.
 

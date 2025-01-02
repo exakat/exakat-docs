@@ -18,7 +18,7 @@ Same Name For Property And Method
 	:og:title: Same Name For Property And Method
 	:og:type: article
 	:og:description: A property and a method have the same name
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/PropertyMethodSameName.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Same Name For Property And Method.html
 	:og:locale: en
 A property and a method have the same name. While it is a valid naming scheme with PHP, it may lead to confusion while codeing. 
 

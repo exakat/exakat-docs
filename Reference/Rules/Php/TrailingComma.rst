@@ -18,7 +18,7 @@ Trailing Comma In Calls
 	:og:title: Trailing Comma In Calls
 	:og:type: article
 	:og:description: The last argument may be left empty
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/TrailingComma.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Trailing Comma In Calls.html
 	:og:locale: en
 The last argument may be left empty. 
 

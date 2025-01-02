@@ -18,7 +18,7 @@ ext/phar
 	:og:title: ext/phar
 	:og:type: article
 	:og:description: Extension phar
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extphar.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/phar.html
 	:og:locale: en
 Extension `phar <https://www.php.net/phar>`_.
 

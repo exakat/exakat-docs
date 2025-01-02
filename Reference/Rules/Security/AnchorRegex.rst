@@ -18,7 +18,7 @@ Always Anchor Regex
 	:og:title: Always Anchor Regex
 	:og:type: article
 	:og:description: Unanchored regex finds the requested pattern, and leaves room for malicious content
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Security/AnchorRegex.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Always Anchor Regex.html
 	:og:locale: en
 Unanchored regex finds the requested pattern, and leaves room for malicious content. 
 

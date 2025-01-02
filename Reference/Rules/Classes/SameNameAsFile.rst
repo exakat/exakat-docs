@@ -18,7 +18,7 @@ Not Same Name As File
 	:og:title: Not Same Name As File
 	:og:type: article
 	:og:description: The class, interface or trait in this file as a different name, case included, than the file name
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/SameNameAsFile.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Not Same Name As File.html
 	:og:locale: en
 The class, interface or trait in this file as a different name, case included, than the file name. 
 

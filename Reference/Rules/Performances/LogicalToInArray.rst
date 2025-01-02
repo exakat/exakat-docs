@@ -18,7 +18,7 @@ Logical To in_array
 	:og:title: Logical To in_array
 	:og:type: article
 	:og:description: Multiple exclusive comparisons with ``or``` may be replaced by faster alternative
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Performances/LogicalToInArray.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Logical To in_array.html
 	:og:locale: en
 Multiple exclusive comparisons with ``or``` may be replaced by faster alternative. 
 

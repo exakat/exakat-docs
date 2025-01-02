@@ -18,7 +18,7 @@ Set Parent Definition
 	:og:title: Set Parent Definition
 	:og:type: article
 	:og:description: This command creates a DEFINITION link between `parent` keyword and the actual parent class
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Complete/SetParentDefinition.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Set Parent Definition.html
 	:og:locale: en
 This command creates a DEFINITION link between `parent` keyword and the actual `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ class.
 

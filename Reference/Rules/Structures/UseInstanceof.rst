@@ -18,7 +18,7 @@ Avoid get_class()
 	:og:title: Avoid get_class()
 	:og:type: article
 	:og:description: ``get_class()`` should be replaced with the ``instanceof`` operator to check the class of an object
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/UseInstanceof.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Avoid get_class().html
 	:og:locale: en
 ``get_class()`` should be replaced with the ``instanceof`` operator to check the class of an object. 
 

@@ -18,7 +18,7 @@ Collect Compared Literals
 	:og:title: Collect Compared Literals
 	:og:type: article
 	:og:description: This collects the different literals (null, integers, floats, strings) that are used in comparisons
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/DumpComparedLiterals.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Collect Compared Literals.html
 	:og:locale: en
 This collects the different literals (null, integers, floats, strings) that are used in comparisons. 
 

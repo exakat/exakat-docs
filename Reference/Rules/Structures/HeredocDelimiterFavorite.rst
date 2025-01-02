@@ -18,7 +18,7 @@ Heredoc Delimiter
 	:og:title: Heredoc Delimiter
 	:og:type: article
 	:og:description: Heredoc and Nowdoc expressions may use a variety of delimiters
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/HeredocDelimiterFavorite.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Heredoc Delimiter.html
 	:og:locale: en
 Heredoc and Nowdoc expressions may use a variety of delimiters. 
 

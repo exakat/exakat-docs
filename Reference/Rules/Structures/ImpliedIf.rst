@@ -18,7 +18,7 @@ Implied If
 	:og:title: Implied If
 	:og:type: article
 	:og:description: It is confusing to emulate if/then with boolean operators
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ImpliedIf.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Implied If.html
 	:og:locale: en
 It is confusing to emulate if/then with boolean operators.
 

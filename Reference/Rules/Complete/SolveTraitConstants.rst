@@ -18,7 +18,7 @@ Solve Trait Constants
 	:og:title: Solve Trait Constants
 	:og:type: article
 	:og:description: Adds a link between static constant usage and a class constant set in a trait
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Complete/SolveTraitConstants.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Solve Trait Constants.html
 	:og:locale: en
 Adds a link between `static <https://www.php.net/manual/en/language.oop5.static.php>`_ constant usage and a class constant set in a trait. 
 Constants in traits are added in PHP 8.2.

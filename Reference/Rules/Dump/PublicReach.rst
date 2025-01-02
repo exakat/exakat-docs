@@ -18,7 +18,7 @@ Public Reach To Private Methods
 	:og:title: Public Reach To Private Methods
 	:og:type: article
 	:og:description: This rule reports the ways to reach private and protected methods, by using only public methods
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/PublicReach.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Public Reach To Private Methods.html
 	:og:locale: en
 This rule reports the ways to reach private and protected methods, by using only public methods. 
 

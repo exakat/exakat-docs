@@ -18,7 +18,7 @@ Deep Definitions
 	:og:title: Deep Definitions
 	:og:type: article
 	:og:description: Structures, such as functions, classes, interfaces, traits, enum, etc
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/DeepDefinitions.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Deep Definitions.html
 	:og:locale: en
 Structures, such as functions, classes, interfaces, traits, enum, etc. may be defined anywhere in the code, including inside functions. This is legit code for PHP. 
 

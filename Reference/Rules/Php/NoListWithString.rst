@@ -18,7 +18,7 @@ No List With String
 	:og:title: No List With String
 	:og:type: article
 	:og:description: list() can't be used anymore to access particular offset in a string
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/NoListWithString.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No List With String.html
 	:og:locale: en
 `list() <https://www.php.net/list>`_ can't be used anymore to access particular offset in a string. This should be done with `substr() <https://www.php.net/substr>`_ or $string[$offset] syntax.
 

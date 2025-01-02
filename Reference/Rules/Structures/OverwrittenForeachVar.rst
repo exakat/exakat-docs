@@ -18,7 +18,7 @@ Overwritten Foreach Var
 	:og:title: Overwritten Foreach Var
 	:og:type: article
 	:og:description: When using standard blind variable names, nested foreach may lead to overwriting the variables
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/OverwrittenForeachVar.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Overwritten Foreach Var.html
 	:og:locale: en
 When using standard blind variable names, nested foreach may lead to overwriting the variables.
 

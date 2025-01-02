@@ -18,7 +18,7 @@ Comparison Is Always The Same
 	:og:title: Comparison Is Always The Same
 	:og:type: article
 	:og:description: Based on the incoming type of arguments, the comparison always yields the same value
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/AlwaysFalse.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Comparison Is Always The Same.html
 	:og:locale: en
 Based on the incoming type of arguments, the comparison always yields the same value. The whole condition might be useless.
 

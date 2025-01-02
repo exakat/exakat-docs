@@ -18,7 +18,7 @@ No Null For Native PHP Functions
 	:og:title: No Null For Native PHP Functions
 	:og:type: article
 	:og:description: Null is not acceptable anymore as an argument, for PHP native functions that require a non-nullable argument
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/NoNullForNative.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No Null For Native PHP Functions.html
 	:og:locale: en
 Null is not acceptable anymore as an argument, for PHP native functions that require a non-nullable argument.
 

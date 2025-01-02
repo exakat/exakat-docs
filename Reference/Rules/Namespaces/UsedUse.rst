@@ -18,7 +18,7 @@ Used Use
 	:og:title: Used Use
 	:og:type: article
 	:og:description: This rule lists the ``use`` statements
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Namespaces/UsedUse.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Used Use.html
 	:og:locale: en
 This rule lists the ``use`` statements. Those ``use`` are made to import namespaces structures, including functions and constants, and not to include traits in classes.
 

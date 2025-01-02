@@ -18,7 +18,7 @@ Group Use Trailing Comma
 	:og:title: Group Use Trailing Comma
 	:og:type: article
 	:og:description: The usage of a final empty slot in array() was allowed with use statements
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/GroupUseTrailingComma.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Group Use Trailing Comma.html
 	:og:locale: en
 The usage of a final empty slot in `array() <https://www.php.net/array>`_ was allowed with use statements. This works in PHP 7.2 and more recent.
 

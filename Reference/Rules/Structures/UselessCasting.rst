@@ -18,7 +18,7 @@ Useless Type Casting
 	:og:title: Useless Type Casting
 	:og:type: article
 	:og:description: There is no need to cast values that are already well typed
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/UselessCasting.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Useless Type Casting.html
 	:og:locale: en
 There is no need to cast values that are already well typed.
 

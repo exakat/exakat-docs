@@ -18,7 +18,7 @@ Collect Method Counts
 	:og:title: Collect Method Counts
 	:og:type: article
 	:og:description: This analysis collects the number of methods per class, trait or interface
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/CollectMethodCounts.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Collect Method Counts.html
 	:og:locale: en
 This analysis collects the number of methods per class, trait or interface. 
 

@@ -18,7 +18,7 @@ Different Argument Counts
 	:og:title: Different Argument Counts
 	:og:type: article
 	:og:description: Two methods with the same name shall have the same number of compulsory argument
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/DifferentArgumentCounts.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Different Argument Counts.html
 	:og:locale: en
 Two methods with the same name shall have the same number of compulsory argument. PHP accepts different number of arguments between two methods, if the extra arguments have default values. Basically, they shall be called interchangeably with the same number of arguments.
 

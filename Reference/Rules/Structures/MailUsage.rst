@@ -18,7 +18,7 @@ Mail Usage
 	:og:title: Mail Usage
 	:og:type: article
 	:og:description: Report usage of mail from PHP
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/MailUsage.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Mail Usage.html
 	:og:locale: en
 Report usage of mail from PHP. 
 

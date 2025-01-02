@@ -3,6 +3,21 @@
 CI-checks
 +++++++++
 
+.. meta::
+	:description:
+		CI-checks: Quick check for common best practices..
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: CI-checks
+	:twitter:description: CI-checks: Quick check for common best practices.
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: CI-checks
+	:og:type: article
+	:og:description: Quick check for common best practices.
+	:og:url: https://exakat.readthedocs.io/en/latest/Rulesets/CI-checks.html
+	:og:locale: en
 This ruleset is a collection of important rules to run in a CI pipeline.
 
 Total : 177 analysis

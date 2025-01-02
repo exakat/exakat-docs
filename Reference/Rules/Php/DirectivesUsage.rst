@@ -18,7 +18,7 @@ Directives Usage
 	:og:title: Directives Usage
 	:og:type: article
 	:og:description: This rule lists the directives mentioned in the code
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/DirectivesUsage.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Directives Usage.html
 	:og:locale: en
 This rule lists the directives mentioned in the code. When the directives are accessed in the code, it signals that they must be configured in PHP.ini first.
 

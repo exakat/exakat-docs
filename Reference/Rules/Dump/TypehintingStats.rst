@@ -18,7 +18,7 @@ Typehinting Stats
 	:og:title: Typehinting Stats
 	:og:type: article
 	:og:description: Collects various statistics about typehinting usage
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/TypehintingStats.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Typehinting Stats.html
 	:og:locale: en
 Collects various statistics about typehinting usage.
 

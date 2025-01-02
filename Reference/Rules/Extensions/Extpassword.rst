@@ -18,7 +18,7 @@ ext/password
 	:og:title: ext/password
 	:og:type: article
 	:og:description: Extension password
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extpassword.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/password.html
 	:og:locale: en
 Extension password.
 

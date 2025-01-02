@@ -18,7 +18,7 @@ Array Index
 	:og:title: Array Index
 	:og:type: article
 	:og:description: List of all indexes used in arrays
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Arrays/Arrayindex.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Array Index.html
 	:og:locale: en
 List of all indexes used in arrays. The indexes are strings or integers. They are accessed with different syntaxes: either the square brackets, or the => operator.
 

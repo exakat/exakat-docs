@@ -18,7 +18,7 @@ Blind Variables
 	:og:title: Blind Variables
 	:og:type: article
 	:og:description: Blind variables are that are used in foreach or for structure, for managing the loop itself
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Variables/Blind.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Blind Variables.html
 	:og:locale: en
 Blind variables are that are used in foreach or for structure, for managing the loop itself.
 

@@ -18,7 +18,7 @@ Can't Disable Class
 	:og:title: Can't Disable Class
 	:og:type: article
 	:og:description: This is the list of potentially dangerous PHP class being used in the code, such as \Phar
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Security/CantDisableClass.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Can't Disable Class.html
 	:og:locale: en
 This is the list of potentially dangerous PHP class being used in the code, such as \`Phar <https://www.php.net/phar>`_. 
 This analysis is the base for suggesting values for the ``disable_classes`` directive.

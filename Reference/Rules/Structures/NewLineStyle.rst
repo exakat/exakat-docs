@@ -18,7 +18,7 @@ New Line Style
 	:og:title: New Line Style
 	:og:type: article
 	:og:description: New lines may be written with the sequence \n or with the constant PHP_EOL
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/NewLineStyle.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/New Line Style.html
 	:og:locale: en
 New lines may be written with the sequence \n or with the constant `PHP_EOL <https://www.php.net/PHP_EOL>`_.
 

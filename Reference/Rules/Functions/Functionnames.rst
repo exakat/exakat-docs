@@ -18,7 +18,7 @@ Functions Glossary
 	:og:title: Functions Glossary
 	:og:type: article
 	:og:description: List of all the defined functions in the code
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/Functionnames.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Functions Glossary.html
 	:og:locale: en
 List of all the defined functions in the code.
 

@@ -18,7 +18,7 @@ Unserialize Second Arg
 	:og:title: Unserialize Second Arg
 	:og:type: article
 	:og:description: Since PHP 7, unserialize() function has a second argument that limits the classes that may be unserialized
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Security/UnserializeSecondArg.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Unserialize Second Arg.html
 	:og:locale: en
 Since PHP 7, `unserialize() <https://www.php.net/unserialize>`_ function has a second argument that limits the classes that may be unserialized. In case of a breach, this is limiting the classes accessible from `unserialize() <https://www.php.net/unserialize>`_. 
 

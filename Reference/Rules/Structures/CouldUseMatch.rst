@@ -18,7 +18,7 @@ Could Use Match
 	:og:title: Could Use Match
 	:og:type: article
 	:og:description: The switch() syntax use may be replaced by a match() call
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/CouldUseMatch.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Could Use Match.html
 	:og:locale: en
 The `switch() <https://www.php.net/manual/en/control-structures.switch.php>`_ syntax use may be replaced by a `match() <https://www.php.net/manual/en/control-structures.match.php>`_ call. 
 

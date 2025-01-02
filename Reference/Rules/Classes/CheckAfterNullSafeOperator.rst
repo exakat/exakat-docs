@@ -18,7 +18,7 @@ Check After Null Safe Operator
 	:og:title: Check After Null Safe Operator
 	:og:type: article
 	:og:description: Null-safe operator is ``
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/CheckAfterNullSafeOperator.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Check After Null Safe Operator.html
 	:og:locale: en
 Null-safe operator is ``?->``, which prevents fatal errors in case the object of the call is `NULL <https://www.php.net/manual/en/language.types.null.php>`_. The execution continues, though the `result <https://www.php.net/result>`_ of the expression is now `NULL <https://www.php.net/manual/en/language.types.null.php>`_ too. 
 

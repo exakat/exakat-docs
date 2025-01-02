@@ -18,7 +18,7 @@ Should Use Foreach
 	:og:title: Should Use Foreach
 	:og:type: article
 	:og:description: Use the ``foreach`` loop instead of ``for`` when traversing an array
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ShouldUseForeach.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Should Use Foreach.html
 	:og:locale: en
 Use the ``foreach`` loop instead of ``for`` when traversing an array.
 

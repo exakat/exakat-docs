@@ -18,7 +18,7 @@ Forgotten Thrown
 	:og:title: Forgotten Thrown
 	:og:type: article
 	:og:description: This rule reports when an exception is instantiated, but not thrown
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Exceptions/ForgottenThrown.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Forgotten Thrown.html
 	:og:locale: en
 This rule reports when an `exception <https://www.php.net/exception>`_ is instantiated, but not thrown. Often, this is a case of forgotten throw.
 

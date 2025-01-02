@@ -18,7 +18,7 @@ Too Many Children
 	:og:title: Too Many Children
 	:og:type: article
 	:og:description: Classes that have more than 15 children
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/TooManyChildren.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Too Many Children.html
 	:og:locale: en
 Classes that have more than 15 children. It is worth checking if they cannot be refactored in anyway.
 

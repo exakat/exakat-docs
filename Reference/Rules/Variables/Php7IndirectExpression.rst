@@ -18,7 +18,7 @@ Php 7 Indirect Expression
 	:og:title: Php 7 Indirect Expression
 	:og:type: article
 	:og:description: This rule reports variable indirect expressions, that are interpreted differently in PHP 5 and PHP 7
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Variables/Php7IndirectExpression.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Php 7 Indirect Expression.html
 	:og:locale: en
 This rule reports variable indirect expressions, that are interpreted differently in PHP 5 and PHP 7. 
 

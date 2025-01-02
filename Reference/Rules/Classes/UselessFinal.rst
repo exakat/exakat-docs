@@ -18,7 +18,7 @@ Useless Final
 	:og:title: Useless Final
 	:og:type: article
 	:og:description: When a class is declared final, all of its methods are also final by default
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/UselessFinal.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Useless Final.html
 	:og:locale: en
 When a class is declared final, all of its methods are also final by default. 
 

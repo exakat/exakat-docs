@@ -18,7 +18,7 @@ ext/wddx
 	:og:title: ext/wddx
 	:og:type: article
 	:og:description: Extension WDDX
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extwddx.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/wddx.html
 	:og:locale: en
 Extension WDDX.
 

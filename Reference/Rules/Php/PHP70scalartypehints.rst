@@ -18,7 +18,7 @@ PHP 7.0 Scalar Typehints
 	:og:title: PHP 7.0 Scalar Typehints
 	:og:type: article
 	:og:description: New scalar typehints were introduced : ``bool``, ``int``, ``float``, ``string``
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/PHP70scalartypehints.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/PHP 7.0 Scalar Typehints.html
 	:og:locale: en
 New scalar typehints were introduced : ``bool``, ``int``, ``float``, ``string``.
 

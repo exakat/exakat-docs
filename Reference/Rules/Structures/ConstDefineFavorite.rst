@@ -18,7 +18,7 @@ Const Or Define
 	:og:title: Const Or Define
 	:og:type: article
 	:og:description: ``const`` and ``define()`` have the same functional use : create constants
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ConstDefineFavorite.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Const Or Define.html
 	:og:locale: en
 ``const`` and ``define()`` have the same functional use : create constants. 
 

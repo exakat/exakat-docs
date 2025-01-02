@@ -18,7 +18,7 @@ Call Order
 	:og:title: Call Order
 	:og:type: article
 	:og:description: This is a representation of the code
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/CallOrder.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Call Order.html
 	:og:locale: en
 This is a representation of the code. Each node is a function or method, and each link a is call from a method to another.
 

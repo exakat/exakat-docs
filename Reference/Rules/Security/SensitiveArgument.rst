@@ -18,7 +18,7 @@ Sensitive Argument
 	:og:title: Sensitive Argument
 	:og:type: article
 	:og:description: Spot the argument that are sensitive for security
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Security/SensitiveArgument.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Sensitive Argument.html
 	:og:locale: en
 Spot the argument that are sensitive for security. The functioncalls that are hosting a sensitive argument are called a sink.
 

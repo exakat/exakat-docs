@@ -18,7 +18,7 @@ Override Attribute
 	:og:title: Override Attribute
 	:og:type: article
 	:og:description: Override is a native PHP attribute
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Attributes/Override.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Override Attribute.html
 	:og:locale: en
 `Override <https://www.php.net/override>`_ is a native PHP `attribute <https://www.php.net/attribute>`_. It was introduced in PHP 8.3, and was not available before. 
 

@@ -18,7 +18,7 @@ Difference Consistence
 	:og:title: Difference Consistence
 	:og:type: article
 	:og:description: There are two operators to check a difference : <> and !=
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/DifferencePreference.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Difference Consistence.html
 	:og:locale: en
 There are two operators to check a difference : <> and !=.
 

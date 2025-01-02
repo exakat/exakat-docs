@@ -18,7 +18,7 @@ Unconditional Break In Loop
 	:og:title: Unconditional Break In Loop
 	:og:type: article
 	:og:description: An unconditional break in a loop creates dead code
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/UnconditionLoopBreak.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Unconditional Break In Loop.html
 	:og:locale: en
 An unconditional `break <https://www.php.net/manual/en/control-structures.break.php>`_ in a loop creates dead code. Since the `break <https://www.php.net/manual/en/control-structures.break.php>`_ is directly in the body of the loop, it is always executed, creating a strange loop that can only run once. 
 

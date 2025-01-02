@@ -18,7 +18,7 @@ Always Positive Comparison
 	:og:title: Always Positive Comparison
 	:og:type: article
 	:og:description: Some PHP native functions, such as count(), strlen(), or abs() only returns positive or null values
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/NeverNegative.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Always Positive Comparison.html
 	:og:locale: en
 Some PHP native functions, such as `count() <https://www.php.net/count>`_, `strlen() <https://www.php.net/strlen>`_, or `abs() <https://www.php.net/abs>`_ only returns positive or null values. 
 

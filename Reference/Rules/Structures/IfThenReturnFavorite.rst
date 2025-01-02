@@ -18,7 +18,7 @@ If Then Return Favorite
 	:og:title: If Then Return Favorite
 	:og:type: article
 	:og:description: Show of hands: which syntax would you prefer in a PHP function - A, B or C
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/IfThenReturnFavorite.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/If Then Return Favorite.html
 	:og:locale: en
 Show of hands: which syntax would you prefer in a PHP function - A, B or C?  
 Based on a tweet from `Povilas Korop <https://twitter.com/PovilasKorop>`_ : `Show of hands: which syntax would you prefer in a PHP function - A, B or C?  <https://twitter.com/exakat/status/1542585298562998274>`_

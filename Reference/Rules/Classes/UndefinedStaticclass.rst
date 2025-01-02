@@ -18,7 +18,7 @@ Undefined \:\:class
 	:og:title: Undefined ::class
 	:og:type: article
 	:og:description: ``::class`` doesn't check if a corresponding class exists
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/UndefinedStaticclass.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Undefined ::class.html
 	:og:locale: en
 ``\:\:class`` doesn't check if a corresponding class exists. 
 

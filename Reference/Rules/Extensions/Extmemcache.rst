@@ -18,7 +18,7 @@ ext/memcache
 	:og:title: ext/memcache
 	:og:type: article
 	:og:description: Extension Memcache
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extmemcache.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/memcache.html
 	:og:locale: en
 Extension Memcache.
 

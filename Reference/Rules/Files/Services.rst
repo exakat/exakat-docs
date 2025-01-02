@@ -18,7 +18,7 @@ External Config Files
 	:og:title: External Config Files
 	:og:type: article
 	:og:description: List services being used in this code repository, based on configuration files that are committed
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Files/Services.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/External Config Files.html
 	:og:locale: en
 List services being used in this code repository, based on configuration files that are committed. 
 

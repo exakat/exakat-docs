@@ -18,7 +18,7 @@ Used Methods
 	:og:title: Used Methods
 	:og:type: article
 	:og:description: Those methods are used in the code: this means they have a definition and at least one call
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/UsedMethods.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Used Methods.html
 	:og:locale: en
 Those methods are used in the code: this means they have a definition and at least one call. They may have more than one call too. This analysis is mostly useful for detecting unused methods.
 

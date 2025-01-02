@@ -18,7 +18,7 @@ ext/varnish
 	:og:title: ext/varnish
 	:og:type: article
 	:og:description: Extension PHP for varnish
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extvarnish.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/varnish.html
 	:og:locale: en
 Extension PHP for varnish.
 

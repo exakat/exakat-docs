@@ -18,7 +18,7 @@ Unused Traits
 	:og:title: Unused Traits
 	:og:type: article
 	:og:description: Those traits are not used in any class or trait
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Traits/UnusedTrait.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Unused Traits.html
 	:og:locale: en
 Those traits are not used in any class or trait. They are probably dead code, as there is no way to use a trait without a host class.
 

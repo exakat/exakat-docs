@@ -18,7 +18,7 @@ Avoid option arrays in constructors
 	:og:title: Avoid option arrays in constructors
 	:og:type: article
 	:og:description: Avoid option arrays in constructors
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/AvoidOptionArrays.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Avoid option arrays in constructors.html
 	:og:locale: en
 Avoid option arrays in constructors. Use one parameter per injected element.
 

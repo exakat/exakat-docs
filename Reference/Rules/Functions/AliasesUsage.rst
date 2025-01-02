@@ -18,7 +18,7 @@ Native Alias Functions Usage
 	:og:title: Native Alias Functions Usage
 	:og:type: article
 	:og:description: PHP manual recommends to avoid function aliases
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/AliasesUsage.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Native Alias Functions Usage.html
 	:og:locale: en
 PHP manual recommends to avoid function aliases.
 

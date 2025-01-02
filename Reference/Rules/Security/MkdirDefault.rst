@@ -18,7 +18,7 @@ Mkdir Default
 	:og:title: Mkdir Default
 	:og:type: article
 	:og:description: mkdir() gives universal access to created folders, by default
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Security/MkdirDefault.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Mkdir Default.html
 	:og:locale: en
 `mkdir() <https://www.php.net/mkdir>`_ gives universal access to created folders, by default. It is recommended to gives limited set of rights (0755, 0700), or to explicitly set the rights to 0777.
 

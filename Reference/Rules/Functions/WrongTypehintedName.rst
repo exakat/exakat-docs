@@ -18,7 +18,7 @@ Wrong Typehinted Name
 	:og:title: Wrong Typehinted Name
 	:og:type: article
 	:og:description: The parameter name doesn't reflect the typehint used
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/WrongTypehintedName.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Wrong Typehinted Name.html
 	:og:locale: en
 The parameter name doesn't reflect the typehint used.
 

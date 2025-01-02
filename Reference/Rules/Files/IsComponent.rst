@@ -18,7 +18,7 @@ File Is Component
 	:og:title: File Is Component
 	:og:type: article
 	:og:description: Check that a file only contains definition elements, such as traits, interfaces, enumerations, declare, classes, constants, global variables, use or inclusions
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Files/IsComponent.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/File Is Component.html
 	:og:locale: en
 Check that a file only contains definition elements, such as traits, interfaces, enumerations, declare, classes, constants, global variables, use or inclusions. 
 

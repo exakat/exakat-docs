@@ -3,6 +3,21 @@
 Class Review
 ++++++++++++
 
+.. meta::
+	:description:
+		Class Review: A set of rules dedicated to class hygiene.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Class Review
+	:twitter:description: Class Review: A set of rules dedicated to class hygiene
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Class Review
+	:og:type: article
+	:og:description: A set of rules dedicated to class hygiene
+	:og:url: https://exakat.readthedocs.io/en/latest/Rulesets/Class Review.html
+	:og:locale: en
 This ruleset focuses on classes construction issues, and their related structures : traits, interfaces, methods, properties, constants.
 
 Total : 100 analysis

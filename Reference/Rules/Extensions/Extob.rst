@@ -18,7 +18,7 @@ ext/ob
 	:og:title: ext/ob
 	:og:type: article
 	:og:description: Extension Output Buffering Control
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extob.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/ob.html
 	:og:locale: en
 Extension Output Buffering Control.
 

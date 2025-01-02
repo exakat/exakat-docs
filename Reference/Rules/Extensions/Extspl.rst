@@ -18,7 +18,7 @@ ext/spl
 	:og:title: ext/spl
 	:og:type: article
 	:og:description: SPL extension
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extspl.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/spl.html
 	:og:locale: en
 SPL extension.
 

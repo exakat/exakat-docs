@@ -18,7 +18,7 @@ Possible TypeError
 	:og:title: Possible TypeError
 	:og:type: article
 	:og:description: Report possible errors when a string is given to a int or float typed container
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Exceptions/PossibleTypeError.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Possible TypeError.html
 	:og:locale: en
 Report possible errors when a string is given to a int or float typed container. 
 

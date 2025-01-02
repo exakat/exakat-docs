@@ -18,7 +18,7 @@ Wrong Attribute Configuration
 	:og:title: Wrong Attribute Configuration
 	:og:type: article
 	:og:description: A class is attributed to the wrong PHP structure
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/WrongAttributeConfiguration.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Wrong Attribute Configuration.html
 	:og:locale: en
 A class is attributed to the wrong PHP structure. A class may be an `attribute <https://www.php.net/attribute>`_, and it may also be configured to be used with different structures : classes, function, parameters, etc. When an `attribute <https://www.php.net/attribute>`_ has a configuration, it must be used with the correct structure.
 

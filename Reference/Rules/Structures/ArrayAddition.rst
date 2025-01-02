@@ -18,7 +18,7 @@ Array Addition
 	:og:title: Array Addition
 	:og:type: article
 	:og:description: Addition where one of the operands are arrays
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ArrayAddition.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Array Addition.html
 	:og:locale: en
 Addition where one of the operands are arrays.
 

@@ -18,7 +18,7 @@ ext/enchant
 	:og:title: ext/enchant
 	:og:type: article
 	:og:description: Extension Enchant
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extenchant.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/enchant.html
 	:og:locale: en
 Extension Enchant.
 

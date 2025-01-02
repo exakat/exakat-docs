@@ -18,7 +18,7 @@ Test Class
 	:og:title: Test Class
 	:og:type: article
 	:og:description: Those are test classes, based on popular UT frameworks
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/TestClass.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Test Class.html
 	:og:locale: en
 Those are test classes, based on popular UT frameworks.
 

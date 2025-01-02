@@ -18,7 +18,7 @@ ext/posix
 	:og:title: ext/posix
 	:og:type: article
 	:og:description: Extension POSIX
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extposix.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/posix.html
 	:og:locale: en
 Extension POSIX.
 

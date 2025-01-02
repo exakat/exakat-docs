@@ -18,7 +18,7 @@ Add Return Typehint
 	:og:title: Add Return Typehint
 	:og:type: article
 	:og:description: Add returntype to methods, functions, closures and arrow functions
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Complete/ReturnTypehint.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Add Return Typehint.html
 	:og:locale: en
 Add returntype to methods, functions, closures and arrow functions. The return types are read from the code and deduced, based on literal values, local types and operations.
 

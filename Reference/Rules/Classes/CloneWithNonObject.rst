@@ -18,7 +18,7 @@ Clone With Non-Object
 	:og:title: Clone With Non-Object
 	:og:type: article
 	:og:description: The ``clone`` keyword must be used on variables, properties or results from a function or method call
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/CloneWithNonObject.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Clone With Non-Object.html
 	:og:locale: en
 The ``clone`` keyword must be used on variables, properties or results from a function or method call. 
 

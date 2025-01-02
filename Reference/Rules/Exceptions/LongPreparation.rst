@@ -18,7 +18,7 @@ Long Preparation For Throw
 	:og:title: Long Preparation For Throw
 	:og:type: article
 	:og:description: When throwing an exception, move the preparing code in the exception
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Exceptions/LongPreparation.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Long Preparation For Throw.html
 	:og:locale: en
 When throwing an `exception <https://www.php.net/exception>`_, move the preparing code in the `exception <https://www.php.net/exception>`_. This will keep the ``throw`` call simple.
 

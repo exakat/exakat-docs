@@ -18,7 +18,7 @@ ext/opencensus
 	:og:title: ext/opencensus
 	:og:type: article
 	:og:description: Extension PHP for OpenCensus
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extopencensus.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/opencensus.html
 	:og:locale: en
 Extension PHP for OpenCensus. 
 

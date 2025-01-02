@@ -18,7 +18,7 @@ ext/leveldb
 	:og:title: ext/leveldb
 	:og:type: article
 	:og:description: PHP Binding for LevelDB
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extleveldb.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/leveldb.html
 	:og:locale: en
 PHP Binding for LevelDB.
 

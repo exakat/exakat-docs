@@ -18,7 +18,7 @@ Collect Property Counts
 	:og:title: Collect Property Counts
 	:og:type: article
 	:og:description: This analysis collects the number of properties per class or trait
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/CollectPropertyCounts.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Collect Property Counts.html
 	:og:locale: en
 This analysis collects the number of properties per class or trait. 
 

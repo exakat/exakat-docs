@@ -18,7 +18,7 @@ Strict In_Array() Preference
 	:og:title: Strict In_Array() Preference
 	:og:type: article
 	:og:description: It is possible to set in_array() to strict search mode, by using the third argument
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/StrictInArrayFavorite.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Strict In_Array() Preference.html
 	:og:locale: en
 It is possible to set `in_array() <https://www.php.net/in_array>`_ to strict search mode, by using the third argument.
 

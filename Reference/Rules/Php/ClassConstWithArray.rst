@@ -18,7 +18,7 @@ Class Const With Array
 	:og:title: Class Const With Array
 	:og:type: article
 	:og:description: This rule lists global and class constant that are defined with an array value
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/ClassConstWithArray.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Class Const With Array.html
 	:og:locale: en
 This rule lists global and class constant that are defined with an array value. This feature was added in PHP 5.6.
 

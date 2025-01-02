@@ -18,7 +18,7 @@ Unused Label
 	:og:title: Unused Label
 	:og:type: article
 	:og:description: Some labels have been defined in the code, but they are not used
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/UnusedLabel.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Unused Label.html
 	:og:locale: en
 Some labels have been defined in the code, but they are not used. They may be removed as they are dead code.
 

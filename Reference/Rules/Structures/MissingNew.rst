@@ -18,7 +18,7 @@ Maybe Missing New
 	:og:title: Maybe Missing New
 	:og:type: article
 	:og:description: This functioncall looks like a class instantiation that is missing the new keyword
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/MissingNew.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Maybe Missing New.html
 	:og:locale: en
 This functioncall looks like a class instantiation that is missing the new keyword.
 

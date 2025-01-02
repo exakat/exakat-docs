@@ -18,7 +18,7 @@ New Order
 	:og:title: New Order
 	:og:type: article
 	:og:description: Order in which new calls must be called
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/NewOrder.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/New Order.html
 	:og:locale: en
 Order in which new calls must be called. When a class uses another class type in its constructor, this means the second class must be instantiated before creating the first. This creates an order for classes.
 

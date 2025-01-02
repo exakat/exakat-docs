@@ -18,7 +18,7 @@ PHP 80 Named Parameter Variadic
 	:og:title: PHP 80 Named Parameter Variadic
 	:og:type: article
 	:og:description: Named parameter with variadic have been renamed from 0 to 'parameter name' in PHP 8
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/Php80NamedParameterVariadic.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/PHP 80 Named Parameter Variadic.html
 	:og:locale: en
 Named parameter with variadic have been renamed from 0 to 'parameter name' in PHP 8.0.
 In PHP 7.0, with positional argument only, the content of $b is in an array, index 0. This is also true with PHP 8.0.

@@ -18,7 +18,7 @@ Useless Short Ternary
 	:og:title: Useless Short Ternary
 	:og:type: article
 	:og:description: The short ternary operates on empty or null values
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/UselessShortTernary.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Useless Short Ternary.html
 	:og:locale: en
 The short ternary operates on empty or null values. When the type of the condition is not false, boolean or null, the operator is useless.
 

@@ -18,7 +18,7 @@ Strpos()-like Comparison
 	:og:title: Strpos()-like Comparison
 	:og:type: article
 	:og:description: The result of that function may be mistaken with an error
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/StrposCompare.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Strpos()-like Comparison.html
 	:og:locale: en
 The `result <https://www.php.net/result>`_ of that function may be mistaken with an `error <https://www.php.net/error>`_.
 

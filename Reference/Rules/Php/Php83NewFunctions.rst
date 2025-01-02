@@ -18,7 +18,7 @@ New Functions In PHP 8.3
 	:og:title: New Functions In PHP 8.3
 	:og:type: article
 	:og:description: New functions are added to new PHP version
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/Php83NewFunctions.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/New Functions In PHP 8.3.html
 	:og:locale: en
 New functions are added to new PHP version.
 

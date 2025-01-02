@@ -18,7 +18,7 @@ Direct Call To __clone()
 	:og:title: Direct Call To __clone()
 	:og:type: article
 	:og:description: Direct call to magic method ``__clone()`` was forbidden
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/DirectCallToClone.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Direct Call To __clone().html
 	:og:locale: en
 Direct call to magic method ``__clone()`` was forbidden. It is allowed since PHP 7.0. 
 

@@ -18,7 +18,7 @@ Hidden Use Expression
 	:og:title: Hidden Use Expression
 	:og:type: article
 	:og:description: The use expression for namespaces should always be at the beginning of the namespace block
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Namespaces/HiddenUse.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Hidden Use Expression.html
 	:og:locale: en
 The use expression for namespaces should always be at the beginning of the namespace block. 
 

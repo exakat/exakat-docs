@@ -18,7 +18,7 @@ Should Be Single Quote
 	:og:title: Should Be Single Quote
 	:og:type: article
 	:og:description: Use single quote for simple strings
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Type/ShouldBeSingleQuote.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Should Be Single Quote.html
 	:og:locale: en
 Use single quote for simple strings.
 

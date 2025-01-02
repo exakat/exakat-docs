@@ -18,7 +18,7 @@ Use With Fully Qualified Name
 	:og:title: Use With Fully Qualified Name
 	:og:type: article
 	:og:description: Use statement doesn't require a fully qualified name
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Namespaces/UseWithFullyQualifiedNS.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Use With Fully Qualified Name.html
 	:og:locale: en
 Use statement doesn't require a fully qualified name.
 

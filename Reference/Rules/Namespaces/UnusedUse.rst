@@ -18,7 +18,7 @@ Unused Use
 	:og:title: Unused Use
 	:og:type: article
 	:og:description: Unused use statements
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Namespaces/UnusedUse.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Unused Use.html
 	:og:locale: en
 Unused use statements. They may be removed, as they clutter the code and slows PHP by forcing it to search in this list for nothing.
 

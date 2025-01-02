@@ -3,6 +3,21 @@
 CompatibilityPHP55
 ++++++++++++++++++
 
+.. meta::
+	:description:
+		CompatibilityPHP55: List features that are incompatible with PHP 5.5..
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: CompatibilityPHP55
+	:twitter:description: CompatibilityPHP55: List features that are incompatible with PHP 5.5.
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: CompatibilityPHP55
+	:og:type: article
+	:og:description: List features that are incompatible with PHP 5.5.
+	:og:url: https://exakat.readthedocs.io/en/latest/Rulesets/CompatibilityPHP55.html
+	:og:locale: en
 This ruleset centralizes all analysis for the migration from PHP 5.4 to 5.5.
 
 Total : 88 analysis

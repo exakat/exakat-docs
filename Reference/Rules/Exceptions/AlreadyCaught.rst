@@ -18,7 +18,7 @@ Exception Order
 	:og:title: Exception Order
 	:og:type: article
 	:og:description: When catching exception, the most specialized exceptions must be in the early catch, and the most general exceptions must be in the later catch
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Exceptions/AlreadyCaught.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Exception Order.html
 	:og:locale: en
 When catching `exception <https://www.php.net/exception>`_, the most specialized exceptions must be in the early catch, and the most general exceptions must be in the later catch. Otherwise, the general catches intercept the `exception <https://www.php.net/exception>`_, and the more specialized will not be read.
 

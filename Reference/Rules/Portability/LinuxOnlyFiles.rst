@@ -18,7 +18,7 @@ Linux Only Files
 	:og:title: Linux Only Files
 	:og:type: article
 	:og:description: List of files that are only found on Linux style systems
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Portability/LinuxOnlyFiles.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Linux Only Files.html
 	:og:locale: en
 List of files that are only found on Linux style systems. They are making the application depend on the system.
 

@@ -18,7 +18,7 @@ Should Use array_column()
 	:og:title: Should Use array_column()
 	:og:type: article
 	:og:description: Avoid writing a whole slow loop, and use the native array_column()
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/ShouldUseArrayColumn.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Should Use array_column().html
 	:og:locale: en
 Avoid writing a whole slow loop, and use the native `array_column() <https://www.php.net/array_column>`_.
 

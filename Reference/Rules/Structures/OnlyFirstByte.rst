@@ -18,7 +18,7 @@ Only First Byte
 	:og:title: Only First Byte 
 	:og:type: article
 	:og:description: When assigning a char to a string with an array notation, only the first byte is used
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/OnlyFirstByte.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Only First Byte .html
 	:og:locale: en
 When assigning a char to a string with an array notation, only the first byte is used.
 

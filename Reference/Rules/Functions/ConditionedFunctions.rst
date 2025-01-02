@@ -18,7 +18,7 @@ Conditioned Function
 	:og:title: Conditioned Function
 	:og:type: article
 	:og:description: Indicates if a function is defined only if a condition is met
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/ConditionedFunctions.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Conditioned Function.html
 	:og:locale: en
 Indicates if a function is defined only if a condition is met.
 

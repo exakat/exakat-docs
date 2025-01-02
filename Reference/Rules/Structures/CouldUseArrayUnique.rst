@@ -18,7 +18,7 @@ Could Use array_unique
 	:og:title: Could Use array_unique
 	:og:type: article
 	:og:description: Use array_unique() to collect unique elements from an array
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/CouldUseArrayUnique.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Could Use array_unique.html
 	:og:locale: en
 Use `array_unique() <https://www.php.net/array_unique>`_ to collect unique elements from an array.
 

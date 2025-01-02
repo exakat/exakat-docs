@@ -18,7 +18,7 @@ Utf8 Encode And Decode Are Deprecated
 	:og:title: Utf8 Encode And Decode Are Deprecated
 	:og:type: article
 	:og:description: utf8_encode() and utf8_decode() are deprecated in PHP 8
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/Utf8EncodeDeprecated.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Utf8 Encode And Decode Are Deprecated.html
 	:og:locale: en
 `utf8_encode() <https://www.php.net/utf8_encode>`_ and `utf8_decode() <https://www.php.net/utf8_decode>`_ are deprecated in PHP 8.0. They are planned removal in PHP 9.0.
 

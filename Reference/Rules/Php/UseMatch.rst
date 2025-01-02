@@ -18,7 +18,7 @@ Uses PHP 8 Match()
 	:og:title: Uses PHP 8 Match()
 	:og:type: article
 	:og:description: This rule reports usage of the the match() syntax
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/UseMatch.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Uses PHP 8 Match().html
 	:og:locale: en
 This rule reports usage of the the `match() <https://www.php.net/manual/en/control-structures.match.php>`_ syntax.
 

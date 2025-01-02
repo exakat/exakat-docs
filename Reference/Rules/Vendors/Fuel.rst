@@ -18,7 +18,7 @@ Fuel PHP Usage
 	:og:title: Fuel PHP Usage
 	:og:type: article
 	:og:description: This analysis reports usage of the Fuel PHP Framework
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Vendors/Fuel.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Fuel PHP Usage.html
 	:og:locale: en
 This analysis reports usage of the Fuel PHP Framework. 
 Do not confuse fuelPHP and fuelCMS

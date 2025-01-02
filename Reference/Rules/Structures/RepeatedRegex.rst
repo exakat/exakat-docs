@@ -18,7 +18,7 @@ Repeated Regex
 	:og:title: Repeated Regex
 	:og:type: article
 	:og:description: Repeated regex should be centralized
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/RepeatedRegex.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Repeated Regex.html
 	:og:locale: en
 Repeated regex should be centralized. 
 

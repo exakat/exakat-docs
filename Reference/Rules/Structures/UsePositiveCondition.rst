@@ -18,7 +18,7 @@ Use Positive Condition
 	:og:title: Use Positive Condition
 	:og:type: article
 	:og:description: Whenever possible, use a positive condition
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/UsePositiveCondition.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Use Positive Condition.html
 	:og:locale: en
 Whenever possible, use a positive condition. 
 

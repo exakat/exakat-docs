@@ -18,7 +18,7 @@ Should Make Alias
 	:og:title: Should Make Alias
 	:og:type: article
 	:og:description: Long names should be aliased
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Namespaces/ShouldMakeAlias.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Should Make Alias.html
 	:og:locale: en
 Long names should be aliased.
 

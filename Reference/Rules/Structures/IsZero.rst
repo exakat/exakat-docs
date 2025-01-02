@@ -18,7 +18,7 @@ Is Actually Zero
 	:og:title: Is Actually Zero
 	:og:type: article
 	:og:description: This addition actually may be simplified because one term is actually negated by another
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/IsZero.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Is Actually Zero.html
 	:og:locale: en
 This addition actually may be simplified because one term is actually negated by another. 
 

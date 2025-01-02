@@ -18,7 +18,7 @@ Altering Foreach Without Reference
 	:og:title: Altering Foreach Without Reference
 	:og:type: article
 	:og:description: Foreach() loop that could use a reference as value
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/AlteringForeachWithoutReference.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Altering Foreach Without Reference.html
 	:og:locale: en
 `Foreach() <https://www.php.net/manual/en/control-structures.foreach.php>`_ loop that could use a reference as value. 
 

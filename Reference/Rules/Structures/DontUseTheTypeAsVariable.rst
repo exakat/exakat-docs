@@ -18,7 +18,7 @@ Don't Use The Type As Variable Name
 	:og:title: Don't Use The Type As Variable Name
 	:og:type: article
 	:og:description: When it is difficult to find a good name, it is very tempting to use the type
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/DontUseTheTypeAsVariable.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Don't Use The Type As Variable Name.html
 	:og:locale: en
 When it is difficult to find a good name, it is very tempting to use the type.
 

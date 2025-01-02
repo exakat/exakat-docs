@@ -18,7 +18,7 @@ ext/bcmath
 	:og:title: ext/bcmath
 	:og:type: article
 	:og:description: Extension BC Math
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extbcmath.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/bcmath.html
 	:og:locale: en
 Extension BC Math.
 

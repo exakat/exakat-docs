@@ -18,7 +18,7 @@ Could Be CIT
 	:og:title: Could Be CIT
 	:og:type: article
 	:og:description: Mark arguments and return types that can be set to a class, interface definition
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Typehints/CouldBeCIT.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Could Be CIT.html
 	:og:locale: en
 Mark arguments and return types that can be set to a class, interface definition.
 

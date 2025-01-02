@@ -18,7 +18,7 @@ PHP Exception
 	:og:title: PHP Exception
 	:og:type: article
 	:og:description: Mark an exception as a native exception
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Exceptions/IsPhpException.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/PHP Exception.html
 	:og:locale: en
 Mark an `exception <https://www.php.net/exception>`_ as a native `exception <https://www.php.net/exception>`_. They may come from PHP standard distribution or an extension.
 

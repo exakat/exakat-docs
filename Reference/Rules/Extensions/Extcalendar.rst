@@ -18,7 +18,7 @@ ext/calendar
 	:og:title: ext/calendar
 	:og:type: article
 	:og:description: Extension ext/calendar
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extcalendar.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/calendar.html
 	:og:locale: en
 Extension ext/calendar.
 

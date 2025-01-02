@@ -18,7 +18,7 @@ Could Use Null-Safe Object Operator
 	:og:title: Could Use Null-Safe Object Operator
 	:og:type: article
 	:og:description: When the preceding function call has the potential to return null, employing the null-safe object operator can help mitigate fatal errors
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/CouldUseNullableOperator.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Could Use Null-Safe Object Operator.html
 	:og:locale: en
 When the preceding function call has the potential to return null, employing the null-safe object operator can help mitigate fatal errors.
 

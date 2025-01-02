@@ -18,7 +18,7 @@ Caught Variable
 	:og:title: Caught Variable
 	:og:type: article
 	:og:description: Catch clauses require an exception and a variable name
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Exceptions/CatchE.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Caught Variable.html
 	:og:locale: en
 Catch clauses require an `exception <https://www.php.net/exception>`_ and a variable name. Often, the variable name is the same, `$e`, as learnt from the manual.
 

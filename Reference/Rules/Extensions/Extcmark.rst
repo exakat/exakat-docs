@@ -18,7 +18,7 @@ ext/cmark
 	:og:title: ext/cmark
 	:og:type: article
 	:og:description: Extension Cmark, for Common Mark
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extcmark.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/cmark.html
 	:og:locale: en
 Extension Cmark, for Common Mark.
 

@@ -3,6 +3,21 @@
 CompatibilityPHP82
 ++++++++++++++++++
 
+.. meta::
+	:description:
+		CompatibilityPHP82: List features that are incompatible with PHP 8.2..
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: CompatibilityPHP82
+	:twitter:description: CompatibilityPHP82: List features that are incompatible with PHP 8.2.
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: CompatibilityPHP82
+	:og:type: article
+	:og:description: List features that are incompatible with PHP 8.2.
+	:og:url: https://exakat.readthedocs.io/en/latest/Rulesets/CompatibilityPHP82.html
+	:og:locale: en
 This ruleset centralizes all analysis for the migration from PHP 8.1 to 8.2.
 
 Total : 22 analysis

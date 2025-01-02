@@ -18,7 +18,7 @@ Dangling Array References
 	:og:title: Dangling Array References
 	:og:type: article
 	:og:description: Always unset a referenced-variable used in a loop
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/DanglingArrayReferences.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Dangling Array References.html
 	:og:locale: en
 Always unset a referenced-variable used in a loop.
 

@@ -18,7 +18,7 @@ ext/gmp
 	:og:title: ext/gmp
 	:og:type: article
 	:og:description: Extension ext/gmp
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extgmp.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/gmp.html
 	:og:locale: en
 Extension ext/`gmp <https://www.php.net/gmp>`_.
 

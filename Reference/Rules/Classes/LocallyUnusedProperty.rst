@@ -18,7 +18,7 @@ Locally Unused Property
 	:og:title: Locally Unused Property
 	:og:type: article
 	:og:description: Those properties are defined in a class, and this class doesn't have any method that makes use of them
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/LocallyUnusedProperty.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Locally Unused Property.html
 	:og:locale: en
 Those properties are defined in a class, and this class doesn't have any method that makes use of them. 
 

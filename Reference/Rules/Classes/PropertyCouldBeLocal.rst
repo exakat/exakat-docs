@@ -18,7 +18,7 @@ Property Could Be Local
 	:og:title: Property Could Be Local
 	:og:type: article
 	:og:description: A property only used in one method may be turned into a local variable
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/PropertyCouldBeLocal.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Property Could Be Local.html
 	:og:locale: en
 A property only used in one method may be turned into a local variable.
 

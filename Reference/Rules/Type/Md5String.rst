@@ -18,7 +18,7 @@ Md5 Strings
 	:og:title: Md5 Strings
 	:og:type: article
 	:og:description: List of all the MD5 values hard coded in the application
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Type/Md5String.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Md5 Strings.html
 	:og:locale: en
 List of all the MD5 values hard coded in the application.
 

@@ -18,7 +18,7 @@ Too Many Extractions
 	:og:title: Too Many Extractions
 	:og:type: article
 	:og:description: Using a loop to extract all the values from an array or an object, but failing to use them all later
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Performances/TooManyExtractions.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Too Many Extractions.html
 	:og:locale: en
 Using a loop to extract all the values from an array or an object, but failing to use them all later.
 

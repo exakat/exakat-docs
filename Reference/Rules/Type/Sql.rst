@@ -18,7 +18,7 @@ SQL queries
 	:og:title: SQL queries
 	:og:type: article
 	:og:description: SQL queries, detected in literal strings
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Type/Sql.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/SQL queries.html
 	:og:locale: en
 SQL queries, detected in literal strings. 
 

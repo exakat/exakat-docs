@@ -18,7 +18,7 @@ No Hardcoded Path
 	:og:title: No Hardcoded Path
 	:og:type: article
 	:og:description: It is not recommended to use hardcoded literals when designating files
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/NoHardcodedPath.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No Hardcoded Path.html
 	:og:locale: en
 It is not recommended to use hardcoded literals when designating files. Full paths are usually tied to one file system organization. As soon as the organisation changes or must be adapted to any external constraint, the path is not valid anymore.
 

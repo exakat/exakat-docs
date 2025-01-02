@@ -18,7 +18,7 @@ __halt_compiler
 	:og:title: __halt_compiler
 	:og:type: article
 	:og:description: __halt_compiler() usage
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/Haltcompiler.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/__halt_compiler.html
 	:og:locale: en
 __halt_compiler() usage.
 

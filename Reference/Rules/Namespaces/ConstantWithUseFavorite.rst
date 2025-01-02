@@ -18,7 +18,7 @@ Constant : With Or Without Use
 	:og:title: Constant : With Or Without Use
 	:og:type: article
 	:og:description: This analysis collects the ways constants are called in the code : with a local import, alias or not, or with their fully qualified name
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Namespaces/ConstantWithUseFavorite.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Constant : With Or Without Use.html
 	:og:locale: en
 This analysis collects the ways constants are called in the code : with a local import, alias or not, or with their fully qualified name.
 

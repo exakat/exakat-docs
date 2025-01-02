@@ -18,7 +18,7 @@ No Default For Referenced Parameter
 	:og:title: No Default For Referenced Parameter
 	:og:type: article
 	:og:description: Parameters with reference should not have a default value
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/NoDefaultForReference.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No Default For Referenced Parameter.html
 	:og:locale: en
 Parameters with reference should not have a default value. 
 

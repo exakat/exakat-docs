@@ -18,7 +18,7 @@ Shell Usage
 	:og:title: Shell Usage
 	:og:type: article
 	:og:description: List of shell calls to system
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ShellUsage.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Shell Usage.html
 	:og:locale: en
 List of shell calls to system.
 

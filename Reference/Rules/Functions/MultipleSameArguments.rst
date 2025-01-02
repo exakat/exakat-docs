@@ -18,7 +18,7 @@ Multiple Definition Of The Same Argument
 	:og:title: Multiple Definition Of The Same Argument
 	:og:type: article
 	:og:description: A method's signature is holding twice (or more) the same argument
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/MultipleSameArguments.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Multiple Definition Of The Same Argument.html
 	:og:locale: en
 A method's signature is holding twice (or more) the same argument. For example, function x ($a, $a) { `... <https://www.php.net/manual/en/functions.arguments.php#functions.variable-arg-list>`_ }. 
 

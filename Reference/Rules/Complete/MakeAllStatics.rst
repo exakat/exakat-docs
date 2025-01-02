@@ -18,7 +18,7 @@ Make All Statics
 	:og:title: Make All Statics
 	:og:type: article
 	:og:description: This links each `static` keyword to all possible classes definition
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Complete/MakeAllStatics.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Make All Statics.html
 	:og:locale: en
 This links each `static` keyword to all possible classes definition. 
 

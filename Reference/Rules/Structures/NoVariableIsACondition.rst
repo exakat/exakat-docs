@@ -18,7 +18,7 @@ Variable Is Not A Condition
 	:og:title: Variable Is Not A Condition
 	:og:type: article
 	:og:description: Avoid using a lone variable as a condition
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/NoVariableIsACondition.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Variable Is Not A Condition.html
 	:og:locale: en
 Avoid using a lone variable as a condition. It is recommended to use a comparative value, or one of the filtering function, such as `isset() <https://www.www.php.net/isset>`_, empty(). 
 

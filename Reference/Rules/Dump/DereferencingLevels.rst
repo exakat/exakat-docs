@@ -18,7 +18,7 @@ Dereferencing Levels
 	:og:title: Dereferencing Levels
 	:og:type: article
 	:og:description: This is the counts of level of dereferencing
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/DereferencingLevels.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Dereferencing Levels.html
 	:og:locale: en
 This is the counts of level of dereferencing. 
 

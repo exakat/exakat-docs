@@ -18,7 +18,7 @@ Protocol lists
 	:og:title: Protocol lists
 	:og:type: article
 	:og:description: List of all protocols that were found in the code
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Type/Protocols.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Protocol lists.html
 	:og:locale: en
 List of all protocols that were found in the code.
 

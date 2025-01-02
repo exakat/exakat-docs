@@ -18,7 +18,7 @@ Cancelled Parameter
 	:og:title: Cancelled Parameter
 	:og:type: article
 	:og:description: A parameter is cancelled, when its value is hardcoded, and cannot be changed by the calling expression
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/CancelledParameter.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Cancelled Parameter.html
 	:og:locale: en
 A parameter is cancelled, when its value is hardcoded, and cannot be changed by the calling expression. The argument is in the signature, but it is later hardcoded to a literal value : thus, it is not usable, from the caller point of view.
 

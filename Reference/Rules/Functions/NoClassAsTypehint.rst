@@ -18,7 +18,7 @@ No Class As Typehint
 	:og:title: No Class As Typehint
 	:og:type: article
 	:og:description: Avoid using concrete classes as typehint : always use interfaces or abstract classes
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/NoClassAsTypehint.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No Class As Typehint.html
 	:og:locale: en
 Avoid using concrete classes as typehint : always use interfaces or abstract classes. This way, different classes, or versions of classes may be passed as argument. The typehint is not linked to an implementation, but to signatures.
 

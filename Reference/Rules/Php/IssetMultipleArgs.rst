@@ -18,7 +18,7 @@ Isset Multiple Arguments
 	:og:title: Isset Multiple Arguments
 	:og:type: article
 	:og:description: isset() may be used with multiple arguments and acts as a AND
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/IssetMultipleArgs.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Isset Multiple Arguments.html
 	:og:locale: en
 `isset() <https://www.www.php.net/isset>`_ may be used with multiple arguments and acts as a AND.
 

@@ -18,7 +18,7 @@ Static Global Variables Confusion
 	:og:title: Static Global Variables Confusion
 	:og:type: article
 	:og:description: PHP can't have variable that are both static and global variable
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/SGVariablesConfusion.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Static Global Variables Confusion.html
 	:og:locale: en
 PHP can't have variable that are both `static <https://www.php.net/manual/en/language.oop5.static.php>`_ and global variable. While the syntax is legit, the variables will be alternatively global or `static <https://www.php.net/manual/en/language.oop5.static.php>`_.
 

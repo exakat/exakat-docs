@@ -18,7 +18,7 @@ Method Has Fluent Interface
 	:og:title: Method Has Fluent Interface
 	:og:type: article
 	:og:description: Mark a method when it only returns $this
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/HasFluentInterface.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Method Has Fluent Interface.html
 	:og:locale: en
 Mark a method when it only returns `$this <https://www.php.net/manual/en/language.oop5.basic.php>`_.
 

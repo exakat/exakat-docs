@@ -18,7 +18,7 @@ Identical Consecutive Expression
 	:og:title: Identical Consecutive Expression
 	:og:type: article
 	:og:description: Identical consecutive expressions might be double code
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/IdenticalConsecutive.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Identical Consecutive Expression.html
 	:og:locale: en
 Identical consecutive expressions might be double code. They are worth being checked. 
 

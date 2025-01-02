@@ -18,7 +18,7 @@ Safe Curl Options
 	:og:title: Safe Curl Options
 	:og:type: article
 	:og:description: It is advised to always use ``CURLOPT_SSL_VERIFYPEER`` and ``CURLOPT_SSL_VERIFYHOST`` when requesting a SSL connection
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Security/CurlOptions.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Safe Curl Options.html
 	:og:locale: en
 It is advised to always use ``CURLOPT_SSL_VERIFYPEER`` and ``CURLOPT_SSL_VERIFYHOST`` when requesting a SSL `connection <https://www.php.net/connection>`_. 
 

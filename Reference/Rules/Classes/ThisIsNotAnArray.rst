@@ -18,7 +18,7 @@ $this Is Not An Array
 	:og:title: $this Is Not An Array
 	:og:type: article
 	:og:description: ``$this`` variable represents the current object and it is not an array
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/ThisIsNotAnArray.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/$this Is Not An Array.html
 	:og:locale: en
 ``$this`` variable represents the current object and it is not an array. 
 

@@ -18,7 +18,7 @@ Useless Argument
 	:og:title: Useless Argument
 	:og:type: article
 	:og:description: The argument is always used with the same value
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/UselessArgument.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Useless Argument.html
 	:og:locale: en
 The argument is always used with the same value. This value could be hard coded in the method, and save one argument slot.
 

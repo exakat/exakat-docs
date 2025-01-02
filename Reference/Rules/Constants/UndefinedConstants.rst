@@ -18,7 +18,7 @@ Undefined Constants
 	:og:title: Undefined Constants
 	:og:type: article
 	:og:description: Constants definition can't be located
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Constants/UndefinedConstants.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Undefined Constants.html
 	:og:locale: en
 Constants definition can't be located.
 

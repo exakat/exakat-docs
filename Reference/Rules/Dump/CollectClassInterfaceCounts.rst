@@ -18,7 +18,7 @@ Collect Class Interface Counts
 	:og:title: Collect Class Interface Counts
 	:og:type: article
 	:og:description: Collect the number of interfaces implemented per class
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/CollectClassInterfaceCounts.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Collect Class Interface Counts.html
 	:og:locale: en
 Collect the number of interfaces implemented per class. A class with more interfaces includes has more responsabilities.
 

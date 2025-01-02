@@ -18,7 +18,7 @@ Could Type With Boolean
 	:og:title: Could Type With Boolean
 	:og:type: article
 	:og:description: That argument, property or method may be typed with ``bool``
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/CouldTypeWithBool.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Could Type With Boolean.html
 	:og:locale: en
 That argument, property or method may be typed with ``bool``. Based on usage, it was determined that the only type possible is a boolean.
 

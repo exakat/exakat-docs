@@ -3,6 +3,21 @@
 CompatibilityPHP72
 ++++++++++++++++++
 
+.. meta::
+	:description:
+		CompatibilityPHP72: List features that are incompatible with PHP 7.2..
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: CompatibilityPHP72
+	:twitter:description: CompatibilityPHP72: List features that are incompatible with PHP 7.2.
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: CompatibilityPHP72
+	:og:type: article
+	:og:description: List features that are incompatible with PHP 7.2.
+	:og:url: https://exakat.readthedocs.io/en/latest/Rulesets/CompatibilityPHP72.html
+	:og:locale: en
 This ruleset centralizes all analysis for the migration from PHP 7.1 to 7.2.
 
 Total : 52 analysis

@@ -18,7 +18,7 @@ Avoid array_push()
 	:og:title: Avoid array_push()
 	:og:type: article
 	:og:description: array_push() is slower than the append ``[]`` operator
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Performances/AvoidArrayPush.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Avoid array_push().html
 	:og:locale: en
 `array_push() <https://www.php.net/array_push>`_ is slower than the append ``[]`` operator.
 

@@ -18,7 +18,7 @@ Nested Ternary
 	:og:title: Nested Ternary
 	:og:type: article
 	:og:description: Ternary operators should not be nested too deep
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/NestedTernary.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Nested Ternary.html
 	:og:locale: en
 Ternary operators should not be nested too deep.
 

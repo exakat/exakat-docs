@@ -18,7 +18,7 @@ Could Be Class Constant
 	:og:title: Could Be Class Constant
 	:og:type: article
 	:og:description: When a property is defined, with a default value, then read, but never modified, it could be turned into a constant
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/CouldBeClassConstant.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Could Be Class Constant.html
 	:og:locale: en
 When a property is defined, with a default value, then read, but never modified, it could be turned into a constant. 
 

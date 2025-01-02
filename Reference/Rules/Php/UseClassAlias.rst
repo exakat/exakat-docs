@@ -18,7 +18,7 @@ Use class_alias()
 	:og:title: Use class_alias()
 	:og:type: article
 	:og:description: class_alias() is a PHP features, that allows the creation of class alias, at execution time
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/UseClassAlias.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Use class_alias().html
 	:og:locale: en
 `class_alias() <https://www.php.net/class_alias>`_ is a PHP features, that allows the creation of class alias, at execution time. 
 

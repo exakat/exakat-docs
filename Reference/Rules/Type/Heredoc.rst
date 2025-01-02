@@ -18,7 +18,7 @@ Heredoc Delimiter Glossary
 	:og:title: Heredoc Delimiter Glossary
 	:og:type: article
 	:og:description: List of all the delimiters used to build a Heredoc string
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Type/Heredoc.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Heredoc Delimiter Glossary.html
 	:og:locale: en
 List of all the delimiters used to build a Heredoc string. 
 

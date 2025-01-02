@@ -18,7 +18,7 @@ Invalid Regex
 	:og:title: Invalid Regex
 	:og:type: article
 	:og:description: The PCRE regex doesn't compile
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/InvalidRegex.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Invalid Regex.html
 	:og:locale: en
 The PCRE regex doesn't compile. It isn't a valid regex.
 

@@ -18,7 +18,7 @@ Mbstring Unknown Encoding
 	:og:title: Mbstring Unknown Encoding
 	:og:type: article
 	:og:description: The encoding used is not known to the ext/mbstring extension
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/MbstringUnknownEncoding.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Mbstring Unknown Encoding.html
 	:og:locale: en
 The encoding used is not known to the ext/mbstring extension.
 

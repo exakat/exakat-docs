@@ -18,7 +18,7 @@ Useless Assignation Of Promoted Property
 	:og:title: Useless Assignation Of Promoted Property
 	:og:type: article
 	:og:description: Promoted properties save the assignation of constructor argument to the property
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/UselessAssignationOfPromotedProperty.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Useless Assignation Of Promoted Property.html
 	:og:locale: en
 Promoted properties save the assignation of constructor argument to the property. It is useless to do it with that syntax, and in the constructor too.
 

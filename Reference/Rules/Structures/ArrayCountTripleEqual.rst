@@ -18,7 +18,7 @@ Empty Array Detection
 	:og:title: Empty Array Detection
 	:og:type: article
 	:og:description: Empty arrays may be detected with different solutions
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ArrayCountTripleEqual.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Empty Array Detection.html
 	:og:locale: en
 Empty arrays may be detected with different solutions. 
 This analysis includes comparison to 0 with count, with ==, ===, != and !==, and comparison to empty arrays. Constants are not handled.

@@ -18,7 +18,7 @@ Undefined Class Constants
 	:og:title: Undefined Class Constants
 	:og:type: article
 	:og:description: Class constants that are used, but never defined
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/UndefinedConstants.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Undefined Class Constants.html
 	:og:locale: en
 Class constants that are used, but never defined. This yield a fatal `error <https://www.php.net/error>`_ upon execution, but no feedback at compile level.
 

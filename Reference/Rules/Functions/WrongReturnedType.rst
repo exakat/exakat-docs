@@ -18,7 +18,7 @@ Wrong Type Returned
 	:og:title: Wrong Type Returned
 	:og:type: article
 	:og:description: The returned value is not compatible with the specified return type
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/WrongReturnedType.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Wrong Type Returned.html
 	:og:locale: en
 The returned value is not compatible with the specified return type.
 

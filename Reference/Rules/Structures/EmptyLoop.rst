@@ -18,7 +18,7 @@ Empty Loop
 	:og:title: Empty Loop
 	:og:type: article
 	:og:description: This rule reports empty loop
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/EmptyLoop.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Empty Loop.html
 	:og:locale: en
 This rule reports empty loop. An empty loop has no operation in its main block. 
 

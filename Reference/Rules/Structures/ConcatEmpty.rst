@@ -18,7 +18,7 @@ Concat Empty String
 	:og:title: Concat Empty String
 	:og:type: article
 	:og:description: Using a concatenation to make a value a string should be replaced with a type cast
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ConcatEmpty.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Concat Empty String.html
 	:og:locale: en
 Using a concatenation to make a value a string should be replaced with a type cast.
 

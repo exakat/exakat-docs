@@ -18,7 +18,7 @@ Printf Number Of Arguments
 	:og:title: Printf Number Of Arguments
 	:og:type: article
 	:og:description: The number of arguments provided to printf(), vprintf() and vsprintf() doesn't match the format string
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/PrintfArguments.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Printf Number Of Arguments.html
 	:og:locale: en
 The number of arguments provided to `printf() <https://www.php.net/printf>`_, `vprintf() <https://www.php.net/vprintf>`_ and `vsprintf() <https://www.php.net/vsprintf>`_ doesn't match the format string.
 

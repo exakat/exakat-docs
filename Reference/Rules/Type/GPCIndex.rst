@@ -18,7 +18,7 @@ Incoming Variable Index Inventory
 	:og:title: Incoming Variable Index Inventory
 	:og:type: article
 	:og:description: This collects all the index used in incoming variables : $_GET, $_POST, $_REQUEST, $_COOKIE
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Type/GPCIndex.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Incoming Variable Index Inventory.html
 	:og:locale: en
 This collects all the index used in incoming variables : `$_GET <https://www.php.net/manual/en/reserved.variables.get.php>`_, `$_POST <https://www.php.net/manual/en/reserved.variables.post.php>`_, `$_REQUEST <https://www.php.net/manual/en/reserved.variables.request.php>`_, $_COOKIE.
 

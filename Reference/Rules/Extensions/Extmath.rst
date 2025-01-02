@@ -18,7 +18,7 @@ ext/math
 	:og:title: ext/math
 	:og:type: article
 	:og:description: Core functions that provides math standard functions
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extmath.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/math.html
 	:og:locale: en
 Core functions that provides math standard functions.
 

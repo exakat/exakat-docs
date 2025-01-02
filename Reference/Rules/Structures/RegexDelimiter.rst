@@ -18,7 +18,7 @@ Regex Delimiter
 	:og:title: Regex Delimiter
 	:og:type: article
 	:og:description: PCRE regular expressions may use a variety of delimiters
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/RegexDelimiter.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Regex Delimiter.html
 	:og:locale: en
 PCRE regular expressions may use a variety of delimiters. 
 

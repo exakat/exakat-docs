@@ -18,7 +18,7 @@ Methods That Should Not Be Used
 	:og:title: Methods That Should Not Be Used
 	:og:type: article
 	:og:description: These methods and functions only throw an exception, or raise an error
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/CantUse.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Methods That Should Not Be Used.html
 	:og:locale: en
 These methods and functions only throw an `exception <https://www.php.net/exception>`_, or raise an `error <https://www.php.net/error>`_. As such, they are a warning that such function or method shouldn't be used. 
 Those functions could also be marked as deprecated, with an `attribute <https://www.php.net/attribute>`_ or a phpdoc. This is not taken into account by this analysis.

@@ -18,7 +18,7 @@ Getter And Setter
 	:og:title: Getter And Setter
 	:og:type: article
 	:og:description: A getter is a method whose purpose is to read the internal value of a class
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Patterns/GetterSetter.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Getter And Setter.html
 	:og:locale: en
 A getter is a method whose purpose is to read the internal value of a class; a setter is a method whose purpose is to write a value inside a class. 
 

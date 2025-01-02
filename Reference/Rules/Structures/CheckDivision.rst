@@ -18,7 +18,7 @@ Check Division By Zero
 	:og:title: Check Division By Zero
 	:og:type: article
 	:og:description: Always check before dividing by a value
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/CheckDivision.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Check Division By Zero.html
 	:og:locale: en
 Always check before dividing by a value. If that value is cast to 0, PHP might stop the processing with an `exception <https://www.php.net/exception>`_, or keep processing it with 0 as a `result <https://www.php.net/result>`_. Both will raise problems. 
 

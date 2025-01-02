@@ -18,7 +18,7 @@ Pre-Calculate Use
 	:og:title: Pre-Calculate Use
 	:og:type: article
 	:og:description: In a closure, it is faster to pass a final value, rather than calculate it at call time
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Performances/PreCalculateUse.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Pre-Calculate Use.html
 	:og:locale: en
 In a `closure <https://www.php.net/`closure <https://www.php.net/closure>`_>`_, it is faster to pass a final value, rather than calculate it at call time. 
 

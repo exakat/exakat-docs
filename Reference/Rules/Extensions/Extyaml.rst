@@ -18,7 +18,7 @@ ext/yaml
 	:og:title: ext/yaml
 	:og:type: article
 	:og:description: Extension YAML
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extyaml.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/yaml.html
 	:og:locale: en
 Extension YAML.
 

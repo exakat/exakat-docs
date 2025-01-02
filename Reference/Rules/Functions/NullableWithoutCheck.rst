@@ -18,7 +18,7 @@ Nullable Without Check
 	:og:title: Nullable Without Check
 	:og:type: article
 	:og:description: Nullable typed argument or properties should be checked before usage
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/NullableWithoutCheck.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Nullable Without Check.html
 	:og:locale: en
 Nullable typed argument or properties should be checked before usage. When they are null, they probably won't behave like the other type, and lead to an `error <https://www.php.net/error>`_.
 

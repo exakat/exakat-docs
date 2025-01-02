@@ -18,7 +18,7 @@ Undefined Methods
 	:og:title: Undefined Methods
 	:og:type: article
 	:og:description: The methods used in the code are undefined
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/UndefinedMethod.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Undefined Methods.html
 	:og:locale: en
 The methods used in the code are undefined. 
 

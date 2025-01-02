@@ -18,7 +18,7 @@ Use is_countable
 	:og:title: Use is_countable
 	:og:type: article
 	:og:description: is_countable() checks if a variables holds a value that can be counted
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/CouldUseIsCountable.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Use is_countable.html
 	:og:locale: en
 `is_countable() <https://www.php.net/is_countable>`_ checks if a variables holds a value that can be counted. It is recommended to use it before calling `count() <https://www.php.net/count>`_.
 

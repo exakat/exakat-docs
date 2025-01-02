@@ -18,7 +18,7 @@ Final Constant
 	:og:title: Final Constant
 	:og:type: article
 	:og:description: This rule lists the usage of the final modifier for class constants
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/FinalConstant.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Final Constant.html
 	:og:locale: en
 This rule lists the usage of the final modifier for class constants. The support of final for class constants was added in PHP 8.1.
 
@@ -41,8 +41,8 @@ See also https://www.php.net/manual/en/language.oop5.final.php and https://php.w
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Private+constant+MyClass%3A%3AZ+cannot+be+final+as+it+is+not+visible+to+other+classes.html>`_
-  + `1 <https://php-errors.readthedocs.io/en/latest/messages/+Cannot+use+%27final%27+as+constant+modifier.html>`_
+  + `Private constant MyClass::Z cannot be final as it is not visible to other classes <https://php-errors.readthedocs.io/en/latest/messages/private-constant-%25s%3A%3A%25s-cannot-be-final-as-it-is-not-visible-to-other-classes.html>`_
+  + `Cannot use 'final' as constant modifier <https://php-errors.readthedocs.io/en/latest/messages/cannot-use-%27final%27-as-constant-modifier.html>`_
 
 
 

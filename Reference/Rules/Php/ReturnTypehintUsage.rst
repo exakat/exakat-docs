@@ -18,7 +18,7 @@ Return Typehint Usage
 	:og:title: Return Typehint Usage
 	:og:type: article
 	:og:description: Spot usage of return typehint
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/ReturnTypehintUsage.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Return Typehint Usage.html
 	:og:locale: en
 Spot usage of return typehint. It is a PHP 7.0 feature.
 

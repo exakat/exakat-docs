@@ -18,7 +18,7 @@ Class Could Be Final
 	:og:title: Class Could Be Final
 	:og:type: article
 	:og:description: Any class that has no extension should be ``final`` by default
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/CouldBeFinal.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Class Could Be Final.html
 	:og:locale: en
 Any class that has no extension should be ``final`` by default.
 

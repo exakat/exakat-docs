@@ -18,7 +18,7 @@ Parenthesis As Parameter
 	:og:title: Parenthesis As Parameter
 	:og:type: article
 	:og:description: Using parenthesis around parameters used to silent some internal check
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/ParenthesisAsParameter.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Parenthesis As Parameter.html
 	:og:locale: en
 Using parenthesis around parameters used to silent some internal check. This is not the case anymore in PHP 7, and should be fixed by removing the parenthesis and making the value a real reference.
 

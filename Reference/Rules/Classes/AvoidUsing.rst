@@ -18,7 +18,7 @@ Custom Class Usage
 	:og:title: Custom Class Usage
 	:og:type: article
 	:og:description: List of usage of custom classes throughout the code
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/AvoidUsing.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Custom Class Usage.html
 	:og:locale: en
 List of usage of custom classes throughout the code. This might be important when it is time to refactor or remove such usage, before removing the class itself.
 

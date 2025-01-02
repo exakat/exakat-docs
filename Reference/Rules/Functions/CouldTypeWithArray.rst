@@ -18,7 +18,7 @@ Could Type With Array
 	:og:title: Could Type With Array
 	:og:type: article
 	:og:description: That argument may be typed with ``array``
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/CouldTypeWithArray.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Could Type With Array.html
 	:og:locale: en
 That argument may be typed with ``array``. Based on usage, it was determined that the only type possible is a array.
 

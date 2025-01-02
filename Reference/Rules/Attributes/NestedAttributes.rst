@@ -18,7 +18,7 @@ Nested Attributes
 	:og:title: Nested Attributes
 	:og:type: article
 	:og:description: Nested attribute are attribute in attributes
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Attributes/NestedAttributes.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Nested Attributes.html
 	:og:locale: en
 Nested `attribute <https://www.php.net/attribute>`_ are `attribute <https://www.php.net/attribute>`_ in attributes. 
 Nested attributes are not available in PHP 8.0 and older. It is reported as an invalid constant expression.

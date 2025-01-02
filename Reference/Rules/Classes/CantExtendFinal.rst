@@ -18,7 +18,7 @@ Can't Extend Final
 	:og:title: Can't Extend Final
 	:og:type: article
 	:og:description: It is not possible to extend final classes
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/CantExtendFinal.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Can't Extend Final.html
 	:og:locale: en
 It is not possible to extend final classes. 
 

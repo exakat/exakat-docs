@@ -18,7 +18,7 @@ Method Could Be Static
 	:og:title: Method Could Be Static
 	:og:type: article
 	:og:description: A method that doesn't make any usage of $this could be turned into a static method
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/CouldBeStatic.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Method Could Be Static.html
 	:og:locale: en
 A method that doesn't make any usage of `$this <https://www.php.net/manual/en/language.oop5.basic.php>`_ could be turned into a `static <https://www.php.net/manual/en/language.oop5.static.php>`_ method. 
 

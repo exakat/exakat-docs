@@ -18,7 +18,7 @@ Could Be Protected Property
 	:og:title: Could Be Protected Property
 	:og:type: article
 	:og:description: Those properties are declared public, but are never used publicly
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/CouldBeProtectedProperty.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Could Be Protected Property.html
 	:og:locale: en
 Those properties are declared public, but are never used publicly. They may be made protected. 
 

@@ -18,7 +18,7 @@ Classes Mutually Extending Each Other
 	:og:title: Classes Mutually Extending Each Other
 	:og:type: article
 	:og:description: Those classes are extending each other, creating an extension loop
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/MutualExtension.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Classes Mutually Extending Each Other.html
 	:og:locale: en
 Those classes are extending each other, creating an extension loop. PHP will yield a fatal `error <https://www.php.net/error>`_ at running time, even if it is compiling the code.
 

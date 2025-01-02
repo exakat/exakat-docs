@@ -18,7 +18,7 @@ Too Many Dereferencing
 	:og:title: Too Many Dereferencing
 	:og:type: article
 	:og:description: Linking too many properties and methods, one to the other
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/TooManyDereferencing.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Too Many Dereferencing.html
 	:og:locale: en
 Linking too many properties and methods, one to the other.
 

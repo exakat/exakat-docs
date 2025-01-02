@@ -18,7 +18,7 @@ Useless Referenced Argument
 	:og:title: Useless Referenced Argument
 	:og:type: article
 	:og:description: The argument has a reference, and is only used for reading
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/UselessReferenceArgument.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Useless Referenced Argument.html
 	:og:locale: en
 The argument has a reference, and is only used for reading. 
 

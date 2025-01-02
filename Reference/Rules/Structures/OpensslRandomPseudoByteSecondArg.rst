@@ -18,7 +18,7 @@ openssl_random_pseudo_byte() Second Argument
 	:og:title: openssl_random_pseudo_byte() Second Argument
 	:og:type: article
 	:og:description: openssl_random_pseudo_byte() uses exceptions to signal an error
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/OpensslRandomPseudoByteSecondArg.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/openssl_random_pseudo_byte() Second Argument.html
 	:og:locale: en
 openssl_random_pseudo_byte() uses exceptions to signal an `error <https://www.php.net/error>`_. Since PHP 7.4, there is no need to use the second argument.
 

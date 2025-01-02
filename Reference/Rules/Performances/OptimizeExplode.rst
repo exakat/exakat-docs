@@ -18,7 +18,7 @@ Optimize Explode()
 	:og:title: Optimize Explode()
 	:og:type: article
 	:og:description: Limit explode() results at call time
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Performances/OptimizeExplode.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Optimize Explode().html
 	:og:locale: en
 Limit `explode() <https://www.php.net/explode>`_ results at call time. `explode() <https://www.php.net/explode>`_ returns an array, after breaking the argument into smaller strings, with a delimiter. 
 

@@ -18,7 +18,7 @@ Global Usage
 	:og:title: Global Usage
 	:og:type: article
 	:og:description: List usage of globals variables, with global keywords or direct access to $GLOBALS
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/GlobalUsage.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Global Usage.html
 	:og:locale: en
 List usage of globals variables, with global keywords or direct access to $GLOBALS.
 It is recommended to avoid using global variables, at it makes it very difficult to track changes in values across the whole application.

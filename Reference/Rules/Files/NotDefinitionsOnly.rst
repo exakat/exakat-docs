@@ -18,7 +18,7 @@ File Is Not Definitions Only
 	:og:title: File Is Not Definitions Only
 	:og:type: article
 	:og:description: An included file should only provide definitions and declarations, or executable code : not both
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Files/NotDefinitionsOnly.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/File Is Not Definitions Only.html
 	:og:locale: en
 An included file should only provide definitions and declarations, or executable code : not both. 
 

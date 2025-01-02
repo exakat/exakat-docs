@@ -18,7 +18,7 @@ Numeric Literal Separator
 	:og:title: Numeric Literal Separator
 	:og:type: article
 	:og:description: Integer and floats may be written with internal underscores
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/IntegerSeparatorUsage.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Numeric Literal Separator.html
 	:og:locale: en
 Integer and floats may be written with internal underscores. This way, it is possible to separate large number into smaller groups, and make them more readable.
 

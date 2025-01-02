@@ -18,7 +18,7 @@ PHP 7.2 Scalar Typehints
 	:og:title: PHP 7.2 Scalar Typehints
 	:og:type: article
 	:og:description: A new scalar typehint was introduced : object
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/PHP72scalartypehints.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/PHP 7.2 Scalar Typehints.html
 	:og:locale: en
 A new scalar typehint was introduced : object. 
 

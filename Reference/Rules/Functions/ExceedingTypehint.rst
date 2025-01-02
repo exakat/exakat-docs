@@ -18,7 +18,7 @@ Exceeding Typehint
 	:og:title: Exceeding Typehint
 	:og:type: article
 	:og:description: The typehint is not fully used in the method
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/ExceedingTypehint.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Exceeding Typehint.html
 	:og:locale: en
 The typehint is not fully used in the method. Some of the defined methods in the typehint are unused. A tighter typehint could be used, to avoid method pollution.
 Tight typehint prevents the argument from doing too much. They also require more maintenance : creation of dedicated interfaces, method management to keep all typehint tight.

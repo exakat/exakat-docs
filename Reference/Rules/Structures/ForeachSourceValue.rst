@@ -18,7 +18,7 @@ Overwritten Source And Value
 	:og:title: Overwritten Source And Value
 	:og:type: article
 	:og:description: In a foreach(), it is best to keep source and values distinct
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ForeachSourceValue.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Overwritten Source And Value.html
 	:og:locale: en
 In a `foreach() <https://www.php.net/manual/en/control-structures.foreach.php>`_, it is best to keep source and values distinct. Otherwise, they overwrite each other.
 

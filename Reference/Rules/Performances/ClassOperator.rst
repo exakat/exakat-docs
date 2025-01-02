@@ -18,7 +18,7 @@ Scope Resolution Operator
 	:og:title: Scope Resolution Operator
 	:og:type: article
 	:og:description: The scope resolution operator `::class` is faster than a call to get_class() function
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Performances/ClassOperator.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Scope Resolution Operator.html
 	:og:locale: en
 The scope resolution operator `\:\:class` is faster than a call to `get_class() <https://www.php.net/get_class>`_ function.
 

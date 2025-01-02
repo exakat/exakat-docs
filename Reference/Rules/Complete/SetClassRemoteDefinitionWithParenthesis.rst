@@ -18,7 +18,7 @@ Set Class Remote Definition With Parenthesis
 	:og:title: Set Class Remote Definition With Parenthesis
 	:og:type: article
 	:og:description: Links methodcall, properties and constants to its definition, based to the new in the parenthesis
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Complete/SetClassRemoteDefinitionWithParenthesis.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Set Class Remote Definition With Parenthesis.html
 	:og:locale: en
 Links methodcall, properties and constants to its definition, based to the new in the parenthesis. The link is ``DEFINITION``.
 

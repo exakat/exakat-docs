@@ -18,7 +18,7 @@ Multiple Similar Calls
 	:og:title: Multiple Similar Calls
 	:og:type: article
 	:og:description: Several calls are made to functions or methods in a row
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/MultipleSimilarCalls.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Multiple Similar Calls.html
 	:og:locale: en
 Several calls are made to functions or methods in a row. They may have different arguments, though having a lot of similar calls in a row may indicate that a loop is needed. 
 

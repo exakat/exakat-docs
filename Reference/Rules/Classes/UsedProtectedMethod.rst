@@ -18,7 +18,7 @@ Used Protected Method
 	:og:title: Used Protected Method
 	:og:type: article
 	:og:description: This rule marks protected methods being used in the current class or its children classes
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/UsedProtectedMethod.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Used Protected Method.html
 	:og:locale: en
 This rule marks protected methods being used in the current class or its children classes. This show how the methods are used inside a class hierarchy.
 

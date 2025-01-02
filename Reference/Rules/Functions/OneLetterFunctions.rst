@@ -18,7 +18,7 @@ One Letter Functions
 	:og:title: One Letter Functions
 	:og:type: article
 	:og:description: One letter functions seems to be really short for a meaningful name
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/OneLetterFunctions.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/One Letter Functions.html
 	:og:locale: en
 One letter functions seems to be really short for a meaningful name. This may happens for very high usage functions, so as to keep code short, but such functions should be rare.
 

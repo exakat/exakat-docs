@@ -18,7 +18,7 @@ Magic Methods
 	:og:title: Magic Methods
 	:og:type: article
 	:og:description: List of PHP magic methods being used
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/MagicMethod.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Magic Methods.html
 	:og:locale: en
 List of PHP magic methods being used. The magic methods are 
 

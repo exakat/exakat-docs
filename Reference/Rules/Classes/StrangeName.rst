@@ -18,7 +18,7 @@ Strange Names In Classes
 	:og:title: Strange Names In Classes
 	:og:type: article
 	:og:description: Those methods, properties, constants or types should have another name
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/StrangeName.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Strange Names In Classes.html
 	:og:locale: en
 Those methods, properties, constants or types should have another name.
 

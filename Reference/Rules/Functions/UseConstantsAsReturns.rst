@@ -18,7 +18,7 @@ Use Constants As Returns
 	:og:title: Use Constants As Returns
 	:og:type: article
 	:og:description: When a native PHP function returns only constants, it is recommended to use those constants to identify the returned values
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/UseConstantsAsReturns.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Use Constants As Returns.html
 	:og:locale: en
 When a native PHP function returns only constants, it is recommended to use those constants to identify the returned values.
 

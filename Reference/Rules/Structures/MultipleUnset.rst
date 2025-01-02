@@ -18,7 +18,7 @@ Multiple Unset()
 	:og:title: Multiple Unset()
 	:og:type: article
 	:og:description: Unset() accepts multiple arguments, unsetting them one after each other
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/MultipleUnset.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Multiple Unset().html
 	:og:locale: en
 Unset() accepts multiple arguments, unsetting them one after each other. It is more efficient to call unset() once, than multiple times.
 

@@ -18,7 +18,7 @@ Untyped No Default Properties
 	:og:title: Untyped No Default Properties
 	:og:type: article
 	:og:description: This rule reports untyped properties without default value, that are not assigned at constructor time
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/UntypedNoDefaultProperties.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Untyped No Default Properties.html
 	:og:locale: en
 This rule reports untyped properties without default value, that are not assigned at constructor time. 
 

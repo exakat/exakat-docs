@@ -18,7 +18,7 @@ Constant Case Preference
 	:og:title: Constant Case Preference
 	:og:type: article
 	:og:description: Define() creates constants which are case sensitive or not
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Constants/DefineInsensitivePreference.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Constant Case Preference.html
 	:og:locale: en
 `Define() <https://www.php.net/define>`_ creates constants which are case sensitive or not. 
 

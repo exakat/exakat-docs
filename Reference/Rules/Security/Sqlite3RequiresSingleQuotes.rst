@@ -18,7 +18,7 @@ Sqlite3 Requires Single Quotes
 	:og:title: Sqlite3 Requires Single Quotes
 	:og:type: article
 	:og:description: The escapeString() method from ``SQLite3`` doesn't escape ``"``, but only ``'``
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Security/Sqlite3RequiresSingleQuotes.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Sqlite3 Requires Single Quotes.html
 	:og:locale: en
 The escapeString() method from ``SQLite3`` doesn't escape ``"``, but only ``'``. 
 To properly handle quotes and ``NUL`` characters, use bindParam() instead.

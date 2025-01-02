@@ -18,7 +18,7 @@ Missing Overriden Method
 	:og:title: Missing Overriden Method
 	:og:type: article
 	:og:description: This rule reports methods which bears the override attribute, but cannot have an eponymous method in the parent class
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Attributes/MissingOverrideMethod.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Missing Overriden Method.html
 	:og:locale: en
 This rule reports methods which bears the `override <https://www.php.net/override>`_ `attribute <https://www.php.net/attribute>`_, but cannot have an eponymous method in the `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ class.
 

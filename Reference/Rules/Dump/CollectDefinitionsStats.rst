@@ -18,7 +18,7 @@ Collect Definitions Statistics
 	:og:title: Collect Definitions Statistics
 	:og:type: article
 	:og:description: Collect counts of various structures, such a static constants, static method calls, static properties, method calls and properties
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/CollectDefinitionsStats.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Collect Definitions Statistics.html
 	:og:locale: en
 Collect counts of various structures, such a `static <https://www.php.net/manual/en/language.oop5.static.php>`_ constants, `static <https://www.php.net/manual/en/language.oop5.static.php>`_ method calls, `static <https://www.php.net/manual/en/language.oop5.static.php>`_ properties, method calls and properties.
 

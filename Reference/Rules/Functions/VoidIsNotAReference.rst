@@ -18,7 +18,7 @@ Void Is Not A Reference
 	:og:title: Void Is Not A Reference
 	:og:type: article
 	:og:description: It is not possible to return by reference, in a method that is typed void
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/VoidIsNotAReference.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Void Is Not A Reference.html
 	:og:locale: en
 It is not possible to return by reference, in a method that is typed void. The returned value is a literal ``null``.
 

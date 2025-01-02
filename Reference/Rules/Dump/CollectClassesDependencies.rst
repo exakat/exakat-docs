@@ -18,7 +18,7 @@ Collect Classes Dependencies
 	:og:title: Collect Classes Dependencies
 	:og:type: article
 	:og:description: This rule collects class dependencies
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/CollectClassesDependencies.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Collect Classes Dependencies.html
 	:og:locale: en
 This rule collects class dependencies. Each call to one or the other resource put forward by a class creates a link between two points in the code. 
 

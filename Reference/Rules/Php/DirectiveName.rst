@@ -18,7 +18,7 @@ Unknown Directive Name
 	:og:title: Unknown Directive Name
 	:og:type: article
 	:og:description: Unknown directives names used in the code
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/DirectiveName.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Unknown Directive Name.html
 	:og:locale: en
 Unknown directives names used in the code. 
 

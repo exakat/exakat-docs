@@ -18,7 +18,7 @@ Cant Inherit Abstract Method
 	:og:title: Cant Inherit Abstract Method
 	:og:type: article
 	:og:description: Inheriting abstract methods was made available in PHP 7
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/CantInheritAbstractMethod.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Cant Inherit Abstract Method.html
 	:og:locale: en
 Inheriting abstract methods was made available in PHP 7.2. In previous versions, it emitted a fatal `error <https://www.php.net/error>`_.
 

@@ -18,7 +18,7 @@ Type Array Index
 	:og:title: Type Array Index
 	:og:type: article
 	:og:description: All literal index used in the code
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Type/ArrayIndex.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Type Array Index.html
 	:og:locale: en
 All literal index used in the code.
 

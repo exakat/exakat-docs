@@ -18,7 +18,7 @@ Parent Is Not Static
 	:og:title: Parent Is Not Static
 	:og:type: article
 	:og:description: The `parent` keyword behaves like `self`, not like `static`
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/ParentIsNotStatic.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Parent Is Not Static.html
 	:og:locale: en
 The `parent` keyword behaves like `self`, not like `static`. It links to the `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ of the defining expression, not to the one being called.
 

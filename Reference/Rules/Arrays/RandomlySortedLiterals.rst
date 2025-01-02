@@ -18,7 +18,7 @@ Randomly Sorted Arrays
 	:og:title: Randomly Sorted Arrays
 	:og:type: article
 	:og:description: Those literal arrays are written in several places, but their items are in various orders
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Arrays/RandomlySortedLiterals.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Randomly Sorted Arrays.html
 	:og:locale: en
 Those literal arrays are written in several places, but their items are in various orders. 
 

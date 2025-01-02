@@ -18,7 +18,7 @@ Multiple Alias Definitions Per File
 	:og:title: Multiple Alias Definitions Per File
 	:og:type: article
 	:og:description: Avoid aliasing the same name with different aliases
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Namespaces/MultipleAliasDefinitionPerFile.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Multiple Alias Definitions Per File.html
 	:og:locale: en
 Avoid aliasing the same name with different aliases. This leads to confusion.
 

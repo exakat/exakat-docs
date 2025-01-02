@@ -18,7 +18,7 @@ Has Magic Method
 	:og:title: Has Magic Method
 	:og:type: article
 	:og:description: The class has defined one of the magic methods
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/HasMagicProperty.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Has Magic Method.html
 	:og:locale: en
 The class has defined one of the magic methods.
 

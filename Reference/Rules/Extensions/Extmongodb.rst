@@ -18,7 +18,7 @@ ext/mongodb
 	:og:title: ext/mongodb
 	:og:type: article
 	:og:description: Extension MongoDb
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extmongodb.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/mongodb.html
 	:og:locale: en
 Extension MongoDb.
 

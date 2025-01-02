@@ -18,7 +18,7 @@ Is An Extension Interface
 	:og:title: Is An Extension Interface
 	:og:type: article
 	:og:description: This is an interface defined in a PHP C extension
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Interfaces/IsExtInterface.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Is An Extension Interface.html
 	:og:locale: en
 This is an interface defined in a PHP C extension.
 

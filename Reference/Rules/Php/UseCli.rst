@@ -18,7 +18,7 @@ Use Cli
 	:og:title: Use Cli
 	:og:type: article
 	:og:description: Signal the usage of code in CLI mode, through the usage of ``$argv`` and ``$argc`` variables, or the getopt() function
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/UseCli.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Use Cli.html
 	:og:locale: en
 Signal the usage of code in CLI mode, through the usage of ``$argv`` and ``$argc`` variables, or the `getopt() <https://www.php.net/getopt>`_ function.
 

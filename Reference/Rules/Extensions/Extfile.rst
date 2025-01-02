@@ -18,7 +18,7 @@ ext/file
 	:og:title: ext/file
 	:og:type: article
 	:og:description: Filesystem functions from standard
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extfile.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/file.html
 	:og:locale: en
 Filesystem functions from standard.
 

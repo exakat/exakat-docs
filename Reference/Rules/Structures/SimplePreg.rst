@@ -18,7 +18,7 @@ Simplify Regex
 	:og:title: Simplify Regex
 	:og:type: article
 	:og:description: Avoid using regex when the searched string or the replacement are simple enough
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/SimplePreg.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Simplify Regex.html
 	:og:locale: en
 Avoid using regex when the searched string or the replacement are simple enough.
 

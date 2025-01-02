@@ -18,7 +18,7 @@ Could Use array_fill_keys
 	:og:title: Could Use array_fill_keys
 	:og:type: article
 	:og:description: array_fill_keys() is a native PHP function that creates an array from keys
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/CouldUseArrayFillKeys.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Could Use array_fill_keys.html
 	:og:locale: en
 `array_fill_keys() <https://www.php.net/array_fill_keys>`_ is a native PHP function that creates an array from keys. It gets the list of keys, and a constant value to assign to each keys.
 

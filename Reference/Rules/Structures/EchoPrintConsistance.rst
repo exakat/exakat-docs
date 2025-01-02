@@ -18,7 +18,7 @@ Echo Or Print
 	:og:title: Echo Or Print
 	:og:type: article
 	:og:description: Echo and print have the same functional use
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/EchoPrintConsistance.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Echo Or Print.html
 	:og:locale: en
 Echo and print have the same functional use. <?= and `printf() <https://www.php.net/printf>`_ are also considered in this analysis. 
 

@@ -18,7 +18,7 @@ Resources Usage
 	:og:title: Resources Usage
 	:og:type: article
 	:og:description: List of situations that are creating resources
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ResourcesUsage.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Resources Usage.html
 	:og:locale: en
 List of situations that are creating resources.
 

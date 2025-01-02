@@ -18,7 +18,7 @@ Overwritten Properties
 	:og:title: Overwritten Properties
 	:og:type: article
 	:og:description: This command adds OVERWRITE link between property definitions of classes
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Complete/OverwrittenProperties.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Overwritten Properties.html
 	:og:locale: en
 This command adds OVERWRITE link between property definitions of classes.
 The `$p` property will be linked between classes x and y, with an OVERWRITE link.

@@ -18,7 +18,7 @@ Reflection Export() Is Deprecated
 	:og:title: Reflection Export() Is Deprecated
 	:og:type: article
 	:og:description: export() method in Reflection classes is now deprecated
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/ReflectionExportIsDeprecated.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Reflection Export() Is Deprecated.html
 	:og:locale: en
 export() method in `Reflection <https://www.php.net/reflection>`_ classes is now deprecated. It is obsolete since PHP 7.4 and will disappear in PHP 8.0.
 

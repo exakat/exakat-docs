@@ -18,7 +18,7 @@ Collect Dependency Extension
 	:og:title: Collect Dependency Extension
 	:og:type: article
 	:og:description: This analysis lists the interfaces and classes that are not defined in the current code, yet extended
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/CollectDependencyExtension.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Collect Dependency Extension.html
 	:og:locale: en
 This analysis lists the interfaces and classes that are not defined in the current code, yet extended. 
 

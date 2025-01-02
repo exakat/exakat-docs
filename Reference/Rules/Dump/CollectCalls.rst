@@ -18,7 +18,7 @@ Collect Calls
 	:og:title: Collect Calls
 	:og:type: article
 	:og:description: Collects calls to methods, and functions, and mentions the calling method or function
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/CollectCalls.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Collect Calls.html
 	:og:locale: en
 Collects calls to methods, and functions, and mentions the calling method or function.
 

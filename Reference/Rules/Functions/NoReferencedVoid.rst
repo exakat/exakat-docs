@@ -18,7 +18,7 @@ No Referenced Void
 	:og:title: No Referenced Void
 	:og:type: article
 	:og:description: There is no point returning a reference with a void type
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/NoReferencedVoid.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No Referenced Void.html
 	:og:locale: en
 There is no point returning a reference with a void type. This is now reported as deprecated in PHP 8.1.
 

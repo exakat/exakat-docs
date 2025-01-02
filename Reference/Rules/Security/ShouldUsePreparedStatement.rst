@@ -18,7 +18,7 @@ Should Use Prepared Statement
 	:og:title: Should Use Prepared Statement
 	:og:type: article
 	:og:description: Modern databases provides support for prepared statement : it separates the query from the processed data and raise significantly the security
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Security/ShouldUsePreparedStatement.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Should Use Prepared Statement.html
 	:og:locale: en
 Modern databases provides support for prepared statement : it separates the query from the processed data and raise significantly the security. 
 

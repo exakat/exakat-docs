@@ -18,7 +18,7 @@ Sprintf Format Compilation
 	:og:title: Sprintf Format Compilation
 	:og:type: article
 	:og:description: The sprintf() format used yields an error
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/SprintfFormatCompilation.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Sprintf Format Compilation.html
 	:og:locale: en
 The `sprintf() <https://www.php.net/sprintf>`_ format used yields an `error <https://www.php.net/error>`_. A format is a ``%`` pourcent character, followed by a letter. 
 

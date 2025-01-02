@@ -18,7 +18,7 @@ Is Not Class Family
 	:og:title: Is Not Class Family
 	:og:type: article
 	:og:description: Mark a static method call as inside the family of classes
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/IsNotFamily.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Is Not Class Family.html
 	:og:locale: en
 Mark a `static <https://www.php.net/manual/en/language.oop5.static.php>`_ method call as inside the family of classes. Children are not considered here.
 

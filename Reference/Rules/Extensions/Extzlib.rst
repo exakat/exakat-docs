@@ -18,7 +18,7 @@ ext/zlib
 	:og:title: ext/zlib
 	:og:type: article
 	:og:description: Extension ext/zlib
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extzlib.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/zlib.html
 	:og:locale: en
 Extension ext/zlib.
 

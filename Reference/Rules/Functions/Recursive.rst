@@ -18,7 +18,7 @@ Recursive Functions
 	:og:title: Recursive Functions
 	:og:type: article
 	:og:description: Recursive methods are methods that calls itself
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/Recursive.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Recursive Functions.html
 	:og:locale: en
 Recursive methods are methods that calls itself. 
 

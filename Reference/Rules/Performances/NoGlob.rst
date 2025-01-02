@@ -18,7 +18,7 @@ Avoid glob() Usage
 	:og:title: Avoid glob() Usage
 	:og:type: article
 	:og:description: glob() and scandir() sorts results by default
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Performances/NoGlob.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Avoid glob() Usage.html
 	:og:locale: en
 `glob() <https://www.php.net/glob>`_ and `scandir() <https://www.php.net/scandir>`_ sorts results by default. When that kind of sorting is not needed, save some time by requesting ``NOSORT`` with those functions.
 

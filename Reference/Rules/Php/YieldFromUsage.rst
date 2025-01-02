@@ -18,7 +18,7 @@ Yield From Usage
 	:og:title: Yield From Usage
 	:og:type: article
 	:og:description: Usage of generator delegation, with ``yield from`` keyword
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/YieldFromUsage.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Yield From Usage.html
 	:og:locale: en
 Usage of `generator <https://www.php.net/`generator <https://www.php.net/generator>`_>`_ delegation, with ``yield from`` keyword.
 

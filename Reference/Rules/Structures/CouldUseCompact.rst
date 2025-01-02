@@ -18,7 +18,7 @@ Could Use Compact
 	:og:title: Could Use Compact
 	:og:type: article
 	:og:description: Compact() turns a group of variables into an array
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/CouldUseCompact.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Could Use Compact.html
 	:og:locale: en
 `Compact() <https://www.php.net/compact>`_ turns a group of variables into an array. It may be used to simplify expressions. 
 Note that compact accepts any string, and any undefined variable is not set, without a warning.

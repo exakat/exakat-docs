@@ -18,7 +18,7 @@ Null Type Favorite
 	:og:title: Null Type Favorite
 	:og:type: article
 	:og:description: Null typed may be written in two ways : with 
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/NullTypeFavorite.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Null Type Favorite.html
 	:og:locale: en
 Null typed may be written in two ways : with ? or with union type and null. 
 

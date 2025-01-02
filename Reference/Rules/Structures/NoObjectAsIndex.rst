@@ -18,7 +18,7 @@ No Object As Index
 	:og:title: No Object As Index
 	:og:type: article
 	:og:description: PHP accepts objects as index, though it reports various error messages when this happens
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/NoObjectAsIndex.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No Object As Index.html
 	:og:locale: en
 PHP accepts objects as index, though it reports various `error <https://www.php.net/error>`_ messages when this happens.
 

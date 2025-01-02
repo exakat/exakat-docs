@@ -18,7 +18,7 @@ PSR-3 Usage
 	:og:title: PSR-3 Usage
 	:og:type: article
 	:og:description: PSR-3 describes a common interface for logging libraries
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Psr/Psr3Usage.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/PSR-3 Usage.html
 	:og:locale: en
 PSR-3 describes a common interface for logging libraries.
 

@@ -18,7 +18,7 @@ Property Used In One Method Only
 	:og:title: Property Used In One Method Only
 	:og:type: article
 	:og:description: Properties should be used in several methods
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/PropertyUsedInOneMethodOnly.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Property Used In One Method Only.html
 	:og:locale: en
 Properties should be used in several methods. When a property is used in only one method, this should have be of another shape. 
 

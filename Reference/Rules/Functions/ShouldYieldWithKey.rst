@@ -18,7 +18,7 @@ Should Yield With Key
 	:og:title: Should Yield With Key
 	:og:type: article
 	:og:description: iterator_to_array() overwrite generated values with the same key
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/ShouldYieldWithKey.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Should Yield With Key.html
 	:og:locale: en
 `iterator_to_array() <https://www.php.net/iterator_to_array>`_ overwrite generated values with the same key. 
 

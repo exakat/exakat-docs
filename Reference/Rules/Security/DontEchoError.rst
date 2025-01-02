@@ -18,7 +18,7 @@ Don't Echo Error
 	:og:title: Don't Echo Error
 	:og:type: article
 	:og:description: It is recommended to avoid displaying error messages directly to the browser
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Security/DontEchoError.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Don't Echo Error.html
 	:og:locale: en
 It is recommended to avoid displaying `error <https://www.php.net/error>`_ messages directly to the browser.
 

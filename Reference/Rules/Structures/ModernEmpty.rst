@@ -18,7 +18,7 @@ Modernize Empty With Expression
 	:og:title: Modernize Empty With Expression
 	:og:type: article
 	:og:description: empty() accepts expressions as argument
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ModernEmpty.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Modernize Empty With Expression.html
 	:og:locale: en
 empty() accepts expressions as argument. This feature was added in PHP 5.5. 
 

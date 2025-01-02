@@ -18,7 +18,7 @@ Implicit Nullable Type
 	:og:title: Implicit Nullable Type
 	:og:type: article
 	:og:description: Argument with default value of null are nullable
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/HiddenNullable.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Implicit Nullable Type.html
 	:og:locale: en
 Argument with default value of null are nullable. It works both with the ``null`` typehint (PHP 8.0), or the ``?`` operator are not used, setting the default value to null is allowed, and makes the argument nullable.
 

@@ -18,7 +18,7 @@ Set Class Method Remote Definition
 	:og:title: Set Class Method Remote Definition
 	:og:type: article
 	:og:description: Links method to the method definition
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Complete/SetClassMethodRemoteDefinition.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Set Class Method Remote Definition.html
 	:og:locale: en
 Links method to the method definition. The link is ``DEFINITION``.
 

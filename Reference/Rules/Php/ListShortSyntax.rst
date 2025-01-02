@@ -18,7 +18,7 @@ List Short Syntax
 	:og:title: List Short Syntax
 	:og:type: article
 	:og:description: Usage of short syntax version of list()
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/ListShortSyntax.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/List Short Syntax.html
 	:og:locale: en
 Usage of short syntax version of `list() <https://www.php.net/list>`_.
 

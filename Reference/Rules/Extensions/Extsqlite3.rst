@@ -18,7 +18,7 @@ ext/sqlite3
 	:og:title: ext/sqlite3
 	:og:type: article
 	:og:description: Extension Sqlite3
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extsqlite3.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/sqlite3.html
 	:og:locale: en
 Extension `Sqlite3 <https://www.php.net/sqlite3>`_.
 

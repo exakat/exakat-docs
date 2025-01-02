@@ -18,7 +18,7 @@ Strings With Strange Space
 	:og:title: Strings With Strange Space
 	:og:type: article
 	:og:description: An invisible space may be mistaken for a normal space
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Type/StringWithStrangeSpace.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Strings With Strange Space.html
 	:og:locale: en
 An invisible space may be mistaken for a normal space. 
 

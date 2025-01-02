@@ -18,7 +18,7 @@ ext/zookeeper
 	:og:title: ext/zookeeper
 	:og:type: article
 	:og:description: Extension for Apache Zookeeper
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extzookeeper.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/zookeeper.html
 	:og:locale: en
 Extension for Apache Zookeeper. 
 

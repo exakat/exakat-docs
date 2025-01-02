@@ -18,7 +18,7 @@ Detect Current Class
 	:og:title: Detect Current Class
 	:og:type: article
 	:og:description: Detecting the current class should be done with `self::class` or `static::class` operator
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/DetectCurrentClass.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Detect Current Class.html
 	:og:locale: en
 Detecting the current class should be done with `self\:\:class` or `static\:\:class` operator.
 

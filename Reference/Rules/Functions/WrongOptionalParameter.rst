@@ -18,7 +18,7 @@ Wrong Optional Parameter
 	:og:title: Wrong Optional Parameter
 	:og:type: article
 	:og:description: Wrong placement of optional parameters
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/WrongOptionalParameter.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Wrong Optional Parameter.html
 	:og:locale: en
 Wrong placement of optional parameters.
 

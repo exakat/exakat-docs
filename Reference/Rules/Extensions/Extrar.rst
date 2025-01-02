@@ -18,7 +18,7 @@ ext/rar
 	:og:title: ext/rar
 	:og:type: article
 	:og:description: Extension RAR
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extrar.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/rar.html
 	:og:locale: en
 Extension RAR. 
 

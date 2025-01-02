@@ -18,7 +18,7 @@
 	:og:title: ::class
 	:og:type: article
 	:og:description: PHP has a special class constant to hold the name of the class : ``class`` keyword
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/StaticclassUsage.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/::class.html
 	:og:locale: en
 PHP has a special class constant to hold the name of the class : ``class`` keyword. It represents the class name that is used in the left part of the operator.
 

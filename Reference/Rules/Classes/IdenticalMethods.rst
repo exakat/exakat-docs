@@ -18,7 +18,7 @@ Identical Methods
 	:og:title: Identical Methods
 	:og:type: article
 	:og:description: When the parent class and the child class have the same method, the child might omit it
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/IdenticalMethods.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Identical Methods.html
 	:og:locale: en
 When the `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ class and the child class have the same method, the child might omit it. This reduces code duplication. 
 

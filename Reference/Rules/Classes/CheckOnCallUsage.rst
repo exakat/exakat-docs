@@ -18,7 +18,7 @@ Check On __Call Usage
 	:og:title: Check On __Call Usage
 	:og:type: article
 	:og:description: When using the magic methods __call() and __staticcall(), make sure the method exists before calling it
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/CheckOnCallUsage.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Check On __Call Usage.html
 	:og:locale: en
 When using the magic methods `__call() <https://www.php.net/manual/en/language.oop5.magic.php>`_ and __staticcall(), make sure the method exists before calling it. 
 

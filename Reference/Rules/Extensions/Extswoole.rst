@@ -18,7 +18,7 @@ Swoole
 	:og:title: Swoole
 	:og:type: article
 	:og:description: Swoole : Production-Grade Async programming Framework for PHP
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extswoole.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Swoole.html
 	:og:locale: en
 Swoole : Production-Grade Async programming Framework for PHP.
 

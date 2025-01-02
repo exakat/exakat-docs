@@ -18,7 +18,7 @@ Undefined Caught Exceptions
 	:og:title: Undefined Caught Exceptions
 	:og:type: article
 	:og:description: Those are exceptions that are caught in the code, but are not defined in the application
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Exceptions/CaughtButNotThrown.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Undefined Caught Exceptions.html
 	:og:locale: en
 Those are exceptions that are caught in the code, but are not defined in the application. 
 

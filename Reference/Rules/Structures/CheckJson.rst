@@ -18,7 +18,7 @@ Check JSON
 	:og:title: Check JSON
 	:og:type: article
 	:og:description: Check errors whenever JSON is encoded or decoded
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/CheckJson.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Check JSON.html
 	:og:locale: en
 Check errors whenever JSON is encoded or decoded. 
 

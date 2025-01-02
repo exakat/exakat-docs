@@ -18,7 +18,7 @@ Use Same Types For Comparisons
 	:og:title: Use Same Types For Comparisons
 	:og:type: article
 	:og:description: Beware when using inequality operators that the type of the values are the same on both sites of the operators
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/UseSameTypesForComparisons.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Use Same Types For Comparisons.html
 	:og:locale: en
 Beware when using inequality operators that the type of the values are the same on both sites of the operators.
 

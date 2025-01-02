@@ -18,7 +18,7 @@ Exit-like Methods
 	:og:title: Exit-like Methods
 	:og:type: article
 	:og:description: Those methods terminate the execution
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/KillsApp.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Exit-like Methods.html
 	:og:locale: en
 Those methods terminate the execution. 
 

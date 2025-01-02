@@ -18,7 +18,7 @@ Is Extension Structure
 	:og:title: Is Extension Structure
 	:og:type: article
 	:og:description: Finish marking atoms with ``isExt``, as part of the PHP extension elements
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Complete/IsExtStructure.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Is Extension Structure.html
 	:og:locale: en
 Finish marking atoms with ``isExt``, as part of the PHP extension elements. For example, ``openssl``, ``mysqli``, etc.
 

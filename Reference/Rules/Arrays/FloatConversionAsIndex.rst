@@ -18,7 +18,7 @@ Float Conversion As Index
 	:og:title: Float Conversion As Index
 	:og:type: article
 	:og:description: Only integers and strings are possible types when used for array index
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Arrays/FloatConversionAsIndex.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Float Conversion As Index.html
 	:og:locale: en
 Only integers and strings are possible types when used for array index. Until PHP 8.1, floats were converted to integer by truncation. Since PHP 8.1, a deprecated message is emitted.
 

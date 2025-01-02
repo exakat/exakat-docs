@@ -18,7 +18,7 @@ Uses Environment
 	:og:title: Uses Environment
 	:og:type: article
 	:og:description: This rule spots usage of ``$_ENV``, ``getenv()`` and ``putenv()`` functions: they fetch data from the environment variables
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/UsesEnv.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Uses Environment.html
 	:og:locale: en
 This rule spots usage of ``$_ENV``, ``getenv()`` and ``putenv()`` functions: they fetch data from the environment variables.
 

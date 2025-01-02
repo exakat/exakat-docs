@@ -18,7 +18,7 @@ Multiple Identical Trait Or Interface
 	:og:title: Multiple Identical Trait Or Interface
 	:og:type: article
 	:og:description: There is no need to use the same trait, or implements the same interface more than once in a class
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/MultipleTraitOrInterface.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Multiple Identical Trait Or Interface.html
 	:og:locale: en
 There is no need to use the same trait, or implements the same interface more than once in a class.
 

@@ -18,7 +18,7 @@ PHP 7.3 Last Empty Argument
 	:og:title: PHP 7.3 Last Empty Argument
 	:og:type: article
 	:og:description: PHP allows the last element of any functioncall to be empty
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/PHP73LastEmptyArgument.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/PHP 7.3 Last Empty Argument.html
 	:og:locale: en
 PHP allows the last element of any functioncall to be empty. The argument is then not send.
 

@@ -18,7 +18,7 @@ Cookies Variables
 	:og:title: Cookies Variables
 	:og:type: article
 	:og:description: Cookies names, used across the application
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/CookiesVariables.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Cookies Variables.html
 	:og:locale: en
 Cookies names, used across the application.
 

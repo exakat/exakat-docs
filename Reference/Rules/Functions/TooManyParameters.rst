@@ -18,7 +18,7 @@ Too Many Parameters
 	:og:title: Too Many Parameters
 	:og:type: article
 	:og:description: Method has too many parameters
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/TooManyParameters.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Too Many Parameters.html
 	:og:locale: en
 Method has too many parameters. Exakat has a default parameter count which may be configured.
 

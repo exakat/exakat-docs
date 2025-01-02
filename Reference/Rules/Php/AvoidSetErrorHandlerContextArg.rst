@@ -18,7 +18,7 @@ Avoid set_error_handler $context Argument
 	:og:title: Avoid set_error_handler $context Argument
 	:og:type: article
 	:og:description: Avoid configuring set_error_handler() with a method that accepts 5 arguments
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/AvoidSetErrorHandlerContextArg.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Avoid set_error_handler $context Argument.html
 	:og:locale: en
 Avoid configuring `set_error_handler() <https://www.php.net/set_error_handler>`_ with a method that accepts 5 arguments. The last argument, ``$errcontext``, is deprecated since PHP 7.2, and will be removed later.
 

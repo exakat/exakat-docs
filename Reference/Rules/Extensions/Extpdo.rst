@@ -18,7 +18,7 @@ ext/pdo
 	:og:title: ext/pdo
 	:og:type: article
 	:og:description: Generic extension PDO
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extpdo.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/pdo.html
 	:og:locale: en
 Generic extension `PDO <https://www.php.net/pdo>`_.
 

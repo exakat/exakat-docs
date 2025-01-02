@@ -18,7 +18,7 @@ Could Be Ternary
 	:og:title: Could Be Ternary
 	:og:type: article
 	:og:description: This control structure may be replaced by a ternary operator
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/CouldBeTernary.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Could Be Ternary.html
 	:og:locale: en
 This control structure may be replaced by a ternary operator. 
 

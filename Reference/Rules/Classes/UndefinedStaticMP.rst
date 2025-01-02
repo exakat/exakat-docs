@@ -18,7 +18,7 @@ Undefined static\:\: Or self\:\:
 	:og:title: Undefined static:: Or self::
 	:og:type: article
 	:og:description: The identified property or method are undefined
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/UndefinedStaticMP.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Undefined static:: Or self::.html
 	:og:locale: en
 The identified property or method are undefined. `self <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ and `static <https://www.php.net/manual/en/language.oop5.static.php>`_ refer to the current class, or one of its `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ or trait.
 

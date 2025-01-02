@@ -18,7 +18,7 @@ Readonly Property Changed By Cloning
 	:og:title: Readonly Property Changed By Cloning
 	:og:type: article
 	:og:description: Readonly properties may be changed when cloning
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/ReadonlyPropertyChangedByCloning.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Readonly Property Changed By Cloning.html
 	:og:locale: en
 Readonly properties may be changed when cloning. This may happen in the ``__clone`` magic method. 
 

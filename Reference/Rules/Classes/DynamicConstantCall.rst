@@ -18,7 +18,7 @@ Dynamic Class Constant
 	:og:title: Dynamic Class Constant
 	:og:type: article
 	:og:description: This is the list of dynamic calls to class constants
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/DynamicConstantCall.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Dynamic Class Constant.html
 	:og:locale: en
 This is the list of dynamic calls to class constants.
 

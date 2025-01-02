@@ -18,7 +18,7 @@ Test Then Cast
 	:og:title: Test Then Cast
 	:og:type: article
 	:og:description: A test is run on a value without a cast, and later the cast value is later used
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/TestThenCast.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Test Then Cast.html
 	:og:locale: en
 A test is run on a value without a cast, and later the cast value is later used. 
 

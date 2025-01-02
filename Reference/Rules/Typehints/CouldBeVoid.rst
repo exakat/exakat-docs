@@ -18,7 +18,7 @@ Could Be Void
 	:og:title: Could Be Void
 	:og:type: article
 	:og:description: Mark return types that can be set to void
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Typehints/CouldBeVoid.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Could Be Void.html
 	:og:locale: en
 Mark return types that can be set to void.
 All abstract methods (in classes or in interfaces) are omitted here.

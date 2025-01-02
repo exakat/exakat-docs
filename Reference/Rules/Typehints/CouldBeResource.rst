@@ -16,7 +16,7 @@ Typehints/CouldBeResource
 	:og:title: Typehints/CouldBeResource
 	:og:type: article
 	:og:description: Mark arguments, properties and return types that can be set to ``resource``
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Typehints/CouldBeResource.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Typehints/CouldBeResource.html
 	:og:locale: en
 Mark arguments, properties and return types that can be set to ``resource``. 
 

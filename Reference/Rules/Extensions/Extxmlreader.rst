@@ -18,7 +18,7 @@ ext/xmlreader
 	:og:title: ext/xmlreader
 	:og:type: article
 	:og:description: Extension XMLReader
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extxmlreader.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/xmlreader.html
 	:og:locale: en
 Extension `XMLReader <https://www.php.net/xmlreader>`_.
 

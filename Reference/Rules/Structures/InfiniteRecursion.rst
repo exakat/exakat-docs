@@ -18,7 +18,7 @@ Infinite Recursion
 	:og:title: Infinite Recursion
 	:og:type: article
 	:og:description: A method is calling itself, with unchanged arguments
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/InfiniteRecursion.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Infinite Recursion.html
 	:og:locale: en
 A method is calling itself, with unchanged arguments. This might repeat indefinitely.
 

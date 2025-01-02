@@ -18,7 +18,7 @@ No Self Referencing Constant
 	:og:title: No Self Referencing Constant
 	:og:type: article
 	:og:description: It is not possible to use a constant to define itself in a class
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/NoSelfReferencingConstant.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No Self Referencing Constant.html
 	:og:locale: en
 It is not possible to use a constant to define itself in a class. It yields a fatal `error <https://www.php.net/error>`_ at runtime. 
 

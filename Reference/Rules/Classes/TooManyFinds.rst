@@ -18,7 +18,7 @@ Too Many Finds
 	:og:title: Too Many Finds
 	:og:type: article
 	:og:description: Too many methods called 'find*' in this class
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/TooManyFinds.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Too Many Finds.html
 	:og:locale: en
 Too many methods called 'find*' in this class. It is may be time to consider the `Specification pattern <https://en.wikipedia.org/wiki/Specification_pattern>`_.
 

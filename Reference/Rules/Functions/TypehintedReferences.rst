@@ -18,7 +18,7 @@ Class-typed References
 	:og:title: Class-typed References
 	:og:type: article
 	:og:description: Class-typee arguments have no need for references
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/TypehintedReferences.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Class-typed References.html
 	:og:locale: en
 Class-typee arguments have no need for references. Since they are representing an object, they are already a reference.
 

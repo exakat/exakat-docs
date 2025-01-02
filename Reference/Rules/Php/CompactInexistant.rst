@@ -18,7 +18,7 @@ Nonexistent Variable In compact()
 	:og:title: Nonexistent Variable In compact()
 	:og:type: article
 	:og:description: Compact() doesn't warn when it tries to work on an nonexistent variable
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/CompactInexistant.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Nonexistent Variable In compact().html
 	:og:locale: en
 `Compact() <https://www.php.net/compact>`_ doesn't warn when it tries to work on an nonexistent variable. It just ignores the variable.
 

@@ -18,7 +18,7 @@ Handle Arrays With Callback
 	:og:title: Handle Arrays With Callback
 	:og:type: article
 	:og:description: This rule marks method and function calls that accepts array callbacks as argument
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Arrays/WithCallback.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Handle Arrays With Callback.html
 	:og:locale: en
 This rule marks method and function calls that accepts array callbacks as argument. 
 

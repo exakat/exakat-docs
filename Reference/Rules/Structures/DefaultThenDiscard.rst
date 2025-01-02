@@ -18,7 +18,7 @@ Default Then Discard
 	:og:title: Default Then Discard
 	:og:type: article
 	:og:description: Discard the value before assigning it
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/DefaultThenDiscard.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Default Then Discard.html
 	:og:locale: en
 Discard the value before assigning it. 
 

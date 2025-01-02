@@ -18,7 +18,7 @@ Incoming Date Formats
 	:og:title: Incoming Date Formats
 	:og:type: article
 	:og:description: This is the list of format string used when creating dates
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Type/IncomingDateFormat.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Incoming Date Formats.html
 	:og:locale: en
 This is the list of format string used when creating dates. 
 

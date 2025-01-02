@@ -18,7 +18,7 @@ Only Variable Passed By Reference
 	:og:title: Only Variable Passed By Reference
 	:og:type: article
 	:og:description: Some methods require a variable as argument
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/OnlyVariablePassedByReference.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Only Variable Passed By Reference.html
 	:og:locale: en
 Some methods require a variable as argument. Those arguments are passed by reference, and they must operate on a variable, or any data container (property, array element). 
 
@@ -42,9 +42,9 @@ This is also the case of ``isset()``, althought with a different `error <https:/
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Argument+%231+%28%24array%29+could+not+be+passed+by+reference.html>`_
-  + `1 <https://php-errors.readthedocs.io/en/latest/messages/Argument+%231+%28%24array%29+cannot+be+passed+by+reference.html>`_
-  + `2 <https://php-errors.readthedocs.io/en/latest/messages/Cannot+use+isset%28%29+on+the+result+of+an+expression+%28you+can+use+%22null+%21%3D%3D+expression%22+instead%29.html>`_
+  + `Argument #1 ($array) could not be passed by reference <https://php-errors.readthedocs.io/en/latest/messages/%25s%28%29%3A-argument-%23%25d%25s%25s%25s-could-not-be-passed-by-reference.html>`_
+  + `Argument #1 ($array) cannot be passed by reference <https://php-errors.readthedocs.io/en/latest/messages/%25s%28%29-argument-%23%25d%25s%25s%25s-cannot-be-passed-by-reference.html>`_
+  + `Cannot use isset() on the result of an expression (you can use "null !== expression" instead) <https://php-errors.readthedocs.io/en/latest/messages/cannot-use-isset%5C%28%5C%29-on-the-result-of-an-expression-%5C%28you-can-use-%22null-%5C%21%5C%3D%5C%3D-expression%22-instead%5C%29.html>`_
 
 
 

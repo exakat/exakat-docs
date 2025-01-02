@@ -18,7 +18,7 @@ Geospatial
 	:og:title: Geospatial
 	:og:type: article
 	:og:description: PHP Extension to handle common geospatial functions
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extgeospatial.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Geospatial.html
 	:og:locale: en
 PHP Extension to handle common geospatial functions. The extension currently has implementations of the Haversine and Vincenty's formulas for calculating distances, an initial bearing calculation function, a Helmert transformation function to transfer between different supported datums, conversions between polar and Cartesian coordinates, conversions between Degree/Minute/Seconds and decimal degrees, a method to simplify linear geometries, as well as a method to calculate intermediate points on a LineString.
 NB : description and exemples are extracted from the extension source code.

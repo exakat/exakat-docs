@@ -18,7 +18,7 @@ Unbinding Closures
 	:og:title: Unbinding Closures
 	:og:type: article
 	:og:description: Never drop ``$this``, once a closure was created in a non-static method
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/UnbindingClosures.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Unbinding Closures.html
 	:og:locale: en
 Never drop ``$this``, once a `closure <https://www.php.net/`closure <https://www.php.net/closure>`_>`_ was created in a non-`static <https://www.php.net/manual/en/language.oop5.static.php>`_ method. 
 

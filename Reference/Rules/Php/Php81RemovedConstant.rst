@@ -18,7 +18,7 @@ PHP 8.1 Removed Constants
 	:og:title: PHP 8.1 Removed Constants
 	:og:type: article
 	:og:description: The following PHP native constants were disabled in PHP 8
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/Php81RemovedConstant.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/PHP 8.1 Removed Constants.html
 	:og:locale: en
 The following PHP native constants were disabled in PHP 8.1. They are not removed, but they have no more effect. 
 

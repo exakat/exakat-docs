@@ -18,7 +18,7 @@ Constant Order
 	:og:title: Constant Order
 	:og:type: article
 	:og:description: Order of dependency of constants
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/ConstantOrder.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Constant Order.html
 	:og:locale: en
 Order of dependency of constants. 
 

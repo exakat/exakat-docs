@@ -18,7 +18,7 @@ Unvalidated Data Cached In Session
 	:og:title: Unvalidated Data Cached In Session
 	:og:type: article
 	:og:description: Data is cached in the $_SESSION variable and later reused
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Security/SessionCachedData.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Unvalidated Data Cached In Session.html
 	:og:locale: en
 Data is cached in the $_SESSION variable and later reused. When data is not validated before this storage, it might be used to make an injection.
 

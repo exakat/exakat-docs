@@ -18,7 +18,7 @@ Invalid Date Scanning Format
 	:og:title: Invalid Date Scanning Format
 	:og:type: article
 	:og:description: The format string used with Datetime::createFromFormat() method (or similar) contains unknown characters
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/InvalidDateScanningFormat.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Invalid Date Scanning Format.html
 	:og:locale: en
 The format string used with `Datetime\:\:createFromFormat() <https://www.php.net/manual/en/datetime.createfromformat.php>`_ method (or similar) contains unknown characters. 
 

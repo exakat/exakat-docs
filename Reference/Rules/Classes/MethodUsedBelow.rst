@@ -18,7 +18,7 @@ Method Used Below
 	:og:title: Method Used Below
 	:og:type: article
 	:og:description: Mark methods that are used in children classes
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/MethodUsedBelow.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Method Used Below.html
 	:og:locale: en
 Mark methods that are used in children classes.
 This doesn't mark the current class, nor the (grand-)`parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ ones.

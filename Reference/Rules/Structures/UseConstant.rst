@@ -18,7 +18,7 @@ Use Constant Instead Of Function
 	:og:title: Use Constant Instead Of Function
 	:og:type: article
 	:og:description: Some functioncalls have a constant equivalent, that is faster to execute than calling the function
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/UseConstant.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Use Constant Instead Of Function.html
 	:og:locale: en
 Some functioncalls have a constant equivalent, that is faster to execute than calling the function. 
 

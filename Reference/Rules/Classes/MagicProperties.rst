@@ -18,7 +18,7 @@ Magic Properties
 	:og:title: Magic Properties
 	:og:type: article
 	:og:description: List of magic properties used in the code
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/MagicProperties.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Magic Properties.html
 	:og:locale: en
 List of magic properties used in the code. A magic property is a property called on a object, whose class doesn't define that properties, and define the related magic properties ``__get`` and ``__set``. `Static <https://www.php.net/manual/en/language.oop5.static.php>`_ properties cannot be magic.
 

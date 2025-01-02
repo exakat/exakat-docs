@@ -3,6 +3,21 @@
 CompatibilityPHP53
 ++++++++++++++++++
 
+.. meta::
+	:description:
+		CompatibilityPHP53: List features that are incompatible with PHP 5.3..
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: CompatibilityPHP53
+	:twitter:description: CompatibilityPHP53: List features that are incompatible with PHP 5.3.
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: CompatibilityPHP53
+	:og:type: article
+	:og:description: List features that are incompatible with PHP 5.3.
+	:og:url: https://exakat.readthedocs.io/en/latest/Rulesets/CompatibilityPHP53.html
+	:og:locale: en
 This ruleset centralizes all analysis for the migration from PHP 5.2 to 5.3.
 
 Total : 98 analysis

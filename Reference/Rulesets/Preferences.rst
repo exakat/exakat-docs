@@ -3,6 +3,21 @@
 Preferences
 +++++++++++
 
+.. meta::
+	:description:
+		Preferences: Identify preferences in the code..
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Preferences
+	:twitter:description: Preferences: Identify preferences in the code.
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Preferences
+	:og:type: article
+	:og:description: Identify preferences in the code.
+	:og:url: https://exakat.readthedocs.io/en/latest/Rulesets/Preferences.html
+	:og:locale: en
 This ruleset identify code with multiple forms, and report when one is more frequent than the others. Echo vs print, shell_exec() vs ``, etc.
 
 Total : 40 analysis

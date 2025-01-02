@@ -18,7 +18,7 @@ Setlocale() Uses Constants
 	:og:title: Setlocale() Uses Constants
 	:og:type: article
 	:og:description: setlocale() don't use strings but constants
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/SetlocaleNeedsConstants.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Setlocale() Uses Constants.html
 	:og:locale: en
 `setlocale() <https://www.php.net/setlocale>`_ don't use strings but constants. 
 

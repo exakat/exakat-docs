@@ -18,7 +18,7 @@ Argument Should Be Typehinted
 	:og:title: Argument Should Be Typehinted
 	:og:type: article
 	:og:description: When a method expects objects as argument, those arguments should be typehinted
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/ShouldBeTypehinted.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Argument Should Be Typehinted.html
 	:og:locale: en
 When a method expects objects as argument, those arguments should be typehinted. This way, it provides early warning that a wrong object is being sent to the method.
 

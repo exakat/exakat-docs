@@ -18,7 +18,7 @@ Identical Conditions
 	:og:title: Identical Conditions
 	:og:type: article
 	:og:description: These logical expressions contain members that are identical
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/IdenticalConditions.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Identical Conditions.html
 	:og:locale: en
 These logical expressions contain members that are identical. 
 

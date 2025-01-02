@@ -18,7 +18,7 @@ array_merge With Ellipsis
 	:og:title: array_merge With Ellipsis
 	:og:type: article
 	:og:description: Ellipsis, or 
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ArrayMergeWithEllipsis.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/array_merge With Ellipsis.html
 	:og:locale: en
 Ellipsis, or `... <https://www.php.net/manual/en/functions.arguments.php#functions.variable-arg-list>`_, returns a null when the operand array is empty. This doesn't suit `array_merge() <https://www.php.net/array_merge>`_. 
 

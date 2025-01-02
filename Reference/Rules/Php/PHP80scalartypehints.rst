@@ -18,7 +18,7 @@ PHP 8.0 Typehints
 	:og:title: PHP 8.0 Typehints
 	:og:type: article
 	:og:description: New scalar typehints were introduced : mixed and false
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/PHP80scalartypehints.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/PHP 8.0 Typehints.html
 	:og:locale: en
 New scalar typehints were introduced : mixed and false. 
 

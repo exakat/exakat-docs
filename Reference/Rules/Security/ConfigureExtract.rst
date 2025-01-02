@@ -18,7 +18,7 @@ Configure Extract
 	:og:title: Configure Extract
 	:og:type: article
 	:og:description: The extract() function overwrites local variables when left unconfigured
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Security/ConfigureExtract.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Configure Extract.html
 	:og:locale: en
 The `extract() <https://www.php.net/extract>`_ function overwrites local variables when left unconfigured.
 

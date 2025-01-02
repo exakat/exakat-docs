@@ -18,7 +18,7 @@ Semantic Typing
 	:og:title: Semantic Typing
 	:og:type: article
 	:og:description: Arguments names are only useful inside the method's body
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/SemanticTyping.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Semantic Typing.html
 	:og:locale: en
 Arguments names are only useful inside the method's body. They are not actual type.
 

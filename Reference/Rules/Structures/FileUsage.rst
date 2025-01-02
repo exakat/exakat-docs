@@ -18,7 +18,7 @@ File Usage
 	:og:title: File Usage
 	:og:type: article
 	:og:description: The application makes usage of files on the system (read, write, delete, etc
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/FileUsage.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/File Usage.html
 	:og:locale: en
 The application makes usage of files on the system (read, write, delete, etc.).
 

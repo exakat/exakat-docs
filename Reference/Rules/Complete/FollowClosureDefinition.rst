@@ -18,7 +18,7 @@ Follow Closure Definition
 	:og:title: Follow Closure Definition
 	:og:type: article
 	:og:description: This command adds DEFINITION link between closure and arrow functions definitions and their usage
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Complete/FollowClosureDefinition.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Follow Closure Definition.html
 	:og:locale: en
 This command adds DEFINITION link between `closure <https://www.php.net/`closure <https://www.php.net/closure>`_>`_ and arrow functions definitions and their usage.
 

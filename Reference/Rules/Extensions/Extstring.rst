@@ -18,7 +18,7 @@ String
 	:og:title: String
 	:og:type: article
 	:og:description: Strings in PHP
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extstring.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/String.html
 	:og:locale: en
 Strings in PHP. Strings are part of the core of PHP, and are not a separate extension.
 

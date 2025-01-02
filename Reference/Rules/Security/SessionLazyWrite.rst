@@ -18,7 +18,7 @@ Session Lazy Write
 	:og:title: Session Lazy Write
 	:og:type: article
 	:og:description: Classes that implements SessionHandlerInterface must also implements SessionUpdateTimestampHandlerInterface
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Security/SessionLazyWrite.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Session Lazy Write.html
 	:og:locale: en
 Classes that implements `SessionHandlerInterface <https://www.php.net/sessionhandlerinterface>`_ must also implements `SessionUpdateTimestampHandlerInterface <https://www.php.net/sessionupdatetimestamphandlerinterface>`_. 
 

@@ -18,7 +18,7 @@ Multiple Identical Closure
 	:og:title: Multiple Identical Closure
 	:og:type: article
 	:og:description: Several closures are defined with the same code
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/MultipleIdenticalClosure.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Multiple Identical Closure.html
 	:og:locale: en
 Several closures are defined with the same code. 
 

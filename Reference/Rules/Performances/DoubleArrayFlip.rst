@@ -18,7 +18,7 @@ Double array_flip()
 	:og:title: Double array_flip()
 	:og:type: article
 	:og:description: Avoid double array_flip() to gain speed
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Performances/DoubleArrayFlip.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Double array_flip().html
 	:og:locale: en
 Avoid double `array_flip() <https://www.php.net/array_flip>`_ to gain speed. While `array_flip() <https://www.php.net/array_flip>`_ alone is usually useful, a double call to `array_flip() <https://www.php.net/array_flip>`_ is made to make values and keys unique.
 

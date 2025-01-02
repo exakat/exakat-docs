@@ -18,7 +18,7 @@ Large Try Block
 	:og:title: Large Try Block
 	:og:type: article
 	:og:description: Try block should enclosing only the expression that may emit an exception
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Exceptions/LargeTryBlock.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Large Try Block.html
 	:og:locale: en
 Try block should enclosing only the expression that may emit an `exception <https://www.php.net/exception>`_. 
 

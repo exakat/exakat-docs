@@ -18,7 +18,7 @@ Ambiguous Array Index
 	:og:title: Ambiguous Array Index
 	:og:type: article
 	:og:description: Indexes should not be defined with different types than int or string
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Arrays/AmbiguousKeys.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Ambiguous Array Index.html
 	:og:locale: en
 Indexes should not be defined with different types than int or string. 
 

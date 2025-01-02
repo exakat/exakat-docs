@@ -18,7 +18,7 @@ New Object Then Immediate Call
 	:og:title: New Object Then Immediate Call
 	:og:type: article
 	:og:description: This rule reports immediate calls on a new object
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/NewThenCall.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/New Object Then Immediate Call.html
 	:og:locale: en
 This rule reports immediate calls on a new object. This can be simplified with a parenthesis structure, including with the assignation inside the parenthesis.
 

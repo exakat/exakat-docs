@@ -18,7 +18,7 @@ Magic Visibility
 	:og:title: Magic Visibility
 	:og:type: article
 	:og:description: Magic methods must be declared with public visibility
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/toStringPss.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Magic Visibility.html
 	:og:locale: en
 Magic methods must be declared with public visibility. They cannot be private or protected.
 

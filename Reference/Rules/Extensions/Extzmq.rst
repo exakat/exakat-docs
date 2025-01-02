@@ -18,7 +18,7 @@ ext/0mq
 	:og:title: ext/0mq
 	:og:type: article
 	:og:description: Extension ext/zmq for ``0mq``
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extzmq.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/0mq.html
 	:og:locale: en
 Extension ext/zmq for ``0mq``.
 

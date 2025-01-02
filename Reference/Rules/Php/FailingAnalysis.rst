@@ -18,7 +18,7 @@ Failing Analysis
 	:og:title: Failing Analysis
 	:og:type: article
 	:og:description: This is a dummy analysis
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/FailingAnalysis.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Failing Analysis.html
 	:og:locale: en
 This is a dummy analysis. It is made to fail, for testing purposes.
 

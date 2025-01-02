@@ -18,7 +18,7 @@ Callback Function Needs Return
 	:og:title: Callback Function Needs Return
 	:og:type: article
 	:og:description: When used with array_map() functions, the callback must return something
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/CallbackNeedsReturn.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Callback Function Needs Return.html
 	:og:locale: en
 When used with `array_map() <https://www.php.net/array_map>`_ functions, the callback must return something. This return may be in the form of a ``return`` statement, a global variable or a parameter with a reference. All those solutions extract information from the callback. 
 

@@ -18,7 +18,7 @@ Environment Variables
 	:og:title: Environment Variables
 	:og:type: article
 	:og:description: Environment variables are used to interact with the hosting system
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Variables/UncommonEnvVar.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Environment Variables.html
 	:og:locale: en
 Environment variables are used to interact with the hosting system. 
 

@@ -18,7 +18,7 @@
 	:og:title: ** For Exponent
 	:og:type: article
 	:og:description: The operator ``**`` calculates exponents, also known as power
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/NewExponent.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/** For Exponent.html
 	:og:locale: en
 The operator ``**`` calculates exponents, also known as power. 
 

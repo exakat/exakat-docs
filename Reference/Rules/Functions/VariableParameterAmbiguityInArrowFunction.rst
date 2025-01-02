@@ -18,7 +18,7 @@ Variable Parameter Ambiguity In Arrow Function
 	:og:title: Variable Parameter Ambiguity In Arrow Function
 	:og:type: article
 	:og:description: Avoid using a parameter that is also the name of a local variable
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/VariableParameterAmbiguityInArrowFunction.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Variable Parameter Ambiguity In Arrow Function.html
 	:og:locale: en
 Avoid using a parameter that is also the name of a local variable.
 

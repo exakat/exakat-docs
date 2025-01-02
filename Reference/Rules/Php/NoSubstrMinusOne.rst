@@ -18,7 +18,7 @@ No Substr Minus One
 	:og:title: No Substr Minus One
 	:og:type: article
 	:og:description: Negative index were introduced in PHP 7
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/NoSubstrMinusOne.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No Substr Minus One.html
 	:og:locale: en
 Negative index were introduced in PHP 7.1. This syntax is not compatible with PHP 7.0 and older.
 

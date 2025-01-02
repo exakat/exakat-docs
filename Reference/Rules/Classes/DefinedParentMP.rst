@@ -18,7 +18,7 @@ Defined Parent MP
 	:og:title: Defined Parent MP
 	:og:type: article
 	:og:description: This rule reports when a static call with `parent`, where the parent has an actual definition
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/DefinedParentMP.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Defined Parent MP.html
 	:og:locale: en
 This rule reports when a `static <https://www.php.net/manual/en/language.oop5.static.php>`_ call with `parent`, where the `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ has an actual definition.
 

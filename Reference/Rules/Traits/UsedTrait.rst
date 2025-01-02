@@ -18,7 +18,7 @@ Used Trait
 	:og:title: Used Trait
 	:og:type: article
 	:og:description: Mark a trait as being used by a class or another trait
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Traits/UsedTrait.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Used Trait.html
 	:og:locale: en
 Mark a trait as being used by a class or another trait.
 

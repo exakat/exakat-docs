@@ -18,7 +18,7 @@ Deprecated Callable
 	:og:title: Deprecated Callable
 	:og:type: article
 	:og:description: Callable functions that are supported by ``call_user_func($callable)``, but not with the ``$callable()`` syntax are deprecated
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/DeprecatedCallable.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Deprecated Callable.html
 	:og:locale: en
 Callable functions that are supported by ``call_user_func($callable)``, but not with the ``$callable()`` syntax are deprecated. 
 

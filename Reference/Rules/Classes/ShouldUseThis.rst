@@ -18,7 +18,7 @@ Should Use Local Class
 	:og:title: Should Use Local Class
 	:og:type: article
 	:og:description: Methods should use the defining class, or be functions
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/ShouldUseThis.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Should Use Local Class.html
 	:og:locale: en
 Methods should use the defining class, or be functions.
 

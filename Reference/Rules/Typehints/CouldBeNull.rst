@@ -18,7 +18,7 @@ Could Be Null
 	:og:title: Could Be Null
 	:og:type: article
 	:og:description: Mark arguments, properties, class constants and return types that can be ``null``
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Typehints/CouldBeNull.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Could Be Null.html
 	:og:locale: en
 Mark arguments, properties, class constants and return types that can be ``null``. Null was introduced as a standlone type in PHP 8.2. Before that, null had to be paired with another type.
 

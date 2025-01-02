@@ -18,7 +18,7 @@ Only Variable For Reference
 	:og:title: Only Variable For Reference
 	:og:type: article
 	:og:description: When a method is requesting an argument to be a reference, it cannot be called with a literal value
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/OnlyVariableForReference.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Only Variable For Reference.html
 	:og:locale: en
 When a method is requesting an argument to be a reference, it cannot be called with a literal value.
 

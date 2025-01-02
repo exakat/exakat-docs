@@ -18,7 +18,7 @@ Method Is Not An If
 	:og:title: Method Is Not An If
 	:og:type: article
 	:og:description: When a method consists only in one if statement, it might be worth refactoring
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/MethodIsNotAnIf.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Method Is Not An If.html
 	:og:locale: en
 When a method consists only in one if statement, it might be worth refactoring. 
 

@@ -18,7 +18,7 @@ Use Closure Trailing Comma
 	:og:title: Use Closure Trailing Comma
 	:og:type: article
 	:og:description: Use a trailing comma in the closure's ``use`` list
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/UseTrailingUseComma.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Use Closure Trailing Comma.html
 	:og:locale: en
 Use a trailing comma in the `closure <https://www.php.net/`closure <https://www.php.net/closure>`_>`_'s ``use`` list. 
 

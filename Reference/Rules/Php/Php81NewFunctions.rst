@@ -18,7 +18,7 @@ New Functions In PHP 8.1
 	:og:title: New Functions In PHP 8.1
 	:og:type: article
 	:og:description: New functions are added to new PHP version
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/Php81NewFunctions.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/New Functions In PHP 8.1.html
 	:og:locale: en
 New functions are added to new PHP version.
 

@@ -18,7 +18,7 @@ Using Deprecated Method
 	:og:title: Using Deprecated Method
 	:og:type: article
 	:og:description: A call to a deprecated method has been spotted
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/UsingDeprecated.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Using Deprecated Method.html
 	:og:locale: en
 A call to a deprecated method has been spotted. A method is deprecated when it bears a ``@deprecated`` parameter in its typehint definition.
 

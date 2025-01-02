@@ -3,6 +3,21 @@
 Dead code
 +++++++++
 
+.. meta::
+	:description:
+		Dead code: Check the unused code or unreachable code..
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Dead code
+	:twitter:description: Dead code: Check the unused code or unreachable code.
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Dead code
+	:og:type: article
+	:og:description: Check the unused code or unreachable code.
+	:og:url: https://exakat.readthedocs.io/en/latest/Rulesets/Dead code.html
+	:og:locale: en
 This ruleset focuses on dead code : expressions or even structures that are written, valid but never used.
 
 Total : 33 analysis

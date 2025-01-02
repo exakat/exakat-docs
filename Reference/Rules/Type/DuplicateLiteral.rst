@@ -18,7 +18,7 @@ Duplicate Literal
 	:og:title: Duplicate Literal
 	:og:type: article
 	:og:description: Report literals that are repeated across the code
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Type/DuplicateLiteral.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Duplicate Literal.html
 	:og:locale: en
 Report literals that are repeated across the code. The minimum replication is 5, and is configurable with ``maxDuplicate``.
 

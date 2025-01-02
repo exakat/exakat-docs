@@ -18,7 +18,7 @@ Use List With Foreach
 	:og:title: Use List With Foreach
 	:og:type: article
 	:og:description: Foreach() structures accepts list() as blind key
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/UseListWithForeach.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Use List With Foreach.html
 	:og:locale: en
 `Foreach() <https://www.php.net/manual/en/control-structures.foreach.php>`_ structures accepts `list() <https://www.php.net/list>`_ as blind key. If the loop-value is an array with a fixed structure, it is possible to extract the values directly into variables with explicit names.
 

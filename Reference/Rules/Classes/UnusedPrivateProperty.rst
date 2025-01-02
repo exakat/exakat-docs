@@ -18,7 +18,7 @@ Unused Private Properties
 	:og:title: Unused Private Properties
 	:og:type: article
 	:og:description: Unused static properties should be removed
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/UnusedPrivateProperty.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Unused Private Properties.html
 	:og:locale: en
 Unused `static <https://www.php.net/manual/en/language.oop5.static.php>`_ properties should be removed. 
 

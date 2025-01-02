@@ -18,7 +18,7 @@ Cyclomatic Complexity
 	:og:title: Cyclomatic Complexity
 	:og:type: article
 	:og:description: This rules calculates cyclomatic complexity for each method, function, and closures
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/CyclomaticComplexity.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Cyclomatic Complexity.html
 	:og:locale: en
 This rules calculates cyclomatic complexity for each method, function, and closures.
 

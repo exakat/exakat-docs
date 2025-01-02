@@ -18,7 +18,7 @@ Redefined Private Property
 	:og:title: Redefined Private Property
 	:og:type: article
 	:og:description: Private properties are local to their defined class
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/RedefinedPrivateProperty.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Redefined Private Property.html
 	:og:locale: en
 Private properties are local to their defined class. PHP doesn't forbid the re-declaration of a private property in a child class.
 

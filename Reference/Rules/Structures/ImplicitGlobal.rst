@@ -18,7 +18,7 @@ Implicit Global
 	:og:title: Implicit Global
 	:og:type: article
 	:og:description: Global variables, that are used in local scope with global keyword, but are not declared as global in the global scope
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ImplicitGlobal.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Implicit Global.html
 	:og:locale: en
 Global variables, that are used in local scope with global keyword, but are not declared as global in the global scope. They may be mistaken with distinct values, while, in PHP, variables in the global scope are truly global.
 

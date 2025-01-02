@@ -18,7 +18,7 @@ Init Then Update
 	:og:title: Init Then Update
 	:og:type: article
 	:og:description: This is a structure where the variable is initialized in the main sequence of the code, then adapted to another value in a subsequent if structure
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/InitThenIf.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Init Then Update.html
 	:og:locale: en
 This is a structure where the variable is initialized in the main sequence of the code, then adapted to another value in a subsequent if structure.
 

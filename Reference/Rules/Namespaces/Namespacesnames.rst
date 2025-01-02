@@ -18,7 +18,7 @@ Namespaces Glossary
 	:og:title: Namespaces Glossary
 	:og:type: article
 	:og:description: List of all the defined namespaces in the code, using the namespace keyword
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Namespaces/Namespacesnames.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Namespaces Glossary.html
 	:og:locale: en
 List of all the defined namespaces in the code, using the namespace keyword. 
 Global namespaces are mentioned when they are explicitly used.

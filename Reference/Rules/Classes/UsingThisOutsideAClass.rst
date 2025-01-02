@@ -18,7 +18,7 @@ Using $this Outside A Class
 	:og:title: Using $this Outside A Class
 	:og:type: article
 	:og:description: ``$this`` is a special variable, that should only be used in a class context
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/UsingThisOutsideAClass.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Using $this Outside A Class.html
 	:og:locale: en
 ``$this`` is a special variable, that should only be used in a class context. 
 

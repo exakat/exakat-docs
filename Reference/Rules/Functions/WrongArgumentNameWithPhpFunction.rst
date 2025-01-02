@@ -18,7 +18,7 @@ Wrong Argument Name With PHP Function
 	:og:title: Wrong Argument Name With PHP Function
 	:og:type: article
 	:og:description: The name of the argument provided is not a valid parameter name for that PHP native function or method
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/WrongArgumentNameWithPhpFunction.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Wrong Argument Name With PHP Function.html
 	:og:locale: en
 The name of the argument provided is not a valid parameter name for that PHP native function or method. 
 This analysis may be configured with extra PHP extensions or external packages.

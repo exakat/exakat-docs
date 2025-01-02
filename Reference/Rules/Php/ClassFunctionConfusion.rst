@@ -18,7 +18,7 @@ Class Function Confusion
 	:og:title: Class Function Confusion
 	:og:type: article
 	:og:description: Avoid classes and functions bearing the same name
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/ClassFunctionConfusion.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Class Function Confusion.html
 	:og:locale: en
 Avoid classes and functions bearing the same name. 
 

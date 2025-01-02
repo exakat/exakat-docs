@@ -18,7 +18,7 @@ Getting Last Element
 	:og:title: Getting Last Element
 	:og:type: article
 	:og:description: Getting the last element of an array relies on array_key_last()
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Arrays/GettingLastElement.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Getting Last Element.html
 	:og:locale: en
 Getting the last element of an array relies on `array_key_last() <https://www.php.net/array_key_last>`_.
 

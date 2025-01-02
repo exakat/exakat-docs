@@ -18,7 +18,7 @@ Coalesce And Ternary Operators Order
 	:og:title: Coalesce And Ternary Operators Order
 	:og:type: article
 	:og:description: The ternary operator and the null-coalesce operator cannot be used in any order
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/CoalesceNullCoalesce.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Coalesce And Ternary Operators Order.html
 	:og:locale: en
 The ternary operator and the null-coalesce operator cannot be used in any order. The ternary operator is wider, so ot should be used last.
 

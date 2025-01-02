@@ -18,7 +18,7 @@ Only Variable Passed By Reference
 	:og:title: Only Variable Passed By Reference
 	:og:type: article
 	:og:description: When an argument is expected by reference, it is compulsory to provide a container
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/OnlyVariablePassedByReference.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Only Variable Passed By Reference.html
 	:og:locale: en
 When an argument is expected by reference, it is compulsory to provide a container. A container may be a variable, an array, a property or a `static <https://www.php.net/manual/en/language.oop5.static.php>`_ property. 
 

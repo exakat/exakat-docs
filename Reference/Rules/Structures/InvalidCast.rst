@@ -18,7 +18,7 @@ Invalid Cast
 	:og:title: Invalid Cast
 	:og:type: article
 	:og:description: Some cast operations not permitted
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/InvalidCast.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Invalid Cast.html
 	:og:locale: en
 Some cast operations not permitted. 
 

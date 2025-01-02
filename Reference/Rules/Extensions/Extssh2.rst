@@ -18,7 +18,7 @@ ext/ssh2
 	:og:title: ext/ssh2
 	:og:type: article
 	:og:description: Extension ext/ssh2
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extssh2.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/ssh2.html
 	:og:locale: en
 Extension ext/ssh2.
 

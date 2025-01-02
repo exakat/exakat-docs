@@ -18,7 +18,7 @@ ext/openssl
 	:og:title: ext/openssl
 	:og:type: article
 	:og:description: Extension Openssl
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extopenssl.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/openssl.html
 	:og:locale: en
 Extension Openssl.
 

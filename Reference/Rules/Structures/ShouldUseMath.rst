@@ -18,7 +18,7 @@ Should Use Math
 	:og:title: Should Use Math
 	:og:type: article
 	:og:description: Use math operators to make the operation readable
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ShouldUseMath.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Should Use Math.html
 	:og:locale: en
 Use math operators to make the operation readable.
 

@@ -18,7 +18,7 @@ Avoid sleep()/usleep()
 	:og:title: Avoid sleep()/usleep()
 	:og:type: article
 	:og:description: sleep() and usleep() help saturate the web server
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Security/NoSleep.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Avoid sleep()/usleep().html
 	:og:locale: en
 `sleep() <https://www.php.net/sleep>`_ and `usleep() <https://www.php.net/usleep>`_ help saturate the web server. 
 

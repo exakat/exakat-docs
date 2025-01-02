@@ -18,7 +18,7 @@ Could Use Alias
 	:og:title: Could Use Alias
 	:og:type: article
 	:og:description: This long name may be reduced by using an available alias
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Namespaces/CouldUseAlias.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Could Use Alias.html
 	:og:locale: en
 This long name may be reduced by using an available alias.
 

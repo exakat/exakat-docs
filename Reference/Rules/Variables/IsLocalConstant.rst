@@ -18,7 +18,7 @@ Variable Is A Local Constant
 	:og:title: Variable Is A Local Constant
 	:og:type: article
 	:og:description: A variable that is written once, then never modified : it behaves like a constant
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Variables/IsLocalConstant.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Variable Is A Local Constant.html
 	:og:locale: en
 A variable that is written once, then never modified : it behaves like a constant. Some other rule may take advantage of this.
 

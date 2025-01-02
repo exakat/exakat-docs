@@ -18,7 +18,7 @@ Undefined Classes
 	:og:title: Undefined Classes
 	:og:type: article
 	:og:description: Those classes are used in the code, but there are no definition for them
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/UndefinedClasses.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Undefined Classes.html
 	:og:locale: en
 Those classes are used in the code, but there are no definition for them.
 

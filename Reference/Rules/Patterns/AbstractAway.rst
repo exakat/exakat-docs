@@ -18,7 +18,7 @@ Abstract Away
 	:og:title: Abstract Away
 	:og:type: article
 	:og:description: Avoid using PHP native functions that produce data directly in the code
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Patterns/AbstractAway.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Abstract Away.html
 	:og:locale: en
 Avoid using PHP native functions that produce data directly in the code. For example, `date() <https://www.php.net/date>`_ or `random_int() <https://www.php.net/random_int>`_. They should be abstracted away in a method, that will be replaced later for testing purposes, or even debugging.
 

@@ -18,7 +18,7 @@ Could Be Self
 	:og:title: Could Be Self
 	:og:type: article
 	:og:description: Mark arguments, return types and properties that can be set to ``self``
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Typehints/CouldBeSelf.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Could Be Self.html
 	:og:locale: en
 Mark arguments, return types and properties that can be set to ``self``. This applies only to methods. 
 

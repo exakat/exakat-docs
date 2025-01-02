@@ -18,7 +18,7 @@ Iffectations
 	:og:title: Iffectations
 	:og:type: article
 	:og:description: Affectations that appears in a condition
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/Iffectation.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Iffectations.html
 	:og:locale: en
 Affectations that appears in a condition. 
 

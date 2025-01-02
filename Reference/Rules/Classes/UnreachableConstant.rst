@@ -18,7 +18,7 @@ Unreachable Class Constant
 	:og:title: Unreachable Class Constant
 	:og:type: article
 	:og:description: Class constants may be unreachable due to visibility configuration
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/UnreachableConstant.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Unreachable Class Constant.html
 	:og:locale: en
 Class constants may be unreachable due to visibility configuration. 
 

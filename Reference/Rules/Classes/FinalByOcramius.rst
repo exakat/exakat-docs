@@ -18,7 +18,7 @@ Class Should Be Final By Ocramius
 	:og:title: Class Should Be Final By Ocramius
 	:og:type: article
 	:og:description: 'Make your classes always final, if they implement an interface, and no other public methods are defined'
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/FinalByOcramius.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Class Should Be Final By Ocramius.html
 	:og:locale: en
 'Make your classes always final, if they implement an interface, and no other public methods are defined'.
 

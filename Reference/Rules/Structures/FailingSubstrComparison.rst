@@ -18,7 +18,7 @@ Failed Substr() Comparison
 	:og:title: Failed Substr() Comparison
 	:og:type: article
 	:og:description: The extracted string must be of the size of the compared string
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/FailingSubstrComparison.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Failed Substr() Comparison.html
 	:og:locale: en
 The extracted string must be of the size of the compared string.
 

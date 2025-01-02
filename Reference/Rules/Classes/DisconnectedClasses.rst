@@ -18,7 +18,7 @@ Disconnected Classes
 	:og:title: Disconnected Classes
 	:og:type: article
 	:og:description: One class is extending the other, but they do not use any features from one another
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/DisconnectedClasses.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Disconnected Classes.html
 	:og:locale: en
 One class is extending the other, but they do not use any features from one another. Basically, those two classes are using extends, but they are completely independent and may be separated. 
 

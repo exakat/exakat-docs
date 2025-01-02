@@ -18,7 +18,7 @@ File_Put_Contents Using Array Argument
 	:og:title: File_Put_Contents Using Array Argument
 	:og:type: article
 	:og:description: file_put_contents() accepts a second argument as an array, and stores it in the file with an implicit implode
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/FilePutContentsDataType.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/File_Put_Contents Using Array Argument.html
 	:og:locale: en
 `file_put_contents() <https://www.php.net/file_put_contents>`_ accepts a second argument as an array, and stores it in the file with an implicit implode. This is a documented behavior, though it is rarely used.
 

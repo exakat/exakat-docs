@@ -18,7 +18,7 @@ Return True False
 	:og:title: Return True False
 	:og:type: article
 	:og:description: These conditional expressions return true/false, depending on the condition
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ReturnTrueFalse.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Return True False.html
 	:og:locale: en
 These conditional expressions return true/false, depending on the condition. This may be simplified by dropping the control structure altogether.
 This may be simplified with : 

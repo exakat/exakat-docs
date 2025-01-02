@@ -18,7 +18,7 @@ Redefined Default
 	:og:title: Redefined Default
 	:og:type: article
 	:og:description: Classes allows properties to be set with a default value
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/RedefinedDefault.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Redefined Default.html
 	:og:locale: en
 Classes allows properties to be set with a default value. When those properties get, unconditionally, another value at constructor time, then one of the default value are useless. One of those definition should go : it is better to define properties outside the constructor.
 

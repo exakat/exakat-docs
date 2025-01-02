@@ -18,7 +18,7 @@ Should Use Explode Args
 	:og:title: Should Use Explode Args
 	:og:type: article
 	:og:description: explode() has a third argument, which limits the amount of exploded elements
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ShouldUseExplodeArgs.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Should Use Explode Args.html
 	:og:locale: en
 `explode() <https://www.php.net/explode>`_ has a third argument, which limits the amount of exploded elements. With it, it is possible to collect only the first elements, or drop the last ones.
 

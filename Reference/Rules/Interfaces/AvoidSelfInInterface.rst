@@ -18,7 +18,7 @@ Avoid Self In Interface
 	:og:title: Avoid Self In Interface
 	:og:type: article
 	:og:description: Self and Parent are tricky when used in an interface
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Interfaces/AvoidSelfInInterface.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Avoid Self In Interface.html
 	:og:locale: en
 `Self <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ and `Parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ are tricky when used in an interface. 
 

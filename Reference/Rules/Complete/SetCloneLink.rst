@@ -18,7 +18,7 @@ Set Clone Link
 	:og:title: Set Clone Link
 	:og:type: article
 	:og:description: This command creates a link DEFINITION between a clone call, and its equivalent magic method
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Complete/SetCloneLink.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Set Clone Link.html
 	:og:locale: en
 This command creates a link DEFINITION between a clone call, and its equivalent magic method.
 This command may not detect all possible link for the clone. It may be missing information about the nature of the clone object.

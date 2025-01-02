@@ -18,7 +18,7 @@ Empty Traits
 	:og:title: Empty Traits
 	:og:type: article
 	:og:description: List of all empty trait defined in the code
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Traits/EmptyTrait.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Empty Traits.html
 	:og:locale: en
 List of all empty trait defined in the code. 
 

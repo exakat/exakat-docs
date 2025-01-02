@@ -18,7 +18,7 @@ Safe HTTP Headers
 	:og:title: Safe HTTP Headers
 	:og:type: article
 	:og:description: Avoid configuring HTTP headers with lax restriction from within PHP
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Security/SafeHttpHeaders.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Safe HTTP Headers.html
 	:og:locale: en
 Avoid configuring HTTP headers with lax restriction from within PHP. 
 

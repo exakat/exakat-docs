@@ -18,7 +18,7 @@ Favorite Casting Method
 	:og:title: Favorite Casting Method
 	:og:type: article
 	:og:description: There are two methods for casting : the cast operators, or the conversion functions
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/CastFavorite.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Favorite Casting Method.html
 	:og:locale: en
 There are two methods for casting : the cast operators, or the conversion functions. The cast operators are ``int``, ``float`` and ``string``. The conversion functions are ``intval()``, ``floatval()`` and ``strval()``.
 

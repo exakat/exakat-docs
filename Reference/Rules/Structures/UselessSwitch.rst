@@ -18,7 +18,7 @@ Useless Switch
 	:og:title: Useless Switch
 	:og:type: article
 	:og:description: This switch has only one case
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/UselessSwitch.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Useless Switch.html
 	:og:locale: en
 This switch has only one case. It may very well be replaced by a ifthen structure.
 

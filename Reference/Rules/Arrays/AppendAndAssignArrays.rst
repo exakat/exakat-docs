@@ -18,7 +18,7 @@ Append And Assign Arrays
 	:og:title: Append And Assign Arrays
 	:og:type: article
 	:og:description: This rule reports arrays that are used both with append and direct index assignation
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Arrays/AppendAndAssignArrays.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Append And Assign Arrays.html
 	:og:locale: en
 This rule reports arrays that are used both with append and direct index assignation. Read access are not considered here. 
 

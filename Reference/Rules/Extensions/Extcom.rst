@@ -18,7 +18,7 @@ ext/com
 	:og:title: ext/com
 	:og:type: article
 	:og:description: Extension COM and ``
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extcom.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/com.html
 	:og:locale: en
 Extension COM and ``.Net`` (Windows).
 

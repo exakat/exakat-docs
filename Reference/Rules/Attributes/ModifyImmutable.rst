@@ -18,7 +18,7 @@ Modify Immutable
 	:og:title: Modify Immutable
 	:og:type: article
 	:og:description: A class, marked as immutable, is being modified
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Attributes/ModifyImmutable.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Modify Immutable.html
 	:og:locale: en
 A class, marked as immutable, is being modified. 
 

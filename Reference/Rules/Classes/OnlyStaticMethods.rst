@@ -18,7 +18,7 @@ Only Static Methods Class
 	:og:title: Only Static Methods Class
 	:og:type: article
 	:og:description: This rule marks a class that only contains static methods
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/OnlyStaticMethods.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Only Static Methods Class.html
 	:og:locale: en
 This rule marks a class that only contains `static <https://www.php.net/manual/en/language.oop5.static.php>`_ methods. Such classes are tool classes, with definition of methods that can be called without an object. This is akin to functions, with autoloading possibilities.
 

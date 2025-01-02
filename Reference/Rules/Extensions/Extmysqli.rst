@@ -18,7 +18,7 @@ ext/mysqli
 	:og:title: ext/mysqli
 	:og:type: article
 	:og:description: Extension mysqli for MySQL
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extmysqli.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/mysqli.html
 	:og:locale: en
 Extension `mysqli <https://www.php.net/mysqli>`_ for MySQL.
 

@@ -18,7 +18,7 @@ Don't Loop On Yield
 	:og:title: Don't Loop On Yield
 	:og:type: article
 	:og:description: Use ``yield from``, instead of looping on a generator with ``yield``
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/DontLoopOnYield.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Don't Loop On Yield.html
 	:og:locale: en
 Use ``yield from``, instead of looping on a `generator <https://www.php.net/`generator <https://www.php.net/generator>`_>`_ with ``yield``.
 

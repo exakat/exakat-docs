@@ -18,7 +18,7 @@ Useless Null Coalesce
 	:og:title: Useless Null Coalesce
 	:og:type: article
 	:og:description: When the type system ensure the condition is never null, the operator becomes useless
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/UselessNullCoalesce.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Useless Null Coalesce.html
 	:og:locale: en
 When the type system ensure the condition is never null, the operator becomes useless. 
 

@@ -18,7 +18,7 @@ Used Once Variables (In Scope)
 	:og:title: Used Once Variables (In Scope)
 	:og:type: article
 	:og:description: This is the list of used once variables, scope by scope
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Variables/VariableUsedOnceByContext.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Used Once Variables (In Scope).html
 	:og:locale: en
 This is the list of used once variables, scope by scope. Those variables are used once in a function, a method, a class or a namespace. In any case, this means the variable is read or written, while it should be used at least twice. 
 

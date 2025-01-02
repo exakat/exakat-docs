@@ -18,7 +18,7 @@ Redeclared Static Variable
 	:og:title: Redeclared Static Variable
 	:og:type: article
 	:og:description: Static variables shall be declared only once
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Variables/RedeclaredStaticVariable.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Redeclared Static Variable.html
 	:og:locale: en
 `Static <https://www.php.net/manual/en/language.oop5.static.php>`_ variables shall be declared only once. It is forbidden in PHP 8.3 and later. It was silently allowed in PHP 8.2 and older.
 

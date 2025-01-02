@@ -18,7 +18,7 @@ Random Without Try
 	:og:title: Random Without Try
 	:og:type: article
 	:og:description: random_int() and random_bytes() require a try/catch structure around them
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/RandomWithoutTry.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Random Without Try.html
 	:og:locale: en
 `random_int() <https://www.php.net/random_int>`_ and `random_bytes() <https://www.php.net/random_bytes>`_ require a try/catch structure around them.
 

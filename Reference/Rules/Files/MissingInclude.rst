@@ -18,7 +18,7 @@ Missing Include
 	:og:title: Missing Include
 	:og:type: article
 	:og:description: The included files doesn't exists in the repository
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Files/MissingInclude.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Missing Include.html
 	:og:locale: en
 The included files doesn't exists in the repository. The inclusions target a files that doesn't exist.
 

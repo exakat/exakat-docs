@@ -18,7 +18,7 @@ Ambiguous Visibilities
 	:og:title: Ambiguous Visibilities
 	:og:type: article
 	:og:description: The properties have the same name, but have different visibilities, across different classes
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/AmbiguousVisibilities.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Ambiguous Visibilities.html
 	:og:locale: en
 The properties have the same name, but have different visibilities, across different classes. 
 

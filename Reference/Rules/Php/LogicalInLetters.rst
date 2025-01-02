@@ -18,7 +18,7 @@ Logical Should Use Symbolic Operators
 	:og:title: Logical Should Use Symbolic Operators
 	:og:type: article
 	:og:description: Logical operators come in two flavors :  and / &&, || / or, ^ / xor
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/LogicalInLetters.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Logical Should Use Symbolic Operators.html
 	:og:locale: en
 Logical operators come in two flavors :  and / &&, || / or, ^ / xor. However, they are not exchangeable, as && and and have different precedence. 
 

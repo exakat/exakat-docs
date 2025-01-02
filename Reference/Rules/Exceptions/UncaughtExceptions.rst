@@ -18,7 +18,7 @@ Uncaught Exceptions
 	:og:title: Uncaught Exceptions
 	:og:type: article
 	:og:description: The following exceptions are thrown in the code, but are never caught
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Exceptions/UncaughtExceptions.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Uncaught Exceptions.html
 	:og:locale: en
 The following exceptions are thrown in the code, but are never caught. 
 Either they will lead to a Fatal `Error <https://www.php.net/error>`_, or they have to be caught by an including application. This is a valid behavior for libraries, but is not for a final application.

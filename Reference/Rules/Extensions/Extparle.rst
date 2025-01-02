@@ -18,7 +18,7 @@ ext/parle
 	:og:title: ext/parle
 	:og:type: article
 	:og:description: Extension Parser and Lexer
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extparle.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/parle.html
 	:og:locale: en
 Extension Parser and Lexer.
 

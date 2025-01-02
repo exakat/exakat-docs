@@ -18,7 +18,7 @@ ext/amqp
 	:og:title: ext/amqp
 	:og:type: article
 	:og:description: Extension ``amqp``
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extamqp.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/amqp.html
 	:og:locale: en
 Extension ``amqp``.
 

@@ -18,7 +18,7 @@ Union Typehint
 	:og:title: Union Typehint
 	:og:type: article
 	:og:description: Union typehints allows the specification of several typehint for the same argument or return value
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/Php80UnionTypehint.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Union Typehint.html
 	:og:locale: en
 Union typehints allows the specification of several typehint for the same argument or return value. 
 

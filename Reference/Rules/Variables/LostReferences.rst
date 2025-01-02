@@ -18,7 +18,7 @@ Lost References
 	:og:title: Lost References
 	:og:type: article
 	:og:description: Either avoid references, or propagate them correctly
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Variables/LostReferences.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Lost References.html
 	:og:locale: en
 Either avoid references, or propagate them correctly.
 

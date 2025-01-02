@@ -18,7 +18,7 @@ Inclusions
 	:og:title: Inclusions
 	:og:type: article
 	:og:description: Collect inclusions of files
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/Inclusions.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Inclusions.html
 	:og:locale: en
 Collect inclusions of files. This is based on include(), require(), include_once() and require_once() keywords.
 

@@ -18,7 +18,7 @@ Mixed Keys In Array
 	:og:title: Mixed Keys In Array
 	:og:type: article
 	:og:description: Avoid mixing constants and literals in array keys
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Arrays/MixedKeys.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Mixed Keys In Array.html
 	:og:locale: en
 Avoid mixing constants and literals in array keys.
 

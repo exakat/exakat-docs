@@ -18,7 +18,7 @@ Could Use Promoted Properties
 	:og:title: Could Use Promoted Properties
 	:og:type: article
 	:og:description: Promoted properties are a syntax notation where the properties are declared as arguments of the constructor
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/CouldUsePromotedProperties.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Could Use Promoted Properties.html
 	:og:locale: en
 Promoted properties are a syntax notation where the properties are declared as arguments of the constructor. 
 

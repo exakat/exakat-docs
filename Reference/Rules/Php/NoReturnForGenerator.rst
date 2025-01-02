@@ -18,7 +18,7 @@ No Return For Generator
 	:og:title: No Return For Generator
 	:og:type: article
 	:og:description: Return is not allowed in a generator function
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/NoReturnForGenerator.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No Return For Generator.html
 	:og:locale: en
 Return is not allowed in a `generator <https://www.php.net/`generator <https://www.php.net/generator>`_>`_ function. In PHP versions 5.5 and 5.6, they yield a fatal `Error <https://www.php.net/error>`_.
 

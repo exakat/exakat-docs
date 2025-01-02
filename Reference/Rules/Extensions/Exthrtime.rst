@@ -18,7 +18,7 @@ ext/hrtime
 	:og:title: ext/hrtime
 	:og:type: article
 	:og:description: High resolution timing Extension
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Exthrtime.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/hrtime.html
 	:og:locale: en
 High resolution timing Extension.
 

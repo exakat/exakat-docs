@@ -18,7 +18,7 @@ strpos() Too Much
 	:og:title: strpos() Too Much
 	:og:type: article
 	:og:description: strpos() covers the whole string before reporting 0
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Performances/StrposTooMuch.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/strpos() Too Much.html
 	:og:locale: en
 `strpos() <https://www.php.net/strpos>`_ covers the whole string before reporting 0. If the expected string is expected be at the beginning, or a fixed place, it is more stable to use `substr() <https://www.php.net/substr>`_ for comparison.
 

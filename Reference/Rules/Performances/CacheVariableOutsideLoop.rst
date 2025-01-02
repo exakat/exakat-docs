@@ -18,7 +18,7 @@ Cache Variable Outside Loop
 	:og:title: Cache Variable Outside Loop
 	:og:type: article
 	:og:description: Avoid recalculating constant values inside the loop
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Performances/CacheVariableOutsideLoop.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Cache Variable Outside Loop.html
 	:og:locale: en
 Avoid recalculating constant values inside the loop.
 

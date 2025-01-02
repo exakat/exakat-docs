@@ -18,7 +18,7 @@ Set Chaining Exception
 	:og:title: Set Chaining Exception
 	:og:type: article
 	:og:description: Chaining exception allows rethrowing a caught exception with a new one
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Exceptions/SetChainingException.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Set Chaining Exception.html
 	:og:locale: en
 Chaining `exception <https://www.php.net/exception>`_ allows rethrowing a caught `exception <https://www.php.net/exception>`_ with a new one. The previous `exception <https://www.php.net/exception>`_ is added to the new `exception <https://www.php.net/exception>`_, for later reference.
 

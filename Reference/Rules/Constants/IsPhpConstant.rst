@@ -18,7 +18,7 @@ Is PHP Constant
 	:og:title: Is PHP Constant
 	:og:type: article
 	:og:description: Mark a constant if it is a PHP constant
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Constants/IsPhpConstant.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Is PHP Constant.html
 	:og:locale: en
 Mark a constant if it is a PHP constant.
 

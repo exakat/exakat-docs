@@ -18,7 +18,7 @@ No Need For Triple Equal
 	:og:title: No Need For Triple Equal
 	:og:type: article
 	:og:description: There is no need for the identity comparison when the methods returns the proper type
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/NoNeedForTriple.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No Need For Triple Equal.html
 	:og:locale: en
 There is no need for the identity comparison when the methods returns the proper type.
 

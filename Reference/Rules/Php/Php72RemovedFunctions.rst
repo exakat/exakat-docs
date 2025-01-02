@@ -18,7 +18,7 @@ PHP 7.2 Removed Functions
 	:og:title: PHP 7.2 Removed Functions
 	:og:type: article
 	:og:description: The following PHP native functions were removed in PHP 7
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/Php72RemovedFunctions.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/PHP 7.2 Removed Functions.html
 	:og:locale: en
 The following PHP native functions were removed in PHP 7.2.
 

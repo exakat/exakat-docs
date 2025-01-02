@@ -18,7 +18,7 @@ Exponent Usage
 	:og:title: Exponent Usage
 	:og:type: article
 	:og:description: Usage of the ** operator or **=, to make exponents
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/ExponentUsage.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Exponent Usage.html
 	:og:locale: en
 Usage of the `** <https://www.php.net/manual/en/language.operators.arithmetic.php>`_ operator or \*\*\=, to make exponents.
 

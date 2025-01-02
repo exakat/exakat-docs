@@ -18,7 +18,7 @@ Count() Is Not Negative
 	:og:title: Count() Is Not Negative
 	:og:type: article
 	:og:description: This rule reports when the Countable method ``count`` is poised to return a negative value
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/CountIsNotNegative.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Count() Is Not Negative.html
 	:og:locale: en
 This rule reports when the `Countable <https://www.php.net/countable>`_ method ``count`` is poised to return a negative value. 
 

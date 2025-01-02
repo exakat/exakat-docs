@@ -18,7 +18,7 @@ Throw Raw Exceptions
 	:og:title: Throw Raw Exceptions
 	:og:type: article
 	:og:description: Avoid throwing native PHP exceptions
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Exceptions/ThrowRawExceptions.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Throw Raw Exceptions.html
 	:og:locale: en
 Avoid throwing native PHP exceptions. Consider defining specific and meaningful `exception <https://www.php.net/exception>`_, by extending the native one.
 Thanks to `Atif Shahab Qureshi <https://twitter.com/Atif__Shahab>`_ for the inspiration.

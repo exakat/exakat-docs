@@ -18,7 +18,7 @@ Shell Favorite
 	:og:title: Shell Favorite
 	:og:type: article
 	:og:description: PHP has several syntax to make system calls : shell_exec(), exec() and back-ticks, &#96
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/ShellFavorite.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Shell Favorite.html
 	:og:locale: en
 PHP has several syntax to make system calls : `shell_exec() <https://www.php.net/shell_exec>`_, `exec() <https://www.php.net/exec>`_ and back-ticks, &#96; are the common ones. 
 

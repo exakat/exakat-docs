@@ -18,7 +18,7 @@ Mime Types
 	:og:title: Mime Types
 	:og:type: article
 	:og:description: List of Mime Types that are mentioned in the code
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Type/MimeType.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Mime Types.html
 	:og:locale: en
 List of Mime Types that are mentioned in the code.
 

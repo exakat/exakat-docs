@@ -18,7 +18,7 @@ No Keyword In Namespace
 	:og:title: No Keyword In Namespace
 	:og:type: article
 	:og:description: PHP keywords were not allowed in namespaces' names
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Namespaces/NoKeywordInNamespace.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No Keyword In Namespace.html
 	:og:locale: en
 PHP keywords were not allowed in namespaces' names. As a whole, or as a part of the namespace. The syntax was relaxed in PHP 8.0. 
 

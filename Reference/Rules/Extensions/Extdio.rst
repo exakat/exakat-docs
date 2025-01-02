@@ -18,7 +18,7 @@ ext/dio
 	:og:title: ext/dio
 	:og:type: article
 	:og:description: Extension DIO : Direct Input Output
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extdio.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/dio.html
 	:og:locale: en
 Extension DIO : Direct Input Output.
 

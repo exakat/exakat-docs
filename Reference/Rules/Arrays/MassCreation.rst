@@ -18,7 +18,7 @@ Mass Creation Of Arrays
 	:og:title: Mass Creation Of Arrays
 	:og:type: article
 	:og:description: Literal creation of an array, by assigning a lot of index
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Arrays/MassCreation.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Mass Creation Of Arrays.html
 	:og:locale: en
 Literal creation of an array, by assigning a lot of index.
 

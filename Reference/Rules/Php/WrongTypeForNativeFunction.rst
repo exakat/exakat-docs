@@ -18,7 +18,7 @@ Wrong Type For Native PHP Function
 	:og:title: Wrong Type For Native PHP Function
 	:og:type: article
 	:og:description: This rule reports calls to a PHP native function with values of the wrong type
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/WrongTypeForNativeFunction.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Wrong Type For Native PHP Function.html
 	:og:locale: en
 This rule reports calls to a PHP native function with values of the wrong type. With modern PHP versions and strict_typing, it generates a Fatal `error <https://www.php.net/error>`_.
 

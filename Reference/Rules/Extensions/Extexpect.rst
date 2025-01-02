@@ -18,7 +18,7 @@ ext/expect
 	:og:title: ext/expect
 	:og:type: article
 	:og:description: Extension Expect
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extexpect.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/expect.html
 	:og:locale: en
 Extension Expect.
 

@@ -18,7 +18,7 @@ Deprecated PHP Functions
 	:og:title: Deprecated PHP Functions
 	:og:type: article
 	:og:description: The following functions are deprecated
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/Deprecated.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Deprecated PHP Functions.html
 	:og:locale: en
 The following functions are deprecated. It is recommended to stop using them now and replace them with a durable equivalent. 
 

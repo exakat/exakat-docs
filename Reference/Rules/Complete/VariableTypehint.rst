@@ -18,7 +18,7 @@ Variable Anf Property Typehint
 	:og:title: Variable Anf Property Typehint
 	:og:type: article
 	:og:description: Adds typehints to (local) variables and properties, by inference from the code
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Complete/VariableTypehint.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Variable Anf Property Typehint.html
 	:og:locale: en
 Adds typehints to (local) variables and properties, by inference from the code. 
 

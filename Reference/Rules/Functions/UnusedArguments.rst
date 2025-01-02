@@ -18,7 +18,7 @@ Unused Parameter
 	:og:title: Unused Parameter
 	:og:type: article
 	:og:description: Those parameters are not used inside the method or function
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/UnusedArguments.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Unused Parameter.html
 	:og:locale: en
 Those parameters are not used inside the method or function. 
 

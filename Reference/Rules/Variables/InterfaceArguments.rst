@@ -18,7 +18,7 @@ Interface Arguments
 	:og:title: Interface Arguments
 	:og:type: article
 	:og:description: This rule lists variables that are arguments in an interface
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Variables/InterfaceArguments.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Interface Arguments.html
 	:og:locale: en
 This rule lists variables that are arguments in an interface.
 

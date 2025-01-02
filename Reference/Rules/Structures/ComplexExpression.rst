@@ -18,7 +18,7 @@ Too Complex Expression
 	:og:title: Too Complex Expression
 	:og:type: article
 	:og:description: Long expressions should be broken in small chunks, to limit complexity
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ComplexExpression.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Too Complex Expression.html
 	:og:locale: en
 Long expressions should be broken in small chunks, to limit complexity. 
 

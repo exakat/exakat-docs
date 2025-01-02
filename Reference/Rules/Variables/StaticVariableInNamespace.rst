@@ -18,7 +18,7 @@ Static Variable In Namespace
 	:og:title: Static Variable In Namespace
 	:og:type: article
 	:og:description: Static variables may be declared outside a function scope, but it has no usage
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Variables/StaticVariableInNamespace.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Static Variable In Namespace.html
 	:og:locale: en
 `Static <https://www.php.net/manual/en/language.oop5.static.php>`_ variables may be declared outside a function scope, but it has no usage. `Static <https://www.php.net/manual/en/language.oop5.static.php>`_ variables are persistent between function calls, and there is not such thing as namespace call (including an 'include' call).
 

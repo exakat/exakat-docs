@@ -18,7 +18,7 @@ Ticks Usage
 	:og:title: Ticks Usage
 	:og:type: article
 	:og:description: Usage of ``declare()`` with ``ticks``
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/DeclareTicks.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Ticks Usage.html
 	:og:locale: en
 Usage of ``declare()`` with ``ticks``. When ticks are declared, a related handler must be registered with `register_tick_function() <https://www.php.net/register_tick_function>`_.
 

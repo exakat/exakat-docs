@@ -18,7 +18,7 @@ Print And Die
 	:og:title: Print And Die
 	:og:type: article
 	:og:description: Die() also prints
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/PrintAndDie.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Print And Die.html
 	:og:locale: en
 `Die() <https://www.php.net/die>`_ also prints. 
 

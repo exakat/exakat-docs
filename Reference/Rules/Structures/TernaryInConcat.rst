@@ -18,7 +18,7 @@ Ternary In Concat
 	:og:title: Ternary In Concat
 	:og:type: article
 	:og:description: Ternary and coalesce operator have higher priority than dot '
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/TernaryInConcat.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Ternary In Concat.html
 	:og:locale: en
 Ternary and coalesce operator have higher priority than dot '.' for concatenation. This means that : 
 prints actually ``'E'``, instead of the awaited ``'B0CE'``.

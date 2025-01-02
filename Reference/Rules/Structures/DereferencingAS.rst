@@ -18,7 +18,7 @@ Dereferencing String And Arrays
 	:og:title: Dereferencing String And Arrays
 	:og:type: article
 	:og:description: PHP allows the direct dereferencing of strings and arrays, from array literals and returned array
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/DereferencingAS.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Dereferencing String And Arrays.html
 	:og:locale: en
 PHP allows the direct dereferencing of strings and arrays, from array literals and returned array. 
 

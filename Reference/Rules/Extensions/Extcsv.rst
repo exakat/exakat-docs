@@ -18,7 +18,7 @@ ext/CSV
 	:og:title: ext/CSV
 	:og:type: article
 	:og:description: A small PHP extension to add/improve the handling of CSV strings
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extcsv.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/CSV.html
 	:og:locale: en
 A small PHP extension to add/improve the handling of CSV strings.
 

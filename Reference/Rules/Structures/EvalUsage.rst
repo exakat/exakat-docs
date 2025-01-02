@@ -18,7 +18,7 @@ Eval() Usage
 	:og:title: Eval() Usage
 	:og:type: article
 	:og:description: Using eval() is evil
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/EvalUsage.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Eval() Usage.html
 	:og:locale: en
 Using eval() is evil. 
 

@@ -3,6 +3,21 @@
 NoDoc
 +++++
 
+.. meta::
+	:description:
+		NoDoc: Ruleset with analysis which are not published in the docs..
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: NoDoc
+	:twitter:description: NoDoc: Ruleset with analysis which are not published in the docs.
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: NoDoc
+	:og:type: article
+	:og:description: Ruleset with analysis which are not published in the docs.
+	:og:url: https://exakat.readthedocs.io/en/latest/Rulesets/NoDoc.html
+	:og:locale: en
 Ruleset with analysis which are not published in the docs.
 
 Total : 36 analysis

@@ -18,7 +18,7 @@ list() May Omit Variables
 	:og:title: list() May Omit Variables
 	:og:type: article
 	:og:description: Simply omit any unused variable in a list() call
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ListOmissions.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/list() May Omit Variables.html
 	:og:locale: en
 Simply omit any unused variable in a `list() <https://www.php.net/list>`_ call. 
 

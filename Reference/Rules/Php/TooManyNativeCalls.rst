@@ -18,7 +18,7 @@ Too Many Native Calls
 	:og:title: Too Many Native Calls
 	:og:type: article
 	:og:description: Avoid stuffing too many PHP native call inside another functioncall
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/TooManyNativeCalls.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Too Many Native Calls.html
 	:og:locale: en
 Avoid stuffing too many PHP native call inside another functioncall. 
 

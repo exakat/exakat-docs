@@ -18,7 +18,7 @@ Implode() Arguments Order
 	:og:title: Implode() Arguments Order
 	:og:type: article
 	:og:description: implode() used to accept two signatures, but is only recommending one
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ImplodeArgsOrder.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Implode() Arguments Order.html
 	:og:locale: en
 `implode() <https://www.php.net/implode>`_ used to accept two signatures, but is only recommending one. Both types orders of string then array, and array then string have been possible until PHP 7.4.
 

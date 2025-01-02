@@ -18,7 +18,7 @@ PHP 7.4 Constant Deprecation
 	:og:title: PHP 7.4 Constant Deprecation
 	:og:type: article
 	:og:description: One constant is deprecated in PHP 7
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/Php74Deprecation.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/PHP 7.4 Constant Deprecation.html
 	:og:locale: en
 One constant is deprecated in PHP 7.4. 
 

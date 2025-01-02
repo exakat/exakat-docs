@@ -18,7 +18,7 @@ No Readonly Assignation In Global
 	:og:title: No Readonly Assignation In Global
 	:og:type: article
 	:og:description: When a property is marked readonly, it may only be assigned within the class of definition
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/NoReadonlyAssignationInGlobal.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No Readonly Assignation In Global.html
 	:og:locale: en
 When a property is marked readonly, it may only be assigned within the class of definition.
 

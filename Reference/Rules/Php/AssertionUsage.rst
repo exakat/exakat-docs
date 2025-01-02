@@ -18,7 +18,7 @@ Assertions
 	:og:title: Assertions
 	:og:type: article
 	:og:description: Usage of assertions, to add checks within PHP code
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/AssertionUsage.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Assertions.html
 	:og:locale: en
 Usage of assertions, to add checks within PHP code.
 

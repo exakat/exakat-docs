@@ -18,7 +18,7 @@ Switch Fallthrough
 	:og:title: Switch Fallthrough
 	:og:type: article
 	:og:description: A switch with fallthrough is prone to errors
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/Fallthrough.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Switch Fallthrough.html
 	:og:locale: en
 A switch with fallthrough is prone to errors. 
 

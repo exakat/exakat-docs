@@ -18,7 +18,7 @@ Is Global Constant
 	:og:title: Is Global Constant
 	:og:type: article
 	:og:description: Mark a constant that may fallback to a global const definition, even though it is in a namespace
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Constants/IsGlobalConstant.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Is Global Constant.html
 	:og:locale: en
 Mark a constant that may fallback to a global const definition, even though it is in a namespace. 
 

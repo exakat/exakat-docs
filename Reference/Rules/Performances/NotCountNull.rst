@@ -18,7 +18,7 @@ No Count With 0
 	:og:title: No Count With 0
 	:og:type: article
 	:og:description: Comparing count(), strlen() or mb_strlen() to 0 is a waste of resources
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Performances/NotCountNull.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No Count With 0.html
 	:og:locale: en
 Comparing `count() <https://www.php.net/count>`_, `strlen() <https://www.php.net/strlen>`_ or `mb_strlen() <https://www.php.net/mb_strlen>`_ to 0 is a waste of resources. There are three distinct situations.
 

@@ -18,7 +18,7 @@ Trait Methods
 	:og:title: Trait Methods
 	:og:type: article
 	:og:description: List the names of the methods in a trait
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Traits/TraitMethod.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Trait Methods.html
 	:og:locale: en
 List the names of the methods in a trait. 
 

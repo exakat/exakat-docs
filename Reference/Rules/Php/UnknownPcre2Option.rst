@@ -18,7 +18,7 @@ Unknown Pcre2 Option
 	:og:title: Unknown Pcre2 Option
 	:og:type: article
 	:og:description: ``PCRE2`` supports different options, compared to ``PCRE1``
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/UnknownPcre2Option.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Unknown Pcre2 Option.html
 	:og:locale: en
 ``PCRE2`` supports different options, compared to ``PCRE1``. ``PCRE2`` was adopted with PHP 7.3. 
 

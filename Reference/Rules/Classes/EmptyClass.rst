@@ -18,7 +18,7 @@ Empty Classes
 	:og:title: Empty Classes
 	:og:type: article
 	:og:description: Classes that do no define anything at all : no property, method nor constant
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/EmptyClass.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Empty Classes.html
 	:og:locale: en
 Classes that do no define anything at all : no property, method nor constant. This is possibly dead code.
 

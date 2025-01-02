@@ -18,7 +18,7 @@ Property Used Above
 	:og:title: Property Used Above
 	:og:type: article
 	:og:description: Property used in the parent classes
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/PropertyUsedAbove.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Property Used Above.html
 	:og:locale: en
 Property used in the `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ classes. If the definition of the property is in the child class, then the `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ should not know about it and make usage of it.
 

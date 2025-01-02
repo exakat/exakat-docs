@@ -18,7 +18,7 @@ Should Use SetCookie()
 	:og:title: Should Use SetCookie()
 	:og:type: article
 	:og:description: Use setcookie() or setrawcookie()
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/UseSetCookie.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Should Use SetCookie().html
 	:og:locale: en
 Use `setcookie() <https://www.php.net/setcookie>`_ or `setrawcookie() <https://www.php.net/setrawcookie>`_. Avoid using `header() <https://www.php.net/header>`_ to do so, as the PHP native functions are more convenient and easier to spot during a refactoring.
 

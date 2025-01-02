@@ -18,7 +18,7 @@ No Choice
 	:og:title: No Choice
 	:og:type: article
 	:og:description: A conditional structure is being used, and both alternatives are the same, leading to the illusion of choice
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/NoChoice.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No Choice.html
 	:og:locale: en
 A conditional structure is being used, and both alternatives are the same, leading to the illusion of choice. 
 

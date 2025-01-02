@@ -18,7 +18,7 @@ Strange Name For Constants
 	:og:title: Strange Name For Constants
 	:og:type: article
 	:og:description: Those constants looks like a typo from other names
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Constants/StrangeName.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Strange Name For Constants.html
 	:og:locale: en
 Those constants looks like a typo from other names.
 

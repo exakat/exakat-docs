@@ -18,7 +18,7 @@ DI Cyclic Dependencies
 	:og:title: DI Cyclic Dependencies
 	:og:type: article
 	:og:description: When injecting dependencies, classes that mutually depend on each other is a code smell
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/TypehintCyclicDependencies.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/DI Cyclic Dependencies.html
 	:og:locale: en
 When injecting dependencies, classes that mutually depend on each other is a code smell. 
 

@@ -18,7 +18,7 @@ ext/json
 	:og:title: ext/json
 	:og:type: article
 	:og:description: Extension JSON
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extjson.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/json.html
 	:og:locale: en
 Extension JSON.
 

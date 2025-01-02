@@ -18,7 +18,7 @@ Use NullSafe Operator
 	:og:title: Use NullSafe Operator
 	:og:type: article
 	:og:description: The nullsafe operator ``
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/UseNullSafeOperator.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Use NullSafe Operator.html
 	:og:locale: en
 The nullsafe operator ``?->`` is an alternative to the object operator ``->``. It silently fails the whole expression if a null is used for object.
 

@@ -18,7 +18,7 @@ Nested Ifthen
 	:og:title: Nested Ifthen
 	:og:type: article
 	:og:description: Nesting ``ifthen`` structures increases the complexity of a method
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/NestedIfthen.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Nested Ifthen.html
 	:og:locale: en
 Nesting ``ifthen`` structures increases the complexity of a method. This rules uses three levels of ifthen to signal a complex structure. When a method has such a command, it should be split into smaller methods.
 

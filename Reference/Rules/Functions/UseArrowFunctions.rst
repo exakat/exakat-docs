@@ -18,7 +18,7 @@ Use Arrow Functions
 	:og:title: Use Arrow Functions
 	:og:type: article
 	:og:description: Arrow functions are closures that require one expression of code
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/UseArrowFunctions.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Use Arrow Functions.html
 	:og:locale: en
 Arrow functions are closures that require one expression of code. They also include all the variables of the current context, unless they are made `static <https://www.php.net/manual/en/language.oop5.static.php>`_.
 

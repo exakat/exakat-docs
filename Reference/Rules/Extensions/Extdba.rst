@@ -18,7 +18,7 @@ ext/dba
 	:og:title: ext/dba
 	:og:type: article
 	:og:description: Extension ext/dba
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extdba.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/dba.html
 	:og:locale: en
 Extension ext/dba.
 

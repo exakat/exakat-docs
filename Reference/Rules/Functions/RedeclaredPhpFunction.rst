@@ -18,7 +18,7 @@ Redeclared PHP Functions
 	:og:title: Redeclared PHP Functions
 	:og:type: article
 	:og:description: Function that bear the same name as a PHP function, and that are declared
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/RedeclaredPhpFunction.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Redeclared PHP Functions.html
 	:og:locale: en
 Function that bear the same name as a PHP function, and that are declared. 
 

@@ -18,7 +18,7 @@ Sylius usage
 	:og:title: Sylius usage
 	:og:type: article
 	:og:description: This analysis reports usage of the Sylius framework
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Vendors/Sylius.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Sylius usage.html
 	:og:locale: en
 This analysis reports usage of the Sylius framework.
 

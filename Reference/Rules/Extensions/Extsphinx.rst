@@ -18,7 +18,7 @@ ext/sphinx
 	:og:title: ext/sphinx
 	:og:type: article
 	:og:description: Extension for the Sphinx search server
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extsphinx.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/sphinx.html
 	:og:locale: en
 Extension for the Sphinx search server.
 

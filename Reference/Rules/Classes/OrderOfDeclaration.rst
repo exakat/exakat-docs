@@ -18,7 +18,7 @@ Order Of Declaration
 	:og:title: Order Of Declaration
 	:og:type: article
 	:og:description: The order used to declare members and methods has a great impact on readability and maintenance
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/OrderOfDeclaration.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Order Of Declaration.html
 	:og:locale: en
 The order used to declare members and methods has a great impact on readability and maintenance. However, practices varies greatly. As usual, being consistent is the most important and useful.
 

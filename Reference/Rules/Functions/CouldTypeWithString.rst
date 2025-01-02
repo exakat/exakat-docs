@@ -18,7 +18,7 @@ Could Type With String
 	:og:title: Could Type With String
 	:og:type: article
 	:og:description: That argument may be typed with ``string``
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/CouldTypeWithString.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Could Type With String.html
 	:og:locale: en
 That argument may be typed with ``string``.
 

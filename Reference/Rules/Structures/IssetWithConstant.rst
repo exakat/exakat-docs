@@ -18,7 +18,7 @@ isset() With Constant
 	:og:title: isset() With Constant
 	:og:type: article
 	:og:description: Until PHP 7, it was possible to use arrays as constants, but it was not possible to test them with isset
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/IssetWithConstant.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/isset() With Constant.html
 	:og:locale: en
 Until PHP 7, it was possible to use arrays as constants, but it was not possible to test them with `isset <https://www.www.php.net/isset>`_.
 

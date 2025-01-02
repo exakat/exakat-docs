@@ -18,7 +18,7 @@ Useless Global
 	:og:title: Useless Global
 	:og:type: article
 	:og:description: Global are useless in two cases
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/UselessGlobal.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Useless Global.html
 	:og:locale: en
 Global are useless in two cases. First, on super-globals, which are always globals, like `$_GET <https://www.php.net/manual/en/reserved.variables.get.php>`_; secondly, on variables that are not used.
 Also, PHP has superglobals, a special team of variables that are always available, whatever the context. 

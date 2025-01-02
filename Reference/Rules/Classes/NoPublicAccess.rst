@@ -18,7 +18,7 @@ No Public Access
 	:og:title: No Public Access
 	:og:type: article
 	:og:description: The properties below are declared with public access, but are never used publicly
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/NoPublicAccess.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No Public Access.html
 	:og:locale: en
 The properties below are declared with public access, but are never used publicly. They can be made protected or private.
 

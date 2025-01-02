@@ -18,7 +18,7 @@ Don't Unset Properties
 	:og:title: Don't Unset Properties
 	:og:type: article
 	:og:description: Don't unset properties
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/DontUnsetProperties.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Don't Unset Properties.html
 	:og:locale: en
 Don't unset properties. They would go undefined, and raise warnings of undefined properties, even though the property is explicitly defined in the original class. 
 

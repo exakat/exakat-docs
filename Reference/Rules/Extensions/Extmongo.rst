@@ -18,7 +18,7 @@ ext/mongo
 	:og:title: ext/mongo
 	:og:type: article
 	:og:description: Extension MongoDB driver (legacy)
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extmongo.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/mongo.html
 	:og:locale: en
 Extension `MongoDB <https://www.php.net/MongoDB>`_ driver (legacy).
 Note : this is not the `MongoDB driver <https://www.php.net/mongo>`_. This is the legacy extension.

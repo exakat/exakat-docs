@@ -18,7 +18,7 @@ Use Variable Created Inside Loop
 	:og:title: Use Variable Created Inside Loop
 	:og:type: article
 	:og:description: When a variable is created inside a loop, it should also be used in the loop
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/UseVariableInsideLoop.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Use Variable Created Inside Loop.html
 	:og:locale: en
 When a variable is created inside a loop, it should also be used in the loop. Otherwise, the variable will be overwritten by each loop, and become dead code.
 

@@ -18,7 +18,7 @@ Error_Log() Usage
 	:og:title: Error_Log() Usage
 	:og:type: article
 	:og:description: Usage of error_log() function
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/ErrorLogUsage.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Error_Log() Usage.html
 	:og:locale: en
 Usage of `error_log() <https://www.php.net/error_log>`_ function. This leads to checking the configuration of ``error_log`` in the PHP configuration directives.
 

@@ -18,7 +18,7 @@ Weak Type With Array
 	:og:title: Weak Type With Array
 	:og:type: article
 	:og:description: Using array as a type, to use specific index later
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Arrays/WeakType.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Weak Type With Array.html
 	:og:locale: en
 Using array as a type, to use specific index later.
 

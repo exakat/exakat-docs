@@ -18,7 +18,7 @@ ext/rdkafka
 	:og:title: ext/rdkafka
 	:og:type: article
 	:og:description: Extension for RDkafka
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extrdkafka.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/rdkafka.html
 	:og:locale: en
 Extension for RDkafka.
 

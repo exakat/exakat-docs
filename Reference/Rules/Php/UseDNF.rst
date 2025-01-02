@@ -18,7 +18,7 @@ Use DNF
 	:og:title: Use DNF
 	:og:type: article
 	:og:description: This rule detects the usage of the DNF
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/UseDNF.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Use DNF.html
 	:og:locale: en
 This rule detects the usage of the DNF. DNF is the disjunctive Normal Form. It is a syntax to handle union and intersectional types at the same time. It was introducted in PHP 8.2.
 

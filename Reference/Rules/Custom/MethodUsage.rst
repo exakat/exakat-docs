@@ -18,7 +18,7 @@ Method Usage
 	:og:title: Method Usage
 	:og:type: article
 	:og:description: This rule reports method usages
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Custom/MethodUsage.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Method Usage.html
 	:og:locale: en
 This rule reports method usages. The methods that are monitored are set with the parameter ``searchFor``.
 

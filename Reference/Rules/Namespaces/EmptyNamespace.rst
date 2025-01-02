@@ -18,7 +18,7 @@ Empty Namespace
 	:og:title: Empty Namespace
 	:og:type: article
 	:og:description: Declaring a namespace in the code and not using it for structure declarations or global instructions is useless
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Namespaces/EmptyNamespace.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Empty Namespace.html
 	:og:locale: en
 Declaring a namespace in the code and not using it for structure declarations or global instructions is useless.
 

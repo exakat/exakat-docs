@@ -18,7 +18,7 @@ Converted Exceptions
 	:og:title: Converted Exceptions
 	:og:type: article
 	:og:description: Converted exceptions is when an exception is caught, then immediately converted into another one and thrown again
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Exceptions/ConvertedExceptions.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Converted Exceptions.html
 	:og:locale: en
 Converted exceptions is when an `exception <https://www.php.net/exception>`_ is caught, then immediately converted into another one and thrown again.
 

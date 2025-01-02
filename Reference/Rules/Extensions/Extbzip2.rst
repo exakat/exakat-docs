@@ -18,7 +18,7 @@ ext/bzip2
 	:og:title: ext/bzip2
 	:og:type: article
 	:og:description: Extension ext/bzip2
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extbzip2.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/bzip2.html
 	:og:locale: en
 Extension ext/bzip2.
 

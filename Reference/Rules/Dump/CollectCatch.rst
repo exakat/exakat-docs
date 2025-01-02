@@ -18,7 +18,7 @@ Collect Catch Calls
 	:og:title: Collect Catch Calls
 	:og:type: article
 	:og:description: This analysis collects all catch command usage, along with the exception caught and the calling method
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/CollectCatch.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Collect Catch Calls.html
 	:og:locale: en
 This analysis collects all catch command usage, along with the `exception <https://www.php.net/exception>`_ caught and the calling method.
 

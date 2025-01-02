@@ -18,7 +18,7 @@ ext/opcache
 	:og:title: ext/opcache
 	:og:type: article
 	:og:description: Extension opcache
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extopcache.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/opcache.html
 	:og:locale: en
 Extension opcache.
 

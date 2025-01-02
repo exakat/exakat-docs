@@ -18,7 +18,7 @@ Typed Property Usage
 	:og:title: Typed Property Usage
 	:og:type: article
 	:og:description: PHP properties may be typed
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/TypedPropertyUsage.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Typed Property Usage.html
 	:og:locale: en
 PHP properties may be typed. Since PHP 7.4, it is possible to type properties, just like arguments and return values.
 

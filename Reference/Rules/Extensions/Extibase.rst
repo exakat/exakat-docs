@@ -18,7 +18,7 @@ ext/ibase
 	:og:title: ext/ibase
 	:og:type: article
 	:og:description: Extensions ``Interbase`` and ``Firebird``
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extibase.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/ibase.html
 	:og:locale: en
 Extensions ``Interbase`` and ``Firebird``.
 

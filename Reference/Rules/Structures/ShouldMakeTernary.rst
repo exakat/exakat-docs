@@ -18,7 +18,7 @@ Should Use Ternary Operator
 	:og:title: Should Use Ternary Operator
 	:og:type: article
 	:og:description: Ternary operators are the best when assigning values to a variable
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ShouldMakeTernary.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Should Use Ternary Operator.html
 	:og:locale: en
 Ternary operators are the best when assigning values to a variable.
 

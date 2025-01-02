@@ -18,7 +18,7 @@ Do Not Cast To Int
 	:og:title: Do Not Cast To Int
 	:og:type: article
 	:og:description: Do not cast floats values to int
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/NoCastToInt.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Do Not Cast To Int.html
 	:og:locale: en
 Do not cast floats values to int. Uses conversion functions like `intval() <https://www.php.net/intval>`_, `round() <https://www.php.net/round>`_, `floor() <https://www.php.net/floor>`_ or `ceil() <https://www.php.net/ceil>`_ to convert the value to integer, with known behavior. 
 

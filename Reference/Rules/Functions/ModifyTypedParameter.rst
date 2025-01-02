@@ -18,7 +18,7 @@ Modified Typed Parameter
 	:og:title: Modified Typed Parameter
 	:og:type: article
 	:og:description: Reports modified parameters, which have a non-scalar typehint
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/ModifyTypedParameter.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Modified Typed Parameter.html
 	:og:locale: en
 Reports modified parameters, which have a non-scalar typehint. Such variables should not be changed within the body of the method. Unlike typed properties, which always hold the expected type, typed parameters are only guaranteed type at the beginning of the method block. 
 This problem doesn't apply to scalar types : by default, PHP pass scalar parameters by value, not by reference. Class types are always passed by reference.

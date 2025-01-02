@@ -18,7 +18,7 @@ ext/gd
 	:og:title: ext/gd
 	:og:type: article
 	:og:description: Extension GD for PHP
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extgd.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/gd.html
 	:og:locale: en
 Extension GD for PHP.
 

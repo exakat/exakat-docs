@@ -18,7 +18,7 @@ Dollar Curly Interpolation Is Deprecated
 	:og:title: Dollar Curly Interpolation Is Deprecated
 	:og:type: article
 	:og:description: Among the different variable interpolation is strings, ```` is deprecated
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/DeprecateDollarCurly.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Dollar Curly Interpolation Is Deprecated.html
 	:og:locale: en
 Among the different variable interpolation is strings, ```` is deprecated. It is made obsolete in PHP 8.2, and should disappear in PHP 9.0.
 

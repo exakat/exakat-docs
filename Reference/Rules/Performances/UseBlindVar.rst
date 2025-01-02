@@ -18,7 +18,7 @@ Use The Blind Var
 	:og:title: Use The Blind Var
 	:og:type: article
 	:og:description: When in a loop, it is faster to rely on the blind var, rather than the original source
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Performances/UseBlindVar.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Use The Blind Var.html
 	:og:locale: en
 When in a loop, it is faster to rely on the blind var, rather than the original source.
 

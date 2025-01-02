@@ -18,7 +18,7 @@ Mismatched Default Arguments
 	:og:title: Mismatched Default Arguments
 	:og:type: article
 	:og:description: Arguments are relayed from one method to the other, and the arguments have different default values
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/MismatchedDefaultArguments.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Mismatched Default Arguments.html
 	:og:locale: en
 Arguments are relayed from one method to the other, and the arguments have different default values. 
 

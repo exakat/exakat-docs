@@ -18,7 +18,7 @@ Closure May Use $this
 	:og:title: Closure May Use $this
 	:og:type: article
 	:og:description: $this is automatically accessible to closures
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/ClosureThisSupport.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Closure May Use $this.html
 	:og:locale: en
 `$this <https://www.php.net/manual/en/language.oop5.basic.php>`_ is automatically accessible to closures.
 

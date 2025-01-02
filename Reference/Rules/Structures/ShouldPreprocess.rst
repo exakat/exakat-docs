@@ -18,7 +18,7 @@ Preprocessable
 	:og:title: Preprocessable
 	:og:type: article
 	:og:description: The following expressions are made of literals or already known values : they may be fully calculated before running PHP
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ShouldPreprocess.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Preprocessable.html
 	:og:locale: en
 The following expressions are made of literals or already known values : they may be fully calculated before running PHP.
 By doing so, this will reduce the amount of work of PHP. This is a micro-optimisation, when this is used once, or the amount of work is small. It may be kept for readability.

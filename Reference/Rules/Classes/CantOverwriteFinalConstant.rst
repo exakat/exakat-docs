@@ -18,7 +18,7 @@ Can't Overwrite Final Constant
 	:og:title: Can't Overwrite Final Constant
 	:og:type: article
 	:og:description: A class constant may be ``final``, and can't be overwritten in a child class
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/CantOverwriteFinalConstant.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Can't Overwrite Final Constant.html
 	:og:locale: en
 A class constant may be ``final``, and can't be overwritten in a child class. ``final`` is a way to make sure a constant cannot be changed in children classes.
 

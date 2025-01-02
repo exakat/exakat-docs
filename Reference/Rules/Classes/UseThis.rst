@@ -18,7 +18,7 @@ Use This
 	:og:title: Use This
 	:og:type: article
 	:og:description: Those methods should be using $this, or a static method or property
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/UseThis.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Use This.html
 	:og:locale: en
 Those methods should be using `$this <https://www.php.net/manual/en/language.oop5.basic.php>`_, or a `static <https://www.php.net/manual/en/language.oop5.static.php>`_ method or property.
 

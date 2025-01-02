@@ -18,7 +18,7 @@ Never Called Parameter
 	:og:title: Never Called Parameter
 	:og:type: article
 	:og:description: This analysis reports when a parameter is never used at calltime
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/NeverUsedParameter.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Never Called Parameter.html
 	:og:locale: en
 This analysis reports when a parameter is never used at calltime. 
 

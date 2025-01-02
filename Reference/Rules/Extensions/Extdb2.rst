@@ -18,7 +18,7 @@ ext/db2
 	:og:title: ext/db2
 	:og:type: article
 	:og:description: Extension for IBM DB2, Cloudscape and Apache Derby
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extdb2.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/db2.html
 	:og:locale: en
 Extension for IBM DB2, Cloudscape and Apache Derby.
 

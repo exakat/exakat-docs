@@ -18,7 +18,7 @@ Several Instructions On The Same Line
 	:og:title: Several Instructions On The Same Line
 	:og:type: article
 	:og:description: Usually, instructions do not share their line : one instruction, one line
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/OneLineTwoInstructions.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Several Instructions On The Same Line.html
 	:og:locale: en
 Usually, instructions do not share their line : one instruction, one line. 
 

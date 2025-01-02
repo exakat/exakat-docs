@@ -18,7 +18,7 @@ ext/libsodium
 	:og:title: ext/libsodium
 	:og:type: article
 	:og:description: Extension for libsodium : in PECL until PHP 7
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extlibsodium.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/libsodium.html
 	:og:locale: en
 Extension for libsodium : in PECL until PHP 7.2, and in core ever since. 
 

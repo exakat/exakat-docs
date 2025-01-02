@@ -18,7 +18,7 @@ Next Month Trap
 	:og:title: Next Month Trap
 	:og:type: article
 	:og:description: Avoid using +1 month with strtotime()
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/NextMonthTrap.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Next Month Trap.html
 	:og:locale: en
 Avoid using +1 month with `strtotime() <https://www.php.net/strtotime>`_. 
 

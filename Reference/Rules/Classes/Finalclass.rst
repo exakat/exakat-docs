@@ -18,7 +18,7 @@ Final Class Usage
 	:og:title: Final Class Usage
 	:og:type: article
 	:og:description: This rule lists of all final classes in use in the code
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/Finalclass.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Final Class Usage.html
 	:og:locale: en
 This rule lists of all final classes in use in the code. 
 

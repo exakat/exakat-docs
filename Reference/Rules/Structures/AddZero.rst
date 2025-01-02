@@ -18,7 +18,7 @@ Adding Zero
 	:og:title: Adding Zero
 	:og:type: article
 	:og:description: Adding 0 is useless, as 0 is the neutral element for addition
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/AddZero.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Adding Zero.html
 	:og:locale: en
 Adding 0 is useless, as 0 is the neutral element for addition. Besides, when one of the operands is an integer, PHP silently triggers a cast to integer for the other operand. 
 

@@ -18,7 +18,7 @@ Collect Global Variables
 	:og:title: Collect Global Variables
 	:og:type: article
 	:og:description: This rule collects the names of the global variables
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/CollectGlobalVariables.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Collect Global Variables.html
 	:og:locale: en
 This rule collects the names of the global variables. The global variables are collected from ``$GLOBALS`` usage, ``global`` keyword usage and variables in the global space.
 

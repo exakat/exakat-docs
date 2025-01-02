@@ -18,7 +18,7 @@ ext/pecl_http
 	:og:title: ext/pecl_http
 	:og:type: article
 	:og:description: Extension HTTP
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Exthttp.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/pecl_http.html
 	:og:locale: en
 Extension HTTP.
 

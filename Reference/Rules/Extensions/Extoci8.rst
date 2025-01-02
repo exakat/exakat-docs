@@ -18,7 +18,7 @@ ext/oci8
 	:og:title: ext/oci8
 	:og:type: article
 	:og:description: Extension ext/oci8
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extoci8.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/oci8.html
 	:og:locale: en
 Extension ext/oci8.
 

@@ -18,7 +18,7 @@ Undefined Interfaces
 	:og:title: Undefined Interfaces
 	:og:type: article
 	:og:description: Some types or ``instanceof`` that are relying on undefined interfaces or classes: the validation of the type will always fail and return false
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Interfaces/UndefinedInterfaces.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Undefined Interfaces.html
 	:og:locale: en
 Some types or ``instanceof`` that are relying on undefined interfaces or classes: the validation of the type will always fail and return false. Any condition based upon them are dead code.
 

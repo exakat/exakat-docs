@@ -18,7 +18,7 @@ Superglobals
 	:og:title: Superglobals
 	:og:type: article
 	:og:description: Links superglobals across the code
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Complete/Superglobals.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Superglobals.html
 	:og:locale: en
 Links superglobals across the code. This speeds up pivoting with super global values.
 

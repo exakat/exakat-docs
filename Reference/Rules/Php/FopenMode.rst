@@ -18,7 +18,7 @@ Wrong fopen() Mode
 	:og:title: Wrong fopen() Mode
 	:og:type: article
 	:og:description: Wrong file opening for fopen()
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/FopenMode.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Wrong fopen() Mode.html
 	:og:locale: en
 Wrong file opening for `fopen() <https://www.php.net/fopen>`_.
 

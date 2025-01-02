@@ -18,7 +18,7 @@ Yield Usage
 	:og:title: Yield Usage
 	:og:type: article
 	:og:description: Usage of generators, with yield keyword
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/YieldUsage.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Yield Usage.html
 	:og:locale: en
 Usage of generators, with yield keyword.
 

@@ -18,7 +18,7 @@ Access Protected Structures
 	:og:title: Access Protected Structures
 	:og:type: article
 	:og:description: It is not allowed to access protected properties, methods or constants from outside the class or its relatives
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/AccessProtected.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Access Protected Structures.html
 	:og:locale: en
 It is not allowed to access protected properties, methods or constants from outside the class or its relatives.
 

@@ -18,7 +18,7 @@ No Reference On Left Side
 	:og:title: No Reference On Left Side
 	:og:type: article
 	:og:description: Do not use references as the right element in an assignation
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/NoReferenceOnLeft.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No Reference On Left Side.html
 	:og:locale: en
 Do not use references as the right element in an assignation. 
 This is the case for most situations : addition, multiplication, bitshift, logical, power, concatenation.

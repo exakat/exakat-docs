@@ -18,7 +18,7 @@ Useless Constructor
 	:og:title: Useless Constructor
 	:og:type: article
 	:og:description: Class constructor that have empty bodies are useless
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/UselessConstructor.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Useless Constructor.html
 	:og:locale: en
 Class constructor that have empty bodies are useless. They may be removed, as they are not called.
 

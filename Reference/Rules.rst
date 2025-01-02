@@ -13110,8 +13110,10 @@ Exakat helps reduce the amount of error and warning that code is producing by re
 * :ref:`%s %s inherits both %s\:\:%s and %s\:\:%s <overwritten-class-constants>`
 * :ref:`%s%s%s\(\)\:-argument-#%d%s%s%s-must-be-passed-by-reference\,-value-given <no-literal-for-reference>`
 * :ref:`%s%s%s\(\)\:-argument-#%d%s%s%s-must-be-passed-by-reference\,-value-given <no-literal-for-reference>`
+* :ref:`%s()-argument-#%d%s%s%s-cannot-be-passed-by-reference <only-variable-passed-by-reference>`
 * :ref:`%s()-expects-exactly-0-arguments,-%d-given <wrong-number-of-arguments>`
 * :ref:`%s():-argument-#%d%s%s%s-cannot-be-passed-by-reference <only-variable-passed-by-reference>`
+* :ref:`%s():-argument-#%d%s%s%s-could-not-be-passed-by-reference <only-variable-passed-by-reference>`
 * :ref:`%s():-passing-null-to-parameter-#% <no-null-for-native-php-functions>`
 * :ref:`%s-%s-cannot-implement-interface-%s,-extend-exception-or-error-instead <can't-implement-throwable>`
 * :ref:`%s-%s-must-implement-interface-%s-as-part-of-either-%s-or-%s <can't-implement-traversable>`
@@ -13126,8 +13128,6 @@ Exakat helps reduce the amount of error and warning that code is producing by re
 * :ref:`Accessing static property aa\:\:$a as non static <wrong-access-style-to-property>`
 * :ref:`An alias (%s) was defined for method %s(), but this method does not exist <undefined-insteadof>`
 * :ref:`Argument #%d ($%s) must be of type %s, %s given <wrong-argument-type>`
-* :ref:`Argument #1 ($array) cannot be passed by reference <only-variable-passed-by-reference>`
-* :ref:`Argument #1 ($array) could not be passed by reference <only-variable-passed-by-reference>`
 * :ref:`Argument #1 ($line) must be passed by reference <array\_map()-passes-by-value>`
 * :ref:`Argument #1 ($value) must contain at least one element <no-max-on-empty-array>`
 * :ref:`Argument #1 must be of type float, string given <wrong-type-for-native-php-function>`
@@ -13144,7 +13144,6 @@ Exakat helps reduce the amount of error and warning that code is producing by re
 * :ref:`Call to undefined method theParent\:\:bar() <undefined-parent>`
 * :ref:`Call to undefined method x\:\:y() <undefined-static-or-self>`
 * :ref:`Call-time pass-by-reference has been removed <calltime-pass-by-reference>`
-* :ref:`Calling static trait method Test\:\:test is deprecated, it should only be called on a class using the trait <calling-static-trait-method>`
 * :ref:`Calling static trait method t\:\:t is deprecated, it should only be called on a class using the trait <cannot-call-static-trait-method-directly>`
 * :ref:`Can't inherit abstract function A\:\:bar() <cant-inherit-abstract-method>`
 * :ref:`Cannot access parent\:\: when current class scope has no parent <class-without-parent>`
@@ -13168,11 +13167,9 @@ Exakat helps reduce the amount of error and warning that code is producing by re
 * :ref:`Cannot use "parent" when no class scope is active <self,-parent,-static-outside-class>`
 * :ref:`Cannot use "self" when no class scope is active <self,-parent,-static-outside-class>`
 * :ref:`Cannot use "static" when no class scope is active <self,-parent,-static-outside-class>`
-* :ref:`Cannot use 'final' as constant modifier <final-constant>`
 * :ref:`Cannot use [] for reading <cannot-use-append-for-reading>`
 * :ref:`Cannot use int as default value for parameter $a of type string <wrong-typed-property-default>`
 * :ref:`Cannot use int as default value for property x\:\:$a of type string <wrong-typed-property-default>`
-* :ref:`Cannot use isset() on the result of an expression (you can use "null !== expression" instead) <only-variable-passed-by-reference>`
 * :ref:`Cannot use object of type Foo as array <$this-is-not-an-array>`
 * :ref:`Case-insensitive constants are deprecated. The correct casing for this constant is "A" <constant-case-preference>`
 * :ref:`Class "null" not found <could-use-null-safe-object-operator>`
@@ -13215,7 +13212,6 @@ Exakat helps reduce the amount of error and warning that code is producing by re
 * :ref:`Octal escape sequence overflow \500 is greater than \377 <invalid-octal-in-string>`
 * :ref:`Old style constructors are DEPRECATED in PHP 7.0, and will be removed in a future version. You should always use __construct() in new code. <old-style-constructor>`
 * :ref:`Only the first byte will be assigned to the string offset <only-first-byte->`
-* :ref:`Private constant MyClass\:\:Z cannot be final as it is not visible to other classes <final-constant>`
 * :ref:`Private methods cannot be final as they are never overridden by other classes <final-private-methods>`
 * :ref:`Property %s\:\:$%s does not exist <undefined-properties>`
 * :ref:`Property x\:\:$x cannot have type callable <could-be-callable>`
@@ -13270,6 +13266,7 @@ Exakat helps reduce the amount of error and warning that code is producing by re
 * :ref:`call-to-undefined-function <throw-functioncall>`
 * :ref:`call-to-undefined-function-%s() <throw-functioncall>`
 * :ref:`call-to-undefined-function-%s\(\) <undefined-functions>`
+* :ref:`calling-static-trait-method-%s\:\:%s-is-deprecated <calling-static-trait-method>`
 * :ref:`cannot override final constant <rewrote-final-class-constant>`
 * :ref:`cannot-access-offset-of-type-%s-on-%s <no-object-as-index>`
 * :ref:`cannot-access-parent\:\:-when-current-class-scope-has-no-parent <avoid-self-in-interface>`
@@ -13288,10 +13285,12 @@ Exakat helps reduce the amount of error and warning that code is producing by re
 * :ref:`cannot-re-assign-$this <don't-change-incomings>`
 * :ref:`cannot-re-assign-auto-global-variable-%s <don't-change-incomings>`
 * :ref:`cannot-unpack-array-with-string-keys <no-spread-for-hash>`
+* :ref:`cannot-use-'final'-as-constant-modifier <final-constant>`
 * :ref:`cannot-use-'mixed'-as-class-name-as-it-is-reserved <the-mixed-keyword>`
 * :ref:`cannot-use-'never'-as-class-name-as-it-is-reserved <never-keyword>`
 * :ref:`cannot-use-a-scalar-value-as-an-array <array-with-string-initialization>`
 * :ref:`cannot-use-isset\(\)-on-the-result-of-an-expression-\(you-can-use-"null-\!\=\=-expression"-instead\) <isset()-with-constant>`
+* :ref:`cannot-use-isset\(\)-on-the-result-of-an-expression-\(you-can-use-"null-\!\=\=-expression"-instead\) <only-variable-passed-by-reference>`
 * :ref:`cannot-use-lexical-variable-%s-as-a-parameter-name <multiple-definition-of-the-same-argument>`
 * :ref:`cannot-use-positional-argument-after-argument-unpacking <named-argument-and-variadic>`
 * :ref:`class-%s-cannot-implement-previously-implemented-interface-%s <repeated-interface>`
@@ -13326,6 +13325,7 @@ Exakat helps reduce the amount of error and warning that code is producing by re
 * :ref:`optional-parameter-$%s-declared-before-required-parameter-$%s-is-implicitly-treated-as-a-required-parameter <wrong-optional-parameter>`
 * :ref:`pack(): Type t: unknown format code <invalid-pack-format>`
 * :ref:`printf(): Too few arguments <printf-number-of-arguments>`
+* :ref:`private-constant-%s\:\:%s-cannot-be-final-as-it-is-not-visible-to-other-classes <final-constant>`
 * :ref:`redefinition-of-parameter-$%s <multiple-definition-of-the-same-argument>`
 * :ref:`required-parameter-$%s-follows-optional-parameter-$%s <wrong-optional-parameter>`
 * :ref:`returning-by-reference-from-a-void-function-is-deprecated <no-referenced-void>`

@@ -18,7 +18,7 @@ Properties Declaration Consistence
 	:og:title: Properties Declaration Consistence
 	:og:type: article
 	:og:description: Properties may be declared all at once, or one by one
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/PPPDeclarationStyle.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Properties Declaration Consistence.html
 	:og:locale: en
 Properties may be declared all at once, or one by one. 
 

@@ -18,7 +18,7 @@ Hash Algorithms Incompatible With PHP 7.1-
 	:og:title: Hash Algorithms Incompatible With PHP 7.1-
 	:og:type: article
 	:og:description: List of hash algorithms incompatible with PHP 7
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/HashAlgos71.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Hash Algorithms Incompatible With PHP 7.1-.html
 	:og:locale: en
 List of hash algorithms incompatible with PHP 7.1 and more recent. At the moment of writing, this is compatible up to 7.3. 
 

@@ -18,7 +18,7 @@ Collect Stub Structures
 	:og:title: Collect Stub Structures
 	:og:type: article
 	:og:description: Collect all called structures that are marked as stubs
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/CollectStubStructures.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Collect Stub Structures.html
 	:og:locale: en
 Collect all called structures that are marked as stubs. Functions, constants, interfaces, enums, traits and classes.
 

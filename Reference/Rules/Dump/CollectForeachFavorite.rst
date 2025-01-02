@@ -18,7 +18,7 @@ Foreach() Favorite
 	:og:title: Foreach() Favorite
 	:og:type: article
 	:og:description: Collect the name used in foreach() loops
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/CollectForeachFavorite.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Foreach() Favorite.html
 	:og:locale: en
 Collect the name used in `foreach() <https://www.php.net/manual/en/control-structures.foreach.php>`_ loops. Then, sorts them in order of popularity.
 

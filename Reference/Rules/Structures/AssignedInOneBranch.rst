@@ -18,7 +18,7 @@ Assigned In One Branch
 	:og:title: Assigned In One Branch
 	:og:type: article
 	:og:description: This rule reports variables that are assigned in one branch, and not in the other
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/AssignedInOneBranch.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Assigned In One Branch.html
 	:og:locale: en
 This rule reports variables that are assigned in one branch, and not in the other.
 

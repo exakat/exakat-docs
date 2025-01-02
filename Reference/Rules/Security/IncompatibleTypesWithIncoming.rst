@@ -18,7 +18,7 @@ Incompatible Types With Incoming Values
 	:og:title: Incompatible Types With Incoming Values
 	:og:type: article
 	:og:description: This analysis report invalid type used when extracting data from an HTTP request, and using them with typed method
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Security/IncompatibleTypesWithIncoming.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Incompatible Types With Incoming Values.html
 	:og:locale: en
 This analysis report invalid type used when extracting data from an HTTP request, and using them with typed method. 
 

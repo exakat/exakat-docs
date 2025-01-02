@@ -18,7 +18,7 @@ Possible Interfaces
 	:og:title: Possible Interfaces
 	:og:type: article
 	:og:description: This analyzer lists classes that may be a base to create interfaces
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Interfaces/PossibleInterfaces.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Possible Interfaces.html
 	:og:locale: en
 This analyzer lists classes that may be a base to create interfaces. 
 

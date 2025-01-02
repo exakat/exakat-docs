@@ -18,7 +18,7 @@ Multiple Index Definition
 	:og:title: Multiple Index Definition
 	:og:type: article
 	:og:description: This rules lists the indexes that are defined multiple times in the same array
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Arrays/MultipleIdenticalKeys.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Multiple Index Definition.html
 	:og:locale: en
 This rules lists the indexes that are defined multiple times in the same array. 
 

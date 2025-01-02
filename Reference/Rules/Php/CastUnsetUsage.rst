@@ -18,7 +18,7 @@ Cast Unset Usage
 	:og:title: Cast Unset Usage
 	:og:type: article
 	:og:description: Usage of the `(unset)` cast operator was removed
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/CastUnsetUsage.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Cast Unset Usage.html
 	:og:locale: en
 Usage of the `(unset)` cast operator was removed. The operator was deprecated since PHP 7.2.0.
 

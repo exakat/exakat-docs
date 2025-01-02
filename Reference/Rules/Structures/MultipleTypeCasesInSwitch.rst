@@ -18,7 +18,7 @@ Multiple Type Cases In Switch
 	:og:title: Multiple Type Cases In Switch
 	:og:type: article
 	:og:description: This reports switch() instructions, which have several types in cases
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/MultipleTypeCasesInSwitch.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Multiple Type Cases In Switch.html
 	:og:locale: en
 This reports `switch() <https://www.php.net/manual/en/control-structures.switch.php>`_ instructions, which have several types in cases.
 

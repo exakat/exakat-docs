@@ -18,7 +18,7 @@ Could Be Float
 	:og:title: Could Be Float
 	:og:type: article
 	:og:description: Mark arguments, class constants, properties and return types that can be set to ``float``
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Typehints/CouldBeFloat.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Could Be Float.html
 	:og:locale: en
 Mark arguments, class constants, properties and return types that can be set to ``float``.
 

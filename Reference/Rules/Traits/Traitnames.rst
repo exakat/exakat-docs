@@ -18,7 +18,7 @@ Trait Names
 	:og:title: Trait Names
 	:og:type: article
 	:og:description: List all the trait's names
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Traits/Traitnames.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Trait Names.html
 	:og:locale: en
 List all the trait's names.
 

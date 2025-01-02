@@ -18,7 +18,7 @@ New Functions In PHP 7.1
 	:og:title: New Functions In PHP 7.1
 	:og:type: article
 	:og:description: The following functions are now native functions in PHP 7
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/Php71NewFunctions.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/New Functions In PHP 7.1.html
 	:og:locale: en
 The following functions are now native functions in PHP 7.1. It is advised to change them before moving to this new version.
 

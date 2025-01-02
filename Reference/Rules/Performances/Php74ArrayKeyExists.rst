@@ -18,7 +18,7 @@ Always Use Function With array_key_exists()
 	:og:title: Always Use Function With array_key_exists()
 	:og:type: article
 	:og:description: array_key_exists() has been granted a special virtual machine opcode, and is much faster
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Performances/Php74ArrayKeyExists.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Always Use Function With array_key_exists().html
 	:og:locale: en
 `array_key_exists() <https://www.php.net/array_key_exists>`_ has been granted a special virtual machine opcode, and is much faster. This applies to PHP 7.4 and more recent. 
 

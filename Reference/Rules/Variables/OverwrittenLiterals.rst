@@ -18,7 +18,7 @@ Overwritten Literals
 	:og:title: Overwritten Literals
 	:og:type: article
 	:og:description: The same variable is assigned a literal twice
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Variables/OverwrittenLiterals.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Overwritten Literals.html
 	:og:locale: en
 The same variable is assigned a literal twice. It is possible that one of the assignation is too many.
 

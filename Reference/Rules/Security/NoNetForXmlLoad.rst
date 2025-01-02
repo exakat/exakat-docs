@@ -18,7 +18,7 @@ No Net For Xml Load
 	:og:title: No Net For Xml Load
 	:og:type: article
 	:og:description: Simplexml and ext/DOM load all external entities from the web, by default
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Security/NoNetForXmlLoad.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No Net For Xml Load.html
 	:og:locale: en
 Simplexml and ext/DOM load all external entities from the web, by default. This is dangerous, in particular when loading unknown XML code.
 

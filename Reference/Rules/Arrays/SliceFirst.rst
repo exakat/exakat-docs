@@ -18,7 +18,7 @@ Slice Arrays First
 	:og:title: Slice Arrays First
 	:og:type: article
 	:og:description: Always start by reducing an array before applying some transformation on it
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Arrays/SliceFirst.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Slice Arrays First.html
 	:og:locale: en
 Always start by reducing an array before applying some transformation on it. The shorter array will be processed faster. 
 

@@ -18,7 +18,7 @@ Skip Empty Array
 	:og:title: Skip Empty Array
 	:og:type: article
 	:og:description: When collecting arrays to be merged, it is faster to skip the empty arrays, rather than let array_merge() process them
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Performances/SkipEmptyArray.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Skip Empty Array.html
 	:og:locale: en
 When collecting arrays to be merged, it is faster to skip the empty arrays, rather than let `array_merge() <https://www.php.net/array_merge>`_ process them. This also works with `array_merge_recursive() <https://www.php.net/array_merge_recursive>`_.
 

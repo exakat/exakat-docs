@@ -18,7 +18,7 @@ Processing Collector
 	:og:title: Processing Collector
 	:og:type: article
 	:og:description: When accumulating data in a variable, within a loop, it is slow to apply repeatedly a function to the variable
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Performances/RegexOnCollector.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Processing Collector.html
 	:og:locale: en
 When accumulating data in a variable, within a loop, it is slow to apply repeatedly a function to the variable.
 

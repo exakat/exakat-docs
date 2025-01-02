@@ -18,7 +18,7 @@ Mismatch Parameter And Type
 	:og:title: Mismatch Parameter And Type
 	:og:type: article
 	:og:description: When the name of the parameter contradicts the type of the parameter
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/MismatchParameterAndType.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Mismatch Parameter And Type.html
 	:og:locale: en
 When the name of the parameter contradicts the type of the parameter.
 

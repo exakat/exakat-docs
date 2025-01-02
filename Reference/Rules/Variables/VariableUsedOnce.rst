@@ -18,7 +18,7 @@ Used Once Variables
 	:og:title: Used Once Variables
 	:og:type: article
 	:og:description: This is the list of used once variables
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Variables/VariableUsedOnce.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Used Once Variables.html
 	:og:locale: en
 This is the list of used once variables. 
 Such variables are useless. Variables must be used at least twice : once for writing, once for reading, at least. It is recommended to remove them.

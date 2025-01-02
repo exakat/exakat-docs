@@ -18,7 +18,7 @@ Complex Dynamic Names
 	:og:title: Complex Dynamic Names
 	:og:type: article
 	:og:description: Avoid using expressions as names for variables or methods
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Variables/ComplexDynamicNames.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Complex Dynamic Names.html
 	:og:locale: en
 Avoid using expressions as names for variables or methods. 
 

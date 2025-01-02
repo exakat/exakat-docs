@@ -18,7 +18,7 @@ Undefined Constant Name
 	:og:title: Undefined Constant Name
 	:og:type: article
 	:og:description: When using the `` syntax for variable, the name used must be a defined constant
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Variables/UndefinedConstantName.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Undefined Constant Name.html
 	:og:locale: en
 When using the `` syntax for variable, the name used must be a defined constant. It is not a simple string, like 'x', it is an actual constant name.
 

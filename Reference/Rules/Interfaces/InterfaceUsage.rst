@@ -18,7 +18,7 @@ Interfaces Usage
 	:og:title: Interfaces Usage
 	:og:type: article
 	:og:description: List of used interfaces
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Interfaces/InterfaceUsage.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Interfaces Usage.html
 	:og:locale: en
 List of used interfaces.
 

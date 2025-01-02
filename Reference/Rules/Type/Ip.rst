@@ -18,7 +18,7 @@ Ip
 	:og:title: Ip
 	:og:type: article
 	:og:description: This rule lists hardocded IPs in the source
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Type/Ip.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Ip.html
 	:og:locale: en
 This rule lists hardocded IPs in the source. Such IPs cannot be changed, and may produce unexpected results. 
 

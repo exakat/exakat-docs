@@ -18,7 +18,7 @@ Closing Tags
 	:og:title: Closing Tags
 	:og:type: article
 	:og:description: PHP manual recommends that script should be left open, without the final closing ``
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/CloseTags.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Closing Tags.html
 	:og:locale: en
 PHP manual recommends that script should be left open, without the final closing ``?>``. This way, one will avoid the infamous bug ``'Header already sent'``, associated with left-over spaces, that are lying after this closing tag.
 <?php

@@ -18,7 +18,7 @@ Raised Access Level
 	:og:title: Raised Access Level
 	:og:type: article
 	:og:description: A visibility may be lowered, but not raised
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/RaisedAccessLevel.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Raised Access Level.html
 	:og:locale: en
 A visibility may be lowered, but not raised. Visibilities apply to properties, methods and class constants. 
 

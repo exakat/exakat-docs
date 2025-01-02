@@ -18,7 +18,7 @@ ext/xdebug
 	:og:title: ext/xdebug
 	:og:type: article
 	:og:description: Xdebug extension
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extxdebug.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/xdebug.html
 	:og:locale: en
 Xdebug extension.
 

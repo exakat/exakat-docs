@@ -3,6 +3,21 @@
 Dump
 ++++
 
+.. meta::
+	:description:
+		Dump: Dump is a collector set of rules..
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Dump
+	:twitter:description: Dump: Dump is a collector set of rules.
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Dump
+	:og:type: article
+	:og:description: Dump is a collector set of rules.
+	:og:url: https://exakat.readthedocs.io/en/latest/Rulesets/Dump.html
+	:og:locale: en
 This ruleset collects various names given to different structures in the code : for example, variables, classes, methods, constants, etc. It also collects networks of data, like file inclusion or external dependencies.
 
 Total : 57 analysis

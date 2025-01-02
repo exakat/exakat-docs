@@ -18,7 +18,7 @@ No Static Variable In A Method
 	:og:title: No Static Variable In A Method
 	:og:type: article
 	:og:description: Refactor static variables into properties
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Variables/NoStaticVarInMethod.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No Static Variable In A Method.html
 	:og:locale: en
 Refactor `static <https://www.php.net/manual/en/language.oop5.static.php>`_ variables into properties. 
 

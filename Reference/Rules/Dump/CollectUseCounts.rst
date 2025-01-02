@@ -18,7 +18,7 @@ Collect Use Counts
 	:og:title: Collect Use Counts
 	:og:type: article
 	:og:description: This rule counts the number of ``use``` expression in a file
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/CollectUseCounts.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Collect Use Counts.html
 	:og:locale: en
 This rule counts the number of ``use``` expression in a file. ``use`` expressions import external classes, interfaces, enums, constant, functions and traits. 
 

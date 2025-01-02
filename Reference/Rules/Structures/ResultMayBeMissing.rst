@@ -18,7 +18,7 @@ Results May Be Missing
 	:og:title: Results May Be Missing
 	:og:type: article
 	:og:description: preg_match() may return empty values, if the search fails
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ResultMayBeMissing.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Results May Be Missing.html
 	:og:locale: en
 `preg_match() <https://www.php.net/preg_match>`_ may return empty values, if the search fails. It is important to check for the existence of results before assigning them to another variable, or using it.
 Since PHP 7.2, it is possible to use the ``PREG_UNMATCHED_AS_NULL`` constant in the flag parameter to avoid this.

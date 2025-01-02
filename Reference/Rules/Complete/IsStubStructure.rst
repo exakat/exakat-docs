@@ -18,7 +18,7 @@ Is Stub Structure
 	:og:title: Is Stub Structure
 	:og:type: article
 	:og:description: This command finishes marking atoms with the isStub property
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Complete/IsStubStructure.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Is Stub Structure.html
 	:og:locale: en
 This command finishes marking atoms with the isStub property. ``isStub`` are structures (functions, constants, classes, traits...) that are defined in an external component, and described with PDFF files.
 Connex PHP features

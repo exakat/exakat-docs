@@ -18,7 +18,7 @@ Serialize Magic Method
 	:og:title: Serialize Magic Method
 	:og:type: article
 	:og:description: Classes that defines __serialize() and __unserialize() are using Serialize Magic
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/SerializeMagic.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Serialize Magic Method.html
 	:og:locale: en
 Classes that defines __serialize() and __unserialize() are using Serialize Magic.
 

@@ -18,7 +18,7 @@ Short Ternary
 	:og:title: Short Ternary
 	:og:type: article
 	:og:description: Short ternaries are the ternary operator, where the middle operand was left out
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/ShortTernary.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Short Ternary.html
 	:og:locale: en
 Short ternaries are the ternary operator, where the middle operand was left out. 
 

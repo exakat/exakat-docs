@@ -18,7 +18,7 @@ Use Pathinfo
 	:og:title: Use Pathinfo
 	:og:type: article
 	:og:description: Use pathinfo() function instead of string manipulations
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/UsePathinfo.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Use Pathinfo.html
 	:og:locale: en
 Use `pathinfo() <https://www.php.net/pathinfo>`_ function instead of string manipulations.
 

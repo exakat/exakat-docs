@@ -18,7 +18,7 @@ Unused Classes
 	:og:title: Unused Classes
 	:og:type: article
 	:og:description: The following classes are never explicitly used in the code
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/UnusedClass.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Unused Classes.html
 	:og:locale: en
 The following classes are never explicitly used in the code.
 

@@ -18,7 +18,7 @@ No Max On Empty Array
 	:og:title: No Max On Empty Array
 	:og:type: article
 	:og:description: Using max() or min() on an empty array leads to a ``valueError`` exception
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/NoMaxOnEmptyArray.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No Max On Empty Array.html
 	:og:locale: en
 Using `max() <https://www.php.net/max>`_ or `min() <https://www.php.net/min>`_ on an empty array leads to a ``valueError`` `exception <https://www.php.net/exception>`_.
 

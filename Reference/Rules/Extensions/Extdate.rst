@@ -18,7 +18,7 @@ ext/date
 	:og:title: ext/date
 	:og:type: article
 	:og:description: Extension ext/date
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extdate.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/date.html
 	:og:locale: en
 Extension ext/date.
 

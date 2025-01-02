@@ -18,7 +18,7 @@ Wrong Case Namespaces
 	:og:title: Wrong Case Namespaces
 	:og:type: article
 	:og:description: Namespaces are case-insensitive
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Namespaces/WrongCase.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Wrong Case Namespaces.html
 	:og:locale: en
 Namespaces are case-insensitive.
 

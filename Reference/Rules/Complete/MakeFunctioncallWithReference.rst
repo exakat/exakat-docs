@@ -18,7 +18,7 @@ Make Functioncall With Reference
 	:og:title: Make Functioncall With Reference
 	:og:type: article
 	:og:description: Mark parameters as ``isModified`` if the functioncall uses reference
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Complete/MakeFunctioncallWithReference.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Make Functioncall With Reference.html
 	:og:locale: en
 Mark parameters as ``isModified`` if the functioncall uses reference.
 

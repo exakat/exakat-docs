@@ -18,7 +18,7 @@ Too Many Chained Calls
 	:og:title: Too Many Chained Calls
 	:og:type: article
 	:og:description: Report chained calls of functions, methods and static methods are crammed in one expression
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/TooManyChainedCalls.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Too Many Chained Calls.html
 	:og:locale: en
 Report chained calls of functions, methods and `static <https://www.php.net/manual/en/language.oop5.static.php>`_ methods are crammed in one expression.
 

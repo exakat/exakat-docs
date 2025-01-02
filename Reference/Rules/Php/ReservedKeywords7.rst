@@ -18,7 +18,7 @@ Reserved Keywords In PHP 7
 	:og:title: Reserved Keywords In PHP 7
 	:og:type: article
 	:og:description: PHP reserved names for class/trait/interface
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/ReservedKeywords7.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Reserved Keywords In PHP 7.html
 	:og:locale: en
 PHP reserved names for class/trait/interface. They won't be available anymore in user space starting with PHP 7.
 

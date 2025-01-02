@@ -18,7 +18,7 @@ Collects Variables
 	:og:title: Collects Variables
 	:og:type: article
 	:og:description: This rule collects all variables from the code
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/CollectVariables.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Collects Variables.html
 	:og:locale: en
 This rule collects all variables from the code. Their type is mentionned, as variable, object or array, depending on their usage.
 

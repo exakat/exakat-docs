@@ -18,7 +18,7 @@ Possible Increment
 	:og:title: Possible Increment
 	:og:type: article
 	:og:description: This expression looks like a typo : a missing + would change the behavior
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/PossibleIncrement.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Possible Increment.html
 	:og:locale: en
 This expression looks like a typo : a missing + would change the behavior.
 

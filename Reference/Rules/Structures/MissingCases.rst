@@ -18,7 +18,7 @@ Missing Cases In Switch
 	:og:title: Missing Cases In Switch
 	:og:type: article
 	:og:description: It seems that some cases are missing in this switch structure
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/MissingCases.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Missing Cases In Switch.html
 	:og:locale: en
 It seems that some cases are missing in this switch structure.
 

@@ -18,7 +18,7 @@ Silently Cast Integer
 	:og:title: Silently Cast Integer
 	:og:type: article
 	:og:description: Those are integer literals that are cast to a float when running PHP
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Type/SilentlyCastInteger.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Silently Cast Integer.html
 	:og:locale: en
 Those are integer literals that are cast to a float when running PHP. They are too big for the current PHP version, and PHP resorts to cast them into a float, which has a much larger capacity but a lower precision.
 

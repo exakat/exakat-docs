@@ -18,7 +18,7 @@ Concatenation Interpolation Consistence
 	:og:title: Concatenation Interpolation Consistence
 	:og:type: article
 	:og:description: Concatenations are done with the 
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ConcatenationInterpolationFavorite.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Concatenation Interpolation Consistence.html
 	:og:locale: en
 Concatenations are done with the . operator or by interpolation inside a string. 
 

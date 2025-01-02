@@ -18,7 +18,7 @@ Could Use Try
 	:og:title: Could Use Try
 	:og:type: article
 	:og:description: Some commands may raise exceptions
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Exceptions/CouldUseTry.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Could Use Try.html
 	:og:locale: en
 Some commands may raise exceptions. It is recommended to use the try/catch block to intercept those exceptions, and process them.
 

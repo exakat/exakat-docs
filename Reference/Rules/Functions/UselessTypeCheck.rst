@@ -18,7 +18,7 @@ Useless Type Check
 	:og:title: Useless Type Check
 	:og:type: article
 	:og:description: With the type system, checking the type of arguments is handled by PHP
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/UselessTypeCheck.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Useless Type Check.html
 	:og:locale: en
 With the type system, checking the type of arguments is handled by PHP.
 

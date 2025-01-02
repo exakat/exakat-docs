@@ -18,7 +18,7 @@ Clone Usage
 	:og:title: Clone Usage
 	:og:type: article
 	:og:description: This rule lists of all clone expressions
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/CloningUsage.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Clone Usage.html
 	:og:locale: en
 This rule lists of all clone expressions. Cloning objects leads to creating a new object without calling the constructor, but rather the ``__clone`` method, when available.
 

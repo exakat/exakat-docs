@@ -18,7 +18,7 @@ String Interpolation Favorite
 	:og:title: String Interpolation Favorite
 	:og:type: article
 	:og:description: This analysis collects the various ways that string interpolation is done inside strings
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/StringInterpolationFavorite.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/String Interpolation Favorite.html
 	:og:locale: en
 This analysis collects the various ways that string interpolation is done inside strings. Until PHP 8.1, there were 4 ways :
 

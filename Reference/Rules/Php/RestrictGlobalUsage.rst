@@ -18,7 +18,7 @@ Restrict Global Usage
 	:og:title: Restrict Global Usage
 	:og:type: article
 	:og:description: $GLOBALS access, as whole, is forbidden
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/RestrictGlobalUsage.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Restrict Global Usage.html
 	:og:locale: en
 $GLOBALS access, as whole, is forbidden. In PHP 8.1, it is not possible to this as a variable, but only access its individual values.
 

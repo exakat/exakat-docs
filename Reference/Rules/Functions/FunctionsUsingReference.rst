@@ -18,7 +18,7 @@ Functions Using Reference
 	:og:title: Functions Using Reference
 	:og:type: article
 	:og:description: Functions and methods using references in their signature
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/FunctionsUsingReference.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Functions Using Reference.html
 	:og:locale: en
 Functions and methods using references in their signature.
 

@@ -18,7 +18,7 @@ Parameter Hiding
 	:og:title: Parameter Hiding
 	:og:type: article
 	:og:description: When a parameter is set to another variable, and never used
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/ParameterHiding.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Parameter Hiding.html
 	:og:locale: en
 When a parameter is set to another variable, and never used.
 

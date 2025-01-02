@@ -18,7 +18,7 @@ Classes Names
 	:og:title: Classes Names
 	:og:type: article
 	:og:description: List of all classes, as defined in the application
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/Classnames.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Classes Names.html
 	:og:locale: en
 List of all classes, as defined in the application.
 

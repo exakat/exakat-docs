@@ -18,7 +18,7 @@ Use === null
 	:og:title: Use === null
 	:og:type: article
 	:og:description: It is faster to use === null than the function is_null()
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/IsnullVsEqualNull.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Use === null.html
 	:og:locale: en
 It is faster to use === null than the function `is_null() <https://www.php.net/is_null>`_.
 This is a micro-optimisation. And being used frequently, and in loops, it may yield visible speed up.

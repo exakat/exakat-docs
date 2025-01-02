@@ -18,7 +18,7 @@ strict_types Preference
 	:og:title: strict_types Preference
 	:og:type: article
 	:og:description: ``strict_types`` is a PHP mode where typehint are enforced strictly or weakly
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/DeclareStrict.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/strict_types Preference.html
 	:og:locale: en
 ``strict_types`` is a PHP mode where typehint are enforced strictly or weakly. By default, it is weak typing, allowing backward compatibility with previous versions. 
 

@@ -18,7 +18,7 @@ Crc32() Might Be Negative
 	:og:title: Crc32() Might Be Negative
 	:og:type: article
 	:og:description: crc32() may return a negative number, on 32 bits platforms
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/Crc32MightBeNegative.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Crc32() Might Be Negative.html
 	:og:locale: en
 `crc32() <https://www.php.net/crc32>`_ may return a negative number, on 32 bits platforms.
 

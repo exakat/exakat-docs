@@ -18,7 +18,7 @@ Extensions yar
 	:og:title: Extensions yar
 	:og:type: article
 	:og:description: yar : Yet Another RPC framework
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extyar.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Extensions yar.html
 	:og:locale: en
 yar : Yet Another RPC framework.
 

@@ -18,7 +18,7 @@ Could Use array_sum()
 	:og:title: Could Use array_sum()
 	:og:type: article
 	:og:description: These loops could use array_sum()
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/CouldUseArraySum.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Could Use array_sum().html
 	:og:locale: en
 These loops could use `array_sum() <https://www.php.net/array_sum>`_. `array_sum() <https://www.php.net/array_sum>`_ loops over the array and sum all of its elements. It is a native PHP function, faster to execute and easier to read.
 When the added elements are, in fact, arrays, use `array_merge() <https://www.php.net/array_merge>`_ instead of `array_sum() <https://www.php.net/array_sum>`_.

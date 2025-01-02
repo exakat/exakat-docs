@@ -18,7 +18,7 @@ ext/xxtea
 	:og:title: ext/xxtea
 	:og:type: article
 	:og:description: Extension xxtea : XXTEA encryption algorithm extension for PHP
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extxxtea.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/xxtea.html
 	:og:locale: en
 Extension xxtea : XXTEA encryption algorithm extension for PHP.
 

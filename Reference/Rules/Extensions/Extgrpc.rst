@@ -18,7 +18,7 @@ ext/grpc
 	:og:title: ext/grpc
 	:og:type: article
 	:og:description: Extension for GRPC : A high performance, open-source universal RPC framework
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extgrpc.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/grpc.html
 	:og:locale: en
 Extension for GRPC : A high performance, open-source universal RPC framework.
 

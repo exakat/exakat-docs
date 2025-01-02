@@ -18,7 +18,7 @@ Substr To Trim
 	:og:title: Substr To Trim
 	:og:type: article
 	:og:description: When removing the first or the last character of a string, trim() does a more readable job
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/SubstrToTrim.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Substr To Trim.html
 	:og:locale: en
 When removing the first or the last character of a string, `trim() <https://www.php.net/trim>`_ does a more readable job. 
 

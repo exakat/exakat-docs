@@ -18,7 +18,7 @@ Hexadecimal In String
 	:og:title: Hexadecimal In String
 	:og:type: article
 	:og:description: Mark strings that may be confused with hexadecimal
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Type/HexadecimalString.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Hexadecimal In String.html
 	:og:locale: en
 Mark strings that may be confused with hexadecimal. 
 

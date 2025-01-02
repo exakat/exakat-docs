@@ -18,7 +18,7 @@ Indirect Injection
 	:og:title: Indirect Injection
 	:og:type: article
 	:og:description: This rule reports injections through indirect usage of $_GET, $_POST, $_REQUEST, $_COOKIE values
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Security/IndirectInjection.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Indirect Injection.html
 	:og:locale: en
 This rule reports injections through indirect usage of `$_GET <https://www.php.net/manual/en/reserved.variables.get.php>`_, `$_POST <https://www.php.net/manual/en/reserved.variables.post.php>`_, `$_REQUEST <https://www.php.net/manual/en/reserved.variables.request.php>`_, $_COOKIE values. The injection is indirect, as the incoming data may be stored in different container before reaching the sensitive call. 
 

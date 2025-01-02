@@ -18,7 +18,7 @@ Could Be Spaceship
 	:og:title: Could Be Spaceship
 	:og:type: article
 	:og:description: The spaceship operator compares values and returns 0 for equality, 1 for superior and -1 for inferior
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/CouldBeSpaceship.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Could Be Spaceship.html
 	:og:locale: en
 The spaceship operator compares values and returns 0 for equality, 1 for superior and -1 for inferior. 
 

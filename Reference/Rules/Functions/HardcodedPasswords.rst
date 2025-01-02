@@ -18,7 +18,7 @@ Hardcoded Passwords
 	:og:title: Hardcoded Passwords
 	:og:type: article
 	:og:description: Hardcoded passwords in the code
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/HardcodedPasswords.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Hardcoded Passwords.html
 	:og:locale: en
 Hardcoded passwords in the code. 
 

@@ -18,7 +18,7 @@ Useless NullSafe Operator
 	:og:title: Useless NullSafe Operator
 	:og:type: article
 	:og:description: Nullsafe operator ``
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/UselessNullSafeOperator.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Useless NullSafe Operator.html
 	:og:locale: en
 Nullsafe operator ``?->`` has no object when the types are never null, or when coalesce is active.
 

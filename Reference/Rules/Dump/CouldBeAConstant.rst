@@ -18,7 +18,7 @@ Could Be A Constant
 	:og:title: Could Be A Constant
 	:og:type: article
 	:og:description: This analysis detects literal values that make good candidate for constants
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/CouldBeAConstant.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Could Be A Constant.html
 	:og:locale: en
 This analysis detects literal values that make good candidate for constants. 
 

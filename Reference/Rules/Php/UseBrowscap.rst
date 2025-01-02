@@ -18,7 +18,7 @@ Use Browscap
 	:og:title: Use Browscap
 	:og:type: article
 	:og:description: Browscap is a browser database, accessible via get_browser()
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/UseBrowscap.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Use Browscap.html
 	:og:locale: en
 Browscap is a browser database, accessible via `get_browser() <https://www.php.net/get_browser>`_. 
 

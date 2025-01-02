@@ -18,7 +18,7 @@ Create Default Values
 	:og:title: Create Default Values
 	:og:type: article
 	:og:description: This commands adds a link between variables, property definitions and any assignation to this container
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Complete/CreateDefaultValues.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Create Default Values.html
 	:og:locale: en
 This commands adds a link between variables, property definitions and any assignation to this container.
 

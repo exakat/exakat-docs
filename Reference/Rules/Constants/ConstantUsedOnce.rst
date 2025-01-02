@@ -18,7 +18,7 @@ Constant Used Only Once
 	:og:title: Constant Used Only Once
 	:og:type: article
 	:og:description: This rule reports constants that are used only once
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Constants/ConstantUsedOnce.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Constant Used Only Once.html
 	:og:locale: en
 This rule reports constants that are used only once. Constants that are used only once may be replaced by they literal value, unless future use is expected.
 

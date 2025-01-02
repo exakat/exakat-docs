@@ -18,7 +18,7 @@ Group Use Declaration
 	:og:title: Group Use Declaration
 	:og:type: article
 	:og:description: This rule reports when a group use declaration is used
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/GroupUseDeclaration.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Group Use Declaration.html
 	:og:locale: en
 This rule reports when a group use declaration is used. This is PHP feature since version 7.0, yet it is seldom used.
 

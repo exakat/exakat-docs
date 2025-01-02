@@ -18,7 +18,7 @@ ext/exif
 	:og:title: ext/exif
 	:og:type: article
 	:og:description: Extension EXIF : Exchangeable image file format
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extexif.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/exif.html
 	:og:locale: en
 Extension EXIF : Exchangeable image file format.
 

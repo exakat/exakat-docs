@@ -18,7 +18,7 @@ Remove Parameter With Named Parameters
 	:og:title: Remove Parameter With Named Parameters
 	:og:type: article
 	:og:description: It is possible to reduce the size of a method call by using named parameter
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/RemoveParameterWithNamedOnes.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Remove Parameter With Named Parameters.html
 	:og:locale: en
 It is possible to reduce the size of a method call by using named parameter. This is interesting when some of the positional parameter uses their default value. 
 

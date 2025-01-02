@@ -18,7 +18,7 @@ ext/lua
 	:og:title: ext/lua
 	:og:type: article
 	:og:description: Extension Lua
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extlua.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/lua.html
 	:og:locale: en
 Extension Lua.
 

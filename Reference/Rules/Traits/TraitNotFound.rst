@@ -18,7 +18,7 @@ Trait Not Found
 	:og:title: Trait Not Found
 	:og:type: article
 	:og:description: A unknown trait is mentioned in the use expression
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Traits/TraitNotFound.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Trait Not Found.html
 	:og:locale: en
 A unknown trait is mentioned in the use expression. 
 

@@ -18,7 +18,7 @@ Incompilable Files
 	:og:title: Incompilable Files
 	:og:type: article
 	:og:description: Files that cannot be compiled, and, as such, be run by PHP
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/Incompilable.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Incompilable Files.html
 	:og:locale: en
 Files that cannot be compiled, and, as such, be run by PHP. Scripts are linted against various versions of PHP. 
 

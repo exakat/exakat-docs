@@ -18,7 +18,7 @@ Retyped Reference
 	:og:title: Retyped Reference
 	:og:type: article
 	:og:description: A parameter with a reference may be typed differently, at the end of a method call
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/RetypedReference.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Retyped Reference.html
 	:og:locale: en
 A parameter with a reference may be typed differently, at the end of a method call. 
 

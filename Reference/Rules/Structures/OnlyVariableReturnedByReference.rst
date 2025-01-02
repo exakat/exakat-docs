@@ -18,7 +18,7 @@ Only Variable Returned By Reference
 	:og:title: Only Variable Returned By Reference
 	:og:type: article
 	:og:description: Function can't return literals by reference
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/OnlyVariableReturnedByReference.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Only Variable Returned By Reference.html
 	:og:locale: en
 Function can't return literals by reference.
 

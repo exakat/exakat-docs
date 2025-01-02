@@ -18,7 +18,7 @@ Is_A() With String
 	:og:title: Is_A() With String
 	:og:type: article
 	:og:description: When using is_a() with a string as first argument, the third argument is compulsory
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/IsAWithString.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Is_A() With String.html
 	:og:locale: en
 When using `is_a() <https://www.php.net/is_a>`_ with a string as first argument, the third argument is compulsory. The third argument is ``$allow_string``, and is necessary to work on strings.
 

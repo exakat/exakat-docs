@@ -18,7 +18,7 @@ Undefined Insteadof
 	:og:title: Undefined Insteadof
 	:og:type: article
 	:og:description: ``Insteadof`` tries to replace a method with another, but it doesn't exists
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Traits/UndefinedInsteadof.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Undefined Insteadof.html
 	:og:locale: en
 ``Insteadof`` tries to replace a method with another, but it doesn't exists. This happens when the replacing class is refactored, and some of its definition are dropped. 
 

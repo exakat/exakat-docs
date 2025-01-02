@@ -18,7 +18,7 @@ Crypto Usage
 	:og:title: Crypto Usage
 	:og:type: article
 	:og:description: Usage of cryptography and hashes functions
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/CryptoUsage.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Crypto Usage.html
 	:og:locale: en
 Usage of cryptography and hashes functions. 
 

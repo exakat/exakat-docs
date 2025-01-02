@@ -18,7 +18,7 @@ True False Inconsistant Case
 	:og:title: True False Inconsistant Case
 	:og:type: article
 	:og:description: TRUE, true or True is the favorite way to write these values
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Constants/InconsistantCase.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/True False Inconsistant Case.html
 	:og:locale: en
 `TRUE <https://www.php.net/TRUE>`_, true or True is the favorite way to write these values.
 

@@ -18,7 +18,7 @@ Dynamically Called Classes
 	:og:title: Dynamically Called Classes
 	:og:type: article
 	:og:description: This rule reports when a class is called dynamically
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/VariableClasses.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Dynamically Called Classes.html
 	:og:locale: en
 This rule reports when a class is called dynamically. To call dynamically a class, one must use a variable at instantiation time, or with the objects syntaxes.
 

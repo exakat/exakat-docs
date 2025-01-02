@@ -18,7 +18,7 @@ Php Native Reference Variable
 	:og:title: Php Native Reference Variable
 	:og:type: article
 	:og:description: Native functions, such as sort() (first argument), or preg_match_all() (third argument), use reference
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Complete/PhpNativeReference.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Php Native Reference Variable.html
 	:og:locale: en
 Native functions, such as `sort() <https://www.php.net/sort>`_ (first argument), or `preg_match_all() <https://www.php.net/preg_match_all>`_ (third argument), use reference.
 

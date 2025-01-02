@@ -18,7 +18,7 @@ Wrong Number Of Arguments
 	:og:title: Wrong Number Of Arguments
 	:og:type: article
 	:og:description: Those functioncalls are made with too many or too few arguments
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/WrongNumberOfArguments.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Wrong Number Of Arguments.html
 	:og:locale: en
 Those functioncalls are made with too many or too few arguments. 
 

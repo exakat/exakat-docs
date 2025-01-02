@@ -18,7 +18,7 @@ Caught Exceptions
 	:og:title: Caught Exceptions
 	:og:type: article
 	:og:description: This rule collects the exceptions used in catch clause
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Exceptions/CaughtExceptions.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Caught Exceptions.html
 	:og:locale: en
 This rule collects the exceptions used in catch clause. Those are the caught exceptions. 
 

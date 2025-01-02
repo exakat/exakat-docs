@@ -18,7 +18,7 @@ No Boolean As Default
 	:og:title: No Boolean As Default
 	:og:type: article
 	:og:description: Default values should always be set up with a constant name
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/NoBooleanAsDefault.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No Boolean As Default.html
 	:og:locale: en
 Default values should always be set up with a constant name.
 

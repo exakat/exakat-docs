@@ -18,7 +18,7 @@ Email Addresses
 	:og:title: Email Addresses
 	:og:type: article
 	:og:description: List of all the email addresses that were found in the code
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Type/Email.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Email Addresses.html
 	:og:locale: en
 List of all the email addresses that were found in the code.
 

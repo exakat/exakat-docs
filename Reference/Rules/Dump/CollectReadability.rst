@@ -18,7 +18,7 @@ Collect Readability
 	:og:title: Collect Readability
 	:og:type: article
 	:og:description: Measure readability for methods, functions and closures, then collect them
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/CollectReadability.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Collect Readability.html
 	:og:locale: en
 Measure readability for methods, functions and closures, then collect them.
 Connex PHP features

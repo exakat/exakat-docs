@@ -18,7 +18,7 @@ Unused Interfaces
 	:og:title: Unused Interfaces
 	:og:type: article
 	:og:description: Those interfaces are defined and never used
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Interfaces/UnusedInterfaces.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Unused Interfaces.html
 	:og:locale: en
 Those interfaces are defined and never used. They should be removed, as they are dead code.
 

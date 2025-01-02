@@ -18,7 +18,7 @@ PHP 8.0 Resources Turned Into Objects
 	:og:title: PHP 8.0 Resources Turned Into Objects
 	:og:type: article
 	:og:description: Multiple PHP native functions now return objects, not resources
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/Php80RemovesResources.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/PHP 8.0 Resources Turned Into Objects.html
 	:og:locale: en
 Multiple PHP native functions now return objects, not resources. Any check on those values with `is_resource() <https://www.php.net/is_resource>`_ is now going to fail.
 

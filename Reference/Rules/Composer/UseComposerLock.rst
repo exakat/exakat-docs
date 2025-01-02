@@ -18,7 +18,7 @@ Use Composer Lock
 	:og:title: Use Composer Lock
 	:og:type: article
 	:og:description: This rule reports when the ``composer
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Composer/UseComposerLock.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Use Composer Lock.html
 	:og:locale: en
 This rule reports when the ``composer.lock`` is committed to the archive. ``composer.lock`` stores the actual versions of the components that were fetched by composer, based on the ``composer.json``. This is useful to store and share among developers.
 

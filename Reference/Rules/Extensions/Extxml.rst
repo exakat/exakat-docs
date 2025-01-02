@@ -18,7 +18,7 @@ ext/xml
 	:og:title: ext/xml
 	:og:type: article
 	:og:description: Extension xml (Parser)
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extxml.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/xml.html
 	:og:locale: en
 Extension xml (Parser).
 

@@ -18,7 +18,7 @@ ext/ncurses
 	:og:title: ext/ncurses
 	:og:type: article
 	:og:description: Extension ncurses (CLI)
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extncurses.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/ncurses.html
 	:og:locale: en
 Extension ncurses (CLI).
 

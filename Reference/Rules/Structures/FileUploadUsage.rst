@@ -18,7 +18,7 @@ File Uploads
 	:og:title: File Uploads
 	:og:type: article
 	:og:description: This code makes usage of file upload features of PHP
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/FileUploadUsage.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/File Uploads.html
 	:og:locale: en
 This code makes usage of file upload features of PHP.
 

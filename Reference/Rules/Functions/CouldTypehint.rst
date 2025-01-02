@@ -18,7 +18,7 @@ Could Typehint
 	:og:title: Could Typehint
 	:og:type: article
 	:og:description: Arguments that are tested with instanceof, is_array(), is_string(), etc
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/CouldTypehint.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Could Typehint.html
 	:og:locale: en
 Arguments that are tested with `instanceof <https://www.php.net/manual/en/language.operators.type.php>`_, `is_array() <https://www.php.net/is_array>`_, `is_string() <https://www.php.net/is_string>`_, etc. could be modernized with a typehint.
 

@@ -18,7 +18,7 @@ Defined static\:\: Or self\:\:
 	:og:title: Defined static:: Or self::
 	:og:type: article
 	:og:description: List of all defined static and self properties and methods
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/DefinedStaticMP.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Defined static:: Or self::.html
 	:og:locale: en
 List of all defined `static <https://www.php.net/manual/en/language.oop5.static.php>`_ and `self <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ properties and methods.
 

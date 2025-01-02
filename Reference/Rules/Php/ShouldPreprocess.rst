@@ -18,7 +18,7 @@ Should Preprocess Chr()
 	:og:title: Should Preprocess Chr()
 	:og:type: article
 	:og:description: Replace literal chr() calls with their escape sequence
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/ShouldPreprocess.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Should Preprocess Chr().html
 	:og:locale: en
 Replace literal `chr() <https://www.php.net/chr>`_ calls with their escape sequence.
 

@@ -18,7 +18,7 @@ Use Cookies
 	:og:title: Use Cookies
 	:og:type: article
 	:og:description: This code source uses cookies
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/UseCookies.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Use Cookies.html
 	:og:locale: en
 This code source uses cookies. 
 

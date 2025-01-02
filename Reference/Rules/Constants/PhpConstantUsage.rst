@@ -18,7 +18,7 @@ PHP Constant Usage
 	:og:title: PHP Constant Usage
 	:og:type: article
 	:og:description: List of PHP constants being used
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Constants/PhpConstantUsage.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/PHP Constant Usage.html
 	:og:locale: en
 List of PHP constants being used.
 

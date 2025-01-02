@@ -18,7 +18,7 @@ Class Usage
 	:og:title: Class Usage
 	:og:type: article
 	:og:description: List of classes in use in the code source
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/ClassUsage.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Class Usage.html
 	:og:locale: en
 List of classes in use in the code source.
 

@@ -18,7 +18,7 @@ Cant Use Return Value In Write Context
 	:og:title: Cant Use Return Value In Write Context
 	:og:type: article
 	:og:description: empty() used to work only on data containers, such as variables
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/CantUseReturnValueInWriteContext.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Cant Use Return Value In Write Context.html
 	:og:locale: en
 empty() used to work only on data containers, such as variables. Until PHP 5.5, it was not possible to use directly expressions, such as functioncalls, inside an empty() function call : they were met with a 'Can't use function return value in write context' fatal `error <https://www.php.net/error>`_. 
 This also applies to methodcalls, `static <https://www.php.net/manual/en/language.oop5.static.php>`_ or not.

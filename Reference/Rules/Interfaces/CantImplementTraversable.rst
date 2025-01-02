@@ -18,7 +18,7 @@ Can't Implement Traversable
 	:og:title: Can't Implement Traversable
 	:og:type: article
 	:og:description: It is not possible to implement the ``Traversable`` interface directly
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Interfaces/CantImplementTraversable.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Can't Implement Traversable.html
 	:og:locale: en
 It is not possible to implement the ``Traversable`` interface directly. It is possible to implement it via the ``Iterator`` and ``IteratorAggregate`` classes, which, in turn, implements ``Traversable``.
 

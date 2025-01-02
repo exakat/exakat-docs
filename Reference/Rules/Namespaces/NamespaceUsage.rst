@@ -18,7 +18,7 @@ Namespaces
 	:og:title: Namespaces
 	:og:type: article
 	:og:description: Inventory of all namespaces
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Namespaces/NamespaceUsage.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Namespaces.html
 	:og:locale: en
 Inventory of all namespaces.
 

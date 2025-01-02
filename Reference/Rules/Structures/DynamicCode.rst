@@ -18,7 +18,7 @@ Dynamic Code
 	:og:title: Dynamic Code
 	:og:type: article
 	:og:description: List of instructions that were left during analysis, as they rely on dynamic data
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/DynamicCode.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Dynamic Code.html
 	:og:locale: en
 List of instructions that were left during analysis, as they rely on dynamic data. 
 

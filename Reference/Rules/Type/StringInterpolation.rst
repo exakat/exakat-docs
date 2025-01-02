@@ -18,7 +18,7 @@ Interpolation
 	:og:title: Interpolation
 	:og:type: article
 	:og:description: The following strings contain variables that are will be replaced
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Type/StringInterpolation.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Interpolation.html
 	:og:locale: en
 The following strings contain variables that are will be replaced. However, the following characters are ambiguous, and may lead to confusion. 
 

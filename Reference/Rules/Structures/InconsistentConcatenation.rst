@@ -18,7 +18,7 @@ Inconsistent Concatenation
 	:og:title: Inconsistent Concatenation
 	:og:type: article
 	:og:description: Concatenations happens within a string or using the dot operator
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/InconsistentConcatenation.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Inconsistent Concatenation.html
 	:og:locale: en
 Concatenations happens within a string or using the dot operator. Using both is an inconsistent way of writing concatenations.
 

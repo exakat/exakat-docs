@@ -18,7 +18,7 @@ List With Keys
 	:og:title: List With Keys
 	:og:type: article
 	:og:description: Setting keys when using list() is a PHP 7
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/ListWithKeys.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/List With Keys.html
 	:og:locale: en
 Setting keys when using `list() <https://www.php.net/list>`_ is a PHP 7.1 feature.
 

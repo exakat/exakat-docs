@@ -18,7 +18,7 @@ Written Only Variables
 	:og:title: Written Only Variables
 	:og:type: article
 	:og:description: Those variables are being written, but never read
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Variables/WrittenOnlyVariable.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Written Only Variables.html
 	:og:locale: en
 Those variables are being written, but never read. In this way, they are useless and should be removed, or be read at some point in the code.
 

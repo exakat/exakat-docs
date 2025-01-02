@@ -18,7 +18,7 @@ Parent, Static Or Self Outside Class
 	:og:title: Parent, Static Or Self Outside Class
 	:og:type: article
 	:og:description: Parent, static and self keywords must be used within a class, a trait, an interface or an enum
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/PssWithoutClass.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Parent, Static Or Self Outside Class.html
 	:og:locale: en
 `Parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_, `static <https://www.php.net/manual/en/language.oop5.static.php>`_ and `self <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ keywords must be used within a class, a trait, an interface or an enum. They make no sense outside a class or trait scope, as `self <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ and `static <https://www.php.net/manual/en/language.oop5.static.php>`_ refers to the current class and `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ refers to one of `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ above.
 

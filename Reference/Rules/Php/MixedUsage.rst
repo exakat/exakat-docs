@@ -18,7 +18,7 @@ Mixed Typehint Usage
 	:og:title: Mixed Typehint Usage
 	:og:type: article
 	:og:description: Usage of the mixed typehint
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/MixedUsage.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Mixed Typehint Usage.html
 	:og:locale: en
 Usage of the mixed typehint.
 

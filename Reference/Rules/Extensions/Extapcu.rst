@@ -18,7 +18,7 @@ ext/apcu
 	:og:title: ext/apcu
 	:og:type: article
 	:og:description: Extension ``APCU``
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extapcu.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/apcu.html
 	:og:locale: en
 Extension ``APCU``.
 

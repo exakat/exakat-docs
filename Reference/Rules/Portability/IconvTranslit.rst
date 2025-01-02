@@ -18,7 +18,7 @@ Iconv With Translit
 	:og:title: Iconv With Translit
 	:og:type: article
 	:og:description: The transliteration feature of iconv() depends on the underlying system to support it
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Portability/IconvTranslit.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Iconv With Translit.html
 	:og:locale: en
 The transliteration feature of `iconv() <https://www.php.net/iconv>`_ depends on the underlying system to support it. This feature is also a portability issue.
 

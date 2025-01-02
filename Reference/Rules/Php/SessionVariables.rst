@@ -18,7 +18,7 @@ Session Variables
 	:og:title: Session Variables
 	:og:type: article
 	:og:description: Sessions names, used across the application
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/SessionVariables.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Session Variables.html
 	:og:locale: en
 Sessions names, used across the application.
 

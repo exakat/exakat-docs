@@ -18,7 +18,7 @@ Redefined Property
 	:og:title: Redefined Property
 	:og:type: article
 	:og:description: Property redefined in a parent class
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/RedefinedProperty.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Redefined Property.html
 	:og:locale: en
 Property redefined in a `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ class. 
 

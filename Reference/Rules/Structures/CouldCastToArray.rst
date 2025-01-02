@@ -18,7 +18,7 @@ Could Cast To Array
 	:og:title: Could Cast To Array
 	:og:type: article
 	:og:description: The array cast operator transform a scalar into an array with that scalar
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/CouldCastToArray.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Could Cast To Array.html
 	:og:locale: en
 The array cast operator transform a scalar into an array with that scalar. It also keeps an array as an array, so a single call to ``(array)`` is able to convert scalars to array, while keeping values already in array form intact.
 

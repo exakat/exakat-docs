@@ -18,7 +18,7 @@ Or Die
 	:og:title: Or Die
 	:og:type: article
 	:og:description: Classic old style failed error management
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/OrDie.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Or Die.html
 	:og:locale: en
 Classic old style failed `error <https://www.php.net/error>`_ management. 
 

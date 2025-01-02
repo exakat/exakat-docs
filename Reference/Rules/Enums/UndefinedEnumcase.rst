@@ -18,7 +18,7 @@ Undefined Enumcase
 	:og:title: Undefined Enumcase
 	:og:type: article
 	:og:description: The enumeration case does not exists
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Enums/UndefinedEnumcase.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Undefined Enumcase.html
 	:og:locale: en
 The enumeration case does not exists. It may be a class constant, defined in the same enumeration.
 

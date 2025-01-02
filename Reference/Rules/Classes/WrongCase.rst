@@ -18,7 +18,7 @@ Wrong Class Name Case
 	:og:title: Wrong Class Name Case
 	:og:type: article
 	:og:description: The spotted classes are used with a different case than their definition
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/WrongCase.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Wrong Class Name Case.html
 	:og:locale: en
 The spotted classes are used with a different case than their definition. While PHP accepts this, it makes the code harder to read. 
 

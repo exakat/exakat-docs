@@ -18,7 +18,7 @@ Parent First
 	:og:title: Parent First
 	:og:type: article
 	:og:description: When calling parent constructor, always put it first in the ``__construct`` method
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/ParentFirst.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Parent First.html
 	:og:locale: en
 When calling `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ constructor, always put it first in the ``__construct`` method. 
 

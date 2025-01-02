@@ -18,7 +18,7 @@ Could Be Callable
 	:og:title: Could Be Callable
 	:og:type: article
 	:og:description: Mark arguments and return types that can be set to ``callable``
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Typehints/CouldBeCallable.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Could Be Callable.html
 	:og:locale: en
 Mark arguments and return types that can be set to ``callable``.
 

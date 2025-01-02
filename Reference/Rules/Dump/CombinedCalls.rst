@@ -18,7 +18,7 @@ Combined Calls
 	:og:title: Combined Calls
 	:og:type: article
 	:og:description: This collects all the combined function or method calls
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/CombinedCalls.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Combined Calls.html
 	:og:locale: en
 This collects all the combined function or method calls. Those are methods that are called in succession.
 

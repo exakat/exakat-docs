@@ -18,7 +18,7 @@ Globals
 	:og:title: Globals
 	:og:type: article
 	:og:description: Global variables
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Variables/Globals.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Globals.html
 	:og:locale: en
 Global variables.
 

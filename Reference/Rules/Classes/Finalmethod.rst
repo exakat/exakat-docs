@@ -18,7 +18,7 @@ Final Methods Usage
 	:og:title: Final Methods Usage
 	:og:type: article
 	:og:description: List of all final methods being used
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/Finalmethod.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Final Methods Usage.html
 	:og:locale: en
 List of all final methods being used.
 

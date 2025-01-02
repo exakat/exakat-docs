@@ -18,7 +18,7 @@ No Hardcoded Port
 	:og:title: No Hardcoded Port
 	:og:type: article
 	:og:description: When connecting to a remove server, port is an important information
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/NoHardcodedPort.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No Hardcoded Port.html
 	:og:locale: en
 When connecting to a remove server, port is an important information. It is recommended to make this configurable (with constant or configuration), to as to be able to change this value without changing the code.
 

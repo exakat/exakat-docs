@@ -18,7 +18,7 @@ Should Chain Exception
 	:og:title: Should Chain Exception
 	:og:type: article
 	:og:description: Chain exception to provide more context
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ShouldChainException.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Should Chain Exception.html
 	:og:locale: en
 Chain `exception <https://www.php.net/exception>`_ to provide more context.
 

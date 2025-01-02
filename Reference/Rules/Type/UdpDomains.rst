@@ -18,7 +18,7 @@ Internet Domains
 	:og:title: Internet Domains
 	:og:type: article
 	:og:description: List all internet domain (UDP) used
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Type/UdpDomains.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Internet Domains.html
 	:og:locale: en
 List all internet domain (UDP) used.
 

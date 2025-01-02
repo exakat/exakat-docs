@@ -18,7 +18,7 @@ GPRC Aliases
 	:og:title: GPRC Aliases
 	:og:type: article
 	:og:description: The following variables are holding the content of $_GET, $_POST, $_REQUEST or $_COOKIE
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Security/GPRAliases.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/GPRC Aliases.html
 	:og:locale: en
 The following variables are holding the content of `$_GET <https://www.php.net/manual/en/reserved.variables.get.php>`_, `$_POST <https://www.php.net/manual/en/reserved.variables.post.php>`_, `$_REQUEST <https://www.php.net/manual/en/reserved.variables.request.php>`_ or $_COOKIE. They shouldn't be trusted, just like their original variables.
 

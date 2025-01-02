@@ -18,7 +18,7 @@ Static Loop
 	:og:title: Static Loop
 	:og:type: article
 	:og:description: Static loop may be preprocessed
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/StaticLoop.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Static Loop.html
 	:og:locale: en
 `Static <https://www.php.net/manual/en/language.oop5.static.php>`_ loop may be preprocessed.
 

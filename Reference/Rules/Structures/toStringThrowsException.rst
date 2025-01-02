@@ -18,7 +18,7 @@ __toString() Throws Exception
 	:og:title: __toString() Throws Exception
 	:og:type: article
 	:og:description: Magical method __toString() can't throw exceptions
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/toStringThrowsException.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/__toString() Throws Exception.html
 	:og:locale: en
 Magical method `__toString() <https://www.php.net/manual/en/language.oop5.magic.php>`_ can't throw exceptions.
 

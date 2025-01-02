@@ -18,7 +18,7 @@ Using Deprecated Feature
 	:og:title: Using Deprecated Feature
 	:og:type: article
 	:og:description: Deprecated attribute marks a class, interface, trait, enumeration, function, closure, array function, parameter, as a deprecated feature
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Attributes/UsingDeprecated.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Using Deprecated Feature.html
 	:og:locale: en
 Deprecated `attribute <https://www.php.net/attribute>`_ marks a class, interface, trait, enumeration, function, `closure <https://www.php.net/`closure <https://www.php.net/closure>`_>`_, array function, parameter, as a deprecated feature. This rule reports usage of these structure, so they can be removed.
 

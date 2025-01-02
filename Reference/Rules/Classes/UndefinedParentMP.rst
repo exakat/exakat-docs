@@ -18,7 +18,7 @@ Undefined Parent
 	:og:title: Undefined Parent
 	:og:type: article
 	:og:description: List of properties and methods that are accessed using ``parent`` keyword but are not defined in the parent classes
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/UndefinedParentMP.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Undefined Parent.html
 	:og:locale: en
 List of properties and methods that are accessed using ``parent`` keyword but are not defined in the `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ classes. 
 

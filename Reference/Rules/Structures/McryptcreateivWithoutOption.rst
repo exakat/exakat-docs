@@ -18,7 +18,7 @@ mcrypt_create_iv() With Default Values
 	:og:title: mcrypt_create_iv() With Default Values
 	:og:type: article
 	:og:description: Avoid using `mcrypt_create_iv()` default values
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/McryptcreateivWithoutOption.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/mcrypt_create_iv() With Default Values.html
 	:og:locale: en
 Avoid using `mcrypt_create_iv()` default values.
 

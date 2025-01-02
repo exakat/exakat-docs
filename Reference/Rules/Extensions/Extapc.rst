@@ -18,7 +18,7 @@ ext/apc
 	:og:title: ext/apc
 	:og:type: article
 	:og:description: Extension Alternative PHP Cache
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extapc.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/apc.html
 	:og:locale: en
 Extension Alternative PHP Cache.
 

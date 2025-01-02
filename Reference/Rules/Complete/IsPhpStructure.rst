@@ -18,7 +18,7 @@ Is PHP Structure
 	:og:title: Is PHP Structure
 	:og:type: article
 	:og:description: This rules marks atoms with ``isPhp``, as part of the standard PHP elements
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Complete/IsPhpStructure.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Is PHP Structure.html
 	:og:locale: en
 This rules marks atoms with ``isPhp``, as part of the standard PHP elements. For example, ``Datetime``, ``E_ALL``, etc. This `attribute <https://www.php.net/attribute>`_ is available in the `engine <https://www.php.net/engine>`_, but not displayed.
 

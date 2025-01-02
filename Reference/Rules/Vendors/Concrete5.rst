@@ -18,7 +18,7 @@ Concrete5 usage
 	:og:title: Concrete5 usage
 	:og:type: article
 	:og:description: This analysis reports usage of the Concrete 5 framework
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Vendors/Concrete5.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Concrete5 usage.html
 	:og:locale: en
 This analysis reports usage of the Concrete 5 framework.
 

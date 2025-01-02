@@ -18,7 +18,7 @@ Abstract Class Usage
 	:og:title: Abstract Class Usage
 	:og:type: article
 	:og:description: This rule lists of all abstract classes defined
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/Abstractclass.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Abstract Class Usage.html
 	:og:locale: en
 This rule lists of all abstract classes defined. Abstract classes cannot be instanciated, and must be extended to be used.
 

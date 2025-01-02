@@ -18,7 +18,7 @@ Friend Attribute
 	:og:title: Friend Attribute
 	:og:type: article
 	:og:description: A method or class can supply via a #[Friend] attribute a list of classes
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Attributes/Friend.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Friend Attribute.html
 	:og:locale: en
 A method or class can supply via a #[Friend] `attribute <https://www.php.net/attribute>`_ a list of classes. Only these classes can call the method. This is loosely based on the C++ friend feature.
 

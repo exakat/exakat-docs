@@ -18,7 +18,7 @@ Used Private Methods
 	:og:title: Used Private Methods
 	:og:type: article
 	:og:description: List of all private methods that are used
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/UsedPrivateMethod.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Used Private Methods.html
 	:og:locale: en
 List of all private methods that are used.
 

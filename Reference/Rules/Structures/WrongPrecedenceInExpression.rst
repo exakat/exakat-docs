@@ -18,7 +18,7 @@ Wrong Precedence In Expression
 	:og:title: Wrong Precedence In Expression
 	:og:type: article
 	:og:description: These operators are not executed in the expected order
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/WrongPrecedenceInExpression.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Wrong Precedence In Expression.html
 	:og:locale: en
 These operators are not executed in the expected order. Coalesce and ternary operator have lesser precedence compared to comparisons or spaceship operators. 
 

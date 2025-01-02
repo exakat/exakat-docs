@@ -18,7 +18,7 @@ Mono Or Multibytes Favorite
 	:og:title: Mono Or Multibytes Favorite
 	:og:type: article
 	:og:description: PHP handles strings wity bytes, and also support multibytes with the mbstring extension
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/strOrMbFavorite.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Mono Or Multibytes Favorite.html
 	:og:locale: en
 PHP handles strings wity bytes, and also support multibytes with the mbstring extension. This analysis reports when the mono or the multi byte version has dominance.
 

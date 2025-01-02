@@ -18,7 +18,7 @@ ext/uopz
 	:og:title: ext/uopz
 	:og:type: article
 	:og:description: Extension UOPZ : User Operations for Zend
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extuopz.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/uopz.html
 	:og:locale: en
 Extension UOPZ : User Operations for Zend.
 

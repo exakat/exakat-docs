@@ -18,7 +18,7 @@ ext/eio
 	:og:title: ext/eio
 	:og:type: article
 	:og:description: Extension EIO
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Exteio.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/eio.html
 	:og:locale: en
 Extension EIO.
 

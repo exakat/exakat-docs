@@ -18,7 +18,7 @@ Could Use self
 	:og:title: Could Use self
 	:og:type: article
 	:og:description: ``self`` keyword refers to the current class, or any of its parents
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/ShouldUseSelf.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Could Use self.html
 	:og:locale: en
 ``self`` keyword refers to the current class, or any of its parents. Using it is just as fast as the full class name, it is as readable and it is will not be changed upon class or namespace change.
 

@@ -3,6 +3,21 @@
 Top10
 +++++
 
+.. meta::
+	:description:
+		Top10: The most common issues found in the code.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Top10
+	:twitter:description: Top10: The most common issues found in the code
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Top10
+	:og:type: article
+	:og:description: The most common issues found in the code
+	:og:url: https://exakat.readthedocs.io/en/latest/Rulesets/Top10.html
+	:og:locale: en
 This ruleset is a selection of analysis, with the top 10 most common. Actually, it is a little larger than that. 
 
 Total : 28 analysis

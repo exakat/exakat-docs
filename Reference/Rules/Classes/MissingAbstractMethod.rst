@@ -18,7 +18,7 @@ Missing Abstract Method
 	:og:title: Missing Abstract Method
 	:og:type: article
 	:og:description: Abstract methods must have a non-abstract version for the class to be complete
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/MissingAbstractMethod.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Missing Abstract Method.html
 	:og:locale: en
 Abstract methods must have a non-abstract version for the class to be complete. A class that is missing one abstract definition cannot be instantiated.
 

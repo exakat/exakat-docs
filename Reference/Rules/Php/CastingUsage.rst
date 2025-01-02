@@ -18,7 +18,7 @@ Cast Usage
 	:og:title: Cast Usage
 	:og:type: article
 	:og:description: List of all cast usage
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/CastingUsage.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Cast Usage.html
 	:og:locale: en
 List of all cast usage.
 

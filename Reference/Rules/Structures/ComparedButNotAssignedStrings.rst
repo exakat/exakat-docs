@@ -18,7 +18,7 @@ Compared But Not Assigned Strings
 	:og:title: Compared But Not Assigned Strings
 	:og:type: article
 	:og:description: Those strings are compared to variables in the code, but those values are never assigned
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ComparedButNotAssignedStrings.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Compared But Not Assigned Strings.html
 	:og:locale: en
 Those strings are compared to variables in the code, but those values are never assigned.
 

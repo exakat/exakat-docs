@@ -18,7 +18,7 @@ Throw In Destruct
 	:og:title: Throw In Destruct
 	:og:type: article
 	:og:description: According to the manual, ``Attempting to throw an exception from a destructor (called in the time of script termination) causes a fatal error
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/ThrowInDestruct.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Throw In Destruct.html
 	:og:locale: en
 According to the manual, ``Attempting to throw an `exception <https://www.php.net/exception>`_ from a destructor (called in the time of script termination) causes a fatal `error <https://www.php.net/error>`_.``
 

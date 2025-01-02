@@ -18,7 +18,7 @@ Unpreprocessed Values
 	:og:title: Unpreprocessed Values
 	:og:type: article
 	:og:description: Preprocessing values is the preparation of values before PHP executes the code
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/Unpreprocessed.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Unpreprocessed Values.html
 	:og:locale: en
 Preprocessing values is the preparation of values before PHP executes the code. 
 

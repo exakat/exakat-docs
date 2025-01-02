@@ -18,7 +18,7 @@ ext/crypto
 	:og:title: ext/crypto
 	:og:type: article
 	:og:description: Extension ext/crypto (PECL)
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extcrypto.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/crypto.html
 	:og:locale: en
 Extension ext/crypto (PECL).
 

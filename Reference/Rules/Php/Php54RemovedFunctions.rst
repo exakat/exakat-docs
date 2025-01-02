@@ -18,7 +18,7 @@ Functions Removed In PHP 5.4
 	:og:title: Functions Removed In PHP 5.4
 	:og:type: article
 	:og:description: Those functions were removed in PHP 5
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/Php54RemovedFunctions.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Functions Removed In PHP 5.4.html
 	:og:locale: en
 Those functions were removed in PHP 5.4.
 

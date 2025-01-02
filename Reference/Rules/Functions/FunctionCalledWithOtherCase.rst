@@ -18,7 +18,7 @@ Function Called With Other Case Than Defined
 	:og:title: Function Called With Other Case Than Defined
 	:og:type: article
 	:og:description: Functions and methods are defined with a specific case
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/FunctionCalledWithOtherCase.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Function Called With Other Case Than Defined.html
 	:og:locale: en
 Functions and methods are defined with a specific case. Often, this is done on purpose,
 either to distinguish the method from others, such as PHP natives functions, or to follow a naming

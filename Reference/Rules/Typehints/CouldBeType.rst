@@ -18,7 +18,7 @@ Could Be Type
 	:og:title: Could Be Type
 	:og:type: article
 	:og:description: This is a generic analysis, that applies common patterns when searching for types
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Typehints/CouldBeType.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Could Be Type.html
 	:og:locale: en
 This is a generic analysis, that applies common patterns when searching for types. It should not be used directly.
 

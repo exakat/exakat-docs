@@ -18,7 +18,7 @@ Http Headers
 	:og:title: Http Headers
 	:og:type: article
 	:og:description: List of HTTP headers use in the code
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Type/HttpHeader.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Http Headers.html
 	:og:locale: en
 List of HTTP headers use in the code. 
 Those headers are mostly used with `header() <https://www.php.net/header>`_ function to send to browser.

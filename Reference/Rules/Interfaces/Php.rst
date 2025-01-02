@@ -18,7 +18,7 @@ PHP Interfaces
 	:og:title: PHP Interfaces
 	:og:type: article
 	:og:description: List of PHP interfaces being used in the code
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Interfaces/Php.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/PHP Interfaces.html
 	:og:locale: en
 List of PHP interfaces being used in the code.
 

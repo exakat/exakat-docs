@@ -18,7 +18,7 @@ Collect Local Variable Counts
 	:og:title: Collect Local Variable Counts
 	:og:type: article
 	:og:description: This analysis collects the number of local variables used in a method or a function
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/CollectLocalVariableCounts.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Collect Local Variable Counts.html
 	:og:locale: en
 This analysis collects the number of local variables used in a method or a function. 
 

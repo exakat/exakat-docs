@@ -18,7 +18,7 @@ Clone Constant
 	:og:title: Clone Constant
 	:og:type: article
 	:og:description: Cloning constant is possible since PHP 8
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/CloneConstant.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Clone Constant.html
 	:og:locale: en
 Cloning constant is possible since PHP 8.1. Until that version, constants could not be an object, and as such, could not be cloned. 
 

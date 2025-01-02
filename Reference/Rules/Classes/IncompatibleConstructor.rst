@@ -18,7 +18,7 @@ Different Constructors
 	:og:title: Different Constructors
 	:og:type: article
 	:og:description: PHP allows different signatures for constructors
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/IncompatibleConstructor.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Different Constructors.html
 	:og:locale: en
 PHP allows different signatures for constructors. This is a legacy feature. 
 

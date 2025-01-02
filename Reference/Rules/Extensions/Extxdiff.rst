@@ -18,7 +18,7 @@ ext/xdiff
 	:og:title: ext/xdiff
 	:og:type: article
 	:og:description: Extension xdiff
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extxdiff.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/xdiff.html
 	:og:locale: en
 Extension xdiff.
 

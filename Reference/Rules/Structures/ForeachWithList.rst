@@ -18,7 +18,7 @@ Foreach With list()
 	:og:title: Foreach With list()
 	:og:type: article
 	:og:description: Foreach loops have the ability to use list() (or []) as blind variables
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ForeachWithList.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Foreach With list().html
 	:og:locale: en
 Foreach loops have the ability to use `list() <https://www.php.net/list>`_ (or []) as blind variables. This syntax assign directly array elements to various variables. 
 

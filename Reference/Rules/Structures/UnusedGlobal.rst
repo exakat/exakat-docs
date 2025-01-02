@@ -18,7 +18,7 @@ Unused Global
 	:og:title: Unused Global
 	:og:type: article
 	:og:description: A global keyword is used in a method, yet the variable is not actually used
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/UnusedGlobal.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Unused Global.html
 	:og:locale: en
 A global keyword is used in a method, yet the variable is not actually used. This makes PHP import values for nothing, or may create interference
 

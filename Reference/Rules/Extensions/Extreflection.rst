@@ -18,7 +18,7 @@ ext/reflection
 	:og:title: ext/reflection
 	:og:type: article
 	:og:description: Extension Reflection
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extreflection.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/reflection.html
 	:og:locale: en
 Extension `Reflection <https://www.php.net/reflection>`_.
 

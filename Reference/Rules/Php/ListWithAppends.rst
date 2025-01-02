@@ -18,7 +18,7 @@ List With Array Appends
 	:og:title: List With Array Appends
 	:og:type: article
 	:og:description: List() behavior has changed in PHP 7
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/ListWithAppends.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/List With Array Appends.html
 	:og:locale: en
 `List() <https://www.php.net/list>`_ behavior has changed in PHP 7.0 and it has impact on the indexing when list is used with the [] operator. 
 

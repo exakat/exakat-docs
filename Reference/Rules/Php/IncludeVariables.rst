@@ -18,7 +18,7 @@ Include Variables
 	:og:title: Include Variables
 	:og:type: article
 	:og:description: This rule reports when ``include``, ``require`` and its cousins, are used with a variable, or any data container
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/IncludeVariables.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Include Variables.html
 	:og:locale: en
 This rule reports when ``include``, ``require`` and its cousins, are used with a variable, or any data container. This is a dynamic inclusion.
 

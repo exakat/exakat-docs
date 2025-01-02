@@ -18,7 +18,7 @@ ext/array
 	:og:title: ext/array
 	:og:type: article
 	:og:description: Core functions processing arrays
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extarray.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/array.html
 	:og:locale: en
 Core functions processing arrays.
 

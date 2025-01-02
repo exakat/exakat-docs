@@ -18,7 +18,7 @@ Enum Usage
 	:og:title: Enum Usage
 	:og:type: article
 	:og:description: This rule reports usage of PHP native enumerations
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/EnumUsage.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Enum Usage.html
 	:og:locale: en
 This rule reports usage of PHP native enumerations. Enumerations were introduced in PHP 8.1 and are not backward compatible.
 

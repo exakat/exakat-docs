@@ -18,7 +18,7 @@ Redefined Class Constants
 	:og:title: Redefined Class Constants
 	:og:type: article
 	:og:description: Redefined class constants
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/RedefinedConstants.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Redefined Class Constants.html
 	:og:locale: en
 Redefined class constants.
 

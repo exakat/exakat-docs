@@ -18,7 +18,7 @@ Child Class Removes Typehint
 	:og:title: Child Class Removes Typehint
 	:og:type: article
 	:og:description: PHP 7
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/ChildRemoveTypehint.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Child Class Removes Typehint.html
 	:og:locale: en
 PHP 7.2 introduced the ability to remove a typehint when overloading a method. This is not valid code for older versions.
 

@@ -18,7 +18,7 @@ Useless Instructions
 	:og:title: Useless Instructions
 	:og:type: article
 	:og:description: Those instructions are useless, or contains useless parts
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/UselessInstruction.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Useless Instructions.html
 	:og:locale: en
 Those instructions are useless, or contains useless parts. 
 

@@ -18,7 +18,7 @@ Collect Php Structures
 	:og:title: Collect Php Structures
 	:og:type: article
 	:og:description: Collect Php Structures
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/CollectPhpStructures.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Collect Php Structures.html
 	:og:locale: en
 Collect Php Structures. Constants, functions, classes, traits and interfaces.
 

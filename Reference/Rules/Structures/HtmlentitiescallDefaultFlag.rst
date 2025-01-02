@@ -18,7 +18,7 @@ Htmlentities Using Default Flag
 	:og:title: Htmlentities Using Default Flag
 	:og:type: article
 	:og:description: htmlspecialchars(), htmlentities(), htmlspecialchars_decode(), html_entity_decode() and get_html_translation_table(), are used to prevent injecting special characters in HTML code
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/HtmlentitiescallDefaultFlag.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Htmlentities Using Default Flag.html
 	:og:locale: en
 `htmlspecialchars() <https://www.php.net/htmlspecialchars>`_, `htmlentities() <https://www.php.net/htmlentities>`_, `htmlspecialchars_decode() <https://www.php.net/htmlspecialchars_decode>`_, `html_entity_decode() <https://www.php.net/html_entity_decode>`_ and `get_html_translation_table() <https://www.php.net/get_html_translation_table>`_, are used to prevent injecting special characters in HTML code. As a bare minimum, they take a string and encode it for HTML.
 

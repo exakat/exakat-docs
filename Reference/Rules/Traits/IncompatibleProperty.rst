@@ -18,7 +18,7 @@ Incompatible Property Between Class And Trait
 	:og:title: Incompatible Property Between Class And Trait
 	:og:type: article
 	:og:description: Reports a property definition that doesn't fit the importing class
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Traits/IncompatibleProperty.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Incompatible Property Between Class And Trait.html
 	:og:locale: en
 Reports a property definition that doesn't fit the importing class. The property definition should be identical in the trait and in the class. 
 

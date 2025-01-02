@@ -18,7 +18,7 @@ Collect Class Constant Counts
 	:og:title: Collect Class Constant Counts
 	:og:type: article
 	:og:description: This analysis collects the number of class constants per class or interface
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/CollectClassConstantCounts.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Collect Class Constant Counts.html
 	:og:locale: en
 This analysis collects the number of class constants per class or interface. 
 

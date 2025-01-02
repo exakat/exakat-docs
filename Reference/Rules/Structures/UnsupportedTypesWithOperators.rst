@@ -18,7 +18,7 @@ Unsupported Types With Operators
 	:og:title: Unsupported Types With Operators
 	:og:type: article
 	:og:description: Arrays, resources and objects are generally not accepted with unary and binary operators
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/UnsupportedTypesWithOperators.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Unsupported Types With Operators.html
 	:og:locale: en
 Arrays, resources and objects are generally not accepted with unary and binary operators. 
 

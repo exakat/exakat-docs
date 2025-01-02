@@ -18,7 +18,7 @@ Should Use Function
 	:og:title: Should Use Function
 	:og:type: article
 	:og:description: Functioncalls that fall back to global scope should be using 'use function' or be fully namespaced
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/ShouldUseFunction.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Should Use Function.html
 	:og:locale: en
 Functioncalls that fall back to global scope should be using 'use function' or be fully namespaced. 
 

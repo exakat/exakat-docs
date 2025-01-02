@@ -18,7 +18,7 @@ Cant Instantiate Non Class
 	:og:title: Cant Instantiate Non Class
 	:og:type: article
 	:og:description: It is not possible to instantiate anything else than a class
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/CantInstantiateNonClass.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Cant Instantiate Non Class.html
 	:og:locale: en
 It is not possible to instantiate anything else than a class. Interfaces, enumerations and traits cannot be instantiated.
 

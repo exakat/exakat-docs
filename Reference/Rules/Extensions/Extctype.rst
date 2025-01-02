@@ -18,7 +18,7 @@ ext/ctype
 	:og:title: ext/ctype
 	:og:type: article
 	:og:description: Extension ext/ctype
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extctype.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/ctype.html
 	:og:locale: en
 Extension ext/`ctype <https://www.php.net/ctype>`_.
 

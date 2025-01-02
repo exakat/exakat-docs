@@ -18,7 +18,7 @@ ext/event
 	:og:title: ext/event
 	:og:type: article
 	:og:description: Extension event
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extevent.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/event.html
 	:og:locale: en
 Extension event.
 

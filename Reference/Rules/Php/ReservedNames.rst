@@ -18,7 +18,7 @@ PHP Keywords As Names
 	:og:title: PHP Keywords As Names
 	:og:type: article
 	:og:description: PHP has a set of reserved keywords
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/ReservedNames.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/PHP Keywords As Names.html
 	:og:locale: en
 PHP has a set of reserved keywords. It is recommended not to use those keywords for names structures. 
 

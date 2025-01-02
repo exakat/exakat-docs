@@ -18,7 +18,7 @@ Magic Method Returntype Is Restricted
 	:og:title: Magic Method Returntype Is Restricted
 	:og:type: article
 	:og:description: Some PHP magic method have compulsory return types
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/MagicMethodReturntypes.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Magic Method Returntype Is Restricted.html
 	:og:locale: en
 Some PHP magic method have compulsory return types. This means that the type is compulsory, and it is applied by default, even if it is explicitely omitted. On the other hand, any other type is forbidden, and reported as such by PHP. 
 

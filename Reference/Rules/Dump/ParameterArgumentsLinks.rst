@@ -18,7 +18,7 @@ Links Between Parameter And Argument
 	:og:title: Links Between Parameter And Argument
 	:og:type: article
 	:og:description: Collect various stats about arguments and parameter usage
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/ParameterArgumentsLinks.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Links Between Parameter And Argument.html
 	:og:locale: en
 Collect various stats about arguments and parameter usage. 
 

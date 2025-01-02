@@ -18,7 +18,7 @@ No array_merge() In Loops
 	:og:title: No array_merge() In Loops
 	:og:type: article
 	:og:description: array_merge() is memory intensive : every call will duplicate the arguments in memory, before merging them
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Performances/ArrayMergeInLoops.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No array_merge() In Loops.html
 	:og:locale: en
 `array_merge() <https://www.php.net/array_merge>`_ is memory intensive : every call will duplicate the arguments in memory, before merging them. 
 

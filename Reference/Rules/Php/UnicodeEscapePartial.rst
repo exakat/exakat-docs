@@ -18,7 +18,7 @@ Unicode Escape Partial
 	:og:title: Unicode Escape Partial
 	:og:type: article
 	:og:description: PHP 7 introduces a new escape sequence for strings : \u{hex}
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/UnicodeEscapePartial.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Unicode Escape Partial.html
 	:og:locale: en
 PHP 7 introduces a new escape sequence for strings : \u{hex}. It is backward incompatible with previous PHP versions for two reasons : 
 

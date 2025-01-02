@@ -18,7 +18,7 @@ Is Library
 	:og:title: Is Library
 	:og:type: article
 	:og:description: Is this project a library (it must be used in a larger project) or a standalone code
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Project/IsLibrary.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Is Library.html
 	:og:locale: en
 Is this project a library (it must be used in a larger project) or a standalone code.
 

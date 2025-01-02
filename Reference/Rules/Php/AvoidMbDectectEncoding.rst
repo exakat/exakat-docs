@@ -18,7 +18,7 @@ Avoid mb_dectect_encoding()
 	:og:title: Avoid mb_dectect_encoding()
 	:og:type: article
 	:og:description: mb_dectect_encoding() is bad at guessing encoding
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/AvoidMbDectectEncoding.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Avoid mb_dectect_encoding().html
 	:og:locale: en
 mb_dectect_encoding() is bad at guessing encoding. 
 

@@ -18,7 +18,7 @@ Functioncall Is Global
 	:og:title: Functioncall Is Global
 	:og:type: article
 	:og:description: Marks a functioncall when it is from the global scope
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/IsGlobal.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Functioncall Is Global.html
 	:og:locale: en
 Marks a functioncall when it is from the global scope. It is not located in another function, class or trait.
 

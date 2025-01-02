@@ -18,7 +18,7 @@ Using Short Tags
 	:og:title: Using Short Tags
 	:og:type: article
 	:og:description: The code makes use of short tags
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ShortTags.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Using Short Tags.html
 	:og:locale: en
 The code makes use of short tags. Short tags are the following : ``<?`` . A full scripts looks like that : ``<? /* php code */ ?>`` .
 

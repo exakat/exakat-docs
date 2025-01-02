@@ -18,7 +18,7 @@ No Literal For Reference
 	:og:title: No Literal For Reference
 	:og:type: article
 	:og:description: Method arguments and return values may be by reference
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/NoLiteralForReference.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No Literal For Reference.html
 	:og:locale: en
 Method arguments and return values may be by reference. Then, they need to be a valid variable.
 

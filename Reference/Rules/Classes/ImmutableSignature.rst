@@ -18,7 +18,7 @@ Immutable Signature
 	:og:title: Immutable Signature
 	:og:type: article
 	:og:description: Overwrites makes refactoring a method signature difficult
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/ImmutableSignature.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Immutable Signature.html
 	:og:locale: en
 Overwrites makes refactoring a method signature difficult. PHP enforces compatible signature, by checking if arguments have the same type, reference and default values.
 

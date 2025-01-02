@@ -18,7 +18,7 @@ Should Use Operator
 	:og:title: Should Use Operator
 	:og:type: article
 	:og:description: Some functions duplicate the feature of an operator
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ShouldUseOperator.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Should Use Operator.html
 	:og:locale: en
 Some functions duplicate the feature of an operator. When in doubt, it is better to use the operator. 
 

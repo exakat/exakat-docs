@@ -18,7 +18,7 @@ Redefined Methods
 	:og:title: Redefined Methods
 	:og:type: article
 	:og:description: Redefined methods are overwritten methods
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/RedefinedMethods.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Redefined Methods.html
 	:og:locale: en
 Redefined methods are overwritten methods. Those methods are defined in different classes that are part of the same classes hierarchy.
 

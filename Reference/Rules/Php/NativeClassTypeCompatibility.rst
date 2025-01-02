@@ -18,7 +18,7 @@ PHP Native Class Type Compatibility
 	:og:title: PHP Native Class Type Compatibility
 	:og:type: article
 	:og:description: PHP enforces the method compatibility with native classes and interfaces
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/NativeClassTypeCompatibility.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/PHP Native Class Type Compatibility.html
 	:og:locale: en
 PHP enforces the method compatibility with native classes and interfaces. 
 

@@ -18,7 +18,7 @@ Identical Variables In Foreach
 	:og:title: Identical Variables In Foreach
 	:og:type: article
 	:og:description: Do not use the same variable names as a foreach() source and one of its blind variables
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/IdenticalVariablesInForeach.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Identical Variables In Foreach.html
 	:og:locale: en
 Do not use the same variable names as a `foreach() <https://www.php.net/manual/en/control-structures.foreach.php>`_ source and one of its blind variables. 
 

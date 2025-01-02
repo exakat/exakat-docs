@@ -18,7 +18,7 @@ Use Web
 	:og:title: Use Web
 	:og:type: article
 	:og:description: The code is used in web environment
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/UseWeb.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Use Web.html
 	:og:locale: en
 The code is used in web environment.
 

@@ -18,7 +18,7 @@ Super Global Usage
 	:og:title: Super Global Usage
 	:og:type: article
 	:og:description: Spot usage of Super global variables, such as $_GET, $_POST or $_REQUEST
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/SuperGlobalUsage.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Super Global Usage.html
 	:og:locale: en
 Spot usage of Super global variables, such as `$_GET <https://www.php.net/manual/en/reserved.variables.get.php>`_, `$_POST <https://www.php.net/manual/en/reserved.variables.post.php>`_ or `$_REQUEST <https://www.php.net/manual/en/reserved.variables.request.php>`_.
 

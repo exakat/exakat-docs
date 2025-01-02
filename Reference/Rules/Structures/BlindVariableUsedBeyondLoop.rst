@@ -18,7 +18,7 @@ Blind Variable Used Beyond Loop
 	:og:title: Blind Variable Used Beyond Loop
 	:og:type: article
 	:og:description: Foreach() loops defines variables, which are traditionally used only inside the loop block
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/BlindVariableUsedBeyondLoop.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Blind Variable Used Beyond Loop.html
 	:og:locale: en
 `Foreach() <https://www.php.net/manual/en/control-structures.foreach.php>`_ loops defines variables, which are traditionally used only inside the loop block. Using them beyond that limit often leads to surprises.
 

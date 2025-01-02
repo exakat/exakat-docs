@@ -18,7 +18,7 @@ No Direct Call To Magic Method
 	:og:title: No Direct Call To Magic Method
 	:og:type: article
 	:og:description: PHP features magic methods, which are methods related to operators
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/DirectCallToMagicMethod.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No Direct Call To Magic Method.html
 	:og:locale: en
 PHP features magic methods, which are methods related to operators.
 

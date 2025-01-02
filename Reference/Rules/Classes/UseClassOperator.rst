@@ -18,7 +18,7 @@ Use \:\:Class Operator
 	:og:title: Use ::Class Operator
 	:og:type: article
 	:og:description: Use ``::class`` to hardcode class names, instead of strings
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/UseClassOperator.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Use ::Class Operator.html
 	:og:locale: en
 Use ``\:\:class`` to hardcode class names, instead of strings.
 

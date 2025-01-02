@@ -18,7 +18,7 @@ Ambiguous Types With Variables
 	:og:title: Ambiguous Types With Variables
 	:og:type: article
 	:og:description: The same variable is assigned various types, in different methods
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Variables/AmbiguousTypes.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Ambiguous Types With Variables.html
 	:og:locale: en
 The same variable is assigned various types, in different methods. This means that one may expect the same named variable to behave differently in different context.
 

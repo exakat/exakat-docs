@@ -18,7 +18,7 @@ Constants Created Outside Its Namespace
 	:og:title: Constants Created Outside Its Namespace
 	:og:type: article
 	:og:description: Constants Created Outside Its Namespace
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Constants/CreatedOutsideItsNamespace.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Constants Created Outside Its Namespace.html
 	:og:locale: en
 Constants Created Outside Its Namespace.
 

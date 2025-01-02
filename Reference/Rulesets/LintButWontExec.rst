@@ -3,6 +3,21 @@
 LintButWontExec
 +++++++++++++++
 
+.. meta::
+	:description:
+		LintButWontExec: Check the code for common errors that will lead to a Fatal error on production, but lint fine..
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: LintButWontExec
+	:twitter:description: LintButWontExec: Check the code for common errors that will lead to a Fatal error on production, but lint fine.
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: LintButWontExec
+	:og:type: article
+	:og:description: Check the code for common errors that will lead to a Fatal error on production, but lint fine.
+	:og:url: https://exakat.readthedocs.io/en/latest/Rulesets/LintButWontExec.html
+	:og:locale: en
 This ruleset focuses on PHP code that lint (php -l), but that will not run. As such, this ruleset tries to go further than PHP, by connecting files, just like during execution.
 
 Total : 48 analysis

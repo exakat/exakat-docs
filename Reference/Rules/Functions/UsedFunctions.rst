@@ -18,7 +18,7 @@ Used Functions
 	:og:title: Used Functions
 	:og:type: article
 	:og:description: The functions below are used in the code
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/UsedFunctions.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Used Functions.html
 	:og:locale: en
 The functions below are used in the code.
 

@@ -18,7 +18,7 @@ Pear Usage
 	:og:title: Pear Usage
 	:og:type: article
 	:og:description: Pear Usage : list of Pear packages in use
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/PearUsage.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Pear Usage.html
 	:og:locale: en
 Pear Usage : list of Pear packages in use.
 

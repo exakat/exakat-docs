@@ -18,7 +18,7 @@ Could Use __DIR__
 	:og:title: Could Use __DIR__
 	:og:type: article
 	:og:description: Use __DIR__ constant to access the current file's parent directory
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/CouldUseDir.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Could Use __DIR__.html
 	:og:locale: en
 Use `__DIR__ <https://www.php.net/manual/en/language.constants.predefined.php>`_ constant to access the current file's `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ `directory <https://www.php.net/`directory <https://www.php.net/directory>`_>`_. 
 

@@ -18,7 +18,7 @@ Could Be Generator
 	:og:title: Could Be Generator
 	:og:type: article
 	:og:description: This rule reports methods, functions
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Typehints/CouldBeGenerator.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Could Be Generator.html
 	:og:locale: en
 This rule reports methods, functions... where the return value may be typed ``Generator``. This is the case when the body of the function uses the ``yield`` and ``yield from`` keyword.
 

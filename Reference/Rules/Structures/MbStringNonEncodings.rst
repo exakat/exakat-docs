@@ -18,7 +18,7 @@ Mbstring Unknown Encodings
 	:og:title: Mbstring Unknown Encodings
 	:og:type: article
 	:og:description: mbstring functions require one of its supported encoding as parameter
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/MbStringNonEncodings.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Mbstring Unknown Encodings.html
 	:og:locale: en
 mbstring functions require one of its supported encoding as parameter. 
 

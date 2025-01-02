@@ -18,7 +18,7 @@ Should Deep Clone
 	:og:title: Should Deep Clone
 	:og:type: article
 	:og:description: By default, PHP makes a shallow clone
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/ShouldDeepClone.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Should Deep Clone.html
 	:og:locale: en
 By default, PHP makes a shallow clone. It only clone the scalars, and keep the reference to any object already referenced. This means that the cloned object and its original share any object they hold as property.
 

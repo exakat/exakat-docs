@@ -18,7 +18,7 @@ Global Definitions
 	:og:title: Global Definitions
 	:og:type: article
 	:og:description: Sets the definitions of global variables across the application
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Complete/GlobalDefinitions.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Global Definitions.html
 	:og:locale: en
 Sets the definitions of global variables across the application.
 

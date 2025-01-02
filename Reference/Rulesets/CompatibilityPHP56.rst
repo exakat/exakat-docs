@@ -3,6 +3,21 @@
 CompatibilityPHP56
 ++++++++++++++++++
 
+.. meta::
+	:description:
+		CompatibilityPHP56: List features that are incompatible with PHP 5.6..
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: CompatibilityPHP56
+	:twitter:description: CompatibilityPHP56: List features that are incompatible with PHP 5.6.
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: CompatibilityPHP56
+	:og:type: article
+	:og:description: List features that are incompatible with PHP 5.6.
+	:og:url: https://exakat.readthedocs.io/en/latest/Rulesets/CompatibilityPHP56.html
+	:og:locale: en
 This ruleset centralizes all analysis for the migration from PHP 5.5 to 5.6.
 
 Total : 78 analysis

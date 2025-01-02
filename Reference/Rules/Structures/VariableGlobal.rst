@@ -18,7 +18,7 @@ Variable Global
 	:og:title: Variable Global
 	:og:type: article
 	:og:description: Variable ``global`` such are valid in PHP 5
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/VariableGlobal.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Variable Global.html
 	:og:locale: en
 Variable ``global`` such are valid in PHP 5.6, but no in PHP 7.0. They should be replaced with ${$foo->bar}.
 

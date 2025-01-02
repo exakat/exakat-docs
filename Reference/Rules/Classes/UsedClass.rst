@@ -18,7 +18,7 @@ Used Classes
 	:og:title: Used Classes
 	:og:type: article
 	:og:description: The following classes are used in the code
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/UsedClass.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Used Classes.html
 	:og:locale: en
 The following classes are used in the code.
 

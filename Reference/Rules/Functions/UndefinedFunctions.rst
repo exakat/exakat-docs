@@ -18,7 +18,7 @@ Undefined Functions
 	:og:title: Undefined Functions
 	:og:type: article
 	:og:description: Those functions are called, though they are not defined in the code
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/UndefinedFunctions.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Undefined Functions.html
 	:og:locale: en
 Those functions are called, though they are not defined in the code. 
 

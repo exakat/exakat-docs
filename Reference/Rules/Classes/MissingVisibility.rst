@@ -18,7 +18,7 @@ Missing Visibility
 	:og:title: Missing Visibility
 	:og:type: article
 	:og:description: Class constants, properties and methods usage may be controlled by the visibility option
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/MissingVisibility.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Missing Visibility.html
 	:og:locale: en
 Class constants, properties and methods usage may be controlled by the visibility option. When omitted, it is by default public. 
 

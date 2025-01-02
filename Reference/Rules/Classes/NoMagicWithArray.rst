@@ -18,7 +18,7 @@ No Magic Method With Array
 	:og:title: No Magic Method With Array
 	:og:type: article
 	:og:description: Magic method ``__set()`` doesn't work for array syntax
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/NoMagicWithArray.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No Magic Method With Array.html
 	:og:locale: en
 Magic method ``__set()`` doesn't work for array syntax. 
 

@@ -18,7 +18,7 @@ Catch With Undefined Variable
 	:og:title: Catch With Undefined Variable
 	:og:type: article
 	:og:description: Always initialize every variable before the try block, when they are used in a catch block
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Exceptions/CatchUndefinedVariable.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Catch With Undefined Variable.html
 	:og:locale: en
 Always initialize every variable before the try block, when they are used in a catch block. If the `exception <https://www.php.net/exception>`_ is raised before the variable is defined, the catch block may have to handle an undefined variable, leading to more chaos.
 

@@ -18,7 +18,7 @@ Binary Glossary
 	:og:title: Binary Glossary
 	:og:type: article
 	:og:description: List of all the integer values using the binary format
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Type/Binary.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Binary Glossary.html
 	:og:locale: en
 List of all the integer values using the binary format.
 

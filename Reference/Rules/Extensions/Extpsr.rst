@@ -18,7 +18,7 @@ ext/psr
 	:og:title: ext/psr
 	:og:type: article
 	:og:description: Extension PSR : PHP Standards Recommendations
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extpsr.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/psr.html
 	:og:locale: en
 Extension PSR : PHP Standards Recommendations.
 

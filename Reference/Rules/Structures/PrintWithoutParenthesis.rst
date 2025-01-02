@@ -18,7 +18,7 @@ Avoid Parenthesis With Language Construct
 	:og:title: Avoid Parenthesis With Language Construct
 	:og:type: article
 	:og:description: Avoid Parenthesis for language construct
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/PrintWithoutParenthesis.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Avoid Parenthesis With Language Construct.html
 	:og:locale: en
 Avoid Parenthesis for language construct. Languages constructs are a few PHP native elements, that looks like functions but are not. 
 

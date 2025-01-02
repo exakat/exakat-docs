@@ -18,7 +18,7 @@ Inconsistent Variable Usage
 	:og:title: Inconsistent Variable Usage
 	:og:type: article
 	:og:description: Those variables are used in various and inconsistent ways
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Variables/InconsistentUsage.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Inconsistent Variable Usage.html
 	:og:locale: en
 Those variables are used in various and inconsistent ways. It is difficult to understand if they are an array, an object or a scalar variable.
 

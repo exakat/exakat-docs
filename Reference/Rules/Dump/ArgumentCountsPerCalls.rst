@@ -18,7 +18,7 @@ Argument Counts Per Calls
 	:og:title: Argument Counts Per Calls
 	:og:type: article
 	:og:description: Collects the number of arguments passed to PHP functions
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/ArgumentCountsPerCalls.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Argument Counts Per Calls.html
 	:og:locale: en
 Collects the number of arguments passed to PHP functions. 
 

@@ -18,7 +18,7 @@ Pathinfo() Returns May Vary
 	:og:title: Pathinfo() Returns May Vary
 	:og:type: article
 	:og:description: pathinfo() function returns an array whose content may vary
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/PathinfoReturns.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Pathinfo() Returns May Vary.html
 	:og:locale: en
 `pathinfo() <https://www.php.net/pathinfo>`_ function returns an array whose content may vary. It is recommended to collect the values after check, rather than directly.
 The same applies to `parse_url() <https://www.php.net/parse_url>`_, which returns an array with various index.

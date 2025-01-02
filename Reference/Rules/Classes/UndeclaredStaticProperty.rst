@@ -18,7 +18,7 @@ Wrong Access Style to Property
 	:og:title: Wrong Access Style to Property
 	:og:type: article
 	:og:description: Use the right syntax when reaching for a property
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/UndeclaredStaticProperty.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Wrong Access Style to Property.html
 	:og:locale: en
 Use the right syntax when reaching for a property. `Static <https://www.php.net/manual/en/language.oop5.static.php>`_ properties use the ``\:\:`` operator, and non-`static <https://www.php.net/manual/en/language.oop5.static.php>`_ properties use ``->``. 
 

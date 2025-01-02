@@ -18,7 +18,7 @@ Find Key Directly
 	:og:title: Find Key Directly
 	:og:type: article
 	:og:description: There is no need to use foreach() to search for a key
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/GoToKeyDirectly.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Find Key Directly.html
 	:og:locale: en
 There is no need to use `foreach() <https://www.php.net/manual/en/control-structures.foreach.php>`_ to search for a key. 
 

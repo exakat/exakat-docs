@@ -18,7 +18,7 @@ ext/vips
 	:og:title: ext/vips
 	:og:type: article
 	:og:description: Extension VIPS
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extvips.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/vips.html
 	:og:locale: en
 Extension VIPS.
 

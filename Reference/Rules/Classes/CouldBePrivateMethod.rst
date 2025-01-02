@@ -18,7 +18,7 @@ Method Could Be Private Method
 	:og:title: Method Could Be Private Method
 	:og:type: article
 	:og:description: The following methods are never used outside their class of definition
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/CouldBePrivateMethod.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Method Could Be Private Method.html
 	:og:locale: en
 The following methods are never used outside their class of definition. Given the analyzed code, they could be set as private. 
 Note that dynamic properties (such as $x->$y) are not taken into account.

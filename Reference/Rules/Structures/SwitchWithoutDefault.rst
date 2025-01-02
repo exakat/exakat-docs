@@ -18,7 +18,7 @@ Switch Without Default
 	:og:title: Switch Without Default
 	:og:type: article
 	:og:description: Always use a default statement in switch() and match()
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/SwitchWithoutDefault.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Switch Without Default.html
 	:og:locale: en
 Always use a default statement in `switch() <https://www.php.net/manual/en/control-structures.switch.php>`_ and `match() <https://www.php.net/manual/en/control-structures.match.php>`_. 
 

@@ -18,7 +18,7 @@ Bracketless Blocks
 	:og:title: Bracketless Blocks
 	:og:type: article
 	:og:description: PHP allows one liners as for(), foreach(), while(), do/while() loops, or as then/else expressions
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/Bracketless.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Bracketless Blocks.html
 	:og:locale: en
 PHP allows one liners as `for() <https://www.php.net/manual/en/control-structures.for.php>`_, `foreach() <https://www.php.net/manual/en/control-structures.foreach.php>`_, `while() <https://www.php.net/manual/en/control-structures.while.php>`_, do/`while() <https://www.php.net/manual/en/control-structures.while.php>`_ loops, or as then/else expressions. 
 

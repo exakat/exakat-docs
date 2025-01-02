@@ -18,7 +18,7 @@ Substr() In Loops
 	:og:title: Substr() In Loops
 	:og:type: article
 	:og:description: Successive substr() calls may be replaced by a call to str_split()
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Performances/SubstrInLoops.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Substr() In Loops.html
 	:og:locale: en
 Successive `substr() <https://www.php.net/substr>`_ calls may be replaced by a call to `str_split() <https://www.php.net/str_split>`_. 
 

@@ -18,7 +18,7 @@ Max Level Of Nesting
 	:og:title: Max Level Of Nesting
 	:og:type: article
 	:og:description: Avoid nesting structures too deep, as it hurts readability
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/MaxLevelOfIdentation.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Max Level Of Nesting.html
 	:og:locale: en
 Avoid nesting structures too deep, as it hurts readability.
 

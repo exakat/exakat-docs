@@ -18,7 +18,7 @@ New On Functioncall Or Identifier
 	:og:title: New On Functioncall Or Identifier
 	:og:type: article
 	:og:description: Object instantiation with new works with or without arguments
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/NewOnFunctioncallOrIdentifier.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/New On Functioncall Or Identifier.html
 	:og:locale: en
 Object instantiation with new works with or without arguments. Both are valid in PHP. 
 

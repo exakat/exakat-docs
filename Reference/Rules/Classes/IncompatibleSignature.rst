@@ -18,7 +18,7 @@ Incompatible Signature Methods
 	:og:title: Incompatible Signature Methods
 	:og:type: article
 	:og:description: Methods should have the same signature when being overwritten
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/IncompatibleSignature.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Incompatible Signature Methods.html
 	:og:locale: en
 Methods should have the same signature when being overwritten.
 

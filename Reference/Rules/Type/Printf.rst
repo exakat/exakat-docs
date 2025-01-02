@@ -18,7 +18,7 @@ Printf Format Inventory
 	:og:title: Printf Format Inventory
 	:og:type: article
 	:og:description: All format used in the code with printf(), vprintf(), sprintf(), scanf() and fscanf()
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Type/Printf.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Printf Format Inventory.html
 	:og:locale: en
 All format used in the code with `printf() <https://www.php.net/printf>`_, `vprintf() <https://www.php.net/vprintf>`_, `sprintf() <https://www.php.net/sprintf>`_, scanf() and `fscanf() <https://www.php.net/fscanf>`_.
 

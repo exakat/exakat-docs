@@ -18,7 +18,7 @@ StandaloneType True False Null
 	:og:title: StandaloneType True False Null
 	:og:type: article
 	:og:description: Report usage of standalone types of true, false and null
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Typehints/StandaloneTypeTFN.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/StandaloneType True False Null.html
 	:og:locale: en
 Report usage of standalone types of true, false and null. 
 

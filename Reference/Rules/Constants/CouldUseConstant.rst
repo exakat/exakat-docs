@@ -18,7 +18,7 @@ Could Use Existing Constant
 	:og:title: Could Use Existing Constant
 	:og:type: article
 	:og:description: This rule reports literals that have the same value as a constant, and, as such, might be used as a constant, instead of a literal
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Constants/CouldUseConstant.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Could Use Existing Constant.html
 	:og:locale: en
 This rule reports literals that have the same value as a constant, and, as such, might be used as a constant, instead of a literal.
 

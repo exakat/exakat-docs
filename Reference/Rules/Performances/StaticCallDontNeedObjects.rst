@@ -18,7 +18,7 @@ Static Call May Be Truly Static
 	:og:title: Static Call May Be Truly Static
 	:og:type: article
 	:og:description: Static calls are allowed on objects
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Performances/StaticCallDontNeedObjects.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Static Call May Be Truly Static.html
 	:og:locale: en
 `Static <https://www.php.net/manual/en/language.oop5.static.php>`_ calls are allowed on objects. Although, when using typehinting, it is better to use the actual type, and allow PHP to prepare this at compilation time, not at execution time.
 

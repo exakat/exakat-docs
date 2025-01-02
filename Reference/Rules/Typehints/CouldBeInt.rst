@@ -18,7 +18,7 @@ Type Could Be Integer
 	:og:title: Type Could Be Integer
 	:og:type: article
 	:og:description: This rule marks arguments, class constants, properties and return types that can be set to the integer type ``int``
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Typehints/CouldBeInt.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Type Could Be Integer.html
 	:og:locale: en
 This rule marks arguments, class constants, properties and return types that can be set to the integer type ``int``.
 

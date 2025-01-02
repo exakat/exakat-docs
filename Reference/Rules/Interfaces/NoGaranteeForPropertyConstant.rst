@@ -18,7 +18,7 @@ Interfaces Don't Ensure Properties
 	:og:title: Interfaces Don't Ensure Properties
 	:og:type: article
 	:og:description: When using an interface as a type, properties are not enforced
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Interfaces/NoGaranteeForPropertyConstant.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Interfaces Don't Ensure Properties.html
 	:og:locale: en
 When using an interface as a type, properties are not enforced. They might be not available, and lead to a Fatal `Error <https://www.php.net/error>`_.
 

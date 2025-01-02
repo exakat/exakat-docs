@@ -18,7 +18,7 @@ Use str_starts_with()
 	:og:title: Use str_starts_with()
 	:og:type: article
 	:og:description: There is a dedicated function to check the prefix of a string : it is called str_starts_with()
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/UseStrStartsWith.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Use str_starts_with().html
 	:og:locale: en
 There is a dedicated function to check the prefix of a string : it is called `str_starts_with() <https://www.php.net/str_starts_with>`_. It is available since PHP 8.0
 

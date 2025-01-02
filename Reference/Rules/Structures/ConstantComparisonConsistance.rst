@@ -18,7 +18,7 @@ Constant Comparison
 	:og:title: Constant Comparison
 	:og:type: article
 	:og:description: Constant to the left or right is a favorite
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ConstantComparisonConsistance.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Constant Comparison.html
 	:og:locale: en
 Constant to the left or right is a favorite. 
 

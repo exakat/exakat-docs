@@ -18,7 +18,7 @@ Collect Class Depth
 	:og:title: Collect Class Depth
 	:og:type: article
 	:og:description: This rule count the number of level of extends in classes
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/CollectClassDepth.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Collect Class Depth.html
 	:og:locale: en
 This rule count the number of level of extends in classes. Each level is a depth level: the last child has that number of direct `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_, which are dependencies.
 

@@ -18,7 +18,7 @@ Assigned Twice
 	:og:title: Assigned Twice
 	:og:type: article
 	:og:description: The same variable is assigned twice in the same function
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Variables/AssignedTwiceOrMore.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Assigned Twice.html
 	:og:locale: en
 The same variable is assigned twice in the same function.
 

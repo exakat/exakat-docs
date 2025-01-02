@@ -18,7 +18,7 @@ Autoappend
 	:og:title: Autoappend
 	:og:type: article
 	:og:description: Appending a variable to itself leads to enormous usage of memory
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Performances/Autoappend.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Autoappend.html
 	:og:locale: en
 Appending a variable to itself leads to enormous usage of memory.
 

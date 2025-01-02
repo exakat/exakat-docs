@@ -18,7 +18,7 @@ Repeated Interface
 	:og:title: Repeated Interface
 	:og:type: article
 	:og:description: A class should implements only once an interface
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Interfaces/RepeatedInterface.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Repeated Interface.html
 	:og:locale: en
 A class should implements only once an interface. An interface can only extends once another interface. In both cases, `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ classes or interfaces must be checked.
 

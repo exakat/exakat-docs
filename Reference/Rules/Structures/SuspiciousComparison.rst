@@ -18,7 +18,7 @@ Suspicious Comparison
 	:og:title: Suspicious Comparison
 	:og:type: article
 	:og:description: The comparison seems to be misplaced
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/SuspiciousComparison.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Suspicious Comparison.html
 	:og:locale: en
 The comparison seems to be misplaced.
 

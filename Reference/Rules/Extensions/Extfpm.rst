@@ -18,7 +18,7 @@ ext/fpm
 	:og:title: ext/fpm
 	:og:type: article
 	:og:description: Extension FPM, FastCGI Process Manager
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extfpm.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/fpm.html
 	:og:locale: en
 Extension FPM, FastCGI Process Manager.
 

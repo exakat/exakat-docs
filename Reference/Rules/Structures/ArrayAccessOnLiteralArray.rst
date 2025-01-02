@@ -18,7 +18,7 @@ Array Access On Literal Array
 	:og:title: Array Access On Literal Array
 	:og:type: article
 	:og:description: Accessing an element on a literal array makes that array non-reusable
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ArrayAccessOnLiteralArray.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Array Access On Literal Array.html
 	:og:locale: en
 Accessing an element on a literal array makes that array non-reusable. 
 

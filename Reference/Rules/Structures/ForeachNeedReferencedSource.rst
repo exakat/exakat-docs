@@ -18,7 +18,7 @@ Foreach Needs Reference Array
 	:og:title: Foreach Needs Reference Array
 	:og:type: article
 	:og:description: When using foreach with a reference as value, the source must be a referenced array, which is a variable (or array or property or static property)
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ForeachNeedReferencedSource.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Foreach Needs Reference Array.html
 	:og:locale: en
 When using foreach with a reference as value, the source must be a referenced array, which is a variable (or array or property or `static <https://www.php.net/manual/en/language.oop5.static.php>`_ property). 
 When the array is the `result <https://www.php.net/result>`_ of an expression, the array is not kept in memory after the foreach loop, and any change made with & are lost.

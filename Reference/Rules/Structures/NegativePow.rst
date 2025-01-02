@@ -18,7 +18,7 @@ Negative Power
 	:og:title: Negative Power
 	:og:type: article
 	:og:description: The power operator ** has higher precedence than the sign operators + and -
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/NegativePow.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Negative Power.html
 	:og:locale: en
 The power operator `** <https://www.php.net/manual/en/language.operators.arithmetic.php>`_ has higher precedence than the sign operators + and -.
 

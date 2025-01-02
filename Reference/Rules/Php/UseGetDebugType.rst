@@ -18,7 +18,7 @@ Use get_debug_type()
 	:og:title: Use get_debug_type()
 	:og:type: article
 	:og:description: get_debug_type() returns the given type of a variable
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/UseGetDebugType.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Use get_debug_type().html
 	:og:locale: en
 `get_debug_type() <https://www.php.net/get_debug_type>`_ returns the given type of a variable. It was introduced in PHP 8.0: this makes it incompatible with previous versions.
 

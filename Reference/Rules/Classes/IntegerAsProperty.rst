@@ -18,7 +18,7 @@ Integer As Property
 	:og:title: Integer As Property
 	:og:type: article
 	:og:description: It is backward incompatible to use integers are property names
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/IntegerAsProperty.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Integer As Property.html
 	:og:locale: en
 It is backward incompatible to use integers are property names. This feature was introduced in PHP 7.2.
 

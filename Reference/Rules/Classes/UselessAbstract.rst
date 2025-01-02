@@ -18,7 +18,7 @@ Useless Abstract Class
 	:og:title: Useless Abstract Class
 	:og:type: article
 	:og:description: Those classes are marked 'abstract' and they are never extended
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/UselessAbstract.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Useless Abstract Class.html
 	:og:locale: en
 Those classes are marked 'abstract' and they are never extended. This way, they won't be instantiated nor used. 
 

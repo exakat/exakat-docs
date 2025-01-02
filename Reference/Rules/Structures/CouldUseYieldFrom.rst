@@ -18,7 +18,7 @@ Could Use Yield From
 	:og:title: Could Use Yield From
 	:og:type: article
 	:og:description: ``Yield from`` can be applied to an array or another generator
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/CouldUseYieldFrom.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Could Use Yield From.html
 	:og:locale: en
 ``Yield from`` can be applied to an array or another `generator <https://www.php.net/`generator <https://www.php.net/generator>`_>`_. It replaces a loop and a ``yield`` call. The resulting syntax is shorter and faster.
 

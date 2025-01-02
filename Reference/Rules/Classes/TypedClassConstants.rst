@@ -18,7 +18,7 @@ Typed Class Constants Usage
 	:og:title: Typed Class Constants Usage
 	:og:type: article
 	:og:description: Class constants may be typed with the usual types, like a property or an argument
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/TypedClassConstants.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Typed Class Constants Usage.html
 	:og:locale: en
 Class constants may be typed with the usual types, like a property or an argument. 
 

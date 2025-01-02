@@ -18,7 +18,7 @@ Use File Append
 	:og:title: Use File Append
 	:og:type: article
 	:og:description: When appending data to a file, one may also use the file_put_contents() function with the ``FILE_APPEND`` option
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/UseFileAppend.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Use File Append.html
 	:og:locale: en
 When appending data to a file, one may also use the `file_put_contents() <https://www.php.net/file_put_contents>`_ function with the ``FILE_APPEND`` option. 
 

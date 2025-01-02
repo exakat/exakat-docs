@@ -18,7 +18,7 @@ Reuse Existing Variable
 	:og:title: Reuse Existing Variable
 	:og:type: article
 	:og:description: A variable is already holding the content that is calculated again : it could be used again
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ReuseVariable.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Reuse Existing Variable.html
 	:og:locale: en
 A variable is already holding the content that is calculated again : it could be used again. 
 

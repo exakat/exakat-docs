@@ -18,7 +18,7 @@ Accessing Private
 	:og:title: Accessing Private
 	:og:type: article
 	:og:description: List of calls to private properties/methods that will compile but yield some fatal error upon execution
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/AccessPrivate.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Accessing Private.html
 	:og:locale: en
 List of calls to private properties/methods that will compile but yield some fatal `error <https://www.php.net/error>`_ upon execution.
 

@@ -18,7 +18,7 @@ Property Variable Confusion
 	:og:title: Property Variable Confusion
 	:og:type: article
 	:og:description: Within a class, there is both a property and variables bearing the same name
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/PropertyVariableConfusion.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Property Variable Confusion.html
 	:og:locale: en
 Within a class, there is both a property and variables bearing the same name. 
 

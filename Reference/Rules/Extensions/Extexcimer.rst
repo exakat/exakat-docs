@@ -18,7 +18,7 @@ Excimer
 	:og:title: Excimer
 	:og:type: article
 	:og:description: Excimer is a PHP 7
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extexcimer.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Excimer.html
 	:og:locale: en
 Excimer is a PHP 7.1+ extension that provides an interrupting timer and a low-overhead sampling profiler.
 

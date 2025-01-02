@@ -18,7 +18,7 @@ Direct Injection
 	:og:title: Direct Injection
 	:og:type: article
 	:og:description: The following code act directly upon PHP incoming variables like ``$_GET`` and ``$_POST``
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Security/DirectInjection.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Direct Injection.html
 	:og:locale: en
 The following code act directly upon PHP incoming variables like ``$_GET`` and ``$_POST``. This makes those snippets very unsafe.
 

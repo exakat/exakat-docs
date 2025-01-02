@@ -18,7 +18,7 @@ Coalesce And Concat
 	:og:title: Coalesce And Concat
 	:og:type: article
 	:og:description: The concatenation operator ``
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/CoalesceAndConcat.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Coalesce And Concat.html
 	:og:locale: en
 The concatenation operator ``.`` has precedence over the coalesce operator ``??``. 
 

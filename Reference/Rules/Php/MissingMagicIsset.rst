@@ -18,7 +18,7 @@ Missing __isset() Method
 	:og:title: Missing __isset() Method
 	:og:type: article
 	:og:description: When using empty() on magic properties, the magic method __isset() must be implemented
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/MissingMagicIsset.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Missing __isset() Method.html
 	:og:locale: en
 When using empty() on magic properties, the magic method `__isset() <https://www.php.net/manual/en/language.oop5.magic.php>`_ must be implemented.
 

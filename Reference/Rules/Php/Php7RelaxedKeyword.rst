@@ -18,7 +18,7 @@ Php7 Relaxed Keyword
 	:og:title: Php7 Relaxed Keyword
 	:og:type: article
 	:og:description: Most of the traditional PHP keywords may be used inside classes, enums, traits and interfaces: they can be used as constant or method name
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/Php7RelaxedKeyword.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Php7 Relaxed Keyword.html
 	:og:locale: en
 Most of the traditional PHP keywords may be used inside classes, enums, traits and interfaces: they can be used as constant or method name. 
 

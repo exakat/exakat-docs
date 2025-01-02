@@ -18,7 +18,7 @@ Json_encode() Without Catching Exceptions
 	:og:title: Json_encode() Without Catching Exceptions
 	:og:type: article
 	:og:description: json_encode() and json_decode() should use the exception system, to detect invalid JSON syntax
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/JsonEncodeExceptions.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Json_encode() Without Catching Exceptions.html
 	:og:locale: en
 `json_encode() <https://www.php.net/json_encode>`_ and `json_decode() <https://www.php.net/json_decode>`_ should use the `exception <https://www.php.net/exception>`_ system, to detect invalid JSON syntax. 
 

@@ -18,7 +18,7 @@ ext/simplexml
 	:og:title: ext/simplexml
 	:og:type: article
 	:og:description: Extension ``SimpleXML``
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extsimplexml.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/simplexml.html
 	:og:locale: en
 Extension ``SimpleXML``.
 

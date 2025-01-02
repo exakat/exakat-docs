@@ -18,7 +18,7 @@ Too Long A Block
 	:og:title: Too Long A Block
 	:og:type: article
 	:og:description: The loop is operating on a block that is too long
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/LongBlock.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Too Long A Block.html
 	:og:locale: en
 The loop is operating on a block that is too long. 
 

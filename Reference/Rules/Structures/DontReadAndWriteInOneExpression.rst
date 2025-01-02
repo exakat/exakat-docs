@@ -18,7 +18,7 @@ Don't Read And Write In One Expression
 	:og:title: Don't Read And Write In One Expression
 	:og:type: article
 	:og:description: Avoid giving value and using it at the same time, in one expression
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/DontReadAndWriteInOneExpression.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Don't Read And Write In One Expression.html
 	:og:locale: en
 Avoid giving value and using it at the same time, in one expression. This is an undefined behavior of PHP, and may change without warning.
 

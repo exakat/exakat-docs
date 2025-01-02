@@ -18,7 +18,7 @@ Manipulates INF
 	:og:title: Manipulates INF
 	:og:type: article
 	:og:description: This code handles INF situations
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/IsINF.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Manipulates INF.html
 	:og:locale: en
 This code handles `INF <https://www.php.net/INF>`_ situations. `INF <https://www.php.net/INF>`_ represents the infinity, when used in a float context. It happens when a calculation returns a number that is much larger than the maximum allowed float (not integer), or a number that is not a Division by 0.
 

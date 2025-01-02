@@ -18,7 +18,7 @@ Php 8.0 Only TypeHints
 	:og:title: Php 8.0 Only TypeHints
 	:og:type: article
 	:og:description: Three scalar typehints are introduced in version 8
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/Php80OnlyTypeHints.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Php 8.0 Only TypeHints.html
 	:og:locale: en
 Three scalar typehints are introduced in version 8.0. They are ``mixed``, ``false`` and ``null``. 
 

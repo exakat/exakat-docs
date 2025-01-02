@@ -18,7 +18,7 @@ Named Regex
 	:og:title: Named Regex
 	:og:type: article
 	:og:description: Captured subpatterns may be named, for easier reference
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/NamedRegex.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Named Regex.html
 	:og:locale: en
 Captured subpatterns may be named, for easier reference. 
 

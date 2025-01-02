@@ -18,7 +18,7 @@ Wordpress usage
 	:og:title: Wordpress usage
 	:og:type: article
 	:og:description: This analysis reports usage of the Wordpress platform
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Vendors/Wordpress.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Wordpress usage.html
 	:og:locale: en
 This analysis reports usage of the Wordpress platform.
 

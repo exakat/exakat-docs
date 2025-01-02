@@ -18,7 +18,7 @@ Cyclic References
 	:og:title: Cyclic References
 	:og:type: article
 	:og:description: Avoid cyclic references
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/CyclicReferences.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Cyclic References.html
 	:og:locale: en
 Avoid cyclic references. 
 

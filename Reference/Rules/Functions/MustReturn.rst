@@ -18,7 +18,7 @@ Must Return Methods
 	:og:title: Must Return Methods
 	:og:type: article
 	:og:description: The following methods are expected to return a value that will be used later
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/MustReturn.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Must Return Methods.html
 	:og:locale: en
 The following methods are expected to return a value that will be used later. Without return, they are useless.
 

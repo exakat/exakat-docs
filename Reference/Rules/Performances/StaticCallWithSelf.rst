@@ -18,7 +18,7 @@ Static Call With Self
 	:og:title: Static Call With Self
 	:og:type: article
 	:og:description: Avoid using a static call on a non-static method
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Performances/StaticCallWithSelf.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Static Call With Self.html
 	:og:locale: en
 Avoid using a `static <https://www.php.net/manual/en/language.oop5.static.php>`_ call on a non-`static <https://www.php.net/manual/en/language.oop5.static.php>`_ method. 
 

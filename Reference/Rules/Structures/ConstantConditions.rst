@@ -18,7 +18,7 @@ Constant Conditions
 	:og:title: Constant Conditions
 	:og:type: article
 	:og:description: If/then structures that have constant condition
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ConstantConditions.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Constant Conditions.html
 	:og:locale: en
 If/then structures that have constant condition. 
 

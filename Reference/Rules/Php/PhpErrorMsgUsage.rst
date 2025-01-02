@@ -18,7 +18,7 @@ $php_errormsg Usage
 	:og:title: $php_errormsg Usage
 	:og:type: article
 	:og:description: The variable $php_errormsg is removed since PHP 8
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/PhpErrorMsgUsage.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/$php_errormsg Usage.html
 	:og:locale: en
 The variable $php_errormsg is removed since PHP 8.0. $php_errormsg tracks the last `error <https://www.php.net/error>`_ message, with the directive `track_errors`. All was removed in PHP 8.0, and shall be replaced with `error_get_last() <https://www.php.net/error_get_last>`_.
 

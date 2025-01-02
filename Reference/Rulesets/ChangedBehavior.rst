@@ -3,6 +3,21 @@
 Changed Behavior
 ++++++++++++++++
 
+.. meta::
+	:description:
+		Changed Behavior: Ruleset with all rules that identify changed behavior across PHP versions..
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Changed Behavior
+	:twitter:description: Changed Behavior: Ruleset with all rules that identify changed behavior across PHP versions.
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Changed Behavior
+	:og:type: article
+	:og:description: Ruleset with all rules that identify changed behavior across PHP versions.
+	:og:url: https://exakat.readthedocs.io/en/latest/Rulesets/Changed Behavior.html
+	:og:locale: en
 Ruleset with all rules that identify changed behavior across PHP versions. This means that some syntax behave differently, depending on PHP version.
 
 Total : 1441 analysis

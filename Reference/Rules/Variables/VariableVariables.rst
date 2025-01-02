@@ -18,7 +18,7 @@ Variable Variables
 	:og:title: Variable Variables
 	:og:type: article
 	:og:description: A variable variable takes the value of a variable and treats that as the name of a variable
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Variables/VariableVariables.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Variable Variables.html
 	:og:locale: en
 A variable variable takes the value of a variable and treats that as the name of a variable.
 

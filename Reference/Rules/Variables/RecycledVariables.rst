@@ -18,7 +18,7 @@ Recycled Variables
 	:og:title: Recycled Variables
 	:og:type: article
 	:og:description: A recycled variable is a variable used for two distinct missions in a method
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Variables/RecycledVariables.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Recycled Variables.html
 	:og:locale: en
 A recycled variable is a variable used for two distinct missions in a method. There is usually a first part, with its own initialization, then, later in the method, a second part with a new initialization and a distinct usage of the variable. 
 

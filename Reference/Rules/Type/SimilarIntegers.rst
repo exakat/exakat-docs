@@ -18,7 +18,7 @@ Similar Integers
 	:og:title: Similar Integers
 	:og:type: article
 	:og:description: This analysis reports all integer values that are expressed in different format
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Type/SimilarIntegers.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Similar Integers.html
 	:og:locale: en
 This analysis reports all integer values that are expressed in different format.
 

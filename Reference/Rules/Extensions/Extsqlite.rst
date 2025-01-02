@@ -18,7 +18,7 @@ ext/sqlite
 	:og:title: ext/sqlite
 	:og:type: article
 	:og:description: Extension Sqlite 2
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extsqlite.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/sqlite.html
 	:og:locale: en
 Extension Sqlite 2.
 

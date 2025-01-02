@@ -18,7 +18,7 @@ $this Belongs To Classes Or Traits
 	:og:title: $this Belongs To Classes Or Traits
 	:og:type: article
 	:og:description: The pseudo-variable $this must be used inside a class or trait, or bound closures
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/ThisIsForClasses.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/$this Belongs To Classes Or Traits.html
 	:og:locale: en
 The pseudo-variable `$this <https://www.php.net/manual/en/language.oop5.basic.php>`_ must be used inside a class or trait, or bound closures. 
 

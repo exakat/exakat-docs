@@ -18,7 +18,7 @@ No Empty String With explode()
 	:og:title: No Empty String With explode()
 	:og:type: article
 	:og:description: explode() doesn't allow empty strings as separator
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/NoEmptyStringWithExplode.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No Empty String With explode().html
 	:og:locale: en
 `explode() <https://www.php.net/explode>`_ doesn't allow empty strings as separator. Until PHP 8.0, it would make a warning, and return false. After that version, it raises a `ValueError <https://www.php.net/valueerror>`_.
 

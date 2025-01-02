@@ -18,7 +18,7 @@ Could Use Short Assignation
 	:og:title: Could Use Short Assignation
 	:og:type: article
 	:og:description: Use short assignment operator, to speed up code, and keep syntax clear
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/CouldUseShortAssignation.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Could Use Short Assignation.html
 	:og:locale: en
 Use short assignment operator, to speed up code, and keep syntax clear.
 

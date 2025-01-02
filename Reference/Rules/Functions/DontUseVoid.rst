@@ -18,7 +18,7 @@ Don't Collect Void
 	:og:title: Don't Collect Void
 	:og:type: article
 	:og:description: When a method has the return type void, there is no need to collect the result
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/DontUseVoid.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Don't Collect Void.html
 	:og:locale: en
 When a method has the return type void, there is no need to collect the `result <https://www.php.net/result>`_. The collected value is always ``null``.
 

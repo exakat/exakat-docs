@@ -18,7 +18,7 @@ No mb_substr In Loop
 	:og:title: No mb_substr In Loop
 	:og:type: article
 	:og:description: Do not use loops on mb_substr()
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Performances/MbStringInLoop.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No mb_substr In Loop.html
 	:og:locale: en
 Do not use loops on `mb_substr() <https://www.php.net/mb_substr>`_. 
 

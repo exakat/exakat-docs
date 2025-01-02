@@ -18,7 +18,7 @@ Unitialized Properties
 	:og:title: Unitialized Properties
 	:og:type: article
 	:og:description: Properties that are not initialized in the constructor, nor at definition
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/UnitializedProperties.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Unitialized Properties.html
 	:og:locale: en
 Properties that are not initialized in the constructor, nor at definition. 
 

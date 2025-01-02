@@ -18,7 +18,7 @@ Fallback Function
 	:og:title: Fallback Function
 	:og:type: article
 	:og:description: This rule reports functions that are called with its name alone, and whose definition is in the global scope
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/FallbackFunction.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Fallback Function.html
 	:og:locale: en
 This rule reports functions that are called with its name alone, and whose definition is in the global scope. Such syntax relies on the fallback mechanism of PHP, which search for functions in the local namespace, then in the global namespace, before failing.
 

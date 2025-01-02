@@ -18,7 +18,7 @@ Collect Static Class Changes
 	:og:title: Collect Static Class Changes
 	:og:type: article
 	:og:description: Collects changes to constants, methods and properties, within a class hierarchy
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/CollectClassChanges.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Collect Static Class Changes.html
 	:og:locale: en
 Collects changes to constants, methods and properties, within a class hierarchy. It reports changes in visibility, type and values for constants; visibility, type and values for properties.
 

@@ -18,7 +18,7 @@ Uninitialized Property
 	:og:title: Uninitialized Property
 	:og:type: article
 	:og:description: Uninitialized properties are not fully bootstrapped at the end of the constructor
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/UninitedProperty.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Uninitialized Property.html
 	:og:locale: en
 Uninitialized properties are not fully bootstrapped at the end of the constructor. 
 

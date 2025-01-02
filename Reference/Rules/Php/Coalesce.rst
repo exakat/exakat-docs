@@ -18,7 +18,7 @@ Coalesce
 	:og:title: Coalesce
 	:og:type: article
 	:og:description: Usage of coalesce operator
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/Coalesce.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Coalesce.html
 	:og:locale: en
 Usage of coalesce operator.
 

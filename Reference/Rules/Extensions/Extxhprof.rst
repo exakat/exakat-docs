@@ -18,7 +18,7 @@ ext/xhprof
 	:og:title: ext/xhprof
 	:og:type: article
 	:og:description: Extension xhprof
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extxhprof.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/xhprof.html
 	:og:locale: en
 Extension xhprof.
 

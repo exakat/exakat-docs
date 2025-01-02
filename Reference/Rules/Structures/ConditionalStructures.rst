@@ -18,7 +18,7 @@ Conditional Structures
 	:og:title: Conditional Structures
 	:og:type: article
 	:og:description: Structures that are defined, but only executed conditionally
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ConditionalStructures.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Conditional Structures.html
 	:og:locale: en
 Structures that are defined, but only executed conditionally.
 

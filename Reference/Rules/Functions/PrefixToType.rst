@@ -18,7 +18,7 @@ Prefix And Suffixes With Typehint
 	:og:title: Prefix And Suffixes With Typehint
 	:og:type: article
 	:og:description: This analysis checks the relationship between methods prefixes and suffixes, with their corresponding return typehint
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/PrefixToType.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Prefix And Suffixes With Typehint.html
 	:og:locale: en
 This analysis checks the relationship between methods prefixes and suffixes, with their corresponding return typehint.
 

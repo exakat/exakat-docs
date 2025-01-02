@@ -18,7 +18,7 @@ Const Visibility Usage
 	:og:title: Const Visibility Usage
 	:og:type: article
 	:og:description: Visibility for class constant controls the accessibility to class constant
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/ConstVisibilityUsage.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Const Visibility Usage.html
 	:og:locale: en
 Visibility for class constant controls the accessibility to class constant.
 

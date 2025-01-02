@@ -18,7 +18,7 @@ Constants In Traits
 	:og:title: Constants In Traits
 	:og:type: article
 	:og:description: Traits may have their own constants
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Traits/ConstantsInTraits.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Constants In Traits.html
 	:og:locale: en
 Traits may have their own constants. This feature was introduced in PHP 8.2 and is not backward compatible.
 

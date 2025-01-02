@@ -18,7 +18,7 @@ Is An Extension Class
 	:og:title: Is An Extension Class
 	:og:type: article
 	:og:description: Those classes belongs to a PHP Extensions
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/IsExtClass.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Is An Extension Class.html
 	:og:locale: en
 Those classes belongs to a PHP Extensions.
 

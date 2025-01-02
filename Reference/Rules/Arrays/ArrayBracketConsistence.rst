@@ -18,7 +18,7 @@ Array() / [  ] Consistence
 	:og:title: Array() / [  ] Consistence
 	:og:type: article
 	:og:description: array() or [ ] is the favorite
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Arrays/ArrayBracketConsistence.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Array() / [  ] Consistence.html
 	:og:locale: en
 `array() <https://www.php.net/array>`_ or [ ] is the favorite.
 

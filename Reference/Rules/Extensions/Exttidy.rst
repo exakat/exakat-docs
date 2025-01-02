@@ -18,7 +18,7 @@ ext/tidy
 	:og:title: ext/tidy
 	:og:type: article
 	:og:description: Extension Tidy
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Exttidy.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/tidy.html
 	:og:locale: en
 Extension `Tidy <https://www.php.net/tidy>`_.
 

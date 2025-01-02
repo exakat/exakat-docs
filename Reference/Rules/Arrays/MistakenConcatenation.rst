@@ -18,7 +18,7 @@ Mistaken Concatenation
 	:og:title: Mistaken Concatenation
 	:og:type: article
 	:og:description: A unexpected structure is built for initialization
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Arrays/MistakenConcatenation.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Mistaken Concatenation.html
 	:og:locale: en
 A unexpected structure is built for initialization. It may be a typo that creates an unwanted expression.
 

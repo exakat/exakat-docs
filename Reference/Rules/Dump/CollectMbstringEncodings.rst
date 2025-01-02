@@ -18,7 +18,7 @@ Collect Mbstring Encodings
 	:og:title: Collect Mbstring Encodings
 	:og:type: article
 	:og:description: This analysis collects the encoding names, used by ext/mb functions
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/CollectMbstringEncodings.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Collect Mbstring Encodings.html
 	:og:locale: en
 This analysis collects the encoding names, used by ext/mb functions.
 

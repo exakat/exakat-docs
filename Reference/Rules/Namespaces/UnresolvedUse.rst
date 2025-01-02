@@ -18,7 +18,7 @@ Unresolved Use
 	:og:title: Unresolved Use
 	:og:type: article
 	:og:description: The following use instructions cannot be resolved to a known class, interface, trait, constant or function
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Namespaces/UnresolvedUse.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Unresolved Use.html
 	:og:locale: en
 The following use instructions cannot be resolved to a known class, interface, trait, constant or function. They should be dropped or fixed.
 

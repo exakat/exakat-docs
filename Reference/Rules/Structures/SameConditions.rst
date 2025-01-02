@@ -18,7 +18,7 @@ Same Conditions In Condition
 	:og:title: Same Conditions In Condition
 	:og:type: article
 	:og:description: At least two consecutive if/then structures use identical conditions
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/SameConditions.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Same Conditions In Condition.html
 	:og:locale: en
 At least two consecutive if/then structures use identical conditions. The latter will probably be ignored.
 

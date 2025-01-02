@@ -18,7 +18,7 @@ PSR-11 Usage
 	:og:title: PSR-11 Usage
 	:og:type: article
 	:og:description: PSR-11 describes a common interface for dependency injection containers
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Psr/Psr11Usage.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/PSR-11 Usage.html
 	:og:locale: en
 PSR-11 describes a common interface for dependency injection containers.
 

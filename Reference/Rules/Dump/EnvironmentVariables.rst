@@ -18,7 +18,7 @@ Environment Variables
 	:og:title: Environment Variables
 	:og:type: article
 	:og:description: Collect all used Environment variables
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/EnvironmentVariables.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Environment Variables.html
 	:og:locale: en
 Collect all used Environment variables.
 

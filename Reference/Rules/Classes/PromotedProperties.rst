@@ -18,7 +18,7 @@ Promoted Properties
 	:og:title: Promoted Properties
 	:og:type: article
 	:og:description: Promoted properties is a way to declare the properties within the constructor, and have them assigned to the constructing value at instantiation
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/PromotedProperties.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Promoted Properties.html
 	:og:locale: en
 Promoted properties is a way to declare the properties within the constructor, and have them assigned to the constructing value at instantiation.
 

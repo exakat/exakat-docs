@@ -18,7 +18,7 @@ Real Variables
 	:og:title: Real Variables
 	:og:type: article
 	:og:description: Inventory of real variables
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Variables/RealVariables.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Real Variables.html
 	:og:locale: en
 Inventory of real variables. Global, `Static <https://www.php.net/manual/en/language.oop5.static.php>`_ and property declarations are skipped here. 
 This is a refined version of a search on ``T_VARIABLE`` token.

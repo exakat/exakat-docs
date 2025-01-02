@@ -18,7 +18,7 @@ No Valid Cast
 	:og:title: No Valid Cast
 	:og:type: article
 	:og:description: This cast generates an error, as there is no way to convert an object to an int
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/NoValidCast.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No Valid Cast.html
 	:og:locale: en
 This cast generates an `error <https://www.php.net/error>`_, as there is no way to convert an object to an int. 
 

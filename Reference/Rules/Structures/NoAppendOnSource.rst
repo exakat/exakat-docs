@@ -18,7 +18,7 @@ No Append On Source
 	:og:title: No Append On Source
 	:og:type: article
 	:og:description: Do not append new elements to an array in a foreach loop
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/NoAppendOnSource.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No Append On Source.html
 	:og:locale: en
 Do not append new elements to an array in a foreach loop. Since PHP 7.0, the array is still used as a source, and will be augmented, and used again. 
 Thanks to `Frederic Bouchery <https://twitter.com/FredBouchery/>`_ for the reminder.

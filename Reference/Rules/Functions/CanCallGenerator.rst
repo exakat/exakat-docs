@@ -18,7 +18,7 @@ Can't Call Generator
 	:og:title: Can't Call Generator
 	:og:type: article
 	:og:description: It is not possible to call directly a generator: a generator is a method that uses the ``yield`` or ``yield from`` keyword
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/CanCallGenerator.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Can't Call Generator.html
 	:og:locale: en
 It is not possible to call directly a generator: a `generator <https://www.php.net/`generator <https://www.php.net/generator>`_>`_ is a method that uses the ``yield`` or ``yield from`` keyword. 
 

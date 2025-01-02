@@ -18,7 +18,7 @@ Has Property Hook
 	:og:title: Has Property Hook
 	:og:type: article
 	:og:description: The analyzed code makes use of property hook
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/HasPropertyHook.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Has Property Hook.html
 	:og:locale: en
 The analyzed code makes use of property hook. They were introduced in PHP 8.4.
 

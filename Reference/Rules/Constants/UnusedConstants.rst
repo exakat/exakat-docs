@@ -18,7 +18,7 @@ Unused Constants
 	:og:title: Unused Constants
 	:og:type: article
 	:og:description: Those constants are defined in the code but never used
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Constants/UnusedConstants.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Unused Constants.html
 	:og:locale: en
 Those constants are defined in the code but never used. Defining unused constants slow down the application, as they are executed and stored in PHP hashtables. 
 It is recommended to comment them out, and only define them when it is necessary.

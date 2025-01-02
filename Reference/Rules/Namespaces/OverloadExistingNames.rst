@@ -18,7 +18,7 @@ Overload Existing Names
 	:og:title: Overload Existing Names
 	:og:type: article
 	:og:description: Imported alias have precedence over existing ones, and as such, may replace existing features with unexpected ones
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Namespaces/OverloadExistingNames.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Overload Existing Names.html
 	:og:locale: en
 Imported alias have precedence over existing ones, and as such, may replace existing features with unexpected ones. 
 

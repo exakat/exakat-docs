@@ -18,7 +18,7 @@ Definitions Only
 	:og:title: Definitions Only
 	:og:type: article
 	:og:description: File is definition only
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Files/DefinitionsOnly.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Definitions Only.html
 	:og:locale: en
 File is definition only.
 

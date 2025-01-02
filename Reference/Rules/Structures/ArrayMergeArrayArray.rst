@@ -18,7 +18,7 @@ Array_merge Needs Array Of Arrays
 	:og:title: Array_merge Needs Array Of Arrays
 	:og:type: article
 	:og:description: When collecting data to feed array_merge(), use an array of array as default value
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ArrayMergeArrayArray.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Array_merge Needs Array Of Arrays.html
 	:og:locale: en
 When collecting data to feed `array_merge() <https://www.php.net/array_merge>`_, use an array of array as default value. ```array(`array()) <https://www.php.net/array>`_``` is the neutral value for `array_merge() <https://www.php.net/array_merge>`_;
 

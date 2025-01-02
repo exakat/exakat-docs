@@ -18,7 +18,7 @@ Useless Unset
 	:og:title: Useless Unset
 	:og:type: article
 	:og:description: There are situations where trying to remove a variable is actually useless
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/UselessUnset.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Useless Unset.html
 	:og:locale: en
 There are situations where trying to remove a variable is actually useless. 
 

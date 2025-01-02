@@ -18,7 +18,7 @@ Constant Typo Looks Like A Variable
 	:og:title: Constant Typo Looks Like A Variable
 	:og:type: article
 	:og:description: A constant bears the same name as a variable
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Variables/ConstantTypo.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Constant Typo Looks Like A Variable.html
 	:og:locale: en
 A constant bears the same name as a variable. This might be a typo.
 

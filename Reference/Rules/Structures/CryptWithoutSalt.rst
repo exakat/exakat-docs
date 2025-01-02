@@ -18,7 +18,7 @@ crypt() Without Salt
 	:og:title: crypt() Without Salt
 	:og:type: article
 	:og:description: PHP requires a salt when calling crypt()
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/CryptWithoutSalt.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/crypt() Without Salt.html
 	:og:locale: en
 PHP requires a salt when calling `crypt() <https://www.php.net/crypt>`_. 5.5 and previous versions didn't require it. Salt is a simple string, that is usually only known by the application.
 

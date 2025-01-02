@@ -18,7 +18,7 @@ ext/snmp
 	:og:title: ext/snmp
 	:og:type: article
 	:og:description: Extension SNMP
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extsnmp.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/snmp.html
 	:og:locale: en
 Extension `SNMP <https://www.php.net/SNMP>`_.
 

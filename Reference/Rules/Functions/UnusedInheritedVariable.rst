@@ -18,7 +18,7 @@ Unused Inherited Variable In Closure
 	:og:title: Unused Inherited Variable In Closure
 	:og:type: article
 	:og:description: Some closures forgot to make usage of inherited variables
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/UnusedInheritedVariable.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Unused Inherited Variable In Closure.html
 	:og:locale: en
 Some closures forgot to make usage of inherited variables.
 

@@ -18,7 +18,7 @@ Global Import
 	:og:title: Global Import
 	:og:type: article
 	:og:description: This rule marks a ``use`` statement that imports a global class in the current file
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Namespaces/GlobalImport.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Global Import.html
 	:og:locale: en
 This rule marks a ``use`` statement that imports a global class in the current file.
 

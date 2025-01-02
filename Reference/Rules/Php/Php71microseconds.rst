@@ -18,7 +18,7 @@ PHP 7.1 Microseconds
 	:og:title: PHP 7.1 Microseconds
 	:og:type: article
 	:og:description: PHP supports microseconds in ``DateTime`` class and date_create() function
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/Php71microseconds.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/PHP 7.1 Microseconds.html
 	:og:locale: en
 PHP supports microseconds in ``DateTime`` class and `date_create() <https://www.php.net/date_create>`_ function. This was introduced in PHP 7.1.
 

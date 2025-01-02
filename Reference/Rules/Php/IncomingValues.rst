@@ -18,7 +18,7 @@ Incoming Values
 	:og:title: Incoming Values
 	:og:type: article
 	:og:description: The names of the variables that are passed via the superglobals
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/IncomingValues.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Incoming Values.html
 	:og:locale: en
 The names of the variables that are passed via the superglobals.
 

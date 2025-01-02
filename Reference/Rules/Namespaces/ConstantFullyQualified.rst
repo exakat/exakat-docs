@@ -18,7 +18,7 @@ Fully Qualified Constants
 	:og:title: Fully Qualified Constants
 	:og:type: article
 	:og:description: Constants defined with their namespace
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Namespaces/ConstantFullyQualified.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Fully Qualified Constants.html
 	:og:locale: en
 Constants defined with their namespace.
 

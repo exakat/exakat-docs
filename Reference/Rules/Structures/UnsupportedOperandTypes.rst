@@ -18,7 +18,7 @@ Unsupported Operand Types
 	:og:title: Unsupported Operand Types
 	:og:type: article
 	:og:description: This error is raised when trying to combine an array and a scalar value
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/UnsupportedOperandTypes.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Unsupported Operand Types.html
 	:og:locale: en
 This `error <https://www.php.net/error>`_ is raised when trying to combine an array and a scalar value. 
 

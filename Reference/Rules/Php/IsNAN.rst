@@ -18,7 +18,7 @@ Manipulates NaN
 	:og:title: Manipulates NaN
 	:og:type: article
 	:og:description: This code handles ``Not-a-Number`` situations
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/IsNAN.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Manipulates NaN.html
 	:og:locale: en
 This code handles ``Not-a-Number`` situations. ``Not-a-Number``, also called ``NaN``, happens when a calculation can't return an actual float.
 

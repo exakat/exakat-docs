@@ -18,7 +18,7 @@ Continue Is For Loop
 	:og:title: Continue Is For Loop
 	:og:type: article
 	:og:description: break and continue are very similar in PHP : they both break out of loop or switch
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ContinueIsForLoop.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Continue Is For Loop.html
 	:og:locale: en
 `break <https://www.php.net/manual/en/control-structures.break.php>`_ and `continue <https://www.php.net/manual/en/control-structures.continue.php>`_ are very similar in PHP : they both `break <https://www.php.net/manual/en/control-structures.break.php>`_ out of loop or switch. Yet, `continue <https://www.php.net/manual/en/control-structures.continue.php>`_ should be reserved for loops.
 

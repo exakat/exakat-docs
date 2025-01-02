@@ -18,7 +18,7 @@ idn_to_ascii() New Default
 	:og:title: idn_to_ascii() New Default
 	:og:type: article
 	:og:description: The default parameter value of idn_to_ascii() and idn_to_utf8() is now `INTL_IDNA_VARIANT_UTS46` instead of the deprecated ``INTL_IDNA_VARIANT_2003``
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/IdnUts46.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/idn_to_ascii() New Default.html
 	:og:locale: en
 The default parameter value of `idn_to_ascii() <https://www.php.net/idn_to_ascii>`_ and `idn_to_utf8() <https://www.php.net/idn_to_utf8>`_ is now `INTL_IDNA_VARIANT_UTS46` instead of the deprecated ``INTL_IDNA_VARIANT_2003``.
 

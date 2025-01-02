@@ -18,7 +18,7 @@ No Direct Usage Of Returned Value
 	:og:title: No Direct Usage Of Returned Value
 	:og:type: article
 	:og:description: The results of the following functions shouldn't be used directly, but checked first
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/NoDirectUsage.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No Direct Usage Of Returned Value.html
 	:og:locale: en
 The results of the following functions shouldn't be used directly, but checked first. 
 

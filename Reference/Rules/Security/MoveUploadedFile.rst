@@ -18,7 +18,7 @@ move_uploaded_file Instead Of copy
 	:og:title: move_uploaded_file Instead Of copy
 	:og:type: article
 	:og:description: Always use move_uploaded_file() with uploaded files
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Security/MoveUploadedFile.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/move_uploaded_file Instead Of copy.html
 	:og:locale: en
 Always use `move_uploaded_file() <https://www.php.net/move_uploaded_file>`_ with uploaded files. Avoid using copy or rename with uploaded file. 
 

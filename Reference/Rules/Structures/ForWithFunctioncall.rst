@@ -18,7 +18,7 @@ For Using Functioncall
 	:og:title: For Using Functioncall
 	:og:type: article
 	:og:description: It is recommended to avoid functioncall in the for() statement
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ForWithFunctioncall.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/For Using Functioncall.html
 	:og:locale: en
 It is recommended to avoid functioncall in the `for() <https://www.php.net/manual/en/control-structures.for.php>`_ statement. 
 

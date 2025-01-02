@@ -18,7 +18,7 @@ ext/spx
 	:og:title: ext/spx
 	:og:type: article
 	:og:description: SPX, which stands for Simple Profiling eXtension, is just another profiling extension for PHP
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extspx.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/spx.html
 	:og:locale: en
 SPX, which stands for Simple Profiling eXtension, is just another profiling extension for PHP.
 

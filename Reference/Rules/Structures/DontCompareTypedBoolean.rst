@@ -18,7 +18,7 @@ Avoid Compare Typed Boolean
 	:og:title: Avoid Compare Typed Boolean
 	:og:type: article
 	:og:description: There is no need to compare explicitly a function call to a boolean, when the definition has a boolean return type
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/DontCompareTypedBoolean.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Avoid Compare Typed Boolean.html
 	:og:locale: en
 There is no need to compare explicitly a function call to a boolean, when the definition has a boolean return type.
 

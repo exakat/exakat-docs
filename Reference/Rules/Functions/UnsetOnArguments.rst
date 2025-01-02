@@ -18,7 +18,7 @@ Unset Arguments
 	:og:title: Unset Arguments
 	:og:type: article
 	:og:description: There is no need to unset arguments
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/UnsetOnArguments.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Unset Arguments.html
 	:og:locale: en
 There is no need to unset arguments. Those values will be freed at the end of the function anyhow.
 

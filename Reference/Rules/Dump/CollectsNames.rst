@@ -18,7 +18,7 @@ Collects Names
 	:og:title: Collects Names
 	:og:type: article
 	:og:description: Collects the names used in the code
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/CollectsNames.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Collects Names.html
 	:og:locale: en
 Collects the names used in the code. Names are extracted from namespaces, classes, interfaces, traits, enumerations, variables (parameter and local variable), properties, constants, methods, functions, use expression (with as). 
 

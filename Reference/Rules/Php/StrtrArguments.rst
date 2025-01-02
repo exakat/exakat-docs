@@ -18,7 +18,7 @@ Strtr Arguments
 	:og:title: Strtr Arguments
 	:og:type: article
 	:og:description: Strtr() replaces characters by others in a string
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/StrtrArguments.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Strtr Arguments.html
 	:og:locale: en
 `Strtr() <https://www.php.net/strtr>`_ replaces characters by others in a string. When using strings, `strtr() <https://www.php.net/strtr>`_ replaces characters as long as they have a replacement. All others are ignored.
 

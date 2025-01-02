@@ -18,7 +18,7 @@ Swapped Arguments
 	:og:title: Swapped Arguments
 	:og:type: article
 	:og:description: Overwritten methods must be compatible, but argument names is not part of that compatibility
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/SwappedArguments.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Swapped Arguments.html
 	:og:locale: en
 Overwritten methods must be compatible, but argument names is not part of that compatibility.
 

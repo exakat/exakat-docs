@@ -18,7 +18,7 @@ Makes Class Constant Definition
 	:og:title: Makes Class Constant Definition
 	:og:type: article
 	:og:description: This rule adds DEFINITION link between class constant definitions and their usage
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Complete/MakeClassConstantDefinition.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Makes Class Constant Definition.html
 	:og:locale: en
 This rule adds DEFINITION link between class constant definitions and their usage. These links are used later to identify the values delivered by the constant.
 

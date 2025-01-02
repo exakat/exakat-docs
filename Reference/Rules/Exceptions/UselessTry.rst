@@ -18,7 +18,7 @@ Useless Try
 	:og:title: Useless Try
 	:og:type: article
 	:og:description: Report try clause that are useless
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Exceptions/UselessTry.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Useless Try.html
 	:og:locale: en
 Report try clause that are useless. A try clause is useless when no `exception <https://www.php.net/exception>`_ is emitted by the code in the block. 
 

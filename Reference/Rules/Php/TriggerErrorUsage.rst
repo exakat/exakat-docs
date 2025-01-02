@@ -18,7 +18,7 @@ Trigger Errors
 	:og:title: Trigger Errors
 	:og:type: article
 	:og:description: List of situations where user errors are triggered
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/TriggerErrorUsage.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Trigger Errors.html
 	:og:locale: en
 List of situations where user errors are triggered.
 

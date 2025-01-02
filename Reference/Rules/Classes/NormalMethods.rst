@@ -18,7 +18,7 @@ Normal Methods
 	:og:title: Normal Methods
 	:og:type: article
 	:og:description: Spot normal Methods
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/NormalMethods.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Normal Methods.html
 	:og:locale: en
 Spot normal Methods.
 

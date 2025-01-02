@@ -18,7 +18,7 @@ Collect Block Size
 	:og:title: Collect Block Size
 	:og:type: article
 	:og:description: Collect block size for instructions such as for, foreach, while, do
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/CollectBlockSize.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Collect Block Size.html
 	:og:locale: en
 Collect block size for instructions such as for, foreach, while, do...while, ifthen.
 

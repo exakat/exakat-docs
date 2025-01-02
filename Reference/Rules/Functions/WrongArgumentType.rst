@@ -18,7 +18,7 @@ Wrong Argument Type
 	:og:title: Wrong Argument Type
 	:og:type: article
 	:og:description: Checks that the type of the argument is consistent with the type of the called method
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/WrongArgumentType.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Wrong Argument Type.html
 	:og:locale: en
 Checks that the type of the argument is consistent with the type of the called method.
 This analysis is valid with PHP 8.0.

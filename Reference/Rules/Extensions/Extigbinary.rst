@@ -18,7 +18,7 @@ ext/igbinary
 	:og:title: ext/igbinary
 	:og:type: article
 	:og:description: Extension igbinary
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extigbinary.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/igbinary.html
 	:og:locale: en
 Extension igbinary. 
 

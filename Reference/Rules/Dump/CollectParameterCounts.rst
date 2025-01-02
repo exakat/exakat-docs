@@ -18,7 +18,7 @@ Collect Parameter Counts
 	:og:title: Collect Parameter Counts
 	:og:type: article
 	:og:description: This analysis collects the number of parameter per method
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/CollectParameterCounts.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Collect Parameter Counts.html
 	:og:locale: en
 This analysis collects the number of parameter per method. 
 

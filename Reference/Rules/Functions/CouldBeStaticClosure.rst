@@ -18,7 +18,7 @@ Could Be Static Closure
 	:og:title: Could Be Static Closure
 	:og:type: article
 	:og:description: Closure and arrow functions may be static, and prevent the import of ``$this``
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/CouldBeStaticClosure.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Could Be Static Closure.html
 	:og:locale: en
 `Closure <https://www.php.net/manual/en/class.`closure <https://www.php.net/closure>`_.php>`_ and arrow functions may be `static <https://www.php.net/manual/en/language.oop5.static.php>`_, and prevent the import of ``$this``. 
 

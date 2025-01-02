@@ -18,7 +18,7 @@ Fossilized Methods List
 	:og:title: Fossilized Methods List
 	:og:type: article
 	:og:description: This is the list of fossilized methods
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/FossilizedMethods.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Fossilized Methods List.html
 	:og:locale: en
 This is the list of fossilized methods. Those methods appears when they get tightly couple with a child or `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ class, and cannot evolve anymore without making the rest of the family evolve also. They are now very difficult to update and usually, become inert.
 

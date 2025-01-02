@@ -18,7 +18,7 @@ PHP Native Interfaces and Return Type
 	:og:title: PHP Native Interfaces and Return Type
 	:og:type: article
 	:og:description: Native PHP interface which define a type, expect the derived methods to use the same time
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/JsonSerializeReturnType.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/PHP Native Interfaces and Return Type.html
 	:og:locale: en
 Native PHP interface which define a type, expect the derived methods to use the same time. In particular, a mixed return type was added to the jsonSerialize() of the JsonSerialize PHP interface. 
 

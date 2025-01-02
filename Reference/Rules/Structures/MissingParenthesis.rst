@@ -18,7 +18,7 @@ Missing Parenthesis
 	:og:title: Missing Parenthesis
 	:og:type: article
 	:og:description: Adding parenthesis to addition expressions make them more readable and to prevent bugs
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/MissingParenthesis.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Missing Parenthesis.html
 	:og:locale: en
 Adding parenthesis to addition expressions make them more readable and to prevent bugs. 
 

@@ -18,7 +18,7 @@ Make One Call With Array
 	:og:title: Make One Call With Array
 	:og:type: article
 	:og:description: Avoid calling the same functions several times by batching the calls with arrays
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Performances/MakeOneCall.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Make One Call With Array.html
 	:og:locale: en
 Avoid calling the same functions several times by batching the calls with arrays.
 

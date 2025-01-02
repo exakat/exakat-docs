@@ -18,7 +18,7 @@ Ambiguous Static
 	:og:title: Ambiguous Static
 	:og:type: article
 	:og:description: Methods or properties with the same name, are defined static in one class, and not static in another
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/AmbiguousStatic.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Ambiguous Static.html
 	:og:locale: en
 Methods or properties with the same name, are defined `static <https://www.php.net/manual/en/language.oop5.static.php>`_ in one class, and not `static <https://www.php.net/manual/en/language.oop5.static.php>`_ in another. This is `error <https://www.php.net/error>`_ prone, as it requires a good knowledge of the code to make it `static <https://www.php.net/manual/en/language.oop5.static.php>`_ or not. 
 

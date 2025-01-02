@@ -18,7 +18,7 @@ Conditioned Constants
 	:og:title: Conditioned Constants
 	:og:type: article
 	:og:description: This rule indicates when a constant is defined if a condition is met
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Constants/ConditionedConstants.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Conditioned Constants.html
 	:og:locale: en
 This rule indicates when a constant is defined if a condition is met. Several definitions of a global constant are possible in the code: using conditions, it is possible to have only one defined during execution.
 

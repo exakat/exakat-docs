@@ -18,7 +18,7 @@ Dynamic New
 	:og:title: Dynamic New
 	:og:type: article
 	:og:description: Dynamic instantiation of classes
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/DynamicNew.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Dynamic New.html
 	:og:locale: en
 Dynamic instantiation of classes. It happens when the name of the class is an executable expression, and, as such, only known at execution time.
 

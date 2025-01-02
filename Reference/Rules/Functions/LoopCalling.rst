@@ -18,7 +18,7 @@ Functions In Loop Calls
 	:og:title: Functions In Loop Calls
 	:og:type: article
 	:og:description: The following functions call each-other in a loop fashion : A -> B -> A
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/LoopCalling.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Functions In Loop Calls.html
 	:og:locale: en
 The following functions call each-other in a loop fashion : A -> B -> A.
 

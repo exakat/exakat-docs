@@ -18,7 +18,7 @@ Use Array Functions
 	:og:title: Use Array Functions
 	:og:type: article
 	:og:description: There are a lot of native PHP functions for arrays
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/UseArrayFunctions.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Use Array Functions.html
 	:og:locale: en
 There are a lot of native PHP functions for arrays. It is often faster to take advantage of them than write a loop.
 

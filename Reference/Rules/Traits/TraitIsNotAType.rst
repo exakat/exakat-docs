@@ -18,7 +18,7 @@ Trait Is Not A Type
 	:og:title: Trait Is Not A Type
 	:og:type: article
 	:og:description: A trait cannot be used for typing
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Traits/TraitIsNotAType.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Trait Is Not A Type.html
 	:og:locale: en
 A trait cannot be used for typing. It is used by a classes, and those classes should be used for typing.
 

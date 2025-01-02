@@ -18,7 +18,7 @@ ext/apache
 	:og:title: ext/apache
 	:og:type: article
 	:og:description: Extension Apache
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extapache.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/apache.html
 	:og:locale: en
 Extension Apache.
 

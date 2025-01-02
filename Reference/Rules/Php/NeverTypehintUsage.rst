@@ -18,7 +18,7 @@ Never Typehint Usage
 	:og:title: Never Typehint Usage
 	:og:type: article
 	:og:description: Never is a typehint, which characterize methods that never return a value
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/NeverTypehintUsage.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Never Typehint Usage.html
 	:og:locale: en
 Never is a typehint, which characterize methods that never return a value. It will either terminate the execution or throw an `exception <https://www.php.net/exception>`_.
 

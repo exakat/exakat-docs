@@ -18,7 +18,7 @@ Short Syntax For Arrays
 	:og:title: Short Syntax For Arrays
 	:og:type: article
 	:og:description: Arrays written with the new short syntax
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Arrays/ArrayNSUsage.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Short Syntax For Arrays.html
 	:og:locale: en
 Arrays written with the new short syntax. 
 

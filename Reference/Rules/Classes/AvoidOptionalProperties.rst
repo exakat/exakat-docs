@@ -18,7 +18,7 @@ Avoid Optional Properties
 	:og:title: Avoid Optional Properties
 	:og:type: article
 	:og:description: Avoid optional properties, to prevent littering the code with existence checks
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/AvoidOptionalProperties.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Avoid Optional Properties.html
 	:og:locale: en
 Avoid optional properties, to prevent littering the code with existence checks. 
 

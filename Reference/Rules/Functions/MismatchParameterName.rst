@@ -18,7 +18,7 @@ Mismatch Parameter Name
 	:og:title: Mismatch Parameter Name
 	:og:type: article
 	:og:description: Parameter name change in overwritten method
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/MismatchParameterName.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Mismatch Parameter Name.html
 	:og:locale: en
 Parameter name change in overwritten method. This may lead to errors when using PHP 8.0 named arguments. 
 

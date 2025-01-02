@@ -18,7 +18,7 @@ Count() To Array Append
 	:og:title: Count() To Array Append
 	:og:type: article
 	:og:description: The array append operator is able to generate a sane index, without relying on the count() function
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Performances/CountToAppend.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Count() To Array Append.html
 	:og:locale: en
 The array append operator is able to generate a sane index, without relying on the `count() <https://www.php.net/count>`_ function. This is faster, and safer.
 

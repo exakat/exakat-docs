@@ -18,7 +18,7 @@ Multiple Functions Declarations
 	:og:title: Multiple Functions Declarations
 	:og:type: article
 	:og:description: Some functions are declared multiple times in the code
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/MultipleDeclarations.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Multiple Functions Declarations.html
 	:og:locale: en
 Some functions are declared multiple times in the code. 
 

@@ -3,6 +3,21 @@
 Semantics
 +++++++++
 
+.. meta::
+	:description:
+		Semantics: Checks the meanings found the names of the code..
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Semantics
+	:twitter:description: Semantics: Checks the meanings found the names of the code.
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Semantics
+	:og:type: article
+	:og:description: Checks the meanings found the names of the code.
+	:og:url: https://exakat.readthedocs.io/en/latest/Rulesets/Semantics.html
+	:og:locale: en
 This ruleset focuses on human interpretation of the code. It reviews special values of literals, and named structures.
 
 Total : 35 analysis

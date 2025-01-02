@@ -18,7 +18,7 @@ Invalid Constant Name
 	:og:title: Invalid Constant Name
 	:og:type: article
 	:og:description: There is a naming convention for PHP constants names
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Constants/InvalidName.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Invalid Constant Name.html
 	:og:locale: en
 There is a naming convention for PHP constants names. 
 

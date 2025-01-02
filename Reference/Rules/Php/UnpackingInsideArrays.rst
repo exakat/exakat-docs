@@ -18,7 +18,7 @@ Unpacking Inside Arrays
 	:og:title: Unpacking Inside Arrays
 	:og:type: article
 	:og:description: The variadic operator is now available inside arrays
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/UnpackingInsideArrays.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Unpacking Inside Arrays.html
 	:og:locale: en
 The variadic operator is now available inside arrays. Until PHP 7.4, it is not possible to use the variadic operator, or ``...`` inside arrays. 
 

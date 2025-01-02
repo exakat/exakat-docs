@@ -18,7 +18,7 @@ Multiple Declaration Of Strict_types
 	:og:title: Multiple Declaration Of Strict_types
 	:og:type: article
 	:og:description: At least two declare() commands are declaring `strict_types` in one file
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/MultipleDeclareStrict.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Multiple Declaration Of Strict_types.html
 	:og:locale: en
 At least two declare() commands are declaring `strict_types` in one file. Only one is sufficient, and should be the first expression in the file.
 

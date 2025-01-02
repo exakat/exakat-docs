@@ -18,7 +18,7 @@ Should Cache Local
 	:og:title: Should Cache Local
 	:og:type: article
 	:og:description: Repeated calls to a method with the same arguments should be put in a local cache
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Performances/ShouldCacheLocal.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Should Cache Local.html
 	:og:locale: en
 Repeated calls to a method with the same arguments should be put in a local cache. 
 

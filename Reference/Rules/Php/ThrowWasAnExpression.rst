@@ -18,7 +18,7 @@ Throw Was An Expression
 	:og:title: Throw Was An Expression
 	:og:type: article
 	:og:description: Throw used to be an expression
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/ThrowWasAnExpression.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Throw Was An Expression.html
 	:og:locale: en
 Throw used to be an expression. In PHP 7.0, there were some location where one couldn't use a throw : this was the case for arrow functions, which expect one expression as function's body. 
 

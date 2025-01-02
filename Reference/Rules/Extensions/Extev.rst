@@ -18,7 +18,7 @@ ext/ev
 	:og:title: ext/ev
 	:og:type: article
 	:og:description: Extension ev
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extev.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/ev.html
 	:og:locale: en
 Extension ev.
 

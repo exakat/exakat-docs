@@ -18,7 +18,7 @@ Merge If Then
 	:og:title: Merge If Then
 	:og:type: article
 	:og:description: Two nested if/then may be merged into one, by merging the two conditions
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/MergeIfThen.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Merge If Then.html
 	:og:locale: en
 Two nested if/then may be merged into one, by merging the two conditions. This is often a development artifact. 
 

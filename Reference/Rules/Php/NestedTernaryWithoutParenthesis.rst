@@ -18,7 +18,7 @@ Nested Ternary Without Parenthesis
 	:og:title: Nested Ternary Without Parenthesis
 	:og:type: article
 	:og:description: It is not allowed to nest ternary operator within itself, without parenthesis
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/NestedTernaryWithoutParenthesis.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Nested Ternary Without Parenthesis.html
 	:og:locale: en
 It is not allowed to nest ternary operator within itself, without parenthesis. This has been implemented in PHP 7.4.
 

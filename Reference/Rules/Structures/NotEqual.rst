@@ -18,7 +18,7 @@ Not Equal Is Not !==
 	:og:title: Not Equal Is Not !==
 	:og:type: article
 	:og:description: Not and Equal operators, used separately, don't amount to the different operator ``!==``
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/NotEqual.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Not Equal Is Not !==.html
 	:og:locale: en
 Not and Equal operators, used separately, don't amount to the different operator ``!==``.
 

@@ -18,7 +18,7 @@ Directly Use File
 	:og:title: Directly Use File
 	:og:type: article
 	:og:description: Some PHP functions have a close cousin that work directly on files
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/DirectlyUseFile.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Directly Use File.html
 	:og:locale: en
 Some PHP functions have a close cousin that work directly on files. This is faster and less code to write.
 

@@ -18,7 +18,7 @@ Inclusions
 	:og:title: Inclusions
 	:og:type: article
 	:og:description: List of all inclusions
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/IncludeUsage.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Inclusions.html
 	:og:locale: en
 List of all inclusions. Inclusions are made with include(), include_once(), require() and require_once().
 

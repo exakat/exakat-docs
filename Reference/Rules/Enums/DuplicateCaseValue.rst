@@ -18,7 +18,7 @@ Duplicate Enum Case Value
 	:og:title: Duplicate Enum Case Value
 	:og:type: article
 	:og:description: In a backed enumeration, may it be ``int`` or ``string``, the values of the cases must all be distinct
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Enums/DuplicateCaseValue.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Duplicate Enum Case Value.html
 	:og:locale: en
 In a backed enumeration, may it be ``int`` or ``string``, the values of the cases must all be distinct. There can't be two of them of the same value.
 

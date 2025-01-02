@@ -18,7 +18,7 @@ Nullable With Constant
 	:og:title: Nullable With Constant
 	:og:type: article
 	:og:description: Arguments are automatically nullable with a literal null
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/NullableWithConstant.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Nullable With Constant.html
 	:og:locale: en
 Arguments are automatically nullable with a literal null. They used to also be nullable with a constant null, before PHP 8.0.
 

@@ -18,7 +18,7 @@ PHP Arrays Index
 	:og:title: PHP Arrays Index
 	:og:type: article
 	:og:description: List of indexes used when manipulating PHP arrays in the code
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Arrays/Phparrayindex.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/PHP Arrays Index.html
 	:og:locale: en
 List of indexes used when manipulating PHP arrays in the code. These indices usually carry semantic meanings, and should always be readable.
 

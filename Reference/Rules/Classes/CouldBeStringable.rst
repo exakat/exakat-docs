@@ -18,7 +18,7 @@ Could Be Stringable
 	:og:title: Could Be Stringable
 	:og:type: article
 	:og:description: ``Stringable`` is an interface that marks classes with a custom method to cast the object as a string
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/CouldBeStringable.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Could Be Stringable.html
 	:og:locale: en
 ``Stringable`` is an interface that marks classes with a custom method to cast the object as a string. It was introduced in PHP 8.0.
 

@@ -18,7 +18,7 @@ Make Magic Concrete
 	:og:title: Make Magic Concrete
 	:og:type: article
 	:og:description: Speed up execution by replacing magic calls by concrete properties
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/MakeMagicConcrete.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Make Magic Concrete.html
 	:og:locale: en
 Speed up execution by replacing magic calls by concrete properties. 
 

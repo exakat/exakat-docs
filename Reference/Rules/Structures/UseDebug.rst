@@ -18,7 +18,7 @@ Use Debug
 	:og:title: Use Debug
 	:og:type: article
 	:og:description: The code source includes calls to debug functions
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/UseDebug.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Use Debug.html
 	:og:locale: en
 The code source includes calls to debug functions.
 

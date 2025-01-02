@@ -3,6 +3,21 @@
 Typechecks
 ++++++++++
 
+.. meta::
+	:description:
+		Typechecks: Checks related to types..
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Typechecks
+	:twitter:description: Typechecks: Checks related to types.
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Typechecks
+	:og:type: article
+	:og:description: Checks related to types.
+	:og:url: https://exakat.readthedocs.io/en/latest/Rulesets/Typechecks.html
+	:og:locale: en
 This ruleset focuses on typehinting. Missing typehints, or inconsistent typehint, are reported. 
 
 Total : 28 analysis

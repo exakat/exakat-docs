@@ -18,7 +18,7 @@ Set Aside Code
 	:og:title: Set Aside Code
 	:og:type: article
 	:og:description: Setting aside code should be made into a method
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/SetAside.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Set Aside Code.html
 	:og:locale: en
 Setting aside code should be made into a method. 
 

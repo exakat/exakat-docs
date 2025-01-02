@@ -18,7 +18,7 @@ Used Once Property
 	:og:title: Used Once Property
 	:og:type: article
 	:og:description: Property used once in their defining class
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/UsedOnceProperty.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Used Once Property.html
 	:og:locale: en
 Property used once in their defining class. 
 

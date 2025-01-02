@@ -18,7 +18,7 @@ Injectable Version
 	:og:title: Injectable Version
 	:og:type: article
 	:og:description: The Injectable Version attribute mark a class in a class hierarchy to be the one to use when giving a type to a parameter, return type or property
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Attributes/InjectableVersion.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Injectable Version.html
 	:og:locale: en
 The Injectable Version `attribute <https://www.php.net/attribute>`_ mark a class in a class hierarchy to be the one to use when giving a type to a parameter, return type or property.
 

@@ -18,7 +18,7 @@ Searching For Multiple Keys
 	:og:title: Searching For Multiple Keys
 	:og:type: article
 	:og:description: array_search() and array_keys() find keys in an array
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ArraySearchMultipleKeys.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Searching For Multiple Keys.html
 	:og:locale: en
 `array_search() <https://www.php.net/array_search>`_ and `array_keys() <https://www.php.net/array_keys>`_ find keys in an array. `array_search() <https://www.php.net/array_search>`_ returns the first key that match a value, while `array_keys() <https://www.php.net/array_keys>`_ returns all the keys that match a value.
 

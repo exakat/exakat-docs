@@ -18,7 +18,7 @@ Deprecated Attribute
 	:og:title: Deprecated Attribute
 	:og:type: article
 	:og:description: The Deprecated attribute marks a class, method, property, class constants and functions that should not be used anymore
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Attributes/Deprecated.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Deprecated Attribute.html
 	:og:locale: en
 The Deprecated `attribute <https://www.php.net/attribute>`_ marks a class, method, property, class constants and functions that should not be used anymore. The element is still usable in the current version, and it might be removed in a future version.
 

@@ -18,7 +18,7 @@ Use pathinfo() Arguments
 	:og:title: Use pathinfo() Arguments
 	:og:type: article
 	:og:description: pathinfo() has a second argument to select only useful data
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/UsePathinfoArgs.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Use pathinfo() Arguments.html
 	:og:locale: en
 `pathinfo() <https://www.php.net/pathinfo>`_ has a second argument to select only useful data. 
 

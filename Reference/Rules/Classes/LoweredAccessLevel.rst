@@ -18,7 +18,7 @@ Lowered Access Level
 	:og:title: Lowered Access Level
 	:og:type: article
 	:og:description: A visibility was lowered
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/LoweredAccessLevel.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Lowered Access Level.html
 	:og:locale: en
 A visibility was lowered. While this is a PHP feature, lowering visibility means that the data is now available to more actors than previously set up, and it might yield surprises to part of the code that still rely on the previous visibility.
 

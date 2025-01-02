@@ -18,7 +18,7 @@ Scalar Are Not Arrays
 	:og:title: Scalar Are Not Arrays
 	:og:type: article
 	:og:description: It is wrong to use a scalar as an array, a Warning is emitted
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/ScalarAreNotArrays.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Scalar Are Not Arrays.html
 	:og:locale: en
 It is wrong to use a scalar as an array, a Warning is emitted. PHP 7.4 emits a Warning in such situations.
 Typehinted argument with a scalar are reported by this analysis. Also, nullable arguments, both with typehint and return type hint.

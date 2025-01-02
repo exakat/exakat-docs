@@ -18,7 +18,7 @@ Constants Names
 	:og:title: Constants Names
 	:og:type: article
 	:og:description: List of PHP defined global constants in the source code
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Constants/Constantnames.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Constants Names.html
 	:og:locale: en
 List of PHP defined global constants in the source code. Constants are defined with the ``define()`` functioncall or ``const`` command. 
 

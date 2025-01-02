@@ -18,7 +18,7 @@ Non Static Methods Called In A Static
 	:og:title: Non Static Methods Called In A Static
 	:og:type: article
 	:og:description: Static methods have to be declared as such (using the static keyword)
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/NonStaticMethodsCalledStatic.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Non Static Methods Called In A Static.html
 	:og:locale: en
 `Static <https://www.php.net/manual/en/language.oop5.static.php>`_ methods have to be declared as such (using the `static <https://www.php.net/manual/en/language.oop5.static.php>`_ keyword). Then, one may call them without instantiating the object.
 

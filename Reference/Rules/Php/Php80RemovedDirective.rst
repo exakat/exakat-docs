@@ -18,7 +18,7 @@ PHP 8.0 Removed Directives
 	:og:title: PHP 8.0 Removed Directives
 	:og:type: article
 	:og:description: List of directives that are removed in PHP 8
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/Php80RemovedDirective.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/PHP 8.0 Removed Directives.html
 	:og:locale: en
 List of directives that are removed in PHP 8.0.
 

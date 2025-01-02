@@ -18,7 +18,7 @@ ext/redis
 	:og:title: ext/redis
 	:og:type: article
 	:og:description: Extension ext/redis
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extredis.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/redis.html
 	:og:locale: en
 Extension ext/redis.
 

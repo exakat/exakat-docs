@@ -18,7 +18,7 @@ Break With Non Integer
 	:og:title: Break With Non Integer
 	:og:type: article
 	:og:description: When using a break, the argument of the operator must be a positive non-null integer literal or be omitted
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/BreakNonInteger.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Break With Non Integer.html
 	:og:locale: en
 When using a `break <https://www.php.net/manual/en/control-structures.break.php>`_, the argument of the operator must be a positive non-null integer literal or be omitted.
 

@@ -18,7 +18,7 @@ Cannot Use Static For Closure
 	:og:title: Cannot Use Static For Closure
 	:og:type: article
 	:og:description: The reported closures and arrow functions cannot use the static keyword
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/CannotUseStaticForClosure.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Cannot Use Static For Closure.html
 	:og:locale: en
 The reported closures and arrow functions cannot use the `static <https://www.php.net/manual/en/language.oop5.static.php>`_ keyword. 
 

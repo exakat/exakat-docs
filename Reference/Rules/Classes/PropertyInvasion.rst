@@ -18,7 +18,7 @@ Property Invasion
 	:og:title: Property Invasion
 	:og:type: article
 	:og:description: Property invasion exports a reference from an object, for external and direct modifications
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/PropertyInvasion.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Property Invasion.html
 	:og:locale: en
 Property invasion exports a reference from an object, for external and direct modifications. 
 

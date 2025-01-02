@@ -18,7 +18,7 @@ Php 7.4 New Classes
 	:og:title: Php 7.4 New Classes
 	:og:type: article
 	:og:description: New classes, introduced in PHP 7
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/Php74NewClasses.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Php 7.4 New Classes.html
 	:og:locale: en
 New classes, introduced in PHP 7.4. If classes where created with the same name, in current code, they have to be moved in a namespace, or removed from code to migrate safely to PHP 7.4.
 

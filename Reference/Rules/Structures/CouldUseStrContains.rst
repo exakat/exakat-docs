@@ -18,7 +18,7 @@ Could Use strcontains()
 	:og:title: Could Use strcontains()
 	:og:type: article
 	:og:description: PHP 8 introduced the strcontains() function, which is a replacement for strpos()
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/CouldUseStrContains.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Could Use strcontains().html
 	:og:locale: en
 PHP 8 introduced the strcontains() function, which is a replacement for `strpos() <https://www.php.net/strpos>`_. strcontains() checks if a string is found inside a string, and returns a boolean. 
 

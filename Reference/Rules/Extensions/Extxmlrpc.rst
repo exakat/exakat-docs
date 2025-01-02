@@ -18,7 +18,7 @@ ext/xmlrpc
 	:og:title: ext/xmlrpc
 	:og:type: article
 	:og:description: Extension ext/xmlrpc
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extxmlrpc.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/xmlrpc.html
 	:og:locale: en
 Extension ext/xmlrpc.
 

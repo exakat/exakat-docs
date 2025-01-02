@@ -18,7 +18,7 @@ ext/pspell
 	:og:title: ext/pspell
 	:og:type: article
 	:og:description: Extension pspell
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extpspell.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/pspell.html
 	:og:locale: en
 Extension pspell.
 

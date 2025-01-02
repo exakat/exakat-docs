@@ -18,7 +18,7 @@ Create Foreach Default
 	:og:title: Create Foreach Default
 	:og:type: article
 	:og:description: This command adds DEFAULT link from the blind variables to the literal definitions, when they are available
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Complete/CreateForeachDefault.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Create Foreach Default.html
 	:og:locale: en
 This command adds DEFAULT link from the blind variables to the literal definitions, when they are available. This adds sources for `static <https://www.php.net/manual/en/language.oop5.static.php>`_ loops, which are based on hardcoded list of data. Dynamic loops are not affected.
 

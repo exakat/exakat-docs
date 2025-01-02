@@ -18,7 +18,7 @@ Unreachable Method
 	:og:title: Unreachable Method
 	:og:type: article
 	:og:description: A method that is never called from the code
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/UnreachableMethod.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Unreachable Method.html
 	:og:locale: en
 A method that is never called from the code. 
 

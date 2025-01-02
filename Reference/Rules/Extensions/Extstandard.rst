@@ -18,7 +18,7 @@ ext/standard
 	:og:title: ext/standard
 	:og:type: article
 	:og:description: Standards PHP functions
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extstandard.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/standard.html
 	:og:locale: en
 Standards PHP functions.
 

@@ -18,7 +18,7 @@ Never Used Properties
 	:og:title: Never Used Properties
 	:og:type: article
 	:og:description: Properties that are never used
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/PropertyNeverUsed.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Never Used Properties.html
 	:og:locale: en
 Properties that are never used. They are defined in a class or a trait, but they never actually used.
 

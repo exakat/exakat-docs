@@ -18,7 +18,7 @@ Don't Reuse Foreach Source
 	:og:title: Don't Reuse Foreach Source
 	:og:type: article
 	:og:description: It is dangerous to reuse the same variable inside a loop that use it as a source
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/DontReuseForeachSource.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Don't Reuse Foreach Source.html
 	:og:locale: en
 It is dangerous to reuse the same variable inside a loop that use it as a source.
 

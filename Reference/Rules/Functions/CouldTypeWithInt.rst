@@ -18,7 +18,7 @@ Could Type With Int
 	:og:title: Could Type With Int
 	:og:type: article
 	:og:description: That argument may be typed with ``int``
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/CouldTypeWithInt.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Could Type With Int.html
 	:og:locale: en
 That argument may be typed with ``int``.
 

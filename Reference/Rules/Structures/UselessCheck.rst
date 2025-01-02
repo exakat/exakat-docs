@@ -18,7 +18,7 @@ Useless Check
 	:og:title: Useless Check
 	:og:type: article
 	:og:description: There is no need to check the size of an array content before using foreach
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/UselessCheck.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Useless Check.html
 	:og:locale: en
 There is no need to check the size of an array content before using foreach. `Foreach() <https://www.php.net/manual/en/control-structures.foreach.php>`_ applies a test on the source, and skips the loop if no element is found.
 

@@ -18,7 +18,7 @@ Used Interfaces
 	:og:title: Used Interfaces
 	:og:type: article
 	:og:description: This rule lists all the interfaces used in the code
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Interfaces/UsedInterfaces.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Used Interfaces.html
 	:og:locale: en
 This rule lists all the interfaces used in the code. They are used with the ``implements`` keyword, the ``instanceof`` operator, and as types with parameters, class constants, properties and methods.
 

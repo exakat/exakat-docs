@@ -18,7 +18,7 @@ Htmlentities Calls
 	:og:title: Htmlentities Calls
 	:og:type: article
 	:og:description: htmlentities() and htmlspecialchars() are used to prevent injecting special characters in HTML code
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/Htmlentitiescall.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Htmlentities Calls.html
 	:og:locale: en
 `htmlentities() <https://www.php.net/htmlentities>`_ and `htmlspecialchars() <https://www.php.net/htmlspecialchars>`_ are used to prevent injecting special characters in HTML code. As a bare minimum, they take a string and encode it for HTML.
 

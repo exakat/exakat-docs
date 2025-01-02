@@ -18,7 +18,7 @@ Wrong Type With Call
 	:og:title: Wrong Type With Call
 	:og:type: article
 	:og:description: This analysis checks that a call to a method uses the types
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/WrongTypeWithCall.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Wrong Type With Call.html
 	:og:locale: en
 This analysis checks that a call to a method uses the types.
 

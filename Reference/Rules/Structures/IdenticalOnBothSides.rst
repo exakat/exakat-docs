@@ -18,7 +18,7 @@ Identical On Both Sides
 	:og:title: Identical On Both Sides
 	:og:type: article
 	:og:description: Operands should be different when comparing or making a logical combination
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/IdenticalOnBothSides.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Identical On Both Sides.html
 	:og:locale: en
 Operands should be different when comparing or making a logical combination. Of course, the value each operand holds may be identical. When the same operand appears on both sides of the expression, the `result <https://www.php.net/result>`_ is know before execution.
 

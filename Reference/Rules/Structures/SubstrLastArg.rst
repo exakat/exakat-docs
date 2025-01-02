@@ -18,7 +18,7 @@ Drop Substr Last Arg
 	:og:title: Drop Substr Last Arg
 	:og:type: article
 	:og:description: Substr() works till the end of the string when the last argument is omitted
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/SubstrLastArg.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Drop Substr Last Arg.html
 	:og:locale: en
 `Substr() <https://www.php.net/substr>`_ works till the end of the string when the last argument is omitted. There is no need to calculate string size to make this work.
 

@@ -18,7 +18,7 @@ Array_Map() Passes By Value
 	:og:title: Array_Map() Passes By Value
 	:og:type: article
 	:og:description: array_map() requires the callback to receive elements by value
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ArrayMapPassesByValue.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Array_Map() Passes By Value.html
 	:og:locale: en
 `array_map() <https://www.php.net/array_map>`_ requires the callback to receive elements by value. Unlike `array_walk() <https://www.php.net/array_walk>`_, which accepts by value or by reference, depending on the action taken.
 

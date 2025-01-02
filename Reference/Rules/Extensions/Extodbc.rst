@@ -18,7 +18,7 @@ ext/odbc
 	:og:title: ext/odbc
 	:og:type: article
 	:og:description: Extension ODBC
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extodbc.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/odbc.html
 	:og:locale: en
 Extension ODBC.
 

@@ -18,7 +18,7 @@ Strict Comparison With Booleans
 	:og:title: Strict Comparison With Booleans
 	:og:type: article
 	:og:description: Strict comparisons prevent mistaking an error with a false
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/BooleanStrictComparison.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Strict Comparison With Booleans.html
 	:og:locale: en
 Strict comparisons prevent mistaking an `error <https://www.php.net/error>`_ with a false. 
 

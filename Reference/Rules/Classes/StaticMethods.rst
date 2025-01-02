@@ -18,7 +18,7 @@ Static Methods
 	:og:title: Static Methods
 	:og:type: article
 	:og:description: List of all static methods
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/StaticMethods.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Static Methods.html
 	:og:locale: en
 List of all `static <https://www.php.net/manual/en/language.oop5.static.php>`_ methods.
 

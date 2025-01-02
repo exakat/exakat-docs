@@ -18,7 +18,7 @@ ext/tokenizer
 	:og:title: ext/tokenizer
 	:og:type: article
 	:og:description: Extension Tokenizer
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Exttokenizer.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/tokenizer.html
 	:og:locale: en
 Extension Tokenizer.
 

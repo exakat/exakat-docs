@@ -18,7 +18,7 @@ ext/imap
 	:og:title: ext/imap
 	:og:type: article
 	:og:description: Extension ext/imap
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extimap.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/imap.html
 	:og:locale: en
 Extension ext/imap.
 

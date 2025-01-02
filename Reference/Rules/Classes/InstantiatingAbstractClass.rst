@@ -18,7 +18,7 @@ Instantiating Abstract Class
 	:og:title: Instantiating Abstract Class
 	:og:type: article
 	:og:description: PHP cannot instantiate an abstract class
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/InstantiatingAbstractClass.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Instantiating Abstract Class.html
 	:og:locale: en
 PHP cannot instantiate an abstract class. 
 

@@ -18,7 +18,7 @@ Multiple Catch With Try
 	:og:title: Multiple Catch With Try
 	:og:type: article
 	:og:description: This rule reports when a try structure have several catch statements
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/MultipleCatch.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Multiple Catch With Try.html
 	:og:locale: en
 This rule reports when a try structure have several catch statements. Usually, try structures have only one catch, so more catch clauses are worth checking.
 

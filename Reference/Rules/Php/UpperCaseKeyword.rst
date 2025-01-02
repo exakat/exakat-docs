@@ -18,7 +18,7 @@ Non-lowercase Keywords
 	:og:title: Non-lowercase Keywords
 	:og:type: article
 	:og:description: The usual convention is to write PHP keywords (like ``as``, ``foreach``, ``switch``, ``case``, ``break``, etc
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/UpperCaseKeyword.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Non-lowercase Keywords.html
 	:og:locale: en
 The usual convention is to write PHP keywords (like ``as``, ``foreach``, ``switch``, ``case``, ``break``, etc.) all in lowercase. 
 

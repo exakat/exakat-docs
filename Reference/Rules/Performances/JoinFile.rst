@@ -18,7 +18,7 @@ Joining file()
 	:og:title: Joining file()
 	:og:type: article
 	:og:description: Use file() to read lines separately
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Performances/JoinFile.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Joining file().html
 	:og:locale: en
 Use `file() <https://www.php.net/file>`_ to read lines separately. 
 

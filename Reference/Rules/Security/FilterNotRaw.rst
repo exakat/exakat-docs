@@ -18,7 +18,7 @@ Filter Not Raw
 	:og:title: Filter Not Raw
 	:og:type: article
 	:og:description: Report usage of filter functions with the ``FILTER_RAW_UNSAFE`` option
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Security/FilterNotRaw.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Filter Not Raw.html
 	:og:locale: en
 Report usage of filter functions with the ``FILTER_RAW_UNSAFE`` option. This option is the default one.
 

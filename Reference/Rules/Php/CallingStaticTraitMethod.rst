@@ -18,7 +18,7 @@ Calling Static Trait Method
 	:og:title: Calling Static Trait Method
 	:og:type: article
 	:og:description: Calling directly a static method, defined in a trait is deprecated
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/CallingStaticTraitMethod.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Calling Static Trait Method.html
 	:og:locale: en
 Calling directly a `static <https://www.php.net/manual/en/language.oop5.static.php>`_ method, defined in a trait is deprecated. It emits a deprecation notice in PHP 8.1.
 Calling the same method, from the class point of view is valid.
@@ -42,7 +42,7 @@ See also `PHP RFC: Deprecations for PHP 8.1 <https://wiki.php.net/rfc/deprecatio
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Calling+static+trait+method+Test%3A%3Atest+is+deprecated%2C+it+should+only+be+called+on+a+class+using+the+trait.html>`_
+  + `Calling static trait method Test::test is deprecated, it should only be called on a class using the trait <https://php-errors.readthedocs.io/en/latest/messages/calling-static-trait-method-%25s%3A%3A%25s-is-deprecated.html>`_
 
 
 

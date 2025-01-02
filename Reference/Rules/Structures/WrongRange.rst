@@ -18,7 +18,7 @@ Wrong Range Check
 	:og:title: Wrong Range Check
 	:og:type: article
 	:og:description: The interval check should use && and not ||
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/WrongRange.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Wrong Range Check.html
 	:og:locale: en
 The interval check should use && and not ||.
 

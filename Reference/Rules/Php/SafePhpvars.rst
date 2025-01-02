@@ -18,7 +18,7 @@ Safe Phpvariables
 	:og:title: Safe Phpvariables
 	:og:type: article
 	:og:description: Mark the safe PHP variables
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/SafePhpvars.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Safe Phpvariables.html
 	:og:locale: en
 Mark the safe PHP variables. 
 

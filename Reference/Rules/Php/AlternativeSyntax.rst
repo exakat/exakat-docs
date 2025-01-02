@@ -18,7 +18,7 @@ PHP Alternative Syntax
 	:og:title: PHP Alternative Syntax
 	:og:type: article
 	:og:description: This rule identifies the usage of alternative syntax in the code, for if then, switch, while, for and foreach
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/AlternativeSyntax.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/PHP Alternative Syntax.html
 	:og:locale: en
 This rule identifies the usage of alternative syntax in the code, for if then, switch, while, for and foreach.
 

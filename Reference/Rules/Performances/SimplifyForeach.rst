@@ -18,7 +18,7 @@ Simplify Foreach
 	:og:title: Simplify Foreach
 	:og:type: article
 	:og:description: Remove all unused keys or values from a foreach() call
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Performances/SimplifyForeach.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Simplify Foreach.html
 	:og:locale: en
 Remove all unused keys or values from a `foreach() <https://www.php.net/manual/en/control-structures.foreach.php>`_ call. This prevents PHP from assigning them for nothing, and save some processing time. 
 This is a micro-optimisation.

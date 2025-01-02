@@ -18,7 +18,7 @@ Single Use Variables
 	:og:title: Single Use Variables
 	:og:type: article
 	:og:description: This is the list of variables that are written, then read, and only used once
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Variables/UniqueUsage.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Single Use Variables.html
 	:og:locale: en
 This is the list of variables that are written, then read, and only used once.
 

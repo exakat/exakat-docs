@@ -18,7 +18,7 @@ Hash Algorithms
 	:og:title: Hash Algorithms
 	:og:type: article
 	:og:description: There is a long but limited list of hashing algorithm available to PHP
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/HashAlgos.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Hash Algorithms.html
 	:og:locale: en
 There is a long but limited list of hashing algorithm available to PHP. The one found doesn't seem to be existing.
 

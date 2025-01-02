@@ -18,7 +18,7 @@ Date Formats
 	:og:title: Date Formats
 	:og:type: article
 	:og:description: Inventory of date formats used in the code
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/DateFormats.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Date Formats.html
 	:og:locale: en
 Inventory of date formats used in the code. 
 

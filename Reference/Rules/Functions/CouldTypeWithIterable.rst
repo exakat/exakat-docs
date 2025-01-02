@@ -18,7 +18,7 @@ Could Type With Iterable
 	:og:title: Could Type With Iterable
 	:og:type: article
 	:og:description: Suggest using ``iterable`` typehint for arguments
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/CouldTypeWithIterable.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Could Type With Iterable.html
 	:og:locale: en
 Suggest using ``iterable`` typehint for arguments.
 

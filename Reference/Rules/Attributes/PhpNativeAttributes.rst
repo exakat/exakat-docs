@@ -18,7 +18,7 @@ PHP Native Attributes
 	:og:title: PHP Native Attributes
 	:og:type: article
 	:og:description: This is the list of the PHP native attribute used in the code
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Attributes/PhpNativeAttributes.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/PHP Native Attributes.html
 	:og:locale: en
 This is the list of the PHP native `attribute <https://www.php.net/attribute>`_ used in the code. PHP native `attribute <https://www.php.net/attribute>`_ depends on the PHP version, as new attributes are added regularly. 
 

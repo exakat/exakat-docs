@@ -18,7 +18,7 @@ Useless Method Alias
 	:og:title: Useless Method Alias
 	:og:type: article
 	:og:description: It is not possible to declare an alias of a method with the same name
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Traits/UselessAlias.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Useless Method Alias.html
 	:og:locale: en
 It is not possible to declare an alias of a method with the same name. 
 

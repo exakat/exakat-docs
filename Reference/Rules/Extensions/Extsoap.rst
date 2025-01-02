@@ -18,7 +18,7 @@ ext/soap
 	:og:title: ext/soap
 	:og:type: article
 	:og:description: Extension SOAP
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extsoap.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/soap.html
 	:og:locale: en
 Extension SOAP.
 

@@ -18,7 +18,7 @@ Create Magic Property
 	:og:title: Create Magic Property
 	:og:type: article
 	:og:description: This command creates a link DEFINITION between a ``__get`` and ``__set`` calls, and its equivalent magic method
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Complete/CreateMagicProperty.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Create Magic Property.html
 	:og:locale: en
 This command creates a link DEFINITION between a ``__get`` and ``__set`` calls, and its equivalent magic method.
 

@@ -18,7 +18,7 @@ Set Array Class Definition
 	:og:title: Set Array Class Definition
 	:og:type: article
 	:og:description: Link arrays with their related method definition
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Complete/SetArrayClassDefinition.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Set Array Class Definition.html
 	:og:locale: en
 Link arrays with their related method definition.
 

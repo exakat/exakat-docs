@@ -18,7 +18,7 @@ ext/ftp
 	:og:title: ext/ftp
 	:og:type: article
 	:og:description: Extension FTP
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extftp.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/ftp.html
 	:og:locale: en
 Extension FTP.
 

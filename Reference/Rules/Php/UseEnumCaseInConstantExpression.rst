@@ -18,7 +18,7 @@ Use Enum Case In Constant Expression
 	:og:title: Use Enum Case In Constant Expression
 	:og:type: article
 	:og:description: Enum cases are constants, and may be used in constant definitions, as value
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/UseEnumCaseInConstantExpression.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Use Enum Case In Constant Expression.html
 	:og:locale: en
 Enum cases are constants, and may be used in constant definitions, as value. This is valid both with the case itself, or with their value, for the backed enum version.
 

@@ -18,7 +18,7 @@ Don't Mix ++
 	:og:title: Don't Mix ++
 	:og:type: article
 	:og:description: ++ operators, pre and post, have two distinct behaviors, and should be used separately
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/DontMixPlusPlus.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Don't Mix ++.html
 	:og:locale: en
 ++ operators, pre and post, have two distinct behaviors, and should be used separately.
 

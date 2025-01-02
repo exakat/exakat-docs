@@ -18,7 +18,7 @@ Static Methods Called From Object
 	:og:title: Static Methods Called From Object
 	:og:type: article
 	:og:description: Static methods may be called without instantiating an object
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/StaticMethodsCalledFromObject.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Static Methods Called From Object.html
 	:og:locale: en
 `Static <https://www.php.net/manual/en/language.oop5.static.php>`_ methods may be called without instantiating an object. As such, they never interact with the special variable '`$this <https://www.php.net/manual/en/language.oop5.basic.php>`_', as they do not depend on object existence. 
 

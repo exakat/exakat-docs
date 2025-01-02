@@ -18,7 +18,7 @@ Flexible Heredoc
 	:og:title: Flexible Heredoc
 	:og:type: article
 	:og:description: Flexible syntax for Heredoc
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/FlexibleHeredoc.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Flexible Heredoc.html
 	:og:locale: en
 Flexible syntax for Heredoc. 
 

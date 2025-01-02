@@ -18,7 +18,7 @@ $GLOBALS Or global
 	:og:title: $GLOBALS Or global
 	:og:type: article
 	:og:description: Usually, PHP projects make a choice between the global keyword, and the $GLOBALS variable
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/GlobalsVsGlobal.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/$GLOBALS Or global.html
 	:og:locale: en
 Usually, PHP projects make a choice between the global keyword, and the $GLOBALS variable. Sometimes, the project has no recommendations. 
 

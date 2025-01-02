@@ -18,7 +18,7 @@ Lone Blocks
 	:og:title: Lone Blocks
 	:og:type: article
 	:og:description: Grouped code without a commanding structure is useless and may be removed
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/LoneBlock.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Lone Blocks.html
 	:og:locale: en
 Grouped code without a commanding structure is useless and may be removed. 
 

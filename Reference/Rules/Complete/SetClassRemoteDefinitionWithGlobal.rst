@@ -18,7 +18,7 @@ Set Class Remote Definition With Global
 	:og:title: Set Class Remote Definition With Global
 	:og:type: article
 	:og:description: Links method call to its definition, thanks to the global definition
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Complete/SetClassRemoteDefinitionWithGlobal.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Set Class Remote Definition With Global.html
 	:og:locale: en
 Links method call to its definition, thanks to the global definition. The link is ``DEFINITION``.
 

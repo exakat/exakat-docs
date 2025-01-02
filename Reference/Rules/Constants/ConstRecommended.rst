@@ -18,7 +18,7 @@ Use const
 	:og:title: Use const
 	:og:type: article
 	:og:description: The const keyword may be used to define constant, just like the define() function
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Constants/ConstRecommended.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Use const.html
 	:og:locale: en
 The const keyword may be used to define constant, just like the `define() <https://www.php.net/define>`_ function. 
 

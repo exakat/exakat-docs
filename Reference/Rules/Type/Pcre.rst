@@ -18,7 +18,7 @@ Perl Regex
 	:og:title: Perl Regex
 	:og:type: article
 	:og:description: List of all the Perl Regex (PCRE-style)
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Type/Pcre.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Perl Regex.html
 	:og:locale: en
 List of all the Perl Regex (PCRE-style).
 Regex are spotted when they are literals : dynamically built regex, (including /$x/) are not reported.

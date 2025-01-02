@@ -18,7 +18,7 @@ Dl() Usage
 	:og:title: Dl() Usage
 	:og:type: article
 	:og:description: Dynamically load PHP extensions with dl()
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/DlUsage.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Dl() Usage.html
 	:og:locale: en
 Dynamically load PHP extensions with `dl() <https://www.php.net/dl>`_.
 

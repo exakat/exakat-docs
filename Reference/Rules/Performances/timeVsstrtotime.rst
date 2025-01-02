@@ -18,7 +18,7 @@ time() Vs strtotime()
 	:og:title: time() Vs strtotime()
 	:og:type: article
 	:og:description: time() is actually faster than strtotime() with 'now' key string
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Performances/timeVsstrtotime.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/time() Vs strtotime().html
 	:og:locale: en
 `time() <https://www.php.net/time>`_ is actually faster than `strtotime() <https://www.php.net/strtotime>`_ with 'now' key string.
 This is a micro-optimisation. Relative gain is real, but small unless the function is used many times.

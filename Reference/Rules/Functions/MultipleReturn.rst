@@ -18,7 +18,7 @@ Multiple Returns
 	:og:title: Multiple Returns
 	:og:type: article
 	:og:description: Functions and methods that have multiple return statement
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/MultipleReturn.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Multiple Returns.html
 	:og:locale: en
 Functions and methods that have multiple return statement. 
 

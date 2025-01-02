@@ -18,7 +18,7 @@ ext/newt
 	:og:title: ext/newt
 	:og:type: article
 	:og:description: Newt PHP CLI extension
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extnewt.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/newt.html
 	:og:locale: en
 Newt PHP CLI extension.
 

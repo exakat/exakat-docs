@@ -18,7 +18,7 @@ Is A Magic Property
 	:og:title: Is A Magic Property
 	:og:type: article
 	:og:description: Mark properties usage when they are actually a magic call
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/IsaMagicProperty.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Is A Magic Property.html
 	:og:locale: en
 Mark properties usage when they are actually a magic call. 
 

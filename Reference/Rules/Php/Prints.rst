@@ -18,7 +18,7 @@ Displays Text
 	:og:title: Displays Text
 	:og:type: article
 	:og:description: Function calls that displays something to the output
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/Prints.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Displays Text.html
 	:og:locale: en
 Function calls that displays something to the output. Usually, there should not be direct display of data anywhere in the code, but on a specific places, like a template `engine <https://www.php.net/engine>`_, or an output class.
 

@@ -18,7 +18,7 @@ Already Parents Interface
 	:og:title: Already Parents Interface
 	:og:type: article
 	:og:description: The same interface is implemented by a class and one of its children
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Interfaces/AlreadyParentsInterface.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Already Parents Interface.html
 	:og:locale: en
 The same interface is implemented by a class and one of its children. 
 

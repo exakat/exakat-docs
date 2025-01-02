@@ -18,7 +18,7 @@ Magic Constant Usage
 	:og:title: Magic Constant Usage
 	:og:type: article
 	:og:description: There are eight magical constants that change depending on where they are used
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Constants/MagicConstantUsage.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Magic Constant Usage.html
 	:og:locale: en
 There are eight magical constants that change depending on where they are used. For example, the value of ``__LINE__`` depends on the line that it's used on in your script. These special constants are case-insensitive.
 

@@ -18,7 +18,7 @@ array_key_exists() Works On Arrays
 	:og:title: array_key_exists() Works On Arrays
 	:og:type: article
 	:og:description: array_key_exists() requires arrays as second argument
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/ArrayKeyExistsWithObjects.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/array_key_exists() Works On Arrays.html
 	:og:locale: en
 `array_key_exists() <https://www.php.net/array_key_exists>`_ requires arrays as second argument. Until PHP 7.4, objects were also allowed, yet it is now deprecated.
 

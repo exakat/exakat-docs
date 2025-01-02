@@ -18,7 +18,7 @@ Try With Multiple Catch
 	:og:title: Try With Multiple Catch
 	:og:type: article
 	:og:description: Try may be used with multiple catch clauses
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/TryMultipleCatch.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Try With Multiple Catch.html
 	:og:locale: en
 Try may be used with multiple catch clauses.
 

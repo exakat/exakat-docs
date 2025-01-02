@@ -18,7 +18,7 @@ Useless Coalesce
 	:og:title: Useless Coalesce
 	:og:type: article
 	:og:description: The 
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/UselessCoalesce.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Useless Coalesce.html
 	:og:locale: en
 The ?: operator needs the condition to be potentially empty. This means that the type should have the possibility to be null, false, 0, or any of the empty values.
 

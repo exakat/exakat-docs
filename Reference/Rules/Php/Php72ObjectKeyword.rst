@@ -18,7 +18,7 @@ PHP 7.2 Object Keyword
 	:og:title: PHP 7.2 Object Keyword
 	:og:type: article
 	:og:description: 'object' is a PHP keyword
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/Php72ObjectKeyword.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/PHP 7.2 Object Keyword.html
 	:og:locale: en
 'object' is a PHP keyword. It can't be used for class, interface or trait name. 
 

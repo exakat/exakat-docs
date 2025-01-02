@@ -18,7 +18,7 @@ Dynamic Library Loading
 	:og:title: Dynamic Library Loading
 	:og:type: article
 	:og:description: Loading a variable dynamically requires a lot of care in the preparation of the library name
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Security/DynamicDl.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Dynamic Library Loading.html
 	:og:locale: en
 Loading a variable dynamically requires a lot of care in the preparation of the library name. 
 

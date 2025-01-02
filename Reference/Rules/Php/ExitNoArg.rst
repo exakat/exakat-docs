@@ -18,7 +18,7 @@ Exit Without Argument
 	:og:title: Exit Without Argument
 	:og:type: article
 	:og:description: This rule reports usage of die and exit without arguments, nor parenthesis
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/ExitNoArg.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Exit Without Argument.html
 	:og:locale: en
 This rule reports usage of `die <https://www.php.net/die>`_ and `exit <https://www.www.php.net/exit>`_ without arguments, nor parenthesis. These commands are not functions, and are allowed to be used without parenthesis: by default, they use the 0 status.
 

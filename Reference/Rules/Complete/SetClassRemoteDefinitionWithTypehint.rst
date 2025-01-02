@@ -18,7 +18,7 @@ Set Class Remote Definition With Typehint
 	:og:title: Set Class Remote Definition With Typehint
 	:og:type: article
 	:og:description: Links method calls, properties static or not, and constants to their definition, thanks to typed arguments
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Complete/SetClassRemoteDefinitionWithTypehint.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Set Class Remote Definition With Typehint.html
 	:og:locale: en
 Links method calls, properties `static <https://www.php.net/manual/en/language.oop5.static.php>`_ or not, and constants to their definition, thanks to typed arguments. The link is ``DEFINITION``.
 

@@ -18,7 +18,7 @@ ext/hash
 	:og:title: ext/hash
 	:og:type: article
 	:og:description: Extension for HASH Message Digest Framework
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Exthash.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/hash.html
 	:og:locale: en
 Extension for HASH Message Digest Framework.
 

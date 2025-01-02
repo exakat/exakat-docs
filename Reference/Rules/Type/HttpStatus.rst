@@ -18,7 +18,7 @@ HTTP Status Code
 	:og:title: HTTP Status Code
 	:og:type: article
 	:og:description: List of all the HTTP status codes mentioned in the code
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Type/HttpStatus.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/HTTP Status Code.html
 	:og:locale: en
 List of all the HTTP status codes mentioned in the code.
 

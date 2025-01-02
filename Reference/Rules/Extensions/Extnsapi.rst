@@ -18,7 +18,7 @@ ext/nsapi
 	:og:title: ext/nsapi
 	:og:type: article
 	:og:description: NSAPI specific functions calls
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extnsapi.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/nsapi.html
 	:og:locale: en
 NSAPI specific functions calls. 
 

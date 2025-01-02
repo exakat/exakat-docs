@@ -18,7 +18,7 @@ Dynamic Function Call
 	:og:title: Dynamic Function Call
 	:og:type: article
 	:og:description: Mark a functioncall made with a variable name
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/Dynamiccall.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Dynamic Function Call.html
 	:og:locale: en
 Mark a functioncall made with a variable name. This means the function is only known at execution time, since it depends on the content of the variable. 
 

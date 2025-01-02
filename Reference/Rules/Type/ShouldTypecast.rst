@@ -18,7 +18,7 @@ Should Typecast
 	:og:title: Should Typecast
 	:og:type: article
 	:og:description: When typecasting, it is better to use the casting operator, such as ``(int)`` or ``(bool)``
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Type/ShouldTypecast.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Should Typecast.html
 	:og:locale: en
 When typecasting, it is better to use the casting operator, such as ``(int)`` or ``(bool)``.
 

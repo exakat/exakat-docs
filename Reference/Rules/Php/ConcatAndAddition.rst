@@ -18,7 +18,7 @@ Concat And Addition
 	:og:title: Concat And Addition
 	:og:type: article
 	:og:description: Precedence between addition and concatenation has changed
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/ConcatAndAddition.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Concat And Addition.html
 	:og:locale: en
 Precedence between addition and concatenation has changed. In PHP 7.4, addition has precedence, and before, addition and concatenation had the same precedence.
 

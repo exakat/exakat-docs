@@ -18,7 +18,7 @@ ext/phalcon
 	:og:title: ext/phalcon
 	:og:type: article
 	:og:description: Extension Phalcon : High Performance PHP Framework
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extphalcon.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/phalcon.html
 	:og:locale: en
 Extension Phalcon : High Performance PHP Framework.
 

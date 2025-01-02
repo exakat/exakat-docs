@@ -18,7 +18,7 @@ Could Merge Ternary Into Ifthen
 	:og:title: Could Merge Ternary Into Ifthen
 	:og:type: article
 	:og:description: When two ternary operators are used, in succession, with the same condition, it might be more readable to write it as an if then condition
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/MergeTernaryIntoIfthen.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Could Merge Ternary Into Ifthen.html
 	:og:locale: en
 When two ternary operators are used, in succession, with the same condition, it might be more readable to write it as an if then condition.
 

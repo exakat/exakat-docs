@@ -18,7 +18,7 @@ ext/mcrypt
 	:og:title: ext/mcrypt
 	:og:type: article
 	:og:description: Extension for mcrypt
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extmcrypt.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/mcrypt.html
 	:og:locale: en
 Extension for mcrypt.
 

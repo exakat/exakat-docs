@@ -18,7 +18,7 @@ Unicode Blocks
 	:og:title: Unicode Blocks
 	:og:type: article
 	:og:description: List of the Unicode blocks used in string literals
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Type/UnicodeBlock.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Unicode Blocks.html
 	:og:locale: en
 List of the Unicode blocks used in string literals.
 

@@ -18,7 +18,7 @@ Could Be Parent
 	:og:title: Could Be Parent
 	:og:type: article
 	:og:description: Mark arguments, return types and properties that can be set to ``parent``
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Typehints/CouldBeParent.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Could Be Parent.html
 	:og:locale: en
 Mark arguments, return types and properties that can be set to ``parent``.
 

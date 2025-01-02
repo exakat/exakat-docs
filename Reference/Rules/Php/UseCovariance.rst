@@ -18,7 +18,7 @@ Use Covariance
 	:og:title: Use Covariance
 	:og:type: article
 	:og:description: Covariance is compatible return typehint
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/UseCovariance.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Use Covariance.html
 	:og:locale: en
 Covariance is compatible return typehint. A child class may return an object of a child class of the return type of its `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_'s method.
 

@@ -18,7 +18,7 @@ Don't Be Too Manual
 	:og:title: Don't Be Too Manual
 	:og:type: article
 	:og:description: Adapt the examples from the PHP manual to the code
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/DontBeTooManual.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Don't Be Too Manual.html
 	:og:locale: en
 Adapt the examples from the PHP manual to the code. Don't reuse directly the same names in the source: be more specific about what to expect in those variables.
 

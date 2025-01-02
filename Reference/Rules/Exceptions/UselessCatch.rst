@@ -18,7 +18,7 @@ Useless Catch
 	:og:title: Useless Catch
 	:og:type: article
 	:og:description: A catch clause should handle the exception by doing something
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Exceptions/UselessCatch.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Useless Catch.html
 	:og:locale: en
 A catch clause should handle the `exception <https://www.php.net/exception>`_ by doing something. 
 

@@ -18,7 +18,7 @@ Invalid Octal In String
 	:og:title: Invalid Octal In String
 	:og:type: article
 	:og:description: Any octal sequence inside a string can't be go \377
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Type/OctalInString.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Invalid Octal In String.html
 	:og:locale: en
 Any octal sequence inside a string can't be go \377. Those will be a fatal `error <https://www.php.net/error>`_ at parsing time. 
 

@@ -18,7 +18,7 @@ Alternative Syntax Consistence
 	:og:title: Alternative Syntax Consistence
 	:og:type: article
 	:og:description: PHP allows for two syntax : the alternative syntax, and the classic syntax
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/AlternativeConsistenceByFile.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Alternative Syntax Consistence.html
 	:og:locale: en
 PHP allows for two syntax : the alternative syntax, and the classic syntax. 
 

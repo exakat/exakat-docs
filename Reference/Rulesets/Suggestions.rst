@@ -3,6 +3,21 @@
 Suggestions
 +++++++++++
 
+.. meta::
+	:description:
+		Suggestions: List of possible modernisation of the PHP code..
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Suggestions
+	:twitter:description: Suggestions: List of possible modernisation of the PHP code.
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Suggestions
+	:og:type: article
+	:og:description: List of possible modernisation of the PHP code.
+	:og:url: https://exakat.readthedocs.io/en/latest/Rulesets/Suggestions.html
+	:og:locale: en
 This ruleset focuses on possibly better syntax than the one currently used. Those may be code modernization, alternatives, more efficient solutions, or simply left over from older versions. 
 
 Total : 130 analysis

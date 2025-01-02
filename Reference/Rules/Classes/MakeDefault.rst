@@ -18,7 +18,7 @@ Assign Default To Properties
 	:og:title: Assign Default To Properties
 	:og:type: article
 	:og:description: Properties may be assigned default values at declaration time
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/MakeDefault.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Assign Default To Properties.html
 	:og:locale: en
 Properties may be assigned default values at declaration time. Such values may be later modified, if needed. 
 Default values will save some instructions in the constructor, and makes the value obvious in the code.

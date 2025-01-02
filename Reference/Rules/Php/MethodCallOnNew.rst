@@ -18,7 +18,7 @@ Methodcall On New
 	:og:title: Methodcall On New
 	:og:type: article
 	:og:description: It is possible to call a method right at object instantiation
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/MethodCallOnNew.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Methodcall On New.html
 	:og:locale: en
 It is possible to call a method right at object instantiation. 
 

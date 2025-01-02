@@ -18,7 +18,7 @@ Unused Methods
 	:og:title: Unused Methods
 	:og:type: article
 	:og:description: Those methods are never called
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/UnusedMethods.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Unused Methods.html
 	:og:locale: en
 Those methods are never called. 
 

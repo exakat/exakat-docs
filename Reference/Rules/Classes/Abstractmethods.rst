@@ -18,7 +18,7 @@ Abstract Methods Usage
 	:og:title: Abstract Methods Usage
 	:og:type: article
 	:og:description: This rule lists of all abstract methods
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/Abstractmethods.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Abstract Methods Usage.html
 	:og:locale: en
 This rule lists of all abstract methods. This methods serves as template for child classes to implement.
 

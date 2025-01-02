@@ -18,7 +18,7 @@ Logical Operators Favorite
 	:og:title: Logical Operators Favorite
 	:og:type: article
 	:og:description: PHP has two sets of logical operators : letters (and, or, xor) and chars (&&, ||, ^)
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/LetterCharsLogicalFavorite.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Logical Operators Favorite.html
 	:og:locale: en
 PHP has two sets of logical operators : letters (and, or, xor) and chars (&&, ||, ^). 
 

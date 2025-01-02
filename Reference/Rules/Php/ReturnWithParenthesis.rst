@@ -18,7 +18,7 @@ Return With Parenthesis
 	:og:title: Return With Parenthesis
 	:og:type: article
 	:og:description: return statement doesn't require parenthesis
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/ReturnWithParenthesis.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Return With Parenthesis.html
 	:og:locale: en
 return statement doesn't require parenthesis. PHP tolerates them with return statement, but it is recommended not to use them. 
 

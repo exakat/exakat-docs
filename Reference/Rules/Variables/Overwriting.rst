@@ -18,7 +18,7 @@ Overwriting Variable
 	:og:title: Overwriting Variable
 	:og:type: article
 	:og:description: Replacing the content of a variable by something different is prone to errors
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Variables/Overwriting.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Overwriting Variable.html
 	:og:locale: en
 Replacing the content of a variable by something different is prone to errors. For example, it is not obvious if the $text variable is plain text or HTML text. 
 Besides, it is possible that the source is needed later, for extra processing. 

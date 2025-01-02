@@ -18,7 +18,7 @@ While(List() = Each())
 	:og:title: While(List() = Each())
 	:og:type: article
 	:og:description: This code structure is quite old : it should be replace by the more modern and efficient foreach
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/WhileListEach.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/While(List() = Each()).html
 	:og:locale: en
 This code structure is quite old : it should be replace by the more modern and efficient foreach.
 

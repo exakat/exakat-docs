@@ -18,7 +18,7 @@ ext/mysql
 	:og:title: ext/mysql
 	:og:type: article
 	:og:description: Extension for MySQL (Original MySQL API)
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extmysql.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/mysql.html
 	:og:locale: en
 Extension for MySQL (Original MySQL API).
 

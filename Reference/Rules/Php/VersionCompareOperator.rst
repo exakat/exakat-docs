@@ -18,7 +18,7 @@ version_compare Operator
 	:og:title: version_compare Operator
 	:og:type: article
 	:og:description: version_compare()'s third argument is checked for value
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/VersionCompareOperator.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/version_compare Operator.html
 	:og:locale: en
 `version_compare() <https://www.php.net/version_compare>`_'s third argument is checked for value. The third argument specifies the operator, which may be only one of the following : `<`, `lt`, `<=`, `le`, `>`, `gt`, `>=`, `ge`, `==`, `=`, `eq`, `!=`, `<>`, `ne`. The operator is case sensitive.
 

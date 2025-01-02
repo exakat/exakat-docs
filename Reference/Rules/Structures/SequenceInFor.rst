@@ -18,7 +18,7 @@ Sequences In For
 	:og:title: Sequences In For
 	:og:type: article
 	:og:description: For() instructions allow several instructions in each of its parameters
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/SequenceInFor.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Sequences In For.html
 	:og:locale: en
 `For() <https://www.php.net/manual/en/control-structures.for.php>`_ instructions allow several instructions in each of its parameters. Then, the instruction separator is comma ',', not semi-colon, which is used for separating the 3 arguments.
 This loop will simultaneously increment `$a` and `$b`. It will stop only when the last of the central sequence reach a value of false : here, when `$b` reach 20 and `$a` will be 6. 

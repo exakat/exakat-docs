@@ -18,7 +18,7 @@ ext/protobuf
 	:og:title: ext/protobuf
 	:og:type: article
 	:og:description: Extension Protobuf
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extprotobuf.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/protobuf.html
 	:og:locale: en
 Extension Protobuf.
 

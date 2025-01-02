@@ -18,7 +18,7 @@ Can't Implement Throwable
 	:og:title: Can't Implement Throwable
 	:og:type: article
 	:og:description: Classes extending ``Throwable`` can't be thrown, unless they also extend ``Exception``
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Exceptions/CantThrow.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Can't Implement Throwable.html
 	:og:locale: en
 Classes extending ``Throwable`` can't be thrown, unless they also extend ``Exception``. The same applies to interfaces that extends ``Throwable``. 
 

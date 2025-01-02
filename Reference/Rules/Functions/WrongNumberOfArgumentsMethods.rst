@@ -18,7 +18,7 @@ Wrong Number Of Arguments In Methods
 	:og:title: Wrong Number Of Arguments In Methods
 	:og:type: article
 	:og:description: Those methods are called with a wrong number of arguments : too many or too few
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/WrongNumberOfArgumentsMethods.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Wrong Number Of Arguments In Methods.html
 	:og:locale: en
 Those methods are called with a wrong number of arguments : too many or too few. Check the signature.
 Methods with a variable number of argument, either using ellipsis or `func_get_args() <https://www.php.net/func_get_args>`_ are ignored. 

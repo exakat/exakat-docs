@@ -18,7 +18,7 @@ String Int Comparison
 	:og:title: String Int Comparison
 	:og:type: article
 	:og:description: While PHP allows direct comparison of integer and strings, with some type conversion, the rules of conversion changed in PHP 8
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/StringIntComparison.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/String Int Comparison.html
 	:og:locale: en
 While PHP allows direct comparison of integer and strings, with some type conversion, the rules of conversion changed in PHP 8.0. This lead to a change in behavior for comparison.
 

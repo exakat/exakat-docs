@@ -18,7 +18,7 @@ Confusing Names
 	:og:title: Confusing Names
 	:og:type: article
 	:og:description: The following variables's name are very close and may lead to confusion
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Variables/CloseNaming.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Confusing Names.html
 	:og:locale: en
 The following variables's name are very close and may lead to confusion.
 

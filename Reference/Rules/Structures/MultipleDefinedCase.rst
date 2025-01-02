@@ -18,7 +18,7 @@ Multiples Identical Case
 	:og:title: Multiples Identical Case
 	:og:type: article
 	:og:description: Some cases are defined multiple times, but only one will be processed
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/MultipleDefinedCase.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Multiples Identical Case.html
 	:og:locale: en
 Some cases are defined multiple times, but only one will be processed. Check the list of cases, and remove the extra one.
 

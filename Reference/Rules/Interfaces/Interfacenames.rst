@@ -18,7 +18,7 @@ Interfaces Names
 	:og:title: Interfaces Names
 	:og:type: article
 	:og:description: List of all the defined interfaces in the code
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Interfaces/Interfacenames.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Interfaces Names.html
 	:og:locale: en
 List of all the defined interfaces in the code.
 

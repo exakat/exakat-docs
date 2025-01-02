@@ -3,6 +3,21 @@
 Deprecated
 ++++++++++
 
+.. meta::
+	:description:
+		Deprecated: List of deprecated features, across all PHP versions. .
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Deprecated
+	:twitter:description: Deprecated: List of deprecated features, across all PHP versions. 
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Deprecated
+	:og:type: article
+	:og:description: List of deprecated features, across all PHP versions. 
+	:og:url: https://exakat.readthedocs.io/en/latest/Rulesets/Deprecated.html
+	:og:locale: en
 This ruleset centralizes all analysis that are marked as 'deprecated feature' for some versions.
 
 For example : 

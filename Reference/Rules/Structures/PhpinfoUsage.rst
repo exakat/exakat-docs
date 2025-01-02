@@ -18,7 +18,7 @@ Phpinfo
 	:og:title: Phpinfo
 	:og:type: article
 	:og:description: phpinfo() is a great function to learn about the current configuration of the server
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/PhpinfoUsage.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Phpinfo.html
 	:og:locale: en
 `phpinfo() <https://www.php.net/phpinfo>`_ is a great function to learn about the current configuration of the server.
 If left in the production code, it may lead to a critical leak, as any attacker gaining access to this data will know a lot about the server configuration.

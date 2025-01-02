@@ -18,7 +18,7 @@ PHP Bugfixes
 	:og:title: PHP Bugfixes
 	:og:type: article
 	:og:description: This is the list of features, used in the code, that also received a bug fix in recent PHP versions
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/MiddleVersion.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/PHP Bugfixes.html
 	:og:locale: en
 This is the list of features, used in the code, that also received a bug fix in recent PHP versions.
 

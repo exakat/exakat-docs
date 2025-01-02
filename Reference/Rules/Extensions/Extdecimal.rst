@@ -18,7 +18,7 @@ ext/decimal
 	:og:title: ext/decimal
 	:og:type: article
 	:og:description: Extension php-decimal, by ``Rudi Theunissen``
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extdecimal.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/decimal.html
 	:og:locale: en
 Extension php-decimal, by ``Rudi Theunissen``.
 

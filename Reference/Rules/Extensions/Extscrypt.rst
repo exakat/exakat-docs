@@ -18,7 +18,7 @@ ext/scrypt
 	:og:title: ext/scrypt
 	:og:type: article
 	:og:description: This is a PHP library providing a wrapper to Colin Percival's scrypt implementation
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extscrypt.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/scrypt.html
 	:og:locale: en
 This is a PHP library providing a wrapper to Colin Percival's scrypt implementation. Scrypt is a key derivation function designed to be far more `secure <https://www.php.net/secure>`_ against hardware brute-force attacks than alternative functions such as PBKDF2 or bcrypt.
 

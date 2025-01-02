@@ -18,7 +18,7 @@ get_class() Without Argument
 	:og:title: get_class() Without Argument
 	:og:type: article
 	:og:description: get_class() and get_parent_class() should not be called without arguments
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/GetClassWithoutArg.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/get_class() Without Argument.html
 	:og:locale: en
 `get_class() <https://www.php.net/get_class>`_ and `get_parent_class() <https://www.php.net/get_parent_class>`_ should not be called without arguments. It was possible until PHP 8.3, but it is now a deprecated behavior.
 

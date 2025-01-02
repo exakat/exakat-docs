@@ -18,7 +18,7 @@ Fn Argument Variable Confusion
 	:og:title: Fn Argument Variable Confusion
 	:og:type: article
 	:og:description: Avoid using local variables as arrow function arguments
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/FnArgumentVariableConfusion.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Fn Argument Variable Confusion.html
 	:og:locale: en
 Avoid using local variables as arrow function arguments.
 

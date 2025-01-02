@@ -18,7 +18,7 @@ Interfaces Is Not Implemented
 	:og:title: Interfaces Is Not Implemented
 	:og:type: article
 	:og:description: Classes that implements interfaces, must implements each of the interface's methods
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Interfaces/IsNotImplemented.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Interfaces Is Not Implemented.html
 	:og:locale: en
 Classes that implements interfaces, must implements each of the interface's methods. Otherwise, the class shall be marked as ``abstract``.
 This problem tends to occur in code that splits interfaces and classes by file. This means that PHP's linting will skip the definitions and not find the problem. At execution time, the definitions will be checked, and a Fatal `error <https://www.php.net/error>`_ will occur.

@@ -18,7 +18,7 @@ Set Method Fnp
 	:og:title: Set Method Fnp
 	:og:type: article
 	:og:description: Complete code by adding the ``fullnspath`` property to methods calls
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Complete/SetMethodFnp.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Set Method Fnp.html
 	:og:locale: en
 Complete code by adding the ``fullnspath`` property to methods calls. 
 

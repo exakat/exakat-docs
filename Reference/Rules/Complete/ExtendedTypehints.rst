@@ -18,7 +18,7 @@ Extended Typehints
 	:og:title: Extended Typehints
 	:og:type: article
 	:og:description: Produces all the definition links between typehints (arguments, return types, properties) and the definitions that are valid with the typehint
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Complete/ExtendedTypehints.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Extended Typehints.html
 	:og:locale: en
 Produces all the definition links between typehints (arguments, return types, properties) and the definitions that are valid with the typehint.
 

@@ -18,7 +18,7 @@ Unreachable Code
 	:og:title: Unreachable Code
 	:og:type: article
 	:og:description: Code may be unreachable, because other instructions prevent its reaching
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/UnreachableCode.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Unreachable Code.html
 	:og:locale: en
 Code may be unreachable, because other instructions prevent its reaching. 
 

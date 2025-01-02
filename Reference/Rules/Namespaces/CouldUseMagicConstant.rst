@@ -18,7 +18,7 @@ Could Use Namespace Magic Constant
 	:og:title: Could Use Namespace Magic Constant
 	:og:type: article
 	:og:description: Use the __NAMESPACE__ magic constant, instead of hardcoding the current namespace
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Namespaces/CouldUseMagicConstant.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Could Use Namespace Magic Constant.html
 	:og:locale: en
 Use the `__NAMESPACE__ <https://www.php.net/manual/en/language.constants.predefined.php>`_ magic constant, instead of hardcoding the current namespace. That way, the namespace is easier to read, and it will change with the namespace expression.
 

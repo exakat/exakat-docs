@@ -18,7 +18,7 @@ Mismatch Properties Typehints
 	:og:title: Mismatch Properties Typehints
 	:og:type: article
 	:og:description: Properties must match within the same family
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/MismatchProperties.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Mismatch Properties Typehints.html
 	:og:locale: en
 Properties must match within the same family.
 

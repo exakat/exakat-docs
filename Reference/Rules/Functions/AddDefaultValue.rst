@@ -18,7 +18,7 @@ Add Default Value
 	:og:title: Add Default Value
 	:og:type: article
 	:og:description: Parameter in methods definition may receive a default value
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/AddDefaultValue.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Add Default Value.html
 	:og:locale: en
 Parameter in methods definition may receive a default value. This allows the called method to set a value when the parameter is omitted.
 

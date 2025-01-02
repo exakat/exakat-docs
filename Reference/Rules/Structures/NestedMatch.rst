@@ -18,7 +18,7 @@ Nested Match
 	:og:title: Nested Match
 	:og:type: article
 	:og:description: Nested match calls makes the code difficult to read
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/NestedMatch.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Nested Match.html
 	:og:locale: en
 Nested match calls makes the code difficult to read. It is recommended to avoid nesting match calls.
 

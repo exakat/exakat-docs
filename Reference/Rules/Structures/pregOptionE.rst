@@ -18,7 +18,7 @@ preg_replace With Option e
 	:og:title: preg_replace With Option e
 	:og:type: article
 	:og:description: preg_replace() supported the /e option until PHP 7
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/pregOptionE.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/preg_replace With Option e.html
 	:og:locale: en
 `preg_replace() <https://www.php.net/preg_replace>`_ supported the /e option until PHP 7.0. It allowed the use of eval()'ed expression as replacement. This has been dropped in PHP 7.0, for security reasons.
 

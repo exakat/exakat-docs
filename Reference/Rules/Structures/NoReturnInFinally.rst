@@ -18,7 +18,7 @@ No Return Or Throw In Finally
 	:og:title: No Return Or Throw In Finally
 	:og:type: article
 	:og:description: Avoid using return and throw in a finally block
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/NoReturnInFinally.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No Return Or Throw In Finally.html
 	:og:locale: en
 Avoid using return and throw in a finally block. Both command will interrupt the processing of the try catch block, and any `exception <https://www.php.net/exception>`_ that was emitted will not be processed. This leads to unprocessed exceptions, leaving the application in an unstable state.
 

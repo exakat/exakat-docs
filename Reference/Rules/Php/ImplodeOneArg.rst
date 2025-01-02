@@ -18,7 +18,7 @@ Implode One Arg
 	:og:title: Implode One Arg
 	:og:type: article
 	:og:description: implode() may be called with one arg
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/ImplodeOneArg.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Implode One Arg.html
 	:og:locale: en
 `implode() <https://www.php.net/implode>`_ may be called with one arg. It is recommended to avoid it. 
 

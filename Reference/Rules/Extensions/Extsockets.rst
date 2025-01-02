@@ -18,7 +18,7 @@ ext/sockets
 	:og:title: ext/sockets
 	:og:type: article
 	:og:description: Extension socket
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extsockets.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/sockets.html
 	:og:locale: en
 Extension `socket <https://www.php.net/socket>`_.
 

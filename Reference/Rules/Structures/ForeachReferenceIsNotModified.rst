@@ -18,7 +18,7 @@ Foreach Reference Is Not Modified
 	:og:title: Foreach Reference Is Not Modified
 	:og:type: article
 	:og:description: Foreach statement may loop using a reference, especially when the loop has to change values of the array it is looping on
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ForeachReferenceIsNotModified.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Foreach Reference Is Not Modified.html
 	:og:locale: en
 Foreach statement may loop using a reference, especially when the loop has to change values of the array it is looping on. 
 

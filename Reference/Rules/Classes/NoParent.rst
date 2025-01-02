@@ -18,7 +18,7 @@ Class Without Parent
 	:og:title: Class Without Parent
 	:og:type: article
 	:og:description: Classes should not refer to ``parent`` when it is not extending another class
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/NoParent.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Class Without Parent.html
 	:og:locale: en
 Classes should not refer to ``parent`` when it is not extending another class. 
 

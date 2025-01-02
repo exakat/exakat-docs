@@ -18,7 +18,7 @@ Should Use Coalesce
 	:og:title: Should Use Coalesce
 	:og:type: article
 	:og:description: PHP 7 introduced the ``
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/ShouldUseCoalesce.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Should Use Coalesce.html
 	:og:locale: en
 PHP 7 introduced the ``??`` operator, that replaces longer structures to set default values when a variable is not set.
 Sample extracted from PHP docs `Isset Ternary <https://wiki.php.net/rfc/isset_ternary>`_.

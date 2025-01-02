@@ -18,7 +18,7 @@ Weak Typing
 	:og:title: Weak Typing
 	:og:type: article
 	:og:description: The variable's validation is not enough to allow for a sophisticated usage
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/WeakType.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Weak Typing.html
 	:og:locale: en
 The variable's validation is not enough to allow for a sophisticated usage. For example, the variable is checked for null, then used as an object or an array.
 

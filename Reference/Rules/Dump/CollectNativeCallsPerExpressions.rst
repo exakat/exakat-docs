@@ -18,7 +18,7 @@ Collect Native Calls Per Expressions
 	:og:title: Collect Native Calls Per Expressions
 	:og:type: article
 	:og:description: This rule collects the number of PHP native call per expression
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/CollectNativeCallsPerExpressions.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Collect Native Calls Per Expressions.html
 	:og:locale: en
 This rule collects the number of PHP native call per expression. The more calls in an expression, the more complex the code.
 

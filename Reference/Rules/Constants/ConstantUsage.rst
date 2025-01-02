@@ -18,7 +18,7 @@ Constants Usage
 	:og:title: Constants Usage
 	:og:type: article
 	:og:description: List of constants in use in the source code
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Constants/ConstantUsage.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Constants Usage.html
 	:og:locale: en
 List of constants in use in the source code. Constants are `T_STRING <https://www.php.net/T_STRING>`_, localised in specific part of the code. 
 

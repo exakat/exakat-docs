@@ -18,7 +18,7 @@ False To Array Conversion
 	:og:title: False To Array Conversion
 	:og:type: article
 	:og:description: The auto vivification of false is deprecated
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/FalseToArray.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/False To Array Conversion.html
 	:og:locale: en
 The auto vivification of false is deprecated. This feature is the automagical conversion of a boolean into an array, if needed.
 

@@ -18,7 +18,7 @@ Break With 0
 	:og:title: Break With 0
 	:og:type: article
 	:og:description: It is not possible to break 0 : it makes no sense
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/Break0.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Break With 0.html
 	:og:locale: en
 It is not possible to `break <https://www.php.net/manual/en/control-structures.break.php>`_ 0 : it makes no sense. `Break <https://www.php.net/manual/en/control-structures.break.php>`_ 1 is the minimum, and is the default value.
 

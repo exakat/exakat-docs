@@ -18,7 +18,7 @@ Intersection Typehint
 	:og:title: Intersection Typehint
 	:og:type: article
 	:og:description: Intersection typehints allows the combination of several typehint for the same argument or return value
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/Php81IntersectionTypehint.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Intersection Typehint.html
 	:og:locale: en
 Intersection typehints allows the combination of several typehint for the same argument or return value. 
 

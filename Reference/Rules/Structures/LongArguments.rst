@@ -18,7 +18,7 @@ Long Arguments
 	:og:title: Long Arguments
 	:og:type: article
 	:og:description: Long arguments should be put in variable, to preserve readability
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/LongArguments.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Long Arguments.html
 	:og:locale: en
 Long arguments should be put in variable, to preserve readability. 
 

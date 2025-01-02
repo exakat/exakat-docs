@@ -18,7 +18,7 @@ strip_tags() Skips Closed Tag
 	:og:title: strip_tags() Skips Closed Tag
 	:og:type: article
 	:og:description: strip_tags() skips non-self closing tags
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/StripTagsSkipsClosedTag.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/strip_tags() Skips Closed Tag.html
 	:og:locale: en
 `strip_tags() <https://www.php.net/strip_tags>`_ skips non-`self <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ closing tags. This means that tags such as ``<br />`` will be ignored from the second argument of the function.
 

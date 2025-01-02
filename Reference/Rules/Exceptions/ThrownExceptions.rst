@@ -18,7 +18,7 @@ Thrown Exceptions
 	:og:title: Thrown Exceptions
 	:og:type: article
 	:og:description: This rules reports the usage of the ``throw`` keyword
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Exceptions/ThrownExceptions.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Thrown Exceptions.html
 	:og:locale: en
 This rules reports the usage of the ``throw`` keyword. This means all these exceptions are raised at some point in the code.
 

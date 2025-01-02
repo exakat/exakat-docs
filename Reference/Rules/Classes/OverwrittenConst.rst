@@ -18,7 +18,7 @@ Overwritten Class Constants
 	:og:title: Overwritten Class Constants
 	:og:type: article
 	:og:description: Those class constants are overwriting  a parent class's constant
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/OverwrittenConst.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Overwritten Class Constants.html
 	:og:locale: en
 Those class constants are overwriting  a `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ class's constant. This may lead to confusion, as the value of the constant may change depending on the way it is called.
 

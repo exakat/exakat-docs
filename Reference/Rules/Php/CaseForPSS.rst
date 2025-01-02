@@ -18,7 +18,7 @@ Use Lower Case For Parent, Static And Self
 	:og:title: Use Lower Case For Parent, Static And Self
 	:og:type: article
 	:og:description: The special parent, static and self keywords needed to be lowercase to be usable
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/CaseForPSS.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Use Lower Case For Parent, Static And Self.html
 	:og:locale: en
 The special `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_, `static <https://www.php.net/manual/en/language.oop5.static.php>`_ and `self <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ keywords needed to be lowercase to be usable. This was fixed in PHP 5.5; otherwise, they would yield a 'PHP Fatal error:  Class '`PARENT <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_' not found'.
 

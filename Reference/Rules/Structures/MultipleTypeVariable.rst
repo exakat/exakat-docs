@@ -18,7 +18,7 @@ Multiple Type Variable
 	:og:title: Multiple Type Variable
 	:og:type: article
 	:og:description: Avoid using the same variable with different types of data
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/MultipleTypeVariable.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Multiple Type Variable.html
 	:og:locale: en
 Avoid using the same variable with different types of data. 
 

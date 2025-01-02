@@ -18,7 +18,7 @@ Use session_start() Options
 	:og:title: Use session_start() Options
 	:og:type: article
 	:og:description: It is possible to set the session's option at session_start() call, skipping the usage of session_option()
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/UseSessionStartOptions.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Use session_start() Options.html
 	:og:locale: en
 It is possible to set the session's option at `session_start() <https://www.php.net/session_start>`_ call, skipping the usage of session_option().
 

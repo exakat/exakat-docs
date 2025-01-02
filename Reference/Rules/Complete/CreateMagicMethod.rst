@@ -18,7 +18,7 @@ Create Magic Method
 	:og:title: Create Magic Method
 	:og:type: article
 	:og:description: This command creates a link DEFINITION between a ``__call()`` and ``__callStatic()`` calls, and its equivalent magic method
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Complete/CreateMagicMethod.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Create Magic Method.html
 	:og:locale: en
 This command creates a link DEFINITION between a ``__call()`` and ``__callStatic()`` calls, and its equivalent magic method.
 This command may not detect all possible link for the ``__get()`` and ``__set()`` call. It may be missing information about the nature of the object. ``Self``, ``static``, ``parent`` and simple variables are detected.

@@ -18,7 +18,7 @@ Try Without Catch
 	:og:title: Try Without Catch
 	:og:type: article
 	:og:description: Try may only hold a finally clause, to ensure that some code is always executed, in case of error or not
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Exceptions/TryNoCatch.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Try Without Catch.html
 	:og:locale: en
 Try may only hold a finally clause, to ensure that some code is always executed, in case of `error <https://www.php.net/error>`_ or not.
 

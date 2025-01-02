@@ -18,7 +18,7 @@ Property Cannot Be Readonly
 	:og:title: Property Cannot Be Readonly
 	:og:type: article
 	:og:description: This analysis reports different situations where a property is readonly, and has some impossible code
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/CannotBeReadonly.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Property Cannot Be Readonly.html
 	:og:locale: en
 This analysis reports different situations where a property is readonly, and has some impossible code. 
 

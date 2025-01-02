@@ -18,7 +18,7 @@ Don't Add Seconds
 	:og:title: Don't Add Seconds
 	:og:type: article
 	:og:description: Avoid adding seconds to a date, and use ``DateTime::modify`` to add an interval
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/DontAddSeconds.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Don't Add Seconds.html
 	:og:locale: en
 Avoid adding seconds to a date, and use ``DateTime\:\:modify`` to add an interval. 
 

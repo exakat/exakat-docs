@@ -3,6 +3,21 @@
 Performances
 ++++++++++++
 
+.. meta::
+	:description:
+		Performances: Check the code for slow code..
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: Performances
+	:twitter:description: Performances: Check the code for slow code.
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: Performances
+	:og:type: article
+	:og:description: Check the code for slow code.
+	:og:url: https://exakat.readthedocs.io/en/latest/Rulesets/Performances.html
+	:og:locale: en
 This ruleset focuses on performances issues : anything that slows the code's execution.
 
 Total : 60 analysis

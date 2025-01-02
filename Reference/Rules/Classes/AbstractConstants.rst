@@ -18,7 +18,7 @@ Abstract Class Constants
 	:og:title: Abstract Class Constants
 	:og:type: article
 	:og:description: Those are class constants which are defined in multiple children, but not in the parent class
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/AbstractConstants.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Abstract Class Constants.html
 	:og:locale: en
 Those are class constants which are defined in multiple children, but not in the `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ class.
 

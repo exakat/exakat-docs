@@ -18,7 +18,7 @@ Missing Type In Definition
 	:og:title: Missing Type In Definition
 	:og:type: article
 	:og:description: This rule reports any missing typehints, on parameters, return value, property or class constants
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Typehints/MissingTypehints.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Missing Type In Definition.html
 	:og:locale: en
 This rule reports any missing typehints, on parameters, return value, property or class constants. It is recommended to add types to all possible structures to make the type system more efficient.
 

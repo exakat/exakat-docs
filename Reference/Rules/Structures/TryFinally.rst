@@ -18,7 +18,7 @@ Try With Finally
 	:og:title: Try With Finally
 	:og:type: article
 	:og:description: Indicates if a try use a finally statement
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/TryFinally.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Try With Finally.html
 	:og:locale: en
 Indicates if a try use a finally statement.
 

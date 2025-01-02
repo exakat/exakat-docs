@@ -18,7 +18,7 @@ Could Be Constant
 	:og:title: Could Be Constant
 	:og:type: article
 	:og:description: Literals may be replaced by an existing constant
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Constants/CouldBeConstant.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Could Be Constant.html
 	:og:locale: en
 Literals may be replaced by an existing constant. 
 

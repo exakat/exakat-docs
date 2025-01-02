@@ -18,7 +18,7 @@ Unfinished Object
 	:og:title: Unfinished Object
 	:og:type: article
 	:og:description: Some of the properties are not assigned a value before or at constructor time
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/UnfinishedObject.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Unfinished Object.html
 	:og:locale: en
 Some of the properties are not assigned a value before or at constructor time. Then, they might be called when one of the other public method is called, and yield a fatal `error <https://www.php.net/error>`_.
 

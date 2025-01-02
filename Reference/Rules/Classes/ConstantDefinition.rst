@@ -18,7 +18,7 @@ Constant Definition
 	:og:title: Constant Definition
 	:og:type: article
 	:og:description: List of class constants being defined
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/ConstantDefinition.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Constant Definition.html
 	:og:locale: en
 List of class constants being defined.
 

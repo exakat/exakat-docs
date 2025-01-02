@@ -18,7 +18,7 @@ Environment Variable Usage
 	:og:title: Environment Variable Usage
 	:og:type: article
 	:og:description: This rule collects all environment variables used in the application, for inventory purposes
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Dump/EnvironnementVariables.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Environment Variable Usage.html
 	:og:locale: en
 This rule collects all environment variables used in the application, for inventory purposes. Environment variables are detected with the usage of the ``$_SERVER`` superglobal variable, or calls to the `getenv() <https://www.php.net/getenv>`_ and setenv() native functions. 
 

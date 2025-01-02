@@ -18,7 +18,7 @@ Forgotten Visibility
 	:og:title: Forgotten Visibility
 	:og:type: article
 	:og:description: Some classes elements (property, method, constant) are missing their explicit visibility
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/NonPpp.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Forgotten Visibility.html
 	:og:locale: en
 Some classes elements (property, method, constant) are missing their explicit visibility.
 

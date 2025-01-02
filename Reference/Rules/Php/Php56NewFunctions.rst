@@ -18,7 +18,7 @@ New Functions In PHP 5.6
 	:og:title: New Functions In PHP 5.6
 	:og:type: article
 	:og:description: PHP introduced new functions in PHP 5
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/Php56NewFunctions.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/New Functions In PHP 5.6.html
 	:og:locale: en
 PHP introduced new functions in PHP 5.6. If you have already defined functions with such names, you will get a conflict when trying to upgrade. It is advised to change those functions' name.
 

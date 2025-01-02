@@ -18,7 +18,7 @@ ext/filter
 	:og:title: ext/filter
 	:og:type: article
 	:og:description: Extension filter
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extfilter.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/filter.html
 	:og:locale: en
 Extension filter.
 

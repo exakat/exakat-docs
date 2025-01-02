@@ -18,7 +18,7 @@ Abstract Or Implements
 	:og:title: Abstract Or Implements
 	:og:type: article
 	:og:description: A class must implements all abstract methods of it parents, or be abstract too
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/AbstractOrImplements.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Abstract Or Implements.html
 	:og:locale: en
 A class must implements all abstract methods of it parents, or be abstract too. 
 

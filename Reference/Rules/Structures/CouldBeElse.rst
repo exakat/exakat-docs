@@ -18,7 +18,7 @@ Could Be Else
 	:og:title: Could Be Else
 	:og:type: article
 	:og:description: Merge opposite conditions into one if/then structure
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/CouldBeElse.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Could Be Else.html
 	:og:locale: en
 Merge opposite conditions into one if/then structure.
 

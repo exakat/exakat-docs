@@ -18,7 +18,7 @@ ext/session
 	:og:title: ext/session
 	:og:type: article
 	:og:description: Extension ext/session
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extsession.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/session.html
 	:og:locale: en
 Extension ext/session.
 

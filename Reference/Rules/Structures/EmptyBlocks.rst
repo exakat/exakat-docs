@@ -18,7 +18,7 @@ Empty Blocks
 	:og:title: Empty Blocks
 	:og:type: article
 	:og:description: Full empty block, part of a control structures
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/EmptyBlocks.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Empty Blocks.html
 	:og:locale: en
 Full empty block, part of a control structures. 
 

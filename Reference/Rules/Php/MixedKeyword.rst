@@ -18,7 +18,7 @@ The Mixed Keyword
 	:og:title: The Mixed Keyword
 	:og:type: article
 	:og:description: `mixed` has becomes a PHP keyword
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/MixedKeyword.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/The Mixed Keyword.html
 	:og:locale: en
 `mixed` has becomes a PHP keyword. It is used for explicitly typing methods, argument or properties which accept any type of data.
 

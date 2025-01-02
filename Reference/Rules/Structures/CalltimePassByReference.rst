@@ -18,7 +18,7 @@ Calltime Pass By Reference
 	:og:title: Calltime Pass By Reference
 	:og:type: article
 	:og:description: PHP doesn't allow when a value is turned into a reference at functioncall, since PHP 5
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/CalltimePassByReference.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Calltime Pass By Reference.html
 	:og:locale: en
 PHP doesn't allow when a value is turned into a reference at functioncall, since PHP 5.4. 
 

@@ -18,7 +18,7 @@ ext/mail
 	:og:title: ext/mail
 	:og:type: article
 	:og:description: Extension for mail
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extmail.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/mail.html
 	:og:locale: en
 Extension for mail.
 

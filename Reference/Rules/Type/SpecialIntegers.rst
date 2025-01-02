@@ -18,7 +18,7 @@ Special Integers
 	:og:title: Special Integers
 	:og:type: article
 	:og:description: Short and incomplete list of integers that may hold special values
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Type/SpecialIntegers.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Special Integers.html
 	:og:locale: en
 Short and incomplete list of integers that may hold special values. 
 The list includes powers of 2, duration in various units, factorial, ASCII codes and years.

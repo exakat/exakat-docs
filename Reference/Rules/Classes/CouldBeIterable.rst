@@ -18,7 +18,7 @@ This Could Be Iterable
 	:og:title: This Could Be Iterable
 	:og:type: article
 	:og:description: An argument that is both array and traversable may be typed iterable
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/CouldBeIterable.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/This Could Be Iterable.html
 	:og:locale: en
 An argument that is both array and `traversable <https://www.php.net/`traversable <https://www.php.net/traversable>`_>`_ may be typed iterable. Iterable is a more generic type than array, and allows the usage of iterators too.
 

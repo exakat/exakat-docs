@@ -18,7 +18,7 @@ Filter To add_slashes()
 	:og:title: Filter To add_slashes()
 	:og:type: article
 	:og:description: ``FILTER_SANITIZE_MAGIC_QUOTES`` is deprecated
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/FilterToAddSlashes.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Filter To add_slashes().html
 	:og:locale: en
 ``FILTER_SANITIZE_MAGIC_QUOTES`` is deprecated. In PHP 7.4, it should be replaced with `addslashes() <https://www.php.net/addslashes>`_
 

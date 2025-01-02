@@ -18,7 +18,7 @@ Could Be array_combine()
 	:og:title: Could Be array_combine()
 	:og:type: article
 	:og:description: This rule suggests using the native function array_combine() to merge two arrays into a hash
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/CouldBeArrayCombine.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Could Be array_combine().html
 	:og:locale: en
 This rule suggests using the native function `array_combine() <https://www.php.net/array_combine>`_ to merge two arrays into a hash. `array_combine() <https://www.php.net/array_combine>`_ takes the keys and the values from two distinct arrays, and merge them into one.
 

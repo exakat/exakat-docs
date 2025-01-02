@@ -18,7 +18,7 @@ No Class In Global
 	:og:title: No Class In Global
 	:og:type: article
 	:og:description: Avoid defining structures in Global namespace
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/NoClassInGlobal.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No Class In Global.html
 	:og:locale: en
 Avoid defining structures in Global namespace. Always prefer using a namespace. This will come handy later, either when publishing the code, or when importing a library, or even if PHP reclaims that name.
 

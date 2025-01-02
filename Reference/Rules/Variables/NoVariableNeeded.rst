@@ -18,7 +18,7 @@ No Variable Needed
 	:og:title: No Variable Needed
 	:og:type: article
 	:og:description: This analysis reports methods where the local variables are not needed
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Variables/NoVariableNeeded.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No Variable Needed.html
 	:og:locale: en
 This analysis reports methods where the local variables are not needed.
 

@@ -18,7 +18,7 @@ Set Class Remote Definition With Local New
 	:og:title: Set Class Remote Definition With Local New
 	:og:type: article
 	:og:description: Links method calls and properties to its definition, thanks to the local new
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Complete/SetClassRemoteDefinitionWithLocalNew.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Set Class Remote Definition With Local New.html
 	:og:locale: en
 Links method calls and properties to its definition, thanks to the local new. The link is ``DEFINITION``.
 

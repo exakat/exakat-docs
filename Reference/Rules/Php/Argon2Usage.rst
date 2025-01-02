@@ -18,7 +18,7 @@ Argon2 Usage
 	:og:title: Argon2 Usage
 	:og:type: article
 	:og:description: Argon2 is an optionally compiled password hashing API
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/Argon2Usage.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Argon2 Usage.html
 	:og:locale: en
 Argon2 is an optionally compiled password hashing API. 
 

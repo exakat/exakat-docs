@@ -18,7 +18,7 @@ PHP 8.2 New Types
 	:og:title: PHP 8.2 New Types
 	:og:type: article
 	:og:description: This rule reports usage of the new PHP 8
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/Php82NewTypes.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/PHP 8.2 New Types.html
 	:og:locale: en
 This rule reports usage of the new PHP 8.2 types. This is the `true` type.
 

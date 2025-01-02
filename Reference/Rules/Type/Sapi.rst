@@ -18,7 +18,7 @@ PHP Sapi
 	:og:title: PHP Sapi
 	:og:type: article
 	:og:description: List of PHP SAPI mentioned in the code
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Type/Sapi.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/PHP Sapi.html
 	:og:locale: en
 List of PHP SAPI mentioned in the code. When those SAPI are mentioned in strings, they are usually checked to take advantage of special characteristics. Check the code for portability.
 

@@ -18,7 +18,7 @@ fputcsv() In Loops
 	:og:title: fputcsv() In Loops
 	:og:type: article
 	:og:description: fputcsv() is slow when called on each row
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Performances/CsvInLoops.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/fputcsv() In Loops.html
 	:og:locale: en
 `fputcsv() <https://www.php.net/fputcsv>`_ is slow when called on each row. It actually flushes the data to the disk each time, and that results in a inefficient dump to the disk, each call.
 

@@ -18,7 +18,7 @@ Useless Parenthesis
 	:og:title: Useless Parenthesis
 	:og:type: article
 	:og:description: Situations where parenthesis are not necessary, and may be removed
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/UselessParenthesis.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Useless Parenthesis.html
 	:og:locale: en
 Situations where parenthesis are not necessary, and may be removed.
 

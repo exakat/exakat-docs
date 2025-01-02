@@ -18,7 +18,7 @@ Could Be Readonly Property
 	:og:title: Could Be Readonly Property
 	:og:type: article
 	:og:description: This property could be made readonly
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/CouldBeReadonlyProperty.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Could Be Readonly Property.html
 	:og:locale: en
 This property could be made readonly. For that, the property is set in the constructor, and optionally in the ``__clone`` magic method, and never modified otherwise.
 

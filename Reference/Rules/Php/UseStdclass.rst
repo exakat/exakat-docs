@@ -18,7 +18,7 @@ Avoid Using stdClass
 	:og:title: Avoid Using stdClass
 	:og:type: article
 	:og:description: ``stdClass`` is the default class for PHP
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/UseStdclass.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Avoid Using stdClass.html
 	:og:locale: en
 ``stdClass`` is the default class for PHP. It is instantiated when PHP needs to return a object, but no class is specifically available.
 

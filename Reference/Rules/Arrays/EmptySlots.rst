@@ -18,7 +18,7 @@ Empty Slots In Arrays
 	:og:title: Empty Slots In Arrays
 	:og:type: article
 	:og:description: PHP allows the last element of an array to be empty
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Arrays/EmptySlots.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Empty Slots In Arrays.html
 	:og:locale: en
 PHP allows the last element of an array to be empty. It doesn't allow any other element to be empty: it should at least be an explicit `NULL <https://www.php.net/manual/en/language.types.null.php>`_  value.
 

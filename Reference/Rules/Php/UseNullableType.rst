@@ -18,7 +18,7 @@ Use Nullable Type
 	:og:title: Use Nullable Type
 	:og:type: article
 	:og:description: The code uses nullable type, available since PHP 7
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/UseNullableType.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Use Nullable Type.html
 	:og:locale: en
 The code uses nullable type, available since PHP 7.1.
 

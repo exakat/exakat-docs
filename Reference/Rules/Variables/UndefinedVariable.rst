@@ -18,7 +18,7 @@ Undefined Variable
 	:og:title: Undefined Variable
 	:og:type: article
 	:og:description: Variable that is used before any initialisation
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Variables/UndefinedVariable.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Undefined Variable.html
 	:og:locale: en
 Variable that is used before any initialisation. 
 

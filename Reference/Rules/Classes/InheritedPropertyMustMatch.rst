@@ -18,7 +18,7 @@ Inherited Property Type Must Match
 	:og:title: Inherited Property Type Must Match
 	:og:type: article
 	:og:description: Properties that are inherited between classes must match
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/InheritedPropertyMustMatch.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Inherited Property Type Must Match.html
 	:og:locale: en
 Properties that are inherited between classes must match. 
 

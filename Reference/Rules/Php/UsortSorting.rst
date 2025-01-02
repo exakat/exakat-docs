@@ -18,7 +18,7 @@ Usort Sorting In PHP 7.0
 	:og:title: Usort Sorting In PHP 7.0
 	:og:type: article
 	:og:description: Usort(), uksort() and uasort() behavior has changed in PHP 7
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/UsortSorting.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Usort Sorting In PHP 7.0.html
 	:og:locale: en
 `Usort() <https://www.php.net/usort>`_, `uksort() <https://www.php.net/uksort>`_ and `uasort() <https://www.php.net/uasort>`_ behavior has changed in PHP 7. Values that are equals (based on the user-provided method) may be sorted differently than in PHP 5. 
 

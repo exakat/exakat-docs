@@ -18,7 +18,7 @@ No String With Append
 	:og:title: No String With Append
 	:og:type: article
 	:og:description: PHP 7 doesn't allow the usage of [] with strings
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/NoStringWithAppend.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No String With Append.html
 	:og:locale: en
 PHP 7 doesn't allow the usage of [] with strings. [] is an array-only operator.
 

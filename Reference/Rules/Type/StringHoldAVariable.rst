@@ -18,7 +18,7 @@ String May Hold A Variable
 	:og:title: String May Hold A Variable
 	:og:type: article
 	:og:description: Strings that contains a variable, yet are not interpolated
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Type/StringHoldAVariable.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/String May Hold A Variable.html
 	:og:locale: en
 Strings that contains a variable, yet are not interpolated. 
 

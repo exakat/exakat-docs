@@ -18,7 +18,7 @@ Class Could Be Readonly
 	:og:title: Class Could Be Readonly
 	:og:type: article
 	:og:description: When all properties are readonly, it is possible to set the option at the class
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/CouldBeReadonly.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Class Could Be Readonly.html
 	:og:locale: en
 When all properties are readonly, it is possible to set the option at the class. This feature was introduced in PHP 8.2.
 

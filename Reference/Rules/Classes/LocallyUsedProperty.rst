@@ -18,7 +18,7 @@ Locally Used Property
 	:og:title: Locally Used Property
 	:og:type: article
 	:og:description: List of properties that are used in the class where they are defined
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/LocallyUsedProperty.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Locally Used Property.html
 	:og:locale: en
 List of properties that are used in the class where they are defined.
 

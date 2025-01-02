@@ -18,7 +18,7 @@ Is An Extension Constant
 	:og:title: Is An Extension Constant
 	:og:type: article
 	:og:description: Mark a constant if it belongs to a known extension
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Constants/IsExtConstant.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Is An Extension Constant.html
 	:og:locale: en
 Mark a constant if it belongs to a known extension.
 

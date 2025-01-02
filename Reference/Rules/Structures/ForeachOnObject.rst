@@ -18,7 +18,7 @@ foreach() On Object
 	:og:title: foreach() On Object
 	:og:type: article
 	:og:description: This analysis reports usage of a foreach() structure on an object
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/ForeachOnObject.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/foreach() On Object.html
 	:og:locale: en
 This analysis reports usage of a `foreach() <https://www.php.net/manual/en/control-structures.foreach.php>`_ structure on an object. That object shall not be an array, nor an object with array syntax, such as ``Traversable``.
 

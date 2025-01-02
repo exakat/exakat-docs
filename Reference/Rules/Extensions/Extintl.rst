@@ -18,7 +18,7 @@ ext/intl
 	:og:title: ext/intl
 	:og:type: article
 	:og:description: Extension international
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Extintl.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/intl.html
 	:og:locale: en
 Extension international.
 

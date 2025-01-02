@@ -3,6 +3,21 @@
 CE
 ++
 
+.. meta::
+	:description:
+		CE: List of rules that are part of the Community Edition.
+	:twitter:card: summary_large_image
+	:twitter:site: @exakat
+	:twitter:title: CE
+	:twitter:description: CE: List of rules that are part of the Community Edition
+	:twitter:creator: @exakat
+	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+	:og:title: CE
+	:og:type: article
+	:og:description: List of rules that are part of the Community Edition
+	:og:url: https://exakat.readthedocs.io/en/latest/Rulesets/CE.html
+	:og:locale: en
 This ruleset is the Community Edition list. It holds all the analysis that are in the community edition version of Exakat.
 
 Total : 624 analysis

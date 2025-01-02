@@ -18,7 +18,7 @@ Unused Trait In Class
 	:og:title: Unused Trait In Class
 	:og:type: article
 	:og:description: A trait has been summoned in a class, but is not used
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Traits/UnusedClassTrait.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Unused Trait In Class.html
 	:og:locale: en
 A trait has been summoned in a class, but is not used. Traits may be used as a copy/paste of code, bringing a batch of methods and properties to a class. In the current case, the imported trait is never called. As such, it may be removed. 
 

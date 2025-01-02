@@ -18,7 +18,7 @@ Openssl Encrypt Default Algorithm Change
 	:og:title: Openssl Encrypt Default Algorithm Change
 	:og:type: article
 	:og:description: openssl_pkcs7_encrypt() and openssl_cms_encrypt() will now default to using AES-128-CBC rather than RC2-40
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/OpensslEncryptAlgoChange.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Openssl Encrypt Default Algorithm Change.html
 	:og:locale: en
 `openssl_pkcs7_encrypt() <https://www.php.net/openssl_pkcs7_encrypt>`_ and `openssl_cms_encrypt() <https://www.php.net/openssl_cms_encrypt>`_ will now default to using AES-128-CBC rather than RC2-40. The RC2-40 cipher is considered insecure and not enabled by default in OpenSSL 3.
 

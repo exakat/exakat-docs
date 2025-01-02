@@ -18,7 +18,7 @@ Useless Default Argument
 	:og:title: Useless Default Argument
 	:og:type: article
 	:og:description: One of the argument has a default value, and this default value is never used
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/UselessDefault.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Useless Default Argument.html
 	:og:locale: en
 One of the argument has a default value, and this default value is never used. Every time the method is called, the argument is provided explicitly, rendering the default value actually useless.
 

@@ -18,7 +18,7 @@ Drupal Usage
 	:og:title: Drupal Usage
 	:og:type: article
 	:og:description: This analysis reports usage of the Drupal CMS
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Vendors/Drupal.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Drupal Usage.html
 	:og:locale: en
 This analysis reports usage of the Drupal CMS. The report is based on the usage of Drupal namespace.
 

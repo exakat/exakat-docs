@@ -18,7 +18,7 @@ One If Is Sufficient
 	:og:title: One If Is Sufficient
 	:og:type: article
 	:og:description: Nested conditions may be rewritten another way, to reduce the amount of code
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/OneIfIsSufficient.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/One If Is Sufficient.html
 	:og:locale: en
 Nested conditions may be rewritten another way, to reduce the amount of code.
 

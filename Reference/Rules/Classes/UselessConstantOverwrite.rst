@@ -18,7 +18,7 @@ Useless Constant Overwrite
 	:og:title: Useless Constant Overwrite
 	:og:type: article
 	:og:description: A class constant is defined in a parent and child class, with the same value
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/UselessConstantOverwrite.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Useless Constant Overwrite.html
 	:og:locale: en
 A class constant is defined in a `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ and child class, with the same value. One of them is useless and may be removed.
 

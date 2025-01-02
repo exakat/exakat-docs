@@ -18,7 +18,7 @@ Bail Out Early
 	:og:title: Bail Out Early
 	:og:type: article
 	:og:description: When using conditions, it is recommended to quit in the current context, and avoid the else clause altogether
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/BailOutEarly.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Bail Out Early.html
 	:og:locale: en
 When using conditions, it is recommended to quit in the current context, and avoid the else clause altogether. 
 

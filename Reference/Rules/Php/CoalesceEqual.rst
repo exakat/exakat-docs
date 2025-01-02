@@ -18,7 +18,7 @@ Coalesce Equal
 	:og:title: Coalesce Equal
 	:og:type: article
 	:og:description: Usage of coalesce assignment operator
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/CoalesceEqual.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Coalesce Equal.html
 	:og:locale: en
 Usage of coalesce assignment operator. The operator is available in PHP since PHP 7.4.
 

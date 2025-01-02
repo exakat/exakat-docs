@@ -18,7 +18,7 @@ ext/iconv
 	:og:title: ext/iconv
 	:og:type: article
 	:og:description: Extension ext/iconv
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Extensions/Exticonv.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/iconv.html
 	:og:locale: en
 Extension ext/iconv.
 

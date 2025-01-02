@@ -18,7 +18,7 @@ Invalid Pack Format
 	:og:title: Invalid Pack Format
 	:og:type: article
 	:og:description: Some characters are invalid in a pack() format string
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/InvalidPackFormat.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Invalid Pack Format.html
 	:og:locale: en
 Some characters are invalid in a `pack() <https://www.php.net/pack>`_ format string.
 

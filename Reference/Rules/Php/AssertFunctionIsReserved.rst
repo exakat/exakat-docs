@@ -18,7 +18,7 @@ Assert Function Is Reserved
 	:og:title: Assert Function Is Reserved
 	:og:type: article
 	:og:description: Avoid defining an ``assert`` function in namespaces
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/AssertFunctionIsReserved.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Assert Function Is Reserved.html
 	:og:locale: en
 Avoid defining an ``assert`` function in namespaces. 
 

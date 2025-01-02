@@ -18,7 +18,7 @@ Wrong Function Name Case
 	:og:title: Wrong Function Name Case
 	:og:type: article
 	:og:description: The spotted functions are used with a different case than their definition
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/WrongCase.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Wrong Function Name Case.html
 	:og:locale: en
 The spotted functions are used with a different case than their definition. While PHP accepts this, it makes the code harder to read. 
 

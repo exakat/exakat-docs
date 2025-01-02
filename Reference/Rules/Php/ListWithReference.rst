@@ -18,7 +18,7 @@ List With Reference
 	:og:title: List With Reference
 	:og:type: article
 	:og:description: Support for references in list calls is not backward compatible with older versions of PHP
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/ListWithReference.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/List With Reference.html
 	:og:locale: en
 Support for references in list calls is not backward compatible with older versions of PHP. The support was introduced in PHP 7.3.
 

@@ -18,7 +18,7 @@ Pre-increment
 	:og:title: Pre-increment
 	:og:type: article
 	:og:description: When possible, use the pre-increment operator (``++$i`` or ``--$i``) instead of the post-increment operator (``$i++`` or ``$i--``)
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Performances/PrePostIncrement.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Pre-increment.html
 	:og:locale: en
 When possible, use the pre-increment operator (``++$i`` or ``--$i``) instead of the post-increment operator (``$i++`` or ``$i--``).
 

@@ -18,7 +18,7 @@ Could Set Property Default
 	:og:title: Could Set Property Default
 	:og:type: article
 	:og:description: When a property is set to a literal in the constructor, the assignation may be moved to the property definition
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/CouldSetPropertyDefault.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Could Set Property Default.html
 	:og:locale: en
 When a property is set to a literal in the constructor, the assignation may be moved to the property definition.
 

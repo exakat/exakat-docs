@@ -18,7 +18,7 @@ Internally Used Properties
 	:og:title: Internally Used Properties
 	:og:type: article
 	:og:description: Properties that are used internally
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/PropertyUsedInternally.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Internally Used Properties.html
 	:og:locale: en
 Properties that are used internally.
 

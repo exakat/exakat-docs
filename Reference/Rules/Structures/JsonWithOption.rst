@@ -18,7 +18,7 @@ Use json_decode() Options
 	:og:title: Use json_decode() Options
 	:og:type: article
 	:og:description: json_decode() returns objects by default, unless the second argument is set to ``TRUE`` or ``JSON_OBJECT_AS_ARRAY``
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/JsonWithOption.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Use json_decode() Options.html
 	:og:locale: en
 `json_decode() <https://www.php.net/json_decode>`_ returns objects by default, unless the second argument is set to ``TRUE`` or ``JSON_OBJECT_AS_ARRAY``. Then, it returns arrays.
 

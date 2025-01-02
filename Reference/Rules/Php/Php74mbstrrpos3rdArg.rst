@@ -18,7 +18,7 @@ mb_strrpos() Third Argument
 	:og:title: mb_strrpos() Third Argument
 	:og:type: article
 	:og:description: Passing the encoding as 3rd parameter to mb_strrpos() is deprecated
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/Php74mbstrrpos3rdArg.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/mb_strrpos() Third Argument.html
 	:og:locale: en
 Passing the encoding as 3rd parameter to `mb_strrpos() <https://www.php.net/mb_strrpos>`_ is deprecated. Instead pass a 0 offset, and encoding as 4th parameter.
 

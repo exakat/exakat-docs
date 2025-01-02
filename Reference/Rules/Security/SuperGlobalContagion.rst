@@ -18,7 +18,7 @@ Super Globals Contagion
 	:og:title: Super Globals Contagion
 	:og:type: article
 	:og:description: Basic tainting system
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Security/SuperGlobalContagion.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Super Globals Contagion.html
 	:og:locale: en
 Basic tainting system. This tracks superglobal values across the variables.
 Connex PHP features

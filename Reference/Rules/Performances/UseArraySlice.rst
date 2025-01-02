@@ -18,7 +18,7 @@ Use array_slice()
 	:og:title: Use array_slice()
 	:og:type: article
 	:og:description: Array_slice() is de equivalent of substr() for arrays
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Performances/UseArraySlice.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Use array_slice().html
 	:og:locale: en
 `Array_slice() <https://www.php.net/array_slice>`_ is de equivalent of `substr() <https://www.php.net/substr>`_ for arrays.
 

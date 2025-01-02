@@ -18,7 +18,7 @@ Function With Dynamic Code
 	:og:title: Function With Dynamic Code
 	:og:type: article
 	:og:description: Mark a method, function, closure, arrow function that includes dynamic code
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Functions/DynamicCode.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Function With Dynamic Code.html
 	:og:locale: en
 Mark a method, function, `closure <https://www.php.net/`closure <https://www.php.net/closure>`_>`_, arrow function that includes dynamic code. 
 

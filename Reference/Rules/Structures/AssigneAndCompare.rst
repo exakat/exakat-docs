@@ -18,7 +18,7 @@ Assign And Compare
 	:og:title: Assign And Compare
 	:og:type: article
 	:og:description: Assignation has a lower precedence than comparison
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Structures/AssigneAndCompare.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Assign And Compare.html
 	:og:locale: en
 Assignation has a lower precedence than comparison. As such, the assignation always happens after the comparison. This leads to the comparison being stored in the variable, and not the value being compared.
 

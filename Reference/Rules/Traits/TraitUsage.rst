@@ -18,7 +18,7 @@ Traits Usage
 	:og:title: Traits Usage
 	:og:type: article
 	:og:description: This is the list of traits that are actually 'used' in the code
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Traits/TraitUsage.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Traits Usage.html
 	:og:locale: en
 This is the list of traits that are actually 'used' in the code. There are classes or traits that 'use' them. Traits can only be accessed by calling them with the 'use' command. It is not possible to reach a trait element (method, constant, property) by refering to them with the trait name, even for `static <https://www.php.net/manual/en/language.oop5.static.php>`_ elements: the code must go through the host class.
 

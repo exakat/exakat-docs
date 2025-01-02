@@ -18,7 +18,7 @@ Constants With Strange Names
 	:og:title: Constants With Strange Names
 	:og:type: article
 	:og:description: List of constants being defined with names that are incompatible with PHP standards
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Constants/ConstantStrangeNames.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Constants With Strange Names.html
 	:og:locale: en
 List of constants being defined with names that are incompatible with PHP standards.
 

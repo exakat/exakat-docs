@@ -18,7 +18,7 @@ Usage Of class_alias()
 	:og:title: Usage Of class_alias()
 	:og:type: article
 	:og:description: ``class_alias`` creates dynamically an alias for classes
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Classes/ClassAliasUsage.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Usage Of class_alias().html
 	:og:locale: en
 ``class_alias`` creates dynamically an alias for classes.
 

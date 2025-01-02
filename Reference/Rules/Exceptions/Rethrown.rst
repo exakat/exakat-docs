@@ -18,7 +18,7 @@ Rethrown Exceptions
 	:og:title: Rethrown Exceptions
 	:og:type: article
 	:og:description: Throwing a caught exception is usually useless and dead code
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Exceptions/Rethrown.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Rethrown Exceptions.html
 	:og:locale: en
 Throwing a caught `exception <https://www.php.net/exception>`_ is usually useless and dead code.
 

@@ -18,7 +18,7 @@ New Functions In PHP 5.4
 	:og:title: New Functions In PHP 5.4
 	:og:type: article
 	:og:description: PHP introduced new functions in PHP 5
-	:og:url: https://php-tips.readthedocs.io/en/latest/tips/Php/Php54NewFunctions.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/New Functions In PHP 5.4.html
 	:og:locale: en
 PHP introduced new functions in PHP 5.4. If there are defined functions with such names, there will be a conflict when upgrading. It is advised to change those functions' name.
 
