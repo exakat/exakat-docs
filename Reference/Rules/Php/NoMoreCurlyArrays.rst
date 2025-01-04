@@ -41,7 +41,8 @@ See also `Deprecate curly brace syntax <https://derickrethans.nl/phpinternalsnew
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Array+and+string+offset+access+syntax+with+curly+braces+is+deprecated.html>`_
+  + `Array and string offset access syntax with curly braces is deprecated <https://php-errors.readthedocs.io/en/latest/messages/array-and-string-offset-access-syntax-with-curly-braces-is-deprecated.html>`_
+  + `Array and string offset access syntax with curly braces is no longer supported <https://php-errors.readthedocs.io/en/latest/messages/array-and-string-offset-access-syntax-with-curly-braces-is-no-longer-supported.html>`_
 
 
 

@@ -35,7 +35,7 @@ This rule lists global and class constant that are defined with an array value. 
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Constants+may+only+evaluate+to+scalar+values.html>`_
+  + `Constant expression contains invalid operations <https://php-errors.readthedocs.io/en/latest/messages/constant-expression-contains-invalid-operations.html>`_
 
 
 

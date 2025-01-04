@@ -41,7 +41,7 @@ See also `PHP RFC: New in initializers <https://wiki.php.net/rfc/new_in_initiali
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Constant+expression+contains+invalid+operations.html>`_
+  + `Constant expression contains invalid operations <https://php-errors.readthedocs.io/en/latest/messages/constant-expression-contains-invalid-operations.html>`_
 
 
 

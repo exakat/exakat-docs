@@ -33,6 +33,12 @@ Strings in PHP. Strings are part of the core of PHP, and are not a separate exte
 
 See also `String functions <https://www.php.net/manual/en/ref.strings.php>`_.
 
+Connex PHP features
+-------------------
+
+  + `string <https://php-dictionary.readthedocs.io/en/latest/dictionary/string.ini.html>`_
+  + `extension <https://php-dictionary.readthedocs.io/en/latest/dictionary/extension.ini.html>`_
+
 
 Specs
 _____

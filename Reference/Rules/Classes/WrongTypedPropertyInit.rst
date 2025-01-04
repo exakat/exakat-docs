@@ -24,15 +24,13 @@ Property is typed, yet receives an incompatible value at constructor time.
 
 Initialized type might be a new instance, the return of a method call or an interface compatible object.
 
-
-
 PHP compiles such code, but won't execute it, as it detects the incompatibility at execution time.
 
 .. code-block:: php
    
    <?php
    
-   class x {
+   class X {
        private A $property;
        private B $incompatible;
        

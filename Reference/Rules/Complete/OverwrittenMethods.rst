@@ -22,19 +22,17 @@ Overwritten Methods
 	:og:locale: en
 This command adds OVERWRITE link between methods definitions of classes.
 
-
-
 The `foo` method will be linked between classes x and y, with an OVERWRITE link.
 
 .. code-block:: php
    
    <?php
    
-   class x {
+   class X {
        protected function foo() {}
    }
    
-   class y extends x {
+   class Y extends X {
        protected function foo() {}
    }
    

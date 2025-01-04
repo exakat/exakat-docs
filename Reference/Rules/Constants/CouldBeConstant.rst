@@ -26,31 +26,29 @@ Constants makes the code easier to read, as they may bear a meaningful name. The
 
 Not all literal can be replaced by a constant values : sometimes, literal may have the same literal value, but different meanings. Check with your application semantics before changing any literal with a constant.
 
-
-
 This analysis currently doesn't support arrays. 
 
-This analysis also skips very common values, such as boolean, ``0`` and ``1``. This prevents too many false positive.
+This analysis also skips very common values, such as boolean, ``0`` and ``1``. This prevents too many false positives.
 
 .. code-block:: php
    
    <?php
    
-   const A = 'abc';
-   define('B', 'ab');
-   
-   class foo {
-       const X = 'abcd';
-   }
-   
-   // Could be replaced by B;
-   $a = 'ab'; 
-   
-   // Could be replaced by A;
-   $a = 'abc'; 
-   
-   // Could be replaced by foo::X;
-   $a = 'abcd'; 
+       const A = 'abc';
+       define('B', 'ab');
+       
+       class foo {
+           const X = 'abcd';
+       }
+       
+       // Could be replaced by B;
+       $a = 'ab'; 
+       
+       // Could be replaced by A;
+       $a = 'abc'; 
+       
+       // Could be replaced by foo::X;
+       $a = 'abcd'; 
    
    ?>
 Connex PHP features

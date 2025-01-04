@@ -41,7 +41,7 @@ Until PHP 8.1, it was silently reverted to the default value. It is a deprecated
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/version_compare%28%29%3A+Argument+%233+%28%24operator%29+must+be+a+valid+comparison+operator.html>`_
+  + `version_compare(): Argument #3 ($operator) must be a valid comparison operator <https://php-errors.readthedocs.io/en/latest/messages/must-be-a-valid-comparison-operator.html>`_
 
 
 

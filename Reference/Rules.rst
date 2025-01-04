@@ -10280,7 +10280,7 @@ Exakat links each rules to PHP features.
     + :ref:`Order Of Declaration <order-of-declaration>`
     + :ref:`Useless Abstract Class <useless-abstract-class>`
 
-  + Abstract Syntactic Tree
+  + Abstract Syntactic Tree (AST)
 
     + :ref:`ext/php-ast <ext-php-ast>`
 
@@ -10450,16 +10450,6 @@ Exakat links each rules to PHP features.
 
     + :ref:`Break Outside Loop <break-outside-loop>`
     + :ref:`Unconditional Break In Loop <unconditional-break-in-loop>`
-
-  + CSV
-
-    + :ref:`Do In Base <do-in-base>`
-    + :ref:`Fetch One Row Format <fetch-one-row-format>`
-    + :ref:`Joining file() <joining-file()>`
-    + :ref:`Make One Call With Array <make-one-call-with-array>`
-    + :ref:`No mb_substr In Loop <no-mb\_substr-in-loop>`
-    + :ref:`ext/CSV <ext-csv>`
-    + :ref:`fputcsv() In Loops <fputcsv()-in-loops>`
 
   + Callables
 
@@ -10645,6 +10635,10 @@ Exakat links each rules to PHP features.
     + :ref:`Useless Argument <useless-argument>`
     + :ref:`list() May Omit Variables <list()-may-omit-variables>`
 
+  + Client URL (CURL)
+
+    + :ref:`Safe Curl Options <safe-curl-options>`
+
   + Clone
 
     + :ref:`Clone Usage <clone-usage>`
@@ -10694,7 +10688,17 @@ Exakat links each rules to PHP features.
 
     + :ref:`Unusual Case For PHP Functions <unusual-case-for-php-functions>`
 
-  + Command Line Interface
+  + Comma Secparated Values (CSV)
+
+    + :ref:`Do In Base <do-in-base>`
+    + :ref:`Fetch One Row Format <fetch-one-row-format>`
+    + :ref:`Joining file() <joining-file()>`
+    + :ref:`Make One Call With Array <make-one-call-with-array>`
+    + :ref:`No mb_substr In Loop <no-mb\_substr-in-loop>`
+    + :ref:`ext/CSV <ext-csv>`
+    + :ref:`fputcsv() In Loops <fputcsv()-in-loops>`
+
+  + Command Line Interface (CLI)
 
     + :ref:`Avoid sleep()/usleep() <avoid-sleep()-usleep()>`
     + :ref:`Is CLI Script <is-cli-script>`
@@ -10851,10 +10855,6 @@ Exakat links each rules to PHP features.
 
     + :ref:`ext/ctype <ext-ctype>`
 
-  + Curl
-
-    + :ref:`Safe Curl Options <safe-curl-options>`
-
   + Curly Brackets
 
     + :ref:`Useless Brackets <useless-brackets>`
@@ -10862,11 +10862,6 @@ Exakat links each rules to PHP features.
   + Cyclomatic Complexity
 
     + :ref:`Cyclomatic Complexity <cyclomatic-complexity>`
-
-  + DRY : Don't Repeat Yourself
-
-    + :ref:`Identical Case In Switch <identical-case-in-switch>`
-    + :ref:`Multiple Property Declaration <multiple-property-declaration>`
 
   + Dates
 
@@ -10982,6 +10977,11 @@ Exakat links each rules to PHP features.
   + Do...while
 
     + :ref:`Collect Block Size <collect-block-size>`
+
+  + Don't Repeat Yourself (DRY)
+
+    + :ref:`Identical Case In Switch <identical-case-in-switch>`
+    + :ref:`Multiple Property Declaration <multiple-property-declaration>`
 
   + Double Quotes Strings
 
@@ -11158,11 +11158,18 @@ Exakat links each rules to PHP features.
 
     + :ref:`Identical Consecutive Expression <identical-consecutive-expression>`
 
+  + Extensible Markup Language (XML)
+
+    + :ref:`No Net For Xml Load <no-net-for-xml-load>`
+    + :ref:`ext/xmlreader <ext-xmlreader>`
+    + :ref:`ext/xmlwriter <ext-xmlwriter>`
+
   + Extensions
 
     + :ref:`Dl() Usage <dl()-usage>`
     + :ref:`Is An Extension Class <is-an-extension-class>`
     + :ref:`Is An Extension Function <is-an-extension-function>`
+    + :ref:`String <string>`
     + :ref:`ext/decimal <ext-decimal>`
     + :ref:`ext/eaccelerator <ext-eaccelerator>`
 
@@ -11389,10 +11396,6 @@ Exakat links each rules to PHP features.
     + :ref:`Safe HTTP Headers <safe-http-headers>`
     + :ref:`Should Use SetCookie() <should-use-setcookie()>`
 
-  + HTTPS
-
-    + :ref:`Safe Curl Options <safe-curl-options>`
-
   + Hard Coded
 
     + :ref:`Hardcoded Passwords <hardcoded-passwords>`
@@ -11423,6 +11426,10 @@ Exakat links each rules to PHP features.
 
     + :ref:`HTTP Status Code <http-status-code>`
     + :ref:`Http Headers <http-headers>`
+
+  + Hyper Text Transfer Protocol Secure (HTTPS)
+
+    + :ref:`Safe Curl Options <safe-curl-options>`
 
   + IP
 
@@ -11532,6 +11539,10 @@ Exakat links each rules to PHP features.
     + :ref:`Property Used Above <property-used-above>`
     + :ref:`Too Many Children <too-many-children>`
 
+  + Inherited Variable
+
+    + :ref:`Unused Inherited Variable In Closure <unused-inherited-variable-in-closure>`
+
   + Initialisation
 
     + :ref:`Array With String Initialization <array-with-string-initialization>`
@@ -11612,7 +11623,7 @@ Exakat links each rules to PHP features.
     + :ref:`This Could Be Iterable <this-could-be-iterable>`
     + :ref:`Typehint Could Be Iterable <typehint-could-be-iterable>`
 
-  + JSON
+  + JavaScript Object Notation (JSON)
 
     + :ref:`Check JSON <check-json>`
     + :ref:`Json_encode() Without Catching Exceptions <json\_encode()-without-catching-exceptions>`
@@ -11637,7 +11648,7 @@ Exakat links each rules to PHP features.
     + :ref:`Abstract Or Implements <abstract-or-implements>`
     + :ref:`Inherited Class Constant Visibility <inherited-class-constant-visibility>`
 
-  + Liskov Substitution Principle
+  + Liskov Substitution Principle (LSP)
 
     + :ref:`Type Dodging <type-dodging>`
 
@@ -11692,10 +11703,6 @@ Exakat links each rules to PHP features.
     + :ref:`Unconditional Break In Loop <unconditional-break-in-loop>`
     + :ref:`Use Variable Created Inside Loop <use-variable-created-inside-loop>`
 
-  + MD5
-
-    + :ref:`Md5 Strings <md5-strings>`
-
   + Magic Constants
 
     + :ref:`Could Use Namespace Magic Constant <could-use-namespace-magic-constant>`
@@ -11746,6 +11753,10 @@ Exakat links each rules to PHP features.
 
     + :ref:`Memoize MagicCall <memoize-magiccall>`
     + :ref:`Reuse Existing Variable <reuse-existing-variable>`
+
+  + Message Digest Algorithm 5 (MD5)
+
+    + :ref:`Md5 Strings <md5-strings>`
 
   + Method
 
@@ -12007,7 +12018,7 @@ Exakat links each rules to PHP features.
 
     + :ref:`Pear Usage <pear-usage>`
 
-  + PECL
+  + PHP Extension C Library (PECL)
 
     + :ref:`ext/lua <ext-lua>`
 
@@ -12270,7 +12281,7 @@ Exakat links each rules to PHP features.
     + :ref:`preg_match_all() Flag <preg\_match\_all()-flag>`
     + :ref:`preg_replace With Option e <preg\_replace-with-option-e>`
 
-  + Remote Procedure Call
+  + Remote Procedure Call (RPC)
 
     + :ref:`Extensions yar <extensions-yar>`
     + :ref:`ext/xmlrpc <ext-xmlrpc>`
@@ -12308,10 +12319,6 @@ Exakat links each rules to PHP features.
 
     + :ref:`Missing Type In Definition <missing-type-in-definition>`
     + :ref:`Return With Parenthesis <return-with-parenthesis>`
-
-  + SAPI
-
-    + :ref:`PHP Sapi <php-sapi>`
 
   + SSL
 
@@ -12363,6 +12370,10 @@ Exakat links each rules to PHP features.
 
     + :ref:`Serialize Magic Method <serialize-magic-method>`
     + :ref:`Unserialize Second Arg <unserialize-second-arg>`
+
+  + Server Application Programming Interface (SAPI)
+
+    + :ref:`PHP Sapi <php-sapi>`
 
   + Session
 
@@ -12479,6 +12490,7 @@ Exakat links each rules to PHP features.
     + :ref:`Interpolation <interpolation>`
     + :ref:`No String With Append <no-string-with-append>`
     + :ref:`One Variable String <one-variable-string>`
+    + :ref:`String <string>`
     + :ref:`Use PHP7 Encapsed Strings <use-php7-encapsed-strings>`
     + :ref:`Use str_contains() <use-str\_contains()>`
 
@@ -12826,12 +12838,6 @@ Exakat links each rules to PHP features.
 
     + :ref:`Forgotten Whitespace <forgotten-whitespace>`
 
-  + XML
-
-    + :ref:`No Net For Xml Load <no-net-for-xml-load>`
-    + :ref:`ext/xmlreader <ext-xmlreader>`
-    + :ref:`ext/xmlwriter <ext-xmlwriter>`
-
   + XXTEA
 
     + :ref:`ext/xxtea <ext-xxtea>`
@@ -13133,7 +13139,6 @@ Exakat helps reduce the amount of error and warning that code is producing by re
 * :ref:`Argument #1 must be of type float, string given <wrong-type-for-native-php-function>`
 * :ref:`Argument #2 ($encoding) must be a valid encoding, "xxx" given <mbstring-unknown-encodings>`
 * :ref:`Argument must be of type int, array given <wrong-parameter-type>`
-* :ref:`Array and string offset access syntax with curly braces is deprecated <no-more-curly-arrays>`
 * :ref:`Array to string conversion <invalid-cast>`
 * :ref:`Attempt to echo a string that might be tainted <extensions-exttaint>`
 * :ref:`Attempt to read property "b" on null <could-use-null-safe-object-operator>`
@@ -13179,8 +13184,6 @@ Exakat helps reduce the amount of error and warning that code is producing by re
 * :ref:`Class c contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (a\:\:foo) <missing-abstract-method>`
 * :ref:`Class y cannot extend final class x <can't-extend-final>`
 * :ref:`Constant expression contains invalid operations <nested-attributes>`
-* :ref:`Constant expression contains invalid operations <new-initializers>`
-* :ref:`Constants may only evaluate to scalar values <class-const-with-array>`
 * :ref:`Could not check compatibility between xx\:\:bar(B $a) and foo\:\:bar(A $a), because class A is not available <incompatible-signature-methods-with-covariance>`
 * :ref:`Creating default object from empty value <undefined-variable>`
 * :ref:`Declaration of FooParent\:\:Bar() must be compatible with FooChildren\:\:Bar() <method-signature-must-be-compatible>`
@@ -13197,8 +13200,6 @@ Exakat helps reduce the amount of error and warning that code is producing by re
 * :ref:`Illegal offset type <indices-are-int-or-string>`
 * :ref:`Implicit conversion from float 1.2 to int loses precision <implicit-conversion-to-int>`
 * :ref:`Indirect modification of overloaded property c\:\:$b has no effect <no-magic-method-with-array>`
-* :ref:`Invalid UTF-8 codepoint escape sequence <unicode-escape-syntax>`
-* :ref:`Invalid UTF-8 codepoint escape: Codepoint too large <unicode-escape-syntax>`
 * :ref:`Invalid numeric literal <malformed-octal>`
 * :ref:`Method myString\:\:__toString() must not throw an exception <\_\_tostring()-throws-exception>`
 * :ref:`Method name must be a string <useless-typehint>`
@@ -13220,10 +13221,6 @@ Exakat helps reduce the amount of error and warning that code is producing by re
 * :ref:`Return type of x\:\:jsonserialize() should either be compatible with JsonSerializable\:\:jsonSerialize(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice <php-native-interfaces-and-return-type>`
 * :ref:`Return value of foo() must be of the type int, string returned <missing-some-returntype>`
 * :ref:`Static function foo\:\:bar() should not be abstract <abstract-static-methods>`
-* :ref:`The (real) cast has been removed, use (float) instead <avoid-real>`
-* :ref:`The (real) cast is deprecated, use (float) instead <avoid-real>`
-* :ref:`The behavior of unparenthesized expressions containing both '.' and '+'/'-' will change in PHP 8: '+'/'-' will take a higher precedence <concat-and-addition>`
-* :ref:`The behavior of unparenthesized expressions containing both '.' and '>>'/'<<' will change in PHP 8: '<<'/'>>' will take a higher precedence <concat-and-addition>`
 * :ref:`The magic method x\:\:__call() must have public visibility <magic-visibility>`
 * :ref:`The parent constructor was not called: the object is in an invalid state <must-call-parent-constructor>`
 * :ref:`Trait 'T' not found <undefined-trait>`
@@ -13234,7 +13231,6 @@ Exakat helps reduce the amount of error and warning that code is producing by re
 * :ref:`Type of b\:\:$a must not be defined (as in class a) <inherited-property-type-must-match>`
 * :ref:`Type of b\:\:$b must be A (as in class a) <mismatch-properties-typehints>`
 * :ref:`Typed property x\:\:$p2 must not be accessed before initialization <untyped-no-default-properties>`
-* :ref:`Undefined array key 2 <possible-missing-subpattern>`
 * :ref:`Undefined constant 'y' <undefined-constant-name>`
 * :ref:`Undefined constant <undefined-class-constants>`
 * :ref:`Undefined property <don't-unset-properties>`
@@ -13242,7 +13238,6 @@ Exakat helps reduce the amount of error and warning that code is producing by re
 * :ref:`Undefined variable: <casting-ternary>`
 * :ref:`Undefined variable: <undefined-variable>`
 * :ref:`Unknown format specifier <sprintf-format-compilation>`
-* :ref:`Unparenthesized a ? b : c ? d : e is deprecated. Use either (a ? b : c) ? d : e or a ? b : (c ? d : e) <nested-ternary-without-parenthesis>`
 * :ref:`Unsupported operand types <unsupported-operand-types>`
 * :ref:`Use of undefined constant y - assumed 'y' (this will throw an Error in a future version of PHP) <undefined-constant-name>`
 * :ref:`Using $this when not in object context <$this-belongs-to-classes-or-traits>`
@@ -13258,6 +13253,8 @@ Exakat helps reduce the amount of error and warning that code is producing by re
 * :ref:`argument-#%d-($%s)-must-be-of-type-%s,-%s-given <wrong-type-with-call>`
 * :ref:`argument-#%d-\($%s\)-must-be-of-type-%s\,-%s-given <mismatch-type-and-default>`
 * :ref:`argument-#%d-\($%s\)-must-be-of-type-%s\,-%s-given <undefined-interfaces>`
+* :ref:`array-and-string-offset-access-syntax-with-curly-braces-is-deprecated <no-more-curly-arrays>`
+* :ref:`array-and-string-offset-access-syntax-with-curly-braces-is-no-longer-supported <no-more-curly-arrays>`
 * :ref:`array_merge() expects at least 1 parameter, 0 given <array\_merge()-and-variadic>`
 * :ref:`array_merge()-does-not-accept-unknown-named-parameters <no-spread-for-hash>`
 * :ref:`array_merge\(\)-does-not-accept-unknown-named-parameters <unknown-parameter-name>`
@@ -13298,6 +13295,8 @@ Exakat helps reduce the amount of error and warning that code is producing by re
 * :ref:`class-%s-must-implement-interface-%s-as-part-of-either-%s-or-%s <can't-implement-traversable>`
 * :ref:`class_alias(): Argument #1 ($class) must be a user-defined class name, internal class name given <class\_alias()-supports-internal-classes>`
 * :ref:`constant-%s-is-deprecated <php-8.1-removed-constants>`
+* :ref:`constant-expression-contains-invalid-operations <class-const-with-array>`
+* :ref:`constant-expression-contains-invalid-operations <new-initializers>`
 * :ref:`default-value-for-parameters-with-a-%s-type-can-only-be-%s-or-null <mismatch-type-and-default>`
 * :ref:`define\(\)\:-argument-#3-\($case_insensitive\)-is-ignored-since-declaration-of-case-insensitive-constants-is-no-longer-supported <case-insensitive-constants>`
 * :ref:`define\(\)\:-declaration-of-case-insensitive-constants-is-deprecated <case-insensitive-constants>`
@@ -13312,7 +13311,10 @@ Exakat helps reduce the amount of error and warning that code is producing by re
 * :ref:`illegal-offset-type-in-isset-or-empty <no-object-as-index>`
 * :ref:`implicit-conversion-from-float-string-\"%s\"-to-int-loses <float-conversion-as-index>`
 * :ref:`index-invalid-or-out-of-range <no-object-as-index>`
+* :ref:`invalid-utf-8-codepoint-escape <unicode-escape-syntax>`
+* :ref:`invalid-utf-8-codepoint-escape:-codepoint-too-large <unicode-escape-syntax>`
 * :ref:`mb_convert_encoding(): Handling Base64 via mbstring is deprecated; use base64_encode/base64_decode instead <deprecated-mb\_string-encodings>`
+* :ref:`must-be-a-valid-comparison-operator <version\_compare-operator>`
 * :ref:`named-parameter-$x-overwrites-previous-argument <duplicate-named-parameter>`
 * :ref:`needle-is-not-a-string-or-an-integer <strpos()-with-integers>`
 * :ref:`non-string-needles-will-be-interpreted-as-strings-in-the-future.-use-an-explicit-chr()-call-to-preserve-the-current-behavior <strpos()-with-integers>`
@@ -13329,13 +13331,16 @@ Exakat helps reduce the amount of error and warning that code is producing by re
 * :ref:`redefinition-of-parameter-$%s <multiple-definition-of-the-same-argument>`
 * :ref:`required-parameter-$%s-follows-optional-parameter-$%s <wrong-optional-parameter>`
 * :ref:`returning-by-reference-from-a-void-function-is-deprecated <no-referenced-void>`
-* :ref:`syntax error, unexpected '&', expecting variable (T_VARIABLE) <intersection-typehint>`
-* :ref:`syntax error, unexpected ',' <reserved-match-keyword>`
-* :ref:`syntax error, unexpected 'match' <reserved-match-keyword>`
 * :ref:`syntax error, unexpected '|', expecting variable (T_VARIABLE) <union-typehint>`
+* :ref:`syntax-error,-unexpected-token-"match" <reserved-match-keyword>`
+* :ref:`syntax-error,-unexpected-token-',' <reserved-match-keyword>`
 * :ref:`syntax-error\,-unexpected-\'-\'\,-expecting-\'\=\' <invalid-constant-name>`
+* :ref:`the-(real)-cast-has-been-removed,-use-(float)-instead <avoid-real>`
+* :ref:`the-(real)-cast-is-deprecated,-use-(float)-instead <avoid-real>`
 * :ref:`the-(unset)-cast-is-deprecated <cast-unset-usage>`
 * :ref:`the-(unset)-cast-is-no-longer-supported <cast-unset-usage>`
+* :ref:`the-behavior-of-unparenthesized-expressions-containing-both-'.'-and-'+'-'-'-will-change-in-php-8:-'+'-'-'-will-take-a-higher-precedence <concat-and-addition>`
+* :ref:`the-behavior-of-unparenthesized-expressions-containing-both-'.'-and-'>>'-'<<'-will-change-in-php-8:-'<<'-'>>'-will-take-a-higher-precedence <concat-and-addition>`
 * :ref:`the-each()-function-is-deprecated.-this-message-will-be-suppressed-on-further-calls <php-7.2-removed-functions>`
 * :ref:`theClass and theTrait define the same property ($property) in the composition of theClass. However, the definition differs and is considered incompatible. <incompatible-property-between-class-and-trait>`
 * :ref:`too-few-arguments-to-function-%s%s%s(),-%d-passed <wrong-number-of-arguments>`
@@ -13347,6 +13352,7 @@ Exakat helps reduce the amount of error and warning that code is producing by re
 * :ref:`trying-to-access-array-offset-on-%s <null-or-boolean-arrays>`
 * :ref:`trying-to-access-array-offset-on-%s <scalar-are-not-arrays>`
 * :ref:`type-%c:-unknown-format-code <pack-format-inventory>`
+* :ref:`undefined-array-key <possible-missing-subpattern>`
 * :ref:`undefined-class-constant-"%s\:\:%s" <avoid-self-in-interface>`
 * :ref:`undefined-class-constant-\'%s\:\:%s\' <unused-enumeration-case>`
 * :ref:`undefined-constant-"%s <non-constant-index-in-array>`
@@ -13357,12 +13363,12 @@ Exakat helps reduce the amount of error and warning that code is producing by re
 * :ref:`undefined-variable <nonexistent-variable-in-compact()>`
 * :ref:`unknown-named-parameter-$%s <unknown-parameter-name>`
 * :ref:`unpack(): Type t: unknown format code <invalid-pack-format>`
+* :ref:`unparenthesized-\a-\?-b-\:-c-\?-d-\:-e\-is-not-supported. <nested-ternary-without-parenthesis>`
 * :ref:`unsupported-operand-types <unsupported-types-with-operators>`
 * :ref:`use-of-\"parent\"-in-callables-is-deprecated <deprecated-callable>`
 * :ref:`use-of-\"self\"-in-callables-is-deprecated <deprecated-callable>`
 * :ref:`use-of-\"static\"-in-callables-is-deprecated <deprecated-callable>`
 * :ref:`using-array_key_exists\(\)-on-objects-is-deprecated. <array\_key\_exists()-works-on-arrays>`
-* :ref:`version_compare(): Argument #3 ($operator) must be a valid comparison operator <version\_compare-operator>`
 
 
 

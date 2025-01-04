@@ -23,9 +23,8 @@ Use const
 The const keyword may be used to define constant, just like the `define() <https://www.php.net/define>`_ function. 
 
 When defining a constant, it is recommended to use 'const' when the features of the constant are not dynamical (name or value are known at compile time). 
+
 This way, constant will be defined at compile time, and not at execution time. 
-
-
 
 `define() <https://www.php.net/define>`_ function is useful when the constant is not known at compile time, or when case sensitivity is necessary.
 

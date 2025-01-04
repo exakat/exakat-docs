@@ -39,8 +39,8 @@ See also `PHP RFC: Unicode Codepoint Escape Syntax <https://wiki.php.net/rfc/uni
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Invalid+UTF-8+codepoint+escape%3A+Codepoint+too+large.html>`_
-  + `1 <https://php-errors.readthedocs.io/en/latest/messages/Invalid+UTF-8+codepoint+escape+sequence.html>`_
+  + `Invalid UTF-8 codepoint escape: Codepoint too large <https://php-errors.readthedocs.io/en/latest/messages/invalid-utf-8-codepoint-escape%3A-codepoint-too-large.html>`_
+  + `Invalid UTF-8 codepoint escape sequence <https://php-errors.readthedocs.io/en/latest/messages/invalid-utf-8-codepoint-escape.html>`_
 
 
 

@@ -45,8 +45,8 @@ See also `PHP RFC: Deprecations for PHP 7.4 <https://wiki.php.net/rfc/deprecatio
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/The+%28real%29+cast+is+deprecated%2C+use+%28float%29+instead.html>`_
-  + `1 <https://php-errors.readthedocs.io/en/latest/messages/The+%28real%29+cast+has+been+removed%2C+use+%28float%29+instead.html>`_
+  + `The (real) cast is deprecated, use (float) instead <https://php-errors.readthedocs.io/en/latest/messages/the-%28real%29-cast-is-deprecated%2C-use-%28float%29-instead.html>`_
+  + `The (real) cast has been removed, use (float) instead <https://php-errors.readthedocs.io/en/latest/messages/the-%28real%29-cast-has-been-removed%2C-use-%28float%29-instead.html>`_
 
 
 

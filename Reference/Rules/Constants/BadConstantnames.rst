@@ -24,9 +24,7 @@ PHP's manual recommends that developer do not use constants with the convention 
 
 For example, ``__TRAIT__`` recently appeared in PHP, as a magic constant. In the future, other may appear. 
 
-
-
-The analyzer will report any constant which name is ``__.*.__``, or even ``_.*_`` (only one underscore).
+The analyzer reports any constant which name is ``__.*.__``, or even ``_.*_`` (only one underscore).
 
 .. code-block:: php
    

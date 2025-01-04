@@ -7,20 +7,20 @@ Is An Extension Constant
 
 .. meta::
 	:description:
-		Is An Extension Constant: Mark a constant if it belongs to a known extension.
+		Is An Extension Constant: This analysis marks a constant when it belongs to an extension.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: Is An Extension Constant
-	:twitter:description: Is An Extension Constant: Mark a constant if it belongs to a known extension
+	:twitter:description: Is An Extension Constant: This analysis marks a constant when it belongs to an extension
 	:twitter:creator: @exakat
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
 	:og:title: Is An Extension Constant
 	:og:type: article
-	:og:description: Mark a constant if it belongs to a known extension
+	:og:description: This analysis marks a constant when it belongs to an extension
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Is An Extension Constant.html
 	:og:locale: en
-Mark a constant if it belongs to a known extension.
+This analysis marks a constant when it belongs to an extension.
 
 .. code-block:: php
    

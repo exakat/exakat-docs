@@ -64,7 +64,7 @@ See also `Bug #73948 Preg_match_all should return NULLs on trailing optional cap
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Undefined+array+key+2.html>`_
+  + `Undefined array key <https://php-errors.readthedocs.io/en/latest/messages/undefined-array-key.html>`_
 
 
 

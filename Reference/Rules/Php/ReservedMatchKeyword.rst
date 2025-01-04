@@ -56,8 +56,8 @@ See also `Match expression V2 <https://wiki.php.net/rfc/match_expression_v2>`_.
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/syntax+error%2C+unexpected+%27match%27.html>`_
-  + `1 <https://php-errors.readthedocs.io/en/latest/messages/syntax+error%2C+unexpected+%27%2C%27.html>`_
+  + `syntax error, unexpected 'match' <https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-token-%22match%22.html>`_
+  + `syntax error, unexpected ',' <https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-token-%27%2C%27.html>`_
 
 
 
