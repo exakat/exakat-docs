@@ -32,7 +32,7 @@ class_alias() Supports Internal Classes
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/class_alias%28%29%3A+Argument+%231+%28%24class%29+must+be+a+user-defined+class+name%2C+internal+class+name+given.html>`_
+  + `class_alias(): Argument #1 ($class) must be a user-defined class name, internal class name given <https://php-errors.readthedocs.io/en/latest/messages/must-be-a-user-defined-class-name%2C-internal-class-name-given.html>`_
 
 
 

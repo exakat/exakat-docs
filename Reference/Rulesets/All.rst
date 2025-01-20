@@ -20,7 +20,7 @@ All
 	:og:locale: en
 All is a dummy ruleset, which includes all the rules. It is mostly used internally.
 
-Total : 1659 analysis
+Total : 1660 analysis
 
 * :ref:`adding-zero`
 * :ref:`ambiguous-array-index`
@@ -601,7 +601,7 @@ Total : 1659 analysis
 * :ref:`use-random\_int()`
 * :ref:`cant-use-return-value-in-write-context`
 * :ref:`set\_exception\_handler()-warning`
-* :ref:`can't-extend-final`
+* :ref:`can't-extend-final-class`
 * :ref:`ternary-in-concat`
 * :ref:`using-$this-outside-a-class`
 * :ref:`simplify-regex`
@@ -706,7 +706,7 @@ Total : 1659 analysis
 * :ref:`string`
 * :ref:`class-should-be-final-by-ocramius`
 * :ref:`ext-mongodb`
-* :ref:`should-use-function`
+* :ref:`should-use-use-function`
 * :ref:`one-expression-brackets-consistency`
 * :ref:`fetch-one-row-format`
 * :ref:`no-string-with-append`
@@ -975,7 +975,7 @@ Total : 1659 analysis
 * :ref:`incompatible-signature-methods`
 * :ref:`ambiguous-visibilities`
 * :ref:`hash-algorithms-incompatible-with-php-7.1-`
-* :ref:`undefined-class`
+* :ref:`undefined-static-class`
 * :ref:`php-7.0-scalar-typehints`
 * :ref:`php-7.1-scalar-typehints`
 * :ref:`php-7.2-scalar-typehints`
@@ -1358,7 +1358,7 @@ Total : 1659 analysis
 * :ref:`cannot-use-static-for-closure`
 * :ref:`multiple-property-declaration-on-one-line`
 * :ref:`could-be-generator`
-* :ref:`only-first-byte-`
+* :ref:`only-first-byte-will-be-assigned`
 * :ref:`restrict-global-usage`
 * :ref:`inherited-property-type-must-match`
 * :ref:`no-object-as-index`
@@ -1538,7 +1538,7 @@ Total : 1659 analysis
 * :ref:`collect-calls`
 * :ref:`set-method-fnp`
 * :ref:`type-dodging`
-* :ref:`skip-empty-array`
+* :ref:`skip-empty-array-when-merging`
 * :ref:`useless-method`
 * :ref:`weak-type-with-array`
 * :ref:`class-could-be-readonly`
@@ -1566,7 +1566,7 @@ Total : 1659 analysis
 * :ref:`short-ternary`
 * :ref:`deprecated-mb\_string-encodings`
 * :ref:`pre-calculate-use`
-* :ref:`no-valid-cast`
+* :ref:`no-a-valid-cast`
 * :ref:`init-then-update`
 * :ref:`different-constructors`
 * :ref:`sidelined-method`
@@ -1680,7 +1680,8 @@ Total : 1659 analysis
 * :ref:`new-functions-in-php-8.4`
 * :ref:`has-virtual-property`
 * :ref:`foreach()-on-object`
-* :ref:`custom-evsandwhere`
+* :ref:`mustuseresult`
+* :ref:`must-use-result,-so-it-returns`
 
 Specs
 _____

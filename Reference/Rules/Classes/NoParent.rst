@@ -39,8 +39,8 @@ In PHP 7.4, it is a Deprecated warning. In PHP 7.3, it was a Fatal `error <https
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Cannot+use+%22%22parent%22%22+when+current+class+scope+has+no+parent.html>`_
-  + `1 <https://php-errors.readthedocs.io/en/latest/messages/Cannot+access+parent%3A%3A+when+current+class+scope+has+no+parent.html>`_
+  + `Cannot use ""parent"" when current class scope has no parent <https://php-errors.readthedocs.io/en/latest/messages/cannot-access-parent%3A%3A-when-current-class-scope-has-no-parent.html>`_
+  + `Cannot access parent:: when current class scope has no parent <https://php-errors.readthedocs.io/en/latest/messages/cannot-access-parent%3A%3A-when-no-class-scope-is-active.html>`_
 
 
 
@@ -76,7 +76,7 @@ _____
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Time To Fix      | Quick (30 mins)                                                                                                                                                                                                          |
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Changed Behavior | PHP 8.0                                                                                                                                                                                                                  |
+| Changed Behavior | PHP 8.0 - `More <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/orphanedParent.html>`__                                                                                                                 |
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision        | Very high                                                                                                                                                                                                                |
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

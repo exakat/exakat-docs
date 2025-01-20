@@ -45,7 +45,7 @@ See also `Integers <https://www.php.net/manual/en/language.types.integer.php>`_.
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Octal+escape+sequence+overflow+%5C500+is+greater+than+%5C377.html>`_
+  + `Octal escape sequence overflow \500 is greater than \377 <https://php-errors.readthedocs.io/en/latest/messages/octal-escape-sequence-overflow-%5C%25s-is-greater-than-%5C377.html>`_
 
 
 

@@ -43,7 +43,7 @@ See also `Passing by Reference <https://www.php.net/manual/en/language.reference
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Call-time+pass-by-reference+has+been+removed.html>`_
+  + `syntax error, unexpected token "&" <https://php-errors.readthedocs.io/en/latest/messages/syntax-error%2C-unexpected-token-%22%26%22.html>`_
 
 
 

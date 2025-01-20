@@ -66,7 +66,7 @@ See also `Covariance and contravariance (computer science) <https://en.wikipedia
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Declaration+of+a%3A%3Afoo%28%24a%29+should+be+compatible+with+ab1%3A%3Afoo%28%24a%29.html>`_
+  + `Declaration of %s::%s($%s) should be compatible with %s::%s($%s = 1)  <https://php-errors.readthedocs.io/en/latest/messages/declaration-of-%25s-must-be-compatible-with-%25s.html>`_
 
 
 

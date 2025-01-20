@@ -38,7 +38,7 @@ The append operator ``[]`` is used to add a value to an array. It doesn't provid
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Cannot+use+%5B%5D+for+reading.html>`_
+  + `Cannot use [] for reading <https://php-errors.readthedocs.io/en/latest/messages/cannot-use-%5B%5D-for-reading.html>`_
 
 
 

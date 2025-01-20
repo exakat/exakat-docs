@@ -34,7 +34,7 @@ This analysis is the base for suggesting values for the ``disable_classes`` dire
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/X%28%29+has+been+disabled+for+security+reasons.html>`_
+  + `%s() has been disabled for security reasons <https://php-errors.readthedocs.io/en/latest/messages/%25s%28%29-has-been-disabled-for-security-reasons.html>`_
 
 
 

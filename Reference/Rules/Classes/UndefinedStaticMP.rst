@@ -46,8 +46,8 @@ See also `Late Static Bindings <https://www.php.net/manual/en/language.oop5.late
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Access+to+undeclared+static+property%3A+x%3A%3A%24y.html>`_
-  + `1 <https://php-errors.readthedocs.io/en/latest/messages/Call+to+undefined+method+x%3A%3Ay%28%29.html>`_
+  + `Access to undeclared static property: x::$y <https://php-errors.readthedocs.io/en/latest/messages/access-to-undeclared-static-property-%25s%5C%3A%5C%3A%24%25s.html>`_
+  + `Call to undefined method %s::%s() <https://php-errors.readthedocs.io/en/latest/messages/call-to-undefined-method-%25s%5C%3A%5C%3A%25s%5C%28%5C%29.html>`_
 
 
 

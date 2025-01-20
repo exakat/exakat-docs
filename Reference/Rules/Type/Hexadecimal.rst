@@ -7,20 +7,25 @@ Hexadecimal Glossary
 
 .. meta::
 	:description:
-		Hexadecimal Glossary: List of all the integer values, written in the hexadecimal format.
+		Hexadecimal Glossary: This rule lists of all the integer values, written in the hexadecimal format.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: Hexadecimal Glossary
-	:twitter:description: Hexadecimal Glossary: List of all the integer values, written in the hexadecimal format
+	:twitter:description: Hexadecimal Glossary: This rule lists of all the integer values, written in the hexadecimal format
 	:twitter:creator: @exakat
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
 	:og:title: Hexadecimal Glossary
 	:og:type: article
-	:og:description: List of all the integer values, written in the hexadecimal format
+	:og:description: This rule lists of all the integer values, written in the hexadecimal format
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Hexadecimal Glossary.html
 	:og:locale: en
-List of all the integer values, written in the hexadecimal format.
+This rule lists of all the integer values, written in the hexadecimal format.
+
+The hexadecimal syntax is a zero, followed by ``x`` and then, up to 16 hexadecimal digits: ``0x[0-9a-z]+``. The format is case insensitive.
+
+Up to 16 characters after the x gives an integer. From 17 to 243, it gives a float. Beyond, it returns infinite ``INF``.
+
 
 .. code-block:: php
    
@@ -28,11 +33,11 @@ List of all the integer values, written in the hexadecimal format.
    
    $hexadecimal = 0x10;
    
-   $anotherHexadecimal =0XAF;
+   $anotherHexadecimal = 0XAF;
    
    ?>
 
-See also `Integer Syntax <https://www.php.net/manual/en/language.types.integer.php#language.types.integer.syntax>`_.
+See also https://www.php.net/manual/en/language.types.integer.php#language.types.integer.syntax.
 
 Connex PHP features
 -------------------
@@ -57,6 +62,8 @@ _____
 | Time To Fix  |                                                                                                                                                                                         |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                                                                               |
++--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Related rule | :ref:`binary-glossary`, :ref:`octal-glossary`                                                                                                                                           |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Community Edition <https://www.exakat.io/community-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

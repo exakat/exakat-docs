@@ -50,7 +50,7 @@ See also `Classes Abstraction <https://www.php.net/abstract>`_.
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Class+c+contains+1+abstract+method+and+must+therefore+be+declared+abstract+or+implement+the+remaining+methods+%28a%3A%3Afoo%29.html>`_
+  + `Class %s contains %d abstract method and must therefore be declared abstract or implement the remaining methods (%s::%s) <https://php-errors.readthedocs.io/en/latest/messages/class-%25s-contains-%25d-abstract-method%25s-and-must-therefore-be-declared-abstract-or-implement-the-remaining-methods.html>`_
 
 
 

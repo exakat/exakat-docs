@@ -25,6 +25,7 @@ Not A Scalar Type
 PHP 7 introduced several scalar types, in particular ``int``, ``bool``, ``string`` and ``float``. Those three types are easily mistaken with ``integer``, ``boolean``, ``real`` and ``double``. 
 
 Unless those classes actually exists, PHP emits some strange `error <https://www.php.net/error>`_ messages.
+
 Thanks to ``Benoit Viguier`` for the `original idea <https://twitter.com/b_viguier/status/940173951908700161>`__ for this analysis.
 
 .. code-block:: php
@@ -44,7 +45,9 @@ See also `Type declarations <https://www.php.net/manual/en/functions.arguments.p
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/%22boolean%22+will+be+interpreted+as+a+class+name.+Did+you+mean+%22bool%22%3F+.html>`_
+  + `"boolean" will be interpreted as a class name. Did you mean "bool"?  <https://php-errors.readthedocs.io/en/latest/messages/%25s%22-will-be-interpreted-as-a-class-name.-did-you-mean-%22%25s%22%3F-write-%22%5C%25s%22%25s-to-suppress-this-warning.html>`_
+  + `"resource" will be interpreted as a class name. Did you mean "\resource"?  <https://php-errors.readthedocs.io/en/latest/messages/%25s%22-will-be-interpreted-as-a-class-name.-did-you-mean-%22%25s%22%3F-write-%22%5C%25s%22%25s-to-suppress-this-warning.html>`_
+  + `"double" will be interpreted as a class name. Did you mean "\float"?  <https://php-errors.readthedocs.io/en/latest/messages/%25s%22-will-be-interpreted-as-a-class-name.-did-you-mean-%22%25s%22%3F-write-%22%5C%25s%22%25s-to-suppress-this-warning.html>`_
 
 
 

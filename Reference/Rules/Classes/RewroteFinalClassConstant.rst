@@ -42,7 +42,7 @@ It is possible to write code that lints, when the classes are in different files
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/cannot+override+final+constant.html>`_
+  + `Cannot override final constant %s::%s <https://php-errors.readthedocs.io/en/latest/messages/%25s%5C%3A%5C%3A%25s-cannot-override-final-constant-%25s%5C%3A%5C%3A%25s.html>`_
 
 
 

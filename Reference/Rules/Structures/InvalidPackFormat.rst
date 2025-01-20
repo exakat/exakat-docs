@@ -26,7 +26,8 @@ Some characters are invalid in a `pack() <https://www.php.net/pack>`_ format str
 
 `unpack() <https://www.php.net/unpack>`_ also accepts a name after the format specifier and an optional quantifier. 
 
-All other situations is not a valid, and produces a warning : ``pack(): Type t: unknown format code``
+All other situations is not a valid, and produces a warning : ``pack(): Type t: unknown format code``.
+
 Check `pack() <https://www.php.net/pack>`_ documentation for format specifiers that were introduced in various PHP version, namely 7.0, 7.1 and 7.2.
 
 .. code-block:: php
@@ -43,8 +44,8 @@ See also `pack <https://www.php.net/pack>`_ and `unpack <https://www.php.net/pac
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/pack%28%29%3A+Type+t%3A+unknown+format+code.html>`_
-  + `1 <https://php-errors.readthedocs.io/en/latest/messages/unpack%28%29%3A+Type+t%3A+unknown+format+code.html>`_
+  + `pack(): Type t: unknown format code <https://php-errors.readthedocs.io/en/latest/messages/type-%25c%3A-unknown-format-code.html>`_
+  + `unpack(): Type t: unknown format code <https://php-errors.readthedocs.io/en/latest/messages/type-%25c%3A-unknown-format-code.html>`_
 
 
 

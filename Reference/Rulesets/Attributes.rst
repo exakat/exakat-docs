@@ -20,7 +20,7 @@ Attributes
 	:og:locale: en
 This ruleset gathers all rules that rely on PHP 8.+ attributes.
 
-Total : 11 analysis
+Total : 13 analysis
 
 * :ref:`exit-like-methods`
 * :ref:`using-deprecated-method`
@@ -33,6 +33,8 @@ Total : 11 analysis
 * :ref:`no-named-parameters`
 * :ref:`deprecated-attribute`
 * :ref:`useless-override-attribute`
+* :ref:`mustuseresult`
+* :ref:`must-use-result,-so-it-returns`
 
 Specs
 _____

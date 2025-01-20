@@ -44,7 +44,7 @@ This code will lint, but not execute.
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Type+of+b%3A%3A%24b+must+be+A+%28as+in+class+a%29.html>`_
+  + `Type of b::$b must be A (as in class a) <https://php-errors.readthedocs.io/en/latest/messages/type-of-%25s%5C%3A%5C%3A%24%25s-must-be-%25s%25s-%5C%28as-in-class-%25s%5C%29.html>`_
 
 
 

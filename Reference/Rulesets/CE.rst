@@ -479,7 +479,7 @@ Total : 624 analysis
 * :ref:`class-typed-references`
 * :ref:`check-json`
 * :ref:`ext-eio`
-* :ref:`undefined-class`
+* :ref:`undefined-static-class`
 * :ref:`ext-lzf`
 * :ref:`ext-msgpack`
 * :ref:`case-insensitive-constants`

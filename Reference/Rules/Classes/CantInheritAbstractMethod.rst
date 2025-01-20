@@ -37,7 +37,7 @@ See also `PHP RFC: Allow abstract function override <https://wiki.php.net/rfc/al
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Can%27t+inherit+abstract+function+A%3A%3Abar%28%29.html>`_
+  + `Can't inherit abstract function A::bar() <https://php-errors.readthedocs.io/en/latest/messages/can%5C%27t-inherit-abstract-function-%25s%5C%3A%5C%3A%25s%5C%28%5C%29-%5C%28previously-declared-abstract-in-%25s%5C%29.html>`_
 
 
 

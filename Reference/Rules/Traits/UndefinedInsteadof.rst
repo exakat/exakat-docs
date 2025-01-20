@@ -55,7 +55,7 @@ See also `Traits <https://www.php.net/manual/en/language.oop5.traits.php>`_.
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/An+alias+%28%25s%29+was+defined+for+method+%25s%28%29%2C+but+this+method+does+not+exist.html>`_
+  + `An alias (%s) was defined for method %s(), but this method does not exist <https://php-errors.readthedocs.io/en/latest/messages/an-alias-was-defined-for-%25s%5C%3A%5C%3A%25s-but-this-method-does-not-exist.html>`_
 
 
 

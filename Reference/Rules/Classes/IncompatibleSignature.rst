@@ -52,8 +52,7 @@ See also `Object Inheritance <https://www.php.net/manual/en/language.oop5.inheri
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Declaration+of+ab%3A%3Afoo%28%24a%29+should+be+compatible+with+a%3A%3Afoo%28%24a+%3D+1%29+.html>`_
-  + `1 <https://php-errors.readthedocs.io/en/latest/messages/Declaration+of+ab%3A%3Afoo%28%24a%29+must+be+compatible+with+a%3A%3Afoo%28%24a+%3D+1%29+.html>`_
+  + `Declaration of %s::%s($%s) should be compatible with %s::%s($%s = 1)  <https://php-errors.readthedocs.io/en/latest/messages/declaration-of-%25s-must-be-compatible-with-%25s.html>`_
 
 
 

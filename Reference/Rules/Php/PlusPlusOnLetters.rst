@@ -7,20 +7,20 @@ Plus Plus Used On Strings
 
 .. meta::
 	:description:
-		Plus Plus Used On Strings: Reports strings that are incremented with the post increment operator ``'s'++``.
+		Plus Plus Used On Strings: This rule reports strings that are incremented with the post increment operator ``'s'++``.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: Plus Plus Used On Strings
-	:twitter:description: Plus Plus Used On Strings: Reports strings that are incremented with the post increment operator ``'s'++``
+	:twitter:description: Plus Plus Used On Strings: This rule reports strings that are incremented with the post increment operator ``'s'++``
 	:twitter:creator: @exakat
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
 	:og:title: Plus Plus Used On Strings
 	:og:type: article
-	:og:description: Reports strings that are incremented with the post increment operator ``'s'++``
+	:og:description: This rule reports strings that are incremented with the post increment operator ``'s'++``
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Plus Plus Used On Strings.html
 	:og:locale: en
-Reports strings that are incremented with the post increment operator ``'s'++``.
+This rule reports strings that are incremented with the post increment operator ``'s'++``.
 
 This spots issues of the famous feature of PHP : incrementing strings with letters.
 
@@ -37,6 +37,11 @@ This analysis checks for string to be incremented. It doesn't check if the strin
    ?>
 
 See also `Incrementing/Decrementing Operators <https://www.php.net/manual/en/language.operators.increment.php>`_ and `Path to Saner Increment/Decrement operators <https://wiki.php.net/rfc/saner-inc-dec-operators>`_.
+
+Connex PHP features
+-------------------
+
+  + `string-increment <https://php-dictionary.readthedocs.io/en/latest/dictionary/string-increment.ini.html>`_
 
 
 Specs

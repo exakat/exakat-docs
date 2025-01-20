@@ -29,6 +29,12 @@ The initial capital S in a variable name, may easily be mistaken with the dollar
    $$ocket = $Socket;
    
    ?>
+Connex PHP features
+-------------------
+
+  + `variable <https://php-dictionary.readthedocs.io/en/latest/dictionary/variable.ini.html>`_
+  + `readability <https://php-dictionary.readthedocs.io/en/latest/dictionary/readability.ini.html>`_
+
 
 Suggestions
 ___________

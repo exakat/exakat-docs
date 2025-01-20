@@ -34,8 +34,8 @@ To `break <https://www.php.net/manual/en/control-structures.break.php>`_ a strin
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Empty+delimiter.html>`_
-  + `1 <https://php-errors.readthedocs.io/en/latest/messages/explode%28%29%3A+Argument+%231+%28%24separator%29+cannot+be+empty.html>`_
+  + `Empty delimiter <https://php-errors.readthedocs.io/en/latest/messages/empty-delimiter.html>`_
+  + `explode(): Argument #1 ($separator) cannot be empty <https://php-errors.readthedocs.io/en/latest/messages/empty-delimiter.html>`_
 
 
 
@@ -66,7 +66,7 @@ _____
 +------------------+-------------------------------------------------------------------------------------------------------------------------+
 | Time To Fix      | Quick (30 mins)                                                                                                         |
 +------------------+-------------------------------------------------------------------------------------------------------------------------+
-| Changed Behavior | PHP 8.0                                                                                                                 |
+| Changed Behavior | PHP 8.0 - `More <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/explodeWithEmptyString.html>`__        |
 +------------------+-------------------------------------------------------------------------------------------------------------------------+
 | Precision        | High                                                                                                                    |
 +------------------+-------------------------------------------------------------------------------------------------------------------------+

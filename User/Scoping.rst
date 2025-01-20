@@ -108,7 +108,7 @@ With that configuration, the Drillinstructor and the Owasp report are created au
 Predefined config files
 ------------------------
 
-45 rulesets detailled here : 
+46 rulesets detailled here : 
 
 .. _annex-all:
 
@@ -159,6 +159,8 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Attributes/MissingAttributeAttribute";
    analyzer[] = "Attributes/MissingOverrideMethod";
    analyzer[] = "Attributes/ModifyImmutable";
+   analyzer[] = "Attributes/MustUseResult";
+   analyzer[] = "Attributes/MustUseReturnReturns";
    analyzer[] = "Attributes/NestedAttributes";
    analyzer[] = "Attributes/NoNamedArguments";
    analyzer[] = "Attributes/Override";
@@ -476,7 +478,6 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Constants/UndefinedConstants";
    analyzer[] = "Constants/UnusedConstants";
    analyzer[] = "Constants/VariableConstant";
-   analyzer[] = "Custom/EvsAndWhere";
    analyzer[] = "Custom/MethodUsage";
    analyzer[] = "Dump/ArgumentCountsPerCalls";
    analyzer[] = "Dump/CallOrder";
@@ -1833,6 +1834,8 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Attributes/MissingAttributeAttribute'
      - 'Attributes/MissingOverrideMethod'
      - 'Attributes/ModifyImmutable'
+     - 'Attributes/MustUseResult'
+     - 'Attributes/MustUseReturnReturns'
      - 'Attributes/NestedAttributes'
      - 'Attributes/NoNamedArguments'
      - 'Attributes/Override'
@@ -2150,7 +2153,6 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Constants/UndefinedConstants'
      - 'Constants/UnusedConstants'
      - 'Constants/VariableConstant'
-     - 'Custom/EvsAndWhere'
      - 'Custom/MethodUsage'
      - 'Dump/ArgumentCountsPerCalls'
      - 'Dump/CallOrder'
@@ -5341,6 +5343,8 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Attributes/Friend";
    analyzer[] = "Attributes/MissingAttributeAttribute";
    analyzer[] = "Attributes/ModifyImmutable";
+   analyzer[] = "Attributes/MustUseResult";
+   analyzer[] = "Attributes/MustUseReturnReturns";
    analyzer[] = "Attributes/NoNamedArguments";
    analyzer[] = "Attributes/Override";
    analyzer[] = "Attributes/PhpNativeAttributes";
@@ -5365,6 +5369,8 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Attributes/Friend'
      - 'Attributes/MissingAttributeAttribute'
      - 'Attributes/ModifyImmutable'
+     - 'Attributes/MustUseResult'
+     - 'Attributes/MustUseReturnReturns'
      - 'Attributes/NoNamedArguments'
      - 'Attributes/Override'
      - 'Attributes/PhpNativeAttributes'
@@ -13135,6 +13141,41 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Structures/UseConstant'
      - 'Structures/UselessCasting'
      - 'Type/NoRealComparison'
+
+
+
+
+.. _annex-php-recommendations:
+
+PHP recommendations
+###################
+
+
+.. _annex-ini-php-recommendations:
+
+PHP recommendations for INI
++++++++++++++++++++++++++++
+
+
+INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and edit them to your owns.
+::
+
+ [PHP recommendations]
+   analyzer[] = "";
+
+
+.. _annex-yaml-php-recommendations:
+
+PHP recommendations for .exakat.yaml
+++++++++++++++++++++++++++++++++++++
+
+
+YAML configuration for built-in rulesets. Copy them in your code, with the name .exakat.yaml, and edit them to your owns.
+::
+
+  rulesets:
+    'PHP recommendations':
+     - ''
 
 
 

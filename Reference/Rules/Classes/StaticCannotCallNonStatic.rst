@@ -45,7 +45,7 @@ Magic methods cannot be `static <https://www.php.net/manual/en/language.oop5.sta
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Non-static+method+x%3A%3Afoo%28%29+cannot+be+called+statically.html>`_
+  + `Non-static method %s::%s() cannot be called statically <https://php-errors.readthedocs.io/en/latest/messages/non-static-method-%25s%5C%3A%5C%3A%25s%5C%28%5C%29-cannot-be-called-statically.html>`_
 
 
 

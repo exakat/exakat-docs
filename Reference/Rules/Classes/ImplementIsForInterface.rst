@@ -46,7 +46,7 @@ PHP defers the implements check until execution : the code in example does lint,
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/b+cannot+implement+a+-+it+is+not+an+interface.html>`_
+  + `%s cannot implement %s - it is not an interface <https://php-errors.readthedocs.io/en/latest/messages/%25s-cannot-implement-%25s---it-is-not-an-interface.html>`_
 
 
 

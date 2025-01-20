@@ -38,7 +38,7 @@ A final method is a method that cannot be overwritten in a child class. This mea
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Cannot+override+final+method+x%3A%3Amethod%28%29.html>`_
+  + `Cannot override final method %s::%s() <https://php-errors.readthedocs.io/en/latest/messages/cannot-override-final-%25s%3A%3A%25s%28%29-with-%25s%3A%3A%25s%28%29.html>`_
 
 
 

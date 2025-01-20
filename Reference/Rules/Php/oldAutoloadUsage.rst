@@ -48,7 +48,8 @@ See also `Autoloading Classes <https://www.php.net/manual/en/language.oop5.autol
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/__autoload%28%29+is+deprecated%2C+use+spl_autoload_register%28%29+instead.html>`_
+  + `__autoload() is deprecated, use spl_autoload_register() instead <https://php-errors.readthedocs.io/en/latest/messages/__autoload%28%29-is-deprecated%2C-use-spl_autoload_register%28%29-instead.html>`_
+  + `__autoload() is no longer supported, use spl_autoload_register() instead <https://php-errors.readthedocs.io/en/latest/messages/__autoload%28%29-is-no-longer-supported%2C-use-spl_autoload_register%28%29-instead.html>`_
 
 
 

@@ -24,28 +24,31 @@ Successive `substr() <https://www.php.net/substr>`_ calls may be replaced by a c
 
 It speeds up the processing, and allows the replacement of indefinite loops by a `foreach() <https://www.php.net/manual/en/control-structures.foreach.php>`_ call. 
 
-
-
 This is a micro optimisation. It works better on longer strings.
 
 .. code-block:: php
    
    <?php
    
-   $bits = str_split($string, 5);
-   foreach($bits as $bit) {
-   	foo($bit);
-   }
-   
-   $i = 0;
-   $s = strlen($string);
-   while($i < $s) {
-   	// repeating calls to substr during the loop
-   	foo(substr($string, $i * 5, 5));
-   	$i += 5;
-   }
+       $bits = str_split($string, 5);
+       foreach($bits as $bit) {
+       	foo($bit);
+       }
+       
+       $i = 0;
+       $s = strlen($string);
+       while($i < $s) {
+       	// repeating calls to substr during the loop
+       	foo(substr($string, $i * 5, 5));
+       	$i += 5;
+       }
    
    ?>
+Connex PHP features
+-------------------
+
+  + `loop <https://php-dictionary.readthedocs.io/en/latest/dictionary/loop.ini.html>`_
+
 
 Suggestions
 ___________

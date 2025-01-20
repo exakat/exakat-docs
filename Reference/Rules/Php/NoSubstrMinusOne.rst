@@ -7,33 +7,47 @@ No Substr Minus One
 
 .. meta::
 	:description:
-		No Substr Minus One: Negative index were introduced in PHP 7.
+		No Substr Minus One: Negative index on string reaches offsets starting from the end of the string.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: No Substr Minus One
-	:twitter:description: No Substr Minus One: Negative index were introduced in PHP 7
+	:twitter:description: No Substr Minus One: Negative index on string reaches offsets starting from the end of the string
 	:twitter:creator: @exakat
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
 	:og:title: No Substr Minus One
 	:og:type: article
-	:og:description: Negative index were introduced in PHP 7
+	:og:description: Negative index on string reaches offsets starting from the end of the string
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No Substr Minus One.html
 	:og:locale: en
+Negative index on string reaches offsets starting from the end of the string. This is equivalent to removing the requested offset from the full length of the string.
+
+This syntax also prevents relying on `substr() <https://www.php.net/substr>`_ to collect characters at the end of the string.
+
 Negative index were introduced in PHP 7.1. This syntax is not compatible with PHP 7.0 and older.
 
 .. code-block:: php
    
    <?php
-   $string = 'abc';
    
-   echo $string[-1]; // c
+   $string = 'abc';
    
    echo $string[1]; // a
    
+   echo $string[-1]; // c
+   
+   //Equivalent to
+   echo $string[count($string) - 1]; // c
+   echo $string[2]; // c
+   
    ?>
 
-See also `Generalize support of negative string offsets <https://wiki.php.net/rfc/negative-string-offsets>`_.
+See also https://wiki.php.net/rfc/negative-string-offsets.
+
+Connex PHP features
+-------------------
+
+  + `negative-index <https://php-dictionary.readthedocs.io/en/latest/dictionary/negative-index.ini.html>`_
 
 
 Suggestions

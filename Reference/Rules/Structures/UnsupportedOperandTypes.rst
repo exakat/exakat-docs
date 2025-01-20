@@ -7,23 +7,26 @@ Unsupported Operand Types
 
 .. meta::
 	:description:
-		Unsupported Operand Types: This error is raised when trying to combine an array and a scalar value.
+		Unsupported Operand Types: This error is raised when trying to combine two values of incompatible type.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: Unsupported Operand Types
-	:twitter:description: Unsupported Operand Types: This error is raised when trying to combine an array and a scalar value
+	:twitter:description: Unsupported Operand Types: This error is raised when trying to combine two values of incompatible type
 	:twitter:creator: @exakat
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
 	:og:title: Unsupported Operand Types
 	:og:type: article
-	:og:description: This error is raised when trying to combine an array and a scalar value
+	:og:description: This error is raised when trying to combine two values of incompatible type
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Unsupported Operand Types.html
 	:og:locale: en
-This `error <https://www.php.net/error>`_ is raised when trying to combine an array and a scalar value. 
+This `error <https://www.php.net/error>`_ is raised when trying to combine two values of incompatible type. For example, adding an array and an integer; adding an integer with an object; etc.
 
 Always checks that the types are compatible with the planned operations.
-PHP detects this `error <https://www.php.net/error>`_ at linting time, when using literal values. When `static <https://www.php.net/manual/en/language.oop5.static.php>`_ expression are involved, this `error <https://www.php.net/error>`_ will appear at execution time.
+
+That compatibility may be tricky with numeric strings: these are string that PHP can easily convert to an integer or a float. In such case, they are considered as their converted values.
+
+PHP detects this `error <https://www.php.net/error>`_ at linting time, when using literal values. When `static <https://www.php.net/manual/en/language.oop5.static.php>`_ or dynamic expression are involved, this `error <https://www.php.net/error>`_ appears at execution time.
 
 .. code-block:: php
    
@@ -31,7 +34,7 @@ PHP detects this `error <https://www.php.net/error>`_ at linting time, when usin
    
    const MY_ARRAY = 'error';
    
-   // This leads to the infamous "Unsupported operand types" error
+   // Unsupported operand types
    $b = MY_ARRAY + array(3,4);
    
    ?>
@@ -41,7 +44,7 @@ See also `PHP - Fatal error: Unsupported operand types [duplicate] <https://stac
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Unsupported+operand+types.html>`_
+  + `Unsupported operand types <https://php-errors.readthedocs.io/en/latest/messages/unsupported-operand-types.html>`_
 
 
 

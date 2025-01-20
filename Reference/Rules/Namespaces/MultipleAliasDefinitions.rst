@@ -29,16 +29,23 @@ Across an application, it is recommended to use the same namespace for one alias
    <?php
    
    namespace A {
-       use d\d; // aka D
+       use D\d; // aka D
    }
    
    // Those are usually in different files, rather than just different namespaces.
    
    namespace B {
-       use b\c as D; // also D. This could be named something else
+       use B\c as D; // also D. This could be named something else
    }
    
    ?>
+Connex PHP features
+-------------------
+
+  + `namespace <https://php-dictionary.readthedocs.io/en/latest/dictionary/namespace.ini.html>`_
+  + `naming <https://php-dictionary.readthedocs.io/en/latest/dictionary/naming.ini.html>`_
+  + `use-alias <https://php-dictionary.readthedocs.io/en/latest/dictionary/use-alias.ini.html>`_
+
 
 Suggestions
 ___________

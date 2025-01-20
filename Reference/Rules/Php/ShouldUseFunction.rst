@@ -1,26 +1,26 @@
 .. _php-shouldusefunction:
 
-.. _should-use-function:
+.. _should-use-use-function:
 
-Should Use Function
-+++++++++++++++++++
+Should Use Use Function
++++++++++++++++++++++++
 
 .. meta::
 	:description:
-		Should Use Function: Functioncalls that fall back to global scope should be using 'use function' or be fully namespaced.
+		Should Use Use Function: Functioncalls that fall back to global scope should be using ``use function`` or be fully namespaced.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
-	:twitter:title: Should Use Function
-	:twitter:description: Should Use Function: Functioncalls that fall back to global scope should be using 'use function' or be fully namespaced
+	:twitter:title: Should Use Use Function
+	:twitter:description: Should Use Use Function: Functioncalls that fall back to global scope should be using ``use function`` or be fully namespaced
 	:twitter:creator: @exakat
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Should Use Function
+	:og:title: Should Use Use Function
 	:og:type: article
-	:og:description: Functioncalls that fall back to global scope should be using 'use function' or be fully namespaced
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Should Use Function.html
+	:og:description: Functioncalls that fall back to global scope should be using ``use function`` or be fully namespaced
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Should Use Use Function.html
 	:og:locale: en
-Functioncalls that fall back to global scope should be using 'use function' or be fully namespaced. 
+Functioncalls that fall back to global scope should be using ``use function`` or be fully namespaced. 
 
 PHP searches for functions in the local namespaces, and in case it fails, makes the same search in the global scope. Anytime a native function is referenced this way, the search (and fail) happens. This slows down the scripts.
 
@@ -48,7 +48,12 @@ This analysis is a related to Performances/Php74ArrayKeyExists, and is a more ge
    
    ?>
 
-See also `blog post <http://veewee.github.io/blog/optimizing-php-performance-by-fq-function-calls/>`_.
+See also http://veewee.github.io/blog/optimizing-php-performance-by-fq-function-calls/.
+
+Connex PHP features
+-------------------
+
+  + `use-alias <https://php-dictionary.readthedocs.io/en/latest/dictionary/use-alias.ini.html>`_
 
 
 Suggestions

@@ -43,6 +43,12 @@ Protected and public redefined methods replace each other. Private methods are k
 
 See also `Object Inheritance <https://www.php.net/manual/en/language.oop5.inheritance.php>`_.
 
+Connex PHP features
+-------------------
+
+  + `method <https://php-dictionary.readthedocs.io/en/latest/dictionary/method.ini.html>`_
+  + `overwrite <https://php-dictionary.readthedocs.io/en/latest/dictionary/overwrite.ini.html>`_
+
 
 Specs
 _____

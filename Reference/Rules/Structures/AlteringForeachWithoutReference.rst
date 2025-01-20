@@ -26,8 +26,6 @@ When using a foreach loop that modifies the original source, it is recommended t
 
 Using references is then must faster, and easier to read. 
 
-
-
 `array_walk() <https://www.php.net/array_walk>`_ and `array_map() <https://www.php.net/array_map>`_ are also alternative to prevent the use of `foreach() <https://www.php.net/manual/en/control-structures.foreach.php>`_, when $key is not used.
 
 .. code-block:: php

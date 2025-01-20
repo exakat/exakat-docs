@@ -6,7 +6,7 @@ Rulesets
 Introduction
 ------------------------
 
-Exakat provides unique 1661 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
+Exakat provides unique 1662 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
 
 For more smoothly usage, the ruleset concept allow you to run a set of rules based on a decidated focus. Beawre that a Ruleset run all the associated rules and any needed dependencies.
 
@@ -97,6 +97,8 @@ Here is the list of the current rulesets supported by Exakat Engine.
 +-----------------------------------------------+------------------------------------------------------------------------------------------------------+
 | :ref:`ruleset-php-recommendations`            |Report recommendations from the PHP manual.                                                           |
 +-----------------------------------------------+------------------------------------------------------------------------------------------------------+
+| :ref:`ruleset-php-recommendations`            |Report recommendations from the PHP manual.                                                           |
++-----------------------------------------------+------------------------------------------------------------------------------------------------------+
 | :ref:`ruleset-performances`                   |Check the code for slow code.                                                                         |
 +-----------------------------------------------+------------------------------------------------------------------------------------------------------+
 | :ref:`ruleset-preferences`                    |Identify preferences in the code.                                                                     |
@@ -161,6 +163,7 @@ List of rulesets
    Rulesets/NoDoc.rst
    Rulesets/OneLiners.rst
    Rulesets/PHP recommendations.rst
+   Rulesets/Php recommendations.rst
    Rulesets/Performances.rst
    Rulesets/Preferences.rst
    Rulesets/Rector.rst

@@ -32,6 +32,12 @@ List of PHP interfaces being used in the code.
    }
    
    ?>
+Connex PHP features
+-------------------
+
+  + `interfaces <https://php-dictionary.readthedocs.io/en/latest/dictionary/interfaces.ini.html>`_
+  + `native-php <https://php-dictionary.readthedocs.io/en/latest/dictionary/native-php.ini.html>`_
+
 
 Specs
 _____

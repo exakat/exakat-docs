@@ -51,8 +51,8 @@ See also :ref:`Wrong Type Returned <wrong-type-returned>` and :ref:`Mismatch Typ
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Cannot+use+int+as+default+value+for+parameter+%24a+of+type+string.html>`_
-  + `1 <https://php-errors.readthedocs.io/en/latest/messages/Cannot+use+int+as+default+value+for+property+x%3A%3A%24a+of+type+string.html>`_
+  + `Cannot use int as default value for parameter %s of type %s <https://php-errors.readthedocs.io/en/latest/messages/cannot-use-%25s-as-default-value-for-parameter-%24%25s-of-type-%25s.html>`_
+  + `Cannot use int as default value for property %s::$%s of type %s <https://php-errors.readthedocs.io/en/latest/messages/cannot-use-%25s-as-default-value-for-property-%25s%3A%3A%24%25s-of-type-%25s.html>`_
 
 
 

@@ -46,7 +46,7 @@ See also `Class Constant <https://www.php.net/manual/en/language.oop5.constants.
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Cannot+access+private+const+.html>`_
+  + `Cannot access private const  <https://php-errors.readthedocs.io/en/latest/messages/cannot-access-%25s-constant-%25s%3A%3A%25s.html>`_
 
 
 

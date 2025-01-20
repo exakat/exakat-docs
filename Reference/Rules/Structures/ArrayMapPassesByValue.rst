@@ -51,7 +51,7 @@ See also `array_map <https://www.php.net/array_map>`_.
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Argument+%231+%28%24line%29+must+be+passed+by+reference.html>`_
+  + `Argument #1 ($line) must be passed by reference <https://php-errors.readthedocs.io/en/latest/messages/%25s%25s%25s%5C%28%5C%29%5C%3A-argument-%23%25d%25s%25s%25s-must-be-passed-by-reference%5C%2C-value-given.html>`_
 
 
 

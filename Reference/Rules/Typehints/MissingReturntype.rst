@@ -49,7 +49,7 @@ The analysis reports a method when it finds other return types than the one expe
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Return+value+of+foo%28%29+must+be+of+the+type+int%2C+string+returned.html>`_
+  + `Return value of %s() must be of the type %s, %s returned <https://php-errors.readthedocs.io/en/latest/messages/%25s%25s%25s%28%29%3A+Return+value+must+be+of+type+%25s%2C+%25s+returned.html>`_
 
 
 

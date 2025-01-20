@@ -7,20 +7,20 @@ Conditioned Function
 
 .. meta::
 	:description:
-		Conditioned Function: Indicates if a function is defined only if a condition is met.
+		Conditioned Function: This rule indicates when a function is defined only if a condition is met.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: Conditioned Function
-	:twitter:description: Conditioned Function: Indicates if a function is defined only if a condition is met
+	:twitter:description: Conditioned Function: This rule indicates when a function is defined only if a condition is met
 	:twitter:creator: @exakat
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
 	:og:title: Conditioned Function
 	:og:type: article
-	:og:description: Indicates if a function is defined only if a condition is met
+	:og:description: This rule indicates when a function is defined only if a condition is met
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Conditioned Function.html
 	:og:locale: en
-Indicates if a function is defined only if a condition is met.
+This rule indicates when a function is defined only if a condition is met. This means that the function may be undefined in certain cases, and defined in other cases.
 
 .. code-block:: php
    

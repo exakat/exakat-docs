@@ -7,24 +7,22 @@ No String With Append
 
 .. meta::
 	:description:
-		No String With Append: PHP 7 doesn't allow the usage of [] with strings.
+		No String With Append: PHP 7, and more recent, doesn't allow the usage of the append operator ``[]`` with strings.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: No String With Append
-	:twitter:description: No String With Append: PHP 7 doesn't allow the usage of [] with strings
+	:twitter:description: No String With Append: PHP 7, and more recent, doesn't allow the usage of the append operator ``[]`` with strings
 	:twitter:creator: @exakat
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
 	:og:title: No String With Append
 	:og:type: article
-	:og:description: PHP 7 doesn't allow the usage of [] with strings
+	:og:description: PHP 7, and more recent, doesn't allow the usage of the append operator ``[]`` with strings
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No String With Append.html
 	:og:locale: en
-PHP 7 doesn't allow the usage of [] with strings. [] is an array-only operator.
+PHP 7, and more recent, doesn't allow the usage of the append operator ``[]`` with strings. ``[]`` is an array-only operator.
 
-
-
-This was possible in PHP 5, but is now forbidden in PHP 7.
+This was possible in PHP 5, and it is forbidden since in PHP 7.
 
 .. code-block:: php
    
@@ -36,9 +34,6 @@ This was possible in PHP 5, but is now forbidden in PHP 7.
    $string[] = 'd';
    
    ?>
-
-See also `class <https://www.php.net/manual/en/language.oop5.basic.php#language.oop5.basic.class>`_.
-
 Connex PHP features
 -------------------
 

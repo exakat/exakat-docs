@@ -24,8 +24,6 @@ In a `closure <https://www.php.net/`closure <https://www.php.net/closure>`_>`_, 
 
 In the ``use`` clause of the `closure <https://www.php.net/`closure <https://www.php.net/closure>`_>`_, make sure that the passed variables do not require any more processing, such as a call to another function or an extra expression.
 
-
-
 This is a micro-optimisation. It has more potential with the `closure <https://www.php.net/`closure <https://www.php.net/closure>`_>`_ used in a loop, or an array function.
 
 .. code-block:: php

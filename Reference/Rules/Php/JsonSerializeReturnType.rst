@@ -25,6 +25,7 @@ Native PHP interface which define a type, expect the derived methods to use the 
 In PHP 8.1, the mixed return type is now enforced, and a deprecated notice is displayed.
 
 One solution is to add the good return type, or to use the `#[`ReturnTypeWillChange <https://www.php.net/returntypewillchange>`_]` `attribute <https://www.php.net/attribute>`_.
+
 This rule covers the following interfaces : 
 
 + `ArrayAccess <https://www.php.net/manual/en/class.`arrayaccess <https://www.php.net/arrayaccess>`_.php>`_
@@ -49,7 +50,7 @@ See also `JsonSerializable::jsonSerialize <https://www.php.net/manual/en/jsonser
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Return+type+of+x%3A%3Ajsonserialize%28%29+should+either+be+compatible+with+JsonSerializable%3A%3AjsonSerialize%28%29%3A+mixed%2C+or+the+%23%5B%5CReturnTypeWillChange%5D+attribute+should+be+used+to+temporarily+suppress+the+notice.html>`_
+  + `Return type of %s::%s() should either be compatible with %s::%s(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice <https://php-errors.readthedocs.io/en/latest/messages/return-type-of-%25s%3A%3A%25s%28%29-should-either-be-compatible-with-%25s%3A%3A%25s%28%29%3A-mixed.html>`_
 
 
 

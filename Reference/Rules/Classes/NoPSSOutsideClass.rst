@@ -63,10 +63,7 @@ See also `Scope Resolution Operator (::) <https://www.php.net/manual/en/language
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Cannot+access+static%3A%3A+when+no+class+scope+is+active.html>`_
-  + `1 <https://php-errors.readthedocs.io/en/latest/messages/Cannot+use+%22parent%22+when+no+class+scope+is+active.html>`_
-  + `2 <https://php-errors.readthedocs.io/en/latest/messages/Cannot+use+%22static%22+when+no+class+scope+is+active.html>`_
-  + `3 <https://php-errors.readthedocs.io/en/latest/messages/Cannot+use+%22self%22+when+no+class+scope+is+active.html>`_
+  + `Cannot access static:: when no class scope is active <https://php-errors.readthedocs.io/en/latest/messages/cannot-access-static%3A%3A-when-no-class-scope-is-active.html>`_
 
 
 

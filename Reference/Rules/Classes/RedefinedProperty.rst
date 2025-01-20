@@ -23,6 +23,7 @@ Redefined Property
 Property redefined in a `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ class. 
 
 Using heritage, it is possible to define several times the same property, at different levels of the hierarchy.
+
 When this is the case, it is difficult to understand which class will actually handle the property. 
 
 In the case of a private property, the different instances will stay distinct. In the case of protected or public properties, they will all share the same value. 
@@ -46,7 +47,7 @@ It is recommended to avoid redefining the same property in a hierarchy.
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Access+level+to+xx%3A%3A%24x+must+be+public+%28as+in+class+x%29.html>`_
+  + `Access level to %s::$%s must be public (as in class %s) <https://php-errors.readthedocs.io/en/latest/messages/access-level-to-%25s%5C%3A%5C%3A%25s-must-be-%25s-%5C%28as-in-%25s-%25s%5C%29%25s.html>`_
 
 
 

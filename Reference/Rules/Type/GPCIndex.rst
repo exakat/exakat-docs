@@ -7,20 +7,23 @@ Incoming Variable Index Inventory
 
 .. meta::
 	:description:
-		Incoming Variable Index Inventory: This collects all the index used in incoming variables : $_GET, $_POST, $_REQUEST, $_COOKIE.
+		Incoming Variable Index Inventory: This rule collects all the index used in incoming variables : ``$_GET``, ``$_POST``, ``$_REQUEST``, ``$_COOKIE``.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: Incoming Variable Index Inventory
-	:twitter:description: Incoming Variable Index Inventory: This collects all the index used in incoming variables : $_GET, $_POST, $_REQUEST, $_COOKIE
+	:twitter:description: Incoming Variable Index Inventory: This rule collects all the index used in incoming variables : ``$_GET``, ``$_POST``, ``$_REQUEST``, ``$_COOKIE``
 	:twitter:creator: @exakat
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
 	:og:title: Incoming Variable Index Inventory
 	:og:type: article
-	:og:description: This collects all the index used in incoming variables : $_GET, $_POST, $_REQUEST, $_COOKIE
+	:og:description: This rule collects all the index used in incoming variables : ``$_GET``, ``$_POST``, ``$_REQUEST``, ``$_COOKIE``
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Incoming Variable Index Inventory.html
 	:og:locale: en
-This collects all the index used in incoming variables : `$_GET <https://www.php.net/manual/en/reserved.variables.get.php>`_, `$_POST <https://www.php.net/manual/en/reserved.variables.post.php>`_, `$_REQUEST <https://www.php.net/manual/en/reserved.variables.request.php>`_, $_COOKIE.
+This rule collects all the index used in incoming variables : ``$_GET``, ``$_POST``, ``$_REQUEST``, ``$_COOKIE``. 
+
+Collecting together the names of incoming variable is good for documentation.
+
 
 .. code-block:: php
    
@@ -32,7 +35,7 @@ This collects all the index used in incoming variables : `$_GET <https://www.php
    // y is collected, but no z. 
    echo $_POST['y']['z'];
    
-   // a is not collected
+   // s is not collected
    echo $_ENV['s'];
    
    ?>

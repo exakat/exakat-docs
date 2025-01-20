@@ -47,8 +47,8 @@ See also `Properties <https://www.php.net/manual/en/language.oop5.properties.php
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Type+of+b%3A%3A%24a+must+not+be+defined+%28as+in+class+a%29.html>`_
-  + `1 <https://php-errors.readthedocs.io/en/latest/messages/Type+of+b%3A%3A%24a+must+be+array+%28as+in+class+a%29.html>`_
+  + `Type of b::$a must not be defined (as in class a) <https://php-errors.readthedocs.io/en/latest/messages/type-of-%25s%3A%3A%24%25s-must-not-be-defined-%28as-in-class-%25s%29.html>`_
+  + `Type of b::$a must be array (as in class a) <https://php-errors.readthedocs.io/en/latest/messages/type-of-%25s%3A%3A%24%25s-must-be-%25s%25s-%28as-in-class-%25s%29.html>`_
 
 
 

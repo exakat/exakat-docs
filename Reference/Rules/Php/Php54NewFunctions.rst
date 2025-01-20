@@ -57,6 +57,12 @@ PHP introduced new functions in PHP 5.4. If there are defined functions with suc
    $raw = zlib_decode($zipped);
    
    ?>
+Connex PHP features
+-------------------
+
+  + `function <https://php-dictionary.readthedocs.io/en/latest/dictionary/function.ini.html>`_
+  + `native-php <https://php-dictionary.readthedocs.io/en/latest/dictionary/native-php.ini.html>`_
+
 
 Specs
 _____

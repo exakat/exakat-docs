@@ -40,15 +40,21 @@ It is not possible to `break <https://www.php.net/manual/en/control-structures.b
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/%27break%27+operator+accepts+only+positive+integers.html>`_
+  + `'break' operator accepts only positive integers <https://php-errors.readthedocs.io/en/latest/messages/%27%25s%27-operator-accepts-only-positive-integers.html>`_
 
 
+
+Connex PHP features
+-------------------
+
+  + `break <https://php-dictionary.readthedocs.io/en/latest/dictionary/break.ini.html>`_
 
 
 Suggestions
 ___________
 
-* Remove 0, or the break
+* Remove the operand 0
+* Remove the break
 
 
 

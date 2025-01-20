@@ -49,7 +49,7 @@ See also `Class constants <https://www.php.net/manual/en/language.oop5.constants
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Undefined+constant.html>`_
+  + `Undefined constant <https://php-errors.readthedocs.io/en/latest/messages/undefined-constant.html>`_
 
 
 

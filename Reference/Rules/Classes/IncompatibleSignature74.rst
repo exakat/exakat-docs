@@ -53,9 +53,8 @@ See also `Object Inheritance <https://www.php.net/manual/en/language.oop5.inheri
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Declaration+of+ab%3A%3Afoo%28%24a%29+should+be+compatible+with+a%3A%3Afoo%28%24a+%3D+1%29+.html>`_
-  + `1 <https://php-errors.readthedocs.io/en/latest/messages/Declaration+of+ab%3A%3Afoo%28%24a%29+must+be+compatible+with+a%3A%3Afoo%28%24a+%3D+1%29+.html>`_
-  + `2 <https://php-errors.readthedocs.io/en/latest/messages/Could+not+check+compatibility+between+xx%3A%3Abar%28B+%24a%29+and+foo%3A%3Abar%28A+%24a%29%2C+because+class+A+is+not+available.html>`_
+  + `Declaration of %s::%s($%s) should be compatible with %s::%s($%s = 1)  <https://php-errors.readthedocs.io/en/latest/messages/declaration-of-%25s-must-be-compatible-with-%25s.html>`_
+  + `Could not check compatibility between %s::%s(%s $%s) and %s::%s(%s $%s), because class %s is not available <https://php-errors.readthedocs.io/en/latest/messages/could-not-check-compatibility-between-%25s-and-%25s%2C-because-class-%25s-is-not-available.html>`_
 
 
 

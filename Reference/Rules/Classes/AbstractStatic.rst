@@ -39,13 +39,6 @@ This is not the case anymore in PHP 7.0+.
 
 See also `Why does PHP 5.2+ disallow abstract static class methods? <https://stackoverflow.com/questions/999066/why-does-php-5-2-disallow-abstract-static-class-methods>`_.
 
-Related PHP errors 
--------------------
-
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Static+function+foo%3A%3Abar%28%29+should+not+be+abstract.html>`_
-
-
-
 Connex PHP features
 -------------------
 

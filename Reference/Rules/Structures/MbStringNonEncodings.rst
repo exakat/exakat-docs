@@ -25,6 +25,7 @@ mbstring functions require one of its supported encoding as parameter.
 For example, `mb_chr() <https://www.php.net/mb_chr>`_ requires encoding as second parameter. The supported encodings are available with `mb_list_encodings() <https://www.php.net/mb_list_encodings>`_ and `mb_encoding_aliases() <https://www.php.net/mb_encoding_aliases>`_.
 
 A wrong encoding generates a fatal `error <https://www.php.net/error>`_.
+
 Here are some of the dropped encodings, depending on PHP versions: 
 
 + PHP 7.0
@@ -58,7 +59,7 @@ Here are some of the dropped encodings, depending on PHP versions:
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Argument+%232+%28%24encoding%29+must+be+a+valid+encoding%2C+%22xxx%22+given.html>`_
+  + `Argument #2 ($encoding) must be a valid encoding, "%s" given <https://php-errors.readthedocs.io/en/latest/messages/must-be-a-valid-encoding%2C-%22%25s%22-given.html>`_
 
 
 

@@ -46,8 +46,8 @@ PHP 7.0 and later detect some of their usage at compile time, and emits a fatal 
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Cannot+access+self%3A%3A+when+no+class+scope+is+active+.html>`_
-  + `1 <https://php-errors.readthedocs.io/en/latest/messages/Cannot+use+%22parent%22+when+current+class+scope+has+no+parent.html>`_
+  + `Cannot access self:: when no class scope is active <https://php-errors.readthedocs.io/en/latest/messages/cannot-access-self%3A%3A-when-no-class-scope-is-active.html>`_
+  + `Cannot use "parent" when current class scope has no parent <https://php-errors.readthedocs.io/en/latest/messages/cannot-access-parent%3A%3A-when-no-class-scope-is-active.html>`_
 
 
 

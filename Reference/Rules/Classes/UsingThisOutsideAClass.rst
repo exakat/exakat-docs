@@ -47,7 +47,7 @@ See also `Closure::bind <https://www.php.net/manual/en/closure.bind.php>`_ and `
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Using+%24this+when+not+in+object+context.html>`_
+  + `Using $this when not in object context <https://php-errors.readthedocs.io/en/latest/messages/using-%24this-when-not-in-object-context.html>`_
 
 
 

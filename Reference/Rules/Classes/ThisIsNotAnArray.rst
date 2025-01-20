@@ -49,7 +49,7 @@ See also `ArrayAccess <https://www.php.net/manual/en/class.arrayaccess.php>`_, `
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Cannot+use+object+of+type+Foo+as+array.html>`_
+  + `Cannot use object of type %s as array <https://php-errors.readthedocs.io/en/latest/messages/cannot-use-object-of-type-%25s-as-array.html>`_
 
 
 

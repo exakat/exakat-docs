@@ -41,7 +41,7 @@ The expected parameter is not of the correct type. Check PHP documentation to kn
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Argument+must+be+of+type+int%2C+array+given.html>`_
+  + `Argument must be of type int, array given <https://php-errors.readthedocs.io/en/latest/messages/argument-%23%25d-%28%24%25s%29-must-be-of-type-%25s%2C-%25s-given.html>`_
 
 
 

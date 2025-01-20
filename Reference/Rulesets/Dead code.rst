@@ -40,7 +40,7 @@ Total : 33 analysis
 * :ref:`unresolved-catch`
 * :ref:`unset-in-foreach`
 * :ref:`empty-namespace`
-* :ref:`can't-extend-final`
+* :ref:`can't-extend-final-class`
 * :ref:`exception-order`
 * :ref:`undefined-caught-exceptions`
 * :ref:`unused-protected-methods`

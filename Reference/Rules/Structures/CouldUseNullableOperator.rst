@@ -59,9 +59,8 @@ See also `PHP 8.0 feature focus: nullsafe methods <https://platform.sh/blog/2020
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Call+to+a+member+function+b%28%29+on+null.html>`_
-  + `1 <https://php-errors.readthedocs.io/en/latest/messages/Attempt+to+read+property+%22b%22+on+null.html>`_
-  + `2 <https://php-errors.readthedocs.io/en/latest/messages/Class+%22null%22+not+found+.html>`_
+  + `Call to a member function %s() on %s <https://php-errors.readthedocs.io/en/latest/messages/call-to-a-member-function-%25s%5C%28%5C%29-on-%25s.html>`_
+  + `Attempt to read property "%s" on %s <https://php-errors.readthedocs.io/en/latest/messages/attempt-to-read-property-%22%25s%22-on-%25s.html>`_
 
 
 

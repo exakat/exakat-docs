@@ -43,8 +43,8 @@ Those class constants are overwriting  a `parent <https://www.php.net/manual/en/
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Cannot+inherit+previously-inherited+or+override+constant+A+from+interface+i.html>`_
-  + `1 <https://php-errors.readthedocs.io/en/latest/messages/%25s+%25s+inherits+both+%25s%3A%3A%25s+and+%25s%3A%3A%25s.html>`_
+  + `Cannot inherit previously-inherited or override constant A from interface i <https://php-errors.readthedocs.io/en/latest/messages/cannot-inherit-previously-inherited-or-override-constant-%25s-from-interface-%25s.html>`_
+  + `%s %s inherits both %s::%s and %s::%s <https://php-errors.readthedocs.io/en/latest/messages/%25s-%25s-inherits-both-%25s%3A%3A%25s-and-%25s%3A%3A%25s.html>`_
 
 
 

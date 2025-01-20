@@ -48,7 +48,7 @@ See also `In a PHP5 class, when does a private constructor get called? <https://
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Call+to+private+Y%3A%3A__construct%28%29+from+invalid+context.html>`_
+  + `Call to private Y::__construct() from invalid context <https://php-errors.readthedocs.io/en/latest/messages/call-to-%25s-method-%25s%3A%3A%25s%28%29-from-%25s%25s.html>`_
 
 
 

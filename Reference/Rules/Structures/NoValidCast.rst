@@ -1,28 +1,28 @@
 .. _structures-novalidcast:
 
-.. _no-valid-cast:
+.. _no-a-valid-cast:
 
-No Valid Cast
-+++++++++++++
+No A Valid Cast
++++++++++++++++
 
 .. meta::
 	:description:
-		No Valid Cast: This cast generates an error, as there is no way to convert an object to an int.
+		No A Valid Cast: This cast generates an error, as there is no way to directly convert an object to an int.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
-	:twitter:title: No Valid Cast
-	:twitter:description: No Valid Cast: This cast generates an error, as there is no way to convert an object to an int
+	:twitter:title: No A Valid Cast
+	:twitter:description: No A Valid Cast: This cast generates an error, as there is no way to directly convert an object to an int
 	:twitter:creator: @exakat
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: No Valid Cast
+	:og:title: No A Valid Cast
 	:og:type: article
-	:og:description: This cast generates an error, as there is no way to convert an object to an int
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No Valid Cast.html
+	:og:description: This cast generates an error, as there is no way to directly convert an object to an int
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No A Valid Cast.html
 	:og:locale: en
-This cast generates an `error <https://www.php.net/error>`_, as there is no way to convert an object to an int. 
+This cast generates an `error <https://www.php.net/error>`_, as there is no way to directly convert an object to an int. 
 
-The `result <https://www.php.net/result>`_ will be 1. 
+The `result <https://www.php.net/result>`_ is 1, with a warning. 
 
 This rule applies to float and int. This doesn't apply to string cast, as the magic method `__toString() <https://www.php.net/manual/en/language.oop5.magic.php>`_ allows for such conversions.
 
@@ -38,7 +38,9 @@ This rule applies to float and int. This doesn't apply to string cast, as the ma
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Object+of+class+stdClass+could+not+be+converted+to.html>`_
+  + `Object of class stdClass could not be converted to int <https://php-errors.readthedocs.io/en/latest/messages/object-of-class-%25s-could-not-be-converted-to-int.html>`_
+  + `Object of class stdClass could not be converted to float <https://php-errors.readthedocs.io/en/latest/messages/object-of-class-%25s-could-not-be-converted-to-float.html>`_
+  + `Object of class stdClass could not be converted to string <https://php-errors.readthedocs.io/en/latest/messages/object-of-class-%25s-could-not-be-converted-to-string.html>`_
 
 
 

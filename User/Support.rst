@@ -106,7 +106,7 @@ List of external services whose configuration files has been commited in the cod
 * `composer <https://getcomposer.org/>`_ - composer.json, composer.lock, vendor, composer.phar
 * `couscous <http://couscous.io/>`_ - couscous.yml
 * `Code Sniffer <https://github.com/PHPCSStandards/PHP_CodeSniffer>`_ - .php_cs, .php_cs.dist, .phpcs.xml, php_cs.dist, phpcs.xml, phpcs.xml.dist, ruleset.xml, .phpcs.xml.dist
-* `coveralls <https://coveralls.io/>`_ - .coveralls.yml
+* `coveralls <https://github.com/php-coveralls/php-coveralls>`_ - .coveralls.yml
 * `crowdin <https://crowdin.com/>`_ - crowdin.yml
 * `cvs <https://www.nongnu.org/cvs/>`_ - CVS
 * `cypress <https://www.cypress.io/>`_ - cypress.config.js, cypress.config.ts
@@ -114,12 +114,13 @@ List of external services whose configuration files has been commited in the cod
 * `direnv <https://direnv.net/>`_ - .envrc
 * `docheader <https://github.com/malukenho/docheader>`_ - .docheader
 * `docker <http://www.docker.com/>`_ - .dockerignore, .docker, docker-compose.yml, docker-compose.yaml, Dockerfile, .env.docker
-* `dotenv <https://github.com/symfony/dotenv>`_ - .env.dist, .env, .env.example
+* `dotenv <https://www.dotenv.org/docs/>`_ - .env.dist, .env, .env.example
 * `doxygen <https://www.doxygen.nl/index.html>`_ - Doxyfile
 * `docblox <https://github.com/dzuelke/Docblox.git>`_ - docblox.dist.xml
 * `drone <http://docs.drone.io/>`_ - .dockerignore, .docker
 * `drupalci <https://www.drupal.org/project/drupalci>`_ - drupalci.yml
-* `drush <https://www.drupal.org/project/drush>`_ - drush.services.yml
+* `drush <https://www.drush.org/>`_ - drush.services.yml
+* `easy-coding-standard <https://github.com/easy-coding-standard/easy-coding-standard>`_ - ecs.php
 * `editorconfig <https://editorconfig.org/>`_ - .editorconfig
 * `eslint <http://eslint.org/>`_ - .eslintrc, .eslintignore, eslintrc.js, .eslintrc.js, .eslintrc.json
 * `Exakat <https://www.exakat.io/>`_ - .exakat.yaml, .exakat.yml, .exakat.ini
@@ -128,7 +129,7 @@ List of external services whose configuration files has been commited in the cod
 * `flintci <https://flintci.io/>`_ - .flintci.yml
 * `garden <https://garden.io/>`_ - garden.yaml
 * `gherkin <https://cucumber.io/docs/gherkin/>`_ - .gherkin-lintrc
-* `git <https://git-scm.com/>`_ - .git, .gitignore, .gitattributes, .gitmodules, .mailmap, .githooks, .git-hooks
+* `git <https://git-scm.com/>`_ - .git, .gitignore, .gitattributes, .gitmodules, .mailmap, .githooks, .git-hooks, .git-blame-ignore-revs
 * `gitbook <https://www.gitbook.com/>`_ - .gitbook.yaml
 * `gitpod <https://www.gitpod.io/>`_ - .gitpod.yml, gitpod.code-workspace, .gitpod.dockerfile, .gitpod.Dockerfile
 * `github <https://www.github.com/>`_ - .github
@@ -138,8 +139,9 @@ List of external services whose configuration files has been commited in the cod
 * `gush <https://github.com/gushphp/gush>`_ - .gush.yml
 * `gruntjs <https://gruntjs.com/>`_ - Gruntfile.js, gruntfile.js
 * `humbug <https://github.com/humbug/box.git>`_ - humbug.json.dist, humbug.json
+* `husky <https://typicode.github.io/husky/>`_ - .husky
 * `infection <https://infection.github.io/>`_ - infection.yml, .infection.yml, infection.json.dist, infection.json
-* `insight <https://insight.sensiolabs.com/>`_ - .sensiolabs.yml, .symfony.insight.yaml
+* `insight <https://insight.symfony.com/>`_ - .sensiolabs.yml, .symfony.insight.yaml
 * `jekyll <https://jekyllrb.com/>`_ - _config.yml, _config.toml
 * `jest <https://jestjs.io/>`_ - jest.config.js
 * `jetbrains <https://www.jetbrains.com/phpstorm/>`_ - .idea
@@ -148,6 +150,7 @@ List of external services whose configuration files has been commited in the cod
 * `karma <https://karma-runner.github.io/latest/index.html>`_ - ./karma.conf.js, ./karma.conf.coffee, ./karma.conf.ts, karma.conf.js
 * `lando <https://lando.dev/>`_ - .lando.yml
 * `lerna <https://lerna.js.org/>`_ - lerna.json
+* `license <>`_ - LICENSE, license.md, LICENSE.md, license.txt, LICENSE.txt, license.rst
 * `mercurial <https://www.mercurial-scm.org/>`_ - .hg, .hgtags, .hgignore, .hgeol
 * `Makefile <https://www.gnu.org/software/make/manual/make.html>`_ - Makefile
 * `mkdocs <http://www.mkdocs.org>`_ - mkdocs.yml
@@ -163,7 +166,7 @@ List of external services whose configuration files has been commited in the cod
 * `php-cs-fixer <https://github.com/PHP-CS-Fixer/PHP-CS-Fixer>`_ - .php-cs-fixer.php, .php-cs-fixer.dist.php
 * `Phpdocumentor <https://www.phpdoc.org/>`_ - .phpdoc.xml, phpdoc.dist.xml, phpdoc.xml.dist
 * `phpdox <https://github.com/theseer/phpdox>`_ - phpdox.xml.dist, phpdox.xml
-* `phive <https://phar.io/>`_ - phive.xml
+* `phive <https://phar.io/>`_ - phive.xml, .phive
 * `pint <https://laravel.com/docs/10.x/pint>`_ - pint.json
 * `phanalist <https://github.com/denzyldick/phanalist?tab=readme-ov-file>`_ - phanalist.yaml
 * `phinx <https://phinx.org/>`_ - phinx.yml
@@ -171,7 +174,7 @@ List of external services whose configuration files has been commited in the cod
 * `phplint <https://github.com/overtrue/phplint>`_ - .phplint.yml
 * `phpmetrics <http://www.phpmetrics.org/>`_ - .phpmetrics.yml.dist
 * `phpsa <https://github.com/ovr/phpsa>`_ - .phpsa.yml
-* `phpspec <http://www.phpspec.net/en/latest/>`_ - phpspec.yml, .phpspec, phpspec.yml.dist
+* `phpspec <https://phpspec.net/en/stable/>`_ - phpspec.yml, .phpspec, phpspec.yml.dist
 * `phpstan <https://github.com/phpstan>`_ - phpstan.neon, .phpstan.neon, phpstan.neon.dist, phpstan-baseline.neon, phpstan.tests.neon.dist, phpstan.dist.neon
 * `phpswitch <https://github.com/jubianchi/phpswitch>`_ - .phpswitch.yml
 * `PHPMD <https://phpmd.org/>`_ - phpmd.xml, phpmd.xml.dist, phpmd_ruleset.xml
@@ -183,6 +186,8 @@ List of external services whose configuration files has been commited in the cod
 * `puppet <https://puppet.com/>`_ - .puppet
 * `qodana <https://www.jetbrains.com/qodana/>`_ - qodana.yaml
 * `readthedocs <https://about.readthedocs.com/>`_ - .readthedocs.yml, .readthedocs.yaml
+* `readme <>`_ - README.md, readme.md, README, readme.rst, readme.txt
+* `rector <https://github.com/rectorphp/rector>`_ - rector.php
 * `renovate <https://www.renovatebot.com/>`_ - renovate.json
 * `rmt <https://github.com/liip/RMT>`_ - .rmt.yml
 * `robo <https://robo.li/>`_ - RoboFile.php, robo.yml.dist
@@ -209,7 +214,7 @@ List of external services whose configuration files has been commited in the cod
 * `varci <https://var.ci/>`_ - .varci, .varci.yml
 * `Vagrant <https://www.vagrantup.com/>`_ - Vagrantfile
 * `vite <https://vitejs.dev/>`_ - vite.config.js
-* `visualstudio <https://code.visualstudio.com/>`_ - .vscode
+* `visualstudio <https://code.visualstudio.com/>`_ - .vscode, .devcontainer
 * `vue <https://vuejs.org/>`_ - vue.config.js
 * `webpack <https://webpack.js.org/>`_ - webpack.mix.js, webpack.config.js, webpack.ssr.mix.js
 * `yarn <https://yarnpkg.com/lang/en/>`_ - yarn.lock, .yarnclean

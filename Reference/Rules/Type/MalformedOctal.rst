@@ -36,7 +36,7 @@ Also, note that very large octal, usually with more than 21 figures, will be tur
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Invalid+numeric+literal.html>`_
+  + `Invalid numeric literal <https://php-errors.readthedocs.io/en/latest/messages/invalid-numeric-literal.html>`_
 
 
 

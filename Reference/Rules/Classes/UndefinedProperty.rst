@@ -48,8 +48,8 @@ See also `Properties <https://www.php.net/manual/en/language.oop5.properties.php
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Undefined+property%3A+x%3A%3A%24e.html>`_
-  + `1 <https://php-errors.readthedocs.io/en/latest/messages/Property+%25s%3A%3A%24%25s+does+not+exist.html>`_
+  + `Undefined property: x::$e <https://php-errors.readthedocs.io/en/latest/messages/undefined-property-%25s%5C%3A%5C%3A%24%25s.html>`_
+  + `Property %s::$%s does not exist <https://php-errors.readthedocs.io/en/latest/messages/property-%25s-does-not-exist.html>`_
 
 
 
@@ -84,7 +84,7 @@ _____
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Time To Fix      | Quick (30 mins)                                                                                                                                                                                                                      |
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Changed Behavior | PHP 8.2                                                                                                                                                                                                                              |
+| Changed Behavior | PHP 8.2 - `More <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/dynamicProperties.html>`__                                                                                                                          |
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision        | Very high                                                                                                                                                                                                                            |
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

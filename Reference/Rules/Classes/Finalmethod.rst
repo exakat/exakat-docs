@@ -50,7 +50,7 @@ See also `Final Keyword <https://www.php.net/manual/en/language.oop5.final.php>`
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Cannot+override+final+method+Foo%3A%3AFooBar%28%29.html>`_
+  + `Cannot override final method %s::%s() <https://php-errors.readthedocs.io/en/latest/messages/cannot-override-final-%25s%5C%3A%5C%3A%25s%5C%28%5C%29-with-%25s%5C%3A%5C%3A%25s%5C%28%5C%29.html>`_
 
 
 

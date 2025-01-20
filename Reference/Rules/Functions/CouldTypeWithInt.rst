@@ -20,7 +20,9 @@ Could Type With Int
 	:og:description: That argument may be typed with ``int``
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Could Type With Int.html
 	:og:locale: en
-That argument may be typed with ``int``.
+That argument may be typed with ``int``. 
+
+There are different strategies to identify this type: either all calls are ``int``, or the argument is used later as an integer.
 
 .. code-block:: php
    

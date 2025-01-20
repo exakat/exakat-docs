@@ -55,8 +55,8 @@ See also `Static Keyword <https://www.php.net/manual/en/language.oop5.static.php
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Accessing+static+property+aa%3A%3A%24a+as+non+static.html>`_
-  + `1 <https://php-errors.readthedocs.io/en/latest/messages/Access+to+undeclared+static+property.html>`_
+  + `Accessing static property %s::$%s as non static <https://php-errors.readthedocs.io/en/latest/messages/accessing-static-property-%25s%3A%3A%24%25s-as-non-static.html>`_
+  + `Access to undeclared static property %s::$%s <https://php-errors.readthedocs.io/en/latest/messages/access-to-undeclared-static-property-%25s%5C%3A%5C%3A%24%25s.html>`_
 
 
 

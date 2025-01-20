@@ -43,7 +43,7 @@ See also `Deprecate and remove continue targeting switch <https://wiki.php.net/r
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/%22continue%22+targeting+switch+is+equivalent+to+%22break%22.+Did+you+mean+to+use+%22continue+2%22%3F.html>`_
+  + `"continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? <https://php-errors.readthedocs.io/en/latest/messages/continue%22-targeting-switch-is-equivalent-to-%22break.html>`_
 
 
 

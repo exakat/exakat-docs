@@ -46,7 +46,7 @@ See also `Visibility <https://www.php.net/manual/en/language.oop5.visibility.php
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Access+level+to+Bar%3A%3A%24publicProperty+must+be+public+%28as+in+class+Foo%29.html>`_
+  + `Access level to %s::$%s must be public (as in class %s) <https://php-errors.readthedocs.io/en/latest/messages/access-level-to-%25s%5C%3A%5C%3A%25s-must-be-%25s-%5C%28as-in-%25s-%25s%5C%29%25s.html>`_
 
 
 

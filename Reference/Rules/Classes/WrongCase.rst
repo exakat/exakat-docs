@@ -42,6 +42,11 @@ It may also be a violation of coding conventions.
 
 See also `PHP class name constant case sensitivity and PSR-11 <https://gist.github.com/bcremer/9e8d6903ae38a25784fb1985967c6056>`_.
 
+Connex PHP features
+-------------------
+
+  + `case-insensitive <https://php-dictionary.readthedocs.io/en/latest/dictionary/case-insensitive.ini.html>`_
+
 
 Suggestions
 ___________

@@ -45,7 +45,7 @@ See also `Restrict $GLOBALS usage <https://wiki.php.net/rfc/restrict_globals_usa
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/%24GLOBALS+can+only+be+modified+using+the+%24GLOBALS%5B%24name%5D+%3D+%24value+syntax.html>`_
+  + `$GLOBALS can only be modified using the $GLOBALS[$name] = $value syntax <https://php-errors.readthedocs.io/en/latest/messages/%24globals-can-only-be-modified-using-the-%24globals%5B%24name%5D-%3D-%24value-syntax.html>`_
 
 
 

@@ -24,8 +24,6 @@ List of properties and methods that are accessed using ``parent`` keyword but ar
 
 This may compile but, eventually yields a fatal `error <https://www.php.net/error>`_ during execution.
 
-
-
 Note that if the `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ is defined using ``extends someClass`` but ``someClass`` is not available in the tested code, it will not be reported : it may be in composer, another dependency, or just missing.
 
 .. code-block:: php
@@ -50,13 +48,13 @@ Note that if the `parent <https://www.php.net/manual/en/language.oop5.paamayim-n
    
    ?>
 
-See also `parent <https://www.php.net/manual/en/keyword.parent.php>`_.
+See also https://www.php.net/manual/en/keyword.parent.php.
 
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Call+to+undefined+method+theParent%3A%3Abar%28%29.html>`_
-  + `1 <https://php-errors.readthedocs.io/en/latest/messages/Cannot+access+parent%3A%3A+when+current+class+scope+has+no+parent.html>`_
+  + `Call to undefined method %s::%s() <https://php-errors.readthedocs.io/en/latest/messages/call-to-undefined-method-%25s%5C%3A%5C%3A%25s%5C%28%5C%29.html>`_
+  + `Cannot access parent:: when current class scope has no parent <https://php-errors.readthedocs.io/en/latest/messages/cannot-access-parent%3A%3A-when-current-class-scope-has-no-parent.html>`_
 
 
 

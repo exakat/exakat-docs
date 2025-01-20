@@ -20,7 +20,7 @@ Strange Name For Constants
 	:og:description: Those constants looks like a typo from other names
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Strange Name For Constants.html
 	:og:locale: en
-Those constants looks like a typo from other names.
+Those constants looks like a typo from other names. It is an unknown constant, and with a slight change of name, it could be another constant, that exists.
 
 .. code-block:: php
    

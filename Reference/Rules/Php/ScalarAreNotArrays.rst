@@ -7,20 +7,21 @@ Scalar Are Not Arrays
 
 .. meta::
 	:description:
-		Scalar Are Not Arrays: It is wrong to use a scalar as an array, a Warning is emitted.
+		Scalar Are Not Arrays: It is wrong to use a scalar as an array, a warning is emitted.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: Scalar Are Not Arrays
-	:twitter:description: Scalar Are Not Arrays: It is wrong to use a scalar as an array, a Warning is emitted
+	:twitter:description: Scalar Are Not Arrays: It is wrong to use a scalar as an array, a warning is emitted
 	:twitter:creator: @exakat
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
 	:og:title: Scalar Are Not Arrays
 	:og:type: article
-	:og:description: It is wrong to use a scalar as an array, a Warning is emitted
+	:og:description: It is wrong to use a scalar as an array, a warning is emitted
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Scalar Are Not Arrays.html
 	:og:locale: en
-It is wrong to use a scalar as an array, a Warning is emitted. PHP 7.4 emits a Warning in such situations.
+It is wrong to use a scalar as an array, a warning is emitted. PHP 7.4 emits a warning in such situations.
+
 Typehinted argument with a scalar are reported by this analysis. Also, nullable arguments, both with typehint and return type hint.
 
 .. code-block:: php
@@ -47,7 +48,7 @@ Connex PHP features
 -------------------
 
   + `array <https://php-dictionary.readthedocs.io/en/latest/dictionary/array.ini.html>`_
-  + `array-object <https://php-dictionary.readthedocs.io/en/latest/dictionary/array-object.ini.html>`_
+  + `arrayobject <https://php-dictionary.readthedocs.io/en/latest/dictionary/arrayobject.ini.html>`_
 
 
 Suggestions

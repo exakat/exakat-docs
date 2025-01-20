@@ -24,8 +24,6 @@ Magical method `__toString() <https://www.php.net/manual/en/language.oop5.magic.
 
 In fact, `__toString() <https://www.php.net/manual/en/language.oop5.magic.php>`_ may not let an `exception <https://www.php.net/exception>`_ pass. If it throw an `exception <https://www.php.net/exception>`_, but must catch it. If an underlying method throws an `exception <https://www.php.net/exception>`_, it must be caught.
 
-
-
 A fatal `error <https://www.php.net/error>`_ is displayed, when an `exception <https://www.php.net/exception>`_ is not intercepted in the `__toString() <https://www.php.net/manual/en/language.oop5.magic.php>`_ function.
 
 .. code-block:: php
@@ -52,13 +50,6 @@ A fatal `error <https://www.php.net/error>`_ is displayed, when an `exception <h
    ?>
 
 See also __toString().
-
-Related PHP errors 
--------------------
-
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Method+myString%3A%3A__toString%28%29+must+not+throw+an+exception.html>`_
-
-
 
 Connex PHP features
 -------------------

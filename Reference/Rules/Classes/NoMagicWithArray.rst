@@ -67,7 +67,7 @@ See also `Overload <https://www.php.net/manual/en/language.oop5.overloading.php#
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Indirect+modification+of+overloaded+property+c%3A%3A%24b+has+no+effect.html>`_
+  + `Indirect modification of overloaded property %s::$%s has no effect <https://php-errors.readthedocs.io/en/latest/messages/indirect-modification-of-overloaded-property-%25s%3A%3A%24%25s-has-no-effect.html>`_
 
 
 

@@ -34,12 +34,12 @@ This applies to `printf() <https://www.php.net/printf>`_, `sprintf() <https://ww
        //Unknown format specifier \w\\
    ?>
 
-See also `sprintf <https://www.php.net/manual/en/function.sprintf.php>`_.
+See also https://www.php.net/manual/en/function.sprintf.php.
 
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Unknown+format+specifier.html>`_
+  + `Unknown format specifier <https://php-errors.readthedocs.io/en/latest/messages/unknown-format-specifier-%22%25c.html>`_
 
 
 

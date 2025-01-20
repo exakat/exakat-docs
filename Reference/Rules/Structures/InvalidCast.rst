@@ -42,9 +42,9 @@ Some cast operations not permitted.
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Object+of+class+stdClass+could+not+be+converted+to+float.html>`_
-  + `1 <https://php-errors.readthedocs.io/en/latest/messages/Object+of+class+stdClass+could+not+be+converted+to+int.html>`_
-  + `2 <https://php-errors.readthedocs.io/en/latest/messages/Array+to+string+conversion.html>`_
+  + `Object of class stdClass could not be converted to float <https://php-errors.readthedocs.io/en/latest/messages/object-of-class-%25s-could-not-be-converted-to-float.html>`_
+  + `Object of class stdClass could not be converted to int <https://php-errors.readthedocs.io/en/latest/messages/object-of-class-%25s-could-not-be-converted-to-int.html>`_
+  + `Array to string conversion <https://php-errors.readthedocs.io/en/latest/messages/array-to-string-conversion.html>`_
 
 
 

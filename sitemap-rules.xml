@@ -964,9 +964,6 @@
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Constants/CustomConstantUsage.html</loc>
  </url>
  <url>
-  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Custom/EvsAndWhere.html</loc>
- </url>
- <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Classes/CyclicReferences.html</loc>
  </url>
  <url>
@@ -2251,6 +2248,12 @@
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Functions/MustReturn.html</loc>
  </url>
  <url>
+  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Attributes/MustUseReturnReturns.html</loc>
+ </url>
+ <url>
+  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Attributes/MustUseResult.html</loc>
+ </url>
+ <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Php/NamedArgumentAndVariadic.html</loc>
  </url>
  <url>
@@ -2372,6 +2375,9 @@
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/NextMonthTrap.html</loc>
+ </url>
+ <url>
+  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/NoValidCast.html</loc>
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/NoAppendOnSource.html</loc>
@@ -2531,9 +2537,6 @@
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Php/NoSubstrMinusOne.html</loc>
- </url>
- <url>
-  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/NoValidCast.html</loc>
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Variables/NoVariableNeeded.html</loc>
@@ -3346,9 +3349,6 @@
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/ShouldUseForeach.html</loc>
  </url>
  <url>
-  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Php/ShouldUseFunction.html</loc>
- </url>
- <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Classes/ShouldUseThis.html</loc>
  </url>
  <url>
@@ -3368,6 +3368,9 @@
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/UseUrlQueryFunctions.html</loc>
+ </url>
+ <url>
+  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Php/ShouldUseFunction.html</loc>
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Php/ShouldUseArrayColumn.html</loc>
@@ -3742,9 +3745,6 @@
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/UnconditionLoopBreak.html</loc>
  </url>
  <url>
-  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Classes/UndefinedStaticclass.html</loc>
- </url>
- <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Exceptions/CaughtButNotThrown.html</loc>
  </url>
  <url>
@@ -3785,6 +3785,9 @@
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Variables/UndefinedVariable.html</loc>
+ </url>
+ <url>
+  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Classes/UndefinedStaticclass.html</loc>
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Classes/UndefinedStaticMP.html</loc>

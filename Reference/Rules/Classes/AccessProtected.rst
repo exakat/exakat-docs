@@ -40,9 +40,7 @@ See also `Visibility <https://www.php.net/manual/en/language.oop5.visibility.php
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Cannot+access+protected+constant+x%3A%3ACpro.html>`_
-  + `1 <https://php-errors.readthedocs.io/en/latest/messages/Cannot+access+protected+property+x%3A%3A%24property.html>`_
-  + `2 <https://php-errors.readthedocs.io/en/latest/messages/Call+to+protected+method+x%3A%3Amethod.html>`_
+  + `Cannot access protected constant %s::%s <https://php-errors.readthedocs.io/en/latest/messages/cannot-access-%25s-constant-%25s%3A%3A%25s.html>`_
 
 
 

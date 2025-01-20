@@ -6,7 +6,7 @@ Rules
 Introduction
 ------------------------
 
-Exakat provides unique 1661 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
+Exakat provides unique 1662 rules to detect BUGS, CODE SMELLS, SECURITY OR QUALITY ISSUES in your PHP code.
 
 Each rule is documented with code example to allow you to remediate your code. If you want to automate remediation, ours cobblers can are there to fix the issues in your code for your.  
 
@@ -338,7 +338,6 @@ List of Rules
    Rules/Php/CryptoUsage.rst
    Rules/Classes/AvoidUsing.rst
    Rules/Constants/CustomConstantUsage.rst
-   Rules/Custom/EvsAndWhere.rst
    Rules/Classes/CyclicReferences.rst
    Rules/Dump/CyclomaticComplexity.rst
    Rules/Classes/TypehintCyclicDependencies.rst
@@ -767,6 +766,8 @@ List of Rules
    Rules/Structures/MultiplyByOne.rst
    Rules/Php/MustCallParentConstructor.rst
    Rules/Functions/MustReturn.rst
+   Rules/Attributes/MustUseReturnReturns.rst
+   Rules/Attributes/MustUseResult.rst
    Rules/Php/NamedArgumentAndVariadic.rst
    Rules/Php/NamedParameterUsage.rst
    Rules/Structures/NamedRegex.rst
@@ -808,6 +809,7 @@ List of Rules
    Rules/Classes/NewOnFunctioncallOrIdentifier.rst
    Rules/Dump/NewOrder.rst
    Rules/Structures/NextMonthTrap.rst
+   Rules/Structures/NoValidCast.rst
    Rules/Structures/NoAppendOnSource.rst
    Rules/Functions/NoBooleanAsDefault.rst
    Rules/Structures/NoChoice.rst
@@ -861,7 +863,6 @@ List of Rules
    Rules/Variables/NoStaticVarInMethod.rst
    Rules/Php/NoStringWithAppend.rst
    Rules/Php/NoSubstrMinusOne.rst
-   Rules/Structures/NoValidCast.rst
    Rules/Variables/NoVariableNeeded.rst
    Rules/Security/NoWeakSSLCrypto.rst
    Rules/Performances/ArrayMergeInLoops.rst
@@ -1132,7 +1133,6 @@ List of Rules
    Rules/Functions/ShouldUseConstants.rst
    Rules/Structures/ShouldUseExplodeArgs.rst
    Rules/Structures/ShouldUseForeach.rst
-   Rules/Php/ShouldUseFunction.rst
    Rules/Classes/ShouldUseThis.rst
    Rules/Structures/ShouldUseMath.rst
    Rules/Structures/ShouldUseOperator.rst
@@ -1140,6 +1140,7 @@ List of Rules
    Rules/Php/UseSetCookie.rst
    Rules/Structures/ShouldMakeTernary.rst
    Rules/Structures/UseUrlQueryFunctions.rst
+   Rules/Php/ShouldUseFunction.rst
    Rules/Php/ShouldUseArrayColumn.rst
    Rules/Php/ShouldUseArrayFilter.rst
    Rules/Security/ShouldUseSessionRegenerateId.rst
@@ -1264,7 +1265,6 @@ List of Rules
    Rules/Exceptions/UncaughtExceptions.rst
    Rules/Structures/UncheckedResources.rst
    Rules/Structures/UnconditionLoopBreak.rst
-   Rules/Classes/UndefinedStaticclass.rst
    Rules/Exceptions/CaughtButNotThrown.rst
    Rules/Classes/UndefinedConstants.rst
    Rules/Classes/UndefinedClasses.rst
@@ -1279,6 +1279,7 @@ List of Rules
    Rules/Classes/UndefinedProperty.rst
    Rules/Traits/UndefinedTrait.rst
    Rules/Variables/UndefinedVariable.rst
+   Rules/Classes/UndefinedStaticclass.rst
    Rules/Classes/UndefinedStaticMP.rst
    Rules/Classes/UnfinishedObject.rst
    Rules/Type/UnicodeBlock.rst
@@ -1691,12 +1692,14 @@ List of analyzers, by version of introduction, newest to oldest. In parenthesis,
   * :ref:`Anonymous Catch <anonymous-catch>`
   * :ref:`Cakephp <cakephp>`
   * :ref:`Could Merge Ternary Into Ifthen <could-merge-ternary-into-ifthen>`
-  * :ref:`Custom/EvsAndWhere <custom-evsandwhere>`
   * :ref:`Deprecated Attribute <deprecated-attribute>`
   * :ref:`Duplicate Enum Case Value <duplicate-enum-case-value>`
   * :ref:`Has Property Hook <has-property-hook>`
   * :ref:`Has Virtual Property <has-virtual-property>`
+  * :ref:`Method Usage <method-usage>`
   * :ref:`Missing Overriden Method <missing-overriden-method>`
+  * :ref:`Must Use Result, So It Returns <must-use-result,-so-it-returns>`
+  * :ref:`MustUseResult <mustuseresult>`
   * :ref:`Neos <neos>`
   * :ref:`New Functions In PHP 8.4 <new-functions-in-php-8.4>`
   * :ref:`Remove Parameter With Named Parameters <remove-parameter-with-named-parameters>`
@@ -1840,9 +1843,9 @@ List of analyzers, by version of introduction, newest to oldest. In parenthesis,
   * :ref:`Misused Yield <misused-yield>`
   * :ref:`Mono Or Multibytes Favorite <mono-or-multibytes-favorite>`
   * :ref:`New Functions In PHP 8.3 <new-functions-in-php-8.3>`
+  * :ref:`No A Valid Cast <no-a-valid-cast>`
   * :ref:`No Empty String With explode() <no-empty-string-with-explode()>`
   * :ref:`No Max On Empty Array <no-max-on-empty-array>`
-  * :ref:`No Valid Cast <no-valid-cast>`
   * :ref:`Pre-Calculate Use <pre-calculate-use>`
   * :ref:`Short Ternary <short-ternary>`
   * :ref:`Should Cache Local <should-cache-local>`
@@ -1878,14 +1881,13 @@ List of analyzers, by version of introduction, newest to oldest. In parenthesis,
   * :ref:`Json_encode() Without Catching Exceptions <json\_encode()-without-catching-exceptions>`
   * :ref:`Mbstring Unknown Encodings <mbstring-unknown-encodings>`
   * :ref:`Method Property Confusion <method-property-confusion>`
-  * :ref:`Method Usage <method-usage>`
   * :ref:`Named Argument And Variadic <named-argument-and-variadic>`
   * :ref:`No Initial S In Variable Names <no-initial-s-in-variable-names>`
   * :ref:`No Variable Needed <no-variable-needed>`
   * :ref:`Possible TypeError <possible-typeerror>`
   * :ref:`Set Chaining Exception <set-chaining-exception>`
   * :ref:`Set Method Fnp <set-method-fnp>`
-  * :ref:`Skip Empty Array <skip-empty-array>`
+  * :ref:`Skip Empty Array When Merging <skip-empty-array-when-merging>`
   * :ref:`Too Many Chained Calls <too-many-chained-calls>`
   * :ref:`Too Many Extractions <too-many-extractions>`
   * :ref:`Type Dodging <type-dodging>`
@@ -2109,7 +2111,7 @@ List of analyzers, by version of introduction, newest to oldest. In parenthesis,
   * :ref:`Inherited Static Variable <inherited-static-variable>`
   * :ref:`Multiple Property Declaration On One Line <multiple-property-declaration-on-one-line>`
   * :ref:`No Object As Index <no-object-as-index>`
-  * :ref:`Only First Byte  <only-first-byte->`
+  * :ref:`Only First Byte Will Be Assigned <only-first-byte-will-be-assigned>`
   * :ref:`Restrict Global Usage <restrict-global-usage>`
 
 * 2.2.1
@@ -2719,7 +2721,7 @@ List of analyzers, by version of introduction, newest to oldest. In parenthesis,
   * :ref:`PHP 7.0 Scalar Typehints <php-7.0-scalar-typehints>`
   * :ref:`PHP 7.1 Scalar Typehints <php-7.1-scalar-typehints>`
   * :ref:`PHP 7.2 Scalar Typehints <php-7.2-scalar-typehints>`
-  * :ref:`Undefined \:\:class <undefined-class>`
+  * :ref:`Undefined static \:\:class <undefined-static-class>`
   * :ref:`ext/lzf <ext-lzf>`
   * :ref:`ext/msgpack <ext-msgpack>`
 
@@ -3204,7 +3206,7 @@ List of analyzers, by version of introduction, newest to oldest. In parenthesis,
 * 0.9.5
 
   * :ref:`One Expression Brackets Consistency <one-expression-brackets-consistency>`
-  * :ref:`Should Use Function <should-use-function>`
+  * :ref:`Should Use Use Function <should-use-use-function>`
   * :ref:`ext/mongodb <ext-mongodb>`
 
 * 0.9.4
@@ -3311,7 +3313,7 @@ List of analyzers, by version of introduction, newest to oldest. In parenthesis,
   * :ref:`Calltime Pass By Reference <calltime-pass-by-reference>`
   * :ref:`Can't Disable Class <can't-disable-class>`
   * :ref:`Can't Disable Function <can't-disable-function>`
-  * :ref:`Can't Extend Final <can't-extend-final>`
+  * :ref:`Can't Extend Final Class <can't-extend-final-class>`
   * :ref:`Cant Use Return Value In Write Context <cant-use-return-value-in-write-context>`
   * :ref:`Cast To Boolean <cast-to-boolean>`
   * :ref:`Cast Usage <cast-usage>`
@@ -3994,7 +3996,6 @@ Directory by PHP Function
     + `$_REQUEST`
 
       + :ref:`GPRC Aliases <gprc-aliases>`
-      + :ref:`Incoming Variable Index Inventory <incoming-variable-index-inventory>`
       + :ref:`Indirect Injection <indirect-injection>`
       + :ref:`Register Globals <register-globals>`
       + :ref:`Super Global Usage <super-global-usage>`
@@ -4190,7 +4191,7 @@ Directory by PHP Function
       + :ref:`Reserved Keywords In PHP 7 <reserved-keywords-in-php-7>`
       + :ref:`Should Use Operator <should-use-operator>`
       + :ref:`Signature Trailing Comma <signature-trailing-comma>`
-      + :ref:`Skip Empty Array <skip-empty-array>`
+      + :ref:`Skip Empty Array When Merging <skip-empty-array-when-merging>`
       + :ref:`Spread Operator For Array <spread-operator-for-array>`
       + :ref:`Static Properties <static-properties>`
       + :ref:`Type Dodging <type-dodging>`
@@ -4412,7 +4413,6 @@ Directory by PHP Function
       + :ref:`Ellipsis Merge <ellipsis-merge>`
       + :ref:`Multiple Similar Calls <multiple-similar-calls>`
       + :ref:`No array_merge() In Loops <no-array\_merge()-in-loops>`
-      + :ref:`Skip Empty Array <skip-empty-array>`
       + :ref:`Unknown Parameter Name <unknown-parameter-name>`
       + :ref:`Unpacking Inside Arrays <unpacking-inside-arrays>`
       + :ref:`Use Array Functions <use-array-functions>`
@@ -4422,7 +4422,7 @@ Directory by PHP Function
     + `array_merge_recursive()`
 
       + :ref:`No array_merge() In Loops <no-array\_merge()-in-loops>`
-      + :ref:`Skip Empty Array <skip-empty-array>`
+      + :ref:`Skip Empty Array When Merging <skip-empty-array-when-merging>`
       + :ref:`array_merge With Ellipsis <array\_merge-with-ellipsis>`
       + :ref:`array_merge() And Variadic <array\_merge()-and-variadic>`
 
@@ -4533,6 +4533,8 @@ Directory by PHP Function
       + :ref:`Missing Attribute Attribute <missing-attribute-attribute>`
       + :ref:`Missing Overriden Method <missing-overriden-method>`
       + :ref:`Modify Immutable <modify-immutable>`
+      + :ref:`Must Use Result, So It Returns <must-use-result,-so-it-returns>`
+      + :ref:`MustUseResult <mustuseresult>`
       + :ref:`Nested Attributes <nested-attributes>`
       + :ref:`Override Attribute <override-attribute>`
       + :ref:`PHP Native Attributes <php-native-attributes>`
@@ -4714,7 +4716,7 @@ Directory by PHP Function
 
     + `class_exists()`
 
-      + :ref:`Undefined ::class <undefined-class>`
+      + :ref:`Undefined static ::class <undefined-static-class>`
 
     + `class_uses()`
 
@@ -4795,7 +4797,7 @@ Directory by PHP Function
       + :ref:`Path lists <path-lists>`
       + :ref:`Session Lazy Write <session-lazy-write>`
       + :ref:`Set Cookie Safe Arguments <set-cookie-safe-arguments>`
-      + :ref:`Should Use Function <should-use-function>`
+      + :ref:`Should Use Use Function <should-use-use-function>`
       + :ref:`Should Yield With Key <should-yield-with-key>`
       + :ref:`Slow Functions <slow-functions>`
       + :ref:`Static Inclusions <static-inclusions>`
@@ -4832,6 +4834,7 @@ Directory by PHP Function
       + :ref:`report-Clustergrammer <report-clustergrammer>`
       + :ref:`report-Code Flower <report-code-flower>`
       + :ref:`report-Code Sniffer <report-code-sniffer>`
+      + :ref:`report-CompatibilityPHP56 <report-compatibilityphp56>`
       + :ref:`report-CompatibilityPHP56 <report-compatibilityphp56>`
       + :ref:`report-CompatibilityPHP74 <report-compatibilityphp74>`
       + :ref:`report-CompatibilityPHP80 <report-compatibilityphp80>`
@@ -4925,7 +4928,7 @@ Directory by PHP Function
       + :ref:`More Than One Level Of Indentation <more-than-one-level-of-indentation>`
       + :ref:`No Need For Else <no-need-for-else>`
       + :ref:`No Return Or Throw In Finally <no-return-or-throw-in-finally>`
-      + :ref:`Skip Empty Array <skip-empty-array>`
+      + :ref:`Skip Empty Array When Merging <skip-empty-array-when-merging>`
       + :ref:`Unconditional Break In Loop <unconditional-break-in-loop>`
       + :ref:`Unreachable Code <unreachable-code>`
       + :ref:`Upload Filename Injection <upload-filename-injection>`
@@ -5518,7 +5521,7 @@ Directory by PHP Function
       + :ref:`Bad Type Relay <bad-type-relay>`
       + :ref:`Break With Non Integer <break-with-non-integer>`
       + :ref:`Can't Count Non-Countable <can't-count-non-countable>`
-      + :ref:`Can't Extend Final <can't-extend-final>`
+      + :ref:`Can't Extend Final Class <can't-extend-final-class>`
       + :ref:`Can't Implement Throwable <can't-implement-throwable>`
       + :ref:`Cannot Use Append For Reading <cannot-use-append-for-reading>`
       + :ref:`Cant Inherit Abstract Method <cant-inherit-abstract-method>`
@@ -5553,6 +5556,7 @@ Directory by PHP Function
       + :ref:`Forgotten Thrown <forgotten-thrown>`
       + :ref:`Forgotten Whitespace <forgotten-whitespace>`
       + :ref:`Hash Will Use Objects <hash-will-use-objects>`
+      + :ref:`Iconv With Translit <iconv-with-translit>`
       + :ref:`Implemented Methods Must Be Public <implemented-methods-must-be-public>`
       + :ref:`Incompatible Signature Methods <incompatible-signature-methods>`
       + :ref:`Incompatible Signature Methods With Covariance <incompatible-signature-methods-with-covariance>`
@@ -5587,6 +5591,7 @@ Directory by PHP Function
       + :ref:`Multiple Usage Of Same Trait <multiple-usage-of-same-trait>`
       + :ref:`Must Call Parent Constructor <must-call-parent-constructor>`
       + :ref:`Never Called Parameter <never-called-parameter>`
+      + :ref:`No A Valid Cast <no-a-valid-cast>`
       + :ref:`No Direct Usage Of Returned Value <no-direct-usage-of-returned-value>`
       + :ref:`No Empty Regex <no-empty-regex>`
       + :ref:`No Keyword In Namespace <no-keyword-in-namespace>`
@@ -5596,7 +5601,6 @@ Directory by PHP Function
       + :ref:`No Object As Index <no-object-as-index>`
       + :ref:`No Real Comparison <no-real-comparison>`
       + :ref:`No Self Referencing Constant <no-self-referencing-constant>`
-      + :ref:`No Valid Cast <no-valid-cast>`
       + :ref:`Non Static Methods Called In A Static <non-static-methods-called-in-a-static>`
       + :ref:`Non-constant Index In Array <non-constant-index-in-array>`
       + :ref:`Not A Scalar Type <not-a-scalar-type>`
@@ -5637,13 +5641,13 @@ Directory by PHP Function
       + :ref:`Type Must Be Returned <type-must-be-returned>`
       + :ref:`Uncaught Exceptions <uncaught-exceptions>`
       + :ref:`Unconditional Break In Loop <unconditional-break-in-loop>`
-      + :ref:`Undefined ::class <undefined-class>`
       + :ref:`Undefined Class Constants <undefined-class-constants>`
       + :ref:`Undefined Constant Name <undefined-constant-name>`
       + :ref:`Undefined Functions <undefined-functions>`
       + :ref:`Undefined Insteadof <undefined-insteadof>`
       + :ref:`Undefined Parent <undefined-parent>`
       + :ref:`Undefined Trait <undefined-trait>`
+      + :ref:`Undefined static ::class <undefined-static-class>`
       + :ref:`Unfinished Object <unfinished-object>`
       + :ref:`Unicode Escape Partial <unicode-escape-partial>`
       + :ref:`Unknown Pcre2 Option <unknown-pcre2-option>`
@@ -6646,9 +6650,9 @@ Directory by PHP Function
       + :ref:`Should Make Alias <should-make-alias>`
       + :ref:`Should Use Operator <should-use-operator>`
       + :ref:`Type Dodging <type-dodging>`
-      + :ref:`Undefined ::class <undefined-class>`
       + :ref:`Undefined Classes <undefined-classes>`
       + :ref:`Undefined Interfaces <undefined-interfaces>`
+      + :ref:`Undefined static ::class <undefined-static-class>`
       + :ref:`Unresolved Instanceof <unresolved-instanceof>`
       + :ref:`Unused Interfaces <unused-interfaces>`
       + :ref:`Usage Of class_alias() <usage-of-class\_alias()>`
@@ -8056,6 +8060,7 @@ Directory by PHP Function
     + `Phar`
 
       + :ref:`Can't Disable Class <can't-disable-class>`
+      + :ref:`__halt_compiler <\_\_halt\_compiler>`
       + :ref:`ext/phar <ext-phar>`
 
     + `pack()`
@@ -8562,8 +8567,8 @@ Directory by PHP Function
       + :ref:`Method Is Overwritten <method-is-overwritten>`
       + :ref:`Methodcall On New <methodcall-on-new>`
       + :ref:`Mismatched Ternary Alternatives <mismatched-ternary-alternatives>`
+      + :ref:`No A Valid Cast <no-a-valid-cast>`
       + :ref:`No Null With Null Safe Operator <no-null-with-null-safe-operator>`
-      + :ref:`No Valid Cast <no-valid-cast>`
       + :ref:`No get_class() With Null <no-get\_class()-with-null>`
       + :ref:`Possible Infinite Loop <possible-infinite-loop>`
       + :ref:`Possible Missing Subpattern <possible-missing-subpattern>`
@@ -9288,6 +9293,7 @@ Directory by PHP Function
       + :ref:`Using $this Outside A Class <using-$this-outside-a-class>`
       + :ref:`Wrong Access Style to Property <wrong-access-style-to-property>`
       + :ref:`Wrong Type Returned <wrong-type-returned>`
+      + :ref:`__halt_compiler <\_\_halt\_compiler>`
       + :ref:`ext/ffi <ext-ffi>`
       + :ref:`ext/reflection <ext-reflection>`
       + :ref:`ext/xdebug <ext-xdebug>`
@@ -9491,6 +9497,7 @@ Directory by PHP Function
       + :ref:`Failed Substr() Comparison <failed-substr()-comparison>`
       + :ref:`Mono Or Multibytes Favorite <mono-or-multibytes-favorite>`
       + :ref:`No List With String <no-list-with-string>`
+      + :ref:`No Substr Minus One <no-substr-minus-one>`
       + :ref:`No mb_substr In Loop <no-mb\_substr-in-loop>`
       + :ref:`Substr To Trim <substr-to-trim>`
       + :ref:`Substr() In Loops <substr()-in-loops>`
@@ -10164,8 +10171,8 @@ Directory by PHP Function
       + :ref:`Magic Method Returntype Is Restricted <magic-method-returntype-is-restricted>`
       + :ref:`Magic Methods <magic-methods>`
       + :ref:`Must Return Methods <must-return-methods>`
+      + :ref:`No A Valid Cast <no-a-valid-cast>`
       + :ref:`No Direct Call To Magic Method <no-direct-call-to-magic-method>`
-      + :ref:`No Valid Cast <no-valid-cast>`
       + :ref:`Reflection Export() Is Deprecated <reflection-export()-is-deprecated>`
       + :ref:`Reserved Methods <reserved-methods>`
       + :ref:`__toString() Throws Exception <\_\_tostring()-throws-exception>`
@@ -10198,6 +10205,7 @@ Exakat links each rules to PHP features.
   + $GLOBALS
 
     + :ref:`Global Definitions <global-definitions>`
+    + :ref:`Useless Global <useless-global>`
 
   + $HTTP_RAW_POST_DATA
 
@@ -10379,6 +10387,7 @@ Exakat links each rules to PHP features.
   + ArrayObject
 
     + :ref:`Avoid get_object_vars() <avoid-get\_object\_vars()>`
+    + :ref:`Scalar Are Not Arrays <scalar-are-not-arrays>`
 
   + Arrow Functions
 
@@ -10409,6 +10418,8 @@ Exakat links each rules to PHP features.
     + :ref:`Friend Attribute <friend-attribute>`
     + :ref:`Missing Attribute Attribute <missing-attribute-attribute>`
     + :ref:`Modify Immutable <modify-immutable>`
+    + :ref:`Must Use Result, So It Returns <must-use-result,-so-it-returns>`
+    + :ref:`MustUseResult <mustuseresult>`
     + :ref:`PHP Native Attributes <php-native-attributes>`
     + :ref:`Use PHP Attributes <use-php-attributes>`
     + :ref:`Using Deprecated Feature <using-deprecated-feature>`
@@ -10449,6 +10460,7 @@ Exakat links each rules to PHP features.
   + Break
 
     + :ref:`Break Outside Loop <break-outside-loop>`
+    + :ref:`Break With 0 <break-with-0>`
     + :ref:`Unconditional Break In Loop <unconditional-break-in-loop>`
 
   + Callables
@@ -10483,7 +10495,7 @@ Exakat links each rules to PHP features.
     + :ref:`Do Not Cast To Int <do-not-cast-to-int>`
     + :ref:`Favorite Casting Method <favorite-casting-method>`
     + :ref:`Invalid Cast <invalid-cast>`
-    + :ref:`No Valid Cast <no-valid-cast>`
+    + :ref:`No A Valid Cast <no-a-valid-cast>`
     + :ref:`Not Not <not-not>`
     + :ref:`Should Typecast <should-typecast>`
     + :ref:`Silently Cast Integer <silently-cast-integer>`
@@ -10578,6 +10590,7 @@ Exakat links each rules to PHP features.
     + :ref:`Empty Classes <empty-classes>`
     + :ref:`Functioncall Is Global <functioncall-is-global>`
     + :ref:`Htmlentities Using Default Flag <htmlentities-using-default-flag>`
+    + :ref:`Incompatible Property Between Class And Trait <incompatible-property-between-class-and-trait>`
     + :ref:`Internet Ports <internet-ports>`
     + :ref:`Is An Extension Class <is-an-extension-class>`
     + :ref:`Is Not Class Family <is-not-class-family>`
@@ -10621,8 +10634,8 @@ Exakat links each rules to PHP features.
     + :ref:`Swapped Arguments <swapped-arguments>`
     + :ref:`Too Many Children <too-many-children>`
     + :ref:`Too Many Finds <too-many-finds>`
-    + :ref:`Undefined \:\:class <undefined-class>`
     + :ref:`Undefined Classes <undefined-classes>`
+    + :ref:`Undefined static \:\:class <undefined-static-class>`
     + :ref:`Unreachable Class Constant <unreachable-class-constant>`
     + :ref:`Unresolved Classes <unresolved-classes>`
     + :ref:`Unused Classes <unused-classes>`
@@ -10899,6 +10912,7 @@ Exakat links each rules to PHP features.
 
     + :ref:`Add Default Value <add-default-value>`
     + :ref:`Assign Default To Properties <assign-default-to-properties>`
+    + :ref:`Create Default Values <create-default-values>`
     + :ref:`No Boolean As Default <no-boolean-as-default>`
     + :ref:`Redefined Default <redefined-default>`
     + :ref:`Uninitialized Property <uninitialized-property>`
@@ -11055,6 +11069,7 @@ Exakat links each rules to PHP features.
 
     + :ref:`Deprecated Mb_string Encodings <deprecated-mb\_string-encodings>`
     + :ref:`Encoding Usage <encoding-usage>`
+    + :ref:`Iconv With Translit <iconv-with-translit>`
     + :ref:`Mbstring Unknown Encoding <mbstring-unknown-encoding>`
     + :ref:`Mbstring Unknown Encodings <mbstring-unknown-encodings>`
 
@@ -11214,7 +11229,7 @@ Exakat links each rules to PHP features.
 
   + Final Keyword
 
-    + :ref:`Can't Extend Final <can't-extend-final>`
+    + :ref:`Can't Extend Final Class <can't-extend-final-class>`
     + :ref:`Can't Overwrite Final Constant <can't-overwrite-final-constant>`
     + :ref:`Can't Overwrite Final Method <can't-overwrite-final-method>`
     + :ref:`Class Could Be Final <class-could-be-final>`
@@ -11325,6 +11340,7 @@ Exakat links each rules to PHP features.
     + :ref:`Functions Using Reference <functions-using-reference>`
     + :ref:`Is An Extension Function <is-an-extension-function>`
     + :ref:`Methods That Should Not Be Used <methods-that-should-not-be-used>`
+    + :ref:`New Functions In PHP 5.4 <new-functions-in-php-5.4>`
     + :ref:`New Functions In PHP 7.0 <new-functions-in-php-7.0>`
     + :ref:`New Functions In PHP 7.1 <new-functions-in-php-7.1>`
     + :ref:`New Functions In PHP 7.2 <new-functions-in-php-7.2>`
@@ -11358,10 +11374,12 @@ Exakat links each rules to PHP features.
   + Global Code
 
     + :ref:`Global Code Only <global-code-only>`
+    + :ref:`No Class In Global <no-class-in-global>`
 
   + Global Space
 
     + :ref:`Don't Pollute Global Space <don't-pollute-global-space>`
+    + :ref:`No Class In Global <no-class-in-global>`
 
   + Global Variables
 
@@ -11700,6 +11718,7 @@ Exakat links each rules to PHP features.
     + :ref:`Possible Infinite Loop <possible-infinite-loop>`
     + :ref:`Queries In Loops <queries-in-loops>`
     + :ref:`Static Loop <static-loop>`
+    + :ref:`Substr() In Loops <substr()-in-loops>`
     + :ref:`Unconditional Break In Loop <unconditional-break-in-loop>`
     + :ref:`Use Variable Created Inside Loop <use-variable-created-inside-loop>`
 
@@ -11775,6 +11794,7 @@ Exakat links each rules to PHP features.
     + :ref:`Method Used Below <method-used-below>`
     + :ref:`Normal Methods <normal-methods>`
     + :ref:`Overwritten Methods <overwritten-methods>`
+    + :ref:`Redefined Methods <redefined-methods>`
     + :ref:`Set Class Method Remote Definition <set-class-method-remote-definition>`
     + :ref:`Solve Trait Methods <solve-trait-methods>`
     + :ref:`Trait Methods <trait-methods>`
@@ -11799,6 +11819,7 @@ Exakat links each rules to PHP features.
     + :ref:`Pre-Calculate Use <pre-calculate-use>`
     + :ref:`Recalled Condition <recalled-condition>`
     + :ref:`Should Cache Local <should-cache-local>`
+    + :ref:`Skip Empty Array When Merging <skip-empty-array-when-merging>`
     + :ref:`Unpreprocessed Values <unpreprocessed-values>`
 
   + Microtime()
@@ -11841,12 +11862,14 @@ Exakat links each rules to PHP features.
     + :ref:`Empty Namespace <empty-namespace>`
     + :ref:`Fully Qualified Constants <fully-qualified-constants>`
     + :ref:`Global Import <global-import>`
+    + :ref:`Multiple Alias Definitions <multiple-alias-definitions>`
     + :ref:`Static Variable In Namespace <static-variable-in-namespace>`
     + :ref:`Unresolved Use <unresolved-use>`
     + :ref:`Wrong Case Namespaces <wrong-case-namespaces>`
 
   + Naming
 
+    + :ref:`Multiple Alias Definitions <multiple-alias-definitions>`
     + :ref:`Reserved Methods <reserved-methods>`
 
   + Native
@@ -11881,6 +11904,7 @@ Exakat links each rules to PHP features.
   + Never Type
 
     + :ref:`Methods Without Return <methods-without-return>`
+    + :ref:`Must Use Result, So It Returns <must-use-result,-so-it-returns>`
     + :ref:`Never Keyword <never-keyword>`
     + :ref:`Type Could Be Never <type-could-be-never>`
     + :ref:`Type Must Be Returned <type-must-be-returned>`
@@ -12009,6 +12033,7 @@ Exakat links each rules to PHP features.
     + :ref:`Can't Overwrite Final Method <can't-overwrite-final-method>`
     + :ref:`Immutable Signature <immutable-signature>`
     + :ref:`Overwritten Class Constants <overwritten-class-constants>`
+    + :ref:`Redefined Methods <redefined-methods>`
 
   + PDOException
 
@@ -12100,6 +12125,10 @@ Exakat links each rules to PHP features.
     + :ref:`Pathinfo() Returns May Vary <pathinfo()-returns-may-vary>`
     + :ref:`Use pathinfo() Arguments <use-pathinfo()-arguments>`
 
+  + Phar
+
+    + :ref:`__halt_compiler <\_\_halt\_compiler>`
+
   + PharException
 
     + :ref:`Could Use Try <could-use-try>`
@@ -12135,6 +12164,7 @@ Exakat links each rules to PHP features.
   + Private Visibility
 
     + :ref:`Accessing Private <accessing-private>`
+    + :ref:`Final Private Methods <final-private-methods>`
     + :ref:`Method Could Be Private Method <method-could-be-private-method>`
     + :ref:`Redefined Private Property <redefined-private-property>`
 
@@ -12160,6 +12190,7 @@ Exakat links each rules to PHP features.
     + :ref:`Mismatch Properties Typehints <mismatch-properties-typehints>`
     + :ref:`Missing Type In Definition <missing-type-in-definition>`
     + :ref:`Never Used Properties <never-used-properties>`
+    + :ref:`No Reference For Static Property <no-reference-for-static-property>`
     + :ref:`Overwritten Properties <overwritten-properties>`
     + :ref:`Properties Declaration Consistence <properties-declaration-consistence>`
     + :ref:`Property Could Be Local <property-could-be-local>`
@@ -12211,6 +12242,8 @@ Exakat links each rules to PHP features.
     + :ref:`Don't Mix ++ <don't-mix-++>`
     + :ref:`Long Arguments <long-arguments>`
     + :ref:`Missing Parenthesis <missing-parenthesis>`
+    + :ref:`No Initial S In Variable Names <no-initial-s-in-variable-names>`
+    + :ref:`One Object Operator Per Line <one-object-operator-per-line>`
     + :ref:`Preprocessable <preprocessable>`
     + :ref:`Recycled Variables <recycled-variables>`
 
@@ -12243,6 +12276,7 @@ Exakat links each rules to PHP features.
     + :ref:`Make Functioncall With Reference <make-functioncall-with-reference>`
     + :ref:`No Default For Referenced Parameter <no-default-for-referenced-parameter>`
     + :ref:`No Literal For Reference <no-literal-for-reference>`
+    + :ref:`No Reference For Static Property <no-reference-for-static-property>`
     + :ref:`No Reference On Left Side <no-reference-on-left-side>`
     + :ref:`No Referenced Void <no-referenced-void>`
     + :ref:`Objects Don't Need References <objects-don't-need-references>`
@@ -12298,6 +12332,7 @@ Exakat links each rules to PHP features.
     + :ref:`Drop Else After Return <drop-else-after-return>`
     + :ref:`Methods Without Return <methods-without-return>`
     + :ref:`Multiple Returns <multiple-returns>`
+    + :ref:`Must Use Result, So It Returns <must-use-result,-so-it-returns>`
     + :ref:`No Parenthesis For Language Construct <no-parenthesis-for-language-construct>`
     + :ref:`No Return Or Throw In Finally <no-return-or-throw-in-finally>`
     + :ref:`No Return Used <no-return-used>`
@@ -12307,6 +12342,7 @@ Exakat links each rules to PHP features.
   + Return Type
 
     + :ref:`Missing Some Returntype <missing-some-returntype>`
+    + :ref:`Must Use Result, So It Returns <must-use-result,-so-it-returns>`
     + :ref:`Nullable Without Check <nullable-without-check>`
     + :ref:`Return Typehint Usage <return-typehint-usage>`
     + :ref:`Type Must Be Returned <type-must-be-returned>`
@@ -12338,6 +12374,7 @@ Exakat links each rules to PHP features.
 
   + Scope
 
+    + :ref:`Implicit Global <implicit-global>`
     + :ref:`Too Many Local Variables <too-many-local-variables>`
 
   + Scope Resolution Operator ::
@@ -12589,6 +12626,7 @@ Exakat links each rules to PHP features.
     + :ref:`Could Use Trait <could-use-trait>`
     + :ref:`Dependant Trait <dependant-trait>`
     + :ref:`Empty Traits <empty-traits>`
+    + :ref:`Incompatible Property Between Class And Trait <incompatible-property-between-class-and-trait>`
     + :ref:`Is Extension Trait <is-extension-trait>`
     + :ref:`Locally Used Property In Trait <locally-used-property-in-trait>`
     + :ref:`Method Collision Traits <method-collision-traits>`
@@ -12741,12 +12779,15 @@ Exakat links each rules to PHP features.
   + Use Alias
 
     + :ref:`Could Use Alias <could-use-alias>`
+    + :ref:`Multiple Alias Definitions <multiple-alias-definitions>`
     + :ref:`Overload Existing Names <overload-existing-names>`
+    + :ref:`Should Use Use Function <should-use-use-function>`
 
   + Validation
 
     + :ref:`Filter Not Raw <filter-not-raw>`
     + :ref:`Insecure Integer Validation <insecure-integer-validation>`
+    + :ref:`No Max On Empty Array <no-max-on-empty-array>`
     + :ref:`Useless Check <useless-check>`
     + :ref:`filter_input() As A Source <filter\_input()-as-a-source>`
 
@@ -12764,6 +12805,7 @@ Exakat links each rules to PHP features.
     + :ref:`Constant Typo Looks Like A Variable <constant-typo-looks-like-a-variable>`
     + :ref:`Could Use Compact <could-use-compact>`
     + :ref:`Multiple Type Variable <multiple-type-variable>`
+    + :ref:`No Initial S In Variable Names <no-initial-s-in-variable-names>`
     + :ref:`One Variable String <one-variable-string>`
     + :ref:`Only Variable For Reference <only-variable-for-reference>`
     + :ref:`Overwriting Variable <overwriting-variable>`
@@ -12824,6 +12866,7 @@ Exakat links each rules to PHP features.
 
     + :ref:`Could Be Void <could-be-void>`
     + :ref:`Don't Collect Void <don't-collect-void>`
+    + :ref:`Must Use Result, So It Returns <must-use-result,-so-it-returns>`
     + :ref:`No Referenced Void <no-referenced-void>`
     + :ref:`Return void  <return-void->`
 
@@ -13107,173 +13150,102 @@ Directory by PHP Error message
 
 Exakat helps reduce the amount of error and warning that code is producing by reporting pattern that are likely to emit errors.
 
-260 PHP error message detailled : 
+258 PHP error message detailled : 
 
-* :ref:`"boolean" will be interpreted as a class name. Did you mean "bool"? <not-a-scalar-type>`
-* :ref:`"continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? <continue-is-for-loop>`
 * :ref:`"static\:\:" is not allowed in compile-time constants <avoid-self-in-interface>`
-* :ref:`$GLOBALS can only be modified using the $GLOBALS[$name] = $value syntax <restrict-global-usage>`
-* :ref:`%s %s inherits both %s\:\:%s and %s\:\:%s <overwritten-class-constants>`
+* :ref:`$globals-can-only-be-modified-using-the-$globals[$name]-=-$value-syntax <restrict-global-usage>`
+* :ref:`%s"-will-be-interpreted-as-a-class-name.-did-you-mean-"%s"?-write-"\%s"%s-to-suppress-this-warning <not-a-scalar-type>`
+* :ref:`%s"-will-be-interpreted-as-a-class-name.-did-you-mean-"%s"?-write-"\%s"%s-to-suppress-this-warning <not-a-scalar-type>`
+* :ref:`%s"-will-be-interpreted-as-a-class-name.-did-you-mean-"%s"?-write-"\%s"%s-to-suppress-this-warning <not-a-scalar-type>`
+* :ref:`%s%s%s(): Return value must be of type %s, %s returned <missing-some-returntype>`
+* :ref:`%s%s%s\(\)\:-argument-#%d%s%s%s-must-be-passed-by-reference\,-value-given <array\_map()-passes-by-value>`
 * :ref:`%s%s%s\(\)\:-argument-#%d%s%s%s-must-be-passed-by-reference\,-value-given <no-literal-for-reference>`
 * :ref:`%s%s%s\(\)\:-argument-#%d%s%s%s-must-be-passed-by-reference\,-value-given <no-literal-for-reference>`
 * :ref:`%s()-argument-#%d%s%s%s-cannot-be-passed-by-reference <only-variable-passed-by-reference>`
 * :ref:`%s()-expects-exactly-0-arguments,-%d-given <wrong-number-of-arguments>`
+* :ref:`%s()-has-been-disabled-for-security-reasons <can't-disable-class>`
 * :ref:`%s():-argument-#%d%s%s%s-cannot-be-passed-by-reference <only-variable-passed-by-reference>`
 * :ref:`%s():-argument-#%d%s%s%s-could-not-be-passed-by-reference <only-variable-passed-by-reference>`
+* :ref:`%s():-implicitly-marking-parameter-$%s-as-nullable-is-deprecated,-the-explicit-nullable-type-must-be-used-instead <implicit-nullable-type>`
 * :ref:`%s():-passing-null-to-parameter-#% <no-null-for-native-php-functions>`
 * :ref:`%s-%s-cannot-implement-interface-%s,-extend-exception-or-error-instead <can't-implement-throwable>`
+* :ref:`%s-%s-inherits-both-%s\:\:%s-and-%s\:\:%s <overwritten-class-constants>`
 * :ref:`%s-%s-must-implement-interface-%s-as-part-of-either-%s-or-%s <can't-implement-traversable>`
+* :ref:`%s-and-%s-define-the-same-constant-\(%s\)-in-the-composition-of-%s.-however\,-the-definition-differs-and-is-considered-incompatible.-class-was-composed <incompatible-property-between-class-and-trait>`
+* :ref:`%s-cannot-implement-%s---it-is-not-an-interface <implements-is-for-interface>`
+* :ref:`%s-function-%s\:\:%s\(\)-cannot-be-declared-private <no-private-abstract-method-in-trait>`
+* :ref:`%s\:\:%s():-return-type-must-be-%s-when-declared <magic-method-returntype-is-restricted>`
 * :ref:`%s\:\:%s-cannot-override-final-constant-%s\:\:%s <can't-overwrite-final-constant>`
-* :ref:`'break' operator accepts only positive integers <break-with-0>`
-* :ref:`Abstract function t\:\:someAbstractPrivateFunction() cannot be declared private <no-private-abstract-method-in-trait>`
-* :ref:`Access level to Bar\:\:$publicProperty must be public (as in class Foo) <raised-access-level>`
-* :ref:`Access level to x\:\:foo() must be public (as in class i) <implemented-methods-must-be-public>`
-* :ref:`Access level to xx\:\:$x must be public (as in class x) <redefined-property>`
-* :ref:`Access to undeclared static property <wrong-access-style-to-property>`
-* :ref:`Access to undeclared static property: x\:\:$y <undefined-static-or-self>`
-* :ref:`Accessing static property aa\:\:$a as non static <wrong-access-style-to-property>`
-* :ref:`An alias (%s) was defined for method %s(), but this method does not exist <undefined-insteadof>`
+* :ref:`%s\:\:%s-cannot-override-final-constant-%s\:\:%s <rewrote-final-class-constant>`
+* :ref:`'%s'-operator-accepts-only-positive-integers <break-with-0>`
 * :ref:`Argument #%d ($%s) must be of type %s, %s given <wrong-argument-type>`
-* :ref:`Argument #1 ($line) must be passed by reference <array\_map()-passes-by-value>`
-* :ref:`Argument #1 ($value) must contain at least one element <no-max-on-empty-array>`
-* :ref:`Argument #1 must be of type float, string given <wrong-type-for-native-php-function>`
-* :ref:`Argument #2 ($encoding) must be a valid encoding, "xxx" given <mbstring-unknown-encodings>`
-* :ref:`Argument must be of type int, array given <wrong-parameter-type>`
-* :ref:`Array to string conversion <invalid-cast>`
-* :ref:`Attempt to echo a string that might be tainted <extensions-exttaint>`
-* :ref:`Attempt to read property "b" on null <could-use-null-safe-object-operator>`
-* :ref:`Attribute "AttributeFunction" cannot target Class (allowed targets: Function) <wrong-attribute-configuration>`
-* :ref:`Call to a member function b() on null <could-use-null-safe-object-operator>`
-* :ref:`Call to private Y\:\:__construct() from invalid context <can't-instantiate-class>`
-* :ref:`Call to protected method x\:\:method <access-protected-structures>`
-* :ref:`Call to undefined method theParent\:\:bar() <undefined-parent>`
-* :ref:`Call to undefined method x\:\:y() <undefined-static-or-self>`
-* :ref:`Call-time pass-by-reference has been removed <calltime-pass-by-reference>`
-* :ref:`Calling static trait method t\:\:t is deprecated, it should only be called on a class using the trait <cannot-call-static-trait-method-directly>`
-* :ref:`Can't inherit abstract function A\:\:bar() <cant-inherit-abstract-method>`
-* :ref:`Cannot access parent\:\: when current class scope has no parent <class-without-parent>`
-* :ref:`Cannot access parent\:\: when current class scope has no parent <undefined-parent>`
-* :ref:`Cannot access private const <unreachable-class-constant>`
-* :ref:`Cannot access protected constant x\:\:Cpro <access-protected-structures>`
-* :ref:`Cannot access protected property x\:\:$property <access-protected-structures>`
-* :ref:`Cannot access self\:\: when no class scope is active <parent,-static-or-self-outside-class>`
-* :ref:`Cannot access static\:\: when no class scope is active <self,-parent,-static-outside-class>`
-* :ref:`Cannot assign string to property A\:\:$g of type int <wrong-type-with-default>`
 * :ref:`Cannot bind an instance to a static closure <cannot-use-static-for-closure>`
-* :ref:`Cannot call constructor <useless-constructor>`
-* :ref:`Cannot inherit previously-inherited or override constant A from interface i <overwritten-class-constants>`
-* :ref:`Cannot initialize readonly property x\:\:$p from global scope <no-readonly-assignation-in-global>`
-* :ref:`Cannot initialize readonly property x\:\:$p from scope y <no-readonly-assignation-in-global>`
-* :ref:`Cannot override final method Foo\:\:Bar() <final-class-usage>`
-* :ref:`Cannot override final method Foo\:\:FooBar() <final-methods-usage>`
-* :ref:`Cannot override final method x\:\:method() <can't-overwrite-final-method>`
-* :ref:`Cannot use ""parent"" when current class scope has no parent <class-without-parent>`
-* :ref:`Cannot use "parent" when current class scope has no parent <parent,-static-or-self-outside-class>`
-* :ref:`Cannot use "parent" when no class scope is active <self,-parent,-static-outside-class>`
-* :ref:`Cannot use "self" when no class scope is active <self,-parent,-static-outside-class>`
-* :ref:`Cannot use "static" when no class scope is active <self,-parent,-static-outside-class>`
-* :ref:`Cannot use [] for reading <cannot-use-append-for-reading>`
-* :ref:`Cannot use int as default value for parameter $a of type string <wrong-typed-property-default>`
-* :ref:`Cannot use int as default value for property x\:\:$a of type string <wrong-typed-property-default>`
-* :ref:`Cannot use object of type Foo as array <$this-is-not-an-array>`
 * :ref:`Case-insensitive constants are deprecated. The correct casing for this constant is "A" <constant-case-preference>`
-* :ref:`Class "null" not found <could-use-null-safe-object-operator>`
-* :ref:`Class 'x' not found <undefined-class>`
-* :ref:`Class BA contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (A\:\:aFoo) <abstract-or-implements>`
-* :ref:`Class bar cannot implement previously implemented interface i <multiple-identical-trait-or-interface>`
-* :ref:`Class c contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (a\:\:foo) <missing-abstract-method>`
-* :ref:`Class y cannot extend final class x <can't-extend-final>`
-* :ref:`Constant expression contains invalid operations <nested-attributes>`
-* :ref:`Could not check compatibility between xx\:\:bar(B $a) and foo\:\:bar(A $a), because class A is not available <incompatible-signature-methods-with-covariance>`
-* :ref:`Creating default object from empty value <undefined-variable>`
-* :ref:`Declaration of FooParent\:\:Bar() must be compatible with FooChildren\:\:Bar() <method-signature-must-be-compatible>`
-* :ref:`Declaration of a\:\:foo($a) should be compatible with ab1\:\:foo($a) <immutable-signature>`
-* :ref:`Declaration of ab\:\:foo($a) must be compatible with a\:\:foo($a = 1) <incompatible-signature-methods-with-covariance>`
-* :ref:`Declaration of ab\:\:foo($a) must be compatible with a\:\:foo($a = 1) <incompatible-signature-methods>`
-* :ref:`Declaration of ab\:\:foo($a) should be compatible with a\:\:foo($a = 1) <incompatible-signature-methods-with-covariance>`
-* :ref:`Declaration of ab\:\:foo($a) should be compatible with a\:\:foo($a = 1) <incompatible-signature-methods>`
-* :ref:`Delimiter must not be alphanumeric or backslash <regex-inventory>`
-* :ref:`Empty delimiter <no-empty-string-with-explode()>`
-* :ref:`Failed to open stream: +wr' is not a valid mode for fopen <wrong-fopen()-mode>`
-* :ref:`Generators cannot return values using "return" <no-return-for-generator>`
-* :ref:`Headers already sent <forgotten-whitespace>`
-* :ref:`Illegal offset type <indices-are-int-or-string>`
 * :ref:`Implicit conversion from float 1.2 to int loses precision <implicit-conversion-to-int>`
-* :ref:`Indirect modification of overloaded property c\:\:$b has no effect <no-magic-method-with-array>`
-* :ref:`Invalid numeric literal <malformed-octal>`
-* :ref:`Method myString\:\:__toString() must not throw an exception <\_\_tostring()-throws-exception>`
-* :ref:`Method name must be a string <useless-typehint>`
-* :ref:`Methods with the same name as their class will not be constructors in a future version of PHP; %s has a deprecated constructor <old-style-constructor>`
-* :ref:`No ending delimiter '/' <regex-inventory>`
-* :ref:`Non-static method A\:\:B() should not be called statically <non-static-methods-called-in-a-static>`
-* :ref:`Non-static method x\:\:foo() cannot be called statically <static-methods-cannot-call-non-static-methods>`
-* :ref:`Object of class stdClass could not be converted to <no-valid-cast>`
-* :ref:`Object of class stdClass could not be converted to float <invalid-cast>`
-* :ref:`Object of class stdClass could not be converted to int <invalid-cast>`
-* :ref:`Octal escape sequence overflow \500 is greater than \377 <invalid-octal-in-string>`
-* :ref:`Old style constructors are DEPRECATED in PHP 7.0, and will be removed in a future version. You should always use __construct() in new code. <old-style-constructor>`
-* :ref:`Only the first byte will be assigned to the string offset <only-first-byte->`
-* :ref:`Private methods cannot be final as they are never overridden by other classes <final-private-methods>`
-* :ref:`Property %s\:\:$%s does not exist <undefined-properties>`
-* :ref:`Property x\:\:$x cannot have type callable <could-be-callable>`
-* :ref:`Return type must be array when declared in <magic-method-returntype-is-restricted>`
-* :ref:`Return type of a\:\:key() should either be compatible with IteratorIterator\:\:key(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice <php-native-class-type-compatibility>`
-* :ref:`Return type of x\:\:jsonserialize() should either be compatible with JsonSerializable\:\:jsonSerialize(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice <php-native-interfaces-and-return-type>`
-* :ref:`Return value of foo() must be of the type int, string returned <missing-some-returntype>`
-* :ref:`Static function foo\:\:bar() should not be abstract <abstract-static-methods>`
-* :ref:`The magic method x\:\:__call() must have public visibility <magic-visibility>`
-* :ref:`The parent constructor was not called: the object is in an invalid state <must-call-parent-constructor>`
 * :ref:`Trait 'T' not found <undefined-trait>`
-* :ref:`Trait 'a' not found <trait-not-found>`
-* :ref:`Trait method M has not been applied, because there are collisions with other trait methods on C <method-collision-traits>`
-* :ref:`Trait method f has not been applied, because there are collisions with other trait methods on x <useless-method-alias>`
-* :ref:`Type of b\:\:$a must be array (as in class a) <inherited-property-type-must-match>`
-* :ref:`Type of b\:\:$a must not be defined (as in class a) <inherited-property-type-must-match>`
-* :ref:`Type of b\:\:$b must be A (as in class a) <mismatch-properties-typehints>`
-* :ref:`Typed property x\:\:$p2 must not be accessed before initialization <untyped-no-default-properties>`
-* :ref:`Undefined constant 'y' <undefined-constant-name>`
-* :ref:`Undefined constant <undefined-class-constants>`
-* :ref:`Undefined property <don't-unset-properties>`
-* :ref:`Undefined property: x\:\:$e <undefined-properties>`
-* :ref:`Undefined variable: <casting-ternary>`
-* :ref:`Undefined variable: <undefined-variable>`
-* :ref:`Unknown format specifier <sprintf-format-compilation>`
-* :ref:`Unsupported operand types <unsupported-operand-types>`
-* :ref:`Use of undefined constant y - assumed 'y' (this will throw an Error in a future version of PHP) <undefined-constant-name>`
-* :ref:`Using $this when not in object context <$this-belongs-to-classes-or-traits>`
-* :ref:`Using $this when not in object context <$this-is-not-for-static-methods>`
-* :ref:`Using $this when not in object context <static-methods-can't-contain-$this>`
-* :ref:`Using $this when not in object context <using-$this-outside-a-class>`
-* :ref:`X() has been disabled for security reasons <can't-disable-class>`
-* :ref:`__autoload() is deprecated, use spl_autoload_register() instead <old-style-\_\_autoload()>`
+* :ref:`\%s'-is-not-a-valid-mode-for-fopen <wrong-fopen()-mode>`
+* :ref:`__autoload()-is-deprecated,-use-spl_autoload_register()-instead <old-style-\_\_autoload()>`
+* :ref:`__autoload()-is-no-longer-supported,-use-spl_autoload_register()-instead <old-style-\_\_autoload()>`
 * :ref:`__clone method called on non-object <clone-constant>`
-* :ref:`__clone method called on non-object <clone-with-non-object>`
+* :ref:`__clone-method-called-on-non-object <clone-with-non-object>`
 * :ref:`a-function-with-return-type-must-return-a-value <type-must-be-returned>`
 * :ref:`a-never-returning-%s-must-not-return <type-must-be-returned>`
+* :ref:`access-level-to-%s\:\:%s-must-be-%s-\(as-in-%s-%s\)%s <implemented-methods-must-be-public>`
+* :ref:`access-level-to-%s\:\:%s-must-be-%s-\(as-in-%s-%s\)%s <raised-access-level>`
+* :ref:`access-level-to-%s\:\:%s-must-be-%s-\(as-in-%s-%s\)%s <redefined-property>`
+* :ref:`access-to-undeclared-static-property-%s\:\:$%s <undefined-static-or-self>`
+* :ref:`access-to-undeclared-static-property-%s\:\:$%s <wrong-access-style-to-property>`
+* :ref:`accessing-static-property-%s\:\:$%s-as-non-static <wrong-access-style-to-property>`
+* :ref:`an-alias-was-defined-for-%s\:\:%s-but-this-method-does-not-exist <undefined-insteadof>`
+* :ref:`argument-#%d-($%s)-must-be-of-type-%s,-%s-given <wrong-parameter-type>`
+* :ref:`argument-#%d-($%s)-must-be-of-type-%s,-%s-given <wrong-type-for-native-php-function>`
 * :ref:`argument-#%d-($%s)-must-be-of-type-%s,-%s-given <wrong-type-with-call>`
 * :ref:`argument-#%d-\($%s\)-must-be-of-type-%s\,-%s-given <mismatch-type-and-default>`
 * :ref:`argument-#%d-\($%s\)-must-be-of-type-%s\,-%s-given <undefined-interfaces>`
 * :ref:`array-and-string-offset-access-syntax-with-curly-braces-is-deprecated <no-more-curly-arrays>`
 * :ref:`array-and-string-offset-access-syntax-with-curly-braces-is-no-longer-supported <no-more-curly-arrays>`
-* :ref:`array_merge() expects at least 1 parameter, 0 given <array\_merge()-and-variadic>`
+* :ref:`array-to-string-conversion <invalid-cast>`
 * :ref:`array_merge()-does-not-accept-unknown-named-parameters <no-spread-for-hash>`
+* :ref:`array_merge()-expects-at-least-1-parameter,-0-given <array\_merge()-and-variadic>`
 * :ref:`array_merge\(\)-does-not-accept-unknown-named-parameters <unknown-parameter-name>`
-* :ref:`b cannot implement a - it is not an interface <implements-is-for-interface>`
+* :ref:`attempt-to-read-property-"%s"-on-%s <could-use-null-safe-object-operator>`
+* :ref:`attribute-"%s"-cannot-target-%s-(allowed-targets:-%s) <wrong-attribute-configuration>`
+* :ref:`call-to-%s-method-%s\:\:%s()-from-%s%s <can't-instantiate-class>`
 * :ref:`call-to-a-member-function-%s()-on-%s <use-nullsafe-operator>`
+* :ref:`call-to-a-member-function-%s\(\)-on-%s <could-use-null-safe-object-operator>`
 * :ref:`call-to-undefined-function <throw-functioncall>`
 * :ref:`call-to-undefined-function-%s() <throw-functioncall>`
 * :ref:`call-to-undefined-function-%s\(\) <undefined-functions>`
+* :ref:`call-to-undefined-method-%s\:\:%s\(\) <undefined-parent>`
+* :ref:`call-to-undefined-method-%s\:\:%s\(\) <undefined-static-or-self>`
 * :ref:`calling-static-trait-method-%s\:\:%s-is-deprecated <calling-static-trait-method>`
-* :ref:`cannot override final constant <rewrote-final-class-constant>`
+* :ref:`calling-static-trait-method-%s\:\:%s-is-deprecated <cannot-call-static-trait-method-directly>`
+* :ref:`can\'t-inherit-abstract-function-%s\:\:%s\(\)-\(previously-declared-abstract-in-%s\) <cant-inherit-abstract-method>`
+* :ref:`cannot-%s-readonly-property-%s\:\:$%s-from-%s%s <no-readonly-assignation-in-global>`
+* :ref:`cannot-%s-readonly-property-%s\:\:$%s-from-%s%s <no-readonly-assignation-in-global>`
+* :ref:`cannot-access-%s-constant-%s\:\:%s <access-protected-structures>`
+* :ref:`cannot-access-%s-constant-%s\:\:%s <unreachable-class-constant>`
 * :ref:`cannot-access-offset-of-type-%s-on-%s <no-object-as-index>`
 * :ref:`cannot-access-parent\:\:-when-current-class-scope-has-no-parent <avoid-self-in-interface>`
+* :ref:`cannot-access-parent\:\:-when-current-class-scope-has-no-parent <class-without-parent>`
+* :ref:`cannot-access-parent\:\:-when-current-class-scope-has-no-parent <undefined-parent>`
+* :ref:`cannot-access-parent\:\:-when-no-class-scope-is-active <class-without-parent>`
+* :ref:`cannot-access-parent\:\:-when-no-class-scope-is-active <parent,-static-or-self-outside-class>`
+* :ref:`cannot-access-self\:\:-when-no-class-scope-is-active <parent,-static-or-self-outside-class>`
+* :ref:`cannot-access-static\:\:-when-no-class-scope-is-active <self,-parent,-static-outside-class>`
+* :ref:`cannot-assign-%s-to-property-%s\:\:$%s-of-type-%s <wrong-type-with-default>`
 * :ref:`cannot-auto-initialize-an-array-inside-property-%s\:\:$%s-of-type-%s <false-to-array-conversion>`
+* :ref:`cannot-call-constructor <useless-constructor>`
 * :ref:`cannot-combine-named-arguments-and-argument-unpacking <named-argument-and-variadic>`
 * :ref:`cannot-inherit-previously-inherited-or-override-constant-%s-from-interface-%s <cant-overload-constants>`
 * :ref:`cannot-inherit-previously-inherited-or-override-constant-%s-from-interface-%s <inherited-class-constant-visibility>`
+* :ref:`cannot-inherit-previously-inherited-or-override-constant-%s-from-interface-%s <overwritten-class-constants>`
 * :ref:`cannot-instantiate-enum-%s <cant-instantiate-non-class>`
 * :ref:`cannot-instantiate-interface-%s <cant-instantiate-non-class>`
 * :ref:`cannot-instantiate-trait-%s <cant-instantiate-non-class>`
+* :ref:`cannot-override-final-%s\:\:%s()-with-%s\:\:%s() <can't-overwrite-final-method>`
+* :ref:`cannot-override-final-%s\:\:%s()-with-%s\:\:%s() <final-class-usage>`
+* :ref:`cannot-override-final-%s\:\:%s\(\)-with-%s\:\:%s\(\) <final-methods-usage>`
 * :ref:`cannot-pass-parameter-%d-by-reference <only-variable-for-reference>`
 * :ref:`cannot-perform-bitwise-not-on-%s <unsupported-types-with-operators>`
 * :ref:`cannot-perform-bitwise-not-on-%s <unsupported-types-with-operators>`
@@ -13282,42 +13254,82 @@ Exakat helps reduce the amount of error and warning that code is producing by re
 * :ref:`cannot-re-assign-$this <don't-change-incomings>`
 * :ref:`cannot-re-assign-auto-global-variable-%s <don't-change-incomings>`
 * :ref:`cannot-unpack-array-with-string-keys <no-spread-for-hash>`
+* :ref:`cannot-use-%s-as-default-value-for-parameter-$%s-of-type-%s <wrong-typed-property-default>`
+* :ref:`cannot-use-%s-as-default-value-for-property-%s\:\:$%s-of-type-%s <wrong-typed-property-default>`
 * :ref:`cannot-use-'final'-as-constant-modifier <final-constant>`
 * :ref:`cannot-use-'mixed'-as-class-name-as-it-is-reserved <the-mixed-keyword>`
 * :ref:`cannot-use-'never'-as-class-name-as-it-is-reserved <never-keyword>`
+* :ref:`cannot-use-[]-for-reading <cannot-use-append-for-reading>`
 * :ref:`cannot-use-a-scalar-value-as-an-array <array-with-string-initialization>`
 * :ref:`cannot-use-isset\(\)-on-the-result-of-an-expression-\(you-can-use-"null-\!\=\=-expression"-instead\) <isset()-with-constant>`
 * :ref:`cannot-use-isset\(\)-on-the-result-of-an-expression-\(you-can-use-"null-\!\=\=-expression"-instead\) <only-variable-passed-by-reference>`
 * :ref:`cannot-use-lexical-variable-%s-as-a-parameter-name <multiple-definition-of-the-same-argument>`
+* :ref:`cannot-use-object-of-type-%s-as-array <$this-is-not-an-array>`
 * :ref:`cannot-use-positional-argument-after-argument-unpacking <named-argument-and-variadic>`
+* :ref:`class-"%s"-not-found <undefined-static-class>`
+* :ref:`class-%s-cannot-extend-%s-%s <can't-extend-final-class>`
+* :ref:`class-%s-cannot-implement-previously-implemented-interface-%s <multiple-identical-trait-or-interface>`
 * :ref:`class-%s-cannot-implement-previously-implemented-interface-%s <repeated-interface>`
+* :ref:`class-%s-contains-%d-abstract-method%s-and-must-therefore-be-declared-abstract-or-implement-the-remaining-methods <abstract-or-implements>`
 * :ref:`class-%s-contains-%d-abstract-method%s-and-must-therefore-be-declared-abstract-or-implement-the-remaining-methods <interfaces-is-not-implemented>`
+* :ref:`class-%s-contains-%d-abstract-method%s-and-must-therefore-be-declared-abstract-or-implement-the-remaining-methods <missing-abstract-method>`
 * :ref:`class-%s-must-implement-interface-%s-as-part-of-either-%s-or-%s <can't-implement-traversable>`
-* :ref:`class_alias(): Argument #1 ($class) must be a user-defined class name, internal class name given <class\_alias()-supports-internal-classes>`
 * :ref:`constant-%s-is-deprecated <php-8.1-removed-constants>`
 * :ref:`constant-expression-contains-invalid-operations <class-const-with-array>`
+* :ref:`constant-expression-contains-invalid-operations <nested-attributes>`
 * :ref:`constant-expression-contains-invalid-operations <new-initializers>`
+* :ref:`continue"-targeting-switch-is-equivalent-to-"break <continue-is-for-loop>`
+* :ref:`could-not-check-compatibility-between-%s-and-%s,-because-class-%s-is-not-available <incompatible-signature-methods-with-covariance>`
+* :ref:`declaration-of-%s-must-be-compatible-with-%s <immutable-signature>`
+* :ref:`declaration-of-%s-must-be-compatible-with-%s <incompatible-signature-methods-with-covariance>`
+* :ref:`declaration-of-%s-must-be-compatible-with-%s <incompatible-signature-methods>`
+* :ref:`declaration-of-%s-must-be-compatible-with-%s <method-signature-must-be-compatible>`
 * :ref:`default-value-for-parameters-with-a-%s-type-can-only-be-%s-or-null <mismatch-type-and-default>`
 * :ref:`define\(\)\:-argument-#3-\($case_insensitive\)-is-ignored-since-declaration-of-case-insensitive-constants-is-no-longer-supported <case-insensitive-constants>`
 * :ref:`define\(\)\:-declaration-of-case-insensitive-constants-is-deprecated <case-insensitive-constants>`
 * :ref:`defining-a-custom-assert()-function-is-not-allowed, <assert-function-is-reserved>`
 * :ref:`duplicate-type-%s-is-redundant <duplicate-enum-case-value>`
+* :ref:`empty-delimiter <no-empty-string-with-explode()>`
+* :ref:`empty-delimiter <no-empty-string-with-explode()>`
+* :ref:`enum-"%s"-not-found <undefined-static-class>`
 * :ref:`enum-%s-cannot-include-magic-method-%s <no-magic-method-for-enum>`
 * :ref:`enum-%s-cannot-include-magic-method-%s <no-magic-method-for-enum>`
-* :ref:`explode(): Argument #1 ($separator) cannot be empty <no-empty-string-with-explode()>`
 * :ref:`foreach\(\)-argument-must-be-of-type-array\|object <no-direct-usage-of-returned-value>`
-* :ref:`iconv(): Wrong charset, conversion from UTF-8' to ASCII//TRANSLIT' is not allowed <iconv-with-translit>`
+* :ref:`generators-cannot-return-values-using-"return" <no-return-for-generator>`
+* :ref:`handling-base64-via-mbstring-is-deprecated;-use-base64_encode-base64_decode-instead <deprecated-mb\_string-encodings>`
+* :ref:`handling-html-entities-via-mbstring-is-deprecated;-use-htmlspecialchars,-htmlentities,-or-mb_encode_numericentity-mb_decode_numericentity <deprecated-mb\_string-encodings>`
+* :ref:`handling-qprint-via-mbstring-is-deprecated;-use-quoted_printable_encode-quoted_printable_decode <deprecated-mb\_string-encodings>`
+* :ref:`handling-uuencode-via-mbstring-is-deprecated;-use-convert_uuencode-convert_uudecode-instead <deprecated-mb\_string-encodings>`
+* :ref:`illegal-offset-type <indices-are-int-or-string>`
 * :ref:`illegal-offset-type <no-object-as-index>`
 * :ref:`illegal-offset-type-in-isset-or-empty <no-object-as-index>`
 * :ref:`implicit-conversion-from-float-string-\"%s\"-to-int-loses <float-conversion-as-index>`
 * :ref:`index-invalid-or-out-of-range <no-object-as-index>`
+* :ref:`indirect-modification-of-overloaded-property-%s\:\:$%s-has-no-effect <no-magic-method-with-array>`
+* :ref:`interface-"%s"-not-found <undefined-static-class>`
+* :ref:`invalid-numeric-literal <malformed-octal>`
 * :ref:`invalid-utf-8-codepoint-escape <unicode-escape-syntax>`
 * :ref:`invalid-utf-8-codepoint-escape:-codepoint-too-large <unicode-escape-syntax>`
-* :ref:`mb_convert_encoding(): Handling Base64 via mbstring is deprecated; use base64_encode/base64_decode instead <deprecated-mb\_string-encodings>`
+* :ref:`method-name-must-be-a-string <useless-typehint>`
+* :ref:`methods-with-the-same-name-as-their-class-will-not-be-constructors-in-a-future-version-of-php;-%s-has-a-deprecated-constructor <old-style-constructor>`
+* :ref:`must-be-a-user-defined-class-name,-internal-class-name-given <class\_alias()-supports-internal-classes>`
 * :ref:`must-be-a-valid-comparison-operator <version\_compare-operator>`
+* :ref:`must-be-a-valid-encoding,-"%s"-given <mbstring-unknown-encodings>`
+* :ref:`must-contain-at-least-one-element <no-max-on-empty-array>`
 * :ref:`named-parameter-$x-overwrites-previous-argument <duplicate-named-parameter>`
 * :ref:`needle-is-not-a-string-or-an-integer <strpos()-with-integers>`
+* :ref:`no-ending-delimiter-'%c'-found <regex-inventory>`
+* :ref:`non-static-method-%s\:\:%s\(\)-cannot-be-called-statically <non-static-methods-called-in-a-static>`
+* :ref:`non-static-method-%s\:\:%s\(\)-cannot-be-called-statically <static-methods-cannot-call-non-static-methods>`
+* :ref:`non-static-method-%s\:\:%s\(\)-should-not-be-called-statically <non-static-methods-called-in-a-static>`
 * :ref:`non-string-needles-will-be-interpreted-as-strings-in-the-future.-use-an-explicit-chr()-call-to-preserve-the-current-behavior <strpos()-with-integers>`
+* :ref:`object-of-class-%s-could-not-be-converted-to-float <invalid-cast>`
+* :ref:`object-of-class-%s-could-not-be-converted-to-float <no-a-valid-cast>`
+* :ref:`object-of-class-%s-could-not-be-converted-to-int <invalid-cast>`
+* :ref:`object-of-class-%s-could-not-be-converted-to-int <no-a-valid-cast>`
+* :ref:`object-of-class-%s-could-not-be-converted-to-string <no-a-valid-cast>`
+* :ref:`octal-escape-sequence-overflow-\%s-is-greater-than-\377 <invalid-octal-in-string>`
+* :ref:`only-the-first-byte-will-be-assigned-to-the-string-offset <only-first-byte-will-be-assigned>`
 * :ref:`only-variable-references-should-be-returned-by-reference <no-literal-for-reference>`
 * :ref:`only-variable-references-should-be-returned-by-reference <no-reference-for-ternary>`
 * :ref:`only-variables-can-be-passed-by-reference <only-variable-for-reference>`
@@ -13325,13 +13337,17 @@ Exakat helps reduce the amount of error and warning that code is producing by re
 * :ref:`only-variables-should-be-passed-by-reference <only-variable-for-reference>`
 * :ref:`only-variables-should-be-passed-by-reference <parenthesis-as-parameter>`
 * :ref:`optional-parameter-$%s-declared-before-required-parameter-$%s-is-implicitly-treated-as-a-required-parameter <wrong-optional-parameter>`
-* :ref:`pack(): Type t: unknown format code <invalid-pack-format>`
-* :ref:`printf(): Too few arguments <printf-number-of-arguments>`
 * :ref:`private-constant-%s\:\:%s-cannot-be-final-as-it-is-not-visible-to-other-classes <final-constant>`
+* :ref:`private-methods-cannot-be-final-as-they-are-never-overridden-by-other-classes <final-private-methods>`
+* :ref:`property-%s-does-not-exist <undefined-properties>`
+* :ref:`property-%s\:\:$%s-cannot-have-type-%s <could-be-callable>`
 * :ref:`redefinition-of-parameter-$%s <multiple-definition-of-the-same-argument>`
 * :ref:`required-parameter-$%s-follows-optional-parameter-$%s <wrong-optional-parameter>`
+* :ref:`return-type-of-%s\:\:%s()-should-either-be-compatible-with-%s\:\:%s():-mixed <php-native-class-type-compatibility>`
+* :ref:`return-type-of-%s\:\:%s()-should-either-be-compatible-with-%s\:\:%s():-mixed <php-native-interfaces-and-return-type>`
 * :ref:`returning-by-reference-from-a-void-function-is-deprecated <no-referenced-void>`
 * :ref:`syntax error, unexpected '|', expecting variable (T_VARIABLE) <union-typehint>`
+* :ref:`syntax-error,-unexpected-token-"&" <calltime-pass-by-reference>`
 * :ref:`syntax-error,-unexpected-token-"match" <reserved-match-keyword>`
 * :ref:`syntax-error,-unexpected-token-',' <reserved-match-keyword>`
 * :ref:`syntax-error\,-unexpected-\'-\'\,-expecting-\'\=\' <invalid-constant-name>`
@@ -13342,33 +13358,58 @@ Exakat helps reduce the amount of error and warning that code is producing by re
 * :ref:`the-behavior-of-unparenthesized-expressions-containing-both-'.'-and-'+'-'-'-will-change-in-php-8:-'+'-'-'-will-take-a-higher-precedence <concat-and-addition>`
 * :ref:`the-behavior-of-unparenthesized-expressions-containing-both-'.'-and-'>>'-'<<'-will-change-in-php-8:-'<<'-'>>'-will-take-a-higher-precedence <concat-and-addition>`
 * :ref:`the-each()-function-is-deprecated.-this-message-will-be-suppressed-on-further-calls <php-7.2-removed-functions>`
-* :ref:`theClass and theTrait define the same property ($property) in the composition of theClass. However, the definition differs and is considered incompatible. <incompatible-property-between-class-and-trait>`
+* :ref:`the-magic-method-%s\:\:%s()-must-have-public-visibility <magic-visibility>`
+* :ref:`the-magic-method-%s\:\:%s()-must-have-public-visibility <magic-visibility>`
+* :ref:`the-magic-method-%s\:\:%s()-must-have-public-visibility <magic-visibility>`
+* :ref:`the-magic-method-%s\:\:%s()-must-have-public-visibility <magic-visibility>`
+* :ref:`the-parent-constructor-was-not-called\:-the-object-is-in-an-invalid-state <must-call-parent-constructor>`
 * :ref:`too-few-arguments-to-function-%s%s%s(),-%d-passed <wrong-number-of-arguments>`
 * :ref:`too-few-arguments-to-function-%s%s%s(),-%d-passed-and-%s-%d <wrong-number-of-arguments-in-methods>`
 * :ref:`too-few-arguments-to-function-%s%s%s(),-%d-passed-and-%s-%d-expected <wrong-number-of-arguments>`
+* :ref:`trait-"%s"-not-found <undefined-static-class>`
+* :ref:`trait-method-%s\:\:%s-has-not-been-applied-as-%s\:\:%s <method-collision-traits>`
+* :ref:`trait-method-%s\:\:%s-has-not-been-applied-as-%s\:\:%s <useless-method-alias>`
 * :ref:`trying-to-access-array-offset-on-%s <null-or-boolean-arrays>`
 * :ref:`trying-to-access-array-offset-on-%s <null-or-boolean-arrays>`
 * :ref:`trying-to-access-array-offset-on-%s <null-or-boolean-arrays>`
 * :ref:`trying-to-access-array-offset-on-%s <null-or-boolean-arrays>`
 * :ref:`trying-to-access-array-offset-on-%s <scalar-are-not-arrays>`
+* :ref:`type-%c:-unknown-format-code <invalid-pack-format>`
+* :ref:`type-%c:-unknown-format-code <invalid-pack-format>`
 * :ref:`type-%c:-unknown-format-code <pack-format-inventory>`
+* :ref:`type-of-%s\:\:$%s-must-be-%s%s-(as-in-class-%s) <inherited-property-type-must-match>`
+* :ref:`type-of-%s\:\:$%s-must-be-%s%s-\(as-in-class-%s\) <mismatch-properties-typehints>`
+* :ref:`type-of-%s\:\:$%s-must-not-be-defined-(as-in-class-%s) <inherited-property-type-must-match>`
+* :ref:`typed-property-%s\:\:$%s-must-not-be-accessed-before-initialization <untyped-no-default-properties>`
 * :ref:`undefined-array-key <possible-missing-subpattern>`
 * :ref:`undefined-class-constant-"%s\:\:%s" <avoid-self-in-interface>`
 * :ref:`undefined-class-constant-\'%s\:\:%s\' <unused-enumeration-case>`
+* :ref:`undefined-constant <undefined-class-constants>`
 * :ref:`undefined-constant-"%s <non-constant-index-in-array>`
+* :ref:`undefined-constant-"%s <undefined-constant-name>`
 * :ref:`undefined-constant-"%s <undefined-constants>`
 * :ref:`undefined-constant-%s\:\:%s <insufficient-typehint>`
 * :ref:`undefined-constant-%s\:\:%s <undefined-enumcase>`
+* :ref:`undefined-property-%s\:\:$%s <don't-unset-properties>`
+* :ref:`undefined-property-%s\:\:$%s <undefined-properties>`
+* :ref:`undefined-variable <casting-ternary>`
 * :ref:`undefined-variable <missing-assignation-in-branches>`
 * :ref:`undefined-variable <nonexistent-variable-in-compact()>`
+* :ref:`undefined-variable <undefined-variable>`
+* :ref:`unknown-format-specifier-"%c <sprintf-format-compilation>`
 * :ref:`unknown-named-parameter-$%s <unknown-parameter-name>`
-* :ref:`unpack(): Type t: unknown format code <invalid-pack-format>`
 * :ref:`unparenthesized-\a-\?-b-\:-c-\?-d-\:-e\-is-not-supported. <nested-ternary-without-parenthesis>`
+* :ref:`unsupported-operand-types <unsupported-operand-types>`
 * :ref:`unsupported-operand-types <unsupported-types-with-operators>`
 * :ref:`use-of-\"parent\"-in-callables-is-deprecated <deprecated-callable>`
 * :ref:`use-of-\"self\"-in-callables-is-deprecated <deprecated-callable>`
 * :ref:`use-of-\"static\"-in-callables-is-deprecated <deprecated-callable>`
+* :ref:`using-$this-when-not-in-object-context <$this-belongs-to-classes-or-traits>`
+* :ref:`using-$this-when-not-in-object-context <$this-is-not-for-static-methods>`
+* :ref:`using-$this-when-not-in-object-context <static-methods-can't-contain-$this>`
+* :ref:`using-$this-when-not-in-object-context <using-$this-outside-a-class>`
 * :ref:`using-array_key_exists\(\)-on-objects-is-deprecated. <array\_key\_exists()-works-on-arrays>`
+* :ref:`wrong-encoding,-conversion-from-"%s"-to-"%s"-is-not-allowed <iconv-with-translit>`
 
 
 

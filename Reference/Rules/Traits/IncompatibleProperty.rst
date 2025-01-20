@@ -26,14 +26,14 @@ Reports a property definition that doesn't fit the importing class. The property
    
    <?php
    
-   trait t { 
+   trait T { 
    	private Invalid $property1; 
    
    	private Valid $property2; 
    }
    
-   class xt { 
-   	use t; 
+   class XT { 
+   	use T; 
    	
    	// This is incompatible with the trait
    	private OtherType $property1; 
@@ -46,9 +46,15 @@ Reports a property definition that doesn't fit the importing class. The property
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/theClass+and+theTrait+define+the+same+property+%28%24property%29+in+the+composition+of+theClass.+However%2C+the+definition+differs+and+is+considered+incompatible..html>`_
+  + `theClass and theTrait define the same property ($property) in the composition of theClass. However, the definition differs and is considered incompatible. <https://php-errors.readthedocs.io/en/latest/messages/%25s-and-%25s-define-the-same-constant-%5C%28%25s%5C%29-in-the-composition-of-%25s.-however%5C%2C-the-definition-differs-and-is-considered-incompatible.-class-was-composed.html>`_
 
 
+
+Connex PHP features
+-------------------
+
+  + `class <https://php-dictionary.readthedocs.io/en/latest/dictionary/class.ini.html>`_
+  + `trait <https://php-dictionary.readthedocs.io/en/latest/dictionary/trait.ini.html>`_
 
 
 Suggestions

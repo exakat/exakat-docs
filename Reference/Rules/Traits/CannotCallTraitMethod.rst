@@ -42,7 +42,7 @@ See also `Calling a static element on a trait  <https://www.php.net/manual/en/mi
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Calling+static+trait+method+t%3A%3At+is+deprecated%2C+it+should+only+be+called+on+a+class+using+the+trait.html>`_
+  + `Calling static trait method t::t is deprecated, it should only be called on a class using the trait <https://php-errors.readthedocs.io/en/latest/messages/calling-static-trait-method-%25s%5C%3A%5C%3A%25s-is-deprecated.html>`_
 
 
 

@@ -60,7 +60,8 @@ See also `Static Keyword <https://www.php.net/manual/en/language.oop5.static.php
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Non-static+method+A%3A%3AB%28%29+should+not+be+called+statically.html>`_
+  + `Non-static method %s::%s() should not be called statically <https://php-errors.readthedocs.io/en/latest/messages/non-static-method-%25s%5C%3A%5C%3A%25s%5C%28%5C%29-should-not-be-called-statically.html>`_
+  + `Non-static method %s::%s() cannot not be called statically <https://php-errors.readthedocs.io/en/latest/messages/non-static-method-%25s%5C%3A%5C%3A%25s%5C%28%5C%29-cannot-be-called-statically.html>`_
 
 
 

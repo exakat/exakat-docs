@@ -32,6 +32,8 @@ Here is the release note of exakat.
 	+ New analysis : report usage of virtual properties
 	+ New analysis : report duplicate values in a backed enum
 	+ New analysis : signal new PHP native functions in PHP 8.4
+	+ New analysis : #[MustUseResult] attribute
+	+ New analysis : using #[MustUseResult] attribute means the method returns something
 
 + Tokenizer
     + Fixed bug with void getting an extra ellipsis mark

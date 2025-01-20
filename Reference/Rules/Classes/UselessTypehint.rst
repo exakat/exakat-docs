@@ -61,7 +61,7 @@ See also `__set <https://www.php.net/manual/en/language.oop5.overloading.php#obj
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Method+name+must+be+a+string.html>`_
+  + `Method name must be a string <https://php-errors.readthedocs.io/en/latest/messages/method-name-must-be-a-string.html>`_
 
 
 

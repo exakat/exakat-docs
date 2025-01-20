@@ -38,7 +38,7 @@ See also `Operators Precedence <https://www.php.net/manual/en/language.operators
 Related PHP errors 
 -------------------
 
-  + `1 <https://php-errors.readthedocs.io/en/latest/messages/Undefined+variable%3A.html>`_
+  + `Undefined variable: <https://php-errors.readthedocs.io/en/latest/messages/undefined-variable.html>`_
 
 
 

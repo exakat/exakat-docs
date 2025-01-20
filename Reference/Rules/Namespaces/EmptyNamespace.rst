@@ -33,7 +33,6 @@ Using bracket-style syntax :
    
    class foo {}
    
-   
    namespace X;
    // This is useless
    

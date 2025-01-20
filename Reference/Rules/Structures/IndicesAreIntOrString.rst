@@ -78,7 +78,7 @@ See also `Arrays syntax <https://www.php.net/manual/en/language.types.array.php>
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Illegal+offset+type.html>`_
+  + `Illegal offset type <https://php-errors.readthedocs.io/en/latest/messages/illegal-offset-type.html>`_
 
 
 

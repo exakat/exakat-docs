@@ -49,7 +49,10 @@ See also `Magic methods <https://www.php.net/manual/en/language.oop5.magic.php>`
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/The+magic+method+x%3A%3A__call%28%29+must+have+public+visibility.html>`_
+  + `The magic method x::__call() must have public visibility <https://php-errors.readthedocs.io/en/latest/messages/the-magic-method-%25s%3A%3A%25s%28%29-must-have-public-visibility.html>`_
+  + `The magic method x::__get() must have public visibility <https://php-errors.readthedocs.io/en/latest/messages/the-magic-method-%25s%3A%3A%25s%28%29-must-have-public-visibility.html>`_
+  + `The magic method x::__isset() must have public visibility <https://php-errors.readthedocs.io/en/latest/messages/the-magic-method-%25s%3A%3A%25s%28%29-must-have-public-visibility.html>`_
+  + `The magic method x::__set() must have public visibility <https://php-errors.readthedocs.io/en/latest/messages/the-magic-method-%25s%3A%3A%25s%28%29-must-have-public-visibility.html>`_
 
 
 
@@ -69,8 +72,6 @@ _____
 | Rulesets     | :ref:`All <ruleset-All>`, :ref:`Changed Behavior <ruleset-Changed-Behavior>`, :ref:`CompatibilityPHP70 <ruleset-CompatibilityPHP70>` |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------+
 | Exakat since | 0.8.4                                                                                                                                |
-+--------------+--------------------------------------------------------------------------------------------------------------------------------------+
-| PHP Version  | With PHP 5.4 and older                                                                                                               |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------+
 | Severity     | Major                                                                                                                                |
 +--------------+--------------------------------------------------------------------------------------------------------------------------------------+

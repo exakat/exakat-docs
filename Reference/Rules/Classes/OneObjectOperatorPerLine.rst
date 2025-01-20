@@ -41,6 +41,11 @@ This rule applies to chained  calls, and not on distinct expressions, that may e
    $a2->b2($c2->d2, $e2->f2); 
    
    ?>
+Connex PHP features
+-------------------
+
+  + `readability <https://php-dictionary.readthedocs.io/en/latest/dictionary/readability.ini.html>`_
+
 
 Specs
 _____

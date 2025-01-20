@@ -29,23 +29,17 @@ Be aware that the traits used in any configuration block may originate in any us
 .. code-block:: php
    
    <?php
-   class x  { 
-       // c is not a used trait
-       use a, b { c::d insteadof e;}
    
-       // e is a used trait, even if is not in the use above.
-       use e;
+   class X  { 
+       // C is not a used trait
+       use A, B { C::d insteadof E;}
+   
+       // E is a used trait, even if is not in the use above.
+       use E;
    }
    ?>
 
-See also `Traits <https://www.php.net/manual/en/language.oop5.traits.php>`_.
-
-Related PHP errors 
--------------------
-
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Trait+%27a%27+not+found+.html>`_
-
-
+See also https://www.php.net/manual/en/language.oop5.traits.php.
 
 Connex PHP features
 -------------------

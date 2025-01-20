@@ -163,7 +163,7 @@ Total : 177 analysis
 * :ref:`strpos()-too-much`
 * :ref:`class-typed-references`
 * :ref:`check-json`
-* :ref:`undefined-class`
+* :ref:`undefined-static-class`
 * :ref:`undefined-variable`
 * :ref:`undefined-insteadof`
 * :ref:`wrong-access-style-to-property`

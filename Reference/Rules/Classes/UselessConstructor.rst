@@ -48,7 +48,7 @@ Another edge case is promoted properties: the body of the constructor is still e
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Cannot+call+constructor.html>`_
+  + `Cannot call constructor <https://php-errors.readthedocs.io/en/latest/messages/cannot-call-constructor.html>`_
 
 
 

@@ -37,13 +37,6 @@ Usually, such whitespaces are forgotten, and may end up summoning the infamous '
 
 See also `How to fix Headers already sent error in PHP <http://stackoverflow.com/questions/8028957/how-to-fix-headers-already-sent-error-in-php>`_.
 
-Related PHP errors 
--------------------
-
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Headers+already+sent.html>`_
-
-
-
 Connex PHP features
 -------------------
 

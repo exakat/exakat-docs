@@ -26,27 +26,25 @@ PHP reports that ``Trait method f has not been applied, because there are collis
 
 When the method is the only one bearing a name, and being imported, there is no need to alias it. When the method is imported in several traits, the keyword ``insteadof`` is available to solve the conflict.
 
-
-
-
 This code lints but doesn't execute.
 
 .. code-block:: php
    
    <?php
    
-   trait t {
+   trait T {
        function h() {}
+       function f() {}
    }
    
-   class x {
-       use t { 
+   class X {
+       use T { 
            // This is possible
-           t::f as g; 
+           T::f as g; 
    
            // This is not possible, as the alias is in conflict with itself
            // alias are case insensitive
-           t::f as f; 
+           T::f as F; 
        }
    }
    
@@ -57,7 +55,7 @@ See also `Conflict resolution <https://www.php.net/manual/en/language.oop5.trait
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Trait+method+f+has+not+been+applied%2C+because+there+are+collisions+with+other+trait+methods+on+x.html>`_
+  + `Trait method M has not been applied, because there are collisions with other trait methods on X <https://php-errors.readthedocs.io/en/latest/messages/trait-method-%25s%3A%3A%25s-has-not-been-applied-as-%25s%3A%3A%25s.html>`_
 
 
 

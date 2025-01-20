@@ -1,28 +1,29 @@
 .. _classes-cantextendfinal:
 
-.. _can't-extend-final:
+.. _can't-extend-final-class:
 
-Can't Extend Final
-++++++++++++++++++
+Can't Extend Final Class
+++++++++++++++++++++++++
 
 .. meta::
 	:description:
-		Can't Extend Final: It is not possible to extend final classes.
+		Can't Extend Final Class: It is not possible to extend final classes.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
-	:twitter:title: Can't Extend Final
-	:twitter:description: Can't Extend Final: It is not possible to extend final classes
+	:twitter:title: Can't Extend Final Class
+	:twitter:description: Can't Extend Final Class: It is not possible to extend final classes
 	:twitter:creator: @exakat
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Can't Extend Final
+	:og:title: Can't Extend Final Class
 	:og:type: article
 	:og:description: It is not possible to extend final classes
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Can't Extend Final.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Can't Extend Final Class.html
 	:og:locale: en
 It is not possible to extend final classes. 
 
 Since PHP fails with a fatal `error <https://www.php.net/error>`_, this means that the extending class is probably not used in the rest of the code. Check for dead code.
+
 In a separate file :
 
 .. code-block:: php
@@ -41,7 +42,7 @@ See also `Final Keyword <https://www.php.net/manual/en/language.oop5.final.php>`
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Class+y+cannot+extend+final+class+x.html>`_
+  + `Class %s cannot extend final class %s <https://php-errors.readthedocs.io/en/latest/messages/class-%25s-cannot-extend-%25s-%25s.html>`_
 
 
 

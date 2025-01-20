@@ -46,7 +46,7 @@ See also `Class Abstraction <https://www.php.net/abstract>`_.
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Class+BA+contains+1+abstract+method+and+must+therefore+be+declared+abstract+or+implement+the+remaining+methods+%28A%3A%3AaFoo%29.html>`_
+  + `Class %s contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (%s::%s) <https://php-errors.readthedocs.io/en/latest/messages/class-%25s-contains-%25d-abstract-method%25s-and-must-therefore-be-declared-abstract-or-implement-the-remaining-methods.html>`_
 
 
 

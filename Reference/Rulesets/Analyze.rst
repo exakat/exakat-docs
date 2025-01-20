@@ -195,7 +195,7 @@ Total : 505 analysis
 * :ref:`negative-power`
 * :ref:`already-parents-interface`
 * :ref:`use-random\_int()`
-* :ref:`can't-extend-final`
+* :ref:`can't-extend-final-class`
 * :ref:`ternary-in-concat`
 * :ref:`using-$this-outside-a-class`
 * :ref:`undefined-trait`
@@ -328,7 +328,7 @@ Total : 505 analysis
 * :ref:`abstract-or-implements`
 * :ref:`incompatible-signature-methods`
 * :ref:`ambiguous-visibilities`
-* :ref:`undefined-class`
+* :ref:`undefined-static-class`
 * :ref:`assert-function-is-reserved`
 * :ref:`could-be-abstract-class`
 * :ref:`continue-is-for-loop`
@@ -427,7 +427,7 @@ Total : 505 analysis
 * :ref:`missing-\_\_isset()-method`
 * :ref:`modify-immutable`
 * :ref:`cannot-use-static-for-closure`
-* :ref:`only-first-byte-`
+* :ref:`only-first-byte-will-be-assigned`
 * :ref:`inherited-property-type-must-match`
 * :ref:`no-object-as-index`
 * :ref:`htmlentities-using-default-flag`
@@ -489,7 +489,7 @@ Total : 505 analysis
 * :ref:`double-checks`
 * :ref:`strpos()-with-integers`
 * :ref:`missing-assignation-in-branches`
-* :ref:`no-valid-cast`
+* :ref:`no-a-valid-cast`
 * :ref:`misused-yield`
 * :ref:`no-null-for-index`
 * :ref:`useless-try`

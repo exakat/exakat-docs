@@ -49,7 +49,7 @@ See also :ref:`Already Parents Interface <already-parents-interface>`.
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Class+bar+cannot+implement+previously+implemented+interface+i.html>`_
+  + `Class %s cannot implement previously implemented interface %s <https://php-errors.readthedocs.io/en/latest/messages/class-%25s-cannot-implement-previously-implemented-interface-%25s.html>`_
 
 
 

@@ -7,20 +7,20 @@ __halt_compiler
 
 .. meta::
 	:description:
-		__halt_compiler: __halt_compiler() usage.
+		__halt_compiler: This rule reports ``__halt_compiler()`` usage.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: __halt_compiler
-	:twitter:description: __halt_compiler: __halt_compiler() usage
+	:twitter:description: __halt_compiler: This rule reports ``__halt_compiler()`` usage
 	:twitter:creator: @exakat
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
 	:og:title: __halt_compiler
 	:og:type: article
-	:og:description: __halt_compiler() usage
+	:og:description: This rule reports ``__halt_compiler()`` usage
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/__halt_compiler.html
 	:og:locale: en
-__halt_compiler() usage.
+This rule reports ``__halt_compiler()`` usage. This function is rarely used, beside with `Phar <https://www.php.net/phar>`_ archives, or to deliver both PHP code and `static <https://www.php.net/manual/en/language.oop5.static.php>`_ binary.
 
 .. code-block:: php
    
@@ -46,6 +46,7 @@ Connex PHP features
 -------------------
 
   + `halt-compiler <https://php-dictionary.readthedocs.io/en/latest/dictionary/halt-compiler.ini.html>`_
+  + `phar <https://php-dictionary.readthedocs.io/en/latest/dictionary/phar.ini.html>`_
 
 
 Specs

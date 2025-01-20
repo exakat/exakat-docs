@@ -52,12 +52,12 @@ The code shown lints, but doesn't execute.
    
    ?>
 
-See also `Traits <https://www.php.net/manual/en/language.oop5.traits.php>`_.
+See also https://www.php.net/manual/en/language.oop5.traits.php.
 
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Trait+method+M+has+not+been+applied%2C+because+there+are+collisions+with+other+trait+methods+on+C.html>`_
+  + `Trait method M has not been applied, because there are collisions with other trait methods on C <https://php-errors.readthedocs.io/en/latest/messages/trait-method-%25s%3A%3A%25s-has-not-been-applied-as-%25s%3A%3A%25s.html>`_
 
 
 

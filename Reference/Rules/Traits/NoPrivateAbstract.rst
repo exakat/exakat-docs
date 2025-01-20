@@ -49,7 +49,7 @@ See also `Abstract Trait Members <https://www.php.net/manual/en/language.oop5.tr
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Abstract+function+t%3A%3AsomeAbstractPrivateFunction%28%29+cannot+be+declared+private+.html>`_
+  + `Abstract function t::someAbstractPrivateFunction() cannot be declared private <https://php-errors.readthedocs.io/en/latest/messages/%25s-function-%25s%5C%3A%5C%3A%25s%5C%28%5C%29-cannot-be-declared-private.html>`_
 
 
 

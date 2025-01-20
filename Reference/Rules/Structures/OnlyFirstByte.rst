@@ -1,24 +1,24 @@
 .. _structures-onlyfirstbyte:
 
-.. _only-first-byte-:
+.. _only-first-byte-will-be-assigned:
 
-Only First Byte 
-++++++++++++++++
+Only First Byte Will Be Assigned
+++++++++++++++++++++++++++++++++
 
 .. meta::
 	:description:
-		Only First Byte : When assigning a char to a string with an array notation, only the first byte is used.
+		Only First Byte Will Be Assigned: When assigning a char to a string with an array notation, only the first byte is used.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
-	:twitter:title: Only First Byte 
-	:twitter:description: Only First Byte : When assigning a char to a string with an array notation, only the first byte is used
+	:twitter:title: Only First Byte Will Be Assigned
+	:twitter:description: Only First Byte Will Be Assigned: When assigning a char to a string with an array notation, only the first byte is used
 	:twitter:creator: @exakat
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Only First Byte 
+	:og:title: Only First Byte Will Be Assigned
 	:og:type: article
 	:og:description: When assigning a char to a string with an array notation, only the first byte is used
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Only First Byte .html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Only First Byte Will Be Assigned.html
 	:og:locale: en
 When assigning a char to a string with an array notation, only the first byte is used.
 
@@ -39,7 +39,7 @@ See also `String access and modification by character <https://www.php.net/manua
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Only+the+first+byte+will+be+assigned+to+the+string+offset.html>`_
+  + `Only the first byte will be assigned to the string offset <https://php-errors.readthedocs.io/en/latest/messages/only-the-first-byte-will-be-assigned-to-the-string-offset.html>`_
 
 
 

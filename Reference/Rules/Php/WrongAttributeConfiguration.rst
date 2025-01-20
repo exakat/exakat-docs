@@ -43,7 +43,7 @@ See also `Declaring Attribute Classes <https://www.php.net/manual/en/language.at
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Attribute+%22AttributeFunction%22+cannot+target+Class+%28allowed+targets%3A+Function%29.html>`_
+  + `Attribute "AttributeFunction" cannot target Class (allowed targets: Function) <https://php-errors.readthedocs.io/en/latest/messages/attribute-%22%25s%22-cannot-target-%25s-%28allowed-targets%3A-%25s%29.html>`_
 
 
 

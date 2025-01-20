@@ -34,13 +34,11 @@ The last empty line is easier on the VCS, allowing clearer text diffs.
        print_r(func_get_args());
    }
    
-   
    foo(1, 
        2, 
        );
    
    foo(1);
-   
    
    ?>
 

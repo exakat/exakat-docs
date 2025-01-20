@@ -34,13 +34,6 @@ Taint is a extension used to detect and track tainted string. It follows each as
 
 See also `taint <https://www.php.net/manual/en/book.taint.php>`_ and `taint on github <https://github.com/laruence/taint>`_.
 
-Related PHP errors 
--------------------
-
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Attempt+to+echo+a+string+that+might+be+tainted.html>`_
-
-
-
 Connex PHP features
 -------------------
 

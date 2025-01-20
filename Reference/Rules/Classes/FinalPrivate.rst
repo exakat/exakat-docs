@@ -43,7 +43,7 @@ See also `Final Keyword <https://www.php.net/manual/en/language.oop5.final.php>`
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Private+methods+cannot+be+final+as+they+are+never+overridden+by+other+classes.html>`_
+  + `Private methods cannot be final as they are never overridden by other classes <https://php-errors.readthedocs.io/en/latest/messages/private-methods-cannot-be-final-as-they-are-never-overridden-by-other-classes.html>`_
 
 
 
@@ -51,6 +51,7 @@ Connex PHP features
 -------------------
 
   + `final <https://php-dictionary.readthedocs.io/en/latest/dictionary/final.ini.html>`_
+  + `private <https://php-dictionary.readthedocs.io/en/latest/dictionary/private.ini.html>`_
 
 
 Suggestions

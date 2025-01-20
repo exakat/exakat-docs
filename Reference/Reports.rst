@@ -21,6 +21,7 @@ Summary
   * :ref:`Code Flower <report-code-flower>`
   * :ref:`Code Sniffer <report-code-sniffer>`
   * :ref:`CompatibilityPHP56 <report-compatibilityphp56>`
+  * :ref:`CompatibilityPHP56 <report-compatibilityphp56>`
   * :ref:`CompatibilityPHP74 <report-compatibilityphp74>`
   * :ref:`CompatibilityPHP80 <report-compatibilityphp80>`
   * :ref:`CompatibilityPHP81 <report-compatibilityphp81>`
@@ -92,6 +93,7 @@ List of Reports
    Reports/clustergrammer.rst
    Reports/code_flower.rst
    Reports/code_sniffer.rst
+   Reports/compatibilityphp56.rst
    Reports/compatibilityphp56.rst
    Reports/compatibilityphp74.rst
    Reports/compatibilityphp80.rst

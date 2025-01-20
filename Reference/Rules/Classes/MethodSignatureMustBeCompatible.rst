@@ -40,7 +40,7 @@ PHP generates the infamous Fatal `error <https://www.php.net/error>`_ at executi
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Declaration+of+FooParent%3A%3ABar%28%29+must+be+compatible+with+FooChildren%3A%3ABar%28%29.html>`_
+  + `Declaration of %s::%s($%s) should be compatible with %s::%s($%s = 1)  <https://php-errors.readthedocs.io/en/latest/messages/declaration-of-%25s-must-be-compatible-with-%25s.html>`_
 
 
 

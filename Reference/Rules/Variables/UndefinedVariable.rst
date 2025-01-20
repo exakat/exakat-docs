@@ -38,7 +38,6 @@ This analysis doesn't handle dynamic variables, such as ``$$x``. It also doesn't
    // The following line may emit a warning : Undefined variable: $undefined
    echo "$var, $Var, $undefined";      // outputs "Bob, Joe, " 
    
-   
    ?>
 
 See also `Variable basics <https://www.php.net/manual/en/language.variables.basics.php>`_.
@@ -46,8 +45,7 @@ See also `Variable basics <https://www.php.net/manual/en/language.variables.basi
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Creating+default+object+from+empty+value.html>`_
-  + `1 <https://php-errors.readthedocs.io/en/latest/messages/Undefined+variable%3A+.html>`_
+  + `Undefined variable:  <https://php-errors.readthedocs.io/en/latest/messages/undefined-variable.html>`_
 
 
 

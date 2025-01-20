@@ -1,28 +1,26 @@
 .. _performances-skipemptyarray:
 
-.. _skip-empty-array:
+.. _skip-empty-array-when-merging:
 
-Skip Empty Array
-++++++++++++++++
+Skip Empty Array When Merging
++++++++++++++++++++++++++++++
 
 .. meta::
 	:description:
-		Skip Empty Array: When collecting arrays to be merged, it is faster to skip the empty arrays, rather than let array_merge() process them.
+		Skip Empty Array When Merging: When merging arrays that were collected, it is faster to skip the empty arrays, rather than let ``array_merge()`` process them.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
-	:twitter:title: Skip Empty Array
-	:twitter:description: Skip Empty Array: When collecting arrays to be merged, it is faster to skip the empty arrays, rather than let array_merge() process them
+	:twitter:title: Skip Empty Array When Merging
+	:twitter:description: Skip Empty Array When Merging: When merging arrays that were collected, it is faster to skip the empty arrays, rather than let ``array_merge()`` process them
 	:twitter:creator: @exakat
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Skip Empty Array
+	:og:title: Skip Empty Array When Merging
 	:og:type: article
-	:og:description: When collecting arrays to be merged, it is faster to skip the empty arrays, rather than let array_merge() process them
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Skip Empty Array.html
+	:og:description: When merging arrays that were collected, it is faster to skip the empty arrays, rather than let ``array_merge()`` process them
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Skip Empty Array When Merging.html
 	:og:locale: en
-When collecting arrays to be merged, it is faster to skip the empty arrays, rather than let `array_merge() <https://www.php.net/array_merge>`_ process them. This also works with `array_merge_recursive() <https://www.php.net/array_merge_recursive>`_.
-
-
+When merging arrays that were collected, it is faster to skip the empty arrays, rather than let ``array_merge()`` process them. This also works with `array_merge_recursive() <https://www.php.net/array_merge_recursive>`_.
 
 This is a micro-optimisation. It is more efficient with larger arrays.
 
@@ -43,6 +41,13 @@ This is a micro-optimisation. It is more efficient with larger arrays.
    $all = array_merge(...$all);
    
    ?>
+Connex PHP features
+-------------------
+
+  + `merge <https://php-dictionary.readthedocs.io/en/latest/dictionary/merge.ini.html>`_
+  + `performance <https://php-dictionary.readthedocs.io/en/latest/dictionary/performance.ini.html>`_
+  + `micro-optimisation <https://php-dictionary.readthedocs.io/en/latest/dictionary/micro-optimisation.ini.html>`_
+
 
 Specs
 _____

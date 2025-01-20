@@ -40,8 +40,7 @@ See also `preg_match() <https://www.php.net/preg_match>`_, `ext/mbstring <http:/
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Delimiter+must+not+be+alphanumeric+or+backslash.html>`_
-  + `1 <https://php-errors.readthedocs.io/en/latest/messages/No+ending+delimiter+%27%2F%27.html>`_
+  + `No ending delimiter '/' <https://php-errors.readthedocs.io/en/latest/messages/no-ending-delimiter-%27%25c%27-found.html>`_
 
 
 

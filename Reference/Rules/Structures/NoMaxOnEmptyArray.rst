@@ -22,9 +22,9 @@ No Max On Empty Array
 	:og:locale: en
 Using `max() <https://www.php.net/max>`_ or `min() <https://www.php.net/min>`_ on an empty array leads to a ``valueError`` `exception <https://www.php.net/exception>`_.
 
-Until PHP 8, `max() <https://www.php.net/max>`_ and `min() <https://www.php.net/min>`_ would return null in case of empty array. This might be confusing with actual values, as an array can contain ``null``. ``null`` has a specific behavior when comparing with other values, and should be avoided with `max() <https://www.php.net/max>`_ and sorts. 
+Until PHP 8, `max() <https://www.php.net/max>`_ and `min() <https://www.php.net/min>`_ returned ``null`` in case of empty array. This might be confusing with actual values, as an array can contain ``null``. ``null`` has a specific behavior when comparing with other values, and should be avoided with `max() <https://www.php.net/max>`_ and sorts. 
 
-Until PHP 8.0, a call on an empty array would return null, and a warning.
+Until PHP 8.0, a call on an empty array returns null, and a warning.
 
 .. code-block:: php
    
@@ -48,9 +48,14 @@ Until PHP 8.0, a call on an empty array would return null, and a warning.
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Argument+%231+%28%24value%29+must+contain+at+least+one+element.html>`_
+  + `Argument #1 ($value) must contain at least one element <https://php-errors.readthedocs.io/en/latest/messages/must-contain-at-least-one-element.html>`_
 
 
+
+Connex PHP features
+-------------------
+
+  + `validation <https://php-dictionary.readthedocs.io/en/latest/dictionary/validation.ini.html>`_
 
 
 Suggestions

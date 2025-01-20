@@ -44,7 +44,7 @@ Total : 60 analysis
 * :ref:`time()-vs-strtotime()`
 * :ref:`getting-last-element`
 * :ref:`avoid-array\_push()`
-* :ref:`should-use-function`
+* :ref:`should-use-use-function`
 * :ref:`fetch-one-row-format`
 * :ref:`avoid-glob()-usage`
 * :ref:`avoid-large-array-assignation`
@@ -74,7 +74,7 @@ Total : 60 analysis
 * :ref:`static-call-may-be-truly-static`
 * :ref:`simplify-foreach`
 * :ref:`too-many-extractions`
-* :ref:`skip-empty-array`
+* :ref:`skip-empty-array-when-merging`
 * :ref:`ellipsis-merge`
 * :ref:`pre-calculate-use`
 * :ref:`substr()-in-loops`

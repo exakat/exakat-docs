@@ -44,7 +44,7 @@ See also `PHP 7.1 no longer converts string to arrays the first time a value is 
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Argument+%231+must+be+of+type+float%2C+string+given.html>`_
+  + `Argument #1 must be of type float, string given <https://php-errors.readthedocs.io/en/latest/messages/argument-%23%25d-%28%24%25s%29-must-be-of-type-%25s%2C-%25s-given.html>`_
 
 
 

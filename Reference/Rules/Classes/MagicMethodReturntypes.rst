@@ -38,7 +38,7 @@ See also `Magic Methods <https://www.php.net/manual/en/language.oop5.magic.php>`
 Related PHP errors 
 -------------------
 
-  + `0 <https://php-errors.readthedocs.io/en/latest/messages/Return+type+must+be+array+when+declared+in.html>`_
+  + `Return type must be array when declared in <https://php-errors.readthedocs.io/en/latest/messages/%25s%3A%3A%25s%28%29%3A-return-type-must-be-%25s-when-declared.html>`_
 
 
 
