@@ -7,20 +7,24 @@ Used Trait
 
 .. meta::
 	:description:
-		Used Trait: Mark a trait as being used by a class or another trait.
+		Used Trait: This rule marks a trait as being used by a class or another trait.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: Used Trait
-	:twitter:description: Used Trait: Mark a trait as being used by a class or another trait
+	:twitter:description: Used Trait: This rule marks a trait as being used by a class or another trait
 	:twitter:creator: @exakat
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
 	:og:title: Used Trait
 	:og:type: article
-	:og:description: Mark a trait as being used by a class or another trait
+	:og:description: This rule marks a trait as being used by a class or another trait
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Used Trait.html
 	:og:locale: en
-Mark a trait as being used by a class or another trait.
+This rule marks a trait as being used by a class or another trait. 
+
+Traits are used with the ``use`` keyword inside traits, classes and enumerations. 
+
+This is a base rule to extract unused traits from the code. 
 
 .. code-block:: php
    

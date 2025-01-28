@@ -77,6 +77,11 @@ The following functions are now native functions in PHP 8.4. It is compulsory to
    );
    
    ?>
+Connex PHP features
+-------------------
+
+  + `function <https://php-dictionary.readthedocs.io/en/latest/dictionary/function.ini.html>`_
+
 
 Specs
 _____

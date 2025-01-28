@@ -46,8 +46,8 @@ It cannot be assigned outside this class, in the global scope. It is also immune
 Related PHP errors 
 -------------------
 
-  + `Cannot initialize readonly property x::$p from global scope <https://php-errors.readthedocs.io/en/latest/messages/cannot-%25s-readonly-property-%25s%5C%3A%5C%3A%24%25s-from-%25s%25s.html>`_
-  + `Cannot initialize readonly property x::$p from scope y <https://php-errors.readthedocs.io/en/latest/messages/cannot-%25s-readonly-property-%25s%5C%3A%5C%3A%24%25s-from-%25s%25s.html>`_
+  + `Cannot initialize readonly property %s::$%s from global scope <https://php-errors.readthedocs.io/en/latest/messages/cannot-%25s-readonly-property-%25s%3A%3A%24%25s-from-%25s%25s.html>`_
+  + `Cannot initialize readonly property %s::$%s from scope %s <https://php-errors.readthedocs.io/en/latest/messages/cannot-%25s-readonly-property-%25s%3A%3A%24%25s-from-%25s%25s.html>`_
 
 
 

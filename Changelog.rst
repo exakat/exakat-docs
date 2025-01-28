@@ -34,6 +34,8 @@ Here is the release note of exakat.
 	+ New analysis : signal new PHP native functions in PHP 8.4
 	+ New analysis : #[MustUseResult] attribute
 	+ New analysis : using #[MustUseResult] attribute means the method returns something
+	+ New analysis : report usage of new X()->p and new X()->method()
+	+ New analysis : has Asymmetric Visibility
 
 + Tokenizer
     + Fixed bug with void getting an extra ellipsis mark

@@ -43,7 +43,7 @@ Any other values are not understood by PHP.
 Related PHP errors 
 -------------------
 
-  + `Failed to open stream: `+wr' is not a valid mode for fopen <https://php-errors.readthedocs.io/en/latest/messages/%5C%60%25s%27-is-not-a-valid-mode-for-fopen.html>`_
+  + `Failed to open stream: `+wr' is not a valid mode for fopen <https://php-errors.readthedocs.io/en/latest/messages/%60%25s%27-is-not-a-valid-mode-for-fopen.html>`_
 
 
 

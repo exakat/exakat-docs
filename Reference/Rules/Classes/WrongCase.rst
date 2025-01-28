@@ -45,7 +45,8 @@ See also `PHP class name constant case sensitivity and PSR-11 <https://gist.gith
 Connex PHP features
 -------------------
 
-  + `case-insensitive <https://php-dictionary.readthedocs.io/en/latest/dictionary/case-insensitive.ini.html>`_
+  + `case-sensitivity <https://php-dictionary.readthedocs.io/en/latest/dictionary/case-sensitivity.ini.html>`_
+  + `class <https://php-dictionary.readthedocs.io/en/latest/dictionary/class.ini.html>`_
 
 
 Suggestions

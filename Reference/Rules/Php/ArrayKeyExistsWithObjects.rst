@@ -43,7 +43,7 @@ See also `array_key_exists() with objects <https://wiki.php.net/rfc/deprecations
 Related PHP errors 
 -------------------
 
-  + `Using array_key_exists() on objects is deprecated. Use isset() or property_exists() instead <https://php-errors.readthedocs.io/en/latest/messages/using-array_key_exists%5C%28%5C%29-on-objects-is-deprecated..html>`_
+  + `Using array_key_exists() on objects is deprecated. Use isset() or property_exists() instead <https://php-errors.readthedocs.io/en/latest/messages/using-array_key_exists%28%29-on-objects-is-deprecated..html>`_
 
 
 

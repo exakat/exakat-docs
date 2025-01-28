@@ -1,26 +1,26 @@
 .. _classes-childremovetypehint:
 
-.. _child-class-removes-typehint:
+.. _child-class-removes-type:
 
-Child Class Removes Typehint
-++++++++++++++++++++++++++++
+Child Class Removes Type
+++++++++++++++++++++++++
 
 .. meta::
 	:description:
-		Child Class Removes Typehint: PHP 7.
+		Child Class Removes Type: PHP 7.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
-	:twitter:title: Child Class Removes Typehint
-	:twitter:description: Child Class Removes Typehint: PHP 7
+	:twitter:title: Child Class Removes Type
+	:twitter:description: Child Class Removes Type: PHP 7
 	:twitter:creator: @exakat
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Child Class Removes Typehint
+	:og:title: Child Class Removes Type
 	:og:type: article
 	:og:description: PHP 7
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Child Class Removes Typehint.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Child Class Removes Type.html
 	:og:locale: en
-PHP 7.2 introduced the ability to remove a typehint when overloading a method. This is not valid code for older versions.
+PHP 7.2 introduced the ability to remove a type when overloading a method. This is not valid code for older versions.
 
 .. code-block:: php
    
@@ -38,7 +38,7 @@ PHP 7.2 introduced the ability to remove a typehint when overloading a method. T
 Connex PHP features
 -------------------
 
-  + `typehint <https://php-dictionary.readthedocs.io/en/latest/dictionary/typehint.ini.html>`_
+  + `type <https://php-dictionary.readthedocs.io/en/latest/dictionary/type.ini.html>`_
 
 
 Specs

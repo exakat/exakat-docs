@@ -44,7 +44,7 @@ See also `Functions <https://www.php.net/manual/en/language.functions.php>`_.
 Related PHP errors 
 -------------------
 
-  + `Undefined function <https://php-errors.readthedocs.io/en/latest/messages/call-to-undefined-function-%25s%5C%28%5C%29.html>`_
+  + `Undefined function <https://php-errors.readthedocs.io/en/latest/messages/call-to-undefined-function-%25s%28%29.html>`_
 
 
 

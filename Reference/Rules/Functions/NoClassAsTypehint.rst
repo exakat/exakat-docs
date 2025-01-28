@@ -1,26 +1,26 @@
 .. _functions-noclassastypehint:
 
-.. _no-class-as-typehint:
+.. _no-class-as-type:
 
-No Class As Typehint
-++++++++++++++++++++
+No Class As Type
+++++++++++++++++
 
 .. meta::
 	:description:
-		No Class As Typehint: Avoid using concrete classes as typehint : always use interfaces or abstract classes.
+		No Class As Type: Avoid using concrete classes as type: always use interfaces or abstract classes.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
-	:twitter:title: No Class As Typehint
-	:twitter:description: No Class As Typehint: Avoid using concrete classes as typehint : always use interfaces or abstract classes
+	:twitter:title: No Class As Type
+	:twitter:description: No Class As Type: Avoid using concrete classes as type: always use interfaces or abstract classes
 	:twitter:creator: @exakat
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: No Class As Typehint
+	:og:title: No Class As Type
 	:og:type: article
-	:og:description: Avoid using concrete classes as typehint : always use interfaces or abstract classes
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No Class As Typehint.html
+	:og:description: Avoid using concrete classes as type: always use interfaces or abstract classes
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No Class As Type.html
 	:og:locale: en
-Avoid using concrete classes as typehint : always use interfaces or abstract classes. This way, different classes, or versions of classes may be passed as argument. The typehint is not linked to an implementation, but to signatures.
+Avoid using concrete classes as type: always use interfaces or abstract classes. This way, different classes, or versions of classes may be passed as argument. The type is not linked to an implementation, but to signatures.
 
 A class is needed when the object is with properties : interfaces do not allow the specifications of properties.
 
@@ -60,7 +60,7 @@ See also `Type hinting for interfaces <http://phpenthusiast.com/object-oriented-
 Connex PHP features
 -------------------
 
-  + `typehint <https://php-dictionary.readthedocs.io/en/latest/dictionary/typehint.ini.html>`_
+  + `type <https://php-dictionary.readthedocs.io/en/latest/dictionary/type.ini.html>`_
   + `class <https://php-dictionary.readthedocs.io/en/latest/dictionary/class.ini.html>`_
 
 

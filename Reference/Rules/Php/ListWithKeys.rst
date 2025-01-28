@@ -34,7 +34,7 @@ Connex PHP features
 -------------------
 
   + `list <https://php-dictionary.readthedocs.io/en/latest/dictionary/list.ini.html>`_
-  + `keys <https://php-dictionary.readthedocs.io/en/latest/dictionary/keys.ini.html>`_
+  + `offset-array <https://php-dictionary.readthedocs.io/en/latest/dictionary/offset-array.ini.html>`_
 
 
 Specs

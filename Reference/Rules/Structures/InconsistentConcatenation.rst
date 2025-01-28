@@ -24,29 +24,27 @@ Concatenations happens within a string or using the dot operator. Using both is 
 
 Switching methods of concatenation, sometimes in the same expression, is `error <https://www.php.net/error>`_ prone. The reader gets confused, and may miss important information. 
 
-
-
 There are some situations where using concatenation are compulsory : when calling a constant, or a function, or make use of the escape sequence. Those are ignored in this analysis.
 
 .. code-block:: php
    
    <?php
    
-       //Concatenation
+     //Concatenation
      $consistent = $a . 'b'. $c;
    
-       //Interpolation
+     //Interpolation
      $consistentToo = "{$a}b$c";
    
-       // Concatenation and interpolation
+     // Concatenation and interpolation
      $inconsistent = $a . "b$c";
    
-       // Concatenation and interpolation too
+     // Concatenation and interpolation too
      $consistentThree = <<<CONSISTENT
    {$a}b$c
    CONSISTENT;
    
-       // Concatenation and interpolation collisions
+     // Concatenation and interpolation collisions
      $collision = theClass::CONSTANTE . "b{$c}".number_format($t, 2).' $CAD'."\n";
    
    ?>
@@ -54,6 +52,14 @@ Connex PHP features
 -------------------
 
   + `concat <https://php-dictionary.readthedocs.io/en/latest/dictionary/concat.ini.html>`_
+
+
+Suggestions
+___________
+
+* Make concatenation consistent, to make the code easier to read.
+
+
 
 
 Specs

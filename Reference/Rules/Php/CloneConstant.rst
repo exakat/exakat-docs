@@ -41,7 +41,7 @@ See also `New in initializers <https://www.php.net/releases/8.1/en.php#new_in_in
 Related PHP errors 
 -------------------
 
-  + `__clone method called on non-object <https://php-errors.readthedocs.io/en/latest/messages/__clone+method+called+on+non-object.html>`_
+  + `__clone method called on non-object <https://php-errors.readthedocs.io/en/latest/messages/__clone-method-called-on-non-object.html>`_
 
 
 

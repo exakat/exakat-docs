@@ -40,10 +40,10 @@ Total : 35 analysis
 * :ref:`duplicate-literal`
 * :ref:`parameter-hiding`
 * :ref:`weird-array-index`
-* :ref:`wrong-typehinted-name`
+* :ref:`wrong-typed-name`
 * :ref:`semantic-typing`
 * :ref:`fn-argument-variable-confusion`
-* :ref:`prefix-and-suffixes-with-typehint`
+* :ref:`prefix-and-suffixes-with-type`
 * :ref:`static-global-variables-confusion`
 * :ref:`possible-alias-confusion`
 * :ref:`mismatch-parameter-and-type`

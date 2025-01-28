@@ -32,6 +32,11 @@ Beware, some edge cases may apply. In particular, backward compatibility may pre
 * `is_null() <https://www.php.net/is_null>`_ is equivalent to ``=== null``
 * php_version() is equivalent to ``PHP_VERSION`` (the constant)
 * `is_array() <https://www.php.net/is_array>`_, `is_int() <https://www.php.net/is_int>`_, `is_object() <https://www.php.net/is_object>`_, etc. is equivalent to a scalar type
+Connex PHP features
+-------------------
+
+  + `operator <https://php-dictionary.readthedocs.io/en/latest/dictionary/operator.ini.html>`_
+
 
 Suggestions
 ___________

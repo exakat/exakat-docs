@@ -44,6 +44,12 @@ PHP allows it inside the class itself. Yet, it makes the code confusing.
 
 See also `Don't call instance methods statically <https://thephp.cc/articles/dont-call-instance-methods-statically>`_.
 
+Connex PHP features
+-------------------
+
+  + `static <https://php-dictionary.readthedocs.io/en/latest/dictionary/static.ini.html>`_
+  + `self <https://php-dictionary.readthedocs.io/en/latest/dictionary/self.ini.html>`_
+
 
 Suggestions
 ___________

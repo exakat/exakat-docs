@@ -62,7 +62,7 @@ __________________
 Related Cobblers
 ________________
 
-* :ref:`set-typehints`
+* :ref:`set-types`
 * :ref:`set-null-type`
 
 .. _set-type-void-reverse-cobbler:

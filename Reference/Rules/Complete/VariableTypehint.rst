@@ -1,26 +1,26 @@
 .. _complete-variabletypehint:
 
-.. _variable-anf-property-typehint:
+.. _variable-and-property-type:
 
-Variable Anf Property Typehint
-++++++++++++++++++++++++++++++
+Variable And Property Type
+++++++++++++++++++++++++++
 
 .. meta::
 	:description:
-		Variable Anf Property Typehint: Adds typehints to (local) variables and properties, by inference from the code.
+		Variable And Property Type: Adds types to (local) variables and properties, by inference from the code.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
-	:twitter:title: Variable Anf Property Typehint
-	:twitter:description: Variable Anf Property Typehint: Adds typehints to (local) variables and properties, by inference from the code
+	:twitter:title: Variable And Property Type
+	:twitter:description: Variable And Property Type: Adds types to (local) variables and properties, by inference from the code
 	:twitter:creator: @exakat
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Variable Anf Property Typehint
+	:og:title: Variable And Property Type
 	:og:type: article
-	:og:description: Adds typehints to (local) variables and properties, by inference from the code
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Variable Anf Property Typehint.html
+	:og:description: Adds types to (local) variables and properties, by inference from the code
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Variable And Property Type.html
 	:og:locale: en
-Adds typehints to (local) variables and properties, by inference from the code. 
+Adds types to (local) variables and properties, by inference from the code. 
 
 Currently, the variable must be assigned only one type within its context to be typed. Non-typed variables limit the scope of other rules.
 
@@ -41,7 +41,7 @@ Connex PHP features
 -------------------
 
   + `variable <https://php-dictionary.readthedocs.io/en/latest/dictionary/variable.ini.html>`_
-  + `typehint <https://php-dictionary.readthedocs.io/en/latest/dictionary/typehint.ini.html>`_
+  + `type <https://php-dictionary.readthedocs.io/en/latest/dictionary/type.ini.html>`_
 
 
 Specs

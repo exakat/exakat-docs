@@ -38,7 +38,6 @@ Multiline expressions, like complex expressions, tend to be less readable. Altho
    		 $c;
    } 
    
-   
    ?>
 
 +------+---------+---------+-----------------------------------------------------+

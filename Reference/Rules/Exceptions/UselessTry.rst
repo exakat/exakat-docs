@@ -22,8 +22,6 @@ Useless Try
 	:og:locale: en
 Report try clause that are useless. A try clause is useless when no `exception <https://www.php.net/exception>`_ is emitted by the code in the block. 
 
-
-
 This happens when the underlying layers removed the emission of exceptions.
 
 .. code-block:: php
@@ -38,6 +36,11 @@ This happens when the underlying layers removed the emission of exceptions.
    }
    
    ?>
+Connex PHP features
+-------------------
+
+  + `try <https://php-dictionary.readthedocs.io/en/latest/dictionary/try.ini.html>`_
+
 
 Suggestions
 ___________

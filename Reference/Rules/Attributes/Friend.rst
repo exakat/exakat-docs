@@ -45,7 +45,6 @@ Based on the specificiations from Dave Liddament.
        }
    }
    
-   
    class PersonBuilder
    {
        public function build(): Person
@@ -55,7 +54,6 @@ Based on the specificiations from Dave Liddament.
            return $person;
        }
    }
-   
    
    // ERROR Call to Person::__construct is not from PersonBuilder
    $person = new Person();

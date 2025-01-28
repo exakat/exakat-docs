@@ -20,7 +20,7 @@ Appinfo
 	:og:locale: en
 A set of rules that describes with PHP features is used in the code.
 
-Total : 390 analysis
+Total : 392 analysis
 
 * :ref:`array-index`
 * :ref:`multidimensional-arrays`
@@ -101,7 +101,7 @@ Total : 390 analysis
 * :ref:`functions-glossary`
 * :ref:`recursive-functions`
 * :ref:`redeclared-php-functions`
-* :ref:`typehints`
+* :ref:`types`
 * :ref:`interfaces-names`
 * :ref:`aliases`
 * :ref:`namespaces-glossary`
@@ -209,8 +209,8 @@ Total : 390 analysis
 * :ref:`ext-trader`
 * :ref:`ext-mailparse`
 * :ref:`ext-mail`
-* :ref:`scalar-typehint-usage`
-* :ref:`return-typehint-usage`
+* :ref:`scalar-type-usage`
+* :ref:`return-type-usage`
 * :ref:`ext-ob`
 * :ref:`ext-geoip`
 * :ref:`ext-event`
@@ -366,22 +366,22 @@ Total : 390 analysis
 * :ref:`links-between-parameter-and-argument`
 * :ref:`php-8.0-variable-syntax-tweaks`
 * :ref:`php-8.0-only-typehints`
-* :ref:`union-typehint`
+* :ref:`union-type`
 * :ref:`protocol-lists`
 * :ref:`use-php-attributes`
 * :ref:`use-nullsafe-operator`
 * :ref:`use-closure-trailing-comma`
 * :ref:`class-overreach`
 * :ref:`final-constant`
-* :ref:`never-typehint-usage`
+* :ref:`never-type-usage`
 * :ref:`named-parameter-usage`
 * :ref:`first-class-callable`
 * :ref:`never-keyword`
-* :ref:`mixed-typehint-usage`
+* :ref:`mixed-type-usage`
 * :ref:`nested-attributes`
 * :ref:`new-initializers`
 * :ref:`promoted-properties`
-* :ref:`intersection-typehint`
+* :ref:`intersection-type`
 * :ref:`readonly-usage`
 * :ref:`use-class\_alias()`
 * :ref:`ext-protobuf`
@@ -412,6 +412,8 @@ Total : 390 analysis
 * :ref:`file\_put\_contents-using-array-argument`
 * :ref:`neos`
 * :ref:`cakephp`
+* :ref:`has-property-hook`
+* :ref:`has-virtual-property`
 
 Specs
 _____

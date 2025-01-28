@@ -1,26 +1,26 @@
 .. _php-mixedusage:
 
-.. _mixed-typehint-usage:
+.. _mixed-type-usage:
 
-Mixed Typehint Usage
-++++++++++++++++++++
+Mixed Type Usage
+++++++++++++++++
 
 .. meta::
 	:description:
-		Mixed Typehint Usage: Usage of the mixed typehint.
+		Mixed Type Usage: Usage of the ``mixed`` type.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
-	:twitter:title: Mixed Typehint Usage
-	:twitter:description: Mixed Typehint Usage: Usage of the mixed typehint
+	:twitter:title: Mixed Type Usage
+	:twitter:description: Mixed Type Usage: Usage of the ``mixed`` type
 	:twitter:creator: @exakat
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Mixed Typehint Usage
+	:og:title: Mixed Type Usage
 	:og:type: article
-	:og:description: Usage of the mixed typehint
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Mixed Typehint Usage.html
+	:og:description: Usage of the ``mixed`` type
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Mixed Type Usage.html
 	:og:locale: en
-Usage of the mixed typehint.
+Usage of the ``mixed`` type. The ``mixed`` type represents all the available types. It is the same as leaving the type empty, except that the intention to use any type is now explicit.
 
 .. code-block:: php
    

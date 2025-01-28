@@ -34,7 +34,7 @@ The spread operator ``...`` used to work only on integer-indexed arrays. This li
    
    ?>
 
-See also `Variable-length argument lists <https://www.php.net/manual/en/functions.arguments.php#functions.variable-arg-list>`_.
+See also https://www.php.net/manual/en/functions.arguments.php#functions.variable-arg-list.
 
 Related PHP errors 
 -------------------

@@ -1,26 +1,26 @@
 .. _classes-uselesstypehint:
 
-.. _useless-typehint:
+.. _useless-type:
 
-Useless Typehint
-++++++++++++++++
+Useless Type
+++++++++++++
 
 .. meta::
 	:description:
-		Useless Typehint: __get() and __set() magic methods won't enforce any typehint.
+		Useless Type: __get() and __set() magic methods won't enforce any type.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
-	:twitter:title: Useless Typehint
-	:twitter:description: Useless Typehint: __get() and __set() magic methods won't enforce any typehint
+	:twitter:title: Useless Type
+	:twitter:description: Useless Type: __get() and __set() magic methods won't enforce any type
 	:twitter:creator: @exakat
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Useless Typehint
+	:og:title: Useless Type
 	:og:type: article
-	:og:description: __get() and __set() magic methods won't enforce any typehint
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Useless Typehint.html
+	:og:description: __get() and __set() magic methods won't enforce any type
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Useless Type.html
 	:og:locale: en
-`__get() <https://www.php.net/manual/en/language.oop5.magic.php>`_ and `__set() <https://www.php.net/manual/en/language.oop5.magic.php>`_ magic methods won't enforce any typehint. The name of the magic property is always cast to string.
+`__get() <https://www.php.net/manual/en/language.oop5.magic.php>`_ and `__set() <https://www.php.net/manual/en/language.oop5.magic.php>`_ magic methods won't enforce any type. The name of the magic property is always cast to string.
 
 `__call() <https://www.php.net/manual/en/language.oop5.magic.php>`_
 
@@ -29,18 +29,18 @@ Useless Typehint
    <?php
    
    class x {
-       // typehint is set and ignored
+       // type is set and ignored
        function __set(float $name, string $value) {
            $this->$name = $value;
        }
    
-       // typehint is set and ignored
+       // type is set and ignored
        function __get(integer $name) {
            $this->$name = $value;
        }
    
-       // typehint is checked by PHP 8.0 linting
-       // typehint is enforced by PHP 7.x
+       // type is checked by PHP 8.0 linting
+       // type is enforced by PHP 7.x
        function __call(integer $name) {
            $this->$name = $value;
        }
@@ -75,7 +75,7 @@ Suggestions
 ___________
 
 * Use `string` for the `$name` parameter
-* Use no typehint for the `$name` parameter
+* Use no type for the `$name` parameter
 
 
 

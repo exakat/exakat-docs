@@ -22,8 +22,6 @@ Could Use Trait
 	:og:locale: en
 The following classes have been found implementing all of a trait's methods : it could use this trait, and remove duplicated code.
 
-
-
 The comparison between the class methods' and the trait's methods are based on token. They may yield some false-positives.
 
 .. code-block:: php
@@ -60,6 +58,8 @@ Connex PHP features
 -------------------
 
   + `trait <https://php-dictionary.readthedocs.io/en/latest/dictionary/trait.ini.html>`_
+  + `dry <https://php-dictionary.readthedocs.io/en/latest/dictionary/dry.ini.html>`_
+  + `centralization <https://php-dictionary.readthedocs.io/en/latest/dictionary/centralization.ini.html>`_
 
 
 Suggestions

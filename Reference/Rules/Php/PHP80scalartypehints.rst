@@ -1,26 +1,26 @@
 .. _php-php80scalartypehints:
 
-.. _php-8.0-typehints:
+.. _php-8.0-types:
 
-PHP 8.0 Typehints
-+++++++++++++++++
+PHP 8.0 Types
++++++++++++++
 
 .. meta::
 	:description:
-		PHP 8.0 Typehints: New scalar typehints were introduced : mixed and false.
+		PHP 8.0 Types: New scalar types were introduced : mixed and false.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
-	:twitter:title: PHP 8.0 Typehints
-	:twitter:description: PHP 8.0 Typehints: New scalar typehints were introduced : mixed and false
+	:twitter:title: PHP 8.0 Types
+	:twitter:description: PHP 8.0 Types: New scalar types were introduced : mixed and false
 	:twitter:creator: @exakat
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: PHP 8.0 Typehints
+	:og:title: PHP 8.0 Types
 	:og:type: article
-	:og:description: New scalar typehints were introduced : mixed and false
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/PHP 8.0 Typehints.html
+	:og:description: New scalar types were introduced : mixed and false
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/PHP 8.0 Types.html
 	:og:locale: en
-New scalar typehints were introduced : mixed and false. 
+New scalar types were introduced : mixed and false. 
 
 They can't be used before PHP 8.0, and will be confused with classes or interfaces, or generate a parse `error <https://www.php.net/error>`_.
 
@@ -42,7 +42,7 @@ Connex PHP features
 
   + `mixed <https://php-dictionary.readthedocs.io/en/latest/dictionary/mixed.ini.html>`_
   + `false <https://php-dictionary.readthedocs.io/en/latest/dictionary/false.ini.html>`_
-  + `typehint <https://php-dictionary.readthedocs.io/en/latest/dictionary/typehint.ini.html>`_
+  + `type <https://php-dictionary.readthedocs.io/en/latest/dictionary/type.ini.html>`_
 
 
 Specs

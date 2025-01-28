@@ -2,27 +2,27 @@
 
 .. meta::
 	:description:
-		Set Typehints: Automagically add scalar typehints to methods and properties.
+		Set Types: Automagically add scalar types to methods and properties.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
-	:twitter:title: Set Typehints
-	:twitter:description: Set Typehints: Automagically add scalar typehints to methods and properties
+	:twitter:title: Set Types
+	:twitter:description: Set Types: Automagically add scalar types to methods and properties
 	:twitter:creator: @exakat
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Set Typehints
+	:og:title: Set Types
 	:og:type: article
-	:og:description: Automagically add scalar typehints to methods and properties
+	:og:description: Automagically add scalar types to methods and properties
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Cobblers/Functions/SetTypehints.html
 	:og:locale: en
 
-.. _set-typehints:
+.. _set-types:
 
-Set Typehints
-+++++++++++++
-Automagically add scalar typehints to methods and properties. Arguments and return values are both supported. 
+Set Types
++++++++++
+Automagically add scalar types to methods and properties. Arguments and return values are both supported. 
 
-When multiple possible types are identified, no typehint is added. If a typehint is already set, no typehint is added.
+When multiple possible types are identified, no type is added. If a type is already set, no type is added.
 
 Magic methods, such as __get(), __set(), __construct(), __desctruct(), etc are not modified by this cobbler. 
 
@@ -34,7 +34,7 @@ By default, and in case of conflict, array is chosen over iterable and int is ch
 
 
 
-.. _set-typehints-before:
+.. _set-types-before:
 
 Before
 ______
@@ -51,7 +51,7 @@ ______
    }
    ?>
 
-.. _set-typehints-after:
+.. _set-types-after:
 
 After
 _____
@@ -70,7 +70,7 @@ _____
    
 
 
-.. _set-typehints-int\_or\_float:
+.. _set-types-int\_or\_float:
 
 Parameters
 __________
@@ -83,14 +83,14 @@ __________
 | int_or_float      | float   | string | When int and float are the only suggestions, choose 'int', 'float', or 'omit'. By default, it is float.           |
 +-------------------+---------+--------+-------------------------------------------------------------------------------------------------------------------+
 
-.. _set-typehints-suggested-analysis:
+.. _set-types-suggested-analysis:
 
 Suggested Analysis
 __________________
 
 * :ref:`could-be-void`
 
-.. _set-typehints-related-cobbler:
+.. _set-types-related-cobbler:
 
 Related Cobblers
 ________________
@@ -100,7 +100,7 @@ ________________
 * :ref:`set-null-type`
 * :ref:`set-type-void`
 
-.. _set-typehints-reverse-cobbler:
+.. _set-types-reverse-cobbler:
 
 Reverse Cobbler
 _______________
@@ -109,7 +109,7 @@ _______________
 
 
 
-.. _set-typehints-specs:
+.. _set-types-specs:
 
 Specs
 _____

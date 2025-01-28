@@ -37,7 +37,7 @@ Using `basename() <https://www.php.net/basename>`_ instead of `substr() <https:/
    
    ?>
 
-See also `basename <http://www.php.net/basename>`_.
+See also http://www.php.net/basename.
 
 Connex PHP features
 -------------------

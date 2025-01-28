@@ -20,7 +20,7 @@ Changed Behavior
 	:og:locale: en
 Ruleset with all rules that identify changed behavior across PHP versions. This means that some syntax behave differently, depending on PHP version.
 
-Total : 1441 analysis
+Total : 1440 analysis
 
 * :ref:`ambiguous-array-index`
 * :ref:`array-index`
@@ -105,7 +105,7 @@ Total : 1441 analysis
 * :ref:`functions-glossary`
 * :ref:`recursive-functions`
 * :ref:`redeclared-php-functions`
-* :ref:`typehints`
+* :ref:`types`
 * :ref:`unset-arguments`
 * :ref:`empty-interfaces`
 * :ref:`interfaces-usage`
@@ -333,7 +333,7 @@ Total : 1441 analysis
 * :ref:`strict-comparison-with-booleans`
 * :ref:`lone-blocks`
 * :ref:`avoid-sleep()-usleep()`
-* :ref:`argument-should-be-typehinted`
+* :ref:`argument-should-be-typed`
 * :ref:`should-be-single-quote`
 * :ref:`super-global-usage`
 * :ref:`global-usage`
@@ -435,8 +435,8 @@ Total : 1441 analysis
 * :ref:`useless-abstract-class`
 * :ref:`only-static-methods-class`
 * :ref:`null-on-new`
-* :ref:`scalar-typehint-usage`
-* :ref:`return-typehint-usage`
+* :ref:`scalar-type-usage`
+* :ref:`return-type-usage`
 * :ref:`ext-ob`
 * :ref:`global-import`
 * :ref:`static-loop`
@@ -461,7 +461,7 @@ Total : 1441 analysis
 * :ref:`break-outside-loop`
 * :ref:`else-usage`
 * :ref:`one-object-operator-per-line`
-* :ref:`isset()-with-constant`
+* :ref:`isset()-with-constants`
 * :ref:`avoid-substr()-one`
 * :ref:`global-inside-loop`
 * :ref:`anonymous-classes`
@@ -493,7 +493,7 @@ Total : 1441 analysis
 * :ref:`hexadecimal-in-string`
 * :ref:`ext-fann`
 * :ref:`relay-function`
-* :ref:`func\_get\_arg()-modified`
+* :ref:`func\_get\_arg()-modified-behavior`
 * :ref:`use-cli`
 * :ref:`php-sapi`
 * :ref:`register-globals`
@@ -651,7 +651,7 @@ Total : 1441 analysis
 * :ref:`strange-name-for-variables`
 * :ref:`strange-name-for-constants`
 * :ref:`regex-delimiter`
-* :ref:`could-be-typehinted-callable`
+* :ref:`could-be-typed-callable`
 * :ref:`encoded-simple-letters`
 * :ref:`too-many-finds`
 * :ref:`use-cookies`
@@ -679,10 +679,10 @@ Total : 1441 analysis
 * :ref:`no-return-used`
 * :ref:`use-browscap`
 * :ref:`use-debug`
-* :ref:`no-class-as-typehint`
+* :ref:`no-class-as-type`
 * :ref:`no-reference-on-left-side`
 * :ref:`implemented-methods-must-be-public`
-* :ref:`could-typehint`
+* :ref:`could-type`
 * :ref:`psr-16-usage`
 * :ref:`psr-7-usage`
 * :ref:`psr-6-usage`
@@ -724,13 +724,13 @@ Total : 1441 analysis
 * :ref:`encoding-usage`
 * :ref:`mismatched-ternary-alternatives`
 * :ref:`mismatched-default-arguments`
-* :ref:`mismatched-typehint`
+* :ref:`mismatched-type`
 * :ref:`group-use-trailing-comma`
 * :ref:`logical-operators-favorite`
 * :ref:`isset-multiple-arguments`
 * :ref:`no-magic-method-with-array`
 * :ref:`php-7.2-object-keyword`
-* :ref:`child-class-removes-typehint`
+* :ref:`child-class-removes-type`
 * :ref:`ext-xattr`
 * :ref:`avoid-concat-in-loop`
 * :ref:`optional-parameter`
@@ -834,7 +834,7 @@ Total : 1441 analysis
 * :ref:`missing-parenthesis`
 * :ref:`one-if-is-sufficient`
 * :ref:`could-use-array\_unique`
-* :ref:`wrong-range-check`
+* :ref:`unreadable-interval-check`
 * :ref:`ext-zookeeper`
 * :ref:`ext-cmark`
 * :ref:`can't-instantiate-class`
@@ -863,9 +863,9 @@ Total : 1441 analysis
 * :ref:`ambiguous-visibilities`
 * :ref:`hash-algorithms-incompatible-with-php-7.1-`
 * :ref:`undefined-static-class`
-* :ref:`php-7.0-scalar-typehints`
-* :ref:`php-7.1-scalar-typehints`
-* :ref:`php-7.2-scalar-typehints`
+* :ref:`php-7.0-scalar-types`
+* :ref:`php-7.1-scalar-types`
+* :ref:`php-7.2-scalar-types`
 * :ref:`locally-used-property-in-trait`
 * :ref:`ext-lzf`
 * :ref:`ext-msgpack`
@@ -924,7 +924,7 @@ Total : 1441 analysis
 * :ref:`variable-is-not-a-condition`
 * :ref:`ext-weakref`
 * :ref:`ext-pcov`
-* :ref:`insufficient-typehint`
+* :ref:`insufficient-type`
 * :ref:`constant-dynamic-creation`
 * :ref:`php-8.0-removed-functions`
 * :ref:`php-8.0-removed-constants`
@@ -1011,11 +1011,11 @@ Total : 1441 analysis
 * :ref:`strip\_tags()-skips-closed-tag`
 * :ref:`no-spread-for-hash`
 * :ref:`use-contravariance`
-* :ref:`set-class-remote-definition-with-return-typehint`
+* :ref:`set-class-remote-definition-with-return-type`
 * :ref:`set-class-remote-definition-with-local-new`
-* :ref:`set-class-remote-definition-with-typehint`
+* :ref:`set-class-remote-definition-with-type`
 * :ref:`set-class-remote-definition-with-global`
-* :ref:`set-class-property-definition-with-typehint`
+* :ref:`set-class-property-definition-with-type`
 * :ref:`set-array-class-definition`
 * :ref:`set-class-method-remote-definition`
 * :ref:`use-arrow-functions`
@@ -1066,19 +1066,19 @@ Total : 1441 analysis
 * :ref:`could-type-with-string`
 * :ref:`shell-commands`
 * :ref:`could-type-with-iterable`
-* :ref:`insufficient-property-typehint`
+* :ref:`insufficient-property-type`
 * :ref:`inclusions`
 * :ref:`typehint-order`
 * :ref:`new-order`
-* :ref:`wrong-typehinted-name`
+* :ref:`wrong-typed-name`
 * :ref:`links-between-parameter-and-argument`
-* :ref:`exceeding-typehint`
+* :ref:`exceeding-type`
 * :ref:`nullable-without-check`
 * :ref:`collect-class-interface-counts`
 * :ref:`collect-class-depth`
 * :ref:`collect-class-children-count`
 * :ref:`semantic-typing`
-* :ref:`missing-typehint`
+* :ref:`missing-type`
 * :ref:`fossilized-method`
 * :ref:`not-equal-is-not-!==`
 * :ref:`coalesce-equal`
@@ -1088,7 +1088,7 @@ Total : 1441 analysis
 * :ref:`new-functions-in-php-8.0`
 * :ref:`don't-collect-void`
 * :ref:`php-8.0-only-typehints`
-* :ref:`union-typehint`
+* :ref:`union-type`
 * :ref:`uninitialized-property`
 * :ref:`implicit-nullable-type`
 * :ref:`fn-argument-variable-confusion`
@@ -1099,7 +1099,7 @@ Total : 1441 analysis
 * :ref:`check-crypto-key-length`
 * :ref:`undefined-constant-name`
 * :ref:`dynamic-self-calls`
-* :ref:`prefix-and-suffixes-with-typehint`
+* :ref:`prefix-and-suffixes-with-type`
 * :ref:`too-long-a-block`
 * :ref:`static-global-variables-confusion`
 * :ref:`possible-alias-confusion`
@@ -1109,7 +1109,7 @@ Total : 1441 analysis
 * :ref:`too-much-indented`
 * :ref:`safe-phpvariables`
 * :ref:`could-be-void`
-* :ref:`extended-typehints`
+* :ref:`extended-types`
 * :ref:`could-be-cit`
 * :ref:`protocol-lists`
 * :ref:`cyclic-references`
@@ -1119,7 +1119,7 @@ Total : 1441 analysis
 * :ref:`wrong-argument-type`
 * :ref:`call-order`
 * :ref:`uses-php-8-match()`
-* :ref:`mismatch-properties-typehints`
+* :ref:`mismatch-properties-types`
 * :ref:`could-be-self`
 * :ref:`could-be-parent`
 * :ref:`collect-parameter-names`
@@ -1160,14 +1160,13 @@ Total : 1441 analysis
 * :ref:`modified-typed-parameter`
 * :ref:`assumptions`
 * :ref:`collect-use-counts`
-* :ref:`useless-typehint`
+* :ref:`useless-type`
 * :ref:`php-8.0-removed-directives`
 * :ref:`unsupported-types-with-operators`
 * :ref:`negative-start-index-in-array`
 * :ref:`php-ext-stub-property-and-method`
 * :ref:`optimize-explode()`
 * :ref:`could-be-stringable`
-* :ref:`nullable-with-constant`
 * :ref:`collect-block-size`
 * :ref:`use-str\_contains()`
 * :ref:`php-80-named-parameter-variadic`
@@ -1207,14 +1206,14 @@ Total : 1441 analysis
 * :ref:`no-referenced-void`
 * :ref:`php-native-interfaces-and-return-type`
 * :ref:`final-constant`
-* :ref:`never-typehint-usage`
-* :ref:`php-8.1-typehints`
-* :ref:`php-8.0-typehints`
+* :ref:`never-type-usage`
+* :ref:`php-8.1-types`
+* :ref:`php-8.0-types`
 * :ref:`named-parameter-usage`
 * :ref:`first-class-callable`
 * :ref:`never-keyword`
 * :ref:`the-mixed-keyword`
-* :ref:`mixed-typehint-usage`
+* :ref:`mixed-type-usage`
 * :ref:`false-to-array-conversion`
 * :ref:`float-conversion-as-index`
 * :ref:`cannot-call-static-trait-method-directly`
@@ -1225,10 +1224,10 @@ Total : 1441 analysis
 * :ref:`overwritten-foreach-var`
 * :ref:`null-type-favorite`
 * :ref:`checks-property-existence`
-* :ref:`variable-anf-property-typehint`
+* :ref:`variable-and-property-type`
 * :ref:`extends-stdclass`
 * :ref:`scope-resolution-operator`
-* :ref:`cant-overload-constants`
+* :ref:`can't-overload-constants`
 * :ref:`variable-is-a-local-constant`
 * :ref:`this-could-be-iterable`
 * :ref:`abstract-class-constants`
@@ -1261,7 +1260,7 @@ Total : 1441 analysis
 * :ref:`use-constants-as-returns`
 * :ref:`identical-variables-in-foreach`
 * :ref:`string-int-comparison`
-* :ref:`add-return-typehint`
+* :ref:`add-return-type`
 * :ref:`ext-protobuf`
 * :ref:`constant--with-or-without-use`
 * :ref:`no-constructor-in-interface`
@@ -1270,7 +1269,7 @@ Total : 1441 analysis
 * :ref:`unsupported-operand-types`
 * :ref:`array\_merge-with-ellipsis`
 * :ref:`is-library`
-* :ref:`version\_compare-operator`
+* :ref:`version\_compare()-operator`
 * :ref:`php-8.1-resources-turned-into-objects`
 * :ref:`do-not-cast-to-int`
 * :ref:`constant-scalar-expression`
@@ -1334,7 +1333,7 @@ Total : 1441 analysis
 * :ref:`set-chaining-exception`
 * :ref:`could-use-class-operator`
 * :ref:`mbstring-unknown-encodings`
-* :ref:`named-argument-and-variadic`
+* :ref:`named-arguments-and-variadic`
 * :ref:`coalesce-and-ternary-operators-order`
 * :ref:`useless-assignation-of-promoted-property`
 * :ref:`method-property-confusion`

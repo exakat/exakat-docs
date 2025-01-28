@@ -184,7 +184,7 @@ Total : 505 analysis
 * :ref:`useless-brackets`
 * :ref:`preg\_replace-with-option-e`
 * :ref:`eval()-without-try`
-* :ref:`func\_get\_arg()-modified`
+* :ref:`func\_get\_arg()-modified-behavior`
 * :ref:`avoid-get\_class()`
 * :ref:`silently-cast-integer`
 * :ref:`timestamp-difference`
@@ -278,7 +278,7 @@ Total : 505 analysis
 * :ref:`avoid-optional-properties`
 * :ref:`mismatched-ternary-alternatives`
 * :ref:`mismatched-default-arguments`
-* :ref:`mismatched-typehint`
+* :ref:`mismatched-type`
 * :ref:`scalar-or-object-property`
 * :ref:`assign-and-lettered-logical-operator-precedence`
 * :ref:`no-magic-method-with-array`
@@ -315,7 +315,7 @@ Total : 505 analysis
 * :ref:`strtr-arguments`
 * :ref:`missing-parenthesis`
 * :ref:`callback-function-needs-return`
-* :ref:`wrong-range-check`
+* :ref:`unreadable-interval-check`
 * :ref:`can't-instantiate-class`
 * :ref:`strpos()-too-much`
 * :ref:`class-typed-references`
@@ -348,7 +348,7 @@ Total : 505 analysis
 * :ref:`possible-missing-subpattern`
 * :ref:`assign-and-compare`
 * :ref:`variable-is-not-a-condition`
-* :ref:`insufficient-typehint`
+* :ref:`insufficient-type`
 * :ref:`type-must-be-returned`
 * :ref:`clone-with-non-object`
 * :ref:`check-on-\_\_call-usage`
@@ -404,7 +404,7 @@ Total : 505 analysis
 * :ref:`cyclic-references`
 * :ref:`double-object-assignation`
 * :ref:`wrong-argument-type`
-* :ref:`mismatch-properties-typehints`
+* :ref:`mismatch-properties-types`
 * :ref:`no-need-for-triple-equal`
 * :ref:`array\_merge-needs-array-of-arrays`
 * :ref:`wrong-type-for-native-php-function`
@@ -455,7 +455,7 @@ Total : 505 analysis
 * :ref:`identical-variables-in-foreach`
 * :ref:`can't-overwrite-final-constant`
 * :ref:`unsupported-operand-types`
-* :ref:`version\_compare-operator`
+* :ref:`version\_compare()-operator`
 * :ref:`do-not-cast-to-int`
 * :ref:`could-be-spaceship`
 * :ref:`unused-enumeration-case`

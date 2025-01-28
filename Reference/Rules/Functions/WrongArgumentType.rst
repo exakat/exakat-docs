@@ -21,7 +21,8 @@ Wrong Argument Type
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Wrong Argument Type.html
 	:og:locale: en
 Checks that the type of the argument is consistent with the type of the called method.
-This analysis is valid with PHP 8.0.
+
+This analysis is valid since PHP 8.0.
 
 .. code-block:: php
    
@@ -39,7 +40,7 @@ This analysis is valid with PHP 8.0.
 Related PHP errors 
 -------------------
 
-  + `Argument #1 ($s) must be of type array, int given <https://php-errors.readthedocs.io/en/latest/messages/Argument+%23%25d+%28%24%25s%29+must+be+of+type+%25s%2C+%25s+given.html>`_
+  + `Argument #%d ($%s) must be of type %s, %s given <https://php-errors.readthedocs.io/en/latest/messages/argument-%23%25d-%28%24%25s%29-must-be-of-type-%25s%2C-%25s-given.html>`_
 
 
 

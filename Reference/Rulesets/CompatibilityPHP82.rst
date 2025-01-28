@@ -29,7 +29,7 @@ Total : 22 analysis
 * :ref:`deprecated-callable`
 * :ref:`checks-property-existence`
 * :ref:`extends-stdclass`
-* :ref:`version\_compare-operator`
+* :ref:`version\_compare()-operator`
 * :ref:`dollar-curly-interpolation-is-deprecated`
 * :ref:`utf8-encode-and-decode-are-deprecated`
 * :ref:`new-functions-in-php-8.2`

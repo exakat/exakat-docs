@@ -46,7 +46,7 @@ Reports a property definition that doesn't fit the importing class. The property
 Related PHP errors 
 -------------------
 
-  + `theClass and theTrait define the same property ($property) in the composition of theClass. However, the definition differs and is considered incompatible. <https://php-errors.readthedocs.io/en/latest/messages/%25s-and-%25s-define-the-same-constant-%5C%28%25s%5C%29-in-the-composition-of-%25s.-however%5C%2C-the-definition-differs-and-is-considered-incompatible.-class-was-composed.html>`_
+  + `theClass and theTrait define the same property ($property) in the composition of theClass. However, the definition differs and is considered incompatible. <https://php-errors.readthedocs.io/en/latest/messages/%25s-and-%25s-define-the-same-constant-%28%25s%29-in-the-composition-of-%25s.-however%2C-the-definition-differs-and-is-considered-incompatible.-class-was-composed.html>`_
 
 
 

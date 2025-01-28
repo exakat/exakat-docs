@@ -25,7 +25,8 @@ The ``instanceof`` operator is a more precise alternative to ``is_object()``. It
 `instanceof <https://www.php.net/manual/en/language.operators.type.php>`_ checks for an variable to be of a class or its parents or the interfaces it implements. 
 Once ``instanceof`` has been used, the actual attributes available (properties, constants, methods) are known, unlike with ``is_object()``.
 
-Last, ``instanceof`` may be upgraded to Typehint, by moving it to the method signature. 
+Last, ``instanceof`` may be upgraded to type, by moving it to the method signature. 
+
 ``instanceof`` and ``is_object()`` may not be always interchangeable. Consider using `isset() <https://www.www.php.net/isset>`_ on a known property for a simple check on objects. You may also consider `is_string() <https://www.php.net/is_string>`_, `is_integer() <https://www.php.net/is_integer>`_ or `is_scalar() <https://www.php.net/is_scalar>`_, in particular instead of ``!`is_object() <https://www.php.net/is_object>`_``.
 
 The ``instanceof`` operator is also faster than the ``is_object()`` functioncall.
@@ -51,7 +52,7 @@ The ``instanceof`` operator is also faster than the ``is_object()`` functioncall
            return false; } // Default behavior
        }
    
-       // use of typehinting
+       // use of type
        // in case $o is not of the right type, exception is raised automatically
        public function bar(myClass $o) {
            return $o->method();
@@ -73,7 +74,7 @@ ___________
 
 * Use instanceof and remove is_object()
 * Create a high level interface to check a whole family of classes, instead of testing them individually
-* Use typehint when possible
+* Use type when possible
 * Avoid mixing scalar types and objects in the same variable
 
 

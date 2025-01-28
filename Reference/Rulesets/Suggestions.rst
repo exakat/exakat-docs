@@ -111,7 +111,7 @@ Total : 130 analysis
 * :ref:`abstract-away`
 * :ref:`large-try-block`
 * :ref:`cancel-common-method`
-* :ref:`useless-typehint`
+* :ref:`useless-type`
 * :ref:`could-use-promoted-properties`
 * :ref:`use-get\_debug\_type()`
 * :ref:`use-str\_contains()`

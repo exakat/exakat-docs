@@ -26,20 +26,20 @@ A final method in a trait is also final when in its importing class. This means 
    
    <?php
    
-   trait t {
+   trait T {
    	final function FFinal() {}
    	final function FNotFinalInClass() {}
    	function FNotFinal() {}     // This is a normal method
    }
    
-   class x {
+   class X {
    	use t;
    	
    	function FNotFinalInClass() {}
    
    }
    
-   class y extends x  {
+   class Y extends X {
    	function FFinal() {}            // This is KO, as it is final in the trait
    	function FNotFinalInClass() {}  // This is OK, the class as priority
    	function FNotFinal() {}   

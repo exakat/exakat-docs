@@ -53,7 +53,7 @@ See also https://www.php.net/manual/en/keyword.parent.php.
 Related PHP errors 
 -------------------
 
-  + `Call to undefined method %s::%s() <https://php-errors.readthedocs.io/en/latest/messages/call-to-undefined-method-%25s%5C%3A%5C%3A%25s%5C%28%5C%29.html>`_
+  + `Call to undefined method %s::%s() <https://php-errors.readthedocs.io/en/latest/messages/call-to-undefined-method-%25s%3A%3A%25s%28%29.html>`_
   + `Cannot access parent:: when current class scope has no parent <https://php-errors.readthedocs.io/en/latest/messages/cannot-access-parent%3A%3A-when-current-class-scope-has-no-parent.html>`_
 
 

@@ -30,7 +30,14 @@ As such, an `error <https://www.php.net/error>`_ will be raised when the class i
    
    <?php
    
+   class X {
+       // no foo() method
+   }
    
+   class Y extends X {
+       #[Override]
+       function foo() { return 1; }
+   }
    ?>
 Connex PHP features
 -------------------

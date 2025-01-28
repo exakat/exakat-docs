@@ -1,26 +1,26 @@
 .. _php-php72scalartypehints:
 
-.. _php-7.2-scalar-typehints:
+.. _php-7.2-scalar-types:
 
-PHP 7.2 Scalar Typehints
-++++++++++++++++++++++++
+PHP 7.2 Scalar Types
+++++++++++++++++++++
 
 .. meta::
 	:description:
-		PHP 7.2 Scalar Typehints: A new scalar typehint was introduced : object.
+		PHP 7.2 Scalar Types: A new type was introduced : ``object``.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
-	:twitter:title: PHP 7.2 Scalar Typehints
-	:twitter:description: PHP 7.2 Scalar Typehints: A new scalar typehint was introduced : object
+	:twitter:title: PHP 7.2 Scalar Types
+	:twitter:description: PHP 7.2 Scalar Types: A new type was introduced : ``object``
 	:twitter:creator: @exakat
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: PHP 7.2 Scalar Typehints
+	:og:title: PHP 7.2 Scalar Types
 	:og:type: article
-	:og:description: A new scalar typehint was introduced : object
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/PHP 7.2 Scalar Typehints.html
+	:og:description: A new type was introduced : ``object``
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/PHP 7.2 Scalar Types.html
 	:og:locale: en
-A new scalar typehint was introduced : object. 
+A new type was introduced : ``object``. 
 
 It can't be used before PHP 7.2, and will be confused with classes or interfaces.
 

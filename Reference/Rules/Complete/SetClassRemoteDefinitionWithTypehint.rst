@@ -1,24 +1,24 @@
 .. _complete-setclassremotedefinitionwithtypehint:
 
-.. _set-class-remote-definition-with-typehint:
+.. _set-class-remote-definition-with-type:
 
-Set Class Remote Definition With Typehint
-+++++++++++++++++++++++++++++++++++++++++
+Set Class Remote Definition With Type
++++++++++++++++++++++++++++++++++++++
 
 .. meta::
 	:description:
-		Set Class Remote Definition With Typehint: Links method calls, properties static or not, and constants to their definition, thanks to typed arguments.
+		Set Class Remote Definition With Type: Links method calls, properties static or not, and constants to their definition, thanks to typed arguments.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
-	:twitter:title: Set Class Remote Definition With Typehint
-	:twitter:description: Set Class Remote Definition With Typehint: Links method calls, properties static or not, and constants to their definition, thanks to typed arguments
+	:twitter:title: Set Class Remote Definition With Type
+	:twitter:description: Set Class Remote Definition With Type: Links method calls, properties static or not, and constants to their definition, thanks to typed arguments
 	:twitter:creator: @exakat
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Set Class Remote Definition With Typehint
+	:og:title: Set Class Remote Definition With Type
 	:og:type: article
 	:og:description: Links method calls, properties static or not, and constants to their definition, thanks to typed arguments
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Set Class Remote Definition With Typehint.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Set Class Remote Definition With Type.html
 	:og:locale: en
 Links method calls, properties `static <https://www.php.net/manual/en/language.oop5.static.php>`_ or not, and constants to their definition, thanks to typed arguments. The link is ``DEFINITION``.
 
@@ -31,7 +31,7 @@ Links method calls, properties `static <https://www.php.net/manual/en/language.o
    }
    
    function foo(x $a) {
-       // This links to class x, method bar(), thanks to the typehint.
+       // This links to class x, method bar(), thanks to the type.
        return $a->bar();
    }
    

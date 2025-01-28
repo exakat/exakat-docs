@@ -1,26 +1,26 @@
 .. _complete-setclasspropertydefinitionwithtypehint:
 
-.. _set-class-property-definition-with-typehint:
+.. _set-class-property-definition-with-type:
 
-Set Class Property Definition With Typehint
-+++++++++++++++++++++++++++++++++++++++++++
+Set Class Property Definition With Type
++++++++++++++++++++++++++++++++++++++++
 
 .. meta::
 	:description:
-		Set Class Property Definition With Typehint: Links method call to its definition, thanks to property typehinting.
+		Set Class Property Definition With Type: Links method call to its definition, thanks to property typing.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
-	:twitter:title: Set Class Property Definition With Typehint
-	:twitter:description: Set Class Property Definition With Typehint: Links method call to its definition, thanks to property typehinting
+	:twitter:title: Set Class Property Definition With Type
+	:twitter:description: Set Class Property Definition With Type: Links method call to its definition, thanks to property typing
 	:twitter:creator: @exakat
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Set Class Property Definition With Typehint
+	:og:title: Set Class Property Definition With Type
 	:og:type: article
-	:og:description: Links method call to its definition, thanks to property typehinting
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Set Class Property Definition With Typehint.html
+	:og:description: Links method call to its definition, thanks to property typing
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Set Class Property Definition With Type.html
 	:og:locale: en
-Links method call to its definition, thanks to property typehinting. The link is ``DEFINITION``.
+Links method call to its definition, thanks to property typing. The link is ``DEFINITION``.
 
 .. code-block:: php
    

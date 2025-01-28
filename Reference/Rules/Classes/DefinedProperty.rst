@@ -33,7 +33,12 @@ List of properties that are explicitly defined in the class, its parents or trai
    
    ?>
 
-See also `Properties <https://www.php.net/manual/en/language.oop5.properties.php>`_.
+See also https://www.php.net/manual/en/language.oop5.properties.php.
+
+Connex PHP features
+-------------------
+
+  + `property <https://php-dictionary.readthedocs.io/en/latest/dictionary/property.ini.html>`_
 
 
 Specs
@@ -53,6 +58,8 @@ _____
 | Time To Fix  | Quick (30 mins)                                                                                                                                                                         |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision    | Very high                                                                                                                                                                               |
++--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Related rule | :ref:`undefined-properties`                                                                                                                                                             |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Available in | `Entreprise Edition <https://www.exakat.io/entreprise-edition>`_, `Community Edition <https://www.exakat.io/community-edition>`_, `Exakat Cloud <https://www.exakat.io/exakat-cloud/>`_ |
 +--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

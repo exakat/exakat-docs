@@ -47,8 +47,6 @@ The specifications include namespaces which are exempt from checking the `attrib
    	function good(Injectable $good, NotInjectable $wrong) {}
    }
    
-   
-   
    ?>
 
 +------------------------+-------------------------+--------+-----------------------------------------------------------------------------------------+

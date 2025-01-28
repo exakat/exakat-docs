@@ -39,6 +39,12 @@ Then, the condition can be used as part of a larger method.
    }
    
    ?>
+Connex PHP features
+-------------------
+
+  + `method <https://php-dictionary.readthedocs.io/en/latest/dictionary/method.ini.html>`_
+  + `if-then <https://php-dictionary.readthedocs.io/en/latest/dictionary/if-then.ini.html>`_
+
 
 Suggestions
 ___________

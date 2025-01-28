@@ -21,6 +21,7 @@ Empty Array Detection
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Empty Array Detection.html
 	:og:locale: en
 Empty arrays may be detected with different solutions. 
+
 This analysis includes comparison to 0 with count, with ==, ===, != and !==, and comparison to empty arrays. Constants are not handled.
 
 .. code-block:: php
@@ -34,6 +35,11 @@ This analysis includes comparison to 0 with count, with ==, ===, != and !==, and
    count($array) === 0;
    
    ?>
+Connex PHP features
+-------------------
+
+  + `identity <https://php-dictionary.readthedocs.io/en/latest/dictionary/identity.ini.html>`_
+
 
 Specs
 _____

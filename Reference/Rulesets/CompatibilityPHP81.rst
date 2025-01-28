@@ -41,8 +41,8 @@ Total : 34 analysis
 * :ref:`false-to-array-conversion`
 * :ref:`float-conversion-as-index`
 * :ref:`cannot-call-static-trait-method-directly`
-* :ref:`version\_compare-operator`
-* :ref:`named-argument-and-variadic`
+* :ref:`version\_compare()-operator`
+* :ref:`named-arguments-and-variadic`
 * :ref:`constants-in-traits`
 * :ref:`use-enum-case-in-constant-expression`
 * :ref:`readonly-property-changed-by-cloning`

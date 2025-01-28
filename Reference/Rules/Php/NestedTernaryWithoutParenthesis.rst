@@ -44,7 +44,7 @@ See also `PHP RFC: Deprecate left-associative ternary operator <https://wiki.php
 Related PHP errors 
 -------------------
 
-  + `Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` <https://php-errors.readthedocs.io/en/latest/messages/unparenthesized-%5C%60a-%5C%3F-b-%5C%3A-c-%5C%3F-d-%5C%3A-e%5C%60-is-not-supported..html>`_
+  + `Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` <https://php-errors.readthedocs.io/en/latest/messages/unparenthesized-%60a-%3F-b-%3A-c-%3F-d-%3A-e%60-is-not-supported..html>`_
 
 
 

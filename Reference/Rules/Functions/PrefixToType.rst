@@ -1,26 +1,26 @@
 .. _functions-prefixtotype:
 
-.. _prefix-and-suffixes-with-typehint:
+.. _prefix-and-suffixes-with-type:
 
-Prefix And Suffixes With Typehint
-+++++++++++++++++++++++++++++++++
+Prefix And Suffixes With Type
++++++++++++++++++++++++++++++
 
 .. meta::
 	:description:
-		Prefix And Suffixes With Typehint: This analysis checks the relationship between methods prefixes and suffixes, with their corresponding return typehint.
+		Prefix And Suffixes With Type: This analysis checks the relationship between methods prefixes and suffixes, with their corresponding return type.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
-	:twitter:title: Prefix And Suffixes With Typehint
-	:twitter:description: Prefix And Suffixes With Typehint: This analysis checks the relationship between methods prefixes and suffixes, with their corresponding return typehint
+	:twitter:title: Prefix And Suffixes With Type
+	:twitter:description: Prefix And Suffixes With Type: This analysis checks the relationship between methods prefixes and suffixes, with their corresponding return type
 	:twitter:creator: @exakat
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Prefix And Suffixes With Typehint
+	:og:title: Prefix And Suffixes With Type
 	:og:type: article
-	:og:description: This analysis checks the relationship between methods prefixes and suffixes, with their corresponding return typehint
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Prefix And Suffixes With Typehint.html
+	:og:description: This analysis checks the relationship between methods prefixes and suffixes, with their corresponding return type
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Prefix And Suffixes With Type.html
 	:og:locale: en
-This analysis checks the relationship between methods prefixes and suffixes, with their corresponding return typehint.
+This analysis checks the relationship between methods prefixes and suffixes, with their corresponding return type.
 
 For example, a method with the signature ``function isACustomer() {}`` should return a boolean. That boolean can then be read when calling the method : ``if ($user->isACustomer()) {}``.
 
@@ -31,11 +31,11 @@ There are 2 parameters for this analysis. It is recommended to customize them to
 
 The prefix is configured as the index of the map, while the related type is configured as the value of the map.
 
-``prefixToType['is'] = 'bool';`` will be use as ``is*`` shall use the ``bool`` typehint.
+``prefixToType['is'] = 'bool';`` will be use as ``is*`` shall use the ``bool`` type.
 
-Multiple typehints may be used at the same time. PHP supports multiple types since PHP 8.0, and Exakat will support them with any PHP version. Specify multiple types by separating them with comma. Any typehint not found in this list will be reported, including ``null``.
+Multiple types may be used at the same time. PHP supports multiple types since PHP 8.0, and Exakat will support them with any PHP version. Specify multiple types by separating them with comma. Any type not found in this list will be reported, including ``null``.
 
-PHP scalar types are available : ``string``, ``int``, ``void``, etc. Explicit types, based on classes or interfaces, must use the fully qualified name, not the short name. ``suffixToType['uuid'] = '\Uuid';`` will be use as ``*uuid`` shall use the ``\Uuid`` typehint.
+PHP scalar types are available : ``string``, ``int``, ``void``, etc. Explicit types, based on classes or interfaces, must use the fully qualified name, not the short name. ``suffixToType['uuid'] = '\Uuid';`` will be use as ``*uuid`` shall use the ``\Uuid`` type.
 
 When multiple rules applies, only one is reported.
 

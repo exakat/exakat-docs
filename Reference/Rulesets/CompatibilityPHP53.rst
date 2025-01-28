@@ -51,7 +51,7 @@ Total : 98 analysis
 * :ref:`class-const-with-array`
 * :ref:`variable-global`
 * :ref:`null-on-new`
-* :ref:`isset()-with-constant`
+* :ref:`isset()-with-constants`
 * :ref:`anonymous-classes`
 * :ref:`unicode-escape-syntax`
 * :ref:`new-functions-in-php-7.0`
@@ -76,7 +76,7 @@ Total : 98 analysis
 * :ref:`new-functions-in-php-7.3`
 * :ref:`cant-inherit-abstract-method`
 * :ref:`group-use-trailing-comma`
-* :ref:`child-class-removes-typehint`
+* :ref:`child-class-removes-type`
 * :ref:`no-substr-minus-one`
 * :ref:`integer-as-property`
 * :ref:`no-get\_class()-with-null`
@@ -86,9 +86,9 @@ Total : 98 analysis
 * :ref:`flexible-heredoc`
 * :ref:`const-visibility-usage`
 * :ref:`hash-algorithms-incompatible-with-php-7.1-`
-* :ref:`php-7.0-scalar-typehints`
-* :ref:`php-7.1-scalar-typehints`
-* :ref:`php-7.2-scalar-typehints`
+* :ref:`php-7.0-scalar-types`
+* :ref:`php-7.1-scalar-types`
+* :ref:`php-7.2-scalar-types`
 * :ref:`continue-is-for-loop`
 * :ref:`trailing-comma-in-calls`
 * :ref:`direct-call-to-\_\_clone()`
@@ -101,11 +101,11 @@ Total : 98 analysis
 * :ref:`coalesce-equal`
 * :ref:`enum-usage`
 * :ref:`$files-full\_path`
-* :ref:`never-typehint-usage`
-* :ref:`php-8.1-typehints`
-* :ref:`php-8.0-typehints`
+* :ref:`never-type-usage`
+* :ref:`php-8.1-types`
+* :ref:`php-8.0-types`
 * :ref:`named-parameter-usage`
-* :ref:`cant-overload-constants`
+* :ref:`can't-overload-constants`
 * :ref:`constant-scalar-expression`
 * :ref:`no-private-abstract-method-in-trait`
 * :ref:`clone-constant`

@@ -806,7 +806,6 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Functions/NoReferencedVoid";
    analyzer[] = "Functions/NoReturnUsed";
    analyzer[] = "Functions/NullTypeFavorite";
-   analyzer[] = "Functions/NullableWithConstant";
    analyzer[] = "Functions/NullableWithoutCheck";
    analyzer[] = "Functions/OneLetterFunctions";
    analyzer[] = "Functions/OnlyVariableForReference";
@@ -1029,6 +1028,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Php/GroupUseDeclaration";
    analyzer[] = "Php/GroupUseTrailingComma";
    analyzer[] = "Php/Haltcompiler";
+   analyzer[] = "Php/HasAsymmetricVisibility";
    analyzer[] = "Php/HasPropertyHook";
    analyzer[] = "Php/HasVirtualProperty";
    analyzer[] = "Php/HashAlgos";
@@ -1074,6 +1074,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Php/NeverTypehintUsage";
    analyzer[] = "Php/NewExponent";
    analyzer[] = "Php/NewInitializers";
+   analyzer[] = "Php/NewWithoutParenthesis";
    analyzer[] = "Php/NoCastToInt";
    analyzer[] = "Php/NoClassInGlobal";
    analyzer[] = "Php/NoListWithString";
@@ -1193,6 +1194,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Php/TooManyNativeCalls";
    analyzer[] = "Php/TrailingComma";
    analyzer[] = "Php/TriggerErrorUsage";
+   analyzer[] = "Php/TriggerErrorUserError";
    analyzer[] = "Php/TryCatchUsage";
    analyzer[] = "Php/TryMultipleCatch";
    analyzer[] = "Php/TypedPropertyUsage";
@@ -2481,7 +2483,6 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Functions/NoReferencedVoid'
      - 'Functions/NoReturnUsed'
      - 'Functions/NullTypeFavorite'
-     - 'Functions/NullableWithConstant'
      - 'Functions/NullableWithoutCheck'
      - 'Functions/OneLetterFunctions'
      - 'Functions/OnlyVariableForReference'
@@ -2704,6 +2705,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Php/GroupUseDeclaration'
      - 'Php/GroupUseTrailingComma'
      - 'Php/Haltcompiler'
+     - 'Php/HasAsymmetricVisibility'
      - 'Php/HasPropertyHook'
      - 'Php/HasVirtualProperty'
      - 'Php/HashAlgos'
@@ -2749,6 +2751,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Php/NeverTypehintUsage'
      - 'Php/NewExponent'
      - 'Php/NewInitializers'
+     - 'Php/NewWithoutParenthesis'
      - 'Php/NoCastToInt'
      - 'Php/NoClassInGlobal'
      - 'Php/NoListWithString'
@@ -2868,6 +2871,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Php/TooManyNativeCalls'
      - 'Php/TrailingComma'
      - 'Php/TriggerErrorUsage'
+     - 'Php/TriggerErrorUserError'
      - 'Php/TryCatchUsage'
      - 'Php/TryMultipleCatch'
      - 'Php/TypedPropertyUsage'
@@ -4785,6 +4789,9 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Php/Gotonames";
    analyzer[] = "Php/GroupUseDeclaration";
    analyzer[] = "Php/Haltcompiler";
+   analyzer[] = "Php/HasAsymmetricVisibility";
+   analyzer[] = "Php/HasPropertyHook";
+   analyzer[] = "Php/HasVirtualProperty";
    analyzer[] = "Php/Incompilable";
    analyzer[] = "Php/IntegerSeparatorUsage";
    analyzer[] = "Php/IsINF";
@@ -4799,6 +4806,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Php/NeverKeyword";
    analyzer[] = "Php/NeverTypehintUsage";
    analyzer[] = "Php/NewInitializers";
+   analyzer[] = "Php/NewWithoutParenthesis";
    analyzer[] = "Php/OveriddenFunction";
    analyzer[] = "Php/PearUsage";
    analyzer[] = "Php/Php7RelaxedKeyword";
@@ -5188,6 +5196,9 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Php/Gotonames'
      - 'Php/GroupUseDeclaration'
      - 'Php/Haltcompiler'
+     - 'Php/HasAsymmetricVisibility'
+     - 'Php/HasPropertyHook'
+     - 'Php/HasVirtualProperty'
      - 'Php/Incompilable'
      - 'Php/IntegerSeparatorUsage'
      - 'Php/IsINF'
@@ -5202,6 +5213,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Php/NeverKeyword'
      - 'Php/NeverTypehintUsage'
      - 'Php/NewInitializers'
+     - 'Php/NewWithoutParenthesis'
      - 'Php/OveriddenFunction'
      - 'Php/PearUsage'
      - 'Php/Php7RelaxedKeyword'
@@ -5696,7 +5708,6 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Functions/MultipleDeclarations";
    analyzer[] = "Functions/MustReturn";
    analyzer[] = "Functions/NoLiteralForReference";
-   analyzer[] = "Functions/NullableWithConstant";
    analyzer[] = "Functions/Recursive";
    analyzer[] = "Functions/RedeclaredPhpFunction";
    analyzer[] = "Functions/ShouldYieldWithKey";
@@ -6333,7 +6344,6 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Functions/MultipleDeclarations'
      - 'Functions/MustReturn'
      - 'Functions/NoLiteralForReference'
-     - 'Functions/NullableWithConstant'
      - 'Functions/Recursive'
      - 'Functions/RedeclaredPhpFunction'
      - 'Functions/ShouldYieldWithKey'
@@ -7658,7 +7668,6 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Functions/NoReferencedVoid";
    analyzer[] = "Functions/NoReturnUsed";
    analyzer[] = "Functions/NullTypeFavorite";
-   analyzer[] = "Functions/NullableWithConstant";
    analyzer[] = "Functions/NullableWithoutCheck";
    analyzer[] = "Functions/OneLetterFunctions";
    analyzer[] = "Functions/OnlyVariableForReference";
@@ -9112,7 +9121,6 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Functions/NoReferencedVoid'
      - 'Functions/NoReturnUsed'
      - 'Functions/NullTypeFavorite'
-     - 'Functions/NullableWithConstant'
      - 'Functions/NullableWithoutCheck'
      - 'Functions/OneLetterFunctions'
      - 'Functions/OnlyVariableForReference'
@@ -10385,6 +10393,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Php/MethodCallOnNew";
    analyzer[] = "Php/NamedParameterUsage";
    analyzer[] = "Php/NeverTypehintUsage";
+   analyzer[] = "Php/NewWithoutParenthesis";
    analyzer[] = "Php/NoListWithString";
    analyzer[] = "Php/NoReferenceForStaticProperty";
    analyzer[] = "Php/NoReturnForGenerator";
@@ -10496,6 +10505,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Php/MethodCallOnNew'
      - 'Php/NamedParameterUsage'
      - 'Php/NeverTypehintUsage'
+     - 'Php/NewWithoutParenthesis'
      - 'Php/NoListWithString'
      - 'Php/NoReferenceForStaticProperty'
      - 'Php/NoReturnForGenerator'
@@ -10611,6 +10621,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Php/ListWithReference";
    analyzer[] = "Php/NamedParameterUsage";
    analyzer[] = "Php/NeverTypehintUsage";
+   analyzer[] = "Php/NewWithoutParenthesis";
    analyzer[] = "Php/NoListWithString";
    analyzer[] = "Php/NoReferenceForStaticProperty";
    analyzer[] = "Php/NoReturnForGenerator";
@@ -10719,6 +10730,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Php/ListWithReference'
      - 'Php/NamedParameterUsage'
      - 'Php/NeverTypehintUsage'
+     - 'Php/NewWithoutParenthesis'
      - 'Php/NoListWithString'
      - 'Php/NoReferenceForStaticProperty'
      - 'Php/NoReturnForGenerator'
@@ -10833,6 +10845,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Php/ListWithReference";
    analyzer[] = "Php/NamedParameterUsage";
    analyzer[] = "Php/NeverTypehintUsage";
+   analyzer[] = "Php/NewWithoutParenthesis";
    analyzer[] = "Php/NoListWithString";
    analyzer[] = "Php/NoReferenceForStaticProperty";
    analyzer[] = "Php/NoReturnForGenerator";
@@ -10934,6 +10947,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Php/ListWithReference'
      - 'Php/NamedParameterUsage'
      - 'Php/NeverTypehintUsage'
+     - 'Php/NewWithoutParenthesis'
      - 'Php/NoListWithString'
      - 'Php/NoReferenceForStaticProperty'
      - 'Php/NoReturnForGenerator'
@@ -11035,6 +11049,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Php/ListWithReference";
    analyzer[] = "Php/NamedParameterUsage";
    analyzer[] = "Php/NeverTypehintUsage";
+   analyzer[] = "Php/NewWithoutParenthesis";
    analyzer[] = "Php/NoListWithString";
    analyzer[] = "Php/NoReferenceForStaticProperty";
    analyzer[] = "Php/NoReturnForGenerator";
@@ -11126,6 +11141,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Php/ListWithReference'
      - 'Php/NamedParameterUsage'
      - 'Php/NeverTypehintUsage'
+     - 'Php/NewWithoutParenthesis'
      - 'Php/NoListWithString'
      - 'Php/NoReferenceForStaticProperty'
      - 'Php/NoReturnForGenerator'
@@ -11222,6 +11238,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Php/ListWithReference";
    analyzer[] = "Php/NamedParameterUsage";
    analyzer[] = "Php/NeverTypehintUsage";
+   analyzer[] = "Php/NewWithoutParenthesis";
    analyzer[] = "Php/NoReferenceForStaticProperty";
    analyzer[] = "Php/NoSubstrMinusOne";
    analyzer[] = "Php/PHP71scalartypehints";
@@ -11304,6 +11321,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Php/ListWithReference'
      - 'Php/NamedParameterUsage'
      - 'Php/NeverTypehintUsage'
+     - 'Php/NewWithoutParenthesis'
      - 'Php/NoReferenceForStaticProperty'
      - 'Php/NoSubstrMinusOne'
      - 'Php/PHP71scalartypehints'
@@ -11387,6 +11405,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Php/ListWithReference";
    analyzer[] = "Php/NamedParameterUsage";
    analyzer[] = "Php/NeverTypehintUsage";
+   analyzer[] = "Php/NewWithoutParenthesis";
    analyzer[] = "Php/NoReferenceForStaticProperty";
    analyzer[] = "Php/PHP72scalartypehints";
    analyzer[] = "Php/PHP73LastEmptyArgument";
@@ -11459,6 +11478,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Php/ListWithReference'
      - 'Php/NamedParameterUsage'
      - 'Php/NeverTypehintUsage'
+     - 'Php/NewWithoutParenthesis'
      - 'Php/NoReferenceForStaticProperty'
      - 'Php/PHP72scalartypehints'
      - 'Php/PHP73LastEmptyArgument'
@@ -11533,6 +11553,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Php/ListWithReference";
    analyzer[] = "Php/NamedParameterUsage";
    analyzer[] = "Php/NeverTypehintUsage";
+   analyzer[] = "Php/NewWithoutParenthesis";
    analyzer[] = "Php/NoReferenceForStaticProperty";
    analyzer[] = "Php/PHP73LastEmptyArgument";
    analyzer[] = "Php/PHP80scalartypehints";
@@ -11598,6 +11619,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Php/ListWithReference'
      - 'Php/NamedParameterUsage'
      - 'Php/NeverTypehintUsage'
+     - 'Php/NewWithoutParenthesis'
      - 'Php/NoReferenceForStaticProperty'
      - 'Php/PHP73LastEmptyArgument'
      - 'Php/PHP80scalartypehints'
@@ -11669,6 +11691,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Php/NamedParameterUsage";
    analyzer[] = "Php/NeverTypehintUsage";
    analyzer[] = "Php/NewInitializers";
+   analyzer[] = "Php/NewWithoutParenthesis";
    analyzer[] = "Php/PHP80scalartypehints";
    analyzer[] = "Php/PHP81scalartypehints";
    analyzer[] = "Php/Php73NewFunctions";
@@ -11725,6 +11748,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Php/NamedParameterUsage'
      - 'Php/NeverTypehintUsage'
      - 'Php/NewInitializers'
+     - 'Php/NewWithoutParenthesis'
      - 'Php/PHP80scalartypehints'
      - 'Php/PHP81scalartypehints'
      - 'Php/Php73NewFunctions'
@@ -11791,6 +11815,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Php/NestedTernaryWithoutParenthesis";
    analyzer[] = "Php/NeverTypehintUsage";
    analyzer[] = "Php/NewInitializers";
+   analyzer[] = "Php/NewWithoutParenthesis";
    analyzer[] = "Php/NoMoreCurlyArrays";
    analyzer[] = "Php/PHP80scalartypehints";
    analyzer[] = "Php/PHP81scalartypehints";
@@ -11859,6 +11884,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Php/NestedTernaryWithoutParenthesis'
      - 'Php/NeverTypehintUsage'
      - 'Php/NewInitializers'
+     - 'Php/NewWithoutParenthesis'
      - 'Php/NoMoreCurlyArrays'
      - 'Php/PHP80scalartypehints'
      - 'Php/PHP81scalartypehints'
@@ -11919,7 +11945,6 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Classes/TypedClassConstants";
    analyzer[] = "Exceptions/AnonymousCatch";
    analyzer[] = "Functions/MismatchParameterName";
-   analyzer[] = "Functions/NullableWithConstant";
    analyzer[] = "Functions/VoidIsNotAReference";
    analyzer[] = "Functions/WrongOptionalParameter";
    analyzer[] = "Interfaces/CantOverloadConstants";
@@ -11934,6 +11959,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Php/NamedArgumentAndVariadic";
    analyzer[] = "Php/NeverTypehintUsage";
    analyzer[] = "Php/NewInitializers";
+   analyzer[] = "Php/NewWithoutParenthesis";
    analyzer[] = "Php/PHP81scalartypehints";
    analyzer[] = "Php/Php74RemovedDirective";
    analyzer[] = "Php/Php80NamedParameterVariadic";
@@ -11978,7 +12004,6 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Classes/TypedClassConstants'
      - 'Exceptions/AnonymousCatch'
      - 'Functions/MismatchParameterName'
-     - 'Functions/NullableWithConstant'
      - 'Functions/VoidIsNotAReference'
      - 'Functions/WrongOptionalParameter'
      - 'Interfaces/CantOverloadConstants'
@@ -11993,6 +12018,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Php/NamedArgumentAndVariadic'
      - 'Php/NeverTypehintUsage'
      - 'Php/NewInitializers'
+     - 'Php/NewWithoutParenthesis'
      - 'Php/PHP81scalartypehints'
      - 'Php/Php74RemovedDirective'
      - 'Php/Php80NamedParameterVariadic'
@@ -12049,6 +12075,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Php/NamedArgumentAndVariadic";
    analyzer[] = "Php/NativeClassTypeCompatibility";
    analyzer[] = "Php/NeverKeyword";
+   analyzer[] = "Php/NewWithoutParenthesis";
    analyzer[] = "Php/NoNullForNative";
    analyzer[] = "Php/OpensslEncryptAlgoChange";
    analyzer[] = "Php/Php74RemovedDirective";
@@ -12096,6 +12123,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Php/NamedArgumentAndVariadic'
      - 'Php/NativeClassTypeCompatibility'
      - 'Php/NeverKeyword'
+     - 'Php/NewWithoutParenthesis'
      - 'Php/NoNullForNative'
      - 'Php/OpensslEncryptAlgoChange'
      - 'Php/Php74RemovedDirective'
@@ -12148,6 +12176,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
    analyzer[] = "Php/ClassAliasSupportsInternalClasses";
    analyzer[] = "Php/DeprecateDollarCurly";
    analyzer[] = "Php/FalseToArray";
+   analyzer[] = "Php/NewWithoutParenthesis";
    analyzer[] = "Php/Php82NewFunctions";
    analyzer[] = "Php/ReadonlyPropertyChangedByCloning";
    analyzer[] = "Php/StaticVariableDefaultCanBeAnyExpression";
@@ -12183,6 +12212,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
      - 'Php/ClassAliasSupportsInternalClasses'
      - 'Php/DeprecateDollarCurly'
      - 'Php/FalseToArray'
+     - 'Php/NewWithoutParenthesis'
      - 'Php/Php82NewFunctions'
      - 'Php/ReadonlyPropertyChangedByCloning'
      - 'Php/StaticVariableDefaultCanBeAnyExpression'
@@ -12215,6 +12245,7 @@ INI configuration for built-in rulesets. Copy them in config/rulesets.ini, and e
 
  [CompatibilityPHP83]
    analyzer[] = "Interfaces/InheritedClassConstantVisibility";
+   analyzer[] = "Php/NewWithoutParenthesis";
    analyzer[] = "Php/Php83NewClasses";
    analyzer[] = "Php/Php83NewFunctions";
    analyzer[] = "Structures/GetClassWithoutArg";
@@ -12233,6 +12264,7 @@ YAML configuration for built-in rulesets. Copy them in your code, with the name 
   rulesets:
     'CompatibilityPHP83':
      - 'Interfaces/InheritedClassConstantVisibility'
+     - 'Php/NewWithoutParenthesis'
      - 'Php/Php83NewClasses'
      - 'Php/Php83NewFunctions'
      - 'Structures/GetClassWithoutArg'

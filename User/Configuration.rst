@@ -631,7 +631,7 @@ Analyzers may be configured in the `project/*/config.ini`; they may also be conf
   + allowedNames : 
 
     + PHP reserved names that can be used in the code. All in a string, comma separated.
-:ref:`Prefix And Suffixes With Typehint <prefix-and-suffixes-with-typehint>`
+:ref:`Prefix And Suffixes With Type <prefix-and-suffixes-with-type>`
   + prefixedType : prefixedType['is'] = 'bool';
 prefixedType['has'] = 'bool';
 prefixedType['set'] = 'void';

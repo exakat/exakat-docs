@@ -54,14 +54,14 @@ Total : 48 analysis
 * :ref:`interfaces-is-not-implemented`
 * :ref:`can't-implement-traversable`
 * :ref:`wrong-typed-property-default`
-* :ref:`mismatch-properties-typehints`
+* :ref:`mismatch-properties-types`
 * :ref:`could-be-stringable`
 * :ref:`inherited-property-type-must-match`
 * :ref:`duplicate-named-parameter`
 * :ref:`php-native-interfaces-and-return-type`
 * :ref:`false-to-array-conversion`
 * :ref:`deprecated-callable`
-* :ref:`cant-overload-constants`
+* :ref:`can't-overload-constants`
 * :ref:`can't-overwrite-final-constant`
 * :ref:`implicit-conversion-to-int`
 * :ref:`no-magic-method-for-enum`

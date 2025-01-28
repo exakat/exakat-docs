@@ -1,24 +1,24 @@
 .. _php-nomorecurlyarrays:
 
-.. _no-more-curly-arrays:
+.. _curly-bracketed-arrays-are-not-supported:
 
-No More Curly Arrays
-++++++++++++++++++++
+Curly-Bracketed Arrays Are Not Supported
+++++++++++++++++++++++++++++++++++++++++
 
 .. meta::
 	:description:
-		No More Curly Arrays: Only use square brackets to access array elements.
+		Curly-Bracketed Arrays Are Not Supported: Only use square brackets to access array elements.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
-	:twitter:title: No More Curly Arrays
-	:twitter:description: No More Curly Arrays: Only use square brackets to access array elements
+	:twitter:title: Curly-Bracketed Arrays Are Not Supported
+	:twitter:description: Curly-Bracketed Arrays Are Not Supported: Only use square brackets to access array elements
 	:twitter:creator: @exakat
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: No More Curly Arrays
+	:og:title: Curly-Bracketed Arrays Are Not Supported
 	:og:type: article
 	:og:description: Only use square brackets to access array elements
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No More Curly Arrays.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Curly-Bracketed Arrays Are Not Supported.html
 	:og:locale: en
 Only use square brackets to access array elements. The usage of curly brackets for array access is deprecated since PHP 7.4.
 
@@ -32,6 +32,7 @@ Only use square brackets to access array elements. The usage of curly brackets f
    echo $array[1];
    
    // deprecated in PHP 7.4
+   // removed in PHP 8.3
    echo $array{1};
    
    ?>

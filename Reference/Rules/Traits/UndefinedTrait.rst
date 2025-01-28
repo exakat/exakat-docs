@@ -49,7 +49,7 @@ Trait which are referenced in a `use` expression are omitted: they are considere
 Related PHP errors 
 -------------------
 
-  + `Trait '%s' not found <https://php-errors.readthedocs.io/en/latest/messages/Trait+%27T%27+not+found.html>`_
+  + `Trait '%s' not found <https://php-errors.readthedocs.io/en/latest/messages/trait-%22%25s%22-not-found.html>`_
 
 
 

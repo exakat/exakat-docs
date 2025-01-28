@@ -59,8 +59,8 @@ Total : 100 analysis
 * :ref:`interfaces-is-not-implemented`
 * :ref:`interfaces-don't-ensure-properties`
 * :ref:`non-nullable-getters`
-* :ref:`insufficient-property-typehint`
-* :ref:`exceeding-typehint`
+* :ref:`insufficient-property-type`
+* :ref:`exceeding-type`
 * :ref:`nullable-without-check`
 * :ref:`fossilized-method`
 * :ref:`uninitialized-property`
@@ -70,12 +70,12 @@ Total : 100 analysis
 * :ref:`unused-trait-in-class`
 * :ref:`cyclic-references`
 * :ref:`double-object-assignation`
-* :ref:`mismatch-properties-typehints`
+* :ref:`mismatch-properties-types`
 * :ref:`different-argument-counts`
 * :ref:`could-be-parent-method`
 * :ref:`cancel-common-method`
 * :ref:`modified-typed-parameter`
-* :ref:`useless-typehint`
+* :ref:`useless-type`
 * :ref:`could-be-stringable`
 * :ref:`final-private-methods`
 * :ref:`missing-\_\_isset()-method`

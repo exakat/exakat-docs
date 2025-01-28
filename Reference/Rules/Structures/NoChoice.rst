@@ -37,6 +37,12 @@ Either the condition is useless, and may be removed, or the alternatives need to
    $condition == 2 ?     doSomething() :     doSomething();
    
    ?>
+Connex PHP features
+-------------------
+
+  + `branch <https://php-dictionary.readthedocs.io/en/latest/dictionary/branch.ini.html>`_
+  + `condition <https://php-dictionary.readthedocs.io/en/latest/dictionary/condition.ini.html>`_
+
 
 Suggestions
 ___________

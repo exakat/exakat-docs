@@ -1,30 +1,28 @@
 .. _php-php81intersectiontypehint:
 
-.. _intersection-typehint:
+.. _intersection-type:
 
-Intersection Typehint
-+++++++++++++++++++++
+Intersection Type
++++++++++++++++++
 
 .. meta::
 	:description:
-		Intersection Typehint: Intersection typehints allows the combination of several typehint for the same argument or return value.
+		Intersection Type: Intersection types allows the combination of several types for the same argument or return value.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
-	:twitter:title: Intersection Typehint
-	:twitter:description: Intersection Typehint: Intersection typehints allows the combination of several typehint for the same argument or return value
+	:twitter:title: Intersection Type
+	:twitter:description: Intersection Type: Intersection types allows the combination of several types for the same argument or return value
 	:twitter:creator: @exakat
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Intersection Typehint
+	:og:title: Intersection Type
 	:og:type: article
-	:og:description: Intersection typehints allows the combination of several typehint for the same argument or return value
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Intersection Typehint.html
+	:og:description: Intersection types allows the combination of several types for the same argument or return value
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Intersection Type.html
 	:og:locale: en
-Intersection typehints allows the combination of several typehint for the same argument or return value. 
+Intersection types allows the combination of several types for the same argument or return value. 
 
-Several typehints are specified at the same place as a single one. The different values are separated by a ampersand character ``&``. 
-
-
+Several types are specified at the same place as a single one. The different values are separated by a ampersand character ``&``. 
 
 Intersection types are a PHP 8.1 new feature.
 
@@ -42,7 +40,7 @@ See also `PHP RFC: Pure intersection types <https://wiki.php.net/rfc/pure-inters
 Connex PHP features
 -------------------
 
-  + `typehint <https://php-dictionary.readthedocs.io/en/latest/dictionary/typehint.ini.html>`_
+  + `type <https://php-dictionary.readthedocs.io/en/latest/dictionary/type.ini.html>`_
   + `union-type <https://php-dictionary.readthedocs.io/en/latest/dictionary/union-type.ini.html>`_
 
 

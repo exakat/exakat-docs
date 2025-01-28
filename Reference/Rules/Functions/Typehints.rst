@@ -1,35 +1,33 @@
 .. _functions-typehints:
 
-.. _typehints:
+.. _types:
 
-Typehints
-+++++++++
+Types
++++++
 
 .. meta::
 	:description:
-		Typehints: List of all the types (classes or scalar) used in Typehinting.
+		Types: List of all the types (classes or scalar) used in typing.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
-	:twitter:title: Typehints
-	:twitter:description: Typehints: List of all the types (classes or scalar) used in Typehinting
+	:twitter:title: Types
+	:twitter:description: Types: List of all the types (classes or scalar) used in typing
 	:twitter:creator: @exakat
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Typehints
+	:og:title: Types
 	:og:type: article
-	:og:description: List of all the types (classes or scalar) used in Typehinting
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Typehints.html
+	:og:description: List of all the types (classes or scalar) used in typing
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Types.html
 	:og:locale: en
-List of all the types (classes or scalar) used in Typehinting.
+List of all the types (classes or scalar) used in typing.
 
 .. code-block:: php
    
    <?php
    
    // here, array, myObject and string are all typehints.
-   function foo(array $array, myObject $x, string $string) {
-   
-   }
+   function foo(array $array, myObject $x, string $string) { }
    
    ?>
 
@@ -38,7 +36,7 @@ See also `Type declarations <https://www.php.net/manual/en/functions.arguments.p
 Connex PHP features
 -------------------
 
-  + `typehint <https://php-dictionary.readthedocs.io/en/latest/dictionary/typehint.ini.html>`_
+  + `type <https://php-dictionary.readthedocs.io/en/latest/dictionary/type.ini.html>`_
 
 
 Specs

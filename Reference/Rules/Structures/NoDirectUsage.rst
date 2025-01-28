@@ -39,7 +39,7 @@ For example, `glob() <https://www.php.net/glob>`_ returns an array, unless an `e
 Related PHP errors 
 -------------------
 
-  + `foreach() argument must be of type array|object, false given  <https://php-errors.readthedocs.io/en/latest/messages/foreach%5C%28%5C%29-argument-must-be-of-type-array%5C%7Cobject.html>`_
+  + `foreach() argument must be of type array|object, false given  <https://php-errors.readthedocs.io/en/latest/messages/foreach%28%29-argument-must-be-of-type-array%7Cobject.html>`_
 
 
 

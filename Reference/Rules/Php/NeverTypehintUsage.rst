@@ -1,26 +1,26 @@
 .. _php-nevertypehintusage:
 
-.. _never-typehint-usage:
+.. _never-type-usage:
 
-Never Typehint Usage
-++++++++++++++++++++
+Never Type Usage
+++++++++++++++++
 
 .. meta::
 	:description:
-		Never Typehint Usage: Never is a typehint, which characterize methods that never return a value.
+		Never Type Usage: Never is a type, which characterize methods that never return a value.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
-	:twitter:title: Never Typehint Usage
-	:twitter:description: Never Typehint Usage: Never is a typehint, which characterize methods that never return a value
+	:twitter:title: Never Type Usage
+	:twitter:description: Never Type Usage: Never is a type, which characterize methods that never return a value
 	:twitter:creator: @exakat
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Never Typehint Usage
+	:og:title: Never Type Usage
 	:og:type: article
-	:og:description: Never is a typehint, which characterize methods that never return a value
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Never Typehint Usage.html
+	:og:description: Never is a type, which characterize methods that never return a value
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Never Type Usage.html
 	:og:locale: en
-Never is a typehint, which characterize methods that never return a value. It will either terminate the execution or throw an `exception <https://www.php.net/exception>`_.
+Never is a type, which characterize methods that never return a value. It will either terminate the execution or throw an `exception <https://www.php.net/exception>`_.
 
 .. code-block:: php
    
@@ -38,7 +38,7 @@ See also `The “never” Return Type for PHP <https://betterprogramming.pub/the
 Connex PHP features
 -------------------
 
-  + `typehint <https://php-dictionary.readthedocs.io/en/latest/dictionary/typehint.ini.html>`_
+  + `type <https://php-dictionary.readthedocs.io/en/latest/dictionary/type.ini.html>`_
 
 
 Specs

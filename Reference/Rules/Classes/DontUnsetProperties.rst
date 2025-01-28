@@ -56,7 +56,7 @@ Thanks for `Benoit Burnichon <https://twitter.com/BenoitBurnichon>`_ for the ori
 Related PHP errors 
 -------------------
 
-  + `Undefined property <https://php-errors.readthedocs.io/en/latest/messages/undefined-property-%25s%5C%3A%5C%3A%24%25s.html>`_
+  + `Undefined property <https://php-errors.readthedocs.io/en/latest/messages/undefined-property-%25s%3A%3A%24%25s.html>`_
 
 
 

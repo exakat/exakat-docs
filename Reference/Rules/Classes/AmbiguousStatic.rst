@@ -49,6 +49,14 @@ Connex PHP features
   + `static <https://php-dictionary.readthedocs.io/en/latest/dictionary/static.ini.html>`_
 
 
+Suggestions
+___________
+
+* Use distinctive names in the code.
+
+
+
+
 Specs
 _____
 

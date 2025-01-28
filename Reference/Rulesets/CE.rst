@@ -20,7 +20,7 @@ CE
 	:og:locale: en
 This ruleset is the Community Edition list. It holds all the analysis that are in the community edition version of Exakat.
 
-Total : 624 analysis
+Total : 623 analysis
 
 * :ref:`adding-zero`
 * :ref:`array-index`
@@ -108,7 +108,7 @@ Total : 624 analysis
 * :ref:`functions-glossary`
 * :ref:`recursive-functions`
 * :ref:`redeclared-php-functions`
-* :ref:`typehints`
+* :ref:`types`
 * :ref:`interfaces-names`
 * :ref:`aliases`
 * :ref:`namespaces-glossary`
@@ -287,8 +287,8 @@ Total : 624 analysis
 * :ref:`multiple-class-declarations`
 * :ref:`empty-namespace`
 * :ref:`could-use-short-assignation`
-* :ref:`scalar-typehint-usage`
-* :ref:`return-typehint-usage`
+* :ref:`scalar-type-usage`
+* :ref:`return-type-usage`
 * :ref:`ext-ob`
 * :ref:`pre-increment`
 * :ref:`ext-geoip`
@@ -539,7 +539,7 @@ Total : 624 analysis
 * :ref:`scalar-are-not-arrays`
 * :ref:`create-compact-variables`
 * :ref:`php-7.4-reserved-keyword`
-* :ref:`no-more-curly-arrays`
+* :ref:`curly-bracketed-arrays-are-not-supported`
 * :ref:`overwritten-properties`
 * :ref:`overwritten-constant`
 * :ref:`create-magic-property`
@@ -597,7 +597,7 @@ Total : 624 analysis
 * :ref:`php-8.0-variable-syntax-tweaks`
 * :ref:`new-functions-in-php-8.0`
 * :ref:`php-8.0-only-typehints`
-* :ref:`union-typehint`
+* :ref:`union-type`
 * :ref:`wrong-typed-property-default`
 * :ref:`signature-trailing-comma`
 * :ref:`throw-was-an-expression`
@@ -606,7 +606,7 @@ Total : 624 analysis
 * :ref:`collect-class-constant-counts`
 * :ref:`could-be-string`
 * :ref:`could-be-boolean`
-* :ref:`could-be-array-typehint`
+* :ref:`could-be-array-type`
 * :ref:`could-be-cit`
 * :ref:`protocol-lists`
 * :ref:`type-could-be-integer`
@@ -641,7 +641,6 @@ Total : 624 analysis
 * :ref:`php-8.0-removed-directives`
 * :ref:`unsupported-types-with-operators`
 * :ref:`negative-start-index-in-array`
-* :ref:`nullable-with-constant`
 * :ref:`php-8.0-resources-turned-into-objects`
 * :ref:`php-80-named-parameter-variadic`
 * :ref:`final-private-methods`

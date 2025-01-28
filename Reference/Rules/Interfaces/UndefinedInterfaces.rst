@@ -46,7 +46,7 @@ See also `Object interfaces <https://www.php.net/manual/en/language.oop5.interfa
 Related PHP errors 
 -------------------
 
-  + `Argument #1 ($a) must be of type T <https://php-errors.readthedocs.io/en/latest/messages/argument-%23%25d-%5C%28%24%25s%5C%29-must-be-of-type-%25s%5C%2C-%25s-given.html>`_
+  + `Argument #1 ($a) must be of type T <https://php-errors.readthedocs.io/en/latest/messages/argument-%23%25d-%28%24%25s%29-must-be-of-type-%25s%2C-%25s-given.html>`_
 
 
 

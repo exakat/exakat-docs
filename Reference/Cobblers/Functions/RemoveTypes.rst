@@ -78,14 +78,14 @@ __________
 Suggested Analysis
 __________________
 
-* :ref:`php-8.1-typehints`
+* :ref:`php-8.1-types`
 
 .. _remove-type-reverse-cobbler:
 
 Reverse Cobbler
 _______________
 
-* :ref:`set-typehints`
+* :ref:`set-types`
 
 
 

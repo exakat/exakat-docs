@@ -22,8 +22,6 @@ Or Die
 	:og:locale: en
 Classic old style failed `error <https://www.php.net/error>`_ management. 
 
-
-
 Interrupting a script will leave the application with a blank page, will make your life miserable for testing. Just don't do that.
 
 .. code-block:: php
@@ -36,6 +34,12 @@ Interrupting a script will leave the application with a blank page, will make yo
    ?>
 
 See also `pg_last_error <https://www.php.net/manual/en/function.pg-last-error.php>`_ and `PDO::exec <https://www.php.net/manual/en/pdo.exec.php>`_.
+
+Connex PHP features
+-------------------
+
+  + `die <https://php-dictionary.readthedocs.io/en/latest/dictionary/die.ini.html>`_
+  + `exit <https://php-dictionary.readthedocs.io/en/latest/dictionary/exit.ini.html>`_
 
 
 Suggestions

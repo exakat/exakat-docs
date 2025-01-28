@@ -37,7 +37,7 @@ Total : 55 analysis
 * :ref:`unbinding-closures`
 * :ref:`scalar-are-not-arrays`
 * :ref:`php-7.4-reserved-keyword`
-* :ref:`no-more-curly-arrays`
+* :ref:`curly-bracketed-arrays-are-not-supported`
 * :ref:`php-7.4-constant-deprecation`
 * :ref:`php-7.4-removed-directives`
 * :ref:`hash-algorithms-incompatible-with-php-7.4-`
@@ -47,7 +47,7 @@ Total : 55 analysis
 * :ref:`php-8.0-variable-syntax-tweaks`
 * :ref:`new-functions-in-php-8.0`
 * :ref:`php-8.0-only-typehints`
-* :ref:`union-typehint`
+* :ref:`union-type`
 * :ref:`signature-trailing-comma`
 * :ref:`throw-was-an-expression`
 * :ref:`uses-php-8-match()`
@@ -55,13 +55,13 @@ Total : 55 analysis
 * :ref:`enum-usage`
 * :ref:`$files-full\_path`
 * :ref:`final-constant`
-* :ref:`never-typehint-usage`
-* :ref:`php-8.1-typehints`
-* :ref:`php-8.0-typehints`
+* :ref:`never-type-usage`
+* :ref:`php-8.1-types`
+* :ref:`php-8.0-types`
 * :ref:`named-parameter-usage`
 * :ref:`nested-attributes`
 * :ref:`new-initializers`
-* :ref:`cant-overload-constants`
+* :ref:`can't-overload-constants`
 * :ref:`no-private-abstract-method-in-trait`
 * :ref:`clone-constant`
 * :ref:`no-keyword-in-namespace`

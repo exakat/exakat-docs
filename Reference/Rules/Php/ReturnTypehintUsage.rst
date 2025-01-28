@@ -1,26 +1,26 @@
 .. _php-returntypehintusage:
 
-.. _return-typehint-usage:
+.. _return-type-usage:
 
-Return Typehint Usage
-+++++++++++++++++++++
+Return Type Usage
++++++++++++++++++
 
 .. meta::
 	:description:
-		Return Typehint Usage: Spot usage of return typehint.
+		Return Type Usage: Spot usage of return types.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
-	:twitter:title: Return Typehint Usage
-	:twitter:description: Return Typehint Usage: Spot usage of return typehint
+	:twitter:title: Return Type Usage
+	:twitter:description: Return Type Usage: Spot usage of return types
 	:twitter:creator: @exakat
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Return Typehint Usage
+	:og:title: Return Type Usage
 	:og:type: article
-	:og:description: Spot usage of return typehint
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Return Typehint Usage.html
+	:og:description: Spot usage of return types
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Return Type Usage.html
 	:og:locale: en
-Spot usage of return typehint. It is a PHP 7.0 feature.
+Spot usage of return types. It is a PHP 7.0 feature.
 
 Return typehint were introduced in PHP 7.0, and are backward incompatible with PHP 5.x.
 

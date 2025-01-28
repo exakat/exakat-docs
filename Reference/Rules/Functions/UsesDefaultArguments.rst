@@ -29,7 +29,7 @@ This analyzer tend to report a lot of false positives, including usage of `count
    
    <?php
    
-   $string = Eu não sou o pão;
+   $string = "Eu não sou o pão";
    
    echo htmlentities($string);
    
@@ -40,6 +40,11 @@ This analyzer tend to report a lot of false positives, including usage of `count
    echo htmlentities($string, 'UTF8');
    
    ?>
+Connex PHP features
+-------------------
+
+  + `default-value <https://php-dictionary.readthedocs.io/en/latest/dictionary/default-value.ini.html>`_
+
 
 Suggestions
 ___________

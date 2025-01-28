@@ -23,10 +23,11 @@ Implied If
 It is confusing to emulate if/then with boolean operators.
 
 It is possible to emulate a if/then structure by using the operators 'and' and 'or'. Since optimizations will be applied to them : 
-when the left operand of 'and' is false, the right one is not executed, as its `result <https://www.php.net/result>`_ is useless; 
-when the left operand of 'or' is true, the right one is not executed, as its `result <https://www.php.net/result>`_ is useless; 
++ when the left operand of 'and' is false, the right one is not executed, as its `result <https://www.php.net/result>`_ is useless; 
++ when the left operand of 'or' is true, the right one is not executed, as its `result <https://www.php.net/result>`_ is useless; 
 
 However, such structures are confusing. It is easy to misread them as conditions, and ignore an important logic step. 
+
 It is recommended to use a real 'if then' structures, to make the condition readable.
 
 .. code-block:: php
@@ -44,6 +45,11 @@ It is recommended to use a real 'if then' structures, to make the condition read
    $user = $_GET['user'] || 'anonymous';
    
    ?>
+Connex PHP features
+-------------------
+
+  + `if-then <https://php-dictionary.readthedocs.io/en/latest/dictionary/if-then.ini.html>`_
+
 
 Suggestions
 ___________

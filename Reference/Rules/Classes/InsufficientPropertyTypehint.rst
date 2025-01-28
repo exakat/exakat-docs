@@ -1,29 +1,30 @@
 .. _classes-insufficientpropertytypehint:
 
-.. _insufficient-property-typehint:
+.. _insufficient-property-type:
 
-Insufficient Property Typehint
-++++++++++++++++++++++++++++++
+Insufficient Property Type
+++++++++++++++++++++++++++
 
 .. meta::
 	:description:
-		Insufficient Property Typehint: The typehint used for a class property doesn't cover all it usage.
+		Insufficient Property Type: The type used for a class property doesn't cover all it usage.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
-	:twitter:title: Insufficient Property Typehint
-	:twitter:description: Insufficient Property Typehint: The typehint used for a class property doesn't cover all it usage
+	:twitter:title: Insufficient Property Type
+	:twitter:description: Insufficient Property Type: The type used for a class property doesn't cover all it usage
 	:twitter:creator: @exakat
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Insufficient Property Typehint
+	:og:title: Insufficient Property Type
 	:og:type: article
-	:og:description: The typehint used for a class property doesn't cover all it usage
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Insufficient Property Typehint.html
+	:og:description: The type used for a class property doesn't cover all it usage
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Insufficient Property Type.html
 	:og:locale: en
-The typehint used for a class property doesn't cover all it usage.
+The type used for a class property doesn't cover all it usage.
 
-The typehint is insufficient when a undefined method or constant is called, or if members are accessed while the typehint is an interface.
-This analysis relies on typehinted properties, as introduced in PHP 7.4. It also relies on typehinted assignations at construct time : the typehint of the assigned argument will be used as the property typehint. Getters and setters are not considered here.
+The type is insufficient when a undefined method or constant is called, or if members are accessed while the type is an interface.
+
+This analysis relies on typed properties, as introduced in PHP 7.4. It also relies on typed assignations at construct time : the type of the assigned argument will be used as the property type. Getters and setters are not considered here.
 
 .. code-block:: php
    
@@ -65,13 +66,13 @@ This analysis relies on typehinted properties, as introduced in PHP 7.4. It also
 Connex PHP features
 -------------------
 
-  + `typehint <https://php-dictionary.readthedocs.io/en/latest/dictionary/typehint.ini.html>`_
+  + `type <https://php-dictionary.readthedocs.io/en/latest/dictionary/type.ini.html>`_
 
 
 Suggestions
 ___________
 
-* Change the typehint to match the actual usage of the object in the class. 
+* Change the type to match the actual usage of the object in the class. 
 
 
 

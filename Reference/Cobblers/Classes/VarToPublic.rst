@@ -67,7 +67,7 @@ __________
 Related Cobblers
 ________________
 
-* :ref:`set-typehints`
+* :ref:`set-types`
 
 
 

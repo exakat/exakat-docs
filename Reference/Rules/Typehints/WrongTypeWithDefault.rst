@@ -46,7 +46,7 @@ See also `When does PHP check for Fatal error <https://www.exakat.io/en/when-doe
 Related PHP errors 
 -------------------
 
-  + `Cannot assign %s to property %s::$%s of type %s <https://php-errors.readthedocs.io/en/latest/messages/cannot-assign-%25s-to-property-%25s%5C%3A%5C%3A%24%25s-of-type-%25s.html>`_
+  + `Cannot assign %s to property %s::$%s of type %s <https://php-errors.readthedocs.io/en/latest/messages/cannot-assign-%25s-to-property-%25s%3A%3A%24%25s-of-type-%25s.html>`_
 
 
 

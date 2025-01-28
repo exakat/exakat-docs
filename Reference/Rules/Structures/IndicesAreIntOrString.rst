@@ -22,11 +22,9 @@ Indices Are Int Or String
 	:og:locale: en
 Indices in an array notation such as ``$array['indice']`` may only be integers or string.
 
-Boolean, Null or float will be converted to their integer or string equivalent.
+Boolean, Null or float are converted to their integer or string equivalent.
 
-
-
-Decimal numbers are rounded to the closest integer; Null is transtyped to '' (empty string); true is 1 and false is 0; Integers in strings are transtyped, while partial numbers or decimals are not analyzed in strings. 
+Decimal numbers are rounded to the closest integer; ``null`` is transtyped to ``''`` (empty string); true is 1 and false is 0; Integers in strings are transtyped, while partial numbers or decimals are not analyzed in strings. 
 
 As a general rule of thumb, only use integers or strings that don\'t look like integers. 
 

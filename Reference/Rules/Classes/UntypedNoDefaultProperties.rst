@@ -46,7 +46,7 @@ This means that these properties will be assigned later, and are now running the
 Related PHP errors 
 -------------------
 
-  + `Typed property %s::$%s must not be accessed before initialization <https://php-errors.readthedocs.io/en/latest/messages/typed-property-%25s%5C%3A%5C%3A%24%25s-must-not-be-accessed-before-initialization.html>`_
+  + `Typed property %s::$%s must not be accessed before initialization <https://php-errors.readthedocs.io/en/latest/messages/typed-property-%25s%3A%3A%24%25s-must-not-be-accessed-before-initialization.html>`_
 
 
 

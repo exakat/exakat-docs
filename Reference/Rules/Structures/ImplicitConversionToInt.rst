@@ -36,9 +36,7 @@ The conversion happens in various situations in PHP lifecycle (extracted from th
 + Bitwise NOT operator ~
 + As an array key
 
-
-
-This features is applied to PHP 8.1 and later, yet it is also applicable to older versions of PHP.
+This feature is applied to PHP 8.1 and later, yet it is also applicable to older versions of PHP.
 
 .. code-block:: php
    
@@ -56,7 +54,7 @@ See also `PHP RFC: Deprecate implicit non-integer-compatible float to int conver
 Related PHP errors 
 -------------------
 
-  + `Implicit conversion from float 1.2 to int loses precision <https://php-errors.readthedocs.io/en/latest/messages/Implicit+conversion+from+float+1.2+to+int+loses+precision.html>`_
+  + `Implicit conversion from float 1.2 to int loses precision <https://php-errors.readthedocs.io/en/latest/messages/implicit-conversion-from-float-string-%22%25s%22-to-int-loses.html>`_
 
 
 

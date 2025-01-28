@@ -24,8 +24,6 @@ The PCRE regex doesn't compile. It isn't a valid regex.
 
 Several reasons may lead to this situation : syntax `error <https://www.php.net/error>`_, Unknown modifier, missing parenthesis or reference.
 
-
-
 Regex are check with the Exakat version of PHP. 
 
 Dynamic regex are only checked for simple values. Dynamic values may eventually generate a compilation `error <https://www.php.net/error>`_.
@@ -41,6 +39,11 @@ Dynamic regex are only checked for simple values. Dynamic values may eventually 
    preg_match('/[abc/', $string);
    
    ?>
+Connex PHP features
+-------------------
+
+  + `regex <https://php-dictionary.readthedocs.io/en/latest/dictionary/regex.ini.html>`_
+
 
 Suggestions
 ___________

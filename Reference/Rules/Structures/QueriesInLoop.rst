@@ -46,7 +46,6 @@ This analysis looks for query calls inside loops, and within one functioncall.
        var_dump($row);
    }
    
-   
    // Typical N = 1 problem : there will be as many queries as there are elements in $array
    $ids = array(1,2,3,5,6,10);
    

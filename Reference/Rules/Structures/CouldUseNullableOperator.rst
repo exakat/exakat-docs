@@ -35,14 +35,12 @@ Another approach is to use the null-safe operator when the intermediate methods 
    $a = foo()?->b() ?? throw new exception('something went wrong when calculating $a');
       // throw as an expression is a PHP 8.0 code
    
-   
    // direct usage, may yield a Fatal error
    foo()->b();
    
    // indirect usage, with a check on the returned value
    $a = foo();
    $c = $a ? $a->b() : null;
-   
    
    function foo() : ?A {
        return rand(0, 1) ? new A() : null;
@@ -59,7 +57,7 @@ See also `PHP 8.0 feature focus: nullsafe methods <https://platform.sh/blog/2020
 Related PHP errors 
 -------------------
 
-  + `Call to a member function %s() on %s <https://php-errors.readthedocs.io/en/latest/messages/call-to-a-member-function-%25s%5C%28%5C%29-on-%25s.html>`_
+  + `Call to a member function %s() on %s <https://php-errors.readthedocs.io/en/latest/messages/call-to-a-member-function-%25s%28%29-on-%25s.html>`_
   + `Attempt to read property "%s" on %s <https://php-errors.readthedocs.io/en/latest/messages/attempt-to-read-property-%22%25s%22-on-%25s.html>`_
 
 

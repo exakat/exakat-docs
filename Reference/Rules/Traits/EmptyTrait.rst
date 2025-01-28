@@ -7,24 +7,22 @@ Empty Traits
 
 .. meta::
 	:description:
-		Empty Traits: List of all empty trait defined in the code.
+		Empty Traits: List of all empty traits, defined in the code.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: Empty Traits
-	:twitter:description: Empty Traits: List of all empty trait defined in the code
+	:twitter:description: Empty Traits: List of all empty traits, defined in the code
 	:twitter:creator: @exakat
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
 	:og:title: Empty Traits
 	:og:type: article
-	:og:description: List of all empty trait defined in the code
+	:og:description: List of all empty traits, defined in the code
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Empty Traits.html
 	:og:locale: en
-List of all empty trait defined in the code. 
+List of all empty traits, defined in the code. 
 
-
-
-Such traits may be reserved for future use. They may also be forgotten, and dead code.
+Empty traits, unlike empty classes or interface, do not provide any useful feature, so they might as well be removed.
 
 .. code-block:: php
    

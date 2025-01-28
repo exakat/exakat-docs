@@ -44,7 +44,7 @@ See also `Why, php? WHY??? <https://gist.github.com/everzet/4215537>`_.
 Related PHP errors 
 -------------------
 
-  + `The parent constructor was not called: the object is in an invalid state <https://php-errors.readthedocs.io/en/latest/messages/the-parent-constructor-was-not-called%5C%3A-the-object-is-in-an-invalid-state.html>`_
+  + `The parent constructor was not called: the object is in an invalid state <https://php-errors.readthedocs.io/en/latest/messages/the-parent-constructor-was-not-called%3A-the-object-is-in-an-invalid-state.html>`_
 
 
 

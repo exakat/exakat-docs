@@ -22,7 +22,7 @@ Break With Non Integer
 	:og:locale: en
 When using a `break <https://www.php.net/manual/en/control-structures.break.php>`_, the argument of the operator must be a positive non-null integer literal or be omitted.
 
-Other values were acceptable in PHP 5.3 and previous version, but this is now reported as an `error <https://www.php.net/error>`_.
+Other values were acceptable in PHP 5.3 and previous version, but they are now reported as an `error <https://www.php.net/error>`_.
 
 .. code-block:: php
    
@@ -41,6 +41,13 @@ Other values were acceptable in PHP 5.3 and previous version, but this is now re
        }
    
    ?>
+Related PHP errors 
+-------------------
+
+  + `break operator accepts only positive integers <https://php-errors.readthedocs.io/en/latest/messages/break-operator-accepts-only-positive-integers.html>`_
+
+
+
 
 Suggestions
 ___________

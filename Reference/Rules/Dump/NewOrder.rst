@@ -26,7 +26,7 @@ Order in which new calls must be called. When a class uses another class type in
    
    <?php
    
-   class x {}
+   class X {}
    
    // class Y has precedence over class X, as it needs to be called first to get to X
    class y {
@@ -34,7 +34,6 @@ Order in which new calls must be called. When a class uses another class type in
            return new x();
        }
    }
-   
    
    ?>
 Connex PHP features

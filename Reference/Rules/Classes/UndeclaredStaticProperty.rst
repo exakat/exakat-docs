@@ -56,7 +56,7 @@ Related PHP errors
 -------------------
 
   + `Accessing static property %s::$%s as non static <https://php-errors.readthedocs.io/en/latest/messages/accessing-static-property-%25s%3A%3A%24%25s-as-non-static.html>`_
-  + `Access to undeclared static property %s::$%s <https://php-errors.readthedocs.io/en/latest/messages/access-to-undeclared-static-property-%25s%5C%3A%5C%3A%24%25s.html>`_
+  + `Access to undeclared static property %s::$%s <https://php-errors.readthedocs.io/en/latest/messages/access-to-undeclared-static-property-%25s%3A%3A%24%25s.html>`_
 
 
 

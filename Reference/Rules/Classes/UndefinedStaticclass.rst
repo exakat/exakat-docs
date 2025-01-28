@@ -44,7 +44,7 @@ Related PHP errors
 -------------------
 
   + `Class '%s' not found <https://php-errors.readthedocs.io/en/latest/messages/class-%22%25s%22-not-found.html>`_
-  + `Interface '%s' not found <https://php-errors.readthedocs.io/en/latest/messages/interface-%22%25s%22-not-found.html>`_
+  + `Interface "%s" not found <https://php-errors.readthedocs.io/en/latest/messages/interface-%22%25s%22-not-found.html>`_
   + `Trait '%s' not found <https://php-errors.readthedocs.io/en/latest/messages/trait-%22%25s%22-not-found.html>`_
   + `Enum '%s' not found <https://php-errors.readthedocs.io/en/latest/messages/enum-%22%25s%22-not-found.html>`_
 

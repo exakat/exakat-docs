@@ -40,6 +40,11 @@ Ternary operator applies a condition, and yield two different results. Those res
    $result = empty($condition) ? $a : getDefaultValue();
    
    ?>
+Connex PHP features
+-------------------
+
+  + `ternary <https://php-dictionary.readthedocs.io/en/latest/dictionary/ternary.ini.html>`_
+
 
 Suggestions
 ___________

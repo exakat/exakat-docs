@@ -1,26 +1,26 @@
 .. _functions-couldbecallable:
 
-.. _could-be-typehinted-callable:
+.. _could-be-typed-callable:
 
-Could Be Typehinted Callable
-++++++++++++++++++++++++++++
+Could Be Typed Callable
++++++++++++++++++++++++
 
 .. meta::
 	:description:
-		Could Be Typehinted Callable: Those arguments may use the callable Typehint.
+		Could Be Typed Callable: Those arguments may use the callable type.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
-	:twitter:title: Could Be Typehinted Callable
-	:twitter:description: Could Be Typehinted Callable: Those arguments may use the callable Typehint
+	:twitter:title: Could Be Typed Callable
+	:twitter:description: Could Be Typed Callable: Those arguments may use the callable type
 	:twitter:creator: @exakat
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Could Be Typehinted Callable
+	:og:title: Could Be Typed Callable
 	:og:type: article
-	:og:description: Those arguments may use the callable Typehint
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Could Be Typehinted Callable.html
+	:og:description: Those arguments may use the callable type
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Could Be Typed Callable.html
 	:og:locale: en
-Those arguments may use the callable Typehint. 
+Those arguments may use the callable type. 
 
 'callable' is a PHP keyword that represents callback functions. Those may be used in dynamic function call, like $function(); or as callback functions, like with `array_map() <https://www.php.net/array_map>`_;
 
@@ -55,7 +55,7 @@ Connex PHP features
 Suggestions
 ___________
 
-* Add the typehint callable
+* Add the type callable
 * Use the function is_callable() inside the method if 'callable' is too strong.
 
 

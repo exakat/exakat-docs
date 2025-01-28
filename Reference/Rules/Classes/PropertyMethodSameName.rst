@@ -25,6 +25,7 @@ A property and a method have the same name. While it is a valid naming scheme wi
 Such naming collision may appear with words that are the same as a verb (for method) and as a noun (for property). For example, in English : query, work, debug, run, process, rain, polish, paint, etc,. 
 
 It may also happen during the life cycle of the class, as it is extended with new methods and properties, and little care is give to semantic meaning of the names, beyond the task at hand. 
+
 It is recommended to avoid those collisions, and keep properties and methods named distinctly. 
 
 That problem do not happen to constants, which are mostly written uppercase. This rule is case-insensitive.
@@ -44,6 +45,11 @@ That problem do not happen to constants, which are mostly written uppercase. Thi
    ?>
 
 See also `Words That Are Both Nouns And Verbs <https://www.enchantedlearning.com/wordlist/nounandverb.shtml>`_.
+
+Connex PHP features
+-------------------
+
+  + `name <https://php-dictionary.readthedocs.io/en/latest/dictionary/name.ini.html>`_
 
 
 Suggestions

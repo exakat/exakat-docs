@@ -7,20 +7,25 @@ Compared But Not Assigned Strings
 
 .. meta::
 	:description:
-		Compared But Not Assigned Strings: Those strings are compared to variables in the code, but those values are never assigned.
+		Compared But Not Assigned Strings: The reported strings are compared to variable, or data containers, in the code, but those values are never assigned.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: Compared But Not Assigned Strings
-	:twitter:description: Compared But Not Assigned Strings: Those strings are compared to variables in the code, but those values are never assigned
+	:twitter:description: Compared But Not Assigned Strings: The reported strings are compared to variable, or data containers, in the code, but those values are never assigned
 	:twitter:creator: @exakat
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
 	:og:title: Compared But Not Assigned Strings
 	:og:type: article
-	:og:description: Those strings are compared to variables in the code, but those values are never assigned
+	:og:description: The reported strings are compared to variable, or data containers, in the code, but those values are never assigned
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Compared But Not Assigned Strings.html
 	:og:locale: en
-Those strings are compared to variables in the code, but those values are never assigned.
+The reported strings are compared to variable, or data containers, in the code, but those values are never assigned.
+
+It is not possible for the comparison to succeed when no assignation of the value was performed. At least, one variable should be assigned with the value, to be later compared.
+
+It may happen that the value is assigned from an external source, such as a file or a database, and the code does not assign the value explicitly. 
+
 
 .. code-block:: php
    
@@ -31,11 +36,15 @@ Those strings are compared to variables in the code, but those values are never 
    
    // some compared strings in the code
    // Depending on the origin of $b, is this possible? 
-   if ($b === 'c') {
-   
-   }
+   if ($b === 'c') { }
    
    ?>
+Connex PHP features
+-------------------
+
+  + `comparison <https://php-dictionary.readthedocs.io/en/latest/dictionary/comparison.ini.html>`_
+  + `assignation <https://php-dictionary.readthedocs.io/en/latest/dictionary/assignation.ini.html>`_
+
 
 Specs
 _____

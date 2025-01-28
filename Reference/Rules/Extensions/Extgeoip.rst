@@ -24,6 +24,10 @@ Extension geoip for PHP.
 
 The GeoIP extension allows the localisation of an IP address.
 
+City, State, Country, Longitude, Latitude, and other information as all, such as ISP and `connection <https://www.php.net/connection>`_ type can be obtained with the help of GeoIP. 
+
+This extension does not support MaxMind's current "GeoIP2" databases, only the "GeoIP legacy" database files.
+
 .. code-block:: php
    
    <?php

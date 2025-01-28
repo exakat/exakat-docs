@@ -48,7 +48,7 @@ See also `Properties <https://www.php.net/manual/en/language.oop5.properties.php
 Related PHP errors 
 -------------------
 
-  + `Undefined property: x::$e <https://php-errors.readthedocs.io/en/latest/messages/undefined-property-%25s%5C%3A%5C%3A%24%25s.html>`_
+  + `Undefined property: %s::$%s <https://php-errors.readthedocs.io/en/latest/messages/undefined-property-%25s%3A%3A%24%25s.html>`_
   + `Property %s::$%s does not exist <https://php-errors.readthedocs.io/en/latest/messages/property-%25s-does-not-exist.html>`_
 
 

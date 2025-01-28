@@ -30,7 +30,7 @@ There is a dedicated compile-time `error <https://www.php.net/error>`_.
    
    <?php
    
-   class x {
+   class X {
    	// override in that trait are useless
    	use t;
    	
@@ -39,18 +39,17 @@ There is a dedicated compile-time `error <https://www.php.net/error>`_.
    	function foo() {}
    }
    
-   trait t {
+   trait T {
    	// This is useless if loaded in a root class
    	#[Override]
    	function foo() {}
    }
    
-   enum e {
+   enum E {
    	// This is useless in any case
    	#[Override]
    	function foo() {}
    }
-   
    
    ?>
 Connex PHP features

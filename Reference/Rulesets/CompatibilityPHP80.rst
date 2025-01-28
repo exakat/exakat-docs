@@ -20,7 +20,7 @@ CompatibilityPHP80
 	:og:locale: en
 This ruleset centralizes all analysis for the migration from PHP 7.4 to 8.0.
 
-Total : 46 analysis
+Total : 45 analysis
 
 * :ref:`old-style-constructor`
 * :ref:`wrong-optional-parameter`
@@ -34,7 +34,6 @@ Total : 46 analysis
 * :ref:`php-8.0-removed-directives`
 * :ref:`unsupported-types-with-operators`
 * :ref:`negative-start-index-in-array`
-* :ref:`nullable-with-constant`
 * :ref:`php-8.0-resources-turned-into-objects`
 * :ref:`php-80-named-parameter-variadic`
 * :ref:`final-private-methods`
@@ -43,16 +42,16 @@ Total : 46 analysis
 * :ref:`avoid-get\_object\_vars()`
 * :ref:`enum-usage`
 * :ref:`final-constant`
-* :ref:`never-typehint-usage`
-* :ref:`php-8.1-typehints`
+* :ref:`never-type-usage`
+* :ref:`php-8.1-types`
 * :ref:`the-mixed-keyword`
 * :ref:`nested-attributes`
 * :ref:`new-initializers`
-* :ref:`cant-overload-constants`
+* :ref:`can't-overload-constants`
 * :ref:`string-int-comparison`
 * :ref:`php-8.1-resources-turned-into-objects`
 * :ref:`clone-constant`
-* :ref:`named-argument-and-variadic`
+* :ref:`named-arguments-and-variadic`
 * :ref:`multiple-type-cases-in-switch`
 * :ref:`no-max-on-empty-array`
 * :ref:`constants-in-traits`

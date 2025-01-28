@@ -7,30 +7,34 @@ Resources Usage
 
 .. meta::
 	:description:
-		Resources Usage: List of situations that are creating resources.
+		Resources Usage: List of instructions that are creating resources.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: Resources Usage
-	:twitter:description: Resources Usage: List of situations that are creating resources
+	:twitter:description: Resources Usage: List of instructions that are creating resources
 	:twitter:creator: @exakat
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
 	:og:title: Resources Usage
 	:og:type: article
-	:og:description: List of situations that are creating resources
+	:og:description: List of instructions that are creating resources
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Resources Usage.html
 	:og:locale: en
-List of situations that are creating resources.
+List of instructions that are creating resources. Resources are a ancient PHP datastructure, which is gradually being deprecated. Resources were often created by PHP extensions, as the first step of their usage. They are now converted into objects.
+
+For example, ``fopen()`` produces a ``resource``. ``finfo_open`` used to return a ``resource`` until PHP 8.1, and now, returns an object.
 
 .. code-block:: php
    
    <?php
-       // This functioncall creates a resource to use
-       $fp = fopen('/tmp/file.txt', 'r');
-       
-       if (!is_resource($fp)){
-           thrown new RuntimeException('Could not open file.txt');
-       }
+   
+   // This functioncall creates a resource to use
+   $fp = fopen('/tmp/file.txt', 'r');
+   
+   if (!is_resource($fp)){
+       thrown new RuntimeException('Could not open file.txt');
+   }
+   
    ?>
 Connex PHP features
 -------------------

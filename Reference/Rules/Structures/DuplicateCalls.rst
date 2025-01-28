@@ -43,7 +43,7 @@ See also `Userland naming Guide <https://www.php.net/manual/en/userlandnaming.ph
 Connex PHP features
 -------------------
 
-  + `calls <https://php-dictionary.readthedocs.io/en/latest/dictionary/calls.ini.html>`_
+  + `call <https://php-dictionary.readthedocs.io/en/latest/dictionary/call.ini.html>`_
   + `micro-optimisation <https://php-dictionary.readthedocs.io/en/latest/dictionary/micro-optimisation.ini.html>`_
 
 

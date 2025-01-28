@@ -1,26 +1,26 @@
 .. _php-versioncompareoperator:
 
-.. _version\_compare-operator:
+.. _version\_compare()-operator:
 
-version_compare Operator
-++++++++++++++++++++++++
+version_compare() Operator
+++++++++++++++++++++++++++
 
 .. meta::
 	:description:
-		version_compare Operator: version_compare()'s third argument is checked for value.
+		version_compare() Operator: version_compare()'s third argument is checked for its value.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
-	:twitter:title: version_compare Operator
-	:twitter:description: version_compare Operator: version_compare()'s third argument is checked for value
+	:twitter:title: version_compare() Operator
+	:twitter:description: version_compare() Operator: version_compare()'s third argument is checked for its value
 	:twitter:creator: @exakat
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: version_compare Operator
+	:og:title: version_compare() Operator
 	:og:type: article
-	:og:description: version_compare()'s third argument is checked for value
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/version_compare Operator.html
+	:og:description: version_compare()'s third argument is checked for its value
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/version_compare() Operator.html
 	:og:locale: en
-`version_compare() <https://www.php.net/version_compare>`_'s third argument is checked for value. The third argument specifies the operator, which may be only one of the following : `<`, `lt`, `<=`, `le`, `>`, `gt`, `>=`, `ge`, `==`, `=`, `eq`, `!=`, `<>`, `ne`. The operator is case sensitive.
+`version_compare() <https://www.php.net/version_compare>`_'s third argument is checked for its value. The third argument specifies the operator, which may be only one of the following : `<`, `lt`, `<=`, `le`, `>`, `gt`, `>=`, `ge`, `==`, `=`, `eq`, `!=`, `<>`, `ne`. The operator is case sensitive.
 
 Until PHP 8.1, it was silently reverted to the default value. It is a deprecated warning in PHP 8.1 and will be finalized in PHP 9.0. It is recommended to fix this parameter in any PHP version.
 
@@ -44,6 +44,11 @@ Related PHP errors
   + `version_compare(): Argument #3 ($operator) must be a valid comparison operator <https://php-errors.readthedocs.io/en/latest/messages/must-be-a-valid-comparison-operator.html>`_
 
 
+
+Connex PHP features
+-------------------
+
+  + `validation <https://php-dictionary.readthedocs.io/en/latest/dictionary/validation.ini.html>`_
 
 
 Suggestions

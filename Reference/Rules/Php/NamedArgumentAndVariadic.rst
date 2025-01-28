@@ -1,38 +1,42 @@
 .. _php-namedargumentandvariadic:
 
-.. _named-argument-and-variadic:
+.. _named-arguments-and-variadic:
 
-Named Argument And Variadic
-+++++++++++++++++++++++++++
+Named Arguments And Variadic
+++++++++++++++++++++++++++++
 
 .. meta::
 	:description:
-		Named Argument And Variadic: Variadic argument must be the last in the list of arguments.
+		Named Arguments And Variadic: Variadic arguments must be the lasts in the list of arguments.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
-	:twitter:title: Named Argument And Variadic
-	:twitter:description: Named Argument And Variadic: Variadic argument must be the last in the list of arguments
+	:twitter:title: Named Arguments And Variadic
+	:twitter:description: Named Arguments And Variadic: Variadic arguments must be the lasts in the list of arguments
 	:twitter:creator: @exakat
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Named Argument And Variadic
+	:og:title: Named Arguments And Variadic
 	:og:type: article
-	:og:description: Variadic argument must be the last in the list of arguments
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Named Argument And Variadic.html
+	:og:description: Variadic arguments must be the lasts in the list of arguments
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Named Arguments And Variadic.html
 	:og:locale: en
-Variadic argument must be the last in the list of arguments. Since PHP 8.1, it is possible to use named arguments after a variadic argument.
+Variadic arguments must be the lasts in the list of arguments. Since PHP 8.1, it is possible to use named arguments after a variadic argument.
 
 .. code-block:: php
    
    <?php
+      function foo($a, $b) {}
+   
+      $args = ['b' => 2];
+   
      // named arguments may be after the variadic
-     foo(...$a, a: 1);
+     foo(...$args, a: 1);
      
-     // positional arguments MUST be before the variadic
-     foo(...$a,  1);
+     // Fatal error: positional arguments MUST be before the variadic
+     foo(...$args,  1);
      
-     // Normal way
-     foo( 1, ...$a);
+     // positional way of laying the arguments
+     foo(1, ...$args);
    ?>
 Related PHP errors 
 -------------------
@@ -41,6 +45,12 @@ Related PHP errors
   + `Cannot use positional argument after argument unpacking <https://php-errors.readthedocs.io/en/latest/messages/cannot-use-positional-argument-after-argument-unpacking.html>`_
 
 
+
+Connex PHP features
+-------------------
+
+  + `variadic <https://php-dictionary.readthedocs.io/en/latest/dictionary/variadic.ini.html>`_
+  + `named-parameter <https://php-dictionary.readthedocs.io/en/latest/dictionary/named-parameter.ini.html>`_
 
 
 Suggestions

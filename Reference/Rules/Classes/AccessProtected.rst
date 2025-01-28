@@ -41,6 +41,8 @@ Related PHP errors
 -------------------
 
   + `Cannot access protected constant %s::%s <https://php-errors.readthedocs.io/en/latest/messages/cannot-access-%25s-constant-%25s%3A%3A%25s.html>`_
+  + `Cannot access protected property %s::$%s <https://php-errors.readthedocs.io/en/latest/messages/cannot-access-%25s-property-%25s%3A%3A%24%25s.html>`_
+  + `Call to protected method %s::%s from %s%s <https://php-errors.readthedocs.io/en/latest/messages/call-to-%25s-method-%25s%3A%3A%25s%28%29-from-%25s%25s.html>`_
 
 
 

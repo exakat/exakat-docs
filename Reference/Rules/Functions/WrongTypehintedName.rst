@@ -1,29 +1,30 @@
 .. _functions-wrongtypehintedname:
 
-.. _wrong-typehinted-name:
+.. _wrong-typed-name:
 
-Wrong Typehinted Name
-+++++++++++++++++++++
+Wrong Typed Name
+++++++++++++++++
 
 .. meta::
 	:description:
-		Wrong Typehinted Name: The parameter name doesn't reflect the typehint used.
+		Wrong Typed Name: The parameter name doesn't reflect the type used.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
-	:twitter:title: Wrong Typehinted Name
-	:twitter:description: Wrong Typehinted Name: The parameter name doesn't reflect the typehint used
+	:twitter:title: Wrong Typed Name
+	:twitter:description: Wrong Typed Name: The parameter name doesn't reflect the type used
 	:twitter:creator: @exakat
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Wrong Typehinted Name
+	:og:title: Wrong Typed Name
 	:og:type: article
-	:og:description: The parameter name doesn't reflect the typehint used
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Wrong Typehinted Name.html
+	:og:description: The parameter name doesn't reflect the type used
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Wrong Typed Name.html
 	:og:locale: en
-The parameter name doesn't reflect the typehint used.
+The parameter name doesn't reflect the type used.
 
-There are no restriction on parameter names, except its uniqueness in the signature. Yet, using a scalar typehint as the name for another typehinted value is just misleading. 
-This analysis relies on exact names : calling an array a list of ``strings`` is OK with this analysis.
+There are no restriction on parameter names, except its uniqueness in the signature. Yet, using a scalar type as the name for another typed value is just misleading. 
+
+This analysis relies on exact names : calling an array a list of ``string`` is OK with this analysis.
 
 This analysis relies on a few variations of names : ``bool`` and ``boolean``, ``int`` and ``integer``.
 

@@ -48,7 +48,7 @@ Total : 29 analysis
 * :ref:`similar-integers`
 * :ref:`wrong-function-name-case`
 * :ref:`wrong-case-namespaces`
-* :ref:`wrong-typehinted-name`
+* :ref:`wrong-typed-name`
 * :ref:`multiple-property-declaration-on-one-line`
 * :ref:`useless-trailing-comma`
 

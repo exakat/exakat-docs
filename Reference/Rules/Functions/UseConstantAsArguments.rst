@@ -101,6 +101,14 @@ Here is the list of functions that use a combination of PHP native constants as 
    sort($fruits);
    
    ?>
+Related PHP errors 
+-------------------
+
+  + `must be one of PGSQL_ASSOC, PGSQL_NUM, or PGSQL_BOTH <https://php-errors.readthedocs.io/en/latest/messages/must-be-one-of-pgsql_assoc%2C-pgsql_num%2C-or-pgsql_both.html>`_
+  + `must be one of PGSQL_NOTICE_LAST, PGSQL_NOTICE_ALL, or PGSQL_NOTICE_CLEAR <https://php-errors.readthedocs.io/en/latest/messages/must-be-one-of-pgsql_notice_last%2C-pgsql_notice_all%2C-or-pgsql_notice_clear.html>`_
+
+
+
 
 Suggestions
 ___________

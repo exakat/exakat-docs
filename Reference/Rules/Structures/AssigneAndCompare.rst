@@ -43,7 +43,6 @@ Assignation has a lower precedence than comparison. As such, the assignation alw
    // Being a lone instruction, this is always valid : there is no double usage with if condition
    $isFound = strpos($string, $needle) !== false;
    
-   
    ?>
 
 See also `Operator Precedence <https://www.php.net/manual/en/language.operators.precedence.php>`_.

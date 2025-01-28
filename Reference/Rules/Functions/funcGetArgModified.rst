@@ -1,24 +1,24 @@
 .. _functions-funcgetargmodified:
 
-.. _func\_get\_arg()-modified:
+.. _func\_get\_arg()-modified-behavior:
 
-func_get_arg() Modified
-+++++++++++++++++++++++
+func_get_arg() Modified Behavior
+++++++++++++++++++++++++++++++++
 
 .. meta::
 	:description:
-		func_get_arg() Modified: func_get_arg() and func_get_args() used to report the calling value of the argument until PHP 7.
+		func_get_arg() Modified Behavior: func_get_arg() and func_get_args() used to report the calling value of the argument until PHP 7.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
-	:twitter:title: func_get_arg() Modified
-	:twitter:description: func_get_arg() Modified: func_get_arg() and func_get_args() used to report the calling value of the argument until PHP 7
+	:twitter:title: func_get_arg() Modified Behavior
+	:twitter:description: func_get_arg() Modified Behavior: func_get_arg() and func_get_args() used to report the calling value of the argument until PHP 7
 	:twitter:creator: @exakat
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: func_get_arg() Modified
+	:og:title: func_get_arg() Modified Behavior
 	:og:type: article
 	:og:description: func_get_arg() and func_get_args() used to report the calling value of the argument until PHP 7
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/func_get_arg() Modified.html
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/func_get_arg() Modified Behavior.html
 	:og:locale: en
 `func_get_arg() <https://www.php.net/func_get_arg>`_ and `func_get_args() <https://www.php.net/func_get_args>`_ used to report the calling value of the argument until PHP 7. 
 
@@ -71,7 +71,7 @@ _____
 +------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Time To Fix      | Quick (30 mins)                                                                                                                                                        |
 +------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Changed Behavior | PHP 7.0                                                                                                                                                                |
+| Changed Behavior | PHP 7.0 - `More <https://php-changed-behaviors.readthedocs.io/en/latest/behavior/func_get_arg.html>`__                                                                 |
 +------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Precision        | High                                                                                                                                                                   |
 +------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

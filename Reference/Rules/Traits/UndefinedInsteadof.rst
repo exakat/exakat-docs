@@ -24,8 +24,6 @@ Undefined Insteadof
 
 ``Insteadof`` may replace a non-existing method with an existing one, but not the contrary. 
 
-
-
 This `error <https://www.php.net/error>`_ is not linted : it only appears at execution time.
 
 .. code-block:: php
@@ -55,7 +53,7 @@ See also `Traits <https://www.php.net/manual/en/language.oop5.traits.php>`_.
 Related PHP errors 
 -------------------
 
-  + `An alias (%s) was defined for method %s(), but this method does not exist <https://php-errors.readthedocs.io/en/latest/messages/an-alias-was-defined-for-%25s%5C%3A%5C%3A%25s-but-this-method-does-not-exist.html>`_
+  + `An alias (%s) was defined for method %s(), but this method does not exist <https://php-errors.readthedocs.io/en/latest/messages/an-alias-was-defined-for-%25s%3A%3A%25s-but-this-method-does-not-exist.html>`_
 
 
 

@@ -313,6 +313,9 @@
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Classes/CantInstantiateClass.html</loc>
  </url>
  <url>
+  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Interfaces/CantOverloadConstants.html</loc>
+ </url>
+ <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Classes/CantOverwriteFinalConstant.html</loc>
  </url>
  <url>
@@ -338,9 +341,6 @@
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Classes/CantInstantiateNonClass.html</loc>
- </url>
- <url>
-  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Interfaces/CantOverloadConstants.html</loc>
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Php/CantUseReturnValueInWriteContext.html</loc>
@@ -853,6 +853,9 @@
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Classes/CouldSetPropertyDefault.html</loc>
  </url>
  <url>
+  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Functions/CouldTypehint.html</loc>
+ </url>
+ <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Functions/CouldTypeWithArray.html</loc>
  </url>
  <url>
@@ -866,9 +869,6 @@
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Functions/CouldTypeWithString.html</loc>
- </url>
- <url>
-  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Functions/CouldTypehint.html</loc>
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Namespaces/CouldUseAlias.html</loc>
@@ -956,6 +956,9 @@
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Php/CryptoUsage.html</loc>
+ </url>
+ <url>
+  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Php/NoMoreCurlyArrays.html</loc>
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Classes/AvoidUsing.html</loc>
@@ -2122,10 +2125,10 @@
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Typehints/MissingReturntype.html</loc>
  </url>
  <url>
-  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Typehints/MissingTypehints.html</loc>
+  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Functions/MissingTypehint.html</loc>
  </url>
  <url>
-  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Functions/MissingTypehint.html</loc>
+  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Typehints/MissingTypehints.html</loc>
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Classes/MissingVisibility.html</loc>
@@ -2455,9 +2458,6 @@
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/NoMaxOnEmptyArray.html</loc>
  </url>
  <url>
-  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Php/NoMoreCurlyArrays.html</loc>
- </url>
- <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Attributes/NoNamedArguments.html</loc>
  </url>
  <url>
@@ -2609,9 +2609,6 @@
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Functions/NullTypeFavorite.html</loc>
- </url>
- <url>
-  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Functions/NullableWithConstant.html</loc>
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Functions/NullableWithoutCheck.html</loc>
@@ -3721,10 +3718,10 @@
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Dump/TypehintingStats.html</loc>
  </url>
  <url>
-  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Functions/Typehints.html</loc>
+  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Typehints/CouldBeResource.html</loc>
  </url>
  <url>
-  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Typehints/CouldBeResource.html</loc>
+  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Functions/Typehints.html</loc>
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Vendors/Typo3.html</loc>
@@ -3839,6 +3836,9 @@
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Classes/UnreachableMethod.html</loc>
+ </url>
+ <url>
+  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/WrongRange.html</loc>
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Classes/UnresolvedCatch.html</loc>
@@ -4228,13 +4228,13 @@
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Exceptions/UselessTry.html</loc>
  </url>
  <url>
+  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Classes/UselessTypehint.html</loc>
+ </url>
+ <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/UselessCasting.html</loc>
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Functions/UselessTypeCheck.html</loc>
- </url>
- <url>
-  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Classes/UselessTypehint.html</loc>
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/UselessUnset.html</loc>
@@ -4363,9 +4363,6 @@
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/WrongPrecedenceInExpression.html</loc>
  </url>
  <url>
-  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Structures/WrongRange.html</loc>
- </url>
- <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Php/WrongTypeForNativeFunction.html</loc>
  </url>
  <url>
@@ -4378,10 +4375,10 @@
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Typehints/WrongTypeWithDefault.html</loc>
  </url>
  <url>
-  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Classes/WrongTypedPropertyInit.html</loc>
+  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Functions/WrongTypehintedName.html</loc>
  </url>
  <url>
-  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Functions/WrongTypehintedName.html</loc>
+  <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Classes/WrongTypedPropertyInit.html</loc>
  </url>
  <url>
   <loc>https://exakat.readthedocs.io/en/latest/Reference/Rules/Php/FopenMode.html</loc>

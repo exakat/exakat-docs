@@ -7,20 +7,23 @@ Blind Variables
 
 .. meta::
 	:description:
-		Blind Variables: Blind variables are that are used in foreach or for structure, for managing the loop itself.
+		Blind Variables: Blind variables are variables that are used in ``foreach()`` or ``for()`` structure, for managing the loop itself.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
 	:twitter:title: Blind Variables
-	:twitter:description: Blind Variables: Blind variables are that are used in foreach or for structure, for managing the loop itself
+	:twitter:description: Blind Variables: Blind variables are variables that are used in ``foreach()`` or ``for()`` structure, for managing the loop itself
 	:twitter:creator: @exakat
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
 	:og:title: Blind Variables
 	:og:type: article
-	:og:description: Blind variables are that are used in foreach or for structure, for managing the loop itself
+	:og:description: Blind variables are variables that are used in ``foreach()`` or ``for()`` structure, for managing the loop itself
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Blind Variables.html
 	:og:locale: en
-Blind variables are that are used in foreach or for structure, for managing the loop itself.
+Blind variables are variables that are used in ``foreach()`` or ``for()`` structure, for managing the loop itself. 
+
+They represent the individual items or index during the loop, and have rarely any usage outside that loop. They might be considered as local variables to the loop.
+
 
 .. code-block:: php
    
@@ -34,6 +37,7 @@ Connex PHP features
 -------------------
 
   + `blind-variable <https://php-dictionary.readthedocs.io/en/latest/dictionary/blind-variable.ini.html>`_
+  + `local-variable <https://php-dictionary.readthedocs.io/en/latest/dictionary/local-variable.ini.html>`_
 
 
 Specs

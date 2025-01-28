@@ -1,26 +1,26 @@
 .. _php-php71scalartypehints:
 
-.. _php-7.1-scalar-typehints:
+.. _php-7.1-scalar-types:
 
-PHP 7.1 Scalar Typehints
-++++++++++++++++++++++++
+PHP 7.1 Scalar Types
+++++++++++++++++++++
 
 .. meta::
 	:description:
-		PHP 7.1 Scalar Typehints: A new scalar typehint was introduced : iterable.
+		PHP 7.1 Scalar Types: A new scalar typehint was introduced : ``iterable``.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
-	:twitter:title: PHP 7.1 Scalar Typehints
-	:twitter:description: PHP 7.1 Scalar Typehints: A new scalar typehint was introduced : iterable
+	:twitter:title: PHP 7.1 Scalar Types
+	:twitter:description: PHP 7.1 Scalar Types: A new scalar typehint was introduced : ``iterable``
 	:twitter:creator: @exakat
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: PHP 7.1 Scalar Typehints
+	:og:title: PHP 7.1 Scalar Types
 	:og:type: article
-	:og:description: A new scalar typehint was introduced : iterable
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/PHP 7.1 Scalar Typehints.html
+	:og:description: A new scalar typehint was introduced : ``iterable``
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/PHP 7.1 Scalar Types.html
 	:og:locale: en
-A new scalar typehint was introduced : iterable. 
+A new scalar typehint was introduced : ``iterable``. 
 
 It can't be used before PHP 7.1, and will be confused with classes or interfaces.
 

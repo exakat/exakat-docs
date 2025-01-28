@@ -1,26 +1,26 @@
 .. _complete-extendedtypehints:
 
-.. _extended-typehints:
+.. _extended-types:
 
-Extended Typehints
-++++++++++++++++++
+Extended Types
+++++++++++++++
 
 .. meta::
 	:description:
-		Extended Typehints: Produces all the definition links between typehints (arguments, return types, properties) and the definitions that are valid with the typehint.
+		Extended Types: Produces all the definition links between typehints (arguments, return types, properties) and the definitions that are valid with the type.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
-	:twitter:title: Extended Typehints
-	:twitter:description: Extended Typehints: Produces all the definition links between typehints (arguments, return types, properties) and the definitions that are valid with the typehint
+	:twitter:title: Extended Types
+	:twitter:description: Extended Types: Produces all the definition links between typehints (arguments, return types, properties) and the definitions that are valid with the type
 	:twitter:creator: @exakat
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Extended Typehints
+	:og:title: Extended Types
 	:og:type: article
-	:og:description: Produces all the definition links between typehints (arguments, return types, properties) and the definitions that are valid with the typehint
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Extended Typehints.html
+	:og:description: Produces all the definition links between typehints (arguments, return types, properties) and the definitions that are valid with the type
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Extended Types.html
 	:og:locale: en
-Produces all the definition links between typehints (arguments, return types, properties) and the definitions that are valid with the typehint.
+Produces all the definition links between typehints (arguments, return types, properties) and the definitions that are valid with the type.
 
 .. code-block:: php
    
@@ -28,22 +28,22 @@ Produces all the definition links between typehints (arguments, return types, pr
    
    function foo(A $A) {}
    
-   // This is the raw definition of the above typehint
+   // This is the raw definition of the above type
    interface A {}
    
-   // This is valid definition of the above typehint
+   // This is valid definition of the above type
    class X implements A {}
-   // This is valid definition of the above typehint
+   // This is valid definition of the above type
    class Y extends X {}
    
-   // This is not related to the typehint
+   // This is not related to the type
    class Z {}
    
    ?>
 Connex PHP features
 -------------------
 
-  + `typehint <https://php-dictionary.readthedocs.io/en/latest/dictionary/typehint.ini.html>`_
+  + `type <https://php-dictionary.readthedocs.io/en/latest/dictionary/type.ini.html>`_
 
 
 Specs

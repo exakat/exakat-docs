@@ -48,7 +48,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'Exakat'
-copyright = u'2015-2025, Damien Seguy – Exakat SAS <contact(at)exakat.io>'
+copyright = '2015-2025, Damien Seguy - <a href="https://www.exakat.io/">Exakat</a>'
 author = u'Damien Seguy'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -296,7 +296,8 @@ html_extra_path = ["googlee919cb0917e4fefc.html",
 					"sitemap-cobblers.xml",
 					"sitemap-rules.xml",
 					"sitemap-rulesets.xml",
-					"sitemap-reports.xml"
+					"sitemap-reports.xml",
+					"robots.txt"
 					]
 
 html_js_files = [

@@ -1,28 +1,28 @@
 .. _functions-missingtypehint:
 
-.. _missing-typehint:
+.. _missing-type:
 
-Missing Typehint
-++++++++++++++++
+Missing Type
+++++++++++++
 
 .. meta::
 	:description:
-		Missing Typehint: No typehint was found for a parameter, a return type for a method or a property.
+		Missing Type: No type was found for a parameter, a return type for a method or a property.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
-	:twitter:title: Missing Typehint
-	:twitter:description: Missing Typehint: No typehint was found for a parameter, a return type for a method or a property
+	:twitter:title: Missing Type
+	:twitter:description: Missing Type: No type was found for a parameter, a return type for a method or a property
 	:twitter:creator: @exakat
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Missing Typehint
+	:og:title: Missing Type
 	:og:type: article
-	:og:description: No typehint was found for a parameter, a return type for a method or a property
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Missing Typehint.html
+	:og:description: No type was found for a parameter, a return type for a method or a property
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Missing Type.html
 	:og:locale: en
-No typehint was found for a parameter, a return type for a method or a property.
+No type was found for a parameter, a return type for a method or a property.
 
-void is considered a specified typehint, and is not reported here.
+void is considered a specified type, and is not reported here.
 
 .. code-block:: php
    
@@ -31,7 +31,7 @@ void is considered a specified typehint, and is not reported here.
    class x {
        private $no_property;
        
-       function foo($no_typehint) : void {}
+       function foo($no_type) : void {}
    
        function no_return_type() {}
    }
@@ -42,7 +42,7 @@ See also `Type Declaration <https://www.php.net/manual/en/functions.arguments.ph
 Connex PHP features
 -------------------
 
-  + `typehint <https://php-dictionary.readthedocs.io/en/latest/dictionary/typehint.ini.html>`_
+  + `type <https://php-dictionary.readthedocs.io/en/latest/dictionary/type.ini.html>`_
 
 
 Suggestions

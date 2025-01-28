@@ -46,7 +46,6 @@ This analysis is not valid after PHP 8.3, as PHP does that itself.
    	function hoo() {}
    }
    
-   
    ?>
 
 See also `PHP RFC: Marking overridden methods (#[\Override]) <https://wiki.php.net/rfc/marking_overriden_methods>`_ and `PHP 8.3 RFC: Marking overridden methods (#[\Override]) <https://php.watch/rfcs/marking_overriden_methods>`_.

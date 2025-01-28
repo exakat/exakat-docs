@@ -36,7 +36,6 @@ Incrementing variables, with math operations or concatenation, is OK : the conte
    $x = join('', $x);
    $c = count($x); // $x is not an array anymore
    
-   
    // $letters is an array
    $letters = range('a', 'z');
    // $alphabet is a string

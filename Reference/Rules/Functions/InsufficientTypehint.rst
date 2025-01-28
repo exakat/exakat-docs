@@ -1,28 +1,28 @@
 .. _functions-insufficienttypehint:
 
-.. _insufficient-typehint:
+.. _insufficient-type:
 
-Insufficient Typehint
-+++++++++++++++++++++
+Insufficient Type
++++++++++++++++++
 
 .. meta::
 	:description:
-		Insufficient Typehint: An argument is typehinted, but it actually calls methods, constants or properties that are not listed in the interface.
+		Insufficient Type: An argument is typed, but it actually calls methods, constants or properties that are not listed in the interface.
 	:twitter:card: summary_large_image
 	:twitter:site: @exakat
-	:twitter:title: Insufficient Typehint
-	:twitter:description: Insufficient Typehint: An argument is typehinted, but it actually calls methods, constants or properties that are not listed in the interface
+	:twitter:title: Insufficient Type
+	:twitter:description: Insufficient Type: An argument is typed, but it actually calls methods, constants or properties that are not listed in the interface
 	:twitter:creator: @exakat
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-	:og:title: Insufficient Typehint
+	:og:title: Insufficient Type
 	:og:type: article
-	:og:description: An argument is typehinted, but it actually calls methods, constants or properties that are not listed in the interface
-	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Insufficient Typehint.html
+	:og:description: An argument is typed, but it actually calls methods, constants or properties that are not listed in the interface
+	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Insufficient Type.html
 	:og:locale: en
-An argument is typehinted, but it actually calls methods, constants or properties that are not listed in the interface.
+An argument is typed, but it actually calls methods, constants or properties that are not listed in the interface.
 
-Classes may be implementing more methods than the one that are listed in the interface they also implements. This means that filtering objects with a typehint, but calling other methods will be solved at execution time : if the method is available, it will be used; if it is not, a fatal `error <https://www.php.net/error>`_ is reported.
+Classes may be implementing more methods than the one that are listed in the interface they also implements. This means that filtering objects with a type, but calling other methods will be solved at execution time : if the method is available, it will be used; if it is not, a fatal `error <https://www.php.net/error>`_ is reported.
 
 Inspired by discussion with `Brandon Savage <https://twitter.com/BrandonSavage>`_.
 

@@ -43,7 +43,7 @@ The `error <https://www.php.net/error>`_ message when the case is missing mentio
 Related PHP errors 
 -------------------
 
-  + `Undefined constant x::C <https://php-errors.readthedocs.io/en/latest/messages/undefined-class-constant-%5C%27%25s%5C%3A%5C%3A%25s%5C%27.html>`_
+  + `Undefined constant %s::%s <https://php-errors.readthedocs.io/en/latest/messages/undefined-class-constant-%27%25s%3A%3A%25s%27.html>`_
 
 
 

@@ -37,6 +37,11 @@ When comparing their `result <https://www.php.net/result>`_ to 0, the following 
    var_dump(count($a) < 0); 
    
    ?>
+Connex PHP features
+-------------------
+
+  + `comparison <https://php-dictionary.readthedocs.io/en/latest/dictionary/comparison.ini.html>`_
+
 
 Suggestions
 ___________

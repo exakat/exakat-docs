@@ -22,18 +22,18 @@ This ruleset focuses on typehinting. Missing typehints, or inconsistent typehint
 
 Total : 28 analysis
 
-* :ref:`argument-should-be-typehinted`
+* :ref:`argument-should-be-typed`
 * :ref:`useless-interfaces`
-* :ref:`no-class-as-typehint`
+* :ref:`no-class-as-type`
 * :ref:`mismatched-default-arguments`
-* :ref:`mismatched-typehint`
-* :ref:`child-class-removes-typehint`
+* :ref:`mismatched-type`
+* :ref:`child-class-removes-type`
 * :ref:`not-a-scalar-type`
 * :ref:`mismatch-type-and-default`
-* :ref:`insufficient-typehint`
+* :ref:`insufficient-type`
 * :ref:`bad-type-relay`
 * :ref:`wrong-type-with-call`
-* :ref:`missing-typehint`
+* :ref:`missing-type`
 * :ref:`fossilized-method`
 * :ref:`could-be-string`
 * :ref:`could-be-void`

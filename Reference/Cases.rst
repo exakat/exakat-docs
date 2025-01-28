@@ -450,10 +450,10 @@ $allowedNewTables is declared once  protected and once public. $allowedNewTables
         public $allowedNewTables = [];
 
 
-.. _case-argument-should-be-typehinted:
+.. _case-argument-should-be-typed:
 
-Argument Should Be Typehinted
-#############################
+Argument Should Be Typed
+########################
 
 .. _case-dolphin-functions-shouldbetypehinted:
 
@@ -461,9 +461,9 @@ Dolphin
 +++++++
 
 
-:ref:`argument-should-be-typehinted`, in Dolphin-v.7.3.5/plugins/intervention-image/Intervention/Image/Gd/Commands/WidenCommand.php:20. 
+:ref:`argument-should-be-typed`, in Dolphin-v.7.3.5/plugins/intervention-image/Intervention/Image/Gd/Commands/WidenCommand.php:20. 
 
-This closures make immediate use of the $constraint argument, and calls its method aspectRatio. No check is made on this argument, and it may easily be mistaken with another class, or a null. Adding a typehint here will ensure a more verbose development error and help detect misuse of the closure. 
+This closures make immediate use of the $constraint argument, and calls its method aspectRatio. No check is made on this argument, and it may easily be mistaken with another class, or a null. Adding a type here will ensure a more verbose development error and help detect misuse of the closure. 
 
 .. code-block:: php
    
@@ -480,9 +480,9 @@ Mautic
 ++++++
 
 
-:ref:`argument-should-be-typehinted`, in app/bundles/PluginBundle/Helper/IntegrationHelper.php:374. 
+:ref:`argument-should-be-typed`, in app/bundles/PluginBundle/Helper/IntegrationHelper.php:374. 
 
-This piece of code inside a 275 lines method. Besides, there are 11 classes that offer a 'getPriority' method, although $returnServices could help to semantically reduce the number of possible classes. Here, typehints on $a and $b help using the wrong kind of object. 
+This piece of code inside a 275 lines method. Besides, there are 11 classes that offer a 'getPriority' method, although $returnServices could help to semantically reduce the number of possible classes. Here, types on $a and $b help using the wrong kind of object. 
 
 .. code-block:: php
    
@@ -1935,10 +1935,10 @@ The closure function($m) makes no usage of the current object : using static pre
       }
 
 
-.. _case-could-be-typehinted-callable:
+.. _case-could-be-typed-callable:
 
-Could Be Typehinted Callable
-############################
+Could Be Typed Callable
+#######################
 
 .. _case-magento-functions-couldbecallable:
 
@@ -1946,9 +1946,9 @@ Magento
 +++++++
 
 
-:ref:`could-be-typehinted-callable`, in wp-admin/includes/misc.php:74. 
+:ref:`could-be-typed-callable`, in wp-admin/includes/misc.php:74. 
 
-$objMethod argument is used to call a function, a method or a localmethod. The typehint would save the middle condition, and make a better job than 'is_array' to check if $objMethod is callable. Yet, the final 'else' means that $objMethod is also the name of a method, and PHP won't validate this, unless there is a function with the same name. Here, callable is not an option. 
+$objMethod argument is used to call a function, a method or a localmethod. The type would save the middle condition, and make a better job than 'is_array' to check if $objMethod is callable. Yet, the final 'else' means that $objMethod is also the name of a method, and PHP won't validate this, unless there is a function with the same name. Here, callable is not an option. 
 
 .. code-block:: php
    
@@ -1976,9 +1976,9 @@ PrestaShop
 ++++++++++
 
 
-:ref:`could-be-typehinted-callable`, in controllers/admin/AdminImportController.php:1147. 
+:ref:`could-be-typed-callable`, in controllers/admin/AdminImportController.php:1147. 
 
-$funcname is tested with is_callable() before being used as a method. Typehint callable would reduce the size of the code. 
+$funcname is tested with is_callable() before being used as a method. Type callable would reduce the size of the code. 
 
 .. code-block:: php
    
@@ -4551,10 +4551,10 @@ IS_DASHBOARD is defined as a boolean or a string. Later, it is tested as a boole
     ?>
 
 
-.. _case-mismatched-typehint:
+.. _case-mismatched-type:
 
-Mismatched Typehint
-###################
+Mismatched Type
+###############
 
 .. _case-wordpress-functions-mismatchedtypehint:
 
@@ -4562,7 +4562,7 @@ WordPress
 +++++++++
 
 
-:ref:`mismatched-typehint`, in wp-admin/includes/misc.php:74. 
+:ref:`mismatched-type`, in wp-admin/includes/misc.php:74. 
 
 This code actually loads the file, join it, then split it again. file() would be sufficient. 
 
@@ -5453,10 +5453,10 @@ At least, it always choose the most secure way : use SSL.
           }
 
 
-.. _case-no-class-as-typehint:
+.. _case-no-class-as-type:
 
-No Class As Typehint
-####################
+No Class As Type
+################
 
 .. _case-vanilla-functions-noclassastypehint:
 
@@ -5464,9 +5464,9 @@ Vanilla
 +++++++
 
 
-:ref:`no-class-as-typehint`, in library/Vanilla/Formatting/Formats/RichFormat.php:51. 
+:ref:`no-class-as-type`, in library/Vanilla/Formatting/Formats/RichFormat.php:51. 
 
-All three typehints are based on classes. When Parser or Renderer are changed, for testing, versioning or moduling reasons, they must subclass the original class. 
+All three types are based on classes. When Parser or Renderer are changed, for testing, versioning or moduling reasons, they must subclass the original class. 
 
 .. code-block:: php
    
@@ -5483,7 +5483,7 @@ phpMyAdmin
 ++++++++++
 
 
-:ref:`no-class-as-typehint`, in libraries/classes/CreateAddField.php:29. 
+:ref:`no-class-as-type`, in libraries/classes/CreateAddField.php:29. 
 
 Although the class is named 'DatabaseInterface', it is a class.
 
@@ -9498,6 +9498,54 @@ PHP_VERSION is actually build with PHP_MAJOR_VERSION, PHP_MINOR_VERSION and PHP_
     explode('.', PHP_VERSION);
 
 
+.. _case-unreadable-interval-check:
+
+Unreadable Interval Check
+#########################
+
+.. _case-dolibarr-structures-wrongrange:
+
+Dolibarr
+++++++++
+
+
+:ref:`unreadable-interval-check`, in htdocs/includes/phpoffice/PhpSpreadsheet/Spreadsheet.php:1484. 
+
+When $tabRatio is 1001, then the condition is valid, and the ratio accepted. The right part of the condition is not executed.
+
+.. code-block:: php
+   
+    public function setTabRatio($tabRatio)
+        {
+            if ($tabRatio >= 0 || $tabRatio <= 1000) {
+                $this->tabRatio = (int) $tabRatio;
+            } else {
+                throw new Exception('Tab ratio must be between 0 and 1000.');
+            }
+        }
+
+
+.. _case-wordpress-structures-wrongrange:
+
+WordPress
++++++++++
+
+
+:ref:`unreadable-interval-check`, in wp-includes/formatting.php:3634. 
+
+This condition may be easier to read as `$diff >= WEEK_IN_SECONDS && $diff < MONTH_IN_SECONDS`. When testing for outside this interval, using not is also more readable : `!($diff >= WEEK_IN_SECONDS && $diff < MONTH_IN_SECONDS)`.
+
+.. code-block:: php
+   
+    } elseif ( $diff < MONTH_IN_SECONDS && $diff >= WEEK_IN_SECONDS ) {
+    		$weeks = round( $diff / WEEK_IN_SECONDS );
+    		if ( $weeks <= 1 ) {
+    			$weeks = 1;
+    		}
+    		/* translators: Time difference between two dates, in weeks. %s: Number of weeks */
+    		$since = sprintf( _n( '%s week', '%s weeks', $weeks ), $weeks );
+
+
 .. _case-unresolved-instanceof:
 
 Unresolved Instanceof
@@ -11394,54 +11442,6 @@ setlocale() may be called with null or '' (empty string), and will set values fr
    
     $loc = setlocale(LC_TIME, 0);
             if ($loc !== FALSE) echo ' - ' . $loc; //what is the locale in use?
-
-
-.. _case-wrong-range-check:
-
-Wrong Range Check
-#################
-
-.. _case-dolibarr-structures-wrongrange:
-
-Dolibarr
-++++++++
-
-
-:ref:`wrong-range-check`, in htdocs/includes/phpoffice/PhpSpreadsheet/Spreadsheet.php:1484. 
-
-When $tabRatio is 1001, then the condition is valid, and the ratio accepted. The right part of the condition is not executed.
-
-.. code-block:: php
-   
-    public function setTabRatio($tabRatio)
-        {
-            if ($tabRatio >= 0 || $tabRatio <= 1000) {
-                $this->tabRatio = (int) $tabRatio;
-            } else {
-                throw new Exception('Tab ratio must be between 0 and 1000.');
-            }
-        }
-
-
-.. _case-wordpress-structures-wrongrange:
-
-WordPress
-+++++++++
-
-
-:ref:`wrong-range-check`, in wp-includes/formatting.php:3634. 
-
-This condition may be easier to read as `$diff >= WEEK_IN_SECONDS && $diff < MONTH_IN_SECONDS`. When testing for outside this interval, using not is also more readable : `!($diff >= WEEK_IN_SECONDS && $diff < MONTH_IN_SECONDS)`.
-
-.. code-block:: php
-   
-    } elseif ( $diff < MONTH_IN_SECONDS && $diff >= WEEK_IN_SECONDS ) {
-    		$weeks = round( $diff / WEEK_IN_SECONDS );
-    		if ( $weeks <= 1 ) {
-    			$weeks = 1;
-    		}
-    		/* translators: Time difference between two dates, in weeks. %s: Number of weeks */
-    		$since = sprintf( _n( '%s week', '%s weeks', $weeks ), $weeks );
 
 
 .. _case-wrong-fopen()-mode:

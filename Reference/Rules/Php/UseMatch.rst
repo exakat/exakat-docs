@@ -29,7 +29,6 @@ This rule reports usage of the the `match() <https://www.php.net/manual/en/contr
    
    <?php
    
-   
    $A = match($a) {
        'a' => 'A',
        'b' => 'B',

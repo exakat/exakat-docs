@@ -47,7 +47,7 @@ Related PHP errors
 -------------------
 
   + `Unknown named parameter $d in <https://php-errors.readthedocs.io/en/latest/messages/unknown-named-parameter-%24%25s.html>`_
-  + `array_merge() does not accept unknown named parameters <https://php-errors.readthedocs.io/en/latest/messages/array_merge%5C%28%5C%29-does-not-accept-unknown-named-parameters.html>`_
+  + `array_merge() does not accept unknown named parameters <https://php-errors.readthedocs.io/en/latest/messages/array_merge%28%29-does-not-accept-unknown-named-parameters.html>`_
 
 
 
