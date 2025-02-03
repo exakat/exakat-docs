@@ -1,26 +1,49 @@
 .. _extensions-extpcre:
 
+
 .. _ext-pcre:
 
 ext/pcre
 ++++++++
 
+
 .. meta::
+
 	:description:
+
 		ext/pcre: Extension ext/pcre.
+
 	:twitter:card: summary_large_image
+
 	:twitter:site: @exakat
+
 	:twitter:title: ext/pcre
+
 	:twitter:description: ext/pcre: Extension ext/pcre
+
 	:twitter:creator: @exakat
+
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:title: ext/pcre
+
 	:og:type: article
+
 	:og:description: Extension ext/pcre
+
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/pcre.html
+
 	:og:locale: en
-.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Extensions\/Extpcre.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Extensions\/Extpcre.html","name":"ext\/pcre","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:17 +0000","dateModified":"Fri, 10 Jan 2025 09:46:17 +0000","description":"Extension ext\/pcre","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/ext\/pcre.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Extension ext/pcre. PCRE stands for Perl Compatible Regular Expression. It is a standard PHP extension.
+
+
+.. raw:: html
+
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Extensions\/Extpcre.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Extensions\/Extpcre.html","name":"ext\/pcre","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:17 +0000","dateModified":"Fri, 10 Jan 2025 09:46:17 +0000","description":"Extension ext\/pcre","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/ext\/pcre.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
+Extension ext/pcre. PCRE stands for Perl Compatible Regular Expression. It is a standard PHP extension.
 
 .. code-block:: php
    

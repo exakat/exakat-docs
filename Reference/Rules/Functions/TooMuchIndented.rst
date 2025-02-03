@@ -1,26 +1,49 @@
 .. _functions-toomuchindented:
 
+
 .. _too-much-indented:
 
 Too Much Indented
 +++++++++++++++++
 
+
 .. meta::
+
 	:description:
+
 		Too Much Indented: Reports methods that are using more than one level of indentation on average.
+
 	:twitter:card: summary_large_image
+
 	:twitter:site: @exakat
+
 	:twitter:title: Too Much Indented
+
 	:twitter:description: Too Much Indented: Reports methods that are using more than one level of indentation on average
+
 	:twitter:creator: @exakat
+
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:title: Too Much Indented
+
 	:og:type: article
+
 	:og:description: Reports methods that are using more than one level of indentation on average
+
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Too Much Indented.html
+
 	:og:locale: en
-.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Functions\/TooMuchIndented.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Functions\/TooMuchIndented.html","name":"Too Much Indented","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Reports methods that are using more than one level of indentation on average","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Too Much Indented.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Reports methods that are using more than one level of indentation on average. 
+
+
+.. raw:: html
+
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Functions\/TooMuchIndented.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Functions\/TooMuchIndented.html","name":"Too Much Indented","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Reports methods that are using more than one level of indentation on average","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Too Much Indented.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
+Reports methods that are using more than one level of indentation on average. 
 
 Indentations levels are counted for each for, foreach, if...then, while, do..while, try..catch..finally structure met. Compulsory expressions, such as conditions, are not counted in the total. Levels of indentation start at 0 (no indentation needed)
 

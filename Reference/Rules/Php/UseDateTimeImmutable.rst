@@ -1,26 +1,49 @@
 .. _php-usedatetimeimmutable:
 
+
 .. _use-datetimeimmutable-class:
 
 Use DateTimeImmutable Class
 +++++++++++++++++++++++++++
 
+
 .. meta::
+
 	:description:
+
 		Use DateTimeImmutable Class: The ``DateTimeImmutable`` class is the immutable version of the ``Datetime`` class.
+
 	:twitter:card: summary_large_image
+
 	:twitter:site: @exakat
+
 	:twitter:title: Use DateTimeImmutable Class
+
 	:twitter:description: Use DateTimeImmutable Class: The ``DateTimeImmutable`` class is the immutable version of the ``Datetime`` class
+
 	:twitter:creator: @exakat
+
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:title: Use DateTimeImmutable Class
+
 	:og:type: article
+
 	:og:description: The ``DateTimeImmutable`` class is the immutable version of the ``Datetime`` class
+
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Use DateTimeImmutable Class.html
+
 	:og:locale: en
-.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/UseDateTimeImmutable.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/UseDateTimeImmutable.html","name":"Use DateTimeImmutable Class","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"The ``DateTimeImmutable`` class is the immutable version of the ``Datetime`` class","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Use DateTimeImmutable Class.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>The ``DateTimeImmutable`` class is the immutable version of the ``Datetime`` class. 
+
+
+.. raw:: html
+
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/UseDateTimeImmutable.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/UseDateTimeImmutable.html","name":"Use DateTimeImmutable Class","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"The ``DateTimeImmutable`` class is the immutable version of the ``Datetime`` class","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Use DateTimeImmutable Class.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
+The ``DateTimeImmutable`` class is the immutable version of the ``Datetime`` class. 
 
 While ``DateTime`` may be modified, ``DateTimeImmutable`` cannot be modified : it needs to be cloned instead. Any modification to such an object will return a new and distinct object. This prevents alterations that are hard to track.
 

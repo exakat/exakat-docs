@@ -1,26 +1,49 @@
 .. _classes-uselessconstantoverwrite:
 
+
 .. _useless-constant-overwrite:
 
 Useless Constant Overwrite
 ++++++++++++++++++++++++++
 
+
 .. meta::
+
 	:description:
+
 		Useless Constant Overwrite: A class constant is defined in a parent and child class, with the same value.
+
 	:twitter:card: summary_large_image
+
 	:twitter:site: @exakat
+
 	:twitter:title: Useless Constant Overwrite
+
 	:twitter:description: Useless Constant Overwrite: A class constant is defined in a parent and child class, with the same value
+
 	:twitter:creator: @exakat
+
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:title: Useless Constant Overwrite
+
 	:og:type: article
+
 	:og:description: A class constant is defined in a parent and child class, with the same value
+
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Useless Constant Overwrite.html
+
 	:og:locale: en
-.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/UselessConstantOverwrite.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/UselessConstantOverwrite.html","name":"Useless Constant Overwrite","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:17 +0000","dateModified":"Fri, 10 Jan 2025 09:46:17 +0000","description":"A class constant is defined in a parent and child class, with the same value","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Useless Constant Overwrite.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>A class constant is defined in a `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ and child class, with the same value. One of them is useless and may be removed.
+
+
+.. raw:: html
+
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/UselessConstantOverwrite.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/UselessConstantOverwrite.html","name":"Useless Constant Overwrite","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:17 +0000","dateModified":"Fri, 10 Jan 2025 09:46:17 +0000","description":"A class constant is defined in a parent and child class, with the same value","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Useless Constant Overwrite.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
+A class constant is defined in a `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ and child class, with the same value. One of them is useless and may be removed.
 
 .. code-block:: php
    

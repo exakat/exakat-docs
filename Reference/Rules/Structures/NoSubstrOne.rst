@@ -1,26 +1,49 @@
 .. _structures-nosubstrone:
 
+
 .. _avoid-substr()-one:
 
 Avoid Substr() One
 ++++++++++++++++++
 
+
 .. meta::
+
 	:description:
+
 		Avoid Substr() One: Use array notation ``$string[$position]`` to reach a single byte in a string.
+
 	:twitter:card: summary_large_image
+
 	:twitter:site: @exakat
+
 	:twitter:title: Avoid Substr() One
+
 	:twitter:description: Avoid Substr() One: Use array notation ``$string[$position]`` to reach a single byte in a string
+
 	:twitter:creator: @exakat
+
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:title: Avoid Substr() One
+
 	:og:type: article
+
 	:og:description: Use array notation ``$string[$position]`` to reach a single byte in a string
+
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Avoid Substr() One.html
+
 	:og:locale: en
-.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/NoSubstrOne.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/NoSubstrOne.html","name":"Avoid Substr() One","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Use array notation ``$string[$position]`` to reach a single byte in a string","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Avoid Substr() One.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Use array notation ``$string[$position]`` to reach a single byte in a string.
+
+
+.. raw:: html
+
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/NoSubstrOne.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/NoSubstrOne.html","name":"Avoid Substr() One","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Use array notation ``$string[$position]`` to reach a single byte in a string","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Avoid Substr() One.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
+Use array notation ``$string[$position]`` to reach a single byte in a string.
 
 There are two ways to access a byte in a string : `substr() <https://www.php.net/substr>`_ and ``$v[$pos]``.
 

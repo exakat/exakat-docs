@@ -1,26 +1,49 @@
 .. _namespaces-overloadexistingnames:
 
+
 .. _overload-existing-names:
 
 Overload Existing Names
 +++++++++++++++++++++++
 
+
 .. meta::
+
 	:description:
+
 		Overload Existing Names: Imported alias have precedence over existing ones, and as such, may replace existing features with unexpected ones.
+
 	:twitter:card: summary_large_image
+
 	:twitter:site: @exakat
+
 	:twitter:title: Overload Existing Names
+
 	:twitter:description: Overload Existing Names: Imported alias have precedence over existing ones, and as such, may replace existing features with unexpected ones
+
 	:twitter:creator: @exakat
+
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:title: Overload Existing Names
+
 	:og:type: article
+
 	:og:description: Imported alias have precedence over existing ones, and as such, may replace existing features with unexpected ones
+
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Overload Existing Names.html
+
 	:og:locale: en
-.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Namespaces\/OverloadExistingNames.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Namespaces\/OverloadExistingNames.html","name":"Overload Existing Names","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Imported alias have precedence over existing ones, and as such, may replace existing features with unexpected ones","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Overload Existing Names.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Imported alias have precedence over existing ones, and as such, may replace existing features with unexpected ones. 
+
+
+.. raw:: html
+
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Namespaces\/OverloadExistingNames.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Namespaces\/OverloadExistingNames.html","name":"Overload Existing Names","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Imported alias have precedence over existing ones, and as such, may replace existing features with unexpected ones","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Overload Existing Names.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
+Imported alias have precedence over existing ones, and as such, may replace existing features with unexpected ones. 
 
 This example shows how to replace `strtolower() <https://www.php.net/strtolower>`_ with `strtoupper() <https://www.php.net/strtoupper>`_ while keeping the main code intact. This might be very confusing code. 
 This behavior is important for backward compatibility, and also to avoid naming conflicts when the coding has been done with a PHP installation which do not have some specific declaration. For example, a source may define an 'Event' class, which will be in conflict when the ext/event library is installed. 

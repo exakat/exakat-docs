@@ -1,26 +1,49 @@
 .. _classes-parentisnotstatic:
 
+
 .. _parent-is-not-static:
 
 Parent Is Not Static
 ++++++++++++++++++++
 
+
 .. meta::
+
 	:description:
+
 		Parent Is Not Static: The `parent` keyword behaves like `self`, not like `static`.
+
 	:twitter:card: summary_large_image
+
 	:twitter:site: @exakat
+
 	:twitter:title: Parent Is Not Static
+
 	:twitter:description: Parent Is Not Static: The `parent` keyword behaves like `self`, not like `static`
+
 	:twitter:creator: @exakat
+
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:title: Parent Is Not Static
+
 	:og:type: article
+
 	:og:description: The `parent` keyword behaves like `self`, not like `static`
+
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Parent Is Not Static.html
+
 	:og:locale: en
-.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/ParentIsNotStatic.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/ParentIsNotStatic.html","name":"Parent Is Not Static","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:17 +0000","dateModified":"Fri, 10 Jan 2025 09:46:17 +0000","description":"The `parent` keyword behaves like `self`, not like `static`","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Parent Is Not Static.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>The `parent` keyword behaves like `self`, not like `static`. It links to the `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ of the defining expression, not to the one being called.
+
+
+.. raw:: html
+
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/ParentIsNotStatic.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/ParentIsNotStatic.html","name":"Parent Is Not Static","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:17 +0000","dateModified":"Fri, 10 Jan 2025 09:46:17 +0000","description":"The `parent` keyword behaves like `self`, not like `static`","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Parent Is Not Static.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
+The `parent` keyword behaves like `self`, not like `static`. It links to the `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ of the defining expression, not to the one being called.
 
 This may skip the `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ of the calling class, and create a `Undefined method` call, or yield the wrong `\:\:class` value. It may also skip a local version of the method.
 

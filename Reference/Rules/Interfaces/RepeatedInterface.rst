@@ -1,26 +1,49 @@
 .. _interfaces-repeatedinterface:
 
+
 .. _repeated-interface:
 
 Repeated Interface
 ++++++++++++++++++
 
+
 .. meta::
+
 	:description:
+
 		Repeated Interface: A class should implements only once an interface.
+
 	:twitter:card: summary_large_image
+
 	:twitter:site: @exakat
+
 	:twitter:title: Repeated Interface
+
 	:twitter:description: Repeated Interface: A class should implements only once an interface
+
 	:twitter:creator: @exakat
+
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:title: Repeated Interface
+
 	:og:type: article
+
 	:og:description: A class should implements only once an interface
+
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Repeated Interface.html
+
 	:og:locale: en
-.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Interfaces\/RepeatedInterface.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Interfaces\/RepeatedInterface.html","name":"Repeated Interface","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:47:06 +0000","dateModified":"Fri, 10 Jan 2025 09:47:06 +0000","description":"A class should implements only once an interface","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Repeated Interface.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>A class should implements only once an interface. An interface can only extends once another interface. In both cases, `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ classes or interfaces must be checked.
+
+
+.. raw:: html
+
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Interfaces\/RepeatedInterface.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Interfaces\/RepeatedInterface.html","name":"Repeated Interface","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:47:06 +0000","dateModified":"Fri, 10 Jan 2025 09:47:06 +0000","description":"A class should implements only once an interface","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Repeated Interface.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
+A class should implements only once an interface. An interface can only extends once another interface. In both cases, `parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ classes or interfaces must be checked.
 
 PHP accepts multiple times the same interface in the ``implements`` clause. In fact, it doesn't do anything beyond the first implement. 
 This code may compile, but won't execute.

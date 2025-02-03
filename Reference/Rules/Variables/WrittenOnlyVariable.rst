@@ -1,26 +1,49 @@
 .. _variables-writtenonlyvariable:
 
+
 .. _written-only-variables:
 
 Written Only Variables
 ++++++++++++++++++++++
 
+
 .. meta::
+
 	:description:
+
 		Written Only Variables: Those variables are being written, but never read.
+
 	:twitter:card: summary_large_image
+
 	:twitter:site: @exakat
+
 	:twitter:title: Written Only Variables
+
 	:twitter:description: Written Only Variables: Those variables are being written, but never read
+
 	:twitter:creator: @exakat
+
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:title: Written Only Variables
+
 	:og:type: article
+
 	:og:description: Those variables are being written, but never read
+
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Written Only Variables.html
+
 	:og:locale: en
-.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Variables\/WrittenOnlyVariable.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Variables\/WrittenOnlyVariable.html","name":"Written Only Variables","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Those variables are being written, but never read","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Written Only Variables.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Those variables are being written, but never read. In this way, they are useless and should be removed, or be read at some point in the code.
+
+
+.. raw:: html
+
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Variables\/WrittenOnlyVariable.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Variables\/WrittenOnlyVariable.html","name":"Written Only Variables","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Those variables are being written, but never read","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Written Only Variables.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
+Those variables are being written, but never read. In this way, they are useless and should be removed, or be read at some point in the code.
 
 When the variables are only written, it takes time to process them, while discarding their `result <https://www.php.net/result>`_ without usage. Also, when those variables are built with a complex process, it makes it difficult to understand their point, and still create maintenance work.
 

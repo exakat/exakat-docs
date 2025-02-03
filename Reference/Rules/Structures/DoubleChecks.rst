@@ -1,26 +1,49 @@
 .. _structures-doublechecks:
 
+
 .. _double-checks:
 
 Double Checks
 +++++++++++++
 
+
 .. meta::
+
 	:description:
+
 		Double Checks: Double checks happen when data is checked at one point, and then, checked again, with the same test, in a following call.
+
 	:twitter:card: summary_large_image
+
 	:twitter:site: @exakat
+
 	:twitter:title: Double Checks
+
 	:twitter:description: Double Checks: Double checks happen when data is checked at one point, and then, checked again, with the same test, in a following call
+
 	:twitter:creator: @exakat
+
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:title: Double Checks
+
 	:og:type: article
+
 	:og:description: Double checks happen when data is checked at one point, and then, checked again, with the same test, in a following call
+
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Double Checks.html
+
 	:og:locale: en
-.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/DoubleChecks.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/DoubleChecks.html","name":"Double Checks","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Double checks happen when data is checked at one point, and then, checked again, with the same test, in a following call","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Double Checks.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Double checks happen when data is checked at one point, and then, checked again, with the same test, in a following call.
+
+
+.. raw:: html
+
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/DoubleChecks.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/DoubleChecks.html","name":"Double Checks","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Double checks happen when data is checked at one point, and then, checked again, with the same test, in a following call","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Double Checks.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
+Double checks happen when data is checked at one point, and then, checked again, with the same test, in a following call.
 
 Some of the testing may be pushed to the type system, for example `is_int() <https://www.php.net/is_int>`_ and ``int`` type. Others can't, as the check is not integrated in the type system, such as `is_readable() <https://www.php.net/is_readable>`_ and ``string``, for a path. 
 

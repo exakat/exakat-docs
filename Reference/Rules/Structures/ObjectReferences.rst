@@ -1,26 +1,49 @@
 .. _structures-objectreferences:
 
+
 .. _objects-don't-need-references:
 
 Objects Don't Need References
 +++++++++++++++++++++++++++++
 
+
 .. meta::
+
 	:description:
+
 		Objects Don't Need References: There is no need to add references to parameters for objects, as those are always passed by reference when used as arguments.
+
 	:twitter:card: summary_large_image
+
 	:twitter:site: @exakat
+
 	:twitter:title: Objects Don't Need References
+
 	:twitter:description: Objects Don't Need References: There is no need to add references to parameters for objects, as those are always passed by reference when used as arguments
+
 	:twitter:creator: @exakat
+
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:title: Objects Don't Need References
+
 	:og:type: article
+
 	:og:description: There is no need to add references to parameters for objects, as those are always passed by reference when used as arguments
+
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Objects Don't Need References.html
+
 	:og:locale: en
-.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/ObjectReferences.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/ObjectReferences.html","name":"Objects Don't Need References","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"There is no need to add references to parameters for objects, as those are always passed by reference when used as arguments","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Objects Don't Need References.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>There is no need to add references to parameters for objects, as those are always passed by reference when used as arguments.
+
+
+.. raw:: html
+
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/ObjectReferences.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/ObjectReferences.html","name":"Objects Don't Need References","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"There is no need to add references to parameters for objects, as those are always passed by reference when used as arguments","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Objects Don't Need References.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
+There is no need to add references to parameters for objects, as those are always passed by reference when used as arguments.
 
 Reference operator is needed when the object are replaced inside the method with a new value (or a clone), as whole. Calls to methods or property modifications do not require extra reference.
 

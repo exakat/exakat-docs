@@ -1,26 +1,49 @@
 .. _classes-wrongtypedpropertyinit:
 
+
 .. _wrong-typed-property-default:
 
 Wrong Typed Property Default
 ++++++++++++++++++++++++++++
 
+
 .. meta::
+
 	:description:
+
 		Wrong Typed Property Default: Property is typed, yet receives an incompatible value at constructor time.
+
 	:twitter:card: summary_large_image
+
 	:twitter:site: @exakat
+
 	:twitter:title: Wrong Typed Property Default
+
 	:twitter:description: Wrong Typed Property Default: Property is typed, yet receives an incompatible value at constructor time
+
 	:twitter:creator: @exakat
+
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:title: Wrong Typed Property Default
+
 	:og:type: article
+
 	:og:description: Property is typed, yet receives an incompatible value at constructor time
+
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Wrong Typed Property Default.html
+
 	:og:locale: en
-.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/WrongTypedPropertyInit.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/WrongTypedPropertyInit.html","name":"Wrong Typed Property Default","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 21 Jan 2025 08:40:17 +0000","dateModified":"Tue, 21 Jan 2025 08:40:17 +0000","description":"Property is typed, yet receives an incompatible value at constructor time","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Wrong Typed Property Default.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Property is typed, yet receives an incompatible value at constructor time.
+
+
+.. raw:: html
+
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/WrongTypedPropertyInit.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/WrongTypedPropertyInit.html","name":"Wrong Typed Property Default","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 21 Jan 2025 08:40:17 +0000","dateModified":"Tue, 21 Jan 2025 08:40:17 +0000","description":"Property is typed, yet receives an incompatible value at constructor time","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Wrong Typed Property Default.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
+Property is typed, yet receives an incompatible value at constructor time.
 
 Initialized type might be a new instance, the return of a method call or an interface compatible object.
 

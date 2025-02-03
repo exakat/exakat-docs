@@ -1,26 +1,49 @@
 .. _performances-issetwholearray:
 
+
 .. _isset()-on-the-whole-array:
 
 Isset() On The Whole Array
 ++++++++++++++++++++++++++
 
+
 .. meta::
+
 	:description:
+
 		Isset() On The Whole Array: Isset() works quietly on a whole array.
+
 	:twitter:card: summary_large_image
+
 	:twitter:site: @exakat
+
 	:twitter:title: Isset() On The Whole Array
+
 	:twitter:description: Isset() On The Whole Array: Isset() works quietly on a whole array
+
 	:twitter:creator: @exakat
+
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:title: Isset() On The Whole Array
+
 	:og:type: article
+
 	:og:description: Isset() works quietly on a whole array
+
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Isset() On The Whole Array.html
+
 	:og:locale: en
-.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Performances\/IssetWholeArray.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Performances\/IssetWholeArray.html","name":"Isset() On The Whole Array","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Isset() works quietly on a whole array","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Isset() On The Whole Array.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>`Isset() <https://www.www.php.net/isset>`_ works quietly on a whole array. There is no need to test all previous index before testing for the target index.
+
+
+.. raw:: html
+
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Performances\/IssetWholeArray.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Performances\/IssetWholeArray.html","name":"Isset() On The Whole Array","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Isset() works quietly on a whole array","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Isset() On The Whole Array.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
+`Isset() <https://www.www.php.net/isset>`_ works quietly on a whole array. There is no need to test all previous index before testing for the target index.
 
 It also works on chained properties. 
 There is a gain in readability, by avoiding long and hard to read logical expression, and reducing them in one simple `isset() <https://www.www.php.net/isset>`_ call.

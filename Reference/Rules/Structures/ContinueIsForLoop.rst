@@ -1,26 +1,49 @@
 .. _structures-continueisforloop:
 
+
 .. _continue-is-for-loop:
 
 Continue Is For Loop
 ++++++++++++++++++++
 
+
 .. meta::
+
 	:description:
+
 		Continue Is For Loop: break and continue are very similar in PHP : they both break out of loop or switch.
+
 	:twitter:card: summary_large_image
+
 	:twitter:site: @exakat
+
 	:twitter:title: Continue Is For Loop
+
 	:twitter:description: Continue Is For Loop: break and continue are very similar in PHP : they both break out of loop or switch
+
 	:twitter:creator: @exakat
+
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:title: Continue Is For Loop
+
 	:og:type: article
+
 	:og:description: break and continue are very similar in PHP : they both break out of loop or switch
+
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Continue Is For Loop.html
+
 	:og:locale: en
-.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/ContinueIsForLoop.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/ContinueIsForLoop.html","name":"Continue Is For Loop","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 16 Jan 2025 17:40:16 +0000","dateModified":"Thu, 16 Jan 2025 17:40:16 +0000","description":"break and continue are very similar in PHP : they both break out of loop or switch","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Continue Is For Loop.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>`break <https://www.php.net/manual/en/control-structures.break.php>`_ and `continue <https://www.php.net/manual/en/control-structures.continue.php>`_ are very similar in PHP : they both `break <https://www.php.net/manual/en/control-structures.break.php>`_ out of loop or switch. Yet, `continue <https://www.php.net/manual/en/control-structures.continue.php>`_ should be reserved for loops.
+
+
+.. raw:: html
+
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/ContinueIsForLoop.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/ContinueIsForLoop.html","name":"Continue Is For Loop","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 16 Jan 2025 17:40:16 +0000","dateModified":"Thu, 16 Jan 2025 17:40:16 +0000","description":"break and continue are very similar in PHP : they both break out of loop or switch","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Continue Is For Loop.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
+`break <https://www.php.net/manual/en/control-structures.break.php>`_ and `continue <https://www.php.net/manual/en/control-structures.continue.php>`_ are very similar in PHP : they both `break <https://www.php.net/manual/en/control-structures.break.php>`_ out of loop or switch. Yet, `continue <https://www.php.net/manual/en/control-structures.continue.php>`_ should be reserved for loops.
 
 Since PHP 7.3, the execution emits a warning when finding a ``continue`` inside a ``switch`` : '"`continue <https://www.php.net/manual/en/control-structures.continue.php>`_" targeting switch is equivalent to "`break <https://www.php.net/manual/en/control-structures.break.php>`_". Did you mean to use "`continue <https://www.php.net/manual/en/control-structures.continue.php>`_ 2"?'
 

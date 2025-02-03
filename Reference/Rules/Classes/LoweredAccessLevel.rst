@@ -1,26 +1,49 @@
 .. _classes-loweredaccesslevel:
 
+
 .. _lowered-access-level:
 
 Lowered Access Level
 ++++++++++++++++++++
 
+
 .. meta::
+
 	:description:
+
 		Lowered Access Level: A visibility was lowered.
+
 	:twitter:card: summary_large_image
+
 	:twitter:site: @exakat
+
 	:twitter:title: Lowered Access Level
+
 	:twitter:description: Lowered Access Level: A visibility was lowered
+
 	:twitter:creator: @exakat
+
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:title: Lowered Access Level
+
 	:og:type: article
+
 	:og:description: A visibility was lowered
+
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Lowered Access Level.html
+
 	:og:locale: en
-.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/LoweredAccessLevel.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/LoweredAccessLevel.html","name":"Lowered Access Level","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:17 +0000","dateModified":"Fri, 10 Jan 2025 09:46:17 +0000","description":"A visibility was lowered","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Lowered Access Level.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>A visibility was lowered. While this is a PHP feature, lowering visibility means that the data is now available to more actors than previously set up, and it might yield surprises to part of the code that still rely on the previous visibility.
+
+
+.. raw:: html
+
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/LoweredAccessLevel.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/LoweredAccessLevel.html","name":"Lowered Access Level","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:17 +0000","dateModified":"Fri, 10 Jan 2025 09:46:17 +0000","description":"A visibility was lowered","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Lowered Access Level.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
+A visibility was lowered. While this is a PHP feature, lowering visibility means that the data is now available to more actors than previously set up, and it might yield surprises to part of the code that still rely on the previous visibility.
 
 This applies to all visibility's structures : class constant, properties and methods.
 

@@ -1,26 +1,49 @@
 .. _attributes-mustusereturnreturns:
 
+
 .. _must-use-result,-so-it-returns:
 
 Must Use Result, So It Returns
 ++++++++++++++++++++++++++++++
 
+
 .. meta::
+
 	:description:
+
 		Must Use Result, So It Returns: A method or function that uses the #[MustUseResult] attribute, must return a value.
+
 	:twitter:card: summary_large_image
+
 	:twitter:site: @exakat
+
 	:twitter:title: Must Use Result, So It Returns
+
 	:twitter:description: Must Use Result, So It Returns: A method or function that uses the #[MustUseResult] attribute, must return a value
+
 	:twitter:creator: @exakat
+
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:title: Must Use Result, So It Returns
+
 	:og:type: article
+
 	:og:description: A method or function that uses the #[MustUseResult] attribute, must return a value
+
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Must Use Result, So It Returns.html
+
 	:og:locale: en
-.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Attributes\/MustUseReturnReturns.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Attributes\/MustUseReturnReturns.html","name":"Must Use Result, So It Returns","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Jan 2025 10:53:43 +0000","dateModified":"Mon, 13 Jan 2025 10:53:43 +0000","description":"A method or function that uses the #[MustUseResult] attribute, must return a value","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Must Use Result, So It Returns.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>A method or function that uses the #[MustUseResult] `attribute <https://www.php.net/attribute>`_, must return a value. 
+
+
+.. raw:: html
+
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Attributes\/MustUseReturnReturns.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Attributes\/MustUseReturnReturns.html","name":"Must Use Result, So It Returns","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 13 Jan 2025 10:53:43 +0000","dateModified":"Mon, 13 Jan 2025 10:53:43 +0000","description":"A method or function that uses the #[MustUseResult] attribute, must return a value","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Must Use Result, So It Returns.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
+A method or function that uses the #[MustUseResult] `attribute <https://www.php.net/attribute>`_, must return a value. 
 
 Hence, it cannot use the ``void`` and ``never`` returntypes, and it must use a ``return`` in the body of the method.
 

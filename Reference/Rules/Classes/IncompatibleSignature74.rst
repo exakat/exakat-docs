@@ -1,26 +1,49 @@
 .. _classes-incompatiblesignature74:
 
+
 .. _incompatible-signature-methods-with-covariance:
 
 Incompatible Signature Methods With Covariance
 ++++++++++++++++++++++++++++++++++++++++++++++
 
+
 .. meta::
+
 	:description:
+
 		Incompatible Signature Methods With Covariance: Methods should have the compatible signature when being overwritten.
+
 	:twitter:card: summary_large_image
+
 	:twitter:site: @exakat
+
 	:twitter:title: Incompatible Signature Methods With Covariance
+
 	:twitter:description: Incompatible Signature Methods With Covariance: Methods should have the compatible signature when being overwritten
+
 	:twitter:creator: @exakat
+
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:title: Incompatible Signature Methods With Covariance
+
 	:og:type: article
+
 	:og:description: Methods should have the compatible signature when being overwritten
+
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Incompatible Signature Methods With Covariance.html
+
 	:og:locale: en
-.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/IncompatibleSignature74.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/IncompatibleSignature74.html","name":"Incompatible Signature Methods With Covariance","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 21 Jan 2025 08:40:17 +0000","dateModified":"Tue, 21 Jan 2025 08:40:17 +0000","description":"Methods should have the compatible signature when being overwritten","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Incompatible Signature Methods With Covariance.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Methods should have the compatible signature when being overwritten.
+
+
+.. raw:: html
+
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/IncompatibleSignature74.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/IncompatibleSignature74.html","name":"Incompatible Signature Methods With Covariance","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 21 Jan 2025 08:40:17 +0000","dateModified":"Tue, 21 Jan 2025 08:40:17 +0000","description":"Methods should have the compatible signature when being overwritten","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Incompatible Signature Methods With Covariance.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
+Methods should have the compatible signature when being overwritten.
 
 The same signatures means the children class must have : 
 

@@ -1,26 +1,49 @@
 .. _structures-directlyusefile:
 
+
 .. _directly-use-file:
 
 Directly Use File
 +++++++++++++++++
 
+
 .. meta::
+
 	:description:
+
 		Directly Use File: Some PHP functions have a close cousin that work directly on files.
+
 	:twitter:card: summary_large_image
+
 	:twitter:site: @exakat
+
 	:twitter:title: Directly Use File
+
 	:twitter:description: Directly Use File: Some PHP functions have a close cousin that work directly on files
+
 	:twitter:creator: @exakat
+
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:title: Directly Use File
+
 	:og:type: article
+
 	:og:description: Some PHP functions have a close cousin that work directly on files
+
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Directly Use File.html
+
 	:og:locale: en
-.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/DirectlyUseFile.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/DirectlyUseFile.html","name":"Directly Use File","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Some PHP functions have a close cousin that work directly on files","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Directly Use File.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Some PHP functions have a close cousin that work directly on files. This is faster and less code to write.
+
+
+.. raw:: html
+
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/DirectlyUseFile.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/DirectlyUseFile.html","name":"Directly Use File","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Some PHP functions have a close cousin that work directly on files","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Directly Use File.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
+Some PHP functions have a close cousin that work directly on files. This is faster and less code to write.
 
 * `md5() <https://www.php.net/md5>`_ => `md5_file() <https://www.php.net/md5_file>`_
 * `highlight_string() <https://www.php.net/highlight_string>`_ => `highlight_file() <https://www.php.net/highlight_file>`_, `show_source() <https://www.php.net/show_source>`_

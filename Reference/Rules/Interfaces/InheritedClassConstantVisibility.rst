@@ -1,26 +1,49 @@
 .. _interfaces-inheritedclassconstantvisibility:
 
+
 .. _inherited-class-constant-visibility:
 
 Inherited Class Constant Visibility
 +++++++++++++++++++++++++++++++++++
 
+
 .. meta::
+
 	:description:
+
 		Inherited Class Constant Visibility: Visibility of class constant must be public, even when overwritten.
+
 	:twitter:card: summary_large_image
+
 	:twitter:site: @exakat
+
 	:twitter:title: Inherited Class Constant Visibility
+
 	:twitter:description: Inherited Class Constant Visibility: Visibility of class constant must be public, even when overwritten
+
 	:twitter:creator: @exakat
+
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:title: Inherited Class Constant Visibility
+
 	:og:type: article
+
 	:og:description: Visibility of class constant must be public, even when overwritten
+
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Inherited Class Constant Visibility.html
+
 	:og:locale: en
-.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Interfaces\/InheritedClassConstantVisibility.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Interfaces\/InheritedClassConstantVisibility.html","name":"Inherited Class Constant Visibility","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 22 Jan 2025 05:38:57 +0000","dateModified":"Wed, 22 Jan 2025 05:38:57 +0000","description":"Visibility of class constant must be public, even when overwritten","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Inherited Class Constant Visibility.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Visibility of class constant must be public, even when overwritten. 
+
+
+.. raw:: html
+
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Interfaces\/InheritedClassConstantVisibility.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Interfaces\/InheritedClassConstantVisibility.html","name":"Inherited Class Constant Visibility","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 22 Jan 2025 05:38:57 +0000","dateModified":"Wed, 22 Jan 2025 05:38:57 +0000","description":"Visibility of class constant must be public, even when overwritten","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Inherited Class Constant Visibility.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
+Visibility of class constant must be public, even when overwritten. 
 
 This was not checked until PHP 8.3, where it is now a Fatal `Error <https://www.php.net/error>`_. When the interface and the class are defined in different files, the `error <https://www.php.net/error>`_ appears at execution time.
 

@@ -1,26 +1,49 @@
 .. _performances-cachevariableoutsideloop:
 
+
 .. _cache-variable-outside-loop:
 
 Cache Variable Outside Loop
 +++++++++++++++++++++++++++
 
+
 .. meta::
+
 	:description:
+
 		Cache Variable Outside Loop: Avoid recalculating constant values inside the loop.
+
 	:twitter:card: summary_large_image
+
 	:twitter:site: @exakat
+
 	:twitter:title: Cache Variable Outside Loop
+
 	:twitter:description: Cache Variable Outside Loop: Avoid recalculating constant values inside the loop
+
 	:twitter:creator: @exakat
+
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:title: Cache Variable Outside Loop
+
 	:og:type: article
+
 	:og:description: Avoid recalculating constant values inside the loop
+
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Cache Variable Outside Loop.html
+
 	:og:locale: en
-.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Performances\/CacheVariableOutsideLoop.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Performances\/CacheVariableOutsideLoop.html","name":"Cache Variable Outside Loop","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Avoid recalculating constant values inside the loop","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Cache Variable Outside Loop.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Avoid recalculating constant values inside the loop.
+
+
+.. raw:: html
+
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Performances\/CacheVariableOutsideLoop.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Performances\/CacheVariableOutsideLoop.html","name":"Cache Variable Outside Loop","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Avoid recalculating constant values inside the loop","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Cache Variable Outside Loop.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
+Avoid recalculating constant values inside the loop.
 
 Do the calculation once, outside the loop, and then reuse the value in the body of the loop. 
 

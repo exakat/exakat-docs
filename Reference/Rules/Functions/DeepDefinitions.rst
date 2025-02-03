@@ -1,26 +1,49 @@
 .. _functions-deepdefinitions:
 
+
 .. _deep-definitions:
 
 Deep Definitions
 ++++++++++++++++
 
+
 .. meta::
+
 	:description:
+
 		Deep Definitions: Structures, such as functions, classes, interfaces, traits, enum, etc.
+
 	:twitter:card: summary_large_image
+
 	:twitter:site: @exakat
+
 	:twitter:title: Deep Definitions
+
 	:twitter:description: Deep Definitions: Structures, such as functions, classes, interfaces, traits, enum, etc
+
 	:twitter:creator: @exakat
+
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:title: Deep Definitions
+
 	:og:type: article
+
 	:og:description: Structures, such as functions, classes, interfaces, traits, enum, etc
+
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Deep Definitions.html
+
 	:og:locale: en
-.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Functions\/DeepDefinitions.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Functions\/DeepDefinitions.html","name":"Deep Definitions","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Structures, such as functions, classes, interfaces, traits, enum, etc","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Deep Definitions.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Structures, such as functions, classes, interfaces, traits, enum, etc. may be defined anywhere in the code, including inside functions. This is legit code for PHP. 
+
+
+.. raw:: html
+
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Functions\/DeepDefinitions.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Functions\/DeepDefinitions.html","name":"Deep Definitions","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Structures, such as functions, classes, interfaces, traits, enum, etc","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Deep Definitions.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
+Structures, such as functions, classes, interfaces, traits, enum, etc. may be defined anywhere in the code, including inside functions. This is legit code for PHP. 
 
 Since the availability of autoload, with spl_register_autoload(), there is no need for that kind of code. Structures should be defined, and accessible to the autoloading. Inclusions and deep definitions should be avoided, as they compel code to load some definitions, while autoloading will only load them if needed. 
 Functions are excluded from autoload, but shall be gathered in libraries, and not hidden inside other code.

@@ -1,26 +1,49 @@
 .. _classes-thisisforclasses:
 
+
 .. _$this-belongs-to-classes-or-traits:
 
 $this Belongs To Classes Or Traits
 ++++++++++++++++++++++++++++++++++
 
+
 .. meta::
+
 	:description:
+
 		$this Belongs To Classes Or Traits: The pseudo-variable $this must be used inside a class or trait, or bound closures.
+
 	:twitter:card: summary_large_image
+
 	:twitter:site: @exakat
+
 	:twitter:title: $this Belongs To Classes Or Traits
+
 	:twitter:description: $this Belongs To Classes Or Traits: The pseudo-variable $this must be used inside a class or trait, or bound closures
+
 	:twitter:creator: @exakat
+
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:title: $this Belongs To Classes Or Traits
+
 	:og:type: article
+
 	:og:description: The pseudo-variable $this must be used inside a class or trait, or bound closures
+
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/$this Belongs To Classes Or Traits.html
+
 	:og:locale: en
-.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/ThisIsForClasses.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/ThisIsForClasses.html","name":"$this Belongs To Classes Or Traits","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 21 Jan 2025 08:40:17 +0000","dateModified":"Tue, 21 Jan 2025 08:40:17 +0000","description":"The pseudo-variable $this must be used inside a class or trait, or bound closures","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/$this Belongs To Classes Or Traits.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>The pseudo-variable `$this <https://www.php.net/manual/en/language.oop5.basic.php>`_ must be used inside a class or trait, or bound closures. 
+
+
+.. raw:: html
+
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/ThisIsForClasses.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/ThisIsForClasses.html","name":"$this Belongs To Classes Or Traits","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 21 Jan 2025 08:40:17 +0000","dateModified":"Tue, 21 Jan 2025 08:40:17 +0000","description":"The pseudo-variable $this must be used inside a class or trait, or bound closures","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/$this Belongs To Classes Or Traits.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
+The pseudo-variable `$this <https://www.php.net/manual/en/language.oop5.basic.php>`_ must be used inside a class or trait, or bound closures. 
 
 `$this <https://www.php.net/manual/en/language.oop5.basic.php>`_ variable represents the current object, inside a class or trait scope
 

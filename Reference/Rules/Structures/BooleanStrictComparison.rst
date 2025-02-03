@@ -1,26 +1,49 @@
 .. _structures-booleanstrictcomparison:
 
+
 .. _strict-comparison-with-booleans:
 
 Strict Comparison With Booleans
 +++++++++++++++++++++++++++++++
 
+
 .. meta::
+
 	:description:
+
 		Strict Comparison With Booleans: Strict comparisons prevent mistaking an error with a false.
+
 	:twitter:card: summary_large_image
+
 	:twitter:site: @exakat
+
 	:twitter:title: Strict Comparison With Booleans
+
 	:twitter:description: Strict Comparison With Booleans: Strict comparisons prevent mistaking an error with a false
+
 	:twitter:creator: @exakat
+
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:title: Strict Comparison With Booleans
+
 	:og:type: article
+
 	:og:description: Strict comparisons prevent mistaking an error with a false
+
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Strict Comparison With Booleans.html
+
 	:og:locale: en
-.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/BooleanStrictComparison.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/BooleanStrictComparison.html","name":"Strict Comparison With Booleans","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Strict comparisons prevent mistaking an error with a false","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Strict Comparison With Booleans.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Strict comparisons prevent mistaking an `error <https://www.php.net/error>`_ with a false. 
+
+
+.. raw:: html
+
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/BooleanStrictComparison.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/BooleanStrictComparison.html","name":"Strict Comparison With Booleans","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Strict comparisons prevent mistaking an error with a false","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Strict Comparison With Booleans.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
+Strict comparisons prevent mistaking an `error <https://www.php.net/error>`_ with a false. 
 
 Boolean values may be easily mistaken with other values, especially when the function may return integer or boolean as a normal course of action. 
 

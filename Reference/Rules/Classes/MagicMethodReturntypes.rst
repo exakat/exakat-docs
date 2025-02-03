@@ -1,26 +1,49 @@
 .. _classes-magicmethodreturntypes:
 
+
 .. _magic-method-returntype-is-restricted:
 
 Magic Method Returntype Is Restricted
 +++++++++++++++++++++++++++++++++++++
 
+
 .. meta::
+
 	:description:
+
 		Magic Method Returntype Is Restricted: Some PHP magic method have compulsory return types.
+
 	:twitter:card: summary_large_image
+
 	:twitter:site: @exakat
+
 	:twitter:title: Magic Method Returntype Is Restricted
+
 	:twitter:description: Magic Method Returntype Is Restricted: Some PHP magic method have compulsory return types
+
 	:twitter:creator: @exakat
+
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:title: Magic Method Returntype Is Restricted
+
 	:og:type: article
+
 	:og:description: Some PHP magic method have compulsory return types
+
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Magic Method Returntype Is Restricted.html
+
 	:og:locale: en
-.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/MagicMethodReturntypes.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/MagicMethodReturntypes.html","name":"Magic Method Returntype Is Restricted","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 21 Jan 2025 08:40:17 +0000","dateModified":"Tue, 21 Jan 2025 08:40:17 +0000","description":"Some PHP magic method have compulsory return types","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Magic Method Returntype Is Restricted.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Some PHP magic method have compulsory return types. This means that the type is compulsory, and it is applied by default, even if it is explicitely omitted. On the other hand, any other type is forbidden, and reported as such by PHP. 
+
+
+.. raw:: html
+
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/MagicMethodReturntypes.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/MagicMethodReturntypes.html","name":"Magic Method Returntype Is Restricted","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 21 Jan 2025 08:40:17 +0000","dateModified":"Tue, 21 Jan 2025 08:40:17 +0000","description":"Some PHP magic method have compulsory return types","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Magic Method Returntype Is Restricted.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
+Some PHP magic method have compulsory return types. This means that the type is compulsory, and it is applied by default, even if it is explicitely omitted. On the other hand, any other type is forbidden, and reported as such by PHP. 
 
 + `__destruct() <https://www.php.net/manual/en/language.oop5.decon.php>`_ : ``void``
 + `__construct() <https://www.php.net/manual/en/language.oop5.decon.php>`_ : ``void``

@@ -1,26 +1,49 @@
 .. _structures-usesametypesforcomparisons:
 
+
 .. _use-same-types-for-comparisons:
 
 Use Same Types For Comparisons
 ++++++++++++++++++++++++++++++
 
+
 .. meta::
+
 	:description:
+
 		Use Same Types For Comparisons: Beware when using inequality operators that the type of the values are the same on both sites of the operators.
+
 	:twitter:card: summary_large_image
+
 	:twitter:site: @exakat
+
 	:twitter:title: Use Same Types For Comparisons
+
 	:twitter:description: Use Same Types For Comparisons: Beware when using inequality operators that the type of the values are the same on both sites of the operators
+
 	:twitter:creator: @exakat
+
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:title: Use Same Types For Comparisons
+
 	:og:type: article
+
 	:og:description: Beware when using inequality operators that the type of the values are the same on both sites of the operators
+
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Use Same Types For Comparisons.html
+
 	:og:locale: en
-.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/UseSameTypesForComparisons.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/UseSameTypesForComparisons.html","name":"Use Same Types For Comparisons","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Beware when using inequality operators that the type of the values are the same on both sites of the operators","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Use Same Types For Comparisons.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Beware when using inequality operators that the type of the values are the same on both sites of the operators.
+
+
+.. raw:: html
+
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/UseSameTypesForComparisons.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/UseSameTypesForComparisons.html","name":"Use Same Types For Comparisons","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Beware when using inequality operators that the type of the values are the same on both sites of the operators","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Use Same Types For Comparisons.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
+Beware when using inequality operators that the type of the values are the same on both sites of the operators.
 
 Different types may lead to PHP type juggling, where the values are first cast to one of the used types. Other comparisons are always failing, leading to unexpected behavior.
 

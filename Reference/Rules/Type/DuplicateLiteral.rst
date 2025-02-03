@@ -1,26 +1,49 @@
 .. _type-duplicateliteral:
 
+
 .. _duplicate-literal:
 
 Duplicate Literal
 +++++++++++++++++
 
+
 .. meta::
+
 	:description:
+
 		Duplicate Literal: Report literals that are repeated across the code.
+
 	:twitter:card: summary_large_image
+
 	:twitter:site: @exakat
+
 	:twitter:title: Duplicate Literal
+
 	:twitter:description: Duplicate Literal: Report literals that are repeated across the code
+
 	:twitter:creator: @exakat
+
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:title: Duplicate Literal
+
 	:og:type: article
+
 	:og:description: Report literals that are repeated across the code
+
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Duplicate Literal.html
+
 	:og:locale: en
-.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Type\/DuplicateLiteral.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Type\/DuplicateLiteral.html","name":"Duplicate Literal","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Report literals that are repeated across the code","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Duplicate Literal.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Report literals that are repeated across the code. The minimum replication is 5, and is configurable with ``maxDuplicate``.
+
+
+.. raw:: html
+
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Type\/DuplicateLiteral.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Type\/DuplicateLiteral.html","name":"Duplicate Literal","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Report literals that are repeated across the code","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Duplicate Literal.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
+Report literals that are repeated across the code. The minimum replication is 5, and is configurable with ``maxDuplicate``.
 
 Repeated literals should be considered a prime candidate for constants.
 

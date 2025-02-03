@@ -1,26 +1,49 @@
 .. _functions-methodisnotanif:
 
+
 .. _method-is-not-an-if:
 
 Method Is Not An If
 +++++++++++++++++++
 
+
 .. meta::
+
 	:description:
+
 		Method Is Not An If: When a method consists only in one if statement, it might be worth refactoring.
+
 	:twitter:card: summary_large_image
+
 	:twitter:site: @exakat
+
 	:twitter:title: Method Is Not An If
+
 	:twitter:description: Method Is Not An If: When a method consists only in one if statement, it might be worth refactoring
+
 	:twitter:creator: @exakat
+
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:title: Method Is Not An If
+
 	:og:type: article
+
 	:og:description: When a method consists only in one if statement, it might be worth refactoring
+
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Method Is Not An If.html
+
 	:og:locale: en
-.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Functions\/MethodIsNotAnIf.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Functions\/MethodIsNotAnIf.html","name":"Method Is Not An If","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 21 Jan 2025 08:40:17 +0000","dateModified":"Tue, 21 Jan 2025 08:40:17 +0000","description":"When a method consists only in one if statement, it might be worth refactoring","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Method Is Not An If.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>When a method consists only in one if statement, it might be worth refactoring. 
+
+
+.. raw:: html
+
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Functions\/MethodIsNotAnIf.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Functions\/MethodIsNotAnIf.html","name":"Method Is Not An If","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 21 Jan 2025 08:40:17 +0000","dateModified":"Tue, 21 Jan 2025 08:40:17 +0000","description":"When a method consists only in one if statement, it might be worth refactoring","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Method Is Not An If.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
+When a method consists only in one if statement, it might be worth refactoring. 
 
 Each of the blocks of the if/then structure may be turned into their own method, so has to keep operations distinct. 
 

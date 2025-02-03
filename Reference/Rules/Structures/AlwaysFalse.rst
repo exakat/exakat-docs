@@ -1,26 +1,49 @@
 .. _structures-alwaysfalse:
 
+
 .. _comparison-is-always-the-same:
 
 Comparison Is Always The Same
 +++++++++++++++++++++++++++++
 
+
 .. meta::
+
 	:description:
+
 		Comparison Is Always The Same: Based on the incoming type of arguments, the comparison always yields the same value.
+
 	:twitter:card: summary_large_image
+
 	:twitter:site: @exakat
+
 	:twitter:title: Comparison Is Always The Same
+
 	:twitter:description: Comparison Is Always The Same: Based on the incoming type of arguments, the comparison always yields the same value
+
 	:twitter:creator: @exakat
+
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:title: Comparison Is Always The Same
+
 	:og:type: article
+
 	:og:description: Based on the incoming type of arguments, the comparison always yields the same value
+
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Comparison Is Always The Same.html
+
 	:og:locale: en
-.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/AlwaysFalse.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/AlwaysFalse.html","name":"Comparison Is Always The Same","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Based on the incoming type of arguments, the comparison always yields the same value","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Comparison Is Always The Same.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Based on the incoming type of arguments, the comparison always yields the same value. The whole condition might be useless.
+
+
+.. raw:: html
+
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/AlwaysFalse.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/AlwaysFalse.html","name":"Comparison Is Always The Same","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Based on the incoming type of arguments, the comparison always yields the same value","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Comparison Is Always The Same.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
+Based on the incoming type of arguments, the comparison always yields the same value. The whole condition might be useless.
 
 .. code-block:: php
    

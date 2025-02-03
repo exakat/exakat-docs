@@ -1,26 +1,49 @@
 .. _performances-arraykeyexistsspeedup:
 
+
 .. _array\_key\_exists()-speedup:
 
 array_key_exists() Speedup
 ++++++++++++++++++++++++++
 
+
 .. meta::
+
 	:description:
+
 		array_key_exists() Speedup: array_key_exists() has its own opcode, leading to better features and speed.
+
 	:twitter:card: summary_large_image
+
 	:twitter:site: @exakat
+
 	:twitter:title: array_key_exists() Speedup
+
 	:twitter:description: array_key_exists() Speedup: array_key_exists() has its own opcode, leading to better features and speed
+
 	:twitter:creator: @exakat
+
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:title: array_key_exists() Speedup
+
 	:og:type: article
+
 	:og:description: array_key_exists() has its own opcode, leading to better features and speed
+
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/array_key_exists() Speedup.html
+
 	:og:locale: en
-.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Performances\/ArrayKeyExistsSpeedup.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Performances\/ArrayKeyExistsSpeedup.html","name":"array_key_exists() Speedup","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"array_key_exists() has its own opcode, leading to better features and speed","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/array_key_exists() Speedup.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>`array_key_exists() <https://www.php.net/array_key_exists>`_ has its own opcode, leading to better features and speed.
+
+
+.. raw:: html
+
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Performances\/ArrayKeyExistsSpeedup.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Performances\/ArrayKeyExistsSpeedup.html","name":"array_key_exists() Speedup","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"array_key_exists() has its own opcode, leading to better features and speed","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/array_key_exists() Speedup.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
+`array_key_exists() <https://www.php.net/array_key_exists>`_ has its own opcode, leading to better features and speed.
 
 `isset() <https://www.www.php.net/isset>`_ is faster for all non-empty values, but is limited when the value is `NULL <https://www.php.net/manual/en/language.types.null.php>`_ or empty : then, `array_key_exists() <https://www.php.net/array_key_exists>`_ has the good features.
 

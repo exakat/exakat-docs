@@ -1,26 +1,49 @@
 .. _traits-finaltraitsarefinal:
 
+
 .. _final-traits-are-final:
 
 Final Traits Are Final
 ++++++++++++++++++++++
 
+
 .. meta::
+
 	:description:
+
 		Final Traits Are Final: A final method in a trait is also final when in its importing class.
+
 	:twitter:card: summary_large_image
+
 	:twitter:site: @exakat
+
 	:twitter:title: Final Traits Are Final
+
 	:twitter:description: Final Traits Are Final: A final method in a trait is also final when in its importing class
+
 	:twitter:creator: @exakat
+
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:title: Final Traits Are Final
+
 	:og:type: article
+
 	:og:description: A final method in a trait is also final when in its importing class
+
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Final Traits Are Final.html
+
 	:og:locale: en
-.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Traits\/FinalTraitsAreFinal.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Traits\/FinalTraitsAreFinal.html","name":"Final Traits Are Final","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 21 Jan 2025 08:40:17 +0000","dateModified":"Tue, 21 Jan 2025 08:40:17 +0000","description":"A final method in a trait is also final when in its importing class","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Final Traits Are Final.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>A final method in a trait is also final when in its importing class. This means that the importing class may redefine it, but not the children.
+
+
+.. raw:: html
+
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Traits\/FinalTraitsAreFinal.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Traits\/FinalTraitsAreFinal.html","name":"Final Traits Are Final","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 21 Jan 2025 08:40:17 +0000","dateModified":"Tue, 21 Jan 2025 08:40:17 +0000","description":"A final method in a trait is also final when in its importing class","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Final Traits Are Final.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
+A final method in a trait is also final when in its importing class. This means that the importing class may redefine it, but not the children.
 
 .. code-block:: php
    

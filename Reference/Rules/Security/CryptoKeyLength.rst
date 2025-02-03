@@ -1,26 +1,49 @@
 .. _security-cryptokeylength:
 
+
 .. _check-crypto-key-length:
 
 Check Crypto Key Length
 +++++++++++++++++++++++
 
+
 .. meta::
+
 	:description:
+
 		Check Crypto Key Length: Each cryptography algorithm requires a reasonable length.
+
 	:twitter:card: summary_large_image
+
 	:twitter:site: @exakat
+
 	:twitter:title: Check Crypto Key Length
+
 	:twitter:description: Check Crypto Key Length: Each cryptography algorithm requires a reasonable length
+
 	:twitter:creator: @exakat
+
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:title: Check Crypto Key Length
+
 	:og:type: article
+
 	:og:description: Each cryptography algorithm requires a reasonable length
+
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Check Crypto Key Length.html
+
 	:og:locale: en
-.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Security\/CryptoKeyLength.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Security\/CryptoKeyLength.html","name":"Check Crypto Key Length","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Each cryptography algorithm requires a reasonable length","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Check Crypto Key Length.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Each cryptography algorithm requires a reasonable length. Make sure an up-to-date length is used. 
+
+
+.. raw:: html
+
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Security\/CryptoKeyLength.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Security\/CryptoKeyLength.html","name":"Check Crypto Key Length","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Each cryptography algorithm requires a reasonable length","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Check Crypto Key Length.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
+Each cryptography algorithm requires a reasonable length. Make sure an up-to-date length is used. 
 
 This rule use the following recommendations : 
 

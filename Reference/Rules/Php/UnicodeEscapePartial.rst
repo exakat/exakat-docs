@@ -1,26 +1,49 @@
 .. _php-unicodeescapepartial:
 
+
 .. _unicode-escape-partial:
 
 Unicode Escape Partial
 ++++++++++++++++++++++
 
+
 .. meta::
+
 	:description:
+
 		Unicode Escape Partial: PHP 7 introduces a new escape sequence for strings : \u{hex}.
+
 	:twitter:card: summary_large_image
+
 	:twitter:site: @exakat
+
 	:twitter:title: Unicode Escape Partial
+
 	:twitter:description: Unicode Escape Partial: PHP 7 introduces a new escape sequence for strings : \u{hex}
+
 	:twitter:creator: @exakat
+
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:title: Unicode Escape Partial
+
 	:og:type: article
+
 	:og:description: PHP 7 introduces a new escape sequence for strings : \u{hex}
+
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Unicode Escape Partial.html
+
 	:og:locale: en
-.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/UnicodeEscapePartial.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/UnicodeEscapePartial.html","name":"Unicode Escape Partial","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jan 2025 12:52:58 +0000","dateModified":"Tue, 14 Jan 2025 12:52:58 +0000","description":"PHP 7 introduces a new escape sequence for strings : \\u{hex}","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Unicode Escape Partial.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>PHP 7 introduces a new escape sequence for strings : \u{hex}. It is backward incompatible with previous PHP versions for two reasons : 
+
+
+.. raw:: html
+
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/UnicodeEscapePartial.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/UnicodeEscapePartial.html","name":"Unicode Escape Partial","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jan 2025 12:52:58 +0000","dateModified":"Tue, 14 Jan 2025 12:52:58 +0000","description":"PHP 7 introduces a new escape sequence for strings : \\u{hex}","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Unicode Escape Partial.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
+PHP 7 introduces a new escape sequence for strings : \u{hex}. It is backward incompatible with previous PHP versions for two reasons : 
 
 PHP 7 will recognize en replace those sequences, while PHP 5 keep them intact.
 PHP 7 will halt on partial Unicode Sequences, as it tries to understand them, but may fail. 

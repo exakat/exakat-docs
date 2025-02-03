@@ -1,26 +1,49 @@
 .. _php-concatandaddition:
 
+
 .. _concat-and-addition:
 
 Concat And Addition
 +++++++++++++++++++
 
+
 .. meta::
+
 	:description:
+
 		Concat And Addition: Precedence between addition and concatenation has changed.
+
 	:twitter:card: summary_large_image
+
 	:twitter:site: @exakat
+
 	:twitter:title: Concat And Addition
+
 	:twitter:description: Concat And Addition: Precedence between addition and concatenation has changed
+
 	:twitter:creator: @exakat
+
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:title: Concat And Addition
+
 	:og:type: article
+
 	:og:description: Precedence between addition and concatenation has changed
+
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Concat And Addition.html
+
 	:og:locale: en
-.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/ConcatAndAddition.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/ConcatAndAddition.html","name":"Concat And Addition","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:47:06 +0000","dateModified":"Fri, 10 Jan 2025 09:47:06 +0000","description":"Precedence between addition and concatenation has changed","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Concat And Addition.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Precedence between addition and concatenation has changed. In PHP 7.4, addition has precedence, and before, addition and concatenation had the same precedence.
+
+
+.. raw:: html
+
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/ConcatAndAddition.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/ConcatAndAddition.html","name":"Concat And Addition","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:47:06 +0000","dateModified":"Fri, 10 Jan 2025 09:47:06 +0000","description":"Precedence between addition and concatenation has changed","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Concat And Addition.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
+Precedence between addition and concatenation has changed. In PHP 7.4, addition has precedence, and before, addition and concatenation had the same precedence.
 
 From the RFC : ``Currently the precedence of '.', '+' and '-' operators are equal. Any combination of these operators are simply evaluated left-to-right``.
 

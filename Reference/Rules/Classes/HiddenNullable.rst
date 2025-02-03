@@ -1,26 +1,49 @@
 .. _classes-hiddennullable:
 
+
 .. _implicit-nullable-type:
 
 Implicit Nullable Type
 ++++++++++++++++++++++
 
+
 .. meta::
+
 	:description:
+
 		Implicit Nullable Type: Argument with default value of null are nullable.
+
 	:twitter:card: summary_large_image
+
 	:twitter:site: @exakat
+
 	:twitter:title: Implicit Nullable Type
+
 	:twitter:description: Implicit Nullable Type: Argument with default value of null are nullable
+
 	:twitter:creator: @exakat
+
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:title: Implicit Nullable Type
+
 	:og:type: article
+
 	:og:description: Argument with default value of null are nullable
+
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Implicit Nullable Type.html
+
 	:og:locale: en
-.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/HiddenNullable.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/HiddenNullable.html","name":"Implicit Nullable Type","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jan 2025 11:40:49 +0000","dateModified":"Tue, 14 Jan 2025 11:40:49 +0000","description":"Argument with default value of null are nullable","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Implicit Nullable Type.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Argument with default value of null are nullable. It works both with the ``null`` typehint (PHP 8.0), or the ``?`` operator are not used, setting the default value to null is allowed, and makes the argument nullable.
+
+
+.. raw:: html
+
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/HiddenNullable.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/HiddenNullable.html","name":"Implicit Nullable Type","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jan 2025 11:40:49 +0000","dateModified":"Tue, 14 Jan 2025 11:40:49 +0000","description":"Argument with default value of null are nullable","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Implicit Nullable Type.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
+Argument with default value of null are nullable. It works both with the ``null`` typehint (PHP 8.0), or the ``?`` operator are not used, setting the default value to null is allowed, and makes the argument nullable.
 
 This works with single types, both classes and scalars; it works with union types but not with intersection types. 
 

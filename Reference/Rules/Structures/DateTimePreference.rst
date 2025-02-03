@@ -1,26 +1,49 @@
 .. _structures-datetimepreference:
 
+
 .. _date()-versus-datetime-preference:
 
 date() versus DateTime Preference
 +++++++++++++++++++++++++++++++++
 
+
 .. meta::
+
 	:description:
+
 		date() versus DateTime Preference: Processing dates is done with date() functions or DateTime classes.
+
 	:twitter:card: summary_large_image
+
 	:twitter:site: @exakat
+
 	:twitter:title: date() versus DateTime Preference
+
 	:twitter:description: date() versus DateTime Preference: Processing dates is done with date() functions or DateTime classes
+
 	:twitter:creator: @exakat
+
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:title: date() versus DateTime Preference
+
 	:og:type: article
+
 	:og:description: Processing dates is done with date() functions or DateTime classes
+
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/date() versus DateTime Preference.html
+
 	:og:locale: en
-.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/DateTimePreference.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/DateTimePreference.html","name":"date() versus DateTime Preference","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Processing dates is done with date() functions or DateTime classes","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/date() versus DateTime Preference.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Processing dates is done with `date() <https://www.php.net/date>`_ functions or `DateTime <https://www.php.net/`datetime <https://www.php.net/datetime>`_>`_ classes. 
+
+
+.. raw:: html
+
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/DateTimePreference.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/DateTimePreference.html","name":"date() versus DateTime Preference","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Processing dates is done with date() functions or DateTime classes","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/date() versus DateTime Preference.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
+Processing dates is done with `date() <https://www.php.net/date>`_ functions or `DateTime <https://www.php.net/`datetime <https://www.php.net/datetime>`_>`_ classes. 
 
 In the `date() <https://www.php.net/date>`_ team, there are the following functions : `date() <https://www.php.net/date>`_, `time() <https://www.php.net/time>`_, `getdate() <https://www.php.net/getdate>`_, `localtime() <https://www.php.net/localtime>`_, `strtotime() <https://www.php.net/strtotime>`_, `strptime() <https://www.php.net/strptime>`_, `gmdate() <https://www.php.net/gmdate>`_, `strftime() <https://www.php.net/strftime>`_, `mktime() <https://www.php.net/mktime>`_, gmktime().
 

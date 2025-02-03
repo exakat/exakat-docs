@@ -1,26 +1,49 @@
 .. _structures-unsupportedoperandtypes:
 
+
 .. _unsupported-operand-types:
 
 Unsupported Operand Types
 +++++++++++++++++++++++++
 
+
 .. meta::
+
 	:description:
+
 		Unsupported Operand Types: This error is raised when trying to combine two values of incompatible type.
+
 	:twitter:card: summary_large_image
+
 	:twitter:site: @exakat
+
 	:twitter:title: Unsupported Operand Types
+
 	:twitter:description: Unsupported Operand Types: This error is raised when trying to combine two values of incompatible type
+
 	:twitter:creator: @exakat
+
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:title: Unsupported Operand Types
+
 	:og:type: article
+
 	:og:description: This error is raised when trying to combine two values of incompatible type
+
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Unsupported Operand Types.html
+
 	:og:locale: en
-.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/UnsupportedOperandTypes.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/UnsupportedOperandTypes.html","name":"Unsupported Operand Types","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 16 Jan 2025 17:40:16 +0000","dateModified":"Thu, 16 Jan 2025 17:40:16 +0000","description":"This error is raised when trying to combine two values of incompatible type","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Unsupported Operand Types.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>This `error <https://www.php.net/error>`_ is raised when trying to combine two values of incompatible type. For example, adding an array and an integer; adding an integer with an object; etc.
+
+
+.. raw:: html
+
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/UnsupportedOperandTypes.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/UnsupportedOperandTypes.html","name":"Unsupported Operand Types","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 16 Jan 2025 17:40:16 +0000","dateModified":"Thu, 16 Jan 2025 17:40:16 +0000","description":"This error is raised when trying to combine two values of incompatible type","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Unsupported Operand Types.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
+This `error <https://www.php.net/error>`_ is raised when trying to combine two values of incompatible type. For example, adding an array and an integer; adding an integer with an object; etc.
 
 Always checks that the types are compatible with the planned operations.
 

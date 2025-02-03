@@ -1,26 +1,49 @@
 .. _php-noreturnforgenerator:
 
+
 .. _no-return-for-generator:
 
 No Return For Generator
 +++++++++++++++++++++++
 
+
 .. meta::
+
 	:description:
+
 		No Return For Generator: Return is not allowed in a generator function.
+
 	:twitter:card: summary_large_image
+
 	:twitter:site: @exakat
+
 	:twitter:title: No Return For Generator
+
 	:twitter:description: No Return For Generator: Return is not allowed in a generator function
+
 	:twitter:creator: @exakat
+
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:title: No Return For Generator
+
 	:og:type: article
+
 	:og:description: Return is not allowed in a generator function
+
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No Return For Generator.html
+
 	:og:locale: en
-.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/NoReturnForGenerator.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/NoReturnForGenerator.html","name":"No Return For Generator","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jan 2025 12:52:58 +0000","dateModified":"Tue, 14 Jan 2025 12:52:58 +0000","description":"Return is not allowed in a generator function","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/No Return For Generator.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Return is not allowed in a `generator <https://www.php.net/`generator <https://www.php.net/generator>`_>`_ function. In PHP versions 5.5 and 5.6, they yield a fatal `Error <https://www.php.net/error>`_.
+
+
+.. raw:: html
+
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/NoReturnForGenerator.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/NoReturnForGenerator.html","name":"No Return For Generator","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jan 2025 12:52:58 +0000","dateModified":"Tue, 14 Jan 2025 12:52:58 +0000","description":"Return is not allowed in a generator function","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/No Return For Generator.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
+Return is not allowed in a `generator <https://www.php.net/`generator <https://www.php.net/generator>`_>`_ function. In PHP versions 5.5 and 5.6, they yield a fatal `Error <https://www.php.net/error>`_.
 
 .. code-block:: php
    

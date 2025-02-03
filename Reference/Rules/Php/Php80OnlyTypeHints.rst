@@ -1,26 +1,49 @@
 .. _php-php80onlytypehints:
 
+
 .. _php-8.0-only-typehints:
 
 Php 8.0 Only TypeHints
 ++++++++++++++++++++++
 
+
 .. meta::
+
 	:description:
+
 		Php 8.0 Only TypeHints: Three scalar typehints are introduced in version 8.
+
 	:twitter:card: summary_large_image
+
 	:twitter:site: @exakat
+
 	:twitter:title: Php 8.0 Only TypeHints
+
 	:twitter:description: Php 8.0 Only TypeHints: Three scalar typehints are introduced in version 8
+
 	:twitter:creator: @exakat
+
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:title: Php 8.0 Only TypeHints
+
 	:og:type: article
+
 	:og:description: Three scalar typehints are introduced in version 8
+
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Php 8.0 Only TypeHints.html
+
 	:og:locale: en
-.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/Php80OnlyTypeHints.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/Php80OnlyTypeHints.html","name":"Php 8.0 Only TypeHints","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Three scalar typehints are introduced in version 8","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Php 8.0 Only TypeHints.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Three scalar typehints are introduced in version 8.0. They are ``mixed``, ``false`` and ``null``. 
+
+
+.. raw:: html
+
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/Php80OnlyTypeHints.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/Php80OnlyTypeHints.html","name":"Php 8.0 Only TypeHints","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Three scalar typehints are introduced in version 8","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Php 8.0 Only TypeHints.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
+Three scalar typehints are introduced in version 8.0. They are ``mixed``, ``false`` and ``null``. 
 
 ``false`` represents a false boolean, and nothing else. It is more restrictive than a boolean, which accepts true too. 
 ``null`` is an alternative syntax to ``?`` : it allows the type to be ``null``. 

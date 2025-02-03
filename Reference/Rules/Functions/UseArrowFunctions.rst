@@ -1,26 +1,49 @@
 .. _functions-usearrowfunctions:
 
+
 .. _use-arrow-functions:
 
 Use Arrow Functions
 +++++++++++++++++++
 
+
 .. meta::
+
 	:description:
+
 		Use Arrow Functions: Arrow functions are closures that require one expression of code.
+
 	:twitter:card: summary_large_image
+
 	:twitter:site: @exakat
+
 	:twitter:title: Use Arrow Functions
+
 	:twitter:description: Use Arrow Functions: Arrow functions are closures that require one expression of code
+
 	:twitter:creator: @exakat
+
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:title: Use Arrow Functions
+
 	:og:type: article
+
 	:og:description: Arrow functions are closures that require one expression of code
+
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Use Arrow Functions.html
+
 	:og:locale: en
-.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Functions\/UseArrowFunctions.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Functions\/UseArrowFunctions.html","name":"Use Arrow Functions","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Arrow functions are closures that require one expression of code","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Use Arrow Functions.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Arrow functions are closures that require one expression of code. They also include all the variables of the current context, unless they are made `static <https://www.php.net/manual/en/language.oop5.static.php>`_.
+
+
+.. raw:: html
+
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Functions\/UseArrowFunctions.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Functions\/UseArrowFunctions.html","name":"Use Arrow Functions","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Arrow functions are closures that require one expression of code","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Use Arrow Functions.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
+Arrow functions are closures that require one expression of code. They also include all the variables of the current context, unless they are made `static <https://www.php.net/manual/en/language.oop5.static.php>`_.
 
 Arrow functions were introduced in PHP 7.4. They added the reserved keyword ``fn``.
 

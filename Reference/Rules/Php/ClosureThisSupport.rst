@@ -1,26 +1,49 @@
 .. _php-closurethissupport:
 
+
 .. _closure-may-use-$this:
 
 Closure May Use $this
 +++++++++++++++++++++
 
+
 .. meta::
+
 	:description:
+
 		Closure May Use $this: $this is automatically accessible to closures.
+
 	:twitter:card: summary_large_image
+
 	:twitter:site: @exakat
+
 	:twitter:title: Closure May Use $this
+
 	:twitter:description: Closure May Use $this: $this is automatically accessible to closures
+
 	:twitter:creator: @exakat
+
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:title: Closure May Use $this
+
 	:og:type: article
+
 	:og:description: $this is automatically accessible to closures
+
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Closure May Use $this.html
+
 	:og:locale: en
-.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/ClosureThisSupport.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/ClosureThisSupport.html","name":"Closure May Use $this","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 21 Jan 2025 08:40:17 +0000","dateModified":"Tue, 21 Jan 2025 08:40:17 +0000","description":"$this is automatically accessible to closures","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Closure May Use $this.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>`$this <https://www.php.net/manual/en/language.oop5.basic.php>`_ is automatically accessible to closures.
+
+
+.. raw:: html
+
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/ClosureThisSupport.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/ClosureThisSupport.html","name":"Closure May Use $this","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 21 Jan 2025 08:40:17 +0000","dateModified":"Tue, 21 Jan 2025 08:40:17 +0000","description":"$this is automatically accessible to closures","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Closure May Use $this.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
+`$this <https://www.php.net/manual/en/language.oop5.basic.php>`_ is automatically accessible to closures.
 
 When closures were introduced in PHP, they couldn't use the `$this <https://www.php.net/manual/en/language.oop5.basic.php>`_ variable, making is cumbersome to access local properties when the `closure <https://www.php.net/`closure <https://www.php.net/closure>`_>`_ was created within an object. 
 

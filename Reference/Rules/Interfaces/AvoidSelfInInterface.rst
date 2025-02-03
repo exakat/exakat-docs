@@ -1,26 +1,49 @@
 .. _interfaces-avoidselfininterface:
 
+
 .. _avoid-self-in-interface:
 
 Avoid Self In Interface
 +++++++++++++++++++++++
 
+
 .. meta::
+
 	:description:
+
 		Avoid Self In Interface: Self and Parent are tricky when used in an interface.
+
 	:twitter:card: summary_large_image
+
 	:twitter:site: @exakat
+
 	:twitter:title: Avoid Self In Interface
+
 	:twitter:description: Avoid Self In Interface: Self and Parent are tricky when used in an interface
+
 	:twitter:creator: @exakat
+
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:title: Avoid Self In Interface
+
 	:og:type: article
+
 	:og:description: Self and Parent are tricky when used in an interface
+
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Avoid Self In Interface.html
+
 	:og:locale: en
-.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Interfaces\/AvoidSelfInInterface.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Interfaces\/AvoidSelfInInterface.html","name":"Avoid Self In Interface","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 23 Jan 2025 14:24:26 +0000","dateModified":"Thu, 23 Jan 2025 14:24:26 +0000","description":"Self and Parent are tricky when used in an interface","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Avoid Self In Interface.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>`Self <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ and `Parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ are tricky when used in an interface. 
+
+
+.. raw:: html
+
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Interfaces\/AvoidSelfInInterface.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Interfaces\/AvoidSelfInInterface.html","name":"Avoid Self In Interface","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 23 Jan 2025 14:24:26 +0000","dateModified":"Thu, 23 Jan 2025 14:24:26 +0000","description":"Self and Parent are tricky when used in an interface","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Avoid Self In Interface.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
+`Self <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ and `Parent <https://www.php.net/manual/en/language.oop5.paamayim-nekudotayim.php>`_ are tricky when used in an interface. 
 
 ``self`` refers to the current interface or its extended parents : as long as the constant is defined in the interface family, this is valid.  On the other hand, when ``self`` refers to the current class, the resolution of names would happen at execution time, leading to undefined errors.
 

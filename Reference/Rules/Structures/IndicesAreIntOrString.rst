@@ -1,26 +1,49 @@
 .. _structures-indicesareintorstring:
 
+
 .. _indices-are-int-or-string:
 
 Indices Are Int Or String
 +++++++++++++++++++++++++
 
+
 .. meta::
+
 	:description:
+
 		Indices Are Int Or String: Indices in an array notation such as ``$array['indice']`` may only be integers or string.
+
 	:twitter:card: summary_large_image
+
 	:twitter:site: @exakat
+
 	:twitter:title: Indices Are Int Or String
+
 	:twitter:description: Indices Are Int Or String: Indices in an array notation such as ``$array['indice']`` may only be integers or string
+
 	:twitter:creator: @exakat
+
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:title: Indices Are Int Or String
+
 	:og:type: article
+
 	:og:description: Indices in an array notation such as ``$array['indice']`` may only be integers or string
+
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Indices Are Int Or String.html
+
 	:og:locale: en
-.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/IndicesAreIntOrString.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/IndicesAreIntOrString.html","name":"Indices Are Int Or String","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 23 Jan 2025 14:24:26 +0000","dateModified":"Thu, 23 Jan 2025 14:24:26 +0000","description":"Indices in an array notation such as ``$array['indice']`` may only be integers or string","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Indices Are Int Or String.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Indices in an array notation such as ``$array['indice']`` may only be integers or string.
+
+
+.. raw:: html
+
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/IndicesAreIntOrString.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/IndicesAreIntOrString.html","name":"Indices Are Int Or String","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 23 Jan 2025 14:24:26 +0000","dateModified":"Thu, 23 Jan 2025 14:24:26 +0000","description":"Indices in an array notation such as ``$array['indice']`` may only be integers or string","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Indices Are Int Or String.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
+Indices in an array notation such as ``$array['indice']`` may only be integers or string.
 
 Boolean, Null or float are converted to their integer or string equivalent.
 

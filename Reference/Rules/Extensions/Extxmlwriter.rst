@@ -1,26 +1,49 @@
 .. _extensions-extxmlwriter:
 
+
 .. _ext-xmlwriter:
 
 ext/xmlwriter
 +++++++++++++
 
+
 .. meta::
+
 	:description:
+
 		ext/xmlwriter: Extension ext/xmlwriter.
+
 	:twitter:card: summary_large_image
+
 	:twitter:site: @exakat
+
 	:twitter:title: ext/xmlwriter
+
 	:twitter:description: ext/xmlwriter: Extension ext/xmlwriter
+
 	:twitter:creator: @exakat
+
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:title: ext/xmlwriter
+
 	:og:type: article
+
 	:og:description: Extension ext/xmlwriter
+
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/xmlwriter.html
+
 	:og:locale: en
-.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Extensions\/Extxmlwriter.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Extensions\/Extxmlwriter.html","name":"ext\/xmlwriter","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:17 +0000","dateModified":"Fri, 10 Jan 2025 09:46:17 +0000","description":"Extension ext\/xmlwriter","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/ext\/xmlwriter.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Extension ext/`xmlwriter <https://www.php.net/xmlwriter>`_.
+
+
+.. raw:: html
+
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Extensions\/Extxmlwriter.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Extensions\/Extxmlwriter.html","name":"ext\/xmlwriter","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:17 +0000","dateModified":"Fri, 10 Jan 2025 09:46:17 +0000","description":"Extension ext\/xmlwriter","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/ext\/xmlwriter.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
+Extension ext/`xmlwriter <https://www.php.net/xmlwriter>`_.
 
 The `XMLWriter <https://www.php.net/xmlwriter>`_ extension wraps the libxml `xmlWriter <https://www.php.net/xmlwriter>`_ API inside PHP.
 

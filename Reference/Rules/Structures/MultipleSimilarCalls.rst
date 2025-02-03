@@ -1,26 +1,49 @@
 .. _structures-multiplesimilarcalls:
 
+
 .. _multiple-similar-calls:
 
 Multiple Similar Calls
 ++++++++++++++++++++++
 
+
 .. meta::
+
 	:description:
+
 		Multiple Similar Calls: Several calls are made to functions or methods in a row.
+
 	:twitter:card: summary_large_image
+
 	:twitter:site: @exakat
+
 	:twitter:title: Multiple Similar Calls
+
 	:twitter:description: Multiple Similar Calls: Several calls are made to functions or methods in a row
+
 	:twitter:creator: @exakat
+
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:title: Multiple Similar Calls
+
 	:og:type: article
+
 	:og:description: Several calls are made to functions or methods in a row
+
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Multiple Similar Calls.html
+
 	:og:locale: en
-.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/MultipleSimilarCalls.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/MultipleSimilarCalls.html","name":"Multiple Similar Calls","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Several calls are made to functions or methods in a row","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Multiple Similar Calls.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Several calls are made to functions or methods in a row. They may have different arguments, though having a lot of similar calls in a row may indicate that a loop is needed. 
+
+
+.. raw:: html
+
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/MultipleSimilarCalls.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/MultipleSimilarCalls.html","name":"Multiple Similar Calls","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Several calls are made to functions or methods in a row","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Multiple Similar Calls.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
+Several calls are made to functions or methods in a row. They may have different arguments, though having a lot of similar calls in a row may indicate that a loop is needed. 
 
 
 

@@ -1,26 +1,49 @@
 .. _performances-usearrayslice:
 
+
 .. _use-array\_slice():
 
 Use array_slice()
 +++++++++++++++++
 
+
 .. meta::
+
 	:description:
+
 		Use array_slice(): Array_slice() is de equivalent of substr() for arrays.
+
 	:twitter:card: summary_large_image
+
 	:twitter:site: @exakat
+
 	:twitter:title: Use array_slice()
+
 	:twitter:description: Use array_slice(): Array_slice() is de equivalent of substr() for arrays
+
 	:twitter:creator: @exakat
+
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:title: Use array_slice()
+
 	:og:type: article
+
 	:og:description: Array_slice() is de equivalent of substr() for arrays
+
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Use array_slice().html
+
 	:og:locale: en
-.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Performances\/UseArraySlice.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Performances\/UseArraySlice.html","name":"Use array_slice()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Array_slice() is de equivalent of substr() for arrays","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Use array_slice().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>`Array_slice() <https://www.php.net/array_slice>`_ is de equivalent of `substr() <https://www.php.net/substr>`_ for arrays.
+
+
+.. raw:: html
+
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Performances\/UseArraySlice.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Performances\/UseArraySlice.html","name":"Use array_slice()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Array_slice() is de equivalent of substr() for arrays","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Use array_slice().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
+`Array_slice() <https://www.php.net/array_slice>`_ is de equivalent of `substr() <https://www.php.net/substr>`_ for arrays.
 
 `array_splice() <https://www.php.net/array_splice>`_ is also available, to remove a portion of array inside the array, not at the ends. This has no simple equivalent for strings.
 

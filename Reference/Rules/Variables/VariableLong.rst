@@ -1,26 +1,49 @@
 .. _variables-variablelong:
 
+
 .. _variables-with-long-names:
 
 Variables With Long Names
 +++++++++++++++++++++++++
 
+
 .. meta::
+
 	:description:
+
 		Variables With Long Names: This analysis collects all variables with more than 20 characters longs.
+
 	:twitter:card: summary_large_image
+
 	:twitter:site: @exakat
+
 	:twitter:title: Variables With Long Names
+
 	:twitter:description: Variables With Long Names: This analysis collects all variables with more than 20 characters longs
+
 	:twitter:creator: @exakat
+
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:title: Variables With Long Names
+
 	:og:type: article
+
 	:og:description: This analysis collects all variables with more than 20 characters longs
+
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Variables With Long Names.html
+
 	:og:locale: en
-.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Variables\/VariableLong.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Variables\/VariableLong.html","name":"Variables With Long Names","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"This analysis collects all variables with more than 20 characters longs","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Variables With Long Names.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>This analysis collects all variables with more than 20 characters longs. This may be configured with the ``variableLength`` parameter.
+
+
+.. raw:: html
+
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Variables\/VariableLong.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Variables\/VariableLong.html","name":"Variables With Long Names","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"This analysis collects all variables with more than 20 characters longs","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Variables With Long Names.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
+This analysis collects all variables with more than 20 characters longs. This may be configured with the ``variableLength`` parameter.
 PHP has not limitation on variable name size. While short name are often obscure, long names are usually better. Yet, there exists a limit to convenient variable name length.
 
 .. code-block:: php

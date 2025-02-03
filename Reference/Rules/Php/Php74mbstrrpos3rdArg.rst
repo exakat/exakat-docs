@@ -1,26 +1,49 @@
 .. _php-php74mbstrrpos3rdarg:
 
+
 .. _mb\_strrpos()-third-argument:
 
 mb_strrpos() Third Argument
 +++++++++++++++++++++++++++
 
+
 .. meta::
+
 	:description:
+
 		mb_strrpos() Third Argument: Passing the encoding as 3rd parameter to mb_strrpos() is deprecated.
+
 	:twitter:card: summary_large_image
+
 	:twitter:site: @exakat
+
 	:twitter:title: mb_strrpos() Third Argument
+
 	:twitter:description: mb_strrpos() Third Argument: Passing the encoding as 3rd parameter to mb_strrpos() is deprecated
+
 	:twitter:creator: @exakat
+
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:title: mb_strrpos() Third Argument
+
 	:og:type: article
+
 	:og:description: Passing the encoding as 3rd parameter to mb_strrpos() is deprecated
+
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/mb_strrpos() Third Argument.html
+
 	:og:locale: en
-.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/Php74mbstrrpos3rdArg.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/Php74mbstrrpos3rdArg.html","name":"mb_strrpos() Third Argument","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 23 Jan 2025 14:24:26 +0000","dateModified":"Thu, 23 Jan 2025 14:24:26 +0000","description":"Passing the encoding as 3rd parameter to mb_strrpos() is deprecated","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/mb_strrpos() Third Argument.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Passing the encoding as 3rd parameter to `mb_strrpos() <https://www.php.net/mb_strrpos>`_ is deprecated. Instead pass a 0 offset, and encoding as 4th parameter.
+
+
+.. raw:: html
+
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/Php74mbstrrpos3rdArg.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/Php74mbstrrpos3rdArg.html","name":"mb_strrpos() Third Argument","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 23 Jan 2025 14:24:26 +0000","dateModified":"Thu, 23 Jan 2025 14:24:26 +0000","description":"Passing the encoding as 3rd parameter to mb_strrpos() is deprecated","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/mb_strrpos() Third Argument.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
+Passing the encoding as 3rd parameter to `mb_strrpos() <https://www.php.net/mb_strrpos>`_ is deprecated. Instead pass a 0 offset, and encoding as 4th parameter.
 
 .. code-block:: php
    

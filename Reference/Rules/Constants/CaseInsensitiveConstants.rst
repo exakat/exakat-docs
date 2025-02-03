@@ -1,26 +1,49 @@
 .. _constants-caseinsensitiveconstants:
 
+
 .. _case-insensitive-constants:
 
 Case Insensitive Constants
 ++++++++++++++++++++++++++
 
+
 .. meta::
+
 	:description:
+
 		Case Insensitive Constants: PHP constants used to be able to be case insensitive, when defined with define() and the third argument.
+
 	:twitter:card: summary_large_image
+
 	:twitter:site: @exakat
+
 	:twitter:title: Case Insensitive Constants
+
 	:twitter:description: Case Insensitive Constants: PHP constants used to be able to be case insensitive, when defined with define() and the third argument
+
 	:twitter:creator: @exakat
+
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:title: Case Insensitive Constants
+
 	:og:type: article
+
 	:og:description: PHP constants used to be able to be case insensitive, when defined with define() and the third argument
+
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Case Insensitive Constants.html
+
 	:og:locale: en
-.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Constants\/CaseInsensitiveConstants.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Constants\/CaseInsensitiveConstants.html","name":"Case Insensitive Constants","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 23 Jan 2025 14:24:26 +0000","dateModified":"Thu, 23 Jan 2025 14:24:26 +0000","description":"PHP constants used to be able to be case insensitive, when defined with define() and the third argument","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Case Insensitive Constants.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>PHP constants used to be able to be case insensitive, when defined with `define() <https://www.php.net/define>`_ and the third argument.
+
+
+.. raw:: html
+
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Constants\/CaseInsensitiveConstants.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Constants\/CaseInsensitiveConstants.html","name":"Case Insensitive Constants","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 23 Jan 2025 14:24:26 +0000","dateModified":"Thu, 23 Jan 2025 14:24:26 +0000","description":"PHP constants used to be able to be case insensitive, when defined with define() and the third argument","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Case Insensitive Constants.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
+PHP constants used to be able to be case insensitive, when defined with `define() <https://www.php.net/define>`_ and the third argument.
 
 This feature is deprecated since PHP 7.3 and is removed since PHP 8.0.
 

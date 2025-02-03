@@ -1,26 +1,49 @@
 .. _structures-arraysearchmultiplekeys:
 
+
 .. _searching-for-multiple-keys:
 
 Searching For Multiple Keys
 +++++++++++++++++++++++++++
 
+
 .. meta::
+
 	:description:
+
 		Searching For Multiple Keys: array_search() and array_keys() find keys in an array.
+
 	:twitter:card: summary_large_image
+
 	:twitter:site: @exakat
+
 	:twitter:title: Searching For Multiple Keys
+
 	:twitter:description: Searching For Multiple Keys: array_search() and array_keys() find keys in an array
+
 	:twitter:creator: @exakat
+
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:title: Searching For Multiple Keys
+
 	:og:type: article
+
 	:og:description: array_search() and array_keys() find keys in an array
+
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Searching For Multiple Keys.html
+
 	:og:locale: en
-.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/ArraySearchMultipleKeys.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/ArraySearchMultipleKeys.html","name":"Searching For Multiple Keys","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"array_search() and array_keys() find keys in an array","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Searching For Multiple Keys.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>`array_search() <https://www.php.net/array_search>`_ and `array_keys() <https://www.php.net/array_keys>`_ find keys in an array. `array_search() <https://www.php.net/array_search>`_ returns the first key that match a value, while `array_keys() <https://www.php.net/array_keys>`_ returns all the keys that match a value.
+
+
+.. raw:: html
+
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/ArraySearchMultipleKeys.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/ArraySearchMultipleKeys.html","name":"Searching For Multiple Keys","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"array_search() and array_keys() find keys in an array","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Searching For Multiple Keys.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
+`array_search() <https://www.php.net/array_search>`_ and `array_keys() <https://www.php.net/array_keys>`_ find keys in an array. `array_search() <https://www.php.net/array_search>`_ returns the first key that match a value, while `array_keys() <https://www.php.net/array_keys>`_ returns all the keys that match a value.
 
 `array_search() <https://www.php.net/array_search>`_ and `array_keys() <https://www.php.net/array_keys>`_ both accepts a final parameter to set a strict search or not.
 

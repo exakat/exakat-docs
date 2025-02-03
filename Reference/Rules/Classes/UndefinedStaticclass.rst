@@ -1,26 +1,49 @@
 .. _classes-undefinedstaticclass:
 
+
 .. _undefined-static-class:
 
 Undefined static \:\:class
 ++++++++++++++++++++++++++
 
+
 .. meta::
+
 	:description:
+
 		Undefined static ::class: The ``::class`` operator provides the full name of the class, enumeration, trait or interface.
+
 	:twitter:card: summary_large_image
+
 	:twitter:site: @exakat
+
 	:twitter:title: Undefined static ::class
+
 	:twitter:description: Undefined static ::class: The ``::class`` operator provides the full name of the class, enumeration, trait or interface
+
 	:twitter:creator: @exakat
+
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:title: Undefined static ::class
+
 	:og:type: article
+
 	:og:description: The ``::class`` operator provides the full name of the class, enumeration, trait or interface
+
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Undefined static ::class.html
+
 	:og:locale: en
-.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/UndefinedStaticclass.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/UndefinedStaticclass.html","name":"Undefined static ::class","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 23 Jan 2025 14:24:26 +0000","dateModified":"Thu, 23 Jan 2025 14:24:26 +0000","description":"The ``::class`` operator provides the full name of the class, enumeration, trait or interface","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Undefined static ::class.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>The ``\:\:class`` operator provides the full name of the class, enumeration, trait or interface. ``\:\:class`` doesn't check if the corresponding class exists. 
+
+
+.. raw:: html
+
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/UndefinedStaticclass.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/UndefinedStaticclass.html","name":"Undefined static ::class","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 23 Jan 2025 14:24:26 +0000","dateModified":"Thu, 23 Jan 2025 14:24:26 +0000","description":"The ``::class`` operator provides the full name of the class, enumeration, trait or interface","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Undefined static ::class.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
+The ``\:\:class`` operator provides the full name of the class, enumeration, trait or interface. ``\:\:class`` doesn't check if the corresponding class exists. 
 
 ``\:\:class`` must be checked with a call to `class_exists() <https://www.php.net/class_exists>`_. Otherwise, it may lead to a ``Class 'foo' not found`` or even silent dead code : this happens also with Catch and `instanceof <https://www.php.net/manual/en/language.operators.type.php>`_ commands with undefined classes. PHP doesn't raise an `error <https://www.php.net/error>`_ in that case.
 

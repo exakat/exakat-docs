@@ -1,26 +1,49 @@
 .. _classes-hasfluentinterface:
 
+
 .. _class-has-fluent-interface:
 
 Class Has Fluent Interface
 ++++++++++++++++++++++++++
 
+
 .. meta::
+
 	:description:
+
 		Class Has Fluent Interface: Mark a class as such when it contains at least one fluent method.
+
 	:twitter:card: summary_large_image
+
 	:twitter:site: @exakat
+
 	:twitter:title: Class Has Fluent Interface
+
 	:twitter:description: Class Has Fluent Interface: Mark a class as such when it contains at least one fluent method
+
 	:twitter:creator: @exakat
+
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:title: Class Has Fluent Interface
+
 	:og:type: article
+
 	:og:description: Mark a class as such when it contains at least one fluent method
+
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Class Has Fluent Interface.html
+
 	:og:locale: en
-.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/HasFluentInterface.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/HasFluentInterface.html","name":"Class Has Fluent Interface","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:17 +0000","dateModified":"Fri, 10 Jan 2025 09:46:17 +0000","description":"Mark a class as such when it contains at least one fluent method","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Class Has Fluent Interface.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Mark a class as such when it contains at least one fluent method. A fluent method is a method that returns `$this <https://www.php.net/manual/en/language.oop5.basic.php>`_, for chaining.
+
+
+.. raw:: html
+
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/HasFluentInterface.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Classes\/HasFluentInterface.html","name":"Class Has Fluent Interface","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:17 +0000","dateModified":"Fri, 10 Jan 2025 09:46:17 +0000","description":"Mark a class as such when it contains at least one fluent method","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Class Has Fluent Interface.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
+Mark a class as such when it contains at least one fluent method. A fluent method is a method that returns `$this <https://www.php.net/manual/en/language.oop5.basic.php>`_, for chaining.
 
 .. code-block:: php
    

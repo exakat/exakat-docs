@@ -1,26 +1,49 @@
 .. _functions-variablearguments:
 
+
 .. _has-variable-arguments:
 
 Has Variable Arguments
 ++++++++++++++++++++++
 
+
 .. meta::
+
 	:description:
+
 		Has Variable Arguments: Indicates if this function or method accept an arbitrary number of arguments, based on func_get_args(), func_get_arg() and func_num_args() usage.
+
 	:twitter:card: summary_large_image
+
 	:twitter:site: @exakat
+
 	:twitter:title: Has Variable Arguments
+
 	:twitter:description: Has Variable Arguments: Indicates if this function or method accept an arbitrary number of arguments, based on func_get_args(), func_get_arg() and func_num_args() usage
+
 	:twitter:creator: @exakat
+
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:title: Has Variable Arguments
+
 	:og:type: article
+
 	:og:description: Indicates if this function or method accept an arbitrary number of arguments, based on func_get_args(), func_get_arg() and func_num_args() usage
+
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Has Variable Arguments.html
+
 	:og:locale: en
-.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Functions\/VariableArguments.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Functions\/VariableArguments.html","name":"Has Variable Arguments","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Indicates if this function or method accept an arbitrary number of arguments, based on func_get_args(), func_get_arg() and func_num_args() usage","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Has Variable Arguments.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Indicates if this function or method accept an arbitrary number of arguments, based on `func_get_args() <https://www.php.net/func_get_args>`_, `func_get_arg() <https://www.php.net/func_get_arg>`_ and `func_num_args() <https://www.php.net/func_num_args>`_ usage.
+
+
+.. raw:: html
+
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Functions\/VariableArguments.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Functions\/VariableArguments.html","name":"Has Variable Arguments","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Indicates if this function or method accept an arbitrary number of arguments, based on func_get_args(), func_get_arg() and func_num_args() usage","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Has Variable Arguments.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
+Indicates if this function or method accept an arbitrary number of arguments, based on `func_get_args() <https://www.php.net/func_get_args>`_, `func_get_arg() <https://www.php.net/func_get_arg>`_ and `func_num_args() <https://www.php.net/func_num_args>`_ usage.
 
 .. code-block:: php
    

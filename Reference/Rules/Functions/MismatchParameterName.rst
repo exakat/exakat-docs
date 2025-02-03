@@ -1,26 +1,49 @@
 .. _functions-mismatchparametername:
 
+
 .. _mismatch-parameter-name:
 
 Mismatch Parameter Name
 +++++++++++++++++++++++
 
+
 .. meta::
+
 	:description:
+
 		Mismatch Parameter Name: Parameter name change in overwritten method.
+
 	:twitter:card: summary_large_image
+
 	:twitter:site: @exakat
+
 	:twitter:title: Mismatch Parameter Name
+
 	:twitter:description: Mismatch Parameter Name: Parameter name change in overwritten method
+
 	:twitter:creator: @exakat
+
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:title: Mismatch Parameter Name
+
 	:og:type: article
+
 	:og:description: Parameter name change in overwritten method
+
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Mismatch Parameter Name.html
+
 	:og:locale: en
-.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Functions\/MismatchParameterName.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Functions\/MismatchParameterName.html","name":"Mismatch Parameter Name","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:47:06 +0000","dateModified":"Fri, 10 Jan 2025 09:47:06 +0000","description":"Parameter name change in overwritten method","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Mismatch Parameter Name.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Parameter name change in overwritten method. This may lead to errors when using PHP 8.0 named arguments. 
+
+
+.. raw:: html
+
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Functions\/MismatchParameterName.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Functions\/MismatchParameterName.html","name":"Mismatch Parameter Name","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:47:06 +0000","dateModified":"Fri, 10 Jan 2025 09:47:06 +0000","description":"Parameter name change in overwritten method","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Mismatch Parameter Name.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
+Parameter name change in overwritten method. This may lead to errors when using PHP 8.0 named arguments. 
 
 PHP use the name of the parameter in the method whose code is executed. When the name change between the method and the overwritten method, the consistency is broken.
 

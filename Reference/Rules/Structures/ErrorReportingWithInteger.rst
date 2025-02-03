@@ -1,26 +1,49 @@
 .. _structures-errorreportingwithinteger:
 
+
 .. _error\_reporting()-with-integers:
 
 error_reporting() With Integers
 +++++++++++++++++++++++++++++++
 
+
 .. meta::
+
 	:description:
+
 		error_reporting() With Integers: Using named constants with error_reporting is strongly encouraged to ensure compatibility for future versions.
+
 	:twitter:card: summary_large_image
+
 	:twitter:site: @exakat
+
 	:twitter:title: error_reporting() With Integers
+
 	:twitter:description: error_reporting() With Integers: Using named constants with error_reporting is strongly encouraged to ensure compatibility for future versions
+
 	:twitter:creator: @exakat
+
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:title: error_reporting() With Integers
+
 	:og:type: article
+
 	:og:description: Using named constants with error_reporting is strongly encouraged to ensure compatibility for future versions
+
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/error_reporting() With Integers.html
+
 	:og:locale: en
-.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/ErrorReportingWithInteger.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/ErrorReportingWithInteger.html","name":"error_reporting() With Integers","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Using named constants with error_reporting is strongly encouraged to ensure compatibility for future versions","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/error_reporting() With Integers.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Using named constants with error_reporting is strongly encouraged to ensure compatibility for future versions. As `error <https://www.php.net/error>`_ levels are added, the range of integers increases, so older integer-based `error <https://www.php.net/error>`_ levels will not always behave as expected. (Adapted from the documentation).
+
+
+.. raw:: html
+
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/ErrorReportingWithInteger.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/ErrorReportingWithInteger.html","name":"error_reporting() With Integers","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Using named constants with error_reporting is strongly encouraged to ensure compatibility for future versions","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/error_reporting() With Integers.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
+Using named constants with error_reporting is strongly encouraged to ensure compatibility for future versions. As `error <https://www.php.net/error>`_ levels are added, the range of integers increases, so older integer-based `error <https://www.php.net/error>`_ levels will not always behave as expected. (Adapted from the documentation).
 
 .. code-block:: php
    

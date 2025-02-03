@@ -1,26 +1,49 @@
 .. _php-php80namedparametervariadic:
 
+
 .. _php-80-named-parameter-variadic:
 
 PHP 80 Named Parameter Variadic
 +++++++++++++++++++++++++++++++
 
+
 .. meta::
+
 	:description:
+
 		PHP 80 Named Parameter Variadic: Named parameter with variadic have been renamed from 0 to 'parameter name' in PHP 8.
+
 	:twitter:card: summary_large_image
+
 	:twitter:site: @exakat
+
 	:twitter:title: PHP 80 Named Parameter Variadic
+
 	:twitter:description: PHP 80 Named Parameter Variadic: Named parameter with variadic have been renamed from 0 to 'parameter name' in PHP 8
+
 	:twitter:creator: @exakat
+
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:title: PHP 80 Named Parameter Variadic
+
 	:og:type: article
+
 	:og:description: Named parameter with variadic have been renamed from 0 to 'parameter name' in PHP 8
+
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/PHP 80 Named Parameter Variadic.html
+
 	:og:locale: en
-.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/Php80NamedParameterVariadic.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/Php80NamedParameterVariadic.html","name":"PHP 80 Named Parameter Variadic","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 29 Jan 2025 17:05:54 +0000","dateModified":"Wed, 29 Jan 2025 17:05:54 +0000","description":"Named parameter with variadic have been renamed from 0 to 'parameter name' in PHP 8","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/PHP 80 Named Parameter Variadic.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Named parameter with variadic have been renamed from 0 to 'parameter name' in PHP 8.0.
+
+
+.. raw:: html
+
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/Php80NamedParameterVariadic.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/Php80NamedParameterVariadic.html","name":"PHP 80 Named Parameter Variadic","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Wed, 29 Jan 2025 17:05:54 +0000","dateModified":"Wed, 29 Jan 2025 17:05:54 +0000","description":"Named parameter with variadic have been renamed from 0 to 'parameter name' in PHP 8","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/PHP 80 Named Parameter Variadic.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
+Named parameter with variadic have been renamed from 0 to 'parameter name' in PHP 8.0.
 
 In PHP 7.0, with positional argument only, the content of $b is in an array, index 0. This is also true with PHP 8.0.
 

@@ -1,26 +1,49 @@
 .. _structures-dontreadandwriteinoneexpression:
 
+
 .. _don't-read-and-write-in-one-expression:
 
 Don't Read And Write In One Expression
 ++++++++++++++++++++++++++++++++++++++
 
+
 .. meta::
+
 	:description:
+
 		Don't Read And Write In One Expression: Avoid giving value and using it at the same time, in one expression.
+
 	:twitter:card: summary_large_image
+
 	:twitter:site: @exakat
+
 	:twitter:title: Don't Read And Write In One Expression
+
 	:twitter:description: Don't Read And Write In One Expression: Avoid giving value and using it at the same time, in one expression
+
 	:twitter:creator: @exakat
+
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:title: Don't Read And Write In One Expression
+
 	:og:type: article
+
 	:og:description: Avoid giving value and using it at the same time, in one expression
+
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Don't Read And Write In One Expression.html
+
 	:og:locale: en
-.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/DontReadAndWriteInOneExpression.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/DontReadAndWriteInOneExpression.html","name":"Don't Read And Write In One Expression","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Avoid giving value and using it at the same time, in one expression","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Don't Read And Write In One Expression.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Avoid giving value and using it at the same time, in one expression. This is an undefined behavior of PHP, and may change without warning.
+
+
+.. raw:: html
+
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/DontReadAndWriteInOneExpression.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/DontReadAndWriteInOneExpression.html","name":"Don't Read And Write In One Expression","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Avoid giving value and using it at the same time, in one expression","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Don't Read And Write In One Expression.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
+Avoid giving value and using it at the same time, in one expression. This is an undefined behavior of PHP, and may change without warning.
 
 One of those changes happens between PHP 7.2 and 7.3 :
 

@@ -1,26 +1,49 @@
 .. _structures-onlyfirstbyte:
 
+
 .. _only-first-byte-will-be-assigned:
 
 Only First Byte Will Be Assigned
 ++++++++++++++++++++++++++++++++
 
+
 .. meta::
+
 	:description:
+
 		Only First Byte Will Be Assigned: When assigning a char to a string with an array notation, only the first byte is used.
+
 	:twitter:card: summary_large_image
+
 	:twitter:site: @exakat
+
 	:twitter:title: Only First Byte Will Be Assigned
+
 	:twitter:description: Only First Byte Will Be Assigned: When assigning a char to a string with an array notation, only the first byte is used
+
 	:twitter:creator: @exakat
+
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:title: Only First Byte Will Be Assigned
+
 	:og:type: article
+
 	:og:description: When assigning a char to a string with an array notation, only the first byte is used
+
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Only First Byte Will Be Assigned.html
+
 	:og:locale: en
-.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/OnlyFirstByte.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/OnlyFirstByte.html","name":"Only First Byte Will Be Assigned","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 03 Feb 2025 17:19:52 +0000","dateModified":"Mon, 03 Feb 2025 17:19:52 +0000","description":"When assigning a char to a string with an array notation, only the first byte is used","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Only First Byte Will Be Assigned.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>When assigning a char to a string with an array notation, only the first byte is used.
+
+
+.. raw:: html
+
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/OnlyFirstByte.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/OnlyFirstByte.html","name":"Only First Byte Will Be Assigned","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Mon, 03 Feb 2025 17:19:52 +0000","dateModified":"Mon, 03 Feb 2025 17:19:52 +0000","description":"When assigning a char to a string with an array notation, only the first byte is used","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Only First Byte Will Be Assigned.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
+When assigning a char to a string with an array notation, only the first byte is used.
 
 .. code-block:: php
    

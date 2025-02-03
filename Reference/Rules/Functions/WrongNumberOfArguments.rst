@@ -1,26 +1,49 @@
 .. _functions-wrongnumberofarguments:
 
+
 .. _wrong-number-of-arguments:
 
 Wrong Number Of Arguments
 +++++++++++++++++++++++++
 
+
 .. meta::
+
 	:description:
+
 		Wrong Number Of Arguments: Those functioncalls are made with too many or too few arguments.
+
 	:twitter:card: summary_large_image
+
 	:twitter:site: @exakat
+
 	:twitter:title: Wrong Number Of Arguments
+
 	:twitter:description: Wrong Number Of Arguments: Those functioncalls are made with too many or too few arguments
+
 	:twitter:creator: @exakat
+
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:title: Wrong Number Of Arguments
+
 	:og:type: article
+
 	:og:description: Those functioncalls are made with too many or too few arguments
+
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Wrong Number Of Arguments.html
+
 	:og:locale: en
-.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Functions\/WrongNumberOfArguments.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Functions\/WrongNumberOfArguments.html","name":"Wrong Number Of Arguments","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 23 Jan 2025 14:24:26 +0000","dateModified":"Thu, 23 Jan 2025 14:24:26 +0000","description":"Those functioncalls are made with too many or too few arguments","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Wrong Number Of Arguments.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Those functioncalls are made with too many or too few arguments. 
+
+
+.. raw:: html
+
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Functions\/WrongNumberOfArguments.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Functions\/WrongNumberOfArguments.html","name":"Wrong Number Of Arguments","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 23 Jan 2025 14:24:26 +0000","dateModified":"Thu, 23 Jan 2025 14:24:26 +0000","description":"Those functioncalls are made with too many or too few arguments","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Wrong Number Of Arguments.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
+Those functioncalls are made with too many or too few arguments. 
 
 When the number arguments is wrong for native functions, PHP emits a warning. 
 When the number arguments is too small for custom functions, PHP raises an `exception <https://www.php.net/exception>`_. 

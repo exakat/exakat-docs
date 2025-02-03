@@ -1,26 +1,49 @@
 .. _php-noreferenceforstaticproperty:
 
+
 .. _no-reference-for-static-property:
 
 No Reference For Static Property
 ++++++++++++++++++++++++++++++++
 
+
 .. meta::
+
 	:description:
+
 		No Reference For Static Property: Static properties used to behave independently when set to a reference value.
+
 	:twitter:card: summary_large_image
+
 	:twitter:site: @exakat
+
 	:twitter:title: No Reference For Static Property
+
 	:twitter:description: No Reference For Static Property: Static properties used to behave independently when set to a reference value
+
 	:twitter:creator: @exakat
+
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:title: No Reference For Static Property
+
 	:og:type: article
+
 	:og:description: Static properties used to behave independently when set to a reference value
+
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No Reference For Static Property.html
+
 	:og:locale: en
-.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/NoReferenceForStaticProperty.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/NoReferenceForStaticProperty.html","name":"No Reference For Static Property","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 16 Jan 2025 17:40:16 +0000","dateModified":"Thu, 16 Jan 2025 17:40:16 +0000","description":"Static properties used to behave independently when set to a reference value","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/No Reference For Static Property.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>`Static <https://www.php.net/manual/en/language.oop5.static.php>`_ properties used to behave independently when set to a reference value. This was fixed in PHP 7.3. 
+
+
+.. raw:: html
+
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/NoReferenceForStaticProperty.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/NoReferenceForStaticProperty.html","name":"No Reference For Static Property","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Thu, 16 Jan 2025 17:40:16 +0000","dateModified":"Thu, 16 Jan 2025 17:40:16 +0000","description":"Static properties used to behave independently when set to a reference value","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/No Reference For Static Property.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
+`Static <https://www.php.net/manual/en/language.oop5.static.php>`_ properties used to behave independently when set to a reference value. This was fixed in PHP 7.3. 
 
 According to the PHP 7.3 changelog : 
 

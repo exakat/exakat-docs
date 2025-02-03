@@ -1,26 +1,49 @@
 .. _php-toomanynativecalls:
 
+
 .. _too-many-native-calls:
 
 Too Many Native Calls
 +++++++++++++++++++++
 
+
 .. meta::
+
 	:description:
+
 		Too Many Native Calls: Avoid stuffing too many PHP native call inside another functioncall.
+
 	:twitter:card: summary_large_image
+
 	:twitter:site: @exakat
+
 	:twitter:title: Too Many Native Calls
+
 	:twitter:description: Too Many Native Calls: Avoid stuffing too many PHP native call inside another functioncall
+
 	:twitter:creator: @exakat
+
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:title: Too Many Native Calls
+
 	:og:type: article
+
 	:og:description: Avoid stuffing too many PHP native call inside another functioncall
+
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Too Many Native Calls.html
+
 	:og:locale: en
-.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/TooManyNativeCalls.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/TooManyNativeCalls.html","name":"Too Many Native Calls","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Avoid stuffing too many PHP native call inside another functioncall","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Too Many Native Calls.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Avoid stuffing too many PHP native call inside another functioncall. 
+
+
+.. raw:: html
+
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/TooManyNativeCalls.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/TooManyNativeCalls.html","name":"Too Many Native Calls","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Avoid stuffing too many PHP native call inside another functioncall","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Too Many Native Calls.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
+Avoid stuffing too many PHP native call inside another functioncall. 
 
 For readability reasons, or, more often, for edge case handling, it is recommended to avoid nesting too many PHP native calls. 
 

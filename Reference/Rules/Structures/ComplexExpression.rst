@@ -1,26 +1,49 @@
 .. _structures-complexexpression:
 
+
 .. _too-complex-expression:
 
 Too Complex Expression
 ++++++++++++++++++++++
 
+
 .. meta::
+
 	:description:
+
 		Too Complex Expression: Long expressions should be broken in small chunks, to limit complexity.
+
 	:twitter:card: summary_large_image
+
 	:twitter:site: @exakat
+
 	:twitter:title: Too Complex Expression
+
 	:twitter:description: Too Complex Expression: Long expressions should be broken in small chunks, to limit complexity
+
 	:twitter:creator: @exakat
+
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:title: Too Complex Expression
+
 	:og:type: article
+
 	:og:description: Long expressions should be broken in small chunks, to limit complexity
+
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Too Complex Expression.html
+
 	:og:locale: en
-.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/ComplexExpression.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/ComplexExpression.html","name":"Too Complex Expression","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Long expressions should be broken in small chunks, to limit complexity","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Too Complex Expression.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Long expressions should be broken in small chunks, to limit complexity. 
+
+
+.. raw:: html
+
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/ComplexExpression.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/ComplexExpression.html","name":"Too Complex Expression","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Long expressions should be broken in small chunks, to limit complexity","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Too Complex Expression.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
+Long expressions should be broken in small chunks, to limit complexity. 
 
 Really long expressions tends to be `error <https://www.php.net/error>`_ prone : either by typo, or by missing details. They are even harder to review, once the initially build of the expression is gone. 
 

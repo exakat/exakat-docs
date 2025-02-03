@@ -1,26 +1,49 @@
 .. _structures-bailoutearly:
 
+
 .. _bail-out-early:
 
 Bail Out Early
 ++++++++++++++
 
+
 .. meta::
+
 	:description:
+
 		Bail Out Early: When using conditions, it is recommended to quit in the current context, and avoid the else clause altogether.
+
 	:twitter:card: summary_large_image
+
 	:twitter:site: @exakat
+
 	:twitter:title: Bail Out Early
+
 	:twitter:description: Bail Out Early: When using conditions, it is recommended to quit in the current context, and avoid the else clause altogether
+
 	:twitter:creator: @exakat
+
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:title: Bail Out Early
+
 	:og:type: article
+
 	:og:description: When using conditions, it is recommended to quit in the current context, and avoid the else clause altogether
+
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Bail Out Early.html
+
 	:og:locale: en
-.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/BailOutEarly.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/BailOutEarly.html","name":"Bail Out Early","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"When using conditions, it is recommended to quit in the current context, and avoid the else clause altogether","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Bail Out Early.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>When using conditions, it is recommended to quit in the current context, and avoid the else clause altogether. 
+
+
+.. raw:: html
+
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/BailOutEarly.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/BailOutEarly.html","name":"Bail Out Early","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"When using conditions, it is recommended to quit in the current context, and avoid the else clause altogether","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Bail Out Early.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
+When using conditions, it is recommended to quit in the current context, and avoid the else clause altogether. 
 
 The main benefit is to make clear the method applies a condition, and stop immediately when this condition is not satisfied. 
 The main sequence is then focused on the important code. 

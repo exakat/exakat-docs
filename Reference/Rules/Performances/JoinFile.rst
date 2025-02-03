@@ -1,26 +1,49 @@
 .. _performances-joinfile:
 
+
 .. _joining-file():
 
 Joining file()
 ++++++++++++++
 
+
 .. meta::
+
 	:description:
+
 		Joining file(): Use file() to read lines separately.
+
 	:twitter:card: summary_large_image
+
 	:twitter:site: @exakat
+
 	:twitter:title: Joining file()
+
 	:twitter:description: Joining file(): Use file() to read lines separately
+
 	:twitter:creator: @exakat
+
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:title: Joining file()
+
 	:og:type: article
+
 	:og:description: Use file() to read lines separately
+
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Joining file().html
+
 	:og:locale: en
-.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Performances\/JoinFile.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Performances\/JoinFile.html","name":"Joining file()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Use file() to read lines separately","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Joining file().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Use `file() <https://www.php.net/file>`_ to read lines separately. 
+
+
+.. raw:: html
+
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Performances\/JoinFile.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Performances\/JoinFile.html","name":"Joining file()","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Use file() to read lines separately","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Joining file().html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
+Use `file() <https://www.php.net/file>`_ to read lines separately. 
 
 Applying ``join('', )`` or ``implode('', )`` to the `result <https://www.php.net/result>`_ of `file() <https://www.php.net/file>`_ provides the same results than using `file_get_contents() <https://www.php.net/file_get_contents>`_, but at a higher cost of memory and processing.
 

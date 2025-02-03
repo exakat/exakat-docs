@@ -1,26 +1,49 @@
 .. _php-assignand:
 
+
 .. _assign-and-lettered-logical-operator-precedence:
 
 Assign And Lettered Logical Operator Precedence
 +++++++++++++++++++++++++++++++++++++++++++++++
 
+
 .. meta::
+
 	:description:
+
 		Assign And Lettered Logical Operator Precedence: The lettered logical operators ``and``, ``or`` and ``xor`` have lower precedence than assignation.
+
 	:twitter:card: summary_large_image
+
 	:twitter:site: @exakat
+
 	:twitter:title: Assign And Lettered Logical Operator Precedence
+
 	:twitter:description: Assign And Lettered Logical Operator Precedence: The lettered logical operators ``and``, ``or`` and ``xor`` have lower precedence than assignation
+
 	:twitter:creator: @exakat
+
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:title: Assign And Lettered Logical Operator Precedence
+
 	:og:type: article
+
 	:og:description: The lettered logical operators ``and``, ``or`` and ``xor`` have lower precedence than assignation
+
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Assign And Lettered Logical Operator Precedence.html
+
 	:og:locale: en
-.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/AssignAnd.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/AssignAnd.html","name":"Assign And Lettered Logical Operator Precedence","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"The lettered logical operators ``and``, ``or`` and ``xor`` have lower precedence than assignation","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Assign And Lettered Logical Operator Precedence.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>The lettered logical operators ``and``, ``or`` and ``xor`` have lower precedence than assignation. It collects less information than expected.
+
+
+.. raw:: html
+
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/AssignAnd.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Php\/AssignAnd.html","name":"Assign And Lettered Logical Operator Precedence","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"The lettered logical operators ``and``, ``or`` and ``xor`` have lower precedence than assignation","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Assign And Lettered Logical Operator Precedence.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
+The lettered logical operators ``and``, ``or`` and ``xor`` have lower precedence than assignation. It collects less information than expected.
 
 When that precedence is taken into account, this is valid and useful code. Yet, as it is rare and surprising to many developers, it is recommended to avoid it.
 

@@ -1,26 +1,49 @@
 .. _structures-unreachablecode:
 
+
 .. _unreachable-code:
 
 Unreachable Code
 ++++++++++++++++
 
+
 .. meta::
+
 	:description:
+
 		Unreachable Code: Code may be unreachable, because other instructions prevent its reaching.
+
 	:twitter:card: summary_large_image
+
 	:twitter:site: @exakat
+
 	:twitter:title: Unreachable Code
+
 	:twitter:description: Unreachable Code: Code may be unreachable, because other instructions prevent its reaching
+
 	:twitter:creator: @exakat
+
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:title: Unreachable Code
+
 	:og:type: article
+
 	:og:description: Code may be unreachable, because other instructions prevent its reaching
+
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Unreachable Code.html
+
 	:og:locale: en
-.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/UnreachableCode.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/UnreachableCode.html","name":"Unreachable Code","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Code may be unreachable, because other instructions prevent its reaching","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Unreachable Code.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Code may be unreachable, because other instructions prevent its reaching. 
+
+
+.. raw:: html
+
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/UnreachableCode.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/UnreachableCode.html","name":"Unreachable Code","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Code may be unreachable, because other instructions prevent its reaching","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Unreachable Code.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
+Code may be unreachable, because other instructions prevent its reaching. 
 
 For example, it be located after throw, return, `exit() <https://www.www.php.net/exit>`_, `die() <https://www.php.net/die>`_, goto, `break <https://www.php.net/manual/en/control-structures.break.php>`_ or `continue <https://www.php.net/manual/en/control-structures.continue.php>`_ : this way, it cannot be reached, as the previous instruction will divert the `engine <https://www.php.net/engine>`_ to another part of the code. 
 

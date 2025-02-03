@@ -1,26 +1,49 @@
 .. _functions-mismatchparameterandtype:
 
+
 .. _mismatch-parameter-and-type:
 
 Mismatch Parameter And Type
 +++++++++++++++++++++++++++
 
+
 .. meta::
+
 	:description:
+
 		Mismatch Parameter And Type: When the name of the parameter contradicts the type of the parameter.
+
 	:twitter:card: summary_large_image
+
 	:twitter:site: @exakat
+
 	:twitter:title: Mismatch Parameter And Type
+
 	:twitter:description: Mismatch Parameter And Type: When the name of the parameter contradicts the type of the parameter
+
 	:twitter:creator: @exakat
+
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:title: Mismatch Parameter And Type
+
 	:og:type: article
+
 	:og:description: When the name of the parameter contradicts the type of the parameter
+
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Mismatch Parameter And Type.html
+
 	:og:locale: en
-.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Functions\/MismatchParameterAndType.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Functions\/MismatchParameterAndType.html","name":"Mismatch Parameter And Type","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"When the name of the parameter contradicts the type of the parameter","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Mismatch Parameter And Type.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>When the name of the parameter contradicts the type of the parameter.
+
+
+.. raw:: html
+
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Functions\/MismatchParameterAndType.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Functions\/MismatchParameterAndType.html","name":"Mismatch Parameter And Type","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"When the name of the parameter contradicts the type of the parameter","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Mismatch Parameter And Type.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
+When the name of the parameter contradicts the type of the parameter.
 
 This is mostly semantics, so it will affect the coder and the auditor of the code. PHP is immune to those errors.
 

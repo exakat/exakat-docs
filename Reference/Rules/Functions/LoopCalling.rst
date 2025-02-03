@@ -1,26 +1,49 @@
 .. _functions-loopcalling:
 
+
 .. _functions-in-loop-calls:
 
 Functions In Loop Calls
 +++++++++++++++++++++++
 
+
 .. meta::
+
 	:description:
+
 		Functions In Loop Calls: The following functions call each-other in a loop fashion : A -> B -> A.
+
 	:twitter:card: summary_large_image
+
 	:twitter:site: @exakat
+
 	:twitter:title: Functions In Loop Calls
+
 	:twitter:description: Functions In Loop Calls: The following functions call each-other in a loop fashion : A -> B -> A
+
 	:twitter:creator: @exakat
+
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:title: Functions In Loop Calls
+
 	:og:type: article
+
 	:og:description: The following functions call each-other in a loop fashion : A -> B -> A
+
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Functions In Loop Calls.html
+
 	:og:locale: en
-.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Functions\/LoopCalling.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Functions\/LoopCalling.html","name":"Functions In Loop Calls","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"The following functions call each-other in a loop fashion : A -> B -> A","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Functions In Loop Calls.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>The following functions call each-other in a loop fashion : A -> B -> A.
+
+
+.. raw:: html
+
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Functions\/LoopCalling.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Functions\/LoopCalling.html","name":"Functions In Loop Calls","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"The following functions call each-other in a loop fashion : A -> B -> A","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Functions In Loop Calls.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
+The following functions call each-other in a loop fashion : A -> B -> A.
 
 When those functions have no other interaction, the code is useless and should be dropped.
 

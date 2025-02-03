@@ -1,26 +1,49 @@
 .. _performances-makeonecall:
 
+
 .. _make-one-call-with-array:
 
 Make One Call With Array
 ++++++++++++++++++++++++
 
+
 .. meta::
+
 	:description:
+
 		Make One Call With Array: Avoid calling the same functions several times by batching the calls with arrays.
+
 	:twitter:card: summary_large_image
+
 	:twitter:site: @exakat
+
 	:twitter:title: Make One Call With Array
+
 	:twitter:description: Make One Call With Array: Avoid calling the same functions several times by batching the calls with arrays
+
 	:twitter:creator: @exakat
+
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:title: Make One Call With Array
+
 	:og:type: article
+
 	:og:description: Avoid calling the same functions several times by batching the calls with arrays
+
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Make One Call With Array.html
+
 	:og:locale: en
-.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Performances\/MakeOneCall.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Performances\/MakeOneCall.html","name":"Make One Call With Array","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Avoid calling the same functions several times by batching the calls with arrays","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Make One Call With Array.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Avoid calling the same functions several times by batching the calls with arrays.
+
+
+.. raw:: html
+
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Performances\/MakeOneCall.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Performances\/MakeOneCall.html","name":"Make One Call With Array","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Avoid calling the same functions several times by batching the calls with arrays","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Make One Call With Array.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
+Avoid calling the same functions several times by batching the calls with arrays.
 
 Calling the same function to chain modifications is slower than calling the same function once, with all the transformations at the same time. Some PHP functions accept scalars or arrays, and using the later is more efficient.
 Potential replacements : 

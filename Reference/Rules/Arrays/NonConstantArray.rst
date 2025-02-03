@@ -1,26 +1,49 @@
 .. _arrays-nonconstantarray:
 
+
 .. _non-constant-index-in-array:
 
 Non-constant Index In Array
 +++++++++++++++++++++++++++
 
+
 .. meta::
+
 	:description:
+
 		Non-constant Index In Array: Undefined constants revert as strings in Arrays.
+
 	:twitter:card: summary_large_image
+
 	:twitter:site: @exakat
+
 	:twitter:title: Non-constant Index In Array
+
 	:twitter:description: Non-constant Index In Array: Undefined constants revert as strings in Arrays
+
 	:twitter:creator: @exakat
+
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:title: Non-constant Index In Array
+
 	:og:type: article
+
 	:og:description: Undefined constants revert as strings in Arrays
+
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Non-constant Index In Array.html
+
 	:og:locale: en
-.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Arrays\/NonConstantArray.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Arrays\/NonConstantArray.html","name":"Non-constant Index In Array","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 21 Jan 2025 13:12:39 +0000","dateModified":"Tue, 21 Jan 2025 13:12:39 +0000","description":"Undefined constants revert as strings in Arrays","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Non-constant Index In Array.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>Undefined constants revert as strings in Arrays. They are also called ``barewords``.
+
+
+.. raw:: html
+
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Arrays\/NonConstantArray.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Arrays\/NonConstantArray.html","name":"Non-constant Index In Array","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 21 Jan 2025 13:12:39 +0000","dateModified":"Tue, 21 Jan 2025 13:12:39 +0000","description":"Undefined constants revert as strings in Arrays","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Non-constant Index In Array.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
+Undefined constants revert as strings in Arrays. They are also called ``barewords``.
 
 In ``$array[index]``, PHP cannot find index as a constant, but, as a default behavior, turns it into the string ``index``. 
 

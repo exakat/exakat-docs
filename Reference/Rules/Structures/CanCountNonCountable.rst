@@ -1,26 +1,49 @@
 .. _structures-cancountnoncountable:
 
+
 .. _can't-count-non-countable:
 
 Can't Count Non-Countable
 +++++++++++++++++++++++++
 
+
 .. meta::
+
 	:description:
+
 		Can't Count Non-Countable: Count() emits an error when it tries to count scalars or objects what don't implement Countable interface.
+
 	:twitter:card: summary_large_image
+
 	:twitter:site: @exakat
+
 	:twitter:title: Can't Count Non-Countable
+
 	:twitter:description: Can't Count Non-Countable: Count() emits an error when it tries to count scalars or objects what don't implement Countable interface
+
 	:twitter:creator: @exakat
+
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:title: Can't Count Non-Countable
+
 	:og:type: article
+
 	:og:description: Count() emits an error when it tries to count scalars or objects what don't implement Countable interface
+
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Can't Count Non-Countable.html
+
 	:og:locale: en
-.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/CanCountNonCountable.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/CanCountNonCountable.html","name":"Can't Count Non-Countable","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Count() emits an error when it tries to count scalars or objects what don't implement Countable interface","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Can't Count Non-Countable.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>`Count() <https://www.php.net/count>`_ emits an `error <https://www.php.net/error>`_ when it tries to count scalars or objects what don't implement `Countable <https://www.php.net/countable>`_ interface.
+
+
+.. raw:: html
+
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/CanCountNonCountable.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/CanCountNonCountable.html","name":"Can't Count Non-Countable","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"Count() emits an error when it tries to count scalars or objects what don't implement Countable interface","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Can't Count Non-Countable.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
+`Count() <https://www.php.net/count>`_ emits an `error <https://www.php.net/error>`_ when it tries to count scalars or objects what don't implement `Countable <https://www.php.net/countable>`_ interface.
 
 .. code-block:: php
    

@@ -1,26 +1,49 @@
 .. _structures-arrayfillwithobjects:
 
+
 .. _array\_fill()-with-objects:
 
 Array_Fill() With Objects
 +++++++++++++++++++++++++
 
+
 .. meta::
+
 	:description:
+
 		Array_Fill() With Objects: array_fill() fills an array with identical objects, not copies nor clones.
+
 	:twitter:card: summary_large_image
+
 	:twitter:site: @exakat
+
 	:twitter:title: Array_Fill() With Objects
+
 	:twitter:description: Array_Fill() With Objects: array_fill() fills an array with identical objects, not copies nor clones
+
 	:twitter:creator: @exakat
+
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:title: Array_Fill() With Objects
+
 	:og:type: article
+
 	:og:description: array_fill() fills an array with identical objects, not copies nor clones
+
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Array_Fill() With Objects.html
+
 	:og:locale: en
-.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/ArrayFillWithObjects.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/ArrayFillWithObjects.html","name":"Array_Fill() With Objects","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"array_fill() fills an array with identical objects, not copies nor clones","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Array_Fill() With Objects.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>`array_fill() <https://www.php.net/array_fill>`_ fills an array with identical objects, not copies nor clones. This means that all the filled objects are a reference to the same object. Changing one of them will change any of them.
+
+
+.. raw:: html
+
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/ArrayFillWithObjects.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Structures\/ArrayFillWithObjects.html","name":"Array_Fill() With Objects","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Fri, 10 Jan 2025 09:46:18 +0000","dateModified":"Fri, 10 Jan 2025 09:46:18 +0000","description":"array_fill() fills an array with identical objects, not copies nor clones","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Array_Fill() With Objects.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
+`array_fill() <https://www.php.net/array_fill>`_ fills an array with identical objects, not copies nor clones. This means that all the filled objects are a reference to the same object. Changing one of them will change any of them.
 
 Make sure this is the intended effect in the code. 
 

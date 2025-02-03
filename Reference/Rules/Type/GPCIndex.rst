@@ -1,26 +1,49 @@
 .. _type-gpcindex:
 
+
 .. _incoming-variable-index-inventory:
 
 Incoming Variable Index Inventory
 +++++++++++++++++++++++++++++++++
 
+
 .. meta::
+
 	:description:
+
 		Incoming Variable Index Inventory: This rule collects all the index used in incoming variables : ``$_GET``, ``$_POST``, ``$_REQUEST``, ``$_COOKIE``.
+
 	:twitter:card: summary_large_image
+
 	:twitter:site: @exakat
+
 	:twitter:title: Incoming Variable Index Inventory
+
 	:twitter:description: Incoming Variable Index Inventory: This rule collects all the index used in incoming variables : ``$_GET``, ``$_POST``, ``$_REQUEST``, ``$_COOKIE``
+
 	:twitter:creator: @exakat
+
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
+
 	:og:title: Incoming Variable Index Inventory
+
 	:og:type: article
+
 	:og:description: This rule collects all the index used in incoming variables : ``$_GET``, ``$_POST``, ``$_REQUEST``, ``$_COOKIE``
+
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Incoming Variable Index Inventory.html
+
 	:og:locale: en
-.. raw:: html	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Type\/GPCIndex.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Type\/GPCIndex.html","name":"Incoming Variable Index Inventory","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jan 2025 12:52:58 +0000","dateModified":"Tue, 14 Jan 2025 12:52:58 +0000","description":"This rule collects all the index used in incoming variables : ``$_GET``, ``$_POST``, ``$_REQUEST``, ``$_COOKIE``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Incoming Variable Index Inventory.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>This rule collects all the index used in incoming variables : ``$_GET``, ``$_POST``, ``$_REQUEST``, ``$_COOKIE``. 
+
+
+.. raw:: html
+
+
+	<script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Type\/GPCIndex.html","url":"https:\/\/php-tips.readthedocs.io\/en\/latest\/Reference\/Rules\/Type\/GPCIndex.html","name":"Incoming Variable Index Inventory","isPartOf":{"@id":"https:\/\/www.exakat.io\/"},"datePublished":"Tue, 14 Jan 2025 12:52:58 +0000","dateModified":"Tue, 14 Jan 2025 12:52:58 +0000","description":"This rule collects all the index used in incoming variables : ``$_GET``, ``$_POST``, ``$_REQUEST``, ``$_COOKIE``","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/exakat.readthedocs.io\/en\/latest\/Incoming Variable Index Inventory.html"]}]},{"@type":"WebSite","@id":"https:\/\/www.exakat.io\/","url":"https:\/\/www.exakat.io\/","name":"Exakat","description":"Smart PHP static analysis","inLanguage":"en-US"}]}</script>
+
+This rule collects all the index used in incoming variables : ``$_GET``, ``$_POST``, ``$_REQUEST``, ``$_COOKIE``. 
 
 Collecting together the names of incoming variable is good for documentation.
 
