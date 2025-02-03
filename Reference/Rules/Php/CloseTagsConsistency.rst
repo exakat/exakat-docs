@@ -6,37 +6,21 @@
 Close Tags Consistency
 ++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Close Tags Consistency: PHP scripts may omit the final closing tag.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Close Tags Consistency
-
 	:twitter:description: Close Tags Consistency: PHP scripts may omit the final closing tag
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Close Tags Consistency
-
 	:og:type: article
-
 	:og:description: PHP scripts may omit the final closing tag
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Close Tags Consistency.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

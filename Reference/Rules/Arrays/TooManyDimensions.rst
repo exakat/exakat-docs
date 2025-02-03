@@ -6,37 +6,21 @@
 Too Many Array Dimensions
 +++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Too Many Array Dimensions: This analysis reports when arrays have too many dimensions.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Too Many Array Dimensions
-
 	:twitter:description: Too Many Array Dimensions: This analysis reports when arrays have too many dimensions
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Too Many Array Dimensions
-
 	:og:type: article
-
 	:og:description: This analysis reports when arrays have too many dimensions
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Too Many Array Dimensions.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

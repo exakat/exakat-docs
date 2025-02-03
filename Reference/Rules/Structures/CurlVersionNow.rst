@@ -6,37 +6,21 @@
 curl_version() Has No Argument
 ++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		curl_version() Has No Argument: curl_version() used to accept ``CURLVERSION_NOW`` as argument.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: curl_version() Has No Argument
-
 	:twitter:description: curl_version() Has No Argument: curl_version() used to accept ``CURLVERSION_NOW`` as argument
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: curl_version() Has No Argument
-
 	:og:type: article
-
 	:og:description: curl_version() used to accept ``CURLVERSION_NOW`` as argument
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/curl_version() Has No Argument.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

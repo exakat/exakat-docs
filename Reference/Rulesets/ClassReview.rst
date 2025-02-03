@@ -18,6 +18,7 @@ Class Review
 	:og:description: A set of rules dedicated to class hygiene
 	:og:url: https://exakat.readthedocs.io/en/latest/Rulesets/Class Review.html
 	:og:locale: en
+
 This ruleset focuses on classes construction issues, and their related structures : traits, interfaces, methods, properties, constants.
 
 Total : 100 analysis

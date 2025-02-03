@@ -6,37 +6,21 @@
 Cancelled Parameter
 +++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Cancelled Parameter: A parameter is cancelled, when its value is hardcoded, and cannot be changed by the calling expression.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Cancelled Parameter
-
 	:twitter:description: Cancelled Parameter: A parameter is cancelled, when its value is hardcoded, and cannot be changed by the calling expression
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Cancelled Parameter
-
 	:og:type: article
-
 	:og:description: A parameter is cancelled, when its value is hardcoded, and cannot be changed by the calling expression
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Cancelled Parameter.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

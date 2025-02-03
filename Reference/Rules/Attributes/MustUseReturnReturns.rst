@@ -6,37 +6,21 @@
 Must Use Result, So It Returns
 ++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Must Use Result, So It Returns: A method or function that uses the #[MustUseResult] attribute, must return a value.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Must Use Result, So It Returns
-
 	:twitter:description: Must Use Result, So It Returns: A method or function that uses the #[MustUseResult] attribute, must return a value
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Must Use Result, So It Returns
-
 	:og:type: article
-
 	:og:description: A method or function that uses the #[MustUseResult] attribute, must return a value
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Must Use Result, So It Returns.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

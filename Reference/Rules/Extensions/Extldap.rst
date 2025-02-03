@@ -6,37 +6,21 @@
 ext/ldap
 ++++++++
 
-
 .. meta::
-
 	:description:
-
 		ext/ldap: Extension ext/ldap.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: ext/ldap
-
 	:twitter:description: ext/ldap: Extension ext/ldap
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: ext/ldap
-
 	:og:type: article
-
 	:og:description: Extension ext/ldap
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/ldap.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

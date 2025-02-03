@@ -6,37 +6,21 @@
 Next Month Trap
 +++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Next Month Trap: Avoid using +1 month with strtotime().
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Next Month Trap
-
 	:twitter:description: Next Month Trap: Avoid using +1 month with strtotime()
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Next Month Trap
-
 	:og:type: article
-
 	:og:description: Avoid using +1 month with strtotime()
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Next Month Trap.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

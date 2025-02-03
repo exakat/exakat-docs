@@ -6,37 +6,21 @@
 Calling Static Trait Method
 +++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Calling Static Trait Method: Calling directly a static method, defined in a trait is deprecated.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Calling Static Trait Method
-
 	:twitter:description: Calling Static Trait Method: Calling directly a static method, defined in a trait is deprecated
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Calling Static Trait Method
-
 	:og:type: article
-
 	:og:description: Calling directly a static method, defined in a trait is deprecated
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Calling Static Trait Method.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

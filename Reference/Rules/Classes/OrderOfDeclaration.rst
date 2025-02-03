@@ -6,37 +6,21 @@
 Order Of Declaration
 ++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Order Of Declaration: The order used to declare members and methods has a great impact on readability and maintenance.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Order Of Declaration
-
 	:twitter:description: Order Of Declaration: The order used to declare members and methods has a great impact on readability and maintenance
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Order Of Declaration
-
 	:og:type: article
-
 	:og:description: The order used to declare members and methods has a great impact on readability and maintenance
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Order Of Declaration.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

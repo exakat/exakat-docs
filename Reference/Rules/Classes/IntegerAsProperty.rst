@@ -6,37 +6,21 @@
 Integer As Property
 +++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Integer As Property: It is backward incompatible to use integers are property names.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Integer As Property
-
 	:twitter:description: Integer As Property: It is backward incompatible to use integers are property names
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Integer As Property
-
 	:og:type: article
-
 	:og:description: It is backward incompatible to use integers are property names
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Integer As Property.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

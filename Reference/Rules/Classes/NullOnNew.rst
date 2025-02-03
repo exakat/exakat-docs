@@ -6,37 +6,21 @@
 Null On New
 +++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Null On New: Until PHP 7, some classes instantiation could yield null, instead of throwing an exception.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Null On New
-
 	:twitter:description: Null On New: Until PHP 7, some classes instantiation could yield null, instead of throwing an exception
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Null On New
-
 	:og:type: article
-
 	:og:description: Until PHP 7, some classes instantiation could yield null, instead of throwing an exception
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Null On New.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

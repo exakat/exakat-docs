@@ -6,37 +6,21 @@
 Foreach With list()
 +++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Foreach With list(): Foreach loops have the ability to use list() (or []) as blind variables.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Foreach With list()
-
 	:twitter:description: Foreach With list(): Foreach loops have the ability to use list() (or []) as blind variables
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Foreach With list()
-
 	:og:type: article
-
 	:og:description: Foreach loops have the ability to use list() (or []) as blind variables
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Foreach With list().html
-
 	:og:locale: en
-
 
 .. raw:: html
 

@@ -6,37 +6,21 @@
 Check After Null Safe Operator
 ++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Check After Null Safe Operator: Null-safe operator is ``.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Check After Null Safe Operator
-
 	:twitter:description: Check After Null Safe Operator: Null-safe operator is ``
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Check After Null Safe Operator
-
 	:og:type: article
-
 	:og:description: Null-safe operator is ``
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Check After Null Safe Operator.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

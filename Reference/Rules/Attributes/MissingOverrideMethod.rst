@@ -6,37 +6,21 @@
 Missing Overriden Method
 ++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Missing Overriden Method: This rule reports methods which bears the override attribute, but cannot have an eponymous method in the parent class.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Missing Overriden Method
-
 	:twitter:description: Missing Overriden Method: This rule reports methods which bears the override attribute, but cannot have an eponymous method in the parent class
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Missing Overriden Method
-
 	:og:type: article
-
 	:og:description: This rule reports methods which bears the override attribute, but cannot have an eponymous method in the parent class
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Missing Overriden Method.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

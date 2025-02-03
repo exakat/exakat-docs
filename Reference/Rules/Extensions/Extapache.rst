@@ -6,37 +6,21 @@
 ext/apache
 ++++++++++
 
-
 .. meta::
-
 	:description:
-
 		ext/apache: Extension Apache.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: ext/apache
-
 	:twitter:description: ext/apache: Extension Apache
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: ext/apache
-
 	:og:type: article
-
 	:og:description: Extension Apache
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/apache.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

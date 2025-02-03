@@ -6,37 +6,21 @@
 Is Stub Structure
 +++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Is Stub Structure: This command finishes marking atoms with the isStub property.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Is Stub Structure
-
 	:twitter:description: Is Stub Structure: This command finishes marking atoms with the isStub property
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Is Stub Structure
-
 	:og:type: article
-
 	:og:description: This command finishes marking atoms with the isStub property
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Is Stub Structure.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

@@ -6,37 +6,21 @@
 Large Try Block
 +++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Large Try Block: Try block should enclosing only the expression that may emit an exception.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Large Try Block
-
 	:twitter:description: Large Try Block: Try block should enclosing only the expression that may emit an exception
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Large Try Block
-
 	:og:type: article
-
 	:og:description: Try block should enclosing only the expression that may emit an exception
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Large Try Block.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

@@ -6,37 +6,21 @@
 Unknown Directive Name
 ++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Unknown Directive Name: Unknown directives names used in the code.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Unknown Directive Name
-
 	:twitter:description: Unknown Directive Name: Unknown directives names used in the code
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Unknown Directive Name
-
 	:og:type: article
-
 	:og:description: Unknown directives names used in the code
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Unknown Directive Name.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

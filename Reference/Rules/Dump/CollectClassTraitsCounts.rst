@@ -6,37 +6,21 @@
 Collect Class Traits Counts
 +++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Collect Class Traits Counts: This rule counts the number of trait used in a class.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Collect Class Traits Counts
-
 	:twitter:description: Collect Class Traits Counts: This rule counts the number of trait used in a class
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Collect Class Traits Counts
-
 	:og:type: article
-
 	:og:description: This rule counts the number of trait used in a class
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Collect Class Traits Counts.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

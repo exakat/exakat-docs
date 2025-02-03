@@ -6,37 +6,21 @@
 Identical Elseif
 ++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Identical Elseif: In a long if/elseif/then structures, identical conditions are mutually exclusive.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Identical Elseif
-
 	:twitter:description: Identical Elseif: In a long if/elseif/then structures, identical conditions are mutually exclusive
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Identical Elseif
-
 	:og:type: article
-
 	:og:description: In a long if/elseif/then structures, identical conditions are mutually exclusive
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Identical Elseif.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

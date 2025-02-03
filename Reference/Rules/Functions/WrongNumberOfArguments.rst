@@ -6,37 +6,21 @@
 Wrong Number Of Arguments
 +++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Wrong Number Of Arguments: Those functioncalls are made with too many or too few arguments.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Wrong Number Of Arguments
-
 	:twitter:description: Wrong Number Of Arguments: Those functioncalls are made with too many or too few arguments
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Wrong Number Of Arguments
-
 	:og:type: article
-
 	:og:description: Those functioncalls are made with too many or too few arguments
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Wrong Number Of Arguments.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

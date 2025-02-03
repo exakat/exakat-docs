@@ -6,37 +6,21 @@
 Could Make A Function
 +++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Could Make A Function: When a function is called across the code with the same arguments often enough, it should be turned into a local API.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Could Make A Function
-
 	:twitter:description: Could Make A Function: When a function is called across the code with the same arguments often enough, it should be turned into a local API
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Could Make A Function
-
 	:og:type: article
-
 	:og:description: When a function is called across the code with the same arguments often enough, it should be turned into a local API
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Could Make A Function.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

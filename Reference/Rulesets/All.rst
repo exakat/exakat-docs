@@ -18,6 +18,7 @@ All
 	:og:description: All is a dummy ruleset, which includes all the rules.
 	:og:url: https://exakat.readthedocs.io/en/latest/Rulesets/All.html
 	:og:locale: en
+
 All is a dummy ruleset, which includes all the rules. It is mostly used internally.
 
 Total : 1658 analysis

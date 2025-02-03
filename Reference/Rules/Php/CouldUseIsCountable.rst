@@ -6,37 +6,21 @@
 Use is_countable
 ++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Use is_countable: is_countable() checks if a variables holds a value that can be counted.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Use is_countable
-
 	:twitter:description: Use is_countable: is_countable() checks if a variables holds a value that can be counted
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Use is_countable
-
 	:og:type: article
-
 	:og:description: is_countable() checks if a variables holds a value that can be counted
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Use is_countable.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

@@ -6,37 +6,21 @@
 Unused Functions
 ++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Unused Functions: The functions below are unused.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Unused Functions
-
 	:twitter:description: Unused Functions: The functions below are unused
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Unused Functions
-
 	:og:type: article
-
 	:og:description: The functions below are unused
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Unused Functions.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

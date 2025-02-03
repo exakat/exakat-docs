@@ -6,37 +6,21 @@
 Implemented Methods Must Be Public
 ++++++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Implemented Methods Must Be Public: Class methods that are defined in an interface must be public.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Implemented Methods Must Be Public
-
 	:twitter:description: Implemented Methods Must Be Public: Class methods that are defined in an interface must be public
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Implemented Methods Must Be Public
-
 	:og:type: article
-
 	:og:description: Class methods that are defined in an interface must be public
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Implemented Methods Must Be Public.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

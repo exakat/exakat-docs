@@ -6,37 +6,21 @@
 For Using Functioncall
 ++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		For Using Functioncall: It is recommended to avoid functioncall in the for() statement.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: For Using Functioncall
-
 	:twitter:description: For Using Functioncall: It is recommended to avoid functioncall in the for() statement
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: For Using Functioncall
-
 	:og:type: article
-
 	:og:description: It is recommended to avoid functioncall in the for() statement
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/For Using Functioncall.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

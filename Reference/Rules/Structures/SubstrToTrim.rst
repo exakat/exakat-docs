@@ -6,37 +6,21 @@
 Substr To Trim
 ++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Substr To Trim: When removing the first or the last character of a string, trim() does a more readable job.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Substr To Trim
-
 	:twitter:description: Substr To Trim: When removing the first or the last character of a string, trim() does a more readable job
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Substr To Trim
-
 	:og:type: article
-
 	:og:description: When removing the first or the last character of a string, trim() does a more readable job
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Substr To Trim.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

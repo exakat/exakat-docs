@@ -6,37 +6,21 @@
 mb_strrpos() Third Argument
 +++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		mb_strrpos() Third Argument: Passing the encoding as 3rd parameter to mb_strrpos() is deprecated.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: mb_strrpos() Third Argument
-
 	:twitter:description: mb_strrpos() Third Argument: Passing the encoding as 3rd parameter to mb_strrpos() is deprecated
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: mb_strrpos() Third Argument
-
 	:og:type: article
-
 	:og:description: Passing the encoding as 3rd parameter to mb_strrpos() is deprecated
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/mb_strrpos() Third Argument.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

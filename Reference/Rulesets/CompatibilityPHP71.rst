@@ -18,6 +18,7 @@ CompatibilityPHP71
 	:og:description: List features that are incompatible with PHP 7.1.
 	:og:url: https://exakat.readthedocs.io/en/latest/Rulesets/CompatibilityPHP71.html
 	:og:locale: en
+
 This ruleset centralizes all analysis for the migration from PHP 7.0 to 7.1.
 
 Total : 59 analysis

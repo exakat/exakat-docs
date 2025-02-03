@@ -6,37 +6,21 @@
 Too Many Children
 +++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Too Many Children: Classes that have more than 15 children.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Too Many Children
-
 	:twitter:description: Too Many Children: Classes that have more than 15 children
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Too Many Children
-
 	:og:type: article
-
 	:og:description: Classes that have more than 15 children
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Too Many Children.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

@@ -18,6 +18,7 @@ CompatibilityPHP83
 	:og:description: List features that are incompatible with PHP 8.3.
 	:og:url: https://exakat.readthedocs.io/en/latest/Rulesets/CompatibilityPHP83.html
 	:og:locale: en
+
 This ruleset centralizes all analysis for the migration from PHP 8.2 to 8.3.
 
 Total : 5 analysis

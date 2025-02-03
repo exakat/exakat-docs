@@ -6,37 +6,21 @@
 Unserialize Second Arg
 ++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Unserialize Second Arg: Since PHP 7, unserialize() function has a second argument that limits the classes that may be unserialized.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Unserialize Second Arg
-
 	:twitter:description: Unserialize Second Arg: Since PHP 7, unserialize() function has a second argument that limits the classes that may be unserialized
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Unserialize Second Arg
-
 	:og:type: article
-
 	:og:description: Since PHP 7, unserialize() function has a second argument that limits the classes that may be unserialized
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Unserialize Second Arg.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

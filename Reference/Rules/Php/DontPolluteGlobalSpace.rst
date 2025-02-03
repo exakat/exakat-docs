@@ -6,37 +6,21 @@
 Don't Pollute Global Space
 ++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Don't Pollute Global Space: Avoid creating definitions in the global name space.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Don't Pollute Global Space
-
 	:twitter:description: Don't Pollute Global Space: Avoid creating definitions in the global name space
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Don't Pollute Global Space
-
 	:og:type: article
-
 	:og:description: Avoid creating definitions in the global name space
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Don't Pollute Global Space.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

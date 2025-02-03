@@ -6,37 +6,21 @@
 Method Property Confusion
 +++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Method Property Confusion: There might be confusion between a property and a method when they bear the same name.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Method Property Confusion
-
 	:twitter:description: Method Property Confusion: There might be confusion between a property and a method when they bear the same name
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Method Property Confusion
-
 	:og:type: article
-
 	:og:description: There might be confusion between a property and a method when they bear the same name
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Method Property Confusion.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

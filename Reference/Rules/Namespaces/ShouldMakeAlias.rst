@@ -6,37 +6,21 @@
 Should Make Alias
 +++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Should Make Alias: Long names should be aliased.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Should Make Alias
-
 	:twitter:description: Should Make Alias: Long names should be aliased
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Should Make Alias
-
 	:og:type: article
-
 	:og:description: Long names should be aliased
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Should Make Alias.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

@@ -6,37 +6,21 @@
 No Parenthesis For Language Construct
 +++++++++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		No Parenthesis For Language Construct: Some PHP language constructs, such are ``include``, ``require``, ``include_once``, ``require_once``, ``print``, ``echo`` don't need parenthesis.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: No Parenthesis For Language Construct
-
 	:twitter:description: No Parenthesis For Language Construct: Some PHP language constructs, such are ``include``, ``require``, ``include_once``, ``require_once``, ``print``, ``echo`` don't need parenthesis
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: No Parenthesis For Language Construct
-
 	:og:type: article
-
 	:og:description: Some PHP language constructs, such are ``include``, ``require``, ``include_once``, ``require_once``, ``print``, ``echo`` don't need parenthesis
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No Parenthesis For Language Construct.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

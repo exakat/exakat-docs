@@ -6,37 +6,21 @@
 Invalid Constant Name
 +++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Invalid Constant Name: There is a naming convention for PHP constants names.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Invalid Constant Name
-
 	:twitter:description: Invalid Constant Name: There is a naming convention for PHP constants names
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Invalid Constant Name
-
 	:og:type: article
-
 	:og:description: There is a naming convention for PHP constants names
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Invalid Constant Name.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

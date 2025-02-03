@@ -6,37 +6,21 @@
 No get_class() With Null
 ++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		No get_class() With Null: It is not possible to pass explicitly null to get_class() to get the current's class name.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: No get_class() With Null
-
 	:twitter:description: No get_class() With Null: It is not possible to pass explicitly null to get_class() to get the current's class name
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: No get_class() With Null
-
 	:og:type: article
-
 	:og:description: It is not possible to pass explicitly null to get_class() to get the current's class name
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No get_class() With Null.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

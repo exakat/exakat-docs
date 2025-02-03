@@ -6,37 +6,21 @@
 Signature Trailing Comma
 ++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Signature Trailing Comma: Trailing comma in method signature.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Signature Trailing Comma
-
 	:twitter:description: Signature Trailing Comma: Trailing comma in method signature
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Signature Trailing Comma
-
 	:og:type: article
-
 	:og:description: Trailing comma in method signature
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Signature Trailing Comma.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

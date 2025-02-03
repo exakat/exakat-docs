@@ -6,37 +6,21 @@
 Raised Access Level
 +++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Raised Access Level: A visibility may be lowered, but not raised.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Raised Access Level
-
 	:twitter:description: Raised Access Level: A visibility may be lowered, but not raised
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Raised Access Level
-
 	:og:type: article
-
 	:og:description: A visibility may be lowered, but not raised
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Raised Access Level.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

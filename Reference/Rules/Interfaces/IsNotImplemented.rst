@@ -6,37 +6,21 @@
 Interfaces Is Not Implemented
 +++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Interfaces Is Not Implemented: Classes that implements interfaces, must implements each of the interface's methods.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Interfaces Is Not Implemented
-
 	:twitter:description: Interfaces Is Not Implemented: Classes that implements interfaces, must implements each of the interface's methods
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Interfaces Is Not Implemented
-
 	:og:type: article
-
 	:og:description: Classes that implements interfaces, must implements each of the interface's methods
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Interfaces Is Not Implemented.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

@@ -6,37 +6,21 @@
 Avoid Substr() One
 ++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Avoid Substr() One: Use array notation ``$string[$position]`` to reach a single byte in a string.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Avoid Substr() One
-
 	:twitter:description: Avoid Substr() One: Use array notation ``$string[$position]`` to reach a single byte in a string
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Avoid Substr() One
-
 	:og:type: article
-
 	:og:description: Use array notation ``$string[$position]`` to reach a single byte in a string
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Avoid Substr() One.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

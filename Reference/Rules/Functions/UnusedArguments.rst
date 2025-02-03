@@ -6,37 +6,21 @@
 Unused Parameter
 ++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Unused Parameter: Those parameters are not used inside the method or function.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Unused Parameter
-
 	:twitter:description: Unused Parameter: Those parameters are not used inside the method or function
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Unused Parameter
-
 	:og:type: article
-
 	:og:description: Those parameters are not used inside the method or function
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Unused Parameter.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

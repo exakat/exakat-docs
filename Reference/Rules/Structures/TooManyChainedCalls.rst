@@ -6,37 +6,21 @@
 Too Many Chained Calls
 ++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Too Many Chained Calls: Report chained calls of functions, methods and static methods are crammed in one expression.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Too Many Chained Calls
-
 	:twitter:description: Too Many Chained Calls: Report chained calls of functions, methods and static methods are crammed in one expression
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Too Many Chained Calls
-
 	:og:type: article
-
 	:og:description: Report chained calls of functions, methods and static methods are crammed in one expression
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Too Many Chained Calls.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

@@ -6,37 +6,21 @@
 Ice framework
 +++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Ice framework: Ice - simple, fast and open-source PHP framework frozen in C-extension.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Ice framework
-
 	:twitter:description: Ice framework: Ice - simple, fast and open-source PHP framework frozen in C-extension
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Ice framework
-
 	:og:type: article
-
 	:og:description: Ice - simple, fast and open-source PHP framework frozen in C-extension
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Ice framework.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

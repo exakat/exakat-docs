@@ -6,37 +6,21 @@
 filter_input() As A Source
 ++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		filter_input() As A Source: The filter_input() and filter_input_array() functions access directly to ``$_GET``.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: filter_input() As A Source
-
 	:twitter:description: filter_input() As A Source: The filter_input() and filter_input_array() functions access directly to ``$_GET``
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: filter_input() As A Source
-
 	:og:type: article
-
 	:og:description: The filter_input() and filter_input_array() functions access directly to ``$_GET``
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/filter_input() As A Source.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

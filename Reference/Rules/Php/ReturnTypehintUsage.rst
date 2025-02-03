@@ -6,37 +6,21 @@
 Return Type Usage
 +++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Return Type Usage: Spot usage of return types.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Return Type Usage
-
 	:twitter:description: Return Type Usage: Spot usage of return types
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Return Type Usage
-
 	:og:type: article
-
 	:og:description: Spot usage of return types
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Return Type Usage.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

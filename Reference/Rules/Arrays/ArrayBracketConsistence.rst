@@ -6,37 +6,21 @@
 Array() / [  ] Consistence
 ++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Array() / [  ] Consistence: array() or [ ] is the favorite.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Array() / [  ] Consistence
-
 	:twitter:description: Array() / [  ] Consistence: array() or [ ] is the favorite
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Array() / [  ] Consistence
-
 	:og:type: article
-
 	:og:description: array() or [ ] is the favorite
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Array() / [  ] Consistence.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

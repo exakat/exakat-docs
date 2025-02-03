@@ -6,37 +6,21 @@
 Variable Constants
 ++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Variable Constants: Variable constants are constants whose value is accessed via the function constant().
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Variable Constants
-
 	:twitter:description: Variable Constants: Variable constants are constants whose value is accessed via the function constant()
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Variable Constants
-
 	:og:type: article
-
 	:og:description: Variable constants are constants whose value is accessed via the function constant()
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Variable Constants.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

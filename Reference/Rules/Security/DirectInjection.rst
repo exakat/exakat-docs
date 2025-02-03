@@ -6,37 +6,21 @@
 Direct Injection
 ++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Direct Injection: The following code act directly upon PHP incoming variables like ``$_GET`` and ``$_POST``.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Direct Injection
-
 	:twitter:description: Direct Injection: The following code act directly upon PHP incoming variables like ``$_GET`` and ``$_POST``
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Direct Injection
-
 	:og:type: article
-
 	:og:description: The following code act directly upon PHP incoming variables like ``$_GET`` and ``$_POST``
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Direct Injection.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

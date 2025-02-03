@@ -6,37 +6,21 @@
 Comparison Is Always The Same
 +++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Comparison Is Always The Same: Based on the incoming type of arguments, the comparison always yields the same value.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Comparison Is Always The Same
-
 	:twitter:description: Comparison Is Always The Same: Based on the incoming type of arguments, the comparison always yields the same value
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Comparison Is Always The Same
-
 	:og:type: article
-
 	:og:description: Based on the incoming type of arguments, the comparison always yields the same value
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Comparison Is Always The Same.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

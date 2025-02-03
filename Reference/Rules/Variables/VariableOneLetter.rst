@@ -6,37 +6,21 @@
 Variables With One Letter Names
 +++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Variables With One Letter Names: Variables with one letter name are the shortest name for variables.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Variables With One Letter Names
-
 	:twitter:description: Variables With One Letter Names: Variables with one letter name are the shortest name for variables
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Variables With One Letter Names
-
 	:og:type: article
-
 	:og:description: Variables with one letter name are the shortest name for variables
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Variables With One Letter Names.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

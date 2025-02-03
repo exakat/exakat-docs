@@ -6,37 +6,21 @@
 GLOB_BRACE Usage
 ++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		GLOB_BRACE Usage: GLOB_BRACE is not always available on every underlying operating system.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: GLOB_BRACE Usage
-
 	:twitter:description: GLOB_BRACE Usage: GLOB_BRACE is not always available on every underlying operating system
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: GLOB_BRACE Usage
-
 	:og:type: article
-
 	:og:description: GLOB_BRACE is not always available on every underlying operating system
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/GLOB_BRACE Usage.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

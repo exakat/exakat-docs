@@ -6,37 +6,21 @@
 An OOP Factory
 ++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		An OOP Factory: A method or function that implements a factory.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: An OOP Factory
-
 	:twitter:description: An OOP Factory: A method or function that implements a factory
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: An OOP Factory
-
 	:og:type: article
-
 	:og:description: A method or function that implements a factory
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/An OOP Factory.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

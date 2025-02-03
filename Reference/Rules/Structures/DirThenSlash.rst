@@ -6,37 +6,21 @@
 __DIR__ Then Slash
 ++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		__DIR__ Then Slash: __DIR__ must be concatenated with a string starting with /.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: __DIR__ Then Slash
-
 	:twitter:description: __DIR__ Then Slash: __DIR__ must be concatenated with a string starting with /
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: __DIR__ Then Slash
-
 	:og:type: article
-
 	:og:description: __DIR__ must be concatenated with a string starting with /
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/__DIR__ Then Slash.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

@@ -6,37 +6,21 @@
 Dangling Array References
 +++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Dangling Array References: Always unset a referenced-variable used in a loop.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Dangling Array References
-
 	:twitter:description: Dangling Array References: Always unset a referenced-variable used in a loop
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Dangling Array References
-
 	:og:type: article
-
 	:og:description: Always unset a referenced-variable used in a loop
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Dangling Array References.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

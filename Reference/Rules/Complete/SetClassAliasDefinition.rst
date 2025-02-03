@@ -6,37 +6,21 @@
 Set class_alias() Definition
 ++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Set class_alias() Definition: Links identifiers and nsname to the concrete class, interface, trait and enumeration when class_alias() was used to create the name.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Set class_alias() Definition
-
 	:twitter:description: Set class_alias() Definition: Links identifiers and nsname to the concrete class, interface, trait and enumeration when class_alias() was used to create the name
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Set class_alias() Definition
-
 	:og:type: article
-
 	:og:description: Links identifiers and nsname to the concrete class, interface, trait and enumeration when class_alias() was used to create the name
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Set class_alias() Definition.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

@@ -6,37 +6,21 @@
 Self-Transforming Variables
 +++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Self-Transforming Variables: Variables that are assigned to themselves, after transformation.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Self-Transforming Variables
-
 	:twitter:description: Self-Transforming Variables: Variables that are assigned to themselves, after transformation
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Self-Transforming Variables
-
 	:og:type: article
-
 	:og:description: Variables that are assigned to themselves, after transformation
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Self-Transforming Variables.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

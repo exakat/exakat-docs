@@ -6,37 +6,21 @@
 Serialize Magic Method
 ++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Serialize Magic Method: Classes that defines __serialize() and __unserialize() are using Serialize Magic.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Serialize Magic Method
-
 	:twitter:description: Serialize Magic Method: Classes that defines __serialize() and __unserialize() are using Serialize Magic
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Serialize Magic Method
-
 	:og:type: article
-
 	:og:description: Classes that defines __serialize() and __unserialize() are using Serialize Magic
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Serialize Magic Method.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

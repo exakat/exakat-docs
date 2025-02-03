@@ -6,37 +6,21 @@
 No Hardcoded Port
 +++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		No Hardcoded Port: When connecting to a remove server, port is an important information.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: No Hardcoded Port
-
 	:twitter:description: No Hardcoded Port: When connecting to a remove server, port is an important information
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: No Hardcoded Port
-
 	:og:type: article
-
 	:og:description: When connecting to a remove server, port is an important information
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No Hardcoded Port.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

@@ -6,37 +6,21 @@
 Collect Class Constant Counts
 +++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Collect Class Constant Counts: This analysis collects the number of class constants per class or interface.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Collect Class Constant Counts
-
 	:twitter:description: Collect Class Constant Counts: This analysis collects the number of class constants per class or interface
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Collect Class Constant Counts
-
 	:og:type: article
-
 	:og:description: This analysis collects the number of class constants per class or interface
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Collect Class Constant Counts.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

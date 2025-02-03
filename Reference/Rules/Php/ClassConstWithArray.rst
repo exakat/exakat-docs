@@ -6,37 +6,21 @@
 Class Const With Array
 ++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Class Const With Array: This rule lists global and class constant that are defined with an array value.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Class Const With Array
-
 	:twitter:description: Class Const With Array: This rule lists global and class constant that are defined with an array value
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Class Const With Array
-
 	:og:type: article
-
 	:og:description: This rule lists global and class constant that are defined with an array value
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Class Const With Array.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

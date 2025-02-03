@@ -6,37 +6,21 @@
 Deprecated Mb_string Encodings
 ++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Deprecated Mb_string Encodings: Some encodings, available in the mb_string extensions, are deprecated.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Deprecated Mb_string Encodings
-
 	:twitter:description: Deprecated Mb_string Encodings: Some encodings, available in the mb_string extensions, are deprecated
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Deprecated Mb_string Encodings
-
 	:og:type: article
-
 	:og:description: Some encodings, available in the mb_string extensions, are deprecated
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Deprecated Mb_string Encodings.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

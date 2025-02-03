@@ -6,37 +6,21 @@
 Constructors
 ++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Constructors: This rule marks methods as constructors.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Constructors
-
 	:twitter:description: Constructors: This rule marks methods as constructors
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Constructors
-
 	:og:type: article
-
 	:og:description: This rule marks methods as constructors
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Constructors.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

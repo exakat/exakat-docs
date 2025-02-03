@@ -6,37 +6,21 @@
 No Reference For Ternary
 ++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		No Reference For Ternary: The ternary operator and the null coalescing operator are both expressions that only return values, and not a reference.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: No Reference For Ternary
-
 	:twitter:description: No Reference For Ternary: The ternary operator and the null coalescing operator are both expressions that only return values, and not a reference
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: No Reference For Ternary
-
 	:og:type: article
-
 	:og:description: The ternary operator and the null coalescing operator are both expressions that only return values, and not a reference
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No Reference For Ternary.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

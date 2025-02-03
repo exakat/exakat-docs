@@ -6,37 +6,21 @@
 Swapped Arguments
 +++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Swapped Arguments: Overwritten methods must be compatible, but argument names is not part of that compatibility.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Swapped Arguments
-
 	:twitter:description: Swapped Arguments: Overwritten methods must be compatible, but argument names is not part of that compatibility
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Swapped Arguments
-
 	:og:type: article
-
 	:og:description: Overwritten methods must be compatible, but argument names is not part of that compatibility
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Swapped Arguments.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

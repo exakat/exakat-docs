@@ -6,37 +6,21 @@
 Concrete5 usage
 +++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Concrete5 usage: This analysis reports usage of the Concrete 5 framework.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Concrete5 usage
-
 	:twitter:description: Concrete5 usage: This analysis reports usage of the Concrete 5 framework
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Concrete5 usage
-
 	:og:type: article
-
 	:og:description: This analysis reports usage of the Concrete 5 framework
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Concrete5 usage.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

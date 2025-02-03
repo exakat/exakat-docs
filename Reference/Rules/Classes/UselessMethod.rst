@@ -6,37 +6,21 @@
 Useless Method
 ++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Useless Method: This method is useless, as it actually does what PHP would do by default.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Useless Method
-
 	:twitter:description: Useless Method: This method is useless, as it actually does what PHP would do by default
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Useless Method
-
 	:og:type: article
-
 	:og:description: This method is useless, as it actually does what PHP would do by default
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Useless Method.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

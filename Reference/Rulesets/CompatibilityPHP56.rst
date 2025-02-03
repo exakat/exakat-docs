@@ -18,6 +18,7 @@ CompatibilityPHP56
 	:og:description: List features that are incompatible with PHP 5.6.
 	:og:url: https://exakat.readthedocs.io/en/latest/Rulesets/CompatibilityPHP56.html
 	:og:locale: en
+
 This ruleset centralizes all analysis for the migration from PHP 5.5 to 5.6.
 
 Total : 77 analysis

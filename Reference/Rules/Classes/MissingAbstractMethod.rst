@@ -6,37 +6,21 @@
 Missing Abstract Method
 +++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Missing Abstract Method: Abstract methods must have a non-abstract version for the class to be complete.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Missing Abstract Method
-
 	:twitter:description: Missing Abstract Method: Abstract methods must have a non-abstract version for the class to be complete
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Missing Abstract Method
-
 	:og:type: article
-
 	:og:description: Abstract methods must have a non-abstract version for the class to be complete
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Missing Abstract Method.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

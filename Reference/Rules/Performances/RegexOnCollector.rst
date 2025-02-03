@@ -6,37 +6,21 @@
 Processing Collector
 ++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Processing Collector: When accumulating data in a variable, within a loop, it is slow to apply repeatedly a function to the variable.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Processing Collector
-
 	:twitter:description: Processing Collector: When accumulating data in a variable, within a loop, it is slow to apply repeatedly a function to the variable
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Processing Collector
-
 	:og:type: article
-
 	:og:description: When accumulating data in a variable, within a loop, it is slow to apply repeatedly a function to the variable
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Processing Collector.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

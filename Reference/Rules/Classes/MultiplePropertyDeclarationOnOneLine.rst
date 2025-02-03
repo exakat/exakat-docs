@@ -6,37 +6,21 @@
 Multiple Property Declaration On One Line
 +++++++++++++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Multiple Property Declaration On One Line: Multiple properties are defined on the same line.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Multiple Property Declaration On One Line
-
 	:twitter:description: Multiple Property Declaration On One Line: Multiple properties are defined on the same line
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Multiple Property Declaration On One Line
-
 	:og:type: article
-
 	:og:description: Multiple properties are defined on the same line
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Multiple Property Declaration On One Line.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

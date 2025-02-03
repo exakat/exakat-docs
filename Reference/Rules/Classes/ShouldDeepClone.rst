@@ -6,37 +6,21 @@
 Should Deep Clone
 +++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Should Deep Clone: By default, PHP makes a shallow clone.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Should Deep Clone
-
 	:twitter:description: Should Deep Clone: By default, PHP makes a shallow clone
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Should Deep Clone
-
 	:og:type: article
-
 	:og:description: By default, PHP makes a shallow clone
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Should Deep Clone.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

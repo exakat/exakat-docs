@@ -6,37 +6,21 @@
 Abstract Class Constants
 ++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Abstract Class Constants: Those are class constants which are defined in multiple children, but not in the parent class.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Abstract Class Constants
-
 	:twitter:description: Abstract Class Constants: Those are class constants which are defined in multiple children, but not in the parent class
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Abstract Class Constants
-
 	:og:type: article
-
 	:og:description: Those are class constants which are defined in multiple children, but not in the parent class
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Abstract Class Constants.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

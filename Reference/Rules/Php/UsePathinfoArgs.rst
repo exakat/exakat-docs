@@ -6,37 +6,21 @@
 Use pathinfo() Arguments
 ++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Use pathinfo() Arguments: pathinfo() has a second argument to select only useful data.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Use pathinfo() Arguments
-
 	:twitter:description: Use pathinfo() Arguments: pathinfo() has a second argument to select only useful data
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Use pathinfo() Arguments
-
 	:og:type: article
-
 	:og:description: pathinfo() has a second argument to select only useful data
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Use pathinfo() Arguments.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

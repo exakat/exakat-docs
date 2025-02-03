@@ -6,37 +6,21 @@
 No Class In Global
 ++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		No Class In Global: Avoid defining structures in Global namespace.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: No Class In Global
-
 	:twitter:description: No Class In Global: Avoid defining structures in Global namespace
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: No Class In Global
-
 	:og:type: article
-
 	:og:description: Avoid defining structures in Global namespace
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No Class In Global.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

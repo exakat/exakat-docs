@@ -6,37 +6,21 @@
 Sqlite3 Requires Single Quotes
 ++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Sqlite3 Requires Single Quotes: The escapeString() method from ``SQLite3`` doesn't escape ``"``, but only ``'``.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Sqlite3 Requires Single Quotes
-
 	:twitter:description: Sqlite3 Requires Single Quotes: The escapeString() method from ``SQLite3`` doesn't escape ``"``, but only ``'``
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Sqlite3 Requires Single Quotes
-
 	:og:type: article
-
 	:og:description: The escapeString() method from ``SQLite3`` doesn't escape ``"``, but only ``'``
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Sqlite3 Requires Single Quotes.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

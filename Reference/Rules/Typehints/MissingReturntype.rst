@@ -6,37 +6,21 @@
 Missing Some Returntype
 +++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Missing Some Returntype: The specified typehints are not compatible with the returned values.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Missing Some Returntype
-
 	:twitter:description: Missing Some Returntype: The specified typehints are not compatible with the returned values
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Missing Some Returntype
-
 	:og:type: article
-
 	:og:description: The specified typehints are not compatible with the returned values
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Missing Some Returntype.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

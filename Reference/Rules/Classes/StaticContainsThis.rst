@@ -6,37 +6,21 @@
 Static Methods Can't Contain $this
 ++++++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Static Methods Can't Contain $this: Static methods are also called ``class methods`` : they may be called even if the class has no instantiated object.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Static Methods Can't Contain $this
-
 	:twitter:description: Static Methods Can't Contain $this: Static methods are also called ``class methods`` : they may be called even if the class has no instantiated object
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Static Methods Can't Contain $this
-
 	:og:type: article
-
 	:og:description: Static methods are also called ``class methods`` : they may be called even if the class has no instantiated object
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Static Methods Can't Contain $this.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

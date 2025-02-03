@@ -18,6 +18,7 @@ IsPHP
 	:og:description: Ruleset with analysis which rely on PHP's core extensions
 	:og:url: https://exakat.readthedocs.io/en/latest/Rulesets/IsPHP.html
 	:og:locale: en
+
 This is automatically filled, based on the documentation's isPHP attribute.
 
 Total : 1 analysis

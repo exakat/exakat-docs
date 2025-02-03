@@ -6,37 +6,21 @@
 Too Many Stringed Elseif
 ++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Too Many Stringed Elseif: Too many if/then structures are linked.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Too Many Stringed Elseif
-
 	:twitter:description: Too Many Stringed Elseif: Too many if/then structures are linked
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Too Many Stringed Elseif
-
 	:og:type: article
-
 	:og:description: Too many if/then structures are linked
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Too Many Stringed Elseif.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

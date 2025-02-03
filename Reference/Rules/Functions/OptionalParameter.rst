@@ -6,37 +6,21 @@
 Optional Parameter
 ++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Optional Parameter: An optional parameter is a method argument that has both a typehint and a default value.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Optional Parameter
-
 	:twitter:description: Optional Parameter: An optional parameter is a method argument that has both a typehint and a default value
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Optional Parameter
-
 	:og:type: article
-
 	:og:description: An optional parameter is a method argument that has both a typehint and a default value
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Optional Parameter.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

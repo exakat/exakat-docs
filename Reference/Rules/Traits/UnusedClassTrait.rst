@@ -6,37 +6,21 @@
 Unused Trait In Class
 +++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Unused Trait In Class: A trait has been summoned in a class, but is not used.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Unused Trait In Class
-
 	:twitter:description: Unused Trait In Class: A trait has been summoned in a class, but is not used
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Unused Trait In Class
-
 	:og:type: article
-
 	:og:description: A trait has been summoned in a class, but is not used
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Unused Trait In Class.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

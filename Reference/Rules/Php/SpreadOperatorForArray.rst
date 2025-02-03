@@ -6,37 +6,21 @@
 Spread Operator For Array
 +++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Spread Operator For Array: The variadic operator may be used with arrays.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Spread Operator For Array
-
 	:twitter:description: Spread Operator For Array: The variadic operator may be used with arrays
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Spread Operator For Array
-
 	:og:type: article
-
 	:og:description: The variadic operator may be used with arrays
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Spread Operator For Array.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

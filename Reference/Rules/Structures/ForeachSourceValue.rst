@@ -6,37 +6,21 @@
 Overwritten Source And Value
 ++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Overwritten Source And Value: In a foreach(), it is best to keep source and values distinct.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Overwritten Source And Value
-
 	:twitter:description: Overwritten Source And Value: In a foreach(), it is best to keep source and values distinct
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Overwritten Source And Value
-
 	:og:type: article
-
 	:og:description: In a foreach(), it is best to keep source and values distinct
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Overwritten Source And Value.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

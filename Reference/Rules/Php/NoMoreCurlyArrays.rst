@@ -6,37 +6,21 @@
 Curly-Bracketed Arrays Are Not Supported
 ++++++++++++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Curly-Bracketed Arrays Are Not Supported: Only use square brackets to access array elements.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Curly-Bracketed Arrays Are Not Supported
-
 	:twitter:description: Curly-Bracketed Arrays Are Not Supported: Only use square brackets to access array elements
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Curly-Bracketed Arrays Are Not Supported
-
 	:og:type: article
-
 	:og:description: Only use square brackets to access array elements
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Curly-Bracketed Arrays Are Not Supported.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

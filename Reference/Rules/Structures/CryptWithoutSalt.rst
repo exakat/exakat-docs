@@ -6,37 +6,21 @@
 crypt() Without Salt
 ++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		crypt() Without Salt: PHP requires a salt when calling crypt().
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: crypt() Without Salt
-
 	:twitter:description: crypt() Without Salt: PHP requires a salt when calling crypt()
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: crypt() Without Salt
-
 	:og:type: article
-
 	:og:description: PHP requires a salt when calling crypt()
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/crypt() Without Salt.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

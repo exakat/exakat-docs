@@ -6,37 +6,21 @@
 Use Composer Lock
 +++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Use Composer Lock: This rule reports when the ``composer.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Use Composer Lock
-
 	:twitter:description: Use Composer Lock: This rule reports when the ``composer
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Use Composer Lock
-
 	:og:type: article
-
 	:og:description: This rule reports when the ``composer
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Use Composer Lock.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

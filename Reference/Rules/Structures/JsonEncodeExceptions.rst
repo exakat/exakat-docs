@@ -6,37 +6,21 @@
 Json_encode() Without Catching Exceptions
 +++++++++++++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Json_encode() Without Catching Exceptions: json_encode() and json_decode() should use the exception system, to detect invalid JSON syntax.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Json_encode() Without Catching Exceptions
-
 	:twitter:description: Json_encode() Without Catching Exceptions: json_encode() and json_decode() should use the exception system, to detect invalid JSON syntax
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Json_encode() Without Catching Exceptions
-
 	:og:type: article
-
 	:og:description: json_encode() and json_decode() should use the exception system, to detect invalid JSON syntax
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Json_encode() Without Catching Exceptions.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

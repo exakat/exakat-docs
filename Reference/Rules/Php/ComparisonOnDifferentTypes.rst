@@ -6,37 +6,21 @@
 Comparison On Different Types
 +++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Comparison On Different Types: This rule reports comparisons and spaceship operator that are used with distinct types.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Comparison On Different Types
-
 	:twitter:description: Comparison On Different Types: This rule reports comparisons and spaceship operator that are used with distinct types
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Comparison On Different Types
-
 	:og:type: article
-
 	:og:description: This rule reports comparisons and spaceship operator that are used with distinct types
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Comparison On Different Types.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

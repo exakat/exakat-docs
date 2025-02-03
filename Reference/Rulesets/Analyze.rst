@@ -18,6 +18,7 @@ Analyze
 	:og:description: Check for common best practices.
 	:og:url: https://exakat.readthedocs.io/en/latest/Rulesets/Analyze.html
 	:og:locale: en
+
 This ruleset centralizes a large number of classic trap and pitfalls when writing PHP.
 
 Total : 505 analysis

@@ -6,37 +6,21 @@
 Courier Anti-Pattern
 ++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Courier Anti-Pattern: The courier anti-pattern is the storage of a dependency by a class, in order to create an instance that requires this dependency.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Courier Anti-Pattern
-
 	:twitter:description: Courier Anti-Pattern: The courier anti-pattern is the storage of a dependency by a class, in order to create an instance that requires this dependency
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Courier Anti-Pattern
-
 	:og:type: article
-
 	:og:description: The courier anti-pattern is the storage of a dependency by a class, in order to create an instance that requires this dependency
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Courier Anti-Pattern.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

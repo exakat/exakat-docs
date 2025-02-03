@@ -6,37 +6,21 @@
 Insufficient Property Type
 ++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Insufficient Property Type: The type used for a class property doesn't cover all it usage.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Insufficient Property Type
-
 	:twitter:description: Insufficient Property Type: The type used for a class property doesn't cover all it usage
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Insufficient Property Type
-
 	:og:type: article
-
 	:og:description: The type used for a class property doesn't cover all it usage
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Insufficient Property Type.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

@@ -6,37 +6,21 @@
 ext/pspell
 ++++++++++
 
-
 .. meta::
-
 	:description:
-
 		ext/pspell: Extension pspell.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: ext/pspell
-
 	:twitter:description: ext/pspell: Extension pspell
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: ext/pspell
-
 	:og:type: article
-
 	:og:description: Extension pspell
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/pspell.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

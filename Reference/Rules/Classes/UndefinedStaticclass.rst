@@ -6,37 +6,21 @@
 Undefined static \:\:class
 ++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Undefined static ::class: The ``::class`` operator provides the full name of the class, enumeration, trait or interface.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Undefined static ::class
-
 	:twitter:description: Undefined static ::class: The ``::class`` operator provides the full name of the class, enumeration, trait or interface
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Undefined static ::class
-
 	:og:type: article
-
 	:og:description: The ``::class`` operator provides the full name of the class, enumeration, trait or interface
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Undefined static ::class.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

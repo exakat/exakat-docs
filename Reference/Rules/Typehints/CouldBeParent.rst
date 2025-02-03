@@ -6,37 +6,21 @@
 Could Be Parent
 +++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Could Be Parent: Mark arguments, return types and properties that can be set to ``parent``.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Could Be Parent
-
 	:twitter:description: Could Be Parent: Mark arguments, return types and properties that can be set to ``parent``
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Could Be Parent
-
 	:og:type: article
-
 	:og:description: Mark arguments, return types and properties that can be set to ``parent``
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Could Be Parent.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

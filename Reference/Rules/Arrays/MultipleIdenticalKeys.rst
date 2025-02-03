@@ -6,37 +6,21 @@
 Multiple Index Definition
 +++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Multiple Index Definition: This rules lists the indexes that are defined multiple times in the same array.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Multiple Index Definition
-
 	:twitter:description: Multiple Index Definition: This rules lists the indexes that are defined multiple times in the same array
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Multiple Index Definition
-
 	:og:type: article
-
 	:og:description: This rules lists the indexes that are defined multiple times in the same array
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Multiple Index Definition.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

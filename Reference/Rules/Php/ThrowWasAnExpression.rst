@@ -6,37 +6,21 @@
 Throw Was An Expression
 +++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Throw Was An Expression: Throw used to be an expression.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Throw Was An Expression
-
 	:twitter:description: Throw Was An Expression: Throw used to be an expression
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Throw Was An Expression
-
 	:og:type: article
-
 	:og:description: Throw used to be an expression
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Throw Was An Expression.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

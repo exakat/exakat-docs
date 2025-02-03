@@ -6,37 +6,21 @@
 Friend Attribute
 ++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Friend Attribute: A method or class can supply via a #[Friend] attribute a list of classes.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Friend Attribute
-
 	:twitter:description: Friend Attribute: A method or class can supply via a #[Friend] attribute a list of classes
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Friend Attribute
-
 	:og:type: article
-
 	:og:description: A method or class can supply via a #[Friend] attribute a list of classes
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Friend Attribute.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

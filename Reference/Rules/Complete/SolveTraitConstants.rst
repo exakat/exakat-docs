@@ -6,37 +6,21 @@
 Solve Trait Constants
 +++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Solve Trait Constants: Adds a link between static constant usage and a class constant set in a trait.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Solve Trait Constants
-
 	:twitter:description: Solve Trait Constants: Adds a link between static constant usage and a class constant set in a trait
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Solve Trait Constants
-
 	:og:type: article
-
 	:og:description: Adds a link between static constant usage and a class constant set in a trait
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Solve Trait Constants.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

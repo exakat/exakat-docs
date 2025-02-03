@@ -6,37 +6,21 @@
 Simple Global Variable
 ++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Simple Global Variable: The global keyword should only be used with simple variables.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Simple Global Variable
-
 	:twitter:description: Simple Global Variable: The global keyword should only be used with simple variables
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Simple Global Variable
-
 	:og:type: article
-
 	:og:description: The global keyword should only be used with simple variables
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Simple Global Variable.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

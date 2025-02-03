@@ -6,37 +6,21 @@
 Only Variable For Reference
 +++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Only Variable For Reference: When a method is requesting an argument to be a reference, it cannot be called with a literal value.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Only Variable For Reference
-
 	:twitter:description: Only Variable For Reference: When a method is requesting an argument to be a reference, it cannot be called with a literal value
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Only Variable For Reference
-
 	:og:type: article
-
 	:og:description: When a method is requesting an argument to be a reference, it cannot be called with a literal value
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Only Variable For Reference.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

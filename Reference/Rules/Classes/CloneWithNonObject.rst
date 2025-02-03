@@ -6,37 +6,21 @@
 Clone With Non-Object
 +++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Clone With Non-Object: The ``clone`` keyword must be used on variables, properties or results from a function or method call.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Clone With Non-Object
-
 	:twitter:description: Clone With Non-Object: The ``clone`` keyword must be used on variables, properties or results from a function or method call
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Clone With Non-Object
-
 	:og:type: article
-
 	:og:description: The ``clone`` keyword must be used on variables, properties or results from a function or method call
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Clone With Non-Object.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

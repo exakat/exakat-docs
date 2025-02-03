@@ -6,37 +6,21 @@
 Links Between Parameter And Argument
 ++++++++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Links Between Parameter And Argument: Collect various stats about arguments and parameter usage.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Links Between Parameter And Argument
-
 	:twitter:description: Links Between Parameter And Argument: Collect various stats about arguments and parameter usage
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Links Between Parameter And Argument
-
 	:og:type: article
-
 	:og:description: Collect various stats about arguments and parameter usage
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Links Between Parameter And Argument.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

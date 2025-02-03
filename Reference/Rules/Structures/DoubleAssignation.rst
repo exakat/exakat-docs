@@ -6,37 +6,21 @@
 Double Assignation
 ++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Double Assignation: This happens when a container (variable, property, array index) is assigned with values twice in a row.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Double Assignation
-
 	:twitter:description: Double Assignation: This happens when a container (variable, property, array index) is assigned with values twice in a row
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Double Assignation
-
 	:og:type: article
-
 	:og:description: This happens when a container (variable, property, array index) is assigned with values twice in a row
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Double Assignation.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

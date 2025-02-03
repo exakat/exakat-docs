@@ -6,37 +6,21 @@
 get_class() Without Argument
 ++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		get_class() Without Argument: get_class() and get_parent_class() should not be called without arguments.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: get_class() Without Argument
-
 	:twitter:description: get_class() Without Argument: get_class() and get_parent_class() should not be called without arguments
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: get_class() Without Argument
-
 	:og:type: article
-
 	:og:description: get_class() and get_parent_class() should not be called without arguments
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/get_class() Without Argument.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

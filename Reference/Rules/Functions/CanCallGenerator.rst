@@ -6,37 +6,21 @@
 Can't Call Generator
 ++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Can't Call Generator: It is not possible to call directly a generator: a generator is a method that uses the ``yield`` or ``yield from`` keyword.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Can't Call Generator
-
 	:twitter:description: Can't Call Generator: It is not possible to call directly a generator: a generator is a method that uses the ``yield`` or ``yield from`` keyword
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Can't Call Generator
-
 	:og:type: article
-
 	:og:description: It is not possible to call directly a generator: a generator is a method that uses the ``yield`` or ``yield from`` keyword
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Can't Call Generator.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

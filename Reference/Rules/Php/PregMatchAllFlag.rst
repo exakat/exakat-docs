@@ -6,37 +6,21 @@
 preg_match_all() Flag
 +++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		preg_match_all() Flag: preg_match_all() has an option to configure the structure of the results : it is either by capturing parenthesis (by default), or by result sets.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: preg_match_all() Flag
-
 	:twitter:description: preg_match_all() Flag: preg_match_all() has an option to configure the structure of the results : it is either by capturing parenthesis (by default), or by result sets
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: preg_match_all() Flag
-
 	:og:type: article
-
 	:og:description: preg_match_all() has an option to configure the structure of the results : it is either by capturing parenthesis (by default), or by result sets
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/preg_match_all() Flag.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

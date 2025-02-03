@@ -6,37 +6,21 @@
 Has Virtual Property
 ++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Has Virtual Property: Virtual properties are properties with hooks, which do not rely on storage, but process values stored somewhere else.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Has Virtual Property
-
 	:twitter:description: Has Virtual Property: Virtual properties are properties with hooks, which do not rely on storage, but process values stored somewhere else
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Has Virtual Property
-
 	:og:type: article
-
 	:og:description: Virtual properties are properties with hooks, which do not rely on storage, but process values stored somewhere else
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Has Virtual Property.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

@@ -6,37 +6,21 @@
 Readonly Property Changed By Cloning
 ++++++++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Readonly Property Changed By Cloning: Readonly properties may be changed when cloning.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Readonly Property Changed By Cloning
-
 	:twitter:description: Readonly Property Changed By Cloning: Readonly properties may be changed when cloning
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Readonly Property Changed By Cloning
-
 	:og:type: article
-
 	:og:description: Readonly properties may be changed when cloning
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Readonly Property Changed By Cloning.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

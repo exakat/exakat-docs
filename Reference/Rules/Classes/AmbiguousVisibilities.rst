@@ -6,37 +6,21 @@
 Ambiguous Visibilities
 ++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Ambiguous Visibilities: The properties have the same name, but have different visibilities, across different classes.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Ambiguous Visibilities
-
 	:twitter:description: Ambiguous Visibilities: The properties have the same name, but have different visibilities, across different classes
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Ambiguous Visibilities
-
 	:og:type: article
-
 	:og:description: The properties have the same name, but have different visibilities, across different classes
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Ambiguous Visibilities.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

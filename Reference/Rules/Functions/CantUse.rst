@@ -6,37 +6,21 @@
 Methods That Should Not Be Used
 +++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Methods That Should Not Be Used: These methods and functions only throw an exception, or raise an error.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Methods That Should Not Be Used
-
 	:twitter:description: Methods That Should Not Be Used: These methods and functions only throw an exception, or raise an error
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Methods That Should Not Be Used
-
 	:og:type: article
-
 	:og:description: These methods and functions only throw an exception, or raise an error
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Methods That Should Not Be Used.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

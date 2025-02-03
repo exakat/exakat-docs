@@ -6,37 +6,21 @@
 Concat And Addition
 +++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Concat And Addition: Precedence between addition and concatenation has changed.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Concat And Addition
-
 	:twitter:description: Concat And Addition: Precedence between addition and concatenation has changed
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Concat And Addition
-
 	:og:type: article
-
 	:og:description: Precedence between addition and concatenation has changed
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Concat And Addition.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

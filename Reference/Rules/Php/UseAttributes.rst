@@ -6,37 +6,21 @@
 Use PHP Attributes
 ++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Use PHP Attributes: This rule reports if PHP 8.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Use PHP Attributes
-
 	:twitter:description: Use PHP Attributes: This rule reports if PHP 8
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Use PHP Attributes
-
 	:og:type: article
-
 	:og:description: This rule reports if PHP 8
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Use PHP Attributes.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

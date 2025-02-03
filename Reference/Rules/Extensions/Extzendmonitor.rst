@@ -6,37 +6,21 @@
 ext/zend_monitor
 ++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		ext/zend_monitor: Extension ``zend_monitor``.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: ext/zend_monitor
-
 	:twitter:description: ext/zend_monitor: Extension ``zend_monitor``
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: ext/zend_monitor
-
 	:og:type: article
-
 	:og:description: Extension ``zend_monitor``
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/zend_monitor.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

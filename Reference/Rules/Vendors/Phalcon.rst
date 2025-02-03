@@ -6,37 +6,21 @@
 Phalcon Usage
 +++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Phalcon Usage: This analysis reports usage of the Phalcon Framework.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Phalcon Usage
-
 	:twitter:description: Phalcon Usage: This analysis reports usage of the Phalcon Framework
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Phalcon Usage
-
 	:og:type: article
-
 	:og:description: This analysis reports usage of the Phalcon Framework
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Phalcon Usage.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

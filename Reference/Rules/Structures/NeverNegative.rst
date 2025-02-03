@@ -6,37 +6,21 @@
 Always Positive Comparison
 ++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Always Positive Comparison: Some PHP native functions, such as count(), strlen(), or abs() only returns positive or null values.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Always Positive Comparison
-
 	:twitter:description: Always Positive Comparison: Some PHP native functions, such as count(), strlen(), or abs() only returns positive or null values
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Always Positive Comparison
-
 	:og:type: article
-
 	:og:description: Some PHP native functions, such as count(), strlen(), or abs() only returns positive or null values
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Always Positive Comparison.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

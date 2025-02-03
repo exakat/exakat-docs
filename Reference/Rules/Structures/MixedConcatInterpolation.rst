@@ -6,37 +6,21 @@
 Mixed Concat And Interpolation
 ++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Mixed Concat And Interpolation: Mixed usage of concatenation and string interpolation is error prone.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Mixed Concat And Interpolation
-
 	:twitter:description: Mixed Concat And Interpolation: Mixed usage of concatenation and string interpolation is error prone
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Mixed Concat And Interpolation
-
 	:og:type: article
-
 	:og:description: Mixed usage of concatenation and string interpolation is error prone
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Mixed Concat And Interpolation.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

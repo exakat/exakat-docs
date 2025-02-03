@@ -3,37 +3,21 @@
 Extensions/Exttaint
 +++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Extensions/Exttaint: Taint is a extension used to detect and track tainted string.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Extensions/Exttaint
-
 	:twitter:description: Extensions/Exttaint: Taint is a extension used to detect and track tainted string
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Extensions/Exttaint
-
 	:og:type: article
-
 	:og:description: Taint is a extension used to detect and track tainted string
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Extensions/Exttaint.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

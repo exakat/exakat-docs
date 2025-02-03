@@ -6,37 +6,21 @@
 Array_Fill() With Objects
 +++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Array_Fill() With Objects: array_fill() fills an array with identical objects, not copies nor clones.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Array_Fill() With Objects
-
 	:twitter:description: Array_Fill() With Objects: array_fill() fills an array with identical objects, not copies nor clones
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Array_Fill() With Objects
-
 	:og:type: article
-
 	:og:description: array_fill() fills an array with identical objects, not copies nor clones
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Array_Fill() With Objects.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

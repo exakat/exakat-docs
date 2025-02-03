@@ -6,37 +6,21 @@
 Don't Unset Properties
 ++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Don't Unset Properties: Don't unset properties.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Don't Unset Properties
-
 	:twitter:description: Don't Unset Properties: Don't unset properties
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Don't Unset Properties
-
 	:og:type: article
-
 	:og:description: Don't unset properties
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Don't Unset Properties.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

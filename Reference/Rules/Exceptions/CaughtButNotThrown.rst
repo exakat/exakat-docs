@@ -6,37 +6,21 @@
 Undefined Caught Exceptions
 +++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Undefined Caught Exceptions: Those are exceptions that are caught in the code, but are not defined in the application.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Undefined Caught Exceptions
-
 	:twitter:description: Undefined Caught Exceptions: Those are exceptions that are caught in the code, but are not defined in the application
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Undefined Caught Exceptions
-
 	:og:type: article
-
 	:og:description: Those are exceptions that are caught in the code, but are not defined in the application
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Undefined Caught Exceptions.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

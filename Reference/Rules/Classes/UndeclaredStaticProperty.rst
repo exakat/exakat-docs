@@ -6,37 +6,21 @@
 Wrong Access Style to Property
 ++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Wrong Access Style to Property: Use the right syntax when reaching for a property.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Wrong Access Style to Property
-
 	:twitter:description: Wrong Access Style to Property: Use the right syntax when reaching for a property
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Wrong Access Style to Property
-
 	:og:type: article
-
 	:og:description: Use the right syntax when reaching for a property
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Wrong Access Style to Property.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

@@ -6,37 +6,21 @@
 No Hardcoded Ip
 +++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		No Hardcoded Ip: Do not leave hard coded IP in your code.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: No Hardcoded Ip
-
 	:twitter:description: No Hardcoded Ip: Do not leave hard coded IP in your code
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: No Hardcoded Ip
-
 	:og:type: article
-
 	:og:description: Do not leave hard coded IP in your code
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No Hardcoded Ip.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

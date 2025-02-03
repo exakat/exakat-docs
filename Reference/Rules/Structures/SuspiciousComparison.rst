@@ -6,37 +6,21 @@
 Suspicious Comparison
 +++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Suspicious Comparison: The comparison seems to be misplaced.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Suspicious Comparison
-
 	:twitter:description: Suspicious Comparison: The comparison seems to be misplaced
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Suspicious Comparison
-
 	:og:type: article
-
 	:og:description: The comparison seems to be misplaced
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Suspicious Comparison.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

@@ -6,37 +6,21 @@
 Dynamic Classes
 +++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Dynamic Classes: This is a list of the dynamic calls of classes used in the code.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Dynamic Classes
-
 	:twitter:description: Dynamic Classes: This is a list of the dynamic calls of classes used in the code
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Dynamic Classes
-
 	:og:type: article
-
 	:og:description: This is a list of the dynamic calls of classes used in the code
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Dynamic Classes.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

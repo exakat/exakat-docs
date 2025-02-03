@@ -6,37 +6,21 @@
 Conditioned Constants
 +++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Conditioned Constants: This rule indicates when a constant is defined if a condition is met.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Conditioned Constants
-
 	:twitter:description: Conditioned Constants: This rule indicates when a constant is defined if a condition is met
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Conditioned Constants
-
 	:og:type: article
-
 	:og:description: This rule indicates when a constant is defined if a condition is met
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Conditioned Constants.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

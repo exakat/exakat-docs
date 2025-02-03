@@ -6,37 +6,21 @@
 Add Return Type
 +++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Add Return Type: Add returntype to methods, functions, closures and arrow functions.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Add Return Type
-
 	:twitter:description: Add Return Type: Add returntype to methods, functions, closures and arrow functions
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Add Return Type
-
 	:og:type: article
-
 	:og:description: Add returntype to methods, functions, closures and arrow functions
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Add Return Type.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

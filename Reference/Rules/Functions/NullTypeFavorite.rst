@@ -6,37 +6,21 @@
 Null Type Favorite
 ++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Null Type Favorite: Null typed may be written in two ways : with .
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Null Type Favorite
-
 	:twitter:description: Null Type Favorite: Null typed may be written in two ways : with 
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Null Type Favorite
-
 	:og:type: article
-
 	:og:description: Null typed may be written in two ways : with 
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Null Type Favorite.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

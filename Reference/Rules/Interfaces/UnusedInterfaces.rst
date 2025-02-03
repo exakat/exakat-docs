@@ -6,37 +6,21 @@
 Unused Interfaces
 +++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Unused Interfaces: Those interfaces are defined and never used.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Unused Interfaces
-
 	:twitter:description: Unused Interfaces: Those interfaces are defined and never used
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Unused Interfaces
-
 	:og:type: article
-
 	:og:description: Those interfaces are defined and never used
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Unused Interfaces.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

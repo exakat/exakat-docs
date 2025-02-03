@@ -6,37 +6,21 @@
 Dl() Usage
 ++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Dl() Usage: Dynamically load PHP extensions with dl().
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Dl() Usage
-
 	:twitter:description: Dl() Usage: Dynamically load PHP extensions with dl()
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Dl() Usage
-
 	:og:type: article
-
 	:og:description: Dynamically load PHP extensions with dl()
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Dl() Usage.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

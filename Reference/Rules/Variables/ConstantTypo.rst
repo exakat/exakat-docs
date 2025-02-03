@@ -6,37 +6,21 @@
 Constant Typo Looks Like A Variable
 +++++++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Constant Typo Looks Like A Variable: A constant bears the same name as a variable.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Constant Typo Looks Like A Variable
-
 	:twitter:description: Constant Typo Looks Like A Variable: A constant bears the same name as a variable
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Constant Typo Looks Like A Variable
-
 	:og:type: article
-
 	:og:description: A constant bears the same name as a variable
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Constant Typo Looks Like A Variable.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

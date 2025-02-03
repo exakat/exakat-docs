@@ -18,6 +18,7 @@ php-cs-fixable
 	:og:description: Suggests configuration to apply changes with PHP-CS-FIXER
 	:og:url: https://exakat.readthedocs.io/en/latest/Rulesets/php-cs-fixable.html
 	:og:locale: en
+
 `php-cs-fixer <https://github.com/FriendsOfPHP/PHP-CS-Fixer>`_ is a tool to automatically fix PHP Coding Standards issues. It applies modifications in the PHP code automatically. Exakat finds results which may be automatically updated with PHP-CS-FIXER. 
 
 Total : 12 analysis

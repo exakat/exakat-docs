@@ -6,37 +6,21 @@
 Could Be Type
 +++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Could Be Type: This is a generic analysis, that applies common patterns when searching for types.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Could Be Type
-
 	:twitter:description: Could Be Type: This is a generic analysis, that applies common patterns when searching for types
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Could Be Type
-
 	:og:type: article
-
 	:og:description: This is a generic analysis, that applies common patterns when searching for types
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Could Be Type.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

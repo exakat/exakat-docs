@@ -6,37 +6,21 @@
 Htmlentities Using Default Flag
 +++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Htmlentities Using Default Flag: htmlspecialchars(), htmlentities(), htmlspecialchars_decode(), html_entity_decode() and get_html_translation_table(), are used to prevent injecting special characters in HTML code.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Htmlentities Using Default Flag
-
 	:twitter:description: Htmlentities Using Default Flag: htmlspecialchars(), htmlentities(), htmlspecialchars_decode(), html_entity_decode() and get_html_translation_table(), are used to prevent injecting special characters in HTML code
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Htmlentities Using Default Flag
-
 	:og:type: article
-
 	:og:description: htmlspecialchars(), htmlentities(), htmlspecialchars_decode(), html_entity_decode() and get_html_translation_table(), are used to prevent injecting special characters in HTML code
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Htmlentities Using Default Flag.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

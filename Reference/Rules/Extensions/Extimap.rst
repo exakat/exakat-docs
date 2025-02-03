@@ -6,37 +6,21 @@
 ext/imap
 ++++++++
 
-
 .. meta::
-
 	:description:
-
 		ext/imap: Extension ext/imap.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: ext/imap
-
 	:twitter:description: ext/imap: Extension ext/imap
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: ext/imap
-
 	:og:type: article
-
 	:og:description: Extension ext/imap
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/imap.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

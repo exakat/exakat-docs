@@ -6,37 +6,21 @@
 Use Pathinfo
 ++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Use Pathinfo: Use pathinfo() function instead of string manipulations.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Use Pathinfo
-
 	:twitter:description: Use Pathinfo: Use pathinfo() function instead of string manipulations
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Use Pathinfo
-
 	:og:type: article
-
 	:og:description: Use pathinfo() function instead of string manipulations
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Use Pathinfo.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

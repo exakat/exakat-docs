@@ -6,37 +6,21 @@
 ext/pdo
 +++++++
 
-
 .. meta::
-
 	:description:
-
 		ext/pdo: Generic extension PDO.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: ext/pdo
-
 	:twitter:description: ext/pdo: Generic extension PDO
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: ext/pdo
-
 	:og:type: article
-
 	:og:description: Generic extension PDO
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/pdo.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

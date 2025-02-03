@@ -6,37 +6,21 @@
 Static Variable Initialisation
 ++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Static Variable Initialisation: Static variables can be initialized like any other variable, straight from the ``static`` keyword.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Static Variable Initialisation
-
 	:twitter:description: Static Variable Initialisation: Static variables can be initialized like any other variable, straight from the ``static`` keyword
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Static Variable Initialisation
-
 	:og:type: article
-
 	:og:description: Static variables can be initialized like any other variable, straight from the ``static`` keyword
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Static Variable Initialisation.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

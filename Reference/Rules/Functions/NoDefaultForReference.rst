@@ -6,37 +6,21 @@
 No Default For Referenced Parameter
 +++++++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		No Default For Referenced Parameter: Parameters with reference should not have a default value.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: No Default For Referenced Parameter
-
 	:twitter:description: No Default For Referenced Parameter: Parameters with reference should not have a default value
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: No Default For Referenced Parameter
-
 	:og:type: article
-
 	:og:description: Parameters with reference should not have a default value
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No Default For Referenced Parameter.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

@@ -6,37 +6,21 @@
 Multiple Constant Definition
 ++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Multiple Constant Definition: Some constants are defined several times in your code.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Multiple Constant Definition
-
 	:twitter:description: Multiple Constant Definition: Some constants are defined several times in your code
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Multiple Constant Definition
-
 	:og:type: article
-
 	:og:description: Some constants are defined several times in your code
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Multiple Constant Definition.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

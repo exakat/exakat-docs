@@ -6,37 +6,21 @@
 Overwritten Exceptions
 ++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Overwritten Exceptions: In catch blocks, it is good practice to avoid overwriting the incoming exception, as information about the exception will be lost.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Overwritten Exceptions
-
 	:twitter:description: Overwritten Exceptions: In catch blocks, it is good practice to avoid overwriting the incoming exception, as information about the exception will be lost
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Overwritten Exceptions
-
 	:og:type: article
-
 	:og:description: In catch blocks, it is good practice to avoid overwriting the incoming exception, as information about the exception will be lost
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Overwritten Exceptions.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

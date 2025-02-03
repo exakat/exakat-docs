@@ -6,37 +6,21 @@
 Method Could Be Static
 ++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Method Could Be Static: A method that doesn't make any usage of $this could be turned into a static method.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Method Could Be Static
-
 	:twitter:description: Method Could Be Static: A method that doesn't make any usage of $this could be turned into a static method
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Method Could Be Static
-
 	:og:type: article
-
 	:og:description: A method that doesn't make any usage of $this could be turned into a static method
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Method Could Be Static.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

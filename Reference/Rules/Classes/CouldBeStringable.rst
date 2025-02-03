@@ -6,37 +6,21 @@
 Could Be Stringable
 +++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Could Be Stringable: ``Stringable`` is an interface that marks classes with a custom method to cast the object as a string.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Could Be Stringable
-
 	:twitter:description: Could Be Stringable: ``Stringable`` is an interface that marks classes with a custom method to cast the object as a string
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Could Be Stringable
-
 	:og:type: article
-
 	:og:description: ``Stringable`` is an interface that marks classes with a custom method to cast the object as a string
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Could Be Stringable.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

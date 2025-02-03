@@ -6,37 +6,21 @@
 No Null For Index
 +++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		No Null For Index: Avoid using ``null`` value as an index in an array.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: No Null For Index
-
 	:twitter:description: No Null For Index: Avoid using ``null`` value as an index in an array
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: No Null For Index
-
 	:og:type: article
-
 	:og:description: Avoid using ``null`` value as an index in an array
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No Null For Index.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

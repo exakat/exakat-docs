@@ -18,6 +18,7 @@ Typechecks
 	:og:description: Checks related to types.
 	:og:url: https://exakat.readthedocs.io/en/latest/Rulesets/Typechecks.html
 	:og:locale: en
+
 This ruleset focuses on typehinting. Missing typehints, or inconsistent typehint, are reported. 
 
 Total : 28 analysis

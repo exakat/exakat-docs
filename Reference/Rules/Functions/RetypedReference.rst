@@ -6,37 +6,21 @@
 Retyped Reference
 +++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Retyped Reference: A parameter with a reference may be typed differently, at the end of a method call.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Retyped Reference
-
 	:twitter:description: Retyped Reference: A parameter with a reference may be typed differently, at the end of a method call
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Retyped Reference
-
 	:og:type: article
-
 	:og:description: A parameter with a reference may be typed differently, at the end of a method call
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Retyped Reference.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

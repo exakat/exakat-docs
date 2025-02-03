@@ -6,37 +6,21 @@
 isset() With Constants
 ++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		isset() With Constants: Until PHP 7, it was possible to use arrays as constants, but it was not possible to test them with isset.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: isset() With Constants
-
 	:twitter:description: isset() With Constants: Until PHP 7, it was possible to use arrays as constants, but it was not possible to test them with isset
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: isset() With Constants
-
 	:og:type: article
-
 	:og:description: Until PHP 7, it was possible to use arrays as constants, but it was not possible to test them with isset
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/isset() With Constants.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

@@ -6,37 +6,21 @@
 Multiply By One
 +++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Multiply By One: Multiplying by 1 is a fancy type cast.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Multiply By One
-
 	:twitter:description: Multiply By One: Multiplying by 1 is a fancy type cast
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Multiply By One
-
 	:og:type: article
-
 	:og:description: Multiplying by 1 is a fancy type cast
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Multiply By One.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

@@ -6,37 +6,21 @@
 Prefix And Suffixes With Type
 +++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Prefix And Suffixes With Type: This analysis checks the relationship between methods prefixes and suffixes, with their corresponding return type.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Prefix And Suffixes With Type
-
 	:twitter:description: Prefix And Suffixes With Type: This analysis checks the relationship between methods prefixes and suffixes, with their corresponding return type
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Prefix And Suffixes With Type
-
 	:og:type: article
-
 	:og:description: This analysis checks the relationship between methods prefixes and suffixes, with their corresponding return type
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Prefix And Suffixes With Type.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

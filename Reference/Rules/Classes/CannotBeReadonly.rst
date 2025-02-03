@@ -6,37 +6,21 @@
 Property Cannot Be Readonly
 +++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Property Cannot Be Readonly: This analysis reports different situations where a property is readonly, and has some impossible code.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Property Cannot Be Readonly
-
 	:twitter:description: Property Cannot Be Readonly: This analysis reports different situations where a property is readonly, and has some impossible code
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Property Cannot Be Readonly
-
 	:og:type: article
-
 	:og:description: This analysis reports different situations where a property is readonly, and has some impossible code
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Property Cannot Be Readonly.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

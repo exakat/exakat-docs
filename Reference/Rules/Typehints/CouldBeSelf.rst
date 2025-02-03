@@ -6,37 +6,21 @@
 Could Be Self
 +++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Could Be Self: Mark arguments, return types and properties that can be set to ``self``.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Could Be Self
-
 	:twitter:description: Could Be Self: Mark arguments, return types and properties that can be set to ``self``
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Could Be Self
-
 	:og:type: article
-
 	:og:description: Mark arguments, return types and properties that can be set to ``self``
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Could Be Self.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

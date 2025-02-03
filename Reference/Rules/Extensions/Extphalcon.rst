@@ -6,37 +6,21 @@
 ext/phalcon
 +++++++++++
 
-
 .. meta::
-
 	:description:
-
 		ext/phalcon: Extension Phalcon : High Performance PHP Framework.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: ext/phalcon
-
 	:twitter:description: ext/phalcon: Extension Phalcon : High Performance PHP Framework
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: ext/phalcon
-
 	:og:type: article
-
 	:og:description: Extension Phalcon : High Performance PHP Framework
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/phalcon.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

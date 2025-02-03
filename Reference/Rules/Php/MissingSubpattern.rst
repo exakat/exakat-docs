@@ -6,37 +6,21 @@
 Possible Missing Subpattern
 +++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Possible Missing Subpattern: When capturing subpatterns are the last ones in a regex, PHP doesn't fill their spot in the resulting array.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Possible Missing Subpattern
-
 	:twitter:description: Possible Missing Subpattern: When capturing subpatterns are the last ones in a regex, PHP doesn't fill their spot in the resulting array
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Possible Missing Subpattern
-
 	:og:type: article
-
 	:og:description: When capturing subpatterns are the last ones in a regex, PHP doesn't fill their spot in the resulting array
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Possible Missing Subpattern.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

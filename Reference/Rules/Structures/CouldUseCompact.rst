@@ -6,37 +6,21 @@
 Could Use Compact
 +++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Could Use Compact: Compact() turns a group of variables into an array.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Could Use Compact
-
 	:twitter:description: Could Use Compact: Compact() turns a group of variables into an array
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Could Use Compact
-
 	:og:type: article
-
 	:og:description: Compact() turns a group of variables into an array
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Could Use Compact.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

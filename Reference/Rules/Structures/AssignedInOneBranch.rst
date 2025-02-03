@@ -6,37 +6,21 @@
 Assigned In One Branch
 ++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Assigned In One Branch: This rule reports variables that are assigned in one branch, and not in the other.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Assigned In One Branch
-
 	:twitter:description: Assigned In One Branch: This rule reports variables that are assigned in one branch, and not in the other
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Assigned In One Branch
-
 	:og:type: article
-
 	:og:description: This rule reports variables that are assigned in one branch, and not in the other
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Assigned In One Branch.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

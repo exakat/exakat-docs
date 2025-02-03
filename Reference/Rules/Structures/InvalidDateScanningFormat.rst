@@ -6,37 +6,21 @@
 Invalid Date Scanning Format
 ++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Invalid Date Scanning Format: The format string used with Datetime::createFromFormat() method (or similar) contains unknown characters.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Invalid Date Scanning Format
-
 	:twitter:description: Invalid Date Scanning Format: The format string used with Datetime::createFromFormat() method (or similar) contains unknown characters
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Invalid Date Scanning Format
-
 	:og:type: article
-
 	:og:description: The format string used with Datetime::createFromFormat() method (or similar) contains unknown characters
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Invalid Date Scanning Format.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

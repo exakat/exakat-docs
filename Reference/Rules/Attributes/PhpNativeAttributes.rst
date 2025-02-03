@@ -6,37 +6,21 @@
 PHP Native Attributes
 +++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		PHP Native Attributes: This is the list of the PHP native attribute used in the code.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: PHP Native Attributes
-
 	:twitter:description: PHP Native Attributes: This is the list of the PHP native attribute used in the code
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: PHP Native Attributes
-
 	:og:type: article
-
 	:og:description: This is the list of the PHP native attribute used in the code
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/PHP Native Attributes.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

@@ -6,37 +6,21 @@
 Multiple Similar Calls
 ++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Multiple Similar Calls: Several calls are made to functions or methods in a row.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Multiple Similar Calls
-
 	:twitter:description: Multiple Similar Calls: Several calls are made to functions or methods in a row
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Multiple Similar Calls
-
 	:og:type: article
-
 	:og:description: Several calls are made to functions or methods in a row
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Multiple Similar Calls.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

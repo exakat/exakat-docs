@@ -6,37 +6,21 @@
 Cannot Call Static Trait Method Directly
 ++++++++++++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Cannot Call Static Trait Method Directly: From the migration docs : Calling a static method, or accessing a static property directly on a trait is deprecated.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Cannot Call Static Trait Method Directly
-
 	:twitter:description: Cannot Call Static Trait Method Directly: From the migration docs : Calling a static method, or accessing a static property directly on a trait is deprecated
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Cannot Call Static Trait Method Directly
-
 	:og:type: article
-
 	:og:description: From the migration docs : Calling a static method, or accessing a static property directly on a trait is deprecated
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Cannot Call Static Trait Method Directly.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

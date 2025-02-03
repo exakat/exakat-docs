@@ -6,37 +6,21 @@
 Add Default Value
 +++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Add Default Value: Parameter in methods definition may receive a default value.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Add Default Value
-
 	:twitter:description: Add Default Value: Parameter in methods definition may receive a default value
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Add Default Value
-
 	:og:type: article
-
 	:og:description: Parameter in methods definition may receive a default value
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Add Default Value.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

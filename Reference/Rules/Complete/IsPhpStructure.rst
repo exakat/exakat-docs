@@ -6,37 +6,21 @@
 Is PHP Structure
 ++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Is PHP Structure: This rules marks atoms with ``isPhp``, as part of the standard PHP elements.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Is PHP Structure
-
 	:twitter:description: Is PHP Structure: This rules marks atoms with ``isPhp``, as part of the standard PHP elements
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Is PHP Structure
-
 	:og:type: article
-
 	:og:description: This rules marks atoms with ``isPhp``, as part of the standard PHP elements
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Is PHP Structure.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

@@ -6,37 +6,21 @@
 Should Be Single Quote
 ++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Should Be Single Quote: Use single quote for simple strings.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Should Be Single Quote
-
 	:twitter:description: Should Be Single Quote: Use single quote for simple strings
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Should Be Single Quote
-
 	:og:type: article
-
 	:og:description: Use single quote for simple strings
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Should Be Single Quote.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

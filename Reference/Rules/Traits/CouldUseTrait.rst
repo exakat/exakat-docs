@@ -6,37 +6,21 @@
 Could Use Trait
 +++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Could Use Trait: The following classes have been found implementing all of a trait's methods : it could use this trait, and remove duplicated code.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Could Use Trait
-
 	:twitter:description: Could Use Trait: The following classes have been found implementing all of a trait's methods : it could use this trait, and remove duplicated code
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Could Use Trait
-
 	:og:type: article
-
 	:og:description: The following classes have been found implementing all of a trait's methods : it could use this trait, and remove duplicated code
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Could Use Trait.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

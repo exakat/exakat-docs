@@ -6,37 +6,21 @@
 PSR-11 Usage
 ++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		PSR-11 Usage: PSR-11 describes a common interface for dependency injection containers.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: PSR-11 Usage
-
 	:twitter:description: PSR-11 Usage: PSR-11 describes a common interface for dependency injection containers
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: PSR-11 Usage
-
 	:og:type: article
-
 	:og:description: PSR-11 describes a common interface for dependency injection containers
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/PSR-11 Usage.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

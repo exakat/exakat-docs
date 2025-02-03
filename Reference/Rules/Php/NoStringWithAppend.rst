@@ -6,37 +6,21 @@
 No String With Append
 +++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		No String With Append: PHP 7, and more recent, doesn't allow the usage of the append operator ``[]`` with strings.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: No String With Append
-
 	:twitter:description: No String With Append: PHP 7, and more recent, doesn't allow the usage of the append operator ``[]`` with strings
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: No String With Append
-
 	:og:type: article
-
 	:og:description: PHP 7, and more recent, doesn't allow the usage of the append operator ``[]`` with strings
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No String With Append.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

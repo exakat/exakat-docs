@@ -6,37 +6,21 @@
 Missing Type In Definition
 ++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Missing Type In Definition: This rule reports any missing typehints, on parameters, return value, property or class constants.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Missing Type In Definition
-
 	:twitter:description: Missing Type In Definition: This rule reports any missing typehints, on parameters, return value, property or class constants
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Missing Type In Definition
-
 	:og:type: article
-
 	:og:description: This rule reports any missing typehints, on parameters, return value, property or class constants
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Missing Type In Definition.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

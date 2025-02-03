@@ -6,37 +6,21 @@
 List With Keys
 ++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		List With Keys: Setting keys when using list() is a PHP 7.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: List With Keys
-
 	:twitter:description: List With Keys: Setting keys when using list() is a PHP 7
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: List With Keys
-
 	:og:type: article
-
 	:og:description: Setting keys when using list() is a PHP 7
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/List With Keys.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

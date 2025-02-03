@@ -6,37 +6,21 @@
 Set Class Remote Definition With Type
 +++++++++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Set Class Remote Definition With Type: Links method calls, properties static or not, and constants to their definition, thanks to typed arguments.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Set Class Remote Definition With Type
-
 	:twitter:description: Set Class Remote Definition With Type: Links method calls, properties static or not, and constants to their definition, thanks to typed arguments
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Set Class Remote Definition With Type
-
 	:og:type: article
-
 	:og:description: Links method calls, properties static or not, and constants to their definition, thanks to typed arguments
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Set Class Remote Definition With Type.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

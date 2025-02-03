@@ -6,37 +6,21 @@
 No ENT_IGNORE
 +++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		No ENT_IGNORE: Certain characters have special significance in HTML, and should be represented by HTML entities if they are to preserve their meanings.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: No ENT_IGNORE
-
 	:twitter:description: No ENT_IGNORE: Certain characters have special significance in HTML, and should be represented by HTML entities if they are to preserve their meanings
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: No ENT_IGNORE
-
 	:og:type: article
-
 	:og:description: Certain characters have special significance in HTML, and should be represented by HTML entities if they are to preserve their meanings
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No ENT_IGNORE.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

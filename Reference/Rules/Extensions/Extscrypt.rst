@@ -6,37 +6,21 @@
 ext/scrypt
 ++++++++++
 
-
 .. meta::
-
 	:description:
-
 		ext/scrypt: This is a PHP library providing a wrapper to Colin Percival's scrypt implementation.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: ext/scrypt
-
 	:twitter:description: ext/scrypt: This is a PHP library providing a wrapper to Colin Percival's scrypt implementation
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: ext/scrypt
-
 	:og:type: article
-
 	:og:description: This is a PHP library providing a wrapper to Colin Percival's scrypt implementation
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/scrypt.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

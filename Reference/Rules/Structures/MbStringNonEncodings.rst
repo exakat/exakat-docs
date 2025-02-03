@@ -6,37 +6,21 @@
 Mbstring Unknown Encodings
 ++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Mbstring Unknown Encodings: mbstring functions require one of its supported encoding as parameter.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Mbstring Unknown Encodings
-
 	:twitter:description: Mbstring Unknown Encodings: mbstring functions require one of its supported encoding as parameter
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Mbstring Unknown Encodings
-
 	:og:type: article
-
 	:og:description: mbstring functions require one of its supported encoding as parameter
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Mbstring Unknown Encodings.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

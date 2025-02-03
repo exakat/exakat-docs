@@ -6,37 +6,21 @@
 Yoda Comparison
 +++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Yoda Comparison: Yoda comparison is a way to write conditions which places literal values on the left side.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Yoda Comparison
-
 	:twitter:description: Yoda Comparison: Yoda comparison is a way to write conditions which places literal values on the left side
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Yoda Comparison
-
 	:og:type: article
-
 	:og:description: Yoda comparison is a way to write conditions which places literal values on the left side
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Yoda Comparison.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

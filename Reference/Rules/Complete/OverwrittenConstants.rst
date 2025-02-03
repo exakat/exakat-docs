@@ -6,37 +6,21 @@
 Overwritten Constant
 ++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Overwritten Constant: This command adds OVERWRITE link between class constant definitions.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Overwritten Constant
-
 	:twitter:description: Overwritten Constant: This command adds OVERWRITE link between class constant definitions
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Overwritten Constant
-
 	:og:type: article
-
 	:og:description: This command adds OVERWRITE link between class constant definitions
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Overwritten Constant.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

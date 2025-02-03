@@ -6,37 +6,21 @@
 Unsupported Types With Operators
 ++++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Unsupported Types With Operators: Arrays, resources and objects are generally not accepted with unary and binary operators.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Unsupported Types With Operators
-
 	:twitter:description: Unsupported Types With Operators: Arrays, resources and objects are generally not accepted with unary and binary operators
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Unsupported Types With Operators
-
 	:og:type: article
-
 	:og:description: Arrays, resources and objects are generally not accepted with unary and binary operators
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Unsupported Types With Operators.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

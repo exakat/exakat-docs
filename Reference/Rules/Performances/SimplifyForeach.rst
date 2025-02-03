@@ -6,37 +6,21 @@
 Simplify Foreach
 ++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Simplify Foreach: Remove all unused keys or values from a foreach() call.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Simplify Foreach
-
 	:twitter:description: Simplify Foreach: Remove all unused keys or values from a foreach() call
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Simplify Foreach
-
 	:og:type: article
-
 	:og:description: Remove all unused keys or values from a foreach() call
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Simplify Foreach.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

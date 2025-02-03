@@ -6,37 +6,21 @@
 Inherited Class Constant Visibility
 +++++++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Inherited Class Constant Visibility: Visibility of class constant must be public, even when overwritten.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Inherited Class Constant Visibility
-
 	:twitter:description: Inherited Class Constant Visibility: Visibility of class constant must be public, even when overwritten
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Inherited Class Constant Visibility
-
 	:og:type: article
-
 	:og:description: Visibility of class constant must be public, even when overwritten
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Inherited Class Constant Visibility.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

@@ -6,37 +6,21 @@
 Throw In Destruct
 +++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Throw In Destruct: According to the manual, ``Attempting to throw an exception from a destructor (called in the time of script termination) causes a fatal error.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Throw In Destruct
-
 	:twitter:description: Throw In Destruct: According to the manual, ``Attempting to throw an exception from a destructor (called in the time of script termination) causes a fatal error
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Throw In Destruct
-
 	:og:type: article
-
 	:og:description: According to the manual, ``Attempting to throw an exception from a destructor (called in the time of script termination) causes a fatal error
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Throw In Destruct.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

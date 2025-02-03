@@ -6,37 +6,21 @@
 New Line Style
 ++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		New Line Style: New lines may be written with the sequence \n or with the constant PHP_EOL.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: New Line Style
-
 	:twitter:description: New Line Style: New lines may be written with the sequence \n or with the constant PHP_EOL
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: New Line Style
-
 	:og:type: article
-
 	:og:description: New lines may be written with the sequence \n or with the constant PHP_EOL
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/New Line Style.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

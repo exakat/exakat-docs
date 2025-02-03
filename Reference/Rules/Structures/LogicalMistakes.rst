@@ -6,37 +6,21 @@
 Logical Mistakes
 ++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Logical Mistakes: Avoid logical mistakes within long expressions.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Logical Mistakes
-
 	:twitter:description: Logical Mistakes: Avoid logical mistakes within long expressions
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Logical Mistakes
-
 	:og:type: article
-
 	:og:description: Avoid logical mistakes within long expressions
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Logical Mistakes.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

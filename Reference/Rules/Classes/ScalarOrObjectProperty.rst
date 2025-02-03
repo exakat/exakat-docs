@@ -6,37 +6,21 @@
 Scalar Or Object Property
 +++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Scalar Or Object Property: Property shouldn't use both object and scalar syntaxes.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Scalar Or Object Property
-
 	:twitter:description: Scalar Or Object Property: Property shouldn't use both object and scalar syntaxes
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Scalar Or Object Property
-
 	:og:type: article
-
 	:og:description: Property shouldn't use both object and scalar syntaxes
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Scalar Or Object Property.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

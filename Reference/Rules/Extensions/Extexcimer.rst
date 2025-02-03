@@ -6,37 +6,21 @@
 Excimer
 +++++++
 
-
 .. meta::
-
 	:description:
-
 		Excimer: Excimer is a PHP 7.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Excimer
-
 	:twitter:description: Excimer: Excimer is a PHP 7
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Excimer
-
 	:og:type: article
-
 	:og:description: Excimer is a PHP 7
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Excimer.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

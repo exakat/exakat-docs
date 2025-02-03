@@ -6,37 +6,21 @@
 Use Named Boolean In Argument Definition
 ++++++++++++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Use Named Boolean In Argument Definition: Boolean values in argument definition are confusing.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Use Named Boolean In Argument Definition
-
 	:twitter:description: Use Named Boolean In Argument Definition: Boolean values in argument definition are confusing
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Use Named Boolean In Argument Definition
-
 	:og:type: article
-
 	:og:description: Boolean values in argument definition are confusing
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Use Named Boolean In Argument Definition.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

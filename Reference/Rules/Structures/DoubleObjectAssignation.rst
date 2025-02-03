@@ -6,37 +6,21 @@
 Double Object Assignation
 +++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Double Object Assignation: The same object is assigned to two distinct variables.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Double Object Assignation
-
 	:twitter:description: Double Object Assignation: The same object is assigned to two distinct variables
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Double Object Assignation
-
 	:og:type: article
-
 	:og:description: The same object is assigned to two distinct variables
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Double Object Assignation.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

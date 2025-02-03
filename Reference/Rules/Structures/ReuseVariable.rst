@@ -6,37 +6,21 @@
 Reuse Existing Variable
 +++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Reuse Existing Variable: A variable is already holding the content that is calculated again : it could be used again.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Reuse Existing Variable
-
 	:twitter:description: Reuse Existing Variable: A variable is already holding the content that is calculated again : it could be used again
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Reuse Existing Variable
-
 	:og:type: article
-
 	:og:description: A variable is already holding the content that is calculated again : it could be used again
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Reuse Existing Variable.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

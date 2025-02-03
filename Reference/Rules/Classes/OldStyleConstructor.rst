@@ -6,37 +6,21 @@
 Old Style Constructor
 +++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Old Style Constructor: PHP classes used to have the method bearing the same name as the class acts as the constructor.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Old Style Constructor
-
 	:twitter:description: Old Style Constructor: PHP classes used to have the method bearing the same name as the class acts as the constructor
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Old Style Constructor
-
 	:og:type: article
-
 	:og:description: PHP classes used to have the method bearing the same name as the class acts as the constructor
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Old Style Constructor.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

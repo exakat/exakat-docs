@@ -6,37 +6,21 @@
 Hexadecimal Glossary
 ++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Hexadecimal Glossary: This rule lists of all the integer values, written in the hexadecimal format.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Hexadecimal Glossary
-
 	:twitter:description: Hexadecimal Glossary: This rule lists of all the integer values, written in the hexadecimal format
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Hexadecimal Glossary
-
 	:og:type: article
-
 	:og:description: This rule lists of all the integer values, written in the hexadecimal format
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Hexadecimal Glossary.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

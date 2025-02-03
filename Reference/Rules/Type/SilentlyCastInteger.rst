@@ -6,37 +6,21 @@
 Silently Cast Integer
 +++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Silently Cast Integer: Those are integer literals that are cast to a float when running PHP.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Silently Cast Integer
-
 	:twitter:description: Silently Cast Integer: Those are integer literals that are cast to a float when running PHP
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Silently Cast Integer
-
 	:og:type: article
-
 	:og:description: Those are integer literals that are cast to a float when running PHP
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Silently Cast Integer.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

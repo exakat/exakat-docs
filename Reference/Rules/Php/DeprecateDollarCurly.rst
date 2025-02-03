@@ -6,37 +6,21 @@
 Dollar Curly Interpolation Is Deprecated
 ++++++++++++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Dollar Curly Interpolation Is Deprecated: Among the different variable interpolation is strings, ```` is deprecated.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Dollar Curly Interpolation Is Deprecated
-
 	:twitter:description: Dollar Curly Interpolation Is Deprecated: Among the different variable interpolation is strings, ```` is deprecated
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Dollar Curly Interpolation Is Deprecated
-
 	:og:type: article
-
 	:og:description: Among the different variable interpolation is strings, ```` is deprecated
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Dollar Curly Interpolation Is Deprecated.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

@@ -6,37 +6,21 @@
 Substring First
 +++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Substring First: Always start by reducing a string before applying some transformation on it.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Substring First
-
 	:twitter:description: Substring First: Always start by reducing a string before applying some transformation on it
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Substring First
-
 	:og:type: article
-
 	:og:description: Always start by reducing a string before applying some transformation on it
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Substring First.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

@@ -6,37 +6,21 @@
 Set Array Class Definition
 ++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Set Array Class Definition: Link arrays with their related method definition.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Set Array Class Definition
-
 	:twitter:description: Set Array Class Definition: Link arrays with their related method definition
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Set Array Class Definition
-
 	:og:type: article
-
 	:og:description: Link arrays with their related method definition
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Set Array Class Definition.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

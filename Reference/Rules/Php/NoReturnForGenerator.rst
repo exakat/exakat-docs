@@ -6,37 +6,21 @@
 No Return For Generator
 +++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		No Return For Generator: Return is not allowed in a generator function.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: No Return For Generator
-
 	:twitter:description: No Return For Generator: Return is not allowed in a generator function
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: No Return For Generator
-
 	:og:type: article
-
 	:og:description: Return is not allowed in a generator function
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No Return For Generator.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

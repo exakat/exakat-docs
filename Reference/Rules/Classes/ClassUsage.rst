@@ -6,37 +6,21 @@
 Class Usage
 +++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Class Usage: List of classes in use in the code source.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Class Usage
-
 	:twitter:description: Class Usage: List of classes in use in the code source
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Class Usage
-
 	:og:type: article
-
 	:og:description: List of classes in use in the code source
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Class Usage.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

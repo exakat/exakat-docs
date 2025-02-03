@@ -6,37 +6,21 @@
 Typed Class Constants Usage
 +++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Typed Class Constants Usage: Class constants may be typed with the usual types, like a property or an argument.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Typed Class Constants Usage
-
 	:twitter:description: Typed Class Constants Usage: Class constants may be typed with the usual types, like a property or an argument
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Typed Class Constants Usage
-
 	:og:type: article
-
 	:og:description: Class constants may be typed with the usual types, like a property or an argument
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Typed Class Constants Usage.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

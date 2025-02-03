@@ -6,37 +6,21 @@
 Wrong Type With Default
 +++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Wrong Type With Default: The default value is not of the declared type.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Wrong Type With Default
-
 	:twitter:description: Wrong Type With Default: The default value is not of the declared type
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Wrong Type With Default
-
 	:og:type: article
-
 	:og:description: The default value is not of the declared type
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Wrong Type With Default.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

@@ -6,37 +6,21 @@
 Avoid Self In Interface
 +++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Avoid Self In Interface: Self and Parent are tricky when used in an interface.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Avoid Self In Interface
-
 	:twitter:description: Avoid Self In Interface: Self and Parent are tricky when used in an interface
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Avoid Self In Interface
-
 	:og:type: article
-
 	:og:description: Self and Parent are tricky when used in an interface
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Avoid Self In Interface.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

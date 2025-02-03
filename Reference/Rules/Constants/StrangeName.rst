@@ -6,37 +6,21 @@
 Strange Name For Constants
 ++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Strange Name For Constants: Those constants looks like a typo from other names.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Strange Name For Constants
-
 	:twitter:description: Strange Name For Constants: Those constants looks like a typo from other names
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Strange Name For Constants
-
 	:og:type: article
-
 	:og:description: Those constants looks like a typo from other names
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Strange Name For Constants.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

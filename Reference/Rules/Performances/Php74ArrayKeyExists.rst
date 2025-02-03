@@ -6,37 +6,21 @@
 Always Use Function With array_key_exists()
 +++++++++++++++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Always Use Function With array_key_exists(): array_key_exists() has been granted a special virtual machine opcode, and is much faster.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Always Use Function With array_key_exists()
-
 	:twitter:description: Always Use Function With array_key_exists(): array_key_exists() has been granted a special virtual machine opcode, and is much faster
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Always Use Function With array_key_exists()
-
 	:og:type: article
-
 	:og:description: array_key_exists() has been granted a special virtual machine opcode, and is much faster
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Always Use Function With array_key_exists().html
-
 	:og:locale: en
-
 
 .. raw:: html
 

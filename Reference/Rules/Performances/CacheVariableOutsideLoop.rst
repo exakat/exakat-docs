@@ -6,37 +6,21 @@
 Cache Variable Outside Loop
 +++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Cache Variable Outside Loop: Avoid recalculating constant values inside the loop.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Cache Variable Outside Loop
-
 	:twitter:description: Cache Variable Outside Loop: Avoid recalculating constant values inside the loop
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Cache Variable Outside Loop
-
 	:og:type: article
-
 	:og:description: Avoid recalculating constant values inside the loop
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Cache Variable Outside Loop.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

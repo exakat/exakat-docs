@@ -6,37 +6,21 @@
 Undefined Constant Name
 +++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Undefined Constant Name: When using the ```` syntax for variable variable, the name used must be a defined constant.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Undefined Constant Name
-
 	:twitter:description: Undefined Constant Name: When using the ```` syntax for variable variable, the name used must be a defined constant
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Undefined Constant Name
-
 	:og:type: article
-
 	:og:description: When using the ```` syntax for variable variable, the name used must be a defined constant
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Undefined Constant Name.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

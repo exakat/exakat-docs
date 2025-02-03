@@ -6,37 +6,21 @@
 Nested Ifthen
 +++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Nested Ifthen: Nesting ``ifthen`` structures increases the complexity of a method.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Nested Ifthen
-
 	:twitter:description: Nested Ifthen: Nesting ``ifthen`` structures increases the complexity of a method
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Nested Ifthen
-
 	:og:type: article
-
 	:og:description: Nesting ``ifthen`` structures increases the complexity of a method
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Nested Ifthen.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

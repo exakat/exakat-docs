@@ -6,37 +6,21 @@
 Use class_alias()
 +++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Use class_alias(): class_alias() is a PHP features, that allows the creation of class alias, at execution time.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Use class_alias()
-
 	:twitter:description: Use class_alias(): class_alias() is a PHP features, that allows the creation of class alias, at execution time
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Use class_alias()
-
 	:og:type: article
-
 	:og:description: class_alias() is a PHP features, that allows the creation of class alias, at execution time
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Use class_alias().html
-
 	:og:locale: en
-
 
 .. raw:: html
 

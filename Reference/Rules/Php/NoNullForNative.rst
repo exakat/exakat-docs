@@ -6,37 +6,21 @@
 No Null For Native PHP Functions
 ++++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		No Null For Native PHP Functions: Null is not acceptable anymore as an argument, for PHP native functions that require a non-nullable argument.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: No Null For Native PHP Functions
-
 	:twitter:description: No Null For Native PHP Functions: Null is not acceptable anymore as an argument, for PHP native functions that require a non-nullable argument
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: No Null For Native PHP Functions
-
 	:og:type: article
-
 	:og:description: Null is not acceptable anymore as an argument, for PHP native functions that require a non-nullable argument
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No Null For Native PHP Functions.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

@@ -6,37 +6,21 @@
 Real Variables
 ++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Real Variables: Inventory of real variables.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Real Variables
-
 	:twitter:description: Real Variables: Inventory of real variables
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Real Variables
-
 	:og:type: article
-
 	:og:description: Inventory of real variables
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Real Variables.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

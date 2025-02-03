@@ -6,37 +6,21 @@
 New Functions In PHP 8.0
 ++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		New Functions In PHP 8.0: New functions are added to new PHP version.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: New Functions In PHP 8.0
-
 	:twitter:description: New Functions In PHP 8.0: New functions are added to new PHP version
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: New Functions In PHP 8.0
-
 	:og:type: article
-
 	:og:description: New functions are added to new PHP version
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/New Functions In PHP 8.0.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

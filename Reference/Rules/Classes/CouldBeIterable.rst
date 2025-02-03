@@ -6,37 +6,21 @@
 This Could Be Iterable
 ++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		This Could Be Iterable: An argument that is both array and traversable may be typed iterable.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: This Could Be Iterable
-
 	:twitter:description: This Could Be Iterable: An argument that is both array and traversable may be typed iterable
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: This Could Be Iterable
-
 	:og:type: article
-
 	:og:description: An argument that is both array and traversable may be typed iterable
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/This Could Be Iterable.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

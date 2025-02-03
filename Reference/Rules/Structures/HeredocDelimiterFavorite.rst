@@ -6,37 +6,21 @@
 Heredoc Delimiter
 +++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Heredoc Delimiter: Heredoc and Nowdoc expressions may use a variety of delimiters.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Heredoc Delimiter
-
 	:twitter:description: Heredoc Delimiter: Heredoc and Nowdoc expressions may use a variety of delimiters
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Heredoc Delimiter
-
 	:og:type: article
-
 	:og:description: Heredoc and Nowdoc expressions may use a variety of delimiters
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Heredoc Delimiter.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

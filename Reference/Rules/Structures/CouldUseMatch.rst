@@ -6,37 +6,21 @@
 Could Use Match
 +++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Could Use Match: The switch() syntax use may be replaced by a match() call.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Could Use Match
-
 	:twitter:description: Could Use Match: The switch() syntax use may be replaced by a match() call
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Could Use Match
-
 	:og:type: article
-
 	:og:description: The switch() syntax use may be replaced by a match() call
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Could Use Match.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

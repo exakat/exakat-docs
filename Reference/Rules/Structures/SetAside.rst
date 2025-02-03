@@ -6,37 +6,21 @@
 Set Aside Code
 ++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Set Aside Code: Setting aside code should be made into a method.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Set Aside Code
-
 	:twitter:description: Set Aside Code: Setting aside code should be made into a method
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Set Aside Code
-
 	:og:type: article
-
 	:og:description: Setting aside code should be made into a method
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Set Aside Code.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

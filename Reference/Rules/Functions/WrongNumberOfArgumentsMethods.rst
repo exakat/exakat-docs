@@ -6,37 +6,21 @@
 Wrong Number Of Arguments In Methods
 ++++++++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Wrong Number Of Arguments In Methods: Those methods are called with a wrong number of arguments : too many or too few.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Wrong Number Of Arguments In Methods
-
 	:twitter:description: Wrong Number Of Arguments In Methods: Those methods are called with a wrong number of arguments : too many or too few
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Wrong Number Of Arguments In Methods
-
 	:og:type: article
-
 	:og:description: Those methods are called with a wrong number of arguments : too many or too few
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Wrong Number Of Arguments In Methods.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

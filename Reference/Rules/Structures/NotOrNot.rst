@@ -6,37 +6,21 @@
 Not Or Tilde
 ++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Not Or Tilde: There are two NOT operator in PHP : ``!`` and ``~``.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Not Or Tilde
-
 	:twitter:description: Not Or Tilde: There are two NOT operator in PHP : ``!`` and ``~``
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Not Or Tilde
-
 	:og:type: article
-
 	:og:description: There are two NOT operator in PHP : ``!`` and ``~``
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Not Or Tilde.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

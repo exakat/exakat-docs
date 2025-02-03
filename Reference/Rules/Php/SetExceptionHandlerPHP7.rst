@@ -6,37 +6,21 @@
 set_exception_handler() Warning
 +++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		set_exception_handler() Warning: The set_exception_handler() callable function has to be adapted to PHP 7 : ``Exception`` is not the right type, it is now ``Throwable``.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: set_exception_handler() Warning
-
 	:twitter:description: set_exception_handler() Warning: The set_exception_handler() callable function has to be adapted to PHP 7 : ``Exception`` is not the right type, it is now ``Throwable``
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: set_exception_handler() Warning
-
 	:og:type: article
-
 	:og:description: The set_exception_handler() callable function has to be adapted to PHP 7 : ``Exception`` is not the right type, it is now ``Throwable``
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/set_exception_handler() Warning.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

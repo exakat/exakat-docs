@@ -6,37 +6,21 @@
 Shell Favorite
 ++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Shell Favorite: PHP has several syntax to make system calls : shell_exec(), exec() and back-ticks, &#96.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Shell Favorite
-
 	:twitter:description: Shell Favorite: PHP has several syntax to make system calls : shell_exec(), exec() and back-ticks, &#96
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Shell Favorite
-
 	:og:type: article
-
 	:og:description: PHP has several syntax to make system calls : shell_exec(), exec() and back-ticks, &#96
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Shell Favorite.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

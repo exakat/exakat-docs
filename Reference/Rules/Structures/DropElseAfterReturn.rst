@@ -6,37 +6,21 @@
 Drop Else After Return
 ++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Drop Else After Return: Avoid else clause when the then clause returns, but not the else.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Drop Else After Return
-
 	:twitter:description: Drop Else After Return: Avoid else clause when the then clause returns, but not the else
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Drop Else After Return
-
 	:og:type: article
-
 	:og:description: Avoid else clause when the then clause returns, but not the else
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Drop Else After Return.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

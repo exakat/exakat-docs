@@ -18,6 +18,7 @@ Performances
 	:og:description: Check the code for slow code.
 	:og:url: https://exakat.readthedocs.io/en/latest/Rulesets/Performances.html
 	:og:locale: en
+
 This ruleset focuses on performances issues : anything that slows the code's execution.
 
 Total : 60 analysis

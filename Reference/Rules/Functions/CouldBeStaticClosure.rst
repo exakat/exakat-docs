@@ -6,37 +6,21 @@
 Could Be Static Closure
 +++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Could Be Static Closure: Closure and arrow functions may be static, and prevent the import of ``$this``.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Could Be Static Closure
-
 	:twitter:description: Could Be Static Closure: Closure and arrow functions may be static, and prevent the import of ``$this``
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Could Be Static Closure
-
 	:og:type: article
-
 	:og:description: Closure and arrow functions may be static, and prevent the import of ``$this``
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Could Be Static Closure.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

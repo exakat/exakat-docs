@@ -6,37 +6,21 @@
 Unresolved Catch
 ++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Unresolved Catch: Catch clauses do not check for Exception existence.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Unresolved Catch
-
 	:twitter:description: Unresolved Catch: Catch clauses do not check for Exception existence
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Unresolved Catch
-
 	:og:type: article
-
 	:og:description: Catch clauses do not check for Exception existence
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Unresolved Catch.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

@@ -6,37 +6,21 @@
 error_reporting() With Integers
 +++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		error_reporting() With Integers: Using named constants with error_reporting is strongly encouraged to ensure compatibility for future versions.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: error_reporting() With Integers
-
 	:twitter:description: error_reporting() With Integers: Using named constants with error_reporting is strongly encouraged to ensure compatibility for future versions
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: error_reporting() With Integers
-
 	:og:type: article
-
 	:og:description: Using named constants with error_reporting is strongly encouraged to ensure compatibility for future versions
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/error_reporting() With Integers.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

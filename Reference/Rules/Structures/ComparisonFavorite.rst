@@ -6,37 +6,21 @@
 Strict Or Relaxed Comparison
 ++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Strict Or Relaxed Comparison: PHP has two comparison styles : strict and relaxed.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Strict Or Relaxed Comparison
-
 	:twitter:description: Strict Or Relaxed Comparison: PHP has two comparison styles : strict and relaxed
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Strict Or Relaxed Comparison
-
 	:og:type: article
-
 	:og:description: PHP has two comparison styles : strict and relaxed
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Strict Or Relaxed Comparison.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

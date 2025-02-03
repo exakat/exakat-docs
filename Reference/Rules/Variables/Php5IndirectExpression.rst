@@ -6,37 +6,21 @@
 PHP5 Indirect Variable Expression
 +++++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		PHP5 Indirect Variable Expression: Indirect variable expressions changes between PHP 5 an 7.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: PHP5 Indirect Variable Expression
-
 	:twitter:description: PHP5 Indirect Variable Expression: Indirect variable expressions changes between PHP 5 an 7
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: PHP5 Indirect Variable Expression
-
 	:og:type: article
-
 	:og:description: Indirect variable expressions changes between PHP 5 an 7
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/PHP5 Indirect Variable Expression.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

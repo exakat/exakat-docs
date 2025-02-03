@@ -6,37 +6,21 @@
 Should Use Use Function
 +++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Should Use Use Function: Functioncalls that fall back to global scope should be using ``use function`` or be fully namespaced.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Should Use Use Function
-
 	:twitter:description: Should Use Use Function: Functioncalls that fall back to global scope should be using ``use function`` or be fully namespaced
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Should Use Use Function
-
 	:og:type: article
-
 	:og:description: Functioncalls that fall back to global scope should be using ``use function`` or be fully namespaced
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Should Use Use Function.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

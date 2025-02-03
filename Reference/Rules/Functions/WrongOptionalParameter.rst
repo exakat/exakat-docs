@@ -6,37 +6,21 @@
 Wrong Optional Parameter
 ++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Wrong Optional Parameter: Wrong placement of optional parameters.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Wrong Optional Parameter
-
 	:twitter:description: Wrong Optional Parameter: Wrong placement of optional parameters
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Wrong Optional Parameter
-
 	:og:type: article
-
 	:og:description: Wrong placement of optional parameters
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Wrong Optional Parameter.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

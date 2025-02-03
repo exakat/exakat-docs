@@ -6,37 +6,21 @@
 No Self Referencing Constant
 ++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		No Self Referencing Constant: It is not possible to use a constant to define itself in a class.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: No Self Referencing Constant
-
 	:twitter:description: No Self Referencing Constant: It is not possible to use a constant to define itself in a class
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: No Self Referencing Constant
-
 	:og:type: article
-
 	:og:description: It is not possible to use a constant to define itself in a class
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No Self Referencing Constant.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

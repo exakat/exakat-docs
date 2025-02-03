@@ -6,37 +6,21 @@
 No Need For Triple Equal
 ++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		No Need For Triple Equal: There is no need for the identity comparison when the methods returns the proper type.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: No Need For Triple Equal
-
 	:twitter:description: No Need For Triple Equal: There is no need for the identity comparison when the methods returns the proper type
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: No Need For Triple Equal
-
 	:og:type: article
-
 	:og:description: There is no need for the identity comparison when the methods returns the proper type
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No Need For Triple Equal.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

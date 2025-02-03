@@ -6,37 +6,21 @@
 No Net For Xml Load
 +++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		No Net For Xml Load: Simplexml and ext/DOM load all external entities from the web, by default.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: No Net For Xml Load
-
 	:twitter:description: No Net For Xml Load: Simplexml and ext/DOM load all external entities from the web, by default
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: No Net For Xml Load
-
 	:og:type: article
-
 	:og:description: Simplexml and ext/DOM load all external entities from the web, by default
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No Net For Xml Load.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

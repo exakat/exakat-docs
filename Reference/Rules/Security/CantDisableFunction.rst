@@ -6,37 +6,21 @@
 Can't Disable Function
 ++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Can't Disable Function: This is the list of potentially dangerous PHP functions being used in the code, such as exec() or fsockopen().
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Can't Disable Function
-
 	:twitter:description: Can't Disable Function: This is the list of potentially dangerous PHP functions being used in the code, such as exec() or fsockopen()
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Can't Disable Function
-
 	:og:type: article
-
 	:og:description: This is the list of potentially dangerous PHP functions being used in the code, such as exec() or fsockopen()
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Can't Disable Function.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

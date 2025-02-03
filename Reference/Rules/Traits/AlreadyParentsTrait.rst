@@ -6,37 +6,21 @@
 Already Parents Trait
 +++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Already Parents Trait: Trait is already used a parent's class or trait.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Already Parents Trait
-
 	:twitter:description: Already Parents Trait: Trait is already used a parent's class or trait
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Already Parents Trait
-
 	:og:type: article
-
 	:og:description: Trait is already used a parent's class or trait
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Already Parents Trait.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

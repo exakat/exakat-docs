@@ -6,37 +6,21 @@
 Global Inside Loop
 ++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Global Inside Loop: The global and static keywords must be used outside loops.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Global Inside Loop
-
 	:twitter:description: Global Inside Loop: The global and static keywords must be used outside loops
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Global Inside Loop
-
 	:og:type: article
-
 	:og:description: The global and static keywords must be used outside loops
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Global Inside Loop.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

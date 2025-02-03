@@ -6,37 +6,21 @@
 Avoid Compare Typed Boolean
 +++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Avoid Compare Typed Boolean: There is no need to compare explicitly a function call to a boolean, when the definition has a boolean return type.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Avoid Compare Typed Boolean
-
 	:twitter:description: Avoid Compare Typed Boolean: There is no need to compare explicitly a function call to a boolean, when the definition has a boolean return type
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Avoid Compare Typed Boolean
-
 	:og:type: article
-
 	:og:description: There is no need to compare explicitly a function call to a boolean, when the definition has a boolean return type
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Avoid Compare Typed Boolean.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

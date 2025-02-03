@@ -6,37 +6,21 @@
 Blind Variable Used Beyond Loop
 +++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Blind Variable Used Beyond Loop: Foreach() loops defines variables, which are traditionally used only inside the loop block.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Blind Variable Used Beyond Loop
-
 	:twitter:description: Blind Variable Used Beyond Loop: Foreach() loops defines variables, which are traditionally used only inside the loop block
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Blind Variable Used Beyond Loop
-
 	:og:type: article
-
 	:og:description: Foreach() loops defines variables, which are traditionally used only inside the loop block
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Blind Variable Used Beyond Loop.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

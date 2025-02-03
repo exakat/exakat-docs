@@ -6,37 +6,21 @@
 Scalar Are Not Arrays
 +++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Scalar Are Not Arrays: It is wrong to use a scalar as an array, a warning is emitted.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Scalar Are Not Arrays
-
 	:twitter:description: Scalar Are Not Arrays: It is wrong to use a scalar as an array, a warning is emitted
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Scalar Are Not Arrays
-
 	:og:type: article
-
 	:og:description: It is wrong to use a scalar as an array, a warning is emitted
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Scalar Are Not Arrays.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

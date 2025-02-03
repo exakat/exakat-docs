@@ -6,37 +6,21 @@
 Declare Static Once
 +++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Declare Static Once: Global and static variables should be declared only once in a method.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Declare Static Once
-
 	:twitter:description: Declare Static Once: Global and static variables should be declared only once in a method
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Declare Static Once
-
 	:og:type: article
-
 	:og:description: Global and static variables should be declared only once in a method
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Declare Static Once.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

@@ -6,37 +6,21 @@
 Unset In Foreach
 ++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Unset In Foreach: Unset applied to the variables of a ``foreach`` loop are useless.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Unset In Foreach
-
 	:twitter:description: Unset In Foreach: Unset applied to the variables of a ``foreach`` loop are useless
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Unset In Foreach
-
 	:og:type: article
-
 	:og:description: Unset applied to the variables of a ``foreach`` loop are useless
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Unset In Foreach.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

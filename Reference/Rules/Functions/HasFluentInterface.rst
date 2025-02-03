@@ -6,37 +6,21 @@
 Method Has Fluent Interface
 +++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Method Has Fluent Interface: Mark a method when it only returns $this.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Method Has Fluent Interface
-
 	:twitter:description: Method Has Fluent Interface: Mark a method when it only returns $this
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Method Has Fluent Interface
-
 	:og:type: article
-
 	:og:description: Mark a method when it only returns $this
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Method Has Fluent Interface.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

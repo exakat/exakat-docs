@@ -6,37 +6,21 @@
 Redefined Private Property
 ++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Redefined Private Property: Private properties are local to their defined class.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Redefined Private Property
-
 	:twitter:description: Redefined Private Property: Private properties are local to their defined class
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Redefined Private Property
-
 	:og:type: article
-
 	:og:description: Private properties are local to their defined class
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Redefined Private Property.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

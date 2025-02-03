@@ -6,37 +6,21 @@
 Deprecated Attribute
 ++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Deprecated Attribute: The Deprecated attribute marks a class, method, property, class constants and functions that should not be used anymore.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Deprecated Attribute
-
 	:twitter:description: Deprecated Attribute: The Deprecated attribute marks a class, method, property, class constants and functions that should not be used anymore
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Deprecated Attribute
-
 	:og:type: article
-
 	:og:description: The Deprecated attribute marks a class, method, property, class constants and functions that should not be used anymore
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Deprecated Attribute.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

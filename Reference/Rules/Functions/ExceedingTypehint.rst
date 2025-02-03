@@ -6,37 +6,21 @@
 Exceeding Type
 ++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Exceeding Type: The type is not fully used in the method.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Exceeding Type
-
 	:twitter:description: Exceeding Type: The type is not fully used in the method
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Exceeding Type
-
 	:og:type: article
-
 	:og:description: The type is not fully used in the method
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Exceeding Type.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

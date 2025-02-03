@@ -6,37 +6,21 @@
 Overwritten Foreach Var
 +++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Overwritten Foreach Var: When using standard blind variable names, nested foreach may lead to overwriting the variables.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Overwritten Foreach Var
-
 	:twitter:description: Overwritten Foreach Var: When using standard blind variable names, nested foreach may lead to overwriting the variables
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Overwritten Foreach Var
-
 	:og:type: article
-
 	:og:description: When using standard blind variable names, nested foreach may lead to overwriting the variables
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Overwritten Foreach Var.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

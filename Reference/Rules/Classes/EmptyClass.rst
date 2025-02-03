@@ -6,37 +6,21 @@
 Empty Classes
 +++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Empty Classes: Classes that do no define anything at all : no property, method nor constant.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Empty Classes
-
 	:twitter:description: Empty Classes: Classes that do no define anything at all : no property, method nor constant
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Empty Classes
-
 	:og:type: article
-
 	:og:description: Classes that do no define anything at all : no property, method nor constant
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Empty Classes.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

@@ -6,37 +6,21 @@
 Different Argument Counts
 +++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Different Argument Counts: Two methods with the same name shall have the same number of compulsory argument.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Different Argument Counts
-
 	:twitter:description: Different Argument Counts: Two methods with the same name shall have the same number of compulsory argument
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Different Argument Counts
-
 	:og:type: article
-
 	:og:description: Two methods with the same name shall have the same number of compulsory argument
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Different Argument Counts.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

@@ -6,37 +6,21 @@
 Could Be Void
 +++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Could Be Void: Mark return types that can be set to void.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Could Be Void
-
 	:twitter:description: Could Be Void: Mark return types that can be set to void
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Could Be Void
-
 	:og:type: article
-
 	:og:description: Mark return types that can be set to void
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Could Be Void.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

@@ -6,37 +6,21 @@
 Don't Change Incomings
 ++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Don't Change Incomings: PHP hands over a lot of information using special variables like $_GET, $_POST, etc.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Don't Change Incomings
-
 	:twitter:description: Don't Change Incomings: PHP hands over a lot of information using special variables like $_GET, $_POST, etc
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Don't Change Incomings
-
 	:og:type: article
-
 	:og:description: PHP hands over a lot of information using special variables like $_GET, $_POST, etc
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Don't Change Incomings.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

@@ -6,37 +6,21 @@
 Class, Interface, Enum Or Trait With Identical Names
 ++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Class, Interface, Enum Or Trait With Identical Names: The following names are used at the same time for classes, interfaces or traits.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Class, Interface, Enum Or Trait With Identical Names
-
 	:twitter:description: Class, Interface, Enum Or Trait With Identical Names: The following names are used at the same time for classes, interfaces or traits
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Class, Interface, Enum Or Trait With Identical Names
-
 	:og:type: article
-
 	:og:description: The following names are used at the same time for classes, interfaces or traits
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Class, Interface, Enum Or Trait With Identical Names.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

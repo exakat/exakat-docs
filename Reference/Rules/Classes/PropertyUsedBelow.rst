@@ -6,37 +6,21 @@
 Property Used Below
 +++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Property Used Below: This rule marks properties that are used in children classes.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Property Used Below
-
 	:twitter:description: Property Used Below: This rule marks properties that are used in children classes
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Property Used Below
-
 	:og:type: article
-
 	:og:description: This rule marks properties that are used in children classes
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Property Used Below.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

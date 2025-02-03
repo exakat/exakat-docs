@@ -6,37 +6,21 @@
 Redefined Class Constants
 +++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Redefined Class Constants: Redefined class constants.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Redefined Class Constants
-
 	:twitter:description: Redefined Class Constants: Redefined class constants
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Redefined Class Constants
-
 	:og:type: article
-
 	:og:description: Redefined class constants
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Redefined Class Constants.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

@@ -6,37 +6,21 @@
 Nonexistent Variable In compact()
 +++++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Nonexistent Variable In compact(): Compact() doesn't warn when it tries to work on an nonexistent variable.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Nonexistent Variable In compact()
-
 	:twitter:description: Nonexistent Variable In compact(): Compact() doesn't warn when it tries to work on an nonexistent variable
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Nonexistent Variable In compact()
-
 	:og:type: article
-
 	:og:description: Compact() doesn't warn when it tries to work on an nonexistent variable
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Nonexistent Variable In compact().html
-
 	:og:locale: en
-
 
 .. raw:: html
 

@@ -6,37 +6,21 @@
 Could Be Array Type
 +++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Could Be Array Type: This rule spots arguments, class constants, properties or return values that may be labeled with the ``array`` scalar type.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Could Be Array Type
-
 	:twitter:description: Could Be Array Type: This rule spots arguments, class constants, properties or return values that may be labeled with the ``array`` scalar type
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Could Be Array Type
-
 	:og:type: article
-
 	:og:description: This rule spots arguments, class constants, properties or return values that may be labeled with the ``array`` scalar type
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Could Be Array Type.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

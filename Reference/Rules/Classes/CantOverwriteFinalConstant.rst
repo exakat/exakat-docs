@@ -6,37 +6,21 @@
 Can't Overwrite Final Constant
 ++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Can't Overwrite Final Constant: A class constant may be ``final``, and can't be overwritten in a child class.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Can't Overwrite Final Constant
-
 	:twitter:description: Can't Overwrite Final Constant: A class constant may be ``final``, and can't be overwritten in a child class
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Can't Overwrite Final Constant
-
 	:og:type: article
-
 	:og:description: A class constant may be ``final``, and can't be overwritten in a child class
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Can't Overwrite Final Constant.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

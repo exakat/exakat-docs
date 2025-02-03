@@ -6,37 +6,21 @@
 Labels
 ++++++
 
-
 .. meta::
-
 	:description:
-
 		Labels: List of all labels used in the code.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Labels
-
 	:twitter:description: Labels: List of all labels used in the code
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Labels
-
 	:og:type: article
-
 	:og:description: List of all labels used in the code
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Labels.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

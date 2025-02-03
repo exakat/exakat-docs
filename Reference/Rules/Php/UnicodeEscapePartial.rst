@@ -6,37 +6,21 @@
 Unicode Escape Partial
 ++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Unicode Escape Partial: PHP 7 introduces a new escape sequence for strings : \u{hex}.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Unicode Escape Partial
-
 	:twitter:description: Unicode Escape Partial: PHP 7 introduces a new escape sequence for strings : \u{hex}
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Unicode Escape Partial
-
 	:og:type: article
-
 	:og:description: PHP 7 introduces a new escape sequence for strings : \u{hex}
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Unicode Escape Partial.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

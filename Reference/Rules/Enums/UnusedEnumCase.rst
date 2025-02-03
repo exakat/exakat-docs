@@ -6,37 +6,21 @@
 Unused Enumeration Case
 +++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Unused Enumeration Case: Those are enumeration cases which are defined, yet not used.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Unused Enumeration Case
-
 	:twitter:description: Unused Enumeration Case: Those are enumeration cases which are defined, yet not used
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Unused Enumeration Case
-
 	:og:type: article
-
 	:og:description: Those are enumeration cases which are defined, yet not used
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Unused Enumeration Case.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

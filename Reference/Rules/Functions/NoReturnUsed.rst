@@ -6,37 +6,21 @@
 No Return Used
 ++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		No Return Used: The return value of the following methods are never used.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: No Return Used
-
 	:twitter:description: No Return Used: The return value of the following methods are never used
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: No Return Used
-
 	:og:type: article
-
 	:og:description: The return value of the following methods are never used
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No Return Used.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

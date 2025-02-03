@@ -6,37 +6,21 @@
 Array With String Initialization
 ++++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Array With String Initialization: It used to be possible to initialize a variable with an string, and use it as an array.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Array With String Initialization
-
 	:twitter:description: Array With String Initialization: It used to be possible to initialize a variable with an string, and use it as an array
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Array With String Initialization
-
 	:og:type: article
-
 	:og:description: It used to be possible to initialize a variable with an string, and use it as an array
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Array With String Initialization.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

@@ -6,37 +6,21 @@
 Manipulates INF
 +++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Manipulates INF: This code handles INF situations.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Manipulates INF
-
 	:twitter:description: Manipulates INF: This code handles INF situations
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Manipulates INF
-
 	:og:type: article
-
 	:og:description: This code handles INF situations
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Manipulates INF.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

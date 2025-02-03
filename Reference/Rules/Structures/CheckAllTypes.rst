@@ -6,37 +6,21 @@
 Check All Types
 +++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Check All Types: When checking for type, avoid using else.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Check All Types
-
 	:twitter:description: Check All Types: When checking for type, avoid using else
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Check All Types
-
 	:og:type: article
-
 	:og:description: When checking for type, avoid using else
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Check All Types.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

@@ -6,37 +6,21 @@
 Session Variables
 +++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Session Variables: Sessions names, used across the application.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Session Variables
-
 	:twitter:description: Session Variables: Sessions names, used across the application
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Session Variables
-
 	:og:type: article
-
 	:og:description: Sessions names, used across the application
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Session Variables.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

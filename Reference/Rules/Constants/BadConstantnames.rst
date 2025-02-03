@@ -6,37 +6,21 @@
 Bad Constants Names
 +++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Bad Constants Names: PHP's manual recommends that developer do not use constants with the convention ``__NAME__``.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Bad Constants Names
-
 	:twitter:description: Bad Constants Names: PHP's manual recommends that developer do not use constants with the convention ``__NAME__``
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Bad Constants Names
-
 	:og:type: article
-
 	:og:description: PHP's manual recommends that developer do not use constants with the convention ``__NAME__``
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Bad Constants Names.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

@@ -6,37 +6,21 @@
 ext/sqlsrv
 ++++++++++
 
-
 .. meta::
-
 	:description:
-
 		ext/sqlsrv: Extension for Microsoft SQL Server Driver.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: ext/sqlsrv
-
 	:twitter:description: ext/sqlsrv: Extension for Microsoft SQL Server Driver
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: ext/sqlsrv
-
 	:og:type: article
-
 	:og:description: Extension for Microsoft SQL Server Driver
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/sqlsrv.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

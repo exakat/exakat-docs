@@ -6,37 +6,21 @@
 Override Attribute
 ++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Override Attribute: Override is a native PHP attribute.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Override Attribute
-
 	:twitter:description: Override Attribute: Override is a native PHP attribute
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Override Attribute
-
 	:og:type: article
-
 	:og:description: Override is a native PHP attribute
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Override Attribute.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

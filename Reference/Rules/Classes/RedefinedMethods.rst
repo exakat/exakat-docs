@@ -6,37 +6,21 @@
 Redefined Methods
 +++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Redefined Methods: Redefined methods are overwritten methods.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Redefined Methods
-
 	:twitter:description: Redefined Methods: Redefined methods are overwritten methods
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Redefined Methods
-
 	:og:type: article
-
 	:og:description: Redefined methods are overwritten methods
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Redefined Methods.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

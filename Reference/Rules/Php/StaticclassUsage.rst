@@ -6,37 +6,21 @@
 \:\:class
 +++++++++
 
-
 .. meta::
-
 	:description:
-
 		::class: PHP has a special class constant to hold the name of the class : ``class`` keyword.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: ::class
-
 	:twitter:description: ::class: PHP has a special class constant to hold the name of the class : ``class`` keyword
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: ::class
-
 	:og:type: article
-
 	:og:description: PHP has a special class constant to hold the name of the class : ``class`` keyword
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/::class.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

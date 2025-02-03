@@ -6,37 +6,21 @@
 Classes Mutually Extending Each Other
 +++++++++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Classes Mutually Extending Each Other: Those classes are extending each other, creating an extension loop.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Classes Mutually Extending Each Other
-
 	:twitter:description: Classes Mutually Extending Each Other: Those classes are extending each other, creating an extension loop
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Classes Mutually Extending Each Other
-
 	:og:type: article
-
 	:og:description: Those classes are extending each other, creating an extension loop
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Classes Mutually Extending Each Other.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

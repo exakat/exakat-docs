@@ -6,37 +6,21 @@
 list() May Omit Variables
 +++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		list() May Omit Variables: Simply omit any unused variable in a list() call.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: list() May Omit Variables
-
 	:twitter:description: list() May Omit Variables: Simply omit any unused variable in a list() call
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: list() May Omit Variables
-
 	:og:type: article
-
 	:og:description: Simply omit any unused variable in a list() call
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/list() May Omit Variables.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

@@ -6,37 +6,21 @@
 Directly Use File
 +++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Directly Use File: Some PHP functions have a close cousin that work directly on files.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Directly Use File
-
 	:twitter:description: Directly Use File: Some PHP functions have a close cousin that work directly on files
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Directly Use File
-
 	:og:type: article
-
 	:og:description: Some PHP functions have a close cousin that work directly on files
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Directly Use File.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

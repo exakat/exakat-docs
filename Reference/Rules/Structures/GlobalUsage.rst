@@ -6,37 +6,21 @@
 Global Usage
 ++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Global Usage: List usage of globals variables, with global keywords or direct access to $GLOBALS.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Global Usage
-
 	:twitter:description: Global Usage: List usage of globals variables, with global keywords or direct access to $GLOBALS
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Global Usage
-
 	:og:type: article
-
 	:og:description: List usage of globals variables, with global keywords or direct access to $GLOBALS
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Global Usage.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

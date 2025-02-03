@@ -6,37 +6,21 @@
 Has Magic Method
 ++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Has Magic Method: The class has defined one of the magic methods.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Has Magic Method
-
 	:twitter:description: Has Magic Method: The class has defined one of the magic methods
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Has Magic Method
-
 	:og:type: article
-
 	:og:description: The class has defined one of the magic methods
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Has Magic Method.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

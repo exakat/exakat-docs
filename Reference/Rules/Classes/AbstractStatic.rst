@@ -6,37 +6,21 @@
 Abstract Static Methods
 +++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Abstract Static Methods: Methods cannot be both abstract and static.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Abstract Static Methods
-
 	:twitter:description: Abstract Static Methods: Methods cannot be both abstract and static
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Abstract Static Methods
-
 	:og:type: article
-
 	:og:description: Methods cannot be both abstract and static
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Abstract Static Methods.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

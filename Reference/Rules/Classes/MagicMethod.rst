@@ -6,37 +6,21 @@
 Magic Methods
 +++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Magic Methods: List of PHP magic methods being used.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Magic Methods
-
 	:twitter:description: Magic Methods: List of PHP magic methods being used
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Magic Methods
-
 	:og:type: article
-
 	:og:description: List of PHP magic methods being used
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Magic Methods.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

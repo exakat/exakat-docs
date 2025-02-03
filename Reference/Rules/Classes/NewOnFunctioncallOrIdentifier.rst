@@ -6,37 +6,21 @@
 New On Functioncall Or Identifier
 +++++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		New On Functioncall Or Identifier: Object instantiation with new works with or without arguments.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: New On Functioncall Or Identifier
-
 	:twitter:description: New On Functioncall Or Identifier: Object instantiation with new works with or without arguments
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: New On Functioncall Or Identifier
-
 	:og:type: article
-
 	:og:description: Object instantiation with new works with or without arguments
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/New On Functioncall Or Identifier.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

@@ -6,37 +6,21 @@
 Unthrown Exception
 ++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Unthrown Exception: These exceptions are defined in the code but never thrown.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Unthrown Exception
-
 	:twitter:description: Unthrown Exception: These exceptions are defined in the code but never thrown
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Unthrown Exception
-
 	:og:type: article
-
 	:og:description: These exceptions are defined in the code but never thrown
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Unthrown Exception.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

@@ -6,37 +6,21 @@
 Use Lower Case For Parent, Static And Self
 ++++++++++++++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Use Lower Case For Parent, Static And Self: The special parent, static and self keywords needed to be lowercase to be usable.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Use Lower Case For Parent, Static And Self
-
 	:twitter:description: Use Lower Case For Parent, Static And Self: The special parent, static and self keywords needed to be lowercase to be usable
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Use Lower Case For Parent, Static And Self
-
 	:og:type: article
-
 	:og:description: The special parent, static and self keywords needed to be lowercase to be usable
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Use Lower Case For Parent, Static And Self.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

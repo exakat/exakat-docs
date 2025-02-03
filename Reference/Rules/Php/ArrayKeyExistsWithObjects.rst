@@ -6,37 +6,21 @@
 array_key_exists() Works On Arrays
 ++++++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		array_key_exists() Works On Arrays: array_key_exists() requires arrays as second argument.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: array_key_exists() Works On Arrays
-
 	:twitter:description: array_key_exists() Works On Arrays: array_key_exists() requires arrays as second argument
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: array_key_exists() Works On Arrays
-
 	:og:type: article
-
 	:og:description: array_key_exists() requires arrays as second argument
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/array_key_exists() Works On Arrays.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

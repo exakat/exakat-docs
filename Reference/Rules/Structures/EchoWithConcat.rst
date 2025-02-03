@@ -6,37 +6,21 @@
 Echo With Concat
 ++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Echo With Concat: Optimize your ``echo``'s by avoiding concatenating at ``echo`` time, but serving all argument separated.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Echo With Concat
-
 	:twitter:description: Echo With Concat: Optimize your ``echo``'s by avoiding concatenating at ``echo`` time, but serving all argument separated
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Echo With Concat
-
 	:og:type: article
-
 	:og:description: Optimize your ``echo``'s by avoiding concatenating at ``echo`` time, but serving all argument separated
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Echo With Concat.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

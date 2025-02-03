@@ -6,37 +6,21 @@
 Cyclic References
 +++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Cyclic References: Avoid cyclic references.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Cyclic References
-
 	:twitter:description: Cyclic References: Avoid cyclic references
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Cyclic References
-
 	:og:type: article
-
 	:og:description: Avoid cyclic references
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Cyclic References.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

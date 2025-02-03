@@ -6,37 +6,21 @@
 Static Variable Can Default To Arbitrary Expression
 +++++++++++++++++++++++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Static Variable Can Default To Arbitrary Expression: Static variables can hold any type of PHP expression.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Static Variable Can Default To Arbitrary Expression
-
 	:twitter:description: Static Variable Can Default To Arbitrary Expression: Static variables can hold any type of PHP expression
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Static Variable Can Default To Arbitrary Expression
-
 	:og:type: article
-
 	:og:description: Static variables can hold any type of PHP expression
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Static Variable Can Default To Arbitrary Expression.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

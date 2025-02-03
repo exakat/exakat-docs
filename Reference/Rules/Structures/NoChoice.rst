@@ -6,37 +6,21 @@
 No Choice
 +++++++++
 
-
 .. meta::
-
 	:description:
-
 		No Choice: A conditional structure is being used, and both alternatives are the same, leading to the illusion of choice.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: No Choice
-
 	:twitter:description: No Choice: A conditional structure is being used, and both alternatives are the same, leading to the illusion of choice
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: No Choice
-
 	:og:type: article
-
 	:og:description: A conditional structure is being used, and both alternatives are the same, leading to the illusion of choice
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No Choice.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

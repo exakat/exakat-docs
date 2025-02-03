@@ -6,37 +6,21 @@
 Method Is Not For Fluent Interface
 ++++++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Method Is Not For Fluent Interface: Mark a method when it contains at least one return that doesn't return $this.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Method Is Not For Fluent Interface
-
 	:twitter:description: Method Is Not For Fluent Interface: Mark a method when it contains at least one return that doesn't return $this
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Method Is Not For Fluent Interface
-
 	:og:type: article
-
 	:og:description: Mark a method when it contains at least one return that doesn't return $this
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Method Is Not For Fluent Interface.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

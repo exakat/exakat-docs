@@ -6,37 +6,21 @@
 Dependency Injection
 ++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Dependency Injection: A dependency injection is a typehinted argument, that is stored in a property by the constructor.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Dependency Injection
-
 	:twitter:description: Dependency Injection: A dependency injection is a typehinted argument, that is stored in a property by the constructor
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Dependency Injection
-
 	:og:type: article
-
 	:og:description: A dependency injection is a typehinted argument, that is stored in a property by the constructor
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Dependency Injection.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

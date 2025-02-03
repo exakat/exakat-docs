@@ -18,6 +18,7 @@ Classdependencies
 	:og:description: A set of rules dedicated to show classes dependences
 	:og:url: https://exakat.readthedocs.io/en/latest/Rulesets/Classdependencies.html
 	:og:locale: en
+
 This ruleset list all dependencies between classes : heritage and type.
 
 Total : 1 analysis

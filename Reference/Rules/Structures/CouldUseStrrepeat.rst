@@ -6,37 +6,21 @@
 Could Use str_repeat()
 ++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Could Use str_repeat(): Use str_repeat() or str_pad() instead of making a loop.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Could Use str_repeat()
-
 	:twitter:description: Could Use str_repeat(): Use str_repeat() or str_pad() instead of making a loop
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Could Use str_repeat()
-
 	:og:type: article
-
 	:og:description: Use str_repeat() or str_pad() instead of making a loop
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Could Use str_repeat().html
-
 	:og:locale: en
-
 
 .. raw:: html
 

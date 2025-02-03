@@ -6,37 +6,21 @@
 Ambiguous Array Index
 +++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Ambiguous Array Index: Indexes should not be defined with different types than int or string.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Ambiguous Array Index
-
 	:twitter:description: Ambiguous Array Index: Indexes should not be defined with different types than int or string
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Ambiguous Array Index
-
 	:og:type: article
-
 	:og:description: Indexes should not be defined with different types than int or string
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Ambiguous Array Index.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

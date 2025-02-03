@@ -6,37 +6,21 @@
 Adding Zero
 +++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Adding Zero: Adding 0 is useless, as 0 is the neutral element for addition.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Adding Zero
-
 	:twitter:description: Adding Zero: Adding 0 is useless, as 0 is the neutral element for addition
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Adding Zero
-
 	:og:type: article
-
 	:og:description: Adding 0 is useless, as 0 is the neutral element for addition
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Adding Zero.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

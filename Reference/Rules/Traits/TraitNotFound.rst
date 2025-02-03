@@ -6,37 +6,21 @@
 Trait Not Found
 +++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Trait Not Found: A unknown trait is mentioned in the use expression.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Trait Not Found
-
 	:twitter:description: Trait Not Found: A unknown trait is mentioned in the use expression
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Trait Not Found
-
 	:og:type: article
-
 	:og:description: A unknown trait is mentioned in the use expression
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Trait Not Found.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

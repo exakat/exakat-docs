@@ -6,37 +6,21 @@
 PHP 74 New Directives
 +++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		PHP 74 New Directives: List of directives that are new in PHP 7.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: PHP 74 New Directives
-
 	:twitter:description: PHP 74 New Directives: List of directives that are new in PHP 7
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: PHP 74 New Directives
-
 	:og:type: article
-
 	:og:description: List of directives that are new in PHP 7
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/PHP 74 New Directives.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

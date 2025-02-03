@@ -6,37 +6,21 @@
 idn_to_ascii() New Default
 ++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		idn_to_ascii() New Default: The default parameter value of idn_to_ascii() and idn_to_utf8() is now `INTL_IDNA_VARIANT_UTS46` instead of the deprecated ``INTL_IDNA_VARIANT_2003``.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: idn_to_ascii() New Default
-
 	:twitter:description: idn_to_ascii() New Default: The default parameter value of idn_to_ascii() and idn_to_utf8() is now `INTL_IDNA_VARIANT_UTS46` instead of the deprecated ``INTL_IDNA_VARIANT_2003``
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: idn_to_ascii() New Default
-
 	:og:type: article
-
 	:og:description: The default parameter value of idn_to_ascii() and idn_to_utf8() is now `INTL_IDNA_VARIANT_UTS46` instead of the deprecated ``INTL_IDNA_VARIANT_2003``
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/idn_to_ascii() New Default.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

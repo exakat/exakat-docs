@@ -6,37 +6,21 @@
 Modified Typed Parameter
 ++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Modified Typed Parameter: Reports modified parameters, which have a non-scalar typehint.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Modified Typed Parameter
-
 	:twitter:description: Modified Typed Parameter: Reports modified parameters, which have a non-scalar typehint
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Modified Typed Parameter
-
 	:og:type: article
-
 	:og:description: Reports modified parameters, which have a non-scalar typehint
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Modified Typed Parameter.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

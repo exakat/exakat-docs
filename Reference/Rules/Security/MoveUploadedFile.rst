@@ -6,37 +6,21 @@
 move_uploaded_file Instead Of copy
 ++++++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		move_uploaded_file Instead Of copy: Always use move_uploaded_file() with uploaded files.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: move_uploaded_file Instead Of copy
-
 	:twitter:description: move_uploaded_file Instead Of copy: Always use move_uploaded_file() with uploaded files
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: move_uploaded_file Instead Of copy
-
 	:og:type: article
-
 	:og:description: Always use move_uploaded_file() with uploaded files
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/move_uploaded_file Instead Of copy.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

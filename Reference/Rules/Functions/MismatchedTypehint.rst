@@ -6,37 +6,21 @@
 Mismatched Type
 +++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Mismatched Type: Relayed arguments don't have the same type.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Mismatched Type
-
 	:twitter:description: Mismatched Type: Relayed arguments don't have the same type
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Mismatched Type
-
 	:og:type: article
-
 	:og:description: Relayed arguments don't have the same type
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Mismatched Type.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

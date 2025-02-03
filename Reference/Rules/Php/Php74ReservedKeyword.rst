@@ -6,37 +6,21 @@
 PHP 7.4 Reserved Keyword
 ++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		PHP 7.4 Reserved Keyword: ``fn`` is a new PHP keyword.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: PHP 7.4 Reserved Keyword
-
 	:twitter:description: PHP 7.4 Reserved Keyword: ``fn`` is a new PHP keyword
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: PHP 7.4 Reserved Keyword
-
 	:og:type: article
-
 	:og:description: ``fn`` is a new PHP keyword
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/PHP 7.4 Reserved Keyword.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

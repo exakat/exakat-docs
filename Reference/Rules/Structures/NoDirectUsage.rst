@@ -6,37 +6,21 @@
 No Direct Usage Of Returned Value
 +++++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		No Direct Usage Of Returned Value: The results of the following functions shouldn't be used directly, but checked first.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: No Direct Usage Of Returned Value
-
 	:twitter:description: No Direct Usage Of Returned Value: The results of the following functions shouldn't be used directly, but checked first
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: No Direct Usage Of Returned Value
-
 	:og:type: article
-
 	:og:description: The results of the following functions shouldn't be used directly, but checked first
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No Direct Usage Of Returned Value.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

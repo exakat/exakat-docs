@@ -6,37 +6,21 @@
 No Class As Type
 ++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		No Class As Type: Avoid using concrete classes as type: always use interfaces or abstract classes.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: No Class As Type
-
 	:twitter:description: No Class As Type: Avoid using concrete classes as type: always use interfaces or abstract classes
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: No Class As Type
-
 	:og:type: article
-
 	:og:description: Avoid using concrete classes as type: always use interfaces or abstract classes
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No Class As Type.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

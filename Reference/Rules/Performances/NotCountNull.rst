@@ -6,37 +6,21 @@
 No Count With 0
 +++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		No Count With 0: Comparing count(), strlen() or mb_strlen() to 0 is a waste of resources.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: No Count With 0
-
 	:twitter:description: No Count With 0: Comparing count(), strlen() or mb_strlen() to 0 is a waste of resources
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: No Count With 0
-
 	:og:type: article
-
 	:og:description: Comparing count(), strlen() or mb_strlen() to 0 is a waste of resources
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No Count With 0.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

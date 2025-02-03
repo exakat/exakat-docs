@@ -6,37 +6,21 @@
 Could Use __DIR__
 +++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Could Use __DIR__: Use __DIR__ constant to access the current file's parent directory.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Could Use __DIR__
-
 	:twitter:description: Could Use __DIR__: Use __DIR__ constant to access the current file's parent directory
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Could Use __DIR__
-
 	:og:type: article
-
 	:og:description: Use __DIR__ constant to access the current file's parent directory
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Could Use __DIR__.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

@@ -6,37 +6,21 @@
 Constant Conditions
 +++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Constant Conditions: If/then structures that have constant condition.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Constant Conditions
-
 	:twitter:description: Constant Conditions: If/then structures that have constant condition
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Constant Conditions
-
 	:og:type: article
-
 	:og:description: If/then structures that have constant condition
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Constant Conditions.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

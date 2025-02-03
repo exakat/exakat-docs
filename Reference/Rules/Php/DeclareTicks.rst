@@ -6,37 +6,21 @@
 Ticks Usage
 +++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Ticks Usage: Usage of ``declare()`` with ``ticks``.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Ticks Usage
-
 	:twitter:description: Ticks Usage: Usage of ``declare()`` with ``ticks``
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Ticks Usage
-
 	:og:type: article
-
 	:og:description: Usage of ``declare()`` with ``ticks``
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Ticks Usage.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

@@ -6,37 +6,21 @@
 Throw
 +++++
 
-
 .. meta::
-
 	:description:
-
 		Throw: List of thrown exceptions.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Throw
-
 	:twitter:description: Throw: List of thrown exceptions
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Throw
-
 	:og:type: article
-
 	:og:description: List of thrown exceptions
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Throw.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

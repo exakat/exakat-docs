@@ -6,37 +6,21 @@
 Useless Parenthesis
 +++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Useless Parenthesis: Situations where parenthesis are not necessary, and may be removed.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Useless Parenthesis
-
 	:twitter:description: Useless Parenthesis: Situations where parenthesis are not necessary, and may be removed
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Useless Parenthesis
-
 	:og:type: article
-
 	:og:description: Situations where parenthesis are not necessary, and may be removed
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Useless Parenthesis.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

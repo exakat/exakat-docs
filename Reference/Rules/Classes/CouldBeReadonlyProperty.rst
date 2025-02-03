@@ -6,37 +6,21 @@
 Could Be Readonly Property
 ++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Could Be Readonly Property: This property could be made readonly.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Could Be Readonly Property
-
 	:twitter:description: Could Be Readonly Property: This property could be made readonly
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Could Be Readonly Property
-
 	:og:type: article
-
 	:og:description: This property could be made readonly
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Could Be Readonly Property.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

@@ -6,37 +6,21 @@
 ext/decimal
 +++++++++++
 
-
 .. meta::
-
 	:description:
-
 		ext/decimal: Extension php-decimal, by ``Rudi Theunissen``.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: ext/decimal
-
 	:twitter:description: ext/decimal: Extension php-decimal, by ``Rudi Theunissen``
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: ext/decimal
-
 	:og:type: article
-
 	:og:description: Extension php-decimal, by ``Rudi Theunissen``
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/decimal.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

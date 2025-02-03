@@ -6,37 +6,21 @@
 Possible Alias Confusion
 ++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Possible Alias Confusion: An alias is used for a class that doesn't belong to the current namespace, while there is such a class.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Possible Alias Confusion
-
 	:twitter:description: Possible Alias Confusion: An alias is used for a class that doesn't belong to the current namespace, while there is such a class
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Possible Alias Confusion
-
 	:og:type: article
-
 	:og:description: An alias is used for a class that doesn't belong to the current namespace, while there is such a class
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Possible Alias Confusion.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

@@ -6,37 +6,21 @@
 Used Once Variables (In Scope)
 ++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Used Once Variables (In Scope): This is the list of used once variables, scope by scope.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Used Once Variables (In Scope)
-
 	:twitter:description: Used Once Variables (In Scope): This is the list of used once variables, scope by scope
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Used Once Variables (In Scope)
-
 	:og:type: article
-
 	:og:description: This is the list of used once variables, scope by scope
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Used Once Variables (In Scope).html
-
 	:og:locale: en
-
 
 .. raw:: html
 

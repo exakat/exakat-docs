@@ -6,37 +6,21 @@
 Mismatch Parameter And Type
 +++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Mismatch Parameter And Type: When the name of the parameter contradicts the type of the parameter.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Mismatch Parameter And Type
-
 	:twitter:description: Mismatch Parameter And Type: When the name of the parameter contradicts the type of the parameter
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Mismatch Parameter And Type
-
 	:og:type: article
-
 	:og:description: When the name of the parameter contradicts the type of the parameter
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Mismatch Parameter And Type.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

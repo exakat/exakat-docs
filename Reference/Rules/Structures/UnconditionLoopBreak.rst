@@ -6,37 +6,21 @@
 Unconditional Break In Loop
 +++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Unconditional Break In Loop: An unconditional break in a loop creates dead code.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Unconditional Break In Loop
-
 	:twitter:description: Unconditional Break In Loop: An unconditional break in a loop creates dead code
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Unconditional Break In Loop
-
 	:og:type: article
-
 	:og:description: An unconditional break in a loop creates dead code
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Unconditional Break In Loop.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

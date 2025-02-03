@@ -6,37 +6,21 @@
 Is An Extension Interface
 +++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Is An Extension Interface: This is an interface defined in a PHP C extension.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Is An Extension Interface
-
 	:twitter:description: Is An Extension Interface: This is an interface defined in a PHP C extension
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Is An Extension Interface
-
 	:og:type: article
-
 	:og:description: This is an interface defined in a PHP C extension
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Is An Extension Interface.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

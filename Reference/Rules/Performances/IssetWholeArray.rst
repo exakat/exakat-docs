@@ -6,37 +6,21 @@
 Isset() On The Whole Array
 ++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Isset() On The Whole Array: Isset() works quietly on a whole array.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Isset() On The Whole Array
-
 	:twitter:description: Isset() On The Whole Array: Isset() works quietly on a whole array
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Isset() On The Whole Array
-
 	:og:type: article
-
 	:og:description: Isset() works quietly on a whole array
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Isset() On The Whole Array.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

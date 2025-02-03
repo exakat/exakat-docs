@@ -6,37 +6,21 @@
 Sprintf Format Compilation
 ++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Sprintf Format Compilation: The sprintf() format used yields an error.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Sprintf Format Compilation
-
 	:twitter:description: Sprintf Format Compilation: The sprintf() format used yields an error
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Sprintf Format Compilation
-
 	:og:type: article
-
 	:og:description: The sprintf() format used yields an error
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Sprintf Format Compilation.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

@@ -6,37 +6,21 @@
 More Than One Level Of Indentation
 ++++++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		More Than One Level Of Indentation: According to PHP Object Calisthenics, one level of indentation is sufficient.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: More Than One Level Of Indentation
-
 	:twitter:description: More Than One Level Of Indentation: According to PHP Object Calisthenics, one level of indentation is sufficient
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: More Than One Level Of Indentation
-
 	:og:type: article
-
 	:og:description: According to PHP Object Calisthenics, one level of indentation is sufficient
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/More Than One Level Of Indentation.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

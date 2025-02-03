@@ -6,37 +6,21 @@
 Must Return Methods
 +++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Must Return Methods: The following methods are expected to return a value that will be used later.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Must Return Methods
-
 	:twitter:description: Must Return Methods: The following methods are expected to return a value that will be used later
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Must Return Methods
-
 	:og:type: article
-
 	:og:description: The following methods are expected to return a value that will be used later
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Must Return Methods.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

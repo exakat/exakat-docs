@@ -6,37 +6,21 @@
 File_Put_Contents Using Array Argument
 ++++++++++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		File_Put_Contents Using Array Argument: file_put_contents() accepts a second argument as an array, and stores it in the file with an implicit implode.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: File_Put_Contents Using Array Argument
-
 	:twitter:description: File_Put_Contents Using Array Argument: file_put_contents() accepts a second argument as an array, and stores it in the file with an implicit implode
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: File_Put_Contents Using Array Argument
-
 	:og:type: article
-
 	:og:description: file_put_contents() accepts a second argument as an array, and stores it in the file with an implicit implode
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/File_Put_Contents Using Array Argument.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

@@ -6,37 +6,21 @@
 Follow Closure Definition
 +++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Follow Closure Definition: This command adds DEFINITION link between closure and arrow functions definitions and their usage.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Follow Closure Definition
-
 	:twitter:description: Follow Closure Definition: This command adds DEFINITION link between closure and arrow functions definitions and their usage
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Follow Closure Definition
-
 	:og:type: article
-
 	:og:description: This command adds DEFINITION link between closure and arrow functions definitions and their usage
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Follow Closure Definition.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

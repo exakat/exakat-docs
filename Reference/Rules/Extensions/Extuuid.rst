@@ -6,37 +6,21 @@
 ext/uuid
 ++++++++
 
-
 .. meta::
-
 	:description:
-
 		ext/uuid: Extension ``UUID``.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: ext/uuid
-
 	:twitter:description: ext/uuid: Extension ``UUID``
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: ext/uuid
-
 	:og:type: article
-
 	:og:description: Extension ``UUID``
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/uuid.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

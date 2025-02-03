@@ -6,37 +6,21 @@
 Could Be Constant
 +++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Could Be Constant: Literals may be replaced by an existing constant.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Could Be Constant
-
 	:twitter:description: Could Be Constant: Literals may be replaced by an existing constant
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Could Be Constant
-
 	:og:type: article
-
 	:og:description: Literals may be replaced by an existing constant
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Could Be Constant.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

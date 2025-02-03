@@ -6,37 +6,21 @@
 ext/lua
 +++++++
 
-
 .. meta::
-
 	:description:
-
 		ext/lua: Extension Lua.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: ext/lua
-
 	:twitter:description: ext/lua: Extension Lua
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: ext/lua
-
 	:og:type: article
-
 	:og:description: Extension Lua
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/lua.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

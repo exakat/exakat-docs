@@ -18,6 +18,7 @@ CI-checks
 	:og:description: Quick check for common best practices.
 	:og:url: https://exakat.readthedocs.io/en/latest/Rulesets/CI-checks.html
 	:og:locale: en
+
 This ruleset is a collection of important rules to run in a CI pipeline.
 
 Total : 177 analysis

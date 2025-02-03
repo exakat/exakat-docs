@@ -6,37 +6,21 @@
 Inherited Property Type Must Match
 ++++++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Inherited Property Type Must Match: Properties that are inherited between classes must match.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Inherited Property Type Must Match
-
 	:twitter:description: Inherited Property Type Must Match: Properties that are inherited between classes must match
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Inherited Property Type Must Match
-
 	:og:type: article
-
 	:og:description: Properties that are inherited between classes must match
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Inherited Property Type Must Match.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

@@ -6,37 +6,21 @@
 Could Merge Ternary Into Ifthen
 +++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Could Merge Ternary Into Ifthen: When two ternary operators are used, in succession, with the same condition, it might be more readable to write it as an if then condition.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Could Merge Ternary Into Ifthen
-
 	:twitter:description: Could Merge Ternary Into Ifthen: When two ternary operators are used, in succession, with the same condition, it might be more readable to write it as an if then condition
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Could Merge Ternary Into Ifthen
-
 	:og:type: article
-
 	:og:description: When two ternary operators are used, in succession, with the same condition, it might be more readable to write it as an if then condition
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Could Merge Ternary Into Ifthen.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

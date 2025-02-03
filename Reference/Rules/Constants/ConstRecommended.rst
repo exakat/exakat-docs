@@ -6,37 +6,21 @@
 Use const
 +++++++++
 
-
 .. meta::
-
 	:description:
-
 		Use const: The const keyword may be used to define constant, just like the define() function.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Use const
-
 	:twitter:description: Use const: The const keyword may be used to define constant, just like the define() function
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Use const
-
 	:og:type: article
-
 	:og:description: The const keyword may be used to define constant, just like the define() function
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Use const.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

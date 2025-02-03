@@ -6,37 +6,21 @@
 Eval() Usage
 ++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Eval() Usage: Using eval() is evil.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Eval() Usage
-
 	:twitter:description: Eval() Usage: Using eval() is evil
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Eval() Usage
-
 	:og:type: article
-
 	:og:description: Using eval() is evil
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Eval() Usage.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

@@ -6,37 +6,21 @@
 Safe Phpvariables
 +++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Safe Phpvariables: Mark the safe PHP variables.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Safe Phpvariables
-
 	:twitter:description: Safe Phpvariables: Mark the safe PHP variables
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Safe Phpvariables
-
 	:og:type: article
-
 	:og:description: Mark the safe PHP variables
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Safe Phpvariables.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

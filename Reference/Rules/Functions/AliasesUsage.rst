@@ -6,37 +6,21 @@
 Native Alias Functions Usage
 ++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Native Alias Functions Usage: PHP manual recommends to avoid function aliases.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Native Alias Functions Usage
-
 	:twitter:description: Native Alias Functions Usage: PHP manual recommends to avoid function aliases
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Native Alias Functions Usage
-
 	:og:type: article
-
 	:og:description: PHP manual recommends to avoid function aliases
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Native Alias Functions Usage.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

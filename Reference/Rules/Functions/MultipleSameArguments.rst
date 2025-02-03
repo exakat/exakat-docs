@@ -6,37 +6,21 @@
 Multiple Definition Of The Same Argument
 ++++++++++++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Multiple Definition Of The Same Argument: A method's signature is holding twice (or more) the same argument.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Multiple Definition Of The Same Argument
-
 	:twitter:description: Multiple Definition Of The Same Argument: A method's signature is holding twice (or more) the same argument
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Multiple Definition Of The Same Argument
-
 	:og:type: article
-
 	:og:description: A method's signature is holding twice (or more) the same argument
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Multiple Definition Of The Same Argument.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

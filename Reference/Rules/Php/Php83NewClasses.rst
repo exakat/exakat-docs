@@ -6,37 +6,21 @@
 Php 8.3 New Classes
 +++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Php 8.3 New Classes: New classes, introduced in PHP 8.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Php 8.3 New Classes
-
 	:twitter:description: Php 8.3 New Classes: New classes, introduced in PHP 8
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Php 8.3 New Classes
-
 	:og:type: article
-
 	:og:description: New classes, introduced in PHP 8
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Php 8.3 New Classes.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

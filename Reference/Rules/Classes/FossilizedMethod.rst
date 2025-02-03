@@ -6,37 +6,21 @@
 Fossilized Method
 +++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Fossilized Method: A method is fossilized when it is overwritten so often that changing a default value, a return type or an argument type is getting difficult.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Fossilized Method
-
 	:twitter:description: Fossilized Method: A method is fossilized when it is overwritten so often that changing a default value, a return type or an argument type is getting difficult
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Fossilized Method
-
 	:og:type: article
-
 	:og:description: A method is fossilized when it is overwritten so often that changing a default value, a return type or an argument type is getting difficult
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Fossilized Method.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

@@ -6,37 +6,21 @@
 Local Globals
 +++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Local Globals: A global variable is used locally in a method.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Local Globals
-
 	:twitter:description: Local Globals: A global variable is used locally in a method
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Local Globals
-
 	:og:type: article
-
 	:og:description: A global variable is used locally in a method
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Local Globals.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

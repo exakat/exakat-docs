@@ -6,37 +6,21 @@
 Must Call Parent Constructor
 ++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Must Call Parent Constructor: Some PHP native classes require a call to ``parent::__construct()`` to be stable.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Must Call Parent Constructor
-
 	:twitter:description: Must Call Parent Constructor: Some PHP native classes require a call to ``parent::__construct()`` to be stable
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Must Call Parent Constructor
-
 	:og:type: article
-
 	:og:description: Some PHP native classes require a call to ``parent::__construct()`` to be stable
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Must Call Parent Constructor.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

@@ -6,37 +6,21 @@
 Useless Default Argument
 ++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Useless Default Argument: One of the argument has a default value, and this default value is never used.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Useless Default Argument
-
 	:twitter:description: Useless Default Argument: One of the argument has a default value, and this default value is never used
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Useless Default Argument
-
 	:og:type: article
-
 	:og:description: One of the argument has a default value, and this default value is never used
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Useless Default Argument.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

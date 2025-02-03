@@ -6,37 +6,21 @@
 Fallback Function
 +++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Fallback Function: This rule reports functions that are called with its name alone, and whose definition is in the global scope.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Fallback Function
-
 	:twitter:description: Fallback Function: This rule reports functions that are called with its name alone, and whose definition is in the global scope
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Fallback Function
-
 	:og:type: article
-
 	:og:description: This rule reports functions that are called with its name alone, and whose definition is in the global scope
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Fallback Function.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

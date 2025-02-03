@@ -6,37 +6,21 @@
 Environment Variable Usage
 ++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Environment Variable Usage: This rule collects all environment variables used in the application, for inventory purposes.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Environment Variable Usage
-
 	:twitter:description: Environment Variable Usage: This rule collects all environment variables used in the application, for inventory purposes
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Environment Variable Usage
-
 	:og:type: article
-
 	:og:description: This rule collects all environment variables used in the application, for inventory purposes
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Environment Variable Usage.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

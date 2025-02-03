@@ -6,37 +6,21 @@
 Could Be Private Class Constant
 +++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Could Be Private Class Constant: Class constant may use ``private`` visibility.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Could Be Private Class Constant
-
 	:twitter:description: Could Be Private Class Constant: Class constant may use ``private`` visibility
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Could Be Private Class Constant
-
 	:og:type: article
-
 	:og:description: Class constant may use ``private`` visibility
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Could Be Private Class Constant.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

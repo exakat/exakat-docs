@@ -6,37 +6,21 @@
 Uncaught Exceptions
 +++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Uncaught Exceptions: The following exceptions are thrown in the code, but are never caught.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Uncaught Exceptions
-
 	:twitter:description: Uncaught Exceptions: The following exceptions are thrown in the code, but are never caught
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Uncaught Exceptions
-
 	:og:type: article
-
 	:og:description: The following exceptions are thrown in the code, but are never caught
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Uncaught Exceptions.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

@@ -6,37 +6,21 @@
 Redeclared PHP Functions
 ++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Redeclared PHP Functions: Function that bear the same name as a PHP function, and that are declared.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Redeclared PHP Functions
-
 	:twitter:description: Redeclared PHP Functions: Function that bear the same name as a PHP function, and that are declared
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Redeclared PHP Functions
-
 	:og:type: article
-
 	:og:description: Function that bear the same name as a PHP function, and that are declared
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Redeclared PHP Functions.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

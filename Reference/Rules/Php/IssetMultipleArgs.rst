@@ -6,37 +6,21 @@
 Isset Multiple Arguments
 ++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Isset Multiple Arguments: isset() may be used with multiple arguments and acts as a AND.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Isset Multiple Arguments
-
 	:twitter:description: Isset Multiple Arguments: isset() may be used with multiple arguments and acts as a AND
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Isset Multiple Arguments
-
 	:og:type: article
-
 	:og:description: isset() may be used with multiple arguments and acts as a AND
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Isset Multiple Arguments.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

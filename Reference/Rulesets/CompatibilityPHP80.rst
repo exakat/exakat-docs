@@ -18,6 +18,7 @@ CompatibilityPHP80
 	:og:description: List features that are incompatible with PHP 8.0.
 	:og:url: https://exakat.readthedocs.io/en/latest/Rulesets/CompatibilityPHP80.html
 	:og:locale: en
+
 This ruleset centralizes all analysis for the migration from PHP 7.4 to 8.0.
 
 Total : 45 analysis

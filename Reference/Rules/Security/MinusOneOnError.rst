@@ -6,37 +6,21 @@
 Minus One On Error
 ++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Minus One On Error: Several PHP native functions return -1 on error.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Minus One On Error
-
 	:twitter:description: Minus One On Error: Several PHP native functions return -1 on error
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Minus One On Error
-
 	:og:type: article
-
 	:og:description: Several PHP native functions return -1 on error
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Minus One On Error.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

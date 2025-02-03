@@ -6,37 +6,21 @@
 Http Headers
 ++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Http Headers: List of HTTP headers use in the code.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Http Headers
-
 	:twitter:description: Http Headers: List of HTTP headers use in the code
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Http Headers
-
 	:og:type: article
-
 	:og:description: List of HTTP headers use in the code
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Http Headers.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

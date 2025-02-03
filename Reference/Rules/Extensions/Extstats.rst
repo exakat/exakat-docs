@@ -6,37 +6,21 @@
 ext/stats
 +++++++++
 
-
 .. meta::
-
 	:description:
-
 		ext/stats: Statistics extension.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: ext/stats
-
 	:twitter:description: ext/stats: Statistics extension
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: ext/stats
-
 	:og:type: article
-
 	:og:description: Statistics extension
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/stats.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

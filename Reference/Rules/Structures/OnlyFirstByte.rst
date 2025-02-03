@@ -6,37 +6,21 @@
 Only First Byte Will Be Assigned
 ++++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Only First Byte Will Be Assigned: When assigning a char to a string with an array notation, only the first byte is used.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Only First Byte Will Be Assigned
-
 	:twitter:description: Only First Byte Will Be Assigned: When assigning a char to a string with an array notation, only the first byte is used
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Only First Byte Will Be Assigned
-
 	:og:type: article
-
 	:og:description: When assigning a char to a string with an array notation, only the first byte is used
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Only First Byte Will Be Assigned.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

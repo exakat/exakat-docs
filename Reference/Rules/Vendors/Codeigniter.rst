@@ -6,37 +6,21 @@
 Codeigniter usage
 +++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Codeigniter usage: This analysis reports usage of the Codeigniter 4 framework.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Codeigniter usage
-
 	:twitter:description: Codeigniter usage: This analysis reports usage of the Codeigniter 4 framework
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Codeigniter usage
-
 	:og:type: article
-
 	:og:description: This analysis reports usage of the Codeigniter 4 framework
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Codeigniter usage.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

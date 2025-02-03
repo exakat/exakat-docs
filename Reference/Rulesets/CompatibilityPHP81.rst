@@ -18,6 +18,7 @@ CompatibilityPHP81
 	:og:description: List features that are incompatible with PHP 8.1.
 	:og:url: https://exakat.readthedocs.io/en/latest/Rulesets/CompatibilityPHP81.html
 	:og:locale: en
+
 This ruleset centralizes all analysis for the migration from PHP 8.0 to 8.1.
 
 Total : 34 analysis

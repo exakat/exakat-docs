@@ -6,37 +6,21 @@
 PHP7 Dirname
 ++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		PHP7 Dirname: dirname() has a second argument that represents the number of parent folder to follow.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: PHP7 Dirname
-
 	:twitter:description: PHP7 Dirname: dirname() has a second argument that represents the number of parent folder to follow
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: PHP7 Dirname
-
 	:og:type: article
-
 	:og:description: dirname() has a second argument that represents the number of parent folder to follow
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/PHP7 Dirname.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

@@ -6,37 +6,21 @@
 Unused Returned Value
 +++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Unused Returned Value: The function called returns a value, which is ignored.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Unused Returned Value
-
 	:twitter:description: Unused Returned Value: The function called returns a value, which is ignored
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Unused Returned Value
-
 	:og:type: article
-
 	:og:description: The function called returns a value, which is ignored
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Unused Returned Value.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

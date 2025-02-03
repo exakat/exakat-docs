@@ -6,37 +6,21 @@
 Use Array Functions
 +++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Use Array Functions: There are a lot of native PHP functions for arrays.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Use Array Functions
-
 	:twitter:description: Use Array Functions: There are a lot of native PHP functions for arrays
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Use Array Functions
-
 	:og:type: article
-
 	:og:description: There are a lot of native PHP functions for arrays
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Use Array Functions.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

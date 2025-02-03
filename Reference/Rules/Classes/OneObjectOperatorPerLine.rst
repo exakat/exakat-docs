@@ -6,37 +6,21 @@
 One Object Operator Per Line
 ++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		One Object Operator Per Line: It is recommended to avoid using more than one operator -> per line, to prevent information overload.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: One Object Operator Per Line
-
 	:twitter:description: One Object Operator Per Line: It is recommended to avoid using more than one operator -> per line, to prevent information overload
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: One Object Operator Per Line
-
 	:og:type: article
-
 	:og:description: It is recommended to avoid using more than one operator -> per line, to prevent information overload
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/One Object Operator Per Line.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

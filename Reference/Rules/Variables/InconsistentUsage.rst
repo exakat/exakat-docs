@@ -6,37 +6,21 @@
 Inconsistent Variable Usage
 +++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Inconsistent Variable Usage: Those variables are used in various and inconsistent ways.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Inconsistent Variable Usage
-
 	:twitter:description: Inconsistent Variable Usage: Those variables are used in various and inconsistent ways
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Inconsistent Variable Usage
-
 	:og:type: article
-
 	:og:description: Those variables are used in various and inconsistent ways
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Inconsistent Variable Usage.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

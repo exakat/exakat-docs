@@ -6,37 +6,21 @@
 Class Without Parent
 ++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Class Without Parent: Classes should not refer to ``parent`` when it is not extending another class.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Class Without Parent
-
 	:twitter:description: Class Without Parent: Classes should not refer to ``parent`` when it is not extending another class
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Class Without Parent
-
 	:og:type: article
-
 	:og:description: Classes should not refer to ``parent`` when it is not extending another class
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Class Without Parent.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

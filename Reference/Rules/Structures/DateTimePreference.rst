@@ -6,37 +6,21 @@
 date() versus DateTime Preference
 +++++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		date() versus DateTime Preference: Processing dates is done with date() functions or DateTime classes.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: date() versus DateTime Preference
-
 	:twitter:description: date() versus DateTime Preference: Processing dates is done with date() functions or DateTime classes
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: date() versus DateTime Preference
-
 	:og:type: article
-
 	:og:description: Processing dates is done with date() functions or DateTime classes
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/date() versus DateTime Preference.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

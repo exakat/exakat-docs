@@ -6,37 +6,21 @@
 Group Use Declaration
 +++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Group Use Declaration: This rule reports when a group use declaration is used.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Group Use Declaration
-
 	:twitter:description: Group Use Declaration: This rule reports when a group use declaration is used
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Group Use Declaration
-
 	:og:type: article
-
 	:og:description: This rule reports when a group use declaration is used
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Group Use Declaration.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

@@ -6,37 +6,21 @@
 No Literal For Reference
 ++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		No Literal For Reference: Method arguments and return values may be by reference.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: No Literal For Reference
-
 	:twitter:description: No Literal For Reference: Method arguments and return values may be by reference
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: No Literal For Reference
-
 	:og:type: article
-
 	:og:description: Method arguments and return values may be by reference
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No Literal For Reference.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

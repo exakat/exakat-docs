@@ -6,37 +6,21 @@
 Safe Curl Options
 +++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Safe Curl Options: It is advised to always use ``CURLOPT_SSL_VERIFYPEER`` and ``CURLOPT_SSL_VERIFYHOST`` when requesting a SSL connection.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Safe Curl Options
-
 	:twitter:description: Safe Curl Options: It is advised to always use ``CURLOPT_SSL_VERIFYPEER`` and ``CURLOPT_SSL_VERIFYHOST`` when requesting a SSL connection
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Safe Curl Options
-
 	:og:type: article
-
 	:og:description: It is advised to always use ``CURLOPT_SSL_VERIFYPEER`` and ``CURLOPT_SSL_VERIFYHOST`` when requesting a SSL connection
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Safe Curl Options.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

@@ -6,37 +6,21 @@
 Mistaken Concatenation
 ++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Mistaken Concatenation: A unexpected structure is built for initialization.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Mistaken Concatenation
-
 	:twitter:description: Mistaken Concatenation: A unexpected structure is built for initialization
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Mistaken Concatenation
-
 	:og:type: article
-
 	:og:description: A unexpected structure is built for initialization
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Mistaken Concatenation.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

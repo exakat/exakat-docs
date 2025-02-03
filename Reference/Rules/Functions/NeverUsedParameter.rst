@@ -6,37 +6,21 @@
 Never Called Parameter
 ++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Never Called Parameter: This analysis reports when a parameter is never used at calltime.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Never Called Parameter
-
 	:twitter:description: Never Called Parameter: This analysis reports when a parameter is never used at calltime
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Never Called Parameter
-
 	:og:type: article
-
 	:og:description: This analysis reports when a parameter is never used at calltime
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Never Called Parameter.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

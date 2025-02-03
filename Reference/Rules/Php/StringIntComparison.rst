@@ -6,37 +6,21 @@
 String Int Comparison
 +++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		String Int Comparison: While PHP allows direct comparison of integer and strings, with some type conversion, the rules of conversion changed in PHP 8.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: String Int Comparison
-
 	:twitter:description: String Int Comparison: While PHP allows direct comparison of integer and strings, with some type conversion, the rules of conversion changed in PHP 8
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: String Int Comparison
-
 	:og:type: article
-
 	:og:description: While PHP allows direct comparison of integer and strings, with some type conversion, the rules of conversion changed in PHP 8
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/String Int Comparison.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

@@ -18,6 +18,7 @@ CompatibilityPHP53
 	:og:description: List features that are incompatible with PHP 5.3.
 	:og:url: https://exakat.readthedocs.io/en/latest/Rulesets/CompatibilityPHP53.html
 	:og:locale: en
+
 This ruleset centralizes all analysis for the migration from PHP 5.2 to 5.3.
 
 Total : 97 analysis

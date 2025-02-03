@@ -6,37 +6,21 @@
 Favorite Casting Method
 +++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Favorite Casting Method: There are two methods for casting : the cast operators, or the conversion functions.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Favorite Casting Method
-
 	:twitter:description: Favorite Casting Method: There are two methods for casting : the cast operators, or the conversion functions
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Favorite Casting Method
-
 	:og:type: article
-
 	:og:description: There are two methods for casting : the cast operators, or the conversion functions
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Favorite Casting Method.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

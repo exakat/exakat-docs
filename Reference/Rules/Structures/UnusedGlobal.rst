@@ -6,37 +6,21 @@
 Unused Global
 +++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Unused Global: A global keyword is used in a method, yet the variable is not actually used.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Unused Global
-
 	:twitter:description: Unused Global: A global keyword is used in a method, yet the variable is not actually used
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Unused Global
-
 	:og:type: article
-
 	:og:description: A global keyword is used in a method, yet the variable is not actually used
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Unused Global.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

@@ -6,37 +6,21 @@
 Crc32() Might Be Negative
 +++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Crc32() Might Be Negative: crc32() may return a negative number, on 32 bits platforms.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Crc32() Might Be Negative
-
 	:twitter:description: Crc32() Might Be Negative: crc32() may return a negative number, on 32 bits platforms
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Crc32() Might Be Negative
-
 	:og:type: article
-
 	:og:description: crc32() may return a negative number, on 32 bits platforms
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Crc32() Might Be Negative.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

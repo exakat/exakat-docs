@@ -6,37 +6,21 @@
 Could Use Promoted Properties
 +++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Could Use Promoted Properties: Promoted properties are a syntax notation where the properties are declared as arguments of the constructor.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Could Use Promoted Properties
-
 	:twitter:description: Could Use Promoted Properties: Promoted properties are a syntax notation where the properties are declared as arguments of the constructor
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Could Use Promoted Properties
-
 	:og:type: article
-
 	:og:description: Promoted properties are a syntax notation where the properties are declared as arguments of the constructor
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Could Use Promoted Properties.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

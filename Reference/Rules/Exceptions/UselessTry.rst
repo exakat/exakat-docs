@@ -6,37 +6,21 @@
 Useless Try
 +++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Useless Try: Report try clause that are useless.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Useless Try
-
 	:twitter:description: Useless Try: Report try clause that are useless
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Useless Try
-
 	:og:type: article
-
 	:og:description: Report try clause that are useless
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Useless Try.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

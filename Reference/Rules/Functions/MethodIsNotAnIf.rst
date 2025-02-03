@@ -6,37 +6,21 @@
 Method Is Not An If
 +++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Method Is Not An If: When a method consists only in one if statement, it might be worth refactoring.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Method Is Not An If
-
 	:twitter:description: Method Is Not An If: When a method consists only in one if statement, it might be worth refactoring
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Method Is Not An If
-
 	:og:type: article
-
 	:og:description: When a method consists only in one if statement, it might be worth refactoring
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Method Is Not An If.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

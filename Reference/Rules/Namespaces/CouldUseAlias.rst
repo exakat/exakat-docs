@@ -6,37 +6,21 @@
 Could Use Alias
 +++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Could Use Alias: This long name may be reduced by using an available alias.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Could Use Alias
-
 	:twitter:description: Could Use Alias: This long name may be reduced by using an available alias
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Could Use Alias
-
 	:og:type: article
-
 	:og:description: This long name may be reduced by using an available alias
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Could Use Alias.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

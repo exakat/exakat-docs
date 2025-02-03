@@ -6,37 +6,21 @@
 No Need For Else
 ++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		No Need For Else: Else is not needed when the Then ends with a break.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: No Need For Else
-
 	:twitter:description: No Need For Else: Else is not needed when the Then ends with a break
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: No Need For Else
-
 	:og:type: article
-
 	:og:description: Else is not needed when the Then ends with a break
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No Need For Else.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

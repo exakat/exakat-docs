@@ -6,37 +6,21 @@
 Type Dodging
 ++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Type Dodging: It is always possible to rewrite a parameter type by using union types.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Type Dodging
-
 	:twitter:description: Type Dodging: It is always possible to rewrite a parameter type by using union types
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Type Dodging
-
 	:og:type: article
-
 	:og:description: It is always possible to rewrite a parameter type by using union types
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Type Dodging.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

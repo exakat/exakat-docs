@@ -6,37 +6,21 @@
 Collect Local Variable Counts
 +++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Collect Local Variable Counts: This analysis collects the number of local variables used in a method or a function.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Collect Local Variable Counts
-
 	:twitter:description: Collect Local Variable Counts: This analysis collects the number of local variables used in a method or a function
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Collect Local Variable Counts
-
 	:og:type: article
-
 	:og:description: This analysis collects the number of local variables used in a method or a function
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Collect Local Variable Counts.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

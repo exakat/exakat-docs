@@ -6,37 +6,21 @@
 Should Use Ternary Operator
 +++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Should Use Ternary Operator: Ternary operators are the best when assigning values to a variable.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Should Use Ternary Operator
-
 	:twitter:description: Should Use Ternary Operator: Ternary operators are the best when assigning values to a variable
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Should Use Ternary Operator
-
 	:og:type: article
-
 	:og:description: Ternary operators are the best when assigning values to a variable
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Should Use Ternary Operator.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

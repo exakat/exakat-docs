@@ -6,37 +6,21 @@
 Use password_hash()
 +++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Use password_hash(): password_hash() and password_check() are a better choice to replace the use of crypt() to check password.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Use password_hash()
-
 	:twitter:description: Use password_hash(): password_hash() and password_check() are a better choice to replace the use of crypt() to check password
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Use password_hash()
-
 	:og:type: article
-
 	:og:description: password_hash() and password_check() are a better choice to replace the use of crypt() to check password
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Use password_hash().html
-
 	:og:locale: en
-
 
 .. raw:: html
 

@@ -6,37 +6,21 @@
 Trait Names
 +++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Trait Names: List all the trait's names.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Trait Names
-
 	:twitter:description: Trait Names: List all the trait's names
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Trait Names
-
 	:og:type: article
-
 	:og:description: List all the trait's names
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Trait Names.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

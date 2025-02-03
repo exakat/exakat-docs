@@ -6,37 +6,21 @@
 All strings
 +++++++++++
 
-
 .. meta::
-
 	:description:
-
 		All strings: Strings, heredocs and nowdocs in one place.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: All strings
-
 	:twitter:description: All strings: Strings, heredocs and nowdocs in one place
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: All strings
-
 	:og:type: article
-
 	:og:description: Strings, heredocs and nowdocs in one place
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/All strings.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

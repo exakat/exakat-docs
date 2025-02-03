@@ -6,37 +6,21 @@
 Echo Or Print
 +++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Echo Or Print: Echo and print have the same functional use.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Echo Or Print
-
 	:twitter:description: Echo Or Print: Echo and print have the same functional use
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Echo Or Print
-
 	:og:type: article
-
 	:og:description: Echo and print have the same functional use
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Echo Or Print.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

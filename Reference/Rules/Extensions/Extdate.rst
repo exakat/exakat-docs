@@ -6,37 +6,21 @@
 ext/date
 ++++++++
 
-
 .. meta::
-
 	:description:
-
 		ext/date: Extension ext/date.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: ext/date
-
 	:twitter:description: ext/date: Extension ext/date
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: ext/date
-
 	:og:type: article
-
 	:og:description: Extension ext/date
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/date.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

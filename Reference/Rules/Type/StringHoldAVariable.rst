@@ -6,37 +6,21 @@
 String May Hold A Variable
 ++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		String May Hold A Variable: Strings that contains a variable, yet are not interpolated.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: String May Hold A Variable
-
 	:twitter:description: String May Hold A Variable: Strings that contains a variable, yet are not interpolated
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: String May Hold A Variable
-
 	:og:type: article
-
 	:og:description: Strings that contains a variable, yet are not interpolated
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/String May Hold A Variable.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

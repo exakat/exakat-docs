@@ -6,37 +6,21 @@
 Php Native Reference Variable
 +++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Php Native Reference Variable: Native functions, such as sort() (first argument), or preg_match_all() (third argument), use reference.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Php Native Reference Variable
-
 	:twitter:description: Php Native Reference Variable: Native functions, such as sort() (first argument), or preg_match_all() (third argument), use reference
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Php Native Reference Variable
-
 	:og:type: article
-
 	:og:description: Native functions, such as sort() (first argument), or preg_match_all() (third argument), use reference
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Php Native Reference Variable.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

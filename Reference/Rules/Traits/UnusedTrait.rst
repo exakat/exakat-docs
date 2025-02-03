@@ -6,37 +6,21 @@
 Unused Traits
 +++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Unused Traits: Those traits are not used in any class or trait.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Unused Traits
-
 	:twitter:description: Unused Traits: Those traits are not used in any class or trait
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Unused Traits
-
 	:og:type: article
-
 	:og:description: Those traits are not used in any class or trait
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Unused Traits.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

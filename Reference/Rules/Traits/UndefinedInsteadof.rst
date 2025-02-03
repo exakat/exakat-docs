@@ -6,37 +6,21 @@
 Undefined Insteadof
 +++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Undefined Insteadof: ``Insteadof`` tries to replace a method with another, but it doesn't exists.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Undefined Insteadof
-
 	:twitter:description: Undefined Insteadof: ``Insteadof`` tries to replace a method with another, but it doesn't exists
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Undefined Insteadof
-
 	:og:type: article
-
 	:og:description: ``Insteadof`` tries to replace a method with another, but it doesn't exists
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Undefined Insteadof.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

@@ -6,37 +6,21 @@
 Unused Inherited Variable In Closure
 ++++++++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Unused Inherited Variable In Closure: Some closures forgot to make usage of inherited variables.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Unused Inherited Variable In Closure
-
 	:twitter:description: Unused Inherited Variable In Closure: Some closures forgot to make usage of inherited variables
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Unused Inherited Variable In Closure
-
 	:og:type: article
-
 	:og:description: Some closures forgot to make usage of inherited variables
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Unused Inherited Variable In Closure.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

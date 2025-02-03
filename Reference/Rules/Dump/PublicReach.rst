@@ -6,37 +6,21 @@
 Public Reach To Private Methods
 +++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Public Reach To Private Methods: This rule reports the ways to reach private and protected methods, by using only public methods.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Public Reach To Private Methods
-
 	:twitter:description: Public Reach To Private Methods: This rule reports the ways to reach private and protected methods, by using only public methods
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Public Reach To Private Methods
-
 	:og:type: article
-
 	:og:description: This rule reports the ways to reach private and protected methods, by using only public methods
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Public Reach To Private Methods.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

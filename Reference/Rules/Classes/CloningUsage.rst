@@ -6,37 +6,21 @@
 Clone Usage
 +++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Clone Usage: This rule lists of all clone expressions.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Clone Usage
-
 	:twitter:description: Clone Usage: This rule lists of all clone expressions
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Clone Usage
-
 	:og:type: article
-
 	:og:description: This rule lists of all clone expressions
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Clone Usage.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

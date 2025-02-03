@@ -6,37 +6,21 @@
 PHP 8.1 Types
 +++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		PHP 8.1 Types: A new type was introduced : ``never``.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: PHP 8.1 Types
-
 	:twitter:description: PHP 8.1 Types: A new type was introduced : ``never``
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: PHP 8.1 Types
-
 	:og:type: article
-
 	:og:description: A new type was introduced : ``never``
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/PHP 8.1 Types.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

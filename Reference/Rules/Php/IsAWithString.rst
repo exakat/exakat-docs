@@ -6,37 +6,21 @@
 Is_A() With String
 ++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Is_A() With String: When using is_a() with a string as first argument, the third argument is compulsory.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Is_A() With String
-
 	:twitter:description: Is_A() With String: When using is_a() with a string as first argument, the third argument is compulsory
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Is_A() With String
-
 	:og:type: article
-
 	:og:description: When using is_a() with a string as first argument, the third argument is compulsory
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Is_A() With String.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

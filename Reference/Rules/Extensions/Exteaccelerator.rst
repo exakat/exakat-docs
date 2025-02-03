@@ -6,37 +6,21 @@
 ext/eaccelerator
 ++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		ext/eaccelerator: Extension Eaccelerator.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: ext/eaccelerator
-
 	:twitter:description: ext/eaccelerator: Extension Eaccelerator
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: ext/eaccelerator
-
 	:og:type: article
-
 	:og:description: Extension Eaccelerator
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/eaccelerator.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

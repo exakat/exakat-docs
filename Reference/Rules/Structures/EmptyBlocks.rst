@@ -6,37 +6,21 @@
 Empty Blocks
 ++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Empty Blocks: Full empty block, part of a control structures.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Empty Blocks
-
 	:twitter:description: Empty Blocks: Full empty block, part of a control structures
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Empty Blocks
-
 	:og:type: article
-
 	:og:description: Full empty block, part of a control structures
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Empty Blocks.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

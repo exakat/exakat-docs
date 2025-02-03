@@ -6,37 +6,21 @@
 Argument Should Be Typed
 ++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Argument Should Be Typed: When a method expects objects as argument, those arguments should be typed.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Argument Should Be Typed
-
 	:twitter:description: Argument Should Be Typed: When a method expects objects as argument, those arguments should be typed
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Argument Should Be Typed
-
 	:og:type: article
-
 	:og:description: When a method expects objects as argument, those arguments should be typed
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Argument Should Be Typed.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

@@ -6,37 +6,21 @@
 Constant Comparison
 +++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Constant Comparison: Constant to the left or right is a favorite.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Constant Comparison
-
 	:twitter:description: Constant Comparison: Constant to the left or right is a favorite
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Constant Comparison
-
 	:og:type: article
-
 	:og:description: Constant to the left or right is a favorite
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Constant Comparison.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

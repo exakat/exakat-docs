@@ -6,37 +6,21 @@
 Recalled Condition
 ++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Recalled Condition: A recalled condition is a check that is made twice : once in the condition, then again in the body of the structure, to collect the actual value.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Recalled Condition
-
 	:twitter:description: Recalled Condition: A recalled condition is a check that is made twice : once in the condition, then again in the body of the structure, to collect the actual value
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Recalled Condition
-
 	:og:type: article
-
 	:og:description: A recalled condition is a check that is made twice : once in the condition, then again in the body of the structure, to collect the actual value
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Recalled Condition.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

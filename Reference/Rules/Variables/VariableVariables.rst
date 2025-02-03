@@ -6,37 +6,21 @@
 Variable Variables
 ++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Variable Variables: A variable variable takes the value of a variable and treats that as the name of a variable.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Variable Variables
-
 	:twitter:description: Variable Variables: A variable variable takes the value of a variable and treats that as the name of a variable
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Variable Variables
-
 	:og:type: article
-
 	:og:description: A variable variable takes the value of a variable and treats that as the name of a variable
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Variable Variables.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

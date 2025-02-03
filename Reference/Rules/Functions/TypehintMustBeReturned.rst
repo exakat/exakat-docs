@@ -6,37 +6,21 @@
 Type Must Be Returned
 +++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Type Must Be Returned: When using a type for a method, it is compulsory to use a at least one return in the method's body.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Type Must Be Returned
-
 	:twitter:description: Type Must Be Returned: When using a type for a method, it is compulsory to use a at least one return in the method's body
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Type Must Be Returned
-
 	:og:type: article
-
 	:og:description: When using a type for a method, it is compulsory to use a at least one return in the method's body
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Type Must Be Returned.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

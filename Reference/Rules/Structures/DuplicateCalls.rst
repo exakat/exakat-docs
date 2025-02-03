@@ -6,37 +6,21 @@
 Duplicate Calls
 +++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Duplicate Calls: Duplicate calls within the same context.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Duplicate Calls
-
 	:twitter:description: Duplicate Calls: Duplicate calls within the same context
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Duplicate Calls
-
 	:og:type: article
-
 	:og:description: Duplicate calls within the same context
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Duplicate Calls.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

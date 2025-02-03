@@ -6,37 +6,21 @@
 Is Upper Family
 +++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Is Upper Family: Does the static call is made within the current hierarchy of class, or, is it made in the class, in the children or outside.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Is Upper Family
-
 	:twitter:description: Is Upper Family: Does the static call is made within the current hierarchy of class, or, is it made in the class, in the children or outside
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Is Upper Family
-
 	:og:type: article
-
 	:og:description: Does the static call is made within the current hierarchy of class, or, is it made in the class, in the children or outside
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Is Upper Family.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

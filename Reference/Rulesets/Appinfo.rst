@@ -18,6 +18,7 @@ Appinfo
 	:og:description: Appinfo is the equivalent of phpinfo() for your code.
 	:og:url: https://exakat.readthedocs.io/en/latest/Rulesets/Appinfo.html
 	:og:locale: en
+
 A set of rules that describes with PHP features is used in the code.
 
 Total : 391 analysis

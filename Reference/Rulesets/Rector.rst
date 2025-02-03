@@ -18,6 +18,7 @@ Rector
 	:og:description: Suggests configuration to apply changes with Rector
 	:og:url: https://exakat.readthedocs.io/en/latest/Rulesets/Rector.html
 	:og:locale: en
+
 `RectorPHP <https://getrector.org/>`_ is a reconstructor tool. It applies modifications in the PHP code automatically. Exakat finds results which may be automatically updated with rector. 
 
 Total : 15 analysis

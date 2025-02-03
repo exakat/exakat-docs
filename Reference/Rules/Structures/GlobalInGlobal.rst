@@ -6,37 +6,21 @@
 Global In Global
 ++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Global In Global: List of global variables.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Global In Global
-
 	:twitter:description: Global In Global: List of global variables
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Global In Global
-
 	:og:type: article
-
 	:og:description: List of global variables
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Global In Global.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

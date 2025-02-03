@@ -6,37 +6,21 @@
 Unresolved Instanceof
 +++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Unresolved Instanceof: The instanceof operator doesn't confirm if the compared class exists.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Unresolved Instanceof
-
 	:twitter:description: Unresolved Instanceof: The instanceof operator doesn't confirm if the compared class exists
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Unresolved Instanceof
-
 	:og:type: article
-
 	:og:description: The instanceof operator doesn't confirm if the compared class exists
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Unresolved Instanceof.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

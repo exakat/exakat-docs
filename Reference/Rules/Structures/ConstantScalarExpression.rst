@@ -6,37 +6,21 @@
 Constant Scalar Expressions
 +++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Constant Scalar Expressions: Define constant with the result of static expressions.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Constant Scalar Expressions
-
 	:twitter:description: Constant Scalar Expressions: Define constant with the result of static expressions
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Constant Scalar Expressions
-
 	:og:type: article
-
 	:og:description: Define constant with the result of static expressions
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Constant Scalar Expressions.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

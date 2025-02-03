@@ -6,37 +6,21 @@
 Possible TypeError
 ++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Possible TypeError: Report possible errors when a string is given to a int or float typed container.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Possible TypeError
-
 	:twitter:description: Possible TypeError: Report possible errors when a string is given to a int or float typed container
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Possible TypeError
-
 	:og:type: article
-
 	:og:description: Report possible errors when a string is given to a int or float typed container
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Possible TypeError.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

@@ -6,37 +6,21 @@
 PSR-6 Usage
 +++++++++++
 
-
 .. meta::
-
 	:description:
-
 		PSR-6 Usage: PSR-6 is the cache standard for PHP.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: PSR-6 Usage
-
 	:twitter:description: PSR-6 Usage: PSR-6 is the cache standard for PHP
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: PSR-6 Usage
-
 	:og:type: article
-
 	:og:description: PSR-6 is the cache standard for PHP
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/PSR-6 Usage.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

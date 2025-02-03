@@ -6,37 +6,21 @@
 All Uppercase Variables
 +++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		All Uppercase Variables: Usually, global variables are all in uppercase, so as to differentiate them easily.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: All Uppercase Variables
-
 	:twitter:description: All Uppercase Variables: Usually, global variables are all in uppercase, so as to differentiate them easily
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: All Uppercase Variables
-
 	:og:type: article
-
 	:og:description: Usually, global variables are all in uppercase, so as to differentiate them easily
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/All Uppercase Variables.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

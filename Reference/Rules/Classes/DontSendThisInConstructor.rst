@@ -6,37 +6,21 @@
 Don't Send $this In Constructor
 +++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Don't Send $this In Constructor: Don't use ``$this`` as an argument while in the __construct().
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Don't Send $this In Constructor
-
 	:twitter:description: Don't Send $this In Constructor: Don't use ``$this`` as an argument while in the __construct()
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Don't Send $this In Constructor
-
 	:og:type: article
-
 	:og:description: Don't use ``$this`` as an argument while in the __construct()
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Don't Send $this In Constructor.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

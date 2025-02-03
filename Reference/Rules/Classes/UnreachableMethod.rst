@@ -6,37 +6,21 @@
 Unreachable Method
 ++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Unreachable Method: A method that is never called from the code.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Unreachable Method
-
 	:twitter:description: Unreachable Method: A method that is never called from the code
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Unreachable Method
-
 	:og:type: article
-
 	:og:description: A method that is never called from the code
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Unreachable Method.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

@@ -6,37 +6,21 @@
 Mixed Keys In Array
 +++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Mixed Keys In Array: Avoid mixing constants and literals in array keys.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Mixed Keys In Array
-
 	:twitter:description: Mixed Keys In Array: Avoid mixing constants and literals in array keys
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Mixed Keys In Array
-
 	:og:type: article
-
 	:og:description: Avoid mixing constants and literals in array keys
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Mixed Keys In Array.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

@@ -6,37 +6,21 @@
 Final Class Usage
 +++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Final Class Usage: This rule lists of all final classes in use in the code.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Final Class Usage
-
 	:twitter:description: Final Class Usage: This rule lists of all final classes in use in the code
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Final Class Usage
-
 	:og:type: article
-
 	:og:description: This rule lists of all final classes in use in the code
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Final Class Usage.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

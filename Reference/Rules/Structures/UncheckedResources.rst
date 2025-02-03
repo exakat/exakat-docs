@@ -6,37 +6,21 @@
 Unchecked Resources
 +++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Unchecked Resources: Resources are created, but never checked before being used.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Unchecked Resources
-
 	:twitter:description: Unchecked Resources: Resources are created, but never checked before being used
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Unchecked Resources
-
 	:og:type: article
-
 	:og:description: Resources are created, but never checked before being used
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Unchecked Resources.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

@@ -6,37 +6,21 @@
 Strict In_Array() Preference
 ++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Strict In_Array() Preference: It is possible to set in_array() to strict search mode, by using the third argument.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Strict In_Array() Preference
-
 	:twitter:description: Strict In_Array() Preference: It is possible to set in_array() to strict search mode, by using the third argument
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Strict In_Array() Preference
-
 	:og:type: article
-
 	:og:description: It is possible to set in_array() to strict search mode, by using the third argument
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Strict In_Array() Preference.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

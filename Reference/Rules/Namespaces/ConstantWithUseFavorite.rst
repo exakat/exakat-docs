@@ -6,37 +6,21 @@
 Constant : With Or Without Use
 ++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Constant : With Or Without Use: This analysis collects the ways constants are called in the code : with a local import, alias or not, or with their fully qualified name.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Constant : With Or Without Use
-
 	:twitter:description: Constant : With Or Without Use: This analysis collects the ways constants are called in the code : with a local import, alias or not, or with their fully qualified name
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Constant : With Or Without Use
-
 	:og:type: article
-
 	:og:description: This analysis collects the ways constants are called in the code : with a local import, alias or not, or with their fully qualified name
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Constant : With Or Without Use.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

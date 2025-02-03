@@ -6,37 +6,21 @@
 Is Not Class Family
 +++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Is Not Class Family: Mark a static method call as inside the family of classes.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Is Not Class Family
-
 	:twitter:description: Is Not Class Family: Mark a static method call as inside the family of classes
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Is Not Class Family
-
 	:og:type: article
-
 	:og:description: Mark a static method call as inside the family of classes
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Is Not Class Family.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

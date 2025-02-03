@@ -6,37 +6,21 @@
 self, parent, static Outside Class
 ++++++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		self, parent, static Outside Class: self, parent and static should be called inside a class or trait.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: self, parent, static Outside Class
-
 	:twitter:description: self, parent, static Outside Class: self, parent and static should be called inside a class or trait
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: self, parent, static Outside Class
-
 	:og:type: article
-
 	:og:description: self, parent and static should be called inside a class or trait
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/self, parent, static Outside Class.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

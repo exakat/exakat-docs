@@ -6,37 +6,21 @@
 Constant Dynamic Creation
 +++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Constant Dynamic Creation: Registering constant with dynamic values.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Constant Dynamic Creation
-
 	:twitter:description: Constant Dynamic Creation: Registering constant with dynamic values
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Constant Dynamic Creation
-
 	:og:type: article
-
 	:og:description: Registering constant with dynamic values
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Constant Dynamic Creation.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

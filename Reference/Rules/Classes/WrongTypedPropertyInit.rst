@@ -6,37 +6,21 @@
 Wrong Typed Property Default
 ++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Wrong Typed Property Default: Property is typed, yet receives an incompatible value at constructor time.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Wrong Typed Property Default
-
 	:twitter:description: Wrong Typed Property Default: Property is typed, yet receives an incompatible value at constructor time
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Wrong Typed Property Default
-
 	:og:type: article
-
 	:og:description: Property is typed, yet receives an incompatible value at constructor time
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Wrong Typed Property Default.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

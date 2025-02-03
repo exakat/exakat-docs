@@ -6,37 +6,21 @@
 Unreachable Class Constant
 ++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Unreachable Class Constant: Class constants may be unreachable due to visibility configuration.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Unreachable Class Constant
-
 	:twitter:description: Unreachable Class Constant: Class constants may be unreachable due to visibility configuration
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Unreachable Class Constant
-
 	:og:type: article
-
 	:og:description: Class constants may be unreachable due to visibility configuration
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Unreachable Class Constant.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

@@ -6,37 +6,21 @@
 Simple Switch And Match
 +++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Simple Switch And Match: Switch() and match() are faster when relying only on literal integers or strings.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Simple Switch And Match
-
 	:twitter:description: Simple Switch And Match: Switch() and match() are faster when relying only on literal integers or strings
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Simple Switch And Match
-
 	:og:type: article
-
 	:og:description: Switch() and match() are faster when relying only on literal integers or strings
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Simple Switch And Match.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

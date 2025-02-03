@@ -6,37 +6,21 @@
 Create Magic Property
 +++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Create Magic Property: This command creates a link DEFINITION between a ``__get`` and ``__set`` calls, and its equivalent magic method.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Create Magic Property
-
 	:twitter:description: Create Magic Property: This command creates a link DEFINITION between a ``__get`` and ``__set`` calls, and its equivalent magic method
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Create Magic Property
-
 	:og:type: article
-
 	:og:description: This command creates a link DEFINITION between a ``__get`` and ``__set`` calls, and its equivalent magic method
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Create Magic Property.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

@@ -6,37 +6,21 @@
 Strange Names In Classes
 ++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Strange Names In Classes: Those methods, properties, constants or types should have another name.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Strange Names In Classes
-
 	:twitter:description: Strange Names In Classes: Those methods, properties, constants or types should have another name
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Strange Names In Classes
-
 	:og:type: article
-
 	:og:description: Those methods, properties, constants or types should have another name
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Strange Names In Classes.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

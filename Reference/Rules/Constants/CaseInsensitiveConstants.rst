@@ -6,37 +6,21 @@
 Case Insensitive Constants
 ++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Case Insensitive Constants: PHP constants used to be able to be case insensitive, when defined with define() and the third argument.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Case Insensitive Constants
-
 	:twitter:description: Case Insensitive Constants: PHP constants used to be able to be case insensitive, when defined with define() and the third argument
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Case Insensitive Constants
-
 	:og:type: article
-
 	:og:description: PHP constants used to be able to be case insensitive, when defined with define() and the third argument
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Case Insensitive Constants.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

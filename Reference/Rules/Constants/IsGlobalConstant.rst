@@ -6,37 +6,21 @@
 Is Global Constant
 ++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Is Global Constant: Mark a constant that may fallback to a global const definition, even though it is in a namespace.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Is Global Constant
-
 	:twitter:description: Is Global Constant: Mark a constant that may fallback to a global const definition, even though it is in a namespace
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Is Global Constant
-
 	:og:type: article
-
 	:og:description: Mark a constant that may fallback to a global const definition, even though it is in a namespace
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Is Global Constant.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

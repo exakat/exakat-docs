@@ -6,37 +6,21 @@
 Collect Readability
 +++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Collect Readability: Measure readability for methods, functions and closures, then collect them.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Collect Readability
-
 	:twitter:description: Collect Readability: Measure readability for methods, functions and closures, then collect them
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Collect Readability
-
 	:og:type: article
-
 	:og:description: Measure readability for methods, functions and closures, then collect them
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Collect Readability.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

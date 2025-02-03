@@ -6,37 +6,21 @@
 Useless Unset
 +++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Useless Unset: There are situations where trying to remove a variable is actually useless.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Useless Unset
-
 	:twitter:description: Useless Unset: There are situations where trying to remove a variable is actually useless
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Useless Unset
-
 	:og:type: article
-
 	:og:description: There are situations where trying to remove a variable is actually useless
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Useless Unset.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

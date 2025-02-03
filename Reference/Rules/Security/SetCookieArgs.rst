@@ -6,37 +6,21 @@
 Set Cookie Safe Arguments
 +++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Set Cookie Safe Arguments: The last five arguments of setcookie() and setrawcookie() are for security.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Set Cookie Safe Arguments
-
 	:twitter:description: Set Cookie Safe Arguments: The last five arguments of setcookie() and setrawcookie() are for security
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Set Cookie Safe Arguments
-
 	:og:type: article
-
 	:og:description: The last five arguments of setcookie() and setrawcookie() are for security
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Set Cookie Safe Arguments.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

@@ -6,37 +6,21 @@
 Never Keyword
 +++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Never Keyword: Never becomes a PHP keyword.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Never Keyword
-
 	:twitter:description: Never Keyword: Never becomes a PHP keyword
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Never Keyword
-
 	:og:type: article
-
 	:og:description: Never becomes a PHP keyword
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Never Keyword.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

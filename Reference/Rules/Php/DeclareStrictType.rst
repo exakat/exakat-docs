@@ -6,37 +6,21 @@
 Declare strict_types Usage
 ++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Declare strict_types Usage: Usage of ``strict_types``.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Declare strict_types Usage
-
 	:twitter:description: Declare strict_types Usage: Usage of ``strict_types``
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Declare strict_types Usage
-
 	:og:type: article
-
 	:og:description: Usage of ``strict_types``
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Declare strict_types Usage.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

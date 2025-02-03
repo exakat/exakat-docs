@@ -6,37 +6,21 @@
 Array Index
 +++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Array Index: List of all indexes used in arrays.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Array Index
-
 	:twitter:description: Array Index: List of all indexes used in arrays
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Array Index
-
 	:og:type: article
-
 	:og:description: List of all indexes used in arrays
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Array Index.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

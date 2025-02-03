@@ -6,37 +6,21 @@
 Dynamic Code
 ++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Dynamic Code: List of instructions that were left during analysis, as they rely on dynamic data.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Dynamic Code
-
 	:twitter:description: Dynamic Code: List of instructions that were left during analysis, as they rely on dynamic data
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Dynamic Code
-
 	:og:type: article
-
 	:og:description: List of instructions that were left during analysis, as they rely on dynamic data
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Dynamic Code.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

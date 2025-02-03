@@ -6,37 +6,21 @@
 False To Array Conversion
 +++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		False To Array Conversion: The auto vivification of false is deprecated.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: False To Array Conversion
-
 	:twitter:description: False To Array Conversion: The auto vivification of false is deprecated
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: False To Array Conversion
-
 	:og:type: article
-
 	:og:description: The auto vivification of false is deprecated
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/False To Array Conversion.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

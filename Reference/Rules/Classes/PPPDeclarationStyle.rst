@@ -6,37 +6,21 @@
 Properties Declaration Consistence
 ++++++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Properties Declaration Consistence: Properties may be declared all at once, or one by one.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Properties Declaration Consistence
-
 	:twitter:description: Properties Declaration Consistence: Properties may be declared all at once, or one by one
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Properties Declaration Consistence
-
 	:og:type: article
-
 	:og:description: Properties may be declared all at once, or one by one
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Properties Declaration Consistence.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

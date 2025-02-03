@@ -6,37 +6,21 @@
 Should Use array_filter()
 +++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Should Use array_filter(): Should use array_filter().
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Should Use array_filter()
-
 	:twitter:description: Should Use array_filter(): Should use array_filter()
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Should Use array_filter()
-
 	:og:type: article
-
 	:og:description: Should use array_filter()
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Should Use array_filter().html
-
 	:og:locale: en
-
 
 .. raw:: html
 

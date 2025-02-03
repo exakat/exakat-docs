@@ -18,6 +18,7 @@ CompatibilityPHP74
 	:og:description: List features that are incompatible with PHP 7.4.
 	:og:url: https://exakat.readthedocs.io/en/latest/Rulesets/CompatibilityPHP74.html
 	:og:locale: en
+
 This ruleset centralizes all analysis for the migration from PHP 7.3 to 7.4.
 
 Total : 55 analysis

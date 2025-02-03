@@ -6,37 +6,21 @@
 Could Be A Static Variable
 ++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Could Be A Static Variable: This global is only used in one function or method.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Could Be A Static Variable
-
 	:twitter:description: Could Be A Static Variable: This global is only used in one function or method
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Could Be A Static Variable
-
 	:og:type: article
-
 	:og:description: This global is only used in one function or method
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Could Be A Static Variable.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

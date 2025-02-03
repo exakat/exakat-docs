@@ -6,37 +6,21 @@
 Heredoc Delimiter Glossary
 ++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Heredoc Delimiter Glossary: List of all the delimiters used to build a Heredoc string.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Heredoc Delimiter Glossary
-
 	:twitter:description: Heredoc Delimiter Glossary: List of all the delimiters used to build a Heredoc string
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Heredoc Delimiter Glossary
-
 	:og:type: article
-
 	:og:description: List of all the delimiters used to build a Heredoc string
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Heredoc Delimiter Glossary.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

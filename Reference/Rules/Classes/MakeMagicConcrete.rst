@@ -6,37 +6,21 @@
 Make Magic Concrete
 +++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Make Magic Concrete: Speed up execution by replacing magic calls by concrete properties.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Make Magic Concrete
-
 	:twitter:description: Make Magic Concrete: Speed up execution by replacing magic calls by concrete properties
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Make Magic Concrete
-
 	:og:type: article
-
 	:og:description: Speed up execution by replacing magic calls by concrete properties
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Make Magic Concrete.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

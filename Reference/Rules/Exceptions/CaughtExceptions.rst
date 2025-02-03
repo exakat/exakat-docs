@@ -6,37 +6,21 @@
 Caught Exceptions
 +++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Caught Exceptions: This rule collects the exceptions used in catch clause.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Caught Exceptions
-
 	:twitter:description: Caught Exceptions: This rule collects the exceptions used in catch clause
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Caught Exceptions
-
 	:og:type: article
-
 	:og:description: This rule collects the exceptions used in catch clause
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Caught Exceptions.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

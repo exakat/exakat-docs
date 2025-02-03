@@ -6,37 +6,21 @@
 Set Class Remote Definition With Parenthesis
 ++++++++++++++++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Set Class Remote Definition With Parenthesis: Links methodcall, properties and constants to its definition, based to the new in the parenthesis.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Set Class Remote Definition With Parenthesis
-
 	:twitter:description: Set Class Remote Definition With Parenthesis: Links methodcall, properties and constants to its definition, based to the new in the parenthesis
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Set Class Remote Definition With Parenthesis
-
 	:og:type: article
-
 	:og:description: Links methodcall, properties and constants to its definition, based to the new in the parenthesis
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Set Class Remote Definition With Parenthesis.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

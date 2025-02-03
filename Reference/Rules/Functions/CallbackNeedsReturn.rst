@@ -6,37 +6,21 @@
 Callback Function Needs Return
 ++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Callback Function Needs Return: When used with array_map() functions, the callback must return something.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Callback Function Needs Return
-
 	:twitter:description: Callback Function Needs Return: When used with array_map() functions, the callback must return something
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Callback Function Needs Return
-
 	:og:type: article
-
 	:og:description: When used with array_map() functions, the callback must return something
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Callback Function Needs Return.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

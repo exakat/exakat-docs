@@ -6,37 +6,21 @@
 Incompatible Property Between Class And Trait
 +++++++++++++++++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Incompatible Property Between Class And Trait: Reports a property definition that doesn't fit the importing class.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Incompatible Property Between Class And Trait
-
 	:twitter:description: Incompatible Property Between Class And Trait: Reports a property definition that doesn't fit the importing class
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Incompatible Property Between Class And Trait
-
 	:og:type: article
-
 	:og:description: Reports a property definition that doesn't fit the importing class
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Incompatible Property Between Class And Trait.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

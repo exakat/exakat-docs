@@ -6,37 +6,21 @@
 Variable Parameter Ambiguity In Arrow Function
 ++++++++++++++++++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Variable Parameter Ambiguity In Arrow Function: Avoid using a parameter that is also the name of a local variable.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Variable Parameter Ambiguity In Arrow Function
-
 	:twitter:description: Variable Parameter Ambiguity In Arrow Function: Avoid using a parameter that is also the name of a local variable
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Variable Parameter Ambiguity In Arrow Function
-
 	:og:type: article
-
 	:og:description: Avoid using a parameter that is also the name of a local variable
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Variable Parameter Ambiguity In Arrow Function.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

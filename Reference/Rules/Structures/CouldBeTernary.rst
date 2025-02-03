@@ -6,37 +6,21 @@
 Could Be Ternary
 ++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Could Be Ternary: This control structure may be replaced by a ternary operator.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Could Be Ternary
-
 	:twitter:description: Could Be Ternary: This control structure may be replaced by a ternary operator
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Could Be Ternary
-
 	:og:type: article
-
 	:og:description: This control structure may be replaced by a ternary operator
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Could Be Ternary.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

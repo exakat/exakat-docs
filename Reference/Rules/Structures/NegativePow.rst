@@ -6,37 +6,21 @@
 Negative Power
 ++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Negative Power: The power operator ** has higher precedence than the sign operators + and -.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Negative Power
-
 	:twitter:description: Negative Power: The power operator ** has higher precedence than the sign operators + and -
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Negative Power
-
 	:og:type: article
-
 	:og:description: The power operator ** has higher precedence than the sign operators + and -
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Negative Power.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

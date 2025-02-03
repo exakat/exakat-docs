@@ -6,37 +6,21 @@
 Closure May Use $this
 +++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Closure May Use $this: $this is automatically accessible to closures.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Closure May Use $this
-
 	:twitter:description: Closure May Use $this: $this is automatically accessible to closures
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Closure May Use $this
-
 	:og:type: article
-
 	:og:description: $this is automatically accessible to closures
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Closure May Use $this.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

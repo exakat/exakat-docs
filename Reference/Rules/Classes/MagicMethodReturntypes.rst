@@ -6,37 +6,21 @@
 Magic Method Returntype Is Restricted
 +++++++++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Magic Method Returntype Is Restricted: Some PHP magic method have compulsory return types.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Magic Method Returntype Is Restricted
-
 	:twitter:description: Magic Method Returntype Is Restricted: Some PHP magic method have compulsory return types
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Magic Method Returntype Is Restricted
-
 	:og:type: article
-
 	:og:description: Some PHP magic method have compulsory return types
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Magic Method Returntype Is Restricted.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

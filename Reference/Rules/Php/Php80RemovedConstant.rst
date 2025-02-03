@@ -6,37 +6,21 @@
 PHP 8.0 Removed Constants
 +++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		PHP 8.0 Removed Constants: The following PHP native constants were removed in PHP 8.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: PHP 8.0 Removed Constants
-
 	:twitter:description: PHP 8.0 Removed Constants: The following PHP native constants were removed in PHP 8
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: PHP 8.0 Removed Constants
-
 	:og:type: article
-
 	:og:description: The following PHP native constants were removed in PHP 8
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/PHP 8.0 Removed Constants.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

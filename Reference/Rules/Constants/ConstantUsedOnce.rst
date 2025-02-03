@@ -6,37 +6,21 @@
 Constant Used Only Once
 +++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Constant Used Only Once: This rule reports constants that are used only once.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Constant Used Only Once
-
 	:twitter:description: Constant Used Only Once: This rule reports constants that are used only once
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Constant Used Only Once
-
 	:og:type: article
-
 	:og:description: This rule reports constants that are used only once
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Constant Used Only Once.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

@@ -6,37 +6,21 @@
 Detect Current Class
 ++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Detect Current Class: Detecting the current class should be done with `self::class` or `static::class` operator.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Detect Current Class
-
 	:twitter:description: Detect Current Class: Detecting the current class should be done with `self::class` or `static::class` operator
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Detect Current Class
-
 	:og:type: article
-
 	:og:description: Detecting the current class should be done with `self::class` or `static::class` operator
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Detect Current Class.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

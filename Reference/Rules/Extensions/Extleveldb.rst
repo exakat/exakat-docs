@@ -6,37 +6,21 @@
 ext/leveldb
 +++++++++++
 
-
 .. meta::
-
 	:description:
-
 		ext/leveldb: PHP Binding for LevelDB.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: ext/leveldb
-
 	:twitter:description: ext/leveldb: PHP Binding for LevelDB
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: ext/leveldb
-
 	:og:type: article
-
 	:og:description: PHP Binding for LevelDB
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/leveldb.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

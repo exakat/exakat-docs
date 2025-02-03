@@ -6,37 +6,21 @@
 Short Or Complete Comparison
 ++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Short Or Complete Comparison: Which type of condition is used for boolean comparisons : either short or formal.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Short Or Complete Comparison
-
 	:twitter:description: Short Or Complete Comparison: Which type of condition is used for boolean comparisons : either short or formal
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Short Or Complete Comparison
-
 	:og:type: article
-
 	:og:description: Which type of condition is used for boolean comparisons : either short or formal
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Short Or Complete Comparison.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

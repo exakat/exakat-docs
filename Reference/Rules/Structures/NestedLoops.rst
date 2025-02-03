@@ -6,37 +6,21 @@
 Nested Loops
 ++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Nested Loops: Nested loops happens when a loop (while, do.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Nested Loops
-
 	:twitter:description: Nested Loops: Nested loops happens when a loop (while, do
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Nested Loops
-
 	:og:type: article
-
 	:og:description: Nested loops happens when a loop (while, do
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Nested Loops.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

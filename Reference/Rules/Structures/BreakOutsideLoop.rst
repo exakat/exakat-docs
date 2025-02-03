@@ -6,37 +6,21 @@
 Break Outside Loop
 ++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Break Outside Loop: Starting with PHP 7, break or continue that are outside a loop (for, foreach(), do.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Break Outside Loop
-
 	:twitter:description: Break Outside Loop: Starting with PHP 7, break or continue that are outside a loop (for, foreach(), do
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Break Outside Loop
-
 	:og:type: article
-
 	:og:description: Starting with PHP 7, break or continue that are outside a loop (for, foreach(), do
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Break Outside Loop.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

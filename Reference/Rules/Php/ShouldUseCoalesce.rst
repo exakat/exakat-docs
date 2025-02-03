@@ -6,37 +6,21 @@
 Should Use Coalesce
 +++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Should Use Coalesce: PHP 7 introduced the ``.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Should Use Coalesce
-
 	:twitter:description: Should Use Coalesce: PHP 7 introduced the ``
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Should Use Coalesce
-
 	:og:type: article
-
 	:og:description: PHP 7 introduced the ``
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Should Use Coalesce.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

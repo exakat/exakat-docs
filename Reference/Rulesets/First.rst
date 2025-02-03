@@ -18,6 +18,7 @@ First
 	:og:description: A set of rules that are always run at the beginning of a project, because they are frequently used.
 	:og:url: https://exakat.readthedocs.io/en/latest/Rulesets/First.html
 	:og:locale: en
+
 A set of rules that are always run at the beginning of a project, because they are frequently used. It is mostly used internally.
 
 Total : 3 analysis

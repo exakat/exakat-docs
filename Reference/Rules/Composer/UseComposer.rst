@@ -6,37 +6,21 @@
 Composer Usage
 ++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Composer Usage: Mark the usage of composer, mostly by having a ``composer.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Composer Usage
-
 	:twitter:description: Composer Usage: Mark the usage of composer, mostly by having a ``composer
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Composer Usage
-
 	:og:type: article
-
 	:og:description: Mark the usage of composer, mostly by having a ``composer
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Composer Usage.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

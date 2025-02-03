@@ -6,37 +6,21 @@
 Unused Constants
 ++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Unused Constants: Those constants are defined in the code but never used.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Unused Constants
-
 	:twitter:description: Unused Constants: Those constants are defined in the code but never used
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Unused Constants
-
 	:og:type: article
-
 	:og:description: Those constants are defined in the code but never used
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Unused Constants.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

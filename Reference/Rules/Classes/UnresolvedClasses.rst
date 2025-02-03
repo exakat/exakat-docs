@@ -6,37 +6,21 @@
 Unresolved Classes
 ++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Unresolved Classes: The following classes are instantiated in the code, but their definition couldn't be found in that same code.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Unresolved Classes
-
 	:twitter:description: Unresolved Classes: The following classes are instantiated in the code, but their definition couldn't be found in that same code
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Unresolved Classes
-
 	:og:type: article
-
 	:og:description: The following classes are instantiated in the code, but their definition couldn't be found in that same code
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Unresolved Classes.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

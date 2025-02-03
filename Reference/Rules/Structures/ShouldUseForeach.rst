@@ -6,37 +6,21 @@
 Should Use Foreach
 ++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Should Use Foreach: Use the ``foreach`` loop instead of ``for`` when traversing an array.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Should Use Foreach
-
 	:twitter:description: Should Use Foreach: Use the ``foreach`` loop instead of ``for`` when traversing an array
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Should Use Foreach
-
 	:og:type: article
-
 	:og:description: Use the ``foreach`` loop instead of ``for`` when traversing an array
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Should Use Foreach.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

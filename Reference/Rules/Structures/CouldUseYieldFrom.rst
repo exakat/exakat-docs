@@ -6,37 +6,21 @@
 Could Use Yield From
 ++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Could Use Yield From: ``Yield from`` can be applied to an array or another generator.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Could Use Yield From
-
 	:twitter:description: Could Use Yield From: ``Yield from`` can be applied to an array or another generator
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Could Use Yield From
-
 	:og:type: article
-
 	:og:description: ``Yield from`` can be applied to an array or another generator
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Could Use Yield From.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

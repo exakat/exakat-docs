@@ -6,37 +6,21 @@
 Empty List
 ++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Empty List: Empty list() are not allowed anymore in PHP 7.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Empty List
-
 	:twitter:description: Empty List: Empty list() are not allowed anymore in PHP 7
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Empty List
-
 	:og:type: article
-
 	:og:description: Empty list() are not allowed anymore in PHP 7
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Empty List.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

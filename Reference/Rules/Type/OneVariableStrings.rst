@@ -6,37 +6,21 @@
 One Variable String
 +++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		One Variable String: These strings only contains one variable or property or array.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: One Variable String
-
 	:twitter:description: One Variable String: These strings only contains one variable or property or array
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: One Variable String
-
 	:og:type: article
-
 	:og:description: These strings only contains one variable or property or array
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/One Variable String.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

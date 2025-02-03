@@ -6,37 +6,21 @@
 ext/ffi
 +++++++
 
-
 .. meta::
-
 	:description:
-
 		ext/ffi: Extension ``FFI`` : Foreign Function Interface .
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: ext/ffi
-
 	:twitter:description: ext/ffi: Extension ``FFI`` : Foreign Function Interface 
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: ext/ffi
-
 	:og:type: article
-
 	:og:description: Extension ``FFI`` : Foreign Function Interface 
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/ffi.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

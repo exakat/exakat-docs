@@ -6,37 +6,21 @@
 Multiple Classes In One File
 ++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Multiple Classes In One File: It is regarded as a bad practice to store several classes in the same file.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Multiple Classes In One File
-
 	:twitter:description: Multiple Classes In One File: It is regarded as a bad practice to store several classes in the same file
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Multiple Classes In One File
-
 	:og:type: article
-
 	:og:description: It is regarded as a bad practice to store several classes in the same file
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Multiple Classes In One File.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

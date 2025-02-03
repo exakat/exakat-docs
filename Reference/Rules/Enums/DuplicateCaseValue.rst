@@ -6,37 +6,21 @@
 Duplicate Enum Case Value
 +++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Duplicate Enum Case Value: In a backed enumeration, may it be ``int`` or ``string``, the values of the cases must all be distinct.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Duplicate Enum Case Value
-
 	:twitter:description: Duplicate Enum Case Value: In a backed enumeration, may it be ``int`` or ``string``, the values of the cases must all be distinct
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Duplicate Enum Case Value
-
 	:og:type: article
-
 	:og:description: In a backed enumeration, may it be ``int`` or ``string``, the values of the cases must all be distinct
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Duplicate Enum Case Value.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

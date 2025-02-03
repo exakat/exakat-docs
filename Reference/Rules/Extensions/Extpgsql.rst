@@ -6,37 +6,21 @@
 ext/pgsql
 +++++++++
 
-
 .. meta::
-
 	:description:
-
 		ext/pgsql: Extension PostGreSQL.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: ext/pgsql
-
 	:twitter:description: ext/pgsql: Extension PostGreSQL
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: ext/pgsql
-
 	:og:type: article
-
 	:og:description: Extension PostGreSQL
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/pgsql.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

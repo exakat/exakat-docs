@@ -6,37 +6,21 @@
 Foreach Don't Change Pointer
 ++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Foreach Don't Change Pointer: foreach() loops use their own internal cursor.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Foreach Don't Change Pointer
-
 	:twitter:description: Foreach Don't Change Pointer: foreach() loops use their own internal cursor
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Foreach Don't Change Pointer
-
 	:og:type: article
-
 	:og:description: foreach() loops use their own internal cursor
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Foreach Don't Change Pointer.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

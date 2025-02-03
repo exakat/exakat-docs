@@ -6,37 +6,21 @@
 Possible Interfaces
 +++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Possible Interfaces: This analyzer lists classes that may be a base to create interfaces.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Possible Interfaces
-
 	:twitter:description: Possible Interfaces: This analyzer lists classes that may be a base to create interfaces
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Possible Interfaces
-
 	:og:type: article
-
 	:og:description: This analyzer lists classes that may be a base to create interfaces
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Possible Interfaces.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

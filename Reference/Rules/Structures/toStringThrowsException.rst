@@ -6,37 +6,21 @@
 __toString() Throws Exception
 +++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		__toString() Throws Exception: Magical method __toString() can't throw exceptions.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: __toString() Throws Exception
-
 	:twitter:description: __toString() Throws Exception: Magical method __toString() can't throw exceptions
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: __toString() Throws Exception
-
 	:og:type: article
-
 	:og:description: Magical method __toString() can't throw exceptions
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/__toString() Throws Exception.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

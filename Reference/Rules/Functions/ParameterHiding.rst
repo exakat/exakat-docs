@@ -6,37 +6,21 @@
 Parameter Hiding
 ++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Parameter Hiding: When a parameter is set to another variable, and never used.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Parameter Hiding
-
 	:twitter:description: Parameter Hiding: When a parameter is set to another variable, and never used
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Parameter Hiding
-
 	:og:type: article
-
 	:og:description: When a parameter is set to another variable, and never used
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Parameter Hiding.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

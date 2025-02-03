@@ -6,37 +6,21 @@
 strict_types Preference
 +++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		strict_types Preference: ``strict_types`` is a PHP mode where typehint are enforced strictly or weakly.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: strict_types Preference
-
 	:twitter:description: strict_types Preference: ``strict_types`` is a PHP mode where typehint are enforced strictly or weakly
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: strict_types Preference
-
 	:og:type: article
-
 	:og:description: ``strict_types`` is a PHP mode where typehint are enforced strictly or weakly
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/strict_types Preference.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

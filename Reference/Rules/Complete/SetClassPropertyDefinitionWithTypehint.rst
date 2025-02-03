@@ -6,37 +6,21 @@
 Set Class Property Definition With Type
 +++++++++++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Set Class Property Definition With Type: Links method call to its definition, thanks to property typing.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Set Class Property Definition With Type
-
 	:twitter:description: Set Class Property Definition With Type: Links method call to its definition, thanks to property typing
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Set Class Property Definition With Type
-
 	:og:type: article
-
 	:og:description: Links method call to its definition, thanks to property typing
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Set Class Property Definition With Type.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

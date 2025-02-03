@@ -6,37 +6,21 @@
 Sidelined Method
 ++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Sidelined Method: A method, defined in a trait, which is overwritten by a class's method.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Sidelined Method
-
 	:twitter:description: Sidelined Method: A method, defined in a trait, which is overwritten by a class's method
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Sidelined Method
-
 	:og:type: article
-
 	:og:description: A method, defined in a trait, which is overwritten by a class's method
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Sidelined Method.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

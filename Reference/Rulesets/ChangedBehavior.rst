@@ -18,6 +18,7 @@ Changed Behavior
 	:og:description: Ruleset with all rules that identify changed behavior across PHP versions.
 	:og:url: https://exakat.readthedocs.io/en/latest/Rulesets/Changed Behavior.html
 	:og:locale: en
+
 Ruleset with all rules that identify changed behavior across PHP versions. This means that some syntax behave differently, depending on PHP version.
 
 Total : 1442 analysis

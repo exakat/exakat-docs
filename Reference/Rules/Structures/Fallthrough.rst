@@ -6,37 +6,21 @@
 Switch Fallthrough
 ++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Switch Fallthrough: A switch with fallthrough is prone to errors.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Switch Fallthrough
-
 	:twitter:description: Switch Fallthrough: A switch with fallthrough is prone to errors
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Switch Fallthrough
-
 	:og:type: article
-
 	:og:description: A switch with fallthrough is prone to errors
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Switch Fallthrough.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

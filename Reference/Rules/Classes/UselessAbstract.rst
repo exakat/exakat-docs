@@ -6,37 +6,21 @@
 Useless Abstract Class
 ++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Useless Abstract Class: Those classes are marked 'abstract' and they are never extended.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Useless Abstract Class
-
 	:twitter:description: Useless Abstract Class: Those classes are marked 'abstract' and they are never extended
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Useless Abstract Class
-
 	:og:type: article
-
 	:og:description: Those classes are marked 'abstract' and they are never extended
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Useless Abstract Class.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

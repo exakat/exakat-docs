@@ -6,37 +6,21 @@
 $GLOBALS Or global
 ++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		$GLOBALS Or global: Usually, PHP projects make a choice between the global keyword, and the $GLOBALS variable.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: $GLOBALS Or global
-
 	:twitter:description: $GLOBALS Or global: Usually, PHP projects make a choice between the global keyword, and the $GLOBALS variable
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: $GLOBALS Or global
-
 	:og:type: article
-
 	:og:description: Usually, PHP projects make a choice between the global keyword, and the $GLOBALS variable
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/$GLOBALS Or global.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

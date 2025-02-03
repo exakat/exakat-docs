@@ -6,37 +6,21 @@
 Throw Functioncall
 ++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Throw Functioncall: The ``throw`` keyword expects to use an exception.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Throw Functioncall
-
 	:twitter:description: Throw Functioncall: The ``throw`` keyword expects to use an exception
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Throw Functioncall
-
 	:og:type: article
-
 	:og:description: The ``throw`` keyword expects to use an exception
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Throw Functioncall.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

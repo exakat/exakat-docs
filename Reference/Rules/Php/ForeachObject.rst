@@ -6,37 +6,21 @@
 Foreach On Object
 +++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Foreach On Object: Foreach on object looks like a typo.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Foreach On Object
-
 	:twitter:description: Foreach On Object: Foreach on object looks like a typo
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Foreach On Object
-
 	:og:type: article
-
 	:og:description: Foreach on object looks like a typo
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Foreach On Object.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

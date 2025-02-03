@@ -6,37 +6,21 @@
 Negative Start Index In Array
 +++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Negative Start Index In Array: Negative starting index in arrays changed in PHP 8.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Negative Start Index In Array
-
 	:twitter:description: Negative Start Index In Array: Negative starting index in arrays changed in PHP 8
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Negative Start Index In Array
-
 	:og:type: article
-
 	:og:description: Negative starting index in arrays changed in PHP 8
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Negative Start Index In Array.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

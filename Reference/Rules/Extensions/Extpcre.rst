@@ -6,37 +6,21 @@
 ext/pcre
 ++++++++
 
-
 .. meta::
-
 	:description:
-
 		ext/pcre: Extension ext/pcre.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: ext/pcre
-
 	:twitter:description: ext/pcre: Extension ext/pcre
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: ext/pcre
-
 	:og:type: article
-
 	:og:description: Extension ext/pcre
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/pcre.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

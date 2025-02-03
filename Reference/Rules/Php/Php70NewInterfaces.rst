@@ -6,37 +6,21 @@
 PHP 7.0 New Interfaces
 ++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		PHP 7.0 New Interfaces: The following interfaces are introduced in PHP 7.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: PHP 7.0 New Interfaces
-
 	:twitter:description: PHP 7.0 New Interfaces: The following interfaces are introduced in PHP 7
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: PHP 7.0 New Interfaces
-
 	:og:type: article
-
 	:og:description: The following interfaces are introduced in PHP 7
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/PHP 7.0 New Interfaces.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

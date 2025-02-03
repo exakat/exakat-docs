@@ -6,37 +6,21 @@
 Possible Infinite Loop
 ++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Possible Infinite Loop: Loops on files that can't be open results in infinite loop.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Possible Infinite Loop
-
 	:twitter:description: Possible Infinite Loop: Loops on files that can't be open results in infinite loop
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Possible Infinite Loop
-
 	:og:type: article
-
 	:og:description: Loops on files that can't be open results in infinite loop
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Possible Infinite Loop.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

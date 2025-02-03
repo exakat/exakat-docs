@@ -18,6 +18,7 @@ Deprecated
 	:og:description: List of deprecated features, across all PHP versions. 
 	:og:url: https://exakat.readthedocs.io/en/latest/Rulesets/Deprecated.html
 	:og:locale: en
+
 This ruleset centralizes all analysis that are marked as 'deprecated feature' for some versions.
 
 For example : 

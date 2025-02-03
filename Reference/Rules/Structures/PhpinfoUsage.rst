@@ -6,37 +6,21 @@
 Phpinfo
 +++++++
 
-
 .. meta::
-
 	:description:
-
 		Phpinfo: phpinfo() is a great function to learn about the current configuration of the server.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Phpinfo
-
 	:twitter:description: Phpinfo: phpinfo() is a great function to learn about the current configuration of the server
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Phpinfo
-
 	:og:type: article
-
 	:og:description: phpinfo() is a great function to learn about the current configuration of the server
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Phpinfo.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

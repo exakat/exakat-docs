@@ -6,37 +6,21 @@
 Collect Native Calls Per Expressions
 ++++++++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Collect Native Calls Per Expressions: This rule collects the number of PHP native call per expression.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Collect Native Calls Per Expressions
-
 	:twitter:description: Collect Native Calls Per Expressions: This rule collects the number of PHP native call per expression
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Collect Native Calls Per Expressions
-
 	:og:type: article
-
 	:og:description: This rule collects the number of PHP native call per expression
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Collect Native Calls Per Expressions.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

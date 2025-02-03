@@ -6,37 +6,21 @@
 ext/info
 ++++++++
 
-
 .. meta::
-
 	:description:
-
 		ext/info: PHP Options and Information.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: ext/info
-
 	:twitter:description: ext/info: PHP Options and Information
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: ext/info
-
 	:og:type: article
-
 	:og:description: PHP Options and Information
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/info.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

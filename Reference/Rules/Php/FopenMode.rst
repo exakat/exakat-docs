@@ -6,37 +6,21 @@
 Wrong fopen() Mode
 ++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Wrong fopen() Mode: Wrong file opening for fopen().
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Wrong fopen() Mode
-
 	:twitter:description: Wrong fopen() Mode: Wrong file opening for fopen()
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Wrong fopen() Mode
-
 	:og:type: article
-
 	:og:description: Wrong file opening for fopen()
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Wrong fopen() Mode.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

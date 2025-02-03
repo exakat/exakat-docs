@@ -6,37 +6,21 @@
 Use Cookies
 +++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Use Cookies: This code source uses cookies.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Use Cookies
-
 	:twitter:description: Use Cookies: This code source uses cookies
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Use Cookies
-
 	:og:type: article
-
 	:og:description: This code source uses cookies
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Use Cookies.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

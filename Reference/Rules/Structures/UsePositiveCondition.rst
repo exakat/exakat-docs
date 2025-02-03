@@ -6,37 +6,21 @@
 Use Positive Condition
 ++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Use Positive Condition: Whenever possible, use a positive condition.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Use Positive Condition
-
 	:twitter:description: Use Positive Condition: Whenever possible, use a positive condition
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Use Positive Condition
-
 	:og:type: article
-
 	:og:description: Whenever possible, use a positive condition
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Use Positive Condition.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

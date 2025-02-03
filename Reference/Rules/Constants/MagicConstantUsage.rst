@@ -6,37 +6,21 @@
 Magic Constant Usage
 ++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Magic Constant Usage: There are eight magical constants that change depending on where they are used.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Magic Constant Usage
-
 	:twitter:description: Magic Constant Usage: There are eight magical constants that change depending on where they are used
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Magic Constant Usage
-
 	:og:type: article
-
 	:og:description: There are eight magical constants that change depending on where they are used
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Magic Constant Usage.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

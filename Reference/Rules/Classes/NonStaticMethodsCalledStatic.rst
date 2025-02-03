@@ -6,37 +6,21 @@
 Non Static Methods Called In A Static
 +++++++++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Non Static Methods Called In A Static: Static methods have to be declared as such (using the static keyword).
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Non Static Methods Called In A Static
-
 	:twitter:description: Non Static Methods Called In A Static: Static methods have to be declared as such (using the static keyword)
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Non Static Methods Called In A Static
-
 	:og:type: article
-
 	:og:description: Static methods have to be declared as such (using the static keyword)
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Non Static Methods Called In A Static.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

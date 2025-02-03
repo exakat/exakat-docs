@@ -6,37 +6,21 @@
 Using Short Tags
 ++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Using Short Tags: The code makes use of short tags.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Using Short Tags
-
 	:twitter:description: Using Short Tags: The code makes use of short tags
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Using Short Tags
-
 	:og:type: article
-
 	:og:description: The code makes use of short tags
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Using Short Tags.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

@@ -6,37 +6,21 @@
 Locally Unused Property
 +++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Locally Unused Property: Those properties are defined in a class, and this class doesn't have any method that makes use of them.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Locally Unused Property
-
 	:twitter:description: Locally Unused Property: Those properties are defined in a class, and this class doesn't have any method that makes use of them
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Locally Unused Property
-
 	:og:type: article
-
 	:og:description: Those properties are defined in a class, and this class doesn't have any method that makes use of them
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Locally Unused Property.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

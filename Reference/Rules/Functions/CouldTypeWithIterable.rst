@@ -6,37 +6,21 @@
 Could Type With Iterable
 ++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Could Type With Iterable: Suggest using ``iterable`` typehint for arguments.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Could Type With Iterable
-
 	:twitter:description: Could Type With Iterable: Suggest using ``iterable`` typehint for arguments
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Could Type With Iterable
-
 	:og:type: article
-
 	:og:description: Suggest using ``iterable`` typehint for arguments
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Could Type With Iterable.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

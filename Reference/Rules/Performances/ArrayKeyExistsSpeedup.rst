@@ -6,37 +6,21 @@
 array_key_exists() Speedup
 ++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		array_key_exists() Speedup: array_key_exists() has its own opcode, leading to better features and speed.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: array_key_exists() Speedup
-
 	:twitter:description: array_key_exists() Speedup: array_key_exists() has its own opcode, leading to better features and speed
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: array_key_exists() Speedup
-
 	:og:type: article
-
 	:og:description: array_key_exists() has its own opcode, leading to better features and speed
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/array_key_exists() Speedup.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

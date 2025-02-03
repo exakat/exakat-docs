@@ -6,37 +6,21 @@
 Unpacking Inside Arrays
 +++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Unpacking Inside Arrays: The variadic operator is now available inside arrays.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Unpacking Inside Arrays
-
 	:twitter:description: Unpacking Inside Arrays: The variadic operator is now available inside arrays
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Unpacking Inside Arrays
-
 	:og:type: article
-
 	:og:description: The variadic operator is now available inside arrays
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Unpacking Inside Arrays.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

@@ -6,37 +6,21 @@
 Written Only Variables
 ++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Written Only Variables: Those variables are being written, but never read.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Written Only Variables
-
 	:twitter:description: Written Only Variables: Those variables are being written, but never read
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Written Only Variables
-
 	:og:type: article
-
 	:og:description: Those variables are being written, but never read
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Written Only Variables.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

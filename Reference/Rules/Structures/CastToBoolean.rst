@@ -6,37 +6,21 @@
 Cast To Boolean
 +++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Cast To Boolean: This expression may be reduced to casting to a boolean.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Cast To Boolean
-
 	:twitter:description: Cast To Boolean: This expression may be reduced to casting to a boolean
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Cast To Boolean
-
 	:og:type: article
-
 	:og:description: This expression may be reduced to casting to a boolean
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Cast To Boolean.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

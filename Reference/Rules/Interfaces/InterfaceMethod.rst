@@ -6,37 +6,21 @@
 Interface Methods
 +++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Interface Methods: List the names of the methods in an interface.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Interface Methods
-
 	:twitter:description: Interface Methods: List the names of the methods in an interface
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Interface Methods
-
 	:og:type: article
-
 	:og:description: List the names of the methods in an interface
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Interface Methods.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

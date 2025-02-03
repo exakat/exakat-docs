@@ -6,37 +6,21 @@
 Parent First
 ++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Parent First: When calling parent constructor, always put it first in the ``__construct`` method.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Parent First
-
 	:twitter:description: Parent First: When calling parent constructor, always put it first in the ``__construct`` method
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Parent First
-
 	:og:type: article
-
 	:og:description: When calling parent constructor, always put it first in the ``__construct`` method
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Parent First.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

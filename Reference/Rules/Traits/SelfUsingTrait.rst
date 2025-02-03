@@ -6,37 +6,21 @@
 Self Using Trait
 ++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Self Using Trait: Trait uses itself : this is unnecessary.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Self Using Trait
-
 	:twitter:description: Self Using Trait: Trait uses itself : this is unnecessary
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Self Using Trait
-
 	:og:type: article
-
 	:og:description: Trait uses itself : this is unnecessary
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Self Using Trait.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

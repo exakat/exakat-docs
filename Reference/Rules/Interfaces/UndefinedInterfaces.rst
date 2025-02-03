@@ -6,37 +6,21 @@
 Undefined Interfaces
 ++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Undefined Interfaces: Some types or ``instanceof`` that are relying on undefined interfaces or classes: the validation of the type will always fail and return false.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Undefined Interfaces
-
 	:twitter:description: Undefined Interfaces: Some types or ``instanceof`` that are relying on undefined interfaces or classes: the validation of the type will always fail and return false
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Undefined Interfaces
-
 	:og:type: article
-
 	:og:description: Some types or ``instanceof`` that are relying on undefined interfaces or classes: the validation of the type will always fail and return false
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Undefined Interfaces.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

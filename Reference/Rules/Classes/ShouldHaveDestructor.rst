@@ -6,37 +6,21 @@
 Should Have Destructor
 ++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Should Have Destructor: PHP destructors are called when the object is being destroyed.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Should Have Destructor
-
 	:twitter:description: Should Have Destructor: PHP destructors are called when the object is being destroyed
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Should Have Destructor
-
 	:og:type: article
-
 	:og:description: PHP destructors are called when the object is being destroyed
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Should Have Destructor.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

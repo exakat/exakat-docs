@@ -6,37 +6,21 @@
 Missing Parenthesis
 +++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Missing Parenthesis: Adding parenthesis to addition expressions make them more readable and to prevent bugs.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Missing Parenthesis
-
 	:twitter:description: Missing Parenthesis: Adding parenthesis to addition expressions make them more readable and to prevent bugs
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Missing Parenthesis
-
 	:og:type: article
-
 	:og:description: Adding parenthesis to addition expressions make them more readable and to prevent bugs
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Missing Parenthesis.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

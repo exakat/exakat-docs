@@ -6,37 +6,21 @@
 Could Be Class Constant
 +++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Could Be Class Constant: When a property is defined, with a default value, then read, but never modified, it could be turned into a constant.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Could Be Class Constant
-
 	:twitter:description: Could Be Class Constant: When a property is defined, with a default value, then read, but never modified, it could be turned into a constant
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Could Be Class Constant
-
 	:og:type: article
-
 	:og:description: When a property is defined, with a default value, then read, but never modified, it could be turned into a constant
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Could Be Class Constant.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

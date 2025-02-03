@@ -6,37 +6,21 @@
 ext/zookeeper
 +++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		ext/zookeeper: Extension for Apache Zookeeper.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: ext/zookeeper
-
 	:twitter:description: ext/zookeeper: Extension for Apache Zookeeper
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: ext/zookeeper
-
 	:og:type: article
-
 	:og:description: Extension for Apache Zookeeper
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/zookeeper.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

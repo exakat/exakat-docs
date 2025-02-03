@@ -6,37 +6,21 @@
 Iconv With Translit
 +++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Iconv With Translit: The transliteration feature of iconv() depends on the underlying operating system to support it.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Iconv With Translit
-
 	:twitter:description: Iconv With Translit: The transliteration feature of iconv() depends on the underlying operating system to support it
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Iconv With Translit
-
 	:og:type: article
-
 	:og:description: The transliteration feature of iconv() depends on the underlying operating system to support it
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Iconv With Translit.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

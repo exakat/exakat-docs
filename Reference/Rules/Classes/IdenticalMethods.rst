@@ -6,37 +6,21 @@
 Identical Methods
 +++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Identical Methods: When the parent class and the child class have the same method, the child might omit it.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Identical Methods
-
 	:twitter:description: Identical Methods: When the parent class and the child class have the same method, the child might omit it
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Identical Methods
-
 	:og:type: article
-
 	:og:description: When the parent class and the child class have the same method, the child might omit it
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Identical Methods.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

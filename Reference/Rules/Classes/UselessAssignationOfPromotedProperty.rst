@@ -6,37 +6,21 @@
 Useless Assignation Of Promoted Property
 ++++++++++++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Useless Assignation Of Promoted Property: Promoted properties save the assignation of constructor argument to the property.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Useless Assignation Of Promoted Property
-
 	:twitter:description: Useless Assignation Of Promoted Property: Promoted properties save the assignation of constructor argument to the property
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Useless Assignation Of Promoted Property
-
 	:og:type: article
-
 	:og:description: Promoted properties save the assignation of constructor argument to the property
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Useless Assignation Of Promoted Property.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

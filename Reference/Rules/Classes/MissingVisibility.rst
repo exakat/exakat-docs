@@ -6,37 +6,21 @@
 Missing Visibility
 ++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Missing Visibility: Class constants, properties and methods usage may be controlled by the visibility option.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Missing Visibility
-
 	:twitter:description: Missing Visibility: Class constants, properties and methods usage may be controlled by the visibility option
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Missing Visibility
-
 	:og:type: article
-
 	:og:description: Class constants, properties and methods usage may be controlled by the visibility option
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Missing Visibility.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

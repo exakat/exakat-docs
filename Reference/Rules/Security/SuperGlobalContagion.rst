@@ -6,37 +6,21 @@
 Super Globals Contagion
 +++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Super Globals Contagion: Basic tainting system.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Super Globals Contagion
-
 	:twitter:description: Super Globals Contagion: Basic tainting system
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Super Globals Contagion
-
 	:og:type: article
-
 	:og:description: Basic tainting system
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Super Globals Contagion.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

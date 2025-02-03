@@ -6,37 +6,21 @@
 Wrong Locale
 ++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Wrong Locale: This rule checks the locale used in the code, against a library of known valid locales.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Wrong Locale
-
 	:twitter:description: Wrong Locale: This rule checks the locale used in the code, against a library of known valid locales
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Wrong Locale
-
 	:og:type: article
-
 	:og:description: This rule checks the locale used in the code, against a library of known valid locales
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Wrong Locale.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

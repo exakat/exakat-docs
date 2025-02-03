@@ -18,6 +18,7 @@ Dead code
 	:og:description: Check the unused code or unreachable code.
 	:og:url: https://exakat.readthedocs.io/en/latest/Rulesets/Dead code.html
 	:og:locale: en
+
 This ruleset focuses on dead code : expressions or even structures that are written, valid but never used.
 
 Total : 33 analysis

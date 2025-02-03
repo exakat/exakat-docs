@@ -6,37 +6,21 @@
 Non Nullable Getters
 ++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Non Nullable Getters: A getter needs to be nullable when a property is injected.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Non Nullable Getters
-
 	:twitter:description: Non Nullable Getters: A getter needs to be nullable when a property is injected
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Non Nullable Getters
-
 	:og:type: article
-
 	:og:description: A getter needs to be nullable when a property is injected
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Non Nullable Getters.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

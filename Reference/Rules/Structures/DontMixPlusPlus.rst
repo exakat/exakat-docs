@@ -6,37 +6,21 @@
 Don't Mix ++
 ++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Don't Mix ++: ++ operators, pre and post, have two distinct behaviors, and should be used separately.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Don't Mix ++
-
 	:twitter:description: Don't Mix ++: ++ operators, pre and post, have two distinct behaviors, and should be used separately
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Don't Mix ++
-
 	:og:type: article
-
 	:og:description: ++ operators, pre and post, have two distinct behaviors, and should be used separately
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Don't Mix ++.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

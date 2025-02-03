@@ -6,37 +6,21 @@
 Use Recursive count()
 +++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Use Recursive count(): The native count() function is recursive: it can count all the elements inside multi-dimensional arrays.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Use Recursive count()
-
 	:twitter:description: Use Recursive count(): The native count() function is recursive: it can count all the elements inside multi-dimensional arrays
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Use Recursive count()
-
 	:og:type: article
-
 	:og:description: The native count() function is recursive: it can count all the elements inside multi-dimensional arrays
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Use Recursive count().html
-
 	:og:locale: en
-
 
 .. raw:: html
 

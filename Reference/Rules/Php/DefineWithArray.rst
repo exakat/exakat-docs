@@ -6,37 +6,21 @@
 Define Constants With Array
 +++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Define Constants With Array: PHP has the ability to define an array as a constant, using the define() native call.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Define Constants With Array
-
 	:twitter:description: Define Constants With Array: PHP has the ability to define an array as a constant, using the define() native call
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Define Constants With Array
-
 	:og:type: article
-
 	:og:description: PHP has the ability to define an array as a constant, using the define() native call
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Define Constants With Array.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

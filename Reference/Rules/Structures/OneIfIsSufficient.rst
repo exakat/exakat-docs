@@ -6,37 +6,21 @@
 One If Is Sufficient
 ++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		One If Is Sufficient: Nested conditions may be rewritten another way, to reduce the amount of code.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: One If Is Sufficient
-
 	:twitter:description: One If Is Sufficient: Nested conditions may be rewritten another way, to reduce the amount of code
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: One If Is Sufficient
-
 	:og:type: article
-
 	:og:description: Nested conditions may be rewritten another way, to reduce the amount of code
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/One If Is Sufficient.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

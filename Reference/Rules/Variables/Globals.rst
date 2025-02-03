@@ -6,37 +6,21 @@
 Globals
 +++++++
 
-
 .. meta::
-
 	:description:
-
 		Globals: Global variables.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Globals
-
 	:twitter:description: Globals: Global variables
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Globals
-
 	:og:type: article
-
 	:og:description: Global variables
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Globals.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

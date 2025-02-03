@@ -6,37 +6,21 @@
 ext/psr
 +++++++
 
-
 .. meta::
-
 	:description:
-
 		ext/psr: Extension PSR : PHP Standards Recommendations.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: ext/psr
-
 	:twitter:description: ext/psr: Extension PSR : PHP Standards Recommendations
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: ext/psr
-
 	:og:type: article
-
 	:og:description: Extension PSR : PHP Standards Recommendations
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/psr.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

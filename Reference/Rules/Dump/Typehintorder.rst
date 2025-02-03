@@ -6,37 +6,21 @@
 Typehint Order
 ++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Typehint Order: Topological order, based on typehints.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Typehint Order
-
 	:twitter:description: Typehint Order: Topological order, based on typehints
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Typehint Order
-
 	:og:type: article
-
 	:og:description: Topological order, based on typehints
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Typehint Order.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

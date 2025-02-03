@@ -6,37 +6,21 @@
 Class Could Be Readonly
 +++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Class Could Be Readonly: When all properties are readonly, it is possible to set the option at the class.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Class Could Be Readonly
-
 	:twitter:description: Class Could Be Readonly: When all properties are readonly, it is possible to set the option at the class
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Class Could Be Readonly
-
 	:og:type: article
-
 	:og:description: When all properties are readonly, it is possible to set the option at the class
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Class Could Be Readonly.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

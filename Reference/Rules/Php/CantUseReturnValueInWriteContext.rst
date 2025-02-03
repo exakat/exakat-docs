@@ -6,37 +6,21 @@
 Cant Use Return Value In Write Context
 ++++++++++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Cant Use Return Value In Write Context: empty() used to work only on data containers, such as variables.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Cant Use Return Value In Write Context
-
 	:twitter:description: Cant Use Return Value In Write Context: empty() used to work only on data containers, such as variables
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Cant Use Return Value In Write Context
-
 	:og:type: article
-
 	:og:description: empty() used to work only on data containers, such as variables
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Cant Use Return Value In Write Context.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

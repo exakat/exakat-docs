@@ -6,37 +6,21 @@
 Foreach() Favorite
 ++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Foreach() Favorite: Collect the name used in foreach() loops.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Foreach() Favorite
-
 	:twitter:description: Foreach() Favorite: Collect the name used in foreach() loops
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Foreach() Favorite
-
 	:og:type: article
-
 	:og:description: Collect the name used in foreach() loops
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Foreach() Favorite.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

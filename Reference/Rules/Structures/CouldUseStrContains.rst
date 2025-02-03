@@ -6,37 +6,21 @@
 Could Use strcontains()
 +++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Could Use strcontains(): PHP 8 introduced the strcontains() function, which is a replacement for strpos().
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Could Use strcontains()
-
 	:twitter:description: Could Use strcontains(): PHP 8 introduced the strcontains() function, which is a replacement for strpos()
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Could Use strcontains()
-
 	:og:type: article
-
 	:og:description: PHP 8 introduced the strcontains() function, which is a replacement for strpos()
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Could Use strcontains().html
-
 	:og:locale: en
-
 
 .. raw:: html
 

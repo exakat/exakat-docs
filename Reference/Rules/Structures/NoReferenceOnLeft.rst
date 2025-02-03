@@ -6,37 +6,21 @@
 No Reference On Left Side
 +++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		No Reference On Left Side: Do not use references as the right element in an assignation.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: No Reference On Left Side
-
 	:twitter:description: No Reference On Left Side: Do not use references as the right element in an assignation
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: No Reference On Left Side
-
 	:og:type: article
-
 	:og:description: Do not use references as the right element in an assignation
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No Reference On Left Side.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

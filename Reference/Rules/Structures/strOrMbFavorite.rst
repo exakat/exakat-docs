@@ -6,37 +6,21 @@
 Mono Or Multibytes Favorite
 +++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Mono Or Multibytes Favorite: PHP handles strings wity bytes, and also support multibytes with the mbstring extension.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Mono Or Multibytes Favorite
-
 	:twitter:description: Mono Or Multibytes Favorite: PHP handles strings wity bytes, and also support multibytes with the mbstring extension
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Mono Or Multibytes Favorite
-
 	:og:type: article
-
 	:og:description: PHP handles strings wity bytes, and also support multibytes with the mbstring extension
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Mono Or Multibytes Favorite.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

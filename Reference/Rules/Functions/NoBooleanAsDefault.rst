@@ -6,37 +6,21 @@
 No Boolean As Default
 +++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		No Boolean As Default: Default values should always be set up with a constant name.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: No Boolean As Default
-
 	:twitter:description: No Boolean As Default: Default values should always be set up with a constant name
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: No Boolean As Default
-
 	:og:type: article
-
 	:og:description: Default values should always be set up with a constant name
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No Boolean As Default.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

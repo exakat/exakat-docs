@@ -6,37 +6,21 @@
 StandaloneType True False Null
 ++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		StandaloneType True False Null: Report usage of standalone types of true, false and null.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: StandaloneType True False Null
-
 	:twitter:description: StandaloneType True False Null: Report usage of standalone types of true, false and null
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: StandaloneType True False Null
-
 	:og:type: article
-
 	:og:description: Report usage of standalone types of true, false and null
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/StandaloneType True False Null.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

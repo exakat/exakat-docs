@@ -6,37 +6,21 @@
 Is Actually Zero
 ++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Is Actually Zero: This addition actually may be simplified because one term is actually negated by another.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Is Actually Zero
-
 	:twitter:description: Is Actually Zero: This addition actually may be simplified because one term is actually negated by another
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Is Actually Zero
-
 	:og:type: article
-
 	:og:description: This addition actually may be simplified because one term is actually negated by another
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Is Actually Zero.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

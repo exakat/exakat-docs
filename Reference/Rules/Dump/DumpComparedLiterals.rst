@@ -6,37 +6,21 @@
 Collect Compared Literals
 +++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Collect Compared Literals: This collects the different literals (null, integers, floats, strings) that are used in comparisons.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Collect Compared Literals
-
 	:twitter:description: Collect Compared Literals: This collects the different literals (null, integers, floats, strings) that are used in comparisons
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Collect Compared Literals
-
 	:og:type: article
-
 	:og:description: This collects the different literals (null, integers, floats, strings) that are used in comparisons
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Collect Compared Literals.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

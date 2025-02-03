@@ -6,37 +6,21 @@
 Infinite Recursion
 ++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Infinite Recursion: A method is calling itself, with unchanged arguments.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Infinite Recursion
-
 	:twitter:description: Infinite Recursion: A method is calling itself, with unchanged arguments
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Infinite Recursion
-
 	:og:type: article
-
 	:og:description: A method is calling itself, with unchanged arguments
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Infinite Recursion.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

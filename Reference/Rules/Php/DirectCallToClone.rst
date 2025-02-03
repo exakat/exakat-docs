@@ -6,37 +6,21 @@
 Direct Call To __clone()
 ++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Direct Call To __clone(): Direct call to magic method ``__clone()`` was forbidden.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Direct Call To __clone()
-
 	:twitter:description: Direct Call To __clone(): Direct call to magic method ``__clone()`` was forbidden
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Direct Call To __clone()
-
 	:og:type: article
-
 	:og:description: Direct call to magic method ``__clone()`` was forbidden
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Direct Call To __clone().html
-
 	:og:locale: en
-
 
 .. raw:: html
 

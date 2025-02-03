@@ -6,37 +6,21 @@
 ext/crypto
 ++++++++++
 
-
 .. meta::
-
 	:description:
-
 		ext/crypto: Extension ext/crypto (PECL).
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: ext/crypto
-
 	:twitter:description: ext/crypto: Extension ext/crypto (PECL)
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: ext/crypto
-
 	:og:type: article
-
 	:og:description: Extension ext/crypto (PECL)
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/crypto.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

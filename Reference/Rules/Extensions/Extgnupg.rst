@@ -6,37 +6,21 @@
 ext/gnupgp
 ++++++++++
 
-
 .. meta::
-
 	:description:
-
 		ext/gnupgp: Extension GnuPG.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: ext/gnupgp
-
 	:twitter:description: ext/gnupgp: Extension GnuPG
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: ext/gnupgp
-
 	:og:type: article
-
 	:og:description: Extension GnuPG
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/gnupgp.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

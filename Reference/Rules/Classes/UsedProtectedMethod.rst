@@ -6,37 +6,21 @@
 Used Protected Method
 +++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Used Protected Method: This rule marks protected methods being used in the current class or its children classes.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Used Protected Method
-
 	:twitter:description: Used Protected Method: This rule marks protected methods being used in the current class or its children classes
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Used Protected Method
-
 	:og:type: article
-
 	:og:description: This rule marks protected methods being used in the current class or its children classes
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Used Protected Method.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

@@ -6,37 +6,21 @@
 Uses Environment
 ++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Uses Environment: This rule spots usage of ``$_ENV``, ``getenv()`` and ``putenv()`` functions: they fetch data from the environment variables.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Uses Environment
-
 	:twitter:description: Uses Environment: This rule spots usage of ``$_ENV``, ``getenv()`` and ``putenv()`` functions: they fetch data from the environment variables
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Uses Environment
-
 	:og:type: article
-
 	:og:description: This rule spots usage of ``$_ENV``, ``getenv()`` and ``putenv()`` functions: they fetch data from the environment variables
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Uses Environment.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

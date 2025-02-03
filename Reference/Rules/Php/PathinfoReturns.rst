@@ -6,37 +6,21 @@
 Pathinfo() Returns May Vary
 +++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Pathinfo() Returns May Vary: pathinfo() function returns an array whose content may vary.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Pathinfo() Returns May Vary
-
 	:twitter:description: Pathinfo() Returns May Vary: pathinfo() function returns an array whose content may vary
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Pathinfo() Returns May Vary
-
 	:og:type: article
-
 	:og:description: pathinfo() function returns an array whose content may vary
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Pathinfo() Returns May Vary.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

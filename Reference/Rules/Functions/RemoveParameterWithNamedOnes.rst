@@ -6,37 +6,21 @@
 Remove Parameter With Named Parameters
 ++++++++++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Remove Parameter With Named Parameters: It is possible to reduce the size of a method call by using named parameter.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Remove Parameter With Named Parameters
-
 	:twitter:description: Remove Parameter With Named Parameters: It is possible to reduce the size of a method call by using named parameter
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Remove Parameter With Named Parameters
-
 	:og:type: article
-
 	:og:description: It is possible to reduce the size of a method call by using named parameter
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Remove Parameter With Named Parameters.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

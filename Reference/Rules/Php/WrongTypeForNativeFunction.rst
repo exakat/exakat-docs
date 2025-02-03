@@ -6,37 +6,21 @@
 Wrong Type For Native PHP Function
 ++++++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Wrong Type For Native PHP Function: This rule reports calls to a PHP native function with values of the wrong type.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Wrong Type For Native PHP Function
-
 	:twitter:description: Wrong Type For Native PHP Function: This rule reports calls to a PHP native function with values of the wrong type
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Wrong Type For Native PHP Function
-
 	:og:type: article
-
 	:og:description: This rule reports calls to a PHP native function with values of the wrong type
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Wrong Type For Native PHP Function.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

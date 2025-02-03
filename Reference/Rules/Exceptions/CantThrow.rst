@@ -6,37 +6,21 @@
 Can't Implement Throwable
 +++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Can't Implement Throwable: Classes extending ``Throwable`` can't be thrown, unless they also extend ``Exception``.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Can't Implement Throwable
-
 	:twitter:description: Can't Implement Throwable: Classes extending ``Throwable`` can't be thrown, unless they also extend ``Exception``
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Can't Implement Throwable
-
 	:og:type: article
-
 	:og:description: Classes extending ``Throwable`` can't be thrown, unless they also extend ``Exception``
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Can't Implement Throwable.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

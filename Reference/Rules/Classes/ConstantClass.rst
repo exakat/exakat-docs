@@ -6,37 +6,21 @@
 Constant Class
 ++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Constant Class: A class or an interface only made up of constants.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Constant Class
-
 	:twitter:description: Constant Class: A class or an interface only made up of constants
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Constant Class
-
 	:og:type: article
-
 	:og:description: A class or an interface only made up of constants
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Constant Class.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

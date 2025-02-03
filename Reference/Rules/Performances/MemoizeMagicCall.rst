@@ -6,37 +6,21 @@
 Memoize MagicCall
 +++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Memoize MagicCall: Cache calls to magic methods in local variable.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Memoize MagicCall
-
 	:twitter:description: Memoize MagicCall: Cache calls to magic methods in local variable
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Memoize MagicCall
-
 	:og:type: article
-
 	:og:description: Cache calls to magic methods in local variable
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Memoize MagicCall.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

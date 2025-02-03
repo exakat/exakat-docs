@@ -6,37 +6,21 @@
 Indentation Levels
 ++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Indentation Levels: Collect all level of indentations for methods and functions.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Indentation Levels
-
 	:twitter:description: Indentation Levels: Collect all level of indentations for methods and functions
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Indentation Levels
-
 	:og:type: article
-
 	:og:description: Collect all level of indentations for methods and functions
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Indentation Levels.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

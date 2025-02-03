@@ -6,37 +6,21 @@
 Compared But Not Assigned Strings
 +++++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Compared But Not Assigned Strings: The reported strings are compared to variable, or data containers, in the code, but those values are never assigned.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Compared But Not Assigned Strings
-
 	:twitter:description: Compared But Not Assigned Strings: The reported strings are compared to variable, or data containers, in the code, but those values are never assigned
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Compared But Not Assigned Strings
-
 	:og:type: article
-
 	:og:description: The reported strings are compared to variable, or data containers, in the code, but those values are never assigned
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Compared But Not Assigned Strings.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

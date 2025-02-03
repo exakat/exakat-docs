@@ -6,37 +6,21 @@
 Custom Class Usage
 ++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Custom Class Usage: List of usage of custom classes throughout the code.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Custom Class Usage
-
 	:twitter:description: Custom Class Usage: List of usage of custom classes throughout the code
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Custom Class Usage
-
 	:og:type: article
-
 	:og:description: List of usage of custom classes throughout the code
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Custom Class Usage.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

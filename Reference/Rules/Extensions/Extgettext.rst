@@ -6,37 +6,21 @@
 ext/gettext
 +++++++++++
 
-
 .. meta::
-
 	:description:
-
 		ext/gettext: Extension Gettext.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: ext/gettext
-
 	:twitter:description: ext/gettext: Extension Gettext
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: ext/gettext
-
 	:og:type: article
-
 	:og:description: Extension Gettext
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/gettext.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

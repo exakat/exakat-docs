@@ -6,37 +6,21 @@
 No Constructor In Interface
 +++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		No Constructor In Interface: PHP manual recommends not adding constructors to interfaces.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: No Constructor In Interface
-
 	:twitter:description: No Constructor In Interface: PHP manual recommends not adding constructors to interfaces
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: No Constructor In Interface
-
 	:og:type: article
-
 	:og:description: PHP manual recommends not adding constructors to interfaces
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No Constructor In Interface.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

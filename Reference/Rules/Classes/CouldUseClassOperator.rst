@@ -6,37 +6,21 @@
 Could Use Class Operator
 ++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Could Use Class Operator: The class operator is `::class`.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Could Use Class Operator
-
 	:twitter:description: Could Use Class Operator: The class operator is `::class`
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Could Use Class Operator
-
 	:og:type: article
-
 	:og:description: The class operator is `::class`
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Could Use Class Operator.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

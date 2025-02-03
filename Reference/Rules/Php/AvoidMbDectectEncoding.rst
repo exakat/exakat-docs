@@ -6,37 +6,21 @@
 Avoid mb_dectect_encoding()
 +++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Avoid mb_dectect_encoding(): mb_dectect_encoding() is bad at guessing encoding.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Avoid mb_dectect_encoding()
-
 	:twitter:description: Avoid mb_dectect_encoding(): mb_dectect_encoding() is bad at guessing encoding
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Avoid mb_dectect_encoding()
-
 	:og:type: article
-
 	:og:description: mb_dectect_encoding() is bad at guessing encoding
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Avoid mb_dectect_encoding().html
-
 	:og:locale: en
-
 
 .. raw:: html
 

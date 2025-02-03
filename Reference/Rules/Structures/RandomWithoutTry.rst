@@ -6,37 +6,21 @@
 Random Without Try
 ++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Random Without Try: random_int() and random_bytes() require a try/catch structure around them.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Random Without Try
-
 	:twitter:description: Random Without Try: random_int() and random_bytes() require a try/catch structure around them
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Random Without Try
-
 	:og:type: article
-
 	:og:description: random_int() and random_bytes() require a try/catch structure around them
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Random Without Try.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

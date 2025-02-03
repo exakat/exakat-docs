@@ -6,37 +6,21 @@
 array_merge() And Variadic
 ++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		array_merge() And Variadic: Always check the presence of values in a variadic variable, before using it with array_merge() and array_merge_recursive().
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: array_merge() And Variadic
-
 	:twitter:description: array_merge() And Variadic: Always check the presence of values in a variadic variable, before using it with array_merge() and array_merge_recursive()
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: array_merge() And Variadic
-
 	:og:type: article
-
 	:og:description: Always check the presence of values in a variadic variable, before using it with array_merge() and array_merge_recursive()
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/array_merge() And Variadic.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

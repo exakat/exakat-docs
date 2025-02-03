@@ -6,37 +6,21 @@
 Final Private Methods
 +++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Final Private Methods: PHP's private methods cannot be overwritten, as they are dedicated to the current class.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Final Private Methods
-
 	:twitter:description: Final Private Methods: PHP's private methods cannot be overwritten, as they are dedicated to the current class
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Final Private Methods
-
 	:og:type: article
-
 	:og:description: PHP's private methods cannot be overwritten, as they are dedicated to the current class
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Final Private Methods.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

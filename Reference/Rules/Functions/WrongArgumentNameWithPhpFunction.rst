@@ -6,37 +6,21 @@
 Wrong Argument Name With PHP Function
 +++++++++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Wrong Argument Name With PHP Function: The name of the argument provided is not a valid parameter name for that PHP native function or method.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Wrong Argument Name With PHP Function
-
 	:twitter:description: Wrong Argument Name With PHP Function: The name of the argument provided is not a valid parameter name for that PHP native function or method
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Wrong Argument Name With PHP Function
-
 	:og:type: article
-
 	:og:description: The name of the argument provided is not a valid parameter name for that PHP native function or method
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Wrong Argument Name With PHP Function.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

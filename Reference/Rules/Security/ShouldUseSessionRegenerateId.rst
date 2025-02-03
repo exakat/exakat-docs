@@ -6,37 +6,21 @@
 Should Use session_regenerateid()
 +++++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Should Use session_regenerateid(): session_regenerateid() should be used when sessions are used.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Should Use session_regenerateid()
-
 	:twitter:description: Should Use session_regenerateid(): session_regenerateid() should be used when sessions are used
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Should Use session_regenerateid()
-
 	:og:type: article
-
 	:og:description: session_regenerateid() should be used when sessions are used
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Should Use session_regenerateid().html
-
 	:og:locale: en
-
 
 .. raw:: html
 

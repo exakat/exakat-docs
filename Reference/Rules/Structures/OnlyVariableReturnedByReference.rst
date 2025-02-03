@@ -6,37 +6,21 @@
 Only Variable Returned By Reference
 +++++++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Only Variable Returned By Reference: Function can't return literals by reference.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Only Variable Returned By Reference
-
 	:twitter:description: Only Variable Returned By Reference: Function can't return literals by reference
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Only Variable Returned By Reference
-
 	:og:type: article
-
 	:og:description: Function can't return literals by reference
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Only Variable Returned By Reference.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

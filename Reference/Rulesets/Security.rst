@@ -18,6 +18,7 @@ Security
 	:og:description: Check the code for common security bad practices, especially in the Web environnement.
 	:og:url: https://exakat.readthedocs.io/en/latest/Rulesets/Security.html
 	:og:locale: en
+
 This ruleset focuses on code security. 
 
 Total : 47 analysis

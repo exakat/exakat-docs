@@ -6,37 +6,21 @@
 Dynamically Called Classes
 ++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Dynamically Called Classes: This rule reports when a class is called dynamically.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Dynamically Called Classes
-
 	:twitter:description: Dynamically Called Classes: This rule reports when a class is called dynamically
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Dynamically Called Classes
-
 	:og:type: article
-
 	:og:description: This rule reports when a class is called dynamically
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Dynamically Called Classes.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

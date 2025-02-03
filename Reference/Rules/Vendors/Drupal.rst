@@ -6,37 +6,21 @@
 Drupal Usage
 ++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Drupal Usage: This analysis reports usage of the Drupal CMS.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Drupal Usage
-
 	:twitter:description: Drupal Usage: This analysis reports usage of the Drupal CMS
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Drupal Usage
-
 	:og:type: article
-
 	:og:description: This analysis reports usage of the Drupal CMS
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Drupal Usage.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

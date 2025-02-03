@@ -6,37 +6,21 @@
 Special Integers
 ++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Special Integers: Short and incomplete list of integers that may hold special values.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Special Integers
-
 	:twitter:description: Special Integers: Short and incomplete list of integers that may hold special values
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Special Integers
-
 	:og:type: article
-
 	:og:description: Short and incomplete list of integers that may hold special values
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Special Integers.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

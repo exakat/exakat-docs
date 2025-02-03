@@ -6,37 +6,21 @@
 Avoid Large Array Assignation
 +++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Avoid Large Array Assignation: Avoid setting large arrays to local variables.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Avoid Large Array Assignation
-
 	:twitter:description: Avoid Large Array Assignation: Avoid setting large arrays to local variables
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Avoid Large Array Assignation
-
 	:og:type: article
-
 	:og:description: Avoid setting large arrays to local variables
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Avoid Large Array Assignation.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

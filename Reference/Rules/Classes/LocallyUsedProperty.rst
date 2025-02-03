@@ -6,37 +6,21 @@
 Locally Used Property
 +++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Locally Used Property: List of properties that are used in the class where they are defined.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Locally Used Property
-
 	:twitter:description: Locally Used Property: List of properties that are used in the class where they are defined
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Locally Used Property
-
 	:og:type: article
-
 	:og:description: List of properties that are used in the class where they are defined
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Locally Used Property.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

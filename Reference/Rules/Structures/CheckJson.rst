@@ -6,37 +6,21 @@
 Check JSON
 ++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Check JSON: Check errors whenever JSON is encoded or decoded.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Check JSON
-
 	:twitter:description: Check JSON: Check errors whenever JSON is encoded or decoded
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Check JSON
-
 	:og:type: article
-
 	:og:description: Check errors whenever JSON is encoded or decoded
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Check JSON.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

@@ -6,37 +6,21 @@
 Useless Global
 ++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Useless Global: Global are useless in two cases.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Useless Global
-
 	:twitter:description: Useless Global: Global are useless in two cases
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Useless Global
-
 	:og:type: article
-
 	:og:description: Global are useless in two cases
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Useless Global.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

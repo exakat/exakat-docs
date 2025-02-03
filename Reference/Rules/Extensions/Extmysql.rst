@@ -6,37 +6,21 @@
 ext/mysql
 +++++++++
 
-
 .. meta::
-
 	:description:
-
 		ext/mysql: Extension for MySQL (Original MySQL API).
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: ext/mysql
-
 	:twitter:description: ext/mysql: Extension for MySQL (Original MySQL API)
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: ext/mysql
-
 	:og:type: article
-
 	:og:description: Extension for MySQL (Original MySQL API)
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/mysql.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

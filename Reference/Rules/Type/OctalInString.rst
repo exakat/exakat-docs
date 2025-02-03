@@ -6,37 +6,21 @@
 Invalid Octal In String
 +++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Invalid Octal In String: Any octal sequence inside a string can't be go \377.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Invalid Octal In String
-
 	:twitter:description: Invalid Octal In String: Any octal sequence inside a string can't be go \377
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Invalid Octal In String
-
 	:og:type: article
-
 	:og:description: Any octal sequence inside a string can't be go \377
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Invalid Octal In String.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

@@ -6,37 +6,21 @@
 Modernize Empty With Expression
 +++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Modernize Empty With Expression: empty() accepts expressions as argument.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Modernize Empty With Expression
-
 	:twitter:description: Modernize Empty With Expression: empty() accepts expressions as argument
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Modernize Empty With Expression
-
 	:og:type: article
-
 	:og:description: empty() accepts expressions as argument
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Modernize Empty With Expression.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

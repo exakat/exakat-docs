@@ -6,37 +6,21 @@
 Unusual Case For PHP Functions
 ++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Unusual Case For PHP Functions: Usually, PHP functions are written all in lower case.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Unusual Case For PHP Functions
-
 	:twitter:description: Unusual Case For PHP Functions: Usually, PHP functions are written all in lower case
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Unusual Case For PHP Functions
-
 	:og:type: article
-
 	:og:description: Usually, PHP functions are written all in lower case
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Unusual Case For PHP Functions.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

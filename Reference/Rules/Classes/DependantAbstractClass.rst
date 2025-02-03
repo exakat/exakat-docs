@@ -6,37 +6,21 @@
 Dependant Abstract Classes
 ++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Dependant Abstract Classes: Abstract classes should be autonomous.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Dependant Abstract Classes
-
 	:twitter:description: Dependant Abstract Classes: Abstract classes should be autonomous
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Dependant Abstract Classes
-
 	:og:type: article
-
 	:og:description: Abstract classes should be autonomous
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Dependant Abstract Classes.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

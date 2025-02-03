@@ -6,37 +6,21 @@
 Multiple Type Cases In Switch
 +++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Multiple Type Cases In Switch: This reports switch() instructions, which have several types in cases.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Multiple Type Cases In Switch
-
 	:twitter:description: Multiple Type Cases In Switch: This reports switch() instructions, which have several types in cases
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Multiple Type Cases In Switch
-
 	:og:type: article
-
 	:og:description: This reports switch() instructions, which have several types in cases
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Multiple Type Cases In Switch.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

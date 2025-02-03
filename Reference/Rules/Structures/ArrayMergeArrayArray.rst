@@ -6,37 +6,21 @@
 Array_merge Needs Array Of Arrays
 +++++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Array_merge Needs Array Of Arrays: When collecting data to feed array_merge(), use an array of array as default value.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Array_merge Needs Array Of Arrays
-
 	:twitter:description: Array_merge Needs Array Of Arrays: When collecting data to feed array_merge(), use an array of array as default value
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Array_merge Needs Array Of Arrays
-
 	:og:type: article
-
 	:og:description: When collecting data to feed array_merge(), use an array of array as default value
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Array_merge Needs Array Of Arrays.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

@@ -6,37 +6,21 @@
 Conditional Structures
 ++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Conditional Structures: Structures that are defined, but only executed conditionally.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Conditional Structures
-
 	:twitter:description: Conditional Structures: Structures that are defined, but only executed conditionally
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Conditional Structures
-
 	:og:type: article
-
 	:og:description: Structures that are defined, but only executed conditionally
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Conditional Structures.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

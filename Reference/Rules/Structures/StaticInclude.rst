@@ -6,37 +6,21 @@
 Static Inclusions
 +++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Static Inclusions: This rule reports all static inclusion.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Static Inclusions
-
 	:twitter:description: Static Inclusions: This rule reports all static inclusion
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Static Inclusions
-
 	:og:type: article
-
 	:og:description: This rule reports all static inclusion
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Static Inclusions.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

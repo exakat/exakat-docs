@@ -6,37 +6,21 @@
 Return With Parenthesis
 +++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Return With Parenthesis: return statement doesn't require parenthesis.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Return With Parenthesis
-
 	:twitter:description: Return With Parenthesis: return statement doesn't require parenthesis
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Return With Parenthesis
-
 	:og:type: article
-
 	:og:description: return statement doesn't require parenthesis
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Return With Parenthesis.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

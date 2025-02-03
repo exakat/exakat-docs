@@ -18,6 +18,7 @@ CompatibilityPHP54
 	:og:description: List features that are incompatible with PHP 5.4.
 	:og:url: https://exakat.readthedocs.io/en/latest/Rulesets/CompatibilityPHP54.html
 	:og:locale: en
+
 This ruleset centralizes all analysis for the migration from PHP 5.3 to 5.4.
 
 Total : 94 analysis

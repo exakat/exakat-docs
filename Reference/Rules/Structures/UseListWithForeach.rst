@@ -6,37 +6,21 @@
 Use List With Foreach
 +++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Use List With Foreach: Foreach() structures accepts list() as blind key.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Use List With Foreach
-
 	:twitter:description: Use List With Foreach: Foreach() structures accepts list() as blind key
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Use List With Foreach
-
 	:og:type: article
-
 	:og:description: Foreach() structures accepts list() as blind key
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Use List With Foreach.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

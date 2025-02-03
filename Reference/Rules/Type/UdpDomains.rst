@@ -6,37 +6,21 @@
 Internet Domains
 ++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Internet Domains: List all internet domain (UDP) used.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Internet Domains
-
 	:twitter:description: Internet Domains: List all internet domain (UDP) used
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Internet Domains
-
 	:og:type: article
-
 	:og:description: List all internet domain (UDP) used
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Internet Domains.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

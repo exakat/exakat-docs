@@ -6,37 +6,21 @@
 Use session_start() Options
 +++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Use session_start() Options: It is possible to set the session's option at session_start() call, skipping the usage of session_option().
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Use session_start() Options
-
 	:twitter:description: Use session_start() Options: It is possible to set the session's option at session_start() call, skipping the usage of session_option()
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Use session_start() Options
-
 	:og:type: article
-
 	:og:description: It is possible to set the session's option at session_start() call, skipping the usage of session_option()
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Use session_start() Options.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

@@ -6,37 +6,21 @@
 No isset() With empty()
 +++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		No isset() With empty(): empty() actually does the job of isset() too.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: No isset() With empty()
-
 	:twitter:description: No isset() With empty(): empty() actually does the job of isset() too
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: No isset() With empty()
-
 	:og:type: article
-
 	:og:description: empty() actually does the job of isset() too
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No isset() With empty().html
-
 	:og:locale: en
-
 
 .. raw:: html
 

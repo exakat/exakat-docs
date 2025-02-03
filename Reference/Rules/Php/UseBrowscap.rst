@@ -6,37 +6,21 @@
 Use Browscap
 ++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Use Browscap: Browscap is a browser database, accessible via get_browser().
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Use Browscap
-
 	:twitter:description: Use Browscap: Browscap is a browser database, accessible via get_browser()
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Use Browscap
-
 	:og:type: article
-
 	:og:description: Browscap is a browser database, accessible via get_browser()
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Use Browscap.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

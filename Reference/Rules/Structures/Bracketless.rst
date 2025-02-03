@@ -6,37 +6,21 @@
 Bracketless Blocks
 ++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Bracketless Blocks: PHP allows one liners as for(), foreach(), while(), do/while() loops, or as then/else expressions.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Bracketless Blocks
-
 	:twitter:description: Bracketless Blocks: PHP allows one liners as for(), foreach(), while(), do/while() loops, or as then/else expressions
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Bracketless Blocks
-
 	:og:type: article
-
 	:og:description: PHP allows one liners as for(), foreach(), while(), do/while() loops, or as then/else expressions
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Bracketless Blocks.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

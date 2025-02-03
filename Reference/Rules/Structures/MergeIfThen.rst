@@ -6,37 +6,21 @@
 Merge If Then
 +++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Merge If Then: Two nested if/then may be merged into one, by merging the two conditions.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Merge If Then
-
 	:twitter:description: Merge If Then: Two nested if/then may be merged into one, by merging the two conditions
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Merge If Then
-
 	:og:type: article
-
 	:og:description: Two nested if/then may be merged into one, by merging the two conditions
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Merge If Then.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

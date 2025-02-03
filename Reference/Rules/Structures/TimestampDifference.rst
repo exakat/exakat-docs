@@ -6,37 +6,21 @@
 Timestamp Difference
 ++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Timestamp Difference: Avoid adding or subtracting quantities of seconds to measure time.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Timestamp Difference
-
 	:twitter:description: Timestamp Difference: Avoid adding or subtracting quantities of seconds to measure time
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Timestamp Difference
-
 	:og:type: article
-
 	:og:description: Avoid adding or subtracting quantities of seconds to measure time
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Timestamp Difference.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

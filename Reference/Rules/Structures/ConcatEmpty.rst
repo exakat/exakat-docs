@@ -6,37 +6,21 @@
 Concat Empty String
 +++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Concat Empty String: Using a concatenation to make a value a string should be replaced with a type cast.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Concat Empty String
-
 	:twitter:description: Concat Empty String: Using a concatenation to make a value a string should be replaced with a type cast
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Concat Empty String
-
 	:og:type: article
-
 	:og:description: Using a concatenation to make a value a string should be replaced with a type cast
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Concat Empty String.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

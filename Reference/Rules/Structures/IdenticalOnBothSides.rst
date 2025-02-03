@@ -6,37 +6,21 @@
 Identical On Both Sides
 +++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Identical On Both Sides: Operands should be different when comparing or making a logical combination.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Identical On Both Sides
-
 	:twitter:description: Identical On Both Sides: Operands should be different when comparing or making a logical combination
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Identical On Both Sides
-
 	:og:type: article
-
 	:og:description: Operands should be different when comparing or making a logical combination
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Identical On Both Sides.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

@@ -6,37 +6,21 @@
 Typehint Could Be Iterable
 ++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Typehint Could Be Iterable: Mark arguments, class constants, properties and return types that can be set to ``iterable``.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Typehint Could Be Iterable
-
 	:twitter:description: Typehint Could Be Iterable: Mark arguments, class constants, properties and return types that can be set to ``iterable``
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Typehint Could Be Iterable
-
 	:og:type: article
-
 	:og:description: Mark arguments, class constants, properties and return types that can be set to ``iterable``
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Typehint Could Be Iterable.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

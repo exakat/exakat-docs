@@ -6,37 +6,21 @@
 ext/soap
 ++++++++
 
-
 .. meta::
-
 	:description:
-
 		ext/soap: Extension SOAP.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: ext/soap
-
 	:twitter:description: ext/soap: Extension SOAP
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: ext/soap
-
 	:og:type: article
-
 	:og:description: Extension SOAP
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/soap.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

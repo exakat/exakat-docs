@@ -6,37 +6,21 @@
 Preprocessable
 ++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Preprocessable: The following expressions are made of literals or already known values : they may be fully calculated before running PHP.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Preprocessable
-
 	:twitter:description: Preprocessable: The following expressions are made of literals or already known values : they may be fully calculated before running PHP
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Preprocessable
-
 	:og:type: article
-
 	:og:description: The following expressions are made of literals or already known values : they may be fully calculated before running PHP
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Preprocessable.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

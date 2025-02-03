@@ -6,37 +6,21 @@
 Weak Typing
 +++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Weak Typing: The variable's validation is not enough to allow for a sophisticated usage.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Weak Typing
-
 	:twitter:description: Weak Typing: The variable's validation is not enough to allow for a sophisticated usage
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Weak Typing
-
 	:og:type: article
-
 	:og:description: The variable's validation is not enough to allow for a sophisticated usage
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Weak Typing.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

@@ -6,37 +6,21 @@
 Empty With Expression
 +++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Empty With Expression: empty() doesn't accept expressions until PHP 5.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Empty With Expression
-
 	:twitter:description: Empty With Expression: empty() doesn't accept expressions until PHP 5
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Empty With Expression
-
 	:og:type: article
-
 	:og:description: empty() doesn't accept expressions until PHP 5
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Empty With Expression.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

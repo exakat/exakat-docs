@@ -6,37 +6,21 @@
 Never Type Usage
 ++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Never Type Usage: Never is a type, which characterize methods that never return a value.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Never Type Usage
-
 	:twitter:description: Never Type Usage: Never is a type, which characterize methods that never return a value
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Never Type Usage
-
 	:og:type: article
-
 	:og:description: Never is a type, which characterize methods that never return a value
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Never Type Usage.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

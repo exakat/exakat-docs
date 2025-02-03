@@ -18,6 +18,7 @@ Coding conventions
 	:og:description: List coding conventions violations.
 	:og:url: https://exakat.readthedocs.io/en/latest/Rulesets/Coding conventions.html
 	:og:locale: en
+
 This ruleset centralizes all analysis related to coding conventions. Sometimes, those are easy to extract with static analysis, and so here they are. No all o them are available.
 
 Total : 29 analysis

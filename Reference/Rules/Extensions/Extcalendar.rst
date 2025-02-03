@@ -6,37 +6,21 @@
 ext/calendar
 ++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		ext/calendar: Extension ext/calendar.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: ext/calendar
-
 	:twitter:description: ext/calendar: Extension ext/calendar
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: ext/calendar
-
 	:og:type: article
-
 	:og:description: Extension ext/calendar
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/calendar.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

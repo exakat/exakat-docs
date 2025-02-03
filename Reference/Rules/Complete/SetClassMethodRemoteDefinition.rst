@@ -6,37 +6,21 @@
 Set Class Method Remote Definition
 ++++++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Set Class Method Remote Definition: Links method to the method definition.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Set Class Method Remote Definition
-
 	:twitter:description: Set Class Method Remote Definition: Links method to the method definition
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Set Class Method Remote Definition
-
 	:og:type: article
-
 	:og:description: Links method to the method definition
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Set Class Method Remote Definition.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

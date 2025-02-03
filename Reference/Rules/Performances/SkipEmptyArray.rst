@@ -6,37 +6,21 @@
 Skip Empty Array When Merging
 +++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Skip Empty Array When Merging: When merging arrays that were collected, it is faster to skip the empty arrays, rather than let ``array_merge()`` process them.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Skip Empty Array When Merging
-
 	:twitter:description: Skip Empty Array When Merging: When merging arrays that were collected, it is faster to skip the empty arrays, rather than let ``array_merge()`` process them
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Skip Empty Array When Merging
-
 	:og:type: article
-
 	:og:description: When merging arrays that were collected, it is faster to skip the empty arrays, rather than let ``array_merge()`` process them
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Skip Empty Array When Merging.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

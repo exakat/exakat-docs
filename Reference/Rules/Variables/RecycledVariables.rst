@@ -6,37 +6,21 @@
 Recycled Variables
 ++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Recycled Variables: A recycled variable is a variable used for two distinct missions in a method.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Recycled Variables
-
 	:twitter:description: Recycled Variables: A recycled variable is a variable used for two distinct missions in a method
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Recycled Variables
-
 	:og:type: article
-
 	:og:description: A recycled variable is a variable used for two distinct missions in a method
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Recycled Variables.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

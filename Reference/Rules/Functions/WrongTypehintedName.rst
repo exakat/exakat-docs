@@ -6,37 +6,21 @@
 Wrong Typed Name
 ++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Wrong Typed Name: The parameter name doesn't reflect the type used.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Wrong Typed Name
-
 	:twitter:description: Wrong Typed Name: The parameter name doesn't reflect the type used
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Wrong Typed Name
-
 	:og:type: article
-
 	:og:description: The parameter name doesn't reflect the type used
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Wrong Typed Name.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

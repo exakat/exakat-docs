@@ -6,37 +6,21 @@
 Multiples Identical Case
 ++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Multiples Identical Case: Some cases are defined multiple times, but only one will be processed.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Multiples Identical Case
-
 	:twitter:description: Multiples Identical Case: Some cases are defined multiple times, but only one will be processed
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Multiples Identical Case
-
 	:og:type: article
-
 	:og:description: Some cases are defined multiple times, but only one will be processed
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Multiples Identical Case.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

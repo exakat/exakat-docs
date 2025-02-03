@@ -6,37 +6,21 @@
 Ambiguous Types With Variables
 ++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Ambiguous Types With Variables: The same variable is assigned various types, in different methods.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Ambiguous Types With Variables
-
 	:twitter:description: Ambiguous Types With Variables: The same variable is assigned various types, in different methods
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Ambiguous Types With Variables
-
 	:og:type: article
-
 	:og:description: The same variable is assigned various types, in different methods
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Ambiguous Types With Variables.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

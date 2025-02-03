@@ -6,37 +6,21 @@
 Else If Versus Elseif
 +++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Else If Versus Elseif: Always use elseif instead of else and if.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Else If Versus Elseif
-
 	:twitter:description: Else If Versus Elseif: Always use elseif instead of else and if
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Else If Versus Elseif
-
 	:og:type: article
-
 	:og:description: Always use elseif instead of else and if
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Else If Versus Elseif.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

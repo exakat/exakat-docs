@@ -6,37 +6,21 @@
 Symfony usage
 +++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Symfony usage: This analysis reports usage of the Symfony framework.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Symfony usage
-
 	:twitter:description: Symfony usage: This analysis reports usage of the Symfony framework
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Symfony usage
-
 	:og:type: article
-
 	:og:description: This analysis reports usage of the Symfony framework
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Symfony usage.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

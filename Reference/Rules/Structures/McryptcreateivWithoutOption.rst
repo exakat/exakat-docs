@@ -6,37 +6,21 @@
 mcrypt_create_iv() With Default Values
 ++++++++++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		mcrypt_create_iv() With Default Values: Avoid using `mcrypt_create_iv()` default values.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: mcrypt_create_iv() With Default Values
-
 	:twitter:description: mcrypt_create_iv() With Default Values: Avoid using `mcrypt_create_iv()` default values
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: mcrypt_create_iv() With Default Values
-
 	:og:type: article
-
 	:og:description: Avoid using `mcrypt_create_iv()` default values
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/mcrypt_create_iv() With Default Values.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

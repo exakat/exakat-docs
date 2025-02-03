@@ -6,37 +6,21 @@
 GPRC Aliases
 ++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		GPRC Aliases: The following variables are holding the content of $_GET, $_POST, $_REQUEST or $_COOKIE.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: GPRC Aliases
-
 	:twitter:description: GPRC Aliases: The following variables are holding the content of $_GET, $_POST, $_REQUEST or $_COOKIE
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: GPRC Aliases
-
 	:og:type: article
-
 	:og:description: The following variables are holding the content of $_GET, $_POST, $_REQUEST or $_COOKIE
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/GPRC Aliases.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

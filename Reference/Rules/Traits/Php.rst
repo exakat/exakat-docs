@@ -6,37 +6,21 @@
 Redefined PHP Traits
 ++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Redefined PHP Traits: List of all traits that bears name of a PHP trait.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Redefined PHP Traits
-
 	:twitter:description: Redefined PHP Traits: List of all traits that bears name of a PHP trait
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Redefined PHP Traits
-
 	:og:type: article
-
 	:og:description: List of all traits that bears name of a PHP trait
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Redefined PHP Traits.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

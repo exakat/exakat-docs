@@ -6,37 +6,21 @@
 Unused Label
 ++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Unused Label: Some labels have been defined in the code, but they are not used.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Unused Label
-
 	:twitter:description: Unused Label: Some labels have been defined in the code, but they are not used
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Unused Label
-
 	:og:type: article
-
 	:og:description: Some labels have been defined in the code, but they are not used
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Unused Label.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

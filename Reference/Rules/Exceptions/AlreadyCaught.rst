@@ -6,37 +6,21 @@
 Exception Order
 +++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Exception Order: When catching exception, the most specialized exceptions must be in the early catch, and the most general exceptions must be in the later catch.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Exception Order
-
 	:twitter:description: Exception Order: When catching exception, the most specialized exceptions must be in the early catch, and the most general exceptions must be in the later catch
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Exception Order
-
 	:og:type: article
-
 	:og:description: When catching exception, the most specialized exceptions must be in the early catch, and the most general exceptions must be in the later catch
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Exception Order.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

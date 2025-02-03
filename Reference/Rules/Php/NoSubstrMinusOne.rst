@@ -6,37 +6,21 @@
 No Substr Minus One
 +++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		No Substr Minus One: Negative index on string reaches offsets starting from the end of the string.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: No Substr Minus One
-
 	:twitter:description: No Substr Minus One: Negative index on string reaches offsets starting from the end of the string
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: No Substr Minus One
-
 	:og:type: article
-
 	:og:description: Negative index on string reaches offsets starting from the end of the string
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No Substr Minus One.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

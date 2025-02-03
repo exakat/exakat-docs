@@ -6,37 +6,21 @@
 Using $this Outside A Class
 +++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Using $this Outside A Class: ``$this`` is a special variable, that should only be used in a class context.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Using $this Outside A Class
-
 	:twitter:description: Using $this Outside A Class: ``$this`` is a special variable, that should only be used in a class context
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Using $this Outside A Class
-
 	:og:type: article
-
 	:og:description: ``$this`` is a special variable, that should only be used in a class context
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Using $this Outside A Class.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

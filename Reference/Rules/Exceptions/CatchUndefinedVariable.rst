@@ -6,37 +6,21 @@
 Catch With Undefined Variable
 +++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Catch With Undefined Variable: Always initialize every variable before the try block, when they are used in a catch block.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Catch With Undefined Variable
-
 	:twitter:description: Catch With Undefined Variable: Always initialize every variable before the try block, when they are used in a catch block
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Catch With Undefined Variable
-
 	:og:type: article
-
 	:og:description: Always initialize every variable before the try block, when they are used in a catch block
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Catch With Undefined Variable.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

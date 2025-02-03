@@ -6,37 +6,21 @@
 Hash Algorithms Incompatible With PHP 5.4/5.5
 +++++++++++++++++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Hash Algorithms Incompatible With PHP 5.4/5.5: List of hash algorithms incompatible with PHP 5.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Hash Algorithms Incompatible With PHP 5.4/5.5
-
 	:twitter:description: Hash Algorithms Incompatible With PHP 5.4/5.5: List of hash algorithms incompatible with PHP 5
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Hash Algorithms Incompatible With PHP 5.4/5.5
-
 	:og:type: article
-
 	:og:description: List of hash algorithms incompatible with PHP 5
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Hash Algorithms Incompatible With PHP 5.4/5.5.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

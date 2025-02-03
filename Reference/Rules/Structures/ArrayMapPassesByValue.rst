@@ -6,37 +6,21 @@
 Array_Map() Passes By Value
 +++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Array_Map() Passes By Value: array_map() requires the callback to receive elements by value.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Array_Map() Passes By Value
-
 	:twitter:description: Array_Map() Passes By Value: array_map() requires the callback to receive elements by value
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Array_Map() Passes By Value
-
 	:og:type: article
-
 	:og:description: array_map() requires the callback to receive elements by value
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Array_Map() Passes By Value.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

@@ -6,37 +6,21 @@
 Reserved Keywords In PHP 7
 ++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Reserved Keywords In PHP 7: PHP reserved names for class/trait/interface.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Reserved Keywords In PHP 7
-
 	:twitter:description: Reserved Keywords In PHP 7: PHP reserved names for class/trait/interface
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Reserved Keywords In PHP 7
-
 	:og:type: article
-
 	:og:description: PHP reserved names for class/trait/interface
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Reserved Keywords In PHP 7.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

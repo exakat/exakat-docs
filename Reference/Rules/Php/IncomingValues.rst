@@ -6,37 +6,21 @@
 Incoming Values
 +++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Incoming Values: The names of the variables that are passed via the superglobals.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Incoming Values
-
 	:twitter:description: Incoming Values: The names of the variables that are passed via the superglobals
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Incoming Values
-
 	:og:type: article
-
 	:og:description: The names of the variables that are passed via the superglobals
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Incoming Values.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

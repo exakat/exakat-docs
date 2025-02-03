@@ -6,37 +6,21 @@
 Identical Case In Switch
 ++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Identical Case In Switch: In a switch() or match() statement, when there are identical cases, it means that multiple case labels that have the same code block.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Identical Case In Switch
-
 	:twitter:description: Identical Case In Switch: In a switch() or match() statement, when there are identical cases, it means that multiple case labels that have the same code block
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Identical Case In Switch
-
 	:og:type: article
-
 	:og:description: In a switch() or match() statement, when there are identical cases, it means that multiple case labels that have the same code block
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Identical Case In Switch.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

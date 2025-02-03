@@ -6,37 +6,21 @@
 Implicit Nullable Type
 ++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Implicit Nullable Type: Argument with default value of null are nullable.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Implicit Nullable Type
-
 	:twitter:description: Implicit Nullable Type: Argument with default value of null are nullable
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Implicit Nullable Type
-
 	:og:type: article
-
 	:og:description: Argument with default value of null are nullable
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Implicit Nullable Type.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

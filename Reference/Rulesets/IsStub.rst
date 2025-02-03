@@ -18,6 +18,7 @@ IsStub
 	:og:description: Ruleset with analysis which rely on custom stubs
 	:og:url: https://exakat.readthedocs.io/en/latest/Rulesets/IsStub.html
 	:og:locale: en
+
 This is automatically filled, based on the documentation's isStub attribute.
 
 Total : 1 analysis

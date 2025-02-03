@@ -6,37 +6,21 @@
 Avoid Concat In Loop
 ++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Avoid Concat In Loop: Concatenations inside a loop generate a lot of temporary variables.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Avoid Concat In Loop
-
 	:twitter:description: Avoid Concat In Loop: Concatenations inside a loop generate a lot of temporary variables
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Avoid Concat In Loop
-
 	:og:type: article
-
 	:og:description: Concatenations inside a loop generate a lot of temporary variables
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Avoid Concat In Loop.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

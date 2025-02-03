@@ -6,37 +6,21 @@
 Parent Is Not Static
 ++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Parent Is Not Static: The `parent` keyword behaves like `self`, not like `static`.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Parent Is Not Static
-
 	:twitter:description: Parent Is Not Static: The `parent` keyword behaves like `self`, not like `static`
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Parent Is Not Static
-
 	:og:type: article
-
 	:og:description: The `parent` keyword behaves like `self`, not like `static`
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Parent Is Not Static.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

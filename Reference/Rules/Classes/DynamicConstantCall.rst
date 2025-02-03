@@ -6,37 +6,21 @@
 Dynamic Class Constant
 ++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Dynamic Class Constant: This is the list of dynamic calls to class constants.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Dynamic Class Constant
-
 	:twitter:description: Dynamic Class Constant: This is the list of dynamic calls to class constants
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Dynamic Class Constant
-
 	:og:type: article
-
 	:og:description: This is the list of dynamic calls to class constants
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Dynamic Class Constant.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

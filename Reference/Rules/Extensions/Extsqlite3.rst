@@ -6,37 +6,21 @@
 ext/sqlite3
 +++++++++++
 
-
 .. meta::
-
 	:description:
-
 		ext/sqlite3: Extension Sqlite3.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: ext/sqlite3
-
 	:twitter:description: ext/sqlite3: Extension Sqlite3
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: ext/sqlite3
-
 	:og:type: article
-
 	:og:description: Extension Sqlite3
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/sqlite3.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

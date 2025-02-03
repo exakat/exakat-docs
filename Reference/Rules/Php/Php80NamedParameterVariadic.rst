@@ -6,37 +6,21 @@
 PHP 80 Named Parameter Variadic
 +++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		PHP 80 Named Parameter Variadic: Named parameter with variadic have been renamed from 0 to 'parameter name' in PHP 8.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: PHP 80 Named Parameter Variadic
-
 	:twitter:description: PHP 80 Named Parameter Variadic: Named parameter with variadic have been renamed from 0 to 'parameter name' in PHP 8
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: PHP 80 Named Parameter Variadic
-
 	:og:type: article
-
 	:og:description: Named parameter with variadic have been renamed from 0 to 'parameter name' in PHP 8
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/PHP 80 Named Parameter Variadic.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

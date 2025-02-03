@@ -6,37 +6,21 @@
 No Static Variable In A Method
 ++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		No Static Variable In A Method: Refactor static variables into properties.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: No Static Variable In A Method
-
 	:twitter:description: No Static Variable In A Method: Refactor static variables into properties
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: No Static Variable In A Method
-
 	:og:type: article
-
 	:og:description: Refactor static variables into properties
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No Static Variable In A Method.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

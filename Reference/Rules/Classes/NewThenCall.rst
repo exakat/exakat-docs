@@ -6,37 +6,21 @@
 New Object Then Immediate Call
 ++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		New Object Then Immediate Call: This rule reports immediate calls on a new object.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: New Object Then Immediate Call
-
 	:twitter:description: New Object Then Immediate Call: This rule reports immediate calls on a new object
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: New Object Then Immediate Call
-
 	:og:type: article
-
 	:og:description: This rule reports immediate calls on a new object
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/New Object Then Immediate Call.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

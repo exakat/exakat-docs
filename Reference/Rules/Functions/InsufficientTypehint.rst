@@ -6,37 +6,21 @@
 Insufficient Type
 +++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Insufficient Type: An argument is typed, but it actually calls methods, constants or properties that are not listed in the interface.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Insufficient Type
-
 	:twitter:description: Insufficient Type: An argument is typed, but it actually calls methods, constants or properties that are not listed in the interface
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Insufficient Type
-
 	:og:type: article
-
 	:og:description: An argument is typed, but it actually calls methods, constants or properties that are not listed in the interface
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Insufficient Type.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

@@ -6,37 +6,21 @@
 Constant Case Preference
 ++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Constant Case Preference: Define() creates constants which are case sensitive or not.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Constant Case Preference
-
 	:twitter:description: Constant Case Preference: Define() creates constants which are case sensitive or not
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Constant Case Preference
-
 	:og:type: article
-
 	:og:description: Define() creates constants which are case sensitive or not
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Constant Case Preference.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

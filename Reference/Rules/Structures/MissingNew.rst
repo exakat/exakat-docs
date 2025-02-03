@@ -6,37 +6,21 @@
 Maybe Missing New
 +++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Maybe Missing New: This functioncall looks like a class instantiation that is missing the ``new`` keyword.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Maybe Missing New
-
 	:twitter:description: Maybe Missing New: This functioncall looks like a class instantiation that is missing the ``new`` keyword
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Maybe Missing New
-
 	:og:type: article
-
 	:og:description: This functioncall looks like a class instantiation that is missing the ``new`` keyword
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Maybe Missing New.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

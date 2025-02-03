@@ -6,37 +6,21 @@
 Function Called With Other Case Than Defined
 ++++++++++++++++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Function Called With Other Case Than Defined: Functions and methods are defined with a specific case.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Function Called With Other Case Than Defined
-
 	:twitter:description: Function Called With Other Case Than Defined: Functions and methods are defined with a specific case
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Function Called With Other Case Than Defined
-
 	:og:type: article
-
 	:og:description: Functions and methods are defined with a specific case
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Function Called With Other Case Than Defined.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

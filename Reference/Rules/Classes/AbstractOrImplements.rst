@@ -6,37 +6,21 @@
 Abstract Or Implements
 ++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Abstract Or Implements: A class must implements all abstract methods of it parents, or be abstract too.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Abstract Or Implements
-
 	:twitter:description: Abstract Or Implements: A class must implements all abstract methods of it parents, or be abstract too
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Abstract Or Implements
-
 	:og:type: article
-
 	:og:description: A class must implements all abstract methods of it parents, or be abstract too
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Abstract Or Implements.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

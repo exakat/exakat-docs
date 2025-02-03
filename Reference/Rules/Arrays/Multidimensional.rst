@@ -6,37 +6,21 @@
 Multidimensional Arrays
 +++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Multidimensional Arrays: Multidimensional arrays are arrays of arrays.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Multidimensional Arrays
-
 	:twitter:description: Multidimensional Arrays: Multidimensional arrays are arrays of arrays
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Multidimensional Arrays
-
 	:og:type: article
-
 	:og:description: Multidimensional arrays are arrays of arrays
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Multidimensional Arrays.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

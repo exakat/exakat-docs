@@ -6,37 +6,21 @@
 parse_str() Warning
 +++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		parse_str() Warning: The parse_str() function parses a query string and assigns the resulting variables to the local scope.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: parse_str() Warning
-
 	:twitter:description: parse_str() Warning: The parse_str() function parses a query string and assigns the resulting variables to the local scope
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: parse_str() Warning
-
 	:og:type: article
-
 	:og:description: The parse_str() function parses a query string and assigns the resulting variables to the local scope
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/parse_str() Warning.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

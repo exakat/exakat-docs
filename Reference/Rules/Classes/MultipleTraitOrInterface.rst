@@ -6,37 +6,21 @@
 Multiple Identical Trait Or Interface
 +++++++++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Multiple Identical Trait Or Interface: There is no need to use the same trait, or implements the same interface more than once in a class.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Multiple Identical Trait Or Interface
-
 	:twitter:description: Multiple Identical Trait Or Interface: There is no need to use the same trait, or implements the same interface more than once in a class
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Multiple Identical Trait Or Interface
-
 	:og:type: article
-
 	:og:description: There is no need to use the same trait, or implements the same interface more than once in a class
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Multiple Identical Trait Or Interface.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

@@ -6,37 +6,21 @@
 PHP Handlers Usage
 ++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		PHP Handlers Usage: PHP has a number of handlers that may be replaced by customized code : session, shutdown, error, exception.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: PHP Handlers Usage
-
 	:twitter:description: PHP Handlers Usage: PHP has a number of handlers that may be replaced by customized code : session, shutdown, error, exception
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: PHP Handlers Usage
-
 	:og:type: article
-
 	:og:description: PHP has a number of handlers that may be replaced by customized code : session, shutdown, error, exception
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/PHP Handlers Usage.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

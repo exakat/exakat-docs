@@ -6,37 +6,21 @@
 Undefined static\:\: Or self\:\:
 ++++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Undefined static:: Or self::: The identified property or method are undefined.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Undefined static:: Or self::
-
 	:twitter:description: Undefined static:: Or self::: The identified property or method are undefined
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Undefined static:: Or self::
-
 	:og:type: article
-
 	:og:description: The identified property or method are undefined
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Undefined static:: Or self::.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

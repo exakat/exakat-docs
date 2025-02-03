@@ -6,37 +6,21 @@
 Session Lazy Write
 ++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Session Lazy Write: Classes that implements SessionHandlerInterface must also implements SessionUpdateTimestampHandlerInterface.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Session Lazy Write
-
 	:twitter:description: Session Lazy Write: Classes that implements SessionHandlerInterface must also implements SessionUpdateTimestampHandlerInterface
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Session Lazy Write
-
 	:og:type: article
-
 	:og:description: Classes that implements SessionHandlerInterface must also implements SessionUpdateTimestampHandlerInterface
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Session Lazy Write.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

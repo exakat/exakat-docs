@@ -6,37 +6,21 @@
 Avoid sleep()/usleep()
 ++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Avoid sleep()/usleep(): sleep() and usleep() help saturate the web server.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Avoid sleep()/usleep()
-
 	:twitter:description: Avoid sleep()/usleep(): sleep() and usleep() help saturate the web server
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Avoid sleep()/usleep()
-
 	:og:type: article
-
 	:og:description: sleep() and usleep() help saturate the web server
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Avoid sleep()/usleep().html
-
 	:og:locale: en
-
 
 .. raw:: html
 

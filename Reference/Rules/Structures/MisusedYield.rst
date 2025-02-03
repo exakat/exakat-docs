@@ -6,37 +6,21 @@
 Misused Yield
 +++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Misused Yield: When chaining generator, one must use the ``yield from`` keyword.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Misused Yield
-
 	:twitter:description: Misused Yield: When chaining generator, one must use the ``yield from`` keyword
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Misused Yield
-
 	:og:type: article
-
 	:og:description: When chaining generator, one must use the ``yield from`` keyword
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Misused Yield.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

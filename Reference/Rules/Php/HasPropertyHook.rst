@@ -6,37 +6,21 @@
 Has Property Hook
 +++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Has Property Hook: The analyzed code makes use of property hooks.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Has Property Hook
-
 	:twitter:description: Has Property Hook: The analyzed code makes use of property hooks
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Has Property Hook
-
 	:og:type: article
-
 	:og:description: The analyzed code makes use of property hooks
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Has Property Hook.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

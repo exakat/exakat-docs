@@ -6,37 +6,21 @@
 Should Use Prepared Statement
 +++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Should Use Prepared Statement: Modern databases provides support for prepared statement : it separates the query from the processed data and raise significantly the security.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Should Use Prepared Statement
-
 	:twitter:description: Should Use Prepared Statement: Modern databases provides support for prepared statement : it separates the query from the processed data and raise significantly the security
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Should Use Prepared Statement
-
 	:og:type: article
-
 	:og:description: Modern databases provides support for prepared statement : it separates the query from the processed data and raise significantly the security
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Should Use Prepared Statement.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

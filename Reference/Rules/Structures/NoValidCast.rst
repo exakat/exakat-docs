@@ -6,37 +6,21 @@
 No A Valid Cast
 +++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		No A Valid Cast: This cast generates an error, as there is no way to directly convert an object to an int.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: No A Valid Cast
-
 	:twitter:description: No A Valid Cast: This cast generates an error, as there is no way to directly convert an object to an int
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: No A Valid Cast
-
 	:og:type: article
-
 	:og:description: This cast generates an error, as there is no way to directly convert an object to an int
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No A Valid Cast.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

@@ -18,6 +18,7 @@ Suggestions
 	:og:description: List of possible modernisation of the PHP code.
 	:og:url: https://exakat.readthedocs.io/en/latest/Rulesets/Suggestions.html
 	:og:locale: en
+
 This ruleset focuses on possibly better syntax than the one currently used. Those may be code modernization, alternatives, more efficient solutions, or simply left over from older versions. 
 
 Total : 130 analysis

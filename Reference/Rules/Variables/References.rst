@@ -6,37 +6,21 @@
 Variable References
 +++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Variable References: Variables that are holding references.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Variable References
-
 	:twitter:description: Variable References: Variables that are holding references
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Variable References
-
 	:og:type: article
-
 	:og:description: Variables that are holding references
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Variable References.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

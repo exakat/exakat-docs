@@ -6,37 +6,21 @@
 Method Is A Generator
 +++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Method Is A Generator: This rule marks functions, methods, .
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Method Is A Generator
-
 	:twitter:description: Method Is A Generator: This rule marks functions, methods, 
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Method Is A Generator
-
 	:og:type: article
-
 	:og:description: This rule marks functions, methods, 
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Method Is A Generator.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

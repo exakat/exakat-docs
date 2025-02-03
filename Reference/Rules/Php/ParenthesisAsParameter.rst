@@ -6,37 +6,21 @@
 Parenthesis As Parameter
 ++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Parenthesis As Parameter: Using parenthesis around parameters used to silent some internal check.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Parenthesis As Parameter
-
 	:twitter:description: Parenthesis As Parameter: Using parenthesis around parameters used to silent some internal check
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Parenthesis As Parameter
-
 	:og:type: article
-
 	:og:description: Using parenthesis around parameters used to silent some internal check
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Parenthesis As Parameter.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

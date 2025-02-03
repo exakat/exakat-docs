@@ -6,37 +6,21 @@
 Collect Files Dependencies
 ++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Collect Files Dependencies: Collect all dependencies between files, based on definitions and usage.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Collect Files Dependencies
-
 	:twitter:description: Collect Files Dependencies: Collect all dependencies between files, based on definitions and usage
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Collect Files Dependencies
-
 	:og:type: article
-
 	:og:description: Collect all dependencies between files, based on definitions and usage
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Collect Files Dependencies.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

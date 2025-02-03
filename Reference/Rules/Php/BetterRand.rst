@@ -6,37 +6,21 @@
 Use random_int()
 ++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Use random_int(): rand() and mt_rand() should be replaced with random_int().
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Use random_int()
-
 	:twitter:description: Use random_int(): rand() and mt_rand() should be replaced with random_int()
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Use random_int()
-
 	:og:type: article
-
 	:og:description: rand() and mt_rand() should be replaced with random_int()
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Use random_int().html
-
 	:og:locale: en
-
 
 .. raw:: html
 

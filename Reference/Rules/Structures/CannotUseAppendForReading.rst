@@ -6,37 +6,21 @@
 Cannot Use Append For Reading
 +++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Cannot Use Append For Reading: The append operator ``[]`` is used to add a value to an array.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Cannot Use Append For Reading
-
 	:twitter:description: Cannot Use Append For Reading: The append operator ``[]`` is used to add a value to an array
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Cannot Use Append For Reading
-
 	:og:type: article
-
 	:og:description: The append operator ``[]`` is used to add a value to an array
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Cannot Use Append For Reading.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

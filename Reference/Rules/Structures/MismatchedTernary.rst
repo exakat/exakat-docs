@@ -6,37 +6,21 @@
 Mismatched Ternary Alternatives
 +++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Mismatched Ternary Alternatives: A ternary operator should yield the same type on both branches.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Mismatched Ternary Alternatives
-
 	:twitter:description: Mismatched Ternary Alternatives: A ternary operator should yield the same type on both branches
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Mismatched Ternary Alternatives
-
 	:og:type: article
-
 	:og:description: A ternary operator should yield the same type on both branches
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Mismatched Ternary Alternatives.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

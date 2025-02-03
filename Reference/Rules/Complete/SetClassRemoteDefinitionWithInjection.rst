@@ -6,37 +6,21 @@
 Set Class Remote Definition With Injection
 ++++++++++++++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Set Class Remote Definition With Injection: Links a method call and its definition, thanks to a typehint.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Set Class Remote Definition With Injection
-
 	:twitter:description: Set Class Remote Definition With Injection: Links a method call and its definition, thanks to a typehint
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Set Class Remote Definition With Injection
-
 	:og:type: article
-
 	:og:description: Links a method call and its definition, thanks to a typehint
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Set Class Remote Definition With Injection.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

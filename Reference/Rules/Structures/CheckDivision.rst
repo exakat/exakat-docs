@@ -6,37 +6,21 @@
 Check Division By Zero
 ++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Check Division By Zero: Always check before dividing by a value.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Check Division By Zero
-
 	:twitter:description: Check Division By Zero: Always check before dividing by a value
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Check Division By Zero
-
 	:og:type: article
-
 	:og:description: Always check before dividing by a value
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Check Division By Zero.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

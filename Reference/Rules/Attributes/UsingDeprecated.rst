@@ -6,37 +6,21 @@
 Using Deprecated Feature
 ++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Using Deprecated Feature: Deprecated attribute marks a class, interface, trait, enumeration, function, closure, array function, parameter, as a deprecated feature.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Using Deprecated Feature
-
 	:twitter:description: Using Deprecated Feature: Deprecated attribute marks a class, interface, trait, enumeration, function, closure, array function, parameter, as a deprecated feature
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Using Deprecated Feature
-
 	:og:type: article
-
 	:og:description: Deprecated attribute marks a class, interface, trait, enumeration, function, closure, array function, parameter, as a deprecated feature
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Using Deprecated Feature.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

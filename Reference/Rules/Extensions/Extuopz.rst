@@ -6,37 +6,21 @@
 ext/uopz
 ++++++++
 
-
 .. meta::
-
 	:description:
-
 		ext/uopz: Extension UOPZ : User Operations for Zend.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: ext/uopz
-
 	:twitter:description: ext/uopz: Extension UOPZ : User Operations for Zend
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: ext/uopz
-
 	:og:type: article
-
 	:og:description: Extension UOPZ : User Operations for Zend
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/uopz.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

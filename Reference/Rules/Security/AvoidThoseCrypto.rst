@@ -6,37 +6,21 @@
 Avoid Those Hash Functions
 ++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Avoid Those Hash Functions: The following cryptography algorithms are considered insecure, and should be replaced with new and more modern algorithms.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Avoid Those Hash Functions
-
 	:twitter:description: Avoid Those Hash Functions: The following cryptography algorithms are considered insecure, and should be replaced with new and more modern algorithms
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Avoid Those Hash Functions
-
 	:og:type: article
-
 	:og:description: The following cryptography algorithms are considered insecure, and should be replaced with new and more modern algorithms
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Avoid Those Hash Functions.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

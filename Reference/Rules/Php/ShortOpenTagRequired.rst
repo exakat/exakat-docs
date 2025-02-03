@@ -6,37 +6,21 @@
 Short Open Tags
 +++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Short Open Tags: Usage of short open tags is discouraged.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Short Open Tags
-
 	:twitter:description: Short Open Tags: Usage of short open tags is discouraged
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Short Open Tags
-
 	:og:type: article
-
 	:og:description: Usage of short open tags is discouraged
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Short Open Tags.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

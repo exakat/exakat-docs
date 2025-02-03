@@ -6,37 +6,21 @@
 ext/hrtime
 ++++++++++
 
-
 .. meta::
-
 	:description:
-
 		ext/hrtime: High resolution timing Extension.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: ext/hrtime
-
 	:twitter:description: ext/hrtime: High resolution timing Extension
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: ext/hrtime
-
 	:og:type: article
-
 	:og:description: High resolution timing Extension
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/hrtime.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

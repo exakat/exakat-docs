@@ -6,37 +6,21 @@
 Foreach Needs Reference Array
 +++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Foreach Needs Reference Array: When using foreach with a reference as value, the source must be a referenced array, which is a variable (or array or property or static property).
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Foreach Needs Reference Array
-
 	:twitter:description: Foreach Needs Reference Array: When using foreach with a reference as value, the source must be a referenced array, which is a variable (or array or property or static property)
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Foreach Needs Reference Array
-
 	:og:type: article
-
 	:og:description: When using foreach with a reference as value, the source must be a referenced array, which is a variable (or array or property or static property)
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Foreach Needs Reference Array.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

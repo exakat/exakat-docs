@@ -6,37 +6,21 @@
 PHP Keywords As Names
 +++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		PHP Keywords As Names: PHP has a set of reserved keywords.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: PHP Keywords As Names
-
 	:twitter:description: PHP Keywords As Names: PHP has a set of reserved keywords
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: PHP Keywords As Names
-
 	:og:type: article
-
 	:og:description: PHP has a set of reserved keywords
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/PHP Keywords As Names.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

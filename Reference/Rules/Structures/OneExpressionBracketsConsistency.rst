@@ -6,37 +6,21 @@
 One Expression Brackets Consistency
 +++++++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		One Expression Brackets Consistency: Brackets around one-line expressions are not consistent.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: One Expression Brackets Consistency
-
 	:twitter:description: One Expression Brackets Consistency: Brackets around one-line expressions are not consistent
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: One Expression Brackets Consistency
-
 	:og:type: article
-
 	:og:description: Brackets around one-line expressions are not consistent
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/One Expression Brackets Consistency.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

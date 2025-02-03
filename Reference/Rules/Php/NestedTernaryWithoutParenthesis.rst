@@ -6,37 +6,21 @@
 Nested Ternary Without Parenthesis
 ++++++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Nested Ternary Without Parenthesis: It is not allowed to nest ternary operator within itself, without parenthesis.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Nested Ternary Without Parenthesis
-
 	:twitter:description: Nested Ternary Without Parenthesis: It is not allowed to nest ternary operator within itself, without parenthesis
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Nested Ternary Without Parenthesis
-
 	:og:type: article
-
 	:og:description: It is not allowed to nest ternary operator within itself, without parenthesis
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Nested Ternary Without Parenthesis.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

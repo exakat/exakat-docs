@@ -6,37 +6,21 @@
 Queries In Loops
 ++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Queries In Loops: Avoid querying databases in a loop.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Queries In Loops
-
 	:twitter:description: Queries In Loops: Avoid querying databases in a loop
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Queries In Loops
-
 	:og:type: article
-
 	:og:description: Avoid querying databases in a loop
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Queries In Loops.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

@@ -6,37 +6,21 @@
 Types
 +++++
 
-
 .. meta::
-
 	:description:
-
 		Types: List of all the types (classes or scalar) used in typing.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Types
-
 	:twitter:description: Types: List of all the types (classes or scalar) used in typing
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Types
-
 	:og:type: article
-
 	:og:description: List of all the types (classes or scalar) used in typing
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Types.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

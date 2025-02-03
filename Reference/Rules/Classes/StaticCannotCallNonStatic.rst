@@ -6,37 +6,21 @@
 Static Methods Cannot Call Non-Static Methods
 +++++++++++++++++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Static Methods Cannot Call Non-Static Methods: A static method cannot call a non-static method.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Static Methods Cannot Call Non-Static Methods
-
 	:twitter:description: Static Methods Cannot Call Non-Static Methods: A static method cannot call a non-static method
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Static Methods Cannot Call Non-Static Methods
-
 	:og:type: article
-
 	:og:description: A static method cannot call a non-static method
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Static Methods Cannot Call Non-Static Methods.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

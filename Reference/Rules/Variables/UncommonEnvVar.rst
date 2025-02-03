@@ -6,37 +6,21 @@
 Environment Variables
 +++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Environment Variables: Environment variables are used to interact with the hosting system.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Environment Variables
-
 	:twitter:description: Environment Variables: Environment variables are used to interact with the hosting system
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Environment Variables
-
 	:og:type: article
-
 	:og:description: Environment variables are used to interact with the hosting system
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Environment Variables.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

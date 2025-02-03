@@ -6,37 +6,21 @@
 Else Usage
 ++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Else Usage: Else can be avoided by various means.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Else Usage
-
 	:twitter:description: Else Usage: Else can be avoided by various means
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Else Usage
-
 	:og:type: article
-
 	:og:description: Else can be avoided by various means
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Else Usage.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

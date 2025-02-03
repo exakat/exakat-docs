@@ -18,6 +18,7 @@ NoDoc
 	:og:description: Ruleset with analysis which are not published in the docs.
 	:og:url: https://exakat.readthedocs.io/en/latest/Rulesets/NoDoc.html
 	:og:locale: en
+
 Ruleset with analysis which are not published in the docs.
 
 Total : 36 analysis

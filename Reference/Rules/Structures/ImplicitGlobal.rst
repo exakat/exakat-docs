@@ -6,37 +6,21 @@
 Implicit Global
 +++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Implicit Global: Global variables, that are used in local scope with global keyword, but are not declared as global in the global scope.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Implicit Global
-
 	:twitter:description: Implicit Global: Global variables, that are used in local scope with global keyword, but are not declared as global in the global scope
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Implicit Global
-
 	:og:type: article
-
 	:og:description: Global variables, that are used in local scope with global keyword, but are not declared as global in the global scope
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Implicit Global.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

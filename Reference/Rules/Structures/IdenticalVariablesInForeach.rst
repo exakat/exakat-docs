@@ -6,37 +6,21 @@
 Identical Variables In Foreach
 ++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Identical Variables In Foreach: Do not use the same variable names as a foreach() source and one of its blind variables.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Identical Variables In Foreach
-
 	:twitter:description: Identical Variables In Foreach: Do not use the same variable names as a foreach() source and one of its blind variables
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Identical Variables In Foreach
-
 	:og:type: article
-
 	:og:description: Do not use the same variable names as a foreach() source and one of its blind variables
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Identical Variables In Foreach.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

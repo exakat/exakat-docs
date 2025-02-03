@@ -6,37 +6,21 @@
 Forgotten Thrown
 ++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Forgotten Thrown: This rule reports when an exception is instantiated, but not thrown.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Forgotten Thrown
-
 	:twitter:description: Forgotten Thrown: This rule reports when an exception is instantiated, but not thrown
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Forgotten Thrown
-
 	:og:type: article
-
 	:og:description: This rule reports when an exception is instantiated, but not thrown
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Forgotten Thrown.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

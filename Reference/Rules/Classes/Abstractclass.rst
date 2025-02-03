@@ -6,37 +6,21 @@
 Abstract Class Usage
 ++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Abstract Class Usage: This rule lists of all abstract classes defined.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Abstract Class Usage
-
 	:twitter:description: Abstract Class Usage: This rule lists of all abstract classes defined
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Abstract Class Usage
-
 	:og:type: article
-
 	:og:description: This rule lists of all abstract classes defined
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Abstract Class Usage.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

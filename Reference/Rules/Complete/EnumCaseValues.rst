@@ -6,37 +6,21 @@
 Enum Case Values
 ++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Enum Case Values: Adds a `DEFINITION`link between a static Enumeration case and its actual defined value.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Enum Case Values
-
 	:twitter:description: Enum Case Values: Adds a `DEFINITION`link between a static Enumeration case and its actual defined value
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Enum Case Values
-
 	:og:type: article
-
 	:og:description: Adds a `DEFINITION`link between a static Enumeration case and its actual defined value
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Enum Case Values.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

@@ -6,37 +6,21 @@
 Could Be Parent Method
 ++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Could Be Parent Method: A method is defined in several children, but not in a the parent class.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Could Be Parent Method
-
 	:twitter:description: Could Be Parent Method: A method is defined in several children, but not in a the parent class
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Could Be Parent Method
-
 	:og:type: article
-
 	:og:description: A method is defined in several children, but not in a the parent class
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Could Be Parent Method.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

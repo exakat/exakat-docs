@@ -6,37 +6,21 @@
 Unused Private Properties
 +++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Unused Private Properties: Unused static properties should be removed.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Unused Private Properties
-
 	:twitter:description: Unused Private Properties: Unused static properties should be removed
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Unused Private Properties
-
 	:og:type: article
-
 	:og:description: Unused static properties should be removed
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Unused Private Properties.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

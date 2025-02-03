@@ -18,6 +18,7 @@ Dump
 	:og:description: Dump is a collector set of rules.
 	:og:url: https://exakat.readthedocs.io/en/latest/Rulesets/Dump.html
 	:og:locale: en
+
 This ruleset collects various names given to different structures in the code : for example, variables, classes, methods, constants, etc. It also collects networks of data, like file inclusion or external dependencies.
 
 Total : 57 analysis

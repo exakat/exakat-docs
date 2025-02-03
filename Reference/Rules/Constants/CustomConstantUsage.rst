@@ -6,37 +6,21 @@
 Custom Constant Usage
 +++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Custom Constant Usage: The code is using constants that are not defined in PHP extensions or PHP itself.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Custom Constant Usage
-
 	:twitter:description: Custom Constant Usage: The code is using constants that are not defined in PHP extensions or PHP itself
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Custom Constant Usage
-
 	:og:type: article
-
 	:og:description: The code is using constants that are not defined in PHP extensions or PHP itself
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Custom Constant Usage.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

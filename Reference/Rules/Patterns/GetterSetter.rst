@@ -6,37 +6,21 @@
 Getter And Setter
 +++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Getter And Setter: A getter is a method whose purpose is to read the internal value of a class.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Getter And Setter
-
 	:twitter:description: Getter And Setter: A getter is a method whose purpose is to read the internal value of a class
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Getter And Setter
-
 	:og:type: article
-
 	:og:description: A getter is a method whose purpose is to read the internal value of a class
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Getter And Setter.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

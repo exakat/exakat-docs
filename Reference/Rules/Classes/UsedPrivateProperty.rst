@@ -6,37 +6,21 @@
 Used Static Properties
 ++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Used Static Properties: List of all static properties that are used.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Used Static Properties
-
 	:twitter:description: Used Static Properties: List of all static properties that are used
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Used Static Properties
-
 	:og:type: article
-
 	:og:description: List of all static properties that are used
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Used Static Properties.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

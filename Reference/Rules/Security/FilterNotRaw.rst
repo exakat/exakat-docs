@@ -6,37 +6,21 @@
 Filter Not Raw
 ++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Filter Not Raw: Report usage of filter functions with the ``FILTER_RAW_UNSAFE`` option.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Filter Not Raw
-
 	:twitter:description: Filter Not Raw: Report usage of filter functions with the ``FILTER_RAW_UNSAFE`` option
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Filter Not Raw
-
 	:og:type: article
-
 	:og:description: Report usage of filter functions with the ``FILTER_RAW_UNSAFE`` option
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Filter Not Raw.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

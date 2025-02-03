@@ -6,37 +6,21 @@
 Extended Types
 ++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Extended Types: Produces all the definition links between typehints (arguments, return types, properties) and the definitions that are valid with the type.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Extended Types
-
 	:twitter:description: Extended Types: Produces all the definition links between typehints (arguments, return types, properties) and the definitions that are valid with the type
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Extended Types
-
 	:og:type: article
-
 	:og:description: Produces all the definition links between typehints (arguments, return types, properties) and the definitions that are valid with the type
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Extended Types.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

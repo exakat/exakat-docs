@@ -6,37 +6,21 @@
 Simplify Regex
 ++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Simplify Regex: Avoid using regex when the searched string or the replacement are simple enough.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Simplify Regex
-
 	:twitter:description: Simplify Regex: Avoid using regex when the searched string or the replacement are simple enough
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Simplify Regex
-
 	:og:type: article
-
 	:og:description: Avoid using regex when the searched string or the replacement are simple enough
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Simplify Regex.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

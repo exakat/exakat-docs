@@ -6,37 +6,21 @@
 Indices Are Int Or String
 +++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Indices Are Int Or String: Indices in an array notation such as ``$array['indice']`` may only be integers or string.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Indices Are Int Or String
-
 	:twitter:description: Indices Are Int Or String: Indices in an array notation such as ``$array['indice']`` may only be integers or string
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Indices Are Int Or String
-
 	:og:type: article
-
 	:og:description: Indices in an array notation such as ``$array['indice']`` may only be integers or string
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Indices Are Int Or String.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

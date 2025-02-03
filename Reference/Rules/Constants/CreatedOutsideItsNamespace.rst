@@ -6,37 +6,21 @@
 Constants Created Outside Its Namespace
 +++++++++++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Constants Created Outside Its Namespace: Constants Created Outside Its Namespace.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Constants Created Outside Its Namespace
-
 	:twitter:description: Constants Created Outside Its Namespace: Constants Created Outside Its Namespace
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Constants Created Outside Its Namespace
-
 	:og:type: article
-
 	:og:description: Constants Created Outside Its Namespace
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Constants Created Outside Its Namespace.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

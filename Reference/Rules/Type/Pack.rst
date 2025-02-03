@@ -6,37 +6,21 @@
 Pack Format Inventory
 +++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Pack Format Inventory: All format used in the code with pack() and unpack().
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Pack Format Inventory
-
 	:twitter:description: Pack Format Inventory: All format used in the code with pack() and unpack()
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Pack Format Inventory
-
 	:og:type: article
-
 	:og:description: All format used in the code with pack() and unpack()
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Pack Format Inventory.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

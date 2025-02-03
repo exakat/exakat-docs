@@ -6,37 +6,21 @@
 ext/db2
 +++++++
 
-
 .. meta::
-
 	:description:
-
 		ext/db2: Extension for IBM DB2, Cloudscape and Apache Derby.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: ext/db2
-
 	:twitter:description: ext/db2: Extension for IBM DB2, Cloudscape and Apache Derby
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: ext/db2
-
 	:og:type: article
-
 	:og:description: Extension for IBM DB2, Cloudscape and Apache Derby
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/db2.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

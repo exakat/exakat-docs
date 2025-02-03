@@ -6,37 +6,21 @@
 Collect Class Depth
 +++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Collect Class Depth: This rule count the number of level of extends in classes.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Collect Class Depth
-
 	:twitter:description: Collect Class Depth: This rule count the number of level of extends in classes
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Collect Class Depth
-
 	:og:type: article
-
 	:og:description: This rule count the number of level of extends in classes
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Collect Class Depth.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

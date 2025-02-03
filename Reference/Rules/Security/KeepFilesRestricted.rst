@@ -6,37 +6,21 @@
 Keep Files Access Restricted
 ++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Keep Files Access Restricted: Avoid using 0777 as file or directory mode.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Keep Files Access Restricted
-
 	:twitter:description: Keep Files Access Restricted: Avoid using 0777 as file or directory mode
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Keep Files Access Restricted
-
 	:og:type: article
-
 	:og:description: Avoid using 0777 as file or directory mode
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Keep Files Access Restricted.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

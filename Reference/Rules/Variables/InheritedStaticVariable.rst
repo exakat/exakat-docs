@@ -6,37 +6,21 @@
 Inherited Static Variable
 +++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Inherited Static Variable: Static variables are distinct when used in an inherited static method.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Inherited Static Variable
-
 	:twitter:description: Inherited Static Variable: Static variables are distinct when used in an inherited static method
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Inherited Static Variable
-
 	:og:type: article
-
 	:og:description: Static variables are distinct when used in an inherited static method
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Inherited Static Variable.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

@@ -6,37 +6,21 @@
 Unresolved Use
 ++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Unresolved Use: The following use instructions cannot be resolved to a known class, interface, trait, constant or function.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Unresolved Use
-
 	:twitter:description: Unresolved Use: The following use instructions cannot be resolved to a known class, interface, trait, constant or function
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Unresolved Use
-
 	:og:type: article
-
 	:og:description: The following use instructions cannot be resolved to a known class, interface, trait, constant or function
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Unresolved Use.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

@@ -6,37 +6,21 @@
 New Order
 +++++++++
 
-
 .. meta::
-
 	:description:
-
 		New Order: Order in which new calls must be called.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: New Order
-
 	:twitter:description: New Order: Order in which new calls must be called
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: New Order
-
 	:og:type: article
-
 	:og:description: Order in which new calls must be called
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/New Order.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

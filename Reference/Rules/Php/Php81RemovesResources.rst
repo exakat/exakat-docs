@@ -6,37 +6,21 @@
 PHP 8.1 Resources Turned Into Objects
 +++++++++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		PHP 8.1 Resources Turned Into Objects: Multiple PHP native functions now return objects, not resources.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: PHP 8.1 Resources Turned Into Objects
-
 	:twitter:description: PHP 8.1 Resources Turned Into Objects: Multiple PHP native functions now return objects, not resources
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: PHP 8.1 Resources Turned Into Objects
-
 	:og:type: article
-
 	:og:description: Multiple PHP native functions now return objects, not resources
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/PHP 8.1 Resources Turned Into Objects.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

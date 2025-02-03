@@ -18,6 +18,7 @@ IsExt
 	:og:description: Ruleset with analysis which rely on PHP's optional extensions
 	:og:url: https://exakat.readthedocs.io/en/latest/Rulesets/IsExt.html
 	:og:locale: en
+
 This is automatically filled, based on the documentation's isExt attribute.
 
 Total : 1 analysis

@@ -6,37 +6,21 @@
 Mismatch Properties Types
 +++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Mismatch Properties Types: Properties must match within the same family.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Mismatch Properties Types
-
 	:twitter:description: Mismatch Properties Types: Properties must match within the same family
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Mismatch Properties Types
-
 	:og:type: article
-
 	:og:description: Properties must match within the same family
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Mismatch Properties Types.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

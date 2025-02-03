@@ -6,37 +6,21 @@
 Unknown Pcre2 Option
 ++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Unknown Pcre2 Option: ``PCRE2`` supports different options, compared to ``PCRE1``.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Unknown Pcre2 Option
-
 	:twitter:description: Unknown Pcre2 Option: ``PCRE2`` supports different options, compared to ``PCRE1``
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Unknown Pcre2 Option
-
 	:og:type: article
-
 	:og:description: ``PCRE2`` supports different options, compared to ``PCRE1``
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Unknown Pcre2 Option.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

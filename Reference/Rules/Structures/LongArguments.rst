@@ -6,37 +6,21 @@
 Long Arguments
 ++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Long Arguments: Long arguments should be put in variable, to preserve readability.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Long Arguments
-
 	:twitter:description: Long Arguments: Long arguments should be put in variable, to preserve readability
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Long Arguments
-
 	:og:type: article
-
 	:og:description: Long arguments should be put in variable, to preserve readability
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Long Arguments.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

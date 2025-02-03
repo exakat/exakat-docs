@@ -6,37 +6,21 @@
 Multiple Property Declaration
 +++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Multiple Property Declaration: The same property is declared in various classes, at least two, in the same class hierarchy.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Multiple Property Declaration
-
 	:twitter:description: Multiple Property Declaration: The same property is declared in various classes, at least two, in the same class hierarchy
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Multiple Property Declaration
-
 	:og:type: article
-
 	:og:description: The same property is declared in various classes, at least two, in the same class hierarchy
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Multiple Property Declaration.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

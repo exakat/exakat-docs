@@ -18,6 +18,7 @@ CompatibilityPHP70
 	:og:description: List features that are incompatible with PHP 7.0.
 	:og:url: https://exakat.readthedocs.io/en/latest/Rulesets/CompatibilityPHP70.html
 	:og:locale: en
+
 This ruleset centralizes all analysis for the migration from PHP 5.6 to 7.0.
 
 Total : 69 analysis

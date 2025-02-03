@@ -6,37 +6,21 @@
 Undefined Functions
 +++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Undefined Functions: Those functions are called, though they are not defined in the code.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Undefined Functions
-
 	:twitter:description: Undefined Functions: Those functions are called, though they are not defined in the code
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Undefined Functions
-
 	:og:type: article
-
 	:og:description: Those functions are called, though they are not defined in the code
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Undefined Functions.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

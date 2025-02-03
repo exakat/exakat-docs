@@ -6,37 +6,21 @@
 Avoid get_class()
 +++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Avoid get_class(): ``get_class()`` should be replaced with the ``instanceof`` operator to check the class of an object.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Avoid get_class()
-
 	:twitter:description: Avoid get_class(): ``get_class()`` should be replaced with the ``instanceof`` operator to check the class of an object
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Avoid get_class()
-
 	:og:type: article
-
 	:og:description: ``get_class()`` should be replaced with the ``instanceof`` operator to check the class of an object
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Avoid get_class().html
-
 	:og:locale: en
-
 
 .. raw:: html
 

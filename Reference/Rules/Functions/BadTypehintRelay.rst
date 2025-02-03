@@ -6,37 +6,21 @@
 Bad Type Relay
 ++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Bad Type Relay: A bad type relay happens where a types argument is relayed to a parameter with another type.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Bad Type Relay
-
 	:twitter:description: Bad Type Relay: A bad type relay happens where a types argument is relayed to a parameter with another type
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Bad Type Relay
-
 	:og:type: article
-
 	:og:description: A bad type relay happens where a types argument is relayed to a parameter with another type
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Bad Type Relay.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

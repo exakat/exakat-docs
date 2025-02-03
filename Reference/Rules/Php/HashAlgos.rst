@@ -6,37 +6,21 @@
 Hash Algorithms
 +++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Hash Algorithms: There is a long but limited list of hashing algorithm available to PHP.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Hash Algorithms
-
 	:twitter:description: Hash Algorithms: There is a long but limited list of hashing algorithm available to PHP
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Hash Algorithms
-
 	:og:type: article
-
 	:og:description: There is a long but limited list of hashing algorithm available to PHP
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Hash Algorithms.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

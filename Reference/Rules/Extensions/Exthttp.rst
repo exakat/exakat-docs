@@ -6,37 +6,21 @@
 ext/pecl_http
 +++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		ext/pecl_http: Extension HTTP.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: ext/pecl_http
-
 	:twitter:description: ext/pecl_http: Extension HTTP
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: ext/pecl_http
-
 	:og:type: article
-
 	:og:description: Extension HTTP
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/pecl_http.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

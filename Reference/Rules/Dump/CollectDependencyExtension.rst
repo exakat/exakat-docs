@@ -6,37 +6,21 @@
 Collect Dependency Extension
 ++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Collect Dependency Extension: This analysis lists the interfaces and classes that are not defined in the current code, yet extended.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Collect Dependency Extension
-
 	:twitter:description: Collect Dependency Extension: This analysis lists the interfaces and classes that are not defined in the current code, yet extended
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Collect Dependency Extension
-
 	:og:type: article
-
 	:og:description: This analysis lists the interfaces and classes that are not defined in the current code, yet extended
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Collect Dependency Extension.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

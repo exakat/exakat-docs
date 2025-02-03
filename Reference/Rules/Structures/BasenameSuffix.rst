@@ -6,37 +6,21 @@
 Use Basename Suffix
 +++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Use Basename Suffix: basename() is able to remove a file extension when it is provided as argument.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Use Basename Suffix
-
 	:twitter:description: Use Basename Suffix: basename() is able to remove a file extension when it is provided as argument
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Use Basename Suffix
-
 	:og:type: article
-
 	:og:description: basename() is able to remove a file extension when it is provided as argument
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Use Basename Suffix.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

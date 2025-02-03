@@ -6,37 +6,21 @@
 Wrong Class Name Case
 +++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Wrong Class Name Case: The spotted classes are used with a different case than their definition.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Wrong Class Name Case
-
 	:twitter:description: Wrong Class Name Case: The spotted classes are used with a different case than their definition
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Wrong Class Name Case
-
 	:og:type: article
-
 	:og:description: The spotted classes are used with a different case than their definition
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Wrong Class Name Case.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

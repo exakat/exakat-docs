@@ -6,37 +6,21 @@
 Randomly Sorted Arrays
 ++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Randomly Sorted Arrays: Those literal arrays are written in several places, but their items are in various orders.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Randomly Sorted Arrays
-
 	:twitter:description: Randomly Sorted Arrays: Those literal arrays are written in several places, but their items are in various orders
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Randomly Sorted Arrays
-
 	:og:type: article
-
 	:og:description: Those literal arrays are written in several places, but their items are in various orders
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Randomly Sorted Arrays.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

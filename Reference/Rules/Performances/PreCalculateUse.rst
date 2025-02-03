@@ -6,37 +6,21 @@
 Pre-Calculate Use
 +++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Pre-Calculate Use: In a closure, it is faster to pass a final value, rather than calculate it at call time.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Pre-Calculate Use
-
 	:twitter:description: Pre-Calculate Use: In a closure, it is faster to pass a final value, rather than calculate it at call time
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Pre-Calculate Use
-
 	:og:type: article
-
 	:og:description: In a closure, it is faster to pass a final value, rather than calculate it at call time
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Pre-Calculate Use.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

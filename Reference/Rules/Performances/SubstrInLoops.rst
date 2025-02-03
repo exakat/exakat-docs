@@ -6,37 +6,21 @@
 Substr() In Loops
 +++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Substr() In Loops: Successive substr() calls may be replaced by a call to str_split().
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Substr() In Loops
-
 	:twitter:description: Substr() In Loops: Successive substr() calls may be replaced by a call to str_split()
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Substr() In Loops
-
 	:og:type: article
-
 	:og:description: Successive substr() calls may be replaced by a call to str_split()
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Substr() In Loops.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

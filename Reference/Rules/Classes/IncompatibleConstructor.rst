@@ -6,37 +6,21 @@
 Different Constructors
 ++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Different Constructors: PHP allows different signatures for constructors.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Different Constructors
-
 	:twitter:description: Different Constructors: PHP allows different signatures for constructors
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Different Constructors
-
 	:og:type: article
-
 	:og:description: PHP allows different signatures for constructors
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Different Constructors.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

@@ -6,37 +6,21 @@
 Could Use Short Assignation
 +++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Could Use Short Assignation: Use short assignment operator, to speed up code, and keep syntax clear.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Could Use Short Assignation
-
 	:twitter:description: Could Use Short Assignation: Use short assignment operator, to speed up code, and keep syntax clear
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Could Use Short Assignation
-
 	:og:type: article
-
 	:og:description: Use short assignment operator, to speed up code, and keep syntax clear
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Could Use Short Assignation.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

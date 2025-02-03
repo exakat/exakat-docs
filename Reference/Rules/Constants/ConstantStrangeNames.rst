@@ -6,37 +6,21 @@
 Constants With Strange Names
 ++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Constants With Strange Names: List of constants being defined with names that are incompatible with PHP standards.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Constants With Strange Names
-
 	:twitter:description: Constants With Strange Names: List of constants being defined with names that are incompatible with PHP standards
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Constants With Strange Names
-
 	:og:type: article
-
 	:og:description: List of constants being defined with names that are incompatible with PHP standards
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Constants With Strange Names.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

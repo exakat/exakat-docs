@@ -6,37 +6,21 @@
 Class-typed References
 ++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Class-typed References: Class-typee arguments have no need for references.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Class-typed References
-
 	:twitter:description: Class-typed References: Class-typee arguments have no need for references
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Class-typed References
-
 	:og:type: article
-
 	:og:description: Class-typee arguments have no need for references
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Class-typed References.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

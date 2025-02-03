@@ -18,6 +18,7 @@ PHP recommendations
 	:og:description: Report recommendations from the PHP manual.
 	:og:url: https://exakat.readthedocs.io/en/latest/Rulesets/PHP recommendations.html
 	:og:locale: en
+
 This ruleset is a collection of warnings and notes that are available in the PHP manual. For example, return do not require parenthesis.
 
 Total : 0 analysis

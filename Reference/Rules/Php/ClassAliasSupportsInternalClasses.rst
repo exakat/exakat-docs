@@ -6,37 +6,21 @@
 class_alias() Supports Internal Classes
 +++++++++++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		class_alias() Supports Internal Classes: class_alias() accepts internal classes as first argument.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: class_alias() Supports Internal Classes
-
 	:twitter:description: class_alias() Supports Internal Classes: class_alias() accepts internal classes as first argument
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: class_alias() Supports Internal Classes
-
 	:og:type: article
-
 	:og:description: class_alias() accepts internal classes as first argument
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/class_alias() Supports Internal Classes.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

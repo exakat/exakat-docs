@@ -6,37 +6,21 @@
 Unused Use
 ++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Unused Use: Unused use statements.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Unused Use
-
 	:twitter:description: Unused Use: Unused use statements
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Unused Use
-
 	:og:type: article
-
 	:og:description: Unused use statements
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Unused Use.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

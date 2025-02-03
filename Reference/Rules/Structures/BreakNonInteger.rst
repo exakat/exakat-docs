@@ -6,37 +6,21 @@
 Break With Non Integer
 ++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Break With Non Integer: When using a break, the argument of the operator must be a positive non-null integer literal or be omitted.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Break With Non Integer
-
 	:twitter:description: Break With Non Integer: When using a break, the argument of the operator must be a positive non-null integer literal or be omitted
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Break With Non Integer
-
 	:og:type: article
-
 	:og:description: When using a break, the argument of the operator must be a positive non-null integer literal or be omitted
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Break With Non Integer.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

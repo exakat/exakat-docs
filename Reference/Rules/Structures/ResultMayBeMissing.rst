@@ -6,37 +6,21 @@
 Results May Be Missing
 ++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Results May Be Missing: preg_match() may return empty values, if the search fails.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Results May Be Missing
-
 	:twitter:description: Results May Be Missing: preg_match() may return empty values, if the search fails
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Results May Be Missing
-
 	:og:type: article
-
 	:og:description: preg_match() may return empty values, if the search fails
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Results May Be Missing.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

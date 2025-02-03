@@ -6,37 +6,21 @@
 Wrong Precedence In Expression
 ++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Wrong Precedence In Expression: These operators are not executed in the expected order.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Wrong Precedence In Expression
-
 	:twitter:description: Wrong Precedence In Expression: These operators are not executed in the expected order
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Wrong Precedence In Expression
-
 	:og:type: article
-
 	:og:description: These operators are not executed in the expected order
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Wrong Precedence In Expression.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

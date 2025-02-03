@@ -6,37 +6,21 @@
 Should Use Url Query Functions
 ++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Should Use Url Query Functions: PHP features several functions dedicated to processing URL's query string.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Should Use Url Query Functions
-
 	:twitter:description: Should Use Url Query Functions: PHP features several functions dedicated to processing URL's query string
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Should Use Url Query Functions
-
 	:og:type: article
-
 	:og:description: PHP features several functions dedicated to processing URL's query string
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Should Use Url Query Functions.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

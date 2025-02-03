@@ -6,37 +6,21 @@
 Continue Is For Loop
 ++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Continue Is For Loop: break and continue are very similar in PHP : they both break out of loop or switch.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Continue Is For Loop
-
 	:twitter:description: Continue Is For Loop: break and continue are very similar in PHP : they both break out of loop or switch
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Continue Is For Loop
-
 	:og:type: article
-
 	:og:description: break and continue are very similar in PHP : they both break out of loop or switch
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Continue Is For Loop.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

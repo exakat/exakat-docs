@@ -6,37 +6,21 @@
 Use json_decode() Options
 +++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Use json_decode() Options: json_decode() returns objects by default, unless the second argument is set to ``TRUE`` or ``JSON_OBJECT_AS_ARRAY``.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Use json_decode() Options
-
 	:twitter:description: Use json_decode() Options: json_decode() returns objects by default, unless the second argument is set to ``TRUE`` or ``JSON_OBJECT_AS_ARRAY``
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Use json_decode() Options
-
 	:og:type: article
-
 	:og:description: json_decode() returns objects by default, unless the second argument is set to ``TRUE`` or ``JSON_OBJECT_AS_ARRAY``
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Use json_decode() Options.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

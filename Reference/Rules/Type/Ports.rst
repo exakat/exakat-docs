@@ -6,37 +6,21 @@
 Internet Ports
 ++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Internet Ports: List of all the Internet ports mentioned in the code.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Internet Ports
-
 	:twitter:description: Internet Ports: List of all the Internet ports mentioned in the code
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Internet Ports
-
 	:og:type: article
-
 	:og:description: List of all the Internet ports mentioned in the code
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Internet Ports.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

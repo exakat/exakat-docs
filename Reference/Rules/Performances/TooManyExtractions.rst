@@ -6,37 +6,21 @@
 Too Many Extractions
 ++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Too Many Extractions: Using a loop to extract all the values from an array or an object, but failing to use them all later.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Too Many Extractions
-
 	:twitter:description: Too Many Extractions: Using a loop to extract all the values from an array or an object, but failing to use them all later
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Too Many Extractions
-
 	:og:type: article
-
 	:og:description: Using a loop to extract all the values from an array or an object, but failing to use them all later
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Too Many Extractions.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

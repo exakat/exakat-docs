@@ -6,37 +6,21 @@
 ext/amqp
 ++++++++
 
-
 .. meta::
-
 	:description:
-
 		ext/amqp: Extension ``amqp``.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: ext/amqp
-
 	:twitter:description: ext/amqp: Extension ``amqp``
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: ext/amqp
-
 	:og:type: article
-
 	:og:description: Extension ``amqp``
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/amqp.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

@@ -6,37 +6,21 @@
 Bail Out Early
 ++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Bail Out Early: When using conditions, it is recommended to quit in the current context, and avoid the else clause altogether.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Bail Out Early
-
 	:twitter:description: Bail Out Early: When using conditions, it is recommended to quit in the current context, and avoid the else clause altogether
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Bail Out Early
-
 	:og:type: article
-
 	:og:description: When using conditions, it is recommended to quit in the current context, and avoid the else clause altogether
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Bail Out Early.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

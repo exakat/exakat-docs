@@ -6,37 +6,21 @@
 Forgotten Visibility
 ++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Forgotten Visibility: Some classes elements (property, method, constant) are missing their explicit visibility.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Forgotten Visibility
-
 	:twitter:description: Forgotten Visibility: Some classes elements (property, method, constant) are missing their explicit visibility
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Forgotten Visibility
-
 	:og:type: article
-
 	:og:description: Some classes elements (property, method, constant) are missing their explicit visibility
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Forgotten Visibility.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

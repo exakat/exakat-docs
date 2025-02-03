@@ -6,37 +6,21 @@
 Don't Use The Type As Variable Name
 +++++++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Don't Use The Type As Variable Name: When it is difficult to find a good name, it is very tempting to use the type.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Don't Use The Type As Variable Name
-
 	:twitter:description: Don't Use The Type As Variable Name: When it is difficult to find a good name, it is very tempting to use the type
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Don't Use The Type As Variable Name
-
 	:og:type: article
-
 	:og:description: When it is difficult to find a good name, it is very tempting to use the type
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Don't Use The Type As Variable Name.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

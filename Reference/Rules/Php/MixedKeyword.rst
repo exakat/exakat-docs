@@ -6,37 +6,21 @@
 The Mixed Keyword
 +++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		The Mixed Keyword: `mixed` has becomes a PHP keyword.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: The Mixed Keyword
-
 	:twitter:description: The Mixed Keyword: `mixed` has becomes a PHP keyword
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: The Mixed Keyword
-
 	:og:type: article
-
 	:og:description: `mixed` has becomes a PHP keyword
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/The Mixed Keyword.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

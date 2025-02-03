@@ -6,37 +6,21 @@
 Deprecated PHP Functions
 ++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Deprecated PHP Functions: The following functions are deprecated.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Deprecated PHP Functions
-
 	:twitter:description: Deprecated PHP Functions: The following functions are deprecated
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Deprecated PHP Functions
-
 	:og:type: article
-
 	:og:description: The following functions are deprecated
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Deprecated PHP Functions.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

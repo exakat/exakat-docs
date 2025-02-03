@@ -6,37 +6,21 @@
 Could Be Spaceship
 ++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Could Be Spaceship: The spaceship operator compares values and returns 0 for equality, 1 for superior and -1 for inferior.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Could Be Spaceship
-
 	:twitter:description: Could Be Spaceship: The spaceship operator compares values and returns 0 for equality, 1 for superior and -1 for inferior
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Could Be Spaceship
-
 	:og:type: article
-
 	:og:description: The spaceship operator compares values and returns 0 for equality, 1 for superior and -1 for inferior
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Could Be Spaceship.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

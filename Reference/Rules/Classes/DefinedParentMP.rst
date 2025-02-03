@@ -6,37 +6,21 @@
 Defined Parent MP
 +++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Defined Parent MP: This rule reports when a static call with `parent`, where the parent has an actual definition.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Defined Parent MP
-
 	:twitter:description: Defined Parent MP: This rule reports when a static call with `parent`, where the parent has an actual definition
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Defined Parent MP
-
 	:og:type: article
-
 	:og:description: This rule reports when a static call with `parent`, where the parent has an actual definition
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Defined Parent MP.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

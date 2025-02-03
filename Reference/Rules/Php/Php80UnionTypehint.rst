@@ -6,37 +6,21 @@
 Union Type
 ++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Union Type: Union types allows the specification of several type for the same argument or return value.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Union Type
-
 	:twitter:description: Union Type: Union types allows the specification of several type for the same argument or return value
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Union Type
-
 	:og:type: article
-
 	:og:description: Union types allows the specification of several type for the same argument or return value
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Union Type.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

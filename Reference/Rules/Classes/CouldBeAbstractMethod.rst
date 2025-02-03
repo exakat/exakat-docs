@@ -6,37 +6,21 @@
 Could Be Abstract Method
 ++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Could Be Abstract Method: A method can be made abstract, when all the class's children implement it.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Could Be Abstract Method
-
 	:twitter:description: Could Be Abstract Method: A method can be made abstract, when all the class's children implement it
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Could Be Abstract Method
-
 	:og:type: article
-
 	:og:description: A method can be made abstract, when all the class's children implement it
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Could Be Abstract Method.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

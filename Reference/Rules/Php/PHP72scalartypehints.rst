@@ -6,37 +6,21 @@
 PHP 7.2 Scalar Types
 ++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		PHP 7.2 Scalar Types: A new type was introduced : ``object``.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: PHP 7.2 Scalar Types
-
 	:twitter:description: PHP 7.2 Scalar Types: A new type was introduced : ``object``
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: PHP 7.2 Scalar Types
-
 	:og:type: article
-
 	:og:description: A new type was introduced : ``object``
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/PHP 7.2 Scalar Types.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

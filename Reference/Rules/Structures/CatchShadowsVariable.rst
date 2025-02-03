@@ -6,37 +6,21 @@
 Catch Overwrite Variable
 ++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Catch Overwrite Variable: The try/catch structure uses some variables that are also in use in this scope.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Catch Overwrite Variable
-
 	:twitter:description: Catch Overwrite Variable: The try/catch structure uses some variables that are also in use in this scope
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Catch Overwrite Variable
-
 	:og:type: article
-
 	:og:description: The try/catch structure uses some variables that are also in use in this scope
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Catch Overwrite Variable.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

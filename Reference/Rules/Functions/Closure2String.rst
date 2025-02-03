@@ -6,37 +6,21 @@
 Closure Could Be A Callback
 +++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Closure Could Be A Callback: Closure and arrow function may be simplified to a callback.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Closure Could Be A Callback
-
 	:twitter:description: Closure Could Be A Callback: Closure and arrow function may be simplified to a callback
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Closure Could Be A Callback
-
 	:og:type: article
-
 	:og:description: Closure and arrow function may be simplified to a callback
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Closure Could Be A Callback.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

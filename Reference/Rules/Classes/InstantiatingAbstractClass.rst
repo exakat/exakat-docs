@@ -6,37 +6,21 @@
 Instantiating Abstract Class
 ++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Instantiating Abstract Class: PHP cannot instantiate an abstract class.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Instantiating Abstract Class
-
 	:twitter:description: Instantiating Abstract Class: PHP cannot instantiate an abstract class
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Instantiating Abstract Class
-
 	:og:type: article
-
 	:og:description: PHP cannot instantiate an abstract class
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Instantiating Abstract Class.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

@@ -6,37 +6,21 @@
 Don't Loop On Yield
 +++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Don't Loop On Yield: Use ``yield from``, instead of looping on a generator with ``yield``.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Don't Loop On Yield
-
 	:twitter:description: Don't Loop On Yield: Use ``yield from``, instead of looping on a generator with ``yield``
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Don't Loop On Yield
-
 	:og:type: article
-
 	:og:description: Use ``yield from``, instead of looping on a generator with ``yield``
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Don't Loop On Yield.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

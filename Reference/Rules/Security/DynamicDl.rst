@@ -6,37 +6,21 @@
 Dynamic Library Loading
 +++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Dynamic Library Loading: Loading a variable dynamically requires a lot of care in the preparation of the library name.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Dynamic Library Loading
-
 	:twitter:description: Dynamic Library Loading: Loading a variable dynamically requires a lot of care in the preparation of the library name
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Dynamic Library Loading
-
 	:og:type: article
-
 	:og:description: Loading a variable dynamically requires a lot of care in the preparation of the library name
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Dynamic Library Loading.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

@@ -6,37 +6,21 @@
 Undefined Constants
 +++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Undefined Constants: Constants definition can't be located.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Undefined Constants
-
 	:twitter:description: Undefined Constants: Constants definition can't be located
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Undefined Constants
-
 	:og:type: article
-
 	:og:description: Constants definition can't be located
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Undefined Constants.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

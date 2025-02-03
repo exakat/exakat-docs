@@ -6,37 +6,21 @@
 Use str_contains()
 ++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Use str_contains(): str_contains() checks if a string is within another one.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Use str_contains()
-
 	:twitter:description: Use str_contains(): str_contains() checks if a string is within another one
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Use str_contains()
-
 	:og:type: article
-
 	:og:description: str_contains() checks if a string is within another one
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Use str_contains().html
-
 	:og:locale: en
-
 
 .. raw:: html
 

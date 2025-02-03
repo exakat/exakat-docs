@@ -6,37 +6,21 @@
 Ellipsis Merge
 ++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Ellipsis Merge: Ellipsis are slower than array_merge().
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Ellipsis Merge
-
 	:twitter:description: Ellipsis Merge: Ellipsis are slower than array_merge()
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Ellipsis Merge
-
 	:og:type: article
-
 	:og:description: Ellipsis are slower than array_merge()
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Ellipsis Merge.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

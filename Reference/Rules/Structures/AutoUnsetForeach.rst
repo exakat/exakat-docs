@@ -6,37 +6,21 @@
 Same Variable Foreach
 +++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Same Variable Foreach: A foreach which uses its own source as a blind variable is actually broken.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Same Variable Foreach
-
 	:twitter:description: Same Variable Foreach: A foreach which uses its own source as a blind variable is actually broken
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Same Variable Foreach
-
 	:og:type: article
-
 	:og:description: A foreach which uses its own source as a blind variable is actually broken
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Same Variable Foreach.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

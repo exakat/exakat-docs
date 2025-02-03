@@ -6,37 +6,21 @@
 No Empty String With explode()
 ++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		No Empty String With explode(): explode() doesn't allow empty strings as separator.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: No Empty String With explode()
-
 	:twitter:description: No Empty String With explode(): explode() doesn't allow empty strings as separator
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: No Empty String With explode()
-
 	:og:type: article
-
 	:og:description: explode() doesn't allow empty strings as separator
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No Empty String With explode().html
-
 	:og:locale: en
-
 
 .. raw:: html
 

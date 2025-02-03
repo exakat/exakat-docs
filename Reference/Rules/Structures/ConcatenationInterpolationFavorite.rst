@@ -6,37 +6,21 @@
 Concatenation Interpolation Consistence
 +++++++++++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Concatenation Interpolation Consistence: Concatenations are done with the .
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Concatenation Interpolation Consistence
-
 	:twitter:description: Concatenation Interpolation Consistence: Concatenations are done with the 
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Concatenation Interpolation Consistence
-
 	:og:type: article
-
 	:og:description: Concatenations are done with the 
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Concatenation Interpolation Consistence.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

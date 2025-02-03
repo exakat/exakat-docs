@@ -6,37 +6,21 @@
 Function With Dynamic Code
 ++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Function With Dynamic Code: Mark a method, function, closure, arrow function that includes dynamic code.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Function With Dynamic Code
-
 	:twitter:description: Function With Dynamic Code: Mark a method, function, closure, arrow function that includes dynamic code
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Function With Dynamic Code
-
 	:og:type: article
-
 	:og:description: Mark a method, function, closure, arrow function that includes dynamic code
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Function With Dynamic Code.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

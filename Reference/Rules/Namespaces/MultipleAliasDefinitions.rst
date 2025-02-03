@@ -6,37 +6,21 @@
 Multiple Alias Definitions
 ++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Multiple Alias Definitions: Some aliases are representing different classes across the repository.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Multiple Alias Definitions
-
 	:twitter:description: Multiple Alias Definitions: Some aliases are representing different classes across the repository
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Multiple Alias Definitions
-
 	:og:type: article
-
 	:og:description: Some aliases are representing different classes across the repository
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Multiple Alias Definitions.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

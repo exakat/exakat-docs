@@ -6,37 +6,21 @@
 No Max On Empty Array
 +++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		No Max On Empty Array: Using max() or min() on an empty array leads to a ``valueError`` exception.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: No Max On Empty Array
-
 	:twitter:description: No Max On Empty Array: Using max() or min() on an empty array leads to a ``valueError`` exception
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: No Max On Empty Array
-
 	:og:type: article
-
 	:og:description: Using max() or min() on an empty array leads to a ``valueError`` exception
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/No Max On Empty Array.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

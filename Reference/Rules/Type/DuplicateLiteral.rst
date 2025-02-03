@@ -6,37 +6,21 @@
 Duplicate Literal
 +++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Duplicate Literal: Report literals that are repeated across the code.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Duplicate Literal
-
 	:twitter:description: Duplicate Literal: Report literals that are repeated across the code
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Duplicate Literal
-
 	:og:type: article
-
 	:og:description: Report literals that are repeated across the code
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Duplicate Literal.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

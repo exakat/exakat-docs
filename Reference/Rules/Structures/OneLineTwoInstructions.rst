@@ -6,37 +6,21 @@
 Several Instructions On The Same Line
 +++++++++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Several Instructions On The Same Line: Usually, instructions do not share their line : one instruction, one line.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Several Instructions On The Same Line
-
 	:twitter:description: Several Instructions On The Same Line: Usually, instructions do not share their line : one instruction, one line
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Several Instructions On The Same Line
-
 	:og:type: article
-
 	:og:description: Usually, instructions do not share their line : one instruction, one line
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Several Instructions On The Same Line.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

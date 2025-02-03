@@ -6,37 +6,21 @@
 Same Name For Property And Method
 +++++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Same Name For Property And Method: A property and a method have the same name.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Same Name For Property And Method
-
 	:twitter:description: Same Name For Property And Method: A property and a method have the same name
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Same Name For Property And Method
-
 	:og:type: article
-
 	:og:description: A property and a method have the same name
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Same Name For Property And Method.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

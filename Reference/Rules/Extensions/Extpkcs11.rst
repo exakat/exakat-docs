@@ -6,37 +6,21 @@
 ext/pkcs11
 ++++++++++
 
-
 .. meta::
-
 	:description:
-
 		ext/pkcs11: In cryptography, PKCS #11 is one of the Public-Key Cryptography Standards.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: ext/pkcs11
-
 	:twitter:description: ext/pkcs11: In cryptography, PKCS #11 is one of the Public-Key Cryptography Standards
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: ext/pkcs11
-
 	:og:type: article
-
 	:og:description: In cryptography, PKCS #11 is one of the Public-Key Cryptography Standards
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/pkcs11.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

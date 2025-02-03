@@ -6,37 +6,21 @@
 Is Library
 ++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Is Library: Is this project a library (it must be used in a larger project) or a standalone code.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Is Library
-
 	:twitter:description: Is Library: Is this project a library (it must be used in a larger project) or a standalone code
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Is Library
-
 	:og:type: article
-
 	:og:description: Is this project a library (it must be used in a larger project) or a standalone code
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Is Library.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

@@ -6,37 +6,21 @@
 Should Use Existing Constants
 +++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Should Use Existing Constants: The following functions have related constants that should be used as arguments, instead of scalar literals, such as integers or strings.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Should Use Existing Constants
-
 	:twitter:description: Should Use Existing Constants: The following functions have related constants that should be used as arguments, instead of scalar literals, such as integers or strings
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Should Use Existing Constants
-
 	:og:type: article
-
 	:og:description: The following functions have related constants that should be used as arguments, instead of scalar literals, such as integers or strings
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Should Use Existing Constants.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

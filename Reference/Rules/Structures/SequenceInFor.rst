@@ -6,37 +6,21 @@
 Sequences In For
 ++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Sequences In For: For() instructions allow several instructions in each of its parameters.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Sequences In For
-
 	:twitter:description: Sequences In For: For() instructions allow several instructions in each of its parameters
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Sequences In For
-
 	:og:type: article
-
 	:og:description: For() instructions allow several instructions in each of its parameters
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Sequences In For.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

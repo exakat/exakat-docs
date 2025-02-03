@@ -6,37 +6,21 @@
 Property Could Be Private
 +++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Property Could Be Private: The following properties are never used outside their class of definition.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Property Could Be Private
-
 	:twitter:description: Property Could Be Private: The following properties are never used outside their class of definition
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Property Could Be Private
-
 	:og:type: article
-
 	:og:description: The following properties are never used outside their class of definition
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Property Could Be Private.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

@@ -6,37 +6,21 @@
 Locally Used Property In Trait
 ++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Locally Used Property In Trait: List of properties that are used in the trait where they are defined.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Locally Used Property In Trait
-
 	:twitter:description: Locally Used Property In Trait: List of properties that are used in the trait where they are defined
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Locally Used Property In Trait
-
 	:og:type: article
-
 	:og:description: List of properties that are used in the trait where they are defined
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Locally Used Property In Trait.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

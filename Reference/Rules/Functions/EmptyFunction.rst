@@ -6,37 +6,21 @@
 Empty Function
 ++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Empty Function: Function or method whose body is empty.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Empty Function
-
 	:twitter:description: Empty Function: Function or method whose body is empty
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Empty Function
-
 	:og:type: article
-
 	:og:description: Function or method whose body is empty
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Empty Function.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

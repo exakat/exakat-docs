@@ -6,37 +6,21 @@
 Constant Definition
 +++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Constant Definition: List of class constants being defined.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Constant Definition
-
 	:twitter:description: Constant Definition: List of class constants being defined
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Constant Definition
-
 	:og:type: article
-
 	:og:description: List of class constants being defined
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Constant Definition.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

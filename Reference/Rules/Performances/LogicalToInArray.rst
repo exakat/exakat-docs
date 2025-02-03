@@ -6,37 +6,21 @@
 Logical To in_array
 +++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Logical To in_array: Multiple exclusive comparisons with ``or``` may be replaced by faster alternative.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Logical To in_array
-
 	:twitter:description: Logical To in_array: Multiple exclusive comparisons with ``or``` may be replaced by faster alternative
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Logical To in_array
-
 	:og:type: article
-
 	:og:description: Multiple exclusive comparisons with ``or``` may be replaced by faster alternative
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Logical To in_array.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

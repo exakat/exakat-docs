@@ -6,37 +6,21 @@
 Dynamic Function Call
 +++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Dynamic Function Call: Mark a functioncall made with a variable name.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Dynamic Function Call
-
 	:twitter:description: Dynamic Function Call: Mark a functioncall made with a variable name
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Dynamic Function Call
-
 	:og:type: article
-
 	:og:description: Mark a functioncall made with a variable name
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Dynamic Function Call.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

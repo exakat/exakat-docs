@@ -6,37 +6,21 @@
 __halt_compiler
 +++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		__halt_compiler: This rule reports ``__halt_compiler()`` usage.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: __halt_compiler
-
 	:twitter:description: __halt_compiler: This rule reports ``__halt_compiler()`` usage
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: __halt_compiler
-
 	:og:type: article
-
 	:og:description: This rule reports ``__halt_compiler()`` usage
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/__halt_compiler.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

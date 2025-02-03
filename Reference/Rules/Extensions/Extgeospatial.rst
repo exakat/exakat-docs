@@ -6,37 +6,21 @@
 Geospatial
 ++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Geospatial: PHP Extension to handle common geospatial functions.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Geospatial
-
 	:twitter:description: Geospatial: PHP Extension to handle common geospatial functions
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Geospatial
-
 	:og:type: article
-
 	:og:description: PHP Extension to handle common geospatial functions
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Geospatial.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

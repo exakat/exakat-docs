@@ -6,37 +6,21 @@
 Non Ascii Variables
 +++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Non Ascii Variables: PHP allows certain characters in variable names.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Non Ascii Variables
-
 	:twitter:description: Non Ascii Variables: PHP allows certain characters in variable names
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Non Ascii Variables
-
 	:og:type: article
-
 	:og:description: PHP allows certain characters in variable names
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Non Ascii Variables.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

@@ -6,37 +6,21 @@
 ext/fann
 ++++++++
 
-
 .. meta::
-
 	:description:
-
 		ext/fann: Extension ``FANN`` : Fast Artificial Neural Network.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: ext/fann
-
 	:twitter:description: ext/fann: Extension ``FANN`` : Fast Artificial Neural Network
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: ext/fann
-
 	:og:type: article
-
 	:og:description: Extension ``FANN`` : Fast Artificial Neural Network
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/fann.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

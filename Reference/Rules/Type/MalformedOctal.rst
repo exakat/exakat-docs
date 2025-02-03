@@ -6,37 +6,21 @@
 Malformed Octal
 +++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Malformed Octal: Those numbers starts with a 0, so they are using the PHP octal convention.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Malformed Octal
-
 	:twitter:description: Malformed Octal: Those numbers starts with a 0, so they are using the PHP octal convention
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Malformed Octal
-
 	:og:type: article
-
 	:og:description: Those numbers starts with a 0, so they are using the PHP octal convention
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Malformed Octal.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

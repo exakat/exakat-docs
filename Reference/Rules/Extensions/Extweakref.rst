@@ -6,37 +6,21 @@
 ext/weakref
 +++++++++++
 
-
 .. meta::
-
 	:description:
-
 		ext/weakref: Weak References for PHP.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: ext/weakref
-
 	:twitter:description: ext/weakref: Weak References for PHP
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: ext/weakref
-
 	:og:type: article
-
 	:og:description: Weak References for PHP
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/weakref.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

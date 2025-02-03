@@ -6,37 +6,21 @@
 Only Variable Passed By Reference
 +++++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Only Variable Passed By Reference: Some methods require a variable as argument.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Only Variable Passed By Reference
-
 	:twitter:description: Only Variable Passed By Reference: Some methods require a variable as argument
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Only Variable Passed By Reference
-
 	:og:type: article
-
 	:og:description: Some methods require a variable as argument
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Only Variable Passed By Reference.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

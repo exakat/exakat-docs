@@ -6,37 +6,21 @@
 Do In Base
 ++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Do In Base: Use SQL expression to compute aggregates in the database.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Do In Base
-
 	:twitter:description: Do In Base: Use SQL expression to compute aggregates in the database
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Do In Base
-
 	:og:type: article
-
 	:og:description: Use SQL expression to compute aggregates in the database
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Do In Base.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

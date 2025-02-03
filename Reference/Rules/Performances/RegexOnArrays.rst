@@ -6,37 +6,21 @@
 Regex On Arrays
 +++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Regex On Arrays: Avoid using a loop with arrays of regex or values.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Regex On Arrays
-
 	:twitter:description: Regex On Arrays: Avoid using a loop with arrays of regex or values
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Regex On Arrays
-
 	:og:type: article
-
 	:og:description: Avoid using a loop with arrays of regex or values
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Regex On Arrays.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

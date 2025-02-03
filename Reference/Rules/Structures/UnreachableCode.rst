@@ -6,37 +6,21 @@
 Unreachable Code
 ++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Unreachable Code: Code may be unreachable, because other instructions prevent its reaching.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Unreachable Code
-
 	:twitter:description: Unreachable Code: Code may be unreachable, because other instructions prevent its reaching
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Unreachable Code
-
 	:og:type: article
-
 	:og:description: Code may be unreachable, because other instructions prevent its reaching
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Unreachable Code.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

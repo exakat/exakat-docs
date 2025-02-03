@@ -6,37 +6,21 @@
 Typo 3 usage
 ++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Typo 3 usage: This rule reports usage of the Typo 3 CMS API in the code.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Typo 3 usage
-
 	:twitter:description: Typo 3 usage: This rule reports usage of the Typo 3 CMS API in the code
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Typo 3 usage
-
 	:og:type: article
-
 	:og:description: This rule reports usage of the Typo 3 CMS API in the code
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Typo 3 usage.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

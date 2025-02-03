@@ -6,37 +6,21 @@
 Overwritten Class Constants
 +++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Overwritten Class Constants: Those class constants are overwriting  a parent class's constant.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Overwritten Class Constants
-
 	:twitter:description: Overwritten Class Constants: Those class constants are overwriting  a parent class's constant
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Overwritten Class Constants
-
 	:og:type: article
-
 	:og:description: Those class constants are overwriting  a parent class's constant
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Overwritten Class Constants.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

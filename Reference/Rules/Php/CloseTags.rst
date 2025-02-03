@@ -6,37 +6,21 @@
 Closing Tags
 ++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Closing Tags: PHP manual recommends that script should be left open, without the final closing ``.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Closing Tags
-
 	:twitter:description: Closing Tags: PHP manual recommends that script should be left open, without the final closing ``
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Closing Tags
-
 	:og:type: article
-
 	:og:description: PHP manual recommends that script should be left open, without the final closing ``
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Closing Tags.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

@@ -6,37 +6,21 @@
 Useless Return
 ++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Useless Return: The spotted functions or methods have a return statement, but this statement is useless.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Useless Return
-
 	:twitter:description: Useless Return: The spotted functions or methods have a return statement, but this statement is useless
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Useless Return
-
 	:og:type: article
-
 	:og:description: The spotted functions or methods have a return statement, but this statement is useless
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Useless Return.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

@@ -6,37 +6,21 @@
 Collect Property Usage
 ++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Collect Property Usage: Collect the level of usage of a property.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Collect Property Usage
-
 	:twitter:description: Collect Property Usage: Collect the level of usage of a property
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Collect Property Usage
-
 	:og:type: article
-
 	:og:description: Collect the level of usage of a property
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Collect Property Usage.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

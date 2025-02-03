@@ -18,6 +18,7 @@ Preferences
 	:og:description: Identify preferences in the code.
 	:og:url: https://exakat.readthedocs.io/en/latest/Rulesets/Preferences.html
 	:og:locale: en
+
 This ruleset identify code with multiple forms, and report when one is more frequent than the others. Echo vs print, shell_exec() vs ``, etc.
 
 Total : 40 analysis

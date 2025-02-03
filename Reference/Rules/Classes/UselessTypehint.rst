@@ -6,37 +6,21 @@
 Useless Type
 ++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Useless Type: __get() and __set() magic methods won't enforce any type.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Useless Type
-
 	:twitter:description: Useless Type: __get() and __set() magic methods won't enforce any type
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Useless Type
-
 	:og:type: article
-
 	:og:description: __get() and __set() magic methods won't enforce any type
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Useless Type.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

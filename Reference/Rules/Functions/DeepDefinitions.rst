@@ -6,37 +6,21 @@
 Deep Definitions
 ++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Deep Definitions: Structures, such as functions, classes, interfaces, traits, enum, etc.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Deep Definitions
-
 	:twitter:description: Deep Definitions: Structures, such as functions, classes, interfaces, traits, enum, etc
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Deep Definitions
-
 	:og:type: article
-
 	:og:description: Structures, such as functions, classes, interfaces, traits, enum, etc
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Deep Definitions.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

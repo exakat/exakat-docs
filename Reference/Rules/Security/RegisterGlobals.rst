@@ -6,37 +6,21 @@
 Register Globals
 ++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Register Globals: ``register_globals`` was a PHP directive that dumped all incoming variables from GET, POST, COOKIE and FILES as global variables in the called scripts.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Register Globals
-
 	:twitter:description: Register Globals: ``register_globals`` was a PHP directive that dumped all incoming variables from GET, POST, COOKIE and FILES as global variables in the called scripts
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Register Globals
-
 	:og:type: article
-
 	:og:description: ``register_globals`` was a PHP directive that dumped all incoming variables from GET, POST, COOKIE and FILES as global variables in the called scripts
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Register Globals.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

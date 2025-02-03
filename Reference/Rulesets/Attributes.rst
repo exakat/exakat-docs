@@ -18,6 +18,7 @@ Attributes
 	:og:description: This ruleset gathers all rules that rely on PHP 8.+ attributes.
 	:og:url: https://exakat.readthedocs.io/en/latest/Rulesets/Attributes.html
 	:og:locale: en
+
 This ruleset gathers all rules that rely on PHP 8.+ attributes.
 
 Total : 13 analysis

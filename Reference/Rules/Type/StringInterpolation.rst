@@ -6,37 +6,21 @@
 Interpolation
 +++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Interpolation: The following strings contain variables that are will be replaced.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Interpolation
-
 	:twitter:description: Interpolation: The following strings contain variables that are will be replaced
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Interpolation
-
 	:og:type: article
-
 	:og:description: The following strings contain variables that are will be replaced
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Interpolation.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

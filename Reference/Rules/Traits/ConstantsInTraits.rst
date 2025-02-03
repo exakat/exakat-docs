@@ -6,37 +6,21 @@
 Constants In Traits
 +++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Constants In Traits: Traits may have their own constants.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Constants In Traits
-
 	:twitter:description: Constants In Traits: Traits may have their own constants
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Constants In Traits
-
 	:og:type: article
-
 	:og:description: Traits may have their own constants
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Constants In Traits.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

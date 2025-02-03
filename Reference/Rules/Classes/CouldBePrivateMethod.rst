@@ -6,37 +6,21 @@
 Method Could Be Private Method
 ++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Method Could Be Private Method: The following methods are never used outside their class of definition.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Method Could Be Private Method
-
 	:twitter:description: Method Could Be Private Method: The following methods are never used outside their class of definition
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Method Could Be Private Method
-
 	:og:type: article
-
 	:og:description: The following methods are never used outside their class of definition
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Method Could Be Private Method.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

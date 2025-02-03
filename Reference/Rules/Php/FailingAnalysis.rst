@@ -6,37 +6,21 @@
 Failing Analysis
 ++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Failing Analysis: This is a dummy analysis.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Failing Analysis
-
 	:twitter:description: Failing Analysis: This is a dummy analysis
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Failing Analysis
-
 	:og:type: article
-
 	:og:description: This is a dummy analysis
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Failing Analysis.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

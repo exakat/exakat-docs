@@ -6,37 +6,21 @@
 ext/pcov
 ++++++++
 
-
 .. meta::
-
 	:description:
-
 		ext/pcov: CodeCoverage compatible driver for PHP.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: ext/pcov
-
 	:twitter:description: ext/pcov: CodeCoverage compatible driver for PHP
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: ext/pcov
-
 	:og:type: article
-
 	:og:description: CodeCoverage compatible driver for PHP
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/pcov.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

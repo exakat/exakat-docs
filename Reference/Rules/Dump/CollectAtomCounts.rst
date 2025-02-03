@@ -6,37 +6,21 @@
 Collect Atom Counts
 +++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Collect Atom Counts: Collects the list of each atom detected in the code by the engine, and the number of occurrences.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Collect Atom Counts
-
 	:twitter:description: Collect Atom Counts: Collects the list of each atom detected in the code by the engine, and the number of occurrences
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Collect Atom Counts
-
 	:og:type: article
-
 	:og:description: Collects the list of each atom detected in the code by the engine, and the number of occurrences
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Collect Atom Counts.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

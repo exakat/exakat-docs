@@ -6,37 +6,21 @@
 Injectable Version
 ++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Injectable Version: The Injectable Version attribute mark a class in a class hierarchy to be the one to use when giving a type to a parameter, return type or property.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Injectable Version
-
 	:twitter:description: Injectable Version: The Injectable Version attribute mark a class in a class hierarchy to be the one to use when giving a type to a parameter, return type or property
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Injectable Version
-
 	:og:type: article
-
 	:og:description: The Injectable Version attribute mark a class in a class hierarchy to be the one to use when giving a type to a parameter, return type or property
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Injectable Version.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

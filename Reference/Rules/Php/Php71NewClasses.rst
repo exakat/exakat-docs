@@ -6,37 +6,21 @@
 Php 7.1 New Class
 +++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Php 7.1 New Class: New classes, introduced in PHP 7.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Php 7.1 New Class
-
 	:twitter:description: Php 7.1 New Class: New classes, introduced in PHP 7
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Php 7.1 New Class
-
 	:og:type: article
-
 	:og:description: New classes, introduced in PHP 7
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Php 7.1 New Class.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

@@ -6,37 +6,21 @@
 Calltime Pass By Reference
 ++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Calltime Pass By Reference: PHP doesn't allow when a value is turned into a reference at functioncall, since PHP 5.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Calltime Pass By Reference
-
 	:twitter:description: Calltime Pass By Reference: PHP doesn't allow when a value is turned into a reference at functioncall, since PHP 5
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Calltime Pass By Reference
-
 	:og:type: article
-
 	:og:description: PHP doesn't allow when a value is turned into a reference at functioncall, since PHP 5
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Calltime Pass By Reference.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

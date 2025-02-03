@@ -6,37 +6,21 @@
 Printf Number Of Arguments
 ++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Printf Number Of Arguments: The number of arguments provided to printf(), vprintf() and vsprintf() doesn't match the format string.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Printf Number Of Arguments
-
 	:twitter:description: Printf Number Of Arguments: The number of arguments provided to printf(), vprintf() and vsprintf() doesn't match the format string
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Printf Number Of Arguments
-
 	:og:type: article
-
 	:og:description: The number of arguments provided to printf(), vprintf() and vsprintf() doesn't match the format string
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Printf Number Of Arguments.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

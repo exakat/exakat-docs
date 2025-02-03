@@ -6,37 +6,21 @@
 Unreadable Interval Check
 +++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Unreadable Interval Check: When checking that a value belongs to a certain interval, the interval check should use && and not ||.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Unreadable Interval Check
-
 	:twitter:description: Unreadable Interval Check: When checking that a value belongs to a certain interval, the interval check should use && and not ||
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Unreadable Interval Check
-
 	:og:type: article
-
 	:og:description: When checking that a value belongs to a certain interval, the interval check should use && and not ||
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Unreadable Interval Check.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

@@ -6,37 +6,21 @@
 Collect Classes Dependencies
 ++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Collect Classes Dependencies: This rule collects class dependencies.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Collect Classes Dependencies
-
 	:twitter:description: Collect Classes Dependencies: This rule collects class dependencies
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Collect Classes Dependencies
-
 	:og:type: article
-
 	:og:description: This rule collects class dependencies
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Collect Classes Dependencies.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

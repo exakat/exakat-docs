@@ -6,37 +6,21 @@
 Filter To add_slashes()
 +++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Filter To add_slashes(): ``FILTER_SANITIZE_MAGIC_QUOTES`` is deprecated.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Filter To add_slashes()
-
 	:twitter:description: Filter To add_slashes(): ``FILTER_SANITIZE_MAGIC_QUOTES`` is deprecated
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Filter To add_slashes()
-
 	:og:type: article
-
 	:og:description: ``FILTER_SANITIZE_MAGIC_QUOTES`` is deprecated
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Filter To add_slashes().html
-
 	:og:locale: en
-
 
 .. raw:: html
 

@@ -6,37 +6,21 @@
 Avoid array_push()
 ++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Avoid array_push(): array_push() is slower than the append ``[]`` operator.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Avoid array_push()
-
 	:twitter:description: Avoid array_push(): array_push() is slower than the append ``[]`` operator
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Avoid array_push()
-
 	:og:type: article
-
 	:og:description: array_push() is slower than the append ``[]`` operator
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Avoid array_push().html
-
 	:og:locale: en
-
 
 .. raw:: html
 

@@ -6,37 +6,21 @@
 Init Then Update
 ++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Init Then Update: This is a structure where the variable is initialized in the main sequence of the code, then adapted to another value in a subsequent if structure.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Init Then Update
-
 	:twitter:description: Init Then Update: This is a structure where the variable is initialized in the main sequence of the code, then adapted to another value in a subsequent if structure
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Init Then Update
-
 	:og:type: article
-
 	:og:description: This is a structure where the variable is initialized in the main sequence of the code, then adapted to another value in a subsequent if structure
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Init Then Update.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

@@ -6,37 +6,21 @@
 version_compare() Operator
 ++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		version_compare() Operator: version_compare()'s third argument is checked for its value.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: version_compare() Operator
-
 	:twitter:description: version_compare() Operator: version_compare()'s third argument is checked for its value
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: version_compare() Operator
-
 	:og:type: article
-
 	:og:description: version_compare()'s third argument is checked for its value
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/version_compare() Operator.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

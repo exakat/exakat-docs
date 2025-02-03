@@ -6,37 +6,21 @@
 Property Used In One Method Only
 ++++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Property Used In One Method Only: Properties should be used in several methods.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Property Used In One Method Only
-
 	:twitter:description: Property Used In One Method Only: Properties should be used in several methods
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Property Used In One Method Only
-
 	:og:type: article
-
 	:og:description: Properties should be used in several methods
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Property Used In One Method Only.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

@@ -6,37 +6,21 @@
 Fossilized Methods List
 +++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Fossilized Methods List: This is the list of fossilized methods.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Fossilized Methods List
-
 	:twitter:description: Fossilized Methods List: This is the list of fossilized methods
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Fossilized Methods List
-
 	:og:type: article
-
 	:og:description: This is the list of fossilized methods
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Fossilized Methods List.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

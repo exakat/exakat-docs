@@ -6,37 +6,21 @@
 Make All Statics
 ++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Make All Statics: This links each `static` keyword to all possible classes definition.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Make All Statics
-
 	:twitter:description: Make All Statics: This links each `static` keyword to all possible classes definition
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Make All Statics
-
 	:og:type: article
-
 	:og:description: This links each `static` keyword to all possible classes definition
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Make All Statics.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

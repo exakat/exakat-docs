@@ -6,37 +6,21 @@
 PHP 8.0 Types
 +++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		PHP 8.0 Types: New scalar types were introduced : mixed and false.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: PHP 8.0 Types
-
 	:twitter:description: PHP 8.0 Types: New scalar types were introduced : mixed and false
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: PHP 8.0 Types
-
 	:og:type: article
-
 	:og:description: New scalar types were introduced : mixed and false
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/PHP 8.0 Types.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

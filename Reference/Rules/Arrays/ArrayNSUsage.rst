@@ -6,37 +6,21 @@
 Short Syntax For Arrays
 +++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Short Syntax For Arrays: Arrays written with the new short syntax.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Short Syntax For Arrays
-
 	:twitter:description: Short Syntax For Arrays: Arrays written with the new short syntax
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Short Syntax For Arrays
-
 	:og:type: article
-
 	:og:description: Arrays written with the new short syntax
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Short Syntax For Arrays.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

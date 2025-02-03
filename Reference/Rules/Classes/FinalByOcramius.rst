@@ -6,37 +6,21 @@
 Class Should Be Final By Ocramius
 +++++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Class Should Be Final By Ocramius: 'Make your classes always final, if they implement an interface, and no other public methods are defined'.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Class Should Be Final By Ocramius
-
 	:twitter:description: Class Should Be Final By Ocramius: 'Make your classes always final, if they implement an interface, and no other public methods are defined'
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Class Should Be Final By Ocramius
-
 	:og:type: article
-
 	:og:description: 'Make your classes always final, if they implement an interface, and no other public methods are defined'
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Class Should Be Final By Ocramius.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

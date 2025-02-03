@@ -6,37 +6,21 @@
 Can't Extend Final Class
 ++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Can't Extend Final Class: It is not possible to extend final classes.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Can't Extend Final Class
-
 	:twitter:description: Can't Extend Final Class: It is not possible to extend final classes
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Can't Extend Final Class
-
 	:og:type: article
-
 	:og:description: It is not possible to extend final classes
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Can't Extend Final Class.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

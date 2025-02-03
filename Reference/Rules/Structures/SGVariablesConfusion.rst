@@ -6,37 +6,21 @@
 Static Global Variables Confusion
 +++++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Static Global Variables Confusion: PHP can't have variable that are both static and global variable.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Static Global Variables Confusion
-
 	:twitter:description: Static Global Variables Confusion: PHP can't have variable that are both static and global variable
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Static Global Variables Confusion
-
 	:og:type: article
-
 	:og:description: PHP can't have variable that are both static and global variable
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Static Global Variables Confusion.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

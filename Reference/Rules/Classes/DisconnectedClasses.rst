@@ -6,37 +6,21 @@
 Disconnected Classes
 ++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Disconnected Classes: One class is extending the other, but they do not use any features from one another.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Disconnected Classes
-
 	:twitter:description: Disconnected Classes: One class is extending the other, but they do not use any features from one another
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Disconnected Classes
-
 	:og:type: article
-
 	:og:description: One class is extending the other, but they do not use any features from one another
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Disconnected Classes.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

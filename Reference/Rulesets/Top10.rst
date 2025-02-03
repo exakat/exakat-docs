@@ -18,6 +18,7 @@ Top10
 	:og:description: The most common issues found in the code
 	:og:url: https://exakat.readthedocs.io/en/latest/Rulesets/Top10.html
 	:og:locale: en
+
 This ruleset is a selection of analysis, with the top 10 most common. Actually, it is a little larger than that. 
 
 Total : 28 analysis

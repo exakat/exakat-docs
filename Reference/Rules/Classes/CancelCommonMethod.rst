@@ -6,37 +6,21 @@
 Cancel Common Method
 ++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Cancel Common Method: A parent method's is too little used in children.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Cancel Common Method
-
 	:twitter:description: Cancel Common Method: A parent method's is too little used in children
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Cancel Common Method
-
 	:og:type: article
-
 	:og:description: A parent method's is too little used in children
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Cancel Common Method.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

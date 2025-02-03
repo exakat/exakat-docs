@@ -6,37 +6,21 @@
 Extensions yar
 ++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Extensions yar: yar : Yet Another RPC framework.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Extensions yar
-
 	:twitter:description: Extensions yar: yar : Yet Another RPC framework
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Extensions yar
-
 	:og:type: article
-
 	:og:description: yar : Yet Another RPC framework
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Extensions yar.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

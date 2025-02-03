@@ -6,37 +6,21 @@
 Null Or Boolean Arrays
 ++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Null Or Boolean Arrays: Null, int, floats, booleans are valid with PHP array syntx.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Null Or Boolean Arrays
-
 	:twitter:description: Null Or Boolean Arrays: Null, int, floats, booleans are valid with PHP array syntx
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Null Or Boolean Arrays
-
 	:og:type: article
-
 	:og:description: Null, int, floats, booleans are valid with PHP array syntx
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Null Or Boolean Arrays.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

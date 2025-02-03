@@ -6,37 +6,21 @@
 include_once() Usage
 ++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		include_once() Usage: This rules reports sage of ``include_once()`` and ``require_once()``.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: include_once() Usage
-
 	:twitter:description: include_once() Usage: This rules reports sage of ``include_once()`` and ``require_once()``
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: include_once() Usage
-
 	:og:type: article
-
 	:og:description: This rules reports sage of ``include_once()`` and ``require_once()``
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/include_once() Usage.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

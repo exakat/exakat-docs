@@ -6,37 +6,21 @@
 Can't Count Non-Countable
 +++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Can't Count Non-Countable: Count() emits an error when it tries to count scalars or objects what don't implement Countable interface.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Can't Count Non-Countable
-
 	:twitter:description: Can't Count Non-Countable: Count() emits an error when it tries to count scalars or objects what don't implement Countable interface
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Can't Count Non-Countable
-
 	:og:type: article
-
 	:og:description: Count() emits an error when it tries to count scalars or objects what don't implement Countable interface
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Can't Count Non-Countable.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

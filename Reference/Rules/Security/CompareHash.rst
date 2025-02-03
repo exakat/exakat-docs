@@ -6,37 +6,21 @@
 Compare Hash
 ++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Compare Hash: When comparing hash values, it is important to use the strict comparison : hash_equals(), ``===`` or ``!==``.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Compare Hash
-
 	:twitter:description: Compare Hash: When comparing hash values, it is important to use the strict comparison : hash_equals(), ``===`` or ``!==``
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Compare Hash
-
 	:og:type: article
-
 	:og:description: When comparing hash values, it is important to use the strict comparison : hash_equals(), ``===`` or ``!==``
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Compare Hash.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

@@ -6,37 +6,21 @@
 Cast Unset Usage
 ++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Cast Unset Usage: Usage of the `(unset)` cast operator was removed.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Cast Unset Usage
-
 	:twitter:description: Cast Unset Usage: Usage of the `(unset)` cast operator was removed
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Cast Unset Usage
-
 	:og:type: article
-
 	:og:description: Usage of the `(unset)` cast operator was removed
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Cast Unset Usage.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

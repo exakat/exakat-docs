@@ -18,6 +18,7 @@ CompatibilityPHP55
 	:og:description: List features that are incompatible with PHP 5.5.
 	:og:url: https://exakat.readthedocs.io/en/latest/Rulesets/CompatibilityPHP55.html
 	:og:locale: en
+
 This ruleset centralizes all analysis for the migration from PHP 5.4 to 5.5.
 
 Total : 87 analysis

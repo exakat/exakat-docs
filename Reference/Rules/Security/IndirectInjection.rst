@@ -6,37 +6,21 @@
 Indirect Injection
 ++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Indirect Injection: This rule reports injections through indirect usage of $_GET, $_POST, $_REQUEST, $_COOKIE values.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Indirect Injection
-
 	:twitter:description: Indirect Injection: This rule reports injections through indirect usage of $_GET, $_POST, $_REQUEST, $_COOKIE values
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Indirect Injection
-
 	:og:type: article
-
 	:og:description: This rule reports injections through indirect usage of $_GET, $_POST, $_REQUEST, $_COOKIE values
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Indirect Injection.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

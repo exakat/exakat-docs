@@ -6,37 +6,21 @@
 Too Many Native Calls
 +++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Too Many Native Calls: Avoid stuffing too many PHP native call inside another functioncall.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Too Many Native Calls
-
 	:twitter:description: Too Many Native Calls: Avoid stuffing too many PHP native call inside another functioncall
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Too Many Native Calls
-
 	:og:type: article
-
 	:og:description: Avoid stuffing too many PHP native call inside another functioncall
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Too Many Native Calls.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

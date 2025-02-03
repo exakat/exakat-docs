@@ -6,37 +6,21 @@
 Perl Regex
 ++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Perl Regex: List of all the Perl Regex (PCRE-style).
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Perl Regex
-
 	:twitter:description: Perl Regex: List of all the Perl Regex (PCRE-style)
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Perl Regex
-
 	:og:type: article
-
 	:og:description: List of all the Perl Regex (PCRE-style)
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Perl Regex.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

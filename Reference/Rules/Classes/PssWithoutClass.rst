@@ -6,37 +6,21 @@
 Parent, Static Or Self Outside Class
 ++++++++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Parent, Static Or Self Outside Class: Parent, static and self keywords must be used within a class, a trait, an interface or an enum.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Parent, Static Or Self Outside Class
-
 	:twitter:description: Parent, Static Or Self Outside Class: Parent, static and self keywords must be used within a class, a trait, an interface or an enum
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Parent, Static Or Self Outside Class
-
 	:og:type: article
-
 	:og:description: Parent, static and self keywords must be used within a class, a trait, an interface or an enum
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Parent, Static Or Self Outside Class.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

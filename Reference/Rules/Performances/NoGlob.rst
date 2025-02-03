@@ -6,37 +6,21 @@
 Avoid glob() Usage
 ++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Avoid glob() Usage: glob() and scandir() sorts results by default.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Avoid glob() Usage
-
 	:twitter:description: Avoid glob() Usage: glob() and scandir() sorts results by default
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Avoid glob() Usage
-
 	:og:type: article
-
 	:og:description: glob() and scandir() sorts results by default
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Avoid glob() Usage.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

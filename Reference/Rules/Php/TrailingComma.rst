@@ -6,37 +6,21 @@
 Trailing Comma In Calls
 +++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Trailing Comma In Calls: The last argument may be left empty.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Trailing Comma In Calls
-
 	:twitter:description: Trailing Comma In Calls: The last argument may be left empty
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Trailing Comma In Calls
-
 	:og:type: article
-
 	:og:description: The last argument may be left empty
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Trailing Comma In Calls.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

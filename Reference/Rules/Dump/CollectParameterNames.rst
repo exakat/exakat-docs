@@ -6,37 +6,21 @@
 Collect Parameter Names
 +++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Collect Parameter Names: This analysis collects the names of all parameters.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Collect Parameter Names
-
 	:twitter:description: Collect Parameter Names: This analysis collects the names of all parameters
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Collect Parameter Names
-
 	:og:type: article
-
 	:og:description: This analysis collects the names of all parameters
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Collect Parameter Names.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

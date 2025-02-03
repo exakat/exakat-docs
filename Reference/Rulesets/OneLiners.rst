@@ -18,6 +18,7 @@ One Liners
 	:og:description: Report expressions that are one liners.
 	:og:url: https://exakat.readthedocs.io/en/latest/Rulesets/One Liners.html
 	:og:locale: en
+
 This ruleset focuses on reporting one liners, which makes using an IDE had.
 
 Total : 5 analysis

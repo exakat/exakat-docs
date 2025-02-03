@@ -6,37 +6,21 @@
 Assign And Compare
 ++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Assign And Compare: Assignation has a lower precedence than comparison.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Assign And Compare
-
 	:twitter:description: Assign And Compare: Assignation has a lower precedence than comparison
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Assign And Compare
-
 	:og:type: article
-
 	:og:description: Assignation has a lower precedence than comparison
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Assign And Compare.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

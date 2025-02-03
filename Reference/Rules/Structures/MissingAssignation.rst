@@ -6,37 +6,21 @@
 Missing Assignation In Branches
 +++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Missing Assignation In Branches: A variable is assigned in one of the branch, but not the other.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Missing Assignation In Branches
-
 	:twitter:description: Missing Assignation In Branches: A variable is assigned in one of the branch, but not the other
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Missing Assignation In Branches
-
 	:og:type: article
-
 	:og:description: A variable is assigned in one of the branch, but not the other
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Missing Assignation In Branches.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

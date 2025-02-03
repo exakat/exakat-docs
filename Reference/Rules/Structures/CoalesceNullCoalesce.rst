@@ -6,37 +6,21 @@
 Coalesce And Ternary Operators Order
 ++++++++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Coalesce And Ternary Operators Order: The ternary operator and the null-coalesce operator cannot be used in any order.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Coalesce And Ternary Operators Order
-
 	:twitter:description: Coalesce And Ternary Operators Order: The ternary operator and the null-coalesce operator cannot be used in any order
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Coalesce And Ternary Operators Order
-
 	:og:type: article
-
 	:og:description: The ternary operator and the null-coalesce operator cannot be used in any order
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Coalesce And Ternary Operators Order.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

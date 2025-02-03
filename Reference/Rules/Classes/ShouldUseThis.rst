@@ -6,37 +6,21 @@
 Should Use Local Class
 ++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Should Use Local Class: Methods should use the defining class, or be functions.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Should Use Local Class
-
 	:twitter:description: Should Use Local Class: Methods should use the defining class, or be functions
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Should Use Local Class
-
 	:og:type: article
-
 	:og:description: Methods should use the defining class, or be functions
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Should Use Local Class.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

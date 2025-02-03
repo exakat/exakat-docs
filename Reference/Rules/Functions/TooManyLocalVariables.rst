@@ -6,37 +6,21 @@
 Too Many Local Variables
 ++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Too Many Local Variables: Too many local variables were found in the methods.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Too Many Local Variables
-
 	:twitter:description: Too Many Local Variables: Too many local variables were found in the methods
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Too Many Local Variables
-
 	:og:type: article
-
 	:og:description: Too many local variables were found in the methods
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Too Many Local Variables.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

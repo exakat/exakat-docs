@@ -6,37 +6,21 @@
 Const Or Define Preference
 ++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Const Or Define Preference: ``Const`` and define() have almost the same functional use : they create constants.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Const Or Define Preference
-
 	:twitter:description: Const Or Define Preference: ``Const`` and define() have almost the same functional use : they create constants
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Const Or Define Preference
-
 	:og:type: article
-
 	:og:description: ``Const`` and define() have almost the same functional use : they create constants
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Const Or Define Preference.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

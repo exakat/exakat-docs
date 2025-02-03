@@ -6,37 +6,21 @@
 Test Class
 ++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Test Class: Those are test classes, based on popular UT frameworks.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Test Class
-
 	:twitter:description: Test Class: Those are test classes, based on popular UT frameworks
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Test Class
-
 	:og:type: article
-
 	:og:description: Those are test classes, based on popular UT frameworks
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Test Class.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

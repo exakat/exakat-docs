@@ -6,37 +6,21 @@
 Strpos()-like Comparison
 ++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Strpos()-like Comparison: The result of that function may be mistaken with an error.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Strpos()-like Comparison
-
 	:twitter:description: Strpos()-like Comparison: The result of that function may be mistaken with an error
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Strpos()-like Comparison
-
 	:og:type: article
-
 	:og:description: The result of that function may be mistaken with an error
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Strpos()-like Comparison.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

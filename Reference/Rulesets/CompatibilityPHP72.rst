@@ -18,6 +18,7 @@ CompatibilityPHP72
 	:og:description: List features that are incompatible with PHP 7.2.
 	:og:url: https://exakat.readthedocs.io/en/latest/Rulesets/CompatibilityPHP72.html
 	:og:locale: en
+
 This ruleset centralizes all analysis for the migration from PHP 7.1 to 7.2.
 
 Total : 52 analysis

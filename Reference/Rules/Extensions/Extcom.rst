@@ -6,37 +6,21 @@
 ext/com
 +++++++
 
-
 .. meta::
-
 	:description:
-
 		ext/com: Extension COM and ``.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: ext/com
-
 	:twitter:description: ext/com: Extension COM and ``
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: ext/com
-
 	:og:type: article
-
 	:og:description: Extension COM and ``
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/ext/com.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

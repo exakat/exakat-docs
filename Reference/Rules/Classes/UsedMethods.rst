@@ -6,37 +6,21 @@
 Used Methods
 ++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Used Methods: Those methods are used in the code: this means they have a definition and at least one call.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Used Methods
-
 	:twitter:description: Used Methods: Those methods are used in the code: this means they have a definition and at least one call
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Used Methods
-
 	:og:type: article
-
 	:og:description: Those methods are used in the code: this means they have a definition and at least one call
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Used Methods.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

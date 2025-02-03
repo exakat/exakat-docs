@@ -6,37 +6,21 @@
 Slow Functions
 ++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Slow Functions: Avoid using those slow native PHP functions, and replace them with alternatives.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Slow Functions
-
 	:twitter:description: Slow Functions: Avoid using those slow native PHP functions, and replace them with alternatives
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Slow Functions
-
 	:og:type: article
-
 	:og:description: Avoid using those slow native PHP functions, and replace them with alternatives
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Slow Functions.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

@@ -6,37 +6,21 @@
 Incoming Variable Index Inventory
 +++++++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Incoming Variable Index Inventory: This rule collects all the index used in incoming variables : ``$_GET``, ``$_POST``, ``$_REQUEST``, ``$_COOKIE``.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Incoming Variable Index Inventory
-
 	:twitter:description: Incoming Variable Index Inventory: This rule collects all the index used in incoming variables : ``$_GET``, ``$_POST``, ``$_REQUEST``, ``$_COOKIE``
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Incoming Variable Index Inventory
-
 	:og:type: article
-
 	:og:description: This rule collects all the index used in incoming variables : ``$_GET``, ``$_POST``, ``$_REQUEST``, ``$_COOKIE``
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Incoming Variable Index Inventory.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

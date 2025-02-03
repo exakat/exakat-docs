@@ -18,6 +18,7 @@ Inventory
 	:og:description: A set of rules that collect various definitions from the code 
 	:og:url: https://exakat.readthedocs.io/en/latest/Rulesets/Inventory.html
 	:og:locale: en
+
 This ruleset collect all free-text names used in the code : variables, global, arguments, methods, classes, etc...
 
 For example : 

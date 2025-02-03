@@ -6,37 +6,21 @@
 Uses Default Values
 +++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Uses Default Values: Default values are provided to methods so as to make it convenient to use.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Uses Default Values
-
 	:twitter:description: Uses Default Values: Default values are provided to methods so as to make it convenient to use
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Uses Default Values
-
 	:og:type: article
-
 	:og:description: Default values are provided to methods so as to make it convenient to use
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Uses Default Values.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

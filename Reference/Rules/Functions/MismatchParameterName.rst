@@ -6,37 +6,21 @@
 Mismatch Parameter Name
 +++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Mismatch Parameter Name: Parameter name change in overwritten method.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Mismatch Parameter Name
-
 	:twitter:description: Mismatch Parameter Name: Parameter name change in overwritten method
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Mismatch Parameter Name
-
 	:og:type: article
-
 	:og:description: Parameter name change in overwritten method
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Mismatch Parameter Name.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

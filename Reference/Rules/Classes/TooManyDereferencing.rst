@@ -6,37 +6,21 @@
 Too Many Dereferencing
 ++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Too Many Dereferencing: Linking too many properties and methods, one to the other.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Too Many Dereferencing
-
 	:twitter:description: Too Many Dereferencing: Linking too many properties and methods, one to the other
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Too Many Dereferencing
-
 	:og:type: article
-
 	:og:description: Linking too many properties and methods, one to the other
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Too Many Dereferencing.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

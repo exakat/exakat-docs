@@ -6,37 +6,21 @@
 Could Inject Parameter
 ++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Could Inject Parameter: The parameter is immediately used to create an object.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Could Inject Parameter
-
 	:twitter:description: Could Inject Parameter: The parameter is immediately used to create an object
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Could Inject Parameter
-
 	:og:type: article
-
 	:og:description: The parameter is immediately used to create an object
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Could Inject Parameter.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

@@ -6,37 +6,21 @@
 Nullable Without Check
 ++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Nullable Without Check: Nullable typed argument or properties should be checked before usage.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Nullable Without Check
-
 	:twitter:description: Nullable Without Check: Nullable typed argument or properties should be checked before usage
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Nullable Without Check
-
 	:og:type: article
-
 	:og:description: Nullable typed argument or properties should be checked before usage
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Nullable Without Check.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

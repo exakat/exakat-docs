@@ -6,37 +6,21 @@
 Use Contravariance
 ++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Use Contravariance: Contravariance is compatible argument typehint.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Use Contravariance
-
 	:twitter:description: Use Contravariance: Contravariance is compatible argument typehint
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Use Contravariance
-
 	:og:type: article
-
 	:og:description: Contravariance is compatible argument typehint
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Use Contravariance.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

@@ -6,37 +6,21 @@
 Iffectations
 ++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Iffectations: Affectations that appears in a condition.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Iffectations
-
 	:twitter:description: Iffectations: Affectations that appears in a condition
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Iffectations
-
 	:og:type: article
-
 	:og:description: Affectations that appears in a condition
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Iffectations.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

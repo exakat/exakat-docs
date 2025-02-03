@@ -6,37 +6,21 @@
 Static Variable In Namespace
 ++++++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Static Variable In Namespace: Static variables may be declared outside a function scope, but it has no usage.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Static Variable In Namespace
-
 	:twitter:description: Static Variable In Namespace: Static variables may be declared outside a function scope, but it has no usage
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Static Variable In Namespace
-
 	:og:type: article
-
 	:og:description: Static variables may be declared outside a function scope, but it has no usage
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Static Variable In Namespace.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

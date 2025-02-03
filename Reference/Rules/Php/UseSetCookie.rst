@@ -6,37 +6,21 @@
 Should Use SetCookie()
 ++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Should Use SetCookie(): Use setcookie() or setrawcookie().
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Should Use SetCookie()
-
 	:twitter:description: Should Use SetCookie(): Use setcookie() or setrawcookie()
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Should Use SetCookie()
-
 	:og:type: article
-
 	:og:description: Use setcookie() or setrawcookie()
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Should Use SetCookie().html
-
 	:og:locale: en
-
 
 .. raw:: html
 

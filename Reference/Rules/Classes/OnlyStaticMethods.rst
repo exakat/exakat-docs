@@ -6,37 +6,21 @@
 Only Static Methods Class
 +++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Only Static Methods Class: This rule marks a class that only contains static methods.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Only Static Methods Class
-
 	:twitter:description: Only Static Methods Class: This rule marks a class that only contains static methods
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Only Static Methods Class
-
 	:og:type: article
-
 	:og:description: This rule marks a class that only contains static methods
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Only Static Methods Class.html
-
 	:og:locale: en
-
 
 .. raw:: html
 

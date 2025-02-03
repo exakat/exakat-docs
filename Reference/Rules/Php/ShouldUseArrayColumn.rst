@@ -6,37 +6,21 @@
 Should Use array_column()
 +++++++++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Should Use array_column(): Avoid writing a whole slow loop, and use the native array_column().
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Should Use array_column()
-
 	:twitter:description: Should Use array_column(): Avoid writing a whole slow loop, and use the native array_column()
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Should Use array_column()
-
 	:og:type: article
-
 	:og:description: Avoid writing a whole slow loop, and use the native array_column()
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Should Use array_column().html
-
 	:og:locale: en
-
 
 .. raw:: html
 

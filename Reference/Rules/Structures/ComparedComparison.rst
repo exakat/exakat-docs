@@ -6,37 +6,21 @@
 Compared Comparison
 +++++++++++++++++++
 
-
 .. meta::
-
 	:description:
-
 		Compared Comparison: Usually, comparison are sufficient, and it is rare to have to compare the result of comparison.
-
 	:twitter:card: summary_large_image
-
 	:twitter:site: @exakat
-
 	:twitter:title: Compared Comparison
-
 	:twitter:description: Compared Comparison: Usually, comparison are sufficient, and it is rare to have to compare the result of comparison
-
 	:twitter:creator: @exakat
-
 	:twitter:image:src: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:image: https://www.exakat.io/wp-content/uploads/2020/06/logo-exakat.png
-
 	:og:title: Compared Comparison
-
 	:og:type: article
-
 	:og:description: Usually, comparison are sufficient, and it is rare to have to compare the result of comparison
-
 	:og:url: https://exakat.readthedocs.io/en/latest/Reference/Rules/Compared Comparison.html
-
 	:og:locale: en
-
 
 .. raw:: html
 
